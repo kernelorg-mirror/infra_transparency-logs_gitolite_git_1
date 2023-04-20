@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 20 Apr 2023 08:08:13 -0000
-Message-Id: <168197809334.31995.5448418310076857141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 20 Apr 2023 08:24:36 -0000
+Message-Id: <168197907665.10567.10376468061432846465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/next
-    old: eb6d203935d1b20e63cf456d24d5a58e87285e2d
-    new: 8857928f670be81324a4ded9a40a7f88e31744c2
+  - ref: refs/heads/efi-x86-zboot
+    old: b442525d3c465de95c5fa7810520133dd049b146
+    new: a81d83b78e4ffeee9faf32ed592f14fe1b1bfa3c
     log: |
-         4ff910be01c0ca28c2ea8b354dd47a3a17524489 KVM: arm64: Acquire mp_state_lock in kvm_arch_vcpu_ioctl_vcpu_init()
-         a189884bdc9238aeba941c50f02e25eb584fafed KVM: arm64: Have kvm_psci_vcpu_on() use WRITE_ONCE() to update mp_state
-         8857928f670be81324a4ded9a40a7f88e31744c2 Merge branch kvm-arm64/lock-inversion into kvmarm-master/next
+         0697f7aeb7a0d66cc6e996a46bf9783bfc47f2ac efi/libstub: x86: Split off pieces shared with zboot
+         d3ce21462bbec0cd0d17690787481e494a7934de efi/zboot: x86: Implement EFI zboot support
+         349b18530bdb3466fdeaf921ba20b2db6a3241cc efi/zboot: x86: Clear NX restrictions on populated code regions
+         a81d83b78e4ffeee9faf32ed592f14fe1b1bfa3c efi/zboot: x86: Add mixed mode support
          
