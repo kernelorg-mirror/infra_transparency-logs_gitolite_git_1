@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 20 Apr 2023 18:50:03 -0000
-Message-Id: <168201660350.24179.10109637922365827918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 20 Apr 2023 19:04:24 -0000
+Message-Id: <168201746430.31586.5464107533781807623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/io_uring-sync-issue
-    old: fe17be0eccb19e2032d3b5fb483a80902585894b
-    new: 9bf1630f1fcd49a5e8dabf1f616e401a613ec383
+  - ref: refs/heads/master
+    old: 31b23c886f20702cd0744bfee4f32b9e249abe3c
+    new: b7f85996a5cb290fc2ad7d2f4d7341fc54321016
     log: |
-         c7129b78efc4de6ace9f67dfd42a7024500e4807 io_uring: add support for NO_OFFLOAD
-         1e81588396a2b5d433507c8774b353204a3c00cc Revert "io_uring: always go async for unsupported fadvise flags"
-         ac3152b5086a06094985b5e1e8549b9293c90453 Revert "io_uring: for requests that require async, force it"
-         9bf1630f1fcd49a5e8dabf1f616e401a613ec383 io_uring: mark opcodes that always need io-wq punt
+         b7f85996a5cb290fc2ad7d2f4d7341fc54321016 test/file-verify.t: Don't run over mlock limit when run as non-root
          
