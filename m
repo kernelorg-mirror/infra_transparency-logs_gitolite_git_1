@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5054213908349314488=="
+Content-Type: multipart/mixed; boundary="===============8249457329850047391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 20 Apr 2023 12:18:11 -0000
-Message-Id: <168199309192.21576.6362788057110588139@gitolite.kernel.org>
+Date: Thu, 20 Apr 2023 12:19:39 -0000
+Message-Id: <168199317928.22062.13607289887112607566@gitolite.kernel.org>
 
---===============5054213908349314488==
+--===============8249457329850047391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: bedee105bf4a072294af068d89ec2d2bb5f457ae
-    new: e2f06aa885081e1391916367f53bad984714b4db
+    old: e2f06aa885081e1391916367f53bad984714b4db
+    new: 11a96703943fc4293f50f554b9e33c79ef4f5d8d
     log: |
-         e2f06aa885081e1391916367f53bad984714b4db driver core: Don't require dynamic_debug for initcall_debug probe timing
+         11a96703943fc4293f50f554b9e33c79ef4f5d8d driver core: update comments in device_rename()
          
 
---===============5054213908349314488==
+--===============8249457329850047391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681993089 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681993177 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1681993089-d54431ace707f7580f54900a8df4acfae01c7f97
+nonce 1681993176-a6b0863a0d06d4d11900262897ea1d6f0a3cc0ea
 
-bedee105bf4a072294af068d89ec2d2bb5f457ae e2f06aa885081e1391916367f53bad984714b4db refs/heads/driver-core-testing
+e2f06aa885081e1391916367f53bad984714b4db 11a96703943fc4293f50f554b9e33c79ef4f5d8d refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRBLYEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++jYQAMng/N0OSMn++ojtOyek
-VSFmqfEOW9cMv2QvP8lD1b9d5X9OqTA2ytnO4b44/VS+/Gb9sMmTLHje8LvzEh9G
-WjV7Pt6nPil/Bl+Dgkktc2CMU474jWqsTbVSEXHfIrrlE8NEOZ27q/kcT/datNPi
-tkUiSaUVpmpPLEeuL5k30yxF56+dvrs/vQkqXSOW4pm1Wqj/l7vVwFeexbz15sZr
-PuX5zBeYx201T3yqG3G3h470/peIa36q2pZVtp3ZA8n6akEdy7irljYI8gKZa82l
-M4xsxOdB+ZnX/ExoN/CobO1eyPlFaKDxI65Fr3R7SGsFMkV4mjLoBJ/hMoDjQcM2
-O7Z70IK11FZ1Vshe++/x7nZlfwU+kH5PyEWO60UyfJ6ywi5iNHPPUK9b6iiQVxIC
-SPTCIHawDiJsMEFJRCh4KtTQSSlqa4bxAcXqHVbDi7bz+dKSjfqxs6edHD5zDnuJ
-od7Xc+X7WmCDPoFJF6XPKk2kbu3fXihsZNgLFvQJWVKWxSd6VW/PUMIb7dd++qp1
-FSuPMFk3x23sccs3zmfQCVGMXiNeG3gj6XHcXGql/MZXk5omRDfTvaufroSOpOi/
-grkDkCinsWW5LgxJluXzNlJPUXfqd3y+d/nPTyoDw4EwpQ8Njm5puotcYwO0xNLh
-Wsz5XhtcNdrrmbiRXjsfbgsu
-=3vyH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRBLdkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B+YQAIH0lyTRRxYo0dRLN8VG
+LVZ0KERx/LgwN8s4a9Vya4OXeQ1okjep22dq5V5hcENBsjKk23sHRwIfrsVO/FaX
+YvT1fDWvE7Wv3ngQ3eVKIv1kP+O2Jg54dJvnoOJSwDB4ZmCuvn8rN/DhfxQCX0nD
+eqLXHMcdkZXt5DF1e5BfdbFXzddL+ZiCrpL3zb/7ckkKrMH+fJ0sNb7F8xnnZaKp
+ICf0R3I9v9mliVJZj11xrmGVpMD5WafH7r8SP6DynHme5UY4KT3k/9W1chEvVKx0
+9HGXzR1GN6NxhfpTugnCTM++jwt+YH5LKykbRz1GoxAvh87fAMUUd/WjUniPUiFH
+w3LCfk2YHOjWymqDNNtLw5b71x4RkXbcGVMeHbM2x5MR5a3ovDRIrv95dcWR8VNH
++99lAQ6/efw3oAo3xRRSbX56QeIi7IH7L8zZGpyyBWEKA1SqE8nznzXUI1OU5iva
+Z6NI6BC8tO6t2jadc4Q4j4thEKRoai0QT1rQC58mHaHWXiTAGTpOS128BCLESiDj
+oY7DNmKEKCl/goKSP5/pZgnnziZ2e9jqsB6GJLygW5btlFwXrwUbe42GFE0oleov
+qD8Acpz4k4i/Whe0SpF9oLu1X2qrc91uZ37WWeomgtGQwoWU043nQbc0i3jHHiub
+l5n+R743CgALdIrPzCZWh2oi
+=sG3A
 -----END PGP SIGNATURE-----
 
---===============5054213908349314488==--
+--===============8249457329850047391==--
