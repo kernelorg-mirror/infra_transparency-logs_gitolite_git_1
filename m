@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4487146229535096396=="
+Content-Type: multipart/mixed; boundary="===============5054213908349314488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 20 Apr 2023 12:17:03 -0000
-Message-Id: <168199302339.21117.16797519871667414385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 20 Apr 2023 12:18:11 -0000
+Message-Id: <168199309192.21576.6362788057110588139@gitolite.kernel.org>
 
---===============4487146229535096396==
+--===============5054213908349314488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 4ccb0fc2a212d11e5491a4a1e705d6d84463c3a5
-    new: b56eef3e16d888883fefab47425036de80dd38fc
+  - ref: refs/heads/driver-core-testing
+    old: bedee105bf4a072294af068d89ec2d2bb5f457ae
+    new: e2f06aa885081e1391916367f53bad984714b4db
     log: |
-         15f44da0ab041e6f4d2218468eec792ebfa25665 spmi: hisi-spmi-controller: Convert to platform remove callback returning void
-         75fbbd8b53b46fa1c36d055854d7c0c849abf9ff spmi: mtk-pmif: Convert to platform remove callback returning void
-         019fe19bd4079bc9775fb034e49da68b1b8db06a spmi: pmic-arb: Convert to platform remove callback returning void
-         77982a7f4970dcabf4bbcbcae9d1dc85a731ce6b spmi: mtk-pmif: Drop of_match_ptr for ID table
-         80c606a842e6b6b6f4a2b53a734a9d3be2cdddff spmi: fix W=1 kernel-doc warnings
-         b56eef3e16d888883fefab47425036de80dd38fc spmi: Add a check for remove callback when removing a SPMI driver
+         e2f06aa885081e1391916367f53bad984714b4db driver core: Don't require dynamic_debug for initcall_debug probe timing
          
 
---===============4487146229535096396==
+--===============5054213908349314488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681993021 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1681993020-a5cdb881d6e2a79bba41414ef1f4e22d1b48f704
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681993089 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1681993089-d54431ace707f7580f54900a8df4acfae01c7f97
 
-4ccb0fc2a212d11e5491a4a1e705d6d84463c3a5 b56eef3e16d888883fefab47425036de80dd38fc refs/heads/char-misc-testing
+bedee105bf4a072294af068d89ec2d2bb5f457ae e2f06aa885081e1391916367f53bad984714b4db refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRBLT0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/ckP/0jqa6hPBDUgusmryVxV
-JN0wjIspK1LMP/veVIhSk6utlyqsSXF4/RG1y0RLwon0ECOuzB36xJd5WGN9lF5Z
-IjFQ+tTKpALGzmMoL1505HscpYe7M82wCTc9XhrjBAzLCGQzRewRFz2WE85OVBIx
-6DzCIMWHyN0laQZTcLkL5Xc4TZvcQi1CyanauQx74udReuElgK6bFJS/nRwNJTU8
-P0R+Eyumn9pwiZnZNj0No7/f+UOsQyDhfkQa/mIdEDMRqaLYcPiAIBOXt2GEu69/
-lLeyNbRgDKuWY3ckvPQuBB5ESa9eQwnJbuXsk9RuAsvKfWHxlMAIGciPlHhlqp6x
-6N+luC3HJo8cIRm01mP2aU6lJKJ4/1dm8ha2EpRsJ8A8Vm+IyjGRUNHjfdRdqoum
-A4cYtQfIiF7nmJoTC419W/7YzJgt56LKQlKiihh/HKSNQnkBnOYIS1su59SBlxOG
-vie33ivkbckONl8c869Rp9ewdOqp/MZzns2fIOLCf2/HZgAVpHymLZjisknP5DoR
-2JpYarifUCPYYSer5Bv9033tQQfBIyzH2BAraLJX9nrhWC4JcJTC8hwcvHOjt/L1
-vh8Xw30O8f80BqSZGZXG0C5flLjGXclFjlchcPHMLxAXIKwgeZEERjhdGTO13zy8
-kc+8WBGefWSB1bMljIpWCE1w
-=3mWF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRBLYEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++jYQAMng/N0OSMn++ojtOyek
+VSFmqfEOW9cMv2QvP8lD1b9d5X9OqTA2ytnO4b44/VS+/Gb9sMmTLHje8LvzEh9G
+WjV7Pt6nPil/Bl+Dgkktc2CMU474jWqsTbVSEXHfIrrlE8NEOZ27q/kcT/datNPi
+tkUiSaUVpmpPLEeuL5k30yxF56+dvrs/vQkqXSOW4pm1Wqj/l7vVwFeexbz15sZr
+PuX5zBeYx201T3yqG3G3h470/peIa36q2pZVtp3ZA8n6akEdy7irljYI8gKZa82l
+M4xsxOdB+ZnX/ExoN/CobO1eyPlFaKDxI65Fr3R7SGsFMkV4mjLoBJ/hMoDjQcM2
+O7Z70IK11FZ1Vshe++/x7nZlfwU+kH5PyEWO60UyfJ6ywi5iNHPPUK9b6iiQVxIC
+SPTCIHawDiJsMEFJRCh4KtTQSSlqa4bxAcXqHVbDi7bz+dKSjfqxs6edHD5zDnuJ
+od7Xc+X7WmCDPoFJF6XPKk2kbu3fXihsZNgLFvQJWVKWxSd6VW/PUMIb7dd++qp1
+FSuPMFk3x23sccs3zmfQCVGMXiNeG3gj6XHcXGql/MZXk5omRDfTvaufroSOpOi/
+grkDkCinsWW5LgxJluXzNlJPUXfqd3y+d/nPTyoDw4EwpQ8Njm5puotcYwO0xNLh
+Wsz5XhtcNdrrmbiRXjsfbgsu
+=3vyH
 -----END PGP SIGNATURE-----
 
---===============4487146229535096396==--
+--===============5054213908349314488==--
