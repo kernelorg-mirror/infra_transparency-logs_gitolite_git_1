@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 20 Apr 2023 19:04:24 -0000
-Message-Id: <168201746430.31586.5464107533781807623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 20 Apr 2023 19:17:58 -0000
+Message-Id: <168201827815.9349.7250822093703374237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 31b23c886f20702cd0744bfee4f32b9e249abe3c
-    new: b7f85996a5cb290fc2ad7d2f4d7341fc54321016
+  - ref: refs/heads/controller/kconfig
+    old: 72cd9a84517d168c531fa25f3c700bb029050fc8
+    new: d91004e82b799157125a52325e282457cf494ca1
     log: |
-         b7f85996a5cb290fc2ad7d2f4d7341fc54321016 test/file-verify.t: Don't run over mlock limit when run as non-root
+         d91004e82b799157125a52325e282457cf494ca1 PCI: xilinx: Drop obsolete dependency on COMPILE_TEST
          
