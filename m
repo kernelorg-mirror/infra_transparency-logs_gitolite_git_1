@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2688557880002658955=="
+Content-Type: multipart/mixed; boundary="===============4641580371382618041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 20 Apr 2023 11:46:27 -0000
-Message-Id: <168199118715.32698.15438209823393856478@gitolite.kernel.org>
+Date: Thu, 20 Apr 2023 11:47:48 -0000
+Message-Id: <168199126818.753.17349617211581338841@gitolite.kernel.org>
 
---===============2688557880002658955==
+--===============4641580371382618041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 483e13512046fc786f0af50116df2e30c7fa87d3
-    new: 3f42b142ea1171967e40e10e4b0241c0d6d28d41
+    old: 3f42b142ea1171967e40e10e4b0241c0d6d28d41
+    new: f06c2a9000ebecbb461196e59ce063f742272902
     log: |
-         3f42b142ea1171967e40e10e4b0241c0d6d28d41 serial: max310x: fix IO data corruption in batched operations
+         8749061be196b41a874d71c073c03171bf2741b2 tty: serial: sh-sci: Add RZ/G2L SCIFA DMA tx support
+         cf383d123869574d1de4304ed73771d3eb5a3d40 tty: serial: sh-sci: Add RZ/G2L SCIFA DMA rx support
+         1707ce2d1e4d701db28ba2250d9d72dcf762babc tty: serial: sh-sci: Fix TE setting on SCI IP
+         d61ae331d6f35183b38e0c992bc01bf15d8591c3 tty: serial: sh-sci: Add support for tx end interrupt handling
+         f06c2a9000ebecbb461196e59ce063f742272902 tty: serial: sh-sci: Fix end of transmission on SCI
          
 
---===============2688557880002658955==
+--===============4641580371382618041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681991185 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1681991266 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1681991183-6a2814df68c088a1103dfe8176fb4323f5e24a56
+nonce 1681991265-340e3dbd1e2d4bf05738ac0a69e08d3fc4ee5032
 
-483e13512046fc786f0af50116df2e30c7fa87d3 3f42b142ea1171967e40e10e4b0241c0d6d28d41 refs/heads/tty-testing
+3f42b142ea1171967e40e10e4b0241c0d6d28d41 f06c2a9000ebecbb461196e59ce063f742272902 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRBJhEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GGQQAKFlYiOwgp4gchgAz8sv
-rlmGbqBN/3UI3ClCLu7RDTY0Kq8XTBaJtXp2CI6BYp9snQgp+yT/Te6PsV37hMe6
-/Sj877wmKEoJh9GA1xjHWQ9jwHxLWZ27qDJZQVqI61rtOF/a2MJL4jPyMsj7c2sC
-hQD8tJ1dR9NU4juB7SvQ4VZ1smX4/KWMkGgB/gawvu1WO2oR/qnFpabO+S7iMp6b
-yni7DUKJsi3pScgqqtP/azVckMAmeacpipfD5oLWUxVMAzh6a7aP7TkP/BYgt7gA
-9YKiwPucTXtVbvBcVvjpbDNbsLCL8BuOLOa7DR+utIry3slwNb0S3C60qsx59br9
-3yxeMgEzPAeTbLKfImgBHZCpwqpL1hlcmyPMyfvWqu/nbAjS3gHFNxftMMKvA+Vm
-b73YQXFOBVbpJhIFG+6rpHj401G6Wf+xZ/+Bm0L7zspLgsIaGwCLdqKYkiX0PEXy
-0HSCHsHXM5P4SnWZPw0+c17+nPmHpDB4lhol0t4r7E6Qk43tImgmWCNup2+JPfa0
-Tkt8iHL0Sfc9UwrRwHBaksSNHk/WHaUXsue6vt7gm73pBBi9Qzk7RtdS+OUZqAn4
-8yVBP6+uAXbkeZYGLeFX/VInov0AjJPjd6Jn8MCMEpge7zja2uBZ/y9CPl71fYy8
-1nhVtxKvAqpuoO97tMmFp9Z9
-=wNC/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRBJmIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/A4QAIhqI/epXEpzEoCxLROt
+ANDQ+lrk+0A0qW6aVmttX0kZkVhRqJlMGHAsFpGqcaEy+bikoSZn8HnbQTkxaMrr
+COyJEM286RSyEg2KmWafui2/B3u/9DfZXiGBvSeCBpFjYFN5XdPeW42w0thLQPSH
+CeaMiyPUFmCqKBQpacwybHgvPjGFVZGJTfJlRCs9TdS9KXMNF+o4TR2lZUuk5NS8
+r0gCEui+jxoNytq7xKpEq852BzPoUNdokNdLjOgOw1SXiSVRKlHZ8x1KdD1hjWVR
++n46n/r+SLd5dsKmflJGQsvuiGJlB4bqces+JJ74oUIrIg+TYVFvrFCqM0//9M1L
+vGEj3ZgeRmDzpvuuYG+F/2Tc4p4hC0pZPfL1QDn+ow8E9kAfPTg7eQMfXPospkH5
++hNziOF6qM782PN6BelZKeryeb6rO4MBVUaxymcAPkZVOrs6HXCjNCmRR/+XBEYN
+Fv8pvuH7hjIQvIgp2kQ8aua3l/kAlNreXm3CbVp13psABBcxkRiOQeW5BlGIVSnQ
+W132lmpESaeznrFEKBMAeKc7wCD4tpvHYTjJmy2dPJgEHopnUrW7ImXO2kByCFEH
+dmU9tMLlomWSNwdRPAE+mlieaCxBENiNoCP4C/1ip9H8SfdHejbzqHX4ZTBXA2k2
+7dKufuHBA4HcFxicGWLmBKMc
+=U+PM
 -----END PGP SIGNATURE-----
 
---===============2688557880002658955==--
+--===============4641580371382618041==--
