@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 20 Apr 2023 07:49:24 -0000
-Message-Id: <168197696477.20043.229029533226716787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 20 Apr 2023 07:50:57 -0000
+Message-Id: <168197705755.22133.13639109999990259293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: f52cc627b832e08a7bcf1b7e81e650ec308fe1d8
-    new: 927cdea5d2095287ddd5246e5aa68eb5d68db2be
+  - ref: refs/heads/v2.0.x
+    old: ae275c375477f207912113e5cf190fada78f3f90
+    new: 6b4f9c7a09fe16ba560041df218bccbd70db4443
     log: |
-         927cdea5d2095287ddd5246e5aa68eb5d68db2be net: bridge: switchdev: don't notify FDB entries with "master dynamic"
+         6b4f9c7a09fe16ba560041df218bccbd70db4443 tests: don't segfault if gpio-sim is unavailable
          
