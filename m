@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Apr 2023 07:47:44 -0000
-Message-Id: <168197686420.19437.5509837848102677581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 20 Apr 2023 07:49:24 -0000
+Message-Id: <168197696477.20043.229029533226716787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/timers/core
-    old: 1bb5b68fd3aabb6b9d6b9e9bb092bb8f3c2ade62
-    new: 2aaae4bf41b101f7e58e8b06778b1cd9a1dddf94
+  - ref: refs/heads/main
+    old: f52cc627b832e08a7bcf1b7e81e650ec308fe1d8
+    new: 927cdea5d2095287ddd5246e5aa68eb5d68db2be
     log: |
-         2aaae4bf41b101f7e58e8b06778b1cd9a1dddf94 posix-cpu-timers: Implement the missing timer_wait_running callback
+         927cdea5d2095287ddd5246e5aa68eb5d68db2be net: bridge: switchdev: don't notify FDB entries with "master dynamic"
          
