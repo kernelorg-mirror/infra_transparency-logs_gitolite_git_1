@@ -1,16 +1,72 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 20 Apr 2023 13:49:41 -0000
-Message-Id: <168199858101.17729.1146145849293674831@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1702007631839166483=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 20 Apr 2023 13:49:55 -0000
+Message-Id: <168199859585.17876.15853210917070863113@gitolite.kernel.org>
+
+--===============1702007631839166483==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20230420_peter_ujfalusi_asoc_sof_pcm_intel_pause_resume_improvements_for_ipc4
-    old: 6d0a21dd95c349bbe3663a4870ff7e70ddc6c9b6
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.4
+    old: 09cda705860125ffee1b1359b1da79f8e0c77a40
+    new: 389b01aba302c4504930cd6089d1910995e870af
+    log: revlist-09cda7058601-389b01aba302.txt
+
+--===============1702007631839166483==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1681998594 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1681998593-ffc9d369690086e7f7e4257b61955459810733e4
+
+09cda705860125ffee1b1359b1da79f8e0c77a40 389b01aba302c4504930cd6089d1910995e870af refs/heads/for-6.4
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRBQwIACgkQJNaLcl1U
+h9DWrgf/cAUjb0IyOyUpmBsZLnDKBjCgJDLaXYqWt0mbapGnNI2UnsGwyo3dXCq5
+1EvTifXLfeyJ7uGeExR/5ErOxw+fdR1kcyEzDK9eVUY54H2aBEg947G0ZyGj7qcj
+CZRS2jn9Bn49yG9lNmeGB1ZY22PBWPjs6RfUtdks5hHdzxYaLPuAjIdkkZOJ8Mlv
+IR5einQQhx1jOLIPXwTdFq+uEywvmUfnism0N9rIdhx2fUaCchFWjX6NsFZ65c2y
+BD53fMcSdchLL4pNTljjUn+6Nun742s17K/7qbiuvzkJBohTKfuQHyP10+Q4GMvP
+ol3lFsGaEh/pTOckmepAMyx0ttSeZw==
+=/NiW
+-----END PGP SIGNATURE-----
+
+--===============1702007631839166483==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09cda7058601-389b01aba302.txt
+
+ccb541a00b5bf87f1b7b9301373bf88a3257c688 ASoC: SOF: ipc: Add no reply inline calls
+367fd6ffa294ca3346902aa0814fac31bb5a6059 ASoC: SOF: Use no_reply calls for TX
+058924644f9596b8c55fc81f01f741d628eed940 ASoC: Intel: sof_cirrus_common: Guard against missing buses
+f5460a155ecb961463f6ff766c7d3092f07e6642 ASoC: Intel: soc-acpi: Add entry for rt711-sdca-sdw at link 2 in RPL match table
+06b830bd73ec66b9316b899ae37b1d5b83d16a32 ASoC: Intel: sof_sdw: remove late_probe flag in struct sof_sdw_codec_info
+e9fcbaff5fb871f1a10f09d7d1a4cd13c923e280 ASoC: Intel: sof_sdw_max98373: change sof_sdw_mx8373_late_probe to static call
+16373f30777f45823fa68e850b230fa2ef9d7e92 ASoC: Intel: sof_sdw: set codec_num = 1 if the device is not aggregated
+c8db7b50128b8cc61a5ca6e4717cf8158fca302a ASoC: Intel: sof_sdw: support different devices on the same sdw link
+dc5a3e60a4b5974a0cb5bf2c5df70a490dce9df2 ASoC: Intel: sof_sdw: append codec type to dai link name
+3e94369729ea8a825cf8bf304bfb1749de62ebf4 ASoC: SOF: Intel: hda: Do not stop/start DMA during pause/release
+6d0a21dd95c349bbe3663a4870ff7e70ddc6c9b6 ASoC: SOF: pcm: Add an option to skip platform trigger during stop
+996b07efe49620325332081afdb0dc0bd6fe5cd0 ASoC: SOF: Intel: Split the set_power_op for IPC3 and IPC4
+2cc3fdcddc86644c070223c522e418416cb7b1a2 ASoC: es8316: Don't use ranges based register lookup for a single register
+a9e42d9e8b4be36a1e0dde0285a9ff36b2e06a46 ASoC: cs35l56: Remove duplicate mbox log messages
+0d587f354dcf3616542d6ec3239fb65ed7187735 ASoC: Intel: boards: updates for 6.4
+efd090c040f2ab68b7be79f6c0e94ac8c30d70f1 ASoC: SOF: add no_reply IPC calls
+389b01aba302c4504930cd6089d1910995e870af ASoC: SOF: pcm/Intel: Pause-resume improvements for
+
+--===============1702007631839166483==--
