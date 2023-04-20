@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 19 Apr 2023 23:55:32 -0000
-Message-Id: <168194853250.27917.7357031553906094759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 20 Apr 2023 00:39:24 -0000
+Message-Id: <168195116481.22441.6215734357389150179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 0ddcdba878be367b9792ee81e6a2ad4d38b6834a
-    new: 9b4f511443f77d761f4ecb0077bf8a9879cff438
+  - ref: refs/heads/main
+    old: 8e4c62c7d980eaf0f64c1c0ef0c80f5685af0fb6
+    new: 91daa4f62ce878b6e1ac5908aceb83550332447f
     log: |
-         9b4f511443f77d761f4ecb0077bf8a9879cff438 Bluetooth: btrtl: Add the support for RTL8851B
+         91daa4f62ce878b6e1ac5908aceb83550332447f net: dsa: mt7530: fix support for MT7531BE
          
