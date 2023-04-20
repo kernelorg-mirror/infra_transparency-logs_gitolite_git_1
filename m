@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 20 Apr 2023 11:26:24 -0000
-Message-Id: <168198998412.18134.14709107752880556912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 20 Apr 2023 11:27:04 -0000
+Message-Id: <168199002455.18428.3828842527646368844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 68c1cbc47ded6f2be01af00f73d008970eebeaa2
-    new: 6810eb5cee57863e3f037d03d8a529bb1e550180
+  - ref: refs/heads/perf/core
+    old: 686c511866b4634734be9d6e827e4e55b877d35e
+    new: edd4cab2d492daa5e45bd45e44084a2b9880f224
     log: |
-         6810eb5cee57863e3f037d03d8a529bb1e550180 regex.3: wfix
+         265b0de2f0f293f98173abb336edb63921b9c282 perf probe: Add missing 0x prefix for addresses printed in hexadecimal
+         edd4cab2d492daa5e45bd45e44084a2b9880f224 perf test: Fix maps use after put
          
