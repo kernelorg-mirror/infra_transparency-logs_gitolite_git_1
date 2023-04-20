@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 20 Apr 2023 18:38:01 -0000
-Message-Id: <168201588151.14156.5150371264918143571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 20 Apr 2023 18:45:59 -0000
+Message-Id: <168201635917.20895.3777511328552394738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: bd4ba605c4a92b46ab414626a4f969a19103f97a
-    new: 3e358ea8614ddfbc59ca7a3f5dff5dde2b350b2c
-    log: |
-         a588429a66e92960b195b8dceb3fc5477a2b2f80 RDMA/rxe: Remove qp->resp.state
-         f55efc2ed206eedfed08e1c8f8552f64fc3a11dd RDMA/rxe: Remove qp->comp.state
-         98e891b5e4d94ceb0844de3355c9218027426e72 RDMA/rxe: Remove qp->req.state
-         7b560b89a08d35c23dfc95dc44aee10651c8b9a0 RDMA/rxe: Move code to check if drained to subroutine
-         f605f26ea196a3b49bea249330cbd18dba61a33e RDMA/rxe: Protect QP state with qp->state_lock
-         3e358ea8614ddfbc59ca7a3f5dff5dde2b350b2c RDMA/mlx5: Fix flow counter query via DEVX
-         
+    old: c070bcfdb2fae586999f381ba21f71406b6ee431
+    new: 310c33dc7a1278d80ba717b9964bd478d52681e0
