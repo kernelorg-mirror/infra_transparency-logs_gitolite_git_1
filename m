@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 20 Apr 2023 07:51:02 -0000
-Message-Id: <168197706222.22221.17542391988816376736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 20 Apr 2023 08:08:13 -0000
+Message-Id: <168197809334.31995.5448418310076857141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: b9f5d29950a41d2a3089e8e21838822b751f937f
-    new: 0fdc1a11c9cc05ea281d47235ecf9d5bee2ff505
+  - ref: refs/heads/next
+    old: eb6d203935d1b20e63cf456d24d5a58e87285e2d
+    new: 8857928f670be81324a4ded9a40a7f88e31744c2
     log: |
-         0fdc1a11c9cc05ea281d47235ecf9d5bee2ff505 tests: don't segfault if gpio-sim is unavailable
+         4ff910be01c0ca28c2ea8b354dd47a3a17524489 KVM: arm64: Acquire mp_state_lock in kvm_arch_vcpu_ioctl_vcpu_init()
+         a189884bdc9238aeba941c50f02e25eb584fafed KVM: arm64: Have kvm_psci_vcpu_on() use WRITE_ONCE() to update mp_state
+         8857928f670be81324a4ded9a40a7f88e31744c2 Merge branch kvm-arm64/lock-inversion into kvmarm-master/next
          
