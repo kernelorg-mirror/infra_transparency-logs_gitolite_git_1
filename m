@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 20 Apr 2023 18:20:16 -0000
-Message-Id: <168201481611.4181.8157384583167271549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 20 Apr 2023 18:33:53 -0000
+Message-Id: <168201563325.11329.2515166339783945437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 8a51184ed91ba8a82fb31a69b511cc5dc7a9fa07
-    new: 5e0ca524ad60e46b3834ec5401f8a50b5b18fc39
+  - ref: refs/heads/for-linus
+    old: a0814a0e8b5bc2240ba43691172aa72ac54d16e7
+    new: 0d21e71a91debc87e88437a2cf9c6f34f8bf012f
     log: |
-         5e0ca524ad60e46b3834ec5401f8a50b5b18fc39 hwmon: (pmbus/fsp-3y) Fix functionality bitmask in FSP-3Y YM-2151E
+         0d21e71a91debc87e88437a2cf9c6f34f8bf012f PCI: Restrict device disabled status check to DT
          
