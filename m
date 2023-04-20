@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 20 Apr 2023 17:45:44 -0000
-Message-Id: <168201274423.13721.4959293563158599953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 20 Apr 2023 18:13:21 -0000
+Message-Id: <168201440196.29678.1082016214978101000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/x86-rep-insns
-    old: e046fe5a36a970bc14fbfbcb2074a48776f6b671
-    new: e1f2750edc4afebb966a229b797fc89b98ee6098
+  - ref: refs/heads/tmp.perf/core
+    old: edd4cab2d492daa5e45bd45e44084a2b9880f224
+    new: 9be6ab181b7b8d6114e225ae3c7c01bb6380cf8a
     log: |
-         e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __copy_user_nocache()
+         9be6ab181b7b8d6114e225ae3c7c01bb6380cf8a libperf rc_check: Enable implicitly with sanitizers
          
