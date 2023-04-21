@@ -1,52 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8497882925761022968=="
+Content-Type: multipart/mixed; boundary="===============7531819791946863063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 21 Apr 2023 23:26:47 -0000
-Message-Id: <168211960782.26954.10042962077073110945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Fri, 21 Apr 2023 23:40:49 -0000
+Message-Id: <168212044960.3554.2546005562631805669@gitolite.kernel.org>
 
---===============8497882925761022968==
+--===============7531819791946863063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/master
-    old: 0bf9601f8ef0703523018e975d6c1f3fdfcff4b9
-    new: 265b97cbc22e0f67f79a71443b60dc1237ca5ee6
-    log: |
-         35dcb3ac663a16510afc27ba2725d70c15e012a5 KVM: arm64: Make vcpu flag updates non-preemptible
-         a25bc8486f9c01c1af6b6c5657234b2eee2c39d6 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-         265b97cbc22e0f67f79a71443b60dc1237ca5ee6 Merge tag 'kvmarm-fixes-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-         
+  - ref: refs/heads/main
+    old: c7ce03c47ae836cad7d95fc08dc564452fe9b6e3
+    new: 207296f1a03bfead0110ffc4f192f242100ce4ff
+    log: revlist-c7ce03c47ae8-207296f1a03b.txt
 
---===============8497882925761022968==
+--===============7531819791946863063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c7ce03c47ae8-207296f1a03b.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1682119602 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1682119601-399b23eb8697ca48879c554de9c6709968f8823c
+e38fbfa972eb0944ce4387caf23d166c1df4b114 netfilter: nf_tables: merge nft_rules_old structure and end of ruleblob marker
+d4d89e6546e0d1ac09cb9dd353f0cb31c8a8deb1 netfilter: nf_tables: don't store address of last rule on jump
+63e9bbbcca60333490e13744ae736d8f988e4950 netfilter: nf_tables: don't store chain address on jump
+9a32e9850686599ed194ccdceb6cd3dd56b2d9b9 netfilter: nf_tables: don't write table validation state without mutex
+00c320f9b75560628e840bef027a27c746706759 netfilter: nf_tables: make validation state per table
+2a1d6abd7ebeafc45f2fb5fabfd53b8b3beaa170 netfilter: nf_tables: remove unneeded conditional
+698bb828a6c20c86e30b307175be1827c071ce23 netfilter: nf_tables: do not store pktinfo in traceinfo structure
+0a202145d5f9277dd24474aca8245731d030f29e netfilter: nf_tables: do not store verdict in traceinfo structure
+46df417544f4f7fa3438caada0dc0e534a694343 netfilter: nf_tables: do not store rule in traceinfo structure
+e3478c68f6704638d08f437cbc552ca5970c151a ipvs: Update width of source for ip_vs_sync_conn_options
+280654932e341bf2860503af49bd5cb8e2b78522 ipvs: Consistently use array_size() in ip_vs_conn_init()
+210ffe4a74caead4d6790747d32b63c6152c70b7 ipvs: Remove {Enter,Leave}Function
+c7d15aaa105a9484b5385e5c391ea5203347d6b0 ipvs: Correct spelling in comments
+c3c060adc0249355411a93e61888051e6902b8a1 netfilter: nf_tables: extended netlink error reporting for netdevice
+28339b21a365a8cb9edc6956cbfd679f569daa81 netfilter: nf_tables: do not send complete notification of deletions
+cdc32546632354305afdcf399a5431138a31c9e0 netfilter: nf_tables: rename function to destroy hook list
+b9703ed44ffbfba85c103b9de01886a225e14b38 netfilter: nf_tables: support for adding new devices to an existing netdev chain
+7d937b107108f918906fc867ea070cc3d0cbcd32 netfilter: nf_tables: support for deleting devices in an existing netdev chain
+207296f1a03bfead0110ffc4f192f242100ce4ff netfilter: nf_tables: allow to create netdev chain without device
 
-0bf9601f8ef0703523018e975d6c1f3fdfcff4b9 265b97cbc22e0f67f79a71443b60dc1237ca5ee6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmRDG7IUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMlNQgAn5jq7JUITOVxWoJ+7FMWf4fMbXRG
-VpvWcrqZsVXO4rio/ndWpwzFeoShbIp97P9Qa7vsDUc5zh8BrVm3YcAuMt9RRM1q
-ZwI4hVfT5Q3yrE3NIykExpGXeLb/HR0s8Yp2/QaJHYUVEMJfbd3gEkqeHM4gwxZk
-PbHqeVRmPH69EMaQj6SdlDvZqHMVPa/5Tt24paYdCxBdGggnOcKuXApFe84kLC3w
-W8weNLz5eP6S67ZIKAyYYOWx3VcCuNimQMv24j9fsqblrzLAsyYIeJRlfj6hXzYB
-BHKE+LVW6gV3Rz3Wz9HYNR2tsKP+vzabAsCk2TCGREW7g90p6qPRNzXLYw==
-=fPoQ
------END PGP SIGNATURE-----
-
---===============8497882925761022968==--
+--===============7531819791946863063==--
