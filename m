@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 21 Apr 2023 13:00:16 -0000
-Message-Id: <168208201692.25925.12296484897214967891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 21 Apr 2023 13:06:11 -0000
+Message-Id: <168208237134.29267.4382404230314952452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 414c62a5f10b4223d0fc0356e23ab568e8f6044c
-    new: fa37d21792b61092e71fa45150d40374dd60e6e1
+  - ref: refs/heads/irq/irqchip-next
+    old: e570658d253411392d59ecf379fa8847e9528bf5
+    new: 2ff1b0839ddd514be4752c64c1c6facf91ff3a56
     log: |
-         b2ccba9e8cdc6fb3985cc227844e7c6af309ffb1 firmware: arm_scmi: Fix xfers allocation on Rx channel
-         92ac94f7e176bb9f5a9735bc1be6d69e96d4d5c1 dt-bindings: firmware: arm,scmi: Support mailboxes unidirectional channels
-         9f68ff79ec2cb303f360a35eef5dd8f1f0f817e1 firmware: arm_scmi: Add support for unidirectional mailbox channels
-         f499d294b1db7944fca715b5082b235dd9234345 firmware: arm_scmi: Fix incorrect alloc_workqueue() invocation
-         fa37d21792b61092e71fa45150d40374dd60e6e1 Merge branch 'for-next/scmi/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         f39157b3c0bb4afdcaea7809b3669de8e0495ed5 Merge branch irq/gic-6.4 into irq/irqchip-next
+         e7b5771aa08746c13bb03ebe0a5053df1498c328 Merge branch irq/riscv-ipi into irq/irqchip-next
+         275232c0b4064b85fd48532dff1a9b2764d67617 Merge branch irq/loongarch-fixes-6.4 into irq/irqchip-next
+         2ff1b0839ddd514be4752c64c1c6facf91ff3a56 Merge branch irq/misc-6.4 into irq/irqchip-next
          
