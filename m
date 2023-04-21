@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 21 Apr 2023 02:04:54 -0000
-Message-Id: <168204269424.25916.7416529764379246080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 21 Apr 2023 02:10:36 -0000
+Message-Id: <168204303638.30773.3520416641056169100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/x86-rep-insns
-    old: e1f2750edc4afebb966a229b797fc89b98ee6098
-    new: 034ff37d34071ff3f48755f728cd229e42a4f15d
+  - ref: refs/heads/main
+    old: 681c5b51dc6b8ff1ec05555243eccf64a08cb2fd
+    new: 4bb7aac70b5d8a4bddf4ee0791b834f9f56883d2
     log: |
-         034ff37d34071ff3f48755f728cd229e42a4f15d x86: rewrite '__copy_user_nocache' function
+         4bb7aac70b5d8a4bddf4ee0791b834f9f56883d2 net: phy: fix circular LEDS_CLASS dependencies
          
