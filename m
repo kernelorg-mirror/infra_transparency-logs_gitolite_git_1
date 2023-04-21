@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
 Date: Fri, 21 Apr 2023 18:14:34 -0000
-Message-Id: <168210087473.12926.930791409507951052@gitolite.kernel.org>
+Message-Id: <168210087496.12945.454357780367415798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 334e5a8206af93818fd384300666cc203f08f035
-    new: c337b23f32c87320dffd389e4f0f793db35f0a9b
-    log: |
-         e9f59429b87d35cf23ae9ca19629bd686a1c0304 btrfs: set default discard iops_limit to 1000
-         ef9cddfe57d86aac6b509b550136395669159b30 btrfs: reinterpret async discard iops_limit=0 as no delay
-         c337b23f32c87320dffd389e4f0f793db35f0a9b Merge tag 'for-6.3-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
