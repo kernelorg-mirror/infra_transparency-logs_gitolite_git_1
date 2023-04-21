@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 21 Apr 2023 13:16:30 -0000
-Message-Id: <168208299003.5999.4018021292042741828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 21 Apr 2023 13:17:36 -0000
+Message-Id: <168208305695.8278.1487385361292444688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/irqchip-6.4
+  - ref: refs/heads/20230421_kuninori_morimoto_gx_asoc_fsl_cleanup_platform
     old: 0000000000000000000000000000000000000000
-    new: 174058779d74bb7c57cb59f02d012c457c1545f2
+    new: dc801ea8ae37d54706e6f1cef140731ac5981c9c
+  - ref: refs/heads/filewEFtC0
+    old: 0000000000000000000000000000000000000000
+    new: 25f0617109496e1aff49594fbae5644286447a0f
+  - ref: refs/heads/v10_20230421_kyarlagadda_tegra_tpm_driver_with_hw_flow_control
+    old: 0000000000000000000000000000000000000000
+    new: b26260d57b097bd0c00af3a4bb1c5825ceddf7a0
