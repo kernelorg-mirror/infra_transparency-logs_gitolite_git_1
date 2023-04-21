@@ -1,122 +1,150 @@
-Content-Type: multipart/mixed; boundary="===============2242143191225748964=="
+Content-Type: multipart/mixed; boundary="===============7881123918057656756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 21 Apr 2023 22:50:03 -0000
-Message-Id: <168211740351.3056.12656300322740207388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 21 Apr 2023 23:01:44 -0000
+Message-Id: <168211810455.9736.5412299303714575006@gitolite.kernel.org>
 
---===============2242143191225748964==
+--===============7881123918057656756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
+  - ref: refs/heads/main
+    old: 9c6990cca24301ae8f82bf6291049667a0aef14b
+    new: 7580f92ffa970b9484ac214f7b53cec5e26ca4bc
+    log: |
+         92b1dd1b9e6e272c5115d6e37e19a892610a2686 archive: improve support for running in subdirectory
+         f024913164ae6ec53bd97c0fb8481abb0fecd86d format-patch: correct documentation of --thread without an argument
+         748b8d669a0d7232c2174e02a20e32284ac05677 describe: enable sparse index for describe
+         9a09ed322908b1a022a2948802f1ad4588223320 doc: simplify man version
+         aabfdc9514a51d8d9a2f3afbc29e5044ccf7191b branch, for-each-ref, tag: add option to omit empty lines
+         09a7b61c1d4eadd9e51510876eede658df0ca538 Merge branch 'fc/doc-stop-using-manversion'
+         de73a20756e0d938c3098391d011b633ba863530 Merge branch 'rs/archive-from-subdirectory-fixes'
+         7ac228c99451970bc1c31f32cbbd273311cd3a02 Merge branch 'rn/sparse-describe'
+         9e0d1aa495bd26f4688b915ac5c3cb656c9f7174 Merge branch 'ah/format-patch-thread-doc'
+         b64894c2063e5875bfd95b537eafcb3e1abf46ff Merge branch 'ow/ref-filter-omit-empty'
+         7580f92ffa970b9484ac214f7b53cec5e26ca4bc The twelfth batch
+         
   - ref: refs/heads/master
-    old: cb0856346a60fe3eb837ba5e73588a41f81ac05f
-    new: 8e41e0a575664d26bb87e012c39435c4c3914ed9
-    log: revlist-cb0856346a60-8e41e0a57566.txt
+    old: 9c6990cca24301ae8f82bf6291049667a0aef14b
+    new: 7580f92ffa970b9484ac214f7b53cec5e26ca4bc
+    log: |
+         92b1dd1b9e6e272c5115d6e37e19a892610a2686 archive: improve support for running in subdirectory
+         f024913164ae6ec53bd97c0fb8481abb0fecd86d format-patch: correct documentation of --thread without an argument
+         748b8d669a0d7232c2174e02a20e32284ac05677 describe: enable sparse index for describe
+         9a09ed322908b1a022a2948802f1ad4588223320 doc: simplify man version
+         aabfdc9514a51d8d9a2f3afbc29e5044ccf7191b branch, for-each-ref, tag: add option to omit empty lines
+         09a7b61c1d4eadd9e51510876eede658df0ca538 Merge branch 'fc/doc-stop-using-manversion'
+         de73a20756e0d938c3098391d011b633ba863530 Merge branch 'rs/archive-from-subdirectory-fixes'
+         7ac228c99451970bc1c31f32cbbd273311cd3a02 Merge branch 'rn/sparse-describe'
+         9e0d1aa495bd26f4688b915ac5c3cb656c9f7174 Merge branch 'ah/format-patch-thread-doc'
+         b64894c2063e5875bfd95b537eafcb3e1abf46ff Merge branch 'ow/ref-filter-omit-empty'
+         7580f92ffa970b9484ac214f7b53cec5e26ca4bc The twelfth batch
+         
+  - ref: refs/heads/next
+    old: bd7f14d9353b7ce9acf82b32f80f585373a5ebe3
+    new: b28a910c4c1e6d7cbdc0663e75c2f5bc6b11eb20
+    log: revlist-bd7f14d9353b-b28a910c4c1e.txt
+  - ref: refs/heads/seen
+    old: 0f261e7ae3225840035fb9ed15940cd801ccea58
+    new: db3211b9f790b4c73066a4dc991583d2c0712419
+    log: revlist-0f261e7ae322-db3211b9f790.txt
 
---===============2242143191225748964==
+--===============7881123918057656756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb0856346a60-8e41e0a57566.txt
+Content-Disposition: attachment; filename=revlist-bd7f14d9353b-b28a910c4c1e.txt
 
-c3d79fda250ac5df73d089f08311eb87138b04f3 fpga: m10bmc-sec: Fix rsu_send_data() to return FW_UPLOAD_ERR_HW_ERROR
-83a458e330ff54951d3ddd378f970ab96b864020 fpga: dfl-pci: Drop redundant pci_enable_pcie_error_reporting()
-d2b727cb532b15e8b33aa259c2e885679618971c fpga: xilinx-pr-decoupler: Use readl wrapper instead of pure readl
-73a428b37b9b538f8f8fe61caa45e7f243bab87c iio: adc: at91-sama5d2_adc: fix an error code in at91_adc_allocate_trigger()
-ffef73791574b8da872cfbf881d8e3e9955fc130 iio: dac: ad5755: Add missing fwnode_handle_put()
-de6aa72b265b72bca2b1897d5000c8f0147d3157 ASoC: SOF: ipc4-topology: Clarify bind failure caused by missing fw_module
-0b186bb06198653d74a141902a7739e0bde20cf4 ASoC: SOF: pm: Tear down pipelines only if DSP was active
-94623f579ce338b5fa61b5acaa5beb8aa657fb9e netfilter: br_netfilter: fix recent physdev match breakage
-af0acf22aea359e04412237d68787401f96bb583 netfilter: nf_tables: Modify nla_memdup's flag to GFP_KERNEL_ACCOUNT
-352e1eb17eee86ab4dd66c0c9df528b350aaace2 ASoC: max98373: change power down sequence for smart amp
-dc70eb868b9cd2ca01313e5a394e6ea001d513e9 fpga: bridge: properly initialize bridge device before populating children
-88e8c2ec4ab84f9f05ed5af9693a3972baf386c4 rust: str: fix requierments->requirements typo
-e5e86572e3f20222b5d308df9ae986c06f229321 rust: sort uml documentation arch support table
-c682e4c37d2b8ba3bde1125cbbea4ee88824b4e2 rust: kernel: Mark rust_fmt_argument as extern "C"
-5c7548d5a25306dcdb97689479be81cacc8ce596 scripts: generate_rust_analyzer: Handle sub-modules with no Makefile
-1c5f054f0b12875096e339861c7f44a7c952ce56 rust: build: Fix grep warning
-b1cb00d51e361cf5af93649917d9790e1623647e iio: light: tsl2772: fix reading proximity-diodes from device tree
-265f1ecff7bf570f4fb9eaa0a40110e4e2091cea Merge tag 'iio-fixes-for-6.3b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-a042d7feae7eff98a9ad5a9de5004e60883a96d3 Merge tag 'fpga-for-6.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
-01407940f9cd3bd87f3b707f7175f6f41ac1238b gpio: 104-dio-48e: Enable use_raw_spinlock for dio48e_regmap_config
-2ce987d7eeb168b749494694ae3666de87fc356e gpio: 104-idi-48: Enable use_raw_spinlock for idi48_regmap_config
-11b3b9f461c5c4f700f6c8da202fcc2fd6418e1f drm/sched: Check scheduler ready before calling timeout handling
-3037933448f60f9acb705997eae62013ecb81e0d net: sched: sch_qfq: prevent slab-out-of-bounds in qfq_activate_agg
-c730fce7c70cfce831f4bdc9e49880ba1f61a092 s390/bpf: Fix bpf_arch_text_poke() with new_addr == NULL
-853618d5886bf94812f31228091cd37d308230f7 virtio_net: bugfix overflow inside xdp_linearize_page()
-a80bb8e7233b2ad6ff119646b6e33fb3edcec37b sfc: Fix use-after-free due to selftest_work
-e1c71f8f918047ce822dc19b42ab1261ed259fd1 drm/i915: Fix fast wake AUX sync len
-338469d677e5d426f5ada88761f16f6d2c7c1981 net/sched: clear actions pointer in miss cookie init fail
-afa965a45e01e541cdbe5c8018226eff117610f0 drm/rockchip: vop2: fix suspend/resume
-c55c0e91c813589dc55bea6bf9a9fbfaa10ae41d netfilter: nf_tables: fix ifdef to also consider nf_tables=m
-7363d6bedc000f6f9d09cfe498da2f3aca653778 drm/nouveau: fix incorrect conversion to dma_resv_wait_timeout()
-8485d093b076e59baff424552e8aecfc5bd2d261 i40e: fix accessing vsi->active_filters without holding lock
-c86c00c6935505929cc9adb29ddb85e48c71f828 i40e: fix i40e_setup_misc_vector() error handling
-b63a553e8f5aa6574eeb535a551817a93c426d8c drm/rockchip: vop2: Use regcache_sync() to fix suspend/resume
-1a2bd3bd72e978304cdc0a7385e8048e8242225d ice: document RDMA devlink parameters
-d46fc894147cf98dd6e8210aa99ed46854191840 netfilter: nf_tables: validate catch-all set elements
-e50b9b9e8610d47b7c22529443e45a16b1ea3a15 cxgb4: fix use after free bugs caused by circular dependency problem
-d4eb7e39929a3b1ff30fb751b4859fc2410702a0 netfilter: nf_tables: tighten netlink attribute requirements for catch-all elements
-e8b51a1a15d5a3cce231e0669f6a161dc5bb9b75 bnxt_en: Do not initialize PTP on older P3/P4 chips
-4f4e54b1041e60694117893cd986831153a3e719 bnxt_en: Fix a possible NULL pointer dereference in unload path
-28e63d01a9f46d47b73045817f95c114a7769c71 Merge branch 'bnxt_en-bug-fixes'
-c0e73276f0fcbbd3d4736ba975d7dc7a48791b0c mlxfw: fix null-ptr-deref in mlxfw_mfa2_tlv_next()
-8267fc71abb2dc47338570e56dd3473a58313fce veth: take into account peer device for NETDEV_XDP_ACT_NDO_XMIT xdp_features flag
-c8b5a95b570949536a2b75cd8fc4f1de0bc60629 drm/amdgpu: Fix desktop freezed after gpu-reset
-6d9240c46f7419aa3210353b5f52cc63da5a6440 drm/amd/display: set dcn315 lb bpp to 48
-1e994cc0956b8dabd1b1fef315bbd722733b8aa8 drm/amd/display: limit timing for single dimm memory
-0b5dfe12755f87ec014bb4cc1930485026167430 drm/amd/display: fix a divided-by-zero error
-92e8c732d8518588ac34b4cb3feaf37d2cb87555 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-c484fcc058bada604d7e4e5228d4affb646ddbc2 bonding: Fix memory leak when changing bond type to Ethernet
-6f4833383e8514ea796d094e05c24889b8997fde net: vmxnet3: Fix NULL pointer dereference in vmxnet3_rq_rx_complete()
-4e006c7a6dac0ead4c1bf606000aa90a372fc253 net: rpl: fix rpl header size calculation
-2a6a870e44dd88f1a6a2893c65ef756a9edfb4c7 mptcp: stops worker on unaccepted sockets at listener close
-63740448a32eb662e05894425b47bcc5814136f4 mptcp: fix accept vs worker race
-ed7f9c01e2de73eb65388357c341d4323dd02eac Merge branch 'mptcp-fixes'
-bc66b591903e197982215f9febcfa09c4becfd89 ALSA: hda/realtek: Remove specific patch for Dell Precision 3260
-1f64757ee2bb22a93ec89b4c71707297e8cca0ba mlxsw: pci: Fix possible crash during initialization
-fcd4843a19d50f9e59116b2643e1a7d171b6fca1 hamradio: drop ISA_DMA_API dependency
-238787157d83969e5149c8e99787d5d90e85fbe5 ASoC: fsl_sai: Fix pins setting for i.MX8QM platform
-86a24e99c97234f87d9f70b528a691150e145197 ASoC: fsl_asrc_dma: fix potential null-ptr-deref
-71b547f561247897a0a14f3082730156c0533fed bpf: Fix incorrect verifier pruning due to missing register precision taints
-ccc4505454db10402d5284f22d8b7db62e636fc5 rust: fix regexp in scripts/is_rust_module.sh
-d966c3cab924fb750fefef11e77a6fa07dd5420e rust: allow to use INIT_STACK_ALL_ZERO
-3d2f8f1f184c60508f7af3022536651d7ac2dd07 net: dsa: microchip: ksz8795: Correctly handle huge frame configuration
-8c154d272c3e03b100baaf1df473f22a78fa403e bnxt_en: fix free-runnig PHC mode
-67d47b95119ad589b0a0b16b88b1dd9a04061ced e1000e: Disable TSO on i219-LM card to increase speed
-7b97174d0ef798ba7f802c07527ae378923e5ebc Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-7b3aba7ea336d069b30b91502d47792c280bae2b mailmap: add entries for Mat Martineau
-52b37ae8aa6797a8183e8554672797045e81d9ae MAINTAINERS: Resume MPTCP co-maintainer role
-9d94769081a65aacd54552dbdeeca2544f70442b Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-f52cc627b832e08a7bcf1b7e81e650ec308fe1d8 Revert "net/mlx5: Enable management PF initialization"
-990cbca00226ff15fa2b24caffd099d05f2e2395 Merge tag 'asoc-fix-v6.3-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-2ae147d643d326f74d93ba4f72a405f25f2677ea ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
-927cdea5d2095287ddd5246e5aa68eb5d68db2be net: bridge: switchdev: don't notify FDB entries with "master dynamic"
-81ea1222f2fa5006f4b9759c2fe1ec154109622d Revert "block: Merge bio before checking ->cached_rq"
-23309d600db1abb73b77ca35db96133b7fc35959 Merge tag 'net-6.3-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0d21e71a91debc87e88437a2cf9c6f34f8bf012f PCI: Restrict device disabled status check to DT
-6a66fdd29ea1695d615fcc93dccfb6dbe2f53b1d Merge tag 'rust-fixes-6.3' of https://github.com/Rust-for-Linux/linux
-0f2a4af27b649c13ba76431552fe49c60120d0f6 wifi: ath9k: Don't mark channelmap stack variable read-only in ath9k_mci_update_wlan_channels()
-e9f59429b87d35cf23ae9ca19629bd686a1c0304 btrfs: set default discard iops_limit to 1000
-ef9cddfe57d86aac6b509b550136395669159b30 btrfs: reinterpret async discard iops_limit=0 as no delay
-b7bc77e2f2c714c82aa723445d98fa4c2fb63e90 Merge tag 'pci-v6.3-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-f126f41cec1b6fa04c1d06517ec8f3e19908c5f7 Merge tag 'drm-misc-fixes-2023-04-20-2' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-3b1f2be527ce04e7d8dce6fad6be16fa59058713 Merge tag 'drm-intel-fixes-2023-04-19' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-00a4bd000e78a3a898e60bdc13e2852c8044a38c Merge tag 'amd-drm-fixes-6.3-2023-04-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-2af3e53a4dc08657f1b46f97f04ff4a0ab3cad8d Merge tag 'drm-fixes-2023-04-21' of git://anongit.freedesktop.org/drm/drm
-5a43001c01691dcbd396541e6faa2c0077378f48 ASN.1: Fix check for strdup() success
-a14e151910dd967311dbdfe6d95dcd04e777db84 Merge tag 'sound-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-bdc83e00f0a195b85e7879b65a4ca7a6520fe135 Merge tag 'gpio-fixes-for-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-8fd06d441e35cc9543b410f9cb9aaa8e54ece38d Merge tag 'char-misc-6.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-334e5a8206af93818fd384300666cc203f08f035 Merge tag 'block-6.3-2023-04-21' of git://git.kernel.dk/linux
-c337b23f32c87320dffd389e4f0f793db35f0a9b Merge tag 'for-6.3-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-8e41e0a575664d26bb87e012c39435c4c3914ed9 Revert "ACPICA: Events: Support fixed PCIe wake event"
+c41258359e2f77a4fba000b2bbb975ebaf7d641b pack-write.c: plug a leak in stage_tmp_packfiles()
+c512f31109ea09a6db72af0af4572dc0a2c2df0f builtin/repack.c: fix incorrect reference to '-C'
+05b9013b7181e0c842517ce76aeab25a56670dc0 builtin/gc.c: ignore cruft packs with `--keep-largest-pack`
+b934207a223a846e98c693c4c6a9ca32bf995688 t/t5304-prune.sh: prepare for `gc --cruft` by default
+b31d45b8315adc49b729496f3c0ed18a41ca08f6 t/t6501-freshen-objects.sh: prepare for `gc --cruft` by default
+50685e0e0ba743892c9832c414494093ae3e8703 t/t6500-gc.sh: refactor cruft pack tests
+b9061bc628673c447996759821cecc399c908331 t/t6500-gc.sh: add additional test cases
+c58100ab5d33e12c790b89dafee9fd1efbc46a99 t/t9300-fast-import.sh: prepare for `gc --cruft` by default
+e3e24de1bf1fd443978015fe06bb523dc85a3086 builtin/gc.c: make `gc.cruftPacks` enabled by default
+029a632c35861b3395c71e767d80bbf463dc1ae1 repository.h: drop unused `gc_cruft_packs`
+7891e465856e539c4a102dadec6dca9ac51c38df gpg-interface: set trust level of missing key to "undefined"
+09a7b61c1d4eadd9e51510876eede658df0ca538 Merge branch 'fc/doc-stop-using-manversion'
+de73a20756e0d938c3098391d011b633ba863530 Merge branch 'rs/archive-from-subdirectory-fixes'
+7ac228c99451970bc1c31f32cbbd273311cd3a02 Merge branch 'rn/sparse-describe'
+9e0d1aa495bd26f4688b915ac5c3cb656c9f7174 Merge branch 'ah/format-patch-thread-doc'
+b64894c2063e5875bfd95b537eafcb3e1abf46ff Merge branch 'ow/ref-filter-omit-empty'
+7580f92ffa970b9484ac214f7b53cec5e26ca4bc The twelfth batch
+068bf86fc32e358410eee08c5816ed784741ffb6 Merge branch 'tb/enable-cruft-packs-by-default' into next
+eb8413dc9de8a1796b068524e01b12c55c8fc926 Merge branch 'jk/gpg-trust-level-fix' into next
+b28a910c4c1e6d7cbdc0663e75c2f5bc6b11eb20 Sync with 'master'
 
---===============2242143191225748964==--
+--===============7881123918057656756==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0f261e7ae322-db3211b9f790.txt
+
+a5c76569e798ad3656afe6b67f37cbbb2e47f28c credential: new attribute oauth_refresh_token
+2739b3473a2eccae58cecd836c130061e3ce995f rebase -i: move unlink() calls
+486312cec7db55c3d15ca6535bd66b63115064dc rebase -i: remove patch file after conflict resolution
+a2fbbcb2705b73d896561096bc1ea7ba85ba663c sequencer: factor out part of pick_commits()
+193623fd97e2b3d3ce9a93c0afd4514f29f33eca rebase --continue: refuse to commit after failed command
+cfc27593ab9fdcef07bbdb8d31797494e329842c rebase: fix rewritten list for failed pick
+bf1932c2f33f7bc76cf2f792e342c219b025e371 rebase -i: fix adding failed command to the todo list
+09a7b61c1d4eadd9e51510876eede658df0ca538 Merge branch 'fc/doc-stop-using-manversion'
+de73a20756e0d938c3098391d011b633ba863530 Merge branch 'rs/archive-from-subdirectory-fixes'
+7ac228c99451970bc1c31f32cbbd273311cd3a02 Merge branch 'rn/sparse-describe'
+9e0d1aa495bd26f4688b915ac5c3cb656c9f7174 Merge branch 'ah/format-patch-thread-doc'
+b64894c2063e5875bfd95b537eafcb3e1abf46ff Merge branch 'ow/ref-filter-omit-empty'
+7580f92ffa970b9484ac214f7b53cec5e26ca4bc The twelfth batch
+3e168d66323f26d2f8603208b547b281cad76716 Merge branch 'en/header-split-cache-h' into jch
+a89b5de174cf696b71c5afc0970858cf227f72ac Merge branch 'jk/protocol-cap-parse-fix' into jch
+efba44ae8b555235019af0eb24bd7eddce676a31 Merge branch 'rj/send-email-validate-hook-count-messages' into jch
+282b7cb93c6ccedaa0396452947210ec833744dd Merge branch 'ps/fix-geom-repack-with-alternates' into jch
+578a470dff133fd8dc1bd48e0c644c0d48436fa0 Merge branch 'tb/pack-revindex-on-disk' into jch
+56dbef63216666d907086b4076cea1d8007a2185 Merge branch 'ds/fsck-pack-revindex' into jch
+8ebd95e32958656f0867d1733f9f2e9923f97adb Merge branch 'pb/complete-and-document-auto-merge-and-friends' into jch
+523b3593d3e7e883e01a8863988b8c7b2a8b4dad Merge branch 'fc/doc-use-datestamp-in-commit' into jch
+d416a0f9fdcc19bb1f65fd2999e196c7d87be2e5 Merge branch 'fc/doc-checkout-markup-updates' into jch
+2a10e6eb6d3b9d5528913c260150864e33706217 Merge branch 'tb/enable-cruft-packs-by-default' into jch
+a6d63aab837f98c7658f0acaf0e3530df1018dc0 Merge branch 'jk/gpg-trust-level-fix' into jch
+fcca60a1cd0ae5e396df81000681276d66a59748 ### match next
+f1f5e5ef572d7baab9206cf2c0f4a5e915e44b16 Merge branch 'ek/completion-use-read-r-to-read-literally' into jch
+c3ed4123cc5268a13a3dce13f1363a3d6a2b3f2e Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
+c08da554892e36deeb0a17f74a74a8de6f0aca03 Merge branch 'mh/credential-password-expiry-wincred' into jch
+b2ea39a13642669614dafd6938f89611d85692bf Merge branch 'en/header-split-cache-h-part-2' into jch
+65c32bbcd4d9d2f90f92875f1cb92d4366697acf Merge branch 'mh/credential-oauth-refresh-token' into jch
+1d7ef44229c02d216a09275478111297d6eae881 Merge branch 'mh/credential-password-expiry-libsecret' into jch
+715e20b036d7ccf63959b79952e1e6919c43ddd6 Merge branch 'gc/doc-cocci-updates' into jch
+72cd25e3fe58e899748285cff5cf77501a6e1782 Merge branch 'ar/config-count-tests-updates' into jch
+716e81332598d0076e92c7933166cf61a20d2148 Merge branch 'en/ort-finalize-after-0-merges-fix' into jch
+35aa218581216c11d5d22162c1c9b1948a652129 Merge branch 'ma/gittutorial-fixes' into jch
+a4267dfe6e21ea0bb19989a56ca895cbc2299d28 Merge branch 'pw/rebase-i-after-failure' into jch
+385e8edeb787945f9c6c6becc37eeffa14a6994a Merge branch 'ar/test-cleanup-unused-file-creation-part2' into seen
+ea4fe35ee79ca280c01952d0beb6cb6ace67848b Merge branch 'tb/ban-strtok' into seen
+2999777829b625d324e09d2d43be3b8cf4969ea7 Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
+5ef9a8ed93d7f315f99d4666a59c6cb2d2ed1779 Merge branch 'ab/imap-send-requires-curl' into seen
+e43f8af85719b32836201b61ed3d0aec361bc59e Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
+1dc639a17905f4f2cb01db367ded1b6587fa52c0 Merge branch 'sl/diff-files-sparse' into seen
+649fa71341d32dad6acee1aef4413a0e03149e8a Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
+5bbcc7b39cf024586cf5afa26709a6e505e803fb Merge branch 'kh/doc-interpret-trailers-updates' into seen
+122afb68157684898156b61588dbb3968ab154ad Merge branch 'so/diff-merges-more' into seen
+795b3e4bd30ce70ced16ce0e48b2fb2d7c3f25ee Merge branch 'cw/submodule-status-in-parallel' into seen
+2c55111e4546f85e5c9c591d743f5780a68cea41 Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+8d17c2748f5349c82b9d2b6cc93769cad2be14d5 Merge branch 'cb/checkout-same-branch-twice' into seen
+30e0e7ee84b3b2c4fd300bcc6e2a7df6f1ccd0ba Merge branch 'mh/use-wincred-from-system' into seen
+0990a91cb2e72eaf6eab5ec9653a8e507aaee3ee Merge branch 'ob/revert-of-revert' into seen
+87d06b0b73c6261ac026e21ac4b9b8d87a04b359 Merge branch 'ab/tag-object-type-errors' into seen
+bd4aa712b478ca71047f77c5cc93e8eed768df41 Merge branch 'ja/worktree-orphan' into seen
+beabca3d2d8cd92cbb5de2fb8e03a716655dfb22 Merge branch 'tb/pack-bitmap-index-seek' into seen
+b14bd9a47d116814bcf8deb0ddacc663248e3cf0 Merge branch 'rn/sparse-diff-index' into seen
+cea25572860a98aa01bc89cd5a3a5805414bf9ef Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
+951929b9023a37aad6d9905c64d8e9d146f7d79c Merge branch 'ps/fetch-output-format' into seen
+db3211b9f790b4c73066a4dc991583d2c0712419 Merge branch 'sg/retire-unused-cocci' into seen
+
+--===============7881123918057656756==--
