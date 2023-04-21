@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 21 Apr 2023 13:55:04 -0000
-Message-Id: <168208530472.2147.648962749727945624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 21 Apr 2023 13:56:21 -0000
+Message-Id: <168208538189.2627.7902981356468004858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/pci/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: aa2b091aa2bde919a26153839aadf75556cdc1cc
-    new: e894e84af353727082420c48b3cbea566a0f7692
+  - ref: refs/heads/controller/endpoint
+    old: 7885dbeb8780ca33f68ea874250a5f6732f88f75
+    new: 604de32d55a2f12c90c7e66923984c28147bb5d0
     log: |
-         e894e84af353727082420c48b3cbea566a0f7692 regex.3: Destandardeseify Match offsets
+         604de32d55a2f12c90c7e66923984c28147bb5d0 PCI: endpoint: functions/pci-epf-test: Fix dma_chan direction
          
