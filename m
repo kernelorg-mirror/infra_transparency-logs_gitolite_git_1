@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 21 Apr 2023 22:01:33 -0000
-Message-Id: <168211449341.2612.16750603694628503570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 21 Apr 2023 22:21:39 -0000
+Message-Id: <168211569964.15963.1367007354046192825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/mips-fixes
-    old: ab327f8acdf8d06601fbf058859a539a9422afff
-    new: 6dcbd0a69c84a8ae7a442840a8cf6b1379dc8f16
+  - ref: refs/heads/wip/jgg-for-next
+    old: 746aa3c8cb1a650ff2583497ac646e505831b9b9
+    new: 531094dc7164718d28ebb581d729807d7e846363
     log: |
-         6dcbd0a69c84a8ae7a442840a8cf6b1379dc8f16 MIPS: Define RUNTIME_DISCARD_EXIT in LD script
+         531094dc7164718d28ebb581d729807d7e846363 RDMA/efa: Add rdma write capability to device caps
          
