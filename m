@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Fri, 21 Apr 2023 14:58:56 -0000
-Message-Id: <168208913682.12353.13590382247761250408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
+Date: Fri, 21 Apr 2023 15:05:19 -0000
+Message-Id: <168208951980.17503.10757225576623019649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/maz/cs-sw
+user: maz
 changes:
   - ref: refs/heads/master
-    old: 732b2f6549b240c6df887c3a16c52c6658a3fbf7
-    new: 3664a7189cbad9a577ca016380d2718b82ddeefd
+    old: a2dae2ad3737fd06bcfebee4e24407e21f5948f9
+    new: 20205ef94fc3648a9bc003328c9651d440350802
     log: |
-         0aac367c74517a68e826021be4cbf3254b702bcb rseq_arm64: use rseq_unqual_scalar_typeof in load-acquire
-         96d67c8920f6e2c0353d7de71f3debfe6ccbb3dd c++: compiler: use remove_cv and remove_reference in rseq_unqual_scalar_typeof
-         3664a7189cbad9a577ca016380d2718b82ddeefd All arch: use rseq_unqual_scalar_typeof in load-acquire
+         20205ef94fc3648a9bc003328c9651d440350802 Fix break handling for host-provided durations
          
