@@ -1,30 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 21 Apr 2023 15:40:18 -0000
-Message-Id: <168209161828.8295.8237669254002689248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 21 Apr 2023 15:40:35 -0000
+Message-Id: <168209163599.8458.14935370057345340363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-next
-    old: 9f656705c5faa18afb26d922cfc64f9fd103c38d
-    new: e81995a81e25e8fab286db6539198dd97b140807
+  - ref: refs/heads/wip/jgg-for-next
+    old: f605f26ea196a3b49bea249330cbd18dba61a33e
+    new: 746aa3c8cb1a650ff2583497ac646e505831b9b9
     log: |
-         4d421eebe1465d94b95867dd025385dc3d661f9b ALSA: docs: writing-an-alsa-driver.rst: polishing
-         2db2be5607c4508c37705d604437b43a99b4791f ALSA: usb-audio: Rate limit usb_set_interface error reporting
-         e81995a81e25e8fab286db6539198dd97b140807 ALSA: emu10k1: clarify various fx8010.*_mask fields
-         
-  - ref: refs/heads/master
-    old: f6db5a3e4d3e99651db7c6b04cb9de5e55c3352b
-    new: ceb8768769e621364f8fdfd965ac9e1694c1d45d
-    log: |
-         4d421eebe1465d94b95867dd025385dc3d661f9b ALSA: docs: writing-an-alsa-driver.rst: polishing
-         2db2be5607c4508c37705d604437b43a99b4791f ALSA: usb-audio: Rate limit usb_set_interface error reporting
-         e81995a81e25e8fab286db6539198dd97b140807 ALSA: emu10k1: clarify various fx8010.*_mask fields
-         ceb8768769e621364f8fdfd965ac9e1694c1d45d Merge branch 'for-next'
+         3e358ea8614ddfbc59ca7a3f5dff5dde2b350b2c RDMA/mlx5: Fix flow counter query via DEVX
+         10af303192bc5490bb39b29541ecb0ead2eff1ce RDMA/rxe: Fix spinlock recursion deadlock on requester
+         109205b40afbddd01baff796c627c5be3d804ef9 RDMA/irdma: Drop spurious WQ_UNBOUND from alloc_ordered_workqueue() call
+         746aa3c8cb1a650ff2583497ac646e505831b9b9 RDMA/mlx5: Use correct device num_ports when modify DC
          
