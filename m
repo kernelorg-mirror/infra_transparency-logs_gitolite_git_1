@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6502342135824760056=="
+Content-Type: multipart/mixed; boundary="===============5994537841753731343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 21 Apr 2023 19:33:55 -0000
-Message-Id: <168210563515.2274.712228594869800044@gitolite.kernel.org>
+Date: Fri, 21 Apr 2023 19:34:00 -0000
+Message-Id: <168210564045.2358.6959204598469348533@gitolite.kernel.org>
 
---===============6502342135824760056==
+--===============5994537841753731343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d7a799ec782b6ae9158f8d587c9f49cf34a6c5f4
     new: 4db10a8243df665ced10b027c2d4862173a7a3ec
     log: revlist-d7a799ec782b-4db10a8243df.txt
 
---===============6502342135824760056==
+--===============5994537841753731343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f323a81806bd79adafa6e88607b388166e92a1b0 selftests/bpf: verifier/spin_lock conve
 efe25a330b106f39e5d27760cc57def3e8c5a3f9 selftests/bpf: verifier/value_illegal_alu converted to inline assembly
 4db10a8243df665ced10b027c2d4862173a7a3ec selftests/bpf: verifier/value_ptr_arith converted to inline assembly
 
---===============6502342135824760056==--
+--===============5994537841753731343==--
