@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 21 Apr 2023 14:21:55 -0000
-Message-Id: <168208691566.20037.4347097707977534554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 21 Apr 2023 14:28:26 -0000
+Message-Id: <168208730656.23584.571229305670363359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: e894e84af353727082420c48b3cbea566a0f7692
-    new: 59e44e4511391a98f531c08aaba17391f3b7075b
+    old: 267a6e4e7870beb8896c192da175800e47c82407
+    new: acf1c3d68e9a31f10d92bc67ad4673cdae5e8d92
     log: |
-         59e44e4511391a98f531c08aaba17391f3b7075b build-catman.mk: Use .set suffix for troff(1) output
+         acf1c3d68e9a31f10d92bc67ad4673cdae5e8d92 bpf: Fix race between btf_put and btf_idr walk.
          
