@@ -1,29 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 21 Apr 2023 02:58:15 -0000
-Message-Id: <168204589585.30354.10506746705108230618@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7719338661952301382=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 21 Apr 2023 03:00:25 -0000
+Message-Id: <168204602566.32732.12412160449606758666@gitolite.kernel.org>
+
+--===============7719338661952301382==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: ac1e026930af372541ab792153bd7bfa638cd55b
-    new: cff4b23c731a1cbdf39d5ce180196b8dffb6c411
-    log: |
-         281117ccb2d2511d03f592dfec7ffdc33651e9b3 convert setns(2) to fdget()/fdput()
-         e73d43760ad938428537dd6ccbb3653297a1bd69 convert sgx_set_attribute() to fdget()/fdput()
-         d2084fd84569fb7054c97ae6ffaf2755086fd267 SVM-SEV: convert the rest of fget() uses to fdget() in there
-         38e124086282715e3b9b3d193d9308bb3499b46c kill the last remaining user of proc_ns_fget()
-         96e85e95dc22d53650cbd499e963c70103c06738 build_mount_idmapped(): switch to fdget()
-         1d0027dc9a3c2be501de625feca2eaac7f67b509 bpf: switch to fdget_raw()
-         2f31fa029d99f3614e76e3ea4f2e9832c13ba429 cgroup_get_from_fd(): switch to fdget_raw()
-         4a892c0fe4bb0546d68a89fa595bd22cb4be2576 fuse_dev_ioctl(): switch to fdget()
-         0310f18180084d6838aba01ddbd9da2a0c9493f1 Merge branches 'hch.write_one_page', 'work.nios2', 'work.old-dio' and 'work.fd' into for-next
-         09efd3a435ed1f0d4c7963cc846e57a79c6b4277 Merge branch 'work.misc' into for-next
-         cff4b23c731a1cbdf39d5ce180196b8dffb6c411 Merge branch 'work.lock_rename_child' into for-next
-         
+  - ref: refs/heads/master
+    old: b7bc77e2f2c714c82aa723445d98fa4c2fb63e90
+    new: 2af3e53a4dc08657f1b46f97f04ff4a0ab3cad8d
+    log: revlist-b7bc77e2f2c7-2af3e53a4dc0.txt
+
+--===============7719338661952301382==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b7bc77e2f2c7-2af3e53a4dc0.txt
+
+11b3b9f461c5c4f700f6c8da202fcc2fd6418e1f drm/sched: Check scheduler ready before calling timeout handling
+e1c71f8f918047ce822dc19b42ab1261ed259fd1 drm/i915: Fix fast wake AUX sync len
+afa965a45e01e541cdbe5c8018226eff117610f0 drm/rockchip: vop2: fix suspend/resume
+7363d6bedc000f6f9d09cfe498da2f3aca653778 drm/nouveau: fix incorrect conversion to dma_resv_wait_timeout()
+b63a553e8f5aa6574eeb535a551817a93c426d8c drm/rockchip: vop2: Use regcache_sync() to fix suspend/resume
+c8b5a95b570949536a2b75cd8fc4f1de0bc60629 drm/amdgpu: Fix desktop freezed after gpu-reset
+6d9240c46f7419aa3210353b5f52cc63da5a6440 drm/amd/display: set dcn315 lb bpp to 48
+1e994cc0956b8dabd1b1fef315bbd722733b8aa8 drm/amd/display: limit timing for single dimm memory
+0b5dfe12755f87ec014bb4cc1930485026167430 drm/amd/display: fix a divided-by-zero error
+f126f41cec1b6fa04c1d06517ec8f3e19908c5f7 Merge tag 'drm-misc-fixes-2023-04-20-2' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+3b1f2be527ce04e7d8dce6fad6be16fa59058713 Merge tag 'drm-intel-fixes-2023-04-19' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+00a4bd000e78a3a898e60bdc13e2852c8044a38c Merge tag 'amd-drm-fixes-6.3-2023-04-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+2af3e53a4dc08657f1b46f97f04ff4a0ab3cad8d Merge tag 'drm-fixes-2023-04-21' of git://anongit.freedesktop.org/drm/drm
+
+--===============7719338661952301382==--
