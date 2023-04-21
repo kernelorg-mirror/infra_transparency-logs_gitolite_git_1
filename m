@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7926629114975714422=="
+Content-Type: multipart/mixed; boundary="===============4408731336625313850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 21 Apr 2023 06:26:10 -0000
-Message-Id: <168205837025.6064.7047741505623517765@gitolite.kernel.org>
+Date: Fri, 21 Apr 2023 06:26:16 -0000
+Message-Id: <168205837662.6159.11243957818964192298@gitolite.kernel.org>
 
---===============7926629114975714422==
+--===============4408731336625313850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/merge
-    old: 5741d7d2a179be6418fbd85442d92b026477f5b8
-    new: 5d8eb803edc65ca55337a2724e9f3d3bb3ba2c17
-    log: revlist-5741d7d2a179-5d8eb803edc6.txt
+  - ref: refs/heads/next
+    old: e4f42c1467e9233c35716eb2b4511fef990cdc23
+    new: 836a3de6b2bfe0b7c96a7104d3d567883d8a57b3
+    log: revlist-e4f42c1467e9-836a3de6b2bf.txt
 
---===============7926629114975714422==
+--===============4408731336625313850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1682058361 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1682058375 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1682058360-9cb24bfef99d2300e3e3b5db8678ec47ba63a868
+nonce 1682058374-481dbb381b31315672e6ff4ceb50b356226e8da0
 
-5741d7d2a179be6418fbd85442d92b026477f5b8 5d8eb803edc65ca55337a2724e9f3d3bb3ba2c17 refs/heads/merge
+e4f42c1467e9233c35716eb2b4511fef990cdc23 836a3de6b2bfe0b7c96a7104d3d567883d8a57b3 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmRCLHkTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgGZuEACCQNO6gEVLCzALFoUVszgAcHQ09w9w
-QSSW0u04eEsUA4ErLAuCTdIdORh5YinoND3ac2g+n0veqBMiySwyVZyI/iw74GQz
-O9Z7K9KrKzIDzNpcrRfRIlHpnT6tgLuxzoWSKeRvZcCFZQeVz9u5CDDPl4rZi/DJ
-9m6TFwVImaL1jFj/pp6V2mniY9+xTwn4dxYIxrUFqdOVaG//sTqU2f8Dz/SIsc2z
-Th8pUR7Pusex+j0ZFQlRAUFv1D9BlOOal4tlE1cIg/7Wvzio5KPjey0xGwJSsg9I
-8RI3cK6nrd6EkUGHbAzQs+ACm8LOVvB0TogBWdv1xXWc6yTKuOvGHBXxqgaW/aM/
-Lne8HZjVcP3/a8iSWAVb2ASShKnLTXiHMymWv05/TcYgDLEXqMFjLP+b8vG45HPE
-7cKIeJ8oyuryg5VKAulJHLKZV2kgYro0/UnZH7BRkeuNP406tte1C/3vSRZxKn3x
-KYuQqI3ZOfpsSyxj5T7t3ynAV+88yAFPfmYr6bk8/KsV0HVrWImm78S71Qez+jMP
-Fy/w0W4LOmSuo6Ccw0J8ABJjR2/EWvZza4h28D5vQ1JfutCw0h6z/KWkpvaXJXPt
-wqdvRPbIZiT65EB02K/OFAsY4ahUTDtCCpA/Wx5WC7erEN33nzvRKOiySdt8GewC
-YKIBlAC+2vJdFQ==
-=StbY
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmRCLIcTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgBwED/9NEls/7GkY6Oum1fyDC00h2QuQpFY+
+pzwTqIRe8LcvRpBLzIZxGUKWpKoMzWKWeCOHI38nqwvu7Fd69lM+4mJBaFJuAKkn
+XgdRD1st7PstRh7DSBxDOeHMkMTtbYqJQfD91X5Lcu2qZadBdn0YSOWqpzxPSvUg
+8x9WqG+vh0cjFVD8AVX4ZZqTjiQFTyIlAI9NQjGcsheiXkH+x8IOcnmsrFYgjRwR
+Yr83a3ztSJ5YzuHuHJ3QVDryo6m8wUQ3oElLAGSFjRGqRuIxyUGoqp1acd12k23m
+/SJ5YANPo7HQAFOdq/XXymbAHeIYLQwdw9m94NfrOMHSsmsLQaxwnh/QnVviWp4D
+PoInchTOVE/LL+YP2CU393KAOMLYZg6WXdBVgW0jCdJ8uD2fE8zL0i2atk0nqO2V
+kPM16U0QRJDIeDQvCCSu1wZhYBpzDMSdoX6ekdKNVZajj6HHuGMljM9p+k1WzBY9
+dkuvVPTXNf6xykdi8cm/nSXngdFy51lPYkEYapT+s7EOqKrOcBRVMiVKbwYTOXPQ
+Q2GDTsaD7MzQ/Jr8j7VKQnkRVkSBFn9Jospk4V0BEM3bGVzIyixV8yJhcBtBwixx
+4W6UmQXToCqsvNDpOlJMad25grGabenDUVu7dOtWzx4MUJlWUPsSv9LhOt+2aHu0
+9cA5RWWoyW3ohw==
+=fYVk
 -----END PGP SIGNATURE-----
 
---===============7926629114975714422==
+--===============4408731336625313850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5741d7d2a179-5d8eb803edc6.txt
+Content-Disposition: attachment; filename=revlist-e4f42c1467e9-836a3de6b2bf.txt
 
 22db99d673641d37c4e184ca8cff95d8441986af powerpc/Makefile: Add generated defconfigs to help output
 cc876c7a245979e3e860da66a693fc5d94543010 powerpc/configs/64s: Update defconfig for symbol movement
@@ -93,7 +93,5 @@ bac949621c40ec09357c6a8beaacac235ae39239 powerpc/configs: Incorporate generic kv
 e4c02c3e6c39c3866d517388f6bb431c47743bde powerpc/configs/64s: Use EXT4 to mount EXT2 filesystems
 da66ed3198162882755d5c9a147e36f02dc9be93 powerpc/configs/64s: Drop JFS Filesystem
 836a3de6b2bfe0b7c96a7104d3d567883d8a57b3 powerpc/configs/powernv: Add IGB=y
-9676d11a7ab1f123c509e7839b1e987f143ee822 Automatic merge of 'master' into merge (2023-04-21 16:25)
-5d8eb803edc65ca55337a2724e9f3d3bb3ba2c17 Automatic merge of 'next' into merge (2023-04-21 16:25)
 
---===============7926629114975714422==--
+--===============4408731336625313850==--
