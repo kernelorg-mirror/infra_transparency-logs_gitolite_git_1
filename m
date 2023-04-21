@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0531083922309667999=="
+Content-Type: multipart/mixed; boundary="===============2493794323648301009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 21 Apr 2023 19:32:41 -0000
-Message-Id: <168210556119.1735.12317527832385916150@gitolite.kernel.org>
+Date: Fri, 21 Apr 2023 19:32:57 -0000
+Message-Id: <168210557725.1898.4861496993559623867@gitolite.kernel.org>
 
---===============0531083922309667999==
+--===============2493794323648301009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 667f1b55a5fa7916d7b7b270812f3903ba030f93
     new: 1b7306b210a8d404eda83a6268f8d9bc6a1f95bf
     log: revlist-667f1b55a5fa-1b7306b210a8.txt
 
---===============0531083922309667999==
+--===============2493794323648301009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -163,4 +163,4 @@ e1a79b95c925500989ff5ddfebb6595368082f71 tpm, tpm_tis: Request threaded interrup
 cea03ace78964a72d8ce4400622feccaf8d85431 tpm, tpm_tis: startup chip before testing for interrupts
 1b7306b210a8d404eda83a6268f8d9bc6a1f95bf tpm, tpm_tis: Enable interrupt test
 
---===============0531083922309667999==--
+--===============2493794323648301009==--
