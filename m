@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 21 Apr 2023 14:28:44 -0000
-Message-Id: <168208732435.23813.1347295519317421379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mason/schbench
+Date: Fri, 21 Apr 2023 14:28:50 -0000
+Message-Id: <168208733039.23903.10968598195597568340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/mason/schbench
+user: mason
 changes:
-  - ref: refs/heads/for-next
-    old: 267a6e4e7870beb8896c192da175800e47c82407
-    new: acf1c3d68e9a31f10d92bc67ad4673cdae5e8d92
+  - ref: refs/heads/master
+    old: c3d60f610700bd1f133e9f6760f4efd3ac875b83
+    new: 48aed1dc08e5187aa41f2dec204c73efc1a14d1e
     log: |
-         acf1c3d68e9a31f10d92bc67ad4673cdae5e8d92 bpf: Fix race between btf_put and btf_idr walk.
+         48aed1dc08e5187aa41f2dec204c73efc1a14d1e schbench: fix line length and formatting in README.md
          
