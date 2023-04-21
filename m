@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 21 Apr 2023 07:49:22 -0000
-Message-Id: <168206336241.27771.16132534976324031902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Fri, 21 Apr 2023 07:51:58 -0000
+Message-Id: <168206351819.30229.8881492456624280287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/experimental
-    old: 9a00ef27398e38b5fee87413b26eec0a20448b53
-    new: 63cb8db551cef814f2ad519b16e88ee9fd897a08
+  - ref: refs/heads/for-next
+    old: 1ea3bb3e4b767d074c8215c515e959c6420908bf
+    new: f69d4e9bb2806bc1e2b8dda9640d13ede4f6c124
     log: |
-         689372cd7f8ea88e38f64716d215cff512ba42a5 erofs-utils: refine blobchunk implementation
-         63cb8db551cef814f2ad519b16e88ee9fd897a08 erofs-utils: introduce tarerofs
+         f69d4e9bb2806bc1e2b8dda9640d13ede4f6c124 m68k: kexec: Include <linux/reboot.h>
+         
+  - ref: refs/heads/master
+    old: 94ea4c5cbeeba22abb2abca416eedb2aca30bc67
+    new: 771b10d8baab81d65ba0e97fa84ee24a14514060
+    log: |
+         771b10d8baab81d65ba0e97fa84ee24a14514060 m68k: kexec: Include <linux/reboot.h>
          
