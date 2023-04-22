@@ -1,56 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============4033747610663905128=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 22 Apr 2023 15:36:35 -0000
-Message-Id: <168217779590.25872.14051015804114051005@gitolite.kernel.org>
-
---===============4033747610663905128==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 22 Apr 2023 15:36:51 -0000
+Message-Id: <168217781143.26040.5683203032011447243@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: e1aba391ab29c9ee2418218cf08e46c229f079e5
-    new: f2266bbccd053dde53901b020c57d2e62e4b05a6
+  - ref: refs/heads/for-next
+    old: 335927b125af7937c0dd566ecd62a80f9f55c923
+    new: 6fb861bb3caf2ca8e440f7a3fdcca35fcac917b4
     log: |
-         f2266bbccd053dde53901b020c57d2e62e4b05a6 6.2-stable patches
+         e922da40befdbaa89cd85d3154b4a9cea8880fa0 ALSA: emu10k1: minor optimizations
+         be250b7c9b2d8b30d923d6ae947c9f8e5fc40948 ALSA: emu10k1: remove unused `resume` parameter from snd_emu10k1_init()
+         8b2dd46d9a0370cf092fdd798dd66634abaf03e0 ALSA: emu10k1: remove unused emu->pcm_playback_efx_substream field
+         6fb861bb3caf2ca8e440f7a3fdcca35fcac917b4 ALSA: emu10k1: fix snd_emu1010_fpga_read() input masking for rev2 cards
          
-
---===============4033747610663905128==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682177795 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1682177794-8e871ef1b753a12e5a46dcc2fc80f90dce15fd4d
-
-e1aba391ab29c9ee2418218cf08e46c229f079e5 f2266bbccd053dde53901b020c57d2e62e4b05a6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRD/wMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yLAQAKw3HDOxrDLBrIlLgRZ3
-B6In/H+8Sl/Tl3wrYsZJQ/CGu2sl5XW2vUIx8SYY/RKuN9mGj536Bcoo+DInNuTk
-/OAU3rAOrPN+j8nhMgmLGivnUInKPsOJimVoMR/RG2s5zALmnQWcv6Iq/gO6sk/A
-FX+ApTlcFooBf46bd3sFQ2O+op8/VTWlfGnob41NYOy5do7121eORhteCDJuulmE
-8ogEVdb9wdcTnSpI8cWqj8Vknn/8XxmST2MSs80pZnH/eQXm7hewAJ8YAJDOuxYQ
-O/ns1kQZCtDZd+XKPDJN96toMmneVCrT+2+qtDU/LMkMToC4zYKYoFPzIvlVGMfx
-3c6Yh889bFzNo5LJka9B+sVf2lagkCAYs/qgVtcI5jZ04nmklcbH9pMwYByacmHZ
-aPcirWzaP8lvgcnyORTTb4ELRfdYpw4A0EZos09TrDTbU+qf4l62c0KOoxNbEelt
-OlAd2eBiNC68tdrZmKgeZOMdoAXfXsdAWeMqKYBPhRM82LX2zM7Q0ZBZSuIFro4l
-WRu7v2KPRTAIFpOqDcViHkETE7pDG+8tPV+rnI4YA/5sGEYzcTUigCjVdDtfaOWT
-sbDO5DdW2y+f5LZLo1czibIivdOrV7nOQ1amScx/haYGwRScB8V4hmNU2IafK88l
-svewnG1xPE4CbgJBwKCI74Sl
-=PwuQ
------END PGP SIGNATURE-----
-
---===============4033747610663905128==--
+  - ref: refs/heads/master
+    old: 09b0c8f4362e074ee0ae31b8c8390b91a5c13226
+    new: 7e780ad1010b3f3d50e24ed31b7297f989ec8c60
+    log: |
+         e922da40befdbaa89cd85d3154b4a9cea8880fa0 ALSA: emu10k1: minor optimizations
+         be250b7c9b2d8b30d923d6ae947c9f8e5fc40948 ALSA: emu10k1: remove unused `resume` parameter from snd_emu10k1_init()
+         8b2dd46d9a0370cf092fdd798dd66634abaf03e0 ALSA: emu10k1: remove unused emu->pcm_playback_efx_substream field
+         6fb861bb3caf2ca8e440f7a3fdcca35fcac917b4 ALSA: emu10k1: fix snd_emu1010_fpga_read() input masking for rev2 cards
+         7e780ad1010b3f3d50e24ed31b7297f989ec8c60 Merge branch 'for-next'
+         
