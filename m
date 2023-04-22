@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0939330248983618287=="
+Content-Type: multipart/mixed; boundary="===============0944675009552333667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 22 Apr 2023 15:18:09 -0000
-Message-Id: <168217668944.13128.16868950771718857198@gitolite.kernel.org>
+Date: Sat, 22 Apr 2023 15:18:16 -0000
+Message-Id: <168217669612.13252.9580467252248378625@gitolite.kernel.org>
 
---===============0939330248983618287==
+--===============0944675009552333667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 4db10a8243df665ced10b027c2d4862173a7a3ec
     new: fbc1449d385d65be49a8d164dfd3772f2cb049ae
     log: revlist-4db10a8243df-fbc1449d385d.txt
 
---===============0939330248983618287==
+--===============0944675009552333667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -782,4 +782,4 @@ f3b766d981310989d524b076065a93b8f11bcab2 net: phy: add basic driver for NXP CBTX
 9a82cdc28f47f5e70f657a25c6e5bf16cf306848 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 fbc1449d385d65be49a8d164dfd3772f2cb049ae Merge tag 'mlx5-updates-2023-04-20' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============0939330248983618287==--
+--===============0944675009552333667==--
