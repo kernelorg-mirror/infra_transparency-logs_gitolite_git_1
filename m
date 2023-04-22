@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 22 Apr 2023 16:46:48 -0000
-Message-Id: <168218200830.11066.13101847085909969833@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3926814407060161265=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 22 Apr 2023 16:57:19 -0000
+Message-Id: <168218263913.17706.7543157022436261293@gitolite.kernel.org>
+
+--===============3926814407060161265==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8e41e0a575664d26bb87e012c39435c4c3914ed9
-    new: 2caeeb9d4a1bccd923b7918427f9e9ef7151ddd8
+    old: ca3e6190a12a1752a5c436e89c17bdcddaf4a475
+    new: 15b99cf00aaf803a0c459307a170924de975441a
     log: |
-         d5a863a153e90996ab2aef6b9e08d509f4d5662b cifs: avoid dup prefix path in dfs_get_automount_devname()
-         35dcb3ac663a16510afc27ba2725d70c15e012a5 KVM: arm64: Make vcpu flag updates non-preemptible
-         ac13692844f2fb23c503066c0cb231243218a7c8 cifs: Fix unbuffered read
-         023fc150a39ffe656da3e459ad801eb1c7fdfad9 cifs: Reapply lost fix from commit 30b2b2196d6e
-         a25bc8486f9c01c1af6b6c5657234b2eee2c39d6 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-         265b97cbc22e0f67f79a71443b60dc1237ca5ee6 Merge tag 'kvmarm-fixes-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-         84ebdb8e0d9ca261d73677f345814505af172ae0 Merge tag '6.3-rc7-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-         2caeeb9d4a1bccd923b7918427f9e9ef7151ddd8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+         15b99cf00aaf803a0c459307a170924de975441a 5.4-stable patches
          
+
+--===============3926814407060161265==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682182638 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1682182634-22089fcadd25a47d2cef9621e9b8ece292592942
+
+ca3e6190a12a1752a5c436e89c17bdcddaf4a475 15b99cf00aaf803a0c459307a170924de975441a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmREEe4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HocQAI3aJdiOsM5Mu8n/n4o6
+hWtIVkFIcdOw900z5r4uCql6YL/YkLntIdmKwLQT2i0w0XhyLtv3B8T36PTD7es5
+ZTn9D81INHVsGFuu1Qk8AATNOCXC5vqPJfmbSeW0eAMGKIzFRftr8Lq6BJL6VyOX
++wDmZJBnFwai4EWylpfQI4iYyy5Mt1yjbILmbrngTTBSKVbNRI9khmiRJOWVf0Iz
+h85DiGlp9B0VQ/yQGXH375LN9JqxaQnOo1Kwqj/Tyh48CPIgPGAjIC+bZ2KCvKEL
+2SYO5UAdwQOg5Xfr/dJ/JDXgfEoCPom9eqBBtS/SMqY372OAxBIVdYFgM7dW7Kea
+eTNJcSKjt+sq2aceXG4y0zzLRkzfUT/0NfCroll/qimMgdBuM03uWyAaVtegO0Wp
+4Nai6funZq8RnspQcMPX9RyX2MbOcOwcyBecg3lduD/J6LOcn4/WC66fiqSuaypF
+HKpS0qMDsaOj73QEDdUCOZmdT5jqTyXOdoHovcaYcF+C6ojb3yTYFjBu4bbvS6UT
+Ci0Zfj+Gg+PBCL7QIIPqY9iTnByVXUfVeklyy+QEoAg8btqGSIN0sAP0kcgdhfrc
+gfBaA/5lppgCCVdxkTp/LDDmpg3mbkcPddjn7U7mCg4Sh3x5ugGeD/W1BTxLe31e
+gL5TQp0EsOFWqNcwunQWc/eJ
+=9dLZ
+-----END PGP SIGNATURE-----
+
+--===============3926814407060161265==--
