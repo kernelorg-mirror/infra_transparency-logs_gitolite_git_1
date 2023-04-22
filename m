@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Sat, 22 Apr 2023 10:13:19 -0000
-Message-Id: <168215839916.7638.14799498209549092665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
+Date: Sat, 22 Apr 2023 10:44:08 -0000
+Message-Id: <168216024879.27091.477860067732247810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/maz/cs-sw
+user: maz
 changes:
-  - ref: refs/heads/linux-next
-    old: b9ca712f33f59e977592cb639c2e00a02f45a146
-    new: c82729e06644f4e087f5ff0f91b8fb15e03b8890
-  - ref: refs/heads/test
-    old: b9ca712f33f59e977592cb639c2e00a02f45a146
-    new: c82729e06644f4e087f5ff0f91b8fb15e03b8890
-  - ref: refs/heads/vhost
-    old: b9ca712f33f59e977592cb639c2e00a02f45a146
-    new: c82729e06644f4e087f5ff0f91b8fb15e03b8890
+  - ref: refs/heads/master
+    old: 20205ef94fc3648a9bc003328c9651d440350802
+    new: 2063db8709c9b38c95c3b8393474840ceb03d2ca
+    log: |
+         2063db8709c9b38c95c3b8393474840ceb03d2ca Don't advertise a valid power-supply via SOURCE_CAP
+         
