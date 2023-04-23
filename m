@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 23 Apr 2023 12:49:45 -0000
-Message-Id: <168225418527.7660.13149138901387737081@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5836881929875872013=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 23 Apr 2023 13:14:27 -0000
+Message-Id: <168225566734.22719.5111154527910268240@gitolite.kernel.org>
+
+--===============5836881929875872013==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 19c60fdee5db881a99a9c39fb31942a530d20c63
-    new: 4d2bd2581c3bc73e9fdf5f82b25c359212567457
+  - ref: refs/heads/master
+    old: 30505d2ccdda5bf844095b1b57fc2c5ff7203e7e
+    new: d67a92190599f0bd7454f30b993551c1e3f2efb5
     log: |
-         e8e1ce8454c9cc8ad2e4422bef346428e52455e3 net: add debugging checks in skb_attempt_defer_free()
-         931e93bdf8ca71cef1f8759c43bc2c5385392b8b net: do not provide hard irq safety for sd->defer_lock
-         e6f50edfef046cf8ad541b4d5972bf38fdcdec39 net: move skb_defer_free_flush() up
-         a1aaee7f8f79d1b0595e24f8c3caed24630d6cb6 net: make napi_threaded_poll() aware of sd->defer_list
-         87eff2ec57b6d68d294013d8dd21e839a1175e3a net: optimize napi_threaded_poll() vs RPS/RFS
-         6bb218b5a6e3f3c5e2e76faf8fc976f3f6f72496 Merge branch 'napi_threaded_poll-enhancements'
-         788352191c85326beb74f518ba761ed38b82f533 rxrpc: Replace fake flex-array with flexible-array member
-         4d2bd2581c3bc73e9fdf5f82b25c359212567457 drivers/net/phy: add driver for Microchip LAN867x 10BASE-T1S PHY
+         d67a92190599f0bd7454f30b993551c1e3f2efb5 4.14-stable patches
          
+
+--===============5836881929875872013==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682255666 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1682255665-5ea1f6af57cec9b4c0a84e45120ab0e8f4a5e2ff
+
+30505d2ccdda5bf844095b1b57fc2c5ff7203e7e d67a92190599f0bd7454f30b993551c1e3f2efb5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRFLzIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dzcP/iQwHcLyTmaE3artVVL9
+f6PCs8Hebu/VKl1sb05l9WUWsDoVMSLG9rl7jGm/lT9DDd2AmYio6OmZCdGybCqd
+HOdgoKupL4/Y5GZyqsNumqju5uynD+B7on74SlMEB2ozdGzxskVNIxP/x+mp3p22
+XH//TUkHml4sHAV/OR2lHR6Jq9x4ckW8An0XW716NPA1frlvCqoBuB5sTNSwu31H
+tVQ49fta589gDhueap8A5CHgxhmn70MUVYW4JJiuZXD9KE2wnuCwZHRk7kNGoTR8
+Ik90h/g95oRFIH4kbEw7R51N4ZQu2K3NLRws4vlOe7CjK0EmDRnOaDkEBwqZE3Ld
+XM95Dy8N+aG1aM7TjekS9MGlnxiJePn+7wHRZWw+D5la6i58s04zW/Hbgn2vu7gu
+S9mRJXE36RhdvL2su+bYfL8BMSr4qLsp37w4BYWypmyrevDeiYtmcokzL2W5Psj8
+r8pMACe+mvMIdOGHQ6F2b59bR527noU95l4mFitSbeklAp2zwR6RUY+Mfl4m3067
+1vVuYRH8A6qnvaGIuc4rQ2hpQn3ryq13mSnG3jOZBibRhckxlOPDCnLgDw3USQm3
+5HQm3g2USLa9o+CBlM6UDs3kyIVXU83rENmm0M+OYHV7uHsiXcjjFNnuaH8M7m3q
+3yIvVgi7F1rikqP6N6MvtqLT
+=wzoO
+-----END PGP SIGNATURE-----
+
+--===============5836881929875872013==--
