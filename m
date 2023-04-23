@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sun, 23 Apr 2023 16:18:42 -0000
-Message-Id: <168226672211.20511.1030718063635967661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 23 Apr 2023 16:27:29 -0000
+Message-Id: <168226724919.26168.998077301822304345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/linux-kselftest-next-6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 1aaa2f88e88cd1a822f111f4b7015e86f1a5aef8
+  - ref: refs/heads/master
+    old: 0f07dfceb9a99185bad2d2956c2dcf7dcaf4ca84
+    new: 5e902a862fee61f0d983553b0bf7ac27c7258dee
+    log: |
+         5e902a862fee61f0d983553b0bf7ac27c7258dee Sun Apr 23 04:26:34 PM UTC 2023
+         
