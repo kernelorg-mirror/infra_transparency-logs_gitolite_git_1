@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 23 Apr 2023 01:35:35 -0000
-Message-Id: <168221373548.3980.2532166106335000387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 23 Apr 2023 01:49:24 -0000
+Message-Id: <168221456488.12561.10291163633002937417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 851b01cf35f29780763ba5030df184f243e40b4d
-    new: e123833da5864b400b3f566a1c95add596b231d8
+    old: 7ac62b96acc23e612c1bb88389bc31b04215e402
+    new: e1aff8bf1a8304f1495fbb266b234526f9a3c2a5
     log: |
-         e123833da5864b400b3f566a1c95add596b231d8 Makefile: Remove unused flag
+         e1aff8bf1a8304f1495fbb266b234526f9a3c2a5 memorder: Use desctiption list for PowerPC terminology
          
