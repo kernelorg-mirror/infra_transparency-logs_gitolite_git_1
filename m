@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 23 Apr 2023 05:02:56 -0000
-Message-Id: <168222617603.11732.7427043620426024347@gitolite.kernel.org>
+Date: Sun, 23 Apr 2023 05:05:24 -0000
+Message-Id: <168222632437.14006.9483464556998827192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/hmac-session
-    old: cf8f6d1f11c0918444a22d326fa8a30d490ee123
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 1b7306b210a8d404eda83a6268f8d9bc6a1f95bf
+    new: 601a4db7705e116dfc25ec994088aa02bebbd8d7
+    log: |
+         2703f64c1483ea05f452163051be12e1733798d1 tpm: st33zp24: Mark ACPI and OF related data as maybe unused
+         601a4db7705e116dfc25ec994088aa02bebbd8d7 tpm: tpm_tis_spi: Mark ACPI and OF related data as maybe unused
+         
