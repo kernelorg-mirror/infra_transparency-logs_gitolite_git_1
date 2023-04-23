@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 23 Apr 2023 10:55:57 -0000
-Message-Id: <168224735702.30523.2467861022937453245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 23 Apr 2023 12:10:49 -0000
+Message-Id: <168225184916.13890.5821077874767138241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/testing
-    old: 18853a9230265b7bb20dc5c8c521353467ae1009
-    new: 42bd60969b1fce9e9192b096d5a319f9d3a4a54f
+  - ref: refs/heads/wip/leon-for-next
+    old: 3e358ea8614ddfbc59ca7a3f5dff5dde2b350b2c
+    new: 531094dc7164718d28ebb581d729807d7e846363
     log: |
-         42bd60969b1fce9e9192b096d5a319f9d3a4a54f iio: light: al3320a: Handle ACPI device CALS0001
+         10af303192bc5490bb39b29541ecb0ead2eff1ce RDMA/rxe: Fix spinlock recursion deadlock on requester
+         109205b40afbddd01baff796c627c5be3d804ef9 RDMA/irdma: Drop spurious WQ_UNBOUND from alloc_ordered_workqueue() call
+         746aa3c8cb1a650ff2583497ac646e505831b9b9 RDMA/mlx5: Use correct device num_ports when modify DC
+         531094dc7164718d28ebb581d729807d7e846363 RDMA/efa: Add rdma write capability to device caps
          
