@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 22 Apr 2023 23:05:44 -0000
-Message-Id: <168220474461.3022.10411686968767927691@gitolite.kernel.org>
+Date: Sun, 23 Apr 2023 00:34:31 -0000
+Message-Id: <168221007114.27445.7490126897917868430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,16 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: b8d2c8398e1a3a7be2c9a7efac29ad19d82c1bb3
-    new: 0f9cafb0f0a76e3ed98eba7a36f969a2afca1802
+    old: 0f9cafb0f0a76e3ed98eba7a36f969a2afca1802
+    new: ae60bbe556bf15a0c631b63b18f6b90132e0a924
     log: |
-         7569a9f692e42d2addd8164d3b088cfbe1832a27 */mk: mkdir -p (and install -d) are safe to use
-         23de18b0c53c23f4680a9c01ec2d5ea64444024c dist.mk: Create directories with $INSTALL
-         0f9cafb0f0a76e3ed98eba7a36f969a2afca1802 install/_.mk: Make pattern rule more explicit
+         6d6e70659e93820d9ac3afe9e76d1b625da6a63a *.mk: build-pre*: Split device-independent preprocessing from the catman targets
+         0d3c360156c741a67a9547c0e4680305a7f70fc5 Makefile: help-variables: Document some troff(1) flags variables
+         c9cbd326f3e6765ddb1a4ad11fd0faa574bdf91d *.mk: Factor out device-independent groff(1) flags
+         50174cceabbefc44564e84d1e6fa93d42716f31d Makefile: help-variables: Document MANWIDTH and NROFF_OUT_DEVICE
+         214ed33ef103ba2298e704b623326d24178e8951 groff.mk: TROFFFLAGS: Remove -t
+         fc27ed34f8a0a30122324d6ceaba73d2e56c19a9 *.mk: ffix
+         0eebfaaae837ed3f76ca48d6132733ac42860f4a groff.mk: TROFFFLAGS_MAN: tfix
+         5fa32d41e656270c521d3bca75979940cecb2ba5 *.mk: TROFFFLAGS{_MAN,_MDOC}: Include -man/-mdoc in the flags variables
+         ae60bbe556bf15a0c631b63b18f6b90132e0a924 *.mk: build-ps*: Build PostScript manual pages
          
