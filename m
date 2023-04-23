@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6412513964790586960=="
+Content-Type: multipart/mixed; boundary="===============5123660235906287969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Sun, 23 Apr 2023 20:25:58 -0000
-Message-Id: <168228155898.20742.1507598597733100896@gitolite.kernel.org>
+Date: Sun, 23 Apr 2023 20:26:08 -0000
+Message-Id: <168228156840.20851.8005626061639366163@gitolite.kernel.org>
 
---===============6412513964790586960==
+--===============5123660235906287969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
-    old: dde6ba6944eaeef0ec442ebd860726db6fe499c8
+  - ref: refs/heads/next
+    old: f960e57dca9fa3653d9e9c0a9e1386d2241e0aad
     new: bfe58458fd2557c9a81b89bc0ff10eb03d6c0745
-    log: revlist-dde6ba6944ea-bfe58458fd25.txt
+    log: revlist-f960e57dca9f-bfe58458fd25.txt
 
---===============6412513964790586960==
+--===============5123660235906287969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dde6ba6944ea-bfe58458fd25.txt
+Content-Disposition: attachment; filename=revlist-f960e57dca9f-bfe58458fd25.txt
 
+7701c8bef4f14bd9f7940c6ed0e6a73584115a96 cxl/hdm: Fail upon detecting 0-sized decoders
+1423885c84a5b3a53b79bcf241b18124d0d7cba6 cxl/hdm: Use 4-byte reads to retrieve HDM decoder base+limit
+104087a8aaf0f46d89376917eca977fad972cc93 cxl/core: Drop unused io-64-nonatomic-lo-hi.h
+7bba261e0aa6e8e5f28a3a3def8338b6512534ee cxl/port: Scan single-target ports for decoders
+c841ecd8277154c9297dd9ac959494f6deb61e76 cxl/hdm: Add more HDM decoder debug messages at startup
 267214a2319b5692bbc9b128a6514960291dcca8 cxl/port: Fix port to pci device assumptions in read_cdat_data()
 3db166d6cf0ea73dd2c887036aad2e95e0884d9b cxl/mbox: Deprecate poison commands
 dec441d32a9a1e4a891ccda3356cac61cc1ffe79 cxl/mbox: Restrict poison cmds to debugfs cxl_raw_allow_all
@@ -50,4 +55,4 @@ d2fbc48658022f48625064ae192baff52057987d cxl/memdev: Add support for the Inject 
 ca899f4021c9fc673935a09c17a7323527aefccd Merge branch 'for-6.3/cxl-autodetect-fixes' into for-6.4/cxl
 bfe58458fd2557c9a81b89bc0ff10eb03d6c0745 cxl/mbox: Update CMD_RC_TABLE
 
---===============6412513964790586960==--
+--===============5123660235906287969==--
