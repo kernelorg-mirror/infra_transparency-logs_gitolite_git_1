@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Sun, 23 Apr 2023 13:45:52 -0000
-Message-Id: <168225755246.15215.13625591732926838572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 23 Apr 2023 13:47:07 -0000
+Message-Id: <168225762714.15776.17076253547944700920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/counter-next
-    old: 13955e86f041a243414fd1074b5a8c76d4d8e116
-    new: cf3600f2913605052a37ef3e9917046ae13c41f9
+  - ref: refs/heads/kbuild
+    old: ccb2d173b983984bfa35398abed3f8a76c75f788
+    new: d2672847596728ccfb95d3dfe3bd4d1e2ba031f9
     log: |
-         a78c61b5dde59a51352b730a869a1e1f1fad8e06 tools/counter: Add .gitignore
-         cf3600f2913605052a37ef3e9917046ae13c41f9 tools/counter: Makefile: Remove lingering 'include' directories on make clean
+         31f735c65d4f4825c57620f39f2fa27aa01ac172 kbuild: add srcdeb-pkg target
+         347f027597a247f9c41896f208ba78cca7792069 kbuild: deb-pkg: add KDEB_SOURCE_COMPRESS to specify source compression
+         d2672847596728ccfb95d3dfe3bd4d1e2ba031f9 kbuild: rpm-pkg: remove kernel-drm PROVIDES
          
