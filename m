@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/hinawa-rs
-Date: Sun, 23 Apr 2023 02:58:46 -0000
-Message-Id: <168221872640.25951.8327386134693068932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 23 Apr 2023 03:37:02 -0000
+Message-Id: <168222102274.18545.16855426378979632186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/hinawa-rs
-user: takaswie
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 7a2396ee30502b620516394cd7937241594030fc
+  - ref: refs/heads/tis-irq
+    old: 6cea73a6f10e7c9d07f77bb894d6aa4a29ed7bd8
     new: 0000000000000000000000000000000000000000
