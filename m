@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 24 Apr 2023 20:08:28 -0000
-Message-Id: <168236690891.29766.13855115722196671188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 24 Apr 2023 20:10:48 -0000
+Message-Id: <168236704818.32128.4002596119801646349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 74c39586d4cc5aeaeedae34e8a018d4495a0a4bf
-    new: 1300027fcd03c34db19e476cffcb5a57d8ede481
-    log: |
-         1300027fcd03c34db19e476cffcb5a57d8ede481 Mon Apr 24 08:06:16 PM UTC 2023
-         
+  - ref: refs/tags/soc-defconfig-6.4
+    old: 7a3265a7c481ff7330bfe775c4423e338d6ea664
+    new: 226e335f75ae15744d4573a6f0396a1e750dd9c7
