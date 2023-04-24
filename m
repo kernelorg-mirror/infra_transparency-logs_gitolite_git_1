@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Mon, 24 Apr 2023 15:47:39 -0000
-Message-Id: <168235125996.17672.15754315928689507521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 24 Apr 2023 15:50:03 -0000
+Message-Id: <168235140354.19496.7077122062610014419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/uprobe_multi
-    old: 99affdc8ca0b7d5752dcf3720d9a4cb34f14efdb
-    new: ba4e7dc5ce6867c47061e86e4018e7d0cbe6bd8c
+  - ref: refs/heads/for-6.4/block
+    old: 55793ea54d77719a071b1ccc05a05056e3b5e009
+    new: 83794367dcc6749662b17a1e4b8ec085023fc53b
     log: |
-         eb3b57d2bbdf0503c61680f8ce2dacad7a7d97fd selftests/bpf: Add usdt_multi bench test
-         ba4e7dc5ce6867c47061e86e4018e7d0cbe6bd8c selftests/bpf: Add uprobe_multi cookie test
+         83794367dcc6749662b17a1e4b8ec085023fc53b block: Cleanup set_capacity()/bdev_set_nr_sectors()
+         
+  - ref: refs/heads/for-next
+    old: a6ee0aedb011f5a2f8610ab80b7f7d87f74b285b
+    new: e24be7298a4888afdd83ae4ec25467b10c7e4567
+    log: |
+         83794367dcc6749662b17a1e4b8ec085023fc53b block: Cleanup set_capacity()/bdev_set_nr_sectors()
+         e24be7298a4888afdd83ae4ec25467b10c7e4567 Merge branch 'for-6.4/block' into for-next
          
