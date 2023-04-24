@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6662990576790264694=="
+Content-Type: multipart/mixed; boundary="===============1960052880333371011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 24 Apr 2023 15:45:07 -0000
-Message-Id: <168235110735.15150.16665724017178797328@gitolite.kernel.org>
+Date: Mon, 24 Apr 2023 15:45:41 -0000
+Message-Id: <168235114106.15914.16069213584944352363@gitolite.kernel.org>
 
---===============6662990576790264694==
+--===============1960052880333371011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: f9bcdcec3bf0063a010d123a9977cb7a8e240f95
-    new: 60fd497c99b336e466db0aaeff44c7d12a1fc10a
-    log: revlist-f9bcdcec3bf0-60fd497c99b3.txt
+  - ref: refs/heads/dev-queue
+    old: a72471ae9ed5b8cbcc25dd9a9880470e4fef5133
+    new: 1ddbd680c67cbfff192cdebb8c93185ce77cd106
+    log: revlist-a72471ae9ed5-1ddbd680c67c.txt
 
---===============6662990576790264694==
+--===============1960052880333371011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9bcdcec3bf0-60fd497c99b3.txt
+Content-Disposition: attachment; filename=revlist-a72471ae9ed5-1ddbd680c67c.txt
 
 4f3ed1293feb9502dc254b05802faf1ad3317ac6 ixgbe: Allow flow hash to be set via ethtool
 e85d3d55875f7a1079edfbc4e4e98d6f8aea9ac7 ixgbe: Enable setting RSS table to default values
@@ -57,5 +57,15 @@ c69a9b023f65b73068a17f2f4eb6a1b6e257f5bf net/sched: sch_qfq: use extack on error
 7eb060a51a3ba44acefafefd242dcbf12dd91fb9 selftests: tc-testing: add more tests for sch_qfq
 3951adc42ac878fff84f10e194ed13c32fa9c971 Merge branch 'net-sched-parsing-prints'
 60fd497c99b336e466db0aaeff44c7d12a1fc10a MAINTAINERS: Remove PPP maintainer
+ab6001b5e4df6b645c97cea7d69afaee368f56a3 i40e: fix PTP pins verification
+9ff61f2d90f1e3b5353ddf9f1fc1e5475babcf89 ixgbe: Fix panic during XDP_TX with > 64 CPUs
+aea5a162b3e244756630c8e372356375a39be03d igc: Clean the TX buffer and TX descriptor ring
+f83df41146c797b7efef3c8543fe92c1f29e7f10 igc: read before write to SRRCTL register
+a2de2178d0cf2f2c0e8fb3c5cb7ab6624c52cfc5 iavf: send VLAN offloading caps once after VFR
+e4e63dbb6686709350b15d39c6110d7ddc035c6b ice: Fix stats after PF reset
+21125e73d9a355980bdda6daebdf0289f9d9207e igc: Fix possible system crash when loading module
+19dbe0517df49ce28a70ad221b9714370795ee0f ice: Fix ice VF reset during iavf initialization
+bcff02c37c827fa471853021d4cd27742c88be18 iavf: Fix use-after-free in free_netdev
+1ddbd680c67cbfff192cdebb8c93185ce77cd106 iavf: Fix out-of-bounds when setting channels on remove
 
---===============6662990576790264694==--
+--===============1960052880333371011==--
