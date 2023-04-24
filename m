@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5481810286254893777=="
+Content-Type: multipart/mixed; boundary="===============4882923085676734677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 24 Apr 2023 14:17:13 -0000
-Message-Id: <168234583330.18195.13905501905458718171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 24 Apr 2023 14:17:23 -0000
+Message-Id: <168234584396.18292.17953176424523287436@gitolite.kernel.org>
 
---===============5481810286254893777==
+--===============4882923085676734677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
 
---===============5481810286254893777==
+--===============4882923085676734677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -173,4 +173,4 @@ d6b78224c65e395db6aa66ea74522d9899c8aefb Merge tag 'input-for-v6.3-rc7' of git:/
 0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
 457391b0380335d5e9a5babdec90ac53928b23b4 Linux 6.3
 
---===============5481810286254893777==--
+--===============4882923085676734677==--
