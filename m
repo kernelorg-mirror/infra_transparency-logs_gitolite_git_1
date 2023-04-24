@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 24 Apr 2023 12:14:45 -0000
-Message-Id: <168233848567.21324.4642838643764329559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 24 Apr 2023 12:27:43 -0000
+Message-Id: <168233926356.31233.11989619621605510056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 01ed0468bcc130154fcf380c73d0f98dbdfe0e4b
-    new: 26788963f5dd9bec9a1bdda98896791c61dfad92
-    log: |
-         26788963f5dd9bec9a1bdda98896791c61dfad92 include/mount-api-utils: make fallback more portable
-         
+  - ref: refs/heads/for-next/juno/fixes
+    old: 0000000000000000000000000000000000000000
+    new: ac50b0437543ae1c73e0a11eb2542cf836f18559
