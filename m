@@ -1,34 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 24 Apr 2023 06:17:45 -0000
-Message-Id: <168231706569.28428.8578967354631950319@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4332172309130195901=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Apr 2023 06:18:52 -0000
+Message-Id: <168231713223.28825.2972844485924591362@gitolite.kernel.org>
+
+--===============4332172309130195901==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
-  - ref: refs/tags/v6.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
-  - ref: refs/tags/v6.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
-  - ref: refs/tags/v6.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
-  - ref: refs/tags/v6.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
-  - ref: refs/tags/v6.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/heads/master
+    old: 2cac23c365f843f0841b08cc99a5446fab05a4d6
+    new: ec326bb2e43f4c831c1070c6edbb00f536060352
+    log: |
+         ec326bb2e43f4c831c1070c6edbb00f536060352 drop queue-5.4/pwm-meson-explicitly-set-.polarity-in-.get_state.patch
+         
+
+--===============4332172309130195901==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682317129 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1682317128-f35811825363d7c62db30c2c42742f88947538ac
+
+2cac23c365f843f0841b08cc99a5446fab05a4d6 ec326bb2e43f4c831c1070c6edbb00f536060352 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRGH0kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H44P/Rzii5OlQuJ9EdtqMbnN
+bjnX6yA3Og4tcEwU1DiLyM8lkZwmmw6cRdg9mmYG0eyXTemTqPtqvgH13KxOIcU3
+qg1L7zwLaZetT6bgSE4Jrb63oxZY3ZFRUqRLJDrptSWqvfuOvnTVr5PwyJ15HXzQ
+vGIKkkJwXsO4ZKhiDGYfVvi/QIHRbkDHrjg39lxAo55RVjNR3tMqehOBYiiym7SG
+i6wYj8U4Al5YaH5ixRuZuF30JBgY9/0ekrePy3CWyn+OwA44cQiQgMup7Z5lYjol
+yRSDcIiL0gYZPmNnGXKpgDRb1Ki6uObyOEXV1xOTUReK1asow7tXVYxQ1Zmq9TBy
+ZhM+6wDJhfGWlhGAYoslTe64wIvZs1U+sEovopA3dD6UqCsPqh/XtV5V8/Xo2+cK
+QPLMsVHeESx8l2dXItGu5roZToPmjarbw8AJzNZ8+lQnpizRbXsZLJM+N4FkWwLq
+26e43UHP/jCvq8FtxlPCRuoiy2bS1VPRrx+qlSOmN6gUJ9viOE15+4vjlTuLE5nd
+9a7nNsINjhD51hRMnmadsFK6/9cmQ/TfA5bfdJcjNpw5jZess8C8bWWVxOqIsMQl
+lhSu0wsly+Syp3+SL8+zuURbwIMKOId8UF4aAjGUNF8eQfDsa+PdMISWjVk2uHZS
+nE3ymCyVn1R9AyzlvmJp5vlI
+=HIx9
+-----END PGP SIGNATURE-----
+
+--===============4332172309130195901==--
