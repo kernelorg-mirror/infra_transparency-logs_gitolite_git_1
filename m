@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8722756935839286922=="
+Content-Type: multipart/mixed; boundary="===============3431932606617143257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 24 Apr 2023 13:16:21 -0000
-Message-Id: <168234218181.7677.9864376382643885896@gitolite.kernel.org>
+Date: Mon, 24 Apr 2023 13:16:35 -0000
+Message-Id: <168234219588.7836.3657762362577039459@gitolite.kernel.org>
 
---===============8722756935839286922==
+--===============3431932606617143257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 24d2bb7a1804f848a9081be214b524626f7686f0
     new: bd8621ca1510e6e802df9855bdc35a04a3cfa932
     log: revlist-24d2bb7a1804-bd8621ca1510.txt
 
---===============8722756935839286922==
+--===============3431932606617143257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ c3da2c6eeb10e71cc7be33c4b17ced60024fd9b0 tpm/tpm_tis: Convert to platform remove
 77218e83c83c1cd4b994edfb5b162ece42e73ffe tpm_tis: fix stall after iowrite*()s
 bd8621ca1510e6e802df9855bdc35a04a3cfa932 tpm: Add !tpm_amd_is_rng_defective() to the hwrng_unregister() call site
 
---===============8722756935839286922==--
+--===============3431932606617143257==--
