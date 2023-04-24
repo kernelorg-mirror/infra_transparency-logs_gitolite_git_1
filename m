@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7313183898314867290=="
+Content-Type: multipart/mixed; boundary="===============8443927733889292796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Apr 2023 07:32:19 -0000
-Message-Id: <168232153984.14945.15734326105896259458@gitolite.kernel.org>
+Date: Mon, 24 Apr 2023 07:33:46 -0000
+Message-Id: <168232162692.15473.15789378505677707002@gitolite.kernel.org>
 
---===============7313183898314867290==
+--===============8443927733889292796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 43b1eb4b43daa80f72f922b30b2386634df742fe
+    new: 01cbd032298654fe4c85e153dd9a224e5bc10194
+    log: revlist-43b1eb4b43da-01cbd0322986.txt
   - ref: refs/heads/master
-    old: e35c4f84919d0f9cd99a140dc07db28b6d3ff412
-    new: 583532065f5a16638a2447ebb52609e94f65ab58
-    log: revlist-e35c4f84919d-583532065f5a.txt
+    old: 583532065f5a16638a2447ebb52609e94f65ab58
+    new: 01cbd032298654fe4c85e153dd9a224e5bc10194
+    log: revlist-583532065f5a-01cbd0322986.txt
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
 
---===============7313183898314867290==
+--===============8443927733889292796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e35c4f84919d-583532065f5a.txt
+Content-Disposition: attachment; filename=revlist-43b1eb4b43da-01cbd0322986.txt
 
 0643bedf921efd88df73847fb0bb31f9f8692ce0 arm64: dts: rockchip: Fix rk3399 GICv3 ITS node name
 02c84f91adb9a64b75ec97d772675c02a3e65ed7 ARM: dts: rockchip: fix a typo error for rk3288 spdif node
@@ -83,6 +90,23 @@ c682e4c37d2b8ba3bde1125cbbea4ee88824b4e2 rust: kernel: Mark rust_fmt_argument as
 1c5f054f0b12875096e339861c7f44a7c952ce56 rust: build: Fix grep warning
 75eab749e7aec0b7b515d7c50ed429ef4e1c5f3f arm64: dts: qcom: sc7280: remove hbr3 support on herobrine boards
 b1cb00d51e361cf5af93649917d9790e1623647e iio: light: tsl2772: fix reading proximity-diodes from device tree
+dee234032e767b3d6823fe122517770757306f04 irqchip/gic: Drop support for board files
+35727af2b15d98a2dd2811d631d3a3886111312e irqchip/gicv3: Workaround for NVIDIA erratum T241-FABRIC-4
+23c7ff129cf33dee5f1f4fd9fa729ab440e8f1c5 irqchip/bcm-6345-l1: Request memory region
+9dfc77917e3b82dc7f93d62cebf1ebb885e9cc6a irqchip: Use of_property_read_bool() for boolean properties
+e80f0b6a2cf302b56b7d6d7ad3797aebc97fccb9 irqchip/irq-sifive-plic: Add syscore callbacks for hibernation
+3ee92565b83ecc08e5b0c878dd87a2973eaca2ea RISC-V: Clear SIP bit only when using SBI IPI operations
+0c60a31ce62ca3e93550868fd699dfc4dfc4e795 irqchip/riscv-intc: Allow drivers to directly discover INTC hwnode
+832f15f42646812b096bc67c0eac439291a0db1f RISC-V: Treat IPIs as normal Linux IRQs
+fb0f3d281b7f81a11e210783940f3798c4744179 RISC-V: Allow marking IPIs as suitable for remote FENCEs
+18d2199d81054f44e6d2a51177cc80566f43bf23 RISC-V: Use IPIs for remote TLB flush when possible
+6279228432352f43f43f5e760771151605bf6d82 RISC-V: Use IPIs for remote icache flush when possible
+f8415f2def181c63486e93c511b82692e0914d9e irqchip/riscv-intc: Add empty irq_eoi() for chained irq handlers
+112eaa8fec5ea75f1be003ec55760b09a86799f8 irqchip/loongson-eiointc: Fix returned value on parsing MADT
+64cc451e45e146b2140211b4f45f278b93b24ac0 irqchip/loongson-eiointc: Fix incorrect use of acpi_get_vec_parent
+bdd60211eebb43ba1c4c14704965f4d4b628b931 irqchip/loongson-eiointc: Fix registration of syscore_ops
+c84efbba46901b187994558ee0edb15f7076c9a7 irqchip/loongson-pch-pic: Fix registration of syscore_ops
+48ce2d722f7f108f27bedddf54bee3423a57ce57 irqchip/loongson-pch-pic: Fix pch_pic_acpi_init calling
 b3d80fd27a3c2d8715a40cbf876139b56195f162 Input: pegasus-notetaker - check pipe type when probing
 265f1ecff7bf570f4fb9eaa0a40110e4e2091cea Merge tag 'iio-fixes-for-6.3b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 a042d7feae7eff98a9ad5a9de5004e60883a96d3 Merge tag 'fpga-for-6.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
@@ -136,6 +160,7 @@ df830336045db1246d3245d3737fee9939c5f731 LoongArch: Fix probing of the CRC32 fea
 dce5ea1d0f45fa612f5760b88614a3f32bc75e3f LoongArch: Mark 3 symbol exports as non-GPL
 93eb1215ed794a18ba8753e0654f069d58838966 LoongArch: module: set section addresses to 0x0
 bbab25317cdd73b5241145c3c2f188e6cb1e5659 Merge tag 'arm-fixes-6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+a8707f5538846611c90116c14f72539ad5fb37da irqchip/gic-v3: Add Rockchip 3588001 erratum workaround
 35dcb3ac663a16510afc27ba2725d70c15e012a5 KVM: arm64: Make vcpu flag updates non-preemptible
 af67688dca57999fd848f051eeea1d375ba546b2 Merge tag 'mmc-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 8267fc71abb2dc47338570e56dd3473a58313fce veth: take into account peer device for NETDEV_XDP_ACT_NDO_XMIT xdp_features flag
@@ -175,6 +200,7 @@ fcd4843a19d50f9e59116b2643e1a7d171b6fca1 hamradio: drop ISA_DMA_API dependency
 238787157d83969e5149c8e99787d5d90e85fbe5 ASoC: fsl_sai: Fix pins setting for i.MX8QM platform
 86a24e99c97234f87d9f70b528a691150e145197 ASoC: fsl_asrc_dma: fix potential null-ptr-deref
 359f5b0d4e26b7a7bcc574d6148b31a17cefe47d spi: spi-rockchip: Fix missing unwind goto in rockchip_sfc_probe()
+0989ffb31cff794506f5d3dd109574ddbb9b983a irqchip/st: Remove stih415/stih416 and stid127 platforms support
 40aacb3183ff74e15940189ff9a998a93b5ca76f Merge tag 'loongarch-fixes-6.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 789b4a41c247ed654322a6150815025b5497cad0 Merge tag 'nfsd-6.3-6' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 a25bc8486f9c01c1af6b6c5657234b2eee2c39d6 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
@@ -207,6 +233,16 @@ f126f41cec1b6fa04c1d06517ec8f3e19908c5f7 Merge tag 'drm-misc-fixes-2023-04-20-2'
 3b1f2be527ce04e7d8dce6fad6be16fa59058713 Merge tag 'drm-intel-fixes-2023-04-19' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 00a4bd000e78a3a898e60bdc13e2852c8044a38c Merge tag 'amd-drm-fixes-6.3-2023-04-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 2af3e53a4dc08657f1b46f97f04ff4a0ab3cad8d Merge tag 'drm-fixes-2023-04-21' of git://anongit.freedesktop.org/drm/drm
+5a4d3b38ed0cd5bbb03eccea6d9949136abc45c3 Merge branch 'v6.3-rc7'
+223baf9d17f25e2608dbdff7232c095c1e612268 sched: Fix performance regression introduced by mm_cid
+feffe5bb274dd3442080ef0e4053746091878799 sched/rt: Fix bad task migration for rt tasks
+f31dcb152a3d0816e2f1deab4e64572336da197d sched/clock: Fix local_clock() before sched_clock_init()
+743767d6f6b8f28228be181fe369657f7ecd1eb2 perf/x86/intel/uncore: Add events for Intel SPR IMC PMU
+f39157b3c0bb4afdcaea7809b3669de8e0495ed5 Merge branch irq/gic-6.4 into irq/irqchip-next
+e7b5771aa08746c13bb03ebe0a5053df1498c328 Merge branch irq/riscv-ipi into irq/irqchip-next
+275232c0b4064b85fd48532dff1a9b2764d67617 Merge branch irq/loongarch-fixes-6.4 into irq/irqchip-next
+2ff1b0839ddd514be4752c64c1c6facf91ff3a56 Merge branch irq/misc-6.4 into irq/irqchip-next
+f37202aa6e5d6d39a48f744d962fd2bf3a8a452b Merge tag 'irqchip-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 5a43001c01691dcbd396541e6faa2c0077378f48 ASN.1: Fix check for strdup() success
 a14e151910dd967311dbdfe6d95dcd04e777db84 Merge tag 'sound-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 bdc83e00f0a195b85e7879b65a4ca7a6520fe135 Merge tag 'gpio-fixes-for-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -227,6 +263,52 @@ d6b78224c65e395db6aa66ea74522d9899c8aefb Merge tag 'input-for-v6.3-rc7' of git:/
 8296ac9256aa1e9305033720de77ee5419a80f6f Merge tag 'kbuild-fixes-v6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
 457391b0380335d5e9a5babdec90ac53928b23b4 Linux 6.3
-583532065f5a16638a2447ebb52609e94f65ab58 Merge tag 'v6.3'
+cf51fba760243623ed7e44572febd134f21f4794 Merge branch into tip/master: 'x86/merge'
+761e6f2e3fc46e3d048e32fa494850d0915f4c38 Merge branch into tip/master: 'core/debugobjects'
+371a3dcb81d96e9a7173dac84b525a6138ff01c3 Merge branch into tip/master: 'core/entry'
+17ed767983667bc45c1929eb1f5e13366143ade8 Merge branch into tip/master: 'irq/core'
+378edf44cd1706fdefd8622a1665f22c08a4239d Merge branch into tip/master: 'locking/core'
+f3fda86589f7f8c17738cf8f8286344cf56ed610 Merge branch into tip/master: 'perf/core'
+ed8f263a4376fcc1690bb6c3ecd61427f95b4eb5 Merge branch into tip/master: 'ras/core'
+c79e0731dae90f34320423441f6152c11b6dbb7b Merge branch 'sched/core'
+70505b114ab9ba9c5185f172a8c1d5a60fadc99b Merge branch into tip/master: 'smp/core'
+ccdb7fb17f07028e412b4e1645d792da1a27bf48 Merge branch into tip/master: 'timers/core'
+235bd2efb82ba47f7759a1a0cde0385469e7509a Merge branch into tip/master: 'x86/acpi'
+17e447ba19c51da2e58740cf863c0fb56e150e1b Merge branch into tip/master: 'x86/apic'
+6a8e206f1b448c6aecbb415afadbecc73819a578 Merge branch into tip/master: 'x86/cache'
+30fbcf689b04a70dd286901c603af1b137c83221 Merge branch into tip/master: 'x86/cleanups'
+9eb7c66a965ef9ad68682c21222ecec7aedfc493 Merge branch into tip/master: 'x86/cpu'
+4cb7a4a3e94cdd255e69b0b9f310801720acbb8a Merge branch into tip/master: 'x86/fpu'
+8faa5d6615a48256b4bc7a0304b293c2c096e2cf Merge branch into tip/master: 'x86/microcode'
+6519fb2eb4ed8815387819540600629d184e0228 Merge branch into tip/master: 'x86/misc'
+b9ab423f222b46d7775ad025cd73bd5b788cd975 Merge branch into tip/master: 'x86/mm'
+01cbd032298654fe4c85e153dd9a224e5bc10194 Merge branch into tip/master: 'x86/tdx'
 
---===============7313183898314867290==--
+--===============8443927733889292796==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-583532065f5a-01cbd0322986.txt
+
+cf51fba760243623ed7e44572febd134f21f4794 Merge branch into tip/master: 'x86/merge'
+761e6f2e3fc46e3d048e32fa494850d0915f4c38 Merge branch into tip/master: 'core/debugobjects'
+371a3dcb81d96e9a7173dac84b525a6138ff01c3 Merge branch into tip/master: 'core/entry'
+17ed767983667bc45c1929eb1f5e13366143ade8 Merge branch into tip/master: 'irq/core'
+378edf44cd1706fdefd8622a1665f22c08a4239d Merge branch into tip/master: 'locking/core'
+f3fda86589f7f8c17738cf8f8286344cf56ed610 Merge branch into tip/master: 'perf/core'
+ed8f263a4376fcc1690bb6c3ecd61427f95b4eb5 Merge branch into tip/master: 'ras/core'
+c79e0731dae90f34320423441f6152c11b6dbb7b Merge branch 'sched/core'
+70505b114ab9ba9c5185f172a8c1d5a60fadc99b Merge branch into tip/master: 'smp/core'
+ccdb7fb17f07028e412b4e1645d792da1a27bf48 Merge branch into tip/master: 'timers/core'
+235bd2efb82ba47f7759a1a0cde0385469e7509a Merge branch into tip/master: 'x86/acpi'
+17e447ba19c51da2e58740cf863c0fb56e150e1b Merge branch into tip/master: 'x86/apic'
+6a8e206f1b448c6aecbb415afadbecc73819a578 Merge branch into tip/master: 'x86/cache'
+30fbcf689b04a70dd286901c603af1b137c83221 Merge branch into tip/master: 'x86/cleanups'
+9eb7c66a965ef9ad68682c21222ecec7aedfc493 Merge branch into tip/master: 'x86/cpu'
+4cb7a4a3e94cdd255e69b0b9f310801720acbb8a Merge branch into tip/master: 'x86/fpu'
+8faa5d6615a48256b4bc7a0304b293c2c096e2cf Merge branch into tip/master: 'x86/microcode'
+6519fb2eb4ed8815387819540600629d184e0228 Merge branch into tip/master: 'x86/misc'
+b9ab423f222b46d7775ad025cd73bd5b788cd975 Merge branch into tip/master: 'x86/mm'
+01cbd032298654fe4c85e153dd9a224e5bc10194 Merge branch into tip/master: 'x86/tdx'
+
+--===============8443927733889292796==--
