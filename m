@@ -1,16 +1,126 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 24 Apr 2023 23:06:55 -0000
-Message-Id: <168237761522.22426.2085549612462198522@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6721031140876069977=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 24 Apr 2023 23:28:46 -0000
+Message-Id: <168237892625.4130.11554196740199374059@gitolite.kernel.org>
+
+--===============6721031140876069977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/for-6.4-tag
-    old: 0000000000000000000000000000000000000000
-    new: acd863861348616884f6ba4fceeb5c84b08aea5c
+  - ref: refs/heads/next
+    old: b28a910c4c1e6d7cbdc0663e75c2f5bc6b11eb20
+    new: 25bf3b808b2548128a18f87ff7d3df1feb99d9ad
+    log: |
+         197152098a257998b14e04b85b28216bd68f5b9c completion: suppress unwanted unescaping of `read`
+         25bf3b808b2548128a18f87ff7d3df1feb99d9ad Merge branch 'ek/completion-use-read-r-to-read-literally' into next
+         
+  - ref: refs/heads/seen
+    old: db3211b9f790b4c73066a4dc991583d2c0712419
+    new: bdde0ed96b20beeea60e11af01f4d3894a4c7ce7
+    log: revlist-db3211b9f790-bdde0ed96b20.txt
+
+--===============6721031140876069977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-db3211b9f790-bdde0ed96b20.txt
+
+7402e40c5c682cf4213c0b7f8f297dc93e28e011 write-tree: optimize sparse integration
+fc51bb4f9eb251cbc846e07a77598db43161ce89 t4212: avoid putting git on left-hand side of pipe
+321003426c36bb04616401a225ecbf3c2e4054c9 parse_commit(): parse timestamp from end of line
+348b9ff14dbcd9c47aaef94b60ce70d2ba65f389 parse_commit(): handle broken whitespace-only timestamp
+ae6f064fd7f0925cc8985769750a1367a4c24194 notes: clean up confusing NULL checks in init_notes()
+0b1a95ef793716e7e51caf929b971ee2cbf4116d fetch_bundle_uri(): drop pointless NULL check
+69a63fe663874716d2b5bf49b90c550f8279358e treewide: be explicit about dependence on strbuf.h
+cb2a51356d3019582128a818aea533ccd11f42c0 symlinks.h: move declarations for symlinks.c functions from cache.h
+0ff73d742b40bc85966d5b7dcc28f438910f771c packfile.h: move pack_window and pack_entry from cache.h
+623b80bef2431f2f0dc550dda9da5cb633c606fd server-info.h: move declarations for server-info.c functions from cache.h
+d5fff46f4025e23ec61b9d74eac2bb19e7a2385d copy.h: move declarations for copy.c functions from cache.h
+9b5041f647fa5d9921b9b4f8be6b36cb39591166 base85.h: move declarations for base85.c functions from cache.h
+b388633c5c47bf4fc12560d8b237ec0bd319ba4a pkt-line.h: move declarations for pkt-line.c functions from cache.h
+d4ff2072abed071bc9fd291d179162da46d1427f match-trees.h: move declarations for match-trees.c functions from cache.h
+641223137b6d78fa78946f09b472093a117dc04c ws.h: move declarations for ws.c functions from cache.h
+3467663d47a56f9debd86cae75963eee023b3b89 versioncmp.h: move declarations for versioncmp.c functions from cache.h
+592fc5b3495bf4ff17252d31109f1d9c0134684b dir.h: move DTYPE defines from cache.h
+23a517e4156714c3f8c8a4e36beccfee1d76ff1f tree-diff.c: move S_DIFFTREE_IFXMIN_NEQ define from cache.h
+d1cbe1e6d8a9cab2b4ffe8a17d34db214dce1e49 hash-ll.h: split out of hash.h to remove dependency on repository.h
+aabc5617cdfb29ccf98048b0d99cae2a811df51f cache,tree: move cmp_cache_name_compare from tree.[ch] to read-cache.c
+53dca334d6c56488994c0c80a247707419cddbfc cache,tree: move basic name compare functions from read-cache to tree
+5e3f94dfe3c69bc2a711a9dc3b1635e7ff91ab54 treewide: remove cache.h inclusion due to previous changes
+4c98cb8e355d51520cb56ef8bdcbe9f23c55a114 cache.h: remove unnecessary headers
+e1c382141d8072b8c8c07c0bd8265b2b3d01ae2b fsmonitor: reduce includes of cache.h
+d4a4f9291d63b48b368f79bce3151bee9ca28009 commit.h: reduce unnecessary includes
+e3d2f20e6f14d3cba641a365a733a615278e9e5e object-store.h: reduce unnecessary includes
+0e312eaa12c03043b0ef23021a5a820567ee0efd diff.h: reduce unnecessary includes
+e3a3f5edf52c7f6161b167058b4d7c3a31dc0c3b reftable: ensure git-compat-util.h is the first (indirect) include
+000c4ceca794645eb4744f9c9afb6247232c0646 merge-ort: fix calling merge_finalize() with no intermediate merge
+0587befe6c396df6c3ad8e8b0b29459919f64406 t1092: add tests for `git diff-files`
+7ebe4f5b53a2642dace04b3e42f3ad1011f9ca0d diff-files: integrate with sparse index
+f7f9a836e22b559a2f122c7951ca7d4af25258e7 t1300: drop duplicate test
+93f86046c94545e36aceef9eef084b60d02f4c59 t1300: check stderr for "ignores pairs" tests
+3d77fbb664acab5157617cdb368a0c657bf20919 t1300: add tests for missing keys
+603d0fdce2ca84d4dc7b26e46430778fe9c4cb72 blame: use different author name for fake commit generated by --contents
+52acddf36c8cb3778ab2098a0d95cc2e375a4069 string-list: multi-delimiter `string_list_split_in_place()`
+492ba81346cc45322d0c26bc927b01a34becf304 string-list: introduce `string_list_setlen()`
+826f0e33ab0cbe976af02dd487303e4d1a0b3017 t/helper/test-hashmap.c: avoid using `strtok()`
+deeabc1ff07fed102e90f9037aed749b16abd9a6 t/helper/test-oidmap.c: avoid using `strtok()`
+a2742f8c59dae6ef55895933e0950d61b6d03720 t/helper/test-json-writer.c: avoid using `strtok()`
+489495cd707d9f0d2be83ef9c38460387214e03d banned.h: mark `strtok()` and `strtok_r()` as banned
+f5a1149cb601bd3f4e164248f8ca440084e2bdbf Merge branch 'en/header-split-cache-h' into jch
+d374f2be291dc45390728d83175427f479fc708a Merge branch 'jk/protocol-cap-parse-fix' into jch
+98911119d20942a21d820920882f25a940cc319b Merge branch 'rj/send-email-validate-hook-count-messages' into jch
+0ef9d30074ece65d4f746fe67d77935658427bc7 Merge branch 'ps/fix-geom-repack-with-alternates' into jch
+9a21475c38de3a19dbd36766dc74b384fc07e1a6 Merge branch 'tb/pack-revindex-on-disk' into jch
+5af19412cc5d4791ae117487838623b1af270684 Merge branch 'ds/fsck-pack-revindex' into jch
+8e1fbfcff4e056cba1651292514e1455f55b0dc0 Merge branch 'pb/complete-and-document-auto-merge-and-friends' into jch
+bacb9cfacd67a8a2de542dc764a424406b6a284a Merge branch 'fc/doc-use-datestamp-in-commit' into jch
+68a0627c0d1097ff54610de25bd574295034edc3 Merge branch 'fc/doc-checkout-markup-updates' into jch
+b256b12f165f1388aa2bf2dc7d4a9a1a79d0094e Merge branch 'tb/enable-cruft-packs-by-default' into jch
+9cd21975c3e32efa2e68bc207408ac917f8e9ec3 Merge branch 'jk/gpg-trust-level-fix' into jch
+867d3ee625388de5251deba58177f3d81146b34d Merge branch 'ek/completion-use-read-r-to-read-literally' into jch
+076643da2ed1a27c0d1892577c00d79553f9a01f ### match next
+114fbe98b8345f1acd36291bc49601a29aa2031e Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
+9ceb0925a5e44a607e4a62fc2b1603f70d481d88 Merge branch 'mh/credential-password-expiry-wincred' into jch
+615fedcb3a303e9bf82dae2b68124b3cd04a46ac Merge branch 'en/header-split-cache-h-part-2' into jch
+a97947f71fae33f4aa6d5e612826ba1a4c31ee8e Merge branch 'mh/credential-oauth-refresh-token' into jch
+19caea92353c73c05114605b6581a4b871bf951a Merge branch 'mh/credential-password-expiry-libsecret' into jch
+567449c07d62f40a5d166f00b680c9e370d68e34 Merge branch 'gc/doc-cocci-updates' into jch
+630bde62a80c23ce7184279e20e1302e74236da4 Merge branch 'ar/config-count-tests-updates' into jch
+248cb65b1040be2a86c619daa56e3ec9cd0ef6b9 Merge branch 'en/ort-finalize-after-0-merges-fix' into jch
+cd906def35fa2dc1a36daac5a7198f8caf259e13 Merge branch 'ma/gittutorial-fixes' into jch
+d0007c1c91db7c6356c6e931fe6fa482f19bcb1b Merge branch 'pw/rebase-i-after-failure' into jch
+93b7db42eb070fdfd08337b2fee744daf964ddbf Merge branch 'jk/parse-commit-with-malformed-ident' into jch
+1c46908999bcd352bec94cfdf309d5ed0347bd3a Merge branch 'jk/misc-null-check-fixes' into jch
+8a6ce9042861c947bbb4b42dafa3942db90c6da5 Merge branch 'jk/blame-fake-commit-label' into jch
+399bf964f492c1c77174597ab2cff3b7e223e13f Merge branch 'ar/test-cleanup-unused-file-creation-part2' into seen
+e94998cffab216a43a864e49c4d2881e316e0a6c Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
+21e6620bb09374c795fd0d084509744a70297860 Merge branch 'ab/imap-send-requires-curl' into seen
+eda7bbf331956f983f962b12b6b5ca0ce815cfe3 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
+db78fdec348552a419780bce3e6739780eaa6265 Merge branch 'sl/diff-files-sparse' into seen
+a1c2afb64a6ea899699378d0c0f9e021659eed5b Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
+af42bec82f8157d001974fd93e80ed6bd99aa916 Merge branch 'kh/doc-interpret-trailers-updates' into seen
+29703b3e2a7852a19aae05a0558f97775540def2 Merge branch 'so/diff-merges-more' into seen
+81473937c12b7046d97cc2309fc3a7db357fc926 Merge branch 'cw/submodule-status-in-parallel' into seen
+236929faa8133efe0357ebdabcf34f1313a4ac40 Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+12aa70c6e79a1686c8ba28a8ff28b87b286a05e4 Merge branch 'cb/checkout-same-branch-twice' into seen
+b272aecc692afb3288956411ce6665f858f4d1a0 Merge branch 'mh/use-wincred-from-system' into seen
+02498044338abda574e8f04ab319d169cf939e9a Merge branch 'ob/revert-of-revert' into seen
+c0b5672b0593cfff065ad1c4745d36ab712ed7a8 Merge branch 'ab/tag-object-type-errors' into seen
+1a68ae6133d4b4de15b6092a0c7df62843a08ba0 Merge branch 'ja/worktree-orphan' into seen
+65eaa5bc1171c5c1cdc83a223911f0553495514d Merge branch 'tb/pack-bitmap-index-seek' into seen
+856ce172dbb45fdddba94676a5320073095c26b8 Merge branch 'rn/sparse-diff-index' into seen
+81e1ebdcbfb5621974fd3a8dbbf3496a8a504a06 Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
+dec1876b52a45493e0cdfd19e4efde251f749c53 Merge branch 'ps/fetch-output-format' into seen
+a38d5ce63d35f90fd518c0d44a71d2fddbc2d225 Merge branch 'sg/retire-unused-cocci' into seen
+7b4c117f07c303454ce0a0828f5346bf37705521 Merge branch 'sl/sparse-write-tree-part-2' into seen
+bdde0ed96b20beeea60e11af01f4d3894a4c7ce7 Merge branch 'tb/ban-strtok' into seen
+
+--===============6721031140876069977==--
