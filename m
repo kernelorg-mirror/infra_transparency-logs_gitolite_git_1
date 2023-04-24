@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
-Date: Mon, 24 Apr 2023 08:25:37 -0000
-Message-Id: <168232473740.18313.616063300607917884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 24 Apr 2023 08:36:07 -0000
+Message-Id: <168232536755.24561.15866838504344046349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dborkman/pw
-user: dborkman
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: 9bf25bbf6f75970b3d8c3d9468452d1221f4bb21
-    new: 7cec241aad7c3660d992b3dd540e13c4d142db50
+  - ref: refs/heads/for-next
+    old: a61d6360dd9a440a7d77d911d44eafd328eaa169
+    new: 364cc95468f737725b90a91bf11b8e0452aa0122
     log: |
-         be2fda7a60f31f8244300775a2ae2d25e733ac6e pw-pull: Match on conflicts in more lines
-         2ae7bb1b1c03333794b0555fa281193712463615 pw-pull: Propagate tags onto pull requests
-         7cec241aad7c3660d992b3dd540e13c4d142db50 pw-apply: Unify the merge paths
+         d8a19f2986c0f65c5ed02110192f3fd5f86e2b32 libfrog: move crc32c selftest buffer into a separate file
+         b9d29568e40dbead8484a4dba2089ff54df7caaf misc: test the dir/attr hash before formatting or repairing fs
+         364cc95468f737725b90a91bf11b8e0452aa0122 xfsprogs: nrext64 option should be in [inode] section of mkfs conf files
          
