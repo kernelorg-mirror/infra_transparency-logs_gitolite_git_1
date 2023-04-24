@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 24 Apr 2023 11:59:53 -0000
-Message-Id: <168233759302.11944.17568317423040392945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 24 Apr 2023 12:08:42 -0000
+Message-Id: <168233812258.17855.14794189547601733999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/v10_20230421_kyarlagadda_tegra_tpm_driver_with_hw_flow_control
-    old: 967ca91a996f82219f2883e9e53d8e20df49025a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 93631b216b4ae310468ad3c21a5b9ffcbe40e1b4
