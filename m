@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Mon, 24 Apr 2023 15:04:22 -0000
-Message-Id: <168234866245.19384.3172068723241454631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 24 Apr 2023 15:04:48 -0000
+Message-Id: <168234868885.19603.11050279763379654362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/socfpga_dts_for_6.4_v1
+  - ref: refs/tags/soc-drivers-6.4
     old: 0000000000000000000000000000000000000000
-    new: 3ff5c0d674e41e4c8e7eda4ee66d9bc3325eb5f0
+    new: 08205bc182eb8d11a05a4ea713c30c599dd0455e
