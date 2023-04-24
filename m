@@ -1,39 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3936988027318466191=="
+Content-Type: multipart/mixed; boundary="===============1053887967229426018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 24 Apr 2023 09:18:24 -0000
-Message-Id: <168232790450.20303.6967380435481525264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 24 Apr 2023 09:24:32 -0000
+Message-Id: <168232827266.23696.14774528232371060050@gitolite.kernel.org>
 
---===============3936988027318466191==
+--===============1053887967229426018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 58c481b761fe2bc4936caea1c712d28e30488ef4
-    new: e5cb7b418f58d865520f56b1fb541616ee6f8754
-    log: revlist-58c481b761fe-e5cb7b418f58.txt
-  - ref: refs/tags/renesas-defconfig-v6.3
-    old: 0000000000000000000000000000000000000000
-    new: b55d906949187fc977af2f56c15790a7c8fae5be
-  - ref: refs/tags/renesas-devel-2023-04-24-v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 6fa5e9359b5ddfba4170da35718ec597af5f2d23
-  - ref: refs/tags/v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+    old: e5f6e4d13f537cdaba3909e72b1e1e1e91a05aaf
+    new: 007a571e344357e5f43093d21099a831060088fc
+    log: revlist-e5f6e4d13f53-007a571e3443.txt
 
---===============3936988027318466191==
+--===============1053887967229426018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58c481b761fe-e5cb7b418f58.txt
+Content-Disposition: attachment; filename=revlist-e5f6e4d13f53-007a571e3443.txt
 
 0643bedf921efd88df73847fb0bb31f9f8692ce0 arm64: dts: rockchip: Fix rk3399 GICv3 ITS node name
 02c84f91adb9a64b75ec97d772675c02a3e65ed7 ARM: dts: rockchip: fix a typo error for rk3288 spdif node
@@ -238,6 +229,6 @@ d6b78224c65e395db6aa66ea74522d9899c8aefb Merge tag 'input-for-v6.3-rc7' of git:/
 8296ac9256aa1e9305033720de77ee5419a80f6f Merge tag 'kbuild-fixes-v6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
 457391b0380335d5e9a5babdec90ac53928b23b4 Linux 6.3
-e5cb7b418f58d865520f56b1fb541616ee6f8754 Merge tag 'v6.3' into renesas-devel
+007a571e344357e5f43093d21099a831060088fc Merge tag 'v6.3'
 
---===============3936988027318466191==--
+--===============1053887967229426018==--
