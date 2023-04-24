@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9205834818782520335=="
+Content-Type: multipart/mixed; boundary="===============5507797705445278477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 24 Apr 2023 13:11:25 -0000
-Message-Id: <168234188510.2483.6933410988093286572@gitolite.kernel.org>
+Message-Id: <168234188526.2504.8990197782102896677@gitolite.kernel.org>
 
---===============9205834818782520335==
+--===============5507797705445278477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 8d9ae4d5463568cce7ae90cba34e452391f8ed27
-    new: 8ca3c8d286160dca3bb13ae97a4a7a2d2fd4ad01
-    log: revlist-8d9ae4d54635-8ca3c8d28616.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 2fda4c86fb1e1e00f1ebd54f9d8c347ff626b5d4
+    new: 05f80276ba11cf05a736470e5c5e3a1a1c78dca6
+    log: revlist-2fda4c86fb1e-05f80276ba11.txt
 
---===============9205834818782520335==
+--===============5507797705445278477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,60 +32,59 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682341883 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1682341882-392992d8c69c95ce3b541623288da5a607980d88
 
-8d9ae4d5463568cce7ae90cba34e452391f8ed27 8ca3c8d286160dca3bb13ae97a4a7a2d2fd4ad01 refs/heads/linux-4.19.y
+2fda4c86fb1e1e00f1ebd54f9d8c347ff626b5d4 05f80276ba11cf05a736470e5c5e3a1a1c78dca6 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRGf/sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1rgP/0Dozkv3j8waaorbYIop
-4QwsxDsSRKFHbX+PI3p3cJiett+UbLzd2HSEFb2eUeTgCPt8wu4hxTJnIL7Eqdzp
-eEs/ukLFVe/SnSRKySA08NxrxPDSVRp0jiLpx0QCyUo/BStSX0n2COrhQXODD2GY
-sEVIYg8mITk+pqGmr/qTAKWc9FyVxCztvoc6HxAEHu4C3jIqmOCdwVkrAnq+3UCy
-jMDAxY1gvtZVuQr8Cu9wFqsknADEefBOLWjahgFm6INtd9kI5kisEmvGI4rqR2Zi
-yC+nEjZfDfc42sRqtWM8Pa/YKHWal+DfBQr0+gSKaW8EPGSgxuDq5r8MRlvcn9XS
-wfEeXVImFtGflxKt/fo9JEY3bI1Qm6ZbxaFgiXL75wPw11Ky4RzgGEzV+eTIr6aW
-kNkdBfiIwWP5+Ej/3TVAW+jSHGVx8UYn2zgILCmHZ9ZwGoUhncs6uuWqLG3pWOWU
-px8cIC6cUCzFy+YvJOPoNFrcCW46EqfX4yKNDyYU7/lwggNiQaizkCoDr/KTq+RU
-P97DuFDhSPKWF0T5fcuo0jsIVDdCo69HDKG/x6PVTIRdsSSEyct/xgiqZS81b7PA
-2EKFqpSBQLVCofyHqXoDazG2w4/7f32j1LztXEtYuznrrnXJpjUM9ljqlYnYMu+r
-HeYVpyeeoT9znTY6AtWr+Pg6
-=OIDm
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lTUP/0EEkOfy5KX7YSV3GfLy
+dIMc/HkyN6oNesKD3AI+WO8Q8erb4YYzfRWgkFEODwJNRKMpDwvo2DRGvjMKHJPO
+dlxkqla8vRzgcdDDMaVo6wvCQvvzFu1+09G5Ue59lqNU4r9sB0xR1qAJgjulTBCy
+UMw260cAmOvV60WS++WLW+tkxNPwX0/WdeJQtDnW+slG2zGdlCr8G2afvyF36xx2
+z0bFPqPW17VqkOCorWlFXMu60ahECPeJAeWBwcgHlG5t8vf6hd3ea6ACtEGYVeMs
+2vwoRsMxGyRHEQIoq15QRjOhXdWi1u5r/GZHjnePhQwWRoO5SheTOX2r73OEjw9g
+siS28sC6Aa8YAzbPJJvMhCcguPoqYPrx7ZylnQRPkpKWGy2dOxv+8M8Z5tzYgKZE
+8OGroSObvT3M0PEJEy3YdVuqtaRa31n/j9wP6JjdeLeBLkWMve/CW5V396iLR8gi
+GA9Mn2c74eolHTlhOKRyEQBiKH9khtppTJKcN0QNS0EjHGwLXor6WLDokqeiKNl3
+AncmdehWtbkLLiACe2Ni69t2mF9kQR6+lLq4OgeL1LUFwowVv7t43iLQJgLGqzjc
+4BGn5tREKaZpm/Fh/EQq+0YuzsdIe7f+dSdvEi7YEw44uM66ika4NxPEld7dQVf5
+8UPq+uVmLNwmQ9096UnqJS3v
+=1xOS
 -----END PGP SIGNATURE-----
 
---===============9205834818782520335==
+--===============5507797705445278477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d9ae4d54635-8ca3c8d28616.txt
+Content-Disposition: attachment; filename=revlist-2fda4c86fb1e-05f80276ba11.txt
 
-360a1c6dda2706785944e1cb0639ace167aa7cce ARM: dts: rockchip: fix a typo error for rk3288 spdif node
-d8e455cb7da5a2362ab6cba08a8005bbf516fd9d net: sched: sch_qfq: prevent slab-out-of-bounds in qfq_activate_agg
-c7e359f0d738dceaac59acde309d38af9ad1ee79 virtio_net: bugfix overflow inside xdp_linearize_page()
-bb0127b434f0ab7c2a15fa36f0e1b6f97eaccbb0 i40e: fix accessing vsi->active_filters without holding lock
-1c0969445c92c6fdef037b0d9d9f985790c9df34 i40e: fix i40e_setup_misc_vector() error handling
-39ecf60ac9d8ae862d6fe66f651a1d7212a74980 mlxfw: fix null-ptr-deref in mlxfw_mfa2_tlv_next()
-a2f3f745eb13aae84b0f156a89babf1bd6c7fb8a e1000e: Disable TSO on i219-LM card to increase speed
-133dc878a7a95326f8e5c1a55270d2fbf5be1ed1 f2fs: Fix f2fs_truncate_partial_nodes ftrace event
-04250edb9b9a52ac951eee2fdb2b1a1649437a10 Input: i8042 - add quirk for Fujitsu Lifebook A574/H
-7078c761102813718065e79eb2ca065eb8aee371 selftests: sigaltstack: fix -Wuninitialized
-8854d30ffdb6f12c558bf0b27ad4f9f0dc7a1ad7 scsi: megaraid_sas: Fix fw_crash_buffer_show()
-bd0a53605016491c86d4f5689f52aa5859551086 scsi: core: Improve scsi_vpd_inquiry() checks
-f2418b78368c6865e45274362bcd779c1752e8e0 net: dsa: b53: mmap: add phy ops
-6da9cabcd09873dfaf712e29389dc1aa1225f11f s390/ptrace: fix PTRACE_GET_LAST_BREAK error handling
-cb3bc34d7324b29dc359dc2fd5b30931888e8e87 xen/netback: use same error messages for same errors
-6300949a2c85f12cb29802adab2f3f04b2d5bf04 nilfs2: initialize unused bytes in segment summary blocks
-3dff66073ad46e876162f90662c7c1cdacb166a6 memstick: fix memory leak if card device is never registered
-60d7f08861317f2f238a7d441bc8741943d67adf x86/purgatory: Don't generate debug info for purgatory.ro
-1dd62654daa885283670f805c5e5d54fc5b29536 Revert "ext4: fix use-after-free in ext4_xattr_set_entry"
-3bc4ca4ba26992411779f9be97c6465723b054e7 ext4: remove duplicate definition of ext4_xattr_ibody_inline_set()
-76ce25bd933e294c9c148328c2e3b55a05356622 ext4: fix use-after-free in ext4_xattr_set_entry
-0df7bccc5c10e4e1e53834f7fad554fc8e37b7ac udp: Call inet6_destroy_sock() in setsockopt(IPV6_ADDRFORM).
-e67104267794cc5b55679f452d95fa6569db64ac tcp/udp: Call inet6_destroy_sock() in IPv6 sk->sk_destruct().
-b0281d9c9f6b8302b936e5eaaf0b334352182377 inet6: Remove inet6_destroy_sock() in sk->sk_prot->destroy().
-484264d85793f6508f63a332e39e078a179394d7 dccp: Call inet6_destroy_sock() via sk->sk_destruct().
-94a7a5ec0ca064c5ff9f7e40801961ddf7a7389a sctp: Call inet6_destroy_sock() via sk->sk_destruct().
-9fe6b2ec99f3504d9aae49777f40aa86945a9abe counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
-1b2afd259d424bd95e1d8a62fb7a5d7a5a4415c2 iio: adc: at91-sama5d2_adc: fix an error code in at91_adc_allocate_trigger()
-a82e5db7eeaf51171c7baa0c81dd20a02503c006 ASN.1: Fix check for strdup() success
-8ca3c8d286160dca3bb13ae97a4a7a2d2fd4ad01 Linux 4.19.282-rc1
+0f0bfaf0fc6e1cbd52dffba418c9fb47a41184d4 ARM: dts: rockchip: fix a typo error for rk3288 spdif node
+58954f511068d08317444c14d7086b0fc132dadc net: sched: sch_qfq: prevent slab-out-of-bounds in qfq_activate_agg
+18eb26f98ded470af047380b324a50fb6c36b6cc virtio_net: bugfix overflow inside xdp_linearize_page()
+81edcbccf95594102fd9886a4ce5b8b62d66c79e i40e: fix accessing vsi->active_filters without holding lock
+3d081d862577edbf30d584e0d944978dc91b2605 i40e: fix i40e_setup_misc_vector() error handling
+dabb01d0010de468488fd57016beee69c07c3188 mlxfw: fix null-ptr-deref in mlxfw_mfa2_tlv_next()
+ee4987425785bd188ce1616457d4814f55e024fb e1000e: Disable TSO on i219-LM card to increase speed
+a32bfa627c0cfd426af77f4a6d7ab3f35da4e429 f2fs: Fix f2fs_truncate_partial_nodes ftrace event
+27521495f7c468d61c786f6782a53be21b24118a selftests: sigaltstack: fix -Wuninitialized
+c450927e5f25dbe6f98966e15e29319ba246102a scsi: megaraid_sas: Fix fw_crash_buffer_show()
+bf3e56eb85f127a457f0321d6f78da3f2867de2b scsi: core: Improve scsi_vpd_inquiry() checks
+166ebc0b8d509a3c47888cced9b5b28a1c4de836 net: dsa: b53: mmap: add phy ops
+02ff8aad054d7a8d175193fb5f5dbfc8bf848bb0 s390/ptrace: fix PTRACE_GET_LAST_BREAK error handling
+37df760a6065eb998fee76928a8b01089dce8de3 xen/netback: use same error messages for same errors
+bff19445cb77edcaef2b2f4383c0d57643490fe5 nilfs2: initialize unused bytes in segment summary blocks
+5384221c666e11a9932c051143aa6a1cb720fe62 memstick: fix memory leak if card device is never registered
+d1e236cffae8d4d0c1ed8336aadb173ca34268c0 x86/purgatory: Don't generate debug info for purgatory.ro
+65cb674026262d49e8304ad7f6f9d5e32d356b99 Revert "ext4: fix use-after-free in ext4_xattr_set_entry"
+0a8cff7f07e8e2ac2b2c79436b18c26321098da5 ext4: remove duplicate definition of ext4_xattr_ibody_inline_set()
+322d238b7bc9361f82adb2153d3df8cb3a355c90 ext4: fix use-after-free in ext4_xattr_set_entry
+5bb753f6db91586533ab18f257b6daa7177f60e8 udp: Call inet6_destroy_sock() in setsockopt(IPV6_ADDRFORM).
+8aa54e89bd8ad06c08d2910b78861eb6531dc90b tcp/udp: Call inet6_destroy_sock() in IPv6 sk->sk_destruct().
+0e6c8dcd2d5fb20f75f2d06ca30c0be6609138b8 inet6: Remove inet6_destroy_sock() in sk->sk_prot->destroy().
+52af397f0ca656b82b8f587f086983d6ac17985a dccp: Call inet6_destroy_sock() via sk->sk_destruct().
+e293189962e3b5f2956fd906e2fa5a5ac7dd9a1a sctp: Call inet6_destroy_sock() via sk->sk_destruct().
+019bb34eda509fc892857bd201cc0b2902781f0b counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
+98571c92accf1e29abbd0942a0a3c1af22d8bade iio: adc: at91-sama5d2_adc: fix an error code in at91_adc_allocate_trigger()
+af8c22948ce24ed50fabca63c47decd55628c459 ASN.1: Fix check for strdup() success
+05f80276ba11cf05a736470e5c5e3a1a1c78dca6 Linux 4.14.314-rc1
 
---===============9205834818782520335==--
+--===============5507797705445278477==--
