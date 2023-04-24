@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2428269769179108441=="
+Content-Type: multipart/mixed; boundary="===============2854488862313826440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Mon, 24 Apr 2023 17:12:45 -0000
-Message-Id: <168235636511.10440.10907932708140627331@gitolite.kernel.org>
+Date: Mon, 24 Apr 2023 17:13:17 -0000
+Message-Id: <168235639789.10684.1658367412880885024@gitolite.kernel.org>
 
---===============2428269769179108441==
+--===============2854488862313826440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: 457391b0380335d5e9a5babdec90ac53928b23b4
     log: revlist-1b929c02afd3-457391b03803.txt
 
---===============2428269769179108441==
+--===============2854488862313826440==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d6b78224c65e395db6aa66ea74522d9899c8aefb Merge tag 'input-for-v6.3-rc7' of git:/
 0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
 457391b0380335d5e9a5babdec90ac53928b23b4 Linux 6.3
 
---===============2428269769179108441==--
+--===============2854488862313826440==--
