@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 25 Apr 2023 14:13:40 -0000
-Message-Id: <168243202023.24436.15996641620428884372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Tue, 25 Apr 2023 14:17:47 -0000
+Message-Id: <168243226716.28655.12076274225885688936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/master
-    old: 8f0420c533ae6a49c4f2803afe32d5922a5236ad
-    new: dd1000f245d7652c39043aab006aed4eb2723c59
-    log: |
-         dd1000f245d7652c39043aab006aed4eb2723c59 build: Only compile unit test and tools when daemon is enabled
-         
+  - ref: refs/heads/fix_ring_expansion
+    old: 0000000000000000000000000000000000000000
+    new: 5d43e1a13408572e6bf8f7d91c9b26825f0287a9
