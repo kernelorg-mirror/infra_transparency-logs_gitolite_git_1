@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7186649028979106692=="
+Content-Type: multipart/mixed; boundary="===============0635115505746145652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 25 Apr 2023 15:19:09 -0000
-Message-Id: <168243594955.5597.10519296403910923144@gitolite.kernel.org>
+Date: Tue, 25 Apr 2023 15:19:44 -0000
+Message-Id: <168243598491.5840.9586578367238132936@gitolite.kernel.org>
 
---===============7186649028979106692==
+--===============0635115505746145652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 2efb07b5ced64d053e6fe6e829e45549aa622168
-    new: 28b17f6270f182e22cdad5a0fdc4979031e4486a
-    log: revlist-2efb07b5ced6-28b17f6270f1.txt
+  - ref: refs/heads/dev-queue
+    old: d15a5df649ee6351197170c855148f07caf69d0b
+    new: f35099143ca2b984fdd656097fc6fb6fe17fcf64
+    log: revlist-d15a5df649ee-f35099143ca2.txt
 
---===============7186649028979106692==
+--===============0635115505746145652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2efb07b5ced6-28b17f6270f1.txt
+Content-Disposition: attachment; filename=revlist-d15a5df649ee-f35099143ca2.txt
 
 e38fbfa972eb0944ce4387caf23d166c1df4b114 netfilter: nf_tables: merge nft_rules_old structure and end of ruleblob marker
 d4d89e6546e0d1ac09cb9dd353f0cb31c8a8deb1 netfilter: nf_tables: don't store address of last rule on jump
@@ -73,5 +73,34 @@ ee3392ed16b064594a14ce5886e412efb05ed17b Merge tag 'for-netdev' of https://git.k
 700f11eb2cbea349bda2599b4b676b49d43b4175 lan966x: Don't use xdp_frame when action is XDP_TX
 4774ad841bef97cc51df90195338c5b2573dd4cb net: phy: marvell: Fix inconsistent indenting in led_blink_set
 28b17f6270f182e22cdad5a0fdc4979031e4486a net: phy: marvell-88x2222: remove unnecessary (void*) conversions
+62cc06740c74e97f0517482fe9c7bbfa6c8d9ef7 ice: Support 5 layer topology
+d6be704179ce8b65aae349275f48853645b768b4 ice: Adjust the VSI/Aggregator layers
+c1c2100c8823960d993d56025667e8aed18b87d1 ice: Enable switching default tx scheduler topology
+d84ba3e337ad8a01ef45c03386ee1595ef88889e ice: Add txbalancing devlink param
+b3d49b55115c56da387aa16244f915a5b4ed26c8 ice: Document txbalancing parameter
+f3a468b3de4a685a32c4507028ac2717e5f8a6c6 ice: move interrupt related code to separate file
+c9c9b57c9b6b411e097824dfdee4cd1425b3048c ice: use pci_irq_vector helper function
+e0c6b1f534f6ad84d928cdc066e808b681966fa6 ice: use preferred MSIX allocation api
+7a759c467e53d3ee041cdc9e10d050601e07e57b ice: refactor VF control VSI interrupt handling
+50e927e47ee56274784e6e6ed01f0f05f77c4529 ice: remove redundant SRIOV code
+7ffa212b9d58074662e66ca1dd6ae1c5b358f96d ice: add individual interrupt allocation
+a1b34bd8db9a815ddc75829418ee9f5cf4ceeecd ice: track interrupt vectors with xarray
+1af9c812b1c527f48b6b6de7e50d935303f1ab1e ice: add dynamic interrupt allocation
+b566aabf5b0f952976090bc703362bc1196c48b9 i40e: fix PTP pins verification
+88c999ce55f6c3826957c24c63a45e21aaf92729 ice: define meta data to match in switch
+2a4ddd3101eb456d788c690f2abd33dc53bb7fe6 ice: remove redundant Rx field from rule info
+20a65f097b380a6d788f477c0b5249c63e38ab51 ice: specify field names in ice_prot_ext init
+1badeaed356a40e92cfb4020b48a6db5f13a18d0 ice: allow matching on meta data
+e27dcc314e627a8cb788fd32e198dc6e560012b5 ice: use src VSI instead of src MAC in slow-path
+718712824b7797d848807537db9c48bfad223d36 ixgbe: Fix panic during XDP_TX with > 64 CPUs
+5b1ee2ae4ee316c9339c5dd26dc80b17f6d9022f ixgbe: Allow flow hash to be set via ethtool
+da325cb1c511d457b7586de88526cb5df9d0b4ae ixgbe: Enable setting RSS table to default values
+63242f29b084e78b495ca388cbb66680dd01b1a5 igc: Clean the TX buffer and TX descriptor ring
+c877ec7559c1743427cc7cca870ad9b797265aa7 igc: read before write to SRRCTL register
+bddc5e3a4376aa347d3951610c791a29448bd665 iavf: send VLAN offloading caps once after VFR
+6e5f78e62e1d42ba405e488da699102ff94982cf ice: Fix stats after PF reset
+1074ed5617e1d3ba5b5ced94ed5d8209daffba54 igc: Fix possible system crash when loading module
+53ea7156cb2943e5cdf6c643a5fa79bb36669630 ice: Fix ice VF reset during iavf initialization
+f35099143ca2b984fdd656097fc6fb6fe17fcf64 igc: Avoid transmit queue timeout for XDP
 
---===============7186649028979106692==--
+--===============0635115505746145652==--
