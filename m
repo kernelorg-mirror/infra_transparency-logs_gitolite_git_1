@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8615237316966895370=="
+Content-Type: multipart/mixed; boundary="===============6936838963198111192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 25 Apr 2023 03:00:07 -0000
-Message-Id: <168239160738.22453.17009036324875425104@gitolite.kernel.org>
+Date: Tue, 25 Apr 2023 03:00:13 -0000
+Message-Id: <168239161369.22573.13183682346126454485@gitolite.kernel.org>
 
---===============8615237316966895370==
+--===============6936838963198111192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: be7dbd275dc6b911a5b9a22c4f9cb71b2c7fd847
     new: 4774ad841bef97cc51df90195338c5b2573dd4cb
     log: revlist-be7dbd275dc6-4774ad841bef.txt
 
---===============8615237316966895370==
+--===============6936838963198111192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -174,4 +174,4 @@ ee3392ed16b064594a14ce5886e412efb05ed17b Merge tag 'for-netdev' of https://git.k
 700f11eb2cbea349bda2599b4b676b49d43b4175 lan966x: Don't use xdp_frame when action is XDP_TX
 4774ad841bef97cc51df90195338c5b2573dd4cb net: phy: marvell: Fix inconsistent indenting in led_blink_set
 
---===============8615237316966895370==--
+--===============6936838963198111192==--
