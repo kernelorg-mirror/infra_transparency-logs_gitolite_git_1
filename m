@@ -1,30 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 25 Apr 2023 14:50:03 -0000
-Message-Id: <168243420389.18950.3194417268660656519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Tue, 25 Apr 2023 14:54:26 -0000
+Message-Id: <168243446670.20442.8221220849289512059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/for-6.4/block
-    old: 38c8e3dfb2a1be863b7f5aad7755d5e9727da8a5
-    new: 3f89ac587baa0c0460c977d1596e16f950815f05
+  - ref: refs/heads/main
+    old: 11f2630a1133e2bd2475c99ed774d5358a9f93b8
+    new: 9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143
     log: |
-         3f89ac587baa0c0460c977d1596e16f950815f05 block/drivers: remove dead clear of random flag
+         5fe0aeb88427b69acc373d5bd342a095bab51957 bridge: vlan: Add support for neigh_suppress option
+         9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143 bridge: link: Add support for neigh_vlan_suppress option
          
-  - ref: refs/heads/for-next
-    old: 4d1a9064c49280912aa1978a9002b72846df5939
-    new: 6513ac29fc2708d5cea3e478dc817c2e4e98a18d
+  - ref: refs/heads/master
+    old: 11f2630a1133e2bd2475c99ed774d5358a9f93b8
+    new: 9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143
     log: |
-         90b4d513e2dc759b3a37848cacdfc3df3080aa57 splice: clear FMODE_NOWAIT on file if splice/vmsplice is used
-         fc8a96d15daea786172a57e3e8e9f7928d9287f2 pipe: set FMODE_NOWAIT on pipes
-         e098da1b716a9c1e805b520f562806e60bb69086 Merge branch 'pipe-nonblock.2' into for-next
-         e337f7a65353900b96c7f70ca62fdd0e9c9742e3 Merge branch 'for-6.4/block' into for-next
-         3f89ac587baa0c0460c977d1596e16f950815f05 block/drivers: remove dead clear of random flag
-         6513ac29fc2708d5cea3e478dc817c2e4e98a18d Merge branch 'for-6.4/block' into for-next
+         5fe0aeb88427b69acc373d5bd342a095bab51957 bridge: vlan: Add support for neigh_suppress option
+         9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143 bridge: link: Add support for neigh_vlan_suppress option
          
