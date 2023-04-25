@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 25 Apr 2023 16:07:49 -0000
-Message-Id: <168243886923.5040.13499200022240825353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 25 Apr 2023 16:16:47 -0000
+Message-Id: <168243940788.12235.137338549275043619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 0fdc1a11c9cc05ea281d47235ecf9d5bee2ff505
-    new: e35621c4476b3ef563ed5e0c756d77c2b2c6c977
+  - ref: refs/heads/for-linus-6.4
+    old: c66bb48edd58c3a22072b4f68312c225dc1b0009
+    new: cbfac7707ba16619006a4fd60faac46303fd2f3e
     log: |
-         e35621c4476b3ef563ed5e0c756d77c2b2c6c977 bindings: python: add MANIFEST.in to EXTRA_DIST
+         6935321eccf32555e6f7e6d29f4cccf84a5c1e3a xen/blkback: fix white space code style issues
+         656f3c1d7966ea65f9b51d17db3008ce5dbb4090 xen/blkback: remove stale prototype
+         e7b4c07d4b42676691f3c815f05c1bbf071dc718 xen/blkback: simplify free_persistent_gnts() interface
+         cbfac7707ba16619006a4fd60faac46303fd2f3e xen/blkback: move blkif_get_x86_*_req() into blkback.c
          
