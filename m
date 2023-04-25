@@ -1,88 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3114389604680496758=="
+Content-Type: multipart/mixed; boundary="===============4504417776290346203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 25 Apr 2023 18:50:51 -0000
-Message-Id: <168244865113.19964.1988712800926467641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Tue, 25 Apr 2023 18:53:15 -0000
+Message-Id: <168244879547.20811.17532511662835514744@gitolite.kernel.org>
 
---===============3114389604680496758==
+--===============4504417776290346203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: bc1bb2a49bae915107fd58705edb1e32db92c635
-    new: de10553fce40797313f980301af45e7398e422ca
-    log: revlist-bc1bb2a49bae-de10553fce40.txt
+    old: 50a96c5c823f1e935e488fbec1c1b1083fc466e8
+    new: ed5dd48b8d1aa9fe606b8bac7fe770ff2c501523
+    log: revlist-50a96c5c823f-ed5dd48b8d1a.txt
 
---===============3114389604680496758==
+--===============4504417776290346203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc1bb2a49bae-de10553fce40.txt
+Content-Disposition: attachment; filename=revlist-50a96c5c823f-ed5dd48b8d1a.txt
 
-cefad862f23874174136a48d91cb4a6ac3b1c5ce x86/apic/x2apic: Allow CPU cluster_mask to be populated in parallel
-3adee777ad0d328e76ca9015cb7924134a992e81 x86/smpboot: Remove initial_stack on 64-bit
-c253b64020c7a7c7a1f6adf8922456614be0f665 x86/smpboot: Remove early_gdt_descr on 64-bit
-8f6be6d870e8a078fcc956fc2ff8d7cff67795ee x86/smpboot: Remove initial_gs
-805ae9dc3b1c4040a842eb1714e7744af27fd30d x86/smpboot: Reference count on smpboot_setup_warm_reset_vector()
-aff69273af61f5d1c8fb401d6f19148d11629b41 vdso: Improve cmd_vdso_check to check all dynamic relocations
-3d91c537296794d5d0773f61abbe7b63f2f132d8 x86/coco: Export cc_vendor
-5b422b9bb7318b5ab8d0c124d623db4d3f6b2771 Merge branch 'x86/cc' into x86/apic
-f96fb2df3eb31ede1b34b0521560967310267750 x86/apic: Fix atomic update of offset in reserve_eilvt_offset()
-dee234032e767b3d6823fe122517770757306f04 irqchip/gic: Drop support for board files
-35727af2b15d98a2dd2811d631d3a3886111312e irqchip/gicv3: Workaround for NVIDIA erratum T241-FABRIC-4
-23c7ff129cf33dee5f1f4fd9fa729ab440e8f1c5 irqchip/bcm-6345-l1: Request memory region
-9dfc77917e3b82dc7f93d62cebf1ebb885e9cc6a irqchip: Use of_property_read_bool() for boolean properties
-e80f0b6a2cf302b56b7d6d7ad3797aebc97fccb9 irqchip/irq-sifive-plic: Add syscore callbacks for hibernation
-3ee92565b83ecc08e5b0c878dd87a2973eaca2ea RISC-V: Clear SIP bit only when using SBI IPI operations
-0c60a31ce62ca3e93550868fd699dfc4dfc4e795 irqchip/riscv-intc: Allow drivers to directly discover INTC hwnode
-832f15f42646812b096bc67c0eac439291a0db1f RISC-V: Treat IPIs as normal Linux IRQs
-fb0f3d281b7f81a11e210783940f3798c4744179 RISC-V: Allow marking IPIs as suitable for remote FENCEs
-18d2199d81054f44e6d2a51177cc80566f43bf23 RISC-V: Use IPIs for remote TLB flush when possible
-6279228432352f43f43f5e760771151605bf6d82 RISC-V: Use IPIs for remote icache flush when possible
-f8415f2def181c63486e93c511b82692e0914d9e irqchip/riscv-intc: Add empty irq_eoi() for chained irq handlers
-112eaa8fec5ea75f1be003ec55760b09a86799f8 irqchip/loongson-eiointc: Fix returned value on parsing MADT
-64cc451e45e146b2140211b4f45f278b93b24ac0 irqchip/loongson-eiointc: Fix incorrect use of acpi_get_vec_parent
-bdd60211eebb43ba1c4c14704965f4d4b628b931 irqchip/loongson-eiointc: Fix registration of syscore_ops
-c84efbba46901b187994558ee0edb15f7076c9a7 irqchip/loongson-pch-pic: Fix registration of syscore_ops
-48ce2d722f7f108f27bedddf54bee3423a57ce57 irqchip/loongson-pch-pic: Fix pch_pic_acpi_init calling
-5af507bef93c09a94fb8f058213b489178f4cbe5 x86/ioapic: Don't return 0 from arch_dynirq_lower_bound()
-f4bf3ca2e5cba655824b6e0893a98dfb33ed24e5 softirq: Add trace points for tasklet entry/exit
-803235982b8c086184d04798d9079d236f352f88 genirq: Update affinity of secondary threads
-63a759694eed61025713b3e14dd827c8548daadc debugobject: Prevent init race with static objects
-bcb7ee79029dcaeb09668a4d1489de256829a7cc posix-timers: Prefer delivery of signals to the current thread
-e797203fb3ba8c0ed2f4a8800d626c9d54fedfbf selftests/timers/posix_timers: Test delivery of signals across threads
-43360686328b1f4b7d9dcc883ee9243ad7c16fae syscall_user_dispatch: Split up set_syscall_user_dispatch()
-463b7715e7ce367fce89769c5d85e31595715ee1 syscall_user_dispatch: Untag selector address before access_ok()
-3f67987cdc09778e75098f9f5168832f8f8e1f1c ptrace: Provide set/get interface for syscall user dispatch
-8c8fa605f7b8b6df3e6fb280a74cff8d7374a7b7 selftest, ptrace: Add selftest for syscall user dispatch config api
-e9523a0d81899361214d118ad60ef76f0e92f71d tick/common: Align tick period with the HZ tick.
-605da849d5982dee0527edb2488b79795f31a150 timers/nohz: Restructure and reshuffle struct tick_sched
-07b65a800b6d5b6afbd6a91487b47038eac97c21 timers/nohz: Only ever update sleeptime from idle exit
-620a30fa0bd14878891b22bf2261e6ed4587c2b4 timers/nohz: Protect idle/iowait sleep time under seqcount
-ead70b75237371c735a481a9843b411cfbb18404 timers/nohz: Add a comment about broken iowait counter update race
-289dafed3851a7693a47896f5d09420bf6046ef2 timers/nohz: Remove middle-function __tick_nohz_idle_stop_tick()
-9a1d4b8a7b80c5c796f05744851c535c5020024b MAINTAINERS: Remove stale email address
-270b2a679ea7be1ee2d84ea67751fb1ab15bcb20 selftests/proc: Remove idle time monotonicity assertions
-263dda24fff0957f6b0a9abde2809122f7f0fad8 selftests/proc: Assert clock_gettime(CLOCK_BOOTTIME) VS /proc/uptime monotonicity
-a8707f5538846611c90116c14f72539ad5fb37da irqchip/gic-v3: Add Rockchip 3588001 erratum workaround
-0989ffb31cff794506f5d3dd109574ddbb9b983a irqchip/st: Remove stih415/stih416 and stid127 platforms support
-f39157b3c0bb4afdcaea7809b3669de8e0495ed5 Merge branch irq/gic-6.4 into irq/irqchip-next
-e7b5771aa08746c13bb03ebe0a5053df1498c328 Merge branch irq/riscv-ipi into irq/irqchip-next
-275232c0b4064b85fd48532dff1a9b2764d67617 Merge branch irq/loongarch-fixes-6.4 into irq/irqchip-next
-2ff1b0839ddd514be4752c64c1c6facf91ff3a56 Merge branch irq/misc-6.4 into irq/irqchip-next
-f7abf14f0001a5a47539d9f60bbdca649e43536b posix-cpu-timers: Implement the missing timer_wait_running callback
-f37202aa6e5d6d39a48f744d962fd2bf3a8a452b Merge tag 'irqchip-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
-29e95a4b2686b2cfb5564b3fb31371d5f71c6b66 Merge tag 'core-debugobjects-2023-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-15bbeec0fe9f1e910cb6a173005a02b6b4582f3c Merge tag 'core-entry-2023-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3f614ab563c44fa443cbb6a7f355bdd04a5a4450 Merge tag 'irq-core-2023-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e7989789c686e83f032acf2c4363c2c153876b96 Merge tag 'timers-core-2023-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-de10553fce40797313f980301af45e7398e422ca Merge tag 'x86-apic-2023-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e4eaabf392b75f57347ab7dd093040eefe644787 arm64: dts: rockchip: Fix rk3399 GICv3 ITS node name
+ff5440b002910148b761886ae490bbdd283e2f13 ARM: dts: rockchip: fix a typo error for rk3288 spdif node
+9b23b59e76360b228081781d0b240cb1d695f6d4 arm64: dts: rockchip: Lower sd speed on rk3566-soquartz
+a911266a3feffbbc595bfc86180fdc8b2a702904 arm64: dts: rockchip: Lower SD card speed on rk3399 Pinebook Pro
+f84cd2d310df4f61fcc3ce65b52b7d8c629fc365 arm64: dts: rockchip: add rk3588 cache level information
+5c672cd700daefce1088f5599e8d1bffb62e4a48 arm64: dts: qcom: sdm850-lenovo-yoga-c630: Use proper WSA881x shutdown GPIO polarity
+2412897275fb4441c986a6c5efc47b9a95ab329c arm64: dts: qcom: sdm850-samsung-w737: Use proper WSA881x shutdown GPIO polarity
+3282770b8ce3d2a19b2bad540372f6476ae7c7e5 arm64: dts: qcom: sm8250-mtp: Use proper WSA881x shutdown GPIO polarity
+2bc5134cf4a957b13440ba14a5cb4568445fe317 arm64: dts: qcom: qrb5165-rb5: Use proper WSA881x shutdown GPIO polarity
+d3785ac941b33b9d7b187c6bb55a9a5eba20b66c arm64: dts: qcom: ipq8074-hk01: enable QMP device, not the PHY node
+6afef930b033faaab5b1b6bc0d098adeedb3183a arm64: dts: qcom: ipq8074-hk10: enable QMP device, not the PHY node
+e8f56b3bf8d5116130e5ef62240212195c298797 riscv: dts: canaan: drop invalid spi-max-frequency
+ffcc4c1991dd82edacc119aee4b6c6b096e80ec9 arm64: dts: imx8mp: fix address length for LCDIF2
+65763d48e1366b7390ba2d475527a6197e967e85 arm64: dts: meson-g12-common: specify full DMC range
+809bbe62ff394bf88e0ddba3dd192a7e88a9f66d arm64: dts: meson-g12-common: resolve conflict between canvas & pmu
+186d0f220a5a0ae666d90db800af489043b93147 arm64: dts: rockchip: Add clk_rtc_32k to Anbernic xx3 Devices
+765e2ad4c5de7c1527515ecf73b89eada4805aa4 arm64: dts: rockchip: Remove non-existing pwm-delay-us property
+d87f73a21e6a6e039ae50e4c02861cf3615ecc63 Merge tag 'amlogic-fixes-v6.3-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
+276bc6ce64624200ea832c09e7eda9e0f0ea1a29 arm64: dts: qcom: sc8280xp-pmics: fix pon compatible and registers
+16c9e180fb5387cfe95c0ca419f9b31ee0847d99 arm64: dts: imx8mm-evk: correct pmic clock source
+cf9392bd41fe11e382fdfd9c991ff39385e66869 arm64: dts: imx8mm-verdin: correct off-on-delay
+f84c01a8391b40864b06740577c3b19c57b1609a arm64: dts: imx8mp-verdin: correct off-on-delay
+21776882142932d874a041da93bab46cfa785e2f ARM: dts: imx7d-remarkable2: Remove unnecessary #address-cells/#size-cells
+ac0258488b664c5c0d832dec1ee8165f10de89ba ARM: dts: imx6ull-colibri: Remove unnecessary #address-cells/#size-cells
+92c306e874ccde4708aff63418916a9237b894ba arm64: dts: rockchip: use just "port" in panel on Pinebook Pro
+a53f01293b967dc49397ec81527980364e2046db arm64: dts: rockchip: use just "port" in panel on RockPro64
+cfded22471caae00e444c9795c2e2af192f361d7 arm64: dts: rockchip: correct panel supplies on some rk3326 boards
+9cc01eff05b6f5d18bd7ea59caf6eb757a7e9a60 Merge tag 'imx-fixes-6.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+94e0add23e829040679a9c47239f9c0457141901 Merge tag 'riscv-dt-fixes-for-v6.3-final' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+9bbaa87764ad03257ca469792888dc2f372f60f8 arm64: dts: qcom: sc7280: remove hbr3 support on herobrine boards
+06c801b0c9ff98d59fef2311c4afee981261f84b Merge tag 'v6.3-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+d18ce89e5d93c78bda93d0ab4108c183d2b096d4 Merge tag 'qcom-arm64-fixes-for-6.3-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+df3bc0d10587d77c931c78337e13f1dffb1b32f6 Merge tag 'arm-fixes-6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+ed5dd48b8d1aa9fe606b8bac7fe770ff2c501523 Merge tag 'v6.3-dts-raw'
 
---===============3114389604680496758==--
+--===============4504417776290346203==--
