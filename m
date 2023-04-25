@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 25 Apr 2023 14:54:26 -0000
-Message-Id: <168243446670.20442.8221220849289512059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 25 Apr 2023 14:58:11 -0000
+Message-Id: <168243469107.23237.3859549895437908935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 11f2630a1133e2bd2475c99ed774d5358a9f93b8
-    new: 9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143
-    log: |
-         5fe0aeb88427b69acc373d5bd342a095bab51957 bridge: vlan: Add support for neigh_suppress option
-         9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143 bridge: link: Add support for neigh_vlan_suppress option
-         
   - ref: refs/heads/master
-    old: 11f2630a1133e2bd2475c99ed774d5358a9f93b8
-    new: 9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143
+    old: 6a1cbe8108319a5bdea3f8306f884cba74a0bd06
+    new: f4fd6337779113f99da3948543f1bf299e413ca7
     log: |
-         5fe0aeb88427b69acc373d5bd342a095bab51957 bridge: vlan: Add support for neigh_suppress option
-         9c7bdc9f3328fb3fd5e7b77eb7b86f6c62538143 bridge: link: Add support for neigh_vlan_suppress option
+         c93114cdbec6eaa860aeda11b1ce8c455273539a tests: add test_enosys helper
+         1098e0974843da02ea8f51efb95a4716ec3ba3b3 mount: (tests) test fallback codepaths
+         c0793380c90c0a128d2e45b0de81634e6835f567 mount: (tests) add disabled testcase for mount without move_mount()
+         009b369c7d95e811470eb5d626b9b498539a007a libmount: improve ENOSYS fallback
+         e00f81d897287694f29d793cf368e61602e5d901 Merge branch 'libmount/enosys' of https://github.com/t-8ch/util-linux
+         f4fd6337779113f99da3948543f1bf299e413ca7 tests: extend fsopen libmount fallback test
          
