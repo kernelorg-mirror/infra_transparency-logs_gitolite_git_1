@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 25 Apr 2023 02:00:40 -0000
-Message-Id: <168238804076.15099.18020856902101477637@gitolite.kernel.org>
+Date: Tue, 25 Apr 2023 02:02:49 -0000
+Message-Id: <168238816969.15811.5113431787218772309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ee3392ed16b064594a14ce5886e412efb05ed17b
-    new: 700f11eb2cbea349bda2599b4b676b49d43b4175
+    old: 700f11eb2cbea349bda2599b4b676b49d43b4175
+    new: 4774ad841bef97cc51df90195338c5b2573dd4cb
     log: |
-         700f11eb2cbea349bda2599b4b676b49d43b4175 lan966x: Don't use xdp_frame when action is XDP_TX
+         4774ad841bef97cc51df90195338c5b2573dd4cb net: phy: marvell: Fix inconsistent indenting in led_blink_set
          
