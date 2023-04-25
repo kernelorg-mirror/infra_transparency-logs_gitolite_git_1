@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 25 Apr 2023 09:08:47 -0000
-Message-Id: <168241372730.5093.2592003440888893228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 25 Apr 2023 09:10:00 -0000
+Message-Id: <168241380032.5518.10568459208320690729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/for-next
-    old: 55534c094fd4e47db5547a013feab3ee88576e73
-    new: 644f6bf762fa903f64c59c2ec0f4d0d753527053
+  - ref: refs/heads/linux-next
+    old: c66bb48edd58c3a22072b4f68312c225dc1b0009
+    new: cbfac7707ba16619006a4fd60faac46303fd2f3e
     log: |
-         24ab15829867a9cc09dfd16f41ed75aa8272a45f gfs2: return errors from gfs2_ail_empty_gl
-         68ca088dc1cfc4e366811b11ffe2954c6dcebca1 gfs2: Perform second log flush in gfs2_make_fs_ro
-         b97e583caa25abf95695cd06d7f9512b484c6c01 gfs2: Issue message when revokes cannot be written
-         644f6bf762fa903f64c59c2ec0f4d0d753527053 gfs2: gfs2_ail_empty_gl no log flush on error
+         6935321eccf32555e6f7e6d29f4cccf84a5c1e3a xen/blkback: fix white space code style issues
+         656f3c1d7966ea65f9b51d17db3008ce5dbb4090 xen/blkback: remove stale prototype
+         e7b4c07d4b42676691f3c815f05c1bbf071dc718 xen/blkback: simplify free_persistent_gnts() interface
+         cbfac7707ba16619006a4fd60faac46303fd2f3e xen/blkback: move blkif_get_x86_*_req() into blkback.c
          
