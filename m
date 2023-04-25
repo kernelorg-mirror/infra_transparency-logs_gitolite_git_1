@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7371302329554739904=="
+Content-Type: multipart/mixed; boundary="===============8593876676853933191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Tue, 25 Apr 2023 18:08:10 -0000
-Message-Id: <168244609073.21289.14926832708202016062@gitolite.kernel.org>
+Date: Tue, 25 Apr 2023 18:08:46 -0000
+Message-Id: <168244612692.21557.15272349546599179682@gitolite.kernel.org>
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,98 +15,44 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-0
-    old: e109345f19683ec2a74952e9f32815f169c0045a
-    new: caeea0374920a154e9bed7598b8dbe6fc51fb66c
-    log: revlist-e109345f1968-caeea0374920.txt
-  - ref: refs/heads/for-greg/4.19-0
-    old: ada031853e76efa25c5c5203b66e39ed54e0a8a2
-    new: dd664975defcfacd7f4736dae82c346bedd2016c
-    log: revlist-ada031853e76-dd664975defc.txt
-  - ref: refs/heads/for-greg/5.10-0
-    old: f5ff7ac70361f09d0e24043941e7f9bc36f9d7fb
-    new: 599d19de067cb32a6b76ab27dd81476b27a57e2a
-    log: revlist-f5ff7ac70361-599d19de067c.txt
-  - ref: refs/heads/for-greg/5.15-0
-    old: af2297fc50be9287db62ce7c139d9fa68c69f9c7
-    new: cda447f17fe998781c0a0699a724abbe7f0e1e2b
-    log: revlist-af2297fc50be-cda447f17fe9.txt
-  - ref: refs/heads/for-greg/5.4-0
-    old: ffcd74b1e78f5e657a810371b2db0ffa2af07478
-    new: 100cc1f570d5ad11b5a64efba4d563217fc3ff81
-    log: revlist-ffcd74b1e78f-100cc1f570d5.txt
-  - ref: refs/heads/for-greg/6.1-0
-    old: 6b186e28e445bcaecc2a695269ba805737cebdd6
-    new: 0601159b007ad9c9b8b8994f1feb36bd2548f526
-    log: revlist-6b186e28e445-0601159b007a.txt
-  - ref: refs/heads/for-greg/6.2-0
-    old: 6386b7dd3dc39b77a96490ff8dbcbbd13eedd24a
-    new: 29374e30d61e19ff5aadd7a26f1799fc0081b67f
-    log: revlist-6386b7dd3dc3-29374e30d61e.txt
-  - ref: refs/heads/for-greg/6.3-0
+  - ref: refs/heads/for-greg/4.14-1
+    old: b707284339b0bc3f8d8b827264b5c7c159d8798a
+    new: df06e352f27a9f368ec6a3b077881c35d933e32c
+    log: revlist-b707284339b0-df06e352f27a.txt
+  - ref: refs/heads/for-greg/4.19-1
+    old: 44335f665ff3f59ca4ed673519f6b0ca10d0b976
+    new: a5b79a58cfc02977cd4d5c1e20454cd98e88f749
+    log: revlist-44335f665ff3-a5b79a58cfc0.txt
+  - ref: refs/heads/for-greg/5.10-1
+    old: a66f51caa93994ec3ec99cf0bebe96835d3a6904
+    new: 791a854ae5a5f5988f1291ae91168a149bd5ba57
+    log: revlist-a66f51caa939-791a854ae5a5.txt
+  - ref: refs/heads/for-greg/5.15-1
+    old: 96f0b0d6875c70bf35665e4e91f6f9753b52d561
+    new: 3299fb36854fdc288bddc2c4d265f8a2e5105944
+    log: revlist-96f0b0d6875c-3299fb36854f.txt
+  - ref: refs/heads/for-greg/5.4-1
+    old: 82854b0c816ff8c92df6ed742db6afe531202b50
+    new: 58f42ed1cd31238745bddd943c4f5849dc83a2ac
+    log: revlist-82854b0c816f-58f42ed1cd31.txt
+  - ref: refs/heads/for-greg/6.1-1
+    old: 49dac81f68f9bd7aeeecf3c0166587cf95f67ee1
+    new: f17b0ab65d17988d5e6d6fe22f708ef3721080bf
+    log: revlist-49dac81f68f9-f17b0ab65d17.txt
+  - ref: refs/heads/for-greg/6.2-1
+    old: 1ff33ac4ed2f55513216ac8954b1e600165ec493
+    new: e0ee50101346ca9cef52da75e3fb4380c27c042a
+    log: revlist-1ff33ac4ed2f-e0ee50101346.txt
+  - ref: refs/heads/for-greg/6.3-1
     old: 0000000000000000000000000000000000000000
-    new: 8fc9a9fd9d4f667ad1b20a75e1fd68856879f108
+    new: 457391b0380335d5e9a5babdec90ac53928b23b4
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e109345f1968-caeea0374920.txt
+Content-Disposition: attachment; filename=revlist-b707284339b0-df06e352f27a.txt
 
-b2cd3947d116bb9ba7ff097b5fc747a8956764db firewire: fix memory leak for payload of request subaction to IEC 61883-1 FCP region
-50005f7b622f8d7a0de96c89814928fe3cc953af bus: sunxi-rsb: Fix error handling in sunxi_rsb_init()
-437e50ef6290ac835d526d0e45f466a0aa69ba1b ALSA: hda/via: Avoid potential array out-of-bound in add_secret_dac_path()
-35d5bb094bc7529c15561289a1ea995f897bf2e6 netrom: Fix use-after-free caused by accept on already connected socket
-cf5d6612092408157db6bb500c70bf6d67c40fbc squashfs: harden sanity check in squashfs_read_xattr_id_table
-75889b7e8c8138736db40bda303fa1185573b41e sctp: do not check hb_timer.expires when resetting hb_timer
-1ac653cf886cdfc082708c82dc6ac6115cebd2ee net: openvswitch: fix flow memory leak in ovs_flow_cmd_new
-fd6eddb5bf6b0db927ba279ce51545b4979d661c scsi: target: core: Fix warning on RT kernels
-496af9d3682ed4c28fb734342a09e6cc0c056ea4 scsi: iscsi_tcp: Fix UAF during login when accessing the shost ipaddress
-6186abddb2ce0b2bbadd9982ebb5a8eef5a7f4a4 net/x25: Fix to not accept on connected socket
-4023c364ecf71231730988b6b00bb6c4c2d26174 usb: gadget: f_fs: Fix unbalanced spinlock in __ffs_ep0_queue_wait
-7625513267a2b155a5e31e4ac443bf954591b7fa fbcon: Check font dimension limits
-9737f8ffb5ac3c10a6a9edb7c74122f367b60822 watchdog: diag288_wdt: do not use stack buffers for hardware data
-13baa57dceba77fb6e3057366bd0ee49ede4d129 watchdog: diag288_wdt: fix __diag288() inline assembly
-25cc8e88fdfeceaa4e417bb6f2d377a2e08d22e1 efi: Accept version 2 of memory attributes table
-731d7998df989a475b6d8cfecfef30bd4a26beb0 iio: hid: fix the retval in accel_3d_capture_sample
-685d12a252bc3fa8d3a0ad4ae9836965a54fb4b5 iio: adc: berlin2-adc: Add missing of_node_put() in error path
-3b845caddb6882306880689b39ea5ef55112d920 iio:adc:twl6030: Enable measurements of VUSB, VBAT and others
-fbb304f3b88f4d415d16eddee9adfb58b4289fe1 parisc: Fix return code of pdc_iodc_print()
-4ebcbcea99ef1832517d44feb2e861b533929b5a parisc: Wire up PTRACE_GETREGS/PTRACE_SETREGS for compat case
-30576df1c1960e4e97d602bf595c441eb5cc0873 mm: hugetlb: proc: check for hugetlb shared PMD in /proc/PID/smaps
-29f0349c5c76b627fe06b87d4b13fa03a6ce8e64 mm/swapfile: add cond_resched() in get_swap_pages()
-7fe583c9bec10cd4b76231c51b37f3e4ca646e01 Squashfs: fix handling and sanity checking of xattr_ids count
-8e665906011cb048afdc656a8e62caab21215bab serial: 8250_dma: Fix DMA Rx completion race
-5756452bf1a3b4b6a4c29213ee2ef0202aac9def serial: 8250_dma: Fix DMA Rx rearm race
-fdbdbd22ae25c2b65354fba4bc8ca97603a19923 btrfs: limit device extents to the device size
-45e37dc68867cf66e749879668534e34446fec8f ALSA: emux: Avoid potential array out-of-bound in snd_emux_xg_control()
-c817d0cf0ba068873291abacadbbf6ec836d26e9 ALSA: pci: lx6464es: fix a debug loop
-ddfd009464daf3001721503f055ef9ca5cee11fb pinctrl: aspeed: Fix confusing types in return value
-1177bdafe87cbe543a2dc48a9bbac265aa5864db pinctrl: single: fix potential NULL dereference
-f0ad46ef772438c0596df370450d8bdc8a12dbfb net: USB: Fix wrong-direction WARNING in plusb.c
-1948dfd799b12478b46acfcd352877663d981f84 usb: core: add quirk for Alcor Link AK9563 smartcard reader
-6981f0ae122128c67c49d08ee73d4b59f7f43920 migrate: hugetlb: check for hugetlb shared PMD in node migration
-8775a0f97d90a4566ba9d9689f8e4ab1f69a4e3c tools/virtio: fix the vringh test for virtio ring changes
-d044166dde7345333cd05389ad45033ebd1e6852 net/rose: Fix to not accept on connected socket
-dc62f8f2cd9ad13d527d7178b05b4fa3bd2f68f6 nvme-fc: fix a missing queue put in nvmet_fc_ls_create_association
-808f1e4b5723ae4eda724d2ad6f6638905eefd95 aio: fix mremap after fork null-deref
-9d02708e4bad64e247d5957144f631cf06ef8720 Revert "x86/fpu: Use _Alignof to avoid undefined behavior in TYPE_ALIGN"
-92ff03c2563c9b57a027c744750f3b7d2f261c58 mmc: sdio: fix possible resource leaks in some error paths
-3ae2f244fc1de0797e7320420079e95ef7659d8e ALSA: hda/conexant: add a new hda codec SN6180
-bb2f39a0e8dcda64ccdff06f7fcbb234f1167cb9 hugetlb: check for undefined shift on 32 bit architectures
-ea09332b0960fbc352268a78cb478e8e8b2bb340 revert "squashfs: harden sanity check in squashfs_read_xattr_id_table"
-f3758675d3c23d710dc410d78ee17e2046688f2f i40e: add double of VLAN header when computing the max MTU
-3f975c6f277edd04199592f2903467852177a970 net: bgmac: fix BCM5358 support by setting correct flags
-3abda752ffa2a545a85345d20d83152db4cc28f4 dccp/tcp: Avoid negative sk_forward_alloc by ipv6_pinfo.pktoptions.
-1b5de7d44890b78519acbcc80d8d1f23ff2872e5 net/usb: kalmia: Don't pass act_len in usb_bulk_msg error path
-a724a63b256e402422dfc90c7938fd26cd6260bf net: stmmac: Restrict warning on disabling DMA store and fwd mode
-b89824a9b2398d78a32ea75343e5472a0fd4986e net: mpls: fix stale pointer if allocation fails during device rename
-86c8d15e620bcd37a8936371eaf3dad353cfd288 ipv6: Fix datagram socket connection with DSCP.
-7fd4ff4c3d79ab1e76bb8d970cae6dc3eeba4471 ipv6: Fix tcp socket connection with DSCP.
-c9aec733df68a674d35de58d197c8db7179afc63 i40e: Add checking for null for nlmsg_find_attr()
-1d43de93b35d85981006ec3c52c0cad8af1f2f6a kvm: initialize all of the kvm_debugregs structure before sending it to userspace
-2f7a1135b202977b82457adde7db6c390056863b nilfs2: fix underflow in second superblock position calculations
-1e61bd26fa2cf667b8ffada212c8965efbd924ea Linux 4.14.306
 0a1de956b1aa717c025e69da8d93be1196c43ffa wifi: rtl8xxxu: gen2: Turn on the rate control
 2272c78a46b8220ac7f5e367ccbdb57bf39a3eca powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
 7cdfefb6112f7e30a7f4c525b01dba0f6150868b random: always mix cycle counter in add_latent_entropy()
@@ -467,13 +413,12 @@ dcb01780687db1440e6318ed1b3acc9fe996c926 KVM: arm64: Factor out core register ID
 25bef89039972fe7c2cce3d60b467b073a90c8a8 KVM: arm64: Filter out invalid core register IDs in KVM_GET_REG_LIST
 e10703fd510118d5a133defa2f7c8890e11882df arm64: KVM: Fix system register enumeration
 df06e352f27a9f368ec6a3b077881c35d933e32c Linux 4.14.313
-caeea0374920a154e9bed7598b8dbe6fc51fb66c reiserfs: Add security prefix to xattr name in reiserfs_security_write()
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ada031853e76-dd664975defc.txt
+Content-Disposition: attachment; filename=revlist-44335f665ff3-a5b79a58cfc0.txt
 
 c5afca5df3dc73d3c400386121729ab1a5db2872 wifi: rtl8xxxu: gen2: Turn on the rate control
 c30e4cc30aeca519e82babfa1f05bfcf146b654b powerpc: dts: t208x: Mark MAC1 and MAC2 as 10G
@@ -962,16 +907,16 @@ e072604cfdc068b75f60be8b4f3fc39b1d082f65 KVM: arm64: Factor out core register ID
 6f4eb3ca9ec3168a983d352f43fb53679c9826d6 KVM: arm64: Filter out invalid core register IDs in KVM_GET_REG_LIST
 17992d52dd8b8dcabf1100839b6d0e45787a9381 arm64: KVM: Fix system register enumeration
 a5b79a58cfc02977cd4d5c1e20454cd98e88f749 Linux 4.19.281
-0e6c01bf3483fd77f17fe4f1830cbb1770f9ae0b reiserfs: Add security prefix to xattr name in reiserfs_security_write()
-f8efd61ded4c186e0e4631921d71356d3a608c5d nohz: Add TICK_DEP_BIT_RCU
-dd664975defcfacd7f4736dae82c346bedd2016c tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5ff7ac70361-599d19de067c.txt
+Content-Disposition: attachment; filename=revlist-a66f51caa939-791a854ae5a5.txt
 
+cebcd4300af9074e0e831090ca6c1b3154ef942a USB: serial: option: add support for VW/Skoda "Carstick LTE"
+c5360eec648bd506afa304ae4a71f82e13d41897 usb: gadget: u_serial: Add null pointer check in gserial_resume
+218925bfd5d1436e337c4f961e9c149fbe32de6d USB: core: Don't hold device lock while reading the "descriptors" sysfs file
 08681391b84da27133deefaaddefd0acfa90c2be io_uring: add missing lock in io_get_file_fixed
 a25aa776b0c49b17c67ee047e58537552f16776f Linux 5.10.171
 da24142b1ef9fd5d36b76e36bab328a5b27523e8 io_uring: ensure that io_init_req() passes in the right issue_flags
@@ -1993,16 +1938,16 @@ d425f348211ffb387587dc65113852767240d023 kexec: turn all kexec_mutex acquisition
 56314b90fd43bd2444942bc14a7c5c768ce8ec57 panic, kexec: make __crash_kexec() NMI safe
 f177b382c33900d0e5a9766493c11a1074076f78 sysctl: Fix data-races in proc_dou8vec_minmax().
 791a854ae5a5f5988f1291ae91168a149bd5ba57 Linux 5.10.178
-cb04b42e3a6a9cf8acb92396c18f5fe1c4399f0f reiserfs: Add security prefix to xattr name in reiserfs_security_write()
-ae577dce2779fde732b6419cc631c96bbcc68d23 tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-599d19de067cb32a6b76ab27dd81476b27a57e2a rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af2297fc50be-cda447f17fe9.txt
+Content-Disposition: attachment; filename=revlist-96f0b0d6875c-3299fb36854f.txt
 
+1492fc9b50a4a138a3157d8b46e6658900f1205a udf: Define EFSCORRUPTED error code
+2e68a0f7bc576318a58335c31c542b358bc63f83 ARM: dts: exynos: Use Exynos5420 compatible for the MIPI video phy
+3538ade9d8c2ba41088e395de916f2599fadba8f blk-iocost: fix divide by 0 error in calc_lcoefs()
 a2e4b48d6f9b39aa19bafe223f9dd436a692fc80 trace/blktrace: fix memory leak with using debugfs_lookup()
 634a5471a6bd774c0d0fa448dfa6ec593e899ec9 wifi: ath9k: Fix use-after-free in ath9k_hif_usb_disconnect()
 3a3a5e3f94068cd562d62a57da6983c8cd07d53c wifi: brcmfmac: Fix potential stack-out-of-bounds in brcmf_c_preinit_dcmds()
@@ -3024,15 +2969,12 @@ fa934784fb65fdd8cb68cf86dcc866535987d46a counter: fix docum. build problems afte
 c6897dfe2bb6efdb6956c8f71370c36cac60d7b3 counter: Add the necessary colons and indents to the comments of counter_compi
 adef0cebea85e9b53f6837f8a39f23306a2272c6 nvme-pci: avoid the deepest sleep state on ZHITAI TiPro5000 SSDs
 3299fb36854fdc288bddc2c4d265f8a2e5105944 Linux 5.15.108
-418522ba46b56768fcac60ce247dd701ce7214f0 reiserfs: Add security prefix to xattr name in reiserfs_security_write()
-ef329847786458dcd29ba822046523b2864cc97a tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-cda447f17fe998781c0a0699a724abbe7f0e1e2b rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ffcd74b1e78f-100cc1f570d5.txt
+Content-Disposition: attachment; filename=revlist-82854b0c816f-58f42ed1cd31.txt
 
 fe3e217272a86bfc7958315229b35cc6ee41b155 dma-mapping: add generic helpers for mapping sgtable objects
 4626550b09ea66d95ceb2a9273d60559d6cb67df scatterlist: add generic wrappers for iterating over sgtable objects
@@ -3741,16 +3683,18 @@ e76bd6da51235ce86f5a8017dd6c056c76da64f9 xfs: fix up non-directory creation in S
 c76dd368759a2a26cbbe18cbe853fb68f94df363 xfs: don't reuse busy extents on extent trim
 8795936437177cf3c88bc5b40334799c0da71b48 xfs: force log and push AIL to clear pinned inodes when aborting mount
 58f42ed1cd31238745bddd943c4f5849dc83a2ac Linux 5.4.241
-e8a3261c8d632c000af124a035c5d3fe046093bb reiserfs: Add security prefix to xattr name in reiserfs_security_write()
-98f4fed1aa58bf4eb37a5968b6614f8ae62c60b2 nohz: Add TICK_DEP_BIT_RCU
-100cc1f570d5ad11b5a64efba4d563217fc3ff81 tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b186e28e445-0601159b007a.txt
+Content-Disposition: attachment; filename=revlist-49dac81f68f9-f17b0ab65d17.txt
 
+f0417bf138afe039a4e4617ffff0d6e5fe164244 staging: rtl8723bs: Pass correct parameters to cfg80211_get_bss()
+f327490e050042e888c45348754bafbd817ceea4 ext4: fix cgroup writeback accounting with fs-layer encryption
+f3b8cc218bd1b63b231f05526fb11bdf2f1d7ba4 ext4: fix RENAME_WHITEOUT handling for inline directories
+eb3a695aa71a514f2e7f5778e05faba3733b70a0 ext4: fix another off-by-one fsmap error on 1k block filesystems
+50a70036ac3afb24d180af75e786642ab732d1bd ext4: move where set the MAY_INLINE_DATA flag is set
 35161cec76772f74526f5886ad4082ec48511d5c ext4: fix WARNING in ext4_update_inline_data
 9cb27b1e76f0cc886ac09055bc41c0ab3f205167 ext4: zero i_disksize when initializing the bootloader inode
 5a144cfe35d85685972e9214bddc5616200c6652 HID: core: Provide new max_buffer_size attribute to over-ride the default
@@ -4770,18 +4714,18 @@ ff5a4fe2598e83dc113baba9a12addbc077e030b cgroup/cpuset: Skip spread flags update
 e33ab28395d3f509460b808b1fd9a7840deb4898 cgroup/cpuset: Make cpuset_fork() handle CLONE_INTO_CGROUP properly
 243d9f3a1101dfe48805e1f7c7c2661618b299dd cgroup/cpuset: Add cpuset_can_fork() and cpuset_cancel_fork() methods
 f17b0ab65d17988d5e6d6fe22f708ef3721080bf Linux 6.1.25
-82aff16270d95eba4598755dae0b0ee178ada14c kcsan: Avoid READ_ONCE() in read_instrumented_memory()
-e1a643460f45eb10976bb8e12a1f68aedce98e0a reiserfs: Add security prefix to xattr name in reiserfs_security_write()
-aa8dc8e8f973a0c7caa04bcd5ed0d01e749409fd tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-18bed37319ae41fffe97a287693e89778afba039 rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-0601159b007ad9c9b8b8994f1feb36bd2548f526 tpm: Add !tpm_amd_is_rng_defective() to the hwrng_unregister() call site
 
---===============7371302329554739904==
+--===============8593876676853933191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6386b7dd3dc3-29374e30d61e.txt
+Content-Disposition: attachment; filename=revlist-1ff33ac4ed2f-e0ee50101346.txt
 
+8cfbdda65588e75bfbd93e5ee847efcb4796ad09 ice: copy last block omitted in ice_get_module_eeprom()
+c9d24c3c564e0af9b115aedaa35d8ae3ad6cc5ec nfp: fix incorrectly set csum flag for nfd3 path
+7ac42c98fffdc9f969a79679759c62d32c904580 nfp: fix esp-tx-csum-offload doesn't take effect
+bf0579989de64d36e177c0611c685dc4a91457a7 bpf, sockmap: Fix an infinite loop error when len is 0 in tcp_bpf_recvmsg_parser()
+1f595292a908e315c75c5c9f61a793dbde505fa5 drm/msm/dpu: fix len of sc7180 ctl blocks
 8ce509c4392e41c4f707db0fec9a1232b18a2708 drm/msm/dpu: fix sm6115 and qcm2290 mixer width limits
 a301494bb115abf5a5546c9b8b13e20a76bd0bcb drm/msm/dpu: correct sm8250 and sm8350 scaler
 8a40fa5a6cd9d105647c56f0611ad260742b6d10 drm/msm/dpu: correct sm6115 scaler
@@ -5801,10 +5745,5 @@ b2354efa80ef1aadefc4cabc63272a122402f7b9 ubi: Fix deadlock caused by recursively
 1d0d418bb2b4bd7e179069fcb2a36d32f0d44007 nvme-pci: mark Lexar NM760 as IGNORE_DEV_SUBNQN
 8260f9a083c1c99e155b2787e2742e2cb692b61d nvme-pci: add NVME_QUIRK_BOGUS_NID for T-FORCE Z330 SSD
 e0ee50101346ca9cef52da75e3fb4380c27c042a Linux 6.2.12
-d8b4d1ed17ff54dfe0826c411ac6df6c68e67ebc kcsan: Avoid READ_ONCE() in read_instrumented_memory()
-10a2016b5aeef788fcedab8e546d083404ecd6ce reiserfs: Add security prefix to xattr name in reiserfs_security_write()
-e3986fecd61836703befe16e66dde9eef80ab7c3 tick/nohz: Fix cpu_is_hotpluggable() by checking with nohz subsystem
-65f16d7085d6a660d45bb37b903031caf3ae1c71 rcu: Avoid stack overflow due to __rcu_irq_enter_check_tick() being kprobe-ed
-29374e30d61e19ff5aadd7a26f1799fc0081b67f tpm: Add !tpm_amd_is_rng_defective() to the hwrng_unregister() call site
 
---===============7371302329554739904==--
+--===============8593876676853933191==--
