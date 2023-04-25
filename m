@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 25 Apr 2023 21:02:29 -0000
-Message-Id: <168245654974.9357.7899940325730854251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 25 Apr 2023 21:02:33 -0000
+Message-Id: <168245655324.9436.2026685774397766656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/tags/test.1682456340.x86_mm_for_6.4
-    old: 0000000000000000000000000000000000000000
-    new: b5ebdc01be983ee21a4c9e5c8622603fd9646c19
+  - ref: refs/heads/master
+    old: 9a0acc7984ef79e287ec9db70703405f64a79bee
+    new: 2f88c59391b8717055557f6634f92d76d9fd0001
+    log: |
+         5910b78528010b654a82367bb2e95f70dd7877ce shared/bap: add function to get location from PAC
+         2f88c59391b8717055557f6634f92d76d9fd0001 bap: add Location parameter to SelectProperties
+         
