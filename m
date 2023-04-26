@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5754564482868283471=="
+Content-Type: multipart/mixed; boundary="===============8039207892402238474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 26 Apr 2023 19:48:18 -0000
-Message-Id: <168253849802.9691.8319995646518535129@gitolite.kernel.org>
+Date: Wed, 26 Apr 2023 19:48:35 -0000
+Message-Id: <168253851550.9849.678686440976936368@gitolite.kernel.org>
 
---===============5754564482868283471==
+--===============8039207892402238474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 400d2132288edbd6d500f45eab5d85526ca94e46
+  - ref: refs/heads/queue
+    old: 95b9779c1758f03cf494e8550d6249a40089ed1c
     new: 4f382a79a66b1a926e30f6d89295fc8fe2c4a86e
-    log: revlist-400d2132288e-4f382a79a66b.txt
+    log: revlist-95b9779c1758-4f382a79a66b.txt
 
---===============5754564482868283471==
+--===============8039207892402238474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1682538493 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1682538513 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1682538490-812174156032a14e0528ed7265912aa4422ef863
+nonce 1682538509-fc69f06a3224cdb1c8ed785bdd4001c6daa798cc
 
-400d2132288edbd6d500f45eab5d85526ca94e46 4f382a79a66b1a926e30f6d89295fc8fe2c4a86e refs/heads/next
+95b9779c1758f03cf494e8550d6249a40089ed1c 4f382a79a66b1a926e30f6d89295fc8fe2c4a86e refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmRJf/0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroM2Zgf/ansBtmMRTcYHJIb7CMXD0oQjgSV7
-tVln7zRQ8HaFNRS3QZHdMeIf38dpYljG6M5YGBY41IFUnKpvOlgdMuRycViXv+U5
-ZIQ+zZ7E8YUhnBaYYZ7mwiAfIzAa7ABLzlwJSBEyeCWutuvTtKr2pPSx0M6VPlgp
-IyXr9VZ02fuBuhfNZb6vRirmja00WPygvr25SZZdh31/el6tW2ezc2Y//rGCrfrh
-6iw4BLVkVW3rvs5LtIib/7wPel92fyunfgr8bYsEWQKAxttoNRt0fO1Si0SYVHHh
-P8OqkgGpBTniGCKblyJlgUBvDgV7xqBF5zMsZy6TXYLkQ5zyX6tqubx6rA==
-=VMd3
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmRJgBEUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPebAgArgVaGc6DA8JdeI4Nsj9e7EX+vnAj
+UfDBwMGxrVncP6WJ/xsTkLzQS8v0Di17XBaiyC4Ae1Rdh5P/+DTCSVU60EMXfqpW
+VgQt2S1kkXyT9RCpfwLPP9+hAsZXaktan5tR6asrsWDqEsLmwFYdMPvPBSXt3C+1
+/gnc7tcWUllXtAiJVjV/ermNEfm9CVw6C8UqDhVX+ZaigcpHrm+ddrWkLrogTJOr
+sYIHXaMGqpXYFQpers6rVcviHTUADSNZKSSab/Wi7ATW7+DAJwiSHHO1jIOpS7TZ
+SxwDEd2hSIhAUbXqYqAxlbPjutZUdfU+tHe49cwcJqg1PLvwO4KHHpz5Sw==
+=tLIH
 -----END PGP SIGNATURE-----
 
---===============5754564482868283471==
+--===============8039207892402238474==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-400d2132288e-4f382a79a66b.txt
+Content-Disposition: attachment; filename=revlist-95b9779c1758-4f382a79a66b.txt
 
 8222d5910dae08213b6d9d4bc9a7f8502855e624 xfrm: Zero padding when dumping algos and encap
 6715df8d5d24655b9fd368e904028112b54c7de1 bpf: Allow reads from uninit stack
@@ -505,6 +505,15 @@ bbf860ed710bacc0279c4cda2817f70e1200d04b usb: gadget: Use correct endianness of 
 5da28edd7bd5518f97175ecea77615bb729a7a28 io_uring/msg_ring: let target know allocated index
 81f59a26f3d59c6aeb137b7b5546848779222c65 kbuild: rpm-pkg: move source components to rpmbuild/SOURCES
 05e96e96a315fa49faca4da2aedd1761a218b616 kbuild: use git-archive for source package creation
+a807b78ad04b2eaa348f52f5cc7702385b6de1ee kvm: vmx: Add IA32_FLUSH_CMD guest support
+723d5fb0ffe4c02bd4edf47ea02c02e454719f28 kvm: svm: Add IA32_FLUSH_CMD guest support
+45cf86f26148e549c5ba4a8ab32a390e4bde216e kvm: x86: Advertise FLUSH_L1D to user space
+67c48662e2b5539f0ba3d4151f4e7e84c9871324 KVM: PPC: Standardize on "int" return types in the powerpc KVM code
+71fb165e23e3b66e68ca7baab6c317c2663c32d5 KVM: s390: Use "int" as return type for kvm_s390_get/set_skeys()
+c5edd753a0bd6243a597f5199c227a50457ee179 KVM: x86: Remove the KVM_GET_NR_MMU_PAGES ioctl
+2def950c63e3f976af87a2606dabe0c9e21c605b KVM: arm64: Limit length in kvm_vm_ioctl_mte_copy_tags() to INT_MAX
+f15ba52bfabc3bc130053bd73d414d859162de91 KVM: Standardize on "int" return types instead of "long" in kvm_main.c
+d8708b80fa0e6e21bc0c9e7276ad0bccef73b6e7 KVM: Change return type of kvm_arch_vm_ioctl() to "int"
 c7df4813b149362248d6ef7be41a311e27bf75fe xsk: Add missing overflow check in xdp_umem_reg
 203873a535d627c668f293be0cb73e26c30f9cc7 fbdev: stifb: Provide valid pixelclock and add fb_check_var() checks
 92e2a00f2987483e1f9253625828622edd442e61 fbdev: nvidia: Fix potential divide by zero
@@ -942,6 +951,12 @@ d824dff1919bbd523d4d5c860437d043c0ad121d KVM: arm64: Add support for KVM_EXIT_HY
 fab19915f498b0e76fabd4d78841c99b7b6d7851 KVM: selftests: Add a helper for SMCCC calls with SMC instruction
 60e7dade498eb881bcdf0d9a420c97625f73acc1 KVM: selftests: Add test for SMCCC filter
 0e5c9a9d6548e9b178d4696c696ae4a21c39ae58 KVM: arm64: Expose SMC/HVC width to userspace
+52887af5650e35ea78b37602722313ff7b3c0c30 KVM: x86: Revert MSR_IA32_FLUSH_CMD.FLUSH_L1D enabling
+9a4c4850137e929d49958fb62d4275bd2f5b8c7a KVM: VMX: Passthrough MSR_IA32_PRED_CMD based purely on host+guest CPUID
+bff903e8cd743cddb42ef1690edd33130f12c40a KVM: SVM: Passthrough MSR_IA32_PRED_CMD based purely on host+guest CPUID
+903358c7eddb9a8a83013f967909805e6af050d4 KVM: x86: Move MSR_IA32_PRED_CMD WRMSR emulation to common code
+da3db168fb671f15e393b227f5c312c698ecb6ea KVM: x86: Virtualize FLUSH_L1D and passthrough MSR_IA32_FLUSH_CMD
+400d2132288edbd6d500f45eab5d85526ca94e46 KVM: SVM: Return the local "r" variable from svm_set_msr()
 5a23ad6510c82049f5ab3795841c30e8f3ca324d KVM: arm64: Prevent userspace from handling SMC64 arch range
 00e0c947118f456b622c1f2ca316c116dfb4e12c KVM: arm64: Test that SMC64 arch calls are reserved
 c5284f6d8ce2b9cf96643da441862434233a4ea3 KVM: selftests: Fix spelling mistake "KVM_HYPERCAL_EXIT_SMC" -> "KVM_HYPERCALL_EXIT_SMC"
@@ -966,4 +981,4 @@ e2e321a7d663acd964e2fcdafbf5c9f5a36d55a5 Merge branch kvm-arm64/selftest/lpa int
 b3c129e33e91fa3dc3171f45b90edb35e60dbc33 Merge tag 'kvm-s390-next-6.4-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 4f382a79a66b1a926e30f6d89295fc8fe2c4a86e Merge tag 'kvmarm-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 
---===============5754564482868283471==--
+--===============8039207892402238474==--
