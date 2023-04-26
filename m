@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6591761782727936349=="
+Content-Type: multipart/mixed; boundary="===============6401526945908844824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Wed, 26 Apr 2023 22:56:32 -0000
-Message-Id: <168254979244.5353.10373587598430037095@gitolite.kernel.org>
+Date: Wed, 26 Apr 2023 22:57:41 -0000
+Message-Id: <168254986165.5798.2956629513542698874@gitolite.kernel.org>
 
---===============6591761782727936349==
+--===============6401526945908844824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,73 +15,73 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 91209b60498b8e728677770b3d6b283e4c0217ea
-    new: e773d28b76ec8e1db82af1b9112cb16ff1cc7f7f
-    log: revlist-91209b60498b-e773d28b76ec.txt
-  - ref: refs/tags/6.4-rc1-5.15
+  - ref: refs/heads/linux-5.10.y
+    old: 96c28582d8552c93401eab0b17b0e38a698d6db5
+    new: 91a0df0c965795cab41788e127e62db8ffa9eb5d
+    log: revlist-96c28582d855-91a0df0c9657.txt
+  - ref: refs/tags/6.4-rc1-5.10
     old: 0000000000000000000000000000000000000000
-    new: e773d28b76ec8e1db82af1b9112cb16ff1cc7f7f
+    new: 91a0df0c965795cab41788e127e62db8ffa9eb5d
 
---===============6591761782727936349==
+--===============6401526945908844824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91209b60498b-e773d28b76ec.txt
+Content-Disposition: attachment; filename=revlist-96c28582d855-91a0df0c9657.txt
 
-30b2257ff67152075e5237e585c56b8240985655 f2fs: Fix f2fs_truncate_partial_nodes ftrace event
-982eb225e4804bcab58fa11ae8d226791fee7e89 f2fs: make f2fs_sync_inode_meta() static
-a6fe7522e931d79226cf6726b3745a9a80da1529 f2fs: export compress_percent and compress_watermark entries
-afd94b56a80d5b7fa133b5aa67ed533e352bd920 f2fs: convert to use bitmap API
-2bdc6a5daa9b176d2728204f887d4631b753c749 f2fs: handle dqget error in f2fs_transfer_project_quota()
-7fabd7ebebf7bd95995fcc4a3f196b594b5acde4 f2fs: fix uninitialized skipped_gc_rwsem
-3e1d88e5ccd54d0572e611432d49c6823b870f28 f2fs: factor out victim_entry usage from general rb_tree use
-3bcee3b97cc96bab9ddd912841dca28e1a1c49cd f2fs: factor out discard_cmd usage from general rb_tree use
-e06222371ac35b1cffa14a85b72c5953f6784511 f2fs: remove entire rb_entry sharing
-dcb4c5ba2500793193bee1ee37bc373fe11e7706 f2fs: Fix discard bug on zoned block devices with 2MiB zone size
-ea45ca92661d26d9ab193cd7a8de72619560f3a4 f2fs: convert to MAX_SBI_FLAG instead of 32 in stat_show()
-3f036f17d946876c2100a186248a8ac6e1af3d2e f2fs: fix to handle filemap_fdatawrite() error in f2fs_ioc_decompress_file/f2fs_ioc_compress_file
-b6b979879544e0b903da3e8c23bb5e81ec772889 f2fs: apply zone capacity to all zone type
-256d5300ce5e6bf5bcda1554c69efa136d1b1c3b f2fs: remove else in f2fs_write_cache_pages()
-7ce655ef9fdbbc7cb832086864dd8361a722805f f2fs: compress: fix to call f2fs_wait_on_page_writeback() in f2fs_write_raw_pages()
-82ab408329a9ad987f3bba843e7581e3235966e4 f2fs: preserve direct write semantics when buffering is forced
-80901998218e87be3cf15656800b99c300150231 f2fs: fix scheduling while atomic in decompression path
-8278903a99d570504b93b536a2fb58bf4ee3694b f2fs: convert is_extension_exist() to return bool type
-3c58b4a084f3deb74b0ca1ad316e0a0b50f1505d f2fs: add compression feature check for all compress mount opt
-b73ed3a21311995d49a7151093df05c4a4eeb5c7 f2fs: fix align check for npo2
-a7867e5603c3a109af1681a2b0f68aedf22188ba f2fs: fix iostat lock protection
-676d6204f79ae8d2f7cd5d1fb72ab377fb36ed32 f2fs: fix null pointer panic in tracepoint in __replace_atomic_write_block
-8904daeb6b3a1680ee177fe644eb4444a62c09a0 f2fs: remove struct victim_selection default_v_ops
-ae96beabad7ff8d429b7f6cd9ef2056d87d7bdcd f2fs: Fix system crash due to lack of free space in LFS
-4b5a208981ead6f1ecfbd160b793f56e54c6b518 f2fs: set default compress option only when sb_has_compression
-f08d4d315c7cb21e3c30e115143afd5e37bdc36a f2fs: convert to use sysfs_emit
-eba89e2e48419ce0e6c2eca4102ef783d0ef9bac f2fs: merge lz4hc_compress_pages() to lz4_compress_pages()
-d760228a7a4ed46aa911b8d7fa87c907c3ecdd52 f2fs: use common implementation of file type
-03b9ae463f59b96e5d600af9e8e9053bf357dc54 f2fs: use f2fs_hw_is_readonly() instead of bdev_read_only()
-6fe7c2cf08a6d3c1de561d96508eea6b1d4b8e6b f2fs: remove unneeded in-memory i_crtime copy
-4aebaf7bfff9c178e9be72cc63f346aa36e625c6 f2fs: fix to avoid use-after-free for cached IPU bio
-ac9998fd5a835464b9b3b87b79a7e0a2e0f39bda f2fs: fix to drop all dirty pages during umount() if cp_error is set
-edb05b6e374092d38a3ea8d5bc510c02101368f7 f2fs: fix to keep consistent i_gc_rwsem lock order
-0e43dfdc5d4fe6808daddc215287aaa4102e1006 docs: f2fs: Correct instruction to disable checkpoint
-b99e20f09df424c9cca466df711c071f8c6f8abe f2fs: fix to check readonly condition correctly
-931b9b0fa8d6d5d842bbc7ae961f5c5234765f26 f2fs: fix to recover quota data correctly
-475f660169d633373ee2f2a0e61a666ebb9ce9a4 f2fs: add radix_tree_preload_end in error case
-f879f5e216a13501316806353b4d0aa5d5727fd7 f2fs: fix potential corruption when moving a directory
-cba03c29a1e1c789d6ca6ca9697103b361d0a63b f2fs: fix passing relative address when discard zones
-5a37d6f4943555ef57fc16016872f713818f0b2a f2fs: fix to check return value of f2fs_do_truncate_blocks()
-9f45220756d973668d27ab2639d68c350ad5455b f2fs: fix to check return value of inc_valid_block_count()
-6a328c646fd36494ce7c8040f7b487c3eafe1274 f2fs: remove batched_trim_sections node description
-56326e3e0d6ddfec2bc0cf3f4db9eeb3eeb5b1aa f2fs: support iopoll method
-a1b01c5b02dd989383a69d9eba79a89b61314e48 f2fs: remove bulk remove_proc_entry() and unnecessary kobject_del()
-b4ad76d4ca87473304f9b7387be8d97b48166c1d f2fs: fix to call clear_page_private_reference in .{release,invalid}_folio
-aac0a045e507e2f830b99d27876fdbf36349cc39 f2fs: remove folio_detach_private() in .invalidate_folio and .release_folio
-60ada758fa8952a4f1d25ccc81eb6907cbf6f7f9 f2fs: refactor f2fs_gc to call checkpoint in urgent condition
-4d199b7d832e89d39a63787f293c7d912ac097f9 f2fs: relax sanity check if checkpoint is corrupted
-3421338a094476fc469a936cde17b7ff8fec770c f2fs: add has_enough_free_secs()
-5d4d9fa907f0be4fdbb64456836a60837431c1df f2fs: allocate trace path buffer from names_cache
-b8cd743c9d9b2266a37ecd82fe34e1a6dc708552 f2fs: remove power-of-two limitation of zoned device
-a13c8e91f9c28459f8cc5c03b3c4b225f7173826 f2fs: use cow inode data when updating atomic write
-4bfa7f8c9f4561f707366ad1a1b56a2f7d3645aa f2fs: allocate node blocks for atomic write block replacement
-e773d28b76ec8e1db82af1b9112cb16ff1cc7f7f f2fs: remove unnessary comment in __may_age_extent_tree
+81e34f7f294e88efe06a83822ae061b4186e8ebf f2fs: Fix f2fs_truncate_partial_nodes ftrace event
+e23b4d5cce859097247ab97f48c1f136e5e7037d f2fs: make f2fs_sync_inode_meta() static
+c1aa078d4d83550df91911513506a35d63ff70be f2fs: export compress_percent and compress_watermark entries
+c59e1fa82b86c332a9ac999be85e90bd82abbeba f2fs: convert to use bitmap API
+9689103f9f21296ce006b4f8ffff64586c501f4f f2fs: handle dqget error in f2fs_transfer_project_quota()
+d743a28e9a1d96433e612336ff8a5d81cb6b1842 f2fs: fix uninitialized skipped_gc_rwsem
+c8f983213f8c28d119a49c87f22813e3f0937326 f2fs: factor out victim_entry usage from general rb_tree use
+f14798053ee8b6fd6656c285498d1713ed2f5d10 f2fs: factor out discard_cmd usage from general rb_tree use
+ff1edd316cd76dc1dd9342a94fe9c08269abea9f f2fs: remove entire rb_entry sharing
+ce5a8e7e4374bba3d20dacfd02a16dd8cf520d12 f2fs: Fix discard bug on zoned block devices with 2MiB zone size
+768ecb4afb51dba100b6b9b13c407558316da069 f2fs: convert to MAX_SBI_FLAG instead of 32 in stat_show()
+bb02754ed907b7913e5481e613d1c534f9765b3c f2fs: fix to handle filemap_fdatawrite() error in f2fs_ioc_decompress_file/f2fs_ioc_compress_file
+1f133e7336f97996630ef850b46b7b0ae60c2d00 f2fs: apply zone capacity to all zone type
+e7e572f412fc907c7f8d3cd6a0c0024c33685ac6 f2fs: remove else in f2fs_write_cache_pages()
+3b9a1f8d13970d1378909c270420df3caa23abf0 f2fs: compress: fix to call f2fs_wait_on_page_writeback() in f2fs_write_raw_pages()
+867a61c860a93e124e175898c7359347dda0214f f2fs: preserve direct write semantics when buffering is forced
+7ee42bb844eb888882d293b86eb1994cb3ece730 f2fs: fix scheduling while atomic in decompression path
+fe43c2558b838db4b691348befb6869b7e304ef6 f2fs: convert is_extension_exist() to return bool type
+1cd0dfc9b35bf5914f7ba2d7d0a94bf0a8c892ce f2fs: add compression feature check for all compress mount opt
+54486821ea2934cd74ddee7f182e940fd69c2a36 f2fs: fix align check for npo2
+d5148092ade04ba3be76830f0751ef2a54fae054 f2fs: fix iostat lock protection
+1e36feffb487653c64e5fc68a4ef298832e406e1 f2fs: fix null pointer panic in tracepoint in __replace_atomic_write_block
+3510bccdb1bedf865079356d838555445b0aa78f f2fs: remove struct victim_selection default_v_ops
+1c86f241a6f8e93f80fd3fc94ecb38689698381e f2fs: Fix system crash due to lack of free space in LFS
+ada323f45a5727f1f16db31e2ae99cbadac0dcba f2fs: set default compress option only when sb_has_compression
+02bbbf7159f54b3dbd123dab508e7addbd7eefe8 f2fs: convert to use sysfs_emit
+7b98b71b3df64c24ce085032fe2bd3ccac14751c f2fs: merge lz4hc_compress_pages() to lz4_compress_pages()
+5f47046a66091d3b0f89dcd698d2db55ba12bc9a f2fs: use common implementation of file type
+412c6d56ee6c4e077ac3780b6989da5c618a0a38 f2fs: use f2fs_hw_is_readonly() instead of bdev_read_only()
+035850a688197b230e48e708945746ef541d8aba f2fs: remove unneeded in-memory i_crtime copy
+cffa5af439590eface5956696f0280d828c1ac97 f2fs: fix to avoid use-after-free for cached IPU bio
+55fbe343cb81644e5cede4e418d44bfab29a500a f2fs: fix to drop all dirty pages during umount() if cp_error is set
+96e125c3b52dd0a01d7b04ac5dc949bb51f7b09c f2fs: fix to keep consistent i_gc_rwsem lock order
+e6469a58380a764778aa64fe8fe38736dbf6e7cc docs: f2fs: Correct instruction to disable checkpoint
+0c593cbca6155ebdd3465ee8eb6768b6033b640c f2fs: fix to check readonly condition correctly
+da79c8ced3a0a79fe56cb499a0bf8c6a91122a1c f2fs: fix to recover quota data correctly
+d476d98ef516399de30f6eba6d94c80ac7728261 f2fs: add radix_tree_preload_end in error case
+7ce3326fd0cd2f9f1225a789e9685a545d006995 f2fs: fix potential corruption when moving a directory
+1a263843abf2d9ab8ab82b6d4e11a7f6da279ddc f2fs: fix passing relative address when discard zones
+28d9d69436a98fba74c128e39bf3d4d465c5a071 f2fs: fix to check return value of f2fs_do_truncate_blocks()
+89b0a0fc2b3b40183be53917c8d6ab7363568866 f2fs: fix to check return value of inc_valid_block_count()
+4e760ad9382b54d7ab40e2ccd1d78f2e7fd0dcd7 f2fs: remove batched_trim_sections node description
+2c6f2ff1e3963e4e17b4ace7a47b2e2d13863ad2 f2fs: support iopoll method
+c5a3940dcb249b258acced2d77e8482d69581d76 f2fs: remove bulk remove_proc_entry() and unnecessary kobject_del()
+971023c2bcb5e370c4a4082ae38fec5b41ea39d6 f2fs: fix to call clear_page_private_reference in .{release,invalid}_folio
+59a6c2ead86ee46ba0ae49a3b1f6daacb185cca8 f2fs: remove folio_detach_private() in .invalidate_folio and .release_folio
+4fd67f351ff8b9957ab896dac07f9cd109b835db f2fs: refactor f2fs_gc to call checkpoint in urgent condition
+3104b72c88fc13c926354bd4879c323eacdb5ca8 f2fs: relax sanity check if checkpoint is corrupted
+1f7d88f97deac1408424c41592d20f2041ba9cdc f2fs: add has_enough_free_secs()
+97deb7960c160e9354e1c33a1836a10a10a83b91 f2fs: allocate trace path buffer from names_cache
+a1975d8355e09a76e3f057ddc0bf23a4feb8ffb9 f2fs: remove power-of-two limitation of zoned device
+67b5ffea0526651dd7822d2b813cf557ad9f27b8 f2fs: use cow inode data when updating atomic write
+17a6a05206ec86a5d2a07d7ac0b382b538911c7e f2fs: allocate node blocks for atomic write block replacement
+91a0df0c965795cab41788e127e62db8ffa9eb5d f2fs: remove unnessary comment in __may_age_extent_tree
 
---===============6591761782727936349==--
+--===============6401526945908844824==--
