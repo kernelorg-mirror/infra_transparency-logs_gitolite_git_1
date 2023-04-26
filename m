@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Wed, 26 Apr 2023 18:14:03 -0000
-Message-Id: <168253284367.11289.5923743760848084974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 26 Apr 2023 18:14:05 -0000
+Message-Id: <168253284571.11355.6680812731342735977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/pending
-    old: b830c4af984e72e5849c0705669aad2ffa19db13
-    new: 088886b3d424f3d32957dc62fb5bd27f6fdf2d43
+  - ref: refs/heads/dev
+    old: 246b2a0dd25528a1fcffe96f25d91f9d2cf8c05b
+    new: 26a29ad68271df988a813e227da98861ae3bef9e
     log: |
-         3590019d4d3cc07bd5f405d6269c8ffb98c5fe21 cxl/list: Fix filtering RCDs
-         228cbe0f2401766298047f405b2354835ec11aa6 cxl/list: Filter root decoders by region
-         e8d6d43177ebbf6fcfcd08e2f3a97345ade5679e test: Support test modules located in 'updates' instead of 'extra'
-         9c8759cced5211335b2630930c58d9be96fbbfc4 test: Fix dangling pointer warning
-         088886b3d424f3d32957dc62fb5bd27f6fdf2d43 Merge branch 'for-77/djbw/fixes' into pending
+         23b3c4f79e987f288030f336cdd111afa528d7f9 workqueue: Further upgrade queue_work_on() comment
+         26a29ad68271df988a813e227da98861ae3bef9e Stop rcu_tasks_invoke_cbs() from using never-onlined CPUs
          
