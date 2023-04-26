@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 26 Apr 2023 15:39:02 -0000
-Message-Id: <168252354217.4511.15443536195981835684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 26 Apr 2023 15:45:41 -0000
+Message-Id: <168252394139.10548.13276299387537675206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/tpm1-s3-bug
-    old: 6a7108769ea9cf0c204b764e8be938aa82ba5ec6
-    new: 0f2873657640b14dd223dd7974c2b555d769c91f
+  - ref: refs/heads/for-next
+    old: bb3f89487fd936df7cc5165bae37ca2669056c5c
+    new: 26e7aacb83dfd04330673c5c9ac336560da52bb3
     log: |
-         0f2873657640b14dd223dd7974c2b555d769c91f tpm_tis: Use tpm_chip_{start,stop} decoration inside tpm_tis_resume
+         d4dda690b44a5e36b4bf108c48177cef40c80d24 dt-bindings: riscv: add sv57 mmu-type
+         26e7aacb83dfd04330673c5c9ac336560da52bb3 riscv: Allow to downgrade paging mode from the command line
          
