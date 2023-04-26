@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 26 Apr 2023 03:44:29 -0000
-Message-Id: <168248066926.23448.16559065212513666303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 26 Apr 2023 03:55:17 -0000
+Message-Id: <168248131795.391.15040171868886415722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/md-next
-    old: 3b75ce895b2ffe3a2e113858b403dfe0e6d041d6
-    new: 871634828fc3c8069941c7b6a031a71faa61a9f4
+  - ref: refs/heads/watchdog-next
+    old: ce28f5d4c6651999c247e0e7e1d65f6d85e577fd
+    new: 4b4c88a11480ab3a0ea37c81f15b1e6999b5652b
     log: |
-         871634828fc3c8069941c7b6a031a71faa61a9f4 md: Fix bitmap offset type in sb writer
+         4b4c88a11480ab3a0ea37c81f15b1e6999b5652b watchdog: starfive: Fix the probe return error if PM and early_enable are both disabled
          
