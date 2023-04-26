@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Wed, 26 Apr 2023 22:25:06 -0000
-Message-Id: <168254790663.16485.8725125398290883646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 26 Apr 2023 22:33:45 -0000
+Message-Id: <168254842510.20708.7669682600682721081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/pending
-    old: 088886b3d424f3d32957dc62fb5bd27f6fdf2d43
-    new: 26d9ce3351361631677e2cae933e3641540fa807
+  - ref: refs/heads/for-next
+    old: e2b710827c113961039ba395eff3a535abb96567
+    new: 3ec1aafb0ff9779963c0c478ca04f9c72e3f2946
     log: |
-         26d9ce3351361631677e2cae933e3641540fa807 test/security.sh: Replace cxl with $CXL
+         3ec1aafb0ff9779963c0c478ca04f9c72e3f2946 riscv: Adjust dependencies of HAVE_DYNAMIC_FTRACE selection
          
