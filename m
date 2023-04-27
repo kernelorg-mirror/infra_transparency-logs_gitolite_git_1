@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5576554174508012494=="
+Content-Type: multipart/mixed; boundary="===============3252922926704841014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 27 Apr 2023 08:49:35 -0000
-Message-Id: <168258537550.13624.16267957502748583357@gitolite.kernel.org>
+Date: Thu, 27 Apr 2023 08:50:27 -0000
+Message-Id: <168258542749.15548.1088655964455354955@gitolite.kernel.org>
 
---===============5576554174508012494==
+--===============3252922926704841014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: b580dac290822cfcbe741c0aa59c41c3fda398a8
-    new: b3e8701dd1fa25fc59cffa68240326efccff0336
-    log: revlist-b580dac29082-b3e8701dd1fa.txt
-  - ref: refs/tags/v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/heads/for-next
+    old: 4774ad841bef97cc51df90195338c5b2573dd4cb
+    new: 6e98b09da931a00bf4e0477d0fa52748bf28fcce
+    log: revlist-4774ad841bef-6e98b09da931.txt
 
---===============5576554174508012494==
+--===============3252922926704841014==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b580dac29082-b3e8701dd1fa.txt
+Content-Disposition: attachment; filename=revlist-4774ad841bef-6e98b09da931.txt
 
+a88db1e0003eda8adbe3c499b81f736d8065b952 blk-mq: fold __blk_mq_insert_request into blk_mq_insert_request
+4ec5c0553c33e42f2d650785309de17d4cb8f5ba blk-mq: fold __blk_mq_insert_req_list into blk_mq_insert_request
+a4fa57ffb7671c2df4ce597d03ef9f7d6d905a60 blk-mq: remove blk_flush_queue_rq
+53548d2a945eb2c277332c66f57505881392e5a9 blk-mq: refactor passthrough vs flush handling in blk_mq_insert_request
+a1e948b81ad21d635b99c1284f945423cb02b4c4 blk-mq: refactor the DONTPREP/SOFTBARRIER andling in blk_mq_requeue_work
+2b71b8770710f2913e29053f01b6c7df1a5c7f75 blk-mq: factor out a blk_mq_get_budget_and_tag helper
 e1f44ac0d7f48ec44a1eacfe637e545c408ede40 blk-mq: fold __blk_mq_try_issue_directly into its two callers
 f0dbe6e88e1bf4003ef778527b975ff60dbdd35a blk-mq: don't run the hw_queue from blk_mq_insert_request
 2394395cd598f6404c57ae0b63afb5d37e94924d blk-mq: don't run the hw_queue from blk_mq_request_bypass_insert
@@ -1047,11 +1050,5 @@ fbfaf03ebac999b4f44f36d851bd729c24c5a658 Merge tag 'dlm-6.4' of git://git.kernel
 36006b1d5c04692924f011aa949e8788f1c604de Merge tag 'ata-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 b68ee1c6131c540a62ecd443be89c406401df091 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 6e98b09da931a00bf4e0477d0fa52748bf28fcce Merge tag 'net-next-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-987d0242d189661f78b77cc4d77f843b15600fed bpf: Add bpf_dynptr_adjust
-540ccf96ddbc173474c32e595787d5622253be3d bpf: Add bpf_dynptr_is_null and bpf_dynptr_is_rdonly
-26662d7347a058ca497792c4b22ac91cc415cbf6 bpf: Add bpf_dynptr_size
-361f129f3cc185af6667aca0bec0be9a020a8abc bpf: Add bpf_dynptr_clone
-d911ba7ceafd29606df4018bbd87a1642f9e6d88 selftests/bpf: Add tests for dynptr convenience helpers
-b3e8701dd1fa25fc59cffa68240326efccff0336 selftests/bpf: Add test case to assert precise scalar path pruning
 
---===============5576554174508012494==--
+--===============3252922926704841014==--
