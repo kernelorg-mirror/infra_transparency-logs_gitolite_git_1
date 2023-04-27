@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 27 Apr 2023 23:09:22 -0000
-Message-Id: <168263696202.20706.4965857419595539176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 27 Apr 2023 23:10:05 -0000
+Message-Id: <168263700578.22497.16516471930982919461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: a5ac31bb55bb3a3ac69cc68738931c3a8267255f
-    new: 92b83391f2d8acd20e4f33a06e7961c61f339206
+    old: bea469e86ba2bd4a5b6a5af18455b0b01da2b67b
+    new: 0771592f81fcb032e261b18212477ceffc6cdac5
     log: |
-         a72c1fb7677a6d1c47440f6f8d77dcc9e196f094 foo
-         a48b001f8fbdd57b0ee3817b84383ae26caa7544 foo
-         92b83391f2d8acd20e4f33a06e7961c61f339206 foo
+         d97050594b6f94f20288d4f81846b4d08207273a Detect ASharedMemory_create() support
+         9b3cc2ddc20d84089c65a397e3aedd952270dc2b ci: Also test the Android recovery environment
+         0771592f81fcb032e261b18212477ceffc6cdac5 Merge branch 'master' of https://github.com/bvanassche/fio
          
