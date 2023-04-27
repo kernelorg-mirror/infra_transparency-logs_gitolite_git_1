@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 27 Apr 2023 11:08:13 -0000
-Message-Id: <168259369392.23113.1808146254439685138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 27 Apr 2023 11:10:06 -0000
+Message-Id: <168259380633.25237.8787295502461218710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/tags/tpmdd-v6.4-rc1-fix
-    old: 0000000000000000000000000000000000000000
-    new: 30df38bea1630cb36f12e55205677ac0b3059997
+  - ref: refs/heads/master
+    old: 073974b24aac23610e9e13e3eb56438ad108ab31
+    new: 9724b4f5ebf0841087c5a56c1d83efe0f4aeb6d7
+    log: |
+         9724b4f5ebf0841087c5a56c1d83efe0f4aeb6d7 Revert "zbd: Report the zone capacity"
+         
