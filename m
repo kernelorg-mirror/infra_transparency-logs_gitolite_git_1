@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 27 Apr 2023 18:40:05 -0000
-Message-Id: <168262080589.3161.8632771748831394403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Thu, 27 Apr 2023 19:13:14 -0000
+Message-Id: <168262279451.24203.13414692054682771951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: 8b60e320760fae4859c269e543dadd41c875e8ec
-    new: bea469e86ba2bd4a5b6a5af18455b0b01da2b67b
+  - ref: refs/heads/md-next
+    old: 8af0300150f593b4973e771367c93c6732501152
+    new: 8954851c1cf45538d2f2d12e1fbfc8e525bec54c
     log: |
-         bea469e86ba2bd4a5b6a5af18455b0b01da2b67b t/io_uring: avoid null-ptr dereference in case setup_ring fails
+         8954851c1cf45538d2f2d12e1fbfc8e525bec54c md: Fix bitmap offset type in sb writer
          
