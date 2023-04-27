@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 27 Apr 2023 13:16:02 -0000
-Message-Id: <168260136206.13362.16088487710158774903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 27 Apr 2023 13:30:06 -0000
+Message-Id: <168260220612.22817.17093699923596858592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: e88bdbe4b5a98370e30f8b6cbbfebf09cd604b4d
-    new: fab149657d8d029c06179dd006b59b2f3594f916
+  - ref: refs/heads/master
+    old: 9724b4f5ebf0841087c5a56c1d83efe0f4aeb6d7
+    new: ae7ea7a4dd51ef5be79a21fc5fd65f1a6acbde17
     log: |
-         fab149657d8d029c06179dd006b59b2f3594f916 Group all Conexant V4L devices together
+         ae7ea7a4dd51ef5be79a21fc5fd65f1a6acbde17 t/io_uring: make submitter_init() return < 0 on error
          
