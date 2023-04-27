@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 27 Apr 2023 13:14:15 -0000
-Message-Id: <168260125503.9265.10909905872880674171@gitolite.kernel.org>
+Date: Thu, 27 Apr 2023 13:16:02 -0000
+Message-Id: <168260136206.13362.16088487710158774903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 6536a964bd96d3d3069d053c78c69c7e52a0a35c
-    new: e88bdbe4b5a98370e30f8b6cbbfebf09cd604b4d
+    old: e88bdbe4b5a98370e30f8b6cbbfebf09cd604b4d
+    new: fab149657d8d029c06179dd006b59b2f3594f916
     log: |
-         e88bdbe4b5a98370e30f8b6cbbfebf09cd604b4d rtl_nic: update firmware of USB devices
+         fab149657d8d029c06179dd006b59b2f3594f916 Group all Conexant V4L devices together
          
