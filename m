@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 27 Apr 2023 10:13:45 -0000
-Message-Id: <168259042540.17898.14332911277985049498@gitolite.kernel.org>
+Date: Thu, 27 Apr 2023 10:15:17 -0000
+Message-Id: <168259051742.20245.9013209457214660158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,60 +12,63 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/5.10
-    old: ec6985e845a459a43d477d9e3b296c2cde372bb8
-    new: f25faeae47651df336b6e5b6d4b0544cbd864ddc
+    old: f25faeae47651df336b6e5b6d4b0544cbd864ddc
+    new: 9000b3e652a15ea905557d8037b512dbda2c3e7b
     log: |
-         c1b5f0b69b8ece26d58ba6eb21e90918b7888fa3 seccomp: Move copy_seccomp() to no failure path.
-         53d453ad9b4a8ac2e267151374002ae749fe9a21 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
-         cb88008077bcf694dfaab24a6b23053d44e0da64 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-         ee0011799fab85dbd538eb1fe7fe34c678ee7e59 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         4e943569b6b09b4a04d1a02992728c99985dfb58 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         f25faeae47651df336b6e5b6d4b0544cbd864ddc bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         04180bf0c8b3f9427136f21e88a70dcfe91a02c1 seccomp: Move copy_seccomp() to no failure path.
+         c567214d42c24b6e6cf45bf04de9383ff1572190 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
+         d79fb26f915e485bcb7ec83bf830540a49f8e992 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
+         c164df68953dd1241c3d331cfedc3786166dc00c wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         c544c2cbbecf3abeb3d5c75b17afdaad4c19c3bc drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         9000b3e652a15ea905557d8037b512dbda2c3e7b bluetooth: Perform careful capability checks in hci_sock_ioctl()
          
   - ref: refs/heads/queue/5.15
-    old: 0be5f0d00965b0b5a6d693c42ef2063071d0b3e8
-    new: c4cc9f8fdd8ad62468e19e39738b6b2a6bcecd6d
+    old: c4cc9f8fdd8ad62468e19e39738b6b2a6bcecd6d
+    new: c8e07482fe94db0673d5eadb046db5654f7d5c96
     log: |
-         6dee92d31d00e36610e3a25f01dcab36ecbb9b7e PCI/ASPM: Remove pcie_aspm_pm_state_change()
-         70d04fc3a1be6c46a6f990c2c5ee5684eccd2d1c selftests/kselftest/runner/run_one(): allow running non-executable files
-         9f0a8c080c2769acf290b3b9f23f26b68b942fcf KVM: arm64: Retry fault if vma_lookup() results become invalid
-         c913a2bcd2199e6dcbb32662f8e9a21394813c49 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-         67d33561c6654c19b5b1b331ed7cd9afea6f6ba7 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         51f18384006981587fa5fb8c4c517e0693e4b3bd drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         c4cc9f8fdd8ad62468e19e39738b6b2a6bcecd6d bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         9cafe6ba531a39d0d39eac354b80c978732658c2 PCI/ASPM: Remove pcie_aspm_pm_state_change()
+         a4c927a6cec0495d8db391fd61f4fea87d2ff162 selftests/kselftest/runner/run_one(): allow running non-executable files
+         3634f2e4fb7222b91fcc1d18b725678c958784cc KVM: arm64: Retry fault if vma_lookup() results become invalid
+         eebbaec6f1a86355f729ffb37d1f0a8d56af69cb KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
+         704fedc7bad2d1f0decdc6208f523d893b6f734a wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         84d50ec67ccfc99089449815c00e6e01681cf24a drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         c8e07482fe94db0673d5eadb046db5654f7d5c96 bluetooth: Perform careful capability checks in hci_sock_ioctl()
          
   - ref: refs/heads/queue/5.4
-    old: c8c4884de50613b832e0cfca9f1c0dab4697e109
-    new: a8885bc4ecf47800b5216134f8d2b4d4dd903896
+    old: a8885bc4ecf47800b5216134f8d2b4d4dd903896
+    new: 1bf0d0a2a7b6b8056ef970c8e9028836c3a2c89b
     log: |
-         a8885bc4ecf47800b5216134f8d2b4d4dd903896 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
+         d1a59a98f76bd1d1f4e017656f7fdf57de6d063c counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
+         56e46f1ad4f0df6343f8559b5de81a22a64e6df2 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         ad3e8da1faff4434210f4c8be090714d15f2a3a0 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         1bf0d0a2a7b6b8056ef970c8e9028836c3a2c89b bluetooth: Perform careful capability checks in hci_sock_ioctl()
          
   - ref: refs/heads/queue/6.1
-    old: 0d072672edf1a3cd8aee4e41d7356a6f0ea321bf
-    new: 464798f1434176d4a64fa1c810cafffd06594453
+    old: 464798f1434176d4a64fa1c810cafffd06594453
+    new: f4fa5b60d494d3489389a4df8247d5c4477d5fef
     log: |
-         5f778dff7246473a9b6be412a4239b90d9273fee um: Only disable SSE on clang to work around old GCC bugs
-         503c9876b8660882b683133faecf98c58cde3e90 phy: phy-brcm-usb: Utilize platform_get_irq_byname_optional()
-         e3f43d4af8274cea080a453f60f175f0713d1b53 KVM: arm64: Retry fault if vma_lookup() results become invalid
-         3e77c47849dee47e2e7f143ad5e2f5dfcd0e2ea5 mm/mempolicy: fix use-after-free of VMA iterator
-         c0563cfa610b53ce03e5841d18e3eb7ee2ba2b31 mptcp: stops worker on unaccepted sockets at listener close
-         963acffe8d242d1abaf061a1f22378221e4d54f2 mptcp: fix accept vs worker race
-         8594ace6a7db30abb3cb59dffca7c5342a653bf9 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         d411fa6d00c240e57deafb8f13350585f4f60de4 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         d02b36cea8691b4c0903081f0cf417b8b13d302e gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
-         464798f1434176d4a64fa1c810cafffd06594453 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         bbc45e38cc64f463732027a51effa383af1c23c5 um: Only disable SSE on clang to work around old GCC bugs
+         7b3e82e6b0c5bc51c8af635c40002f2047b2d559 phy: phy-brcm-usb: Utilize platform_get_irq_byname_optional()
+         15f5a9573ca3ab57937bd6e340b80d51991a6bda KVM: arm64: Retry fault if vma_lookup() results become invalid
+         1b93364f355de98f28e43959804cf25f59dc7c18 mm/mempolicy: fix use-after-free of VMA iterator
+         f7cf8bb1bae777876f763fa87867acd6c471144e mptcp: stops worker on unaccepted sockets at listener close
+         142826a39eb7b2c00c89af3a43405380cca90eab mptcp: fix accept vs worker race
+         0c63fad16b8b429d66cc9c6ed1a434cb6ccaf66e wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         18a25db773fc217943601429fecbaad6bbcb22d4 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         cf37aa8b49dc29d065a53e0343292bb7782bd025 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
+         f4fa5b60d494d3489389a4df8247d5c4477d5fef bluetooth: Perform careful capability checks in hci_sock_ioctl()
          
   - ref: refs/heads/queue/6.2
-    old: 72307b7cdd0c3412aa9b46cb4399ec5d9502a2e1
-    new: 5f18498fbccd51817b919ceeb46bb618aed95fbf
+    old: 5f18498fbccd51817b919ceeb46bb618aed95fbf
+    new: 53e04982b6d45fcb7de3d8742b6fca258cd3065b
     log: |
-         72db73f36a72d5abb40b442aea7aa84f7cb2facc rust: arch/um: Disable FP/SIMD instruction to match x86
-         6f9576ff3d2e8d714e840cb8dc4a2aa7d7b3102f um: Only disable SSE on clang to work around old GCC bugs
-         7e525a65ab8d82b5073c81814d541df09cce97c1 rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period
-         14a4ec5756682f8b83803c5d8fbf66f87d4ae0a5 mm/mempolicy: fix use-after-free of VMA iterator
-         f03d54655a5c5228a6030f74f1a581256a1ac5f2 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         5a9c64596c9e2f16c9bc87d78f9511211fd85c95 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         86f029737af474c86de0726d830d813ed8ac44e5 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
-         892e3344cd6bb7cd71c05ef1b7b287b6f75d80fe bluetooth: Perform careful capability checks in hci_sock_ioctl()
-         5f18498fbccd51817b919ceeb46bb618aed95fbf wifi: brcmfmac: add Cypress 43439 SDIO ids
+         4586d460988ac9ee9521065a7573a698a948b5c3 rust: arch/um: Disable FP/SIMD instruction to match x86
+         3b87e4779c67b94ccb3c16c46a0c4fbfc603a338 um: Only disable SSE on clang to work around old GCC bugs
+         87f862c9a363d7076683c6aabf28189b27c73c71 rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period
+         64e6eeb5d44b6fda64d7e3a4c58c5e8110d929cc mm/mempolicy: fix use-after-free of VMA iterator
+         2f8158fe0e4981ab33af44142601044f126972c9 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         2567f0c9165b3ecebe8af00059805e67e66a6238 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         1ca749711b427bd68766634a2b09f2076ccfb901 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
+         ce1933ef7fc977c4a779d948786a61f0ed918fc5 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         53e04982b6d45fcb7de3d8742b6fca258cd3065b wifi: brcmfmac: add Cypress 43439 SDIO ids
          
