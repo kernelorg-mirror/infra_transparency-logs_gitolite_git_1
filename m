@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Thu, 27 Apr 2023 14:29:24 -0000
-Message-Id: <168260576498.28151.7059281075995455773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 27 Apr 2023 14:54:23 -0000
+Message-Id: <168260726374.12558.1533943980347474181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 5b40603cd585721aead85cfbca1e04dbf993cb5d
-    new: 8dd73cf99b9bd3dbbbbe7268088ffd3e66b2e50a
-    log: |
-         95dbaebac014b148ea47a3d607e52295bc428224 fix: compiler warning `-Wswitch-default`
-         8dd73cf99b9bd3dbbbbe7268088ffd3e66b2e50a fix: compiler warning `-Wswitch-enum`
-         
+  - ref: refs/tags/x86_cleanups_for_v6.4_rc1
+    old: 0000000000000000000000000000000000000000
+    new: a84a0e5804ba43d3446be14c39bd4a94b8121d18
