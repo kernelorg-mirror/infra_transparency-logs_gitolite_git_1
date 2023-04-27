@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 27 Apr 2023 16:49:39 -0000
-Message-Id: <168261417921.25703.3777916487965705401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 27 Apr 2023 16:57:28 -0000
+Message-Id: <168261464836.31248.5260665229129433936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 74fc8801edc279fb5f778eb91df48e4d3cd951a2
-    new: bb323478767d4b4d78380bc9e2c0971ca33442af
+  - ref: refs/heads/dev-queue
+    old: 117888cd6a0d7a805fef3cb8e6471482db7901c9
+    new: 4d5641820d70e677b3d09f5eec726b7c840504b6
     log: |
-         84214ab4689f962b4bfc47fc9a5838d25ac4274d igc: Enable and fix RX hash usage by netstack
-         73b7123de0cfa4f6609677e927ab02cb05b593c2 igc: Add igc_xdp_buff wrapper for xdp_buff in driver
-         8416814fffa9cfa74c18da149f522dd9e1850987 igc: Add XDP hints kfuncs for RX hash
-         d677266755c6e55c43b6755673a1eeae3d452e87 igc: Add XDP hints kfuncs for RX timestamp
-         bb323478767d4b4d78380bc9e2c0971ca33442af selftests/bpf: xdp_hw_metadata track more timestamps
+         d265a1b9e568c5322ffd983c7078a44c9eeb700b igb: fix nvm.ops.read() error handling
+         7df70ea75ce74c2288fe43c9f3eca2f87318346e igb: fix bit_shift to be in [1..8] range
+         4d5641820d70e677b3d09f5eec726b7c840504b6 i40e: add PHY debug register dump
          
