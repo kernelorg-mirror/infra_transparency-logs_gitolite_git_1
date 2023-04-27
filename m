@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 27 Apr 2023 21:05:15 -0000
-Message-Id: <168262951518.4464.10680163715662445534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 27 Apr 2023 21:05:23 -0000
+Message-Id: <168262952363.4566.7498614203919680225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/aspm
-    old: 606012dddebbc4123d51a2223e2b26ed6c746696
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/smp-core-2023-04-27
+    old: 0000000000000000000000000000000000000000
+    new: be3fb015fc774ff34b38928b8ad189da1d0ed097
