@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2443483805462420141=="
+Content-Type: multipart/mixed; boundary="===============2929079521146308069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 28 Apr 2023 11:20:39 -0000
-Message-Id: <168268083900.9181.9889698830953767786@gitolite.kernel.org>
+Message-Id: <168268083915.9202.15490017850022032767@gitolite.kernel.org>
 
---===============2443483805462420141==
+--===============2929079521146308069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,17 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 91ed867e7ad5722ce0b10b9faf0f527227048f37
-    new: 3ea9da44137b3577b0f510bbbf0f3aaf375fdf9a
+  - ref: refs/heads/linux-4.14.y
+    old: ef9658ef25778cd4104b0f99484a6a6ae4eef3a9
+    new: bc52b2fe0183233faa02b1d3aaf0513e1636168d
     log: |
-         30b7a7b1074f8928d5ff073cab1872956da514eb wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         54a6c7ba43a8a696cd88cdc0b28959327ec71c7b bluetooth: Perform careful capability checks in hci_sock_ioctl()
-         627fbc65a078d6842ca970974760d0db342915a8 USB: serial: option: add UNISOC vendor and TOZED LT70C product
-         3ea9da44137b3577b0f510bbbf0f3aaf375fdf9a Linux 4.19.283-rc1
+         172505bebf0e8b6b40715fe1ad7739a3a8a3fee7 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         02ff6c321daa7d320611b70998f0ff83e222f975 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         2fc57e0ce9669d833c9128bc5213a3f849c22b8f USB: serial: option: add UNISOC vendor and TOZED LT70C product
+         bc52b2fe0183233faa02b1d3aaf0513e1636168d Linux 4.14.315-rc1
          
 
---===============2443483805462420141==
+--===============2929079521146308069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,23 +37,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682680838 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1682680837-f7108873614b29e51a8ded775552842d3efb64b9
 
-91ed867e7ad5722ce0b10b9faf0f527227048f37 3ea9da44137b3577b0f510bbbf0f3aaf375fdf9a refs/heads/linux-4.19.y
+ef9658ef25778cd4104b0f99484a6a6ae4eef3a9 bc52b2fe0183233faa02b1d3aaf0513e1636168d refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLrAYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gzgQAKeMJskTS2UMJQ6dAefH
-XDIZH256Khk/+sarM5ARc+wJGL0acYNUPyu5Sb/N0aJED8fLwwZSMpiWThg0rEOV
-mUaW4a6x3zDZfhTgUrhYoQt/5xB5B0f1WVWLl0PyPn1mXtnV3I3W3oNiBdg7tjRe
-nw8zFv9Sh8VEGFLAkF5NinTTsjiJJ03cVm2Hdriubi7+F7yLJQfqB7NOaUTg69GJ
-APrVllJziJ+72THs1z2M3OALSag6S93QoDyTTsGVOqZRMgNEqZOmmMPFVjPv1FZq
-YZ5Mp4F+Wl7df/H+d1GwumJq3rGgOxuuFQPuGZGRg0LD87uZta//4wxacuNXvkk1
-yACmLVcurYxnAM/mEC1/dhJqqDkek73ffMJB6ohG5D4nLBe3xBpNSBfD7wpWc4R2
-IhQHwzR0kS3sLAjp/ZSYbra/h53I66FSTjOeMgTzgqoTpfWoAH7CcgbnOOF3PH8r
-j3axBqYBebWqCWsPa5ARiflv95vnXHsArdJ4sQhEOaf2YDwAeJBL/rdmjX7AnkWh
-y5thqT6nCFjWhg4mP8wNM2kYnF56/ewP4MfbIIWxyclpus429C3I6BGwBWb+Qba8
-YmCUiyuKKOy/bEc7//lnMPJ6PqOK4oOczygRe05KCb+uy9uaRz7X2Lfapeq8N0Ut
-OG+Y8Xt8iVe+NNmEG2mU8hJd
-=xaCG
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cigQAMt7fgy5lVychd1dV/6u
+JJ6lB6WoI7PMhkmOX2kwOTh13o94vk3c1S7ZZ4hSMhHQC8JcDtq6StfpENjbOOPf
+YtB25pfhFwGbUWQE32QCf6TqJsvupXUKyWTtDla7eVETUkEGa96RmXrsj5F5fZcF
+a73nmH3wwaFQ433aSQK1MgW+isA2uH70DszWfZ0Mi5UVEEXH/gZTaad9xZ50gdhM
+MxKeqJe08cc71hPZE1zVq9R2Gs9tBSrnottkDTsZetq278JHU3AFGvU3qrPpzkh/
+5Sad7sdShJLv1hpOyOyyp52rLnsbZFfDlAYiLI7peFHSsFPYEtsRcYMoU5bMY8DC
+HOTapFn8fMy4ftjbJ4Js7BrZELEtgM2/XANFlZwx0qpITLgJvjeTUZ7zo0wE4DHU
+DIoLP7fyCChsAxSdGX0FL8oPyqBOIsXdKWbSbiITWq9fcqVn8YCAvZXBeEZBwDAr
+p3CBPw9EFOTRfAKcUYieac7bQx8YWBIMWnsYieYjSY2hlBA7x59hK57Qk+Zy4NVn
+w4fAIr00Pqye4Bu7p3W5/vckzYQUIlwvzrpNLOquPUXJWwwXHtkHgPJOScOWQOB0
+rNiwo+U/qSN3afM9A/TEfNM54AfbgDnKtdy+XiOdz0YWNbAVxZwV9zd2M4noO6io
+wbH7D22siYU1C2UpXgsb9NNl
+=/lKL
 -----END PGP SIGNATURE-----
 
---===============2443483805462420141==--
+--===============2929079521146308069==--
