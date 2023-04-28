@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8288440219325561663=="
+Content-Type: multipart/mixed; boundary="===============0335464037437784278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 28 Apr 2023 05:56:38 -0000
-Message-Id: <168266139849.3632.3555891153651501883@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 05:56:42 -0000
+Message-Id: <168266140291.3750.4491433935172930696@gitolite.kernel.org>
 
---===============8288440219325561663==
+--===============0335464037437784278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,92 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
+  - ref: refs/heads/usb-next
+    old: 8f40fc0808137c157dd408d2632e63bfca2aecdb
     new: 33afd4b76393627477e878b3b195d606e585d816
-    log: revlist-09a9639e56c0-33afd4b76393.txt
+    log: revlist-8f40fc080813-33afd4b76393.txt
 
---===============8288440219325561663==
+--===============0335464037437784278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661397 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661402 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1682661397-3d778ad706d261e75086accaf91f01f52d285e89
+nonce 1682661401-4ed41b10d06c699e4dbdcdde08bb8b1ff2ff6420
 
-09a9639e56c01c7a00d6c0ca63f4c7c41abe075d 33afd4b76393627477e878b3b195d606e585d816 refs/heads/usb-linus
+8f40fc0808137c157dd408d2632e63bfca2aecdb 33afd4b76393627477e878b3b195d606e585d816 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYBUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KWMQAMooZk0zsxWENnXbRCS4
-E+pkkP0MCtU9+c0hK5ptzyquxMPkqrrfpqAoi7oAZg9xhYu8nIkDYb/AjmEd20iR
-+zu/bTSH3xgKHnNUG6NiUedxLaFQH7sq6fJG/CvrjkjpK9oDyWZAYLmStK4WcqT7
-22rPqeqqnMNYhXK6mJKjL2x3flWhWT1IVmOn38vbQvxIiSSWyHnDo0382j5M3E9S
-MqT2aeQPdbnzd92zcMRoDuuQJUKkrIurQZatGYfesSQknQVFOKC+BSMcQ4kWeLf9
-3hyrGcxB1Tl9aAVCbqw9vyR0lOrkbEwtmqKW21xIZdtqteN6Unh52hjfMeKwiyN6
-B9/82xFxJ266e1ejl7UohESAOQ5+U+FgA/CCseTh+3v3uIu5scApbRjikFiPhlI9
-DBKg5ub1dG1iZHnRSe59NUct1t2txM+96Myq8H+YyO5A5yHbux097Z/cwL7YI+z2
-Jg4A/SJm0QjI4W72UHXPfJXI7VuUoKjVTCVcsvbePS29RihBWaQAfizq3ZKmcju1
-LxcviI79QPoaHm6J0/McvlevyaCdZzzv3pbZor3RRIyjY7soupyoX9U08zwQFjsr
-VugXIz9nCdF7QV3/nxcZlqzV43uaXxRwfNcIPRodFB5XXM95xarHXeSTe4Copuxs
-20OEm0wKhp/RPvsobzxb+xK5
-=FBlL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m6QQAISBuy2bfgLY+tSsdwyv
+N99Pxotb2T7qvZNRzAZoETFyUCG1sdvdxL5Cu5MD19iO8JI4dTVZZaXk0B9ZVeFu
+IhHuavRv5i3/edZ+iFg7kKxnXY5VewEVGwTMvglGCbHjDo3m3EdY5OSJ3lL+qGzI
+J3omjXJQ+CU51CybqNaqF/Yx7nbdL9QhAxd9rxkFDAN+1PpNCOFg+OkYrbCUrpIy
+oCO8lrkyA0vAWtdXHkXGnTyK6Vh6+ro5TlS6thVPylbPJe4HyWgvW3+ptSD3xYli
+0Cp0pV9QbXxpQQhaJG3cHFesZ06mxcaM7W4tEoJABTRBk8Up0YB/sjaVuvp73Tx7
+exDOEjucOpT4b5jC2d25A5sj3M7gvFxMBFRyzYZHR7E6gNUn4Aj0hnf8UI3RKVk7
++TSpMAKl1RHxy4L2FP2mWLqz3xvES0qLsnFuOJzkCiKkitTDOiiOv7JB5VjOFAlz
+Ouj4C6LSQPtsfbtsleLrlRODeAK1HPEJGIXipPEMuzUsmitm7lSoiHLIbTP04zsI
+GcBf7IQjzmc1TEPcVmHnBpgAdzj0e+oVhyn8gSXsLsVObwZIIvfNT8ldlp2LaXfa
+lYyxDRLGbbGGRSOQggUdXT6UrWm3FP2N+cSaoznWeD1BeOb9zTDyoXw0P6Jwzg4i
+BnTqd0cE1B1/1CtEd6qegSpt
+=NA1b
 -----END PGP SIGNATURE-----
 
---===============8288440219325561663==
+--===============0335464037437784278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09a9639e56c0-33afd4b76393.txt
+Content-Disposition: attachment; filename=revlist-8f40fc080813-33afd4b76393.txt
 
+b956e3110a797a3663f91f9b8935b667cc23fe72 wifi: ath9k: Don't mark channelmap stack variable read-only in ath9k_mci_update_wlan_channels()
+40aacb3183ff74e15940189ff9a998a93b5ca76f Merge tag 'loongarch-fixes-6.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+2c69679626d5daa680d71c77ad58af0088db537f drm/i915/dp_mst: Fix active port PLL selection for secondary MST streams
+b100722a777f6455d913666a376f81342b2cb995 wifi: ath11k: Remove disabling of 80+80 and 160 MHz
+789b4a41c247ed654322a6150815025b5497cad0 Merge tag 'nfsd-6.3-6' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+2ddade322925641ee2a75f13665c51f2e74d7791 selftests/xsk: Fix munmap for hugepage allocated umem
+09cda705860125ffee1b1359b1da79f8e0c77a40 ASoC: fsl: Restore configuration of platform
+98dba02d9a93eec11bffbb93c7c51624290702d2 dm flakey: fix a crash with invalid table line
+e3675dc1e7ea2e4e5a6527fa7068e9fcbc2475cc dm flakey: remove trailing space in the table line
+aa7d7bc99fed71664e9a241b32294ee15a88d938 dm flakey: add an "error_reads" option
+a25bc8486f9c01c1af6b6c5657234b2eee2c39d6 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
+38d11da522aacaa05898c734a1cec86f1e611129 dm: don't lock fs when the map is NULL in process of resume
+71b547f561247897a0a14f3082730156c0533fed bpf: Fix incorrect verifier pruning due to missing register precision taints
+ccc4505454db10402d5284f22d8b7db62e636fc5 rust: fix regexp in scripts/is_rust_module.sh
+d966c3cab924fb750fefef11e77a6fa07dd5420e rust: allow to use INIT_STACK_ALL_ZERO
+8e4c62c7d980eaf0f64c1c0ef0c80f5685af0fb6 page_pool: add DMA_ATTR_WEAK_ORDERING on all mappings
+3d2f8f1f184c60508f7af3022536651d7ac2dd07 net: dsa: microchip: ksz8795: Correctly handle huge frame configuration
+38f1aa5566730cdc5e09ec982c80489d87f0f0a7 Merge tag 'spi-nor/for-6.4' into mtd/next
+7227aacb62aeb59b007a6d3489b11f78fa332696 Merge tag 'nand/for-6.4' into mtd/next
+0a7eee89e79eb8b97d46e1e0001b9e2709795af5 rpmsg: glink: Transition intent request signaling to wait queue
+c05dfce0b89e3b58043805b6f4bdf30e3561d867 rpmsg: glink: Wait for intent, not just request ack
+7a68f9fa97357a0f2073c9c31ed4101da4fce93e rpmsg: glink: Propagate TX failures in intentless mode as well
+ba7a4754da1092decbeea3b29bf7d5946f1be400 rpmsg: glink: Consolidate TX_DATA and TX_DATA_CONT
+9e05a2599a37295eb2dc5c03441daa6741abed4b sed-opal: geometry feature reporting command
+72b4fb4c883d5deac74f5267e486f5dee1bffd5f Merge tag 'regulator-fix-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+23990b1affd2dc8f5e59048d4d4bef05f6e1c544 Merge tag 'spi-fix-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+8660484ed1cf3261e89e0bad94c6395597e87599 module: add debugging auto-load duplicate module support
+91daa4f62ce878b6e1ac5908aceb83550332447f net: dsa: mt7530: fix support for MT7531BE
+8c154d272c3e03b100baaf1df473f22a78fa403e bnxt_en: fix free-runnig PHC mode
+67d47b95119ad589b0a0b16b88b1dd9a04061ced e1000e: Disable TSO on i219-LM card to increase speed
+cb0856346a60fe3eb837ba5e73588a41f81ac05f Merge tag 'mm-hotfixes-stable-2023-04-19-16-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+7b97174d0ef798ba7f802c07527ae378923e5ebc Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+7b3aba7ea336d069b30b91502d47792c280bae2b mailmap: add entries for Mat Martineau
+52b37ae8aa6797a8183e8554672797045e81d9ae MAINTAINERS: Resume MPTCP co-maintainer role
+9d94769081a65aacd54552dbdeeca2544f70442b Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+43bb6100d8d5871d211196034042308c1b1d69c3 net: stmmac: dwmac-meson8b: Avoid cast to incompatible function type
+3e9c0700bf42b6170ae6b6e616cdc2e75a21b506 net: micrel: Update the list of supported phys
+84ce730f82dfe62f6f3e76b059ce0f7178322fb9 dt-bindings: net: ethernet: Fix JSON pointer references
+f1836a424518a09b17ee2b69e81e9477321a0aff Merge tag 'ipsec-next-2023-04-19' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+2bc42f482bedeafdbe70804fd82bdbf8f7e28b00 .gitignore: Do not ignore .kunitconfig files
+3b3009ea8abb713b022d94fba95ec270cf6e7eae net/handshake: Create a NETLINK service for handling handshake requests
+2fd5532044a89d2403b543520b4902e196f7d165 net/handshake: Add a kernel API for requesting a TLSv1.3 handshake
+88232ec1ec5ecf4aa5de439cff3d5e2b7adcac93 net/handshake: Add Kunit tests for the handshake consumer API
+a5962e0a8b7b0da2350b4baeefaf7dfa3377bc89 Merge branch 'another-crack-at-a-handshake-upcall-mechanism'
+f52cc627b832e08a7bcf1b7e81e650ec308fe1d8 Revert "net/mlx5: Enable management PF initialization"
 e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __copy_user_nocache()
 8ae56b4e82ee29b5cc1fbea8b00a0a7e0758f3c2 ext4: remove unneeded check of nr_to_submit
 17809d3cf801374d7c23101800770ea34951f3c8 ext4: remove useless conditional branch code
@@ -66,52 +111,9 @@ e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __
 780c69830ec6b27e0224586ce26bc89552fcf163 Merge branch 'Access variable length array relaxed for integer type'
 990cbca00226ff15fa2b24caffd099d05f2e2395 Merge tag 'asoc-fix-v6.3-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 2ae147d643d326f74d93ba4f72a405f25f2677ea ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
-9e6ca3e6ff4a463454d35c8747aa08198628f4d7 Merge tag 'usb-serial-6.4-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 927cdea5d2095287ddd5246e5aa68eb5d68db2be net: bridge: switchdev: don't notify FDB entries with "master dynamic"
-5629d31955297ca47b9283c64fff70f2f34aa528 usb: gadget: tegra-xudc: Fix crash in vbus_draw
-9d9a7614a75989a2356c8d2db736ce1a69d92fe4 usb: gadget: tegra-xudc: Remove unneeded return variable
-091b813d3d1078afba6ed74fa8df2a5bbc9bf124 usb: Add explicit of.h of_platform.h include
-735baf1b23458f71a8b15cb924af22c9ff9cd125 xhci: fix debugfs register accesses while suspended
-f3588ea40aa17273c3303789b1828b3aa6b80748 usb: host: xhci-plat: Use dev_is_pci() helper
-9134c1fd05034dd29a1a2f010abd178af409171e usb: xhci: plat: Add USB 3.0 phy support
-4076c4f37bd9ef8415a7ab6acb6e2b5d6fddaf05 dt-bindings: usb: mtk-xhci: add an optional frame count clock
-6a14ffc05c60fb4d5b7beb95460ac5642293e03f usb: xhci-mtk: add optional frame count clock
-236d835302bd4e11697dfe65eb24a219ea5c70eb usb: dwc2: improve error handling in __dwc2_lowlevel_hw_enable
-28f75a39d8a878d9e8e57fd2aa0a1ad262d257bd dt-bindings: usb: dwc2: add utmi optional clock
-02329adeae1f92b0133cfc1a2b06645f4c496c1b usb: dwc2: platform: add support for utmi optional clock
-21d018b75f4f1c183be565d302fde7a01ae79fb0 ARM: dts: stm32: add USB OTG UTMI clock on stm32mp151
-9a8ad10c9f2e0925ff26308ec6756b93fc2f4977 USB: dwc3: fix runtime pm imbalance on probe errors
-44d257e9012ee8040e41d224d0e5bfb5ef5427ea USB: dwc3: fix runtime pm imbalance on unbind
-6b3b2402ca5be6a19f92968a5654bc64d3996d16 USB: dwc3: disable autosuspend on unbind
-bdb19d01026a5cccfa437be8adcf2df472c5889e USB: dwc3: gadget: drop dead hibernation code
-f56d0d29b018b6c19b4d5c60e768b5f90bb20c8d USB: dwc3: drop dead hibernation code
-fe296046c7219c3b156cddc90a0efaa52a5eb996 USB: dwc3: clean up probe error labels
-c8e9eccf6ed29f6c20fa489286eee1059566d035 USB: dwc3: clean up phy init error handling
-d2f197822d5807d48bf27e713e2fd569e7017610 USB: dwc3: clean up core init error handling
-1d72fab476567a0e4f51ee0a93882208ba28dc54 USB: dwc3: refactor phy handling
-bd82857424d37897ad994381f7c580dacf2e2988 USB: dwc3: refactor clock lookups
-9a4d7dd1990383df8ffa09d6879cecb0534405e1 USB: dwc3: clean up probe declarations
-dac3b192107b978198e89ec0f77375738352e0c8 usb: typec: tcpm: fix multiple times discover svids error
-511b74e7c0b8ecd78b8175f5ee84dc0b6e014c19 usb: typec: ucsi: don't print PPM init deferred errors
-0db213ea8eed5534a5169e807f28103cbc9d23df usb: gadget: udc: core: Invoke usb_gadget_connect only when started
-a3afbf5cc887fc3401f012fe629810998ed61859 usb: gadget: udc: core: Prevent redundant calls to pullup
-d6f712f53b79f5017cdcefafb7a5aea9ec52da5d usb: chipidea: fix missing goto in `ci_hdrc_probe`
-c507565aac2e8c4ca8dd36afcd40e15e4b459d93 usb: mtu3: give back request when rx error happens
-3481769cd05b2ff3fa00d0aab526eb64de994fad usb: mtu3: use boolean return value
-d28f4091ea7ec3510fd6a3c6d433234e7a2bef14 usb: mtu3: fix kernel panic at qmu transfer done irq handler
-ed50be81d536cdb25d00befe6ca21cd02f1c509d usb: mtu3: unlock @mtu->lock just before giving back request
-976a5c256e34085207c0abf0941b5c967d8d1c18 usb: mtu3: expose role-switch control to userspace
-d10cb206acb45b9a0aa83318f0101bb56c33b7de dt-bindings: usb: mtu3: add two optional clocks
-41792870dc1cb8305ca04d563cabd63833e94762 usb: mtu3: add optional clock xhci_ck and frmcnt_ck
-a804a47658ced9e9cc6b6000846ddf208362f1b3 dt-bindings: usb: ci-hdrc-usb2: allow multiple PHYs
-d21a797a3eeb2b001e07ff943e5611eab67a71a3 usb: dwc3: core: add support for disabling High-speed park mode
-4a2f152af1c478d42bd4f535788d4dbec015704f dt-bindings: usb: snps,dwc3: Add 'snps,parkmode-disable-hs-quirk' quirk
-02435a739b81ae24aff5d6e930efef9458e2af3c usb: dwc3: gadget: Stall and restart EP0 if host is unresponsive
 495ff36388e8b71eb49e9242c8e04e06c5609e74 firmware_loader: Strip off \n from customized path
 bedee105bf4a072294af068d89ec2d2bb5f457ae firmware_loader: rework crypto dependencies
-13890626501ffda22b18213ddaf7930473da5792 USB: core: Add routines for endpoint checks in old drivers
-df05a9b05e466a46725564528b277d0c570d0104 USB: sisusbvga: Add endpoint checks
-76e31045ba030e94e72105c01b2e98f543d175ac media: radio-shark: Add endpoint checks
 460e70e2dc9af3128f69e533daf349635c421b0a arm64: delete dead code in this_cpu_set_vectors()
 b7b4ce84c830ae3ce6429fbbd70a62a4ae1ac78d arm64: kexec: include reboot.h
 e1d6ca042e62c2a69513235f8629eb6e62ca79c5 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
@@ -393,8 +395,6 @@ b7b871f5dc4c854f3c1f444397493c7a7bc79c73 Merge branch 'ethtool-mm-api-consolidat
 071c0fc6fb919dcf29c676a842dda08a674877d7 net: extend drop reasons for multiple subsystems
 baa951a1c1771810f3a378a95fc93e81953027d5 mac80211: use the new drop reasons infrastructure
 2f3a247c3994ece3acb7616965b656622bbf5243 Merge branch 'net-extend-drop-reasons'
-39674be56fba1cd3a03bf4617f523a35f85fd2c1 usb: dwc3: gadget: Execute gadget stop after halting the controller
-8f40fc0808137c157dd408d2632e63bfca2aecdb usb: dwc3: gadget: Refactor EP0 forced stall/restart into a separate API
 c384c2401eed99a2e1f84191e573f15b898babe6 vdpa/mlx5: Avoid losing link state updates
 e4be66e5f36b8cd2a052ba9e2ba063e6c37f5453 vhost: use struct_size and size_add to compute flex array sizes
 48cd6bc5b22d68b8bbc8601f3c7ddeed99541a0b virtio: Reorder fields in 'struct virtqueue'
@@ -1082,4 +1082,4 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============8288440219325561663==--
+--===============0335464037437784278==--
