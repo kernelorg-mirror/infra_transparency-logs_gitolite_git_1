@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4060822373341394333=="
+Content-Type: multipart/mixed; boundary="===============1366584807410638616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 28 Apr 2023 05:27:44 -0000
-Message-Id: <168265966481.15424.17040303536567654649@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 05:27:51 -0000
+Message-Id: <168265967128.15508.7291316482737878846@gitolite.kernel.org>
 
---===============4060822373341394333==
+--===============1366584807410638616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 7e364e56293bb98cae1b55fd835f5991c4e96e7d
+  - ref: refs/heads/driver-core-next
+    old: 046b6a171009e1ed9ede02194025e9ccd709beb2
     new: 33afd4b76393627477e878b3b195d606e585d816
-    log: revlist-7e364e56293b-33afd4b76393.txt
+    log: revlist-046b6a171009-33afd4b76393.txt
 
---===============4060822373341394333==
+--===============1366584807410638616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682659664 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682659670 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1682659663-df68f3f83ac3621bbe2f3b980a5466d326f05165
+nonce 1682659668-e158a317c7dbd5df0ca030e08f0f528f0cfacaaf
 
-7e364e56293bb98cae1b55fd835f5991c4e96e7d 33afd4b76393627477e878b3b195d606e585d816 refs/heads/driver-core-linus
+046b6a171009e1ed9ede02194025e9ccd709beb2 33afd4b76393627477e878b3b195d606e585d816 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLWVAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++Y0P/1zn7VhT1mk+E40ILZMC
-kC417YT1TTPN37xztvJFlkjips0hfHJvYgYXXq4ZFGDytMWC42BLKMjgJbmVVO0X
-3uS2h45sFFk5BY24v3FIwlsetLRTOKsjys386ougMcZ6PFnEpJu9oPE4PfCZkIbW
-6LmfBerdvVhLlEqHuglE0EpVQOigBMElRMJm+QARQbDDdr0GhzuAxAU4lUFBj71x
-emt2HG36OJJwYTsPoBBIGDeD3F++CE9XdQwbj1ylIbi4nSluVV/b/az9CHG/hcna
-xuiDttWd+f3sspyr9/JFvrxvGrrWJtFTknUnFwijDTjp7thvapj+t9/W5CIlugiE
-2mPXFhVieknrqhlaMp5Fblm4AqcP6Q9UQfmoG/CdwR34MHdxQ/vxbyhD7t0G8axM
-UTOPuYK9UG8EUbVDM/Qi+p0RXrkSM7PEn9KuYGEdBZJMbGpjwgJgjzl9dnZ8kz+0
-PHYTNh0yXDkntqukyouWeOxN4Y6gP4g5tpUdwgsflkPmENuXGMhmjJgagu28ooB1
-wNWzTGUwrcvpHHiV49nyNuwHkzjEKfyi+R6GdHtN3vgYtUCf2k9BXiY1GZe2dGO0
-EPt33AhuhCMxVn0LDy2o5Ai8Qn2eIML6x+Y9O4hzgD/N65alsVmp8Z6kUcerGBUW
-5xxt2DnKGT2wKgn4w81bMxw9
-=avVX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLWVYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n3IP/1GVht0IwY4jSINQaa5c
+y+S7aVCHaWy4IwTfw7aML8XK7BsANCy89n7f8xHe2kwQmj0sS6cPCPG5vRLPfer7
+7fJUPPTyo59Fa+RPeFMAjk2lu7vKSGnTMA/UdrsLbJAg7pZ3IJ8gKL/NfhiTfx5l
+S2wpovhp26sz0JPO6cyRHZZK5KWCcRBfUC99aO8NjJEQ1uAKkEpzT8K9bp287cwc
+w/QbngLVE4K/OPYSjtwCKqr2plIyLwrQsiJ7a97aFH5Of5izj8y1Q2r8PUeALwAG
+nfHMGv+v+tjOv83x1daEMNeqXpeAbCxaolD+mtp2dCBhR/n/jFrnaD4pVaFYCZGn
+BUrAUnYqYRy56pEdxHpe7+GhAnY+PYG5PtW/N/8aMMWMP2U8yAQBItfgk11vqKp4
+vwR2YMQgmXt7m6bYtLy9OOUa8OkrqUajFDLKhBo3qmVd3L7UymlJRpVrgAlq4lNb
+iurarIzYmMkG/DEeCZERl5f+iqYb9L2h9z0WgTvnCyUutaSlAvAJ5/dBsrj5bm2s
+fKYkaMkvWvlTUa895BEb+tGCv08k9BZfl6782iBy3oCTqf8yXAyvRL5ZxnHIvGKh
+NzefRiLINjiiOmi546oMh3M8BES5fcL4AFpBFH8nrs7bp3HCDaYq179gWZhLchmC
+GnDrxVTLwdt4kooNUttiRwFR
+=pRV8
 -----END PGP SIGNATURE-----
 
---===============4060822373341394333==
+--===============1366584807410638616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e364e56293b-33afd4b76393.txt
+Content-Disposition: attachment; filename=revlist-046b6a171009-33afd4b76393.txt
 
+3b3009ea8abb713b022d94fba95ec270cf6e7eae net/handshake: Create a NETLINK service for handling handshake requests
+2fd5532044a89d2403b543520b4902e196f7d165 net/handshake: Add a kernel API for requesting a TLSv1.3 handshake
+88232ec1ec5ecf4aa5de439cff3d5e2b7adcac93 net/handshake: Add Kunit tests for the handshake consumer API
+a5962e0a8b7b0da2350b4baeefaf7dfa3377bc89 Merge branch 'another-crack-at-a-handshake-upcall-mechanism'
+f52cc627b832e08a7bcf1b7e81e650ec308fe1d8 Revert "net/mlx5: Enable management PF initialization"
 e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __copy_user_nocache()
 8ae56b4e82ee29b5cc1fbea8b00a0a7e0758f3c2 ext4: remove unneeded check of nr_to_submit
 17809d3cf801374d7c23101800770ea34951f3c8 ext4: remove useless conditional branch code
@@ -107,8 +112,6 @@ a804a47658ced9e9cc6b6000846ddf208362f1b3 dt-bindings: usb: ci-hdrc-usb2: allow m
 d21a797a3eeb2b001e07ff943e5611eab67a71a3 usb: dwc3: core: add support for disabling High-speed park mode
 4a2f152af1c478d42bd4f535788d4dbec015704f dt-bindings: usb: snps,dwc3: Add 'snps,parkmode-disable-hs-quirk' quirk
 02435a739b81ae24aff5d6e930efef9458e2af3c usb: dwc3: gadget: Stall and restart EP0 if host is unresponsive
-495ff36388e8b71eb49e9242c8e04e06c5609e74 firmware_loader: Strip off \n from customized path
-bedee105bf4a072294af068d89ec2d2bb5f457ae firmware_loader: rework crypto dependencies
 13890626501ffda22b18213ddaf7930473da5792 USB: core: Add routines for endpoint checks in old drivers
 df05a9b05e466a46725564528b277d0c570d0104 USB: sisusbvga: Add endpoint checks
 76e31045ba030e94e72105c01b2e98f543d175ac media: radio-shark: Add endpoint checks
@@ -227,14 +230,11 @@ ad9c36be1f78f2990310cdcf902eba64cd2b2cf3 w1: minor white-space and code style fi
 77982a7f4970dcabf4bbcbcae9d1dc85a731ce6b spmi: mtk-pmif: Drop of_match_ptr for ID table
 80c606a842e6b6b6f4a2b53a734a9d3be2cdddff spmi: fix W=1 kernel-doc warnings
 b56eef3e16d888883fefab47425036de80dd38fc spmi: Add a check for remove callback when removing a SPMI driver
-e2f06aa885081e1391916367f53bad984714b4db driver core: Don't require dynamic_debug for initcall_debug probe timing
-11a96703943fc4293f50f554b9e33c79ef4f5d8d driver core: update comments in device_rename()
 32118bdc9471f6d28dbf3d55b2bf0f912be0c62b virt: acrn: Replace obsolete memalign() with posix_memalign()
 4daa669efcfa5147e4bd5ecb3f1e10c0c96eef27 kernel/configs: Drop Android config fragments
 a889c276d33d333ae96697510f33533f6e9d9591 mcb: Return actual parsed size when reading chameleon table
 9be24faadd085c284890c3afcec7a0184642315a mcb-pci: Reallocate memory region to avoid memory overlapping
 2025b2ca8004c04861903d076c67a73a0ec6dfca mcb-lpc: Reallocate memory region to avoid memory overlapping
-046b6a171009e1ed9ede02194025e9ccd709beb2 device property: make device_property functions take const device *
 eaddda248483ff78c4d26f1bf420e5f2af436a74 wifi: rtw89: mac: use regular int as return type of DLE buffer request
 f0e741e4ddbc01610ca87167a123702b3fdac51f wifi: rtw88: add bitmap for dynamic port settings
 ccf73f6e69c0244a979e97eb6c38f80cd6cbc116 wifi: rtw88: add port switch for AP mode
@@ -1082,4 +1082,4 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============4060822373341394333==--
+--===============1366584807410638616==--
