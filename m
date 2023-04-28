@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 28 Apr 2023 16:03:46 -0000
-Message-Id: <168269782639.1712.10963195113921145133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 28 Apr 2023 16:04:30 -0000
+Message-Id: <168269787033.2024.5567345159979516315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/tags/riscv-for-linus-6.4-mw1
+  - ref: refs/tags/lsm-pr-20230428
     old: 0000000000000000000000000000000000000000
-    new: fac520908b0b80f7eca588eaa05a7809755f1c4c
+    new: 83f1a2958266d5720dea28462c4d5c5908c490f8
