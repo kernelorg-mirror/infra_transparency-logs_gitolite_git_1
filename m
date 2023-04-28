@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8605221409387321320=="
+Content-Type: multipart/mixed; boundary="===============7731497957193627069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 28 Apr 2023 07:58:01 -0000
-Message-Id: <168266868196.20753.11865411081459203001@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 08:00:29 -0000
+Message-Id: <168266882971.23255.6383148044416054024@gitolite.kernel.org>
 
---===============8605221409387321320==
+--===============7731497957193627069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,101 +16,127 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: a32a901a6dcd252af0b10c6cf332014ed758fd7e
-    new: c987819c8b040793ac3ac8262fed1415c72f72ab
+    old: c987819c8b040793ac3ac8262fed1415c72f72ab
+    new: 81a3726fbdedc7b207ebc347d6e9604d092515ac
     log: |
-         2b835dd3eee236c9fba3c4cd7703c490011bccc3 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         c987819c8b040793ac3ac8262fed1415c72f72ab bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         161500aecea10a3517404b214395d094711999ac wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         cc43515212e81a496e004c829c1df14234590ae8 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         81a3726fbdedc7b207ebc347d6e9604d092515ac USB: serial: option: add UNISOC vendor and TOZED LT70C product
          
   - ref: refs/heads/queue/4.19
-    old: d67bebad56e1b2d25080205e788c510051c361ce
-    new: 3bb5edc96e17aeba6f3c34680a941badf8ea3830
+    old: 3bb5edc96e17aeba6f3c34680a941badf8ea3830
+    new: 5b85c41f2aa91fd0de06ab1fefba6875f270894f
     log: |
-         b3e9f058d73a09f2bafee78577e0003a9ce8f071 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         3bb5edc96e17aeba6f3c34680a941badf8ea3830 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         dee144db61034aea14b5993b7a0d9dd5cc01e375 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         814247b6ad2a4237664e5c0fe89877c902040644 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         5b85c41f2aa91fd0de06ab1fefba6875f270894f USB: serial: option: add UNISOC vendor and TOZED LT70C product
          
   - ref: refs/heads/queue/5.10
-    old: 3210d913e9686b72ad439260108c5456c244a9fb
-    new: b3d9e724ff88a00746295a936b95d182ebbc03c3
+    old: b3d9e724ff88a00746295a936b95d182ebbc03c3
+    new: d4a1fbdb1f8dd4652f25340ec203c896506d1ecc
     log: |
-         bf15776dcc24436a739c44dea281a40fabdf9dde seccomp: Move copy_seccomp() to no failure path.
-         440218ce1b51dfdc182a513029a6076913baa126 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
-         dbd74b438fbfb52f04e046a1810c053ccbd7f246 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-         5ababa22aecf821f1afba98d2a4f132f782bf5b3 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         a04d4794daad452ae35a8145794f914618004591 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         b3d9e724ff88a00746295a936b95d182ebbc03c3 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         355cb60b7ba4aa7b67f2408eee93bfd93f0275b8 seccomp: Move copy_seccomp() to no failure path.
+         d2191d32c20e49c0c8b762adb604d546a06a1ce7 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
+         4f669cd5758868a21bc1f22983c3b15c975388f5 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
+         07b1e97e432abd6677a78911b693d695dd69f19d wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         2327a54edb9b26a12092158775787334e1694c42 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         854276cfd9ed7729e1a8a1957631088af7ec76ee bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         269e527aaa26bf714d415ecc3c96edd198c6ee22 x86/fpu: Prevent FPU state corruption
+         58317addadd9c9713785aee7252f2dbdd9d57d11 USB: serial: option: add UNISOC vendor and TOZED LT70C product
+         d4a1fbdb1f8dd4652f25340ec203c896506d1ecc driver core: Don't require dynamic_debug for initcall_debug probe timing
          
   - ref: refs/heads/queue/5.15
-    old: 3e32bf96dec451dee57a0c3d3d5e684807f3e837
-    new: be0513455b33c0df8214c373a3583aec230a26a1
+    old: be0513455b33c0df8214c373a3583aec230a26a1
+    new: aada006b099b75deaa42ce79b523cde10a023a7b
     log: |
-         7bbd636ece984abfa901a5e31248f5e057c14dee PCI/ASPM: Remove pcie_aspm_pm_state_change()
-         a55bff23e623538f16f76f2bb3b9adef9c015c5e selftests/kselftest/runner/run_one(): allow running non-executable files
-         c480b556f4e776bae49f4bb65fb2e7db516e739c KVM: arm64: Retry fault if vma_lookup() results become invalid
-         ed693a3832e10ca91a751bfe34069b36cfbaf472 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-         04ea59b05d7c42b43ccb58277cdb0f3d25ea7181 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         0dcd618b885dfe08c892f852fa936da469ed6aac drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         be0513455b33c0df8214c373a3583aec230a26a1 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         799f262bd46d6de0b02cf5bd5ac695289242f115 PCI/ASPM: Remove pcie_aspm_pm_state_change()
+         49814fe9f579b32ac5f030a0f7cbd5f5586e02a9 selftests/kselftest/runner/run_one(): allow running non-executable files
+         db36cea08c2ccd1724eb462250924b3c961da089 KVM: arm64: Retry fault if vma_lookup() results become invalid
+         d6fe4df2b4f221ca5413ba802e2dec2a4dd7d7d3 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
+         f6ba5ae0dec329681864b1cb0967dc6b61682a99 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         d7d334547c291e4ddd68e3229cff9ab9f3fd2459 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         6c2125a3cdac6ab8c75c59ca093e1c25c7ec0053 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         5786da12b1ace8b7f32b2c37e8831d7553b4dd82 USB: serial: option: add UNISOC vendor and TOZED LT70C product
+         aada006b099b75deaa42ce79b523cde10a023a7b driver core: Don't require dynamic_debug for initcall_debug probe timing
          
   - ref: refs/heads/queue/5.4
-    old: d96161d703416c77eb5a74a083c12495cdf760bb
-    new: 14d7614a9767d075e2d3e5bab1b351cb73f337bd
+    old: 14d7614a9767d075e2d3e5bab1b351cb73f337bd
+    new: c4b998c912c641b35959cc067cad5dba4e7ac42c
     log: |
-         48a3b022e9f37eddebcbd823f2c1f0c93a048699 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
-         f309b7cc03b6dcf86bfeee50d1cae9f81c22cb28 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         71dd61296dacb97d4f2538cd6e4f24a7376650de drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         14d7614a9767d075e2d3e5bab1b351cb73f337bd bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         b3e77bf7ddc1c25d6f3dac6ec3c8cc4d368eae63 counter: 104-quad-8: Fix race condition between FLAG and CNTR reads
+         95d7657a572735f7691101ce7ec9ba5f60af2af7 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         3f55f9a54669967d843691ba0b7faf383acd78df drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+         3e350c40c3c7e0765f1c84ae71dd8cb89bfaa344 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         c4b998c912c641b35959cc067cad5dba4e7ac42c USB: serial: option: add UNISOC vendor and TOZED LT70C product
          
   - ref: refs/heads/queue/6.1
-    old: 7bbf32a05c1d09d633b95641ec1bd609baee426c
-    new: ed3829a67f164eb4e4fef9cf47a25416c1efba4e
-    log: |
-         a724b5379859e58cd7f8386adef965d45ec11116 um: Only disable SSE on clang to work around old GCC bugs
-         6071f40f2193554d6b044149b37714f78c12974c phy: phy-brcm-usb: Utilize platform_get_irq_byname_optional()
-         18dd424b4717e4a7cc9958dcd4bf2a8976bd4c39 KVM: arm64: Retry fault if vma_lookup() results become invalid
-         80db3d1a033022b048bf47a5931d9aee0be08a86 mm/mempolicy: fix use-after-free of VMA iterator
-         0eeff81ab5324e80efbc32327caca61cb5ee2cac mptcp: stops worker on unaccepted sockets at listener close
-         7b9c5198c974dc28dd7a316bad0db8b5637153f1 mptcp: fix accept vs worker race
-         f3788764184ea0992373d58afc1b0852b96bd310 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         94714d7864c33d7142398e873711ee20afd10035 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         f928cac64e752338cdeef08b9537c0a846ea4a94 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
-         ed3829a67f164eb4e4fef9cf47a25416c1efba4e bluetooth: Perform careful capability checks in hci_sock_ioctl()
-         
+    old: ed3829a67f164eb4e4fef9cf47a25416c1efba4e
+    new: 516163d1dc34e83515af676ab3e3e53a8cbcb801
+    log: revlist-ed3829a67f16-516163d1dc34.txt
   - ref: refs/heads/queue/6.2
-    old: 6fa5f20f70c7acb469bc9b8ea2a0d3922abe5dad
-    new: 3957e4d9f2a59d70666527b596da7b9b27dd5dc8
-    log: |
-         46ebba30435dfe18dd14cf6b8c4fd3c625360a2c rust: arch/um: Disable FP/SIMD instruction to match x86
-         4bd1806c14019f27c940563fbd018c1be86a32ab um: Only disable SSE on clang to work around old GCC bugs
-         e008496228be807172a75d08fd238575312be1c3 rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period
-         6453478b8956e4b33453572c394e3a1f494bd80c mm/mempolicy: fix use-after-free of VMA iterator
-         ef2c047e5f0a023a985811e02870a56d976b9d85 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-         2f5329caf477cebf481a678b6763cf48b907a42c drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-         ca239ac66efb971e4e2fa0fb320178249fcd0876 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
-         c49626068b6582f9b3c9bcdbcb34b10511b7a72e bluetooth: Perform careful capability checks in hci_sock_ioctl()
-         3957e4d9f2a59d70666527b596da7b9b27dd5dc8 wifi: brcmfmac: add Cypress 43439 SDIO ids
-         
+    old: 3957e4d9f2a59d70666527b596da7b9b27dd5dc8
+    new: 641dd5cc7005b72b8eb7d1718c2814815a18987a
+    log: revlist-3957e4d9f2a5-641dd5cc7005.txt
   - ref: refs/heads/queue/6.3
-    old: ee690930c7d4e1ee2daa818283c2afb59e7b1bde
-    new: 69c2258ca67eb6943a3eff25582722c37c2cdba6
-    log: revlist-ee690930c7d4-69c2258ca67e.txt
+    old: 69c2258ca67eb6943a3eff25582722c37c2cdba6
+    new: fabacb72f6f1145d462595e7b8ed2f77d7f69ad9
+    log: revlist-69c2258ca67e-fabacb72f6f1.txt
 
---===============8605221409387321320==
+--===============7731497957193627069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee690930c7d4-69c2258ca67e.txt
+Content-Disposition: attachment; filename=revlist-ed3829a67f16-516163d1dc34.txt
 
-6a7029394e92e6f2224037896cdb77d549b10da7 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-10cf00de02a6acc7f64c38d64709dd7c83ad336a fsverity: reject FS_IOC_ENABLE_VERITY on mode 3 fds
-c6e6878c776df7b67ca8f812d03071b8c3127da1 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-e57d5f408d65ab088ef84d6596d4a97e905468c9 fsverity: explicitly check for buffer overflow in build_merkle_tree()
-8df077de892c8c32d690f847dd820f902b6ffddf gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
-f7014ef02c313e39ac6fa55c38c3c6d43b19dc55 bluetooth: Perform careful capability checks in hci_sock_ioctl()
-71a263a8002f407628cf2cc3382e0dfc46a40f69 wifi: brcmfmac: add Cypress 43439 SDIO ids
-d6318e9d80ddaaa00ad11407950122da7fc3da1a btrfs: fix uninitialized variable warnings
-c88e71b4e3623ee2ac40842aeaa3ebf3c0c78e23 mm/mremap: fix vm_pgoff in vma_merge() case 3
-5f9abd72d9912122d32c97d41826822218318622 USB: serial: option: add UNISOC vendor and TOZED LT70C product
-69c2258ca67eb6943a3eff25582722c37c2cdba6 driver core: Don't require dynamic_debug for initcall_debug probe timing
+2071ef01250fd14ac02c69608c33ae805ee57c6b um: Only disable SSE on clang to work around old GCC bugs
+8cb2c55074904d95362d7cc92d33e29ffcf5ac27 phy: phy-brcm-usb: Utilize platform_get_irq_byname_optional()
+0e98feb1c1978e8da3eff49d954a25eb0e89c56c KVM: arm64: Retry fault if vma_lookup() results become invalid
+f2c0b0a501c4227d61449c13f7ccb261b65c0dbe mm/mempolicy: fix use-after-free of VMA iterator
+b0492fe22ab087ade3648e4b6229475d8e16778a mptcp: stops worker on unaccepted sockets at listener close
+f3de8f1aa6d51adf84119502c7446dad898156df mptcp: fix accept vs worker race
+8915b02595408c96fad4dd2c5f111d430e26ab44 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+79f3fb277d2a30ca585aa9cf4dfeadfb9ba7f1b5 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+a3ae98865066445ca86a7fdff11e5749f4008772 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
+e08e682c74cd5f00a8d053f1cd66b7c5e8a06376 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+6fbecc341751e32a7800930d034afa03205cc528 btrfs: fix uninitialized variable warnings
+d169125b7e8a85d458412018c88dc05907b2b6a9 USB: serial: option: add UNISOC vendor and TOZED LT70C product
+516163d1dc34e83515af676ab3e3e53a8cbcb801 driver core: Don't require dynamic_debug for initcall_debug probe timing
 
---===============8605221409387321320==--
+--===============7731497957193627069==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3957e4d9f2a5-641dd5cc7005.txt
+
+25c0519c219777af80a632a42fde8463c0df80b8 rust: arch/um: Disable FP/SIMD instruction to match x86
+599e116b3e3fd17b8a4b8ccc5984affe67c46383 um: Only disable SSE on clang to work around old GCC bugs
+f3121027ef0e2b0d5163edf4fbe3eaae4188b341 rcu/kvfree: Avoid freeing new kfree_rcu() memory after old grace period
+10f12d3dba37de3d1db67f58a81d6629b75abc8d mm/mempolicy: fix use-after-free of VMA iterator
+f99ffbf9f60cc059a203ad5d3fc94d4c16863ba4 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+9da1025d04cbc67687a0faeb0e2bdceeb44c4618 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+e5ba544797a22f6af286987c7cba0a6b152f4c7e gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
+2b95d47b8b4d8eec2229c2a8084e1f817035ed83 bluetooth: Perform careful capability checks in hci_sock_ioctl()
+f270f5821c6f1fa6e3f1ee1bdf103965b9fb6843 wifi: brcmfmac: add Cypress 43439 SDIO ids
+1a92941caf899c232f93a89f21a3fea9060c2ab3 btrfs: fix uninitialized variable warnings
+e2c9d53d3d0ff446364a80dda02c20dbe2a6838a USB: serial: option: add UNISOC vendor and TOZED LT70C product
+641dd5cc7005b72b8eb7d1718c2814815a18987a driver core: Don't require dynamic_debug for initcall_debug probe timing
+
+--===============7731497957193627069==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-69c2258ca67e-fabacb72f6f1.txt
+
+7917e0d391f8c7d3fffcfd52223468396898666b wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+5a3813422d194a9f76083784c76ab26351645880 fsverity: reject FS_IOC_ENABLE_VERITY on mode 3 fds
+f3791ac572492deb95b12054f796a6899b0ef745 drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
+158b844acbcc05617bbae87a49901de28ea2239f fsverity: explicitly check for buffer overflow in build_merkle_tree()
+32c38026f4ab18864d2af26ecbc758ab43e324c4 gpiolib: acpi: Add a ignore wakeup quirk for Clevo NL5xNU
+df10f913ac3955fcf482238dede1275a3b4b528c bluetooth: Perform careful capability checks in hci_sock_ioctl()
+5b63247a1252ea84435aeda0a5ae141f552d4461 wifi: brcmfmac: add Cypress 43439 SDIO ids
+ca212e8539fa1f235bdd03fa7c95b6186c27ed3e btrfs: fix uninitialized variable warnings
+099f0660ecbcd8c0bf07de80bfec5e94e7480d22 mm/mremap: fix vm_pgoff in vma_merge() case 3
+d1356d430f9400fc23b0808d292bc5d373d09856 USB: serial: option: add UNISOC vendor and TOZED LT70C product
+fabacb72f6f1145d462595e7b8ed2f77d7f69ad9 driver core: Don't require dynamic_debug for initcall_debug probe timing
+
+--===============7731497957193627069==--
