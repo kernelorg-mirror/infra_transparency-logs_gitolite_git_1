@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 28 Apr 2023 08:49:34 -0000
-Message-Id: <168267177406.24099.1624041469956067559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 28 Apr 2023 08:51:54 -0000
+Message-Id: <168267191489.26487.13363374799132518286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e0807c430239d62d8dd7a25552e469aad8c3dd28
-    new: 042334a8d424a1917e916e611a8dda7f8caf1491
+    old: c88f8d5cd95fd039cff95d682b8e71100c001df0
+    new: 46ef24c60f8ee70662968ac55325297ed4624d61
     log: |
-         042334a8d424a1917e916e611a8dda7f8caf1491 atlantic:hw_atl2:hw_atl2_utils_fw: Remove unnecessary (void*) conversions
+         46ef24c60f8ee70662968ac55325297ed4624d61 selftests: srv6: make srv6_end_dt46_l3vpn_test more robust
          
