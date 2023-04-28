@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 28 Apr 2023 08:57:44 -0000
-Message-Id: <168267226465.29875.15253371267040020556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 28 Apr 2023 09:01:49 -0000
+Message-Id: <168267250982.356.5557057860936005544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: dc6456e938e938d64ffb6383a286b2ac9790a37f
-    new: 6686317855c6997671982d4489ccdd946f644957
+  - ref: refs/heads/master
+    old: 2186677456f2a03d6645874ccc3e675f204cdb5b
+    new: 4abedb29371eb03437a419609baa02d1ab8be5aa
     log: |
-         6686317855c6997671982d4489ccdd946f644957 net: dsa: mv88e6xxx: add mv88e6321 rsvd2cpu
+         4abedb29371eb03437a419609baa02d1ab8be5aa tests: skip subdir test if unshared session
          
