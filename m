@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Fri, 28 Apr 2023 16:00:22 -0000
-Message-Id: <168269762257.459.13492426653632676108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 28 Apr 2023 16:03:46 -0000
+Message-Id: <168269782639.1712.10963195113921145133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/stable-6.4
-    old: d82dcd9e21b77d338dc4875f3d4111f0db314a7c
-    new: 6d2ed653185baa5ba601306cbd6cd7192642045d
-    log: |
-         6d2ed653185baa5ba601306cbd6cd7192642045d lsm: move hook comments docs to security/security.c
-         
+  - ref: refs/tags/riscv-for-linus-6.4-mw1
+    old: 0000000000000000000000000000000000000000
+    new: fac520908b0b80f7eca588eaa05a7809755f1c4c
