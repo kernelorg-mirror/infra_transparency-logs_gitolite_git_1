@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2803156716488873919=="
+Content-Type: multipart/mixed; boundary="===============4412537690583096109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 28 Apr 2023 05:58:04 -0000
-Message-Id: <168266148495.4506.12498591978444432959@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 05:58:08 -0000
+Message-Id: <168266148835.4581.11136164990235410603@gitolite.kernel.org>
 
---===============2803156716488873919==
+--===============4412537690583096109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,68 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
+  - ref: refs/heads/tty-next
+    old: 2b3174c96696cde676393474f0e01d0d108462f5
     new: 33afd4b76393627477e878b3b195d606e585d816
-    log: revlist-09a9639e56c0-33afd4b76393.txt
+    log: revlist-2b3174c96696-33afd4b76393.txt
 
---===============2803156716488873919==
+--===============4412537690583096109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661484 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661487 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1682661483-58bd26246cba36a6b64d01926bf1845d45898cdb
+nonce 1682661487-4ea9bff3c97c4ed9a2d5f5165f7a9cb22baffea0
 
-09a9639e56c01c7a00d6c0ca63f4c7c41abe075d 33afd4b76393627477e878b3b195d606e585d816 refs/heads/tty-linus
+2b3174c96696cde676393474f0e01d0d108462f5 33afd4b76393627477e878b3b195d606e585d816 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYGwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PfgP/RBmos2DXff+GLHOrYig
-DtoaGm8EqP03jyRcoWocu15vaLG1ajJOAWngONdoGKmKdUNIKUy9ECuqVI6L6tr1
-G4YHqVr7WPWK6ST72uSLW0kXfW6iKPSFYt5fM5+jNHLdTo4kABn1WcbbIIrjPgV+
-Pe/h0F9yXd6wNCjOSdz7a9pFpVvTk0FEEaix/DGcBAHgnFAxwnPwBlibxkNXqSJW
-1JbLzx7cR/2qhcD50KMXcIdWAF+/4LMdhl2+Qma1zZOHLsDxGCqLraGU+GjArH9v
-7q68AKTD3xGS9p0ncYlD5srd8m2YUjhwIgTXXsFaymx0og35jHycN2AE5MSN+zVb
-xGCbH3pZf/XYPowVIDhILJuv2Vyg64K+uLtFJ+MOLeTPOf/K23nabTd57wlrUiHp
-ukGVmSzZBEVtYX+2w37m4+ilafFgOwDKJHzs94ren+TEYAk9N9Tzxfu78NYdFqat
-X84A4h7Pt6MeS4VU9LcbDbzPqY4zOwyr7Uhef1A6r8b+fXzVl1vLBDMwqlZ5JXGa
-fOC4Eudog06qyXj3m1ZruB1YT8uJ+51P4t303Vc+Dsf5MlNC7SdhDHdOPYsv9C2I
-dd+t5PqIGmwAriT5Tt+7nYEfblJzf0xhuYaWGJkx99rXqfWiivD3N8GCcXhgKKY8
-59O4ygT2N161JDkaPvLB3ZBx
-=QhTI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYG8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e4kP/3v2asFnQ0K1UpwaCJ9p
+0SzUnB4cMgM0jVzZE7ujyL5Y7doIfX+HYGKn9WmD3Pc9MsKWPTEjloC6MZfw9pW6
+3pcGHwsdW5Qu/ZemJfewvCC0KGmAUYiDK4j7+KNAWH1yKBcNeXE99guW59wIepdS
+TWkMsdbCzgWGzKXWbuvsmoBo3rAG3dyBv65fztWH5q0BmsuUicUSzy8VyRuRbkz5
+T54e1UYCg4KwNeWt/b0wC3fSYW95H2XbOMsUqXdStd3ga0N1HfvwEIdo9c4VdDDT
+68jt8TN9WttLO3e5aUbZGJVPiJOAIfNrRSLDtO5q0ZeJxCfkVBmSvMD31VPORDZ8
+cy7gRPgGLvFdtuSI6qZe+J6mMLnUvwz2Zci7oALfxwMnox0jFN2+YL2aOpNjtwsH
+Mp5zBsCHY5oi4H1MBcUIrEbBHAx+osnH93fatzR3/C6g+6chGRrRwr5NtHgDAn+i
+VUSxUZR4W2K42K4eS2eZFxsqtMn+gx/ESOAy7M1t5kcptsCe3tavSv03q0cnMVFu
+H+TbUHAh3qlwjsRemsd8XmMkRQYhDAIaZryDw/NaDmEsZ+PTJv6fpaW8an2SzboX
+mUOlw2Pl0aSnXPAXMUq1pFW2ySpavQu0q1jMq25UE7xs8Bz7oNAbibX6xb7PDW81
+NBcBTLm/KRtBge3mrQTbe8+H
+=OcrE
 -----END PGP SIGNATURE-----
 
---===============2803156716488873919==
+--===============4412537690583096109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09a9639e56c0-33afd4b76393.txt
+Content-Disposition: attachment; filename=revlist-2b3174c96696-33afd4b76393.txt
 
+72b4fb4c883d5deac74f5267e486f5dee1bffd5f Merge tag 'regulator-fix-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+23990b1affd2dc8f5e59048d4d4bef05f6e1c544 Merge tag 'spi-fix-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+8660484ed1cf3261e89e0bad94c6395597e87599 module: add debugging auto-load duplicate module support
+91daa4f62ce878b6e1ac5908aceb83550332447f net: dsa: mt7530: fix support for MT7531BE
+8c154d272c3e03b100baaf1df473f22a78fa403e bnxt_en: fix free-runnig PHC mode
+67d47b95119ad589b0a0b16b88b1dd9a04061ced e1000e: Disable TSO on i219-LM card to increase speed
+cb0856346a60fe3eb837ba5e73588a41f81ac05f Merge tag 'mm-hotfixes-stable-2023-04-19-16-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+7b97174d0ef798ba7f802c07527ae378923e5ebc Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+7b3aba7ea336d069b30b91502d47792c280bae2b mailmap: add entries for Mat Martineau
+52b37ae8aa6797a8183e8554672797045e81d9ae MAINTAINERS: Resume MPTCP co-maintainer role
+9d94769081a65aacd54552dbdeeca2544f70442b Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+43bb6100d8d5871d211196034042308c1b1d69c3 net: stmmac: dwmac-meson8b: Avoid cast to incompatible function type
+3e9c0700bf42b6170ae6b6e616cdc2e75a21b506 net: micrel: Update the list of supported phys
+84ce730f82dfe62f6f3e76b059ce0f7178322fb9 dt-bindings: net: ethernet: Fix JSON pointer references
+f1836a424518a09b17ee2b69e81e9477321a0aff Merge tag 'ipsec-next-2023-04-19' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+2bc42f482bedeafdbe70804fd82bdbf8f7e28b00 .gitignore: Do not ignore .kunitconfig files
+3b3009ea8abb713b022d94fba95ec270cf6e7eae net/handshake: Create a NETLINK service for handling handshake requests
+2fd5532044a89d2403b543520b4902e196f7d165 net/handshake: Add a kernel API for requesting a TLSv1.3 handshake
+88232ec1ec5ecf4aa5de439cff3d5e2b7adcac93 net/handshake: Add Kunit tests for the handshake consumer API
+a5962e0a8b7b0da2350b4baeefaf7dfa3377bc89 Merge branch 'another-crack-at-a-handshake-upcall-mechanism'
+f52cc627b832e08a7bcf1b7e81e650ec308fe1d8 Revert "net/mlx5: Enable management PF initialization"
 e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __copy_user_nocache()
 8ae56b4e82ee29b5cc1fbea8b00a0a7e0758f3c2 ext4: remove unneeded check of nr_to_submit
 17809d3cf801374d7c23101800770ea34951f3c8 ext4: remove useless conditional branch code
@@ -158,26 +179,6 @@ ea88dc925c3a24213abf6d428d8fc35f74ec10bd Merge branch 'for-next/ftrace' into for
 f8863bc8c1f9cf4bc3bdc58a98c5a41d0b4c14c5 Merge branch 'for-next/kdump' into for-next/core
 81444b77a4443e985b567310f19d601368ed4762 Merge branch 'for-next/misc' into for-next/core
 1bb31cc7afe6b1524d1cd74a1ed53c1add16fc73 Merge branch 'for-next/mm' into for-next/core
-254d5a59464eea1324353d84c0f614c413e8e54f tty: n_gsm: fix redundant assignment of gsm->encoding
-5c7e105cd156fc9adf5294a83623d7a40c15f9b9 tty: serial: simplify qcom_geni_serial_send_chunk_fifo()
-ee13ea33e066507a374a0d091034f1150e9d0c07 tty: synclink_gt: don't allocate and pass dummy flags
-c6c01763f24c40ec1a5faeb260632fdf0824bb72 serial: make SiFive serial drivers depend on ARCH_ symbols
-9e4f2a8004213339e9d837d891a59cc80e082966 serial: fix TIOCSRS485 locking
-f73fd750552524b06b5d77ebfdd106ccc8fcac61 tty: serial: fsl_lpuart: adjust buffer length to the intended size
-d57d56e4dddfb5c92cd81abf8922055bf0fb85a4 tty: serial: fsl_lpuart: use UARTMODIR register bits for lpuart32 platform
-0ba9e3a13c6adfa99e32b2576d20820ab10ad48a serial: 8250: Add missing wakeup event reporting
-04e82793f068d2f0ffe62fcea03d007a8cdc16a7 serial: 8250: Reinit port->pm on port specific driver unbind
-63f4c34561718a349d321105adab028cbf212d57 serial: core: Disable uart_start() on uart_remove_one_port()
-3f42b142ea1171967e40e10e4b0241c0d6d28d41 serial: max310x: fix IO data corruption in batched operations
-8749061be196b41a874d71c073c03171bf2741b2 tty: serial: sh-sci: Add RZ/G2L SCIFA DMA tx support
-cf383d123869574d1de4304ed73771d3eb5a3d40 tty: serial: sh-sci: Add RZ/G2L SCIFA DMA rx support
-1707ce2d1e4d701db28ba2250d9d72dcf762babc tty: serial: sh-sci: Fix TE setting on SCI IP
-d61ae331d6f35183b38e0c992bc01bf15d8591c3 tty: serial: sh-sci: Add support for tx end interrupt handling
-f06c2a9000ebecbb461196e59ce063f742272902 tty: serial: sh-sci: Fix end of transmission on SCI
-6b97370b2cc6ef75acb72d651ef57041c8f1ece9 tty: vt: reformat tioclinux()
-71ca6e4bf44f9a737f11e3f169430f81e9febd7b tty: vt: simplify some cases in tioclinux()
-921234d78339b9ee67c2da4dc78aa6ecd47d76e1 tty: vt: distribute EXPORT_SYMBOL()
-f91cf1a30255d81cf1d8992974ec0a9c0fd4a771 tty: vt: drop checks for undefined VT_SINGLE_DRIVER
 ccb541a00b5bf87f1b7b9301373bf88a3257c688 ASoC: SOF: ipc: Add no reply inline calls
 367fd6ffa294ca3346902aa0814fac31bb5a6059 ASoC: SOF: Use no_reply calls for TX
 058924644f9596b8c55fc81f01f741d628eed940 ASoC: Intel: sof_cirrus_common: Guard against missing buses
@@ -202,7 +203,6 @@ dc8aaa4f327b17603165c0b6f8d40f297f5f94c0 staging: rtl8192e: Remove unchanged var
 548534d95b1dd7f9a51ac0ce06f1435be1e8ca33 staging: rtl8192e: Remove unchanged variable frame_sync_monitor
 4de65f2b975fc0eb17629242db09e5895003edbe staging: rtl8192e: Remove unchanged variables bfsync_processing and more
 3fac2397f562eb669ddc2f45867a253f3fc26184 staging: rtl8192e: Fix W_DISABLE# does not work after stop/start
-2b3174c96696cde676393474f0e01d0d108462f5 n_gsm: Use array_index_nospec() with index that comes from userspace
 6f36ff32809aeaa7276d5f663d7adf9298a8bf5c MAINTAINERS: w1: add Krzysztof Kozlowski as maintainer
 22ab6c515d9602e5ddf41998ce5352e8887f4543 dt-bindings: w1: Add DS2482/DS2484 I2C to 1-W bridges
 58ecb03fc74a5ec4b8c8222c5b4bac572a264c47 w1: ds2482: add i2c id for DS2484
@@ -1082,4 +1082,4 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============2803156716488873919==--
+--===============4412537690583096109==--
