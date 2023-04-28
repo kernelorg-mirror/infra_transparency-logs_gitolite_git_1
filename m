@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2059067053192033195=="
+Content-Type: multipart/mixed; boundary="===============1649898241097668563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 28 Apr 2023 06:04:00 -0000
-Message-Id: <168266184066.8350.17545377750401053752@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 06:07:17 -0000
+Message-Id: <168266203727.10934.18091014032027974788@gitolite.kernel.org>
 
---===============2059067053192033195==
+--===============1649898241097668563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: cb21a0a2efbe6996216b9d1b1464031c78f2ddf9
-    new: f6243e678ab40f945a9e07fa24f33c7ceb787627
-    log: revlist-cb21a0a2efbe-f6243e678ab4.txt
+  - ref: refs/heads/readfile
+    old: 57531d392198f649cb9df85dc5dfcc915eb61b28
+    new: 5a6cc0cdb3b7a49e06d8bfc586719ef42238cf9c
+    log: revlist-57531d392198-5a6cc0cdb3b7.txt
 
---===============2059067053192033195==
+--===============1649898241097668563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661830 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682662034 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1682661828-2d5e5ca33f6bdef3f4f299335bd9c132aa0e0ec0
+nonce 1682662033-68b3cc9a78c9498ef29cae9ffd04330189440220
 
-cb21a0a2efbe6996216b9d1b1464031c78f2ddf9 f6243e678ab40f945a9e07fa24f33c7ceb787627 refs/heads/debugfs_cleanup
+57531d392198f649cb9df85dc5dfcc915eb61b28 5a6cc0cdb3b7a49e06d8bfc586719ef42238cf9c refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYcYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xWEQANcWA7PUScHb87Z2+Tay
-mmRIcdMU+abqQSs1w11/jnmtA8PlU3kYog+tSzj0x9DbNn2O+xS7m+VqDDhyrLLQ
-QtX4++dzWAp/A+CjwVizwEnns5UGmsRzcsUeokNf7VQgWzXkwA45wU6srXsbyL07
-n7U2o6WPv9HuN2AgNQ3oc8JXxnmdineVTpq37+85nmjcM+UqKE/XgpwThMQUjQAP
-s95PoHNpJyNRdhbOb5g/WW8kFfuh5RL2cdoXO+yQuk9ECof7vYx68HC1D1/dt/wM
-P4fjhmHB1vwP8oMWFLgTBUpXQNSoFGHgpo1IODaerrH1Ils+4ye2PsDTD4oQemKY
-zicvhjg+oIRyfvucaPs4tJMw7mnE5tOGKyAkgPWctBUptxsgtvHgTicUQW0wj6t+
-lu3DVqvQzm+BBkvJvdUYFm4mOtRmi6+qH9pJ9fS8hK8JG57tilxeLyX5VovxCBMu
-J1hhFZpEHZUKUDQSELlfFiQ59u/+EQSKRvAQphiW8tEwB5SQGrDhVQC8cPepUgSs
-kIPfbtwgTwzR3TtkquFCugrKMEOxzlXDgAhVJ8Tj/mRVX4MP+NCmK1oGcT387PIz
-i+Q5YQlB/3M0MoZE2edul14gWSPk9tC6WD0/N3ojJJc1T2e9RkCQb/FHR4YhS4om
-7sPaGSKgAnfOVOLBGigxoeUz
-=KQXj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYpIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rgcQAJKBus7qW1n3avgGKZvz
+2lelcGICEBYJzOFp3g0eWC+8FFOqJ9KJJP4DnpIUzWHHI75oUFtrX7ZtVePo2Wb9
+nMPf9o89KJ+4Ay7D+Crja1CYIwiGnkaysvUctxV2i6KP14H19R4TZJjNW70N8+SR
+F7L6PID57MP3dSz+R6gKx5uMDcHZqpnjft22FWQnP3D7GQiPmowEiRYaUTFT7fQ8
+tMjcojURnhEMZnrsNTp3Z6baRH/r1zkxceGamvwbjs/EJMy8/r2LpZXGggBpPQUe
+d108vzL+fN++WGn4tEgHgwm/4LXQmaC/Ay467+dRl+FdsgeTb7qYk7EU74HQCQLT
+KyJw/Llywrxu+qqze03nu64CxwQHWsNNHPDSZdwEOiWqL/uGI1NPdjcyj2gKXK7T
+JbkXKINTSNCmNA1SB8NaSaDKa6VW4RDFUYcIC3CKU3SveDxxPldmdH1SKRYKEbyq
+SZZmtPFO4SqZQ+GtL/m+Ry4C4GT7eTwJLDhZXd1PwwCpOaLhxgnh5k2d6FTsR6nc
+DoVM9fzmpKcn1yvCa+rpLwC3ctLU02F5j93bukdkHz/Rn3eaWur5eYsAkxe0ABW4
+BP/YozNMSiUPHMlZgSDsAML2K1l12M9fsEWaeo2+oljMtQznwriM2B5yFSzDZAgZ
+wOdQRhEBUQ1+ZcdOs/ouB49f
+=Bd3H
 -----END PGP SIGNATURE-----
 
---===============2059067053192033195==
+--===============1649898241097668563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb21a0a2efbe-f6243e678ab4.txt
+Content-Disposition: attachment; filename=revlist-57531d392198-5a6cc0cdb3b7.txt
 
+2569c7b8726fc06d946a4f999fb1be15b68f3f3c bpf: support access variable length array of integer type
+5ff54dedf35bfee7a16eb9f8fb7ecadf7d5564cb selftests/bpf: Add test to access integer type of variable array
+780c69830ec6b27e0224586ce26bc89552fcf163 Merge branch 'Access variable length array relaxed for integer type'
 990cbca00226ff15fa2b24caffd099d05f2e2395 Merge tag 'asoc-fix-v6.3-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 2ae147d643d326f74d93ba4f72a405f25f2677ea ALSA: hda/realtek: fix mute/micmute LEDs for a HP ProBook
 9e6ca3e6ff4a463454d35c8747aa08198628f4d7 Merge tag 'usb-serial-6.4-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
@@ -1074,12 +1077,9 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 91ec4b0d11fe115581ce2835300558802ce55e6c Merge tag 'mips_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-2eb1f5615fc52d0b5c5f8dd6d8e38b3a4b1c943e driver core: remove devm_device_add_groups()
-abf904450e67661294638d8dbc9d0d56183bab1e sysfs: do not create empty directories if no attributes are present
-9bad9323d76122bdd577ae70a04dd3e78e934950 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-221f65daea206412d0787a0c67e5fb3cf8a65869 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-226467c6994280d36064c30a4ceacb25890affc1 soundwire: sysfs: have the driver core handle the creation of the device groups
-a15a4d3aecfddf11442dd8bc01d4cea4e5dd3931 soundwire: sysfs: remove sdw_slave_sysfs_init()
-f6243e678ab40f945a9e07fa24f33c7ceb787627 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+9de619831e7e1291051d107bed1c5e93c41ab99a readfile: implement readfile syscall
+810163c9580fea9e04e623360a68e479cb5c4c55 arch: wire up the readfile syscall
+2b1ba0c475d2ad9223b7191b29991d67c7336702 selftests: add readfile(2) selftests
+5a6cc0cdb3b7a49e06d8bfc586719ef42238cf9c readfile.2: new page describing readfile(2)
 
---===============2059067053192033195==--
+--===============1649898241097668563==--
