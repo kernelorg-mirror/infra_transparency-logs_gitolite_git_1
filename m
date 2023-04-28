@@ -1,58 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6135290470415790233=="
+Content-Type: multipart/mixed; boundary="===============2443483805462420141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 28 Apr 2023 11:18:42 -0000
-Message-Id: <168268072236.6963.11647063667517514106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 28 Apr 2023 11:20:39 -0000
+Message-Id: <168268083900.9181.9889698830953767786@gitolite.kernel.org>
 
---===============6135290470415790233==
+--===============2443483805462420141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4ac199d969d5cff0099346a3fd18654648ba53d5
-    new: 81a0e96b543a83ad1cdf6665bbdd1342cf40a2e2
+  - ref: refs/heads/linux-4.19.y
+    old: 91ed867e7ad5722ce0b10b9faf0f527227048f37
+    new: 3ea9da44137b3577b0f510bbbf0f3aaf375fdf9a
     log: |
-         eda7e07a4efb4287d4aede8c7fb36bb5433a2aa4 5.15-stable patches
-         37e430ca96fffc1b25478dec3e9687c010f998c2 6.1-stable patches
-         81a0e96b543a83ad1cdf6665bbdd1342cf40a2e2 6.2-stable patches
+         30b7a7b1074f8928d5ff073cab1872956da514eb wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
+         54a6c7ba43a8a696cd88cdc0b28959327ec71c7b bluetooth: Perform careful capability checks in hci_sock_ioctl()
+         627fbc65a078d6842ca970974760d0db342915a8 USB: serial: option: add UNISOC vendor and TOZED LT70C product
+         3ea9da44137b3577b0f510bbbf0f3aaf375fdf9a Linux 4.19.283-rc1
          
 
---===============6135290470415790233==
+--===============2443483805462420141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682680721 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1682680720-1ff809de689934472885b093e03f65f44b97ffd4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682680838 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1682680837-f7108873614b29e51a8ded775552842d3efb64b9
 
-4ac199d969d5cff0099346a3fd18654648ba53d5 81a0e96b543a83ad1cdf6665bbdd1342cf40a2e2 refs/heads/master
+91ed867e7ad5722ce0b10b9faf0f527227048f37 3ea9da44137b3577b0f510bbbf0f3aaf375fdf9a refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLq5EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dK4QALQQk4nBwQ+zgEuOUdGN
-0Zk6l8ixxULXEjE82REJRm47R9GavSRQToO46LgaMDrEXqz/aIE1juSMPAv3tULM
-hXZNMhkAfEUeXDy9DMU5v/fm+so2yaC3NeshT5AqqG/eONlBYS9J23rZ9yPb8t3h
-rv10FuqY5GeAPN1/jWYEWXqXqeba/hD+bYUsLJEXx9MlClRFtpP0ZJpUncJSSIFK
-M02e1tbN34OibpgsOTSwre5/PsGoY1Rd91EORYw6S0Q4qijYw6y1oWd8jOh2qv0D
-/yM79rU7yiLxDT0hhSnftGVWNialZlDFuLjLLidIkvERsI8aqvovodBp1GgJT132
-29mMvPT14x9u29NSnrVvCrKTnoKW51nIkH6y85Tt2y32/eYhV1NydaaLHVJI7BDq
-JoXsYa8JMmyH7I+FNO3P48Tn/c7KvnTPh2oQxfg47I+uq2C6FYNGcqizzXJzaLM8
-mD1Qu/MqmfoZw32MJQ6fiZc78s3TlyfQfM7D92Yekayx7HWEyhLQKFtL1VSW+Z9Y
-4EXI/lr2id1VIIVN1R83TObuozGFHmE7K0hFC2C1iX5qYbIu34ZQi6260nA35QZ2
-Ojw9cDET69lczoQlXwCEvqdbD4jjyaBOKQAAn1uiiVA3SHMFt/8WUkCsmIV+WPiu
-oWsvwhgg1vFJffdniulCG8Lo
-=R6Qm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLrAYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gzgQAKeMJskTS2UMJQ6dAefH
+XDIZH256Khk/+sarM5ARc+wJGL0acYNUPyu5Sb/N0aJED8fLwwZSMpiWThg0rEOV
+mUaW4a6x3zDZfhTgUrhYoQt/5xB5B0f1WVWLl0PyPn1mXtnV3I3W3oNiBdg7tjRe
+nw8zFv9Sh8VEGFLAkF5NinTTsjiJJ03cVm2Hdriubi7+F7yLJQfqB7NOaUTg69GJ
+APrVllJziJ+72THs1z2M3OALSag6S93QoDyTTsGVOqZRMgNEqZOmmMPFVjPv1FZq
+YZ5Mp4F+Wl7df/H+d1GwumJq3rGgOxuuFQPuGZGRg0LD87uZta//4wxacuNXvkk1
+yACmLVcurYxnAM/mEC1/dhJqqDkek73ffMJB6ohG5D4nLBe3xBpNSBfD7wpWc4R2
+IhQHwzR0kS3sLAjp/ZSYbra/h53I66FSTjOeMgTzgqoTpfWoAH7CcgbnOOF3PH8r
+j3axBqYBebWqCWsPa5ARiflv95vnXHsArdJ4sQhEOaf2YDwAeJBL/rdmjX7AnkWh
+y5thqT6nCFjWhg4mP8wNM2kYnF56/ewP4MfbIIWxyclpus429C3I6BGwBWb+Qba8
+YmCUiyuKKOy/bEc7//lnMPJ6PqOK4oOczygRe05KCb+uy9uaRz7X2Lfapeq8N0Ut
+OG+Y8Xt8iVe+NNmEG2mU8hJd
+=xaCG
 -----END PGP SIGNATURE-----
 
---===============6135290470415790233==--
+--===============2443483805462420141==--
