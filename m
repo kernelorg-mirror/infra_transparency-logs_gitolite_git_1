@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4343349674491900791=="
+Content-Type: multipart/mixed; boundary="===============7600554196046939584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 28 Apr 2023 06:00:12 -0000
-Message-Id: <168266161237.7045.11283626782694512397@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 06:01:49 -0000
+Message-Id: <168266170945.7614.9926754818557748985@gitolite.kernel.org>
 
---===============4343349674491900791==
+--===============7600554196046939584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 53099e267a7e4f5ff17c742fc255266fc3ecb917
-    new: d807570514a3bacd8a1eee57e33f5d695472ac29
-    log: revlist-53099e267a7e-d807570514a3.txt
+  - ref: refs/heads/class_cleanup
+    old: e962187350a81f6d8e2471468743b99c2b81e6c5
+    new: 3e13b44726447d4efdc8c06f10dfb8a5df88f4ad
+    log: revlist-e962187350a8-3e13b4472644.txt
 
---===============4343349674491900791==
+--===============7600554196046939584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661609 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661706 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1682661608-e0fee10ff2e2b26b5020e9aa435d1299df1576de
+nonce 1682661706-6f8315cc8a9ada14a4e03836b555457f1f9c3f3b
 
-53099e267a7e4f5ff17c742fc255266fc3ecb917 d807570514a3bacd8a1eee57e33f5d695472ac29 refs/heads/bus_cleanup
+e962187350a81f6d8e2471468743b99c2b81e6c5 3e13b44726447d4efdc8c06f10dfb8a5df88f4ad refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYOkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+58YP/jzoh7Wxqriop3+PV0Jz
-FkcL5fB/oAwNhpiSxdJzlZp9tASjjZLauqF4wfp36CmI7hWepozf2pIORH8nY+sN
-RTzM7AOENeyT9hPXeo/921K/KQ/dJntJ8QgwgT1eF0bh/IvNWZMDoK/sGZAwPuxA
-qCuU/qb1FSdHOffz00cjaEeHropyvA9cgaXjEh36lS7J5oS1io3O8hz9EsDjNMe2
-pZUuqTNjGuQGlsb+9XgBtYd3QtqvUZ1JRON9mqIWBGyHtcIEpc6p3ewBC3MW7qLR
-Z2W8CbZag903Ofe58gqWidGolPtQ3zPd+C+8Ed7mjdclksHVYf2X5Hu/fEuiM73X
-UaVj/tVYTDS7wo240xvvD4jGWYPiwiwmQfCsEXf1y8dveddKrwsXbsR4fl+CAilR
-sTIsWRMbfE64qsiXS6bYrIkxqEB+RixU2Z2TlsfynEZMKcLVh2bJqyo7LAkx2HxP
-FvvIS0gBHVFeIbks8os+lhEMaB95SQpeVNxbwkg+q3T87WHNPE+8nbd4Qc8XG2ZB
-OD8qRdFP8o6HZPe500eOdhgGy/fuZjsVpj83iUgsFtwxdCGDOCvjO8Ig/pP35Rvp
-588xV2pKOreS+l6nek8Hc5PtWZ8mYkxhmLhX5gTZcmuBMiYnYYBxsdYTJo45a4/U
-cFo4HsFpHsvEfBb6NbJgssTb
-=Noqz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLYUobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NXMP/AtFQO72s2mFwHy3P5G+
+5svOxJ7LFEQhwM1sW4yU+6aqXRg4FJGX8z3nppKLlR+ibUqrAX+M2mqZT3WDonSb
+bsE8//oXiiuA+B01ZF+fOLd39n42SD3ci6z+zex+ijlQH5c0r1oE9kgAwmUMhMVz
+3RFCEQhv8W3Rbp1BC93WQaVrbMk2fdgavbsM33mTSmkC1KY68kkRNS+LWXSqDnEl
+R14hUYxFG5d2DT9vxGCK6i0yFEvrbU8iqMqBM/DGK90UP9Ld39snVcIdJOGfLcYA
+2975ScDIJyFurT1qgC8Us/Wdeg6FdSyWi0mW7t+5p26POfTcJHVuox/T+UFIMwsu
+0cKy148EJjHAiN8wSLruMFXjOPm3QmpvW0SGzPm5ORupZVLSZ0ZIo4hyo+904QOv
+zpMtyPeVSfmXvg3hd+9pL84OFd4xn0J1xwtZ0kh7EwMBdyQDc0XBH9LvIK+iZofC
+c5mKOE/aZIzSAA1aGCtH9CPdpugIWh5xA+r0hwPsuNjixkt7oYG0LZEPflLLmRsh
+msginjXoaeLPElQRT3dFyo4lZrF0c64Aan8xT2ZHDsnSRxH24a7qOd/hr9UOjENL
+GWxgG9NiYZuS+9Axjo4pZjyo0NkDdof1+z1uHsgivTqpnC/1V/nBvZOOu+v2dL9M
+4g/nztzXikH4YbM5yCpFv2zn
+=w8Hj
 -----END PGP SIGNATURE-----
 
---===============4343349674491900791==
+--===============7600554196046939584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53099e267a7e-d807570514a3.txt
+Content-Disposition: attachment; filename=revlist-e962187350a8-3e13b4472644.txt
 
 8ae56b4e82ee29b5cc1fbea8b00a0a7e0758f3c2 ext4: remove unneeded check of nr_to_submit
 17809d3cf801374d7c23101800770ea34951f3c8 ext4: remove useless conditional branch code
@@ -1080,6 +1080,6 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 91ec4b0d11fe115581ce2835300558802ce55e6c Merge tag 'mips_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-d807570514a3bacd8a1eee57e33f5d695472ac29 FIXME: driver core: platform: make platform_bus_type constant
+3e13b44726447d4efdc8c06f10dfb8a5df88f4ad driver core: convert class_create() to class_register()
 
---===============4343349674491900791==--
+--===============7600554196046939584==--
