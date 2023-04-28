@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7163748131675648181=="
+Content-Type: multipart/mixed; boundary="===============6467486848832225106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 28 Apr 2023 05:55:37 -0000
-Message-Id: <168266133768.2730.2242208562655868369@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 05:55:42 -0000
+Message-Id: <168266134209.2845.14317796186888972133@gitolite.kernel.org>
 
---===============7163748131675648181==
+--===============6467486848832225106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,56 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: eeac8ede17557680855031c6f305ece2378af326
+  - ref: refs/heads/staging-next
+    old: 3fac2397f562eb669ddc2f45867a253f3fc26184
     new: 33afd4b76393627477e878b3b195d606e585d816
-    log: revlist-eeac8ede1755-33afd4b76393.txt
+    log: revlist-3fac2397f562-33afd4b76393.txt
 
---===============7163748131675648181==
+--===============6467486848832225106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661337 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682661341 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1682661336-032948b35dd3435d0f9495b82da87f90f30c095d
+nonce 1682661340-0eefad2a3785e42a4a71285b686ccc551bcd5050
 
-eeac8ede17557680855031c6f305ece2378af326 33afd4b76393627477e878b3b195d606e585d816 refs/heads/staging-linus
+3fac2397f562eb669ddc2f45867a253f3fc26184 33afd4b76393627477e878b3b195d606e585d816 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLX9kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F+8P/jNr2/ft0sJWGDrJSZl1
-c6Wf0p3D8z30Ef0fT2rMoGkNK6716RwmBYqhgBELIReLXgTSkUi9x/MqTjr9YVDp
-Te0rcGMBbwOQ3Nmm9RGsj6N/eNtM2GgGzI5PrLiZVm4YUH7b8FMQseUbI8/72O9R
-Pp3KPmpUQBaagxWVBkJIJguO1wjPE4MKVwoYfSUeo7p+2PSZgVMZD79dlixuiNmC
-OoUyN/ZPVCjT8+3zo3V6E4TCt7N+CyfPr8wB2OcDXHt45SFPIMOlBDniWnDicC2P
-/8Na+NnGU0MhWhzxK6rNrgd6DatM+Z5AdS+6ASBkD8/MuCKTNnckedPC9XTDO4z4
-Q7jj00Bn0LYYH1vVUFxU0W6DG2y/X51EKqsLbjgO7RilhDavmFHJRQFRgKqy74rf
-9bevQM7+TSf1e6vU4MiCeTNGRibsyxNIpkPk8sBUQk667rI4zi+6dkXVYuEuhY99
-3tmvpEf1gqL0XXFKO9rgGH8dmgSFt4RErS72C9S5UIAMb8A7y3DUi4L3zyCBPZmK
-PKc8rz19RdEjthIcUAKDnE+0sA4guzjEwqAsnjDV3ZEbmhWCm4iQ/XQxqDVhlcIs
-jUgs6DlO9djCGnzKOjjWHx3XcWr3iP20PQWM/ZIX0kRjO6qADIXf8fV15wno2ZE+
-5sSCTwNQUJsFV4bFxWdXFbuq
-=Uupr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLX90bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lbYP/1paE7MVE9di2etP1i3x
+87PRJy+zVPgC7XkRakQa6IK+JHrqq8bByo3rFVYEVYp6pHw3hWwKS09iHLqnKJ1v
+UJxq2uqddNIK2Q7ey/lCOyUQhqvHq62oXWBD0angohIrCiOUUsQa9knW1slFEtcR
+uLnmGjDewu3exb4Qmk6Wqv+gIUTkc23xTGJp1ecqoe9FmV2acxo51Wjc2qQoZEpH
+C8jSykQDPNGmEsovyhjaZi6R8+ykH5+A0lhwS4LPdv9UEK7tieiYsLYe8vyWfVSi
++BQwsJgpL7VBvTYGCoSBDV0ee3/umIDsJudSy00sDw+MFzaaY2OM0rE0nMkOY0NG
+9JtDHr5i9+zOXrLRr7GMEesItunmqar79WlavXrAHyHWrJ+vjzx+OMoJdNha4CO3
+eoHp6NDcwMK5zRyt60PoYfga8P7op3Bd3YTV1TJCLxq6RtO0TxWAj0aajKqODjYA
+/IB0ilhlASF9ck3yDDe2EtwXJil9NJS/VyPA0srlHEhk0q3p6SGhfbfP3VOrq9Xm
+hOZKAStl6VLIGl7J0NECFzW1gOXElHvNTjrqqVfXl2A0JJb70iIRq0XLQ6b7WPha
+K5QdTVRXf9F61Aoy4wy4Rocl5g+SuWTdzAQsdEZrlE+0vIPePF+lGx0fjETgtnRt
+QoMga/LdGzZ/8Fil1yAFtl3f
+=5pvP
 -----END PGP SIGNATURE-----
 
---===============7163748131675648181==
+--===============6467486848832225106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeac8ede1755-33afd4b76393.txt
+Content-Disposition: attachment; filename=revlist-3fac2397f562-33afd4b76393.txt
 
+3e9c0700bf42b6170ae6b6e616cdc2e75a21b506 net: micrel: Update the list of supported phys
+84ce730f82dfe62f6f3e76b059ce0f7178322fb9 dt-bindings: net: ethernet: Fix JSON pointer references
+f1836a424518a09b17ee2b69e81e9477321a0aff Merge tag 'ipsec-next-2023-04-19' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+2bc42f482bedeafdbe70804fd82bdbf8f7e28b00 .gitignore: Do not ignore .kunitconfig files
+3b3009ea8abb713b022d94fba95ec270cf6e7eae net/handshake: Create a NETLINK service for handling handshake requests
+2fd5532044a89d2403b543520b4902e196f7d165 net/handshake: Add a kernel API for requesting a TLSv1.3 handshake
+88232ec1ec5ecf4aa5de439cff3d5e2b7adcac93 net/handshake: Add Kunit tests for the handshake consumer API
+a5962e0a8b7b0da2350b4baeefaf7dfa3377bc89 Merge branch 'another-crack-at-a-handshake-upcall-mechanism'
+f52cc627b832e08a7bcf1b7e81e650ec308fe1d8 Revert "net/mlx5: Enable management PF initialization"
 e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __copy_user_nocache()
 8ae56b4e82ee29b5cc1fbea8b00a0a7e0758f3c2 ext4: remove unneeded check of nr_to_submit
 17809d3cf801374d7c23101800770ea34951f3c8 ext4: remove useless conditional branch code
@@ -193,15 +202,6 @@ dc5a3e60a4b5974a0cb5bf2c5df70a490dce9df2 ASoC: Intel: sof_sdw: append codec type
 2cc3fdcddc86644c070223c522e418416cb7b1a2 ASoC: es8316: Don't use ranges based register lookup for a single register
 a9e42d9e8b4be36a1e0dde0285a9ff36b2e06a46 ASoC: cs35l56: Remove duplicate mbox log messages
 be3206e8906e7a93df673ab2e96d69304a008edc spi: cadence-quadspi: use macro DEFINE_SIMPLE_DEV_PM_OPS
-8020247877ebdf40416cb24bdfc47cba6c499412 staging: rtl8192e: Remove unchanged variable RegRfPsLevel
-88b81bddf1f3c2b4b23c687e27a5b6e0a6a63795 staging: rtl8192e: Remove unused function rtl92e_disable_nic
-b0e60e96afa0719afddd483d9492a11851c2d9cf staging: rtl8192e: Remove unused macro RT_SET_PS_LEVEL
-bfc1bb7866f8c91ae829eadbc1bc7c81b5f6f623 staging: rtl8192e: Remove second initialization of bActuallySet
-93bf41cc8afbcc2988be881c4bb569fe9a8c36e1 staging: rtl8192e: Remove set to true while true of bfirst_after_down
-dc8aaa4f327b17603165c0b6f8d40f297f5f94c0 staging: rtl8192e: Remove unchanged variable chan_forced
-548534d95b1dd7f9a51ac0ce06f1435be1e8ca33 staging: rtl8192e: Remove unchanged variable frame_sync_monitor
-4de65f2b975fc0eb17629242db09e5895003edbe staging: rtl8192e: Remove unchanged variables bfsync_processing and more
-3fac2397f562eb669ddc2f45867a253f3fc26184 staging: rtl8192e: Fix W_DISABLE# does not work after stop/start
 2b3174c96696cde676393474f0e01d0d108462f5 n_gsm: Use array_index_nospec() with index that comes from userspace
 6f36ff32809aeaa7276d5f663d7adf9298a8bf5c MAINTAINERS: w1: add Krzysztof Kozlowski as maintainer
 22ab6c515d9602e5ddf41998ce5352e8887f4543 dt-bindings: w1: Add DS2482/DS2484 I2C to 1-W bridges
@@ -1082,4 +1082,4 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============7163748131675648181==--
+--===============6467486848832225106==--
