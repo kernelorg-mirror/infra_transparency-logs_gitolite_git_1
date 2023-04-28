@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 28 Apr 2023 16:17:30 -0000
-Message-Id: <168269865077.11846.17301402586697157422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Fri, 28 Apr 2023 16:22:02 -0000
+Message-Id: <168269892237.14808.10024171006801884062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: 852cb0657feeb6edef0aec191b104f19d90d8b00
-    new: 90a7f29b4961b8d58e2bf1ee6a64c97bb74ee926
+  - ref: refs/heads/md-next
+    old: 8954851c1cf45538d2f2d12e1fbfc8e525bec54c
+    new: b1211978ecf19bceb63a04f53fea4b5d73832a4a
     log: |
-         43104966c33500e7603ac9bdb53008d955441d29 toolsoftrade: Use description list
-         90a7f29b4961b8d58e2bf1ee6a64c97bb74ee926 toolsoftrade: Add section titles of 'API Members'
+         daf376a366fd2d469d66ab83dfdc074777462bab uapi nbd: improve doc links to userspace spec
+         2686eb845da7762ee98b17e578b0c081aafb77b9 uapi nbd: add cookie alias to handle
+         bd9e9916c32fd4b4fb4e879e05bd1568ee02ec93 block nbd: use req.cookie instead of req.handle
+         952aa344bf4305ab6fa0d9962ef8c2caa2afef4c docs nbd: userspace NBD now favors github over sourceforge
+         fc05e06e6098ca2c28f7a10da0e00aeea20fa59e md/raid5: Improve performance for sequential IO
+         b1211978ecf19bceb63a04f53fea4b5d73832a4a md: Fix bitmap offset type in sb writer
          
