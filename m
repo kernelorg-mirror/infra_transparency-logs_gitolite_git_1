@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6535335027127335017=="
+Content-Type: multipart/mixed; boundary="===============8551556324297817577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 28 Apr 2023 05:26:02 -0000
-Message-Id: <168265956283.14401.11498722723529331262@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 05:26:08 -0000
+Message-Id: <168265956891.14485.14184634344199337281@gitolite.kernel.org>
 
---===============6535335027127335017==
+--===============8551556324297817577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,77 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a042d7feae7eff98a9ad5a9de5004e60883a96d3
+  - ref: refs/heads/char-misc-next
+    old: 2025b2ca8004c04861903d076c67a73a0ec6dfca
     new: 33afd4b76393627477e878b3b195d606e585d816
-    log: revlist-a042d7feae7e-33afd4b76393.txt
+    log: revlist-2025b2ca8004-33afd4b76393.txt
 
---===============6535335027127335017==
+--===============8551556324297817577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682659562 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682659568 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1682659560-7b9b007a392b69eca8fec0e9e6354195c28c04fe
+nonce 1682659566-f1cfc969357bd04111ff5ee3b3e0a46bb355f805
 
-a042d7feae7eff98a9ad5a9de5004e60883a96d3 33afd4b76393627477e878b3b195d606e585d816 refs/heads/char-misc-linus
+2025b2ca8004c04861903d076c67a73a0ec6dfca 33afd4b76393627477e878b3b195d606e585d816 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLWOobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KX4P/i4BX0ZJ5YmhWtnpq77y
-3WBYwfwrZil5avrVezjMpKgNiSP0HuZiVlaUiV+7tH3hsZ/IXUhhbjyutYpHjy8/
-PoDmTfpnG4Vf0HAMeNfKxNOtZ+Gi9sBjHmDHCSLpWKYoP4F54UPwpKlsXojLnl4B
-KOofY9hm61BQ2lM1xX6k1juEm8eX695cbCn7EBbGvC3XAzWj5rXbW7BIFDOD4Cni
-j1ihDFBFn+XtmRYUtsh3ZiHAiBr5XPD6z2ugIGA/EyhUn1E6gVwGr7GIYzLYWM4n
-WbVHvJFGhNdF8JgBSpt2NgaH5XWJBo9Qs+antWsrxG7ijwPGahHK7vzHxHDwqKSc
-vdJG898P8N8naWp0bptoogbTDXu7ZqBxa+d9CeNGGW6SmdKxHleoMcUiTf/fol6g
-gZ6p45iM9yfVGyM9j2hVoNUIWRSKST7r0vLYcEPguaQlGXdJe0qul/u1oJT34oyS
-kwLbAS7Rig8N681lZTx/fFZbhiG1kv7M4WvvmsaWdPzGUoTg2m+r0Ckat7TwUAAz
-VqPcTLqLgCRAcduNVHItv9oYTxwgNrFmj1hWYoaxIUlkLoB7yCbOF7JyLq7Ukbxu
-m8PtFnwn2yW8NnwxfpN/4YdX0JT3eD2HLvFFBw8bMzVhHQZOOUcz3OvkbQNF2NAY
-3HI5H9Kw6Yaijz2h3ZyWsnvS
-=o1oE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRLWPAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cykQALOTZGEolgdKnL8GeOlt
+WXs8sPWS2/XhwBI7P/Bm3r2NzSt0lVi0S4jU89r4V3yEDJib5tic6NzGECZWu/B8
+iLJzLzBABO0S9cJmlmbgBVtlnNXCjFvhtkasXs9bgZycjiTAUl/uCQpUBvo8Bz7y
+3CyFnXkulDHVTFl2+xR9Y2IyF7eMlIrBn90ej4JLrG+6s4cdRoZOZnUqX7LJnbhH
+TtawWKDFe+ujM8Dy5Gcl84VxShPc7oLTS68dSe+LrG2PNsEY3CUc1kqPu/hv8fuh
+CYw20XIxBciYluK9IEq6iDx5szwDuLce8FCDyBVST8ZT030NrjxnZ2n4Njy1R6io
+f3HnBwJ5AvAM+XSpgI4+GDiLIq5+qvEjKDAR5GxsF7qgQWH+It+Q2TXyzli59O1O
+lbYPVeJHw+NDsMQzUk8qCMlBavB2YlStYi5k10JUlhI0aGInpsKAG34swCHrIF1R
+uXO70Vne5lMYtBkM3aSGJzCo8/Zz4SUBexVPNT1zF48eSt6ENQrnoJIflYNcju/R
+g5feRGmJY9mvXgXc1FREAHLzWjw5VPkq0nt61c5nLnMANkt0VHTn1QVv6BTnQ8xK
+vI9CHxwhkOWEgHLuAB1f36AiXfKmoP5/jKmGMSrkKvPGH3SZ85fvwvBAYzwEeJun
+dioiUd2akne2RxYcDMnPM3GC
+=ukov
 -----END PGP SIGNATURE-----
 
---===============6535335027127335017==
+--===============8551556324297817577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a042d7feae7e-33afd4b76393.txt
+Content-Disposition: attachment; filename=revlist-2025b2ca8004-33afd4b76393.txt
 
+8e4c62c7d980eaf0f64c1c0ef0c80f5685af0fb6 page_pool: add DMA_ATTR_WEAK_ORDERING on all mappings
+3d2f8f1f184c60508f7af3022536651d7ac2dd07 net: dsa: microchip: ksz8795: Correctly handle huge frame configuration
+38f1aa5566730cdc5e09ec982c80489d87f0f0a7 Merge tag 'spi-nor/for-6.4' into mtd/next
+7227aacb62aeb59b007a6d3489b11f78fa332696 Merge tag 'nand/for-6.4' into mtd/next
+0a7eee89e79eb8b97d46e1e0001b9e2709795af5 rpmsg: glink: Transition intent request signaling to wait queue
+c05dfce0b89e3b58043805b6f4bdf30e3561d867 rpmsg: glink: Wait for intent, not just request ack
+7a68f9fa97357a0f2073c9c31ed4101da4fce93e rpmsg: glink: Propagate TX failures in intentless mode as well
+ba7a4754da1092decbeea3b29bf7d5946f1be400 rpmsg: glink: Consolidate TX_DATA and TX_DATA_CONT
+9e05a2599a37295eb2dc5c03441daa6741abed4b sed-opal: geometry feature reporting command
+72b4fb4c883d5deac74f5267e486f5dee1bffd5f Merge tag 'regulator-fix-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+23990b1affd2dc8f5e59048d4d4bef05f6e1c544 Merge tag 'spi-fix-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+8660484ed1cf3261e89e0bad94c6395597e87599 module: add debugging auto-load duplicate module support
+91daa4f62ce878b6e1ac5908aceb83550332447f net: dsa: mt7530: fix support for MT7531BE
+8c154d272c3e03b100baaf1df473f22a78fa403e bnxt_en: fix free-runnig PHC mode
+67d47b95119ad589b0a0b16b88b1dd9a04061ced e1000e: Disable TSO on i219-LM card to increase speed
+cb0856346a60fe3eb837ba5e73588a41f81ac05f Merge tag 'mm-hotfixes-stable-2023-04-19-16-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+7b97174d0ef798ba7f802c07527ae378923e5ebc Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+7b3aba7ea336d069b30b91502d47792c280bae2b mailmap: add entries for Mat Martineau
+52b37ae8aa6797a8183e8554672797045e81d9ae MAINTAINERS: Resume MPTCP co-maintainer role
+9d94769081a65aacd54552dbdeeca2544f70442b Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+43bb6100d8d5871d211196034042308c1b1d69c3 net: stmmac: dwmac-meson8b: Avoid cast to incompatible function type
+3e9c0700bf42b6170ae6b6e616cdc2e75a21b506 net: micrel: Update the list of supported phys
+84ce730f82dfe62f6f3e76b059ce0f7178322fb9 dt-bindings: net: ethernet: Fix JSON pointer references
+f1836a424518a09b17ee2b69e81e9477321a0aff Merge tag 'ipsec-next-2023-04-19' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+2bc42f482bedeafdbe70804fd82bdbf8f7e28b00 .gitignore: Do not ignore .kunitconfig files
+3b3009ea8abb713b022d94fba95ec270cf6e7eae net/handshake: Create a NETLINK service for handling handshake requests
+2fd5532044a89d2403b543520b4902e196f7d165 net/handshake: Add a kernel API for requesting a TLSv1.3 handshake
+88232ec1ec5ecf4aa5de439cff3d5e2b7adcac93 net/handshake: Add Kunit tests for the handshake consumer API
+a5962e0a8b7b0da2350b4baeefaf7dfa3377bc89 Merge branch 'another-crack-at-a-handshake-upcall-mechanism'
+f52cc627b832e08a7bcf1b7e81e650ec308fe1d8 Revert "net/mlx5: Enable management PF initialization"
 e1f2750edc4afebb966a229b797fc89b98ee6098 x86: remove 'zerorest' argument from __copy_user_nocache()
 8ae56b4e82ee29b5cc1fbea8b00a0a7e0758f3c2 ext4: remove unneeded check of nr_to_submit
 17809d3cf801374d7c23101800770ea34951f3c8 ext4: remove useless conditional branch code
@@ -114,7 +144,6 @@ df05a9b05e466a46725564528b277d0c570d0104 USB: sisusbvga: Add endpoint checks
 76e31045ba030e94e72105c01b2e98f543d175ac media: radio-shark: Add endpoint checks
 460e70e2dc9af3128f69e533daf349635c421b0a arm64: delete dead code in this_cpu_set_vectors()
 b7b4ce84c830ae3ce6429fbbd70a62a4ae1ac78d arm64: kexec: include reboot.h
-e1d6ca042e62c2a69513235f8629eb6e62ca79c5 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
 c5050696588660226fe6cc90a360b62d52a87e32 wifi: iwlwifi: Update support for b0 version
 3d90d2f4a018fe8cfd65068bc6350b6222be4852 wifi: iwlwifi: fw: fix memory leak in debugfs
 7b41a99ce2d494d01e8fcb25e7113f143a0f2155 wifi: iwlwifi: mvm: fix MIC removal confusion
@@ -203,37 +232,8 @@ dc8aaa4f327b17603165c0b6f8d40f297f5f94c0 staging: rtl8192e: Remove unchanged var
 4de65f2b975fc0eb17629242db09e5895003edbe staging: rtl8192e: Remove unchanged variables bfsync_processing and more
 3fac2397f562eb669ddc2f45867a253f3fc26184 staging: rtl8192e: Fix W_DISABLE# does not work after stop/start
 2b3174c96696cde676393474f0e01d0d108462f5 n_gsm: Use array_index_nospec() with index that comes from userspace
-6f36ff32809aeaa7276d5f663d7adf9298a8bf5c MAINTAINERS: w1: add Krzysztof Kozlowski as maintainer
-22ab6c515d9602e5ddf41998ce5352e8887f4543 dt-bindings: w1: Add DS2482/DS2484 I2C to 1-W bridges
-58ecb03fc74a5ec4b8c8222c5b4bac572a264c47 w1: ds2482: add i2c id for DS2484
-45c85d974f60aa519769c1933859e84aa96fa3f1 w1: ds2408: drop kerneldoc annotation
-a866ce3b4fde3d0fb399cb5a81fd12cc3ff6e5c1 w1: ds2433: correct kerneldoc annotation
-a2809664ca296ca89c6c8cc52ce728c1088d5af1 w1: ds28e04: correct kerneldoc annotation
-ad9c36be1f78f2990310cdcf902eba64cd2b2cf3 w1: minor white-space and code style fixes
-921e0f2fb09d8decfa8f19eae01f0b68e322363e w1: use octal for file permissions
-39bbfdacaebbe2576fb0f591e218e76a117886cf w1: ds2433: do not use assignment in if condition
-076909c24ffa747a56d9c0167c74ee167dd81cd1 w1: ds2482: drop unnecessary header
-787e19ae1fa96cfbbb943e647253e966b4d53407 w1: ds2482: do not use assignment in if condition
-01bc199b42594e31e5c4fe335f4feb40f976db1f w1: matrox: switch from asm to linux header
-115ddc758bfbd24e077e2e96b307d174622e1584 w1: matrox: use inline over __inline__
-4f4129e4e28fb5f5e84a2d9719666968049d95e3 w1: matrox: remove unnecessary ENOMEM messages
-0cb90771913922e4b34c296e96d80d451766d942 w1: omap-hdq: allow compile testing
-752144d8939a5b303b753da8528e14d14c2a235c w1: omap-hdq: add SPDX tag
-1e5d6652154aca23da856ac7926f23217239ea60 w1: omap-hdq: remove unnecessary ENOMEM messages
-4ccb0fc2a212d11e5491a4a1e705d6d84463c3a5 w1: gpio: remove unnecessary ENOMEM messages
-15f44da0ab041e6f4d2218468eec792ebfa25665 spmi: hisi-spmi-controller: Convert to platform remove callback returning void
-75fbbd8b53b46fa1c36d055854d7c0c849abf9ff spmi: mtk-pmif: Convert to platform remove callback returning void
-019fe19bd4079bc9775fb034e49da68b1b8db06a spmi: pmic-arb: Convert to platform remove callback returning void
-77982a7f4970dcabf4bbcbcae9d1dc85a731ce6b spmi: mtk-pmif: Drop of_match_ptr for ID table
-80c606a842e6b6b6f4a2b53a734a9d3be2cdddff spmi: fix W=1 kernel-doc warnings
-b56eef3e16d888883fefab47425036de80dd38fc spmi: Add a check for remove callback when removing a SPMI driver
 e2f06aa885081e1391916367f53bad984714b4db driver core: Don't require dynamic_debug for initcall_debug probe timing
 11a96703943fc4293f50f554b9e33c79ef4f5d8d driver core: update comments in device_rename()
-32118bdc9471f6d28dbf3d55b2bf0f912be0c62b virt: acrn: Replace obsolete memalign() with posix_memalign()
-4daa669efcfa5147e4bd5ecb3f1e10c0c96eef27 kernel/configs: Drop Android config fragments
-a889c276d33d333ae96697510f33533f6e9d9591 mcb: Return actual parsed size when reading chameleon table
-9be24faadd085c284890c3afcec7a0184642315a mcb-pci: Reallocate memory region to avoid memory overlapping
-2025b2ca8004c04861903d076c67a73a0ec6dfca mcb-lpc: Reallocate memory region to avoid memory overlapping
 046b6a171009e1ed9ede02194025e9ccd709beb2 device property: make device_property functions take const device *
 eaddda248483ff78c4d26f1bf420e5f2af436a74 wifi: rtw89: mac: use regular int as return type of DLE buffer request
 f0e741e4ddbc01610ca87167a123702b3fdac51f wifi: rtw88: add bitmap for dynamic port settings
@@ -1082,4 +1082,4 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============6535335027127335017==--
+--===============8551556324297817577==--
