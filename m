@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 28 Apr 2023 08:51:54 -0000
-Message-Id: <168267191489.26487.13363374799132518286@gitolite.kernel.org>
+Date: Fri, 28 Apr 2023 08:53:56 -0000
+Message-Id: <168267203684.27158.1550057515572285232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: c88f8d5cd95fd039cff95d682b8e71100c001df0
-    new: 46ef24c60f8ee70662968ac55325297ed4624d61
+    old: 46ef24c60f8ee70662968ac55325297ed4624d61
+    new: dc6456e938e938d64ffb6383a286b2ac9790a37f
     log: |
-         46ef24c60f8ee70662968ac55325297ed4624d61 selftests: srv6: make srv6_end_dt46_l3vpn_test more robust
+         dc6456e938e938d64ffb6383a286b2ac9790a37f net: ipv6: fix skb hash for some RST packets
          
