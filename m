@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 29 Apr 2023 18:34:09 -0000
-Message-Id: <168279324985.24443.12017498424322050221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 29 Apr 2023 18:53:24 -0000
+Message-Id: <168279440427.5674.1978321964775680552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/kvm-arm64/nv-trap-forwarding
-    old: 8187a4250074e2563d95056c036bd9473d997172
-    new: c1a7319dcdd3fb3a9c0336a37c3386c4e09897aa
+  - ref: refs/heads/riscv,isa
+    old: 14b0e1eb1dd127869d0d571d6ef94aae08e2b2aa
+    new: a6d50673b1fae4197696f5c81b36d1190e4c52fa
     log: |
-         6238a4016199e4dd8e5de0ea65d2cd0ebefdf39c fixup! KVM: arm64: Map HCR_EL2 trap bits onto the sysregs they trap
-         c1a7319dcdd3fb3a9c0336a37c3386c4e09897aa WIP
+         687791f0d778098182f3ecea6bdc403e02824bed dt-bindings: riscv: explicitly mention assumption of Zicsr & Zifencei support
+         7df6e34b412e3a17968384a6664c440a6c4aa675 RISC-V: fix \ alignment in SET_ISA_EXT_MAP macro
+         a6d50673b1fae4197696f5c81b36d1190e4c52fa RISC-V: rework comments in riscv_fill_hwcap()'s parser
          
