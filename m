@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 28 Apr 2023 23:44:48 -0000
-Message-Id: <168272548859.12531.5151733604689946121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Sat, 29 Apr 2023 00:04:44 -0000
+Message-Id: <168272668476.26059.16767440371251932652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/todo
-    old: 3c458ad37697396dc3cc35bb194da2ac49cb9fc7
-    new: c8bd5503acc9605a7f4671f3dee361bc26da5ff0
-    log: |
-         c8bd5503acc9605a7f4671f3dee361bc26da5ff0 What's cooking (2023/04 #09)
-         
+  - ref: refs/heads/shstk-reorder
+    old: 0000000000000000000000000000000000000000
+    new: 97740266de26e5dfe6e4fbecacb6995b66c2e378
