@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 29 Apr 2023 18:31:57 -0000
-Message-Id: <168279311713.23661.17508447448147103877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 29 Apr 2023 18:34:09 -0000
+Message-Id: <168279324985.24443.12017498424322050221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: b5f58b807c7cd17c809f35534f78887bdd0609da
-    new: a237509ac8348da44d715a6ca34d7c62bc0eb6c6
+  - ref: refs/heads/kvm-arm64/nv-trap-forwarding
+    old: 8187a4250074e2563d95056c036bd9473d997172
+    new: c1a7319dcdd3fb3a9c0336a37c3386c4e09897aa
     log: |
-         a237509ac8348da44d715a6ca34d7c62bc0eb6c6 Sat Apr 29 06:26:41 PM UTC 2023
+         6238a4016199e4dd8e5de0ea65d2cd0ebefdf39c fixup! KVM: arm64: Map HCR_EL2 trap bits onto the sysregs they trap
+         c1a7319dcdd3fb3a9c0336a37c3386c4e09897aa WIP
          
