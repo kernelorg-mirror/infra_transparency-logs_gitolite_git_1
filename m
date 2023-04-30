@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sun, 30 Apr 2023 19:01:29 -0000
-Message-Id: <168288128934.1734.4106803707329178271@gitolite.kernel.org>
+Date: Sun, 30 Apr 2023 19:14:02 -0000
+Message-Id: <168288204254.8594.267283970055727276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
   - ref: refs/heads/riscv,isa
-    old: 64eeddea757d5463b547d6615270638f2165180a
-    new: d1452b8c1287163c0fc5d6f78a776021d9b78bba
+    old: d1452b8c1287163c0fc5d6f78a776021d9b78bba
+    new: 19f15e35c8fa4c4d9b6614a7082cda194feb9031
     log: |
-         de70e6dc36d126a4b2afc9a8af062efc4eaa2e8f RISC-V: rework comments in ISA string parser
-         d1452b8c1287163c0fc5d6f78a776021d9b78bba RISC-V: remove decrement/increment dance in ISA string parser
+         19f15e35c8fa4c4d9b6614a7082cda194feb9031 dt-bindings: riscv: clarify what an unversioned extension means
          
