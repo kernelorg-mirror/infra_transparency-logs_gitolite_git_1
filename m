@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3866541866535119155=="
+Content-Type: multipart/mixed; boundary="===============5889088220352698019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 30 Apr 2023 23:24:18 -0000
-Message-Id: <168289705830.13984.11675463251183496341@gitolite.kernel.org>
+Date: Sun, 30 Apr 2023 23:24:23 -0000
+Message-Id: <168289706327.14059.14669261600902954918@gitolite.kernel.org>
 
---===============3866541866535119155==
+--===============5889088220352698019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: f48aeeaaa64c628519273f6007a745cf55b68d95
-    new: 8a7f2a5c5aa1648edb4f2029c6ec33870afb7a95
-    log: revlist-f48aeeaaa64c-8a7f2a5c5aa1.txt
+  - ref: refs/tags/v5.15.110
+    old: 0000000000000000000000000000000000000000
+    new: 1b1c5f7e87dec87c7a2733e8ebe05d6ee8f85705
 
---===============3866541866535119155==
+--===============5889088220352698019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682897057 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1682897062 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1682897054-0f55c75aa69625056075d3113e5d3cbe93fa3b0e
+nonce 1682897059-71add49d09ce65001a8d7d9e58fd1027c87ebab6
 
-f48aeeaaa64c628519273f6007a745cf55b68d95 8a7f2a5c5aa1648edb4f2029c6ec33870afb7a95 refs/heads/linux-5.15.y
+0000000000000000000000000000000000000000 1b1c5f7e87dec87c7a2733e8ebe05d6ee8f85705 refs/tags/v5.15.110
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRO+KEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1NUP/3vQ3kjCMObv0D1wtwb/
-WKFQk9XLKpXizqMpIDZxJVYk6R9Tej8fqAHts+Ux7QH9cYX5E/h1uIG9O5SpHi2B
-Pc3v+v7Bf4oicWWU4hnnjNMgNkCbZPyzuSP7h+UmoPJ2rN31qBYRR99t3JOOcebd
-/7+hDmv71Xpjahqpom00jYpOGhybT6t+gwFzAXvNrEFOwmyatxudBvy745O7mcTK
-xo2FubHKXOuQ2vpY2e6I0vNeFlMoyJhuSda2iS/fOdMNq8iPdrz+j4MSYJt5phSQ
-cBX9dOUoj3eODS8j07M28tlHhnKTwghopbFpb5kFx2VnDHwjIhMT1d7cKupVNW74
-ekx9+nBWtdIpKB7Y0yY5K5YPYxmXPVH7iYAr08qb64dQAlJDgmLu9rt4cqP8UpWL
-Mbwh/SM5epGO3s5vfs94PRYBx/YWOenvgttNtVB6PMVl+FraCTHXkpaJnl4JpFb8
-rlDpLy/kHhhhT/wmUZAAshB+FUioZZ1EfllVVEYTUr5Ss+uDf0abwucYEClHEFkg
-CtDqOOAyoFYrOPVNnuJrJ9DyqH5BW8wx2Vh0eose2Z/fDTU1HtM2fZc7UTEUsNpX
-Osu+mt7YyvaQ67FRFf2W8PGVMSbY5AR4QGFrSXnBrdMs5tnpMqqm92BmketXQacE
-81VzMjPapNzUjUTeBk8N0q8Y
-=rjDA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRO+KYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vd4P/jmDEBcHkAyFcVCsaBVR
+gSOwZfTsWET9IXSJFuvgiPgwAFmR6glYaGfPfaC9XvIevrIauLLMCt8vvKNkXMh7
+o8iizr9iAgSkCH7dAe88xpHfQ+Q6pws/ctgah9jUYi4cf/aGxQa+ghKdMp4D/6ut
+IV49MK6OD34OEJTDrBAql7UxnUCDZFuG7FkSxeGFSreo1zJeKqzXm4WrQv8c0LX5
+/99yLXkeTllY4Ze5d25ExO7nGSxAJ7SPVj7LLHGoQoMQhzl+hk8kHdKHpyQp/Pss
+OjtvvKhI8mhNUjbEsnU2aLdzeImRFdRc2OmKy8wd9dPF0dmq8TUbEhykmMGWibw0
+T6q0msxCUjEPrFmYR13/qahGrODOzL/ypC8t6N2aLejJkgCJDgq1QGHIhcg5Uc96
+XgSOBpGEoK7qIIJ/e6t2AT589urxqQJf7EKg9BjdObE2ib+v31WWr1cmnOGIGPKv
+asOfXkDLEEPigzDD7dFBLPojIPMwsFemISWxaEtbDn7t0U+8ghyigQmdIED6fEmU
+iiP7dX83A6bAnhnWaBigC6OYc3qTfVTnE1O+ch/VSPvfjr98TpnKdT7CxmkkK8Rm
+OvAAkU022vPYng6o3+HnTEZYgeRWWmg0L/sgiduXhmt20czXWKXzTKbssDZeTtHO
+1Wv40pl7AShPvshlHgR6Jipq
+=broM
 -----END PGP SIGNATURE-----
 
---===============3866541866535119155==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f48aeeaaa64c-8a7f2a5c5aa1.txt
-
-c88435054153007cd9384294cd9a19cce8afa7df PCI/ASPM: Remove pcie_aspm_pm_state_change()
-c1da649699e14cc89b396f9c84ac9ceaec889a71 selftests/kselftest/runner/run_one(): allow running non-executable files
-00f74003edf54f653624e8f1a0dc8670def9b141 KVM: arm64: Retry fault if vma_lookup() results become invalid
-2bd716c6e4d1011af3d4164e854228cd2da92ee0 KVM: arm64: Fix buffer overflow in kvm_arm_set_fw_reg()
-936a23293bbb3332bdf4cdb9c1496e80cb0bc2c8 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-39c472809aab15180bcbc51b87cd64a86b911ffb drm/fb-helper: set x/yres_virtual in drm_fb_helper_check_var
-f1e6a14d5ae879d6ab6d90c58d2fde1b5716b389 bluetooth: Perform careful capability checks in hci_sock_ioctl()
-3dcebcaa258c40cd3de7aed5a2a3a2ac64ac6440 USB: serial: option: add UNISOC vendor and TOZED LT70C product
-0994aa001fde56d6fb4286c2493ea10b0e9a8de8 driver core: Don't require dynamic_debug for initcall_debug probe timing
-ccb29694c2daf66697d7bcb4752b7c8e5f477ac8 selftests: mptcp: join: fix "invalid address, ADD_ADDR timeout"
-bbf94b04215517c681b3df7c7a8ab48cbb2540a1 riscv: Move early dtb mapping into the fixmap region
-1f09c9bab723bcf1e94693257be6121ce925266d riscv: Do not set initial_boot_params to the linear address of the dtb
-cab0f985037bac355bff851c61706d48eea09c8b riscv: No need to relocate the dtb as it lies in the fixmap region
-8a7f2a5c5aa1648edb4f2029c6ec33870afb7a95 Linux 5.15.110
-
---===============3866541866535119155==--
+--===============5889088220352698019==--
