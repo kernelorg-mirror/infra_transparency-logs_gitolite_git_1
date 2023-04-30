@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 30 Apr 2023 18:27:19 -0000
-Message-Id: <168287923998.11165.4597625721110196941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sun, 30 Apr 2023 19:01:29 -0000
+Message-Id: <168288128934.1734.4106803707329178271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 5473763ad65216f859d0ba779e4f2013a3bd66f4
-    new: 6529aafd189f715dc7b9035984564fb8ae4a699b
+  - ref: refs/heads/riscv,isa
+    old: 64eeddea757d5463b547d6615270638f2165180a
+    new: d1452b8c1287163c0fc5d6f78a776021d9b78bba
     log: |
-         6529aafd189f715dc7b9035984564fb8ae4a699b together/refcnt: Use \qco{} for code quoting
+         de70e6dc36d126a4b2afc9a8af062efc4eaa2e8f RISC-V: rework comments in ISA string parser
+         d1452b8c1287163c0fc5d6f78a776021d9b78bba RISC-V: remove decrement/increment dance in ISA string parser
          
