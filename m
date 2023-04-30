@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0527626604650069928=="
+Content-Type: multipart/mixed; boundary="===============8241785158111350714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sun, 30 Apr 2023 22:01:39 -0000
-Message-Id: <168289209947.23032.2748334380155073182@gitolite.kernel.org>
+Date: Sun, 30 Apr 2023 22:01:51 -0000
+Message-Id: <168289211171.23181.2473785737561804823@gitolite.kernel.org>
 
---===============0527626604650069928==
+--===============8241785158111350714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: f31dcb152a3d0816e2f1deab4e64572336da197d
-    new: 50d21bf6811d6a091174cb13a4e7ad4566da7323
-    log: revlist-f31dcb152a3d-50d21bf6811d.txt
+  - ref: refs/heads/perf/core
+    old: 743767d6f6b8f28228be181fe369657f7ecd1eb2
+    new: 4dfbedaebc04e0c01d3ceafed14a62c97ccbfedd
+    log: revlist-743767d6f6b8-4dfbedaebc04.txt
 
---===============0527626604650069928==
+--===============8241785158111350714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f31dcb152a3d-50d21bf6811d.txt
+Content-Disposition: attachment; filename=revlist-743767d6f6b8-4dfbedaebc04.txt
 
+e4ab7680bb0c97656300cc77c79d85d445769d00 crypto: x86/sha256 - Use RIP-relative addressing
+1d4b0ff30c2d698c9755bf52d20c073d46bca025 crypto: x86/aesni - Use local .L symbols for code
+9ac589cf3cdf2344a5240d7df04ccb37070d7e96 crypto: x86/crc32 - Use local .L symbols for code
+94330fbe082acfd7ac9f2a348933944ba78b14dc crypto: x86/sha - Use local .L symbols for code
+ae131f4970f0778f35ed06aeb15bde2fbc1d9619 crypto: api - Add crypto_tfm_get
+3c3a24cb0ae46c9c45e4ce2272f84f0504831f59 crypto: api - Add crypto_clone_tfm
+ed3630b83e9394acef27041de7a2223f1e875e9a crypto: hash - Add crypto_clone_ahash/shash
+8538e60d36d0c683d59eaeabea19f101a6cf1c66 crypto: hmac - Add support for cloning
+0303b7f5df603b91bc12e39c9309c094816ba6a9 crypto: cryptd - Convert hash to use modern init_tfm/exit_tfm
+cfbda734d6678047fd3beb1f67d9682825773341 crypto: cryptd - Add support for cloning hashes
 ba24b8eb3ef676cb7d6cef4a2a53f3624f880d42 crypto: testmgr - Add some test vectors for cmac(camellia)
 9c716e1bd369afa2d1c5038297e8ceda3f82db7d crypto: p10-aes-gcm - Remove POWER10_CPU dependency
 1560541631a6f3215d27aeea182a5682644d33ba powerpc: Move Power10 feature PPC_MODULE_FEATURE_P10
@@ -412,7 +422,10 @@ e239e31ae8026b85e225941eb3f2cd7deb24f0d1 net/mlx5e: Fix FW error while setting I
 45fd01f2fbf1119d083931b095ad6d0f13443d0e net/mlx5e: Refactor duplicated code in mlx5e_ipsec_init_macs
 156c93986d940e0c55a9aec8b77387f7bb4eb790 Merge branch 'mlx5-ipsec-fixes'
 dfc39d4026fb2432363c0f77543c4cf3adca4c7b net/packet: support mergeable feature of virtio
-743767d6f6b8f28228be181fe369657f7ecd1eb2 perf/x86/intel/uncore: Add events for Intel SPR IMC PMU
+5a4d3b38ed0cd5bbb03eccea6d9949136abc45c3 Merge branch 'v6.3-rc7'
+223baf9d17f25e2608dbdff7232c095c1e612268 sched: Fix performance regression introduced by mm_cid
+feffe5bb274dd3442080ef0e4053746091878799 sched/rt: Fix bad task migration for rt tasks
+f31dcb152a3d0816e2f1deab4e64572336da197d sched/clock: Fix local_clock() before sched_clock_init()
 d6e28695dcb6f653c7f2adf38021a5e934a6f416 ASoC: fsl: imx-es8328: cleanup platform which is using Generic DMA
 2324bc107b0b3d2de351f35032dc5093cbb61493 ASoC: fsl: imx-spdif: cleanup platform which is using Generic DMA
 3ce08f85133fc93278801aba3efb4548d3ef3ca0 ASoC: fsl: imx-audmix: cleanup platform which is using Generic DMA
@@ -1036,19 +1049,6 @@ d579c468d7ad6e37f5b4290b0244a9a5a7d3c4bf Merge tag 'trace-v6.4' of git://git.ker
 70cc1b5307e8ee3076fdf2ecbeb89eb973aa0ff7 Merge tag 'powerpc-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b23c1376db2dbbf784906bbcc8db81c304fa76a7 Merge tag 'm68knommu-for-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 89d77f71f493a3663b10fa812d17f472935d24be Merge tag 'riscv-for-linus-6.4-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-b19ee06cddb980ec7f3ed883b23873c6637a6782 sched/fair: Move is_core_idle() out of CONFIG_NUMA
-71ccde737325c1c867010e63adedebc103897e69 sched/fair: Only do asym_packing load balancing from fully idle SMT cores
-af22ebd2b6c677df427196649318931ec44f304c sched/fair: Simplify asym_packing logic for SMT cores
-074ea1f03fb1da1c07b12d190e167f22f7d20873 sched/fair: Let low-priority cores help high-priority busy SMT cores
-6235e4ba3e1392db35ff1ea5e7e01a32beefa3c8 sched/fair: Keep a fully_busy SMT sched group as busiest
-9d393b33665139a5253718964da0a44b6943bfca sched/fair: Use the busiest group to set prefer_sibling
-344d198e279eb2c91f048348a42dfb8e370a8c0c sched/fair: Do not even the number of busy CPUs via asym_packing
-da21725351e364dc423a961e3b45eb0e85df43c6 sched/topology: Check SDF_SHARED_CHILD in highest_flag_domain()
-cfdf5c4fd106e1eed541c74eb19bf4bfa466e7f0 sched/topology: Remove SHARED_CHILD from ASYM_PACKING
-d469e77e9e0f02344a0715366620780cf3462896 x86/sched: Remove SD_ASYM_PACKING from the SMT domain flags
-0324b62a64d0a8566943138debbb77b50fd2d74b x86/sched/itmt: Give all SMT siblings of a core the same priority
-cad0e3813488453c927d362bd75797cd75d28bf8 x86/sched: Add the SD_ASYM_PACKING flag to the die domain of hybrid processors
-f00d7cde01cc9bfcb49db3f7fdb7f4a3c3fd4a65 sched/fair: Record the average duration of a task
-50d21bf6811d6a091174cb13a4e7ad4566da7323 sched/fair: Introduce SIS_CURRENT to wake up short task on current CPU
+4dfbedaebc04e0c01d3ceafed14a62c97ccbfedd perf/x86/intel/ds: Flush PEBS DS when changing PEBS_DATA_CFG
 
---===============0527626604650069928==--
+--===============8241785158111350714==--
