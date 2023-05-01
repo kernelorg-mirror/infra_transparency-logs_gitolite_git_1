@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Mon, 01 May 2023 04:29:17 -0000
-Message-Id: <168291535773.28979.3467758320802565652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 01 May 2023 06:27:27 -0000
+Message-Id: <168292244733.9518.6932621539063697008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 6529aafd189f715dc7b9035984564fb8ae4a699b
-    new: 2f9575ba5d95442eb0685d342f3946433aba1966
+  - ref: refs/heads/main
+    old: 6686317855c6997671982d4489ccdd946f644957
+    new: 526f28bd0fbdc699cda31426928802650c1528e5
     log: |
-         d49c6c51bb9085a0a05acf5fb1e5f51de822087e defer/rcu: Wordsmith Butler Lampson RCU classification
-         2f9575ba5d95442eb0685d342f3946433aba1966 defer: Add lead-in list of mysteries
+         526f28bd0fbdc699cda31426928802650c1528e5 net/sched: act_mirred: Add carrier check
          
