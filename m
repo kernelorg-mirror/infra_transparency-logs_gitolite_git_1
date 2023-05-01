@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4868776199438664525=="
+Content-Type: multipart/mixed; boundary="===============4326343192973512406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 01 May 2023 03:48:07 -0000
-Message-Id: <168291288740.463.18360256568154556996@gitolite.kernel.org>
+Date: Mon, 01 May 2023 03:49:05 -0000
+Message-Id: <168291294542.869.8007102672517275971@gitolite.kernel.org>
 
---===============4868776199438664525==
+--===============4326343192973512406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/kbuild
     old: 9892bd72efdc9daa7c07ca9f427ac7e5928c7704
     new: 58390c8ce1bddb6c623f62e7ed36383e7fa5c02f
     log: revlist-9892bd72efdc-58390c8ce1bd.txt
 
---===============4868776199438664525==
+--===============4326343192973512406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d55571c0084465f1f7e1e29f22bd910d366a6e1d Merge tag 'kbuild-v6.4' of git://git.ke
 7acc1372113083fa281ba426021801e2402caca1 Merge tag 'cxl-for-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 58390c8ce1bddb6c623f62e7ed36383e7fa5c02f Merge tag 'iommu-updates-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 
---===============4868776199438664525==--
+--===============4326343192973512406==--
