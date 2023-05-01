@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 01 May 2023 14:36:41 -0000
-Message-Id: <168295180182.24112.18311661108307702339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 01 May 2023 14:50:32 -0000
+Message-Id: <168295263262.1412.6517772240658936880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 9280c577431401544e63dfb489a830a42bee25eb
-    new: 7f9a97674a86d13b7918930f6764990edf9db0a4
+  - ref: refs/heads/fixes-togreg
+    old: 1668697aec406b7ffd181ebda52fcb7f724af954
+    new: 8555f098f7f985e49a0ba54c29f0d0402d92758c
     log: |
-         7f9a97674a86d13b7918930f6764990edf9db0a4 SUNRPC: Avoid relying on crypto API to derive CBC-CTS output IV
+         8555f098f7f985e49a0ba54c29f0d0402d92758c iio: adc: palmas: fix off by one bugs
          
