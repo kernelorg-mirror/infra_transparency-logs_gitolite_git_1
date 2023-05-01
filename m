@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 01 May 2023 22:29:48 -0000
-Message-Id: <168298018878.10901.15122351350768135897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 01 May 2023 22:37:17 -0000
+Message-Id: <168298063775.16337.16004982732034518671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dt/header-cleanups
-    old: 30f28b8f0603c0a64a3ad25f09b11c5fe9aa580b
-    new: 34ab035cf8c37588331031cac8fc0dd07f15f3cc
+  - ref: refs/heads/master
+    old: c39028b333f3a3a765c5c0b9726b8e38aedf0ba1
+    new: 577c34b3be6e55ade4e0391022b9a539b20d77c5
     log: |
-         23496cc222294cb10cd0a3601c443f75a5016ad6 Use of_device_get_match_data
-         894dc706a2551a50b00384fe3e2d34b47bbaaba4 DT include cleanups
-         34ab035cf8c37588331031cac8fc0dd07f15f3cc of: header cleanups
+         0a5c0de8b66f9789422f04de7304e374a2ea8df5 selftests/bpf: Extract insert_test from parse_test_list
+         64276f01dce85f72853617e513622b5645497d81 selftests/bpf: Test_progs can read test lists from file
+         577c34b3be6e55ade4e0391022b9a539b20d77c5 Merge branch 'selftests/bpf: test_progs can read test lists from file'
          
