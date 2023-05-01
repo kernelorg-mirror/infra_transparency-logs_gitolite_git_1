@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 01 May 2023 15:40:14 -0000
-Message-Id: <168295561484.1906.4310398441350436122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 01 May 2023 15:51:42 -0000
+Message-Id: <168295630226.9807.12311208975337579631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dt/header-cleanups
-    old: d03f4bcb40575c1caf4deb8072eb2f9486e51b25
-    new: 7637af07fc9dd17bd0f6c2df329ea6da853c0e38
+  - ref: refs/heads/fixes-togreg
+    old: 689129e9a856f73ff8a9fd3ffb15526e1607f59f
+    new: 7fcbd72176076c44b47e8f68f0223c02c411f420
     log: |
-         89b23784420744468035a86bbdc3e751c3bcddc1 edac: highbank: Fix DT includes
-         908fc0f6a255fa97ae9d45530f33b424dea1f4f3 genalloc: fix DT includes
-         86671662a0e9c3e83897935ceec70d9b7d69d16a Use of_device_get_match_data
-         5ce570a526b09019ad78395df8a36b90b0c51374 DT include cleanups
-         7637af07fc9dd17bd0f6c2df329ea6da853c0e38 of: header cleanups
+         7fcbd72176076c44b47e8f68f0223c02c411f420 iio: adc: ad7192: Change "shorted" channels to differential
          
