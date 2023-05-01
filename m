@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Mon, 01 May 2023 12:40:32 -0000
-Message-Id: <168294483253.10424.17176693614761386857@gitolite.kernel.org>
+Date: Mon, 01 May 2023 12:42:24 -0000
+Message-Id: <168294494449.11087.8000396540168790484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,8 @@ repo: pub/scm/utils/pciutils/pciutils
 user: mj
 changes:
   - ref: refs/heads/master
-    old: 10add64069d23c3fdbff60d537cd8d7e4a5dfa53
-    new: 6bdf89d5dc329ded9e9b8e5d349455943bb4c7bb
+    old: 6bdf89d5dc329ded9e9b8e5d349455943bb4c7bb
+    new: 6e7664636fcd5053032b37bd2fbc902357e1267b
     log: |
-         3d7466ef8545d37a4666e185a9f5d65ceb9c8af4 Makefile: change STRIP to '--strip-program' when cross-compile
-         f0aa3a466bc73d24d71dae7811cb673297fda752 lspci: Fix bridge filter support in tree view
-         ab614cc001989681f336ea38ce3b658930db2fa7 Merge pull request #140 from pali/ls-tree
-         6bdf89d5dc329ded9e9b8e5d349455943bb4c7bb Merge pull request #137 from jiladahe1997/master
+         6e7664636fcd5053032b37bd2fbc902357e1267b lspci: Allow longer name strings
          
