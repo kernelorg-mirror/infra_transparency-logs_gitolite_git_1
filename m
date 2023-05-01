@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 01 May 2023 16:03:06 -0000
-Message-Id: <168295698698.16369.18124205093051019135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 01 May 2023 16:19:26 -0000
+Message-Id: <168295796696.25859.18401983249514005445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/testing
-    old: aef6b26d83e2bb421c1d1d673ef06be04a732eb5
-    new: dbff148a8495c71fa2f498248f0ca75dddeffcf7
+  - ref: refs/heads/master
+    old: 2f9575ba5d95442eb0685d342f3946433aba1966
+    new: dcdf71f858533f37019413fb9d4aed4dc54da950
     log: |
-         1621c66ddf3f8f6a7856623981337853b3169753 iio: buffer: fix coding style warnings
-         dbff148a8495c71fa2f498248f0ca75dddeffcf7 dt-bindings: iio: adc: Require generic `channel` name for channel nodes
+         dcdf71f858533f37019413fb9d4aed4dc54da950 defer/whichtochoose: Make paragraph consistent with table
          
