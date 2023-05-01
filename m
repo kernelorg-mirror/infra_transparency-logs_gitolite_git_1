@@ -1,110 +1,135 @@
-Content-Type: multipart/mixed; boundary="===============0221013743483782536=="
+Content-Type: multipart/mixed; boundary="===============5729233509785852371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 01 May 2023 20:50:33 -0000
-Message-Id: <168297423334.11800.5987361282775565288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 01 May 2023 21:24:02 -0000
+Message-Id: <168297624277.743.10429499374039613795@gitolite.kernel.org>
 
---===============0221013743483782536==
+--===============5729233509785852371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-greg/4.14-203
-    old: 2c902db68f0e44dc72f77f85126d6d2592de3488
-    new: 67ead856efe7a81e02b7fa0204e34f7e767e32f3
-    log: |
-         67ead856efe7a81e02b7fa0204e34f7e767e32f3 Bluetooth: L2CAP: fix "bad unlock balance" in l2cap_disconnect_rsp
-         
-  - ref: refs/heads/for-greg/4.19-203
-    old: 1981a420d8adb0a00a939820db79954826f8dedd
-    new: 1b5ebfc0a261b091e56de139df7aaa3a8e01d837
-    log: |
-         1b5ebfc0a261b091e56de139df7aaa3a8e01d837 Bluetooth: L2CAP: fix "bad unlock balance" in l2cap_disconnect_rsp
-         
-  - ref: refs/heads/for-greg/5.10-203
-    old: 7083f39eb244e11cae2bd8d2df61001ecacb40e0
-    new: cd73a329710fe827f6c84de75beaa808e7c0561f
-    log: revlist-7083f39eb244-cd73a329710f.txt
-  - ref: refs/heads/for-greg/5.15-203
-    old: 792812784fb64b89858131f4e799483161d2d6ed
-    new: 063fb862fd3b81bf30a1fbe536f2b2c6f3eb479a
-    log: revlist-792812784fb6-063fb862fd3b.txt
-  - ref: refs/heads/for-greg/5.4-203
-    old: f28aba2657535c2b615b37eb624937905024262c
-    new: 5b4d9f918cbb13379beb4f5b8ec7d781a3be785e
-    log: |
-         01606925ae1aa35fed461c1fce8da3d4013b4929 wifi: iwlwifi: dvm: Fix memcpy: detected field-spanning write backtrace
-         5b4d9f918cbb13379beb4f5b8ec7d781a3be785e Bluetooth: L2CAP: fix "bad unlock balance" in l2cap_disconnect_rsp
-         
+  - ref: refs/heads/next
+    old: e96c925001b196247b94383a62a3b9781b57df80
+    new: 52730fcaaa866384777ffbadb4069b2c8ee354a6
+    log: revlist-e96c925001b1-52730fcaaa86.txt
+  - ref: refs/heads/seen
+    old: 7f475acf2d703851a7809bd39fed7f19a6e2a6f0
+    new: ac5303b69795d8ee0816a7d8b524a37694515bf2
+    log: revlist-7f475acf2d70-ac5303b69795.txt
 
---===============0221013743483782536==
+--===============5729233509785852371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7083f39eb244-cd73a329710f.txt
+Content-Disposition: attachment; filename=revlist-e96c925001b1-52730fcaaa86.txt
 
-c384e063f6a32717f241ac3087c40b9547fd7c48 wifi: brcmfmac: cfg80211: Pass the PMK in binary instead of hex
-454566f6b5c0c0ebc8360f988d07061eae84ac81 ext2: Check block size validity during mount
-dfb1298338afeb77c90eb9ce34c45c06b8fe7823 scsi: lpfc: Prevent lpfc_debugfs_lockstat_write() buffer overflow
-3faf5e170fb7eed480d1bca032439bfd462a4f97 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-2a227618c3d8b82508ff927dd5dc68ca5dc6f04f net: pasemi: Fix return type of pasemi_mac_start_tx()
-5f9027bef5ec0d2f638f0523e7bcd20e2b3247f1 net: Catch invalid index in XPS mapping
-a30e348b71e9cdb0f58f11c517dbee043f026456 scsi: target: iscsit: Free cmds before session free
-95bcc3be8dbf82b165661c57935abd356a5aa372 lib: cpu_rmap: Avoid use after free on rmap->obj array entries
-f0a100497ba83214c77cb6ef2db6e8d7f95b31a3 scsi: message: mptlan: Fix use after free bug in mptlan_remove() due to race condition
-109306cfa046fbbd96d90b3bf78161f2aaed05fa gfs2: Fix inode height consistency check
-95693f219f659c10c6fb6242b8f302098d10e8ad ext4: set goal start correctly in ext4_mb_normalize_request
-c2d5bca4daf9997945d3e05eaaf5ab2b0d89429c ext4: Fix best extent lstart adjustment logic in ext4_mb_new_inode_pa()
-64de2c6dcee63c6c3bc46dc367b473baf969ff50 f2fs: fix to drop all dirty pages during umount() if cp_error is set
-e2a5518a86cb08648663c68305e4f1e65046188f samples/bpf: Fix fout leak in hbm's run_bpf_prog
-c57921d3bff5908b52e858000212b4a7793fa721 wifi: iwlwifi: pcie: fix possible NULL pointer dereference
-b158d24879a896314ae9b2fe7f530cbefe6c24fd wifi: iwlwifi: pcie: Fix integer overflow in iwl_write_to_user_buf
-934596dff5127e0425ca93cbe848b1770b4b789e null_blk: Always check queue mode setting from configfs
-f6cd0bd0e6d25dbf07d6fe0aa4aa3d2bf6b9187c wifi: iwlwifi: dvm: Fix memcpy: detected field-spanning write backtrace
-35e04ac667ac128c3b536cb32ff67de964374767 wifi: ath11k: Fix SKB corruption in REO destination ring
-99886c641b0c25e116d896d9473d822be020f9b1 ipvs: Update width of source for ip_vs_sync_conn_options
-e5dd0d921eb31c498f8feba1ae0ce69fc73af5a9 Bluetooth: hci_bcm: Fall back to getting bdaddr from EFI if not set
-cd73a329710fe827f6c84de75beaa808e7c0561f Bluetooth: L2CAP: fix "bad unlock balance" in l2cap_disconnect_rsp
+69a63fe663874716d2b5bf49b90c550f8279358e treewide: be explicit about dependence on strbuf.h
+cb2a51356d3019582128a818aea533ccd11f42c0 symlinks.h: move declarations for symlinks.c functions from cache.h
+0ff73d742b40bc85966d5b7dcc28f438910f771c packfile.h: move pack_window and pack_entry from cache.h
+623b80bef2431f2f0dc550dda9da5cb633c606fd server-info.h: move declarations for server-info.c functions from cache.h
+d5fff46f4025e23ec61b9d74eac2bb19e7a2385d copy.h: move declarations for copy.c functions from cache.h
+9b5041f647fa5d9921b9b4f8be6b36cb39591166 base85.h: move declarations for base85.c functions from cache.h
+b388633c5c47bf4fc12560d8b237ec0bd319ba4a pkt-line.h: move declarations for pkt-line.c functions from cache.h
+d4ff2072abed071bc9fd291d179162da46d1427f match-trees.h: move declarations for match-trees.c functions from cache.h
+641223137b6d78fa78946f09b472093a117dc04c ws.h: move declarations for ws.c functions from cache.h
+3467663d47a56f9debd86cae75963eee023b3b89 versioncmp.h: move declarations for versioncmp.c functions from cache.h
+592fc5b3495bf4ff17252d31109f1d9c0134684b dir.h: move DTYPE defines from cache.h
+23a517e4156714c3f8c8a4e36beccfee1d76ff1f tree-diff.c: move S_DIFFTREE_IFXMIN_NEQ define from cache.h
+d1cbe1e6d8a9cab2b4ffe8a17d34db214dce1e49 hash-ll.h: split out of hash.h to remove dependency on repository.h
+aabc5617cdfb29ccf98048b0d99cae2a811df51f cache,tree: move cmp_cache_name_compare from tree.[ch] to read-cache.c
+53dca334d6c56488994c0c80a247707419cddbfc cache,tree: move basic name compare functions from read-cache to tree
+5e3f94dfe3c69bc2a711a9dc3b1635e7ff91ab54 treewide: remove cache.h inclusion due to previous changes
+4c98cb8e355d51520cb56ef8bdcbe9f23c55a114 cache.h: remove unnecessary headers
+e1c382141d8072b8c8c07c0bd8265b2b3d01ae2b fsmonitor: reduce includes of cache.h
+d4a4f9291d63b48b368f79bce3151bee9ca28009 commit.h: reduce unnecessary includes
+e3d2f20e6f14d3cba641a365a733a615278e9e5e object-store.h: reduce unnecessary includes
+0e312eaa12c03043b0ef23021a5a820567ee0efd diff.h: reduce unnecessary includes
+e3a3f5edf52c7f6161b167058b4d7c3a31dc0c3b reftable: ensure git-compat-util.h is the first (indirect) include
+d45cbe3fe0e68253934cfdea4a960705fdb07852 sequencer: actually translate report in do_exec()
+b734fe49fddb4bbd02f471fa3b11d3605bd6921d messages: capitalization and punctuation exceptions
+839ebad442e686c8c23a758f05e8e0b3d1b71c19 send-email docs: Remove mention of discontinued gmail feature
+8bb19c14fb38645ad708d97b06664bf1a736c02f t/t3501-revert-cherry-pick.sh: clarify scope of the file
+722c41291533fdd38e6d14119ea6ec10af3cbbfb Merge branch 'en/header-split-cache-h-part-2' into next
+242ca8ce151c9a2aa71d428668d371d3e07df7db Merge branch 'ob/sequencer-i18n-fix' into next
+db0ef42b3a8c810e6d38308ab3671c40187da478 Merge branch 'ob/messages-capitalize-exception' into next
+cb5d83ee920aca81679424108101eb267f862862 Merge branch 'jw/send-email-update-gmail-insn' into next
+52730fcaaa866384777ffbadb4069b2c8ee354a6 Merge branch 'ob/t3501-retitle' into next
 
---===============0221013743483782536==
-Content-Type: text/plain; charset="us-ascii"
+--===============5729233509785852371==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-792812784fb6-063fb862fd3b.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-7f475acf2d70-ac5303b69795.txt
 
-05d350b4b6f7831a0f8a97fd0bd6338bc3a6209e wifi: brcmfmac: cfg80211: Pass the PMK in binary instead of hex
-5b7331fe89f1d92005e68c9a9592667abb4cfd7b ext2: Check block size validity during mount
-28689ef438207d34273ef21aac19b24c35e886a1 scsi: lpfc: Prevent lpfc_debugfs_lockstat_write() buffer overflow
-b5213ff47ecd22f310d98d8048352602c5492fb9 wifi: brcmfmac: slab-out-of-bounds read in brcmf_get_assoc_ies()
-777300df005cd817efcef77e7c9d40cf5ee3e015 bnxt: avoid overflow in bnxt_get_nvram_directory()
-b459f16d374b2ed22bd0f73e36de423c70d8f1c0 net: pasemi: Fix return type of pasemi_mac_start_tx()
-38aac786606d85ff2c4fb2c412083d0991e67b79 net: Catch invalid index in XPS mapping
-4488cc7e85e2fc60b3d764cd1f0bbab95e2f3232 scsi: target: iscsit: Free cmds before session free
-ab3091f5bc7aaaf9834ddafc53948417d6356fc5 lib: cpu_rmap: Avoid use after free on rmap->obj array entries
-7e51bdbdeba5fcaf7546a23036018cf9418b4fb9 scsi: message: mptlan: Fix use after free bug in mptlan_remove() due to race condition
-bf9a79b10d15460ebebe23dc1247d371c9f1ce9a gfs2: Fix inode height consistency check
-8528b8b3307a7cb0a15b490e4af5d7668f2a5cee scsi: ufs: ufs-pci: Add support for Intel Lunar Lake
-e081a61f33e1f33cc958b7fc97d72ff0dd270c3e ext4: set goal start correctly in ext4_mb_normalize_request
-92f38a6d23413224e591e58a1fa2275c09085399 ext4: Fix best extent lstart adjustment logic in ext4_mb_new_inode_pa()
-20d874d9cf425f9ab9d14da7ad8250e85d7db163 f2fs: fix to drop all dirty pages during umount() if cp_error is set
-bca83dfa11f301a3813380b9f4839410ecc44d85 f2fs: fix to check readonly condition correctly
-f79e0d238c5a6b2358786b9b91ede47657d7b84a samples/bpf: Fix fout leak in hbm's run_bpf_prog
-4250e51fa19290eed449eee4e560df9ef50fb647 bpf: Add preempt_count_{sub,add} into btf id deny list
-9e9704463aff2c32ff088b82abecd5ff18217c56 wifi: iwlwifi: pcie: fix possible NULL pointer dereference
-806a96d05e3d369edf88e796763d8bc8464babf0 wifi: iwlwifi: pcie: Fix integer overflow in iwl_write_to_user_buf
-719d265963902c199fbcee6b940500c51cd7c14a null_blk: Always check queue mode setting from configfs
-b61d59531b9c00150917568ebfa714483a001848 wifi: iwlwifi: dvm: Fix memcpy: detected field-spanning write backtrace
-a8c0bb97d6926636b7ec5d1fe2be8b781351ea2b wifi: ath11k: Fix SKB corruption in REO destination ring
-8420d0b80dd9e41092adde73af22fd6e92aa4f28 nbd: fix incomplete validation of ioctl arg
-45b5cf4491c7f9a3080e22c04be72cf9353f1295 ipvs: Update width of source for ip_vs_sync_conn_options
-751d8c1ae6e4f9b052df7a025e094b4b51ebdd11 Bluetooth: btintel: Add LE States quirk support
-502f12e349402fc68fa2623190474a9e00d3116f Bluetooth: hci_bcm: Fall back to getting bdaddr from EFI if not set
-063fb862fd3b81bf30a1fbe536f2b2c6f3eb479a Bluetooth: L2CAP: fix "bad unlock balance" in l2cap_disconnect_rsp
+2543eca0245dc3802b8c26a51a12ced7c83c6fd9 upload-pack: advertise capabilities when cloning empty repos
+a5a547916e16353c3e97ab85dc6e89f9b5f97137 Merge branch 'ek/completion-use-read-r-to-read-literally' into jch
+74f8354b8b001395b727bce8d481cecd7655f35c Merge branch 'en/ort-finalize-after-0-merges-fix' into jch
+1d3f0a9e075130738a3bd488a0075c5d16e17e1d Merge branch 'jk/misc-null-check-fixes' into jch
+fc26996c208de38dd5e2ca528f0e83f648a52b2f Merge branch 'jk/blame-fake-commit-label' into jch
+736b17398c2019ccc5cdeebe36fbbc51bb602216 Merge branch 'tb/ban-strtok' into jch
+b4b3f1332144d3fb37fab18dc0bc4e902e303e22 Merge branch 'jk/parse-commit-with-malformed-ident' into jch
+907a19d4056b3d8ab12db2815f25028daff5dcca Merge branch 'mh/fix-detect-compilers-with-nondigit-versions' into jch
+608fdb2c78a60a048be62ec135ca5214c2357d8c Merge branch 'pb/complete-and-document-auto-merge-and-friends' into jch
+c85c2968c5597b53e5a337401eca4f28204a3758 Merge branch 'en/header-split-cache-h-part-2' into jch
+bc92be1e0bcd7fc4feacfa054d2eebf9fae4581b Merge branch 'ob/sequencer-i18n-fix' into jch
+2687a984c90d5cb48aa1a7f369c1131f2b84171e Merge branch 'ob/messages-capitalize-exception' into jch
+da771dc4a980cf0bdbb7e6ebb8617bdb807debca Merge branch 'jw/send-email-update-gmail-insn' into jch
+3e235b0d7f283f12fdebcf4acf368501cc6998a5 Merge branch 'ob/t3501-retitle' into jch
+2968bef58b5b330de5cb898f46fc6f0cfb3de62a ### match next
+c1d10fca6628b106fdd825eda6b4b2d231df7515 Merge branch 'rs/test-ctype-eof' into jch
+a59363c0ba35c3a679cf5ccfe7736973aa22ac77 Merge branch 'tb/credential-long-lines' into jch
+22afcb1272367a93947a7df3e3698756f458529b Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
+0456766f421a1b9d533215ad56fd2981fbbec31b Merge branch 'mh/credential-password-expiry-wincred' into jch
+033664b3b81383c785172280f925f5eda1e106f4 Merge branch 'jc/doc-clarify-git-default-hash-variable' into jch
+4ecfa854cfefd882f9b2aba4e1dbb40326674325 Merge branch 'tl/notes-separator' into jch
+eceb3c983cebd8e44d4fd081cbab9e3a1765dc03 Merge branch 'ah/doc-attributes-text' into jch
+796776b0b9d30b03fb8f621bf5a0f4888b75dcd3 Merge branch 'jc/attr-source-tree' into jch
+c4d1f657149e1854a5ec536515626d8cbe0749ab Merge branch 'mc/send-email-header-cmd' into jch
+3be15835ad04d52d977c8d01506c870b610528ee Merge branch 'mh/credential-oauth-refresh-token' into jch
+a9b3e12f518da1a25de033f85ef9cc509516e373 Merge branch 'mh/credential-password-expiry-libsecret' into jch
+c8081c862f49847db64f9b47b0348355c6e346dc Merge branch 'gc/doc-cocci-updates' into jch
+c7f33a26117eb3811e9159d8822e01a4fc53ab73 Merge branch 'ar/config-count-tests-updates' into jch
+0a917c6df19c4261194eb0e84e1d53fce284aa39 Merge branch 'ma/gittutorial-fixes' into jch
+f7b5259d7bcbb69857d74d58ce28cb160a840c30 Merge branch 'pw/rebase-i-after-failure' into jch
+20253581d69c335c56f0de9a6cfee84e229bce95 Merge branch 'ps/fetch-output-format' into jch
+ecb81be23a0a57c56d016cd16fe176a29dff27d3 Merge branch 'hx/negotiator-non-recursive' into jch
+d1e3c4e2a04df17e089aec012b157fe66d6a8604 Merge branch 'tb/pack-bitmap-traversal-with-boundary' into jch
+2753d9153d922e2992f4f8419496916a0b747f29 Merge branch 'sl/diff-files-sparse' into jch
+5f7c61b1e236e6d7f590547140c8d342c2e22a76 Merge branch 'sl/sparse-write-tree-part-2' into jch
+11004ae647520d9784fbe4228fc30989c80231ef Merge branch 'ar/test-cleanup-unused-file-creation-part2' into jch
+3be87c3b23e6e73af5e718016bdca4a665de1155 Merge branch 'ob/revert-of-revert' into jch
+2ebd9e5ab547f2ac5a34e9abca772135f46f4f74 Merge branch 'bc/clone-empty-repo-via-protocol-v0' into jch
+e35f202b4503256db148ad61487fe13aa75960f2 setup: trace bare repository setups
+cdcf0ad3d980676933a80b32c4f65d78bea355f7 fsck: verify checksums of all .bitmap files
+2bb0314655837fd5f874adc4ca14abf15dce0801 fsck: use local repository
+ad811212c6eb92730f20b0b5d99b980364bb9ee6 Merge branch 'ds/fsck-bitmap' into jch
+4470af74281a72a6fe4f9b555c3ec9e3d519e860 Merge branch 'gc/trace-bare-repo-setup' into jch
+c892bcc94424f1297dadc1e5e9cb6e752a22e79e doc: interpret-trailers: don’t use heredoc in examples
+b032a2bfe74e46acc451873ee5ebbf7f61b738ce doc: interpret-trailers: use input redirection
+f68c26873d57db064831e9be97555f301dd6fe41 doc: interpret-trailers: don’t use deprecated config
+cbb83daeafa27ba8880516deb943900e46cb047f doc: interpret-trailers: fix example
+d255275a5e092a0477eda1419b203c8c34b1a779 Merge branch 'kh/doc-interpret-trailers-updates' into jch
+e84c79a271fca89fca2d10bd45eb1c8334a3e9ab Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
+5cb9efb412b904f6dbc3d1efe5f3c153c22233e0 Merge branch 'ab/imap-send-requires-curl' into seen
+af1b81251e2f1ddbf0f7a6ce5cc366d91f8531c1 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
+83ec5b9661b2cc7ab2f2217d6aa22524b37dffff Merge branch 'ms/send-email-feed-header-to-validate-hook' into seen
+05ef997764deef1807f785759c7d57fa6c4bcca7 Merge branch 'so/diff-merges-more' into seen
+95636a67353c9fb5b56e4126c55913452ab71598 Merge branch 'cw/submodule-status-in-parallel' into seen
+8540929b9bbe12e2e0d0a7762ffa210e68d85921 Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+030fdc29a826fc186bfc853befcfecca4cbef46c Merge branch 'cb/checkout-same-branch-twice' into seen
+8a826a01154faf7b72deb57e3e6dcdaf8118d5b7 Merge branch 'mh/use-wincred-from-system' into seen
+c93b6ef996fbbe1e07a151ab71b760a1a65bee1e Merge branch 'ab/tag-object-type-errors' into seen
+c57eea37f22865b5acb2e4e5cce2e2de1dcbc653 Merge branch 'ja/worktree-orphan' into seen
+da29b727ece9bc5218a765083ff046d120edba00 Merge branch 'tb/pack-bitmap-index-seek' into seen
+f9977b18c89f7e1025298afba7267f88476bb165 Merge branch 'rn/sparse-diff-index' into seen
+dd2dd858741b310d93768e97fc5e9ef85a1a42ed Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
+ac5303b69795d8ee0816a7d8b524a37694515bf2 Merge branch 'sg/retire-unused-cocci' into seen
 
---===============0221013743483782536==--
+--===============5729233509785852371==--
