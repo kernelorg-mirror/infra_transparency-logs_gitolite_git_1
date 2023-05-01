@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 01 May 2023 13:40:30 -0000
-Message-Id: <168294843037.19734.17356264567971220945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Mon, 01 May 2023 13:45:30 -0000
+Message-Id: <168294873073.22856.7143245926877578626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
   - ref: refs/heads/master
-    old: 31f4f810d533e7ed9a835c5f946eceaec015ce10
-    new: c39028b333f3a3a765c5c0b9726b8e38aedf0ba1
+    old: ee0d3272eb5df84055c117ebf81b3383aa474cc4
+    new: 0766bfa0f557430a6dd3256d45a5b756499f9f7b
     log: |
-         c39028b333f3a3a765c5c0b9726b8e38aedf0ba1 libbpf: btf_dump_type_data_check_overflow needs to consider BTF_MEMBER_BITFIELD_SIZE
+         21407521fb62a65e39051561e16e4ce1a74362c1 Released as v3.10.0.
+         0766bfa0f557430a6dd3256d45a5b756499f9f7b Fix stripping in cross-compiling mode
          
