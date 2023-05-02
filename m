@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 02 May 2023 20:25:13 -0000
-Message-Id: <168305911318.29891.14662961734850839335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 02 May 2023 20:26:02 -0000
+Message-Id: <168305916276.30381.16463838534375961604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/ctime
-    old: bc032d911e5d320bf658ff8f060276f70e6dc704
-    new: 951eec2d461c2335efd597b091570892787db758
+  - ref: refs/heads/master
+    old: e0f41f836f5e861bdcaf4719f160b62dbb8e9485
+    new: 3516fa162a01f6611c3c129ce9529bdc720d36b7
     log: |
-         e7564f1b34bcf15661059922c154d3663e9d42dd f2fs: convert to multigrain timestamps
-         951eec2d461c2335efd597b091570892787db758 gfs2: convert to multigrain timestamps
+         3516fa162a01f6611c3c129ce9529bdc720d36b7 Input: avoid calling input_set_abs_val() in the event handling core
+         
+  - ref: refs/heads/next
+    old: e0f41f836f5e861bdcaf4719f160b62dbb8e9485
+    new: 3516fa162a01f6611c3c129ce9529bdc720d36b7
+    log: |
+         3516fa162a01f6611c3c129ce9529bdc720d36b7 Input: avoid calling input_set_abs_val() in the event handling core
          
