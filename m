@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 02 May 2023 00:03:21 -0000
-Message-Id: <168298580128.9571.4660628901215852311@gitolite.kernel.org>
+Date: Tue, 02 May 2023 00:05:03 -0000
+Message-Id: <168298590314.11076.13305369901086723251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 4db9e253e7016e6588620ad02d4ed326107506db
-    new: 41651cd72eac961b6ce9118e73de33c90129a05c
+    old: 41651cd72eac961b6ce9118e73de33c90129a05c
+    new: 66da60bafeb0bf85679eb1688a3a8c1b5a8d073d
     log: |
-         41651cd72eac961b6ce9118e73de33c90129a05c RISC-V: include cpufeature.h in cpufeature.c
+         66da60bafeb0bf85679eb1688a3a8c1b5a8d073d riscv: mm: execute local TLB flush after populating vmemmap
          
