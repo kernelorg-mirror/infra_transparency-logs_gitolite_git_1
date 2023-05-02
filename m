@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Tue, 02 May 2023 20:07:20 -0000
-Message-Id: <168305804088.16350.12609303398106488195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 02 May 2023 20:08:05 -0000
+Message-Id: <168305808506.16654.11528292806273478632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/pending
-    old: 26d9ce3351361631677e2cae933e3641540fa807
-    new: 0df85eb222029eeb157d02ccb9de79fda55312ae
+  - ref: refs/heads/master
+    old: 8fbf792f7613b3caaa265a2e437fe70844791e52
+    new: 147160a8a1861e011a3069824e6b0f33ac503388
     log: |
-         c2218f8148fb7a8e8b12eddb3473006e979d42b1 cxl/list: Add parent_dport attribute to port listings
-         0df85eb222029eeb157d02ccb9de79fda55312ae ndctl/namespace.c: fix unchecked return value from uuid_parse()
+         147160a8a1861e011a3069824e6b0f33ac503388 Tue May  2 08:07:02 PM UTC 2023
          
