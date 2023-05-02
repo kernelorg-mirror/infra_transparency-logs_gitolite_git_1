@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5682792987532960399=="
+Content-Type: multipart/mixed; boundary="===============2754448700608739152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 02 May 2023 18:12:58 -0000
-Message-Id: <168305117893.4563.8406089663689099689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 02 May 2023 18:13:08 -0000
+Message-Id: <168305118899.4672.995439304318651772@gitolite.kernel.org>
 
---===============5682792987532960399==
+--===============2754448700608739152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: d7b3ffe2d7e476f11d73b74093006aa936f59e8b
     log: revlist-457391b03803-d7b3ffe2d7e4.txt
 
---===============5682792987532960399==
+--===============2754448700608739152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c5eb8bf76718cf2e2f36aac216a99014f00927de Merge tag 'leds-next-6.4' of git://git.
 3af49062b0115b55a54615109172b44f618daf97 Merge tag 'mfd-next-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 d7b3ffe2d7e476f11d73b74093006aa936f59e8b Merge tag 'backlight-next-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 
---===============5682792987532960399==--
+--===============2754448700608739152==--
