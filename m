@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3186997401927769545=="
+Content-Type: multipart/mixed; boundary="===============0577597553357975815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 02 May 2023 14:29:39 -0000
-Message-Id: <168303777992.15953.15138064027331058923@gitolite.kernel.org>
+Date: Tue, 02 May 2023 14:30:42 -0000
+Message-Id: <168303784294.17906.9385568158107454752@gitolite.kernel.org>
 
---===============3186997401927769545==
+--===============0577597553357975815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 4b6d621c9d859ff89e68cebf6178652592676013
+  - ref: refs/heads/next
+    old: 22a4455e75be443fb80784175bb70f40ba6d0c52
     new: 4eb0e7873c7159298799aabbd0f29b48689a73f0
-    log: revlist-4b6d621c9d85-4eb0e7873c71.txt
+    log: revlist-22a4455e75be-4eb0e7873c71.txt
 
---===============3186997401927769545==
+--===============0577597553357975815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b6d621c9d85-4eb0e7873c71.txt
+Content-Disposition: attachment; filename=revlist-22a4455e75be-4eb0e7873c71.txt
 
 57295e069cd8f7ac79f03d732ac17afb9f790ba5 net/mlx5: DR, Add memory statistics for domain object
 e267b8a52ca5d5e8434929a5e9f5574aed141024 Revert "net/mlx5: Expose steering dropped packets counter"
@@ -1051,4 +1051,4 @@ c8c655c34e33544aec9d64b660872ab33c29b5f1 Merge tag 'for-linus' of git://git.kern
 6ec945eafa20f0856696fb44ee224adfa15d5676 mmc: block: ensure error propagation for non-blk
 4eb0e7873c7159298799aabbd0f29b48689a73f0 mmc: sdhci-cadence: Fix an error handling path in sdhci_cdns_probe()
 
---===============3186997401927769545==--
+--===============0577597553357975815==--
