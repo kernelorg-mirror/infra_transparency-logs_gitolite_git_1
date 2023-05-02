@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 02 May 2023 01:09:54 -0000
-Message-Id: <168298979420.26036.786327822084533814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 02 May 2023 01:36:14 -0000
+Message-Id: <168299137465.12361.2193270038530980788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: 865fdb08197e657c59e74a35fa32362b12397f58
-    new: 7c1a4441ddf1aeba8ad4c411478eac37abcacc55
+  - ref: refs/heads/master
+    old: 47bf7aca4207c8fddacec1b0bd88ae18904c2a2b
+    new: 38f03e4b3f1992d26e78467011f0997ef7a71143
     log: |
-         53698eb81139eefb68b0cbfd51832ae80f7cea3f tpm_tis: Use tpm_chip_{start,stop} decoration inside tpm_tis_resume
-         7c1a4441ddf1aeba8ad4c411478eac37abcacc55 tpm: Prevent hwrng from activating during resume
+         38f03e4b3f1992d26e78467011f0997ef7a71143 Tue May  2 01:34:41 AM UTC 2023
          
