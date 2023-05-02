@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 02 May 2023 19:13:35 -0000
-Message-Id: <168305481566.12448.4665677501982384383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 02 May 2023 19:17:51 -0000
+Message-Id: <168305507171.15410.6388798942928165640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 38f03e4b3f1992d26e78467011f0997ef7a71143
-    new: 8fbf792f7613b3caaa265a2e437fe70844791e52
+  - ref: refs/heads/arm-dts-move-v2
+    old: 21a2c22934894e6486a2c8d3ec9b1f583cbe3c90
+    new: 3a2949986399add8fee4a90d3c0f9ae11df20cb7
     log: |
-         8fbf792f7613b3caaa265a2e437fe70844791e52 Tue May  2 07:10:45 PM UTC 2023
+         617c7e6e72bc93b5483cc5cf38733e2f21436159 ARM: dts: Move dts files to vendor sub-directories
+         3a2949986399add8fee4a90d3c0f9ae11df20cb7 ARM: dts: Fixup makefiles after script run
          
