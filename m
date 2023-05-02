@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 02 May 2023 18:21:37 -0000
-Message-Id: <168305169796.11802.8032818067863614629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 02 May 2023 18:26:59 -0000
+Message-Id: <168305201959.15025.13424820443704780365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/ctime
-    old: f2a39a70bf6224a75462ab3b7a27a042f99e1c0d
-    new: 83af4881e923abef66f1ca8c39b2585d32b87e27
+  - ref: refs/heads/master
+    old: d7b3ffe2d7e476f11d73b74093006aa936f59e8b
+    new: 21d2be646007a1c5461f4233749c368693aa6d9f
     log: |
-         c10675d11349bc9f5b1d7ef1b7d85ace09d3ef81 fs: add infrastructure for multigrain inode i_m/ctime
-         d5f5b33e5a5040f410370c63bd4d9c5a46ae7241 shmem: convert to multigrain timestamps
-         7a68bcb8a131bbeb0104a4b422cdaf2c6e56700c xfs: convert to multigrain timestamps
-         4f0e55b95e7c0bd85bdaad578a17d8729d0d61e2 ext4: convert to multigrain timestamps
-         83af4881e923abef66f1ca8c39b2585d32b87e27 btrfs: convert to multigrain timestamps
+         d7f74e9a917503ee78f2b603a456d7227cf38919 afs: Fix updating of i_size with dv jump from server
+         45f66fa03ba9943cca5af88d691399332b8bde08 afs: Fix getattr to report server i_size on dirs, not local size
+         9ea4eff4b6f4f36546d537a74da44fd3f30903ab afs: Avoid endless loop if file is larger than expected
+         21d2be646007a1c5461f4233749c368693aa6d9f Merge tag 'afs-fixes-20230502' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
          
