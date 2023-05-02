@@ -1,85 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 02 May 2023 13:54:27 -0000
-Message-Id: <168303566788.25412.13685887846440114584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 02 May 2023 14:04:27 -0000
+Message-Id: <168303626792.31688.13197639911597831462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/block-6.2-2023-02-10
-    old: 0000000000000000000000000000000000000000
-    new: 235fc2f6e7354a3d52c58f0cf27d14b122f4c824
-  - ref: refs/tags/block-6.2-2023-02-16
-    old: 0000000000000000000000000000000000000000
-    new: 73f9eb6ceecce4fbfe3f462dd28800f3697d7236
-  - ref: refs/tags/block-6.2-2023-02-17
-    old: 0000000000000000000000000000000000000000
-    new: 552330a947690704c177b30e5fe45b41ccbf9359
-  - ref: refs/tags/block-6.3-2023-03-03
-    old: 0000000000000000000000000000000000000000
-    new: fbd1b28960ef2e59f44eaf77b70b7fec0845ab70
-  - ref: refs/tags/block-6.3-2023-03-09
-    old: 0000000000000000000000000000000000000000
-    new: 0cde250105be6190aa893b41e64f192d643e3aed
-  - ref: refs/tags/block-6.3-2023-03-16
-    old: 0000000000000000000000000000000000000000
-    new: ef680624db49b37c2d75fdfd410db594c7481c1d
-  - ref: refs/tags/block-6.3-2023-03-24
-    old: 0000000000000000000000000000000000000000
-    new: 5858fa0d16cc7e16c62c3d41e09f99a364a06346
-  - ref: refs/tags/block-6.3-2023-03-30
-    old: 0000000000000000000000000000000000000000
-    new: b8739acbe8600d08f065c40808405c0b06d6d5c8
-  - ref: refs/tags/block-6.3-2023-04-06
-    old: 0000000000000000000000000000000000000000
-    new: d375c0c90ea4e8617815439b3ace96a4b5a7fd78
-  - ref: refs/tags/block-6.3-2023-04-14
-    old: 0000000000000000000000000000000000000000
-    new: 35b9fc11cd502b05ada10f2b963230c7683ab063
-  - ref: refs/tags/for-6.3/block-2023-02-16
-    old: 0000000000000000000000000000000000000000
-    new: a2d4311b43a69a8b477d7ef3d4ddebf027a60558
-  - ref: refs/tags/for-6.3/dio-2023-02-16
-    old: 0000000000000000000000000000000000000000
-    new: 73e021c1d790241994463b0d6f4a7e9bf8e3c58a
-  - ref: refs/tags/for-6.3/dm-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: fc803fc069c6cbb59169c619c71805f6b9d793d6
-  - ref: refs/tags/for-6.3/io_uring-2023-02-16
-    old: 0000000000000000000000000000000000000000
-    new: d6281bd2810015ce84f7ad86002f7dccd2499d47
-  - ref: refs/tags/for-6.3/iter-ubuf-2023-02-16
-    old: 0000000000000000000000000000000000000000
-    new: 9c284ba70ff452201837c0b50fa75a84b3da05a0
-  - ref: refs/tags/for-6.4/dm-changes
-    old: 0000000000000000000000000000000000000000
-    new: 5a1d95cadab96114aedbb74884bc70cb5351f632
-  - ref: refs/tags/io_uring-6.3-2023-03-03
-    old: 0000000000000000000000000000000000000000
-    new: ca9db8f7888fa47cc54646d89a3caa6e2a2805a7
-  - ref: refs/tags/io_uring-6.3-2023-03-09
-    old: 0000000000000000000000000000000000000000
-    new: 8434de76f249ba7510cbec0b11dc4b835e85e592
-  - ref: refs/tags/io_uring-6.3-2023-03-16
-    old: 0000000000000000000000000000000000000000
-    new: c77b70bf1c9d32aa61a7c6cfc34a6eada6ce8bc4
-  - ref: refs/tags/io_uring-6.3-2023-03-24
-    old: 0000000000000000000000000000000000000000
-    new: 713f612d430b3d701d1eeba948426d52e16b8191
-  - ref: refs/tags/io_uring-6.3-2023-03-30
-    old: 0000000000000000000000000000000000000000
-    new: a33fc65579da3166a655bd4f61494489b6c13f3a
-  - ref: refs/tags/io_uring-6.3-2023-04-06
-    old: 0000000000000000000000000000000000000000
-    new: f04d25be5ed0fa8aa60e19ce4859417999575660
-  - ref: refs/tags/io_uring-6.3-2023-04-14
-    old: 0000000000000000000000000000000000000000
-    new: cd8600414a2486430b2d5ad16e1f478877d3912b
-  - ref: refs/tags/v6.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/heads/for-linus
+    old: 9d2f38638a145f0c6102bee6533204aa3e5a9c07
+    new: 7e2d06628aab6324e1ac885910a52f4c038d4043
+    log: |
+         7e2d06628aab6324e1ac885910a52f4c038d4043 ALSA: hda/realtek: Add quirk for ASUS UM3402YAR using CS35L41
+         
+  - ref: refs/heads/for-next
+    old: 9d2f38638a145f0c6102bee6533204aa3e5a9c07
+    new: 7e2d06628aab6324e1ac885910a52f4c038d4043
+    log: |
+         7e2d06628aab6324e1ac885910a52f4c038d4043 ALSA: hda/realtek: Add quirk for ASUS UM3402YAR using CS35L41
+         
+  - ref: refs/heads/master
+    old: fa805066808137356f29a1b2e66a4cc59f44ff2f
+    new: 0a55753752f3855a52dffc6d7b07bbb6f24d499b
+    log: |
+         7e2d06628aab6324e1ac885910a52f4c038d4043 ALSA: hda/realtek: Add quirk for ASUS UM3402YAR using CS35L41
+         0a55753752f3855a52dffc6d7b07bbb6f24d499b Merge branch 'for-linus'
+         
