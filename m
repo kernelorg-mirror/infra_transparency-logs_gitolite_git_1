@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 02 May 2023 12:49:02 -0000
-Message-Id: <168303174266.13601.2158351829103054462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 02 May 2023 13:00:41 -0000
+Message-Id: <168303244144.23143.15541120907033704801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/core/debugobjects
-    old: 0af462f19e635ad522f28981238334620881badc
-    new: 0cce06ba859a515bd06224085d3addb870608b6d
+  - ref: refs/heads/master
+    old: 1a0f793e58cf2e4dfcf59d6df38b5b6fec7c3036
+    new: 501b59962451845cb4ff86b0477ddf4d37553d5b
     log: |
-         0cce06ba859a515bd06224085d3addb870608b6d debugobjects,locking: Annotate debug_object_fill_pool() wait type violation
+         501b59962451845cb4ff86b0477ddf4d37553d5b tests: disable mount/subdir on unshared session without new mount API
          
