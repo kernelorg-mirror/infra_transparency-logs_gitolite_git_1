@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 02 May 2023 00:19:31 -0000
-Message-Id: <168298677172.19311.16244502269782620672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 02 May 2023 00:19:52 -0000
+Message-Id: <168298679276.19458.13217296562223751916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 26b0812f4cf824a02eec9a425c09e34a25420166
-    new: 41651cd72eac961b6ce9118e73de33c90129a05c
+    old: 41651cd72eac961b6ce9118e73de33c90129a05c
+    new: c2d3c8441e3ddbfe41fea9282ddc6ee372e154cd
     log: |
-         f9c4bbddece7eff1155c70d48e3c9c2a01b9d778 riscv: compat_syscall_table: Fixup compile warning
-         41ebfc91f785c202e8e8f9bd2f67154efad6287e dt-bindings: riscv: explicitly mention assumption of Zicsr & Zifencei support
-         4db9e253e7016e6588620ad02d4ed326107506db riscv: Move .rela.dyn to the init sections
-         41651cd72eac961b6ce9118e73de33c90129a05c RISC-V: include cpufeature.h in cpufeature.c
+         c2d3c8441e3ddbfe41fea9282ddc6ee372e154cd RISC-V: include cpufeature.h in cpufeature.c
          
