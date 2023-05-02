@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6361200821047678328=="
+Content-Type: multipart/mixed; boundary="===============7586864609458921274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 02 May 2023 00:57:56 -0000
-Message-Id: <168298907622.14287.2998662323212953010@gitolite.kernel.org>
+Date: Tue, 02 May 2023 00:58:19 -0000
+Message-Id: <168298909950.14465.17777280017784548238@gitolite.kernel.org>
 
---===============6361200821047678328==
+--===============7586864609458921274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 0c8862de05c1a087795ee0a87bf61a6394306cc0
+  - ref: refs/heads/master
+    old: 6e98b09da931a00bf4e0477d0fa52748bf28fcce
     new: 865fdb08197e657c59e74a35fa32362b12397f58
-    log: revlist-0c8862de05c1-865fdb08197e.txt
+    log: revlist-6e98b09da931-865fdb08197e.txt
 
---===============6361200821047678328==
+--===============7586864609458921274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c8862de05c1-865fdb08197e.txt
+Content-Disposition: attachment; filename=revlist-6e98b09da931-865fdb08197e.txt
 
-1423885c84a5b3a53b79bcf241b18124d0d7cba6 cxl/hdm: Use 4-byte reads to retrieve HDM decoder base+limit
 104087a8aaf0f46d89376917eca977fad972cc93 cxl/core: Drop unused io-64-nonatomic-lo-hi.h
 7bba261e0aa6e8e5f28a3a3def8338b6512534ee cxl/port: Scan single-target ports for decoders
 c841ecd8277154c9297dd9ac959494f6deb61e76 cxl/hdm: Add more HDM decoder debug messages at startup
@@ -991,6 +990,7 @@ e389b1d72a6241b326071dd75e1b33f9e8818cd1 i3c: dw: Add support for in-band interr
 f3a3553a51e64379dbb2e980f0024f7a28b74977 i3c: dw: Add a platform facility for IBI PEC workarounds
 f2539c20791eb474ae083f60a572f207ffbc3a67 i3c: ast2600: enable IBI support
 8c6c78ee3b3330cf8a00a3c6bdecc18d42e969d7 i3c: ast2600: fix register setting for 545 ohm pullups
+0c8862de05c1a087795ee0a87bf61a6394306cc0 tpm: Re-enable TPM chip boostrapping non-tpm_tis TPM drivers
 1dedde690303c05ef732b7c5c8356fdf60a4ade3 ext4: fix i_disksize exceeding i_size problem in paritally written case
 6d2ed653185baa5ba601306cbd6cd7192642045d lsm: move hook comments docs to security/security.c
 682f7bbad29c0e5f59929ad69e1ed8525feb96d3 Merge tag 'x86_cleanups_for_v6.4_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ c8c655c34e33544aec9d64b660872ab33c29b5f1 Merge tag 'for-linus' of git://git.kern
 9a87ffc99ec8eb8d35eed7c4f816d75f5cc9662e Merge branch 'next' into for-linus
 865fdb08197e657c59e74a35fa32362b12397f58 Merge tag 'input-for-v6.4-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
---===============6361200821047678328==--
+--===============7586864609458921274==--
