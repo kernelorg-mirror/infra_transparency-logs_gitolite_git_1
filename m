@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 02 May 2023 15:35:37 -0000
-Message-Id: <168304173743.30321.8218754907826197808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Tue, 02 May 2023 15:46:10 -0000
+Message-Id: <168304237037.4496.1621064903512907105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 530a7bb036a82f94344d18a251972c320845137e
-    new: de7b5cd2d54f59bfd18cc56e48e435aaa1f0c034
+  - ref: refs/heads/main
+    old: 6f9bd171ffe25c8ed81828382117004532a241de
+    new: 10caeaaf0c578891bf2d92572a58d93affab9830
     log: |
-         af97b7dfb0d4636d58f2341346fffce30c6c2259 SUNRPC: Avoid relying on crypto API to derive CBC-CTS output IV
-         de7b5cd2d54f59bfd18cc56e48e435aaa1f0c034 nfsd: use vfs setgid helper
+         10caeaaf0c578891bf2d92572a58d93affab9830 fixed the grammar in ip-rule(8) man page
          
