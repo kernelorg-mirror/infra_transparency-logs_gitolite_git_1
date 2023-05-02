@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 02 May 2023 19:02:08 -0000
-Message-Id: <168305412816.5902.6169238578159175942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 02 May 2023 19:13:35 -0000
+Message-Id: <168305481566.12448.4665677501982384383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 21d2be646007a1c5461f4233749c368693aa6d9f
-    new: 7df047b3f0aa0c0ba730b6be9ab35c0053a3d4fd
+    old: 38f03e4b3f1992d26e78467011f0997ef7a71143
+    new: 8fbf792f7613b3caaa265a2e437fe70844791e52
     log: |
-         6467d0740a2b2a1fc18b5d9dbc86a9705dbc2cf9 vfio/pci: Add DVSEC PCI Extended Config Capability to user visible list.
-         38e4614c27210e63aafad1bb2e4a427515e46d71 vfio: correct kdoc for ops structures
-         705b004ee377b789e39ae237519bab714297ac83 docs: kvm: vfio: Suggest KVM_DEV_VFIO_GROUP_ADD vs VFIO_GROUP_GET_DEVICE_FD ordering
-         7df047b3f0aa0c0ba730b6be9ab35c0053a3d4fd Merge tag 'vfio-v6.4-rc1' of https://github.com/awilliam/linux-vfio
+         8fbf792f7613b3caaa265a2e437fe70844791e52 Tue May  2 07:10:45 PM UTC 2023
          
