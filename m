@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 03 May 2023 08:16:03 -0000
-Message-Id: <168310176337.18974.1912016818324697976@gitolite.kernel.org>
+Date: Wed, 03 May 2023 08:17:07 -0000
+Message-Id: <168310182706.19386.1393466325310198102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 4a54903ff68ddb33b6463c94b4eb37fc584ef760
-    new: ec788f7e96ad4cd30338a09d466d9368acd73c26
+    old: ec788f7e96ad4cd30338a09d466d9368acd73c26
+    new: 1eeb807ffd8da5180f8d64d89ce332876acb5dbd
     log: |
-         ec788f7e96ad4cd30338a09d466d9368acd73c26 pds_core: remove CONFIG_DEBUG_FS from makefile
+         1eeb807ffd8da5180f8d64d89ce332876acb5dbd pds_core: add AUXILIARY_BUS and NET_DEVLINK to Kconfig
          
