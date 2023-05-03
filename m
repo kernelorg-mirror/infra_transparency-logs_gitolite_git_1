@@ -1,33 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Wed, 03 May 2023 13:51:45 -0000
-Message-Id: <168312190557.31187.15238046641891849146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 03 May 2023 14:18:22 -0000
+Message-Id: <168312350247.14507.14664973104558896163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 390f481521c350b99787da830ac8dc37b74d3c9d
-    new: 60bcf1cde1a806fb17dd4c892aff9089f12a8165
+  - ref: refs/heads/thermal
+    old: dd2358321e1aa0cf3808b353e02fae2ddf005a72
+    new: 53389edd4020514b876b01d05e851fb7d46eb51f
     log: |
-         129bb4b78bc6c56ee517a044ba5c9dfc220f899c doc: dt-object-internal: Fix a typo
-         df093279282ca0cff4d20ceb3bb5857117ed4cc4 add fdt_path_getprop_namelen() helper
-         18f5ec12a10ec84e957222074dadf4a3e4cc8d59 use fdt_path_getprop_namelen() in fdt_get_alias_namelen()
-         a6f997bc77d4c637308c053ec1632493c7ac437b add fdt_get_symbol() and fdt_get_symbol_namelen() functions
-         60bcf1cde1a806fb17dd4c892aff9089f12a8165 improve documentation for fdt_path_offset()
+         cead266cdbcfa471f54590ebfd3ebf303f99123f thermal: gov_step_wise: Delete obsolete comment
+         e4006bfec12cec4fb251de860d384dd34e6df346 thermal: gov_step_wise: Adjust code logic to match comment
+         7cefbaf081eb7c114299f7478ed4fa0d90ec90bb thermal: core: Encapsulate tz->device field
+         ba7894be5e57d5c154c793e5411889275e68644e thermal: intel: pch_thermal: Use thermal driver device to write a trace
+         66d39e74bf490fb1ef90e13086b68d6df6e6ad06 ACPI: thermal: Use thermal_zone_device()
+         a4b81715a58e0ddf10bc2df2185566b73b9ae616 ACPI: thermal: Move to dedicated function sysfs extra attr creation
+         2b6a7409ac390d3edb49822ea602ac129486ea3f thermal: intel: menlow: Get rid of this driver
+         53389edd4020514b876b01d05e851fb7d46eb51f Merge branch 'thermal-core'
          
-  - ref: refs/heads/master
-    old: 390f481521c350b99787da830ac8dc37b74d3c9d
-    new: 60bcf1cde1a806fb17dd4c892aff9089f12a8165
-    log: |
-         129bb4b78bc6c56ee517a044ba5c9dfc220f899c doc: dt-object-internal: Fix a typo
-         df093279282ca0cff4d20ceb3bb5857117ed4cc4 add fdt_path_getprop_namelen() helper
-         18f5ec12a10ec84e957222074dadf4a3e4cc8d59 use fdt_path_getprop_namelen() in fdt_get_alias_namelen()
-         a6f997bc77d4c637308c053ec1632493c7ac437b add fdt_get_symbol() and fdt_get_symbol_namelen() functions
-         60bcf1cde1a806fb17dd4c892aff9089f12a8165 improve documentation for fdt_path_offset()
-         
+  - ref: refs/tags/thermal-6.4-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: ac6ef8bb25ff706e5b5bc440655d289f2fa2bfae
