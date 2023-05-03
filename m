@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 03 May 2023 07:36:00 -0000
-Message-Id: <168309936057.24707.4270139747466064602@gitolite.kernel.org>
+Date: Wed, 03 May 2023 07:47:26 -0000
+Message-Id: <168310004690.31309.15744094168788970089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/b4/fs-move-mount-beneath
-    old: 51fcd1221a8ff363438112ee4bcc887cee2f6a27
-    new: d5995d70c8e23c93bcbd78143deef6d804751706
+    old: d5995d70c8e23c93bcbd78143deef6d804751706
+    new: 81736cfaa6d4be42c056b1c328adb1c2834ad725
     log: |
-         e379c71d90733eaafae9b128d0efce9d47cce50c fs: allow to mount beneath top mount
-         d5995d70c8e23c93bcbd78143deef6d804751706 fs: allow to mount beneath top mount
+         d55492bcebb22e53af53b57f4301b5c4ae8eca86 fs: allow to mount beneath top mount
+         81736cfaa6d4be42c056b1c328adb1c2834ad725 fs: allow to mount beneath top mount
          
