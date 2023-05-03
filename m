@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4234464305742576212=="
+Content-Type: multipart/mixed; boundary="===============6631274017768430750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 03 May 2023 15:22:42 -0000
-Message-Id: <168312736210.27500.15847250360970300816@gitolite.kernel.org>
+Date: Wed, 03 May 2023 15:23:15 -0000
+Message-Id: <168312739539.27755.6469053563882559812@gitolite.kernel.org>
 
---===============4234464305742576212==
+--===============6631274017768430750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: fb7cba61919ada54d088870dd173c61b6b372873
-    new: 6a341729fb31b4c5df9f74f24b4b1c98410c9b87
-    log: revlist-fb7cba61919a-6a341729fb31.txt
+  - ref: refs/heads/dev-queue
+    old: 56dce3a8f09a7c91ecfdb26f9841959a86c0f6cc
+    new: b66b8ee166284b699dd2dfc65baa244db27cf562
+    log: revlist-56dce3a8f09a-b66b8ee16628.txt
 
---===============4234464305742576212==
+--===============6631274017768430750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb7cba61919a-6a341729fb31.txt
+Content-Disposition: attachment; filename=revlist-56dce3a8f09a-b66b8ee16628.txt
 
 c6d96df9fa2c1d19525239d4262889cce594ce6c net: ethernet: mtk_eth_soc: drop generic vlan rx offload, only use DSA untagging
 8509f62b0b07ae8d6dec5aa9613ab1b250ff632f netfilter: nf_tables: hit ENOENT on unexisting chain/flowtable update with missing attributes
@@ -51,5 +51,15 @@ ec788f7e96ad4cd30338a09d466d9368acd73c26 pds_core: remove CONFIG_DEBUG_FS from m
 1eeb807ffd8da5180f8d64d89ce332876acb5dbd pds_core: add AUXILIARY_BUS and NET_DEVLINK to Kconfig
 3ce29c17dc847bf4245e16aad78a7617afa96297 igc: read before write to SRRCTL register
 6a341729fb31b4c5df9f74f24b4b1c98410c9b87 af_packet: Don't send zero-byte data in packet_sendmsg_spkt().
+c65d86bbfa8a1e14c5d5817522022bb61cdbc613 i40e: fix PTP pins verification
+24900ef7f08c1d7e8ba817d2a5d25b819144e5ce igc: Clean the TX buffer and TX descriptor ring
+4af61b3aaa07d8ab9383f4e84b07903d38da5eb4 iavf: send VLAN offloading caps once after VFR
+5f1fccbe506677a881f5b8e708cf0fa7ded583c8 ice: Fix stats after PF reset
+96ecdf6fc063c0c4c602eead745d9736d8eec60e igc: Fix possible system crash when loading module
+ef894bd589a4c91b1793540ffc757d152fa686bc ice: Fix ice VF reset during iavf initialization
+469b95d47cf2a3e9552098d7af85e1a8b5e6a59a igb: fix nvm.ops.read() error handling
+72d87e2c83303cf02243b4c388ab3450c22c3fa4 igb: fix bit_shift to be in [1..8] range
+a4e83fe0a79c5ae56569aa19bc78e91dff756497 ice: block LAN in case of VF to VF offload
+b66b8ee166284b699dd2dfc65baa244db27cf562 ice: Fix undersized tx_flags variable
 
---===============4234464305742576212==--
+--===============6631274017768430750==--
