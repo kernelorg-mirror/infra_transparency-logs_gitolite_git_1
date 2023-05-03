@@ -1,35 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 03 May 2023 06:09:25 -0000
-Message-Id: <168309416555.30655.11941692003486433427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 03 May 2023 06:24:43 -0000
+Message-Id: <168309508387.9073.9699157944753052100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/for-linus
-    old: 7e2d06628aab6324e1ac885910a52f4c038d4043
-    new: e4212ed0ba58264fbe7706c5493b9600339f60ae
+  - ref: refs/heads/main
+    old: fb7cba61919ada54d088870dd173c61b6b372873
+    new: c1592a89942e9678f7d9c8030efa777c0d57edab
     log: |
-         1604f51b401bfd881ab5c6401eaedac97f2166ca ALSA: docs: Extend module parameters description
-         e4212ed0ba58264fbe7706c5493b9600339f60ae ALSA: docs: Fix code block indentation in ALSA driver example
-         
-  - ref: refs/heads/for-next
-    old: 7e2d06628aab6324e1ac885910a52f4c038d4043
-    new: e4212ed0ba58264fbe7706c5493b9600339f60ae
-    log: |
-         1604f51b401bfd881ab5c6401eaedac97f2166ca ALSA: docs: Extend module parameters description
-         e4212ed0ba58264fbe7706c5493b9600339f60ae ALSA: docs: Fix code block indentation in ALSA driver example
-         
-  - ref: refs/heads/master
-    old: 0a55753752f3855a52dffc6d7b07bbb6f24d499b
-    new: 3f1ea4e4d7b45ed2df5e59bb25b08bbf0024105b
-    log: |
-         1604f51b401bfd881ab5c6401eaedac97f2166ca ALSA: docs: Extend module parameters description
-         e4212ed0ba58264fbe7706c5493b9600339f60ae ALSA: docs: Fix code block indentation in ALSA driver example
-         3f1ea4e4d7b45ed2df5e59bb25b08bbf0024105b Merge branch 'for-linus'
+         c6d96df9fa2c1d19525239d4262889cce594ce6c net: ethernet: mtk_eth_soc: drop generic vlan rx offload, only use DSA untagging
+         8509f62b0b07ae8d6dec5aa9613ab1b250ff632f netfilter: nf_tables: hit ENOENT on unexisting chain/flowtable update with missing attributes
+         de4773f0235acf74554f6a64ea60adc0d7b01895 selftests: netfilter: fix libmnl pkg-config usage
+         c1592a89942e9678f7d9c8030efa777c0d57edab netfilter: nf_tables: deactivate anonymous set from preparation phase
          
