@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Wed, 03 May 2023 02:27:03 -0000
-Message-Id: <168308082394.14932.6951576481048602634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 03 May 2023 02:51:05 -0000
+Message-Id: <168308226582.31638.5020556042054573707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/sysctl-next
-    old: 1122fa2b282fe81e6b5c84f066aa5b19ca3b3df5
-    new: 0199849acd07d07e2a8e42757653ca8b14a122f5
+  - ref: refs/heads/clk-next
+    old: a9863979fbc25838bbe7c5badf538cedfc802f60
+    new: 31c6ed4e89187beef8fe2f979c8881ca94839427
     log: |
-         9e7c73c0b9f49bc73818e08e6282a32b94d96168 kernel: pid_namespace: simplify sysctls with register_sysctl()
-         0199849acd07d07e2a8e42757653ca8b14a122f5 sysctl: remove register_sysctl_paths()
+         690dccc4a0bf8b6b4eeb160882ec584d3d0bb642 Revert "clk: imx: composite-8m: Add support to determine_rate"
+         5c667d5a5a3ec16609229dddf25a46654186b52b clk: sp7021: Adjust width of _m in HWM_FIELD_PREP()
+         31c6ed4e89187beef8fe2f979c8881ca94839427 clk: starfive: Fix RESET_STARFIVE_JH7110 can't be selected in a specified case
          
