@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 03 May 2023 08:04:28 -0000
-Message-Id: <168310106879.10342.4536911662379805818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 03 May 2023 08:08:15 -0000
+Message-Id: <168310129592.13067.17432974411511902198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/main
-    old: c1592a89942e9678f7d9c8030efa777c0d57edab
-    new: 9e08dcef60baa3125d10077ce5e9b3b5cf28a169
+    old: 2dce08ab7a32b15ee75be6a31084f78e41d2936a
+    new: 3711d44fac1f80ea69ecb7315fed05b3812a7401
     log: |
-         9e08dcef60baa3125d10077ce5e9b3b5cf28a169 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         3711d44fac1f80ea69ecb7315fed05b3812a7401 ionic: remove noise from ethtool rxnfc error msg
          
