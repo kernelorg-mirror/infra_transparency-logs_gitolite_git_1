@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7478426977287377384=="
+Content-Type: multipart/mixed; boundary="===============5278480889117297588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 03 May 2023 14:18:32 -0000
-Message-Id: <168312351297.14656.8854451122174810557@gitolite.kernel.org>
+Date: Wed, 03 May 2023 14:18:43 -0000
+Message-Id: <168312352398.14773.1951445976526664869@gitolite.kernel.org>
 
---===============7478426977287377384==
+--===============5278480889117297588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/acpi
-    old: 4f810294e00bd99da9ec3c8fe3185a73e39bcd6c
-    new: 2e70a47ceafe4d71a4a402b2f7c5123cb4bf33f6
-    log: revlist-4f810294e00b-2e70a47ceafe.txt
-  - ref: refs/tags/acpi-6.4-rc1-2
+  - ref: refs/heads/pm
+    old: d3f2c402e44887e507b65d65f0d0515d46575bf5
+    new: 57ea3ab21c14e6f04db2b0878e8a5be644fa3769
+    log: revlist-d3f2c402e448-57ea3ab21c14.txt
+  - ref: refs/tags/pm-6.4-rc1-2
     old: 0000000000000000000000000000000000000000
-    new: 63fdb0ea95ed5f3ee651d5dc7c4d7f9441f8a828
+    new: 1c2b5199c0c4367c4e1881a62cbdf5f399d0884c
 
---===============7478426977287377384==
+--===============5278480889117297588==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4f810294e00b-2e70a47ceafe.txt
+Content-Disposition: attachment; filename=revlist-d3f2c402e448-57ea3ab21c14.txt
 
-ce27e3315a8a319d540625261c562518016f5083 media: mtk_vpu: Convert to platform remove callback returning void
-0b36a5eee515964455e1a3cb80f6eca917eec59c media: microchip-csi2dc: Convert to platform remove callback returning void
-61263f17195f3b42f6ced26a9c3d243d3c9de54b media: microchip-sama5d2-isc: Convert to platform remove callback returning void
-447728bd1c1213fc3e7585129692edf7d2a23342 media: microchip-sama7g5-isc: Convert to platform remove callback returning void
-9045184b76ea4cf2b114ea4700aae8079bdce037 media: vde: Convert to platform remove callback returning void
-0c43a7413c8ed940d1aa0df758f2b849682a480a media: dw100: Convert to platform remove callback returning void
-447925334c0614cc78b915b27bca328ee4d470a7 media: mxc-jpeg: Convert to platform remove callback returning void
-9457f2d955105da62f80cbdf7e6940a4e4037479 media: imx-mipi-csis: Convert to platform remove callback returning void
-7505faa08cb6152513cb7763be189f47cc721976 media: imx-pxp: Convert to platform remove callback returning void
-1b289dbc937a176bb9397df5eaff8575c55c7771 media: imx7-media-csi: Convert to platform remove callback returning void
-8a7033f806c3679fe02fe0ef98299631cea406cf media: mx2_emmaprp: Convert to platform remove callback returning void
-428bbf4be4018aefa26e4d6531779fa8925ecaaf media: camss: Convert to platform remove callback returning void
-d80250819e59c76ee447fd58cbffb6f750a21918 media: venus: Warn only once about problems in .remove()
-9283f534ea2e22847a643d6fd874eae79e502a68 media: venus: Convert to platform remove callback returning void
-68f9c1de782232c7ffc775b665f4a2d6d6cf14d7 media: vdec: Convert to platform remove callback returning void
-63b9173119e05d4425e7c1869a5b30970b93ddee media: venc: Convert to platform remove callback returning void
-f469bdd2cac73b27b3746a08f217b118a6eb7fa9 media: rcar-fcp: Convert to platform remove callback returning void
 b65efa9136d7899ad61485f0549f5749c21b906b media: rcar-isp: Convert to platform remove callback returning void
 8ce6911d296869ae40e869095e64871d870eec8c media: rcar-core: Convert to platform remove callback returning void
 4a70c1aafbcae54057f65dd382b7d244849f1e69 media: rcar-csi2: Convert to platform remove callback returning void
@@ -214,6 +197,8 @@ b97547761b02cc95e0e6be827dc9ca9da8142761 arm64: mm: move fixmap code to its own 
 0d124e96051b1dcee88624efea972c826b3dfc83 arm64: kdump : take off the protection on crashkernel memory region
 04a2a7af3d977f5a54aed26ab54cf734b59dcdf3 arm64: kdump: do not map crashkernel region specifically
 504cae453f8222884486f77f1fd3e8e0aa317dd7 arm64: kdump: defer the crashkernel reservation for platforms with no DMA memory zones
+67abe9c6a8077819aae490dcd3b9629c2e87bfc2 ACPI: video: Remove register_backlight_delay module option and code
+abe4f5ae5efa6a63c7d5abfa07eb02bb56b4654e ACPI: video: Remove desktops without backlight DMI quirks
 01407940f9cd3bd87f3b707f7175f6f41ac1238b gpio: 104-dio-48e: Enable use_raw_spinlock for dio48e_regmap_config
 2ce987d7eeb168b749494694ae3666de87fc356e gpio: 104-idi-48: Enable use_raw_spinlock for idi48_regmap_config
 8a4adcf67a39b3f308bb8cf686e41c0e26aa12e8 gpio: gpiolib: Simplify gpiochip_add_data_with_key() fwnode
@@ -661,6 +646,9 @@ b1b99b0cc2e5a342613fd9db3e6f54928d7c76d6 ARM: mv78xx0: fix entries for gpios, bu
 bd2c0c4452eea00e22c4008d8e64e58fa73857e5 Merge tag 'mvebu-arm64-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into soc/arm
 bbab25317cdd73b5241145c3c2f188e6cb1e5659 Merge tag 'arm-fixes-6.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 82f2734d99d7e6a2327ff4e2122dd0db425b598f dt-bindings: remoteproc: Drop unneeded quotes
+6d572d39b21fdd7411fe855a4fad479683ad99c5 ACPI: bus: Add missing braces to acpi_sb_notify()
+faae443738c6f0dac9b0d3d11d108f6911a989a9 ACPI: bus: Ensure that notify handlers are not running after removal
+03c57b0160f621e1b2a05f9d4b7832ccfb10c391 ACPI: LPSS: Add 80862289 ACPI _HID for second PWM controller on Cherry Trail
 a8707f5538846611c90116c14f72539ad5fb37da irqchip/gic-v3: Add Rockchip 3588001 erratum workaround
 35dcb3ac663a16510afc27ba2725d70c15e012a5 KVM: arm64: Make vcpu flag updates non-preemptible
 af67688dca57999fd848f051eeea1d375ba546b2 Merge tag 'mmc-v6.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
@@ -980,6 +968,11 @@ c3da2c6eeb10e71cc7be33c4b17ced60024fd9b0 tpm/tpm_tis: Convert to platform remove
 77218e83c83c1cd4b994edfb5b162ece42e73ffe tpm_tis: fix stall after iowrite*()s
 bd8621ca1510e6e802df9855bdc35a04a3cfa932 tpm: Add !tpm_amd_is_rng_defective() to the hwrng_unregister() call site
 c9c8133080c75ce2440001d765dbe8c24f932ea2 Merge branch 'for-6.4/doc' into for-linus
+c90b29cede952452f76477296cef3ef411727dd3 Merge branch 'acpica'
+0e838286080d0f458aa20751b15f35f3a7924830 Merge branches 'acpi-processor', 'acpi-pm', 'acpi-tables' and 'acpi-sysfs'
+0f318baaf23d0feb939cf9d3251712198c429879 Merge branches 'acpi-apei', 'acpi-properties', 'acpi-sbs' and 'acpi-thermal'
+21fc506cf5ef5de9c2cdc04036e35169d2b3e7d6 Merge branches 'acpi-bus', 'acpi-video' and 'acpi-misc'
+4f810294e00bd99da9ec3c8fe3185a73e39bcd6c Merge branches 'acpi-utils' and 'acpi-docs'
 1a261a6e10e80cd7c69c3f5bdf47cd41f928fd08 scripts: Remove ICC-related dead code
 d88867a24fa7e9c75b8f86df20d4f40e2fe61e9b Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 b9dff2195f8a5847fad801046b26955e05670d31 Merge tag 'iter-ubuf.2-2023-04-21' of git://git.kernel.dk/linux
@@ -1049,9 +1042,16 @@ fe89e9b1af14794a4df9d45b958ff1adf0b98dc1 Merge tag 'rpmsg-v6.4' of git://git.ker
 4173cf6fb6b7d1b4569cca08af318c4561356fb5 Merge tag 'hwmon-for-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 5e0ca0bfc33b7196ae3a5cbe26289a4025618f5a Merge tag 'thermal-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 793582ff47f8b73be8d3d925d750bf3ef79f33c7 Merge tag 'acpi-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-9b04d99788cf475cbd277f30ec66230ccb7e99f4 ACPI: PM: Do not turn of unused power resources on the Toshiba Click Mini
-61711941d8515c6d2a8a95d89e132902b56feebd ACPI: x86: utils: Remove Lenovo Yoga Tablet 2's MAGN0001
-9bde7fb8940f636f4338bf233883ae37844dcdb7 ACPI: property: Support strings in Apple _DSM props
-2e70a47ceafe4d71a4a402b2f7c5123cb4bf33f6 Merge branches 'acpi-pm' and 'acpi-properties'
+0cfd8703e7da687924371e9bc77a025bdeba9637 Merge tag 'pm-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+08169a162f97819d3e5b4a342bb9cf5137787154 PM: hibernate: Turn snapshot_test into global variable
+5904de0d735bbb3b4afe9375c5b4f9748f882945 PM: hibernate: Do not get block device exclusively in test_resume mode
+91048ce4227868000bfe624707e42274ef2198aa intel_idle: use pr_info() instead of printk()
+a78032e94bf16e9c53238cd83c82095b4a251d4b intel_idle: clean up intel_idle_init_cstates_icpu()
+1abffbd827668b3b44c34b168ccb5ee2866714a8 intel_idle: further intel_idle_init_cstates_icpu() cleanup
+00433eae1771d355f20c152ddc5976baedb427e2 intel_idle: improve C-state flags handling robustness
+db1ae0c99950502d10e09d0c57ed1e16cd854b20 intel_idle: fix confusing message
+4152379a701ad66b6c4e1c9fc93704d993e49615 intel_idle: do not sprinkle module parameter definitions around
+bd4468295e7a335319c10affdf594b56f1e6c0a4 intel_idle: mark few variables as __read_mostly
+57ea3ab21c14e6f04db2b0878e8a5be644fa3769 Merge branch 'pm-sleep'
 
---===============7478426977287377384==--
+--===============5278480889117297588==--
