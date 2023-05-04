@@ -1,77 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============1900686058793115442=="
+Content-Type: multipart/mixed; boundary="===============8437000896446580582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 03 May 2023 23:56:27 -0000
-Message-Id: <168315818798.13290.11193447448756022978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 04 May 2023 00:13:34 -0000
+Message-Id: <168315921456.23083.10966750486145251152@gitolite.kernel.org>
 
---===============1900686058793115442==
+--===============8437000896446580582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/seen
-    old: 6fb80560bcbb7818a2a1fe72d2337ae3eb2dab5b
-    new: 7a5e8ba46e7ccc28e67b9d2b66025b36e9aedcc6
-    log: revlist-6fb80560bcbb-7a5e8ba46e7c.txt
+  - ref: refs/heads/damon/next
+    old: 5fa25f5d641d9476f530500728ee6ce4644f0d63
+    new: b003b441b06f1c4ee7ba699682b5330cec46bd79
+    log: revlist-5fa25f5d641d-b003b441b06f.txt
 
---===============1900686058793115442==
+--===============8437000896446580582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fb80560bcbb-7a5e8ba46e7c.txt
+Content-Disposition: attachment; filename=revlist-5fa25f5d641d-b003b441b06f.txt
 
-2cc8ebdf589150de5893f00847185dfd37d589cb strbuf: clarify API boundary
-f00d1682ec087fa9324f15ebd733d3e3cd4ce8d0 abspath: move related functions to abspath
-994a2f402c68cbe9100a1d315e5716f2202a1513 credential-store: move related functions to credential-store file
-dc971c63136bb2a9c8187efc605cebeff7a0665a object-name: move related functions to object-name
-ea84777791fc12b7d23c7d5f5d6f2cbb5f029938 path: move related function to path
-d852bb5678f023b5b3657f5415e777e80426958c strbuf: clarify dependency
-3978c2421b16af476a5ffec79b3ce9b8e09c2a03 strbuf: remove environment variables
-91d4fbabd3499c98bb2f2c539aae0e1b4a9587c0 attr: teach "--attr-source=<tree>" global option to "git"
-b4eaae1132e738df05b035e0388dadb4b67d7679 Merge branch 'jc/attr-source-tree' into jch
-5c04d8ad86d649e23a95070722b6fbe958eed2c6 Merge branch 'mc/send-email-header-cmd' into jch
-0f731ceb16194cfcd161351818f6324ccd8fc0d3 Merge branch 'ds/fsck-bitmap' into jch
-5bf25335767acf5cee8ebf5c8ae81967efde05a4 Merge branch 'gc/trace-bare-repo-setup' into jch
-034abe08c0297d2f30ceff0072de4adec2d6154e Merge branch 'kh/doc-interpret-trailers-updates' into jch
-3e190d91dfc2c92d5c58a06eac3e6e2403d3325d Merge branch 'mh/use-wincred-from-system' into jch
-3482f9471259c25dae7ab752e941ba72c465545a Merge branch 'mh/credential-oauth-refresh-token' into jch
-99ad35efa2894c6c08d6aae8ad7397527095398c Merge branch 'mh/credential-password-expiry-libsecret' into jch
-1352087102bb142a62584eaa2623aeebf62d1819 Merge branch 'gc/doc-cocci-updates' into jch
-def9a9447673cfa595263919b11cbccf6703794b Merge branch 'ar/config-count-tests-updates' into jch
-ac72b9040c48e3f4d1b9ba8a8e4d8f45f0729386 Merge branch 'pw/rebase-i-after-failure' into jch
-b56cb959f7e344858306dc13462762c11b8efa3c Merge branch 'ps/fetch-output-format' into jch
-645f54deb8fe0b3e48b3369acd93a5eb264445d0 Merge branch 'tb/pack-bitmap-traversal-with-boundary' into jch
-0c5308af30f7f3a810aa64e74152a8df7c81e87c docs: clarify git rm --cached function in gitignore note
-6920deeeef8175fbcfbe5d67eb2749f63fa10ffa t1092: add tests for `git diff-files`
-3e3066e674ff80f5ae1c05f7828f47c9f90ed7b1 diff-files: integrate with sparse index
-1fde56bf6e003283a4211afb3d72627f70eb4098 builtin/pack-objects.c: introduce `pack.extraCruftTips`
-4d80053ebf5d5b6e6e001bfdc77f913d68222d83 Merge branch 'sl/diff-files-sparse' into jch
-9873f957ffd17e184c718840a14ee573269a71e8 Merge branch 'sl/sparse-write-tree-part-2' into jch
-b648fd4a225ab77f0829a28e38b41deee63ed83b Merge branch 'ob/revert-of-revert' into jch
-5003b759bcc67462eb80615bf949d7239046aacd Merge branch 'bc/clone-empty-repo-via-protocol-v0' into jch
-89198a175dabf75982d6ad64d8dd6ae80686e10a Merge branch 'fc/doc-drop-custom-callout-format' into jch
-0375dfa97993aee6147087a42d8684711a5e86ea Merge branch 'fc/doc-man-lift-title-length-limit' into jch
-3ff225380538b084a763df0845be9f425e16686d Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
-0522b63b917dc229f127ac12cbe28da8d34dee9f Merge branch 'ab/imap-send-requires-curl' into seen
-20a13bbb2b0ae7daa8c59e0aec477008718bb965 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
-c50d10f819a6760c28e637ab86d8bafae10f3fcf Merge branch 'so/diff-merges-more' into seen
-b71f0291b50919be71a37dd63f18293a0a8e2a0c Merge branch 'cw/submodule-status-in-parallel' into seen
-37b5b1096bcb65be060edbe2de535a5d6c22d0ca Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
-c0dd64c7f03615dea2093fb5b8815c305a0e58c0 Merge branch 'cb/checkout-same-branch-twice' into seen
-7928058bdf93002cb42e4547ea94850ca77569c5 Merge branch 'ab/tag-object-type-errors' into seen
-4e991f4223ddace85ef24d03c890b06573c7d0ab Merge branch 'ja/worktree-orphan' into seen
-9fbdc55cb942f878145a37e92a6e127c27857fb7 Merge branch 'tb/pack-bitmap-index-seek' into seen
-cc717b37e9c004406740b8e1d702db352988b43c Merge branch 'rn/sparse-diff-index' into seen
-aa68e3d34ca7f5563db5357bb93469a7238ed073 Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
-725b17fa56a6c8b66177a68e6c556198accef37e Merge branch 'sg/retire-unused-cocci' into seen
-2e35e264e7b5592f7f5cd190624acda5cea4c462 Merge branch 'cw/strbuf-cleanup' into seen
-bb427e35809e59368b7e2a4478bb1b7ca7161e63 Merge branch 'sd/doc-gitignore-and-rm-cached' into seen
-7a5e8ba46e7ccc28e67b9d2b66025b36e9aedcc6 Merge branch 'tb/pack-extra-cruft-tips' into seen
+dd411433129c07a3bea43a0cc5ad9587bac1736a mm/damon/paddr: minor refactor of damon_pa_pageout()
+b6993be23601c8bc992dc9743fbf78c1ff5d6b6a mm/damon/paddr: minor refactor of damon_pa_mark_accessed_or_deactivate()
+70307b0e297a6634be855c49525ccbea50922a90 mm/damon/paddr: fix missing folio_sz update in damon_pa_young()
+24139c07f413ef4b555482c758343d71392a19bc mm/ksm: unmerge and clear VM_MERGEABLE when setting PR_SET_MEMORY_MERGE=0
+1150ea9338554ee6685c9f8939cf7202bf5b27cf selftests/ksm: ksm_functional_tests: add prctl unmerge test
+2c281f54f556e1f3266c8cb104adf9eea7a7b742 mm/ksm: move disabling KSM from s390/gmap code to KSM code
+65f67a3e002f0e5ae84a65be915248d57d480060 mm/page_alloc: add some comments to explain the possible hole in __pageblock_pfn_to_page()
+245f0922689364b21163af4937a05ea0ba576fae mm: hwpoison: coredump: support recovery from dump_user_range()
+29083fd84da576bfb3563d044f98d38e6b338f00 kasan: hw_tags: avoid invalid virt_to_page()
+43ec16f1450f4936025a9bdf1a273affdb9732c1 relayfs: fix out-of-bounds access in relay_file_read
+00ca0f2e86bf40b016a646e6323a8941a09cf106 mm/mempolicy: correctly update prev when policy is equal on mbind
+3628d2bb155b0e4dfc1922a99de0631d3e2095d3 MAINTAINERS: update Michal Simek's email
+6152e53d9671b0ccc21c1bca842617b32ccfc5d8 mm: change per-VMA lock statistics to be disabled by default
+ceb7655b8c0ad701293b9720b0409fa152eef6ae mm/mmap/vma_merge: always check invariants
+151d0e7ae04b261585acad00f353c01950d5b774 nilfs2: fix infinite loop in nilfs_mdt_get_block()
+78d58ac09d9e8256450a3b0008a4827bb3ce1f48 mm: do not reclaim private data from pinned page
+15c09a28bebfd941db8823a2373ee2ff7318a30f nilfs2: do not write dirty data after degenerating to read-only
+26b3c8892c6d4bbdc45b47aa5091830c98bb45db filemap: fix the conditional folio_put in filemap_fault
+f4b7b949bac01c370bad0b1871465012deab26e3 afs: fix the afs_dir_get_folio return value
+030ea8e0c7bb8fda6232b6efa9399e48a8bbf35f mm: shrinkers: fix race condition on debugfs cleanup
+2b6e311b67bf206cf689da3060ea47ba2c4a2231 mm: fix zswap writeback race condition
+ad753c0a54d9e2b634268d3efd9f50c6e2a2bce6 mm: keep memory type same on DEVMEM Page-Fault
+3195e7d9b9e3ff4f98585feac5516f10988e28b9 mm/shmem: fix race in shmem_undo_range w/THP
+dbe38a349f1a34c892cb04cc618ef3c221da163d Merge branch 'mm-stable' into mm-unstable
+d4829ad693541e356707dfce7672cb746d1613aa cpuset: clean up cpuset_node_allowed
+d96162a7e49782c2fec4db8527e50c5848b3b9e7 dma-buf/heaps: system_heap: avoid too much allocation
+d0ddbef0d0bab297548ae64555f67fc142b9c895 mm: kmem: fix a NULL pointer dereference in obj_stock_flush_required()
+a8b3430c6daffd914bac37b6cc29d9363b87feba mm: memcg: use READ_ONCE()/WRITE_ONCE() to access stock->cached
+6f1388ab9f2f39c8b2071c9826f6e40aebcf9c50 migrate_pages: avoid blocking for IO in MIGRATE_SYNC_LIGHT
+bdd189f2dac5de719f963e83fa5ac85aef6c7c26 seq_buf: add seq_buf_do_printk() helper
+7b0e2f7b7148dd8a39be374b2f09d9757e2549d9 memcg: use seq_buf_do_printk() with mem_cgroup_print_oom_meminfo()
+a296e2bc13fb07a4f22f419dddaf89e423f74ee6 memcg: dump memory.stat during cgroup OOM for v1
+e154311210f5ebd689a8bcf89f9dc58b89316d83 mm: compaction: optimize compact_memory to comply with the admin-guide
+56f4dccdcf0396a7227525897ac27f23ca1d67eb mm-compaction-optimize-compact_memory-to-comply-with-the-admin-guide-fix
+366fb9b418e13c5ebb1de3700b37eba94c7a7fe1 mm/page_alloc: drop the unnecessary pfn_valid() for start pfn
+adb24812779a002bbe593f36bc82c631b832f2e8 writeback: move wb_over_bg_thresh() call outside lock section
+e127f61afa0ef1f4322defc614104da59b120a40 memcg: flush stats non-atomically in mem_cgroup_wb_stats()
+c0b55baccfa879172c6b7a6033f34d3e00ef201c memcg: calculate root usage from global state
+2a85d8fc73065d484cd635134945a9d95be0849a memcg: remove mem_cgroup_flush_stats_atomic()
+2d30404e1b8c67b4158582f9d2c88b742df73d56 cgroup: remove cgroup_rstat_flush_atomic()
+6d5e145f9571265ec0eac8bc6bc337f9698a6406 memcg, oom: remove unnecessary check in mem_cgroup_oom_synchronize()
+63da569f31131dabfc769b28d4dbc8d59e4a3efb memcg, oom: remove explicit wakeup in mem_cgroup_oom_synchronize()
+89f4470c6e722cd0d47fef51ecf97c126c18267c mm/mmap: separate writenotify and dirty tracking logic
+2353d85b4e9c24c846eeba916aaf54ba23221a2a mm/gup: disallow FOLL_LONGTERM GUP-nonfast writing to file-backed mappings
+369dd755eb25309495d67de7cd85b77e0bc0f948 mm/gup: disallow FOLL_LONGTERM GUP-fast writing to file-backed mappings
+848839c209785a44524fdafa04b0464cd453da1f mm-gup-disallow-foll_longterm-gup-fast-writing-to-file-backed-mappings-fix
+d6204650249e1b374bc25c75d0d1e0129e34c6cf workingset: refactor LRU refault to expose refault recency check
+5c289a59b1d08fd822d58a73db59f19bf8b397a9 cachestat: implement cachestat syscall
+2c3b719ea09a8e5f8f5173664a8bc9ee7f07a4c3 selftests: add selftests for cachestat
+c0d243fd0625da9bb6b732966572d59bab793348 fs: hugetlbfs: set vma policy only when needed for allocating folio
+ccd0b07a3f1f3af1174e3931f553210ff97fc6ac === Mark start of DAMON hack tree ===
+fba7dfc2c5580cf852ccab42226c86808cf985c0 Add -damon suffix to the version name
+e17ea08e71e6ab8f4f33d3e2906a67247a97eac4 === fixes from other subsystems ===
+741b42e190485425107681741cd7e9effe64bc63 kunit: tool: undo type subscripts for subprocess.Popen
+a717e1a43b3f16eddc84a3ba9f905e334d0b41a2 === Patches in mm-unstable but not yet pushed ===
+fcf203da93a924ca3bb42337e4f38ecc50d21cde === Patches written or reviewed by SJ but not merged in -mm ===
+0c0bd2fa417d0a6a27c77b68c5c0e9deb7d7c345 selftests: damon: add config file
+315941574f2e81cfe89f59d8c697970af3b8a3d1 ==== misc fixes ====
+aa2a7a5f5d5cbe31bfc0f64a6e92954562c9a002 Docs/mm/damon/faq: remove old questions
+2e3969533d9558a403b49d5ba4bb03049c95f121 mm/slab: add a missing semicolon on SLAB_TYPESAFE_BY_RCU example code
+d7d9ad6782b9b40aaefe8468fbbb4d0794e63be7 mm/slab: break up RCU readers on SLAB_TYPESAFE_BY_RCU example code
+5472f3b062dd2d7e98ae202926de20711dd88a96 === commits having no plan to post for now ===
+834870f459608c725ebdd9e8b0dca343adb6e51e tools/perf: Integrate DAMON in perf
+f6ed6e82ece688d015a0046539c510f465d82e36 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
+457994f74f1ca54a22d15725111ed9ce3e4cc850 selftests/damon: Test target_ids_write()'s pids leaks
+651abc9634d1e7ec798fdf7f83fb560ae202aabc selftests/damon: add auto-generated files in .gitignore
+aed6c4786ba343a4b46ca9cef01e3dee4215a4df === Commits aiming not to be posted ===
+b98823166ca77a41db77dcaea9bf12aa5966531d mm/damon: Add debug code
+b0657e450cfd280ec26d513574d3cda3b7cf7dcb Docs/DAMON: Add more DAMON docs for external DAMON-only html documents
+2f80ab000cfd48f5560b5236c3315d607b826819 Docs/admin-guide/mm/damon/guide: Fix duplicate target name warning
+7b0c2a7f14cd28ad570fe00ab10ad1d11dcf3387 Docs/mm/damon/eval: reference all footnote
+c2216721c6af1d00b482d3933b38d6c4a769f31e mm/damon/sysfs: Add a file for simple checking memcg ids and paths
+5da27c75b867f300fd5f26ae2b39a875bd54ec8f === Hacks in progress (aim to be posted) ===
+4043aded5562e7aabdc185794c02355f68591c49 mm/damon/sysfs-schemes: provide sum of the size of DAMOS tried regions
+f59e7d10e98b3339059f443ce47382f466e8e838 Docs/mm/damon/design: Update layout
+2ad2e83e730511821cbe4dd738eefa62ba797ae9 Docs/RCU/rculist_nulls: Add missing semicolon on lookup example
+04b33f9214e76880dfdae037549e05958d4c6f6d Docs/RCU/rculist_nulls: Assign 'obj' correctly from lookup examples
+f0927e8f3ad9343abb081092f08a1dc68f9bc5ba Docs/RCU/rculist_nulls: Fix hlist_head field name of 'obj'
+775ef5fff781ba00f1e40611f13c5f313a3ff90f Docs/RCU/rculist_nulls: Use two spaces indentation consistently
+a6407ce61eb07077d9418042a8feda27fd51a9cb Docs/RCU/rculist_nulls: Drop unnecessary '_release' in insert function
+66dc8db41ed079ae14939e85bcbc69b3ef302f5c Docs/RCU/rculist_nulls: Check hash of item in lookup code
+c59367d6fd8dfbc5727414873cd3654af3ca5e5a Docs/mm/damon/design: Add design of DAMOS
+911f9cb499691d37fbb93a5874deb8e41d613936 btf: warn but return no error for NULL btf from __register_btf_kfunc_id_set()
+4c5b4bab8007c342a93da6707ebc7f4d50f71e5b Docs/mm/damon/design: Further writing
+82df8773521fc9114eab222a1173dde47a0d9460 Docs/mm/damon/design: Yet another proofread/wordsmithing
+ff0537fcd01e8bd89d0402e6010761d70971e14f Docs/mm/damon/design: More writing on user interfaces and modules
+b003b441b06f1c4ee7ba699682b5330cec46bd79 fixup of doc
 
---===============1900686058793115442==--
+--===============8437000896446580582==--
