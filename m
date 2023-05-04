@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3034747992255441943=="
+Content-Type: multipart/mixed; boundary="===============7252217613036271280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 04 May 2023 15:13:14 -0000
-Message-Id: <168321319481.20233.5950349054528160179@gitolite.kernel.org>
+Date: Thu, 04 May 2023 15:13:36 -0000
+Message-Id: <168321321648.20408.5884548005451189419@gitolite.kernel.org>
 
---===============3034747992255441943==
+--===============7252217613036271280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 58390c8ce1bddb6c623f62e7ed36383e7fa5c02f
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: a9262b5baca72ba47a9a21e74c627b1762c8278d
     new: bd04e0166c21aa6837ba7fcb4d352a28826fbe6d
-    log: revlist-58390c8ce1bd-bd04e0166c21.txt
+    log: revlist-a9262b5baca7-bd04e0166c21.txt
 
---===============3034747992255441943==
+--===============7252217613036271280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58390c8ce1bd-bd04e0166c21.txt
+Content-Disposition: attachment; filename=revlist-a9262b5baca7-bd04e0166c21.txt
 
 5db7b87fac7a2c70e46d5ca1ca13bd67961f9663 net/handshake: Remove unneeded check from handshake_dup()
 509f54e31c199e3fe0dab93a6f92d3010b8501f5 net/handshake: Fix handshake_dup() ref counting
@@ -51,4 +51,4 @@ e9a2a22362305f13a2ad8c61daa3fbd8aede3fa0 net/handshake: Add helpers for parsing 
 76124c3af66b1db9a8cd0e6bf0ae3a523afdc7a6 SUNRPC: Use new helpers to handle TLS Alerts
 bd04e0166c21aa6837ba7fcb4d352a28826fbe6d net/handshake: Add trace events for TLS Alert helpers
 
---===============3034747992255441943==--
+--===============7252217613036271280==--
