@@ -1,58 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============4706445249470279676=="
+Content-Type: multipart/mixed; boundary="===============3623950869375999682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 04 May 2023 18:50:03 -0000
-Message-Id: <168322620317.2504.4010534569964063225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Thu, 04 May 2023 18:52:44 -0000
+Message-Id: <168322636490.4736.1011130291623948675@gitolite.kernel.org>
 
---===============4706445249470279676==
+--===============3623950869375999682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: fa31fc82fb775445c176e576304c4098222f47f2
-    new: 1a5304fecee523060f26e2778d9d8e33c0562df3
-    log: revlist-fa31fc82fb77-1a5304fecee5.txt
+  - ref: refs/heads/hotplug
+    old: f83d22c85828bce3442f3c2069aed0d0f1ffc87c
+    new: fde99d487af19c1cade8882fb040bce07843ea1f
+    log: revlist-f83d22c85828-fde99d487af1.txt
 
---===============4706445249470279676==
+--===============3623950869375999682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa31fc82fb77-1a5304fecee5.txt
+Content-Disposition: attachment; filename=revlist-f83d22c85828-fde99d487af1.txt
 
-ce1831fe2febf7a3a03fda43b41d7589caa022cd um: add __weak for exported functions
-8c6174503c7b7134c22072b45f92724c8a959f06 um: hostfs: define our own API boundary
-6d708d1a0d81fe85a114766ff6beb3037fa77429 um: don't export printf()
-5d90cf6dcc6a4cb85a51ffe007a8e34375799164 um: further clean up user_syms
-fc54a4f15988e228cf88f888483e985c5f35031e um: prevent user code in modules
-6032aca0deb9c138df122192f8ef02de1fdccf25 um: make stub data pages size tweakable
-ef5031137b90c5338792f7073ba3bf38d14c8cf1 ubi: Simplify bool conversion
-c477d83c26b7acd526a30a32be7e9c0bab5da285 ubifs: Remove return in compr_exit()
-31a149d5c13c4cbcf97de3435817263a2d8c9d6e ubi: Fix return value overwrite issue in try_write_vid_and_data()
-1fb815b38bb31d6af9bd0540b8652a0d6fe6cfd3 ubifs: Free memory for tmpfile name
-3a36d20e012903f45714df2731261fdefac900cb ubifs: Fix memory leak in do_rename
-7d01cb27f6aebc54efbe28d8961a973b8f795b13 Revert "ubifs: dirty_cow_znode: Fix memleak in error handling path"
-b5fda08ef213352ac2df7447611eb4d383cce929 ubifs: Fix memleak when insert_old_idx() failed
-9e7c73c0b9f49bc73818e08e6282a32b94d96168 kernel: pid_namespace: simplify sysctls with register_sysctl()
-0199849acd07d07e2a8e42757653ca8b14a122f5 sysctl: remove register_sysctl_paths()
-0b891c83d8c54cb70e186456c2191adb5fd98c56 module: include internal.h in module/dups.c
-82da62abe56263319a974a4d77c1e6fa19355de1 parisc: Limit amount of kgdb breakpoints on parisc
-e0838a99289e013d17496ed9464c3cf71d49b977 parisc: update kbuild doc. aliases for parisc64
-829632dae8321787525ee37dc4828bbe6edafdae parisc: Replace regular spinlock with spin_trylock on panic path
-d755bd2caeb47fd806e12399fe8b56798fa5d2cc parisc: Ensure page alignment in flush functions
-653f3ea73bf3e03070d370300805eee4f2a47bd9 parisc: Drop HP-UX constants and structs from grfioctl.h
-567b35159e76997e95b643b9a8a5d9d2198f2522 parisc: Cleanup mmap implementation regarding color alignment
-6e3220ba3323a2c24be834aebf5d6e9f89d0993f parisc: Fix argument pointer in real64_call_asm()
-9f2692326b9c6db8d0e866d555606b12a507a363 Merge tag 'ubifs-for-linus-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
-342528ff00e8a7dd31c1ea0c0093c2289d769b39 Merge tag 'uml-for-linus-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
-049a18f232887834fc77e7cee46f06b5043aea22 Merge tag 'sysctl-6.4-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
-b4082428727b58f223661278974527ef9a9661e0 Merge tag 'modules-6.4-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
-1a5304fecee523060f26e2778d9d8e33c0562df3 Merge tag 'parisc-for-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+0fbd82873431451ac361259236e15578e605d216 x86/smpboot: Cleanup topology_phys_to_logical_pkg()/die()
+31bacd39a5bee441721d533ccdeb1cde6d35a0bb cpu/hotplug: Mark arch_disable_smp_support() and bringup_nonboot_cpus() __init
+fb4be4df0343b407378ce4aea6cf0596a86b175e x86/smpboot: Avoid pointless delay calibration if TSC is synchronized
+c6e9ebe5cae7b3ad25907867e094e6a9d1639e18 x86/smpboot: Rename start_cpu0() to soft_restart_cpu()
+71c4d9674961daef3e80d681bb089e9ff6c8bbea x86/topology: Remove CPU0 hotplug option
+421a18ee26592f46b075174f11f2b77ff8b7eb44 x86/smpboot: Remove the CPU0 hotplug kludge
+1ff609c2e9c49dd81ad932818531b781381b9027 x86/smpboot: Restrict soft_restart_cpu() to SEV
+9c8ecd41cd82870f64a6d35430b89b480316994e x86/smpboot: Split up native_cpu_up() into separate phases and document them
+7998cbb0720936fc9b69b6ee3db2d703128a7d4f x86/smpboot: Get rid of cpu_init_secondary()
+228ce4654d9f30cf8d95d3fb961185ca404fdad5 x86/cpu/cacheinfo: Remove cpu_callout_mask dependency
+4b4015e1c38b1324bdcab2bd25b91c369f98a75a x86/smpboot: Move synchronization masks to SMP boot code
+303408a19d76af4e296f1dc5eeb8f9824e67efe9 x86/smpboot: Make TSC synchronization function call based
+b53780f4c5703660ae78e32040e5cc13f5be9e21 x86/smpboot: Remove cpu_callin_mask
+ac812618da67bfa2c9b5f4f3bf309462c93c73c1 cpu/hotplug: Rework sparse_irq locking in bringup_cpu()
+f2ca7b2539c5df0aab76858b76399d710ad38201 x86/smpboot: Remove wait for cpu_online()
+aec2f0c98872bde7fe364b894ade612c818736c7 x86/xen/smp_pv: Remove wait for CPU online
+14725d53eb35c493fe94c711002bde351897aeb5 x86/xen/hvm: Get rid of DEAD_FROZEN handling
+ad2cd7f14c7cece6c50b084ce37083d70691aaca cpu/hotplug: Add CPU state tracking and synchronization
+8dd390cc0e4aed0c7b1d4785c3054b4b18dfb516 x86/smpboot: Switch to hotplug core state synchronization
+2b554a4c2cc34f4acb0e677557482543d4f01981 cpu/hotplug: Remove cpu_report_state() and related unused cruft
+fbcd526856c2bdb8b8b160f0fcbc7e6418ce8a5d ARM: smp: Switch to hotplug core state synchronization
+937f8ee882c33475dac69211ec003cae0ecd5676 arm64: smp: Switch to hotplug core state synchronization
+87310f2755cff6203be430c712addf93326bc03a csky/smp: Switch to hotplug core state synchronization
+c98fa92b530876f2672fa8cc9dc4c1afd6bada38 MIPS: SMP_CPS: Switch to hotplug core state synchronization
+70eb64c57b000d08f8624a128ca4f9cb6db3d081 parisc: Switch to hotplug core state synchronization
+b2c89c27bed1694ec2de4693d1f9229f776aed9d riscv: Switch to hotplug core state synchronization
+1dc907d55586b7bff6a022e9d0da15cdeec44090 cpu/hotplug: Remove unused state functions
+e06fb2de3755f14847114ddcf3e65e7a22c46993 cpu/hotplug: Reset task stack state in _cpu_up()
+7099babd343a97bce0b79443433e28dc0d1f2e5e cpu/hotplug: Provide a split up CPUHP_BRINGUP mechanism
+400065f27589657a160394cd2b801eb141b9048f x86/smpboot: Enable split CPU startup
+dd2512f0c40eb19c16d09a846c8e06f1cd86c3f1 x86/apic: Provide cpu_primary_thread mask
+20cb18d9eaac09753a4b572116791bf955a5a832 cpu/hotplug: Allow "parallel" bringup up to CPUHP_BP_KICK_AP_STATE
+dbc5fd683aaabb710f869b9ec831db63885c2fc3 x86/topology: Store extended topology leaf information
+3ebb6c376902ca9409c104cc0b29ab80f1c55738 x86/cpu/amd; Invoke detect_extended_topology_early() on boot CPU
+66cfdb9c972f581f573e582fc3c8c21b7921c268 x86/apic: Save the APIC virtual base address
+c043c017938d38ca41bfc3694dbe13e8a9a300c0 x86/smpboot: Implement a bit spinlock to protect the realmode stack
+af3bbff860c703e5ea68b047347d3118f6ec5b91 x86/smpboot: Support parallel startup of secondary CPUs
+fde99d487af19c1cade8882fb040bce07843ea1f x86/smpboot/64: Implement arch_cpuhp_init_parallel_bringup() and enable it
 
---===============4706445249470279676==--
+--===============3623950869375999682==--
