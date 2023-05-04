@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 04 May 2023 16:26:33 -0000
-Message-Id: <168321759342.4705.15827767750584405427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matttbe/net-next
+Date: Thu, 04 May 2023 16:36:30 -0000
+Message-Id: <168321819003.10808.16053851130021104298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/matttbe/net-next
+user: matttbe
 changes:
-  - ref: refs/heads/dev-queue
-    old: cf8d73244f3a7bf78ae4042f4d700da212be3dcc
-    new: 160517a6c63ee745114d31062aae038e5ede85ab
-    log: |
-         160517a6c63ee745114d31062aae038e5ede85ab iavf: remove mask from iavf_irq_enable_queues()
-         
+  - ref: refs/heads/b4/mptcp-issue-368-selftests-old-kernels
+    old: 0000000000000000000000000000000000000000
+    new: 71ffa0bf649c2228f63bcb4633c8b02bb2b266af
