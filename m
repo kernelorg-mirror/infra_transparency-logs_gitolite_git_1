@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7925544475059022248=="
+Content-Type: multipart/mixed; boundary="===============7925755437747505157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 04 May 2023 08:49:16 -0000
-Message-Id: <168319015677.10839.15493586015600507076@gitolite.kernel.org>
+Date: Thu, 04 May 2023 08:55:01 -0000
+Message-Id: <168319050199.15504.11122808583921840911@gitolite.kernel.org>
 
---===============7925544475059022248==
+--===============7925755437747505157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 457391b0380335d5e9a5babdec90ac53928b23b4
-    new: 1a5304fecee523060f26e2778d9d8e33c0562df3
-    log: revlist-457391b03803-1a5304fecee5.txt
+  - ref: refs/heads/for-next/juno/fixes
+    old: ac50b0437543ae1c73e0a11eb2542cf836f18559
+    new: 18f27e227561c1644c32fe5243aa40429c382470
+    log: revlist-ac50b0437543-18f27e227561.txt
 
---===============7925544475059022248==
+--===============7925755437747505157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-457391b03803-1a5304fecee5.txt
+Content-Disposition: attachment; filename=revlist-ac50b0437543-18f27e227561.txt
 
-e408336a693e0fd74ba1b959627594b80f1761c3 bridge: Pass VLAN ID to br_flood()
-a714e3ec230892039b5d5ae6902b58bb084a15c1 bridge: Add internal flags for per-{Port, VLAN} neighbor suppression
-6be42ed0a5f4b26e77b51cd10a09b41d53f97570 bridge: Take per-{Port, VLAN} neighbor suppression into account
-3aca683e0654a2f4ff6996341cba98a5396ff050 bridge: Encapsulate data path neighbor suppression logic
-412614b1457af278b00152f3804af5481c6c55ac bridge: Add per-{Port, VLAN} neighbor suppression data path support
-83f6d600796c65ab34b08dbddb5795099dfda4d1 bridge: vlan: Allow setting VLAN neighbor suppression state
-160656d7201d861a1f2a0bf279a765e8cda2317a bridge: Allow setting per-{Port, VLAN} neighbor suppression state
-7648ac72dcd7e22ac1fa5e573e536592773831dc selftests: net: Add bridge neighbor suppression test
-25c800b210587801a55d1b667059e5ae388a5edb Merge branch 'bridge-neigh-suppression'
-55435ea7729accb5b8a330de751836c4be524834 pds_core: initial framework for pds_core PF driver
-523847df1b3718d6286dce0ed1c83742fe0ffa94 pds_core: add devcmd device interfaces
-c2dbb0904310362aaff213e8c877e655c745d0d1 pds_core: health timer and workqueue
-25b450c05a49e34f2d08ac469ae19d7651abc57c pds_core: add devlink health facilities
-45d76f492938cdc27ddadc16e1e75103f4cfbf56 pds_core: set up device and adminq
-01ba61b55b2041a39c54aefb3153c770dd59a0ef pds_core: Add adminq processing and commands
-49ce92fbee0b6bb8066dddf37489483b3b6b5c25 pds_core: add FW update feature to devlink
-65e0185ad764d2801811bb2e7c122e92557208c4 pds_core: set up the VIF definitions and defaults
-f53d93110aa526ad3df628ad6d9f672c7d5ae285 pds_core: add initial VF device handling
-4569cce43bc61e4cdd76597a1cf9b608846c18cc pds_core: add auxiliary_bus devices
-40ced89445364baa8620e92fba5b3fff8d9742b9 pds_core: devlink params for enabling VIF support
-10659034c622738bc1bfab8a76fc576c52d5acce pds_core: add the aux client API
-d24c28278a01dc4c80d1470533c667cf406f0e88 pds_core: publish events to the clients
 ddbcb22055d136f58841c73ca2226dab79eb6101 pds_core: Kconfig and pds_core.rst
 d8bb382419230cf626a527eeb55efae0c56039fb Merge branch 'pds_core'
 aaee8c7f2a17d2dd015dc97c113c9ea0cc97272a m68k: kexec: Include <linux/reboot.h>
@@ -119,7 +97,13 @@ f37202aa6e5d6d39a48f744d962fd2bf3a8a452b Merge tag 'irqchip-6.4' of git://git.ke
 f6c73a11133ef991284311387ca707b48bf53912 fs.h: Add TRACE_IOCB_STRINGS for use in trace points
 d3bff1fc50d4fcaccddbd63917dd94172e80c40e iomap: Remove IOMAP_DIO_NOSYNC unused dio flag
 3fd41721cd5c30af37c860e6201c98db0a568fd2 iomap: Add DIO tracepoints
+5a43001c01691dcbd396541e6faa2c0077378f48 ASN.1: Fix check for strdup() success
+a14e151910dd967311dbdfe6d95dcd04e777db84 Merge tag 'sound-6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 7a40f1f18a88c6d43c8725d7f45146480a79fde1 fs: dlm: stop unnecessarily filling zero ms_extra bytes
+bdc83e00f0a195b85e7879b65a4ca7a6520fe135 Merge tag 'gpio-fixes-for-v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+8fd06d441e35cc9543b410f9cb9aaa8e54ece38d Merge tag 'char-misc-6.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+334e5a8206af93818fd384300666cc203f08f035 Merge tag 'block-6.3-2023-04-21' of git://git.kernel.dk/linux
+c337b23f32c87320dffd389e4f0f793db35f0a9b Merge tag 'for-6.3-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 0232b788978652571c4f4e57dc26ff8e4837926a bpftool: Register struct_ops with a link.
 45cea721ea36d83969473d2abd29bcc2321cacdd bpftool: Update doc to explain struct_ops register subcommand.
 84601d6ee68ae820dec97450934797046d62db4b bpf: add bpf_link support for BPF_NETFILTER programs
@@ -159,6 +143,7 @@ c477d83c26b7acd526a30a32be7e9c0bab5da285 ubifs: Remove return in compr_exit()
 c5733ae6dc895fa45032df0342c98dedc7051c2d NFS: set varaiable nfs_netfs_debug_id storage-class-specifier to static
 1fb815b38bb31d6af9bd0540b8652a0d6fe6cfd3 ubifs: Free memory for tmpfile name
 3a36d20e012903f45714df2731261fdefac900cb ubifs: Fix memory leak in do_rename
+8e41e0a575664d26bb87e012c39435c4c3914ed9 Revert "ACPICA: Events: Support fixed PCIe wake event"
 e025f0a73f6acb920d86549b2177a5883535421d NFS: Cleanup unused rpc_clnt variable
 a494aef23dfc732945cb42e22246a5c31174e4a5 PCI: hv: Replace retarget_msi_interrupt_params with hyperv_pcpu_input_arg
 be41d814c6c7bbf3ffa66faeefa01f6cea8e3c98 kasan: fix lockdep report invalid wait context
@@ -191,6 +176,7 @@ f0ca8c25256dd22737db5780e33e2809ce297625 sparse: remove unnecessary 0 values fro
 522dc4e5f51e3d51c4ff55ad1c725d12176b71ea fs/proc: add Kthread flag to /proc/$pid/status
 09d49eb90fc8d03e1dab62dd7060389040f1d32b ocfs2: reduce ioctl stack usage
 22ba509dd4dad053ad88fc387b5a74c2a9296a01 mailmap: add entry for Oleksandr
+6dcbd0a69c84a8ae7a442840a8cf6b1379dc8f16 MIPS: Define RUNTIME_DISCARD_EXIT in LD script
 531094dc7164718d28ebb581d729807d7e846363 RDMA/efa: Add rdma write capability to device caps
 76d4bd591e1101df69c44c819041e374c63f1194 rust: sync: introduce `Lock` and `Guard`
 6d20d629c6d8575be98eeebe49a16fb2d7b32350 rust: lock: introduce `Mutex`
@@ -199,6 +185,7 @@ f1fbd6a864d417443cdacd6bfdb7fd626993da7e rust: introduce `ARef`
 313c4281bc9dfa98d76a71b16a684af1c52e7751 rust: add basic `Task`
 8da7a2b7432e8f043f04515895687f72cdb3e0a8 rust: introduce `current`
 7b1f55e3a984aaed0121f90f9f8580f18b7b561e rust: sync: introduce `LockedBy`
+265b97cbc22e0f67f79a71443b60dc1237ca5ee6 Merge tag 'kvmarm-fixes-6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 e38fbfa972eb0944ce4387caf23d166c1df4b114 netfilter: nf_tables: merge nft_rules_old structure and end of ruleblob marker
 d4d89e6546e0d1ac09cb9dd353f0cb31c8a8deb1 netfilter: nf_tables: don't store address of last rule on jump
 63e9bbbcca60333490e13744ae736d8f988e4950 netfilter: nf_tables: don't store chain address on jump
@@ -256,10 +243,13 @@ e922da40befdbaa89cd85d3154b4a9cea8880fa0 ALSA: emu10k1: minor optimizations
 be250b7c9b2d8b30d923d6ae947c9f8e5fc40948 ALSA: emu10k1: remove unused `resume` parameter from snd_emu10k1_init()
 8b2dd46d9a0370cf092fdd798dd66634abaf03e0 ALSA: emu10k1: remove unused emu->pcm_playback_efx_substream field
 6fb861bb3caf2ca8e440f7a3fdcca35fcac917b4 ALSA: emu10k1: fix snd_emu1010_fpga_read() input masking for rev2 cards
+84ebdb8e0d9ca261d73677f345814505af172ae0 Merge tag '6.3-rc7-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+2caeeb9d4a1bccd923b7918427f9e9ef7151ddd8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 267214a2319b5692bbc9b128a6514960291dcca8 cxl/port: Fix port to pci device assumptions in read_cdat_data()
 95b5baf81001a80a8dd8b35306694db163bcb423 MIPS: Mark check_bugs() as __init
 f4670a1b30f886e843258ca4a69c442811a90302 MIPS: Sink body of check_bugs_early() into its only call site
 3db166d6cf0ea73dd2c887036aad2e95e0884d9b cxl/mbox: Deprecate poison commands
+622322f53c6d9ddd3c2a4aad852b3e1adbd56da7 Merge tag 'mips-fixes_6.3_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 a869057cd639ed41a1b16bc072fb20cb1ed1dc51 ALSA: emu10k1: comment updates
 6815f5359aa5d02d1a936221812ab46624c39283 ALSA: emu10k1: fix lineup of EMU_HANA_* defines
 a062b1032adae9ad89afb8dca299ef3ce9aca566 ALSA: emu10k1: eliminate some unused defines
@@ -271,6 +261,8 @@ ac9219d93a983b0e146878695beb64ea624747d4 ALSA: emu10k1: remove some bogus define
 dad173035ed6b3ba45b5f3923908f09093964900 ALSA: emu10k1: don't stop DSP in _snd_emu10k1_{,audigy_}init_efx()
 14a2956539b0620d3b7369af75ddc73f18852835 ALSA: emu10k1: fix error handling in snd_audigy_i2c_volume_put()
 8d60d5cabea12cd533e4f216ab3b773390165aac ALSA: emu10k1: use high-level I/O functions also during init
+8b824220bd6641976676ae7a1e925db63eb89c4b kbuild: deb-pkg: Fix a spell typo in mkdebian script
+9cedc5e89a59da72bfecdb76bfaa5a28a273029d kbuild: use proper prefix for tarballs to fix rpm-pkg build error
 4eaeca1fc43a4060fa79d7a071572e89181a725e net: mtk_eth_soc: mediatek: fix ppe flow accounting for v1 hardware
 19c60fdee5db881a99a9c39fb31942a530d20c63 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 e8e1ce8454c9cc8ad2e4422bef346428e52455e3 net: add debugging checks in skb_attempt_defer_free()
@@ -295,9 +287,14 @@ f0a9d563064c3040a2d7b32317b37a6bcb1099b2 net: dsa: update TX path comments to no
 00266b365d2b5a7ab4c9fa300784607d5770f8bc Merge branch 'dsa-skb_mac_header'
 2f0f9465ad9fa9c93f30009184c10da0f504f313 net: sched: Print msecs when transmit queue time out
 31f735c65d4f4825c57620f39f2fa27aa01ac172 kbuild: add srcdeb-pkg target
+d6b78224c65e395db6aa66ea74522d9899c8aefb Merge tag 'input-for-v6.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+97249f05b27385b7f870d8e2e6062e26e5f132e8 Merge tag 'x86_urgent_for_v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5ad250f1fe92f21de09dabcd329e681d15aed9a4 Merge tag 'irq_urgent_for_v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8296ac9256aa1e9305033720de77ee5419a80f6f Merge tag 'kbuild-fixes-v6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 1c19ac768b8eeb0304c4ed7db66c2bb89c6ad226 hwmon: lochnagar: Remove the unneeded include <linux/i2c.h>
 fc623d89b4c404f2dea917d00eba2111f3c1bc15 media: Fix building pdfdocs
 7e8472c820f04517ae5d5a27c1aecfa2263a0aa5 media: Adjust column width for pdfdocs
+0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
 5036034572b79daa6d6600338e8e8229e2a44b09 net/sched: act_pedit: use NLA_POLICY for parsing 'ex' keys
 0c83c5210e18763ec54252b990d270748c99b01d net/sched: act_pedit: use extack in 'ex' parsing errors
 e1201bc781c28766720e78a5e099ffa568be4d74 net/sched: act_pedit: check static offsets a priori
@@ -320,6 +317,7 @@ f8d22bf50ca56a334ef58bf59ee299ed62940e42 tools/testing/cxl: Mock support for Get
 d2fbc48658022f48625064ae192baff52057987d cxl/memdev: Add support for the Inject Poison mailbox command
 9690b07748d18ac667036a68442081c4aea33ba7 cxl/memdev: Add support for the Clear Poison mailbox command
 0a105ab28a4de44eb738ce64e9ac74946aa5133b cxl/memdev: Warn of poison inject or clear to a mapped region
+457391b0380335d5e9a5babdec90ac53928b23b4 Linux 6.3
 98b6926562d9ccdbca69de9a0e0bf4f90d7f1326 cxl/memdev: Trace inject and clear poison as cxl_poison events
 50d527f52cbf0680c87d11a254383ca730c5c19f cxl/mem: Add debugfs attributes for poison inject and clear
 371c16101ee8a076cbe93ab95bbefdb43927003e tools/testing/cxl: Mock the Inject Poison mailbox command
@@ -1050,5 +1048,7 @@ fa31fc82fb775445c176e576304c4098222f47f2 Merge tag 'pm-6.4-rc1-2' of git://git.k
 049a18f232887834fc77e7cee46f06b5043aea22 Merge tag 'sysctl-6.4-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 b4082428727b58f223661278974527ef9a9661e0 Merge tag 'modules-6.4-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 1a5304fecee523060f26e2778d9d8e33c0562df3 Merge tag 'parisc-for-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+977cbe03e02449f459426716f804382ed76f180d ARM: dts: vexpress: add missing cache properties
+18f27e227561c1644c32fe5243aa40429c382470 arm64: dts: arm: add missing cache properties
 
---===============7925544475059022248==--
+--===============7925755437747505157==--
