@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 04 May 2023 09:46:53 -0000
-Message-Id: <168319361371.31240.7882019805860274113@gitolite.kernel.org>
+Date: Thu, 04 May 2023 10:21:48 -0000
+Message-Id: <168319570824.22963.12956654182014365676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,16 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/x86-efistub-cleanup
-    old: b5c6e7e9fc7da4ab714f4d1e399b84d7e3f66f88
-    new: 57fe7b08655fd372ecf29851411a4cb34e6ca129
+    old: 57fe7b08655fd372ecf29851411a4cb34e6ca129
+    new: 1a9ad76742cd4134ae179ef3df349c46cad0ce99
     log: |
-         a182fde67fbb782d1fbf19001217851b54a19ec6 x86: decompressor: Merge trampoline cleanup with switching code
-         e122a4bf55963a08cda18f9cecdadc4c8ef7c62f x86: efistub: Perform 4/5 level paging switch from the stub
-         e54bc669bf948c0cfe820a6aeffc6624af1715f7 x86: efistub: Prefer EFI memory attributes protocol over DXE services
-         eced8d1b7449416ee38fa5a16382524955c482ec x86: decompressor: Move global symbol references to C code
-         b88b97eddc5f5760007d30f5fb21e18348a282b3 x86: decompressor: Factor out kernel decompression and relocation
-         70f7bf1bf7296b93e6008cbcaad38a1d3143d5c3 x86: head_64: Store boot_params pointer in callee-preserved register
-         b9c2cd9fc788a88be49d758e0d8721d6fb642973 x86: head_64: Switch to kernel CS before enabling memory encryption
-         d8aaa6f3017dfb27fec781b8d7283d7e07912db6 x86: efistub: Clear BSS in EFI handover protocol entrypoint
-         57fe7b08655fd372ecf29851411a4cb34e6ca129 x86: efistub: Avoid legacy decompressor when doing EFI boot
+         e2517609ff0d5b0e85b9af66f535060a879cc8a1 x86: decompressor: Merge trampoline cleanup with switching code
+         06c03f8d30b869212dc12df7926cfe4b00f01dfb x86: efistub: Perform 4/5 level paging switch from the stub
+         806957292a9f70c8d0f1f422bf9043034e17495e x86: efistub: Prefer EFI memory attributes protocol over DXE services
+         745ff8be5c64dc7a9874d263b0166467d438428b x86: decompressor: Move global symbol references to C code
+         349f54bdb7e43c8ca4921040cd1128896fc56b47 x86: decompressor: Factor out kernel decompression and relocation
+         6b3a32c35dedf8f40bb9e7339f3803b3d76932e0 x86: head_64: Store boot_params pointer in callee-preserved register
+         f8c7c85458407d435671aed2ca24bcd9e76f62c4 x86: head_64: Switch to kernel CS before enabling memory encryption
+         5a16340b0bfdd3bc9977a57725160aaa1c6ad918 x86: efistub: Clear BSS in EFI handover protocol entrypoint
+         1a9ad76742cd4134ae179ef3df349c46cad0ce99 x86: efistub: Avoid legacy decompressor when doing EFI boot
          
