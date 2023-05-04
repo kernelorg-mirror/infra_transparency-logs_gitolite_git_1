@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Thu, 04 May 2023 20:52:05 -0000
-Message-Id: <168323352536.18542.2457935812189562893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 04 May 2023 20:55:02 -0000
+Message-Id: <168323370299.20723.7014808287226011131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 8ad55edd66f1b92a3c0195ef796d94f38703248d
-    new: ed1265d5854d66863140693309c5e3cacfbe19a6
+  - ref: refs/heads/master
+    old: e2d45364a0f6d271bcae0d0a1cacfdd6f4e2bbca
+    new: fbab0f8e26520643d93712e022f0b08781e8ca66
     log: |
-         ed1265d5854d66863140693309c5e3cacfbe19a6 fscrypt: destroy keyring after security_sb_delete()
+         fbab0f8e26520643d93712e022f0b08781e8ca66 Thu May  4 08:53:40 PM UTC 2023
          
