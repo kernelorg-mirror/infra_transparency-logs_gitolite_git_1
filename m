@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 04 May 2023 22:18:13 -0000
-Message-Id: <168323869325.9090.14771375662330460161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 04 May 2023 22:30:25 -0000
+Message-Id: <168323942550.18669.12706504120462619180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/damon/next
-    old: 721d9def034e4f6d988c077487f3fb6e9a5f755b
-    new: 2d880d59aa0da61860cc04cc6de8b738af13e778
+  - ref: refs/heads/master
+    old: ff3d4431bc9b51de0bc02ee62dda49b385718b61
+    new: 41b4da80901a9cc42f95ecc99fb9c642030833fa
     log: |
-         2d880d59aa0da61860cc04cc6de8b738af13e778 Docs/mm/damon/design: Writeup DAMOS design
+         41b4da80901a9cc42f95ecc99fb9c642030833fa Thu May  4 10:29:20 PM UTC 2023
          
