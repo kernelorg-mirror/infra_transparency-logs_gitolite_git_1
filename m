@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 05 May 2023 22:19:33 -0000
-Message-Id: <168332517347.11667.3013046996928523988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 05 May 2023 22:50:43 -0000
+Message-Id: <168332704332.2263.18040993624016094164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: 1f85d016768ff19f060f3cce014a43c761de8259
-    new: 6c73f819b6b6d6f052e8dbe3f66f0693554ddf48
+  - ref: refs/heads/todo
+    old: 860208a52f24159c235c7b4acee616b1873d1242
+    new: 05aa2dcf4a6fcbf2c3ea474d692ab6943c6284e4
     log: |
-         ecc68ee216c6c5b2f84915e1441adf436f1b019b perf stat: Separate bperf from bpf_profiler
-         a887466562b425bd6183bf75b523c1477c9fd22d perf bpf skels: Stop using vmlinux.h generated from BTF, use subset of used structs + CO-RE
-         6c73f819b6b6d6f052e8dbe3f66f0693554ddf48 perf metrics: Fix SEGV with --for-each-cgroup
+         05aa2dcf4a6fcbf2c3ea474d692ab6943c6284e4 What's cooking (2023/05 #02)
          
