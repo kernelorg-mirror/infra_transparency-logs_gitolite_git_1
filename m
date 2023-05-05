@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1143409516761070495=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 05 May 2023 10:35:06 -0000
-Message-Id: <168328290669.29981.11041907345632326832@gitolite.kernel.org>
-
---===============1143409516761070495==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 05 May 2023 11:18:28 -0000
+Message-Id: <168328550832.24592.13237731100663370008@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/tags/kvm-6.4-2
-    old: 0000000000000000000000000000000000000000
-    new: ab7218c932494eb57fc9654e3cd7dba39cb2222d
-
---===============1143409516761070495==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1683282905 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1683282903-85886f3921069f91ca1c8b95c6a595cebe6de629
-
-0000000000000000000000000000000000000000 ab7218c932494eb57fc9654e3cd7dba39cb2222d refs/tags/kvm-6.4-2
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmRU29kUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPNHgf/dKcZPKX0taKRqfGPXkj7XDZehRkH
-Yafxg7Y8apuOgTKRMAelLIojY7UAJInvbkhgIyubYWjfzSYX+R5BF/3i8fhfXoio
-MXCkSjQgtsQP7XrgY8VGsa384BW2+uyMUarVqIN2Ri7fMAHiBiWXvoCuNKuOF4/S
-yLtIjNFok8jpDYpZs8uQ4N7R4NgPWBPPwRCJhQc+/lYtItStSktAwWOPPdUEntNG
-iE4nyywbCb7djywFZfA/d3Y11/dVMkhdsLBu4RkllJi0ZTGU59WUQZTTbBbysNxW
-LrqVSwEpfiVsESryi0ndwMDv8+Yb4hsEtibGDafmpOHPLCPUQ+CUW+ebNA==
-=VAre
------END PGP SIGNATURE-----
-
---===============1143409516761070495==--
+  - ref: refs/heads/x86-efistub-cleanup
+    old: 5268bd4b81efa7f75e3e84ec2fc3a45666d86747
+    new: 0994a7bab721b5e45d202fa542f3fbd8c49c2fdf
+    log: |
+         e37fed8da6f123902d38918d2c1840e3ebe70b43 x86: efistub: Avoid legacy decompressor when doing EFI boot
+         f02a066070892f57e73d176af03caf8a41652b32 x86: efistub: Clear BSS in EFI handover protocol entrypoint
+         0994a7bab721b5e45d202fa542f3fbd8c49c2fdf x86: decompressor: Avoid magic offsets for EFI handover entrypoint
+         
