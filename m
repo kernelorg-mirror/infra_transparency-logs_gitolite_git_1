@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 05 May 2023 19:45:02 -0000
-Message-Id: <168331590221.5856.6171940183837396100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 05 May 2023 19:57:58 -0000
+Message-Id: <168331667856.15502.14739581305919015705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dev-test
-    old: afa7ebe23921bddb4e55c987eff2c784d434c93a
-    new: 3620e4916cd96be91e482121fd4914f00f0bd05b
+  - ref: refs/heads/master
+    old: 44713beaccc5b36cd652eb235d58877b678267e4
+    new: 5dc7c1ee6efe81d68d153169ae72cd3ceeec26b8
     log: |
-         3620e4916cd96be91e482121fd4914f00f0bd05b f2fs: fix the wrong condition to determine atomic context
+         5dc7c1ee6efe81d68d153169ae72cd3ceeec26b8 mbind.2: Clarify MPOL_MF_MOVE with MPOL_INTERLEAVE policy
          
