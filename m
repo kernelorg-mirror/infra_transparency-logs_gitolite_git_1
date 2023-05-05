@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 05 May 2023 00:25:59 -0000
-Message-Id: <168324635973.29953.16733226435760804627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 05 May 2023 00:30:05 -0000
+Message-Id: <168324660589.473.16348129784484279698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/dev
-    old: 1fec92d028e8bd80c2b1d6da11b8ba9dab302534
-    new: d3d734216c88fb7c13205dc62178ff5011da415b
+  - ref: refs/heads/damon/next
+    old: 61d8571a8612275f0bbcf6dc4377a694545cab3c
+    new: 6cd87f67e187c9ab7095727ea227cdcff055844f
     log: |
-         d3d734216c88fb7c13205dc62178ff5011da415b rcu: Add missing parentheses around rcu_dereference() "p" parameter
+         6cd87f67e187c9ab7095727ea227cdcff055844f Docs/mm/damon/design: Further wordsmith of DAMOS, DAMON API Users
          
