@@ -1,102 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============9197179444816513787=="
+Content-Type: multipart/mixed; boundary="===============1727559540952686491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 05 May 2023 01:42:55 -0000
-Message-Id: <168325097580.20104.17193603905078898951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 05 May 2023 01:43:09 -0000
+Message-Id: <168325098951.20296.17602379559913225039@gitolite.kernel.org>
 
---===============9197179444816513787==
+--===============1727559540952686491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: 185f0ec195a26cadd660d978125d8cab9e256eda
-    new: a4b1b128d6e6f4cf1ab6838085988181581b2791
-    log: |
-         a5c76569e798ad3656afe6b67f37cbbb2e47f28c credential: new attribute oauth_refresh_token
-         756991bc88a9c7a089cc7a8746c86159a7a155e8 doc: remove custom callouts format
-         6696077aced3847b49af2db8b7477b6823fa681b docs: rewrite the documentation of the text and eol attributes
-         d832f2ac55365fab5f6631b9e3b7dbd140d32e3b doc: manpage: remove maximum title length
-         0c5308af30f7f3a810aa64e74152a8df7c81e87c docs: clarify git rm --cached function in gitignore note
-         121c97817e075950a4c4a95d30750bf8707d0732 Merge branch 'ah/doc-attributes-text' into next
-         9ade4aa0245084523ccd623ec125e2398ef4fa00 Merge branch 'mh/credential-oauth-refresh-token' into next
-         c2fd6543670b79a97a33c63e92e106fa0408735d Merge branch 'fc/doc-drop-custom-callout-format' into next
-         d048eb1ef851f9a78894331fd2e5c7dd4f30bf69 Merge branch 'fc/doc-man-lift-title-length-limit' into next
-         a4b1b128d6e6f4cf1ab6838085988181581b2791 Merge branch 'sd/doc-gitignore-and-rm-cached' into next
-         
-  - ref: refs/heads/seen
-    old: 7a5e8ba46e7ccc28e67b9d2b66025b36e9aedcc6
-    new: 237db24e24524c8b468c97a36ee8556d30bff869
-    log: revlist-7a5e8ba46e7c-237db24e2452.txt
+  - ref: refs/heads/master
+    old: 3c4aa44343777844e425c28f1427127f3e55826f
+    new: 78b421b6a7c6dbb6a213877c742af52330f5026d
+    log: revlist-3c4aa4434377-78b421b6a7c6.txt
 
---===============9197179444816513787==
+--===============1727559540952686491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a5e8ba46e7c-237db24e2452.txt
+Content-Disposition: attachment; filename=revlist-3c4aa4434377-78b421b6a7c6.txt
 
-2e2cdba81a196146f1db3d2bbaf0e1f0c05646eb diff: fix interaction between the "-s" option and other options
-b76a91663244ec7ddc5386aa01317538cfb7810d Merge branch 'jk/parse-commit-with-malformed-ident' into jch
-2a1546b70fffe1a16d749bc3398ba864c1e01492 Merge branch 'mh/fix-detect-compilers-with-nondigit-versions' into jch
-637fb317ad34ed66933168c9c9bcf68c66ff3065 Merge branch 'pb/complete-and-document-auto-merge-and-friends' into jch
-d9c6e090c443b0d189f3ce1b1c8d7fc5120d4eda Merge branch 'en/header-split-cache-h-part-2' into jch
-b09a753c76c60ae032e66c433f8981e1253c5bf9 Merge branch 'ob/sequencer-i18n-fix' into jch
-0f61307a4d0de2f40b66f3332860cff9d7b136bd Merge branch 'ob/messages-capitalize-exception' into jch
-040dafd0e95e2b102982e8b36ba9b969935bc889 Merge branch 'jw/send-email-update-gmail-insn' into jch
-29f84fc0cf234288cd8ec8f7ac340f760c098026 Merge branch 'ob/t3501-retitle' into jch
-7d4c51b340054a6c96677b4843a02ba7448aa52f Merge branch 'rs/test-ctype-eof' into jch
-981dff00713bbde5a5299dcce40d750061d0ba67 Merge branch 'tb/credential-long-lines' into jch
-d2f85c65f7bca2ed26324a859e4d22b4a0cc70a6 Merge branch 'ma/gittutorial-fixes' into jch
-941f0425ad05e7e42efb4bde149ccd9337f016c0 Merge branch 'hx/negotiator-non-recursive' into jch
-d86944403dd03594edb9311312e28e2f46433f3a Merge branch 'ms/send-email-feed-header-to-validate-hook' into jch
-5df2b10ff63e5c9f0beb2ef879399d0e3972f348 Merge branch 'ar/test-cleanup-unused-file-creation-part2' into jch
-d1b2aed8583b330b9b08f3a0b87c00b4827e5691 Merge branch 'ah/doc-attributes-text' into jch
-29640a02120c8fce1047ad9ecd1f3f7acef9d716 Merge branch 'mh/credential-oauth-refresh-token' into jch
-c93a1a4af31ef5feeac4f04fde0992252b8bf21d Merge branch 'fc/doc-drop-custom-callout-format' into jch
-bd1f312f70ac3958cad2ec559c8a44d22b260a58 Merge branch 'fc/doc-man-lift-title-length-limit' into jch
-4952311dcb094c03ea9bf25635f70361a400db1b Merge branch 'sd/doc-gitignore-and-rm-cached' into jch
-d69d654999ea7d18ddee99de61034d2540879ceb ### match next
-8c520ab553cdfcd98ae7f0209044e49501781ae0 Merge branch 'rj/branch-unborn-in-other-worktrees' into jch
-0bcb069bc70b1be5a0227c134f792d2eda9130ae Merge branch 'mh/credential-password-expiry-wincred' into jch
-2aff7194a1ccaea74f9ff075e5bdd481554f3b83 Merge branch 'jc/doc-clarify-git-default-hash-variable' into jch
-04dcd7892bc825b60e3ed6f5fa368dd578b8ff07 Merge branch 'tl/notes-separator' into jch
-5cdb22e8e7e38a8ac8756953def552ea08c45bd1 Merge branch 'jc/attr-source-tree' into jch
-7dc997f5270c5f9358addb0063db84b88e0e2200 Merge branch 'mc/send-email-header-cmd' into jch
-0cc25111b8878d8f4009f8c5ca122c3b2f96c1c3 Merge branch 'ds/fsck-bitmap' into jch
-17998c9d2c051508a693df28b0f81b3293f5c86e Merge branch 'gc/trace-bare-repo-setup' into jch
-81b6041a630d66600b3d14f78acbedc4607f5a2f Merge branch 'kh/doc-interpret-trailers-updates' into jch
-9ac8de0b52c45a157c1989b19f50dd827a4918fc Merge branch 'mh/use-wincred-from-system' into jch
-292360f277cb87c3dce34e8d315462239afd02cc Merge branch 'mh/credential-password-expiry-libsecret' into jch
-cc89347170b5ef41b1043a188a54a0c44bea9a70 Merge branch 'gc/doc-cocci-updates' into jch
-f0d19e3f026b49c969923751d66dc69129358e9b Merge branch 'ar/config-count-tests-updates' into jch
-a797a9b96ffe0b3f8a43febd012c1de17c37836f Merge branch 'pw/rebase-i-after-failure' into jch
-78b213bbd02c4b2b53f5c59d53dce8a494a245e3 Merge branch 'ps/fetch-output-format' into jch
-880b8f529f803d4f0aebde39ee120fe41757bceb Merge branch 'tb/pack-bitmap-traversal-with-boundary' into jch
-400b4ff8db0cbba03cdc7f710fe0028aec530352 Merge branch 'sl/diff-files-sparse' into jch
-b874594793ea6ba3a630a74d9f2baa2f8cbb6e9a Merge branch 'sl/sparse-write-tree-part-2' into jch
-755800d2222df64b3ff792ba81fb93b51366c877 Merge branch 'ob/revert-of-revert' into jch
-e1f17c63dc8d6064a5579d35bb6b7c71350e2487 Merge branch 'bc/clone-empty-repo-via-protocol-v0' into jch
-4141e6af089c9e21287e61657e4d426dab48086f Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
-9721303ef63dd3a00f34a2b673dd1319b7a75931 Merge branch 'ab/imap-send-requires-curl' into seen
-caa7823bc5b9823ccc7c7ed28461f060be053fd8 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
-01a0688f21fd7da260b466b37172c07b81308031 Merge branch 'so/diff-merges-more' into seen
-aeaa2bd4a35bc05e7bc3eceb75c6dc18eca2620f Merge branch 'cw/submodule-status-in-parallel' into seen
-22e1ff657738a5c87eba11986471ace5d3c0241f Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
-b1c82dd04dac47aa57e72fb5feea9fd573b9e009 Merge branch 'cb/checkout-same-branch-twice' into seen
-12cd60fe742268793f6345ff607a429c19f4c3b0 Merge branch 'ab/tag-object-type-errors' into seen
-fec835eab33ec45290cd5dedecf34a2791cf08f6 Merge branch 'ja/worktree-orphan' into seen
-f48684934829d7bab250cc39d654ce63699ed040 Merge branch 'tb/pack-bitmap-index-seek' into seen
-8545c1b0beb6df60eee0f9c465e50dda8f5f6b54 Merge branch 'rn/sparse-diff-index' into seen
-828a50d7ca87b37af35999d8a5c1bde127baeddd Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
-7157cb969c72d87375a08cc8999a2d922f9d9c56 Merge branch 'sg/retire-unused-cocci' into seen
-fe4eaeb37d942a9a9ac0507b67ffc892cf7c7351 Merge branch 'cw/strbuf-cleanup' into seen
-8013334f9e7ed84a3facba81fef08191446c19af Merge branch 'tb/pack-extra-cruft-tips' into seen
-237db24e24524c8b468c97a36ee8556d30bff869 Merge branch 'jc/diff-s-with-other-options' into seen
+0ea0a825192efdd44af4c016faaab1a3d2073c78 watchdog: imx2_wdg: Declare local symbols static
+12cee6efb7b94918747d09ba7488dd5cb1bbe2be watchdog: core: Always set WDOG_HW_RUNNING when starting watchdog
+9b31b1ea125ca2e734ae89badc0c3073b4445842 watchdog: s3c2410_wdt: Use devm_clk_get[_optional]_enabled() helpers
+89baf2522ba3a82b7aa61dba023a8092b8ff1d5b watchdog: s3c2410_wdt: Use devm_add_action_or_reset() to disable watchdog
+88d2c181ee9f87b53e1a49cdeb1413e6e45a340e watchdog: acquirewdt: Convert to platform remove callback returning void
+8960d8ada73518ed9ea4d695347bbe0b3142142e watchdog: advantechwdt: Convert to platform remove callback returning void
+e676c92e9a3a987a496733df1be50b8cea872822 watchdog: ar7: Convert to platform remove callback returning void
+c1e335c8d1b3ff8f818efcec0f250d91cd75af0b watchdog: at91rm9200: Convert to platform remove callback returning void
+ec6de663274d886a32b4e22a6fb3cf4b2e99cfab watchdog: ath79: Convert to platform remove callback returning void
+7ca823d5fa4574bef4636d2ae7946078dec6328b watchdog: bcm2835: Convert to platform remove callback returning void
+0eddace4629996b24e4f028286802c33c8ea0621 watchdog: bcm_kona: Convert to platform remove callback returning void
+5caafac4bb5873fea2b237d32dfcffda24dacd94 watchdog: cpwd: Convert to platform remove callback returning void
+3a063f9bc4a1490ba913427a8b53ea973c55b043 watchdog: dw: Convert to platform remove callback returning void
+b5f2e366b148f84d98da2cabd1bbd863fc2d6487 watchdog: gef: Convert to platform remove callback returning void
+5216a0a95d4fa65e26a67c00b739fdbd2c3a1b1f watchdog: geodewdt: Convert to platform remove callback returning void
+40529e7ed5c98b4bfbaec62b8e13e1e647d46df8 watchdog: ib700wdt: Convert to platform remove callback returning void
+e395a471591392820ccfc7cec1b1581042c461ae watchdog: ie6xx: Convert to platform remove callback returning void
+fb22b9e95af8d2f668c95f8b51bed11646720948 watchdog: lpc18xx: Convert to platform remove callback returning void
+62b6a8507c1cdcb375549481f02177e80d51c7f1 watchdog: mtx-1: Convert to platform remove callback returning void
+55b0fb45375eddf89d8e9f06f22de5bac0285efa watchdog: nic7018: Convert to platform remove callback returning void
+3a9731099f7141265471ba1e4ed4ee97dc32f200 watchdog: nv_tco: Convert to platform remove callback returning void
+412cec3b5e4cd2652ff6dbf0ce69d7f75e49673d watchdog: omap: Convert to platform remove callback returning void
+e47f2a3b58e5dba92df861f905895b420a7db9ce watchdog: orion: Convert to platform remove callback returning void
+c550440918fff34f5098f8165ffb227afde6bf33 watchdog: rc32434: Convert to platform remove callback returning void
+6645579b7081753e4f94946a2c98f5d4aeed9c9c watchdog: rdc321x: Convert to platform remove callback returning void
+b481d57bb1a29b50086130e46e83b0a8ad61604e watchdog: renesas: Convert to platform remove callback returning void
+3628149f6eef811e1422ff407e28fd74e6bfdf83 watchdog: riowd: Convert to platform remove callback returning void
+4ead88bf860a6fb13056e964985ab0a2e78f3a9c watchdog: rti: Convert to platform remove callback returning void
+4dca58a8cb7c65a5ab7385837acf60ff09c67e46 watchdog: sa1100: Convert to platform remove callback returning void
+f80e31b3abdbbdb82ee85d7d206229d20001f2d6 watchdog: sch311x: Convert to platform remove callback returning void
+70b5b2b2feb00be6ed479557269438d505f86642 watchdog: shwdt: Convert to platform remove callback returning void
+e7a84d457d13775e864864703e88ae3ff4b5d36b watchdog: st_lpc: Convert to platform remove callback returning void
+96c6e56d3ed46840d575102b7b76a760b28de55b watchdog: stmp3xxx_rtc: Convert to platform remove callback returning void
+74d6c68c74fac3e6bdc28fba69889ed7ef05a7f8 watchdog: sbsa: Test WDOG_HW_RUNNING bit in suspend and resume
+16da6fbb55532c375cee0a7f33817225ae27a49f watchdog: bcm47xx: Simplify using devm_watchdog_register_device()
+4095b94d3af8b05805b0fde192475b5578c73a48 watchdog: rn5t618: Simplify using devm_watchdog_register_device()
+0e89b2c9a2a6984af43d09de9d1bb44da9822ba2 watchdog: wm8350: Simplify using devm_watchdog_register_device()
+16d477a1dba9f214d1229d0a122d6d3a9636aa79 watchdog: s3c2410: Make s3c2410_get_wdt_drv_data() return an int
+e0e0ee02e616269451dd00ff56be0328d5625a92 watchdog: s3c2410_wdt: Simplify using dev_err_probe()
+8fd15ace76a4aeb3648cf078541b5e6cfc91d5a2 watchdog: ixp4xx: Use devm_clk_get_enabled() helper
+07d41160b3b65c621f9352196c3791fdc7d2380d watchdog: loongson1: Use devm_clk_get_enabled() helper
+76ad36bf0ea620b14d32a332108a248412886d54 watchdog: rt2880-wdt: avoid static global declarations
+af3ac8e41786440a5ca0fa37628685f8f514f0a6 watchdog: rt2880-wdt: prefer unsigned int over unsigned
+fe5631bb3a4bf62208ed52600c21dd3d1787f412 dt-bindings: watchdog: migrate rt2880 text bindings to YAML
+4eda19cc8a29cde3580ed73bf11dc73b4e757697 watchdog: sp5100_tco: Immediately trigger upon starting.
+bfeaadbc0b8231e81dacd0616b476520759641ae watchdog: aspeed: Drop of_match_ptr for ID table
+fc0c5db58f4c78b948acfbf9558eeaf6b343bf9a watchdog: s3c2410: remove unused freq_to_wdt and s3c2410wdt_is_running functions
+33e4945352a2484c92fc1d5a16471b1939d67abb watchdog: avoid usage of iterator after loop
+dcd615ee6fd3651ab0357364c4cf65b1148a40be dt-bindings: watchdog: rockchip: Add rockchip,rk3588-wdt string
+2cd55934d9774d23a7c683e415935cb9cd7dedff dt-bindings: watchdog: qcom-wdt: add qcom,apss-wdt-ipq5332 compatible
+ee0da40588e1eda1323e7abd8e91a2dfe359b87c dt-bindings: watchdog: qcom-wdt: add QCM2290
+64543b0d637bd28abed1a3311aa8c9b007ee52d7 dt-bindings: watchdog: mediatek,mtk-wdt: add mt8365
+ab8da07609fc982196df9df8f9b4f9ba4bea4731 watchdog: ebc-c384_wdt: Mark status as orphaned
+819d14135da5f8cd0e2104a6def805707e46d99b dt-bindings: watchdog: indentation, quotes and white-space cleanup
+b24e265d6f0a0965ae0d0a19848544300c397a2e dt-bindings: watchdog: Add watchdog for StarFive JH7100 and JH7110
+db728ea9c7be137b4f4361295f11e0b56b6286ac drivers: watchdog: Add StarFive Watchdog driver
+edb10ace4dcd05f804d59dfdf2fee9121c92faee dt-bindings: reset: Add binding for MediaTek MT6735 TOPRGU/WDT
+6c266971d5d700f283c73094caca9e1ebde2d67a dt-bindings: watchdog: drop duplicated GPIO watchdog bindings
+f0d6e92ebb06ca9a360683e69932d09bfc70f551 dt-bindings: watchdog: arm,sp805: drop unneeded minItems
+d5e8f87e365ff944631889ac978a7000a6181b3d dt-bindings: watchdog: fsl-imx7ulp-wdt: simplify with unevaluatedProperties
+20f43c943d06f628f832658238581fdeb29f7f92 dt-bindings: watchdog: toshiba,visconti-wdt: simplify with unevaluatedProperties
+495cbe36ee795dc06abccfb251e4384c6a26dc48 dt-bindings: watchdog: realtek,otto-wdt: simplify requiring interrupt-names
+d0ee0e8aa97e6e1d443eaab8c94d580d0a6f5a89 dt-bindings: watchdog: Document Qualcomm SM6115 watchdog
+2a31bf20808aa3642a942ab9ce421ebb7585eb3a watchdog: loongson1_wdt: Implement restart handler
+a23c83a0ae0280632e734aff1dbf299f602a79c4 dt-bindings: watchdog: alphascale-asm9260: convert to DT schema
+87b22656ca6a896d0378e9e60ffccb0c82f48b08 watchdog: menz069_wdt: fix watchdog initialisation
+bd858e494ceb3aac25bab9c6639f4cd764f534ba watchdog: menz069_wdt: fix timeout setting
+66efce1d099a67d9d0bf635a9815ec478bfbc8a2 MAINTAINERS: Add fragment for Xilinx watchdog driver
+90211b58828924577b589e59814f53aec4557fb9 watchdog: starfive: Fix the probe return error if PM and early_enable are both disabled
+b23c1f807cb20a9a4c42b63c3d80f63b045a43ef watchdog: starfive: Fix the warning of starfive_wdt_match
+7f5390750645756bd5da2b24fac285f2654dd922 watchdog: dw_wdt: Fix the error handling path of dw_wdt_drv_probe()
+10f67d1fd275528e62109de2ece26371833638e5 watchdog: dw_wdt: Simplify clk management
+78b421b6a7c6dbb6a213877c742af52330f5026d Merge tag 'linux-watchdog-6.4-rc1' of git://www.linux-watchdog.org/linux-watchdog
 
---===============9197179444816513787==--
+--===============1727559540952686491==--
