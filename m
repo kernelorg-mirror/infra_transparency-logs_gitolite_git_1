@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 05 May 2023 21:16:04 -0000
-Message-Id: <168332136485.2357.10480824544353508443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 05 May 2023 21:25:16 -0000
+Message-Id: <168332191658.9602.13855498916764398069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: 93e0401e0fc0c54b0ac05b687cd135c2ac38187c
-    new: 644bca1d48139ad77570c24d22bafaf8e438cf03
+  - ref: refs/heads/tmp.perf-tools
+    old: e7b7a54767a71c6790358e1d45d841da763cdec3
+    new: 56e8471a56d9c1d0c294b0de91bbb8efe54d8a00
     log: |
-         e0807c430239d62d8dd7a25552e469aad8c3dd28 mISDN: Use list_count_nodes()
-         042334a8d424a1917e916e611a8dda7f8caf1491 atlantic:hw_atl2:hw_atl2_utils_fw: Remove unnecessary (void*) conversions
-         d7385ba137711ea71527a605cac162610a621de8 9p: Remove INET dependency
-         cb9e6e584d58420df182102674e636fb841dae4c bonding: add xdp_features support
-         644bca1d48139ad77570c24d22bafaf8e438cf03 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+         ecc68ee216c6c5b2f84915e1441adf436f1b019b perf stat: Separate bperf from bpf_profiler
+         56e8471a56d9c1d0c294b0de91bbb8efe54d8a00 perf bpf skels: Stop using vmlinux.h generated from BTF, use subset of used structs + CO-RE
          
