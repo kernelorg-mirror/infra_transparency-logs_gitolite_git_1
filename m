@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 05 May 2023 08:29:52 -0000
-Message-Id: <168327539231.29114.13397992741001872735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 05 May 2023 08:30:40 -0000
+Message-Id: <168327544082.31034.4027104270085821734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/x86-efistub-cleanup
-    old: 06ca5286132d764bead745351a2ce64aa35039db
-    new: 6ced98a44fbce6691b347f25dfc880c0326c7ccc
+  - ref: refs/heads/main
+    old: 9f699b71c2f31c51bd1483a20e1c8ddc5986a8c9
+    new: f8bb5104394560e29017c25bcade4c6b7aabd108
     log: |
-         ec29d3916f6477e9bd05fb9cd1f9faef8024061f x86: efistub: Clear BSS in EFI handover protocol entrypoint
-         6ced98a44fbce6691b347f25dfc880c0326c7ccc x86: efistub: Avoid legacy decompressor when doing EFI boot
+         f8bb5104394560e29017c25bcade4c6b7aabd108 virtio_net: suppress cpu stall when free_unused_bufs
          
