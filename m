@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 05 May 2023 00:21:14 -0000
-Message-Id: <168324607491.26800.13801917251391064831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 05 May 2023 00:22:42 -0000
+Message-Id: <168324616254.27374.13718228035936078942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: f8354eceed493a403160202591c6c383387c4ddc
-    new: e204df4bed454fcd9c9d276eedad1642f8977c94
+  - ref: refs/heads/damon/next
+    old: 2d880d59aa0da61860cc04cc6de8b738af13e778
+    new: 61d8571a8612275f0bbcf6dc4377a694545cab3c
     log: |
-         e204df4bed454fcd9c9d276eedad1642f8977c94 toolsoftrade: Improve invented-stores example
+         61d8571a8612275f0bbcf6dc4377a694545cab3c Docs/mm/damon/design: Further wordsmith of DAMOS, DAMON API Users
          
