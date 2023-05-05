@@ -1,47 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4786792631541106092=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 05 May 2023 19:23:47 -0000
-Message-Id: <168331462789.25194.18354554659910711058@gitolite.kernel.org>
-
---===============4786792631541106092==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 05 May 2023 19:35:13 -0000
+Message-Id: <168331531318.871.2279335328271844067@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 19a5b27853d31ea5399a411407eade59c0fbfbea
-    new: babec3792d74ecc465041edc0230484ef777c4e3
+  - ref: refs/heads/x86-efistub-cleanup
+    old: 0994a7bab721b5e45d202fa542f3fbd8c49c2fdf
+    new: 2af5c37d981f56ee77d6dc3b1c732f6ec5130678
     log: |
-         b9b43cdfe0d9eab733e3126bf4912c24d92cef87 Update D9D98003B060B92D (Naveen N. Rao)
-         babec3792d74ecc465041edc0230484ef777c4e3 Add A250D8303357AD7F (Kris Chaplin)
+         b511633ec99235090821cf234c243358d5baf540 efi: libstub: Add limit argument to efi_random_alloc()
+         32cc1801b5a14c7114e348b422956075558adcf6 x86: efistub: Avoid legacy decompressor when doing EFI boot
+         a669b504da39ee6695600c84b4812ef8f4825ce2 x86: efistub: Clear BSS in EFI handover protocol entrypoint
+         24c7e38fbea0e4239a53b2ec2071d9bb7cf27c86 x86: decompressor: Avoid magic offsets for EFI handover entrypoint
+         2af5c37d981f56ee77d6dc3b1c732f6ec5130678 x86: decompressor: Use proper sequence to take the address of the GOT
          
-
---===============4786792631541106092==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1683314627 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1683314627-b13d1af24509b03fa85946b26076ad7b9efa08c0
-
-19a5b27853d31ea5399a411407eade59c0fbfbea babec3792d74ecc465041edc0230484ef777c4e3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZFVXwwAKCRC2xBzjVmSZ
-bB2KAQC/9fQK2uaGQPRCMO/p4d9xK5MXLtVDhD1g/gYslYW1MQD+MzrCw5Ea4mNG
-dwljQKTpGj9jHHdJQ9FJt71H7sN0Ggk=
-=5iK1
------END PGP SIGNATURE-----
-
---===============4786792631541106092==--
