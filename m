@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 05 May 2023 08:34:41 -0000
-Message-Id: <168327568159.32535.5550797332161817865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 05 May 2023 08:58:20 -0000
+Message-Id: <168327710065.16454.7368272883663644536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: d7385ba137711ea71527a605cac162610a621de8
-    new: cb9e6e584d58420df182102674e636fb841dae4c
+    old: 299efdc2380aac588557f4d0b2ce7bee05bd0cf2
+    new: 26312c685ae0bca61e06ac75ee158b1e69546415
     log: |
-         cb9e6e584d58420df182102674e636fb841dae4c bonding: add xdp_features support
+         26312c685ae0bca61e06ac75ee158b1e69546415 net: fec: correct the counting of XDP sent frames
          
