@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4501332773227209458=="
+Content-Type: multipart/mixed; boundary="===============3596094736142023591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 05 May 2023 20:01:12 -0000
-Message-Id: <168331687245.18212.1620857257641831119@gitolite.kernel.org>
+Date: Fri, 05 May 2023 20:01:45 -0000
+Message-Id: <168331690567.18449.7347864466003975629@gitolite.kernel.org>
 
---===============4501332773227209458==
+--===============3596094736142023591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b9850ec0027ca7639141706101bce09b8e3224e6
-    new: 93e0401e0fc0c54b0ac05b687cd135c2ac38187c
-    log: revlist-b9850ec0027c-93e0401e0fc0.txt
+  - ref: refs/heads/dev-queue
+    old: 42e9fa181be75cbd59bc8113e10009c84d1a27f9
+    new: 09fdaf0ef33bfa35365696bcdc993a1d373e7703
+    log: revlist-42e9fa181be7-09fdaf0ef33b.txt
 
---===============4501332773227209458==
+--===============3596094736142023591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9850ec0027c-93e0401e0fc0.txt
+Content-Disposition: attachment; filename=revlist-42e9fa181be7-09fdaf0ef33b.txt
 
 37c218d8021e36e226add4bab93d071d30fe0704 net: dsa: mt7530: fix corrupt frames using trgmii on 40 MHz XTAL MT7621
 120a56b01beed51ab5956a734adcfd2760307107 net: dsa: mt7530: fix network connectivity with multiple CPU ports
@@ -39,5 +39,14 @@ fd741f0d9f702c193b2b44225c004f8c5d5be163 net/sched: flower: fix error handler on
 1a304495082e7e73a96b9facac1eb93b6b0498a4 Merge branch 'tc-action-fixes'
 1e76f42779d6a2e45107b34d79d86a57b8077630 pds_core: fix mutex double unlock in error path
 93e0401e0fc0c54b0ac05b687cd135c2ac38187c net: bcmgenet: Remove phy_stop() from bcmgenet_netif_stop()
+e9099c47ef91eca61236c3871295922c7df79870 i40e: fix PTP pins verification
+36f353cc21fec106186dc12d9be19d04f9f99936 igc: Clean the TX buffer and TX descriptor ring
+149b4553115f60cadbdf47cde4111e0061ebce48 iavf: send VLAN offloading caps once after VFR
+6be1012f372903e9618dae24708ac03501cbf168 ice: Fix stats after PF reset
+68dab2434287765ee0e52bebf0b18a7298639b08 igc: Fix possible system crash when loading module
+1bf4d98faa7f4a297082a4bcfeb2d4719b9180d1 ice: Fix ice VF reset during iavf initialization
+1f414f429f78e3dec64c1faf013574e77cf052da igb: fix nvm.ops.read() error handling
+fb22a3a002334ef6430c2950e9639eb65a11ef26 igb: fix bit_shift to be in [1..8] range
+09fdaf0ef33bfa35365696bcdc993a1d373e7703 ice: Fix undersized tx_flags variable
 
---===============4501332773227209458==--
+--===============3596094736142023591==--
