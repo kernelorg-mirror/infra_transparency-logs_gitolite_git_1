@@ -1,87 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0478312885115302207=="
+Content-Type: multipart/mixed; boundary="===============2585790818620243346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 06 May 2023 15:45:00 -0000
-Message-Id: <168338790017.2729.14590437705446625446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 06 May 2023 16:02:34 -0000
+Message-Id: <168338895482.15755.14200192186181950062@gitolite.kernel.org>
 
---===============0478312885115302207==
+--===============2585790818620243346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 2e1e1337881b0e9844d687982aa54b31b1269b11
-    new: dd9e11d6477a52ede9ebe575c83285e79e823889
-    log: revlist-2e1e1337881b-dd9e11d6477a.txt
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: b7b3ada07d5e6e57bec6f99bb24e230f1097348e
+    new: 569c664746aafaea1bd39acc82dc7b3affadda47
+    log: revlist-b7b3ada07d5e-569c664746aa.txt
 
---===============0478312885115302207==
+--===============2585790818620243346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e1e1337881b-dd9e11d6477a.txt
+Content-Disposition: attachment; filename=revlist-b7b3ada07d5e-569c664746aa.txt
 
-0c028b6a115e7f18480ec3f98ba7bccf011646ea scsi: scsi_debug: Abort commands from scsi_debug_device_reset()
-65a15d6560dff065339f6cac91de4beded60fe3f scsi: ipr: Remove SATA support
-83794367dcc6749662b17a1e4b8ec085023fc53b block: Cleanup set_capacity()/bdev_set_nr_sectors()
-9e868ca1f269dec9f2062bb8de42b8a94773924e ASoC: max98090: make it selectable
-c963e2ec095cb3f855890be53f56f5a6c6fbe371 ASoC: Intel: soc-acpi-byt: Fix "WM510205" match no longer working
-81221ab76490622952f1df2a45c41d6ffb10b303 scsi: pm80xx: Log device registration
-392e4daa8a7e3d9b103c64acef08f62f19d421aa scsi: ipr: Remove several unused variables
-948afc69615167a3c82430f99bfd046332b89912 scsi: ufs: core: mcq: Fix &hwq->cq_lock deadlock issue
-c5749639f2d0a1f6cbe187d05f70c2e7c544d748 scsi: qedi: Fix use after free bug in qedi_remove()
-38c8e3dfb2a1be863b7f5aad7755d5e9727da8a5 block: sync part's ->bd_has_submit_bio with disk's
-3f89ac587baa0c0460c977d1596e16f950815f05 block/drivers: remove dead clear of random flag
-0f99fc513ddd28de155c58547824a9fd63daacea splice: clear FMODE_NOWAIT on file if splice/vmsplice is used
-afed6271f5b0d78ca1a3739c1da4aa3629b26bba pipe: set FMODE_NOWAIT on pipes
-c51e431052e2eacfb23fbf6b39bc6c8770d9827a ALSA: hda: Glenfly: add HD Audio PCI IDs and HDMI Codec Vendor IDs.
-3315e169b446249c1b61ff988d157238f4b2c5a0 blk-integrity: use sysfs_emit
-76b8c319f02715e14abdbbbdd6508e83a1059bcc blk-integrity: convert to struct device_attribute
-ff53cd52d9bdbf4074d2bbe9b591729997780bd3 blk-integrity: register sysfs attributes on struct device
-ea3292986cc90fdd9ad9aa7018ee0651736a4529 Merge branch 'for-linus' into for-next
-067eb084592819ad59d07afcb5de3e61cee2757c ALSA: hda/realtek: Add quirk for ThinkPad P1 Gen 6
-110ccfa9dd6ca1272e50fbea614aa31f01d2c17e ASoC: amd: yc: Add ASUS M3402RA into DMI table
-3302212f0384ab286b65683bc340f3953f88f70a regulator: consumer.rst: fix 'regulator_enable' typo.
-daf376a366fd2d469d66ab83dfdc074777462bab uapi nbd: improve doc links to userspace spec
-2686eb845da7762ee98b17e578b0c081aafb77b9 uapi nbd: add cookie alias to handle
-bd9e9916c32fd4b4fb4e879e05bd1568ee02ec93 block nbd: use req.cookie instead of req.handle
-952aa344bf4305ab6fa0d9962ef8c2caa2afef4c docs nbd: userspace NBD now favors github over sourceforge
-9d2f38638a145f0c6102bee6533204aa3e5a9c07 ALSA: emu10k1: use more existing defines instead of open-coded numbers
-fc05e06e6098ca2c28f7a10da0e00aeea20fa59e md/raid5: Improve performance for sequential IO
-b1211978ecf19bceb63a04f53fea4b5d73832a4a md: Fix bitmap offset type in sb writer
-f40c153afee1e50ed46c2dc22e09940e21699acf Merge tag 'md-next-2023-04-28' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.4/block
-3e46c89c74f2c38e5337d2cf44b0b551adff1cb4 writeback: fix call of incorrect macro
-8176080d59e6d4ff9fc97ae534063073b4f7a715 block: Skip destroyed blkg when restart in blkg_destroy_all()
-7949aa46bb4b5c5e43ba3ba8298ffcb48bebf0ff mailmap: add mailmap entries for Jens Axboe
-7e2d06628aab6324e1ac885910a52f4c038d4043 ALSA: hda/realtek: Add quirk for ASUS UM3402YAR using CS35L41
-1604f51b401bfd881ab5c6401eaedac97f2166ca ALSA: docs: Extend module parameters description
-e4212ed0ba58264fbe7706c5493b9600339f60ae ALSA: docs: Fix code block indentation in ALSA driver example
-3899d94e3831ee07ea6821c032dc297aec80586a drbd: correctly submit flush bio on barrier
-c0b79b0ff53be5b05be98e3caaa6a39de1fe9520 ublk: add timeout handler
-84822215acd15bd86a7759a835271e63bba83a7b ASoC: codecs: wcd938x: fix accessing regmap on unattached devices
-4a1b5bc73e9ce8373d50fdb8f74badd2b4bf324e ASoC: amd: yc: Add Asus VivoBook Pro 14 OLED M6400RC to the quirks list for acp6x
-ec6f82b4c63cc68f8dc03316e725106d242706be ASoC: Intel: soc-acpi-cht: Add quirk for Nextbook Ares 8A tablet
-e7477cb97607b373d175a759c8c0270a640ab3f2 ALSA: hda/realtek: support HP Pavilion Aero 13-be0xxx Mute LED
-7501f472977df233d039d86c6981e0641708e1ca ALSA: usb-audio: Add quirk for Pioneer DDJ-800
-0d727e1856ef22dd9337199430258cb64cbbc658 ALSA: caiaq: input: Add error handling for unsupported input methods in `snd_usb_caiaq_input_init`
-4a2248855fc1053ef191e3412486f05a4cc4d28b Merge tag 'asoc-fix-v6.4-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-56fc217f0db4fc78e02a1b8450df06389474a5e5 ALSA: hda/realtek: Fix mute and micmute LEDs for an HP laptop
-d7f5dd9790bbf9c7357672bafb1992ee7aadf45a ALSA: pcm: Revert "ALSA: pcm: rewrite snd_pcm_playback_silence()"
-2fbaa44a59887f9fd70c986f39c4ac9aebd0c8a1 ALSA: pcm: fix playback silence - use the actual new_hw_ptr for the threshold mode
-781b4da64b9e3dafb356b7365e7ecf273e879602 ALSA: pcm: fix playback silence - correct incremental silencing
-190cb66a4ee0ac4419e1f8a9de46074a8c8e4c23 ALSA: pcm: playback silence - remove extra code
-6d8d56db0cd14c415c26e27d949c615750c40d70 ALSA: pcm: playback silence - move silence variable updates to separate function
-6ffa6f397e80bc196ed554e4dabfe43ecc0fe7c1 ALSA: pcm: simplify top-up mode init in snd_pcm_playback_silence()
-ee2dd703470242f1672403e83f827391afeca808 ALSA: pcm: use exit controlled loop in snd_pcm_playback_silence()
-27e0c8461c0aa2454d236924421e1c078cb77f21 Merge tag 'regulator-fix-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-0021b532b2fdd6b82cf3ff758191f00d8edd235d Merge tag 'sound-fix-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-7644c8231987288e7aae378d2ff3c56a980d1988 Merge tag 'pipe-nonblock-2023-05-06' of git://git.kernel.dk/linux
-a3b111b046f6ce5dff168af203daf2f46f3afb29 Merge tag 'for-6.4/block-2023-05-06' of git://git.kernel.dk/linux
-dd9e11d6477a52ede9ebe575c83285e79e823889 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+351bba9f6137dea111a9dec64ae2bdfa9c96f63b SUNRPC: Fix error handling in svc_setup_socket()
+3718a584c7cb69919dd33957d74e08f4c1877737 NFS: Improvements for fs_context-related tracepoints
+4a651cdb15f4684ac0b996a90274b680b0fb775f SUNRPC: Plumb an API for setting transport layer security
+bb87dcfc13c87b519e59a57820b796fccbb6ca89 SUNRPC: Trace the rpc_create_args
+0a8df1e59dbae9477b1501705448897dfc2a88e7 SUNRPC: Refactor rpc_call_null_helper()
+073ebc96ef361ce8d8e246d4e8e17b37b12256e9 SUNRPC: Add RPC client support for the RPC_AUTH_TLS auth flavor
+313b1fda5e7a354c3e51c2fd359386925610471a SUNRPC: Ignore data_ready callbacks during TLS handshakes
+8c925ebd70fd2aa0d08649011bccc814f71ad2e5 SUNRPC: Capture CMSG metadata on client-side receive
+0ea0c53b730589d44e925f25dad57b302ae753a7 SUNRPC: Add a connect worker function for TLS
+679ecd78cd0e6164e20c861d6e465dfa7e2ba10f SUNRPC: Add RPC-with-TLS support to xprtsock.c
+5e105ceec2758091ade4bfa9ac5899c9b75b4b56 SUNRPC: Add RPC-with-TLS tracepoints
+f578d8529713ac4c1c444d43bc219ab7d57f042e NFS: Have struct nfs_client carry a TLS policy field
+a95417810ae2b03a8deeaabdafda5598667b6782 NFS: Add an "xprtsec=" NFS mount option
+c3002955507c7ea3587dd5a77979a659fc4f0273 net/tls: Move TLS protocol elements to a separate header
+a49221b76221bdc6da7bc1f9df64c36ec25bdf1d net/tls: Add TLS Alert definitions
+70f9c4027332086bb054167cd35e1382cac94ba9 net/handshake: Add API for sending TLS Closure alerts
+75bcabf055a5d7ec08c27390618a235efff0a3ea SUNRPC: Send TLS Closure alerts before closing a socket
+99fb6f14c1586333e07e9bfd1a479d6448d46753 net/handshake: Add helpers for parsing incoming TLS alerts
+b4e08e5e28e9d21f3478c4b1b0191669202c800d SUNRPC: Use new helpers to handle TLS Alerts
+569c664746aafaea1bd39acc82dc7b3affadda47 net/handshake: Add trace events for TLS Alert helpers
 
---===============0478312885115302207==--
+--===============2585790818620243346==--
