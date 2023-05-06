@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 06 May 2023 20:59:43 -0000
-Message-Id: <168340678393.17756.7394152627815568725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 06 May 2023 21:11:55 -0000
+Message-Id: <168340751596.26080.14304825028213309356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: f4dea9689c5fea3d07170c2cb0703e216f1a0922
-    new: e04ddf179c2acb6de841016e5bcf29b26705b4ec
-    log: |
-         b5ad4cdc46c7d6e7f8d2c9e24b6c9a1edec95154 bpf: Add bpf_task_under_cgroup() kfunc
-         49e0263ab40f15a11cefa397bb17a0204505cead selftests/bpf: Add testcase for bpf_task_under_cgroup
-         e04ddf179c2acb6de841016e5bcf29b26705b4ec Merge branch 'Introduce a new kfunc of bpf_task_under_cgroup'
-         
+  - ref: refs/tags/perf-tools-for-v6.4-3-2023-05-06
+    old: 0000000000000000000000000000000000000000
+    new: a92cb3fc8464ea7ad45a02979a25f71193b3a14e
