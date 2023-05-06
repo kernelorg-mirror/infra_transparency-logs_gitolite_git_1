@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2037485954121576145=="
+Content-Type: multipart/mixed; boundary="===============5387679470006580732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 06 May 2023 09:15:22 -0000
-Message-Id: <168336452206.26568.6849478758857812478@gitolite.kernel.org>
+Date: Sat, 06 May 2023 09:15:34 -0000
+Message-Id: <168336453452.26705.11048499716007018562@gitolite.kernel.org>
 
---===============2037485954121576145==
+--===============5387679470006580732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 6a8f57ae2eb07ab39a6f0ccad60c760743051026
-    new: 6d1496002960c4488c6369e75addd565c49108cf
-    log: revlist-6a8f57ae2eb0-6d1496002960.txt
+  - ref: refs/heads/perf/core
+    old: 743767d6f6b8f28228be181fe369657f7ecd1eb2
+    new: e9e403f663b44838aad7e5de38cebfc4207c7df0
+    log: revlist-743767d6f6b8-e9e403f663b4.txt
 
---===============2037485954121576145==
+--===============5387679470006580732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a8f57ae2eb0-6d1496002960.txt
+Content-Disposition: attachment; filename=revlist-743767d6f6b8-e9e403f663b4.txt
 
-97249f05b27385b7f870d8e2e6062e26e5f132e8 Merge tag 'x86_urgent_for_v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5ad250f1fe92f21de09dabcd329e681d15aed9a4 Merge tag 'irq_urgent_for_v6.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8296ac9256aa1e9305033720de77ee5419a80f6f Merge tag 'kbuild-fixes-v6.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-1c19ac768b8eeb0304c4ed7db66c2bb89c6ad226 hwmon: lochnagar: Remove the unneeded include <linux/i2c.h>
 fc623d89b4c404f2dea917d00eba2111f3c1bc15 media: Fix building pdfdocs
 7e8472c820f04517ae5d5a27c1aecfa2263a0aa5 media: Adjust column width for pdfdocs
 0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
@@ -1049,6 +1045,10 @@ c12753d5fa3eab636b5ced91d6a2155173c11527 s390: remove the unneeded select GCC12_
 a5e219005aeaf52cb10f9999a61c07a140db7097 Merge tag 'i2c-for-6.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 ed23734c23d2fc1e6a1ff80f8c2b82faeed0ed0c Merge tag 'net-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 2e1e1337881b0e9844d687982aa54b31b1269b11 Merge tag '6.4-rc-ksmbd-server-fixes-part2' of git://git.samba.org/ksmbd
-6d1496002960c4488c6369e75addd565c49108cf sched: fix cid_lock kernel-doc warnings
+fcfb664c0e5c10031136c5d649f4c4301114b423 perf/core: Rework forwarding of {task|cpu}-clock events
+2a2a558b157ec6b4c01a1e49b4ce369b7cafffd8 perf/ibs: Fix interface via core pmu events
+0bce83087033a4133e4277d856f17389f2474ac7 perf/core: Remove pmu linear searching code
+66ae2bc60a28015ba37b3d877fc71bdeb4421daa perf test: Add selftest to test IBS invocation via core pmu events
+e9e403f663b44838aad7e5de38cebfc4207c7df0 perf/x86/intel: Define bit macros for FixCntrCtl MSR
 
---===============2037485954121576145==--
+--===============5387679470006580732==--
