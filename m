@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5387679470006580732=="
+Content-Type: multipart/mixed; boundary="===============7318314006338119065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 06 May 2023 09:15:34 -0000
-Message-Id: <168336453452.26705.11048499716007018562@gitolite.kernel.org>
+Date: Sat, 06 May 2023 09:15:47 -0000
+Message-Id: <168336454750.26868.12553229861276325046@gitolite.kernel.org>
 
---===============5387679470006580732==
+--===============7318314006338119065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 743767d6f6b8f28228be181fe369657f7ecd1eb2
-    new: e9e403f663b44838aad7e5de38cebfc4207c7df0
-    log: revlist-743767d6f6b8-e9e403f663b4.txt
+  - ref: refs/heads/sched/core
+    old: f31dcb152a3d0816e2f1deab4e64572336da197d
+    new: 0cb19d9325a0baa218b67e17573fa7754cd5da4a
+    log: revlist-f31dcb152a3d-0cb19d9325a0.txt
 
---===============5387679470006580732==
+--===============7318314006338119065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-743767d6f6b8-e9e403f663b4.txt
+Content-Disposition: attachment; filename=revlist-f31dcb152a3d-0cb19d9325a0.txt
 
-fc623d89b4c404f2dea917d00eba2111f3c1bc15 media: Fix building pdfdocs
-7e8472c820f04517ae5d5a27c1aecfa2263a0aa5 media: Adjust column width for pdfdocs
-0da6e5fd6c3726723e275603426e09178940dace gcc: disable '-Warray-bounds' for gcc-13 too
-5036034572b79daa6d6600338e8e8229e2a44b09 net/sched: act_pedit: use NLA_POLICY for parsing 'ex' keys
-0c83c5210e18763ec54252b990d270748c99b01d net/sched: act_pedit: use extack in 'ex' parsing errors
-e1201bc781c28766720e78a5e099ffa568be4d74 net/sched: act_pedit: check static offsets a priori
-577140180ba28d0d37bc898c7bd6702c83aa106f net/sched: act_pedit: remove extra check for key type
-e3c9673e2f6e1b3aa4bb87c570336e10f364c28a net/sched: act_pedit: rate limit datapath messages
-fd84c569f7b8bbf8154c9940b427942ff5bfbc48 Merge branch 'act_pedit-minor-improvements'
-807cfded92b0a2e8be9c078c693075790c7c4131 net/sched: sch_htb: use extack on errors messages
 c69a9b023f65b73068a17f2f4eb6a1b6e257f5bf net/sched: sch_qfq: use extack on errors messages
 25369891fcef373540f8b4e0b3bccf77a04490d5 net/sched: sch_qfq: refactor parsing of netlink parameters
 7eb060a51a3ba44acefafefd242dcbf12dd91fb9 selftests: tc-testing: add more tests for sch_qfq
@@ -1045,10 +1035,20 @@ c12753d5fa3eab636b5ced91d6a2155173c11527 s390: remove the unneeded select GCC12_
 a5e219005aeaf52cb10f9999a61c07a140db7097 Merge tag 'i2c-for-6.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 ed23734c23d2fc1e6a1ff80f8c2b82faeed0ed0c Merge tag 'net-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 2e1e1337881b0e9844d687982aa54b31b1269b11 Merge tag '6.4-rc-ksmbd-server-fixes-part2' of git://git.samba.org/ksmbd
-fcfb664c0e5c10031136c5d649f4c4301114b423 perf/core: Rework forwarding of {task|cpu}-clock events
-2a2a558b157ec6b4c01a1e49b4ce369b7cafffd8 perf/ibs: Fix interface via core pmu events
-0bce83087033a4133e4277d856f17389f2474ac7 perf/core: Remove pmu linear searching code
-66ae2bc60a28015ba37b3d877fc71bdeb4421daa perf test: Add selftest to test IBS invocation via core pmu events
-e9e403f663b44838aad7e5de38cebfc4207c7df0 perf/x86/intel: Define bit macros for FixCntrCtl MSR
+93a791b1f680d9a5e368e108302dfd2931d6b81c sched/fair: Move is_core_idle() out of CONFIG_NUMA
+0b62d9c56cc6d99fc5d977b394af3fc4d9d6e8ee sched/fair: Only do asym_packing load balancing from fully idle SMT cores
+e632f3bac45527aefef6fa3ba560384145f71f2b sched/fair: Simplify asym_packing logic for SMT cores
+cb09fad268a59e269ba6acb71d0632ba50d2268a sched/fair: Let low-priority cores help high-priority busy SMT cores
+09f6c163c699cb5cd6182fa422289945400c1711 sched/fair: Keep a fully_busy SMT sched group as busiest
+088ada955f0580c92c2d9bd53bc4de637ecf3d84 sched/fair: Use the busiest group to set prefer_sibling
+235ec3a2e0b30777fe8655e3d6e54a4b18bf0ae5 sched/fair: Do not even the number of busy CPUs via asym_packing
+7919805652eb2b2661f2ee6d8a99d3cc1136c6ad sched/topology: Check SDF_SHARED_CHILD in highest_flag_domain()
+94f38b8da07ae00c7fcb872fed622e656d9c14b7 sched/topology: Remove SHARED_CHILD from ASYM_PACKING
+f3f132e54177c57cb3dcf4aa8f5ee62c9c9b33c0 x86/sched: Remove SD_ASYM_PACKING from the SMT domain flags
+c300fa75ab7b1524898dba72d2f9c31b6ebcb37a x86/sched/itmt: Give all SMT siblings of a core the same priority
+0cd21c954ae4e13e02104915f8a1991e9df06a33 x86/sched: Add the SD_ASYM_PACKING flag to the die domain of hybrid processors
+5e1caa6446ac47d6016a1f37660cd3f05926c17a psi: remove 500ms min window size limitation for triggers
+86d270195134723bc743eb6b6909fac6369a5bac sched/topology: Propagate SMT flags when removing degenerate domain
+0cb19d9325a0baa218b67e17573fa7754cd5da4a sched/debug: Correct printing for rq->nr_uninterruptible
 
---===============5387679470006580732==--
+--===============7318314006338119065==--
