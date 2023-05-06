@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sat, 06 May 2023 18:06:37 -0000
-Message-Id: <168339639799.1056.14918027225584370668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 06 May 2023 18:27:30 -0000
+Message-Id: <168339765069.15163.1539812830524943441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/riscv,extensions
-    old: 4ca7d3194fd06cc17d89b569a43a0101be07ccb8
-    new: 4e40db1604d32e6b2588fc828b650be56ecbc9a8
+  - ref: refs/heads/master
+    old: fabbde032c6e29c8f97b5dd3dd3e952e9f4e7b38
+    new: bae753ac253e82daa58e7212588bb52b880fde14
     log: |
-         d5a57f5b62d2ac900a1ac5f3f868e5517c340d85 RISC-V, dt-bindings: deprecate riscv,isa & replace it with per-extension properties
-         932b0a85c1b8d5ccc07712c241ad7410988a8933 RISC-V, dt-bindings: add riscv,isa-base property
-         e56575880ec198ba180053097c7892df019ed0da RISC-V: drop a needless check in print_isa_ext()
-         4e40db1604d32e6b2588fc828b650be56ecbc9a8 dt-bindings: riscv: need either riscv,isa or riscv,isa-base
+         bae753ac253e82daa58e7212588bb52b880fde14 Sat May  6 06:26:34 PM UTC 2023
          
