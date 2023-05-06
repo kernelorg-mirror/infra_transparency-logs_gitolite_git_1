@@ -1,73 +1,106 @@
-Content-Type: multipart/mixed; boundary="===============3560862148957910372=="
+Content-Type: multipart/mixed; boundary="===============4822738778732701337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 06 May 2023 22:23:11 -0000
-Message-Id: <168341179166.8447.8040475963563597051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 06 May 2023 22:50:04 -0000
+Message-Id: <168341340436.26051.17952727987620428695@gitolite.kernel.org>
 
---===============3560862148957910372==
+--===============4822738778732701337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/seen
-    old: 46165be411f011a18b174feef923c0cadb31e97d
-    new: 209b40be61258a943a4b176564d6858f81cb199f
-    log: revlist-46165be411f0-209b40be6125.txt
+  - ref: refs/heads/master
+    old: 2e1e1337881b0e9844d687982aa54b31b1269b11
+    new: fc4354c6e5c21257cf4a50b32f7c11c7d65c55b3
+    log: revlist-2e1e1337881b-fc4354c6e5c2.txt
 
---===============3560862148957910372==
+--===============4822738778732701337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46165be411f0-209b40be6125.txt
+Content-Disposition: attachment; filename=revlist-2e1e1337881b-fc4354c6e5c2.txt
 
-b7cf25c8f486b3b9a99b2bbe68f158bc24f87b1c t9800: correct misuse of 'show -s --raw' in a test
-9019d7dceb85bd821a32930c49a4675015bcc283 name-rev: make --stdin hidden
-44451a2e5eec5360378be23e2cdbd9ecee49e14e attr: teach "--attr-source=<tree>" global option to "git"
-d6ed0632b4930cfda89ee6a840fc381cfa769284 Merge branch 'jc/attr-source-tree' into jch
-99c1c10a2f69b0ac4bf94817ee62104f8bae61b6 Merge branch 'mc/send-email-header-cmd' into jch
-46f8b19cceb1caa3d7609f3fff0d00f236ea5d0d Merge branch 'ds/fsck-bitmap' into jch
-5f27bd852045fa539ce6b545f5ccccd24e56cecd Merge branch 'gc/trace-bare-repo-setup' into jch
-a3f9ce16facbbf2910b2fbb7a6d258fa3ee3f9d1 Merge branch 'kh/doc-interpret-trailers-updates' into jch
-5f15a06f8c6eb58afeabe29e60a65fd844ee3fea Merge branch 'mh/use-wincred-from-system' into jch
-3bf4bef21e3e78ef6d6cc964ec8552d04a9a382f Merge branch 'mh/credential-password-expiry-libsecret' into jch
-ebdaba8696226b317cfa23f4cd7fb49dd29b57fb Merge branch 'gc/doc-cocci-updates' into jch
-6a2089403035410152741050f1f5a986baae65f5 Merge branch 'ar/config-count-tests-updates' into jch
-ef9f895ad99646e7db4631358c8ff0de01915a0e Merge branch 'pw/rebase-i-after-failure' into jch
-ad07de0fcd0b07ef2507d433d0e56e69112e62a7 Merge branch 'ps/fetch-output-format' into jch
-594419e6cdd312642e604ac45cb0dbcb737f1d0c Merge branch 'sl/diff-files-sparse' into jch
-82ae1d98c204bab92dbe11dce0b0f5d6cfc42b3f Merge branch 'sl/sparse-write-tree-part-2' into jch
-44aeb2943ab4204cb31e5e1b51d1fd5037f5f658 Merge branch 'bc/clone-empty-repo-via-protocol-v0' into jch
-70063da96ee438d3cc3fd472d8003f8777eff9cc Merge branch 'jc/dirstat-plug-leaks' into jch
-dcce21d10f9439cfe93767ae0ec901187d247d99 Merge branch 'jc/t9800-fix-use-of-show-s-raw' into jch
-e2f62e2b7efe446c8ce4367158c7519fca0aa797 Merge branch 'jc/diff-s-with-other-options' into jch
-1a08a039ccf2a264f25d2b8ea77874d5fdc3f537 Merge branch 'jc/name-rev-deprecate-stdin-further' into jch
-425b4d7f47bd2be561ced14eac36056390862e8c push: introduce '--branches' option
-c09f1bc90896e0038e5dd8ddf98b092b435a0d77 Merge branch 'tl/push-branches-is-an-alias-for-all' into jch
-649e07f75a8d5fc804effebbc16b3731b5ef792b Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
-2f4f76bfb8b29b6f8437268a19c0a49f21cfd5ed Merge branch 'ab/imap-send-requires-curl' into seen
-cb7e6492725298ce89184b9494380be45ecac1f5 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
-27997cd6bfd03a928421c1e0fd9472b7982a8f1c Merge branch 'so/diff-merges-more' into seen
-b3c154f095d812aa18828cd80ce12e02f781b331 Merge branch 'cw/submodule-status-in-parallel' into seen
-9514a1edc6c459f0f482d546fd1b88ac7036c65f Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
-334f4530759bd1cd9f5fff12b8ba690d515db2a3 Merge branch 'cb/checkout-same-branch-twice' into seen
-34a38e2b44e65130519be68eab8d9d3651b19a07 Merge branch 'ab/tag-object-type-errors' into seen
-9342ff91afa0949eb2078ed6c95ed0fa49e94d79 Merge branch 'ja/worktree-orphan' into seen
-4f013d9c736f88a872f4920fedc6e6d5f5ff1460 Merge branch 'tb/pack-bitmap-index-seek' into seen
-2221cc375fd1804608816dc62a79855441991bf3 Merge branch 'rn/sparse-diff-index' into seen
-9f5f05aa5133541a2e08867c584f53ab6ee5a18f Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
-5ee33dcbca3061077d67272a0284425c52d62064 Merge branch 'sg/retire-unused-cocci' into seen
-4935e1d403f17e667e217f7e63de3e01c9c24bdd Merge branch 'cw/strbuf-cleanup' into seen
-64eb024c230a185b306715a6ae3787d2e2ef9940 Merge branch 'tb/pack-extra-cruft-tips' into seen
-4a357313db38812102e16b6c8e8729292f244980 Merge branch 'fc/doc-revisions-markup-fix' into seen
-107389a0135063b0fc324948920d78125823bf0c Merge branch 'fc/asciidoc-code-block-hack' into seen
-6d82007f7b2751ce217790e21527bc297465391f Merge branch 'fc/doc-use-datestamp-in-commit' into seen
-eae99c900c306549ee435d4c09354fff02e49b04 Merge branch 'ob/revert-of-revert' into seen
-209b40be61258a943a4b176564d6858f81cb199f Merge branch 'tb/pack-bitmap-traversal-with-boundary' into seen
+0c028b6a115e7f18480ec3f98ba7bccf011646ea scsi: scsi_debug: Abort commands from scsi_debug_device_reset()
+65a15d6560dff065339f6cac91de4beded60fe3f scsi: ipr: Remove SATA support
+83794367dcc6749662b17a1e4b8ec085023fc53b block: Cleanup set_capacity()/bdev_set_nr_sectors()
+9e868ca1f269dec9f2062bb8de42b8a94773924e ASoC: max98090: make it selectable
+c963e2ec095cb3f855890be53f56f5a6c6fbe371 ASoC: Intel: soc-acpi-byt: Fix "WM510205" match no longer working
+81221ab76490622952f1df2a45c41d6ffb10b303 scsi: pm80xx: Log device registration
+392e4daa8a7e3d9b103c64acef08f62f19d421aa scsi: ipr: Remove several unused variables
+948afc69615167a3c82430f99bfd046332b89912 scsi: ufs: core: mcq: Fix &hwq->cq_lock deadlock issue
+c5749639f2d0a1f6cbe187d05f70c2e7c544d748 scsi: qedi: Fix use after free bug in qedi_remove()
+38c8e3dfb2a1be863b7f5aad7755d5e9727da8a5 block: sync part's ->bd_has_submit_bio with disk's
+3f89ac587baa0c0460c977d1596e16f950815f05 block/drivers: remove dead clear of random flag
+0f99fc513ddd28de155c58547824a9fd63daacea splice: clear FMODE_NOWAIT on file if splice/vmsplice is used
+afed6271f5b0d78ca1a3739c1da4aa3629b26bba pipe: set FMODE_NOWAIT on pipes
+c51e431052e2eacfb23fbf6b39bc6c8770d9827a ALSA: hda: Glenfly: add HD Audio PCI IDs and HDMI Codec Vendor IDs.
+3315e169b446249c1b61ff988d157238f4b2c5a0 blk-integrity: use sysfs_emit
+76b8c319f02715e14abdbbbdd6508e83a1059bcc blk-integrity: convert to struct device_attribute
+ff53cd52d9bdbf4074d2bbe9b591729997780bd3 blk-integrity: register sysfs attributes on struct device
+ea3292986cc90fdd9ad9aa7018ee0651736a4529 Merge branch 'for-linus' into for-next
+067eb084592819ad59d07afcb5de3e61cee2757c ALSA: hda/realtek: Add quirk for ThinkPad P1 Gen 6
+110ccfa9dd6ca1272e50fbea614aa31f01d2c17e ASoC: amd: yc: Add ASUS M3402RA into DMI table
+3302212f0384ab286b65683bc340f3953f88f70a regulator: consumer.rst: fix 'regulator_enable' typo.
+daf376a366fd2d469d66ab83dfdc074777462bab uapi nbd: improve doc links to userspace spec
+2686eb845da7762ee98b17e578b0c081aafb77b9 uapi nbd: add cookie alias to handle
+bd9e9916c32fd4b4fb4e879e05bd1568ee02ec93 block nbd: use req.cookie instead of req.handle
+952aa344bf4305ab6fa0d9962ef8c2caa2afef4c docs nbd: userspace NBD now favors github over sourceforge
+9d2f38638a145f0c6102bee6533204aa3e5a9c07 ALSA: emu10k1: use more existing defines instead of open-coded numbers
+fc05e06e6098ca2c28f7a10da0e00aeea20fa59e md/raid5: Improve performance for sequential IO
+b1211978ecf19bceb63a04f53fea4b5d73832a4a md: Fix bitmap offset type in sb writer
+f40c153afee1e50ed46c2dc22e09940e21699acf Merge tag 'md-next-2023-04-28' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.4/block
+3e46c89c74f2c38e5337d2cf44b0b551adff1cb4 writeback: fix call of incorrect macro
+8176080d59e6d4ff9fc97ae534063073b4f7a715 block: Skip destroyed blkg when restart in blkg_destroy_all()
+7949aa46bb4b5c5e43ba3ba8298ffcb48bebf0ff mailmap: add mailmap entries for Jens Axboe
+7e2d06628aab6324e1ac885910a52f4c038d4043 ALSA: hda/realtek: Add quirk for ASUS UM3402YAR using CS35L41
+1604f51b401bfd881ab5c6401eaedac97f2166ca ALSA: docs: Extend module parameters description
+e4212ed0ba58264fbe7706c5493b9600339f60ae ALSA: docs: Fix code block indentation in ALSA driver example
+3899d94e3831ee07ea6821c032dc297aec80586a drbd: correctly submit flush bio on barrier
+c0b79b0ff53be5b05be98e3caaa6a39de1fe9520 ublk: add timeout handler
+84822215acd15bd86a7759a835271e63bba83a7b ASoC: codecs: wcd938x: fix accessing regmap on unattached devices
+4a1b5bc73e9ce8373d50fdb8f74badd2b4bf324e ASoC: amd: yc: Add Asus VivoBook Pro 14 OLED M6400RC to the quirks list for acp6x
+ec6f82b4c63cc68f8dc03316e725106d242706be ASoC: Intel: soc-acpi-cht: Add quirk for Nextbook Ares 8A tablet
+e7477cb97607b373d175a759c8c0270a640ab3f2 ALSA: hda/realtek: support HP Pavilion Aero 13-be0xxx Mute LED
+7501f472977df233d039d86c6981e0641708e1ca ALSA: usb-audio: Add quirk for Pioneer DDJ-800
+0d727e1856ef22dd9337199430258cb64cbbc658 ALSA: caiaq: input: Add error handling for unsupported input methods in `snd_usb_caiaq_input_init`
+4a2248855fc1053ef191e3412486f05a4cc4d28b Merge tag 'asoc-fix-v6.4-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+56fc217f0db4fc78e02a1b8450df06389474a5e5 ALSA: hda/realtek: Fix mute and micmute LEDs for an HP laptop
+d7f5dd9790bbf9c7357672bafb1992ee7aadf45a ALSA: pcm: Revert "ALSA: pcm: rewrite snd_pcm_playback_silence()"
+2fbaa44a59887f9fd70c986f39c4ac9aebd0c8a1 ALSA: pcm: fix playback silence - use the actual new_hw_ptr for the threshold mode
+781b4da64b9e3dafb356b7365e7ecf273e879602 ALSA: pcm: fix playback silence - correct incremental silencing
+190cb66a4ee0ac4419e1f8a9de46074a8c8e4c23 ALSA: pcm: playback silence - remove extra code
+6d8d56db0cd14c415c26e27d949c615750c40d70 ALSA: pcm: playback silence - move silence variable updates to separate function
+6ffa6f397e80bc196ed554e4dabfe43ecc0fe7c1 ALSA: pcm: simplify top-up mode init in snd_pcm_playback_silence()
+ee2dd703470242f1672403e83f827391afeca808 ALSA: pcm: use exit controlled loop in snd_pcm_playback_silence()
+27e0c8461c0aa2454d236924421e1c078cb77f21 Merge tag 'regulator-fix-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+0021b532b2fdd6b82cf3ff758191f00d8edd235d Merge tag 'sound-fix-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+7644c8231987288e7aae378d2ff3c56a980d1988 Merge tag 'pipe-nonblock-2023-05-06' of git://git.kernel.dk/linux
+a3b111b046f6ce5dff168af203daf2f46f3afb29 Merge tag 'for-6.4/block-2023-05-06' of git://git.kernel.dk/linux
+dd9e11d6477a52ede9ebe575c83285e79e823889 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+38a55db9877cae9aa9cc53bb0464b7434fb03e75 filemap: Handle error return from __filemap_get_folio()
+29417d292bd0fa174d20360326abaf6444a23c3b mm/mmap/vma_merge: always check invariants
+a6a491c048882e7e424d407d32cba0b52d9ef2bf nilfs2: fix infinite loop in nilfs_mdt_get_block()
+d824ec2a154677f63c56cc71ffe4578274f6e32e mm: do not reclaim private data from pinned page
+28a65b49eb53e172d23567005465019658bfdb4d nilfs2: do not write dirty data after degenerating to read-only
+58f5f6698a72a8af5d7bfc5f49b6df60f378f167 afs: fix the afs_dir_get_folio return value
+994e2419f1e77724479f0ffd5ad4eeae060dec95 nfs: fix mis-merged __filemap_get_folio() error check
+67a540c60c39d052d9599aa9909023152200a707 dmapool: remove checks for dev == NULL
+08cc96c894848bcd1d15a79b15c56a8bb4f07ff5 dmapool: use sysfs_emit() instead of scnprintf()
+790233528d338f1467662761cf1e871086483ab8 dmapool: cleanup integer types
+290911c56f98ac7af9354108f3d16da5d6c5189c dmapool: speedup DMAPOOL_DEBUG with init_on_alloc
+d93e08b7556fcd393b7fd1eb421cb44e5fae314c dmapool: move debug code to own functions
+5407df10e5754b80d43697a75484bacda048fef8 dmapool: rearrange page alloc failure handling
+f0bccea6bc0caa0db9c68d28123f242a6295c5dd dmapool: consolidate page initialization
+cc669954ab38866c1aba73c27e17bb07bcb4a194 dmapool: simplify freeing
+8ecc369554219060367fc589661d2b7ab201e923 dmapool: don't memset on free twice
+da9619a30e73b59605ed998bf7bc4359f5c0029a dmapool: link blocks across pages
+706ce3caea1cc1dab8c7fd6e7d1389b46ad1570e Merge tag 'mm-hotfixes-stable-2023-05-06-10-45' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+fc4354c6e5c21257cf4a50b32f7c11c7d65c55b3 Merge tag 'mm-stable-2023-05-06-10-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============3560862148957910372==--
+--===============4822738778732701337==--
