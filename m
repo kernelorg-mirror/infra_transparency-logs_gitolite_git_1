@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sun, 07 May 2023 00:20:24 -0000
-Message-Id: <168341882435.20063.2174077694850313012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 07 May 2023 00:28:19 -0000
+Message-Id: <168341929900.25124.12754294932993142016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/clk-for-linus
-    old: ca8327061415a0e0a45ef6b3129927f520fdfcbc
-    new: b2a0dd2a00c6978bc5c280774d13762078b1930c
+  - ref: refs/heads/master
+    old: 76e5d842b55ed002ec8eca24cb8bd04bffcfc36f
+    new: e7249554dd6e94075a20c6022c43e759741e011d
     log: |
-         690dccc4a0bf8b6b4eeb160882ec584d3d0bb642 Revert "clk: imx: composite-8m: Add support to determine_rate"
-         5c667d5a5a3ec16609229dddf25a46654186b52b clk: sp7021: Adjust width of _m in HWM_FIELD_PREP()
-         31c6ed4e89187beef8fe2f979c8881ca94839427 clk: starfive: Fix RESET_STARFIVE_JH7110 can't be selected in a specified case
+         698687d92786dc53ce61acf034ca815cc769ba2a Drop arm-9294-2-vfp-fix-broken-softirq-handling-with-inst.patch
+         e7249554dd6e94075a20c6022c43e759741e011d Drop drm-i915-hwmon-enable-pl1-power-limit.patch
          
