@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8420257918796792559=="
+Content-Type: multipart/mixed; boundary="===============5010642297521029280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 07 May 2023 11:00:28 -0000
-Message-Id: <168345722820.4601.1633029456429531651@gitolite.kernel.org>
+Date: Sun, 07 May 2023 11:04:14 -0000
+Message-Id: <168345745446.5855.3125111805066479835@gitolite.kernel.org>
 
---===============8420257918796792559==
+--===============5010642297521029280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6ec7831b7e3e97d1eaced53595b190dc1c3e5e06
-    new: 2e6c1ea55809dfe3a41b76937748f0c8f9ad8fb7
+    old: 2e6c1ea55809dfe3a41b76937748f0c8f9ad8fb7
+    new: b1d0431601a0e05aef0e5f6117e2d466e40a2d12
     log: |
-         2e6c1ea55809dfe3a41b76937748f0c8f9ad8fb7 drop queue-5.10/alsa-usb-audio-add-quirk-for-pioneer-ddj-800.patch
+         b1d0431601a0e05aef0e5f6117e2d466e40a2d12 drop queue-5.15/alsa-hda-realtek-add-quirk-for-asus-um3402yar-using-cs35l41.patch
          
 
---===============8420257918796792559==
+--===============5010642297521029280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683457227 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683457453 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1683457226-489418aab58c42c80026fb4073ed90394373f2f6
+nonce 1683457452-cdc7f510e5cd556bbd56a118f5936d480462d71f
 
-6ec7831b7e3e97d1eaced53595b190dc1c3e5e06 2e6c1ea55809dfe3a41b76937748f0c8f9ad8fb7 refs/heads/master
+2e6c1ea55809dfe3a41b76937748f0c8f9ad8fb7 b1d0431601a0e05aef0e5f6117e2d466e40a2d12 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRXhMsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ggP/1E3y/U/TCutng0JIMUB
-J38jQ128PqvWDjrZFIM1VMC2AQ8HrGEY1rcgq/sS6M8O8XDkQlepBYocsu+xmAj0
-qCWISPlI0yfNbCgzuYIA+aVQvc2YTyH1xV8JFOPLYbkqJJL7/l+N46iJnvgEQdOc
-w1dNYW+F6xPRBvRk+m41EGSR1e/m2iPcIZ248hJQ736dz6+Tx8bDZzZP2HJevVYQ
-sgzsK3Y+bWc24/GlJEc+dsovfoNMzlrIOM1JW06dcMV1mydtEgY6yHgYnFKRv5cF
-cve+bviAh6yzNz4Mh5Csc44VavOYJVEIjG1bg1wT5CwyLJ2xgjDHDy4N/6u0rAK1
-Mu0h/MO3lmvuzrCdz0PwttGrUvbmsOLFJGgF6lN2Iw47bAfrYcWNM/rpmuYkG6Ej
-HBwteUQOacWxcdYS54pxBKQQiRM97tPMQmvWZhgdEQqkj/KTNHSd4wpB0VjP4+ro
-1ak/W6FHoTjXmig2Pvm44ukYOcBg/4Fg/1r64eMNjv8VbDXzJrwYqXkSm0bUHZgg
-bsw/vf4Bt5grkZCxT1ugkatJEVlc6935tEwByrXPf7Evg/hj1RX0c1z7T7sKa18Q
-kry0LuxUxf+5iGH/Grblxr9xMhKijv24adEXsqwWJNekY+IdjNG5J0xoAWaYqPmj
-ouISMzkzlB1l0irjqHbWBiAw
-=Q4np
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRXha0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWsP/RXHN1Uomc6nECJo/egR
+S+x1xhQLOlT5X+6E5EPae/eP5PVj5zAMx9AlARWaycXtMjBOGONoeajxU231XaFU
+Hb41nHj6yjjbyZuxJrYF9H/5MOcTylAxHOySEoIJnPVTb0+EZDYxcF6bBB+PtC9i
+03Khp6jgen1UCJAnXRBQo/aqaZJGM38dSWZ7bY5MI2DLBjfT3zlzESdW0T3+QzIO
+00XVTHQR6P+IhEboJEd/WvUvnEb5CmMYPj80aN4k6U9e5HZmfctnHzEvJ6MD+HEh
+eRWMnNHQJjggGmG8Aif9q/dBZXzwYUPxWcBHeDN6WI64xhvRe73EazO84Pj3KGfR
+cWqrHOmTXTLHHUn3KiM9wkSyQF+AHketqdfm4kSV//1d645yzUPgersuYZE2C1PF
+6J62lXLevHa2C6hKzh+HdHJ5+Fyb7bbAhQZ3ALRGRypzMLNeAaB8hZOjSbSRDCDH
+NIl7n24YLmlwLT0Y387eOUVU5mR4Q+H0fIL5vmIks6//lD77U626hXOzJgDfgCF8
+4WYQ7Ai4lc0suudguY1J0K0WodBif6ps1gt4EW2fOfjuJk/JumAo93/HkVoQiN4W
+ArPN0Yye2+qRxJlLKPW8EGi1KmhUEhmChf4h0+rGKwBm3XtZBr1OVz0NoNFMj/Ft
+H7xUOsLINGdnNazVsLbJNW/S
+=LAGb
 -----END PGP SIGNATURE-----
 
---===============8420257918796792559==--
+--===============5010642297521029280==--
