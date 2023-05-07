@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5431978154169009356=="
+Content-Type: multipart/mixed; boundary="===============1458920965231995290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Sun, 07 May 2023 16:56:37 -0000
-Message-Id: <168347859721.14745.15578715276803279114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sun, 07 May 2023 16:58:04 -0000
+Message-Id: <168347868481.15290.10846355083446792584@gitolite.kernel.org>
 
---===============5431978154169009356==
+--===============1458920965231995290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
   - ref: refs/heads/master
-    old: 457391b0380335d5e9a5babdec90ac53928b23b4
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: fc4354c6e5c21257cf4a50b32f7c11c7d65c55b3
-    log: revlist-457391b03803-fc4354c6e5c2.txt
+    log: revlist-fe15c26ee26e-fc4354c6e5c2.txt
 
---===============5431978154169009356==
+--===============1458920965231995290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-457391b03803-fc4354c6e5c2.txt
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-fc4354c6e5c2.txt
 
 c0123cb6c4c7fc2a42ead6cd7d3e82b8e1c25c6f Bluetooth: btrtl: add support for the RTL8723CS
 7c2b2d2d0cb658aa543e11e90ae95621d3cb5fe6 Bluetooth: Improve support for Actions Semi ATS2851 based devices
@@ -1051,4 +1051,4 @@ da9619a30e73b59605ed998bf7bc4359f5c0029a dmapool: link blocks across pages
 706ce3caea1cc1dab8c7fd6e7d1389b46ad1570e Merge tag 'mm-hotfixes-stable-2023-05-06-10-45' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 fc4354c6e5c21257cf4a50b32f7c11c7d65c55b3 Merge tag 'mm-stable-2023-05-06-10-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============5431978154169009356==--
+--===============1458920965231995290==--
