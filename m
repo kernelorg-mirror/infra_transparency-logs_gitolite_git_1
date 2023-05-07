@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0933502872697127063=="
+Content-Type: multipart/mixed; boundary="===============2654149098155624114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Sun, 07 May 2023 20:54:19 -0000
-Message-Id: <168349285998.10056.597201657082937551@gitolite.kernel.org>
+Date: Sun, 07 May 2023 20:54:25 -0000
+Message-Id: <168349286545.10171.3858007792925820009@gitolite.kernel.org>
 
---===============0933502872697127063==
+--===============2654149098155624114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: ac9a78681b921877518763ba0e89202254349d1b
     log: revlist-1b929c02afd3-ac9a78681b92.txt
 
---===============0933502872697127063==
+--===============2654149098155624114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============0933502872697127063==--
+--===============2654149098155624114==--
