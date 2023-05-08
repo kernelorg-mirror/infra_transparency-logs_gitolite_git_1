@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0432685192573250791=="
+Content-Type: multipart/mixed; boundary="===============2449693033785156226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 08 May 2023 12:06:36 -0000
-Message-Id: <168354759682.7405.10740098640355018828@gitolite.kernel.org>
+Date: Mon, 08 May 2023 12:06:59 -0000
+Message-Id: <168354761998.7601.17064025986115258917@gitolite.kernel.org>
 
---===============0432685192573250791==
+--===============2449693033785156226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,48 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: c8e22b7a1694bb8d025ea636816472739d859145
-    new: 1a7edd041f2d252f251523ba3f2eaead076a8f8d
-    log: revlist-c8e22b7a1694-1a7edd041f2d.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 01826404011c4d45d377d0c6dd22df231cdab64f
+    new: 4770e24904eec1471b7abfb33d516a0e587ebc52
+    log: revlist-01826404011c-4770e24904ee.txt
 
---===============0432685192573250791==
+--===============2449693033785156226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1683547590 -0400
+pusher 75C5DE3D 1683547606 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1683547589-42e74de7a0703fceac56af490907ee7cdac6aa5f
+nonce 1683547606-e916efcec67ca420200795692a2c7a799c299376
 
-c8e22b7a1694bb8d025ea636816472739d859145 1a7edd041f2d252f251523ba3f2eaead076a8f8d refs/heads/fixes
+01826404011c4d45d377d0c6dd22df231cdab64f 4770e24904eec1471b7abfb33d516a0e587ebc52 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRY5ckACgkQ7ulgGnXF
-3j21eQ/8CuU8043DUzYx8+RQlwW0cQtQBp86W2EKfprNj1p5RAfOmDUVqywa/kmU
-eQRiJMa9W9ZanZ26LsX4uI7ZW/83W7AwC/Eak2C+4F5t1qhLMw+0kljuHU5RMX0T
-jsVlL7xqB6WVeUhJGIZzVbpvMp3lGCUDeeQcXqvNiuPAoT7v67vO4ie7ZgsGEG02
-5CJKZrv/O6EXsf1OiAG2MCGlq7tIAMLvrZdGstI/b7lVbfMxMmlk3aMHPzk7Ma7V
-ALPfqr9ZSzCwakNn/D5HQBLSv4gbsXr6FJLHLQgaoDVHEUgGnqQ9RbHxHehMqniP
-o080JtywsEoBw66GqF/pkQFFFl9POBdDSc+YsDDE41M9GYOKvUU8VEtGKDU+NAji
-txc1wmIPqmcclvJVXSaCOoVsgAeA7YyMGh/sjGKSMYjNG5FhCIm3LleXWh5EMkXL
-DkXqymGh30V4mbdgU95AqGnPS80qxensXRNwx0drdVqTI45S30HGW7nmzXvJjIeK
-mCTN2MRO8qYp4ORCMl+NPHl8fJp5ZEChs6f2MySDmeFpgxljxPvKE0bALXcIVtXG
-aLMDbONDHSkAILH+tPrjg8llmHbD6ulOQxo8WVdf0MBLZj7PhmO9Ortod+oMFYoA
-Xn37GTu5mugfoChB7SIwW+44niq1jjhLfikN0+89tu5x13yUEnw=
-=7dnJ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRY5dkACgkQ7ulgGnXF
+3j27qhAAh7bFwTbQ/09FdewgWthQFwQek3l1Q5nnLBUCVYv0AZ5fOk5Iau8InKOU
+m4RBaXbhZWXAC1o4Qzq4QkonjDaS4AwgJEOkJlO3BuIL+56/u8BaP3kLonF6xKPa
+TAUAYmCLJYZH/rwRl8HdcPcRU4tpD+CfZPH4nRiHFlIy5vSQQkIoyA3nI/1p/qAE
+e8mJg39ccm1a9e50un6PSdjR97lDOB6ZBio47i0PM/ZkWsl8p0zC6wmCBP9B9fPD
+ULyUXcraeaL8hE5DJY5NxbL59mky/8FrQkr2nOEq/rvQdS/Xy1mZpPWQ3p03qwYw
+bOYCmIDMOduLrrLtvrNo7HMoBYyJoBte46sZG3KyovRciLcbjaMfVUf9wgomOQaL
+RibqQ5CTAONHSTczM4LOG0PjtRIST7sLP7NBUcZVJkYlHTmqtyZYf4pzpeINEvn2
+8yU8jVFzMa0/jlVfvb4WNLuEn0yzvyDYZxJSoDvSR6PDpCpQinm6Y3e6uSMOV/0A
+7cyEFkdrkKB/uKQ02oEdBuYOG3l33fkShiQNyOgYmQ5J3KXNE9mnLQ1jYlPJzITZ
+NnjHWVV2yJPP2VcJ72b7zqXvAPId0VOLrkORQaUbpZbwkHruqFOfHIU+uKrzhd5T
+rDqf/U5Bky0OukmRYhaxOv8UFDrxHKuyQLlW/8Q2d8b1fVVNfJ8=
+=L+yp
 -----END PGP SIGNATURE-----
 
---===============0432685192573250791==
+--===============2449693033785156226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8e22b7a1694-1a7edd041f2d.txt
+Content-Disposition: attachment; filename=revlist-01826404011c-4770e24904ee.txt
 
+ce8ac91130b96f651cf6b5245668dfa4969c9c42 Merge branches 'edac-drivers', 'edac-amd64' and 'edac-misc' into edac-updates
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
@@ -246,7 +248,6 @@ ef36b9afc2edb0764cb3df7a1cb5e86406267b40 Merge tag 'pull-fd' of git://git.kernel
 11b32219cba462b1e12cfd91069ba82574bc2dcc Merge tag 'pull-old-dio' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 181b69dd6e61235b04742b473c23b00b731f62c3 Merge tag 'pull-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 173ea743bf7a9eef04460e03b00ba267cc52aee2 Merge tag 'pull-nios2' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-81221ab76490622952f1df2a45c41d6ffb10b303 scsi: pm80xx: Log device registration
 392e4daa8a7e3d9b103c64acef08f62f19d421aa scsi: ipr: Remove several unused variables
 948afc69615167a3c82430f99bfd046332b89912 scsi: ufs: core: mcq: Fix &hwq->cq_lock deadlock issue
 c5749639f2d0a1f6cbe187d05f70c2e7c544d748 scsi: qedi: Fix use after free bug in qedi_remove()
@@ -1079,6 +1080,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-1a7edd041f2d252f251523ba3f2eaead076a8f8d scsi: ufs: core: Fix I/O hang that occurs when BKOPS fails in W-LUN suspend
 
---===============0432685192573250791==--
+--===============2449693033785156226==--
