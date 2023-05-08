@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7068639018390134845=="
+Content-Type: multipart/mixed; boundary="===============9007109209145160688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 08 May 2023 09:42:35 -0000
-Message-Id: <168353895596.6155.8690216775624107375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 08 May 2023 09:42:37 -0000
+Message-Id: <168353895789.6216.16557574046353955820@gitolite.kernel.org>
 
---===============7068639018390134845==
+--===============9007109209145160688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 196a1716a2ecdcbc61e6b299362897f0ccbd26c1
-    new: 6ad9cf7a615287d640deb4a6530c4d9846621be0
+  - ref: refs/heads/master
+    old: 8d050cd1d425e3750fa768aa99384d1e77ae43f5
+    new: ea0ad4000c84f45a20cfd2f62392885bf953fc9a
     log: |
-         6ad9cf7a615287d640deb4a6530c4d9846621be0 MAINTAINERS: adjust file entry for ARM/APPLE MACHINE SUPPORT
+         ea0ad4000c84f45a20cfd2f62392885bf953fc9a 5.10-stable patches
          
 
---===============7068639018390134845==
+--===============9007109209145160688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1683538954 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1683538954-34b8d8f4e8412200c7856660210cea4d537782b4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683538957 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1683538955-c64a02f85b0477f0ddc1e7f93816c0536c3afe1e
 
-196a1716a2ecdcbc61e6b299362897f0ccbd26c1 6ad9cf7a615287d640deb4a6530c4d9846621be0 refs/heads/for-next
+8d050cd1d425e3750fa768aa99384d1e77ae43f5 ea0ad4000c84f45a20cfd2f62392885bf953fc9a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYxAoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zEXD/0UIj3ONmkKn1zG5GYpaWkCdDXmcgjawhNR
-HCGaen8wuanIIIkhpYNpUduSvem6Scbf95L2sb20x2YbmcVTWoz4EaoXiPCDh0Tw
-b1ZvYJ1R7wSlCE36qFfZI0+LcIlg92jPQrGOTabYW+s3hoN8XyAfvbZXQv848lDc
-K1rWf61GQOwrc5BG1bjlEeIbg5WoYb7OacRv/Dp5rJTDQztvuYO+1sQuQ615DPsP
-bmzPyUqRJirSP2K3OLDeWLv6gC1NlI46MF9aA1olOVEHD7qTKldAyN72ixA4fTy4
-+o6D0GfO48aP7n3/1wI+R0HxIMLBjCAt6rB0b0TDTJboaeY+3/yJBoyokQB3d+kS
-o7SSf6X/jip2BR37dau7xLVLf2QyrrldLu3rfUOSuwJGTjh/J6YDtOe7dXn5Z41f
-mWEXTbed9MDEvAmrYWhZjFbsvagPZbqIrwE4wDkyXXelIOBDmAdXi5UMF2Qq5587
-RAVtKpISn/OjXJR3/8sGgl5hl8yEaYBdcEDnn3zGpw6VKLXWT4tdrcSfRQtfBpOu
-blZc43J9tQbiX9kj3CYGpXdsDM0Ej4PgaPTP7FotCi90NCDYk4UsZwiQAYMEqf1s
-PPF+qVx+gun2H7vR4vCtFEah5brOQG0rkTUvYaNWxFTs1foNxX92ELzn3oxOj3lT
-Z5jjcDYiSw==
-=4jyO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRYxA0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tKkP/12uYKlwb1Hpf2I4NL2P
++I+EBNA/V02FR6BF6W6+IRtE6Yle1/QWw7xT8PtczGJKAQ+U6w0tsgJU9xRjdXyt
+M2DIy5UG5L0ZJ8Qw4+4AjqLR2WwhFHtlwW9G2eWGVsmprjDmNz0Pwsk+VEaqALXm
+SyrqheExxotQTvKw/8huFn28AH7YKESG76hEihv/zNUJ15QevhDaVxllew+/12Vb
+tqwfIO307kwtcqiN5o0q7tUA8owj67ASdWjqX61mlMM/HHwqX96ui/X4LxWxQq7F
+STq19SsXds0BN5eTueQaMiFcigTJdhbnXT4jy5odUFmI7SbSyZPG3mQ585Y0RnDJ
+eHAuqUGCDOTiPSGKAQe608ryhjCp2hgCzLtUzlsHbpd3NjRqt7UvMYohQC9aNcZ0
+3w3mxpbAq1+yLVqvIw5wAJ5cujAbsxjDTOT6KB63Udz9jQQMkgeFpKWk8w2GhGQL
+99iGLJyCP/PogA0HzBVYnk/gnRmB8aXi53Uj/ViryP9BKIsfzYo1qjVKc4E4TfgJ
+qXwTy21ihVXTnWanBPuqfXr3eAjQG/T7lND4Wu8lkSI0YgOSMGyRqjqRf3Bbh7Kv
+Z9OAUwjgPPNvv139xfGJYDJTGYe1BpLv5MZhKgLfVjzXvGGhFtYQIdHivMtdnmEe
+/QEm+vdITAorweFcNAJMpkTA
+=XCUy
 -----END PGP SIGNATURE-----
 
---===============7068639018390134845==--
+--===============9007109209145160688==--
