@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5198928050400091681=="
+Content-Type: multipart/mixed; boundary="===============2771977988458783032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 08 May 2023 19:41:06 -0000
-Message-Id: <168357486663.30317.2189608598991760721@gitolite.kernel.org>
+Date: Mon, 08 May 2023 19:41:13 -0000
+Message-Id: <168357487314.30428.9618106785360135786@gitolite.kernel.org>
 
---===============5198928050400091681==
+--===============2771977988458783032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/juno/fixes
-    old: 18f27e227561c1644c32fe5243aa40429c382470
-    new: 55b37d9c8ba23d28c584aef0801fb1e60e4a817c
-    log: revlist-18f27e227561-55b37d9c8ba2.txt
+  - ref: refs/heads/for-next/arm-ffa/fixes
+    old: 3c69d8b1cd304dfdeb47f4c5223a7f1159b5c893
+    new: 111a833dc5cbef3d05b2a796a7e23cb7f6ff2192
+    log: revlist-3c69d8b1cd30-111a833dc5cb.txt
 
---===============5198928050400091681==
+--===============2771977988458783032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18f27e227561-55b37d9c8ba2.txt
+Content-Disposition: attachment; filename=revlist-3c69d8b1cd30-111a833dc5cb.txt
 
 7c0631d494b95fa5697d297ae443d7787321b5a1 perf test: Fix offcpu test prev_state check
 484b2a8442d2ad413ac983775232544e2940fdd1 perf tools: Ensure evsel name is initialized
@@ -872,7 +872,9 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-328acc5657c6197753238d7ce0a6924ead829347 ARM: dts: vexpress: add missing cache properties
-55b37d9c8ba23d28c584aef0801fb1e60e4a817c arm64: dts: arm: add missing cache properties
+b71b55248a580e9c9befc4ae060539f1f8e477da firmware: arm_ffa: Check if ffa_driver remove is present before executing
+c6e045361a27ecd4fac6413164e0d091d80eee99 firmware: arm_ffa: Fix usage of partition info get count flag
+19b8766459c41c6f318f8a548cc1c66dffd18363 firmware: arm_ffa: Fix FFA device names for logical partitions
+111a833dc5cbef3d05b2a796a7e23cb7f6ff2192 firmware: arm_ffa: Set reserved/MBZ fields to zero in the memory descriptors
 
---===============5198928050400091681==--
+--===============2771977988458783032==--
