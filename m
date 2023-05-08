@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7227357796870697667=="
+Content-Type: multipart/mixed; boundary="===============1770293699605058065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 08 May 2023 13:50:40 -0000
-Message-Id: <168355384099.19324.1090682141473829865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 08 May 2023 13:55:23 -0000
+Message-Id: <168355412342.22480.6390961364254595884@gitolite.kernel.org>
 
---===============7227357796870697667==
+--===============1770293699605058065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/sent/20230302-ftrace-kselftest-ktap-9d7878691557-v2
-    old: 730381fe937c2cd8323ce6a06040eaa753eca99f
-    new: eb1d33a7298b6aa34a6f197207f43d45e2456d13
-    log: revlist-730381fe937c-eb1d33a7298b.txt
+  - ref: refs/heads/x86/misc
+    old: 5910f06503aae3cc4890e562683abc3e38857ff9
+    new: b2ad431f6469b58914ee7254302c6dc97f688e54
+    log: revlist-5910f06503aa-b2ad431f6469.txt
 
---===============7227357796870697667==
+--===============1770293699605058065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-730381fe937c-eb1d33a7298b.txt
+Content-Disposition: attachment; filename=revlist-5910f06503aa-b2ad431f6469.txt
 
-2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
@@ -1049,6 +1048,7 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-f142421ec0489826aafe28ae494e025db8477953 selftests/ftrace: Improve integration with kselftest runner
+0150d1bfbedf29d7473ae458815781488f62d11d tools/x86/kcpuid: Dump the correct CPUID function in error
+b2ad431f6469b58914ee7254302c6dc97f688e54 tools/x86/kcpuid: Add .gitignore
 
---===============7227357796870697667==--
+--===============1770293699605058065==--
