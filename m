@@ -1,31 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2532545853863763876=="
+Content-Type: multipart/mixed; boundary="===============3028665403496923918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 08 May 2023 07:19:49 -0000
-Message-Id: <168353038976.18726.14250822097610757024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 08 May 2023 07:22:31 -0000
+Message-Id: <168353055189.22487.12631202526445935911@gitolite.kernel.org>
 
---===============2532545853863763876==
+--===============3028665403496923918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/controller/cadence
-    old: eac223e852082407b1bd1624de3f6b6ad5372369
-    new: 0e12f830236928b6fadf40d917a7527f0a048d2f
-    log: revlist-eac223e85208-0e12f8302369.txt
+  - ref: refs/heads/fixes
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-fe15c26ee26e-ac9a78681b92.txt
 
---===============2532545853863763876==
+--===============3028665403496923918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eac223e85208-0e12f8302369.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher krzk@kernel.org 1683530550 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1683530549-157277d4e67d1c45e46684b2ab01b22f6b4a3cf4
+
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 ac9a78681b921877518763ba0e89202254349d1b refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYozYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+4pD/48V/76sYlF2AXqrbxh2yIzFYpr1tTn1dGK
+Vqf0LPNgp0hPQfGVWKX/9x0K1RjWEb0n79ZFy95g9UOGqPNZOP1iKSdR3eLlEApJ
+Bh419bF2UeCiy8vksSzhsjP79KPbN1jvjGMTC1LnMTe2QzSfHkZmwRfmGfvpxadU
+iemG2bRWAnlF0/JMydKm1IWbQpBGD9PDl8jeBZfv5F/QwiO/WLOHYzHTg+fFoiUz
+K/N4b6mZYjckh4DqVZ/NJ6er0UGA/uuCFVcA2Zd17CDqv170tfgL2rGrACtqldyN
+ePA9JX1p5BekDUiNxyGCiWj97WtF7PBrlp+3wjT9nAC/TQpOkostWpBo0+r4ykJk
+T2coZ8GS2S4l1luAIuBmg5VjCLj43UTLambHIaGfVUNqTzN2gr/GsNQe6L8IV1HZ
+nTRhLqIUyCXE+mzmAKfgC+Vhl0XLkNwBRPQsdxY9jRaWuFUIKiQ73JpOj5s/6qjP
+hkpNlZewhUDIrM738uh/rN46fjYQVgfjBoIb/THloI3m3gVpund96q6+HB87mvzL
+3hJTmZgxQNfOmQOCPGAZ1tneX4GjG3r5N/f+6nNgStd23NimNoAyOxYuzF6CqZdk
+lqzEPYg+UzCrY5DpHooUNe9N2W0oD+Ta0c7Tyou3vKdwT2ZHKkvdTbHXr+KtEPIJ
+XVcaPD3kCQ==
+=nvra
+-----END PGP SIGNATURE-----
+
+--===============3028665403496923918==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-ac9a78681b92.txt
+
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
@@ -1049,6 +1081,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-0e12f830236928b6fadf40d917a7527f0a048d2f PCI: cadence: Fix Gen2 Link Retraining process
 
---===============2532545853863763876==--
+--===============3028665403496923918==--
