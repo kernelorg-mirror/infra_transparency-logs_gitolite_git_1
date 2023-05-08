@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2052303191318564381=="
+Content-Type: multipart/mixed; boundary="===============5198928050400091681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 08 May 2023 19:41:01 -0000
-Message-Id: <168357486151.30223.2676905385897319884@gitolite.kernel.org>
+Date: Mon, 08 May 2023 19:41:06 -0000
+Message-Id: <168357486663.30317.2189608598991760721@gitolite.kernel.org>
 
---===============2052303191318564381==
+--===============5198928050400091681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: bb03b1d0dc572e2c69d6a73ea31e7526c5b8ade9
-    new: 44e8d5ad2dc01529eb1316b1521f24ac4aac8eaf
-    log: revlist-bb03b1d0dc57-44e8d5ad2dc0.txt
+  - ref: refs/heads/for-next/juno/fixes
+    old: 18f27e227561c1644c32fe5243aa40429c382470
+    new: 55b37d9c8ba23d28c584aef0801fb1e60e4a817c
+    log: revlist-18f27e227561-55b37d9c8ba2.txt
 
---===============2052303191318564381==
+--===============5198928050400091681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb03b1d0dc57-44e8d5ad2dc0.txt
+Content-Disposition: attachment; filename=revlist-18f27e227561-55b37d9c8ba2.txt
 
 7c0631d494b95fa5697d297ae443d7787321b5a1 perf test: Fix offcpu test prev_state check
 484b2a8442d2ad413ac983775232544e2940fdd1 perf tools: Ensure evsel name is initialized
@@ -872,6 +872,7 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-44e8d5ad2dc01529eb1316b1521f24ac4aac8eaf firmware: arm_scmi: Fix incorrect alloc_workqueue() invocation
+328acc5657c6197753238d7ce0a6924ead829347 ARM: dts: vexpress: add missing cache properties
+55b37d9c8ba23d28c584aef0801fb1e60e4a817c arm64: dts: arm: add missing cache properties
 
---===============2052303191318564381==--
+--===============5198928050400091681==--
