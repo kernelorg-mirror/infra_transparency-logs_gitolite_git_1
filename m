@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2506720175926968392=="
+Content-Type: multipart/mixed; boundary="===============7610459663118283131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 08 May 2023 07:18:11 -0000
-Message-Id: <168353029125.17986.7526354094045822536@gitolite.kernel.org>
+Date: Mon, 08 May 2023 07:18:55 -0000
+Message-Id: <168353033529.18309.7838884339661726227@gitolite.kernel.org>
 
---===============2506720175926968392==
+--===============7610459663118283131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: lpieralisi
 changes:
-  - ref: refs/heads/controller/vmd
-    old: e06720c1d9e1b5f02de64b67c3f2779497978917
-    new: b61cf04c49c3dfa70a0d6725d3eb40bf9b35cf71
-    log: revlist-e06720c1d9e1-b61cf04c49c3.txt
+  - ref: refs/heads/controller/dt
+    old: 661a7e9aa551ef265de859a48f297e275a1c5587
+    new: c0aba9f328019fa8ba1b771ba0146ac61ce561ad
+    log: revlist-661a7e9aa551-c0aba9f32801.txt
 
---===============2506720175926968392==
+--===============7610459663118283131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e06720c1d9e1-b61cf04c49c3.txt
+Content-Disposition: attachment; filename=revlist-661a7e9aa551-c0aba9f32801.txt
 
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
@@ -1049,6 +1049,6 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-b61cf04c49c3dfa70a0d6725d3eb40bf9b35cf71 PCI: vmd: Reset VMD config register between soft reboots
+c0aba9f328019fa8ba1b771ba0146ac61ce561ad dt-bindings: PCI: qcom: Add SDX65 SoC
 
---===============2506720175926968392==--
+--===============7610459663118283131==--
