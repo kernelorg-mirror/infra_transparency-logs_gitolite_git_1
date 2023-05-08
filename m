@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5546872437941345263=="
+Content-Type: multipart/mixed; boundary="===============0378924133440300561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 May 2023 15:59:29 -0000
-Message-Id: <168356156986.9789.3995933047168461947@gitolite.kernel.org>
+Date: Mon, 08 May 2023 16:00:05 -0000
+Message-Id: <168356160514.11626.16131647535944592070@gitolite.kernel.org>
 
---===============5546872437941345263==
+--===============0378924133440300561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 93e0401e0fc0c54b0ac05b687cd135c2ac38187c
-    new: 27c1eaa07283b0c94becf8241f95368267cf558b
-    log: revlist-93e0401e0fc0-27c1eaa07283.txt
+  - ref: refs/heads/dev-queue
+    old: 09fdaf0ef33bfa35365696bcdc993a1d373e7703
+    new: 1ff1102d4d1b406c3eafdea6bf1372f24207c2d3
+    log: revlist-09fdaf0ef33b-1ff1102d4d1b.txt
 
---===============5546872437941345263==
+--===============0378924133440300561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93e0401e0fc0-27c1eaa07283.txt
+Content-Disposition: attachment; filename=revlist-09fdaf0ef33b-1ff1102d4d1b.txt
 
-0d587f354dcf3616542d6ec3239fb65ed7187735 ASoC: Intel: boards: updates for 6.4
-efd090c040f2ab68b7be79f6c0e94ac8c30d70f1 ASoC: SOF: add no_reply IPC calls
-389b01aba302c4504930cd6089d1910995e870af ASoC: SOF: pcm/Intel: Pause-resume improvements for
-57fbfb3b0b6526c9fd9c32383720ff550ace4919 docs: leds: ledtrig-oneshot: Fix spelling mistake
-a0a53f1bf1f712b6a52eae21a2f82cf44a7cfe5c pinctrl: pic32: Convert to immutable irq_chip
-33c56e5ca01b85d235f464572a640ef657d53fca pinctrl: pistachio: Convert to immutable irq_chip
-35d008679a5af05dcca4fac5c0e8491196a6ffdf pinctrl: plgpio: Convert to immutable irq_chip
-9890a043b3d755f796f6ae14aa66cc9cecd15a68 pinctrl: qcom spmi-mpp: Convert to immutable irq_chip
-5e75e24eb111245b1a1fd08496fc012d5e1f9e7f pinctrl: qcom ssbi-mpp: Convert to immutable irq_chip
 19bcff7e2777c7337caeef5532ad6f93f3d24d64 pinctrl: qcom ssbi-gpio: Convert to immutable irq_chip
 2f2c0911b950794dbf394ee2d784138fbf714dbd KVM: s390: interrupt: fix virtual-physical confusion for next alert GISA
 7be3e3392335131b2234fa3e6feda3e989cb837c KVM: s390: vsie: clarifications on setting the APCB
@@ -1050,5 +1041,14 @@ a5e219005aeaf52cb10f9999a61c07a140db7097 Merge tag 'i2c-for-6.4-rc1-part2' of gi
 ed23734c23d2fc1e6a1ff80f8c2b82faeed0ed0c Merge tag 'net-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 424f8416bb39936df6365442d651ee729b283460 net: skb_partial_csum_set() fix against transport header magic value
 27c1eaa07283b0c94becf8241f95368267cf558b net: mdio: mvusb: Fix an error handling path in mvusb_mdio_probe()
+4ced03af466dfd51f9c8bd4e3e7d9da9e74b8f34 i40e: fix PTP pins verification
+6db1a56fc638b3fe8e9949119a3e43e9e34cb76b igc: Clean the TX buffer and TX descriptor ring
+e9a7147db97336dffc3d04dc15d3d1db2d118996 iavf: send VLAN offloading caps once after VFR
+7de2a5e7194b5f2ead0ee784dddff2307486164a ice: Fix stats after PF reset
+9685ee064543204f82ee7d56a191dea7508f476a igc: Fix possible system crash when loading module
+4206263fc47e7d97443a309633af1bf68aba1d60 ice: Fix ice VF reset during iavf initialization
+acae15f42ee8b9e64dd0a120e69e18090a32ebc2 igb: fix nvm.ops.read() error handling
+3d298bcbb05c269af8f0cea7bc768aa626e4b286 igb: fix bit_shift to be in [1..8] range
+1ff1102d4d1b406c3eafdea6bf1372f24207c2d3 ice: Fix undersized tx_flags variable
 
---===============5546872437941345263==--
+--===============0378924133440300561==--
