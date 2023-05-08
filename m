@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8547117258287937028=="
+Content-Type: multipart/mixed; boundary="===============2057492234128291249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 08 May 2023 07:28:57 -0000
-Message-Id: <168353093772.26613.3063210217929412989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 08 May 2023 07:30:25 -0000
+Message-Id: <168353102527.28743.8558999771546873566@gitolite.kernel.org>
 
---===============8547117258287937028==
+--===============2057492234128291249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 3ec0e1ea4770e40575bfb2bb4e9ebbbaa3c80d3f
+  - ref: refs/heads/fixes
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-3ec0e1ea4770-ac9a78681b92.txt
+    log: revlist-fe15c26ee26e-ac9a78681b92.txt
 
---===============8547117258287937028==
+--===============2057492234128291249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1683530936 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1683530935-700f86df0b2bed3f2cacbce1df27550babb5044d
+pusher krzk@kernel.org 1683531023 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1683531023-9c708390384ed2d033c984ef49e1ffff649666a1
 
-3ec0e1ea4770e40575bfb2bb4e9ebbbaa3c80d3f ac9a78681b921877518763ba0e89202254349d1b refs/heads/mem-ctrl-next
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 ac9a78681b921877518763ba0e89202254349d1b refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYpLgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14lGD/0fmgBAxh4ss9yoCRD3eLEczhOl5xXg06m+
-qYX2qgXdh6vf6hHpnjS5GaTzVgdawvu3ZM89wdAd2A53MlI0aVX2uVF1JG9px6er
-B4AE5Upz79ZT82tu/xIlRd1mWg33fRzONJwA+lSqjrOiZM9qWjbR98xvskNglfEO
-lHY5Ey8JDHezZNb0PTCKdA/7IYn13zM+NHKNpqM/myFDA1vtoxhKJ1S3CPpE3Son
-QBPA891GlaaNS06qqq5cLuQ69FyD814Koc0wsCEHyvSQRWpxM7hXUquNtiEoMjA9
-q9HEs/oDlVsdl8uaEufbeimX9POTCg10vTH/AIQRf3CU5QLFGumHupXpmMO+fTNb
-Yzik7qO28lA+JgizbyBmJkVOUgHlXEuPeeyRsef8e+c5qhHNGYb1cu5otJNonD9b
-NegWD/ht/0EWFIjcDg0936VEHr3Lb3yTPFb+rC49W1ekB1lzC5xOCGb1xTVj1fLU
-HxrYvZ/AuJ5IlOdMVOCj89pdzfn/xgNumrwv90YNAqBd+RNgvUyw/9Df84w+KwAO
-iZVYw0L4im/I+xSmvM4WBiO6li5BH0N5lTN/gjPert6gqueC0I8OSh85gFokGg95
-7z+khwdC2Ea0Nv+HSvLjxXGgfxqS5rUBtaJtIMGbLfyjJa24FVbT6FJBJlUo9eVO
-0r8f6AN+5g==
-=wkMF
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYpQ8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14JfD/9RG22+zUYliYFz8CFDr7kjwsrin3NSm7+V
+8lGEpOFWysgspumQDsPBgrnXQdpvK3Pe6n8Qj6b7GxjXjuFqonTNaUMdBw0HrJW2
+LOOVNoIciObgsgglDsr+VK7qFU82UcDTsO25+mCPNtAY0pnmmvKH99ZQkIxyy0L8
++313a4lBBKLGrqCYgp5cCpeOX/yVrXvtOPdSUc0j/4i3FNXIVZBJerXXGvIBj7UD
+OyoiW2zqcUY2g9kMdUK/R9E3afQWFjeFuX2fq3sb5B+L9EO/90+fiVgPgafuxB4K
+RaEOKE7hofjtvYaSuWLBrmgQvbfs8e1PqPp+deXCNmbX+iEKUKFkhK0xLmKGXr3E
+9EgTR8ZfO46CqoRv7sl8OmJn0L4Fug5c8TqsciTegajeRVUJ5yrrIRZA8+RwZZpV
+YYZKXY4z8Pc33sIw/ISLfAmVKqM0JWLdj83gBOTHEmpbvvGYJMQWDUgOx83FVYB3
+tZScVn2d7x9tFeIezvyeiOfUqyMzFDV5a5RRuNCk0CiS0KYiE0w16qxUZyv/ZwFs
+2A8NRhvQl6tlW43antQhrlBMDk2FVEZJmoQA3J9JqVyYTD4vT1LEwQFptAOR9G9G
+EVjKHmxsiJnitHpcH9deEyKM1VFaz9rlWEC4kEMRB/Ct4gxF2f4SOweWlI3hhB0h
+FRKMM6YHuw==
+=kWJ2
 -----END PGP SIGNATURE-----
 
---===============8547117258287937028==
+--===============2057492234128291249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ec0e1ea4770-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-ac9a78681b92.txt
 
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
@@ -1082,4 +1082,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============8547117258287937028==--
+--===============2057492234128291249==--
