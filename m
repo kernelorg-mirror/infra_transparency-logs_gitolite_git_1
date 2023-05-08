@@ -1,31 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============1747750068934872323=="
+Content-Type: multipart/mixed; boundary="===============3960695372038577563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 08 May 2023 12:38:44 -0000
-Message-Id: <168354952415.28713.4975690105661447308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 08 May 2023 12:40:25 -0000
+Message-Id: <168354962525.30847.14971006259110853246@gitolite.kernel.org>
 
---===============1747750068934872323==
+--===============3960695372038577563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 8477a19a37720a7e617d9c05bd03548bc6343518
-    new: 0f60a19de2da6a900795f54889243936129cdec1
-    log: revlist-8477a19a3772-0f60a19de2da.txt
+  - ref: refs/heads/master
+    old: 007a571e344357e5f43093d21099a831060088fc
+    new: c61671b384a1b4c4ab08bf6e75376081e06fdf97
+    log: revlist-007a571e3443-c61671b384a1.txt
 
---===============1747750068934872323==
+--===============3960695372038577563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8477a19a3772-0f60a19de2da.txt
+Content-Disposition: attachment; filename=revlist-007a571e3443-c61671b384a1.txt
 
+2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
+dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
+2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
+fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
+ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
+33c890d022f91d7807cc9673f7017b480f64b2cf fbdev: da8xx-fb: Convert to platform remove callback returning void
 156ebfe4c87d1379fd599677d90056c911dc03f8 fbdev: efifb: Convert to platform remove callback returning void
 81431a9eaca14166f4dec21059f67cea81fac688 fbdev: ep93xx-fb: Convert to platform remove callback returning void
 b917b0a9c6b92e0abb4e07a9568cd93df831b7ff fbdev: ffb: Convert to platform remove callback returning void
@@ -1043,12 +1049,6 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-acd4b4af99d70451293a8d43585619337b4ac70d usb: xhci: Remove unused udev from xhci_log_ctx trace event
-dc174c8c9a0a658cab717556176776ac20642923 xhci: Add usb cold attach (CAS) as a reason to resume root hub.
-80290441f994fb11f22243430e67e6ba6916740d xhci: Don't require a valid get_quirks() function pointer during xhci setup
-f628956f4ed0ea85c9eee49e0d1465537259af38 xhci: get rid of XHCI_PLAT quirk that used to prevent MSI setup
-a7d807a53067aaa58f64b64b691761e763743ec9 xhci: split allocate interrupter into separate alloacte and add parts
-66273c62a9a8231c61f66f13740e7338542ab698 xhci: Fix transfer ring expansion size calculation
-0f60a19de2da6a900795f54889243936129cdec1 xhci: Stop unnecessary and incorrect tracking of free trbs in a ring
+c61671b384a1b4c4ab08bf6e75376081e06fdf97 Merge tag 'v6.4-rc1'
 
---===============1747750068934872323==--
+--===============3960695372038577563==--
