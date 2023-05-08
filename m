@@ -1,31 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============2249974270910869600=="
+Content-Type: multipart/mixed; boundary="===============4037321782811713091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Mon, 08 May 2023 17:05:58 -0000
-Message-Id: <168356555840.24131.12001258766891567527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pateldipen1984/linux
+Date: Mon, 08 May 2023 17:06:53 -0000
+Message-Id: <168356561395.24466.1068756699957148242@gitolite.kernel.org>
 
---===============2249974270910869600==
+--===============4037321782811713091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/pateldipen1984/linux
+user: pateldipen1984
 changes:
-  - ref: refs/heads/has_ioport_v4
-    old: 94b3553800a99058f9324dc169960b871a467fc6
-    new: b995a067a807352eca20b56209cb3a8e43a5c3df
-    log: revlist-94b3553800a9-b995a067a807.txt
+  - ref: refs/heads/for-next
+    old: ca3d1a4b419acad3fca6828884acb03614f7558b
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-ca3d1a4b419a-ac9a78681b92.txt
 
---===============2249974270910869600==
+--===============4037321782811713091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94b3553800a9-b995a067a807.txt
+Content-Disposition: attachment; filename=revlist-ca3d1a4b419a-ac9a78681b92.txt
 
+a12a07a85aff72e19520328f78b1c64d2281a1ec ksmbd: avoid duplicate negotiate ctx offset increments
+af36c51e0e111de4e908328d49cba49de758f66e ksmbd: remove unused compression negotiate ctx packing
+74d7970febf7e9005375aeda0df821d2edffc9f7 ksmbd: fix racy issue from using ->d_parent and ->d_name
+fae65ef3a148079103ae935107c62f7830ab52c5 xen/pciback: don't call pcistub_device_put() under lock
+b2c042cc802fe96d431821bf1cf2f0f04a3eda7d xen/scsiback: don't call scsiback_free_translation_entry() under lock
+c66bb48edd58c3a22072b4f68312c225dc1b0009 xen/pvcalls: don't call bind_evtchn_to_irqhandler() under lock
+32d2a15ec54a3d8b708b343e50072ccb0e5da83f platform/chrome: Replace fake flexible arrays with flexible-array member
+554ec02c97254962bbb0a8776c3160d294fc7e51 platform/chrome: cros_ec: remove unneeded label and if-condition
+dc70234c408c644505a24362b0f095f713e4697e platform/chrome: cros_typec_switch: Add missing fwnode_handle_put()
+26e1dc1bef42a699734056271e790982e2ba8092 platform/chrome: cros_ec: Separate logic for getting panic info
+1f3744b89164a430865d18b757b86c4007627855 platform/chrome: cros_ec_debugfs: fix kernel-doc warning
+d184d60aa301e424cd0cf7de90b40744710a2417 platform/chrome: wilco_ec: remove return value check of debugfs_create_dir()
+7002cbd625467084f1ef01b6e365e10b51fc4b9f ALSA: emu10k1: use high-level I/O in set_filterQ()
+ce8ac91130b96f651cf6b5245668dfa4969c9c42 Merge branches 'edac-drivers', 'edac-amd64' and 'edac-misc' into edac-updates
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
+2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
+dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
+2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
+fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
+ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
+33c890d022f91d7807cc9673f7017b480f64b2cf fbdev: da8xx-fb: Convert to platform remove callback returning void
+156ebfe4c87d1379fd599677d90056c911dc03f8 fbdev: efifb: Convert to platform remove callback returning void
+81431a9eaca14166f4dec21059f67cea81fac688 fbdev: ep93xx-fb: Convert to platform remove callback returning void
+b917b0a9c6b92e0abb4e07a9568cd93df831b7ff fbdev: ffb: Convert to platform remove callback returning void
+0dc08e875aca46813efad5a18c98749d2fb41935 fbdev: fsl-diu-fb: Convert to platform remove callback returning void
+e16e7ea4a8e5023ce9a68d7762102b5a9ccb17dd fbdev: gbefb: Convert to platform remove callback returning void
+ecab1e9a54db8a2535d3ee7b25f78c3d02dfad19 fbdev: goldfishfb: Convert to platform remove callback returning void
+41aede214f2f68f69d42a802ca8aab5b1aa9ea66 fbdev: grvga: Convert to platform remove callback returning void
+5be0ce71097d087060cc9e9a416f62fa74e5a9dd fbdev: hecubafb: Convert to platform remove callback returning void
+f693b4de3546fa484b86437fb06ac307603aed3e fbdev: hgafb: Convert to platform remove callback returning void
+a1bb53688630aff762e79c6e4d781f33283f82a7 fbdev: hitfb: Convert to platform remove callback returning void
+909b7a3ea3989715ff20c191682c6a90eac3b4a4 fbdev: imxfb: Convert to platform remove callback returning void
+3eafb6a37617eff4678723acb3400fe37e77f631 fbdev: leo: Convert to platform remove callback returning void
+3a2ab02ddfacb04f92d47f2fe6e4aef4c95366e4 fbdev: mb862xx: Convert to platform remove callback returning void
+d0513776c132e040b2a438864dd1a2a362326858 fbdev: metronomefb: Convert to platform remove callback returning void
+419368fba704bf34c6d04a891b3989f47678911e fbdev: mx3fb: Convert to platform remove callback returning void
+d14e9328fef310b42c58688cb5c3caaace5c967e fbdev: ocfb: Convert to platform remove callback returning void
+db031426eb4680137f023d75fdb3646664227335 fbdev: offb: Convert to platform remove callback returning void
+dc6b77badc752e4965919f7b81ad9e3725ae0a64 fbdev: omapfb: Convert to platform remove callback returning void
+4d7960389f9e91dc7d09734f79346850f4fd11d9 fbdev: p9100: Convert to platform remove callback returning void
+cc6a0d407c4a8c8ce9aa971124592b3c805cf6f6 fbdev: platinumfb: Convert to platform remove callback returning void
+bcfb6d43bb08babd207a93bce99d86c25febd51d fbdev: pxa168fb: Convert to platform remove callback returning void
+2872c2913abf2d51c2d333477933801e14cc284b fbdev: pxa3xx-gcu: Convert to platform remove callback returning void
+eb703b6089bdeee974a02894a001de3df804f772 fbdev: pxafb: Convert to platform remove callback returning void
+77da73b32ceae6bb240fb57be6858042c76f9362 fbdev: s1d13xxxfb: Convert to platform remove callback returning void
+f2f34fb9f94f79f7d7bb12410d2e0b7f3b867a54 fbdev: s3c-fb: Convert to platform remove callback returning void
+03dfa8d2be6f16c087fe871f043a99857cb38d80 fbdev: sh7760fb: Convert to platform remove callback returning void
+068240885346a4f484237e24dc1f75530a58c370 fbdev: sh_mobile_lcdcfb: Convert to platform remove callback returning void
+4ba34066a29bd9db89525ed5c18d1838658402eb fbdev: simplefb: Convert to platform remove callback returning void
+7b49f61a7235813045c6adb34fdc5b5a0b7c2862 fbdev: sm501fb: Convert to platform remove callback returning void
+1fd99273942058f529b7b2821ada51e0d94aac23 fbdev: tcx: Convert to platform remove callback returning void
+94bada58284c93a38105637bbab0513f9caa005d fbdev: uvesafb: Convert to platform remove callback returning void
+f3db09aae19846f92dcf4c7c238a0ea6f9560617 fbdev: vesafb: Convert to platform remove callback returning void
 24f677094e325dd669b8f60b75779e7ef8263503 fbdev: vfb: Convert to platform remove callback returning void
 4a5ef62ce73b3c73ad3f844052b37cbabd9e2357 fbdev: vga16fb: Convert to platform remove callback returning void
 87b1e9a57445e4ee38cf1c03c203c82d5dda6aa3 fbdev: via: Convert to platform remove callback returning void
@@ -441,20 +494,6 @@ ab396fb2f37dabc436bbe52ac0d287f95080ee65 Merge branch 'for-6.4/tests' into for-l
 c3a6ef330a08eba406f82b0b8cbca4e4d9b7c4ba Merge branch 'for-6.4/wacom' into for-linus
 158009f1b4a33bc0f354b994eea361362bd83226 timekeeping: Fix references to nonexistent ktime_get_fast_ns()
 b68ee1c6131c540a62ecd443be89c406401df091 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-fdd1e3489b30ba6ba3075d38ce6f448e04119c71 MAINTAINERS: Add HTE/timestamp subsystem details
-d0672fa4931dcb9d9d53002e855f25dd7507a300 dt-bindings: timestamp: Add Tegra234 support
-1815e37b6e67f2a543e36628bfe6a834aad3ea1b dt-bindings: timestamp: Deprecate nvidia,slices property
-29662d622641af8866aac904c8aa264844086af3 arm64: tegra: Add Tegra234 GTE nodes
-59cc80a6d8695e7b4b51154ea2d08af551b6c359 hte: Re-phrase tegra API document
-b003fb5c9df8a8923bf46e0c00cc54edcfb0fbe3 hte: Add Tegra234 provider
-0ebc475fb636df12222faa04dd989a4e3c87f31a hte: Deprecate nvidia,slices property
-d02b1cabc7c6fe0e237bf8a2a6a8813302cfd87c hte: handle nvidia,gpio-controller property
-7d507452048d9a6971998339243d16a09c95a842 gpio: tegra186: Add Tegra234 hte support
-902dea62b3dda532172c0f4d0410fe595266b22c hte: Use of_property_present() for testing DT property presence
-6680c835ada1b34e882d0a32612f7294c62e27e0 hte: tegra: fix 'struct of_device_id' build error
-e078180d66848a6a890daf0a3ce28dc43cc66790 hte: tegra-194: Fix off by one in tegra_hte_map_to_line_id()
-9e0c2d40a40733fba605ff47a08f3eba2fab4fbb hte: Use device_match_of_node()
-ca3d1a4b419acad3fca6828884acb03614f7558b hte: tegra-194: Use proper includes
 edbdb43fc96b11b3bfa531be306a1993d9fe89ec KVM: x86: Preserve TDP MMU roots until they are explicitly invalidated
 9419092fb2630c30e4ffeb9ef61007ef0c61827a xfs: fix livelock in delayed allocation at ENOSPC
 6e98b09da931a00bf4e0477d0fa52748bf28fcce Merge tag 'net-next-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
@@ -1011,44 +1050,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-6fbf77520231954a75d865213391fcedd280e576 kgdb: add HAS_IOPORT dependency
-71194e7a951d0100c6f968cecea05b20e623a11e ata: add HAS_IOPORT dependencies
-ccbe2149ae167236ebe99acfd27a41e88d519b8b char: impi, tpm: depend on HAS_IOPORT
-38f1de5ed46e72da9fb78dd7f5931519d603a4d6 comedi: add HAS_IOPORT dependencies
-a5f1423323fa5a8f004ae9e2fed633ce44811ad2 counter: add HAS_IOPORT dependencies
-4a0184a74bf3ea0d033c029f6a03f373cc56e9bc /dev/port: don't compile file operations without CONFIG_DEVPORT
-af8d9c47e78b11be5d2f6b1bcc16cf2ca9828d21 drm: handle HAS_IOPORT dependencies
-9b576f67f077f6a811eb796de437fcc8e4c93545 firmware: dmi-sysfs: handle HAS_IOPORT=n
-32a1d132239fa5995866e7e93d3e1f6fc79791e8 gpio: add HAS_IOPORT dependencies
-1e9bfcd5592803cd022ecb511412007c72485905 hwmon: add HAS_IOPORT dependencies
-b16354afd6c35d2e0dbc1c03fc6268624203b2c2 i2c: add HAS_IOPORT dependencies
-e1e8a17b4770355b09ed5de191a7a6aac1e3534e iio: ad7606: Kconfig: add HAS_IOPORT dependencies
-dcb8c43a790a623179486a27d9689d925dc96ca7 Input: add HAS_IOPORT dependencies
-1eb90c716f12976b3dfa98170f42c15dc1e9bda5 Input: gameport: add ISA and HAS_IOPORT dependencies
-002cd24a65dd74bc1112a5bf5fefda18d4161c1a leds: add HAS_IOPORT dependencies
-df5fa2ec78535b4cb48c3c194cd48bfd68ffc32c media: add HAS_IOPORT dependencies
-e1b128eec78da488ae5e7cfa0231d6c2f431d6fb misc: add HAS_IOPORT dependencies
-048d74f740d570218212902293b5e4891043eda4 mISDN: add HAS_IOPORT dependencies
-fe910ecafdff0da8626ca13ea32abe176b2f299b mpt fusion: add HAS_IOPORT dependencies
-cf6beb386b24100547be32ea06e0f2a1ba6c2f74 net: handle HAS_IOPORT dependencies
-22582b7f12db28c54a37d34744b2bd131ea00f8c parport: PC style parport depends on HAS_IOPORT
-c1254e3ba5be62edfcd2ec8a536e51f00d993b5c PCI: Make quirk using inw() depend on HAS_IOPORT
-2dcd981376dca022fc81b1008d02de1dd4929f15 PCI/sysfs: Make I/O resource depend on HAS_IOPORT
-b5cc3e9659010ca199d5b0ac52fc164dfcc4e584 pcmcia: add HAS_IOPORT dependencies
-ead9dc150af1eeaf2c73853c07a53c32eb8cf367 platform: add HAS_IOPORT dependencies
-62380af48e8d1832c5c6f7b03f7d0f38d8f0aa99 pnp: add HAS_IOPORT dependencies
-7403a019bd2fc52936527eb2487905a0798646c4 power: add HAS_IOPORT dependencies
-e2ca719be175283590cad663d6446b8b717b441c rtc: add HAS_IOPORT dependencies
-d400ffbf77131b30dbebfd00581ce900e01f27ab scsi: add HAS_IOPORT dependencies
-6af4d9602e7259482b21a4541a1bd103c5097250 sound: add HAS_IOPORT dependencies
-ac55aa67034bd3a245167899bb16e1674180abfa speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
-60a749086d970a69b7c672692287da651a2931db staging: add HAS_IOPORT dependencies
-1afdf831c6986d26ff989beb8c696dd4569078a1 tty: serial: handle HAS_IOPORT dependencies
-907ef95de35fa88466ef04ace89ec813d13b3d81 usb: handle HAS_IOPORT dependencies
-c63eabb66b219d92737ab58eaa1cff39e69db7b0 video: handle HAS_IOPORT dependencies
-f896156c882c044a63c5b4040b9fc76804ca8231 fbdev: atyfb: Remove unused clock determination
-d6e7540ac209b1db5e59fe9f042f6c3679a8fcdc watchdog: add HAS_IOPORT dependencies
-71deab681e8f73285d1713597f9af156b00ebeb7 wireless: add HAS_IOPORT dependencies
-b995a067a807352eca20b56209cb3a8e43a5c3df asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
 
---===============2249974270910869600==--
+--===============4037321782811713091==--
