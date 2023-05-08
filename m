@@ -1,31 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4857442491496328101=="
+Content-Type: multipart/mixed; boundary="===============8653316782635199447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 08 May 2023 14:30:23 -0000
-Message-Id: <168355622372.15393.2452639548185285385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 08 May 2023 14:34:07 -0000
+Message-Id: <168355644722.16627.1983363528266864052@gitolite.kernel.org>
 
---===============4857442491496328101==
+--===============8653316782635199447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-kernelci
-    old: b12de82117c48cbea02b865308aba98378cc84b9
-    new: 150b829e4edfe60443accfbab2859ba51a567524
-    log: revlist-b12de82117c4-150b829e4edf.txt
+  - ref: refs/heads/ti-k3-dts-next
+    old: 891db0c48efb48c3af334006f9d7ea6a0aa49cb9
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-891db0c48efb-ac9a78681b92.txt
 
---===============4857442491496328101==
+--===============8653316782635199447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b12de82117c4-150b829e4edf.txt
+Content-Disposition: attachment; filename=revlist-891db0c48efb-ac9a78681b92.txt
 
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
+2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
+dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
+2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
+fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
+ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
+33c890d022f91d7807cc9673f7017b480f64b2cf fbdev: da8xx-fb: Convert to platform remove callback returning void
+156ebfe4c87d1379fd599677d90056c911dc03f8 fbdev: efifb: Convert to platform remove callback returning void
+81431a9eaca14166f4dec21059f67cea81fac688 fbdev: ep93xx-fb: Convert to platform remove callback returning void
+b917b0a9c6b92e0abb4e07a9568cd93df831b7ff fbdev: ffb: Convert to platform remove callback returning void
+0dc08e875aca46813efad5a18c98749d2fb41935 fbdev: fsl-diu-fb: Convert to platform remove callback returning void
 e16e7ea4a8e5023ce9a68d7762102b5a9ccb17dd fbdev: gbefb: Convert to platform remove callback returning void
 ecab1e9a54db8a2535d3ee7b25f78c3d02dfad19 fbdev: goldfishfb: Convert to platform remove callback returning void
 41aede214f2f68f69d42a802ca8aab5b1aa9ea66 fbdev: grvga: Convert to platform remove callback returning void
@@ -1039,16 +1050,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-dca0bcc4233d24bf83c6f72342a9b37ff80ea05c ARM: vfp: avoid unbalanced stack on 'success' return path
-80555460fe34d7258ed41805317711481e71493e ARM: vfp: Record VFP bounces as perf emulation faults
-af80326f949df88d601ee6e438d2305fcbbc11f6 ARM: vfp: Remove workaround for Feroceon CPUs
-8ae0f57b0fc35a025be27f1392c389b564f5a072 ARM: vfp: Reimplement VFP exception entry in C code
-8d1118d5e75eacaab260f33f447a827526439f0c ARM: kernel: Get rid of thread_info::used_cp[] array
-c29af055a4facd0c68c87f9136531617d2bff78f ARM: vfp: Use undef hook for handling VFP exceptions
-8d435b4bdc84e953d90533644f32a909a6307dd9 ARM: entry: Disregard Thumb undef exception in coproc dispatch
-0aa58d443a246e47f23467b57574fe7b22cbd1be ARM: iwmmxt: Use undef hook to enable coprocessor for task
-b346d70af4d916386bbd2553cd4d1b8a5f78263b ARM: entry: Make asm coproc dispatch code NWFPE only
-f71b371f12f72499dbdf8b211a510c51666b2126 ARM: head: Remove 1-2 MiB of pointless padding
-150b829e4edfe60443accfbab2859ba51a567524 WIP badr cleanup
 
---===============4857442491496328101==--
+--===============8653316782635199447==--
