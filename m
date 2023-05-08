@@ -1,41 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1320680823042272563=="
+Content-Type: multipart/mixed; boundary="===============7907368233811225603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 08 May 2023 23:23:22 -0000
-Message-Id: <168358820207.16770.13652256983870727723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 08 May 2023 23:53:10 -0000
+Message-Id: <168358999016.3974.16099982507254295837@gitolite.kernel.org>
 
---===============1320680823042272563==
+--===============7907368233811225603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/for-next
-    old: 5199604d1ee5513e1357e8cfe7243a36129b4ffb
-    new: 2ef269ef1ac006acf974793d975539244d77b28f
-    log: revlist-5199604d1ee5-2ef269ef1ac0.txt
+    old: 704bc669e1dda3eb8f6d5cb462b21e85558a3912
+    new: cb0fad99484c36d21c2562396f251dc00fddfae8
+    log: revlist-704bc669e1dd-cb0fad99484c.txt
   - ref: refs/heads/master
     old: 32f7ad0fbe7521de2a5e8f79c33d46110247fd7c
     new: ba0ad6ed89fd5dada3b7b65ef2b08e95d449d4ab
     log: revlist-32f7ad0fbe75-ba0ad6ed89fd.txt
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/for-6.5-cleanup-ordered
     old: 0000000000000000000000000000000000000000
-    new: 2ef269ef1ac006acf974793d975539244d77b28f
+    new: cb0fad99484c36d21c2562396f251dc00fddfae8
 
---===============1320680823042272563==
+--===============7907368233811225603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5199604d1ee5-2ef269ef1ac0.txt
+Content-Disposition: attachment; filename=revlist-704bc669e1dd-cb0fad99484c.txt
 
-156ebfe4c87d1379fd599677d90056c911dc03f8 fbdev: efifb: Convert to platform remove callback returning void
-81431a9eaca14166f4dec21059f67cea81fac688 fbdev: ep93xx-fb: Convert to platform remove callback returning void
-b917b0a9c6b92e0abb4e07a9568cd93df831b7ff fbdev: ffb: Convert to platform remove callback returning void
 0dc08e875aca46813efad5a18c98749d2fb41935 fbdev: fsl-diu-fb: Convert to platform remove callback returning void
 e16e7ea4a8e5023ce9a68d7762102b5a9ccb17dd fbdev: gbefb: Convert to platform remove callback returning void
 ecab1e9a54db8a2535d3ee7b25f78c3d02dfad19 fbdev: goldfishfb: Convert to platform remove callback returning void
@@ -1051,14 +1048,17 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 ba0ad6ed89fd5dada3b7b65ef2b08e95d449d4ab media: nxp: imx8-isi: fix buiding on 32-bit
-ad3a557daf6915296a43ef97a3e9c48e076c9dd8 cgroup/cpuset: Rename functions dealing with DEADLINE accounting
-111cd11bbc54850f24191c52ff217da88a5e639b sched/cpuset: Bring back cpuset_mutex
-6c24849f5515e4966d94fa5279bdff4acf2e9489 sched/cpuset: Keep track of SCHED_DEADLINE task in cpusets
-c0f78fd5edcf29b2822ac165f9248a6c165e8554 cgroup/cpuset: Iterate only if DEADLINE tasks are present
-85989106feb734437e2d598b639991b9185a43a6 sched/deadline: Create DL BW alloc, free & check overflow interface
-2ef269ef1ac006acf974793d975539244d77b28f cgroup/cpuset: Free DL BW in case can_attach() fails
+bd545224663399435a395b8a4ff2fd4b67892ffa powerpc, workqueue: Use alloc_ordered_workqueue() to create ordered workqueues
+44d69dd9ada17147141c8aa692f044d20bf20107 greybus: Use alloc_ordered_workqueue() to create ordered workqueues
+d1ddaac96483ec6ef7f6bc46aed3f08210faf6bc IB/hfi1: Use alloc_ordered_workqueue() to create ordered workqueues
+5a42e2782c1478934fa2a7d95c04845b256c2163 net: thunderx: Use alloc_ordered_workqueue() to create ordered workqueues
+b34d98707afc72fba835d7c9da4002afeaf564d2 net: octeontx2: Use alloc_ordered_workqueue() to create ordered workqueues
+59709bb84c22905421dd05fa2a80ece411bec76f scsi: Use alloc_ordered_workqueue() to create ordered workqueues
+ad940a311da8a4921137803f1e11b28c4446ccde virt: acrn: Use alloc_ordered_workqueue() to create ordered workqueues
+3779b32b9f139584a80931fdc4db3318d3195381 xen/pvcalls: Use alloc_ordered_workqueue() to create ordered workqueues
+cb0fad99484c36d21c2562396f251dc00fddfae8 wifi: iwlwifi: Use default @max_active for trans_pcie->rba.alloc_wq
 
---===============1320680823042272563==
+--===============7907368233811225603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2089,4 +2089,4 @@ f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-0
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 ba0ad6ed89fd5dada3b7b65ef2b08e95d449d4ab media: nxp: imx8-isi: fix buiding on 32-bit
 
---===============1320680823042272563==--
+--===============7907368233811225603==--
