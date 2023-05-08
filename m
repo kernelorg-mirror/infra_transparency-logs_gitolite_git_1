@@ -1,56 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2628683821521902311=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 08 May 2023 11:44:15 -0000
-Message-Id: <168354625589.23347.13419464526269595354@gitolite.kernel.org>
-
---===============2628683821521902311==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 08 May 2023 11:54:28 -0000
+Message-Id: <168354686817.30998.16572866637643030242@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: e42f110700ed7293700c26145e1ed07ea05ac3f6
-    log: |
-         9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
-         e42f110700ed7293700c26145e1ed07ea05ac3f6 phy: qcom-qmp-pcie-msm8996: fix init-count imbalance
-         
-  - ref: refs/heads/next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 7a503071e06db4409b7066b8ecca9f3da03dd3b1
-    log: revlist-ac9a78681b92-7a503071e06d.txt
-
---===============2628683821521902311==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-7a503071e06d.txt
-
-58247b9fedd6d7f7dcbeaf6bb57fd7a99403a1bb phy: amlogic: enable/disable clkin during Amlogic USB PHY init/exit
-a8025faec70ad5021995f849197c9437ca3cde48 dt-bindings: phy: brcm,kona-usb2-phy: convert to YAML
-70e5df113833c9ebf24b7779e37a5c341fbefe63 dt-bindings: usb: qcom,dwc3: Add bindings for SA8775P
-66dc9a2cf578688efdad5b5193c44efdbb7e36ba dt-bindings: phy: qcom,usb-snps-femto-v2: Add bindings for SA8775P
-bfd73c859eb8856070ef01ce29d375cdc0364887 dt-bindings: phy: qcom,sc8280xp-qmp-usb3-uni: Add SA8775P USB PHY binding
-8bd2d6e11c99da27e748b168945cbae8a8cfb0e7 phy: qcom-qmp: Add SA8775P USB3 UNI phy
-d96a432cc86aaa7d4ca202471c9ab094ca786fab dt-bindings: phy: qcom,edp-phy: allow power-domains
-d8c66cbbdd4fa9ef84497ee509f15aff94a98a59 dt-bindings: phy: qmp-ufs: tweak clock and clock-names for sa8775p
-1b0524fc2137be74702ac1c7a71e82631a9e0681 phy: cadence-torrent: Add function to get PLL to be configured for DP
-c756cc1621efa911bc54ae2aa3651564fa94e0da phy: cadence-torrent: Prepare driver for multilink DP support
-ede775a87bee11a8ef9181c5769dd44938e7f54f phy: cadence-torrent: Add PCIe + DP multilink configuration for 100MHz refclk
-72a5ce33b8d17a6646be0e0573eb7cc5fed76e06 phy: cadence-torrent: Add USB + DP multilink configuration
-86c2cfb1ab556a1cb35a9f64a38d6f5c8a46ebde phy: sparx5-serdes: add registers required for SD/CMU power down
-3d61a1f83effc3a7f2238d389e06f00110f0acdc phy: sparx5-serdes: configure optimal quiet mode for serdes lanes
-238a583fe42de3ba4baae3c03dd8c7da902fea44 phy: sparx5-serdes: reorder CMU functions
-044f3a1a8d331ef1a96a8445cafb8a23376cbf52 phy: sparx5-serdes: power down all CMUs by default
-96bb1664257c7d7507c7b324a952603e2b0a625e phy: sparx5-serdes: power on CMUs individually
-2db7289f59987a97160f8fadfe5aaece325f610b phy: sparx5-serdes: remove power up of all CMUs
-7a503071e06db4409b7066b8ecca9f3da03dd3b1 phy: sparx5-serdes: add skip_cmu_cfg check when configuring lanes
-
---===============2628683821521902311==--
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/tags/v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/tags/v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
+  - ref: refs/tags/v6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
