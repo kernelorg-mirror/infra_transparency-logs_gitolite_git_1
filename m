@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7837890333657046300=="
+Content-Type: multipart/mixed; boundary="===============8546705417812074637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 May 2023 16:24:32 -0000
-Message-Id: <168356307211.27164.12588470875224125260@gitolite.kernel.org>
+Date: Mon, 08 May 2023 16:25:12 -0000
+Message-Id: <168356311219.28953.5169705042621721470@gitolite.kernel.org>
 
---===============7837890333657046300==
+--===============8546705417812074637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 042334a8d424a1917e916e611a8dda7f8caf1491
-    new: ed23734c23d2fc1e6a1ff80f8c2b82faeed0ed0c
-    log: revlist-042334a8d424-ed23734c23d2.txt
+  - ref: refs/heads/dev-queue
+    old: 160517a6c63ee745114d31062aae038e5ede85ab
+    new: 33700b2cb9dfaeb422417851c999cc7f400c9744
+    log: revlist-160517a6c63e-33700b2cb9df.txt
 
---===============7837890333657046300==
+--===============8546705417812074637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-042334a8d424-ed23734c23d2.txt
+Content-Disposition: attachment; filename=revlist-160517a6c63e-33700b2cb9df.txt
 
-6c95035e06e8c38ce8d9a74f53ac49ede86e584f powerpc/configs/64s: Enable common CGROUP & related options
-b92c4675f0b20ccf493449c02357f0ff1241f6db powerpc/configs/64s: Enable CHECKPOINT_RESTORE
-90ae13b654ee58d5d0d0152d196d0419021273e6 powerpc/configs/64s: Enable ZSWAP & ZRAM
-40605274cf9b26f921df6d1875e3cf6fcc22dec0 powerpc/configs/64s: Enable SLAB hardening options
-2e46fbe0881b18e4e338035958e1f49263629ca1 powerpc/configs/64s: Enable YAMA, LANDLOCK & BPF LSMs
-69c483660ef9735a71ca280f48584068c903c278 powerpc/configs/64s: Enable SELINUX
-5029aa2a47bd18c654a20a6b1a84b9e418189ad9 powerpc/configs/64s: Enable KUNIT and most tests
-7ccad8eee0d92f7566e4f9e12f2f26d74885f1a5 powerpc/configs/64s: Enable EMULATED_STATS
-3c18a2094ffe06626f09c923067ab284b294d5c6 powerpc/configs/64s: Enable DEBUG_VM & other options
-d3a85f29c30d9876440c03933b3793607f616ed6 powerpc/configs/64s: Enable SCHEDSTATS
-6880db8fe1d042b164473fd865ee2ec6f5ee3df6 powerpc/configs/64s: Enable IO_STRICT_DEVMEM
-649181aea2be6deaa1c9aef66e765a7ba0d077c5 powerpc/configs/64s: Use SHA512 for module signatures
-a4f64f73b6a368c067beae20e0fac6625e8768cb powerpc/configs/64s: Drop REISERFS
-22f615cb87af5a26c0ac91d02020575edb5aeb89 powerpc/configs/64s: Enable BLK_DEV_NVME
-48b2e99def2d92dbf2f7cb4b7f42ee8d98c56768 powerpc/configs/64s: Enable VLAN support
-262a3589df8cd28c152c46c166be9e552da90ed3 powerpc/configs/64s: Enable PSTORE
-4f6cfb53646794a2dc14210fbfedd5c6db38ba2c powerpc/configs/64s: Enable Device Mapper options
-9ee937539e9bd0bef2ad845b3dfa34fa997775c5 powerpc/configs: Add IBMVETH=y and IBMVNIC=y to guest configs
-bac949621c40ec09357c6a8beaacac235ae39239 powerpc/configs: Incorporate generic kvm_guest.config into guest configs
-596ddea8be17b5f4e2f72a0c9af313444d51d177 powerpc/configs: Make pseries_le an alias for ppc64le_guest
-9ecda934f43b1502c420653b02d54d4ffd7ae4cb powerpc/configs: Make pseries_defconfig an alias for ppc64le_guest
-e4c02c3e6c39c3866d517388f6bb431c47743bde powerpc/configs/64s: Use EXT4 to mount EXT2 filesystems
-da66ed3198162882755d5c9a147e36f02dc9be93 powerpc/configs/64s: Drop JFS Filesystem
-836a3de6b2bfe0b7c96a7104d3d567883d8a57b3 powerpc/configs/powernv: Add IGB=y
-c384c2401eed99a2e1f84191e573f15b898babe6 vdpa/mlx5: Avoid losing link state updates
-e4be66e5f36b8cd2a052ba9e2ba063e6c37f5453 vhost: use struct_size and size_add to compute flex array sizes
-48cd6bc5b22d68b8bbc8601f3c7ddeed99541a0b virtio: Reorder fields in 'struct virtqueue'
-9b2b3de63c07123c0ec9b912d7b8e77b150e520b tools/virtio: virtio_test: Fix indentation
-6b27cd84a7917b995f66c052fd3453fdbd6e3d70 tools/virtio: virtio_test -h,--help should return directly
-1adbd6b2fc0c09645c4c30c5eb47beaa3e6ea4b4 virtio_ring: Avoid using inline for small functions
-4b6ec919b84830949313c805c586fb34f141ce0c virtio_ring: Use const to annotate read-only pointer params
-9a10cb4de33f4c914bd2e33ac05cff3ddb6a67b0 vhost-scsi: Delay releasing our refcount on the tpg
-eb1b291466376ad4d2f0a42392a2cd9f0e4983e5 vhost-scsi: Drop device mutex use in vhost_scsi_do_plug
-ced9eb376ab716ec5b06bef8c3e05608b8eb6700 vhost-scsi: Check for a cleared backend before queueing an event
-f5ed6f9e82ee62bf805551522dfa2d6c8030bb47 vhost-scsi: Drop vhost_scsi_mutex use in port callouts
 bea273c7a8712a055cd504a2bb7d76d8d713ba6e vhost-scsi: Reduce vhost_scsi_mutex use
 a084983dcd4e75616fe4102c690d2fc922ac32b5 virtio_ring: Allow non power of 2 sizes for packed virtqueue
 791a1cb7b8591ece6a5075dfed803da379e7ecd3 vdpa/mlx5: Make VIRTIO_NET_F_MRG_RXBUF off by default
@@ -1050,5 +1015,40 @@ e919a3f7057b5ca918dea98826b39a38eff9bebb Merge tag 'trace-v6.4-rc1' of git://git
 c12753d5fa3eab636b5ced91d6a2155173c11527 s390: remove the unneeded select GCC12_NO_ARRAY_BOUNDS
 a5e219005aeaf52cb10f9999a61c07a140db7097 Merge tag 'i2c-for-6.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 ed23734c23d2fc1e6a1ff80f8c2b82faeed0ed0c Merge tag 'net-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+1ee648a7b5224fe0e13d440f6a514f1c74e48829 ice: Support 5 layer topology
+c7d6191d508fc0a27057b624cba812a325aa8330 ice: Adjust the VSI/Aggregator layers
+a9f7aa50276d058c20dad1f54154a33273d97a43 ice: Enable switching default tx scheduler topology
+304f7b02e15a163e2346a8e434a2876629e232fb ice: Add txbalancing devlink param
+4eb3457a1c8e08bd2e377ff66f703c6beea03ddb ice: Document txbalancing parameter
+ae89f42496266d189dc58f40ac223ad3cc5608be ice: move interrupt related code to separate file
+c0f6e49d3d8571ec1bffc67c03f972602e606e9d ice: use pci_irq_vector helper function
+9d342df2c90b8644a96640dda8dcfe605b096de2 ice: use preferred MSIX allocation api
+8d9f80573d8a9727bca4968eea9c8357a1dfa3e5 ice: refactor VF control VSI interrupt handling
+476e014792a6d3c0b7fb071acf9912ac1f8f1100 ice: remove redundant SRIOV code
+30f76063329a9cf638739dd0d80d5ffeaf5ba2b1 ice: add individual interrupt allocation
+19a3c8f18a462e86f2c5cac2fd867000abae8a6c ice: track interrupt vectors with xarray
+fc4b04de649f006b5299be2b9800e2c343d7a1dc ice: add dynamic interrupt allocation
+c48cf1505b3f413293b737621c9111393f1d9467 i40e: fix PTP pins verification
+046583095754449cdc7cad5d207cc98106cf5691 ice: define meta data to match in switch
+30d43d989929dbde223095aa67881d5c69b07e66 ice: remove redundant Rx field from rule info
+2f8b40f4a6aa336a5596081c09e84801b872b0e2 ice: specify field names in ice_prot_ext init
+5f456832d42126c33ceb02a3cfd747b8df63a2ac ice: allow matching on meta data
+0164e02cb7d638d6d9d3427eb125ea3c5ef434ec ice: use src VSI instead of src MAC in slow-path
+2aba69a40f28f3771537741b0215e4545f6f0c18 igc: Clean the TX buffer and TX descriptor ring
+81dbad37d50360e1a154113e59fdd023768b4868 iavf: send VLAN offloading caps once after VFR
+4b517fd2f902edea0a8d39806281fe59168a819b ice: Fix stats after PF reset
+c07545a014525d3591d103a0e1a57c7b22e24fed igc: Fix possible system crash when loading module
+4bb12d4c8ae8207bca78e792c1427e0594daf21c ice: Fix ice VF reset during iavf initialization
+4385dd5388a5a9ec74e001141f3466b25024a50a igc: Avoid transmit queue timeout for XDP
+727da1b8b698d2052cd742a9c0988177f47460f9 igb: fix nvm.ops.read() error handling
+477513859c02bbc5f6766c3780bb10117c647a12 igb: fix bit_shift to be in [1..8] range
+f0d0ed4fe4776aa5bfbfb1c40c7e1402bdbae19d i40e: add PHY debug register dump
+31989d92ece9a06827584dc95313f535faa1d4e6 ice: Fix undersized tx_flags variable
+3a7084d606d5a8d2d43627416d8897bf456e34fa ice: update ICE_PHY_TYPE_HIGH_MAX_INDEX
+96fd482c80c83b7ef1b849d3e3843e93caa74b02 ice: refactor PHY type to ethtool link mode
+05f2e29e742e9b5207ca27b0ca1b9da22e4ee783 ice: update PHY type to ethtool link mode mapping
+dba1b3ef21b1e435d34f9da43794e57726b4dffe igb: Define igb_pm_ops conditionally on CONFIG_PM
+923558a8b9dbf99753c6a05cad0e34a4461ba931 iavf: remove mask from iavf_irq_enable_queues()
+33700b2cb9dfaeb422417851c999cc7f400c9744 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
 
---===============7837890333657046300==--
+--===============8546705417812074637==--
