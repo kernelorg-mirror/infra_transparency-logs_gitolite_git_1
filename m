@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 08 May 2023 21:14:43 -0000
-Message-Id: <168358048363.26899.5297450394589197204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 08 May 2023 21:16:33 -0000
+Message-Id: <168358059370.29087.9035132032554965146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/tags/v6.3
+  - ref: refs/heads/sched/clock
     old: 0000000000000000000000000000000000000000
-    new: 3d35c95c82c4779ffa84d32ae50ec6fed2adcf4e
+    new: 6c433ce701d4bb3d07a4102cbb8bf00c217be05d
