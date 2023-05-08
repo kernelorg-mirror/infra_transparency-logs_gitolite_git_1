@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7807977101499109165=="
+Content-Type: multipart/mixed; boundary="===============1426771295813852985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 08 May 2023 15:33:13 -0000
-Message-Id: <168355999321.24660.111414890149532562@gitolite.kernel.org>
+Date: Mon, 08 May 2023 15:34:51 -0000
+Message-Id: <168356009122.25224.15478527102911289667@gitolite.kernel.org>
 
---===============7807977101499109165==
+--===============1426771295813852985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: e578c943e363ff47d08e7b4f5648f3da9db325d8
+  - ref: refs/heads/fixes
+    old: 9a469c6dfab38326f99f105386db84230be09ee3
     new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-e578c943e363-ac9a78681b92.txt
+    log: revlist-9a469c6dfab3-ac9a78681b92.txt
 
---===============7807977101499109165==
+--===============1426771295813852985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e578c943e363-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-9a469c6dfab3-ac9a78681b92.txt
 
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============7807977101499109165==--
+--===============1426771295813852985==--
