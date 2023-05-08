@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7063344432664847329=="
+Content-Type: multipart/mixed; boundary="===============1817620689126214273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 08 May 2023 03:15:42 -0000
-Message-Id: <168351574201.12594.11848540365940330875@gitolite.kernel.org>
+Date: Mon, 08 May 2023 03:16:17 -0000
+Message-Id: <168351577765.12845.10646081337701696142@gitolite.kernel.org>
 
---===============7063344432664847329==
+--===============1817620689126214273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 3e13b44726447d4efdc8c06f10dfb8a5df88f4ad
-    new: 5262a2ad92daa9d98f7ad25dc248635ed991948a
-    log: revlist-3e13b4472644-5262a2ad92da.txt
+  - ref: refs/heads/readfile
+    old: 5a6cc0cdb3b7a49e06d8bfc586719ef42238cf9c
+    new: d664fa0097d6ec61596af0e328aadabc64b2cf18
+    log: revlist-5a6cc0cdb3b7-d664fa0097d6.txt
 
---===============7063344432664847329==
+--===============1817620689126214273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683515740 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683515774 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1683515739-3c6d200c420d91feabbb980372da55a36291cd42
+nonce 1683515773-8183d6cc1c9c62e33c34ada7aef1ca32900771c7
 
-3e13b44726447d4efdc8c06f10dfb8a5df88f4ad 5262a2ad92daa9d98f7ad25dc248635ed991948a refs/heads/class_cleanup
+5a6cc0cdb3b7a49e06d8bfc586719ef42238cf9c d664fa0097d6ec61596af0e328aadabc64b2cf18 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRYaVwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jokQALJkE9IUvKoK0IFVlLdh
-SIiuGjJM6Lienc4Sb1ZuzR0xZ6OPKyiPlmcoPnbtMEoxXRCIaOxOJj+a9fKhuFA5
-ik2RQoh7IJtym0bFS6czChnA+U89U5l6YXKLYyqQdpZ55ghSRVn8RfycAHAtyi+k
-GXoCMe1+PSiWXPbt672AVGbMFVnHNxO050xMI7SJIusMc9sMNtzK56ZnKHBfFAMA
-BgXfKlWhmVOqFFF5eQy8R41Zy0/vHHsJf8Y3rO5mQrCVlDZeID5RV+fwJ+bG6UV6
-LV+vweeXa8emiyI5Z53RzI40jyGcf7hoR5D7vAx2a0QkiX8ujPvSIXwxxv3yH++B
-uLIP5TJMIZENHsB+nFBx1ECfXXGSvS7JyN58XtKbOK1jw1recn6qsnCVneQ7GVGp
-Zf+fWOTIlqtwiqFbJLvA9qR07v5H7VtVhnLjQCEqaElvGfOft61tABYoo5tQU045
-hnFmbQxnVeOid9IThItB73iznU5EbS9tdenwv6rXtyu0W2bZ66soNY/zrFMjywev
-Bwf/shLrrg7V1gMjj1JwChjts8EtCLYAF3dudQtgxwHyTsXWSLhuo8OpZFoBLMUQ
-4xBPaxRZmpdaN0B693J4IR8eFqEUgaFV6zyXIHhP9ggtlx7P9FH2mEbqP9s3AuCr
-Kzqabz7Cg9zx5UKQYe2dSpRB
-=hcnz
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRYaX4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JkQP8wQd30Y7VH3KwbuZs3R7
+NUZ3W/pgSY9RNBXJMghecsFN4FIUH+818Sp3OUAT4Fv77JOnThUEqm/wzNT9t8k+
+9pqDYD9edfJlwsj1Vpb/HieN/ffCITcGZrqEBEufHFIyeUvuA4MjMG71sVvBDZWw
+hHISQMhLq6Q8US91raBdA8OxWMin54YCAk7a8OiNcDRZYd7eDy1MFuyYzRG/mXUY
+J5y0vO9VkB9FLDXwMJjwsfdGwga2gH0DDxNBWQjvKZxvOTkJ52GV9Cjl1zr+tv3D
+gHjcchtI+/6kzFnhQBcoGX9Rdh42bwQ9PqXM2XXiOlMeLljot9oFRa2B7iUEyc3E
+dQQC5aqmN7/2qNKZzMMP0fIGLPRduG3nvi6jrwxpaTgtySYvUI5cvoqdSa2YGp49
+Uq2ZhseoXgefLSYxpIBcRNsaSmkhXOYs9jejNrQqie4TMXFZ9bguB2+FlMns6TZ9
+HQUAiQV4BHz82haTUG8J+Evx8kUoaZ3r7yG4NOJ69fL+mTKzSwCOPgueOCBwgHYN
+kXMSq3rOwkD5qenua5xsdxpTJf6KOmzWcv7qnUmjKPLNj5TMus+eTC4Gyic5Aol0
+/wfBGbzxnbHexwtKpTtXrdIMN6A/96471+IZ4//a/lOxlpoalbWL0d0wTdksVtbt
+pVbWBJBIObVpkOmnIAFw7Dk=
+=M7nC
 -----END PGP SIGNATURE-----
 
---===============7063344432664847329==
+--===============1817620689126214273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e13b4472644-5262a2ad92da.txt
+Content-Disposition: attachment; filename=revlist-5a6cc0cdb3b7-d664fa0097d6.txt
 
-ba5a7ca277afc0e9083a7a2021725425a493cfb2 powerpc/85xx: p2020: Move all P2020 DS machine descriptions to p2020.c
-c30aa8fd6cabd12917277facbd2bd81dc3a226d6 powerpc/85xx: p2020: Move all P2020 RDB machine descriptions to p2020.c
-92189c902c2e2f8c0d4238310686e93da99156b5 powerpc/85xx: mpc85xx_ds: Move i8259 code into own file
 7d8ae6e081428699999c9d128c4e9d3927c1da03 powerpc/85xx: p2020: Unify .setup_arch and .init_IRQ callbacks
 1a170efec56ba4707cd33e711dbafb60b7f94626 powerpc/85xx: p2020: Define just one machine description
 b5340a094b5c753ee3490716bcd86546dfd3e078 powerpc/85xx: p2020: Enable boards by new config option CONFIG_PPC_P2020
@@ -1080,6 +1077,9 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-5262a2ad92daa9d98f7ad25dc248635ed991948a driver core: convert class_create() to class_register()
+dd67ecab7f7945d3afd94ad42432ba2bdba58e99 readfile: implement readfile syscall
+1526046a05222fa3053d4d0597c9414dc8696af4 arch: wire up the readfile syscall
+4b9de65615cd35877ffa2a0db2621ec7338249ae selftests: add readfile(2) selftests
+d664fa0097d6ec61596af0e328aadabc64b2cf18 readfile.2: new page describing readfile(2)
 
---===============7063344432664847329==--
+--===============1817620689126214273==--
