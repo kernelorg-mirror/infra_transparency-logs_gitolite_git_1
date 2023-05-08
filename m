@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3960695372038577563=="
+Content-Type: multipart/mixed; boundary="===============1655835547431949732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 08 May 2023 12:40:25 -0000
-Message-Id: <168354962525.30847.14971006259110853246@gitolite.kernel.org>
+Date: Mon, 08 May 2023 12:40:31 -0000
+Message-Id: <168354963159.30931.4450660721713896755@gitolite.kernel.org>
 
---===============3960695372038577563==
+--===============1655835547431949732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 007a571e344357e5f43093d21099a831060088fc
-    new: c61671b384a1b4c4ab08bf6e75376081e06fdf97
-    log: revlist-007a571e3443-c61671b384a1.txt
+  - ref: refs/heads/m68k-queue
+    old: cb5ba378fb518c884bd3d2a197be340d88851629
+    new: 4b510dc13ba916a17ecbc2fd7605f9e67a630855
+    log: revlist-cb5ba378fb51-4b510dc13ba9.txt
 
---===============3960695372038577563==
+--===============1655835547431949732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-007a571e3443-c61671b384a1.txt
+Content-Disposition: attachment; filename=revlist-cb5ba378fb51-4b510dc13ba9.txt
 
-2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
-dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
 ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
@@ -1049,6 +1047,8 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-c61671b384a1b4c4ab08bf6e75376081e06fdf97 Merge tag 'v6.4-rc1'
+1f67f99ce093a51c2857a00b3b3e4e6a467a7f49 m68k: atari: usb: Add ISP1160 USB host controller support
+2182b71f6ec3f5b318405fa7bcdf97fa9e6705fa m68k: atari: Update Kconfig.bus help text
+4b510dc13ba916a17ecbc2fd7605f9e67a630855 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3960695372038577563==--
+--===============1655835547431949732==--
