@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============1770293699605058065=="
+Content-Type: multipart/mixed; boundary="===============1426540532542507980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 08 May 2023 13:55:23 -0000
-Message-Id: <168355412342.22480.6390961364254595884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Mon, 08 May 2023 14:02:21 -0000
+Message-Id: <168355454156.26392.1136342924925921605@gitolite.kernel.org>
 
---===============1770293699605058065==
+--===============1426540532542507980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/x86/misc
-    old: 5910f06503aae3cc4890e562683abc3e38857ff9
-    new: b2ad431f6469b58914ee7254302c6dc97f688e54
-    log: revlist-5910f06503aa-b2ad431f6469.txt
+  - ref: refs/heads/master
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-568035b01cfb-ac9a78681b92.txt
 
---===============1770293699605058065==
+--===============1426540532542507980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5910f06503aa-b2ad431f6469.txt
+Content-Disposition: attachment; filename=revlist-568035b01cfb-ac9a78681b92.txt
 
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
+2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
@@ -1048,7 +1050,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-0150d1bfbedf29d7473ae458815781488f62d11d tools/x86/kcpuid: Dump the correct CPUID function in error
-b2ad431f6469b58914ee7254302c6dc97f688e54 tools/x86/kcpuid: Add .gitignore
 
---===============1770293699605058065==--
+--===============1426540532542507980==--
