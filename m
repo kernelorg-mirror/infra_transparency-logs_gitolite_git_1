@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9061900584642332071=="
+Content-Type: multipart/mixed; boundary="===============7476923119076091612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 08 May 2023 07:30:36 -0000
-Message-Id: <168353103664.28914.1673025600624945980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 08 May 2023 07:31:29 -0000
+Message-Id: <168353108904.29290.3093167581216232491@gitolite.kernel.org>
 
---===============9061900584642332071==
+--===============7476923119076091612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
+  - ref: refs/heads/fixes
     old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: ac9a78681b921877518763ba0e89202254349d1b
     log: revlist-fe15c26ee26e-ac9a78681b92.txt
 
---===============9061900584642332071==
+--===============7476923119076091612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1683531035 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1683531034-cfb51eab3cc69a6e9481af804dd24eb0aaed7106
+pusher krzk@kernel.org 1683531087 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1683531087-8fe94b623abd402f0512cc0a7d61fa46a4257c9b
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 ac9a78681b921877518763ba0e89202254349d1b refs/heads/pinctrl-next
+fe15c26ee26efa11741a7b632e9f23b01aca4cc6 ac9a78681b921877518763ba0e89202254349d1b refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYpRsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16LgD/9DPJ3GG0NPF4FNJ0Z3FxipWR1bo1ZTCIyn
-JbcyBZL4JrMVGpe9bKVeOmre5ta8/yGSc1RxQfyXXGCYRxakEw/bYJyGQPpHt2Sv
-s/jMNJVV7L0JbfgMGWCokkLCpxMtF8HgbYCQLTIEh/ELPnrEiVFrcnzet7MrcZQR
-WTGyKK1qmAVf2OU61dW8/jnU9NXiDgVw6PUSfOr1nCGEgXepQwxA37SEuLnJd2TX
-OyP7Cv95TFPbVnQQHwjNp5rXGyJxhk1I+x/qoA1GXVm/C8kxQR5aovaR1ZOVdgG8
-fL9F+5Apc+TewpK/bBYLBT3UXrfn/kLgOnsw6fAjul6rzGmRiOkvZmlxC81A831h
-Lp9DGTANvha5zajzErU6v2VrReiVmlIlpS28Sh4CKjeDPDdKCuW5kucXFtnCwj2u
-abv+9aC2CFPyxEYfA482ikCyPh8o+Rf2GDg0PWM+MH9+bgUPQSCrW44MVvZiI+l8
-6jAAC9r2tC/tcHfS3v6z2TVufRCPdJBqt6Dhg+hkZv3sTVnyczmGcivlvsIZ4I8o
-GmCZu+oQ7bIp37CypLNIlZVyErKiK8PtkSw33GaWLVf3IwE9JjLLwdKDM71n5/hb
-v4Xyp0Q1VRzj0CzZ8JmQa7MW6JvEBv0ibyiHgKbVCdb8w53kaAq5Rp5hwbTfbGha
-LHIHPxmRWA==
-=5c8P
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYpU8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18oqD/4k5WlIYjypRNGr+MK1bSFiz2qOMWc2yX9J
+t671PxVh8Lbi5tiHDnqa9KNANtYmtcRlDNLSMhwTCxCpg+hX8nhmLwjEl+9JnmYW
+K+tl08Z4Iw/DfoKCZx+fLVyPzvoKJ+39rFc8L1kP7u1ImDFpdNJsvdqNfg5ILiP2
+skNzTR4lCjFNbw0HJg2cNlz5I5TiZLPJhSpAow6lttRHew3UqFa/nmqEWwKLuMhD
+jFE/Gn4H8xDQkG/cecTNUBs+8JAq0XWLpMRQDe1Yb4DzYi1qeZW3q8FrPgQ85z/k
+n4Be7u2FqawgqhQBVFaOwj/lo1ZO5L3wUzbTJBdijNGP94z4DReGklWje/99F1Mw
+fYYladGEpKhAPK5uIFeW83JUVSRachNQZAM8BL000iEJWVuHAPbm7cB2JGdM0vkG
+66FHaI12qSO2ll1aziZRmD0XqkeSW20OoVCFIKa8Q8B0yUcMNr8yb1dnD9PHDTXf
+92Q/crEDF231lnPsGT9tNWgJRYVcw88FhHMeO2t8h8htIj5h/WTHGnAvoKsz4QVy
+PQpsqxvLurHI13bRNDcML/gyn9u9+fpUZ+DnOE3haTRhAo4nf8vTSEs1DlThsM6f
+VJ8vsF2pQXX2YV4nsMP/fiCDGhIpBPrXlD2Gvl8SpauhMCUpCI0sftVyeoXM7qoY
+ePveOAghDQ==
+=ctEW
 -----END PGP SIGNATURE-----
 
---===============9061900584642332071==
+--===============7476923119076091612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============9061900584642332071==--
+--===============7476923119076091612==--
