@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7432576931298866789=="
+Content-Type: multipart/mixed; boundary="===============2551565533937812720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 08 May 2023 08:02:36 -0000
-Message-Id: <168353295627.18606.17965812768099470662@gitolite.kernel.org>
+Date: Mon, 08 May 2023 08:03:00 -0000
+Message-Id: <168353298094.18819.2267274992926862358@gitolite.kernel.org>
 
---===============7432576931298866789==
+--===============2551565533937812720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: eeac8ede17557680855031c6f305ece2378af326
+  - ref: refs/heads/mips-fixes
+    old: 6dcbd0a69c84a8ae7a442840a8cf6b1379dc8f16
     new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-eeac8ede1755-ac9a78681b92.txt
+    log: revlist-6dcbd0a69c84-ac9a78681b92.txt
 
---===============7432576931298866789==
+--===============2551565533937812720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeac8ede1755-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-6dcbd0a69c84-ac9a78681b92.txt
 
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============7432576931298866789==--
+--===============2551565533937812720==--
