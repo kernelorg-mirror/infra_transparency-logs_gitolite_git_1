@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7610459663118283131=="
+Content-Type: multipart/mixed; boundary="===============7320822177254729749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 08 May 2023 07:18:55 -0000
-Message-Id: <168353033529.18309.7838884339661726227@gitolite.kernel.org>
+Date: Mon, 08 May 2023 07:19:25 -0000
+Message-Id: <168353036582.18550.5857101416800766329@gitolite.kernel.org>
 
---===============7610459663118283131==
+--===============7320822177254729749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,35 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: lpieralisi
 changes:
-  - ref: refs/heads/controller/dt
-    old: 661a7e9aa551ef265de859a48f297e275a1c5587
-    new: c0aba9f328019fa8ba1b771ba0146ac61ce561ad
-    log: revlist-661a7e9aa551-c0aba9f32801.txt
+  - ref: refs/heads/controller/endpoint
+    old: 604de32d55a2f12c90c7e66923984c28147bb5d0
+    new: 25b4630332e48a25c2e6f9bfa7646d1c08c0105d
+    log: revlist-604de32d55a2-25b4630332e4.txt
 
---===============7610459663118283131==
+--===============7320822177254729749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-661a7e9aa551-c0aba9f32801.txt
+Content-Disposition: attachment; filename=revlist-604de32d55a2-25b4630332e4.txt
 
-2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
-dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
-2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
-fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
-ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
-33c890d022f91d7807cc9673f7017b480f64b2cf fbdev: da8xx-fb: Convert to platform remove callback returning void
-156ebfe4c87d1379fd599677d90056c911dc03f8 fbdev: efifb: Convert to platform remove callback returning void
-81431a9eaca14166f4dec21059f67cea81fac688 fbdev: ep93xx-fb: Convert to platform remove callback returning void
-b917b0a9c6b92e0abb4e07a9568cd93df831b7ff fbdev: ffb: Convert to platform remove callback returning void
-0dc08e875aca46813efad5a18c98749d2fb41935 fbdev: fsl-diu-fb: Convert to platform remove callback returning void
-e16e7ea4a8e5023ce9a68d7762102b5a9ccb17dd fbdev: gbefb: Convert to platform remove callback returning void
-ecab1e9a54db8a2535d3ee7b25f78c3d02dfad19 fbdev: goldfishfb: Convert to platform remove callback returning void
-41aede214f2f68f69d42a802ca8aab5b1aa9ea66 fbdev: grvga: Convert to platform remove callback returning void
-5be0ce71097d087060cc9e9a416f62fa74e5a9dd fbdev: hecubafb: Convert to platform remove callback returning void
-f693b4de3546fa484b86437fb06ac307603aed3e fbdev: hgafb: Convert to platform remove callback returning void
-a1bb53688630aff762e79c6e4d781f33283f82a7 fbdev: hitfb: Convert to platform remove callback returning void
-909b7a3ea3989715ff20c191682c6a90eac3b4a4 fbdev: imxfb: Convert to platform remove callback returning void
-3eafb6a37617eff4678723acb3400fe37e77f631 fbdev: leo: Convert to platform remove callback returning void
 3a2ab02ddfacb04f92d47f2fe6e4aef4c95366e4 fbdev: mb862xx: Convert to platform remove callback returning void
 d0513776c132e040b2a438864dd1a2a362326858 fbdev: metronomefb: Convert to platform remove callback returning void
 419368fba704bf34c6d04a891b3989f47678911e fbdev: mx3fb: Convert to platform remove callback returning void
@@ -1049,6 +1031,24 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-c0aba9f328019fa8ba1b771ba0146ac61ce561ad dt-bindings: PCI: qcom: Add SDX65 SoC
+683d6a7a35d19b91b8040bfb593fb73aa0ed45de PCI: endpoint: Fix a Kconfig prompt of vNTB driver
+01c68988addfd6d6f580f034b7d4cdfd1e1a0cd7 PCI: endpoint: Automatically create a function specific attributes group
+893f14fed7d38c47e1e006917629f52587b6628f PCI: endpoint: Move pci_epf_type_add_cfs() code
+1e5e75b00bed9dbd2c8344dbf4250fb4254e544c PCI: epf-test: Fix DMA transfer completion initialization
+5d91101fb44c78f894c61464aada6246aef69fb6 PCI: epf-test: Fix DMA transfer completion detection
+6f387577a549258d676375cbaf56e4e5835d5977 PCI: epf-test: Use dmaengine_submit() to initiate DMA transfer
+1835e7cce059286cdb630133efe3e6785ac8c236 PCI: epf-test: Simplify read/write/copy test functions
+5145ee1ef04f83c877e88a443fc7698383dbca33 PCI: epf-test: Simplify pci_epf_test_raise_irq()
+9d55816704d0a075beff13e7a3bb41fbe406d307 PCI: epf-test: Simplify IRQ test commands execution
+a43f64a962143c83684538f0bab4915d64b8ebdb PCI: epf-test: Improve handling of command and status registers
+dddf9c4848895c2546523367ab3868a0273df712 PCI: epf-test: Cleanup pci_epf_test_cmd_handler()
+2af97521184a61e8e190fa42f95feb327bb72cac PCI: epf-test: Cleanup request result handling
+81008dd1c67322bfc716a1c76b5e947817634c5b PCI: epf-test: Simplify DMA support checks
+c4ea9b90d2b545debddf8daf007c833b3b9ed904 PCI: epf-test: Simplify transfers result print
+4c65f61ac03d8f07cbcc4926cf46e7ffc6ce4bd1 misc: pci_endpoint_test: Free IRQs before removing the device
+70bd18186070e55727b24cf0b883f6c8b3cfa4d2 misc: pci_endpoint_test: Re-init completion for every test
+05cf5c32bcced57cae94e3bc735b42564dcf943f misc: pci_endpoint_test: Do not write status in IRQ handler
+409b75d3999eb394d05da5c2980c54b1356168f7 misc: pci_endpoint_test: Simplify pci_endpoint_test_msi_irq()
+25b4630332e48a25c2e6f9bfa7646d1c08c0105d PCI: endpoint: functions/pci-epf-test: Fix dma_chan direction
 
---===============7610459663118283131==--
+--===============7320822177254729749==--
