@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1940225650436585337=="
+Content-Type: multipart/mixed; boundary="===============8286157121376330981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 08 May 2023 00:16:28 -0000
-Message-Id: <168350498813.14527.10689720645808001585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 08 May 2023 00:16:33 -0000
+Message-Id: <168350499312.14615.3824001868832256476@gitolite.kernel.org>
 
---===============1940225650436585337==
+--===============8286157121376330981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-6.4
-    old: 4a670ac3e75e517c96cbd01ef870dbd598c3ce71
+    old: 3302212f0384ab286b65683bc340f3953f88f70a
     new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-4a670ac3e75e-ac9a78681b92.txt
+    log: revlist-3302212f0384-ac9a78681b92.txt
 
---===============1940225650436585337==
+--===============8286157121376330981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a670ac3e75e-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-3302212f0384-ac9a78681b92.txt
 
+ce8ac91130b96f651cf6b5245668dfa4969c9c42 Merge branches 'edac-drivers', 'edac-amd64' and 'edac-misc' into edac-updates
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
@@ -591,7 +592,6 @@ cec24b8b6bb841a19b5c5555b600a511a8988100 Merge tag 'char-misc-6.4-rc1' of git://
 d88f2f72ca89ead8743ee15e547274ba248e7c59 mailmap: add entries for Paul Mackerras
 b413281876292de44ae84e9a9ce9d62e47f266e9 of: fdt: Scan /memreserve/ last
 110ccfa9dd6ca1272e50fbea614aa31f01d2c17e ASoC: amd: yc: Add ASUS M3402RA into DMI table
-3302212f0384ab286b65683bc340f3953f88f70a regulator: consumer.rst: fix 'regulator_enable' typo.
 67df5ce9dd8870d3e53de5ebd6aecf609b713044 i3c: dw: Return the length from a read priv_xfer
 66b32e3d2c6daeeafb80fa41f3a41e4c0ab85cc6 i3c: dw: use bus mode rather than device reg for conditional tCAS setting
 675751bb20634f981498c7d66161584080cc061e ring-buffer: Sync IRQ works before buffer destruction
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============1940225650436585337==--
+--===============8286157121376330981==--
