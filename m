@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0737000497780305727=="
+Content-Type: multipart/mixed; boundary="===============2943700553896263504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 08 May 2023 00:12:41 -0000
-Message-Id: <168350476199.11246.17984997456213431321@gitolite.kernel.org>
+Date: Mon, 08 May 2023 00:13:03 -0000
+Message-Id: <168350478308.11451.3474182371271545433@gitolite.kernel.org>
 
---===============0737000497780305727==
+--===============2943700553896263504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-iss2-dabt-decode
-    old: 547e966405b49253817a93674123fcb8e43b842a
-    new: d5fb5cb7b54a7da63c98292f02e4164df52aec7e
-    log: revlist-547e966405b4-d5fb5cb7b54a.txt
+  - ref: refs/heads/ftrace-kselftest-ktap
+    old: 1e53be9f1f3f57c47f478f1bbf74740463859f06
+    new: bc7c6936263970e92af9ae3a3b37cc1fcbc5d341
+    log: revlist-1e53be9f1f3f-bc7c69362639.txt
 
---===============0737000497780305727==
+--===============2943700553896263504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-547e966405b4-d5fb5cb7b54a.txt
+Content-Disposition: attachment; filename=revlist-1e53be9f1f3f-bc7c69362639.txt
 
+dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
 ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
@@ -1047,8 +1048,7 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-4aca9d52dfc5221297026aede729d6eec5b54c75 arm64: Add decode of ISS2 to data abort reports
-525b8e05f8d8de3b4ade227fde4c53fa8fa45648 arm64/esr: Use GENMASK() for the ISS mask
-d5fb5cb7b54a7da63c98292f02e4164df52aec7e arm64/esr: Add decode of ISS2 to data abort reporting
+087d71d4a6753ef5370a5d81a52a760fe6e06ba9 # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself.
+bc7c6936263970e92af9ae3a3b37cc1fcbc5d341 selftests/ftrace: Improve integration with kselftest runner
 
---===============0737000497780305727==--
+--===============2943700553896263504==--
