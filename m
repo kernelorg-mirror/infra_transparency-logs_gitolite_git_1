@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3665036500419654291=="
+Content-Type: multipart/mixed; boundary="===============8728970200456791170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 08 May 2023 13:05:42 -0000
-Message-Id: <168355114278.16577.2506174859285631448@gitolite.kernel.org>
+Date: Mon, 08 May 2023 13:05:56 -0000
+Message-Id: <168355115650.16737.8634175691411751871@gitolite.kernel.org>
 
---===============3665036500419654291==
+--===============8728970200456791170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes
-    old: c8e22b7a1694bb8d025ea636816472739d859145
-    new: 1a7edd041f2d252f251523ba3f2eaead076a8f8d
-    log: revlist-c8e22b7a1694-1a7edd041f2d.txt
+  - ref: refs/heads/for-next-base
+    old: 3c85f087faeca3ca9ec9e7b085e1eff370e3f0db
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-3c85f087faec-ac9a78681b92.txt
 
---===============3665036500419654291==
+--===============8728970200456791170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8e22b7a1694-1a7edd041f2d.txt
+Content-Disposition: attachment; filename=revlist-3c85f087faec-ac9a78681b92.txt
 
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
@@ -1049,6 +1050,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-1a7edd041f2d252f251523ba3f2eaead076a8f8d scsi: ufs: core: Fix I/O hang that occurs when BKOPS fails in W-LUN suspend
 
---===============3665036500419654291==--
+--===============8728970200456791170==--
