@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3355984787042427386=="
+Content-Type: multipart/mixed; boundary="===============7063344432664847329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 08 May 2023 03:11:35 -0000
-Message-Id: <168351549517.9697.13279528219398285880@gitolite.kernel.org>
+Date: Mon, 08 May 2023 03:15:42 -0000
+Message-Id: <168351574201.12594.11848540365940330875@gitolite.kernel.org>
 
---===============3355984787042427386==
+--===============7063344432664847329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: f6243e678ab40f945a9e07fa24f33c7ceb787627
-    new: 5b3fd3b02b92fe5edaa3a3a955ffad6ec2b12fc5
-    log: revlist-f6243e678ab4-5b3fd3b02b92.txt
+  - ref: refs/heads/class_cleanup
+    old: 3e13b44726447d4efdc8c06f10dfb8a5df88f4ad
+    new: 5262a2ad92daa9d98f7ad25dc248635ed991948a
+    log: revlist-3e13b4472644-5262a2ad92da.txt
 
---===============3355984787042427386==
+--===============7063344432664847329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683515493 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683515740 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1683515493-2061118983f563b8ffe90b2963333c690bd1504b
+nonce 1683515739-3c6d200c420d91feabbb980372da55a36291cd42
 
-f6243e678ab40f945a9e07fa24f33c7ceb787627 5b3fd3b02b92fe5edaa3a3a955ffad6ec2b12fc5 refs/heads/debugfs_cleanup
+3e13b44726447d4efdc8c06f10dfb8a5df88f4ad 5262a2ad92daa9d98f7ad25dc248635ed991948a refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRYaGUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CQ0P/AksxWVkQwQGJRgXzj6D
-8X/ZMGII3jo3fObCBQGRPWkV5bltsVtervH4o21tzMUsWBI2Bh8G/91LwaSceXHL
-Hjj8jbEvbRsZASIEtL83DbLTTEazueFv/Vb/S/CeFYhCS3PPt9GcsC9eXVMQpaFu
-YpB8SrG1dMa9Ts0asQ6PvIgQu0I5kM005Zu0IN0WmrikDSZY4ZGmHI5zyeoH1ozP
-g1F7C1K0md0Y42J0MBgXEcF36RL/+Q10TeqkVDUZf8sWRTGBE0LKIp/vGu2m4FcL
-ZFMEUyErY5kN/wCynsgDya9upUNWqyOMZw+m03VpMf4dHRjvMouti0dgwFL+Urag
-luCgmMO/mcUY5mf7MArCagoWLYF/TPl77ZtoHCB1EFImxp7gPbHAHJLUkUIcb9P/
-46ZJ3WxsIgYOoyXoxR5d6HCebl78lTcwMKGfl/uDnHyBhpCj7CM03BF+tVPc32Jn
-1t17xNvrSizn9v/5Y1nxk2Z/9ok7J3cosQE6DdepwoeECDAkbVHkq4eXFM36Jm1L
-FdOQaFY6kJmE1Xsbl0L5ELDTTwHzPj8IaJUR394mIOa5N8QKEgBO6q+uoEFMpnk5
-6m9GNtiQQQ3jkF8Z2NZoy+9F9wZMC9+yg9IZXq/AXKoXvrkCZRoPI10scWacIT0o
-wUz9vAhiEnSGjiYDMgxZ2Wif
-=mFf/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRYaVwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jokQALJkE9IUvKoK0IFVlLdh
+SIiuGjJM6Lienc4Sb1ZuzR0xZ6OPKyiPlmcoPnbtMEoxXRCIaOxOJj+a9fKhuFA5
+ik2RQoh7IJtym0bFS6czChnA+U89U5l6YXKLYyqQdpZ55ghSRVn8RfycAHAtyi+k
+GXoCMe1+PSiWXPbt672AVGbMFVnHNxO050xMI7SJIusMc9sMNtzK56ZnKHBfFAMA
+BgXfKlWhmVOqFFF5eQy8R41Zy0/vHHsJf8Y3rO5mQrCVlDZeID5RV+fwJ+bG6UV6
+LV+vweeXa8emiyI5Z53RzI40jyGcf7hoR5D7vAx2a0QkiX8ujPvSIXwxxv3yH++B
+uLIP5TJMIZENHsB+nFBx1ECfXXGSvS7JyN58XtKbOK1jw1recn6qsnCVneQ7GVGp
+Zf+fWOTIlqtwiqFbJLvA9qR07v5H7VtVhnLjQCEqaElvGfOft61tABYoo5tQU045
+hnFmbQxnVeOid9IThItB73iznU5EbS9tdenwv6rXtyu0W2bZ66soNY/zrFMjywev
+Bwf/shLrrg7V1gMjj1JwChjts8EtCLYAF3dudQtgxwHyTsXWSLhuo8OpZFoBLMUQ
+4xBPaxRZmpdaN0B693J4IR8eFqEUgaFV6zyXIHhP9ggtlx7P9FH2mEbqP9s3AuCr
+Kzqabz7Cg9zx5UKQYe2dSpRB
+=hcnz
 -----END PGP SIGNATURE-----
 
---===============3355984787042427386==
+--===============7063344432664847329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6243e678ab4-5b3fd3b02b92.txt
+Content-Disposition: attachment; filename=revlist-3e13b4472644-5262a2ad92da.txt
 
+ba5a7ca277afc0e9083a7a2021725425a493cfb2 powerpc/85xx: p2020: Move all P2020 DS machine descriptions to p2020.c
+c30aa8fd6cabd12917277facbd2bd81dc3a226d6 powerpc/85xx: p2020: Move all P2020 RDB machine descriptions to p2020.c
+92189c902c2e2f8c0d4238310686e93da99156b5 powerpc/85xx: mpc85xx_ds: Move i8259 code into own file
+7d8ae6e081428699999c9d128c4e9d3927c1da03 powerpc/85xx: p2020: Unify .setup_arch and .init_IRQ callbacks
+1a170efec56ba4707cd33e711dbafb60b7f94626 powerpc/85xx: p2020: Define just one machine description
+b5340a094b5c753ee3490716bcd86546dfd3e078 powerpc/85xx: p2020: Enable boards by new config option CONFIG_PPC_P2020
 40f7b523e31fd68163d9dfe639f2f34b6a726ecd powerpc: dts: turris1x.dts: Remove "fsl,P2020RDB-PC" compatible string
 4f18b9e6ca58440394e86a53bf1be0d8a1920bcd powerpc/64: Move initial base and TOC pointer calculation
 b270bebd34e36fb69363d65e24b00a9d148903e8 powerpc/64s: Run at the kernel virtual address earlier in boot
@@ -1074,12 +1080,6 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-fc030abcf3176c758a1dc78785c7775d3ab59e65 driver core: remove devm_device_add_groups()
-17b2bb92cc588965262b07d8f7c50dc1414f1d09 sysfs: do not create empty directories if no attributes are present
-35f79f183ad987a73a77f7939ff4db98fde12280 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-5be1ea9944ec8fe2c9c3f2c852af418790088755 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-e1ee592d8aa45248d60908ee6de7f4ee309d9772 soundwire: sysfs: have the driver core handle the creation of the device groups
-9f05eab9d577dda1e66228d231739758a879586e soundwire: sysfs: remove sdw_slave_sysfs_init()
-5b3fd3b02b92fe5edaa3a3a955ffad6ec2b12fc5 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+5262a2ad92daa9d98f7ad25dc248635ed991948a driver core: convert class_create() to class_register()
 
---===============3355984787042427386==--
+--===============7063344432664847329==--
