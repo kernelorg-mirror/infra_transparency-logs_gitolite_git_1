@@ -1,31 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0660650748302749542=="
+Content-Type: multipart/mixed; boundary="===============7807977101499109165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Mon, 08 May 2023 15:07:08 -0000
-Message-Id: <168355842805.7647.8515784592223005211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 08 May 2023 15:33:13 -0000
+Message-Id: <168355999321.24660.111414890149532562@gitolite.kernel.org>
 
---===============0660650748302749542==
+--===============7807977101499109165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/ps3-queue-v6.4
-    old: 48a75d555e13eaa6c2356fc4deb47d23306cd0d4
-    new: eb80e5656ecfbf57afc8bb19a510320c6a4a60ad
-    log: revlist-48a75d555e13-eb80e5656ecf.txt
+  - ref: refs/heads/for-next
+    old: e578c943e363ff47d08e7b4f5648f3da9db325d8
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-e578c943e363-ac9a78681b92.txt
 
---===============0660650748302749542==
+--===============7807977101499109165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48a75d555e13-eb80e5656ecf.txt
+Content-Disposition: attachment; filename=revlist-e578c943e363-ac9a78681b92.txt
 
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
+2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
+dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
+2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
+fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
+ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
+33c890d022f91d7807cc9673f7017b480f64b2cf fbdev: da8xx-fb: Convert to platform remove callback returning void
+156ebfe4c87d1379fd599677d90056c911dc03f8 fbdev: efifb: Convert to platform remove callback returning void
+81431a9eaca14166f4dec21059f67cea81fac688 fbdev: ep93xx-fb: Convert to platform remove callback returning void
+b917b0a9c6b92e0abb4e07a9568cd93df831b7ff fbdev: ffb: Convert to platform remove callback returning void
+0dc08e875aca46813efad5a18c98749d2fb41935 fbdev: fsl-diu-fb: Convert to platform remove callback returning void
+e16e7ea4a8e5023ce9a68d7762102b5a9ccb17dd fbdev: gbefb: Convert to platform remove callback returning void
 ecab1e9a54db8a2535d3ee7b25f78c3d02dfad19 fbdev: goldfishfb: Convert to platform remove callback returning void
 41aede214f2f68f69d42a802ca8aab5b1aa9ea66 fbdev: grvga: Convert to platform remove callback returning void
 5be0ce71097d087060cc9e9a416f62fa74e5a9dd fbdev: hecubafb: Convert to platform remove callback returning void
@@ -1038,17 +1050,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-ecc528ffcd407a023511f5c8f03fb71b9d906fff net/ps3_gelic_net: Add gelic_descr structures
-abd26516cc7a6c67ec4a4c9612ee1810cb1d824f net/ps3_gelic_net: Use napi routines for RX SKB
-d99dc392fea64b578229bd010c7e37a3f1eae6c9 hvc_console: Allow backends to set I/O buffer size
-a65c874bf5e10c89c6fcaf04a869851c69af185d ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-d1be78772ce885018cc42dd25a2700c4834bd016 ps3-debugging: Setup DABR register
-9206bdd3ae72682a225a35a9bfc2439d5867a6a8 local: Add ps3_nfs_defconfig
-f8138180aa58bd9b9c1a9659fbc0e54a2aaf8d47 local: ps3_nfs_defconfig: Cut down version
-5fda92468f54aad16f2c994c6a2d6e8cd999898c local: Refresh ps3_nfs_defconfig
-5d04678578f7501c96af7bf92030028819c71adc local: Add ps3_petitboot_defconfig
-44bdd94cc42f7038be9a7a1f326b16d19dc63f98 local: Add ps3_petitboot_nfs_defconfig
-34a553407c80d58d7015b133fdb095abbfb2cbd1 local: ps3_petitboot_nfs_defconfig: ip=dhcp
-eb80e5656ecfbf57afc8bb19a510320c6a4a60ad ps3_defconfig: Cut down version
 
---===============0660650748302749542==--
+--===============7807977101499109165==--
