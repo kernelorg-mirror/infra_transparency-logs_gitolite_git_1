@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2845841795474330457=="
+Content-Type: multipart/mixed; boundary="===============8674126603366756773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 08 May 2023 14:24:13 -0000
-Message-Id: <168355585392.10174.12824929738604476091@gitolite.kernel.org>
+Date: Mon, 08 May 2023 14:26:02 -0000
+Message-Id: <168355596221.12275.10686273116801590583@gitolite.kernel.org>
 
---===============2845841795474330457==
+--===============8674126603366756773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/vimc
+  - ref: refs/heads/linux-safety
     old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: ac9a78681b921877518763ba0e89202254349d1b
     log: revlist-fe15c26ee26e-ac9a78681b92.txt
 
---===============2845841795474330457==
+--===============8674126603366756773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============2845841795474330457==--
+--===============8674126603366756773==--
