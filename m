@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0476766996510672437=="
+Content-Type: multipart/mixed; boundary="===============6226626863961834878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 08 May 2023 13:34:37 -0000
-Message-Id: <168355287732.5375.3338385879182304474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 08 May 2023 13:34:43 -0000
+Message-Id: <168355288300.5499.10917248595246875931@gitolite.kernel.org>
 
---===============0476766996510672437==
+--===============6226626863961834878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: dd69654cd32acad1a32d8e1c7b085a34db9d47e5
     new: 057e1ae7443cefb4c59923a574512b7bc69683f8
     log: |
@@ -25,28 +25,28 @@ changes:
          057e1ae7443cefb4c59923a574512b7bc69683f8 spi: dw: DW SPI DMA Driver updates
          
 
---===============0476766996510672437==
+--===============6226626863961834878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1683552875 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1683552875-e09a344d00ca266dbad7fc0f75c9f7bdc25d4203
+pusher Mark Brown <broonie@kernel.org> 1683552881 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1683552881-56920329fe987f0cfad078489cc9e41d2ba1f053
 
-dd69654cd32acad1a32d8e1c7b085a34db9d47e5 057e1ae7443cefb4c59923a574512b7bc69683f8 refs/heads/for-6.5
+dd69654cd32acad1a32d8e1c7b085a34db9d47e5 057e1ae7443cefb4c59923a574512b7bc69683f8 refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRY+msTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0KGQB/94TDlZNytnroTQCvmpbfP855cuiWQQ
-lTXSD+b0G4dEZxR6WZyqfxrkbV17GkjSkjTlXFxLBhUAJ5vF2oAHf9nf3MjSP9NP
-HGbX9vOP7YVkQwiQHnKPQSIYPcrAEm7kkcRstJHNluTzRJJh1DFkMIp4vzjM29dD
-IMOJLhx5pSzWt6X8Oa1fN8Pcy4HQnTS26gqfcrRpAjauhqZ5nWk5UR1CcwfM3iCU
-VhlY82AViinSVgEBC1JxRWaP6EdWbZ7hnk2zoMpL13Kkqy2EEsT7gCS6E4aSRA8G
-Et9bCrVi+3QsYOC0E+22Zfk/wWv0fHsnX2lqQ1EyiC9LE3KmWVVVy+ij
-=whH9
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRY+nETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0C+1B/4ygLXRVS2ZbjWGCDIMcgTbS+DQ1RbJ
+3oWVHNDL9tornZlLHP0YoBF7UCDHR5mJIoR+bIdmIfpDGvSqJelxARiEJYuMkDpn
+Xa7v2Zui8hTWylhY36xviskyur1LlvokeRXrsNxCOFwk81vo8F+KM66vwfh/3xbb
+FdbFqz+FqVAeNVzZ4ZBYsONcs+tl+pvxsEm3mdBvZgDwOHuu6lGquNMwO0jvVmZo
+0cAkpXj4il1Jt16/r8AJHPdxAGU+JIAktC3MdeHT4b3BoxVRPPr51cyeMYGYZuyh
+9qXT+FbbLxUcozX0nrqi6r89rMo7w3HK5oFsoZeIFqzNglML4feDVurA
+=Wv93
 -----END PGP SIGNATURE-----
 
---===============0476766996510672437==--
+--===============6226626863961834878==--
