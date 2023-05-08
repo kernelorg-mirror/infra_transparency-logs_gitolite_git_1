@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
-Date: Mon, 08 May 2023 00:57:28 -0000
-Message-Id: <168350744856.10497.5366618726604175432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 08 May 2023 01:04:31 -0000
+Message-Id: <168350787117.18320.12327584832820063008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux-next
-user: mcgrof
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/20230507-fs-freeze
-    old: 0000000000000000000000000000000000000000
-    new: 9cdeb0affbef3a458131eac4d53a8e9ce3dd6450
+  - ref: refs/heads/dev
+    old: 87f065847f867981f25efbafe21c297107acbdb9
+    new: 74bffc4d77af9ffc64fb96f2799f800041806deb
+    log: |
+         74bffc4d77af9ffc64fb96f2799f800041806deb squash! locking/atomic: Add docbook header for arch_${atomic}_${pfx}andnot${sfx}${order}
+         
