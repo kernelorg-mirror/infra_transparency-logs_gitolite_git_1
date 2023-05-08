@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1231831829376067073=="
+Content-Type: multipart/mixed; boundary="===============7120521769684940880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 08 May 2023 07:28:46 -0000
-Message-Id: <168353092655.26397.6429033289859999451@gitolite.kernel.org>
+Date: Mon, 08 May 2023 07:28:52 -0000
+Message-Id: <168353093218.26494.10257147861986532406@gitolite.kernel.org>
 
---===============1231831829376067073==
+--===============7120521769684940880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
+  - ref: refs/heads/for-next
+    old: 3ec0e1ea4770e40575bfb2bb4e9ebbbaa3c80d3f
     new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-fe15c26ee26e-ac9a78681b92.txt
+    log: revlist-3ec0e1ea4770-ac9a78681b92.txt
 
---===============1231831829376067073==
+--===============7120521769684940880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1683530925 +0200
+pusher krzk@kernel.org 1683530930 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1683530924-b8f10fa0ab747966ef8331cd92c5def4ab924e15
+nonce 1683530930-42c3cdaa48bb9f7fc992de286256c0bc59ed5371
 
-fe15c26ee26efa11741a7b632e9f23b01aca4cc6 ac9a78681b921877518763ba0e89202254349d1b refs/heads/fixes
+3ec0e1ea4770e40575bfb2bb4e9ebbbaa3c80d3f ac9a78681b921877518763ba0e89202254349d1b refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYpK0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17LaD/sF+N3wjvxNyJRUisssfPz8Un5j3/bqY6yV
-aRoKi1nUNokcbsBkhpg95Pp8Ty00Kw+ntuSi/cCfqFw/adKhMAhIgXJJ5ZRgSkoG
-0vqwEE8+eqbMj5QBBqJrPeOmXbEXtvDdmrMvjDaKUkX4sY378FBRhRlcuk4LzFCU
-mVtG1wDrvythUZ2flMBfjFrMoiA/LwCoZPkZ93SBbqJb8rCHhhM6ifgp1I76wtmc
-R88B3RObN+6UVi/4fMKaQZdlt22GTMyOdqYouF3e7veOQIeoblCu0WLkEqddfM5F
-kWK3DP5phbheQ0/sX1FdzIvpMeBykIgNSLtmJ4Nn63gIBBb9byszYvJ0GgpPpB5k
-Y7EEEkdH7+jZ3jRqMETwE8yqxiiRjUS3PFQtR215IjsFZ4mPu66IjLNcrbqxeXcP
-accISmvwPqkAc1gXUVJj878sp9YhntRVcPHGeUa/emPhqEqivqoA83qa3qsPv6Du
-xPAv9fqTvLwKklY2z8UjzOhkyU9AuoG5A+iuA8dUL2fK4hPGmOGiDVMpraFhE0WL
-y6MfECaBgQ9JvZB04ry7/zY8URq3Hh3GiuEvOIUO4lpToMSO5T9VFdnL4ZyEGilx
-JaMUJx0EPa5lFIHfLTgqxPtdYH9Vmhadp70IGxLV56rFnXy4lcM/yi00wfLsAs3p
-nMz1om6puQ==
-=mKtw
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRYpLIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+CxEACa2ImYs5Ye4Wj4SHMznG+PK2FojkJeJOXC
+4XSoMzaOIVi6QE39wogUaDoTfUx2Woc5oxyr33PqKruQ0YufOwZB9USJ11CNLKi0
+Z8bsOnzPKKhZ3kTQK27yGgJIZf7vn+BZPjpesCbm3pDSIaAScFgU8w7Lr73UJsyf
+0/L29HsFna7NYpRd1VIMS1rqBDKuTB3uN7/uY2cnYhXUpb1bdk9mxPl1NajIx/gk
+gDO1paxDX1T8whyUjvxNlpv9TSWs6qMaM8rkcWxYPU0v5wCxw4iavHDz/qMQL+2W
+aXpHhBltu8EckzeugeSq6mLTyysIGm8N3mVdYE8NuZQ08LO/CWc3SiMaEIZN/6Da
+aAGydYbEzLzb92V8p17pfFq4URTgUyv2MxKNs42AgAPiq0sZkRTaYmIAkohU3QKX
+6Nn+oB1PbbL39i0c87kKDfodIowFeSQmkzRvDCKKZdZ3O0HeFt/qg89rQnkBvqEa
+/UnCVeWkBNKVAJ64HsrnDlfl48/D5yLHMRepkZYDN2mBPSYQlObgFiNeWe3SYB8m
+Z+nLm7BiK49LrzC5Dka9qvw8myG3536CdjCl7ccVcsbH8bV9xmvsokeWUpOHNdSU
+pIRtvIewNyPynNy+TSkteUHf0tGm5aNSemKQI/7wdGqJe67HLIT25z5XViir9HGM
+OA9l2KwJiw==
+=vPQu
 -----END PGP SIGNATURE-----
 
---===============1231831829376067073==
+--===============7120521769684940880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe15c26ee26e-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-3ec0e1ea4770-ac9a78681b92.txt
 
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
@@ -1082,4 +1082,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============1231831829376067073==--
+--===============7120521769684940880==--
