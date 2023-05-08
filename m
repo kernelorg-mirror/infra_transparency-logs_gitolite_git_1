@@ -1,60 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3359028589607315753=="
+Content-Type: multipart/mixed; boundary="===============3513116041493458842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 08 May 2023 13:26:09 -0000
-Message-Id: <168355236987.32302.13904134549869425781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 08 May 2023 13:26:24 -0000
+Message-Id: <168355238431.32464.5053816752619878442@gitolite.kernel.org>
 
---===============3359028589607315753==
+--===============3513116041493458842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.4
-    old: 25f0617109496e1aff49594fbae5644286447a0f
-    new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-25f061710949-ac9a78681b92.txt
-  - ref: refs/heads/spi-6.5
-    old: 0000000000000000000000000000000000000000
-    new: dd69654cd32acad1a32d8e1c7b085a34db9d47e5
+  - ref: refs/heads/for-linus
+    old: 9a92ef41d6c52c0b8c83dcd613ad2107d2d3a962
+    new: ab6ecfbf40fccf74b6ec2ba7ed6dd2fc024c3af2
+    log: revlist-9a92ef41d6c5-ab6ecfbf40fc.txt
+  - ref: refs/heads/for-next
+    old: 9a92ef41d6c52c0b8c83dcd613ad2107d2d3a962
+    new: ab6ecfbf40fccf74b6ec2ba7ed6dd2fc024c3af2
+    log: revlist-9a92ef41d6c5-ab6ecfbf40fc.txt
 
---===============3359028589607315753==
+--===============3513116041493458842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9a92ef41d6c5-ab6ecfbf40fc.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1683552367 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1683552367-046ff7b3be004d6f2d12fe1f8439bb3d32879fad
-
-25f0617109496e1aff49594fbae5644286447a0f ac9a78681b921877518763ba0e89202254349d1b refs/heads/spi-6.4
-0000000000000000000000000000000000000000 dd69654cd32acad1a32d8e1c7b085a34db9d47e5 refs/heads/spi-6.5
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRY+G8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LKaB/9fVtRWu4q0PNk1/PfAGJXeZBOsdYT0
-GO31w2JZSKOsrmXx5TZYKf9DKKbeyyFsy/tKbj3ePNrerz/sA8pv49A/1MXHvY9H
-B93lMlA+He6jgfVkgrqfqUhahvjeE9mY9JjbBu11MXvEm4Nwc6W+DzpTNe3TZO5E
-U0tfVBPh+4ADyd61Kloeot+cjnPmrngUmtiuh0h7SBeTVgixl8jIoKHxF7KR6evg
-iCeXLQRI5qUpc8HUjEfWNMoPNEJWs70vQZMpPTU86Gwo8A6gV5XlcQ9t3RmjG6kq
-/rHyXb5A4Xw3BaEOp2Zf4VwanlHfV5j3PgTIxaiz6EVre40n/uZZ0EGO
-=oqv9
------END PGP SIGNATURE-----
-
---===============3359028589607315753==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25f061710949-ac9a78681b92.txt
-
+1f3744b89164a430865d18b757b86c4007627855 platform/chrome: cros_ec_debugfs: fix kernel-doc warning
+d184d60aa301e424cd0cf7de90b40744710a2417 platform/chrome: wilco_ec: remove return value check of debugfs_create_dir()
+7002cbd625467084f1ef01b6e365e10b51fc4b9f ALSA: emu10k1: use high-level I/O in set_filterQ()
+ce8ac91130b96f651cf6b5245668dfa4969c9c42 Merge branches 'edac-drivers', 'edac-amd64' and 'edac-misc' into edac-updates
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
@@ -163,8 +142,6 @@ fb73556386e074e9bee9fa2d253aeaefe4e063e0 clocksource/drivers/davinci: Fix memory
 51010c1dc487e7764b7e1ec1c4954068e5880757 dt-bindings: timer: rockchip: Drop superfluous rk3288 compatible
 e2a1406c84c43bd104e2f85c4d8ab0b0b1609ab0 dt-bindings: timer: rockchip: Add rk3588 compatible
 c90b29cede952452f76477296cef3ef411727dd3 Merge branch 'acpica'
-9e868ca1f269dec9f2062bb8de42b8a94773924e ASoC: max98090: make it selectable
-c963e2ec095cb3f855890be53f56f5a6c6fbe371 ASoC: Intel: soc-acpi-byt: Fix "WM510205" match no longer working
 0e838286080d0f458aa20751b15f35f3a7924830 Merge branches 'acpi-processor', 'acpi-pm', 'acpi-tables' and 'acpi-sysfs'
 0f318baaf23d0feb939cf9d3251712198c429879 Merge branches 'acpi-apei', 'acpi-properties', 'acpi-sbs' and 'acpi-thermal'
 21fc506cf5ef5de9c2cdc04036e35169d2b3e7d6 Merge branches 'acpi-bus', 'acpi-video' and 'acpi-misc'
@@ -619,7 +596,6 @@ cec24b8b6bb841a19b5c5555b600a511a8988100 Merge tag 'char-misc-6.4-rc1' of git://
 4f20b7471c57032860065591a17efd3325216bde libgcc: add forward declarations for generic library routines
 d88f2f72ca89ead8743ee15e547274ba248e7c59 mailmap: add entries for Paul Mackerras
 b413281876292de44ae84e9a9ce9d62e47f266e9 of: fdt: Scan /memreserve/ last
-110ccfa9dd6ca1272e50fbea614aa31f01d2c17e ASoC: amd: yc: Add ASUS M3402RA into DMI table
 3302212f0384ab286b65683bc340f3953f88f70a regulator: consumer.rst: fix 'regulator_enable' typo.
 67df5ce9dd8870d3e53de5ebd6aecf609b713044 i3c: dw: Return the length from a read priv_xfer
 66b32e3d2c6daeeafb80fa41f3a41e4c0ab85cc6 i3c: dw: use bus mode rather than device reg for conditional tCAS setting
@@ -926,9 +902,6 @@ b9bd9f605c4a6f04a83e6640a7d1d6dda80f17ca x86: uaccess: move 32-bit and 64-bit pa
 667de5c68440732373f571f7eac4ff44b1b93ee7 Merge tag 'thermal-6.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 0153d8e695255cdf3faa5cfa9f18b57158dc2764 Merge tag 'acpi-6.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 fa31fc82fb775445c176e576304c4098222f47f2 Merge tag 'pm-6.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-84822215acd15bd86a7759a835271e63bba83a7b ASoC: codecs: wcd938x: fix accessing regmap on unattached devices
-4a1b5bc73e9ce8373d50fdb8f74badd2b4bf324e ASoC: amd: yc: Add Asus VivoBook Pro 14 OLED M6400RC to the quirks list for acp6x
-ec6f82b4c63cc68f8dc03316e725106d242706be ASoC: Intel: soc-acpi-cht: Add quirk for Nextbook Ares 8A tablet
 9f2692326b9c6db8d0e866d555606b12a507a363 Merge tag 'ubifs-for-linus-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 342528ff00e8a7dd31c1ea0c0093c2289d769b39 Merge tag 'uml-for-linus-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 049a18f232887834fc77e7cee46f06b5043aea22 Merge tag 'sysctl-6.4-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
@@ -1079,5 +1052,7 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
+7b9891ad25246b18b5ccc19518da7abc7763aa0a ASoC: amd: yc: Add DMI entry to support System76 Pangolin 12
+ab6ecfbf40fccf74b6ec2ba7ed6dd2fc024c3af2 ASoC: dwc: limit the number of overrun messages
 
---===============3359028589607315753==--
+--===============3513116041493458842==--
