@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 08 May 2023 13:25:20 -0000
-Message-Id: <168355232004.31217.10620470763436033257@gitolite.kernel.org>
+Date: Mon, 08 May 2023 13:25:26 -0000
+Message-Id: <168355232629.31355.7901924309079781452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileSUXlLf
-    old: 5fd7c99ecf45c8ee8a9b1268f0ffc91cc6271da2
+  - ref: refs/heads/v3_20230502_jaewon02_kim_improve_polling_mode_of_s3c64xx_driver
+    old: 1ee806718d5ef7de31c6063c4493f3d6527c9427
     new: 0000000000000000000000000000000000000000
