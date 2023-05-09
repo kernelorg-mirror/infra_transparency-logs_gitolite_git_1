@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 09 May 2023 16:01:57 -0000
-Message-Id: <168364811787.26258.14741076475887106171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 09 May 2023 16:07:24 -0000
+Message-Id: <168364844466.29503.17760722239078374928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 0000000000000000000000000000000000000000
-    new: 5f2ea10a808aef0086ad46240fab0a3e7ae90e95
+  - ref: refs/heads/dev
+    old: ad3add6496e29e749376c4e3bda17e10fdaeaa95
+    new: b7c6d563fb2aa29acb91fd8665380979bb8d131d
+    log: |
+         b7c6d563fb2aa29acb91fd8665380979bb8d131d squash! locking/atomic: Refrain from generating duplicate fallbacks
+         
