@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5345679352739470811=="
+Content-Type: multipart/mixed; boundary="===============5779673088235100487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 09 May 2023 10:07:34 -0000
-Message-Id: <168362685424.15581.2345064904317304567@gitolite.kernel.org>
+Date: Tue, 09 May 2023 10:07:52 -0000
+Message-Id: <168362687220.15734.15323978123874569705@gitolite.kernel.org>
 
---===============5345679352739470811==
+--===============5779673088235100487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 4eb0e7873c7159298799aabbd0f29b48689a73f0
-    new: 81dce1490e28439c3cd8a8650b862a712f3061ba
-    log: revlist-4eb0e7873c71-81dce1490e28.txt
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+    new: 0541a507785037ff06184d0dae319d9397aafa0d
+    log: revlist-4eb0e7873c71-0541a5077850.txt
 
---===============5345679352739470811==
+--===============5779673088235100487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4eb0e7873c71-81dce1490e28.txt
+Content-Disposition: attachment; filename=revlist-4eb0e7873c71-0541a5077850.txt
 
-31c5ba6c2556f80842d464ed743aff50890c8208 perf vendor events intel: Update metrics to detect pmem at runtime
-9835b742ac3ee16dee361e7ccda8022f99d1cd94 perf tests record_offcpu.sh: Fix redirection of stderr to stdin
-7f8d3fbe094be59a286f3b43431668221123ff30 perf tests test_bridge_fdb_stress.sh: Fix redirection of stderr to stdin
-51ea4cb96f35ae2f31d45d9a0dbf30da13bbe441 perf stat: Suppress warning when using cpum_cf events on s390
-ece7f7c0507cc147f72e117e22732091db758885 perf bench syscall: Add fork syscall benchmark
-ecd4960d908e27e40b63a7046df2f942c148c6f6 perf ftrace: Make system wide the default target for latency subcommand
 5d9df8731c0941f3add30f96745a62586a0c9d52 perf vendor events power9: Remove UTF-8 characters from JSON files
 c8bb2d76a40ac0ccf6303d369e536fddcde847fb perf symbols: Fix use-after-free in get_plt_got_name()
 a2410b579c72242ac0f77b3768093d8c1b48012e perf symbols: Fix unaligned access in get_x86_64_plt_disp()
@@ -1052,6 +1043,12 @@ f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-0
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 003fb0a51162d940f25fc35e70b0996a12c9e08a mmc: block: ensure error propagation for non-blk
 e5bce3c15ad20d7dd4f8393513b1c41373d2dc37 mmc: sdhci-cadence: Fix an error handling path in sdhci_cdns_probe()
+31dd43d5032a3572dc4d452aed95000a17f1cf2f mmc: sdhci-msm: Switch to the new ICE API
+f4372e2981fc0f91fabb81493aa5b4cda3c7379e dt-bindings: mmc: sdhci-msm: add IPQ6018 compatible
 81dce1490e28439c3cd8a8650b862a712f3061ba mmc: sdhci-esdhc-imx: make "no-mmc-hs400" works
+62525d6ec258f79dd2c7aabf937442c2fc117596 Merge branch 'fixes' into next
+858ec34518a3571d40053dd58c4ab972bfa68edc mmc: dw_mmc: Make dw_mci_pltfm_remove() return void
+c171941952443f5f808d064dae9c5ab2221d41bd dt-bindings: mmc: brcm,kona-sdhci: convert to YAML
+0541a507785037ff06184d0dae319d9397aafa0d dt-bindings: mmc: sdhci-msm: Document SC8280XP SDHCI
 
---===============5345679352739470811==--
+--===============5779673088235100487==--
