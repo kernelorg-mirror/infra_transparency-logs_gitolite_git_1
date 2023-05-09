@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4162085487267995601=="
+Content-Type: multipart/mixed; boundary="===============4788785934654804239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 09 May 2023 23:17:00 -0000
-Message-Id: <168367422071.25698.2299256735449084712@gitolite.kernel.org>
+Date: Tue, 09 May 2023 23:18:24 -0000
+Message-Id: <168367430483.26209.12154833120907064760@gitolite.kernel.org>
 
---===============4162085487267995601==
+--===============4788785934654804239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-current
-    old: 6a8f57ae2eb07ab39a6f0ccad60c760743051026
-    new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-6a8f57ae2eb0-ac9a78681b92.txt
+  - ref: refs/heads/counter-next
+    old: cf3600f2913605052a37ef3e9917046ae13c41f9
+    new: 228354ed692faa08f40f2630658c0771f77da457
+    log: revlist-cf3600f29136-228354ed692f.txt
 
---===============4162085487267995601==
+--===============4788785934654804239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a8f57ae2eb0-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-cf3600f29136-228354ed692f.txt
 
-1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
-2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
-dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
-2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
 ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
 33c890d022f91d7807cc9673f7017b480f64b2cf fbdev: da8xx-fb: Convert to platform remove callback returning void
@@ -1050,5 +1046,9 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
+a4ec431fbf6b9533d2bb21fa328d88c1436106cf counter: 104-quad-8: Remove reference in Kconfig to 25-bit counter value
+5272145d5cccd7cb73a8ce4b0b90c1c6b37a6a66 counter: stm32-timer-cnt: Reset TIM_TISEL to its default value in probe
+6a9a092eb25851e16ecacc04ca2b155635d4e52f tools/counter: Add .gitignore
+228354ed692faa08f40f2630658c0771f77da457 tools/counter: Makefile: Remove lingering 'include' directories on make clean
 
---===============4162085487267995601==--
+--===============4788785934654804239==--
