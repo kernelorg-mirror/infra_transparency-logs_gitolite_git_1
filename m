@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3821415578307750277=="
+Content-Type: multipart/mixed; boundary="===============5877996826449996655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 09 May 2023 11:50:10 -0000
-Message-Id: <168363301045.20039.9583921615066252177@gitolite.kernel.org>
+Date: Tue, 09 May 2023 11:50:53 -0000
+Message-Id: <168363305381.21392.8938133922661774408@gitolite.kernel.org>
 
---===============3821415578307750277==
+--===============5877996826449996655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: ac9a78681b921877518763ba0e89202254349d1b
     log: revlist-fe15c26ee26e-ac9a78681b92.txt
 
---===============3821415578307750277==
+--===============5877996826449996655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============3821415578307750277==--
+--===============5877996826449996655==--
