@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 09 May 2023 08:55:32 -0000
-Message-Id: <168362253285.17615.15816005410926246734@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8743359096943738050=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 09 May 2023 09:01:25 -0000
+Message-Id: <168362288564.21121.2608238165744719020@gitolite.kernel.org>
+
+--===============8743359096943738050==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 1013e49f0921c8a60c30b64b97a54748365a3801
-    new: 4b65f95c87c35699bc6ad540d6b9dd7f950d0924
+  - ref: refs/heads/master
+    old: 086bbf4064322f056a60577966a7f762f423ced6
+    new: 030fbd64ad234dbad1d9b0335578bd5db3bfc5ac
     log: |
-         75e406b540c3eca67625d97bbefd4e3787eafbfe platform/x86/intel-uncore-freq: Return error on write frequency
-         decab2825c3ef9b154c6f76bce40872ffb41c36f platform/x86: hp-wmi: add micmute to hp_wmi_keymap struct
-         0c0cd3e25a5b64b541dd83ba6e032475a9d77432 platform/x86: thinkpad_acpi: Fix platform profiles on T490
-         1684878952929e20a864af5df7b498941c750f45 platform/x86: thinkpad_acpi: Add profile force ability
-         6abfa99ce52f61a31bcfc2aaaae09006f5665495 platform/x86: touchscreen_dmi: Add upside-down quirk for GDIX1002 ts on the Juno Tablet
-         4b65f95c87c35699bc6ad540d6b9dd7f950d0924 platform/x86: touchscreen_dmi: Add info for the Dexp Ursus KX210i
+         030fbd64ad234dbad1d9b0335578bd5db3bfc5ac 4.19-stable patches
          
+
+--===============8743359096943738050==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683622884 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1683622880-303dc411322df910e49ec2c32866c7bfaee35299
+
+086bbf4064322f056a60577966a7f762f423ced6 030fbd64ad234dbad1d9b0335578bd5db3bfc5ac refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRaC+QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nHIQAMsvOU47AtZDFhB6vqGl
+OZV6X4yum9mooQdoJdTIMRthrWPqTKkjb2osp4CuURagH/0UTeJayDbqEeiYcgJe
+W+7UysSF4m8P/SwB2hGWcRgs/9qo7KQoO2/YY6JXeX7YC9i9vlvTfmiPVMsRi+0U
+NauEC1gQtn3PBcwOJSN1dmlwnRCl6zY3NpuHoNGDoAWetoSgwBHZYBUiWLK3CPLt
+bNzxPu2cSKqmuDmQ4P0h0uEAzcR25L9BNpyLBczAZgkuMnUFawndYUFahtmRiPd0
+zSidhRYRjgmcamWOwLc+uGUNPzJuhNwbkSmRj0j+75trfCLc2kHSVcfco8KWTYt0
+r0pLeXZ+WhU+ViPIzI90BsiVsKbt5xBtTlgcarl+lZZ41jIQIF7Lr3dsyqokbXdq
+HIvhXUNYmrdxcTzD1+CFQOxxTqYDRlIfIokrc9jPyreg3i1+tK0i8/X8oQX+6YKY
+OX93487fHoxNvkwW2rykSjgkv0RqvgiOz7p6FKAE5Fkf6ID0c1rMcyY+DeTsc4PD
+IPiENjQuExFNmlareJ7E74CWlm6WdKDM1/f4p8fOk09+ZRwytxGIXy3tyg3jyLbC
+jUBSc1H+meKBJJiJ7+kNLNSNr07ZApQi2zAulkqaEs2Qn+5G/gSUxgqVpxZmlsml
+m8/TJ8qX+RofRr7LUSajfX4G
+=1hSR
+-----END PGP SIGNATURE-----
+
+--===============8743359096943738050==--
