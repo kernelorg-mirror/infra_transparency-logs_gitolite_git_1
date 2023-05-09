@@ -1,16 +1,75 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 09 May 2023 06:35:10 -0000
-Message-Id: <168361411098.19554.16459213549772811245@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7893963613202706183=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 09 May 2023 06:36:30 -0000
+Message-Id: <168361419064.20012.7960656666905211659@gitolite.kernel.org>
+
+--===============7893963613202706183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20230503_angelogioacchino_delregno_asoc_mediatek_mt8195_86_cleanups
-    old: 863da1c17616e45f1472370892b6c925cee27e24
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.5
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 5782f019948e40f8bf67e87b40d549924a69d23c
+    log: revlist-ac9a78681b92-5782f019948e.txt
+
+--===============7893963613202706183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1683614188 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1683614186-b50765515977f9995efb9a92d9aa0d0f6bf3a656
+
+ac9a78681b921877518763ba0e89202254349d1b 5782f019948e40f8bf67e87b40d549924a69d23c refs/heads/for-6.5
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRZ6ewTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0PFQB/9U2Y3chSOrKr4l2Vnus1VMS57Lh1Cv
+68iptOOEl427m10KIMguv1sea8AnZJSV7JcgbLxSlEr+rxJ0KIZWw+vd1lgxZnV+
+EFwkvK6NBSwFF1ZitY2yNKcoE8oNg9bn3HMEKXhqXCS4vZNekm/6zn/gstt8gW8h
+xFt+Rqy3WmyvKMId85C9sltwl942p5HxacUxrjw7k7ODFkSRs+BXRSDdhovYYySZ
+0UB66nc6EcSQdo/gims6jUayRsF7432Qkro3lRbKOqyXgH6/nccaJLLo8rOUVB0N
+MTJiNc8BUPBwDVwKeszAn+PVjQ7xFO6T78RvJFBmqr4hu4m5h1zyF6Ha
+=rjd7
+-----END PGP SIGNATURE-----
+
+--===============7893963613202706183==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-5782f019948e.txt
+
+06ba8020287f43fc13962b158d8dec2689448a5a ASoC: SOF: mediatek: mt8195: Use snd_sof_ipc_process_reply() helper
+709f34b41ceffedec17d1150018cf62f8ea95842 ASoC: SOF: mediatek: mt8186: Use snd_sof_ipc_process_reply() helper
+686d041685639493a608bdcdb0d00551796721c9 ASoC: mediatek: mt8195-afe-pcm: Clean up unnecessary functions
+2ca0ec01d49c9c2742c2151ae94c94bdf36bb1b8 ASoC: mediatek: mt8195-afe-pcm: Simplify runtime PM during probe
+863da1c17616e45f1472370892b6c925cee27e24 ASoC: mediatek: mt8195-afe-pcm: Simplify with dev_err_probe()
+c00018cadfbf07b95d10b0e152c4edd7d5d19779 ASoC: dwc: add optional reset support
+12b99ec3b9b6349a38223cf4d13818cb5cbdcd46 ASoC: dt-bindings: designware-i2s: add optional resets
+50f655429957702302c91835d84a03b9672862c2 ASoC: rt715: Use maple tree register cache
+853a954bf506c42c91b2d2b0d57be891a659ee5a ASoC: dt-bindings: google,sc7180-trogdor: allow up to four codec DAIs
+e09eb6ac4170ba3b46c642b4a88480376febbff1 ASoC: dt-bindings: More dropping unneeded quotes
+582ed3162de0fb64f2ce5139a5bb49ee06ddd99c ASoC: rt5682: Use a maple tree based register cache
+7f2a9750d9d9eeb0b2b4bbc417e96e852365937b ASoC: dwc: extend supported formats
+501c2825008e72a312ca46fa2d9ea3773bceabe2 ASoC: amd: ps: Update copyright notice
+9abcd24002bf7997be752b6b48b137c4db3a609b ASoC: Switch i2c drivers back to use .probe()
+ec54f8103dd601ca0b540790896262c12fda965a ASoC: amd: ps: remove the register read and write wrappers.
+ea79b0a663f7bade8664d9ba5017019fc96b91f8 ASoC: amd: ps: refactor acp power on and reset functions.
+0f0d70c2881f8c28e6d449349e057963a742f842 ASoC: dt-bindings: nau8540: Convert to dtschema
+101b23830d3c26e9549274d16e8d4542c8bce4af ASoC: codecs: wcd938x: Remove unneeded semicolon
+3e4a826129980fed0e3e746a7822f2f204dfc24a ASoC: fsl_sai: MCLK bind with TX/RX enable bit
+5782f019948e40f8bf67e87b40d549924a69d23c ASoC: MediaTek MT8195/86 Cleanups
+
+--===============7893963613202706183==--
