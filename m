@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4325167511657919990=="
+Content-Type: multipart/mixed; boundary="===============0415289861339466114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 09 May 2023 20:07:52 -0000
-Message-Id: <168366287238.29517.8880024813853873561@gitolite.kernel.org>
+Date: Tue, 09 May 2023 20:08:01 -0000
+Message-Id: <168366288155.29664.461566659228082547@gitolite.kernel.org>
 
---===============4325167511657919990==
+--===============0415289861339466114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
+  - ref: refs/heads/for-next
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 47f64e7ef95a58e5c56f2ec62cbadbe868661149
     log: revlist-ac9a78681b92-47f64e7ef95a.txt
 
---===============4325167511657919990==
+--===============0415289861339466114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ b8b87e8819f428385c95c3dcd8385113133d60c4 remoteproc: st: Convert to platform rem
 52ca331bb75661d3f9890f82a4ea9ee0e28df666 remoteproc: wkup_m3: Convert to platform remove callback returning void
 47f64e7ef95a58e5c56f2ec62cbadbe868661149 remoteproc: imx_dsp_rproc: use modern pm_ops
 
---===============4325167511657919990==--
+--===============0415289861339466114==--
