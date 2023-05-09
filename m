@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7746988718638884793=="
+Content-Type: multipart/mixed; boundary="===============6427680747104494393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 09 May 2023 08:52:49 -0000
-Message-Id: <168362236957.15021.887596141082151876@gitolite.kernel.org>
+Date: Tue, 09 May 2023 08:53:17 -0000
+Message-Id: <168362239701.15247.402068922112915725@gitolite.kernel.org>
 
---===============7746988718638884793==
+--===============6427680747104494393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 8a05f5cccdbe851265bf513643ada48c26b1267f
     new: ac9a78681b921877518763ba0e89202254349d1b
     log: revlist-8a05f5cccdbe-ac9a78681b92.txt
 
---===============7746988718638884793==
+--===============6427680747104494393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============7746988718638884793==--
+--===============6427680747104494393==--
