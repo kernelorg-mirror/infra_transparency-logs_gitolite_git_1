@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 09 May 2023 14:34:48 -0000
-Message-Id: <168364288821.30339.8478946432934994015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 09 May 2023 14:50:04 -0000
+Message-Id: <168364380406.9104.8254267001002186553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/gpio-irq
-    old: e731c298e55b96e913ef1f5c9860dc5474353a55
-    new: 6ef4b8fad90b5bae682bd4b88b807f2a38822fe8
+  - ref: refs/heads/for-next
+    old: b2e48bd0dba83f0dd077291a9ca45af01a356417
+    new: aff46c374c820b5af75de5454ea0e9837040e555
     log: |
-         6ef4b8fad90b5bae682bd4b88b807f2a38822fe8 dt-bindings: gpio: fix microchip,mpfs-gpio interrupt descriptions
+         293007b033418c8c9d1b35d68dec49a500750fde io_uring: make io_uring_sqe_cmd() unconditionally available
+         aff46c374c820b5af75de5454ea0e9837040e555 Merge branch 'io_uring-6.4' into for-next
+         
+  - ref: refs/heads/io_uring-6.4
+    old: 5d371b2f2b0d1a047582563ee36af8ffb5022847
+    new: 293007b033418c8c9d1b35d68dec49a500750fde
+    log: |
+         293007b033418c8c9d1b35d68dec49a500750fde io_uring: make io_uring_sqe_cmd() unconditionally available
          
