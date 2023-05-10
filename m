@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0109185389935781507=="
+Content-Type: multipart/mixed; boundary="===============1041224696587068393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Wed, 10 May 2023 17:35:47 -0000
-Message-Id: <168374014709.28283.11606025312210209154@gitolite.kernel.org>
+Date: Wed, 10 May 2023 17:36:16 -0000
+Message-Id: <168374017687.28509.14201925308517160081@gitolite.kernel.org>
 
---===============0109185389935781507==
+--===============1041224696587068393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/dev-queue
     old: 8451c2b1d529dc1a49328ac9235d3cf5bb8a8fcb
-    new: 6c9e0ed5362ff9fd74c11a2b9552a9223371f04a
-    log: revlist-8451c2b1d529-6c9e0ed5362f.txt
+    new: c200f8c9360b9e7bba9a9340483597885f71f698
+    log: revlist-8451c2b1d529-c200f8c9360b.txt
 
---===============0109185389935781507==
+--===============1041224696587068393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8451c2b1d529-6c9e0ed5362f.txt
+Content-Disposition: attachment; filename=revlist-8451c2b1d529-c200f8c9360b.txt
 
 2c6be1a4f0d0fadb103b72af2242fd3732337d6f qca: Update firmware files for BT chip WCN6750
 507ee862c591b8bb6b0ad64559e814b83591674c Merge branch 'main' of github.com:sampathnimmmala/bt_firmware
@@ -47,5 +47,6 @@ dee0d4cdf195d3294c1ed2be07a1745be0084ba6 rtl_bt: Update RTL8761B BT UART firmwar
 c4423c9147d6147b85568a758d0719659f62e753 WHENCE: comment out duplicate MediaTek firmware
 05183b7bd5593edec62018c30dd52b9603df0368 check_whence: error on duplicate file entries
 6c9e0ed5362ff9fd74c11a2b9552a9223371f04a check_whence: error on directory listed as File
+c200f8c9360b9e7bba9a9340483597885f71f698 ice: update ice DDP comms package to 1.3.40.0
 
---===============0109185389935781507==--
+--===============1041224696587068393==--
