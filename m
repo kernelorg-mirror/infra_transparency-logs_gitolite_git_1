@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 10 May 2023 01:39:21 -0000
-Message-Id: <168368276102.26885.1363055945031184937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 10 May 2023 02:43:37 -0000
+Message-Id: <168368661719.4001.10422701739951027028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: b209c439a27fc8ba13c9403c96b84c78ccfe9891
+  - ref: refs/heads/main
+    old: 162bd18eb55adf464a0fa2b4144b8d61c75ff7c2
+    new: 8efbdbfa99381a017dd2c0f6375a7d80a8118b74
     log: |
-         7fcc395a6b2142712f3d0eda8ce6302fcf71809e binfmt_elf_fdpic: support 64-bit systems
-         afc84ad12e8534d1d7ed9d98f9de8ed96d802e05 riscv: support the elf-fdpic binfmt loader
-         b209c439a27fc8ba13c9403c96b84c78ccfe9891 Merge patch series "riscv: support ELF format binaries in nommu mode"
+         8efbdbfa99381a017dd2c0f6375a7d80a8118b74 net: stmmac: Initialize MAC_ONEUS_TIC_COUNTER register
          
