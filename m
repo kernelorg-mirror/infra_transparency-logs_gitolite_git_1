@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 May 2023 09:25:17 -0000
-Message-Id: <168371071789.13141.10729026136083484345@gitolite.kernel.org>
+Date: Wed, 10 May 2023 09:26:08 -0000
+Message-Id: <168371076883.13449.1304154887107350021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: d0ac89f6f9879fae316c155de77b5173b3e2c9c9
-    new: 43fb622d91a9f408322735d2f736495c1009f575
+    old: 43fb622d91a9f408322735d2f736495c1009f575
+    new: 4063384ef762cc5946fc7a3f89879e76c6ec51e2
     log: |
-         43fb622d91a9f408322735d2f736495c1009f575 net: pcs: xpcs: fix incorrect number of interfaces
+         4063384ef762cc5946fc7a3f89879e76c6ec51e2 net: add vlan_get_protocol_and_depth() helper
          
