@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 10 May 2023 17:50:09 -0000
-Message-Id: <168374100926.6131.6672857217507891072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Wed, 10 May 2023 17:51:27 -0000
+Message-Id: <168374108756.7843.5262901954981028319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/dev.2023.05.10a
+  - ref: refs/heads/kvm-arm64/ampere1-hafdbs-mitigation
     old: 0000000000000000000000000000000000000000
-    new: fc22bfe350057e6860378e15f3bdbd58bfd40350
+    new: c43eff5e26c08c15ae982d58b1513e3aafd92eaa
