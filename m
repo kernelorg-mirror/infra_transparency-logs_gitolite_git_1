@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2250362679950508497=="
+Content-Type: multipart/mixed; boundary="===============2260945151742764386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 10 May 2023 03:08:00 -0000
-Message-Id: <168368808095.21201.10495562889203368637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 10 May 2023 03:08:10 -0000
+Message-Id: <168368809097.21376.6704887423981299121@gitolite.kernel.org>
 
---===============2250362679950508497==
+--===============2260945151742764386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 47cba14ce6fc4f314bd814d07269d0c8de1e4ae6
     new: 578215f3e21c472c08d70b8796edf1ac58f88578
     log: revlist-47cba14ce6fc-578215f3e21c.txt
-  - ref: refs/heads/pending-fixes
-    old: b95366eba58e884eaf149d8b6b3a7235fbf58501
-    new: 16fe96af49719266b3b2293273c3e4a254a95362
-    log: revlist-b95366eba58e-16fe96af4971.txt
-  - ref: refs/heads/stable
-    old: ba0ad6ed89fd5dada3b7b65ef2b08e95d449d4ab
-    new: 16a8829130ca22666ac6236178a6233208d425c3
-    log: revlist-ba0ad6ed89fd-16a8829130ca.txt
-  - ref: refs/tags/next-20230210
-    old: eb2d75321ac73aad1d6ddc70f8d69b7f5f5dfd3a
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230510
     old: 0000000000000000000000000000000000000000
     new: 302c438ba94c57805b9f60e3b943252ed337a1d2
 
---===============2250362679950508497==
+--===============2260945151742764386==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -460,87 +449,4 @@ d4f4f7b6d60b95b1a4d9188dfc748e89bc29b589 Merge branch 'for-next' of git://git.ke
 ced190cdbbc8c5708c18e71174ccf9f6880b1fac Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
 578215f3e21c472c08d70b8796edf1ac58f88578 Add linux-next specific files for 20230510
 
---===============2250362679950508497==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b95366eba58e-16fe96af4971.txt
-
-17955aba7877a4494d8093ae5498e19469b01d57 ASoC: fsl_micfil: Fix error handler with pm_runtime_enable
-4a9b6850c794e4394cad99e2b863d75f5bc8e92f platform/x86: intel_scu_pcidrv: Add back PCI ID for Medfield
-051d71e073614a72ad423d6dacba37a7eeff274d ASoC: SOF: amd: Fix NULL pointer crash in acp_sof_ipc_msg_data function
-8bbec86ce6d66fb33530c679f7bb3a123fc9e7da dt-bindings: PCI: fsl,imx6q: fix assigned-clocks warning
-c4af8e3fecd03b0aedcd38145955605cfebe7e3a thunderbolt: Clear registers properly when auto clear isn't in use
-44c524b642996148a8e94f1a1b8751076edcf577 power: supply: Fix power_supply_get_battery_info() if parent is NULL
-75e406b540c3eca67625d97bbefd4e3787eafbfe platform/x86/intel-uncore-freq: Return error on write frequency
-decab2825c3ef9b154c6f76bce40872ffb41c36f platform/x86: hp-wmi: add micmute to hp_wmi_keymap struct
-0c0cd3e25a5b64b541dd83ba6e032475a9d77432 platform/x86: thinkpad_acpi: Fix platform profiles on T490
-1684878952929e20a864af5df7b498941c750f45 platform/x86: thinkpad_acpi: Add profile force ability
-6abfa99ce52f61a31bcfc2aaaae09006f5665495 platform/x86: touchscreen_dmi: Add upside-down quirk for GDIX1002 ts on the Juno Tablet
-4b65f95c87c35699bc6ad540d6b9dd7f950d0924 platform/x86: touchscreen_dmi: Add info for the Dexp Ursus KX210i
-162bd18eb55adf464a0fa2b4144b8d61c75ff7c2 linux/dim: Do nothing if no time delta between samples
-003fb0a51162d940f25fc35e70b0996a12c9e08a mmc: block: ensure error propagation for non-blk
-e5bce3c15ad20d7dd4f8393513b1c41373d2dc37 mmc: sdhci-cadence: Fix an error handling path in sdhci_cdns_probe()
-3d43f9f639542fadfb28f40b509bf147a6624d48 platform/mellanox: fix potential race in mlxbf-tmfifo driver
-81dce1490e28439c3cd8a8650b862a712f3061ba mmc: sdhci-esdhc-imx: make "no-mmc-hs400" works
-64c5a96dba886dd72646523459dd2b287e8afbdc SUNRPC: double free xprt_ctxt while still in use
-48e2e2f7fcfd9ebc08e4971662aa513b7855fef4 SUNRPC: always free ctxt when freeing deferred request
-1dc3731daf1f350cfd631b5559aac865ab2fbb4c Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-16a8829130ca22666ac6236178a6233208d425c3 nfs: fix another case of NULL/IS_ERR confusion wrt folio pointers
-c87f318e6f47696b4040b58f460d5c17ea0280e6 btrfs: print-tree: parent bytenr must be aligned to sector size
-0004ff15ea26015a0a3a6182dca3b9d1df32e2b7 btrfs: fix space cache inconsistency after error loading it from disk
-0cad8f14d70cfeb5173dce93cafeba665a95430e btrfs: fix backref walking not returning all inode refs
-b05999d8cdb2308e8e83c34fd7e9a3f1b3c834dd Merge branch 'misc-6.4' into next-fixes
-73a23d7710331a530e972903318528b75e5a5f58 um: harddog: fix modular build
-c9e88e4317cdf60b785d3d7cb0f65f13b422a868 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-7cb83200ba32bdf7ddc4a040d933446ff47392e8 Merge branch 'fixes' of git://git.armlinux.org.uk/~rmk/linux-arm.git
-4966d52eae0cd46995f26c6b31de0604a3e4b04b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-e2e724ca3b0cc4549f0d003b42c3b734e4dc20b3 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-fc50943af26d5835267f28257ea744d237905a94 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-84471d8a55db629c159204c3f467347180d2fdd4 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-363a7b33b972b2b54c1e9890ff1fc5ef55d022c6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-7473ab3acba73bee2d63ae733e10fcdd72ab6b9a Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan.git
-15d3b42c1311ae3c27865f7b6859cf84b541b4c9 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-20939f31f28e75509e88b6c0d99386650eb64696 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-4817c2592811bdcb44873a7288308148be43830a Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-009f1f442330e91003be03f4922137b7e11a6ae9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-e457c612fed65dacc08dfa080bd1ebc9775413f0 Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
-e7dce66eaeb8ef87c29d7ff1d387689814a9d5b3 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-e74d9cf7e68d652fd425e79d522d9e6ac631327e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
-7ca62653ea058398b92fcb6a7b623369aaea1679 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-c331314b51e449df184ba6507c4a9bd688f5f45b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-f93ae827ca305644d844fed733be36598b52659b Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-68041b7adda2e2ae0e5a6c499d87b2d1c17e0a7c Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-03b65ad867cfbebb1183f5f3f2015f43aa0160f8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-1024581a20055c85d84b2c81e843b505de7c6248 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt.git
-fca6f6a3318003aa6163652dd67523a3cb3b1b69 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-52747bec16e3cc8f0d2260829ee13ceff4c1dc6e Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-9bf50ca05fe5bdd186ce435d05cebade5a51b12a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-afb2db4d695d8742878ec6c84d79abdd7daef214 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-9658402b4663b33cbe70f38c4bbb56afa04bb2ea Merge branch 'riscv-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-0cc5e72883c0b4bceee602f14cf2245ea8553a30 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga.git
-8ead44443ab3e861e5549094941588c202c92ec4 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-608da4a12d2e46893687844f9c52f76c340f3b86 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-916e4d42bf1673d83e9df393b627bad7a4434472 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux.git
-f10db8705e5c803c146a9e27b0b1e7cced65288d Merge branch 'fixes/next' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
-16fe96af49719266b3b2293273c3e4a254a95362 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============2250362679950508497==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba0ad6ed89fd-16a8829130ca.txt
-
-6f932d4ef007d6a4ae03badcb749fbb8f49196f6 btrfs: fix btrfs_prev_leaf() to not return the same key twice
-ac868bc9d136cde6e3eb5de77019a63d57a540ff btrfs: fix assertion of exclop condition when starting balance
-611ccc58e1f2ccd4a85258a646d5f9b4d5b1b4f6 btrfs: fix leak of source device allocation state after device replace
-9ae5afd02a03d4e22a17a9609b19400b77c36273 btrfs: abort transaction when sibling keys check fails for leaves
-a2cea677db6099d71c9f70de7f907d3d7e6bec3b btrfs: print extent buffers when sibling keys check fails
-64b5d5b2852661284ccbb038c697562cc56231bf btrfs: properly reject clear_cache and v1 cache for block-group-tree
-631003e2333c12cc1b52df06a707365b7363a159 btrfs: zoned: fix wrong use of bitops API in btrfs_ensure_empty_zones
-e7db9e5c6b9615b287d01f0231904fbc1fbde9c5 btrfs: fix encoded write i_size corruption with no-holes
-d246331b78cbef86237f9c22389205bc9b4e1cc1 btrfs: don't free qgroup space unless specified
-1dc3731daf1f350cfd631b5559aac865ab2fbb4c Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-16a8829130ca22666ac6236178a6233208d425c3 nfs: fix another case of NULL/IS_ERR confusion wrt folio pointers
-
---===============2250362679950508497==--
+--===============2260945151742764386==--
