@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9097704968141277515=="
+Content-Type: multipart/mixed; boundary="===============6950107857968127090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 10 May 2023 17:45:14 -0000
-Message-Id: <168374071494.2623.18202914636603894874@gitolite.kernel.org>
+Date: Wed, 10 May 2023 17:45:51 -0000
+Message-Id: <168374075104.2878.12277406852280862748@gitolite.kernel.org>
 
---===============9097704968141277515==
+--===============6950107857968127090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 94e86ef1b801d213dfb8543633dec86abb1a457d
-    new: 059fa492027e99c167f4c53822c0900ca9bc254a
-    log: revlist-94e86ef1b801-059fa492027e.txt
+  - ref: refs/heads/dev-queue
+    old: b4ab12b7509a04d0a7b1d40a4039a658f6d266ee
+    new: c8dcb5eb76ea407eaf76f60fbe2673b536b80f5c
+    log: revlist-b4ab12b7509a-c8dcb5eb76ea.txt
 
---===============9097704968141277515==
+--===============6950107857968127090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94e86ef1b801-059fa492027e.txt
+Content-Disposition: attachment; filename=revlist-b4ab12b7509a-c8dcb5eb76ea.txt
 
 a731a43e8669a0b430c79a3e38890c27a5847a76 nfp: improve link modes reading process
 559ae55cfc334c91c62d2ea054a3345611363ee0 net: skbuff: remove special handling for SLOB
@@ -68,5 +68,39 @@ af8eacf2b42e0a736a7a2a1379fb6c0b7fd66da4 net: stmmac: xgmac: add ethtool per-que
 bd9424efc4825ecfc84cd81be777df71ba4404d1 macsec: Use helper macsec_netdev_priv for offload drivers
 6096bc0555726c1cdded8486d8800cd4d81eb764 net: liquidio: lio_vf_main: Remove unnecessary (void*) conversions
 059fa492027e99c167f4c53822c0900ca9bc254a sctp: fix a potential OOB access in sctp_sched_set_sched()
+3991878008ec16e071d0aee03cc9e2a6445faee3 ice: Support 5 layer topology
+a1e01531f288ffb5d8f022cb4eec1caf8839c837 ice: Adjust the VSI/Aggregator layers
+cbe6c0952052142a68688bf50122afcc05b4c763 ice: Enable switching default tx scheduler topology
+20f035e4387bec718f18f4b4acfc896128060901 ice: Add txbalancing devlink param
+1ff052ece4c6d4b8415de96ad51b364c03c65b33 ice: Document txbalancing parameter
+1a9d0048b003486d3eb7844a01dd4173ad546b4c ice: move interrupt related code to separate file
+40ce965bc81742ddb9af60baf0c9132e11363b0e ice: use pci_irq_vector helper function
+5d4329f16de8a879f9720fdf2dde388dae255be8 ice: use preferred MSIX allocation api
+92aff24ec0bb6c19d19f8ed61711b2e126209550 ice: refactor VF control VSI interrupt handling
+577e280f42b3f0552a725002541c65549c566503 ice: remove redundant SRIOV code
+6b15cdf5f372d54a2e14c3b70a07c760e7fddd8b ice: add individual interrupt allocation
+1e892283bb900d1a118a36509c5fc08d121f044f ice: track interrupt vectors with xarray
+9686290b37e13c536c79a0bdff1a98614b6fa7df ice: add dynamic interrupt allocation
+958fc719abed39d4ca190a33066db3175feeced8 ice: define meta data to match in switch
+1b460d652e4a4aacd1da24e283f149e3beb4e215 ice: remove redundant Rx field from rule info
+f35ad14251cba5cc8db7eb2bfa351a4d3326c596 ice: specify field names in ice_prot_ext init
+c6e6f6a29fb69153e3d24d78f62632af2dc3a359 ice: allow matching on meta data
+f84a52eded8d068fa3f06d1e799c0619a63e3ec7 ice: use src VSI instead of src MAC in slow-path
+16140faadd0f715dd9e1467ce9721799aab98b85 igc: Clean the TX buffer and TX descriptor ring
+242e3e6eab7bae9905d30e886f2e88d5a1d46045 iavf: send VLAN offloading caps once after VFR
+d0b98c9cb0626550d6af5965f3b9e69f15cbce00 ice: Fix stats after PF reset
+0ab6a249f2660ff52222ccaa2db24fe66ab31f71 igc: Fix possible system crash when loading module
+3acec5027e13b2bf6735c06ac31c470fe8b7dfa7 ice: Fix ice VF reset during iavf initialization
+ca76f4c53c442aa873d32ff0c95ef98bfe1f49a8 igc: Avoid transmit queue timeout for XDP
+0969de38f7469ae5eb0ab9ac6694d243959d348e igb: fix nvm.ops.read() error handling
+34fbc2911978ef4b02ffc482d0e38448f5f49bac igb: fix bit_shift to be in [1..8] range
+d960b94e073499c1a15ec854fd7c169d686d6f29 i40e: add PHY debug register dump
+7621de63b6721e12443211ed649e1b0e8cf58b3b ice: Fix undersized tx_flags variable
+c2832c0f389d1aa63634714660194f59f2e84fb8 ice: update ICE_PHY_TYPE_HIGH_MAX_INDEX
+c1b9f4bff4eca12dc1ad89e3050ba91ee2021b41 ice: refactor PHY type to ethtool link mode
+5e316fd8b6f0ba1cd95d4c5fab80778f71162bf0 ice: update PHY type to ethtool link mode mapping
+a8ced012e9d315bb05ec2242565216f20738a416 igb: Define igb_pm_ops conditionally on CONFIG_PM
+7f65787fd5bd5ba3c12695a3ab94e445d7239f81 iavf: remove mask from iavf_irq_enable_queues()
+c8dcb5eb76ea407eaf76f60fbe2673b536b80f5c ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
 
---===============9097704968141277515==--
+--===============6950107857968127090==--
