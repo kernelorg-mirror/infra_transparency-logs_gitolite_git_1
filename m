@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3637971603542571153=="
+Content-Type: multipart/mixed; boundary="===============7351013362474409836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 10 May 2023 13:58:25 -0000
-Message-Id: <168372710502.12492.7285773719537177413@gitolite.kernel.org>
+Date: Wed, 10 May 2023 13:59:41 -0000
+Message-Id: <168372718128.12990.13791996487141220973@gitolite.kernel.org>
 
---===============3637971603542571153==
+--===============7351013362474409836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-amd64
-    old: 49aba1c5896b745a093318914f3fd128f5c9191e
+  - ref: refs/heads/edac-for-next
+    old: d6c5e688899b09dc8c17c665c403cdc23de220f3
     new: b34348a0d7c513f78c70f4459a99c991f43688d5
-    log: revlist-49aba1c5896b-b34348a0d7c5.txt
+    log: revlist-d6c5e688899b-b34348a0d7c5.txt
 
---===============3637971603542571153==
+--===============7351013362474409836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49aba1c5896b-b34348a0d7c5.txt
+Content-Disposition: attachment; filename=revlist-d6c5e688899b-b34348a0d7c5.txt
 
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
@@ -1051,4 +1051,4 @@ f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-0
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 b34348a0d7c513f78c70f4459a99c991f43688d5 EDAC/amd64: Remove module version string
 
---===============3637971603542571153==--
+--===============7351013362474409836==--
