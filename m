@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 May 2023 09:31:01 -0000
-Message-Id: <168371106172.16678.3946477077789132234@gitolite.kernel.org>
+Date: Wed, 10 May 2023 09:31:59 -0000
+Message-Id: <168371111931.17036.12964950251546719389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e14cadfd80d76f01bfaa1a8d745b1db19b57d6be
-    new: f4c2e67c1773d2a2632381ee30e9139c1e744c16
+    old: f4c2e67c1773d2a2632381ee30e9139c1e744c16
+    new: 77c964dad99a182a3df6add8bad73aca1be59890
     log: |
-         f4c2e67c1773d2a2632381ee30e9139c1e744c16 gve: Remove the code of clearing PBA bit
+         77c964dad99a182a3df6add8bad73aca1be59890 docs: networking: fix x25-iface.rst heading & index order
          
