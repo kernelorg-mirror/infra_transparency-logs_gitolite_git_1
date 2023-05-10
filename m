@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6528465367302422274=="
+Content-Type: multipart/mixed; boundary="===============6713287366809193737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 May 2023 13:20:11 -0000
-Message-Id: <168372481184.19186.428326944176947648@gitolite.kernel.org>
+Date: Wed, 10 May 2023 13:21:37 -0000
+Message-Id: <168372489721.20973.7620484038042324611@gitolite.kernel.org>
 
---===============6528465367302422274==
+--===============6713287366809193737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 6a8f57ae2eb07ab39a6f0ccad60c760743051026
-    new: 0019a2d4b7e37a983d133d42b707b8a3018ae6f4
-    log: revlist-6a8f57ae2eb0-0019a2d4b7e3.txt
+  - ref: refs/heads/locking/urgent
+    old: db370a8b9f67ae5f17e3d5482493294467784504
+    new: 92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b
+    log: revlist-db370a8b9f67-92cc5d00a431.txt
 
---===============6528465367302422274==
+--===============6713287366809193737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a8f57ae2eb0-0019a2d4b7e3.txt
+Content-Disposition: attachment; filename=revlist-db370a8b9f67-92cc5d00a431.txt
 
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
@@ -1049,6 +1049,6 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-0019a2d4b7e37a983d133d42b707b8a3018ae6f4 sched: fix cid_lock kernel-doc warnings
+92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b locking/rwsem: Add __always_inline annotation to __down_read_common() and inlined callers
 
---===============6528465367302422274==--
+--===============6713287366809193737==--
