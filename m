@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
-Date: Wed, 10 May 2023 19:14:10 -0000
-Message-Id: <168374605096.28816.16260095231294491303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 10 May 2023 19:15:34 -0000
+Message-Id: <168374613477.30890.13664422700620827745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hansg/linux
-user: hansg
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/media-atomisp
-    old: 6ddbf061ac122062a6a092de56dc4dc14b8855d2
-    new: 4f6dfa02b9bdc92894e9839c785a8d5ea351fd3d
+  - ref: refs/heads/tmp.perf-tools
+    old: bfd431cb2c68cbaec7a27b8a979d031f8501301b
+    new: 760ebc45746b498a36332acefd9e2838a3f8fcf0
     log: |
-         d5bca09a63532719ec80d6f654509651f0f35c58 staging: media: atomisp: sh_css: Remove #ifdef ISP2401
-         12226eab52c29819b6d9a310da56b0f6d6f5e759 staging: media: atomisp: runtime: frame: remove #ifdef ISP2401
-         5bbbe548d03fefbb3fb2bbe60022768421ce2728 staging: media: atomisp: sh_css_sp: Remove #ifdef ISP2401
-         48f449cf1da4664ab254798bd4191c9359b39511 staging: media: atomisp: sh_css_firmware: determine firmware version at runtime
-         4f6dfa02b9bdc92894e9839c785a8d5ea351fd3d staging: media: atomisp: sh_css_mipi: Remove #ifdef ISP2401
+         760ebc45746b498a36332acefd9e2838a3f8fcf0 perf lock contention: Add empty 'struct rq' to satisfy libbpf 'runqueue' type verification
          
