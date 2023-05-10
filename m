@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 May 2023 09:03:46 -0000
-Message-Id: <168370942656.29954.3429845261547337794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 10 May 2023 09:06:56 -0000
+Message-Id: <168370961688.32506.17149956180948289807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e05a5f510f26607616fecdd4ac136310c8bea56b
-    new: d0ac89f6f9879fae316c155de77b5173b3e2c9c9
+    old: 5e316a818e75c585dc7b601e8b51823a4059d408
+    new: 2f0f556713f08515f3017fd35309b1f00fbc8932
     log: |
-         d0ac89f6f9879fae316c155de77b5173b3e2c9c9 net: deal with most data-races in sk_wait_event()
+         2f0f556713f08515f3017fd35309b1f00fbc8932 selftests: bonding: delete unnecessary line
          
