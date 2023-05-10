@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 10 May 2023 05:56:38 -0000
-Message-Id: <168369819845.4311.10784342151313174698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
+Date: Wed, 10 May 2023 06:20:49 -0000
+Message-Id: <168369964952.20612.314855035186564651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
+user: glaubitz
 changes:
-  - ref: refs/heads/testing
-    old: cf3128a7aca55b2eefb68281d44749c683bdc96f
-    new: 8680407b6f8f5fba59e8f1d63c869abc280f04df
+  - ref: refs/heads/for-next
+    old: 7ae6521b12b0271adda377f09d39789c82fc841a
+    new: bc9d1f0cecd2407cfb2364a7d4be2f52d1d46a9d
     log: |
-         8680407b6f8f5fba59e8f1d63c869abc280f04df xfrm: Check if_id in inbound policy/secpath match
+         bc9d1f0cecd2407cfb2364a7d4be2f52d1d46a9d sh: j2: Use ioremap() to translate device tree address into kernel memory
          
