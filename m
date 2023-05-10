@@ -1,37 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 10 May 2023 08:51:15 -0000
-Message-Id: <168370867559.22835.3700646170873581322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 10 May 2023 08:57:54 -0000
+Message-Id: <168370907420.26366.7399786944173685767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master-pending
-    old: a02d616f5898e6e96d4c73aa760461250464b73c
-    new: aa87ead8115eafa38d7ce061fbcf12eba2548300
+  - ref: refs/heads/main
+    old: 9d142ed484a3d517e779fc3c16028a720762643f
+    new: 5e316a818e75c585dc7b601e8b51823a4059d408
     log: |
-         be312ce047984b188a5f3d9dd78031369225f775 wifi: ath12k: increase vdev setup timeout
-         5a478069731bca12d7af03e5d2d6ca0a9c906755 wifi: ath12k: Add support to parse new WMI event for 6 GHz regulatory
-         e3fd9d322448ee29c65a30e9bedaed222d7548b9 wifi: ath11k: Relocate the func ath11k_mac_bitrate_mask_num_ht_rates() and change hweight16 to hweight8
-         b7c3ee0ddc2bf3ecf511793aa55622a9aa62e420 wifi: ath11k: Send HT fixed rate in WMI peer fixed param
-         6abd13f3085fa5bbcf5f8e1236c48d57b6163626 wifi: ath12k: Use msdu_end to check MCBC
-         aa87ead8115eafa38d7ce061fbcf12eba2548300 Merge branch 'pending' into master-pending
+         81ac2722fa198fbfac62575259cf85163f3eeef0 net: ipconfig: Allow DNS to be overwritten by DHCPACK
+         011be872643446a9b7c4485cfc8b5f50b0f93a13 net: lan966x: Add ES0 VCAP model
+         96b6c8a662a39a9ce3a0dac929e23c8a8d454f37 net: lan966x: Add ES0 VCAP keyset configuration for lan966x
+         85f050002ba99150168078adab6d0f38c0463494 net: lan966x: Add TC support for ES0 VCAP
+         65718c4d5266d22dd23c1d9d63a01acaa1b0805d Merge branch 'lan966x-es0-vcap'
+         5e316a818e75c585dc7b601e8b51823a4059d408 net: veth: make PAGE_POOL_STATS optional
          
-  - ref: refs/heads/pending
-    old: 507ae7ab845e8683e0d44dff54207c80608b958e
-    new: 6abd13f3085fa5bbcf5f8e1236c48d57b6163626
-    log: |
-         be312ce047984b188a5f3d9dd78031369225f775 wifi: ath12k: increase vdev setup timeout
-         5a478069731bca12d7af03e5d2d6ca0a9c906755 wifi: ath12k: Add support to parse new WMI event for 6 GHz regulatory
-         e3fd9d322448ee29c65a30e9bedaed222d7548b9 wifi: ath11k: Relocate the func ath11k_mac_bitrate_mask_num_ht_rates() and change hweight16 to hweight8
-         b7c3ee0ddc2bf3ecf511793aa55622a9aa62e420 wifi: ath11k: Send HT fixed rate in WMI peer fixed param
-         6abd13f3085fa5bbcf5f8e1236c48d57b6163626 wifi: ath12k: Use msdu_end to check MCBC
-         
-  - ref: refs/tags/ath-pending-202305100849
-    old: 0000000000000000000000000000000000000000
-    new: aa87ead8115eafa38d7ce061fbcf12eba2548300
