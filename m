@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 10 May 2023 15:17:42 -0000
-Message-Id: <168373186219.32050.6055979640747646557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 10 May 2023 15:20:05 -0000
+Message-Id: <168373200597.2074.10104082444111499422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 4961ac480052089a94978e9f771d513551aff61b
-    new: 09c3661278bebb8431fbc10ed213e42181e7cac7
+    old: 4eba0c6efaec809007b6a9568d9ec954200609b5
+    new: 37946bed31b688fe55e2003b6d59ff0c964165bb
     log: |
-         9b56e492fca8465a45676c598509e8ae0a5dc56e .gitignore: Add `examples/rsrc-update-bench`
-         05c6317367cab6fd4b8cf38c68cea1563bf31c5f recv-msgall: Fix undefined behavior in `recv_prep()`
-         09c3661278bebb8431fbc10ed213e42181e7cac7 recv-msgall: Fix invalid mutex usage
+         45bf2f40455c1377dafcbe9fd06b960008041783 t/read-to-pipe-async: remove dead code
+         37946bed31b688fe55e2003b6d59ff0c964165bb engines/rdma: remove dead code
          
