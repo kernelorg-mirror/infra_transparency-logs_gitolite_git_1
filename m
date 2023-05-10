@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 May 2023 03:27:09 -0000
-Message-Id: <168368922996.2585.12483938622685115182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 10 May 2023 05:09:43 -0000
+Message-Id: <168369538348.4656.3592171714220287843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/main
-    old: dfd9248c071a3710c24365897459538551cb7167
-    new: 582dbb2cc1a0a7427840f5b1e3c65608e511b061
+  - ref: refs/heads/testing
+    old: 5fc46f94219d1d103ffb5f0832be9da674d85a73
+    new: cf3128a7aca55b2eefb68281d44749c683bdc96f
     log: |
-         582dbb2cc1a0a7427840f5b1e3c65608e511b061 net: phy: bcm7xx: Correct read from expansion register
+         3d776e31c841ba2f69895d2255a49320bec7cea6 xfrm: Reject optional tunnel/BEET mode templates in outbound policies
+         cf3128a7aca55b2eefb68281d44749c683bdc96f af_key: Reject optional tunnel/BEET mode templates in outbound policies
          
