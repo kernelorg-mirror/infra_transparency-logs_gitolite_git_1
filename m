@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6713287366809193737=="
+Content-Type: multipart/mixed; boundary="===============6007567927110332120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 May 2023 13:21:37 -0000
-Message-Id: <168372489721.20973.7620484038042324611@gitolite.kernel.org>
+Date: Wed, 10 May 2023 13:22:43 -0000
+Message-Id: <168372496392.21381.1505252749635459368@gitolite.kernel.org>
 
---===============6713287366809193737==
+--===============6007567927110332120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: db370a8b9f67ae5f17e3d5482493294467784504
-    new: 92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b
-    log: revlist-db370a8b9f67-92cc5d00a431.txt
+  - ref: refs/heads/perf/urgent
+    old: 09a9639e56c01c7a00d6c0ca63f4c7c41abe075d
+    new: b752ea0c28e3f7f0aaaad6abf84f735eebc37a60
+    log: revlist-09a9639e56c0-b752ea0c28e3.txt
 
---===============6713287366809193737==
+--===============6007567927110332120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db370a8b9f67-92cc5d00a431.txt
+Content-Disposition: attachment; filename=revlist-09a9639e56c0-b752ea0c28e3.txt
 
-2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
-dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
 ac40ac6ca0fae749417819d9081d79886b1154a4 fbdev: cobalt_lcdfb: Convert to platform remove callback returning void
@@ -1049,6 +1047,8 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b locking/rwsem: Add __always_inline annotation to __down_read_common() and inlined callers
+1d1bfe30dad50d4bea83cd38d73c441972ea0173 perf/core: Fix perf_sample_data not properly initialized for different swevents in perf_tp_event()
+90befef5a9e820ccccc33181ec14c015980300cc perf/x86: Fix missing sample size update on AMD BRS
+b752ea0c28e3f7f0aaaad6abf84f735eebc37a60 perf/x86/intel/ds: Flush PEBS DS when changing PEBS_DATA_CFG
 
---===============6713287366809193737==--
+--===============6007567927110332120==--
