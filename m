@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 11 May 2023 14:58:18 -0000
-Message-Id: <168381709832.32077.13235316436039171853@gitolite.kernel.org>
+Date: Thu, 11 May 2023 14:58:21 -0000
+Message-Id: <168381710196.32139.4018165726845775269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
+  - ref: refs/heads/gpio/for-current
     old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 6c19974d1e83fba2cca1cbea2fbf250f093eb5ed
+    new: 976d3c6778e99390c6d854d140b746d12ea18a51
     log: |
-         8e84a8e69e3fa6aeb7720962f978bbd5a369c989 gpio: davinci: correct non-kerneldoc comment
-         f8d1af2475ec13385cacb299567fd0e45ca747d2 gpio: ixp4xx: Use devm_platform_ioremap_resource()
-         1c23553a66b0db947b25de3df08d69c32fc74626 dt-bindings: Convert gpio-mmio to yaml
-         6c19974d1e83fba2cca1cbea2fbf250f093eb5ed dt-bindings: gpio: Convert STMPE GPIO to YAML schema
+         eb4b8eca1bad98f4b8574558a74f041f9acb5a54 tools: gpio: fix debounce_period_us output of lsgpio
+         976d3c6778e99390c6d854d140b746d12ea18a51 selftests: gpio: gpio-sim: Fix BUG: test FAILED due to recent change
          
