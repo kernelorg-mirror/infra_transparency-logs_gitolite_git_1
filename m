@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Thu, 11 May 2023 21:19:40 -0000
-Message-Id: <168383998090.26645.484039986730501348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 11 May 2023 21:23:42 -0000
+Message-Id: <168384022267.30802.5880865036523015001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/main
-    old: cfb60ba56bf35f28505e7ff67f1efd9bd3e1d5c6
-    new: 7e8cdfa2eac57c8c1c469681d5ee016fc432ee4d
+  - ref: refs/heads/for-next
+    old: c75f5a55061091030a13fef71b9995b89bc86213
+    new: 2d0e641ed8bea04f93d541a818036f33567eef80
     log: |
-         2905e783479d873c17ab4cb270161a139ccb7f1e ip-rule: more manual page grammer fixes
-         465e87a89c134d28a7fae540d26b27e6a2e1d6c0 ipnetns: fix fd leak with 'ip netns set'
-         7e8cdfa2eac57c8c1c469681d5ee016fc432ee4d iproute2: optimize code and fix some mem-leak risk
+         2d0e641ed8bea04f93d541a818036f33567eef80 fbdev: modedb: Add a 1920x1080 at 60 Hz video mode
          
