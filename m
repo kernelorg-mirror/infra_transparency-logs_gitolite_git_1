@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 11 May 2023 08:39:50 -0000
-Message-Id: <168379439020.17845.9895454521112661332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 11 May 2023 08:41:37 -0000
+Message-Id: <168379449748.19963.11079931542508600137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 913399591dbe546ff9bbe299b9a2b294a25b9eac
-    new: 0484ca01c5ab83d500ba37daf67bc17213e39363
+  - ref: refs/heads/main
+    old: 8a690c151134df1ac8d71db4370b71f132d0fba6
+    new: ccce324dabfe2143519daf50ed8b1ef1d0c542f7
     log: |
-         9afcc8a67deddea5cc5cef4911c7a5b769cf895c libfdisk: fix wipe-partition feature
-         0484ca01c5ab83d500ba37daf67bc17213e39363 libfdisk: fix fdisk_check_collisions return code
+         ccce324dabfe2143519daf50ed8b1ef1d0c542f7 tcp: make the first N SYN RTO backoffs linear
          
