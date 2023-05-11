@@ -1,28 +1,79 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 May 2023 22:31:23 -0000
-Message-Id: <168384428369.11363.2394643446284376556@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2136655665227874271=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 11 May 2023 22:33:42 -0000
+Message-Id: <168384442215.12162.11707672870195451070@gitolite.kernel.org>
+
+--===============2136655665227874271==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/dev-queue
-    old: bab0f8254596a74e2307d6c33cf4818889166788
-    new: 7e34d9ade98ba5095cfb2671624c1b1295c71eb0
-    log: |
-         35583ba651523f660f98576b3456c113779cbbc2 ice: Fix undersized tx_flags variable
-         6ed65c7da0fd45a8b94ba3fa9a55d02bb46ceb4f ice: update ICE_PHY_TYPE_HIGH_MAX_INDEX
-         e17f6a4150eb953e485006f076c0ad73d54f56d5 ice: refactor PHY type to ethtool link mode
-         a3fa681f27153eb52971329f6d5e21d9a3488a42 ice: update PHY type to ethtool link mode mapping
-         feafcf8d61c62cdf7872cd5c14bfbc1d2ff87431 igb: Define igb_pm_ops conditionally on CONFIG_PM
-         4750aee55bc2b79dc708147b42300d4882300fc7 iavf: remove mask from iavf_irq_enable_queues()
-         7c1baaa5e0fdddb71470feeafdd131a35e2497f5 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
-         57bd6bc8202d796394b37b508e94d1515d929049 iavf: Fix use-after-free in free_netdev
-         38db631d96f50def83d3e30e307edc9fc0ed567b iavf: Fix out-of-bounds when setting channels on remove
-         7e34d9ade98ba5095cfb2671624c1b1295c71eb0 ice: Fix ice module unload
-         
+  - ref: refs/heads/dev
+    old: 2910baeb68158a796f5b0ca8532480e580447669
+    new: 17216855f994f36af9b8bac00efab31b40f9e412
+    log: revlist-2910baeb6815-17216855f994.txt
+
+--===============2136655665227874271==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2910baeb6815-17216855f994.txt
+
+e1bd2334f165aa7bef7f9fa2b0bef97a85614963 rcu: Add more RCU files to kernel-api.rst
+7a3cc29136960c45eff362a7304dd4f6eaf34cdd rcu: Remove RCU_NONIDLE()
+fea1c1f0101783f24d00e065ecd3d6e90292f887 rcu: Check callback-invocation time limit for rcuc kthreads
+f51164a808b5bf1d81fc37eb53ab1eae59c79f2d rcu: Employ jiffies-based backstop to callback time limit
+9146eb25495ea8bfb5010192e61e3ed5805ce9ef rcu: Mark additional concurrent load from ->cpu_no_qs.b.exp
+a24c1aab652ebacf9ea62470a166514174c96fe1 rcu: Mark rcu_cpu_kthread() accesses to ->rcu_cpu_has_work
+15d44dfa40305da1648de4bf001e91cc63148725 rcu: Make rcu_cpu_starting() rely on interrupts being disabled
+401b0de3ae4fa49d1014c8941e26d9a25f37e7cf rcu-tasks: Stop rcu_tasks_invoke_cbs() from using never-onlined CPUs
+fbde57d2d2995375305917b3c944bc861beb84d4 rcu/nocb: Make shrinker iterate only over NOCB CPUs
+f8619c300f49c5831d344d35df93d3af447efc97 locktorture: Add long_hold to adjust lock-hold delays
+b409afe0268faeb77267f028ea85f2d93438fced rcutorture: Correct name of use_softirq module parameter
+bf5ddd736509a7d9077c0b6793e6f0852214dbea rcu/rcuscale: Move rcu_scale_*() after kfree_scale_cleanup()
+23fc8df26dead16687ae6eb47b0561a4a832e2f6 rcu/rcuscale: Stop kfree_scale_thread thread(s) after unloading rcuscale
+3cbc1c327de116a41475deab665b5490ea2583f9 doc/rcutorture: Add description of rcutorture.stall_cpu_block
+cc03d3775203619ec18a810995552294607ad26c torture: Remove duplicated argument -enable-kvm for ppc64
+7bb3ed939cfd3bb230e047342f962ea7d6089dcd Merge branches 'doc.2023.05.10a', 'fixes.2023.05.11a', 'kvfree.2023.05.10a', 'nocb.2023.05.11a', 'rcu-tasks.2023.05.10a' and 'torture.2023.05.11a' into HEAD
+74924285193c3c16819f9e5b3c1fa5d1f1007b11 Merge branch 'nolibc.2023.05.10a' into HEAD
+214e4563e544c01d3eabb036ddcdf8ce8c3b3b68 locking/atomic: Add kernel-doc and docbook_oldnew variables for headers
+3e7501be8458fc2f573fa04f45a6559fa1613416 locking/atomic: Add kernel-doc header for arch_${atomic}_${pfx}inc${sfx}${order}
+7132bf363d065a3a690b2868315237561100b71c locking/atomic: Add kernel-doc header for arch_${atomic}_${pfx}dec${sfx}${order}
+9420f37fb5af45cf098e69d8b71a71eac4d0f41d locking/atomic: Add kernel-doc header for arch_${atomic}_${pfx}andnot${sfx}${order}
+128101fa44d5e05324d44e4656497d3d01eace48 locking/atomic: Add kernel-doc header for arch_${atomic}_try_cmpxchg${order}
+29d95e74aeb094bf7e2a0508deea99b38b7c198e locking/atomic: Add kernel-doc header for arch_${atomic}_dec_if_positive
+6d9e417efed3e179a0b7e888d7089a477322525b locking/atomic: Add kernel-doc header for arch_${atomic}_dec_unless_positive
+affeb9d4d8b41741634c446fbc434469707af02b locking/atomic: Add kernel-doc header for arch_${atomic}_inc_unless_negative
+ea1b6ad378cc776d61c0a9ea8b8d2e44bd17456b locking/atomic: Add kernel-doc header for arch_${atomic}_set_release
+1b714ccc05bf505e73836a5322d7253e0a78bcbf locking/atomic: Add kernel-doc header for arch_${atomic}_read_acquire
+8644217161466ffb9bbab95307e7e9a53aff9525 locking/atomic: Script to auto-generate acquire, fence, and release headers
+b569339a5fe78eea66a7841f0af3f20434560658 locking/atomic: Add kernel-doc header for arch_${atomic}_${pfx}${name}${sfx}_acquire
+8942f0b4969413f4a093adadf630e03e58d9333d locking/atomic: Add kernel-doc header for arch_${atomic}_${pfx}${name}${sfx}_release
+ffd9ce94be344f9beb8c6c8ee8806ed9459cd6ee locking/atomic: Add kernel-doc header for arch_${atomic}_${pfx}${name}${sfx}
+1ba7aeeba1f3e4464ee7dcba44534157fd57920a x86/atomic.h: Remove duplicate kernel-doc headers
+b8e2857e7c3446d99ea9edca46177fe16d5cb4cb locking/atomic: Refrain from generating duplicate fallback kernel-doc
+87c2c68b34c9084975f61e25ff330c9d90502e3c docs: Add atomic operations to the driver basic API documentation
+765d9fb10576be7b47b33ad4bfa8ce0a194d7d01 x86/atomic.h: Add information on ordering to kernel-doc headers
+8ae5454a7c209b87d05ce8615e922a58fd64da47 locking/atomic: Add ordering to arch_atomic*_dec_and_test() kernel-doc
+527a60ec39c58a811f9832fa4be10a02a133bddd locking/atomic: Add ordering to arch_atomic*_sub_and_test() kernel-doc
+be38c49877303afcd1c7f61795b72e683d8550dd locking/atomic: Add ordering to arch_atomic*_inc_and_test() kernel-doc
+f76d598ca09b52ce4b3dd2fd676f11f86c82c9ac locking/atomic: Add ordering to arch_atomic*_add_negative*() kernel-doc
+84e3e3a41afdc47b2bfc9be3bac9faf6cedce7b3 locking/atomic: Add ordering to arch_atomic*_add_unless() kernel-doc
+1dfd1a62d64567abc78cfd8beccbc200402072e6 locking/atomic: Add ordering to arch_atomic*_inc_not_zero() kernel-doc
+89151873967048cafed3e3db408a96abba154481 Merge branch 'atomicdoc.2023.05.11a' into HEAD
+528f79391acce34663233b36e739d5579f1cea6c Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
+a651bc9ab4bf7234c9b6383124f8c6b8424d994b EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
+7720dc3cb34340067d45b5dae864be73ff611b80 qspinlock: Diagnostics for excessive lock-drop wait loop time
+dce9750fa3a37bdd588da758d121642f3cd563e5 qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
+7061df3025d39eee65038906baa6eed6272363a9 x86/nmi: Add a set_nmi_torture() function to control NMI testing
+8442100f07c09e295279ade1295daf7e364eb17a rcutorture: Test NMI diagnostics
+17216855f994f36af9b8bac00efab31b40f9e412 EXP qspinlock: debugging
+
+--===============2136655665227874271==--
