@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8455719013146059735=="
+Content-Type: multipart/mixed; boundary="===============6117599473088873049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 May 2023 16:06:09 -0000
-Message-Id: <168382116973.13274.17383955887241719898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 11 May 2023 16:09:27 -0000
+Message-Id: <168382136709.14311.8994098391504648912@gitolite.kernel.org>
 
---===============8455719013146059735==
+--===============6117599473088873049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
     old: cceac9267887753f3c9594f1f7b92237cb0f64fb
     new: 6e27831b91a0bc572902eb065b374991c1ef452a
     log: revlist-cceac9267887-6e27831b91a0.txt
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
 
---===============8455719013146059735==
+--===============6117599473088873049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -557,4 +554,4 @@ d295b66a7b66ed504a827b58876ad9ea48c0f4a8 Merge tag 'fsnotify_for_v6.4-rc2' of gi
 691e1eee1b4e5203fa5152a4603c11fbd5448528 Merge tag 'media/v6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6e27831b91a0bc572902eb065b374991c1ef452a Merge tag 'net-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8455719013146059735==--
+--===============6117599473088873049==--
