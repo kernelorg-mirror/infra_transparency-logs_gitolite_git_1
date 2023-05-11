@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 11 May 2023 07:17:22 -0000
-Message-Id: <168378944244.29150.7156951236814285657@gitolite.kernel.org>
+Date: Thu, 11 May 2023 07:48:49 -0000
+Message-Id: <168379132924.16827.12850671460586210432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/niks/linux
 user: niks
 changes:
   - ref: refs/heads/has_ioport_v4
-    old: b873f53aa1a6487f4a450747bd5ee38afad6dfe4
-    new: 85bb8adc6b9de3038ac1df01586d97c7565067d1
+    old: 85bb8adc6b9de3038ac1df01586d97c7565067d1
+    new: 3eb9d482a42ac92519dfe9c79cb360aff7ba735c
     log: |
-         ca57c348f1d6b71e3379fd5e6ad7d40bd4b80325 usb: pci-quirks: handle HAS_IOPORT dependencies
-         ca23d64f82bc8bbdbeef24e93cfda63482c13e16 fbdev: atyfb: Remove unused clock determination
-         7d5b1f4b68f72f55fe86c2fb2470aeaa12503dd0 video: handle HAS_IOPORT dependencies
-         b44e0e50553e5e1dfd4152f024c24b6bdd6301b0 watchdog: add HAS_IOPORT dependencies
-         9e8ebcd05b1228a17dbb2bea989e1dfce2e48d7e wireless: add HAS_IOPORT dependencies
-         85bb8adc6b9de3038ac1df01586d97c7565067d1 asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
+         cb87347e174a4b978250462e692569b5e24c47cb usb: pci-quirks: handle HAS_IOPORT dependencies
+         59a1416ef957f7142f8df2feca052566e163209b fbdev: atyfb: Remove unused clock determination
+         05586faacb63c3c4768fd4a5094a37f47b568e56 video: handle HAS_IOPORT dependencies
+         04531e338687c26e35f1c7f7edc8863a531c16f9 watchdog: add HAS_IOPORT dependencies
+         d6981dc542bee9cb4c3c34fc8ab5cf0f49896cce wireless: add HAS_IOPORT dependencies
+         3eb9d482a42ac92519dfe9c79cb360aff7ba735c asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
          
