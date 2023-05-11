@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 11 May 2023 11:08:55 -0000
-Message-Id: <168380333510.3699.7994429230668592473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Thu, 11 May 2023 11:52:41 -0000
+Message-Id: <168380596157.940.1331594246919028419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/main
-    old: ccce324dabfe2143519daf50ed8b1ef1d0c542f7
-    new: 285b2a46953cecea207c53f7c6a7a76c9bbab303
+  - ref: refs/heads/has_ioport_v4
+    old: 7591a40aebcc68208650e4324799df61bed47bb4
+    new: fcecef87091e4f08191045aeffe0a93b54adba86
     log: |
-         fef99e840d465bad6549dd8775a5f967a711d171 net: mvneta: fix transmit path dma-unmapping on error
-         b0bd1b07c3add928e33282a52ad64a3f011d4fb7 net: mvneta: mark mapped and tso buffers separately
-         f00ba4f41acc050c959803f290a0f0c03dc0da5c net: mvneta: use buf->type to determine whether to dma-unmap
-         d41eb5557668096b0a57646107e6fc4631ba9cf1 net: mvneta: move tso_build_hdr() into mvneta_tso_put_hdr()
-         33f4cefb26e98c3cfe68ee7c88b766aa786b8733 net: mvneta: allocate TSO header DMA memory in chunks
-         285b2a46953cecea207c53f7c6a7a76c9bbab303 Merge branch 'net-mvneta-reduce-size-of-tso-header-allocation'
+         300bbc486e42bd805e517c7952683809ff6cace1 usb: pci-quirks: handle HAS_IOPORT dependencies
+         b75d4d150364ca52b797747187d0b8a3705fa5d4 fbdev: atyfb: Remove unused clock determination
+         f817d3bd1ff5d340590a7c6c42f1117cd330428c video: handle HAS_IOPORT dependencies
+         4fc836c0ac607ed07026859f13a33bed5c0daec0 watchdog: add HAS_IOPORT dependencies
+         f605d7c82317a4d8767950e0bdc1a6043ecd6a83 wireless: add HAS_IOPORT dependencies
+         fcecef87091e4f08191045aeffe0a93b54adba86 asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
          
