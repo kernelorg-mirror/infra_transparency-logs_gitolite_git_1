@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 11 May 2023 05:40:01 -0000
-Message-Id: <168378360128.28378.407343877275749499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 11 May 2023 05:40:16 -0000
+Message-Id: <168378361630.30049.8818177929526445762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 057e1ae7443cefb4c59923a574512b7bc69683f8
-    new: 26cd10a0b9761bffd4669a429f8a33cbccef5bbd
-    log: |
-         26cd10a0b9761bffd4669a429f8a33cbccef5bbd spi: s3c64xx: Disable IRQ mode when using DMA
-         
+  - ref: refs/heads/20230509_aidanmacdonald_0x0_regmap_irq_cleanups_and_remove_unused_functionality
+    old: f33a751d5a7fe03b11d95e6a33e1fdd3b4f8ec18
+    new: 0000000000000000000000000000000000000000
