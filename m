@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0967805978314023935=="
+Content-Type: multipart/mixed; boundary="===============8374812974341709485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 11 May 2023 06:01:51 -0000
-Message-Id: <168378491194.12524.16883858852834762878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 11 May 2023 06:02:02 -0000
+Message-Id: <168378492263.12681.4153168979407455258@gitolite.kernel.org>
 
---===============0967805978314023935==
+--===============8374812974341709485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 850d174696c3542cd39ca196bc7ade1ba7ceddf7
     new: c7895b75865bb4413c7f29f1dcb7fd0593e9255c
     log: |
@@ -29,28 +29,28 @@ changes:
          c7895b75865bb4413c7f29f1dcb7fd0593e9255c ASoC: qcom: add display port module support.
          
 
---===============0967805978314023935==
+--===============8374812974341709485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1683784910 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1683784909-dc88783837aad8089740de3c09376865647b99a5
+pusher Mark Brown <broonie@kernel.org> 1683784919 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1683784918-32db485038e25b4bc4592070fc36f74eeef4f367
 
-850d174696c3542cd39ca196bc7ade1ba7ceddf7 c7895b75865bb4413c7f29f1dcb7fd0593e9255c refs/heads/for-6.5
+850d174696c3542cd39ca196bc7ade1ba7ceddf7 c7895b75865bb4413c7f29f1dcb7fd0593e9255c refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRchM4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0EReB/9MDNZYb1GLxvvY5ZJIXv05vsfkZgWY
-PIpqnMVdmD81pevsns9Kr3D/nssc9/pizqjyIFYjH77TQ2Jua//pGRySGzuomAA2
-Q1tsfciyF7ttFc/xhX0+6p6nLYMFacsMc8tsd8dViX0SYrzptWy7T7B+JjP7x1Or
-x/lFszR9anw4NbOdJqz9DNKgogTUxy7BJxEUv0kKRD9dJxrOY90EeYPWW4uJ0x2O
-7GKgIxM362rqLmqQ7SRgR4Bu/oPeF3BAjtFmZNIQltBkFoWewOBG0blyb9tYTP98
-3JH/SQwDnLMDrvY9JVZ6iXnbl8EmwWvb4ezlmOkaGKjPgt3p0Fxoxv5z
-=kvUd
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRchNcTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0FsrB/99ECUFSBeXjc7XNfCIbqfk+j1n8QCx
+CpLa+AyOlBxSWc0AtWND6D7OWEBTuB4A8PGqae/SGJxQe65oSI23pn2QFODPwGAw
+6l49/JUNCPBkudP2SaxSUaDzqNHU7DnbYNMGTcJhLMCXRdfQ1Qjyy2Ylz/B9kq9a
+HWnKFN53zrc9fs9n0Dk3nHkJyHwRkjLiPoabeJCQKFbhju88ktLjAzgGKJoZkjgw
+s16r9gW7cMoOnVCVIjPVigTDBRSgZn6qzpufy74ZPAYW4Xp/MeZNcNSJy+sZbQba
+uA65xN8xV164RtkxDh2O+MaEaZbvRw/vcIeaSdZKqxMrzeuBEfvNFhOR
+=JOcu
 -----END PGP SIGNATURE-----
 
---===============0967805978314023935==--
+--===============8374812974341709485==--
