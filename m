@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6773122137939472937=="
+Content-Type: multipart/mixed; boundary="===============3722185824273393927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Thu, 11 May 2023 10:29:43 -0000
-Message-Id: <168380098383.9424.12084135493545009693@gitolite.kernel.org>
+Date: Thu, 11 May 2023 10:36:00 -0000
+Message-Id: <168380136091.14503.5687947179761747372@gitolite.kernel.org>
 
---===============6773122137939472937==
+--===============3722185824273393927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 8bbec86ce6d66fb33530c679f7bb3a123fc9e7da
-    new: 76fda00a056c24f992380eaf53114d096b1f710e
-    log: |
-         cc386f5c670d58fbc41dc7ee8f2281aa74b58f9e ARM: dts: ste: align UART node name with bindings
-         7c4f1f1830648bbdce02b13ff5f215c7400e7ea0 arm64: dts: mba6ulx: correct GPIO keys wakeup
-         197b3559bbe8e962ae1610c482dbb779976c04a6 Merge branch 'next/dt64' into for-next
-         76fda00a056c24f992380eaf53114d096b1f710e Merge branch 'next/dt' into for-next
-         
+  - ref: refs/tags/dt-fixes-6.4
+    old: 0000000000000000000000000000000000000000
+    new: 4454274a3c46c1f7b2f0e1f896e0e6cd43344032
 
---===============6773122137939472937==
+--===============3722185824273393927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1683800981 +0200
+pusher krzk@kernel.org 1683801359 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1683800981-cde28824eb5e98181407ce806ea0ff1cbe84bf09
+nonce 1683801358-1f61b87b329a1aed1ee381d1147f75ff7d8ac41f
 
-8bbec86ce6d66fb33530c679f7bb3a123fc9e7da 76fda00a056c24f992380eaf53114d096b1f710e refs/heads/for-next
+0000000000000000000000000000000000000000 4454274a3c46c1f7b2f0e1f896e0e6cd43344032 refs/tags/dt-fixes-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRcw5UQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/zFD/99XaHbcyqAJ0IiwxfeOzKHIjMoYvUZcV/E
-P/r6cp+A6KtvJ/iA6Gochz3IJmOaJ3KUBehPbqy4BTPU9Q+Agko7iA5svzuSdnAl
-11ezJ7Fbjk7+54KoGGSQhpucPb+7NiJK+RUS6pmLwnmquNA9+7MSmlyzPthms5hK
-q8LQm6FvUwnzaADTJtM9MU4l3sevI5n7WKfSpqzv1L9CvzPUoBZvbrB16TJXAaoK
-LGOq+s+DpUFq6U0Y1pUXYmqGWivUqzUXr3ZKEePbL3giSYIfhqBIEEpYZXkWaK60
-DZOe5VwCZkVxLcKWF53m5eRVpoTVckdiJeZ0iBJy12qQsYF0iuogcK9+WWPuemaP
-VcIHC6G8l3mlMbBmLnUS1Pg0QDNoMY7U013hcjxU/IBjWrQqrGk1jlVCl4oCCZf8
-QFybbrSxV+V7EzLfvkzs16OCY4g4I4xNrQrF2S0fsAVMIQancLMABSbEvLdmulpC
-mesHDj+a3W+2ca+SDW3qjKVzhHychKiLNa7NhVyDu7QN4450XPmAXPtWi41Bbt2Y
-EomyVLK4BN+u++bW62ciITKtK6CncDOHpOKPiKIClUFdHodJ5toGLDasYnSDHQQ/
-JRJht3SvjODiCDWN6oj5+Cbcx4mpSynECKRfyoToUl/6Hx3K4D74tqJxjZtWqBIE
-hAJBxklPpg==
-=i+XN
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRcxQ8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wffD/0Y2TnbAT1VL0eoP8IMBxxEECDXDAGDdYhQ
+c29Y/z7aHMDvAL4c42WLl8LF9HSSLZkPGudV2IO04ZwpS4YrYIX0A+zhraB+QQv6
++yrwxhvJAiWla4i9jXTbaBIYkavYqlFliS1aqgZn2x7E/tEQbE5pIk9GpYH1t2/b
+ThpNTadIC44ax9HaUpqpfM9TBtTO2qysdBAF0Xj7vftlM2ruJHvplzFqN6u7lOIz
+bEICP10yvyBDlGivDui0TDTLH4qKogyIk8rkDwcyMpxKGhaC0X8gp+H0Nb6DHOLy
+KDgk3RRJ0UDBAC3JU7oIjgtJ4FDcI9DEjvoCO/a3aIpgA1wTF+oK2jOdDJ38NgSd
+6qDHaBL/brfSCSt2Oar/UN2BGuFm70Ju/xmSJK+msg7dzJAi/vmhc9Jwa8BqFRCU
+gl1aNi0mX9rDEjZgdbeUeqpzohrxc1wW25rtZ9OQLmnRGqCMJlycV36tNHznKoSO
+xyho8fJvh/aUuDsSz1HWzDhXkihpjwGvqbIsICDDiWpynSFG3WUJqJq+U35S5u0R
+aHhLPr2Hr9XhClwV9osShYkOzsYsw03xGWi7wW+/Rib49BDrfPmqMI6zsLFW6DwY
+d+d+1R3ziQQZ9I6LgguDjL1C3tClHwBFrt2GrggyeAeEeVAG/TXCwbx7lVdfdRMj
+6IO1o47z3Q==
+=h3yK
 -----END PGP SIGNATURE-----
 
---===============6773122137939472937==--
+--===============3722185824273393927==--
