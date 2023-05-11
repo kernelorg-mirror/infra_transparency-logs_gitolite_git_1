@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3470231512930524558=="
+Content-Type: multipart/mixed; boundary="===============6773122137939472937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Thu, 11 May 2023 10:29:18 -0000
-Message-Id: <168380095840.9197.11861703007070261426@gitolite.kernel.org>
+Date: Thu, 11 May 2023 10:29:43 -0000
+Message-Id: <168380098383.9424.12084135493545009693@gitolite.kernel.org>
 
---===============3470231512930524558==
+--===============6773122137939472937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,44 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: cc386f5c670d58fbc41dc7ee8f2281aa74b58f9e
+  - ref: refs/heads/for-next
+    old: 8bbec86ce6d66fb33530c679f7bb3a123fc9e7da
+    new: 76fda00a056c24f992380eaf53114d096b1f710e
     log: |
          cc386f5c670d58fbc41dc7ee8f2281aa74b58f9e ARM: dts: ste: align UART node name with bindings
-         
-  - ref: refs/heads/next/dt64
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 7c4f1f1830648bbdce02b13ff5f215c7400e7ea0
-    log: |
          7c4f1f1830648bbdce02b13ff5f215c7400e7ea0 arm64: dts: mba6ulx: correct GPIO keys wakeup
+         197b3559bbe8e962ae1610c482dbb779976c04a6 Merge branch 'next/dt64' into for-next
+         76fda00a056c24f992380eaf53114d096b1f710e Merge branch 'next/dt' into for-next
          
 
---===============3470231512930524558==
+--===============6773122137939472937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1683800953 +0200
+pusher krzk@kernel.org 1683800981 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1683800953-0c1a8d69d522a6ce0f0c3f024e4bc1b7f44d1975
+nonce 1683800981-cde28824eb5e98181407ce806ea0ff1cbe84bf09
 
-ac9a78681b921877518763ba0e89202254349d1b cc386f5c670d58fbc41dc7ee8f2281aa74b58f9e refs/heads/next/dt
-ac9a78681b921877518763ba0e89202254349d1b 7c4f1f1830648bbdce02b13ff5f215c7400e7ea0 refs/heads/next/dt64
+8bbec86ce6d66fb33530c679f7bb3a123fc9e7da 76fda00a056c24f992380eaf53114d096b1f710e refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRcw3kQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zFfD/99lx4bVm3eogslXnqWqbOWD4ysn2FDSxMp
-eK/qB60VL/nm/ZbPk5cwl1DDjlvkmXBk+k+wAc10vvayyQkvLxVWvBt+WN5KlRkX
-YKV+0icW8f4v0CQMyJAtYdldcCiy2zgnBXE891uOZUxm8AKXUrT5+eGl922/ZEQL
-46/3l5vSaZfLy8Z3jfrHrNZR4Vfuf2eRI6huFvGjjSDrdSUuRbbesW8rlNQ19mMW
-X4JInO+wL5B/PyOsDgcbWdTCbhnrVS/kDT2INuc13LLaB+Ud1TzIRQYLw/fiId2J
-N2UqeffKZ7/S4iG/vtEdTG/pAnthH0SkbZGFB5s2dQQ3kWXC/995S/LYfpySq7ew
-hHSyqrnERw0vRZGXfW6L3DBJpGWl8OzE9nrZAD3BTprvCjlxyX+p5drPcMXymS32
-M7KPbnBuNitFjUys2Hp9Utbn0ManDe4Rh90HobinWPZc2MzUE5OzfMq6q6kZAWIW
-DH3nRH7IqHYbtYpnxC4c3p9XXN5cm6oZ+dU+bGZjbXpodGndWGtlPEdtfrDnkQRO
-E0gHz7Pz7iO4ZJRb5uoQ34/U2RnhEXp/Yb96HBtWd+sJdTYIKf+ImDyXpJVA3+gk
-Nq3zevi1Xt3bIguKJWhakimKZNI/Hk8AASFjeSLnVIGAqLhChjs2RGJ/caQlWzF4
-xD1cBnbpxw==
-=ItVY
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRcw5UQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/zFD/99XaHbcyqAJ0IiwxfeOzKHIjMoYvUZcV/E
+P/r6cp+A6KtvJ/iA6Gochz3IJmOaJ3KUBehPbqy4BTPU9Q+Agko7iA5svzuSdnAl
+11ezJ7Fbjk7+54KoGGSQhpucPb+7NiJK+RUS6pmLwnmquNA9+7MSmlyzPthms5hK
+q8LQm6FvUwnzaADTJtM9MU4l3sevI5n7WKfSpqzv1L9CvzPUoBZvbrB16TJXAaoK
+LGOq+s+DpUFq6U0Y1pUXYmqGWivUqzUXr3ZKEePbL3giSYIfhqBIEEpYZXkWaK60
+DZOe5VwCZkVxLcKWF53m5eRVpoTVckdiJeZ0iBJy12qQsYF0iuogcK9+WWPuemaP
+VcIHC6G8l3mlMbBmLnUS1Pg0QDNoMY7U013hcjxU/IBjWrQqrGk1jlVCl4oCCZf8
+QFybbrSxV+V7EzLfvkzs16OCY4g4I4xNrQrF2S0fsAVMIQancLMABSbEvLdmulpC
+mesHDj+a3W+2ca+SDW3qjKVzhHychKiLNa7NhVyDu7QN4450XPmAXPtWi41Bbt2Y
+EomyVLK4BN+u++bW62ciITKtK6CncDOHpOKPiKIClUFdHodJ5toGLDasYnSDHQQ/
+JRJht3SvjODiCDWN6oj5+Cbcx4mpSynECKRfyoToUl/6Hx3K4D74tqJxjZtWqBIE
+hAJBxklPpg==
+=i+XN
 -----END PGP SIGNATURE-----
 
---===============3470231512930524558==--
+--===============6773122137939472937==--
