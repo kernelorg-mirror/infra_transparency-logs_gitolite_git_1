@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0537386184200746678=="
+Content-Type: multipart/mixed; boundary="===============4415990167922123790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 11 May 2023 09:03:06 -0000
-Message-Id: <168379578608.2131.2452563417416083166@gitolite.kernel.org>
+Date: Thu, 11 May 2023 09:03:49 -0000
+Message-Id: <168379582980.2493.16540531696740331617@gitolite.kernel.org>
 
---===============0537386184200746678==
+--===============4415990167922123790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: cde3bb62bf56f34781c3a0e062630f1b7fe6d8c2
-    new: 9ab24b0486681ecc059ee766e00d9570c6311e08
-    log: revlist-cde3bb62bf56-9ab24b048668.txt
+  - ref: refs/heads/opp/linux-next
+    old: 528f2d8d540a3c374d6b765c769620d91536b176
+    new: ac9a78681b921877518763ba0e89202254349d1b
+    log: revlist-528f2d8d540a-ac9a78681b92.txt
 
---===============0537386184200746678==
+--===============4415990167922123790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cde3bb62bf56-9ab24b048668.txt
+Content-Disposition: attachment; filename=revlist-528f2d8d540a-ac9a78681b92.txt
 
+1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
+2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
 dd65e6f3fad96150cf54f8757f71884127ec4376 fbdev: cg3: Convert to platform remove callback returning void
 2a50e4a1e685f9703763ee4a13f7bc622eecf79e fbdev: cg6: Convert to platform remove callback returning void
 fdc757fe7cb0f14dff4dc43c843a453d6bc41a48 fbdev: clps711x-fb: Convert to platform remove callback returning void
@@ -1048,7 +1050,5 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 17784de648be93b4eef0ef8fe28a16ff04feecc7 Merge tag 'core-debugobjects-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
-4b4c0d37164c296efbdbceacb8d2535a3910b13e cpufreq: dt-platdev: Add JH7110 SOC to the allowlist
-9ab24b0486681ecc059ee766e00d9570c6311e08 cpufreq: tegra194: Fix an error handling path in tegra194_cpufreq_probe()
 
---===============0537386184200746678==--
+--===============4415990167922123790==--
