@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 11 May 2023 18:47:01 -0000
-Message-Id: <168383082122.23027.10953066539813131440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 11 May 2023 19:02:27 -0000
+Message-Id: <168383174734.1744.686575906917941991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/fixes
-    old: 44c524b642996148a8e94f1a1b8751076edcf577
-    new: 155c45a25679f571c2ae57d10db843a9dfc63430
+  - ref: refs/heads/dev
+    old: 689372cd7f8ea88e38f64716d215cff512ba42a5
+    new: d9baceba702641c160010434d9d6670691614cc4
     log: |
-         155c45a25679f571c2ae57d10db843a9dfc63430 power: supply: Ratelimit no data debug output
+         d9baceba702641c160010434d9d6670691614cc4 erofs-utils: fix `-Ededupe` crash without fragments enabled
          
