@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1607291632594960337=="
+Content-Type: multipart/mixed; boundary="===============6957760764145636049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 12 May 2023 14:33:11 -0000
-Message-Id: <168390199110.23355.12018010077773189928@gitolite.kernel.org>
+Date: Fri, 12 May 2023 14:34:44 -0000
+Message-Id: <168390208445.23907.1313449143712467465@gitolite.kernel.org>
 
---===============1607291632594960337==
+--===============6957760764145636049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 58390c8ce1bddb6c623f62e7ed36383e7fa5c02f
     new: 47a2ee5d4a0bda05decdda7be0a77e792cdb09a3
     log: revlist-58390c8ce1bd-47a2ee5d4a0b.txt
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
 
---===============1607291632594960337==
+--===============6957760764145636049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ d8843eebbbd15b78c6a7745717b3705eca923b0f Merge tag 'amd-drm-fixes-6.4-2023-05-11
 cc3c44c9fda264c6d401be04e95449a57c1231c6 Merge tag 'drm-fixes-2023-05-12' of git://anongit.freedesktop.org/drm/drm
 47a2ee5d4a0bda05decdda7be0a77e792cdb09a3 Merge tag 'firewire-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 
---===============1607291632594960337==--
+--===============6957760764145636049==--
