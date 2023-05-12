@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1261107003176918849=="
+Content-Type: multipart/mixed; boundary="===============0818761671002839025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 12 May 2023 19:43:30 -0000
-Message-Id: <168392061007.4837.12420921052253655709@gitolite.kernel.org>
+Date: Fri, 12 May 2023 19:43:53 -0000
+Message-Id: <168392063328.5014.4804121077021366703@gitolite.kernel.org>
 
---===============1261107003176918849==
+--===============0818761671002839025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,80 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 9a2d5178b9d51e1c5f9e08989ff97fc8d4893f31
-    new: 760ebc45746b498a36332acefd9e2838a3f8fcf0
-    log: revlist-9a2d5178b9d5-760ebc45746b.txt
+  - ref: refs/heads/tmp.perf/core
+    old: e1496cd9b348bfd2f8d9f500e2b0d47aa652d749
+    new: 5f2c7ac5799243aa5cae598cb79336488aa62d98
+    log: revlist-e1496cd9b348-5f2c7ac57992.txt
 
---===============1261107003176918849==
+--===============0818761671002839025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a2d5178b9d5-760ebc45746b.txt
+Content-Disposition: attachment; filename=revlist-e1496cd9b348-5f2c7ac57992.txt
 
-a1bb53688630aff762e79c6e4d781f33283f82a7 fbdev: hitfb: Convert to platform remove callback returning void
-909b7a3ea3989715ff20c191682c6a90eac3b4a4 fbdev: imxfb: Convert to platform remove callback returning void
-3eafb6a37617eff4678723acb3400fe37e77f631 fbdev: leo: Convert to platform remove callback returning void
-3a2ab02ddfacb04f92d47f2fe6e4aef4c95366e4 fbdev: mb862xx: Convert to platform remove callback returning void
-d0513776c132e040b2a438864dd1a2a362326858 fbdev: metronomefb: Convert to platform remove callback returning void
-419368fba704bf34c6d04a891b3989f47678911e fbdev: mx3fb: Convert to platform remove callback returning void
-d14e9328fef310b42c58688cb5c3caaace5c967e fbdev: ocfb: Convert to platform remove callback returning void
-db031426eb4680137f023d75fdb3646664227335 fbdev: offb: Convert to platform remove callback returning void
-dc6b77badc752e4965919f7b81ad9e3725ae0a64 fbdev: omapfb: Convert to platform remove callback returning void
-4d7960389f9e91dc7d09734f79346850f4fd11d9 fbdev: p9100: Convert to platform remove callback returning void
-cc6a0d407c4a8c8ce9aa971124592b3c805cf6f6 fbdev: platinumfb: Convert to platform remove callback returning void
-bcfb6d43bb08babd207a93bce99d86c25febd51d fbdev: pxa168fb: Convert to platform remove callback returning void
-2872c2913abf2d51c2d333477933801e14cc284b fbdev: pxa3xx-gcu: Convert to platform remove callback returning void
-eb703b6089bdeee974a02894a001de3df804f772 fbdev: pxafb: Convert to platform remove callback returning void
-77da73b32ceae6bb240fb57be6858042c76f9362 fbdev: s1d13xxxfb: Convert to platform remove callback returning void
-f2f34fb9f94f79f7d7bb12410d2e0b7f3b867a54 fbdev: s3c-fb: Convert to platform remove callback returning void
-03dfa8d2be6f16c087fe871f043a99857cb38d80 fbdev: sh7760fb: Convert to platform remove callback returning void
-068240885346a4f484237e24dc1f75530a58c370 fbdev: sh_mobile_lcdcfb: Convert to platform remove callback returning void
-4ba34066a29bd9db89525ed5c18d1838658402eb fbdev: simplefb: Convert to platform remove callback returning void
-7b49f61a7235813045c6adb34fdc5b5a0b7c2862 fbdev: sm501fb: Convert to platform remove callback returning void
-1fd99273942058f529b7b2821ada51e0d94aac23 fbdev: tcx: Convert to platform remove callback returning void
-94bada58284c93a38105637bbab0513f9caa005d fbdev: uvesafb: Convert to platform remove callback returning void
-f3db09aae19846f92dcf4c7c238a0ea6f9560617 fbdev: vesafb: Convert to platform remove callback returning void
-24f677094e325dd669b8f60b75779e7ef8263503 fbdev: vfb: Convert to platform remove callback returning void
-4a5ef62ce73b3c73ad3f844052b37cbabd9e2357 fbdev: vga16fb: Convert to platform remove callback returning void
-87b1e9a57445e4ee38cf1c03c203c82d5dda6aa3 fbdev: via: Convert to platform remove callback returning void
-3ab20cdc752d82939859a2aabe76ffd3fa5ece6f fbdev: vt8500lcdfb: Convert to platform remove callback returning void
-024a3cafa5c965fd121948db5023e867cdaf73c9 fbdev: wm8505fb: Convert to platform remove callback returning void
-89c4bbd457af5e18026e45bedd87f6f097edc83a fbdev: wmt_ge_rops: Convert to platform remove callback returning void
-0ddc95b59f05c280520fc3f23366293bc653d92d fbdev: xilinxfb: Convert to platform remove callback returning void
-bfff83c4824308f7acce47baf88858b52bc1314f linux/vt_buffer.h: allow either builtin or modular for macros
-b3a7a9ab65ae2f2626c7222fb79cdd433f8c5252 fbdev: mmp: Fix deferred clk handling in mmphw_probe()
-55caa9a7aca0e7685ebb9f5082156e89cae36c4a fbdev: 68328fb: Init owner field of struct fb_ops
-25ec15abb06194963157fe42d41368b19a0d0d74 fbdev: ps3fb: Init owner field of struct fb_ops
-b04ab8c13a73c10a97126fbe7076b2fbf632ba03 fbdev: vfb: Init owner field of struct fb_ops
-60ed3cd85b95184936bce70ed7f9e76a6a54a5e1 MAINTAINERS: Remove rage128 framebuffer driver maintainer
-60fd497c99b336e466db0aaeff44c7d12a1fc10a MAINTAINERS: Remove PPP maintainer
-2efb07b5ced64d053e6fe6e829e45549aa622168 Merge tag 'for-net-next-2023-04-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-38c87827ffd3c7e1dd61eee9a7dea13d487dc2ed Merge branch 'i2c/for-current' into i2c/for-mergewindow
-46e614cc91f7bd6f7872e434e6bcfda44454aac3 MIPS: uprobes: Restore thread.trap_nr
-d944eafed618a8507270b324ad9d5405bb7f0b3e drm/i915: Check pipe source size when using skl+ scalers
-d9f3a60ebbbd7244fe532dc8dcd278ac1651247f Tegra TPM driver with HW flow control
-baa6584a24494fbbd2862270d39e61b86987cc91 Merge tag 'asoc-v6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-next
-96785d635bc2b9e6f819cc606424d342a37872b4 tpm: cr50: i2c: use jiffies to wait for tpm ready irq
-eff33245595d7ade7b821c9ed0f688272b16b07b tpm: remove unnecessary (void*) conversions
-7f8da9915fcc6386edf86471bf31e162845930a4 KEYS: Create static version of public_key_verify_signature
-ef97e774713fcd34c45f7a7426c7d8845394f7be KEYS: Add missing function documentation
-30eae2b037af54b24109dcaea21db46f6285c69b KEYS: X.509: Parse Basic Constraints for CA
-567671281a751b80918a4531c4ba84b90a2a42c0 KEYS: X.509: Parse Key Usage
-76adb2fbc69a13c80b39042aab4d34e99309c8d4 KEYS: CA link restriction
-099f26f22f5834ad744aee093ed4d11de13cac15 integrity: machine keyring CA configuration
-858e8b792d06f45c427897bd90205a1d90bf430f tpm, tpm_tis: Avoid cache incoherency in test for interrupts
-282657a8bd7fddcf511b834f43705001668b33a7 tpm, tpm_tis: Claim locality before writing TPM_INT_ENABLE register
-6d789ad726950e612a7f31044260337237c5b490 tpm, tpm_tis: Disable interrupts if tpm_tis_probe_irq() failed
-ed9be0e6c892a783800d77a41ca4c7255c6af8c5 tpm, tpm_tis: Do not skip reset of original interrupt vector
-15d7aa4e46eba87242a320f39773aa16faddadee tpm, tpm_tis: Claim locality before writing interrupt registers
-e87fcf0dc2b47fac5b4824f00f74dfbcd4acd363 tpm, tpm_tis: Only handle supported interrupts
-4303553bced7a1d84583dada552393f5ebd31e54 tpm, tpm_tis: Move interrupt mask checks into own function
-35f621287ead686b66aa17aa605ed5d7c95883dc tpm, tpm_tis: do not check for the active locality in interrupt handler
-7a2f55d0be296c4e81fd782f3d6c43ed4ec7e265 tpm, tpm: Implement usage counter for locality
-0c7e66e5fd69bf21034c9a9b081d7de7c3eb2cea tpm, tpm_tis: Request threaded interrupt handler
-0e069265bce5a40c4eee52e2364bbbd4dabee94a tpm, tpm_tis: Claim locality in interrupt handler
-955df4f87760b3bb2af253d3fbb12fb712b3ffa6 tpm, tpm_tis: Claim locality when interrupts are reenabled on resume
 548eb516ec0f7a484a23a902835899341164b8ea tpm, tpm_tis: startup chip before testing for interrupts
 e644b2f498d297a928efcb7ff6f900c27f8b788e tpm, tpm_tis: Enable interrupt test
 c3985d8b9c224b359851f0a521ad25a83db6bdca tpm: st33zp24: Mark ACPI and OF related data as maybe unused
@@ -655,6 +592,8 @@ d579c468d7ad6e37f5b4290b0244a9a5a7d3c4bf Merge tag 'trace-v6.4' of git://git.ker
 70cc1b5307e8ee3076fdf2ecbeb89eb973aa0ff7 Merge tag 'powerpc-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b23c1376db2dbbf784906bbcc8db81c304fa76a7 Merge tag 'm68knommu-for-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 89d77f71f493a3663b10fa812d17f472935d24be Merge tag 'riscv-for-linus-6.4-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+0463ca3d7159bb86efa6f36ca70a41bb711bc6f8 perf stat: Avoid SEGV on counter->name
+06bff3d98cf2cfef225f8190bb679f3f8cb89912 perf stat: Disable TopdownL1 on hybrid
 943fb67b090212f1d3789eb7796b1c9045c62fd6 cifs: missing lock when updating session status
 c09ba02cfaf35732f7e36f291dd9679a6f109a12 SMB3.1.1: add new tree connect ShareFlags
 1149c8467ddebfb6bb9aab37830f70a49cab7085 smb3: make query_on_disk_id open context consistent and move to common code
@@ -761,6 +700,17 @@ f9c4bbddece7eff1155c70d48e3c9c2a01b9d778 riscv: compat_syscall_table: Fixup comp
 c2d3c8441e3ddbfe41fea9282ddc6ee372e154cd RISC-V: include cpufeature.h in cpufeature.c
 0af462f19e635ad522f28981238334620881badc debugobject: Ensure pool refill (again)
 b8969a1b69672b163d057e7745ebc915df689211 crypto: api - Fix CRYPTO_USER checks for report function
+e53de7b65a3ca59af268c78df2d773f277f717fd perf lock contention: Fix struct rq lock access
+b9f82b5c63bf5390da19e879275a792a959a8dac perf lock contention: Rework offset calculation with BPF CO-RE
+7586d11d36fad5e6a28736be7ac8f9495e28289a perf list: Fix memory leaks in print_tracepoint_events()
+6a7b57d85f4a6232d435eac945b325d9048f030c perf list: Modify the warning message about scandirat(3)
+1511e4696acb715a4fe48be89e1e691daec91c0e perf symbols: Fix return incorrect build_id size in elf_read_build_id()
+0e20f4311254193fbf9eebafb4dc5c922a885397 perf script: Print raw ip instead of binary offset for callchain
+69b0e112612be9e325ea682263d895f3c675772f perf script: Add new parameter in kfree_skb tracepoint to the python scripts using it
+c31380140f11195abb5b5f576355f886d32afd1c perf unwind: Suppress massive unsupported target platform errors
+d199226143f0ef6919131120319766ece514314e perf build: Fix unescaped # in perf build-test
+6bf86cada3eb8ec3eb80cdce5280e7a22dac8b01 perf cs-etm: Add fix for coresight trace for any range of CPUs
+9b86c49710eec7b4fbb78a0232b2dd0972a2b576 perf tracepoint: Fix memory leak in is_valid_tracepoint()
 eda081d2efac50c9b314df7fb340a62306a7b07a arm64: cpufeature: Fix pointer auth hwcaps
 4df69e0df295822cdf816442fe4897f214cccb08 arm64: kernel: remove SHF_WRITE|SHF_EXECINSTR from .idmap.text
 0fddb79bf283a561eb81f09d01f5ac8f61bf8966 arm64: lds: move .got section out of .text
@@ -837,6 +787,8 @@ ec788f7e96ad4cd30338a09d466d9368acd73c26 pds_core: remove CONFIG_DEBUG_FS from m
 f057b63bc11d86a98176de31b437e46789f44d8f netfilter: nf_tables: fix ct untracked match breakage
 53389edd4020514b876b01d05e851fb7d46eb51f Merge branch 'thermal-core'
 2e70a47ceafe4d71a4a402b2f7c5123cb4bf33f6 Merge branches 'acpi-pm' and 'acpi-properties'
+311693ce81c9da3724d4294a4c3769a3b30b6a7f perf test record+probe_libc_inet_pton: Fix call chain match on s390
+1f85d016768ff19f060f3cce014a43c761de8259 perf test record+probe_libc_inet_pton: Fix call chain match on x86_64
 57ea3ab21c14e6f04db2b0878e8a5be644fa3769 Merge branch 'pm-sleep'
 d246331b78cbef86237f9c22389205bc9b4e1cc1 btrfs: don't free qgroup space unless specified
 776617db78c6d208780e7c69d4d68d1fa82913de io_uring/rsrc: check for nonconsecutive pages
@@ -978,7 +930,10 @@ b115d85a9584c98f9a7dec209d835462aa1adc09 Merge tag 'locking-core-2023-05-05' of 
 e919a3f7057b5ca918dea98826b39a38eff9bebb Merge tag 'trace-v6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 647681bfa678400f0117d214313005cbfaf79f48 Merge tag 'docs-6.4-2' of git://git.lwn.net/linux
 418d5c98319f67b9ae651babea031b5394425c18 Merge tag 'devicetree-fixes-for-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+ecc68ee216c6c5b2f84915e1441adf436f1b019b perf stat: Separate bperf from bpf_profiler
 644bca1d48139ad77570c24d22bafaf8e438cf03 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+a887466562b425bd6183bf75b523c1477c9fd22d perf bpf skels: Stop using vmlinux.h generated from BTF, use subset of used structs + CO-RE
+6c73f819b6b6d6f052e8dbe3f66f0693554ddf48 perf metrics: Fix SEGV with --for-each-cgroup
 c12753d5fa3eab636b5ced91d6a2155173c11527 s390: remove the unneeded select GCC12_NO_ARRAY_BOUNDS
 a5e219005aeaf52cb10f9999a61c07a140db7097 Merge tag 'i2c-for-6.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 ed23734c23d2fc1e6a1ff80f8c2b82faeed0ed0c Merge tag 'net-6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -1007,6 +962,8 @@ cc669954ab38866c1aba73c27e17bb07bcb4a194 dmapool: simplify freeing
 da9619a30e73b59605ed998bf7bc4359f5c0029a dmapool: link blocks across pages
 706ce3caea1cc1dab8c7fd6e7d1389b46ad1570e Merge tag 'mm-hotfixes-stable-2023-05-06-10-45' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 fc4354c6e5c21257cf4a50b32f7c11c7d65c55b3 Merge tag 'mm-stable-2023-05-06-10-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+c3e6df97fa25ff310c3d5e7f1644248e072e3cb0 Revert "perf build: Warn for BPF skeletons if endian mismatches"
+9a2d5178b9d51e1c5f9e08989ff97fc8d4893f31 Revert "perf build: Make BUILD_BPF_SKEL default, rename to NO_BPF_SKEL"
 03e5cb7b50feb687508946a702febaba24c77f0b Merge tag 'for-6.4/io_uring-2023-05-07' of git://git.kernel.dk/linux
 1c1094e47ef10be267a982fb1c69dbb80aa4f257 Merge tag 'mailbox-v6.4' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
@@ -1050,5 +1007,48 @@ a2af0f6b8ef7ea402d6a531607bd0bc3dd3b4815 perf build: Add system include paths to
 a3cee97446cc9ee1332b5f317024ccd23ac6c48c perf arm64: Fix build with refcount checking
 bfd431cb2c68cbaec7a27b8a979d031f8501301b perf cs-etm: Fix contextid validation
 760ebc45746b498a36332acefd9e2838a3f8fcf0 perf lock contention: Add empty 'struct rq' to satisfy libbpf 'runqueue' type verification
+2d4c53973f014983d59a7aa4e980007db315fee0 perf tools riscv: Add support for riscv lookup_binutils_path
+2b433fadb1db6f64a9edf22de668118de7e287ed perf map: Add helper map__fprintf_dsoname_dsoff
+af9eb56bfed273a85b8c3f99d3ed7ff979c36ae0 perf script: Add new output field 'dsoff' to print dso offset
+24f0af6d038af461c97433cd80b688eb0346a466 perf dso: Declare dso const as needed
+d3b52f71d18513c209465ba65e0c524b9733351b perf script: Refine printing of dso offset (dsoff)
+8fb46f4255121147759ca0e02db97b9c23ddd146 perf vendor events intel: Add alderlake metric constraints
+6505ad7f1a87d5b9dc729230cb819f78f857005c perf vendor events intel: Add icelake metric constraints
+09acd5258057eb86a95b8aa994cca590448836b6 perf vendor events intel: Add icelakex metric constraints
+91c0b8adb6f20f9d6f6c90655ef5380d0d1bdc35 perf vendor events intel: Add sapphirerapids metric constraints
+b0e51b073d216a54f6f0bdacf7086c0999c18339 perf vendor events intel: Add tigerlake metric constraints
+5ec772a9ab5d11862c067c7e4e241f7433560ef4 perf test: Test more sysfs events
+21d360a488f8f910a4352d42969850b93be9ff2f perf test: Use valid for PMU tests
+e9d8bbf687fddd0c77b266850cabf9c61eb2205d perf test: Mask configs with extended types then test
+793613a37ec03191fc58673678939e5b130c63da perf test: Test more with config_cache
+d3745f31b2abeb418a2427cb5c2741396690fbf2 perf test: Roundtrip name, don't assume 1 event per name
+94739978dd8e332093d282da8ff0f5baabaa3712 perf parse-events: Set attr.type to PMU type early
+6d45834113d1e8e49476b9165cc2b52e6c67e2fa perf parse-events: Set pmu_name whenever a pmu is given
+b4ea522fa3c7dac006456831eaaccf2a52af832d perf print-events: Avoid unnecessary strlist
+13dc5e4d399474f37349ac2d41757c2e5eb4077e perf parse-events: Avoid scanning PMUs before parsing
+147fe1cdb55fe92757be146965e720ee3aa453ac perf test: Move x86 hybrid tests to arch/x86
+e4daea8f8bc674bd692f865fa82be0a2c7b4b428 perf test x86 hybrid: Update test expectations
+b501be188ab80ba896021a343ecb0a9d427223fd perf test x86 hybrid: Add hybrid extended type checks
+d58a24e4abbe0fe48ce20286715f185aabe89bdc perf parse-events: Support PMUs for legacy cache events
+c21a5ed5709fea559fc2b2be2bef31b73da1c7c9 perf parse-events: Wildcard legacy cache events
+b2358d43c786c5287958fd58038ebf10f2aae4db perf print-events: Print legacy cache events for each PMU
+a2c9f244c40e0798ef4683bb37c76d7990bf1e93 perf parse-events: Support wildcards on raw events
+5398fa52dc80b93688885de73035ee485743a4a4 perf parse-events: Remove now unused hybrid logic
+b6d7e6cc397ee9a177fe61adcebafc8a48e637f5 perf parse-events: Minor type safety cleanup
+ef101bb6484781b73a59f0fdaebef7f1bdf4db40 perf parse-events: Add pmu filter
+1631549346c53a0caad555f0f1f61ea2ee190bec perf stat: Make cputype filter generic
+83d3760009048448660b99dbad799624d8ae48db perf test: Fix parse-events tests for >1 core PMU
+0b447c13f5399d1be83a932e5b6e86ba3194f29b perf parse-events: Support hardware events as terms
+5d0db91433c2d2696b8b34e7a027217961c0326c perf parse-events: Avoid error when assigning a term
+df5ee9c50fd50a3b71d86c1e34574a4da656979f perf parse-events: Avoid error when assigning a legacy cache term
+2ea2b593ea2d5d5909747b3c22a922aa29b77005 perf parse-events: Don't auto merge hybrid wildcard events
+13f383742b7342c410d236ab39a31bf6880687c8 perf parse-events: Don't reorder atom cpu events
+f18d77b1c5b88bab62422d9ba494e6f93d96a1bd perf metrics: Be PMU specific for referenced metrics.
+2f8d5f99640d483c9708957864242df2b88e8367 perf stat: Command line PMU metric filtering
+8c40344c7191ab35181bfb5567d7fdac767cf603 perf vendor events intel: Correct alderlake metrics
+7f6b6c8df17695c7af3840026786f6a4499ae491 perf jevents: Don't rewrite metrics across PMUs
+b385ba0891843b081342e6faec9e92385b92dcec perf metrics: Be PMU specific in event match
+bc0ffbac80fc98367282b6272bb3130e71347cdc perf stat: Don't disable TopdownL1 metric on hybrid
+5f2c7ac5799243aa5cae598cb79336488aa62d98 perf parse-events: Reduce scope of is_event_supported
 
---===============1261107003176918849==--
+--===============0818761671002839025==--
