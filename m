@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 12 May 2023 07:57:10 -0000
-Message-Id: <168387823049.6071.17796554946500921752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 12 May 2023 07:58:57 -0000
+Message-Id: <168387833770.6666.4340358952671048466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 48c0db05a1bf60067cdee062a6bfad6db5c1f602
-    new: 0fae8847563b0c990f8cffcb8d3668fbcaca4919
+    old: de9c1a23add9e7842ce63ce6f498a05c66344311
+    new: 47af4291711f21e1282dbc1002baebba30595aa2
     log: |
-         0fae8847563b0c990f8cffcb8d3668fbcaca4919 ipvlan: Remove NULL check before dev_{put, hold}
+         47af4291711f21e1282dbc1002baebba30595aa2 MAINTAINERS: exclude wireless drivers from netdev
          
