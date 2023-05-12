@@ -1,22 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7916703610494789992=="
+Content-Type: multipart/mixed; boundary="===============4649287901326547922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 12 May 2023 05:22:32 -0000
-Message-Id: <168386895270.463.14481637843340005449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 12 May 2023 05:23:26 -0000
+Message-Id: <168386900676.876.7231022395079803581@gitolite.kernel.org>
 
---===============7916703610494789992==
+--===============4649287901326547922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.4
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 4c329f5da7cfa366bacfda1328a025dd38951317
+    log: |
+         4c329f5da7cfa366bacfda1328a025dd38951317 spi: spi-geni-qcom: Select FIFO mode for chip select
+         
+  - ref: refs/heads/spi-6.5
     old: 26cd10a0b9761bffd4669a429f8a33cbccef5bbd
     new: f603a3f083aeb9438865975c28b27be0afaae0c1
     log: |
@@ -26,28 +32,29 @@ changes:
          f603a3f083aeb9438865975c28b27be0afaae0c1 spi: sun6i: add DT bindings for Allwinner R329/D1/R528/T113s SPI
          
 
---===============7916703610494789992==
+--===============4649287901326547922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1683868950 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1683868949-af392e722e3dbfca3e9668045e8937f12073d356
+pusher Mark Brown <broonie@kernel.org> 1683869003 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1683868966-5c06fc2bd41b838fed2031b439c5b9d4c01edd3c
 
-26cd10a0b9761bffd4669a429f8a33cbccef5bbd f603a3f083aeb9438865975c28b27be0afaae0c1 refs/heads/for-6.5
+ac9a78681b921877518763ba0e89202254349d1b 4c329f5da7cfa366bacfda1328a025dd38951317 refs/heads/spi-6.4
+26cd10a0b9761bffd4669a429f8a33cbccef5bbd f603a3f083aeb9438865975c28b27be0afaae0c1 refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRdzRYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JneB/oCPZOAXS2GeZGlaob5FBwvHTBkvWlP
-pKF6YaCwFnOKKWjtkj7V/UIjd/9B9i21MnoDlvMpYEJCJoeHtiYCW+ZwJ5rJRNeY
-bMG0YVx96HbYyb8OhlK6DoNLsqJuaNzNJU/T1sX0mgae/E8V+/44WkkkkJc8GAcH
-P7aym2+VQxisBNzcIx+urSc8ssBJt+tcOL6t/aaNA7x0fWmWTqXb+Nz0A5L16QoY
-5/Aaj+x+g1jLDQ1uVSKclLX9g6qLXEZyZ0jsb4Vis/iYzmq9GSnsm8yenUnDQVWq
-LUjbA9J6cOobNSQE399HfU6UqPWlxqpKFmMivo8eCKKdIamwaiRQ4UEi
-=2raV
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRdzUsTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0EiaB/9563L9IwkaqE8ZxWV0iytGg3UA1Om6
+lW/Q6x1mY+HRf9YfxgD1EFiXeKcN2RZmbMJGm1YlYKKEDIWaF0NUUiDo3U0rkDCl
+GFjwH7icwrtWoQFVWEC2p05xv/G3qixnVJjjcbVVj+mnGVfadFY39sPvLPB2tNYo
+SMzVqdPVS6nLnK03ULiRsSoN6sUQYOmZ0MatdpIeqk8wTIdjjyhU2/UktYInhK4G
+8NLUyensD45PSD6AhzTbT4HAC8YY7fnXwR4+S78/HVp4w5JBxYdknO8lbqFGgl2J
+5cKPx0b+dvuO+dYzpyL4nleo6MG70JRFozzVtJ429nkbSuUgFPZ1g5oc
+=8KwU
 -----END PGP SIGNATURE-----
 
---===============7916703610494789992==--
+--===============4649287901326547922==--
