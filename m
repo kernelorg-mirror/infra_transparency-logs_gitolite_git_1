@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 12 May 2023 05:24:07 -0000
-Message-Id: <168386904743.1171.11803085501313748279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 12 May 2023 06:32:50 -0000
+Message-Id: <168387317044.13795.14055061285417512569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: f3f242eab8c1972f9a9dc5e5e2c25ed672947255
-    new: 039fe6f7eb7d4ac289280d17e0d73cf3782e1321
+  - ref: refs/heads/master
+    old: a82474ff773b3f5940a1939fcc0db1bca7b60fed
+    new: dbc660c2d28fda354daba7a0806fc6796b115b95
     log: |
-         b00c0d8932f1e7e36570edf0f000c64399e985e0 spi: sun6i: change OF match data to a struct
-         8e886ac838ef12f6994ed9b13ab87784c4f0bc35 spi: sun6i: add quirk for in-controller clock divider
-         046484cb214b43dc4463343e8c49133d9edb5454 spi: sun6i: add support for R329/D1/R528/T113s SPI controllers
-         f603a3f083aeb9438865975c28b27be0afaae0c1 spi: sun6i: add DT bindings for Allwinner R329/D1/R528/T113s SPI
-         039fe6f7eb7d4ac289280d17e0d73cf3782e1321 Merge remote-tracking branch 'spi/for-6.5' into spi-next
+         8f2bc11ba65f0fd56eb3843ffb617b93b88b901f Fixes for 6.3
+         9d4005800a4cc7d9deb2dc723724b14893c02690 Fixes for 6.2
+         6544556bc7c1e40ba0e80cb0c5a656cc43ba6c93 Fixes for 6.1
+         b7fad94c338ec4ef1978863b97b5739619887048 Fixes for 5.15
+         ab3235bb4af060c257f900b6ef7d7523bcf6a758 Fixes for 5.10
+         38a665835f32ab2a3912b21436cef5dba43262a9 Fixes for 5.4
+         36711451c8b6ac48320b86b087761aca736acc4a Fixes for 4.19
+         dbc660c2d28fda354daba7a0806fc6796b115b95 Fixes for 4.14
          
