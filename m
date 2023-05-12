@@ -1,55 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============4449822117920153865=="
+Content-Type: multipart/mixed; boundary="===============3189028177237440089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 12 May 2023 15:20:51 -0000
-Message-Id: <168390485183.25274.4811013851117061989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 12 May 2023 15:31:28 -0000
+Message-Id: <168390548821.31782.6499474095479275347@gitolite.kernel.org>
 
---===============4449822117920153865==
+--===============3189028177237440089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 67f10f0eabf5bfa23320d4df8dd7ede20cb73a60
-    new: 9607cfc9aeda0563e661eee3a499958439e85ce2
-    log: revlist-67f10f0eabf5-9607cfc9aeda.txt
+  - ref: refs/heads/main
+    old: bc88ba0cad64a4aa85f9deca79c6f3addcd21795
+    new: ba79e9a73284f576f336814125571432a2b3940f
+    log: revlist-bc88ba0cad64-ba79e9a73284.txt
 
---===============4449822117920153865==
+--===============3189028177237440089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67f10f0eabf5-9607cfc9aeda.txt
+Content-Disposition: attachment; filename=revlist-bc88ba0cad64-ba79e9a73284.txt
 
-21a933c79a33add3612808f3be4ad65dd4dc026b selftests: seg6: disable DAD on IPv6 router cfg for srv6_end_dt4_l3vpn_test
-f97b8401e0deb46ad1e4245c21f651f64f55aaa6 selftets: seg6: disable rp_filter by default in srv6_end_dt4_l3vpn_test
-7ce93d6f91d8871a609f55bce91a507c392805e6 Merge branch 'selftests-seg6-make-srv6_end_dt4_l3vpn_test-more-robust'
-e93c9378e33f68b61ea9318580d841caa22fb9ea devlink: change per-devlink netdev notifier to static one
-ef1148d4487438a3408d6face2a8360d91b4af70 ipv6: remove nexthop_fib6_nh_bh()
-f816b9829b19394d318e01953aa3b2721bca040d net: fec: Better handle pm_runtime_get() failing in .remove()
-0b01db274028f5acd207332686ffc92ac77491ac net: phy: dp83867: add w/a for packet errors seen with short cables
-d03a2f17627e8f94ce8c4790fede3ef7efe9be53 MAINTAINERS: sctp: move Neil to CREDITS
-01e8f6cd108b8702d206c6352d919c045b842b82 MAINTAINERS: don't CC docs@ for netlink spec changes
-de9c1a23add9e7842ce63ce6f498a05c66344311 nfp: fix NFP_NET_MAX_DSCP definition error
-47af4291711f21e1282dbc1002baebba30595aa2 MAINTAINERS: exclude wireless drivers from netdev
-9113302bb43cf7a6d5a414d49b29478e57451c86 ice: Fix undersized tx_flags variable
-134120b066044399ef59564ff3ba66ab344cfc5b sfc: disable RXFCS and RXALL features by default
-6d4486efe9c69626cab423456169e250a5cd3af5 vsock: avoid to close connected socket after the timeout
-1e306ec49a1f206fd2cc89a42fac6e6f592a8cc1 tcp: fix possible sk_priority leak in tcp_v4_send_reset()
-2b6899d2f167dc54a62a7b3f7217b5f9b598361a igc: Clean the TX buffer and TX descriptor ring
-53b604b28a32d06519c544942923904b397a4c89 iavf: send VLAN offloading caps once after VFR
-7817b4bfa68317bac7b1cd11dad048d598f1bf96 ice: Fix stats after PF reset
-35a722efbc58b3e3c93234e95991bfbedecf92e0 igc: Fix possible system crash when loading module
-12f229311eabbd9b900d2223f292c03e81b8339e ice: Fix ice VF reset during iavf initialization
-8891feb24b97c345226f6cfc21b72ec73b9ea228 igb: fix nvm.ops.read() error handling
-19af36a50c6497a318c3b401aab362f0ace97cfe igb: fix bit_shift to be in [1..8] range
-d9d071d5c4753dbc3a8c5e1b436e2be071728959 iavf: Fix use-after-free in free_netdev
-0d36e9f5c593d34ef908ca605c1017d1bfa8996f iavf: Fix out-of-bounds when setting channels on remove
-9607cfc9aeda0563e661eee3a499958439e85ce2 ice: Fix ice module unload
+995585ecdf42c14fbd4d9d12ca73bf54358581c6 net: enc28j60: Use threaded interrupt instead of workqueue
+7f88efc8162cc6d516cacf1d82edc923b423483f net: samsung: sxgbe: Make sxgbe_drv_remove() return void
+48c0db05a1bf60067cdee062a6bfad6db5c1f602 octeontx2-pf: mcs: Offload extended packet number(XPN) feature
+0fae8847563b0c990f8cffcb8d3668fbcaca4919 ipvlan: Remove NULL check before dev_{put, hold}
+b16d76fe9a27d337c16972a71d959bcf0c96c2e6 net/handshake: Remove unneeded check from handshake_dup()
+2200c1a87074548f0a36e5aae5ad283ce2ac43b2 net/handshake: Fix handshake_dup() ref counting
+7301034026d0efe0e86af0cb685405da120583d4 net/handshake: Fix uninitialized local variable
+e36a93e1723eb09c8393604ddc8ef2966f592597 net/handshake: handshake_genl_notify() shouldn't ignore @flags
+f921bd41001ccff2249f5f443f2917f7ef937daf net/handshake: Unpin sock->file if a handshake is cancelled
+eefca7ec514262aef08d0ef261552f2f604bd851 net/handshake: Enable the SNI extension to work properly
+deb2e484baf90ed776626894ea7ee5db7fbe839b Merge branch 'net-handshake-fixes'
+c1bc7d73c96425db12bb92fbf24c37fd1c9ac329 bonding: Always assign be16 value to vlan_proto
+aeefbb574c38025fd65a1b053c41595ba13b2408 selftests: Add SO_DONTROUTE option to nettest.
+dd017c72dde677cef5a5a965ca71ac4736b53452 selftests: fcnal: Test SO_DONTROUTE on TCP sockets.
+a431327c4faacf978defa94dd0da1710d0c69801 selftests: fcnal: Test SO_DONTROUTE on UDP sockets.
+ceec9f272432b03168376d6487e7e7817d215f07 selftests: fcnal: Test SO_DONTROUTE on raw and ping sockets.
+e7ea5080ef3fd433b42acda80138e6c7dd8371eb Merge branch 'selftests-fcnal'
+2598619e012cee5273a2821441b9a051ad931249 sctp: add bpf_bypass_getsockopt proto callback
+d3616dc7793ffab17f3362fb439bfc1f887e6d8e net: liquidio: lio_main: Remove unnecessary (void*) conversions
+28fa3ac487c6d30aaa10570481c27b6adfc492b3 sfc: release encap match in efx_tc_flow_free()
+56beb35d85e290b71372d7ee1093621f6abb6e96 sfc: populate enc_ip_tos matches in MAE outer rules
+3c9561c0a5b988be3dfd24ea1de2301b95efc640 sfc: support TC decap rules matching on enc_ip_tos
+b6583d5e9e94adce1be61ec59fef4e129f0bc68a sfc: support TC decap rules matching on enc_src_port
+ba79e9a73284f576f336814125571432a2b3940f Merge branch 'sfc-decap'
 
---===============4449822117920153865==--
+--===============3189028177237440089==--
