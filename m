@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 12 May 2023 07:58:57 -0000
-Message-Id: <168387833770.6666.4340358952671048466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/ieee1394/linux-firewire-utils
+Date: Fri, 12 May 2023 08:03:10 -0000
+Message-Id: <168387859084.9691.3518958826170317195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/ieee1394/linux-firewire-utils
+user: takaswie
 changes:
   - ref: refs/heads/main
-    old: de9c1a23add9e7842ce63ce6f498a05c66344311
-    new: 47af4291711f21e1282dbc1002baebba30595aa2
-    log: |
-         47af4291711f21e1282dbc1002baebba30595aa2 MAINTAINERS: exclude wireless drivers from netdev
-         
+    old: 0000000000000000000000000000000000000000
+    new: 3c886f26da080aff74302279537abdde1cb4a40d
