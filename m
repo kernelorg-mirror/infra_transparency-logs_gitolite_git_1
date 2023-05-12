@@ -1,27 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/ieee1394/linux-firewire-utils
-Date: Fri, 12 May 2023 09:32:35 -0000
-Message-Id: <168388395532.5957.11639689627268366559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Fri, 12 May 2023 09:39:33 -0000
+Message-Id: <168388437370.4037.3119394144236294614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/ieee1394/linux-firewire-utils
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/main
-    old: eb6aa191be77b45209db7093b514710be8bdbe09
-    new: fd45d888c1ca7377ff1a8376e77b9aa19ffda665
-    log: |
-         fd45d888c1ca7377ff1a8376e77b9aa19ffda665 config-rom-pretty-printer: fix uninitialized warning
-         
-  - ref: refs/heads/topic/debian
-    old: ff62459cdc3ff0840c0a192032273cf5aa504a73
-    new: b8fade75ea79c4507f17184518c287c87a949d90
-    log: |
-         eb6aa191be77b45209db7093b514710be8bdbe09 fulfill README for config-rom-pretty-printer
-         fd45d888c1ca7377ff1a8376e77b9aa19ffda665 config-rom-pretty-printer: fix uninitialized warning
-         b8fade75ea79c4507f17184518c287c87a949d90 debian: packaging
-         
+  - ref: refs/tags/firewire-fixes-6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 86eefff563f70480cd70e54c13bfe7db77524886
