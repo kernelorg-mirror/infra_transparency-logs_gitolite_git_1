@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/docsko/ieee1394
-Date: Fri, 12 May 2023 09:17:45 -0000
-Message-Id: <168388306518.27688.836536718757223944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 12 May 2023 09:28:12 -0000
+Message-Id: <168388369289.2966.842203016947494657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/docsko/ieee1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/main
-    old: 8075ef254ff7848f6260d849ec7051550a97d2b3
-    new: 0200d9eece8674a8c6768715987922c8d34c9407
+    old: 2598619e012cee5273a2821441b9a051ad931249
+    new: d3616dc7793ffab17f3362fb439bfc1f887e6d8e
     log: |
-         0200d9eece8674a8c6768715987922c8d34c9407 add linux-firewire-utils
+         d3616dc7793ffab17f3362fb439bfc1f887e6d8e net: liquidio: lio_main: Remove unnecessary (void*) conversions
          
