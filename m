@@ -1,63 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2376660112103382100=="
+Content-Type: multipart/mixed; boundary="===============1283973571725545267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 13 May 2023 11:08:12 -0000
-Message-Id: <168397609252.16738.17030722527162679675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 13 May 2023 11:20:32 -0000
+Message-Id: <168397683279.25655.8801919061968401814@gitolite.kernel.org>
 
---===============2376660112103382100==
+--===============1283973571725545267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357
+  - ref: refs/heads/staging-testing
+    old: e7e444dfc2fa195deb4ae5cc5d67de51caa98fc4
+    new: 1f3413dc8eb0de023c5ec5994aef8225262d0f19
     log: |
-         95d698869b404772cc8b72560df71548491c10bc serial: 8250_exar: Add support for USR298x PCI Modems
-         d2b00516de0e1d696724247098f6733a6ea53908 serial: Add support for Advantech PCI-1611U card
-         f16182ed9d8430adfab77f5929c23756c94b0230 serial: 8250: Document termios parameter of serial8250_em485_config()
-         8ab5fc55d7f65d58a3c3aeadf11bdf60267cd2bd serial: arc_uart: fix of_iomap leak in `arc_serial_probe`
-         8a3b5477256a54ae4a470dcebbcf8cdc18e4696d serial: 8250_bcm7271: balance clk_enable calls
-         f264f2f6f4788dc031cef60a0cf2881902736709 serial: 8250_bcm7271: fix leak in `brcmuart_probe`
-         5f949f140f73696f64acb89a1f16ff9153d017e0 serial: qcom-geni: fix enabling deactivated interrupt
-         8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 vc_screen: reload load of struct vc_data pointer in vcs_write() to avoid UAF
+         2151bbbdf7529ce21b96e084ec2f0973412f79b2 staging: rtl8192e: Rename tmpRegA and TempCCk
+         9c2501d68eaf9e9e550079e5d48d99bcd3687918 staging: rtl8192e: Rename tmpOFDMindex and tmpCCKindex
+         94c41266111b66c6c6de621bafde0c8fafcd6f7d staging: rtl8192e: Rename tmpCCK20Mindex and tmpCCK40Mindex
+         1f3413dc8eb0de023c5ec5994aef8225262d0f19 staging: rtl8192e: Refactor tmp_ofdm_index variable assignment
          
 
---===============2376660112103382100==
+--===============1283973571725545267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683976089 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1683976088-4b1fbd3bffe533b508a47ad7ba2f005948779638
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683976831 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1683976830-afbe18bcab36ced4e53d2d9d9ace3213addc4b1b
 
-ac9a78681b921877518763ba0e89202254349d1b 8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 refs/heads/tty-linus
+e7e444dfc2fa195deb4ae5cc5d67de51caa98fc4 1f3413dc8eb0de023c5ec5994aef8225262d0f19 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfb5kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+slAP/iYE0t9y7Kac1JrvQcyv
-/VoxYWXMFVcmSdUEE+Y1jSCH7vp6nS/kvcnJJBYaECdgvD1Nj39Uz4pYvOw1pknX
-xbfckyXxHXzRg2WZuGhENUeTjGFVWT0O8CYzpgcjfxKJNZf5J7cvsB47TOeAV/f0
-483X5bCaW4O0qBZwBGdXyIo4jMffHrh89BeooCOI0l6SFrLIAPDo1w1fXOl3z4bV
-c8qyOuvut0vjuPJLjiCbZ65DIJFsGM7/qJiRYH8Ac4SxWeIMgYPjAVHqvtMUTFr7
-sQAmc54wMsTtt0lq7+GLV9dHidVTSmr2xvGYOGQAXmkAqu3dpApYJQnzfkH1cIsw
-Hs4m7ts5yzMbJoze4I62NA0kLsXwEnCmxTN3uqwmT/TYuNqTe/+Rf8NAZhy707dg
-Tb4aAYybpYfT2OmYygg5qWYEV920UhxqcFHUioDSz5JswD8AB7mYkBBOKdcUKGbf
-T2nQKx+EfFmkSFdRuTH3BurDbPa3vTHQMNtOOHntDG/IejUCc9+N3t0NJ1PJUopd
-M5Gb7rgIXfoYWq8XGfE7mrnSsbX0h+mgJSmJg0PD/6LHho5qhXyx0Q0Ec9xW/r+l
-kl7r0DQQWXZk+RlvjsENhETZSPm2wK3L3AbyR02sUb+cg+mezgw56JyIoOj0H/+c
-tQrvuT3tmgZn0+2zQsVbyOiB
-=8U5B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfcn8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+veUQAMxrFZzMyfdlz8gdNhQ3
+0Bw+0pcwai/b8ObPsvgqvBgwFv5SZNJGHI4zcVqK/MOV1y+6LePueOj4+AfOIrkQ
+Jh6HpVO5mGQsLJHh/qmwY1vFU1UafNa8wib7uldEhSro1BEofW5C/OawawMu89cl
+hHeR5i+kgqwUVs/prrcY6NQqhZ9dx95H1i12O+bIVTP0U1pFRgwPBKyQdohrtXr1
+xmH+bX2WkKZ7TfjcyjIwFj6EqfI6+18darkY9ax14YxWaGrqHde6OSvSY01JNtUI
+vT0+FAt7EVOnoAHrzULI/SSQ5SGNqxF4H+CnpiQUYSXYzzSRPYIoh6qXo6t7xmyx
+dLZ69N1QEG9G4yARD3nZSDgtHK1MCoyEzS7UaEaKAfMC9FtmTthIZKJGm4Y7deCE
+gljcavzJ7IJL8hD5TyOBRu+QYqJbXb3sxLpcSHlN3cKWQYpzOIrAxBOe47K3bKb0
+MPenIZ6Xa3k0F/zFkVEro2b6WUYi5gM5Zdq7s5f0QXESWxa6m26/m8ejWPN/HU0D
+dbMgSDGXmqeYsFgatHfl/u6BimpLzMAFa6iv31BmMhFECodOz531WMt8nTgwQqWb
+WvimnUVFVOqyRsW0YpmZ0NG4jTHCAgZ6SwuaH5YJCI7Wvz7LTeE74kvkQ6HsbfdH
+WogM89acyOXo28qXkeYtwjD+
+=gHFv
 -----END PGP SIGNATURE-----
 
---===============2376660112103382100==--
+--===============1283973571725545267==--
