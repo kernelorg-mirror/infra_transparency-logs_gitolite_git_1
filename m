@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 13 May 2023 16:05:22 -0000
-Message-Id: <168399392296.20912.10861394737281742341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 13 May 2023 16:08:44 -0000
+Message-Id: <168399412495.21975.6028906349561376003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/x86/alternatives
-    old: d2408e043e7296017420aa5929b3bba4d5e61013
-    new: d42a2a89121071cc8dd285235253a4c739641635
-    log: |
-         d42a2a89121071cc8dd285235253a4c739641635 x86/alternatives: Fix section mismatch warnings
-         
+  - ref: refs/heads/soc-doc
+    old: 0000000000000000000000000000000000000000
+    new: b5c758bf0a6825344e159f777b5d146cd257de41
