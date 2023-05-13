@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6830961105788813788=="
+Content-Type: multipart/mixed; boundary="===============2376660112103382100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 13 May 2023 10:54:03 -0000
-Message-Id: <168397524379.7762.16592245738105668861@gitolite.kernel.org>
+Date: Sat, 13 May 2023 11:08:12 -0000
+Message-Id: <168397609252.16738.17030722527162679675@gitolite.kernel.org>
 
---===============6830961105788813788==
+--===============2376660112103382100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/tty-linus
     old: ac9a78681b921877518763ba0e89202254349d1b
-    new: d5b3d02d0b107345f2a6ecb5b06f98356f5c97ab
-    log: revlist-ac9a78681b92-d5b3d02d0b10.txt
+    new: 8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357
+    log: |
+         95d698869b404772cc8b72560df71548491c10bc serial: 8250_exar: Add support for USR298x PCI Modems
+         d2b00516de0e1d696724247098f6733a6ea53908 serial: Add support for Advantech PCI-1611U card
+         f16182ed9d8430adfab77f5929c23756c94b0230 serial: 8250: Document termios parameter of serial8250_em485_config()
+         8ab5fc55d7f65d58a3c3aeadf11bdf60267cd2bd serial: arc_uart: fix of_iomap leak in `arc_serial_probe`
+         8a3b5477256a54ae4a470dcebbcf8cdc18e4696d serial: 8250_bcm7271: balance clk_enable calls
+         f264f2f6f4788dc031cef60a0cf2881902736709 serial: 8250_bcm7271: fix leak in `brcmuart_probe`
+         5f949f140f73696f64acb89a1f16ff9153d017e0 serial: qcom-geni: fix enabling deactivated interrupt
+         8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 vc_screen: reload load of struct vc_data pointer in vcs_write() to avoid UAF
+         
 
---===============6830961105788813788==
+--===============2376660112103382100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683975237 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683976089 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1683975237-8f2da93c1970d624c4f1029b858a75b1b30ebaaa
+nonce 1683976088-4b1fbd3bffe533b508a47ad7ba2f005948779638
 
-ac9a78681b921877518763ba0e89202254349d1b d5b3d02d0b107345f2a6ecb5b06f98356f5c97ab refs/heads/tty-testing
+ac9a78681b921877518763ba0e89202254349d1b 8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfbEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EL8P/2V5vNOAHqALunezHccM
-WcQN/0p74sHzIJdVSOjCvGHrGsG3SvW6GA4PzdKChWUp1TvISugqOK0pAwWvbWW6
-0Bq6tA6ASbr/DAzmjFKfDeElW1ogGg8a4BTenVTU4Fj19+UyRORs/DAkzl9XdUZI
-h4C6Zu3ZKlVtT/e1cD1yIQlEJAVUjf3Hr0SLianMBAkCjn44GRavsbRd2h7O6+P7
-VMgL0feXbLM6ZHIuhHg83rH7hCrRhRPX6v/JZmpl5begMI572fBILB0mbBw2tdZx
-cpYpSgcAiNeA5wYVAK5NpgYuOEZNIRO6JyBM8LkM3DPT5GSG/7COE/MLH7v4Rf3p
-rexotc1VfcfBRW5H8UXCTZEyeLJ7DCRb5yr0404f2XcOFvJyoPrkToEaLf788n4C
-eWZONRHZP/KcQI1gkKQ4R5JVjumdQcm8ps868ra5plUhvvDUt8oghR0u4tAcFP63
-N9nNyMllAcPX02kSkTxBK/HnaVS1v7mCcVaC6gTChPkxWyyOzqfJAxHE9rYQxQjJ
-Il8v+ZE7FUQSVsvPYwwhiylSHHH1eBQNHkdsDpLQC5nBzbanzLtIJZNBh6/dtSCL
-C6JmK3NU4OokYaeQ/TjwdMxwe3QZy8hoiAt3F9pqZrNQj4DK4jNyT6KLWxUfLi+X
-r0rmcgh4E8nX6hHVWpFzRt6e
-=w/mc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfb5kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+slAP/iYE0t9y7Kac1JrvQcyv
+/VoxYWXMFVcmSdUEE+Y1jSCH7vp6nS/kvcnJJBYaECdgvD1Nj39Uz4pYvOw1pknX
+xbfckyXxHXzRg2WZuGhENUeTjGFVWT0O8CYzpgcjfxKJNZf5J7cvsB47TOeAV/f0
+483X5bCaW4O0qBZwBGdXyIo4jMffHrh89BeooCOI0l6SFrLIAPDo1w1fXOl3z4bV
+c8qyOuvut0vjuPJLjiCbZ65DIJFsGM7/qJiRYH8Ac4SxWeIMgYPjAVHqvtMUTFr7
+sQAmc54wMsTtt0lq7+GLV9dHidVTSmr2xvGYOGQAXmkAqu3dpApYJQnzfkH1cIsw
+Hs4m7ts5yzMbJoze4I62NA0kLsXwEnCmxTN3uqwmT/TYuNqTe/+Rf8NAZhy707dg
+Tb4aAYybpYfT2OmYygg5qWYEV920UhxqcFHUioDSz5JswD8AB7mYkBBOKdcUKGbf
+T2nQKx+EfFmkSFdRuTH3BurDbPa3vTHQMNtOOHntDG/IejUCc9+N3t0NJ1PJUopd
+M5Gb7rgIXfoYWq8XGfE7mrnSsbX0h+mgJSmJg0PD/6LHho5qhXyx0Q0Ec9xW/r+l
+kl7r0DQQWXZk+RlvjsENhETZSPm2wK3L3AbyR02sUb+cg+mezgw56JyIoOj0H/+c
+tQrvuT3tmgZn0+2zQsVbyOiB
+=8U5B
 -----END PGP SIGNATURE-----
 
---===============6830961105788813788==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-d5b3d02d0b10.txt
-
-cf9aa72d2f91defea23fe29b9e8e941bb2486d5c tty: serial: fsl_lpuart: optimize the timer based EOP logic
-6d8c1fca0a6ee4915781ded60000b3cc2c076e29 serial: pl011: set UART011_CR_RXE in pl011_set_termios after port shutdown
-b9ab22c2bc8652324a803b3e2be69838920b4025 serial: 8250: omap: Fix freeing of resources on failed register
-398cecc24846e867b9f90a0bd22730e3df6b05be serial: 8250: omap: Fix imprecise external abort for omap_8250_pm()
-fef4f600319e35b7121c3ea6005ee38626f4f959 serial: 8250: omap: Fix life cycle issues for interrupt handlers
-db86bb6ed4979ed8a987057f9098ea88f85e48be serial: 8250: omap: Shut down on remove for console uart
-9d86719f8769244dc99b8cb6091c41eae3fd684f serial: 8250: Allow using ports higher than SERIAL_8250_RUNTIME_UARTS
-b245aa0cc583c3efa0335c50f309a32e5fec8ab7 serial: 8250: Change dl_read/write to handle value as u32
-98658ae8f3925d05c2d0c67749ff6cf47b9077a5 serial: 8250: Document uart_8250_port's ->dl_read/write()
-30c61f53fdf23e8a396dca8378615b4900edff6f serial: 8250: Add dl_read/write, bugs and mapsize into plat_serial8250_port
-b334214ea08d941af376fec853621d856b12bc81 serial: 8250: RT288x/Au1xxx code away from core
-33e3b0eb755074a870fd926ebd84de52e7302090 serial: 8250_rt288x: Name non-standard divisor latch reg
-72fc578b220c417787384ac7c3e235e98f218be6 serial: 8250_rt288x: Remove unnecessary UART_REG_UNMAPPED
-6bd6cd29c92401a101993290051fa55078238a52 serial: stm32: Ignore return value of uart_remove_one_port() in .remove()
-d5b3d02d0b107345f2a6ecb5b06f98356f5c97ab serial: Make uart_remove_one_port() return void
-
---===============6830961105788813788==--
+--===============2376660112103382100==--
