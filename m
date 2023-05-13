@@ -1,27 +1,44 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 13 May 2023 16:22:22 -0000
-Message-Id: <168399494284.32369.6278708519612645009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 13 May 2023 16:49:04 -0000
+Message-Id: <168399654491.16299.13396975452811055261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/main
-    old: d80fc101d2eb9b3188c228d61223890aeea480a4
-    new: b41caaded077aa8e7617c15e87d0503df8e7739e
+  - ref: refs/heads/for-next
+    old: 43cd56460b1788db7b0b6cd3dfa3132b279dd62b
+    new: e11ff0914d61df18310aba0fa69b20041e96cf42
     log: |
-         9e4b45f20c5aac786c728619e5ee746bffce1798 net: dsa: rzn1-a5psw: enable management frames for CPU port
-         ebe9bc50952757b4b25eaf514da7c464196c9606 net: dsa: rzn1-a5psw: fix STP states handling
-         ec52b69c046a6219011af780aca155a96719637b net: dsa: rzn1-a5psw: disable learning for standalone ports
-         843eb679d831130c381aaf1ec3bfb9206921cc62 Merge branch 'dsa-rzn1-a5psw-stp'
-         89f6bfb071182f05d7188c255b0e7251c3806f16 net: hns3: fix output information incomplete for dumping tx queue info with debugfs
-         f14db07064727dd3bc0906c77a6d2759c1bbb395 net: hns3: fix sending pfc frames after reset issue
-         814d0c786068e858d889ada3153bff82f64223ad net: hns3: fix reset delay time to avoid configuration timeout
-         6b45d5ff8c2c61baddd67d7510075ae121c5e704 net: hns3: fix reset timeout when enable full VF
-         b41caaded077aa8e7617c15e87d0503df8e7739e Merge branch 'hns3-fixes'
+         4e959380ba823cdf4e643ff247b8359e1bcbf683 dt-bindings: arm: rockchip: add Anbernic RG353PS
+         4d83538aab4ccb59abdbf7f39568761a8b7d7ea1 arm64: dts: rockchip: add Anbernic RG353PS
+         87c692fde46a511aa365d220588d0566125f4035 arm64: dts: rockchip: Update leds for Anbernic RGxx3 Series
+         8788595d66b9d6ac62d844af013edc3b393d8aef dt-bindings: arm: rockchip: add FriendlyARM NanoPi R2C Plus
+         d211665c5a833873ee37e501af58adbf028e6b5f arm64: dts: rockchip: Add FriendlyARM NanoPi R2C Plus
+         bcac467b7ca045224bd0f35e245b8edfcb1c452e arm64: dts: rockchip: Add rk3588 OTP node
+         5325593377f07de31f7e473a9677a28a04c891f3 arm64: dts: rockchip: fix button reset pin for nanopi r5c
+         3338bf77309ca1f7dc7435352e89776e184b67fb Merge branch 'v6.4-armsoc/dtsfixes' into for-next
+         e11ff0914d61df18310aba0fa69b20041e96cf42 Merge branch 'v6.5-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.4-armsoc/dtsfixes
+    old: cf9ae4a0077496e8224d68fc88e3df13dd7e5f37
+    new: 5325593377f07de31f7e473a9677a28a04c891f3
+    log: |
+         5325593377f07de31f7e473a9677a28a04c891f3 arm64: dts: rockchip: fix button reset pin for nanopi r5c
+         
+  - ref: refs/heads/v6.5-armsoc/dts64
+    old: b9f8ca655d803a49266e73e26729882418407166
+    new: bcac467b7ca045224bd0f35e245b8edfcb1c452e
+    log: |
+         4e959380ba823cdf4e643ff247b8359e1bcbf683 dt-bindings: arm: rockchip: add Anbernic RG353PS
+         4d83538aab4ccb59abdbf7f39568761a8b7d7ea1 arm64: dts: rockchip: add Anbernic RG353PS
+         87c692fde46a511aa365d220588d0566125f4035 arm64: dts: rockchip: Update leds for Anbernic RGxx3 Series
+         8788595d66b9d6ac62d844af013edc3b393d8aef dt-bindings: arm: rockchip: add FriendlyARM NanoPi R2C Plus
+         d211665c5a833873ee37e501af58adbf028e6b5f arm64: dts: rockchip: Add FriendlyARM NanoPi R2C Plus
+         bcac467b7ca045224bd0f35e245b8edfcb1c452e arm64: dts: rockchip: Add rk3588 OTP node
          
