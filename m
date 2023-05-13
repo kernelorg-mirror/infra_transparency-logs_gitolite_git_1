@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6335694378415799843=="
+Content-Type: multipart/mixed; boundary="===============3287299642073892976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 13 May 2023 08:48:07 -0000
-Message-Id: <168396768771.6447.8676257462089958874@gitolite.kernel.org>
+Date: Sat, 13 May 2023 08:58:17 -0000
+Message-Id: <168396829709.14281.17310290473868003338@gitolite.kernel.org>
 
---===============6335694378415799843==
+--===============3287299642073892976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 986866c3dfb0f930c5cc109a6c509c1391d96b5f
-    new: ec5eb43813a4c775b5abf20f50461037bca7c4e5
+  - ref: refs/heads/usb-linus
+    old: 4e8ef34e36f2839ef8c8da521ab7035956436818
+    new: 614ce6a2ea50068b45339257891e51e639ac9001
     log: |
-         1f7d5520719dd1fed1a2947679f6cc26a55f1e6b USB: Extend pci resume function to handle PM events
-         1c024241d018cf9fc17aa8d95c3fe77d671d7142 xhci: Improve the XHCI system resume time
-         ec5eb43813a4c775b5abf20f50461037bca7c4e5 usb: dwc3: core: add support for realtek SoCs custom's global register start address
+         dddb342b5b9e482bb213aecc08cbdb201ea4f8da USB: UHCI: adjust zhaoxin UHCI controllers OverCurrent bit value
+         614ce6a2ea50068b45339257891e51e639ac9001 usb: dwc3: debugfs: Resume dwc3 before accessing registers
          
 
---===============6335694378415799843==
+--===============3287299642073892976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683967683 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683968295 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1683967682-1dd7bd9c5a80a495d6ef9a0de94f8ba1b2a75cfb
+nonce 1683968294-fbb4e901ece1de9e6a3dc08a4527be2ad38e41a6
 
-986866c3dfb0f930c5cc109a6c509c1391d96b5f ec5eb43813a4c775b5abf20f50461037bca7c4e5 refs/heads/usb-testing
+4e8ef34e36f2839ef8c8da521ab7035956436818 614ce6a2ea50068b45339257891e51e639ac9001 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfTsMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u8cP/AiVV1r8q+ykt5JDL11B
-EqsMKyr9UUwjIYBbPAqsKzsayRIjbSFt3rrzMB1Acsk8MHqzjHqk5KwelmJcaou6
-+U+ITmD41g1tkJ5M3emBuUjqrKvWxzCxaurCDzhVZ/aWoREaaEnBhpm7tHsG/Fj5
-9iFU8/MZR1RSGhGFXRvD4CVel2aEKTO6AOfmJsGvsUKY1fh7xRM5v9PdQp7vWY2s
-JUUbWSKiYZqsl+oN/hSM719p0gMrj+zz5vvvKPNLjOJl2RQ5MpDLLJB7vkJuqIjK
-0tzEIfgbiKTg+JZzi98IoT34DXgUHWfvCDYR1yuDN3Ypql4kxWdHQEgexvPn3Tgp
-GKYW6ldJ3nIp2jau0i4xTfx6FQHrABB4P1gZSgugxU3NDQxa+WeXz9MdId2mT8na
-J75S1Tu8oMWaDsgB1uwAHiewir45HOzGjrJ+SDUuZhb0ra28ETzLPbkS5EQaVKOZ
-1iAGtYaUocWfBIch37H8A/g3YQ9jSBg51iMGw/OjsSQ4Zf06u8CjtVoBR2hC+6Js
-EeRbZom0UPOw9y/21z4IDnKttO2HJYvPRCM0kSBl7L5wyj1NKu+LV4ZX3CFwtuH6
-pESwciEu410uciH74ZRDzmatpAS9o5wUHjjPitWVJhl/dxlcqsB8KKre2XT7GoP0
-cotnwd5EBZL1/f9yli9XR8o/
-=CySe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfUScbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AlwQALX8p56TjL1htosJ97AV
+xfL5edDqsOhx/vig2famdz1tQl2DckfIz7OOswoH2kMGLGF0qcqo5fsAi12a7K5R
+5BcROxct5TwVZy16XkB3d/U3HhgUzWLXM1ZcS6nkuphFRzlb+EvBWuKwlUvjzOip
+sKNvPiCy+Mc1mGQe63srsQw+tJN6zXL0peDabnppYTqtztwxQ+bCcylK3p9AlPHv
+FIzzNOcDxa1FFJzQJaQ2ZU8XyG3p3nXFcAtkR1Ga3YSQUjkY7NgV5IGqytJHbsds
+eYssFALYiBmpLYeAdWwGo3Qwli6VEmBxWK2lzAD0iEUtHifjerblf0oQXViD+xIm
+nbDxxgBRQ1I0MadOxKfgFq/JX6XJHb2cYOXjlh+4OlRveObWN0kEjg2RWaAG1mCb
+Nkcm4yr0PETCYPkn9SKmUtJW6NXMUEWtYV3qUQeibZPwnFxRUZXMjwbSw8az+5/U
+oZHElVWp4Dg7RFB3miSLKXUkR3GLOHvi7mDdWW4sFgtzkVeXeGBFgiwzrmGADCqu
+9OitWVZVj2c3IGGUlLiiSq261X606VXHW/xgwaeuoFPwWbSGzew0SDSupd3tQcG7
+KwvfSey/e5jrIElXPMB5fFRBADpSZHPsLSuB/O3Su583lB1EECQjcUGz/Aod63Ae
+jNzLwCyQYe0dZveiFz1RjEq3
+=o7XK
 -----END PGP SIGNATURE-----
 
---===============6335694378415799843==--
+--===============3287299642073892976==--
