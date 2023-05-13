@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 13 May 2023 18:31:51 -0000
-Message-Id: <168400271178.21015.2274249332433688262@gitolite.kernel.org>
+Date: Sat, 13 May 2023 18:38:02 -0000
+Message-Id: <168400308251.24440.831945438042084829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/fixes-togreg
-    old: 56cd3d1c5c5b073a1a444eafdcf97d4d866d351a
-    new: 09d3bec7009186bdba77039df01e5834788b3f95
+    old: 09d3bec7009186bdba77039df01e5834788b3f95
+    new: 55720d242052e860b9fde445e302e0425722e7f1
     log: |
-         09d3bec7009186bdba77039df01e5834788b3f95 iio: dac: mcp4725: Fix i2c_master_send() return value handling
+         55720d242052e860b9fde445e302e0425722e7f1 dt-bindings: iio: adc: renesas,rcar-gyroadc: Fix adi,ad7476 compatible value
          
