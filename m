@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 13 May 2023 19:58:34 -0000
-Message-Id: <168400791497.13767.17415168708303356811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 13 May 2023 20:30:58 -0000
+Message-Id: <168400985865.3452.3480658705777418011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/main
-    old: a0b7955310a445fc0d45a0ac576bad8720cd6057
-    new: befcc1fce564bdb20ee55be981a355b0a7d0eac5
+  - ref: refs/heads/for-next
+    old: cc719a9ce7a455bef132e0211437847bcd89b4ef
+    new: 5c0c2645fdb97b448deebb5f3dbfe9e30a72fdce
     log: |
-         befcc1fce564bdb20ee55be981a355b0a7d0eac5 sfc: fix use-after-free in efx_tc_flower_record_encap_match()
+         5c0c2645fdb97b448deebb5f3dbfe9e30a72fdce parisc: Fix encoding of swp_entry due to added SWP_EXCLUSIVE flag
          
