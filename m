@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 13 May 2023 15:28:58 -0000
-Message-Id: <168399173846.27884.9333207875556672098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
+Date: Sat, 13 May 2023 15:35:32 -0000
+Message-Id: <168399213278.638.3654246365906472757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/maz/cs-sw
+user: maz
 changes:
   - ref: refs/heads/master
-    old: 9a48d604672220545d209e9996c2a1edbb5637f6
-    new: d4d58949a6eac1c45ab022562c8494725e1ac094
+    old: b12951935bb7132713110b0f360684534291a26a
+    new: 95ba79ed1daf7e1a6432b4a203b092d584670ff0
     log: |
-         4913cfcf014c95f0437db2df1734472fd3e15098 nbd: Fix debugfs_create_dir error checking
-         5e6e08087a4acb4ee3574cea32dbff0f63c7f608 block/rnbd: replace REQ_OP_FLUSH with REQ_OP_WRITE
-         e485bd9e2c419142430ae6fe3e8f64e3059aef50 ublk: fix command op code check
-         56cdea92ed915f8eb37575331fb4a269991e8026 Documentation/block: drop the request.rst file
-         d4d58949a6eac1c45ab022562c8494725e1ac094 Merge tag 'block-6.4-2023-05-13' of git://git.kernel.dk/linux
+         15041be75c7043a7d4da8cbc834df3fa0c7b4d1d Clear CC pull-ups before starting measurements
+         a4fbd8f665d26c8744588e408bd2da4ba290d8c5 Clear CC pull-up when applying VCONN
+         ddea7a17b7609fe26ebf168fa60c83ca87f7b125 Restore fusb302_tcpm_set_vconn()
+         975f74e13cfcb1c5c6bae08f61919807938bd5be Enable VCONN when the opposite CC line isn't open
+         95ba79ed1daf7e1a6432b4a203b092d584670ff0 Add ^_^X as a disconnect sequence
          
