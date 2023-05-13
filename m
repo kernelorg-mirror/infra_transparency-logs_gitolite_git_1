@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5093861709420766569=="
+Content-Type: multipart/mixed; boundary="===============1727826231229783830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 13 May 2023 09:13:40 -0000
-Message-Id: <168396922030.23594.5855677894075670383@gitolite.kernel.org>
+Date: Sat, 13 May 2023 09:21:55 -0000
+Message-Id: <168396971537.30639.10342783504501767793@gitolite.kernel.org>
 
---===============5093861709420766569==
+--===============1727826231229783830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 614ce6a2ea50068b45339257891e51e639ac9001
-    new: 8432a15cd810c99db464b7e7858d559f3e1920e3
+  - ref: refs/heads/usb-testing
+    old: ec5eb43813a4c775b5abf20f50461037bca7c4e5
+    new: 02be19e914b8ec5b4e355508daf640dde761d300
     log: |
-         8432a15cd810c99db464b7e7858d559f3e1920e3 usb: gadget: drop superfluous ':' in doc string
+         424e02931e2bad6f8c442fd3d548379123bf1b13 usb: xhci: plat: remove error log for failure to get usb-phy
+         397376765249555800749d012b301609c62ae963 usb: xhci: tegra: enable stream protocol support
+         02be19e914b8ec5b4e355508daf640dde761d300 dt-bindings: usb: Add support for Microchip usb5744 hub controller
          
 
---===============5093861709420766569==
+--===============1727826231229783830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683969218 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1683969713 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1683969217-399381221d93d5337f65e2e84b01e1b5117f4e37
+nonce 1683969712-8318bade6926e65104542384c4fd186fbd8c6a43
 
-614ce6a2ea50068b45339257891e51e639ac9001 8432a15cd810c99db464b7e7858d559f3e1920e3 refs/heads/usb-linus
+ec5eb43813a4c775b5abf20f50461037bca7c4e5 02be19e914b8ec5b4e355508daf640dde761d300 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfVMIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OeYQALCPHMad0cIlC8BCwhfp
-vvd1Yt+P/The3rti3ugS8YV8UOJla/U5JgClOYaYgXAC8jw8qNX/8YR7Akr8YoT5
-4w7cVFlMTrYf2oDAR7jNglaXlNjX5LvBhaItmEXXo1SVIwaIB3JYeZ3O9TaLGwBf
-VN6xyqnod4FLHCtlp3lYN0vlVarzTBmyGcM3oh+bK8WEHIkIz/5CiM+Y2nbeRUb7
-EucA6Hmyez3WlHKFTZi1avfn3WxThfZcZRzznFIZjG5dDzkIK7xvaNAkgnE9XzB0
-0l/lZebJ0N7vSHf9JhQbICDNpUt0yBMw6xF+4CHzK5N2Hx+2DGpzNplzcT3Y5nJh
-rge02yKqqu1P8xLYk7ATcDRvD5+2i55XdzdmCxq2XYkimZDdhXYLS0iDcEe9rxPW
-0aSuDRdP8SpHsVrKfY34+bFGncaBlnSpUJs45NpilxwGzuexp0Iqh6NJPOwcVM2s
-XPmQ+q3opeR7tK/a2CYBaWHCZGCuGuIjElmNtiEq2qqjnhSAre1PBzD3/G30NBvQ
-Q7Py6+rvmZTUR8X0jFIw2V0XtCuPc9++NfkwbpBfxq/7sfT4jnc5NkfAEUNlYlz5
-XXczyqUdi2wa1oduCUMyY6lV0WwD+PNWa0JeKSGKAEsbcnfPK1K9bBGnf+1ZXm0p
-378k/xOKPcygmEiTQ+s0qoT7
-=F/FP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRfVrEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j30P/2D2KSWAS2OsZSJuObx7
+NxL/X+PWvXXJfbSPI7SeZMpz7BnWkCd6BuevovSxhsu7xsE7HMyK5jwVR8ztLdUx
+7mGTB52VHZuwpNhClRMyVss+jSnN0nYjvE5NMb2oM48XOttMuT8XUpVCGg5Q5DGY
+ZdAU6OU4KapGkam//zf+8kvO36TWe02que9fg1u6/Sw0jycB+rhFpu/AUyhN2M21
+23cVyjBrzybWKli2LjoHN41yOBxq9B19Iq87eJZGAfnHklNGUtln+H2g+TohxXdQ
+x3tA0ZJwBsTJra6RDs06dQZ+Tv/U05Uk2O/B7Ik2PnMVY4Z1EJiAWaGnU7HQylXR
+rG6Aex8yQ/EfrV49QaLsevsPqLctkm645gCcl0B9PZfaf53Xk3tOtBeh11SNBVLZ
+hxh4uLRIWB35sTRtY3UdNjB6GiB7gvYaBqvlgSGru1mhHfNLwElGFwZXEPa5HGKc
+Fw/UjaX1SCpVgzrQLqIf0J7SSHOIdzTJKmQ8ezL2Wxzz1mUpU7CUNJiyXbsDbh/Q
+TppXR2ovS8OT39NuRNaTZght/b84b6ofRrxt9fDt58+e3yIQz34u9EplcVgh4h6Y
+X07RA5JWpH9O6Wm+LCYSaZBFwrP7tQChE7TsHV/ZyxKDHxpLdTjEpncNQMejRpZG
+dQgwa4q7jsrvjXd6K1/7wp+Y
+=eAZt
 -----END PGP SIGNATURE-----
 
---===============5093861709420766569==--
+--===============1727826231229783830==--
