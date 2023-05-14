@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4796090174765337193=="
+Content-Type: multipart/mixed; boundary="===============8884587462981964671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 14 May 2023 06:34:13 -0000
-Message-Id: <168404605305.12559.11562938078025378002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 14 May 2023 06:34:42 -0000
+Message-Id: <168404608289.12797.6878703324886400898@gitolite.kernel.org>
 
---===============4796090174765337193==
+--===============8884587462981964671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: c21c0f9a20a963f5a1874657a4e3d657503f7815
+  - ref: refs/heads/staging-next
+    old: e7e444dfc2fa195deb4ae5cc5d67de51caa98fc4
+    new: 1f3413dc8eb0de023c5ec5994aef8225262d0f19
     log: |
-         800936191a26a5aba5caa3cbd70a4154b45eb94a Binder: Add timestamp to transaction record
-         c21c0f9a20a963f5a1874657a4e3d657503f7815 Binder: Add async from to transaction record
+         2151bbbdf7529ce21b96e084ec2f0973412f79b2 staging: rtl8192e: Rename tmpRegA and TempCCk
+         9c2501d68eaf9e9e550079e5d48d99bcd3687918 staging: rtl8192e: Rename tmpOFDMindex and tmpCCKindex
+         94c41266111b66c6c6de621bafde0c8fafcd6f7d staging: rtl8192e: Rename tmpCCK20Mindex and tmpCCK40Mindex
+         1f3413dc8eb0de023c5ec5994aef8225262d0f19 staging: rtl8192e: Refactor tmp_ofdm_index variable assignment
          
 
---===============4796090174765337193==
+--===============8884587462981964671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1684046052 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1684046052-2dded14bb462d2112478cf5d078aad8688993bb8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1684046082 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1684046081-d263c37cb7101df29c004d9877c36c8c80294c3e
 
-ac9a78681b921877518763ba0e89202254349d1b c21c0f9a20a963f5a1874657a4e3d657503f7815 refs/heads/char-misc-next
+e7e444dfc2fa195deb4ae5cc5d67de51caa98fc4 1f3413dc8eb0de023c5ec5994aef8225262d0f19 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRggOQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qncQALttgox3/TF1e4KI5pts
-EQCcE0BsjvCamkdUgxMnsDY81Xp0hzB7JRpcaYhGWPorcn6gvOTXKzubLmoGjW7W
-W5gbOqo/KpNH9t9Jp1C4Zco8Ux/0+6uDlKRMcRl1mSM23vAJsvyfkYaUA26pluYU
-Nj6rhmb0/k+2fPJt0huQeAWg8aQ81lQo98yjYsac+4ZSb7RBjVqnVole9UhTe6Gf
-GoLKfkWdCVnp2N6FiwPh78/yuRVc6pYi3FEdQl5r5Gp/4ANTqEE35Tymu0MN6Tks
-AJLkGquWAyF1WbSwrjeYt+wmK4fQ1M114eJfJyna+pmH5XZnFek6YjcEBADBgHiD
-TtnvBQSurkhF98v6yB4ieTVJgMMliBs3sPxc5yvZnzNt4I8Wn1CM+yjpak+eQ+1e
-lLkfYqvZ1ik0Z5cOrhfvEvhDSqtL02H46Ndjv6TT9x04YVdqRPI3UDBL6YEQ/NwX
-6ChRBkRwOq1eh30CbOjqT93QiIWdbXWLuyP30AYTd3A1OYjvAOX8s3n3MldfDaU3
-RmW4p7OBj0s+KmLvJSuYtN+1FjTVck5IM6XH8guA/0/gl/8E0otHy5vTMwc3skgK
-9l0uHY9XBtsXwFZNPckzlKmlH4Bzk9lOzpXhPCY+K38JRkkim1XHgY6hsgIbCHLz
-C9Xu1J3OxQuVSL3CieM9qaIN
-=GWea
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRggQIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qTMQAItGfmAqPTsDm+nayrpZ
+m+H7Pw1gUlcJ1jK6CLZRnYgMyV2BrPLj/uRzYjA7mJ3ewkPos36DefG2Q0MHBc/f
+TxRl4wFQ2wnv74En9C2810O2fFDxOtcRk1rGTx9qKTuBJ+pJ2Ug0nOEFqJ+QPaY4
+Qrd/MvdJbyjNLINT/A05+NyU3Xm6zUL6ZVe2Lzxsz3uZrHpur7fBamPdaYu36lFg
+3Zc78ov10MmnlVx9iznhsdsBNjX+H8YgblyNQgaPZbKH4OwW+UAXSE8Xc+lsAVFE
+wIzy2KALQHNWNngtsRvdOwoVevCTRAe1WVuQg6FCwNSFip+/Rd65u0s+TKtY5nCD
+o9/u+oGhCzgFZeYCu3jCd8janWpM+jVT7BwRZPVeLFQmh6QJYJFvmbl7xQqKOOwk
+K18vD5IpWW6w+ghYMQIEdccQg+ehVYmBHH0b/JEgkdorj/sTfZXoyKSOPFMds0/M
+quIFCF0Li2sv72HCdwf3cbyXAtCXsqu2uFANU0QhMcgpow3exPSUqkc7XCRetZ5j
+C1f6DSqQf9hq+1Bu1RfxPuQA5rsiHogNYMMBdkCRa19tlZF3EkRGZETP2pZ5QnV4
+p+pql/Y6vvyIz9Ffs6122DiRAzAPurXz8zjVaX9B7pecmGTE06YqvJfBgVqxAGca
+GDAjz6A6zEQIY4m929NJc2S4
+=iDif
 -----END PGP SIGNATURE-----
 
---===============4796090174765337193==--
+--===============8884587462981964671==--
