@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 14 May 2023 16:56:40 -0000
-Message-Id: <168408340029.16518.2482730002657100934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 14 May 2023 16:59:02 -0000
+Message-Id: <168408354204.17301.17097089536303618050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: 23cf1846f4395c61e2dd4309a344e937689702fd
-    new: deca397a73b48b84fae7811fcbc2dc121983ed3f
+  - ref: refs/heads/master
+    old: 01bc932561438be3a33d7c7c89be45f866168c5f
+    new: 838a854820eea0d21c6910cc3ab23b78d16aa1dd
     log: |
-         dd731888d1e0ee93af2daca5e545d5a58c45119b dt-bindings: iio: potentiometer: Add the Renesas X9250 potentiometers
-         b4b1754754d61796452de9fe821c29e515230c9b iio: potentiometer: Add support for the Renesas X9250 potentiometers
-         5e2eedc54c0d88858ab8796a5c86c30b37f6a329 MAINTAINERS: add the Renesas X9250 driver entry
-         deca397a73b48b84fae7811fcbc2dc121983ed3f dt-bindings: iio: st,lsm6dsx: reference common schema for mount-matrix
+         cc719a9ce7a455bef132e0211437847bcd89b4ef parisc: kexec: include reboot.h
+         6f9e98849edaa8aefc4030ff3500e41556e83ff7 parisc: Fix encoding of swp_entry due to added SWP_EXCLUSIVE flag
+         838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
          
