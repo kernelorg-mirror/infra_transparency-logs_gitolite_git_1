@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 14 May 2023 21:13:29 -0000
-Message-Id: <168409880947.23035.14849135095692981348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/stable-tools
+Date: Sun, 14 May 2023 21:14:49 -0000
+Message-Id: <168409888976.23522.5033092172771816305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ebiggers/stable-tools
+user: ebiggers
 changes:
   - ref: refs/heads/master
-    old: f0c3e1443abcb60ff76c18ebdb17f93b492374af
-    new: 360fb5f1ff719793bc2346b5e92ad78307454cd6
+    old: 498904e14b41b524a053ee33373dc1222820366e
+    new: 620d5583e2c23810437155ec7bcf738b61af4c92
     log: |
-         360fb5f1ff719793bc2346b5e92ad78307454cd6 Sun May 14 09:12:30 PM UTC 2023
+         620d5583e2c23810437155ec7bcf738b61af4c92 Fix finding the kernel version that a commit is based on
          
