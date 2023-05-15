@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 15 May 2023 14:38:53 -0000
-Message-Id: <168416153376.5878.9313774217108931130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 15 May 2023 14:42:29 -0000
+Message-Id: <168416174965.8613.12132526632124616496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/edac-for-next
-    old: b34348a0d7c513f78c70f4459a99c991f43688d5
-    new: 6c79e42169fe10308d72051950c411b3524c7aa9
+  - ref: refs/heads/main
+    old: d196289109fb1e4914387f37d357502ac2f442dc
+    new: 905d32656e4afd507b9150df03c6be2c6f972ace
     log: |
-         6c79e42169fe10308d72051950c411b3524c7aa9 EDAC/amd64: Add support for ECC on family 19h model 60h-7Fh
+         905d32656e4afd507b9150df03c6be2c6f972ace linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
          
