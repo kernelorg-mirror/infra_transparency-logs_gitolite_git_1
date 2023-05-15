@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 15 May 2023 18:51:58 -0000
-Message-Id: <168417671837.20112.10334709581400892430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 15 May 2023 19:04:02 -0000
+Message-Id: <168417744273.26841.17894774608318427673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/nfsd-next
-    old: aecdc938236372d8b2129b8fcfa27f63600db8fd
-    new: 8c49a0ffaed015e0e7762e3a17cb6fe72552074e
+  - ref: refs/heads/master
+    old: 412f959a780884290ddbb3711268f7060e6e7c19
+    new: a6903c65068c514a74e79319846d3b52f481bb32
     log: |
-         cacdca905b28df0545854bfbfd43dd623dca4d20 SUNRPC: Fix an incorrect comment
-         cfa9d97cfe2f907f1917fa79aa0ac24f6c9daebd SUNRPC: Remove dprintk() in svc_handle_xprt()
-         117798091962d0b695f550290cb0e8aa7c1ed802 SUNRPC: Improve observability in svc_tcp_accept()
-         b4295a6395626980e6875ec4300e362044df730c SUNRPC: Trace struct svc_sock lifetime events
-         9d82717ccc4fb8166d11f1c31ad4be56acde8385 NFSD: Clean up nfsctl white-space damage
-         b471983f9defae383c98ed741d1b3e4fdb9ad0a6 NFSD: Clean up nfsctl_transaction_write()
-         8c49a0ffaed015e0e7762e3a17cb6fe72552074e NFSD: trace nfsctl operations
+         f3eba19f1714e39dd28b9f5589b78c5bd0fd6d26 media: dt-bindings: ov2685: Correct data-lanes attribute
+         f1407decfa70ba060217cb1a84ceae23f727edf8 dt-bindings: PCI: fsl,imx6q: fix assigned-clocks warning
+         a6903c65068c514a74e79319846d3b52f481bb32 Merge tag 'v6.4-rc2-dts-raw'
          
