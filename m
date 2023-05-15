@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0276266193312760725=="
+Content-Type: multipart/mixed; boundary="===============2708133756301358682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 15 May 2023 11:08:54 -0000
-Message-Id: <168414893402.20894.15278912955833458974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 15 May 2023 11:08:59 -0000
+Message-Id: <168414893929.21024.12045700722065251177@gitolite.kernel.org>
 
---===============0276266193312760725==
+--===============2708133756301358682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/spi-6.4
     old: 4c329f5da7cfa366bacfda1328a025dd38951317
     new: ec9452594e04804cabbc561e88e96b48ab4655e4
     log: |
@@ -25,28 +25,28 @@ changes:
          ec9452594e04804cabbc561e88e96b48ab4655e4 spi: MAINTAINERS: drop Krzysztof Kozlowski from Samsung SPI
          
 
---===============0276266193312760725==
+--===============2708133756301358682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684148932 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1684148932-15f50dc66dac4b54307552f7129ef3d718b785d6
+pusher Mark Brown <broonie@kernel.org> 1684148937 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684148937-2bfac8123135b1cf1907c547fa0aab30e1df4aed
 
-4c329f5da7cfa366bacfda1328a025dd38951317 ec9452594e04804cabbc561e88e96b48ab4655e4 refs/heads/for-6.4
+4c329f5da7cfa366bacfda1328a025dd38951317 ec9452594e04804cabbc561e88e96b48ab4655e4 refs/heads/spi-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRiEsQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JCKB/9YbqPsw3NBhloBphfU8Mjdk5AllwbQ
-Qi2FmBv43L0bmg8FeA0mEMmE0yHaWsj+4e5YgxS1KohvwPORfw5UhpW9f/lN6O3s
-N/D8q43E7Q4ehkOd6x2Hpciozck/fXJrvuh974xwVt7W1iiUWfjXFOQrPIhYJNmD
-7qLWbHPmXKLoiasNeSRKE+jPWEVYI2pz45VD1UPHSAdIXvqWUli0P9z4JsRK8P/2
-xdp/z/HJ+NegxpJ2xb6h6NAWtCDbvqgvOJOjIAoCuFgGXxZODHqKhcZbB6j00TnZ
-7F3AIzpbyezgOeTQTL3eKOLOolW5k+tV2KZCLmkC+rkHkd5FrJvbeA3R
-=CHWS
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRiEskTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0GPrB/4w1Gz6F0xGyUwiaBVEXJCJe0xASkZZ
+YwjvnAakQ5bLlhDouGx8QZZSyjREwDNDnrpzAnf+qGfIH5EM0H9d8MlHzp9I2Zmm
+0sSwjSZsDATFcizpS4qjHnWfi+KOZRmSKsKNd8UHcLG4FC1WaZ86RDF6zU7oNI6/
+MPQNotl3K5yL1YMxXwMtMxXYqQVCGGwWRR1HK7B0uMmyTB9rwhnC1ozpPwny9rn9
+Cn7BXPkuIdGi5gsI81TDeOnUcHh7e3OaJBrGfjX0Cjz0lkhTDVOAjmErL9vditG3
+JmId/Q3v57/Fh0gTMPoJR1oSPoSJTx4lKzCBzQ7q07MkLNczNhtuOqDz
+=UcHz
 -----END PGP SIGNATURE-----
 
---===============0276266193312760725==--
+--===============2708133756301358682==--
