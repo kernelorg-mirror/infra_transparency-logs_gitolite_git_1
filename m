@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2725159896292391381=="
+Content-Type: multipart/mixed; boundary="===============6139096248870752518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 15 May 2023 15:30:37 -0000
-Message-Id: <168416463778.12262.6965048916849251560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 15 May 2023 15:30:52 -0000
+Message-Id: <168416465207.12424.8129193632287360857@gitolite.kernel.org>
 
---===============2725159896292391381==
+--===============6139096248870752518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: fe0d5b9a4d6bb1781b462ab5f649d2085492643a
-    new: fc1d62b3588b74153c0823f7ad59925e586732de
-    log: revlist-fe0d5b9a4d6b-fc1d62b3588b.txt
+  - ref: refs/heads/for-next
+    old: 2ce6f9771346da6b5e9cdfabbcc53f6701feac6c
+    new: cea2194d97fefffab2e4528a21cb2c136fab96f8
+    log: revlist-2ce6f9771346-cea2194d97fe.txt
 
---===============2725159896292391381==
+--===============6139096248870752518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684164636 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684164635-239ef598947659ad53f4f84a77e44f36222866e8
-
-fe0d5b9a4d6bb1781b462ab5f649d2085492643a fc1d62b3588b74153c0823f7ad59925e586732de refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRiUBwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JiyB/9Ujy5XfK46hW6f2lP+XI8EVTrFC6jA
-NNKwUqpeNSdwCEOnyKxCjzM2eXpsnlmuzxjJhPoUcehIz00+Jr16y5MxXUS+DQyR
-vrGAOXLm3ejbKx4uV60VmJp360/uPxZ9Iap+CIq1OPApP7EDutq8HXmV8L2Ex5fU
-8Scydae0jEUI7yPrznMStZ1t4Ge6fPHyqmebLDZGxJ1yldL51AvN65RWDY8P0u/5
-wqNBVP3W2V1EwU1awTpIH9cfZ2R0cZGS5rS9tEzR3b6IBb0rzvmLpyda3KO2MS1+
-cJK+Wfn8aPzlHkZ+xsVOf/l+/FdMkpHHFKbUvz08DzUwbQg98s0aXGtG
-=d9Fi
------END PGP SIGNATURE-----
-
---===============2725159896292391381==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe0d5b9a4d6b-fc1d62b3588b.txt
+Content-Disposition: attachment; filename=revlist-2ce6f9771346-cea2194d97fe.txt
 
 4db399793c34c72dcad18815d54c0cd23750b8f1 ASoC: mediatek: mt8188: remove supply AUDIO_HIRES
 2664c8790cfdcaa81ff8b3b9f649a6635955d636 ASoC: mediatek: mt8188: complete set_tdm_slot function
@@ -71,5 +46,6 @@ f37b702cb6f76963013af951737e49e61bf35771 ASoC: SOF: ipc4-topology: New helper to
 5a56c5335d36decbdcb80900c665360fbbd1042a ASoC: SOF: ipc4-topology: Modify input audio format selection logic
 25428a9da703539837dee040a18019bb16db1453 ASoC: mediatek: mt8188: revise AFE driver
 fc1d62b3588b74153c0823f7ad59925e586732de ASoC: SOF: ipc4-topology: Improve the audio format
+cea2194d97fefffab2e4528a21cb2c136fab96f8 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
 
---===============2725159896292391381==--
+--===============6139096248870752518==--
