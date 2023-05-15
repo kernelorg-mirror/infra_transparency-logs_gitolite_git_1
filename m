@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0144539551635447597=="
+Content-Type: multipart/mixed; boundary="===============4896174159880594697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 15 May 2023 23:41:25 -0000
-Message-Id: <168419408525.20021.12240242322469650967@gitolite.kernel.org>
+Date: Mon, 15 May 2023 23:41:44 -0000
+Message-Id: <168419410493.20184.2784330943553199297@gitolite.kernel.org>
 
---===============0144539551635447597==
+--===============4896174159880594697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 7c1a4441ddf1aeba8ad4c411478eac37abcacc55
-    new: e012e4a7226bee81e571b7854734d44a55a2eda2
-    log: revlist-7c1a4441ddf1-e012e4a7226b.txt
+    new: ce9aa1db78b4d06c6eddef8b16e032cac7728d01
+    log: revlist-7c1a4441ddf1-ce9aa1db78b4.txt
 
---===============0144539551635447597==
+--===============4896174159880594697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c1a4441ddf1-e012e4a7226b.txt
+Content-Disposition: attachment; filename=revlist-7c1a4441ddf1-ce9aa1db78b4.txt
 
+9ccbc21166ce149c5f7429cad22f9073d3fab0b1 perf tests api-io: Use zfree() to reduce chances of use after free
 2e384400549be734795072b1d904880efc0db2f9 perf arm-spe: Use zfree() to reduce chances of use after free
 11ff9bcd7dfeefa6a9a9fcd4c7775b8066c46a31 perf metricgroups: Use zfree() to reduce chances of use after free
 57f14b5ae1a97537f2abd2828ee7212cada7036e perf pmu: zfree() expects a pointer to a pointer to zero it after freeing its contents
@@ -1049,6 +1050,5 @@ f5eb84855e19f55b1605029da6448e6466d23ad6 tools/testing/cxl: Use DEFINE_STATIC_SR
 12e978fd023b8ef7338d7d38d188c84b60be4482 Linux 6.4-rc2
 540ae7b6eee33f3ae795be2f615a89a1944a1160 tpm_tis: Use tpm_chip_{start,stop} decoration inside tpm_tis_resume
 ce9aa1db78b4d06c6eddef8b16e032cac7728d01 tpm: Prevent hwrng from activating during resume
-e012e4a7226bee81e571b7854734d44a55a2eda2 tpm: tpm_vtpm_proxy: fix a race condition in /dev/vtpmx creation
 
---===============0144539551635447597==--
+--===============4896174159880594697==--
