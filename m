@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 15 May 2023 22:49:07 -0000
-Message-Id: <168419094764.16536.10944093041473253022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Mon, 15 May 2023 22:55:21 -0000
+Message-Id: <168419132132.22909.11347113051030093974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/fixes
-    old: b2f2a3c9800208b0db2c2e34b05323757117faa2
-    new: 4cbb0d358883a27e432714b5256f0362946f5e25
+  - ref: refs/heads/main
+    old: 905d32656e4afd507b9150df03c6be2c6f972ace
+    new: 512909428e46953e4ade391387aef1305f52029c
     log: |
-         4cbb0d358883a27e432714b5256f0362946f5e25 power: supply: mt6360: add a check of devm_work_autocancel in mt6360_charger_probe
+         b8a56bf227d3d1f435628c3b46ffa8f0a912be5f cirrus: Add firmware and tuning files for Lenovo ThinkPad P1 Gen 6
+         cc628d657e2d516bef3e0955042df07e5a35eb16 cirrus: Add firmware and tuning files for HP G10 series laptops
+         512909428e46953e4ade391387aef1305f52029c Merge branch 'main' of https://github.com/CirrusLogic/linux-firmware
          
