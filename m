@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 15 May 2023 09:14:32 -0000
-Message-Id: <168414207200.26216.10057434844565905154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 15 May 2023 09:16:10 -0000
+Message-Id: <168414217050.28395.16452881880096743970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: dcfce7c2cee481853e7717890e1e2d6daba354c4
-    new: 11a3b0ac33d95aa84be426e801f800997262a225
+  - ref: refs/heads/main
+    old: 5306623a9826aa7d63b32c6a3803c798a765474d
+    new: b48a18644046c9bc0667493a147dfa01e8241eab
     log: |
-         11a3b0ac33d95aa84be426e801f800997262a225 cpufreq: imx6q: don't warn for disabling a non-existing frequency
+         b48a18644046c9bc0667493a147dfa01e8241eab net: mdio: i2c: fix rollball accessors
          
