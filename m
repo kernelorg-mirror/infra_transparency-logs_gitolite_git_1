@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1539672021198961061=="
+Content-Type: multipart/mixed; boundary="===============7741317846374318339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 15 May 2023 07:56:57 -0000
-Message-Id: <168413741734.8388.1047257286447528400@gitolite.kernel.org>
+Date: Mon, 15 May 2023 07:57:27 -0000
+Message-Id: <168413744703.8606.2577121799961756918@gitolite.kernel.org>
 
---===============1539672021198961061==
+--===============7741317846374318339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: f4796398f21b9844017a2dac883b1dd6ad6edd60
     new: b2cbac9b9b28730e9e53be20b6cdf979d3b9f27e
     log: revlist-f4796398f21b-b2cbac9b9b28.txt
 
---===============1539672021198961061==
+--===============7741317846374318339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ befcc1fce564bdb20ee55be981a355b0a7d0eac5 sfc: fix use-after-free in efx_tc_flowe
 6d4ff8aed3b3f3afe12b40ff7e48815fc9688889 Merge tag 'wireless-next-2023-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 b2cbac9b9b28730e9e53be20b6cdf979d3b9f27e net: Remove low_thresh in ip defrag
 
---===============1539672021198961061==--
+--===============7741317846374318339==--
