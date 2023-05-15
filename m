@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8923404876393025861=="
+Content-Type: multipart/mixed; boundary="===============8455275371286498153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 15 May 2023 20:33:47 -0000
-Message-Id: <168418282792.21679.8145270243616834644@gitolite.kernel.org>
+Date: Mon, 15 May 2023 20:34:25 -0000
+Message-Id: <168418286538.21958.10879001321478862295@gitolite.kernel.org>
 
---===============8923404876393025861==
+--===============8455275371286498153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ba79e9a73284f576f336814125571432a2b3940f
-    new: 0d9b41daa5907756a31772d8af8ac5ff25cf17c1
-    log: revlist-ba79e9a73284-0d9b41daa590.txt
+  - ref: refs/heads/dev-queue
+    old: 5bb40c514c3011a58f8ec66a0c53146d19569648
+    new: f6e04d18c63132667c3d6d20bd561b04ea83601f
+    log: revlist-5bb40c514c30-f6e04d18c631.txt
 
---===============8923404876393025861==
+--===============8455275371286498153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba79e9a73284-0d9b41daa590.txt
+Content-Disposition: attachment; filename=revlist-5bb40c514c30-f6e04d18c631.txt
 
 ac48499e2bf5b06e09e256039e56e695e9c2c667 wifi: rtl8xxxu: Add start_ap() callback
 25ed009cc0aafd946008e323da5da43311ed4ac7 wifi: rtl8xxxu: Select correct queue for beacon frames
@@ -114,5 +114,48 @@ efe103065ccb4984c094d1547d71d498129cdd89 docs: octeontx2: Add Documentation for 
 c515a4443cb8c8802751223b13855d1575db8cad net: ethernet: microchip: vcap: Remove extra semicolon
 d1e4632b304c594d6f0d4cb7581350e5a6fc33b7 octeontx2-pf: mcs: Remove unneeded semicolon
 0d9b41daa5907756a31772d8af8ac5ff25cf17c1 nfc: llcp: fix possible use of uninitialized variable in nfc_llcp_send_connect()
+803bc575ac59139c7e9e0807614f74686f4a66ff ice: Support 5 layer topology
+070be900e905e69145be71658d8984f9aa8915a5 ice: Adjust the VSI/Aggregator layers
+af5c9f004fa15d32cd83d10f9309235186d699b6 ice: Enable switching default tx scheduler topology
+d00628e3c7212d3f49ee500d00c5de554e61dc06 ice: Add txbalancing devlink param
+976ed0bb8d2e77bf7f9bec382adf121dd15adb03 ice: Document txbalancing parameter
+5e2e49454c088316a36091e7a542280ec44f1ad6 ice: move interrupt related code to separate file
+2224fe90bef988310d4884b486132b8670b5b487 ice: use pci_irq_vector helper function
+0e4c18b8f6de1c43e1b076e7aa6e5b0ae108e7e3 ice: use preferred MSIX allocation api
+6e91cd6afee1a99c2a5ace9fcfb6d012805549ab ice: refactor VF control VSI interrupt handling
+bd1358862162ad015478e6b5618ff13f8639cdc2 ice: remove redundant SRIOV code
+875b998ab62644d7ba78930a7b5633fc9296a76d ice: add individual interrupt allocation
+fb5ff123168aa7841b7fd45dd8833c11ec7af05c ice: track interrupt vectors with xarray
+5a1155caf8fe35a0f251cf462024dc15b8b7972e ice: add dynamic interrupt allocation
+8178b507bbd5a1212c505d139eff8f8c2461d610 ice: define meta data to match in switch
+11b2a9195337a2b50806ecf5b1ad6725e40cf9ca ice: remove redundant Rx field from rule info
+ceab3bec6d4217d2f52aa63cdd8754847aeaab3f ice: specify field names in ice_prot_ext init
+1d8c3caccdf76af1164fcd8c4ca38d07331237d1 ice: allow matching on meta data
+c636566ffe361a4db2df42fc975b4d4922488e43 ice: use src VSI instead of src MAC in slow-path
+88e90185b0c5732071e0716ed45383de1a40a154 igc: Clean the TX buffer and TX descriptor ring
+1c672cb03a9f690f18a68f015998ada4f4f3c067 iavf: send VLAN offloading caps once after VFR
+3c168c82ed675a61d841f19aab965cce39db7f61 ice: Fix stats after PF reset
+95e1d3eb90314b1d74882a603d1edfa5e64fd692 igc: Fix possible system crash when loading module
+59ac8eb691a6ec40c98b38830f97ee8a6b6e73aa ice: Fix ice VF reset during iavf initialization
+60c3e725b9381378a3555605f98e836c18797019 igc: Avoid transmit queue timeout for XDP
+4da847a9d9cd9d31fdb96ad3f88e0e751066f314 igb: fix nvm.ops.read() error handling
+71a0372a5731754437f834edb9f8c1a84c92b6c3 igb: fix bit_shift to be in [1..8] range
+ca0eefa3daaeb2064d839f08b6c2274d614f1d8a i40e: add PHY debug register dump
+10fec1121943c2987f86964d86bc78e9a9fa5f1d ice: Fix undersized tx_flags variable
+38cce651f8bf5c6d7fcce7d0e66e5fde94a17cfb ice: update ICE_PHY_TYPE_HIGH_MAX_INDEX
+0400e7b27460bad595ade35e1cc2da7074e7d2af ice: refactor PHY type to ethtool link mode
+15394c66f8bb99a6167766b5b8113038cdad2c47 ice: update PHY type to ethtool link mode mapping
+e102adbedbfaaf2cecacc39f16130cc4249468ae igb: Define igb_pm_ops conditionally on CONFIG_PM
+d82dda9ec9181ac185506c4739603f17812007f9 iavf: remove mask from iavf_irq_enable_queues()
+eeed35f38914457a598e902290b8deb0015e13fe ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+7e832778b34c478d1891bc3e54cb77c8b93640f2 iavf: Fix use-after-free in free_netdev
+4c01869ea933cb82ec3df7662800554ac2f7217f iavf: Fix out-of-bounds when setting channels on remove
+2d6d0d2209ae5ccde3401e0cf9ce1340b961fa90 ice: Fix ice module unload
+fc3aa9f14575506af0ad013d41698fc697a7efd4 igc: Fix race condition in PTP tx code
+d669d839aad332fa97b7bd12359d06ee8e82e5b8 igc: Check if hardware TX timestamping is enabled earlier
+b16ab6a692a700d72308979e4ed5e3db46ae7d70 igc: Retrieve TX timestamp during interrupt handling
+3441859602054b103c211b9768c3aa97e977814d igc: Add workaround for missing timestamps
+00d4a4511ddbfa5c1d83415cf3424f3495b4bf3b MAINTAINERS: update Intel Ethernet links
+f6e04d18c63132667c3d6d20bd561b04ea83601f ice: Remove LAG+SRIOV mutual exclusion
 
---===============8923404876393025861==--
+--===============8455275371286498153==--
