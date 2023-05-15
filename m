@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 15 May 2023 10:56:06 -0000
-Message-Id: <168414816671.13145.14443578082338384039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 15 May 2023 10:56:33 -0000
+Message-Id: <168414819340.13382.18283745091797395285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-6.5
-    old: af233bd2931b1a6598be38713d69cd42aa5e7e26
-    new: 1946dda47c8807517ccaa8caf8ee7de3498db531
+  - ref: refs/heads/for-linus
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: d67dada3e2524514b09496b9ee1df22d4507a280
     log: |
-         1946dda47c8807517ccaa8caf8ee7de3498db531 ASoC: Merge up fixes for CI
+         d67dada3e2524514b09496b9ee1df22d4507a280 regulator: pca9450: Fix BUCK2 enable_mask
+         
+  - ref: refs/heads/for-next
+    old: cf27b7d9a574f3383be0ed1953cceda9a715eb51
+    new: 0c98de8fe29e567e259b8668d141c9dd7c08896d
+    log: |
+         d67dada3e2524514b09496b9ee1df22d4507a280 regulator: pca9450: Fix BUCK2 enable_mask
+         0c98de8fe29e567e259b8668d141c9dd7c08896d Merge remote-tracking branch 'regulator/for-6.5' into regulator-next
          
