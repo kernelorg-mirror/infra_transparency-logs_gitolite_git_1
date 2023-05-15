@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2499264575652463542=="
+Content-Type: multipart/mixed; boundary="===============4044182185532278193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 15 May 2023 20:46:00 -0000
-Message-Id: <168418356057.30277.17342737545502587182@gitolite.kernel.org>
+Date: Mon, 15 May 2023 20:46:34 -0000
+Message-Id: <168418359412.30533.10672170060121326694@gitolite.kernel.org>
 
---===============2499264575652463542==
+--===============4044182185532278193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 1e306ec49a1f206fd2cc89a42fac6e6f592a8cc1
-    new: df0acdc59b094cdaef19b1c8d83c9721082bab7b
-    log: revlist-1e306ec49a1f-df0acdc59b09.txt
+  - ref: refs/heads/dev-queue
+    old: ec27d92344ce9446605c6099bbb4bc7b2a442234
+    new: e5bf2e286e8488ea827e6ecf876d9256caf879e8
+    log: revlist-ec27d92344ce-e5bf2e286e84.txt
 
---===============2499264575652463542==
+--===============4044182185532278193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e306ec49a1f-df0acdc59b09.txt
+Content-Disposition: attachment; filename=revlist-ec27d92344ce-e5bf2e286e84.txt
 
 d80fc101d2eb9b3188c228d61223890aeea480a4 erspan: get the proto with the md version for collect_md
 9e4b45f20c5aac786c728619e5ee746bffce1798 net: dsa: rzn1-a5psw: enable management frames for CPU port
@@ -45,5 +45,19 @@ b48a18644046c9bc0667493a147dfa01e8241eab net: mdio: i2c: fix rollball accessors
 35a089b5d793d2bfd2cc7cfa6104545184de2ce7 tipc: check the bearer min mtu properly when setting it by netlink
 d1b2777d1467a3aa86d403492cc0411bf429dbe4 Merge branch 'tipc-fixes'
 df0acdc59b094cdaef19b1c8d83c9721082bab7b net: phylink: fix ksettings_set() ethtool call
+683ab9b009241d8e79b7e6c4160a2a3d0b8f73e7 iavf: send VLAN offloading caps once after VFR
+6d9a6ef1df3dcbded377ffc5e040c8dfe560fdf3 ice: Fix stats after PF reset
+4d977119050108ba1f7e78c47370edf327b102fa igc: Fix possible system crash when loading module
+6da7fe4981eb55e89057baf3ad139a4b3e70dbf7 ice: Fix ice VF reset during iavf initialization
+80626b2c0f8f6e56f45112f186d40c5e64d78087 igb: fix nvm.ops.read() error handling
+5d011b5f275c0ebab5ea5ba2b42ed92b8ca600f6 igb: fix bit_shift to be in [1..8] range
+fb35e5be5161d605aabbe11c87dea5e12f001714 iavf: Fix use-after-free in free_netdev
+4e40277c840f51d56d80b3a5519105c568332392 iavf: Fix out-of-bounds when setting channels on remove
+83a3b6192abe083596ad800206aeadc0beee2ecf ice: Fix ice module unload
+4c4a55eed7ced997b80a4b2f962a3553d9006d0b igc: Fix race condition in PTP tx code
+32cd1e83c1213565c36e961d262ec5016c4b6766 igc: Check if hardware TX timestamping is enabled earlier
+b9587752b010734ea9beaa26edc778958f7fe590 igc: Retrieve TX timestamp during interrupt handling
+178a7235fad5d378c634a201c691d0c7ef8673df igc: Add workaround for missing timestamps
+e5bf2e286e8488ea827e6ecf876d9256caf879e8 igc: Clean the TX buffer and TX descriptor ring
 
---===============2499264575652463542==--
+--===============4044182185532278193==--
