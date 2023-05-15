@@ -1,59 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5749601978116258918=="
+Content-Type: multipart/mixed; boundary="===============4796651603063362044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 15 May 2023 08:48:18 -0000
-Message-Id: <168414049803.8489.16254135415338862841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Mon, 15 May 2023 08:49:29 -0000
+Message-Id: <168414056974.9203.204059786232840943@gitolite.kernel.org>
 
---===============5749601978116258918==
+--===============4796651603063362044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/master
-    old: dce70215cdd5598b16b34f41c88d168ad124cd45
-    new: 71ec253172b2aeec66d487d9a450ac3ea9037e2c
-    log: revlist-dce70215cdd5-71ec253172b2.txt
-  - ref: refs/heads/next
-    old: be43a9462ec2358f9bdc10832c2cf0f5a5e944c2
-    new: 21330625d0f5970080f69db3d7634441d6484a07
-    log: |
-         3f1e1ad9230f8b1c415b432841db2b2850450fd4 ARM: shmobile: defconfig: Refresh for v6.4-rc1
-         cb9a39aacd3d6387b6f1f178a96eadceba90454e soc: renesas: rcar-rst: Allow WDT reset on R-Car V3U
-         21330625d0f5970080f69db3d7634441d6484a07 Merge branches 'renesas-arm-defconfig-for-v6.5' and 'renesas-drivers-for-v6.5' into renesas-next
-         
-  - ref: refs/heads/topic/renesas-defconfig
-    old: 9a6e18e0660bc859cecae6305170bf704293b246
-    new: f60684f9ad9bbf61adc9fc0b0b60550cbf90b856
-    log: |
-         f60684f9ad9bbf61adc9fc0b0b60550cbf90b856 arm64: renesas: defconfig: Refresh for v6.4-rc1
-         
-  - ref: refs/heads/renesas-arm-defconfig-for-v6.5
-    old: 0000000000000000000000000000000000000000
-    new: 3f1e1ad9230f8b1c415b432841db2b2850450fd4
-  - ref: refs/heads/renesas-drivers-for-v6.5
-    old: 0000000000000000000000000000000000000000
-    new: cb9a39aacd3d6387b6f1f178a96eadceba90454e
-  - ref: refs/tags/renesas-devel-2023-05-15-v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c8a52f34e051d17b02c06495d0a7858a79679130
-  - ref: refs/tags/renesas-next-2023-05-15-v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5f6be0ef013e23f5d1f7a637456cedc78a2572a6
-  - ref: refs/tags/v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/heads/b4/dma_iommu
+    old: 9c7dbd7acc95a1a5566556f8f8c184a08657c606
+    new: 61c5f3238a8d4e9f296d7ecdd068ee9b83d82ec6
+    log: revlist-9c7dbd7acc95-61c5f3238a8d.txt
 
---===============5749601978116258918==
+--===============4796651603063362044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dce70215cdd5-71ec253172b2.txt
+Content-Disposition: attachment; filename=revlist-9c7dbd7acc95-61c5f3238a8d.txt
 
 4327a6137ed43a091d900b1ac833345d60f32228 drm/ast: Fix ARM compatibility
 c8687694bb1f5c48134f152f8c5c2e53483eb99d drm/fbdev-generic: prohibit potential out-of-bounds access
@@ -256,10 +227,12 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
-f60684f9ad9bbf61adc9fc0b0b60550cbf90b856 arm64: renesas: defconfig: Refresh for v6.4-rc1
-3f1e1ad9230f8b1c415b432841db2b2850450fd4 ARM: shmobile: defconfig: Refresh for v6.4-rc1
-cb9a39aacd3d6387b6f1f178a96eadceba90454e soc: renesas: rcar-rst: Allow WDT reset on R-Car V3U
-21330625d0f5970080f69db3d7634441d6484a07 Merge branches 'renesas-arm-defconfig-for-v6.5' and 'renesas-drivers-for-v6.5' into renesas-next
-71ec253172b2aeec66d487d9a450ac3ea9037e2c Merge branches 'renesas-next' and 'topic/renesas-defconfig', tag 'v6.4-rc2' into renesas-devel
+4c84bec3da75e281e0d47bfd5315171e211c1b30 iommu/dma: s390 DMA API conversion and optimized IOTLB flushing
+44ef97c12756a44aa8ecc05e5baff54704ced74f s390/ism: Set DMA coherent mask
+270b0ae9007027a1fb0b4b462281f164e0d2a60e iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
+88eb588b9ddfaa286e445f918949991deaf3dafc s390/pci: prepare is_passed_through() for dma-iommu
+3fbeeb24fa95cb086aea4286ab037fefd1e5bce4 s390/pci: Use dma-iommu layer
+83b7608cb56d32f0062d6c539f0284cb63f94df1 iommu/dma: Allow a single FQ in addition to per-CPU FQs
+61c5f3238a8d4e9f296d7ecdd068ee9b83d82ec6 iommu/dma: Make flush queue sizes and timeout driver configurable
 
---===============5749601978116258918==--
+--===============4796651603063362044==--
