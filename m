@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6139096248870752518=="
+Content-Type: multipart/mixed; boundary="===============9087076675692401589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 15 May 2023 15:30:52 -0000
-Message-Id: <168416465207.12424.8129193632287360857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 15 May 2023 15:42:53 -0000
+Message-Id: <168416537317.19065.8518606625070744535@gitolite.kernel.org>
 
---===============6139096248870752518==
+--===============9087076675692401589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 2ce6f9771346da6b5e9cdfabbcc53f6701feac6c
-    new: cea2194d97fefffab2e4528a21cb2c136fab96f8
-    log: revlist-2ce6f9771346-cea2194d97fe.txt
+  - ref: refs/heads/master
+    old: a27bc0469de2593abaf5b9cc497698779fdfbe8a
+    new: c5f790b8a3d926f623bae6d2e4b94ff66b2d0f38
+    log: |
+         c5f790b8a3d926f623bae6d2e4b94ff66b2d0f38 6.3-stable patches
+         
 
---===============6139096248870752518==
+--===============9087076675692401589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ce6f9771346-cea2194d97fe.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4db399793c34c72dcad18815d54c0cd23750b8f1 ASoC: mediatek: mt8188: remove supply AUDIO_HIRES
-2664c8790cfdcaa81ff8b3b9f649a6635955d636 ASoC: mediatek: mt8188: complete set_tdm_slot function
-e5d2bd4103df419fd33131f1aa7a8dea35e3638c ASoC: mediatek: mt8188: revise ETDM control flow
-9be0213a6858d0084a9e800d2b451678f014f337 ASoC: mediatek: mt8188: refine APLL control
-e9eab4bed0436a7b7268114ecf55fe4989855d47 ASoC: mediatek: mt8188: combine afe component registration
-fb167449cec1d2f34ef4c6d17ff860076ac0fc44 ASoC: mediatek: mt8188: add bus protection
-2e5c422a624aa35cefb5a448a2040df6627f505b ASoC: mediatek: mt8188: add required clocks
-1e4fe75e9746be8e40c57132bb3fba1ce3dd24af ASoC: dt-bindings: mediatek,mt8188-afe: correct clock name
-739ee993c38596d93150f96153f9bb1cfd7733bc ASoC: dt-bindings: mediatek,mt8188-afe: add audio properties
-4c7873d60958ed1895b6552fb1e15fa2bbf06cad ASoC: SOF: ipc4-topology: Handle input/output audio format special case
-523042f63febca24cbf9cf83729044c3dbaa9706 ASoC: SOF: ipc4-topology: Add a helper function for output format selection
-a2e07c3319f79f7305641b98d32765dc5b607873 ASoC: SOF: ipc4-topology: Move the call to init output format
-ae45aebe45600a85c410280badec6b209979cf7c ASoC: SOF: ipc4-topology: Rename sof_ipc4_init_audio_fmt()
-f1ceebdbe8d8915edb64045853ab23db8ddade60 ASoC: SOF: ipc4-topology: Handle output format special case
-35171c1a907cb1226ba190685c38f62ef02bbed8 ASoC: SOF: ipc4-topology: Add a new helper function to get the valid bits
-1af13f221ac331e2d493896df5315fb8b211b4aa ASoC: SOF: ipc4-topology: Modify the output format selection logic
-f37b702cb6f76963013af951737e49e61bf35771 ASoC: SOF: ipc4-topology: New helper to check if all output formats are the same
-5a56c5335d36decbdcb80900c665360fbbd1042a ASoC: SOF: ipc4-topology: Modify input audio format selection logic
-25428a9da703539837dee040a18019bb16db1453 ASoC: mediatek: mt8188: revise AFE driver
-fc1d62b3588b74153c0823f7ad59925e586732de ASoC: SOF: ipc4-topology: Improve the audio format
-cea2194d97fefffab2e4528a21cb2c136fab96f8 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1684165372 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1684165371-6b5c91322123060605f8b9cdaa472e71f63ca705
 
---===============6139096248870752518==--
+a27bc0469de2593abaf5b9cc497698779fdfbe8a c5f790b8a3d926f623bae6d2e4b94ff66b2d0f38 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRiUvwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DBAP/iPCn5Lzm8Fv0AQ2Qq+h
+b1okTjjZHTmkyC14aypYbilyrB8XWPfrCn+33JbF1P8t7A5Qwq7taqCT0PGYNc62
+rEcFaHCUx1J3AYMQH7SJJRPa+YZEshUAXB31qwICnhg0alrjnskLOJMC6qzPTNT0
+6a/MP1IFNAy43GYoteR8tvDWLOwhMpasrXa8ylOtkdYnqwr8JvpR+BL/IEWR4gcV
+kLd2CzWiP+0u72NWu4McAM6AAp65vzFs9a+N+ATKqL4HxL5n110cPxAHCqa6L1fy
+EwyKmISSpwPEVU3fdTn8WqL0XLhKWRY4Mr6xAUZ6Sif/umpM4lheuCy5JEjP4IL4
+ccsqxW4+iMcaXF5MQzzC1qykQpjMxm4Kj0hTwOjkAvLhYNo4kdTZYJ6nImqEvZhM
+M1q3PHRwvo5NgW7cGH16ggHh7PwsQvmzMZNby9KQbh2Oi91hvPVK6leeiVmOkTql
+U2cXMsnW6uR3kyJZnLDBDjEwYxXOpht34B166bKDNy3WCWCTD8TjFsX48SPSApK/
+nKK96ZpQdDoY6s7OT3N5k/4OhVi1NWaNSr9bmeHSfXKqhCBPni1IqyJTmf/fFb65
+d1NGAa5EySGAaikacn6k6xtcnlVlyEJ0U/grLbyZpku61ON8vLn7SHjvbLkow8lj
+7heu59sZbWHSmGdM04Vpkbgu
+=JUnD
+-----END PGP SIGNATURE-----
+
+--===============9087076675692401589==--
