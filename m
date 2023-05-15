@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 15 May 2023 10:49:05 -0000
-Message-Id: <168414774556.5917.14890111451328398208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Mon, 15 May 2023 10:53:17 -0000
+Message-Id: <168414799795.10191.5833607063839314569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 1c4f10518c3a6b4936fa2bcb790ef42035b365b3
-    new: 493e7cebb906948229528e608f7ddb9a77d9d3ee
-    log: |
-         493e7cebb906948229528e608f7ddb9a77d9d3ee jffs2: reduce stack usage in jffs2_build_xattr_subsystem()
-         
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
