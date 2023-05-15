@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 15 May 2023 17:24:56 -0000
-Message-Id: <168417149667.24538.5589036526253613953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 15 May 2023 17:25:32 -0000
+Message-Id: <168417153280.26946.2129285530569067972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/main
-    old: 905d32656e4afd507b9150df03c6be2c6f972ace
-    new: 512909428e46953e4ade391387aef1305f52029c
+  - ref: refs/heads/rproc-next
+    old: 47f64e7ef95a58e5c56f2ec62cbadbe868661149
+    new: de598695a2adc2affe7ce2e8787b5c01ce3aa661
     log: |
-         b8a56bf227d3d1f435628c3b46ffa8f0a912be5f cirrus: Add firmware and tuning files for Lenovo ThinkPad P1 Gen 6
-         cc628d657e2d516bef3e0955042df07e5a35eb16 cirrus: Add firmware and tuning files for HP G10 series laptops
-         512909428e46953e4ade391387aef1305f52029c Merge branch 'main' of https://github.com/CirrusLogic/linux-firmware
+         ef7129db96cb1ecf627ca82677f34ac3b37edab2 dt-bindings: remoteproc: st,stm32-rproc: Rework reset declarations
+         de598695a2adc2affe7ce2e8787b5c01ce3aa661 remoteproc: stm32: Allow hold boot management by the SCMI reset controller
          
