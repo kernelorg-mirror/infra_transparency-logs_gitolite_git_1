@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 15 May 2023 23:43:26 -0000
-Message-Id: <168419420631.20770.113026315660755589@gitolite.kernel.org>
+Date: Mon, 15 May 2023 23:43:40 -0000
+Message-Id: <168419422004.20929.2613488157323140177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: ce9aa1db78b4d06c6eddef8b16e032cac7728d01
+  - ref: refs/heads/master
+    old: e012e4a7226bee81e571b7854734d44a55a2eda2
     new: 99d46450625590d410f86fe4660a5eff7d3b8343
     log: |
          270205be711056534d1f86d275d4ec922fb62102 tools/testing/cxl: Use DEFINE_STATIC_SRCU()
