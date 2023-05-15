@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 15 May 2023 07:47:01 -0000
-Message-Id: <168413682197.537.12488990631593407696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 15 May 2023 07:48:19 -0000
+Message-Id: <168413689958.1046.4081881644474653594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: 6ead9c98cafcbc6992cf35f0ca393df2c03e3316
-    new: 5306623a9826aa7d63b32c6a3803c798a765474d
+  - ref: refs/heads/vfs.misc
+    old: 1454df87a54426087f198824aac276d206dcdf34
+    new: 3c5d4d803c6072207ef8e0f5c08165d5a243ac15
     log: |
-         5306623a9826aa7d63b32c6a3803c798a765474d virtio_net: Fix error unwinding of XDP initialization
+         3c5d4d803c6072207ef8e0f5c08165d5a243ac15 vfs: Replace all non-returning strlcpy with strscpy
          
