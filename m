@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0772773672568900445=="
+Content-Type: multipart/mixed; boundary="===============4739970183383288601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 15 May 2023 12:23:55 -0000
-Message-Id: <168415343565.9684.3484303156511850012@gitolite.kernel.org>
+Date: Mon, 15 May 2023 12:24:05 -0000
+Message-Id: <168415344570.9795.9168789873028981230@gitolite.kernel.org>
 
---===============0772773672568900445==
+--===============4739970183383288601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/tmp.perf/core
     old: 325002a14cc968e0684e7ad81c60c4ed6b91c799
     new: c0d68601cbcefaf69018b3e7aff2687316950ace
     log: revlist-325002a14cc9-c0d68601cbce.txt
 
---===============0772773672568900445==
+--===============4739970183383288601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ d6b7dd1107ee24c68f8540f34b0a0483ed5fac07 perf jevents: Don't rewrite metrics acr
 190c6854e9ea0290e6af0ec28ee76c4f90d57cb8 perf build: Don't use -ftree-loop-distribute-patterns and -gno-variable-location-views in the python feature test when building with clang-13
 c0d68601cbcefaf69018b3e7aff2687316950ace perf test: Add cputype testing to perf stat
 
---===============0772773672568900445==--
+--===============4739970183383288601==--
