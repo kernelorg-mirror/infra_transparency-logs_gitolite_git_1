@@ -1,59 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6802295657353414936=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 15 May 2023 03:29:02 -0000
-Message-Id: <168412134245.19087.5370602200057731546@gitolite.kernel.org>
-
---===============6802295657353414936==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Mon, 15 May 2023 03:31:26 -0000
+Message-Id: <168412148602.21528.2092176452400810351@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/for-next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 4272e06e19f388ccfe1f04f19060ea84d2a19a8b
-    log: revlist-ac9a78681b92-4272e06e19f3.txt
-
---===============6802295657353414936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-4272e06e19f3.txt
-
-590db411752dd8ef6504113643fc6c4f68660ffd arm64: dts: qcom: ipq9574: Enable the download mode support
-46384ac7a61885ee29cf918777d5f81a6446e9e6 arm64: dts: qcom: ipq9574: Add SMEM support
-b405d8d500e59e1edc51d934a766ea6127e1e69d arm64: dts: qcom: sc8280xp: Add ethernet nodes
-57827e87be5447559cc3495567349ff002a6b33a arm64: dts: qcom: sa8540p-ride: Add ethernet nodes
-3530167c6fe8001de6c026a3058eaca4c8a5329f soc: qcom: icc-bwmon: fix incorrect error code passed to dev_err_probe()
-3395d36e6805786c26d13188735bc796b9d7a7c9 soc: qcom: rpmh-rsc: drop redundant unsigned >=0 comparision
-775d08f3954174c030d41bc31a145c027e98b7f7 dt-bindings: arm: qcom: Add Fxtec Pro1X
-0e59d9e210912e037ec28bd057d06481100f0ba5 arm64: dts: qcom: Add Fxtec Pro1X (QX1050) DTS
-86c96823d4b5f0403d0418b89c614682a01ce28e arm64: dts: qcom: sa8775p: add the PMU node
-be543efeee17b93edaac61e49c6361d2209bd3d3 arm64: dts: qcom: sa8775p: add UFS nodes
-35c45a1125fc0772b95aa41acc25deddcf5492be arm64: dts: qcom: sa8775p-ride: enable UFS
-2dba7a613a6ea4c2f97abd770262f64ce53f7575 arm64: dts: qcom: sa8775p: add the pcie smmu node
-597cfc178829ac2e6f68736ec73417968a0810a5 arm64: dts: qcom: sa8775p: add the GPU clock controller node
-1a1ff00c1626c898feb8ceb93aa7b335a9923980 arm64: dts: qcom: sa8775p: add the GPU IOMMU node
-8125a56125114d91843918cc6ef95367c4c39fc7 arm64: defconfig: enable the SA8775P GPUCC driver
-40d5835998705c28b985b1325114114c6007546e arm64: dts: qcom: sa8775p: pmic: remove the PON modes
-6c92689a0a57b40c758a12c1ca668d6a36a805a6 arm64: dts: qcom: sa8775p: pmic: add the sdam_0 node
-09b701b89a761e5e9566d65326d5fe0e94eaa48f arm64: dts: qcom: sa8775p: add the watchdog node
-de1001525c1aa21380349ffbef8154149ef637e8 arm64: dts: qcom: sa8775p: add USB nodes
-4eefaf51f716be584bbc4f548d368255c682a3b9 arm64: dts: qcom: sa8775p-ride: enable USB nodes
-d3db273c8a11f377d867c49f95c7e7dc6ae26184 arm64: dts: qcom: sa8775p: enable AOSS
-0dc608855195c8f79e499e2a608b26e56e259810 dt-bindings: soc: qcom: aoss-qmp: add compatible for sa8775p
-2d80b1e649dd74f5226484e244e57990348a9f18 arm64: dts: qcom: sc8280xp: Revert "arm64: dts: qcom: sc8280xp: remove superfluous "input-enable""
-e10094bf590696a7f845790485cc3f753b2fd94a arm64: dts: qcom: sm8150: drop incorrect serial properties
-83254172fa7f4d4a400f2ff441f111e424dd5ee0 arm64: dts: qcom: sm8150: add missing qcom,smmu-500 fallback
-7df522338d63c42946eb82f8af7dba8c363bd725 arm64: dts: qcom: sm8150: drop snps,dw-pcie fallback compatible
-9230758996c3ff0b5cf8e8506731c956bfb351bf arm64: dts: qcom: sc8280xp: correct GIC child node name
-ce7c014937c442be677963848c7db62eccd94eac arm64: dts: qcom: sc8280xp: Flush RSC sleep & wake votes
-4272e06e19f388ccfe1f04f19060ea84d2a19a8b Merge branches 'arm64-defconfig-for-6.5', 'arm64-fixes-for-6.4', 'arm64-for-6.5', 'drivers-fixes-for-6.4' and 'drivers-for-6.5' into for-next
-
---===============6802295657353414936==--
+  - ref: refs/heads/imx/bindings
+    old: e6e81f10ca7455e9c8367c85d9f0bfac5b0c463f
+    new: 50552fa6ec91531634f29f9f89e09195ba5bfbbc
+    log: |
+         d2bf7abfd2352dd45cc99b2ce8c7344ac539a656 dt-bindings: arm: fsl: Add Emtop SoM & Baseboard
+         50552fa6ec91531634f29f9f89e09195ba5bfbbc dt-bindings: vendor-prefixes: Add Emtop
+         
+  - ref: refs/heads/imx/defconfig
+    old: 2b4e22a2b9e2c7f94f53ecd8cc78a37605dc387f
+    new: ad775ac13d01513f8a35235e5b2304623549ee7c
+    log: |
+         ad775ac13d01513f8a35235e5b2304623549ee7c arm64: defconfig: Enable video capture drivers on imx8mm/imx8mn
+         
+  - ref: refs/heads/imx/dt
+    old: 6d81b2f20c191e82a4bd6272e9ef4ec485b35c63
+    new: 6de27598cf30bf0956731a3853b2def9fe22d8c5
+    log: |
+         6de27598cf30bf0956731a3853b2def9fe22d8c5 ARM: dts: imx7ulp: add address/size-cells to OCOTP
+         
+  - ref: refs/heads/imx/dt64
+    old: b87f4ff57db90677f2c52b1c42c900b142231e00
+    new: cbd3ef64eb9d1be9ec647411547bc7bb8409b11f
+    log: |
+         ae9279f301b53e25a2b2635500fbd6f9b8249a61 arm64: dts: imx8mn: Add CSI and ISI Nodes
+         6bc3ea47332648a4211926ba7afc1e1fb935c71a arm64: dts: imx8mn-beacon: Add support for OV5640 Camera
+         b86c3afabb4f4ea146c206508527eb2a15485bcc arm64: dts: imx8mp: Add SAI, SDMA, AudioMIX
+         9b4176ae2fc3b28fb41f882f24cd617d8a3be253 arm64: dts: imx8mp: Add analog audio output on i.MX8MP EVK
+         84e29d79be2d5ced59816f458609b7d0c393e89c arm64: dts: imx93: add watchdog node
+         5a866baab1e0254ac8922c7598df48f2c12e86d8 arm64: dts: imx93: add ocotp node
+         f2d03ba997cb5370060874f03e4c61c18bdf6a54 arm64: dts: imx93: reorder device nodes
+         afbd37e878244a3f4d167cb405cd38300592e0b4 arm64: dts: imx93: add cpuidle node
+         b954d70abe528112aaac31eaf7c65ebd6a982790 arm64: dts: imx93-11x11-evk: enable wdog3
+         cbd3ef64eb9d1be9ec647411547bc7bb8409b11f arm64: dts: Add support for Emtop SoM & Baseboard
+         
+  - ref: refs/heads/imx/fixes
+    old: 91aa4b3782448a7a13baa8cbcdfd5fd19defcbd9
+    new: b8b23fbe93b34e595a7b0f31b4ed22400c47ec07
+    log: |
+         07bb2e368820a4de9b4b586691e143976b74ea44 arm64: dts: imx8mp: Fix video clock parents
+         a346d4dc74d94ac3c197283d0a7ec673a59a0674 arm64: dts: colibri-imx8x: fix eval board pin configuration
+         25acffb00899d3ac85a9701c99f7929f97a5d9af arm64: dts: colibri-imx8x: move pinctrl property from SoM to eval board
+         34e5c0cd55af7258d819cb203da7d202bae3b97d arm64: dts: colibri-imx8x: fix iris pinctrl configuration
+         b8b23fbe93b34e595a7b0f31b4ed22400c47ec07 arm64: dts: colibri-imx8x: delete adc1 and dsp
+         
