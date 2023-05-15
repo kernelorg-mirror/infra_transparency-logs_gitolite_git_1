@@ -1,62 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6689729526335989788=="
+Content-Type: multipart/mixed; boundary="===============4668417125057387609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 15 May 2023 20:07:29 -0000
-Message-Id: <168418124912.4705.4931124648778853417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Mon, 15 May 2023 20:20:07 -0000
+Message-Id: <168418200759.13130.4576099334838013344@gitolite.kernel.org>
 
---===============6689729526335989788==
+--===============4668417125057387609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 59f038a09c62d77de91387ddcff66e54d99f2ec9
-    new: 1298bc978afba0a507cedd0a91e53267ca152804
-    log: revlist-59f038a09c62-1298bc978afb.txt
-  - ref: refs/heads/master
-    old: 541423e6cb957404aa0581486db0af460d2364c5
-    new: 86deae29aa999b44ca1bea02f47b7da823577b0a
-    log: revlist-541423e6cb95-86deae29aa99.txt
+  - ref: refs/tags/linux-can-next-for-6.5-20230515
+    old: 0000000000000000000000000000000000000000
+    new: 297f068d69e098d59bef938b3b7f0c8a3d4f5834
 
---===============6689729526335989788==
+--===============4668417125057387609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59f038a09c62-1298bc978afb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-60571ac9ea621d3d1404f78bc0f27b709e82f2fd ALSA: emu10k1: automate encoding of sub-register definitions
-3676cd4bc8e69192246851edad164127d71ffee2 ALSA: emu10k1: validate parameters of snd_emu10k1_ptr_{read,write}()
-2093dcfc04e1477efd47d3acf0adc4582dc5f4f6 ALSA: emu10k1: merge common paths in snd_emu10k1_ptr_{read,write}()
-2e9bd50f117ea3f638802627a196949f7eefcf02 ALSA: emu10k1: optimize mask calculation in snd_emu10k1_ptr_read()
-a746516d75fd734e6af1d9a53bacbdef790e76d1 ALSA: emu10k1: polish audigy GPR allocation
-bb5ceb43b7bfa166fd5d739d51ad46c1cfb225e3 ALSA: emu10k1: fix non-zero mixer control defaults in highres mode
-1a38ae579606dae836dced573d5ffa78cce6fc48 ALSA: emu10k1: validate min/max values of translated controls
-6175ccd1a98136203bf88279cebcc6514ec15bdd ALSA: emu10k1: omit non-applicable mixer controls for E-MU cards
-de0dc31070a54d146bb5e7e5a739c9588034165c ALSA: emu10k1: skip mic capture PCM for cards without AC97 codec
-1298bc978afba0a507cedd0a91e53267ca152804 ALSA: emu10k1: enable bit-exact playback, part 1: DSP attenuation
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1684182000 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1684181995-0bf66a9df79695ed0f747e696136d6159fac7c2f
 
---===============6689729526335989788==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-541423e6cb95-86deae29aa99.txt
+0000000000000000000000000000000000000000 297f068d69e098d59bef938b3b7f0c8a3d4f5834 refs/tags/linux-can-next-for-6.5-20230515
+-----BEGIN PGP SIGNATURE-----
 
-60571ac9ea621d3d1404f78bc0f27b709e82f2fd ALSA: emu10k1: automate encoding of sub-register definitions
-3676cd4bc8e69192246851edad164127d71ffee2 ALSA: emu10k1: validate parameters of snd_emu10k1_ptr_{read,write}()
-2093dcfc04e1477efd47d3acf0adc4582dc5f4f6 ALSA: emu10k1: merge common paths in snd_emu10k1_ptr_{read,write}()
-2e9bd50f117ea3f638802627a196949f7eefcf02 ALSA: emu10k1: optimize mask calculation in snd_emu10k1_ptr_read()
-a746516d75fd734e6af1d9a53bacbdef790e76d1 ALSA: emu10k1: polish audigy GPR allocation
-bb5ceb43b7bfa166fd5d739d51ad46c1cfb225e3 ALSA: emu10k1: fix non-zero mixer control defaults in highres mode
-1a38ae579606dae836dced573d5ffa78cce6fc48 ALSA: emu10k1: validate min/max values of translated controls
-6175ccd1a98136203bf88279cebcc6514ec15bdd ALSA: emu10k1: omit non-applicable mixer controls for E-MU cards
-de0dc31070a54d146bb5e7e5a739c9588034165c ALSA: emu10k1: skip mic capture PCM for cards without AC97 codec
-1298bc978afba0a507cedd0a91e53267ca152804 ALSA: emu10k1: enable bit-exact playback, part 1: DSP attenuation
-86deae29aa999b44ca1bea02f47b7da823577b0a Merge branch 'for-next'
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmRik/ATHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6EqICACF7EkGICsfcGnwymDXDqAHSpVnpqES
+ySSjupu4R7gZh9DZWx7zgqttpA4DWDT/JrEhPdmTQz1TOzfJSTyTet/AR5SfpJ3V
+O0Ww5Qk2T1+G3Sqijo4+cq69h/7C0t6w+8vcJ898uhGfT1zNqZn4D+YhpaXH636c
+5woO2ADtaCEMxKe4LiRgSL2vwozecFT84+8BDBiA1Hq7/DJ+7AX+aamTM8iWdURb
+QrUbVpV+JTPyw8jxRHgM78HufzZtV6HptOjrr/LKGP5d2Ig0baeHp0coVdO7z5h0
+uiUOl7sT3uatXtzi82O6RsbkMXnu0XJUoUfG/FINNlj5/tuM9iBP06So
+=oEIc
+-----END PGP SIGNATURE-----
 
---===============6689729526335989788==--
+--===============4668417125057387609==--
