@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 16 May 2023 08:37:39 -0000
-Message-Id: <168422625932.24838.9754382745759095959@gitolite.kernel.org>
+Date: Tue, 16 May 2023 08:38:03 -0000
+Message-Id: <168422628325.25057.9710270611726816465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
-    old: 25403a37ccbfe81f4aa7db56c6c75664d4f68e42
+  - ref: refs/heads/for-next
+    old: 06ffe5b25eeded829d5b2dd93ba868f3c75720d6
     new: f5a08ed51ed780a312fa07daaf1edb92b78e06f8
     log: |
+         a82ebb3d800d7baf72122e82ab7c9b240d0a8a56 platform/x86/amd/pmf: Add PMF acpi debug support
+         63b5dbfdb770254c4fdb58d22b62458308685592 platform/x86/amd/pmf: Add PMF debug facilities
          506ed33d0767edbada4c8fc7c268b1730c14791e platform/x86/amd/pmf: Fix compiler warnings in static slider
          e9d1b2d0f7d02f75127b3bc243c0f69f8bd05f04 mlxbf-bootctl: Add sysfs file for BlueField boot log
          a1c3f6976ba32a8463edb4ae422178ca8037531f platform/x86: gigabyte: constify pointers to hwmon_channel_info
