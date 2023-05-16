@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 16 May 2023 10:32:49 -0000
-Message-Id: <168423316906.18877.17931549361576292546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 16 May 2023 10:44:17 -0000
+Message-Id: <168423385704.25490.11220012536838744843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/stm32-next
-    old: 3db59e1ca693455d0710dc217455fe81d0d32dce
-    new: 04127a3d30bd7ef7956b894724ca031728154e54
+  - ref: refs/heads/dev
+    old: ae775334c19c9fa8e2ff84d1086cb690ddb64c9f
+    new: 88c6092976651ecb8ba1d1377d66c55e2063a901
     log: |
-         04127a3d30bd7ef7956b894724ca031728154e54 ARM: dts: stm32: remove extra space in stm32mp15xx-dkx.dtsi
+         b5654c1e34de5313666ae2b0e42f014dd42e6c93 bpf: Use call_rcu_hurry() with synchronize_rcu_mult()
+         88c6092976651ecb8ba1d1377d66c55e2063a901 rcu: Update synchronize_rcu_mult() comment for call_rcu_hurry()
          
