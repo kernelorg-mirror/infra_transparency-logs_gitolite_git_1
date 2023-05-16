@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 16 May 2023 20:06:36 -0000
-Message-Id: <168426759601.15073.17807099751228052629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 16 May 2023 20:17:23 -0000
+Message-Id: <168426824309.21522.15278612872903167336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.5-WIP
-    old: 6b99c626a927606cce6ee93934d01ef82dc5198a
-    new: feb03b57de0bcb83254a2d6a3ce320f5e39434b6
+  - ref: refs/heads/dev-queue
+    old: d6ddb700adb3004fb235b756f08a351972340cc8
+    new: 9c23ec4e93263716cc527d5b11d7b7edf4022a11
     log: |
-         feb03b57de0bcb83254a2d6a3ce320f5e39434b6 KVM: arm64: Handle virtual timer traps when CNTHCTL_EL2.EL1TVT is set
+         a4134dd56083add7fa22800d4e8965132d01884a igc: Add condition for qbv_config_change_errors counter
+         9c23ec4e93263716cc527d5b11d7b7edf4022a11 ice: recycle/free all of the fragments from multi-buffer frame
          
