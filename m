@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7032078905204190692=="
+Content-Type: multipart/mixed; boundary="===============7073341681503597207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 16 May 2023 02:47:47 -0000
-Message-Id: <168420526732.19716.3821139454766735349@gitolite.kernel.org>
+Date: Tue, 16 May 2023 02:47:57 -0000
+Message-Id: <168420527707.19838.9910997625365205889@gitolite.kernel.org>
 
---===============7032078905204190692==
+--===============7073341681503597207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/master
     old: 47a2ee5d4a0bda05decdda7be0a77e792cdb09a3
     new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
     log: revlist-47a2ee5d4a0b-f1fcbaa18b28.txt
 
---===============7032078905204190692==
+--===============7073341681503597207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -117,4 +117,4 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
 
---===============7032078905204190692==--
+--===============7073341681503597207==--
