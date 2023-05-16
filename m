@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4688108417923546608=="
+Content-Type: multipart/mixed; boundary="===============1827788915416537139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 16 May 2023 16:19:27 -0000
-Message-Id: <168425396721.23959.9049349800585165252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 16 May 2023 16:19:35 -0000
+Message-Id: <168425397548.24057.16677964105470392963@gitolite.kernel.org>
 
---===============4688108417923546608==
+--===============1827788915416537139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 581fe2a4874338a1bfc599cae903a6101217b0a5
 
---===============4688108417923546608==
+--===============1827788915416537139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -230,4 +230,4 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
 
---===============4688108417923546608==--
+--===============1827788915416537139==--
