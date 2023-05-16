@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 16 May 2023 13:16:05 -0000
-Message-Id: <168424296506.30896.12589646525910372084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 16 May 2023 13:19:50 -0000
+Message-Id: <168424319080.32086.8125940057195440913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 760dc0e5a51a1ac371ed12008f7c08ad0edb1352
-    new: bde509d5292cc3f3cc8f27b42c1ff1f7cc5e6415
+  - ref: refs/heads/master
+    old: 4bb4b4dd88bcafee0d524a7ccd17834bd8f4439f
+    new: b801bfdcf1b91fb7982c370cdbea64b4ddc16bbb
     log: |
-         bde509d5292cc3f3cc8f27b42c1ff1f7cc5e6415 coredump: require O_WRONLY instead of O_RDWR
+         b801bfdcf1b91fb7982c370cdbea64b4ddc16bbb man/io_uring_register.2: note change in error value on newer kernels
          
