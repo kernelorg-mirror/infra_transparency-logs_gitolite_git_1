@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 16 May 2023 20:01:52 -0000
-Message-Id: <168426731224.12055.1617976996905162007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 16 May 2023 20:06:36 -0000
+Message-Id: <168426759601.15073.17807099751228052629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 18618dd0de3d2566da2eb651bf3e168803d8dbc5
-    new: eae36cb82440bc14e3299e46efdf2bdcc381880c
+  - ref: refs/heads/kvm-arm64/nv-6.5-WIP
+    old: 6b99c626a927606cce6ee93934d01ef82dc5198a
+    new: feb03b57de0bcb83254a2d6a3ce320f5e39434b6
     log: |
-         eae36cb82440bc14e3299e46efdf2bdcc381880c power: reset: add HAS_IOPORT dependencies
+         feb03b57de0bcb83254a2d6a3ce320f5e39434b6 KVM: arm64: Handle virtual timer traps when CNTHCTL_EL2.EL1TVT is set
          
