@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 16 May 2023 13:01:07 -0000
-Message-Id: <168424206795.21520.2166621931313195340@gitolite.kernel.org>
+Date: Tue, 16 May 2023 13:01:49 -0000
+Message-Id: <168424210921.21855.14301781480409130862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
   - ref: refs/heads/for-6.5
-    old: a7eb54d44045d424624d3ac7d02feb8ef96744ec
-    new: 22e395d001f846cc8b566d6a00ff8551daeaf38f
+    old: 22e395d001f846cc8b566d6a00ff8551daeaf38f
+    new: f19c694f744f5efd68d0b9ed9e0728a093d43393
     log: |
-         12e2e17de2cd555f795d9f7cff049ecbc2b17cf8 ata: libata-core: Simplify if condition in ata_dev_revalidate()
-         22e395d001f846cc8b566d6a00ff8551daeaf38f ata: pata_parport: Fix bpck module code indentation and style
+         f19c694f744f5efd68d0b9ed9e0728a093d43393 ata: pata_parport: Fix frpw module code indentation and style
          
