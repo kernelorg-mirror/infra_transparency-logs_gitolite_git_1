@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2563564253937350671=="
+Content-Type: multipart/mixed; boundary="===============0479944012739877605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 16 May 2023 17:00:28 -0000
-Message-Id: <168425642836.21879.11395881297070051260@gitolite.kernel.org>
+Date: Tue, 16 May 2023 17:01:02 -0000
+Message-Id: <168425646250.22154.9634518398275739493@gitolite.kernel.org>
 
---===============2563564253937350671==
+--===============0479944012739877605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 2aecef6d0e0598e7fc21887999bf28c4c9ffbdc3
     new: f76b8c20b477b002b69bba54cb8f9e81bd89f8ed
     log: revlist-2aecef6d0e05-f76b8c20b477.txt
 
---===============2563564253937350671==
+--===============0479944012739877605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ ca19ee25cf387cd037a4bdcbeaf9e210f3289cc7 arm64: dts: ti: k3-j721e-mcu-wakeup: Fi
 f14e3f692ea596c2e939fae349dd7679f4530229 arm64: dts: ti: Clean up pin node names to avoid warnings
 f76b8c20b477b002b69bba54cb8f9e81bd89f8ed arm64: dts: ti: k3-am62x-sk-common: Add main_uart1 and wkup_uart nodes
 
---===============2563564253937350671==--
+--===============0479944012739877605==--
