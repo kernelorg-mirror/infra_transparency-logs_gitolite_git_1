@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1857891534453853300=="
+Content-Type: multipart/mixed; boundary="===============9170563830773736192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 16 May 2023 21:27:55 -0000
-Message-Id: <168427247546.4298.13116995524469858883@gitolite.kernel.org>
+Date: Tue, 16 May 2023 21:31:15 -0000
+Message-Id: <168427267508.7041.7355929959115360199@gitolite.kernel.org>
 
---===============1857891534453853300==
+--===============9170563830773736192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: b69edab47f1da8edd8e7bfdf8c70f51a2a5d89fb
-    new: 55c84a5cf2c72a821719823ef2ebef01b119025b
-    log: revlist-b69edab47f1d-55c84a5cf2c7.txt
+  - ref: refs/heads/for-next/execve
+    old: 88603b6dc419445847923fcb7fe5080067a30f98
+    new: 8273a478cbeb3621d78e3394b67ac404d310c79a
+    log: revlist-88603b6dc419-8273a478cbeb.txt
 
---===============1857891534453853300==
+--===============9170563830773736192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b69edab47f1d-55c84a5cf2c7.txt
+Content-Disposition: attachment; filename=revlist-88603b6dc419-8273a478cbeb.txt
 
+73b41dc51fbeffa4a216b20193274cfe92b5d95b media: ov5670: Fix probe on ACPI
+d325c34d9e7e38d371c0a299d415e9b07f66a1fb net: amd: Fix link leak when verifying config failed
+50749f2dd6854a41830996ad302aef2ffaf011d8 tcp/udp: Fix memleaks of sk and zerocopy skbs with TX timestamp.
+28b17f6270f182e22cdad5a0fdc4979031e4486a net: phy: marvell-88x2222: remove unnecessary (void*) conversions
+37386669887d3f2ccf021322c5558353d20f2387 HID: amd_sfh: Fix max supported HID devices
+24ab15829867a9cc09dfd16f41ed75aa8272a45f gfs2: return errors from gfs2_ail_empty_gl
+68ca088dc1cfc4e366811b11ffe2954c6dcebca1 gfs2: Perform second log flush in gfs2_make_fs_ro
 b97e583caa25abf95695cd06d7f9512b484c6c01 gfs2: Issue message when revokes cannot be written
 644f6bf762fa903f64c59c2ec0f4d0d753527053 gfs2: gfs2_ail_empty_gl no log flush on error
 6935321eccf32555e6f7e6d29f4cccf84a5c1e3a xen/blkback: fix white space code style issues
@@ -1042,13 +1049,6 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
-2d47c6956ab3c8b580a59d7704aab3e2a4882b6c ubsan: Tighten UBSAN_BOUNDS on GCC
-ead62aa370a81c4fb42a44c4edeafe13e0a3a703 fortify: strscpy: Fix flipped q and p docstring typo
-4d9060981f886ba881aa3e8de688433c1f1ed11f kunit: tool: Enable CONFIG_FORTIFY_SOURCE under UML
-a9dc8d0442294b426b1ebd4ec6097c82ebe282e0 fortify: Allow KUnit test to build without FORTIFY
-3bf301e1ab85e18ed0e337ce124dc71d6d7b5fd7 string: Add Kunit tests for strcat() family
-21a2c74b0a2a784228c9e3af63cff96d0dea7b8a fortify: Use const variables for __member_size tracking
-605395cd7ceded5842c8ba6763ea24feee690c87 fortify: Add protection for strlcat()
-55c84a5cf2c72a821719823ef2ebef01b119025b fortify: strcat: Move definition to use fortified strlcat()
+8273a478cbeb3621d78e3394b67ac404d310c79a coredump, vmcore: Set p_align to 4 for PT_NOTE
 
---===============1857891534453853300==--
+--===============9170563830773736192==--
