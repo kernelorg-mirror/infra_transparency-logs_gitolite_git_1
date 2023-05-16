@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 16 May 2023 10:26:12 -0000
-Message-Id: <168423277208.15214.8258841588750057044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 16 May 2023 10:32:49 -0000
+Message-Id: <168423316906.18877.17931549361576292546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 230bbb198563905a2d14631f3adf599a7c35be90
-    new: a65184f16066ec24ebb65afa196208046d7ca19e
+  - ref: refs/heads/stm32-next
+    old: 3db59e1ca693455d0710dc217455fe81d0d32dce
+    new: 04127a3d30bd7ef7956b894724ca031728154e54
     log: |
-         e40879b6d7d858b03813cd53c17dfef9c297f525 x86/MCE: Check a hw error's address to determine proper recovery action
-         a65184f16066ec24ebb65afa196208046d7ca19e Merge ras/core into tip/master
+         04127a3d30bd7ef7956b894724ca031728154e54 ARM: dts: stm32: remove extra space in stm32mp15xx-dkx.dtsi
          
