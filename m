@@ -1,51 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6948319628144180934=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 16 May 2023 14:25:03 -0000
-Message-Id: <168424710394.13950.8234078346864110838@gitolite.kernel.org>
-
---===============6948319628144180934==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 16 May 2023 14:25:17 -0000
+Message-Id: <168424711794.14125.5797011739192306153@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: fc1d62b3588b74153c0823f7ad59925e586732de
-    new: 518a1742f47792b5ea905b6cc4ecb05b77defd88
+  - ref: refs/heads/fixes
+    old: e42f110700ed7293700c26145e1ed07ea05ac3f6
+    new: 2a881183dc5ab2474ef602e48fe7af34db460d95
     log: |
-         20ef7f2139ab81c9163addb2da08f2630fdc34db ASoC: dt-bindings: ssm2518: Convert to dtschema
-         518a1742f47792b5ea905b6cc4ecb05b77defd88 ASoC: dt-bindings: nau8824: Convert to dtschema
+         03262a3f5b5b910c7c2900c2f8884832794355f5 phy: mediatek: rework the floating point comparisons to fixed point
+         b949193011540bb17cf1da7795ec42af1b875203 phy: amlogic: phy-meson-g12a-mipi-dphy-analog: fix CNTL2_DIF_TX_CTL0 value
+         2a881183dc5ab2474ef602e48fe7af34db460d95 phy: qcom-snps: correct struct qcom_snps_hsphy kerneldoc
          
-
---===============6948319628144180934==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684247101 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684247102-520c61d0437254c06e51534221549f55ce48f282
-
-fc1d62b3588b74153c0823f7ad59925e586732de 518a1742f47792b5ea905b6cc4ecb05b77defd88 refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRjkj0THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0FAuB/9r/T+0sLkMptKMQqL3IzZyToLxM+XF
-VgnjlDrU+fY3tG42C93WbZ76cMmBKKCBgIl2PBGux/TcW43e04Hm5oxKDKs/DYLl
-p+x8W+9AE4UlM61ohjRk2PvxgYx1wZaZuAew/hB2ybfh3u4SzE5HCuz5gEfpHRjW
-jllFyY67mcWs1FN/ckIBO5rplFTWb86e1EogWFMmG/hNBdUUQqw447oBo2r+Mybt
-AFhmyi4KDXb7goUtx3kAWFWylMcHhQSFIyw8vrrXBMgkgtDVJOWbnzt2nLN7C+Yy
-5CoKHga2qqzJtFSKZuHjPZDM3BHr4/HzKZYYRtrtsT64RWXX/brm4Q0p
-=Jpo/
------END PGP SIGNATURE-----
-
---===============6948319628144180934==--
+  - ref: refs/heads/next
+    old: 7a503071e06db4409b7066b8ecca9f3da03dd3b1
+    new: 1541fbaca0d9c68e46d2593112a578f1c13fd312
+    log: |
+         fc1ec000b60bdc985e36459c940eedbbdc640057 dt-bindings: phy: qcom,qusb2: Document IPQ9574 compatible
+         b225e9124b49e4ee2b0dd88c9c29d64905c273bd dt-bindings: phy: qcom,qmp-usb: Add IPQ9574 USB3 PHY
+         5eaba7b5de931afb829e47221a218ffcfcc143c1 phy: qcom-qusb2: add QUSB2 support for IPQ9574
+         a8874ada13255bd98c3566fad3b1c23e55e5bfdb phy: qcom: qmp: Update IPQ9574 USB Phy initialization Sequence
+         f64df08226038ba472a5f124e28ebc3b75e3b3ae phy: Revert "phy: Remove SOC_EXYNOS4212 dep. from PHY_EXYNOS4X12_USB"
+         3940ffc6549206d79707887c5bf3ecd58769f1ee phy: hisilicon: Add inno-usb2-phy driver for Hi3798MV100
+         fdab47868e3d42a2d996daf848ba6a94f1b56d43 phy: hisilicon: Allow building phy-hisi-inno-usb2 on ARM32
+         1541fbaca0d9c68e46d2593112a578f1c13fd312 phy: freescale: imx8m-pcie: Use devm_platform_ioremap_resource()
+         
