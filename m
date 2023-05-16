@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7065709742677850846=="
+Content-Type: multipart/mixed; boundary="===============2226828601168554588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 16 May 2023 08:44:45 -0000
-Message-Id: <168422668539.28873.1165305229043908371@gitolite.kernel.org>
+Date: Tue, 16 May 2023 08:51:55 -0000
+Message-Id: <168422711501.3610.632205555504169426@gitolite.kernel.org>
 
---===============7065709742677850846==
+--===============2226828601168554588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
-    log: revlist-ac9a78681b92-f1fcbaa18b28.txt
+  - ref: refs/heads/readfile
+    old: d664fa0097d6ec61596af0e328aadabc64b2cf18
+    new: d331d916726a20604dc10d98b9733fc106c705cd
+    log: revlist-d664fa0097d6-d331d916726a.txt
 
---===============7065709742677850846==
+--===============2226828601168554588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1684226684 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1684227112 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1684226684-3bb532e1e597fe63465a4fed288be3af0ff58af9
+nonce 1684227110-4e6846ad752f7c494291c93b6a4ba7cdd88d71a8
 
-ac9a78681b921877518763ba0e89202254349d1b f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 refs/heads/driver-core-testing
+d664fa0097d6ec61596af0e328aadabc64b2cf18 d331d916726a20604dc10d98b9733fc106c705cd refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRjQnwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eJUQAKcXqFPzpu1glSbcwU+u
-p6EiM3krGEuzQpvLwDAqeCw6cxyDQNctT9s1RXuG7eKeK60Ft4vnQnVIx4O0k8od
-0qmtz3ZVlfJXHSsPFEZcI03a+BciMQgDQZjotvOupmmwR/9t+zM+736NzZFooIsl
-USJ2pKe9C12QYI++NeThuBrhB+IwPgnwUKrvOKhWZsR/ffF1EIOWxUtRg1C65rKx
-x+ZtLRizbeWvdp6dhNzDBffx1N1/AqHtmtjkvgtSNuiG7h4k+8RWyHXcBV9C9W+E
-/w2JV2buEeAmVfQo7gkyDnZ55yNwLsVxXBAOh1Eo/qneB9iCiLKFQTu/OfSfz8Xx
-TEk8NLC48e9DAZEI1ZxrvUVf5LpZSpxvq16T7Ja8H4uEVsxYhvjKXJmxtwcFULD3
-xjT6vkO3al9D0xZSq6B0XX73OsEe89ZANr/uOdLhRWIy4yOzC5+bZkA7x6HxBDZr
-dAONji98b572w/IzkF2j0C2eGVQF1Z/TNVzfg7WmqsZLPZZ8jIbr819OKEYfFM0L
-bl3P6qbBQFhR4BeduaLLUzJxm9rVvKAHU3+Xnb1iTeagPq3blphEv0MLbJpUK8rk
-v9AhjghWx4sSjBRFtbHKKu1vElWbpzlNY9EQDngNKOISOPPuOIjQpV04OqjFZQuu
-v/3FpDbz/bb0GHtLo0dQ+roW
-=st3F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRjRCgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h2kP/R9/X6Dv61BYqUptJcPI
+TbHnpVLE0Ufd6qJZuYj2g+27AgyByyEXlI3A/1PWXyK1oWVLvu3uzK8/kr504+Sd
+ZbKwiwiAZ5YST4CuksNZW+8Q64Ig5iZCNjSj8KN9jXo8xh5EaYSq9l1WlhU6hjD5
+2riUEWEi79SKcLBJX8zub2iUKyEmnPUVt5ouNHb5kN5BvNc0hIl8WS/auc9qHqtM
+0O2zsZgDehzvQjtdIVJ+TpYXmsDVMhjWeEkDdXFd/68CRyZu1M9SjH2SFo38Xh4j
+8nx7ZXgiZ97zYysVzPO0oDEnZbp0oLLSBPvGj9OKozSIv5opAQa9v56gWVG1I/Mi
+cYeZYcemFWKPTErwT+Gj5Awx7ak0nnUxciPHv33CduTuRPry9Wl/oA5FXuc3d9Ac
+oa87LgoO7bKaCqggf5szMeVucE0Fuj2DThQ10mjFj9C2wfvAodFbQyPwxgrzhT6J
+4bsvbqowKAuoyQkOvvfmMsklvqCsatCocfFfyFKHMtmXwbXTS5LzYG1ftGoTO1tz
+/glbvZoJrwpnWLYhYS2EnTwU2ferEaEv837rqynVLOAE+EWxocz/lAFdI+IOSm27
+upt8lBn2VOaFUtxHcbGrxWatKsi/M6Piw51PNARv0WzdoFT8y5WP03qvKgDYtXmR
+QBixMiiu47gLPvNOnmcFH/EK
+=a+1p
 -----END PGP SIGNATURE-----
 
---===============7065709742677850846==
+--===============2226828601168554588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-f1fcbaa18b28.txt
+Content-Disposition: attachment; filename=revlist-d664fa0097d6-d331d916726a.txt
 
 4327a6137ed43a091d900b1ac833345d60f32228 drm/ast: Fix ARM compatibility
 c8687694bb1f5c48134f152f8c5c2e53483eb99d drm/fbdev-generic: prohibit potential out-of-bounds access
@@ -258,5 +258,9 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
+66ad1308c710d1a30df55c88a44693e588625f06 readfile: implement readfile syscall
+8d363a3771e5ed1416705be70e1c6ea36ea4a2bf arch: wire up the readfile syscall
+90c4189a48430189829ee5793e734c579606cff1 selftests: add readfile(2) selftests
+d331d916726a20604dc10d98b9733fc106c705cd readfile.2: new page describing readfile(2)
 
---===============7065709742677850846==--
+--===============2226828601168554588==--
