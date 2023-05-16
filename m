@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 16 May 2023 14:09:12 -0000
-Message-Id: <168424615291.1413.7064804044695497027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 16 May 2023 14:20:43 -0000
+Message-Id: <168424684394.10855.318433877588779682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/dev
-    old: 8bc726e977102c8b1d64e574215ac2b95bd8bd3f
-    new: b9fa2f892197ef598baeb043f72b322ac72a78ad
+  - ref: refs/heads/stm32-next
+    old: e0040abb8d5bb2215f8ee08e0e2d05052a004288
+    new: 9660efc2af37f3c12dc6e6a5511ad99e0addc297
     log: |
-         b9fa2f892197ef598baeb043f72b322ac72a78ad rcuscale: Permit blocking delays between writers
+         9660efc2af37f3c12dc6e6a5511ad99e0addc297 ARM: dts: stm32: Move ethernet MAC EEPROM from SoM to carrier boards
          
