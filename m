@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3538351022911363262=="
+Content-Type: multipart/mixed; boundary="===============2357081352532003295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 May 2023 05:17:51 -0000
-Message-Id: <168430067170.32359.2950322161640590967@gitolite.kernel.org>
+Date: Wed, 17 May 2023 05:33:40 -0000
+Message-Id: <168430162077.10872.14489314582045745596@gitolite.kernel.org>
 
---===============3538351022911363262==
+--===============2357081352532003295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: de58ef414d8d7a0a635cd331b3b013d8216c4e60
-    new: 0697e4394210b9f7d83c32c9236a47fdeddf9ac0
-    log: revlist-de58ef414d8d-0697e4394210.txt
+  - ref: refs/heads/master
+    old: 0697e4394210b9f7d83c32c9236a47fdeddf9ac0
+    new: 34e78bab67c5de43e685c63cd8c27e0cd3239897
+    log: revlist-0697e4394210-34e78bab67c5.txt
 
---===============3538351022911363262==
+--===============2357081352532003295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de58ef414d8d-0697e4394210.txt
+Content-Disposition: attachment; filename=revlist-0697e4394210-34e78bab67c5.txt
 
-10cb8622b6958c2d47961d6a42c76e6c9f1c08f3 libbpf: Store zero fd to fd_array for loader kfunc relocation
-8e9af82171247e2a8d2c08a3dea709d03884a815 selftests/bpf: Move kfunc exports to bpf_testmod/bpf_testmod_kfunc.h
-45db310984bfea977177fb5fc0ea23ab430129bd selftests/bpf: Move test_progs helpers to testing_helpers object
-d18decca69e36480247a73086336f4a44a08e36f selftests/bpf: Use only stdout in un/load_bpf_testmod functions
-b58f3f0e6f3cbea56be39d8fb190b37f049505bb selftests/bpf: Do not unload bpf_testmod in load_bpf_testmod
-11642eb92b3bc67171b23abff0d062758c5a4730 selftests/bpf: Use un/load_bpf_testmod functions in tests
-b23b385fa18f2196872bc3337c98ddd221c2827b selftests/bpf: Load bpf_testmod for verifier test
-f26ebdd3e4e4e1f5f08522b087ab9ec7216e9a3b selftests/bpf: Allow to use kfunc from testmod.ko in test_verifier
-6e2b50fa818bea4fc9a2d33f31a9633803a406ff selftests/bpf: Remove extern from kfuncs declarations
-65eb006d85a2ac0b23464808099726bd826e9877 bpf: Move kernel test kfuncs to bpf_testmod
-0697e4394210b9f7d83c32c9236a47fdeddf9ac0 Merge branch 'bpf: Move kernel test kfuncs into bpf_testmod'
+d2e541494935a659b67e51aa3d1945bb3b799c4e selftests/xsk: do not change XDP program when not necessary
+df82d2e89c41d1dc6f02a881f0cddac8252bb441 selftests/xsk: generate simpler packets with variable length
+feb973a9094ff92fb8c141be5d2e762f9ab36a7a selftests/xsk: add varying payload pattern within packet
+7a8a6762822a1f5249eec356e7ea31f98161fba0 selftests/xsk: dump packet at error
+69fc03d220a318a4df2c6f0612b17225e71a6069 selftests/xsk: add packet iterator for tx to packet stream
+d9f6d9709f87236f9a33de0d42dae8402b812e19 selftests/xsk: store offset in pkt instead of addr
+041b68f688a38865434d7b8fbfe64beb03e54ff2 selftests/xsx: test for huge pages only once
+86e41755b43227858ef04b452c25b9dbcf667622 selftests/xsk: populate fill ring based on frags needed
+2f6eae0df1a80bb636f43f1b954678da0a10fa49 selftests/xsk: generate data for multi-buffer packets
+7cd6df4f5ec278888b4c3ab12b291c2124b46c1c selftests/xsk: adjust packet pacing for multi-buffer support
+34e78bab67c5de43e685c63cd8c27e0cd3239897 Merge branch 'seltests/xsk: prepare for AF_XDP multi-buffer testing'
 
---===============3538351022911363262==--
+--===============2357081352532003295==--
