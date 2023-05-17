@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4789404325732610012=="
+Content-Type: multipart/mixed; boundary="===============4313639335518034039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Wed, 17 May 2023 06:23:08 -0000
-Message-Id: <168430458876.11932.6280404115176138638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Wed, 17 May 2023 06:24:19 -0000
+Message-Id: <168430465984.12382.13625151539498506175@gitolite.kernel.org>
 
---===============4789404325732610012==
+--===============4313639335518034039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
     log: revlist-ac9a78681b92-f1fcbaa18b28.txt
 
---===============4789404325732610012==
+--===============4313639335518034039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -228,4 +228,4 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
 
---===============4789404325732610012==--
+--===============4313639335518034039==--
