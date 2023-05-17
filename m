@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 17 May 2023 11:15:16 -0000
-Message-Id: <168432211671.9555.8262499902061658828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 17 May 2023 11:15:20 -0000
+Message-Id: <168432212072.9623.3439082889348350342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/arm-vfp-softirq-fixes
-    old: 0566c3dc0eeea3e4dae1034461b498481267fa70
-    new: c968d5b4659984bc77fda376350de90d40ff1fee
+  - ref: refs/heads/next-fixes
+    old: a9b282be7894b5b5b943dade793ab49cd5a8ebe4
+    new: 7f6d8752b79e7d1dbd3c0e93916654bf57b17861
     log: |
-         4a0548c6681cd25b8d76e897e01bfb62ce93916d ARM: vfp: Remove workaround for Feroceon CPUs
-         ab0025ff5a06bbeb653a97e68f438548d6167853 ARM: vfp: Reimplement VFP exception entry in C code
-         388975818075db54b1dc4a6f69ad1e976f6cdbcf ARM: kernel: Get rid of thread_info::used_cp[] array
-         a6d7fa1117f22ced4d3dda55c7e75653dbe13e0b ARM: vfp: Use undef hook for handling VFP exceptions
-         a416ba1683b4560ce825186352283806253e2d10 ARM: entry: Disregard Thumb undef exception in coproc dispatch
-         096562dcd909027289f79fa97ef74203d1c2449e ARM: iwmmxt: Use undef hook to enable coprocessor for task
-         c968d5b4659984bc77fda376350de90d40ff1fee ARM: entry: Make asm coproc dispatch code NWFPE only
+         7561551e7ba870b9659083b95feb520fb2dacce3 btrfs: scrub: try harder to mark RAID56 block groups read-only
+         806570c0bb7b4847828c22c4934fcf2dc8fc572f btrfs: handle memory allocation failure in btrfs_csum_one_bio
+         597441b3436a43011f31ce71dc0a6c0bf5ce958a btrfs: use nofs when cleaning up aborted transactions
+         7f6d8752b79e7d1dbd3c0e93916654bf57b17861 Merge branch 'misc-6.4' into next-fixes
          
