@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 17 May 2023 08:25:17 -0000
-Message-Id: <168431191722.1833.4218904114928862373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 17 May 2023 08:28:30 -0000
+Message-Id: <168431211051.3028.18255106544995641045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 1323e0c6e1d7e103d59384c3ac50f72b17a6936c
-    new: 60d758659f1fb49e0d5b6ac2691ede8c0958795b
+    old: 030d71fd93b1f0fe6e844c1d790f70c80d828c79
+    new: c83ae452d2644f921985a6d8a2f4affeded570dd
     log: |
-         ab7470bc6d8fb5f3004ccc8e4dfd49aab0f27561 ice: Fix stats after PF reset
-         7255355a0636b4eff08d5e8139c77d98f151c4fc ice: Fix ice VF reset during iavf initialization
-         7dcbdf29282fbcdb646dc785e8a57ed2c2fec8ba iavf: send VLAN offloading caps once after VFR
-         5ad3bd8444021a227959891c14b436e4067d67fd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-         60d758659f1fb49e0d5b6ac2691ede8c0958795b igb: fix bit_shift to be in [1..8] range
+         38e97a98e371c615f67d144ee9e4f7087c0a41e8 ice: move interrupt related code to separate file
+         afe87cfe820e74cc5fc59359445bcfd93ff0ab07 ice: use pci_irq_vector helper function
+         05018936a1fe07b92a612d1fd1511224ba8a1a34 ice: use preferred MSIX allocation api
+         369bb5a2a9a76ab6ea2945962d09baa21b4e1a4f ice: refactor VF control VSI interrupt handling
+         524012c69ee1421d4a343291a0cfc1998ccba99a ice: remove redundant SRIOV code
+         4aad5335969f25c4dc966a15c5497db3718538bb ice: add individual interrupt allocation
+         cfebc0a36ea5518d6b32a6999da5accf0a94fafa ice: track interrupt vectors with xarray
+         011670cc340cbc1131677fe233b1a52acee969ee ice: add dynamic interrupt allocation
+         c83ae452d2644f921985a6d8a2f4affeded570dd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
