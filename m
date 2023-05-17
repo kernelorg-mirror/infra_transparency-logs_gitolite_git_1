@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 17 May 2023 18:28:59 -0000
-Message-Id: <168434813923.17884.5589095600796107595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 17 May 2023 18:29:06 -0000
+Message-Id: <168434814673.17995.8835557950582694481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 1b66c114d161a457897d269420c74620c032135c
-    new: 4d6d4c7f541d7027beed4fb86eb2c451bd8d6fff
+  - ref: refs/heads/bleeding-edge
+    old: 2eb9db58cef824fd8c5b0107462478b80d4870a5
+    new: dac0c6388ff86af74dc6f4dd6e90a7db5a429e3d
     log: |
-         4b79f76920a49fc13766b95df1df1f4d700acbad selftests/sgx: Add "test_encl.elf" to TEST_FILES
-         dbcf76390eb9a65d5d0c37b0cd57335218564e37 selftests/ftrace: Improve integration with kselftest runner
-         4d6d4c7f541d7027beed4fb86eb2c451bd8d6fff Merge tag 'linux-kselftest-fixes-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+         69d6b37695c1f2320cfa330e1e1636d50dd5040a ACPI: x86: Add skip i2c clients quirk for Nextbook Ares 8A
+         4fd5556608bfa9c2bf276fc115ef04288331aded ACPI: button: Add lid disable DMI quirk for Nextbook Ares 8A
+         c68e3efeb1781b74bb18db2dedf8b7c3fba4dfbb Merge branch 'acpi-x86' into bleeding-edge
+         dac0c6388ff86af74dc6f4dd6e90a7db5a429e3d Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
          
