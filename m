@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6897925065532752100=="
+Content-Type: multipart/mixed; boundary="===============4376746334011575175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 May 2023 02:12:25 -0000
-Message-Id: <168428954572.4604.17580881280013778837@gitolite.kernel.org>
+Date: Wed, 17 May 2023 02:12:43 -0000
+Message-Id: <168428956380.4759.4451112374214140228@gitolite.kernel.org>
 
---===============6897925065532752100==
+--===============4376746334011575175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,90 +16,59 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 44ef1604ae9492a7d9238ea79aa0cc7b4c4de860
-    log: revlist-ac9a78681b92-44ef1604ae94.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 4809dc2246855ac68b2a5b5628339cba1fb790d6
+    new: 23b83c58b33fdab8078d472be5e95295663d33de
+    log: revlist-4809dc224685-23b83c58b33f.txt
 
---===============6897925065532752100==
+--===============4376746334011575175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1684289544 -0400
+pusher 75C5DE3D 1684289550 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1684289543-c6c7588823ca0ec1d6aaf0980b285e072130d569
+nonce 1684289549-8126a4314ab561c870e7c8848338a8fb5edeb33b
 
-ac9a78681b921877518763ba0e89202254349d1b 44ef1604ae9492a7d9238ea79aa0cc7b4c4de860 refs/heads/queue
+4809dc2246855ac68b2a5b5628339cba1fb790d6 23b83c58b33fdab8078d472be5e95295663d33de refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRkOAgACgkQ7ulgGnXF
-3j0GIg//Vvb9UeE8EDvfMSvm0tBrEwWVQvovStQTjtnPePhnSRG3R0NFctlzqbpL
-oCLIxjDXlDqFXKoY9YznLLqnKUX8vnBT+8LpThSFTX97HwiS3zxgFkqjym+dE2ss
-ljMkxGf5W4M6pqSGmY8AuLUzfTevblf6ZJaKwnjJW/E//x9nRqy7GB2rEvD7YGTr
-U1ELxlgtiN0Oop0L9RYMls2oCUWOdDfQA6876uqIHi4JGgpy88EJ0TjfiFzi69Ga
-u5YKTfMh0hydCzoeU+CFNLE7k2GmmRyLfYXhFOkpiq8aGUcxO/JH5V7dPi/9zaQg
-FACdJO+G2HHzCif4LX/yWQPavU6D1cvvQAqlmOIr4Q9V3DkbD3fXZBHY+RKP1dO5
-+So285v0sGFl6PNAOiiwSttoRkm48alYT1LQwRpaQwnXtRRIasS4fWRrXdfIwfFU
-XViCMc19Qg9o8AZxk6ojVM2i9NK6O1qWEfihfCj3bWX+LkyrWriauBlocWZvfh3J
-1FXhCOtnZDdJinEWCJ+64V88wYm7y3pNyeHlv/CCFOEqHsKwHLe24nxSlRTePVrA
-JQ8VRxiJJt7t8XGF0xFNZtWIiZ1DfYV4+ZupHi1Au/jm4KJHz1CrJRh85/UWnuhY
-HHhay89GEIE5LPgWigMsJGwVFYi2xfH9KRDVL584olDMNxKWI28=
-=Xbnk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRkOA4ACgkQ7ulgGnXF
+3j3QXA//bvYIJAmS+AMgwIEHET/mzmmn4ShHtaMOI/hoy2r+JMxNxzanZwcOV4s/
+zJ7tkny1JEu6lYJ1KSh41dIUy9rHyf3LSYKC4c+C/0gFkmij6JIK5chRtwN/4Z6t
+AXtG2dWcVGUEawL5oKu8D650aq4uaDpC+x9NQVoUUDeJdExx0/9vNsgHGzwMA0Gm
+v6WhSJz/wv2o2nFiatRU+ehzUAAbwCFiOimxRAU134OX/cFEOwrsETOkvlwiYkHR
+chrmuF8O1Wk41WaEdvbO9oTfiDon6WAZJx3qwTO98CzhHc1GuxFbnbNAfAMhFrrl
+hSNUudGyGqf0/jGwC3Jxmrj3WxBAeXJvbsLoeT2H7R1Ypuph2xYiSTqNxmgIRyni
+wkKJ+k64qu8ZBLX1Va5K94h1pm2TT9W0X7gJywSSMHhniQhD+av2QJV5bnYo9VCU
+oRT6AN0xCjVEypC5RAjKg0SrgNOomBCjCGvEzK+2LQb7UWXKnOvoXiuVTdu3VGtt
+a+hvp5bclrPO3xTrSWp9GvinnAm2QcrODhRyLgdxE3qLPQwbCPEj+uaO55Nzlvqq
+9MFGaDY5JTQc1yBjpbz30WzwmkSNDTbYblICPKd2XO5KDXXVT7FmUn+Y9j2AHrv7
+ZSnZLbkH1fRpvqSE5GbDMad2hbfRpBl2BcDKR/TsFD5gZ/ku9Hk=
+=swYL
 -----END PGP SIGNATURE-----
 
---===============6897925065532752100==
+--===============4376746334011575175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-44ef1604ae94.txt
+Content-Disposition: attachment; filename=revlist-4809dc224685-23b83c58b33f.txt
 
-b7d26c1d8c51632cfce1cb1f0db7b125bc6533f6 scsi: pm80xx: Log some HW events by default
-6a516506aad6a6aae8b70c3dd9e180d060426f1b scsi: pm80xx: Enable init logging
-a6cf6b8bd6e20808f3681dcefd241090cd4b5d97 scsi: pm80xx: Print port_id in HW events
-5f797120d853dc993a3ea11ebb9adb73ed48bd81 scsi: pm80xx: Log phy_id and port_id in the device registration request
-d309422d7dc6619fb6aa713317e0b0010b8985f3 scsi: pm80xx: Log port state during HW event
-3aa65f7e25acb44d9043d236206e844295cf8c6a scsi: pm80xx: Update PHY state after hard reset
-14a8f116cdc0cbfdb939f145b02173af82083b91 scsi: pm80xx: Add GET_NVMD timeout during probe
-84c868a702f520a75af8a6f0bf8084135e09c510 scsi: lpfc: Fix verbose logging for SCSI commands issued to SES devices
-97f975823f8196d970bd795087b514271214677a scsi: lpfc: Fix double free in lpfc_cmpl_els_logo_acc() caused by lpfc_nlp_not_used()
-78e9e35004fd42ca6d539f3ba5c600a189241633 scsi: lpfc: Match lock ordering of lpfc_cmd->buf_lock and hbalock for abort paths
-779d61dfb9eab964b3cd243718fd27b35f9db776 scsi: lpfc: Update congestion warning notification period
-5fc849d8056d6f51bc8cd43cbcd85d4e71aa1ee2 scsi: lpfc: Add new RCQE status for handling DMA failures
-a7b94c159210cdb9393fa6e69f8d085e43c0607b scsi: lpfc: Replace blk_irq_poll intr handler with threaded IRQ
-fd9ffa6c747f8868640dff783bb52cb0761dba19 scsi: lpfc: Update lpfc version to 14.2.0.12
-e3be011e828037be60fc91fa2d1791f9ee612a46 scsi: libsas: Simplify sas_check_eeds()
-ba9be7e70e15dd75375131826f4b8a484efec4d0 scsi: libsas: Remove an empty branch in sas_check_parent_topology()
-cf3cd61e76607801081adc35ae288b90921e6097 scsi: libsas: factor out sas_check_fanout_expander_topo()
-d90171dd0da50212f5950cc708240831e82f2f91 scsi: qla2xxx: Multi-que support for TMF
-9803fb5d27597ea98f2e05b0b6cfc48ae808458e scsi: qla2xxx: Fix task management cmd failure
-6a87679626b51b53fbb6be417ad8eb083030b617 scsi: qla2xxx: Fix task management cmd fail due to unavailable resource
-9ae615c5bfd37bd091772969b1153de5335ea986 scsi: qla2xxx: Fix hang in task management
-b843adde8d490934d042fbe9e3e46697cb3a64d2 scsi: qla2xxx: Fix mem access after free
-fc0cba0c7be8261a1625098bd1d695077ec621c9 scsi: qla2xxx: Wait for io return on terminate rport
-eb91eb809c8dfe7a7cc7aedd0670cdc2bb1174b9 scsi: qla2xxx: Update version to 10.02.08.300-k
-3e7e55aa3df2d58b1d27e3380d293da525cf5a3b scsi: smartpqi: Map full length of PCI BAR 0
-fe0375d48513ce0e3d98dbcec5508e1dd09dc5b2 scsi: smartpqi: Add new controller PCI IDs
-889cda36db99e3ef0c9a6d2e6c64de725913394b scsi: smartpqi: Remove NULL pointer check
-2312e844dc8d5fd66f179baa3d848d2613e4f81f scsi: smartpqi: Fix rare SAS transport memory leak
-80d560d94fa9b28069c62e1a64ae4a03d5f43fbc scsi: smartpqi: Remove contention for raid_bypass_cnt
-5c9e3c1c5276cf1f0de47f97eddf48ae1e7fd083 scsi: smartpqi: Validate block layer host tag
-68f7920492be3d193d31b5a6b97e8501d2306b17 scsi: smartpqi: Add support for RAID NCQ priority
-c23efd9eadd8d07c0e88b52296d9f74350e7af7f scsi: smartpqi: Fix byte aligned writew for ARM servers
-2eddf98d01520d6bcd7d5a703a85206ba84bd179 scsi: smartpqi: Stop sending driver-initiated TURs
-d2c7583f27cc138354a1cd3c990923de7fd2126a scsi: smartpqi: Add sysfs entry for NUMA node in /sys/block/sdX/device
-49fd52d4991f431bc2e68cd5682a7c7496fb3783 scsi: smartpqi: Update copyright to 2023
-fcb405111a24cf9fc0dcd09f47bcd5f0968c4a9d scsi: smartpqi: Update version to 2.1.22-040
-2a954832015df3dc4266f73bed1b3c8b4cb9919b scsi: mpi3mr: Use -ENOMEM instead of -1 in mpi3mr_expander_add()
-9a4327fd8864ff78d97e9a3c3c3c992353d06fee scsi: ufs: core: Change the module parameter macro of use_mcq_mode
-f025312b089474a54e4859f3453771314d9e3d4f scsi: qedf: Fix NULL dereference in error handling
-19c9322e36a0c8726b901d6c8adb7c9d785da393 scsi: ufs: ufs-mediatek: Delete some dead code
-808e87a5119ba7dab6b1b6ccb5120262fa9f28fb Merge patch series "lpfc: Update lpfc to revision 14.2.0.12"
-92d685a96bb054ebf44360d38dc94fc17a9ba34a Merge patch series "qla2xxx driver update"
-44fcce673561ebd02014125c5cb37649d7b053d0 Merge patch series "scsi: libsas: remove empty branches and code simplification"
-79c67c54f64ccae5b0a302f6ec67a6b7b8a55b24 Merge patch series "scsi: pm80xx: Enhanced debug logs for HW events"
-44ef1604ae9492a7d9238ea79aa0cc7b4c4de860 Merge patch series "smartpqi updates"
+7e79881d92e8d52c45992ed4d669985c167fa0ad scsi: ufs: hwmon: Constify pointers to hwmon_channel_info
+aa67380056a43277da11a5550669f5a80057ce2d scsi: megaraid_sas: Convert union megasas_sgl to flex-arrays
+b68daae9660b45a0bb3ac9df1f1746d15693d254 scsi: hisi_sas: Configure initial value of some registers according to HBA model
+a090fc97617b1b2d0dc8dcb418cc614573a1a8be scsi: hisi_sas: Change DMA setup lock timeout to 2.5s
+c0328cc595124579328462fc45d7a29a084cf357 scsi: hisi_sas: Fix warnings detected by sparse
+8759924ddb93498bd5777f0b05b6bc9cacf4ffe3 Merge patch series "scsi: hisi_sas: Some misc changes"
+973464fded698881d48c6439f9d9912d61819bd1 scsi: bfa: Replace all non-returning strlcpy() with strscpy()
+0871237a946e2b16e82048d92d69058fddb9172a scsi: target: Replace all non-returning strlcpy() with strscpy()
+41300cc989c26ef2429ae8225b3b42dfc6b6036e scsi: qla4xxx: Replace all non-returning strlcpy() with strscpy()
+37f1663c91934f664fb850306708094a324c227c scsi: qla2xxx: Replace all non-returning strlcpy() with strscpy()
+21b382460d659fc4ac0c86c1b3a02e6bf8ef2418 scsi: MAINTAINERS: Add a libsas entry
+332aac6f0dc0012a5f32daa51370ca374531dc85 scsi: MAINTAINERS: Drop DC395x list and site
+7a94a131aa109e146067b90b29e9ba47c0a72a49 scsi: dc395x: Documentation: Replace non-functional twibble.org list
+16853cd8f6d44d774f683d670be38c7d91eb32b8 scsi: dc395x: Documentation: Reword original driver attribution
 
---===============6897925065532752100==--
+--===============4376746334011575175==--
