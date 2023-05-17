@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 17 May 2023 11:55:53 -0000
-Message-Id: <168432455341.5776.15929295656488302495@gitolite.kernel.org>
+Date: Wed, 17 May 2023 11:58:54 -0000
+Message-Id: <168432473457.6764.1669663556748610364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 66353baf3762fa0968b4424a2075fb395b329e9d
-    new: dacab578c7c6cd06c50c89dfa36b0e0f10decd4e
+    old: dacab578c7c6cd06c50c89dfa36b0e0f10decd4e
+    new: 60829145f1e2650b31ebe6a0ec70a9725b38fa2c
     log: |
-         dacab578c7c6cd06c50c89dfa36b0e0f10decd4e vlan: fix a potential uninit-value in vlan_dev_hard_start_xmit()
+         60829145f1e2650b31ebe6a0ec70a9725b38fa2c net: wwan: iosm: fix NULL pointer dereference when removing device
          
