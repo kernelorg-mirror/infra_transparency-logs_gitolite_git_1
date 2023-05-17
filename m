@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6855521569705030236=="
+Content-Type: multipart/mixed; boundary="===============1532420781516156953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 May 2023 03:23:53 -0000
-Message-Id: <168429383338.20806.18116676094321734395@gitolite.kernel.org>
+Date: Wed, 17 May 2023 03:23:59 -0000
+Message-Id: <168429383988.20930.7443531579384703506@gitolite.kernel.org>
 
---===============6855521569705030236==
+--===============1532420781516156953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 108598c39eefbedc9882273ac0df96127a629220
     new: a0e35a648faf9170e0c32c98b22e66f0a2d964d3
     log: revlist-108598c39eef-a0e35a648faf.txt
 
---===============6855521569705030236==
+--===============1532420781516156953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dc3eb2f4ec09e90b77ee8c28f73912b022462e8e net: ethernet: 8390: Convert unversione
 e641577eb6e82cbb89dde7cfc44ef2541c42278c Merge branch 'spdx-conversion-for-bonding-8390-and-i825xx-drivers'
 a0e35a648faf9170e0c32c98b22e66f0a2d964d3 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============6855521569705030236==--
+--===============1532420781516156953==--
