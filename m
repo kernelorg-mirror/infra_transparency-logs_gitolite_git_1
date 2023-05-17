@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 17 May 2023 11:42:44 -0000
-Message-Id: <168432376459.27341.5124647174106133596@gitolite.kernel.org>
+Date: Wed, 17 May 2023 11:44:11 -0000
+Message-Id: <168432385124.27854.402227923807224057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: bd2ebbd4eadd29efac994037c0e85e8ddad13248
-    new: d3edf0f8de6de4ad3ff7e1d62bd6b271a576538e
+    old: d3edf0f8de6de4ad3ff7e1d62bd6b271a576538e
+    new: a82df27f5d900c5e905fa2d6bb55751cfdff7c9a
     log: |
-         91ea38e91d6f1b37edc3114e02a4984a54918426 libmount: report failed syscall name
-         d3edf0f8de6de4ad3ff7e1d62bd6b271a576538e Merge branch 'libmount/syscall'
+         acb72212eb41ca862b8bc29b0106a46a83297fcb unshare: Move implementation of --keep-caps option to library function
+         5b175fa9f03062a11618983199f38578b6e11217 Add --keep-caps option to nsenter, similar to the one in unshare
+         a82df27f5d900c5e905fa2d6bb55751cfdff7c9a Merge branch 'nsenter-keep-caps' of https://github.com/dgibson/util-linux
          
