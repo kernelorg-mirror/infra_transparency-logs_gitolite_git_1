@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 17 May 2023 13:04:19 -0000
-Message-Id: <168432865966.22315.14895332349364471559@gitolite.kernel.org>
+Date: Wed, 17 May 2023 13:08:31 -0000
+Message-Id: <168432891113.25152.6406254659203737282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,13 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/arm-vfp-softirq-fixes
-    old: ad45afcc4a845207de16261e27ad7153ce6e1f5e
-    new: df355d6f913664ec9a8ae409e233a737db35ba17
+    old: df355d6f913664ec9a8ae409e233a737db35ba17
+    new: 47ba5f39eab3c2a9a1ba878159a6050f2bbfc0e2
     log: |
-         c98623e9e989797d385a05b48ce470daf54c0bb2 ARM: iwmmxt: Use undef hook to enable coprocessor for task
-         df355d6f913664ec9a8ae409e233a737db35ba17 ARM: entry: Make asm coproc dispatch code NWFPE only
+         4708fb041346fa9cc6745dafb8c248a3e2f1075b ARM: vfp: Reimplement VFP exception entry in C code
+         6ee1e6772e1e19436f573672de5ff8aab7163be6 ARM: kernel: Get rid of thread_info::used_cp[] array
+         cdd87465adfd75e4ebd11507575533c6bf7a5525 ARM: vfp: Use undef hook for handling VFP exceptions
+         8bcba70cb5c2204a011e06278a1fbfb1213e1df1 ARM: entry: Disregard Thumb undef exception in coproc dispatch
+         303d6da167dcbc3dd89adf3ca4e36c369950ed01 ARM: iwmmxt: Use undef hook to enable coprocessor for task
+         47ba5f39eab3c2a9a1ba878159a6050f2bbfc0e2 ARM: entry: Make asm coproc dispatch code NWFPE only
          
