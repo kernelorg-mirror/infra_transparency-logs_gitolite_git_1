@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4630869499674069785=="
+Content-Type: multipart/mixed; boundary="===============3538351022911363262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 May 2023 05:17:44 -0000
-Message-Id: <168430066468.32260.10523488581825931994@gitolite.kernel.org>
+Date: Wed, 17 May 2023 05:17:51 -0000
+Message-Id: <168430067170.32359.2950322161640590967@gitolite.kernel.org>
 
---===============4630869499674069785==
+--===============3538351022911363262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: de58ef414d8d7a0a635cd331b3b013d8216c4e60
     new: 0697e4394210b9f7d83c32c9236a47fdeddf9ac0
     log: revlist-de58ef414d8d-0697e4394210.txt
 
---===============4630869499674069785==
+--===============3538351022911363262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f26ebdd3e4e4e1f5f08522b087ab9ec7216e9a3b selftests/bpf: Allow to use kfunc from 
 65eb006d85a2ac0b23464808099726bd826e9877 bpf: Move kernel test kfuncs to bpf_testmod
 0697e4394210b9f7d83c32c9236a47fdeddf9ac0 Merge branch 'bpf: Move kernel test kfuncs into bpf_testmod'
 
---===============4630869499674069785==--
+--===============3538351022911363262==--
