@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 17 May 2023 08:09:45 -0000
-Message-Id: <168431098580.21244.8643465491856820894@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4868348410402263962=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Wed, 17 May 2023 08:14:14 -0000
+Message-Id: <168431125471.24297.17139870123167661482@gitolite.kernel.org>
+
+--===============4868348410402263962==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/main
-    old: 103d6e9d61e012d9f7d0aae33529924f9a3d78d9
-    new: 3f2da9fc17f66af17a1349d4d32f6a6ba245b94d
-    log: |
-         40bb2ab49c369b78d1cb37ed63b8a85f3102b239 wifi: rtw89: 8851b: add to read efuse version to recognize hardware version B
-         f03bd0429f9bc2718ee250b05eb48dc081d4f6b7 wifi: rtw89: 8851b: configure GPIO according to RFE type
-         4885b17ebb92b3cc54e1064ffe52f688ca83d5c7 wifi: rtw89: 8851b: add BT coexistence support function
-         31df6df89f9394bc544a4ebad62584d56bff1677 wifi: rtw89: 8851b: add basic power on function
-         e948213fb8560f6d6af6058351758f13a35c9f8d wifi: rtw89: 8851b: add set channel function
-         f4244d7fbc9163a44272c0a9d86fd0784d28f386 wifi: rtw89: 8851b: add to parse efuse content
-         fe8a168266eb65d41ebee0b801fffb5278f92a1b wifi: rtw89: 8851b: rfk: add RX DCK
-         0194a95cbe721a1eff4af2587b09213b088281b0 wifi: rtw89: 8851b: rfk: add DPK
-         3f2da9fc17f66af17a1349d4d32f6a6ba245b94d wifi: rtw89: 8851b: rfk: add TSSI
-         
+  - ref: refs/heads/has_ioport_v5
+    old: dd756ed7bfe68dec90fef2bc41af4dac421fb259
+    new: 1b74cc90fe8506d60b5aa8474c02e96c298bdfdd
+    log: revlist-dd756ed7bfe6-1b74cc90fe85.txt
+
+--===============4868348410402263962==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dd756ed7bfe6-1b74cc90fe85.txt
+
+8287482e5da2b7c1c824e450bc77e2b05b089f31 rtc: add HAS_IOPORT dependencies
+dacb0533924a31e97f9c9f239ca36d85cc88066b scsi: add HAS_IOPORT dependencies
+1dd9c33cf7e535aaff101497dea2f4978fe7b2c3 sound: add HAS_IOPORT dependencies
+6f454db5f9be07f0bef18e0750c95a2cb508e8b0 speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
+7eeaa805606bf38388c60607f2d401b135de425f staging: add HAS_IOPORT dependencies
+49379be0f8a317a6e1a74d87ed5c67943b3e5ab8 tty: serial: handle HAS_IOPORT dependencies
+24571a7578b282c5aaba8130efef7bdd838f8288 usb: add HAS_IOPORT dependencies
+aa0e3ffe221e628db151ab314e4760f736c71ecb usb: uhci: handle HAS_IOPORT dependencies
+4e3f35e2bf15fe3e25640373f6f44ad86ed22f51 usb: pci-quirks: handle HAS_IOPORT dependencies
+07539b04777aaa738f6305c722468f605fc7bc08 fbdev: atyfb: Remove unused clock determination
+75236aebbd2578449b970b1c31f1d36c6f180c76 video: handle HAS_IOPORT dependencies
+987ead6558b2de0ee31ec9f5816c3aca4a4cbd37 watchdog: add HAS_IOPORT dependencies
+d145759e8493991b4bc06141e11c01abb730ee70 wireless: add HAS_IOPORT dependencies
+1b74cc90fe8506d60b5aa8474c02e96c298bdfdd asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
+
+--===============4868348410402263962==--
