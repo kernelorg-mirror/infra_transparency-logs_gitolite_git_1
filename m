@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5507974709752460562=="
+Content-Type: multipart/mixed; boundary="===============0424124622505368786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 17 May 2023 15:26:58 -0000
-Message-Id: <168433721879.24393.10978869665942234297@gitolite.kernel.org>
+Date: Wed, 17 May 2023 15:27:33 -0000
+Message-Id: <168433725352.24644.4716654662635639536@gitolite.kernel.org>
 
---===============5507974709752460562==
+--===============0424124622505368786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 225c657945c4a6307741cb3cc89467eadcc26e9b
-    new: ab87603b251134441a67385ecc9d3371be17b7a7
-    log: revlist-225c657945c4-ab87603b2511.txt
+  - ref: refs/heads/dev-queue
+    old: 9c23ec4e93263716cc527d5b11d7b7edf4022a11
+    new: b57a54f700dda7209d2ab91a2b08809dd1f02710
+    log: revlist-9c23ec4e9326-b57a54f700dd.txt
 
---===============5507974709752460562==
+--===============0424124622505368786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-225c657945c4-ab87603b2511.txt
+Content-Disposition: attachment; filename=revlist-9c23ec4e9326-b57a54f700dd.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 94b95dfaa814f565d92f5a65f0ff12a483095522 xfrm: release all offloaded policy memory
@@ -60,5 +60,17 @@ dacab578c7c6cd06c50c89dfa36b0e0f10decd4e vlan: fix a potential uninit-value in v
 c46e78ba9a7a09da4f192dc8df15c4e8a07fb9e0 net: pcs: xpcs: fix C73 AN not getting enabled
 9ba9485b87ac97fd159abdb4cbd53099bc9f01c6 net: selftests: Fix optstring
 ab87603b251134441a67385ecc9d3371be17b7a7 net: wwan: t7xx: Ensure init is completed before system sleep
+b54d9c62ce5661b6c33d1f45aabd871cff8a94ee igc: Fix possible system crash when loading module
+81be4691b1d5b60df44ff5b413c9832d1ea10ac0 igb: fix nvm.ops.read() error handling
+2901d287cee0146be0706fe83b165c2494fa53b6 iavf: Fix use-after-free in free_netdev
+deb0b2fe490303ef17c4d9cb31c55077d44445b1 iavf: Fix out-of-bounds when setting channels on remove
+907812dbb4240601df6d64fa54d120c4cbdcd766 ice: Fix ice module unload
+3b5d1f3ff484114d1dc473cd3eb8d9843eb5d6a7 igc: Fix race condition in PTP tx code
+0d25604f979c174778b48b152fac201f0ae0bf24 igc: Check if hardware TX timestamping is enabled earlier
+03273756417d6ab7b6dd454d7bd0fd9d6c693cca igc: Retrieve TX timestamp during interrupt handling
+6b951388d04440d69bb58ac32744290a1dba6fd9 igc: Add workaround for missing timestamps
+43c9b5f3a269a926ae0e8a10324da68a78499d92 igc: Clean the TX buffer and TX descriptor ring
+86fcc2a1dd4f98aa81871fd8e1a179363471991a igc: Add condition for qbv_config_change_errors counter
+b57a54f700dda7209d2ab91a2b08809dd1f02710 ice: recycle/free all of the fragments from multi-buffer frame
 
---===============5507974709752460562==--
+--===============0424124622505368786==--
