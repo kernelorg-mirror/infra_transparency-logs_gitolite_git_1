@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Wed, 17 May 2023 14:00:02 -0000
-Message-Id: <168433200288.27858.16887374588140240548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 17 May 2023 14:02:04 -0000
+Message-Id: <168433212427.29812.11797536481811194158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/kvm/bpf
-    old: 06b5f491544e5508642870611f9e5a494e67c8db
-    new: 31a41e009ab9700e199dc1df51e388c2f70c2c75
+  - ref: refs/heads/master
+    old: cff36398bd4c7d322d424433db437f3c3391c491
+    new: 2a36c26fe3b8e2cf39e15e80ba1abc889a75da4f
     log: |
-         0e9650430e6df26f89393f47d718449334adc6f9 bpf: Fix mask generation for 32-bit narrow loads of 64-bit fields
-         31a41e009ab9700e199dc1df51e388c2f70c2c75 KVM: Add support for new KVM_DEV_TYPE_BPF device
+         f04a32b2c5b539e3c097cb5c7c1df12a8f4a0cf0 selftests/bpf: Do not use sign-file as testcase
+         2a36c26fe3b8e2cf39e15e80ba1abc889a75da4f bpftool: Support bpffs mountpoint as pin path for prog loadall
          
