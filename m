@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 17 May 2023 12:27:53 -0000
-Message-Id: <168432647376.30631.13516389765608545066@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5111557295282870792=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Wed, 17 May 2023 12:33:31 -0000
+Message-Id: <168432681167.1755.15276881595060996308@gitolite.kernel.org>
+
+--===============5111557295282870792==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/dev-test
-    old: 7bd6c779bdc399427e413c3cd76d11ef99ba4a5e
-    new: 519c7b5262a89ab91eaff67d5f629488b91e817a
-    log: |
-         5d2be24d1e7f669bb81eb3b5d9402ac0be7fbdab f2fs: fix potential deadlock due to unpaired node_write lock use
-         2d3d86355644858d35e528ccb51f56649e2482d8 f2fs: fix to set noatime and immutable flag for quota file
-         86ba823d601bbf64c04b7e1e73fd8f78e04864f2 f2fs: get out of a repeat loop when getting a locked data page
-         3320656071b5546475637655a8b2b6f53556cd22 f2fs: compress: fix to check validity of i_compress_flag field
-         2089087bcd067ebfce25133fc98f080c2afd778c f2fs: flush error flags in workqueue
-         6d680175e02f56ca552a78d517130339d3ed91c5 f2fs: renew value of F2FS_MOUNT_*
-         cceaa8e0a23336a8a771a1a0fd9a31faa108f8f8 f2fs: renew value of F2FS_FEATURE_*
-         5c1395a3a5b612d36ab97b5b986a674f6fcde8e0 f2fs: fix to tag FIEMAP_EXTENT_DELALLOC in fiemap() for delay allocated extent
-         519c7b5262a89ab91eaff67d5f629488b91e817a f2fs: compress: fix prepare_compress vs memory reclaim case
-         
+  - ref: refs/tags/dt-cleanup-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 774579200223fd29b9d8ab4f7e3a0d0ad6cc9baf
+  - ref: refs/tags/dt64-cleanup-6.5
+    old: 0000000000000000000000000000000000000000
+    new: bb77b6ac6088c487a4895f324568508705b3c9bf
+
+--===============5111557295282870792==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1684326810 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1684326809-915afe694f05b92390d04067f440eea71ead4d63
+
+0000000000000000000000000000000000000000 774579200223fd29b9d8ab4f7e3a0d0ad6cc9baf refs/tags/dt-cleanup-6.5
+0000000000000000000000000000000000000000 bb77b6ac6088c487a4895f324568508705b3c9bf refs/tags/dt64-cleanup-6.5
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmRkyZoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18EbD/977HEv3kJ2WqGU+yBBZNpjcAsnxIgq9kF4
+Pz3nkPB1otnrH5jMIqf6BAxBXzmy/TVzkPwY8hW0+jw6zCKzuoDvINxtupvD2531
+wifBRV0rTdPe+w6LqKo/v2fR12wzwInsA7m3mu8el7nqTTJebNQsisvGKbEBvXsb
+wbapgJwQ4Y8yyfzCLgf12oGAMc6rZAko9DCDA1/tNKLi/QooE9l7iIJ1StKYaVKw
+j7J1VALGwAr/7hBmc9lLHcKNxXltUY2jOHKN/SU2kUX9yOzyE+yO692vVx7/lrVp
+smfVUrLbyrfytIKxmEJNnb73dpncMEqXjd15t1ZHYYfX/Gt4b0wNFehws70fC3Sa
+iii+cnenn+xZW9puo6YAC98n+Qi6joW6sOR50dmn5aIoa37n3GTj3FJR/9nRHIZd
+PmxRiYBVTfjIhxkZ4CdB7KOD7XDDCPWd8Wlj4JceuUN8xELBkQOMKZz6CpdGhUux
+2lOWOm7JYB0EDBdyl7Jp3tr/ElmPUVE/IKIYzNSf8V6tH7a6+XMn+cifB0dw+cVL
+c5VrnVy41dMsFZJophjiwPjF+dg4/F/lB7gQAyFE6y9wz5ttQ7EEqKNXZTTBL/Sx
+boMAtwvcGI8m8xL5fLSabzw6SStXJZtbWqXiVpiaFtv+6xU05MGlpIXrLc/orGWx
++Vx9eer4EA==
+=Ul6F
+-----END PGP SIGNATURE-----
+
+--===============5111557295282870792==--
