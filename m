@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7902198718404833797=="
+Content-Type: multipart/mixed; boundary="===============3067559392123292282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 May 2023 02:12:00 -0000
-Message-Id: <168428952095.4247.18250785325362002417@gitolite.kernel.org>
+Date: Wed, 17 May 2023 02:12:14 -0000
+Message-Id: <168428953497.4393.2453389236006758020@gitolite.kernel.org>
 
---===============7902198718404833797==
+--===============3067559392123292282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,90 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 1a7edd041f2d252f251523ba3f2eaead076a8f8d
-    new: 09e797c8641f6ad435c33ae24c223351197ea29a
-    log: |
-         5149452ca66289ef33d13897ee845a2f6f5b680f scsi: ufs: core: Fix MCQ tag calculation
-         06caeb536b2b21668efd2d6fa97c09461957b3a7 scsi: ufs: core: Rename symbol sizeof_utp_transfer_cmd_desc()
-         72a81bb0b6fc9b759ac0fdaca3ec5884a8b2f304 scsi: ufs: core: Fix MCQ nr_hw_queues
-         4e81a6cba517cb33584308a331f14f5e3fec369b scsi: storvsc: Don't pass unused PFNs to Hyper-V host
-         6ca9818d1624e136a76ae8faedb6b6c95ca66903 scsi: Revert "scsi: core: Do not increase scsi_device's iorequest_cnt if dispatch failed"
-         09e797c8641f6ad435c33ae24c223351197ea29a scsi: core: Decrease scsi_device's iorequest_cnt if dispatch failed
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 4770e24904eec1471b7abfb33d516a0e587ebc52
+    new: 127503cb71fc8ca4e3ad750f39b6e2fa2e2729d0
+    log: revlist-4770e24904ee-127503cb71fc.txt
 
---===============7902198718404833797==
+--===============3067559392123292282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1684289519 -0400
+pusher 75C5DE3D 1684289526 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1684289519-eb50f53bc1deb850369be510ca672609ac7a9f67
+nonce 1684289525-4424702748158c1f14ab406299693c8a1b7066fa
 
-1a7edd041f2d252f251523ba3f2eaead076a8f8d 09e797c8641f6ad435c33ae24c223351197ea29a refs/heads/fixes
+4770e24904eec1471b7abfb33d516a0e587ebc52 127503cb71fc8ca4e3ad750f39b6e2fa2e2729d0 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRkN+8ACgkQ7ulgGnXF
-3j36zA//ZxAo8MYastNFA4yZq8xlFVfNYvaKg9mkDSARbHttVImKn8cM3YC2RNXe
-sIRASYaHUnuYUVxUoaZLrequNXfp5JiFwTfHIlchNu83zf6K8o4GQALmyfZuBRPR
-1ElCYGjMnI0lEvFltqpH9YTzWmGOMndAgUkIRdZcu8vfO2I+53cthKzpkiZl4OLU
-gWZvd9M3Bt86tLfbbyaV1ZRmpngJB0m7XRUO2PrXKUeXNlDhKvG6iPxHAMdX+JrV
-1+OyUPAkteq+RtIzEjBRD/LusiTQQ3tdCtqgx3ARxwzZoNJgDwqgAxehZQrsMLqY
-+aSnpHHrV1W7vKOa7Atb7zxbxlAViC2hf9gyGe6G6Zkv7vV6fW0v49Ppor/5GduD
-1aTcWx2lAzBOBcc5klYO55/WP2uuaCZD9bx28tTcaQJ7PAeb8OYXrPG+yNMKc4vn
-0x+8wlHIgPlnAJc7FoFJLEiakcXIkqQIdIK+8kQsSIdD4/nxpqIRqVt0G9vtr9Gr
-mFzLInfbW/Sa8Zp2sgBf/zAox+3S6qdIXw8qNT6+T05ul9Cb+0H9aztf27FScVvc
-Jb0y4venYGw/j6eyJpJUd6AAmg6m9ny9DvtQ3ELKyEreu7izsbrLd0x1HG9rYUVP
-ll5krMdnC8UEqFTTBufKRJmVavhkcEr9YcdzDOQeiyEV0r7P2s8=
-=bpOK
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRkN/YACgkQ7ulgGnXF
+3j27bw/+JNx2diXgjPrwDJ0Uo+QWMt5p/xA92P0RxVp4UuTWu22D6Oz+Iinb/L4I
+pe2I3EUU/Va4pXkwRfD1Q4ZVwk98y9GBS6J0449EwK+dbCBGCGgVQ37cRGxFO+1R
+kM4eGp3d0RtAP9VOsEMoBIsnRZD/a+hQePF6p4LqTiHisi6Lzy6xgdQqOxpBB+X0
+0SFF+FEH2X8wgSbZClBSMt5Vap4F4CTskh4u2k6pyI+VHxdY2ahmqRNMgMpqbzbV
+C8IA9+A4UTtPR4dz6qbMLxz9y5UER1wno90dRT96+KSFT8ESxUGXtyUOHYafw8Gz
+URy+HyJE9isK+0P5gpJPx6gfhUUFwC6tuzUJGEZIqYECNKO0HHU/ribuNXanbssj
+41S8g1Mp2q7GAlk46qVknYwbiPo8y/hTXIKWA5hxu95OEU0aJ9bGHHLG1P8ETRMA
+Wu8vtZnnePGfjlS7bPVg/vIkFzZFmwAr+NnuaZXTIOKBEqxn3DL0OFVgSe5+bi4r
+lyNXUxutfZEelxiZRca3oGrsB3A50pUzInugDzO3aDdC77jX25TYfBvxStSCgXtq
+yetRNi8w2u95mqlKu3txvOIdsuI19PYXifbIS7QowEg/woevHN47gLCG6Yv39Q14
+hqr3LCTb240eZLp9n9ssp3GXZHJAfY5EgWo3PoPN4qIutZ+YWXk=
+=QNzx
 -----END PGP SIGNATURE-----
 
---===============7902198718404833797==--
+--===============3067559392123292282==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4770e24904ee-127503cb71fc.txt
+
+b7d26c1d8c51632cfce1cb1f0db7b125bc6533f6 scsi: pm80xx: Log some HW events by default
+6a516506aad6a6aae8b70c3dd9e180d060426f1b scsi: pm80xx: Enable init logging
+a6cf6b8bd6e20808f3681dcefd241090cd4b5d97 scsi: pm80xx: Print port_id in HW events
+5f797120d853dc993a3ea11ebb9adb73ed48bd81 scsi: pm80xx: Log phy_id and port_id in the device registration request
+d309422d7dc6619fb6aa713317e0b0010b8985f3 scsi: pm80xx: Log port state during HW event
+3aa65f7e25acb44d9043d236206e844295cf8c6a scsi: pm80xx: Update PHY state after hard reset
+14a8f116cdc0cbfdb939f145b02173af82083b91 scsi: pm80xx: Add GET_NVMD timeout during probe
+84c868a702f520a75af8a6f0bf8084135e09c510 scsi: lpfc: Fix verbose logging for SCSI commands issued to SES devices
+97f975823f8196d970bd795087b514271214677a scsi: lpfc: Fix double free in lpfc_cmpl_els_logo_acc() caused by lpfc_nlp_not_used()
+78e9e35004fd42ca6d539f3ba5c600a189241633 scsi: lpfc: Match lock ordering of lpfc_cmd->buf_lock and hbalock for abort paths
+779d61dfb9eab964b3cd243718fd27b35f9db776 scsi: lpfc: Update congestion warning notification period
+5fc849d8056d6f51bc8cd43cbcd85d4e71aa1ee2 scsi: lpfc: Add new RCQE status for handling DMA failures
+a7b94c159210cdb9393fa6e69f8d085e43c0607b scsi: lpfc: Replace blk_irq_poll intr handler with threaded IRQ
+fd9ffa6c747f8868640dff783bb52cb0761dba19 scsi: lpfc: Update lpfc version to 14.2.0.12
+e3be011e828037be60fc91fa2d1791f9ee612a46 scsi: libsas: Simplify sas_check_eeds()
+ba9be7e70e15dd75375131826f4b8a484efec4d0 scsi: libsas: Remove an empty branch in sas_check_parent_topology()
+cf3cd61e76607801081adc35ae288b90921e6097 scsi: libsas: factor out sas_check_fanout_expander_topo()
+d90171dd0da50212f5950cc708240831e82f2f91 scsi: qla2xxx: Multi-que support for TMF
+9803fb5d27597ea98f2e05b0b6cfc48ae808458e scsi: qla2xxx: Fix task management cmd failure
+6a87679626b51b53fbb6be417ad8eb083030b617 scsi: qla2xxx: Fix task management cmd fail due to unavailable resource
+9ae615c5bfd37bd091772969b1153de5335ea986 scsi: qla2xxx: Fix hang in task management
+b843adde8d490934d042fbe9e3e46697cb3a64d2 scsi: qla2xxx: Fix mem access after free
+fc0cba0c7be8261a1625098bd1d695077ec621c9 scsi: qla2xxx: Wait for io return on terminate rport
+eb91eb809c8dfe7a7cc7aedd0670cdc2bb1174b9 scsi: qla2xxx: Update version to 10.02.08.300-k
+3e7e55aa3df2d58b1d27e3380d293da525cf5a3b scsi: smartpqi: Map full length of PCI BAR 0
+fe0375d48513ce0e3d98dbcec5508e1dd09dc5b2 scsi: smartpqi: Add new controller PCI IDs
+889cda36db99e3ef0c9a6d2e6c64de725913394b scsi: smartpqi: Remove NULL pointer check
+2312e844dc8d5fd66f179baa3d848d2613e4f81f scsi: smartpqi: Fix rare SAS transport memory leak
+80d560d94fa9b28069c62e1a64ae4a03d5f43fbc scsi: smartpqi: Remove contention for raid_bypass_cnt
+5c9e3c1c5276cf1f0de47f97eddf48ae1e7fd083 scsi: smartpqi: Validate block layer host tag
+68f7920492be3d193d31b5a6b97e8501d2306b17 scsi: smartpqi: Add support for RAID NCQ priority
+c23efd9eadd8d07c0e88b52296d9f74350e7af7f scsi: smartpqi: Fix byte aligned writew for ARM servers
+2eddf98d01520d6bcd7d5a703a85206ba84bd179 scsi: smartpqi: Stop sending driver-initiated TURs
+d2c7583f27cc138354a1cd3c990923de7fd2126a scsi: smartpqi: Add sysfs entry for NUMA node in /sys/block/sdX/device
+49fd52d4991f431bc2e68cd5682a7c7496fb3783 scsi: smartpqi: Update copyright to 2023
+fcb405111a24cf9fc0dcd09f47bcd5f0968c4a9d scsi: smartpqi: Update version to 2.1.22-040
+2a954832015df3dc4266f73bed1b3c8b4cb9919b scsi: mpi3mr: Use -ENOMEM instead of -1 in mpi3mr_expander_add()
+9a4327fd8864ff78d97e9a3c3c3c992353d06fee scsi: ufs: core: Change the module parameter macro of use_mcq_mode
+f025312b089474a54e4859f3453771314d9e3d4f scsi: qedf: Fix NULL dereference in error handling
+19c9322e36a0c8726b901d6c8adb7c9d785da393 scsi: ufs: ufs-mediatek: Delete some dead code
+808e87a5119ba7dab6b1b6ccb5120262fa9f28fb Merge patch series "lpfc: Update lpfc to revision 14.2.0.12"
+92d685a96bb054ebf44360d38dc94fc17a9ba34a Merge patch series "qla2xxx driver update"
+44fcce673561ebd02014125c5cb37649d7b053d0 Merge patch series "scsi: libsas: remove empty branches and code simplification"
+79c67c54f64ccae5b0a302f6ec67a6b7b8a55b24 Merge patch series "scsi: pm80xx: Enhanced debug logs for HW events"
+44ef1604ae9492a7d9238ea79aa0cc7b4c4de860 Merge patch series "smartpqi updates"
+
+--===============3067559392123292282==--
