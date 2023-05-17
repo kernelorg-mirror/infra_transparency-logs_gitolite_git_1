@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2357081352532003295=="
+Content-Type: multipart/mixed; boundary="===============3880637104313184263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 May 2023 05:33:40 -0000
-Message-Id: <168430162077.10872.14489314582045745596@gitolite.kernel.org>
+Date: Wed, 17 May 2023 05:33:46 -0000
+Message-Id: <168430162628.10970.13529998188143569313@gitolite.kernel.org>
 
---===============2357081352532003295==
+--===============3880637104313184263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0697e4394210b9f7d83c32c9236a47fdeddf9ac0
     new: 34e78bab67c5de43e685c63cd8c27e0cd3239897
     log: revlist-0697e4394210-34e78bab67c5.txt
 
---===============2357081352532003295==
+--===============3880637104313184263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ d9f6d9709f87236f9a33de0d42dae8402b812e19 selftests/xsk: store offset in pkt inst
 7cd6df4f5ec278888b4c3ab12b291c2124b46c1c selftests/xsk: adjust packet pacing for multi-buffer support
 34e78bab67c5de43e685c63cd8c27e0cd3239897 Merge branch 'seltests/xsk: prepare for AF_XDP multi-buffer testing'
 
---===============2357081352532003295==--
+--===============3880637104313184263==--
