@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 17 May 2023 14:50:38 -0000
-Message-Id: <168433503815.31620.17811385250047553642@gitolite.kernel.org>
+Date: Wed, 17 May 2023 14:50:45 -0000
+Message-Id: <168433504576.32006.2900168400625402712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/tmp.perf-tools
     old: 3dc6183d897b6c75811cb410b10b165e969a4501
     new: 1b5f159ce8751b61aea426293cd71a510a081939
     log: |
