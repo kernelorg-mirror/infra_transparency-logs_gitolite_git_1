@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Wed, 17 May 2023 13:20:30 -0000
-Message-Id: <168432963045.1742.2028746197736404696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 17 May 2023 13:22:18 -0000
+Message-Id: <168432973892.3417.15081815066773771496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/devel
-    old: 070a10d6fe1b2f4cc5d6c38b478cc059461eabe9
-    new: c8b8ff09099f0144903cc8bc516bd1173e931098
+  - ref: refs/heads/fixes
+    old: 9f07a8cd406a5fdccf10fc93e916c500ebe01f0b
+    new: 0f1cbf941d5949110adf70725a9614e622de8d99
     log: |
-         6d2c24a3829d05ffd8fbc0b2b16c0f4941ed1a43 pinctrl: wpcm450: Relax return value check for IRQ get
-         57f3495b6e0290e8611dbfc6971c35334a339986 pinctrl: ingenic: Relax return value check for IRQ get
-         c8b8ff09099f0144903cc8bc516bd1173e931098 pinctrl: pistachio: Relax return value check for IRQ get
-         
-  - ref: refs/heads/for-next
-    old: 0ad8190a7aa01efdf773a7c918184cb8a87b7b0a
-    new: 46ca8e008c03ab0aa6e9acf0f68b79858b088374
-    log: |
-         6d2c24a3829d05ffd8fbc0b2b16c0f4941ed1a43 pinctrl: wpcm450: Relax return value check for IRQ get
-         57f3495b6e0290e8611dbfc6971c35334a339986 pinctrl: ingenic: Relax return value check for IRQ get
-         c8b8ff09099f0144903cc8bc516bd1173e931098 pinctrl: pistachio: Relax return value check for IRQ get
-         46ca8e008c03ab0aa6e9acf0f68b79858b088374 Merge branch 'devel' into for-next
+         2862a2fdfae875888e3c1c3634e3422e01d98147 s390/qdio: fix do_sqbs() inline assembly constraint
+         ed40866ec7d328b3dfb70db7e2011640a16202c3 statfs: enforce statfs[64] structure initialization
+         6d9406f80cd82964c8ed75d482d885f18921e0b8 s390/uapi: cover statfs padding by growing f_spare
+         e534167cee150d900bf800ddb9bf1514d966635f s390/Kconfig: remove obsolete configs SCHED_{BOOK,DRAWER}
+         0f1cbf941d5949110adf70725a9614e622de8d99 s390/iommu: get rid of S390_CCW_IOMMU and S390_AP_IOMMU
          
