@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3067559392123292282=="
+Content-Type: multipart/mixed; boundary="===============1622804547457379964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 May 2023 02:12:14 -0000
-Message-Id: <168428953497.4393.2453389236006758020@gitolite.kernel.org>
+Date: Wed, 17 May 2023 02:12:20 -0000
+Message-Id: <168428954036.4479.896608465540330056@gitolite.kernel.org>
 
---===============3067559392123292282==
+--===============1622804547457379964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 4770e24904eec1471b7abfb33d516a0e587ebc52
-    new: 127503cb71fc8ca4e3ad750f39b6e2fa2e2729d0
-    log: revlist-4770e24904ee-127503cb71fc.txt
+  - ref: refs/heads/6.5/scsi-queue
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 44ef1604ae9492a7d9238ea79aa0cc7b4c4de860
+    log: revlist-ac9a78681b92-44ef1604ae94.txt
 
---===============3067559392123292282==
+--===============1622804547457379964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1684289526 -0400
+pusher 75C5DE3D 1684289538 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1684289525-4424702748158c1f14ab406299693c8a1b7066fa
+nonce 1684289538-fc46849636575678c236a34a696b0e5ef957abc5
 
-4770e24904eec1471b7abfb33d516a0e587ebc52 127503cb71fc8ca4e3ad750f39b6e2fa2e2729d0 refs/tags/mkp-scsi-queue
+ac9a78681b921877518763ba0e89202254349d1b 44ef1604ae9492a7d9238ea79aa0cc7b4c4de860 refs/heads/6.5/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRkN/YACgkQ7ulgGnXF
-3j27bw/+JNx2diXgjPrwDJ0Uo+QWMt5p/xA92P0RxVp4UuTWu22D6Oz+Iinb/L4I
-pe2I3EUU/Va4pXkwRfD1Q4ZVwk98y9GBS6J0449EwK+dbCBGCGgVQ37cRGxFO+1R
-kM4eGp3d0RtAP9VOsEMoBIsnRZD/a+hQePF6p4LqTiHisi6Lzy6xgdQqOxpBB+X0
-0SFF+FEH2X8wgSbZClBSMt5Vap4F4CTskh4u2k6pyI+VHxdY2ahmqRNMgMpqbzbV
-C8IA9+A4UTtPR4dz6qbMLxz9y5UER1wno90dRT96+KSFT8ESxUGXtyUOHYafw8Gz
-URy+HyJE9isK+0P5gpJPx6gfhUUFwC6tuzUJGEZIqYECNKO0HHU/ribuNXanbssj
-41S8g1Mp2q7GAlk46qVknYwbiPo8y/hTXIKWA5hxu95OEU0aJ9bGHHLG1P8ETRMA
-Wu8vtZnnePGfjlS7bPVg/vIkFzZFmwAr+NnuaZXTIOKBEqxn3DL0OFVgSe5+bi4r
-lyNXUxutfZEelxiZRca3oGrsB3A50pUzInugDzO3aDdC77jX25TYfBvxStSCgXtq
-yetRNi8w2u95mqlKu3txvOIdsuI19PYXifbIS7QowEg/woevHN47gLCG6Yv39Q14
-hqr3LCTb240eZLp9n9ssp3GXZHJAfY5EgWo3PoPN4qIutZ+YWXk=
-=QNzx
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRkOAIACgkQ7ulgGnXF
+3j3lMg//QYzWt78O6yjS/ODsTtEirQRzGSmp3LGhQCpugeqxsJ7XPjrgrY0sfEKL
+R2NUBNrVq63IBNlbQHxRxkyR8p+SrbtDqvXAQ0v0gt4SLjcck6To6gw4mgk1cEd5
+VyQjMI7M6BmCiHq0iYjxIyhlQkMl1KHxcvqwT6++lQgwDdPM+ne7n80SKcBVblN1
+j9+uLaKHTAWJOugIeT1NjU9R6GZU1t9MoYNIobTnxmaUcTpiefI5xxtgJmnSFD39
+vMw/d82PQrVM59RBWrV6GaJe29A/GENfO7KzAkF1gnSa5YwBqz801varRPbzWT6c
+wI3C0OFw3IlOqS20EVWrd5GxUBMs8P916J19kRnK3Y70Hz1c8RcgVgUcM6D73Gq7
+pq+DnN89vlmhfLd2ZvblngL3zOaeEoxlh5tcSmPkVIkJDRlq8YybU3T1sj9tWaoz
+BiXTpCj43mHkKYchEzwcMWt/6nd7cb7P0/7xaUAyeMsZF+LrfvSC9IfI4o215jZ/
+Fc8W+T2Sfg/SwJGlS4MLVNkfmvGb0loX3Vm5Rt2Xac374rev25h0y5cJcMk0mFDf
+VurPCLsXbR7Mz0SvbhXNuqpRD+Sualqdi82APsd+Hs3x04kXMENsP22XFMHv9nEA
+yxpCZiHGaLqM4k1k0u0YhuQJwJSpK6T91E2JV7Iks7c1Y3cxlKQ=
+=tjY8
 -----END PGP SIGNATURE-----
 
---===============3067559392123292282==
+--===============1622804547457379964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4770e24904ee-127503cb71fc.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-44ef1604ae94.txt
 
 b7d26c1d8c51632cfce1cb1f0db7b125bc6533f6 scsi: pm80xx: Log some HW events by default
 6a516506aad6a6aae8b70c3dd9e180d060426f1b scsi: pm80xx: Enable init logging
@@ -102,4 +102,4 @@ f025312b089474a54e4859f3453771314d9e3d4f scsi: qedf: Fix NULL dereference in err
 79c67c54f64ccae5b0a302f6ec67a6b7b8a55b24 Merge patch series "scsi: pm80xx: Enhanced debug logs for HW events"
 44ef1604ae9492a7d9238ea79aa0cc7b4c4de860 Merge patch series "smartpqi updates"
 
---===============3067559392123292282==--
+--===============1622804547457379964==--
