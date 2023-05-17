@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 17 May 2023 20:17:59 -0000
-Message-Id: <168435467990.25058.15133770717856899456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 17 May 2023 21:28:37 -0000
+Message-Id: <168435891744.7388.11344045464765572632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 216abe45cf4addba4e4c1eb2fae24762ffdefe9e
-    new: 9fe0731bc345230e8ce125056b9407c63960f74e
+  - ref: refs/heads/perf-tools
+    old: 760ebc45746b498a36332acefd9e2838a3f8fcf0
+    new: 1b5f159ce8751b61aea426293cd71a510a081939
     log: |
-         9fe0731bc345230e8ce125056b9407c63960f74e ALSA: emu10k1: remove runtime 64-bit divisions
-         
-  - ref: refs/heads/master
-    old: 61e44faa4fd030703b6859028fcc880aa7be71b7
-    new: 7e9f06644694ab5a4f5c8dd11baf2e7a80979d09
-    log: |
-         9fe0731bc345230e8ce125056b9407c63960f74e ALSA: emu10k1: remove runtime 64-bit divisions
-         7e9f06644694ab5a4f5c8dd11baf2e7a80979d09 Merge branch 'for-next'
+         9dde12767aa19696a7fb28b2320119b87fb9d299 perf metrics: Avoid segv with --topdown for metrics without a group
+         71852cd8825077d2d90466ac34d3b94e0be3bfae tools headers UAPI: Sync linux/prctl.h with the kernel sources
+         b633896314c0f78f2b4eb7b19a530d68f2a35445 tools headers UAPI: Sync s390 syscall table file that wires up the memfd_secret syscall
+         9bc83d6e3824f09cef73b01256962d950965ddc4 tools headers x86 cpufeatures: Sync with the kernel sources
+         7f02ce62a6cfc0feb164bb7eb36c6647c00b43c8 tools headers: Update the copy of x86's mem{cpy,set}_64.S used in 'perf bench'
+         29719e319869c6b3f09e6e92310b019e32943696 tools headers UAPI: Sync arch prctl headers with the kernel sources
+         1b5f159ce8751b61aea426293cd71a510a081939 tools headers disabled-features: Sync with the kernel sources
          
