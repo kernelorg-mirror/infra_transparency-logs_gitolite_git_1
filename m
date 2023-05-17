@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3592887907305211695=="
+Content-Type: multipart/mixed; boundary="===============5241107739138869920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 17 May 2023 07:11:51 -0000
-Message-Id: <168430751179.13624.8697773519998032989@gitolite.kernel.org>
+Date: Wed, 17 May 2023 07:12:11 -0000
+Message-Id: <168430753179.13830.6325111833479349833@gitolite.kernel.org>
 
---===============3592887907305211695==
+--===============5241107739138869920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm-vfp-softirq-fixes
-    old: 3982bd96d0baa8ec136a8473d4f4fbddc3ca3227
+  - ref: refs/heads/for-kernelci
+    old: a189609d3486aa0367119ebd7a11ff07a56633f9
     new: da83a1fa82578ed9535f697ab04ec6035ae76b93
-    log: revlist-3982bd96d0ba-da83a1fa8257.txt
+    log: revlist-a189609d3486-da83a1fa8257.txt
 
---===============3592887907305211695==
+--===============5241107739138869920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3982bd96d0ba-da83a1fa8257.txt
+Content-Disposition: attachment; filename=revlist-a189609d3486-da83a1fa8257.txt
 
 4327a6137ed43a091d900b1ac833345d60f32228 drm/ast: Fix ARM compatibility
 c8687694bb1f5c48134f152f8c5c2e53483eb99d drm/fbdev-generic: prohibit potential out-of-bounds access
@@ -236,4 +236,4 @@ bced271ffb6ad1ee85838112a295520d0f338323 ARM: entry: Disregard Thumb undef excep
 ebfe748e852e81099b0c8a26980c9f25d0b190fb ARM: iwmmxt: Use undef hook to enable coprocessor for task
 da83a1fa82578ed9535f697ab04ec6035ae76b93 ARM: entry: Make asm coproc dispatch code NWFPE only
 
---===============3592887907305211695==--
+--===============5241107739138869920==--
