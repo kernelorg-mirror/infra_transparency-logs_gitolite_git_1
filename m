@@ -1,71 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1628852762764075080=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 18 May 2023 11:00:08 -0000
-Message-Id: <168440760896.17467.5581899038952360824@gitolite.kernel.org>
-
---===============1628852762764075080==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 18 May 2023 11:09:57 -0000
+Message-Id: <168440819700.22018.14573608673077960298@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dev
-    old: eeafa3194074221a7ffc4823f47da9a99218252f
-    new: e42e55719a03e0c00cbf354d87fda90748c2a6b2
-    log: revlist-eeafa3194074-e42e55719a03.txt
-
---===============1628852762764075080==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeafa3194074-e42e55719a03.txt
-
-f1599ae4ca945e81eb5fe32bb36fcc2017be3437 tools/nolibc: use standard __asm__ statements
-063b6bc5b39fe798acb7b7b032820d209342ee5a tools/nolibc: use __inline__ syntax
-f65560194f5550056164743febf7386135164d10 tools/nolibc: use C89 comment syntax
-659a49abc9c282c6314a74e5df89d41a189cca5f tools/nolibc: validate C89 compatibility
-4b646d871f0c980dcc61efcf09cc66ef28b17a7d tools/nolibc: s390: provide custom implementation for sys_fork
-294439c1865a298e33b1d28a151478e9ba9e7e87 tools/nolibc: add testcase for fork()/waitpid()
-765872b76868c3a38e02e26f4e347c1117561bc3 tools/nolibc: remove LINUX_REBOOT_ constants
-858661a0c607756628cf1ea122a480745194dc5e Merge branch 'nolibc.2023.05.18a' into HEAD
-d995685773c0c1aee9f9de378adbc92e8699256e docs: Add atomic operations to the driver basic API documentation
-65094d2fea8b57c5050f2873a4aa985b02efc537 x86/atomic.h: Add information on ordering to kernel-doc headers
-3d6b8cde696041f75a106ec4994c28ca0442db41 locking/atomic: Add ordering to arch_atomic*_dec_and_test() kernel-doc
-f123cfe2b11aa8ee798f75b51b1ea7e0deeaad10 locking/atomic: Add ordering to arch_atomic*_sub_and_test() kernel-doc
-7b5fece6fa9f7ce30246b2ac03d5bc54a5430a36 locking/atomic: Add ordering to arch_atomic*_inc_and_test() kernel-doc
-e48303e202ec62a3658a7d77a7c4b10fd318ddb9 locking/atomic: Add ordering to arch_atomic*_add_negative*() kernel-doc
-bcbafa3ed07d1cbc88e7af0a132c8f90f226ea88 locking/atomic: Add ordering to arch_atomic*_add_unless() kernel-doc
-c2eee05ee6ffa5a76e41375b7b692d6fbe11acf9 locking/atomic: Add ordering to arch_atomic*_inc_not_zero() kernel-doc
-f74cccda38644c9d643baaf3bbb123913173ae94 Merge branch 'atomicdoc.2023.05.18a' into HEAD
-989c3ef764368a92e9bdfe6ae5d3194d2c479a87 rcu: Remove formal-verification tests
-ec643fec95a18cdca7693de270d936095853c370 rcutorture: Dump grace-period state upon rtort_pipe_count incidents
-136a8a0a7bb9059c413bc598d1d9e7cb791af3af rcu: Update synchronize_rcu_mult() comment for call_rcu_hurry()
-0da582a320afc8c4d07ad423683406295757ca3c torture: Scale scftorture memory based on number of CPUs
-9ed225c8ee7abcaa4653435dd989416041f7f158 scftorture: Forgive memory-allocation failure if KASAN
-46d19bdc667c958438f3c3f81a90eb346c47d33d scftorture: Pause testing after memory-allocation failure
-f7c45f356760c94223caadd0e67669ca20b0b197 rcuscale: Permit blocking delays between writers
-e751a1de7b040fd7480d2220add25280bc1fd76e rcuscale: Fix gp_async_max typo: s/reader/writer/
-1b96273304fb2066b1f7c95135cf96c2c228e5d7 rcuscale: Add minruntime module parameter
-e2735ef0c2034c836c0ef0e3c49c068354c67247 rcuscale: Print out full set of module parameters
-2393139b6795d00aaa85d97b3b8e00b5181a4d30 rcuscale: Print out full set of kfree_rcu parameters
-9bb839a83e1bbbfd4f7f20827aafd0a39fad00c7 rcuscale: Measure grace-period kthread CPU time
-8b249f1b225973e746e02bca08d4e1d98a9542d5 Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
-e75000c9345d05dede20d4b9d3f4c97952fe02d8 EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-76e87bad730486af3b48783194559778f1505e0e qspinlock: Diagnostics for excessive lock-drop wait loop time
-70a4d98ea69757c23ccf214b1c0ef695b9975ea0 qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-8bf3cd1913e950b4d2edb26b015b481de5cf3f7e x86/nmi: Add a set_nmi_torture() function to control NMI testing
-3ed5d43278f13c32a16f7577afa93053046ae807 rcutorture: Test NMI diagnostics
-7cd78da13e2a8fc7c38c922925381f49f708e2a2 EXP qspinlock: debugging
-9e9cba8207a5640981b94235b191df0c62f81bca bpf: Use call_rcu_hurry() with synchronize_rcu_mult()
-b99c5f0733c4afd24f76608a32bf0d94f593eef0 rcu-tasks: Treat only synchronous grace periods urgently
-49dd268f93277f343da93ecac2bc4fbe4c9f9aef rcu-tasks: Remove redundant #ifdef CONFIG_TASKS_RCU
-6e6ca27358b893e4dea809ae0e0f4b47e1ae8b48 rcu-tasks: Add kernel boot parameters for callback laziness
-e42e55719a03e0c00cbf354d87fda90748c2a6b2 rcu-tasks: Synchronize the ->lazy_timer expiration times
-
---===============1628852762764075080==--
+  - ref: refs/heads/for-next
+    old: fa75064d92fdec157d75375bca06c77fb30c25df
+    new: 46055699e5f81db8c70946609f445c572983eca5
+    log: |
+         0be0a62fd08414e3cd67c8fb898b2bb9e74eb225 ALSA: emu10k1: fix PCM playback buffer size constraints
+         583307bafb264a1a42a1ffc8cdf6493f9deda414 ALSA: emu10k1: simplify interrupt handler, part 1
+         016027741f97457087b81bf304f1cb807bdeffe0 ALSA: emu10k1: simplify interrupt handler, part 2
+         9436f0151d30b80873eda80341304524db9e8149 ALSA: emu10k1: simplify interrupt handler, part 3
+         6797400ef4abb4359c225a207c1f3ca28591f51c ALSA: emu10k1: fix handling of half-loop interrupts
+         46055699e5f81db8c70946609f445c572983eca5 ALSA: emu10k1: introduce and use snd_emu10k1_ptr_write_multiple()
+         
+  - ref: refs/heads/master
+    old: 23319569490d7a7678ee2c046050fb794295405f
+    new: 1cd9517da802919c7f8c256690ae2a0b6005157a
+    log: |
+         0be0a62fd08414e3cd67c8fb898b2bb9e74eb225 ALSA: emu10k1: fix PCM playback buffer size constraints
+         583307bafb264a1a42a1ffc8cdf6493f9deda414 ALSA: emu10k1: simplify interrupt handler, part 1
+         016027741f97457087b81bf304f1cb807bdeffe0 ALSA: emu10k1: simplify interrupt handler, part 2
+         9436f0151d30b80873eda80341304524db9e8149 ALSA: emu10k1: simplify interrupt handler, part 3
+         6797400ef4abb4359c225a207c1f3ca28591f51c ALSA: emu10k1: fix handling of half-loop interrupts
+         46055699e5f81db8c70946609f445c572983eca5 ALSA: emu10k1: introduce and use snd_emu10k1_ptr_write_multiple()
+         1cd9517da802919c7f8c256690ae2a0b6005157a Merge branch 'for-next'
+         
