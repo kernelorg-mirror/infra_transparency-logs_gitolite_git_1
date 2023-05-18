@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 18 May 2023 14:29:18 -0000
-Message-Id: <168442015896.24732.7673880270148032027@gitolite.kernel.org>
+Date: Thu, 18 May 2023 14:31:00 -0000
+Message-Id: <168442026019.26929.5068350967400774452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: 46055699e5f81db8c70946609f445c572983eca5
-    new: 56375209dd950d91a614544093cfdbec8495c254
+    old: 56375209dd950d91a614544093cfdbec8495c254
+    new: 816967d55f425a647137ef884d8e92f2baf541dc
     log: |
-         56375209dd950d91a614544093cfdbec8495c254 ALSA: emu10k1: set variables emu1010_routing_info and emu1010_pads_info storage-class-specifier to static
+         816967d55f425a647137ef884d8e92f2baf541dc ALSA: emu10k1: set variables emu1010_routing_info and emu1010_pads_info storage-class-specifier to static
          
   - ref: refs/heads/master
-    old: 1cd9517da802919c7f8c256690ae2a0b6005157a
-    new: 1438ee95b17d509000ff79eeb3e7a2edc24ded1b
+    old: 1438ee95b17d509000ff79eeb3e7a2edc24ded1b
+    new: 95c54b0998c083e41718d812444c6356d717aadf
     log: |
-         56375209dd950d91a614544093cfdbec8495c254 ALSA: emu10k1: set variables emu1010_routing_info and emu1010_pads_info storage-class-specifier to static
-         1438ee95b17d509000ff79eeb3e7a2edc24ded1b Merge branch 'for-next'
+         816967d55f425a647137ef884d8e92f2baf541dc ALSA: emu10k1: set variables emu1010_routing_info and emu1010_pads_info storage-class-specifier to static
+         95c54b0998c083e41718d812444c6356d717aadf Merge branch 'for-next'
          
