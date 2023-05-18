@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4309400511080506580=="
+Content-Type: multipart/mixed; boundary="===============6232673708348909300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 18 May 2023 17:30:14 -0000
-Message-Id: <168443101486.18893.9677542689164463835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 18 May 2023 17:30:20 -0000
+Message-Id: <168443102080.19004.6769558465615230212@gitolite.kernel.org>
 
---===============4309400511080506580==
+--===============6232673708348909300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: 9be0b3a0074a61df1c94c37faea35ec8b9ea130b
-    new: 8b271370e963370703819bd9795a54d658071bed
+  - ref: refs/heads/for-6.4
+    old: 70a640c0efa7667453c3911b13335304ce46ad8b
+    new: 3981514180c987a79ea98f0ae06a7cbf58a9ac0f
     log: |
-         75e5fab7db0cecb6e16b22c34608f0b40a4c7cd1 ASoC: lpass: Fix for KASAN use_after_free out of bounds
-         8b271370e963370703819bd9795a54d658071bed ASoC: rt5682: Disable jack detection interrupt during suspend
+         3981514180c987a79ea98f0ae06a7cbf58a9ac0f regmap: Account for register length when chunking
          
 
---===============4309400511080506580==
+--===============6232673708348909300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684431013 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684431012-73db20095ca5668b12479a441b5e7c45696b66ad
+pusher Mark Brown <broonie@kernel.org> 1684431019 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1684431018-e1ffc0ad134d48d203492f7759883da142620b27
 
-9be0b3a0074a61df1c94c37faea35ec8b9ea130b 8b271370e963370703819bd9795a54d658071bed refs/heads/asoc-6.4
+70a640c0efa7667453c3911b13335304ce46ad8b 3981514180c987a79ea98f0ae06a7cbf58a9ac0f refs/heads/for-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmYKUTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0ODwB/9LW5r6BeBygCJoNEgy2AhuAWteF6dq
-rktjZsji/yPbWB85nQGmcxmfNRf64zpPTLvDb6SJBRblaj/bBV7IAhBTht12sjNF
-81+HOAH8ZhrRuYaRAf5gVkaWS53TwGXKTcyHdfLU/aX2+KZexw2Ze8W/W5dorGMB
-ed1vdgwt3kAYP0caWnnqwq0v47FFcobaa7CuzWefTGGuKrkBGG8Kv8exzrNkB4m3
-n4D3lc+huEtQfcuiHxu1hmz8cN0B59H/uZl7GV4jb8qR3OzfrDpyQccUe3H6MEMG
-Iphkkl9xqXWwpqq+ZI1PPFaBC/DuXZxiDeluEdLJKwNkqKUglJJxS0SB
-=1EmF
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmYKsTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0ITpB/wKBKN6m3omlI3mEdqeAdVKeivsIkbS
+BPzCbDORn/MlrByH2nUodGMx/nFEOGIeWG+RaSMre9p1giqBCTTWYMofM+0mlLnT
+P7tHMtxKjJwk/oVTk2/z0gde7iQbDETr035skbmnIZjN2b+2CjcVoB6SS7jTfo2D
+jc6ZmL+oVLvdMQSJMxDGbNWqmWEV8G6dDicq9HgnG9VhHFNnRDSJzUs3Jk9+233K
+nRKoC8sAsu20LZ2LUn1IMW5HQ0WhdG11igQ+PzKczLDRgvUSfAG3mUU2Svv5kfF0
+S5dcf+N7a4Vr/A6gVoy+dQm81LjRsx9fBvYrqRTQkusjfSCEtfdAeeJ0
+=mdJU
 -----END PGP SIGNATURE-----
 
---===============4309400511080506580==--
+--===============6232673708348909300==--
