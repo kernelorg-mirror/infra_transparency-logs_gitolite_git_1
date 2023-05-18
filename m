@@ -1,24 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 18 May 2023 05:26:11 -0000
-Message-Id: <168438757105.9412.3854310138130889558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 18 May 2023 05:34:10 -0000
+Message-Id: <168438805045.13391.9862722955800888980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dev
-    old: 12aefe624d619da29e2df05c455858f7ecb29d6f
-    new: eeafa3194074221a7ffc4823f47da9a99218252f
+  - ref: refs/heads/for-next
+    old: 9fe0731bc345230e8ce125056b9407c63960f74e
+    new: fa75064d92fdec157d75375bca06c77fb30c25df
     log: |
-         24525dc208008087b7a01a03365de120a03818bc rcuscale: Measure grace-period kthread CPU time
-         0642f440262b4d639dbd9186fda57f5b8489587a rcu-tasks: Remove redundant #ifdef CONFIG_TASKS_RCU
-         e2d35694743360c3318b9891c37f985dd7745c3d rcu-tasks: Add kernel boot parameters for callback laziness
-         31e8d35d8966bcffb6a04674444e5c77f27bc813 fixup! rcuscale: Measure grace-period kthread CPU time
-         50c179d91e401e134132089aaf3fe5e74746b40f rcu-tasks: Synchronize the ->lazy_timer expiration times
-         eeafa3194074221a7ffc4823f47da9a99218252f squash! rcuscale: Permit blocking delays between writers
+         af7fd0276ed76357974ebb0e5b5968b4b4e84781 ALSA: emu10k1: pass frame instead of byte addresses
+         1e5323bd7725c1e3a5bd65af210ea7d54ccdbd00 Revert "ALSA: emu10k1 - delay the PCM interrupts (add pcm_irq_delay parameter)"
+         be3b7629e13a5861b6988d46912212ac9f24c369 ALSA: emu10k1: remove pointless displacement of the extra voices
+         cd6dceb197ca5ec70a3ed4c6aec50f9abdf85f8e ALSA: emu10k1: skip pointless cache setup for extra voices
+         5b1cd21f0f05757e724e18a599b391689f8565fc ALSA: emu10k1: fix PCM playback cache and interrupt handling
+         9e72666b9ee1140b7ecc66abc30b1c694ed7a6a0 ALSA: emu10k1: improve API of low-level voice manipulation functions
+         9581128a213461cf2f82dd09558b7066d363360c ALSA: emu10k1: refactor PCM playback cache filling
+         fa75064d92fdec157d75375bca06c77fb30c25df ALSA: emu10k1: refactor PCM playback address handling
+         
+  - ref: refs/heads/master
+    old: 7e9f06644694ab5a4f5c8dd11baf2e7a80979d09
+    new: 23319569490d7a7678ee2c046050fb794295405f
+    log: |
+         af7fd0276ed76357974ebb0e5b5968b4b4e84781 ALSA: emu10k1: pass frame instead of byte addresses
+         1e5323bd7725c1e3a5bd65af210ea7d54ccdbd00 Revert "ALSA: emu10k1 - delay the PCM interrupts (add pcm_irq_delay parameter)"
+         be3b7629e13a5861b6988d46912212ac9f24c369 ALSA: emu10k1: remove pointless displacement of the extra voices
+         cd6dceb197ca5ec70a3ed4c6aec50f9abdf85f8e ALSA: emu10k1: skip pointless cache setup for extra voices
+         5b1cd21f0f05757e724e18a599b391689f8565fc ALSA: emu10k1: fix PCM playback cache and interrupt handling
+         9e72666b9ee1140b7ecc66abc30b1c694ed7a6a0 ALSA: emu10k1: improve API of low-level voice manipulation functions
+         9581128a213461cf2f82dd09558b7066d363360c ALSA: emu10k1: refactor PCM playback cache filling
+         fa75064d92fdec157d75375bca06c77fb30c25df ALSA: emu10k1: refactor PCM playback address handling
+         23319569490d7a7678ee2c046050fb794295405f Merge branch 'for-next'
          
