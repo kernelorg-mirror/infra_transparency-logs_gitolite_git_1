@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 May 2023 17:30:41 -0000
-Message-Id: <168443104180.19284.5610200453267927720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 18 May 2023 17:30:54 -0000
+Message-Id: <168443105451.19451.14109150421207719735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 9be0b3a0074a61df1c94c37faea35ec8b9ea130b
-    new: 8b271370e963370703819bd9795a54d658071bed
+    old: 70a640c0efa7667453c3911b13335304ce46ad8b
+    new: 3981514180c987a79ea98f0ae06a7cbf58a9ac0f
     log: |
-         75e5fab7db0cecb6e16b22c34608f0b40a4c7cd1 ASoC: lpass: Fix for KASAN use_after_free out of bounds
-         8b271370e963370703819bd9795a54d658071bed ASoC: rt5682: Disable jack detection interrupt during suspend
+         3981514180c987a79ea98f0ae06a7cbf58a9ac0f regmap: Account for register length when chunking
          
   - ref: refs/heads/for-next
-    old: 8e1ec06bcd1ab67ec06bc7938fc09f9d93ab7b67
-    new: 7b626695b512b3857088c15ef59d3919341f1e27
+    old: 7e5a77cccd1f08dc5be3733c50b1a4531db07b8f
+    new: a90f704faaf2c4a34899d2868ddbf9087cf4b03a
     log: |
-         75e5fab7db0cecb6e16b22c34608f0b40a4c7cd1 ASoC: lpass: Fix for KASAN use_after_free out of bounds
-         8b271370e963370703819bd9795a54d658071bed ASoC: rt5682: Disable jack detection interrupt during suspend
-         7b626695b512b3857088c15ef59d3919341f1e27 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
+         3981514180c987a79ea98f0ae06a7cbf58a9ac0f regmap: Account for register length when chunking
+         a90f704faaf2c4a34899d2868ddbf9087cf4b03a Merge remote-tracking branch 'regmap/for-6.5' into regmap-next
          
