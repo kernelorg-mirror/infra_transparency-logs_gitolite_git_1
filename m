@@ -1,33 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 18 May 2023 17:11:40 -0000
-Message-Id: <168442990043.4499.16519631985007346740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Thu, 18 May 2023 17:13:22 -0000
+Message-Id: <168443000258.5102.1501910566719759288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/master-pending
-    old: 91d079167a5d005a76b037aacbfccd481c568c97
-    new: 446059a5c7c407fdd9f289feb50bfc8bb69a5429
+  - ref: refs/heads/next
+    old: c52df19e3759055cf07d1c0030c46ea958163aa9
+    new: 85c3222dddc6697dc7513623983a2ba748ba710e
     log: |
-         152f5a58c22e86a7f42356967753e03af0d8f960 wifi: ath12k: Avoid NULL pointer access during management transmit cleanup
-         19230f28a7edf4a652a00a5707696836a50c8d59 wifi: ath12k: check hardware major version for WCN7850
-         3b25cd422b39f1220b8504aaf8a67fcb06994021 wifi: ath10k: Trigger STA disconnect after reconfig complete on hardware restart
-         446059a5c7c407fdd9f289feb50bfc8bb69a5429 Merge branch 'pending' into master-pending
+         e3d9387f002612093dbeaa272f7930ce5108033f security, lsm: Introduce security_mptcp_add_subflow()
+         85c3222dddc6697dc7513623983a2ba748ba710e selinux: Implement mptcp_add_subflow hook
          
-  - ref: refs/heads/pending
-    old: 4fedd32cba83b1bbd34b85bf85cda2369c3ca5ea
-    new: 3b25cd422b39f1220b8504aaf8a67fcb06994021
-    log: |
-         152f5a58c22e86a7f42356967753e03af0d8f960 wifi: ath12k: Avoid NULL pointer access during management transmit cleanup
-         19230f28a7edf4a652a00a5707696836a50c8d59 wifi: ath12k: check hardware major version for WCN7850
-         3b25cd422b39f1220b8504aaf8a67fcb06994021 wifi: ath10k: Trigger STA disconnect after reconfig complete on hardware restart
-         
-  - ref: refs/tags/ath-pending-202305181709
-    old: 0000000000000000000000000000000000000000
-    new: 446059a5c7c407fdd9f289feb50bfc8bb69a5429
