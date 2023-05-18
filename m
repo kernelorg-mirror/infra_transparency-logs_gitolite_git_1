@@ -1,40 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 18 May 2023 05:34:10 -0000
-Message-Id: <168438805045.13391.9862722955800888980@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4439366590884193093=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 18 May 2023 05:43:00 -0000
+Message-Id: <168438858019.19114.16380409937901339249@gitolite.kernel.org>
+
+--===============4439366590884193093==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: 9fe0731bc345230e8ce125056b9407c63960f74e
-    new: fa75064d92fdec157d75375bca06c77fb30c25df
-    log: |
-         af7fd0276ed76357974ebb0e5b5968b4b4e84781 ALSA: emu10k1: pass frame instead of byte addresses
-         1e5323bd7725c1e3a5bd65af210ea7d54ccdbd00 Revert "ALSA: emu10k1 - delay the PCM interrupts (add pcm_irq_delay parameter)"
-         be3b7629e13a5861b6988d46912212ac9f24c369 ALSA: emu10k1: remove pointless displacement of the extra voices
-         cd6dceb197ca5ec70a3ed4c6aec50f9abdf85f8e ALSA: emu10k1: skip pointless cache setup for extra voices
-         5b1cd21f0f05757e724e18a599b391689f8565fc ALSA: emu10k1: fix PCM playback cache and interrupt handling
-         9e72666b9ee1140b7ecc66abc30b1c694ed7a6a0 ALSA: emu10k1: improve API of low-level voice manipulation functions
-         9581128a213461cf2f82dd09558b7066d363360c ALSA: emu10k1: refactor PCM playback cache filling
-         fa75064d92fdec157d75375bca06c77fb30c25df ALSA: emu10k1: refactor PCM playback address handling
-         
-  - ref: refs/heads/master
-    old: 7e9f06644694ab5a4f5c8dd11baf2e7a80979d09
-    new: 23319569490d7a7678ee2c046050fb794295405f
-    log: |
-         af7fd0276ed76357974ebb0e5b5968b4b4e84781 ALSA: emu10k1: pass frame instead of byte addresses
-         1e5323bd7725c1e3a5bd65af210ea7d54ccdbd00 Revert "ALSA: emu10k1 - delay the PCM interrupts (add pcm_irq_delay parameter)"
-         be3b7629e13a5861b6988d46912212ac9f24c369 ALSA: emu10k1: remove pointless displacement of the extra voices
-         cd6dceb197ca5ec70a3ed4c6aec50f9abdf85f8e ALSA: emu10k1: skip pointless cache setup for extra voices
-         5b1cd21f0f05757e724e18a599b391689f8565fc ALSA: emu10k1: fix PCM playback cache and interrupt handling
-         9e72666b9ee1140b7ecc66abc30b1c694ed7a6a0 ALSA: emu10k1: improve API of low-level voice manipulation functions
-         9581128a213461cf2f82dd09558b7066d363360c ALSA: emu10k1: refactor PCM playback cache filling
-         fa75064d92fdec157d75375bca06c77fb30c25df ALSA: emu10k1: refactor PCM playback address handling
-         23319569490d7a7678ee2c046050fb794295405f Merge branch 'for-next'
-         
+  - ref: refs/heads/dev-test
+    old: 9465adf0591cef816e952b4eaa83491a7dc08750
+    new: 567be3abfdc4b71c9d5d5afc38bd122906d44521
+    log: revlist-9465adf0591c-567be3abfdc4.txt
+
+--===============4439366590884193093==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9465adf0591c-567be3abfdc4.txt
+
+9e75ea5a131698fbc7d8ec3af751eec143db49f9 f2fs: maintain six open zones for zoned devices
+f063fa43995667dbdf5b46406774a0ad58310dae f2fs: fix the wrong condition to determine atomic context
+8328548780c71e9e911997f166f8bcc0bbd99521 f2fs: add sanity compress level check for compressed file
+0539a460e0371e3a1d7e68f1b09227edebb222a6 f2fs: close unused open zones while mounting
+62c85994b958754ff373c9d09ad3996d5ea1d26b f2fs: Fix over-estimating free section during FG GC
+a731b6aefbb42824ef59499aa6baf914930660cc f2fs: fix potential deadlock due to unpaired node_write lock use
+3c125710454d7fb0c00b29bcbbb2284cae37ee38 f2fs: fix to set noatime and immutable flag for quota file
+8a0dbd506b6d09d86ce519a4bf6cbe6982e1000b f2fs: compress: fix to check validity of i_compress_flag field
+c235f42fffe14bdd2b4fd27446603fb9b4d66050 f2fs: renew value of F2FS_MOUNT_*
+a4ebabf341d9a766058ea0d38f89d49ff4eed495 f2fs: renew value of F2FS_FEATURE_*
+c15e7db39c2ea94d0355e4d1955f6c5c653e3c34 f2fs: get out of a repeat loop when getting a locked data page
+70fd59be66aa9dc9b8b0f7ae3946a79ff4d289ed f2fs: flush error flags in workqueue
+4d22bbaf5bb942c72e92b1c86c47b80dbf9ca6bb f2fs: fix to tag FIEMAP_EXTENT_DELALLOC in fiemap() for delay allocated extent
+48072f52a79b4de0b2f550a462977b16e8955da7 f2fs: compress: fix prepare_compress vs memory reclaim case
+a8610d991ce8a01c488db8163b8a79c1cb74d1cd f2fs: clean up w/ sbi->log_sectors_per_block
+567be3abfdc4b71c9d5d5afc38bd122906d44521 f2fs: support background_gc=adjust mount option
+
+--===============4439366590884193093==--
