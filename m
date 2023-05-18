@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7087163382965510631=="
+Content-Type: multipart/mixed; boundary="===============3612951677666222807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 May 2023 17:19:34 -0000
-Message-Id: <168443037402.9032.13706254615178968122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 May 2023 17:19:41 -0000
+Message-Id: <168443038195.9165.15104310049661690421@gitolite.kernel.org>
 
---===============7087163382965510631==
+--===============3612951677666222807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: bc8c537bd68c6fa99f81609d912115e0a6499fb5
     new: 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28
     log: revlist-bc8c537bd68c-9b6d1b0cb0ad.txt
 
---===============7087163382965510631==
+--===============3612951677666222807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684430372 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1684430371-28ae93035c29614470c0252631bcafba5b642371
+pusher Mark Brown <broonie@kernel.org> 1684430380 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684430379-237fa9f508b58ff4f81ad7448981a7c721205bc1
 
-bc8c537bd68c6fa99f81609d912115e0a6499fb5 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28 refs/heads/for-6.5
+bc8c537bd68c6fa99f81609d912115e0a6499fb5 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmXiQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GLdB/sEzRdFEkPhbXCHCBjvUZQYTUskDlw7
-qhYZZ326rVtmYpx4vQFgQjqIA8ZDK5DW+P0M42mAtQN5gm0gQXuO3YLF//QcLDnW
-0lk0J0m4Qd+4hof/ktT6qSm3p50eUEq3ukJZaCw+xl2/N/Zf/XacKw2/J6gBTiWD
-6HRge+agRubZXttqYJGvvD+9SDl1Acx/N709a3eFkjzr2FF0rmAGtuteCF4/yXPX
-09okY2eGjg/bIvpANbalmNZBcilnn5OHoGaqMKesG8fow3MaLc8xmp5LuzZ6tZKb
-7Aw9ZzBPwS1ugXpdnX71wXc4IDL09/EqQjZJrDBRMDfrYxxoF9EHelUc
-=AdLE
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmXiwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0CDqB/4tJMOeT4lffihVbcJFrmTiXXi6lKOo
+6b3e4B75BWSU0capvYxoxfR61fL9puFE6ZHUND7KEYWbql/2dvHfkog84kUmls66
+fs4AEUp1IUsD+dEwl//95DZyxvAJEWWQX0keUrYbQjg99jz7Zme1VfTTM4nrnlbx
+wptuocpTQlk25Pw5C8fKT5EuH/TD1p17oPFZzEQXeRB194lu+8Id5/78ncw6FBvt
+PFbxvFwyMaEjyKU9L4mazfbgLh/mrt7HHZza1akGjXPE3WI+K8jV3krtrClFjZDW
+Wco5SZyYgeB/KhKiWN9cMaYoZEvNQFFARmhy/xJs2tvIg9vnEkFqZ/DY
+=Vl35
 -----END PGP SIGNATURE-----
 
---===============7087163382965510631==
+--===============3612951677666222807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ b932f21f6678659bd434c0d47e3bebc94bae0a51 ASoC: codecs: rt722-sdca: do not store 
 cbbc0ec6dea09c815f1d1ef0abaf3f2ec89ff11f ASoC: mediatek: mt8192-mt6359: Remove " Jack" from Headphone pin name
 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28 ASoC: codecs: do not store status in state containe
 
---===============7087163382965510631==--
+--===============3612951677666222807==--
