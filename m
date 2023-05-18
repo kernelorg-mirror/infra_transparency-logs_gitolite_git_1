@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3612951677666222807=="
+Content-Type: multipart/mixed; boundary="===============6771946848664972389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 18 May 2023 17:19:41 -0000
-Message-Id: <168443038195.9165.15104310049661690421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 18 May 2023 17:19:58 -0000
+Message-Id: <168443039887.9334.9977489542071577865@gitolite.kernel.org>
 
---===============3612951677666222807==
+--===============6771946848664972389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: bc8c537bd68c6fa99f81609d912115e0a6499fb5
-    new: 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28
-    log: revlist-bc8c537bd68c-9b6d1b0cb0ad.txt
+  - ref: refs/heads/for-next
+    old: d1b1112234a50c676bea873f2c4b03cc0e9e6717
+    new: 8e1ec06bcd1ab67ec06bc7938fc09f9d93ab7b67
+    log: revlist-d1b1112234a5-8e1ec06bcd1a.txt
 
---===============3612951677666222807==
+--===============6771946848664972389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684430380 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684430379-237fa9f508b58ff4f81ad7448981a7c721205bc1
-
-bc8c537bd68c6fa99f81609d912115e0a6499fb5 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28 refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmXiwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0CDqB/4tJMOeT4lffihVbcJFrmTiXXi6lKOo
-6b3e4B75BWSU0capvYxoxfR61fL9puFE6ZHUND7KEYWbql/2dvHfkog84kUmls66
-fs4AEUp1IUsD+dEwl//95DZyxvAJEWWQX0keUrYbQjg99jz7Zme1VfTTM4nrnlbx
-wptuocpTQlk25Pw5C8fKT5EuH/TD1p17oPFZzEQXeRB194lu+8Id5/78ncw6FBvt
-PFbxvFwyMaEjyKU9L4mazfbgLh/mrt7HHZza1akGjXPE3WI+K8jV3krtrClFjZDW
-Wco5SZyYgeB/KhKiWN9cMaYoZEvNQFFARmhy/xJs2tvIg9vnEkFqZ/DY
-=Vl35
------END PGP SIGNATURE-----
-
---===============3612951677666222807==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc8c537bd68c-9b6d1b0cb0ad.txt
+Content-Disposition: attachment; filename=revlist-d1b1112234a5-8e1ec06bcd1a.txt
 
 cc3ff544a296b5b4bb021f4dc415b53a6955b980 ASoC: codecs: rt1308: do not store status in state container
 70207b95b2245502496443475c9fc4eb72ba3b66 ASoC: codecs: rt1316: do not store status in state container
@@ -65,5 +40,6 @@ cda72c89d082f5953fab9948fc1212ca0df11d96 ASoC: codecs: rt715-sdca: do not store 
 b932f21f6678659bd434c0d47e3bebc94bae0a51 ASoC: codecs: rt722-sdca: do not store status in state container
 cbbc0ec6dea09c815f1d1ef0abaf3f2ec89ff11f ASoC: mediatek: mt8192-mt6359: Remove " Jack" from Headphone pin name
 9b6d1b0cb0ad37bb69fe8ee127236d77c2574a28 ASoC: codecs: do not store status in state containe
+8e1ec06bcd1ab67ec06bc7938fc09f9d93ab7b67 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
 
---===============3612951677666222807==--
+--===============6771946848664972389==--
