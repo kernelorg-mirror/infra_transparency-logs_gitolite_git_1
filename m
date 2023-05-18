@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 18 May 2023 05:15:09 -0000
-Message-Id: <168438690946.1650.7993640739212232409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 18 May 2023 05:26:11 -0000
+Message-Id: <168438757105.9412.3854310138130889558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/module_alloc_test
-    old: 7a987213c85899db8a00b2823aa3a9d90398c194
-    new: bd914b979a1156cf27056b07c1d0aa23d011561b
+  - ref: refs/heads/dev
+    old: 12aefe624d619da29e2df05c455858f7ecb29d6f
+    new: eeafa3194074221a7ffc4823f47da9a99218252f
     log: |
-         bbd67a8b0c9ed01e7fce5f4ac279dc68275b83ad module: Introduce module_alloc_type
-         e8b1bccc9037973d2ed3f2b2a00176f093b9a785 x86/module: use module_alloc_type
-         1c37e1ed370264d5d79a4f9bc29d34a328226131 arm64/module: use module_alloc_type
-         73cec9eaea6aed7ce71b76d01536c7717027b598 powerpc/module: use module_alloc_type
-         bd914b979a1156cf27056b07c1d0aa23d011561b mips/module: use module_alloc_type
+         24525dc208008087b7a01a03365de120a03818bc rcuscale: Measure grace-period kthread CPU time
+         0642f440262b4d639dbd9186fda57f5b8489587a rcu-tasks: Remove redundant #ifdef CONFIG_TASKS_RCU
+         e2d35694743360c3318b9891c37f985dd7745c3d rcu-tasks: Add kernel boot parameters for callback laziness
+         31e8d35d8966bcffb6a04674444e5c77f27bc813 fixup! rcuscale: Measure grace-period kthread CPU time
+         50c179d91e401e134132089aaf3fe5e74746b40f rcu-tasks: Synchronize the ->lazy_timer expiration times
+         eeafa3194074221a7ffc4823f47da9a99218252f squash! rcuscale: Permit blocking delays between writers
          
