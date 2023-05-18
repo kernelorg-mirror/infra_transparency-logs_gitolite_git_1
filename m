@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 18 May 2023 17:13:50 -0000
-Message-Id: <168443003036.5325.14344194823185522920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 18 May 2023 17:16:45 -0000
+Message-Id: <168443020537.7941.11071115777557684414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/atomics/fallback-rework
-    old: caf61f55e2325559bca1d26e7ae370d61ffb29ac
-    new: 3e2b60478cc7858971e0a32c70ffb67564dc8cda
+  - ref: refs/heads/dev-queue
+    old: 886ac952b72ee64fbda69e6208a4cb61d571cc20
+    new: 6180d13b800647c5ef03a8d3385f6a1ce0187d90
     log: |
-         0b6f024118221ad599ac5d309a555eaa83a0d347 locking/atomic: scripts: restructure fallback ifdeffery
-         05af6178617dfcba2f9dbddcca30e33d262fc75c locking/atomic: scripts: simplify raw_atomic*() definitions
-         3e2b60478cc7858971e0a32c70ffb67564dc8cda WIP: add kerneldoc comments
+         6180d13b800647c5ef03a8d3385f6a1ce0187d90 e1000e: Add @adapter description to kdoc
          
