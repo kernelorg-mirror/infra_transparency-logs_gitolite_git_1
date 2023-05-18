@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3452824166412539833=="
+Content-Type: multipart/mixed; boundary="===============4309400511080506580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 May 2023 17:30:08 -0000
-Message-Id: <168443100849.18779.18137522235998426002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 May 2023 17:30:14 -0000
+Message-Id: <168443101486.18893.9677542689164463835@gitolite.kernel.org>
 
---===============3452824166412539833==
+--===============4309400511080506580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: 9be0b3a0074a61df1c94c37faea35ec8b9ea130b
     new: 8b271370e963370703819bd9795a54d658071bed
     log: |
@@ -24,28 +24,28 @@ changes:
          8b271370e963370703819bd9795a54d658071bed ASoC: rt5682: Disable jack detection interrupt during suspend
          
 
---===============3452824166412539833==
+--===============4309400511080506580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684431007 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1684431006-bf7f9b8c19dc7566e993b2c00d02eef1a14b4e61
+pusher Mark Brown <broonie@kernel.org> 1684431013 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684431012-73db20095ca5668b12479a441b5e7c45696b66ad
 
-9be0b3a0074a61df1c94c37faea35ec8b9ea130b 8b271370e963370703819bd9795a54d658071bed refs/heads/for-6.4
+9be0b3a0074a61df1c94c37faea35ec8b9ea130b 8b271370e963370703819bd9795a54d658071bed refs/heads/asoc-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmYJ8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PQ7B/4sY1/uFRxI6OXbwvsWMLogcru8NyOF
-+aHQWC7MpOipQGK3IftlcHXUcaapZSGT2HrSCihMe3tQC97aHuAsnttaWLnlhj6w
-al50QgdcOo230wtPC+n+h35q5djhy9utbsfV3ix8TACafaoE/nSJ8Oo9WPDdOnu8
-4eavfu2rmoHuHrUz03xhvCTxMkqHVwrTqaIbDEZNGZ/s1DkA2XCQHhM6Unu5/3B+
-sAgVsaa4vRmNU6z4AEwVKxlYPH4mZpA+OrOUms0thCvvGUljNCxwl4zgLu1PfeSr
-umayPNAFtoS9vsFNJDU+QKy77fzp97soSTnCOmeAtEmExrCkJZaw15/Z
-=329W
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRmYKUTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0ODwB/9LW5r6BeBygCJoNEgy2AhuAWteF6dq
+rktjZsji/yPbWB85nQGmcxmfNRf64zpPTLvDb6SJBRblaj/bBV7IAhBTht12sjNF
+81+HOAH8ZhrRuYaRAf5gVkaWS53TwGXKTcyHdfLU/aX2+KZexw2Ze8W/W5dorGMB
+ed1vdgwt3kAYP0caWnnqwq0v47FFcobaa7CuzWefTGGuKrkBGG8Kv8exzrNkB4m3
+n4D3lc+huEtQfcuiHxu1hmz8cN0B59H/uZl7GV4jb8qR3OzfrDpyQccUe3H6MEMG
+Iphkkl9xqXWwpqq+ZI1PPFaBC/DuXZxiDeluEdLJKwNkqKUglJJxS0SB
+=1EmF
 -----END PGP SIGNATURE-----
 
---===============3452824166412539833==--
+--===============4309400511080506580==--
