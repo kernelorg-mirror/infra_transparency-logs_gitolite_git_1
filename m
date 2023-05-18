@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 18 May 2023 13:51:37 -0000
-Message-Id: <168441789797.932.4575267972980324425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 18 May 2023 13:54:21 -0000
+Message-Id: <168441806152.1897.2027735830393638502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev
-    old: e42e55719a03e0c00cbf354d87fda90748c2a6b2
-    new: d65a5b3809d92bfd389fc399625c0617e2fb84f2
+  - ref: refs/heads/nfsd-next
+    old: 2d418fdadb01582d5815cbb1c3bf8b75df22ae74
+    new: 16d592dccd997f019c3c4ac642af6dd7c41aee9a
     log: |
-         c9c05b64a57d890585bc08f3dcff4d8af34ad79c rcu-tasks: Treat only synchronous grace periods urgently
-         cb2562a0fe8f0334e1df4169598b0e8cf98d4b5b rcu-tasks: Remove redundant #ifdef CONFIG_TASKS_RCU
-         d65a5b3809d92bfd389fc399625c0617e2fb84f2 rcu-tasks: Add kernel boot parameters for callback laziness
+         b0364e8249e7893224866ff36e31a877f3429506 SUNRPC: Resupply rq_pages from node-local memory
+         2f276d1c01a3d622e9e0539ceb3e43144d90af4a SUNRPC: Use __alloc_bulk_pages() in svc_init_buffer()
+         761109c90d6a2ae50776ad04ee9c4a603dda0bae NFSD: Add encoders for NFSv4 clientids and verifiers
+         16d592dccd997f019c3c4ac642af6dd7c41aee9a NFSD: Replace encode_cinfo()
          
-  - ref: refs/heads/dev.2023.05.15a
-    old: 0000000000000000000000000000000000000000
-    new: eeafa3194074221a7ffc4823f47da9a99218252f
-  - ref: refs/heads/dev.2023.05.18a
-    old: 0000000000000000000000000000000000000000
-    new: 051d0a5c47e0f8706d9b7e03d491d9648f1bc674
