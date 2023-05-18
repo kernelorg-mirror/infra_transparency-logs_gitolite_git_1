@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5609027144976245731=="
+Content-Type: multipart/mixed; boundary="===============6087105241995698423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 18 May 2023 18:38:55 -0000
-Message-Id: <168443513517.31570.7808746163944539071@gitolite.kernel.org>
+Date: Thu, 18 May 2023 18:39:10 -0000
+Message-Id: <168443515089.31730.18342183965972045630@gitolite.kernel.org>
 
---===============5609027144976245731==
+--===============6087105241995698423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: e7d3e5c4b1dd50a70b31524c3228c62bb41bbab2
     new: 2d1bcbc6cd703e64caf8df314e3669b4786e008a
     log: revlist-e7d3e5c4b1dd-2d1bcbc6cd70.txt
 
---===============5609027144976245731==
+--===============6087105241995698423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -187,4 +187,4 @@ b802651bb6c90e53b30205b2a4358433e3be57c8 Merge tag 'media/v6.4-3' of git://git.k
 1f594fe7c90746982569bd4f3489e809104a9176 Merge tag 'net-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 2d1bcbc6cd703e64caf8df314e3669b4786e008a Merge tag 'probes-fixes-v6.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============5609027144976245731==--
+--===============6087105241995698423==--
