@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Thu, 18 May 2023 16:26:15 -0000
-Message-Id: <168442717557.7145.3287757962986020128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Thu, 18 May 2023 16:34:31 -0000
+Message-Id: <168442767195.11295.7533766897951898465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/icc-next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: b4d0d66dabe9a0d38768e4520fe49d84f3b203d1
+  - ref: refs/heads/module_alloc_test
+    old: bd914b979a1156cf27056b07c1d0aa23d011561b
+    new: 7b05e9e4784401342805814b52f3dab621fdb1d1
     log: |
-         375cccc6593650ab9436d3d5fad7eabd7085fff3 dt-bindings: interconnect/msm8996-cbf: add defines to be used by CBF
-         0ac2a08f42ce5c06d5d1216eac59c046961acd4f interconnect: add clk-based icc provider support
-         1cdaf4b7ed74d81c00503bff68cb40e318821e72 clk: qcom: cbf-msm8996: scale CBF clock according to the CPUfreq
-         b4d0d66dabe9a0d38768e4520fe49d84f3b203d1 Merge branch 'icc-cbf' into icc-next
+         d4dbd22faf1717ce798327b60fc98cd5b7628ec8 powerpc/module: use module_alloc_type
+         7b05e9e4784401342805814b52f3dab621fdb1d1 mips/module: use module_alloc_type
          
