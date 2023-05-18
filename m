@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 18 May 2023 17:13:22 -0000
-Message-Id: <168443000258.5102.1501910566719759288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 18 May 2023 17:13:50 -0000
+Message-Id: <168443003036.5325.14344194823185522920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/next
-    old: c52df19e3759055cf07d1c0030c46ea958163aa9
-    new: 85c3222dddc6697dc7513623983a2ba748ba710e
+  - ref: refs/heads/atomics/fallback-rework
+    old: caf61f55e2325559bca1d26e7ae370d61ffb29ac
+    new: 3e2b60478cc7858971e0a32c70ffb67564dc8cda
     log: |
-         e3d9387f002612093dbeaa272f7930ce5108033f security, lsm: Introduce security_mptcp_add_subflow()
-         85c3222dddc6697dc7513623983a2ba748ba710e selinux: Implement mptcp_add_subflow hook
+         0b6f024118221ad599ac5d309a555eaa83a0d347 locking/atomic: scripts: restructure fallback ifdeffery
+         05af6178617dfcba2f9dbddcca30e33d262fc75c locking/atomic: scripts: simplify raw_atomic*() definitions
+         3e2b60478cc7858971e0a32c70ffb67564dc8cda WIP: add kerneldoc comments
          
