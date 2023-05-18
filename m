@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7818481835816550298=="
+Content-Type: multipart/mixed; boundary="===============4900006399702743787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 18 May 2023 10:54:41 -0000
-Message-Id: <168440728190.12601.9575877817401611686@gitolite.kernel.org>
+Date: Thu, 18 May 2023 10:59:51 -0000
+Message-Id: <168440759164.15703.9370416849838394972@gitolite.kernel.org>
 
---===============7818481835816550298==
+--===============4900006399702743787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: 2d77de1581bb5b470486edaf17a7d70151131afd
-    new: 2e4be0d011f21593c6b316806779ba1eba2cd7e0
-    log: revlist-2d77de1581bb-2e4be0d011f2.txt
+  - ref: refs/heads/objtool/core
+    old: 611d4c716db0141cfc436994dc5aff1d69c924ad
+    new: 6245ce4ab670166efcdae843c35c14e4c0811aa3
+    log: revlist-611d4c716db0-6245ce4ab670.txt
 
---===============7818481835816550298==
+--===============4900006399702743787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d77de1581bb-2e4be0d011f2.txt
+Content-Disposition: attachment; filename=revlist-611d4c716db0-6245ce4ab670.txt
 
-d325c34d9e7e38d371c0a299d415e9b07f66a1fb net: amd: Fix link leak when verifying config failed
-50749f2dd6854a41830996ad302aef2ffaf011d8 tcp/udp: Fix memleaks of sk and zerocopy skbs with TX timestamp.
-28b17f6270f182e22cdad5a0fdc4979031e4486a net: phy: marvell-88x2222: remove unnecessary (void*) conversions
-37386669887d3f2ccf021322c5558353d20f2387 HID: amd_sfh: Fix max supported HID devices
-24ab15829867a9cc09dfd16f41ed75aa8272a45f gfs2: return errors from gfs2_ail_empty_gl
-68ca088dc1cfc4e366811b11ffe2954c6dcebca1 gfs2: Perform second log flush in gfs2_make_fs_ro
-b97e583caa25abf95695cd06d7f9512b484c6c01 gfs2: Issue message when revokes cannot be written
-644f6bf762fa903f64c59c2ec0f4d0d753527053 gfs2: gfs2_ail_empty_gl no log flush on error
-6935321eccf32555e6f7e6d29f4cccf84a5c1e3a xen/blkback: fix white space code style issues
-656f3c1d7966ea65f9b51d17db3008ce5dbb4090 xen/blkback: remove stale prototype
 e7b4c07d4b42676691f3c815f05c1bbf071dc718 xen/blkback: simplify free_persistent_gnts() interface
 cbfac7707ba16619006a4fd60faac46303fd2f3e xen/blkback: move blkif_get_x86_*_req() into blkback.c
 c915d8f5918bea7c3962b09b8884ca128bfd9b0c inotify: Avoid reporting event with invalid wd
@@ -1048,7 +1038,17 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
-f7ba52f302fdc392e0047f38e50841483d997144 vmlinux.lds.h: Discard .note.gnu.property section
-2e4be0d011f21593c6b316806779ba1eba2cd7e0 x86/show_trace_log_lvl: Ensure stack pointer is aligned, again
+95f0e3a209b0045a56a06987d85981280f523270 x86/unwind/orc: Use swap() instead of open coding it
+514ca14ed5444b911de59ed3381dfd195d99fe4b start_kernel: Add __no_stack_protector function attribute
+dc1d05536f44cee16e46e86316e6718b2c0d8872 start_kernel: Omit prevent_tail_call_optimization() for newer toolchains
+89da5a69a831f20df6463fd524e1578e12a8f46f x86/unwind/orc: Add 'unwind_debug' cmdline option
+5e3992fe72748ed3892be876f09d4d990548b7af objtool: Limit unreachable warnings to once per function
+ca653464dd097fe64e69f1735e9f348b2a0f8037 objtool: Add verbose option for disassembling affected functions
+ced23d2e3762ecfb859ae65d3a351218edff7205 objtool: Include backtrace in verbose mode
+fedb724c3db5490234ddde0103811c28c2fedae0 objtool: Detect missing __noreturn annotations
+55eeab2a8a11b71586ef0ad3adf532ca5f97d4be objtool: Ignore exc_double_fault() __noreturn warnings
+34245659debd194cbd4148d2ee5176306bdf8899 objtool: Remove superfluous global_noreturns entries
+d59fec29b131f30b27343d54bdf1071ee98eda8e tools/lib/subcmd: Replace NORETURN usage with __noreturn
+6245ce4ab670166efcdae843c35c14e4c0811aa3 objtool: Move noreturn function list to separate file
 
---===============7818481835816550298==--
+--===============4900006399702743787==--
