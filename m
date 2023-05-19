@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 19 May 2023 20:55:37 -0000
-Message-Id: <168452973752.2123.18268519396134176596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Fri, 19 May 2023 21:06:09 -0000
+Message-Id: <168453036907.8536.18352664058462704004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: 23b72110e00e1284228615fbab86fae7d6ff2d33
-    new: 486fc1592324c247a44272919ce2f275613365cc
+  - ref: refs/heads/md-next
+    old: 3e49c1e4a6152b6ad758a28ecce8fb470f46f6ed
+    new: fd7fe82569991ec437d606ee35a00d4fe9de90d1
     log: |
-         486fc1592324c247a44272919ce2f275613365cc Fri May 19 08:54:38 PM UTC 2023
+         fd7fe82569991ec437d606ee35a00d4fe9de90d1 raid6: neon: add missing prototypes
          
