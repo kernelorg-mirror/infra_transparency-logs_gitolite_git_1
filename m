@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 19 May 2023 08:20:08 -0000
-Message-Id: <168448440819.32400.14064632107795395232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 19 May 2023 08:42:27 -0000
+Message-Id: <168448574781.14340.9574679179945279972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/sound-6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: ab9f56455dabf57b02b98280f3fee50d79c5384d
+  - ref: refs/heads/master
+    old: cd03c9b8d1f4d43ab7b010d02287dec1805ada34
+    new: f12aea26e483e4ef13e927a08871d69f32fad564
+    log: |
+         f12aea26e483e4ef13e927a08871d69f32fad564 README: tfix
+         
