@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7346638842496741273=="
+Content-Type: multipart/mixed; boundary="===============7461601009675808733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 19 May 2023 03:33:04 -0000
-Message-Id: <168446718458.4912.16574966668499485367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 19 May 2023 03:33:11 -0000
+Message-Id: <168446719158.5044.16675690939673550152@gitolite.kernel.org>
 
---===============7346638842496741273==
+--===============7461601009675808733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 98be58f2b517b212b57b8493dab92312a52614ac
     new: 83b3432fc5b7128f9904a13b5d5c539c68b57447
     log: revlist-98be58f2b517-83b3432fc5b7.txt
 
---===============7346638842496741273==
+--===============7461601009675808733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684467183 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1684467182-a43ba8b574f6fe1d24b9d4292ab69042077a33a8
+pusher Mark Brown <broonie@kernel.org> 1684467190 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684467189-56b85ea644b1d4d6b02f79beef658eb23629261c
 
-98be58f2b517b212b57b8493dab92312a52614ac 83b3432fc5b7128f9904a13b5d5c539c68b57447 refs/heads/for-6.5
+98be58f2b517b212b57b8493dab92312a52614ac 83b3432fc5b7128f9904a13b5d5c539c68b57447 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRm7e8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0BBSB/9kn2PuEccH3yzxxPGL09yWSE8rBSVX
-/oYds4/t/E7gJ6IvlCHS86E1O1+7ckSyM7qYmEgbbs4HMqueAtKtTUET/srwn4D+
-EhyDs8+ZdeZFJlCqfVhUg4TmAWrQgcG3bG8KAoeHAtQ6cRIhVa12S9KRwjsMxJMh
-S+pRm0q6JI0AWyW0DvFi73UTI4CeQbcoRrY0dOaQ1w5v1pqXWo3yEEdGw2QKsnGL
-kPTW1tRzssOH6ZwACSqAoa1i6T7k5KjSgOF/5uytpyJibggqUjGBCM9qiNz30Kjy
-jEleJu7pvlHnd99KbcXE+HBDZCJbcV3S5Ft21KV/bAU14Mq1gMSP62fO
-=pN59
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRm7fYTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0JaEB/4z1DBiEBFwSFKN4Pa65U9vh3GKB47w
+GGD5nY8LFEzyry036tF/8zlK67SHYw+vXPLkm1ZKJTJ29eUL0s8ta9hTGF6WA8GK
+GSk8SuJUbsjY2hx4NKL07PwJ/qHSYLW2IDIqa6zoGp4TYyrBhkDnbJsHtT4OdC67
+YWtXCsSDeiH9DiD1Xrnx4Di/0UbAtNDo8Vmr5Ujc+AjEmiTdGGLd7w/gdQm7f6OT
+2+va/J9fw5LTNrq8hkiO18LKC3Y1uG8LHDr4pJLYa94dh/ZK3FHrv0zwSbT1A59/
+tfHmJd84u4llW6eCTPKET+SSmXpMBYspGs18UagxpKz1Wws9KXnusYUv
+=jnni
 -----END PGP SIGNATURE-----
 
---===============7346638842496741273==
+--===============7461601009675808733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -258,4 +258,4 @@ c9001a2754528fa5da20e8674b3afbd8c134cc91 ASoC: cs35l56: sdw_write_no_pm() should
 af53b00fa3aca3410c89900a34e5d727a27c36e2 Merge tag 'v6.4-rc2' into asoc-6.5 to get fixes for CI
 83b3432fc5b7128f9904a13b5d5c539c68b57447 ASoC: cs35l56: Bugfixes and efficiency improvement
 
---===============7346638842496741273==--
+--===============7461601009675808733==--
