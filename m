@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 19 May 2023 13:27:40 -0000
-Message-Id: <168450286082.25386.13537720997540998290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 19 May 2023 13:28:27 -0000
+Message-Id: <168450290738.25701.8800875812286225468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/aspm
-    old: e8d05f522fae3e071542ba3f0582940610149391
-    new: f55ef626b57fd546ea1f5af17172a084ea5ec881
-    log: |
-         f55ef626b57fd546ea1f5af17172a084ea5ec881 PCI/ASPM: Avoid link retraining race
-         
+  - ref: refs/tags/s390-6.4-2
+    old: 0000000000000000000000000000000000000000
+    new: dd0b8fbfe46d36aab9152d6c22f5097c0c572383
