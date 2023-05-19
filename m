@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7461601009675808733=="
+Content-Type: multipart/mixed; boundary="===============2787687973517470018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 19 May 2023 03:33:11 -0000
-Message-Id: <168446719158.5044.16675690939673550152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 19 May 2023 03:33:26 -0000
+Message-Id: <168446720604.5203.10547272705473170801@gitolite.kernel.org>
 
---===============7461601009675808733==
+--===============2787687973517470018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: 98be58f2b517b212b57b8493dab92312a52614ac
-    new: 83b3432fc5b7128f9904a13b5d5c539c68b57447
-    log: revlist-98be58f2b517-83b3432fc5b7.txt
+  - ref: refs/heads/for-next
+    old: 8bf890c7db44d03a7c4db80eb6553e504bea6a6e
+    new: 5b26ff0a61caa06c8a6f127ffb89ec265459b382
+    log: revlist-8bf890c7db44-5b26ff0a61ca.txt
 
---===============7461601009675808733==
+--===============2787687973517470018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1684467190 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684467189-56b85ea644b1d4d6b02f79beef658eb23629261c
-
-98be58f2b517b212b57b8493dab92312a52614ac 83b3432fc5b7128f9904a13b5d5c539c68b57447 refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRm7fYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JaEB/4z1DBiEBFwSFKN4Pa65U9vh3GKB47w
-GGD5nY8LFEzyry036tF/8zlK67SHYw+vXPLkm1ZKJTJ29eUL0s8ta9hTGF6WA8GK
-GSk8SuJUbsjY2hx4NKL07PwJ/qHSYLW2IDIqa6zoGp4TYyrBhkDnbJsHtT4OdC67
-YWtXCsSDeiH9DiD1Xrnx4Di/0UbAtNDo8Vmr5Ujc+AjEmiTdGGLd7w/gdQm7f6OT
-2+va/J9fw5LTNrq8hkiO18LKC3Y1uG8LHDr4pJLYa94dh/ZK3FHrv0zwSbT1A59/
-tfHmJd84u4llW6eCTPKET+SSmXpMBYspGs18UagxpKz1Wws9KXnusYUv
-=jnni
------END PGP SIGNATURE-----
-
---===============7461601009675808733==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98be58f2b517-83b3432fc5b7.txt
+Content-Disposition: attachment; filename=revlist-8bf890c7db44-5b26ff0a61ca.txt
 
 4327a6137ed43a091d900b1ac833345d60f32228 drm/ast: Fix ARM compatibility
 c8687694bb1f5c48134f152f8c5c2e53483eb99d drm/fbdev-generic: prohibit potential out-of-bounds access
@@ -257,5 +232,6 @@ c9001a2754528fa5da20e8674b3afbd8c134cc91 ASoC: cs35l56: sdw_write_no_pm() should
 1a8edfcffa2803afc0ef3a6a48819230cdbda2c9 ASoC: cs35l56: In secure mode skip SHUTDOWN and RESET around fw download
 af53b00fa3aca3410c89900a34e5d727a27c36e2 Merge tag 'v6.4-rc2' into asoc-6.5 to get fixes for CI
 83b3432fc5b7128f9904a13b5d5c539c68b57447 ASoC: cs35l56: Bugfixes and efficiency improvement
+5b26ff0a61caa06c8a6f127ffb89ec265459b382 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
 
---===============7461601009675808733==--
+--===============2787687973517470018==--
