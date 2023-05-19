@@ -1,31 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============0081582164346458126=="
+Content-Type: multipart/mixed; boundary="===============2460866692365327139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Fri, 19 May 2023 19:16:21 -0000
-Message-Id: <168452378170.32294.12158247320948951797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
+Date: Fri, 19 May 2023 19:24:11 -0000
+Message-Id: <168452425148.5317.17871348943822245804@gitolite.kernel.org>
 
---===============0081582164346458126==
+--===============2460866692365327139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
+user: bigeasy
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/md-next
-    old: b1211978ecf19bceb63a04f53fea4b5d73832a4a
-    new: 3e49c1e4a6152b6ad758a28ecce8fb470f46f6ed
-    log: revlist-b1211978ecf1-3e49c1e4a615.txt
+  - ref: refs/heads/master
+    old: 457391b0380335d5e9a5babdec90ac53928b23b4
+    new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
+    log: revlist-457391b03803-f1fcbaa18b28.txt
+  - ref: refs/heads/linux-6.4.y
+    old: 0000000000000000000000000000000000000000
+    new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
+  - ref: refs/heads/linux-6.4.y-rt
+    old: 0000000000000000000000000000000000000000
+    new: c65c8c3545fa52173a7be1795f5ed18cd79908f1
+  - ref: refs/heads/linux-6.4.y-rt-patches
+    old: 0000000000000000000000000000000000000000
+    new: 7a7654aca9ace410d73d6e7f997daa5ae592775a
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+  - ref: refs/tags/v6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/tags/v6.4-rc2-rt1
+    old: 0000000000000000000000000000000000000000
+    new: d694140a54cda37d33f113eb2681043e3630d3f4
+  - ref: refs/tags/v6.4-rc2-rt1-patches
+    old: 0000000000000000000000000000000000000000
+    new: d7ef30eff3bf68674725d4a1ff53f8a5f06b5c3e
+  - ref: refs/tags/v6.4-rc2-rt1-rebase
+    old: 0000000000000000000000000000000000000000
+    new: 4305d30cfa362a28ba18bdb4cc04dca9f143fd18
 
---===============0081582164346458126==
+--===============2460866692365327139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1211978ecf1-3e49c1e4a615.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1684524221 +0200
+pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
+nonce 1684524220-17ccedec6d5ab31fb1c276d0561212bbebdf708a
+
+457391b0380335d5e9a5babdec90ac53928b23b4 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 refs/heads/master
+0000000000000000000000000000000000000000 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 refs/heads/linux-6.4.y
+0000000000000000000000000000000000000000 c65c8c3545fa52173a7be1795f5ed18cd79908f1 refs/heads/linux-6.4.y-rt
+0000000000000000000000000000000000000000 7a7654aca9ace410d73d6e7f997daa5ae592775a refs/heads/linux-6.4.y-rt-patches
+0000000000000000000000000000000000000000 259be8eab12c4bc9a74f25859591d4d3ed3558ff refs/tags/v6.4-rc1
+0000000000000000000000000000000000000000 581fe2a4874338a1bfc599cae903a6101217b0a5 refs/tags/v6.4-rc2
+0000000000000000000000000000000000000000 d694140a54cda37d33f113eb2681043e3630d3f4 refs/tags/v6.4-rc2-rt1
+0000000000000000000000000000000000000000 d7ef30eff3bf68674725d4a1ff53f8a5f06b5c3e refs/tags/v6.4-rc2-rt1-patches
+0000000000000000000000000000000000000000 4305d30cfa362a28ba18bdb4cc04dca9f143fd18 refs/tags/v6.4-rc2-rt1-rebase
+-----BEGIN PGP SIGNATURE-----
+
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmRnzL0WHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W+v2DACxgGCysY4iKiuTnQvRqkgvKJeW
+rYgvX3p2zehJZcp3hJimKpIvO7WwK+/L6Uo4kXQOAljvaRzdpUjaMgxzYl/CSck5
+wgyJwjJkUar4WRwedCzSXH0fUhhQEHgecPGzZ1arhpavRxQX5dKi2FwcJN2mtXNw
+CWkPVo1Z0v+YQvUpp89DnEdEFIUQ15RrHZ9R6ZJqog+p0I0EPpqusk7p5E+ClAJ8
+DyppY6TzrW/wV+9Y9Ss913CYjstNm4C6uqXTjO/fauOfwSnNJnWRQkQxZuA6pHWh
+hyDZBJvLZNpXUnKUeilIBzr2HzkguXyoVdEPl6dYisN4NcX71G7b3GyzzbmBTrHJ
+k6fZqtvYC6cODLLiwY48KUwkQJbVk47xgKKotNaJwb+KcOFODcWTPIipZX6Tc4+9
+x5stoRKfvwwbBq1YWq7I8AtNOHs8LtuFWq8MpP6Nd6p67zyJK48gF4iPIz9Ewn1A
+8+GvN/wi6X0pEOt2qTN+BCcp2XQUzMr0le1ki48=
+=RH3V
+-----END PGP SIGNATURE-----
+
+--===============2460866692365327139==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-457391b03803-f1fcbaa18b28.txt
+
+e5c23bec0f121b4160dc8ca61e751e734652bd05 sh: Replace <uapi/asm/types.h> by <asm-generic/int-ll64.h>
+73b41dc51fbeffa4a216b20193274cfe92b5d95b media: ov5670: Fix probe on ACPI
+d325c34d9e7e38d371c0a299d415e9b07f66a1fb net: amd: Fix link leak when verifying config failed
+50749f2dd6854a41830996ad302aef2ffaf011d8 tcp/udp: Fix memleaks of sk and zerocopy skbs with TX timestamp.
+28b17f6270f182e22cdad5a0fdc4979031e4486a net: phy: marvell-88x2222: remove unnecessary (void*) conversions
+37386669887d3f2ccf021322c5558353d20f2387 HID: amd_sfh: Fix max supported HID devices
 24ab15829867a9cc09dfd16f41ed75aa8272a45f gfs2: return errors from gfs2_ail_empty_gl
 68ca088dc1cfc4e366811b11ffe2954c6dcebca1 gfs2: Perform second log flush in gfs2_make_fs_ro
 b97e583caa25abf95695cd06d7f9512b484c6c01 gfs2: Issue message when revokes cannot be written
@@ -35,6 +101,8 @@ b97e583caa25abf95695cd06d7f9512b484c6c01 gfs2: Issue message when revokes cannot
 e7b4c07d4b42676691f3c815f05c1bbf071dc718 xen/blkback: simplify free_persistent_gnts() interface
 cbfac7707ba16619006a4fd60faac46303fd2f3e xen/blkback: move blkif_get_x86_*_req() into blkback.c
 c915d8f5918bea7c3962b09b8884ca128bfd9b0c inotify: Avoid reporting event with invalid wd
+38c8e3dfb2a1be863b7f5aad7755d5e9727da8a5 block: sync part's ->bd_has_submit_bio with disk's
+3f89ac587baa0c0460c977d1596e16f950815f05 block/drivers: remove dead clear of random flag
 cc5f6fa4f6590e3b9eb8d34302ea43af4a3cfed7 spi: bcm63xx: use macro DEFINE_SIMPLE_DEV_PM_OPS
 f7301270a29fb3b5b2f3ab73ef63a208e21f783a Merge tag 'm68k-for-v6.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 e94ee641f9cef2502adfe5e0c264b271420c7ab5 Merge tag 'edac_updates_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -294,6 +362,9 @@ ca3d1a4b419acad3fca6828884acb03614f7558b hte: tegra-194: Use proper includes
 edbdb43fc96b11b3bfa531be306a1993d9fe89ec KVM: x86: Preserve TDP MMU roots until they are explicitly invalidated
 9419092fb2630c30e4ffeb9ef61007ef0c61827a xfs: fix livelock in delayed allocation at ENOSPC
 6e98b09da931a00bf4e0477d0fa52748bf28fcce Merge tag 'net-next-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+3315e169b446249c1b61ff988d157238f4b2c5a0 blk-integrity: use sysfs_emit
+76b8c319f02715e14abdbbbdd6508e83a1059bcc blk-integrity: convert to struct device_attribute
+ff53cd52d9bdbf4074d2bbe9b591729997780bd3 blk-integrity: register sysfs attributes on struct device
 cf03e2956af307dc25e8c41fd4cffe44482a6ec1 Merge tag 'drm-misc-next-fixes-2023-04-26' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 474f01015ffdb74e01c2eb3584a2822c64e7b2be drm/amd/display: Do not set drr on pipe commit
 ce560ac40272a5c8b5b68a9d63a75edd9e66aed2 drm/amd/display: Block optimize on consecutive FAMS enables
@@ -406,6 +477,10 @@ da46b58ff884146f6153064f18d276806f3c114c Merge tag 'hyperv-next-signed-20230424'
 35fab9271b7e6d193b47005c4d07369714db4fd1 Merge tag 'for-linus-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 513f17f8d6b67563d977c730d50bc0db6ea6e1b0 Merge tag 'sh-for-v6.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 91ec4b0d11fe115581ce2835300558802ce55e6c Merge tag 'mips_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+daf376a366fd2d469d66ab83dfdc074777462bab uapi nbd: improve doc links to userspace spec
+2686eb845da7762ee98b17e578b0c081aafb77b9 uapi nbd: add cookie alias to handle
+bd9e9916c32fd4b4fb4e879e05bd1568ee02ec93 block nbd: use req.cookie instead of req.handle
+952aa344bf4305ab6fa0d9962ef8c2caa2afef4c docs nbd: userspace NBD now favors github over sourceforge
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c7a639dac8e4d7e63450bef2f3a19fb331566fb1 rtc: jz4740: Make sure clock provider gets removed
@@ -443,6 +518,8 @@ a2cea677db6099d71c9f70de7f907d3d7e6bec3b btrfs: print extent buffers when siblin
 1dedde690303c05ef732b7c5c8356fdf60a4ade3 ext4: fix i_disksize exceeding i_size problem in paritally written case
 631003e2333c12cc1b52df06a707365b7363a159 btrfs: zoned: fix wrong use of bitops API in btrfs_ensure_empty_zones
 6d2ed653185baa5ba601306cbd6cd7192642045d lsm: move hook comments docs to security/security.c
+fc05e06e6098ca2c28f7a10da0e00aeea20fa59e md/raid5: Improve performance for sequential IO
+b1211978ecf19bceb63a04f53fea4b5d73832a4a md: Fix bitmap offset type in sb writer
 682f7bbad29c0e5f59929ad69e1ed8525feb96d3 Merge tag 'x86_cleanups_for_v6.4_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4980c176a71706f3621d5c1674266de54a689cb1 Merge tag 'x86_cache_for_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54debe657109f1728312f9cb5ccae6f737b7dd1 Merge tag 'x86_fpu_for_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1033,22 +1110,5 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
-786bb02458819df7a833361c6c7448a4925a89ce brd: use XArray instead of radix-tree to index backing pages
-d5fb8726f1dea70543a93ab1d7332857f157b7f3 block: Decode all flag names in the debugfs output
-d97217e7f024bbe9aa62aea070771234c2879358 blk-mq: don't queue plugged passthrough requests into scheduler
-fdcab6cddef24a26b86d798814b3c25057e53c21 blk-mq: remove RQF_ELVPRIV
-dd6216bb16e83e349d5d987227328031b0b0d30d blk-mq: make sure elevator callbacks aren't called for passthrough request
-45b46b6f157169b452772430566772506e25687a block: mq-deadline: Add a word in a source code comment
-4f51644ccff1e4bf159e86da3d9695a1a33ca231 block: Simplify blk_req_needs_zone_write_lock()
-3ddbe2a7e0d4a155a805f69c906c9beed30d4cc4 block: Fix the type of the second bdev_op_is_zoned_write() argument
-a370798201b537f78288e4ef5e0f7fc70889e7ee block: Introduce op_needs_zoned_write_locking()
-19821fee3ed42e5b294e95814892d0ad6a9890c9 block: Introduce blk_rq_is_seq_zoned_write()
-e0d85cde95bba7d40caa3bf9bc41ee810f0e96df block: mq-deadline: Clean up deadline_check_fifo()
-3b463cbea908a9c8d4b9eda09765070506864cbe block: mq-deadline: Simplify deadline_skip_seq_writes()
-b2097bd24b438d49d82a5c317be4dc74b626236a block: mq-deadline: Reduce lock contention
-83c46ed675579fe84354bd07b0d81b525a2b1ebb block: mq-deadline: Track the dispatch position
-0effb390c4bac1a484f0ca6ad3f1d183fcde882b block: mq-deadline: Handle requeued requests correctly
-a036e698c231ba884daa37196be3ac6c6dce1d75 block: mq-deadline: Fix handling of at-head zoned writes
-3e49c1e4a6152b6ad758a28ecce8fb470f46f6ed block: BFQ: Add several invariant checks
 
---===============0081582164346458126==--
+--===============2460866692365327139==--
