@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 19 May 2023 10:22:06 -0000
-Message-Id: <168449172678.30527.14881809990144158835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 19 May 2023 10:33:30 -0000
+Message-Id: <168449241017.4862.14627271650467964839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/fs.ntfs
     old: 0000000000000000000000000000000000000000
-    new: 2d1c1b3bf0198063ae329382cc76ba0b7fa4b293
+    new: ee3b4556cee8eab47c340e7a669a16856503ca24
