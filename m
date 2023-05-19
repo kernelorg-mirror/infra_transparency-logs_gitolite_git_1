@@ -1,23 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 19 May 2023 14:50:00 -0000
-Message-Id: <168450780097.14481.16836386020404391250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 19 May 2023 15:01:43 -0000
+Message-Id: <168450850392.24042.1361715643475852063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/b4/kexec_clang16
-    old: c48e07b0c06f158cf2e525ea524d1c2abe4da3e4
-    new: 847e1e26a9f34706527edb0199020f72ac3dc731
+  - ref: refs/heads/for-next
+    old: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
+    new: a7dae5daf4bf50de01ebdd192bf52c2e8cd80c75
     log: |
-         3f82eb2cb2713fff00f3cd17d8c6e0fd539b30eb kexec: Fix kexec_file_load for llvm16 with PGO
-         3b4b8a2f18107bfc14f6050551eeebcffe0ec82b kexec: Support purgatories with .text.hot sections
-         01e167a54f024fad1012176d9352106c2aad4b46 x86/purgatory: Remove PGO flags
-         e69a1adccc870c50798afdae74c548590b6aa2ee powerpc/purgatory: Remove PGO flags
-         847e1e26a9f34706527edb0199020f72ac3dc731 riscv/purgatory: Remove PGO flags
+         9b4b7c1f9f54120940e243251e2b1407767b3381 RDMA/rxe: Add workqueue support for rxe tasks
+         ab4e8fc1746ffef46c6e0a1c254eeb1618d5ffb1 RDMA/irdma: Return void from irdma_init_iw_device()
+         bc89be9443afb2190dddfabce87f390cf521eceb RDMA/irdma: Return void from irdma_init_rdma_device()
+         a7dae5daf4bf50de01ebdd192bf52c2e8cd80c75 RDMA/irdma: Move iw device ops initialization
+         
+  - ref: refs/heads/for-rc
+    old: 866422cdddcdf59d8c68e9472d49ba1be29b5fcf
+    new: 56518a603fd2bf74762d176ac980572db84a3e14
+    log: |
+         58caa2a51ad4fd21763696cc6c4defc9fc1b4b4f RDMA/hns: Fix timeout attr in query qp for HIP08
+         7f3969b14f356dd65fa95b3528eb05c32e68bc06 RDMA/hns: Fix base address table allocation
+         56518a603fd2bf74762d176ac980572db84a3e14 RDMA/hns: Modify the value of long message loopback slice
          
