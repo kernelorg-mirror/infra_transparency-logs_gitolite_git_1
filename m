@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 19 May 2023 20:39:54 -0000
-Message-Id: <168452879451.21775.2583742055208162709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 19 May 2023 20:45:49 -0000
+Message-Id: <168452914977.26714.11200864716824456677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 8eabc018fa84c2670b2fcacb35bc3d93656eee2b
-    new: 23b72110e00e1284228615fbab86fae7d6ff2d33
+  - ref: refs/heads/x86-efistub-cleanup-v3
+    old: aa2bc9b32557d4c4b28222562fdf1ed2842ea415
+    new: c59679082f880ac199458dea860203d60127c0c3
     log: |
-         23b72110e00e1284228615fbab86fae7d6ff2d33 Fri May 19 08:38:01 PM UTC 2023
+         2e480b99b288bc7c5048f4ec963bca5fef5aeb8c x86/efistub: Avoid legacy decompressor when doing EFI boot
+         c59679082f880ac199458dea860203d60127c0c3 x86/decompressor: Avoid magic offsets for EFI handover entrypoint
          
