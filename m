@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2904244868747998418=="
+Content-Type: multipart/mixed; boundary="===============0691522301094525214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Fri, 19 May 2023 13:10:05 -0000
-Message-Id: <168450180548.13283.4928677967310700581@gitolite.kernel.org>
+Date: Fri, 19 May 2023 13:17:24 -0000
+Message-Id: <168450224482.17173.16130874620137603078@gitolite.kernel.org>
 
---===============2904244868747998418==
+--===============0691522301094525214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,52 @@ repo: pub/scm/linux/kernel/git/niks/linux
 user: niks
 changes:
   - ref: refs/heads/has_ioport_v5
-    old: 308569df34a9f54afd685aebeaf02680f549690a
-    new: c2b2a01f632d831d4781c188a198c54ddf660794
-    log: revlist-308569df34a9-c2b2a01f632d.txt
+    old: c2b2a01f632d831d4781c188a198c54ddf660794
+    new: 0a4e783ffbd94ddfec94e7c473857d7205910404
+    log: revlist-c2b2a01f632d-0a4e783ffbd9.txt
 
---===============2904244868747998418==
+--===============0691522301094525214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-308569df34a9-c2b2a01f632d.txt
+Content-Disposition: attachment; filename=revlist-c2b2a01f632d-0a4e783ffbd9.txt
 
-2e9eb2bf6d2823da6157846c6b1f0cfed9d3e617 counter: add HAS_IOPORT_MAP dependency
-e2bdab239d2a6277552aa7466e496c036d5da126 /dev/port: don't compile file operations without CONFIG_DEVPORT
-b7b9f46b88d4e90dec152b64399082b5e54ba414 drm: handle HAS_IOPORT dependencies
-8fb709ce4d7d2c8e88edf3a30f3459a79ab34444 firmware: dmi-sysfs: handle HAS_IOPORT=n
-380ae5440571c8d0b9d2923880a7188b763f3a3c gpio: add HAS_IOPORT dependencies
-43c9be3bee38f068fd18d643292a641eab2b4de8 hwmon: add HAS_IOPORT dependencies
-66d88b05595f4bcef978c23be11c79e492aeb706 i2c: add HAS_IOPORT dependencies
-a83ddf22ccd795930e115718e71dcdc63fddc644 iio: ad7606: Kconfig: add HAS_IOPORT dependencies
-00b7d9773b9afec05b2639b3a1cc62e53e0037ac Input: add HAS_IOPORT dependencies
-5fe7358c00e4ca8d8902c5104e8572180a1f6227 Input: gameport: add ISA and HAS_IOPORT dependencies
-151c1ec8cc3672604ff66824401c30f0d0e239ba leds: add HAS_IOPORT dependencies
-49adbee44879e208a9d2f840d6ae8d7f935a73f4 media: add HAS_IOPORT dependencies
-36f56c8be689d4a924af5c6d621848fd079a4ce6 misc: add HAS_IOPORT dependencies
-91e5a1019b763120fe6798988f473cc7a0538afe mISDN: add HAS_IOPORT dependencies
-4c544eecb598b682ab7e8fd1eb854ab8f2206984 mpt fusion: add HAS_IOPORT dependencies
-0242aabb0afb68e3795f259c17f2253b1c3b7ca3 net: handle HAS_IOPORT dependencies
-2254b756221a7bbc308778489b3d97ceeaed9852 parport: PC style parport depends on HAS_IOPORT
-887903e7eb851fa333e1add69a2e0d3c2d188ef0 PCI: Make quirk using inw() depend on HAS_IOPORT
-a873b8d514bebbaf2b3461f61b432cb149904964 PCI/sysfs: Make I/O resource depend on HAS_IOPORT
-e77c6243f86b792093a7bf5d79ba7d168acd68ad pcmcia: add HAS_IOPORT dependencies
-2931c7389c1ca9001ae3b824bf7487846a10d763 platform: add HAS_IOPORT dependencies
-fbb880813bacb4b98652fd50d5e6cdc15f1fa0a7 pnp: add HAS_IOPORT dependencies
-385144cf990fc1c1249c9b34899108cb846efb50 power: add HAS_IOPORT dependencies
-ca95cb81061c4ed8a1652fe2468a14505cc05893 rtc: add HAS_IOPORT dependencies
-b7feb803dcaf684800c7b6aa955f390c5f80c72a scsi: add HAS_IOPORT dependencies
-d025dc091441e3754b8ddc22a1e224e24140e036 sound: add HAS_IOPORT dependencies
-fb4d940e460fd74981d1bd9485374b47e0eed749 speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
-8fa5815c7da4d91bafc34f8cb63fee25de24b3a9 staging: add HAS_IOPORT dependencies
-47338db20a34cb8bdf0b4400c35e76623c946a04 tty: serial: handle HAS_IOPORT dependencies
-095fde76f9ab5b5e92fd8a83d4442b5cbc86a9ba usb: add HAS_IOPORT dependencies
-b8f4e547c200af157b9dc359d3d9fc7f66069635 usb: uhci: handle HAS_IOPORT dependencies
-184b3d5e365ab6889373f23285db3557a43f9c4e usb: pci-quirks: handle HAS_IOPORT dependencies
-fc0b305106e17a3ac1e1935498a0f4b05025b550 fbdev: atyfb: Remove unused clock determination
-e19bf8bd597faa553eb830eb7681287d3d3de164 video: handle HAS_IOPORT dependencies
-6042e94135f5932b22a2586a2a2d171d0b682549 watchdog: add HAS_IOPORT dependencies
-b3a8407cb4ac168e7f27b50a9d53e0c3c7e8be5b wireless: add HAS_IOPORT dependencies
-c2b2a01f632d831d4781c188a198c54ddf660794 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
+0b16f9f0767d83faefc6741678fdd98ad69b160e counter: add HAS_IOPORT_MAP dependency
+df12f1f873a0fe849f838e6581fb8ccf50f5b584 /dev/port: don't compile file operations without CONFIG_DEVPORT
+d31addc47d79e3e22d247b24bec300f72a0c0f57 drm: handle HAS_IOPORT dependencies
+2a7e5e727f2f5f42bba5480199610a7e9c691f40 firmware: dmi-sysfs: handle HAS_IOPORT=n
+c79cd3bfa8e30be3ae266db38c7ee78962d180b2 gpio: add HAS_IOPORT dependencies
+c791ed8ae2b27e2b46e5721ea34b2f130478116d hwmon: add HAS_IOPORT dependencies
+e0e9b83a04ef8b23ccd00e07c2a83dfca1818a73 i2c: add HAS_IOPORT dependencies
+1624d1dd2d393e288e81dc787149ee485924b1fe iio: ad7606: Kconfig: add HAS_IOPORT dependencies
+772927b16a3b58d0dd11c19624028c9662bfcda0 Input: add HAS_IOPORT dependencies
+6226a0273613b5dd88c521c315595375ce9c2185 Input: gameport: add ISA and HAS_IOPORT dependencies
+de84e33676da8f7bd017eb7f8f976df44ece40a5 leds: add HAS_IOPORT dependencies
+aa130a5f143159b08ce68b56987e7ea4fafa9a07 media: add HAS_IOPORT dependencies
+23c513e920eb04f864f36706361bff2a6f090759 misc: add HAS_IOPORT dependencies
+76bfb318890c53d93656e4f28f153c5dd4b52523 mISDN: add HAS_IOPORT dependencies
+151b14c14fdb8c765f65baf5b91ec9005c304389 mpt fusion: add HAS_IOPORT dependencies
+a44052743eca4a5c90d112010fca8e22ef3f5ce3 net: handle HAS_IOPORT dependencies
+e7223acaa13432aa10afa45bdca665799bc785f3 parport: PC style parport depends on HAS_IOPORT
+739e4e88446dba3ed934c4a17baf297d4c1ef6c2 PCI: Make quirk using inw() depend on HAS_IOPORT
+087508400d7ce6f271f2c83e6de52cc7139663e6 PCI/sysfs: Make I/O resource depend on HAS_IOPORT
+842e42a0fb84876d078cc7d4aeca890312251a1c pcmcia: add HAS_IOPORT dependencies
+f03abd51aa9a93b9fa392b86d09dadca44282dff platform: add HAS_IOPORT dependencies
+c5fb9392d49d8d4eaff61dea26896b13a80765aa pnp: add HAS_IOPORT dependencies
+cd33ab327a3103c1437b795b5c27a251346d741d power: add HAS_IOPORT dependencies
+942f24122e09a5eb375c2e9083198c2e6e08ac00 rtc: add HAS_IOPORT dependencies
+1afd5517914b364788d1d630d2fbf51c0f8f0171 scsi: add HAS_IOPORT dependencies
+771294a09c45c52c68649da8e563a9515f60c96a sound: add HAS_IOPORT dependencies
+0f2eb4d02ceabbbc39866e6bd4bc426bb8f4914c speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
+ac04daed3a88945dd5c7cd7d0d293c4613445005 staging: add HAS_IOPORT dependencies
+5a03224d6b2f7ec1a3443b68d3422e36c3ea5e0b tty: serial: handle HAS_IOPORT dependencies
+db6fef41858339b8e7e749de484aee1f14916063 usb: add HAS_IOPORT dependencies
+51a88a4f4b571b16f7e5de873acf356261c17e96 usb: uhci: handle HAS_IOPORT dependencies
+74de4caf54764dd3bca0517412c8329897f9fe08 usb: pci-quirks: handle HAS_IOPORT dependencies
+b29ee571885867d44f0a98a997053b211319ff38 fbdev: atyfb: Remove unused clock determination
+9930d43ac3f983d1a0cd163ff4dd4ea57a13098d video: handle HAS_IOPORT dependencies
+5ae7046b124e5cd1235ed86f29c536ffdc0e1e7e watchdog: add HAS_IOPORT dependencies
+a697980a86ded016f81f46c4fb3f64437174005c wireless: add HAS_IOPORT dependencies
+0a4e783ffbd94ddfec94e7c473857d7205910404 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
 
---===============2904244868747998418==--
+--===============0691522301094525214==--
