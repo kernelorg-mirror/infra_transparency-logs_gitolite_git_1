@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 19 May 2023 13:23:37 -0000
-Message-Id: <168450261788.22456.17657617237534399859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 19 May 2023 13:27:40 -0000
+Message-Id: <168450286082.25386.13537720997540998290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/v5.10.180-cip33-rebase
-    old: 0000000000000000000000000000000000000000
-    new: bbcb2322d8f70f443eb0f21d8522e7f4c9ed996d
+  - ref: refs/heads/aspm
+    old: e8d05f522fae3e071542ba3f0582940610149391
+    new: f55ef626b57fd546ea1f5af17172a084ea5ec881
+    log: |
+         f55ef626b57fd546ea1f5af17172a084ea5ec881 PCI/ASPM: Avoid link retraining race
+         
