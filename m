@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 19 May 2023 18:15:40 -0000
-Message-Id: <168452014008.24084.15776013822744939333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 19 May 2023 18:17:42 -0000
+Message-Id: <168452026259.24800.132020035446858774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 42b0a5e691087c7e7ccbb8da87d51b301a9ddeb1
-    new: 8c1ee346da583718fb0a7791a1f84bdafb103caf
+  - ref: refs/heads/bleeding-edge
+    old: 71b1ca0ac725fbac1dbfdcc19054b063dc86e53c
+    new: 42dfdd08422dec99bfe526072063f65c0b9fb7d2
     log: |
-         ab112ee7899d6171da5acd77a7ed7ae103f488de RDMA/bnxt_re: Disable/kill tasklet only if it is enabled
-         9b3ee47796f529e5bc31a355d6cb756d68a7079a RDMA/bnxt_re: Fix to remove unnecessary return labels
-         ff2e4bfd162cf66a112a81509e419805add44d64 RDMA/bnxt_re: Use unique names while registering interrupts
-         b989f90cef0af48aa5679b6a75476371705ec53c RDMA/bnxt_re: Remove a redundant check inside bnxt_re_update_gid
-         43774bc156614346fe5dacabc8e8c229167f2536 RDMA/bnxt_re: Fix to remove an unnecessary log
-         07d5ce14b2aa22dc6a92f9769035281b68250d3e RDMA/bnxt_re: Return directly without goto jumps
-         8c1ee346da583718fb0a7791a1f84bdafb103caf RDMA/bnxt_re: Remove unnecessary checks
+         fa578bf50e0b52fe0489480c0e311683cd60ffb6 ACPI: LPSS: Add pwm_lookup_table entry for second PWM on CHT/BSW devices
+         42dfdd08422dec99bfe526072063f65c0b9fb7d2 Merge branch 'acpi-soc' into bleeding-edge
          
