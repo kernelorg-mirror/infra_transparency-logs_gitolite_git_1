@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 19 May 2023 17:09:15 -0000
-Message-Id: <168451615572.11426.8033642259305803099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 19 May 2023 17:14:29 -0000
+Message-Id: <168451646901.14641.7024256353930276656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: effcf62416240e5ec0eded0ea2644c48d2c7c9f1
-    new: 9343184cb31fef673566ff37c41a9f418deb9de3
+  - ref: refs/heads/dev-queue
+    old: 33e24e0a39d272a2bf301066470332f453b355dd
+    new: 81b4f9d60c71a758533b7b3117a09e5d694d1e3d
     log: |
-         e859e429511afb21d3f784bd0ccdf500d40b73ef bpf: Show target_{obj,btf}_id in tracing link fdinfo
-         d7e45eb4802bbb3343624711e43d23b22fe7cc55 bpftool: Show target_{obj,btf}_id in tracing link info
-         9343184cb31fef673566ff37c41a9f418deb9de3 Merge branch 'bpf: Show target_{obj,btf}_id for tracing link'
+         81b4f9d60c71a758533b7b3117a09e5d694d1e3d igc: Remove delay during TX ring configuration
          
