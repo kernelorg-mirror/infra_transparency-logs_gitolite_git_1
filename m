@@ -1,72 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0888295550742949305=="
+Content-Type: multipart/mixed; boundary="===============5168425908974209924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Fri, 19 May 2023 12:42:27 -0000
-Message-Id: <168450014776.26234.2048288143921481680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 19 May 2023 12:43:39 -0000
+Message-Id: <168450021993.26689.2145000155269373495@gitolite.kernel.org>
 
---===============0888295550742949305==
+--===============5168425908974209924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/has_ioport_v5
-    old: df20b2f7231b882021caa1c8501e0c3bda942163
-    new: 308569df34a9f54afd685aebeaf02680f549690a
-    log: revlist-df20b2f7231b-308569df34a9.txt
+  - ref: refs/heads/topic/midi20
+    old: e82dfa13579d3e2ad381409812be7ab5f6ec0c94
+    new: cc8e2c3b2d2b9c2af16151d30335492e2d0e3240
+    log: revlist-e82dfa13579d-cc8e2c3b2d2b.txt
 
---===============0888295550742949305==
+--===============5168425908974209924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df20b2f7231b-308569df34a9.txt
+Content-Disposition: attachment; filename=revlist-e82dfa13579d-cc8e2c3b2d2b.txt
 
-36cc675ee0597ea3c792fe1e29077ee471f862f7 ata: add HAS_IOPORT dependencies
-e4aec8a1ea46589bd0767608a81c8011c755aa1b char: add HAS_IOPORT dependencies
-3be8fd877c762e962fad222664774752c6b99822 char: ipmi: handle HAS_IOPORT dependencies
-ba3a64e5b73aec764b311a53add83da5c646d6fe char: tpm: handle HAS_IOPORT dependencies
-1960cde29c6fe0da23b7471eaebba821f07f210c comedi: add HAS_IOPORT dependencies
-2ffc801cefe223021a4d6692b92a7fc9c594536f counter: add HAS_IOPORT dependencies
-1aa43b5792a2aa49186f2edefa9f637ed02318e5 /dev/port: don't compile file operations without CONFIG_DEVPORT
-52a8d8749a243c7dba4bc6b93b17e4c30f137028 drm: handle HAS_IOPORT dependencies
-2c50b6101869f923a09e6cc125712c7bd43d86d8 firmware: dmi-sysfs: handle HAS_IOPORT=n
-fb526881bf3b7a6ae9bb25b15c6e3dab1e0e752c gpio: add HAS_IOPORT dependencies
-c71615f424fd3cd62bf0747f851c9dc453418758 hwmon: add HAS_IOPORT dependencies
-3049130b04a5da10bb3af6949a74e30b346d41c0 i2c: add HAS_IOPORT dependencies
-966e4647d8a60211e7ed3a9c19e57fa9b53dec71 iio: ad7606: Kconfig: add HAS_IOPORT dependencies
-a991a921b992dcebd0c11cf791f6d75c8662e727 Input: add HAS_IOPORT dependencies
-4930ae7651b4d3b10a4f29fad072aaa36f4f61f6 Input: gameport: add ISA and HAS_IOPORT dependencies
-910dd0a92ecadd3a9f228829040ff534746a47cb leds: add HAS_IOPORT dependencies
-a71c330202a2d00e56240fa441cad8509a55ce92 media: add HAS_IOPORT dependencies
-b58f6c30e531c6320dec0be71dccae551bfc9fcb misc: add HAS_IOPORT dependencies
-401f0b1e778f8ba309b23bafca229ccd3a50e96d mISDN: add HAS_IOPORT dependencies
-7c2b92da03dfd4f0a65ecd1a52228d470c0dcb25 mpt fusion: add HAS_IOPORT dependencies
-c75a373bc3e187fab0d61b9e045c98a3d1613340 net: handle HAS_IOPORT dependencies
-4366d817f5fbc55227d6f673360fca63a6db18cc parport: PC style parport depends on HAS_IOPORT
-6ff6ccaafb64e68a53588b8777d71ba722c7b91a PCI: Make quirk using inw() depend on HAS_IOPORT
-6989cb6aed4ae9623b8f09fd5ea69f51d728d960 PCI/sysfs: Make I/O resource depend on HAS_IOPORT
-3e9b4d8ec2b63f75e08b9ed4591088f88dafcedc pcmcia: add HAS_IOPORT dependencies
-15b7b60ac1872091a44951b4e81d050236958ccf platform: add HAS_IOPORT dependencies
-2722a09187d40bddda5b0cb0ba7ff4dfa9993f97 pnp: add HAS_IOPORT dependencies
-9bedee3d55295393bb430e8a24047e9f63abea04 power: add HAS_IOPORT dependencies
-9bbe8d025175244388783c72642d097b5b7dd9ff rtc: add HAS_IOPORT dependencies
-f5c6b5698bb9fe37d791f1253f6a5d08446186fa scsi: add HAS_IOPORT dependencies
-00a49bef614fc97baeab66ceaf8f91f61b4a7dfa sound: add HAS_IOPORT dependencies
-cd58a47cddc9341252f191697a44b53afce962d3 speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
-4232e9991dc1376c9187773003f8210735bfb880 staging: add HAS_IOPORT dependencies
-9f47e22a5443d5340d64ba39e0cc5b00d403daff tty: serial: handle HAS_IOPORT dependencies
-620b97f2d14a05f2c8540dc21b320c8105d2601f usb: add HAS_IOPORT dependencies
-85a7db65d08836468fb9d1e592dcb85ab9406988 usb: uhci: handle HAS_IOPORT dependencies
-1eea1b377ac7075287f2357a7b8d6bd0866d965b usb: pci-quirks: handle HAS_IOPORT dependencies
-000c4660d0fe3a6dbf0fdf24a91a420eb6f4af32 fbdev: atyfb: Remove unused clock determination
-d58c4cb1ad21676e8c8ab69a341839ba45cd92cc video: handle HAS_IOPORT dependencies
-4e74a65d9b0d17f83643cb3945b191f7522a9469 watchdog: add HAS_IOPORT dependencies
-c72ec595e2d60f238b1cbab1ddeb6235d8b9b552 wireless: add HAS_IOPORT dependencies
-308569df34a9f54afd685aebeaf02680f549690a asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
+ae16730ad49b2129a49feb4953dcaa3509b4f2da ALSA: usb-audio: Define USB MIDI 2.0 specs
+95dcd7522422795f823f9a6b94c6ce45c1eb9e2f ALSA: usb-audio: USB MIDI 2.0 UMP support
+aeedb8b94a90a3c2da7b46e1a4901ebfc0098824 ALSA: usb-audio: Get UMP EP name string from USB interface
+b33bedccf8651889e61d2cb13bd6317d5748a527 ALSA: usb-audio: Trim superfluous "MIDI" suffix from UMP EP name
+a9822209474cc230d43b7df9833b25cb3c544b6f ALSA: usb-audio: Create UMP blocks from USB MIDI GTBs
+72ce35729d879d39ca7cda12c0023ccba97c3d5e ALSA: ump: Redirect rawmidi substream access via own helpers
+3a425eaae00098e9fe5d6a5eaaac1760f15f0fa8 ALSA: ump: Add legacy raw MIDI support
+e2868ed6ff32ae9f5cb057069d26ba7e5159e4f7 ALSA: usb-audio: Enable the legacy raw MIDI support
+6573c4f89c32fb6401a6a7341770148037678ba2 ALSA: usb-audio: Inform inconsistent protocols in GTBs
+c5209a4ad3fc347c7c757ef017dfc20e6d5508f9 ALSA: seq: Clear padded bytes at expanding events
+94efa9b8b0b33cfac9d9d7dd069161746e1b7f6c ALSA: seq: Add snd_seq_expand_var_event_at() helper
+bde0a345159e701c3223216cc5c28ab273b74518 ALSA: seq: Treat snd_seq_client object directly in client drivers
+7b7fffe7b0214a86830d43e8edfa1c2661c393dd ALSA: seq: Drop dead code for the old broadcast support
+69696a390f903b3ac2df03a17d786ce70e20f4b0 ALSA: seq: Check the conflicting port at port creation
+d341adcc3c1fd06af240dd9397168e6b4a8d68ba ALSA: seq: Check validity before creating a port object
+db2f3c7c63da31501b895000a373833b2929de36 ALSA: seq: Prohibit creating ports with special numbers
+a8382181d6b3ccac653239092fff623748ad95c1 ALSA: seq: Introduce SNDRV_SEQ_IOCTL_USER_PVERSION ioctl
+a7ebca784c6793d19c3d3348e9ffb8e5934383f9 ALSA: seq: Add UMP support
+3300f05c07182e936ae44cdb98ce5191f60372d9 ALSA: seq: Add port inactive flag
+a4109555639b5a4289e0d9f1677e1158eae2840d ALSA: seq: Support MIDI 2.0 UMP Endpoint port
+8634d25420c1f223e141dc2370b711c18e093e01 ALSA: seq: Add port direction to snd_seq_port_info
+c7233254c9c208dae938157957a72bffc8eb0c82 ALSA: seq: Add UMP group number to snd_seq_port_info
+bb96e69a167abf91a4c40a8981252c0520f82de8 ALSA: seq: Automatic conversion of UMP events
+24ea3353b8cf9df30427e109580735dcad97c465 ALSA: seq: Allow suppressing UMP conversions
+009d37a0829db9376d5d944874f15b2b8a1ab3ed ALSA: seq: Bind UMP device
+de6ff02fb7f9db0fca002cdab1be485c55a70f18 ALSA: seq: ump: Create UMP Endpoint port for broadcast
+8093fd01bc52c30c37dbf062f2ac766ec4f201e7 ALSA: seq: Add ioctls for client UMP info query and setup
+d524c22d4f71ae8cebf51886b0309b9171d9d89a ALSA: seq: Print UMP Endpoint and Block information in proc outputs
+2b4fe2cdd0c29576ad038ade3fa097931466727f ALSA: seq: Add UMP group filter
+cc8e2c3b2d2b9c2af16151d30335492e2d0e3240 ALSA: docs: Add MIDI 2.0 documentation
 
---===============0888295550742949305==--
+--===============5168425908974209924==--
