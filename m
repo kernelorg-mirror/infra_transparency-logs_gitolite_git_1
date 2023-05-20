@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 20 May 2023 15:22:15 -0000
-Message-Id: <168459613525.2089.11427200958821806004@gitolite.kernel.org>
+Date: Sat, 20 May 2023 15:23:44 -0000
+Message-Id: <168459622412.2610.4979359941140919320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 55720d242052e860b9fde445e302e0425722e7f1
-    new: 626d312028bec44209d0ecd5beaa9b1aa8945f7d
+  - ref: refs/heads/testing
+    old: 613ff291ce7e19b24bc3ccd6a06ddbb704cbfee8
+    new: f7b2430264bd55463bf91a324d596ea5bbd2e3f5
     log: |
-         626d312028bec44209d0ecd5beaa9b1aa8945f7d iio: adc: ad_sigma_delta: Fix IRQ issue by setting IRQ_DISABLE_UNLAZY flag
+         f7b2430264bd55463bf91a324d596ea5bbd2e3f5 iio: ad7606: Kconfig: add HAS_IOPORT dependencies
          
