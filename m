@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 20 May 2023 14:40:30 -0000
-Message-Id: <168459363003.6535.8906936200759391485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 20 May 2023 15:22:15 -0000
+Message-Id: <168459613525.2089.11427200958821806004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-kernelci
-    old: e41ebc1a27bb8cf62b52022f406f0ef4fc3ddd82
-    new: aaea81e2a79845f49fcc20d7d3769d89b141c9f7
+  - ref: refs/heads/fixes-togreg
+    old: 55720d242052e860b9fde445e302e0425722e7f1
+    new: 626d312028bec44209d0ecd5beaa9b1aa8945f7d
     log: |
-         75da964112c76b3bf65e7a69388cdf60cd24f036 x86/efistub: Avoid legacy decompressor when doing EFI boot
-         aaea81e2a79845f49fcc20d7d3769d89b141c9f7 x86/decompressor: Avoid magic offsets for EFI handover entrypoint
+         626d312028bec44209d0ecd5beaa9b1aa8945f7d iio: adc: ad_sigma_delta: Fix IRQ issue by setting IRQ_DISABLE_UNLAZY flag
          
