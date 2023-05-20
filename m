@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sat, 20 May 2023 05:05:09 -0000
-Message-Id: <168455910913.3143.313535062127765833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 20 May 2023 05:06:51 -0000
+Message-Id: <168455921155.3793.1812316853772540661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/mm/mremap-pmd-warning-4
-    old: 99ae9c6f1d188952eaee303e1e4db3f7888b33e0
-    new: 62c37d7b2bc96d0cc6fab82d42f14b7934d26bff
+  - ref: refs/heads/main
+    old: 20d5e0ef252a151ea6585cfccf32def81a624666
+    new: dcbe4ea1985d3123836794be021c39cb33954f9f
     log: |
-         41be989df8c7d5306c54d77dd5ee58cb84880c2d mm/mremap: Optimize the start addresses in move_page_tables()
-         265cdd0a9ef046071d078ab228dc6ca485256e16 selftests: mm: Fix failure case when new remap region was not found
-         c525efe4b4e28c0e46fc2037e01f3edfc6a116b3 selftests: mm: Add a test for mutually aligned moves > PMD size
-         7b4f9836becde746b6bbf349ad3c2c0be1928094 selftests: mm: Add a test for remapping to area immediately after existing mapping
-         62c37d7b2bc96d0cc6fab82d42f14b7934d26bff debug: prints in code and tests
+         95b681485563c64585de78662ee52d06b7fa47d9 igc: Avoid transmit queue timeout for XDP
+         7271522b729b80d9581f4b3debef0e942d3a1049 igb: Define igb_pm_ops conditionally on CONFIG_PM
+         c4dc8dc32bd1fa0ed04d25f2e4004d854c163c39 e1000e: Add @adapter description to kdoc
+         dcbe4ea1985d3123836794be021c39cb33954f9f Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
