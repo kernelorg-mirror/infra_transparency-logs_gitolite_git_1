@@ -1,21 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 20 May 2023 07:50:14 -0000
-Message-Id: <168456901470.14128.451983888645839279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 20 May 2023 08:19:34 -0000
+Message-Id: <168457077457.31819.5830133502027572069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/x86-efistub-cleanup-v3
-    old: 0f7d715b13ab999187020acfc7712e5c6733de08
-    new: 68a23a214aa035f56dc50b5424271b9bae3a8b91
+  - ref: refs/heads/for-next
+    old: 82a9fa6e9e3c769f7edc62810c9718997cada53d
+    new: 4040fc51ca37b198bb43f716e1868fe7ff5d731c
     log: |
-         cd62f3cdb5fc8187634c2f9be9fecf841ac089f0 x86/efistub: Check SEV/SNP support while running in the firmware
-         4f4784718c14e897b9c9a2ed0c3750ddaed46a9a x86/efistub: Avoid legacy decompressor when doing EFI boot
-         68a23a214aa035f56dc50b5424271b9bae3a8b91 x86/decompressor: Avoid magic offsets for EFI handover entrypoint
+         bdb3b567b84e321c51786aba2a05ec23bb90bfdf ALSA: emu10k1: centralize freeing PCM voices
+         b4fea2d3f25b5f3ad6b230f91e61151165f6d023 ALSA: emu10k1: make snd_emu10k1_voice_alloc() assign voices' epcm
+         a915d60426d4348a0b91f9870e299056fd604a32 ALSA: emu10k1: revamp playback voice allocator
+         4040fc51ca37b198bb43f716e1868fe7ff5d731c ALSA: mixart: Replace one-element arrays with simple object declarations
+         
+  - ref: refs/heads/master
+    old: e6da21d1d811ddff7d032587cf87f5320cb51fd7
+    new: f90d36b8b6bde3c5fbdb4f1a9655ed456ebe734b
+    log: |
+         bdb3b567b84e321c51786aba2a05ec23bb90bfdf ALSA: emu10k1: centralize freeing PCM voices
+         b4fea2d3f25b5f3ad6b230f91e61151165f6d023 ALSA: emu10k1: make snd_emu10k1_voice_alloc() assign voices' epcm
+         a915d60426d4348a0b91f9870e299056fd604a32 ALSA: emu10k1: revamp playback voice allocator
+         4040fc51ca37b198bb43f716e1868fe7ff5d731c ALSA: mixart: Replace one-element arrays with simple object declarations
+         f90d36b8b6bde3c5fbdb4f1a9655ed456ebe734b Merge branch 'for-next'
          
