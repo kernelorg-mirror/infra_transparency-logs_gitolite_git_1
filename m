@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Sat, 20 May 2023 17:12:49 -0000
-Message-Id: <168460276921.10058.3825594291090939042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Sat, 20 May 2023 17:21:02 -0000
+Message-Id: <168460326267.17409.4944154888899815133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
   - ref: refs/heads/for-next
-    old: e08e901faa8f007b0ad011c8a538df7fe947e408
-    new: 95abe9714c1b7719cb3c69a241ff50ee506174d1
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 32a31bd41be148cac0dae3ff0f2555027c6853b7
     log: |
-         95abe9714c1b7719cb3c69a241ff50ee506174d1 fsverity: use shash API instead of ahash API
+         32a31bd41be148cac0dae3ff0f2555027c6853b7 HSI: fix ssi_waketest() declaration
          
