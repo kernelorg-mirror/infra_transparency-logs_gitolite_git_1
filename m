@@ -1,52 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============6912954813526304587=="
+Content-Type: multipart/mixed; boundary="===============0954467969093709016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 20 May 2023 13:42:22 -0000
-Message-Id: <168459014276.32512.9396761854562817514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 20 May 2023 13:50:04 -0000
+Message-Id: <168459060431.5700.15451210464439496473@gitolite.kernel.org>
 
---===============6912954813526304587==
+--===============0954467969093709016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/modpost-v5
-    old: 8ce877856b4bfb69460a718c468f17dcd067dbc6
-    new: 952d644bb57db01d034e1faf94519473fbb1a0a1
-    log: revlist-8ce877856b4b-952d644bb57d.txt
+  - ref: refs/heads/master
+    old: 5565ec4ef4f0d676fc8518556e239ac6945b5186
+    new: d635f6cc934bcd467c5d67148ece74632fd96abf
+    log: revlist-5565ec4ef4f0-d635f6cc934b.txt
 
---===============6912954813526304587==
+--===============0954467969093709016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ce877856b4b-952d644bb57d.txt
+Content-Disposition: attachment; filename=revlist-5565ec4ef4f0-d635f6cc934b.txt
 
-599fa6966d72edf5666724fbf2bb02ae855c1412 modpost: error out if addend_*_rel() is not implemented for REL arch
-d864ec1431dbb08cc2e7a73a14fb99c5283f741c modpost: remove broken calculation of exception_table_entry size
-c26745c3efcb1744f44b87444fdf89c18f4356f1 modpost: remove fromsym info in __ex_table section mismatch warning
-3d5fb89c9df84d887e2c1982b3b6c3fa621b8b8a modpost: remove get_prettyname()
-716f5967637d619e8031fdd963d960109e2c70ec modpost: squash report_extable_warnings() into extable_mismatch_handler()
-3b2a5b584de34cf41677960dced141c8b06ddc44 modpost: squash report_sec_mismatch() into default_mismatch_handler()
-3fc07d7977cf897eb7ac03095aecba611029be05 modpost: clean up is_executable_section()
-b368768c782a56cfa5d339c50faefbdf14f33083 modpost: squash extable_mismatch_handler() into default_mismatch_handler()
-1d9717c7b5c2cc5b425a94838a92fd260cbbb4f2 modpost: pass 'tosec' down to default_mismatch_handler()
-912edd58cbed163363a762b4b2c1673d4faab869 modpost: pass section index to find_elf_symbol2()
-0bc18bce88a08125f4338c4f9064b45ff2056250 modpost: rename find_elf_symbol() and find_elf_symbol2()
-8ed298d897f9a56da8f747bdaf5c0c0f205e911a modpost: modpost: refactor find_fromsym() and find_tosym()
-adc1491722af82ccfe82cf8914213cf442f961af modpost: unify 'sym' and 'to' in default_mismatch_handler()
-2704634834f08a8ead95f9de240c9e4896f3c7b3 modpost: replace r->r_offset, r->r_addend with faddr, taddr
-496c53d6dd4651ae8b6147a05071f7f0c3c169aa modpost: remove is_shndx_special() check from section_rel(a)
-c312e20d6de74cc6a8467b8e760fb5cc19ce1c94 modpost: pass struct module pointer to check_section_mismatch()
-c2b35cd572311c35fddc6cb35048b1fcb62c5e21 kbuild: generate KSYMTAB entries by modpost
-796ab8c1642bbdec8ae0e87de866962902924249 ia64,export.h: replace EXPORT_DATA_SYMBOL* with EXPORT_SYMBOL*
-5bd09a21946b6aa0c70e201554c978337a6c5076 modpost: check static EXPORT_SYMBOL* by modpost again
-37a2a9183b03d003ef9817206fa3f4c32dbf8d66 modpost: squash sym_update_namespace() into sym_add_exported()
-b95b1e3e7141b71c101a8487bc6a6d2f285750f8 modpost: use null string instead of NULL pointer for default namespace
-952d644bb57db01d034e1faf94519473fbb1a0a1 kbuild: implement CONFIG_TRIM_UNUSED_KSYMS without recursion
+ce902336d9b3472d6104316e876e1a8752531916 drm/msm/atomic: Don't try async if crtc not active
+16eb51aba0a72b8f60c6b98d1493844230293450 drm/msm: Fix vmap madv warning
+85c636284cb63b7740b4ae98881ace92158068d3 drm/msm/dp: unregister audio driver during unbind
+a432fc31f03db2546a48bcf5dd69ca28ceb732bf drm/msm/dpu: Assign missing writeback log_mask
+3f23a52fc2b890884828747111f7a3291d2a1b3d drm/msm/dpu: tweak msm8998 hw catalog values
+686eb89b103631a41c7f69b8ac5fbca4a6b07fa0 drm/msm/dpu: tweak lm pairings in msm8998 hw catalog
+f9d5bb73c260f0478f43b07d9fb3dae7d7a8b36b drm/msm/dpu: Remove unused INTF0 interrupt mask from SM6115/QCM2290
+cfbc21d1c0f9bc2f74acab84031fbaefdbb49ae1 drm/msm/dpu: Remove TE2 block and feature from DPU >= 5.0.0 hardware
+e9d9ce5462fecdeefec87953de71df4d025cbc72 drm/msm/dpu: Move non-MDP_TOP INTF_INTR offsets out of hwio header
+85340c0256f9b85b47c5867e411df37d76df5858 drm/msm/dpu: Reindent REV_7xxx interrupt masks with tabs
+701f69183d4d52533fb2af0d6948b7d1b00d1a09 drm/msm/dpu: Fix PP_BLK_DIPHER -> DITHER typo
+fe47a3084789fd653a3465ba39ea4afe33fc6d19 drm/msm/dpu: Use V2 DITHER PINGPONG sub-block in SM8[34]50/SC8280XP
+7557f58b6383e560dd5dc5267aceb8372f2a4426 drm/msm/dpu: Set PINGPONG block length to zero for DPU >= 7.0.0
+202c044203ac5860e3025169105368d99f9bc6a2 drm/msm/dpu: Remove duplicate register defines from INTF
+ca29699a57ecee6084a4056f5bfd6f11dd359a71 dt-bindings: display/msm: dsi-controller-main: Document qcom, master-dsi and qcom, sync-dual-dsi
+db40d2928d245f3a6cba9a6a2547ec955b00f0fc drm/msm/iommu: Fix null pointer dereference in no-IOMMU case
+68dc6c2d5eec45515855cce99256162f45651a0b drm/msm: Fix submit error-path leaks
+2ef0785b30bd6549ddbc124979f1b6596e065ae2 drm/exynos: fix g2d_open/close helper function definitions
+5896f2d363d5cfb7510856c90d5e0ed934a1d340 drm/i915/hdcp: Check if media_gt exists
+e36ca2fad6bb4ef0603bdb5556578e9082fe0056 iommu/arm-smmu-qcom: Fix missing adreno_smmu's
+5c054db54c43a5fcb5cc81012361f5e3fac37637 drm/msm: Be more shouty if per-process pgtables aren't working
+d5aa417808cf14c052ca042920b3c6b9f1dc6aa4 drm/amdgpu/gfx11: update gpu_clock_counter logic
+8173cab3368a13cdc3cad0bd5cf14e9399b0f501 drm/amdgpu/gfx10: Disable gfxoff before disabling powergating.
+11fbdda2ab6bf049e2869139c07016022b4e045b drm/amdgpu/gfx11: Adjust gfxoff before powergating on gfx11 as well
+9d2d1827af295fd6971786672c41c4dba3657154 drm/amdgpu: Differentiate between Raven2 and Raven/Picasso according to revision id
+68518294d00da6a2433357af75a63abc6030676e drm/amdgpu/gmc11: implement get_vbios_fb_size()
+c1a322a7a4a96cd0a3dde32ce37af437a78bf8cd drm/amdgpu: skip disabling fence driver src_irqs when device is unplugged
+bf4823267a817f7c155876a125b94336d7113e77 drm/amd/pm: fix possible power mode mismatch between driver and PMFW
+6d600229df1ed06f46ba68ac706d9f44ba8c5fb4 drm/amd/display: enable dpia validate
+90facc4d46301c4fb188899627e3e79b597f83bc Merge tag 'exynos-drm-fixes-for-v6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
+8c5be8a885a59bfe5c74ff03fe3d59717b99deae Merge tag 'drm-intel-fixes-2023-05-17' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+83ab69c9f759e365cba243568cd76f8d49dcd5b5 Merge tag 'drm-msm-fixes-2023-05-17' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+79ef1c9d14c65a5c3f7eec47389d8c2a33be8e8d Merge tag 'amd-drm-fixes-6.4-2023-05-18' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+d635f6cc934bcd467c5d67148ece74632fd96abf Merge tag 'drm-fixes-2023-05-20' of git://anongit.freedesktop.org/drm/drm
 
---===============6912954813526304587==--
+--===============0954467969093709016==--
