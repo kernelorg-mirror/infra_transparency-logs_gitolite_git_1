@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3160218257955067284=="
+Content-Type: multipart/mixed; boundary="===============0626122635325983508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Sun, 21 May 2023 07:19:56 -0000
-Message-Id: <168465359688.16287.14397066997546091710@gitolite.kernel.org>
+Date: Sun, 21 May 2023 07:20:32 -0000
+Message-Id: <168465363230.18485.10366204377540762998@gitolite.kernel.org>
 
---===============3160218257955067284==
+--===============0626122635325983508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 8680407b6f8f5fba59e8f1d63c869abc280f04df
     new: 67caf26d769e0cb17dba182b0acae015c7aa5881
     log: revlist-8680407b6f8f-67caf26d769e.txt
 
---===============3160218257955067284==
+--===============0626122635325983508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a2904d2825536aa896a149a9174d11b0958e7095 Bluetooth: Unlink CISes when LE disconn
 ae9b15fbe63447bc1d3bba3769f409d17ca6fdf6 net: fix stack overflow when LRO is disabled for virtual interfaces
 67caf26d769e0cb17dba182b0acae015c7aa5881 Merge tag 'for-net-2023-05-19' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
---===============3160218257955067284==--
+--===============0626122635325983508==--
