@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4734150057493568707=="
+Content-Type: multipart/mixed; boundary="===============2017699405767562627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 21 May 2023 10:11:02 -0000
-Message-Id: <168466386229.14479.4060733261128498913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 21 May 2023 10:11:16 -0000
+Message-Id: <168466387685.14648.17943781934825459332@gitolite.kernel.org>
 
---===============4734150057493568707==
+--===============2017699405767562627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
     log: revlist-ac9a78681b92-f1fcbaa18b28.txt
 
---===============4734150057493568707==
+--===============2017699405767562627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -228,4 +228,4 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
 
---===============4734150057493568707==--
+--===============2017699405767562627==--
