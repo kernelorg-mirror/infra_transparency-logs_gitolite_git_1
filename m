@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4514322394916364568=="
+Content-Type: multipart/mixed; boundary="===============1605991153363091431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 21 May 2023 10:11:22 -0000
-Message-Id: <168466388259.14728.13635202820382870384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 21 May 2023 10:11:29 -0000
+Message-Id: <168466388980.14886.4905816538654008974@gitolite.kernel.org>
 
---===============4514322394916364568==
+--===============1605991153363091431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 8c1ee346da583718fb0a7791a1f84bdafb103caf
-    log: revlist-ac9a78681b92-8c1ee346da58.txt
-  - ref: refs/heads/wip/leon-for-rc
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868
-    log: revlist-ac9a78681b92-dd5fb04857d7.txt
+  - ref: refs/heads/rdma-next
+    old: 2830186bf2448aa21e50837931311027fb12e4ee
+    new: 7c9babdd4ac77d175c6cd51b82a1b3f888a47240
+    log: revlist-2830186bf244-7c9babdd4ac7.txt
+  - ref: refs/heads/rdma-rc
+    old: 0e0802540b6982cb315dc0cd73eb237e7e472596
+    new: d1d778405887a46373e032f9f112d8d37b875928
+    log: revlist-0e0802540b69-d1d778405887.txt
 
---===============4514322394916364568==
+--===============1605991153363091431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-8c1ee346da58.txt
+Content-Disposition: attachment; filename=revlist-2830186bf244-7c9babdd4ac7.txt
 
 4327a6137ed43a091d900b1ac833345d60f32228 drm/ast: Fix ARM compatibility
 c8687694bb1f5c48134f152f8c5c2e53483eb99d drm/fbdev-generic: prohibit potential out-of-bounds access
@@ -243,12 +243,27 @@ b989f90cef0af48aa5679b6a75476371705ec53c RDMA/bnxt_re: Remove a redundant check 
 43774bc156614346fe5dacabc8e8c229167f2536 RDMA/bnxt_re: Fix to remove an unnecessary log
 07d5ce14b2aa22dc6a92f9769035281b68250d3e RDMA/bnxt_re: Return directly without goto jumps
 8c1ee346da583718fb0a7791a1f84bdafb103caf RDMA/bnxt_re: Remove unnecessary checks
+70498dc394ff6e73ddd2e56bcb55affc673be9d8 net/sched: Don't print dump stack in event of transmission timeout
+846844e829083461658da20ed279fc0c4b067634 RDMA/core: Introduce peer memory interface
+eb9fbc214274f9c4d96c6d1c72dd51d8c6afb1ec net/mlx5: Nullify qp->dbg pointer post destruction
+127f71985b60c0cba81012d014da81005c60d54c RDMA/mlx5: Reduce QP table exposure
+604d2a4f3d6837e7b7d167b761c3102594e71ea1 RDMA/mlx5: Handle DCT QP logic separately from low level QP interface
+dd49cb76d61114f228431b1f77ed12bc9395b93e RDMA/mlx5: Return the firmware result upon destroying QP/RQ
+00be3e28bd63b9b959fdde9cc40e8fe3a0037ad4 RDMA: Split kernel-only create QP flags from uverbs create QP flags
+9ae84f95dca89bb98e7111b7ef9232920cb5c7cf RDMA/mlx5: Initiate dropless RQ for RAW Ethernet functions
+e94cf7277c7a596d36f997f26a65101c399723e3 RDMA/mlx5: Create an indirect flow table for steering anchor
+9fc83937e4a0f154b77ed946be1e5e25d04910c5 RDMA/mlx5: Fix Q-counters per vport allocation
+d3e37ca754026856f764707898dead1b6e3a4604 RDMA/mlx5: Remove vport Q-counters dependency on normal Q-counters
+da663055333a14b4e0e781650f036299ada5037f RDMA/mlx5: Fix Q-counters query in LAG mode
+384d45547f29535499e9acb6c77222930d357995 IB/mlx5: Add HW counter called rx_dct_connect
+8b7da51639c74d11826e9ae295e0356856549ce1 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
+7c9babdd4ac77d175c6cd51b82a1b3f888a47240 RDMA/cma: Always set static rate to 0 for RoCE
 
---===============4514322394916364568==
+--===============1605991153363091431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-dd5fb04857d7.txt
+Content-Disposition: attachment; filename=revlist-0e0802540b69-d1d778405887.txt
 
 08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
 78b6a9a3f445e121ca08195084206cb8faa6999f MAINTAINERS: Update maintainers of HiSilicon RoCE
@@ -261,5 +276,6 @@ b5f3fe27c54b1fe77d4dd834ccd48a6d694f872e RDMA/rxe: Convert spin_{lock_bh,unlock_
 349e3c0cf239cc01d58a1e6c749e171de014cd6a RDMA/bnxt_re: Fix a possible memory leak
 0fa0d520e2a878cb4c94c4dc84395905d3f14f54 RDMA/bnxt_re: Fix return value of bnxt_re_process_raw_qp_pkt_rx
 dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868 RDMA/bnxt_re: Do not enable congestion control on VFs
+d1d778405887a46373e032f9f112d8d37b875928 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
 
---===============4514322394916364568==--
+--===============1605991153363091431==--
