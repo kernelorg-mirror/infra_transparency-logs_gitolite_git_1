@@ -1,30 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2017699405767562627=="
+Content-Type: multipart/mixed; boundary="===============4514322394916364568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 21 May 2023 10:11:16 -0000
-Message-Id: <168466387685.14648.17943781934825459332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 21 May 2023 10:11:22 -0000
+Message-Id: <168466388259.14728.13635202820382870384@gitolite.kernel.org>
 
---===============2017699405767562627==
+--===============4514322394916364568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/wip/leon-for-next
     old: ac9a78681b921877518763ba0e89202254349d1b
-    new: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
-    log: revlist-ac9a78681b92-f1fcbaa18b28.txt
+    new: 8c1ee346da583718fb0a7791a1f84bdafb103caf
+    log: revlist-ac9a78681b92-8c1ee346da58.txt
+  - ref: refs/heads/wip/leon-for-rc
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868
+    log: revlist-ac9a78681b92-dd5fb04857d7.txt
 
---===============2017699405767562627==
+--===============4514322394916364568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-f1fcbaa18b28.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-8c1ee346da58.txt
 
 4327a6137ed43a091d900b1ac833345d60f32228 drm/ast: Fix ARM compatibility
 c8687694bb1f5c48134f152f8c5c2e53483eb99d drm/fbdev-generic: prohibit potential out-of-bounds access
@@ -227,5 +231,35 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
+9b4b7c1f9f54120940e243251e2b1407767b3381 RDMA/rxe: Add workqueue support for rxe tasks
+ab4e8fc1746ffef46c6e0a1c254eeb1618d5ffb1 RDMA/irdma: Return void from irdma_init_iw_device()
+bc89be9443afb2190dddfabce87f390cf521eceb RDMA/irdma: Return void from irdma_init_rdma_device()
+a7dae5daf4bf50de01ebdd192bf52c2e8cd80c75 RDMA/irdma: Move iw device ops initialization
+42b0a5e691087c7e7ccbb8da87d51b301a9ddeb1 RDMA/rxe: Fix comments about removed tasklets
+ab112ee7899d6171da5acd77a7ed7ae103f488de RDMA/bnxt_re: Disable/kill tasklet only if it is enabled
+9b3ee47796f529e5bc31a355d6cb756d68a7079a RDMA/bnxt_re: Fix to remove unnecessary return labels
+ff2e4bfd162cf66a112a81509e419805add44d64 RDMA/bnxt_re: Use unique names while registering interrupts
+b989f90cef0af48aa5679b6a75476371705ec53c RDMA/bnxt_re: Remove a redundant check inside bnxt_re_update_gid
+43774bc156614346fe5dacabc8e8c229167f2536 RDMA/bnxt_re: Fix to remove an unnecessary log
+07d5ce14b2aa22dc6a92f9769035281b68250d3e RDMA/bnxt_re: Return directly without goto jumps
+8c1ee346da583718fb0a7791a1f84bdafb103caf RDMA/bnxt_re: Remove unnecessary checks
 
---===============2017699405767562627==--
+--===============4514322394916364568==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-dd5fb04857d7.txt
+
+08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
+78b6a9a3f445e121ca08195084206cb8faa6999f MAINTAINERS: Update maintainers of HiSilicon RoCE
+17eabd6a044b57b2c1b5459eb9d11af3ea909e63 RDMA/rxe: Fix double unlock in rxe_qp.c
+b5f3fe27c54b1fe77d4dd834ccd48a6d694f872e RDMA/rxe: Convert spin_{lock_bh,unlock_bh} to spin_{lock_irqsave,unlock_irqrestore}
+866422cdddcdf59d8c68e9472d49ba1be29b5fcf RDMA/efa: Fix unsupported page sizes in device
+58caa2a51ad4fd21763696cc6c4defc9fc1b4b4f RDMA/hns: Fix timeout attr in query qp for HIP08
+7f3969b14f356dd65fa95b3528eb05c32e68bc06 RDMA/hns: Fix base address table allocation
+56518a603fd2bf74762d176ac980572db84a3e14 RDMA/hns: Modify the value of long message loopback slice
+349e3c0cf239cc01d58a1e6c749e171de014cd6a RDMA/bnxt_re: Fix a possible memory leak
+0fa0d520e2a878cb4c94c4dc84395905d3f14f54 RDMA/bnxt_re: Fix return value of bnxt_re_process_raw_qp_pkt_rx
+dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868 RDMA/bnxt_re: Do not enable congestion control on VFs
+
+--===============4514322394916364568==--
