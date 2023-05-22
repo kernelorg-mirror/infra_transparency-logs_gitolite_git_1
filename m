@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4483379740830708970=="
+Content-Type: multipart/mixed; boundary="===============3827568479278004748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 22 May 2023 22:44:06 -0000
-Message-Id: <168479544634.13054.4974943713863044175@gitolite.kernel.org>
+Date: Mon, 22 May 2023 22:44:18 -0000
+Message-Id: <168479545883.13202.14274183177133664921@gitolite.kernel.org>
 
---===============4483379740830708970==
+--===============3827568479278004748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 12a007023e4ac3eab28c06f0ae5f0bfba216efcd
-    new: 2fc6612e0673b3aef0c0a61e4a5ba672536cea18
+  - ref: refs/heads/6.4/scsi-fixes
+    old: 09e797c8641f6ad435c33ae24c223351197ea29a
+    new: d54820b22e404b06b2b65877ff802cc7b31688bc
     log: |
          13247018d68f21e7132924b9853f7e2c423588b6 scsi: target: iscsi: Fix hang in the iSCSI login code
          98a8c2bf938a5973716f280da618077a3d255976 scsi: target: iscsi: Remove unused transport_timer
@@ -26,33 +26,33 @@ changes:
          d54820b22e404b06b2b65877ff802cc7b31688bc scsi: qla2xxx: Fix NULL pointer dereference in target mode
          
 
---===============4483379740830708970==
+--===============3827568479278004748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1684795432 -0400
+pusher 75C5DE3D 1684795449 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1684795431-76ddac89c1197d8286765dddb00cb56478c49543
+nonce 1684795449-f83ba3e06876d3d538e9dc57234d1cccc2f0b4ea
 
-12a007023e4ac3eab28c06f0ae5f0bfba216efcd 2fc6612e0673b3aef0c0a61e4a5ba672536cea18 refs/tags/mkp-scsi-fixes
+09e797c8641f6ad435c33ae24c223351197ea29a d54820b22e404b06b2b65877ff802cc7b31688bc refs/heads/6.4/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRr8CgACgkQ7ulgGnXF
-3j2FvA//ZyDsV+hkbU7YqN3vRTg8WC5Z8aCPitnYmfgDATv+0nb7/0nBerZAjESi
-muutE4sdYaR5xXx4hCTkEL7Woez8ROzpb+qBGqgUYLVHHyDdocZVJm7ro2sTXcpp
-ybKvtvS73wgVVx7FWJw6/WjrieLvWb64iwv/sQxM1n6F2srZ/QjhDmj3cEwvPrfo
-1ozHWKfi28SuTDs2obhgIDK5nhCBUUQY71jAAyh+T21B45ymXy0ogWfFZglwNG7q
-tr/T4sKMzt2AhUTSf9n0b+l1YtHxE1kXXmqz2oZ8/EkOya7RIzrWeirSdZKXG7FK
-o8sNkU3uZ2XzJwaUb0OIMT1cAdJg41iXLK3Gsx3t2m8IYk8cpDJl8y8x1I16U5Qr
-zz2TX7zDiVrDqGGyiLI++E6XKBt830QZKMV4jKhFavBh0ZDRJUCTCivNWBEoPB7L
-86aTMO/Mt48Tf9oaoSGWEr0mi6jON1uYsun2hxQNZrCTFR6i5qyktaW2zGgsqSnt
-i0sS1bxLXBfMTbxMhOJB30MKh0SHCgB+YcAALSc1clTZDnI9BZRPc/F00GzJG5oD
-z7Jm+tyzOuNIvZzqKKOQCW+7esdwVjslIewa/A7AyuRKST4kuwagCRIDtUUvNTuI
-RIM8IfwzsfomaprNN4zKCHQJY4kNa0KphWoikowCdV0KX8p6C4g=
-=vI0N
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRr8DkACgkQ7ulgGnXF
+3j1wsw//YXYuHc4XN2bc1CY08dgeaDiXmhhOPydXo5c2vgcFuS4rNcre2Gg5kjQH
+fe7nRlpPwMv2PYU7Rxlf1FsuiaFGVciW3dpsGTA7d1XFBhpL7jNcmWP8k5eQ+Vgk
+0I/B78Ob1fW7YUeg1ZxMvgDc8o+Uaf2H0UTfCDCAp0zMbTV3SXyxgMAO43RaFoZw
+7WLSVg6vCEcFK1lWiwf+m7OiyyUa217EVtzmttaomY6cO7P1vQyotU4okM7mnJ32
+rzBbYw+El5jAm/VixcK4P3Ly2TVAgS8BW0vJ3H5fglSXu4qyHdTZVppvX5MLENwz
+eucai1eYE2aW6+/Cwf1JXi2fJGU4K7JT1jENnhxO8PQoQCAout2opGfVGpqE8tAJ
+EBF3clnbyFEuEV9GtkJMRriKkS3fEeQZLheYtu7EA4Vnl2xTuTSTXqQMal6PSTb9
+IMcOZIlrC02JbCSSu9mcqDsq1MJsE9K7yfjhTmKyaSXy+AcNvo/XEm1x+3ioaQn9
+O02B1M9QqO3bkJk0f7LcUD1ccnpnCWyu+KaXyWhPCqWhLVejKlPAhpLNk5bdF0Y9
+MzKN60/LWEWNhr8XlryBhfoRGjgTWAaJyMfeeli0pYFk4B9y/wkbvHQ1AaEJ4Mra
+7yE8xSitfjtirJAQ8kGJ864R+Nc6WOoA/CdtvXwMRPKh8HU+bFA=
+=v2oS
 -----END PGP SIGNATURE-----
 
---===============4483379740830708970==--
+--===============3827568479278004748==--
