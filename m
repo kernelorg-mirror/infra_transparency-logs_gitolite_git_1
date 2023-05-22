@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 22 May 2023 15:31:53 -0000
-Message-Id: <168476951352.9725.3743185683260038415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 22 May 2023 15:32:45 -0000
+Message-Id: <168476956521.10064.898725799621108682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e2d6f5e30e34fe54c9a54eb6f1d9d01b6723068a
-    new: fe0b1e793c9017edba72768e2e0b4c769c204604
-    log: |
-         fe0b1e793c9017edba72768e2e0b4c769c204604 libmount: don't call mount.<type> helper with usernames
-         
+  - ref: refs/heads/20230519_amadeuszx_slawinski_asoc_topology_clean_up_error_messages_handling
+    old: f9d1fe7e81b87378e7bb4a0be9c6fb29bbaa73c0
+    new: 0000000000000000000000000000000000000000
