@@ -1,55 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1774024708342133310=="
+Content-Type: multipart/mixed; boundary="===============5138860644790364378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Mon, 22 May 2023 16:46:25 -0000
-Message-Id: <168477398546.26640.18431053171123807926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Mon, 22 May 2023 16:52:01 -0000
+Message-Id: <168477432196.31625.18004159918840961707@gitolite.kernel.org>
 
---===============1774024708342133310==
+--===============5138860644790364378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/md-next
-    old: 4539f9ff958c04bf06b5906b6ae2688f54522c55
-    new: 2fbfae17da5679002dbccca05d61edcb87bad185
-    log: revlist-4539f9ff958c-2fbfae17da56.txt
+  - ref: refs/heads/cxl-qtg
+    old: b3f2b7a5e8258a4837039381ae7def3bee4fa952
+    new: 95da7b66ba01dba52d0d14317951d2157c404e97
+    log: revlist-b3f2b7a5e825-95da7b66ba01.txt
 
---===============1774024708342133310==
+--===============5138860644790364378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4539f9ff958c-2fbfae17da56.txt
+Content-Disposition: attachment; filename=revlist-b3f2b7a5e825-95da7b66ba01.txt
 
-bda2795a630b2f6c417675bfbf4d90ef7503dfc7 fs: remove the special !CONFIG_BLOCK def_blk_fops
-0b573692f19501dfe2aeaf37b272ec07f60c70b9 blk-mq: factor out a blk_rq_init_flush helper
-c1075e548ce6e6b5c7b71f2b05d344164ebc52bb blk-mq: reflow blk_insert_flush
-360f264834e34d08530c2fb9b67e3ffa65318761 blk-mq: defer to the normal submission path for non-flush flush commands
-be4c427809b0a746aff54dbb8ef663f0184291d0 blk-mq: use the I/O scheduler for writes from the flush state machine
-615939a2ae734e3e68c816d6749d1f5f79c62ab7 blk-mq: defer to the normal submission path for post-flush requests
-1e82fadfc6b96ca79f69d0bcf938d31032bb43d2 blk-mq: do not do head insertions post-pre-flush commands
-9a67aa52a42b31ad44220cc218df3b75a5cd5d05 blk-mq: don't use the requeue list to queue flush commands
-29dc5d06613f2438ec20a4ba5e0a5a740584d346 ublk: kill queuing request by task_work_add
-f236a21459a5cdd828b93f363946e116773494f6 ublk: cleanup io cmd code path by adding ublk_fill_io_cmd()
-981f95a571e3ca20a496c0b77dbf6b06039c6648 ublk: cleanup ublk_copy_user_pages
-8284066946e6d9cc979566ce698fe24e7ca0b31e ublk: grab request reference when the request is handled by userspace
-38f2dd34410f9070b60969a07ff7d8743b4fd56c ublk: support to copy any part of request pages
-62fe99cef94a5900cac3bf15fd03ee8baad1a99c ublk: add read()/write() support for ublk char device
-1172d5b8beca6b899deb9f7f2850e7e47ec16198 ublk: support user copy
-f80dd11dd1d07ada04a9fcd57032fa82e136462d block: BFQ: Move an invariant check
-712c7364655f69827d0b96f69594886ecbfb412f block: don't plug in blkdev_write_iter
-b8b637d770ef7aa9bc3971670cc8532b1f0d757e ublk: fix build warning on iov_iter_get_pages2
-2b7a72e9e744a345caa74176c870b131734e05e6 raid6: neon: add missing prototypes
-1518074a292870886b8679b9d69756fc006e130f md/raid10: check slab-out-of-bounds in md_bitmap_get_counter
-0aecb06e2249a0437151c062412a5d3e4604cfe2 md/raid5: don't allow replacement while reshape is in progress
-1544e95c6dd825102e25e7af2d1b80356ed7b7c6 md: fix data corruption for raid456 when reshape restart while grow up
-ca1e1dc6d823ebb51a973a3ea5cfd4cf3185a8cb md: export md_is_rdwr() and is_md_suspended()
-74a3abbe404594fdcbb9ede2d02022e0caa083c9 md: add a new api prepare_suspend() in md_personality
-2fbfae17da5679002dbccca05d61edcb87bad185 md/raid5: fix a deadlock in the case that reshape is interrupted
+eb261d658ec4275025928c35bb58871259189add acpi: Fix header declaration of acpi_arch_dma_setup() w/o CONFIG_ACPI
+831d9f0a3aa5268471c055d421618aa781327580 acpi: Move common tables helper functions to common lib
+93137577348ca31b1aae7f6205dc9b2c37900e08 acpi: tables: Add CDAT table parsing support
+acd458e7227b7a5417cd3094b9e6e05c02a59898 acpi: fix misnamed define for CDAT DSMAS
+b5b7eeeee454c031d77852391ab6a7cb3c168f7b acpi: Add defines for CDAT SSLBIS
+d22a5a99f4953774f8ac267f075b1685b547288c base/node: Use 'property' to identify an access parameter
+f84aa4374ec94349f9b9743a50463c24527e9acd base/node / acpi: Change 'node_hmem_attrs' to 'access_coordinates'
+3cd07f84406cb7dc8ca12ea37e916f1a57763aef acpi: numa: Create enum for memory_target access coordinates indexing
+e10f36bb2cf9f53478ab1bf0fe36de044ba49034 acpi: numa: Add genport target allocation to the HMAT parsing
+5d2e55e4ea2c22a75ffff274c4b928972599940e acpi: numa: Add setting of generic port system locality attributes
+9e45e35574fb90b8a9e49ffe76fbbfd649e3e18c acpi: numa: Add helper function to retrieve the performance attributes
+4125a549e6a78aa7ffb04034d6563947b7de1139 cxl: Add callback to parse the DSMAS subtables from CDAT
+f4e6352ccaefc1f4680c1a499f8bc62bef5b8c24 cxl: Add callback to parse the DSLBIS subtable from CDAT
+1f804d9ac345d950adaa493d09a3fea6f69d0340 cxl: Add callback to parse the SSLBIS subtable from CDAT
+de0dc879699d1a72e6269fdbe3a77165db0de877 cxl: Add support for _DSM Function for retrieving QTG ID
+6d95c704274ef2b57e2ea04614e2e72e73f277ab cxl: Calculate and store PCI link latency for the downstream ports
+cea0fa363f5fe3023b881eae12badf8b7f21756f cxl: Store the access coordinates for the generic ports
+b0cbc526a0a2e540e33ec695ca1cb4673b3fb628 cxl: Add helper function that calculate performance data for downstream ports
+68e215623c1a605d57bdac0a011ed695da178727 cxl: Compute the entire CXL path latency and bandwidth data
+297d26f7b1e09ffdaeeedd65587f527b8b509670 cxl: Store QTG IDs and related info to the CXL memory device context
+ea127bc133317aaded117c3030b6310552ebc187 cxl: Export sysfs attributes for memory device QoS class
+95da7b66ba01dba52d0d14317951d2157c404e97 cxl/mem: Add debugfs output for QTG related data
 
---===============1774024708342133310==--
+--===============5138860644790364378==--
