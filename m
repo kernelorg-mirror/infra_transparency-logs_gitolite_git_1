@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0379146339784700058=="
+Content-Type: multipart/mixed; boundary="===============4531936382670545711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 22 May 2023 13:36:32 -0000
-Message-Id: <168476259217.27880.1976595524203778724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 22 May 2023 13:36:56 -0000
+Message-Id: <168476261673.28121.8005078974164220811@gitolite.kernel.org>
 
---===============0379146339784700058==
+--===============4531936382670545711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: d3f0936c54ee5b29a9199053d028013f4ce3369e
-    new: 75d548c3ee75e6c32955b25e9b6414d71da24e97
-    log: revlist-d3f0936c54ee-75d548c3ee75.txt
+  - ref: refs/heads/nfsd-next
+    old: 16d592dccd997f019c3c4ac642af6dd7c41aee9a
+    new: fed41678532cd612080c5f193bda24d800a2bc2e
+    log: revlist-16d592dccd99-fed41678532c.txt
 
---===============0379146339784700058==
+--===============4531936382670545711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3f0936c54ee-75d548c3ee75.txt
+Content-Disposition: attachment; filename=revlist-16d592dccd99-fed41678532c.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -54,14 +54,9 @@ fe47a3084789fd653a3465ba39ea4afe33fc6d19 drm/msm/dpu: Use V2 DITHER PINGPONG sub
 7557f58b6383e560dd5dc5267aceb8372f2a4426 drm/msm/dpu: Set PINGPONG block length to zero for DPU >= 7.0.0
 202c044203ac5860e3025169105368d99f9bc6a2 drm/msm/dpu: Remove duplicate register defines from INTF
 ca29699a57ecee6084a4056f5bfd6f11dd359a71 dt-bindings: display/msm: dsi-controller-main: Document qcom, master-dsi and qcom, sync-dual-dsi
-af97b7dfb0d4636d58f2341346fffce30c6c2259 SUNRPC: Avoid relying on crypto API to derive CBC-CTS output IV
-340086da9a87820b40601141a0e9e87c954ac006 nfsd: define exports_proc_ops with CONFIG_PROC_FS
-fc412a6196a6f46ece0e6e6b118556464f165800 lockd: define nlm_port_min,max with CONFIG_SYSCTL
-29cd2927fb914cc53b5ba4f67d2b74695c994ba4 SUNRPC: Fix encoding of accepted but unsuccessful RPC replies
 1616d6c3717bae9041a4240d381ec56ccdaafedc nvme-pci: add NVME_QUIRK_BOGUS_NID for HS-SSD-FUTURE 2048G
 bd375feeaf3408ed00e08c3bc918d6be15f691ad nvme-pci: add quirk for missing secondary temperature thresholds
 3710e2b056cb92ad816e4d79fa54a6a5b6ad8cbd nvme-pci: clamp max_hw_sectors based on DMA optimized limitation
-319050d4302ee9b216fb8cea847a9c4427628a98 SUNRPC: Fix error handling in svc_setup_socket()
 7b9891ad25246b18b5ccc19518da7abc7763aa0a ASoC: amd: yc: Add DMI entry to support System76 Pangolin 12
 ab6ecfbf40fccf74b6ec2ba7ed6dd2fc024c3af2 ASoC: dwc: limit the number of overrun messages
 0a6b36c5dc3dda0196f4fb65bdb34c38b8d060c3 ALSA: hda/realtek: Add quirk for Clevo L140AU
@@ -72,8 +67,6 @@ a4671b7fba59775845ee60cfbdfc4ba64300211b ALSA: hda/realtek: Add quirk for 2nd AS
 17955aba7877a4494d8093ae5498e19469b01d57 ASoC: fsl_micfil: Fix error handler with pm_runtime_enable
 e652be0f59d4ba4d5c636b1f7f4dcb73aae049fa cpupower:Fix resource leaks in sysfs_get_enabled()
 c2adb1877b76fc81ae041e1db1a6ed2078c6746b cpupower: Make TSC read per CPU for Mperf monitor
-4b79f76920a49fc13766b95df1df1f4d700acbad selftests/sgx: Add "test_encl.elf" to TEST_FILES
-dbcf76390eb9a65d5d0c37b0cd57335218564e37 selftests/ftrace: Improve integration with kselftest runner
 051d71e073614a72ad423d6dacba37a7eeff274d ASoC: SOF: amd: Fix NULL pointer crash in acp_sof_ipc_msg_data function
 c4af8e3fecd03b0aedcd38145955605cfebe7e3a thunderbolt: Clear registers properly when auto clear isn't in use
 73a23d7710331a530e972903318528b75e5a5f58 um: harddog: fix modular build
@@ -187,9 +180,6 @@ ae11c0efaec32fb45130ee9886689f467232eebc media: mn88443x: fix !CONFIG_OF error b
 627bb528b086b4136315c25d6a447a98ea9448d3 media: dvb-core: Fix use-after-free due to race at dvb_register_device()
 b8c75e4a1b325ea0a9433fa8834be97b5836b946 media: dvb-core: Fix kernel WARNING for blocking operation in wait_event*()
 280a8ab81733da8bc442253c700a52c4c0886ffd media: dvb-core: Fix use-after-free due to race condition at dvb_ca_en50221
-eb8d3a2c809abd73ab0a060fe971d6b9019aa3c1 SUNRPC: double free xprt_ctxt while still in use
-948f072ada23e0a504c5e4d7d71d4c83bd0785ec SUNRPC: always free ctxt when freeing deferred request
-07a27305938559fb35f7a46fb90a5e37728bdee6 SUNRPC: Fix trace_svc_register() call site
 a7844528722619d2f97740ae5ec747afff18c4be dt-bindings: ata: ahci-ceva: Cover all 4 iommus entries
 7430dea49410de3d154fb87f931d079a0a643b1a ASoC: SOF: Intel: hda-mlink: fix sublink refcounting
 dcb88fc47d0e79fd54a19a63a4c8a7594ba0838e ASoC: SOF: Intel: hda-mlink: add helper to get SoundWire hlink
@@ -222,7 +212,6 @@ df0acdc59b094cdaef19b1c8d83c9721082bab7b net: phylink: fix ksettings_set() ethto
 aa70f36fe6c345cc8679e034b0dd4213f1f9c7d9 ASoC: SOF: Various runtime pm fixes, improvements
 be3c215342956313845308e0e631341e62370a2b ASoC: SOF: Separate the tokens for input and output pin index
 1c0d023c8c2f7c56750a3d58207b263a39d39554 ASoC: SOF: topology: Fix tuples array allocation
-21a3f3328972bdb774c62b301a715b5cebf03fa2 NFSD: Remove open coding of string copy
 8703dd6b238da0ec6c276e53836f8200983d3d9b s390/crypto: use vector instructions only if available for ChaCha20
 844cf829e5f33e00b279230470c8c93b58b8c16f s390/pkey: zeroize key blobs
 124acbe275040809abfa5fbe6e25790a53d5a161 s390/defconfigs: set CONFIG_INIT_STACK_NONE=y
@@ -246,9 +235,6 @@ caf78f0f491981893b6a5a71c9dabd2734909c4a dt-bindings: net: can: add "st,can-seco
 85a79b971164c4636b2db7f4aef9788142e3f885 can: bxcan: add support for single peripheral configuration
 0920ccdf41e3078a4dd2567eb905ea154bc826e6 ARM: dts: stm32: add CAN support on stm32f746
 c08e24013aba49a593424715ffc04c928c84b9c9 Merge patch series "can: bxcan: add support for single peripheral configuration"
-1398aa803f198b7a386fdd8404666043e95f4c16 tpm_tis: Use tpm_chip_{start,stop} decoration inside tpm_tis_resume
-99d46450625590d410f86fe4660a5eff7d3b8343 tpm: Prevent hwrng from activating during resume
-e7d3e5c4b1dd50a70b31524c3228c62bb41bbab2 tpm/tpm_tis: Disable interrupts for more Lenovo devices
 225c657945c4a6307741cb3cc89467eadcc26e9b net: bcmgenet: Restore phy_stop() depending upon suspend/close
 d91d580878064b880f3574ac35b98d8b70ee8620 arm64/mm: mark private VM_FAULT_X defines as vm_fault_t
 b0abde80620f42d1ceb3de5e4c1a49cdd5628229 arm64: vdso: Pass (void *) to virt_to_page()
@@ -323,9 +309,6 @@ c1e4f5a411dd354c2ad20deadd56eadb4a461bbc Merge patch series "can: kvaser_pciefd:
 5ad3bd8444021a227959891c14b436e4067d67fd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 60d758659f1fb49e0d5b6ac2691ede8c0958795b igb: fix bit_shift to be in [1..8] range
 66353baf3762fa0968b4424a2075fb395b329e9d mailmap: add entries for Nikolay Aleksandrov
-806570c0bb7b4847828c22c4934fcf2dc8fc572f btrfs: handle memory allocation failure in btrfs_csum_one_bio
-597441b3436a43011f31ce71dc0a6c0bf5ce958a btrfs: use nofs when cleaning up aborted transactions
-7f6d8752b79e7d1dbd3c0e93916654bf57b17861 Merge branch 'misc-6.4' into next-fixes
 6049674b5720edbbb13a7cb3e2f3d2affaa40c19 tracing: fprobe: Initialize ret valiable to fix smatch error
 dacab578c7c6cd06c50c89dfa36b0e0f10decd4e vlan: fix a potential uninit-value in vlan_dev_hard_start_xmit()
 60829145f1e2650b31ebe6a0ec70a9725b38fa2c net: wwan: iosm: fix NULL pointer dereference when removing device
@@ -352,14 +335,10 @@ ccecefa4f89971e34745abbffdaf4d2c3fb2f457 ALSA: cs46xx: mark snd_cs46xx_download_
 dc4f2ccaedddb489a83e7b12ebbdc347272aacc9 ALSA: hda: Add NVIDIA codec IDs a3 through a7 to patch table
 e36ca2fad6bb4ef0603bdb5556578e9082fe0056 iommu/arm-smmu-qcom: Fix missing adreno_smmu's
 5c054db54c43a5fcb5cc81012361f5e3fac37637 drm/msm: Be more shouty if per-process pgtables aren't working
-a18ef64fe1e4558b14a6e0ca9fbe8264475b7013 tracing: make ftrace_likely_update() declaration visible
 d5aa417808cf14c052ca042920b3c6b9f1dc6aa4 drm/amdgpu/gfx11: update gpu_clock_counter logic
-cba582631ee40772c6dbe24e945b9173572dfca0 Merge tag 'tpmdd-v6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-1b66c114d161a457897d269420c74620c032135c Merge tag 'nfsd-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 47592fa8eb03742048b096b4696ec133384c45eb SMB3: Close all deferred handles of inode in case of handle lease break
 59a556aebc43dded08535fe97d94ca3f657915e4 SMB3: drop reference to cfile before sending oplock break
 39428f6ea9eace95011681628717062ff7f5eb5f Merge tag 'kvmarm-fixes-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-4d6d4c7f541d7027beed4fb86eb2c451bd8d6fff Merge tag 'linux-kselftest-fixes-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 36a6418bb125944838b91a33eddca4064a5eb610 Revert "ARM: dts: stm32: add CAN support on stm32f746"
 be243bacfb25f5219f2396d787408e8cf1301dd1 rethook: use preempt_{disable, enable}_notrace in rethook_trampoline_handler
 3cc4e2c5fbae84e5033723fb7e350bc6c164e3a2 fprobe: make fprobe_kprobe_handler recursion free
@@ -445,82 +424,25 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
-017ea620a8aec35ca7181ec76cd8885f3ee805ec btrfs: unexport btrfs_prev_leaf()
-a67ccf21e447ba2248d0deb82cd4f3de2a79d584 btrfs: don't commit transaction for every subvol create
-04a4a55c0266c2ca662ed3099c043e593b3dce53 btrfs: make btrfs_free_device() static
-61353203c6942a19f437b9dee386a248c4ad50ce btrfs: tag as unlikely the key comparison when checking sibling keys
-a14357ab08138c6e91284dd9444bbaba63cf6d60 btrfs: export bitmap_test_range_all_{set,zero}
-3cf883ad9a00ac9407fe7fbe7393c23776c399e9 btrfs: print-tree: pass const extent buffer pointer
-1f77b8dc04a252b11d7cb86991901ddc498d0027 btrfs: improve leaf dump and error handling
-d752f294e5498aac6762291666dfee8d63b063ae btrfs: use SECTOR_SHIFT to convert physical offset to LBA
-e9f96bc0709efd6f18de1c28c688c623eb095d94 btrfs: use SECTOR_SHIFT to convert LBA to physical offset
-bb380c7621e28944008bf50b446a58a8194ad232 btrfs: submit IO synchronously for fast checksum implementations
-867f8e6232928128ee07a9e99cd29a4964151563 btrfs: determine synchronous writers from bio or writeback control
-7af010b916be5acbd117c35e81d47db8ecfcf73c btrfs: remove hipri_workers workqueue
-bc0283a6da8d4be5c9c68beb4df8a0efee1feaa5 btrfs: output affected files when relocation fails
-27fe727237dc44c7a2f877ae8996c41262015c35 btrfs: simplify transid initialization in btrfs_ioctl_wait_sync
-1a0c44165a18a331aff25bc44acc3d661053dfb9 btrfs: avoid extra memory allocation when copying free space cache
-57aeebe5adb4f22850edd3a287cfba721d39c649 btrfs: avoid searching twice for previous node when merging free space entries
-affb14b29d015577bdf24c8915a4c138e933bbef btrfs: use precomputed end offsets at do_trimming()
-017fec9b9ed9eac9fa740ccfa11fd67a808d08a3 btrfs: simplify arguments to tree_insert_offset()
-56399f46c1eeeb36a76ffb4bf6f9079952e8c6d6 btrfs: assert proper locks are held at tree_insert_offset()
-4dc3fe1169e581d3f60ea58e68ec20736991da5e btrfs: assert tree lock is held when searching for free space entries
-dcf51c488e189c49dad36067036d711c3e690bf5 btrfs: assert tree lock is held when linking free space
-0eecd95d642c233ce41f8cc5cbc519d585167d4f btrfs: assert tree lock is held when removing free space entries
-77409bddda42f66f4982f93b1da4e94decb468ab btrfs: scrub: try harder to mark RAID56 block groups read-only
-b110a478a4f9114de614ca07f84497bf95d6156b btrfs: scrub: use recovered data stripes as cache to avoid unnecessary read
-96680e56e1a33d34e44e37d49624d9e7e13f9b8c btrfs: move btrfs_check_trunc_cache_free_space into block-rsv.c
-15ba50f6538a9f7535e0133932a7406d7b14aafd btrfs: remove level argument from btrfs_set_block_flags
-2c9fd925670e1cb1c7695aae0f8bb512706d422b btrfs: simplify btrfs_check_leaf_* helpers into a single helper
-d08f29d9be969aed0b738a0798cdb162611ee456 btrfs: add btrfs_tree_block_status definitions to tree-checker.h
-5cda77e21fbf8161b506003875a13a1808021577 btrfs: use btrfs_tree_block_status for leaf item errors
-4652740a13704d37b71a9423503ed1e9dab9dba6 btrfs: extend btrfs_leaf_check to return btrfs_tree_block_status
-1f905d93045e2722f5a015ca4fb78c5c6473394d btrfs: add __btrfs_check_node helper
-6643f70a263ebef61cf5c5ee9672e89fedcd863e btrfs: move btrfs_verify_level_key into tree-checker.c
-8d09ef937adfe66e178124c43454a59588b433fe btrfs: move split_flags/combine_flags helpers to inode-item.h
-cab147b0c0f71f6d954980c0f5bce47f51e81370 btrfs: add __KERNEL__ check for btrfs_no_printk
-5a0aa7023daf0d847989df8fad7362b80509d2fc btrfs: add a btrfs_csum_type_size helper
-35da244af015e28f78ddfc0e9f01c170f7f60b20 btrfs: rename del_ptr to btrfs_del_ptr and export it
-5c031710dcd92261348c19a82beb9f273e76dfc9 btrfs: unexport btrfs_run_discard_work and make it static
-7a43984f96d93d1a6dbcf467f6ddf4bc9aa5b3e8 btrfs: fix dirty_metadata_bytes for redirtied buffers
-c8ec478586d5525f1f666174d39bc836774c60fa btrfs: don't hold an extra reference for redirtied buffers
-ec038cc2d24bb5acacc6610b1f81dab6e43c707b btrfs: handle memory allocation failure in btrfs_csum_one_bio
-999a8e664487f6fb54c4a23f8d3c811f3d2e8b0c btrfs: handle tree backref walk error properly
-82fa4f103881e7fd34daf809c266670a33727f3d btrfs: use nofs when cleaning up aborted transactions
-05668ab9bda3c5b0e71f606964f615af22140312 btrfs: scrub: remove more unused functions
-331e9ba5543e920fa9aec4163915ba3f82452b79 btrfs: use inode_logged() at need_log_inode()
-ec7733f0082d24e8de41bafa141af0361edd18a5 btrfs: use inode_logged() at btrfs_record_unlink_dir()
-d63580d88dcd2a085870cb1576092c1180344395 btrfs: update comments at btrfs_record_unlink_dir() to be more clear
-f462f6cea21cdcf6aa5ea134cab63a64c60bdb17 btrfs: remove pointless label and goto at btrfs_record_unlink_dir()
-f8d6bc38a0745d0452c2cf60b32285a9a3304e60 btrfs: change for_rename argument of btrfs_record_unlink_dir() to bool
-bc47b22f1e16834cf7aa933cd04aa86d91a6ada3 btrfs: fix comment referring to no longer existing btrfs_clean_tree_block()
-72421921df38533c9355ef280c8626ba5ffeee2c btrfs: trigger orphan inode cleanup during START_SYNC ioctl
-0942f21f8b8238e00a45ceb9b2aa873138aedf32 btrfs: mark extent_buffer_under_io static
-8e94dfaba0f789eb6ee9780fef25879a5ca204c7 btrfs: fix sub-page error handling in end_bio_subpage_eb_writepage
-5fc0d11b99da66dd6488f69a9e07206f3ad5b1db btrfs: move setting the buffer uptodate out of validate_extent_buffer
-c71b19198476392538d9bf8792a05c92615005dd btrfs: merge verify_parent_transid and btrfs_buffer_uptodate
-bf8bab6fdf647b4f2809609d51d0bd840791afb2 btrfs: always read the entire extent_buffer
-a295d93f033d29fd8db4dbd62da8f78cd23e52c8 btrfs: don't use btrfs_bio_ctrl for extent buffer reading
-6050be09967e4d4f16647cb2a84011cb957fae06 btrfs: remove the mirror_num argument to btrfs_submit_compressed_read
-2c3ee39939e43cbcc26bc1ffbea8737accd23bb1 btrfs: use a separate end_io handler for read_extent_buffer
-d566e4901e3f9790cfa2d5d2191d28028e4c4143 btrfs: do not try to unlock the extent for non-subpage metadata reads
-58549737f417ccc3cc2864ba75f45a1a4d4ba17e btrfs: return bool from lock_extent_buffer_for_io
-be623f98bab1ac17c1d764915f6176b0692927ea btrfs: submit a writeback bio per extent_buffer
-b795a59c142278384172fa961ea7887f0d43e4a0 btrfs: move page locking from lock_extent_buffer_for_io to write_one_eb
-208061eab52267f8523a3b0528ceb6578d077adf btrfs: don't use btrfs_bio_ctrl for extent buffer writing
-7a3ede7fbcce5b17bf64e13d08d3b11f6cd845c6 btrfs: use a separate end_io handler for extent_buffer writing
-c14861277d8505d86bb472cc1fb30f703cb46248 btrfs: remove the extent_buffer lookup in btree block checksumming
-ee69d68d56d2f1575d0c186f51ece07db3bc00a5 btrfs: remove the io_pages field in struct extent_buffer
-2631c6e7e537056e34a46b8e5ea29d57c01bcb4f btrfs: stop using PageError for extent_buffers
-56ef80ea0065d6fcd5b2d9091304452470fb4c1b btrfs: don't check for uptodate pages in read_extent_buffer_pages
-7e875bb9fff1bd18adb30c90fd2197004168a0e2 btrfs: stop using lock_extent in btrfs_buffer_uptodate
-7f799b7c633dac4db0cb1da0b53ace334edcd752 btrfs: use per-buffer locking for extent_buffer reading
-3937956954ca07ef75f8f024a2505127e7ee6b4f btrfs: merge write_one_subpage_eb into write_one_eb
-28e8dd1e6bfa893e68117b5e3ab594ec539c9428 Merge branch 'misc-6.4' into for-next-current-v6.3-20230522
-4351ee0bd1590d79b25aca2b6976f7171ff725c9 Merge branch 'next-fixes' into for-next-next-v6.4-20230522
-2579dfa58c816936075d27be9c5ec521ae7fce99 Merge branch 'misc-next' into for-next-next-v6.4-20230522
-65ec3c9abd25c30654efecf039685c877520b0f8 Merge branch 'ext/hch/extent-buffer-v4' into for-next-next-v6.4-20230522
-6c8768b9351ed043c3ad811e92eb0d0669b6f0c3 Merge branch 'for-next-current-v6.3-20230522' into for-next-20230522
-75d548c3ee75e6c32955b25e9b6414d71da24e97 Merge branch 'for-next-next-v6.4-20230522' into for-next-20230522
+54fbcef03559bed2092f42256724b49fcd96ea75 nfsd: use vfs setgid helper
+c24de8e6a8a0d29ad3fa5e100a316c4533d8a129 SUNRPC: Fix UAF in svc_tcp_listen_data_ready()
+ae2b6ef857aa67c10a9d323f76caa6f569e7f900 SUNRPC: Fix an incorrect comment
+cddfbe75cca05d358c9cdad5b765babc6bc64ee1 SUNRPC: Remove dprintk() in svc_handle_xprt()
+ba5b998e94cdf50c70ecc33abe3f593f89d5b174 SUNRPC: Improve observability in svc_tcp_accept()
+2aeac7dc7f76b60135f5519ef9b1b5fa400ee351 SUNRPC: Trace struct svc_sock lifetime events
+c525276888fd10f37e6a5defb900f47af63952bb NFSD: Clean up nfsctl white-space damage
+e7f5cf5887be701ffa1d8150e60d282a639f867a NFSD: Clean up nfsctl_transaction_write()
+42f0c190e9863c9493fc8cb8cf07ac64bf262e53 NFSD: trace nfsctl operations
+224a644c689e9e16794d4ae4fd98d52e6089c69c SUNRPC: Resupply rq_pages from node-local memory
+27fba3a523887b80f0fdbd10a105d818641f0d27 SUNRPC: Use __alloc_bulk_pages() in svc_init_buffer()
+70c2613624e0be6deafaead0d9dce32dfd7a04fd NFSD: Add encoders for NFSv4 clientids and verifiers
+290f0dfc4dd9f9f8db1826b01e38a125517e076d NFSD: Replace encode_cinfo()
+8c60025e94bdc3485ecdb3277944e7c2514b9385 NFSD: Ensure that xdr_write_pages updates rq_next_page
+706fc5522e48bed25c19de30f39dfc92fc2a3661 NFSD: Use svcxdr_encode_opaque_pages() in nfsd4_encode_splice_read()
+84909e1d3ee560c3c0068cdc751ea1dda320a668 NFSD: Update rq_next_page between COMPOUND operations
+b1885d496bb7fa075b2c6ea8d4552564ab4af906 NFSD: Hoist rq_vec preparation into nfsd_read()
+7e1bd442726eaaea72b86bb563144f28847ef221 NFSD: Hoist rq_vec preparation into nfsd_read() [step two]
+f8e85d91b138638a35f69040cf5c30ef911967fa NFSD: Remove nfsd_readv()
+fed41678532cd612080c5f193bda24d800a2bc2e nfsd: don't provide pre/post-op attrs if fh_getattr fails
 
---===============0379146339784700058==--
+--===============4531936382670545711==--
