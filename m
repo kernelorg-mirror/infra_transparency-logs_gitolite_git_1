@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 22 May 2023 11:38:21 -0000
-Message-Id: <168475550194.11408.2300308935094075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 22 May 2023 11:43:07 -0000
+Message-Id: <168475578754.14484.14311579100049794145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: edde63bf18f6447e4459e7d59b3b7029027a0941
-    new: dd931cf607e8cb57b8c1c3e74294d28eda30304a
+  - ref: refs/heads/master
+    old: 59dc323560851c5c128361026e4189640f70e612
+    new: 096800a0df9d98c9ab6f0fe0dbe221e0ea7d26d2
     log: |
-         66aa3ce9165528ce9004b10db6b383d086807f15 accel/habanalabs: remove sim code
-         733e72b12e6e2f256fb166fe048c74615e24c59f accel/habanalabs: add description to several info ioctls
-         5d9d35ca6f920e9cecd283bee1f09f2ea415c5ce accel/habanalabs: fix bug of not fetching addr_dec info
-         dd931cf607e8cb57b8c1c3e74294d28eda30304a accel/habanalabs: move ioctl error print to debug level
+         bcebab29a7b42b6c7f37549d7d65536dfd2c5424 agetty: Load autologin user from agetty.autologin credential
+         12252002ada4482c46ae4363c0a87c5c8ea62e8c login: Initialize noauth from login.noauth credential
+         1bf9c6915e73f44c536b21c592c403de84460125 Document new systemd credentials support for agetty and login
+         096800a0df9d98c9ab6f0fe0dbe221e0ea7d26d2 Merge branch 'agetty-creds' of https://github.com/DaanDeMeyer/util-linux
          
