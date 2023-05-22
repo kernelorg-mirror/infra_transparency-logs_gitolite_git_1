@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2480829059358619969=="
+Content-Type: multipart/mixed; boundary="===============0379146339784700058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 22 May 2023 13:35:42 -0000
-Message-Id: <168476254231.27536.3444893064775550109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 22 May 2023 13:36:32 -0000
+Message-Id: <168476259217.27880.1976595524203778724@gitolite.kernel.org>
 
---===============2480829059358619969==
+--===============0379146339784700058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
-    new: 44c026a73be8038f03dbdeef028b642880cf1511
-    log: revlist-f1fcbaa18b28-44c026a73be8.txt
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/heads/for-next
+    old: d3f0936c54ee5b29a9199053d028013f4ce3369e
+    new: 75d548c3ee75e6c32955b25e9b6414d71da24e97
+    log: revlist-d3f0936c54ee-75d548c3ee75.txt
 
---===============2480829059358619969==
+--===============0379146339784700058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1fcbaa18b28-44c026a73be8.txt
+Content-Disposition: attachment; filename=revlist-d3f0936c54ee-75d548c3ee75.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -326,6 +323,9 @@ c1e4f5a411dd354c2ad20deadd56eadb4a461bbc Merge patch series "can: kvaser_pciefd:
 5ad3bd8444021a227959891c14b436e4067d67fd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 60d758659f1fb49e0d5b6ac2691ede8c0958795b igb: fix bit_shift to be in [1..8] range
 66353baf3762fa0968b4424a2075fb395b329e9d mailmap: add entries for Nikolay Aleksandrov
+806570c0bb7b4847828c22c4934fcf2dc8fc572f btrfs: handle memory allocation failure in btrfs_csum_one_bio
+597441b3436a43011f31ce71dc0a6c0bf5ce958a btrfs: use nofs when cleaning up aborted transactions
+7f6d8752b79e7d1dbd3c0e93916654bf57b17861 Merge branch 'misc-6.4' into next-fixes
 6049674b5720edbbb13a7cb3e2f3d2affaa40c19 tracing: fprobe: Initialize ret valiable to fix smatch error
 dacab578c7c6cd06c50c89dfa36b0e0f10decd4e vlan: fix a potential uninit-value in vlan_dev_hard_start_xmit()
 60829145f1e2650b31ebe6a0ec70a9725b38fa2c net: wwan: iosm: fix NULL pointer dereference when removing device
@@ -445,5 +445,82 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
+017ea620a8aec35ca7181ec76cd8885f3ee805ec btrfs: unexport btrfs_prev_leaf()
+a67ccf21e447ba2248d0deb82cd4f3de2a79d584 btrfs: don't commit transaction for every subvol create
+04a4a55c0266c2ca662ed3099c043e593b3dce53 btrfs: make btrfs_free_device() static
+61353203c6942a19f437b9dee386a248c4ad50ce btrfs: tag as unlikely the key comparison when checking sibling keys
+a14357ab08138c6e91284dd9444bbaba63cf6d60 btrfs: export bitmap_test_range_all_{set,zero}
+3cf883ad9a00ac9407fe7fbe7393c23776c399e9 btrfs: print-tree: pass const extent buffer pointer
+1f77b8dc04a252b11d7cb86991901ddc498d0027 btrfs: improve leaf dump and error handling
+d752f294e5498aac6762291666dfee8d63b063ae btrfs: use SECTOR_SHIFT to convert physical offset to LBA
+e9f96bc0709efd6f18de1c28c688c623eb095d94 btrfs: use SECTOR_SHIFT to convert LBA to physical offset
+bb380c7621e28944008bf50b446a58a8194ad232 btrfs: submit IO synchronously for fast checksum implementations
+867f8e6232928128ee07a9e99cd29a4964151563 btrfs: determine synchronous writers from bio or writeback control
+7af010b916be5acbd117c35e81d47db8ecfcf73c btrfs: remove hipri_workers workqueue
+bc0283a6da8d4be5c9c68beb4df8a0efee1feaa5 btrfs: output affected files when relocation fails
+27fe727237dc44c7a2f877ae8996c41262015c35 btrfs: simplify transid initialization in btrfs_ioctl_wait_sync
+1a0c44165a18a331aff25bc44acc3d661053dfb9 btrfs: avoid extra memory allocation when copying free space cache
+57aeebe5adb4f22850edd3a287cfba721d39c649 btrfs: avoid searching twice for previous node when merging free space entries
+affb14b29d015577bdf24c8915a4c138e933bbef btrfs: use precomputed end offsets at do_trimming()
+017fec9b9ed9eac9fa740ccfa11fd67a808d08a3 btrfs: simplify arguments to tree_insert_offset()
+56399f46c1eeeb36a76ffb4bf6f9079952e8c6d6 btrfs: assert proper locks are held at tree_insert_offset()
+4dc3fe1169e581d3f60ea58e68ec20736991da5e btrfs: assert tree lock is held when searching for free space entries
+dcf51c488e189c49dad36067036d711c3e690bf5 btrfs: assert tree lock is held when linking free space
+0eecd95d642c233ce41f8cc5cbc519d585167d4f btrfs: assert tree lock is held when removing free space entries
+77409bddda42f66f4982f93b1da4e94decb468ab btrfs: scrub: try harder to mark RAID56 block groups read-only
+b110a478a4f9114de614ca07f84497bf95d6156b btrfs: scrub: use recovered data stripes as cache to avoid unnecessary read
+96680e56e1a33d34e44e37d49624d9e7e13f9b8c btrfs: move btrfs_check_trunc_cache_free_space into block-rsv.c
+15ba50f6538a9f7535e0133932a7406d7b14aafd btrfs: remove level argument from btrfs_set_block_flags
+2c9fd925670e1cb1c7695aae0f8bb512706d422b btrfs: simplify btrfs_check_leaf_* helpers into a single helper
+d08f29d9be969aed0b738a0798cdb162611ee456 btrfs: add btrfs_tree_block_status definitions to tree-checker.h
+5cda77e21fbf8161b506003875a13a1808021577 btrfs: use btrfs_tree_block_status for leaf item errors
+4652740a13704d37b71a9423503ed1e9dab9dba6 btrfs: extend btrfs_leaf_check to return btrfs_tree_block_status
+1f905d93045e2722f5a015ca4fb78c5c6473394d btrfs: add __btrfs_check_node helper
+6643f70a263ebef61cf5c5ee9672e89fedcd863e btrfs: move btrfs_verify_level_key into tree-checker.c
+8d09ef937adfe66e178124c43454a59588b433fe btrfs: move split_flags/combine_flags helpers to inode-item.h
+cab147b0c0f71f6d954980c0f5bce47f51e81370 btrfs: add __KERNEL__ check for btrfs_no_printk
+5a0aa7023daf0d847989df8fad7362b80509d2fc btrfs: add a btrfs_csum_type_size helper
+35da244af015e28f78ddfc0e9f01c170f7f60b20 btrfs: rename del_ptr to btrfs_del_ptr and export it
+5c031710dcd92261348c19a82beb9f273e76dfc9 btrfs: unexport btrfs_run_discard_work and make it static
+7a43984f96d93d1a6dbcf467f6ddf4bc9aa5b3e8 btrfs: fix dirty_metadata_bytes for redirtied buffers
+c8ec478586d5525f1f666174d39bc836774c60fa btrfs: don't hold an extra reference for redirtied buffers
+ec038cc2d24bb5acacc6610b1f81dab6e43c707b btrfs: handle memory allocation failure in btrfs_csum_one_bio
+999a8e664487f6fb54c4a23f8d3c811f3d2e8b0c btrfs: handle tree backref walk error properly
+82fa4f103881e7fd34daf809c266670a33727f3d btrfs: use nofs when cleaning up aborted transactions
+05668ab9bda3c5b0e71f606964f615af22140312 btrfs: scrub: remove more unused functions
+331e9ba5543e920fa9aec4163915ba3f82452b79 btrfs: use inode_logged() at need_log_inode()
+ec7733f0082d24e8de41bafa141af0361edd18a5 btrfs: use inode_logged() at btrfs_record_unlink_dir()
+d63580d88dcd2a085870cb1576092c1180344395 btrfs: update comments at btrfs_record_unlink_dir() to be more clear
+f462f6cea21cdcf6aa5ea134cab63a64c60bdb17 btrfs: remove pointless label and goto at btrfs_record_unlink_dir()
+f8d6bc38a0745d0452c2cf60b32285a9a3304e60 btrfs: change for_rename argument of btrfs_record_unlink_dir() to bool
+bc47b22f1e16834cf7aa933cd04aa86d91a6ada3 btrfs: fix comment referring to no longer existing btrfs_clean_tree_block()
+72421921df38533c9355ef280c8626ba5ffeee2c btrfs: trigger orphan inode cleanup during START_SYNC ioctl
+0942f21f8b8238e00a45ceb9b2aa873138aedf32 btrfs: mark extent_buffer_under_io static
+8e94dfaba0f789eb6ee9780fef25879a5ca204c7 btrfs: fix sub-page error handling in end_bio_subpage_eb_writepage
+5fc0d11b99da66dd6488f69a9e07206f3ad5b1db btrfs: move setting the buffer uptodate out of validate_extent_buffer
+c71b19198476392538d9bf8792a05c92615005dd btrfs: merge verify_parent_transid and btrfs_buffer_uptodate
+bf8bab6fdf647b4f2809609d51d0bd840791afb2 btrfs: always read the entire extent_buffer
+a295d93f033d29fd8db4dbd62da8f78cd23e52c8 btrfs: don't use btrfs_bio_ctrl for extent buffer reading
+6050be09967e4d4f16647cb2a84011cb957fae06 btrfs: remove the mirror_num argument to btrfs_submit_compressed_read
+2c3ee39939e43cbcc26bc1ffbea8737accd23bb1 btrfs: use a separate end_io handler for read_extent_buffer
+d566e4901e3f9790cfa2d5d2191d28028e4c4143 btrfs: do not try to unlock the extent for non-subpage metadata reads
+58549737f417ccc3cc2864ba75f45a1a4d4ba17e btrfs: return bool from lock_extent_buffer_for_io
+be623f98bab1ac17c1d764915f6176b0692927ea btrfs: submit a writeback bio per extent_buffer
+b795a59c142278384172fa961ea7887f0d43e4a0 btrfs: move page locking from lock_extent_buffer_for_io to write_one_eb
+208061eab52267f8523a3b0528ceb6578d077adf btrfs: don't use btrfs_bio_ctrl for extent buffer writing
+7a3ede7fbcce5b17bf64e13d08d3b11f6cd845c6 btrfs: use a separate end_io handler for extent_buffer writing
+c14861277d8505d86bb472cc1fb30f703cb46248 btrfs: remove the extent_buffer lookup in btree block checksumming
+ee69d68d56d2f1575d0c186f51ece07db3bc00a5 btrfs: remove the io_pages field in struct extent_buffer
+2631c6e7e537056e34a46b8e5ea29d57c01bcb4f btrfs: stop using PageError for extent_buffers
+56ef80ea0065d6fcd5b2d9091304452470fb4c1b btrfs: don't check for uptodate pages in read_extent_buffer_pages
+7e875bb9fff1bd18adb30c90fd2197004168a0e2 btrfs: stop using lock_extent in btrfs_buffer_uptodate
+7f799b7c633dac4db0cb1da0b53ace334edcd752 btrfs: use per-buffer locking for extent_buffer reading
+3937956954ca07ef75f8f024a2505127e7ee6b4f btrfs: merge write_one_subpage_eb into write_one_eb
+28e8dd1e6bfa893e68117b5e3ab594ec539c9428 Merge branch 'misc-6.4' into for-next-current-v6.3-20230522
+4351ee0bd1590d79b25aca2b6976f7171ff725c9 Merge branch 'next-fixes' into for-next-next-v6.4-20230522
+2579dfa58c816936075d27be9c5ec521ae7fce99 Merge branch 'misc-next' into for-next-next-v6.4-20230522
+65ec3c9abd25c30654efecf039685c877520b0f8 Merge branch 'ext/hch/extent-buffer-v4' into for-next-next-v6.4-20230522
+6c8768b9351ed043c3ad811e92eb0d0669b6f0c3 Merge branch 'for-next-current-v6.3-20230522' into for-next-20230522
+75d548c3ee75e6c32955b25e9b6414d71da24e97 Merge branch 'for-next-next-v6.4-20230522' into for-next-20230522
 
---===============2480829059358619969==--
+--===============0379146339784700058==--
