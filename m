@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Mon, 22 May 2023 21:27:07 -0000
-Message-Id: <168479082737.28099.12461054730310489915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 22 May 2023 21:44:18 -0000
+Message-Id: <168479185843.5643.17425271395338782834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/tags/modules-6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 5ce5f0c70a54b89f20a76fa47905ab0ae687fcf4
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
-  - ref: refs/tags/v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/heads/soc-doc
+    old: d3de33c0fac72a06c9ed9a09af997f2717d884f8
+    new: a2a83442ca6cb8ea4d2844565a31b02f9713e943
+    log: |
+         844ab7598af61aa452169372e34c9ddb9e9761f5 Documentation/process: add soc maintainer handbook
+         a2a83442ca6cb8ea4d2844565a31b02f9713e943 fixup
+         
