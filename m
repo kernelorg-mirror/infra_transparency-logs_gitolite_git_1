@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6538944155262598077=="
+Content-Type: multipart/mixed; boundary="===============3609614385836880116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 22 May 2023 22:45:02 -0000
-Message-Id: <168479550220.14075.3290272542962353684@gitolite.kernel.org>
+Date: Mon, 22 May 2023 22:45:14 -0000
+Message-Id: <168479551494.15483.2475764715117725042@gitolite.kernel.org>
 
---===============6538944155262598077==
+--===============3609614385836880116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 23b83c58b33fdab8078d472be5e95295663d33de
-    new: 49ea062d71478bdbf5eb808fb8249011f1df544f
-    log: revlist-23b83c58b33f-49ea062d7147.txt
+  - ref: refs/heads/6.5/scsi-staging
+    old: 16853cd8f6d44d774f683d670be38c7d91eb32b8
+    new: f047d1e38bdfda2e9b9bf82ffa761711acacbd69
+    log: revlist-16853cd8f6d4-f047d1e38bdf.txt
 
---===============6538944155262598077==
+--===============3609614385836880116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1684795491 -0400
+pusher 75C5DE3D 1684795505 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1684795491-97c09915974cc0494dbc6861dbd3c778e49fc520
+nonce 1684795505-449a0ba40b8d452ebbf9fe6da90ac5e904130ef4
 
-23b83c58b33fdab8078d472be5e95295663d33de 49ea062d71478bdbf5eb808fb8249011f1df544f refs/tags/mkp-scsi-staging
+16853cd8f6d44d774f683d670be38c7d91eb32b8 f047d1e38bdfda2e9b9bf82ffa761711acacbd69 refs/heads/6.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRr8GMACgkQ7ulgGnXF
-3j3RPRAApjojHzS1+44Tfuo8fC7HQEuUfsOLD64+xxNY2xx5TegiAD3bymrkG+Wa
-JpdXhTFpbCov8FV3I2k7I4u/KXCAjlG6gmIsgw98orHbdO6OMJes6QK/YSK+5Wcg
-/r42uUYFv72cyfX0kteD07m5sL+1AXGwTsGH0PDBbbR8FWkaemsqwafaAaL3TO1k
-Ly82C65GTzfpqufIiJAdyYmwXG5SoRg4lNZJF0Mf9zY8YXt3aQCKuxbmNbMO60JW
-fbKDqFztljnSPd1ZVQqWGMeODyxPjLZbwZF3PPeJGiXHiztTny+oT8wW9JAoXvgU
-gLOnc/tc591gDQT3E6jM/clbVE+RngAlrYdpCRabOcKogz4l5sH3s4SLRwpYVrKq
-jOtqU+Sfw99F5SahzH8p5yPeT/jkHPcji9kfGdVfkkadEYJJ9NUyMpw68/4HBFzO
-I3TKDswsGGJDSoIfKf30n1YThNsKvHtvoLc0Xrx8i/STUZYVnESxaj86s1D7jmqF
-nCZ6gaLmaeWsJi/O7QylJiL3onwWEUnGgrTrvXWD2a0dw1uAhaVBci4Q1ySlsQZ+
-WAM/TvuSqgeI3jHqS/89cI0p2oaTWttea4kswXSOJU97KZ6speUahb3Hehz5Ajxw
-VJTNkPSA899p5dAyW4oLe+NhwPi2TD3kYJahn00G0IGY7u+F5Xo=
-=iJM7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRr8HEACgkQ7ulgGnXF
+3j1DgA/9HhgDsNQ8Bc6ydLOa64XH1VE6xkHpQe4noxPxp2SqMQZAm6u9mFNpvfW5
+d2ICaGqDy9EQUzZxILsxHbY43u21I3zFH7rdnGKxh6qtN4wOAH7005T0lBrOdKGe
+eT90v6eXMjC7Bdt2hzJAEj93plJeltMjWjx9ayVMSQEtOXtVxFTrTd/f4h8QgYw4
+pE/XfJFG57FbP6lxAX13GblwZtIv2NLym8o6S5wSo2yzmY8O01T7Gp5Xs/EabiR4
+btZucXwQsqMzUY9wzuaVZ+K57pW6dfw/Az790HaP2XATTUnFaqgQ8u63FcZSwU7N
+LyVJKRv3pCXSCie3iEzTCOpCUG8jDGooOvNrVRa90ro2UkZ9s2Jut8r1WZmlAwht
+19u9x8CjdgjOpk3AGExAYBDix8Z6IXK6XKVLLCJqm+K86zKxBbkt3Z7cVmbUtUwb
+BBCGLpfuEj5SbIwhMCD1zC8oCywEXzcaZ0gE1u29uGg6DVGjyjMUa003E4cLCHhQ
+ZdjT9yzc2w5QMhU37A8JavtUjSJG6SHGbJVUF95yL0XIKQ8rUI+gAEcmODm3ueKX
+086aWg47ZiX4nClX7zFpda4MTuRZoT81oZ8KN8/S6vee6g7JPXQkDa/EKAZMTVh2
+ITDmyGqP95Rs5/aH4yfqcLXwocn7gmSNA057346o5wtZuJ7SiYw=
+=hLaH
 -----END PGP SIGNATURE-----
 
---===============6538944155262598077==
+--===============3609614385836880116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23b83c58b33f-49ea062d7147.txt
+Content-Disposition: attachment; filename=revlist-16853cd8f6d4-f047d1e38bdf.txt
 
 c787f1baa5031c22cbe20af17b2ee36ad32957ea block: Add PR callouts for read keys and reservation
 7ba150834b840f6f5cdd07ca69a4ccf39df59a66 block: Rename BLK_STS_NEXUS to BLK_STS_RESV_CONFLICT
@@ -111,4 +111,4 @@ b636a0297e4fbb47a0a15b635c61fafbbe339b26 scsi: docs: g_NCR5380: Shorten chapter 
 7c891fe3db3a27c467efe33a98cd8479fe021b9b scsi: docs: ncr53c8xx: Shorten chapter heading
 f047d1e38bdfda2e9b9bf82ffa761711acacbd69 scsi: docs: sym53c8xx_2: Shorten chapter heading
 
---===============6538944155262598077==--
+--===============3609614385836880116==--
