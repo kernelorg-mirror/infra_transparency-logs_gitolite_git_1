@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4261918194807819700=="
+Content-Type: multipart/mixed; boundary="===============3181631705787443520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 22 May 2023 11:21:06 -0000
-Message-Id: <168475446640.1021.6233500820130229245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Mon, 22 May 2023 11:21:20 -0000
+Message-Id: <168475448079.1169.4958375779112717707@gitolite.kernel.org>
 
---===============4261918194807819700==
+--===============3181631705787443520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
   - ref: refs/heads/master
-    old: 197b6b60ae7bc51dd0814953c562833143b292aa
+    old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: 44c026a73be8038f03dbdeef028b642880cf1511
-    log: revlist-197b6b60ae7b-44c026a73be8.txt
+    log: revlist-1b929c02afd3-44c026a73be8.txt
 
---===============4261918194807819700==
+--===============3181631705787443520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-197b6b60ae7b-44c026a73be8.txt
+Content-Disposition: attachment; filename=revlist-1b929c02afd3-44c026a73be8.txt
 
 513f17f8d6b67563d977c730d50bc0db6ea6e1b0 Merge tag 'sh-for-v6.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 91ec4b0d11fe115581ce2835300558802ce55e6c Merge tag 'mips_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
@@ -1051,4 +1051,4 @@ a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kern
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
 
---===============4261918194807819700==--
+--===============3181631705787443520==--
