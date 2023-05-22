@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6869102374506199545=="
+Content-Type: multipart/mixed; boundary="===============5665152428086450083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 22 May 2023 11:21:29 -0000
-Message-Id: <168475448988.1349.17112638043510226679@gitolite.kernel.org>
+Date: Mon, 22 May 2023 11:21:37 -0000
+Message-Id: <168475449747.1478.4836617258353754980@gitolite.kernel.org>
 
---===============6869102374506199545==
+--===============5665152428086450083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 1b929c02afd37871d5afb9d498426f83432e71c2
     new: 44c026a73be8038f03dbdeef028b642880cf1511
     log: revlist-1b929c02afd3-44c026a73be8.txt
 
---===============6869102374506199545==
+--===============5665152428086450083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kern
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
 
---===============6869102374506199545==--
+--===============5665152428086450083==--
