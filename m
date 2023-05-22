@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8882750640814563974=="
+Content-Type: multipart/mixed; boundary="===============5215747362419093491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 May 2023 14:59:38 -0000
-Message-Id: <168476757866.18980.4959495440661023627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 May 2023 14:59:44 -0000
+Message-Id: <168476758497.19112.18027402835286609164@gitolite.kernel.org>
 
---===============8882750640814563974==
+--===============5215747362419093491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/asoc-6.4
     old: e123036be377ddf628226a7c6d4f9af5efd113d3
     new: 240ca9553fcd8da6851dc6b449996c21344b9b66
     log: |
@@ -30,37 +30,37 @@ changes:
          3a2e3fa795052b42da013931bc2e451bcecf4f0c ASoC: dt-bindings: tlv320aic32x4: Fix supply names
          240ca9553fcd8da6851dc6b449996c21344b9b66 ASoC: Intel: Fixes
          
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 83b3432fc5b7128f9904a13b5d5c539c68b57447
     new: 97e6d8cb57c1ac529233fb831eb2b80d516b3bc5
     log: revlist-83b3432fc5b7-97e6d8cb57c1.txt
 
---===============8882750640814563974==
+--===============5215747362419093491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1684767576 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1684767576-4ffbc579101f73ebf14c3f6bc3e573134d936a4e
+pusher C3F436CA30F5D8EB 1684767583 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684767582-cf318ae10fc0167ec8fb40b0697db38154cb1ac2
 
-e123036be377ddf628226a7c6d4f9af5efd113d3 240ca9553fcd8da6851dc6b449996c21344b9b66 refs/heads/for-6.4
-83b3432fc5b7128f9904a13b5d5c539c68b57447 97e6d8cb57c1ac529233fb831eb2b80d516b3bc5 refs/heads/for-6.5
+e123036be377ddf628226a7c6d4f9af5efd113d3 240ca9553fcd8da6851dc6b449996c21344b9b66 refs/heads/asoc-6.4
+83b3432fc5b7128f9904a13b5d5c539c68b57447 97e6d8cb57c1ac529233fb831eb2b80d516b3bc5 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRrg1gACgkQJNaLcl1U
-h9DH7Af+NVp1DJhVI4zLw47tSIhIdLPZDbaa77ogpYVHMzsvkels40QW/VwuRzF3
-GaH8ShCWjwIQAyM4wrvkYbRGv+YvnMynksGFJNShNspejcMVff8iI4f2AqhSqw0e
-kwr/ylJmqAsnID4w3rn7WRvNF2dWRnyy55QH3nvsQy02uJ/NA5yekanEYB/6vdxK
-mk8A7ls7HMput52nvvHqjh8rpM8JzQuaZHfssSS06NoVBiKW7OljAHeDGb7eF1Sc
-EKZW8iWBsxNIbff5f7cfolSS+76IfYVQuO7mlFaJ7hM8cakwRMz7hLtl3VPNfz5V
-LtbZEqE7jPiyKnwVT0udyNShpxJaQA==
-=ZJcO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRrg18ACgkQJNaLcl1U
+h9A1Twf+JP9t+Pihv5QUro/Vy6v9xw6Q5T509a/NKnJNbruUO2oVFZxTQ+uvGksx
+7ssKkftz4rX5lk9sN8LawvKtlCMfQezT4jldPYLMkk6qkCqlCSqzaU6fFXgvIjqE
+KFrawYOaOGZMjUitdK8v/7JjCJRWhJ2t0TZZDecBfPCbKEqDZ8m+Dia+ZKFK1phf
+fyJuePqIKYuZ219277OHeyrTeE3SWP0dfNs3OQfDC7qC4KgzrU9dH8Il+UXlRo8V
+sT86XgU+gorHEc40ZwHZDAVwzoa4xoGOx0QGJlHITDQeirfy9K2+KUFrqfONOcK6
+3ojZS/BWvuYYsffNbWdOG70NzS8MVA==
+=FXYC
 -----END PGP SIGNATURE-----
 
---===============8882750640814563974==
+--===============5215747362419093491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ f364eb563164f52dcc42ea265a66510c6f15f829 ASoC: rt5659: Use the devm_clk_get_opti
 17cf9faeba463d24e7c497ff8137a8c8414644dc ASoC: rt5682s: Use the devm_clk_get_optional() helper
 97e6d8cb57c1ac529233fb831eb2b80d516b3bc5 ASoC: SOF: ipc4: Querry CPC value from firmware's
 
---===============8882750640814563974==--
+--===============5215747362419093491==--
