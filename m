@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6986451851643822405=="
+Content-Type: multipart/mixed; boundary="===============0995921613747539590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 22 May 2023 01:34:52 -0000
-Message-Id: <168471929294.13547.18089035426313056281@gitolite.kernel.org>
+Date: Mon, 22 May 2023 01:35:03 -0000
+Message-Id: <168471930316.13895.11252047500588188770@gitolite.kernel.org>
 
---===============6986451851643822405==
+--===============0995921613747539590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 85e298e2e36ce5a166e3a1bc0ec1c968d2757c2f
     new: b230235b386589d8f0d631b1c77a95ca79bb0732
     log: revlist-85e298e2e36c-b230235b3865.txt
 
---===============6986451851643822405==
+--===============0995921613747539590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ac263349b91bf34b7c8419f5645c84b4f88de846 modpost: rename find_elf_symbol() and f
 e1b37563caffc410bb4b55f153ccb14dede66815 scripts/tags.sh: Resolve gtags empty index generation
 b230235b386589d8f0d631b1c77a95ca79bb0732 docs: Set minimal gtags / GNU GLOBAL version to 6.6.5
 
---===============6986451851643822405==--
+--===============0995921613747539590==--
