@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3500461627100492331=="
+Content-Type: multipart/mixed; boundary="===============8874445168770137523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 22 May 2023 22:44:36 -0000
-Message-Id: <168479547695.13420.2072459206819459867@gitolite.kernel.org>
+Date: Mon, 22 May 2023 22:44:42 -0000
+Message-Id: <168479548202.13532.299232467892814288@gitolite.kernel.org>
 
---===============3500461627100492331==
+--===============8874445168770137523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 127503cb71fc8ca4e3ad750f39b6e2fa2e2729d0
-    new: fa8be9715c0046344a54966e42639118b708e38a
-    log: revlist-127503cb71fc-fa8be9715c00.txt
+  - ref: refs/heads/6.5/scsi-queue
+    old: 44ef1604ae9492a7d9238ea79aa0cc7b4c4de860
+    new: 16853cd8f6d44d774f683d670be38c7d91eb32b8
+    log: revlist-44ef1604ae94-16853cd8f6d4.txt
 
---===============3500461627100492331==
+--===============8874445168770137523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1684795468 -0400
+pusher 75C5DE3D 1684795480 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1684795467-2a7a3495ba6e49cb6666b34f07611e41406fb4ef
+nonce 1684795480-204cfb8d5e7aa981ba4f4d7b20f9f89ea89d0581
 
-127503cb71fc8ca4e3ad750f39b6e2fa2e2729d0 fa8be9715c0046344a54966e42639118b708e38a refs/tags/mkp-scsi-queue
+44ef1604ae9492a7d9238ea79aa0cc7b4c4de860 16853cd8f6d44d774f683d670be38c7d91eb32b8 refs/heads/6.5/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRr8EwACgkQ7ulgGnXF
-3j2pag//a17HC5nLNdL+rxK5nJs7nR583ONIJiFRVGrn8J/abU/On82Zhc0w1Us1
-zVgNDwgXPXaxTiobKe78FcPquZzuG+HLYCJum6T1PGdrrweyAxp71q9BDYwgCKss
-F7PDsnNEbNKCg+LlB6hBElBzRuGSwrSmRNNGdd2/Yjg+3u3a7NFhfEhdnvR9qQvG
-izpb2h+NSS1GAMbTbmPevdz6MLubxHJvFEHhUUs5coBRZpX3blCm3UedrPufn/vO
-BoPjiU2+GxxBcfO/DKE0eTxJTUHSbOUzVxjZSssp8EnITvHdnNZCBm5dK3z+DxBN
-WRguTZN+X1L4Fy1nMw+cQn/rLpjYXBXtfs6/ZDLjSBQzRPNpa2GXlFb1zK3dQm8Q
-iGqyIFjO3kEyyH85naF0hUbldTYRVyJK7exmSt+NsR4AO9Z2Jd8f+zdlLfldCjYE
-tPigdy6F7eD/cplWOm4qnRYRv+U83qiwu9WhCYq3ibWr40H2ZdsF5+iv8dp1QX8H
-HQZqDG8W/WS3I13D1nd/YHhDxOeLwGTCZRTCyViW2/iHTSobHXUOdhsxapOxD7Lp
-ccqmJZLpRx8rp8iRctqcxFgLONG3EAyUBh36gvcIC8Nvl0vc3I3gz/cQJcKSQplb
-hpymZu3xVdj+5fE0oHloJ8qMhofonzUWGeF++GkAvDYs17Z5qJY=
-=gg6D
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmRr8FgACgkQ7ulgGnXF
+3j17UQ/+LgiuNJCuXe01pXKP9UAya/sTqFHoeCTNqYW1JasCA2NZkUq4utOw5XJJ
+/QEro1F06t1rJcHitQEjfbQpOaxOcyqwfHUnIRK+oNO0ZO7rcTlvXCqAqyMxCV9q
+XVWqP2ylTZNRG/Kgy/WSyTEnGEFus0jqJjwv+oH6Xw3U/ayrGvjms0/9SrIu7xXd
+bBDM/YjMK9FfoUIy/gFJMhuPg+uFhoRJ6+IERc5d6tXAPVB40K7LWn+VRI+oSR9f
+xqtlVjKQM7/sm6SGYb9dpFjqwolNQRuErJcMrXjKF6lQdvbkHWsYOrCV3vEINTG+
+cm+ZbzbUcMW3DW/k4RkWHGKGkCXirxCRWCnVFvFur6/G0Sr14bvG1NVqdNdyInSp
+viesF833wRSfT6U45v8XtEZjD7ZrkmWXa29TxZ/Aka/8n3ogI3a60i6bjsDTs+cb
+sTwX7h5Rgl+U8gypo9RD/bLw97ZN3B2QoItTxVS8dEiYz6r2SoncthQwI6N9dPOo
+1iz6tViA22TJxH9qbONRLdZtuWHxljrszLyaEPPy2j06doMMrfwxX/DXo/H3v/yT
+jOUM+wmg7ouvfrEUEIRBTUPTEDXPC/xjlGu6JmsxYEzq2NdUHKDhetOUuVnlnuSc
+BnjRuEtX+KjdaOexeK8GcWJ5yZCbd9wRxZDbSDs2LGhvSRy/Hbc=
+=kM7J
 -----END PGP SIGNATURE-----
 
---===============3500461627100492331==
+--===============8874445168770137523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-127503cb71fc-fa8be9715c00.txt
+Content-Disposition: attachment; filename=revlist-44ef1604ae94-16853cd8f6d4.txt
 
 7e79881d92e8d52c45992ed4d669985c167fa0ad scsi: ufs: hwmon: Constify pointers to hwmon_channel_info
 aa67380056a43277da11a5550669f5a80057ce2d scsi: megaraid_sas: Convert union megasas_sgl to flex-arrays
@@ -71,4 +71,4 @@ c0328cc595124579328462fc45d7a29a084cf357 scsi: hisi_sas: Fix warnings detected b
 7a94a131aa109e146067b90b29e9ba47c0a72a49 scsi: dc395x: Documentation: Replace non-functional twibble.org list
 16853cd8f6d44d774f683d670be38c7d91eb32b8 scsi: dc395x: Documentation: Reword original driver attribution
 
---===============3500461627100492331==--
+--===============8874445168770137523==--
