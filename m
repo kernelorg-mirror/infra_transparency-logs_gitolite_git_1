@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5097490954772424714=="
+Content-Type: multipart/mixed; boundary="===============7813573504644586603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 22 May 2023 13:22:19 -0000
-Message-Id: <168476173971.18792.17634498072971178221@gitolite.kernel.org>
+Date: Mon, 22 May 2023 13:24:59 -0000
+Message-Id: <168476189979.19659.2756085654898562390@gitolite.kernel.org>
 
---===============5097490954772424714==
+--===============7813573504644586603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,41 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.5/prandom
-    old: 2aa99d9b7ef104688be110a601e86648bf3ad44d
-    new: ffe4dfe0baddaf61318bd275cacd64d4dbbbe724
-    log: revlist-2aa99d9b7ef1-ffe4dfe0badd.txt
+  - ref: refs/heads/for-next
+    old: ed4cdfbeb8735c36a2e31009866dfc2dfa26db3f
+    new: 3133f141259d7f6e0729db272f22724614472661
+    log: revlist-ed4cdfbeb873-3133f141259d.txt
 
---===============5097490954772424714==
+--===============7813573504644586603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1684761735 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1684761895 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1684761735-fa1447323ff8808af2316fd9cb413e6113b0a79a
+nonce 1684761895-dd766028204649a33b504be2d642d3ebc94e6268
 
-2aa99d9b7ef104688be110a601e86648bf3ad44d ffe4dfe0baddaf61318bd275cacd64d4dbbbe724 refs/heads/slab/for-6.5/prandom
+ed4cdfbeb8735c36a2e31009866dfc2dfa26db3f 3133f141259d7f6e0729db272f22724614472661 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmRrbIcACgkQu+CwddJF
-iJqwLAf8DXdFOE67zmfvMm9Fym7jDv2kDkbWqaO65ZNEb6QOjpB6RTSTMznFYdT1
-bpPsGWrDjhnV4ph1qxuPzIO82kPNormlZleFHkA1YBPaKs1KbufbWaRZiktKjnCj
-DaRpoqfVALhbN9zJ5vRDQqpJNkgWjf9fSlPZPvAu57Guph0V2YYMROR8S3ulOwIN
-HBuu8aHJsmysosAq7Opd8xjuTHjSn8ESMf83Ah7102R4uJpunlZCpMb9N9VfVXcS
-gDdP1D9qudP+1DAIzH3Kxz4XYLUOtYnvF3mcICnxRiYblERfDErzV4JJ2MNhvPos
-e4E6BkzPwLNIWjNct3INEMSVXBZZtA==
-=gWMY
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmRrbScACgkQu+CwddJF
+iJpCIQf+KUykLyrXP7lFTDBNLuDbzCrYWKkSBVbTUHieinV2EH87LSiBqFTiu5YV
+ZUbDOkkbESNp/gtC00brfLyUnHQ0wpPrsGu6NUoGiArx1H8NILCaNxgVQTcYZyDc
+I/ZxDWA5zeVShrpbUEawoioNHuQI5PHW8WY/tui8DnLFGnsDyCjx+kKQei2Ub/kS
+klnJyFv/Q1u3iFMh8PWTypyXVgWyOsVsGB2C9K42aI4QE7dpjyCvv8bLg80FHqjI
+ue3eqO7r9tNe32uhOR3lPFo0vRRXsZ+znVRjBapYKih5EW50G/AiVWA3TAMbQqL5
+6ZksVpdF8GsjQfoG25hhj1OYtnRdHQ==
+=w3Wj
 -----END PGP SIGNATURE-----
 
---===============5097490954772424714==
+--===============7813573504644586603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2aa99d9b7ef1-ffe4dfe0badd.txt
+Content-Disposition: attachment; filename=revlist-ed4cdfbeb873-3133f141259d.txt
 
-daf376a366fd2d469d66ab83dfdc074777462bab uapi nbd: improve doc links to userspace spec
-2686eb845da7762ee98b17e578b0c081aafb77b9 uapi nbd: add cookie alias to handle
-bd9e9916c32fd4b4fb4e879e05bd1568ee02ec93 block nbd: use req.cookie instead of req.handle
-952aa344bf4305ab6fa0d9962ef8c2caa2afef4c docs nbd: userspace NBD now favors github over sourceforge
-7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-33afd4b76393627477e878b3b195d606e585d816 Merge tag 'mm-nonmm-stable-2023-04-27-16-01' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-c7a639dac8e4d7e63450bef2f3a19fb331566fb1 rtc: jz4740: Make sure clock provider gets removed
 916890539bc8a5674d363a1fc985633200c2117a rtc: sunplus: use devm_platform_ioremap_resource_byname()
 e99ab4abebf825de2ce65f6c6c32ee30e00bb077 rtc: armada38x: use devm_platform_ioremap_resource_byname()
 d782188cbb05a196e46a4838484f020ceeb889ec i3c: dw: Add infrastructure for platform-specific implementations
@@ -1073,7 +1066,14 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
+444f20c29e8b41a5aef5c34e3eab84e8d1cc4511 mm/slab: correct return values in comment for _kmem_cache_create()
+35973232b5cddd8b03dac2730cd1ca53137d1cd4 slub: Correct the error code when slab_kset is NULL
+81bd31793fd3be4fec2818e2267997f56ac18fb2 slub: Put objects_show() into CONFIG_SLUB_DEBUG enabled block
+c6c17c4dc36684fe119a1d40eb41ea65677bdfae slub: Remove CONFIG_SMP defined check
+4f174a8bacebf57ffa18be0439b9ed7ee6d00c70 slub: Remove slabs_node() function
+8040cbf5e1da2fe86558239b92927a947c79ecd6 slub: Don't read nr_slabs and total_objects directly
 f7e466e951a15bc7cec496f22f6276b854d3c310 mm/slab: Replace invocation of weak PRNG
 ffe4dfe0baddaf61318bd275cacd64d4dbbbe724 mm/slab_common: Replace invocation of weak PRNG
+3133f141259d7f6e0729db272f22724614472661 Merge branch 'slab/for-6.5/prandom' into slab/for-next
 
---===============5097490954772424714==--
+--===============7813573504644586603==--
