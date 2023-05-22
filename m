@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 22 May 2023 08:00:01 -0000
-Message-Id: <168474240104.10564.8824792422874212716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 22 May 2023 08:43:02 -0000
+Message-Id: <168474498227.6474.3523810400325258635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: 2cbf475a04b2ae3d722bbe41742e5d874a027fc3
-    new: 4b9abbc132b86e2ce65090798186836f48f33382
+  - ref: refs/heads/master
+    old: 7bb69cbd292fba8ba808b66750b3c51c1686a718
+    new: 0a51d62f060dbc1b036dfd45e52d4d90f0ce3eeb
     log: |
-         4b9abbc132b86e2ce65090798186836f48f33382 platform/chrome: cros_ec_lpc: Move host command to prepare/complete
+         0a51d62f060dbc1b036dfd45e52d4d90f0ce3eeb bindings: cxx: shrink the doxygen conditional section
          
