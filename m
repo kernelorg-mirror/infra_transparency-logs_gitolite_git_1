@@ -1,32 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5503991319676832226=="
+Content-Type: multipart/mixed; boundary="===============9205216012950780489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-Date: Mon, 22 May 2023 10:07:16 -0000
-Message-Id: <168475003603.13317.13871943719988957363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 22 May 2023 10:08:05 -0000
+Message-Id: <168475008556.13631.925160842627473630@gitolite.kernel.org>
 
---===============5503991319676832226==
+--===============9205216012950780489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
   - ref: refs/heads/for-next
-    old: a68dabd45f3591456ecf7e35f6a6077db79f6bc6
+    old: 5fda1858ae6c1fd85f4cd87b7beff4588b39fdea
     new: f499ee5cf0aa520ed7489249e2e465587ae19c59
-    log: revlist-a68dabd45f35-f499ee5cf0aa.txt
+    log: |
+         f499ee5cf0aa520ed7489249e2e465587ae19c59 xfsprogs: Release v6.3.0
+         
+  - ref: refs/heads/master
+    old: a61d6360dd9a440a7d77d911d44eafd328eaa169
+    new: f499ee5cf0aa520ed7489249e2e465587ae19c59
+    log: revlist-a61d6360dd9a-f499ee5cf0aa.txt
+  - ref: refs/tags/origin/for-next_2023-03-01
+    old: 0000000000000000000000000000000000000000
+    new: 095da115b6fcaad177ee3f06964e7e705227e6d7
+  - ref: refs/tags/origin/for-next_2023-03-14
+    old: 0000000000000000000000000000000000000000
+    new: 7ecc7612f13855b35679ef412e078cea9e5238a1
+  - ref: refs/tags/v6.3.0
+    old: 0000000000000000000000000000000000000000
+    new: 90ce164983f0b8e344e14cc25e3797542a93bf69
 
---===============5503991319676832226==
+--===============9205216012950780489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a68dabd45f35-f499ee5cf0aa.txt
+Content-Disposition: attachment; filename=revlist-a61d6360dd9a-f499ee5cf0aa.txt
 
-a61d6360dd9a440a7d77d911d44eafd328eaa169 xfsprogs: Release v6.2.0
 d8a19f2986c0f65c5ed02110192f3fd5f86e2b32 libfrog: move crc32c selftest buffer into a separate file
 b9d29568e40dbead8484a4dba2089ff54df7caaf misc: test the dir/attr hash before formatting or repairing fs
 364cc95468f737725b90a91bf11b8e0452aa0122 xfsprogs: nrext64 option should be in [inode] section of mkfs conf files
@@ -79,4 +93,4 @@ ffb1fbc8e7be313d384e1f1286acf7aa664b51a8 mkfs: warning about misaligned AGs and 
 5fda1858ae6c1fd85f4cd87b7beff4588b39fdea xfs_repair: dont leak buffer when discarding directories
 f499ee5cf0aa520ed7489249e2e465587ae19c59 xfsprogs: Release v6.3.0
 
---===============5503991319676832226==--
+--===============9205216012950780489==--
