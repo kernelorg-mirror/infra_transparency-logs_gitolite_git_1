@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 23 May 2023 08:55:20 -0000
-Message-Id: <168483212049.5049.10340879298189276563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Tue, 23 May 2023 08:56:24 -0000
+Message-Id: <168483218412.5421.9199830660227637791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/vfs.unstable.inode-hash
-    old: eb55e88a20f8e7918ab69f6533d00b9ca78dd7b2
-    new: 1a574aadb23fb6698423cf62e2053faf08cc7bba
+  - ref: refs/heads/mips-next
+    old: 44c026a73be8038f03dbdeef028b642880cf1511
+    new: c5e4d83872ae2900aa142b0505eeb2a5026173a7
     log: |
-         1a574aadb23fb6698423cf62e2053faf08cc7bba vfs: inode cache conversion to hash-bl
+         745b7908ecdbec3a3077cd770264c59cdc0efdfd mips: dts: ingenic: Remove unnecessary AIC clocks
+         1004be040f46790271516a1e1560014f97cc3ebd MIPS: Loongson32: Remove reset.c
+         c5e4d83872ae2900aa142b0505eeb2a5026173a7 mips: dts: ingenic: x1000: Add AIC device tree node
          
