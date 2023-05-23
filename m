@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 23 May 2023 14:24:15 -0000
-Message-Id: <168485185577.11394.8103202465438543565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Tue, 23 May 2023 14:24:19 -0000
+Message-Id: <168485185904.11476.12810982740936793268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: ggreenman
 changes:
-  - ref: refs/heads/master
-    old: 18f558876ff0361e8ceb537cdf6fec8936ff6f72
-    new: 6cc385d2cdb410fd7a774100bf865ae2da9c709b
-    log: |
-         6cc385d2cdb410fd7a774100bf865ae2da9c709b selftests/bpf: Add xdp_feature selftest for bond device
-         
+  - ref: refs/heads/release/core78
+    old: 0000000000000000000000000000000000000000
+    new: 5652cead5cd92b5c9ce898a93ede552b5bd8c7f1
