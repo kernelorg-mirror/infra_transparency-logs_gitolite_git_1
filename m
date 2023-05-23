@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1886928027674648629=="
+Content-Type: multipart/mixed; boundary="===============3566235012327510802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 23 May 2023 08:44:15 -0000
-Message-Id: <168483145525.27652.7811824071044879146@gitolite.kernel.org>
+Date: Tue, 23 May 2023 08:44:26 -0000
+Message-Id: <168483146662.27785.6409681444386714089@gitolite.kernel.org>
 
---===============1886928027674648629==
+--===============3566235012327510802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
+  - ref: refs/heads/mips-next
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 44c026a73be8038f03dbdeef028b642880cf1511
     log: revlist-ac9a78681b92-44c026a73be8.txt
 
---===============1886928027674648629==
+--===============3566235012327510802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -644,4 +644,4 @@ a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kern
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
 
---===============1886928027674648629==--
+--===============3566235012327510802==--
