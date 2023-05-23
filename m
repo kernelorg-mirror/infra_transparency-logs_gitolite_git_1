@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 23 May 2023 13:09:08 -0000
-Message-Id: <168484734887.24754.3662400621266400459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 23 May 2023 13:10:06 -0000
+Message-Id: <168484740608.26668.18205730215363534581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-6.4/upstream-fixes
-    old: d9eef346b601afb0bd74b49e0db06f6a5cebd030
-    new: bd249b91977b768ea02bf84d04625d2690ad2b98
-    log: |
-         bd249b91977b768ea02bf84d04625d2690ad2b98 HID: wacom: avoid integer overflow in wacom_intuos_inout()
-         
-  - ref: refs/heads/for-next
-    old: f3735c77952ba7ab20343c286ed4154d2a6a03c8
-    new: ad7844d92f770594a59d5ccc2c2171f8c8c3afa0
-    log: |
-         bd249b91977b768ea02bf84d04625d2690ad2b98 HID: wacom: avoid integer overflow in wacom_intuos_inout()
-         ad7844d92f770594a59d5ccc2c2171f8c8c3afa0 Merge branch 'for-6.4/upstream-fixes' into for-next
-         
+  - ref: refs/heads/20230523_peter_ujfalusi_asoc_sof_intel_mtl_enable_multicore_support
+    old: 0000000000000000000000000000000000000000
+    new: 1b167ba8a20152041d3af0c0cbbfd710f1e93e4b
+  - ref: refs/heads/fileEnLA5U
+    old: 0000000000000000000000000000000000000000
+    new: f9d790c578d4e0f715213cc7f2f6f2b0d2d91988
+  - ref: refs/heads/fileQEUW7z
+    old: 0000000000000000000000000000000000000000
+    new: b6e4686ca8c3932ed0eee66c016c05c870e44f5d
+  - ref: refs/heads/v2_20230517_claudiu_beznea_asoc_do_not_include_runtime_pm_h_if_not_needed
+    old: 0000000000000000000000000000000000000000
+    new: a9392efae9f5de42673cfc1b81ac6fb88bdb26b2
