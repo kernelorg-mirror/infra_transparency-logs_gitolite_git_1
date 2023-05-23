@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 23 May 2023 14:57:13 -0000
-Message-Id: <168485383358.2420.10869876086241868426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 May 2023 14:58:10 -0000
+Message-Id: <168485389065.2796.7068555072411330417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/arm64-sysreg-gen
-    old: 3c0dac3022bebc86984b9cd714ec40c715d790cf
-    new: 169b82f46ffc8ec5eb1c07f8d931b2975f30be77
+  - ref: refs/heads/master
+    old: f46392ee3dec24066e5fb260d9bd497b4cd4d191
+    new: e7d85427ef898afe66c4c1b7e06e5659cec6b640
     log: |
-         6c5a4dd341bfeec9798dde50fb7123495c1e3f09 arm64/sysreg: Convert OSDTRRX_EL1 to automatic generation
-         196c542c97914f953cfb835e220522cc1b25e158 arm64/sysreg: Convert OSDTRTX_EL1 to automatic generation
-         169b82f46ffc8ec5eb1c07f8d931b2975f30be77 arm64/sysreg: Convert OSECCR_EL1 to automatic generation
+         e7d85427ef898afe66c4c1b7e06e5659cec6b640 bpf: Validate BPF object in BPF_OBJ_PIN before calling LSM
          
