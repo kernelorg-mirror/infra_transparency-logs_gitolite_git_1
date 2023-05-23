@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8515315913843718387=="
+Content-Type: multipart/mixed; boundary="===============4208907352131710513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 23 May 2023 23:50:37 -0000
-Message-Id: <168488583710.15339.12574663335576328226@gitolite.kernel.org>
+Date: Tue, 23 May 2023 23:50:57 -0000
+Message-Id: <168488585792.15580.15877642606137332585@gitolite.kernel.org>
 
---===============8515315913843718387==
+--===============4208907352131710513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: d46f47575cf97d397fbe8a6150353f41d2917936
     new: 95a9359ee22ff2efbad6b090fcfa3a97f5902f95
     log: revlist-d46f47575cf9-95a9359ee22f.txt
 
---===============8515315913843718387==
+--===============4208907352131710513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -296,4 +296,4 @@ cf7f2732b4b83026842832e7e4e04bf862108ac2 erofs: use HIPRI by default if per-cpu 
 27e462c8fad4bf04ec4f81f8539ce6fa947ead3a Merge tag 'xtensa-20230523' of https://github.com/jcmvbkbc/linux-xtensa
 95a9359ee22ff2efbad6b090fcfa3a97f5902f95 tpm: tpm_tis: Disable interrupts for AEON UPX-i11
 
---===============8515315913843718387==--
+--===============4208907352131710513==--
