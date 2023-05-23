@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 23 May 2023 18:54:08 -0000
-Message-Id: <168486804823.2143.12624337233460252353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 23 May 2023 19:08:40 -0000
+Message-Id: <168486892078.11208.12388535913762609693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 0434b3daceb5d94dc8a02cee0be75d84be6a2fda
-    new: 6889c6c01b0715a0aea5bbecc04452174d523ec2
+  - ref: refs/heads/rcu/next
+    old: 39fe473377930300701e08de9280ac1382481451
+    new: 60901dadfadcc152ae5cad7ebae802272497a812
     log: |
-         6889c6c01b0715a0aea5bbecc04452174d523ec2 Tue May 23 06:53:09 PM UTC 2023
+         60901dadfadcc152ae5cad7ebae802272497a812 rcuscale: Measure grace-period kthread CPU time
          
