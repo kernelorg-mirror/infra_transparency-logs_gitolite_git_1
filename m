@@ -1,44 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1693541666636273071=="
+Content-Type: multipart/mixed; boundary="===============6501759021145443252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 23 May 2023 09:21:12 -0000
-Message-Id: <168483367299.22494.9182603048540092506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 23 May 2023 09:30:22 -0000
+Message-Id: <168483422270.28401.14351139168898393065@gitolite.kernel.org>
 
---===============1693541666636273071==
+--===============6501759021145443252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/vfs.all
-    old: 43aad11d9c62dbfb13c86e71e15badb77cf071ea
-    new: c5cb20eb13f54ce31f01b115d44352d36a66803c
-    log: revlist-43aad11d9c62-c5cb20eb13f5.txt
+  - ref: refs/heads/rcu/next
+    old: 812195e4f70ef0e9fc68127355c553c537749546
+    new: 39fe473377930300701e08de9280ac1382481451
+    log: revlist-812195e4f70e-39fe47337793.txt
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
 
---===============1693541666636273071==
+--===============6501759021145443252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43aad11d9c62-c5cb20eb13f5.txt
+Content-Disposition: attachment; filename=revlist-812195e4f70e-39fe47337793.txt
 
-8fb690f6de31b2a3e9c8cc05e466d54fcb2c04cc fs: pass the request_mask to generic_fillattr
-bf7e61c6d117e4e0782ef3f437606e3628e332c3 fs: add infrastructure for multigrain inode i_m/ctime
-8c021c9d90f93ea1113863d818d56f5e1763a900 overlayfs: allow it to handle multigrain timestamps
-1a6f4cbffdf50e4527d9f9f71b923ff0a277f5f3 nfsd: ensure we use ctime_peek to grab the inode->i_ctime
-b92ec1f229a10f635ca17541be4f920a78080c33 ksmbd: use ctime_peek to grab the ctime out of the inode
-2d8b3d1b100779a2d721b8224b0b8a11a8088e28 tmpfs: add support for multigrain timestamps
-ab7ac9a7cd2ceb6a82b17f4ffd791c12995a2743 xfs: switch to multigrain timestamps
-93fe690b927615a8dcebf64f52eb5a16214ae2d2 ext4: convert to multigrain timestamps
-867ecee7e40ec6e1d722881777b76d6ecb29940f btrfs: convert to multigrain timestamps
-24ce8ccf15afeb052537e8f3316bf6896291dd42 Merge branch 'vfs.misc.fixes' into vfs.all
-62b5b264b6367e28db50f7a091b8ea8e5d88199a Merge branch 'v6.5/vfs.mount' into vfs.all
-00f56e9f7984fa05e8e52fa44c384b3df862b4dc Merge branch 'fs.ntfs' into vfs.all
-c2b4677482802d7cf72a598afb9082cd6ec2f285 Merge branch 'vfs.unstable.ctime' into vfs.all
-c5cb20eb13f54ce31f01b115d44352d36a66803c Merge branch 'vfs.unstable.inode-hash' into vfs.all
+9bd190783a2179f15605424ee2528d2b1fef38c8 rcu: Remove formal-verification tests
+2de6a0135a3483096b231e0af79f5895e23b6e11 rcutorture: Dump grace-period state upon rtort_pipe_count incidents
+947cc1c9eab07b1134582890695572e9b6e6d840 rcu: Update synchronize_rcu_mult() comment for call_rcu_hurry()
+2e46dea4115b736648c953b94008de3b0dc8a2c7 torture: Scale scftorture memory based on number of CPUs
+6708ef51396a1521e61d7601996b7b067ea8e32f scftorture: Forgive memory-allocation failure if KASAN
+cf0b096c6100c474c49bcbaaa3f914f1bd51e87e scftorture: Pause testing after memory-allocation failure
+86cbe9e76cda36d9348527cf2853c20468bfef0f rcuscale: Permit blocking delays between writers
+ab95275d6ea2113cf8d9011ca5d4c086a2b370c0 rcuscale: Fix gp_async_max typo: s/reader/writer/
+1a97e1f6141f896295f84d873ceff300a12f0693 rcuscale: Add minruntime module parameter
+d9e8d4272c02fc73ac948e7637375846efc1b631 rcuscale: Print out full set of module parameters
+39fe473377930300701e08de9280ac1382481451 rcuscale: Print out full set of kfree_rcu parameters
 
---===============1693541666636273071==--
+--===============6501759021145443252==--
