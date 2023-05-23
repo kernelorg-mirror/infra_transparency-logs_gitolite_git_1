@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 23 May 2023 04:46:24 -0000
-Message-Id: <168481718403.1028.4967083472598390933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Tue, 23 May 2023 05:05:04 -0000
+Message-Id: <168481830437.14566.6486138443490919498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/dev-test
-    old: 78c9eefae12b934b86477cda6d40c94c8e791997
-    new: 64507597133433ab2c3baec37935c746c4029703
+  - ref: refs/heads/at91-dt
+    old: 23b76ba20e8737aca29e91af5b47a16b15fb1999
+    new: 1ebc72ceef2613ba39eaad6caa723a4ff0a04473
     log: |
-         64507597133433ab2c3baec37935c746c4029703 erofs: use HIPRI by default if per-cpu kthreads are enabled
-         
-  - ref: refs/heads/fixes
-    old: 78c9eefae12b934b86477cda6d40c94c8e791997
-    new: 64507597133433ab2c3baec37935c746c4029703
-    log: |
-         64507597133433ab2c3baec37935c746c4029703 erofs: use HIPRI by default if per-cpu kthreads are enabled
+         1ebc72ceef2613ba39eaad6caa723a4ff0a04473 ARM: dts: at91: Return to boolean properties
          
