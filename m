@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6061383017810239126=="
+Content-Type: multipart/mixed; boundary="===============8364703200039100921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 23 May 2023 22:38:34 -0000
-Message-Id: <168488151453.30606.9219754837854869474@gitolite.kernel.org>
+Date: Tue, 23 May 2023 22:39:06 -0000
+Message-Id: <168488154605.30858.6270803501391961918@gitolite.kernel.org>
 
---===============6061383017810239126==
+--===============8364703200039100921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 4958db3245fa655bf18251bd2a83bcc164071c39
+  - ref: refs/heads/next-integrity
+    old: 644f17412f5acf01a19af9d04a921937a2bc86c6
     new: db1d1e8b9867aae5c3e61ad7859abfcc4a6fd6c7
-    log: revlist-4958db3245fa-db1d1e8b9867.txt
+    log: revlist-644f17412f5a-db1d1e8b9867.txt
 
---===============6061383017810239126==
+--===============8364703200039100921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4958db3245fa-db1d1e8b9867.txt
+Content-Disposition: attachment; filename=revlist-644f17412f5a-db1d1e8b9867.txt
 
 73b41dc51fbeffa4a216b20193274cfe92b5d95b media: ov5670: Fix probe on ACPI
 d325c34d9e7e38d371c0a299d415e9b07f66a1fb net: amd: Fix link leak when verifying config failed
@@ -1051,4 +1051,4 @@ ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of
 f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
 db1d1e8b9867aae5c3e61ad7859abfcc4a6fd6c7 IMA: use vfs_getattr_nosec to get the i_version
 
---===============6061383017810239126==--
+--===============8364703200039100921==--
