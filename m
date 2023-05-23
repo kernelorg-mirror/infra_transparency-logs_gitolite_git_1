@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Tue, 23 May 2023 22:40:01 -0000
-Message-Id: <168488160147.31243.226803115361793159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 23 May 2023 23:05:52 -0000
+Message-Id: <168488315249.17492.5156827093294485616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/v5.10-rt-next
-    old: be7da03d2f7504cf039b9cc5d97489240bb703b3
-    new: efdf1364ed3764cb13c0971c6e04136804ff721b
+  - ref: refs/heads/next
+    old: 2d1bcbc6cd703e64caf8df314e3669b4786e008a
+    new: d46f47575cf97d397fbe8a6150353f41d2917936
     log: |
-         c14d0593588daa7d53f66bf1e787f982daf8cc98 rt: printk: create bogus deferred print functions
-         efdf1364ed3764cb13c0971c6e04136804ff721b Linux 5.10.180-rt88
+         d46f47575cf97d397fbe8a6150353f41d2917936 tpm: tpm_tis: Disable interrupts for AEON UPX-i11
          
