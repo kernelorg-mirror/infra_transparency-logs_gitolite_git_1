@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 23 May 2023 21:20:16 -0000
-Message-Id: <168487681629.9641.6903044785213504951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 23 May 2023 21:21:24 -0000
+Message-Id: <168487688412.11196.18425118388732337866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/testing/fam01-next20230523
-    old: 0000000000000000000000000000000000000000
-    new: c76bca89eff6de5e282b50a84636a4e46ea78e69
+  - ref: refs/heads/20230425_linux_spi_spi_imx_fix_use_of_more_than_four_chip_selects
+    old: 8ce1bb9a5935385e9ef65bda1e8ca923c7fbb887
+    new: 0000000000000000000000000000000000000000
