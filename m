@@ -1,45 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0119951030473496897=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 23 May 2023 14:41:01 -0000
-Message-Id: <168485286195.23236.13035838639290756399@gitolite.kernel.org>
-
---===============0119951030473496897==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 23 May 2023 14:43:00 -0000
+Message-Id: <168485298056.23921.15428233682932795253@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/dev
-    old: b9f7435bbe84128421072a69e31c5e874300497f
-    new: dc88d94709f4362bd855ccf6d516e15c98089b73
-    log: revlist-b9f7435bbe84-dc88d94709f4.txt
-  - ref: refs/heads/dev.2023.05.22a
-    old: 0000000000000000000000000000000000000000
-    new: a0980618a5d97c8211f8ca22a783d623796d3eb4
-
---===============0119951030473496897==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9f7435bbe84-dc88d94709f4.txt
-
-60901dadfadcc152ae5cad7ebae802272497a812 rcuscale: Measure grace-period kthread CPU time
-c49f1f88031c65bf7a7990ec8104df043083f41c Revert "rcu/kvfree: Eliminate k[v]free_rcu() single argument macro"
-e72e93cc9863c3190e3ecea95fc01760c2d949fb rcutorture: Test NMI diagnostics
-072c203b4f4b45b98a7f03fec452538d9450b476 EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-bc403210eeef16dbb40f202d4bad3866f32dd10b qspinlock: Diagnostics for excessive lock-drop wait loop time
-c3f0835473c855aa9d97735a4b093b1040839801 qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-42d010af41c6a0ac417b93a943cf7d18c2262cad x86/nmi: Add a set_nmi_torture() function to control NMI testing
-6c25c31106338c1d8292f0289c68f1ed676b9324 rcu: Clarify rcu_is_watching() kernel-doc comment
-d780d34571de4c0fcdf2842baee5bae4ce5d6b38 EXP qspinlock: debugging
-e47ee6059b4792971b14866f067626414b762b1b rcu-tasks: Treat only synchronous grace periods urgently
-7dfca391b718c72f5f1da9e9154233c8326d433d rcu-tasks: Remove redundant #ifdef CONFIG_TASKS_RCU
-dc88d94709f4362bd855ccf6d516e15c98089b73 rcu-tasks: Add kernel boot parameters for callback laziness
-
---===============0119951030473496897==--
+  - ref: refs/heads/mm/mremap-pmd-warning-4
+    old: 8ac39a28e86cfd8f7987e3e933fdf7a54f3481b8
+    new: 2acb744eb804f9e9f15088d7c652723415bd73fc
+    log: |
+         e5a84e2ceed8706859828c0dc93e239c8e166ec5 mm/mremap: Optimize the start addresses in move_page_tables()
+         b816ab88ba082431cb375b0ce0aaa8548cd095fb selftests: mm: Fix failure case when new remap region was not found
+         f1fa86d055bddad11736bcceda374be791ed30f9 selftests: mm: Add a test for mutually aligned moves > PMD size
+         8dd60dac95037779bdc74927d86c6fa931feb4d7 selftests: mm: Add a test for remapping to area immediately after existing mapping
+         5822446e80264d9eaeccbfdc6efe518496ce2f0b debug: prints in code and tests
+         173cdf0359e548b6c9e3b939598447123b56d672 Revert "debug: prints in code and tests"
+         2acb744eb804f9e9f15088d7c652723415bd73fc mm/mremap: Allow moves within the same VMA
+         
