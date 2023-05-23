@@ -1,24 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0291402255359055813=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 23 May 2023 19:49:47 -0000
-Message-Id: <168487138719.9900.6014224481264958252@gitolite.kernel.org>
-
---===============0291402255359055813==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 23 May 2023 19:49:58 -0000
+Message-Id: <168487139869.10075.1992097632219131579@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: f9d790c578d4e0f715213cc7f2f6f2b0d2d91988
-    new: ba674435e428168e01390c4e34bedc5ee9015834
+  - ref: refs/heads/for-next
+    old: b5aff43a21ef9b1023ee5565b4a1d042d3070196
+    new: 473a44b897563c9cf3513cc5652b4ff4c045f44e
     log: |
          2f3092e77f98fcfc0d653846591401bfe2a5232e ASoC: do not include pm_runtime.h if not used
          a9392efae9f5de42673cfc1b81ac6fb88bdb26b2 ASoC: use pm.h instead of runtime_pm.h
@@ -28,30 +23,5 @@ changes:
          ed67a3404a8806a57c0015ce97bd3e6d61e7aa22 ASoC: SOF: Intel: hda-dai: Fix locking in hda_ipc4_pre_trigger()
          a23b51b2c31c47036d0a9ae498094c428b1d8015 ASoC: SOF: Intel: mtl: Enable multicore support
          ba674435e428168e01390c4e34bedc5ee9015834 ASoC: do not include runtime_pm.h if not needed
+         473a44b897563c9cf3513cc5652b4ff4c045f44e Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
          
-
---===============0291402255359055813==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1684871385 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684871385-9b15233344657e72ec5efee3216ab1b37ce70b8d
-
-f9d790c578d4e0f715213cc7f2f6f2b0d2d91988 ba674435e428168e01390c4e34bedc5ee9015834 refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRtGNkACgkQJNaLcl1U
-h9Cnewf/YSjYzkhDEuB64ra9+6PLm/W9WzRjxGIrIJFeAEe3qYJrmp/szpLylbNt
-0k54icbCjG7TZr1A00KU6p8RIEyNrmOOmi/4xGhAzk/+8Y/HD1eUrUPjFBKTsDcP
-UIBHPebppSZiKlpXTHWdlwvhvyusGZapb1rXjtE3JkY3i8Lh51SDV/HoEvRWfkAC
-VYQaxsxWvVoLhVGVWtxxn4r0vvrZGfSIUg7s8sSTRirnJsb34LitpdhLIGJrsYWL
-bYNzWTcgA3kGAavBYMG5zwdemMQ8E5GbKihrTcVoCMT29930d5agpqoejGVgfGMi
-UTaV52YVZd7HigqU6zlAa/gXhVSLBA==
-=digD
------END PGP SIGNATURE-----
-
---===============0291402255359055813==--
