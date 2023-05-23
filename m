@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3614410388095748117=="
+Content-Type: multipart/mixed; boundary="===============0291402255359055813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 23 May 2023 19:49:40 -0000
-Message-Id: <168487138099.9791.15169364927287195000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 May 2023 19:49:47 -0000
+Message-Id: <168487138719.9900.6014224481264958252@gitolite.kernel.org>
 
---===============3614410388095748117==
+--===============0291402255359055813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: f9d790c578d4e0f715213cc7f2f6f2b0d2d91988
     new: ba674435e428168e01390c4e34bedc5ee9015834
     log: |
@@ -30,28 +30,28 @@ changes:
          ba674435e428168e01390c4e34bedc5ee9015834 ASoC: do not include runtime_pm.h if not needed
          
 
---===============3614410388095748117==
+--===============0291402255359055813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1684871379 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1684871378-87fabf764ba9bb0a896e747793a48a7553400825
+pusher C3F436CA30F5D8EB 1684871385 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684871385-9b15233344657e72ec5efee3216ab1b37ce70b8d
 
-f9d790c578d4e0f715213cc7f2f6f2b0d2d91988 ba674435e428168e01390c4e34bedc5ee9015834 refs/heads/for-6.5
+f9d790c578d4e0f715213cc7f2f6f2b0d2d91988 ba674435e428168e01390c4e34bedc5ee9015834 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRtGNMACgkQJNaLcl1U
-h9BM+gf9HhsPB7eM0wEujz2+9X5rg1ZrRgDy0pswVG6cunsIHxyKrFFsnwxcOwvo
-FhjnV7PPXE3hqK11gzgktXAwXeE0YKgQYDENsYnti6MIejmqMDvyXRYFOXA2xmRc
-42YXZDw4uGPjrA6IEQGczncbegWN2wCDHMuJyhq309bSE8PvjJHRWInadcs/lMRY
-9t8L8f+Fnc4goGJn8w5NVh0Fhs/ByMUKXKX+q9lwWgFtHo92UtAoJMBKSQbAd8fW
-8CaDsZRtYt8pBIu/v4XTnbVHee23ljz9RMbxUKwHRjKq5153pLUWwZ3Xs8yS0X9N
-+eykmkCXM6WlgXRCNtogbuBUbticeQ==
-=nbJe
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRtGNkACgkQJNaLcl1U
+h9Cnewf/YSjYzkhDEuB64ra9+6PLm/W9WzRjxGIrIJFeAEe3qYJrmp/szpLylbNt
+0k54icbCjG7TZr1A00KU6p8RIEyNrmOOmi/4xGhAzk/+8Y/HD1eUrUPjFBKTsDcP
+UIBHPebppSZiKlpXTHWdlwvhvyusGZapb1rXjtE3JkY3i8Lh51SDV/HoEvRWfkAC
+VYQaxsxWvVoLhVGVWtxxn4r0vvrZGfSIUg7s8sSTRirnJsb34LitpdhLIGJrsYWL
+bYNzWTcgA3kGAavBYMG5zwdemMQ8E5GbKihrTcVoCMT29930d5agpqoejGVgfGMi
+UTaV52YVZd7HigqU6zlAa/gXhVSLBA==
+=digD
 -----END PGP SIGNATURE-----
 
---===============3614410388095748117==--
+--===============0291402255359055813==--
