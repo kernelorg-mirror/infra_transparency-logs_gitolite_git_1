@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 23 May 2023 19:52:36 -0000
-Message-Id: <168487155603.13878.6063020065414742937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 23 May 2023 20:02:41 -0000
+Message-Id: <168487216164.22149.16496579230924360593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/fileWh30gO
+  - ref: refs/heads/rproc-nect
     old: 0000000000000000000000000000000000000000
-    new: d8b44d8df4d932db3d88b2e79c67ffbd2c72e4dd
+    new: 1ca04f21b204e99dd704146231adfb79ea2fb366
