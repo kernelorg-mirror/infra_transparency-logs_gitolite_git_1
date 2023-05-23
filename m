@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8069315474109675596=="
+Content-Type: multipart/mixed; boundary="===============0387038069257360385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 23 May 2023 14:27:52 -0000
-Message-Id: <168485207299.14351.17441198117523348140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 May 2023 14:27:59 -0000
+Message-Id: <168485207907.14490.1447227921089320971@gitolite.kernel.org>
 
---===============8069315474109675596==
+--===============0387038069257360385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 120e1aa2f2e60b55f9d20c2fe1c6144739e00dc4
     new: b6e4686ca8c3932ed0eee66c016c05c870e44f5d
     log: |
          b6e4686ca8c3932ed0eee66c016c05c870e44f5d spi: spi-cadence: Add missing kernel doc for clk_rate in cdns_spi
          
 
---===============8069315474109675596==
+--===============0387038069257360385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1684852071 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1684852071-fbb1d2b4a7175e0fc8bb3d0f193ab0acb6eeb4ef
+pusher C3F436CA30F5D8EB 1684852077 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684852077-0cc4945abad13e92f1424a7d658c1bb7838070a3
 
-120e1aa2f2e60b55f9d20c2fe1c6144739e00dc4 b6e4686ca8c3932ed0eee66c016c05c870e44f5d refs/heads/for-6.5
+120e1aa2f2e60b55f9d20c2fe1c6144739e00dc4 b6e4686ca8c3932ed0eee66c016c05c870e44f5d refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRszWcACgkQJNaLcl1U
-h9DySQf/e51EAoDVTf2MQLC5P66SgEk2H+EMlKUq2Vt2Gp+I0Pd6ssKiQTgSwcNU
-4nH5Mp7aBhIQ1kLhmCUkJQLpN+Lx0Oi4qfznGsIcjAu7CgJB12G+S5qGl/Y/f5xv
-SuSdnaQJZHdgGHyviVDo6UT8ZkKZc4KjjJLEYTqu9TSGDWufd675AGqnwdlbTvrn
-O4JZpYnCsVZJp35FfuC9OJKJQLPDHgrBYtVoJT33VkxFYTtuwbaauIhQaFEUHDRI
-COBodD0w6YiEK9YrYmlk46tp6Ve/4ZJFKkQh+M/dM/+CfglOraKiUsFOJaeqscTP
-lf7Pajxdu64hAL+0fdaP8DjwRl3irg==
-=W9h8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRszW0ACgkQJNaLcl1U
+h9CuJgf/TuOvr0hDcdsD1nIoB47NtauHzmCO/9A3hFqjSEG9W2qYXfGuO6+0UYQd
+4YKE2UTzJu7C/WmtqeSMbe4+0COSFv1uWBhfxQJkGHDThF0O8jJ1qeaB0WEzwa/l
+fJJrF+gr5boq1RKxBh4x1xS45+01fUq6h86uMJFdySBoNHSnZfENwn/yPuXDFQCm
+TNDSr18sEZtNzvlJbfwzno5dJ89h4zxwAZmJP0snjwoBTg/26JteQIREPZg7Ym8t
+mfY2uk7Vs5IfN3n9SAnDJerL479smh5uLQ168VwtxdewFFLCNa9wCcqKXsfWVOmi
+CQkHOVtZQipiokvpkWmN6mDs0sLUkQ==
+=v/C8
 -----END PGP SIGNATURE-----
 
---===============8069315474109675596==--
+--===============0387038069257360385==--
