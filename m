@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 23 May 2023 17:06:02 -0000
-Message-Id: <168486156263.26161.15284154046887739674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 23 May 2023 17:07:46 -0000
+Message-Id: <168486166675.26814.1105732052585698339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: ef9a156657071d72277ee22dd7089bf10479df0f
-    new: e6d6886d469f47ccae5b927c061bef202bd25ac3
+  - ref: refs/heads/main
+    old: 2e77545089e5d2481cf6dcad8d468e138f3396b9
+    new: 1ba3519eab0fbc3cedf6b423ea0470461b902c1b
     log: |
-         e6d6886d469f47ccae5b927c061bef202bd25ac3 autofs: use flexible array in ioctl structure
+         c9e4034ad7bb47c751936426ca895fdf7cd213ad ice: update ice DDP comms package to 1.3.40.0
+         1ba3519eab0fbc3cedf6b423ea0470461b902c1b Merge branch 'dev-queue' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/firmware
          
