@@ -1,47 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8118247009973754272=="
+Content-Type: multipart/mixed; boundary="===============0063308796495860140=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 23 May 2023 07:27:53 -0000
-Message-Id: <168482687320.10709.17124107441190235884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Tue, 23 May 2023 07:30:15 -0000
+Message-Id: <168482701536.13118.16448797729280921724@gitolite.kernel.org>
 
---===============8118247009973754272==
+--===============0063308796495860140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: bc937ddf7a6a300c6a4170dd40b399f422b0d602
-    new: 3a128547bd4425cdef27c606efc88e1eb03a2dba
-    log: revlist-bc937ddf7a6a-3a128547bd44.txt
+    old: a6903c65068c514a74e79319846d3b52f481bb32
+    new: 4a7f602033946144ca8302a55cc800cd647f92e3
+    log: revlist-a6903c65068c-4a7f60203394.txt
 
---===============8118247009973754272==
+--===============0063308796495860140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc937ddf7a6a-3a128547bd44.txt
+Content-Disposition: attachment; filename=revlist-a6903c65068c-4a7f60203394.txt
 
-cf8e6a1e9d4e7ccefb1ab1d5cf8348fb3fb45d25 Merge branch into tip/master: 'irq/urgent'
-bdc141778c0a193d385921a4b7d449a2398835fa Merge branch into tip/master: 'objtool/urgent'
-5d3283c4e7eff0660e6545f953c46ab119dddb99 Merge branch into tip/master: 'core/debugobjects'
-19f872c5be2bafd184e4adcf9ecb0653729c6bd0 Merge branch into tip/master: 'irq/core'
-e343c80e9156b33948434434e2573e718dd0369f Merge branch into tip/master: 'locking/core'
-c50a7b40a2f50403c3f58f1c27a85e4c5d2e0865 Merge branch into tip/master: 'objtool/core'
-b85c6694924e9f09a40a2e0a3798f3945eaa6fda Merge branch into tip/master: 'perf/core'
-e741d160f20a2ee0ad1898f5dd7cb630cdaebafb Merge branch into tip/master: 'ras/core'
-af75e6871092fc1f9fa039132d5667f1e0a47a0a Merge branch into tip/master: 'sched/core'
-fb21a0b04af88355991cbb65aaa3bc684b591aed Merge branch into tip/master: 'smp/core'
-3af60a1b04c686b5374f88f3a94e37b85bf65ec5 Merge branch into tip/master: 'x86/alternatives'
-67d3be7f1176ce8a06d12ec14eabb431359ec8fd Merge branch into tip/master: 'x86/cleanups'
-61f7228a7311ebbb93a7334e1e2fe9496259f2b5 Merge branch into tip/master: 'x86/cpu'
-2539ecb0edfd4b18765b1a3b2574605c9329e750 Merge branch into tip/master: 'x86/microcode'
-b0b9255dc56d9a2180e355e25942fe7b93497ab5 Merge branch into tip/master: 'x86/misc'
-8672672b0fbb784fe72e572cba1f05fc1427da8f Merge branch into tip/master: 'x86/mm'
-3a128547bd4425cdef27c606efc88e1eb03a2dba Merge branch into tip/master: 'x86/sev'
+f7675cdc9539b848006e3c646ecf4aa2aff27b27 dt-bindings: display/msm: dsi-controller-main: Document qcom, master-dsi and qcom, sync-dual-dsi
+a7fd5d2a1b7dc6a79dcdc897cb4f383fcbcb29c2 ASoC: dt-bindings: Adjust #sound-dai-cells on TI's single-DAI codecs
+14bad8fd1245682bfd70c99dff6dd01333888984 dt-bindings: ata: ahci-ceva: Cover all 4 iommus entries
+35cf6c5118823e2613b3926b64039a5653a527d5 dt-bindings: net: can: add "st,can-secondary" property
+418a923757b9e74a07507f5ae642691aecfc6625 ARM: dts: stm32f429: put can2 in secondary mode
+842f8d074c9a5789112af2bee1f32b27fe39dc03 ARM: dts: stm32: add pin map for CAN controller on stm32f7
+6a89a7c22bbcaf439060cdf7c3640a1c4816a08e ARM: dts: stm32: add CAN support on stm32f746
+87b4e976ada7058f09424a139e64b3007fea7a57 Revert "ARM: dts: stm32: add CAN support on stm32f746"
+91259c1fd180bcdef9a703dfd5ef7199a3e8ebc3 Merge tag 'net-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+b3fd02c1b2c3aa6566da34972d4d4ed21a9a147e Merge tag 'drm-msm-fixes-2023-05-17' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+beceef7d4b5240f8d871b71c00f5eafc2c5840a4 Merge tag 'sound-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+269425a16d7212a6cfb5982dbdc9e5ec824a80df Merge tag 'drm-fixes-2023-05-20' of git://anongit.freedesktop.org/drm/drm
+c114b741332bade9724c7ee88ee9050487ef7c57 Merge tag 'ata-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
+4a7f602033946144ca8302a55cc800cd647f92e3 Merge tag 'v6.4-rc3-dts-raw'
 
---===============8118247009973754272==--
+--===============0063308796495860140==--
