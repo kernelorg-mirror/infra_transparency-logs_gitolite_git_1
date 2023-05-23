@@ -1,60 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5475190016868602749=="
+Content-Type: multipart/mixed; boundary="===============2633056480282985978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 23 May 2023 22:12:01 -0000
-Message-Id: <168487992130.12925.4561633594800283903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 23 May 2023 22:12:52 -0000
+Message-Id: <168487997284.13329.9450365763953309979@gitolite.kernel.org>
 
---===============5475190016868602749==
+--===============2633056480282985978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/asoc-6.4
-    old: e2d035f5a7d597bbabc268e236ec6c0408c4af0e
-    new: 011a8719d6105dcb48077ea7a6a88ac019d4aa50
-    log: |
-         011a8719d6105dcb48077ea7a6a88ac019d4aa50 ASoC: dwc: move DMA init to snd_soc_dai_driver probe()
-         
-  - ref: refs/heads/asoc-6.5
-    old: abd35adfa9a13a8cabdec8a86d87450043719bd3
-    new: 857466436c49892608c0fb2da8a00219862d3bdd
-    log: |
-         345585b776e6f6f1cab846eb3efbef32c53fc0e3 ASoC: dt-bindings: dialog,da7219: convert to dtschema
-         c28dc3bdfcd9e93b6cf1f3f0bb3c51e819fc977f ASoC: dt-bindings: da7219: Add jack-ins-det-pty property
-         dc0ff0fa3a9bf9f7be3a9530f8f6079324f54fa5 ASoC: da7219: Add Jack insertion detection polarity
-         857466436c49892608c0fb2da8a00219862d3bdd ASoC: da7219: Add jack insertion detection polarity
-         
+  - ref: refs/heads/tmp.perf/core
+    old: 9773363bd3ebc6de380e6b077f7a4fd3e2e2afa0
+    new: 5be8e42b03f593d8455d67b32d8617a1d0b0cfcc
+    log: revlist-9773363bd3eb-5be8e42b03f5.txt
 
---===============5475190016868602749==
+--===============2633056480282985978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9773363bd3eb-5be8e42b03f5.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1684879919 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1684879919-7228858a8127965fd8f4b7256e02e31967ccffde
+995ed074b829f293586028560f2f27f47889df64 perf stat: Setup the foundation to allow aggregation based on cache topology
+4b87406a3b590888edf02705a815eb62e122e9ba perf stat record: Save cache level information
+aab667ca8837e45fda0204bed7b59abd634c0b2b perf stat: Add "--per-cache" aggregation option and document it
+bfce728db31790420758de3173c3e7185ba57cb1 pert tests: Add tests for new "perf stat --per-cache" aggregation option
+0c69e280f0a826589dd04503d40598023ebfb76d perf tools: Warn if no user requested CPUs match PMU's CPUs
+40c3c95d49aa7f3ccd40310fd8de08f5469c731e perf evlist: Remove evlist__warn_hybrid_group()
+f4a306010da351825ec64970d51310620bc58d9f perf evlist: Remove __evlist__add_default()
+29025628c86c58fa39dc549d508a8b233c7c1a00 perf evlist: Reduce scope of evlist__has_hybrid()
+4be674dc8ca7ea26361fa12d6a886bddbba48cc2 perf pmu: Remove perf_pmu__hybrid_mounted()
+d0ddef5e346875444c5f0746e6deb3cf15957b0f perf pmu: Detect ARM and hybrid PMUs with sysfs
+ad737a71078edb9cf94494db5cd833bc8fe9f303 perf pmu: Add is_core to 'struct pmu'
+19b840e4f7cc501b762f03071d9a71d5ed238cb9 perf pmu: Rewrite perf_pmu__has_hybrid() to avoid list
+8cb1d2a03f17c07cae83e6eb0ad519529753eb76 perf x86: Iterate hybrid PMUs as core PMUs
+c1e12e3d7f2dda29090edf693b5e646bf2e54f2e perf topology: Avoid hybrid list for hybrid topology
+9d7770e61e96d58922c0b4c54213863f2f40afac perf evsel: Compute is_hybrid from PMU being core
+62877a6af671667a6971ba492e723afdf5932c9d perf header: Avoid hybrid PMU list in write_pmu_caps
+045ed338a7e0df51bfab864dbd0547d78ba39d7c perf metrics: Remove perf_pmu__is_hybrid use
+69370b81d9eea9146dbfedf282fa45293a7c6f36 perf stat: Avoid hybrid PMU list
+b8bdcf5dae951c8fa560d36a803c75097bb23c23 perf mem: Avoid hybrid PMU list
+530eeafd88dc8bd218f2357a8470bbd881209ce3 perf pmu: Remove perf_pmu__hybrid_pmus list
+7b1afea6980adec7f26aafe1144090981feefd3b perf pmus: Prefer perf_pmu__scan over perf_pmus__for_each_pmu
+3364e9640af876b253c6a9b5ecc31ede4d912ed0 perf x86 mem: minor refactor to is_mem_loads_aux_event
+fb107bb1f779bcb52a75910615017cf34df9d2af perf pmu: Separate pmu and pmus
+7c0a8a01f013102047988314cf31680a6a1c34b7 perf pmus: Split pmus list into core and other
+b1b0674367640629a19f84ded4f8a9035e6a043c perf pmus: Allow just core PMU scanning
+2c5fae7eddc2a3fb2493e592a5d4c733a1866f0e perf pmus: Avoid repeated sysfs scanning
+72603b65951cfa17e9cb5b883d706421066bf840 perf pmus: Ensure all PMUs are read for find_by_type
+024aae7d3f766fe59cb359d90d2be6ca83eb63db perf jevents: Add support for metricgroup descriptions
+5be8e42b03f593d8455d67b32d8617a1d0b0cfcc perf vendor events intel: Add metricgroup descriptions for all models
 
-e2d035f5a7d597bbabc268e236ec6c0408c4af0e 011a8719d6105dcb48077ea7a6a88ac019d4aa50 refs/heads/asoc-6.4
-abd35adfa9a13a8cabdec8a86d87450043719bd3 857466436c49892608c0fb2da8a00219862d3bdd refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRtOi8ACgkQJNaLcl1U
-h9C39wf+IruecUhexnLAOE+lrdaPxzFq59q5lFHVql4eVQGWV9KHiwwvbVknVh3+
-Qc6HW5KrVjrf3z5DPNgr60KR8HS++prur5LqU1d7zb5cjQzKzmFIiPqnt6ADh7C3
-15A91Z+FxTfS4TYga9Vo1nBSzWL8xM56w0nZfQjKVdpwVcaBjTfMP9Jr5De1HZC8
-3kSr5f71r/p4pCjT/TDhYPFfzNIDlusnb0x8aVwBsFdri+riWWxnH7BqVo/4qLX4
-E3RwDcp7QjG32q3N8rXx4PnnkoExOPBcI3Ag6GZHURSoohlrnx7+1KeiTYoC1Uax
-F+hGpgCdwY59OT5M8lSaHSgNoZEsQg==
-=AVw9
------END PGP SIGNATURE-----
-
---===============5475190016868602749==--
+--===============2633056480282985978==--
