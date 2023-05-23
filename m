@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 23 May 2023 13:10:06 -0000
-Message-Id: <168484740608.26668.18205730215363534581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 23 May 2023 13:17:43 -0000
+Message-Id: <168484786311.30649.4176138204071099051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/20230523_peter_ujfalusi_asoc_sof_intel_mtl_enable_multicore_support
+  - ref: refs/heads/for-6.4/upstream-fixes
+    old: bd249b91977b768ea02bf84d04625d2690ad2b98
+    new: 16a9c24f24fbe4564284eb575b18cc20586b9270
+    log: |
+         ed84c4517a5bc536e8572a01dfa11bc22a280d06 HID: google: add jewel USB id
+         16a9c24f24fbe4564284eb575b18cc20586b9270 HID: wacom: Add error check to wacom_parse_and_register()
+         
+  - ref: refs/heads/for-next
+    old: ad7844d92f770594a59d5ccc2c2171f8c8c3afa0
+    new: 1645b5de1c0eaad6140cc60f98e7311875566994
+    log: |
+         74e47b2c52ed43701bf59a98bc703b7c246ba43e HID: asus: Add support for ASUS ROG Z13 keyboard
+         73920f615159b3539520657612b006ee24ea83f0 HID: asus: add keycodes for 0x6a, 0x4b, and 0xc7
+         e6c7e2711df6520487782537f38c3a80a972b922 HID: asus: reformat the hotkey mapping block
+         1645b5de1c0eaad6140cc60f98e7311875566994 Merge branch 'for-6.5/acer' into for-next
+         
+  - ref: refs/heads/for-6.5/acer
     old: 0000000000000000000000000000000000000000
-    new: 1b167ba8a20152041d3af0c0cbbfd710f1e93e4b
-  - ref: refs/heads/fileEnLA5U
-    old: 0000000000000000000000000000000000000000
-    new: f9d790c578d4e0f715213cc7f2f6f2b0d2d91988
-  - ref: refs/heads/fileQEUW7z
-    old: 0000000000000000000000000000000000000000
-    new: b6e4686ca8c3932ed0eee66c016c05c870e44f5d
-  - ref: refs/heads/v2_20230517_claudiu_beznea_asoc_do_not_include_runtime_pm_h_if_not_needed
-    old: 0000000000000000000000000000000000000000
-    new: a9392efae9f5de42673cfc1b81ac6fb88bdb26b2
+    new: e6c7e2711df6520487782537f38c3a80a972b922
