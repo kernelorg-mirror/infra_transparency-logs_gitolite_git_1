@@ -1,44 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7573694138245069501=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 23 May 2023 14:11:53 -0000
-Message-Id: <168485111372.2875.10986901703333204809@gitolite.kernel.org>
-
---===============7573694138245069501==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 23 May 2023 14:16:26 -0000
+Message-Id: <168485138618.5932.9524109895901418021@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: b34ffb0c6d23583830f9327864b9c1f486003305
-    new: f726e03564ef4e754dd93beb54303e2e1671049e
-    log: revlist-b34ffb0c6d23-f726e03564ef.txt
-
---===============7573694138245069501==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b34ffb0c6d23-f726e03564ef.txt
-
-78fa0d61d97a728d306b0c23d353c0e340756437 bpf, sockmap: Pass skb ownership through read_skb
-29173d07f79883ac94f5570294f98af3d4287382 bpf, sockmap: Convert schedule_work into delayed_work
-bce22552f92ea7c577f49839b8e8f7d29afaf880 bpf, sockmap: Reschedule is now done through backlog
-405df89dd52cbcd69a3cd7d9a10d64de38f854b2 bpf, sockmap: Improved check for empty queue
-901546fd8f9ca4b5c481ce00928ab425ce9aacc0 bpf, sockmap: Handle fin correctly
-ea444185a6bf7da4dd0df1598ee953e4f7174858 bpf, sockmap: TCP data stall on recv before accept
-6df7f764cd3cf5a03a4a47b23be47e57e41fcd85 bpf, sockmap: Wake up polling after data copy
-e5c6de5fa025882babf89cecbed80acf49b987fa bpf, sockmap: Incorrectly handling copied_seq
-4e02588d9a95b21f8d25d66cb6c24f9df1532f6b bpf, sockmap: Pull socket helpers out of listen test for general use
-298970c8af9d73a9f3df4ac871a4456f87fd4cab bpf, sockmap: Build helper to create connected socket pair
-1fa1fe8ff161cc34620e31295235dc1e6d0dce77 bpf, sockmap: Test shutdown() correctly exits epoll and recv()=0
-bb516f98c731cafe27900f43c0ef0aa7b5a9a44b bpf, sockmap: Test FIONREAD returns correct bytes in rx buffer
-80e24d22267597b2ace54686735e3c4cb26a523f bpf, sockmap: Test FIONREAD returns correct bytes in rx buffer with drops
-f726e03564ef4e754dd93beb54303e2e1671049e bpf, sockmap: Test progs verifier error with latest clang
-
---===============7573694138245069501==--
+  - ref: refs/heads/mm/mremap-pmd-warning-4
+    old: 62c37d7b2bc96d0cc6fab82d42f14b7934d26bff
+    new: 8ac39a28e86cfd8f7987e3e933fdf7a54f3481b8
+    log: |
+         dc5759b036e9939b054298e3f2eed137b969c71f mm/mremap: Optimize the start addresses in move_page_tables()
+         216b6563ab52beee51799f4d72ba5163d43c6fdb selftests: mm: Fix failure case when new remap region was not found
+         fc21c0dfc813c58bfda6ba83544fe1528a6e50f6 selftests: mm: Add a test for mutually aligned moves > PMD size
+         1471b46f23a7f29a6d2fe5df132a5844806f2166 selftests: mm: Add a test for remapping to area immediately after existing mapping
+         1e34c49e076b2629456dea243720e2e1a207ef70 debug: prints in code and tests
+         bb0b5f00403d5ee0af5bdb134c3eb5b44677586f Revert "debug: prints in code and tests"
+         e96f8df71632f9bd599574fb0bf7ac7355de2315 fixup! mm/mremap: Optimize the start addresses in move_page_tables()
+         8ac39a28e86cfd8f7987e3e933fdf7a54f3481b8 tmp
+         
