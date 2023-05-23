@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 23 May 2023 10:54:03 -0000
-Message-Id: <168483924371.32456.12248385033537651359@gitolite.kernel.org>
+Date: Tue, 23 May 2023 10:57:25 -0000
+Message-Id: <168483944510.2779.5336261699325950557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
   - ref: refs/heads/fixes
-    old: 95e4b25192e9238fd2dbe85d96dd2f8fd1ce9d14
-    new: bbb320bfe2c3e9740fe89cfa0a7089b4e8bfc4ff
+    old: bbb320bfe2c3e9740fe89cfa0a7089b4e8bfc4ff
+    new: 3279decb2c3c8d58cb0b70ed5235c480735a36ee
     log: |
-         bbb320bfe2c3e9740fe89cfa0a7089b4e8bfc4ff platform/x86: ISST: Remove 8 socket limit
+         3279decb2c3c8d58cb0b70ed5235c480735a36ee platform/x86/intel/ifs: Annotate work queue on stack so object debug does not complain
          
