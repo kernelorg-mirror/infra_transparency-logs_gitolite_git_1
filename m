@@ -1,24 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Tue, 23 May 2023 15:18:53 -0000
-Message-Id: <168485513391.15820.7014124354223964976@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5238501464915668317=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 23 May 2023 15:32:55 -0000
+Message-Id: <168485597544.26089.16557112409925495241@gitolite.kernel.org>
+
+--===============5238501464915668317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/b4/dma_iommu
-    old: fb5492c59c4112e3d2424b537eaf72c3f2870e2c
-    new: 692a614131309b99392bfcdd7b9e4abc850111de
-    log: |
-         cddcaf5095396b21c36fd683a048bfc18330eb35 s390/ism: Set DMA coherent mask
-         8d2cae9bbb830b2e352ecf8f1581e74a84a85167 iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
-         532dd8936e1082dd7dc802402f15ab7714003e79 s390/pci: prepare is_passed_through() for dma-iommu
-         0eac59c54f1e605914b88891e1e1653834969023 s390/pci: Use dma-iommu layer
-         7c62c64d8ac4e30d7c76c0e9a8ebf13de4a60a0b iommu/dma: Allow a single FQ in addition to per-CPU FQs
-         692a614131309b99392bfcdd7b9e4abc850111de iommu/dma: Make flush queue sizes and timeout driver configurable
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 68d12418261090b4f5b8d1b2067d15062e858e01
+    new: 9773363bd3ebc6de380e6b077f7a4fd3e2e2afa0
+    log: revlist-68d124182610-9773363bd3eb.txt
+
+--===============5238501464915668317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-68d124182610-9773363bd3eb.txt
+
+c04fcf7c8c4dfdcbfca8b8ec3e7e1fcb6d99e3e3 perf vendor events intel: Update alderlake events/metrics
+7d124303d620cc29baba318bb313edf794c9ef60 perf vendor events intel: Update broadwell variant events/metrics
+8c61edb840df87f2a5e370c7dfe954d07cf4db2d perf vendor events intel: Update cascadelakex events/metrics
+27aebf378b0d8ecb69fa7db88ef016cfb8e6e37a perf vendor events intel: Update elkhartlake events
+c9e7771f28d083dab1afccdd72c3712e31aea4d5 perf vendor events intel: Update haswell(x) metrics
+545dbda74dbcca9df8a90afcfd28f5224e548b35 perf vendor events intel: Update icelake/icelakex events/metrics
+b27d3ece5c9b70a87f68f0e52d68fb6eb828cbf8 perf vendor events intel: Update ivybridge/ivytown metrics
+e08d2ae9bfc225edaea795e74c58934bdb91d27c perf vendor events intel: Update jaketown metrics
+98f17fb413037393f3046fa5d9687ced1e4eb9c3 perf vendor events intel: Update sandybridge metrics
+9a5511eadea316f184940f92dfc5da1eecb0bfd9 perf vendor events intel: Update sapphirerapids events/metrics
+b522c8aff810b06810d7791f1ece07758ed26194 perf vendor events intel: Update skylake/skylakex events/metrics
+d97b82aead504a631033ebbf49cbe104dc603926 perf vendor events intel: Update snowridgex events
+bc4e41210e337d5df3ecd8a9a07cfd6f2d63815b perf vendor events intel: Update tigerlake events/metrics
+2b72cec9eef19d73c2a4a3e603004fdf2d93d9e6 perf: Extract building cache level for a CPU into separate function
+2e75848709776f6911cba4b2c000b91d81dc9ebf perf stat: Setup the foundation to allow aggregation based on cache topology
+d89ca9618b4e12fe31b19db6f015e19a704602b5 perf stat record: Save cache level information
+69a39bc5763e323beed4ba65cfa2482200481e27 perf stat: Add "--per-cache" aggregation option and document it
+9773363bd3ebc6de380e6b077f7a4fd3e2e2afa0 pert tests: Add tests for new "perf stat --per-cache" aggregation option
+
+--===============5238501464915668317==--
