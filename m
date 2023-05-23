@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3367447455909337668=="
+Content-Type: multipart/mixed; boundary="===============6380161386578420376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 23 May 2023 17:11:56 -0000
-Message-Id: <168486191675.30336.3766145054841761290@gitolite.kernel.org>
+Date: Tue, 23 May 2023 17:12:26 -0000
+Message-Id: <168486194661.30594.17170835680309819018@gitolite.kernel.org>
 
---===============3367447455909337668==
+--===============6380161386578420376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 601c181310ed04bec74961e65d1d316a15eb754c
+  - ref: refs/heads/dev-queue
+    old: c9e4034ad7bb47c751936426ca895fdf7cd213ad
     new: 1ba3519eab0fbc3cedf6b423ea0470461b902c1b
-    log: revlist-601c181310ed-1ba3519eab0f.txt
+    log: revlist-c9e4034ad7bb-1ba3519eab0f.txt
 
---===============3367447455909337668==
+--===============6380161386578420376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-601c181310ed-1ba3519eab0f.txt
+Content-Disposition: attachment; filename=revlist-c9e4034ad7bb-1ba3519eab0f.txt
 
-c9e4034ad7bb47c751936426ca895fdf7cd213ad ice: update ice DDP comms package to 1.3.40.0
 dcd30473de546d2c20502c544ba0de6a78370f37 amdgpu: DMCUB updates for various AMDGPU asics
 84d5550e9947ff58491257617f3d4e9b809b9898 amdgpu: update aldebaran firmware for amd.5.5 release
 3b92077321e507e51c7e75c5b74349b818672a75 amdgpu: update sienna cichlid firmware for amd.5.5 release
@@ -64,4 +63,4 @@ c70d3c3ba8464185655ec9e607238e84f5390233 amdgpu: update navi12 firmware for amd.
 2e77545089e5d2481cf6dcad8d468e138f3396b9 amdgpu: update yellow carp firmware for amd.5.5 release
 1ba3519eab0fbc3cedf6b423ea0470461b902c1b Merge branch 'dev-queue' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/firmware
 
---===============3367447455909337668==--
+--===============6380161386578420376==--
