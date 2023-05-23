@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 23 May 2023 13:24:22 -0000
-Message-Id: <168484826219.3258.2977171488111134935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 May 2023 13:37:11 -0000
+Message-Id: <168484903179.11799.14185323028499677036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 7f91fe3a71aa43700eac2650e3b01d50cbbb6f48
-    new: d1c20885d3b01e6a62e920af4b227abd294d22f3
+  - ref: refs/heads/main
+    old: 18c40a1cc1d990c51381ef48cd93fdb31d5cd903
+    new: 600761245952d7f70280add6ce02894f1528992b
     log: |
-         d1c20885d3b01e6a62e920af4b227abd294d22f3 clk: renesas: rzg2l: Fix CPG_SIPLL5_CLK1 register write
+         600761245952d7f70280add6ce02894f1528992b lan966x: Fix unloading/loading of the driver
          
