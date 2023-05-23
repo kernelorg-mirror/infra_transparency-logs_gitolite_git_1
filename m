@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2633056480282985978=="
+Content-Type: multipart/mixed; boundary="===============0321056654508268152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 23 May 2023 22:12:52 -0000
-Message-Id: <168487997284.13329.9450365763953309979@gitolite.kernel.org>
+Date: Tue, 23 May 2023 22:13:01 -0000
+Message-Id: <168487998138.13474.3540625571890957472@gitolite.kernel.org>
 
---===============2633056480282985978==
+--===============0321056654508268152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/tmp.perf-tools-next
     old: 9773363bd3ebc6de380e6b077f7a4fd3e2e2afa0
     new: 5be8e42b03f593d8455d67b32d8617a1d0b0cfcc
     log: revlist-9773363bd3eb-5be8e42b03f5.txt
 
---===============2633056480282985978==
+--===============0321056654508268152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ b1b0674367640629a19f84ded4f8a9035e6a043c perf pmus: Allow just core PMU scanning
 024aae7d3f766fe59cb359d90d2be6ca83eb63db perf jevents: Add support for metricgroup descriptions
 5be8e42b03f593d8455d67b32d8617a1d0b0cfcc perf vendor events intel: Add metricgroup descriptions for all models
 
---===============2633056480282985978==--
+--===============0321056654508268152==--
