@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1542611638128899628=="
+Content-Type: multipart/mixed; boundary="===============9002446525977931770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 23 May 2023 08:06:29 -0000
-Message-Id: <168482918989.4278.9378726627851022920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Tue, 23 May 2023 08:44:03 -0000
+Message-Id: <168483144334.27530.5612347727518012503@gitolite.kernel.org>
 
---===============1542611638128899628==
+--===============9002446525977931770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/perf/urgent
-    old: b752ea0c28e3f7f0aaaad6abf84f735eebc37a60
-    new: 3c845304d2d723f20d5b91fef5d133ff94825d76
-    log: revlist-b752ea0c28e3-3c845304d2d7.txt
+  - ref: refs/heads/master
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 44c026a73be8038f03dbdeef028b642880cf1511
+    log: revlist-ac9a78681b92-44c026a73be8.txt
 
---===============1542611638128899628==
+--===============9002446525977931770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b752ea0c28e3-3c845304d2d7.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-44c026a73be8.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -101,6 +101,9 @@ a4671b7fba59775845ee60cfbdfc4ba64300211b ALSA: hda/realtek: Add quirk for 2nd AS
 90670ef774a8b6700c38ce1222e6aa263be54d5f ALSA: hda/realtek: Add a quirk for HP EliteDesk 805
 048bce15da19e46ce5e866a48338929c76ca4152 media: dt-bindings: ov2685: Correct data-lanes attribute
 92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b locking/rwsem: Add __always_inline annotation to __down_read_common() and inlined callers
+1d1bfe30dad50d4bea83cd38d73c441972ea0173 perf/core: Fix perf_sample_data not properly initialized for different swevents in perf_tp_event()
+90befef5a9e820ccccc33181ec14c015980300cc perf/x86: Fix missing sample size update on AMD BRS
+b752ea0c28e3f7f0aaaad6abf84f735eebc37a60 perf/x86/intel/ds: Flush PEBS DS when changing PEBS_DATA_CFG
 0019a2d4b7e37a983d133d42b707b8a3018ae6f4 sched: fix cid_lock kernel-doc warnings
 23a5b8bb022c1e071ca91b1a9c10f0ad6a0966e9 x86/amd_nb: Add PCI ID for family 19h model 78h
 7d8accfaa0ab65e4282c8e58950f7d688342cd86 hwmon: (k10temp) Add PCI ID for family 19, model 78h
@@ -640,6 +643,5 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
-3c845304d2d723f20d5b91fef5d133ff94825d76 perf/x86/intel: Save/restore cpuc->active_pebs_data_cfg when using guest PEBS
 
---===============1542611638128899628==--
+--===============9002446525977931770==--
