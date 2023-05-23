@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 23 May 2023 21:34:05 -0000
-Message-Id: <168487764571.18727.9961342349154921555@gitolite.kernel.org>
+Date: Tue, 23 May 2023 21:41:36 -0000
+Message-Id: <168487809656.24056.14833252124643035482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: b6c05f50d1f2284d97ef5bf22a972fc6e4ac9c6d
-    new: 459a50e9c4670e494aade9db3907f681423d3c7a
+  - ref: refs/heads/master
+    old: 459a50e9c4670e494aade9db3907f681423d3c7a
+    new: 3b22f98e5a05feee20699df0870dc5d47c9b61dd
     log: |
-         cb8edce28073a906401c9e421eca7c99f3396da1 bpf: Support O_PATH FDs in BPF_OBJ_PIN and BPF_OBJ_GET commands
-         743c10cd60d8b246d8afe7d473f25f415ffac458 libbpf: Add opts-based bpf_obj_pin() API and add support for path_fd
-         459a50e9c4670e494aade9db3907f681423d3c7a selftests/bpf: Add path_fd-based BPF_OBJ_PIN and BPF_OBJ_GET tests
+         f1674dc79fd276aeef6cad738a5f25ed2ba6d329 libbpf: Add opts-based bpf_obj_pin() API and add support for path_fd
+         3b22f98e5a05feee20699df0870dc5d47c9b61dd selftests/bpf: Add path_fd-based BPF_OBJ_PIN and BPF_OBJ_GET tests
          
