@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 24 May 2023 18:48:13 -0000
-Message-Id: <168495409307.22608.7273999371742251978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Wed, 24 May 2023 19:28:18 -0000
+Message-Id: <168495649821.17539.13920343040637285139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/for-next
-    old: 3b22f98e5a05feee20699df0870dc5d47c9b61dd
-    new: fcf1fa29c8ea75bf104c35ce29b65ce2ba6a6a9d
+  - ref: refs/heads/next
+    old: 0f2b1cb89ccdbdcedf7143f4153a4da700a05f48
+    new: 57e2c2f2d94cfd551af91cedfa1af6d972487197
     log: |
-         9d0a23313b1aa107df857e8441ea2ed74811ea17 libbpf: Add capability for resizing datasec maps
-         08b0895675736c49f7b172eac7d5c042fc71c3ec libbpf: Selftests for resizing datasec maps
-         fcf1fa29c8ea75bf104c35ce29b65ce2ba6a6a9d Merge branch 'libbpf: capability for resizing datasec maps'
+         57e2c2f2d94cfd551af91cedfa1af6d972487197 fs: dlm: fix mismatch of plock results from userspace
          
