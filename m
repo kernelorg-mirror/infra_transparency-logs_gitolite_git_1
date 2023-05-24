@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4124357757258263689=="
+Content-Type: multipart/mixed; boundary="===============6553087203538821122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 24 May 2023 15:19:55 -0000
-Message-Id: <168494159507.8621.12112204206435242810@gitolite.kernel.org>
+Date: Wed, 24 May 2023 15:20:29 -0000
+Message-Id: <168494162956.10724.1099917297628596771@gitolite.kernel.org>
 
---===============4124357757258263689==
+--===============6553087203538821122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3632679d9e4f879f49949bb5b050e0de553e4739
-    new: 878ecb0897f4737a4c9401f3523fd49589025671
-    log: revlist-3632679d9e4f-878ecb0897f4.txt
+  - ref: refs/heads/dev-queue
+    old: d59079a95dfa8cd5e35003c474b8b60cc20c8ff5
+    new: 30a7ed5ab8cd2f0490e9793adff75ba3ec7f0bdc
+    log: revlist-d59079a95dfa-30a7ed5ab8cd.txt
 
---===============4124357757258263689==
+--===============6553087203538821122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3632679d9e4f-878ecb0897f4.txt
+Content-Disposition: attachment; filename=revlist-d59079a95dfa-30a7ed5ab8cd.txt
 
 2a0a935fb64ee8af253b9c6133bb6702fb152ac2 net/mlx5: Collect command failures data only for known commands
 2be5bd42a5bba1a05daedc86cf0e248210009669 net/mlx5: Handle pairing of E-switch via uplink un/load APIs
@@ -48,5 +48,19 @@ d6c36cbc5e533f48bd89a7b5f339bd82b8b4378a r8169: Use a raw_spinlock_t for the reg
 04910d8cbfed65dad21c31723c6c1a8d9f990fb6 net: ethernet: mtk_eth_soc: fix QoS on DSA MAC on non MTK_NETSYS_V2 SoCs
 ba46c96db93905f93ebee8ed824cae6790a5ce34 Merge tag 'mlx5-fixes-2023-05-22' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 878ecb0897f4737a4c9401f3523fd49589025671 ipv6: Fix out-of-bounds access in ipv6_find_tlv()
+ec000184575fd5f6770c8fa52cf47e7eb57efd89 igc: Fix possible system crash when loading module
+b5eb3b281a95784ffca191b9fa009dec8bceed66 igb: fix nvm.ops.read() error handling
+46b90d987910b4ad0e0987c5a1bf505b26d7b0ce iavf: Fix use-after-free in free_netdev
+fac78d2fd4a2b4e4008168ca7878812d9f8fd94e iavf: Fix out-of-bounds when setting channels on remove
+b4e71f4cfda24f3342482c6d7be6de1cd5e4ae31 ice: Fix ice module unload
+e71ad53626f6458545c26dbd89c2d6bc1e9fe2ad igc: Fix race condition in PTP tx code
+720735e8dadd3ca2d31f80b428c343965be715a5 igc: Check if hardware TX timestamping is enabled earlier
+1f1f672fb0aa23e22e4f092ae5884b7301037497 igc: Retrieve TX timestamp during interrupt handling
+7f06640ec5855e6619747123a916c077815d33a0 igc: Add workaround for missing timestamps
+4e9d142658f8c4506323459381dfeac9777fafa9 igc: Clean the TX buffer and TX descriptor ring
+08e64932a51251e1aaa0b1bfed2725e8013b52dc igc: Add condition for qbv_config_change_errors counter
+ca3658049585ef3e1e720c151a2dc306352fce7b ice: recycle/free all of the fragments from multi-buffer frame
+a62a1df25037b0b0ec61f188f2839becc06bb4f3 igc: Remove delay during TX ring configuration
+30a7ed5ab8cd2f0490e9793adff75ba3ec7f0bdc iavf: use internal state to free traffic IRQs
 
---===============4124357757258263689==--
+--===============6553087203538821122==--
