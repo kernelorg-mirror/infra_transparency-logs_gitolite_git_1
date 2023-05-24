@@ -1,23 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 24 May 2023 08:38:01 -0000
-Message-Id: <168491748160.15131.4733922119646702085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 24 May 2023 08:52:20 -0000
+Message-Id: <168491834082.25765.16707915223773007066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/xfrm-next
-    old: 386d95d912769360292d96e381a07c6121a366bb
-    new: 3b2d71451b13ac6d0417f81783d9205987f79d7a
+  - ref: refs/heads/devel
+    old: 070a10d6fe1b2f4cc5d6c38b478cc059461eabe9
+    new: 35216718c9ac2aef934ea9cd229572d4996807b2
     log: |
-         896099e1a9cd7afc428103f8ab06e2c7942de1d3 xfrm: delete not-needed clear to zero of encap_oa
-         edfad34590b73b174b7e82825b8486c31782af16 net/mlx5: Add relevant capabilities bits to support NAT-T
-         63509cf2af7f1952e7693ba42860c8158b4ffc23 net/mlx5e: Check for IPsec NAT-T support
-         27338afe0a6513fe7d74a5ac15e9711ce70a8837 net/mlx5e: Support IPsec NAT-T functionality
-         3b2d71451b13ac6d0417f81783d9205987f79d7a xfrm: Support UDP encapsulation in packet offload mode
+         a499a6b203ebbc5fb9f055d13c78f87ce2e59eaa pinctrl: qcom: sa8775p: add the wakeirq map
+         93bd39f05fc8be54224e37e7ee7ea074e1e5e029 dt-bindings: pinctrl: at91-pio4: Add push-pull support
+         772be1da8e51ad087b88372e8df10ba4a571f9af pinctrl: at91-pio4: Enable Push-Pull configuration
+         35216718c9ac2aef934ea9cd229572d4996807b2 pinctrl: at91: fix a couple NULL vs IS_ERR() checks
+         
+  - ref: refs/heads/for-next
+    old: 4ca235d2898e7b809fab5fb2766a26b50acf05cf
+    new: 226d95a8668c256e4a8fc42018b75dcd115c4f6a
+    log: |
+         a499a6b203ebbc5fb9f055d13c78f87ce2e59eaa pinctrl: qcom: sa8775p: add the wakeirq map
+         93bd39f05fc8be54224e37e7ee7ea074e1e5e029 dt-bindings: pinctrl: at91-pio4: Add push-pull support
+         772be1da8e51ad087b88372e8df10ba4a571f9af pinctrl: at91-pio4: Enable Push-Pull configuration
+         35216718c9ac2aef934ea9cd229572d4996807b2 pinctrl: at91: fix a couple NULL vs IS_ERR() checks
+         226d95a8668c256e4a8fc42018b75dcd115c4f6a Merge branch 'devel' into for-next
          
