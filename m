@@ -1,46 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6740615083919901136=="
+Content-Type: multipart/mixed; boundary="===============1448029386456146870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 24 May 2023 09:43:10 -0000
-Message-Id: <168492139016.7730.7490740274495232516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 24 May 2023 09:51:29 -0000
+Message-Id: <168492188986.14774.17608061430206465661@gitolite.kernel.org>
 
---===============6740615083919901136==
+--===============1448029386456146870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: ffdd75cceedafac3ba7a80b86e1b103c383b260e
-    new: 12c616b02913ed22e919b3fcce7f1961f78dc60f
-    log: revlist-ffdd75cceeda-12c616b02913.txt
+  - ref: refs/heads/seen
+    old: 6db8a77f986e529626e4a307536e1fd78f031066
+    new: cf0670254ea25cbd15d714a7c3a50081a955eb73
+    log: revlist-6db8a77f986e-cf0670254ea2.txt
 
---===============6740615083919901136==
+--===============1448029386456146870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffdd75cceeda-12c616b02913.txt
+Content-Disposition: attachment; filename=revlist-6db8a77f986e-cf0670254ea2.txt
 
-9d48efbbe75d2f95be202a8345dba61b0831d1db lsfd: (tests) don't run mqueue test on byteorder mismatch
-fc5018e8011d2fadb720253b3932454ca3baa152 enosys: add support for sparc
-29e3f73784f6415ff1de21462390d8d0d3e5b3d7 enosys: split audit arch detection into dedicated header
-e2cd74462ea28928121535ff7dd1a13c28a79624 meson: require 0.57
-3e0bbb1222139df70a01c31c5036a9569df4e0b4 enosys: only build if AUDIT_ARCH_NATIVE is defined
-c345a4002b56083469e320de76ae695006a2cf49 enosys: add support for loongarch
-d28914938538b887f1a3e9b6c4d85277af462b1a lsfd: write more about nsfs in comment
-ccd4e14285175237807fb86846c3b5d32cdf8d0b lsfd: add a whitespace
-d5ca01c0f40ac94a3995d0d63e05cf0d5ef82a8f lsfd: add a helper function for adding a nodev to the nodev_table
-916b44a59a6d9cc2128ac378106da63b1c544ef7 lsfd: add "nsfs" to the nodev_table to fill SOURCE column for nsfs files
-c1cb27357c2c970e518d37418a5961fff9e48ee8 lsfd: initialize pagesize in an earlier stage
-de9ec7ee36f1fadd3f9c6a6800bd04dc9ff13324 lsfd: add tmpfs as source of sysvipc to the the nodev_table
-c3f8cba1d4bc9970b8768e38520487bbef6a0a8f tests: (mkfds) add a factory to make SysV shmem
-24a10f06e91d7ae0c065eef258a5773dac9d8aa6 tests: (lsfd) add a case for testing SOURCE column for SysV shmem mappings
-27675c5c62ed7cefdb6535f56dc1317f4541bee4 Merge branch 'lsfd--sysvipc-shmem' of https://github.com/masatake/util-linux
-12c616b02913ed22e919b3fcce7f1961f78dc60f Merge branch 'enosys/arch-check' of https://github.com/t-8ch/util-linux
+c10839bad962ead38f5cf0d75e4b58c622bf9b9c config: use gitdir to get worktree config
+915e3f385a57c1731ec186985b39e48bd8dd56f5 repository: move 'repository_format_worktree_config' to repo scope
+f50930b223ed25aad76d2eb04ce45606eb349443 Merge branch 'mh/credential-libsecret-attrs' into jch
+a781ad3d9f202318875f6f139a9518ce6375a50f Merge branch 'pw/rebase-i-after-failure' into jch
+b0a061d2e91aa22963eb4e62abfe66331acb3700 Merge branch 'la/doc-interpret-trailers' into jch
+8f810e64ffe1fa5ea9ee0821bb7e27885d86b43b Merge branch 'en/header-split-cache-h-part-3' into jch
+cd0e4121ef9313c72eb2ad04f5527ea7c2915837 Merge branch 'pb/complete-and-document-auto-merge-and-friends' into jch
+83340b5864c074a01786cc895f39ce957e04abd4 Merge branch 'jt/path-filter-fix' into jch
+3dc848a20b0b8204fababe0e997d611c7695df57 Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
+6f9f017d9d3c78644910a8fe25a2bbab778ed320 Merge branch 'jc/test-modernization-2' into jch
+f7dec8d09caca4475c6f392d892e622f9d773006 Merge branch 'ps/fetch-cleanups' into seen
+9173b87790e85f28820a9f7645e221e9bcda637a Merge branch 'tb/refs-exclusion-and-packed-refs' into seen
+1c11e0c05e312594dace244d8e5a6b4ed69e1f1d Merge branch 'tb/gc-recent-object-hook' into seen
+91d037ee02971acadf803efc6f47812de8cfd5a0 Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
+d6b224272839b3a6f8a3afed09efa4a0758f489b Merge branch 'ab/imap-send-requires-curl' into seen
+7e61b504ae3a9ed57888b67f94af00d8db5d6ffa Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
+bb329fa908169e8f2dacd0d5d37c468ed8c10fdf Merge branch 'so/diff-merges-more' into seen
+433754436f07373dc24f481002204ac3475af663 Merge branch 'cw/submodule-status-in-parallel' into seen
+018c1c8e18f9b258fd590f07e740c1a1e957e05d Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+8a3eba929380156651b7d1ecebad07df9e944d62 Merge branch 'cb/checkout-same-branch-twice' into seen
+24cdcbad2210b4bc784ef3ffdd8071839dc13f6c Merge branch 'ab/tag-object-type-errors' into seen
+53d5552f46b35bb44fd8a1243e6ec59d95566aec Merge branch 'ja/worktree-orphan' into seen
+ea103c2173f405cc55d567c37a52db8c1f228e67 Merge branch 'tb/pack-bitmap-index-seek' into seen
+2e48bf6dbd58227797232a7de3c4a49081f44bd1 Merge branch 'rn/sparse-diff-index' into seen
+768ded48889ad7092a76eb6571c83bde8e67e9f0 Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
+b423ecce0849363416b24259fdc0dae68dcf8114 Merge branch 'ob/revert-of-revert' into seen
+508fe7f3aa228447d50ad60b69c77269aac363a9 Merge branch 'tb/pack-bitmap-traversal-with-boundary' into seen
+68bb224aff668d8dce6d37e3bccdec7107d255b1 Merge branch 'tc/cat-file-z-use-cquote' into seen
+d75f7716776fadf22c5587a6c6f9093e0ba4225d Merge branch 'cc/git-replay' into seen
+cf0670254ea25cbd15d714a7c3a50081a955eb73 Merge branch 'vd/worktree-config-is-per-repository' into seen
 
---===============6740615083919901136==--
+--===============1448029386456146870==--
