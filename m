@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6668547096018194309=="
+Content-Type: multipart/mixed; boundary="===============6473694469031287905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 24 May 2023 16:30:47 -0000
-Message-Id: <168494584781.26914.4529347371236041337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 24 May 2023 16:30:49 -0000
+Message-Id: <168494584992.26977.16651548001282409365@gitolite.kernel.org>
 
---===============6668547096018194309==
+--===============6473694469031287905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel/kmalloc-minalign
-    old: 0c3bf7ce6bce739c6073f9f07fcf16e8f384b590
-    new: d929a28c8da3f1bc095e4aa0d1b811972929351a
-    log: revlist-0c3bf7ce6bce-d929a28c8da3.txt
+  - ref: refs/heads/master
+    old: 1f7c63c03460d0a28f49ec3fb93e09e94b566bb4
+    new: ba2fac26583b5279d06e1e1c8d671d234cd274bc
+    log: |
+         ba2fac26583b5279d06e1e1c8d671d234cd274bc Linux 6.3.4
+         
 
---===============6668547096018194309==
+--===============6473694469031287905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c3bf7ce6bce-d929a28c8da3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0ca8fc02340635ed8820063ff0c237538d7826af mm/slab: Decouple ARCH_KMALLOC_MINALIGN from ARCH_DMA_MINALIGN
-1b0f364bbe9969fb20db96c8b0f4d83969f59954 dma: Allow dma_get_cache_alignment() to be overridden by the arch code
-01703261d794ccfcf68719d589c998464e8b4b1e mm/slab: Simplify create_kmalloc_cache() args and make it static
-3de5955babba81812098e24143275ec9738efcf2 mm/slab: Limit kmalloc() minimum alignment to dma_get_cache_alignment()
-40a1f32ebd4030a1810d261a06081dcbf33cb9e5 drivers/base: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-d452774018cddc7c1caddb64b6073477ba1abed9 drivers/gpu: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-718cc7c9a342d18014acf15b96c52a4e86122fbc drivers/usb: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-414090ac3c2a3f5b04ae53a8346e5e6b18a004f0 drivers/spi: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-a84038c37eb3fadddb0969eb051c28cd571f065b drivers/md: Use ARCH_DMA_MINALIGN instead of ARCH_KMALLOC_MINALIGN
-085e6f8735dfc92a2c555157c4823a993f609cf4 arm64: Allow kmalloc() caches aligned to the smaller cache_line_size()
-455871a5baec3730a5b947a6b3588aa50f103cc7 scatterlist: Add dedicated config for DMA flags
-ebef75e9c9af6acda49b02472f4e2d198df9893a dma-mapping: Force bouncing if the kmalloc() size is not cache-line-aligned
-f0b92f544e6b440500c3823c7c47b542816cb4cd iommu/dma: Force bouncing if the size is not cacheline-aligned
-234e6596c3551dbae60d28c59319181888f6dfda mm: slab: Reduce the kmalloc() minimum alignment if DMA bouncing possible
-d929a28c8da3f1bc095e4aa0d1b811972929351a arm64: Enable ARCH_WANT_KMALLOC_DMA_BOUNCE for arm64
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1684945849 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1684945846-6c4b0288f799b88de94eb1e4be9502fb6360743b
 
---===============6668547096018194309==--
+1f7c63c03460d0a28f49ec3fb93e09e94b566bb4 ba2fac26583b5279d06e1e1c8d671d234cd274bc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRuO7kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/okP/175v0WWkSerPfM36Ch7
+94GAqQcTawAo8s3IiDTFTKjnUccop42Bn23qCbcA9SzJ8p6360+CQI7BdSPNQVVp
+5MKmj3ddohkWL1unpVvaLF0QuyxHdCsuZ8uJEGp70pU2BtL1OADtnUMkYffU+13g
+lA/xHy1hhGixo5VKJzVrlqSyUCm3VQezwdEMmX1MCq/laZjaYdsR+BGbI+Ecn6c+
+14n1EhmQVJkSHCMzWalVuolQyykdxduLRqAUI6+E8x0rGxdKfNM2QC29+LdgZNlK
+hY/eGhbWn8s9UhWQ5Or0MlgYoxFPj9lRtUk4Igb/1KOKgesy0eWzQ59OCEjfVLbA
+6cZclzcdoxR6zckaD95GhO1lRYDIjzZXBCCWCTHDcZTyJ64AITZt7pkPTlHD99vJ
+5ofqSJLZSHvuyHZlivbIuKFpHHb20HiSsHrYQIh7lUCiUaHkKYHKUJK67ZnbGwon
+64CJFPp5ibcoBsrXGITNCLU79wVwn8iyQKja5lvPRbIL/M9A30/bzUFGqsTl412c
+ZTD9F6YJ9RFGUEHSNInqOYP41pVRjDtbZaj0ZQWfikmwQrKe8liFxLJeB/xt5y+U
+pCjYPRDhNlvCr/eVVCwrYzfbSDMKA1f+83B1Bfrnz2+p++mDFfu97e4JI7vZr/LU
+783rkze+XMuwoOIW6aGdoN0X
+=nsTp
+-----END PGP SIGNATURE-----
+
+--===============6473694469031287905==--
