@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 24 May 2023 15:38:11 -0000
-Message-Id: <168494269193.22483.13106806271618239974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 24 May 2023 15:45:44 -0000
+Message-Id: <168494314470.27942.6352977539665164197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/2.5
+  - ref: refs/tags/sound-6.4-rc4
     old: 0000000000000000000000000000000000000000
-    new: 83e8e061881fec52f3a78e8cbaf84e43dacc7527
+    new: b1fcc13e66402eb25f672b83b461c83597a5fd57
