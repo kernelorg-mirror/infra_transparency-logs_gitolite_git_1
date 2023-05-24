@@ -1,43 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Wed, 24 May 2023 12:46:12 -0000
-Message-Id: <168493237291.2672.14923285130140987084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 24 May 2023 12:48:05 -0000
+Message-Id: <168493248566.3354.3521478732729530276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/tags/sent/nokia770-regression-v2
-    old: 0000000000000000000000000000000000000000
-    new: 5addb8f4df0880b8a30f2eeeda55d344aff777df
-  - ref: refs/tags/sent/nokia770-regression-v3
-    old: 0000000000000000000000000000000000000000
-    new: 4c3725f10d476ecb92da34e63cfac1867a1eeb5c
-  - ref: refs/tags/sent/seama-partitions-v1
-    old: 0000000000000000000000000000000000000000
-    new: d18af8d75c899f9642f78f8b95ea27accdd7549a
-  - ref: refs/tags/sent/stmpe-dt-bindings-v3
-    old: 0000000000000000000000000000000000000000
-    new: b0b5ea0077b03524c40ca78b31c957502dd65f87
-  - ref: refs/tags/sent/stmpe-dt-bindings-v4
-    old: 0000000000000000000000000000000000000000
-    new: 16b6f84c334096ba1e566c86037997d6ef40b9cd
-  - ref: refs/tags/sent/virt-to-pfn-v6-4-rc1-v1
-    old: 0000000000000000000000000000000000000000
-    new: 33535a7f7fd0864ddc10d4de5c35a756c50461c4
-  - ref: refs/tags/sent/virt-to-pfn-v6-4-rc1-v2
-    old: 0000000000000000000000000000000000000000
-    new: 577b97d80de1ecd181e165e2fc55c3e98df8c754
-  - ref: refs/tags/sent/virt-to-pfn-v6-4-rc1-v3
-    old: 0000000000000000000000000000000000000000
-    new: f7af165e3bd5056062b78adb93a05d0327b33ff1
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
-  - ref: refs/tags/virt-to-pfn-for-arch-v6.5
-    old: 0000000000000000000000000000000000000000
-    new: dfc9322d5cc59da82b70ae4dfb1acc748932974e
+  - ref: refs/heads/fixes
+    old: c3a62df457ff9ac8c77efe6d1eca2855d399355d
+    new: a9f0e3d5a089d0844abb679a5e99f15010d53e25
+    log: |
+         59112e9c390be595224e427827475a6cd3726021 KVM: arm64: vgic: Fix a circular locking issue
+         9cf2f840c439b6b23bd99f584f2917ca425ae406 KVM: arm64: vgic: Wrap vgic_its_create() with config_lock
+         c38b8400aef99d63be2b1ff131bb993465dcafe1 KVM: arm64: vgic: Fix locking comment
+         62548732260976ca88fcb17ef98ab661e7ce7504 KVM: arm64: vgic: Fix a comment
+         09cce60bddd6461a93a5bf434265a47827d1bc6f KVM: arm64: Prevent unconditional donation of unmapped regions from the host
+         8d0f019e4c4f2ee2de81efd9bf1c27e9fb3c0460 arm64: Add missing Set/Way CMO encodings
+         d282fa3c5ccb7a0029c418f358143689553b6447 KVM: arm64: Handle trap of tagged Set/Way CMOs
+         a9f0e3d5a089d0844abb679a5e99f15010d53e25 KVM: arm64: Reload PTE after invoking walker callback on preorder traversal
+         
