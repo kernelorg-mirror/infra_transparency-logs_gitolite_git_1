@@ -1,37 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3350523099512418889=="
+Content-Type: multipart/mixed; boundary="===============7409630204719039403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 24 May 2023 11:04:23 -0000
-Message-Id: <168492626316.30940.18134301878692942004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 24 May 2023 11:17:22 -0000
+Message-Id: <168492704200.7243.14217500212203658171@gitolite.kernel.org>
 
---===============3350523099512418889==
+--===============7409630204719039403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 6afe2ae8dc48e643cb9f52e86494b96942440bc6
-    new: 4be47a5d59cbc9396a6ffd327913eb4c8d67a32f
-    log: |
-         9728fb3ce11729aa8c276825ddf504edeb00611d spi: lpspi: disable lpspi module irq in DMA mode
-         4be47a5d59cbc9396a6ffd327913eb4c8d67a32f spi: mt65xx: make sure operations completed before unloading
-         
-  - ref: refs/heads/for-next
-    old: ef2f6ab5a6256cd950cc967640a984a4e4d91342
-    new: 76bf90aaee83c6c3c54657345175ffb3d071c6f3
-    log: revlist-ef2f6ab5a625-76bf90aaee83.txt
+  - ref: refs/heads/for-6.5
+    old: 53632462666c378774f7665960f0ab67ac22f77a
+    new: 90d0d6009c0f6b0693ac58096c655a2df61e0d50
+    log: revlist-53632462666c-90d0d6009c0f.txt
 
---===============3350523099512418889==
+--===============7409630204719039403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef2f6ab5a625-76bf90aaee83.txt
+Content-Disposition: attachment; filename=revlist-53632462666c-90d0d6009c0f.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -650,9 +643,6 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
-9728fb3ce11729aa8c276825ddf504edeb00611d spi: lpspi: disable lpspi module irq in DMA mode
-4be47a5d59cbc9396a6ffd327913eb4c8d67a32f spi: mt65xx: make sure operations completed before unloading
-01bc4ac9da94f972aabc33fc658609e2732a26e2 spi: Merge up v6.4-rc3
-76bf90aaee83c6c3c54657345175ffb3d071c6f3 Merge remote-tracking branch 'spi/for-6.5' into spi-next
+90d0d6009c0f6b0693ac58096c655a2df61e0d50 regmap: Merge up v6.4-rc3
 
---===============3350523099512418889==--
+--===============7409630204719039403==--
