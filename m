@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4494160324570735928=="
+Content-Type: multipart/mixed; boundary="===============1837495033328167137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 24 May 2023 11:03:43 -0000
-Message-Id: <168492622325.30501.1581142537873040647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 24 May 2023 11:03:50 -0000
+Message-Id: <168492623005.30607.2085491736651727438@gitolite.kernel.org>
 
---===============4494160324570735928==
+--===============1837495033328167137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/spi-6.4
     old: 6afe2ae8dc48e643cb9f52e86494b96942440bc6
     new: 4be47a5d59cbc9396a6ffd327913eb4c8d67a32f
     log: |
          9728fb3ce11729aa8c276825ddf504edeb00611d spi: lpspi: disable lpspi module irq in DMA mode
          4be47a5d59cbc9396a6ffd327913eb4c8d67a32f spi: mt65xx: make sure operations completed before unloading
          
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 8ce1bb9a5935385e9ef65bda1e8ca923c7fbb887
     new: 01bc4ac9da94f972aabc33fc658609e2732a26e2
     log: revlist-8ce1bb9a5935-01bc4ac9da94.txt
 
---===============4494160324570735928==
+--===============1837495033328167137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1684926221 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1684926220-6187afd65a2819cb286d7c7e2e2ffba130738fb5
+pusher C3F436CA30F5D8EB 1684926228 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1684926227-7c1dc9c95cbd43c2f30d9cb5323c94094079bea4
 
-6afe2ae8dc48e643cb9f52e86494b96942440bc6 4be47a5d59cbc9396a6ffd327913eb4c8d67a32f refs/heads/for-6.4
-8ce1bb9a5935385e9ef65bda1e8ca923c7fbb887 01bc4ac9da94f972aabc33fc658609e2732a26e2 refs/heads/for-6.5
+6afe2ae8dc48e643cb9f52e86494b96942440bc6 4be47a5d59cbc9396a6ffd327913eb4c8d67a32f refs/heads/spi-6.4
+8ce1bb9a5935385e9ef65bda1e8ca923c7fbb887 01bc4ac9da94f972aabc33fc658609e2732a26e2 refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRt7w0ACgkQJNaLcl1U
-h9AiXgf/bqQhuNetDc0yfjweGv8q16Fy/ieumwvTXNFWYc4PBzhNLVvvVgrMsA2d
-+CK4VmUTMu9glFQkC9yOn+jFSpgYaR2LnmRsS3O+cFcjPnPw6r/iw0oiF8VaPVC4
-3E0u6rKVULYLqi88lGKIrfgmEHNXs8sgTcLZZhGGEErru8Z2uklog2ac5LZsPaPj
-RnyRwWH1xv9VR2ln/bVbgohBP6QDt3K6/Sd0sbz5pAMojpe8rlzas1H5JHpKQ6Gx
-IEvu09ttOdWTuft33d2qyOmVMZHuFwF1Z5WYf8XmkdhMnMmWmRjAgZg2mFrg4quM
-TgzJgYZOeHfolT7g4EDFTFr0DeNbsw==
-=1joM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmRt7xQACgkQJNaLcl1U
+h9AHIgf/eDMw98BwAaKWcRMMgTOsl0M4QedO/ADJea/8vhrGyCb9GjObvLyVKMmu
+UACgM1+gnNe8BnUh2wsA2olsuGNEjh90uX+hh8J5oUEkNotN9qHasyzGhFI+mQbm
+XaeGMHr4tOiI4TleNd9ADIjKQ7EZqHEYxL1fSpuAQD3g9LvSVd93KItlBHN3yjqf
+Vk7LrH4YvkzVxTvpXv7t5OrnWm8qJtl+qWx3SSdsmySpCW6TktOxX74ZInzT1tS6
+mbiUk4zIYoiNSgTJoTeP1+7xmaptAT6Uy7S7daXiKARYdr1++SV2b4eiZXpIeaeA
+3mMN0HNLR12AsT2igDw0wsri/Cagdw==
+=SQMK
 -----END PGP SIGNATURE-----
 
---===============4494160324570735928==
+--===============1837495033328167137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -678,4 +678,4 @@ fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of gi
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
 01bc4ac9da94f972aabc33fc658609e2732a26e2 spi: Merge up v6.4-rc3
 
---===============4494160324570735928==--
+--===============1837495033328167137==--
