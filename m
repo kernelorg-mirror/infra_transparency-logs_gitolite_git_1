@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 May 2023 09:54:11 -0000
-Message-Id: <168492205109.15815.12335814126991597114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Wed, 24 May 2023 10:12:21 -0000
+Message-Id: <168492314129.27386.16728528768058155624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/irq/core
-    old: d15121be7485655129101f3960ae6add40204463
-    new: 721255b9826bd11c7a38b585905fc2dd0fb94e52
+  - ref: refs/heads/master
+    old: b8969a1b69672b163d057e7745ebc915df689211
+    new: 6ab39f99927eed605728b02d512438d828183c97
     log: |
-         bc06a9e0874239cb6d4eebcb0ecd1a91ad9272db genirq: Use hlist for managing resend handlers
-         5e630aa8d9fcd4c0cb6d5d09422009533aba979a genirq: Encapsulate sparse bitmap handling
-         721255b9826bd11c7a38b585905fc2dd0fb94e52 genirq: Use a maple tree for interrupt descriptor management
+         6ab39f99927eed605728b02d512438d828183c97 crypto: x86/aria - Use 16 byte alignment for GFNI constant vectors
          
+  - ref: refs/tags/v6.4-p3
+    old: 0000000000000000000000000000000000000000
+    new: 5d26e0f0688013b1147a0e1fdd94bab238d49b7c
