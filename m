@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8097244075839697742=="
+Content-Type: multipart/mixed; boundary="===============7676995394007697212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Wed, 24 May 2023 06:14:16 -0000
-Message-Id: <168490885649.16375.14151498892414594171@gitolite.kernel.org>
+Date: Wed, 24 May 2023 06:14:36 -0000
+Message-Id: <168490887624.16548.15907564121592537832@gitolite.kernel.org>
 
---===============8097244075839697742==
+--===============7676995394007697212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
-  - ref: refs/heads/lto
-    old: bd02925c11ffc0b0d0f08bb6eeacb797a039e722
-    new: 4f84348966f04a8f6a396e7cac9aadc7345db36e
-    log: revlist-bd02925c11ff-4f84348966f0.txt
+  - ref: refs/heads/lto-base
+    old: 094226ad94f471a9f19e8f8e7140a09c2625abaa
+    new: 830b3c68c1fb1e9176028d02ef86f3cf76aa2476
+    log: revlist-094226ad94f4-830b3c68c1fb.txt
 
---===============8097244075839697742==
+--===============7676995394007697212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd02925c11ff-4f84348966f0.txt
+Content-Disposition: attachment; filename=revlist-094226ad94f4-830b3c68c1fb.txt
 
+4cc47e8add635408e063c98b52d56b7ceacf0b70 clk: qcom: gdsc: Remove direct runtime PM calls
+18acb7fac22ff7b36c7ea5a76b12996e7b7dbaba bpf: Revert ("Fix dispatcher patchable function entry to 5 bytes nop")
+c86df29d11dfba27c0a1f5039cd6fe387fbf4239 bpf: Convert BPF_DISPATCHER to use static_call() (not ftrace)
+38e9f21f648ed3f9125fe09378da9b2eb08b12d9 Merge tag 'iio-fixes-for-6.1b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+0aa60ff5d996d4ecdd4a62699c01f6d00f798d59 iio: light: apds9960: fix wrong register for gesture gain
+314d34fe7f0a5836cb0472950c1f17744b4efde8 ASoC: soc-utils: Remove __exit for snd_soc_util_exit()
+3d59eaef49ca2db581156a7b77c9afc0546eefc0 ASoC: SOF: topology: No need to assign core ID if token parsing failed
+89cdb224f2abe37ec4ac21ba0d9ddeb5a6a9cf68 ASoC: sof_es8336: reduce pop noise on speaker
+612695bccfdbd52004551308a55bae410e7cd22f ARM: 9251/1: perf: Fix stacktraces for tracepoint events in THUMB2 kernels
+340a982825f76f1cff0daa605970fe47321b5ee7 ARM: 9266/1: mm: fix no-MMU ZERO_PAGE() implementation
+4854e8b083d800b421c02d3a8482fbfe27fb33ec dt-bindings: clock: exynosautov9: fix reference to CMU_FSYS1
+bee55f2e7a44e7a7676e264b42f026e34bd244d9 pinctrl: rockchip: list all pins in a possible mux route for PX30
+7df140e84a75c89962feef659d686303d3ce75e5 mtd: rawnand: qcom: handle ret from parse with codeword_fixup
+83f0869e9bf3333d778d62f055b0f8e1de1cc812 mtd: rawnand: placate "$VARIABLE is used uninitialized" warnings
+c717b9b7d6de9e024e47f7cd5bbff49f581d3db9 mtd: onenand: omap2: add dependency on GPMC
+f6b1a1cf1c3ee430d3f5e47847047ce789a690aa ext4: fix use-after-free in ext4_ext_shift_extents
+b8ebf250997c5fb253582f42bfe98673801ebebd Input: iforce - invert valid length check when fetching device IDs
+8e9ada1d0e72b4737df400fe1bba48dc42a68df7 Input: soc_button_array - add use_low_level_irq module parameter
+e13757f52496444b994a7ac67b6e517a15d89bbc Input: soc_button_array - add Acer Switch V 10 to dmi_use_low_level_irq[]
+a679120edfcf3d63f066f53afd425d51b480e533 bpf: Add explicit cast to 'void *' for __BPF_DISPATCHER_UPDATE()
+e5126de138caef0eedb3d6431059c0c5581a1a5d erofs: fix general protection fault when reading fragment
+75e43355cbe4d5948a79bd592f2ffecb9f75f75d erofs: put metabuf in error path in fscache mode
+e6d9f9ba111b56154f1b1120252aff269cebd49c erofs: get correct count for unmapped range in fscache mode
+bb88f9695460bec25aa30ba9072595025cf6c8af perf: Improve missing SIGTRAP checking
+f04a2862f9c3f64962b8709c75d788efba6df26b pinctrl: qcom: sc8280xp: Rectify UFS reset pins
+cd136706b4f925aa5d316642543babac90d45910 USB: bcma: Make GPIO explicitly optional
+ffb9da4a04c69567bad717707b6fdfbc4c216ef4 usb: dwc3: gadget: Return -ESHUTDOWN on ep disable
+5c294de36e7fb3e0cba0c4e1ef9a5f57bc080d0f Revert "usb: dwc3: disable USB core PHY management"
+341fd15e2e18c24d5c738496cfc3d7a272241201 extcon: usbc-tusb320: Call the Type-C IRQ handler only if a port is registered
+40bf8f162d0f95e0716e479d7db41443d931765c usb: typec: mux: Enter safe mode only when pins need to be reconfigured
+6d8fc203b28ff8f6115fbe5eaf584de8b824f4fa usb: typec: tipd: Prevent uninitialized event{1,2} in IRQ handler
+eb86559a691cea5fa63e57a03ec3dc9c31e97955 bpf: Fix memory leaks in __check_func_call
+26c263bf1847d4dadba016a0457c4c5f446407bf Input: i8042 - apply probe defer to more ASUS ZenBook models
+d68cc25b7c7fb3034c5a5b5f350a0b858c6d5a45 usb: dwc3: Do not get extcon device when usb-role-switch is used
+f0861f49bd946ff94fce4f82509c45e167f63690 x86/sgx: Add overflow check in sgx_validate_offset_length()
+8950f345a67d8046d2472dd6ea81fa18ef5b4844 ARM: dts: am335x-pcm-953: Define fixed regulators in root node
+fed74d75277da865da9ba334d3f5d5e3e327971d pinctrl: mediatek: common-v2: Fix bias-disable for PULL_PU_PD_RSEL_TYPE
+7a58b8d6021426b796eebfae80983374d9a80a75 usb: chipidea: fix deadlock in ci_otg_del_timer
+9d5333c931347005352d5b8beaa43528c94cfc9c usb: cdns3: host: fix endless superspeed hub port reset
+bdfe34597139cfcecd47a2eb97fea44d77157491 perf/x86/amd/uncore: Fix memory leak for events array
+a931237cbea256aff13bb403da13a97b2d1605d9 serial: 8250: Fall back to non-DMA Rx if IIR_RDI occurs
+1bfcbe5805d0cfc83c3544dcd01e0a282c1f6790 serial: 8250_lpss: Configure DMA also w/o DMA filter
+7090abd6ad0610a144523ce4ffcb8560909bf2a8 serial: 8250_lpss: Use 16B DMA burst with Elkhart Lake
+1980860e0c8299316cddaf0992dd9e1258ec9d88 serial: 8250: Flush DMA Rx on RLSI
+181135bb20dcb184edd89817831b888eb8132741 usb: add NO_LPM quirk for Realforce 87U Keyboard
+3ec17cb325ac731c2211e13f7eaa4b812694e218 docs/driver-api/miscellaneous: Remove kernel-doc of serial_core.c
 0fc801f8018000c8e64a275a20cb1da7c54e46df speakup: fix a segfault caused by switching consoles
 92ca969ff8815f3feef2645199bd39bf594e5eeb speakup: replace utils' u_char with unsigned char
 e5b0d06d9b10f5f43101bd6598b076c347f9295f misc/vmw_vmci: fix an infoleak in vmci_host_do_receive_datagram()
@@ -1004,51 +1050,5 @@ a501788ab2603d97c41e8cda59cd74b72c29951f MAINTAINERS: update Muchun Song's email
 4cee37b3a4e68c42b867c87a6218e11bc571ba66 Merge tag 'mm-hotfixes-stable-2022-12-10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 d92b86f672a42d9d74a24a63a1e59793c4116830 Merge tag 'iommu-fix-v6.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 830b3c68c1fb1e9176028d02ef86f3cf76aa2476 Linux 6.1
-0f9828da2033dce6fd7476b2da5a21cb244800b7 x86/boot: robustify calling startup_{32,64}() from the decompressor code
-f576aa4d85c9554466d2c3dc3a6d4e1feef67834 kbuild: pass jobserver to cmd_ld_vmlinux.o
-be878d1350f70c4979703620658c2df1109c4e44 kbuild: lto: preserve MAKEFLAGS for module linking
-0014f7d68f199ba62e11736fbc36a1e04a22d78b compiler.h: introduce __visible_on_lto
-ee09a89a5295ad16d40e70eb3c7fa254814c4d43 compiler.h: introduce __global_on_lto
-8b7495dd3cd92b5625aac09660840b94449a9852 Compiler Attributes, lto: introduce __noreorder
-72640c3e6f0e2c304eab62eebae8cc27cbe74d40 tracepoint, lto: Mark static call functions as __visible
-e1df6394e01c87228eff8ed0622d7c545c487355 static_call, lto: Mark static keys as __visible
-0c0c13ea3b9caa2c113617ff377a4ed29a4f18d8 static_call, lto: Mark static_call_return0() as __visible
-44aa446d49f2dd046e78618e67b36ac6e91503d7 static_call, lto: Mark func_a() as __visible_on_lto
-47e126983d7ab5df0255b48796bf1abe39b459a7 x86/alternative, lto: Mark int3_*() as global and __visible
-0859561b24eab340ab1aeb66d0fde621f579e62c x86/paravirt, lto: Mark native_steal_clock() as __visible_on_lto
-8b3b8f5ac5b1c318c56c0e351ae9a1bd57286b80 x86/preempt, lto: Mark preempt_schedule_*thunk() as __visible
-fe248d7c4edc8c2f60de9f0a6f1ddbcce5248489 x86/sev, lto: Mark cpuid_table_copy as __visible_on_lto
-3d1c70d16fbf6baf58aed5fee48c0497afb1f411 x86/xen, lto: Mark xen_vcpu_stolen() as __visible
-3aa191d6140c4936aad1a48afed0b46fc243b9eb x86, lto: Mark gdt_page and native_sched_clock() as __visible
-c864521ee2e82219ac824a9d2d0e01ef6a932f1d amd, lto: Mark amd pmu and pstate functions as __visible_on_lto
-b5ac070bff325b010a32aaaa9fcada43ed64484f entry, lto: Mark raw_irqentry_exit_cond_resched() as __visible
-46352983595bc1d41ca47b799abf6b9ff543b5a9 export, lto: Mark __kstrtab* in EXPORT_SYMBOL() as global and __visible
-76706b7711ebceee7f77a34de6b1ada0d361d196 softirq, lto: Mark irq_enter/exit_rcu() as __visible
-f33e852626fa28d6f61e28fa8044f027006cfd3f btf, lto: pass scope as strings
-7970b00cee1ddda69feb1947b4302062a1793cc3 btf, lto: Make all BTF IDs global on LTO
-a1eb9f0ea14427dead549eb0fdb9b4d676e82677 init.h, lto: mark initcalls as __noreorder
-83ab5e9b0c5b1685438bfa800c30df74910a5b33 bpf, lto: mark interpreter jump table as __noreorder
-584ffeed367189752431a1034dd8302a573cb83e sched, lto: mark sched classes as __noreorder
-dbe0740c566cbea943f90fc014ce0c048a73714e x86/apic, lto: Mark apic_driver*() as __noreorder
-a61fb11888b0b3e25f40acb51f39a4fb8e4e3096 linkage, lto: use C version for SYSCALL_ALIAS() / cond_syscall()
-1c4810d0474b9461ce4cd90fcde32d07246191a8 scripts, lto: re-add gcc-ld
-81d2179712cf7ecfe02dfd2bde696eb18b3d1597 scripts, lto: use CONFIG_LTO for many LTO specific actions
-e20d6ed893d7728d22f9ed0dd14c58de13df0cfa Kbuild, lto: Add Link Time Optimization support
-2e3b79565a99360b53d5cd9e94484487b63ded3e x86/purgatory, lto: Disable gcc LTO for purgatory
-653277e872ac23e0f47b5b64aaed23920cf87b76 x86/realmode, lto: Disable gcc LTO for real mode code
-c7b753fe248b43ce4b1c32edc9df5d075ddf7870 x86/vdso, lto: Disable gcc LTO for the vdso
-b6140843661a9fb8e9aa8379ad5843ae409515f0 scripts, lto: disable gcc LTO for some mod sources
-02e3529f1813eacedad07ee71021102d322ac979 Kbuild, lto: disable gcc LTO for bounds+asm-offsets
-79f5c73d461247c9516087445864ca8cec1bbbfd lib/string, lto: disable gcc LTO for string.o
-683a776ab07af2dda2fd5b5cab4a358a9796eaa2 Compiler attributes, lto: disable __flatten with LTO
-7d0e191fba52901796753bcb1160026c9f109782 Kbuild, lto: don't include weak source file symbols in System.map
-e5d3a1343261208ea0b72150518142cfbb4b4b4f x86, lto: Disable relative init pointers with gcc LTO
-1b3637dd6c5c8cdb7015205d70e23a22ad4b0e85 x86/livepatch, lto: Disable live patching with gcc LTO
-c4c2c4547edd7a998b38b3ecb54bccd06afb782d x86/lib, lto: Mark 32bit mem{cpy,move,set} as __used
-05066474ce8ec9cb15d799263a4f6d151db39a3e mm/kasan, lto: Mark kasan mem{cpy,move,set} as __used
-7843268592aeae593c1fe4bf45f451c02a3456d0 scripts, lto: check C symbols for modversions
-38c5f6f9c852d6f04c1903850c1e57858244c07b scripts/bloat-o-meter, lto: handle gcc LTO
-04a21ae5314d3389c71e4baffb6e10a5bda9927c kasan, lto: remove extra BUILD_BUG() in memory_is_poisoned
-4f84348966f04a8f6a396e7cac9aadc7345db36e x86, lto: Finally enable gcc LTO for x86
 
---===============8097244075839697742==--
+--===============7676995394007697212==--
