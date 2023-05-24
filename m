@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 24 May 2023 15:23:41 -0000
-Message-Id: <168494182122.12812.12646021345562274389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 24 May 2023 15:26:31 -0000
+Message-Id: <168494199117.15247.13485126006990174630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 189c23a5d9ece18c5b336655b870145675bd1412
-    new: 464f5c25db8150dc8cea21042a5bac09a8880edc
+  - ref: refs/heads/linux-next
+    old: cbfac7707ba16619006a4fd60faac46303fd2f3e
+    new: 8fafac202d18230bb9926bda48e563fd2cce2a4f
     log: |
-         464f5c25db8150dc8cea21042a5bac09a8880edc build: Require at least version 0.57 when building with external ELL
+         b6ebaa8100090092aa602530d7e8316816d0c98d xen/blkfront: Only check REQ_FUA for writes
+         8fafac202d18230bb9926bda48e563fd2cce2a4f xen/pvcalls-back: fix double frees with pvcalls_new_active_socket()
          
