@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Wed, 24 May 2023 02:42:57 -0000
-Message-Id: <168489617777.4919.5967515298285081768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 24 May 2023 02:46:22 -0000
+Message-Id: <168489638270.7543.3341732489013852809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 95abe9714c1b7719cb3c69a241ff50ee506174d1
-    new: c61c38330e582e664fdb97bcb9faf9fa0e4ee175
+  - ref: refs/heads/master
+    old: ea9194b3be942227ac3e261ea76f27736f226c56
+    new: f523b3df568c744355ccc36551a5ccdd74901a3d
     log: |
-         c61c38330e582e664fdb97bcb9faf9fa0e4ee175 fsverity: use shash API instead of ahash API
+         f523b3df568c744355ccc36551a5ccdd74901a3d KEYS: Replace all non-returning strlcpy with strscpy
          
