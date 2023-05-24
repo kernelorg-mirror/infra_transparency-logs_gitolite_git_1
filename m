@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6088243297760328505=="
+Content-Type: multipart/mixed; boundary="===============4877935817716130828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 24 May 2023 13:40:10 -0000
-Message-Id: <168493561013.7808.8110403423449690279@gitolite.kernel.org>
+Date: Wed, 24 May 2023 13:41:46 -0000
+Message-Id: <168493570629.8326.4144510643792637175@gitolite.kernel.org>
 
---===============6088243297760328505==
+--===============4877935817716130828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.5/cleanup
-    old: 8040cbf5e1da2fe86558239b92927a947c79ecd6
-    new: d2e527f0d8d1124b1fab93e2e7b2c6a114c0e5a2
+  - ref: refs/heads/for-next
+    old: 3133f141259d7f6e0729db272f22724614472661
+    new: f437fdcc73f5a51475de1df2a8bfa0f78d386655
     log: |
          d2e527f0d8d1124b1fab93e2e7b2c6a114c0e5a2 mm/slab: remove HAVE_HARDENED_USERCOPY_ALLOCATOR
+         f437fdcc73f5a51475de1df2a8bfa0f78d386655 Merge branch 'slab/for-6.5/prandom' into slab/for-next
          
 
---===============6088243297760328505==
+--===============4877935817716130828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1684935606 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1684935702 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1684935605-032e20898902bfaaea31b84aafe8762c45c0d707
+nonce 1684935702-13002abf16440bed636ab906dd1ba6cb340bbced
 
-8040cbf5e1da2fe86558239b92927a947c79ecd6 d2e527f0d8d1124b1fab93e2e7b2c6a114c0e5a2 refs/heads/slab/for-6.5/cleanup
+3133f141259d7f6e0729db272f22724614472661 f437fdcc73f5a51475de1df2a8bfa0f78d386655 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmRuE7YACgkQu+CwddJF
-iJp+uAf/RtaSrxDbm4gFlZqn9G/lW5+VDGuOS4Q8yDAnMvYqpCNNhuc5vBNU1JdA
-LY33wBY8Uance+ottth1y1DRVvE2IB+mBGk+wj+vK/OX8bKnm5aM1SqCE3Bj3AOD
-ZwNHyNoMG60EK6prhfVb28YyFAd94RORwz8BRTh6f12uajXDEtHKqjm2sQ0vrKPV
-Ce/tpb6VJZNV4CZp8Gc8gxfOmrnWYNN7ccdtvwWyCz3Gux8J6kIyaetq2CTEtFPd
-wjNcmbvnrVU4leKI7/erMHv2V5OOQGxFx16uMbGbYlBXqIdgQ9g/lx8MR1OTXocx
-Ld8vUz4SwZkov/XrxqakX4JyxyuVQA==
-=BE79
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmRuFBYACgkQu+CwddJF
+iJqijgf+NXtedzA28QRDDwkMfk+jlShvYdEJfFz5pp4prr/sBI/+p8O3+E/7Gwh5
+zB+E/4iyq1SJUfNpVjX+P3ezxF/rEVR47sVOgG1t9IvOZ0xxAPb46pC0L3citP2t
+RyEo6WZLOcREYeTAc8yzUD6s7DRO/igxncM3qGdTveNKqKBgLzm3Y8/4j14151bl
+23uRMsuzkWLxXujQW4BWzA+fUBDeT1BrBKzK0VTNmiTfzVcp5SysMCgtXVf2PWjd
+yJluYmVEtEhb5JE7qjUvm7tMJDJdjAYBgfPeN+WEYacTL/SMOCGvWxio96C1TxUT
+3g+ViFuisvYQMXoYg+swnAkoNxucGA==
+=kt0L
 -----END PGP SIGNATURE-----
 
---===============6088243297760328505==--
+--===============4877935817716130828==--
