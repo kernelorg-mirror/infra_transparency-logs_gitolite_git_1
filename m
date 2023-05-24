@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 24 May 2023 03:35:41 -0000
-Message-Id: <168489934165.8990.16675034658737017489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 24 May 2023 03:36:01 -0000
+Message-Id: <168489936195.9174.18077983040629673854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 3632679d9e4f879f49949bb5b050e0de553e4739
-    new: 368d3cb406cdd074d1df2ad9ec06d1bfcb664882
-    log: |
-         368d3cb406cdd074d1df2ad9ec06d1bfcb664882 page_pool: fix inconsistency for page_pool_ring_[un]lock()
-         
+  - ref: refs/heads/irq-storm
+    old: 0000000000000000000000000000000000000000
+    new: 5f3cf39764846c76ce6f19d2dc50012542678fb6
