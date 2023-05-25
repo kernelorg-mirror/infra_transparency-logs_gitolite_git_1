@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 25 May 2023 20:47:30 -0000
-Message-Id: <168504765000.9210.8769898645243863887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 25 May 2023 21:02:33 -0000
+Message-Id: <168504855314.20046.18277242114130851455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-6.5
-    old: cb7177f61d55c72096e5c05014c05894645a5dff
-    new: 18c8ae813156a6855f026de80fffb91e1a28ab3d
+  - ref: refs/heads/dev-queue
+    old: 23af4586bd995533e6adefc42f5a8c7b566290dd
+    new: 1e806efa4f2837a829044df27e1196a4fd520ba3
     log: |
-         18c8ae813156a6855f026de80fffb91e1a28ab3d workqueue: Disable per-cpu CPU hog detection when wq_cpu_intensive_thresh_us is 0
-         
-  - ref: refs/heads/for-next
-    old: afcd5af7faa2d05576bfcd5df02c6d30599f09cc
-    new: 63232da837fbb4f5c11a2a1eb5fae6fdf3b19504
-    log: |
-         18c8ae813156a6855f026de80fffb91e1a28ab3d workqueue: Disable per-cpu CPU hog detection when wq_cpu_intensive_thresh_us is 0
-         63232da837fbb4f5c11a2a1eb5fae6fdf3b19504 Merge branch 'for-6.5' into for-next
+         1e806efa4f2837a829044df27e1196a4fd520ba3 igb: Fix igb_down hung on surprise removal
          
