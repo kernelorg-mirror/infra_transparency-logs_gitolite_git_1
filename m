@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 25 May 2023 16:30:27 -0000
-Message-Id: <168503222785.2442.4017609004532026061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 25 May 2023 16:42:47 -0000
+Message-Id: <168503296790.9236.9825548171396459395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/crypto-aria-x86-fix
-    old: d5253ed2f42db1443b7fac3480fbbb8b3341c6ab
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/damon/next
+    old: 75d6bcd7b75e1c60c81b4ea4776543056032e53e
+    new: 4d0ccf21f796ee33856b3301f586c93273f7e7d0
+    log: |
+         4d0ccf21f796ee33856b3301f586c93273f7e7d0 docs/mm/damon/design: wordsmith
+         
