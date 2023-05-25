@@ -1,244 +1,99 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 25 May 2023 15:02:45 -0000
-Message-Id: <168502696567.7268.6193668992250857196@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8824990913132461322=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 25 May 2023 15:09:36 -0000
+Message-Id: <168502737660.10962.4589056960319359666@gitolite.kernel.org>
+
+--===============8824990913132461322==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/amlogic/drivers
-    old: 1b61fdfdd656b3940cff24c25c211777389174b0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/dt
-    old: 8446b84c894f7441f8bf4410f9638e38dcb29c49
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/dt64
-    old: 0262f2736978b1763363224698f47112a148dab0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/apple/dt
-    old: 8d59efc33fdaa2c82072b4d3ba5f67d7dd9270d0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/apple/dt-2
-    old: 50aa09ac18fac94a907d26dca21aff5507373fb1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/apple/soc-drivers
-    old: bdfe6de2695c5bccc663a5a7d530f81925d8bc10
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm/fixes
-    old: d75eecc3d170d8963ae554a774b8af1f4e1246da
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/aspeed/dt
-    old: 7d4f0b0df7c5ec0cec834f87591423a7bbd1bab2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/dt
-    old: 2c0a1faa4da5324a2ad6621b69fb7db26134b994
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/drivers
-    old: c3fbced9af885a6f217fd95509a613d6590916ce
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/dt
-    old: 7858dded8c1e983740b46857660526575583d2a2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/dt64
-    old: e6d356b146b75f1f77621aab7950a1eb550859f9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/soc
-    old: 3c01b05407bfeb42c4db0f7cc079437228ab0ab2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/memory
-    old: 69d170c4c28ba0490bd42630cc09d7e1834bbb3d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/memory-2
-    old: 3ec0e1ea4770e40575bfb2bb4e9ebbbaa3c80d3f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/optee
-    old: b3b4ced12c1bc829888803ce07fff317e590ec1c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/optee-load
-    old: f3040daab8104ac68e2b241bc93288f63b88a3c7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt/cleanup-32
-    old: aff750faa5ac699df7ade5a31b6ba52ab1072d8a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt/cleanup-64
-    old: d2e5c16f6c86901040f3bb6b40d1a01ccf1a21b0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/defconfig
-    old: b4b992e2332fe566481939573f56675d451aae63
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/drivers
-    old: 816aec03a043af6d0234c3e770bead2c772ef4eb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt
-    old: 5e4f393ccbf0af0828ab0914695649a5b90db230
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt-bindings
-    old: e7a985d50841e43ea1794b3597fd7f646ed95a32
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt64
-    old: 562d222f23f0fbdf76a8ba87ce0c9cdcd39e30f8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/soc
-    old: 614bef7e2727f35ff7edb7f41354e4e5c655590c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/defconfig
-    old: 44b263bf040a8e819da11c45f14a80de8866461a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/drivers
-    old: a33bfafd99e0d1e33dfe910f751426f298a218b6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/dt
-    old: 891db0c48efb48c3af334006f9d7ea6a0aa49cb9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/dt
-    old: 6154a79fdcb3b80fb91c25b4528df18c538f080d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/dt64
-    old: 13961ef828cbc254cc272221b7fc54851caa39a7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/soc-drivers
-    old: 5ce5e0d08e340ab13169a5f33ed5f98000891a61
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/drivers
-    old: f326e72a6e0baacea42ecaa9aaa4d7e7a355c972
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt
-    old: 0939de7d89d2efc4f565ce1961b4020787e9f297
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt64
-    old: 218669c662e3a38fdbd7e0ce56a20784da29546e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/cleanup
-    old: 19050da1d1057a7bc73fd9039f94b7f63a00e54e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/drivers
-    old: b79ad2307a1dfd9cba3cfce6445fa0be74a757a0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/dt
-    old: e341f338180c84cd98af3016cf5bcfde45a041fb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/dt-overlays
-    old: a63945c3b56174537a4a655676fbe965f974b6b1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap1/cleanup
-    old: c29313d58c42f205cdecdd337f784f59bdf92dd7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/defconfig
-    old: 34d1a90bdb8a2759b9646c8596eea495b4cb02ac
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/drivers
-    old: c78ad8597ed961e822bf86ce7f1916dbfba255ef
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/drivers-2
-    old: f6ff91a47ac57cb1118d94020302617b6b22c0d1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt
-    old: 26c56dbddc304cf7304346df4b25b3be0c086e36
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt-2
-    old: 4e859ef0bae3c0839ad362408d2f7321332e4850
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt64
-    old: 105560b4fca4df0d42dba6656105b5e4131d8ad3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt64-2
-    old: 8d58a8c0d930c52dd30bd50af24b786d55509cbf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/defconfig
-    old: 93582bdfd0cf5aeeb4451ade1076a455c53d8a85
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/drivers
-    old: 2653d5bf1c9d123c0d8b8c1634cf54dacfcfdb52
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/drivers-2
-    old: fc187a46a8e682f0f1167b230792b88de01ceaa0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt
-    old: 4db0ce4038dec3cf5cb42587a111f4415be381b6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt-2
-    old: 2f04079bf5920b5120407421478dff1d5692d959
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt-bindinds
-    old: d35ad1030a6bce57234b8eea14ab17560f3c9e1b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/soc
-    old: 6050cb1c7ad40b5673cd6ee7cfd36db3ca9be5fe
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/drivers
-    old: 4dd472bdafcb660bea17bc63a97d06e24fcb36ed
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/dt
-    old: 4cd4beb98fe5ac2c4bcb995ba6e82322be174abb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt
-    old: 95e2ac6ae9f2330557a6aef70bf15173e1dd9714
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt64
-    old: 07099a551803e05d3ee42fae152bf404f8dc21f9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchips/dt64-2
-    old: d3150ed535805403291b95fd84b00b0b5ef41096
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt
-    old: e154a338e16cc3b3bbd54c891253319d22383746
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt64
-    old: 5f67124757464d632f0e5288e0ba48e3ff5531a9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/soc
-    old: cb56f508e541036ad41cb9a5afb46339b2f83b9f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/scmi/drivers
-    old: 9f68ff79ec2cb303f360a35eef5dd8f1f0f817e1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/arm
-    old: bd2c0c4452eea00e22c4008d8e64e58fa73857e5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/defconfig
-    old: 2c25b94f881cf9389001cc08b1232a8099b3f8bf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/drivers
-    old: 4c87f3ff78b20da0dd118762fd66b67a98e36249
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/dt
-    old: b8a4346d25024e00714fb6ceb0709075827f335d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/stm32/dt
-    old: 49f1d0b65f87692a11386a8b8cd3a4aa3a1d0daa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/drivers
-    old: c014377bd053fad2f42b39626939560df1d5fc7d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt
-    old: a140b18f0cc79f5c302ecedbde8364d49effa67f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/bus-drivers
-    old: e8476011f04b1ee4360f755ed19cbbddf12dc83e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/defconfig
-    old: f462eb1d0df39499eff2407b2581ddf2fe89e744
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt
-    old: 13a53ebc229996f424bbf7db466f1ff96f73e8a5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt-bindings
-    old: c94673e80377d67ba36ee4059d7814b2ab98fa71
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt64
-    old: 5c0ddb4e715d89e4ea94821cd85bcac220bd7ea4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/firmware-drivers
-    old: 8c47b8253f4cfd8b4dbda8c9adc1d0b1d7f3009d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/soc-drivers
-    old: 821d96e3a006d09ca9aa3d982c50f3d86fa55500
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/vexpress/drivers
-    old: 04ebdc354895e1609ac133b40f8e8d2e0f16e450
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 9025944fddfed5966c8f102f1fe921ab3aee2c12
+    new: ad42a35bdfc6d3c0fc4cb4027d7b2757ce665665
+    log: revlist-9025944fddfe-ad42a35bdfc6.txt
+
+--===============8824990913132461322==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9025944fddfe-ad42a35bdfc6.txt
+
+5f5486b620cd43b16a1787ef92b9bc21bd72ef2e selftests/bpf: Fix pkg-config call building sign-file
+e1505c1cc8d527fcc5bcaf9c1ad82eed817e3e10 bpf: netdev: init the offload table earlier
+a820ca1a739b7e3ee0ddb48bdfa3c09dc7cd4302 samples/bpf: Drop unnecessary fallthrough
+0613d8ca9ab382caabe9ed2dceb429e9781e443f bpf: Fix mask generation for 32-bit narrow loads of 64-bit fields
+ca1fd42e7dbfcb34890ffbf1f2f4b356776dab6f Bluetooth: Fix potential double free caused by hci_conn_unlink
+2910431ab0e500dfc5df12299bb15eef0f30b43e Bluetooth: Refcnt drop must be placed last in hci_conn_unlink
+a2ac591cb4d83e1f2d4b4adb3c14b2c79764650a Bluetooth: Fix UAF in hci_conn_hash_flush again
+a2904d2825536aa896a149a9174d11b0958e7095 Bluetooth: Unlink CISes when LE disconnects in hci_conn_del
+6ce5169e05aa5360a49a574cc1490ceea6b651a6 Bluetooth: btnxpuart: Fix compiler warnings
+ae9b15fbe63447bc1d3bba3769f409d17ca6fdf6 net: fix stack overflow when LRO is disabled for virtual interfaces
+67caf26d769e0cb17dba182b0acae015c7aa5881 Merge tag 'for-net-2023-05-19' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+6ca328e985cd995dfd1d5de44046e6074f853fbb sctp: fix an issue that plpmtu can never go to complete state
+b34ffb0c6d23583830f9327864b9c1f486003305 bpf: fix a memory leak in the LRU and LRU_PERCPU hash maps
+5b17a4971d3b2a073f4078dd65331efbe35baa2d forcedeth: Fix an error handling path in nv_probe()
+640bf95b2c7c2981fb471acdafbd3e0458f8390d 3c589_cs: Fix an error handling path in tc589_probe()
+b21c7ba6d9a5532add3827a3b49f49cbc0cb9779 net/handshake: Squelch allocation warning during Kunit test
+18c40a1cc1d990c51381ef48cd93fdb31d5cd903 net/handshake: Fix sock->file allocation
+2a0a935fb64ee8af253b9c6133bb6702fb152ac2 net/mlx5: Collect command failures data only for known commands
+2be5bd42a5bba1a05daedc86cf0e248210009669 net/mlx5: Handle pairing of E-switch via uplink un/load APIs
+1e5daf5565b61a96e570865091589afc9156e3d3 net/mlx5: DR, Fix crc32 calculation to work on big-endian (BE) CPUs
+c7dd225bc224726c22db08e680bf787f60ebdee3 net/mlx5: DR, Check force-loopback RC QP capability independently from RoCE
+be071cdb167fc3e25fe81922166b3d499d23e8ac net/mlx5e: Use correct encap attribute during invalidation
+a65735148e0328f80c0f72f9f8d2f609bfcf4aff net/mlx5: Fix error message when failing to allocate device memory
+691c041bf20899fc13c793f92ba61ab660fa3a30 net/mlx5e: Fix deadlock in tc route query code
+7aa50380191635e5897a773f272829cc961a2be5 net/mlx5e: Fix SQ wake logic in ptp napi_poll context
+dfa1e46d6093831b9d49f0f350227a1d13644a2f net/mlx5e: TC, Fix using eswitch mapping in nic mode
+8c253dfc89efde6b5faddf9e7400e5d17884e042 net/mlx5: E-switch, Devcom, sync devcom events and devcom comp register
+af87194352cad882d787d06fb7efa714acd95427 net/mlx5: Devcom, fix error flow in mlx5_devcom_register_device
+1f893f57a3bf9fe1f4bcb25b55aea7f7f9712fe7 net/mlx5: Devcom, serialize devcom registration
+9c2d08010963a61a171e8cb2852d3ce015b60cb4 net/mlx5: Free irqs only on shutdown callback
+ef8c063cf88e1a3d99ab4ada1cbab5ba7248a4f2 net/mlx5: Fix irq affinity management
+1da438c0ae02396dc5018b63237492cb5908608d net/mlx5: Fix indexing of mlx5_irq
+600761245952d7f70280add6ce02894f1528992b lan966x: Fix unloading/loading of the driver
+3632679d9e4f879f49949bb5b050e0de553e4739 ipv{4,6}/raw: fix output xfrm lookup wrt protocol
+78fa0d61d97a728d306b0c23d353c0e340756437 bpf, sockmap: Pass skb ownership through read_skb
+29173d07f79883ac94f5570294f98af3d4287382 bpf, sockmap: Convert schedule_work into delayed_work
+bce22552f92ea7c577f49839b8e8f7d29afaf880 bpf, sockmap: Reschedule is now done through backlog
+405df89dd52cbcd69a3cd7d9a10d64de38f854b2 bpf, sockmap: Improved check for empty queue
+901546fd8f9ca4b5c481ce00928ab425ce9aacc0 bpf, sockmap: Handle fin correctly
+ea444185a6bf7da4dd0df1598ee953e4f7174858 bpf, sockmap: TCP data stall on recv before accept
+6df7f764cd3cf5a03a4a47b23be47e57e41fcd85 bpf, sockmap: Wake up polling after data copy
+e5c6de5fa025882babf89cecbed80acf49b987fa bpf, sockmap: Incorrectly handling copied_seq
+4e02588d9a95b21f8d25d66cb6c24f9df1532f6b bpf, sockmap: Pull socket helpers out of listen test for general use
+298970c8af9d73a9f3df4ac871a4456f87fd4cab bpf, sockmap: Build helper to create connected socket pair
+1fa1fe8ff161cc34620e31295235dc1e6d0dce77 bpf, sockmap: Test shutdown() correctly exits epoll and recv()=0
+bb516f98c731cafe27900f43c0ef0aa7b5a9a44b bpf, sockmap: Test FIONREAD returns correct bytes in rx buffer
+80e24d22267597b2ace54686735e3c4cb26a523f bpf, sockmap: Test FIONREAD returns correct bytes in rx buffer with drops
+f726e03564ef4e754dd93beb54303e2e1671049e bpf, sockmap: Test progs verifier error with latest clang
+368d3cb406cdd074d1df2ad9ec06d1bfcb664882 page_pool: fix inconsistency for page_pool_ring_[un]lock()
+d6c36cbc5e533f48bd89a7b5f339bd82b8b4378a r8169: Use a raw_spinlock_t for the register locks.
+8a02fb71d7192ff1a9a47c9d937624966c6e09af net: fix skb leak in __skb_tstamp_tx()
+7e7b3b097a9d95cd76fb462f83dc740b71bd73c0 docs: netdev: document the existence of the mail bot
+04910d8cbfed65dad21c31723c6c1a8d9f990fb6 net: ethernet: mtk_eth_soc: fix QoS on DSA MAC on non MTK_NETSYS_V2 SoCs
+ba46c96db93905f93ebee8ed824cae6790a5ce34 Merge tag 'mlx5-fixes-2023-05-22' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+878ecb0897f4737a4c9401f3523fd49589025671 ipv6: Fix out-of-bounds access in ipv6_find_tlv()
+0c615f1cc3b333775b9c0b56e369f8dbca1e0226 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+a095326e2c0f33743ce8e887d5b90edf3f36cced net/handshake: Remove unneeded check from handshake_dup()
+7ea9c1ec66bc099b0bfba961a8a46dfe25d7d8e4 net/handshake: Fix handshake_dup() ref counting
+7afc6d0a107ffbd448c96eb2458b9e64a5af7860 net/handshake: Fix uninitialized local variable
+fc490880e39d86c65ab2bcbd357af1950fa55e48 net/handshake: handshake_genl_notify() shouldn't ignore @flags
+1ce77c998f0415d7d9d91cb9bd7665e25c8f75f1 net/handshake: Unpin sock->file if a handshake is cancelled
+26fb5480a27d34975cc2b680b77af189620dd740 net/handshake: Enable the SNI extension to work properly
+1de5900c816a9535cf2e18a6bb19832facff8275 Merge branch 'bug-fixes-for-net-handshake'
+57fb54ab9f6945e204740b696bd4cee61ee04e5e net: phy: mscc: add VSC8502 to MODULE_DEVICE_TABLE
+fb055ce4a9e3a115f5dc42011a97cf0cfc7820e4 net: phy: mscc: add support for VSC8501
+7df0b33d7993338a06e4039ec025bb67851ee41d net: phy: mscc: remove unnecessary phydev locking
+71460c9ec5c743e9ffffca3c874d66267c36345e net: phy: mscc: enable VSC8501/2 RGMII RX clock
+aa015a204b6094f909ee9863cd41e50b426dea7d Merge branch 'net-phy-mscc-support-vsc8501'
+ad42a35bdfc6d3c0fc4cb4027d7b2757ce665665 udplite: Fix NULL pointer dereference in __sk_mem_raise_allocated().
+
+--===============8824990913132461322==--
