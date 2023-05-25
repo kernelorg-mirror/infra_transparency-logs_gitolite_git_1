@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 25 May 2023 14:28:21 -0000
-Message-Id: <168502490196.15934.1419551461750717319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 25 May 2023 14:53:57 -0000
+Message-Id: <168502643715.618.13045114999175748241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 7e880e1fb338107fba62c83d9ff985528fd154ef
-    new: 89f977e39807a4d936edcc784f697d9ea8242ad1
+  - ref: refs/heads/kunit
+    old: a5ce66ad292b681ffe245e1c0e8840484da76784
+    new: c7853b55116e644e1fd4f0e5d8ea7c5dc89d71b8
     log: |
-         f11cbd2fe4b154f47d8c19946c74e97e20c9d36f dt-bindings: hwmon: add MAX31827
-         89f977e39807a4d936edcc784f697d9ea8242ad1 hwmon: Add MAX31827 driver
+         b9dce8a1ed3efe0f5c0957f4605140f204226a0f kunit: Add kunit_add_action() to defer a call until test exit
+         00e63f8afcfc6bf93d75141c51d35e8a40e86363 kunit: executor_test: Use kunit_add_action()
+         57e3cded99e9c840bc5310878d0a7f4e7768a296 kunit: kmalloc_array: Use kunit_add_action()
+         c7853b55116e644e1fd4f0e5d8ea7c5dc89d71b8 Documentation: kunit: Add usage notes for kunit_add_action()
          
