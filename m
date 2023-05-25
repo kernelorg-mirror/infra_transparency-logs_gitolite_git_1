@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 25 May 2023 00:55:13 -0000
-Message-Id: <168497611377.7411.17723325960131796112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 25 May 2023 01:20:59 -0000
+Message-Id: <168497765912.29604.10089094887925018029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: ab93c2a3445889c311a40a82601cf304869a893b
-    new: b7e415f145f7675fe2533776fd97de66dbe518f6
+  - ref: refs/heads/damon/next
+    old: 97ef169ead5d1ffacfcdf3ae2b0fc9ca4bb7e317
+    new: 75d6bcd7b75e1c60c81b4ea4776543056032e53e
     log: |
-         b7e415f145f7675fe2533776fd97de66dbe518f6 Bluetooth: Fix use-after-free in hci_remove_ltk/hci_remove_irk
+         75d6bcd7b75e1c60c81b4ea4776543056032e53e Docs/mm/damon/design: Wordsmith
          
