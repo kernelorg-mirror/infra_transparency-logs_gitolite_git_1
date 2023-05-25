@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0039544248635808149=="
+Content-Type: multipart/mixed; boundary="===============3789535130409891668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 25 May 2023 08:39:17 -0000
-Message-Id: <168500395703.26139.360835530567227659@gitolite.kernel.org>
+Date: Thu, 25 May 2023 08:39:23 -0000
+Message-Id: <168500396381.26215.7690473726457825163@gitolite.kernel.org>
 
---===============0039544248635808149==
+--===============3789535130409891668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: ac9a78681b921877518763ba0e89202254349d1b
+  - ref: refs/heads/usb-linus
+    old: ddaf098ea779b3c1302c7843f6ff01e89b1fd380
     new: 44c026a73be8038f03dbdeef028b642880cf1511
-    log: revlist-ac9a78681b92-44c026a73be8.txt
+    log: revlist-ddaf098ea779-44c026a73be8.txt
 
---===============0039544248635808149==
+--===============3789535130409891668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685003954 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685003961 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1685003955-9c777467a75275f95aabf3650dfa5236bd2f6546
+nonce 1685003961-9f4ba1b41b80caa64c300f563e2123dbad05c9de
 
-ac9a78681b921877518763ba0e89202254349d1b 44c026a73be8038f03dbdeef028b642880cf1511 refs/heads/main
+ddaf098ea779b3c1302c7843f6ff01e89b1fd380 44c026a73be8038f03dbdeef028b642880cf1511 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRvHrIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nBEP+weCvvJahlBql8+goyKy
-+kpp922+KATXlzOLjNGj9GZEje3Db56ithy7v/9k7VS8urMjFr429C4dImIyroD4
-q1be1inho5Qz1OXkkZpN16yzyipw0z0H+1RsQhBmg+BJzxqnrmKSEeOBk8AGuV4V
-/vv6vd63nD3cnsHd2jbvSc7HPglBdeZ3deqjzxfniVX+ei36GCVLd+Myiqiuy+IF
-QgEccWNqwQm1FWYdyZzadeHTU4RtIwnYKyfY6jcg/SEnhtGblLkQhU8C1aqzurFm
-3ZCuaNZBbgtXJGdfhiNkDqJ7ngfRNQFAk3IUCxq0ng4w60ZSWzVBNjngOAb9kJuO
-A1kr6wajSCd2gUb7g/FYcytaZmR3UzkI7Iji03WjQRfGXLYANczEpAfPm+wDnYGB
-xFg8VrHWrplCeQ8VI7A5THoZyj67VENMqqCQs07MAVs+DXiAaDbd27qqbhSpzmqM
-HTddSJbKKloQHHM/eRG5/x3pyQ+qWHR/T5LHNFIXuJwFHlNY2tgyTJ5w/WSo7PmU
-biOMbdr0d41Dql2ByU77rrxb2jdILzVDbbQMa1pxFAtXiZ91ILE1ez0x47l8N6QH
-gNQk+ddJt+ZEz0blWop7gehogPUlwfxAasmyhVPcmkIvrN0VAdX43qogM6rOCMUV
-pXghAfiAULYzmiZcFBUgA8CZ
-=Tpe4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRvHrkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CQcP/j5+VSZ066RrTE4Uw6uB
+qYOX7Ex/6VWilT93dCSrK3SHTj+EeGhpN99IYF3QtKaUPBEJXZ/zr5KxWSwwVgdw
+aBiWGFMk1/ZjkQLvHRIvlqy5NYs0dJk1W0XP+NmINAFjFVJ6lS8M8rQX9iB8Hx8B
+IZ0uVzW2D6jupHlQ0uygBFBSGpKRe92MYHuCL6f1cN9qhab2UpWyZbLqc2Pmrk2l
+TgHbTGnVfw/VvNuTRxvEhpJmt89l6pJyzhm0cYQ5coYbp9f+Zlw7ThEyZNWpuZSJ
+8dZDSCcmOZeVKnoMEmYHUd5uHZPrful/y4Yj8rjAjfcte8a3wuTtXb09Wnqdshjz
+ljT1JFJD6fyG8hCcbrZYe750QZJ1EOfdEhpjzpBb1DEJDCPH/Py8rHGW3eWX3pc+
+5DcyYJYwEI3MaclAZ4oTP7rRaGQQFrgIYJbZQsGBD3zRYV9/Xy1T35htVCXrLetx
+UsQI4BHewgIBrj/j9sZdaL5ikznZrQE5/x23006u/0vtNAvOpblOWO7Hl6oc7GOi
+EqsTTRSWPdts97UgaIS6DHx1LMA1hZND17kwQKDlZ8r96mQa5dl8Q2vW85P18gHa
+5P9mNySIBImdFs11o5lDh5SDGtm1Zy/NxhYeIItswWhNzpl2nD6TmtDG4x/G3KEf
+pNfSYaFxzdr7pBedGwBziGDq
+=rVyw
 -----END PGP SIGNATURE-----
 
---===============0039544248635808149==
+--===============3789535130409891668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-44c026a73be8.txt
+Content-Disposition: attachment; filename=revlist-ddaf098ea779-44c026a73be8.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -160,7 +160,6 @@ f9d36cf445ffff0b913ba187a3eff78028f9b1fb tick/broadcast: Make broadcast device r
 051d71e073614a72ad423d6dacba37a7eeff274d ASoC: SOF: amd: Fix NULL pointer crash in acp_sof_ipc_msg_data function
 ba8c2b75b02a162202d31e6200ab15da1035a7d0 smb3: improve parallel reads of large files
 8bbec86ce6d66fb33530c679f7bb3a123fc9e7da dt-bindings: PCI: fsl,imx6q: fix assigned-clocks warning
-c4af8e3fecd03b0aedcd38145955605cfebe7e3a thunderbolt: Clear registers properly when auto clear isn't in use
 75e406b540c3eca67625d97bbefd4e3787eafbfe platform/x86/intel-uncore-freq: Return error on write frequency
 decab2825c3ef9b154c6f76bce40872ffb41c36f platform/x86: hp-wmi: add micmute to hp_wmi_keymap struct
 0c0cd3e25a5b64b541dd83ba6e032475a9d77432 platform/x86: thinkpad_acpi: Fix platform profiles on T490
@@ -344,19 +343,6 @@ fd88f147cb121c9c748ca0d4c5155a96e9d81e58 Merge tag '6.4-rc1-smb3-client-fixes' o
 53558de2b5c4f4ee6bfcfbe34e27071c2d0073d5 media: pvrusb2: fix DVB_CORE dependency
 7efb10d8dc70ea3000cc70dca53407c52488acd1 media: dvb_demux: fix a bug for the continuity counter
 764d102ef94e880ca834a7fe3968a00a05b1fb12 cxl: Add missing return to cdat read error path
-94d25e9128988c6a1fc9070f6e98215a95795bd8 USB: usbtmc: Fix direction for 0-length ioctl control messages
-c8540870af4ce6ddeb27a7bb5498b75fb29b643c usb: dwc3: gadget: Improve dwc3_gadget_suspend() and dwc3_gadget_resume()
-4e8ef34e36f2839ef8c8da521ab7035956436818 usb: dwc3: fix gadget mode suspend interrupt handler issue
-dddb342b5b9e482bb213aecc08cbdb201ea4f8da USB: UHCI: adjust zhaoxin UHCI controllers OverCurrent bit value
-614ce6a2ea50068b45339257891e51e639ac9001 usb: dwc3: debugfs: Resume dwc3 before accessing registers
-8432a15cd810c99db464b7e7858d559f3e1920e3 usb: gadget: drop superfluous ':' in doc string
-5e1617210aede9f1b91bb9819c93097b6da481f9 Revert "usb: gadget: udc: core: Prevent redundant calls to pullup"
-f22e9b67f19ccc73de1ae04375d4b30684e261f8 Revert "usb: gadget: udc: core: Invoke usb_gadget_connect only when started"
-d8f28269dd4bf9b55c3fb376ae31512730a96fce usb: typec: altmodes/displayport: fix pin_assignment_show
-3c0f4f09c063e143822393d99cb2b19a85451c07 usb: gadget: u_ether: Fix host MAC address case
-94ea04ec790887b5b0e43429a92c18a1e692ec08 usb: typec: tps6598x: Fix fault at module removal
-8018018d9c56473067e5358986ce0ee9ce56949f usb: dwc3: fix a test for error in dwc3_core_init()
-a398d5eac6984316e71474e25b975688f282379b usb-storage: fix deadlock when a scsi command timeouts more than once
 95d698869b404772cc8b72560df71548491c10bc serial: 8250_exar: Add support for USR298x PCI Modems
 d2b00516de0e1d696724247098f6733a6ea53908 serial: Add support for Advantech PCI-1611U card
 f16182ed9d8430adfab77f5929c23756c94b0230 serial: 8250: Document termios parameter of serial8250_em485_config()
@@ -491,8 +477,6 @@ c4c597f1b367433c52c531dccd6859a39b4580fb arm64: mte: Do not set PG_mte_tagged if
 ad593827db9b73f15eb65416ec975ec0311f773a powerpc/iommu: Remove iommu_del_device()
 096339ab84f36beae0b1db25e0ce63fb3873e8b2 powerpc/iommu: DMA address offset is incorrectly calculated with 2MB TCEs
 1f7aacc5eb9ed2cc17be7a90da5cd559effb9d59 powerpc/iommu: Incorrect DDW Table is referenced for SR-IOV device
-2a821fc3136d5d99dcb9de152be8a052ca27d870 xhci-pci: Only run d3cold avoidance quirk for s2idle
-fe82f16aafdaf8002281d3b9524291d4a4a28460 xhci: Fix incorrect tracking of free space on transfer rings
 02f76c401d17e409ed45bf7887148fcc22c93c85 ksmbd: fix global-out-of-bounds in smb2_find_context_vals
 f0a96d1aafd8964e1f9955c830a3e5cb3c60a90f ksmbd: fix wrong UserName check in session_user
 443d61d1fa9faa60ef925513d83742902390100f ksmbd: allocate one more byte for implied bcc[0]
@@ -564,7 +548,6 @@ ab87603b251134441a67385ecc9d3371be17b7a7 net: wwan: t7xx: Ensure init is complet
 224a876e37543eee111bf9b6aa4935080e619335 netfilter: conntrack: define variables exp_nat_nla_policy and any_addr with CONFIG_NF_NAT
 e3c361b8acd636f5fe80c02849ca175201edf10c netfilter: nf_tables: fix nft_trans type confusion
 61ae320a29b0540c16931816299eb86bf2b66c08 netfilter: nft_set_rbtree: fix null deref on element insertion
-1e94be78ec1556e90056ac038b15231723d315a9 Merge tag 'thunderbolt-for-v6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 2862a2fdfae875888e3c1c3634e3422e01d98147 s390/qdio: fix do_sqbs() inline assembly constraint
 ed40866ec7d328b3dfb70db7e2011640a16202c3 statfs: enforce statfs[64] structure initialization
 6d9406f80cd82964c8ed75d482d885f18921e0b8 s390/uapi: cover statfs padding by growing f_spare
@@ -630,7 +613,6 @@ f4a8871f9f347b185c44525c9bb1755951f94841 Merge tag 'mm-hotfixes-stable-2023-05-1
 83ab69c9f759e365cba243568cd76f8d49dcd5b5 Merge tag 'drm-msm-fixes-2023-05-17' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 79ef1c9d14c65a5c3f7eec47389d8c2a33be8e8d Merge tag 'amd-drm-fixes-6.4-2023-05-18' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 1878b736e88e0d30f67d7fb577816395727ef040 Merge tag 'nvme-6.4-2023-05-18' of git://git.infradead.org/nvme into block-6.4
-ddaf098ea779b3c1302c7843f6ff01e89b1fd380 driver core: class: properly reference count class_dev_iter()
 951efb9976ce453342a86b29d7bfe9fa483c7c4d perf test attr: Update no event/metric expectations
 75438f24a4d4adcaea6f04ad3a94b7a145e63327 perf test attr: Fix python SafeConfigParser() deprecation warning
 46f5dd7439e35ae63cdf04d7967152936c8a511e fbdev: omapfb: panel-tpo-td043mtea1: fix error code in probe()
@@ -675,4 +657,4 @@ a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kern
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
 
---===============0039544248635808149==--
+--===============3789535130409891668==--
