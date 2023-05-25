@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0423290612429885424=="
+Content-Type: multipart/mixed; boundary="===============6737382950160584130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 25 May 2023 09:31:29 -0000
-Message-Id: <168500708969.29907.10017509775530541501@gitolite.kernel.org>
+Date: Thu, 25 May 2023 09:31:45 -0000
+Message-Id: <168500710551.30053.8308374736698076103@gitolite.kernel.org>
 
---===============0423290612429885424==
+--===============6737382950160584130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: e06854e84add15564e90cdc57bdab5e0348e9b34
-    new: 1aae3c9ccf14c04aacdca16472fbda472df284cd
-    log: revlist-e06854e84add-1aae3c9ccf14.txt
+  - ref: refs/heads/master
+    old: ba0ad6ed89fd5dada3b7b65ef2b08e95d449d4ab
+    new: ae8373a5add4ea39f032563cf12a02946d1e3546
+    log: revlist-ba0ad6ed89fd-ae8373a5add4.txt
 
---===============0423290612429885424==
+--===============6737382950160584130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e06854e84add-1aae3c9ccf14.txt
+Content-Disposition: attachment; filename=revlist-ba0ad6ed89fd-ae8373a5add4.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -119,7 +119,6 @@ ae3c253f595b31ff30d55b4c50b4470e56bc4e0d media: platform: mtk-mdp3: work around 
 17955aba7877a4494d8093ae5498e19469b01d57 ASoC: fsl_micfil: Fix error handler with pm_runtime_enable
 e652be0f59d4ba4d5c636b1f7f4dcb73aae049fa cpupower:Fix resource leaks in sysfs_get_enabled()
 4a9b6850c794e4394cad99e2b863d75f5bc8e92f platform/x86: intel_scu_pcidrv: Add back PCI ID for Medfield
-ba0ad6ed89fd5dada3b7b65ef2b08e95d449d4ab media: nxp: imx8-isi: fix buiding on 32-bit
 c2adb1877b76fc81ae041e1db1a6ed2078c6746b cpupower: Make TSC read per CPU for Mperf monitor
 d66cde50c3c868af7abddafce701bb86e4a93039 cifs: fix pcchunk length type in smb2_copychunk_range
 cbd4cbabef646f1719a73a01cc491b1c1fea4d41 do not reuse connection if share marked as isolated
@@ -142,8 +141,6 @@ cc719a9ce7a455bef132e0211437847bcd89b4ef parisc: kexec: include reboot.h
 293007b033418c8c9d1b35d68dec49a500750fde io_uring: make io_uring_sqe_cmd() unconditionally available
 2cb6f968775a9fd60c90a6042b9550bcec3ea087 SMB3: force unmount was failing to close deferred close files
 716a3cf317456fa01d54398bb14ab354f50ed6a2 smb3: fix problem remounting a share after shutdown
-8f9d530cffc1c035974a320c51c67abfdddf01ac dt-bindings: firmware: arm,scmi: support for parameter in smc/hvc call
-5f2ea10a808aef0086ad46240fab0a3e7ae90e95 firmware: arm_scmi: Augment SMC/HVC to allow optional parameters
 1dc3731daf1f350cfd631b5559aac865ab2fbb4c Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 16a8829130ca22666ac6236178a6233208d425c3 nfs: fix another case of NULL/IS_ERR confusion wrt folio pointers
 c87f318e6f47696b4040b58f460d5c17ea0280e6 btrfs: print-tree: parent bytenr must be aligned to sector size
@@ -653,7 +650,5 @@ fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of gi
 d36f6efbe0cb422fe1e4475717d75f3737088832 module: Fix use-after-free bug in read_file_mod_stats()
 1177dcc9637661e05c18aa019a49821bcd6b3dc1 Merge tag 'modules-6.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 ae8373a5add4ea39f032563cf12a02946d1e3546 Merge tag 'x86_urgent_for_6.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2774a9a2461a17a6dd0575ddc6e561e59afdc934 Merge tags 'scmi-fix-6.4', 'juno-fixes-6.4' and 'ffa-fixes-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-1aae3c9ccf14c04aacdca16472fbda472df284cd Merge branch 'for-next/scmi/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============0423290612429885424==--
+--===============6737382950160584130==--
