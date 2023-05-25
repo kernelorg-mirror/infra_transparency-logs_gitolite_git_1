@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
 Date: Thu, 25 May 2023 14:53:57 -0000
-Message-Id: <168502643715.618.13045114999175748241@gitolite.kernel.org>
+Message-Id: <168502643792.668.6602732587147153681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/kunit
-    old: a5ce66ad292b681ffe245e1c0e8840484da76784
-    new: c7853b55116e644e1fd4f0e5d8ea7c5dc89d71b8
-    log: |
-         b9dce8a1ed3efe0f5c0957f4605140f204226a0f kunit: Add kunit_add_action() to defer a call until test exit
-         00e63f8afcfc6bf93d75141c51d35e8a40e86363 kunit: executor_test: Use kunit_add_action()
-         57e3cded99e9c840bc5310878d0a7f4e7768a296 kunit: kmalloc_array: Use kunit_add_action()
-         c7853b55116e644e1fd4f0e5d8ea7c5dc89d71b8 Documentation: kunit: Add usage notes for kunit_add_action()
-         
+  - ref: refs/heads/arm64-scs-patching-v6
+    old: 4b280c0060e55411a8822af5f30e2769be64528d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/efi-zboot-direct-mmu-on-v2
+    old: 7dadc120dd8fafba71bf149bacbc56e2245fb5c8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/efistub-refactor-for-v6.1
+    old: 40cd01a9c324bd238e107d9d5ecb6824146a7836
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/libaesgcm-v4
+    old: c35626b4af45f203d9437b52cc533356ef077713
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/libaesgcm-v5
+    old: 522845173a84de2d640283a9327de7af38338c4b
+    new: 0000000000000000000000000000000000000000
