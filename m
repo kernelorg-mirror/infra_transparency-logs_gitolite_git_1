@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7029774514599067109=="
+Content-Type: multipart/mixed; boundary="===============6098542286287319441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Thu, 25 May 2023 08:30:37 -0000
-Message-Id: <168500343741.21511.17056089974688586623@gitolite.kernel.org>
+Date: Thu, 25 May 2023 08:31:08 -0000
+Message-Id: <168500346823.21724.9938208914767652081@gitolite.kernel.org>
 
---===============7029774514599067109==
+--===============6098542286287319441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/for-linus
-    old: f7dcc5e33c1e4b0d278a30f7d2f0c9a63d7b40ca
+  - ref: refs/heads/upstream
+    old: ac9a78681b921877518763ba0e89202254349d1b
     new: 44c026a73be8038f03dbdeef028b642880cf1511
-    log: revlist-f7dcc5e33c1e-44c026a73be8.txt
+    log: revlist-ac9a78681b92-44c026a73be8.txt
 
---===============7029774514599067109==
+--===============6098542286287319441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7dcc5e33c1e-44c026a73be8.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-44c026a73be8.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -212,6 +212,7 @@ bfd431cb2c68cbaec7a27b8a979d031f8501301b perf cs-etm: Fix contextid validation
 2a78769da34b792cc4c4f7157cda6b622fab0872 Merge tag 'gfs2-v6.3-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 d295b66a7b66ed504a827b58876ad9ea48c0f4a8 Merge tag 'fsnotify_for_v6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 d39fc592ef8ae9a89c5e85c8d9f760937a57d5ba cifs: release leases for deferred close handles when freezing
+f7dcc5e33c1e4b0d278a30f7d2f0c9a63d7b40ca firewire: net: fix unexpected release of object for asynchronous request packet
 80e62bc8487b049696e67ad133c503bf7f6806f7 MAINTAINERS: re-sort all entries and fields
 ad721bc919edfd8b4b06977458a412011e2f0c50 ASoC: jz4740-i2s: Make I2S divider calculations more robust
 efb2bfd7b3d210c479b9361c176d7426e5eb8663 ASoC: dt-bindings: Adjust #sound-dai-cells on TI's single-DAI codecs
@@ -643,4 +644,4 @@ a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kern
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
 
---===============7029774514599067109==--
+--===============6098542286287319441==--
