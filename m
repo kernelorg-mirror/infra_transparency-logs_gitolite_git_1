@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Thu, 25 May 2023 11:36:02 -0000
-Message-Id: <168501456229.30797.176832578702413233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 25 May 2023 11:36:42 -0000
+Message-Id: <168501460295.31079.15342621655634390556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: e45076007e358ff1e934ab009cf68ee723f6f1fd
-    new: 50da4496761b44752dfdf8096cbee399058aa7da
+  - ref: refs/heads/main
+    old: e8f8b3323039e4c60c626ce853eca7b36b0aaa8f
+    new: 623a71385312ee288d59e319b90922e6e6943766
     log: |
-         91e648fcccf38fed558c7c5330d77e229bbf24ef dt-bindings: phy: qcom,qmp-pcie: fix the sc8180x regs
-         50da4496761b44752dfdf8096cbee399058aa7da dt-bindings: phy: qcom,qmp-ufs: fix the sc8180x regs
+         623a71385312ee288d59e319b90922e6e6943766 net/mlx4: Use bitmap_weight_and()
          
