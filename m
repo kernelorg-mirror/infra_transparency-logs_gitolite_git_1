@@ -1,19 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Thu, 25 May 2023 08:32:58 -0000
-Message-Id: <168500357831.22419.6514370240771329933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 25 May 2023 08:33:57 -0000
+Message-Id: <168500363736.22797.12941933647851424872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/meta/cgit
-    old: 9de64e0f7c0fedc0660702fa791aa6771b4c32c1
-    new: d3461739fd3ba361e173c8bbc4de9aae7f1a6a24
+  - ref: refs/heads/for-next
+    old: 0006fa2d3fa0320a385bd19c9c98b70ad3db7197
+    new: f7241589f7bcc6783d416ab1dd7832d4b2a2aa72
     log: |
-         d3461739fd3ba361e173c8bbc4de9aae7f1a6a24 update bases since v6.4-rc3 is released
+         ab2335daa6ef70df56c98c216261a93e28ae52b3 ALSA: ump: Drop redundant check of note-on with zero velocity
+         77700b81bd0e47d89d50eb4b3f2f323492f79998 ALSA: ump: Fix parsing of 0xFx command
+         f7241589f7bcc6783d416ab1dd7832d4b2a2aa72 Merge branch 'topic/midi20' into for-next
+         
+  - ref: refs/heads/master
+    old: 4ff7cfc14761cd4cbc70527697cfcd48e1affecc
+    new: b734d269bef0e5d3a1817409b500ce8514fc833a
+    log: |
+         ab2335daa6ef70df56c98c216261a93e28ae52b3 ALSA: ump: Drop redundant check of note-on with zero velocity
+         77700b81bd0e47d89d50eb4b3f2f323492f79998 ALSA: ump: Fix parsing of 0xFx command
+         f7241589f7bcc6783d416ab1dd7832d4b2a2aa72 Merge branch 'topic/midi20' into for-next
+         b734d269bef0e5d3a1817409b500ce8514fc833a Merge branch 'for-next'
+         
+  - ref: refs/heads/topic/midi20
+    old: dafb82e7d39767f11660705a518a551251fbdfe4
+    new: 77700b81bd0e47d89d50eb4b3f2f323492f79998
+    log: |
+         ab2335daa6ef70df56c98c216261a93e28ae52b3 ALSA: ump: Drop redundant check of note-on with zero velocity
+         77700b81bd0e47d89d50eb4b3f2f323492f79998 ALSA: ump: Fix parsing of 0xFx command
          
