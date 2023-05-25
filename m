@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 25 May 2023 14:53:57 -0000
-Message-Id: <168502643792.668.6602732587147153681@gitolite.kernel.org>
+Date: Thu, 25 May 2023 14:54:41 -0000
+Message-Id: <168502648194.1037.9604568748197448444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm64-scs-patching-v6
-    old: 4b280c0060e55411a8822af5f30e2769be64528d
+  - ref: refs/heads/arm-spectre-bhb
+    old: fa78afa1e3edfa6be1067ca1e7e1af6485b9daef
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/efi-zboot-direct-mmu-on-v2
-    old: 7dadc120dd8fafba71bf149bacbc56e2245fb5c8
+  - ref: refs/heads/arm32-ftrace-fixes
+    old: dc4c8b43ba71dbba53f27f710945414c67c46ee6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/efistub-refactor-for-v6.1
-    old: 40cd01a9c324bd238e107d9d5ecb6824146a7836
+  - ref: refs/heads/arm64-scs-patching-v5
+    old: b1444b9b93b065ea08a511fdd4cfe4297bb858f8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/libaesgcm-v4
-    old: c35626b4af45f203d9437b52cc533356ef077713
+  - ref: refs/heads/hctr2
+    old: 5bb01649223080b7cde5740f441eb5e758ec357f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/libaesgcm-v5
-    old: 522845173a84de2d640283a9327de7af38338c4b
+  - ref: refs/heads/tmp-rmk-devel-stable-unwind-merge
+    old: 9777dafaf5c12de40187a4f2ca0730ac88b8be70
     new: 0000000000000000000000000000000000000000
