@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 25 May 2023 11:14:38 -0000
-Message-Id: <168501327890.14617.1764857519459835298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 25 May 2023 11:15:51 -0000
+Message-Id: <168501335116.16646.8202686588232593417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/ib-leds-netdev-v6.5
+  - ref: refs/heads/v3_20230525_geert_renesas_regulator_core_fix_error_checking_and_messages
     old: 0000000000000000000000000000000000000000
-    new: 17fe194f93444663c80bd3d49bcd09a33a685ce5
+    new: 08880713ceec023dd94d634f1e8902728c385939
