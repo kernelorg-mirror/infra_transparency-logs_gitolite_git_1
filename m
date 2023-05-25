@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 25 May 2023 13:55:15 -0000
-Message-Id: <168502291562.27780.9060310866191704297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 25 May 2023 14:28:21 -0000
+Message-Id: <168502490196.15934.1419551461750717319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: 623a71385312ee288d59e319b90922e6e6943766
-    new: 657d42cf5df64d9f32caab73ba2d2284879a37b0
+  - ref: refs/heads/hwmon-next
+    old: 7e880e1fb338107fba62c83d9ff985528fd154ef
+    new: 89f977e39807a4d936edcc784f697d9ea8242ad1
     log: |
-         657d42cf5df64d9f32caab73ba2d2284879a37b0 s390/ism: Set DMA coherent mask
+         f11cbd2fe4b154f47d8c19946c74e97e20c9d36f dt-bindings: hwmon: add MAX31827
+         89f977e39807a4d936edcc784f697d9ea8242ad1 hwmon: Add MAX31827 driver
          
