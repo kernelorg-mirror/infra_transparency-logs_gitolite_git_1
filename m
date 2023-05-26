@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3417424272079790122=="
+Content-Type: multipart/mixed; boundary="===============2686013054334039763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 26 May 2023 20:52:34 -0000
-Message-Id: <168513435496.4407.18049810476910241279@gitolite.kernel.org>
+Date: Fri, 26 May 2023 20:53:21 -0000
+Message-Id: <168513440156.4767.14943029698922658066@gitolite.kernel.org>
 
---===============3417424272079790122==
+--===============2686013054334039763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: cd2123c099e1da7ad7e78c5334c94b988251c516
-    new: e715e0491d409cb3fa09cc3f4409bfa5db0277a7
-    log: revlist-cd2123c099e1-e715e0491d40.txt
+  - ref: refs/heads/for-next/kspp
+    old: 9afcf16a0b24a2a228aabaaf5d13644bc35623ba
+    new: d78e5c1ed79019be1aec21a02f137a9443cdde35
+    log: revlist-9afcf16a0b24-d78e5c1ed790.txt
 
---===============3417424272079790122==
+--===============2686013054334039763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd2123c099e1-e715e0491d40.txt
+Content-Disposition: attachment; filename=revlist-9afcf16a0b24-d78e5c1ed790.txt
 
 3b92d34ac06a4bb05a349641cb22373f1ae33f0b scsi: ibmvscsi: Replace all non-returning strlcpy with strscpy
 2f4113b330810ab71efa0bd4bbd0655154cd2a70 scsi: qedi: Replace all non-returning strlcpy with strscpy
@@ -41,7 +41,5 @@ d046e40cabc5af9f997b310e788304d739c99cb5 lkdtm/bugs: Switch from 1-element array
 accdb265d78789730595926a9ffc12d71a4fa35c autofs: use flexible array in ioctl structure
 3e286de836c6e9ecb2f85bff3628fa957c61e700 Compiler Attributes: Add __counted_by macro
 d78e5c1ed79019be1aec21a02f137a9443cdde35 ftrace: Replace all non-returning strlcpy with strscpy
-92a28e4caea51e5402c4af1d454a3de9510545ba checkpatch: Check for strcpy and strncpy too
-e715e0491d409cb3fa09cc3f4409bfa5db0277a7 checkpatch: Warn about 0-length and 1-element arrays
 
---===============3417424272079790122==--
+--===============2686013054334039763==--
