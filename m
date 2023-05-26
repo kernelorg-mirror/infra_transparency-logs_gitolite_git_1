@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 26 May 2023 13:26:37 -0000
-Message-Id: <168510759739.15831.16247027783663746285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 26 May 2023 13:26:51 -0000
+Message-Id: <168510761183.15960.11065896822510436676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
+repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 6d255623d7982df54a8b1bd4eea8a71b21de43fd
-    new: b2b56a16323043b49dea915bc47408b30b91b0b6
+  - ref: refs/heads/master
+    old: c6b0cd777010f0cf00c3d04b00efd79353b66174
+    new: 4687bcc4f48a9894469ee240e0c67c42d56169c3
     log: |
-         6516c3d5d6161d81087c1e9c683480fd2597a0c3 dt-bindings: gpio: Add GPIO3 for AXP209 GPIO binding schema
-         b2b56a16323043b49dea915bc47408b30b91b0b6 gpio: tegra186: Check GPIO pin permission before access.
+         4687bcc4f48a9894469ee240e0c67c42d56169c3 bindings: python: specify the symbols to export explicitly
          
