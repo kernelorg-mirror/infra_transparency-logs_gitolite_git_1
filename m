@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Fri, 26 May 2023 12:24:51 -0000
-Message-Id: <168510389118.6362.16536178944670650545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 26 May 2023 12:48:22 -0000
+Message-Id: <168510530204.21114.14739925838624506855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/wt-2023-05-26
+  - ref: refs/heads/for-6.4-rc3
     old: 0000000000000000000000000000000000000000
-    new: 4155fa77d05fb4df2d20b2d8e37c9ea595a53588
+    new: 597441b3436a43011f31ce71dc0a6c0bf5ce958a
