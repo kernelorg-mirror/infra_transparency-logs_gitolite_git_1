@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 26 May 2023 21:59:01 -0000
-Message-Id: <168513834120.16408.14611478264662940589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 26 May 2023 22:06:44 -0000
+Message-Id: <168513880432.22064.1275054990503626265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 94d6fc3852c05350916ea871e9b1412aacfac21b
-    new: 168ff84b0a8781c9f07b17ceda4f52dc3307b6f2
+    old: 718f27d09fc129d0b94ef61192482ac7e18cbaed
+    new: 97f3386268faec3c748765f4fcbb4fb80978407f
     log: |
-         168ff84b0a8781c9f07b17ceda4f52dc3307b6f2 Fri May 26 09:57:36 PM UTC 2023
+         ec85350c4803b2966249537ea696031304260b91 monitor: Print process information
+         f808fa065396ff31e7f7a73f5cb855142dad475b doc: Update Docs for BAP broadcast source
+         97f3386268faec3c748765f4fcbb4fb80978407f monitor: Decode broadcast bits of MGMT settings
          
