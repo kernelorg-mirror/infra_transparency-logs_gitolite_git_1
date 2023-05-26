@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 May 2023 09:40:06 -0000
-Message-Id: <168509400613.11264.2090640631207664708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 26 May 2023 09:40:37 -0000
+Message-Id: <168509403750.20201.4953187252404907062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: 9b66ee06e5ca2698d0ba12a7ad7188cb724279e7
-    new: eba7dbc5eba06a503ba78fdfb4488dbaaeed9471
+  - ref: refs/heads/master
+    old: 51ef3b7f9501fbb7e46a1c992dd7839c2a502479
+    new: 4ab7f08db5310ded48a5c1f3ec3f2e177ba6b1c2
     log: |
-         dd805cf3e80e038aeb06902399ce9bd6fafb4ff3 net: dsa: add support for mac_prepare() and mac_finish() calls
-         267d7692f6cd5c9b8796324cdd54db594ca8d3e4 net: dsa: mv88e6xxx: move link forcing to mac_prepare/mac_finish
-         eba7dbc5eba06a503ba78fdfb4488dbaaeed9471 Merge branch 'mv88e6xxx-phylink-prepare'
+         342527f35338d9373f307e24662f174008b571b2 wifi: ath12k: Add support to parse new WMI event for 6 GHz regulatory
+         a272da44dfee6218e8f8f936854f1d60fe1ef333 Merge branch 'ath-next'
+         4ab7f08db5310ded48a5c1f3ec3f2e177ba6b1c2 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202305260939
+    old: 0000000000000000000000000000000000000000
+    new: 4ab7f08db5310ded48a5c1f3ec3f2e177ba6b1c2
