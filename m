@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 26 May 2023 16:26:09 -0000
-Message-Id: <168511836906.8482.3457010212050726748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 26 May 2023 16:28:14 -0000
+Message-Id: <168511849410.9306.4112426380550080025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 8f03ed74c4f1efc2c46710dc36bf4c0d92a9a016
-    new: 28fa4319d54ac57b59c3510a1b288bc1353e0bf3
+    old: 9b366f539fabd8c67e24f02a71e7c07ba8b33d7b
+    new: 367c72ccb915a94596005aebb78557aeba517e90
     log: |
-         d6be3bf89af6c63a6f67db3074264046a5d1ec39 ice: make writes to /dev/gnssX synchronous
-         9274f5b342f29a9e032e99946249290da54764d5 ice: Fix XDP memory leak when NIC is brought up and down
-         28fa4319d54ac57b59c3510a1b288bc1353e0bf3 ice: Don't dereference NULL in ice_gns_read error path
+         abdec9b0a83b4a4039f14a53e469235f2d29dc18 ice: make writes to /dev/gnssX synchronous
+         297bceed9080200863aa2b403b75d8d56923e00c ice: Fix XDP memory leak when NIC is brought up and down
+         367c72ccb915a94596005aebb78557aeba517e90 ice: Don't dereference NULL in ice_gns_read error path
          
