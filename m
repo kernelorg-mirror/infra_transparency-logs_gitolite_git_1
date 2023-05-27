@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4847172389874394633=="
+Content-Type: multipart/mixed; boundary="===============8490283964641265577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 27 May 2023 21:44:28 -0000
-Message-Id: <168522386880.29842.7335997366083045047@gitolite.kernel.org>
+Date: Sat, 27 May 2023 21:44:38 -0000
+Message-Id: <168522387860.29936.2910996486899401159@gitolite.kernel.org>
 
---===============4847172389874394633==
+--===============8490283964641265577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/tmp.perf/core
     old: 540c910c65a94fb4622b9dd03d71adc0e82d94e9
     new: 6b9da260703096b366ec0fe78d87053e8f577776
     log: revlist-540c910c65a9-6b9da2607030.txt
 
---===============4847172389874394633==
+--===============8490283964641265577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ f24ebe8053514936d4e8cffb707af3a275fa32e5 perf pmus: Prefer perf_pmu__scan over p
 94f9eb95d954bee0149fd1ce84c239c9e09ae9d8 perf pmus: Remove perf_pmus__has_hybrid
 6b9da260703096b366ec0fe78d87053e8f577776 perf pmu: Remove is_pmu_hybrid
 
---===============4847172389874394633==--
+--===============8490283964641265577==--
