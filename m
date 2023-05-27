@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 27 May 2023 09:23:58 -0000
-Message-Id: <168517943811.17377.13132601194425794200@gitolite.kernel.org>
+Date: Sat, 27 May 2023 09:31:09 -0000
+Message-Id: <168517986985.22698.8380937621081182793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/for-next
-    old: 780328abc0cbde7398d3c04be56fbb5f89ed10b8
-    new: 7734fa0f531ba43071eff5834eb8635c1a071880
+    old: 7734fa0f531ba43071eff5834eb8635c1a071880
+    new: e077d765e531e2581c404b41d00bfa9158f753d5
     log: |
-         7734fa0f531ba43071eff5834eb8635c1a071880 fbcon: Fix null-ptr-deref in soft_cursor
+         e077d765e531e2581c404b41d00bfa9158f753d5 fbdev: imsttfb: Release framebuffer and dealloc cmap on error path
          
