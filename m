@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 27 May 2023 10:38:18 -0000
-Message-Id: <168518389864.14724.8247879793381128656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
+Date: Sat, 27 May 2023 13:12:12 -0000
+Message-Id: <168519313269.18566.13545217155261426183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/hansg/linux
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 8efd0975a0e9c9d3d43ff8951b7a1acc1d9d8e39
-    new: cbef7a09aa845ca2eded65a124970c6508d4b2b2
+  - ref: refs/heads/media-atomisp
+    old: c09907049eea9f12e959fb88c02a483a4c5eee89
+    new: e010106c0c8e26df9dea0615ae2581daca2b4627
     log: |
-         828b0ca398494159119db10a491512a70036e17d formal: Fix references
-         cbef7a09aa845ca2eded65a124970c6508d4b2b2 spinhint: Add clarifying step to QRCU by-hand proof
+         de8a17787f1e5b7adc6e2ebbcac28b2eceaa8571 media: atomisp: Add support for v4l2-async sensor registration
+         4ba423ee13d56f1cd60e7cde40143098166d13af media: atomisp: ov2680: Turn into standard v4l2 sensor driver
+         a886db31b91e708e087ad2bdaf5e9ec5cf715254 media: atomisp: gc0310: Turn into standard v4l2 sensor driver
+         2612d4d68455985972354a6caf7260f4b96e63a4 media: atomisp: Drop v4l2_get_acpi_sensor_info() function
+         e010106c0c8e26df9dea0615ae2581daca2b4627 media: atomisp: gmin_platform: fix out_len in gmin_get_config_dsm_var()
          
