@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============2926662105032097353=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sat, 27 May 2023 05:22:28 -0000
-Message-Id: <168516494831.20492.2471377016557167179@gitolite.kernel.org>
+Date: Sat, 27 May 2023 05:23:30 -0000
+Message-Id: <168516501037.20912.11285775428331892765@gitolite.kernel.org>
+
+--===============2926662105032097353==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,18 +16,30 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/objtool-diet
-    old: 1fb92a891c743ef5c818c251189f5be7af66fbf9
-    new: 5a1583bc6fa8c1970aa88651f7615a8282835ac5
-    log: |
-         099d52f81a326892fa23545cca672fc8c9d1230c objtool: Get rid of reloc->list
-         cf9da33519468245af9e744de2d3c8fa41f144d9 objtool: Get rid of reloc->idx
-         256b0db02268a6e503f845edbb41294915bb72bc objtool: Get rid of reloc->offset
-         4574b43948a29ec460c7b568fb34968700694024 objtool: Get rid of reloc->type
-         cc0029ed9767a8f5af23f6a0c12c5c8627cc63ea objtool: Get rid of reloc->addend
-         33ff5ada34d2bf14b6a9642ac2de39e990e2ed9e objtool: Get rid of reloc->jump_table_start
-         0589679ec214ac7c3030b6829d4c87204254807a objtool: Shrink reloc->sym_reloc_entry
-         d2b74b3db4350a95f06c8980a7d2406a7056b70c objtool: Shrink elf hash nodes
-         80a0757b43785546d56e525b9763967c31947a77 objtool: Get rid of reloc->rel[a]
-         fc38681dc3c29432c4ad0298b21b2ec5b8cc8fd0 objtool: Free insns when done
-         5a1583bc6fa8c1970aa88651f7615a8282835ac5 objtool: Skip reading DWARF section data
-         
+    old: 5a1583bc6fa8c1970aa88651f7615a8282835ac5
+    new: 5c199e3b1e91c997cb07ea571594202af554af3f
+    log: revlist-5a1583bc6fa8-5c199e3b1e91.txt
+
+--===============2926662105032097353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5a1583bc6fa8-5c199e3b1e91.txt
+
+b3ffdb21176defb3b0253328b257c97375239675 objtool: Keep libelf rel[a] entries synced
+e29636612b3623d6061672bfe3d2a39f9f571305 objtool: Don't free memory in elf_close()
+450c09ce08b6e3ef3cfd015f4476cf68f8b61a08 objtool: Add for_each_reloc()
+d2ecce742545ecc5c4727d1e26299f85b869ff91 objtool: Allocate relocs in advance for new rela sections
+fd9700f546f95421601b679868422e8a14b96a09 objtool: Get rid of reloc->list
+46a5fb8ae1c1e6aa5e45c3f62974e5946d791857 objtool: Get rid of reloc->idx
+7428854d50709b353e69557322d66a5cab58347c objtool: Get rid of reloc->offset
+82ee8351640a8b72f5ecec837eb20536b9641d8c objtool: Get rid of reloc->type
+ec6b13d9b4e68f404422ebbe3c2bbcb9d52ffed6 objtool: Get rid of reloc->addend
+9554dd490dd303853cb3c3e514ce7b16de3b951e objtool: Get rid of reloc->jump_table_start
+5c492c933783cf24a4c970caecb44f0c4a1f72b8 objtool: Shrink reloc->sym_reloc_entry
+91b08ad252947f6df86dc5b3231d2443da0bc25e objtool: Shrink elf hash nodes
+5df7c135c4db20ba119c867e552d0518f0a28bce objtool: Get rid of reloc->rel[a]
+58ca96a516334bf39758d4c9211712f1bad182fb objtool: Free insns when done
+5c199e3b1e91c997cb07ea571594202af554af3f objtool: Skip reading DWARF section data
+
+--===============2926662105032097353==--
