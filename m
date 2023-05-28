@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4309691272774675798=="
+Content-Type: multipart/mixed; boundary="===============8059894698948433571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 28 May 2023 16:07:12 -0000
-Message-Id: <168529003295.677.15075295438002428884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sun, 28 May 2023 16:13:24 -0000
+Message-Id: <168529040483.4256.16405964621733421933@gitolite.kernel.org>
 
---===============4309691272774675798==
+--===============8059894698948433571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/usb-testing
-    old: 7e530d32a3655f15f1cf92e8aabed1bc3a21ee36
-    new: b4a4be8471846d96b0ac52a0e9e7d48005cc97e2
-    log: |
-         b4a4be8471846d96b0ac52a0e9e7d48005cc97e2 USB: fix up merge of 6.4-rc4 into usb-next
-         
+  - ref: refs/heads/perf-tools-next
+    old: 6b9da260703096b366ec0fe78d87053e8f577776
+    new: 200323768787a0ee02e01c35c1aff13dc9d77dde
+    log: revlist-6b9da2607030-200323768787.txt
 
---===============4309691272774675798==
+--===============8059894698948433571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6b9da2607030-200323768787.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685290032 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1685290032-37008c3a72123d13ad6550ec7d9b692a497974a0
+a90cc5a9eeab45eaf9e47740366b8cf98c3aeb83 perf evsel: Don't let evsel__group_pmu_name() traverse unsorted group
+797b9ec8c4bc9ec89f633a9b2c710b7b64753ca4 perf evsel: Don't let for_each_group() treat the head of the list as one of its nodes
+5c6e7c21ae94bd01cd2a808f806dace6b31956f3 perf header: Make nodes dynamic in write_mem_topology()
+b1d870a8bbd8389823a86f33c7832afc442be353 perf test x86: insn-x86 test data is immutable so mark it const
+7c1d862eda7f11cabd6941caee1404aad2d41458 perf test x86: intel-pt-test data is immutable so mark it const
+60995604d11a5588ddd813030e2adc3b77e9af50 perf trace: Make some large static arrays const to move it to .data.rel.ro
+1fc88e5a2d5358c9a8ae9fc992b75d34ed360339 perf trace beauty: Make MSR arrays const to move it to .data.rel.ro
+89df62c3ca1746177e5f1bae540b6b85c27aadcd tools api fs: Avoid large static PATH_MAX arrays
+20dcad8f03117e50df569d18f6709d68807fedb8 tools lib api fs tracing_path: Remove two unused MAX_PATH paths
+92294b906e6c55d67ef929a4762d9878d5cb75ac perf daemon: Dynamically allocate path to perf
+eef4fee5e52071d563d9a851df1c09869215ee15 perf lock: Dynamically allocate lockhash_table
+ddc27bb8a9a5c0236ae65c3451d9c7024040d11d perf timechart: Make large arrays dynamic
+430952e6d7a02bbf4d2d4a6d3baa7ce4b66052d7 perf probe: Dynamically allocate params memory
+370ce164defd18069518e8b7faa6c92aad740257 perf path: Make mkpath thread safe, remove 16384 bytes from .bss
+d9c26d45dbb51fe610f64b490f38f6ad15a00d7c perf scripting-engines: Move static to local variable, remove 16384 from .bss
+7a3fb8b5c4607b133a71d3f695d0f2653facec13 tools api fs: Dynamically allocate cgroupfs mount point cache, removing 4128 bytes from .bss
+f50b8357f8955c899b704db88ffc180c5bf3f680 perf test pmu: Avoid 2 static path arrays
+200323768787a0ee02e01c35c1aff13dc9d77dde libsubcmd: Avoid two path statics, removing 8192 bytes from .bss
 
-7e530d32a3655f15f1cf92e8aabed1bc3a21ee36 b4a4be8471846d96b0ac52a0e9e7d48005cc97e2 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzfDAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l24P/RSU4vvnp+K7xZ5KcVYe
-GzXgnEc29cOfaq5tFV0IqhlWUXLKwdRGVdq/M9dApti0xLFprIQuo7vD3d3DINLw
-xvU2O2br05AJ1Ab0fQ6NjiBgiWONaSU8BpCUMFfZmAhy5nWrvDBm3akI2H7U0z+Y
-n90in60Khn0ziM6vp0VNiTep9U/YEZ5m83C5Xb2ZFNYaod/kW7kd0hb/bB/MRVqY
-kZb8SgvLCPlZ3NmmIdHm4/hil/elGXkW9XmjDQGMphR/t0IVIL4BcFYISwez0Bfc
-B4kDt4TXR3rxVXYYdWKcQY7lPU8PArt9WptJh+iw2TAiORlSpDwFxr2vofgmP7Gx
-ulrtF888VvyHI7X7OkYs22xHNY4to6SnDOwlB3klbpa8uipclhx/hMemO/A9nLG3
-sOkr99nCmnnzuvl+M8e7343KJlGSewZuozMkeMSDD+Ly6weORUSKeP1rRQbkWbry
-BUA8QLXkozzajqwoDsbVihmFgxblFAA4VCCYKGxNgf1VKAZ9Y7myMeU4PBTz7bqC
-G/D0gwD37/QKSq6xFhf+hcda51XOBTBnz9cR2CsdqKRTDBn/5hnpT7ruhKI9SoOZ
-U84aAqS2SeuI8uxb3BZ/nagG64wgWPwW2TjbWEoTiXsSr9zk2+9E0YjxzSuJsOby
-DWOmj+hlgOxKH7tXOtiAorGb
-=HRgK
------END PGP SIGNATURE-----
-
---===============4309691272774675798==--
+--===============8059894698948433571==--
