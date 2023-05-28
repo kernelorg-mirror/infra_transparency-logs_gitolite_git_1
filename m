@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3862874303150354811=="
+Content-Type: multipart/mixed; boundary="===============8691374199185766154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sun, 28 May 2023 15:45:12 -0000
-Message-Id: <168528871242.18785.311013670534211042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 28 May 2023 16:02:46 -0000
+Message-Id: <168528976622.30062.11999502959255106627@gitolite.kernel.org>
 
---===============3862874303150354811==
+--===============8691374199185766154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-test
-    old: 94d51e6b1d2bd3af155c5ab3ced7c84691c75892
-    new: 5f71e655aac3f11bc19925d6966dae7a4ec57025
-    log: revlist-94d51e6b1d2b-5f71e655aac3.txt
+  - ref: refs/heads/staging-testing
+    old: 71b6b438f301733c150508f656e1cdb5285067e6
+    new: c6e9da9d556673b07e0ba4f00580904286787f22
+    log: |
+         c6e9da9d556673b07e0ba4f00580904286787f22 staging: rtl8192e: clean unnecessary braces warning on r8192E_phy.c
+         
 
---===============3862874303150354811==
+--===============8691374199185766154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94d51e6b1d2b-5f71e655aac3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f7a8ec739486152151e2536bc00b862d274e6b2d f2fs: fix to set noatime and immutable flag for quota file
-870c95dafbd36f4e221574d51ddf062d326ae6ce f2fs: compress: fix to check validity of i_compress_flag field
-d42f3fd52f81be0f5b20029fde0588e25748448d f2fs: renew value of F2FS_MOUNT_*
-b96735d27354f6b33f66f15ca35dbf84d872ec41 f2fs: renew value of F2FS_FEATURE_*
-a9646726e785b4d27665497b47884d4345f21c03 f2fs: flush error flags in workqueue
-87a2961ee782a263b6011dcaab141ec7c5828d01 f2fs: support background_gc=adjust mount option
-c3f83b2128f6438497e783dda62bf4d05ddcf990 f2fs: fix to use le32_to_cpu() in RAW_IS_INODE()
-1103c220db5bc100999612c2eb6f5ca870ceec70 f2fs: fix to avoid NULL pointer dereference f2fs_write_end_io()
-15ff7ae77e370bf9ea47916c65b0837579bdd723 f2fs: don't reset unchangable mount option in f2fs_remount()
-448854e18a555aeda08483f75cf4386f8f2a6a8a f2fs: clean up w/ sbi->log_sectors_per_block
-e8d39429581db5932e6428c3fe93553b6bbbff61 f2fs: fix to tag FIEMAP_EXTENT_DELALLOC in fiemap() for delay allocated extent
-f1a20a599a9bb1c1689d52de88bd8dcfdfab1843 f2fs: compress: fix prepare_compress vs memory reclaim case
-9c51fa7e549eb847c872767661fb40b549ae5639 f2fs: get out of a repeat loop when getting a locked data page
-8eb84ccff9ba36f619d8e1b8d520ead968daff3a f2fs: Detect looped node chain efficiently
-2c4aa6450bf509d915a6ea30937f167155a25daa f2fs: fix to drop all dirty meta/node pages during umount()
-1b5a6675262efcfd1bd9bf8dd60e4134c4c811d3 f2fs: avoid dead loop in f2fs_issue_checkpoint()
-5f71e655aac3f11bc19925d6966dae7a4ec57025 f2fs: trigger checkpoint to submit remained discard during mount()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685289764 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1685289763-a60ec1c04911a81d7c74ffd6d85ea2f5695b1fb5
 
---===============3862874303150354811==--
+71b6b438f301733c150508f656e1cdb5285067e6 c6e9da9d556673b07e0ba4f00580904286787f22 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzeyQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AqQQAKgSaIwXwjlE2d7NcadO
+FJgm8MjdNcHDrkD6de3vAfZSeqyvLvqY5TJWGBtmXA+glA3EzS7Tgaj8gR/KUhkT
+RZsZ0VNJz39Nbeiu4fxNx7sCOxDAIjmcpwRjTlvG6AAGeuWw///yHHNpZqW4adqS
+BjhK63/EXPROKfeioyCKaavENmbs7xW6PTDJAGzBeEvVcirOP6t35MaD3tjsTuuX
+zDlwVYVoSngXSUk97T+ZQb/UOI8ZXMxu0ucdJU5+K8+QvIw4aehCf2QR8LeCkcOP
+9+pzsDSnHzTv/P87Cy+Cw4bP/lpaHAwk+Vklb/JUkT5acSACox/OSsboTLVgjbp+
+uWfPTp+K4w1FrddjO1jIMmK0b239HnvHJQaHquozJdA+B0pzxUjZwUZDIgGCdK9j
+sTY1ajO+m4vdrms4WrtH/Pd0dnyqTH1gYmy3S/Q1vlIdWF20BftllUEO7jf03t2w
+eEjIS7i5EsCz2klMxUT0JYd+/GE4+V5CiBhUG58hfdtFh9QWp1FXWouzfnmetDXY
+doiHAfkbapzKp6P5QN6J4I5Bz3QV3Fb4+WGjJvlYmjxL6X1cX2voLI38Bvoa2e7B
+RKvSkzzVmo7IseWlSCwTMzzyvi+86GTimC2pg2hLnRb/sOpst8tnTD+bBYCeGXV+
+j8BCzukMkVD8VZyMN3AqjHLn
+=pZ0m
+-----END PGP SIGNATURE-----
+
+--===============8691374199185766154==--
