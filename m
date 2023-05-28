@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6173960431266658994=="
+Content-Type: multipart/mixed; boundary="===============4486635378534130032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 28 May 2023 13:29:29 -0000
-Message-Id: <168528056956.22562.7945965700560377500@gitolite.kernel.org>
+Date: Sun, 28 May 2023 13:29:44 -0000
+Message-Id: <168528058470.22725.14298548205624433814@gitolite.kernel.org>
 
---===============6173960431266658994==
+--===============4486635378534130032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/tmp.perf-tools-next
     old: 6b9da260703096b366ec0fe78d87053e8f577776
     new: 200323768787a0ee02e01c35c1aff13dc9d77dde
     log: revlist-6b9da2607030-200323768787.txt
 
---===============6173960431266658994==
+--===============4486635378534130032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ d9c26d45dbb51fe610f64b490f38f6ad15a00d7c perf scripting-engines: Move static to 
 f50b8357f8955c899b704db88ffc180c5bf3f680 perf test pmu: Avoid 2 static path arrays
 200323768787a0ee02e01c35c1aff13dc9d77dde libsubcmd: Avoid two path statics, removing 8192 bytes from .bss
 
---===============6173960431266658994==--
+--===============4486635378534130032==--
