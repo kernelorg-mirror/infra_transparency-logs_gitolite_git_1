@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8206164026458874433=="
+Content-Type: multipart/mixed; boundary="===============3871222992522403959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 28 May 2023 09:14:05 -0000
-Message-Id: <168526524534.1993.1219763507071546105@gitolite.kernel.org>
+Date: Sun, 28 May 2023 09:15:54 -0000
+Message-Id: <168526535452.4218.4800366323332797683@gitolite.kernel.org>
 
---===============8206164026458874433==
+--===============3871222992522403959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 8942c3f19b3f6cbe5b74ee610d6b5e3ec1ec13fa
-    new: e152c58d7a48194d6b530d8e004d650fd01568b6
+    old: e152c58d7a48194d6b530d8e004d650fd01568b6
+    new: b36be72b5a7bf607c3e3c771bce4c41d99483038
     log: |
-         e152c58d7a48194d6b530d8e004d650fd01568b6 staging: vchiq_arm: mark vchiq_platform_init() static
+         5d88ce5052d2dcac3e4192f7280ab075a544828a drivers: staging: wlan-ng: Remove GPL/MPL boilerplate
+         28f5930b66ed12a4729be0a507460c191460cb46 staging: olpc_dcon: Switch i2c driver back to use .probe()
+         b36be72b5a7bf607c3e3c771bce4c41d99483038 staging: most: Switch i2c driver back to use .probe()
          
 
---===============8206164026458874433==
+--===============3871222992522403959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685265243 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685265352 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1685265243-34c8b9f32bd1d46e9167a40e937fda18842605b0
+nonce 1685265351-5e6a7ff06b97df35367565e9fd2387b732291370
 
-8942c3f19b3f6cbe5b74ee610d6b5e3ec1ec13fa e152c58d7a48194d6b530d8e004d650fd01568b6 refs/heads/staging-testing
+e152c58d7a48194d6b530d8e004d650fd01568b6 b36be72b5a7bf607c3e3c771bce4c41d99483038 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzG1sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U18P/jrwy41jU1TQ6STyWclm
-CKYfmaTzMKwY2iYTJSI4dW1ogFYP7NxEO0BcIkuLek+DDwz7f3H4AjwL76uix1kT
-T0KFPiLqDw+bINGhau9ItIUNUMLvq7NnQKU7ICfroMmWEgaxbFb0RPNYo8jaWBru
-KOqBD4PZHKlphiYEiQkXtiEbxwEoAhrQU8kZWVOPNMDIiSpk7kyanzVbP7l7pAM5
-KDw4RYMnesBVRibPfxbNAoFrTZUiJADiki9vpOlvw5Z1lFAa2A2wHYra3NTKNIl6
-UMIpCY1EniNqc6StbRvLVprcUAr/cMDBEvHlpxqZ1/Xj7/Kc/OE9Nnh7FMqK+7Id
-0FjotJLhbQhJK/g3S1bDHrYLzdRqivVmd8skidBGK4ytfUM6pz1pBToxpA63dWd/
-eRE5iPne5hdp8b/uYkbfk6SjZCcTUa0uMnBtHnSN5i0sG0EBuD6Liu5Ngea9+YN8
-NI1LKNudMxDyw6CRhYmqarWA/w0Tj3Bl+MOr4/s9k3PQ1vYkau/ZEdy+6Tz0FiNz
-hSlZ2G4kMx+UScyn8WlvxBnO3T+X6X07sWcrkUY/W9eWDAkWmRT4OUSUxAc7KNwG
-kkIBDc8uRTpBff6ACDRCfBnyOoaBzfsxWVPo5BziRf/cli2cA3/lJNUpRW7Ujgjx
-WVB3JIJCU/c41YhJfhdtz6VR
-=OKiW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzG8gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3jQP/jFZKZv8iKJ8R7IWZ/sO
+n9nd9ErfYYT9BWPumknZgZdXhxCGvVEZOfpCrlDOOB2+oSqvnBY7KHcLnESnPdMr
+0S9AHBcVyN4A2TfDxQbWgkd0+5t5djkCbqmy5EcuSc+SwMogC1adaqaOxfqw77Px
+fN+Y0mJFROTo7V3i2VawzPzE7KszdeNm/kgE3FkfBLguPXlrS+79BML8JneKyC12
+L2qmtK/KBQM4jxxJos/XpvVHFYDzDHREuBLKGcVWenRVpxAQAkgnnpfAfVZ+iDwV
+KJJyDgTCji4Pg6llWSsjcZ1izw7yGkveVrgTgs7exww07ndLDqpID0U5Anj02x5P
+Lc+KD0gBBtnsThfkfDO+sEx+lO2VRMSAutcM1dRC+lfz3SpL5YgCeL8g4oyGMPRu
+6cWJ7fN1Nt/4m948pCkXa6hvVxg6/KJt8E+HIiGuNtLDSbR85G+uTBqxLlttmJQ7
+zNXirgYqieB4DGT81a2gXiNPDLGwNHISTgfG+GUaAqxUCawOy48Ls3me6MgvJ5Gr
+hq2ufzRalvXzGB6Zy3wMn0PB6HUEDX8D1FFX6RD0LeGX+COAJ9ijjCWQQ2w7Rr0H
+eh3xR90KV9q9uif2AHzb51OVJyhP/1NH/DpUi5NOkk51JaZ9FJ8FXBcPPi9UzYql
+VnSJZ1h6J8tFqT3KFnB6OeCj
+=ek8H
 -----END PGP SIGNATURE-----
 
---===============8206164026458874433==--
+--===============3871222992522403959==--
