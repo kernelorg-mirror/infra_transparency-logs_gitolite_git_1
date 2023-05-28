@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1085666800093072006=="
+Content-Type: multipart/mixed; boundary="===============4438123024540817872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 28 May 2023 14:34:29 -0000
-Message-Id: <168528446963.2102.17834358211742109862@gitolite.kernel.org>
+Date: Sun, 28 May 2023 14:34:34 -0000
+Message-Id: <168528447421.2202.10640711322653544529@gitolite.kernel.org>
 
---===============1085666800093072006==
+--===============4438123024540817872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357
-    new: 44c026a73be8038f03dbdeef028b642880cf1511
-    log: revlist-8fb9ea65c9d1-44c026a73be8.txt
+  - ref: refs/heads/tty-next
+    old: d5b3d02d0b107345f2a6ecb5b06f98356f5c97ab
+    new: 0e4daea31d8312dd9f957a62717d4b5f31ef494c
+    log: revlist-d5b3d02d0b10-0e4daea31d83.txt
 
---===============1085666800093072006==
+--===============4438123024540817872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685284469 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685284472 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1685284468-1353a35c458eb0d6b53aa56651037c4745411ae4
+nonce 1685284472-ddd3cc51596dbe735aa9bcbca48bf6b8bfec1049
 
-8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 44c026a73be8038f03dbdeef028b642880cf1511 refs/heads/tty-linus
+d5b3d02d0b107345f2a6ecb5b06f98356f5c97ab 0e4daea31d8312dd9f957a62717d4b5f31ef494c refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzZnUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6EQP/RmMphOBU36wqWKHjIxx
-+VxuIMdHGBqs6mID8jXHQGZ1VQjO+9xzihG13OkEA24b9gPil9cdcXBV3QOGDWjj
-51rAmxQZ8yhm5LqKOkElgK1pzJ8zAOStGxStGuYDwOXxEfg0WIONiraw02qBUou5
-KT3EQJapATRCylWsmbmkmfkLwECA2K3lJ4/elL9tXwXH1WNr7i2JoXh6/DhvqZHr
-aOsqMWuQK2RQKNlTa+g5M8dwdOoaxL44SXb7z4C2FnbBHrd/icNzDk0nyL51cOfL
-iKgEE5HvwzlHxV5zpxuBjYXUDXBjlkCvbL8D0fvaXcCP/sVhjgWEc3FwT2m0VjAC
-dGIe5hsC8hWEw8PGklZuHg0FJEmdWBvLZGFJJmSoJ2lHyFAg4vhH18rDJ/rSguTJ
-RptLWZfjSV2owltHBfJ5ahXeYyrNUvb/5KwfQe8cRRi1Igqr+EXYYKi4IzcSi5Eo
-jU2aLLAB9/jNJ2u4Rb1fHNe3iFHjXEY1Boom++wI2LBuN6d9CdAk0ZqTk8U+MgK1
-T6HLJ418X/0rNPA2mh7cO4Jasw5tCM8f457AWSG0X892mhlNKuEr4G3GSgsE/Oql
-6sHmsixzkcUTErCozwJ2Fjcxx1BTpIcL4/TNZRfJaL5g8HDL884nUB1XZFZSJfuF
-vUV9AM3XQr6WDjGAKLoePdZy
-=3c5c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzZngbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8QIP/2Tq/VlFaVw16ooMWw4O
+dXt07oVY2/5sEr4XKPjUKcQzkyragbtWdetrVIlzPzAUcqOHm02hoBW27rXEbzEC
+qBuB20GSrF0ow9rPjAAKWR+jwmuzrklR49ty5/8Txpxn5Hxxx6rhB1NNEYw3+2eO
+6IJG2dwZZVOu18Up2WRA/3F+vvIflYwJ2vR9HGfAuRm4dvWkyr6Cv45ZQo4mzqKj
+t+Gy7t+qPkXuWbyuD7XIcXebUqq8VQ4WZ8SMk23mxqjlYwBS8igQ2MqO6jVJPAPu
+5TGxBI6HJKQyjPWWNIbtMdMNzfNQ1NceiGm66qChkuFe6T/NI6++ZNFhf/aCD1/i
+vACPIPBTGUa9wSjv17MF87EK40TSxE79SfGnRrvaAyQGjKq9w81TCy4qsimSABGd
+TUaS6Nyl1TsqnX0QhGsEypgSsHASR528ZinUyM/m4OlBNfxc/iG0PPRMn+c8QgPm
+cTE03E1F7Kh8PNGOII+k62IM8Y84gXQevUnLEfyuwiRfbKl8RY/qLal1XIVDRQgH
+S6Ire7eB4Pppc/rSc/DiJiod6I8XmuN5dp/JMoCQxOs4MLcXAmoVBxuelucH54Tq
+aE34efb37NElcdpm+b/H+PcvSankAFXXXgnOeMS9uhEL37ttBD0eJ6DHBsZ0XlQy
+DKQnFbosJcbYc6o8plZMtu0P
+=aLbY
 -----END PGP SIGNATURE-----
 
---===============1085666800093072006==
+--===============4438123024540817872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fb9ea65c9d1-44c026a73be8.txt
+Content-Disposition: attachment; filename=revlist-d5b3d02d0b10-0e4daea31d83.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -357,6 +357,14 @@ d8f28269dd4bf9b55c3fb376ae31512730a96fce usb: typec: altmodes/displayport: fix p
 94ea04ec790887b5b0e43429a92c18a1e692ec08 usb: typec: tps6598x: Fix fault at module removal
 8018018d9c56473067e5358986ce0ee9ce56949f usb: dwc3: fix a test for error in dwc3_core_init()
 a398d5eac6984316e71474e25b975688f282379b usb-storage: fix deadlock when a scsi command timeouts more than once
+95d698869b404772cc8b72560df71548491c10bc serial: 8250_exar: Add support for USR298x PCI Modems
+d2b00516de0e1d696724247098f6733a6ea53908 serial: Add support for Advantech PCI-1611U card
+f16182ed9d8430adfab77f5929c23756c94b0230 serial: 8250: Document termios parameter of serial8250_em485_config()
+8ab5fc55d7f65d58a3c3aeadf11bdf60267cd2bd serial: arc_uart: fix of_iomap leak in `arc_serial_probe`
+8a3b5477256a54ae4a470dcebbcf8cdc18e4696d serial: 8250_bcm7271: balance clk_enable calls
+f264f2f6f4788dc031cef60a0cf2881902736709 serial: 8250_bcm7271: fix leak in `brcmuart_probe`
+5f949f140f73696f64acb89a1f16ff9153d017e0 serial: qcom-geni: fix enabling deactivated interrupt
+8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 vc_screen: reload load of struct vc_data pointer in vcs_write() to avoid UAF
 d4d58949a6eac1c45ab022562c8494725e1ac094 Merge tag 'block-6.4-2023-05-13' of git://git.kernel.dk/linux
 d80fc101d2eb9b3188c228d61223890aeea480a4 erspan: get the proto with the md version for collect_md
 9e4b45f20c5aac786c728619e5ee746bffce1798 net: dsa: rzn1-a5psw: enable management frames for CPU port
@@ -666,5 +674,6 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
+0e4daea31d8312dd9f957a62717d4b5f31ef494c Merge 6.4-rc3 into tty-next
 
---===============1085666800093072006==--
+--===============4438123024540817872==--
