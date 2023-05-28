@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4159299648194810263=="
+Content-Type: multipart/mixed; boundary="===============4574816320967058660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 28 May 2023 08:10:55 -0000
-Message-Id: <168526145522.25800.17104542099541101846@gitolite.kernel.org>
+Date: Sun, 28 May 2023 08:10:58 -0000
+Message-Id: <168526145823.25876.16717934774480349346@gitolite.kernel.org>
 
---===============4159299648194810263==
+--===============4574816320967058660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: d1d8875c8c13517f6fd1ff8d4d3e1ac366a17e07
+  - ref: refs/heads/main
+    old: ac9a78681b921877518763ba0e89202254349d1b
     new: 416839029e3858f61dc7dd346559c03e74ed8380
-    log: revlist-d1d8875c8c13-416839029e38.txt
+    log: revlist-ac9a78681b92-416839029e38.txt
 
---===============4159299648194810263==
+--===============4574816320967058660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685261452 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685261457 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685261451-aa01f380c991ce2644ab5e50914cfd6ca0432069
+nonce 1685261457-5f79370436f74612a14a8577d5ef31f86593c951
 
-d1d8875c8c13517f6fd1ff8d4d3e1ac366a17e07 416839029e3858f61dc7dd346559c03e74ed8380 refs/heads/char-misc-linus
+ac9a78681b921877518763ba0e89202254349d1b 416839029e3858f61dc7dd346559c03e74ed8380 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzDIwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ohAP/2warlKMe/+MiwPMmqPo
-ArQd6P+SwVgvefcekwbhbtOa7XxKvu7Sluel7GJmaMF6I8zpfkW46Ej+85vIy1xf
-qTImz3yOItB0Ui3ryWXwGP9iOT+dDpz6yeq4io/5yFKLoI1ZqO9fRlL7HWTRC3JT
-7b7pGyMNhf32AgDXBUBy9gDkh7wsu7UNTBR8blZNGwlKRme+88dkbolw6dvwhKIx
-xULAUQ2IASLXyy36MMl4IGD29XDi4Xl7HWjrU2wQH7L4+uRVWw5OZIRfSmVBIEjO
-vmLg94JO42LxrOqm6UFFXinhZj1w/Kq2dPr/9cZdQiMRFjzwbkuONTdcu3lxpoOb
-kmOAuagTuxTBRsrxS4ijETWqc1WTzXdh194bngbpLeEea7mbMM5KwnV6wLG270Ry
-jVspvcGOXd9VXPCITW73gLmpXuit+pynaeXnbU35AKzDQzXNo6NIJLt5dY7Eksfd
-AlxKuYavvbVYSe1ZiqiUjUQL1LSmgsae9cnPgq/5/aUhoTEX/7IkMpqndX9vb/Nf
-FnLrcv4YDQgOOQUBSffwczJ5I6HWkigprIPvQ0V6cSyXwYynIWudf2eNRIeq2Tza
-NCVvMzNT8fFAOk/wh/h01QuB+lqIpO25ZFiYoRXDEdC5a9MLtfb4LlUk6iSbhPKQ
-1tkTShUKkycgR57PmBTKEylA
-=i3hH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmRzDJEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AukP/0+OvBXZUp7O0jB51/Fr
+fQPr/p3jmRzJqf3ivgypw4a9FcnO6+gZb7zf5Tbw1/kH6y9S18uVrzFx+pe9rlMz
+bwkoEnRapdHgZoTKvbAlhyiNWkvYYP+IKOBA/ws//WC1Z5iUpUbRH7QkfyyaJvOg
+jOaDrfY46wlYQkl3cJQ0XulILlpXos4k/cewQlkYtqlQpXEkn4dKPz1LrtD0J7aw
+CUDi2B6t2LIU15hxegLaZDe+7lI+fdQp1krOgk/xOhUg5qkNVv8oMIahCtuKAfFL
+lzXR1Vu+4DoRkV7VzuibvwlS4AOyIQLFQTZZq1+lKv+cDgXyLQPw3wS4f10oRoXy
+tZZGlP6aGfhuVbotynbSEKymVpb2g1QN/aWLgDMC6YbPJfAOEk7icKz1Q0zGse2D
+a2rMBlFww5fWVOoknM4c4KPmbegB8B6ojM9O5dkBeSFX7mU46ztGY7n6cmrC9Ia4
+m2/Ntpo9bJdWq67M1aKcwqYQQtI/cNT2MsBvCMwMKSsFbNuRmbpGKYq90Nn2Fpod
+naBQM9iNmW5xdoMUTAgJnmfZY5Tte4QdziDi1SWz2ozhbPBSttYeYFVZaXt4ssYP
+bcAvuK83FXUIqS/dWN1qKAtmdrk2HdLqGs08qn8MQi9awPSkA9cuQzrqTr/d9nAe
+xFy7LOEOX6Musj5vczJey1Uk
+=kZQh
 -----END PGP SIGNATURE-----
 
---===============4159299648194810263==
+--===============4574816320967058660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1d8875c8c13-416839029e38.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-416839029e38.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -289,6 +289,8 @@ b504f99ccaa64da364443431e388ecf30b604e38 drm/amd/display: Enforce 60us prefetch 
 6c032c37ac3ef3b7df30937c785ecc4da428edc0 drm/amdgpu: Fix vram recover doesn't work after whole GPU reset (v2)
 8b229ada2669b74fdae06c83fbfda5a5a99fc253 drm/amdgpu: disable sdma ecc irq only when sdma RAS is enabled in suspend
 eb4b8eca1bad98f4b8574558a74f041f9acb5a54 tools: gpio: fix debounce_period_us output of lsgpio
+f67bc15e526bb9920683ad6c1891ff9e08981335 coresight: Fix signedness bug in tmc_etr_buf_insert_barrier_packet()
+04ac7f98b92181179ea84439642493f3826d04a2 coresight: perf: Release Coresight path when alloc trace id failed
 275dac1f7f5e9c2a2e806b34d3b10804eec0ac3c drm/i915/guc: Don't capture Gen8 regs on Xe devices
 a41d985902c153c31c616fe183cf2ee331e95ecb drm/i915: Fix NULL ptr deref by checking new_crtc_state
 0ff80028e2702c7c3d78b69705dc47c1ccba8c39 drm/i915/dp: prevent potential div-by-zero
@@ -401,6 +403,11 @@ f16182ed9d8430adfab77f5929c23756c94b0230 serial: 8250: Document termios paramete
 f264f2f6f4788dc031cef60a0cf2881902736709 serial: 8250_bcm7271: fix leak in `brcmuart_probe`
 5f949f140f73696f64acb89a1f16ff9153d017e0 serial: qcom-geni: fix enabling deactivated interrupt
 8fb9ea65c9d1338b0d2bb0a9122dc942cdd32357 vc_screen: reload load of struct vc_data pointer in vcs_write() to avoid UAF
+000dcaa5c0a0fc5fb621a50a46cb74264ad115d6 Merge tag 'coresight-fixes-v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
+bdc1c5fac982845a58d28690cdb56db8c88a530d binder: fix UAF caused by faulty buffer cleanup
+b15655b12ddca7ade09807f790bafb6fab61b50a Revert "binder_alloc: add missing mmap_lock calls when using the VMA"
+c0fd2101781ef761b636769b2f445351f71c3626 Revert "android: binder: stop saving a pointer to the VMA"
+0fa53349c3acba0239369ba4cd133740a408d246 binder: add lockless binder_alloc_(set|get)_vma()
 d4d58949a6eac1c45ab022562c8494725e1ac094 Merge tag 'block-6.4-2023-05-13' of git://git.kernel.dk/linux
 d80fc101d2eb9b3188c228d61223890aeea480a4 erspan: get the proto with the md version for collect_md
 9e4b45f20c5aac786c728619e5ee746bffce1798 net: dsa: rzn1-a5psw: enable management frames for CPU port
@@ -769,6 +776,7 @@ ae9b15fbe63447bc1d3bba3769f409d17ca6fdf6 net: fix stack overflow when LRO is dis
 67caf26d769e0cb17dba182b0acae015c7aa5881 Merge tag 'for-net-2023-05-19' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 e3afec91aad23c52dfe426c7d7128e4839c3eed8 block: remove NFL4_UFLG_MASK
 98be58a6e9310fbfa757d438b0b51f857ce17ee4 Merge tag 'block-6.4-2023-05-20' of git://git.kernel.dk/linux
+d1d8875c8c13517f6fd1ff8d4d3e1ac366a17e07 binder: fix UAF of alloc->vma in race with munmap()
 2dd0d98d62103c993f74193a7abe97eaef4bc120 Merge tag 'usb-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 0dd2a6fb1e34d6dcb96806bc6b111388ad324722 Merge tag 'tty-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 537adba4083ed858db4b5129ea78a820a6fb2edc fbdev: udlfb: Use usb_control_msg_send()
@@ -960,4 +968,4 @@ a92c9ab69f6696b26ef0c1ca3e8b922d1fc82e86 Merge tag 'block-6.4-2023-05-26' of git
 4e893b5aa4ac2c8a56a40d18fe87e9d2295e5dcf Merge tag 'for-linus-6.4-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 416839029e3858f61dc7dd346559c03e74ed8380 Merge tag 'powerpc-6.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============4159299648194810263==--
+--===============4574816320967058660==--
