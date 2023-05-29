@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 29 May 2023 13:38:55 -0000
-Message-Id: <168536753549.6250.8684368206930654916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Mon, 29 May 2023 13:41:23 -0000
+Message-Id: <168536768386.8565.7659236891781496015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/fixes
-    old: 33d418da6f476b15e4510e0a590062583f63cd36
-    new: ed309ce522185583b163bd0c74f0d9f299fe1826
-    log: |
-         ed309ce522185583b163bd0c74f0d9f299fe1826 RISC-V: mark hibernation as nonportable
-         
+  - ref: refs/heads/v6.4-next/soc
+    old: 0000000000000000000000000000000000000000
+    new: b7f61f9c7ec402633c10f6456415cab04d3838d5
