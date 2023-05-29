@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Mon, 29 May 2023 22:37:10 -0000
-Message-Id: <168539983057.9124.17271696664201624007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 29 May 2023 22:37:45 -0000
+Message-Id: <168539986556.9348.2286125582940167918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/icc-next
-    old: d07b2e0ce3266167e04185ccfef4bc7d4bd62d73
-    new: 3d2fc686ed938de43613d1556ede3322858d0d40
+  - ref: refs/meta/cgit
+    old: d3461739fd3ba361e173c8bbc4de9aae7f1a6a24
+    new: 5a7b4b415ea31c4bc1dfbdb7007de1157b3ae28c
     log: |
-         0ebee0a6f73e7169fb2ee59587aad2880438485a interconnect: qcom: rpm: allocate enough data in probe()
-         3d2fc686ed938de43613d1556ede3322858d0d40 Merge branch 'icc-qos' into icc-next
+         5a7b4b415ea31c4bc1dfbdb7007de1157b3ae28c update base of for-linus since v6.4-rc4 is released
          
