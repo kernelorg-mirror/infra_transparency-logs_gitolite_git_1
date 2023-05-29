@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4281272908617243769=="
+Content-Type: multipart/mixed; boundary="===============7698496797431911013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 29 May 2023 23:48:21 -0000
-Message-Id: <168540410111.23485.5428449083709654918@gitolite.kernel.org>
+Date: Mon, 29 May 2023 23:50:12 -0000
+Message-Id: <168540421210.25884.17303823297531713135@gitolite.kernel.org>
 
---===============4281272908617243769==
+--===============7698496797431911013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/for-next
     old: f19c694f744f5efd68d0b9ed9e0728a093d43393
     new: a5ae12c87df6b77d4a676c5fbcd23b93f155321e
     log: revlist-f19c694f744f-a5ae12c87df6.txt
 
---===============4281272908617243769==
+--===============7698496797431911013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ece68db971f27eddb71311bab09440fdece0c803 ata: pata_parport: Fix ktti module code
 012f2059e3c073090fa7dd57f582f6ca77583aaa ata: pata_parport: Fix on20 module code indentation and style
 a5ae12c87df6b77d4a676c5fbcd23b93f155321e ata: pata_parport: Fix on26 module code indentation and style
 
---===============4281272908617243769==--
+--===============7698496797431911013==--
