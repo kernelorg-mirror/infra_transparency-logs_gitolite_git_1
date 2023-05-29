@@ -1,59 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0830866967259714206=="
+Content-Type: multipart/mixed; boundary="===============2518814777559889187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 29 May 2023 14:10:07 -0000
-Message-Id: <168536940716.28538.17338018186205834642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 29 May 2023 14:17:05 -0000
+Message-Id: <168536982544.32298.1037538612861252362@gitolite.kernel.org>
 
---===============0830866967259714206==
+--===============2518814777559889187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: bca7a46336e38667f7670aacd2098dc45b8b7868
-    new: 46248400d81e2aa0b65cd659d6f40188192a58b6
+  - ref: refs/heads/usb-testing
+    old: b4a4be8471846d96b0ac52a0e9e7d48005cc97e2
+    new: 06042d7b32a71c6a423948f8c7fd4bd13572bdf3
     log: |
-         a6e766dea0a22918735176e4af862d535962f11e misc: fastrpc: Pass proper scm arguments for secure map request
-         3c7d0079a1831118ef232bd9c2f34d058a1f31c2 misc: fastrpc: Reassign memory ownership only for remote heap
-         b6a062853ddf6b4f653af2d8b75ba45bb9a036ad misc: fastrpc: return -EPIPE to invocations on device removal
-         46248400d81e2aa0b65cd659d6f40188192a58b6 misc: fastrpc: reject new invocations during device removal
+         0c7f35d26b1dc45ab27e3ea8ff7f6a8a88a18174 usbip: give a more helpful error message if vhdi_hcd isn't loaded
+         06042d7b32a71c6a423948f8c7fd4bd13572bdf3 usbip: Use _FORTIFY_SOURCE=2 instead of (implicitly) =1
          
 
---===============0830866967259714206==
+--===============2518814777559889187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685369406 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685369405-320b95f641a5ac74b73471b3290f45a9ef351e80
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685369824 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1685369824-cf8ab23a73a5b575cc826a04dac5692bb3d92ccc
 
-bca7a46336e38667f7670aacd2098dc45b8b7868 46248400d81e2aa0b65cd659d6f40188192a58b6 refs/heads/char-misc-linus
+b4a4be8471846d96b0ac52a0e9e7d48005cc97e2 06042d7b32a71c6a423948f8c7fd4bd13572bdf3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR0sj4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yNUP/149q8YHo4dll0x4YdF9
-9KuH2IonS7GN8h/sKj5/XHBulgOjhXdi2uc0JbvUSfLPHpAepxHB1lXvTsUDxBRw
-hjG3rlqhWi9cQsjkA8MDGzSrAcs32mrm/j26AHL0c1fQIwxpbj/lcC67l7daTMbs
-pA7X1EOvpY7bAySN/gwnR4EVCkvu1N/vCPFS5IfqsF9RshE8upqwxLOBV6hoK1Gg
-s7u1gZeeDo2Ju3n9RFM9Kcjbr5rSXwRroWlmbR5hMPHsZN1czOI3Ui5uwuPct0sr
-r9jKyp4q1llw/2xmu/2PbPH9xnWFfWw/1AQz916mPELfLwDkabNjz97GTCFpnpC1
-IN6e+e3xVkNRPvEU9FATN2SXkX+v5dIBt4y/jSExRd+5m+wrAofhekPeL8+iEFSp
-9gbuQL3pbUzPxCBGSbr4pYGSiK5RgMR5d5/Dttu8I7jA9J6nmnQPKF3BeHWaDdot
-nQGSbD4AYhTHnURUQXNJmsCOMmxEHGI7i+xI0xKi7MGIs+mFZr9JrJO6xq6o23Tg
-iZZHZ6ssn5WHbegyKZiL5dAJYKb0Ye2/zprcfr0KOKPRQqH8y4GnSv+ZwQURGSvV
-bqHKwhMp79mN63ytRjP1PB0PZIh98iaraS+cYB6Su/V40e9kyTwxu7CZt7Nyb3vL
-8Ec8/JT47Let41X+C2gPbRgl
-=167r
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR0s+AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+heYP/A5glKwDPpKQMNUAtJ4U
+XHJ66HhTMwEV4D2qOooefLVBnjTC/Az4yt0ulXwpS52q5JFB+5IwsfJz5PLHrA8j
+f/dWOwollVgKCI9rdVrlMfk6ZTGheq5GigNP7Depc2Wo6g9LRKfGzJ6htSDUWtuj
+BVL3gHt6V1svMN911gwooIpoPCBQCQdz3SxNBVMsTqezFnVyYc0CeXb98JsOvbR7
+038uVGP0Iu6BD3Z81+dsVlR/uZE4+HIHBbsCJepAShfkMUYdO3VTCZm6BZh4Tn8P
+En9JEqInWe8j0C4dQd/xj28A1AQr4AFVeUq2xBZqa7XMVQhxov6+25TmtnVC2Bfo
+5jXXuk4cvVH9nzZ9knR7qB19ZENA90hAQvGEcSfP0Ch1AAah6WcwDxO27Ir5PWCq
+I0xekWGa7lHzLBloFfzYNIEQrnp12ivXAUosr5HgxTe1Y4Kcj6Xwo+yxu4EEOK3h
+Gi8LeALJSmp1wlNrcqn+HfzVGeQfkq0bYZh/Da13T8wYziq6javHr2UEgTtxwEXY
+dMehEj9kA6mkj/GYMe3hzCCjUaytDatXS1XvWBLe+S6nDksweOvSiZ+3A1iCzz05
+4asdDCZr0Bf6e0blcA56zYTwq3VIYGibsnthkhY23aFa7qyWTwsjbrF9y4rvir8w
+vGtVqBGNyqGLPNuu57xpSrOP
+=2mrS
 -----END PGP SIGNATURE-----
 
---===============0830866967259714206==--
+--===============2518814777559889187==--
