@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8025819976281178275=="
+Content-Type: multipart/mixed; boundary="===============5576486361860786801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 29 May 2023 13:55:29 -0000
-Message-Id: <168536852962.19068.10213063611073631479@gitolite.kernel.org>
+Date: Mon, 29 May 2023 14:05:56 -0000
+Message-Id: <168536915693.25425.17322210608861665793@gitolite.kernel.org>
 
---===============8025819976281178275==
+--===============5576486361860786801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 8a29f74b7498de8b23bbbbc665b9c14ad07175d4
-    new: 6e9b7cd6b84d027f81f796c43cfd9922723865a7
+    old: 6e9b7cd6b84d027f81f796c43cfd9922723865a7
+    new: 0f2c1f801a67ec2dc01efc10f2ea78ce06c35602
     log: |
-         6e9b7cd6b84d027f81f796c43cfd9922723865a7 accessibility: use C99 array init
+         f050bb8f56c6417c0f7ec18d32e709a9c97b57d4 misc: Switch i2c drivers back to use .probe()
+         128f20c018661439dca8afa523ac066e1a4210ad misc: add HAS_IOPORT dependencies
+         783aa47033a22cad9ed7ffdbb337dcfbf7acc65b mei: bus: drop useless cldev null check
+         0f2c1f801a67ec2dc01efc10f2ea78ce06c35602 mei: bus-fixup: fix buffer type
          
 
---===============8025819976281178275==
+--===============5576486361860786801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685368528 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685369155 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685368528-e587ea36c5a9a5f702dea190da65e36550c42bc4
+nonce 1685369155-604b1b17139b61a54e8d25b7c05eb06a9ac6dde5
 
-8a29f74b7498de8b23bbbbc665b9c14ad07175d4 6e9b7cd6b84d027f81f796c43cfd9922723865a7 refs/heads/char-misc-testing
+6e9b7cd6b84d027f81f796c43cfd9922723865a7 0f2c1f801a67ec2dc01efc10f2ea78ce06c35602 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR0rtAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r6oQAJ02X+L1Y201xwmJG+jx
-wsCSjf3IcF+gH89/tDfapDfWJPEKtWOlEb+opRj/xUihL4mSdxs1iCtmn9dMiYbs
-KKHpoc2CHGDzFlO54qzzJb483pp/4Tqv/AvX7+vaOx8+M5G7vaIPtQ5gZi4Adlxn
-JA/2Y0vNEUPm/8h1uZP5M/e74uJyLchi7HCeTeJFIFjeMuLQWXZwc7RsodecQr6e
-Hel5KzweSDlAgIFbTkIJkHe0PqM4cUAl36/D5P+TFkmugfrwAUmvlE1pUBRc6vVP
-uJdOjYUIt6jt3X8mreZsrcL50u/ujfiGTGkppusVxKwCac/eBVsHfZagEUbABf+V
-vxzb+8x33RErEkXY473ATQF+b+ld2SDecSmG8lKFVCrZGOZSmFgVbF+DsPF7iN60
-ERSIGUHY/8hTSrEivN0vI54uPgvyh2k53OMJrAHtTRG87N8yFU2xiDCU6uWq94Yg
-qasSVkBuhpPvv2cJ5rcbZcIYRSEDV2t2PlqTf0A9VTtd425fPV7a6mbo3IvVPPxS
-WwxHUeqQgaz4nzoC5FEXha4Mts2pP7eH4SQSKwOQPIPJeBtPTS2McYwXIrGJTNZm
-KrDSIMGkv7yKgQuKouAyAjXWrc26y6q1tfzONqwoym8R/W/u2CmWEWreUqOn7a5g
-7App2p/sMx0Vz6H05qWbhFQu
-=CzeF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR0sUMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hAAQAIBPkNRKv8DUi43gNQf2
+Y4y0EFdQlRYqHbagDUCRuT7Zqu0C9/DXA64nwmDogaQQ7PUp1kjyFoYZltwnrBJe
+Fy7lrOE+CZHtSdgpjAJ2uDM2CIcmh4t0RHbYzWJ/JsOTX4EkIvSwtyNIq8hWm+DU
+heuyAbI9dJvVPH0vF7Qf4O610/nSWVNoi53GJQ9Tcjkoy+MBnSdfvNxyADhus5ri
+cybX1VdInYR5S9pPs45606Au9OCeCBo0YXFERcgU6Ya2L7KrGYecxaYQDVKcVgtm
+bOD/GH8Fi0KvqJvSDWxYGK0vGoO2wO4yG6Mz1lkiOYbrIrMtcaadPw4LcXx+Aabk
+5sciVjY5pLhUu2y2o21Grf8koav7ThJ0GjQKwMmk8GTzK3DKABCbIL27fubp4pcO
+hjJ7ixkZTfOAOmke5XIKJDaUziUspi62HE3BAcrbvcLYturGOYErRGphHwkoqmXB
+JlB35wYPksSVNOGNZd8yJBBqCJxs51x1BCVZaHxZGjJu+wRmCtDgGjSHIXor2Kia
+uptUkCG2voMOfEOaEM0doKe+cRbWCf2VEdiIQ+eemCWP7fEgjKGG64EceQSh403t
+5IJl2VdFCPqQxkenT3nHI/o+4ZcEaqZvBDKqtU0coh1h4Qjz8MXaC0rIwy4NmFuP
+Jstu1rmDl1SbZR+vRQbd3KUZ
+=pv02
 -----END PGP SIGNATURE-----
 
---===============8025819976281178275==--
+--===============5576486361860786801==--
