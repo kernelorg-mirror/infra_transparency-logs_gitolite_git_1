@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 29 May 2023 09:28:08 -0000
-Message-Id: <168535248888.20189.10448846461518877346@gitolite.kernel.org>
+Date: Mon, 29 May 2023 09:30:33 -0000
+Message-Id: <168535263338.22639.8854971567159044453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: f94a7760ed7ce81389a6059f020238981627a70d
-    new: f271f09bd6ab87042edcee6497b8b5eec836da10
+    old: f271f09bd6ab87042edcee6497b8b5eec836da10
+    new: ac2fc8b44275f1ba345c16d16607e5db2ef713e8
     log: |
-         3062a58f0ba5fdebc0e06ece63f4ce5b676fcda0 add the "x" wrapper for reallocarray(3)
-         c2e2dd6008766945d5daf35f76bbef7c7edf4492 lsfd: print file descriptors targeted by eventpoll files
-         bf416aeca35a71adc2f2551d1b938a0ded230a2f tests: (mkfds) add a factory to make an eventpoll fd
-         f271f09bd6ab87042edcee6497b8b5eec836da10 tests: (lsfd) add a case for testing EVENTPOLL.TFDS column
+         63d4806055caefc6942caae20ddf6dcb0197e99d libmount: (tests) split helper tests
+         36d4e61c65b8978fadf71eef6d54d4f312c8af83 mount: (tests) test mount helper with multiple filesystems
+         ac2fc8b44275f1ba345c16d16607e5db2ef713e8 Merge branch 'mount/ntfs-segfault' of https://github.com/t-8ch/util-linux
          
