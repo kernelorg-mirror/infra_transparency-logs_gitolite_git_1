@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6155448607700983341=="
+Content-Type: multipart/mixed; boundary="===============0069961760483692782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 29 May 2023 14:08:15 -0000
-Message-Id: <168536929519.26206.14387287294983513572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 29 May 2023 14:09:02 -0000
+Message-Id: <168536934222.26544.1560364418985457124@gitolite.kernel.org>
 
---===============6155448607700983341==
+--===============0069961760483692782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
     log: revlist-09a9639e56c0-7877cb91f108.txt
 
---===============6155448607700983341==
+--===============0069961760483692782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ abbf7fa15b7c140da7893f9c910b4762ac99ae7a Merge tag 'objtool-urgent-2023-05-28' o
 f8b2507c263d6c1478d179c7c260064a61f14542 Merge tag 'x86-urgent-2023-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7877cb91f1081754a1487c144d85dc0d2e2e7fc4 Linux 6.4-rc4
 
---===============6155448607700983341==--
+--===============0069961760483692782==--
