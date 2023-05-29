@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3074926987006934617=="
+Content-Type: multipart/mixed; boundary="===============7840796798586233975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Mon, 29 May 2023 02:03:22 -0000
-Message-Id: <168532580247.16769.11146174336392235264@gitolite.kernel.org>
+Date: Mon, 29 May 2023 02:03:42 -0000
+Message-Id: <168532582237.16965.11737086109644378245@gitolite.kernel.org>
 
---===============3074926987006934617==
+--===============7840796798586233975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fpga/linux-fpga
 user: yilunxu
 changes:
-  - ref: refs/heads/for-next
-    old: da4da5b2d70809e34bb020179602f2d67baf76fd
-    new: 148efa63bab383993a06770c2c05cfb9ed29a193
-    log: revlist-da4da5b2d708-148efa63bab3.txt
+  - ref: refs/heads/fixes
+    old: 3c66c757bfb10ef90ca3424da8c6f6adad4152a2
+    new: d8bdc50012fe1a70ee7a20c4dec5416700fd5240
+    log: revlist-3c66c757bfb1-d8bdc50012fe.txt
 
---===============3074926987006934617==
+--===============7840796798586233975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da4da5b2d708-148efa63bab3.txt
+Content-Disposition: attachment; filename=revlist-3c66c757bfb1-d8bdc50012fe.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -643,6 +643,7 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
-148efa63bab383993a06770c2c05cfb9ed29a193 fpga: dfl-fme: constify pointers to hwmon_channel_info
+feeb9c9219bd051a78929e1924e2b0791bba5038 MAINTAINERS: update Microchip MPF FPGA reviewers
+d8bdc50012fe1a70ee7a20c4dec5416700fd5240 dt-bindings: fpga: replace Ivan Bornyakov maintainership
 
---===============3074926987006934617==--
+--===============7840796798586233975==--
