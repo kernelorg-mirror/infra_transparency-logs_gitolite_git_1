@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Mon, 29 May 2023 13:45:16 -0000
-Message-Id: <168536791657.11421.548550365901258608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 29 May 2023 13:52:42 -0000
+Message-Id: <168536836293.16620.18444531072578217076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/v6.4-next/dts64
-    old: e8c6b47f49884950322a46ae9bc7e06e8d3d7e9d
-    new: 7e07d3322de2a683890395688225c76674b94a73
+  - ref: refs/heads/testme
+    old: 5f2620a7afa7a8d99ecd5f593a07399e810cb22e
+    new: 2fe1e67e6987b6f05329740da79c8150a2205b0d
     log: |
-         f6c3e61c54863247594fe0cf506da590d5415b74 arm64: dts: mediatek: mt8186: Add MTU3 nodes
-         36cfc08f3dd8b5ac7d33d7e53da7c994be7fd186 arm64: dts: mediatek: mt8186: Add SPMI node
-         4dad4f32bad614e3f0c7491a34a19ee4ec47ff84 arm64: dts: mediatek: mt8186: Add ADSP node
-         4121884773afa0030423f36a81d90c43a686c019 arm64: dts: mediatek: mt8186: Add GCE node
-         7e07d3322de2a683890395688225c76674b94a73 arm64: dts: mediatek: mt8186: Add display nodes
+         0150d1bfbedf29d7473ae458815781488f62d11d tools/x86/kcpuid: Dump the correct CPUID function in error
+         b2ad431f6469b58914ee7254302c6dc97f688e54 tools/x86/kcpuid: Add .gitignore
+         688eb8191b475db5acfd48634600b04fd3dda9ad x86/csum: Improve performance of `csum_partial`
+         2fe1e67e6987b6f05329740da79c8150a2205b0d x86/csum: Fix clang -Wuninitialized in csum_partial()
          
