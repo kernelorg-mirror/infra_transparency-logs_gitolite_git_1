@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 29 May 2023 00:36:43 -0000
-Message-Id: <168532060336.18327.8158049878942671135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 29 May 2023 00:37:46 -0000
+Message-Id: <168532066645.18702.10385773400147203219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: d4bfc4c70538d38f47e75b57d2188d19df8d583f
-    new: 44d512e294808c7453d885ce66fdac29af06a8b8
+  - ref: refs/heads/for-kernelci
+    old: 4b9abbc132b86e2ce65090798186836f48f33382
+    new: f5bb4e381290883a014a9e865ee2c430447ef953
     log: |
-         44d512e294808c7453d885ce66fdac29af06a8b8 platform/chrome: Switch i2c drivers back to use .probe()
+         f5bb4e381290883a014a9e865ee2c430447ef953 platform/chrome: Switch i2c drivers back to use .probe()
          
