@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4137941014199542421=="
+Content-Type: multipart/mixed; boundary="===============0091002914571125854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 29 May 2023 10:43:12 -0000
-Message-Id: <168535699258.18552.12046628898316156970@gitolite.kernel.org>
+Date: Mon, 29 May 2023 10:43:37 -0000
+Message-Id: <168535701744.18743.8338802135802477654@gitolite.kernel.org>
 
---===============4137941014199542421==
+--===============0091002914571125854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-mika
     old: 44c026a73be8038f03dbdeef028b642880cf1511
     new: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
     log: revlist-44c026a73be8-7877cb91f108.txt
 
---===============4137941014199542421==
+--===============0091002914571125854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -345,4 +345,4 @@ abbf7fa15b7c140da7893f9c910b4762ac99ae7a Merge tag 'objtool-urgent-2023-05-28' o
 f8b2507c263d6c1478d179c7c260064a61f14542 Merge tag 'x86-urgent-2023-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7877cb91f1081754a1487c144d85dc0d2e2e7fc4 Linux 6.4-rc4
 
---===============4137941014199542421==--
+--===============0091002914571125854==--
