@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2231022594201298683=="
+Content-Type: multipart/mixed; boundary="===============9004285742574108392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 29 May 2023 14:19:54 -0000
-Message-Id: <168536999471.1117.9785736641763825078@gitolite.kernel.org>
+Date: Mon, 29 May 2023 14:23:14 -0000
+Message-Id: <168537019460.5103.1049925304213895856@gitolite.kernel.org>
 
---===============2231022594201298683==
+--===============9004285742574108392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 581d79f7deedac1f45edbbf1e185f5e601565426
-    new: 24520e51fffb56f3931084b1426cb2404bda095a
+    old: 24520e51fffb56f3931084b1426cb2404bda095a
+    new: c3ff12a92bd7072170978b8b41c2fa41b038139a
     log: |
-         24520e51fffb56f3931084b1426cb2404bda095a dt-bindings: phy: qcom,sc7180-qmp-usb3-dp-phy: Add orientation-switch as optional
+         2f6ecb89fe8feb2b60a53325b0eeb9866d88909a usb: gadget: u_serial: Add null pointer check in gserial_suspend
+         e5990469943c711cb00bfde6338d2add6c6d0bfe usb: gadget: u_serial: Avoid spinlock recursion in __gs_console_push
+         c3ff12a92bd7072170978b8b41c2fa41b038139a usb: gadget: uvc: queue empty isoc requests if no video buffer is available
          
 
---===============2231022594201298683==
+--===============9004285742574108392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685369993 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685370193 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1685369993-6a2c2c10272fb6153ae20aff588c6ba65224eb37
+nonce 1685370192-bfd3c54093b6687345acb44f4c3019f5152b9815
 
-581d79f7deedac1f45edbbf1e185f5e601565426 24520e51fffb56f3931084b1426cb2404bda095a refs/heads/usb-testing
+24520e51fffb56f3931084b1426cb2404bda095a c3ff12a92bd7072170978b8b41c2fa41b038139a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR0tIkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OQUP/jeh1gLib8XYexXHRudn
-vu8bWdSdJwpAMy60STWKKG8UkJHcl7AEhAQN9iUZphe2WqHpThAUj4D0wZlGaeoW
-acX+PuzYheUUKhLDt1gEyTRoQ6sluSZE0XNSxv2LQqUwtnfc/bapgHf9OrJjkqp3
-itVzQ2CqxKuXCFZgHc8vJIZEVaT86XDLeMTktaykOQw+laneFB7fQG8FsgrfgPAf
-D7ETdVoq9ck1iign7UbuEixpvG15G8dHSam1KQ0+ZNWZO1WDVkMaKXQdE8iJ48lS
-Es7EM31B9vlBNwAeX7dMp9cM2/FoSqzIZ+916CNOWg4yl8ASlNDwDA6e+iGDy1Pe
-hwaiNpAZwQd5nUkgPsQwglqeuckkmURAmmpZ3OlAqWk7TYyNYB5b6GHONtjv7msl
-NqaPReUULNDpOZJG6v63nB/yYf2+XJ/nOkYAHCxO4WJWuklBik021ujtlz3QZMzc
-JZzBvfqzQdAvEq9NOhZS3EIqyjdcR9HwCvy8bMhQAEcU1neoSPnafLyJ2BiNDb/R
-2nH12PUibNDZj5VQAizwfR1O4tOnAE7N3+j8YdLkCjoQmk4v0+NOPK+OKcYv3kG4
-TPxPLPTIiCnUhVgR2BSqNV5CrxBd98ctF+Hd3yA6yj6W/Jh37Wn/g/FDHNPU1kd+
-1+NUjOA1x3tXvUFD63w+eixw
-=g0gK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR0tVEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qzYQALGi/BplPmKd/mirl4dq
+LsKi7W5hioZ+s6zxC+XJjqYa4jruJBgUwWN3uJfeRecf+qYf6UGcCtG9/YVxl8a2
+PGw7AOJVgenyfxk1GeJaHX3h2OY0fJT2EHC1/OD1W9pEg/+ijgzLd8FxwS1J3bum
+K1X5PX9qeES/7AAAejzFJdGWZo/VChk9Hn0IdhxWupV2SO5ci1fSM5cGK/3k+dIn
+BnBbd6RpygboGnxoXSG+2eCALgq9tHIdNx2PVzwQr+pQwRrA8Ti7yxLiGMAtAYBa
+FGa0B8MBtfvQdx5aJhqsmv9Lv8eViP58TjKQoHO+oujzykB8nr04d+clTlmNYsLW
+TNdheJbe/OZ4tAPKmV3IY6S3oF4+mX9j98H1gQ8LQAI7geeIvmIIbibx5Pb6t+WA
+7oM87JtClykl23Jlw8J+XFwSdLg1Q5rULVpL0EwnaZTN/Gd8jrCrFxyG0rS4X6YE
+i6ad7Rw9qYSjMTufNLamtA6zV7eLIASjgOehSqE86b7pb/VoDKpg75JGB4Z5AYco
+r7V+MRlHHwISQ/2p2wfT4+akllCHli3xzDIFLonFybRakis9o8ICgTYlzSRlvcaz
+/TnvUweZn5DM7I54OpBxZndpYNo983FF2jV0GfGvuvsELHzLK9OChQpkOr6ChsW/
+NusEWWC9UynhoL7WOHCJHZAq
+=gajK
 -----END PGP SIGNATURE-----
 
---===============2231022594201298683==--
+--===============9004285742574108392==--
