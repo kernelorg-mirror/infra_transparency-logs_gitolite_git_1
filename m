@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1841668277086870789=="
+Content-Type: multipart/mixed; boundary="===============8508763847017466955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 May 2023 14:36:57 -0000
-Message-Id: <168537101782.14389.17041197026553297902@gitolite.kernel.org>
+Date: Mon, 29 May 2023 14:38:09 -0000
+Message-Id: <168537108931.14788.3882562626492861711@gitolite.kernel.org>
 
---===============1841668277086870789==
+--===============8508763847017466955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 44c026a73be8038f03dbdeef028b642880cf1511
-    new: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
-    log: revlist-44c026a73be8-7877cb91f108.txt
-  - ref: refs/tags/v6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/heads/nfsd-next
+    old: bdd7ea53b5c985d8bbc81fa8e3a0cbbd58e8e1b7
+    new: 304d003fa565e8ac40546425a8b0adf568dbc944
+    log: revlist-bdd7ea53b5c9-304d003fa565.txt
 
---===============1841668277086870789==
+--===============8508763847017466955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44c026a73be8-7877cb91f108.txt
+Content-Disposition: attachment; filename=revlist-bdd7ea53b5c9-304d003fa565.txt
 
 654d0310007146fae87b0c1a68f81e53ad519b14 optee: fix uninited async notif value
 0cce06ba859a515bd06224085d3addb870608b6d debugobjects,locking: Annotate debug_object_fill_pool() wait type violation
@@ -347,5 +344,27 @@ abbf7fa15b7c140da7893f9c910b4762ac99ae7a Merge tag 'objtool-urgent-2023-05-28' o
 2d5438f4c6fdaa34c5d7de89a5331b8dbcd920af Merge tag 'perf-urgent-2023-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f8b2507c263d6c1478d179c7c260064a61f14542 Merge tag 'x86-urgent-2023-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7877cb91f1081754a1487c144d85dc0d2e2e7fc4 Linux 6.4-rc4
+3c5a290e591a79334c80d9ec3546a7d3c6432630 nfsd: use vfs setgid helper
+bb3aaaa422f26c703074777d1a15ca53de3698a3 SUNRPC: Fix UAF in svc_tcp_listen_data_ready()
+7102eef176ae7d4eb5d6e283acad5f567e9b8480 SUNRPC: Fix an incorrect comment
+c54379fc08fc15f72ecf6104d4a111df08177c90 SUNRPC: Remove dprintk() in svc_handle_xprt()
+074cbe77d3196609c516b4a78313142cf9a6bae6 SUNRPC: Improve observability in svc_tcp_accept()
+e1122c78843205e6580f62187f624163a41c50a2 SUNRPC: Trace struct svc_sock lifetime events
+3b30dad296b6cc2a68b6df8e10365f30a44ef001 NFSD: Clean up nfsctl white-space damage
+ef1410380d46dd0ece26cedf47757acb1fd8a1d6 NFSD: Clean up nfsctl_transaction_write()
+b02cc05ecf474b8b808416cf59dc88a749905c49 NFSD: trace nfsctl operations
+45ef655a349d6a770495da7fbd3ac898ccf7ee47 SUNRPC: Resupply rq_pages from node-local memory
+c2067e1f5ac3e2b380ac569e65e5666e9abb8f9f SUNRPC: Use __alloc_bulk_pages() in svc_init_buffer()
+4db069ff3d51be1e57a0592328b3e0f7897553cd NFSD: Add encoders for NFSv4 clientids and verifiers
+5f50a734936b08b97e2d3eca5e98f9a86359c4d9 NFSD: Replace encode_cinfo()
+185c22a1af17022fba8ac7a946f3797bb3ca162b NFSD: Ensure that xdr_write_pages updates rq_next_page
+4ccc95f2d3ec5b62543ef694f536026e780c8cf0 NFSD: Use svcxdr_encode_opaque_pages() in nfsd4_encode_splice_read()
+befb016b77c35c831dfa3e1f26f3e87a3f3cc271 NFSD: Update rq_next_page between COMPOUND operations
+3026d9f043b995f7a15e91ce39490f9ebb17b7a4 NFSD: Hoist rq_vec preparation into nfsd_read()
+cdebb3dd2b1e504d405e6a1a19862455bc3ac82f NFSD: Hoist rq_vec preparation into nfsd_read() [step two]
+516e8e4e8b78b5857ebfddc0808ff88e339bc89a NFSD: Remove nfsd_readv()
+d3349feb678334dc8c9c04ef2805d59c9cde1101 nfsd: don't provide pre/post-op attrs if fh_getattr fails
+54e488e46ea7d414f9211e38a0bace66b0642ef4 locks: allow support for write delegation
+304d003fa565e8ac40546425a8b0adf568dbc944 NFSD: enable support for write delegation
 
---===============1841668277086870789==--
+--===============8508763847017466955==--
