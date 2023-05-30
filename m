@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Tue, 30 May 2023 19:35:48 -0000
-Message-Id: <168547534878.10424.568761502078308991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 30 May 2023 19:41:36 -0000
+Message-Id: <168547569618.13737.13412653125152403667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: 781c858c35c821f7055ccca73d27b6d1c77798b3
-    new: eb1f822c76beeaa76ab8b6737ab9dc9f9798408c
-    log: |
-         b928dfdcb27d8fa59917b794cfba53052a2f050f ext4: set lockdep subclass for the ea_inode in ext4_xattr_inode_cache_find()
-         2bc7e7c1a3bc9bd0cbf0f71006f6fe7ef24a00c2 ext4: disallow ea_inodes with extended attributes
-         aff3bea95388299eec63440389b4545c8041b357 ext4: add lockdep annotations for i_data_sem for ea_inode's
-         1077b2d53ef53629c14106aecf633bebd286c04c ext4: fix fsync for non-directories
-         eb1f822c76beeaa76ab8b6737ab9dc9f9798408c ext4: enable the lazy init thread when remounting read/write
-         
+  - ref: refs/heads/v2_20230530_cristian_ciocaltea_es8316_audio_codec_fixes_on_rock5b
+    old: 60413129ee2b38a80347489270af7f6e1c1de4d0
+    new: 0000000000000000000000000000000000000000
