@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 30 May 2023 14:15:15 -0000
-Message-Id: <168545611555.17928.6195011414419478625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 30 May 2023 14:20:00 -0000
+Message-Id: <168545640064.19424.10109846057919397216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/v2_20230523_trevor_wu_asoc_sof_add_mt8188_audio_support
-    old: f99aa9b3bf3e4ffa777230cd625a378b891537d1
-    new: 0f3d5585ad20a23bf70d09deae2e0d84e745055e
+  - ref: refs/heads/lol
+    old: 39c1011e71856363fb46d86921117172aa02caaa
+    new: 728ed83f12cb38f602b0b9e7233c7321116a2e24
+    log: |
+         728ed83f12cb38f602b0b9e7233c7321116a2e24 implement sean's suggestion
+         
