@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 30 May 2023 20:55:14 -0000
-Message-Id: <168548011468.1612.15440534719125736267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 30 May 2023 20:59:47 -0000
+Message-Id: <168548038763.3096.12275620162908931524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/testing/fam01-next20230530
-    old: 3dca1882a851e8967233c19f985c9be56d63ef82
-    new: a2e8533878017f1874b21d78b6bf08a6c4095365
-    log: |
-         a2e8533878017f1874b21d78b6bf08a6c4095365 Makefile: Globally enable -Wstringop-overflow
-         
+  - ref: refs/heads/dev-queue
+    old: 74459bd2974abff22b8c735fda3def8c240c858f
+    new: 313ab1c0eccfbdf2e74a4ca77460ecc6fdb90822
