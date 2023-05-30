@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 30 May 2023 23:21:59 -0000
-Message-Id: <168548891927.3094.828252764664059521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 30 May 2023 23:26:44 -0000
+Message-Id: <168548920436.6116.9486564411615502873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/objtool/core
-    old: 6245ce4ab670166efcdae843c35c14e4c0811aa3
-    new: d3cd275912e56ed78245b539e6e04e408ad47ad9
+  - ref: refs/heads/for-next/hardening
+    old: 48ee28835621c6b016f11c8d98b4b0c6573f24ce
+    new: 018306031ef3147d1448972513ee8e1294c4694c
     log: |
-         c852ee0dfba904d5269777a92647cdfb4dc21a27 tools: Remove unnecessary variables
-         d3cd275912e56ed78245b539e6e04e408ad47ad9 lkdtm: Avoid objtool/ibt warning
+         40932d192ec86b465555dbabc1a4d7d6360159ef clocksource: Replace all non-returning strlcpy with strscpy
+         3e8849c6b35636d910978bf994fdea38f54a85ce acpi: Replace struct acpi_table_slit 1-element array with flex-array
+         018306031ef3147d1448972513ee8e1294c4694c checkpatch: Check for 0-length and 1-element arrays
          
