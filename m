@@ -1,23 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 30 May 2023 23:34:07 -0000
-Message-Id: <168548964728.10346.3210123247302104514@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3699511482478799280=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 30 May 2023 23:42:15 -0000
+Message-Id: <168549013573.15978.15826744245417403701@gitolite.kernel.org>
+
+--===============3699511482478799280==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/dev-test
-    old: cf996e914dd337a487a10b0bdb5dde7d88234b44
-    new: 475931f3efad50b7612b4c33e0f7af7835398a45
-    log: |
-         a2f4d30336a22483ec94560deca57d7377708cec f2fs_io: Fix integer multiplication overflow error in fiemap
-         f56895703df160a0d0bfccf9c51991643380cbc9 mkfs.f2fs: cleanup w/ alloc_next_free_block()
-         6ab25d9755b84e1cdee396f92368b47ada6e7883 mkfs.f2fs: refactor format flow for cleanup
-         95db93eed95a82a6ef82730efef333693c6ce363 f2fs-tools: fix to le32 type variable correctly
-         475931f3efad50b7612b4c33e0f7af7835398a45 f2fs-tools: reuse feature_table to clean up print_sb_state()
-         
+  - ref: refs/heads/for-next/hardening
+    old: 018306031ef3147d1448972513ee8e1294c4694c
+    new: bd4e7ef1ed29fe8b010f3e9de51ab9c36e854926
+    log: revlist-018306031ef3-bd4e7ef1ed29.txt
+
+--===============3699511482478799280==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-018306031ef3-bd4e7ef1ed29.txt
+
+2f088dfc1878108748018af0d2e3748ba9eee1e9 md/raid5: Convert stripe_head's "dev" to flexible array member
+7391928025f28cd4cab43e59d2b4e36509b9337e befs: Replace all non-returning strlcpy with strscpy
+b45861ed66ded8b31c718ed096c993dfba2b07df lkdtm/bugs: Switch from 1-element array to flexible array
+e910c8e3aa02dc456e2f4c32cb479523c326b534 autofs: use flexible array in ioctl structure
+dd06e72e68bcb4070ef211be100d2896e236c8fb Compiler Attributes: Add __counted_by macro
+d0c2d66fcc8db748edfe60e3b443eaff931f50e9 ftrace: Replace all non-returning strlcpy with strscpy
+d0f90841cba1931ee8284297deda53f098de5c82 checkpatch: Check for strcpy and strncpy too
+26f15e5de15f7917358af0fda4291b74a3285989 ubsan: add prototypes for internal functions
+f3cdbc12014e047750c6948cf12e74602414ee14 crypto: marvell/cesa - Fix type mismatch warning
+dbdbda1b273f00066542d3e58f88c50753cc417e drm/display/dp_mst: Replace all non-returning strlcpy with strscpy
+04a244b375f93740bbef53f2c1bfae56a288108f drm/rockchip: Replace all non-returning strlcpy with strscpy
+2397bd9c06c3483d4c5de0a6572aaf79795fa4b1 drm/mediatek: Replace all non-returning strlcpy with strscpy
+d904958c655759db0904eb6fac666a9ea0cc24b0 drm/sun4i: hdmi: Replace all non-returning strlcpy with strscpy
+0a2736ae21aa046b48a80fa11c8d27afe37996ad drm/i2c: tda998x: Replace all non-returning strlcpy with strscpy
+cdccedb68d1afb90fb31a1ae36105035bb801212 staging: most: Replace all non-returning strlcpy with strscpy
+d275956df62c2608a786e63aee708423e13e6d1b w1: sgi_w1: Replace all non-returning strlcpy with strscpy
+f7223ccc138b8c810e8ce071b783fc85f7e6af4a string: use __builtin_memcpy() in strlcpy/strlcat
+818151af8e00d98f267ff346a07f9f79783f736e clocksource: Replace all non-returning strlcpy with strscpy
+ee83b42b04c87bbdfdf591c0f4a38ced8fd1b195 acpi: Replace struct acpi_table_slit 1-element array with flex-array
+0e6f61b889c4b72ea087594df7940db559ff4252 checkpatch: Check for 0-length and 1-element arrays
+bd4e7ef1ed29fe8b010f3e9de51ab9c36e854926 jfs: Use unsigned variable for length calculations
+
+--===============3699511482478799280==--
