@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Tue, 30 May 2023 08:56:39 -0000
-Message-Id: <168543699998.4152.12760991037054474011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Tue, 30 May 2023 09:11:09 -0000
+Message-Id: <168543786977.13234.1796780249718590798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
+repo: pub/scm/libs/libtrace/libtraceevent
 user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: edf9424029cc4a05166100a5957fab6a13791880
-    new: f30abfd2110cc1c26ed49a9c6061e76ca2646522
+  - ref: refs/heads/libtraceevent
+    old: 1d8ddb972d08ffd283e6dc7952d4cbe8a6b74eb0
+    new: eba4a417cf7053293443cf7d79c42b6b9a629fe6
     log: |
-         04ad2c60be68a739221209b8c5ca2e0d6ea2202a trace-cmd report: Ensure filter is applied to single input file
-         7a390c56493dd7199982112e588872a247fb9808 trace-cmd-report: Support global filters
-         f30abfd2110cc1c26ed49a9c6061e76ca2646522 documentation: trace-cmd-report: Document filter scope
+         eba4a417cf7053293443cf7d79c42b6b9a629fe6 libtraceevent: Add initial support for meson
          
