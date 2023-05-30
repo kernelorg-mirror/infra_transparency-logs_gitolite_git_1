@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3699511482478799280=="
+Content-Type: multipart/mixed; boundary="===============1834378112906014297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 30 May 2023 23:42:15 -0000
-Message-Id: <168549013573.15978.15826744245417403701@gitolite.kernel.org>
+Date: Tue, 30 May 2023 23:43:10 -0000
+Message-Id: <168549019034.16368.17046304734247095973@gitolite.kernel.org>
 
---===============3699511482478799280==
+--===============1834378112906014297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 018306031ef3147d1448972513ee8e1294c4694c
-    new: bd4e7ef1ed29fe8b010f3e9de51ab9c36e854926
-    log: revlist-018306031ef3-bd4e7ef1ed29.txt
+  - ref: refs/heads/for-next/kspp
+    old: 40932d192ec86b465555dbabc1a4d7d6360159ef
+    new: 2b7037f92ca326fe5bf5a8dfadc26cbbce875b82
+    log: revlist-40932d192ec8-2b7037f92ca3.txt
 
---===============3699511482478799280==
+--===============1834378112906014297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-018306031ef3-bd4e7ef1ed29.txt
+Content-Disposition: attachment; filename=revlist-40932d192ec8-2b7037f92ca3.txt
 
 2f088dfc1878108748018af0d2e3748ba9eee1e9 md/raid5: Convert stripe_head's "dev" to flexible array member
 7391928025f28cd4cab43e59d2b4e36509b9337e befs: Replace all non-returning strlcpy with strscpy
@@ -44,8 +44,6 @@ cdccedb68d1afb90fb31a1ae36105035bb801212 staging: most: Replace all non-returnin
 d275956df62c2608a786e63aee708423e13e6d1b w1: sgi_w1: Replace all non-returning strlcpy with strscpy
 f7223ccc138b8c810e8ce071b783fc85f7e6af4a string: use __builtin_memcpy() in strlcpy/strlcat
 818151af8e00d98f267ff346a07f9f79783f736e clocksource: Replace all non-returning strlcpy with strscpy
-ee83b42b04c87bbdfdf591c0f4a38ced8fd1b195 acpi: Replace struct acpi_table_slit 1-element array with flex-array
-0e6f61b889c4b72ea087594df7940db559ff4252 checkpatch: Check for 0-length and 1-element arrays
-bd4e7ef1ed29fe8b010f3e9de51ab9c36e854926 jfs: Use unsigned variable for length calculations
+2b7037f92ca326fe5bf5a8dfadc26cbbce875b82 jfs: Use unsigned variable for length calculations
 
---===============3699511482478799280==--
+--===============1834378112906014297==--
