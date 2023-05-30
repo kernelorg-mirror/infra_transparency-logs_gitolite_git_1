@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 30 May 2023 21:11:04 -0000
-Message-Id: <168548106438.11359.8746620899734523731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 30 May 2023 21:12:35 -0000
+Message-Id: <168548115571.11888.5203750202099797785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/dev.2023.05.23a
-    old: 0000000000000000000000000000000000000000
-    new: dc88d94709f4362bd855ccf6d516e15c98089b73
+  - ref: refs/heads/for-next
+    old: ce42b1166b122928e27be60969bcdcf1219370d1
+    new: 0000000000000000000000000000000000000000
