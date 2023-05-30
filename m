@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 30 May 2023 06:14:33 -0000
-Message-Id: <168542727387.24092.17578823722973536378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/linux
+Date: Tue, 30 May 2023 06:18:09 -0000
+Message-Id: <168542748975.26794.1429561236883773783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/song/linux
+user: song
 changes:
-  - ref: refs/heads/next
-    old: f1138fda1b0db43ff63d19923f8e84951c0c4d1c
-    new: 033c2d8ab2835a7f13e1a9c6813b412935e77140
+  - ref: refs/heads/vmalloc_exec
+    old: 8d25ad2b7f84ddfb4a4fd9a79678aed4443d6403
+    new: e89980564f792d810b43b07b8f248b94b6965656
     log: |
-         033c2d8ab2835a7f13e1a9c6813b412935e77140 thunderbolt: Log DisplayPort adapter rate and lanes on discovery
+         e89980564f792d810b43b07b8f248b94b6965656 test
          
