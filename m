@@ -1,68 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4613058213326298010=="
+Content-Type: multipart/mixed; boundary="===============0859351945081839753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 30 May 2023 08:22:11 -0000
-Message-Id: <168543493168.13328.6592506569608683528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 30 May 2023 08:25:59 -0000
+Message-Id: <168543515969.16098.6184648854380279581@gitolite.kernel.org>
 
---===============4613058213326298010==
+--===============0859351945081839753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 5f7e0ce5763956fb533bf8dfd741c94f46cede7c
-    new: a3119e95a0d193a0c13168ba48bd081ce11060ff
+  - ref: refs/heads/mem-ctrl-next
+    old: 3d56c7364389fce14547803fef56d6f2cab5d366
+    new: 1d9e93fad549bc38f593147479ee063f2872c170
     log: |
-         2f6905307a7bb998e819c03097f3cc54a51b015a ARM: dts: exynos: Fix some typos in comments
-         316c31fba6eda4543d5e234b13d0c0605a83a643 ARM: dts: s3c64xx: Fix some typos in comments
-         6a988251c4e53da33107c1975f578904c0635b43 ARM: dts: s5pv210: Fix typo in comments, fix pinctrl header
-         a3119e95a0d193a0c13168ba48bd081ce11060ff Merge branch 'next/dt' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: fd811cce9b92635799ba5c6de657e4a53c68adf6
-    new: 6a988251c4e53da33107c1975f578904c0635b43
-    log: |
-         2f6905307a7bb998e819c03097f3cc54a51b015a ARM: dts: exynos: Fix some typos in comments
-         316c31fba6eda4543d5e234b13d0c0605a83a643 ARM: dts: s3c64xx: Fix some typos in comments
-         6a988251c4e53da33107c1975f578904c0635b43 ARM: dts: s5pv210: Fix typo in comments, fix pinctrl header
+         1d9e93fad549bc38f593147479ee063f2872c170 memory: brcmstb_dpfe: fix testing array offset after use
          
 
---===============4613058213326298010==
+--===============0859351945081839753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1685434929 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1685434929-d320c3190a366bce64ac2ddaf9eb3550e0dd08b1
+pusher krzk@kernel.org 1685435158 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1685435157-f8ff9febf61a0cae95ea577f47e5cfc2ae26b228
 
-5f7e0ce5763956fb533bf8dfd741c94f46cede7c a3119e95a0d193a0c13168ba48bd081ce11060ff refs/heads/for-next
-fd811cce9b92635799ba5c6de657e4a53c68adf6 6a988251c4e53da33107c1975f578904c0635b43 refs/heads/next/dt
+3d56c7364389fce14547803fef56d6f2cab5d366 1d9e93fad549bc38f593147479ee063f2872c170 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmR1sjEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14SWEACSW0kbxvv4/XbHh8BA5nRJmlHQ5h73EKUy
-ZfxryFFeaf0OpeIf/wu/PHaqSFK21OGUTLY68LDXrDIN4Wo/pW/k9QAMXgYFq6Gq
-uIJz0zS1gjXzMjjGgFyEv0UKhIfC50Xkl3i/fF71ERJT41jZwrbTHxdQ1bSt5l7+
-fy+REg0zTan7ZG58UC2k6Y/KKrt4k6iaPYzrzSMbX6CxJ2PU4AK18YWSyJIYmMo2
-Hbc0uibzxAELxZyDslDHBrdf/EkOVuM7/bcEDHWQsHqivBJwSbXzqbCZ9OsEuGiw
-veYQhRDXmUY5Hr640koUfQXPd+q0IUesY6UfNKHihMqHpPV1ANHAxi0YdBXN6Llb
-4EzLDxmzsVIE1XP5qAYBvivOuy3Qwkbyu7YCbo9wRWFQo3bX37X28o9/BJ5Hpxap
-UyimQwK/BbuW6K8F5NOJ4AQ80YWXOVeCsSwL39ajvsH1KCBZBZYhJn+pXPhDEwcw
-RZQakXBTVzDT05qJS4xB5KCB5V+gsRa9kwr970jMnN6U25qG6ZUOggth5513Wx4H
-wGvUSY0S/aNDHKLG1JEvZVhzSB9pYIPVVHJqRAdApOt+w6yyxCJDyzmNIFwY0d+M
-EFUXRqq7Ara6PucUul3ypL3dI4bfd8ci544TG4crMZSTRxD1qI3NO1FOw7tvkMXO
-YpiRysdqlQ==
-=flnl
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmR1sxYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11QjD/472HGO/kaODKXCOoKSF0Y2McTMHtUKEalO
+tLvAeG8gfGChX0lBgAwVSAjIRoNAW8L2sslR/ov6WFvFF6Df35i3aT0/3kYr8W2f
+lIqXjCa+at3hGaHSgDpDQRTpk8s9fKpr5gC6p63QNrEoGvxCUd9WXSP4KljQz6Ol
+6Kwokco4Tau744nn1YtnYTvELpKd1B3PbOf9RRS21n3GOpKvWZSdts8Ves3kEAtq
+fN77sGKLjaCqVaoiwMbgQ9D0zFrvK7nJgpK2uJNvCou+BRTvIg588/hRUJJymAvd
+nU8H3jhfaoryed9k0SX10iIoeuRTpm7aZMssGcfBHJEpZb7pCN+qaBSFov3jbuKq
+7NgP3o2b6lr2Riy3SsiyViatWsvgTzjKrYRBhyCJrBh/t/tjJgMSfmOxLj+0eSaJ
+QuEbgNN0sbXXDs6wQxcMF9i8Up6jKwL89IIhHpLfIR0+EknBJU2q0owppNHrMqVS
+6wJBR+ygmj5CwgiZqJN+mB1E1K9EnHZWTV8Gnw2jAk7qE0Jf0Z+VQVl3+MLUawB6
++s+1yuaHPHFp7+iM7L/6JQDGibIQ7FAvgVcTjuPFFg4Q6lxlK+KkkaQtScxh/UhZ
+MjO6Bt6DOXLXM/751i88VHFw+7mtook9jjhYK251l3QLHeabgtq+HSiOCmVupQXm
+2Q7Zta49Jg==
+=2YQC
 -----END PGP SIGNATURE-----
 
---===============4613058213326298010==--
+--===============0859351945081839753==--
