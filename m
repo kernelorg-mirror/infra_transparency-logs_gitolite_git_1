@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5767248220519444256=="
+Content-Type: multipart/mixed; boundary="===============3561829131631864213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Tue, 30 May 2023 15:45:39 -0000
-Message-Id: <168546153968.15149.6937728201952705121@gitolite.kernel.org>
+Date: Tue, 30 May 2023 15:47:00 -0000
+Message-Id: <168546162025.15623.11778833326172663123@gitolite.kernel.org>
 
---===============5767248220519444256==
+--===============3561829131631864213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,55 @@ repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
   - ref: refs/heads/kernel.fork
-    old: ad0ff58dc959b138f8125ce6679fbd1ec8784f83
-    new: ea128375a01a6f59aabda83f8990b866a6be6d45
-    log: revlist-ad0ff58dc959-ea128375a01a.txt
+    old: ea128375a01a6f59aabda83f8990b866a6be6d45
+    new: 757777eef55b48b310603d0a1f6591f2a138691b
+    log: revlist-ea128375a01a-757777eef55b.txt
 
---===============5767248220519444256==
+--===============3561829131631864213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad0ff58dc959-ea128375a01a.txt
+Content-Disposition: attachment; filename=revlist-ea128375a01a-757777eef55b.txt
 
-b54986586651795dfda4aa5bb8ccd74cf80334da drm/mipi-dsi: Set the fwnode for mipi_dsi_device
-69605be558e5a1ae5cb5016edcd9e627b7e2827f Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-07b221806d1b7178c8f2fd064c5f851f870645b1 nfs: fix another case of NULL/IS_ERR confusion wrt folio pointers
-c06f77d28fee8204be3f4b785336ad8dd30eb7dc riscv: Fix orphan section warnings caused by kernel/pi
-e37249dcf8abda84bd91163d9fac09df4d452ee0 drm/sched: Check scheduler work queue before calling timeout handling
-ed96deb78e5de1f765c88d33104b078d9190bd09 Merge tag 'platform-drivers-x86-v6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-0c012ef0ec132f7496f558c9d1dd516e2b9c5595 Merge tag 'gfs2-v6.3-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-50d271b7a7aaab2bcd695cbacfe0af93e251d882 Merge tag 'fsnotify_for_v6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-b6ecdfb11b39536eee074f783f7ed8ea99d851f6 MAINTAINERS: re-sort all entries and fields
-5896968ae8c250e112f8ce11a24cd49bcfdd1e0b Merge tag 'nf-23-05-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-0ac70d9998c86eed4d8d694a4f14aad65b3f16d1 Merge tag 'media/v6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-d781be20af07b1e01e08cd4b483c34f2d28da3b0 Merge tag 'net-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-1c0c4bc05d7ce0a62a26553bb8fb4b530d83e466 Merge tag 'dt-fixes-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt
-eb307c915646d2471aa681d86a454322023fd4eb Merge tag 'drm-misc-fixes-2023-05-11' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-dacec4e7ee3f317f29315f2ca89d9517ab550114 Merge tag 'drm-intel-fixes-2023-05-11-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-8963150b47cefec506acef27b62002868f0b5bc8 Merge tag 'amd-drm-fixes-6.4-2023-05-11' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-db22a78ad3b52643577d420d73e15425ebd6e9e5 Merge tag 'xfs-6.4-rc1-fixes' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-f301c0577e2ef14c1841725b4cad2081a388c271 Merge tag 'drm-fixes-2023-05-12' of git://anongit.freedesktop.org/drm/drm
-65619ae512764567585fbf12542bfe65d83751fc Merge tag 'firewire-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-333a31343b030b629cfad40a5827843be4b6aa16 pipe: check for IOCB_NOWAIT alongside O_NONBLOCK
-b96ff0f4d71b7439bd3b447e9caa14b7006e5b44 Merge tag 'riscv-for-linus-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-9c29e6e7a0f4552423ac9ae7994e0a1a0554665b Merge tag 'io_uring-6.4-2023-05-12' of git://git.kernel.dk/linux
-5174ba57174f4d87c314cddeb4725211dcefbcac Merge tag 'vfs/v6.4-rc1/pipe' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-c04b3671715615006b6ec01389f5742d4aa7b592 Merge tag '6.4-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-dc205f5c0a4e103567ad45fb58076bbe68ef266f Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-fcedd8cf7fc13ffad95f5fa5ab06b6b7c43cca03 x86/retbleed: Fix return thunk alignment
-5412cbb9963f0ddb9feb8412933f2e5620aa5a8f Merge tag 'block-6.4-2023-05-13' of git://git.kernel.dk/linux
-faff60c56a66f3bad6224656667219f338312295 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-ba77d19b653fb6291e653e986243fe5c15530642 Merge tag 'fbdev-for-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-0753cc43de6f78c9a6e61fc8e1bf9acb61fdfae3 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-f54bd6c6c65558c8cde098ef69d27b0cac3c6b6c Merge tag 'timers_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8304a7f0b4c7e845a653d8f40fbd544a77137a62 Merge tag 'x86_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c4f557fd0c544692d7eacb1419f079fc34acc69f Merge tag 'sched_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b4ab8a694df2b6126f5c9ac67773a4b131c43eff Merge tag 'perf_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b8df83599447a06d5b2f38c90e2997041a5e905f Merge tag 'locking_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ee39a2f569ded418fa5b423f7884795660dc71ac Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-1438f14adb00f7d5cd93b03a553eccef39eb66e1 Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-219791ab50db8a84ab8dbdaeba55d2c03b2d811b Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-a7e0a1c2e05198dad1b32b4df1ceb58e5e68b0a5 Linux 6.4-rc2
-ea128375a01a6f59aabda83f8990b866a6be6d45 pid: Replace struct pid 1-element array with flex-array
+a26cc2934331b57b5a7164bff344f0a2ec245fc0 drm/mipi-dsi: Set the fwnode for mipi_dsi_device
+1dc3731daf1f350cfd631b5559aac865ab2fbb4c Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+16a8829130ca22666ac6236178a6233208d425c3 nfs: fix another case of NULL/IS_ERR confusion wrt folio pointers
+3b90b09af5be42491a8a74a549318cfa265b3029 riscv: Fix orphan section warnings caused by kernel/pi
+2da5bffe9eaa5819a868e8eaaa11b3fd0f16a691 drm/sched: Check scheduler work queue before calling timeout handling
+ad2fd53a7870a395b8564697bef6c329d017c6c9 Merge tag 'platform-drivers-x86-v6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+2a78769da34b792cc4c4f7157cda6b622fab0872 Merge tag 'gfs2-v6.3-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+d295b66a7b66ed504a827b58876ad9ea48c0f4a8 Merge tag 'fsnotify_for_v6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+80e62bc8487b049696e67ad133c503bf7f6806f7 MAINTAINERS: re-sort all entries and fields
+cceac9267887753f3c9594f1f7b92237cb0f64fb Merge tag 'nf-23-05-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+691e1eee1b4e5203fa5152a4603c11fbd5448528 Merge tag 'media/v6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+6e27831b91a0bc572902eb065b374991c1ef452a Merge tag 'net-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+105131df9c3b27673392a6b7ff356360188dc869 Merge tag 'dt-fixes-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt
+dc49c3b1d463a99fb529d2a69cc0e2270d6cb27e Merge tag 'drm-misc-fixes-2023-05-11' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+9235c21c37facd131b4d126ce7535ca573f850e3 Merge tag 'drm-intel-fixes-2023-05-11-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+d8843eebbbd15b78c6a7745717b3705eca923b0f Merge tag 'amd-drm-fixes-6.4-2023-05-11' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+849a4f09730ba3c02da01924c7a6e7a000a4d27c Merge tag 'xfs-6.4-rc1-fixes' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+cc3c44c9fda264c6d401be04e95449a57c1231c6 Merge tag 'drm-fixes-2023-05-12' of git://anongit.freedesktop.org/drm/drm
+47a2ee5d4a0bda05decdda7be0a77e792cdb09a3 Merge tag 'firewire-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+c04fe8e32f907ea668f3f802387c1148fdb0e6c9 pipe: check for IOCB_NOWAIT alongside O_NONBLOCK
+ed6a75e3133bca544849b967f7f3233cddb66090 Merge tag 'riscv-for-linus-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+584dc5dbcbcca71cc7ccce9077a1456842c26179 Merge tag 'io_uring-6.4-2023-05-12' of git://git.kernel.dk/linux
+df8c2d13e227e4670ebe777970f89db7802b1f56 Merge tag 'vfs/v6.4-rc1/pipe' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+fd88f147cb121c9c748ca0d4c5155a96e9d81e58 Merge tag '6.4-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+76c7f8873a7696dbd8f9cd844e30e5c84cbaba1a Merge tag 'for-6.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+9a48d604672220545d209e9996c2a1edbb5637f6 x86/retbleed: Fix return thunk alignment
+d4d58949a6eac1c45ab022562c8494725e1ac094 Merge tag 'block-6.4-2023-05-13' of git://git.kernel.dk/linux
+046206bad0f6a886e1f890c5fcb106d596971c95 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+adfbf653a3ba6bb8bbb84ed90bf4f1533db545d3 Merge tag 'fbdev-for-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+bb7c241fae6228e89c0286ffd6f249b3b0dea225 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+491459b5ec3751a3a58129db4fb9f832e474bb95 Merge tag 'timers_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+011e33ee48849739aab1d25b9e41c824fb5383a9 Merge tag 'x86_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f3b9e8e4c84845d09dbba49f664fc8407f18a3dc Merge tag 'sched_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ef21831c2e4e66cb948d5107f47c1aa0a5711a56 Merge tag 'perf_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+31f4104e392a10327f90006a61fcf1d4e7a79472 Merge tag 'locking_urgent_for_v6.4_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+01bc932561438be3a33d7c7c89be45f866168c5f Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
+838a854820eea0d21c6910cc3ab23b78d16aa1dd Merge tag 'parisc-for-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+533c54547153d46c0bf99ac0e396bed71f760c03 Merge tag 'cxl-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6 Linux 6.4-rc2
+757777eef55b48b310603d0a1f6591f2a138691b pid: Replace struct pid 1-element array with flex-array
 
---===============5767248220519444256==--
+--===============3561829131631864213==--
