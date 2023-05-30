@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 30 May 2023 07:43:36 -0000
-Message-Id: <168543261649.18417.15097575015755799332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 30 May 2023 07:45:05 -0000
+Message-Id: <168543270513.20558.13962531963600787637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/fixes
-    old: a9f0e3d5a089d0844abb679a5e99f15010d53e25
-    new: 811154e234db72f0a11557a84ba9640f8b3bc823
+  - ref: refs/heads/stm32-next
+    old: 3b1583868691b6fb7d5f7452711cba0481e72292
+    new: 0cf765e598712addec34d0208cc1418c151fefb2
     log: |
-         811154e234db72f0a11557a84ba9640f8b3bc823 KVM: arm64: Populate fault info for watchpoint
+         0cf765e598712addec34d0208cc1418c151fefb2 ARM: dts: stm32: Shorten the AV96 HDMI sound card name
          
