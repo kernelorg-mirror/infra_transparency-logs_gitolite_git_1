@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0316130765104726965=="
+Content-Type: multipart/mixed; boundary="===============3279767506712922707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 30 May 2023 14:28:44 -0000
-Message-Id: <168545692437.26676.8673661233113919942@gitolite.kernel.org>
+Date: Tue, 30 May 2023 14:29:58 -0000
+Message-Id: <168545699876.27126.607308969658176712@gitolite.kernel.org>
 
---===============0316130765104726965==
+--===============3279767506712922707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 046895105d9666ab56e86ce8dd9786f8003125c6
-    new: 922c0cb578ac9104a22c11a093cc1e0575c35a39
+  - ref: refs/heads/usb-linus
+    old: 44d0fb387b53e56c8a050bac5c7d460e21eb226f
+    new: fcfe84236ec0974fe92f0578d1d58ed805c4b70f
     log: |
-         56dcc717ecf5bc2ff2f686346ceb72da0e706203 usb: misc: onboard_hub: Don't warn twice about problems during remove
-         b519f44b7807c1e2a2a2f860f2125a88eb10c3e3 usb: dwc2/platform: Convert to platform remove callback returning void
-         3a8d85c43d594e40cc31bb2b68b6987c4b8ef168 usb: xhci-histb: Convert to platform remove callback returning void
-         d89dfff5eaebc888d9acc6ff1021a33a99d43136 usb: xhci-mtk: Convert to platform remove callback returning void
-         bcfe934e2efb8d7075911233ae00f82f3e025533 usb: xhci-plat: Convert to platform remove callback returning void
-         40f7b7f65a0584821a8fa4abb1c64fb2ba79aebf usb: xhci-tegra: Convert to platform remove callback returning void
-         922c0cb578ac9104a22c11a093cc1e0575c35a39 usb: typec: qcom-pmic-typec: Convert to platform remove callback returning void
+         fcfe84236ec0974fe92f0578d1d58ed805c4b70f usb: typec: tps6598x: Fix broken polling mode after system suspend/resume
          
 
---===============0316130765104726965==
+--===============3279767506712922707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685456923 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685456997 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1685456922-e33cea945d949cd3d4b54b3e78fcf8b09885f48f
+nonce 1685456997-b3c1de71076da83260037e042239f2da81f5edb7
 
-046895105d9666ab56e86ce8dd9786f8003125c6 922c0cb578ac9104a22c11a093cc1e0575c35a39 refs/heads/usb-testing
+44d0fb387b53e56c8a050bac5c7d460e21eb226f fcfe84236ec0974fe92f0578d1d58ed805c4b70f refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR2CBsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L2cP/jpnBVNPjMQ9rG9QWNiV
-GTfxtb8s+xF88vmCOhtq/3IJUwk58di4cpBuHt7hORbFH4Y5tOmZHetgpu8nUOSo
-LaY7KDHJRdA+pvOZGwVBk9xYNCQXyEdK5hP76jjqxm/tylORVJmFrTMf70gWvUKD
-+CpN9m0SvCeOuw1jDc2FgG9wtuCINRIXb0iBTGMSVin5hGBVwkKmb0cWDrr36Mfy
-3kSXEnGavJcptwrzn13wXa5cCcRoe0KeDQzVr/YwtkIdChYEMWZGx19bQCpmLv8J
-mmolot8Dqoza25AP+CydtgfykO2N2830ZQ+ypBrwAMl/ez+2h0dNXQrQs8ti/h6Q
-8u6sl+0eKaEgbp4wc7Bi74B9TAZRDKbeqV4NKa7MxniyW9IMN1dfGDkQNLSOOUTx
-nzzk5U7x4CeoeDYLAVvqUn/T+QHPRAkaR2PCm0k2ffEeSbgh/6GXU4C5b7JY8dCs
-+Saprb1P7h9PwBvWI2RKNon/Jc4195FhwjomHxTccLVm/BpGN8bt4ynt2DAQlWzE
-bPkwSTqNzSRLi0xbhVz5Ttm86ApNM9dXgQd8Mc/v8EPgrL2rJrQIIIYisBK2u3fv
-JE+IZMdihfBw+4NYHDKQ+zYiSkkfw+VuIOvwbWAewbu1xsjBOE+gPIh767X96zGm
-uOyo88g07es2orM/jiXKZQaU
-=fCZV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR2CGUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XLUP/2+sI+U7ChKSIIkT3THK
+BRBYbgRYHtFm7pRpnQSnZ7CoE5NZlcic7YNv/ooLksBMsR7iDbPZ0/diFdEZQq3t
+H/k0vVufCgDR8DTE8b3wOQIvcxEMNM7Si/maYbLKFNObgGcijzBraXq2J7KpMqfU
+dv1TaiDXsW7HTxTUuFROCYa3Y3WoyDZAaYt9dbE8ZqQwEaAdxPHBMz6S8D5Jxbud
+NPCfzpVoaCml01rOPWsFETabVKOfnRsNfnLUQhLvFcMqxltQJZJFThFzEJuAFmfF
+12j5SWKoSoDOOd1gWnJuMt39Y9/AJUC7iaIi9niCao4NTc32bhVwOAKa/So2xBeL
+rpVY+n1ME1UHlUYZo2854FCDFt/DPs2UDHHZ6Cbq1qJdBrnmKS5o/ftGmZtaDsp2
+48d/FWN3diEyUdvYI9flSyWjmeceKLsz0gQumBqTMYUQFXiZLVNbJHgnS+CF87nq
+G8w3xFT8/N7SCaimVnNzVRo/dVm8qWOtfBSXQCnyhM9DHW7IHyWQ4p8uEdTXQ9TG
+QN7NCUwc/TwWjBkOilMFlHT2Ko8UcJT3ngDsqInaaSclA5ORbfspkEtF3/gGnse6
+8JR7Ce8puyWknpOOFmbmRQDqTLYGISRnSLV64o/zFcXJqWKfy5isqfEihnL2RBYk
+a0ex1I6oTR0qIXsQDwFI9vSC
+=x7Lu
 -----END PGP SIGNATURE-----
 
---===============0316130765104726965==--
+--===============3279767506712922707==--
