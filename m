@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2737872937128041224=="
+Content-Type: multipart/mixed; boundary="===============1642413055185919611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 30 May 2023 15:22:09 -0000
-Message-Id: <168546012956.31437.8011095276060678657@gitolite.kernel.org>
+Date: Tue, 30 May 2023 15:22:43 -0000
+Message-Id: <168546016374.31676.12084885572882423740@gitolite.kernel.org>
 
---===============2737872937128041224==
+--===============1642413055185919611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9b9e46aa07273ceb96866b2e812b46f1ee0b8d2f
-    new: 7ba0732c805fdc623494ff36245d84222ba893e3
-    log: revlist-9b9e46aa0727-7ba0732c805f.txt
+  - ref: refs/heads/dev-queue
+    old: 28fa4319d54ac57b59c3510a1b288bc1353e0bf3
+    new: 7497316dffc64eaf1a624b2255e166b595ce715e
+    log: revlist-28fa4319d54a-7497316dffc6.txt
 
---===============2737872937128041224==
+--===============1642413055185919611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b9e46aa0727-7ba0732c805f.txt
+Content-Disposition: attachment; filename=revlist-28fa4319d54a-7497316dffc6.txt
 
 36936a56e1814f6c526fe71fbf980beab4f5577a net: usb: qmi_wwan: Set DTR quirk for BroadMobi BM818
 0684f29a89e58944a9bfae3a8b5c1a217e44c960 netlink: specs: correct types of legacy arrays
@@ -45,5 +45,21 @@ d83013bdf90a7994a474b0e650a7fc94b0d4ded6 selftests: mptcp: connect: skip if MPTC
 cf6f0fda7af7e8e016070bfee6b189e671a0c776 selftests: mptcp: sockopt: skip if MPTCP is not supported
 63212608a92a1ff10ae56dbb14e9fb685f7e4ffa selftests: mptcp: userspace pm: skip if MPTCP is not supported
 7ba0732c805fdc623494ff36245d84222ba893e3 Merge branch 'selftests-mptcp-skip-tests-not-supported-by-old-kernels-part-1'
+c2b7dbc2cd0cc226b0d1d2d3a9dfc6cb53ce5f5d igc: Fix possible system crash when loading module
+3f55c72af3324b4b7c53b00634749013c96b8f9b igb: fix nvm.ops.read() error handling
+6f68b94b8d04c4d80f75bca2afe84f735b0382ca iavf: Fix use-after-free in free_netdev
+2dc61b0b44a3dcc2b369e9e7de8325fe313a3cce iavf: Fix out-of-bounds when setting channels on remove
+cbe8772c4bf773908bc6912c6ebf132c833bbbad igc: Fix race condition in PTP tx code
+4a4abaa1904675c6eb168a7199b97177254c314b igc: Check if hardware TX timestamping is enabled earlier
+ec8421bce2a60fae333aa9f2acf257498ff4e70a igc: Retrieve TX timestamp during interrupt handling
+facd16c58cea633545a65d4bee5c1d84382e97c7 igc: Add workaround for missing timestamps
+d0ab68b9ebe3002967f18d908f266807c13e6dc9 igc: Clean the TX buffer and TX descriptor ring
+334ee1511fe1a84d2729bebf9386c45bcdea8f79 igc: Add condition for qbv_config_change_errors counter
+f130fbeee2056739c8878976efc1b94e8b2f27b6 ice: recycle/free all of the fragments from multi-buffer frame
+aa9b5685ec51df0525d5d43dc6e95cdcfc2dcbce igc: Remove delay during TX ring configuration
+5131b1af8f64493417f14d3cfce6b8ea73aa4afa iavf: use internal state to free traffic IRQs
+756308cebcb02ca8f77564195f2a13393edf92fd ice: make writes to /dev/gnssX synchronous
+0681fc1ed4e24b1b5e910f1f03c8cf18f42f5715 ice: Fix XDP memory leak when NIC is brought up and down
+7497316dffc64eaf1a624b2255e166b595ce715e ice: Don't dereference NULL in ice_gns_read error path
 
---===============2737872937128041224==--
+--===============1642413055185919611==--
