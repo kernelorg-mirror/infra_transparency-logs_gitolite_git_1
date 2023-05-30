@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 30 May 2023 22:48:42 -0000
-Message-Id: <168548692260.10567.7742859075074802534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Tue, 30 May 2023 22:48:49 -0000
+Message-Id: <168548692921.10666.6631157786694037757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: e1577b4bac313fa9201ad2f9425b92c0c64a3a4d
-    new: 6b20f29f32b1819c04764626d5ab8342800e11c3
+  - ref: refs/heads/sysctl-next
+    old: 0f1ee7aa1826464bcd6b4f672a74ff8f64824508
+    new: 01e6aac78b1c5c9e7115c15f5dbf942959b8f3ad
     log: |
-         d25ad53db59e89844f94e6467cc50c09e0127752 ubsan: add prototypes for internal functions
-         37f3abddda8d0b513567bfc74a0c1d4bb85f5cc2 crypto: marvell/cesa - Fix type mismatch warning
-         ffe42be8a7abd0f693d82a33f9332a378629f6e7 acpi: Replace struct acpi_table_slit 1-element array with flex-array
-         6b20f29f32b1819c04764626d5ab8342800e11c3 checkpatch: Check for 0-length and 1-element arrays
+         996ef312f27fa8ee8715c6ec77b6a3cdb748bdca sysctl: remove empty dev table
+         01e6aac78b1c5c9e7115c15f5dbf942959b8f3ad signal: move show_unhandled_signals sysctl to its own file
          
