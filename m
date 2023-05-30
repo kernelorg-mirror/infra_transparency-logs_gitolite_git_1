@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4606971669938258342=="
+Content-Type: multipart/mixed; boundary="===============4194288041506344940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 30 May 2023 15:30:04 -0000
-Message-Id: <168546060459.5299.1307670512141551921@gitolite.kernel.org>
+Date: Tue, 30 May 2023 15:30:43 -0000
+Message-Id: <168546064302.5629.16200745522432301364@gitolite.kernel.org>
 
---===============4606971669938258342==
+--===============4194288041506344940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4781e965e655b0f1736856908f861939dac79b4e
-    new: bc638eabfed90fdc798fd5765e67e41abea76152
-    log: revlist-4781e965e655-bc638eabfed9.txt
+  - ref: refs/heads/dev-queue
+    old: 367c72ccb915a94596005aebb78557aeba517e90
+    new: 608eb1c14d96631abdc2beaa47c16aa597b64bea
+    log: revlist-367c72ccb915-608eb1c14d96.txt
 
---===============4606971669938258342==
+--===============4194288041506344940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4781e965e655-bc638eabfed9.txt
+Content-Disposition: attachment; filename=revlist-367c72ccb915-608eb1c14d96.txt
 
 24a86d833bc5509ad34343dd6c649ea11ed1cad3 selftests/bpf: improve netcnt test robustness
 de58ef414d8d7a0a635cd331b3b013d8216c4e60 selftests/bpf: Fix s390 sock_field test failure
@@ -118,5 +118,53 @@ bb269633f3da56ec65e4e5aa9d9fca0ef8b3d373 liquidio: Use vzalloc()
 3ea3c9cff7f982b42126a009140cb73a53ecd647 dsa: lan9303: Remove stray gpiod_unexport() call
 bc590b47549225a03c6b36bbc1aede75c917767b r8169: check for PCI read error in probe
 bc638eabfed90fdc798fd5765e67e41abea76152 net: fec: remove last_bdp from fec_enet_txq_xmit_frame()
+943d5379a1abbd9710e58a05e68e71a672fb5d73 igc: Fix possible system crash when loading module
+6a2ab888b33f00fc05a0cf07c9a0889666cff2f4 igb: fix nvm.ops.read() error handling
+0270218796bab775e63c4637ff28b2813657d548 iavf: remove mask from iavf_irq_enable_queues()
+c1462da880e74433e8c5c5d6fa7ce47f3c036c78 iavf: Fix use-after-free in free_netdev
+58864a82006ea6c50df52adab673077155a4ec52 iavf: Fix out-of-bounds when setting channels on remove
+c1f7b751b16396215edae8efb780a811e05767fe igc: Fix race condition in PTP tx code
+d78e8e70a358211c56678f91f43069c06f8f6749 igc: Check if hardware TX timestamping is enabled earlier
+e1f9948a188fab77f8a6b697fb8fd61031461851 igc: Retrieve TX timestamp during interrupt handling
+d4c25ecef0194f5b2dfa7386703d355a77914116 igc: Add workaround for missing timestamps
+80fa659553a358510ac05b9c49c98d293b4d529b igc: Clean the TX buffer and TX descriptor ring
+886e99ad00d7d4bb0fe5844136e85d0a746b8e94 igc: Add condition for qbv_config_change_errors counter
+d478b4df09497f4f5ca72a80945d0ec5ab05275d ice: recycle/free all of the fragments from multi-buffer frame
+0f4a8ce532d3e9d3339e8dcda62255a2eae7a712 igc: Remove delay during TX ring configuration
+37bf119bb75e66a8d16cd40b75bef17e5ae52cee iavf: use internal state to free traffic IRQs
+b97ba3aa141f95600b11141728335f64ff6693a4 iavf: add check for current MAC address in set_mac callback
+6f158bce447727df4ccfa5661f5c5144ee63c095 iavf: fix err handling for MAC replace
+3e99861a52ec9e0cda4f1baca129c8631c675868 virtchnl: add virtchnl version 2 ops
+7d210d53f6998703a88bdbc9126341d3729aad9c idpf: add module register and probe functionality
+4157963efcb60afa6b0ffe4f5e6b973f2ded06ba idpf: add controlq init and reset checks
+742606462ee6cbebb2f5127d82ed2ff7c8162d10 idpf: add core init and interrupt request
+b3e85679e9574f09be1891dc19275245cc7c1411 idpf: add create vport and netdev configuration
+43d2dcf1fccc64ef377d6ac21072c22d66fe69fe idpf: continue expanding init task
+1249267e918fe72c98cef5f8e2016cb71b7aef25 idpf: configure resources for TX queues
+44b789f847603900c4dcb5043186aa293fb4acc5 idpf: configure resources for RX queues
+e136117074839bf4051536c8453d1e858e259d46 idpf: initialize interrupts and enable vport
+e8935f1e3127a448052a4092a6fa962f3ee0b715 idpf: add splitq start_xmit
+2cd8b518e30047acd17ed3ca6d047650b263845f idpf: add TX splitq napi poll support
+3f30702891a1567d2aedaefb4015183a170e71bd idpf: add RX splitq napi poll support
+4b81cc93e46635db6668bb682f9332785e8a933d idpf: add singleq start_xmit and napi poll
+bed00f55402d746b780f649c46102350bb92c7fb idpf: add ethtool callbacks
+ba775b0166c0f9e1483d819ced410b277600687a idpf: configure SRIOV and add other ndo_ops
+801d5ea7cf492cd742850b4a2f943b2e31cd0501 ice: Skip adv rules removal upon switchdev release
+f5279d752963a532ddd2a94aa4c112bef30836db ice: Prohibit rx mode change in switchdev mode
+d288e2c5fe05714d021a2cb9f9187c4f594deb28 ice: Don't tx before switchdev is fully configured
+73f64974df9f37e7f7919c77adae55b3328888fe ice: Disable vlan pruning for uplink VSI
+79ba56c7dfd74579ed5ad040c40bc77e600279cf ice: Unset src prune on uplink VSI
+d9b90653cb79f024fc80666cf63171be6d79cf5c ice: Implement basic eswitch bridge setup
+8866c75a97c8ffce4fd993838b4b2be611da6aef ice: Switchdev FDB events support
+614089f63d80abc1e0d687e786cf625849583005 ice: Add guard rule when creating FDB in switchdev
+7840a3ce16750540221c068194de0a28782106eb ice: Accept LAG netdevs in bridge offloads
+f33acaac5fed5bfc9a834fc9a707fb0ee97539c1 ice: Add VLAN FDB support in switchdev mode
+5f86ea9a0d207791f1b558366ab9557e31a7b334 ice: implement bridge port vlan
+ac6e3e57cb80937652e5b3fd0f257f00b46b48c3 ice: implement static version of ageing
+57d4ed2feb217463f0bf4bc0e80d28edbc2d2e9c ice: add tracepoints for the switchdev bridge
+3b6ffa3adc9c0f4634bb5d748c7ab7609d872aee igb: Fix igb_down hung on surprise removal
+90cffab97e6193aa4c5496f91e0ba39e927b3322 ice: make writes to /dev/gnssX synchronous
+6b8cd586ef80da2eafd2d5c15b1bb91ab560e796 ice: Fix XDP memory leak when NIC is brought up and down
+608eb1c14d96631abdc2beaa47c16aa597b64bea ice: Don't dereference NULL in ice_gns_read error path
 
---===============4606971669938258342==--
+--===============4194288041506344940==--
