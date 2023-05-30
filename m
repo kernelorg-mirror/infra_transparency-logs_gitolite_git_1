@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 30 May 2023 16:43:29 -0000
-Message-Id: <168546500992.21204.4987933699160379358@gitolite.kernel.org>
+Date: Tue, 30 May 2023 16:43:36 -0000
+Message-Id: <168546501612.21294.15790350263902812948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v2_20230530_u_kleine_koenig_spi_mt65xx_convert_to_platform_remove_callback_returning_void
-    old: 6f089e986778d3657247fdc2b38bd38de796732b
+  - ref: refs/heads/v7_20230530_boerge_struempfel_spi_add_spi_mosi_idle_low_mode_bit
+    old: b229a7f530ebea90c8e21b56872f3102e3d54461
     new: 0000000000000000000000000000000000000000
