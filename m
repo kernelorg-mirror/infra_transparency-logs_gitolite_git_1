@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1138818271010535969=="
+Content-Type: multipart/mixed; boundary="===============3330448687658751944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 May 2023 12:09:39 -0000
-Message-Id: <168544857904.24588.6591471706037304637@gitolite.kernel.org>
+Date: Tue, 30 May 2023 12:09:54 -0000
+Message-Id: <168544859490.24775.16209633860552220527@gitolite.kernel.org>
 
---===============1138818271010535969==
+--===============3330448687658751944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: eee2e03c8ffe3a4e27cc49762931c5d31cd481af
     new: bc590b47549225a03c6b36bbc1aede75c917767b
     log: revlist-eee2e03c8ffe-bc590b475492.txt
 
---===============1138818271010535969==
+--===============3330448687658751944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ bb269633f3da56ec65e4e5aa9d9fca0ef8b3d373 liquidio: Use vzalloc()
 3ea3c9cff7f982b42126a009140cb73a53ecd647 dsa: lan9303: Remove stray gpiod_unexport() call
 bc590b47549225a03c6b36bbc1aede75c917767b r8169: check for PCI read error in probe
 
---===============1138818271010535969==--
+--===============3330448687658751944==--
