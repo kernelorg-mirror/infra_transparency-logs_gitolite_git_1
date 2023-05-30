@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 30 May 2023 16:29:10 -0000
-Message-Id: <168546415074.11180.1428022634663772210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 30 May 2023 16:31:58 -0000
+Message-Id: <168546431866.13670.2513514130854043307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: e4f8033cc3dd50bcadf5edd9d07ccefb707b5a04
+  - ref: refs/heads/fileqSCJSr
+    old: e384dba03e3294ce7ea69e4da558e9bf8f0e8946
+    new: 0000000000000000000000000000000000000000
