@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0847489749435739329=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 30 May 2023 09:32:36 -0000
-Message-Id: <168543915643.28185.18277198593364081370@gitolite.kernel.org>
-
---===============0847489749435739329==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 May 2023 09:32:54 -0000
+Message-Id: <168543917409.28336.8279966127767064748@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 9da6225bc7377941acff4476493d515b9fdfea48
-    new: 71698da37ce70c457751baea507a122851a2d481
+  - ref: refs/heads/main
+    old: eee2e03c8ffe3a4e27cc49762931c5d31cd481af
+    new: 7fa28bc68512ae541c9e855ad354b9cc3a08263b
     log: |
-         71698da37ce70c457751baea507a122851a2d481 MAINTAINERS: Vaibhav Gupta is the new ipack maintainer
+         2f0d579956e87a67c43e225c85488ff7a13bc3b8 net: dsa: microchip: improving error handling for 8-bit register RMW operations
+         b8311f46c6f5a2030f43c764e742015867293493 net: dsa: microchip: add an enum for regmap widths
+         bb4609d27f89cf6d4c6021690c02a10a94719464 net: dsa: microchip: remove ksz_port:on variable
+         ae1ad12e9da4de8f0540258b197131f96cc24c6f net: dsa: microchip: ksz8: Prepare ksz8863_smi for regmap register access validation
+         d0dec3333040bc41b160ee9b2fd1b4eb91452cd3 net: dsa: microchip: Add register access control for KSZ8873 chip
+         7fa28bc68512ae541c9e855ad354b9cc3a08263b Merge branch 'microchip-dsa-driver-improvements'
          
-
---===============0847489749435739329==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685439155 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685439154-67d715c87db3cc61adfd34d7f6ababdf89a21a9f
-
-9da6225bc7377941acff4476493d515b9fdfea48 71698da37ce70c457751baea507a122851a2d481 refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR1wrMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SZYP/11fGmLVYUcsfzs9pMjN
-RQ2ihARpl/AYR/OqaQ+XLh1QTQ+Fau2pmLTYg2WngJ2ZCmrgT0EPpAnRPzKcbaJx
-YkSC4m5EsiQKCzhjTfJ3mSgtYTa6LYtB5tj9V9tG8n8q2ZlV3NkyJYIkO2hWY7b1
-Ma8dSm4xO2CP12pVTBkOMszIw461iTo5G7ZK95ppfU3HQH0NKcQ3j2xwcd96LuFl
-gZKlWm/iNHeTBH7/fTAw/71VS65V1rvnjbOmiDbqABWAFd+cVhyzh6Y72gFjMeax
-8/nAL7RWoPo7xT0IFsznG+XfLmcUMX4XglaxGVzQEmDQ3drkDtnZDxftIhRRmXRt
-m4NY7PRLEiU3vL/aTOKmYj84lOWPJyj5E/U7ZXAJbJDz7rPbTS7ZjZ6YXV618kUj
-nR+Deyv7BqcHNE/aejzF5cjm18F9GoVdmX1LNPmDeTIFfHLqgHIWOTrehIujMCQE
-tkVC1/Ix3eDDpD4lhFyYKkTQABFDk95HFxWbA23pYioukYfnebUqbDi3UjysEtOF
-hvvunVs34VEh759Cawrol3+H5+yVahPUiVwp55OgojlyHN1vgLKDP4pxXjEoezs+
-6qajVugIiEWq7R2ymdu+880bUIXSxkl/zAfsmBgTSnifaOIk12FwK5F13rQh352o
-JqaacorobyHBqeX6FNX2urNG
-=gRCt
------END PGP SIGNATURE-----
-
---===============0847489749435739329==--
