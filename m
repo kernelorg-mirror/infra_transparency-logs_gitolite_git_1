@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 30 May 2023 09:50:58 -0000
-Message-Id: <168544025843.23184.11815664463475316177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 May 2023 09:57:57 -0000
+Message-Id: <168544067708.26936.13619984792411451391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: a05a6a3e7d960f52940403651bd9ab97b73334f1
-    new: 610d0a52217a7964d846c71b18b8a0f0e8954a70
+  - ref: refs/heads/main
+    old: 7fa28bc68512ae541c9e855ad354b9cc3a08263b
+    new: d20dd0ea14072e8a90ff864b2c1603bd68920b4b
     log: |
-         58ea8187d8eb48c1a0594f0146d1bf2c8c0f9df3 tpm: tpm_tis: Disable interrupts *only* for AEON UPX-i11
-         402afd8f352a433542e97f831f40083df730520c tpm_tis_spi: Release chip select when flow control fails
-         44bebd10fdaeedbb16a42fe6435fc3e826bb5d91 KEYS: Replace all non-returning strlcpy with strscpy
-         13a70a21ee1bfcd8eb3a6b50e06524be0d66bfc6 KEYS: DigitalSignature link restriction
-         46f0fdbf19ee6b67cb67d83b9df07079d3b10ded integrity: Enforce digitalSignature usage in the ima and evm keyrings
-         610d0a52217a7964d846c71b18b8a0f0e8954a70 integrity: Remove EXPERIMENTAL from Kconfig
+         ca33db4a86023f1158dc2b3587ca3c90d2a0705e net: phy: microchip_t1s: modify driver description to be more generic
+         221a5344806c3b8c2b172777b1b59f65228dbd8a net: phy: microchip_t1s: replace read-modify-write code with phy_modify_mmd
+         6f12765ecad399d3cc5f58fcaf7f3c69c275326c net: phy: microchip_t1s: update LAN867x PHY supported revision number
+         1d7650b8ce6041be4ea0436ad7a69c057b4d22f8 net: phy: microchip_t1s: fix reset complete status handling
+         b4010beb347d63acd5715cd66eb791988128b7b8 net: phy: microchip_t1s: remove unnecessary interrupts disabling code
+         972c6d8346333437ae784271e74129b3f0583248 net: phy: microchip_t1s: add support for Microchip LAN865x Rev.B0 PHYs
+         d20dd0ea14072e8a90ff864b2c1603bd68920b4b Merge branch 'microchip_t1s-update-on-microchip-10base-t1s-phy-driver'
          
