@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3213430541639262974=="
+Content-Type: multipart/mixed; boundary="===============0152415422217706618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 30 May 2023 19:41:50 -0000
-Message-Id: <168547571092.13961.8762803310265277549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 30 May 2023 19:42:03 -0000
+Message-Id: <168547572319.14147.8715174970176074851@gitolite.kernel.org>
 
---===============3213430541639262974==
+--===============0152415422217706618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: f2d4aa7e97eb60f426b92b95da712a6b3c18dc9a
-    new: b48aa6a3577cccd13ea21392540f6cde437dd04d
-    log: revlist-f2d4aa7e97eb-b48aa6a3577c.txt
+  - ref: refs/heads/for-next
+    old: 11e0ee704edeedada4ca27d727f8ac2e24ce5ae0
+    new: 41a6428f496bef0ecf4a376cbb49649684af35ed
+    log: revlist-11e0ee704ede-41a6428f496b.txt
 
---===============3213430541639262974==
+--===============0152415422217706618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1685475708 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1685475708-36f68965200eeb65799a3b8616fa8b0a9b0029f5
-
-f2d4aa7e97eb60f426b92b95da712a6b3c18dc9a b48aa6a3577cccd13ea21392540f6cde437dd04d refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR2UXwACgkQJNaLcl1U
-h9A8bwf7BblKt7AmUTsADYTfe/yxYu7ju12zNTuDmaLryQX+8V0Q+wP7zTuDZOT/
-8c/B9pa8o/loFM0dec3Sgh3QOqzvpGxZvm8nr+RjQmw/O5w1fOkVzyZnKWRFk+5x
-RjD89XT1tmBJ/dIezP1IRrkCbS5rQ9azO5ag4XHohX39+lFUAoGs7U0ndeIwBcwI
-zrFCN1zlSIRMwjfjDQIk+mN9Ja53Q2q8I4tDnkQK8B1XVpGBFF8R57xA8r/KrSgt
-urMvPO5tJg4st2CsjvbotF6u2zUbcQAdC2xYvdXSVWsrUWYxfF1ypl02ZSJsDB5F
-mHoUTWNymJ5s65dlOEU1TtemtQw/Tw==
-=O277
------END PGP SIGNATURE-----
-
---===============3213430541639262974==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2d4aa7e97eb-b48aa6a3577c.txt
+Content-Disposition: attachment; filename=revlist-11e0ee704ede-41a6428f496b.txt
 
 430cac487400494c19a8b85299e979bb07b4671f xfrm: don't check the default policy if the policy allows the packet
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
@@ -209,22 +184,6 @@ eb8d3a2c809abd73ab0a060fe971d6b9019aa3c1 SUNRPC: double free xprt_ctxt while sti
 948f072ada23e0a504c5e4d7d71d4c83bd0785ec SUNRPC: always free ctxt when freeing deferred request
 07a27305938559fb35f7a46fb90a5e37728bdee6 SUNRPC: Fix trace_svc_register() call site
 a7844528722619d2f97740ae5ec747afff18c4be dt-bindings: ata: ahci-ceva: Cover all 4 iommus entries
-7430dea49410de3d154fb87f931d079a0a643b1a ASoC: SOF: Intel: hda-mlink: fix sublink refcounting
-dcb88fc47d0e79fd54a19a63a4c8a7594ba0838e ASoC: SOF: Intel: hda-mlink: add helper to get SoundWire hlink
-af8c32b1a3d55f9b42294aee7e7c7eca85ee3bd2 ASoC: SOF: Intel: hda-mlink: fix base_ptr computation
-7dfd1ccdb71e5b819c2898b59c58b89f26038292 ASoC: SOF: Intel: hda-mlink: use 'ml_addr' parameter consistently
-9643456ec3c48adfe535c56f659ab705365f4572 ASoC: SOF: Intel: hda-mlink: initialize instance_offset member
-ccc2f0c1b6b613cd0014c3dcd465a4b57856b0fe ASoC: SOF: Intel: hda-mlink: add helper to program SoundWire PCMSyCM registers
-3de975862f985f1c9e225a0d13aa3d501373f7c3 ASoC: SOF: debug: conditionally bump runtime_pm counter on exceptions
-da0fe8fd515a471d373acc3682bfb5522cca4d55 ASoC: SOF: pcm: fix pm_runtime imbalance in error handling
-bc424273c74c1565c459c8f2a6ed95caee368d0a ASoC: SOF: sof-client-probes: fix pm_runtime imbalance in error handling
-4708449eafe60742334606168926985798c9c9b8 ASoC: SOF: ipc3-topology: Make sure that only one cmd is sent in dai_config
-a93d2afd3f77a7331271a0f25c6a11003db69b3c ASoC: mediatek: mt8186: Fix use-after-free in driver remove path
-647b5f5fdcbaba6f6fd8db69508fcbeb1fdfc2a6 ASoC: MAINTAINERS: drop Krzysztof Kozlowski from Samsung audio
-171b53be635ac15d4feafeb33946035649b1ca14 ASoC: SOF: pm: save io region state in case of errors in resume
-41c5305cc3d827d2ea686533777a285176ae01a0 ASoC: SOF: topology: Fix logic for copying tuples
-17082e09b94cfe60bf39088f3d37c1f10e6c5928 ASoC: cs35l56: Prevent unbalanced pm_runtime in dsp_work() on SoundWire
-dc60b67d259ea63196dcd0400dd43ba062e2e097 MAINTAINERS: Remove self from Cirrus Codec drivers
 2ef0785b30bd6549ddbc124979f1b6596e065ae2 drm/exynos: fix g2d_open/close helper function definitions
 35a4b8ce4ac00e940b46b1034916ccb22ce9bdef powerpc/bpf: populate extable entries only during the last pass
 c83b49383b595be50647f0c764a48c78b5f3c4f8 net: nsh: Use correct mac_offset to unwind gso skb in nsh_gso_segment()
@@ -237,9 +196,6 @@ b48a18644046c9bc0667493a147dfa01e8241eab net: mdio: i2c: fix rollball accessors
 35a089b5d793d2bfd2cc7cfa6104545184de2ce7 tipc: check the bearer min mtu properly when setting it by netlink
 d1b2777d1467a3aa86d403492cc0411bf429dbe4 Merge branch 'tipc-fixes'
 df0acdc59b094cdaef19b1c8d83c9721082bab7b net: phylink: fix ksettings_set() ethtool call
-aa70f36fe6c345cc8679e034b0dd4213f1f9c7d9 ASoC: SOF: Various runtime pm fixes, improvements
-be3c215342956313845308e0e631341e62370a2b ASoC: SOF: Separate the tokens for input and output pin index
-1c0d023c8c2f7c56750a3d58207b263a39d39554 ASoC: SOF: topology: Fix tuples array allocation
 21a3f3328972bdb774c62b301a715b5cebf03fa2 NFSD: Remove open coding of string copy
 8703dd6b238da0ec6c276e53836f8200983d3d9b s390/crypto: use vector instructions only if available for ChaCha20
 844cf829e5f33e00b279230470c8c93b58b8c16f s390/pkey: zeroize key blobs
@@ -249,7 +205,6 @@ a33239be2d38ff5a44427db1707c08787508d34a s390/topology: honour nr_cpu_ids when a
 2facd5d3980f3a26c04fe6ec8689a1d019a5812c s390/ipl: fix IPIB virtual vs physical address confusion
 71a485624c4cbb144169852d7bb8ca8c0667d7a3 ACPI: resource: Add IRQ override quirk for LG UltraPC 17U70P
 8133a3f0aa66ed3d7d974c89ac6aca6fe6cec837 powerpc/crypto: Fix aes-gcm-p10 build when VSX=n
-9be0b3a0074a61df1c94c37faea35ec8b9ea130b ASoC: SOF: Intel: hda-mlink: fixes and extensions
 73c7f8246539da12c76bb731a2fe7389ae55eae8 cpufreq: ACPI: Prevent a warning when another frequency driver is loaded
 8e4942db5f5ed7b7d9690d93235b3ca49c5c59ce wifi: rtw88: correct qsel_to_ep[] type as int
 60fc756fc8e6954a5618eecac73b255d651602e4 wifi: brcmfmac: Check for probe() id argument being NULL
@@ -463,5 +418,6 @@ fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of gi
 6f073429037cd79d7311cd8236311c53f5ea8f01 ASoC: es8316: Increment max value for ALC Capture Target Volume control
 60413129ee2b38a80347489270af7f6e1c1de4d0 ASoC: es8316: Do not set rate constraints for unsupported MCLKs
 b48aa6a3577cccd13ea21392540f6cde437dd04d ES8316 audio codec fixes on Rock5B
+41a6428f496bef0ecf4a376cbb49649684af35ed Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
 
---===============3213430541639262974==--
+--===============0152415422217706618==--
