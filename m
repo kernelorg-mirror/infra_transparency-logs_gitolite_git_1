@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6815263204049422049=="
+Content-Type: multipart/mixed; boundary="===============3213430541639262974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 30 May 2023 19:41:44 -0000
-Message-Id: <168547570420.13861.7185418749550429226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 30 May 2023 19:41:50 -0000
+Message-Id: <168547571092.13961.8762803310265277549@gitolite.kernel.org>
 
---===============6815263204049422049==
+--===============3213430541639262974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: f2d4aa7e97eb60f426b92b95da712a6b3c18dc9a
     new: b48aa6a3577cccd13ea21392540f6cde437dd04d
     log: revlist-f2d4aa7e97eb-b48aa6a3577c.txt
 
---===============6815263204049422049==
+--===============3213430541639262974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1685475702 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1685475701-17a80cb3946d6c48424243bb7f613e15e60221ad
+pusher C3F436CA30F5D8EB 1685475708 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1685475708-36f68965200eeb65799a3b8616fa8b0a9b0029f5
 
-f2d4aa7e97eb60f426b92b95da712a6b3c18dc9a b48aa6a3577cccd13ea21392540f6cde437dd04d refs/heads/for-6.5
+f2d4aa7e97eb60f426b92b95da712a6b3c18dc9a b48aa6a3577cccd13ea21392540f6cde437dd04d refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR2UXYACgkQJNaLcl1U
-h9BrvAf+OrOmIRDTGFIRk+nUtq6Kl3bem+JYb36uvUxoB159rwL89msYvp4sf7Gb
-c9V9i6LnK53PM9BahE4FHqqDhnq5KU/mUF4xGR8ZyjFFbpN9dOaJnjxJS2j/dKft
-X2cLPmPaRYy6ZUU1NEAHSfwQBiOZw8ggYkmOQIsXa1y1/aHyjCnSDzrv2VspHdRk
-4g/M3Vyoi5xS/+NV3/RzuK/IGuUu7yt/2aCV5Fp5RpeZ3j0uaFe7LkJ5d2Huj1hW
-1KZcuP9ZRGnbHvVFumNLO4IdoejazbI7tuMyORxcotqNEvFG410jBeLZfrFjFqQO
-u2PPR+ZIHldndgIjYXVWfVdr+JX+1g==
-=IrFv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR2UXwACgkQJNaLcl1U
+h9A8bwf7BblKt7AmUTsADYTfe/yxYu7ju12zNTuDmaLryQX+8V0Q+wP7zTuDZOT/
+8c/B9pa8o/loFM0dec3Sgh3QOqzvpGxZvm8nr+RjQmw/O5w1fOkVzyZnKWRFk+5x
+RjD89XT1tmBJ/dIezP1IRrkCbS5rQ9azO5ag4XHohX39+lFUAoGs7U0ndeIwBcwI
+zrFCN1zlSIRMwjfjDQIk+mN9Ja53Q2q8I4tDnkQK8B1XVpGBFF8R57xA8r/KrSgt
+urMvPO5tJg4st2CsjvbotF6u2zUbcQAdC2xYvdXSVWsrUWYxfF1ypl02ZSJsDB5F
+mHoUTWNymJ5s65dlOEU1TtemtQw/Tw==
+=O277
 -----END PGP SIGNATURE-----
 
---===============6815263204049422049==
+--===============3213430541639262974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -464,4 +464,4 @@ fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of gi
 60413129ee2b38a80347489270af7f6e1c1de4d0 ASoC: es8316: Do not set rate constraints for unsupported MCLKs
 b48aa6a3577cccd13ea21392540f6cde437dd04d ES8316 audio codec fixes on Rock5B
 
---===============6815263204049422049==--
+--===============3213430541639262974==--
