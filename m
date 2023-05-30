@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 30 May 2023 10:11:31 -0000
-Message-Id: <168544149102.3548.4397505737269779726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Tue, 30 May 2023 10:41:20 -0000
+Message-Id: <168544328032.22959.1705709890590970932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/fixes
-    old: 061c228967f0e3f7aecdd32ee370ee745d96168d
-    new: fb109fba728407fa4a84d659b5cb87cd8399d7b3
+  - ref: refs/heads/for-next
+    old: fe971f9163b67b5338dfe4a0e4ce1cfa1b6cd325
+    new: e003498ec055eef3847e5433273df1e151b9af4b
     log: |
-         fb109fba728407fa4a84d659b5cb87cd8399d7b3 platform/x86: int3472: Avoid crash in unregistering regulator gpio
+         e003498ec055eef3847e5433273df1e151b9af4b firewire: fix build failure due to missing module license
          
