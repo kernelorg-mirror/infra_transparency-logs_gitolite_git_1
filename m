@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Tue, 30 May 2023 10:43:19 -0000
-Message-Id: <168544339926.23650.10317979000781657779@gitolite.kernel.org>
+Date: Tue, 30 May 2023 10:43:50 -0000
+Message-Id: <168544343037.23896.239151256384600889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/OLK-5.10
-    old: 1f7abdfdd337f12eb3c65296a145a0e8564462ad
-    new: 2c317c489ecd3293d710a70ba84bedda14d9b221
+  - ref: refs/heads/openEuler-1.0-LTS
+    old: 17b61a6c6e34c90b5769f539a7370b52a73a1340
+    new: 572d59a1eb4fb553d9364da52dba4500eeb42ec9
     log: |
-         fc2503c8ed1bf31a946efbf0de5a9d58c758bf1c ACPI, x86: Improve Zhaoxin processors support for NONSTOP TSC
-         edbdfe644047f188d6782c2e6121317ed71e3c81 cpufreq: ACPI: Add Zhaoxin/Centaur turbo boost control interface support
-         bdc36d22d1074c810a7b4b9d6b7dd492de7012be coresight: etm4x: Add Support for HiSilicon T6 ETM
-         3561c168442e10c4e34ccef405528520728c9bef coresight: etm4x: Workaround CPU hung bug on hip09
-         eef6c034a94f102ad6c2ad295779886b53a25831 perf cs-etm: add error logging to cs_etm_is_etmv4()
-         ec482c5003e17907988d8f6c05b32231885661b7 !848 Support T6 ETM and Workaround CPU hung bug on hip09
-         c40b6398ba128fb59ea9eaf8e5b86bbb314ae31d !544 [OLK-5.10] ACPI, x86: Improve Zhaoxin processors support for NONSTOP TSC
-         2c317c489ecd3293d710a70ba84bedda14d9b221 !547 [OLK-5.10] cpufreq: ACPI: Add Zhaoxin/Centaur turbo boost control interface support
+         ae9d60b7064b12e60a4b4b7daba46f47129140d6 ext4: avoid a potential slab-out-of-bounds in ext4_group_desc_csum
+         98e12a77646f8e370949e8e0f4a4f7894d21fba6 iommu: Don't print warning when IOMMU driver only supports unmanaged domains
+         b6852ac3afe204157845e610a49765d1bfb99343 rcu: Use *_ONCE() to protect lockless ->expmask accesses
+         151f428b6fdef00d530a2e149a79ff1f92279812 lib/stackdepot.c: fix global out-of-bounds in stack_slabs
+         4e3707f2728f853559342cef8753005090d29d27 iommu/dma: Fix MSI reservation allocation
+         572d59a1eb4fb553d9364da52dba4500eeb42ec9 of: overlay: kmemleak in dup_and_fixup_symbol_prop()
          
