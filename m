@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 30 May 2023 16:43:17 -0000
-Message-Id: <168546499729.21010.3489599295709836057@gitolite.kernel.org>
+Date: Tue, 30 May 2023 16:43:23 -0000
+Message-Id: <168546500326.21091.10757471306941029904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20230526_pierre_louis_bossart_asoc_topology_allow_for_partial_dailink_stream_name_match
-    old: 0f7b6a433097808e7f3e82f837ccc1353f070e4a
+  - ref: refs/heads/fileTcDlSZ
+    old: 0178f1e5d9845a31024eddd37e93a182e2dbab5d
     new: 0000000000000000000000000000000000000000
