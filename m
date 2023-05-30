@@ -1,64 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2698900616087996540=="
+Content-Type: multipart/mixed; boundary="===============7434083825720622020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 May 2023 10:46:36 -0000
-Message-Id: <168544359675.26669.2375036699308392753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
+Date: Tue, 30 May 2023 10:51:00 -0000
+Message-Id: <168544386028.31193.4103184177202707451@gitolite.kernel.org>
 
---===============2698900616087996540==
+--===============7434083825720622020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hansg/linux
+user: hansg
 changes:
-  - ref: refs/heads/tty-testing
-    old: 0e4daea31d8312dd9f957a62717d4b5f31ef494c
-    new: 0d07703be74fec50eb09213aba69aa33a2631669
-    log: |
-         b1207d86169d16581101f93b2906cefd0e940ff1 serial: 8250: lock port in startup() callbacks
-         abcb0cf1f5b2d99b1d117a4dbce334120e358d6d serial: core: lock port for stop_rx() in uart_suspend_port()
-         ca73a892c5bec4b08a2fa22b3015e98ed905abb7 serial: 8250: lock port for stop_rx() in omap8250_irq()
-         51e45fba14bf08b66bca764a083c7f2e2ff62f01 serial: core: lock port for start_rx() in uart_resume_port()
-         87660fb4041f58d5fdfa58f4d3d35385dcc8320d serial: 8250: lock port for rx_dma() callback
-         8b45503776b6e2c53abbb217970236ed54bd261b serial: 8250: lock port for omap8250_restore_regs()
-         25614735a647693c1260f253dc3ab32127697806 serial: 8250: lock port for UART_IER access in omap8250_irq()
-         d0b309a5d3f4648fd4fb1a255a7ae9fb98d87be3 serial: 8250: synchronize and annotate UART_IER access
-         0d07703be74fec50eb09213aba69aa33a2631669 serial: Switch i2c drivers back to use .probe()
-         
+  - ref: refs/heads/media-atomisp
+    old: 5cb472c1af3b2f4b01cdebe367e15f1d659895d8
+    new: 411cf9753f5a0f0e810ab155ba1e3698f2e76cf2
+    log: revlist-5cb472c1af3b-411cf9753f5a.txt
 
---===============2698900616087996540==
+--===============7434083825720622020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5cb472c1af3b-411cf9753f5a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685443594 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1685443594-4da0fbf2122050ed7721e6cf896d8542b6e13ea3
+b3e4fde98095a651afc793adaa685304bb2d34da media: atomisp: Update TODO
+7561740193067a271bb1e00d8229d3c1175ffcf0 media: atomisp: ov2680: s/ov2680_device/ov2680_dev/
+9e5b4d9f0867f51dc18002944becfa94d397c0ad media: atomisp: ov2680: s/input_lock/lock/
+c00c9b870c2d510ed4744e16c22fa19362bca2cf media: atomisp: ov2680: Add missing ov2680_calc_mode() call to probe()
+c5765cc659ff8220ef217a828ff1fd1f80f21287 media: atomisp: ov2680: Add init_cfg pad-op
+f1d99feb4fbefce7c0c150060ca1d6cb2939b519 media: atomisp: ov2680: Implement selection support
+b373643c38c2a04147d5285cfbd4c8573864c659 media: atomisp: Remove a bunch of sensor related custom IOCTLs
+f2548aa3b75813cb2f69864ed07073f89ecdba40 media: atomisp: Remove redundant atomisp_subdev_set_selection() calls from atomisp_set_fmt()
+d3bb19335bdb55481ae01084343bbd6ecb6d35e3 media: atomisp: Simplify atomisp_subdev_set_selection() calls in atomisp_set_fmt()
+9ff5bd30e0f3cbf57e368651956ae884486a2c08 media: atomisp: Add target validation to atomisp_subdev_set_selection()
+f82849bc287e614bc0d852eaab27ccb28adb1248 media: atomisp: Remove bogus fh use from atomisp_set_fmt*()
+dcf5231b13941a388e93e8dcff652e131fc4ed36 media: atomisp: Add input helper variable for isp->asd->inputs[asd->input_curr]
+718ff888becef2c170277639ca11a6dd89f9dbf1 media: atomisp: Add ia_css_frame_pad_width() helper function
+85b7a2fe1eb85ce1f31970e9db255117cf6ae7e9 media: atomisp: Refactor atomisp_try_fmt() / atomisp_set_fmt()
+46f76d0fb45780750662833f8d980f1201f189a1 media: atomisp: Add support for sensors which implement selection API / cropping
+8625f6bc240c66017a11421b698dba0c7965e07f media: atomisp: Pass MEDIA_BUS_FMT_* code when calling enum_frame_size pad-op
+aeef64bf1c8de307aa8ad7fe6a89d22daa17e45d media: atomisp: Make atomisp_init_sensor() check if the sensor supports binning
+014ecc7deafdafe103fda9f10e69f4f54a132d13 media: atomisp: Use selection API info to determine sensor padding
+1a811b60b24c4df1ee6c741064ef7905618fe2e5 media: atomisp: Set crop before setting fmt
+c9ff6541344ad5df939366576868504e7300e932 media: atomisp: Add enum_framesizes function for sensors with selection / crop support
+411cf9753f5a0f0e810ab155ba1e3698f2e76cf2 media: atomisp: csi2-bridge: Set PMC clk-rate for sensors to 19.2 MHz
 
-0e4daea31d8312dd9f957a62717d4b5f31ef494c 0d07703be74fec50eb09213aba69aa33a2631669 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR11AobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mEcP/2LJt8cYzNRkHp3o6oYi
-B+2hwO+WAZcvncC+Gy6D3ehHlGSeSc72SuBEOc5nl6QP/p09ujx2lZjcac6aWm95
-ZiVH9YKigc5ZqZVegrRU7ida6uLggemxwRg5RLPrUXia5M2XzSpR4OwVeLPz7uDD
-JwwGYupgW3S7voknvwOeWQwqN+stqoofmnbInHwANjO8oZHbVApbKiJcCNZdK/+8
-8gN6JLalBIPS4SlFAJ0l81A7K/jLYgYvCFNhAoHD1dUKLjSzclvO4fm4Lq05DRhZ
-cdDKh65nwexX70uEJzEw9uRVhN5+oAH2fLHmjoLZ6uuiIhMkW46idNfIlMECBCev
-ztqjFM08Xv1e7hI61OhA3yp1lQJeyf7WN3Pe9td9iuzqgL3Ray07pgUCWosiaaUs
-L9RPHRht0zEibPOIS8apQm/CH6Po+ahnySncJFb0YjhvM//J2M19/a2Brti9+3EZ
-B/vKFloSonQX+5QEpdHDnyowqINEFNUwviNvhtTUD81WbTnd/+jUSfQlAkv4jDDP
-cxKXo8bQAotvLxq8Dq9fPjDS9lrXexsIyrGBOUDeh59XKIwrjD2n+gGccuQdN+5K
-XLqhMMRTWBc4NjPOIMqlmxf6i15TnG8vjRfQJMRVstbDqsL/hELCHQW63ibhMQFQ
-83rVdeVecouqZmJJC4iyo8Xx
-=ro0S
------END PGP SIGNATURE-----
-
---===============2698900616087996540==--
+--===============7434083825720622020==--
