@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 30 May 2023 19:32:41 -0000
-Message-Id: <168547516114.7793.3450275422755348878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Tue, 30 May 2023 19:32:54 -0000
+Message-Id: <168547517458.7944.17228004210603255791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: 4785ff51cc4661cfa9e587208e532fc8a75f2e4d
-    new: efc93edfe7315c2351e82b27cc424691de0df852
+  - ref: refs/heads/main
+    old: 1cf50a1f2723764eb53fad7c5ff8754835806df0
+    new: 1215e9d3862387353d8672296cb4c6c16e8cbb72
     log: |
-         efc93edfe7315c2351e82b27cc424691de0df852 foo
+         a183eba71bc256957b2342021a030e964665eac0 vxlan: use print_nll for gbp and gpe
+         1215e9d3862387353d8672296cb4c6c16e8cbb72 vxlan: make option printing more consistent
          
