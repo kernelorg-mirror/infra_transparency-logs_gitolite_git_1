@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 May 2023 09:34:03 -0000
-Message-Id: <168543924319.28906.11640326792810841356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 30 May 2023 09:40:36 -0000
+Message-Id: <168543963655.8030.377436051921389075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/tags/for-netdev
-    old: 8c7ebbb459a935d6f8e71ab9d0d608e5610af3d7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/jitalloc/v0
+    old: 0000000000000000000000000000000000000000
+    new: 3ac1d50b2084abdf5ecda741f9fce83b6e25b366
