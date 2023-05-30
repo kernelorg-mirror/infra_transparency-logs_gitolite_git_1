@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3173486884269956360=="
+Content-Type: multipart/mixed; boundary="===============1263430129622877073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 30 May 2023 14:51:33 -0000
-Message-Id: <168545829387.11346.17888589354729608513@gitolite.kernel.org>
+Date: Tue, 30 May 2023 14:51:39 -0000
+Message-Id: <168545829928.11421.13296752331524666270@gitolite.kernel.org>
 
---===============3173486884269956360==
+--===============1263430129622877073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/dts-for-6.5
-    old: ac366501f64f83e03a0f6fd21b87188f92ce0e57
-    new: 925bac3caa46c5790d21ee236869b017090aad2d
-    log: revlist-ac366501f64f-925bac3caa46.txt
+  - ref: refs/heads/for-next
+    old: d49f9c76d4aa210e47c92cf80264c714797c583d
+    new: 882c9640164141bb7a56c3b4256e08b71ed12751
+    log: revlist-d49f9c76d4aa-882c96401641.txt
 
---===============3173486884269956360==
+--===============1263430129622877073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac366501f64f-925bac3caa46.txt
+Content-Disposition: attachment; filename=revlist-d49f9c76d4aa-882c96401641.txt
 
 a0f19091d4f5bbe97485592257b88007eb5b1998 ARM: dts: qcom: msm8660: Fix regulator node names
 392a1aab14542a9e393f89c985679cf3ac161156 ARM: dts: qcom: msm8974: drop unit addresses from USB phys
@@ -51,5 +51,6 @@ b41fb001bebff28dd05a7c74e728ce7f024856ac ARM: dts: qcom: apq8026-huawei-sturgeon
 e60c230588d88036f974cec7e93361e2c4f62226 ARM: dts: qcom: apq8074-dragonboard: Set DMA as remotely controlled
 1ca793c3714a754488c782eb0d68b279d811b977 ARM: dts: qcom: apq8074-dragonboard: enable adsp and MSS
 925bac3caa46c5790d21ee236869b017090aad2d ARM: dts: qcom: apq8074-dragonboard: enable DSI panel
+882c9640164141bb7a56c3b4256e08b71ed12751 Merge branches 'arm64-defconfig-for-6.5', 'arm64-fixes-for-6.4', 'arm64-for-6.5', 'clk-for-6.5', 'drivers-fixes-for-6.4', 'drivers-for-6.5', 'dts-fixes-for-6.4' and 'dts-for-6.5' into for-next
 
---===============3173486884269956360==--
+--===============1263430129622877073==--
