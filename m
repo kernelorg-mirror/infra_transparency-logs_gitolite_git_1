@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 31 May 2023 18:19:16 -0000
-Message-Id: <168555715644.6100.9645844781730941315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Wed, 31 May 2023 18:43:27 -0000
+Message-Id: <168555860768.22320.9245413384838047424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 98221ff792bc847796d43bd1672aa414b43f8112
-    new: 422db30713ac84080a8c4b3efa9dd560b654ed57
+  - ref: refs/heads/kunit
+    old: b1eaa8b2a55c9d5d22f5d2929f4d9973d6392241
+    new: 6543960cd3bdb9fabdd0567ab02f4d1168ee96d9
     log: |
-         422db30713ac84080a8c4b3efa9dd560b654ed57 perf kvm powerpc: Add missing rename opf pmu_have_event() to perf_pmus__have_event()
+         6543960cd3bdb9fabdd0567ab02f4d1168ee96d9 Documentation: Kunit: add MODULE_LICENSE to sample code
          
