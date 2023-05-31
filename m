@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3809733636912902627=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Wed, 31 May 2023 20:42:57 -0000
-Message-Id: <168556577705.4189.12000671212383052371@gitolite.kernel.org>
-
---===============3809733636912902627==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Wed, 31 May 2023 21:20:44 -0000
+Message-Id: <168556804447.30556.17819081745594961951@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/master
-    old: 3002ffb2e95c179d6f0aa4d6598f6405ad47c941
-    new: e474b98965d1f66373eda69b26f30db6f2818228
+  - ref: refs/heads/sunxi/dt-for-6.5
+    old: c1b2093dce23158e758818443e059e3fcd54633e
+    new: 09d199b6dcb6bd94a1f00cfbfa1ee7d3841444b0
     log: |
-         e474b98965d1f66373eda69b26f30db6f2818228 list-archive-collector: improve marc retrieval
+         efb09e4ea81a7d513e3c4c81b8108c2b8066bc66 ARM: dts: sun5i: chip: Enable bluetooth
+         c7ea52ed614227a3e3eaafdbd7b477d0129ab6ed ARM: dts: sun5i: Add port E pinmux settings for mmc2
+         09d199b6dcb6bd94a1f00cfbfa1ee7d3841444b0 ARM: dts: axp209: Add iio-hwmon node for internal temperature
          
-
---===============3809733636912902627==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1685565773 -0400
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1685565773-15f5f9c42663056651b2d2f0cfb1ab1e19010864
-
-3002ffb2e95c179d6f0aa4d6598f6405ad47c941 e474b98965d1f66373eda69b26f30db6f2818228 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZHexTQAKCRC2xBzjVmSZ
-bFmaAP0Y25/Vatoql4xKa1N8NHjQc5Y+PPaQSVa0LzRXZUpmEwEA1kfhA82WPd7U
-0jzuEbNqUSKY0C3Z8pZWo6ktnRridAM=
-=mjBv
------END PGP SIGNATURE-----
-
---===============3809733636912902627==--
