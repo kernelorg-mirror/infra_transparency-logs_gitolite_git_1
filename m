@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8298818901652987565=="
+Content-Type: multipart/mixed; boundary="===============7715259785788450015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 31 May 2023 18:01:19 -0000
-Message-Id: <168555607927.27568.12621442998306348135@gitolite.kernel.org>
+Date: Wed, 31 May 2023 18:01:56 -0000
+Message-Id: <168555611649.27834.18125610250519634778@gitolite.kernel.org>
 
---===============8298818901652987565==
+--===============7715259785788450015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 0f2c1f801a67ec2dc01efc10f2ea78ce06c35602
-    new: c9d9d11b8575a14d87e07950974950f975ba4b54
+    old: c9d9d11b8575a14d87e07950974950f975ba4b54
+    new: ab7f17fb5b776933dd1a3431ae02bc2e394e2cba
     log: |
-         f5070bf0e7e70e1ed3aaf422f8ae54ce70aa1bbe misc/xilinx_sdfec: remove redundant _{open, release} function
-         24ee010bdabb15c601ab6ce2007ad32f4ef4a880 misc: smpro-errmon: Remove the unneeded include <linux/i2c.h>
-         df1b056d489d98c7c45fa89627102dd34b44496f uacce: use q->mapping to replace inode->i_mapping
-         282c22a8bbeabd272c048ae243238638c9b7cefe uacce: vma_close clears q->qfrs when freeing qfrs
-         c9d9d11b8575a14d87e07950974950f975ba4b54 uio: dfl: add vendor-specific feature id
+         ab7f17fb5b776933dd1a3431ae02bc2e394e2cba amba: move to_amba_device() to use container_of_const
          
 
---===============8298818901652987565==
+--===============7715259785788450015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685556075 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685556115 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685556075-05b6ef077cda9714de8fd0730f543ed8f5498b82
+nonce 1685556114-137d23d69742b2d22c9fa1402571cba15ab400ae
 
-0f2c1f801a67ec2dc01efc10f2ea78ce06c35602 c9d9d11b8575a14d87e07950974950f975ba4b54 refs/heads/char-misc-testing
+c9d9d11b8575a14d87e07950974950f975ba4b54 ab7f17fb5b776933dd1a3431ae02bc2e394e2cba refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3i2sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4xMP/iRuftkd7rh3YWy3pAEL
-wfYHutA6AY9rFZUz/bfuvJ1mISg+0aRAvznkgtuDwtkJrQt3HILWzVzhA2EQr8PC
-8qUR1a3sSgr0dE8+5J2PLQG0D9Iz7DDrbvuy5FBfkkBnlTfqM5nco1yXajCWBVXk
-FiC/k1GEsMX/Gcw2UiMTQf3RS0AveVChDeXGKBZthE4yEKI4P5l2x29z1br+rARa
-407+fGWt+hV6arC2cSAnALH2MFnOVEf4HZjbbzxnFMn4++eW4ABGGpJfChR9drZX
-kA9vV7eY85JE+WvLJ9wYC8bp2Ft8Tl+qmhInw3hYCUK4iUMuLHoj6CLH/h1yNIJq
-oylWEkS0EzEkDuSqhlA0YOtsOUCXXGy/miMdT0oL0RrNNyf70DJtZ63dToNua6XK
-tNkqEVjujv1HN+WtblWu0Q7uU+dbHejKBvGLKNSdFVQ7zckKc/o8D7YgQhAOu14s
-0gpIVmp6c8qn1/A4/Rv9Chs7l2ZWQjKepvdmYwoHXa3hlDqzA5kwhD8dMPKbLbHZ
-P0m86xRffweFaKvA457nDGpuAI4ETuvE7k6jT1yiHC8QPDB2Bdf9aD3MO0R16Yms
-khjk19uIgbku1vVUav3wDHksQXugo/VuxBibmEUlAPeOurZ+k7/nuGlI+ZjegnAs
-bNV6hhLQjUIbBjvK8W1qNFs4
-=NNv6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3i5MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/GoP/1cIT4uVKdnoXPnGZq+g
+zPt3SRe2Hpunq8g1fqWCzGSbe+Wy1kcGoWerapCWA7NqsWn6ruxXMEtSEZqt4fos
+H/NAKnR74DRjtc5fr7CbPG6Vw/fdKvaXJdx//DR48QH7fMWEki5Hh0Ix1MGSK2vv
+VTj0YV7dx0axWnUHKpQ9p6oeLjOKc3Fs6MWUKG7BrhTebxauBYmkEKu/0UvmOP5P
+MnMotHwnicHwzhTExVqLv9eCK3C6e73KqRT7QF7MlfF4cggyqNf1GV5BBip3VxgI
+UQvTfwW+CaOe3T/aAsD+Nrk/6ldNMPE9klYS/A44lco2Cx6Y6xWawunQKnwMtR0/
+JzEdVV6vBAVj4W7qbm7Ie7qm8rhlz43o5c+75rlLkpstb2UVBFf5Eaqr8w+zWpHf
+MlRHHq9FprfHlUdK9xbxoMvy+cHm4tMlp5pWo80KA3BnG6TaIXycEu9QEakTZl3f
+kAcd24WWxlihYIGq5uX+tp16AO7fBVHjGPqxr20RnrOgesL1SeT1yW/oE2OGllLJ
+Q36EoFFRhK6fORfSQ4/3f1xZbS4FidChcbNPdrePMB3BvD/cAg4hwUvgxsm8jqiR
+3YEwu7YlFmyo1p82h4V8AuQMD4ZR+x5UL8EfnmxBtu3Wkj1c6s92V0QzGzRfpdyB
+muMvs1ML3RU5dBaZYk2KbItb
+=fHQE
 -----END PGP SIGNATURE-----
 
---===============8298818901652987565==--
+--===============7715259785788450015==--
