@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 31 May 2023 17:11:28 -0000
-Message-Id: <168555308881.26080.14712845147022851912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 31 May 2023 17:13:01 -0000
+Message-Id: <168555318106.26608.13696362695101643734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 8a6b73d9153f809123353057c93dfc72f1842f9e
-    new: 68818cda49fcb2a88cd7c14a7daaff0c029dc209
-    log: |
-         b24e08e841f18a8775646f5f874d99309dfc1d1f Fixes for 6.1
-         3fe6a64f1a0e3b7f7ea9bef92b7f1bb5fb95c49b Fixes for 5.15
-         b94646978cdfebc40fd2e9ce32f44b95d3f8451b Fixes for 5.4
-         68818cda49fcb2a88cd7c14a7daaff0c029dc209 Fixes for 4.19
-         
+  - ref: refs/tags/nfsd-6.4-2
+    old: 0000000000000000000000000000000000000000
+    new: 6d56448115ee6c32f10f4459a9153927ef5b675b
