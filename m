@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 31 May 2023 17:13:34 -0000
-Message-Id: <168555321453.26937.16542838650909054184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 31 May 2023 17:20:30 -0000
+Message-Id: <168555363064.32535.17437482155206990031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: d53d70084d27f56bcdf5074328f2c9ec861be596
-    new: c034203b6a9dae6751ef4371c18cb77983e30c28
+  - ref: refs/heads/for-linus
+    old: 3b8803494a0612acdeee714cb72aa142b1e05ce5
+    new: 40994ce0ea010b1843e620bacc26d29ddebfc08d
     log: |
-         c034203b6a9dae6751ef4371c18cb77983e30c28 nfsd: fix double fget() bug in __write_ports_addfd()
+         40994ce0ea010b1843e620bacc26d29ddebfc08d MAINTAINERS: Add Chuanhua Lei as Intel LGM GW PCIe maintainer
          
