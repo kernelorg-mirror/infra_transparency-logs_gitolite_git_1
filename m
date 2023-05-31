@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0408885867060181878=="
+Content-Type: multipart/mixed; boundary="===============7794440762636503099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 31 May 2023 18:18:13 -0000
-Message-Id: <168555709323.5219.17554265388529477876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 31 May 2023 18:18:14 -0000
+Message-Id: <168555709469.5289.9969439579478909699@gitolite.kernel.org>
 
---===============0408885867060181878==
+--===============7794440762636503099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 68818cda49fcb2a88cd7c14a7daaff0c029dc209
-    new: 970e08eb9f971ca9274765d5f760212472afa5a5
-    log: |
-         970e08eb9f971ca9274765d5f760212472afa5a5 6.1-stable patches
-         
+    old: 48b1320a674e1ff5de2fad8606bee38f724594dc
+    new: 884fe9da1b7ccbea31b118f902fbc78f58366b4a
+    log: revlist-48b1320a674e-884fe9da1b7c.txt
 
---===============0408885867060181878==
+--===============7794440762636503099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-48b1320a674e-884fe9da1b7c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685557092 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1685557091-bef989dda44d8b506849e440f4f10710e8b04d07
+08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
+78b6a9a3f445e121ca08195084206cb8faa6999f MAINTAINERS: Update maintainers of HiSilicon RoCE
+17eabd6a044b57b2c1b5459eb9d11af3ea909e63 RDMA/rxe: Fix double unlock in rxe_qp.c
+b5f3fe27c54b1fe77d4dd834ccd48a6d694f872e RDMA/rxe: Convert spin_{lock_bh,unlock_bh} to spin_{lock_irqsave,unlock_irqrestore}
+866422cdddcdf59d8c68e9472d49ba1be29b5fcf RDMA/efa: Fix unsupported page sizes in device
+58caa2a51ad4fd21763696cc6c4defc9fc1b4b4f RDMA/hns: Fix timeout attr in query qp for HIP08
+7f3969b14f356dd65fa95b3528eb05c32e68bc06 RDMA/hns: Fix base address table allocation
+56518a603fd2bf74762d176ac980572db84a3e14 RDMA/hns: Modify the value of long message loopback slice
+349e3c0cf239cc01d58a1e6c749e171de014cd6a RDMA/bnxt_re: Fix a possible memory leak
+0fa0d520e2a878cb4c94c4dc84395905d3f14f54 RDMA/bnxt_re: Fix return value of bnxt_re_process_raw_qp_pkt_rx
+dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868 RDMA/bnxt_re: Do not enable congestion control on VFs
+b3e6bcb94590dea45396b9481e47b809b1be4afa ext4: add EA_INODE checking to ext4_iget()
+ffe14de983252862c91ad23bd5ca72fd9398d0e6 MAINTAINERS: Update maintainer of Amazon EFA driver
+c8f304d75f6c6cc679a73f89591f9a915da38f09 RDMA/irdma: Prevent QP use after free
+5842d1d9c1b0d17e0c29eae65ae1f245f83682dd RDMA/irdma: Fix Local Invalidate fencing
+b928dfdcb27d8fa59917b794cfba53052a2f050f ext4: set lockdep subclass for the ea_inode in ext4_xattr_inode_cache_find()
+2bc7e7c1a3bc9bd0cbf0f71006f6fe7ef24a00c2 ext4: disallow ea_inodes with extended attributes
+aff3bea95388299eec63440389b4545c8041b357 ext4: add lockdep annotations for i_data_sem for ea_inode's
+1077b2d53ef53629c14106aecf633bebd286c04c ext4: fix fsync for non-directories
+eb1f822c76beeaa76ab8b6737ab9dc9f9798408c ext4: enable the lazy init thread when remounting read/write
+fd2186d1c708fa0ec64291da5aa6b26fb44197c3 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+884fe9da1b7ccbea31b118f902fbc78f58366b4a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
-68818cda49fcb2a88cd7c14a7daaff0c029dc209 970e08eb9f971ca9274765d5f760212472afa5a5 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3j2QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e2UP/RGZoXSiDdqnjkhZwG3Z
-eRq7HvyofubDuJ5KhYVBF9AdEn3jQR3zEgbuEDPqeJIYjmpJM/C48skPVl9XFHJ0
-O7OWqmOeBRpQ8QE+2YD343g1aYTKcTp0Z9FGOFCvEql1Z/lmUUSTp6FS5hmSfwMh
-GqnLicB3sCDVgu3/x0d+O5+fg0RlFYjMLNeAPV/9/vFgKnUMHI1m90JmFjsLzhfv
-w+HjbLs5PF4RAnPUqfGAZPxPgfO+vJvPBNFBsrDCxRuteLMdhDRbYuWhpfnnijjq
-vjfaWe813gvSCAXUhat/XhQ7mvxe/oqlFga7uwAB5zoZdj7uUkRDBj5T/kbtnb5T
-m8QD8EiSQ0w0js7w3ikyopfTeEus/usv9A76vUG6tcgsL786ER7FtC2VQXfFhvDi
-7QnsATCMbAn8T8wON8YSRmxJ0Xc1nktvnjrMs4+L8kqU0wAfTtf2voEWAyJP4l+t
-RMgfg3++/chWo9OafZGtHPavwAa4sFUTBZiwLgNEQJwoQ/ckLbNr2YWcKcpDl4w9
-WnIeh5ZQg5h3ERjdI5Ac5zsJ/8jeToJK5MBVQjH/Z4QngFAJzvTcQOP2ZXTqm4Zf
-lg5+WBnjBImJYr7CimYv3SHNr91m7MSTSa22crqk1zgOYf6Y8/YVitLSKwBAH6B9
-EuT0o0q4A1yDEuK3GBHizN6S
-=/i7b
------END PGP SIGNATURE-----
-
---===============0408885867060181878==--
+--===============7794440762636503099==--
