@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 31 May 2023 11:51:12 -0000
-Message-Id: <168553387224.5976.394447298392988080@gitolite.kernel.org>
+Date: Wed, 31 May 2023 11:55:13 -0000
+Message-Id: <168553411334.8810.11912799997881745773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,13 +9,18 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: dfd90d4e61152f86b8102df51a9af5ee9af77a63
-    new: 3b49da612e9054a9b38dd46600eec249587aa9d3
+  - ref: refs/heads/sched/core
+    old: e2a1f85bf9f509afd09b5d3308e3489b65845c28
+    new: 3a040184f873374c5b45eeed7b3deabe8c5b1c79
     log: |
-         df25edbac31ea87b488789d44a362063542b5967 x86/alternatives: Add longer 64-bit NOPs
-         3496d1c64a0fcc9bae3ed40decc3ecd7f8ac072f x86/nospec: Shorten RESET_CALL_DEPTH
-         3b49da612e9054a9b38dd46600eec249587aa9d3 Merge x86/alternatives into tip/master
+         d55ebae3f3122b07689cc4c34043114e09ce904c sched: Hide unused sched_update_scaling()
+         378be384e01f13fc44d0adc70873de525586ad74 sched: Add schedule_user() declaration
+         c0bdfd72fbfb7319581bd5bb09b4f10979385bac sched/fair: Hide unused init_cfs_bandwidth() stub
+         f7df852ad6dbb84644e75df7402d9a34f39f31bd sched: Make task_vruntime_update() prototype visible
+         7aa55f2a5902646a19db89dab9961867724b27b8 sched/fair: Move unused stub functions to header
+         3f4bf7aa315bf55b2a569bf77f61ff81c7e11fc1 sched/deadline: remove unused dl_bandwidth
+         c7dfd6b9122d29d0e9a4587ab470c0564d7f92ab sched/fair: Multi-LLC select_idle_sibling()
+         3a040184f873374c5b45eeed7b3deabe8c5b1c79 sched/fair: Don't balance task to its current running CPU
          
