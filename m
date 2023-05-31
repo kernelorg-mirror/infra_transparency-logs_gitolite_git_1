@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 31 May 2023 11:55:13 -0000
-Message-Id: <168553411334.8810.11912799997881745773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 31 May 2023 12:12:15 -0000
+Message-Id: <168553513556.18565.5482747923674661023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/sched/core
-    old: e2a1f85bf9f509afd09b5d3308e3489b65845c28
-    new: 3a040184f873374c5b45eeed7b3deabe8c5b1c79
+  - ref: refs/heads/master
+    old: 67caf26d769e0cb17dba182b0acae015c7aa5881
+    new: a287f5b0cfc6804c5b12a4be13c7c9fe27869e90
     log: |
-         d55ebae3f3122b07689cc4c34043114e09ce904c sched: Hide unused sched_update_scaling()
-         378be384e01f13fc44d0adc70873de525586ad74 sched: Add schedule_user() declaration
-         c0bdfd72fbfb7319581bd5bb09b4f10979385bac sched/fair: Hide unused init_cfs_bandwidth() stub
-         f7df852ad6dbb84644e75df7402d9a34f39f31bd sched: Make task_vruntime_update() prototype visible
-         7aa55f2a5902646a19db89dab9961867724b27b8 sched/fair: Move unused stub functions to header
-         3f4bf7aa315bf55b2a569bf77f61ff81c7e11fc1 sched/deadline: remove unused dl_bandwidth
-         c7dfd6b9122d29d0e9a4587ab470c0564d7f92ab sched/fair: Multi-LLC select_idle_sibling()
-         3a040184f873374c5b45eeed7b3deabe8c5b1c79 sched/fair: Don't balance task to its current running CPU
+         1f8b6df6a997a430b0c48b504638154b520781ad xfrm: Treat already-verified secpath entries as optional
+         a287f5b0cfc6804c5b12a4be13c7c9fe27869e90 xfrm: Ensure policies always checked on XFRM-I input path
          
