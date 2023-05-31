@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Wed, 31 May 2023 07:29:48 -0000
-Message-Id: <168551818853.9227.12521912803099750890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 31 May 2023 07:33:42 -0000
+Message-Id: <168551842232.12088.2276272308014777196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: wagi
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/v4.19-rt-next
-    old: 206bb66b0607483c5626b4649ff1d875377715c2
-    new: 52f6891de4226271660d1b109e733ee07eea1a63
-    log: |
-         01355ace5b6eb7a7b153182438bb0667d682b284 Merge tag 'v4.19.283' into v4.19-rt-next
-         52f6891de4226271660d1b109e733ee07eea1a63 Linux 4.19.283-rt124
-         
+  - ref: refs/heads/stable/v2.39
+    old: 0000000000000000000000000000000000000000
+    new: 0ee8ac0652b7816fae4a455ad81f3838125f9230
