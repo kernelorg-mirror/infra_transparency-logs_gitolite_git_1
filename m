@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 31 May 2023 12:12:15 -0000
-Message-Id: <168553513556.18565.5482747923674661023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Wed, 31 May 2023 12:21:30 -0000
+Message-Id: <168553569033.25779.1912309239517683385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/master
-    old: 67caf26d769e0cb17dba182b0acae015c7aa5881
-    new: a287f5b0cfc6804c5b12a4be13c7c9fe27869e90
+  - ref: refs/heads/apparmor-next
+    old: 0bb84cff96af29d8531a1a2bee04e521cdfe35ce
+    new: c96a8a8c021b7b8ee3832e4012cc609bcd5f5633
     log: |
-         1f8b6df6a997a430b0c48b504638154b520781ad xfrm: Treat already-verified secpath entries as optional
-         a287f5b0cfc6804c5b12a4be13c7c9fe27869e90 xfrm: Ensure policies always checked on XFRM-I input path
+         ff9b84eade6d539d2ea5cb837d9e4ff3a56448c7 apparmor: add missing failure check in compute_xmatch_perms
+         c96a8a8c021b7b8ee3832e4012cc609bcd5f5633 apparmor: aa_buffer: Convert 1-element array to flexible array
          
