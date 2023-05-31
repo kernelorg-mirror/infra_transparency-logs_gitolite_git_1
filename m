@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 31 May 2023 11:09:34 -0000
-Message-Id: <168553137431.8009.1714723108800173203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 31 May 2023 11:25:34 -0000
+Message-Id: <168553233485.20314.4289941579024953589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e38096d95f4d7e8cc15280b4a3515eee31925561
-    new: 60548b825b082cedf89b275c21c28b1e1d030e50
-    log: |
-         0d2da4b595d03009db7dfb5ebf01c547b89b0ad8 bpf/tests: Use struct_size()
-         ffadc372529e268b54c5b98f56da07d8024fa1cb bpf: Replace all non-returning strlcpy with strscpy
-         9b68f30b68701e98abcec331a2cf3df972d910f8 net: Use umd_cleanup_helper()
-         60548b825b082cedf89b275c21c28b1e1d030e50 samples/bpf: xdp1 and xdp2 reduce XDPBUFSIZE to 60
-         
+  - ref: refs/heads/20230530_kuninori_morimoto_gx_asoc_minor_cleanup_for_soc_get_playback_capture
+    old: 0000000000000000000000000000000000000000
+    new: e1f653ce847bab7285dd135cabe3ce544e574c75
+  - ref: refs/heads/20230531_joy_zou_add_pmic_pca9451a_support
+    old: 0000000000000000000000000000000000000000
+    new: 48ea77100fd972dc2e8a77c2a2485c6a9bbe03df
+  - ref: refs/heads/filebrTft8
+    old: 0000000000000000000000000000000000000000
+    new: 57d1e8900495cf1751cec74db16fe1a0fe47efbb
+  - ref: refs/heads/fileCykban
+    old: 0000000000000000000000000000000000000000
+    new: 8315d8adc048bd7f8eb7ee5722ecef4e6e7d52ff
+  - ref: refs/heads/filepyaFjp
+    old: 0000000000000000000000000000000000000000
+    new: 3ecd5a728903b3057012043f98464c20cea1cdbb
