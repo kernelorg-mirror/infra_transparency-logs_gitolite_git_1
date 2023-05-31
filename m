@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1452584481938954596=="
+Content-Type: multipart/mixed; boundary="===============5480253409304038806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Wed, 31 May 2023 13:23:04 -0000
-Message-Id: <168553938457.1776.17509961202255706711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 31 May 2023 13:23:55 -0000
+Message-Id: <168553943514.2157.8036258709454645910@gitolite.kernel.org>
 
---===============1452584481938954596==
+--===============5480253409304038806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending-5.15
-    old: dcdcea018e908d441a5e1ea53371d6b9c3568e94
-    new: 4630f87dcf599ea7ef77b34e308079c34b622157
-    log: revlist-dcdcea018e90-4630f87dcf59.txt
-  - ref: refs/heads/pending-6.1
-    old: 86125b48a373d3f052f6196b3e4ad451cc966ed3
-    new: 01a349b494d6b89296a3f6d2256baf149b4331a6
+  - ref: refs/heads/driver-core-next
+    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+    new: 9e6aa7c22d0777da16cec0d056382c9bd181aa78
     log: |
-         dfe230b4d5060912a7e7d4c5350b26ffe3834031 dmaengine: at_xdmac: do not resume channels paused by consumers
-         b8fc4c9633b394adb78042c1d774aa33b34087ab dmaengine: at_xdmac: restore the content of grws register
-         01a349b494d6b89296a3f6d2256baf149b4331a6 octeontx2-af: Add validation for lmac type
+         d388f06aced3b9fe2fb167f48ceedf75ea7629f8 devres: Provide krealloc_array
+         c5f7548445b6adc48c9076073a6f20b8806e9a87 hwmon: pmbus: Use devm_krealloc_array
+         7c054b2cbac388a86ed6a85b831c044a0325e150 iio: adc: Use devm_krealloc_array
+         9e6aa7c22d0777da16cec0d056382c9bd181aa78 serial: qcom_geni: Comment use of devm_krealloc rather than devm_krealloc_array
          
 
---===============1452584481938954596==
+--===============5480253409304038806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcdcea018e90-4630f87dcf59.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7c2e7bfe589729342073a28484252719fd4eefa5 dmaengine: at_xdmac: do not resume channels paused by consumers
-309d3e873b9e462045cf9884c9e3ec537103586d dmaengine: at_xdmac: restore the content of grws register
-29228f2fc0e62a14b165f655350f56c2715f276a KVM: s390: pv: add export before import
-9a5d375012e120959fad818eef94ad6901b8ca70 KVM: s390: fix race in gmap_make_secure()
-609b327d98211b7b27c756a0d96b35947935d56e net: dsa: introduce helpers for iterating through ports using dp
-247bf7865b4174f016940d8c183bf16548859e92 net: dsa: mt7530: rework mt753[01]_setup
-8a220b79e0e7b60c275b2db61b08003a441f9280 net: dsa: mt7530: split-off common parts from mt7531_setup
-78e00d75c18c5acd4b9459046a99f79f60b15836 net: dsa: mt7530: fix network connectivity with multiple CPU ports
-1d3fadff05941b8da02b7b34da41ecfdbddb261b Bonding: add arp_missed_max option
-3db57c95f35ade5529b978b8e579a7caf6e340bd bonding: fix send_peer_notif overflow
-476bcf928ca7b9cec9611dd2d90d5bb929d892bb binder: fix UAF caused by faulty buffer cleanup
-17ef52ef774a88ecec4585f8625f88c273a966a9 irqchip/mips-gic: Get rid of the reliance on irq_cpu_online()
-6c809129dbdabcc35cff4d14ab3ce598278ceb1d irqchip/mips-gic: Use raw spinlock for gic_lock
-b6a86f36df7e1c0e5f0c4528bcf553d1c197ac2d net/mlx5e: Fix SQ wake logic in ptp napi_poll context
-117f30dd22d1e05ab9e6cfb6360aa788a4f023da xdp: Allow registering memory model without rxq reference
-101efc5e50647261df41ba068abd884c98b1bb1d net: page_pool: use in_softirq() instead
-8618f4e7801c7a11245350853fec8d1f67469fa7 page_pool: fix inconsistency for page_pool_ring_[un]lock()
-5c8e82accdfde136b9ed117e6faeee4234b4ba3b irqchip/mips-gic: Don't touch vl_map if a local interrupt is not routable
-4630f87dcf599ea7ef77b34e308079c34b622157 xdp: xdp_mem_allocator can be NULL in trace_mem_connect().
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685539434 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1685539434-724082eb1716833283d67f5b7da222d7329af7a5
 
---===============1452584481938954596==--
+7877cb91f1081754a1487c144d85dc0d2e2e7fc4 9e6aa7c22d0777da16cec0d056382c9bd181aa78 refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3SmobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dLYQALbCHlRh9Z3WpF/Nz8KO
+ygtI5tEvqh/cdjQ/0HakQI4vJJMbI6CgrGDWjViWzR6sVQWnoE5QNH8SSPu9Yu7A
+APUewIHNCz2Pn4svYtwZAHkPV2pVUE78PgHnt1huskYZDKUKgPRANE79L6hXVXFh
+uhcfI+GNuH6LBL2/lgHdkqnS1K6ZtQFVn8vX0/LlyzArtdZnBLVUJE0b8lGmGJXz
+O/A5MDNZG2dAWVssQx/GSVJcKAX2deAc26UKQKwAnCGGnH+IiHh5RFHDn5hzX+GU
+Eh/5+w+TqH923coSSmTMmxaLt9J4uajclWckom2y5VjygtrIMQvhC8chISz8OBeU
+qE1hso3ASGw8qmKDn1Kqngq8HlEToZhmlCKfie5ANfsfFl20Pye8Nq4vW3+N7ABG
+o5d3pLioSd/6oXsrTdh+BspVA57ihYywwqwiBhT5wfqJkBVBnQ75HT491A3lfSHh
+wUoCs1sFpeYsptw2ZkK43C+YG+y8LisPeMKqjmmBdnA8JJI94ci5ngXzhEOdnN+N
+8o+8AABB4CTm3mL5ONNJcjtRUNF5orL9xoN7wN1XyFIevTp/nQohp12YhfN15aYd
+VBg9jVrv6TYQT36QyuK4rwlygdjtmuEK+X+ZbOk1E9JMvucu/Ps8aEEDSNQU1TYo
+EIe8SSflHv/sVfQl2nQefNPD
+=gTer
+-----END PGP SIGNATURE-----
+
+--===============5480253409304038806==--
