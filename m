@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3618943113786965113=="
+Content-Type: multipart/mixed; boundary="===============4498030567357735180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 31 May 2023 19:35:49 -0000
-Message-Id: <168556174954.26044.17693765204279425925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 31 May 2023 19:39:13 -0000
+Message-Id: <168556195371.27187.176250789603178682@gitolite.kernel.org>
 
---===============3618943113786965113==
+--===============4498030567357735180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: a5cb804b68b4072e685bd76831ee647c489db4c8
-    new: b866e7e7f995e14500d316a2e70977dee48cf690
+  - ref: refs/heads/driver-core-linus
+    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+    new: c26fabe73330d983c7ce822c6b6ec0879b4da61f
     log: |
-         ca3222ac4477250f74bcb324652e92563d606439 dt-bindings: sram: Add compatible for ST-Ericsson U8500 eSRAM
-         b866e7e7f995e14500d316a2e70977dee48cf690 misc: sram: Generate unique names for subpools
+         126310c9f669c9a8c875a3e5c2292299ca90225d drivers: base: cacheinfo: Fix shared_cpu_map changes in event of CPU hotplug
+         c26fabe73330d983c7ce822c6b6ec0879b4da61f drivers: base: cacheinfo: Update cpu_map_populated during CPU Hotplug
          
 
---===============3618943113786965113==
+--===============4498030567357735180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685561748 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685561747-1720b84f2151786f244c003ee0ac13aefca77fd2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685561952 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1685561952-21de9b4c0e03ffafb04423cb398250b75f202ebe
 
-a5cb804b68b4072e685bd76831ee647c489db4c8 b866e7e7f995e14500d316a2e70977dee48cf690 refs/heads/char-misc-testing
+7877cb91f1081754a1487c144d85dc0d2e2e7fc4 c26fabe73330d983c7ce822c6b6ec0879b4da61f refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3oZQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4tMQAIwe2C9GVF9VXWdHtNxQ
-gfTlwUuo6E4f7yhHUwWieQrMVxIS/ojwvPgtc+8dNY5xwdkvIEIv+AP1hcxmHBpQ
-Ul843cLIvY0kcgxhr8DiGlNacxyg/WXQ4MCiKzvIjGx7L/Z5LbyFZvQNWYdEytgW
-HLlL6ElEOB+qZ5SLm9RzrHZFystsCabCGe+5QojZwxcaHNuzZXymcTi3fhVvOFmk
-Kyfoeq/MpSDguSjgaKcmSQL9eaDpAQHut4vg0jjm/8/Mn/HWAduJ91x3g4PmZBjN
-+VsbVO8c92VXZAa16pntzzqqdqx3TVt4did9kKLzreGH5y15pQPfYlcQlbEZTXyc
-ulLCmfsrIvYrYGYuNbomejqllBE+VgujbA2O/uZKB451EsVS54bGolyBrw10uFuo
-jP1tjci9/sLbnPwzue1uhdT+JAHq6V0C1wBNvCV2zRXucXCDcXU9lxG+9qcLGF57
-S6xYKHdNh69mJ96suD2uqqm9CXEQuGhwxgxIGtcXkIkdfY6OTuOGr4ptvf5WPZF3
-F6Cw8YRmI73nh+XrfDAawUf6qp8/h4NhmgtKF6dmXybFvKPeEWcbBYxEpbCUtAQ0
-eqU911K8YSWEhbw/NCKBv94iitnHTnKqkoj7D7fp0VvyyS91G1GMniJM32ItBQYA
-KS4kEh1ecYTnrJoo0AYhAKd7
-=UwYV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3omAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XC4QAI8LN7Dp6kRMFQ82C9sl
+prpNreGiBWbYRidChz/u8pk2xyoRa0CXBpQdB5zb86FwYUnhhHdDMGCIvreCHhj/
+INXefxPiYLY/1LlXjorxBOF2iRkTKAk584d2S+nybce9Jsqo8PT5rMPOjG+nOGec
+XUf+vQat0EtEq8TM3ACoub8YKYMHPq+bEn0gf4rqT1LeqUEb4/FO+r6PP+mKjD64
+CQ301D893JGtwAPEvqMoEhBsLQwWqAIBCOuOtF99idJJj5c+B1dT7fIzGzVt9nqe
+l4Pd1CFCYNpIUecaFHT6s5I2QAB3LQAm0rroTKjJ8PiOqou9z/37/9a5xEOdhu7/
+34bGwH9ft16D8v2XOB1YhzMR9kagxLpmgHwF+EJjX/TUPVOY+t1w7uVCEkctHHj1
+MCMjlZ4hg1M/4RivsEkAdTwZQ3Fpvwic8q5PoFkpmkRkWRLsj8OP+/5kFH48YR0F
+ZVfPBE+oJdQ3U1I+pSVLZ/RzdRcP5sudT4LN4et/DE77xsX/aeUCLnNGYJctab9N
+dUG0QZ2K8+KgrijtVRWoRE8uec5mC1gLOiJph7PZN3AEM6uUr0T4sqPIYuWP+e8y
+6UmIP6f5ZSq84JZjIhGnnE+RsDbrfZSj4GfcYXmtsFPlq/PHqlADlvnS+n9QPdgJ
+J4yPkjWstGeiJke/LAPTSnw/
+=b/Cv
 -----END PGP SIGNATURE-----
 
---===============3618943113786965113==--
+--===============4498030567357735180==--
