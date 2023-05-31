@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 31 May 2023 10:58:05 -0000
-Message-Id: <168553068599.1191.2116558793205510066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 31 May 2023 11:09:17 -0000
+Message-Id: <168553135777.7857.4107589100432322130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/sendpage-2-chelsio
-    old: d6ad1e6b4a9220962ed8c6714bdfab4789d2a44e
-    new: d97a46f9959e928178aacc26bad8d0aa10cba81c
+  - ref: refs/heads/master
+    old: e38096d95f4d7e8cc15280b4a3515eee31925561
+    new: 60548b825b082cedf89b275c21c28b1e1d030e50
+    log: |
+         0d2da4b595d03009db7dfb5ebf01c547b89b0ad8 bpf/tests: Use struct_size()
+         ffadc372529e268b54c5b98f56da07d8024fa1cb bpf: Replace all non-returning strlcpy with strscpy
+         9b68f30b68701e98abcec331a2cf3df972d910f8 net: Use umd_cleanup_helper()
+         60548b825b082cedf89b275c21c28b1e1d030e50 samples/bpf: xdp1 and xdp2 reduce XDPBUFSIZE to 60
+         
