@@ -1,83 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============1275017645210464682=="
+Content-Type: multipart/mixed; boundary="===============1795810391214484672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 31 May 2023 16:45:59 -0000
-Message-Id: <168555155984.8784.701939915599686362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 31 May 2023 16:50:03 -0000
+Message-Id: <168555180332.11916.9736336251796224768@gitolite.kernel.org>
 
---===============1275017645210464682==
+--===============1795810391214484672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/debian/master
-    old: 3fb3d18baba90e5d48d94f4c0b79b2d271b0c913
-    new: d4745c4ad0044cca269f9bf79b635bb4716c7437
-    log: |
-         1fe0370a0671d1bbf568afed5be4dff040792b5e Revert "Disable metadata_csum_seed and orphan_file by default for Debian"
-         bd5f312bc29f4a13d04423fc664794d6bf4f9749 debian: update debian/patches after reverting the patch for 1.47.0-2
-         7c0d0405e6dc8274f163b112a8196a037014b3b9 e2fsck: Suppress "orphan file is clean" message in preen mode
-         d4745c4ad0044cca269f9bf79b635bb4716c7437 Update debian/changelog and debian/patches for a tentative 1.47.0-3 release
-         
-  - ref: refs/heads/maint
-    old: 018ddcb29239fbd0a16a54e00613954e2d88b2b6
-    new: 74571d9430da149fa46a0f7ef171920ebe9a7b8c
-    log: |
-         74571d9430da149fa46a0f7ef171920ebe9a7b8c libsupport: fix function prototype for quota_write_inode()
-         
-  - ref: refs/heads/master
-    old: 25ad8a431331b4d1d444a70b6079456cc612ac40
-    new: e76886f76dfca6b9228902cff028b3b7b1ac3131
-    log: revlist-25ad8a431331-e76886f76dfc.txt
-  - ref: refs/heads/next
-    old: 24a11cc371a46ca9e68aed8f2cf4aabd22ea81eb
-    new: e76886f76dfca6b9228902cff028b3b7b1ac3131
-    log: revlist-24a11cc371a4-e76886f76dfc.txt
+  - ref: refs/heads/for-6.5/block
+    old: 1ccf164ec866cb8575ab9b2e219fca875089c60e
+    new: 8e8fedab1194ef90e007636eb3d224c4f8e979a7
+    log: revlist-1ccf164ec866-8e8fedab1194.txt
+  - ref: refs/heads/for-next
+    old: 829f7686f6520521de6ca9ddff7000a37aa56ed2
+    new: 47927fe86dce3113c99d7a9fb189ab5136e719d5
+    log: revlist-829f7686f652-47927fe86dce.txt
 
---===============1275017645210464682==
+--===============1795810391214484672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25ad8a431331-e76886f76dfc.txt
+Content-Disposition: attachment; filename=revlist-1ccf164ec866-8e8fedab1194.txt
 
-a06369183565bccbbba9a47b6c55622da8a1de85 lib/ext2fs: fix unbalanced mutex unlock for BOUNCE_MTX in unix_io
-46413097b9ae8c14d1a4f16b43106eaa3ac4c16a tests: fix u_direct_io to work with older losetup
-516d53a42d4ffa79b31f8190530b7ac184d71b06 tests: fix r_move_itable_realloc to run on Linux
-5df0323e879982a3ee5062b2445456226e8b690f ci.yml: store the config.h files as workflow artifacts
-79a7b5e1f387caf907ec88460cdb39b8364bfb0b e2fsck: fix bad htree checksums in preen mode
-2c28057878adf90bb96c07c77e3df2725261b0b6 e2fsck: restructure code to reduce indentation level in check_dir_block()
-cbc6a5ae4f350bfb0dd0daa39544615a5d0a956a tests: add test for "e2fsck: fix bad htree checksums in preen mode"
-b3507cc9614e0a9f93feb552d4da15a3b07b9728 blkidP.h: add missing extern "C" declaration
-24a11cc371a46ca9e68aed8f2cf4aabd22ea81eb e2fsck: Suppress "orphan file is clean" message in preen mode
-c8ae60988c1240a7305dd6fe1dabda30da74ffc5 e2fsck: avoid -Wtautological-constant-out-of-range-compare warnings
-5598a968f3ee2ba5a8a6b988343905a2831f963c e2freefrag: don't use linux/fsmap.h when fsmap_sizeof() is missing
-018ddcb29239fbd0a16a54e00613954e2d88b2b6 ci.yml: test cross-compiling for Android
-74571d9430da149fa46a0f7ef171920ebe9a7b8c libsupport: fix function prototype for quota_write_inode()
-e76886f76dfca6b9228902cff028b3b7b1ac3131 Merge branch 'maint' into next
+cb58bf91b138c1a8b18cca9503308789e26e3522 swap: use __bio_add_page to add page to bio
+8f11f79f193c935da617375ba5ea4e768a73a094 drbd: use __bio_add_page to add page to bio
+fc8ac3e539561aff1c0a255d701d9412d425373c dm: dm-zoned: use __bio_add_page for adding single metadata page
+741af75d4027b1229fc6e62f4e3c4378dfe04897 fs: buffer: use __bio_add_page to add single page to bio
+3c383235c51dcd6198d37ac3ac06e2acad79f981 md: use __bio_add_page to add single page
+b0a2f17cad9d3fa564d67c543f5d19343401fefd md: raid5-log: use __bio_add_page to add single page
+6eea4ff8528d6a5b9f0eeb47992e48a8f44b5b8f md: raid5: use __bio_add_page to add single page to new bio
+2896db174ced7a800863223f9e74543b98271ba0 jfs: logmgr: use __bio_add_page to add single page to bio
+effa7ddeeba782406c81b572791a142fbdaf6b05 gfs2: use __bio_add_page for adding single page to bio
+0fa5b08cf6e17b0a64ffcc5894d8efe186691ab8 zonefs: use __bio_add_page for adding single page to bio
+34848c910b911838e1e83e1370cb988b578c8860 zram: use __bio_add_page for adding single page to bio
+5225229b8fdfb3e65520c43547ecf9a737161c3f floppy: use __bio_add_page for adding single page to bio
+6473bc325644b9c8473e6c92bfb520a68dce1e12 md: check for failure when adding pages in alloc_behind_master_bio
+2f9848178cfa4ac68a5b46e63e5163a09b8bd80f md: raid1: use __bio_add_page for adding single page to bio
+33332be32fe91ff54ff326b3a1608973544e835a md: raid1: check if adding pages to resync bio fails
+9be63ecfdd63f957b9ed25eaf85666d22a02d7a5 dm-crypt: use __bio_add_page to add single page to clone bio
+5b3e39c1cc8e1cf31a398830dd665eb15546b4f7 block: mark bio_add_page as __must_check
+42205551d1d43b1b42942fb7ef023cf954136cea block: add bio_add_folio_nofail
+f31c58ab3ddaf64503d7988197602d7443d5be37 fs: iomap: use bio_add_folio_nofail where possible
+9320744e4dbe10df6059b2b6531946c200a0ba3b block: mark bio_add_folio as __must_check
+2dea233fdc6a00e53bf2ee5cd4b6fca353fd81f8 blk-ioc: protect ioc_destroy_icq() by 'queue_lock'
+8e8fedab1194ef90e007636eb3d224c4f8e979a7 block: Replace all non-returning strlcpy with strscpy
 
---===============1275017645210464682==
+--===============1795810391214484672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24a11cc371a4-e76886f76dfc.txt
+Content-Disposition: attachment; filename=revlist-829f7686f652-47927fe86dce.txt
 
-a06369183565bccbbba9a47b6c55622da8a1de85 lib/ext2fs: fix unbalanced mutex unlock for BOUNCE_MTX in unix_io
-46413097b9ae8c14d1a4f16b43106eaa3ac4c16a tests: fix u_direct_io to work with older losetup
-516d53a42d4ffa79b31f8190530b7ac184d71b06 tests: fix r_move_itable_realloc to run on Linux
-5df0323e879982a3ee5062b2445456226e8b690f ci.yml: store the config.h files as workflow artifacts
-79a7b5e1f387caf907ec88460cdb39b8364bfb0b e2fsck: fix bad htree checksums in preen mode
-2c28057878adf90bb96c07c77e3df2725261b0b6 e2fsck: restructure code to reduce indentation level in check_dir_block()
-cbc6a5ae4f350bfb0dd0daa39544615a5d0a956a tests: add test for "e2fsck: fix bad htree checksums in preen mode"
-b3507cc9614e0a9f93feb552d4da15a3b07b9728 blkidP.h: add missing extern "C" declaration
-c8ae60988c1240a7305dd6fe1dabda30da74ffc5 e2fsck: avoid -Wtautological-constant-out-of-range-compare warnings
-5598a968f3ee2ba5a8a6b988343905a2831f963c e2freefrag: don't use linux/fsmap.h when fsmap_sizeof() is missing
-018ddcb29239fbd0a16a54e00613954e2d88b2b6 ci.yml: test cross-compiling for Android
-74571d9430da149fa46a0f7ef171920ebe9a7b8c libsupport: fix function prototype for quota_write_inode()
-e76886f76dfca6b9228902cff028b3b7b1ac3131 Merge branch 'maint' into next
+cb58bf91b138c1a8b18cca9503308789e26e3522 swap: use __bio_add_page to add page to bio
+8f11f79f193c935da617375ba5ea4e768a73a094 drbd: use __bio_add_page to add page to bio
+fc8ac3e539561aff1c0a255d701d9412d425373c dm: dm-zoned: use __bio_add_page for adding single metadata page
+741af75d4027b1229fc6e62f4e3c4378dfe04897 fs: buffer: use __bio_add_page to add single page to bio
+3c383235c51dcd6198d37ac3ac06e2acad79f981 md: use __bio_add_page to add single page
+b0a2f17cad9d3fa564d67c543f5d19343401fefd md: raid5-log: use __bio_add_page to add single page
+6eea4ff8528d6a5b9f0eeb47992e48a8f44b5b8f md: raid5: use __bio_add_page to add single page to new bio
+2896db174ced7a800863223f9e74543b98271ba0 jfs: logmgr: use __bio_add_page to add single page to bio
+effa7ddeeba782406c81b572791a142fbdaf6b05 gfs2: use __bio_add_page for adding single page to bio
+0fa5b08cf6e17b0a64ffcc5894d8efe186691ab8 zonefs: use __bio_add_page for adding single page to bio
+34848c910b911838e1e83e1370cb988b578c8860 zram: use __bio_add_page for adding single page to bio
+5225229b8fdfb3e65520c43547ecf9a737161c3f floppy: use __bio_add_page for adding single page to bio
+6473bc325644b9c8473e6c92bfb520a68dce1e12 md: check for failure when adding pages in alloc_behind_master_bio
+2f9848178cfa4ac68a5b46e63e5163a09b8bd80f md: raid1: use __bio_add_page for adding single page to bio
+33332be32fe91ff54ff326b3a1608973544e835a md: raid1: check if adding pages to resync bio fails
+9be63ecfdd63f957b9ed25eaf85666d22a02d7a5 dm-crypt: use __bio_add_page to add single page to clone bio
+5b3e39c1cc8e1cf31a398830dd665eb15546b4f7 block: mark bio_add_page as __must_check
+42205551d1d43b1b42942fb7ef023cf954136cea block: add bio_add_folio_nofail
+f31c58ab3ddaf64503d7988197602d7443d5be37 fs: iomap: use bio_add_folio_nofail where possible
+9320744e4dbe10df6059b2b6531946c200a0ba3b block: mark bio_add_folio as __must_check
+7b084b2b20f61c3579131e2028cbdfd2efaf4b1f Merge branch 'for-6.5/block' into for-next
+2dea233fdc6a00e53bf2ee5cd4b6fca353fd81f8 blk-ioc: protect ioc_destroy_icq() by 'queue_lock'
+e59d5dc1ea014ef11cf96680521d4591b1107a5e Merge branch 'for-6.5/block' into for-next
+8e8fedab1194ef90e007636eb3d224c4f8e979a7 block: Replace all non-returning strlcpy with strscpy
+47927fe86dce3113c99d7a9fb189ab5136e719d5 Merge branch 'for-6.5/block' into for-next
 
---===============1275017645210464682==--
+--===============1795810391214484672==--
