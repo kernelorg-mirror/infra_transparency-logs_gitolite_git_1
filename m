@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============6786598772862561659=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 31 May 2023 12:54:02 -0000
-Message-Id: <168553764201.14741.652534205945273939@gitolite.kernel.org>
-
---===============6786598772862561659==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 31 May 2023 12:54:15 -0000
+Message-Id: <168553765559.14891.11488552833191548197@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: b48aa6a3577cccd13ea21392540f6cde437dd04d
-    new: 8315d8adc048bd7f8eb7ee5722ecef4e6e7d52ff
+  - ref: refs/heads/for-next
+    old: 41a6428f496bef0ecf4a376cbb49649684af35ed
+    new: 86c33749f3f8f8c9b2b7978fd161177ae1df0145
     log: |
          8315d8adc048bd7f8eb7ee5722ecef4e6e7d52ff ASoC: nau8825: Add the management of headset detection for power saving
+         86c33749f3f8f8c9b2b7978fd161177ae1df0145 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
          
-
---===============6786598772862561659==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1685537640 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1685537640-947aa8bd7550b758636d7c0d80596064835f303f
-
-b48aa6a3577cccd13ea21392540f6cde437dd04d 8315d8adc048bd7f8eb7ee5722ecef4e6e7d52ff refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR3Q2gACgkQJNaLcl1U
-h9AwsAf+LkDuTWbipBWHXDWrCphSeSf//1GUzE82vHYCMhg0o4f24AwMtAKfg/Ki
-ygC+LVjjI/yOhxjzCHiL//W329aiotv2Vdx01jEJrwFPd2I01S8ooYf2PjarHpJC
-xrjgqJPTx39QHkGi9KKYhKHn9aid3Evb8irsVVMAIEblOhN9BrCEVO0IcB3aPbMD
-8oodMq/oy86ctOjw/XWaofTfOoHh9ef7JM1ygED+1g0GJuN/l3nS6alrju7N5HKr
-2xR7LW+j96VqGUV+0I8I6EwW8Pdu0k8vnOPAxuqpSGj4lkOAkIjqaDOsTpsxfZo7
-RQ79ObuZm8fax3XJXygQ+aUVcrx+Tw==
-=TjGL
------END PGP SIGNATURE-----
-
---===============6786598772862561659==--
