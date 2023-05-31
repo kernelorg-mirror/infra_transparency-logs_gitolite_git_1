@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7715259785788450015=="
+Content-Type: multipart/mixed; boundary="===============8162885988337065411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 31 May 2023 18:01:56 -0000
-Message-Id: <168555611649.27834.18125610250519634778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 31 May 2023 18:06:21 -0000
+Message-Id: <168555638164.30745.6667151688204089444@gitolite.kernel.org>
 
---===============7715259785788450015==
+--===============8162885988337065411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: c9d9d11b8575a14d87e07950974950f975ba4b54
-    new: ab7f17fb5b776933dd1a3431ae02bc2e394e2cba
+  - ref: refs/heads/driver-core-testing
+    old: 9e6aa7c22d0777da16cec0d056382c9bd181aa78
+    new: 30480b988f88c279752f3202a26b6fee5f586aef
     log: |
-         ab7f17fb5b776933dd1a3431ae02bc2e394e2cba amba: move to_amba_device() to use container_of_const
+         266bff73451afb2c98541acac41386ef4f08bb5e debugfs: Correct the 'debugfs_create_str' docs
+         54aa5b6044f89af046bcb7a9d0ca6408c0ebdd1f MAINTAINERS: add entry for auxiliary bus
+         6bea9ea6bb21ccee2aad0aa2a845499e0aa2f7f9 isa: Remove unnecessary checks
+         30480b988f88c279752f3202a26b6fee5f586aef kernfs: fix missing kernfs_idr_lock to remove an ID from the IDR
          
 
---===============7715259785788450015==
+--===============8162885988337065411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685556115 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685556114-137d23d69742b2d22c9fa1402571cba15ab400ae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685556378 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1685556378-a8cf728e09596829d4126011bd4dcb2bb3d02113
 
-c9d9d11b8575a14d87e07950974950f975ba4b54 ab7f17fb5b776933dd1a3431ae02bc2e394e2cba refs/heads/char-misc-testing
+9e6aa7c22d0777da16cec0d056382c9bd181aa78 30480b988f88c279752f3202a26b6fee5f586aef refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3i5MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/GoP/1cIT4uVKdnoXPnGZq+g
-zPt3SRe2Hpunq8g1fqWCzGSbe+Wy1kcGoWerapCWA7NqsWn6ruxXMEtSEZqt4fos
-H/NAKnR74DRjtc5fr7CbPG6Vw/fdKvaXJdx//DR48QH7fMWEki5Hh0Ix1MGSK2vv
-VTj0YV7dx0axWnUHKpQ9p6oeLjOKc3Fs6MWUKG7BrhTebxauBYmkEKu/0UvmOP5P
-MnMotHwnicHwzhTExVqLv9eCK3C6e73KqRT7QF7MlfF4cggyqNf1GV5BBip3VxgI
-UQvTfwW+CaOe3T/aAsD+Nrk/6ldNMPE9klYS/A44lco2Cx6Y6xWawunQKnwMtR0/
-JzEdVV6vBAVj4W7qbm7Ie7qm8rhlz43o5c+75rlLkpstb2UVBFf5Eaqr8w+zWpHf
-MlRHHq9FprfHlUdK9xbxoMvy+cHm4tMlp5pWo80KA3BnG6TaIXycEu9QEakTZl3f
-kAcd24WWxlihYIGq5uX+tp16AO7fBVHjGPqxr20RnrOgesL1SeT1yW/oE2OGllLJ
-Q36EoFFRhK6fORfSQ4/3f1xZbS4FidChcbNPdrePMB3BvD/cAg4hwUvgxsm8jqiR
-3YEwu7YlFmyo1p82h4V8AuQMD4ZR+x5UL8EfnmxBtu3Wkj1c6s92V0QzGzRfpdyB
-muMvs1ML3RU5dBaZYk2KbItb
-=fHQE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3jJobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yjAP/27wm/1+hgQuXOjnpNk1
++oVsvHE4K278ItD/kwyCHAllv8Hf/My9q/sUSxkI2NQ92MgGaKH0TzE91m+mSEee
+FLrBLODn6/RtrBEtaIc4oES5XOFXmV19zlqqFctg1Dv2wjHwAWzayY9UFcQDs1zS
+8PvqvA5CnmSxKnaIsTndk4Rg1Va/NY5Ll/W1ApUHQqkJOZv4sBv4cu5el0CErckj
+fwpsI4HpK89LCtnSyyXl0DT+dOSz/FR29O9JIWhOkqgvDth/SGlN7rdUoGccfA8W
+91RA68zxkdy8zQ3wYXBm9l+fz4muUMrqpaznHfziaHrLu7a2iWrjhr+E2Cvtxy5q
+kp8lKefOIPr2zTcvxrWFHXCFmeqAp4XOwJhBmH68DR0aPm4h85NWbiOjVqpnbpMZ
+y9stDbLaTrfYBOyH789tp5RM+GwVerfNYJVSlDdF6E+lJLMHrh231DoleBgIy/6y
+dH7Z6rzlXjcLODoqOMrpHUj6rutNYleUmf9AiucPAW9fLVEmK3kp7AWIf0rE3J4a
+EnEtxrCUl3N0GmUJRDUp/8Y+ivlkpQDmfETW67hgL7x/jDw2g0yEc/jtuOXqLCbw
+1QQodsJ6RNgk8c3qgIX0qtniQ1SnjPqeS6CmUKfmJvDA7HKGimdGNXS2o1JqXXKG
+6XsTrnLWrJQooDYLLfd8KnRp
+=y2hi
 -----END PGP SIGNATURE-----
 
---===============7715259785788450015==--
+--===============8162885988337065411==--
