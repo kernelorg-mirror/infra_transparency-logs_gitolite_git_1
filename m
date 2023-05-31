@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 31 May 2023 22:10:13 -0000
-Message-Id: <168557101330.30210.2176369757041716542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 31 May 2023 22:38:17 -0000
+Message-Id: <168557269706.15401.1454599397302665274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/x86/platform
-    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
-    new: 73b3108dfd9d53ea565c0777a27007c1c621467d
+  - ref: refs/heads/master
+    old: bf9fb1d6cfe4533c17dae1b5a7c4efd12f4c7c95
+    new: 22e9e5eda21cb92805c427bdf9284c6d308d4073
     log: |
-         fd27bea340012412a5ad1476b0a40381d7407550 x86/platform/uv: Add platform resolving #defines for misc GAM_MMIOH_REDIRECT*
-         8c646cee0ae3c0a19a7d9fdb847c45c729cae945 x86/platform/uv: Introduce helper function uv_pnode_to_socket.
-         e4860f03779cadff011a7a8685c7157ebc133bda x86/platform/uv: Fix printed information in calc_mmioh_map
-         35bd896ccc2fa8dfb20df705a44e9d26665f1085 x86/platform/uv: When searching for minimums, start at INT_MAX not 99999
-         45e9f9a99529a54a7ed195eea4aad102b9eadb23 x86/platform/uv: Helper functions for allocating and freeing conversion tables
-         8a50c58519271dd24ba760bb282875f6ad66ee71 x86/platform/uv: UV support for sub-NUMA clustering
-         89827568a82d5856f3c8d329d3c2bc0f47385eb9 x86/platform/uv: Remove remaining BUG_ON() and BUG() calls
-         73b3108dfd9d53ea565c0777a27007c1c621467d x86/platform/uv: Update UV[23] platform code for SNC
+         0fff069d18b50a9e2a9e1527c11bcc780628e67c defer/rcuintro: Self-review
+         40a729f1ad918bd85f38872dda513ebac97277ef defer/rcufundamental: Self review
+         ea9fd304ccfb232ecf38bdd31fde321e53c5a867 defer/rcuusage: Add rcu_sync as phased state change example
+         22e9e5eda21cb92805c427bdf9284c6d308d4073 defer/rcurelated: Add LWN articles for userspace RCU
          
