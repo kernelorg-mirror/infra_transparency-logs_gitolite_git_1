@@ -1,52 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7794440762636503099=="
+Content-Type: multipart/mixed; boundary="===============5165484068280146343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 31 May 2023 18:18:14 -0000
-Message-Id: <168555709469.5289.9969439579478909699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 31 May 2023 18:18:19 -0000
+Message-Id: <168555709901.5393.13527037467147626611@gitolite.kernel.org>
 
---===============7794440762636503099==
+--===============5165484068280146343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 48b1320a674e1ff5de2fad8606bee38f724594dc
-    new: 884fe9da1b7ccbea31b118f902fbc78f58366b4a
-    log: revlist-48b1320a674e-884fe9da1b7c.txt
+  - ref: refs/heads/char-misc-testing
+    old: ab7f17fb5b776933dd1a3431ae02bc2e394e2cba
+    new: c0b92cc56295af02410378b4f85957578d4ea1c6
+    log: |
+         1fbb0b203574bb162fbbdc078f2b0907983995bd char: add HAS_IOPORT dependencies
+         b5c75b68b7ded84d4c82118974ce3975a4dcaa74 comedi: add HAS_IOPORT dependencies
+         67d91a1e310afa9cbe1bb61169a2d3b8ca40ba67 counter: add HAS_IOPORT_MAP dependency
+         e7f3dd801ecfa9eeb936133122dcecd433f76c4d firmware: dmi-sysfs: handle HAS_IOPORT=n
+         14360031f804b17c1707c316475db42c84853cf1 mISDN: add HAS_IOPORT dependencies
+         ce3e8ec08dacba16292e1c6948f2983d1d3f1eea parport: PC style parport depends on HAS_IOPORT
+         34ff9e5101b9106e32da89ef96a97610595cbb68 pcmcia: add HAS_IOPORT dependencies
+         c0b92cc56295af02410378b4f85957578d4ea1c6 speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
+         
 
---===============7794440762636503099==
+--===============5165484068280146343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48b1320a674e-884fe9da1b7c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
-78b6a9a3f445e121ca08195084206cb8faa6999f MAINTAINERS: Update maintainers of HiSilicon RoCE
-17eabd6a044b57b2c1b5459eb9d11af3ea909e63 RDMA/rxe: Fix double unlock in rxe_qp.c
-b5f3fe27c54b1fe77d4dd834ccd48a6d694f872e RDMA/rxe: Convert spin_{lock_bh,unlock_bh} to spin_{lock_irqsave,unlock_irqrestore}
-866422cdddcdf59d8c68e9472d49ba1be29b5fcf RDMA/efa: Fix unsupported page sizes in device
-58caa2a51ad4fd21763696cc6c4defc9fc1b4b4f RDMA/hns: Fix timeout attr in query qp for HIP08
-7f3969b14f356dd65fa95b3528eb05c32e68bc06 RDMA/hns: Fix base address table allocation
-56518a603fd2bf74762d176ac980572db84a3e14 RDMA/hns: Modify the value of long message loopback slice
-349e3c0cf239cc01d58a1e6c749e171de014cd6a RDMA/bnxt_re: Fix a possible memory leak
-0fa0d520e2a878cb4c94c4dc84395905d3f14f54 RDMA/bnxt_re: Fix return value of bnxt_re_process_raw_qp_pkt_rx
-dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868 RDMA/bnxt_re: Do not enable congestion control on VFs
-b3e6bcb94590dea45396b9481e47b809b1be4afa ext4: add EA_INODE checking to ext4_iget()
-ffe14de983252862c91ad23bd5ca72fd9398d0e6 MAINTAINERS: Update maintainer of Amazon EFA driver
-c8f304d75f6c6cc679a73f89591f9a915da38f09 RDMA/irdma: Prevent QP use after free
-5842d1d9c1b0d17e0c29eae65ae1f245f83682dd RDMA/irdma: Fix Local Invalidate fencing
-b928dfdcb27d8fa59917b794cfba53052a2f050f ext4: set lockdep subclass for the ea_inode in ext4_xattr_inode_cache_find()
-2bc7e7c1a3bc9bd0cbf0f71006f6fe7ef24a00c2 ext4: disallow ea_inodes with extended attributes
-aff3bea95388299eec63440389b4545c8041b357 ext4: add lockdep annotations for i_data_sem for ea_inode's
-1077b2d53ef53629c14106aecf633bebd286c04c ext4: fix fsync for non-directories
-eb1f822c76beeaa76ab8b6737ab9dc9f9798408c ext4: enable the lazy init thread when remounting read/write
-fd2186d1c708fa0ec64291da5aa6b26fb44197c3 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-884fe9da1b7ccbea31b118f902fbc78f58366b4a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685557097 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1685557097-b56ecc7d9c2e17a5d1f928dd46d70ca1e897438e
 
---===============7794440762636503099==--
+ab7f17fb5b776933dd1a3431ae02bc2e394e2cba c0b92cc56295af02410378b4f85957578d4ea1c6 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR3j2kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dW4QAIRUzdKnZHRlw9ugFkpP
+BiaL3VnXYrRafo0cRhT2e5Ytz5WjLY45AA5s8V0odmF5Yi3Jle8uh2KIzTwufM2V
+ha2Gkgv6mUtG7lraWh16NzGNkHaueP3D4d3TzITe8zqB/9r2KUvoDeU31EqDuywL
+13oeeH/sKJWoqp+3Yja/i41LnjuosXqVeeskU06VktrKPwfOno+iEcXX5wHAP6XD
+h/j3ay/Q874jeJa01bIgihEl7nS0HGCTPunJ9t/b5V4SwIGU+MH2Lnb5ivteGc5J
+iiTs08ndanbmJEHesZLJIikJA5EaWLgeo7UtDhagJcEuD/xtF0lgn8gnA8SdGobQ
+BZrNynH4OjNa5npnQK+rJJiKhMa2Mgl3oVDmQW5POZZ9YfQJXn5mzrPCEfITcabj
+m3e4CpDM5o7ELDeUpje3jiXXPTOKqUXXuXq5OxD69QqagMsrmD4J+WnVOpoZgvBF
+Jn74rB9f758cKOkVONuzBVuaTdi6iLf4kDiJKSP3LjtUEfJ/vaYBtj3bJZYdZJtj
+VGyQsGJHC0ipkMEIO9IKRqKd8K2f7Bu60cw/1lFCw6k9SXV/SCuKh5uHGEoo1R/T
+HPgFbHWBrn+5nN0TXbsvV5vY7aP3pQDxwubk3HOzzY3GCBD1tnj8pE/k+zas5/j6
+UhwJN74p1sSpigM/sxJe76Bh
+=2uUP
+-----END PGP SIGNATURE-----
+
+--===============5165484068280146343==--
