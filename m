@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Thu, 01 Jun 2023 14:43:08 -0000
-Message-Id: <168563058858.3708.3286637590441929444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 01 Jun 2023 14:43:39 -0000
+Message-Id: <168563061971.3990.15480745410829103649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/extcon-next
-    old: 93e60cd5e00e63f29e896453e10c7ede4cd8e882
-    new: bcfa8e33064f1357e60a7c056a2e51cc5928d629
+  - ref: refs/heads/testing/fam01-next20230601
+    old: 79d8b01b4b2a56804aad7ab4271143e80ffb4602
+    new: 9660c8acc7a78dbad1faf1af23b381986022221f
     log: |
-         bcfa8e33064f1357e60a7c056a2e51cc5928d629 extcon: Switch i2c drivers back to use .probe()
+         4b40cbfde149f6f3be22ccae8955cb63075f63c7 drm/amdgpu/discovery: Replace fake flex-arrays with flexible-array members
+         9660c8acc7a78dbad1faf1af23b381986022221f firewire: Replace zero-length array with flexible-array member
          
