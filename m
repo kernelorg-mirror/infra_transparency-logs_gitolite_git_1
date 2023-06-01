@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Thu, 01 Jun 2023 03:46:40 -0000
-Message-Id: <168559120042.31899.5655057720296331168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Thu, 01 Jun 2023 05:08:50 -0000
+Message-Id: <168559613096.21458.1800221600546653452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/main
-    old: 589d8c7653c75d789c6e47d69a4f5bb089aecd5a
-    new: 71a8b8ef0adf01af4c78c739e04533a35c1dc89c
-    log: |
-         71a8b8ef0adf01af4c78c739e04533a35c1dc89c libfdt: meson: Fix linking on macOS linker
-         
-  - ref: refs/heads/master
-    old: 589d8c7653c75d789c6e47d69a4f5bb089aecd5a
-    new: 71a8b8ef0adf01af4c78c739e04533a35c1dc89c
-    log: |
-         71a8b8ef0adf01af4c78c739e04533a35c1dc89c libfdt: meson: Fix linking on macOS linker
-         
+  - ref: refs/heads/jitalloc/v0
+    old: 0000000000000000000000000000000000000000
+    new: ee416086e3d885c91ac1e42b125c21ab59161f6a
