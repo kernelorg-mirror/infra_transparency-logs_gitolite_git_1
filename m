@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8916274162054822126=="
+Content-Type: multipart/mixed; boundary="===============2935210435194428960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 01 Jun 2023 13:19:39 -0000
-Message-Id: <168562557991.10044.17025446538204330968@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 13:19:40 -0000
+Message-Id: <168562558098.10113.15210370011070758043@gitolite.kernel.org>
 
---===============8916274162054822126==
+--===============2935210435194428960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,69 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: c86a20f97773fe695dc3f65f35de6e88c4de4320
-    new: 50329515aa64a6882fcc2e86dfeb1e56d08d760c
-    log: revlist-c86a20f97773-50329515aa64.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 1e744bc45b750289c12408f3f2691c3419249ce5
+    new: f2a19702506cf5aee6bf44c1a1c48520b2455d75
+    log: revlist-1e744bc45b75-f2a19702506c.txt
 
---===============8916274162054822126==
+--===============2935210435194428960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685625577 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685625578 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1685625575-2aef1719f056b2d15db31711a29c7577ae6ba169
+nonce 1685625577-34a86374c11f8291b125a171afa20c70d4ae63ab
 
-c86a20f97773fe695dc3f65f35de6e88c4de4320 50329515aa64a6882fcc2e86dfeb1e56d08d760c refs/heads/linux-5.4.y
+1e744bc45b750289c12408f3f2691c3419249ce5 f2a19702506cf5aee6bf44c1a1c48520b2455d75 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4muobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7p4P/i4oAr089CbCZ5vTnfwZ
-i1e+1pI2+nTnpiqU26QDcDfPqj+tlMlubCxg+tkQbCSWsKXDJFlhhHJRJbFYVaqx
-rpj1phYdvnPqBTvndv7hlSSa/Yh9tQ51pjXddOVw7nnHdNG9fe4RoeORNKb3Ft51
-Mf8o1wztNWrEu16P5rQRaA+9dUOexJ3AfUCrxVfQxSJVuHFrrD8PevsSU0KDZppW
-CDo9AtSF6q8IvNx9qL9O5Sql+cnSujTpack19lqg7OQTlEOM5QVfFeW0ci4HJwiV
-PGZwTzCBXIW2f9Awi5QD7nbX/F2JbVGE9/E4R7uFMeCaPojYdK+EaQsT0eMGptrU
-hYqoy4Qg51WKxhTqNKVCmFa2uUN+X6Z9mG1yYZ0mWtbU4cW4FJFN5FbQAmGU//yl
-4dzOy15kjNCH4gyZntx1eRzNTuOpHS98iBA5iLCSooWJ0rpZwE1mdXh1qJWOEkEy
-+DM178H3+dSOt4npILrwPqxmY7c/fMKqweASZjM8Nn/uGJc4ibdWjjRs0KRJ7ggM
-xX1jNpRVe0IQDIIMxul+baeyOlZ4jDkZcxKWZhUu2fBwko9DnW5h5FYwBXFM0Vd7
-AmFVHJajJ8oPhdj3d5uoujTwoSEG1GUdNPBuEtiU7k6jvg9/JZ4ZS4iqaq2FZyBY
-B093lrowIbzC3XQDsgrE+upi
-=OKS7
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1OwP/3lqfK34fV3rwoHwDL+H
+OrToKNmRunQgv8xGOIwLK5D2lxRbEoB0PwPTNwBEeLGkkjK3PhAyJOI0dBMT1ujl
+X0jn0+CRk5MlKyhXh3NMZ27JUWRLEGMt+hZVDvHJ/S34X09XjH1MKPeXcJOBF2IU
+4ogroE5SyzjBn/qwNm66lBSCsMxSQMNUqz9JE0w6sQhD9h8b0MCmSa1hvp6jamcP
+nh/B+UI4VfA4t93ftBYrO6ZOXVfqBqTHShlK/ulpgRPcxNgeXpC0WMsDfonvEj4B
+MMidgEGdd3pu5n71V3yUEn8Koxd5TpSqjqa5zK6VhbZepJwIwAzD4dhtRmu8veKm
+c+vwNgPHXs3lGYlzpcdAVxb1NalvXUuVgIPDjL0spcKEU6ML/Zs/xtekBtngk9iu
+CSJnj06ZMDyi1t58rK70pTYMapCiqq6wX8Q7D8QBKjxFR00KCyJ2AYH+pZi5kvy6
+zBCzfRIQgoS+lZaNqaYOf5PKwKDNnyfE/qk9B3AVY4zJVeJuVQzRvR3WXPmEXkp/
+kZdImh6dL2EoPTxnbK6+1BX9rCkatntg9JXgQEeykEQ2+gzRoDSKaGYjfsknEbXM
+kypHgiFz72TXxPRCLfU33O27x9hAlKSlo+9Io/ugtLuwEg5LalSpiKbN+1RWmIPe
+Wf4YpLMjx2TGOIYWiYc5DQAb
+=RVV+
 -----END PGP SIGNATURE-----
 
---===============8916274162054822126==
+--===============2935210435194428960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c86a20f97773-50329515aa64.txt
+Content-Disposition: attachment; filename=revlist-1e744bc45b75-f2a19702506c.txt
 
-9df89e02d6b537802ce5f2805892f1b49ce51c03 cdc_ncm: Implement the 32-bit version of NCM Transfer Block
-9d6d571e65accd1f1b5739355f3b7009ccddfcc6 net: cdc_ncm: Deal with too low values of dwNtbOutMaxSize
-f869bbf3a4e7ba87436fd26a9fe00f05dd7d560e power: supply: bq27xxx: After charger plug in/out wait 0.5s for things to stabilize
-5de58309007c9c84226de2a2bc89843b7724e859 power: supply: core: Refactor power_supply_set_input_current_limit_from_supplier()
-acd58999a3886feef69ea22a88d63e83f4160dd8 power: supply: bq24190: Call power_supply_changed() after updating input current
-0bbcd0f22d69a9713f7db6a25c75972121b33156 fs: fix undefined behavior in bit shift for SB_NOUSER
-6e4379f7143ca4ccc6dd9e988195eedf77460568 net/mlx5: devcom only supports 2 ports
-e43aa2ec2a3847acbaa26dcac656fa202d7a390b net/mlx5: Devcom, serialize devcom registration
-69ba3fd8dffa428ef7b9c93f6e933990e6ed8178 cdc_ncm: Fix the build warning
-b27520a7a3ba7854ddefb7118cfb799c4a4b51a2 io_uring: always grab lock in io_cancel_async_work()
-69b2368cdbfaf817d61d2f0e5317b77fef51fabd io_uring: don't drop completion lock before timer is fully initialized
-625c6a4432dd9cea362886ed8209bb6254f2aa1f io_uring: have io_kill_timeout() honor the request references
-b9448008fb9d6c48e23a6f8d81b2824b50361293 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
-7a29c0fa27731ad9db78425b481a96394b859ce8 binder: fix UAF caused by faulty buffer cleanup
-5bf89d8f6329d4efd57b9f4003f59643d7e1e10a ipv{4,6}/raw: fix output xfrm lookup wrt protocol
-a35106e6f6e494d0b31a7dca964c2a1fdb3a87dc netfilter: ctnetlink: Support offloaded conntrack entry deletion
-50329515aa64a6882fcc2e86dfeb1e56d08d760c Linux 5.4.245-rc1
+652921d7a5e0e11a96c08676708a1090353e7fc7 x86/cpu: Add Raptor Lake to Intel family
+f9eddba14c2bc4440d6318aecb82e01b87f65fe9 x86/cpu: Drop spurious underscore from RAPTOR_LAKE #define
+d7dda636bd8b06b81fd52c4d02cae2254b742295 power: supply: bq27xxx: fix polarity of current_now
+5132bd92d0af1301ab3977c27eca7e3eeb0cb579 power: supply: bq27xxx: fix sign of current_now for newer ICs
+f5b0c875d1a2eefafdbb1f16f5cbaaee92edba9d power: supply: bq27xxx: make status more robust
+b51e11ec85f4964080ae2e96f4c0685df77f9062 power: supply: bq27xxx: Add cache parameter to bq27xxx_battery_current_and_status()
+4b3d2b3d89d2310e36a23ca1929651cf6d8848bf power: supply: bq27xxx: expose battery data when CI=1
+88a97f9cb9bd8a65cf157fea9122602373bf749f power: supply: bq27xxx: Move bq27xxx_battery_update() down
+aa400fb4d38c7a53c6dcaf83c03acd09c81dc66f power: supply: bq27xxx: Ensure power_supply_changed() is called on current sign changes
+006c50e4baed7392cfb7b0f58664e15978e33a45 power: supply: bq27xxx: After charger plug in/out wait 0.5s for things to stabilize
+e7f4a563f2f95ddfd33bf07670afe6907c06b6a0 power: supply: core: Refactor power_supply_set_input_current_limit_from_supplier()
+978775a132d3fed84b40c1161ba2f19ecb549f2e power: supply: bq24190: Call power_supply_changed() after updating input current
+a0b83158b80e18ba76fbdfc91759c2948eff756a regulator: Add regmap helper for ramp-delay setting
+ee3f841bff48973cd9dc27d868601a7f125f1ea9 regulator: pca9450: Convert to use regulator_set_ramp_delay_regmap
+fa1fe70587783cfd8bfcfdc427b615fdcc6c41db regulator: pca9450: Fix BUCK2 enable_mask
+de49e72a307b1e9de2bfc003c93c78ed5c0e5049 net/mlx5: devcom only supports 2 ports
+d200db3e2bca22bde6f20e056d02b20f4b5a6db9 net/mlx5: Devcom, serialize devcom registration
+811785c2c19c9c2ca3621a4939d4092a72dde6f8 net: phy: mscc: enable VSC8501/2 RGMII RX clock
+c916f71da1d22abfadfdc82b99e1a7b354e38463 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
+4e5ec1d6919aa2a8fcfdb21e37775675c7924027 binder: fix UAF caused by faulty buffer cleanup
+3bad66cd58dd96fab1d883a09f02c4518e7113ce ipv{4,6}/raw: fix output xfrm lookup wrt protocol
+62f373b99639dc9603fe2d3ff55508741349d9f0 netfilter: ctnetlink: Support offloaded conntrack entry deletion
+f2a19702506cf5aee6bf44c1a1c48520b2455d75 Linux 5.10.182-rc1
 
---===============8916274162054822126==--
+--===============2935210435194428960==--
