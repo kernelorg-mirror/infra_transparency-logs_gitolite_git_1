@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8025772008426321067=="
+Content-Type: multipart/mixed; boundary="===============8786233545039172672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 01 Jun 2023 10:53:23 -0000
-Message-Id: <168561680374.10576.10221095145091496954@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 10:53:25 -0000
+Message-Id: <168561680569.10695.2774594453904991330@gitolite.kernel.org>
 
---===============8025772008426321067==
+--===============8786233545039172672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,89 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: b66a3ff364ecbe5bd8b33552caaf3e9a845bbb7c
-    new: 396b5318ea7eaf0e8ed9960ccc648c61314998bd
-    log: revlist-b66a3ff364ec-396b5318ea7e.txt
+  - ref: refs/heads/linux-6.1.y
+    old: b3d23a09e886d60d4375d73d771a05984018ff27
+    new: 087e96594ba7ac34f7162e9224ca67868fbcd126
+    log: revlist-b3d23a09e886-087e96594ba7.txt
 
---===============8025772008426321067==
+--===============8786233545039172672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685616802 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685616804 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1685616799-08f9df4f7e8855d95404c0ec232f69df5bd12f5f
+nonce 1685616800-ff6b95754441398c817e6e1bd4cacb36603b99e8
 
-b66a3ff364ecbe5bd8b33552caaf3e9a845bbb7c 396b5318ea7eaf0e8ed9960ccc648c61314998bd refs/heads/linux-5.15.y
+b3d23a09e886d60d4375d73d771a05984018ff27 087e96594ba7ac34f7162e9224ca67868fbcd126 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4eKIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+03IP/3EtI9MIfM4jskMxLS06
-IwpbJD9pXZGJyWPZt9QLPXuTic/XRK8bpup0fOhiNeRXuYI6t58VYyRBs5JIBq32
-/jPHEORvbpEDi83653ZzGjamAKgEIHQ+ZSLoFv1HkDQeLRfobIsxYpaurIHM6nYP
-ExCm18kxwkv9jvy+D05EHVFVmifUrutQJkm00IbU5LoHDYtET5Jt9/TtYET1wJbj
-7x17drADK2qIlqb1/A6o7nJJ9dF4SHM8OJWuUZXR+Pup73tOfx36RvxCjS1NOXfs
-A+gAnHzMqgmrtWAqKQARX+9CdcZO60Gppw34RNp8eAXqdILyoGFyA7+jR1lJNLvS
-rZeZWZAFL5FmBjh+ZWcYwd3npyy1HFLVS83h3Tabt9ooUA44bhulIorcGFm/ezw/
-MJ5WfLM3ihkmL6M8+Y/nRwPC7eQS+K70+SUlkhU3//v2kdcK0YBRE3V3qs1Iw/1Z
-5BpOLxMlWy4mqyYKoHqIRgJbJqDyrbsw/3ZS68gKiH3TpSWaQQ9J2NQCrN+zkwIf
-BZ+Ig9h5ghA/AR7h/wFENzYAVuZHyBxUlHa1rjeht5OhVGCZ37Vk309eWNP5f/fd
-KoOvecTGRmvGNokEQsiw8uG0RaAB/oBRMF6xMDLvZYoySWh3nTIuxRbZrabfYw1L
-CMZIa8BU70M5CCXPSrw7EOnm
-=Ib5W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4eKQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BxAQALNhuIADCaA3FlnMX2bB
+awef4fLmpDeoLZLZNe6in7pL5LDQ1hzGqIfoHALdnRC6qA9kR2b/CO6F9zsPxklc
+E2ov3O+rQ+qufUOxP/oEmGY1XCZjTk2qHZm145R2+J0UZNgQ8oqgWO5muvKCFKmy
+Jk7RtYkHqRWOppGkW6wCXMmOsvQ+Ht7mvFdmahtVoSU7u6hrlZxTsn5VJLd4tZnI
+JhHGpDZZEE0plevoBjkfTKnh4o2+J/Eygw/67WnNI+wz48ghegm3L/8iuGT/l1NQ
+bPiMBbXqGgJKl7z8RZpkE0Pzq81IrzqE2bYCklY3NXvslKqOU2Hm7nzlOuHggZ9v
+I2j4HDyeOYSO76mdeQJhhWnVrtQQ1mEfwlgJmU+e80hGsxVRrmuaXcY3qtsR77gT
+RO8ozLIRutzKKCu1aQUbyy6wOUoIhJQae+uARX2mjY8AIgIuS12MWZ5cokQ0YoxQ
+3xyjaL0KioUGa6LXhcOOa41VSzakgRQrlraUZ8Tj9WrYJLeGZLcXTJL6joOPzYqY
+ovbqXHTfEtbYBwrpwJ5lh4YWRCQVVUMqwJMuIboh02ixAERsRW/qaOoq1ozMkjUF
+iJBX5PtGycVAJwkq6ZzM4bnUK8bjAtBL/M2ebgxbwdwaxQJETEovo2ikNLg0Ozt0
+tLc1fOlEvEKjTqKkTxtHmIlz
+=Cc+0
 -----END PGP SIGNATURE-----
 
---===============8025772008426321067==
+--===============8786233545039172672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b66a3ff364ec-396b5318ea7e.txt
+Content-Disposition: attachment; filename=revlist-b3d23a09e886-087e96594ba7.txt
 
-485ec47422af33bc2044b23afdad90d6f7bddbb8 power: supply: bq27xxx: expose battery data when CI=1
-401f954b4c6d647a2085fcb80e3300c81584c911 power: supply: bq27xxx: Move bq27xxx_battery_update() down
-8970f8a10537802ac1fa75d44bac7f80b8fa2e46 power: supply: bq27xxx: Ensure power_supply_changed() is called on current sign changes
-946749a6eacf6649d2ec8ab0b102c616c93e9179 power: supply: bq27xxx: After charger plug in/out wait 0.5s for things to stabilize
-9c9b17c8bee868f2f91f2412a864568222c2944d power: supply: core: Refactor power_supply_set_input_current_limit_from_supplier()
-5cca7ceee70b5044d4ba293275ddc04a0e53361b power: supply: bq24190: Call power_supply_changed() after updating input current
-050d2a04706523355b62ab7c9eb3a0befedf8b88 bpf: fix a memory leak in the LRU and LRU_PERCPU hash maps
-cfbd08a6cee6efd394276179345f7335bc707900 net/mlx5: devcom only supports 2 ports
-ac2fdedb8c594ffd49e2928eb215306dafbb23dd net/mlx5e: Fix deadlock in tc route query code
-3f48192ec7214c963e398efd19cc61ecf6168706 net/mlx5: Devcom, serialize devcom registration
-84536b984d88162c90404a79ab7e48612e55d447 platform/x86: ISST: PUNIT device mapping with Sub-NUMA clustering
-3367ec54be883bf0286e2bebec8d33e933d3becb platform/x86: ISST: Remove 8 socket limit
-ad4180e71c87f32bfec79c9bb8295aa7db5db59e net: phy: mscc: enable VSC8501/2 RGMII RX clock
-4b2859dcc51e6b63b977f9c818df85b73f531fe4 dmaengine: at_xdmac: Move the free desc to the tail of the desc list
-98a4bf638f709c5b08de40c15135eb4371c1da0e dmaengine: at_xdmac: Remove a level of indentation in at_xdmac_tasklet()
-deb5cc22aae29da57a5ecd479479cc9f09c2a7be dmaengine: at_xdmac: disable/enable clock directly on suspend/resume
-f9aea327fd1b42aebf177721f27272a98c5bb24a dmaengine: at_xdmac: do not resume channels paused by consumers
-ce66f0555ebd43f546fc9828c166dbba0b966653 dmaengine: at_xdmac: restore the content of grws register
-db85e1f1d73a6abde4800693e1cb57856dbadfc0 KVM: s390: pv: add export before import
-71261cf91b7d60112a5500cbbff99873caa85287 KVM: s390: fix race in gmap_make_secure()
-c1ddada387a29ee94c9de580bbdfb0bea854a55a net: dsa: introduce helpers for iterating through ports using dp
-d60708d0d1fa598f210f03da08c84ac3ca39ba98 net: dsa: mt7530: rework mt753[01]_setup
-42850c581b2a0870564b99772bceb3f93ba72945 net: dsa: mt7530: split-off common parts from mt7531_setup
-22e5b96c2e5590033bb11868b13e07fceb305b78 net: dsa: mt7530: fix network connectivity with multiple CPU ports
-959bdcac739d90bba1b57e02933db01470b9830a Bonding: add arp_missed_max option
-5020ad483d3fcaaa647f9e3f7f66cf65d21f5c36 bonding: fix send_peer_notif overflow
-a819728f197788c25cc8d5b0c7d4b5b89481b318 binder: fix UAF caused by faulty buffer cleanup
-8cfc7f803c373d901b160f7e0feb02468aad33de irqchip/mips-gic: Get rid of the reliance on irq_cpu_online()
-a487575d74a7e6b7710acc717e806e6291ad0cf6 irqchip/mips-gic: Use raw spinlock for gic_lock
-4610f2e5257d6e7bd205b10f77871a3864bca36b net/mlx5e: Fix SQ wake logic in ptp napi_poll context
-75a1fe215c8b2d9e08e66fcb922a8b060a2c17af xdp: Allow registering memory model without rxq reference
-9c8fd982340a7722e416f49faefad5e6ce1b3b8c net: page_pool: use in_softirq() instead
-d73a19c9a551ce603b09449d756b8e9ef1c35189 page_pool: fix inconsistency for page_pool_ring_[un]lock()
-f5cbd4b831636ae15f762ad8f5781204a7ce78e5 irqchip/mips-gic: Don't touch vl_map if a local interrupt is not routable
-7289d3ee1cea858ba91a4c2ed1d05080258f147d xdp: xdp_mem_allocator can be NULL in trace_mem_connect().
-f50f36da9818e7bf806cce18514b3523a5740949 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
-4725afc5f3bd398c973a36bd66430892b8fd92da Revert "binder_alloc: add missing mmap_lock calls when using the VMA"
-48bd6f91530bf0612e7c916f7f70ccf34061ec64 Revert "android: binder: stop saving a pointer to the VMA"
-eaa45241435d8a61e55b53e64a2cd42d97f6d005 binder: add lockless binder_alloc_(set|get)_vma()
-f965d87b7406a0bfbf5e2d589d53d9a5a2bb6810 binder: fix UAF of alloc->vma in race with munmap()
-78eb9b9a7c5636a345b8bb6009daa57b2a306266 ipv{4,6}/raw: fix output xfrm lookup wrt protocol
-25980513ff29860e986b159c047a023d00d6670c netfilter: ctnetlink: Support offloaded conntrack entry deletion
-396b5318ea7eaf0e8ed9960ccc648c61314998bd Linux 5.15.115-rc1
+d74e137b66619805e6dab7c77f2a9ebc41fc898a inet: Add IP_LOCAL_PORT_RANGE socket option
+8665f152127f7f99359e06f210cd1f8e7ba4d96d ipv{4,6}/raw: fix output xfrm lookup wrt protocol
+16b4d1cbcbba9eb1cc74ce1c6424f84f485b3a96 firmware: arm_ffa: Fix usage of partition info get count flag
+191d0973f89ff2f82162fa3826e5268a71bfbb36 selftests/bpf: Fix pkg-config call building sign-file
+b57e8597d01233e483d974692b634885d8f8e553 platform/x86/amd/pmf: Fix CnQF and auto-mode after resume
+40d0f6b2fa1106b6617c5664154e2ec6a8e3c13b tls: rx: device: fix checking decryption status
+285fa6c66c9aa04caf7c2298c068ad53f45fa57d tls: rx: strp: set the skb->len of detached / CoW'ed skbs
+6797ea7d838f94a0abc248e8c9cd364e6c313280 tls: rx: strp: fix determining record length in copy mode
+94620fa2ef181c9a00560cc5ab116ba5314443b9 tls: rx: strp: force mixed decrypted records into copy mode
+947da6413714f614d690c437b508a74c98cb49c9 tls: rx: strp: factor out copying skb data
+63949902f93725004d3a21cc8c25daf4c5c409f7 tls: rx: strp: preserve decryption status of skbs when needed
+2058ff2a6e6fcd7abe453efc9330a1964f140518 net/mlx5: E-switch, Devcom, sync devcom events and devcom comp register
+773fcea56e99f03edb81141c232a1b742395a948 gpio-f7188x: fix chip name and pin count on Nuvoton chip
+252c59966a165cddf7cd12d703f20ce417070bd3 bpf, sockmap: Pass skb ownership through read_skb
+5683b9ca487612a550c883f655a56c12ab41e6d1 bpf, sockmap: Convert schedule_work into delayed_work
+16d84b88b3bd2ce5f9a7d2f638b48e94ae819497 bpf, sockmap: Reschedule is now done through backlog
+7e25cc238b560c0bf0f628bb2827e95fa6b87ea0 bpf, sockmap: Improved check for empty queue
+7e27b74091f98905bb51601c1353a92eca4a5264 bpf, sockmap: Handle fin correctly
+3ec2fe55cf9ba7c25c5be673e42f4ed831bf8554 bpf, sockmap: TCP data stall on recv before accept
+e8949cc2f86a89e8bb4295280b0a84fea517296a bpf, sockmap: Wake up polling after data copy
+17f7e1a3e8b5d72e0d428e0be66d81b7215398a4 bpf, sockmap: Incorrectly handling copied_seq
+93865136d4ea975fe960d651be29d883ed5c4e40 blk-mq: fix race condition in active queue accounting
+51ea9706fd4714beca39259132154cbdd61b8e94 vfio/type1: check pfn valid before converting to struct page
+40c22b966020c13f988e52be6df876694d273d5d net: page_pool: use in_softirq() instead
+87334643d2e4d548753c8d82c944e2f4caf0ac3f page_pool: fix inconsistency for page_pool_ring_[un]lock()
+efbc63cbfc00cda681f64fa3fd56646e7b3b9b65 net: phy: mscc: enable VSC8501/2 RGMII RX clock
+1bb9c8818871ad0b56c1c098adc23ca367874460 wifi: rtw89: correct 5 MHz mask setting
+7b0cbd780bd54854826f3399cb1a56faf7bf7446 wifi: iwlwifi: mvm: support wowlan info notification version 2
+a97c0710ba0405a8dbd55dbfb8744175bd0aebfa wifi: iwlwifi: mvm: fix potential memory leak
+70b602b2aaddf5ac7810fa044723455ae6502d1f RDMA/rxe: Fix the error "trying to register non-static key in rxe_cleanup_task"
+f1cf99b0866ba48d14b288448f3ed06490a94b54 dmaengine: at_xdmac: disable/enable clock directly on suspend/resume
+7c80af3088f4c23cd784bb2e6b79e81d4fb28800 dmaengine: at_xdmac: do not resume channels paused by consumers
+1d4a538a0e6e4ad30dbf6d3b0d43c3ba23b7f075 dmaengine: at_xdmac: restore the content of grws register
+684a3a052ba38854635c35cd9ba0b8235e6214a4 octeontx2-af: Add validation for lmac type
+3317ccfced0beb7563a6f7551718b1484fcd5683 drm/amd: Don't allow s0ix on APUs older than Raven
+20ad739f73993c2cf16aeed84eee59083daa158c bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
+1623653c712cb52035408d6348a8c66300671287 Revert "thermal/drivers/mellanox: Use generic thermal_zone_get_trip() function"
+6c55d7a10f955e7bb467d90695c497c7f6779721 block: fix bio-cache for passthru IO
+41722de498091bd8a8748fe34453ddb55c4058cd cpufreq: amd-pstate: Update policy->cur in amd_pstate_adjust_perf()
+5faa9075ac7e26b452695bc406c3ed2ca4f4f14d cpufreq: amd-pstate: Add ->fast_switch() callback
+5fe733c5bf02c53c81316c58f2fedbe1231e11ca netfilter: ctnetlink: Support offloaded conntrack entry deletion
+08109e858024a6d7fcb632872951e1833890e309 tools headers UAPI: Sync the linux/in.h with the kernel sources
+087e96594ba7ac34f7162e9224ca67868fbcd126 Linux 6.1.32-rc1
 
---===============8025772008426321067==--
+--===============8786233545039172672==--
