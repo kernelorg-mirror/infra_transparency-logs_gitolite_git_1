@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1757216319233712983=="
+Content-Type: multipart/mixed; boundary="===============6445546241311383647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 01 Jun 2023 14:33:34 -0000
-Message-Id: <168563001486.29672.11888606097266874084@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 14:33:37 -0000
+Message-Id: <168563001799.29740.3699268879893860972@gitolite.kernel.org>
 
---===============1757216319233712983==
+--===============6445546241311383647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,86 +16,84 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 91b86c5080c5bf6305e4d6374ae13705e8a707f4
-    new: 7d0a9678d27663bef481e0ed18226dab66fd884b
-    log: revlist-91b86c5080c5-7d0a9678d276.txt
+  - ref: refs/heads/linux-5.15.y
+    old: be5887da1556a8d6a9e2d2b09fcca6549cc8dddf
+    new: 31e35d9f1b8d02e82f497ba31231b0c9dc00380d
+    log: revlist-be5887da1556-31e35d9f1b8d.txt
 
---===============1757216319233712983==
+--===============6445546241311383647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685630012 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685630015 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1685630008-ddcda3c0f94ff07b603914f91826162ed9a87312
+nonce 1685630012-22d90d84f9a51a583e129f69ee180b894625e8f5
 
-91b86c5080c5bf6305e4d6374ae13705e8a707f4 7d0a9678d27663bef481e0ed18226dab66fd884b refs/heads/linux-6.1.y
+be5887da1556a8d6a9e2d2b09fcca6549cc8dddf 31e35d9f1b8d02e82f497ba31231b0c9dc00380d refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4rDwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zL8P/2ikKf4DDUsl+GVGuYIv
-bSMPbXNiSVsMmpCgv9nAhOg9cmVDlYGSjf+32vPjaiEMV5c38/wWwxDHjsvVHmFJ
-s3j5utx0pJb78TXa9OVASMjTRbNScmjnFfyktiyjZHlbBiVhS3fH1CEkwd7FZ+HQ
-kRoh5z6X+cdcOWDNGO0tztavyxeDubkZIrd52BjQnwFUSZIHg2aY2hfzGoy+wLUN
-dqtL3Qw5H9iDti5oVelQpAxMlxwAdG7ICK5bGjtz9D1iTa4cWbjL/G5PQmk812jG
-On/cq9l2BQNTwEBE3cmpCvvN8RYx8AEOlXmyZcsJIVIWAC24xxoxEr9BGjCgc9IU
-z6/qD/UEfOfnmwnD4lk8/RdofvT694e1uHAeJByutuAE4uN7Sjw9y3+WNmkQIKld
-oRkhoRe/DGblQnMExDvvj7xub7l/MnXTzdbN8j0/nj9FNLyZIPGcitl7moZBuowY
-UhMYh2tglt6g15Sj5IZFYBi0/TFSI/Df798fr0i53EObFnwgRaCNA5mmpJSKuGzS
-ce0iGe4x4OmwGaxMCB1vaS3l4qz2aIbJD04399KNdnfcGf1I8Z0dC4zElckelk3y
-kBGc+DBsJdIr4pZOhDIk3sfHs15RvnKgjje4ZsEILZ2UeN9ff9oAgQ4YW+Id2T6c
-wk+LlsiNq2SVyOYqPs3Ajkbe
-=ymiK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4rD8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dLkP/3lPsyQhE3V3c/gnYn0O
+QN5Dz/hD0i7bk/DtNjlr9S85QvAmAsRw8lUJHN6MXSUd8rap/te3XsQz8CIHWPad
+a/V85UF9seEaweKoP82O3JEozKwXL3midvPbbVPQUxWb2Ra9X1Fsk31FA3GPhzVi
+Iedvr7TAZISkemHFAy2aCnBPRy/vNt3S4v1tFqID9qJIaH2qW7axi499QEAf4u9y
+pe1Hu4t/Vz9NJdA775kDSM/LKxSildefHdaFav3r4FKmd0OXj25NoTordEMtVukn
+aLQx72vUshPr/vzgCuny3q9UAqUnsifK5tbgOYzylsEuAUkGvul6P+Av3ydxst6I
+p8w8K3ASeQv9yRFMgfDMAIDdU3Dxm1zuy3pNkR7YagDV79tEEqaKwhiaxYbyVB1G
+Fe1hWG+HfO6DvuL05CrUzfp7I7xkL0YUQ0TF15rO14r9f18XNKMwcUrcQUtGTePR
+Cpo/HaBy8cqPGXoTLUbNyGqIQ0Op252YhVgqu088+jxrH9HOh+oZSg7z8xSM9DDj
+Z7U3DIGsABZa7VN7WTe6bCvdxjGHIqMVgLRyel/Tsl92FLPUggWZKn6dDvKKhQa1
+jLEqwoYg9EzhyN7QdRuoQpeuxYDaFNqbK0rpWa1qm+IZzM7HbqpmMmMLRKCA35wo
+3EVuuwtJKwBiqSSZtxLuqWVT
+=n/39
 -----END PGP SIGNATURE-----
 
---===============1757216319233712983==
+--===============6445546241311383647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91b86c5080c5-7d0a9678d276.txt
+Content-Disposition: attachment; filename=revlist-be5887da1556-31e35d9f1b8d.txt
 
-b2fbbe9a3778d6063533488277fd7f40f92ecd4c inet: Add IP_LOCAL_PORT_RANGE socket option
-9591569bfc112af6d1db5575a8f64d2c46482f64 ipv{4,6}/raw: fix output xfrm lookup wrt protocol
-cf6dd5ec468f088f9496c1c47713397df6c8542f firmware: arm_ffa: Fix usage of partition info get count flag
-08c274c21b71c30a727dd74dc6f6f98d7728c625 selftests/bpf: Fix pkg-config call building sign-file
-fc4c28a699a156ea94881cc3a5fce68e450735d1 platform/x86/amd/pmf: Fix CnQF and auto-mode after resume
-781bd00210de0cabbdb4e630394bddbc9253f1af tls: rx: device: fix checking decryption status
-731f933cf0aa412671054be59ac02cfaacbb8d02 tls: rx: strp: set the skb->len of detached / CoW'ed skbs
-ea42e6cbeac3ea862aa590d4c3a06aa596cf4ca9 tls: rx: strp: fix determining record length in copy mode
-3727de0ba75caceeb4db33e31a5655f68d1fe9ec tls: rx: strp: force mixed decrypted records into copy mode
-3dc2192bf1a44175983d674ab91754bf9b7cc5b9 tls: rx: strp: factor out copying skb data
-b0311d9c85eab5f8062aaa5aacb8fed982c67cfe tls: rx: strp: preserve decryption status of skbs when needed
-d4aa419462bd07c60c6cc0d383c17786f2b8e029 net/mlx5: E-switch, Devcom, sync devcom events and devcom comp register
-a5ecb1e94d1b8cb9606c600ad1c982378387ef42 gpio-f7188x: fix chip name and pin count on Nuvoton chip
-88174b477854bc3047c1d76397ca58fd820fe463 bpf, sockmap: Pass skb ownership through read_skb
-7f504a7ecffc5af9fc8a4f7bcdf9860fb797eac3 bpf, sockmap: Convert schedule_work into delayed_work
-3b2e6ffa879311f8d2258b986eedf2db71b13042 bpf, sockmap: Reschedule is now done through backlog
-30786eec4f6feee58757a7d7b4f784b116f5aca1 bpf, sockmap: Improved check for empty queue
-68c65cc0c0b16b007e9e031e85ec84579301fc19 bpf, sockmap: Handle fin correctly
-989925ec0eee2568f189244d7b059281ef5830a5 bpf, sockmap: TCP data stall on recv before accept
-361e4bc53d490368a62685dc36ec1d11c1b0b79e bpf, sockmap: Wake up polling after data copy
-eff0f6d175ecb3400988242a5d01c4b1248841d8 bpf, sockmap: Incorrectly handling copied_seq
-f277686fdfdefaeacfc64bf768bcfe441d3334ff blk-mq: fix race condition in active queue accounting
-9edd884291150305ad1015d346f89f2252768f97 vfio/type1: check pfn valid before converting to struct page
-e38de0c18108e89ef9479f32748ac801adbbffa2 net: page_pool: use in_softirq() instead
-918a518794a60b35637bb21823d351534034bb52 page_pool: fix inconsistency for page_pool_ring_[un]lock()
-e09aa256bfeb00efaf5644b7e33137d3d6c1f5a6 net: phy: mscc: enable VSC8501/2 RGMII RX clock
-224d9c2dc8b51c0ae24d9e69690602a99e989f5a wifi: rtw89: correct 5 MHz mask setting
-54406f2131452da6f6f4858e347416ecb8bd5725 wifi: iwlwifi: mvm: support wowlan info notification version 2
-6ce89a203a788fe78d3fac9609ce5e4be6968246 wifi: iwlwifi: mvm: fix potential memory leak
-18490c8c7271b906d824ae92fd47dfccd5cefdda RDMA/rxe: Fix the error "trying to register non-static key in rxe_cleanup_task"
-98df83665f3e01666758b5f577255af0316ea2e7 octeontx2-af: Add validation for lmac type
-6d8a589e6447ef82a66124be3d83914640cf27bc drm/amd: Don't allow s0ix on APUs older than Raven
-f483ec6a4280e6c3c3c09b6e2a1c7553bcf078c9 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
-f69f3a0189c77f9d1c644e879952c376fea1a7a5 Revert "thermal/drivers/mellanox: Use generic thermal_zone_get_trip() function"
-2f0233eff07c7760ab3954f6cd4bc87984de5535 block: fix bio-cache for passthru IO
-81e0868de53b9d426deaedf662ff72c7951ea45b cpufreq: amd-pstate: Update policy->cur in amd_pstate_adjust_perf()
-ba4bbb5824f22ce57c8c2336ffd84fbc72b9c925 cpufreq: amd-pstate: Add ->fast_switch() callback
-25893e2c2af6339a5c44582f211d3c5f941c949f netfilter: ctnetlink: Support offloaded conntrack entry deletion
-40f4c514917ee90ceba9f9e98722d11825bdd04e tools headers UAPI: Sync the linux/in.h with the kernel sources
-7d0a9678d27663bef481e0ed18226dab66fd884b Linux 6.1.32-rc2
+564c4d05b6bdc39d97fe649f720eac3e0103dabd power: supply: bq27xxx: expose battery data when CI=1
+f4c706a14f27954120d01b4970f1f2412118b4d4 power: supply: bq27xxx: Move bq27xxx_battery_update() down
+883a5785e912e8c717fab63996ca6f67e9ae0355 power: supply: bq27xxx: Ensure power_supply_changed() is called on current sign changes
+231485b0673b11a957937625761b76cc38a7d215 power: supply: bq27xxx: After charger plug in/out wait 0.5s for things to stabilize
+180ad802417b02b36a6c7d8aeb7b67a703ff908e power: supply: core: Refactor power_supply_set_input_current_limit_from_supplier()
+ad5ce224ebe4490df17f56a67618e3a330ac34f7 power: supply: bq24190: Call power_supply_changed() after updating input current
+56b500d7f014951100dae1ae2dee9179ce79c1eb bpf: fix a memory leak in the LRU and LRU_PERCPU hash maps
+86f2c3328f869717b1d0262ed89b5ada0ffd210c net/mlx5: devcom only supports 2 ports
+cd1bbe45d9ee91ea729b4f4e54e111c3e7993e18 net/mlx5e: Fix deadlock in tc route query code
+9338cef5f06c5e15a86f153221ea8937a60c31d6 net/mlx5: Devcom, serialize devcom registration
+096c8ec4129e2bab7d80ca8cbbe2947b7c3ce4db platform/x86: ISST: PUNIT device mapping with Sub-NUMA clustering
+a392b7ccbb4fafb025d035ddfa5ec66c9bf83d07 platform/x86: ISST: Remove 8 socket limit
+6ee9d64a6e83266162a938e494ff857b11b747ff net: phy: mscc: enable VSC8501/2 RGMII RX clock
+a7280df37ede0e9b7860250c39d19d246cc15fb2 KVM: s390: pv: add export before import
+a5c224de9d910ee62bcf6b9a2766d272a3217e8f KVM: s390: fix race in gmap_make_secure()
+2842629b413306a78426d3ba1028df141b33fc4f net: dsa: introduce helpers for iterating through ports using dp
+73a7d9d569f72409c2ccf15870e806b4b2f34c1f net: dsa: mt7530: rework mt753[01]_setup
+6ab1b91ec2ba455776dda2aec27bd8d9eff612d6 net: dsa: mt7530: split-off common parts from mt7531_setup
+53b06e19850020dbdb891868fe1664e448468b14 net: dsa: mt7530: fix network connectivity with multiple CPU ports
+ed9eb5dff0b5548cc15087e34675cac38ea7235e Bonding: add arp_missed_max option
+32cfa723b6ffd64143f57f8f1c3492d4a9e2b131 bonding: fix send_peer_notif overflow
+660668638bd8b91bfb120e5c27def46e4da35edd binder: fix UAF caused by faulty buffer cleanup
+c4168a8b2daf696454ba701962ca26b3bf451c09 irqchip/mips-gic: Get rid of the reliance on irq_cpu_online()
+b7187ad7cba43100e4103d386167bed5c455a4ae irqchip/mips-gic: Use raw spinlock for gic_lock
+dbc5fb031312ebc31a0320cded6f197f6a7a0097 net/mlx5e: Fix SQ wake logic in ptp napi_poll context
+5c82a60cdf04b0327733f979ac1c0fbb3e422a3d xdp: Allow registering memory model without rxq reference
+251260e19f3f031a534f1177e88af3fdff872562 net: page_pool: use in_softirq() instead
+ce9cfe27042293818a3b652cf7a96f686823d095 page_pool: fix inconsistency for page_pool_ring_[un]lock()
+6c32f557b49f91f1b6ee7b8119525b8fea8831e3 irqchip/mips-gic: Don't touch vl_map if a local interrupt is not routable
+c8370811e71d5871aa6894a2fc01f384f6b2c4f5 xdp: xdp_mem_allocator can be NULL in trace_mem_connect().
+354e45e58820c6fc9bcfd960f72b43d6a4b2880f bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
+2ae35333f19213ee72f8dbf0c1faf758e89e2844 Revert "binder_alloc: add missing mmap_lock calls when using the VMA"
+4eaa36e343b451aafe69fcb09d60c975a666e0eb Revert "android: binder: stop saving a pointer to the VMA"
+3c317e2a6bca85708ff53221672f699895b08dd9 binder: add lockless binder_alloc_(set|get)_vma()
+b84d478d4c6be67b773b43df80f230ad04c49421 binder: fix UAF of alloc->vma in race with munmap()
+9ecf08f05061ccd0f93869410198b771bc7ea8c4 ipv{4,6}/raw: fix output xfrm lookup wrt protocol
+8cc2235e39a1112fb3ee21f161af3a2181fe4b12 netfilter: ctnetlink: Support offloaded conntrack entry deletion
+31e35d9f1b8d02e82f497ba31231b0c9dc00380d Linux 5.15.115-rc2
 
---===============1757216319233712983==--
+--===============6445546241311383647==--
