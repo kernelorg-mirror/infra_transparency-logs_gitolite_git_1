@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 01 Jun 2023 16:56:03 -0000
-Message-Id: <168563856313.32048.9487807790646727852@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 16:56:29 -0000
+Message-Id: <168563858991.32271.8587237640070088891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: ca74fecad990e67a1f62d890533fc0d239cd5100
+  - ref: refs/heads/for-next/kspp
+    old: 767ed7d5c4ed608cb05d5b4709c7bee843e048bc
     new: e38d8fd0bb68616237afffa999394acbec3f74b6
     log: |
          0233ca593ebaaab86c26fc8c5a6ff587adb74235 acpi: Replace struct acpi_table_slit 1-element array with flex-array
