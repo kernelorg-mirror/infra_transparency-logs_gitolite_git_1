@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1692638205768136770=="
+Content-Type: multipart/mixed; boundary="===============6078293696269548300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 01 Jun 2023 00:43:39 -0000
-Message-Id: <168558021919.1845.11371868746744014383@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 00:43:53 -0000
+Message-Id: <168558023362.1992.6172698163768431006@gitolite.kernel.org>
 
---===============1692638205768136770==
+--===============6078293696269548300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,99 +16,94 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 16853cd8f6d44d774f683d670be38c7d91eb32b8
-    new: f047d1e38bdfda2e9b9bf82ffa761711acacbd69
-    log: revlist-16853cd8f6d4-f047d1e38bdf.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 49ea062d71478bdbf5eb808fb8249011f1df544f
+    new: b035092f4108209caf03d189a9b6026a8dd878e0
+    log: revlist-49ea062d7147-b035092f4108.txt
 
---===============1692638205768136770==
+--===============6078293696269548300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1685580217 -0400
+pusher 75C5DE3D 1685580223 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1685580217-cd8bfb024e66ffc7ad24fa8ecb00ddb77f69585d
+nonce 1685580223-9f2beecf2667745712f0c8b9a7917a12a41907f3
 
-16853cd8f6d44d774f683d670be38c7d91eb32b8 f047d1e38bdfda2e9b9bf82ffa761711acacbd69 refs/heads/queue
+49ea062d71478bdbf5eb808fb8249011f1df544f b035092f4108209caf03d189a9b6026a8dd878e0 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmR36bkACgkQ7ulgGnXF
-3j0s9g//VjJkR9UbjrPog7f9EuWNkTfX/KZ+hyK26AjspslAHxme79pPYe3XZJxS
-Jr7lAWGrqwH6ckDkgRxjg6+8Ot5i/H10DQjT7PgX63J60m4tFJvMTQvqyd7sVZUa
-gZfPS4henvqJt2mU9KEq0QjarAdMcJNFAsbkbf+Nj5CKIuGc2Mrlvatr5ZqOoKTx
-9j8B+B89Zffcnr+0Nm+sEtynHiBVZs4kfOY/KFGj3ftc/2YI3HA+7cRWXi//TfG0
-JRDKLE2V20SxsH0Cxr94W6M5mvGIL31Jw0ea/5vIRV5NnlPek2RSBvHozoCystzf
-pLdtvlDk8cEvIRLtNW107mwYiu0zdUNPLVpqnAA1ROmJ+yd1JC40DqqTlvr4oXaJ
-Y47/gPvBCGVCaDLtk9cSA8Plp6UopqBKaxQ+0+a7o2whqttTmDxbsAGeubffnjiY
-jFm6SLMgIRtfAiKvALWX214Zri5hfX0erWa+B5Ofy649j9H3XEUu5CIJDIh80X80
-wATOYoMiprWM6IL+MZGwMb9bwXWFxZ7XnMShRrg38nIwcy0g9vqn5AG5sIq0K5fo
-dxVOBm7z6W1JnilkIdmyzVGa1bwwjwvx8q8UMOrXmC8ebi5Y5ItKycD0/Cm/eArj
-KreaVqjRY6p5g6LSDoz4PyGPhnc9z+SetdH4VjPbt89WfR63lsw=
-=/PbI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmR36b8ACgkQ7ulgGnXF
+3j3ejBAAgPXjQcCeb8Z3Q8nlPGLMSyD++xVnhWiv8LEh04nmOX/MSA6SoZ7kIc7A
+9rR7NVEAMfOR4FZ0r39083/57LfttLYG+PALpgSsh+FnJVn3YUvjO4djxZ9ep36K
+oP6iqUgK/7Z9qMSUukSNFD6PdD8a6xExl/JIyN6GwGq64kx+9QYuIK7iQlVZnUdf
+EMKeP7yVloP4aliQlpDiUHkOFfOqZmm25+w+bgOvZKvsH/hDZ6pqBdXQYbkdFfG7
+CR12eqK5tn1OV3WmkC0HB3cexM245wi4fjdeN7t2Qrf6tf40w0LQVCU3mdLQUv8n
+YUxDuFdpWl2oWl+iyPcqsS6H7QUFvaPTUD1McFNxGp8G6cd5cv/1xvYga3YglWdk
+bO542PuPeiCZh2csAnMgW06e2YaA7Lg5ueu49jANDSVS1eMIqmEVpiJc3ZlrQLJR
++LePW1scH5Jyk0beZlGW3zvu8DWqJ6c9Jq1kBLLdVOOMmiLcLq0hItf/jk8TXiRF
+kar5jabEyvKczIuXRPxbyGkwdZfI6Fm3mb0Ci1DGvuRXD2bYGJ+52JBzEoee3Wcg
+9hx5HqKHEfCKbBLBdVGIfUDDr98fwPpmKD6uW4MwSPisMJPwK2yxK4m3jacK1Oci
++GQMhL6i5ENkrttvFm/IlIX2BQOh46t2450bLI+YMS8v4DSLisk=
+=uKdY
 -----END PGP SIGNATURE-----
 
---===============1692638205768136770==
+--===============6078293696269548300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16853cd8f6d4-f047d1e38bdf.txt
+Content-Disposition: attachment; filename=revlist-49ea062d7147-b035092f4108.txt
 
-c787f1baa5031c22cbe20af17b2ee36ad32957ea block: Add PR callouts for read keys and reservation
-7ba150834b840f6f5cdd07ca69a4ccf39df59a66 block: Rename BLK_STS_NEXUS to BLK_STS_RESV_CONFLICT
-20bebccbc45db71b4a55c465fcc1be37d5daed0d scsi: Rename sd_pr_command
-0730b1632b7e803aad81ff19a4fda964a9d97053 scsi: Move sd_pr_type to scsi_common
-0af7b5e2362d3b67334f20e49138d89141dc24d3 scsi: Add support for block PR read keys/reservation
-8a8da082e9e46fb8c246822145a2e4920a8d03d5 dm: Add support for block PR read keys/reservation
-f2bf2e7e2d526116aab942aaf1b71a949a570ba6 nvme: Fix reservation status related structs
-d45b446bd81822f5a0c3019f58e6c69f7ce71ce6 nvme: Don't hardcode the data len for pr commands
-b668f2f5467c3316b67fa04975e2fccb0baec576 nvme: Move pr code to it's own file
-f0614790b77300d69a1f37265f98b68c4835811b nvme: Add helper to send pr command
-5fd96a4e15de8442915a912233d800c56f49001d nvme: Add pr_ops read_keys support
-be1a7cd2d0ed028ffdd60c65e3734e2a1d8b17df nvme: Add a nvme_pr_type enum
-28c97ba38ff9c00bc177887c2d8568b7115a44e0 nvme: Add pr_ops read_reservation support
-0217da08c1b904be49ac141442bbc1671d3630e7 scsi: target: Rename sbc_ops to exec_cmd_ops
-53062ace0b6e47f17cae2db453858c8a369a2fe4 scsi: target: Allow backends to hook into PR handling
-d9b3275bddd58f1e61171483c3625b5bd0841b71 scsi: target: Pass struct target_opcode_descriptor to enabled
-8455799d2d4676b746dce3d59cbc8060a6223619 scsi: target: Report and detect unsupported PR commands
-394f811848827ad23d2b43e94e5d72a24cfbc39f scsi: target: Add block PR support to iblock
-7907ad748bdba8ac9ca47f0a650cc2e5d2ad6e24 Merge patch series "Use block pr_ops in LIO"
-eca2040972b411ec27483bf75dc8b84e730e88ff scsi: block: ioprio: Clean up interface definition
-6c913257226a25879bfd6226e0ee265e98904ce6 scsi: block: Introduce ioprio hints
-dffc480d2df1772d6092f46f2b4c5e0de941bd47 scsi: block: Introduce BLK_STS_DURATION_LIMIT
-3d848ca1ebc8d8864f25bd461914c93eff82a2d2 scsi: core: Allow libata to complete successful commands via EH
-734326937b65cec7ffd00bfbbce0f791ac4aac84 scsi: core: Rename and move get_scsi_ml_byte()
-a6cdc35fab0d813d54744abe2af07d6c49c07d6e scsi: core: Support retrieving sub-pages of mode pages
-152e52fb6ff180e97d64585e87fea44c49b8bda8 scsi: core: Support Service Action in scsi_report_opcode()
-624885209f31eb9985bf51abe204ecbffe2fdeea scsi: core: Detect support for command duration limits
-1b22cfb14142aba7742d307c4f8d7006f919308c scsi: core: Allow enabling and disabling command duration limits
-e59e80cfef60366ce4dda96e9322a0b5947158a6 scsi: sd: Set read/write command CDL index
-390e2d1a587405a522dc6b433d45648f895a352c scsi: sd: Handle read/write CDL timeout failures
-91a8967ca7f4b8eabe021b1ba974a992cfca2a07 scsi: ata: libata-scsi: Remove unnecessary !cmd checks
-24aeebbf8ea94b5c0cde06350b06e79f5beb28ae scsi: ata: libata: Change ata_eh_request_sense() to not set CHECK_CONDITION
-62e4a60e0cdb540b314061469e025fd834ff300c scsi: ata: libata: Detect support for command duration limits
-0de558015286374443cb1920d32bbf54bd045eb7 scsi: ata: libata-scsi: Handle CDL bits in ata_scsiop_maint_in()
-673b2fe6ff1da29d9e70bd484903964772dcae3d scsi: ata: libata-scsi: Add support for CDL pages mode sense
-df60f9c64576d6d05b59ec5c34addcd61ef1efb0 scsi: ata: libata: Add ATA feature control sub-page translation
-eafe804bda7ba01da562c43351068b8a76a579af scsi: ata: libata: Set read/write commands CDL index
-18bd7718b5c489b3161b6c2ab4685d57c1e2da3b scsi: ata: libata: Handle completion of CDL commands using policy 0xD
-8b60e2189fcd8b10b592608256eb97aebfcff147 Merge patch series "Add Command Duration Limits support"
-a1f871f9f30124669d7afbdb8754f0826f49b564 scsi: ufs: core: Return earlier if ufshcd_hba_init_crypto_capabilities() fails
-2e2fe5ac695a00ab03cab4db1f4d6be07168ed9d scsi: 3w-xxxx: Add error handling for initialization failure in tw_probe()
-144679dfb5840d58fd37a14f7b3a268531ec3b79 scsi: mpi3mr: Fix the type used for pointers to bitmap
-e90644b0ce2d700a65579ac74ff594414e8ba30f scsi: lpfc: Replace one-element array with flexible-array member
-682b07d2ff54c5bb755b96e86b973c2ad9a56b5a scsi: docs: Organize the SCSI documentation
-c4e672ac8c4961b73d45571aeddd436f71379251 scsi: docs: introduction: Multiple cleanups
-1d3e21238f5042bbe3634612c7916f13ea77feef scsi: docs: arcmsr: Use a chapter heading for clarity
-a292835f69c62ea0de2501b8733f8a30a561d620 scsi: docs: scsi-changer: Shorten the chapter heading
-573a43f26d80a24b14ef5da817fdda0e28ec3e9a scsi: docs: dc395x: Shorten the chapter heading
-66fcd6026c71a2a33a1b6a71fd2b1ee9bd89f48c scsi: docs: scsi_fc_transport: Fix typo in heading
-8ebddfeef518156cc28bb6b079c38a43a52786f5 scsi: docs: scsi-generic: Multiple cleanups
-b636a0297e4fbb47a0a15b635c61fafbbe339b26 scsi: docs: g_NCR5380: Shorten chapter heading
-0176d3395a3afbd8bccf881d3b7cf126ae096654 scsi: docs: megaraid: Clarify chapter heading
-7c891fe3db3a27c467efe33a98cd8479fe021b9b scsi: docs: ncr53c8xx: Shorten chapter heading
-f047d1e38bdfda2e9b9bf82ffa761711acacbd69 scsi: docs: sym53c8xx_2: Shorten chapter heading
+416dace649c45fdbf7a9d62dfc060fdbee9c8bea scsi: core: Use min() instead of open-coding it
+8bb1c6243c4ba397958fe67837e075bd1bb8d3b4 scsi: core: Trace SCSI sense data
+8b566edbdbfb5cde31a322c57932694ff48125ed scsi: core: Only kick the requeue list if necessary
+339020091e246e708c1381acf74c5f8e3fe4d2b5 scsi: qla2xxx: Fix end of loop test
+401f8ef3193f9e3bbd454023152868c9aca6dc9d scsi: ata: libata-scsi: Fix ata_msense_control kdoc comment
+0e5e41ee3d73823d65b33463d557b8b6833b457d scsi: virtio_scsi: Remove a useless function call
+c854bcdf5e18a3b672e363138f2f6657a1803170 scsi: core: Rework scsi_host_block()
+b125bb99559e3639764b8d169e3e9b80858fa2af scsi: core: Support setting BLK_MQ_F_BLOCKING
+6c03c8e9b729a1ca2131a187233f8836a66a277b scsi: ufs: Conditionally enable the BLK_MQ_F_BLOCKING flag
+4b68b7f9c46d90c541d39c8b397a86ac0ca4c765 scsi: ufs: Declare ufshcd_{hold,release}() once
+078f4f4b34d6c2dadabb363d3fc6c84b32927dea scsi: ufs: Ungate the clock synchronously
+2ef23e4b537be3b417080bdade7ef48cf9f95266 Merge patch series "ufs: Do not requeue while ungating the clock"
+23caa33d36e7e6f75597b333634d9e54fb40001b scsi: ufs: core: Do not open code SZ_x
+8f0c17bf6bf33b1dc4b9ebf33650f7e60b7d5c55 scsi: dt-bindings: ufs: qcom: Add compatible for sa8775p
+73be26b12dfd209e136da01dd7eefc85adc4df8d scsi: lpfc: Replace all non-returning strlcpy() with strscpy()
+4dae0262fb990873adad012dc8338f99cbca8574 scsi: libfcoe: Replace all non-returning strlcpy() with strscpy()
+dbe37c71d1246ec2c5f851aeede12db44ffd5d2c scsi: message: fusion: Replace all non-returning strlcpy() with strscpy()
+af0ce90200c93203f042814c5c6e795a9110d5f7 scsi: sym53c8xx: Replace all non-returning strlcpy() with strscpy()
+41e5d6f64d76435b4fd6856ddddb8e7c62087333 scsi: smartpqi: Replace all non-returning strlcpy() with strscpy()
+2516cb882295694623811f2a1b2d33aa5fc9139c scsi: ufs: Replace all non-returning strlcpy() with strscpy()
+a4157aaf0fb458c867b76f6cd63cb57fa91da318 scsi: lpfc: Fix use-after-free rport memory access in lpfc_register_remote_port()
+fd57a687d44118c0a3859f61a110f6e12804dd16 scsi: lpfc: Clear NLP_IN_DEV_LOSS flag if already in rediscovery
+73ded37869f8c57d0beae0d5b6434c107f780ae0 scsi: lpfc: Account for fabric domain ctlr device loss recovery
+9914a3d033d3e1d836a43e93e9738e7dd44a096a scsi: lpfc: Revise NPIV ELS unsol rcv cmpl logic to drop ndlp based on nlp_state
+b9951e1cffaec55cecdc3a7fae7c81dbd15c7d11 scsi: lpfc: Change firmware upgrade logging to KERN_NOTICE instead of TRACE_EVENT
+6a84d015082ef8ef1d933230abc3fb1f6774d1d3 scsi: lpfc: Clean up SLI-4 CQE status handling
+93190ac1d4e7aa5fc959cf6a2bd294c1dfe6ee47 scsi: lpfc: Enhance congestion statistics collection
+48abf8b4b563b38c994fd6e3be082a0dcff91be3 scsi: lpfc: Update lpfc version to 14.2.0.13
+b93f9eb8f4cde7b0907d3f59b047cac6c3c2ae5f scsi: lpfc: Copyright updates for 14.2.0.13 patches
+21be4d0344c90c1769324dd880b8339d89f87c38 Merge patch series "lpfc: Update lpfc to revision 14.2.0.13"
+6e8a669e61af80d69d5ee16e0ddf3160178a63bc scsi: lpfc: Fix incorrect big endian type assignments in FDMI and VMID paths
+c3f903472ffacd2f776e119315a084d5b458b9ef scsi: message: fusion: Add HAS_IOPORT dependencies
+b58b2ba351b07f546a8c1fb4eb46303231c24e95 scsi: Add HAS_IOPORT dependencies
+4851c39aae3a917d09983e1c6948fa9d749b5448 scsi: pm80xx: Add fatal error checks
+14ce2c261d6cce89023a1df770d83df859e89f7e scsi: fnic: Use vzalloc()
+a8f9a36e46344ea5bdc301c2fde0389a463bf0a3 scsi: ufs: core: Combine 32-bit command_desc_base_addr_lo/hi
+7aa12d2fe89d7b95ad01ca38a291c7ec3efe7599 scsi: ufs: core: Update the ufshcd_clear_cmds() functionality
+8d7290348992f27242dd6a696fa2eede709f0b14 scsi: ufs: mcq: Add supporting functions for MCQ abort
+adf452611677d048203398f489e2175a9068f9f7 scsi: ufs: mcq: Add support for cleaning up MCQ resources
+f1304d4420777f82a1d844c606db3d9eca841765 scsi: ufs: mcq: Added ufshcd_mcq_abort()
+57d6ef4601c0b7975aab5144c7c3760846362e1c scsi: ufs: mcq: Use ufshcd_mcq_poll_cqe_lock() in MCQ mode
+ab248643d3d68b30f95ee9c238a5a20a06891204 scsi: ufs: core: Add error handling for MCQ mode
+bc5fef019632d89183d9946150b775635ca73981 Merge patch series "ufs: core: mcq: Add ufshcd_abort() and error handler support in MCQ mode"
+f762326b2baa86ae647e2ba6832bc87e238f68ad scsi: mpi3mr: Propagate sense data for admin queue SCSI I/O
+fe8637f7708c16765ecf4035813efbfdd2c9be10 scsi: ufs: core: Increase the START STOP UNIT timeout from one to ten seconds
+549e91a9bbaa0ee480f59357868421a61d369770 scsi: ufs: core: Fix handling of lrbp->cmd
+b251f6c5fe3b57898896df06a5cf90865596ee5e scsi: ufs: core: Move ufshcd_wl_shutdown()
+0818a6903c8081a17da4b1f50ff156537f99b02f scsi: ufs: core: Simplify driver shutdown
+467e6cc73ef290f0099b1b86cec4f14060984916 Merge patch series "UFS host controller driver patches"
 
---===============1692638205768136770==--
+--===============6078293696269548300==--
