@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 01 Jun 2023 14:43:39 -0000
-Message-Id: <168563061971.3990.15480745410829103649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Thu, 01 Jun 2023 14:45:09 -0000
+Message-Id: <168563070917.6071.7602768202326716009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/testing/fam01-next20230601
-    old: 79d8b01b4b2a56804aad7ab4271143e80ffb4602
-    new: 9660c8acc7a78dbad1faf1af23b381986022221f
+  - ref: refs/heads/main
+    old: 96e78093832288b705c507b1ee443aeffe126bba
+    new: 4ad6aa8141f225b7741cc3c5c52a649e7b8915fc
     log: |
-         4b40cbfde149f6f3be22ccae8955cb63075f63c7 drm/amdgpu/discovery: Replace fake flex-arrays with flexible-array members
-         9660c8acc7a78dbad1faf1af23b381986022221f firewire: Replace zero-length array with flexible-array member
+         eb18c75481745cc482b9d968811c626cff54d00f rt-tests: Makefile: Use sysconfig instead of distutils for PYLIB
+         4ad6aa8141f225b7741cc3c5c52a649e7b8915fc cyclictest: remove inclusion of unnecessary headers
          
