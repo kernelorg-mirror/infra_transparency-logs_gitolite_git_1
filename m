@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8786233545039172672=="
+Content-Type: multipart/mixed; boundary="===============1886124644658598630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 01 Jun 2023 10:53:25 -0000
-Message-Id: <168561680569.10695.2774594453904991330@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 10:53:26 -0000
+Message-Id: <168561680609.10722.11901925046145248258@gitolite.kernel.org>
 
---===============8786233545039172672==
+--===============1886124644658598630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: b3d23a09e886d60d4375d73d771a05984018ff27
-    new: 087e96594ba7ac34f7162e9224ca67868fbcd126
-    log: revlist-b3d23a09e886-087e96594ba7.txt
+  - ref: refs/heads/linux-6.3.y
+    old: 1c25804656847855233c5a4d4ec7963df02d8b26
+    new: b807a8cd39235d99967992173b27249a77ab738b
+    log: revlist-1c2580465684-b807a8cd3923.txt
 
---===============8786233545039172672==
+--===============1886124644658598630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,73 +32,76 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685616804 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1685616800-ff6b95754441398c817e6e1bd4cacb36603b99e8
 
-b3d23a09e886d60d4375d73d771a05984018ff27 087e96594ba7ac34f7162e9224ca67868fbcd126 refs/heads/linux-6.1.y
+1c25804656847855233c5a4d4ec7963df02d8b26 b807a8cd39235d99967992173b27249a77ab738b refs/heads/linux-6.3.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4eKQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BxAQALNhuIADCaA3FlnMX2bB
-awef4fLmpDeoLZLZNe6in7pL5LDQ1hzGqIfoHALdnRC6qA9kR2b/CO6F9zsPxklc
-E2ov3O+rQ+qufUOxP/oEmGY1XCZjTk2qHZm145R2+J0UZNgQ8oqgWO5muvKCFKmy
-Jk7RtYkHqRWOppGkW6wCXMmOsvQ+Ht7mvFdmahtVoSU7u6hrlZxTsn5VJLd4tZnI
-JhHGpDZZEE0plevoBjkfTKnh4o2+J/Eygw/67WnNI+wz48ghegm3L/8iuGT/l1NQ
-bPiMBbXqGgJKl7z8RZpkE0Pzq81IrzqE2bYCklY3NXvslKqOU2Hm7nzlOuHggZ9v
-I2j4HDyeOYSO76mdeQJhhWnVrtQQ1mEfwlgJmU+e80hGsxVRrmuaXcY3qtsR77gT
-RO8ozLIRutzKKCu1aQUbyy6wOUoIhJQae+uARX2mjY8AIgIuS12MWZ5cokQ0YoxQ
-3xyjaL0KioUGa6LXhcOOa41VSzakgRQrlraUZ8Tj9WrYJLeGZLcXTJL6joOPzYqY
-ovbqXHTfEtbYBwrpwJ5lh4YWRCQVVUMqwJMuIboh02ixAERsRW/qaOoq1ozMkjUF
-iJBX5PtGycVAJwkq6ZzM4bnUK8bjAtBL/M2ebgxbwdwaxQJETEovo2ikNLg0Ozt0
-tLc1fOlEvEKjTqKkTxtHmIlz
-=Cc+0
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oo4P/3q97CA2lxGerukK1eCl
+aqwOSxiGVp0H/GD/8JYx1zW9IMjIkdm68HwYjs1uV57Z5HvbCmGIRp/cgW6M/Ptb
+mywpxCCgXVZ2fKWi8iXwvT/68+upEIxIvmRk/j/Dtd9t/zQaauiEMYF6fcuQVLbd
+lMQtzzTrjvTNXvf/mjbaGFhpIlLGIUsNJRG0TIOH6qeG3tbPlLaCxXNPn6ono3aJ
+QJah+hBMvcm78fwOAKn185h+XeaAzQG8+nDvh7N38Ux6+JgstLWy59w4FRs8Rwy0
+x7K3Ks+mZCAABZahBM8NxVsOTqS3F/0JMGPaQ+GCfPUvGQyYNxCCPD2pdpnWUmpE
+HVtR+pDeXaMa6goKnctVlkFHuf6ielaUbD38Fw9vjjcFWUminQmw6+LmYLlWB0HQ
+BD8yrmmfdzis8jq6uh7267lYOBoP08KoGOKE/JoqzjxlmxZsltfAJjFVwxvnCgvf
+MgXAuydpFz94kh5akS+5ekfjhrKMJH08EzM7zPMDP3Bi3Hdllio9XHI2jgmppiFZ
+bgY2r2iolwErWbKJxxQefmp3LqAeHCd1xSNt0Www25EpPuMyn7n2P/zxI4VE2OBH
+5cPpa62dUAPqIUWpstgSuBkngY/rR2RQQECBHXNXdgl934crwJ4VD0ciEx9Oy7FM
+MFk9WDT76V8xFVdWZgTfGyso
+=5RUO
 -----END PGP SIGNATURE-----
 
---===============8786233545039172672==
+--===============1886124644658598630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3d23a09e886-087e96594ba7.txt
+Content-Disposition: attachment; filename=revlist-1c2580465684-b807a8cd3923.txt
 
-d74e137b66619805e6dab7c77f2a9ebc41fc898a inet: Add IP_LOCAL_PORT_RANGE socket option
-8665f152127f7f99359e06f210cd1f8e7ba4d96d ipv{4,6}/raw: fix output xfrm lookup wrt protocol
-16b4d1cbcbba9eb1cc74ce1c6424f84f485b3a96 firmware: arm_ffa: Fix usage of partition info get count flag
-191d0973f89ff2f82162fa3826e5268a71bfbb36 selftests/bpf: Fix pkg-config call building sign-file
-b57e8597d01233e483d974692b634885d8f8e553 platform/x86/amd/pmf: Fix CnQF and auto-mode after resume
-40d0f6b2fa1106b6617c5664154e2ec6a8e3c13b tls: rx: device: fix checking decryption status
-285fa6c66c9aa04caf7c2298c068ad53f45fa57d tls: rx: strp: set the skb->len of detached / CoW'ed skbs
-6797ea7d838f94a0abc248e8c9cd364e6c313280 tls: rx: strp: fix determining record length in copy mode
-94620fa2ef181c9a00560cc5ab116ba5314443b9 tls: rx: strp: force mixed decrypted records into copy mode
-947da6413714f614d690c437b508a74c98cb49c9 tls: rx: strp: factor out copying skb data
-63949902f93725004d3a21cc8c25daf4c5c409f7 tls: rx: strp: preserve decryption status of skbs when needed
-2058ff2a6e6fcd7abe453efc9330a1964f140518 net/mlx5: E-switch, Devcom, sync devcom events and devcom comp register
-773fcea56e99f03edb81141c232a1b742395a948 gpio-f7188x: fix chip name and pin count on Nuvoton chip
-252c59966a165cddf7cd12d703f20ce417070bd3 bpf, sockmap: Pass skb ownership through read_skb
-5683b9ca487612a550c883f655a56c12ab41e6d1 bpf, sockmap: Convert schedule_work into delayed_work
-16d84b88b3bd2ce5f9a7d2f638b48e94ae819497 bpf, sockmap: Reschedule is now done through backlog
-7e25cc238b560c0bf0f628bb2827e95fa6b87ea0 bpf, sockmap: Improved check for empty queue
-7e27b74091f98905bb51601c1353a92eca4a5264 bpf, sockmap: Handle fin correctly
-3ec2fe55cf9ba7c25c5be673e42f4ed831bf8554 bpf, sockmap: TCP data stall on recv before accept
-e8949cc2f86a89e8bb4295280b0a84fea517296a bpf, sockmap: Wake up polling after data copy
-17f7e1a3e8b5d72e0d428e0be66d81b7215398a4 bpf, sockmap: Incorrectly handling copied_seq
-93865136d4ea975fe960d651be29d883ed5c4e40 blk-mq: fix race condition in active queue accounting
-51ea9706fd4714beca39259132154cbdd61b8e94 vfio/type1: check pfn valid before converting to struct page
-40c22b966020c13f988e52be6df876694d273d5d net: page_pool: use in_softirq() instead
-87334643d2e4d548753c8d82c944e2f4caf0ac3f page_pool: fix inconsistency for page_pool_ring_[un]lock()
-efbc63cbfc00cda681f64fa3fd56646e7b3b9b65 net: phy: mscc: enable VSC8501/2 RGMII RX clock
-1bb9c8818871ad0b56c1c098adc23ca367874460 wifi: rtw89: correct 5 MHz mask setting
-7b0cbd780bd54854826f3399cb1a56faf7bf7446 wifi: iwlwifi: mvm: support wowlan info notification version 2
-a97c0710ba0405a8dbd55dbfb8744175bd0aebfa wifi: iwlwifi: mvm: fix potential memory leak
-70b602b2aaddf5ac7810fa044723455ae6502d1f RDMA/rxe: Fix the error "trying to register non-static key in rxe_cleanup_task"
-f1cf99b0866ba48d14b288448f3ed06490a94b54 dmaengine: at_xdmac: disable/enable clock directly on suspend/resume
-7c80af3088f4c23cd784bb2e6b79e81d4fb28800 dmaengine: at_xdmac: do not resume channels paused by consumers
-1d4a538a0e6e4ad30dbf6d3b0d43c3ba23b7f075 dmaengine: at_xdmac: restore the content of grws register
-684a3a052ba38854635c35cd9ba0b8235e6214a4 octeontx2-af: Add validation for lmac type
-3317ccfced0beb7563a6f7551718b1484fcd5683 drm/amd: Don't allow s0ix on APUs older than Raven
-20ad739f73993c2cf16aeed84eee59083daa158c bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
-1623653c712cb52035408d6348a8c66300671287 Revert "thermal/drivers/mellanox: Use generic thermal_zone_get_trip() function"
-6c55d7a10f955e7bb467d90695c497c7f6779721 block: fix bio-cache for passthru IO
-41722de498091bd8a8748fe34453ddb55c4058cd cpufreq: amd-pstate: Update policy->cur in amd_pstate_adjust_perf()
-5faa9075ac7e26b452695bc406c3ed2ca4f4f14d cpufreq: amd-pstate: Add ->fast_switch() callback
-5fe733c5bf02c53c81316c58f2fedbe1231e11ca netfilter: ctnetlink: Support offloaded conntrack entry deletion
-08109e858024a6d7fcb632872951e1833890e309 tools headers UAPI: Sync the linux/in.h with the kernel sources
-087e96594ba7ac34f7162e9224ca67868fbcd126 Linux 6.1.32-rc1
+2b1d0971c65a98074603a868cbeb13e18d33bf28 firmware: arm_scmi: Fix incorrect alloc_workqueue() invocation
+83b5baca6acf134587393d110389e7c1fcd7bd31 firmware: arm_ffa: Fix usage of partition info get count flag
+4d58e5795e18673767d94b162a11f6c4446d34ea spi: spi-geni-qcom: Select FIFO mode for chip select
+aa4a0b2bc4443d58915cdbdaa8b844055b05e53f coresight: perf: Release Coresight path when alloc trace id failed
+4ab7ae605052f89dcebb15bac859c7405539cdfd ARM: dts: imx6ull-dhcor: Set and limit the mode for PMIC buck 1, 2 and 3
+96f9e13cfac1e44dfdda813ddc0ceba90edb81a4 selftests/bpf: Fix pkg-config call building sign-file
+f694805df453ec88e9388fb0eb73a8f21b497318 power: supply: rt9467: Fix passing zero to 'dev_err_probe'
+dfd95d7d3736d11125d4678a23d3d45d8bb9e552 platform/x86/amd/pmf: Fix CnQF and auto-mode after resume
+893bb3fd0b17a5c115ab53f5250aa18886ad9314 bpf: netdev: init the offload table earlier
+56f908ae7b936f3898ac40a99941ddf49329516c gpiolib: fix allocation of mixed dynamic/static GPIOs
+961d155b241e8e6b1d201f65709cd327d35d1919 tls: rx: device: fix checking decryption status
+c2be68434421fadefca543065e633062b64cd6a9 tls: rx: strp: set the skb->len of detached / CoW'ed skbs
+aca2a93d32b88d7a3e879a423c4dc61cf11a33db tls: rx: strp: fix determining record length in copy mode
+97231a0e0553c16f3ac9f0c860d4b70365b04e86 tls: rx: strp: force mixed decrypted records into copy mode
+c7f61beffda1756eef5452cec2a459bd3fbe9e82 tls: rx: strp: factor out copying skb data
+9d6deefa0a940db798f49e0a5d11debb8d56e312 tls: rx: strp: preserve decryption status of skbs when needed
+3c9bb4e2232a303f931af2e339e6ed943ce0f724 tls: rx: strp: don't use GFP_KERNEL in softirq context
+4a7725495171a2812b35047f7a385f73035a8d9e net: fec: add dma_wmb to ensure correct descriptor values
+768d9ac6221f6f137ab4d4c1a0d09fb44135d9bf cxl/port: Fix NULL pointer access in devm_cxl_add_port()
+8271b3ffe1684c88012b249bd3fbc1cbfcc3c706 ASoC: Intel: avs: Fix module lookup
+6560ad28ba295f091e1fa17fef48b2b04aaf1cac drm/i915: Move shared DPLL disabling into CRTC disable hook
+d846349b307a406d6448a362602e752977b8346c drm/i915: Disable DPLLs before disconnecting the TC PHY
+79a0ad8c2c7ff6b8768d24b1b56da73dca53da3e drm/i915: Fix PIPEDMC disabling for a bigjoiner configuration
+4dcf17a4bb2a6fd1c7ea0b2d8d2b71a4722f6fa7 net/mlx5e: TC, Fix using eswitch mapping in nic mode
+169e6c07aa20d7b0e961fdaebaa0bbae902070ad Revert "net/mlx5: Expose steering dropped packets counter"
+b10d063d0bdd491330c4ad7752a0a4a89113714a Revert "net/mlx5: Expose vnic diagnostic counters for eswitch managed vports"
+7882f7c4bd469b3ee10aa8ca391e0a92cc7c1c4a net/mlx5: E-switch, Devcom, sync devcom events and devcom comp register
+8624f3bd8b43aaef6ca2a3b128d0d0a4599f471e gpio-f7188x: fix chip name and pin count on Nuvoton chip
+e52daa71742e9d99eb2c2e31d765a19ee2271bef bpf, sockmap: Pass skb ownership through read_skb
+9f8b3da9705fdedf3bbf84961df6a691213eb3e2 bpf, sockmap: Convert schedule_work into delayed_work
+3572d7824c46cde01d8b087b8a513f97d0d8d09d bpf, sockmap: Reschedule is now done through backlog
+51d7ddf819b23c563e98b0d25e3595bdf6cba54b bpf, sockmap: Improved check for empty queue
+01fb1d49cffff81bcb10ffcfe3c1d8d5e346ebb7 bpf, sockmap: Handle fin correctly
+635872a16a8025db16d1d41ed6d2e39edcaca319 bpf, sockmap: TCP data stall on recv before accept
+be20a736443d5c035b557218cab3e6781374c565 bpf, sockmap: Wake up polling after data copy
+ffd2c874296cbd3c042a93c73f945e89e70c0db7 bpf, sockmap: Incorrectly handling copied_seq
+fd33fdec3748aab960ede1fe4d19d88be936801d blk-wbt: fix that wbt can't be disabled by default
+b2845843ace550755c30f8053bb9f8c8d658cc6b blk-mq: fix race condition in active queue accounting
+31999117b40be8f93c98a6276f1fb58eda0964fe vfio/type1: check pfn valid before converting to struct page
+6b5addfa66b75995e005a34aa6108889ec9e26b0 cpufreq: amd-pstate: Remove fast_switch_possible flag from active driver
+c046f3214b23d31aec350bf2ac8b62e0e8215d59 net: phy: mscc: enable VSC8501/2 RGMII RX clock
+b3bd44c0c67d418f4c033cfef39253b36fe3c3b5 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
+462e7c71c77d60880521b2aad75a5f4cdd1648be cpufreq: amd-pstate: Update policy->cur in amd_pstate_adjust_perf()
+882d78d18575c0127d88587c85d30ec10b9d913d cpufreq: amd-pstate: Add ->fast_switch() callback
+e67fb962deb243d1b27b22e71721ac9ba7d8c46f netfilter: ctnetlink: Support offloaded conntrack entry deletion
+b807a8cd39235d99967992173b27249a77ab738b Linux 6.3.6-rc1
 
---===============8786233545039172672==--
+--===============1886124644658598630==--
