@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 01 Jun 2023 16:59:29 -0000
-Message-Id: <168563876988.943.15813926371858755681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mce-test
+Date: Thu, 01 Jun 2023 17:01:49 -0000
+Message-Id: <168563890976.3405.9010715125319298797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/utils/cpu/mce/mce-test
+user: aegl
 changes:
-  - ref: refs/heads/main
-    old: 3c27f3d53d588618d81d30d6712459a3cc9489b8
-    new: a60caf039e96d806b1ced893242bae82ba3ccf0d
+  - ref: refs/heads/master
+    old: 025014dedca39d2b8a57a82e52286e72e157d73a
+    new: 9d11fc3e05eae7b454efeb5941beded56f80445b
     log: |
-         a60caf039e96d806b1ced893242bae82ba3ccf0d net: renesas: rswitch: Fix return value in error path of xmit
+         9d11fc3e05eae7b454efeb5941beded56f80445b tprctl: enhance sighandler to explicitly print si_code
          
