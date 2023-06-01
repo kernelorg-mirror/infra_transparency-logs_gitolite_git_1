@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 01 Jun 2023 16:59:13 -0000
-Message-Id: <168563875345.781.7895442706139627004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 01 Jun 2023 16:59:29 -0000
+Message-Id: <168563876988.943.15813926371858755681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 884fe9da1b7ccbea31b118f902fbc78f58366b4a
-    new: 929ed21dfdb6ee94391db51c9eedb63314ef6847
+  - ref: refs/heads/main
+    old: 3c27f3d53d588618d81d30d6712459a3cc9489b8
+    new: a60caf039e96d806b1ced893242bae82ba3ccf0d
     log: |
-         1dd5483af494216e91c9a12f11992bcba483f944 smb3: update a reviewer email in MAINTAINERS file
-         b535cc796a4b4942cd189652588e8d37c1f5925a smb3: missing null check in SMB2_change_notify
-         396ac4c982f6d6cd7c0293a546a0ba5d77fe7f90 smb: delete an unnecessary statement
-         fdd7d1fff4e3b97c4706f4c0e000a38b134b7ae5 cifs: address unused variable warning
-         929ed21dfdb6ee94391db51c9eedb63314ef6847 Merge tag '6.4-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         a60caf039e96d806b1ced893242bae82ba3ccf0d net: renesas: rswitch: Fix return value in error path of xmit
          
