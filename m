@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2198488616209400679=="
+Content-Type: multipart/mixed; boundary="===============5083254470241418090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 01 Jun 2023 08:43:22 -0000
-Message-Id: <168560900257.1752.9845200100217876824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 01 Jun 2023 09:03:48 -0000
+Message-Id: <168561022800.15982.1193348215956709047@gitolite.kernel.org>
 
---===============2198488616209400679==
+--===============5083254470241418090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3b49da612e9054a9b38dd46600eec249587aa9d3
-    new: 3ea7ad0ba22ad51085c6eafff385cc22b8d629d9
-    log: revlist-3b49da612e90-3ea7ad0ba22a.txt
+  - ref: refs/heads/driver-core-next
+    old: 9e6aa7c22d0777da16cec0d056382c9bd181aa78
+    new: 7810f4dc879500b413bafab18ff870a68f38329a
+    log: |
+         266bff73451afb2c98541acac41386ef4f08bb5e debugfs: Correct the 'debugfs_create_str' docs
+         54aa5b6044f89af046bcb7a9d0ca6408c0ebdd1f MAINTAINERS: add entry for auxiliary bus
+         6bea9ea6bb21ccee2aad0aa2a845499e0aa2f7f9 isa: Remove unnecessary checks
+         30480b988f88c279752f3202a26b6fee5f586aef kernfs: fix missing kernfs_idr_lock to remove an ID from the IDR
+         cd00bc2ca42705bf141a2bf6fb5224c7ae628dbe driver core: device.h: add some missing kerneldocs
+         7810f4dc879500b413bafab18ff870a68f38329a base/node: Use 'property' to identify an access parameter
+         
 
---===============2198488616209400679==
+--===============5083254470241418090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b49da612e90-3ea7ad0ba22a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-91539341a3b6e9c868024a4292455dae36e6f58c irqchip/gic: Correctly validate OF quirk descriptors
-33e20b07bec4991c169e3c6ff28c2126583724fc x86/realmode: Make stack lock work in trampoline_compat()
-d55ebae3f3122b07689cc4c34043114e09ce904c sched: Hide unused sched_update_scaling()
-378be384e01f13fc44d0adc70873de525586ad74 sched: Add schedule_user() declaration
-c0bdfd72fbfb7319581bd5bb09b4f10979385bac sched/fair: Hide unused init_cfs_bandwidth() stub
-f7df852ad6dbb84644e75df7402d9a34f39f31bd sched: Make task_vruntime_update() prototype visible
-7aa55f2a5902646a19db89dab9961867724b27b8 sched/fair: Move unused stub functions to header
-3f4bf7aa315bf55b2a569bf77f61ff81c7e11fc1 sched/deadline: remove unused dl_bandwidth
-ff3cfcb0d46adc541283a507560f88b7d7114dbe x86/smpboot: Fix the parallel bringup decision
-fd27bea340012412a5ad1476b0a40381d7407550 x86/platform/uv: Add platform resolving #defines for misc GAM_MMIOH_REDIRECT*
-8c646cee0ae3c0a19a7d9fdb847c45c729cae945 x86/platform/uv: Introduce helper function uv_pnode_to_socket.
-e4860f03779cadff011a7a8685c7157ebc133bda x86/platform/uv: Fix printed information in calc_mmioh_map
-35bd896ccc2fa8dfb20df705a44e9d26665f1085 x86/platform/uv: When searching for minimums, start at INT_MAX not 99999
-45e9f9a99529a54a7ed195eea4aad102b9eadb23 x86/platform/uv: Helper functions for allocating and freeing conversion tables
-8a50c58519271dd24ba760bb282875f6ad66ee71 x86/platform/uv: UV support for sub-NUMA clustering
-89827568a82d5856f3c8d329d3c2bc0f47385eb9 x86/platform/uv: Remove remaining BUG_ON() and BUG() calls
-73b3108dfd9d53ea565c0777a27007c1c621467d x86/platform/uv: Update UV[23] platform code for SNC
-2d5b205dfa32b5f0f357ebc9db73931d2186391e Merge tag 'irqchip-fixes-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-b7a7ce1bb77b19ff2859d365da96285340fbc145 vdso/timens: Always provide arch_get_vdso_data() prototype for vdso
-c5214e13ad60bd0022bab45cbac2c9db6bc1e0d4 sched/fair: Multi-LLC select_idle_sibling()
-52c3a18973d0cb30586d8b316b7dc56b141a32b5 sched/fair: Don't balance task to its current running CPU
-d1b84362a44c5ee4807988d8663eb86dd9b3d9c1 Merge branch into tip/master: 'irq/urgent'
-e831b4533a563d6efe530cb7b24bb30d7746d296 Merge branch into tip/master: 'sched/core'
-2d86793666e6313d5de3d64d313835b04c70fc16 Merge branch into tip/master: 'smp/core'
-61f28312c3b9ffd1307e0ceb5a97a556163f6f31 Merge branch into tip/master: 'timers/core'
-3ea7ad0ba22ad51085c6eafff385cc22b8d629d9 Merge branch into tip/master: 'x86/platform'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685610227 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1685610227-8a5928ca543f05693b3692d8256e9c2c6cdbaecd
 
---===============2198488616209400679==--
+9e6aa7c22d0777da16cec0d056382c9bd181aa78 7810f4dc879500b413bafab18ff870a68f38329a refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4XvMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nvsP/0psfaYqZSOFnZcE/YXI
+Hjk7bZSemvtxkFw0fKZ7GgjnVn5xJPdVOwvIIx3ZeszQPhSee0wvWuic5GcX1zBp
+sFELq9Iw9fGm5TvMZJEtmYn0Hzl1np2ylOPDmOCgAz+m7eoCJbkNJ2IcSr6fD1R1
+d8sG1D8+Dh9xI+kLRMVkA4mGkuxyvDQl+PwAStxBN/+CmK9NIx+NiHpgswQw5OUe
+S79qdqklNA7i+06vhb9LK8POI5tz53rvFXAh9CimPZXUdnJosqSvQaWM92ecfisy
+5M8uRVUFMrSyrwRzLoWD1GDs1mAOYhSBg6xW/4kfwUEjZ3MijobpLvyH0ETJCjAS
+EJ8B73nLBg/5kuyqfBQaaSpnisf2C9zLuTfyknP7jeowxY3NbiXoEfj3Q47K8fsq
+cM7l7VMWrGpMcEKGdYtqksJ4PPBaOFdGkAPPpaB3/NTM8Wj3z+7/9hF6EKIEXMYN
+9/LgJvvNDfpL8EK9oFY5uui3qAc86f78PPw2bTP1kIEbphTGZmENNnU1Cp9Bh51p
+CVEwNFB+hGBUVgo57TOcDWQZsETWCLg6V3xN5m0J7tnmQ+n8Pc61VK14CHvV3sGW
+JYibaOz+lj1kM19BF5V2jIvsNLj0S9u4mXJimYkKogNHa2OFWDfZkHWEGpD0qrBO
+WlG4v+1k5swIuF75wbXmmxv6
+=rD+g
+-----END PGP SIGNATURE-----
+
+--===============5083254470241418090==--
