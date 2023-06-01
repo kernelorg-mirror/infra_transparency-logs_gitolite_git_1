@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Thu, 01 Jun 2023 13:40:38 -0000
-Message-Id: <168562683872.26057.9749251115754252492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Thu, 01 Jun 2023 13:41:34 -0000
+Message-Id: <168562689492.26444.264003466098015408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/for-next
-    old: f6fa16ab9ee690ab88e25142bdd9c6e56019d939
-    new: 469859394c49c7223f65fef77f46775722e17690
+  - ref: refs/heads/for-linus
+    old: 41dd10a086c588904625f159b3534a85f77d3b2e
+    new: 4420528254153189c70b6267593e445dc8654e37
     log: |
-         02534c8e967b51940ae7c0cd99befe216f1c2c8d regmap: regmap-irq: Move handle_post_irq to before pm_runtime_put
-         99e8dd39f34333d745e6c220be5d166e85214e6c regmap: Add missing cache_only checks
-         469859394c49c7223f65fef77f46775722e17690 Merge remote-tracking branch 'regmap/for-6.5' into regmap-next
+         4420528254153189c70b6267593e445dc8654e37 firewire: Replace zero-length array with flexible-array member
          
