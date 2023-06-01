@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7241500652800241100=="
+Content-Type: multipart/mixed; boundary="===============8459560209193121617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 01 Jun 2023 10:27:57 -0000
-Message-Id: <168561527729.24501.241556210751867370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 01 Jun 2023 10:33:14 -0000
+Message-Id: <168561559498.27775.8523965221253711121@gitolite.kernel.org>
 
---===============7241500652800241100==
+--===============8459560209193121617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5f519137e803f692caa484f4547fd06c19ddc18a
-    new: 2b4712c6dc6e430c9c78e2930e25fdc9971eaea9
+  - ref: refs/heads/linux-4.14.y
+    old: 8aa44c489bf10c2307813b3d1d7f08256edca8c1
+    new: 034b4b221efb77b408ea0d81f3321c592c66a03d
     log: |
-         2b4712c6dc6e430c9c78e2930e25fdc9971eaea9 6.3-stable patches
+         2687d7e9cbe942fc1bf62fef0c38e5eeada5b3c7 power: supply: bq27xxx: After charger plug in/out wait 0.5s for things to stabilize
+         8dfde577c4152428ea6cdc3055e2c2c69b98fac2 ASoC: Intel: Skylake: Fix declaration of enum skl_ch_cfg
+         62965a19068626e1efb59a4b4d9f80477b518951 bluetooth: Add cmd validity checks at the start of hci_sock_ioctl()
+         034b4b221efb77b408ea0d81f3321c592c66a03d Linux 4.14.317-rc1
          
 
---===============7241500652800241100==
+--===============8459560209193121617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685615276 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1685615275-5f1efc591786cdad63135e4dd9a90a9b23ce5774
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685615593 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1685615592-b5af58668af6bb0fb61f1cfc6a24f98ca6d4fa74
 
-5f519137e803f692caa484f4547fd06c19ddc18a 2b4712c6dc6e430c9c78e2930e25fdc9971eaea9 refs/heads/master
+8aa44c489bf10c2307813b3d1d7f08256edca8c1 034b4b221efb77b408ea0d81f3321c592c66a03d refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4cqwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i0oP/jjcBjMoRn3nCy4+Je5J
-kfquqjPfQeLmUAeCvg4rg8mZIRpVW67j60C77gjuFuM60OxiltHRn6et+N3bQ6U/
-xUR6QFFcyTAr7g/rnzfStjrNQKG4BClDhPQYplfNXAw8fCelAqqfDWvdtl4Z6rev
-bLD8m+GOANJcyYBt1C22jTZPWfLT9fe+ikzsb1uLhlYxpp23XCbOye7G6mBwq4Hs
-jXdNumlUw/fBzDGDiBDb6k2xoeFS3ICYZmejTtAl4GIuctNXX3XJYMtYS9NJbaFD
-Z7oNabJIBG/OHSOAM22DR8zqJHjNuagE5v5+NndUvtHyYOto+KK4kl2Xec1tNnKr
-yH8C9BuwGCUlp+PYmX/wcEbNusxYWRjf+vshswZ0YFDSTWhTt2ay+0gl3+RNqG8d
-ERkNAzNB559Y5ZarHKRgqsFfD/YDH6NjIx4L7RHBt+QaFoOIaSa3ubJo4TuVjfma
-Ogy1Upat9MhVzFOPn+U+Yh6RovglvUIitMqeoQgKE61KiKoZL9I1M9VsjzLTfJS2
-CSAw01QcysbvzL63pXcVi2yVDFQrq12l1zPSGluG/F6vmdAazJkTFKlFOUy7okoZ
-RxFLIjH0udnCUrSLEl2utEQc8AdJC6T+FPvX+Ic1Ul50NohXQFt/zPT5UWXbNfNu
-qeh0S3DA1JW0ce5PRwfi5ION
-=HUxB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR4c+kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DP8QAJ34L26gSDMytvaZ9Ag0
+nh6BS+V8u3unQ7Oia6du/asqzMlcYPhfiDiMRvxDqSCxLFTNIzdpduLfUv7QEsGP
+DuT8N97c+6mAOyjijd7Fa1PoogdTg7EShvKBmEZ5VYvf8csY9VPzrh8WYxeE2L+S
+Swf727u+dN1C564fudiQM9C67fxbW1/YtXtW8FxpBcuXk9F+msYz/my/zMFeKKDd
+HPCfZAgu6OU4P2iHrtY12QGFAQAB6Irbc/zGJELcNZg3jw489pg5CY/AC6TKV1Ep
+HV0GaCKlj3aDRFTgmxCasr/6BOSA8NcMmBX/TAY/88kGJUNwmhL1wbKzHzk+Y0ec
+XxRePQLnHPCym4LwOlEDP0C+Ji+A9E45GI1qK22k4KhFtxQ2sPCY0noONvhc9mrJ
+nGdHulH+hf+kCZdePOKYpnx3/Jbq93rWeHERv3ZiAXC7S98+NdSiEt+R2OSOCUr9
+mjw9ZE9nYV1vqXpqUsBJqnjtgFKbvC6sr3kl8k2gnUELnbulhD+8IOFY53gIdIdC
+hqv9oCWw1Esk0Xhg2Zds9jkSHskQcqUZA9BU3VcuxoQj2RWXmKqjar4+YHM141RN
+qg1gLmhuCo/VVITy8AEWtHmOGOE13HvA8tHRaOwNu3yiDqGRTpHuLIKJAdtND4na
+kAMbsIQlgD5vsb0+eQPO3xDS
+=5LDK
 -----END PGP SIGNATURE-----
 
---===============7241500652800241100==--
+--===============8459560209193121617==--
