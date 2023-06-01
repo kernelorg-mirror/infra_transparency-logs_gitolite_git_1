@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 01 Jun 2023 18:20:05 -0000
-Message-Id: <168564360520.24749.13598102912470671339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 01 Jun 2023 18:25:01 -0000
+Message-Id: <168564390189.27655.17039557242907867451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 4820d46cef75f806d8c95afaa77f86ded4e3603e
-    new: 1b4ba547cf45377fffc7a1e60728369997cc7a9b
+  - ref: refs/heads/for-next/hardening
+    old: e38d8fd0bb68616237afffa999394acbec3f74b6
+    new: 0129f86211373c4891f1d1fd0530e618d2f434f2
     log: |
-         b03ed937838505c4202d298e7daefda3b93963c7 t/nvmept.py: test script for io_uring_cmd NVMe pass through
-         2128f93aacb41fe5990027133162579d39da7ec4 t/run-fio-tests: integrate t/nvmept.py
-         1b4ba547cf45377fffc7a1e60728369997cc7a9b t/run-fio-tests: address issues identified by pylint
+         f9cfb1910ece5b5dbedca096fc9b7c9fe4fd3c50 string: use __builtin_memcpy() in strlcpy/strlcat
+         76edc27eda068fb8222c452d522d4c93bcebe557 clocksource: Replace all non-returning strlcpy with strscpy
+         41e7a72e1d3ca62560ec1ef1f4529e7a4c4ad8a3 acpi: Replace struct acpi_table_slit 1-element array with flex-array
+         91218d7d708ed2f4b77323ca70a948b8334dd767 x86/purgatory: Do not use fortified string functions
+         4ce1e94175696b8f5f6fa29f09f7ef56724ddc2a s390/purgatory: Do not use fortified string functions
+         0554b774069f177ca27af4eeb3d7878a588fff48 riscv/purgatory: Do not use fortified string functions
+         0129f86211373c4891f1d1fd0530e618d2f434f2 checkpatch: Check for 0-length and 1-element arrays
          
