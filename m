@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4795840420319134856=="
+Content-Type: multipart/mixed; boundary="===============5147951732521422347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 01 Jun 2023 09:14:05 -0000
-Message-Id: <168561084582.22545.15968941779848137958@gitolite.kernel.org>
+Date: Thu, 01 Jun 2023 09:14:51 -0000
+Message-Id: <168561089100.22892.4540418253339334765@gitolite.kernel.org>
 
---===============4795840420319134856==
+--===============5147951732521422347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 3ea7ad0ba22ad51085c6eafff385cc22b8d629d9
-    new: ff6801e903c84b253e6d99cbb3438e0794c909e1
-    log: revlist-3ea7ad0ba22a-ff6801e903c8.txt
+    new: 9a1398f042de90a6e0a9ac0818f3b54372089eaa
+    log: revlist-3ea7ad0ba22a-9a1398f042de.txt
+  - ref: refs/heads/master
+    old: ff6801e903c84b253e6d99cbb3438e0794c909e1
+    new: 9a1398f042de90a6e0a9ac0818f3b54372089eaa
+    log: revlist-ff6801e903c8-9a1398f042de.txt
 
---===============4795840420319134856==
+--===============5147951732521422347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ea7ad0ba22a-ff6801e903c8.txt
+Content-Disposition: attachment; filename=revlist-3ea7ad0ba22a-9a1398f042de.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
@@ -91,6 +95,50 @@ afead42fdfcae714fb6ac41a5c323629cdb6f9ee Merge tag 'perf-tools-fixes-for-v6.4-2-
 fd2186d1c708fa0ec64291da5aa6b26fb44197c3 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 884fe9da1b7ccbea31b118f902fbc78f58366b4a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 929ed21dfdb6ee94391db51c9eedb63314ef6847 Merge tag '6.4-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-ff6801e903c84b253e6d99cbb3438e0794c909e1 Merge branch 'linus'
+02a619a66181c86d0764a98f7ebf1a8715af3b7a Merge branch into tip/master: 'irq/urgent'
+80c318c5cf04037a26cb7e26351ae7d5b9d2c130 Merge branch into tip/master: 'irq/core'
+a099a3b78c305d923deffde52acc05742c2b73d5 Merge branch into tip/master: 'locking/core'
+95be7e84f9ea8b654a25b56c2133d4612df53a38 Merge branch into tip/master: 'objtool/core'
+4d4245c28427b71cdbe9ed9ea0c6a3852743206e Merge branch into tip/master: 'perf/core'
+b0f993675a76a61b4866675ff437d12a73887105 Merge branch into tip/master: 'ras/core'
+8936599b36a54d00433e530f7fac6d7b99232ffa Merge branch into tip/master: 'sched/core'
+215df52634741f0a751dcae4750d92a475c594f5 Merge branch into tip/master: 'smp/core'
+4352d08ddca951fe4067c17ab9b44253cb8c29e9 Merge branch into tip/master: 'timers/core'
+447a8180abddebb418c4ff94cf7f33e4c69a040a Merge branch into tip/master: 'x86/alternatives'
+b85fb0839474eb3a29811204b2886cf7aa736759 Merge branch into tip/master: 'x86/cache'
+6a4e1f194bd7d58b464d286d9b4bf83132a16626 Merge branch into tip/master: 'x86/cleanups'
+349dc2b6adbcc1812b465464f957de7f2245c59e Merge branch into tip/master: 'x86/cpu'
+a7863ba86d9e3b47cc7005a268ecb3b2fef93364 Merge branch into tip/master: 'x86/microcode'
+cbf98897c56bfeec8bd4cad6ff61e9c9c5addd49 Merge branch into tip/master: 'x86/misc'
+78ce161c8a58f642ce39343b024b5f4807f35bb6 Merge branch into tip/master: 'x86/mm'
+179032f4981383e73f035517979a450a9f0c2f0e Merge branch into tip/master: 'x86/platform'
+16a6add611ecc5d3136e20c1e91f4ca9984ccbbe Merge branch into tip/master: 'x86/sev'
+9a1398f042de90a6e0a9ac0818f3b54372089eaa Merge branch into tip/master: 'x86/tdx'
 
---===============4795840420319134856==--
+--===============5147951732521422347==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ff6801e903c8-9a1398f042de.txt
+
+02a619a66181c86d0764a98f7ebf1a8715af3b7a Merge branch into tip/master: 'irq/urgent'
+80c318c5cf04037a26cb7e26351ae7d5b9d2c130 Merge branch into tip/master: 'irq/core'
+a099a3b78c305d923deffde52acc05742c2b73d5 Merge branch into tip/master: 'locking/core'
+95be7e84f9ea8b654a25b56c2133d4612df53a38 Merge branch into tip/master: 'objtool/core'
+4d4245c28427b71cdbe9ed9ea0c6a3852743206e Merge branch into tip/master: 'perf/core'
+b0f993675a76a61b4866675ff437d12a73887105 Merge branch into tip/master: 'ras/core'
+8936599b36a54d00433e530f7fac6d7b99232ffa Merge branch into tip/master: 'sched/core'
+215df52634741f0a751dcae4750d92a475c594f5 Merge branch into tip/master: 'smp/core'
+4352d08ddca951fe4067c17ab9b44253cb8c29e9 Merge branch into tip/master: 'timers/core'
+447a8180abddebb418c4ff94cf7f33e4c69a040a Merge branch into tip/master: 'x86/alternatives'
+b85fb0839474eb3a29811204b2886cf7aa736759 Merge branch into tip/master: 'x86/cache'
+6a4e1f194bd7d58b464d286d9b4bf83132a16626 Merge branch into tip/master: 'x86/cleanups'
+349dc2b6adbcc1812b465464f957de7f2245c59e Merge branch into tip/master: 'x86/cpu'
+a7863ba86d9e3b47cc7005a268ecb3b2fef93364 Merge branch into tip/master: 'x86/microcode'
+cbf98897c56bfeec8bd4cad6ff61e9c9c5addd49 Merge branch into tip/master: 'x86/misc'
+78ce161c8a58f642ce39343b024b5f4807f35bb6 Merge branch into tip/master: 'x86/mm'
+179032f4981383e73f035517979a450a9f0c2f0e Merge branch into tip/master: 'x86/platform'
+16a6add611ecc5d3136e20c1e91f4ca9984ccbbe Merge branch into tip/master: 'x86/sev'
+9a1398f042de90a6e0a9ac0818f3b54372089eaa Merge branch into tip/master: 'x86/tdx'
+
+--===============5147951732521422347==--
