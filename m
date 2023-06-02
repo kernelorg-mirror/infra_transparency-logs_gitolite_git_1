@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 02 Jun 2023 11:29:08 -0000
-Message-Id: <168570534861.18975.10162784548449892159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 02 Jun 2023 11:29:51 -0000
+Message-Id: <168570539172.19310.15006714340633453485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 9e87b63ed37e202c77aa17d4112da6ae0c7c097c
-    new: c43a6ff9f93f230cc0f448ebb5d86d277ad7771e
+  - ref: refs/heads/locking/core
+    old: d616ab60f38b0e9b7e9f54a0c548e6bd9fdb524e
+    new: bb6e9a06cba6b8504bebac9c1ecd84882fa055b5
     log: |
-         095aabe338d166f3a9c87bcc9b9b84ba80fdaddf efi/libstub: zboot: Avoid eager evaluation of objcopy flags
-         fd936fd8ac105ba3eb764185e8ba483c789c893e efi: fix missing prototype warnings
-         36e4fc57fc1619f462e669e939209c45763bc8f5 efi: Bump stub image version for macOS HVF compatibility
-         fadb74f9f2f609238070c7ca1b04933dc9400e4a module/decompress: Fix error checking on zstd decompression
-         792fc9214036633f2c26fe551cd26d5d7abdecfb Merge tag 'efi-fixes-for-v6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-         c43a6ff9f93f230cc0f448ebb5d86d277ad7771e Merge tag 'modules-6.4-rc5-second-pull' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
+         889df58a53c4f86f93af1c7a86f3dfbf2fe75567 cyrpto/b128ops: Remove struct u128
+         f6b38ab563a12cd972a3b16246735bae6ed41d68 types: Introduce [us]128
+         d7f68c34eb9fa2349f94625b91531aaf7d64f565 arch: Introduce arch_{,try_}_cmpxchg128{,_local}()
+         137daacbfcaf0f17ab156a660da5a933186e8dd2 instrumentation: Wire up cmpxchg128()
+         ba036eb7713dd269fba508d3dfa3624f3f70acec percpu: Add {raw,this}_cpu_try_cmpxchg()
+         83f3b10cc6a8b1f21df135646b4cda38ccb824b3 percpu: Wire up cmpxchg128
+         1007a04548f7183df40ad0028cf8885bc9f769ce x86,amd_iommu: Replace cmpxchg_double()
+         8c085a4689e08579178caba2d6d12ea4a2e27765 x86,intel_iommu: Replace cmpxchg_double()
+         7813677e4d2a6ea19ccd210494b43a331f0779ce slub: Replace cmpxchg_double()
+         6d7378a1c933e4bc2350dc445f689b3ea023e7ef arch: Remove cmpxchg_double
+         bb6e9a06cba6b8504bebac9c1ecd84882fa055b5 s390/cpum_sf: Convert to cmpxchg128()
          
