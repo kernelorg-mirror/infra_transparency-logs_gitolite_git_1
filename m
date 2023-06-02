@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 02 Jun 2023 21:57:09 -0000
-Message-Id: <168574302930.30718.1305284521077997116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Fri, 02 Jun 2023 22:04:16 -0000
+Message-Id: <168574345646.2254.1702849298291664492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 848d5b451ea1c66513ce26563e058b3fc011033a
-    new: a94d2c9ef44128ac5d554d85f59eda550b70c183
+  - ref: refs/heads/testing/fam01-next20230602
+    old: b82152299bb04e02e517e1359d36dae8781b4698
+    new: 20aaaa40b39f5178aee00e3982b68ab8fd0c59a8
     log: |
-         a94d2c9ef44128ac5d554d85f59eda550b70c183 foo
+         20aaaa40b39f5178aee00e3982b68ab8fd0c59a8 Makefile: Enable -Warray-bounds
          
