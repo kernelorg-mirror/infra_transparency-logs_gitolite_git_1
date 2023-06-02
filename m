@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7757500010784116805=="
+Content-Type: multipart/mixed; boundary="===============4284733341305885146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 02 Jun 2023 02:13:04 -0000
-Message-Id: <168567198403.22797.4192731753645389618@gitolite.kernel.org>
+Date: Fri, 02 Jun 2023 02:13:11 -0000
+Message-Id: <168567199114.22926.3850321466028426516@gitolite.kernel.org>
 
---===============7757500010784116805==
+--===============4284733341305885146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: 422db30713ac84080a8c4b3efa9dd560b654ed57
     new: fe8e04348727f992f6fce3709639fb6d92a81137
     log: revlist-422db30713ac-fe8e04348727.txt
 
---===============7757500010784116805==
+--===============4284733341305885146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -796,4 +796,4 @@ e23421426e1364299e9ee5091022058ba10fee63 perf pmu: Correct perf_pmu__auto_merge_
 b9f010328c0f5af017b0fb9ca24a5c531bc3c682 perf pmu: Warn about invalid config for all PMUs and configs
 fe8e04348727f992f6fce3709639fb6d92a81137 perf script: Increase PID/TID width for output
 
---===============7757500010784116805==--
+--===============4284733341305885146==--
