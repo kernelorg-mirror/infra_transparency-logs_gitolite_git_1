@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 02 Jun 2023 12:38:04 -0000
-Message-Id: <168570948462.743.14801776034000047135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 02 Jun 2023 12:39:19 -0000
+Message-Id: <168570955984.1220.5484999881570710717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 3ecd5a728903b3057012043f98464c20cea1cdbb
-    new: 20c475d21ed9326f7b1396c9bb8991b375cb6c50
-    log: |
-         c092a878729843c10160c6f22864507ab7dbceb2 spi: dt-bindings: allwinner: simplify with unevaluatedProperties
-         bbd25f1ae8bfaeb99de2a0e1985d206cd39ac014 spi: dt-bindings: samsung: drop cs-gpios
-         34fcc0f0a410ff67aba99875d0452a0762d5a98d spi: dt-bindings: socionext,uniphier: drop address/size-cells
-         20c475d21ed9326f7b1396c9bb8991b375cb6c50 spi: s3c64xx: Use devm_clk_get_enabled()
-         
+  - ref: refs/heads/fileTXEp6x
+    old: 0000000000000000000000000000000000000000
+    new: a34e0353a681bbdd0402825e25410c3236109f31
+  - ref: refs/heads/v11_20230524_andre_przywara_regulator_add_x_powers_axp15060_axp313a_pmic_support
+    old: 0000000000000000000000000000000000000000
+    new: 9e72869d0fe12aba8cd489e485d93912b3f5c248
+  - ref: refs/heads/v2_20230602_william_qiu_add_initialization_of_clock_for_starfive_jh7110_soc
+    old: 0000000000000000000000000000000000000000
+    new: f14f4e2369847daadb4f776484172385545dd6d0
+  - ref: refs/heads/v3_20230526_trevor_wu_asoc_mt8188_add_new_board_support
+    old: 0000000000000000000000000000000000000000
+    new: ee02b869dcad7ba3772b58e93dd90ab4f932fac5
