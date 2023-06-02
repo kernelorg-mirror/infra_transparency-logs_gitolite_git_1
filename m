@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4657118525778100308=="
+Content-Type: multipart/mixed; boundary="===============6391608375836116741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 02 Jun 2023 12:43:18 -0000
-Message-Id: <168570979889.4127.6684073569554447299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 02 Jun 2023 12:44:11 -0000
+Message-Id: <168570985155.4481.4701776389696091086@gitolite.kernel.org>
 
---===============4657118525778100308==
+--===============6391608375836116741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 9632302b68e03c8579120884b22c4e4dc2340e43
 
---===============4657118525778100308==
+--===============6391608375836116741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -396,4 +396,4 @@ e99a74673a19631d4a23c7e1fe2f21c55471a5d1 Merge tag 'drm-fixes-2023-06-02' of git
 7bdecc26722710bad806bc583a92881a2fa51c73 Merge tag 'iommu-fixes-v6.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 921bdc72a0d68977092d6a64855a1b8967acc1d9 Merge tag 'mmc-v6.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 
---===============4657118525778100308==--
+--===============6391608375836116741==--
