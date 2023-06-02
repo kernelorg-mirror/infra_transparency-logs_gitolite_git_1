@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3255709563683578970=="
+Content-Type: multipart/mixed; boundary="===============5037414620476321547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Fri, 02 Jun 2023 16:49:25 -0000
-Message-Id: <168572456544.11347.2890796278098823102@gitolite.kernel.org>
+Date: Fri, 02 Jun 2023 16:49:34 -0000
+Message-Id: <168572457429.11442.13535143722532935296@gitolite.kernel.org>
 
---===============3255709563683578970==
+--===============5037414620476321547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 782eea0c89f7d071d6b56ecfa1b8b0c81164b9be
+  - ref: refs/heads/fixes
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: ac9a78681b921877518763ba0e89202254349d1b
-    log: revlist-782eea0c89f7-ac9a78681b92.txt
+    log: revlist-fe15c26ee26e-ac9a78681b92.txt
 
---===============3255709563683578970==
+--===============5037414620476321547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-782eea0c89f7-ac9a78681b92.txt
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-ac9a78681b92.txt
 
 1492c6b1874ac5ed57d8ffef89e2b5c59f804aa8 MIPS: Don't clear _PAGE_SPECIAL in _PAGE_CHG_MASK
 2d419df353d2558544c894509304acf7753bb4f7 fbdev: cg14: Convert to platform remove callback returning void
@@ -1051,4 +1051,4 @@ d6b8a8c49ad6afce23c2c65a3cda0a0ccd3eaf61 Merge tag 'clk-for-linus' of git://git.
 f085df1be60abf670315c11036261cfaec16b2eb Merge tag 'perf-tools-for-v6.4-3-2023-05-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 ac9a78681b921877518763ba0e89202254349d1b Linux 6.4-rc1
 
---===============3255709563683578970==--
+--===============5037414620476321547==--
