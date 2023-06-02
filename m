@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 02 Jun 2023 10:06:11 -0000
-Message-Id: <168570037140.28494.13268807450700865189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Fri, 02 Jun 2023 10:08:05 -0000
+Message-Id: <168570048567.29130.15670266529988516878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/experimental
-    old: b2868892f60f2c8f51031587baceceafe42bfd8a
-    new: 453de02868e0b5d055c885ffe5dd7e5bb9f4413a
-    log: |
-         912f53dee67a2f487638bf8caee6ba66f95602bf erofs-utils: limit pclustersize in z_erofs_fixup_deduped_fragment()
-         453de02868e0b5d055c885ffe5dd7e5bb9f4413a erofs-utils: introduce tarerofs
-         
+  - ref: refs/tags/omap-for-v6.5/dt-pin-nodes-signed
+    old: 0000000000000000000000000000000000000000
+    new: 8f6081469a7312c197b8c4426a76b8f5cd075e76
