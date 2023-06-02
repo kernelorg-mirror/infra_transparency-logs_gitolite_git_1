@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0614956779608624665=="
+Content-Type: multipart/mixed; boundary="===============6591569523314342063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 02 Jun 2023 12:37:41 -0000
-Message-Id: <168570946145.456.10869535200850969250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 02 Jun 2023 12:37:47 -0000
+Message-Id: <168570946777.558.17245051388159310587@gitolite.kernel.org>
 
---===============0614956779608624665==
+--===============6591569523314342063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 3ecd5a728903b3057012043f98464c20cea1cdbb
     new: 20c475d21ed9326f7b1396c9bb8991b375cb6c50
     log: |
@@ -26,28 +26,28 @@ changes:
          20c475d21ed9326f7b1396c9bb8991b375cb6c50 spi: s3c64xx: Use devm_clk_get_enabled()
          
 
---===============0614956779608624665==
+--===============6591569523314342063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1685709460 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1685709459-31d21f19af8377021973c316c6752f23a76c63d2
+pusher C3F436CA30F5D8EB 1685709466 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1685709465-229002141516b84eecdc27e5125a4044efbc3d99
 
-3ecd5a728903b3057012043f98464c20cea1cdbb 20c475d21ed9326f7b1396c9bb8991b375cb6c50 refs/heads/for-6.5
+3ecd5a728903b3057012043f98464c20cea1cdbb 20c475d21ed9326f7b1396c9bb8991b375cb6c50 refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR54pQACgkQJNaLcl1U
-h9CrCgf/ePATPYsmvhRuO6/uz+nOyNeMP3JJsUZ63ZZc1LiUfddngZlUA9U193RU
-Ri0dwFqkJfKDu+QOZA8NWW57UCngF9Tr1OwxpdyC9cPQUsBfPSn7nGs/MZlPwDLO
-t+9/lvARIw0ND5zx8ktL63rXjY4s+XaYDQwIc2vHj/mLxFl9cb6v0EjGzC2qaDLh
-Z8hPEWrmLh6WcED+2kY9HBODlSQe/EyBqQ+Re/MYNDKGDcQdS6QjWCpDHsvXnTn0
-GGiyyCCCuJx/KGpCv8p6t4MHu/lPLPfTI3AEcEhqKp/MsiMYeO+r/HQ9NTIVIKXD
-vyE0VVWyFyfFFA7LIelHsAGIhjZ6cQ==
-=S/+0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR54poACgkQJNaLcl1U
+h9ACeQf8DPf0zqreNRGenyYk157sdU7cflR++8fJ4fgFNUp2UIIpnc4qXTWgn6B+
+5I5i3sdtWfsaztekO1lcTLlGanj2XTYOcYVVZULeoDM8mjuD05cbPT9ue8y7bz5l
+CGUNywlLpKJU/XmHTonh3X1B4Ws20GbYRsZ61CiPbR1njg0rPfkDgv3qPp6+XeU3
+6Mnxp1VyiG8Wqq7ftCTWyra5g+qG4XnuHgXmKEAT761KbiZuFwAMiC2XPBA9uCu2
+Wk85VA45fe9rjGSbpXHHl2Ko+7l738Sd0e7J+RCS4IghjoSLqBakg1BnVXOC3iY+
+09uERyOG2dnce4L5abQWJrZRBlAshA==
+=ekeF
 -----END PGP SIGNATURE-----
 
---===============0614956779608624665==--
+--===============6591569523314342063==--
