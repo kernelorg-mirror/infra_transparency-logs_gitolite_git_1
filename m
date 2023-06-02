@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1032801450703247914=="
+Content-Type: multipart/mixed; boundary="===============0614956779608624665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 02 Jun 2023 12:37:11 -0000
-Message-Id: <168570943198.32643.1356331807143495063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 02 Jun 2023 12:37:41 -0000
+Message-Id: <168570946145.456.10869535200850969250@gitolite.kernel.org>
 
---===============1032801450703247914==
+--===============0614956779608624665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e99a74673a19631d4a23c7e1fe2f21c55471a5d1
-    new: 921bdc72a0d68977092d6a64855a1b8967acc1d9
-    log: revlist-e99a74673a19-921bdc72a0d6.txt
+  - ref: refs/heads/for-6.5
+    old: 3ecd5a728903b3057012043f98464c20cea1cdbb
+    new: 20c475d21ed9326f7b1396c9bb8991b375cb6c50
+    log: |
+         c092a878729843c10160c6f22864507ab7dbceb2 spi: dt-bindings: allwinner: simplify with unevaluatedProperties
+         bbd25f1ae8bfaeb99de2a0e1985d206cd39ac014 spi: dt-bindings: samsung: drop cs-gpios
+         34fcc0f0a410ff67aba99875d0452a0762d5a98d spi: dt-bindings: socionext,uniphier: drop address/size-cells
+         20c475d21ed9326f7b1396c9bb8991b375cb6c50 spi: s3c64xx: Use devm_clk_get_enabled()
+         
 
---===============1032801450703247914==
+--===============0614956779608624665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e99a74673a19-921bdc72a0d6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e332003bb216a9f91e08004b9e2de0745f321290 iommu: Make IPMMU_VMSA dependencies more strict
-ec014683c564fb74fc68e8f5e84691d3b3839d24 iommu/rockchip: Fix unwind goto issue
-ed8a2f4ddef2eaaf864ab1efbbca9788187036ab iommu/amd: Don't block updates to GATag if guest mode is on
-af47b0a24058e56e983881993752f88288ca6511 iommu/amd: Handle GALog overflows
-8ec4e2befef10c7679cd59251956a428e783c0b5 iommu/amd: Fix up merge conflict resolution
-29f54745f24547a84b18582e054df9bea1a7bf3e iommu/amd: Add missing domain type checks
-2212fc2acf3f6ee690ea36506fb882a19d1bfcab iommu/amd: Fix domain flush size when syncing iotlb
-11c439a19466e7feaccdbce148a75372fddaf4e9 iommu/amd/pgtbl_v2: Fix domain max address
-a99d21cefd351c8aaa20b83a3c942340e5789d45 mmc: vub300: fix invalid response handling
-0b5d5c436a5c572a45f976cfd34a6741e143e5d9 mmc: pwrseq: sd8787: Fix WILC CHIP_EN and RESETN toggling order
-b3fc95709c54ffbe80f16801e0a792a4d2b3d55e iommu/mediatek: Flush IOTLB completely only if domain has been attached
-7bdecc26722710bad806bc583a92881a2fa51c73 Merge tag 'iommu-fixes-v6.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-921bdc72a0d68977092d6a64855a1b8967acc1d9 Merge tag 'mmc-v6.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1685709460 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1685709459-31d21f19af8377021973c316c6752f23a76c63d2
 
---===============1032801450703247914==--
+3ecd5a728903b3057012043f98464c20cea1cdbb 20c475d21ed9326f7b1396c9bb8991b375cb6c50 refs/heads/for-6.5
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR54pQACgkQJNaLcl1U
+h9CrCgf/ePATPYsmvhRuO6/uz+nOyNeMP3JJsUZ63ZZc1LiUfddngZlUA9U193RU
+Ri0dwFqkJfKDu+QOZA8NWW57UCngF9Tr1OwxpdyC9cPQUsBfPSn7nGs/MZlPwDLO
+t+9/lvARIw0ND5zx8ktL63rXjY4s+XaYDQwIc2vHj/mLxFl9cb6v0EjGzC2qaDLh
+Z8hPEWrmLh6WcED+2kY9HBODlSQe/EyBqQ+Re/MYNDKGDcQdS6QjWCpDHsvXnTn0
+GGiyyCCCuJx/KGpCv8p6t4MHu/lPLPfTI3AEcEhqKp/MsiMYeO+r/HQ9NTIVIKXD
+vyE0VVWyFyfFFA7LIelHsAGIhjZ6cQ==
+=S/+0
+-----END PGP SIGNATURE-----
+
+--===============0614956779608624665==--
