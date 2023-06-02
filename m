@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 02 Jun 2023 05:03:54 -0000
-Message-Id: <168568223412.7328.10834476060050000568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Fri, 02 Jun 2023 05:24:17 -0000
+Message-Id: <168568345733.20901.16772029925643550247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/experimental
-    old: 1171bf988e48e709b7807f9174b6924f6f91efd0
-    new: c279d3d66780f910f996d4a6252c4ddfd6116ee9
+  - ref: refs/heads/for-next
+    old: 493f349e38d022057b3b6e13f589f108269c42b0
+    new: de649e7f5edb2e61dbd3d64deae44cb165e657ad
     log: |
-         2145dff03dd3f3f74bcda3b52160fbad37f7fcfe erofs-utils: fsck: don't allocate/read too large extents
-         c279d3d66780f910f996d4a6252c4ddfd6116ee9 erofs-utils: introduce tarerofs
+         de649e7f5edb2e61dbd3d64deae44cb165e657ad memblock: Update nid info in memblock debugfs
          
