@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1661606295494674774=="
+Content-Type: multipart/mixed; boundary="===============6724023727865556852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 02 Jun 2023 09:11:44 -0000
-Message-Id: <168569710498.10027.13811243397295047708@gitolite.kernel.org>
+Date: Fri, 02 Jun 2023 09:16:44 -0000
+Message-Id: <168569740409.13199.2036630664969630908@gitolite.kernel.org>
 
---===============1661606295494674774==
+--===============6724023727865556852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/master
     old: 44c026a73be8038f03dbdeef028b642880cf1511
-    new: f1832e2b5e498e258b090af3b065b85cf8cc5161
-    log: revlist-44c026a73be8-f1832e2b5e49.txt
+    new: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+    log: revlist-44c026a73be8-7877cb91f108.txt
 
---===============1661606295494674774==
+--===============6724023727865556852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44c026a73be8-f1832e2b5e49.txt
+Content-Disposition: attachment; filename=revlist-44c026a73be8-7877cb91f108.txt
 
 654d0310007146fae87b0c1a68f81e53ad519b14 optee: fix uninited async notif value
 0cce06ba859a515bd06224085d3addb870608b6d debugobjects,locking: Annotate debug_object_fill_pool() wait type violation
@@ -344,6 +344,5 @@ abbf7fa15b7c140da7893f9c910b4762ac99ae7a Merge tag 'objtool-urgent-2023-05-28' o
 2d5438f4c6fdaa34c5d7de89a5331b8dbcd920af Merge tag 'perf-urgent-2023-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f8b2507c263d6c1478d179c7c260064a61f14542 Merge tag 'x86-urgent-2023-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7877cb91f1081754a1487c144d85dc0d2e2e7fc4 Linux 6.4-rc4
-f1832e2b5e498e258b090af3b065b85cf8cc5161 USB: serial: option: add Quectel EM061KGL series
 
---===============1661606295494674774==--
+--===============6724023727865556852==--
