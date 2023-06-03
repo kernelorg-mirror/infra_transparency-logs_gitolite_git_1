@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 03 Jun 2023 08:03:34 -0000
-Message-Id: <168577941401.8389.16750898521569249746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
+Date: Sat, 03 Jun 2023 08:13:09 -0000
+Message-Id: <168577998952.14413.11800542261987178074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/trace-cmd/kernel-shark
+user: y.karadzhov
 changes:
-  - ref: refs/heads/arm64/pmu-weak
-    old: 236ac26bd0e03bf2ca3b40471b61a35b02272662
-    new: ab846db96bed125fed5016b794fee3032d6759fd
+  - ref: refs/heads/kernelshark
+    old: 99225c059b45c0098e5f47bb3346267379986991
+    new: 9f2097c9669fb7d5f72351343f34fb86649d1365
     log: |
-         ab846db96bed125fed5016b794fee3032d6759fd perf/core: Drop __weak attribute from arch_perf_update_userpage() prototype
+         9f2097c9669fb7d5f72351343f34fb86649d1365 kernel-shark: Fix segfault in libkshark-tepdata
          
