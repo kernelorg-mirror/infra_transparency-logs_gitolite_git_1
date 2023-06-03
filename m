@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7503343583700789533=="
+Content-Type: multipart/mixed; boundary="===============3732057308558724227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 03 Jun 2023 12:15:34 -0000
-Message-Id: <168579453428.25231.5171079266800216842@gitolite.kernel.org>
+Date: Sat, 03 Jun 2023 12:15:51 -0000
+Message-Id: <168579455192.25406.9104320523983029579@gitolite.kernel.org>
 
---===============7503343583700789533==
+--===============3732057308558724227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 16853cd8f6d44d774f683d670be38c7d91eb32b8
-    new: f047d1e38bdfda2e9b9bf82ffa761711acacbd69
-    log: revlist-16853cd8f6d4-f047d1e38bdf.txt
+  - ref: refs/heads/for-next
+    old: d8975ee303e6ad1aeee8a69ff78faf07b402b6c4
+    new: 28646fd24f4ec46e35e76ce33bf896aafd149e55
+    log: revlist-d8975ee303e6-28646fd24f4e.txt
 
---===============7503343583700789533==
+--===============3732057308558724227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16853cd8f6d4-f047d1e38bdf.txt
+Content-Disposition: attachment; filename=revlist-d8975ee303e6-28646fd24f4e.txt
 
 c787f1baa5031c22cbe20af17b2ee36ad32957ea block: Add PR callouts for read keys and reservation
 7ba150834b840f6f5cdd07ca69a4ccf39df59a66 block: Rename BLK_STS_NEXUS to BLK_STS_RESV_CONFLICT
@@ -44,6 +44,23 @@ be1a7cd2d0ed028ffdd60c65e3734e2a1d8b17df nvme: Add a nvme_pr_type enum
 d9b3275bddd58f1e61171483c3625b5bd0841b71 scsi: target: Pass struct target_opcode_descriptor to enabled
 8455799d2d4676b746dce3d59cbc8060a6223619 scsi: target: Report and detect unsupported PR commands
 394f811848827ad23d2b43e94e5d72a24cfbc39f scsi: target: Add block PR support to iblock
+7e79881d92e8d52c45992ed4d669985c167fa0ad scsi: ufs: hwmon: Constify pointers to hwmon_channel_info
+aa67380056a43277da11a5550669f5a80057ce2d scsi: megaraid_sas: Convert union megasas_sgl to flex-arrays
+b68daae9660b45a0bb3ac9df1f1746d15693d254 scsi: hisi_sas: Configure initial value of some registers according to HBA model
+a090fc97617b1b2d0dc8dcb418cc614573a1a8be scsi: hisi_sas: Change DMA setup lock timeout to 2.5s
+c0328cc595124579328462fc45d7a29a084cf357 scsi: hisi_sas: Fix warnings detected by sparse
+8759924ddb93498bd5777f0b05b6bc9cacf4ffe3 Merge patch series "scsi: hisi_sas: Some misc changes"
+973464fded698881d48c6439f9d9912d61819bd1 scsi: bfa: Replace all non-returning strlcpy() with strscpy()
+0871237a946e2b16e82048d92d69058fddb9172a scsi: target: Replace all non-returning strlcpy() with strscpy()
+41300cc989c26ef2429ae8225b3b42dfc6b6036e scsi: qla4xxx: Replace all non-returning strlcpy() with strscpy()
+37f1663c91934f664fb850306708094a324c227c scsi: qla2xxx: Replace all non-returning strlcpy() with strscpy()
+21b382460d659fc4ac0c86c1b3a02e6bf8ef2418 scsi: MAINTAINERS: Add a libsas entry
+332aac6f0dc0012a5f32daa51370ca374531dc85 scsi: MAINTAINERS: Drop DC395x list and site
+7a94a131aa109e146067b90b29e9ba47c0a72a49 scsi: dc395x: Documentation: Replace non-functional twibble.org list
+16853cd8f6d44d774f683d670be38c7d91eb32b8 scsi: dc395x: Documentation: Reword original driver attribution
+13247018d68f21e7132924b9853f7e2c423588b6 scsi: target: iscsi: Fix hang in the iSCSI login code
+98a8c2bf938a5973716f280da618077a3d255976 scsi: target: iscsi: Remove unused transport_timer
+2a737d3b8c792400118d6cf94958f559de9c5e59 scsi: target: iscsi: Prevent login threads from racing between each other
 7907ad748bdba8ac9ca47f0a650cc2e5d2ad6e24 Merge patch series "Use block pr_ops in LIO"
 eca2040972b411ec27483bf75dc8b84e730e88ff scsi: block: ioprio: Clean up interface definition
 6c913257226a25879bfd6226e0ee265e98904ce6 scsi: block: Introduce ioprio hints
@@ -68,6 +85,7 @@ eafe804bda7ba01da562c43351068b8a76a579af scsi: ata: libata: Set read/write comma
 a1f871f9f30124669d7afbdb8754f0826f49b564 scsi: ufs: core: Return earlier if ufshcd_hba_init_crypto_capabilities() fails
 2e2fe5ac695a00ab03cab4db1f4d6be07168ed9d scsi: 3w-xxxx: Add error handling for initialization failure in tw_probe()
 144679dfb5840d58fd37a14f7b3a268531ec3b79 scsi: mpi3mr: Fix the type used for pointers to bitmap
+d54820b22e404b06b2b65877ff802cc7b31688bc scsi: qla2xxx: Fix NULL pointer dereference in target mode
 e90644b0ce2d700a65579ac74ff594414e8ba30f scsi: lpfc: Replace one-element array with flexible-array member
 682b07d2ff54c5bb755b96e86b973c2ad9a56b5a scsi: docs: Organize the SCSI documentation
 c4e672ac8c4961b73d45571aeddd436f71379251 scsi: docs: introduction: Multiple cleanups
@@ -80,5 +98,10 @@ b636a0297e4fbb47a0a15b635c61fafbbe339b26 scsi: docs: g_NCR5380: Shorten chapter 
 0176d3395a3afbd8bccf881d3b7cf126ae096654 scsi: docs: megaraid: Clarify chapter heading
 7c891fe3db3a27c467efe33a98cd8479fe021b9b scsi: docs: ncr53c8xx: Shorten chapter heading
 f047d1e38bdfda2e9b9bf82ffa761711acacbd69 scsi: docs: sym53c8xx_2: Shorten chapter heading
+ae0c38926a64bc8ebf5437c88b2c4b14e06cec41 Merge branch 'fixes' into for-next
+ae6fd89ee79b7d6b43fa27b4a5cf53735d882939 Merge branch 'misc' into for-next
+6d074ce231772c66e648a61f6bd2245e7129d1f5 scsi: stex: Fix gcc 13 warnings
+75168eb3ec7c8afd3e7c015dddcb8efa3bbc1421 Merge branch 'fixes' into for-next
+28646fd24f4ec46e35e76ce33bf896aafd149e55 Merge branch 'misc' into for-next
 
---===============7503343583700789533==--
+--===============3732057308558724227==--
