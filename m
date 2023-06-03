@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 03 Jun 2023 13:39:44 -0000
-Message-Id: <168579958431.14653.9749217859281062714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 03 Jun 2023 13:43:55 -0000
+Message-Id: <168579983542.17618.17083901834692792596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/x86-efistub-cleanup-v5
-    old: 6d76c4ca21925ea5f9167a3533c5e41594b1c55c
-    new: bd5653d7a6d31ccffc8ad30157730a923df99f5d
+  - ref: refs/heads/master
+    old: 4ecd704a4c51fd95973fcc3a60444e0e24eb9439
+    new: 51f269a6ecc701f9932eff5b253a1f89746be6bd
     log: |
-         ed1f94106591fbac17208ee4bec2a15c2197c981 x86/efistub: Perform SNP feature test while running in the firmware
-         4e557ab8545e487b8424de86a3bf340c95001199 x86/head/64: Switch to KERNEL_CS as soon as new GDT is installed
-         bd5653d7a6d31ccffc8ad30157730a923df99f5d x86/efistub: Avoid legacy decompressor when doing EFI boot
+         81d0fa4cb4fc0e1a49c2b22f92c43d9fe972ebcf tracing/probe: trace_probe_primary_from_call(): checked list_first_entry
+         eb50d0f250e96ede9192d936d220cd97adc93b89 selftests/ftrace: Choose target function for filter test from samples
+         51f269a6ecc701f9932eff5b253a1f89746be6bd Merge tag 'probes-fixes-6.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
