@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 03 Jun 2023 14:56:35 -0000
-Message-Id: <168580419549.2494.14776956188393383885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 03 Jun 2023 15:07:01 -0000
+Message-Id: <168580482194.8795.4472095404593214982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 43f8a28028dcb4069902493f2e6ac877743b31c1
-    new: f900df712a57468f658ea5c4d66b2e37926536a9
+  - ref: refs/heads/dev
+    old: 912f53dee67a2f487638bf8caee6ba66f95602bf
+    new: 393a490e56cf124364615f0a91183bfae0a2a930
     log: |
-         f900df712a57468f658ea5c4d66b2e37926536a9 lockd: drop inappropriate svc_get() from locked_get()
+         1e00c2c8b7b514a737e0a527532ab72e2089b694 erofs-utils: dump: verify packed_nid when reading packed inode
+         393a490e56cf124364615f0a91183bfae0a2a930 erofs-utils: fsck: verify packed_nid when checking packed inode
          
