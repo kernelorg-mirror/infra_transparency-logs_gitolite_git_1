@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 03 Jun 2023 17:41:58 -0000
-Message-Id: <168581411852.13130.8018758047561697586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 03 Jun 2023 17:51:20 -0000
+Message-Id: <168581468085.20471.16651031098094447434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: e7a4e9184c50fd317d7c5a6d58c86137e963d6d4
-    new: 98c3fbd3b8fbf35c2ea2aec1e7f1f2c7c3ffd9ac
+  - ref: refs/heads/master
+    old: d7032e66fc0bc441e7a6b0c1704e374f950fb441
+    new: 0961dc4e39d6c70aad5f5a41a9c4ff1a27437d91
+    log: |
+         0961dc4e39d6c70aad5f5a41a9c4ff1a27437d91 malloc.3: write about another possible reason for ENOMEM
+         
