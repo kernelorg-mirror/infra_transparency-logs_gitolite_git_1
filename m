@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 02 Jun 2023 23:34:22 -0000
-Message-Id: <168574886208.29192.2459730458702995834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 03 Jun 2023 00:00:14 -0000
+Message-Id: <168575041412.15365.13312742629003766122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/dev
-    old: 4b4bd815689847c593487fdcc5d9d0ca1c9642da
-    new: 9486af7280fda4a0b8347a1abcdcaba70a67d89b
+  - ref: refs/heads/x86/urgent
+    old: edc0a2b5957652f4685ef3516f519f84807087db
+    new: a37f2699c36a7f6606ba3300f243227856c5ad6b
     log: |
-         b81ce351c710c8c569a2ac085f44910057cec1b1 rcuscale: Print grace-period kthread CPU time, if recorded
-         9486af7280fda4a0b8347a1abcdcaba70a67d89b rcuscale: Measure RCU Tasks grace-period kthread CPU time
+         a37f2699c36a7f6606ba3300f243227856c5ad6b x86/head/64: Switch to KERNEL_CS as soon as new GDT is installed
          
