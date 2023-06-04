@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Sun, 04 Jun 2023 23:02:19 -0000
-Message-Id: <168591973995.18004.9050379882052719883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/klibc/klibc
+Date: Sun, 04 Jun 2023 23:46:30 -0000
+Message-Id: <168592239077.14038.13801075107483151250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/libs/klibc/klibc
+user: bwh
 changes:
-  - ref: refs/heads/next
-    old: 40c30c9e67e68d85e9b4e5a1d1b134cacefc9c99
-    new: a6505f3b21049a1b95828ec10806c5e381887023
+  - ref: refs/heads/master
+    old: 53ce949578446360c4b636a46eadfdb7aed2779d
+    new: 39fde2337ee32d2b21df6826b4173c8374ae65dd
     log: |
-         31b7b5ec7edd0027e7121ddb578537d60c8f4bc6 Require a compiler with support for C11 features
-         faa47001da3ebea72aa472a667afff201226920b drop check for big endian types
-         43e4d308c1e5a2893facf8b4f097c68fda96e4b9 add local copies of macros from autoconf-archive
-         dd8e3ae827371886fe73ece8ba749643a25224d0 actually check for C11 compiler
-         86c0c411eae9ff4b0ed68119d8cbbb50608057cd do not check for strtol() function
-         a6505f3b21049a1b95828ec10806c5e381887023 drop checks for macros provided in UAPI header copies
+         b7316c5cc1a6b272bbba84c9f93aa49a1e7efb0e [klibc] ipconfig: Do not poll sockets we don't intend to read from
+         4ae6735c9f899815325a100a4019a7b385662bb4 [klibc] ipconfig: Handle error events from poll
+         39fde2337ee32d2b21df6826b4173c8374ae65dd [klibc] ipconfig: Retry failed send after 1 second
          
