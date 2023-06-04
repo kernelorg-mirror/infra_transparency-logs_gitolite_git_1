@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 04 Jun 2023 02:29:49 -0000
-Message-Id: <168584578977.3223.9506091807220943803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sun, 04 Jun 2023 03:39:16 -0000
+Message-Id: <168584995633.16166.15783307660403137985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 71d66f55cc6d66512e34af93daac9ca80535ddef
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/seen
+    old: a658abdd93a38532fc32c024c31677110644cea7
+    new: e46c11b038e7bbffe0a2c76f12fb8ee85df9b31d
