@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sun, 04 Jun 2023 22:51:26 -0000
-Message-Id: <168591908696.11481.13428236585247486850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Sun, 04 Jun 2023 23:02:14 -0000
+Message-Id: <168591973496.17909.9018510075304587114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/i3c/next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 49b472ebc61de3d4aa7cc57539246bb39f6c5128
+  - ref: refs/heads/master
+    old: 40c30c9e67e68d85e9b4e5a1d1b134cacefc9c99
+    new: a6505f3b21049a1b95828ec10806c5e381887023
     log: |
-         1c5ee2a77b1bacd4c333bebea93610aaf17977be i3c: master: svc: fix i3c suspend/resume issue
-         33beadb3b1ab74e69db2c49d9663f3a93a273943 i3c: master: svc: fix cpu schedule in spin lock
-         49b472ebc61de3d4aa7cc57539246bb39f6c5128 i3c: master: svc: add NACK check after start byte sent
+         31b7b5ec7edd0027e7121ddb578537d60c8f4bc6 Require a compiler with support for C11 features
+         faa47001da3ebea72aa472a667afff201226920b drop check for big endian types
+         43e4d308c1e5a2893facf8b4f097c68fda96e4b9 add local copies of macros from autoconf-archive
+         dd8e3ae827371886fe73ece8ba749643a25224d0 actually check for C11 compiler
+         86c0c411eae9ff4b0ed68119d8cbbb50608057cd do not check for strtol() function
+         a6505f3b21049a1b95828ec10806c5e381887023 drop checks for macros provided in UAPI header copies
          
