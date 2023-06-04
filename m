@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 04 Jun 2023 14:39:30 -0000
-Message-Id: <168588957007.10372.12664906040077135076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 04 Jun 2023 14:44:06 -0000
+Message-Id: <168588984643.13329.3293990895782935929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 4ec7329517027db28c5683675ab3b3842ad60324
-    new: f69de8aa4752adae750892c71711a5b806ec0dff
+    old: c308e9ec004721a656c193243eab61a8be324657
+    new: 3d5f4d29f6a8c1f248ea652daddc9c4701370120
     log: |
-         f69de8aa4752adae750892c71711a5b806ec0dff ipv6: lower "link become ready"'s level message
+         7190d0ff0e17690a9b1279d84a06473600ba2060 net: enetc: correct the statistics of rx bytes
+         fdebd850cc065495abf1d64756496050bb22db67 net: enetc: correct rx_bytes statistics of XDP
+         3d5f4d29f6a8c1f248ea652daddc9c4701370120 Merge branch 'enetc-fixes'
          
