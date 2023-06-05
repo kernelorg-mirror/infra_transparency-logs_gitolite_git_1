@@ -1,61 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============3495490996102876339=="
+Content-Type: multipart/mixed; boundary="===============7966386065066873019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 05 Jun 2023 07:52:12 -0000
-Message-Id: <168595153207.31733.1416194987040172923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 05 Jun 2023 07:57:46 -0000
+Message-Id: <168595186608.2691.5913381841733562481@gitolite.kernel.org>
 
---===============3495490996102876339==
+--===============7966386065066873019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-linus
-    old: bd574889c25d2ed7e3d61d784c59a539a95f0167
-    new: 1a93f10c5b12bd766a537b24a50fca5373467303
-    log: |
-         527c356b51f3ddee02c9ed5277538f85e30a2cdc ALSA: hda/realtek: Add a quirk for HP Slim Desktop S01
-         7ca4c8d4d3f41c2cd9b4cf22bb829bf03dac0956 ALSA: hda/realtek: Add Lenovo P3 Tower platform
-         1a93f10c5b12bd766a537b24a50fca5373467303 ALSA: hda/realtek: Add "Intel Reference board" and "NUC 13" SSID in the ALC256
-         
-  - ref: refs/heads/for-next
-    old: c894ec016c9d0418dd832202225a8c64f450d71e
-    new: db987421b57cdf3ecb4859e0c7b49726baae895e
-    log: |
-         219153c6ed46b064f9c2b0f70dacf21f719751ee ALSA: emu10k1: hide absent 2nd pointer-offset register set from /proc
-         67ff2add9e2cef1d5d60cf5a37f1f52c65bf97c7 ALSA: emu10k1: fix writing 1st pointer-offset register set through /proc
-         6e91a93d1e7417e5f700fb1d10de994d1539de8e ALSA: emu10k1: actually disassemble DSP instructions in /proc
-         ad326d4a1364f9d677204b1e005ee8eb2a0b6558 ALSA: emu10k1: include FX send amounts in /proc output
-         6ab13291ba82e6f0c8778cb45726dffffb9205f5 ALSA: emu10k1: make E-MU FPGA register dump in /proc more useful
-         db987421b57cdf3ecb4859e0c7b49726baae895e ALSA: emu10k1: vastly improve usefulness of info in /proc
-         
-  - ref: refs/heads/master
-    old: aa05c187f821b5550f09936e818bfc80543f1be5
-    new: 79b2bcd65c8822f9c05e2854332f222d88e3905a
-    log: revlist-aa05c187f821-79b2bcd65c88.txt
+  - ref: refs/heads/locking/core
+    old: bb6e9a06cba6b8504bebac9c1ecd84882fa055b5
+    new: ef558b4b7bbbf7e115c87e4da21ce86444d6ec3b
+    log: revlist-bb6e9a06cba6-ef558b4b7bbb.txt
 
---===============3495490996102876339==
+--===============7966386065066873019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa05c187f821-79b2bcd65c88.txt
+Content-Disposition: attachment; filename=revlist-bb6e9a06cba6-ef558b4b7bbb.txt
 
-219153c6ed46b064f9c2b0f70dacf21f719751ee ALSA: emu10k1: hide absent 2nd pointer-offset register set from /proc
-67ff2add9e2cef1d5d60cf5a37f1f52c65bf97c7 ALSA: emu10k1: fix writing 1st pointer-offset register set through /proc
-6e91a93d1e7417e5f700fb1d10de994d1539de8e ALSA: emu10k1: actually disassemble DSP instructions in /proc
-ad326d4a1364f9d677204b1e005ee8eb2a0b6558 ALSA: emu10k1: include FX send amounts in /proc output
-6ab13291ba82e6f0c8778cb45726dffffb9205f5 ALSA: emu10k1: make E-MU FPGA register dump in /proc more useful
-db987421b57cdf3ecb4859e0c7b49726baae895e ALSA: emu10k1: vastly improve usefulness of info in /proc
-8b141aabd0ae65a6834d13752eef8543ad5f692f Merge branch 'for-next'
-527c356b51f3ddee02c9ed5277538f85e30a2cdc ALSA: hda/realtek: Add a quirk for HP Slim Desktop S01
-9839fb1b79033f625ff8b2ec149549a546c7b014 Merge branch 'for-linus'
-7ca4c8d4d3f41c2cd9b4cf22bb829bf03dac0956 ALSA: hda/realtek: Add Lenovo P3 Tower platform
-1a93f10c5b12bd766a537b24a50fca5373467303 ALSA: hda/realtek: Add "Intel Reference board" and "NUC 13" SSID in the ALC256
-79b2bcd65c8822f9c05e2854332f222d88e3905a Merge branch 'for-linus'
+f413e724818c6482146218b3bcaf3d75b1317fc4 cyrpto/b128ops: Remove struct u128
+224d80c584d3016cb8d83d1c33914fdd3508aa8c types: Introduce [us]128
+b23e139d0b66c0216e7e9361a5021290395f504c arch: Introduce arch_{,try_}_cmpxchg128{,_local}()
+8c8b096a23d12fedf3c0f50524f30113ef97aa8c instrumentation: Wire up cmpxchg128()
+c5c0ba953b8c969c5d51bf1c57f239866a97c47c percpu: Add {raw,this}_cpu_try_cmpxchg()
+6d12c8d308e68b9b0fa98ca2df4f83db4b4c965d percpu: Wire up cmpxchg128
+8664645ade97b66a9d150cae43f4e6eef737b97d parisc: Raise minimal GCC version
+0a0a6800b02489c1288f963ad290b6a4876a2cc8 x86,amd_iommu: Replace cmpxchg_double()
+b1fe7f2cda2a003afe316ce8dfe8d3645694a67e x86,intel_iommu: Replace cmpxchg_double()
+6801be4f2653e5fdddca73b527cf0728284ba8a3 slub: Replace cmpxchg_double()
+febe950dbfb464799beb0339cc6fb10699f4a5da arch: Remove cmpxchg_double
+497cc42bf53b55185ab3d39c634fbf09eb6681ae s390/cpum_sf: Convert to cmpxchg128()
+dda5f312bb09e56e7a1c3e3851f2000eb2e9c879 locking/atomic: arm: fix sync ops
+14d72d4b6f0e88b5f683c1a5b7a876a55055852d locking/atomic: remove fallback comments
+a7bafa7969da1c0e9c342c792d8224078d1c491c locking/atomic: hexagon: remove redundant arch_atomic_cmpxchg
+d12157efc8e083c77d054675fcdd594f54cc7e2b locking/atomic: make atomic*_{cmp,}xchg optional
+f739287ef57bc01155e556033462e9a6ff020c97 locking/atomic: arc: add preprocessor symbols
+d6cd3664806fbe8313b8e04b042d40e8135ca459 locking/atomic: arm: add preprocessor symbols
+8ad17f2183fd7e37ceafddbdff334a3e2608cc84 locking/atomic: hexagon: add preprocessor symbols
+e50f06ce2d876c740993b5e3d01e203520391ccd locking/atomic: m68k: add preprocessor symbols
+07bf3dcbe0e199422598f12918021c516161fd12 locking/atomic: parisc: add preprocessor symbols
+770345adc38485c688e5d832d82306a4c2da828c locking/atomic: sh: add preprocessor symbols
+358c449afa662b1120d43738d2b0400ed2cc97df locking/atomic: sparc: add preprocessor symbols
+5bef003538ae8621c95ac6ebfd37324373fae37d locking/atomic: x86: add preprocessor symbols
+7c7084f3ba4031a9c2858afed696a577fcfe41d2 locking/atomic: xtensa: add preprocessor symbols
+a083ecc9333c62237551ad93f42e86a42a3c7cc2 locking/atomic: scripts: remove bogus order parameter
+e40e5298e692bb6b5a200b3f0f55e6e5adf0e5ad locking/atomic: scripts: remove leftover "${mult}"
+7ed7a1564090fdd265f49d1ad94ee92845b14c76 locking/atomic: scripts: factor out order template generation
+c9268ac615f9f6dded7801df5993374598934377 locking/atomic: scripts: add trivial raw_atomic*_<op>()
+0f613bfa8268a89be25f2b6b58fc6fe8ccd9a2ba locking/atomic: treewide: use raw_atomic*_<op>()
+1815da1718aa4c062b94cf3fc09432f552e25768 locking/atomic: scripts: build raw_atomic_long*() directly
+9257959a6e5b4fca6fc8e985790bff62c2046f20 locking/atomic: scripts: restructure fallback ifdeffery
+b916a8c765692444388891f5b9c5b6e941e16d42 locking/atomic: scripts: split pfx/name/sfx/order
+630399469ffcb937936644fbaa5daf61e700a329 locking/atomic: scripts: simplify raw_atomic_long*() definitions
+1d78814d41701c216e28fcf2656526146dec4a1a locking/atomic: scripts: simplify raw_atomic*() definitions
+8aaf297a0dd66d4fac215af24ece8dea091079bc docs: scripts: kernel-doc: accept bitwise negation like ~@var
+ad8110706f381170c9f9975f1cb06010fd3ca381 locking/atomic: scripts: generate kerneldoc comments
+e74f4059d11f36e936b08e98bc96f654c308807a locking/atomic: docs: Add atomic operations to the driver basic API documentation
+ef558b4b7bbbf7e115c87e4da21ce86444d6ec3b locking/atomic: treewide: delete arch_atomic_*() kerneldoc
 
---===============3495490996102876339==--
+--===============7966386065066873019==--
