@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============5216811977306884125=="
+Content-Type: multipart/mixed; boundary="===============9087140643749739846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Mon, 05 Jun 2023 15:23:01 -0000
-Message-Id: <168597858147.27909.11944804263130343540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Mon, 05 Jun 2023 15:23:55 -0000
+Message-Id: <168597863534.28322.15762718548078987973@gitolite.kernel.org>
 
---===============5216811977306884125==
+--===============9087140643749739846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
   - ref: refs/heads/for-next/perf
-    old: 257aedb72e731082ab514058e57b132f0b29d707
-    new: 8be3593b9efa8903d2ee7bb9cdf57a8e56c66f36
-    log: revlist-257aedb72e73-8be3593b9efa.txt
+    old: 87727ba2bb05cc3cb4233231faa7ab4c7eeb6c73
+    new: 44c026a73be8038f03dbdeef028b642880cf1511
+    log: revlist-87727ba2bb05-44c026a73be8.txt
 
---===============5216811977306884125==
+--===============9087140643749739846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-257aedb72e73-8be3593b9efa.txt
+Content-Disposition: attachment; filename=revlist-87727ba2bb05-44c026a73be8.txt
 
+513f17f8d6b67563d977c730d50bc0db6ea6e1b0 Merge tag 'sh-for-v6.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
+91ec4b0d11fe115581ce2835300558802ce55e6c Merge tag 'mips_6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+daf376a366fd2d469d66ab83dfdc074777462bab uapi nbd: improve doc links to userspace spec
+2686eb845da7762ee98b17e578b0c081aafb77b9 uapi nbd: add cookie alias to handle
 bd9e9916c32fd4b4fb4e879e05bd1568ee02ec93 block nbd: use req.cookie instead of req.handle
 952aa344bf4305ab6fa0d9962ef8c2caa2afef4c docs nbd: userspace NBD now favors github over sourceforge
 7fa8a8ee9400fe8ec188426e40e481717bc5e924 Merge tag 'mm-stable-2023-04-27-15-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
@@ -1046,9 +1050,5 @@ c47d122c5ba5f3b3371cfe051d770b5bbd591f6b Merge tag 'perf-tools-fixes-for-v6.4-1-
 a35747c3107ebb8ef2749d4dabaf71c205e0d0fe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fa4fe8ce4256bee870eae1c4a5b33ad463590230 Merge tag 'uml-for-linus-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 44c026a73be8038f03dbdeef028b642880cf1511 Linux 6.4-rc3
-f818947a06183dee7c2afc6648c75149586bf288 perf/arm-cci: Slightly optimize cci_pmu_sync_counters()
-7bd42f122c7cf1e8101519dced3e07866b81e0d2 perf: qcom_l2_pmu: Make l2_cache_pmu_probe_cluster() more robust
-71746c995cac92fcf6a65661b51211cf2009d7f0 perf/arm-cmn: Fix DTC reset
-8be3593b9efa8903d2ee7bb9cdf57a8e56c66f36 drivers/perf: apple_m1: Force 63bit counters for M2 CPUs
 
---===============5216811977306884125==--
+--===============9087140643749739846==--
