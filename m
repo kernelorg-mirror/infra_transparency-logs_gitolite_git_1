@@ -1,69 +1,124 @@
-Content-Type: multipart/mixed; boundary="===============5024463278239646729=="
+Content-Type: multipart/mixed; boundary="===============7151324115348503672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 05 Jun 2023 17:45:52 -0000
-Message-Id: <168598715274.29039.9721378412246182741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 05 Jun 2023 17:50:04 -0000
+Message-Id: <168598740452.31969.11394370882641810726@gitolite.kernel.org>
 
---===============5024463278239646729==
+--===============7151324115348503672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next/core
-    old: fd346f5fd1abbacca49cd72159695843ce5480e3
-    new: 47e71020b89014c2e5d7f60cbc4e0218e7a34cc8
-    log: revlist-fd346f5fd1ab-47e71020b890.txt
-  - ref: refs/heads/for-next/feat_mops
-    old: 0000000000000000000000000000000000000000
-    new: d8a324f102cc894fa0df6849504a9023f3ea5da6
-  - ref: refs/heads/for-next/feat_s1pie
-    old: 0000000000000000000000000000000000000000
-    new: 7e9a91b6be45233700e5f2fecf1b90b77db99354
+  - ref: refs/heads/for-6.5/block
+    old: b5bbc52fd01278642773818642288999a0236cb6
+    new: 2577f53f42947d8ca01666e3444bb7307319ea38
+    log: revlist-b5bbc52fd012-2577f53f4294.txt
+  - ref: refs/heads/for-next
+    old: 9008e693e219ff7866400a4e26c9e32fe54a262c
+    new: 56adb0a61678bc0720e45d19a6b2833b0fdac768
+    log: revlist-9008e693e219-56adb0a61678.txt
 
---===============5024463278239646729==
+--===============7151324115348503672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd346f5fd1ab-47e71020b890.txt
+Content-Disposition: attachment; filename=revlist-b5bbc52fd012-2577f53f4294.txt
 
-af94aad4c9150cca6781ad134c950fb05dff43f9 KVM: arm64: initialize HCRX_EL2
-b0c756fe996ac930033882ca56410639e5cad1ec arm64: cpufeature: detect FEAT_HCX
-306b4c9f7120c485607cbbfa1ac3ecec005d8231 KVM: arm64: switch HCRX_EL2 between host and guest
-f32c053b9806e42209d40e9ce7ed6f7f8be3be3b arm64: mops: document boot requirements for MOPS
-b1319c0e955933eae918a8a95c5361378ca86968 arm64: mops: don't disable host MOPS instructions from EL2
-3172613fbcbb0634d91d05601f029da0c1466999 KVM: arm64: hide MOPS from guests
-8536ceaa747174ded7983f13906b225e0c33ac51 arm64: mops: handle MOPS exceptions
-8cd076a67dc8eac5d613b3258f656efa7a54412e arm64: mops: handle single stepping after MOPS exception
-b7564127ffcb1a26854d7515a0918d775e663639 arm64: mops: detect and enable FEAT_MOPS
-3e1dedb29d0f70b0bd10bb83001df8c04fc246eb arm64: mops: allow disabling MOPS from the kernel command line
-d8a324f102cc894fa0df6849504a9023f3ea5da6 kselftest/arm64: add MOPS to hwcap test
-61fa276af0e151efa8def3a1e42f1698e602c5d8 arm64/sysreg: Add ID register ID_AA64MMFR3
-ad3b9e51859ec6716edbf4166a54be597f948939 arm64/sysreg: add system registers TCR2_ELx
-c7344cbd0b93a6268a40a67ed0eaf08430fb606f arm64/sysreg: update HCRX_EL2 register
-3683e747736ed39be452e5e986dfb1e6dfae2af3 arm64/sysreg: add PIR*_ELx registers
-8cdc9e504c3a26d3789c43cfdc776ed8440b7a24 arm64: cpufeature: add system register ID_AA64MMFR3
-c1fa32c8f189b7eb7c91e85e54094e690536772e arm64: cpufeature: add TCR2 cpucap
-b5a8e35236eec2f3b89cbed4a0dd1a43bf0ba3f6 arm64: cpufeature: add Permission Indirection Extension cpucap
-654c5709e3014ef97e478b2044efd3956ff021ed KVM: arm64: Save/restore TCR2_EL1
-2fc3815d31ca30700686bf5d3801ee2385ae1a19 KVM: arm64: Save/restore PIE registers
-a9a4ca391ef7f04e93f9155d56023dfc5756c01c KVM: arm64: expose ID_AA64MMFR3_EL1 to guests
-9e616a2c3440d73405adf9478b9d08cc87b352e0 arm64: add PTE_UXN/PTE_WRITE to SWAPPER_*_FLAGS
-da5c627ea12cb82c6b752017249806818f4b4e15 arm64: add PTE_WRITE to PROT_SECT_NORMAL
-d892c576588a7bafc44b486ac900d9ff5619572e arm64: reorganise PAGE_/PROT_ macros
-faaa09120e17436b0a55a3d7c84135056fac6073 arm64: disable EL2 traps for PIE
-ac5f58b1e6ec54e007f9f3ffaf90c6b94a933d1c arm64: add encodings of PIRx_ELx registers
-14b64614c84be9fea93c2f3571e7c3a91f84b917 arm64: enable Permission Indirection Extension (PIE)
-8453961d8f41ac7d9627c4ec09495085803eccb9 arm64: transfer permission indirection settings to EL2
-325ab56b0733a00b37df72558e687757384e3887 arm64: Document boot requirements for PIE
-29379689dd5193e5fe887bf628968abe4411eb53 KVM: selftests: get-reg-list: support ID register features
-7e9a91b6be45233700e5f2fecf1b90b77db99354 KVM: selftests: get-reg-list: add Permission Indirection registers
-807c5d563670c18073a0e2faac5982d8d057ac68 Merge branches 'for-next/kpti', 'for-next/missing-proto-warn', 'for-next/iss2-decode', 'for-next/kselftest', 'for-next/misc' and 'for-next/feat_mops' into for-next/core
-47e71020b89014c2e5d7f60cbc4e0218e7a34cc8 Merge branch 'for-next/feat_s1pie' into for-next/core
+d519df00938eed652fc041ff4e07b2b38a4ad3bc drbd: stop defining __KERNEL_SYSCALLS__
+0783b1a7cbd9a02ddc35fe531b5966b674b304f0 block: factor out a bd_end_claim helper from blkdev_put
+ae5f855ead6b41422ca0c971ebda509c0414f8ec block: refactor bd_may_claim
+74e6464a987b2572771ac19163e961777fd0252e block: turn bdev_lock into a mutex
+66fddc25fe182fd7d28b35f4173113f3eefc7fb5 block: consolidate the shutdown logic in blk_mark_disk_dead and del_gendisk
+a4f75764d16bed317276b05a9fe2c179ef61680d block: avoid repeated work in blk_mark_disk_dead
+69f90b70bdb62e1a930239d33579e04884cd0b9a block: unhash the inode earlier in delete_partition
+eec1be4c30df73238b936fa9f3653773a6f8b15c block: delete partitions later in del_gendisk
+00080f7fb7a599c26523037b202fb945f3141811 block: remove blk_drop_partitions
+0718afd47f70cf46877c39c25d06b786e1a3f36c block: introduce holder ops
+f55e017c642051ddc01d77a89ab18f5ee71d6276 block: add a mark_dead holder operation
+87efb39075be6a288cd7f23858f15bd01c83028a fs: add a method to shut down the file system
+e7caa877e5ddac63886f4a8376cb3ffbd4dfe569 xfs: wire up sops->shutdown
+8067ca1dcdfcc2a5e0a51bff3730ad3eef0623d6 xfs: wire up the ->mark_dead holder operation for log and RT devices
+97524b454bc562f4052751f0e635a61dad78f1b2 ext4: split ext4_shutdown
+f5db130d4443ddf63b49e195782038ebaab0bec9 ext4: wire up sops->shutdown
+dd2e31afba9e3a3107aa202726b6199c55075f59 ext4: wire up the ->mark_dead holder operation for log devices
+aa5f6ed8c21ec1aa5fd688118d8d5cd87c5ffc1d driver core: return bool from driver_probe_done
+02b42d58f3898134b900ff3030561099e38adb32 PM: hibernate: factor out a helper to find the resume device
+d6545e687271ab27472eebff770f2de6a5f1a464 PM: hibernate: remove the global snapshot_test variable
+cc89c63e2fe37d476357c82390dfb12edcd41cdd PM: hibernate: move finding the resume device out of software_resume
+f5524c3fadba35c075a5131bad74e3041507a694 init: remove pointless Root_* values
+e3102722ffe77094ba9e7e46380792b3dd8a7abd init: rename mount_block_root to mount_root_generic
+a6a41d39c2d91ff2543d31b6cc6070f3957e3aea init: refactor mount_root
+c8643c72bc42781fc169c6498a3902bec447099e init: pass root_device_name explicitly
+73231b58b1b496d631fa0ecf9fa7f64f5a07c6e3 init: don't remove the /dev/ prefix from error messages
+07d63cbb67cdb5e2a7720fdd8579b3be979c2d66 init: handle ubi/mtd root mounting like all other root types
+3701c600a3e735b9fbac6f7a73e4c086090c97ca init: factor the root_wait logic in prepare_namespace into a helper
+c0c1a7dcb6f5db4500e6574294674213bc24940c init: move the nfs/cifs/ram special cases out of name_to_dev_t
+cf056a43121559d3642419917d405c3237ded90a init: improve the name_to_dev_t interface
+079caa35f7863cd9958b4555ae873ea4d352a502 init: clear root_wait on all invalid root= strings
+702f3189e454b3c3c2f3c99dbf30acf41aab707c block: move the code to do early boot lookup of block devices to block/
+7cadcaf1d82618852745e7206fffa2c72c17ce4b block: move more code to early-lookup.c
+26110d5afe8117d1b505fe735ac709bdf063f4da dm-snap: simplify the origin_dev == cow_dev check in snapshot_ctr
+49177377e910a8fd5cd1388c966d8fbb51075c3c dm: open code dm_get_dev_t in dm_init_init
+d4a28d7defe79006e59293a4b43d518ba8483fb0 dm: remove dm_get_dev_t
+7a126d5bf975f082281fb9b45d110cd49b7c3ee4 dm: only call early_lookup_bdev from early boot context
+1e8c813b083c4122dfeaa5c3b11028331026e85d PM: hibernate: don't use early_lookup_bdev in resume_store
+b2baa57475e3a24bb9ad27bb9047ea3be94627f5 mtd: block2mtd: factor the early block device open logic into a helper
+8d03187ee7328af8e18ef1782289e0b034e75485 mtd: block2mtd: don't call early_lookup_bdev after the system is running
+2577f53f42947d8ca01666e3444bb7307319ea38 block: mark early_lookup_bdev as __init
 
---===============5024463278239646729==--
+--===============7151324115348503672==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9008e693e219-56adb0a61678.txt
+
+d519df00938eed652fc041ff4e07b2b38a4ad3bc drbd: stop defining __KERNEL_SYSCALLS__
+0783b1a7cbd9a02ddc35fe531b5966b674b304f0 block: factor out a bd_end_claim helper from blkdev_put
+ae5f855ead6b41422ca0c971ebda509c0414f8ec block: refactor bd_may_claim
+74e6464a987b2572771ac19163e961777fd0252e block: turn bdev_lock into a mutex
+66fddc25fe182fd7d28b35f4173113f3eefc7fb5 block: consolidate the shutdown logic in blk_mark_disk_dead and del_gendisk
+a4f75764d16bed317276b05a9fe2c179ef61680d block: avoid repeated work in blk_mark_disk_dead
+69f90b70bdb62e1a930239d33579e04884cd0b9a block: unhash the inode earlier in delete_partition
+eec1be4c30df73238b936fa9f3653773a6f8b15c block: delete partitions later in del_gendisk
+00080f7fb7a599c26523037b202fb945f3141811 block: remove blk_drop_partitions
+0718afd47f70cf46877c39c25d06b786e1a3f36c block: introduce holder ops
+f55e017c642051ddc01d77a89ab18f5ee71d6276 block: add a mark_dead holder operation
+87efb39075be6a288cd7f23858f15bd01c83028a fs: add a method to shut down the file system
+e7caa877e5ddac63886f4a8376cb3ffbd4dfe569 xfs: wire up sops->shutdown
+8067ca1dcdfcc2a5e0a51bff3730ad3eef0623d6 xfs: wire up the ->mark_dead holder operation for log and RT devices
+97524b454bc562f4052751f0e635a61dad78f1b2 ext4: split ext4_shutdown
+f5db130d4443ddf63b49e195782038ebaab0bec9 ext4: wire up sops->shutdown
+dd2e31afba9e3a3107aa202726b6199c55075f59 ext4: wire up the ->mark_dead holder operation for log devices
+aa5f6ed8c21ec1aa5fd688118d8d5cd87c5ffc1d driver core: return bool from driver_probe_done
+02b42d58f3898134b900ff3030561099e38adb32 PM: hibernate: factor out a helper to find the resume device
+d6545e687271ab27472eebff770f2de6a5f1a464 PM: hibernate: remove the global snapshot_test variable
+cc89c63e2fe37d476357c82390dfb12edcd41cdd PM: hibernate: move finding the resume device out of software_resume
+f5524c3fadba35c075a5131bad74e3041507a694 init: remove pointless Root_* values
+e3102722ffe77094ba9e7e46380792b3dd8a7abd init: rename mount_block_root to mount_root_generic
+a6a41d39c2d91ff2543d31b6cc6070f3957e3aea init: refactor mount_root
+c8643c72bc42781fc169c6498a3902bec447099e init: pass root_device_name explicitly
+73231b58b1b496d631fa0ecf9fa7f64f5a07c6e3 init: don't remove the /dev/ prefix from error messages
+07d63cbb67cdb5e2a7720fdd8579b3be979c2d66 init: handle ubi/mtd root mounting like all other root types
+3701c600a3e735b9fbac6f7a73e4c086090c97ca init: factor the root_wait logic in prepare_namespace into a helper
+c0c1a7dcb6f5db4500e6574294674213bc24940c init: move the nfs/cifs/ram special cases out of name_to_dev_t
+cf056a43121559d3642419917d405c3237ded90a init: improve the name_to_dev_t interface
+079caa35f7863cd9958b4555ae873ea4d352a502 init: clear root_wait on all invalid root= strings
+702f3189e454b3c3c2f3c99dbf30acf41aab707c block: move the code to do early boot lookup of block devices to block/
+7cadcaf1d82618852745e7206fffa2c72c17ce4b block: move more code to early-lookup.c
+26110d5afe8117d1b505fe735ac709bdf063f4da dm-snap: simplify the origin_dev == cow_dev check in snapshot_ctr
+49177377e910a8fd5cd1388c966d8fbb51075c3c dm: open code dm_get_dev_t in dm_init_init
+d4a28d7defe79006e59293a4b43d518ba8483fb0 dm: remove dm_get_dev_t
+7a126d5bf975f082281fb9b45d110cd49b7c3ee4 dm: only call early_lookup_bdev from early boot context
+1e8c813b083c4122dfeaa5c3b11028331026e85d PM: hibernate: don't use early_lookup_bdev in resume_store
+b2baa57475e3a24bb9ad27bb9047ea3be94627f5 mtd: block2mtd: factor the early block device open logic into a helper
+8d03187ee7328af8e18ef1782289e0b034e75485 mtd: block2mtd: don't call early_lookup_bdev after the system is running
+2577f53f42947d8ca01666e3444bb7307319ea38 block: mark early_lookup_bdev as __init
+56adb0a61678bc0720e45d19a6b2833b0fdac768 Merge branch 'for-6.5/block' into for-next
+
+--===============7151324115348503672==--
