@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5898628326009160372=="
+Content-Type: multipart/mixed; boundary="===============6588014858222535538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 05 Jun 2023 15:46:25 -0000
-Message-Id: <168597998580.12362.9284025636955573383@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 15:47:00 -0000
+Message-Id: <168598002000.12599.4099438278312807112@gitolite.kernel.org>
 
---===============5898628326009160372==
+--===============6588014858222535538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 37a826d86ff746c4eac8bd3415af19f3c9598206
-    new: fb928170e32ebf4f983db7ea64901b1ea19ceadf
-    log: revlist-37a826d86ff7-fb928170e32e.txt
+  - ref: refs/heads/dev-queue
+    old: 7a4cc1665cdd3176c77f5ba34b5ae872dcc8ff36
+    new: 59e898c056f809e5745024bbe7f4f5799a18d75c
+    log: revlist-7a4cc1665cdd-59e898c056f8.txt
 
---===============5898628326009160372==
+--===============6588014858222535538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37a826d86ff7-fb928170e32e.txt
+Content-Disposition: attachment; filename=revlist-7a4cc1665cdd-59e898c056f8.txt
 
 edf2e1d2019b2730d6076dbe4c040d37d7c10bbe net/ipv6: fix bool/int mismatch for skip_notify_on_dev_down
 ef62c0ae6db11c095880e473db9f846132d7eba8 net/ipv6: convert skip_notify_on_dev_down sysctl to u8
@@ -49,5 +49,20 @@ d753693101881b9c17f04edc365cf6685c475ff1 Merge tag 'linux-can-fixes-for-6.4-2023
 6c160b636c91e71e50c39134f78257cc35305ff0 selftests: mptcp: update userspace pm subflow tests
 77e4b94a3de692a09b79945ecac5b8e6b77f10c1 mptcp: update userspace pm infos
 fb928170e32ebf4f983db7ea64901b1ea19ceadf Merge branch 'mptcp-addr-adv-fixes'
+2020df2193a1111d8a702a3c62aff6b001d09525 igc: Fix possible system crash when loading module
+aa336f801ea690419851cdad03f446a32dd4f0cf igb: fix nvm.ops.read() error handling
+b9d50e38ac8795cb9706ee36347e20970dbf491f iavf: Fix use-after-free in free_netdev
+a45c6cf25accce0181265d8f155858c98299c821 iavf: Fix out-of-bounds when setting channels on remove
+b8603259f3376d9a7786c1f4377babac11afc29b igc: Fix race condition in PTP tx code
+c93b1ed9fa166cf2b175864bac757e7b4b39bcba igc: Check if hardware TX timestamping is enabled earlier
+e4ccf6b4fabd3241a70cf502523c5d7609f12a46 igc: Retrieve TX timestamp during interrupt handling
+a0063ecf0a73ea6efbce865bb1e98b7df73ab9af igc: Add workaround for missing timestamps
+88d7699b5cfb36540c55e1f168bb0a31442b77d5 igc: Clean the TX buffer and TX descriptor ring
+d1ee974bcbfbfda9bc1e7d07bc4fa9f11d375e68 igc: Add condition for qbv_config_change_errors counter
+6731919ae5adc812ed593bc537ecec12aaa9e3b4 igc: Remove delay during TX ring configuration
+a94c8ae6cc65010af7b9ba92f06c001817c2615a iavf: use internal state to free traffic IRQs
+171973804e6d316bda03a7b18b45b670bdb64b20 ice: make writes to /dev/gnssX synchronous
+2ec45c107a39b5f35a5ecf9badfe402f5853ac36 ice: Don't dereference NULL in ice_gns_read error path
+59e898c056f809e5745024bbe7f4f5799a18d75c igb: Fix extts capture value format for 82580/i354/i350
 
---===============5898628326009160372==--
+--===============6588014858222535538==--
