@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5463164316570132501=="
+Content-Type: multipart/mixed; boundary="===============1443382915148825152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 05 Jun 2023 06:30:21 -0000
-Message-Id: <168594662150.18093.6895500713156166667@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 06:31:26 -0000
+Message-Id: <168594668679.2629.11284641290965242105@gitolite.kernel.org>
 
---===============5463164316570132501==
+--===============1443382915148825152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,45 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 36a6418bb125944838b91a33eddca4064a5eb610
-    new: 628f725d3b090fadcc3735aaf4332e778335188e
-    log: revlist-36a6418bb125-628f725d3b09.txt
+  - ref: refs/heads/main
+    old: 6ad85ed0ebf7ece0f376950a6b3b3c6048093d35
+    new: 8cde87b007dad2e461015ff70352af56ceb02c75
+    log: revlist-6ad85ed0ebf7-8cde87b007da.txt
+  - ref: refs/heads/master
+    old: 6ad85ed0ebf7ece0f376950a6b3b3c6048093d35
+    new: 8cde87b007dad2e461015ff70352af56ceb02c75
+    log: revlist-6ad85ed0ebf7-8cde87b007da.txt
 
---===============5463164316570132501==
+--===============1443382915148825152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1685946617 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1685946683 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1685946616-a7e71fc8cc37593b948115b9d18d457616677cbd
+nonce 1685946682-daa9f1ed22921c032ee07a5e8c5523cf7302ad6c
 
-36a6418bb125944838b91a33eddca4064a5eb610 628f725d3b090fadcc3735aaf4332e778335188e refs/heads/testing
+6ad85ed0ebf7ece0f376950a6b3b3c6048093d35 8cde87b007dad2e461015ff70352af56ceb02c75 refs/heads/main
+6ad85ed0ebf7ece0f376950a6b3b3c6048093d35 8cde87b007dad2e461015ff70352af56ceb02c75 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmR9gPkTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6InNCACL56SUJ3u9EFSCtOgCBLANUF8dPEFv
-uPPQIeX+ulKTgYhhYHbiFfIP4p97FYdwssTFcl4CmiszzLAeEj+8TvuAy/kLPEhE
-c7TEQ9SI1hAPHeeL8yaxHucLwWC7atdUTnKtB8te/TloWm6f5CdEW/EYv+4UZZtL
-VZDgjDVSQyjRzlNoTE8LSmKme9OPz25ojzAjpoRVHbN8sULhco2wVwOMVsTkaB6l
-5ieJHs99HcXa025xJSLEJlmTyEWUksitFBK8hnHPvDqAxTaYYQg7Kvusmvk/Gj4U
-0bGS+5XjzWbbUgA5FznTpAft0nqbDCNEnMhjAv4Ll1ywVpQG/qvwg37L
-=pQIb
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmR9gTsTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6E7fCAC0FmT9OuEgDFNhT5cAstIy0lRyA0lh
+jAS305pLEGwbJwLt4qY61fmTdaDf/13Jaba/jPe75Y8spHmPzEwZUWgGQUdzXfNG
+xMLXf4mj6DDgj7GQdD/CSWVAt9rD2wSjl59ZlZPD0IxjcUXYFmLeRFCMIcvbPfNX
+phFnA42TWH+rVHcEbfLps+5C8G6KarHE2N4SisYoYrmj8opSAOns1H399SopuOl1
+dEhvinHTTWKNXBNFdG9qB/+S0Qqpe7KfKgc49SWjRfs41+VfgiwgC+hjWIDN5hUo
+BMJEFRCyBT9mRld5nXb9qr3MAqJiBDqyhLgDJksQP4mcDbrCAZl2b8yA
+=PqRE
 -----END PGP SIGNATURE-----
 
---===============5463164316570132501==
+--===============1443382915148825152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36a6418bb125-628f725d3b09.txt
+Content-Disposition: attachment; filename=revlist-6ad85ed0ebf7-8cde87b007da.txt
 
 4be8ddb48b1b6c6067fb59c846b9c6e19d6efe14 KVM: arm64: Slightly optimize flush_context()
 a00e9e4319c2a8a8b166da028292de83190e39a4 KVM: arm64: Use the bitmap API to allocate bitmaps
@@ -510,6 +515,13 @@ cb0ddaaa5db09d7d216fcbf0e68779be223a1128 wifi: rtw88: sdio: Always use two conse
 212457ccbd60dba34f965e4ffbe62f0e4f970538 wifi: b43: fix incorrect __packed annotation
 0642287e3ecdd0d1f88e6a2e63768e16153a990c dmaengine: idxd: Fix passing freed memory in idxd_cdev_open()
 38de368a66360f1859428d5e191b45bd01c20786 dmaengine: ti: k3-udma: annotate pm function with __maybe_unused
+aed0e6ca7dbb8fbea9bc69c9ac663d5533c8c5d8 can: kvaser_pciefd: Set CAN_STATE_STOPPED in kvaser_pciefd_stop()
+bf7ac55e991ca177f1ac16be51152f1ef291a4df can: kvaser_pciefd: Clear listen-only bit if not explicitly requested
+84762d8da89d29ba842317eb842973e628c27391 can: kvaser_pciefd: Call request_irq() before enabling interrupts
+c589557dd1426f5adf90c7a919d4fde5a3e4ef64 can: kvaser_pciefd: Empty SRB buffer in probe
+262d7a52ba27525e3c1203230c9f0524e48bbb34 can: kvaser_pciefd: Do not send EFLUSH command on TFD interrupt
+11164bc39459335ab93c6e99d53b7e4292fba38b can: kvaser_pciefd: Disable interrupts in probe error path
+c1e4f5a411dd354c2ad20deadd56eadb4a461bbc Merge patch series "can: kvaser_pciefd: Bug fixes"
 82b2bc279467c875ec36f8ef820f00997c2a4e8e tun: Fix memory leak for detached NAPI queue.
 412cd77a2c24b191c65ea53025222418db09817c cassini: Fix a memory leak in the error handling path of cas_init_one()
 1323e0c6e1d7e103d59384c3ac50f72b17a6936c net: dsa: mv88e6xxx: Fix mv88e6393x EPC write command offset
@@ -560,6 +572,7 @@ cba582631ee40772c6dbe24e945b9173572dfca0 Merge tag 'tpmdd-v6.4-rc2' of git://git
 59a556aebc43dded08535fe97d94ca3f657915e4 SMB3: drop reference to cfile before sending oplock break
 39428f6ea9eace95011681628717062ff7f5eb5f Merge tag 'kvmarm-fixes-6.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 4d6d4c7f541d7027beed4fb86eb2c451bd8d6fff Merge tag 'linux-kselftest-fixes-6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+36a6418bb125944838b91a33eddca4064a5eb610 Revert "ARM: dts: stm32: add CAN support on stm32f746"
 58caa2a51ad4fd21763696cc6c4defc9fc1b4b4f RDMA/hns: Fix timeout attr in query qp for HIP08
 7f3969b14f356dd65fa95b3528eb05c32e68bc06 RDMA/hns: Fix base address table allocation
 56518a603fd2bf74762d176ac980572db84a3e14 RDMA/hns: Modify the value of long message loopback slice
@@ -1050,9 +1063,5 @@ c308e9ec004721a656c193243eab61a8be324657 net/smc: Avoid to access invalid RMBs' 
 fdebd850cc065495abf1d64756496050bb22db67 net: enetc: correct rx_bytes statistics of XDP
 3d5f4d29f6a8c1f248ea652daddc9c4701370120 Merge branch 'enetc-fixes'
 8cde87b007dad2e461015ff70352af56ceb02c75 net: sched: wrap tc_skip_wrapper with CONFIG_RETPOLINE
-2a84aea80e925ecba6349090559754f8e8eb68ef can: j1939: j1939_sk_send_loop_abort(): improved error queue handling in J1939 Socket
-cd9c790de2088b0d797dc4d244b4f174f9962554 can: j1939: change j1939_netdev_lock type to mutex
-9f16eb106aa5fce15904625661312623ec783ed3 can: j1939: avoid possible use-after-free when j1939_can_rx_register fails
-628f725d3b090fadcc3735aaf4332e778335188e Merge patch series "can: j1939: avoid possible use-after-free when j1939_can_rx_register fails"
 
---===============5463164316570132501==--
+--===============1443382915148825152==--
