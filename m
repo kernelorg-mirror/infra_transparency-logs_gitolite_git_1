@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1067113561168911203=="
+Content-Type: multipart/mixed; boundary="===============4437925302380150633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 05 Jun 2023 13:03:46 -0000
-Message-Id: <168597022668.28018.2707127519625166858@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 13:06:29 -0000
+Message-Id: <168597038983.30448.16449422022915039353@gitolite.kernel.org>
 
---===============1067113561168911203==
+--===============4437925302380150633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/topic-rpc-with-tls-upcall
-    old: 992626e6338952c540dd06237f83e543e919554b
-    new: 2d474d095a9aa1a5ad98251bb77cc707cb367129
-    log: revlist-992626e63389-2d474d095a9a.txt
+  - ref: refs/heads/topic-shmem-stable-dir-cookies
+    old: 3d84f19334fc2f70310ebaf8926fc5fdd90dec69
+    new: 045021e2fe6cdda745a44d7b868e9c60e1c178be
+    log: revlist-3d84f19334fc-045021e2fe6c.txt
 
---===============1067113561168911203==
+--===============4437925302380150633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-992626e63389-2d474d095a9a.txt
+Content-Disposition: attachment; filename=revlist-3d84f19334fc-045021e2fe6c.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
@@ -398,21 +398,8 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
-da500f43df6e1e53eb8133e88e143754868bf175 NFS: Improvements for fs_context-related tracepoints
-599f691d9ef3b54f0beda2976fc1b157af440a26 SUNRPC: Plumb an API for setting transport layer security
-ac13be5fcb1d8bb2be9c6fd2cf5513f891e7e1cc SUNRPC: Trace the rpc_create_args
-c404fdb47b03ca376f785748dfeb0e57c4ffc7cb SUNRPC: Add RPC client support for the RPC_AUTH_TLS auth flavor
-b35234e0ea5a0fc7e06029a3622317174107b83b SUNRPC: Ignore data_ready callbacks during TLS handshakes
-651443225ba565a2ac55b83261df13dfac66a504 SUNRPC: Capture CMSG metadata on client-side receive
-abbcfe2dc7e8af20ad3dbc42dcfffe321f9d4ec8 SUNRPC: Add a TCP-with-TLS RPC transport class
-bdcbaa70f26d10c6698ceeba15f2a2b2c0c7ed30 NFS: Have struct nfs_client carry a TLS policy field
-357bb72dc37b6287b90b6491311bdfe272d3df1d NFS: Add an "xprtsec=" NFS mount option
-7cda1c26c2a110a64d888f23eb0e641bb5dd2210 net/tls: Move TLS protocol elements to a separate header
-adb1e85e05056698b2d6cc8ee99e6c647a3f6d81 net/tls: Add TLS Alert definitions
-6c013872c69c9689ef2f1dfafdfb30453ca56bfd net/handshake: Add API for sending TLS Closure alerts
-6972a1d31888973e1fdb83ba8ef87845cf3338ff SUNRPC: Send TLS Closure alerts before closing a socket
-2727ada57e7cf3b62ba987766565345e0a77b73d net/handshake: Add helpers for parsing incoming TLS alerts
-b13f94980877366d727f74014c65cd34d43e70f2 SUNRPC: Use new helpers to handle TLS Alerts
-2d474d095a9aa1a5ad98251bb77cc707cb367129 net/handshake: Add trace events for TLS Alert helpers
+ffa148cbf62fd494c5789b7941aee752eb95988a libfs: Add directory operations for stable offsets
+f09232d5d725d54b130526b4686022859bbc692d shmem: Refactor shmem_symlink()
+045021e2fe6cdda745a44d7b868e9c60e1c178be shmem: stable directory offsets
 
---===============1067113561168911203==--
+--===============4437925302380150633==--
