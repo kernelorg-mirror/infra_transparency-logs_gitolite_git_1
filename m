@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0045761807041532925=="
+Content-Type: multipart/mixed; boundary="===============6390865027858940728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 05 Jun 2023 10:08:58 -0000
-Message-Id: <168595973882.5774.18413514369293133618@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 10:09:26 -0000
+Message-Id: <168595976694.6020.4918819954385834084@gitolite.kernel.org>
 
---===============0045761807041532925==
+--===============6390865027858940728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 1fe677095e23d348037f824ffcabec2e38893633
-    new: c2f09b03b611372c80931855a368cf86e1665613
-    log: revlist-1fe677095e23-c2f09b03b611.txt
+  - ref: refs/heads/m68k-queue
+    old: ff9f8a50def6cb6e1984675c1e02a3b8d349502e
+    new: 54f3a96cf9b2a0fd7c611ae1fcaf28e1f4dfd77f
+    log: revlist-ff9f8a50def6-54f3a96cf9b2.txt
 
---===============0045761807041532925==
+--===============6390865027858940728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fe677095e23-c2f09b03b611.txt
+Content-Disposition: attachment; filename=revlist-ff9f8a50def6-54f3a96cf9b2.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
@@ -398,6 +398,11 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
-c2f09b03b611372c80931855a368cf86e1665613 Merge tag 'v6.4-rc5'
+72e9319a3ea80e778623278e850a1581d67a079e nubus: Partially revert proc_create_single_data() conversion
+6b5a87be54c79adbde6b07f7726ce8c044f36ed5 nubus: Remove proc entries before adding them
+601ed3f71b65391b7131303c8f28f2c2f48cf1b8 nubus: Don't list slot resources by default
+2b7ffddc75b8a33791cc1bb843c50d47d1c39233 m68k: atari: usb: Add ISP1160 USB host controller support
+ca61c8f6a0923ec448ba5dd03a83e91e971750d9 m68k: atari: Update Kconfig.bus help text
+54f3a96cf9b2a0fd7c611ae1fcaf28e1f4dfd77f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0045761807041532925==--
+--===============6390865027858940728==--
