@@ -1,47 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2309310180584648703=="
+Content-Type: multipart/mixed; boundary="===============7601651213068529229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 05 Jun 2023 09:37:36 -0000
-Message-Id: <168595785609.4249.14231827133418780345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 05 Jun 2023 09:46:43 -0000
+Message-Id: <168595840322.23852.7092072136499202001@gitolite.kernel.org>
 
---===============2309310180584648703==
+--===============7601651213068529229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 84d5372e0f314fb85258229768641315d1a95773
-    new: 61395b9756bd5614e204ba22b9c75fd47c24a999
-    log: revlist-84d5372e0f31-61395b9756bd.txt
+  - ref: refs/heads/master
+    old: 90b12595bbe3357fdbccf5eec6c3885e53bc614e
+    new: 7db2e6373b3d2a9098405a73681d80e38bcd58e5
+    log: revlist-90b12595bbe3-7db2e6373b3d.txt
 
---===============2309310180584648703==
+--===============7601651213068529229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84d5372e0f31-61395b9756bd.txt
+Content-Disposition: attachment; filename=revlist-90b12595bbe3-7db2e6373b3d.txt
 
-a8a36ccbdc1976b4bd567d079105eaab870ae328 clk: renesas: rzg2l: Support sd clk mux round operation
-f506122edfadd1b7acc9c3c89c40320cdb0f9183 can: rcar_canfd: Use devm_reset_control_get_optional_exclusive
-91b9068ab35e462ba0a2e7c6350dba44482e4171 can: rcar_canfd: rcar_canfd_probe: Add struct rcar_canfd_hw_info to driver data
-9bbb400b9e6cc51b8457077bba4652146d7f8533 pinctrl: renesas: rzg2l: remove unnecessary check from rzg2l_dt_node_to_map()
-d3a9f2ef3ef202ecffe56dc0fb7f76612a5fe0cd dt-bindings: arm: renesas: Document Renesas RZ/V2M System Configuration
-3f6af3f4aff470b2979417cfb77c7821ed3cefb0 soc: renesas: Identify RZ/V2M SoC
-7364dd8de8eda3c95601eab6e05ed4d2284bc48a dt-bindings: dma: rz-dmac: Document clock-names and reset-names
-34ca4b163a90955dec2fbab6de3b59599319ed08 dmaengine: sh: rz-dmac: Add reset support
-9ab22f725112e2456b759053ac2d8aeb4a8894b9 dmaengine: sh: rz-dmac: Remove unused rz_dmac_chan.*_word_size
-077421140a2af7e5f7c1bb21c62f749b68a9e95c arm64: dts: renesas: rzg2l: Add clock-names and reset-names to DMAC nodes
-c6db393736b8edb88955c28640dfbb0bb1183ca8 clk: renesas: r9a09g011: Add TIM clock and reset entries
-10bf1d956c44bb76205c79d37500f1241379a749 arm64: dts: renesas: r9a09g011: Reword ethernet status
-9fa555291b8f448b8b01273ab3913f6c3f47e6a9 arm64: dts: renesas: r9a09g011: Add L2 Cache node
-641f17977e45ac659ab58bb2df4360eb6fc11bf7 arm64: dts: renesas: r9a09g011: Add system controller node
-f4b5d74275934cec0020e883c56577023c652ebd arm64: dts: renesas: r9a09g011: Add watchdog node
-e1bbbb9a35c82d10d557dfae578a9e204cc88692 arm64: dts: renesas: rzv2mevk2: Enable watchdog
-61395b9756bd5614e204ba22b9c75fd47c24a999 dt-bindings: i2c: renesas,rzv2m: Change maintainer to Fabrizio Castro
+3a14fb35bec78674068fd234a839bb3588163fa5 tests: fix subtests containing spaces in their name
+37b2b3fa46d8c4264d3cdb6faff05f852b59ce8e misc: constify some fields
+9b6ad16fd9a66665fd7043131e848500c6bffd95 lsfd-filter: constify filter logic
+6f052eaa1e8e83eb97e0a800f3e9585f587ecd5e libmount (python) : simplify struct initialization
+d2f4b5c83b7376941e35b064200b8bf3d66ca499 libblkid: (bcache) extend superblock definition
+7140635881f620172e90814b5a5043f250963ce0 libblkid: (bcache) also calculate checksum over journal buckets
+11d0724f789726fb6344ffb025e1754b7dcaa0c4 libblkid: (bcache) report label
+1b2efad216d3ca4421f51259daeb777f5c919d66 libblkid: (bcache) report version
+9bd80748620a75a34a4788535f89be37dbdeaab3 libblkid: (bcache) report block size
+16d8b1e2a62f81ac368438a730d5e57cd2778f55 libblkid: jfs - avoid undefined shift
+57cd868ed19fd2987822d23691145b5f754b1851 Merge branch 'fixes' of https://github.com/t-8ch/util-linux
+b7dd45f6c827642dbdf452895d5319575e4176b1 Merge branch 'libblkid/bcache-csum' of https://github.com/t-8ch/util-linux
+7db2e6373b3d2a9098405a73681d80e38bcd58e5 Merge branch 'fix-jfs' of https://github.com/mbroz/util-linux
 
---===============2309310180584648703==--
+--===============7601651213068529229==--
