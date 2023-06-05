@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0122385121906720449=="
+Content-Type: multipart/mixed; boundary="===============8644136268290285293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 05 Jun 2023 05:43:57 -0000
-Message-Id: <168594383778.32404.11304348419751054595@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 05:44:02 -0000
+Message-Id: <168594384262.32497.8639228096200772811@gitolite.kernel.org>
 
---===============0122385121906720449==
+--===============8644136268290285293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 403e97d6ab2cb6fd0ac1ff968cd7b691771f1613
-    new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
-    log: revlist-403e97d6ab2c-9561de3a55be.txt
+  - ref: refs/heads/tty-next
+    old: 49c80922ff8115bc86c82e5fc9e6842cd87db689
+    new: 2076b2a4a6b7e36a33dad178ff6f7c45657b00cc
+    log: revlist-49c80922ff81-2076b2a4a6b7.txt
 
---===============0122385121906720449==
+--===============8644136268290285293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685943837 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685943841 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1685943836-a9a394bcbda1570f192a977f6bf87d5638b48913
+nonce 1685943840-c7549025f8838c49b74834a4f8753ca6f616d37c
 
-403e97d6ab2cb6fd0ac1ff968cd7b691771f1613 9561de3a55bed6bdd44a12820ba81ec416e705a7 refs/heads/tty-linus
+49c80922ff8115bc86c82e5fc9e6842cd87db689 2076b2a4a6b7e36a33dad178ff6f7c45657b00cc refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9dh0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ge4P/0BYTxM2DKpbvJ1n1SlP
-f9kuoPdLGR+QZiuKoH+9nkLG0B3WjQUBtdHMuOy35WJCrjnqv5weGDB5FVW2K5JX
-8Pz9j+lW5cRsrR9Vwu747Ls4QzKB0Gw+UxcT5OPumrU2xh9u7m4ex46FoIt7NfKG
-u4Kt+gO/Wji1hsjTa0x4DNV8wP7pvPNhbMWEAljPFoq2csep1VsO303FCumLvp9z
-PE4TvBvX5l3d2UUFUyy79UDlFospBSYDYy30Jz7pKEGsv8M7mHAetLAwIPQ6JXmf
-2TcNREjFTx37MFAnx+Ss4JppgNXjaTND8jWpBSGWXKKKxKpbpGMRHL4aJX83Qu3V
-JcCbyEidgorZCVLWZq5YJ0JPWPExQPASDFTmY46ELr7Go7o0I0LZgHrDYKvpxn3E
-hQ3pjhCQYQGRb28VG6NnPJsg99YHiJZhwerTOlyM6kgdRvKKXr10+R8F7Ql2GxUr
-DiNFbPvr3q3fGuDSXcA/3ZFZ9SWZHqZeKStGNgTA6jeOA27RUPkPow0lLOK4NcTg
-nqG/oU+rzguIf/FfYkawhru/oCNQzlaYUe11dImU9EeWpJdXS2CyNGTxHqjzOg3N
-PTYc08UPzMX8Hn79qJT+hN333eZZU/EIUIvPhttoKdzz6gpxZdTBod5e0PHyflOo
-I2rs9q6n+EX8fLl7Ezpdoj74
-=5F6v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9diEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ty4P/3586sph3DY+a0Qp5kKH
+kSb7khl0PpWefLbtwmHYKvbwWV2WhY0PVioSkqB/BIFqURWhk5OcYPr/ChNmbjJN
+I1CC+Jp7USr8+12XDEvKXq593K2TGoh3jVTAERX5nmcwDWWIE4f2/UvqZEQsG5k9
+5ocmsmqBt8yIYHTz88eEFJNYkkMyT7DtWQp6M1Hyn5vsp+cyeAmv8Hp4By1RCiRN
+AGabR+GdwAo30sG3l5puGpFfouAtUkl3DculF9sdikEWrUaCGTab2lm65cTEe/MZ
+X3xBFZ0w+MZFB13OSiPV6QXBdT/Wi15BUadNv4Tipq8Ut5uPfWTtIMM9Lky5XumB
+9PPbVSthYiR51jRduf6/51Pr9mzVvFUYNzKzHmMPeeUU/FtoZYEo9VHHSeHuaoVO
+mRc54kJ1/vxP2WV63CpRCasFtQrDd4zguh31jfXV+fkvWeR6EN1Q4AfV5EkQNcLN
+/E7Lwyj6bsOdYubIvnWYS/ukSRTn2xTj4Vr4VZzN1ULdTCk0ijyE0Gsn+hb0c7d9
+qVn0haNQxQXSwr+QusGU9gRV44ZeQJ7lRGb936eP9oiURZOm2MGCKcwngYH32qql
+9CXbib63st0XYKk3q8bP+dud04l/6yjvkL/RFulQxyN2/HHc+J7nR2Hz8LT4dvlC
+pvEnsKkG62/MWnsniBitMdJz
+=Choe
 -----END PGP SIGNATURE-----
 
---===============0122385121906720449==
+--===============8644136268290285293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-403e97d6ab2c-9561de3a55be.txt
+Content-Disposition: attachment; filename=revlist-49c80922ff81-2076b2a4a6b7.txt
 
 654d0310007146fae87b0c1a68f81e53ad519b14 optee: fix uninited async notif value
 0cce06ba859a515bd06224085d3addb870608b6d debugobjects,locking: Annotate debug_object_fill_pool() wait type violation
@@ -588,6 +588,10 @@ d83013bdf90a7994a474b0e650a7fc94b0d4ded6 selftests: mptcp: connect: skip if MPTC
 cf6f0fda7af7e8e016070bfee6b189e671a0c776 selftests: mptcp: sockopt: skip if MPTCP is not supported
 63212608a92a1ff10ae56dbb14e9fb685f7e4ffa selftests: mptcp: userspace pm: skip if MPTCP is not supported
 7ba0732c805fdc623494ff36245d84222ba893e3 Merge branch 'selftests-mptcp-skip-tests-not-supported-by-old-kernels-part-1'
+134f49dec0b6aca3259cd8259de4c572048bd207 serial: 8250_tegra: Fix an error handling path in tegra_uart_probe()
+2474e05467c00f7d51af3039b664de6886325257 tty: serial: fsl_lpuart: use UARTCTRL_TXINV to send break instead of UARTCTRL_SBK
+192d43e91e0fdbd51b64ba36e773cbdf38dda505 soc: fsl: cpm1: Fix TSA and QMC dependencies in case of COMPILE_TEST
+7183c37fd53eee1e795206e625da12a5d7ec1e1a serial: cpm_uart: Fix a COMPILE_TEST dependency
 fcfe84236ec0974fe92f0578d1d58ed805c4b70f usb: typec: tps6598x: Fix broken polling mode after system suspend/resume
 31a5978243d24d77be4bacca56c78a0fbc43b00d nvme: fix miss command type check
 ea4d453b9ec9ea279c39744cd0ecb47ef48ede35 nvme: double KA polling frequency to avoid KATO with TBKAS on
@@ -693,6 +697,7 @@ fef5b228dd38378148bc850f7e69a7783f3b95a4 rtnetlink: move IFLA_GSO_ tb check to v
 2e45a49531fef55f4abbd6738c052545f53f43d4 Merge tag 'nvme-6.4-2023-06-01' of git://git.infradead.org/nvme into block-6.4
 a451b8eb96e521ebabc9c53fefa2bcfad6f80f25 Merge tag 'mlx5-fixes-2023-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 42c4e97e06a839b07d834f640a10911ad84ec8b3 selinux: don't use make's grouped targets feature yet
+403e97d6ab2cb6fd0ac1ff968cd7b691771f1613 dt-bindings: serial: 8250_omap: add rs485-rts-active-high
 f9010dbdce911ee1f1af1398a24b1f9f992e0080 fork, vhost: Use CLONE_THREAD to fix freezer/ps regression
 714069daa5d345483578e2ff77fb6f06f4dcba6a Merge tag 'net-6.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b0e78154c0876a46ec874615262bd3ea58b80788 Merge tag 'mtd/fixes-for-6.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
@@ -742,5 +747,6 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
+2076b2a4a6b7e36a33dad178ff6f7c45657b00cc Merge 6.4-rc5 into tty-next
 
---===============0122385121906720449==--
+--===============8644136268290285293==--
