@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 05 Jun 2023 22:31:17 -0000
-Message-Id: <168600427703.1164.2351811962163715708@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 22:31:57 -0000
+Message-Id: <168600431721.1530.15886782024783840426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: ee308eaff66f3d565297b3577f848b737552191a
+  - ref: refs/heads/for-next/kspp
+    old: 4cc6886bd8b34b72cfc8f37d1d794156109988c9
     new: b2f10148ec1eae7d63dd6a1a56afdf93a27daa74
     log: |
          8762606ae22e71ec65249cdbf809e3dc7ea8ea1e riscv/purgatory: Do not use fortified string functions
