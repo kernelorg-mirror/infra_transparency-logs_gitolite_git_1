@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1407372159021202619=="
+Content-Type: multipart/mixed; boundary="===============6805755213418880124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 05 Jun 2023 10:12:04 -0000
-Message-Id: <168595992407.8445.6446719987285394287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Mon, 05 Jun 2023 10:15:17 -0000
+Message-Id: <168596011764.11085.13706514247565978439@gitolite.kernel.org>
 
---===============1407372159021202619==
+--===============6805755213418880124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
   - ref: refs/heads/master
-    old: d8763154455e92a2ffed256e48fa46bb35ef3bdf
-    new: 7ec85f3e089aa423a69559bf4555b6218b5a2ef7
-    log: revlist-d8763154455e-7ec85f3e089a.txt
+    old: 7dd86cf80127aeef8a447c81228a77f0f25cc211
+    new: 11704531dde45bc667a411e1c76de81d9f4481b8
+    log: revlist-7dd86cf80127-11704531dde4.txt
 
---===============1407372159021202619==
+--===============6805755213418880124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8763154455e-7ec85f3e089a.txt
+Content-Disposition: attachment; filename=revlist-7dd86cf80127-11704531dde4.txt
 
-dffc4b5c086cf1d3dae4761427122a56b9d1253a arm64: dts: qcom: sm8250: drop incorrect domain idle states properties
-1766e9155d086cd238c24113a7be9740d35c2ebe arm64: dts: qcom: sdm845: drop incorrect domain idle states properties
 ac7944f01b771af7718a81793ca5b38b0e3a0c21 arm64: dts: qcom: sm6375: drop incorrect domain idle states properties
 770f85c19536fde3591f4f2f70ac32f33d86b975 arm64: dts: qcom: sm8150: drop incorrect domain idle states properties
 7983224c6a6cea77aa0b9b4e23bb7651241df961 arm64: dts: qcom: sm8350: drop incorrect domain idle states properties
@@ -998,6 +996,7 @@ c3da2c6eeb10e71cc7be33c4b17ced60024fd9b0 tpm/tpm_tis: Convert to platform remove
 7b69ef62034492b816c65b1d15b45834df2b194e tpm/tpm_tis_synquacer: Convert to platform remove callback returning void
 77218e83c83c1cd4b994edfb5b162ece42e73ffe tpm_tis: fix stall after iowrite*()s
 bd8621ca1510e6e802df9855bdc35a04a3cfa932 tpm: Add !tpm_amd_is_rng_defective() to the hwrng_unregister() call site
+c9c8133080c75ce2440001d765dbe8c24f932ea2 Merge branch 'for-6.4/doc' into for-linus
 1a261a6e10e80cd7c69c3f5bdf47cd41f928fd08 scripts: Remove ICC-related dead code
 d88867a24fa7e9c75b8f86df20d4f40e2fe61e9b Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 b9dff2195f8a5847fad801046b26955e05670d31 Merge tag 'iter-ubuf.2-2023-04-21' of git://git.kernel.dk/linux
@@ -1050,5 +1049,6 @@ d53c3eaaef6a05fec04e8b5990d97d7216eb5e42 Merge tag 'soc-dt-6.4' of git://git.ker
 53b5e72b9d89853b7e622239676163ede52acffe Merge tag 'asm-generic-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 df45da57cbd35715d590a36a12968a94508ccd1f Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 7ec85f3e089aa423a69559bf4555b6218b5a2ef7 Merge tag 'printk-for-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+11704531dde45bc667a411e1c76de81d9f4481b8 Merge tag 'livepatching-for-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============1407372159021202619==--
+--===============6805755213418880124==--
