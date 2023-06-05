@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6507060985075915594=="
+Content-Type: multipart/mixed; boundary="===============7945261541508357644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 05 Jun 2023 05:20:26 -0000
-Message-Id: <168594242613.15930.16222543062873219471@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 05:20:30 -0000
+Message-Id: <168594243041.16037.13545994005179741303@gitolite.kernel.org>
 
---===============6507060985075915594==
+--===============7945261541508357644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+  - ref: refs/heads/char-misc-linus
+    old: 48e156023059e57a8fc68b498439832f7600ffff
     new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
-    log: revlist-7877cb91f108-9561de3a55be.txt
+    log: revlist-48e156023059-9561de3a55be.txt
 
---===============6507060985075915594==
+--===============7945261541508357644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685942425 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685942429 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685942425-74b58336720b5d596b8f9490e15c66b0732fb89b
+nonce 1685942428-5b178daa25e3cea8f298cc5025d4b0486a0b2e90
 
-7877cb91f1081754a1487c144d85dc0d2e2e7fc4 9561de3a55bed6bdd44a12820ba81ec416e705a7 refs/heads/main
+48e156023059e57a8fc68b498439832f7600ffff 9561de3a55bed6bdd44a12820ba81ec416e705a7 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9cJkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Kh4QAJc1BqcSQ0QeuaFxucQf
-NEHAmbtKf/9AMMOCLYE/3S+RIejQlBUJb84DnvONfCEhy4fDm0wVcEdiAaRaZ00J
-nxm4bx/Te66ylEGBb/iWiCA0bJCeoq/lg5vY+iSAziA0/d0is/oH2NEVntwoU0s7
-7pLFpwnyi8l2jfjSZ+iucGsPG5gnvCU0Vpi3XJqDrOZzfIJgHqrB+Wk9w6QRY4RK
-VXxVcA1AgEMuUhXCkkA8MOd+KYu67xCZwFGcTfn3d5/orutBLIyvErOnb/ZbUpPu
-GVFoz4NMGV9tg7TmAVl8yVb64FbWQDz1ff56yhdcYqQkL2WvPhMJ59S94WsKVKZt
-6ZbG/m+GaBFO7uMAtWi4TmWCg4haMI3poZLOSFJgF3RpCA9IWSNfPNMeisonZ/sg
-d/vnXAwDdo9/W6tKqrk70RCbHeg3C2tLbWV66kl8/R2ixiY3TVPsvtuY0MrqzSKe
-89PwYK7YV/ykZiS6uk4YRSYYPJrv7SeSHpWBjmaGEx9BNBl37Rx/hs0HdRYg9tIx
-1y5g+5HLzGVjgagdDp4ossSnl31k12PEqAK54z40bRHaRQj+S8qOgwQ66Qi3QjZH
-4/Ii6VHIhnAZcsZIoo+AqpArjiK4LEG2mBzc+tp5KQhtGwU/og9cralTxa8pf8vx
-iysbLjxtotetjzlIILpP9gvO
-=FJ5y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9cJ0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AYQQAJVrkWLZby42eoMtKuQu
+d6m7628C3iLni/K3XmS0kxGpCKbO14BDrgDmm9zqpYUMQ0dSii6vbdciz3JzVslR
+oFPiUlAx/znHxWqVHLx0pPcvuZRtIY86JcVyx47WBwDT6EhpCf6Qchpx4L0KlKyJ
+12o31hBYL/HLCfy1KnBiLg60l07oJFqiCwoKAHe2ygRgmjdAyijNU1ld6Tga+1oK
+9m1lI4mTSKPhUJOt+ph7HnxF0lnJ9/Yao2F12OvDGZqgcGY3Nr5sag/aYoFGkYH9
+5YiPlkFsX3dSDkHK+dYdyxqrA4SjqbThdSvvw0TaceQwvcHDb9YAN1/dn31eKZvg
+wbqiqiAXlZ87UqhI1lHgk8qvHgXbq0pLTwN+M52lf+ru7x0k1YFMGe8q45uBYt4S
+l61HoUrmA8R40UeYq/eht/SzG4Hjw0D1DhJm1oF7ew+K1fIcmyPKiqOZp7QDQHeH
+PAEYiq8e1PfJ8/5uUJjqm03ySUCng5ONvQDT/AzOTjz3hPCkLDBzxrREqEJyaOvM
+O2Dz9GD1m1KF6UiVfHMqRzfIQL2Om8pfXEPlJ9gXdJrk7OjjERsOQtLeTdOkHdR6
+WJP2eFWC5ETnKkcZwvZ56mNNIYAxNY4UtJwjUJNQBm5pA2pOuZq0fobP/iXxYf08
+Is9JIkD3wGp8tL/IqNO/yiYW
+=KCYG
 -----END PGP SIGNATURE-----
 
---===============6507060985075915594==
+--===============7945261541508357644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7877cb91f108-9561de3a55be.txt
+Content-Disposition: attachment; filename=revlist-48e156023059-9561de3a55be.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
 e42f110700ed7293700c26145e1ed07ea05ac3f6 phy: qcom-qmp-pcie-msm8996: fix init-count imbalance
 08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
 78b6a9a3f445e121ca08195084206cb8faa6999f MAINTAINERS: Update maintainers of HiSilicon RoCE
-20f291b88ecf23f674ee2ed980a4d93b7f16a06f iio: adc: imx93: fix a signedness bug in imx93_adc_read_raw()
-00ffdd6fa90298522d45ca0c348b23485584dcdc iio: adc: mt6370: Fix ibus and ibat scaling value of some specific vendor ID chips
-265c82ea8b172129cb6d4eff41af856c3aff6168 iio: tmag5273: Fix runtime PM leak on measurement error
-28f73ded19d403697f87473c9b85a27eb8ed9cf2 iio: ad4130: Make sure clock provider gets removed
-27b2ed5b6d53cd62fc61c3f259ae52f5cac23b66 iio: adc: mxs-lradc: fix the order of two cleanup operations
-279c3a2a5eb2c1054fbe38e5c33be08584229047 iio: adc: palmas: fix off by one bugs
-672cde9ef80ffde9e76d38f7aa2b287c4a18de9a iio: fix doc for iio_gts_find_sel_by_int_time
-b7b04f393ffa1530213f522115e7d77761eb5c4f iio: bu27034: Fix integration time
-e65065132fa6d9e1fd3b7418eae5215e3b7bf6c7 iio: gts-helpers: fix integration time units
-79b8ded9d9c595db9bd5b2f62f5f738b36de1e22 iio: accel: st_accel: Fix invalid mount_matrix on devices without ACPI _ONT method
-e55245d115bb9054cb72cdd5dda5660f4484873a iio: adc: ad7192: Change "shorted" channels to differential
-9c0d6ccd7d6bbd275e390b55a3390b4274291d95 iio: adc: stm32-adc: skip adc-diff-channels setup if none is present
-3e27ef0ced49f8ae7883c25fadf76a2086e99025 iio: adc: stm32-adc: skip adc-channels setup if none is present
-72c1d11074d6160f19760d57fc78b2a7f52bcb1a dt-bindings: iio: imx8qxp-adc: add missing vref-supply
-a551c26e8e568fad42120843521529241b9bceec iio: light: vcnl4035: fixed chip ID check
-24febc99ca725dcf42d57168a2f4e8a75a5ade92 iio: addac: ad74413: fix resistance input processing
-a146eccb68be161ae9eab5f3f68bb0ed7c0fbaa8 iio: dac: build ad5758 driver when AD5758 is selected
-d049151adde4ec17392592d145e94f0086f8ee80 iio: bu27034: Ensure reset is written
-56cd3d1c5c5b073a1a444eafdcf97d4d866d351a iio: accel: kx022a fix irq getting
-09d3bec7009186bdba77039df01e5834788b3f95 iio: dac: mcp4725: Fix i2c_master_send() return value handling
-55720d242052e860b9fde445e302e0425722e7f1 dt-bindings: iio: adc: renesas,rcar-gyroadc: Fix adi,ad7476 compatible value
 03262a3f5b5b910c7c2900c2f8884832794355f5 phy: mediatek: rework the floating point comparisons to fixed point
 b949193011540bb17cf1da7795ec42af1b875203 phy: amlogic: phy-meson-g12a-mipi-dphy-analog: fix CNTL2_DIF_TX_CTL0 value
 2a881183dc5ab2474ef602e48fe7af34db460d95 phy: qcom-snps: correct struct qcom_snps_hsphy kerneldoc
@@ -105,8 +84,6 @@ c38b8400aef99d63be2b1ff131bb993465dcafe1 KVM: arm64: vgic: Fix locking comment
 349e3c0cf239cc01d58a1e6c749e171de014cd6a RDMA/bnxt_re: Fix a possible memory leak
 0fa0d520e2a878cb4c94c4dc84395905d3f14f54 RDMA/bnxt_re: Fix return value of bnxt_re_process_raw_qp_pkt_rx
 dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868 RDMA/bnxt_re: Do not enable congestion control on VFs
-626d312028bec44209d0ecd5beaa9b1aa8945f7d iio: adc: ad_sigma_delta: Fix IRQ issue by setting IRQ_DISABLE_UNLAZY flag
-bbaae0c79ebd49f61ad942a8bf9e12bfc7f821bb iio: imu: inv_icm42600: fix timestamp reset
 e332003bb216a9f91e08004b9e2de0745f321290 iommu: Make IPMMU_VMSA dependencies more strict
 ec014683c564fb74fc68e8f5e84691d3b3839d24 iommu/rockchip: Fix unwind goto issue
 ed8a2f4ddef2eaaf864ab1efbbca9788187036ab iommu/amd: Don't block updates to GATag if guest mode is on
@@ -214,7 +191,6 @@ fdd7d1fff4e3b97c4706f4c0e000a38b134b7ae5 cifs: address unused variable warning
 d78bd6cc68276bd57f766f7cb98bfe32c23ab327 fbcon: Fix null-ptr-deref in soft_cursor
 b3e6bcb94590dea45396b9481e47b809b1be4afa ext4: add EA_INODE checking to ext4_iget()
 36e4fc57fc1619f462e669e939209c45763bc8f5 efi: Bump stub image version for macOS HVF compatibility
-bca7a46336e38667f7670aacd2098dc45b8b7868 Merge tag 'iio-fixes-for-6.4a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 dca389eb958f982406df8199af40fefe1b881b84 Merge tag 'dmaengine-fix-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 e338142b39cf40155054f95daa28d210d2ee1b2d Merge tag 'phy-fixes-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 e8352cf5778c53b80fdcee086278b2048ddb8f98 tracing: Move setting of tracing_selftest_running out of register_tracer()
@@ -226,10 +202,6 @@ ac2263b588dffd3a1efd7ed0b156ea6c5aea200d Revert "module: error out early on conc
 7a6c8e512fa072cfe8ad7a3b26666b6f26435870 Merge tag 'v6.4-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 8b817fded42d8fe3a0eb47b1149d907851a3c942 Merge tag 'trace-v6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ed309ce522185583b163bd0c74f0d9f299fe1826 RISC-V: mark hibernation as nonportable
-a6e766dea0a22918735176e4af862d535962f11e misc: fastrpc: Pass proper scm arguments for secure map request
-3c7d0079a1831118ef232bd9c2f34d058a1f31c2 misc: fastrpc: Reassign memory ownership only for remote heap
-b6a062853ddf6b4f653af2d8b75ba45bb9a036ad misc: fastrpc: return -EPIPE to invocations on device removal
-46248400d81e2aa0b65cd659d6f40188192a58b6 misc: fastrpc: reject new invocations during device removal
 dbe678f6192f27879ac9ff6bc7a1036aad85aae9 usb: cdns3: fix NCM gadget RX speed 20x slow than expection at iMX8QM
 efb6b535207395a5c7317993602e2503ca8cb4b3 usb: gadget: f_fs: Add unbind event before functionfs_unbind
 016da9c65fec9f0e78c4909ed9a0f2d567af6775 usb: gadget: udc: fix NULL dereference in remove()
@@ -256,9 +228,6 @@ c8f304d75f6c6cc679a73f89591f9a915da38f09 RDMA/irdma: Prevent QP use after free
 b24aa141c2ff26c919237aee61ea1818fc6780d9 net/smc: Scan from current RMB list when no position specified
 71c6aa0305e3d2365d3bfd0134b4025d9e7ba388 net/smc: Don't use RMBs not mapped to new link in SMCRv2 ADD LINK
 111d467485e647843d0ac9862cb290a8445c7167 Merge branch 'two-fixes-for-smcrv2'
-929f4e7c06ca40c8e58b418c94708d880518d9b4 MAINTAINERS: update Microchip MPF FPGA reviewers
-9da6225bc7377941acff4476493d515b9fdfea48 dt-bindings: fpga: replace Ivan Bornyakov maintainership
-71698da37ce70c457751baea507a122851a2d481 MAINTAINERS: Vaibhav Gupta is the new ipack maintainer
 91539341a3b6e9c868024a4292455dae36e6f58c irqchip/gic: Correctly validate OF quirk descriptors
 1919b39fc6eabb9a6f9a51706ff6d03865f5df29 net: mana: Fix perf regression: remove rx_cqes, tx_cqes counters
 d328fe87067480cf2bd0b58dab428a98d31dbb7e selftests: mptcp: join: avoid using 'cmp --bytes'
@@ -316,10 +285,6 @@ c034203b6a9dae6751ef4371c18cb77983e30c28 nfsd: fix double fget() bug in __write_
 fd2186d1c708fa0ec64291da5aa6b26fb44197c3 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 884fe9da1b7ccbea31b118f902fbc78f58366b4a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 8fe72b76db79d694858e872370df49676bc3be8c mailbox: mailbox-test: fix a locking issue in mbox_test_message_write()
-ffa28312e2837ae788855840e126fa6f8a1ac35d firmware_loader: Fix a NULL vs IS_ERR() check
-4acfe3dfde685a5a9eaec5555351918e2d7266a1 test_firmware: prevent race conditions by a correct implementation of locking
-be37bed754ed90b2655382f93f9724b3c1aae847 test_firmware: fix a memory leak with reqs buffer
-48e156023059e57a8fc68b498439832f7600ffff test_firmware: fix the memory leak of the allocated firmware buffer
 126310c9f669c9a8c875a3e5c2292299ca90225d drivers: base: cacheinfo: Fix shared_cpu_map changes in event of CPU hotplug
 c26fabe73330d983c7ce822c6b6ec0879b4da61f drivers: base: cacheinfo: Update cpu_map_populated during CPU Hotplug
 6a07826f2057b5fa1c479ba56460195882464270 drm/amd/pm: reverse mclk and fclk clocks levels for SMU v13.0.4
@@ -430,4 +395,4 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
 
---===============6507060985075915594==--
+--===============7945261541508357644==--
