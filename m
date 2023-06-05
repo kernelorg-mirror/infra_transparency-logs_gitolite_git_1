@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0232975001361145143=="
+Content-Type: multipart/mixed; boundary="===============8758302601239339057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 05 Jun 2023 15:02:02 -0000
-Message-Id: <168597732295.13884.15707716225374215040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 05 Jun 2023 15:05:39 -0000
+Message-Id: <168597753941.16549.14622060999719998516@gitolite.kernel.org>
 
---===============0232975001361145143==
+--===============8758302601239339057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 533d22abbaf17f20504637bf756e9932c7dac004
-    new: fd2ed66281c82bbc5c873f5b858508dcbace84d7
-    log: |
-         fd2ed66281c82bbc5c873f5b858508dcbace84d7 6.3-stable patches
-         
+  - ref: refs/heads/timers/core
+    old: b7a7ce1bb77b19ff2859d365da96285340fbc145
+    new: 1263a2a9d71bac5ffabf9603c36e36cb6edbcdcf
+    log: revlist-b7a7ce1bb77b-1263a2a9d71b.txt
 
---===============0232975001361145143==
+--===============8758302601239339057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b7a7ce1bb77b-1263a2a9d71b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685977322 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1685977321-b940d297f7c14f6fe0dfc9f21399b3bfeacbbfe6
+1b59b2577582f9cf3d0f17245675a76859175cc1 posix-timers: Prevent RT livelock in itimer_delete()
+cec58cad4614f44b76624f8d62ef771c8725c483 posix-timers: Ensure timer ID search-loop limit is valid
+07ca14d623d8b0e6c4a0d3de4ca8a8ea35a85470 posix-timers: Clarify timer_wait_running() comment
+10338fd15894827fefc2bf28ed75c81ba1dbfceb posix-timers: Cleanup comments about timer ID tracking
+46c7863e061f64c96745003f699912667c2a1bd6 posix-timers: Add comments about timer lookup
+d69e873ee50459e3b77019263cf95236f063a97b posix-timers: Annotate concurrent access to k_itimer:: It_signal
+515eeda177b797d9a7d0c496739f0bdc02c73093 posix-timers: Set k_itimer:: It_signal to NULL on exit()
+032c960ac9f3d64487423e0e01a0fb7327509595 posix-timers: Remove pointless irqsafe from hash_lock
+e7441aa344046cbdcb402ac173fb163613471097 posix-timers: Split release_posix_timers()
+4898e5d912108c8a865ffb3fc0230559b40ca361 posix-timers: Document sys_clock_getres() correctly
+13a5dd88bb4c8aec6c3f808f75b73b1fe4705244 posix-timers: Document common_clock_get() correctly
+1adc8de86737c3d134c2da5ed8e56c2de4729923 posix-timers: Document sys_clock_getoverrun()
+6a0fc851449cdcad42f96e00854af4ac36a4b357 posix-timers: Document sys_clock_settime() permissions in place
+13da885685d6ae339f2924d3c8a1f4fe16a904cc posix-timers: Document nanosleep() details
+2ef6cf6d46b462a1ff7fb70ad8050a2b35077e19 posix-timers: Add proper comments in do_timer_create()
+b73b3beb88c26d3d6c644920fa83460ec5f6a559 posix-timers: Comment SIGEV_THREAD_ID properly
+93a62291070d2836b7cbaf20febadae6ae33934a posix-timers: Clarify posix_timer_rearm() comment
+63dede13d09850a8ace210f8e4227ac5a6b309ae posix-timers: Clarify posix_timer_fn() comments
+478a93ac9ed7da5e7cd98e00502b142e22dab4d7 posix-timers: Remove pointless comments
+1263a2a9d71bac5ffabf9603c36e36cb6edbcdcf posix-timers: Polish coding style in a few places
 
-533d22abbaf17f20504637bf756e9932c7dac004 fd2ed66281c82bbc5c873f5b858508dcbace84d7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9+OobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zQ8QAK4UBm2QVbejaKprElyg
-zEyQnof5bqSsFkywrKJx9+J9fJxJqF9HA8mDEH4oU81RV/t/jrI921A6tobRpTpJ
-/cXQ+NPoM6NKngaA7NJXfWZ4xNh5gIKEUH0PkawzejTZqRekxYrZuKbmSsXXAwN/
-juPNFWj9gp1zoBGnPnNIUWR/nWwR41dYfXC/IAickthLphfypR8x9mhsECsmYiLI
-EpXgt6rwEsxiTZVNKJ42wFXrA0cvc/Nczr3QzzneFgSTR/u68Tw6Mg1pOmOh1fKh
-S4bU3XdoW2gEZi/b2h1cyJFHocifaGzQgwuuSq3b0Ty+ZdjqE01iFm/qT3Ogohjq
-G4CRRzESJ13MZzQwn3m2HtEOwShwl9LCCnruWvzTSTTEpVSWM8JrJNMkIwihwcDK
-rNnN7UUHB3YonNxGl9C0gaXxD3USk9JLENcH3P4Yy2dhU0VWdSmO3OkvsblvclT6
-I08dFwtxS6kflqpJCCl4x6ceg+gNY1SxosOrP/l7V6uPgE0+NrCSVni4yLupoJv1
-Os9rqnKM0TkzlfTEdYh2OYhJNqosdVdGMmIzTgqJqDOO3KPOrl19c9DgHinPUj6K
-WPRedzHCADkTxFva6l/HXLf4u1tW8P7pOdRz3B4MKKGsu9zC2tDWcwi7abIkSuNG
-eH8/xFc/Ge8C0s16V2VDT+h4
-=NxYI
------END PGP SIGNATURE-----
-
---===============0232975001361145143==--
+--===============8758302601239339057==--
