@@ -1,36 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============7524495031114315189=="
+Content-Type: multipart/mixed; boundary="===============1851185960533833250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 05 Jun 2023 12:49:14 -0000
-Message-Id: <168596935487.17006.1355105969178579269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 05 Jun 2023 13:01:13 -0000
+Message-Id: <168597007340.26692.15225146935965544679@gitolite.kernel.org>
 
---===============7524495031114315189==
+--===============1851185960533833250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
   - ref: refs/heads/master
-    old: c6f027b1ddedc24bffa0d60dc92d2e774cf3e19e
-    new: f669ef29adafb15e4632ab82c733cdf32339a90e
-    log: revlist-c6f027b1dded-f669ef29adaf.txt
-  - ref: refs/tags/renesas-devel-2023-06-05-v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d54580d36ea5c4b8324d618feb649c82cba24aef
+    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+    new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+    log: revlist-7877cb91f108-9561de3a55be.txt
   - ref: refs/tags/v6.4-rc5
     old: 0000000000000000000000000000000000000000
     new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
 
---===============7524495031114315189==
+--===============1851185960533833250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6f027b1dded-f669ef29adaf.txt
+Content-Disposition: attachment; filename=revlist-7877cb91f108-9561de3a55be.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
@@ -404,6 +401,5 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
-f669ef29adafb15e4632ab82c733cdf32339a90e Merge tag 'v6.4-rc5' into renesas-devel
 
---===============7524495031114315189==--
+--===============1851185960533833250==--
