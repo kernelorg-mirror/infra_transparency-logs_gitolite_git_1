@@ -1,65 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============5596822796282206209=="
+Content-Type: multipart/mixed; boundary="===============6765138565276306731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 05 Jun 2023 05:20:39 -0000
-Message-Id: <168594243986.17141.436347737057055945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 05 Jun 2023 05:20:47 -0000
+Message-Id: <168594244739.17249.5421674363243067643@gitolite.kernel.org>
 
---===============5596822796282206209==
+--===============6765138565276306731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 82089b00ae026f638277c51bf3f36c68ed4021c7
-    new: 5959fe74c9932d18059811af0ec4870831821c79
-    log: revlist-82089b00ae02-5959fe74c993.txt
+  - ref: refs/heads/master
+    old: 8b817fded42d8fe3a0eb47b1149d907851a3c942
+    new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+    log: revlist-8b817fded42d-9561de3a55be.txt
 
---===============5596822796282206209==
+--===============6765138565276306731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685942439 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1685942438-c085c8eba89a1d73b934ed79006123a7b6ddc989
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685942446 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1685942445-809bb2b92060cb0b3d0cb761862c19fb85521224
 
-82089b00ae026f638277c51bf3f36c68ed4021c7 5959fe74c9932d18059811af0ec4870831821c79 refs/heads/char-misc-testing
+8b817fded42d8fe3a0eb47b1149d907851a3c942 9561de3a55bed6bdd44a12820ba81ec416e705a7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9cKcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Oo4QAK0bypvaFRnthV7FZZ0X
-WIjdIlxFk1Zx6kFIw1vOmK3JbSzER+rfe+JKKubYQIN08XBh2sKUoRKc/yL74f1W
-7toHFonkcVsT6jHRxrfjQOWZYuPMD2p+SzDI1A8NP03+Jcz9vbYVLuz55Jv58RTe
-f+fMrD9wXY+0dye8AaLG/CZ26voNXzJfwgFf7dRZLs97GfEypkBllq6xGW+LS2bk
-/8XuyZIkTlxAzgeiimbsS6mdQ489Zu6chuzh6qg5kVcvAszpQe/7LTrpUFWmYmGR
-8541M4ef9kUmymE7/+kloq4b+ePgZ5hDHINUsCRy+WuYNPoUVtzUVX0sfLFvYqnQ
-y+PMlmhwGK4gCqprcICBOpftK6gjKb8FjJgW2zExNklMBtWPQqtErLjqg0iOBgIb
-dg9cuaLoiUl6JD/W9xKgjJXMfQK+F9Yx5+/ckrtOb2MB+B8AH8zW/ThdaX+pE2hD
-WZ7ov6ciT1vPoCWv8mLNSoggFGGk0g2fiWFWptgkHabfVpYABbhCz5MVb1s6H167
-zesaP0gAc0ctdpe1rhnUT2Nc16xiZqFbYN45VZeECAPSvDZnShF3k4Boc1xlM6FI
-s2/2fRcchTjuBM42lnu8zCUM7ytNf7gwoEP46TdNE7H90QcbJ5OppgkZ4GHjI6sx
-lgI/GKLVWEe2vhJTbqRm5KwU
-=Aaet
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9cK4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FMMQAM/C8QJxzf8C223U8BVv
+5xHtvZ8e4vCCsHPWqWVHkCTrOZ0ObwsesCz0ToV2nLIudTc25QufGDgBcbkTla1K
+hO1qb2ww8yvXy/6j1Xh7aUU9p937SAb8pSuI88egn9pO31jlKsczBwV6F1qpMLv/
+TVZxnp6yjoZM6bor/8zUW+7G+B00DQsSRBwUCs5VX38CwFtNUrp0mV1EiKFkFykk
+GoZokg/MLc9r5II9qMj0MmouIk4cCuuTZqx9kjNXK2LNtp0bYaV2tMbaBBZamI0q
+qA/2JlZrNPliT12ZSxSbydbfz+1jnbcrp4ZlrhEFsiPtm4Lu8KJhpSLb+an9pHOu
+6q+XxBLZZzotZNUFyPAu8DbQfUiHFn5uX3J/OLIQFmPgb3MHN6p7ecQM6h0DXtQt
+hhHLEv6EBK4gvyQC6kdXx11JJzLe/UXjjqSWBxy8nl1GXfWqLCJf6RkPfQlttjOl
+g/3u4YYrUXjIbrvsp2jpElsS9qnbxIkjTTGAeLKWzj7GW4JLL13BwsPUmV9O75Nk
++vwCYlSO96Jzt4t/gsVJ09ZXbaUHgfQjdwT+zMjJvxLmRtsdq/A17PcQ0kJodStY
+/BvRh/hQ4RuwLncxEr16wJX7XuD0nid5cW2LwxCKIQ/7pLGRugTkLPJi/MSOVM17
+geDoRLL0LBgFrtCc3+HH/I4U
+=7KU0
 -----END PGP SIGNATURE-----
 
---===============5596822796282206209==
+--===============6765138565276306731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82089b00ae02-5959fe74c993.txt
+Content-Disposition: attachment; filename=revlist-8b817fded42d-9561de3a55be.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
-9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
-e42f110700ed7293700c26145e1ed07ea05ac3f6 phy: qcom-qmp-pcie-msm8996: fix init-count imbalance
 08c7f09356e45d093d1867c7a3c6ac6526e2f98b RDMA/bnxt_re: Fix the page_size used during the MR creation
 78b6a9a3f445e121ca08195084206cb8faa6999f MAINTAINERS: Update maintainers of HiSilicon RoCE
 20f291b88ecf23f674ee2ed980a4d93b7f16a06f iio: adc: imx93: fix a signedness bug in imx93_adc_read_raw()
@@ -83,14 +81,9 @@ d049151adde4ec17392592d145e94f0086f8ee80 iio: bu27034: Ensure reset is written
 56cd3d1c5c5b073a1a444eafdcf97d4d866d351a iio: accel: kx022a fix irq getting
 09d3bec7009186bdba77039df01e5834788b3f95 iio: dac: mcp4725: Fix i2c_master_send() return value handling
 55720d242052e860b9fde445e302e0425722e7f1 dt-bindings: iio: adc: renesas,rcar-gyroadc: Fix adi,ad7476 compatible value
-03262a3f5b5b910c7c2900c2f8884832794355f5 phy: mediatek: rework the floating point comparisons to fixed point
-b949193011540bb17cf1da7795ec42af1b875203 phy: amlogic: phy-meson-g12a-mipi-dphy-analog: fix CNTL2_DIF_TX_CTL0 value
-2a881183dc5ab2474ef602e48fe7af34db460d95 phy: qcom-snps: correct struct qcom_snps_hsphy kerneldoc
 17eabd6a044b57b2c1b5459eb9d11af3ea909e63 RDMA/rxe: Fix double unlock in rxe_qp.c
 b5f3fe27c54b1fe77d4dd834ccd48a6d694f872e RDMA/rxe: Convert spin_{lock_bh,unlock_bh} to spin_{lock_irqsave,unlock_irqrestore}
 866422cdddcdf59d8c68e9472d49ba1be29b5fcf RDMA/efa: Fix unsupported page sizes in device
-0642287e3ecdd0d1f88e6a2e63768e16153a990c dmaengine: idxd: Fix passing freed memory in idxd_cdev_open()
-38de368a66360f1859428d5e191b45bd01c20786 dmaengine: ti: k3-udma: annotate pm function with __maybe_unused
 58caa2a51ad4fd21763696cc6c4defc9fc1b4b4f RDMA/hns: Fix timeout attr in query qp for HIP08
 7f3969b14f356dd65fa95b3528eb05c32e68bc06 RDMA/hns: Fix base address table allocation
 56518a603fd2bf74762d176ac980572db84a3e14 RDMA/hns: Modify the value of long message loopback slice
@@ -101,7 +94,6 @@ b5f3fe27c54b1fe77d4dd834ccd48a6d694f872e RDMA/rxe: Convert spin_{lock_bh,unlock_
 c38b8400aef99d63be2b1ff131bb993465dcafe1 KVM: arm64: vgic: Fix locking comment
 62548732260976ca88fcb17ef98ab661e7ce7504 KVM: arm64: vgic: Fix a comment
 09cce60bddd6461a93a5bf434265a47827d1bc6f KVM: arm64: Prevent unconditional donation of unmapped regions from the host
-4d43acb145c363626d76f49febb4240c488cd1cf dmaengine: at_xdmac: fix potential Oops in at_xdmac_prep_interleaved()
 349e3c0cf239cc01d58a1e6c749e171de014cd6a RDMA/bnxt_re: Fix a possible memory leak
 0fa0d520e2a878cb4c94c4dc84395905d3f14f54 RDMA/bnxt_re: Fix return value of bnxt_re_process_raw_qp_pkt_rx
 dd5fb04857d7346c9ea4901ec3ebe5b90b0e8868 RDMA/bnxt_re: Do not enable congestion control on VFs
@@ -124,19 +116,6 @@ bd249b91977b768ea02bf84d04625d2690ad2b98 HID: wacom: avoid integer overflow in w
 ed84c4517a5bc536e8572a01dfa11bc22a280d06 HID: google: add jewel USB id
 16a9c24f24fbe4564284eb575b18cc20586b9270 HID: wacom: Add error check to wacom_parse_and_register()
 d53d70084d27f56bcdf5074328f2c9ec861be596 nfsd: make a copy of struct iattr before calling notify_change
-ee7751b564a90f337330efc1221df40647d68756 tracing/user_events: Use long vs int for atomic bit ops
-632478a05821bc1c9b55c3a1dd0fb1be7bfa1acc tracing/timerlat: Always wakeup the timerlat thread
-3e0fea09b17fa2255f6cb0108bbffd4a505f8925 tracing/user_events: Split up mm alloc and attach
-aaecdaf922835ed9a8ce56cdd9a8d40fe630257a tracing/user_events: Remove RCU lock while pinning pages
-dcbd1ac2668b5fa02069ea96d581ca3f70a7543c tracing/user_events: Rename link fields for clarity
-ff9e1632d69e596d8ca256deb07433a8f3565038 tracing/user_events: Document user_event_mm one-shot list usage
-e30fbc618e97b38dbb49f1d44dcd0778d3f23b8c tracing/histograms: Allow variables to have some modifiers
-4b512860bdbdddcf41467ebd394f27cb8dfb528c tracing: Rename stacktrace field to common_stacktrace
-f1aab363438cd1c55a3c5420db2a17c0e29ef625 tracing/selftests: Update synthetic event selftest to use common_stacktrace
-a1a5f2c887252dec161c1e12e04303ca9ba56fa9 dmaengine: pl330: rename _start to prevent build error
-2a6c7e8cc74e58ba94b8c897035a8ef7f7349f76 dmaengine: at_hdmac: Repair bitfield macros for peripheral ID handling
-e14fd2af7a1d621c167dad761f729135a7a76ff4 dmaengine: at_hdmac: Extend the Flow Controller bitfield to three bits
-6ab39f99927eed605728b02d512438d828183c97 crypto: x86/aria - Use 16 byte alignment for GFNI constant vectors
 95856d1f3c223c015780fffb8373a827fc4efd2e regmap: sdw: check for invalid multi-register writes config
 0cc6578048e0980d254aee345130cced4912f723 regmap: maple: Drop the RCU read lock while syncing registers
 a99d21cefd351c8aaa20b83a3c942340e5789d45 mmc: vub300: fix invalid response handling
@@ -215,16 +194,6 @@ d78bd6cc68276bd57f766f7cb98bfe32c23ab327 fbcon: Fix null-ptr-deref in soft_curso
 b3e6bcb94590dea45396b9481e47b809b1be4afa ext4: add EA_INODE checking to ext4_iget()
 36e4fc57fc1619f462e669e939209c45763bc8f5 efi: Bump stub image version for macOS HVF compatibility
 bca7a46336e38667f7670aacd2098dc45b8b7868 Merge tag 'iio-fixes-for-6.4a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-dca389eb958f982406df8199af40fefe1b881b84 Merge tag 'dmaengine-fix-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-e338142b39cf40155054f95daa28d210d2ee1b2d Merge tag 'phy-fixes-6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-e8352cf5778c53b80fdcee086278b2048ddb8f98 tracing: Move setting of tracing_selftest_running out of register_tracer()
-9da705d432a07927526005a0688d81fbbf30e349 tracing: Have tracer selftests call cond_resched() before running
-a3ae76d7ff781208100e6acc58eb09afb7b4b177 tracing: Make tracing_selftest_running/delete nops when not used
-ac9d2cb1d5f8e22235c399338504dadc87d14e74 tracing: Only make selftest conditionals affect the global_trace
-a2d910f02231f33118647fc438157ae69c073f89 tracing: Have function_graph selftest call cond_resched()
-ac2263b588dffd3a1efd7ed0b156ea6c5aea200d Revert "module: error out early on concurrent load of the same module file"
-7a6c8e512fa072cfe8ad7a3b26666b6f26435870 Merge tag 'v6.4-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-8b817fded42d8fe3a0eb47b1149d907851a3c942 Merge tag 'trace-v6.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ed309ce522185583b163bd0c74f0d9f299fe1826 RISC-V: mark hibernation as nonportable
 a6e766dea0a22918735176e4af862d535962f11e misc: fastrpc: Pass proper scm arguments for secure map request
 3c7d0079a1831118ef232bd9c2f34d058a1f31c2 misc: fastrpc: Reassign memory ownership only for remote heap
@@ -429,6 +398,5 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
-5959fe74c9932d18059811af0ec4870831821c79 Merge 6.4-rc5 into char-misc-next
 
---===============5596822796282206209==--
+--===============6765138565276306731==--
