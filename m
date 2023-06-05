@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4150730265267227644=="
+Content-Type: multipart/mixed; boundary="===============0030336925344806601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 05 Jun 2023 05:39:46 -0000
-Message-Id: <168594358602.29060.3426957447433927460@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 05:39:50 -0000
+Message-Id: <168594359034.29149.17574745846685690988@gitolite.kernel.org>
 
---===============4150730265267227644==
+--===============0030336925344806601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+  - ref: refs/heads/usb-linus
+    old: fcfe84236ec0974fe92f0578d1d58ed805c4b70f
     new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
-    log: revlist-7877cb91f108-9561de3a55be.txt
+    log: revlist-fcfe84236ec0-9561de3a55be.txt
 
---===============4150730265267227644==
+--===============0030336925344806601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685943585 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1685943589 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1685943585-554fb6811c7778f46522037f01567df59dc34f6e
+nonce 1685943588-ee36c5b2c4393107e954740c1b618d6a5642247f
 
-7877cb91f1081754a1487c144d85dc0d2e2e7fc4 9561de3a55bed6bdd44a12820ba81ec416e705a7 refs/heads/main
+fcfe84236ec0974fe92f0578d1d58ed805c4b70f 9561de3a55bed6bdd44a12820ba81ec416e705a7 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9dSEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yz4P/jVHmzmvqtArv9g6OjzH
-s1zgSEotJv5klu5csh7Z9HlSxJSuHLn3ggIVKjttd4ZzELzte2IGY2oAyNSC+eh6
-t1pFU1B8Na5hr3qd1380K/qwIWBiiy5YTh9jKMg8NXIKo32GZBIOy0X4ZYWGkBGo
-h6YG9w7/8b68XaeQizOYKAyxIXz77joYh5By08rVa2XusT6IfqTze8DkZVi4T2MU
-mh3HtMqyaGTGzdAGgGNUHRz1s7BxmFV69TzyQv3MnNOZWIfl1eO2sG6vfkEvYZkQ
-9ffEJZNo5IDlLWR8EqtvAb4wPEOirShapXC9LPJP+5BGbhOqit+asW5IMo8qFhfI
-3eXy5MiOtZQ6yFjiRYBXEl7NBcOpQWSJ6yWt0t7FYgy2sUYkSZPgnVq8eIW7iGzF
-rsPnLTEq0xtHdhhnZKCZUJxuxip428ms9dbKiycIAtsvRIvnEaq38/yaF6vqI+xE
-D6h/1h6FlfKWZCvEUq3fFucywwPkEulydPFRM7MdWfILm5UtvWp7lYJ89zGfCaL3
-X9PcDwzfKI4fQ7y4jqNpG3IDAlKJWYsxURHCRJ2XUWK+m9IewUzvZLV4ktdLp5lb
-ilaRzOAuGyYSksuLqnUFhTzN8tBLzdDuqN8nL2n439JIWIzi1jp2an/b1w4zAte9
-xBV7OG3r9pgGq1TOpiL7Ym/w
-=svbj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR9dSUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wycP/2onjL8aW9KsyklVq4xv
+bBGWRxj00eP8K9xQUBs84xHTQ+KIxt912z2ZfUDqYx32d+76pbZsf+0QYn9f+SyV
+BEmPMuXouMCQM18vIfR7TS2p26BBOj+yA5QEhdeNw46Vh2qToDlSRbdlGJr375hs
+Kq2wfkxiL/yXNvjDkQDcp24lVC+wtP0xlL4AwSIa6Wp4PXgvjiLMhJeUlk1YMDzs
+XkbYw0q+ouIqoUnRXvGn+gqOI029nJIH2k5+2Oa0iPPV3ee/C31oVl1muaZYup2D
+nHXz2qAhijY68eniRcJdzzw+MM7x4HEBsO7at9vPcG26bM2soL7Eqo6vEzwwMBKS
+yHCW1O0rT5VXzb3TgwdMij1QJXrkp4TKZcxk/ph2iRBz6nrsGwG7M8W6VDrDsotv
+PvXjB1UUAgGAbfG4D85y2Ls1VWnkFvzxf3Ysr06EgIITpK62E3K1HpryVUjfzXpr
+Xvue3Q0Y3bovQ4kJKuoyA/0xXwBkYxm7UQQOM9sItOQ6WTwoYxvvNlBc+JqOAwmB
+IA+Dlr/zcdHwb4o5LmWnAK/QJTmESla7blEljHZlLyZnq0pqN1kNnEM7Ezb6eEu3
+UbC4HnLtZ/7fcpQZ1BFbtA23m4EUnIuIMDqQqk41maq9kMYkzA9UXE0qcaO696eQ
+kpDC6XQDkm26DqF823MzwSuK
+=791F
 -----END PGP SIGNATURE-----
 
---===============4150730265267227644==
+--===============0030336925344806601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7877cb91f108-9561de3a55be.txt
+Content-Disposition: attachment; filename=revlist-fcfe84236ec0-9561de3a55be.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
@@ -230,15 +230,7 @@ a6e766dea0a22918735176e4af862d535962f11e misc: fastrpc: Pass proper scm argument
 3c7d0079a1831118ef232bd9c2f34d058a1f31c2 misc: fastrpc: Reassign memory ownership only for remote heap
 b6a062853ddf6b4f653af2d8b75ba45bb9a036ad misc: fastrpc: return -EPIPE to invocations on device removal
 46248400d81e2aa0b65cd659d6f40188192a58b6 misc: fastrpc: reject new invocations during device removal
-dbe678f6192f27879ac9ff6bc7a1036aad85aae9 usb: cdns3: fix NCM gadget RX speed 20x slow than expection at iMX8QM
-efb6b535207395a5c7317993602e2503ca8cb4b3 usb: gadget: f_fs: Add unbind event before functionfs_unbind
-016da9c65fec9f0e78c4909ed9a0f2d567af6775 usb: gadget: udc: fix NULL dereference in remove()
 47fe1c3064c6bc1bfa3c032ff78e603e5dd6e5bc block: fix revalidate performance regression
-7b32040f6d7f885ffc09a6df7c17992d56d2eab8 dt-bindings: usb: snps,dwc3: Fix "snps,hsphy_interface" type
-0143d148d1e882fb1538dc9974c94d63961719b9 usb: usbfs: Enforce page requirements for mmap
-d0b861653f8c16839c3035875b556afc4472f941 usb: usbfs: Use consistent mmap functions
-81a31a860bb61d54eb688af2568d9332ed9b8942 mm: page_table_check: Make it dependent on EXCLUSIVE_SYSTEM_RAM
-44d0fb387b53e56c8a050bac5c7d460e21eb226f mm: page_table_check: Ensure user pages are not slab pages
 ffe14de983252862c91ad23bd5ca72fd9398d0e6 MAINTAINERS: Update maintainer of Amazon EFA driver
 c8f304d75f6c6cc679a73f89591f9a915da38f09 RDMA/irdma: Prevent QP use after free
 5842d1d9c1b0d17e0c29eae65ae1f245f83682dd RDMA/irdma: Fix Local Invalidate fencing
@@ -274,7 +266,6 @@ cf6f0fda7af7e8e016070bfee6b189e671a0c776 selftests: mptcp: sockopt: skip if MPTC
 2474e05467c00f7d51af3039b664de6886325257 tty: serial: fsl_lpuart: use UARTCTRL_TXINV to send break instead of UARTCTRL_SBK
 192d43e91e0fdbd51b64ba36e773cbdf38dda505 soc: fsl: cpm1: Fix TSA and QMC dependencies in case of COMPILE_TEST
 7183c37fd53eee1e795206e625da12a5d7ec1e1a serial: cpm_uart: Fix a COMPILE_TEST dependency
-fcfe84236ec0974fe92f0578d1d58ed805c4b70f usb: typec: tps6598x: Fix broken polling mode after system suspend/resume
 31a5978243d24d77be4bacca56c78a0fbc43b00d nvme: fix miss command type check
 ea4d453b9ec9ea279c39744cd0ecb47ef48ede35 nvme: double KA polling frequency to avoid KATO with TBKAS on
 774a9636514764ddc0d072ae0d1d1c01a47e6ddd nvme: check IO start time when deciding to defer KA
@@ -430,4 +421,4 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
 
---===============4150730265267227644==--
+--===============0030336925344806601==--
