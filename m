@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 05 Jun 2023 21:38:16 -0000
-Message-Id: <168600109658.29057.2839991965779994372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 05 Jun 2023 21:41:43 -0000
+Message-Id: <168600130309.31772.2756363052360811213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 503e4def5414fd0f9b6ffecb6eedbc4b1603693b
-    new: f904c67876c42c14a108d7f80459ef59d900b8fc
+  - ref: refs/heads/tmp.perf-bench-uprobe
+    old: c5db400e37a63fbb4aff0533e94bd734eb46d3d3
+    new: 5d800a5d2c9d67480b846d504e705533f89322ee
     log: |
-         51302c951c8fd5c298565c7127c855bf1d4550b6 bpf: Teach verifier that trusted PTR_TO_BTF_ID pointers are non-NULL
-         f904c67876c42c14a108d7f80459ef59d900b8fc selftests/bpf: Add test for non-NULLable PTR_TO_BTF_IDs
+         5d800a5d2c9d67480b846d504e705533f89322ee perf bench uprobe trace_printk: Add entry attaching an BPF program that does a trace_printk
          
