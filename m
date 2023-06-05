@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1851185960533833250=="
+Content-Type: multipart/mixed; boundary="===============3445389169762969316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 05 Jun 2023 13:01:13 -0000
-Message-Id: <168597007340.26692.15225146935965544679@gitolite.kernel.org>
+Date: Mon, 05 Jun 2023 13:02:02 -0000
+Message-Id: <168597012292.27063.13036546572118617304@gitolite.kernel.org>
 
---===============1851185960533833250==
+--===============3445389169762969316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
-    new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
-    log: revlist-7877cb91f108-9561de3a55be.txt
-  - ref: refs/tags/v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/heads/nfsd-next
+    old: f900df712a57468f658ea5c4d66b2e37926536a9
+    new: 8d855ffb92d88997d89c8e802e29e5d9e1c51f84
+    log: revlist-f900df712a57-8d855ffb92d8.txt
 
---===============1851185960533833250==
+--===============3445389169762969316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7877cb91f108-9561de3a55be.txt
+Content-Disposition: attachment; filename=revlist-f900df712a57-8d855ffb92d8.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
@@ -401,5 +398,30 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
+2d8ae8c417db284f598dffb178cc01e7db0f1821 nfsd: use vfs setgid helper
+fc80fc2d4e39137869da3150ee169b40bf879287 SUNRPC: Fix UAF in svc_tcp_listen_data_ready()
+e8277327d74fb28bf46969ad68a225272f04c318 SUNRPC: Fix an incorrect comment
+cce4ee9c7834f68cf6a221d61d614c2748611c1c SUNRPC: Remove dprintk() in svc_handle_xprt()
+d7900daea0b9818cd1cbeb9c5bd94653c487b0e4 SUNRPC: Improve observability in svc_tcp_accept()
+c42bebca967da88c054ccb5ab152c9822c054662 SUNRPC: Trace struct svc_sock lifetime events
+442a629009818de2f8d9731cafb96e111ca8e4e6 NFSD: Clean up nfsctl white-space damage
+3434d7aa77d24c5c4b3d4385084cfdb607f05dec NFSD: Clean up nfsctl_transaction_write()
+39d432fc76301cf0a0c454022117601994ca9397 NFSD: trace nfsctl operations
+5f7fc5d69f6e92ec0b38774c387f5cf7812c5806 SUNRPC: Resupply rq_pages from node-local memory
+88e4d41a264d00fbfd344eb2485c1c59096197f4 SUNRPC: Use __alloc_bulk_pages() in svc_init_buffer()
+adaa7a50d027b91ee6d56ae8b0a3f6edf5a78776 NFSD: Add encoders for NFSv4 clientids and verifiers
+66a21db7db59f279a9fcb6445fa36dc6eb001b3c NFSD: Replace encode_cinfo()
+82078b9895bd46ce69b4a73e2da40e7e2202fdb5 NFSD: Ensure that xdr_write_pages updates rq_next_page
+1b62e293fb9d9c43eb9274397d3f570525ae92d4 NFSD: Use svcxdr_encode_opaque_pages() in nfsd4_encode_splice_read()
+671ee4a2f61f4faec91fe5a095ad4ec4da5f0545 NFSD: Update rq_next_page between COMPOUND operations
+badd8e3525617b774af7a498cfaee3b294e35a07 NFSD: Hoist rq_vec preparation into nfsd_read()
+59b450ee32731e711f99eba2b8eec681529198e3 NFSD: Hoist rq_vec preparation into nfsd_read() [step two]
+2193504196acf066cfbc282262da4226119c222c NFSD: Remove nfsd_readv()
+09510cc2b9c949930a9a8741742662aecbb16ec9 nfsd: don't provide pre/post-op attrs if fh_getattr fails
+1ee8ec329b1ca7d48da691c0d43b8b1993960b09 locks: allow support for write delegation
+417cd3d7d954d79abd9252388f00ad849d20d73d NFSD: enable support for write delegation
+7ddf6c91bac704a4c70465436cefddb8a1361ef1 NFSD: handle GETATTR conflict with write delegation
+e935a9446644eefbef8b3ab529b4cf225a873e83 NFSD: add counter for write delegation recall due to conflict with GETATTR
+8d855ffb92d88997d89c8e802e29e5d9e1c51f84 lockd: drop inappropriate svc_get() from locked_get()
 
---===============1851185960533833250==--
+--===============3445389169762969316==--
