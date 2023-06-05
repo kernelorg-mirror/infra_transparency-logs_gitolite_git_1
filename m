@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 05 Jun 2023 20:16:36 -0000
-Message-Id: <168599619635.3409.16956442556733064957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 05 Jun 2023 20:27:20 -0000
+Message-Id: <168599684090.11206.7612470128313389412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev-queue
-    old: 97418316382d981d2dec9d2ad40d3fcc4813fe97
-    new: c0cfd94029ab8a7e9b570c0dc907e0667bd921f3
+  - ref: refs/heads/master
+    old: d4ae3e587eced73c9b6f82fd8f88606a09ff710c
+    new: 7793fc3babe9fea908e57f7c187ea819f9fd7e95
     log: |
-         42348d40e480d507ca17b93e1b1383c930b023a4 ice: Fix ice module unload
-         c0cfd94029ab8a7e9b570c0dc907e0667bd921f3 igc: Fix TX Hang issue when QBV Gate is closed
+         2140a6e3422de22e6ebe77d4d18b6c0c9c425426 bpf: Set kptr_struct_meta for node param to list and rbtree insert funcs
+         cc0d76cafebbd3e1ffab9c4252d48ecc9e0737f6 bpf: Fix __bpf_{list,rbtree}_add's beginning-of-node calculation
+         7793fc3babe9fea908e57f7c187ea819f9fd7e95 bpf: Make bpf_refcount_acquire fallible for non-owning refs
          
