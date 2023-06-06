@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 06 Jun 2023 21:32:02 -0000
-Message-Id: <168608712271.20816.3464660097953760323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 06 Jun 2023 21:35:21 -0000
+Message-Id: <168608732111.23420.3934639131998399753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 224541f80952ab62510b65a9a725801d28c8c46d
-    new: caa526b7b58f34d09f87497c09e29c85cc42bdb6
+  - ref: refs/heads/rtc-next
+    old: 31b0cecb4042d2676fd48f09379a19bc8b16eadd
+    new: 8bb12adb214b2d7cdad84f89db2cbab4b2908b61
     log: |
-         17a725a7a9388da1f88e8f03bac0aa68aea22710 tpm: tis_i2c: Limit read bursts to I2C_SMBUS_BLOCK_MAX (32) bytes
-         caa526b7b58f34d09f87497c09e29c85cc42bdb6 tpm: tis_i2c: Limit write bursts to I2C_SMBUS_BLOCK_MAX (32) bytes
+         8bb12adb214b2d7cdad84f89db2cbab4b2908b61 rtc: add HAS_IOPORT dependencies
          
