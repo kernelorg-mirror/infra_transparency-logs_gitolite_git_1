@@ -1,33 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 06 Jun 2023 19:11:48 -0000
-Message-Id: <168607870841.23248.4199276896789430031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 06 Jun 2023 19:34:09 -0000
+Message-Id: <168608004987.5386.2466980432098180674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b00315628095075da4af8d6d519d85d95117de09
-    new: 8c9cce9cb81b5fdc6e66bf3f129727b89e8daab7
+  - ref: refs/heads/main
+    old: ae91f7e436f8b631c47e244b892ecac62a4d9430
+    new: 2dc476404efa8546a08561877e88bfb2006facab
     log: |
-         ab892b7fd44a68feead30e2f53ba31818ca84749 Input: tps65219-pwrbutton - convert to .remove_new()
-         d9f12a3bbb6d1afe872425a8fa2612945975cfb8 Input: tps65219-pwrbutton - use regmap_set_bits()
-         f11f1a92c17385ff4d6e2bc8002d59aed70b98c4 Input: gameport - provide default trigger() and read()
-         60b7ae370797692dc747c3b88a7f2c737e39f864 MAINTAINERS: Adjust Qualcomm driver globbing
-         8c9cce9cb81b5fdc6e66bf3f129727b89e8daab7 Input: pm8941-powerkey - fix debounce on gen2+ PMICs
-         
-  - ref: refs/heads/next
-    old: b00315628095075da4af8d6d519d85d95117de09
-    new: 8c9cce9cb81b5fdc6e66bf3f129727b89e8daab7
-    log: |
-         ab892b7fd44a68feead30e2f53ba31818ca84749 Input: tps65219-pwrbutton - convert to .remove_new()
-         d9f12a3bbb6d1afe872425a8fa2612945975cfb8 Input: tps65219-pwrbutton - use regmap_set_bits()
-         f11f1a92c17385ff4d6e2bc8002d59aed70b98c4 Input: gameport - provide default trigger() and read()
-         60b7ae370797692dc747c3b88a7f2c737e39f864 MAINTAINERS: Adjust Qualcomm driver globbing
-         8c9cce9cb81b5fdc6e66bf3f129727b89e8daab7 Input: pm8941-powerkey - fix debounce on gen2+ PMICs
+         a99bfdf647953f8ac4ae71f373113e8ac194f1c0 tools: ynl-gen: clean up stray new lines at the end of reply-less requests
+         86878f14d71af89149a955122afd8b7af1ee9bf2 tools: ynl: user space helpers
+         d75fdfbc6f260f50cde5d1d566ab010a370df62e tools: ynl: support fou and netdev in C
+         ee0202e2e731d074639461b3db2296bf44d847ce tools: ynl: add sample for netdev
+         2dc476404efa8546a08561877e88bfb2006facab Merge branch 'tools-ynl-user-space-c'
          
