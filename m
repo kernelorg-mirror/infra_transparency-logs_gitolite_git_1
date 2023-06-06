@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 06 Jun 2023 11:31:43 -0000
-Message-Id: <168605110306.29310.12462892872787290528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 06 Jun 2023 11:36:25 -0000
+Message-Id: <168605138578.32411.13123367893125046604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/main
-    old: 8d2b2281aea90ab265733c3cda83b73a01ca352f
-    new: ae91f7e436f8b631c47e244b892ecac62a4d9430
+  - ref: refs/heads/riscv-dt-for-next
+    old: b087f59779b00f73738fdf6a63915aabf77c7d39
+    new: e2c510d6d630fe6593a0cf87531913b4b08ebeb1
     log: |
-         ae91f7e436f8b631c47e244b892ecac62a4d9430 net/pppoe: fix a typo for the PPPOE_HASH_BITS_1 definition
+         2378341504de476acd880833a0e5481555b9aa5c riscv: dts: starfive: Enable axp15060 pmic for cpufreq
+         e2c510d6d630fe6593a0cf87531913b4b08ebeb1 riscv: dts: starfive: Add cpu scaling for JH7110 SoC
          
