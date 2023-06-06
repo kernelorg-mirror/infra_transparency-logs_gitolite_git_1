@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1778846927237088233=="
+Content-Type: multipart/mixed; boundary="===============1421325702914378304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 06 Jun 2023 16:35:29 -0000
-Message-Id: <168606932939.13596.16634082886322282203@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 16:36:06 -0000
+Message-Id: <168606936664.13873.713360406274665654@gitolite.kernel.org>
 
---===============1778846927237088233==
+--===============1421325702914378304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
-  - ref: refs/heads/for-next
-    old: 6ddd5e9eaadfbecae0367dfe5d03787ac5df5c39
-    new: f9da18cd4616fbc9816347b7b2be188653786058
-    log: revlist-6ddd5e9eaadf-f9da18cd4616.txt
+  - ref: refs/heads/freeze
+    old: 723ec33b6eba0a6752d6491860838d1f33df37e4
+    new: a1716b6276259be784fececce550ca13b2727611
+    log: revlist-723ec33b6eba-a1716b627625.txt
 
---===============1778846927237088233==
+--===============1421325702914378304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ddd5e9eaadf-f9da18cd4616.txt
+Content-Disposition: attachment; filename=revlist-723ec33b6eba-a1716b627625.txt
 
-c0426c446d92023d344131d01d929bc25db7a24e wifi: rtw89: 8852b: adjust quota to avoid SER L1 caused by access null page
-bcafcb959a57a6890e900199690c5fc47da1a304 wifi: rtw88: use work to update rate to avoid RCU warning
-92553ee03166ef8fa978e7683f9f4af30c9c4e6b ALSA: hda/realtek: Apply HP B&O top speaker profile to Pavilion 15
-9113302bb43cf7a6d5a414d49b29478e57451c86 ice: Fix undersized tx_flags variable
-c8902258b2b8ecaa1b8d88c312853c5b14c2553d fbdev: modedb: Add 1920x1080 at 60 Hz video mode
-134120b066044399ef59564ff3ba66ab344cfc5b sfc: disable RXFCS and RXALL features by default
-6d4486efe9c69626cab423456169e250a5cd3af5 vsock: avoid to close connected socket after the timeout
-9dc68a4fe70893b000fb3c92c68b9f72369cf448 ALSA: hda/realtek: Fix mute and micmute LEDs for yet another HP laptop
 1e306ec49a1f206fd2cc89a42fac6e6f592a8cc1 tcp: fix possible sk_priority leak in tcp_v4_send_reset()
 0bdf1ad8d10bd4e50a8b1a2c53d15984165f7fea fbdev: stifb: Fix info entry in sti_struct on error path
 47a2ee5d4a0bda05decdda7be0a77e792cdb09a3 Merge tag 'firewire-fixes-6.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
@@ -1050,5 +1042,13 @@ e4f82bf21f2586aa823fd40de72023236062a4aa gfs2: fix minor comment typos
 dac0fc31bea78e3ac1467d2fdb49ffff37e95e84 gfs2: Fix gfs2_qa_get imbalance in gfs2_quota_hold
 17a5934653826644ba8c1ad21b9fc8d6e7e62f34 gfs2: Update rl_unlinked before releasing rgrp lock
 f9da18cd4616fbc9816347b7b2be188653786058 gfs2: Don't remember delete unless it's successful
+71ebfaeb94a9e3603656f4ff9c6dddec66f1d068 gfs2: Rename remaining "transaction" glock references
+559fe35ad599362152ab5b9eadc4a5af1c1d8de9 gfs2: Rename the {freeze,thaw}_super callbacks
+05d380dcd3bc400c8adbb489dc7c1fe21ef596c5 gfs2: Rename gfs2_freeze_lock{ => _shared }
+fea25eba4d3e4595204b8ab037cf00606d60e7a1 gfs2: Reconfiguring frozen filesystem already rejected
+45c185a70179b77f9f7422bc87d88464ba762f5b gfs2: Rename SDF_{FS_FROZEN => FREEZE_INITIATOR}
+8d08c8dda338cda79b7ad999185307f432bc4c8b gfs2: Rework freeze / thaw logic
+cb95ec1e45584bc701c21c2882859456278f0a41 gfs2: Replace sd_freeze_state with SDF_FROZEN flag
+a1716b6276259be784fececce550ca13b2727611 gfs2: gfs2_freeze_lock_shared cleanup
 
---===============1778846927237088233==--
+--===============1421325702914378304==--
