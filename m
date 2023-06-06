@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1577621088217828524=="
+Content-Type: multipart/mixed; boundary="===============2276492464439946881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 06 Jun 2023 04:26:33 -0000
-Message-Id: <168602559384.20661.1182645998407903966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 06 Jun 2023 04:26:44 -0000
+Message-Id: <168602560485.20820.5337925330620697314@gitolite.kernel.org>
 
---===============1577621088217828524==
+--===============2276492464439946881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 9ca10bfb8aa8fbf19ee22e702c8cf9b66ea73a54
     new: 6db29e14f4fb7bce9eb5290288e71b05c2b0d118
     log: revlist-9ca10bfb8aa8-6db29e14f4fb.txt
-  - ref: refs/heads/stable
-    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
-    new: f8dba31b0a826e691949cd4fdfa5c30defaac8c5
-    log: |
-         c3d03e8e35e005e1a614e51bb59053eeb5857f76 KEYS: asymmetric: Copy sig and digest in public_key_verify_signature()
-         f8dba31b0a826e691949cd4fdfa5c30defaac8c5 Merge tag 'asym-keys-fix-for-linus-v6.4-rc5' of https://github.com/robertosassu/linux
-         
-  - ref: refs/tags/next-20230306
-    old: 98208593e5170e2a9613d67631d7fd89386be9a9
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230606
     old: 0000000000000000000000000000000000000000
     new: 507e93e598701e02988e30c571f56c08ff1ba5bc
 
---===============1577621088217828524==
+--===============2276492464439946881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -959,4 +949,4 @@ aa9e8a73228e9652acbafe86ca6029844dd0f9a5 Merge branch 'for-next/kspp' of git://g
 36aba299fad0b9168663c319d482022ffe0edbc6 Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 6db29e14f4fb7bce9eb5290288e71b05c2b0d118 Add linux-next specific files for 20230606
 
---===============1577621088217828524==--
+--===============2276492464439946881==--
