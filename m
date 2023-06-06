@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 06 Jun 2023 17:36:15 -0000
-Message-Id: <168607297545.22540.5220325261332567417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 06 Jun 2023 17:36:23 -0000
+Message-Id: <168607298347.22641.12150072869870113863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 082836dcb522b5f795983fc1f8d58dd016876b67
-    new: 2f932d4151599bc647607ae841cf57273279168c
+  - ref: refs/heads/dev-queue
+    old: da5a1c60350635712921656cd96966414275d53c
+    new: 3aaf4fdd19005b77ed4272bd062dc1cf0a332ca0
     log: |
-         cf39ff15cc01adea0ec46d1571d5ae849bb02d43 arm64: dts: ti: k3-am62a7-sk: Describe main_uart1 and wkup_uart
-         3d011933000ed9054c649952d83162d24f020a93 arm64: dts: ti: k3-j7200: Fix physical address of pin
-         2f932d4151599bc647607ae841cf57273279168c arm64: dts: ti: k3-j7200-som: Enable I2C
+         ba0a0d9167b93a0667cb555aa6cb3590f4b4d450 iavf: Wait for reset in callbacks which trigger it
+         374372e460f1393156c9f67bf7b3092fa304ac97 Revert "iavf: Detach device during reset task"
+         db72075184f8644a3219dbe409be472547b62d2b Revert "iavf: Do not restart Tx queues after reset task failure"
+         5f4d84baaacad5fd15a8433d2117e12f542a2ca5 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+         2ae7295649ec6d39201968da1c27a4741cac0287 iavf: fix reset task race with iavf_remove()
+         3aaf4fdd19005b77ed4272bd062dc1cf0a332ca0 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
          
