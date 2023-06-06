@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Tue, 06 Jun 2023 03:15:57 -0000
-Message-Id: <168602135789.4435.9717982332141308610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 06 Jun 2023 04:03:44 -0000
+Message-Id: <168602422406.3525.5733674314132535437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 8e74cfaf7a04e2cbff1e3ab10c7cb08034dc69b1
-    new: 47147d56f92ee3f575e4b457413e0f2587b40e17
+  - ref: refs/heads/main
+    old: 28cfea989d6f55c3d10608eba2a2bae609c5bf3e
+    new: ddb8701dcb67aff0155d507c63cb1e201daf3ad6
     log: |
-         47147d56f92ee3f575e4b457413e0f2587b40e17 fpga: zynq-fpga: Ensure proper xCAP interface switch
+         2b03bcae66c7b29f151e51d3109dbe1e31272235 kcm: Support MSG_SPLICE_PAGES
+         5bb3a5cb3e217b838e85661f527818e16ce61bec kcm: Convert kcm_sendpage() to use MSG_SPLICE_PAGES
+         ddb8701dcb67aff0155d507c63cb1e201daf3ad6 Merge branch 'splice-net-handle-msg_splice_pages-in-af_kcm'
          
