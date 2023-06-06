@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 06 Jun 2023 17:17:25 -0000
-Message-Id: <168607184521.8494.4884149509102329237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 06 Jun 2023 17:18:15 -0000
+Message-Id: <168607189500.8800.14381020534022786829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/experimental
-    old: a475fff7c32160710021ca07bceb0f4883a83296
-    new: c14808573aa5fd7830949cb4ac0c97948ad899ce
-    log: |
-         c14808573aa5fd7830949cb4ac0c97948ad899ce erofs-utils: sync up erofs_fs.h
-         
+  - ref: refs/heads/v5_20230522_eblanc_ti_tps6594_pmic_support_rtc_pinctrl_regulators
+    old: 0000000000000000000000000000000000000000
+    new: f17ccc5deb4d024bb52fd3433471e77ab7ae9ad8
