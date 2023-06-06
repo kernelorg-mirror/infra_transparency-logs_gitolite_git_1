@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3730027127230767518=="
+Content-Type: multipart/mixed; boundary="===============0444123902530176089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 06 Jun 2023 12:44:36 -0000
-Message-Id: <168605547687.12688.8386136340278841936@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 12:46:06 -0000
+Message-Id: <168605556647.14848.1441577446053718978@gitolite.kernel.org>
 
---===============3730027127230767518==
+--===============0444123902530176089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 2076b2a4a6b7e36a33dad178ff6f7c45657b00cc
-    new: b6c7ff2693ddc24cdad3b032d969303f7b2ae3da
+  - ref: refs/heads/tty-linus
+    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+    new: 306320034e8fbe7ee1cc4f5269c55658b4612048
     log: |
-         66eff0ef528b6d6e9a45b68f6cd969dcbe7b800a powerpc/legacy_serial: Warn about 8250 devices operated without active FSL workarounds
-         643662d12bc2b38ca693d6707e8da11c4777a09f serial: st-asc: fix typo in property name
-         b6c7ff2693ddc24cdad3b032d969303f7b2ae3da serial: 8250_mtk: Simplify clock sequencing and runtime PM
+         306320034e8fbe7ee1cc4f5269c55658b4612048 serial: lantiq: add missing interrupt ack
          
 
---===============3730027127230767518==
+--===============0444123902530176089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686055475 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686055565 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1686055475-62f0f060f58bc279f931ffff1de84c913c8d5008
+nonce 1686055564-5e9766256ca0aa3cf25e9d16a1a2c6eb551350b1
 
-2076b2a4a6b7e36a33dad178ff6f7c45657b00cc b6c7ff2693ddc24cdad3b032d969303f7b2ae3da refs/heads/tty-testing
+9561de3a55bed6bdd44a12820ba81ec416e705a7 306320034e8fbe7ee1cc4f5269c55658b4612048 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR/KjMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QwoP/je71EuJhRCQAwYxmCQf
-XLEVfvI9PhjV6AxPZaVoR9xRobXGsPlKR5K0rZ5HPhWor1h/ecb3n3sRlzrboXL3
-oIln83QJoxrHAECgURMAdMA5RrRX6aP0B9Jd8cFJ7JWatqAlu8i6PwPoss5L3/ka
-Kul727gmupmDyN7L7ci2sys22/FfiS7yrk78L4st0+XSkfKIhOLWTlP4PKPGee/9
-8a1+UggSll29QmCvVKZN/TsBWcl1uGWCvhVT4QEMxyu5cNxhMFlHejkChR3RBoI1
-/7BcRQOI1rCKNiJXg5KGIptQ5AlGbApmnkgMt+N9Op/GzUGrVv7pv+p7egtr0S2o
-luq1W9vdiqkFI01ggBRO+AgX7nGLPHqiMHcCifWEE4cE7Los+oHmU1WUKwWoxoO6
-xNGUrzUSHx1FmzDSINbzzrAMt/ArSTwGYpQ5XVLIb3O+q4w3G78pNejWQUYTJoxv
-fp0S+yScCCUJ+be/T4t/nxKDWaF03KCgYzkkR1ohBSOM1QiqIWYOk0f0ZVUtrw5V
-p+vxZpxL/iFlTAyTtLOK6zahV/CtuftBAWxJ8tDGmG72gAvZ46qlk49wDKGs+3/u
-Zejs9+s762hXfsMzNFn7nQ/zqQMUn53dUn19fpP2SmJeoP3ClcE71o5jxcIWlR/M
-r6kk6SmO4QcsBj/hDhI0/zOQ
-=+C3H
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR/Ko0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WakP/jFxzynmHXyBFhUvi1Ry
+MZAdjf3HAFUQT6em57C0Tmd45lHmVf/NJd8mVRBcaPRMsKJghAJZCYS8BnD7ng7s
+hTFgGEO6+EZVYDI3xO+lNdg9/sB2t8DKshGu3rg8AZXJqMdxOBi/KrsJUBxPOuPr
+z1zeK3GQEzGQ8ljJJ72N07OpZd4/NJ6ctGPUSXFlA2EEIchAWtW7yh3WPYQrtjxm
+wTqpo9sO02q550mWQx/DzRH4wqHOI1O87xN8+TfvpZn8ucpJm3+IX3kbf9fCiTkC
+P4vHYWcgawWPPFHdIHdPgHjUHgUUKOd/+KeafSLyuue79fm0w1ikVJ8Q0ejU9Myo
+WHrk2VpDgP1Ljo6vfyJSDc24ak+cYb9QcjOBj3RqGPTmonDdOo40gZJc/GFcE04y
+FjBLIKD+qJT/IMvAxcqhC7XKSPlqju+nHppCjPLK51XZhxxbIqKssy0wmXrKI3WB
+I9R9lqnpMcqqJqyjPwkKBaFe8b+KOTYWtojCCRKxobclBqvhuoSzZk41ZENLLDfT
+MItaSbzFK6XOUfJ9DkEFG62qIIGAsQxDSpmsxlTMWW25u5Eny+8JTGrR5NJxuHc6
+bUwmB29yKr6mHAD5O6QUoGWHdwh+XOOuKm9RQMao21j6LG1Ij690Ta1EQW6ST+XH
+3hgAyeC1TZMDDuv7KQ2igMqQ
+=2LXC
 -----END PGP SIGNATURE-----
 
---===============3730027127230767518==--
+--===============0444123902530176089==--
