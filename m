@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 06 Jun 2023 11:21:50 -0000
-Message-Id: <168605051057.23075.13851040222791212432@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 11:31:43 -0000
+Message-Id: <168605110306.29310.12462892872787290528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 7b355b76e2b32cc516969c01984efdf49b11fc81
-    new: 8d2b2281aea90ab265733c3cda83b73a01ca352f
+    old: 8d2b2281aea90ab265733c3cda83b73a01ca352f
+    new: ae91f7e436f8b631c47e244b892ecac62a4d9430
     log: |
-         8d2b2281aea90ab265733c3cda83b73a01ca352f mac_pton: Clean up the header inclusions
+         ae91f7e436f8b631c47e244b892ecac62a4d9430 net/pppoe: fix a typo for the PPPOE_HASH_BITS_1 definition
          
