@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7294435202965470954=="
+Content-Type: multipart/mixed; boundary="===============5664604051334084369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 06 Jun 2023 19:55:06 -0000
-Message-Id: <168608130697.21049.12219152841888480457@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 19:55:21 -0000
+Message-Id: <168608132185.21202.6074607960772045347@gitolite.kernel.org>
 
---===============7294435202965470954==
+--===============5664604051334084369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 14d723483fb7ccea83a3944254bcf89d220c964e
     new: 224541f80952ab62510b65a9a725801d28c8c46d
     log: revlist-14d723483fb7-224541f80952.txt
 
---===============7294435202965470954==
+--===============5664604051334084369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ d349bfc3a70a43b19517e6bb0ae9f676b6ef4c79 security: keys: perform capable check o
 124a53514914701da733ca69deceefc1e0ec08bb KEYS: DigitalSignature link restriction
 224541f80952ab62510b65a9a725801d28c8c46d integrity: Enforce digitalSignature usage in the ima and evm keyrings
 
---===============7294435202965470954==--
+--===============5664604051334084369==--
