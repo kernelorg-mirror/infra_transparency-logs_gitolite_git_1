@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 06 Jun 2023 21:35:21 -0000
-Message-Id: <168608732111.23420.3934639131998399753@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 21:38:16 -0000
+Message-Id: <168608749669.24443.12559783418187029082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
   - ref: refs/heads/rtc-next
-    old: 31b0cecb4042d2676fd48f09379a19bc8b16eadd
-    new: 8bb12adb214b2d7cdad84f89db2cbab4b2908b61
+    old: 8bb12adb214b2d7cdad84f89db2cbab4b2908b61
+    new: 93eff1e0e67a0b54fc16f07f0ca88f8b5afd9f89
     log: |
-         8bb12adb214b2d7cdad84f89db2cbab4b2908b61 rtc: add HAS_IOPORT dependencies
+         93eff1e0e67a0b54fc16f07f0ca88f8b5afd9f89 dt-bindings: rtc: restrict node name suffixes
          
