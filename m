@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 06 Jun 2023 15:57:57 -0000
-Message-Id: <168606707708.19905.10476393521909157607@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 16:23:53 -0000
+Message-Id: <168606863360.4853.15513674514589756026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filezbVuva
-    old: 0000000000000000000000000000000000000000
-    new: 1c943f60e830d0b959c765df09d4c4b254de0481
+  - ref: refs/heads/20230606_abe_kohandel_spi_dw_add_compatible_for_intel_mount_evans_soc
+    old: 7bac98a338d63efb0b44ce4b79d53838491f00df
+    new: 0000000000000000000000000000000000000000
