@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1691061283053150138=="
+Content-Type: multipart/mixed; boundary="===============4487834198200627599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 06 Jun 2023 15:42:21 -0000
-Message-Id: <168606614115.8647.8545270378492557588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 06 Jun 2023 15:42:32 -0000
+Message-Id: <168606615291.8814.223677987871868167@gitolite.kernel.org>
 
---===============1691061283053150138==
+--===============4487834198200627599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: c7e076de2d511e0186c7a6585fa3be3f30bb57e0
-    new: 59960e67b9aae666655c42cf1df9eb58bf82c77f
-    log: revlist-c7e076de2d51-59960e67b9aa.txt
+  - ref: refs/heads/for-next
+    old: 9068ca4053bc3af08c4d65075b1bf8603ebe8825
+    new: 615770258020bfbbc8ea775704f6d0e0b8a14779
+    log: revlist-9068ca4053bc-615770258020.txt
 
---===============1691061283053150138==
+--===============4487834198200627599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1686066139 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1686066138-f06c3bf0f66fe2a320c67c2cb1f7910cf330debc
-
-c7e076de2d511e0186c7a6585fa3be3f30bb57e0 59960e67b9aae666655c42cf1df9eb58bf82c77f refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR/U9sACgkQJNaLcl1U
-h9AcxQf+OkMMwShWykKAkdwr7WC6DiCcEnvqV+eNzl9xkuR7CP8AoatVpfWiOxAn
-C9kgjFw2u6iTIul5gz7Nz74P7NewKeub/9gLmju75gNSrhGRCmYTJvyrnbco6a/Q
-ggAZPzZStu/W83Rr99+BJAg5hy73kgwY0sZRP0necFoFC2glZ1Kb6sJQTxkJLnGK
-m0lOVrF6Di0p7Afo8DMDfXi52v1iU4zV3u51ElvpftsxKMTqGsU9lYLo0S/JMfHi
-cQOaEhlrlaL7AEdtQLG22CVNPN5jh5NvwLbHG8+3ITv7OOi0jQz1K5zL1G/jMyzd
-+XiemtxvZQ3tKLFPe0ic3WLHbcwrpg==
-=x3db
------END PGP SIGNATURE-----
-
---===============1691061283053150138==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7e076de2d51-59960e67b9aa.txt
+Content-Disposition: attachment; filename=revlist-9068ca4053bc-615770258020.txt
 
 ba032909bb2d15fd3014c829fdc7a2a74a8b88ad ASoC: Intel: sof_sdw: add missing exit callback
 07140abbbf9e3dc412a34ed4a60c4b0d58fbe192 ASoC: Intel: sof_sdw: add dai info
@@ -80,5 +55,6 @@ dea4138d7794f3041f6969bff637b7e5ed89ae90 ASoC: Intel: sof_sdw: Add support for M
 164e5dc17525181c05563f0a06796f1a363801d5 ASoC: Intel: sof_sdw: Add support for Rex soundwire
 a0503817c0be5ea15164f64e06350e3363466021 ASoC: Intel: soc-acpi: add Rex CS42l42 and MAX98363 SoundWire entries
 59960e67b9aae666655c42cf1df9eb58bf82c77f ASoC: Intel: machine driver updates for 6.5
+615770258020bfbbc8ea775704f6d0e0b8a14779 Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
 
---===============1691061283053150138==--
+--===============4487834198200627599==--
