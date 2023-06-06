@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 06 Jun 2023 17:50:49 -0000
-Message-Id: <168607384916.888.3363185007164849675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 06 Jun 2023 17:58:13 -0000
+Message-Id: <168607429331.4930.11573587383142052880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/next-fixes
-    old: ba564eb96411958d8936bcb6540cc64ce9621e90
-    new: 7c902ab2c78a666d095a355fa834eb4c35fe2683
-    log: |
-         981a37bab5e5f16137266d3f00cf2bd018af36ef btrfs: properly enable async discard when switching from RO->RW
-         7c902ab2c78a666d095a355fa834eb4c35fe2683 Merge branch 'misc-6.4' into next-fixes
-         
+  - ref: refs/tags/input-for-v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2f7a69eb7af65a70ffeeedf7874e4505e791a0b
