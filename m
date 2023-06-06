@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4383790530162330088=="
+Content-Type: multipart/mixed; boundary="===============9137606638303315750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 06 Jun 2023 14:22:09 -0000
-Message-Id: <168606132942.18392.6047831231650369832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 Jun 2023 14:22:15 -0000
+Message-Id: <168606133525.18516.11953197550393887351@gitolite.kernel.org>
 
---===============4383790530162330088==
+--===============9137606638303315750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.4
+  - ref: refs/heads/spi-6.4
     old: 0c331fd1dccfba657129380ee084b95c1cedfbef
     new: 947c70a213769f60e9d5aca2bc88b50a1cfaf5a6
     log: |
          947c70a213769f60e9d5aca2bc88b50a1cfaf5a6 spi: cadence-quadspi: Add missing check for dma_set_mask
          
 
---===============4383790530162330088==
+--===============9137606638303315750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686061328 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1686061327-19c7899483c4aa59c9cacbf424322f99d1493ccd
+pusher C3F436CA30F5D8EB 1686061333 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686061333-ddcc55e388b4f77665656f5e553a776841255309
 
-0c331fd1dccfba657129380ee084b95c1cedfbef 947c70a213769f60e9d5aca2bc88b50a1cfaf5a6 refs/heads/for-6.4
+0c331fd1dccfba657129380ee084b95c1cedfbef 947c70a213769f60e9d5aca2bc88b50a1cfaf5a6 refs/heads/spi-6.4
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR/QRAACgkQJNaLcl1U
-h9Bsygf+IKQJY8Wl24zYX1A2URfYXODKYgmIXVeRQzatP9EeBsYPzuZB6Zn+3cl2
-liJUUs1/jeJsMpPRLkfpFttDkAvSA3s7O8/EiS1u0PjHhwamBf/gS4RksaEIdhdX
-r4GcX3oSz6tjZXkH3RK9BdtfNJlG/nb/tjmpvEOFn/17ybeptXVRFN3GnJULX/yZ
-XUtrjMLVpMbi59TRfAewtLbFTkzT6y9snGCnvEb7lyoG6jwUMhAWzD09fa2DZhjK
-xW5m83AvfPoLzNrXxwSC3XbJmCNOWEaY2prZS/KfJoN6bm/Wv/YevNU0T0u2CA8R
-R9GpI6Mexv/ssnBD/CnR0BhVrkvUXw==
-=5i14
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmR/QRUACgkQJNaLcl1U
+h9C4vgf+IIpAGxfdyoNmjhUs5kDPpt8TexcVjENk6fMObzcokBb4HRHUmjmfDTpn
+9/GTcpWMkDyZoP99mtZVxpH+FZu2zV/i6iI1YT3TNmVIrDzODRDY3M4uihi7r2X+
+8w/16vj9gRNOXWm/x0YABQv4ZsUd3VbTtO0CCXX06oKHtkgWhsPclmtTfIWsWU4E
+FvMvgGH8ToQwUOUVhY1S1+gBwSXcFULrAh8aP+Y5R50lus9MZ6jhk81DdwFymsKU
+/byogfMpdQitW083VgaqKwyaZImZRbaNQnO0XuSxFa7Iv864AdqjKrd7oFbCbYrH
+K2u5W/Hq91xhWRu/jmh3ABlJQPSIog==
+=HJqO
 -----END PGP SIGNATURE-----
 
---===============4383790530162330088==--
+--===============9137606638303315750==--
