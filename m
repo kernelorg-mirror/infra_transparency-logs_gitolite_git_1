@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0444123902530176089=="
+Content-Type: multipart/mixed; boundary="===============8690607003513442434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 06 Jun 2023 12:46:06 -0000
-Message-Id: <168605556647.14848.1441577446053718978@gitolite.kernel.org>
+Date: Tue, 06 Jun 2023 12:46:52 -0000
+Message-Id: <168605561201.15152.98305647671972191@gitolite.kernel.org>
 
---===============0444123902530176089==
+--===============8690607003513442434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
-    new: 306320034e8fbe7ee1cc4f5269c55658b4612048
+  - ref: refs/heads/tty-testing
+    old: b6c7ff2693ddc24cdad3b032d969303f7b2ae3da
+    new: 52861a3be8d6eae5c90963b747c4276ba6059c6b
     log: |
-         306320034e8fbe7ee1cc4f5269c55658b4612048 serial: lantiq: add missing interrupt ack
+         52861a3be8d6eae5c90963b747c4276ba6059c6b serial: core: don't kfree device managed data
          
 
---===============0444123902530176089==
+--===============8690607003513442434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686055565 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686055611 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1686055564-5e9766256ca0aa3cf25e9d16a1a2c6eb551350b1
+nonce 1686055610-4031e481a481af954f81df87f6f3e21a80c067bf
 
-9561de3a55bed6bdd44a12820ba81ec416e705a7 306320034e8fbe7ee1cc4f5269c55658b4612048 refs/heads/tty-linus
+b6c7ff2693ddc24cdad3b032d969303f7b2ae3da 52861a3be8d6eae5c90963b747c4276ba6059c6b refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR/Ko0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WakP/jFxzynmHXyBFhUvi1Ry
-MZAdjf3HAFUQT6em57C0Tmd45lHmVf/NJd8mVRBcaPRMsKJghAJZCYS8BnD7ng7s
-hTFgGEO6+EZVYDI3xO+lNdg9/sB2t8DKshGu3rg8AZXJqMdxOBi/KrsJUBxPOuPr
-z1zeK3GQEzGQ8ljJJ72N07OpZd4/NJ6ctGPUSXFlA2EEIchAWtW7yh3WPYQrtjxm
-wTqpo9sO02q550mWQx/DzRH4wqHOI1O87xN8+TfvpZn8ucpJm3+IX3kbf9fCiTkC
-P4vHYWcgawWPPFHdIHdPgHjUHgUUKOd/+KeafSLyuue79fm0w1ikVJ8Q0ejU9Myo
-WHrk2VpDgP1Ljo6vfyJSDc24ak+cYb9QcjOBj3RqGPTmonDdOo40gZJc/GFcE04y
-FjBLIKD+qJT/IMvAxcqhC7XKSPlqju+nHppCjPLK51XZhxxbIqKssy0wmXrKI3WB
-I9R9lqnpMcqqJqyjPwkKBaFe8b+KOTYWtojCCRKxobclBqvhuoSzZk41ZENLLDfT
-MItaSbzFK6XOUfJ9DkEFG62qIIGAsQxDSpmsxlTMWW25u5Eny+8JTGrR5NJxuHc6
-bUwmB29yKr6mHAD5O6QUoGWHdwh+XOOuKm9RQMao21j6LG1Ij690Ta1EQW6ST+XH
-3hgAyeC1TZMDDuv7KQ2igMqQ
-=2LXC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmR/KrsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fL0P/0xyUCW1iml2jum68S1K
+i4005zLE9MkEw/4vkpos1HrgrujpSrU0288U91ti9NuFmdzrksfwPhxXYQxBH6Gf
+QlRRHJmV+hmF+tmLUqSMxkfVasrAVEaDIE5gwQB4CCDo7D4sudU07mrWXi22UI+a
+BI80ekDxI3e2vua/BTT3C4Kqrjn+/Qc5/6QvLeQ5q0smNdTAEUV7KnKYUFKlC6LA
+ptF7nUSNCYfbfcTlgD+Vp6KcavQEe4wUXNODxpWcd3TqtZd5FUjfALo3ZpZIX9vr
+LjlVj9qB6cjc1gS4zLBs/19qzlHfCCfTjEGY1Yyl8n52fVUR898E60OuXC4WY1nx
+KX3s3QglwTPDODAQW8boX2Avehil/92DclXV+au39IHTQh9CzfcPd73MBiUR7/i6
+pdi9kTzV37DYUsoUoaQPDHeuWOoLcz7gpUQrxs5/gX8oF+4NLjKkSjEkdOQLarUp
+EPoCx1u70M6JF42Svqp4/VGCXYL9e6IK4CnrXt6BTphxxAHNemVxc6uGKqEXdTc4
+//fD65wZ4s5tNBkcSGV3MEfcUDUw3QJBhnnb8S1uCzz/lytTAv72RDhMECE5c97Y
+yakmisM4JuV//dZxSj9t6Evqd9XVZKPubpezjbjXIefscheEBH+jIIarChLEMvnQ
+OLaN5V7LAFSUHTFMUGinM0+0
+=iSkj
 -----END PGP SIGNATURE-----
 
---===============0444123902530176089==--
+--===============8690607003513442434==--
