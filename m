@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 06 Jun 2023 22:17:08 -0000
-Message-Id: <168608982860.18471.7000070604484147279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 06 Jun 2023 22:20:32 -0000
+Message-Id: <168609003217.21575.9037699625261586636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/enumeration
-    old: 0b3dee602abf4a102a7a506d4b1c765355b27685
-    new: c6f54cf44c3d05510f8f292a1782105c087797ba
+  - ref: refs/heads/for-next
+    old: 90502d51ab90032a3cd2e3268ba8f794fe85b534
+    new: 748462b59f901557377b2c33ea9808ff2000e141
     log: |
-         c6f54cf44c3d05510f8f292a1782105c087797ba PCI: of: Propagate firmware node by calling device_set_node()
+         255b34d799ddaaef5e8672b96c47a3b94fe85da9 riscv: allow case-insensitive ISA string parsing
+         9e320d7ca46aecf565c3900452acae579a7d0a9a dt-bindings: riscv: drop invalid comment about riscv,isa lower-case reasoning
+         748462b59f901557377b2c33ea9808ff2000e141 Merge patch series "riscv: allow case-insensitive ISA string parsing"
          
