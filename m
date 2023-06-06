@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Tue, 06 Jun 2023 00:08:26 -0000
-Message-Id: <168601010604.1617.15264829269084945666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 06 Jun 2023 00:11:24 -0000
+Message-Id: <168601028482.4194.3671312635476005005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/for-6.4-fixes
-    old: 2bd110339288c18823dcace602b63b0d8627e520
-    new: 5647e53f7856bb39dae781fe26aa65a699e2fc9f
+  - ref: refs/heads/md-next
+    old: 0dc0d38458b7774633be9902c761dedf81333db8
+    new: 8404706db6fa00b1bb2f8f6d276b33eed68b7ab8
     log: |
-         5647e53f7856bb39dae781fe26aa65a699e2fc9f cgroup: Documentation: Clarify usage of memory limits
-         
-  - ref: refs/heads/for-next
-    old: 254ea75606eac5e71d46243e9252c77da1c749d6
-    new: f32b14ba70a963d7199f0dad9fa48514e1246a07
-    log: |
-         5647e53f7856bb39dae781fe26aa65a699e2fc9f cgroup: Documentation: Clarify usage of memory limits
-         f32b14ba70a963d7199f0dad9fa48514e1246a07 Merge branch 'for-6.4-fixes' into for-next
+         1979c430585b1c58d2c6944b1bdd7dc5eac7a9a7 md/raid10: Do not add spare disk when recovery fails
+         8404706db6fa00b1bb2f8f6d276b33eed68b7ab8 md/raid10: fix io loss while replacement replace rdev
          
