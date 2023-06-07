@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Jun 2023 09:11:05 -0000
-Message-Id: <168612906576.14840.13706303828864644809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
+Date: Wed, 07 Jun 2023 09:18:09 -0000
+Message-Id: <168612948972.18671.17080518814450914577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/hansg/linux
+user: hansg
 changes:
-  - ref: refs/heads/main
-    old: 2f27d7890f53a9da696277e1993acd7eb6ca6d66
-    new: cad7526f33ce1e7d387d1d0568a089e41deec5c2
+  - ref: refs/heads/media-atomisp
+    old: 807061efa3598128fa2eb641b433a70c45cc60ce
+    new: 0083c20ec83ed91e69294899a1a1994d62bb9b0d
     log: |
-         cad7526f33ce1e7d387d1d0568a089e41deec5c2 net: dsa: ocelot: unlock on error in vsc9959_qos_port_tas_set()
+         0083c20ec83ed91e69294899a1a1994d62bb9b0d media: atomisp: csi2-bridge: Add support for setting "clock-" and "link-frequencies" props
          
