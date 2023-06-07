@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6329011337415887596=="
+Content-Type: multipart/mixed; boundary="===============2737550275757061965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 07 Jun 2023 15:21:01 -0000
-Message-Id: <168615126183.24362.5913027266332296396@gitolite.kernel.org>
+Date: Wed, 07 Jun 2023 15:21:37 -0000
+Message-Id: <168615129738.24679.9185914872178443652@gitolite.kernel.org>
 
---===============6329011337415887596==
+--===============2737550275757061965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 42510dffd0e2c27046905f742172ed6662af5557
-    new: 44f8baaf230c655c249467ca415b570deca8df77
-    log: revlist-42510dffd0e2-44f8baaf230c.txt
+  - ref: refs/heads/dev-queue
+    old: 3aaf4fdd19005b77ed4272bd062dc1cf0a332ca0
+    new: c27228db8fff17b8296e162e77668fa6b2c64c8b
+    log: revlist-3aaf4fdd1900-c27228db8fff.txt
 
---===============6329011337415887596==
+--===============2737550275757061965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42510dffd0e2-44f8baaf230c.txt
+Content-Disposition: attachment; filename=revlist-3aaf4fdd1900-c27228db8fff.txt
 
 30bc32c7c1f975cc3c14e1c7dc437266311282cf wifi: mt76: mt7615: fix possible race in mt7615_mac_sta_poll
 3918dd0177ee08970683a2c22a3388825d82fd79 wifi: rtw88: correct PS calculation for SUPPORTS_DYNAMIC_PS
@@ -71,5 +71,27 @@ bf15bb38ec7f4ff522da5c20e1673dbda7159938 ice: make writes to /dev/gnssX synchron
 de9df6c6b27e22d7bdd20107947ef3a20e687de5 net: openvswitch: fix upcall counter access before allocation
 682881ee45c81daa883dcd4fe613b0b0d988bb22 net: sched: act_police: fix sparse errors in tcf_police_dump()
 44f8baaf230c655c249467ca415b570deca8df77 net: sched: fix possible refcount leak in tc_chain_tmplt_add()
+216c3fefccc5f5a5ed49b5bec1904b3f1f804808 igc: Fix possible system crash when loading module
+f6d92d43545cb4b12150f1811099617356dbfd55 igb: fix nvm.ops.read() error handling
+c395782a93b2c9ad604f381cf5d0d14f905f7ef2 iavf: Fix use-after-free in free_netdev
+adc0cfecb92a9a7f16925d0fc88db886dd5a1f2e iavf: Fix out-of-bounds when setting channels on remove
+87c776578b7e5777a46122c1828b79791c1657dd igc: Fix race condition in PTP tx code
+0fbad14ceda78ee6b6b03b60a07fcbec246988d6 igc: Check if hardware TX timestamping is enabled earlier
+530b5c8b00ab924a309123c0ca5031d9a0b20a41 igc: Retrieve TX timestamp during interrupt handling
+2e087e1d7bab22f5e4a09769234ea13b5a266239 igc: Add workaround for missing timestamps
+44c54f84ccc1cf58022b11b1eddfb30bcd19462a igc: Clean the TX buffer and TX descriptor ring
+78274026b7a9f75c7702269cc7788fe9080864b6 igc: Add condition for qbv_config_change_errors counter
+751eea0730526ebe5172d871930a9122cdd3e336 igc: Remove delay during TX ring configuration
+4f917e027de911602437efc7083d9234a8337fe8 iavf: use internal state to free traffic IRQs
+ba8ae393dcab68f2413f705fe7463d05ac38049c ice: Don't dereference NULL in ice_gns_read error path
+f2d666fa83afdeb4a4e5678de17b8024a4040e4d igb: Fix extts capture value format for 82580/i354/i350
+c8cb46fcf5079ee88ea366b38bec2aaee8740fff ice: Fix ice module unload
+5552f0585b4285c89dd57f3647e4f183cd855828 igc: Fix TX Hang issue when QBV Gate is closed
+4f57cd48cd969da314edcb97343207e7d9fa68cc iavf: Wait for reset in callbacks which trigger it
+cab9744eb208760cfee6b27ab6cf436a1100ac1b Revert "iavf: Detach device during reset task"
+4e68b13112398dbcc64e24a6f2035812a9f446ff Revert "iavf: Do not restart Tx queues after reset task failure"
+c12acbac9661bd0bcc5f6e7c55a6b6fc62861943 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+4d7b1050ee4d1c12d7d433610c9232c43be2a17b iavf: fix reset task race with iavf_remove()
+c27228db8fff17b8296e162e77668fa6b2c64c8b igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
 
---===============6329011337415887596==--
+--===============2737550275757061965==--
