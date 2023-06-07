@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 07 Jun 2023 08:51:00 -0000
-Message-Id: <168612786053.1587.11827048468055723307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Jun 2023 08:54:35 -0000
+Message-Id: <168612807582.2851.6381081182632982835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: 9f37d3798026f9a7447d851a2cb356610852e426
-    new: c5f231f1a7e18d28e02b282d33541d31358360e4
+  - ref: refs/heads/main
+    old: 4cab498f33f7adaa01ad15909c0f34a81e5a0b0a
+    new: 2f27d7890f53a9da696277e1993acd7eb6ca6d66
     log: |
-         c5f231f1a7e18d28e02b282d33541d31358360e4 coresight: etm4x: Make etm4_remove_dev() return void
+         7300c9b574cc2b259ef112d34affa0671ae4810a net: phy: realtek: Add optional external PHY clock
+         350b7a258f20427a411a888e5af0684327d49e3a dt-bindings: net: phy: Document support for external PHY clk
+         59e227e2894b28c4409e89d04a33868c176587b2 net: phy: realtek: Disable clock on suspend
+         2f27d7890f53a9da696277e1993acd7eb6ca6d66 Merge branch 'realtek-external-phy-clock'
          
