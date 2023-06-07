@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2316703467639425315=="
+Content-Type: multipart/mixed; boundary="===============6383546598852564038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 07 Jun 2023 17:22:57 -0000
-Message-Id: <168615857733.10379.11459744839346342421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 Jun 2023 17:23:03 -0000
+Message-Id: <168615858317.10473.486927466149610936@gitolite.kernel.org>
 
---===============2316703467639425315==
+--===============6383546598852564038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 7bac98a338d63efb0b44ce4b79d53838491f00df
     new: 0ad902aa3b062a9f1dd51dc628e460896a3a405c
     log: |
@@ -26,28 +26,28 @@ changes:
          0ad902aa3b062a9f1dd51dc628e460896a3a405c spi: s3c64xx: Cleanups
          
 
---===============2316703467639425315==
+--===============6383546598852564038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686158575 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1686158575-f770ee5ea28bd907030a2805fe948bf6b94dbc94
+pusher C3F436CA30F5D8EB 1686158581 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686158581-2401e52a4b34892a78968d9b15c1cef78056d17d
 
-7bac98a338d63efb0b44ce4b79d53838491f00df 0ad902aa3b062a9f1dd51dc628e460896a3a405c refs/heads/for-6.5
+7bac98a338d63efb0b44ce4b79d53838491f00df 0ad902aa3b062a9f1dd51dc628e460896a3a405c refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSAvO8ACgkQJNaLcl1U
-h9Ca5wf+PKYsQRhzOm/pNMNwgMPTv9OLjMM5peGF3JvFz2ZGdahjS6XyFTrqH+5q
-6xvtIk8ZDI3fViYFJ1mgqXY+uwQIDHeTEBSrY5wsA5fJLiW4czRPe7MqQWSLelu8
-h4Gxveu0E4ng5YSrxYkQkopPCu2dSHdoPTMHX32mbIlIRxXAS7v2VXDfAgi8OfDd
-5P0QG0MW9OjnZVqsGYKM4e5qguDfgB/REJfiXiuxSEyAIHJ/lkjDRx6Yp0aZ0/j+
-uMujjMMfiV/5XiPWbqDYE3bylTADLWs1Nv9M1usvLzEkHV2p5ix3TNj2kYGI2E07
-aImxxLiHz/zO8xtUesO86IY2rqQi/Q==
-=JOZM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSAvPUACgkQJNaLcl1U
+h9A+pAf/Wu9WQB34wh/VqVEIHjtCuwa2AzirpF2jKkk+QBJAt9Dr6/0eHz8Ol09f
+Pnhrteqj3T1ID/BvRCltI9X23HWkPESEwtlNYsm019vrk3F/z3lTEhwiEORWODVi
+Pkva8pfwM/ZhGzhGfAQIf1KRnR3IT6SfFDmUpqpj4FODh+hmbN5MTuNQTZdHPLwB
+qMYo1nhOuc9LNmGFBGtQpyo61cmWWH374rx3H7bjBSqi/PoMUubsZNLgaHUKX8hp
+XO2SqFDyreUQQ1p9dM1sBnfkTJRhq0tQI2z1qbwr4GwgZ+l6djxvKDkq+hMATDWn
+pX8Iecr9tV6R7Ip+6DpLpFxCiJI31g==
+=cfc6
 -----END PGP SIGNATURE-----
 
---===============2316703467639425315==--
+--===============6383546598852564038==--
