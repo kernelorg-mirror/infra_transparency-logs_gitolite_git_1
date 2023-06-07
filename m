@@ -1,21 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 07 Jun 2023 14:14:12 -0000
-Message-Id: <168614725221.9272.15839010016559512298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 07 Jun 2023 14:50:03 -0000
+Message-Id: <168614940320.1690.177537937089412868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/fixes
-    old: 6966d7988c4fb6af3e395868e9800c07f9e98a30
-    new: 49a0a3731596fc004db6eec3fc674d92a09ef383
+  - ref: refs/heads/for-6.5/block
+    old: ddf63516d8d37528dc6834c7f19b55084e956068
+    new: 1341c7d2ccf42ed91aea80b8579d35bc1ea381e2
     log: |
-         6569fc12e442ea973d96db39e542aa19a7bc3a79 riscv: mm: Ensure prot of VM_WRITE and VM_EXEC must be readable
-         25abe0db92437fde463204c3e4eb5a71b62d6e5d riscv: Fix kfence now that the linear mapping can be backed by PUD/P4D/PGD
-         49a0a3731596fc004db6eec3fc674d92a09ef383 riscv: Check the virtual alignment before choosing a map size
+         f12bc113ce904777fd6ca003b473b427782b3dde nbd: Add the maximum limit of allocated index in nbd_dev_add
+         a7cfa0af0c88353b4eb59db5a2a0fbe35329b3f9 blk-ioc: fix recursive spin_lock/unlock_irq() in ioc_clear_queue()
+         3d2af77e31ade05ff7ccc3658c3635ec1bea0979 blk-cgroup: Reinit blkg_iostat_set after clearing in blkcg_reset_stats()
+         1341c7d2ccf42ed91aea80b8579d35bc1ea381e2 block: fix rootwait=
+         
+  - ref: refs/heads/for-next
+    old: 2dc4eeb36feb4b5baae9ec9ef145c974007d94b8
+    new: 540397582b74fe9c98ba3773704cfdd154993240
+    log: |
+         f12bc113ce904777fd6ca003b473b427782b3dde nbd: Add the maximum limit of allocated index in nbd_dev_add
+         a7cfa0af0c88353b4eb59db5a2a0fbe35329b3f9 blk-ioc: fix recursive spin_lock/unlock_irq() in ioc_clear_queue()
+         3d2af77e31ade05ff7ccc3658c3635ec1bea0979 blk-cgroup: Reinit blkg_iostat_set after clearing in blkcg_reset_stats()
+         d9bc47f01886f098c107804daca722f2a4cdd058 Merge branch 'for-6.5/block' into for-next
+         1341c7d2ccf42ed91aea80b8579d35bc1ea381e2 block: fix rootwait=
+         540397582b74fe9c98ba3773704cfdd154993240 Merge branch 'for-6.5/block' into for-next
          
