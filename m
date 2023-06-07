@@ -1,54 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============3669438935899972073=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 07 Jun 2023 17:03:30 -0000
-Message-Id: <168615741075.27952.701998061259242536@gitolite.kernel.org>
-
---===============3669438935899972073==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 07 Jun 2023 17:06:47 -0000
+Message-Id: <168615760791.30571.8989955611522877709@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/objtool/core
-    old: 9af704f7248ff8c5ddf2e2ac5d27b925da10338b
-    new: b4c96ef0add5b701eb37be9830a98610e1d9b4a3
-    log: revlist-9af704f7248f-b4c96ef0add5.txt
-
---===============3669438935899972073==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9af704f7248f-b4c96ef0add5.txt
-
-1e4b619185e83e54aca617cf5070c64a88fe936b objtool: Allow stack operations in UNWIND_HINT_UNDEFINED regions
-a9da8247627eefc73f909bf945031a5431a53993 drm/vmwgfx: Add unwind hints around RBP clobber
-809373e17b2649948cc681dd1962b2736b22c7a6 objtool: Tidy elf.h
-2707579dfa615a5dda4aabb92e433f03a87b5ec5 objtool: Remove flags argument from elf_create_section()
-a5bd623653231bce8657978e9d2c2ebfaf19e297 objtool: Improve reloc naming
-53257a977a69b5eabbaafb64dcd767d2a4fef2b3 objtool: Consolidate rel/rela handling
-eb0481bbc4ce386e73e28ad8590b4f12c8aded56 objtool: Fix reloc_hash size
-ff4082730c2aaff3706232266e09d1ae4b350521 objtool: Add mark_sec_changed()
-6342a20efbd8b70d169c325b2c27a8a8f96388d5 objtool: Add elf_create_section_pair()
-fcf933552bebdecd72b324738c6635f46b0df569 objtool: Keep GElf_Rel[a] structs synced
-5201a9bcb7d3f98ab99c17325b0aa925c2888ca3 objtool: Don't free memory in elf_close()
-caa4a6b74b405ddaea40e2946cc3983aac96451d objtool: Add for_each_reloc()
-e0a9349b4c590145c6a83e6c9f7701cec42debbd objtool: Allocate relocs in advance for new rela sections
-ebcef730a19ba7ca446169f391d2e51722d68043 objtool: Get rid of reloc->list
-be9a4c116824c39720001db5bc45fe7528b26cff objtool: Get rid of reloc->idx
-e4cbb9b81f1f7519c7ae3abda09cb15794022952 objtool: Get rid of reloc->offset
-fcee899d2794319c9dbeb7b877b0c4ac92f5dd16 objtool: Get rid of reloc->type
-0696b6e314dbe4bd2f24d5e749469f57ea095a9f objtool: Get rid of reloc->addend
-be2f0b1e12644c956a347d7fde93c2ffe9cdb1af objtool: Get rid of reloc->jump_table_start
-890f10a433f51f95eccaec13d46dde769ccc113b objtool: Shrink reloc->sym_reloc_entry
-02b54001066364aee72bc4c802b42a96c6e0dc1f objtool: Shrink elf hash nodes
-ec24b927c1fbfc91cf7a48276d9fd92072b17d3b objtool: Get rid of reloc->rel[a]
-d93b5935fd47007597aed5105a902a10204bc30e objtool: Free insns when done
-b4c96ef0add5b701eb37be9830a98610e1d9b4a3 objtool: Skip reading DWARF section data
-
---===============3669438935899972073==--
+  - ref: refs/tags/mgctime.20230518
+    old: 0000000000000000000000000000000000000000
+    new: 56f2f45ae0b37e0d8007f6f12a28cd9a32d9d2f9
