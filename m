@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2390553395679555517=="
+Content-Type: multipart/mixed; boundary="===============4549395367232753688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 07 Jun 2023 15:00:18 -0000
-Message-Id: <168615001883.9893.6128899751801135486@gitolite.kernel.org>
+Date: Wed, 07 Jun 2023 15:00:37 -0000
+Message-Id: <168615003795.10075.1028611487553495087@gitolite.kernel.org>
 
---===============2390553395679555517==
+--===============4549395367232753688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
-    new: c9d934053d9e850bc901b6425eacb5fe3d4b1738
-    log: revlist-7877cb91f108-c9d934053d9e.txt
+    new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+    log: revlist-7877cb91f108-9561de3a55be.txt
 
---===============2390553395679555517==
+--===============4549395367232753688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7877cb91f108-c9d934053d9e.txt
+Content-Disposition: attachment; filename=revlist-7877cb91f108-9561de3a55be.txt
 
 70a640c0efa7667453c3911b13335304ce46ad8b regmap: REGMAP_KUNIT should not select REGMAP
 9bf03a0cbd80a256bc1e1c4bcc80bc2b06b8b2b9 phy: qcom-qmp-combo: fix init-count imbalance
@@ -398,8 +398,5 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
-6ff58ae17fd9523246a260434133ed9ab7f56df2 USB: serial: return errors from break handling
-f4bbae27b32ea0ffb9e25931b9769600e8d8a664 USB: serial: cp210x: disable break signalling on CP2105 SCI
-c9d934053d9e850bc901b6425eacb5fe3d4b1738 USB: serial: report unsupported break signalling
 
---===============2390553395679555517==--
+--===============4549395367232753688==--
