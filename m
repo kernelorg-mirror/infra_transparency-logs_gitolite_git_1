@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 07 Jun 2023 13:35:03 -0000
-Message-Id: <168614490310.16319.12921343352220212286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 07 Jun 2023 13:41:23 -0000
+Message-Id: <168614528349.19925.13717854269043519411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: a4d2b8537845c9a4f4b16dd31793af9c08548341
-    new: 10b98a4db11a289b260928f2c81799642dcd2cb0
+  - ref: refs/heads/kbuild
+    old: 7f8256ae0efba344a9b113036b1d545a1f6cdaa7
+    new: b2d43e9a6a745f75de3575b76a880283f4d5e5e5
     log: |
-         f091ec768c52fe7192faeabf47cf212321879176 docs: sound: add 'pcmtest' driver documentation
-         315a3d57c64c55901d6fe5a5eef3b3e51d215381 ALSA: Implement the new Virtual PCM Test Driver
-         10b98a4db11a289b260928f2c81799642dcd2cb0 selftests: ALSA: Add test for the 'pcmtest' driver
-         
-  - ref: refs/heads/master
-    old: 225a6238812b1d32a81bb0fa87cdd2ed1bace30c
-    new: ce58eed3d28b0916def0203ab34c11737b068402
-    log: |
-         f091ec768c52fe7192faeabf47cf212321879176 docs: sound: add 'pcmtest' driver documentation
-         315a3d57c64c55901d6fe5a5eef3b3e51d215381 ALSA: Implement the new Virtual PCM Test Driver
-         10b98a4db11a289b260928f2c81799642dcd2cb0 selftests: ALSA: Add test for the 'pcmtest' driver
-         ce58eed3d28b0916def0203ab34c11737b068402 Merge branch 'for-next'
+         20ff36856fe00879f82de71fe6f1482ca1b72334 modpost: propagate W=1 build option to modpost
+         ec336aa83162fe0f3d554baed2d4e2589b69ec6e scripts/mksysmap: Fix badly escaped '$'
+         200dd957a7a72278363a8f2a49d2e90491bdb1b4 scripts/mksysmap: Ignore __pi_ local arm64 symbols
+         43fc0a99906e04792786edf8534d8d58d1e9de0c kbuild: Add KBUILD_CPPFLAGS to as-option invocation
+         b2d43e9a6a745f75de3575b76a880283f4d5e5e5 streamline_config.pl: handle also ${CONFIG_FOO}
          
