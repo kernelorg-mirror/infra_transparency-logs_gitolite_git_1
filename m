@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7728939972074187877=="
+Content-Type: multipart/mixed; boundary="===============0102983558913028226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 07 Jun 2023 12:28:23 -0000
-Message-Id: <168614090366.1367.12698698230819526569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 Jun 2023 12:28:29 -0000
+Message-Id: <168614090999.1515.4204088758212964502@gitolite.kernel.org>
 
---===============7728939972074187877==
+--===============0102983558913028226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regulator-6.5
     old: 3b88f5fba24485e6cfa2883e155d78d330e2eabc
     new: 30e15cb0fbb51513586a49d299798245a1c4a207
     log: revlist-3b88f5fba244-30e15cb0fbb5.txt
 
---===============7728939972074187877==
+--===============0102983558913028226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686140902 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1686140901-40429d2ddefdd9776d08f04a46a9af949f465f72
+pusher C3F436CA30F5D8EB 1686140908 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686140907-8eb46a776521ee361d4d46b4527b9238663a2908
 
-3b88f5fba24485e6cfa2883e155d78d330e2eabc 30e15cb0fbb51513586a49d299798245a1c4a207 refs/heads/for-6.5
+3b88f5fba24485e6cfa2883e155d78d330e2eabc 30e15cb0fbb51513586a49d299798245a1c4a207 refs/heads/regulator-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSAd+YACgkQJNaLcl1U
-h9B9jQf/dAxOZDJy0Q4g3L6TDKQZue7KcP2wKixB/IhnYlWlAbFw6xRKMfx77j2Z
-/KMka2wlaAoZYyUrxrDqdCLGgkXwe4Y8mgRsG9R/5mV1MBbix2LCSXIma04zpd2l
-KTsdObrU4/js3Li6b29QVgVbs9jLp7GA4eu+WM4Or0lm7FI1s5Lvsv6XW/wI+ogU
-OjX2J4/7HepQ1EWpdpjx+A3jXhCbHoJ4nK8jbj1fHHEeTT7B/DJYjDeTDgztpaqx
-zzwG07jQ906u1BGfoG2469L0kl5CTMdfzsSd8kb9mk71RpQaE6XkfO3O91/lgHwH
-DmZjQqbQ1TSpsYK3uH4MyVUVbDmNPg==
-=uCKa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSAd+wACgkQJNaLcl1U
+h9B2Rgf9E4yBoE1eUae9mPD+uO3Zi3zxiia0NsFMHUSObZniETScHnvLAaBmFKU/
+3WGF7/nPdteXPptOZL//JMvvQR3lFAtPjpTFi96MPjuwV33iJ1y5HKWyhCcSXYJO
+d67AtUAJF79jrbmbF15x21le8ykMhJaepHHVoOSMROkeOZPVo0dUeEO/1T4B11Rh
+YQRLwMS7aS0/8OyGXGhZdvxgKro1pPqPIquTMpB//KnV7z+WWAiz3/mFjhVbJ8aB
+DQ5cvIak0xtz/Yqk0kR0aXTFk+QuAggVlQfXNFXTxM+uKNAl9jyWl1ri2nYrjC77
+eMb8QXowUqIKYb5APNqrLUdLolJQNA==
+=ky7f
 -----END PGP SIGNATURE-----
 
---===============7728939972074187877==
+--===============0102983558913028226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -742,4 +742,4 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 3a76c7ca9e77269dd10cf21465a055274cfa40c6 spi: spi-geni-qcom: Do not do DMA map/unmap inside driver, use framework instead
 30e15cb0fbb51513586a49d299798245a1c4a207 spi-geni-qcom: Add new interfaces and utilise them
 
---===============7728939972074187877==--
+--===============0102983558913028226==--
