@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Wed, 07 Jun 2023 01:39:13 -0000
-Message-Id: <168610195306.30559.13809996190965496284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 07 Jun 2023 01:40:04 -0000
+Message-Id: <168610200491.32463.11271913406556002488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/libtracefs
-    old: 18ede68f35eff111504734689add560ea4edaf2e
-    new: 9a2df4a179761d54b7c2b38a069185298f0bb7d2
+  - ref: refs/heads/master
+    old: 01b1c7d5c9c10d9e487c97ba907769143543cd6b
+    new: f75777b32580b2c495fe11b492a4f77f82a0d3c2
     log: |
-         9a2df4a179761d54b7c2b38a069185298f0bb7d2 libtracefs: Update version to 1.7.dev
+         97e16fa9befb75856514018c09292924d28aa4fc Fixes for 6.3
+         f75777b32580b2c495fe11b492a4f77f82a0d3c2 Fixes for 5.15
          
