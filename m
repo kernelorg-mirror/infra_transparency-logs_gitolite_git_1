@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Wed, 07 Jun 2023 03:44:29 -0000
-Message-Id: <168610946931.17294.8151610333828170407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Wed, 07 Jun 2023 04:04:06 -0000
+Message-Id: <168611064601.30888.6572283301053945632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: djbw
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/libnvdimm-fixes
-    old: e5baf8c07707a601f978c02de958bbeb8cd6374a
-    new: 2d3217297c1435de78a6768a22a05b244639fe83
+  - ref: refs/heads/exynos-drm-fixes
+    old: 3441c8a3389ad650918346dcfee1f6e8f510d090
+    new: 48bfd02569f5db49cc033f259e66d57aa6efc9a3
     log: |
-         2d3217297c1435de78a6768a22a05b244639fe83 tools/testing/nvdimm: Drop empty platform remove function
+         4a059559809fd1ddbf16f847c4d2237309c08edf drm/exynos: vidi: fix a wrong error return
+         48bfd02569f5db49cc033f259e66d57aa6efc9a3 drm/exynos: fix race condition UAF in exynos_g2d_exec_ioctl
          
