@@ -1,97 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2737550275757061965=="
+Content-Type: multipart/mixed; boundary="===============5685321156705077496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 07 Jun 2023 15:21:37 -0000
-Message-Id: <168615129738.24679.9185914872178443652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 07 Jun 2023 15:26:25 -0000
+Message-Id: <168615158591.27799.2768816568733844577@gitolite.kernel.org>
 
---===============2737550275757061965==
+--===============5685321156705077496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3aaf4fdd19005b77ed4272bd062dc1cf0a332ca0
-    new: c27228db8fff17b8296e162e77668fa6b2c64c8b
-    log: revlist-3aaf4fdd1900-c27228db8fff.txt
+  - ref: refs/heads/main
+    old: ae91f7e436f8b631c47e244b892ecac62a4d9430
+    new: e7214663e023be5e518e8d0d8f2dca6848731652
+    log: revlist-ae91f7e436f8-e7214663e023.txt
 
---===============2737550275757061965==
+--===============5685321156705077496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3aaf4fdd1900-c27228db8fff.txt
+Content-Disposition: attachment; filename=revlist-ae91f7e436f8-e7214663e023.txt
 
-30bc32c7c1f975cc3c14e1c7dc437266311282cf wifi: mt76: mt7615: fix possible race in mt7615_mac_sta_poll
-3918dd0177ee08970683a2c22a3388825d82fd79 wifi: rtw88: correct PS calculation for SUPPORTS_DYNAMIC_PS
-26a125f550a3bf86ac91d38752f4d446426dfe1c wifi: rtw89: correct PS calculation for SUPPORTS_DYNAMIC_PS
-b408f33b35a4de606bfbd0de33b8f971bc5488ba wifi: rtw89: remove redundant check of entering LPS
-ead449023d3acb1424886d7b8cc672ed69bdd27e wifi: mt76: mt7996: fix possible NULL pointer dereference in mt7996_mac_write_txwi()
-31c5f9164949347c9cb34f041a7e04fdc08b1b85 Bluetooth: ISO: consider right CIS when removing CIG at cleanup
-e6a7a46b8636efe95c75bed63a57fc05c13feba4 Bluetooth: ISO: Fix CIG auto-allocation to select configurable CIG
-c5d2b6fa26b5b8386a9cc902cdece3a46bef2bd2 Bluetooth: Fix use-after-free in hci_remove_ltk/hci_remove_irk
-1857c19941c87eb36ad47f22a406be5dfe5eff9f Bluetooth: hci_sync: add lock to protect HCI_UNREGISTER
-fe2ccc6c29d53e14d3c8b3ddf8ad965a92e074ee Bluetooth: fix debugfs registration
-47c5d829a3e326b7395352a10fc8a6effe7afa15 Bluetooth: hci_qca: fix debugfs registration
-02c5ea5246a44d6ffde0fddebfc1d56188052976 Bluetooth: Fix l2cap_disconnect_req deadlock
-6c242c64a09e78349fb0a5f0a6f8076a3d7c0bb4 Bluetooth: ISO: don't try to remove CIG if there are bound CIS left
-71e9588435c38112d6a8686d3d8e7cc1de8fe22c Bluetooth: ISO: use correct CIS order in Set CIG Parameters event
-75767213f3d9b97f63694d02260b6a49a2271876 Bluetooth: L2CAP: Add missing checks for invalid DCID
-c37ab22bb1a43cdca8bf69cc0a22f1ccfc449e68 wifi: mac80211: use correct iftype HE cap
-727073ca5e55ab6a07df316250be8a12606e8677 wifi: cfg80211: reject bad AP MLD address
-68c228557d52616cf040651abefda9839de7086a wifi: mac80211: mlme: fix non-inheritence element
-47c171a426e305f2225b92ed7b5e0a990c95f6d4 wifi: mac80211: don't translate beacon/presp addrs
-1afa18e9e72396d1e1aedd6dbb34681f2413316b wifi: mac80211: fix switch count in EMA beacons
-7a4615b9a9da5225b22b36a20508555dd133ac24 wifi: iwlwifi: mvm: Fix -Warray-bounds bug in iwl_mvm_wait_d3_notif()
-3e54ed8247c94c8bdf370bd872bd9dfe72b1b12b wifi: cfg80211: fix locking in sched scan stop work
-f7e60032c6618dfd643c7210d5cba2789e2de2e2 wifi: cfg80211: fix locking in regulatory disconnect
-bd058763a624a1fb5c20f3c46e632d623c043676 netfilter: nf_tables: Add null check for nla_nest_start_noflag() in nft_dump_basechain_hook()
-14e8b293903785590a0ef168745ac84250cb1f4c netfilter: nft_bitwise: fix register tracking
-e1f543dc660b44618a1bd72ddb4ca0828a95f7ad netfilter: conntrack: fix NULL pointer dereference in nf_confirm_cthelper
-24e227896bbf003165e006732dccb3516f87f88e netfilter: ipset: Add schedule point in call_ad().
-08e42a0d3ad30f276f9597b591f975971a1b0fcf netfilter: nf_tables: out-of-bound check in chain blob
-f6ca5baf2a86d0eaff3859844da9e4e29ff750a7 netlink: specs: ethtool: fix random typos
-a2f4c143d76b1a47c91ef9bc46907116b111da0b ipv6: rpl: Fix Route of Death.
-82a01ab35bd02ba4b0b4e12bc95c5b69240eb7b0 tcp: gso: really support BIG TCP
-4f48c30312b7af5365878ab191bb41e7b899e09b pds_core: Fix FW recovery detection
-accc1bf23068c1cdc4c2b015320ba856e210dd98 virtio_net: use control_buf for coalesce params
-e684ab76afebcaccd428f7d55361d5669ccc3e2d Merge tag 'wireless-2023-06-06' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-20c47646a26026aa7d1a820eb5ebb4e1980cf552 Merge tag 'nf-23-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-ab39b113e74751958aac1b125a14ee42bd7d3efd Merge tag 'for-net-2023-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-1e5c647c3f6d4f8497dedcd226204e1880e0ffb3 rfs: annotate lockless accesses to sk->sk_rxhash
-5c3b74a92aa285a3df722bf6329ba7ccf70346d6 rfs: annotate lockless accesses to RFS sock flow table
-e3144ff52f7d2c884eef352cec9b9ff9acd2eb2f Merge branch 'rfs-lockless-annotate'
-d636fc5dd692c8f4e00ae6e0359c0eceeb5d9bdb net: sched: add rcu annotations around qdisc->qdisc_sleeping
-bf15bb38ec7f4ff522da5c20e1673dbda7159938 ice: make writes to /dev/gnssX synchronous
-886bc7d6ed3357975c5f1d3c784da96000d4bbb4 net: sched: move rtm_tca_policy declaration to include file
-de9df6c6b27e22d7bdd20107947ef3a20e687de5 net: openvswitch: fix upcall counter access before allocation
-682881ee45c81daa883dcd4fe613b0b0d988bb22 net: sched: act_police: fix sparse errors in tcf_police_dump()
-44f8baaf230c655c249467ca415b570deca8df77 net: sched: fix possible refcount leak in tc_chain_tmplt_add()
-216c3fefccc5f5a5ed49b5bec1904b3f1f804808 igc: Fix possible system crash when loading module
-f6d92d43545cb4b12150f1811099617356dbfd55 igb: fix nvm.ops.read() error handling
-c395782a93b2c9ad604f381cf5d0d14f905f7ef2 iavf: Fix use-after-free in free_netdev
-adc0cfecb92a9a7f16925d0fc88db886dd5a1f2e iavf: Fix out-of-bounds when setting channels on remove
-87c776578b7e5777a46122c1828b79791c1657dd igc: Fix race condition in PTP tx code
-0fbad14ceda78ee6b6b03b60a07fcbec246988d6 igc: Check if hardware TX timestamping is enabled earlier
-530b5c8b00ab924a309123c0ca5031d9a0b20a41 igc: Retrieve TX timestamp during interrupt handling
-2e087e1d7bab22f5e4a09769234ea13b5a266239 igc: Add workaround for missing timestamps
-44c54f84ccc1cf58022b11b1eddfb30bcd19462a igc: Clean the TX buffer and TX descriptor ring
-78274026b7a9f75c7702269cc7788fe9080864b6 igc: Add condition for qbv_config_change_errors counter
-751eea0730526ebe5172d871930a9122cdd3e336 igc: Remove delay during TX ring configuration
-4f917e027de911602437efc7083d9234a8337fe8 iavf: use internal state to free traffic IRQs
-ba8ae393dcab68f2413f705fe7463d05ac38049c ice: Don't dereference NULL in ice_gns_read error path
-f2d666fa83afdeb4a4e5678de17b8024a4040e4d igb: Fix extts capture value format for 82580/i354/i350
-c8cb46fcf5079ee88ea366b38bec2aaee8740fff ice: Fix ice module unload
-5552f0585b4285c89dd57f3647e4f183cd855828 igc: Fix TX Hang issue when QBV Gate is closed
-4f57cd48cd969da314edcb97343207e7d9fa68cc iavf: Wait for reset in callbacks which trigger it
-cab9744eb208760cfee6b27ab6cf436a1100ac1b Revert "iavf: Detach device during reset task"
-4e68b13112398dbcc64e24a6f2035812a9f446ff Revert "iavf: Do not restart Tx queues after reset task failure"
-c12acbac9661bd0bcc5f6e7c55a6b6fc62861943 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
-4d7b1050ee4d1c12d7d433610c9232c43be2a17b iavf: fix reset task race with iavf_remove()
-c27228db8fff17b8296e162e77668fa6b2c64c8b igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+a99bfdf647953f8ac4ae71f373113e8ac194f1c0 tools: ynl-gen: clean up stray new lines at the end of reply-less requests
+86878f14d71af89149a955122afd8b7af1ee9bf2 tools: ynl: user space helpers
+d75fdfbc6f260f50cde5d1d566ab010a370df62e tools: ynl: support fou and netdev in C
+ee0202e2e731d074639461b3db2296bf44d847ce tools: ynl: add sample for netdev
+2dc476404efa8546a08561877e88bfb2006facab Merge branch 'tools-ynl-user-space-c'
+26dd2974c5b5caef358784530c9e72715adc8f5b net: phy: micrel: Move KSZ9477 errata fixes to PHY driver
+6068e6d7ba5001dfb96bb8b7b92e2ed2a5877786 net: dsa: microchip: remove KSZ9477 PHY errata handling
+fe109f6b6378a7d26231474ca0acb7d028cbaa70 Merge branch 'move-ksz9477-errata-handling-to-phy-driver'
+4b095281cacab0b62e7f11d6d8c4a6d49ecaae42 ipv4: Set correct scope in inet_csk_route_*().
+6f8a76f8022121f7e4dc9cc29da7fb716b7db45f tcp: Set route scope properly in cookie_v4_check().
+be1f4a262b43576a6a81490b97ab19a6763f8c75 Merge branch 'ipv4-remove-rt_conn_flags-calls-in-flowi4_init_output'
+ae28ea5cbdee9956464223b304d6c767238b2506 tipc: replace open-code bearer rcu_dereference access in bearer.c
+4cab498f33f7adaa01ad15909c0f34a81e5a0b0a hv_netvsc: Allocate rx indirection table size dynamically
+7300c9b574cc2b259ef112d34affa0671ae4810a net: phy: realtek: Add optional external PHY clock
+350b7a258f20427a411a888e5af0684327d49e3a dt-bindings: net: phy: Document support for external PHY clk
+59e227e2894b28c4409e89d04a33868c176587b2 net: phy: realtek: Disable clock on suspend
+2f27d7890f53a9da696277e1993acd7eb6ca6d66 Merge branch 'realtek-external-phy-clock'
+cad7526f33ce1e7d387d1d0568a089e41deec5c2 net: dsa: ocelot: unlock on error in vsc9959_qos_port_tas_set()
+0824a987a58070470351906590a89fa5e0f88ba1 tcp: fix formatting in sysctl_net_ipv4.c
+f71be9d084c92e0ef36e248303f32f8e4cf623da net: liquidio: fix mixed module-builtin object
+92db9e2e0498b92d0a57cc48ea869ddabda934d9 net: dsa: qca8k: remove unnecessary (void*) conversions
+e7214663e023be5e518e8d0d8f2dca6848731652 net: txgbe: Avoid passing uninitialised parameter to pci_wake_from_d3()
 
---===============2737550275757061965==--
+--===============5685321156705077496==--
