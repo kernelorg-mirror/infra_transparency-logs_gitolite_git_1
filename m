@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Wed, 07 Jun 2023 21:30:48 -0000
-Message-Id: <168617344834.22247.16808191744237581143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/bpf-devices
+Date: Wed, 07 Jun 2023 21:30:56 -0000
+Message-Id: <168617345677.22372.3652917200149543888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/will/bpf-devices
+user: will
 changes:
-  - ref: refs/heads/master
-    old: f5871a1b169bab1ec0130554f3ea558705c85e4f
-    new: 46952ef9aca9f6deeb9af7a227dfd1d04e147aba
+  - ref: refs/heads/main
+    old: 71f1de17da571d8790fbc3611e2fae02b0f53827
+    new: c45f512b92faa044bb25fa3e0be378a109598238
     log: |
-         46952ef9aca9f6deeb9af7a227dfd1d04e147aba trace-cmd: Version 3.2
+         c45f512b92faa044bb25fa3e0be378a109598238 Initial support for virtual cpufreq device
          
