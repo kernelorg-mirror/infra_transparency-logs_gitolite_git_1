@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 07 Jun 2023 13:03:43 -0000
-Message-Id: <168614302392.26482.1787868355214028704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 07 Jun 2023 13:04:04 -0000
+Message-Id: <168614304411.26679.8966249072618459636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: d7459efc9276a715fe9def401bc30045aeb9668a
-    new: d1f11f41eb746a33816695f1b6b6719826cc532c
+  - ref: refs/heads/master
+    old: 69844e335d8c22454746c7903776533d8b4ab8fa
+    new: f46fab0e36e611a2389d3843f34658c849b6bd60
     log: |
-         d1f11f41eb746a33816695f1b6b6719826cc532c MAINTAINERS: add Andy Shevchenko as reviewer for the GPIO subsystem
+         f46fab0e36e611a2389d3843f34658c849b6bd60 bpf: Add extra path pointer check to d_path helper
          
