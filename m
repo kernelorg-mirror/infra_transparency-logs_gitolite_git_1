@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Jun 2023 11:28:17 -0000
-Message-Id: <168613729729.24275.10239417493551533118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Jun 2023 11:29:10 -0000
+Message-Id: <168613735041.24654.6679336294036936777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: de9df6c6b27e22d7bdd20107947ef3a20e687de5
-    new: 682881ee45c81daa883dcd4fe613b0b0d988bb22
+    old: 92db9e2e0498b92d0a57cc48ea869ddabda934d9
+    new: e7214663e023be5e518e8d0d8f2dca6848731652
     log: |
-         682881ee45c81daa883dcd4fe613b0b0d988bb22 net: sched: act_police: fix sparse errors in tcf_police_dump()
+         e7214663e023be5e518e8d0d8f2dca6848731652 net: txgbe: Avoid passing uninitialised parameter to pci_wake_from_d3()
          
