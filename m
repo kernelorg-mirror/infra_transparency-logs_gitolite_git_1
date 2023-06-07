@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Jun 2023 04:07:35 -0000
-Message-Id: <168611085546.1197.8809771715512242006@gitolite.kernel.org>
+Date: Wed, 07 Jun 2023 04:09:18 -0000
+Message-Id: <168611095810.1879.16614056237144105409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f6ca5baf2a86d0eaff3859844da9e4e29ff750a7
-    new: a2f4c143d76b1a47c91ef9bc46907116b111da0b
+    old: a2f4c143d76b1a47c91ef9bc46907116b111da0b
+    new: 82a01ab35bd02ba4b0b4e12bc95c5b69240eb7b0
     log: |
-         a2f4c143d76b1a47c91ef9bc46907116b111da0b ipv6: rpl: Fix Route of Death.
+         82a01ab35bd02ba4b0b4e12bc95c5b69240eb7b0 tcp: gso: really support BIG TCP
          
