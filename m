@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Wed, 07 Jun 2023 08:08:22 -0000
-Message-Id: <168612530214.2602.16240696532501413919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 07 Jun 2023 08:25:53 -0000
+Message-Id: <168612635389.15514.9277635204266856332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/kvm-arm64/configurable-id-regs
-    old: 1e8b9a2ba7b69f6c543895e09fdf1e2a2accb1a6
-    new: 69b419a9fac06ae8e439ec169d01770b1d20f35a
+  - ref: refs/heads/gpio/for-next
+    old: ba65c79fbb813423e7d42d99375e2045b27958a6
+    new: be6736cc5423e9c153f38ca49ed9ba05a02a58f9
     log: |
-         69b419a9fac06ae8e439ec169d01770b1d20f35a fixup! KVM: arm64: Use per guest ID register for ID_AA64DFR0_EL1.PMUVer
+         be6736cc5423e9c153f38ca49ed9ba05a02a58f9 gpiolib: demote the hogging log messages to debug
          
