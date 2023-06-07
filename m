@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 07 Jun 2023 03:36:09 -0000
-Message-Id: <168610896958.13087.5544499825001783508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Wed, 07 Jun 2023 03:44:29 -0000
+Message-Id: <168610946931.17294.8151610333828170407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: 935fcce20993d4239b67f2d60bd5c668fe0b6ebb
-    new: df3d946d9407760da7686ea57149372e03c769e3
+  - ref: refs/heads/libnvdimm-fixes
+    old: e5baf8c07707a601f978c02de958bbeb8cd6374a
+    new: 2d3217297c1435de78a6768a22a05b244639fe83
     log: |
-         df3d946d9407760da7686ea57149372e03c769e3 foo
+         2d3217297c1435de78a6768a22a05b244639fe83 tools/testing/nvdimm: Drop empty platform remove function
          
