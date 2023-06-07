@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 07 Jun 2023 07:55:11 -0000
-Message-Id: <168612451145.27306.6333011144560280690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 07 Jun 2023 07:59:43 -0000
+Message-Id: <168612478393.28900.15071461577547128722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/next
-    old: 663da89ec4521a4fbd0af81d5f641ae7a9660f8b
-    new: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+  - ref: refs/heads/testing
+    old: 00c39caa9ab8a945ebc233f6a4b03845cde8c853
+    new: bf06fcf4be0feefebd27deb8b60ad262f4230489
+    log: |
+         bf06fcf4be0feefebd27deb8b60ad262f4230489 xfrm: add missed call to delete offloaded policies
+         
