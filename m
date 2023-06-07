@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 07 Jun 2023 00:52:56 -0000
-Message-Id: <168609917605.27483.10481751360582224647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Wed, 07 Jun 2023 01:34:39 -0000
+Message-Id: <168610167918.27332.14433241363284493920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: feb843a469fb0ab00d2d23cfb9bcc379791011bb
-    new: 7f8256ae0efba344a9b113036b1d545a1f6cdaa7
+  - ref: refs/heads/master
+    old: 2668b130d343585d3fd825a63333070697f55930
+    new: 925e15fb0009044450f969f60edf0978a4bd22c6
     log: |
-         7f8256ae0efba344a9b113036b1d545a1f6cdaa7 initramfs: Encode dependency on KBUILD_BUILD_TIMESTAMP
+         890855541c412bcaf9412f86a9e969431782f1c3 tracecmd library: Unlock records in tracecmd_iterate_events()
+         7e721efaa6aea8be28f5c1dfde96ad4ff41ce2b6 trace-cmd library: Add tracecmd_get_tsc2nsec() API
+         4fa31c096337ab8f268f9be7c1614dc333dc0660 trace-cmd attach: Add new command "attach"
+         925e15fb0009044450f969f60edf0978a4bd22c6 trace-cmd and library: Update the version to the development
          
