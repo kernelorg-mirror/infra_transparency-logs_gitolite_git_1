@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6860023789893373873=="
+Content-Type: multipart/mixed; boundary="===============5107903023582585654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 07 Jun 2023 11:45:05 -0000
-Message-Id: <168613830556.4078.14496969384878537200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 Jun 2023 11:45:12 -0000
+Message-Id: <168613831219.4203.5680214714251284995@gitolite.kernel.org>
 
---===============6860023789893373873==
+--===============5107903023582585654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 59960e67b9aae666655c42cf1df9eb58bf82c77f
     new: 1c943f60e830d0b959c765df09d4c4b254de0481
     log: |
@@ -24,28 +24,28 @@ changes:
          1c943f60e830d0b959c765df09d4c4b254de0481 ASoC: add snd_soc_get_stream_cpu()
          
 
---===============6860023789893373873==
+--===============5107903023582585654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686138304 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1686138303-6aea729585cab9557d283cdf3f2068f326493eff
+pusher C3F436CA30F5D8EB 1686138310 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686138310-79d1776c277609c8392bcfa146f1e48f8df94748
 
-59960e67b9aae666655c42cf1df9eb58bf82c77f 1c943f60e830d0b959c765df09d4c4b254de0481 refs/heads/for-6.5
+59960e67b9aae666655c42cf1df9eb58bf82c77f 1c943f60e830d0b959c765df09d4c4b254de0481 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSAbcAACgkQJNaLcl1U
-h9CTAgf/VmgQ8DD2UybGARZuNG8ZK9NnWzT7bBOeO4Rk9uiJaq3D+SCpjWWoxai/
-dxuz/HUJKDoALY1wNz07HU5DZrHYGvw9hNFdUk4Qmj6Jgksobkq2RX2xCvVLCqfe
-be5MeKB2lsfH7y9w/KUtJVheLDUqbahDUTnartQjmtF/6zsveUbnnvCTeHV7XrnT
-YkceZ35fkhTJE5ILfDg1lRzQJW0BD1TNzTbQjkXnpbe5AZRg6ZmJqdIr/1F4XICB
-khEVlQDo6ZNxEQYuA/dcPMq/ek2aZAUfnrpjB+l+9uwmTEEt+Tes5XlKeZUexc2a
-FKSJS8AOBfWFFZG8fcPGZCnCnufMKw==
-=uykK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSAbcYACgkQJNaLcl1U
+h9AbTQf+LxzkRpKsIsnqqkz2kDQNL1vc2kZj3CFfLiXL0377nKYlnF1XZs1x2IDX
+mY77Kh91F/+s80mMIsCxn4rKN1JsgPocvVUNAI2TTfvWKtL245BSOUu1EQ78W2vO
+dRuf/ZLXt4ngZvvAWqnPAiRaZ/mU+yFzq/bX7bHZVDGMa4q8cBj9ToiXkLBPo6eE
+u35hWnRD/dUFBRTIl5/P7sLhHOQQ5OhGKkiKg2QhCn70zsA6i4xfeBd4SHc4PqsI
+Rddpg5Kn0uSVLhApVn6nMy3zYQgSwbmOpqHFnlG9tvO7EeLBVTA7ZFe4o4QSAwlq
+tIET2SMyqtUzFay1+S5ZXw81wxDSJA==
+=Ad8A
 -----END PGP SIGNATURE-----
 
---===============6860023789893373873==--
+--===============5107903023582585654==--
