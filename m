@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 08 Jun 2023 07:59:56 -0000
-Message-Id: <168621119674.29358.15456243616572887525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 08 Jun 2023 08:29:01 -0000
+Message-Id: <168621294166.16535.11720526583425803722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/at24/for-current
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 2585c430e40776557e2bd66e50d345b6c3914772
+  - ref: refs/heads/locking/core
+    old: ef558b4b7bbbf7e115c87e4da21ce86444d6ec3b
+    new: 093d9b240a1fa261ff8aeb7c7cc484dedacfda53
     log: |
-         2585c430e40776557e2bd66e50d345b6c3914772 eeprom: at24: also select REGMAP
+         093d9b240a1fa261ff8aeb7c7cc484dedacfda53 percpu: Fix self-assignment of __old in raw_cpu_generic_try_cmpxchg()
          
