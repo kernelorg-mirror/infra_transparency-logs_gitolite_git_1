@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1790110868151368544=="
+Content-Type: multipart/mixed; boundary="===============7248125534832769487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 08 Jun 2023 07:30:52 -0000
-Message-Id: <168620945206.10902.11250528701728891215@gitolite.kernel.org>
+Date: Thu, 08 Jun 2023 07:34:16 -0000
+Message-Id: <168620965629.12066.718230546165271127@gitolite.kernel.org>
 
---===============1790110868151368544==
+--===============7248125534832769487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,38 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 41dcab474cbe468910cf6fd55a42f54cf13742cc
-    new: 938acaae133f097eb613066b5072ecb8316b2fd0
-    log: revlist-41dcab474cbe-938acaae133f.txt
+    old: 938acaae133f097eb613066b5072ecb8316b2fd0
+    new: e6550407d7d47b6255fd250fb6f81a09e435c68a
+    log: revlist-938acaae133f-e6550407d7d4.txt
 
---===============1790110868151368544==
+--===============7248125534832769487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41dcab474cbe-938acaae133f.txt
+Content-Disposition: attachment; filename=revlist-938acaae133f-e6550407d7d4.txt
 
-529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
-978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
-20a99a291d564a559cc2fd013b4824a3bb3f1db7 Input: soc_button_array - add invalid acpi_index DMI quirk handling
-7b63a88bb62ba2ddf5fcd956be85fe46624628b9 Input: psmouse - fix OOB access in Elantech protocol
-9728fb3ce11729aa8c276825ddf504edeb00611d spi: lpspi: disable lpspi module irq in DMA mode
-feee70f4568650cf44c573488798ffc0a2faeea3 Input: xpad - delete a Razer DeathAdder mouse VID/PID entry
-4be47a5d59cbc9396a6ffd327913eb4c8d67a32f spi: mt65xx: make sure operations completed before unloading
-ed08d937eaa4f18aa26e47fe6b937205a4745045 platform/surface: aggregator: Make to_ssam_device_driver() respect constness
-539e0a7f9105d19c00629c3f4da00330488e8c60 platform/surface: aggregator: Allow completion work-items to be executed in parallel
-9bed667033e66083d363a11e9414ad401ecc242c platform/surface: aggregator_tabletsw: Add support for book mode in KIP subsystem
-061c228967f0e3f7aecdd32ee370ee745d96168d platform/surface: aggregator_tabletsw: Add support for book mode in POS subsystem
-fb109fba728407fa4a84d659b5cb87cd8399d7b3 platform/x86: int3472: Avoid crash in unregistering regulator gpio
-0c331fd1dccfba657129380ee084b95c1cedfbef spi: qup: Request DMA before enabling clocks
-fa58cc888d67e640e354d8b3ceef877ea167b0cf gfs2: Don't get stuck writing page onto itself under direct I/O
-c3d03e8e35e005e1a614e51bb59053eeb5857f76 KEYS: asymmetric: Copy sig and digest in public_key_verify_signature()
-f8dba31b0a826e691949cd4fdfa5c30defaac8c5 Merge tag 'asym-keys-fix-for-linus-v6.4-rc5' of https://github.com/robertosassu/linux
-7c28afd5512e371773dbb2bf95a31ed5625651d9 HID: hidpp: terminate retry loop on success
-fa56e0e44f658085262f536bbfdfff3374b8828d Merge tag 'for-linus-2023060501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-846b065da6460a4ac9d927e5511ce24901bf43ad Merge tag 'platform-drivers-x86-v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-0bdd0f0bf17c5aac16f348ee4b1ebf23d1ec1649 Merge tag 'gfs2-v6.4-rc4-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-a4d7d701121981e3c3fe69ade376fe9f26324161 Merge tag 'spi-fix-v6.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-a27648c742104a833a01c54becc24429898d85bf afs: Fix setting of mtime when creating a file/dir/symlink
-25bda386c3d526b48dd22186324570fc8e191a52 MAINTAINERS: Add entry for debug objects
-5f63595ebd82f56a2dd36ca013dd7f5ff2e2416a Merge tag 'input-for-v6.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-938acaae133f097eb613066b5072ecb8316b2fd0 Merge branch 'linus'
+6cb0bdc368573e972753c6b0efd9c775373d6198 Merge branch 'x86/cc' into x86/merge, to ease integration testing
+ed1e745dafc282905e0a96ce8f4ce2f3c885f3ff Merge branch 'x86/tdx' into x86/merge, to ease integration testing
+e1964aff7a804331ab468d13a93fc93b330442fb Merge branch into tip/master: 'x86/urgent'
+3839601bcae5db9792cecea76f041de1055da8c8 Merge branch into tip/master: 'x86/merge'
+92839c385405d37ff6a402d5be52310cd5bce7e8 Merge branch into tip/master: 'core/debugobjects'
+f562678dcd16910a31fa68382cb9ef57a019567d Merge branch into tip/master: 'irq/core'
+d8a0850aecb60615ae9ab06eb09e0e54e88b3780 Merge branch into tip/master: 'locking/core'
+90c83c6d4d986225427955700ed543239f0f7f36 Merge branch into tip/master: 'objtool/core'
+cd6d867415c1190acbc400500f192d50688bee1b Merge branch into tip/master: 'perf/core'
+9c1e33a65e359c36c80e1b3e3eccd01425e9a35f Merge branch into tip/master: 'ras/core'
+f202fe83c88b1394b48ea1a2eece1b0df1aa2827 Merge branch into tip/master: 'sched/core'
+0ed1dcb2c6b83da7a70817a47f45e4910ca0b1e4 Merge branch into tip/master: 'smp/core'
+1d35e158addec7b4048bc47ed2201c6b612c1469 Merge branch into tip/master: 'timers/core'
+df18a451a3af8d2f451a42eb24711ec350a097bd Merge branch into tip/master: 'x86/alternatives'
+0f5f9d1cdc23530bb6902177956a95d0fd592d3d Merge branch into tip/master: 'x86/cache'
+3fa127782deebdbfce761edeb996332cd4e7b322 Merge branch into tip/master: 'x86/cleanups'
+3151a9b32d21f312df5a9d21f6e5b3079064b6b3 Merge branch into tip/master: 'x86/cpu'
+87069f66395d8e7ec7440890c894ed5956f2c7f2 Merge branch into tip/master: 'x86/microcode'
+9b41be3a396cfb90c88ee0cbb1343cedc260ced8 Merge branch into tip/master: 'x86/misc'
+f46ebaf63f237181ba61ed3fdc567692d73f67d0 Merge branch into tip/master: 'x86/mm'
+93d17d464b5d5b2e350f31b2c2ad8b33c7a39a54 Merge branch into tip/master: 'x86/mtrr'
+7ba7c1df887de10d352f6899e70ccdcd01547dea Merge branch into tip/master: 'x86/platform'
+e6550407d7d47b6255fd250fb6f81a09e435c68a Merge branch into tip/master: 'x86/sev'
 
---===============1790110868151368544==--
+--===============7248125534832769487==--
