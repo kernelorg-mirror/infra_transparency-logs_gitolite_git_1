@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8258411346096532544=="
+Content-Type: multipart/mixed; boundary="===============4624291976307711640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 08 Jun 2023 09:00:40 -0000
-Message-Id: <168621484067.6814.18000326272358830973@gitolite.kernel.org>
+Date: Thu, 08 Jun 2023 09:02:38 -0000
+Message-Id: <168621495812.7508.6155775171596071733@gitolite.kernel.org>
 
---===============8258411346096532544==
+--===============4624291976307711640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-hans
     old: fcb3c6d6d585100aa890f4bc2efe7952195d57b5
     new: 2515e54267c98dc91a6273765b4bbf560c52b770
     log: revlist-fcb3c6d6d585-2515e54267c9.txt
 
---===============8258411346096532544==
+--===============4624291976307711640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a4f7f0641199cee4e0f56d65373693677738c001 platform/x86: think-lmi: Update passwor
 7def1d35d4b4a92e33fa665ba1a5a02926be9c3c platform/x86: think-lmi: Don't display unnecessary authentication settings
 2515e54267c98dc91a6273765b4bbf560c52b770 platform/x86: hp-wmi: Add thermal profile for Victus 16-d1xxx
 
---===============8258411346096532544==--
+--===============4624291976307711640==--
