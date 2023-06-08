@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 08 Jun 2023 12:41:53 -0000
-Message-Id: <168622811309.7394.12466991465678224742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Thu, 08 Jun 2023 12:57:16 -0000
+Message-Id: <168622903649.18503.3153660018309047690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/lee/backlight
+user: lee
 changes:
-  - ref: refs/heads/vfs.all
-    old: f7a7a1d6327cc2bce5690f27d9cac03981b2a0a4
-    new: 61a4f7c28e2802c670c49cfdef3a3db7bb7c9e03
+  - ref: refs/heads/for-backlight-next
+    old: 29554f2e9138d60012d0e0d53e6792f5f4da1fb6
+    new: a8b09e6fe3eee4525ef6b6d5bd0e69c785e2f757
     log: |
-         faf091a85abec5c4453c7ce18ecf7f35a05824ab fs: unexport buffer_check_dirty_writeback
-         61a4f7c28e2802c670c49cfdef3a3db7bb7c9e03 Merge branches 'vfs.misc', 'v6.5/vfs.mount', 'fs.ntfs' and 'vfs.rename.locking' into vfs.all
+         e01134eb13c55445da6c16c440946757bf761651 backlight: pwm_bl: Remove unneeded checks for valid GPIOs
+         a8b09e6fe3eee4525ef6b6d5bd0e69c785e2f757 dt-bindings: backlight: pwm: Make power-supply not required
          
