@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8743161980920690804=="
+Content-Type: multipart/mixed; boundary="===============3462706595396157174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 08 Jun 2023 12:11:19 -0000
-Message-Id: <168622627952.19125.1522852640063958201@gitolite.kernel.org>
+Date: Thu, 08 Jun 2023 12:11:27 -0000
+Message-Id: <168622628782.19258.15368375039732194025@gitolite.kernel.org>
 
---===============8743161980920690804==
+--===============3462706595396157174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: c50eb01940c75b848e0257cea3b521a6d4150c5d
     new: d09294909c87acc35177f7279166dcf042177540
     log: revlist-c50eb01940c7-d09294909c87.txt
 
---===============8743161980920690804==
+--===============3462706595396157174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aa28d36397b84dd1e21246342ab5894796ee03a8 dt-bindings: arm: Add Cortex-R52 to the
 2cfba1e5ce4ac7861fcd9bb64b11f2e55b463ae4 dt-bindings: crypto: fsl-dcp: add imx6sl and imx6ull compatible
 d09294909c87acc35177f7279166dcf042177540 dt-bindings: imxgpt: add imx6ul compatible
 
---===============8743161980920690804==--
+--===============3462706595396157174==--
