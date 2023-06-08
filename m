@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 08 Jun 2023 16:04:26 -0000
-Message-Id: <168624026604.17366.15244660605759618679@gitolite.kernel.org>
+Date: Thu, 08 Jun 2023 16:06:04 -0000
+Message-Id: <168624036428.19464.5799045976175216773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/arm64-flush-svcr
-    old: fbec167dda190a79873a847635d440774cb50c9e
-    new: f4415f98eade274c6021fd5ae7b53af704fe95b9
+    old: f4415f98eade274c6021fd5ae7b53af704fe95b9
+    new: 1d32e885726b991c26d219fb5a0331fa3327230a
     log: |
-         d4e0f8cbe4aa05cbf47e2a847be2fa12fdd0820f # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
-         f4415f98eade274c6021fd5ae7b53af704fe95b9 arm64/fpsimd: Exit streaming mode when flushing tasks
+         63b52aa98cebcc96f5d0a1b1c7fa4c6fd7b78e0f # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
+         1d32e885726b991c26d219fb5a0331fa3327230a arm64/fpsimd: Exit streaming mode when flushing tasks
          
