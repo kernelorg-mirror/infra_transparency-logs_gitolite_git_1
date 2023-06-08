@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1627244910216459202=="
+Content-Type: multipart/mixed; boundary="===============3532782776856549458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 08 Jun 2023 04:00:15 -0000
-Message-Id: <168619681587.31076.9376591647602260239@gitolite.kernel.org>
+Date: Thu, 08 Jun 2023 04:00:36 -0000
+Message-Id: <168619683647.31293.11235866870234516566@gitolite.kernel.org>
 
---===============1627244910216459202==
+--===============3532782776856549458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f047d1e38bdfda2e9b9bf82ffa761711acacbd69
-    new: 467e6cc73ef290f0099b1b86cec4f14060984916
-    log: revlist-f047d1e38bdf-467e6cc73ef2.txt
+  - ref: refs/heads/for-next
+    old: 28646fd24f4ec46e35e76ce33bf896aafd149e55
+    new: 5320d65f360dda11a981ae7616d76694f3bd0ca2
+    log: revlist-28646fd24f4e-5320d65f360d.txt
 
---===============1627244910216459202==
+--===============3532782776856549458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f047d1e38bdf-467e6cc73ef2.txt
+Content-Disposition: attachment; filename=revlist-28646fd24f4e-5320d65f360d.txt
 
 416dace649c45fdbf7a9d62dfc060fdbee9c8bea scsi: core: Use min() instead of open-coding it
 8bb1c6243c4ba397958fe67837e075bd1bb8d3b4 scsi: core: Trace SCSI sense data
@@ -75,5 +75,6 @@ fe8637f7708c16765ecf4035813efbfdd2c9be10 scsi: ufs: core: Increase the START STO
 b251f6c5fe3b57898896df06a5cf90865596ee5e scsi: ufs: core: Move ufshcd_wl_shutdown()
 0818a6903c8081a17da4b1f50ff156537f99b02f scsi: ufs: core: Simplify driver shutdown
 467e6cc73ef290f0099b1b86cec4f14060984916 Merge patch series "UFS host controller driver patches"
+5320d65f360dda11a981ae7616d76694f3bd0ca2 Merge branch 'misc' into for-next
 
---===============1627244910216459202==--
+--===============3532782776856549458==--
