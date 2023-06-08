@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 08 Jun 2023 19:58:07 -0000
-Message-Id: <168625428781.14924.12342814815265042088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 Jun 2023 20:05:03 -0000
+Message-Id: <168625470382.20316.10606605198796685023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 25041a4c02c7cf774d8b6ed60586fd64f1cdaa81
-    new: 21225873be1472b7c59ed3650396af0e40578112
+  - ref: refs/heads/master
+    old: e6550407d7d47b6255fd250fb6f81a09e435c68a
+    new: 6d8416140118c362e07507057d329da03310e989
     log: |
-         21225873be1472b7c59ed3650396af0e40578112 net: enetc: correct the indexes of highest and 2nd highest TCs
+         504dba50b0c3fa02ec513d7d0405ddffba2d1c0a x86/irq: Add hardcoded hypervisor interrupts to /proc/stat
+         6d8416140118c362e07507057d329da03310e989 Merge branch into tip/master: 'x86/irq'
          
