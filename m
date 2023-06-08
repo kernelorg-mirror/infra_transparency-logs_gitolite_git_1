@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1735964624541836001=="
+Content-Type: multipart/mixed; boundary="===============2292978300417532005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 08 Jun 2023 03:49:06 -0000
-Message-Id: <168619614632.21209.882253997841125353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 08 Jun 2023 03:49:16 -0000
+Message-Id: <168619615699.21388.13585988694072908834@gitolite.kernel.org>
 
---===============1735964624541836001==
+--===============2292978300417532005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: abbd8bb42915d9ed06df11b430bf4ecb3d8ac5ad
     new: db10f126048021b86e43a5d6a335ec49dec10155
     log: revlist-abbd8bb42915-db10f1260480.txt
-  - ref: refs/heads/stable
-    old: a4d7d701121981e3c3fe69ade376fe9f26324161
-    new: 5f63595ebd82f56a2dd36ca013dd7f5ff2e2416a
-    log: |
-         529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
-         978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
-         20a99a291d564a559cc2fd013b4824a3bb3f1db7 Input: soc_button_array - add invalid acpi_index DMI quirk handling
-         7b63a88bb62ba2ddf5fcd956be85fe46624628b9 Input: psmouse - fix OOB access in Elantech protocol
-         feee70f4568650cf44c573488798ffc0a2faeea3 Input: xpad - delete a Razer DeathAdder mouse VID/PID entry
-         a27648c742104a833a01c54becc24429898d85bf afs: Fix setting of mtime when creating a file/dir/symlink
-         25bda386c3d526b48dd22186324570fc8e191a52 MAINTAINERS: Add entry for debug objects
-         5f63595ebd82f56a2dd36ca013dd7f5ff2e2416a Merge tag 'input-for-v6.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-         
-  - ref: refs/tags/next-20230308
-    old: a33792e86990edc7c48a457cecb7e1d4ea0f7b75
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230608
     old: 0000000000000000000000000000000000000000
     new: c544986e4b94342ea09f03a5cae5048d072a739e
 
---===============1735964624541836001==
+--===============2292978300417532005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -956,4 +940,4 @@ d1023f6be132107a9c0412d6aaf44573d68cb6bd Merge branch 'for-next/kspp' of git://g
 8513c9c64a98e5b95d41699cc9e3553ba7583eeb Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 db10f126048021b86e43a5d6a335ec49dec10155 Add linux-next specific files for 20230608
 
---===============1735964624541836001==--
+--===============2292978300417532005==--
