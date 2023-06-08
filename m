@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 08 Jun 2023 09:28:02 -0000
-Message-Id: <168621648215.25206.5621682254824810980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Thu, 08 Jun 2023 09:49:58 -0000
+Message-Id: <168621779898.19627.4468002371363454492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/stm32-next
-    old: 9da2bf3bcd8bbc0b700b44886a8e2a0036216748
-    new: e3f2778b1b6ced649bffdc7cbb05b80bb92f2108
+  - ref: refs/heads/main
+    old: 71a8b8ef0adf01af4c78c739e04533a35c1dc89c
+    new: ccf1f62d59adc933fb348b866f351824cdd00c73
     log: |
-         e3f2778b1b6ced649bffdc7cbb05b80bb92f2108 ARM: dts: stm32: Fix audio routing on STM32MP15xx DHCOM PDK2
+         ccf1f62d59adc933fb348b866f351824cdd00c73 libfdt: Fix a typo in libfdt.h
+         
+  - ref: refs/heads/master
+    old: 71a8b8ef0adf01af4c78c739e04533a35c1dc89c
+    new: ccf1f62d59adc933fb348b866f351824cdd00c73
+    log: |
+         ccf1f62d59adc933fb348b866f351824cdd00c73 libfdt: Fix a typo in libfdt.h
          
