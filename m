@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8863582755006875589=="
+Content-Type: multipart/mixed; boundary="===============4719538371312782087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 08 Jun 2023 15:07:46 -0000
-Message-Id: <168623686690.10245.4586942164079961013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 08 Jun 2023 15:07:53 -0000
+Message-Id: <168623687317.10327.17790930334131922688@gitolite.kernel.org>
 
---===============8863582755006875589==
+--===============4719538371312782087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 143e19547f9bbd0cc7ae6dffa87f05c14f040cdc
     new: 08e6c4bb17087584261c4aff555d32fc1c620b81
     log: |
@@ -30,28 +30,28 @@ changes:
          08e6c4bb17087584261c4aff555d32fc1c620b81 ASoC: mt8188-mt6359: Cleanups
          
 
---===============8863582755006875589==
+--===============4719538371312782087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686236865 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1686236864-5c9ae4b2822b338be594cbdb83f73490c97d8902
+pusher C3F436CA30F5D8EB 1686236871 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686236870-4d53e533ff3059ce62c8fc796c44100b13cf5884
 
-143e19547f9bbd0cc7ae6dffa87f05c14f040cdc 08e6c4bb17087584261c4aff555d32fc1c620b81 refs/heads/for-6.5
+143e19547f9bbd0cc7ae6dffa87f05c14f040cdc 08e6c4bb17087584261c4aff555d32fc1c620b81 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSB7sEACgkQJNaLcl1U
-h9DYvAf/VS95syvY/4PTVhTbQDkckvJwzpETHWHkMMSSzH7KEcpg+90APRN7/LR9
-4nBFv6OD//wxjIwJodeCCdRHs68CAYB850vfsrkWVyFM9/+XYPu0fIbHt0VEsyFE
-C3NwuDC8ZlMOf5JHErJPFxFuILmfn8kyhN0AApCnUBObh+63eLnVACFS6OshoXXe
-mg7Y9MydE2/vv07JOb13hee+mH9DR61e2iIxIsFurXI6RxR4uiN7LsVJaiHFQ/NR
-TjRtoild81dVh6dKWYilvpVWZ8FhLelQTXHY6ztDfjO9lVR+l4U84tVktIDKS34g
-1mNvfQibHGRBOVeHbmfN5lAZ/Jr7Qg==
-=WIGR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSB7scACgkQJNaLcl1U
+h9B5xwf/T7RuVRP1S+/tyx66zBN3ZkSAenPzFp0DjSL0uMxMRS794ygX7U4GKswh
+8gaSjwNeMeq162TzbIOPr+p68sr+Qcx58w5YFHo+JbKdMl2zf1SwRo9YamQZdVsI
+fpMWAHFAuR7EdDznuy1hBJBGP7nI8EgRIVNbso9KONRT2f1Fb3VJnYHg1BkXEMoo
+Bz+aMIN1BxhYi9/9D44vOeSwtCnCe6IBQ6ji3HqQ56SBasRvzK67QZCMYNXaIAxz
+u19CM2JJhJaRf/atrUUpdkhNun9+l9t3Yu3PqteeMIR7pzo9HBLE74Wyj47/NKDv
+s1dMutXu5sNXZcq9lkCnBgcO3mb90Q==
+=G2+R
 -----END PGP SIGNATURE-----
 
---===============8863582755006875589==--
+--===============4719538371312782087==--
