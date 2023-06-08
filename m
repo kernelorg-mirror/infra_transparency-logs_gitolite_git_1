@@ -1,53 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6684894945143829379=="
+Content-Type: multipart/mixed; boundary="===============0198043528135081494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 08 Jun 2023 16:00:26 -0000
-Message-Id: <168624002660.15955.14117560651726016218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 08 Jun 2023 16:04:10 -0000
+Message-Id: <168624025019.17204.14621239100444250718@gitolite.kernel.org>
 
---===============6684894945143829379==
+--===============0198043528135081494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/rcu/next
-    old: 83545df658f6fe38147956cb378cd1b26ce06c20
-    new: 5491c693f137d1957d84ace8713b1d021693300f
-    log: revlist-83545df658f6-5491c693f137.txt
+  - ref: refs/heads/main
+    old: fe0af9fe54d0ff53aa49eef390c8962355b274e2
+    new: fef0f427f71224442698ea4e052315a894d9de69
+    log: revlist-fe0af9fe54d0-fef0f427f712.txt
 
---===============6684894945143829379==
+--===============0198043528135081494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83545df658f6-5491c693f137.txt
+Content-Disposition: attachment; filename=revlist-fe0af9fe54d0-fef0f427f712.txt
 
-be21a3e3f3bbcb165fece05f2e8044112d4f7ac6 smp: Reduce logging due to dump_stack of CSD waiters
-1f8f41659c133ab9e19e30850bbc90a3c0a0ac7d smp: Reduce NMI traffic from CSD waiters to CSD destination
-de29a96acceae732c68a4094d08dc49079eefa02 notifier: Initialize new struct srcu_usage field
-2e31da752c6d0e892f2a9232e18da816d04ee691 Merge branches 'doc.2023.05.10a', 'fixes.2023.05.11a', 'kvfree.2023.05.10a', 'nocb.2023.05.11a', 'rcu-tasks.2023.05.10a', 'torture.2023.05.15a' and 'rcu-urgent.2023.06.06a' into HEAD
-26797a860ef41832ce5c6011e0f716c8e9c5ef80 Merge branch 'nolibc.2023.05.18a' into HEAD
-92e0c8b67b82afc1eb8b44dcae602ea74533e79d Merge branch 'csd-lock.2023.06.07a' into HEAD
-c88521b8c2e9df008bf07c14068fed65041511b1 rcu: Remove formal-verification tests
-d47e09c64bfb8367df2f0816cb1c1d8130e8545d rcutorture: Dump grace-period state upon rtort_pipe_count incidents
-48a5f89dfeb1c70068f37a2d5b30800771f5d1a2 rcu: Update synchronize_rcu_mult() comment for call_rcu_hurry()
-de12df91b6dea7c4cab2a94c2c0174d82c16965f torture: Scale scftorture memory based on number of CPUs
-e4004abda13d53a764bd7edaf5c0c677cb0f40e7 scftorture: Forgive memory-allocation failure if KASAN
-6129a1dbdf5e55d1f1669f12dafb4aab459a43ef scftorture: Pause testing after memory-allocation failure
-2190368e959fbaeb7251366e0ae9e596a2a7f3bd rcuscale: Permit blocking delays between writers
-b90fda8aabefd95915948a402ab6dd841665471c rcuscale: Fix gp_async_max typo: s/reader/writer/
-163b1a2669d887d704a74eeb32ab8d486e7a179e rcuscale: Add minruntime module parameter
-785c031fd0a61f60710424135cae435059039e81 rcuscale: Print out full set of module parameters
-66f9dcb66b2fdb0afd1ba25a685d60cbdc616f62 rcuscale: Print out full set of kfree_rcu parameters
-161824179138c490b0ccc729a7803af677988f85 rcuscale: Measure grace-period kthread CPU time
-14ac2a604118e88256ba268fa9b3e68153d66c3d rcu: Clarify rcu_is_watching() kernel-doc comment
-3de26449f076cbc7fe24f6262f7b23edb88cb934 rcu-tasks: Treat only synchronous grace periods urgently
-01eeee74f7848bc5a4d0f19b8d44dc9d7904f2bf rcu-tasks: Remove redundant #ifdef CONFIG_TASKS_RCU
-5d58385d12799a1dd12f9a8c1f73caf763e1eea9 rcu-tasks: Add kernel boot parameters for callback laziness
-5491c693f137d1957d84ace8713b1d021693300f rcuscale: Add kfree_by_call_rcu and kfree_mult to documentation
+9c52e8bf07c7097e09503fcad7cb156deffef619 wifi: rtw89: 8851b: enable hw_scan support
+b25e755e5e418aa7b537b8b2a2506c34c53df2d5 wifi: rtw89: debug: txpwr table access only valid page according to chip
+db67b03b04b4363251c0d8eecaf7a631449b6f3d wifi: rtw89: set TX power without precondition during setting channel
+57369e2aa2eb9812368c6cf3c4378d1fbe9e8c8a wifi: rtw89: 8851b: configure CRASH_TRIGGER feature for 8851B
+b7d170d5a670de8d30d2db94179099f52f8df485 wifi: rtw89: refine clearing supported bands to check 2/5 GHz first
+ffc23511531341936dbddd24ba0e3a08bcdda01c wifi: rtw89: regd: judge 6 GHz according to chip and BIOS
+9468046ff54eb5b72616c8126105bbf2df711253 wifi: rtw89: regd: update regulatory map to R64-R40
+f6baa1d3d5703fe65b87b3149265a1c7f564f450 wifi: rtw89: process regulatory for 6 GHz power type
+b742394cfe80a51572ff74e0a57b4b21db1489b1 wifi: rtw89: 8852c: update TX power tables to R63 with 6 GHz power type (1 of 3)
+2a8ec45f4d0eff76cf0cef78b3040ccfd923a72e wifi: rtw89: 8852c: update TX power tables to R63 with 6 GHz power type (2 of 3)
+dad142c3f56a2459b1f18cac63e1a436d0a31c84 wifi: rtw89: 8852c: update TX power tables to R63 with 6 GHz power type (3 of 3)
+5883fc2ef8573649ee6a63968ae82e679766b878 wifi: rtw89: 8852c: update RF radio A/B parameters to R63
+f8f912bf69a021c8cfff23e69e59c7c975a47c1a wifi: brcmfmac: Detect corner error case earlier with log
+b241e260820b68c09586e8a0ae0fc23c0e3215bd wifi: rsi: Do not configure WoWlan in shutdown hook if not enabled
+e74f562328b03fbe9cf438f958464dff3a644dfc wifi: rsi: Do not set MMC_PM_KEEP_POWER in shutdown
+358b94f0a7cadd2ec7824531d54dadaa8b71de04 wifi: rtlwifi: remove unused timer and related code
+557123259200b30863e1b6a8f24a8c8060b6fc1d wifi: rtlwifi: remove unused dualmac control leftovers
+fef0f427f71224442698ea4e052315a894d9de69 wifi: rtlwifi: remove misused flag from HAL data
 
---===============6684894945143829379==--
+--===============0198043528135081494==--
