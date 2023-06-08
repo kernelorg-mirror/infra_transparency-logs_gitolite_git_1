@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 08 Jun 2023 23:44:43 -0000
-Message-Id: <168626788336.5647.17243979423167490724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 08 Jun 2023 23:50:03 -0000
+Message-Id: <168626820315.10106.8946343837053442504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dev
-    old: 3346b3de8d0c7a8138676aa65322c361733d9822
-    new: 50056a58953d00ae7f6760e64bc01a30cedf9512
+  - ref: refs/heads/io_uring-futex
+    old: f3410060f20f8847214ebd1bd7aec28e85235fca
+    new: f5301ffdaa8000783b6ef63ea885349a48493bc1
     log: |
-         862d21e4a70285cf3f4c56f074ccee5a6d019d4b documentation/rcu: Fix typo
-         50056a58953d00ae7f6760e64bc01a30cedf9512 rcu: Export rcu_request_urgent_qs_task()
+         2eb12b47e56fbff1fa559c9f5849ad1ed46e5d77 io_uring: add support for futex wake and wait
+         d65e46d56eaad76fb1ee75a1680a5d5015ee7edc io_uring/futex: add timeout support
+         f5301ffdaa8000783b6ef63ea885349a48493bc1 io_uring/futex: add support for cancelation
          
