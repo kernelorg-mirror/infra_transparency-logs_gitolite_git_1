@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 08 Jun 2023 23:36:15 -0000
-Message-Id: <168626737541.1426.620543324065970241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 08 Jun 2023 23:44:43 -0000
+Message-Id: <168626788336.5647.17243979423167490724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 2ed55a43ff4fc2755dcde0147bf05301d97bf96d
-    new: 7761fc98e5aab2847843841f6ac7a8d7a06cfd4b
+  - ref: refs/heads/dev
+    old: 3346b3de8d0c7a8138676aa65322c361733d9822
+    new: 50056a58953d00ae7f6760e64bc01a30cedf9512
     log: |
-         7761fc98e5aab2847843841f6ac7a8d7a06cfd4b foo
+         862d21e4a70285cf3f4c56f074ccee5a6d019d4b documentation/rcu: Fix typo
+         50056a58953d00ae7f6760e64bc01a30cedf9512 rcu: Export rcu_request_urgent_qs_task()
          
