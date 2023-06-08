@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2118250859197497079=="
+Content-Type: multipart/mixed; boundary="===============1771446108067526666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 08 Jun 2023 15:54:56 -0000
-Message-Id: <168623969641.10980.10007614290736185791@gitolite.kernel.org>
+Date: Thu, 08 Jun 2023 15:55:12 -0000
+Message-Id: <168623971201.12662.17839778846471763578@gitolite.kernel.org>
 
---===============2118250859197497079==
+--===============1771446108067526666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: aee09fd999345541cc3a10e17e8272dc538f2b3a
-    new: 5f18d5bff929d2ed54fe06b79b5e44d70a875e44
-    log: revlist-aee09fd99934-5f18d5bff929.txt
+  - ref: refs/heads/fixes
+    old: 0b5d5c436a5c572a45f976cfd34a6741e143e5d9
+    new: e2b8f659bb8092cfd6422c660833fb4ace51564d
+    log: revlist-0b5d5c436a5c-e2b8f659bb80.txt
 
---===============2118250859197497079==
+--===============1771446108067526666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aee09fd99934-5f18d5bff929.txt
+Content-Disposition: attachment; filename=revlist-0b5d5c436a5c-e2b8f659bb80.txt
 
+3b8803494a0612acdeee714cb72aa142b1e05ce5 PCI/DPC: Quirk PIO log size for Intel Ice Lake Root Ports
+21a933c79a33add3612808f3be4ad65dd4dc026b selftests: seg6: disable DAD on IPv6 router cfg for srv6_end_dt4_l3vpn_test
+f97b8401e0deb46ad1e4245c21f651f64f55aaa6 selftets: seg6: disable rp_filter by default in srv6_end_dt4_l3vpn_test
+7ce93d6f91d8871a609f55bce91a507c392805e6 Merge branch 'selftests-seg6-make-srv6_end_dt4_l3vpn_test-more-robust'
+e93c9378e33f68b61ea9318580d841caa22fb9ea devlink: change per-devlink netdev notifier to static one
+ef1148d4487438a3408d6face2a8360d91b4af70 ipv6: remove nexthop_fib6_nh_bh()
+f816b9829b19394d318e01953aa3b2721bca040d net: fec: Better handle pm_runtime_get() failing in .remove()
+f63550e2b165208a2f382afcaf5551df9569e1d4 ASoC: ssm2602: Add workaround for playback distortions
+2b694fc96fe33a7c042e3a142d27d945c8c668b0 powerpc/boot: Disable power10 features after BOOTAFLAGS assignment
+0b01db274028f5acd207332686ffc92ac77491ac net: phy: dp83867: add w/a for packet errors seen with short cables
+50282fd57bcd3525c9d81eef58df8718e4337c6d Merge drm/drm-fixes into drm-misc-fixes
+d03a2f17627e8f94ce8c4790fede3ef7efe9be53 MAINTAINERS: sctp: move Neil to CREDITS
 01e8f6cd108b8702d206c6352d919c045b842b82 MAINTAINERS: don't CC docs@ for netlink spec changes
 de9c1a23add9e7842ce63ce6f498a05c66344311 nfp: fix NFP_NET_MAX_DSCP definition error
 47af4291711f21e1282dbc1002baebba30595aa2 MAINTAINERS: exclude wireless drivers from netdev
@@ -1037,18 +1049,6 @@ b066935bf83371c34ab8ba3b15f4232536e2786f Merge tag 'for-linus' of git://git.kern
 5e89d62ec1014800e411868b8d750f9d631bdd01 Merge tag 'media/v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6f64a5ebe1dc64add6e1d8ed3113200909988c02 Merge tag 'irq_urgent_for_v6.4_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9561de3a55bed6bdd44a12820ba81ec416e705a7 Linux 6.4-rc5
-ca765b7cb7bb44c9eb8e0757789719ec0f58a02e dt-bindings: mmc: sdhci-msm: add IPQ6018 compatible
-336d1a618ade1385aa7bf9d65fa929d0f1dc4d55 mmc: dw_mmc: Make dw_mci_pltfm_remove() return void
-bf49dce2b20c2e7c24600e400fdcfc93965b9e8d dt-bindings: mmc: brcm,kona-sdhci: convert to YAML
-8364d8b3c1ee5ed58e0e613c244ec3b482f073fd dt-bindings: mmc: sdhci-msm: Document SC8280XP SDHCI
-b001da7a2124885e5ca6259d5baad4d2844944fc mmc: block: Suppress empty whitespaces in prints
-7c43186f7b6297d22477e862fb3d90d959eebde4 mmc: meson-mx-sdhc: Avoid cast to incompatible function type
-14b8f3949d8e8022ebb030f021c15592d9b0581f mmc: mediatek: Avoid ugly error message when SDIO wakeup IRQ isn't used
-00b2d86c50d62b26b6097d71eba6e8121aa4be51 memstick r592: make memstick_debug_get_tpc_name() static
-c836e9d63984f204ee9d4c003262dc0813554c6e mmc: core: Remove unnecessary error checks and change return type
 e2b8f659bb8092cfd6422c660833fb4ace51564d mmc: sdhci-msm: Disable broken 64-bit DMA on MSM8916
-d21d837df872aa88570bb61918413fe6536628da mmc: sdhci: fix DMA configure compatibility issue when 64bit DMA mode is used.
-d56eede0d13da446901831af2f199707b06ee89c mmc: block: ioctl: do write error check for spi
-5f18d5bff929d2ed54fe06b79b5e44d70a875e44 mmc: Merge branch fixes into next
 
---===============2118250859197497079==--
+--===============1771446108067526666==--
