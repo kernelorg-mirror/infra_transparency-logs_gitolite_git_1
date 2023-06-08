@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 08 Jun 2023 15:53:26 -0000
-Message-Id: <168623960682.10321.9587985652414901200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 08 Jun 2023 15:54:38 -0000
+Message-Id: <168623967893.10785.3180709373497098933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 310829920d9d0bf15ee2aa22fec71b9bf0931ebd
-    new: b4ee3108b93f7e4602430246236d14978abad085
-    log: |
-         b4ee3108b93f7e4602430246236d14978abad085 src: lib.h still needs the string include
-         
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
