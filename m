@@ -1,42 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4624291976307711640=="
+Content-Type: multipart/mixed; boundary="===============8343945381183257902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 08 Jun 2023 09:02:38 -0000
-Message-Id: <168621495812.7508.6155775171596071733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 08 Jun 2023 09:07:25 -0000
+Message-Id: <168621524585.10662.8529163903299442219@gitolite.kernel.org>
 
---===============4624291976307711640==
+--===============8343945381183257902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: fcb3c6d6d585100aa890f4bc2efe7952195d57b5
-    new: 2515e54267c98dc91a6273765b4bbf560c52b770
-    log: revlist-fcb3c6d6d585-2515e54267c9.txt
+  - ref: refs/heads/usb-linus
+    old: 592295e61b5c51ea89fd1959932fd0f121f08c46
+    new: 7b672f282cf4712cb392ef798f0305cc4de32454
+    log: |
+         f1832e2b5e498e258b090af3b065b85cf8cc5161 USB: serial: option: add Quectel EM061KGL series
+         7b672f282cf4712cb392ef798f0305cc4de32454 Merge tag 'usb-serial-6.4-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         
 
---===============4624291976307711640==
+--===============8343945381183257902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcb3c6d6d585-2515e54267c9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-139332e2fce621f759af8c86052417e3307b239f platform/x86/amd: pmc: Update metrics table info for Pink Sardine
-e4543de8b6ffeba0622b9910df90d89676523975 platform/x86: int3472: Evaluate device's _DSM method to control imaging clock
-416a87c972b978d71ab828442d1d48e3bd194855 platform/x86:intel/pmc: Remove Meteor Lake S platform support
-c41e0121a1221894a1a9c4666156db9e1def4d6c platform/x86: think-lmi: mutex protection around multiple WMI calls
-4ca9c3d404cef529de77af2382fa2e6a1612a1ca platform/x86: think-lmi: Enable opcode support on BIOS settings
-97eef5983372d7aee6549d644d788fd0c10d2b6e platform/x86: think-lmi: Correct System password interface
-a4f7f0641199cee4e0f56d65373693677738c001 platform/x86: think-lmi: Update password attribute comments
-2aec96a981df5c51c970ddec0350381c6d178508 platform/x86: think-lmi: Update password fields to use BIT
-4cebb42412248d28df6de01420cfac5654428d41 platform/x86: think-lmi: Correct NVME password handling
-3206001f704ab4dc7dc0ff69209f770680bcf5bf platform/x86: think-lmi: Correct NVME index default
-7def1d35d4b4a92e33fa665ba1a5a02926be9c3c platform/x86: think-lmi: Don't display unnecessary authentication settings
-2515e54267c98dc91a6273765b4bbf560c52b770 platform/x86: hp-wmi: Add thermal profile for Victus 16-d1xxx
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686215243 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1686215243-06681a0ec4c0696d9b93728ec076fbf99219cebe
 
---===============4624291976307711640==--
+592295e61b5c51ea89fd1959932fd0f121f08c46 7b672f282cf4712cb392ef798f0305cc4de32454 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSBmksbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PBMP/3O00iDfb8xDO7z8qaEe
+lyuU1KVSzZ9nllqH+aCDp9RoLpDg8ZB0fCX9hLKRmv5ucX5CiE9W5RV0+XdeHUBf
+8lCfFPKOIOwyQ0zefBuZru6d1Dux/FvREhfOxCUb5NmUx1G7bGy76i3EenAj+b8S
+PFrzUqUFCN/M7NyK5EO+nAiSgVnU6UBqioq0I8Mu96G2ZQU8UC5npIm15zh5IP66
+BO9GqiMM5iDjlY7404Qfb5Sa4MAxSRw+spobvt6N5wC7aCYhTzHHumWUXCHQhYiM
+iLW7X3bBHSMHmU1fG3H305Watxfa4Q/vn7OB1GudY/KIQKH7b/GrbmG6UNc87CDA
+hxNr67hPIuFzrvIGj0CrWMTSoHg1lngp7b5soKEDHa1SuqvFtkVyXalxLyIe0FJP
+unIQ3yU/siM74Ok9JzbKOG17BxvmU7NVVGROkDHsvRLSA1PFhnt4/J/GS8/Jc7Z5
+tF5wJI4GR4vviOBxub9cReLzRElyiY05Tg/2uxLjJGXP3V55XQt+vfdOYp5AArAT
+nzmFbemLhkLyZ7E5nSI2TE+bfkwGtL4jS6MUCxPLytjuNe6ZXyn/dmooOSpuRmsv
+aek5A3+zr98wXr+5gCCJ86kAfO7eho5O0FWGasQIpPDAIk9CHcbk1lmHXIb7RprJ
+pAPkGMtMw7lrwOCg/qwJT/Hk
+=jCPZ
+-----END PGP SIGNATURE-----
+
+--===============8343945381183257902==--
