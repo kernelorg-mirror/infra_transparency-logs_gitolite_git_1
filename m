@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 08 Jun 2023 16:06:58 -0000
-Message-Id: <168624041867.19833.6828027485418572441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 08 Jun 2023 16:20:58 -0000
+Message-Id: <168624125882.30063.15022621473341166020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/b4/fs-overlayfs-mount_api
-    old: 7f50b1a181863f0e5bcde9a255aa064d1174262f
-    new: 213f92f573accb6638bf108cad3e620073fdcb99
+  - ref: refs/heads/objtool/core
+    old: b4c96ef0add5b701eb37be9830a98610e1d9b4a3
+    new: 185b1a78b42776467929ce9e7851e4dbcd0b55d4
     log: |
-         213f92f573accb6638bf108cad3e620073fdcb99 ovl: port to new mount api
+         185b1a78b42776467929ce9e7851e4dbcd0b55d4 objtool: Improve rate-limiting for missing __noreturn warning
          
