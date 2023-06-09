@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/nolibc
-Date: Fri, 09 Jun 2023 17:44:05 -0000
-Message-Id: <168633264587.26577.6093508196386435928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 09 Jun 2023 17:47:01 -0000
+Message-Id: <168633282143.29206.12137030591706578492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wtarreau/nolibc
-user: wtarreau
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/20230609-nolibc-rv32+stkp8-rebased
-    old: 0000000000000000000000000000000000000000
-    new: 2d57877debf26317e367b9176d52092cc3556378
+  - ref: refs/heads/wip/jgg-for-next
+    old: c3e1bf626eb3c53ea60a0c64b441fb3015e1652e
+    new: 7ad697cdd31b9d5e59e25b035bad4cdd8e76aca1
+    log: |
+         7ad697cdd31b9d5e59e25b035bad4cdd8e76aca1 RDMA/vmw_pvrdma: Remove unnecessary check on wr->opcode
+         
