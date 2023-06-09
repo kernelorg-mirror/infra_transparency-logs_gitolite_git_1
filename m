@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6571631298787330286=="
+Content-Type: multipart/mixed; boundary="===============2100744323674431615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Fri, 09 Jun 2023 02:31:33 -0000
-Message-Id: <168627789386.27581.1344997075098561231@gitolite.kernel.org>
+Date: Fri, 09 Jun 2023 02:31:35 -0000
+Message-Id: <168627789572.27645.6453309115813622487@gitolite.kernel.org>
 
---===============6571631298787330286==
+--===============2100744323674431615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main-5.15.y
+  - ref: refs/heads/main
     old: 29b2de0a270a493280339249a589730d6d7c4233
     new: b44ff9f59db91a7fe47d01324b10c3bbb077f73d
     log: revlist-29b2de0a270a-b44ff9f59db9.txt
 
---===============6571631298787330286==
+--===============2100744323674431615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -92,4 +92,4 @@ fecaaef67bbb8e049b176fa5f78870780c6246c4 mm/gup_test: fix PIN_LONGTERM_TEST_READ
 3686a28b39365f5941445523114fb7a7347beba2 mm/gup_test: free memory allocated via kvcalloc() using kvfree()
 b44ff9f59db91a7fe47d01324b10c3bbb077f73d Merge remote-tracking branch 'gitlab/main-5.15.y' into main-5.15.y
 
---===============6571631298787330286==--
+--===============2100744323674431615==--
