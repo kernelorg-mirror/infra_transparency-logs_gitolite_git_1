@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Fri, 09 Jun 2023 20:16:26 -0000
-Message-Id: <168634178605.2200.1478262043394192225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 09 Jun 2023 20:20:05 -0000
+Message-Id: <168634200589.4926.12691025795196508018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: f3697151776ee46d327ffeb69a7e9859cdcb0284
-    new: 9788bdd3d6791205431e65366dcc518446f7ca6a
-    log: |
-         9788bdd3d6791205431e65366dcc518446f7ca6a doc: add doc for opaque structs to link to the relevant page
-         
+  - ref: refs/heads/dm-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 56fa445f80e1133527f6589b82a6aa22aa58e69e
