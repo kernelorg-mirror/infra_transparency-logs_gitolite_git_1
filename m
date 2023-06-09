@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1471194407277446922=="
+Content-Type: multipart/mixed; boundary="===============0389698290774543324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
-Date: Fri, 09 Jun 2023 08:22:43 -0000
-Message-Id: <168629896345.7964.3391518590307846693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 09 Jun 2023 08:23:21 -0000
+Message-Id: <168629900109.8216.8538232433921798439@gitolite.kernel.org>
 
---===============1471194407277446922==
+--===============0389698290774543324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/linux
-user: wens
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mtk-wip
-    old: 4b284dfe4626b4a0fa3b1fd55e06c5a1e56d90fb
-    new: fa98aef19e6622a1efe4383ed922866e05796ce0
-    log: revlist-4b284dfe4626-fa98aef19e66.txt
+  - ref: refs/heads/master
+    old: c4a33d1749fea5e29ab7e67ba78a46f011c07b9f
+    new: 5805c68fd015ed29923d59fc64e7b51c602f4e1b
+    log: |
+         5805c68fd015ed29923d59fc64e7b51c602f4e1b Linux 4.14.317
+         
 
---===============1471194407277446922==
+--===============0389698290774543324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b284dfe4626-fa98aef19e66.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c5fa9790ebf3a44a405012bcca0b55179a49160a arm64: dts: mediatek: mt8186: Add CCI node and CCI OPP table
-cf9f92bf35cefc078f4f6990dfa123c4234454d6 arm64: dts: mediatek: mt8186: Wire up CPU frequency/voltage scaling
-03318847840a8e9d83820bc1fd24f1a5f1b5db34 arm64: dts: mediatek: mt8186: Add GPU speed bin NVMEM cells
-2ab1a449977bb0b0e2220c762a63f99052a73180 arm64: dts: mediatek: mt8186: Wire up GPU voltage/frequency scaling
-30c80552181d0c6855f5c3bd59c72c6116eb5832 dt-bindings: arm: mediatek: Sort entries by SoC then board compatibles
-6f8ec869ace715e0855ce1ec51ae8e85da0c1dfc dt-bindings: arm: mediatek: Add MT8186 Tentacruel / Tentacool Chromebooks
-7d50c235c95a6dc9d6e61eb2956c2bdd8b32c497 dt-bindings: arm: mediatek: Add MT8186 Steelix Chromebook
-34afadd6589ae043d973b9c065731bdf097f05d1 dt-bindings: arm: mediatek: Add MT8186 Rusty Chromebook
-31a61e963d72d1b273b0b6f1d948d6e6d4f4598c dt-bindings: arm: mediatek: Add MT8186 Magneton Chromebooks
-d94467ba911a98b955e79c88f84e0d73446cd7d5 arm64: dts: mediatek: Add MT8186 Krabby platform based Tentacruel / Tentacool
-fbbe98f1a2239c3ec207c947f57c619b6fc7213a arm64: dts: mediatek: Introduce MT8186 Steelix
-57383461b4358efd902d43944bf83d5e205b28aa arm64: dts: mediatek: Add MT8186 Steelix platform based Rusty
-dfe9a84fa44d42826a3909c7c11296e89963e897 arm64: dts: mediatek: Add MT8186 Magneton Chromebooks
-85505f6ae1221d01934be0f7e7220c2f4d448a49 DO NOT MERGE:  arm64: dts: mediatek: mt8186-corsola: Add Type-C Mux for DP output
-4c83dcf4e1907772bf935772c27b2acc8f4ebdcc regulator: Use bitfield values for range selectors
-f5828ea0b0004c4c958f82d9a9ab69b3cdc3cab8 regulator: dt-bindings: mt6358: Merge ldo_vcn33_* regulators
-1c52527db17c896ff41e21f64d75a2b5e671b9c8 regulator: dt-bindings: mt6358: Drop *_sshub regulators
-f9a172d98f137824dc93a99387637be0c5781264 regulator: mt6358: Merge VCN33_* regulators
-6d0f1dfb9b780e22bd1b6b04a03788fc7b541e7e regulator: mt6358: Drop *_SSHUB regulators
-5146ef111c0ecd362b94ce0bdc198bc5be22709e regulator: mt6358: Const-ify mt6358_regulator_info data structures
-384303877dca31b14ff68bae35548adf51e10085 regulator: mt6358: Use linear voltage helpers for single range regulators
-2d596b6cb7750a080760c26af619251b0052817f regulator: mt6358: Add output voltage fine tuning to fixed regulators
-108ae0072bcacaf1a3448071e7878b3d067ca933 regulator: mt6358: Add output voltage fine tuning to variable LDOs
-ba1bffde57bf2ba9493ca762dff46f3763221907 arm64: dts: mediatek: mt6358: Merge ldo_vcn33_* regulators
-09c54cf83b54756ce1360f7bb11e6b6b2c46b2df dt-bindings: mfd: mt6397: Split out compatible for MediaTek MT6366 PMIC
-8d57ad407a68ec025c02b80576e094212ce5549b mfd: mt6358: Add missing registers for LDO voltage calibration
-489becbdf87cc77c621febf509b9d5dce627aaf1 mfd: mt6358: Add registers for MT6366 specific regulators
-8672046b408b824ef5e1d2e7b308c890ef01f982 mfd: mt6397: Split MediaTek MT6366 PMIC out of MT6358
-ce20a1a31dd51d0eccc4494280d0d5cd49e6b6c6 regulator: dt-bindings: mediatek: Add MT6366 PMIC
-3fbab9e1b7ce95488b233730461207daf7adf284 regulator: mt6358: fix and drop type prefix in MT6366 regulator node names
-fa98aef19e6622a1efe4383ed922866e05796ce0 soc: mediatek: pwrap: add support for MT6366 PMIC
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686298999 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1686298998-feb9a097e05855c6535113a28c6083e0f488b9bd
 
---===============1471194407277446922==--
+c4a33d1749fea5e29ab7e67ba78a46f011c07b9f 5805c68fd015ed29923d59fc64e7b51c602f4e1b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSC4XcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l7AQAK+67qCqdktSztMMV1Bp
+iumyrJDSGVK4mY3gh/BDaFHaLX6sVWRpXmpzRgU/YTGXYVMaE0PhuYN9N2+sp8XJ
+0ZcGgJQOBRQaKwMDKL/SeBVx81lH4hgZ07z0C/yksVt7RO0UivB8sARnrkgkD1Fb
+JeBV25H2zM3Ol6m9AdGkP+FPWu9V/3hrMvGT+fx2wKNdQ6KTH/Y75ni+yt71g8nC
+Uw2UslO5S135VJMHY1CsoYQ1cdrp9C2TVKVzXfJ9anoGlPTVAHFGpKCTslPxy28l
+/QYBuGGHQHP+WUozPIrxkgGGBNI1jRKflYzyIYbe4X4utJllhLBfseox6q+MGw3l
+KOSkJNlVe8NA/scTv6C/AkDXB34mhXMGRT4GrqjjxjipGGbiRhcD0kVzVWNjl686
+rheu3r2Yrg7jQkG7GHGFR8U2Fr/sBQgiK9SwXeRQjucihCVJA42wKqsnjHNESw5u
+APZ+6YUeMRVj+XWqgCin5Vv5wg80OEy/UOuspb7Qypv8g0KkxWT/jNr8GZySJpcF
+uyDeY0AZU1biyO1wkB3kYRj7NIc8uWOeE/QAI+NyrWjqGsMAbUpMcj+NBXKeoj2f
+u8XIUjVmK1QbhFlNm8ycWQ0O1sT145ZIMXhhonvDws0pU6zdyMjSTCUgGbUTDRbT
+Hrnm6IT7ycgKW96WUgGFchal
+=qlEk
+-----END PGP SIGNATURE-----
+
+--===============0389698290774543324==--
