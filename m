@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 09 Jun 2023 12:38:27 -0000
-Message-Id: <168631430708.6925.5201529663875771280@gitolite.kernel.org>
+Date: Fri, 09 Jun 2023 12:38:48 -0000
+Message-Id: <168631432866.7138.17828801044422007642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-es-maple
+  - ref: refs/heads/asoc-rt-maple
     old: 0000000000000000000000000000000000000000
-    new: 52b328b68f3599561cc919522d35fe576065ab3d
+    new: edb17218aeff4225b357bc6c63082d1fc5773e8c
