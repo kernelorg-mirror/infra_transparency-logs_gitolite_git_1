@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5403433812508948877=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 09 Jun 2023 11:12:20 -0000
-Message-Id: <168630914061.12674.14468703443506713579@gitolite.kernel.org>
-
---===============5403433812508948877==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Fri, 09 Jun 2023 11:16:24 -0000
+Message-Id: <168630938422.15674.18374715727352831002@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 81c778752b151e1f763f1ab43d418bca0b6985de
-    new: 8c319e0498ab8a6e816cf9a50dabb307a0724f65
+  - ref: refs/heads/for-next/perf
+    old: 8be3593b9efa8903d2ee7bb9cdf57a8e56c66f36
+    new: b1acb4e5601b07700fd30346a08dcb7dbfc437a7
     log: |
-         8c319e0498ab8a6e816cf9a50dabb307a0724f65 5.15-stable patches
+         7a6a9f1c5a0a875a421db798d4b2ee022dc1ee1a drivers/perf: hisi: Don't migrate perf to the CPU going to teardown
+         225d757012e0afa673d8c862e6fb39ed2f429b4d perf: arm_cspmu: Set irq affinitiy only if overflow interrupt is used
+         71e0cb32d5fc61468e83ed962379af71bba8237e perf/arm_cspmu: Fix event attribute type
+         87b3b6d53efccbb64396675b35839180ef14ef40 ACPI/APMT: Don't register invalid resource
+         f9bd34e3753ea8f1433a3ba70f03a165a1416f98 perf/arm_cspmu: Clean up ACPI dependency
+         d2e3bb51281875be23cb4726a59b03d0a53eb0d3 perf/arm_cspmu: Decouple APMT dependency
+         55691f99d417084305e575c477f06556f93dfb0b drivers/perf: imx_ddr: Add support for NXP i.MX9 SoC DDRC PMU driver
+         b1acb4e5601b07700fd30346a08dcb7dbfc437a7 dt-bindings: perf: fsl-imx-ddr: Add i.MX93 compatible
          
-
---===============5403433812508948877==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686309139 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1686309138-286a313d1b03a4f4ce9698cc8dc7dcadbdee7fe6
-
-81c778752b151e1f763f1ab43d418bca0b6985de 8c319e0498ab8a6e816cf9a50dabb307a0724f65 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSDCRMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hYkQAMHPRl1fDzN/jwtthr+A
-UGbopxF4tJcE5qQtvKEkz+bOObckG68bGscy3tzsvXqfTiU10v+SO2AQwU374spo
-mJ3q/LuPkAhGg9nb1BzqHE56NrSc47As6zJfURYrSmCl9Dqe8ScaxIoS54m6CBbq
-TcA3o3rwCUKhTH/dkDnXPF2FRMqO2HSNXBM5128ROKmdplN9dXEFktkcEPoBtJ0i
-KceE/gmYGgkX3Yd0Dgai6gHjwFJxViwG765XzWBBnpCtCjNfLx3UMviXLpdlboIz
-nVGm+avIoCapPta9mNLsUgtdiLxUcK/7Imai8vtO+gFVo6Q1V8nbRbK9C9K2K4Dn
-QzRc4cZoVCXpO79DdQ3snYHOCLZFGNUBPJNtMsBzXBibkDICGnLVIr86tuikl8V5
-8W8HWzxD2tqTPt4LrnxhHGGjkwppegvI81zRUyZBo9YALBaIZ7z79Pw+U64axO2u
-X3ERG4yzq9IUetMeYqdcP06u4g06PQHOpzosQY3JfYc6U06aujfvEPgpEkSk7oeE
-8JciTmGdbl/zlQXXkbDw0ZKOfW7D+l0V6cHaqxiNo3TOrfkLOufSdh0Ov3MJAIJG
-rYDD9uv9QStqMAPPCJ2pZGCUkmugACsYPty3UbinC2Eh3ZaVPw6eJBRCIhDc4uyl
-qqxTItDHykqlBDt+qjZ3h5Hj
-=Yzqz
------END PGP SIGNATURE-----
-
---===============5403433812508948877==--
