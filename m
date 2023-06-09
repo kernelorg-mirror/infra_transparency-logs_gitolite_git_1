@@ -1,274 +1,131 @@
-Content-Type: multipart/mixed; boundary="===============4605907784928361518=="
+Content-Type: multipart/mixed; boundary="===============6507225614030189010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Jun 2023 14:51:55 -0000
-Message-Id: <168632231573.5574.3085706487167602649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 09 Jun 2023 14:52:21 -0000
+Message-Id: <168632234138.5783.15479372886913383110@gitolite.kernel.org>
 
---===============4605907784928361518==
+--===============6507225614030189010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/auto-latest
-    old: 6d8416140118c362e07507057d329da03310e989
-    new: 393dca8506345e9c1a0b4f1c029d2ecbee9057d8
-    log: revlist-6d8416140118-393dca850634.txt
-  - ref: refs/heads/master
-    old: aa7e7b4614743285cbec66ef5aaff80978882431
-    new: 393dca8506345e9c1a0b4f1c029d2ecbee9057d8
-    log: revlist-aa7e7b461474-393dca850634.txt
+  - ref: refs/heads/master-pending
+    old: 0e9a9392e8b864e1145ac5b762950b63e8754740
+    new: a20e1111eba7e4d98f22c03abb95da699ee9d4c7
+    log: revlist-0e9a9392e8b8-a20e1111eba7.txt
+  - ref: refs/heads/pending
+    old: d76d44644e4690758caf6ade3fcb3873b56dbdf7
+    new: 0123cfd0b01fb6066ece36031e8481aa328fc58d
+    log: revlist-d76d44644e46-0123cfd0b01f.txt
+  - ref: refs/tags/ath-pending-202306091450
+    old: 0000000000000000000000000000000000000000
+    new: a20e1111eba7e4d98f22c03abb95da699ee9d4c7
 
---===============4605907784928361518==
+--===============6507225614030189010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d8416140118-393dca850634.txt
+Content-Disposition: attachment; filename=revlist-0e9a9392e8b8-a20e1111eba7.txt
 
-ab1de7ead871ebe6d12a774c3c25de0388cde082 cgroup: fix missing cpus_read_{lock,unlock}() in cgroup_transfer_tasks()
-2bd110339288c18823dcace602b63b0d8627e520 cgroup: always put cset in cgroup_css_set_put_fork
-e79d85c6c217221ea32354a5ac0587a7ccea02b9 drm/fb-helper: Fix height, width, and accel_flags in fb_var
-173d42721b4661327bf4dd8301714417695506c2 drm/msm: Set max segment size earlier
-b78c77273a5648eddc02f275f582b681a5127711 drm/msm/dp: add module parameter for PSR
-abac3ac97fe8734b620e7322a116450d7f90aa43 batman-adv: Broken sync while rescheduling delayed work
-30bc32c7c1f975cc3c14e1c7dc437266311282cf wifi: mt76: mt7615: fix possible race in mt7615_mac_sta_poll
-bed61c8fc7ba17d0f259c674137a5198fd2e3334 drm/ast: Fix long time waiting on s3/s4 resume
-3692ababa322b4d9ffbd973865bc88018e896fcd drm/ast: Fix modeset failed on DisplayPort
-b320a45638296b63be8d9a901ca8bc43716b1ae1 bpf, sockmap: Avoid potential NULL dereference in sk_psock_verdict_data_ready()
-3918dd0177ee08970683a2c22a3388825d82fd79 wifi: rtw88: correct PS calculation for SUPPORTS_DYNAMIC_PS
-26a125f550a3bf86ac91d38752f4d446426dfe1c wifi: rtw89: correct PS calculation for SUPPORTS_DYNAMIC_PS
-b408f33b35a4de606bfbd0de33b8f971bc5488ba wifi: rtw89: remove redundant check of entering LPS
-ead449023d3acb1424886d7b8cc672ed69bdd27e wifi: mt76: mt7996: fix possible NULL pointer dereference in mt7996_mac_write_txwi()
-ed779fe4c9b5a20b4ab4fd6f3e19807445bb78c7 neighbour: fix unaligned access to pneigh_entry
-5a59a58ec25d44f853c26bdbfda47d73b3067435 net: dsa: lan9303: allow vid != 0 in port_fdb_{add|del} methods
-e209fee4118fe9a449d4d805361eb2de6796be39 net/ipv4: ping_group_range: allow GID from 2147483648 to 4294967294
-f93b30e50a81a16cefa262b68bde5c4096ea9235 net: systemport: Replace platform_get_irq with platform_get_irq_optional
-37a826d86ff746c4eac8bd3415af19f3c9598206 net: dsa: qca8k: add CONFIG_LEDS_TRIGGERS dependency
-f3c3762178fad5cf5dc108fb061ba010818323b4 arm64: Remove the ARCH_FORCE_MAX_ORDER config input prompt
-0e2aba694866b451db0932a6706683c48379134c arm64: mm: pass original fault address to handle_mm_fault() in PER_VMA_LOCK block
-b0fd1852bcc21accca6260ef245356d5c141ff66 bpf: Fix UAF in task local storage
-cba41bb78d70aad98d8e61e019fd48c561f7f396 bpf: Fix elem_size not being set for inner maps
-1022b67b89ce5b92906fec6447f02acf6ba018e4 selftests/bpf: Add access_inner_map selftest
-23509e92cf13ed22c17d160efac7d0f0602d0bcb Merge branch 'Fix elem_size not being set for inner maps'
-edf2e1d2019b2730d6076dbe4c040d37d7c10bbe net/ipv6: fix bool/int mismatch for skip_notify_on_dev_down
-ef62c0ae6db11c095880e473db9f846132d7eba8 net/ipv6: convert skip_notify_on_dev_down sysctl to u8
-3696e140c25f5a2af763505aff99d14c0661cede Merge branch 'net-ipv6-skip_notify_on_dev_down-fix'
-03c44a21d0333a2f469680bc9caaf96a9bfaea87 net: phylink: actually fix ksettings_set() ethtool call
-02a7eee1ebf213dda4d517b9ed09fae4c1734312 Fix gitignore for recently added usptream self tests
-c308e9ec004721a656c193243eab61a8be324657 net/smc: Avoid to access invalid RMBs' MRs in SMCRv1 ADD LINK CONT
-7190d0ff0e17690a9b1279d84a06473600ba2060 net: enetc: correct the statistics of rx bytes
-fdebd850cc065495abf1d64756496050bb22db67 net: enetc: correct rx_bytes statistics of XDP
-3d5f4d29f6a8c1f248ea652daddc9c4701370120 Merge branch 'enetc-fixes'
-8cde87b007dad2e461015ff70352af56ceb02c75 net: sched: wrap tc_skip_wrapper with CONFIG_RETPOLINE
-89a4bf0dc3857569a77061d3d5ea2ac85f7e13c6 xfs: buffer pins need to hold a buffer reference
-00dcd17cfa7f103f7d640ffd34645a2ddab96330 xfs: restore allocation trylock iteration
-cb042117488dbf0b3b38b05771639890fada9a52 xfs: defered work could create precommits
-82842fee6e5979ca7e2bf4d839ef890c22ffb7aa xfs: fix AGF vs inode cluster buffer deadlock
-4320f34666363e202f8c290869c2d78c1ce9f3f1 xfs: Fix undefined behavior of shift into sign bit
-6be73cecb5a241309008d7fc4c47749e5324bfb0 xfs: fix broken logic when detecting mergeable bmap records
-1e473279f492faf33ed3fbb3ecf8eec9f56b951c xfs: fix double xfs_perag_rele() in xfs_filestream_pick_ag()
-e0a8de7da35e5b22b44fa1013ccc0716e17b0c14 xfs: fix agf/agfl verification on v4 filesystems
-3148ebf2c0782340946732bfaf3073d23ac833fa xfs: validity check agbnos on the AGFL
-7dfee17b13e5024c5c0ab1911859ded4182de3e5 xfs: validate block number being freed before adding to xefi
-d4d12c02bf5f768f1b423c7ae2909c5afdfe0d5f xfs: collect errors from inodegc for unlinked inode recovery
-2a84aea80e925ecba6349090559754f8e8eb68ef can: j1939: j1939_sk_send_loop_abort(): improved error queue handling in J1939 Socket
-cd9c790de2088b0d797dc4d244b4f174f9962554 can: j1939: change j1939_netdev_lock type to mutex
-9f16eb106aa5fce15904625661312623ec783ed3 can: j1939: avoid possible use-after-free when j1939_can_rx_register fails
-628f725d3b090fadcc3735aaf4332e778335188e Merge patch series "can: j1939: avoid possible use-after-free when j1939_can_rx_register fails"
-cd2b8113c2e8b9f5a88a942e1eaca61eba401b85 net/sched: fq_pie: ensure reasonable TCA_FQ_PIE_QUANTUM values
-d753693101881b9c17f04edc365cf6685c475ff1 Merge tag 'linux-can-fixes-for-6.4-20230605' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-9bc009734774549f8bb8d7e526ba10e70d751a7c net: stmmac: dwmac-qcom-ethqos: fix a regression on EMAC < 3
-40023959dbab3c6ad56fa7213770e63d197b69fb drm/i915/gt: Use the correct error value when kernel_context() fails
-cb2e701305f4ffe3a107c1d97f8588b4ed48ccb3 drm/i915/display: Set correct voltage level for 480MHz CDCLK
-2d6f2f79e06571d41eb1223abebe9097511c9544 drm/i915: Use 18 fast wake AUX sync len
-8b1c94da1e481090f24127b2c420b0c0b0421ce3 mptcp: only send RM_ADDR in nl_cmd_remove
-48d73f609dcceeb563b0d960e59bf0362581e39c selftests: mptcp: update userspace pm addr tests
-24430f8bf51655c5ab7ddc2fafe939dd3cd0dd47 mptcp: add address into userspace pm list
-6c160b636c91e71e50c39134f78257cc35305ff0 selftests: mptcp: update userspace pm subflow tests
-77e4b94a3de692a09b79945ecac5b8e6b77f10c1 mptcp: update userspace pm infos
-fb928170e32ebf4f983db7ea64901b1ea19ceadf Merge branch 'mptcp-addr-adv-fixes'
-132328e8e85174ea788faf8f627c33258c88fbad bpf: netfilter: Add BPF_NETFILTER bpf_attach_type
-5647e53f7856bb39dae781fe26aa65a699e2fc9f cgroup: Documentation: Clarify usage of memory limits
-31c5f9164949347c9cb34f041a7e04fdc08b1b85 Bluetooth: ISO: consider right CIS when removing CIG at cleanup
-e6a7a46b8636efe95c75bed63a57fc05c13feba4 Bluetooth: ISO: Fix CIG auto-allocation to select configurable CIG
-c5d2b6fa26b5b8386a9cc902cdece3a46bef2bd2 Bluetooth: Fix use-after-free in hci_remove_ltk/hci_remove_irk
-1857c19941c87eb36ad47f22a406be5dfe5eff9f Bluetooth: hci_sync: add lock to protect HCI_UNREGISTER
-fe2ccc6c29d53e14d3c8b3ddf8ad965a92e074ee Bluetooth: fix debugfs registration
-47c5d829a3e326b7395352a10fc8a6effe7afa15 Bluetooth: hci_qca: fix debugfs registration
-02c5ea5246a44d6ffde0fddebfc1d56188052976 Bluetooth: Fix l2cap_disconnect_req deadlock
-6c242c64a09e78349fb0a5f0a6f8076a3d7c0bb4 Bluetooth: ISO: don't try to remove CIG if there are bound CIS left
-71e9588435c38112d6a8686d3d8e7cc1de8fe22c Bluetooth: ISO: use correct CIS order in Set CIG Parameters event
-75767213f3d9b97f63694d02260b6a49a2271876 Bluetooth: L2CAP: Add missing checks for invalid DCID
-c37ab22bb1a43cdca8bf69cc0a22f1ccfc449e68 wifi: mac80211: use correct iftype HE cap
-727073ca5e55ab6a07df316250be8a12606e8677 wifi: cfg80211: reject bad AP MLD address
-68c228557d52616cf040651abefda9839de7086a wifi: mac80211: mlme: fix non-inheritence element
-47c171a426e305f2225b92ed7b5e0a990c95f6d4 wifi: mac80211: don't translate beacon/presp addrs
-5416bf1cf5602ab3a38b4c0d15ccec1ca4199633 arm64/arch_timer: Fix MMIO byteswap
-1afa18e9e72396d1e1aedd6dbb34681f2413316b wifi: mac80211: fix switch count in EMA beacons
-7a4615b9a9da5225b22b36a20508555dd133ac24 wifi: iwlwifi: mvm: Fix -Warray-bounds bug in iwl_mvm_wait_d3_notif()
-42510dffd0e2c27046905f742172ed6662af5557 qed/qede: Fix scheduling while atomic
-50d30040eb856ff6b0382b4d9dc332dc15597729 accel/ivpu: ivpu_ipc needs GENERIC_ALLOCATOR
-411360257c1f4fccaa20143098b6d3fcc9d4e4dc accel/ivpu: Reserve all non-command bo's using DMA_RESV_USAGE_BOOKKEEP
-3e54ed8247c94c8bdf370bd872bd9dfe72b1b12b wifi: cfg80211: fix locking in sched scan stop work
-f7e60032c6618dfd643c7210d5cba2789e2de2e2 wifi: cfg80211: fix locking in regulatory disconnect
-69844e335d8c22454746c7903776533d8b4ab8fa selftests/bpf: Fix sockopt_sk selftest
-bd058763a624a1fb5c20f3c46e632d623c043676 netfilter: nf_tables: Add null check for nla_nest_start_noflag() in nft_dump_basechain_hook()
-14e8b293903785590a0ef168745ac84250cb1f4c netfilter: nft_bitwise: fix register tracking
-e1f543dc660b44618a1bd72ddb4ca0828a95f7ad netfilter: conntrack: fix NULL pointer dereference in nf_confirm_cthelper
-24e227896bbf003165e006732dccb3516f87f88e netfilter: ipset: Add schedule point in call_ad().
-08e42a0d3ad30f276f9597b591f975971a1b0fcf netfilter: nf_tables: out-of-bound check in chain blob
-f6ca5baf2a86d0eaff3859844da9e4e29ff750a7 netlink: specs: ethtool: fix random typos
-6eea63c7090b20ee41032d3e478e617b219d69aa drm/lima: fix sched context destroy
-a2f4c143d76b1a47c91ef9bc46907116b111da0b ipv6: rpl: Fix Route of Death.
-4a059559809fd1ddbf16f847c4d2237309c08edf drm/exynos: vidi: fix a wrong error return
-48bfd02569f5db49cc033f259e66d57aa6efc9a3 drm/exynos: fix race condition UAF in exynos_g2d_exec_ioctl
-82a01ab35bd02ba4b0b4e12bc95c5b69240eb7b0 tcp: gso: really support BIG TCP
-4f48c30312b7af5365878ab191bb41e7b899e09b pds_core: Fix FW recovery detection
-accc1bf23068c1cdc4c2b015320ba856e210dd98 virtio_net: use control_buf for coalesce params
-e684ab76afebcaccd428f7d55361d5669ccc3e2d Merge tag 'wireless-2023-06-06' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-20c47646a26026aa7d1a820eb5ebb4e1980cf552 Merge tag 'nf-23-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-ab39b113e74751958aac1b125a14ee42bd7d3efd Merge tag 'for-net-2023-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-1e5c647c3f6d4f8497dedcd226204e1880e0ffb3 rfs: annotate lockless accesses to sk->sk_rxhash
-5c3b74a92aa285a3df722bf6329ba7ccf70346d6 rfs: annotate lockless accesses to RFS sock flow table
-e3144ff52f7d2c884eef352cec9b9ff9acd2eb2f Merge branch 'rfs-lockless-annotate'
-d636fc5dd692c8f4e00ae6e0359c0eceeb5d9bdb net: sched: add rcu annotations around qdisc->qdisc_sleeping
-79d0150d2d983a4f6efee676cea06027f586fcd0 drm/i915/selftests: Add some missing error propagation
-bf15bb38ec7f4ff522da5c20e1673dbda7159938 ice: make writes to /dev/gnssX synchronous
-886bc7d6ed3357975c5f1d3c784da96000d4bbb4 net: sched: move rtm_tca_policy declaration to include file
-de9df6c6b27e22d7bdd20107947ef3a20e687de5 net: openvswitch: fix upcall counter access before allocation
-682881ee45c81daa883dcd4fe613b0b0d988bb22 net: sched: act_police: fix sparse errors in tcf_police_dump()
-44f8baaf230c655c249467ca415b570deca8df77 net: sched: fix possible refcount leak in tc_chain_tmplt_add()
-f46fab0e36e611a2389d3843f34658c849b6bd60 bpf: Add extra path pointer check to d_path helper
-d49d1666aab51ad3caf79f414aff6b641837a6ea tools: Remove unnecessary variables
-4a03aa34432abe0703abf232f31fc5e2ed8256f6 lkdtm: Avoid objtool/ibt warning
-020126239b8f376ed2f0bef9dc07d0b280a0b7f5 Revert "x86/orc: Make it callthunk aware"
-ac27ecf68a1ada240bb71531dc2d30cde04ad70a x86/entry: Move thunk restore code into thunk functions
-1e4b619185e83e54aca617cf5070c64a88fe936b objtool: Allow stack operations in UNWIND_HINT_UNDEFINED regions
-a9da8247627eefc73f909bf945031a5431a53993 drm/vmwgfx: Add unwind hints around RBP clobber
-809373e17b2649948cc681dd1962b2736b22c7a6 objtool: Tidy elf.h
-2707579dfa615a5dda4aabb92e433f03a87b5ec5 objtool: Remove flags argument from elf_create_section()
-a5bd623653231bce8657978e9d2c2ebfaf19e297 objtool: Improve reloc naming
-53257a977a69b5eabbaafb64dcd767d2a4fef2b3 objtool: Consolidate rel/rela handling
-eb0481bbc4ce386e73e28ad8590b4f12c8aded56 objtool: Fix reloc_hash size
-ff4082730c2aaff3706232266e09d1ae4b350521 objtool: Add mark_sec_changed()
-6342a20efbd8b70d169c325b2c27a8a8f96388d5 objtool: Add elf_create_section_pair()
-fcf933552bebdecd72b324738c6635f46b0df569 objtool: Keep GElf_Rel[a] structs synced
-5201a9bcb7d3f98ab99c17325b0aa925c2888ca3 objtool: Don't free memory in elf_close()
-caa4a6b74b405ddaea40e2946cc3983aac96451d objtool: Add for_each_reloc()
-e0a9349b4c590145c6a83e6c9f7701cec42debbd objtool: Allocate relocs in advance for new rela sections
-ebcef730a19ba7ca446169f391d2e51722d68043 objtool: Get rid of reloc->list
-be9a4c116824c39720001db5bc45fe7528b26cff objtool: Get rid of reloc->idx
-e4cbb9b81f1f7519c7ae3abda09cb15794022952 objtool: Get rid of reloc->offset
-fcee899d2794319c9dbeb7b877b0c4ac92f5dd16 objtool: Get rid of reloc->type
-0696b6e314dbe4bd2f24d5e749469f57ea095a9f objtool: Get rid of reloc->addend
-be2f0b1e12644c956a347d7fde93c2ffe9cdb1af objtool: Get rid of reloc->jump_table_start
-890f10a433f51f95eccaec13d46dde769ccc113b objtool: Shrink reloc->sym_reloc_entry
-02b54001066364aee72bc4c802b42a96c6e0dc1f objtool: Shrink elf hash nodes
-ec24b927c1fbfc91cf7a48276d9fd92072b17d3b objtool: Get rid of reloc->rel[a]
-d93b5935fd47007597aed5105a902a10204bc30e objtool: Free insns when done
-b4c96ef0add5b701eb37be9830a98610e1d9b4a3 objtool: Skip reading DWARF section data
-30c3d3b70aba2464ee8c91025e91428f92464077 drm/amd: Disallow s0ix without BIOS support again
-2a1eb1a343208ce7d6839b73d62aece343e693ff drm/amdgpu: fix Null pointer dereference error in amdgpu_device_recover_vram
-1d13c49cf4e246b218d71873f1bb1bbd376aa10e drm/amd/pm: Fix power context allocation in SMU13
-38e4ced804796c5725e2a52ec3601951552c4a97 drm/amd/pm: conditionally disable pcie lane switching for some sienna_cichlid SKUs
-99b3886f8674502e967b1d050e40aa669c9098c1 drm/amd: Make lack of `ACPI_FADT_LOW_POWER_S0` or `CONFIG_AMD_PMC` louder during suspend path
-59de751e3845d699e02dc4da47322b92d83a41e2 drm/amd/display: add ODM case when looking for first split pipe
-3b3ffd729e7e3ad706ddba4bb84358df5d43a647 Revert "drm/amdgpu: change the reference clock for raven/raven2"
-d511f95938bf9e75ab73ace0ab1cebbe9a13df4b Revert "drm/amdgpu: Differentiate between Raven2 and Raven/Picasso according to revision id"
-73c12de8bee258b51bd418f33dc59f2c6e5fb5f6 Revert "drm/amdgpu: switch to golden tsc registers for raven/raven2"
-982b173a6c6d9472730c3116051977e05d17c8c5 drm/radeon: fix race condition UAF in radeon_gem_set_domain_ioctl
-b447b079cf3a9971ea4d31301e673f49612ccc18 drm/amdgpu: fix xclk freq on CHIP_STONEY
-dac652220ba0e5a2ef2da2a47a60b60aea333fdb drm/amdgpu: change reserved vram info print
-e1a600208286c197c2696e51fc313e49889315bd drm/amd/display: Reduce sdp bw after urgent to 90%
-7c5d4801ecf0564c860033d89726b99723c55146 lib: cpu_rmap: Fix potential use-after-free in irq_cpu_rmap_release()
-c9d99cfa66dfff4350e064adb98367cb922accf8 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-649c3fed36730a53447d8f479c14e431363563b6 eth: bnxt: fix the wake condition
-f0d751973f739feb3742d4e5f4c0914e8b84e7c7 eth: ixgbe: fix the wake condition
-a9f31047baca57d47440c879cf259b86f900260c net: bcmgenet: Fix EEE implementation
-182620ab3660c5a9098ffaa0e8a898e41b164987 Merge tag 'batadv-net-pullrequest-20230607' of git://git.open-mesh.org/linux-merge
-9f7e3611f6c828fcb6001c39d8e7a523a4f31525 accel/ivpu: Do not trigger extra VPU reset if the VPU is idle
-b563e47957af4ff71736c5cc4120a59b055ab583 accel/ivpu: Do not use mutex_lock_interruptible
-a3efabee5878b8d7b1863debb78cb7129d07a346 accel/ivpu: Fix sporadic VPU boot failure
-093d9b240a1fa261ff8aeb7c7cc484dedacfda53 percpu: Fix self-assignment of __old in raw_cpu_generic_try_cmpxchg()
-095d5dc0c1d9f3284e3c575ccf4c0e8b04b548f8 bnxt_en: Fix bnxt_hwrm_update_rss_hash_cfg()
-1d997801c7cc6a7f542e46d5a6bf16f893ad3fe9 bnxt_en: Don't issue AP reset during ethtool's reset operation
-1a9e4f501bc6ff1b6ecb60df54fbf2b54db43bfe bnxt_en: Query default VLAN before VNIC setup on a VF
-83474a9b252ab23e6003865c2775024344cb9c09 bnxt_en: Skip firmware fatal error recovery if chip is not accessible
-319a7827df9784048abe072afe6b4fb4501d8de4 bnxt_en: Prevent kernel panic when receiving unexpected PHC_UPDATE event
-1eb4ef12591348c440ac9d6efcf7521e73cf2b10 bnxt_en: Implement .set_port / .unset_port UDP tunnel callbacks
-6c0ec7ab5aaff3706657dd4946798aed483b9471 Merge branch 'bnxt_en-bug-fixes'
-79b6fad54683c28cc7e40d806e409abd65ed241a Merge tag 'xfs-6.4-rc5-fixes' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-25041a4c02c7cf774d8b6ed60586fd64f1cdaa81 Merge tag 'net-6.4-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-8d15d5e1851b1bbb9cd3289b84c7f32399e06ac5 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-b1913ff4d86b811758a788a3301032731ce41db4 Merge tag 'amd-drm-fixes-6.4-2023-06-07' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-d6d4f0a1189313310d77f1d5a2bb6277f3afa13f Merge tag 'drm-intel-fixes-2023-06-08' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-02b8f0b75518b9a20a9142eec31588509c8da030 Merge tag 'exynos-drm-fixes-for-v6.4-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
-bcd84301a33b7434a506fdb1a9076b7a234817a7 Merge tag 'drm-misc-fixes-2023-06-08' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-a8e981ac2d0eb9dd53a4c173e29ca0c99c88abe2 drm/msm/dp: enable HDP plugin/unplugged interrupts at hpd_enable/disable
-12abd735f0300600bfc01b2a3832b966312df205 drm/msm/a6xx: initialize GMU mutex earlier
-986c34b495810b38f365bb71665b77de60f15b2c Merge tag 'drm-msm-fixes-2023-06-08' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-9cd6357f100b3eb0f5027b1ff1a5eebb9f785145 Merge tag 'cgroup-for-6.4-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-33f2b5785a2b6b0ed1948aafee60d3abb12f1e3a Merge tag 'drm-fixes-2023-06-09' of git://anongit.freedesktop.org/drm/drm
-78841cd185aa74bc92d3ac2c63a870395caaa086 x86/mm: Remove Xen-PV leftovers from init_32.c
-301cf77e21317b3465c5e2bb0188df24bbf1c2e2 x86/orc: Make the is_callthunk() definition depend on CONFIG_BPF_JIT=y
-84b9b44b99780d35fe72ac63c4724f158771e898 virt: sevguest: Add CONFIG_CRYPTO dependency
-b452078b81eebdfcc0532bba78246d6994c1447a Merge branch into tip/master: 'x86/urgent'
-29f6e9da29294848abd09e737fb18db534ba8969 Merge branch into tip/master: 'x86/merge'
-e734da2f3b3e86e06072e29926f8b4e4f8d53ebe Merge branch into tip/master: 'core/debugobjects'
-5849078da81476ddb24dff65806238cd4a512b2c Merge branch into tip/master: 'irq/core'
-40dcb87d4227fbf46b1ff224e75d3e82ba371b8e Merge branch into tip/master: 'locking/core'
-adebe439662085d57335a381bcc68d42edd021f2 Merge branch into tip/master: 'objtool/core'
-62a0bc1e523fff4696a9c47e5a82308ccbb564b5 Merge branch into tip/master: 'perf/core'
-a0469b9c7788bae6c85a61acb9370d9c550e2700 Merge branch into tip/master: 'ras/core'
-ff0664a8038faa02274471d0a9ed0c42cdca3acf Merge branch into tip/master: 'sched/core'
-78c300c9feac08666beb0c3494cc6fdea5192eb5 Merge branch into tip/master: 'smp/core'
-3587f7e1c2bc956c3b5ca1f0fcad853e2a7855ae Merge branch into tip/master: 'timers/core'
-42876b046d941d148fb3b8d770a5afcbf06f6a33 Merge branch into tip/master: 'x86/alternatives'
-92e2002b86935fd9784067097adb886ba048506c Merge branch into tip/master: 'x86/cache'
-410fd9f3138b38a79bc72acd608455b788795c21 Merge branch into tip/master: 'x86/cc'
-a0968f3e5c246eb65c85eb578418767207239e9b Merge branch into tip/master: 'x86/cleanups'
-540df8afd4189aa6c0266346cb077ad026d491bf Merge branch into tip/master: 'x86/cpu'
-31bf1c9999bccae3585cc68787826a73cdb29676 Merge branch into tip/master: 'x86/irq'
-9848467c29d381e032ad8aaa3ab600383621b2de Merge branch into tip/master: 'x86/microcode'
-57b4549e677ea99987bac1da377c6b6659b3a3ba Merge branch into tip/master: 'x86/misc'
-4d075720d4514a0c2f540b828a8b99ed0e9f2019 Merge branch into tip/master: 'x86/mm'
-bf212d8ee1b8bd528de8aa70fff88dd2067a5959 Merge branch into tip/master: 'x86/mtrr'
-a8e9a01594b9b2e013b8a17dabf188ea2acd3b6b Merge branch into tip/master: 'x86/platform'
-393dca8506345e9c1a0b4f1c029d2ecbee9057d8 Merge branch into tip/master: 'x86/sev'
+43b6fc551e52ad3fb8bb48d9e9f0aa8f94fbe757 wifi: ath11k: debug: remove unused ATH11K_DBG_ANY
+3de72a159671108127b6f890992ab544445177c2 wifi: ath11k: print debug level in debug messages
+d1ef5183f3b3324e42141876da5e0d6df5138bda wifi: ath11k: remove manual mask names from debug messages
+ac8f76ac7215ac3e4c1ec778d3968de490907620 wifi: ath11k: add WMI event debug messages
+9de55aab8669bbefe78487972c3cb63228a1822b wifi: ath11k: remove unsupported event handlers
+782e88679a72ef82eafa8b5e70194f0cb60bbd2a wifi: ath11k: wmi: cleanup error handling in ath11k_wmi_send_init_country_cmd()
+49a9819fc66f5d9be8806fea4675a8aa0644b11a wifi: ath11k: wmi: use common error handling style
+087f5da76c2d4170a72f114733877b8a2741e4ec wifi: ath11k: wmi: add unified command debug messages
+adbbb658e936a77143d388da3a0aa459e4ef55c7 wifi: ath11k: pci: cleanup debug logging
+a4862a07a762d10d9513a3d48f1f4ef4723781bb wifi: ath11k: dp: cleanup debug message
+02043cd5dbbb6dd3ee156acbcdd2ce2170df03c6 wifi: ath11k: debug: use all upper case in ATH11k_DBG_HAL
+eba6b41213c0fb9d8e8cf90595a9e719d7e09fcb wifi: ath11k: hal: cleanup debug message
+06e2f912895b8dcec1cc86b70ae1af5cc41831ff wifi: ath11k: don't use %pK
+95d649f788fbec9982a75102913a6eabd49572c4 wifi: ath11k: htc: cleanup debug messages
+63470a3c85962a70cf816100f82971d3cb494611 wifi: ath11k: debug: add ATH11K_DBG_CE
+4086a2407202fee89e7e3486a2d5a1f87f773001 wifi: ath11k: fix boot failure with one MSI vector
+d75ca5a9612ccee4b384228933eb1d9e4d91b7ed wifi: ath9k: Fix possible stall on ath9k_txq_list_has_key()
+67588c3e825ba7c35babc3ee93f40915eaa0eb69 wifi: ath11k: fix memory leak in WMI firmware stats
+7506c197f4f4f523c5eedadc4a9c8afdba97fd7e wifi: ath11k: add support to select 6 GHz Regulatory type
+13a82e49802bb6e386c45f19540ff5d519ec4f9e wifi: ath11k: store cur_regulatory_info for each radio
+97ba0242891077a16d483c3a1ede85ce1a294485 wifi: ath11k: fix a possible dead lock caused by ab->base_lock
+153ea864a381fa193e3f69fc86e8099a3f7d7bf5 wifi: ath11k: update regulatory rules when interface added
+f33600f6238dea194b64fff2e4e19c0944ddfe0c wifi: ath11k: update regulatory rules when connect to AP on 6 GHz band for station
+0cc5e1509bbe1df95e399aee4e1377132088d2bb wifi: ath11k: Add missing ops config for IPQ5018 in ath11k_ahb_probe()
+9448f3fda0b9dc74dae04372aad4f8b7d43af489 wifi: ath11k: Restart firmware after cold boot calibration for IPQ5018
+d224428d8d8e7b88e6fd065c0fb322b6a337e6f3 wifi: ath11k: Add missing hw_ops->get_ring_selector() for IPQ5018
+e91185d17fd7ab27734eb583b49deb2db1e26f1d wifi: ath11k: Add missing check for ioremap
+5c77bf6da58ae71abc2a2f9a82f22a180491ce39 wifi: ath11k: Fix tkip encryption traffic failure
+58c4fb3cd2d531be6240c36ba0ad7231482c09e6 wifi: ath11k: add 802.3 undecap support to fix TKIP MIC error reporting
+82cd6503c66db57a71b110278c6a8355a68d575e dt-bindings: net: ath11k: add ieee80211-freq-limit property
+9356b9071cefabe84acd6426c36404837b7ab846 wifi: ath11k: add support DT ieee80211-freq-limit
+650f71307cd8685e887abd57e979b1420bd49ba5 wifi: ath12k: rename HE capabilities setup/copy functions
+154cab70b7055717a219fba582ca59ed08acf7c5 wifi: ath12k: move HE capabilities processing to a new function
+0a231858e43259b40667f25162d1793fa5be2915 wifi: ath12k: WMI support to process EHT capabilities
+2c4a9c46828fbaf0497a0bdc6ba9684f5c7bad2f wifi: ath12k: propagate EHT capabilities to userspace
+1d1d813c7d662ae5dc2e10c1b5bf75e386793d95 wifi: ath12k: add EHT PHY modes
+15d4827be18e2673410d41aa69a4f275897d96b0 wifi: ath12k: prepare EHT peer assoc parameters
+28bcf5cef8bd0d6728ad6daeb39f0f1e6c8bb2e2 wifi: ath12k: add WMI support for EHT peer
+1d05b14ce62378b037976042ba164f013d598f94 wifi: ath12k: peer assoc for 320 MHz
+ee4207575a8437ad38976e743f1ebe50b3d6e87d wifi: ath12k: add MLO header in peer association
+e43faa2dd5ceb2f130f25a4971abe50c962933b6 wifi: ath12k: parse WMI service ready ext2 event
+384f8f99cc71bcfad1112d1315de78c498ae065a wifi: ath12k: configure puncturing bitmap
+0123cfd0b01fb6066ece36031e8481aa328fc58d wifi: ath12k: fix conf_mutex in ath12k_mac_op_unassign_vif_chanctx()
+a20e1111eba7e4d98f22c03abb95da699ee9d4c7 Merge branch 'pending' into master-pending
 
---===============4605907784928361518==
+--===============6507225614030189010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa7e7b461474-393dca850634.txt
+Content-Disposition: attachment; filename=revlist-d76d44644e46-0123cfd0b01f.txt
 
-b452078b81eebdfcc0532bba78246d6994c1447a Merge branch into tip/master: 'x86/urgent'
-29f6e9da29294848abd09e737fb18db534ba8969 Merge branch into tip/master: 'x86/merge'
-e734da2f3b3e86e06072e29926f8b4e4f8d53ebe Merge branch into tip/master: 'core/debugobjects'
-5849078da81476ddb24dff65806238cd4a512b2c Merge branch into tip/master: 'irq/core'
-40dcb87d4227fbf46b1ff224e75d3e82ba371b8e Merge branch into tip/master: 'locking/core'
-adebe439662085d57335a381bcc68d42edd021f2 Merge branch into tip/master: 'objtool/core'
-62a0bc1e523fff4696a9c47e5a82308ccbb564b5 Merge branch into tip/master: 'perf/core'
-a0469b9c7788bae6c85a61acb9370d9c550e2700 Merge branch into tip/master: 'ras/core'
-ff0664a8038faa02274471d0a9ed0c42cdca3acf Merge branch into tip/master: 'sched/core'
-78c300c9feac08666beb0c3494cc6fdea5192eb5 Merge branch into tip/master: 'smp/core'
-3587f7e1c2bc956c3b5ca1f0fcad853e2a7855ae Merge branch into tip/master: 'timers/core'
-42876b046d941d148fb3b8d770a5afcbf06f6a33 Merge branch into tip/master: 'x86/alternatives'
-92e2002b86935fd9784067097adb886ba048506c Merge branch into tip/master: 'x86/cache'
-410fd9f3138b38a79bc72acd608455b788795c21 Merge branch into tip/master: 'x86/cc'
-a0968f3e5c246eb65c85eb578418767207239e9b Merge branch into tip/master: 'x86/cleanups'
-540df8afd4189aa6c0266346cb077ad026d491bf Merge branch into tip/master: 'x86/cpu'
-31bf1c9999bccae3585cc68787826a73cdb29676 Merge branch into tip/master: 'x86/irq'
-9848467c29d381e032ad8aaa3ab600383621b2de Merge branch into tip/master: 'x86/microcode'
-57b4549e677ea99987bac1da377c6b6659b3a3ba Merge branch into tip/master: 'x86/misc'
-4d075720d4514a0c2f540b828a8b99ed0e9f2019 Merge branch into tip/master: 'x86/mm'
-bf212d8ee1b8bd528de8aa70fff88dd2067a5959 Merge branch into tip/master: 'x86/mtrr'
-a8e9a01594b9b2e013b8a17dabf188ea2acd3b6b Merge branch into tip/master: 'x86/platform'
-393dca8506345e9c1a0b4f1c029d2ecbee9057d8 Merge branch into tip/master: 'x86/sev'
+43b6fc551e52ad3fb8bb48d9e9f0aa8f94fbe757 wifi: ath11k: debug: remove unused ATH11K_DBG_ANY
+3de72a159671108127b6f890992ab544445177c2 wifi: ath11k: print debug level in debug messages
+d1ef5183f3b3324e42141876da5e0d6df5138bda wifi: ath11k: remove manual mask names from debug messages
+ac8f76ac7215ac3e4c1ec778d3968de490907620 wifi: ath11k: add WMI event debug messages
+9de55aab8669bbefe78487972c3cb63228a1822b wifi: ath11k: remove unsupported event handlers
+782e88679a72ef82eafa8b5e70194f0cb60bbd2a wifi: ath11k: wmi: cleanup error handling in ath11k_wmi_send_init_country_cmd()
+49a9819fc66f5d9be8806fea4675a8aa0644b11a wifi: ath11k: wmi: use common error handling style
+087f5da76c2d4170a72f114733877b8a2741e4ec wifi: ath11k: wmi: add unified command debug messages
+adbbb658e936a77143d388da3a0aa459e4ef55c7 wifi: ath11k: pci: cleanup debug logging
+a4862a07a762d10d9513a3d48f1f4ef4723781bb wifi: ath11k: dp: cleanup debug message
+02043cd5dbbb6dd3ee156acbcdd2ce2170df03c6 wifi: ath11k: debug: use all upper case in ATH11k_DBG_HAL
+eba6b41213c0fb9d8e8cf90595a9e719d7e09fcb wifi: ath11k: hal: cleanup debug message
+06e2f912895b8dcec1cc86b70ae1af5cc41831ff wifi: ath11k: don't use %pK
+95d649f788fbec9982a75102913a6eabd49572c4 wifi: ath11k: htc: cleanup debug messages
+63470a3c85962a70cf816100f82971d3cb494611 wifi: ath11k: debug: add ATH11K_DBG_CE
+4086a2407202fee89e7e3486a2d5a1f87f773001 wifi: ath11k: fix boot failure with one MSI vector
+d75ca5a9612ccee4b384228933eb1d9e4d91b7ed wifi: ath9k: Fix possible stall on ath9k_txq_list_has_key()
+67588c3e825ba7c35babc3ee93f40915eaa0eb69 wifi: ath11k: fix memory leak in WMI firmware stats
+7506c197f4f4f523c5eedadc4a9c8afdba97fd7e wifi: ath11k: add support to select 6 GHz Regulatory type
+13a82e49802bb6e386c45f19540ff5d519ec4f9e wifi: ath11k: store cur_regulatory_info for each radio
+97ba0242891077a16d483c3a1ede85ce1a294485 wifi: ath11k: fix a possible dead lock caused by ab->base_lock
+153ea864a381fa193e3f69fc86e8099a3f7d7bf5 wifi: ath11k: update regulatory rules when interface added
+f33600f6238dea194b64fff2e4e19c0944ddfe0c wifi: ath11k: update regulatory rules when connect to AP on 6 GHz band for station
+0cc5e1509bbe1df95e399aee4e1377132088d2bb wifi: ath11k: Add missing ops config for IPQ5018 in ath11k_ahb_probe()
+9448f3fda0b9dc74dae04372aad4f8b7d43af489 wifi: ath11k: Restart firmware after cold boot calibration for IPQ5018
+d224428d8d8e7b88e6fd065c0fb322b6a337e6f3 wifi: ath11k: Add missing hw_ops->get_ring_selector() for IPQ5018
+e91185d17fd7ab27734eb583b49deb2db1e26f1d wifi: ath11k: Add missing check for ioremap
+5c77bf6da58ae71abc2a2f9a82f22a180491ce39 wifi: ath11k: Fix tkip encryption traffic failure
+58c4fb3cd2d531be6240c36ba0ad7231482c09e6 wifi: ath11k: add 802.3 undecap support to fix TKIP MIC error reporting
+82cd6503c66db57a71b110278c6a8355a68d575e dt-bindings: net: ath11k: add ieee80211-freq-limit property
+9356b9071cefabe84acd6426c36404837b7ab846 wifi: ath11k: add support DT ieee80211-freq-limit
+650f71307cd8685e887abd57e979b1420bd49ba5 wifi: ath12k: rename HE capabilities setup/copy functions
+154cab70b7055717a219fba582ca59ed08acf7c5 wifi: ath12k: move HE capabilities processing to a new function
+0a231858e43259b40667f25162d1793fa5be2915 wifi: ath12k: WMI support to process EHT capabilities
+2c4a9c46828fbaf0497a0bdc6ba9684f5c7bad2f wifi: ath12k: propagate EHT capabilities to userspace
+1d1d813c7d662ae5dc2e10c1b5bf75e386793d95 wifi: ath12k: add EHT PHY modes
+15d4827be18e2673410d41aa69a4f275897d96b0 wifi: ath12k: prepare EHT peer assoc parameters
+28bcf5cef8bd0d6728ad6daeb39f0f1e6c8bb2e2 wifi: ath12k: add WMI support for EHT peer
+1d05b14ce62378b037976042ba164f013d598f94 wifi: ath12k: peer assoc for 320 MHz
+ee4207575a8437ad38976e743f1ebe50b3d6e87d wifi: ath12k: add MLO header in peer association
+e43faa2dd5ceb2f130f25a4971abe50c962933b6 wifi: ath12k: parse WMI service ready ext2 event
+384f8f99cc71bcfad1112d1315de78c498ae065a wifi: ath12k: configure puncturing bitmap
+0123cfd0b01fb6066ece36031e8481aa328fc58d wifi: ath12k: fix conf_mutex in ath12k_mac_op_unassign_vif_chanctx()
 
---===============4605907784928361518==--
+--===============6507225614030189010==--
