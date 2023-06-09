@@ -1,22 +1,101 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 09 Jun 2023 09:27:10 -0000
-Message-Id: <168630283048.23958.13959828731954868197@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3572954095120753009=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 09 Jun 2023 09:32:28 -0000
+Message-Id: <168630314856.27278.7420486836045135782@gitolite.kernel.org>
+
+--===============3572954095120753009==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fd5f4d7da29218485153fd8b4c08da7fc130c79f
-    new: 0c6e9d32ef0ccfcf2d875cbcff23bf345a54d585
-    log: |
-         2203718c2f59ffdd6c78d54e5add594aebb4461e usbnet: ipheth: fix risk of NULL pointer deallocation
-         3e65efcca87a9bb5f3b864e0a43d167bc0a8688c usbnet: ipheth: transmit URBs without trailing padding
-         a2d274c62e44b1995c170595db3865c6fe701226 usbnet: ipheth: add CDC NCM support
-         0c6e9d32ef0ccfcf2d875cbcff23bf345a54d585 usbnet: ipheth: update Kconfig description
-         
+  - ref: refs/tags/v4.14.317
+    old: 0000000000000000000000000000000000000000
+    new: ebc7c3eadea1548f2f52ad9642d5c5d6c311e37b
+  - ref: refs/tags/v4.19.285
+    old: 0000000000000000000000000000000000000000
+    new: 4ad6ad67c7e508103942a3e7fe49497a76bddbb7
+  - ref: refs/tags/v5.10.182
+    old: 0000000000000000000000000000000000000000
+    new: fc220d1b21a83cb85846f2256a2079f56146e384
+  - ref: refs/tags/v5.10.183
+    old: 0000000000000000000000000000000000000000
+    new: de9922d5f96ea1a2c4a02c9de18a0c70448d8470
+  - ref: refs/tags/v5.15.115
+    old: 0000000000000000000000000000000000000000
+    new: b62d2a5ca2c711c6b5d873d5cd4ac360240ac4c5
+  - ref: refs/tags/v5.15.116
+    old: 0000000000000000000000000000000000000000
+    new: 2bfc1c3268297280d7419e5b8bd0ae7e7b019e79
+  - ref: refs/tags/v5.4.245
+    old: 0000000000000000000000000000000000000000
+    new: 913d845404f68deba7e833c1b316440e69922c15
+  - ref: refs/tags/v5.4.246
+    old: 0000000000000000000000000000000000000000
+    new: 9f3ccf06e47ab24348a5e85a04df64c2de24ec52
+  - ref: refs/tags/v6.1.32
+    old: 0000000000000000000000000000000000000000
+    new: 08fef1470fa52122f3ebc02edba691b552aa9fff
+  - ref: refs/tags/v6.1.33
+    old: 0000000000000000000000000000000000000000
+    new: 34db08d728a6a4272e59d723dcc4361201068a6b
+  - ref: refs/tags/v6.3.6
+    old: 0000000000000000000000000000000000000000
+    new: cb9e5f90701aebcbbc1034197c2a93b3359b745b
+  - ref: refs/tags/v6.3.7
+    old: 0000000000000000000000000000000000000000
+    new: 09157b01bc7b458587e7bd5c97975ad5274092d9
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+
+--===============3572954095120753009==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686303139 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1686303138-fe188c2d4cc11f350756fdf782d09587964ff7a5
+
+0000000000000000000000000000000000000000 ebc7c3eadea1548f2f52ad9642d5c5d6c311e37b refs/tags/v4.14.317
+0000000000000000000000000000000000000000 4ad6ad67c7e508103942a3e7fe49497a76bddbb7 refs/tags/v4.19.285
+0000000000000000000000000000000000000000 fc220d1b21a83cb85846f2256a2079f56146e384 refs/tags/v5.10.182
+0000000000000000000000000000000000000000 de9922d5f96ea1a2c4a02c9de18a0c70448d8470 refs/tags/v5.10.183
+0000000000000000000000000000000000000000 b62d2a5ca2c711c6b5d873d5cd4ac360240ac4c5 refs/tags/v5.15.115
+0000000000000000000000000000000000000000 2bfc1c3268297280d7419e5b8bd0ae7e7b019e79 refs/tags/v5.15.116
+0000000000000000000000000000000000000000 913d845404f68deba7e833c1b316440e69922c15 refs/tags/v5.4.245
+0000000000000000000000000000000000000000 9f3ccf06e47ab24348a5e85a04df64c2de24ec52 refs/tags/v5.4.246
+0000000000000000000000000000000000000000 08fef1470fa52122f3ebc02edba691b552aa9fff refs/tags/v6.1.32
+0000000000000000000000000000000000000000 34db08d728a6a4272e59d723dcc4361201068a6b refs/tags/v6.1.33
+0000000000000000000000000000000000000000 cb9e5f90701aebcbbc1034197c2a93b3359b745b refs/tags/v6.3.6
+0000000000000000000000000000000000000000 09157b01bc7b458587e7bd5c97975ad5274092d9 refs/tags/v6.3.7
+0000000000000000000000000000000000000000 f83424364efcdbca8f4d98f9b1825a1e0fc19d91 refs/tags/v6.4-rc5
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSC8aMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MnoP/RmCYx6XVoxtNZ7wyfQ6
+J3o/ZWr9pJo8ibx4vmqezHm0jpQaCS2FdGs362uKNkDI1aHwGgzCFW1ov6X/Bt4Q
+ZmXLpdCAhltDQvEcSpkvyr/bvZS/NLZ10TNxf1U7aTKtgpOOvCmKsG12qRIC2mYg
+0gdwZWe4WMfyxM9liwX9xr08CsDF93KQrSftmYT1ZBnqnYQdn1odt5ua2wYtemOM
+dyPCWRlGV4lHVfCZmHn8sOxGodwJItgg9MGQUG4CoMqSk/VYynhLnWF+E99sNqRa
+837cEP2YAD4ZLjhoOy28VBTyrXbcWHNaRwo9hTgis9TbUD5YruytiFdZNy7uPLt+
+T3krTCnwiHG9rpSI4ehcoqNo+3jyQsxQSQ896QdeeR0qKG2xWQUA6jaywlS7qIOc
+KgKPkbLekh1ayMrW/PRGt8YPzdauzsLCWsp064dzjJscYeMwYxhO/PCFPkprVumv
+KaZqeMSd11agXXck/dIURZqfN3b6oaVkKAHRdBfaQWGrpZ257UCHF7Q4c0bO1xQb
++BQy0GCz55pZ2xmkM/msFyh0JPg/DVfqJmMEN2rs5RCGpNzdzHN96a4yMg5AIngR
+iVnLT0UP5FF9i+zBFpQh9qDM/LmF7TwWB5GVDkfmmbhLxq4eIX0nGv+HXGuc8hoD
+mo9JWbBoSIODQSGAh83eUoie
+=BpPy
+-----END PGP SIGNATURE-----
+
+--===============3572954095120753009==--
