@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2708020971553183815=="
+Content-Type: multipart/mixed; boundary="===============4178068561248955220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 09 Jun 2023 15:36:55 -0000
-Message-Id: <168632501557.4132.2611595863657538055@gitolite.kernel.org>
+Date: Fri, 09 Jun 2023 15:37:34 -0000
+Message-Id: <168632505497.4399.7711798973306317722@gitolite.kernel.org>
 
---===============2708020971553183815==
+--===============4178068561248955220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 449f6bc17a51e68b06cfd742898e5ff3fe6e04d7
-    new: e7c5433c5aaab52ddd5448967a9a5db94a3939cc
-    log: revlist-449f6bc17a51-e7c5433c5aaa.txt
+  - ref: refs/heads/dev-queue
+    old: 2ffbafa3893cf095531c918676c64de3f29d6546
+    new: 99faff6dea0a13884af3a6fc8145c1f5351e0fbe
+    log: revlist-2ffbafa3893c-99faff6dea0a.txt
 
---===============2708020971553183815==
+--===============4178068561248955220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-449f6bc17a51-e7c5433c5aaa.txt
+Content-Disposition: attachment; filename=revlist-2ffbafa3893c-99faff6dea0a.txt
 
 962825e534a998025bc23a187c457ec7f9fac764 RDMA/mlx5: Free second uplink ib port
 222dd185833e464faad2d175c14bca584b6b6dad {net/RDMA}/mlx5: introduce lag_for_each_peer
@@ -95,5 +95,60 @@ a2d274c62e44b1995c170595db3865c6fe701226 usbnet: ipheth: add CDC NCM support
 bd5736e146e35f9eabe8c1bfc0ab00979ae62930 net: phy: broadcom: Add support for setting LED brightness
 56f7783ba4e514a18a13cda94b08563dbefede0a Merge branch 'broadcom-phy-led-brightness'
 e7c5433c5aaab52ddd5448967a9a5db94a3939cc tools: ynl: Remove duplicated include in handshake-user.c
+0b0c3a8e85b50dc267b706ed0d53b8f4252f3d53 igc: Fix possible system crash when loading module
+a2eb99355c944cb9bac8e70d0bf9daecb7a07a76 igb: fix nvm.ops.read() error handling
+cc2453313bdcb61df248940bc1d6ebe0389633c4 iavf: remove mask from iavf_irq_enable_queues()
+b0808d8cb6527b7f1dcc17597a3cae6ca18ba576 iavf: Fix use-after-free in free_netdev
+4b6b801bef20ab9613ff58f59c7ad12dc6d3d9a4 iavf: Fix out-of-bounds when setting channels on remove
+3282e288a9897203a5cbe88b82820cb525317436 igc: Fix race condition in PTP tx code
+aba9e98a65f703a3f21cf5878e6d230098c32f20 igc: Check if hardware TX timestamping is enabled earlier
+1e20f25e34e1176e9dbdc95748be24d61f740ffa igc: Retrieve TX timestamp during interrupt handling
+19793c20415a9788e388932b9cacc27cef455d01 igc: Work around HW bug causing missing timestamps
+0f328e98277e244a7b78992637750f48bf72cd76 igc: Clean the TX buffer and TX descriptor ring
+b1df5140ac5cd88aad7d22dd899782249e32bb96 igc: Add condition for qbv_config_change_errors counter
+75966b76577733ff8404b3b8d460e575e7b9e880 igc: Remove delay during TX ring configuration
+28d1b0d5d62c01dcc959c2fc359046e43cf69614 iavf: use internal state to free traffic IRQs
+78ed24bfb53a8dff67dc06d41157baf7ce12f02f ice: Skip adv rules removal upon switchdev release
+281c35b0c3666ea8a1c23aa83078c69e69ce307c ice: Prohibit rx mode change in switchdev mode
+855c600e11dc542de2f7895c3c9f569cb1607bf2 ice: Don't tx before switchdev is fully configured
+4b1031ff0d7d470c6d78d1b5fe02b379dbff63e9 ice: Disable vlan pruning for uplink VSI
+1d90a52bccb60fae9d18fb5a84537195e1cbf79c ice: Unset src prune on uplink VSI
+805e51e604d2669bab2a2994417d73ad45210101 ice: Implement basic eswitch bridge setup
+408d01c521fda748bfb0b5a23c6180f79cfa0d13 ice: Switchdev FDB events support
+59c4053a762f07ff520d30cb3ad7a8beb8518cd3 ice: Add guard rule when creating FDB in switchdev
+ad233586aefb5b4461a5e79503ee78d347227b30 ice: Accept LAG netdevs in bridge offloads
+4d948bf0baeabd61206e96a48d1f71551299e1b4 ice: Add VLAN FDB support in switchdev mode
+47d733796acd0d3d9e57d3cb33ebdf81bcff7b01 ice: implement bridge port vlan
+28adfea564b86f11e46677bc5acfd06914749a22 ice: implement static version of ageing
+60000e38395f24fbb134fff8698de0a3f2b6d3cb ice: add tracepoints for the switchdev bridge
+e2dc180a630b644d238abca05e043046610d6670 igb: fix hang issue of AER error during resume
+0d0648a8001ca87bb49a86dfd67e9a6350efd427 igb: Fix igb_down hung on surprise removal
+d34b7b73db0d6c1192499988024e5699b61fbdbf ice: Don't dereference NULL in ice_gns_read error path
+a3c6e466519a2912b3992918f82da7eec49c24f5 ice: clean up freeing SR-IOV VFs
+d4b01991a8c0fc35636c171a9be389bba8be6f24 ice: remove null checks before devm_kfree() calls
+307f70b0830bbe953e17ae903cb40868dcb41404 igb: Fix extts capture value format for 82580/i354/i350
+c537d751cf270025cfdf1f69577045c0961cb485 ice: handle extts in the miscellaneous interrupt thread
+23d8b871e31d06dbacb8475abc6ca03dd0ffb684 ice: always return IRQ_WAKE_THREAD in ice_misc_intr()
+7e27579ed9e67355a9b1c0ad361095bbdbd6c81d ice: introduce ICE_TX_TSTAMP_WORK enumeration
+9f8948e03955be9ddfdbd7cf9e58dff7e785f41c ice: trigger PFINT_OICR_TSYN_TX interrupt instead of polling
+137171437465570d8a852a5ff4b3f08f91ce03f9 ice: do not re-enable miscellaneous interrupt until thread_fn completes
+42d3d63ad18bb257ba83b6d08fc821ec6d2ccc82 ice: Fix ice module unload
+9a6a77ee86e9932b4b72d1fcd2027c91bdf61517 igc: Fix TX Hang issue when QBV Gate is closed
+debbec3825c0a4324528f95d64479ffd8d7a3cbe iavf: Wait for reset in callbacks which trigger it
+e5195ff69fcb1d2b87eab14694f6ddb2cf089fd4 Revert "iavf: Detach device during reset task"
+35f55f88919ed2cc87c573338837ae29bfc1610a Revert "iavf: Do not restart Tx queues after reset task failure"
+f923e2380d47702c583f5be292125149cf22b4e2 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+c2ca6801b5f38f8205be39417e828f45f0ec5c43 iavf: fix reset task race with iavf_remove()
+baa6de95f6be1f974699d584148c837614821db3 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+69c71de09bf66d000c458e2575b23f8dc773005b net/e1000: Fix extern warnings
+a9e8b5eacdbc95199e5d6a1cb3dce787e082afda ice: Fix XDP memory leak when NIC is brought up and down
+698d1c2f8aa404ef13c71f4ca0cd0a289a152b4b e1000e: Use PME poll to circumvent unreliable ACPI wake
+5034cef0ca644420acbb73bc9de7976cc363aade ip_tunnel: use a separate struct to store tunnel params in the kernel
+f58d798e41bb266e1a5b231cc59b5ff199d2cd23 ip_tunnel: convert __be16 tunnel flags to bitmaps
+a877bc28dea151805a9a5d999ff7f85b1dbc4352 pfcp: add PFCP module
+a9d0ea45ae2bc653ae2ed9d08310a55da4c9e67d pfcp: always set pfcp metadata
+8118d7d0aae2f76e92ca422b18b0f2225dfc94b9 ice: refactor ICE_TC_FLWR_FIELD_ENC_OPTS
+72feeb111b7d36966c5bd3019e3dffb47f6c4d45 ice: Add support for PFCP hardware offload in switchdev
+99faff6dea0a13884af3a6fc8145c1f5351e0fbe ice: clean up __ice_aq_get_set_rss_lut()
 
---===============2708020971553183815==--
+--===============4178068561248955220==--
