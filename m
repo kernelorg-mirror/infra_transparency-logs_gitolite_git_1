@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Fri, 09 Jun 2023 07:44:00 -0000
-Message-Id: <168629664062.12561.12486377952501365681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 09 Jun 2023 07:44:21 -0000
+Message-Id: <168629666162.12737.9148747810367887138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 53f9670d6af1bd0745c1df9c469b269c72607b23
-    new: f3697151776ee46d327ffeb69a7e9859cdcb0284
+  - ref: refs/heads/locking/core
+    old: ef558b4b7bbbf7e115c87e4da21ce86444d6ec3b
+    new: 093d9b240a1fa261ff8aeb7c7cc484dedacfda53
     log: |
-         f3697151776ee46d327ffeb69a7e9859cdcb0284 doc: fix line_config documentation generation
+         093d9b240a1fa261ff8aeb7c7cc484dedacfda53 percpu: Fix self-assignment of __old in raw_cpu_generic_try_cmpxchg()
          
