@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 09 Jun 2023 09:48:24 -0000
-Message-Id: <168630410446.18986.17860759724721598908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 09 Jun 2023 09:50:49 -0000
+Message-Id: <168630424999.22662.4053034888441141293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 0ad4982c520ed87ea7ebfc9381ea1f617ed75364
-    new: be3618d9651002cd5ff190dbfc6cf78f03e34e27
+  - ref: refs/heads/master
+    old: 97d60d66996307e7db69d9ab0178efbcf35d1d7f
+    new: 39032646fe0f572949024fa23a5b322c5dd9a5bf
     log: |
-         c0e489372a294044feea650b38f38c888eff57a4 octeontx2-af: Fix promiscuous mode
-         be3618d9651002cd5ff190dbfc6cf78f03e34e27 net/sched: taprio: fix slab-out-of-bounds Read in taprio_dequeue_from_txq
+         fd6b4d94ff013dc7ed680d4e864610da5b9751f1 libmount: introduce LIBMOUNT_FORCE_MOUNT2={always,never,auto}
+         39032646fe0f572949024fa23a5b322c5dd9a5bf Merge branch 'PR/libmount-force-mount2' of github.com:karelzak/util-linux-work
          
