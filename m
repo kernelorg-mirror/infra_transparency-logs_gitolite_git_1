@@ -1,47 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============0357962690227967696=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 09 Jun 2023 16:12:33 -0000
-Message-Id: <168632715377.28500.3391523010922880065@gitolite.kernel.org>
-
---===============0357962690227967696==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 09 Jun 2023 16:16:29 -0000
+Message-Id: <168632738984.31540.7287987865090702447@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 8a5cc5b87d9d833ffe7a2c65de5610da116ece03
-    new: 8578bdaf3d001e81782cf0d9dae03bc51eeff095
-    log: revlist-8a5cc5b87d9d-8578bdaf3d00.txt
-
---===============0357962690227967696==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a5cc5b87d9d-8578bdaf3d00.txt
-
-f847a3a8c68fe048d77485690af8c2a86d32763e arm: dts: mt7623: add gmacs to mt7623.dtsi
-e5240c35fa75c44d36b3a361a6f8d5685fde269e arm: dts: mt7623: add mt7530 switch to mt7623a.dtsi
-cf8f3a7a044d57f3a0c5e14e97b8926c212f31f0 arm: dts: mt7623: change mt7530 switch address
-031bf30966721c28489b9a52942dcaa4ef67b63e arm: dts: mt7623: enable flow control on port@6
-115ee470e5d2438f9c36802fc47bcb2297ec33be arm: dts: mt7623: add port@5 as CPU port
-95094495401bdf6a0649d220dfd095e6079b5e39 soc: mediatek: SVS: Fix MT8192 GPU node name
-320f2af8c3873a927cd415347e97e14d3b83bc76 arm64: dts: mt7986: add thermal and efuse
-861af546db4fcd23abe48fe4b434ff78ab8a4f7d arm64: dts: mt7986: add thermal-zones
-2cb0317922e225a9d15f873b9b8a9ffb19b6cd10 arm64: dts: mt7986: add pwm-fan and cooling-maps to BPI-R3 dts
-21d4631eedb136f101d2633b72cf42c20db79202 soc: mediatek: remove DDP_DOMPONENT_DITHER from enum
-e5b12f3b851f2a478f1cc305c8007f7ad1d338e3 arm64: dts: mediatek: mt8186: Add CCI node and CCI OPP table
-1139eb7bf5efbbbc07b2d05c436a40c6d36033e3 arm64: dts: mediatek: mt8186: Wire up CPU frequency/voltage scaling
-eb5aab2716114c3199b911ab55d5a38c053a390a arm64: dts: mediatek: mt8186: Add GPU speed bin NVMEM cells
-f38ff7d3b0f19e943e01b243cd34150d19533498 arm64: dts: mediatek: mt8186: Wire up GPU voltage/frequency scaling
-7835909d0be30fa7db6534e5389f77d07d81a324 Merge branch 'v6.4-next/dts32' into for-next
-011bc874f90de15319dfd860ed3c9c60ffedd3ea Merge branch 'v6.4-next/dts64' into for-next
-8578bdaf3d001e81782cf0d9dae03bc51eeff095 Merge branch 'v6.4-next/soc' into for-next
-
---===============0357962690227967696==--
+    old: 8c1ee346da583718fb0a7791a1f84bdafb103caf
+    new: a519a612a71848b69b70b18b4d14d165b2d8aaf7
+    log: |
+         2145328515c8fa9b8a9f7889250bc6c032f2a0e6 RDMA/mana_ib: Use v2 version of cfg_rx_steer_req to enable RX coalescing
+         b002760f877c0d91ecd3c78565b52f4bbac379dd RDMA/irdma: avoid fortify-string warning in irdma_clr_wqes
+         84510a61ef0974ec765cc68d04ddab905b9b6c7c RDMA/rxe: Remove dangling declaration of rxe_cq_disable()
+         1cc625cecce9cbbe7898c88cc9e6c06021d7d8f0 RDMA/rtrs: Remove duplicate cq_num assignment
+         c9358de193ecfb360c3ce75f27ce839ca0b0bc8c IB/hfi1: Fix wrong mmu_node used for user SDMA packet after invalidate
+         e236e2eae52e1e7fb0d38b8d921b04e527151b73 IB/hfi1: Add mmu_rb_node refcount to hfi1_mmu_rb_template tracepoints
+         95ea2efbd66fb9e85238bd8d59341f8ce7a31065 IB/hfi1: Remove unused struct mmu_rb_ops fields .insert, .invalidate
+         b9989ab3f61ec459cbaf0a492fea3168bbfa4c7a RDMA/hns: Remove unnecessary QP type checks
+         cf5b608fb0e369c473a8303cad6ddb386505e5b8 RDMA/hns: Fix hns_roce_table_get return value
+         a519a612a71848b69b70b18b4d14d165b2d8aaf7 RDMA/hns: Add clear_hem return value to log
+         
+  - ref: refs/heads/for-rc
+    old: 5842d1d9c1b0d17e0c29eae65ae1f245f83682dd
+    new: 18e7e3e4217083a682e2c7282011c70c8a1ba070
+    log: |
+         3bf3a7c6985c625f64e73baefdaa36f1c2045a29 RDMA/rtrs: Fix the last iu->buf leak in err path
+         9c29c8c7df0688f358d2df5ddd16c97c2f7292b4 RDMA/rtrs: Fix rxe_dealloc_pd warning
+         9a3763e87379c97a78b7c6c6f40720b1e877174f RDMA/rxe: Fix packet length checks
+         b00683422fd79dd07c9b75efdce1660e5e19150e RDMA/rxe: Fix ref count error in check_rkey()
+         18e7e3e4217083a682e2c7282011c70c8a1ba070 RDMA/bnxt_re: Fix reporting active_{speed,width} attributes
+         
