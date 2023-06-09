@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3065413190469242962=="
+Content-Type: multipart/mixed; boundary="===============8505555749075764591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 09 Jun 2023 12:14:03 -0000
-Message-Id: <168631284369.22046.9588092258236707204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 09 Jun 2023 12:14:09 -0000
+Message-Id: <168631284952.22182.2678473431604496357@gitolite.kernel.org>
 
---===============3065413190469242962==
+--===============8505555749075764591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 7077b1864ca8f0d616c497b3ee890d72d1da0a26
     new: 62a97bea5cce5317d6d7630f7bcf0cdf5333e269
     log: |
@@ -25,28 +25,28 @@ changes:
          62a97bea5cce5317d6d7630f7bcf0cdf5333e269 Fix error check and cleanup for JH7110 TDM
          
 
---===============3065413190469242962==
+--===============8505555749075764591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686312842 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1686312841-371dbe906c1ad26316b11155655c8371812136de
+pusher C3F436CA30F5D8EB 1686312848 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686312847-535397ef77773228554996460cd2f4d8b3bebf18
 
-7077b1864ca8f0d616c497b3ee890d72d1da0a26 62a97bea5cce5317d6d7630f7bcf0cdf5333e269 refs/heads/for-6.5
+7077b1864ca8f0d616c497b3ee890d72d1da0a26 62a97bea5cce5317d6d7630f7bcf0cdf5333e269 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSDF4oACgkQJNaLcl1U
-h9BhjAf+Ns3WiPKYgYuSjDZppDT4BJ2ulu1sH6jeW06tzqmcpDxOiOMhfTMezgwt
-SR1hIBesoEepfM0Q/sqo6A9xElzpojcT9O618JZ3SP6mM4xoAtrw+OHVJLbmATXI
-eKUEQ4dsPCuwfHKOYy78eNf64SCG932Yp+1tyvRSCJtjfKigcB5iEH7DEaONOmG6
-fW1fNx//nK5x3nF7/Slio/hvWBGSpbTxwOiDocNBYRnJObgNdNblGq9mDtn8otHw
-0hQNLHIkla5EEJprCIwUvkXmtfC+bQLNy/F9Wd67Bsqytl1jENhEWo6brzW48q8f
-RMxXMBfxrGlFLCWf9q+JKssNTn/EkA==
-=R2rh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSDF5AACgkQJNaLcl1U
+h9BVAgf9FSr7gdG2hi5KPmNeJCVcNaYLA//oVZGwb1suWU00OSCjCuX4M20jsGu3
+deg9v/KYCufURqcqQ3ikk84rGNtDi1+on+OmeobnyMCD+lfWwROR/s1P1+GjjnTe
+yvJyuv2qXFMc2GJeezd3uxcYOEAzw6BG5/onX1RmTPwO1V7BCCSX3x1LMEFweoZA
+DVHwZb1Q/khln6RHtcLiVx8V62UVo74/B2xQDoXWgOpaU8pyf05o/K8a8AhPV+gh
+b/YoJ16j8S45Al7tkhftcgcYLyAyGOKw6A0ZXWcUL5OIBOALSpc2yOznQwCvZPDG
+rWHk/XpWVqqSyJezQFDVM7f6f+HzAg==
+=f3EV
 -----END PGP SIGNATURE-----
 
---===============3065413190469242962==--
+--===============8505555749075764591==--
