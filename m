@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 09 Jun 2023 22:14:16 -0000
-Message-Id: <168634885668.18153.12038816445276526274@gitolite.kernel.org>
+Date: Fri, 09 Jun 2023 22:33:44 -0000
+Message-Id: <168635002419.31848.15073882365563171868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/linus
-    old: b0b4a63f38d7cae3c57588592556481aedcae8b1
-    new: 5b47f56b6a0fe5752f0827d26037a809ec0080bc
+  - ref: refs/heads/dt/next
+    old: 1cc5ea02091651ae4783bcf1617bedbb7578e228
+    new: 48964ea50951319481f9589c3f6b9bf92b03935e
     log: |
-         39affd1fdf65983904fafc07cf607cff737eaf30 of: overlay: Fix missing of_node_put() in error case of init_overlay_changeset()
-         5b47f56b6a0fe5752f0827d26037a809ec0080bc dt-bindings: i3c: silvaco,i3c-master: fix missing schema restriction
+         48964ea50951319481f9589c3f6b9bf92b03935e dt-bindings: vendor-prefixes: document TeeJet
+         
+  - ref: refs/heads/for-next
+    old: 1cc5ea02091651ae4783bcf1617bedbb7578e228
+    new: 48964ea50951319481f9589c3f6b9bf92b03935e
+    log: |
+         48964ea50951319481f9589c3f6b9bf92b03935e dt-bindings: vendor-prefixes: document TeeJet
          
