@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 09 Jun 2023 00:25:07 -0000
-Message-Id: <168627030765.2350.14714597923353310073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Fri, 09 Jun 2023 00:33:44 -0000
+Message-Id: <168627082472.6696.2402561314970436056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: lclaudio
 changes:
-  - ref: refs/heads/dev-test
-    old: a0bef78aeefc53bbaaf1a4c1d3b2429beca509a7
-    new: c5835f689147d140b18e72d71365071d0c6fa63e
+  - ref: refs/heads/v5.10-rt-next
+    old: 1e394685da00005a097d2f14ee4d2589d1847e32
+    new: b48e3c754018419183a1ca6fad4fc9ae2e2410b4
     log: |
-         e565fbb1ab8582afe97991e8b8cc451d0b755887 f2fs-tools: fix wrong write pointer check for non-zoned areas
-         c5835f689147d140b18e72d71365071d0c6fa63e f2fs-tools: fix to call assert() if f2fs_dentry_hash() fails
+         99ae8638f2da268b29d3e4e859a35f3a8ead5dac Revert "printk: declare printk_deferred_{enter,safe}() in include/linux/printk.h"
+         7bdd3bd5143a4727467981787e1caa46c381f039 Revert "mm/page_alloc: fix potential deadlock on zonelist_update_seqseqlock"
+         b48e3c754018419183a1ca6fad4fc9ae2e2410b4 Linux 5.10.180-rt89-rc1
          
+  - ref: refs/tags/v5.10.180-rt89-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 800b04033e6dd65848a3d623bf8edc6f00161f0f
