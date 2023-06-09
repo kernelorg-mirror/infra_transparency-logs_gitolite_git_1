@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
-Date: Fri, 09 Jun 2023 11:28:06 -0000
-Message-Id: <168631008625.23925.4650943956483797051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 09 Jun 2023 11:47:52 -0000
+Message-Id: <168631127243.3937.6606181638695505907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux-next
-user: mcgrof
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/large-block-20230525-hacks
+  - ref: refs/heads/asoc-cirrus-maple
     old: 0000000000000000000000000000000000000000
-    new: 9883186ea47ec29d581df6de2dc0a16645888e5d
+    new: 89a6874be1221280810545daf19ad6a958c06649
