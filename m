@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 09 Jun 2023 11:16:24 -0000
-Message-Id: <168630938422.15674.18374715727352831002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 09 Jun 2023 11:25:07 -0000
+Message-Id: <168630990730.22845.13316941129636688703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/for-next/perf
-    old: 8be3593b9efa8903d2ee7bb9cdf57a8e56c66f36
-    new: b1acb4e5601b07700fd30346a08dcb7dbfc437a7
+  - ref: refs/heads/next
+    old: 364dae3e80a48fcd22c9d4e57223d2918bcadd6f
+    new: 53a969f80c1ae2d0353970809c055c4c2b8a0764
     log: |
-         7a6a9f1c5a0a875a421db798d4b2ee022dc1ee1a drivers/perf: hisi: Don't migrate perf to the CPU going to teardown
-         225d757012e0afa673d8c862e6fb39ed2f429b4d perf: arm_cspmu: Set irq affinitiy only if overflow interrupt is used
-         71e0cb32d5fc61468e83ed962379af71bba8237e perf/arm_cspmu: Fix event attribute type
-         87b3b6d53efccbb64396675b35839180ef14ef40 ACPI/APMT: Don't register invalid resource
-         f9bd34e3753ea8f1433a3ba70f03a165a1416f98 perf/arm_cspmu: Clean up ACPI dependency
-         d2e3bb51281875be23cb4726a59b03d0a53eb0d3 perf/arm_cspmu: Decouple APMT dependency
-         55691f99d417084305e575c477f06556f93dfb0b drivers/perf: imx_ddr: Add support for NXP i.MX9 SoC DDRC PMU driver
-         b1acb4e5601b07700fd30346a08dcb7dbfc437a7 dt-bindings: perf: fsl-imx-ddr: Add i.MX93 compatible
+         dc2f318af33caf7522a9cb84370361a148fbe50f mmc: mtk-sd: reduce CIT for better performance
+         fc208f0702f2a9392d23399f16c1b80387e2aa83 mmc: sdhci-pci-gli: Add Genesys Logic GL9767 support
+         bcf70ea6a774437a0c7b8aa81214e147d8574ddb mmc: sdhci-pci-gli: Set SDR104's clock to 205MHz and enable SSC for GL9767
+         28f89c7e94a4489383dbdc14fb88a52bff1337a5 mmc: sdhci: Add VDD2 definition for power control register
+         53a969f80c1ae2d0353970809c055c4c2b8a0764 mmc: sdhci-pci-gli: Add support SD Express card for GL9767
          
