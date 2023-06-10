@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 10 Jun 2023 18:49:52 -0000
-Message-Id: <168642299237.19194.16212278498033748694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 10 Jun 2023 18:54:19 -0000
+Message-Id: <168642325909.23570.6246986943664934815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e431e712c83676a8a9cd3988b323e3ef994a8ff3
-    new: 3334129245a93142a509112b9947609c8051f733
+    old: 1b8975f30abffc4f74f1ba049f9042e7d8f646cc
+    new: b403643d154d15176b060b82f7fc605210033edd
     log: |
-         dc510c6d2ecfff1faaf95b642c5fc01c86d6fdff net: renesas: rswitch: Use napi_gro_receive() in RX
-         c87bd91e34e1593584c3b309e8fead833c985855 net: renesas: rswitch: Use hardware pause features
-         3334129245a93142a509112b9947609c8051f733 Merge branch 'renesas-rswitch-perf'
+         4e635f9d86165e47f5440196f2ebdb258efb8341 octeontx2-af: fixed resource availability check
+         87e12a17eef476bbf768dc3a74419ad461f36fbc octeontx2-af: fix lbk link credits on cn10k
+         14df9526046d2a6d2b3e002e952714ce04fc9bd7 Merge branch 'octeontx2-af-fixes'
+         b403643d154d15176b060b82f7fc605210033edd netlabel: fix shift wrapping bug in netlbl_catmap_setlong()
          
