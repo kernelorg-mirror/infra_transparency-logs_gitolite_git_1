@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 10 Jun 2023 18:54:19 -0000
-Message-Id: <168642325909.23570.6246986943664934815@gitolite.kernel.org>
+Date: Sat, 10 Jun 2023 18:58:18 -0000
+Message-Id: <168642349822.26401.15182604481223124207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 1b8975f30abffc4f74f1ba049f9042e7d8f646cc
-    new: b403643d154d15176b060b82f7fc605210033edd
+    old: b403643d154d15176b060b82f7fc605210033edd
+    new: 65d8bd81aa15c36d9703f4393651d10edf1f030c
     log: |
-         4e635f9d86165e47f5440196f2ebdb258efb8341 octeontx2-af: fixed resource availability check
-         87e12a17eef476bbf768dc3a74419ad461f36fbc octeontx2-af: fix lbk link credits on cn10k
-         14df9526046d2a6d2b3e002e952714ce04fc9bd7 Merge branch 'octeontx2-af-fixes'
-         b403643d154d15176b060b82f7fc605210033edd netlabel: fix shift wrapping bug in netlbl_catmap_setlong()
+         212ed75dc5fb9d1423b3942c8f872a868cda3466 netfilter: nf_tables: integrate pipapo into commit protocol
+         a1a64a151dae8ac3581c1cbde44b672045cb658b netfilter: nfnetlink: skip error delivery on batch in case of ENOMEM
+         1240eb93f0616b21c675416516ff3d74798fdc97 netfilter: nf_tables: incorrect error path handling with NFT_MSG_NEWRULE
+         65d8bd81aa15c36d9703f4393651d10edf1f030c Merge tag 'nf-23-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
          
