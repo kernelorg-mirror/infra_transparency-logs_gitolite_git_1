@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 10 Jun 2023 19:07:36 -0000
-Message-Id: <168642405622.32572.5766539606988048926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 10 Jun 2023 19:59:07 -0000
+Message-Id: <168642714752.1949.15286718128122028868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/main
-    old: 65d8bd81aa15c36d9703f4393651d10edf1f030c
-    new: 7ebe4eda4265642859507d1b3ca330d8c196cfe5
-    log: |
-         7ebe4eda4265642859507d1b3ca330d8c196cfe5 bnx2x: fix page fault following EEH recovery
-         
+  - ref: refs/tags/i2c-for-6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: afc1d2e6f77bf58393641224e303d28d3109c639
