@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 10 Jun 2023 16:14:25 -0000
-Message-Id: <168641366587.13029.5423909887166789102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 10 Jun 2023 17:05:54 -0000
+Message-Id: <168641675442.16340.14342294168297325417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/regcache-raw-kunit
-    old: b05e4071702930085a31fbd5268dc90c1b77cc2f
-    new: fb8380b5b67d85540ef032c2c48c5e9dc3c45f55
+  - ref: refs/tags/qcom-arm64-defconfig-for-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 7d44f37829cf188c307c3d1f82ba5663477cf9d1
