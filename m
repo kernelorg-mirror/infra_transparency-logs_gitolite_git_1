@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Sun, 11 Jun 2023 15:50:42 -0000
-Message-Id: <168649864286.1810.4307960934760602781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 11 Jun 2023 16:17:24 -0000
+Message-Id: <168650024446.17796.9285642276379059687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 4cac30138e5ee5afcbc20b2ac5535716f2679b2e
-    new: 1fa89cccd288cea4370ce08042b749b72ea8b059
-    log: |
-         1fa89cccd288cea4370ce08042b749b72ea8b059 media: venus: hfi_cmds: Replace fake flex-arrays with flexible-array members
-         
+  - ref: refs/tags/iio-for-6.5a
+    old: 0000000000000000000000000000000000000000
+    new: 1d5fe355bb729e9f5064f49d4484257c36b01a52
