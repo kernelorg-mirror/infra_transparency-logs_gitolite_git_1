@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Sun, 11 Jun 2023 05:26:30 -0000
-Message-Id: <168646119063.23649.2158116638828042833@gitolite.kernel.org>
+Date: Sun, 11 Jun 2023 07:05:15 -0000
+Message-Id: <168646711572.24346.16833849606464845283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
 user: glaubitz
 changes:
   - ref: refs/heads/for-next
-    old: bc9d1f0cecd2407cfb2364a7d4be2f52d1d46a9d
-    new: aeb7bd11220701a6c1dad9e056589224c15d5b00
+    old: aeb7bd11220701a6c1dad9e056589224c15d5b00
+    new: 1be2537adc04fd05b8b95b465567d015fa0599c6
     log: |
-         aeb7bd11220701a6c1dad9e056589224c15d5b00 sh: Avoid using IRQ0 on SH3 and SH4
+         1be2537adc04fd05b8b95b465567d015fa0599c6 sh: Avoid using IRQ0 on SH3 and SH4
          
