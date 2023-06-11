@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 11 Jun 2023 20:02:57 -0000
-Message-Id: <168651377797.6902.10258373885648180730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 11 Jun 2023 20:06:03 -0000
+Message-Id: <168651396366.9462.5479361374758644066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 054a66ed1bf22ec8f050cbffe50f38424b94ce0a
-    new: 1b0da786bf6e13d7ae49b365ce0d2fdaf2efe23e
+  - ref: refs/heads/main
+    old: 3334129245a93142a509112b9947609c8051f733
+    new: 26a4dd839eeba3638df8441223903baa49c6f0da
     log: |
-         5213fbcaffd0ee112c5800eefc202e2abbad75eb advsync/rt: Update path to kernel-per-CPU-kthreads document
-         1b0da786bf6e13d7ae49b365ce0d2fdaf2efe23e advsync/rt: Mention the tree of Documentation/ directory
+         26a4dd839eeba3638df8441223903baa49c6f0da selftests: net: vxlan: Fix selftest regression after changes in iproute2.
          
