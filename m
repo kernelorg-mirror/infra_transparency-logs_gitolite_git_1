@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 11 Jun 2023 11:40:03 -0000
-Message-Id: <168648360328.26710.15041279271518143762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 11 Jun 2023 11:46:46 -0000
+Message-Id: <168648400684.30993.7941189269128303319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 3a3f1e573a105328a2cca45a7cfbebabbf5e3192
-    new: 7e67dd4899d866115be2f68fa3f328616cd60408
+  - ref: refs/heads/regcache-raw-kunit
+    old: fb8380b5b67d85540ef032c2c48c5e9dc3c45f55
+    new: e9eff75a644cc2764b1c3c04fb0cfc5a494d1c19
     log: |
-         56b0f453db74207633019f83758b4c11c66b75d0 kernel-doc: don't let V=1 change outcome
-         dd203fefd9c9e28bc141d144e032e263804c90bb kbuild: enable kernel-doc -Wall for W=2
-         7e67dd4899d866115be2f68fa3f328616cd60408 Revert "[PATCH] uml: export symbols added by GCC hardened"
+         2882e6d2f059568f766789cba4137b2276609f2b regmap: Provide a ram backed regmap with raw support
+         e9eff75a644cc2764b1c3c04fb0cfc5a494d1c19 regmap: Provide basic KUnit coverage for the raw register I/O
          
