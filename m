@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5082580947802629771=="
+Content-Type: multipart/mixed; boundary="===============6974633826423440739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 12 Jun 2023 12:33:00 -0000
-Message-Id: <168657318032.23619.12524647035876532056@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 12:33:23 -0000
+Message-Id: <168657320328.23803.17199268278503519738@gitolite.kernel.org>
 
---===============5082580947802629771==
+--===============6974633826423440739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/tmp.perf/core
     old: fa9f16805e705fbb243a74b60f803cb33f1ce787
     new: fd87a79c7ed62804aacbcf4168b8dada4c621d86
     log: revlist-fa9f16805e70-fd87a79c7ed6.txt
 
---===============5082580947802629771==
+--===============6974633826423440739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ d22cfb063bcc674e3ee4a8fd964b3f93ec4ce71e perf callchain: Use pthread keys for tl
 933f9651d47cdda2202b147cc8f8484154975709 perf srcline: Change free_srcline to zfree_srcline
 fd87a79c7ed62804aacbcf4168b8dada4c621d86 perf hist: Fix srcline memory leak
 
---===============5082580947802629771==--
+--===============6974633826423440739==--
