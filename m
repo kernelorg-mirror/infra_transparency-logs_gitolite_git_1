@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 12 Jun 2023 17:15:35 -0000
-Message-Id: <168659013593.23566.9484794087045373038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 12 Jun 2023 17:18:25 -0000
+Message-Id: <168659030575.24551.10053571620650449957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 34ce984c24e69abc271f855cfe2969f444f3b98b
-    new: c518d31b2a3390e059c7bda1c1ce429c83ee8517
+  - ref: refs/heads/aer
+    old: c57c8c0b8e3d57cc40cbb8e23842d3859b116997
+    new: 11502feab423cbbbaae47c0672409840b04037d5
     log: |
-         27896ffd8fe41a6f052962c2fb1573daa6476f13 lib/string_helpers: Add missing header files to MAINTAINERS database
-         fca76071bab2304b379c35674d3b9e36a82e364a lib/string_helpers: Split out string_choices.h
-         a9fc76645ca02a79ab491e2b05e29dc222b1f6b4 lib/string_choices: Add str_high_low() helper
-         c518d31b2a3390e059c7bda1c1ce429c83ee8517 pinctrl: baytrail: Use str_hi_lo() helper
+         ba3da66783184ca94a6c1be2a6a03d20d8889b14 PCI: Unexport pci_save_aer_state()
+         a6378a7a1c7d95229f10fa00ce9b1925d6453ff0 Documentation: PCI: Drop recommendation to configure AER Capability
+         f142badf4645bd5ab72987d5595edbfae22a6d0b Documentation: PCI: Update cross references to .rst files
+         11502feab423cbbbaae47c0672409840b04037d5 Documentation: PCI: Tidy AER documentation
          
