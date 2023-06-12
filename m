@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7345435857168788549=="
+Content-Type: multipart/mixed; boundary="===============8110260728009540189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 12 Jun 2023 21:23:09 -0000
-Message-Id: <168660498993.32471.13005842292063673407@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 21:23:17 -0000
+Message-Id: <168660499778.32579.5718717776162021890@gitolite.kernel.org>
 
---===============7345435857168788549==
+--===============8110260728009540189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/tmp.perf/core
     old: aa53fb2c482e70c265613e8d6ac00507abebfa25
     new: 892d00fba18a6dec2620165ce05e1697496f8381
     log: revlist-aa53fb2c482e-892d00fba18a.txt
 
---===============7345435857168788549==
+--===============8110260728009540189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ e590e46b548e0de3df52a8a093639ce67002fae0 perf script: Remove some large stack al
 d3944f0ed4e4039201b160fc11004abaa2ca5385 perf inject: Lazily allocate event_copy
 892d00fba18a6dec2620165ce05e1697496f8381 perf inject: Lazily allocate guest_event event_buf
 
---===============7345435857168788549==--
+--===============8110260728009540189==--
