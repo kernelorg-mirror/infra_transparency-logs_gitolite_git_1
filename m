@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Mon, 12 Jun 2023 09:06:48 -0000
-Message-Id: <168656080843.27001.11490410771620618816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 12 Jun 2023 09:10:53 -0000
+Message-Id: <168656105362.29856.5407022064913807432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/b4/mt8173-fixup
-    old: 673f124ff32a98807d8f19c8fa7d4f96c9de867b
-    new: 89d1ae33c9b8b7e5374652e6761f3be1d46654de
+  - ref: refs/heads/x86/microcode
+    old: e281d5cad1f3924edf1042441b98c25204ae0def
+    new: 4a7349239418d78193e8d328f5eebd14a3f77bcd
     log: |
-         31ba75792f10c03263527197c13fa1dbe73d6d09 ASoC: mediatek: mt8173: Fix error paths
-         6ff59fae48053836c4ebdbf59de8a4675bb4d378 ASoC: mediatek: mt8173: Fix snd_soc_component_initialize error path
-         89d1ae33c9b8b7e5374652e6761f3be1d46654de ASoC: mediatek: mt8173: Fix irq error path
+         a32b0f0db3f396f1c9be2fe621e77c09ec3d8e7d x86/microcode/AMD: Load late on both threads too
+         4a7349239418d78193e8d328f5eebd14a3f77bcd x86/microcode: Add a "microcode=" command line option
          
