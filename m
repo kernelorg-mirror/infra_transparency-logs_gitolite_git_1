@@ -1,16 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 12 Jun 2023 17:26:18 -0000
-Message-Id: <168659077845.31544.16068485263087482204@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5542363634822950660=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 12 Jun 2023 17:26:26 -0000
+Message-Id: <168659078604.31663.11432785431183669782@gitolite.kernel.org>
+
+--===============5542363634822950660==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/v2_20230612_ribalda_asoc_mediatek_mt8173_fix_error_paths
-    old: f9c058d14f4fe23ef523a7ff73734d51c151683c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.5
+    old: 62a97bea5cce5317d6d7630f7bcf0cdf5333e269
+    new: 487db53bb504be00bb07c95d85a2e5c1194f4510
+    log: |
+         a46d37012a5be1737393b8f82fd35665e4556eee ASoC: mediatek: mt8173: Fix snd_soc_component_initialize error path
+         f9c058d14f4fe23ef523a7ff73734d51c151683c ASoC: mediatek: mt8173: Fix irq error path
+         374b54532b1c94076799518cad5c33536eaf0c1b ASoC: dt-bindings: cirrus,cs35l45: drop unneeded quotes
+         947e3960a72aa51d8643098851534baa5cc6538b ASoC: Switch two more i2c drivers back to use .probe()
+         fd6f223639b834d169218ff3f53e2f6e9f8c1790 ASoC: audio-graph-card2-custom-sample.dtsi: remove DT warning
+         487db53bb504be00bb07c95d85a2e5c1194f4510 ASoC: mediatek: mt8173: Fix error paths
+         
+
+--===============5542363634822950660==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1686590784 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1686590783-15d9084c5e2ebc6f0b1d3ca02800f8373463e167
+
+62a97bea5cce5317d6d7630f7bcf0cdf5333e269 487db53bb504be00bb07c95d85a2e5c1194f4510 refs/heads/for-6.5
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSHVUAACgkQJNaLcl1U
+h9ARhAf+JDOt8lTwETPJsdj0G4vdvCWJOsG9XQhnsRPG50hbHbR9mN7nhwF5Ounv
+HlIHOnm9jux+oIPEchLkVCi3PUjvrV3SVCTnHBJTgdBrjj/2Hx6aeLV/GT7aM2B3
+JruIQxXkPGseO5e8W5xhsHogN2RoVjcq0Qa+RxealT0Vcib29S4W4LOXimXVEipe
+t+nZe7YIYWpeIubB7qPi2xC2+CtW/svf0PmS2G5ypgtUzR3fPt9rInCu+Rz24lIB
+gzBigATZb4cLNufxnXJ/byCExr+J2Pl0Mwceh1RfclZgcJdaGr9QagMM85yfC6PJ
+FeQjEv+NA54tGi/lrDavn/4ryN6Z1g==
+=FQVL
+-----END PGP SIGNATURE-----
+
+--===============5542363634822950660==--
