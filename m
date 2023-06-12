@@ -1,34 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 12 Jun 2023 17:29:03 -0000
-Message-Id: <168659094389.32748.9317172349268366674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 12 Jun 2023 17:30:12 -0000
+Message-Id: <168659101239.2472.3124866941126429964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-6.4-fixes
-    old: f0cc749254d12c78e93dae3b27b21dc9546843d0
-    new: 6f363f5aa845561f7ea496d8b1175e3204470486
+  - ref: refs/heads/dev-test
+    old: 08980d18ad6b8b2fec16cf2e5d78a2590580fa32
+    new: a4c798f4a456bc31f3c265e73043b700ae6b9494
     log: |
-         6f363f5aa845561f7ea496d8b1175e3204470486 cgroup: Do not corrupt task iteration when rebinding subsystem
-         
-  - ref: refs/heads/for-6.5
-    old: 5273ee254e34cf577460dc8eb786b26a7b5329d8
-    new: d16b3af46679a1eb21652c37711a60d3d4e6b8c0
-    log: |
-         d16b3af46679a1eb21652c37711a60d3d4e6b8c0 cgroup: remove unused task_cgroup_path()
-         
-  - ref: refs/heads/for-next
-    old: ea5eff0bd22f4dc1517b595bb544e40982db8fc4
-    new: 18740f47e5fa808d936213e4bbc6aaa25d7a2525
-    log: |
-         d16b3af46679a1eb21652c37711a60d3d4e6b8c0 cgroup: remove unused task_cgroup_path()
-         6f363f5aa845561f7ea496d8b1175e3204470486 cgroup: Do not corrupt task iteration when rebinding subsystem
-         54866637c628c2ecb1c92b05381929e0d6762c37 Merge branch 'for-6.4-fixes' into for-next
-         18740f47e5fa808d936213e4bbc6aaa25d7a2525 Merge branch 'for-6.5' into for-next
+         411fc05b4ef9d936199b15b2af76f5d82ccaf140 f2fs: set zstd default compression level to ZSTD_CLEVEL_DEFAULT
+         dcc4581c76f816044718f2579630cf27fc4414e5 f2fs: fix to avoid mmap vs set_compress_option case
+         1827b56853383f92df28632b2b3be98a58196068 f2fs: check return value of freeze_super()
+         f5808951647e430537ee37a9c8d9b318ed8630bc f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
+         9ab19cc150131d60a799254bc24a66269917bb48 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+         691cb1559965579367388e881369c11bdb101360 f2fs: add helper to check compression level
+         8d163e59b1063ea998e18da8e6b6f4d9178d9206 f2fs: cleanup MIN_INLINE_XATTR_SIZE
+         a4c798f4a456bc31f3c265e73043b700ae6b9494 f2fs: add f2fs_ioc_get_compress_blocks
          
