@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 12 Jun 2023 18:28:12 -0000
-Message-Id: <168659449291.9301.12501089125778361797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 12 Jun 2023 18:30:13 -0000
+Message-Id: <168659461330.11593.7283185355221924601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: fd06a5925e47732175fcaed39d7ed5012e99f56b
-    new: f5d494e2e082f28fb6aea1bdba0b7ac43d6a9d6c
+  - ref: refs/heads/tmp.perf/core
+    old: fd87a79c7ed62804aacbcf4168b8dada4c621d86
+    new: aa53fb2c482e70c265613e8d6ac00507abebfa25
     log: |
-         f5d494e2e082f28fb6aea1bdba0b7ac43d6a9d6c RDMA/rxe: Fix rxe_cq_post
+         e9c0a7f63e45e76f095aec8aceccbe64940817d1 perf srcline: Optimize comparision against SRCLINE_UNKNOWN
+         6fd34445b8c94aa7f519fb0b1ed45c7ef9f6cc4e perf map: Fix double 'struct map' reference free found with -DREFCNT_CHECKING=1
+         e9e03e9c3ca7088cfc40aa9104e204cab9a62db1 perf cs-etm: Only track threads instead of PID and TIDs
+         e29ec19b0751c6b2e4c8322e922d565455f98916 perf cs-etm: Use previous thread for branch sample source IP
+         f492a33909829a75737ebdd82ec3066cf831ba03 perf cs-etm: Make PID format accessible from struct cs_etm_auxtrace
+         2918e9895224541f4bd07c314784b369bb35d413 perf cs-etm: Track exception level
+         aa53fb2c482e70c265613e8d6ac00507abebfa25 perf cs-etm: Add exception level consistency check
          
