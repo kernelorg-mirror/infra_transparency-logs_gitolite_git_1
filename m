@@ -1,42 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1219421208179650401=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 12 Jun 2023 16:22:31 -0000
-Message-Id: <168658695185.19201.764306764082402580@gitolite.kernel.org>
-
---===============1219421208179650401==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 12 Jun 2023 16:22:54 -0000
+Message-Id: <168658697424.19378.7023585021088894023@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 4080a0e7b36b7bb103dc739779a338d412c78943
-    log: revlist-ac9a78681b92-4080a0e7b36b.txt
-
---===============1219421208179650401==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-4080a0e7b36b.txt
-
-b84c6b26a6509f7570d099c0a1dfcebf440f1b30 dt-bindings: display: mediatek: dpi: Add compatible for MediaTek MT6795
-d8720452fe0fee795517d69bc73820ec6c1c4727 dt-bindings: display: mediatek: aal: Add compatible for MediaTek MT6795
-28c143af8bc954b3167534b0475cc25d1b3eea34 dt-bindings: display: mediatek: dsi: Add compatible for MediaTek MT6795
-35b7a18c59a146635ecf368a9c10e5074a099a43 dt-bindings: display: mediatek: ovl: Add compatible for MediaTek MT6795
-48ed9e648722cb2e23936df5f1b6eaf080dc9046 dt-bindings: display: mediatek: rdma: Add compatible for MediaTek MT6795
-8f2a42046cb60a937481d1d3979bedb86166c6b4 dt-bindings: display: mediatek: wdma: Add compatible for MediaTek MT6795
-791a9974fcaac826c4ff716a5b663f176d315ff3 dt-bindings: display: mediatek: color: Add compatible for MediaTek MT6795
-84e05dc1f94d53ecbafb3176b1ce8f2988a1262f dt-bindings: display: mediatek: gamma: Add compatible for MediaTek MT6795
-400ab909b7cd41a60838f0f27503d7cfc9cc7030 dt-bindings: display: mediatek: merge: Add compatible for MediaTek MT6795
-5dfd9bb376d9754c52ee6a3ef61c63869b5a36b3 dt-bindings: display: mediatek: split: Add compatible for MediaTek MT6795
-c769eccefbb3c6c516e38704bdca386531640170 dt-bindings: display: mediatek: ufoe: Add compatible for MediaTek MT6795
-4080a0e7b36b7bb103dc739779a338d412c78943 dt-bindings: display: mediatek: od: Add compatible for MediaTek MT6795
-
---===============1219421208179650401==--
+  - ref: refs/heads/topic/midi20
+    old: 1eb924b96571313454523aec6e8cac4a961a9b4c
+    new: febdfa0e9c8a5d3a3d895245d1c294c26787daef
+    log: |
+         e375b8a045873cf5fb8bf61bf9a0ddfcd484243a ALSA: ump: Add more attributes to UMP EP and FB info
+         37e0e14128e0685267dc5c037bf655421a6ce2ea ALSA: ump: Support UMP Endpoint and Function Block parsing
+         54852e8f401a70b3a0197737122be523639dc62f ALSA: usb-audio: Parse UMP Endpoint and Function Blocks at first
+         960a1149c8fa70c221c70eaa13903ff873ba1873 ALSA: usb-audio: Add midi2_ump_probe option
+         5437ac9bad639bb9112e1a749acbe4a143562cdc ALSA: seq: ump: Handle groupless messages
+         4a16a3af05712e7fd5a205f34e2908055bd9fb5e ALSA: seq: ump: Handle FB info update
+         174a6dfbc17ee9defed4daeeea6061ef34644f02 ALSA: seq: ump: Notify port changes to system port
+         6a8b4800ae54e9ceb8d017bcfb61d04ff0da90f2 ALSA: seq: ump: Notify UMP protocol change to sequencer
+         01dfa8e969dbbc72fc4564e8d61c905c4f3a2352 ALSA: ump: Add info flag bit for static blocks
+         febdfa0e9c8a5d3a3d895245d1c294c26787daef ALSA: docs: Update MIDI 2.0 documentation for UMP 1.1 enhancement
+         
