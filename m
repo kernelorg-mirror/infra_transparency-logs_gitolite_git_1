@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8587571301315031619=="
+Content-Type: multipart/mixed; boundary="===============2896733315989354347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 12 Jun 2023 15:26:34 -0000
-Message-Id: <168658359470.13524.10345352671933460396@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 15:27:11 -0000
+Message-Id: <168658363136.13812.13819056725873459338@gitolite.kernel.org>
 
---===============8587571301315031619==
+--===============2896733315989354347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 04c55383fa5689357bcdd2c8036725a55ed632bc
-    new: 75e6def3b26736e7ff80639810098c9074229737
-    log: revlist-04c55383fa56-75e6def3b267.txt
+  - ref: refs/heads/dev-queue
+    old: 7dad30b226c565a664a92fe9b0105e525f761ba0
+    new: 0fc44348a04fea7a5a4b3bf8209230523636908b
+    log: revlist-7dad30b226c5-0fc44348a04f.txt
 
---===============8587571301315031619==
+--===============2896733315989354347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04c55383fa56-75e6def3b267.txt
+Content-Disposition: attachment; filename=revlist-7dad30b226c5-0fc44348a04f.txt
 
 212ed75dc5fb9d1423b3942c8f872a868cda3466 netfilter: nf_tables: integrate pipapo into commit protocol
 a1a64a151dae8ac3581c1cbde44b672045cb658b netfilter: nfnetlink: skip error delivery on batch in case of ENOMEM
@@ -58,5 +58,26 @@ b403643d154d15176b060b82f7fc605210033edd netlabel: fix shift wrapping bug in net
 ce57adc222aba32431c42632b396e9213d0eb0b8 ipvlan: fix bound dev checking for IPv6 l3s mode
 a0067dfcd9418fd3b0632bc59210d120d038a9c6 sctp: handle invalid error codes without calling BUG()
 75e6def3b26736e7ff80639810098c9074229737 sctp: fix an error code in sctp_sf_eat_auth()
+b4e53af95ab403d2362b4c48a13721b5f5598ff5 igc: Fix possible system crash when loading module
+24ee8da8643b28a86fd0ae8011695f3442ae1736 igb: fix nvm.ops.read() error handling
+947e9b58e897ab74db405e67ba02c15a44882a82 iavf: Fix use-after-free in free_netdev
+8da9f4e4e7df0a8863011fc246f5a18f01f5cbbd iavf: Fix out-of-bounds when setting channels on remove
+ad999cb9d666345a229d94f5d1f518092f5d702d igc: Clean the TX buffer and TX descriptor ring
+073a7cb6e0e10c01f4d0931970fb3343fe63afe1 igc: Add condition for qbv_config_change_errors counter
+03174c4bb18d97dca30fb274d302c64552340dd4 igc: Remove delay during TX ring configuration
+b2cd3872e8bf4e6aa42bffcac850eb6b5ccd7d99 iavf: use internal state to free traffic IRQs
+35c02676624f3f41020a8775dc1086e1544cd878 ice: Fix ice module unload
+ccbb8a94acddee8f9d240bc2dc138dec32935e1f igc: Fix TX Hang issue when QBV Gate is closed
+f87eab41e72ac1ce7dc967d591ec666517b3e48f iavf: Wait for reset in callbacks which trigger it
+3158f97701bc3d335341422706f8fe2d72554e0b Revert "iavf: Detach device during reset task"
+6b8bbd7204f794af80aba0e6cc9e12de4389ea34 Revert "iavf: Do not restart Tx queues after reset task failure"
+93da65cdce7eacd699804dae245d586f1dcde0dd iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+20142f2e0b168b87406c1ec61d9698e80714cdd1 iavf: fix reset task race with iavf_remove()
+618cd41937f29b09831977e570876f9b96983207 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+87d10be84dad2a840e90bdf282f07bc3f111acd6 igb: fix hang issue of AER error during resume
+ac18e9a275c0103fd18a71f4fe2a23878f200a83 igc: Fix race condition in PTP tx code
+c4e5c068e6a414625d916eff1c2df2d11127eae8 igc: Check if hardware TX timestamping is enabled earlier
+a520845e8b22a93a24cde9552bd5af562f2ab354 igc: Retrieve TX timestamp during interrupt handling
+0fc44348a04fea7a5a4b3bf8209230523636908b igc: Work around HW bug causing missing timestamps
 
---===============8587571301315031619==--
+--===============2896733315989354347==--
