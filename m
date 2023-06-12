@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 12 Jun 2023 11:49:15 -0000
-Message-Id: <168657055599.25001.16845877034429859126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Mon, 12 Jun 2023 11:57:34 -0000
+Message-Id: <168657105451.32067.13322505772217043584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/stable/v2.39
-    old: 1a4b5c832ca108e0e8876d9c682330602a8b74c8
-    new: 53ff0fcdab12d69c60c971c69a3d0d173fa46ca9
+  - ref: refs/heads/master
+    old: e32f2cbafcc4f5888878e09de43b17f9cd16fce9
+    new: 9edd94b2b3cc125cd4c86b60f22dae1f4c878c3a
     log: |
-         53ff0fcdab12d69c60c971c69a3d0d173fa46ca9 libmount: introduce LIBMOUNT_FORCE_MOUNT2={always,never,auto}
+         3341cccbe2c82287177cd02425f79665ea131168 po: Update translations (from translationproject.org)
+         9edd94b2b3cc125cd4c86b60f22dae1f4c878c3a v2.6.0
          
