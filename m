@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 12 Jun 2023 08:31:22 -0000
-Message-Id: <168655868266.776.2879866986987778450@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6572526726567847160=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 12 Jun 2023 08:31:29 -0000
+Message-Id: <168655868925.918.8806370121267602193@gitolite.kernel.org>
+
+--===============6572526726567847160==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e4f5073d53be6cec0c654fac98372047efb66947
-    new: 26e35370b9766914364409626035fda2c63fef05
+  - ref: refs/heads/master
+    old: f0d342c537745176a509d2153266bf95e7e1cbf0
+    new: 28fde35e9d30fda89fe49d1efb7f98f545a5e93e
     log: |
-         6e8b2c88fc8cf95ed09de25946b20b7536c88cd5 ice: handle extts in the miscellaneous interrupt thread
-         d578e618f192f453baf4fd7e32fec88ed7e678b8 ice: always return IRQ_WAKE_THREAD in ice_misc_intr()
-         ae39eb42dd06e058215d0f782365b84039d686d4 ice: introduce ICE_TX_TSTAMP_WORK enumeration
-         9a8648cce8d8a4a7770b45239912e20edb9736ad ice: trigger PFINT_OICR_TSYN_TX interrupt instead of polling
-         0ec38df36ea1cc4f21bf7cd61a89942b034883c5 ice: do not re-enable miscellaneous interrupt until thread_fn completes
-         72d77bad12c6b2207be10824c0f05ba55123161f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-         132b4ebfa090492663f84144a1e7afaca54cd58a ionic: add support for ethtool extended stat link_down_count
-         26e35370b9766914364409626035fda2c63fef05 net/sched: act_pedit: Use kmemdup() to replace kmalloc + memcpy
+         28fde35e9d30fda89fe49d1efb7f98f545a5e93e 6.3-stable patches
          
+
+--===============6572526726567847160==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686558687 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1686558687-7edacec8ba34018f719ba8813b0d1634ba11eadd
+
+f0d342c537745176a509d2153266bf95e7e1cbf0 28fde35e9d30fda89fe49d1efb7f98f545a5e93e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSG1+AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lL4QANWrXnGTVv2h1KjkZCvg
+8ZMFU7+/NpSYSMGNhl3AAGARGgt2xpvT8VVAB1B8orGeCEwIbCd7yZNeewdYK67B
+NmrItpO069hbIYVXZK62uQ5IoRuMT7DRiYvVVNnmHLjh7TLF0sMk13/WzNdIc9Uu
+/oSueK93+FKhNm2+Z2aJBmCljpQAiSN2WrzCHytWOZNne+Jv7pRq749v2YhX64S7
+uUhqdNe1Gv9ym5XG9x2mo9Kgxoppn84VgzXIPOCRA1Mo63dBnBMDwQ+L/ZXBdNhJ
+jW3xXfvMMIOctSv6/igRbhBy56btwaPC95gZuWvEJaLHmHQGkBsi86vJABz5rptm
+nsp3M9+XejSAHhqsz1R9LDt0y7/uQK5JPKzCMFYCsQj91Basr6o6sg1p0f5VlXH1
++f5LFT3Si4Z1Wnju0cSI+pU0BqpPuFLtncCd1o1M00AfmlDGo6lTVg5EO5YL5IcW
+gh48EXEXitIG1iSID2BAHUubVU0jv4W217sWnxFTF1y7uCKaaOEjbcz+c/komzea
+ZdIGq+NxEoOwpBOuQOtS1MFqmMSqS5KVsXyFSaI+KkrVPM55jrZ/1cpxaHZ5EyCq
+J8Bwz6JParjoh02Rh7+ItKwvkKItI+Y4BFZvPUT1ko+ZCq4IZQp3R6ErjOUEn/BX
+An2tJLH9ycobrJuRHKUMU7c8
+=4Qmh
+-----END PGP SIGNATURE-----
+
+--===============6572526726567847160==--
