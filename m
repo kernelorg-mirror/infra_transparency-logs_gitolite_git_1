@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 12 Jun 2023 08:11:46 -0000
-Message-Id: <168655750617.19578.11819509304366950578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 12 Jun 2023 08:31:22 -0000
+Message-Id: <168655868266.776.2879866986987778450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/topic/midi20
-    old: 8c15a18331191b67bdce54d21af068baec044baf
-    new: 1eb924b96571313454523aec6e8cac4a961a9b4c
+  - ref: refs/heads/main
+    old: e4f5073d53be6cec0c654fac98372047efb66947
+    new: 26e35370b9766914364409626035fda2c63fef05
     log: |
-         60d2f2f870b4e15c60c48251bb746571f5442306 ALSA: ump: Add more attributes to UMP EP and FB info
-         f93ca82a093abc0d23cbcf2e8098277dba4e6c7b ALSA: ump: Support UMP Endpoint and Function Block parsing
-         9ff0bea6d8a6373e64617d70e141669b8907b5fe ALSA: usb-audio: Parse UMP Endpoint and Function Blocks at first
-         9ed94e2f0ccf0ccd576878de9643ba5c553b509d ALSA: usb-audio: Add midi2_ump_probe option
-         e970098dc3177d859fb5d4d9094fb1fd2004ba86 ALSA: seq: ump: Handle groupless messages
-         bb3666f25885cf4024644c9b213a152f262a50c0 ALSA: seq: ump: Handle FB info update
-         ad8e265bc45f92466f059acf4a8b53708fc30e73 ALSA: seq: ump: Notify port changes to system port
-         f4c592e3e7b899875d219c1be3702c2fd9c39191 ALSA: seq: ump: Notify UMP protocol change to sequencer
-         49160fd2a197fa8a97d06077e78a91fff4db0c20 ALSA: ump: Add info flag bit for static blocks
-         1eb924b96571313454523aec6e8cac4a961a9b4c ALSA: docs: Update MIDI 2.0 documentation for UMP 1.1 enhancement
+         6e8b2c88fc8cf95ed09de25946b20b7536c88cd5 ice: handle extts in the miscellaneous interrupt thread
+         d578e618f192f453baf4fd7e32fec88ed7e678b8 ice: always return IRQ_WAKE_THREAD in ice_misc_intr()
+         ae39eb42dd06e058215d0f782365b84039d686d4 ice: introduce ICE_TX_TSTAMP_WORK enumeration
+         9a8648cce8d8a4a7770b45239912e20edb9736ad ice: trigger PFINT_OICR_TSYN_TX interrupt instead of polling
+         0ec38df36ea1cc4f21bf7cd61a89942b034883c5 ice: do not re-enable miscellaneous interrupt until thread_fn completes
+         72d77bad12c6b2207be10824c0f05ba55123161f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         132b4ebfa090492663f84144a1e7afaca54cd58a ionic: add support for ethtool extended stat link_down_count
+         26e35370b9766914364409626035fda2c63fef05 net/sched: act_pedit: Use kmemdup() to replace kmalloc + memcpy
          
