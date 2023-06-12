@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3418883487182120779=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 12 Jun 2023 06:43:00 -0000
-Message-Id: <168655218033.22708.10983296294325898263@gitolite.kernel.org>
-
---===============3418883487182120779==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 12 Jun 2023 06:53:26 -0000
+Message-Id: <168655280612.30748.10783574341016137303@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 38dd7f7403f905e3991ce64fc967234defc513d1
-    new: f0d342c537745176a509d2153266bf95e7e1cbf0
+  - ref: refs/heads/for-next
+    old: 7ad697cdd31b9d5e59e25b035bad4cdd8e76aca1
+    new: 3b3dfd58bace12e8348e5863e05867afd2ead28b
     log: |
-         f0d342c537745176a509d2153266bf95e7e1cbf0 6.1-stable patches
+         c023b61ac8285dc6b2b2f275bf9d97cfd36b56fb net/mlx5: Nullify qp->dbg pointer post destruction
+         2ecfd946169e7f56534db2a5f6935858be3005ba RDMA/mlx5: Reduce QP table exposure
+         afff24899846ffca0c25c75b24893c90aef82603 RDMA/mlx5: Handle DCT QP logic separately from low level QP interface
+         22664c06e997087fe37f9ba208008c948571214a RDMA/mlx5: Return the firmware result upon destroying QP/RQ
+         128f8404306d4299f4b962ba1161f14a794ddb13 RDMA/erdma: Configure PAGE_SIZE to hardware
+         7e9a1dada2266c1ef777eba123b5515859779eb9 RDMA/erdma: Allocate doorbell resources from hardware
+         6534de1fe385145d256cf5f37b01ccbd63e23405 RDMA/erdma: Associate QPs/CQs with doorbells for authorization
+         3b3dfd58bace12e8348e5863e05867afd2ead28b RDMA/erdma: Refactor the original doorbell allocation mechanism
          
-
---===============3418883487182120779==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686552179 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1686552178-eb5c20032a146ef1bc2a432c3b6efd9f9fe0edbc
-
-38dd7f7403f905e3991ce64fc967234defc513d1 f0d342c537745176a509d2153266bf95e7e1cbf0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSGvnMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T7kP/ReTOSQyHktSzp5NwpzP
-byhgcltj0cTIDCrqxGvVj4jx2AxRSA5KGh1US2oIpD0p7Yg+Z4NeqZfrKkZxGcWp
-aghTkaHZJcCKYjhToGWNjUcwKSRa+weybpPcYSQhOBwWsnE4icegLgqEwraEKuVa
-2q3TBunHWnCdjCXJg5tcRgucivwL1OUDkNvEHLFaGXhnNbO2eqJSLOaPx8oekw80
-Kf2qzCPeOSPm+87/GS6jdwbVN/fTkwnCI3V6rq19oEWEOA1jj4Q/+bmWAzP52esm
-yqM1g0ENv61eB/FvDfCxNa+aUTXkcYA1mPTI2wPdrARtlicVOG7nUev/TqGuedT6
-btpgmCdeCboH6Cm8grSR8GiLrn9hlGSXk/ibjo/pQxxUZowYtQItx4IZkj5ii+MQ
-5asQr9G2EmdTZ1zWP/wz864OP5sPF3L947X9MWYndtv04Ej/DdCADfTuo0dJSy1U
-PK05EZG9zHyxvZn/sBsPlLD+yECvskCqmDTygqB/tII7h+3n7Hlr4JuZKT6IA62R
-5slu4Xify/OaM/CPvlxdNdNXXyPO/w4I+az9QxFVduLWepOPEUkK6g980mhJRNRD
-8u0ICy9FbmeZVRUZVRCzUdRQLEFmnG4pYgzBdz8tp+iunviL2j7Xw/FRUQtBUdVf
-RcwRes91AKE2TuH4hGU2gAzC
-=TTan
------END PGP SIGNATURE-----
-
---===============3418883487182120779==--
