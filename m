@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1857061268025724447=="
+Content-Type: multipart/mixed; boundary="===============8923469037340832323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 12 Jun 2023 02:59:02 -0000
-Message-Id: <168653874231.32408.7975777883562114849@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 02:59:20 -0000
+Message-Id: <168653876075.32586.12983741430458277257@gitolite.kernel.org>
 
---===============1857061268025724447==
+--===============8923469037340832323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: a3f7920b0b70e0669432ca18662057e4920b0981
     new: bcd6987b87b18141a4bfc6f3eaf5b55c63fdd240
     log: revlist-a3f7920b0b70-bcd6987b87b1.txt
 
---===============1857061268025724447==
+--===============8923469037340832323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -112,4 +112,4 @@ f53d27fa2d1d22c4cdbd04d4dd19e822a70546a8 keys: Fix linking a duplicate key to a 
 394dfc8ac4b00b38d4fb781794967aa5b2eac687 tpm_tis-spi: Add hardware wait polling
 bcd6987b87b18141a4bfc6f3eaf5b55c63fdd240 tpm: Switch i2c drivers back to use .probe()
 
---===============1857061268025724447==--
+--===============8923469037340832323==--
