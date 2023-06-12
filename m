@@ -1,36 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============8851961705351743982=="
+Content-Type: multipart/mixed; boundary="===============6530345947291400899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 12 Jun 2023 07:14:45 -0000
-Message-Id: <168655408509.11800.109421807753053811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 12 Jun 2023 07:14:51 -0000
+Message-Id: <168655409188.11909.16327545998237883785@gitolite.kernel.org>
 
---===============8851961705351743982==
+--===============6530345947291400899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 3b3dfd58bace12e8348e5863e05867afd2ead28b
-    new: 830f93f47068b1632cc127871fbf27e918efdf46
-    log: revlist-3b3dfd58bace-830f93f47068.txt
-  - ref: refs/heads/wip/leon-for-rc
-    old: 699826f4e30ab76a62c238c86fbef7e826639c8d
-    new: fd06a5925e47732175fcaed39d7ed5012e99f56b
+  - ref: refs/heads/rdma-next
+    old: aeca38eb38c280419932b3d2d825b95ebf2f34d0
+    new: 66599669bb0b008924b92d96a9b55f55f282e997
+    log: revlist-aeca38eb38c2-66599669bb0b.txt
+  - ref: refs/heads/rdma-rc
+    old: f1ae24c82a66a3f1303ab7952ff3bd2718e7b90b
+    new: 3a7e673cf52c3fbcc6e3cd53629ea0bd66c08343
     log: |
          fd06a5925e47732175fcaed39d7ed5012e99f56b RDMA/cma: prevent rdma id destroy during cma_iw_handler
+         3a7e673cf52c3fbcc6e3cd53629ea0bd66c08343 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
          
 
---===============8851961705351743982==
+--===============6530345947291400899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b3dfd58bace-830f93f47068.txt
+Content-Disposition: attachment; filename=revlist-aeca38eb38c2-66599669bb0b.txt
 
 0af91306e17ef3d18e5f100aa58aa787869118af RDMA/bnxt_re: wraparound mbox producer index
 3099bcdc19b701f732f638ee45679858c08559bb RDMA/bnxt_re: Avoid calling wake_up threads from spin_lock context
@@ -49,5 +50,10 @@ a00278521c9107c1edec0088f512a85316795692 RDMA/bnxt_re: cancel all control path c
 f0c875ff6293965a30aaeb02a0d19b293e11bc2b RDMA/bnxt_re: use firmware provided max request timeout
 bcfee4ce3e0139ffa9c564e4ed3682e8b87f0a1d RDMA/bnxt_re: remove redundant cmdq_bitmap
 830f93f47068b1632cc127871fbf27e918efdf46 RDMA/bnxt_re: optimize the parameters passed to helper functions
+cd33171923df037849cc8098744dd7f0f7ee51aa net/sched: Don't print dump stack in event of transmission timeout
+5c21fecb72507422f3cd044a81fca0429a2433f6 RDMA/core: Introduce peer memory interface
+7732a7c069368f136cb2d8a84c05fe110020f169 RDMA: Split kernel-only create QP flags from uverbs create QP flags
+4ade5c37ed055fdd915b5d390b19408dfae8ba56 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
+66599669bb0b008924b92d96a9b55f55f282e997 IB/mlx5: Add HW counter called rx_dct_connect
 
---===============8851961705351743982==--
+--===============6530345947291400899==--
