@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5081110971616538664=="
+Content-Type: multipart/mixed; boundary="===============1257723969621880725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 12 Jun 2023 02:31:11 -0000
-Message-Id: <168653707180.14199.1969996366568593375@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 02:31:34 -0000
+Message-Id: <168653709480.14423.1467333092785118187@gitolite.kernel.org>
 
---===============5081110971616538664==
+--===============1257723969621880725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: ebb188a1dfb76a22e5bb3f6c7e851264d4a4a321
     new: 48ae8bc02558b732888d0c1c49b46f0aa83c9620
     log: revlist-ebb188a1dfb7-48ae8bc02558.txt
 
---===============5081110971616538664==
+--===============1257723969621880725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ ad032a10dae15dab593b7812656b07475e865688 integrity: Enforce digitalSignature usa
 23bcac616a7e1564f281c2fa9d3a0d2cb1528b93 tpm_tis-spi: Add hardware wait polling
 48ae8bc02558b732888d0c1c49b46f0aa83c9620 tpm: Switch i2c drivers back to use .probe()
 
---===============5081110971616538664==--
+--===============1257723969621880725==--
