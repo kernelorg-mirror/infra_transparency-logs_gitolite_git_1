@@ -1,42 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2545653414726098596=="
+Content-Type: multipart/mixed; boundary="===============3158337625102254040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 12 Jun 2023 14:38:35 -0000
-Message-Id: <168658071532.11228.5364983123335916255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 12 Jun 2023 14:42:55 -0000
+Message-Id: <168658097583.14256.7186570897849483911@gitolite.kernel.org>
 
---===============2545653414726098596==
+--===============3158337625102254040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 485511db99a8002d3e4982db3e2ceb03132b2b8d
-    new: 83baf8af3c05994ed849c6f8e5dd916d1101b65c
-    log: revlist-485511db99a8-83baf8af3c05.txt
+  - ref: refs/heads/for-next
+    old: 3b3dfd58bace12e8348e5863e05867afd2ead28b
+    new: 830f93f47068b1632cc127871fbf27e918efdf46
+    log: revlist-3b3dfd58bace-830f93f47068.txt
 
---===============2545653414726098596==
+--===============3158337625102254040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-485511db99a8-83baf8af3c05.txt
+Content-Disposition: attachment; filename=revlist-3b3dfd58bace-830f93f47068.txt
 
-87c5656d46ad0ece617e7319be2efe8e6d66c38c SUNRPC: Revert cc93ce9529a6 ("svcrdma: Retain the page backing rq_res.head[0].iov_base")
-1042f7cd645ba3373a01e13c2bcbcf5cb6b938d6 SUNRPC: Revert 579900670ac7 ("svcrdma: Remove unused sc_pages field")
-3f0ae94a0a49d6c9d3fba097e3a5823f0aa7ad27 svcrdma: Revert 2a1e4f21d841 ("svcrdma: Normalize Send page handling")
-0bf0877784d017574e7dbf9a1093393daa1862b5 svcrdma: Prevent page release when nothing was received
-1229900de677b5f3d58435d8ef916d5613eb1143 SUNRPC: Optimize page release in svc_rdma_sendto()
-341f36dff5f650ddaa364b0029ee551f95aa681c SUNRPC: Move initialization of rq_stime
-0c4403751ba272562785e5a1cd17c90b7c0ba08b NFSD: Add an nfsd4_encode_nfstime4() helper
-bbcfe2c64d7583f59ffcfc9edf632030e36ed51a svcrdma: Convert "might sleep" comment into a code annotation
-57817409022d1c0a76940621435848139fd7836c svcrdma: trace cc_release calls
-b950632c2fa1ccfe4d652b8f2476ae57cd814baf svcrdma: Remove an unused argument from __svc_rdma_put_rw_ctxt()
-338812c2dcac68117db93ac0864c77367a35642c SUNRPC: Fix comments for transport class registration
-83baf8af3c05994ed849c6f8e5dd916d1101b65c SUNRPC: Remove transport class dprintk call sites
+0af91306e17ef3d18e5f100aa58aa787869118af RDMA/bnxt_re: wraparound mbox producer index
+3099bcdc19b701f732f638ee45679858c08559bb RDMA/bnxt_re: Avoid calling wake_up threads from spin_lock context
+b021186bca9d6b3d6d16ea8b97c4a598f62de12c RDMA/bnxt_re: remove virt_func check while creating RoCE FW channel
+258ee04317dacf789da420e2791fde2eb0da6946 RDMA/bnxt_re: set fixed command queue depth
+8cf1d12ad56beb73d2439ccf334b7148e71de58e RDMA/bnxt_re: Enhance the existing functions that wait for FW responses
+3022cc15119733cebaef05feddb5d87b9e401c0e RDMA/bnxt_re: Avoid the command wait if firmware is inactive
+65288a22ddd81422a2a2a10c15df976a5332e41b RDMA/bnxt_re: use shadow qd while posting non blocking rcfw command
+159cf95e42a7ca7375646fab82c0056cbb71f9e9 RDMA/bnxt_re: Simplify the function that sends the FW commands
+354f5bd985af9515190828bc642ebdf59acea121 RDMA/bnxt_re: add helper function __poll_for_resp
+691eb7c6110fe04e38bf0f60d713482508b3d199 RDMA/bnxt_re: handle command completions after driver detect a timedout
+b6c7256688264f5096a2cfaaaa56d01ea686b367 RDMA/bnxt_re: Add firmware stall check detection
+84911cf3b2aa8d0a1e563d346c852131582cb871 RDMA/bnxt_re: post destroy_ah for delayed completion of AH creation
+bb8c93618fb0b8567d309f1aebc6df0cd31da1a2 RDMA/bnxt_re: consider timeout of destroy ah as success.
+a00278521c9107c1edec0088f512a85316795692 RDMA/bnxt_re: cancel all control path command waiters upon error
+f0c875ff6293965a30aaeb02a0d19b293e11bc2b RDMA/bnxt_re: use firmware provided max request timeout
+bcfee4ce3e0139ffa9c564e4ed3682e8b87f0a1d RDMA/bnxt_re: remove redundant cmdq_bitmap
+830f93f47068b1632cc127871fbf27e918efdf46 RDMA/bnxt_re: optimize the parameters passed to helper functions
 
---===============2545653414726098596==--
+--===============3158337625102254040==--
