@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 12 Jun 2023 21:29:18 -0000
-Message-Id: <168660535810.3779.6662147159951641606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Mon, 12 Jun 2023 22:00:55 -0000
+Message-Id: <168660725534.25678.6190803798200730614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/dev
-    old: f71bbc5a88933f26f5915c5730c8d6631556df51
-    new: 5cd7df1a3bc794ca52a32887cc17dba5222e54b8
+  - ref: refs/heads/icc-next
+    old: 63cf621fde8c823fbc6a92e2c145d8bbcde26744
+    new: 1400725e45152a62fa43f8275e6bee99d584c967
     log: |
-         8eb2bc79e11113c0aac57b937966cab74f59c757 rcuscale: fix building with RCU_TINY
-         5cd7df1a3bc794ca52a32887cc17dba5222e54b8 x86/tsc: Extend watchdog check exemption to 4-Sockets platform
+         12dc71953e664f084918d3e1b63b211b0e6f8e98 clk: qcom: cbf-msm8996: scale CBF clock according to the CPUfreq
+         a1f7e72178475e0e0d90cd89ef7457b6c69c50ec interconnect: icc-clk: fix modular build
+         4396f5fc6d032388012a4772278975210398f525 dt-bindings: interconnect: fsl,imx8m-noc: drop unneeded quotes
+         7f1ed4659bad2dbb0627e0df8933b1cd651e0137 Merge branch 'icc-cbf' into icc-next
+         1400725e45152a62fa43f8275e6bee99d584c967 Merge branch 'icc-qos' into icc-next
          
