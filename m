@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5171403471974206384=="
+Content-Type: multipart/mixed; boundary="===============4928758752367661483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 Jun 2023 09:21:34 -0000
-Message-Id: <168656169417.6053.11686769041719978351@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 09:22:24 -0000
+Message-Id: <168656174470.6413.4900372130009160070@gitolite.kernel.org>
 
---===============5171403471974206384==
+--===============4928758752367661483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 72b44f6577f15f37fe964c8dcc42a7c5736e604c
-    new: 4055eabe04a26f5d113b5a02588b20b5e166a753
-    log: |
-         4055eabe04a26f5d113b5a02588b20b5e166a753 m68k: defconfig: Update defconfigs for v6.4-rc1
-         
-  - ref: refs/heads/for-v6.5
-    old: 72b44f6577f15f37fe964c8dcc42a7c5736e604c
-    new: 4055eabe04a26f5d113b5a02588b20b5e166a753
-    log: |
-         4055eabe04a26f5d113b5a02588b20b5e166a753 m68k: defconfig: Update defconfigs for v6.4-rc1
-         
-  - ref: refs/heads/master
-    old: c2f09b03b611372c80931855a368cf86e1665613
-    new: 25232797d336d3e255a96467a5c1d9419e608625
-    log: revlist-c2f09b03b611-25232797d336.txt
+  - ref: refs/heads/m68k-queue
+    old: 54f3a96cf9b2a0fd7c611ae1fcaf28e1f4dfd77f
+    new: 86871419e67539d932638fd32ffb264092d52669
+    log: revlist-54f3a96cf9b2-86871419e675.txt
 
---===============5171403471974206384==
+--===============4928758752367661483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2f09b03b611-25232797d336.txt
+Content-Disposition: attachment; filename=revlist-54f3a96cf9b2-86871419e675.txt
 
 529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
 978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
@@ -352,6 +340,11 @@ dbfa18c5d7695766f24c0c140204e1f8c921fb95 Merge tag 'for_linus' of git://git.kern
 65d7ca5987f29f4c3d5c0889d2f046bb246d18d4 Merge tag '6.4-rc5-smb3-server-fixes' of git://git.samba.org/ksmbd
 4c605260bc60347d3d5601900704cb22b0b2efec Merge tag 'x86_urgent_for_v6.4_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 858fd168a95c5b9669aac8db6c14a9aeab446375 Linux 6.4-rc6
-25232797d336d3e255a96467a5c1d9419e608625 Merge tag 'v6.4-rc6'
+386382f0757761d38ae9e8bd717fefe4da0c8090 nubus: Partially revert proc_create_single_data() conversion
+fe0431644b9ad210d4231be0191bb749b3a88922 nubus: Remove proc entries before adding them
+66900e8349ecdbe150fdfe37ca8ad2ec7423b3fd nubus: Don't list slot resources by default
+f5f9c03165f112d50f4ce9a218726e12ed72a17f m68k: atari: usb: Add ISP1160 USB host controller support
+be4eaab960cc1d63631ea449716a6a055133d5f3 m68k: atari: Update Kconfig.bus help text
+86871419e67539d932638fd32ffb264092d52669 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5171403471974206384==--
+--===============4928758752367661483==--
