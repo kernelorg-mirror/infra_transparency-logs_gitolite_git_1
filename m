@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 12 Jun 2023 20:58:50 -0000
-Message-Id: <168660353066.15059.9955940861700646171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 12 Jun 2023 20:59:05 -0000
+Message-Id: <168660354553.15224.15131500195022145686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 858fd168a95c5b9669aac8db6c14a9aeab446375
-    new: fd37b884003c7e46a0337b6e9212326d3ee1f40d
+  - ref: refs/heads/dev-queue
+    old: 110e6abd2bca0c80e8695050d5974655842cdf8a
+    new: f17960f7132f0b80a08f90a92b9bf322bb0dce33
     log: |
-         917ac77846b907dfdbd878688a9a61236ad6c51e btrfs: subpage: fix a crash in metadata repair path
-         981a37bab5e5f16137266d3f00cf2bd018af36ef btrfs: properly enable async discard when switching from RO->RW
-         1f2030ff6e4958780af9e65a22c39fa8082f292b btrfs: scrub: respect the read-only flag during repair
-         79b8ee702c918f1936e17cc53e14bec388ce1045 btrfs: scrub: also report errors hit during the initial read
-         ace9e12da2f09faf85cd1904c14e1ab3ca49a590 Merge tag 'for-6.4-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         fd37b884003c7e46a0337b6e9212326d3ee1f40d io_uring/io-wq: don't clear PF_IO_WORKER on exit
+         04329305d8d77a62a4b36bf287e2e7604636b5a0 ice: Correctly initialize queue context values
+         b80b4026a67805d89c155aaca81898e298daa6f8 ice: Add driver support for firmware changes for LAG
+         ac84487c2a875ef8d762313a51ef1d9a2bfaf754 ice: changes to the interface with the HW and FW for SRIOV_VF+LAG
+         ea155c01cb1493b670c0019e703280e917c967cd ice: implement lag netdev event handler
+         309c6dc36aaf0ce92a31c2b2f6e8410b711ff237 ice: process events created by lag netdev event handler
+         20a73c8b65c81e630b3698af46d68ae595ddb688 ice: Flesh out implementation of support for SRIOV on bonded interface
+         578b990fa5448be5673f27666bca4904362226e8 ice: support non-standard teardown of bond interface
+         85609d69e88558f89dedf54b56af1e538ad47072 ice: enforce interface eligibility and add messaging for SRIOV LAG
+         11dd7157e0033f23bfef6087669dff4f59a5559f ice: enforce no DCB config changing when in bond
+         f17960f7132f0b80a08f90a92b9bf322bb0dce33 ice: update reset path for SRIOV LAG support
          
