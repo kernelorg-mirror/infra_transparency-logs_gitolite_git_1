@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 12 Jun 2023 17:42:47 -0000
-Message-Id: <168659176795.9932.6651518281142993361@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 17:43:46 -0000
+Message-Id: <168659182620.10304.5136949965285852411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,13 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: d39530a3f4b52ff2fab653eb3b2314e0aedc2d92
-    new: d54616dfa9866e86cb44e43bdf34674fd5335e9b
+    old: d54616dfa9866e86cb44e43bdf34674fd5335e9b
+    new: 6584873e70ffc6d3a174ada540fa4f75a0706d83
     log: |
-         1f62f024b33c307335321c648d53d40f1858e54a setup: Fix and unify ring size calculation for preallocated ring
-         fd52caaa945b0f628e923a2ef76c4a719342f248 setup: Account for IORING_SETUP_CQE32 for the preallocated ring case
-         4cf941cc0b38acded2ac437c746db453b49f34a6 setup: Avoid zeroing a freshly mapped MAP_ANONYMOUS page
-         6ad70514f1340f4a4dfaa9c5bcb199fd014454c1 setup: Avoid overrunning the CQ/SQ huge page
-         d9374f974138f0f08cd479ec53866aaea88a7f42 man: Add documentation for io_uring_queue_init_mem
-         6c29ffc0df17c1d8dd6917253353cfb8f37e1dac setup: Use non-huge pages if sufficient for the queue sizes
-         6a1ca1dd9f0a2745f110d3605b3ca6b02bac2844 setup: Expect pre-zeroed memory in io_uring_queue_init_mem
-         d54616dfa9866e86cb44e43bdf34674fd5335e9b Merge branch 'setup-preallocated-cleanup' of https://github.com/joshtriplett/liburing
+         f3675ad756805024c67e0da22ef95d3d943cf9aa io_uring.h: Update to include IORING_SETUP_REGISTERED_FD_ONLY
+         76cf548e4fbcfd74f4f7f36b21468b204547c519 man/io_uring_setup.2: Document IORING_SETUP_NO_MMAP
+         b3080823f70c7f119b2f9266a64bd3b12cd6f924 man/io_uring_setup.2: Document IORING_SETUP_REGISTERED_FD_ONLY
+         b8a438148be050e6628c019aabf7a691914d9c83 setup: Support IORING_SETUP_REGISTERED_FD_ONLY
+         08e261a7f56a1d22f9e36c97ff33ea56c5e6f288 Add test for IORING_SETUP_REGISTERED_FD_ONLY
+         6584873e70ffc6d3a174ada540fa4f75a0706d83 Merge branch 'setup-registered-fd-only' of https://github.com/joshtriplett/liburing
          
