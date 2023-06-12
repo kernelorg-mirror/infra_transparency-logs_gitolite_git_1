@@ -1,59 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============6530345947291400899=="
+Content-Type: multipart/mixed; boundary="===============3925824866375668360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 12 Jun 2023 07:14:51 -0000
-Message-Id: <168655409188.11909.16327545998237883785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 12 Jun 2023 07:23:09 -0000
+Message-Id: <168655458944.19054.2661826199702338266@gitolite.kernel.org>
 
---===============6530345947291400899==
+--===============3925824866375668360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: aeca38eb38c280419932b3d2d825b95ebf2f34d0
-    new: 66599669bb0b008924b92d96a9b55f55f282e997
-    log: revlist-aeca38eb38c2-66599669bb0b.txt
-  - ref: refs/heads/rdma-rc
-    old: f1ae24c82a66a3f1303ab7952ff3bd2718e7b90b
-    new: 3a7e673cf52c3fbcc6e3cd53629ea0bd66c08343
-    log: |
-         fd06a5925e47732175fcaed39d7ed5012e99f56b RDMA/cma: prevent rdma id destroy during cma_iw_handler
-         3a7e673cf52c3fbcc6e3cd53629ea0bd66c08343 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
-         
+  - ref: refs/heads/linux-4.14.y
+    old: 1914956342c8cf52a377aecc4944e63f9229cb9b
+    new: 08799f184982e63aebf7cc423826db274f519095
+    log: revlist-1914956342c8-08799f184982.txt
 
---===============6530345947291400899==
+--===============3925824866375668360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aeca38eb38c2-66599669bb0b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0af91306e17ef3d18e5f100aa58aa787869118af RDMA/bnxt_re: wraparound mbox producer index
-3099bcdc19b701f732f638ee45679858c08559bb RDMA/bnxt_re: Avoid calling wake_up threads from spin_lock context
-b021186bca9d6b3d6d16ea8b97c4a598f62de12c RDMA/bnxt_re: remove virt_func check while creating RoCE FW channel
-258ee04317dacf789da420e2791fde2eb0da6946 RDMA/bnxt_re: set fixed command queue depth
-8cf1d12ad56beb73d2439ccf334b7148e71de58e RDMA/bnxt_re: Enhance the existing functions that wait for FW responses
-3022cc15119733cebaef05feddb5d87b9e401c0e RDMA/bnxt_re: Avoid the command wait if firmware is inactive
-65288a22ddd81422a2a2a10c15df976a5332e41b RDMA/bnxt_re: use shadow qd while posting non blocking rcfw command
-159cf95e42a7ca7375646fab82c0056cbb71f9e9 RDMA/bnxt_re: Simplify the function that sends the FW commands
-354f5bd985af9515190828bc642ebdf59acea121 RDMA/bnxt_re: add helper function __poll_for_resp
-691eb7c6110fe04e38bf0f60d713482508b3d199 RDMA/bnxt_re: handle command completions after driver detect a timedout
-b6c7256688264f5096a2cfaaaa56d01ea686b367 RDMA/bnxt_re: Add firmware stall check detection
-84911cf3b2aa8d0a1e563d346c852131582cb871 RDMA/bnxt_re: post destroy_ah for delayed completion of AH creation
-bb8c93618fb0b8567d309f1aebc6df0cd31da1a2 RDMA/bnxt_re: consider timeout of destroy ah as success.
-a00278521c9107c1edec0088f512a85316795692 RDMA/bnxt_re: cancel all control path command waiters upon error
-f0c875ff6293965a30aaeb02a0d19b293e11bc2b RDMA/bnxt_re: use firmware provided max request timeout
-bcfee4ce3e0139ffa9c564e4ed3682e8b87f0a1d RDMA/bnxt_re: remove redundant cmdq_bitmap
-830f93f47068b1632cc127871fbf27e918efdf46 RDMA/bnxt_re: optimize the parameters passed to helper functions
-cd33171923df037849cc8098744dd7f0f7ee51aa net/sched: Don't print dump stack in event of transmission timeout
-5c21fecb72507422f3cd044a81fca0429a2433f6 RDMA/core: Introduce peer memory interface
-7732a7c069368f136cb2d8a84c05fe110020f169 RDMA: Split kernel-only create QP flags from uverbs create QP flags
-4ade5c37ed055fdd915b5d390b19408dfae8ba56 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
-66599669bb0b008924b92d96a9b55f55f282e997 IB/mlx5: Add HW counter called rx_dct_connect
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686554588 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1686554587-0e130e6d52078adc07fd4e6e0607fb5099f72b0d
 
---===============6530345947291400899==--
+1914956342c8cf52a377aecc4944e63f9229cb9b 08799f184982e63aebf7cc423826db274f519095 refs/heads/linux-4.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSGx9wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ioP/j7qvkmFViEZg46jY49b
+YQTIJecLlorkZY0eUctYV5wA7XPm0Krj8AXRVFkOeFWa4825ajqkE8f4W0V/7SUL
+u57G6Acn+GZ+dTtoicLN2BA2hZN9VtaCftYLxSHgrEZdfoogN6GZe1/D/1trJS68
+E/tCC970zHtsSmVzSfyC60WPZe+tpeA4gSdgxO7o92IJTL5VxbRuzhA4Pf02RFgH
+UWwmptMwERfM9412GGQW9SZsyFGs62n7jLw5fRR4S7ELBcGc1d3kOh6udZsuE61b
+utq6DIZcnfrPOrMRiKXuVMJvXNmnyeruLUGEps6geAhHDof89MQId5St/U6qw5z8
+5Z7fbC+CQWcacZlNeRsa2y7Ho8pm6fJqaHOWvtCSU4YHHJPDh8tP0WKFo3/K7DLQ
+SLI96rRx3xicSiiya1tBux2QV6NYCe94K7E+USXVIGs/0vu67HRoK7sak13dZHyo
+3vi31gQQjXLSXccAz3mUPa+cv5gqCWv3khxTUphBPU8tH+026yW+B+9PCQ6y7PlL
+o+Og7gdmFRAlsLGGNM9VdVw7l6BZmXlC7PPufRLLZVXZmge+JpuOzrn9jhdvhsxE
+Hbrd/RB8+pmEmZdEd0UqfabFbrde1DiVwRqx3N2ObBjVWhbo+nf8udysp8dT/JzL
+HzoO8PeeNy9vEOt/TAZjgRmb
+=JSMP
+-----END PGP SIGNATURE-----
+
+--===============3925824866375668360==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1914956342c8-08799f184982.txt
+
+ca3559ddfe928f563a797c1c2dd93b2303daf53a i40iw: fix build warning in i40iw_manage_apbvt()
+899840fc9966dd2c4bd1491a63314db986022dc6 i40e: fix build warnings in i40e_alloc.h
+1d755b801f16ed50443793b16aff5b57aaca8dee spi: qup: Request DMA before enabling clocks
+250c98e9cc24be0a1a4e391cbed9f6d1cfc805d7 Bluetooth: Fix l2cap_disconnect_req deadlock
+e58ecbd63d3966f04777d6205c9f85093a9c5f7a Bluetooth: L2CAP: Add missing checks for invalid DCID
+447d2b98032f45315fea672775b226fecf1e8389 rfs: annotate lockless accesses to sk->sk_rxhash
+5511b2e1602f216edf594c3858c1143c0014f1c8 rfs: annotate lockless accesses to RFS sock flow table
+1e75d7ae58efa2fcc1aba933d35757e90a73085d net: sched: move rtm_tca_policy declaration to include file
+aedddd33510c2ae8329372aec9aac97f29a4d147 lib: cpu_rmap: Fix potential use-after-free in irq_cpu_rmap_release()
+30d06d18b07441a4eb8003e051508280f3cc9925 bnxt_en: Query default VLAN before VNIC setup on a VF
+8ea148bde8330d00ff14b3145be23439f1b2c4f4 batman-adv: Broken sync while rescheduling delayed work
+1baf66470c2e2c0c6d52c174dc5d6c93328d1cee Input: xpad - delete a Razer DeathAdder mouse VID/PID entry
+562aebd8ce0fe500ce9bcd59207e1a05cd4fae06 Input: psmouse - fix OOB access in Elantech protocol
+134c7cae52018d71e51e43496e3870cc7a773753 drm/amdgpu: fix xclk freq on CHIP_STONEY
+e923b47cd6d5212a4cf95d293847d4d6e7978d7c ceph: fix use-after-free bug for inodes when flushing capsnaps
+0827949689ee1e23175ff87892b7f705feced539 Bluetooth: Fix use-after-free in hci_remove_ltk/hci_remove_irk
+f1149ff179343d8d16d5f94cd670eb90d80587fc i2c: sprd: Delete i2c adapter in .remove's error path
+08799f184982e63aebf7cc423826db274f519095 Linux 4.14.318-rc1
+
+--===============3925824866375668360==--
