@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 12 Jun 2023 10:33:10 -0000
-Message-Id: <168656599055.4768.990078141884271739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 12 Jun 2023 10:34:40 -0000
+Message-Id: <168656608065.5314.1741400386490268341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 238131684f7b1bc2e0788583f22ed67bf3f5ca37
-    new: f2f069da4c40dcf136db731c9fece17c3bbf7cdc
+  - ref: refs/heads/master
+    old: 1c8a51701df132d7f216ca64398082391752b6fe
+    new: 793e8d2ab81324d0a712132b26ee16c08575101b
     log: |
-         5ab8c41cef30d8b6160a80b69d2eb39d570491ac netlink: support extack in dump ->start()
-         500e1340d1d2695de3f15fc0b3781f593a77acc2 net: ethtool: don't require empty header nests
-         f2f069da4c40dcf136db731c9fece17c3bbf7cdc Merge branch 'ethtool-extack'
+         793e8d2ab81324d0a712132b26ee16c08575101b cfdisk: add hint about labels for bootable flag
          
