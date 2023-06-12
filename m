@@ -1,55 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8179723504761375658=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 12 Jun 2023 08:11:31 -0000
-Message-Id: <168655749151.19436.5093273122181314203@gitolite.kernel.org>
-
---===============8179723504761375658==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 12 Jun 2023 08:11:46 -0000
+Message-Id: <168655750617.19578.11819509304366950578@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: 7b3b9ac899b54f53f7c9fc07e1c562f56b2187fa
-    new: d094482c9974a543851a18a1c587a7d132a81659
+  - ref: refs/heads/topic/midi20
+    old: 8c15a18331191b67bdce54d21af068baec044baf
+    new: 1eb924b96571313454523aec6e8cac4a961a9b4c
     log: |
-         d094482c9974a543851a18a1c587a7d132a81659 wifi: mac80211: fragment per STA profile correctly
+         60d2f2f870b4e15c60c48251bb746571f5442306 ALSA: ump: Add more attributes to UMP EP and FB info
+         f93ca82a093abc0d23cbcf2e8098277dba4e6c7b ALSA: ump: Support UMP Endpoint and Function Block parsing
+         9ff0bea6d8a6373e64617d70e141669b8907b5fe ALSA: usb-audio: Parse UMP Endpoint and Function Blocks at first
+         9ed94e2f0ccf0ccd576878de9643ba5c553b509d ALSA: usb-audio: Add midi2_ump_probe option
+         e970098dc3177d859fb5d4d9094fb1fd2004ba86 ALSA: seq: ump: Handle groupless messages
+         bb3666f25885cf4024644c9b213a152f262a50c0 ALSA: seq: ump: Handle FB info update
+         ad8e265bc45f92466f059acf4a8b53708fc30e73 ALSA: seq: ump: Notify port changes to system port
+         f4c592e3e7b899875d219c1be3702c2fd9c39191 ALSA: seq: ump: Notify UMP protocol change to sequencer
+         49160fd2a197fa8a97d06077e78a91fff4db0c20 ALSA: ump: Add info flag bit for static blocks
+         1eb924b96571313454523aec6e8cac4a961a9b4c ALSA: docs: Update MIDI 2.0 documentation for UMP 1.1 enhancement
          
-
---===============8179723504761375658==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1686557467 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1686557467-aa4c10c1092f786d4a260b122c4df7c6c2791477
-
-7b3b9ac899b54f53f7c9fc07e1c562f56b2187fa d094482c9974a543851a18a1c587a7d132a81659 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmSG0xsACgkQ10qiO8sP
-aAD1lw//VypjM5XF4CtzCTHSHZ6L/ZoybT7rj0r7H1C2O0kz3ExTaw3RTwiCXVgd
-SC0r6eqYChdm7OkTS+pIyptohFJogp0G+JHdyoYFoOgO9M9N/FIFW1hFMtbw8vTk
-e/AcFnlxAlobfAY/gsBwu70quMNlVn1H8BhS1J4nxywzeVUq3UlodQu9CutyjDCp
-yxsICv3gw+ssdi0+N5RW5UswZBTJMc3OaLwtMaZ5VW188iXNfygKTlh4SWco9170
-xd76tN6tHq7QODmSbPYZhYmaG2NPb5EDSSgLHCCzn66eOhIkEZxwn6SDCU2p7CWZ
-BAYMnZ198WX0xs0eHzqpKpfhdJ/JORpjchnhCTnjVo2/s8gSn3bUguGap0uPL5xA
-TKBiW9bWNRETB6n9wSGOdFHXJkzUn3FiGNKYYQ81B3pxTmF+L8PrdyWbGimd7tG9
-EPFvwqCkPqCLwU/clYg992JACq6mDduyPfr2NanYlemT0iH/rxJmvgo/Gfcs6IF4
-pA/p6CqubJLAX37rwG+owEVGClw8nuUCdqm0hqeCFwrWmUG9sLcO1upm9Y9vcV+n
-dn/KzgJjnGuavFABH/g3/tOOTn88HMwgUKphBRMzneaEY9F/j9UibgHooB2UVARy
-emVv+ygSzKTQDB2okEfyUY+3qB43U3dzPeeCGIkGr5UmYVNP51I=
-=7Cc2
------END PGP SIGNATURE-----
-
---===============8179723504761375658==--
