@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8635021343258815561=="
+Content-Type: multipart/mixed; boundary="===============6798028758440211089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 12 Jun 2023 07:09:50 -0000
-Message-Id: <168655379025.8498.16804194158689903290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 12 Jun 2023 07:14:24 -0000
+Message-Id: <168655406418.11506.1580742738645687487@gitolite.kernel.org>
 
---===============8635021343258815561==
+--===============6798028758440211089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: d1f11f41eb746a33816695f1b6b6719826cc532c
+  - ref: refs/heads/master
+    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
     new: 858fd168a95c5b9669aac8db6c14a9aeab446375
-    log: revlist-d1f11f41eb74-858fd168a95c.txt
+    log: revlist-9561de3a55be-858fd168a95c.txt
 
---===============8635021343258815561==
+--===============6798028758440211089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1f11f41eb74-858fd168a95c.txt
+Content-Disposition: attachment; filename=revlist-9561de3a55be-858fd168a95c.txt
 
 529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
 978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
@@ -222,6 +222,7 @@ f7e60032c6618dfd643c7210d5cba2789e2de2e2 wifi: cfg80211: fix locking in regulato
 08425abbab9987ec48c78f418e61130b5dc9d22d Merge tag 'ffa-fix-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
 08c9aa7c58e933787fa443389d540221ed9ed5cd Merge tag 'asoc-fix-v6.4-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 a4d7d701121981e3c3fe69ade376fe9f26324161 Merge tag 'spi-fix-v6.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+95ae9979bfe3174c2ee8d64409c44532f2881907 gpio: sim: fix memory corruption when adding named lines and unnamed hogs
 b752a385b584d385683c65cb76a1298f1379a88c ALSA: hda/realtek: Enable 4 amplifiers instead of 2 on a HP platform
 69844e335d8c22454746c7903776533d8b4ab8fa selftests/bpf: Fix sockopt_sk selftest
 bd058763a624a1fb5c20f3c46e632d623c043676 netfilter: nf_tables: Add null check for nla_nest_start_noflag() in nft_dump_basechain_hook()
@@ -252,6 +253,8 @@ abd649fdf91adf44c5bb46891b6d8741a14f90a5 Merge tag 'amdtee-fix-for-v6.5' of http
 de9df6c6b27e22d7bdd20107947ef3a20e687de5 net: openvswitch: fix upcall counter access before allocation
 682881ee45c81daa883dcd4fe613b0b0d988bb22 net: sched: act_police: fix sparse errors in tcf_police_dump()
 44f8baaf230c655c249467ca415b570deca8df77 net: sched: fix possible refcount leak in tc_chain_tmplt_add()
+d7459efc9276a715fe9def401bc30045aeb9668a gpio: sim: quietly ignore configured lines outside the bank
+d1f11f41eb746a33816695f1b6b6719826cc532c MAINTAINERS: add Andy Shevchenko as reviewer for the GPIO subsystem
 f46fab0e36e611a2389d3843f34658c849b6bd60 bpf: Add extra path pointer check to d_path helper
 6569fc12e442ea973d96db39e542aa19a7bc3a79 riscv: mm: Ensure prot of VM_WRITE and VM_EXEC must be readable
 25abe0db92437fde463204c3e4eb5a71b62d6e5d riscv: Fix kfence now that the linear mapping can be backed by PUD/P4D/PGD
@@ -338,4 +341,4 @@ dbfa18c5d7695766f24c0c140204e1f8c921fb95 Merge tag 'for_linus' of git://git.kern
 4c605260bc60347d3d5601900704cb22b0b2efec Merge tag 'x86_urgent_for_v6.4_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 858fd168a95c5b9669aac8db6c14a9aeab446375 Linux 6.4-rc6
 
---===============8635021343258815561==--
+--===============6798028758440211089==--
