@@ -1,27 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 12 Jun 2023 22:13:57 -0000
-Message-Id: <168660803780.760.6705037749262541810@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6003176046144290651=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 12 Jun 2023 22:16:33 -0000
+Message-Id: <168660819328.3339.10383555613993349712@gitolite.kernel.org>
+
+--===============6003176046144290651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dev-test
-    old: 9867874febbe8812aedd92bdda2a9b4f87f4a2fc
-    new: e78273288bd6dd4e85e07499dec2834846d13c46
-    log: |
-         bc26aeeb513a3f4519f24d33efa86c0c1eb0fbfe f2fs: add sanity compress level check for compressed file
-         3a02b5f66c924a92519c51bf1f2965c7708df545 f2fs: compress: fix to check validity of i_compress_flag field
-         67297c50287aa25e2cc3b3c14d1b097efc99001f f2fs: do more sanity check on inode
-         c3992bff63e1010afe667a6c5135ced8c3861ef3 f2fs: enable nowait async buffered writes
-         980c743870871e9a23c3d368be4f5db11e18d8df f2fs: compress tmp files given extension
-         a3292d33c84be327daeb13635ac394ef1e1e0062 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
-         9c84aad379019a0d86655bb50bd7b4bc92683c4b f2fs: add helper to check compression level
-         53c052f37f661e7cebd796b09b990f84a9e28b53 f2fs: cleanup MIN_INLINE_XATTR_SIZE
-         e78273288bd6dd4e85e07499dec2834846d13c46 f2fs: add f2fs_ioc_get_compress_blocks
-         
+  - ref: refs/heads/dev-queue
+    old: 110e6abd2bca0c80e8695050d5974655842cdf8a
+    new: 4ba8130a4460dd514cecffe951bab55d1b76b037
+    log: revlist-110e6abd2bca-4ba8130a4460.txt
+
+--===============6003176046144290651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-110e6abd2bca-4ba8130a4460.txt
+
+6f45514b9168f88da410d2a96845c7239ac9f465 ice: Fix XDP memory leak when NIC is brought up and down
+2228e297c30a7a04017fc33b3a6b65c5b5273b7f e1000e: Use PME poll to circumvent unreliable ACPI wake
+302254b8f2bddfdab9db9529f822e6a220743934 ip_tunnel: use a separate struct to store tunnel params in the kernel
+eb47ca8b8940247aeb9ca1de80d89b8a447d03d3 ip_tunnel: convert __be16 tunnel flags to bitmaps
+9ba720bd4a500a0275fecf7f02543ad04621e4e0 pfcp: add PFCP module
+dc580a9d2fef7ac0373646f4fe8f9d25e1073ed2 pfcp: always set pfcp metadata
+bcce76cac04a536cb427dc5152f89bbf5b7ee211 ice: refactor ICE_TC_FLWR_FIELD_ENC_OPTS
+905f76a860a840e1742979d775912026ab4f8cfa ice: Add support for PFCP hardware offload in switchdev
+574a1876870c50face2f307d88ccc2e62b55b832 ice: clean up __ice_aq_get_set_rss_lut()
+d6ce4015719e01990401dd93ad0efad2f8877cf6 igc: Include the length/type field and VLAN tag in queueMaxSDU
+8c4044197c132494d0f654d4ed9d81d1da1c2f53 ice: Fix max_rate check while configuring TX rate limits
+4ba8130a4460dd514cecffe951bab55d1b76b037 ice: Fix tx queue rate limit when TCs are configured
+
+--===============6003176046144290651==--
