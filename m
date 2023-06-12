@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7159593026182617570=="
+Content-Type: multipart/mixed; boundary="===============2718027278266637588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 12 Jun 2023 14:08:47 -0000
-Message-Id: <168657892797.22703.15160798460431602618@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 14:09:08 -0000
+Message-Id: <168657894867.22870.14257592732247269200@gitolite.kernel.org>
 
---===============7159593026182617570==
+--===============2718027278266637588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 0fa3838d5b2825c146ee496543123380ea2e1a84
-    new: e92396625f79f6bec871d8d7881f6e05276881fa
-    log: revlist-0fa3838d5b28-e92396625f79.txt
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/heads/fixes
+    old: e2b8f659bb8092cfd6422c660833fb4ace51564d
+    new: 8c345dff1804dfa90381343932dd1d27087c28ad
+    log: revlist-e2b8f659bb80-8c345dff1804.txt
 
---===============7159593026182617570==
+--===============2718027278266637588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fa3838d5b28-e92396625f79.txt
+Content-Disposition: attachment; filename=revlist-e2b8f659bb80-8c345dff1804.txt
 
 529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
 978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
@@ -343,25 +340,6 @@ dbfa18c5d7695766f24c0c140204e1f8c921fb95 Merge tag 'for_linus' of git://git.kern
 65d7ca5987f29f4c3d5c0889d2f046bb246d18d4 Merge tag '6.4-rc5-smb3-server-fixes' of git://git.samba.org/ksmbd
 4c605260bc60347d3d5601900704cb22b0b2efec Merge tag 'x86_urgent_for_v6.4_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 858fd168a95c5b9669aac8db6c14a9aeab446375 Linux 6.4-rc6
-2fba941d3423ee3084721ac7e64c042fefa9cdab dt-bindings: mmc: sdhci-msm: add IPQ6018 compatible
-982fe2e093c62dbe144bd86c8b88cee65e5ad345 mmc: dw_mmc: Make dw_mci_pltfm_remove() return void
-77a83be815990b183f1b4e344841580b6ee4e38c dt-bindings: mmc: brcm,kona-sdhci: convert to YAML
-2d2934783f8db70353e44fd1959f10eedc993c2e dt-bindings: mmc: sdhci-msm: Document SC8280XP SDHCI
-78ce88e7581f5737c9e4f6aa6df7abbd4835ad1c mmc: block: Suppress empty whitespaces in prints
-6151bc77daac5ac89634ee49416ac562bfdee2ce mmc: meson-mx-sdhc: Avoid cast to incompatible function type
-a3332b7aad346b14770797e03ddd02ebdb14db41 mmc: mediatek: Avoid ugly error message when SDIO wakeup IRQ isn't used
-434587df9f7fd68575f99a889cc5f2efc2eaee5e memstick r592: make memstick_debug_get_tpc_name() static
-584f5488e4845522f526e467138526f0155e9ab6 mmc: core: Remove unnecessary error checks and change return type
-20dbd07ef0a8bc29eb03d6a95258ac8934cbe52d mmc: sdhci: fix DMA configure compatibility issue when 64bit DMA mode is used.
-568898cbc8b570311b3b94a3202b8233f4168144 mmc: block: ioctl: do write error check for spi
-ac93af1fe3f49ddecc6d0a367e9c3e1caac3cfe5 dt-bindings: mmc: sdhci-msm: Document the QDU1000/QRU1000 compatible
-f2764e1f795c1db80ac1a08abae5b2f470355da6 mmc: mtk-sd: reduce CIT for better performance
-f3a5b56c1286444204c95ba78e1b03961aac580c mmc: sdhci-pci-gli: Add Genesys Logic GL9767 support
-d2754355512e51c1e6c37975ccc5bdca635b3718 mmc: sdhci-pci-gli: Set SDR104's clock to 205MHz and enable SSC for GL9767
-17b492117b00ead1fa0a53035b2fb98b04ba35f4 mmc: sdhci: Add VDD2 definition for power control register
-0e92aec2efa04a9e0a5b3a927dab06773dd814ca mmc: sdhci-pci-gli: Add support SD Express card for GL9767
-8414061cd9c2ef33c533c297e00376060fb6d157 dt-bindings: mmc: convert bcm2835-sdhost bindings to YAML
-c7eed31e235ceeaaab505f4b10649f5f95c7d319 mmc: sdhci-msm: Switch to the new ICE API
 e6f9e590b72e12bbb86b1b8be7e1981f357392ad mmc: sdhci-msm: Disable broken 64-bit DMA on MSM8916
 439a71f11d7f792a881906976850e7ca4d5f38f9 mmc: bcm2835: fix deferred probing
 225abf82f0ed5bd1eb1897a12993a5d4c30ae9da mmc: meson-gx: fix deferred probing
@@ -375,6 +353,5 @@ e5e828f5cc6f94e0ad6218ae1a31bb05e57f9a26 mmc: sdhci-acpi: fix deferred probing
 9a40dd7337a6790f46a60daa9d8393c2cd768fbb mmc: sh_mmcif: fix deferred probing
 9cc857657b8cc2b5a81c5be88845fbf31a60ac7d mmc: sunxi: fix deferred probing
 8c345dff1804dfa90381343932dd1d27087c28ad mmc: usdhi60rol0: fix deferred probing
-e92396625f79f6bec871d8d7881f6e05276881fa mmc: Merge branch fixes into next
 
---===============7159593026182617570==--
+--===============2718027278266637588==--
