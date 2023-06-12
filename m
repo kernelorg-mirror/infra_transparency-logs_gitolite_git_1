@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 12 Jun 2023 21:28:02 -0000
-Message-Id: <168660528260.3312.9380921839309614256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 12 Jun 2023 21:29:18 -0000
+Message-Id: <168660535810.3779.6662147159951641606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/errseq
-    old: d00160bca2d165444eadc4a8516b5e7c0c4103d2
-    new: bc021b7a7ef19f5cbe548246a923d42a90e4c98c
+  - ref: refs/heads/dev
+    old: f71bbc5a88933f26f5915c5730c8d6631556df51
+    new: 5cd7df1a3bc794ca52a32887cc17dba5222e54b8
     log: |
-         bc021b7a7ef19f5cbe548246a923d42a90e4c98c errseq_t: split the ERRSEQ_SEEN flag into two
+         8eb2bc79e11113c0aac57b937966cab74f59c757 rcuscale: fix building with RCU_TINY
+         5cd7df1a3bc794ca52a32887cc17dba5222e54b8 x86/tsc: Extend watchdog check exemption to 4-Sockets platform
          
