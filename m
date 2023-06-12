@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============1745364337052463712=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 12 Jun 2023 06:57:23 -0000
-Message-Id: <168655304384.1285.537152698690769608@gitolite.kernel.org>
+Date: Mon, 12 Jun 2023 06:59:08 -0000
+Message-Id: <168655314800.1960.1204827166706441905@gitolite.kernel.org>
+
+--===============1745364337052463712==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,16 +16,37 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1ecd3a9b5c7acc4428ae0b349396e626a905be65
-    new: b7564442257532ee10d64adde7c5f6a733fd4b4b
-    log: |
-         f1a411873c85b642f13b01f21b534c2bab81fc1b ksmbd: fix out-of-bound read in deassemble_neg_contexts()
-         fc6c6a3c324c1b3e93a03d0cfa3749c781f23de0 ksmbd: fix out-of-bound read in parse_lease_state()
-         25933573ef48f3586f559c2cac6c436c62dcf63f ksmbd: fix posix_acls and acls dereferencing possible ERR_PTR()
-         368ba06881c395f1c9a7ba22203cf8d78b4addc0 ksmbd: check the validation of pdu_size in ksmbd_conn_handler_loop
-         1c1bcf2d3ea061613119b534f57507c377df20f9 ksmbd: validate smb request protocol id
-         65d7ca5987f29f4c3d5c0889d2f046bb246d18d4 Merge tag '6.4-rc5-smb3-server-fixes' of git://git.samba.org/ksmbd
-         4c605260bc60347d3d5601900704cb22b0b2efec Merge tag 'x86_urgent_for_v6.4_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         858fd168a95c5b9669aac8db6c14a9aeab446375 Linux 6.4-rc6
-         b7564442257532ee10d64adde7c5f6a733fd4b4b Merge branch 'linus'
-         
+    old: b7564442257532ee10d64adde7c5f6a733fd4b4b
+    new: 0f2eeb20bbb85e863b2072d002294d1aef97d3e4
+    log: revlist-b75644422575-0f2eeb20bbb8.txt
+
+--===============1745364337052463712==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b75644422575-0f2eeb20bbb8.txt
+
+3463824e3c93403ecd1b485216f68fddb5d5ab16 Merge branch into tip/master: 'x86/merge'
+1a99caff60ff2879cc7bec6aeb9aa3e6991b8674 Merge branch into tip/master: 'core/debugobjects'
+ca83a843303a2d36286fe19ba72ae975ebcd7c99 Merge branch into tip/master: 'irq/core'
+5d03fcfabf7b967347fc9da6f41ce4ce7a90be36 Merge branch into tip/master: 'locking/core'
+69efcec58faff3fa347414dafe1f2f2123efdc9b Merge branch into tip/master: 'objtool/core'
+cf28df6ba6902343230cc2a241ac3fcfc0d1b2c2 Merge branch into tip/master: 'perf/core'
+cbffc075b7120d9e292d334f7120b2d4ee01cccd Merge branch into tip/master: 'ras/core'
+d8fc40935ad4f86132e74e39245ced324e810af2 Merge branch into tip/master: 'sched/core'
+bc9271c87612e484234df6280760ab9ca34e47b3 Merge branch into tip/master: 'smp/core'
+6a50d8b49f15d1a15039074231210dbbc813b36c Merge branch into tip/master: 'timers/core'
+7141a1e565323ec2bc5242512576d0331dcd6fa8 Merge branch into tip/master: 'x86/alternatives'
+44ce23cf0bb5466ef836b9d7ddb38f9632e23098 Merge branch into tip/master: 'x86/cache'
+39ed59d17c05a97c5260a31fff8db48faa6e0279 Merge branch into tip/master: 'x86/cc'
+fb4c15dc6a57136bb077d4386fec8b7a818cb725 Merge branch into tip/master: 'x86/cleanups'
+a264591b8e2a4a1aa08770388dc5a04d9a9d1c9e Merge branch into tip/master: 'x86/cpu'
+68fcbf3f13b5e4d2c160f9c82c921936f515f923 Merge branch into tip/master: 'x86/irq'
+0414d4ab11fd414e732a6b3d22d350ebd0c1600b Merge branch into tip/master: 'x86/microcode'
+90584b08795948dfdd4a48e4d99ae93cb9eb0d27 Merge branch into tip/master: 'x86/misc'
+a21f89c340b3a2a77b9f1625014aee00e3490761 Merge branch into tip/master: 'x86/mm'
+113d6da6a2b452288e6563640ceff0fa1f991041 Merge branch into tip/master: 'x86/mtrr'
+7985c801b42d376cae8d2074af348ee70b7496db Merge branch into tip/master: 'x86/platform'
+0f2eeb20bbb85e863b2072d002294d1aef97d3e4 Merge branch into tip/master: 'x86/sev'
+
+--===============1745364337052463712==--
