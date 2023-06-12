@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 12 Jun 2023 10:54:28 -0000
-Message-Id: <168656726816.19453.17868037961944925931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 12 Jun 2023 10:56:54 -0000
+Message-Id: <168656741428.22396.1293426443457319714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/main
-    old: fc90c59beebd551dde5fe5eb3e76d36651ba08fb
-    new: 05f94af7d23cf66cfd1659c6f32174626c5da604
+    old: a89dc58703c362bf2005880c575608e10f3607a8
+    new: 3a2cb45ca0ccb5dab9b701f50cfd981f8dfd1673
     log: |
-         795aea911f227ecbf8481d223f39a5b2856d466f mediatek: Update mt8195 SCP firmware to support hevc
-         05f94af7d23cf66cfd1659c6f32174626c5da604 Merge branch 'v2.0.21478' of https://github.com/yunfei-mtk/linux_fw_scp
+         98c485eaf509bc0e2a85f9b58d17cd501f274c4e net: phy: add driver for MediaTek SoC built-in GE PHYs
+         3a2cb45ca0ccb5dab9b701f50cfd981f8dfd1673 net: mlxsw: i2c: Switch back to use struct i2c_driver's .probe()
          
