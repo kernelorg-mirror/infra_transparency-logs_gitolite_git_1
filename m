@@ -1,132 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============4852962302232138244=="
+Content-Type: multipart/mixed; boundary="===============6550588045474843911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 12 Jun 2023 01:50:04 -0000
-Message-Id: <168653460480.18636.12950547801403872788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Mon, 12 Jun 2023 02:31:01 -0000
+Message-Id: <168653706112.13959.5674410123232954046@gitolite.kernel.org>
 
---===============4852962302232138244==
+--===============6550588045474843911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/block-6.4
-    old: ccc45cb4e7271c74dbb27776ae8f73d84557f5c6
-    new: 20cb1c2fb7568a6054c55defe044311397e01ddb
-    log: |
-         20cb1c2fb7568a6054c55defe044311397e01ddb blk-cgroup: Flush stats before releasing blkcg_gq
-         
-  - ref: refs/heads/for-6.5/block
-    old: bb91a7d96a5c9662f41a08024f405bf9ad333e86
-    new: fece685cc7bbb5e1af89f891223c31c3bcc969f7
-    log: |
-         b0488411e919368014907850f74191d03e25f031 block/rnbd: kill rnbd_flags_supported
-         5783153ac67e20f65a402ef42237cd1a6d7fa320 block/rnbd-srv: remove unused header
-         d6e94913cb1cb4b4d1d737f72b5cef10b13395ff block/rnbd: introduce rnbd_access_modes
-         ba2eed1cf8f08f1e5b1ba009ac22554f14d05342 block/rnbd-srv: no need to check sess_dev
-         3ecdbf91513511fae49eb0cfa9f39f690eb4fe11 block/rnbd-srv: rename one member in rnbd_srv_dev
-         6a12d5379508d530a73140fc7d5502551558ced5 block/rnbd-srv: init ret with 0 instead of -EPERM
-         d3fc0b46642524bc8e38aed3c7f5e99742436495 block/rnbd-srv: init err earlier in rnbd_srv_init_module
-         fece685cc7bbb5e1af89f891223c31c3bcc969f7 block/rnbd-srv: make process_msg_sess_info returns void
-         
-  - ref: refs/heads/for-next
-    old: a72e91eb4e16109358dbf1250cd77ab89cca1f76
-    new: 0dbbd269fb6a8799f312dfc9b1ae1244a144cfc6
-    log: |
-         b0488411e919368014907850f74191d03e25f031 block/rnbd: kill rnbd_flags_supported
-         5783153ac67e20f65a402ef42237cd1a6d7fa320 block/rnbd-srv: remove unused header
-         d6e94913cb1cb4b4d1d737f72b5cef10b13395ff block/rnbd: introduce rnbd_access_modes
-         ba2eed1cf8f08f1e5b1ba009ac22554f14d05342 block/rnbd-srv: no need to check sess_dev
-         3ecdbf91513511fae49eb0cfa9f39f690eb4fe11 block/rnbd-srv: rename one member in rnbd_srv_dev
-         6a12d5379508d530a73140fc7d5502551558ced5 block/rnbd-srv: init ret with 0 instead of -EPERM
-         d3fc0b46642524bc8e38aed3c7f5e99742436495 block/rnbd-srv: init err earlier in rnbd_srv_init_module
-         fece685cc7bbb5e1af89f891223c31c3bcc969f7 block/rnbd-srv: make process_msg_sess_info returns void
-         0dbbd269fb6a8799f312dfc9b1ae1244a144cfc6 Merge branch 'for-6.5/block' into for-next
-         
-  - ref: refs/heads/master
-    old: 64569520920a3ca5d456ddd9f4f95fc6ea9b8b45
-    new: 858fd168a95c5b9669aac8db6c14a9aeab446375
-    log: revlist-64569520920a-858fd168a95c.txt
+  - ref: refs/heads/main-5.15.y
+    old: 06907f18fc43e9c79b2c22d30bd14d8d328cd5c0
+    new: 7b5bc609e0821db6e95df0e82c7b493eef941688
+    log: revlist-06907f18fc43-7b5bc609e082.txt
 
---===============4852962302232138244==
+--===============6550588045474843911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64569520920a-858fd168a95c.txt
+Content-Disposition: attachment; filename=revlist-06907f18fc43-7b5bc609e082.txt
 
-3530167c6fe8001de6c026a3058eaca4c8a5329f soc: qcom: icc-bwmon: fix incorrect error code passed to dev_err_probe()
-3395d36e6805786c26d13188735bc796b9d7a7c9 soc: qcom: rpmh-rsc: drop redundant unsigned >=0 comparision
-2d80b1e649dd74f5226484e244e57990348a9f18 arm64: dts: qcom: sc8280xp: Revert "arm64: dts: qcom: sc8280xp: remove superfluous "input-enable""
-ce7c014937c442be677963848c7db62eccd94eac arm64: dts: qcom: sc8280xp: Flush RSC sleep & wake votes
-436eeae0411acdfc54521ddea80ee76d4ae8a7ea tee: amdtee: Add return_origin to 'struct tee_cmd_load_ta'
-ca8fc6814844d8787e7fec61b2544a871ea8b675 arm64: dts: qcom: sc7280-idp: drop incorrect dai-cells from WCD938x SDW
-16bd455d0897d1b8b7a9aee2ed51d75b14a34563 arm64: dts: qcom: sc7280-qcard: drop incorrect dai-cells from WCD938x SDW
-0c7433dd81b5e771ef222f340fef03501131761b arm64: dts: qcom: sm8250-xiaomi-elish-boe: fix panel compatible
-fae7d907a75eaad4bfb17e7990e357938c5b1351 arm64: dts: qcom: sm8250-xiaomi-elish-csot: fix panel compatible
-18f341061262a7a63bc8b5c9ef94a342ac2673a2 ARM: dts: qcom: apq8026: remove superfluous "input-enable"
-da50416fb1fa7502a52ad38c0e9ff196d9f56ac9 ARM: dts: qcom: mdm9615: remove superfluous "input-enable"
-033553c04b02b450261f60d5f1b0e5948cd197bb ARM: dts: qcom: msm8974: remove superfluous "input-enable"
-f34fbb71ce9eb0936c0b56fe8b3866d76618c433 arm64: dts: qcom: fix indentation
-084657090aacd8a9269931a2879420bf614511fb arm64: dts: qcom: use decimal for cache level
-9c6e72fb2058dc06da9d278c4bff94430677d48a arm64: dts: qcom: add missing cache properties
-925a80af6106a55fa6bcfedc5bd2f02b0b835495 ARM: dts: qcom: add missing cache properties
-a14da6144d16ef27e3022835fa282a3740b8ad7b arm64: dts: qcom: sm6375-pdx225: Fix remoteproc firmware paths
-ccd4923d18d5698a5910d516646ce125b9155d47 ARM: at91: pm: fix imbalanced reference counter for ethernet devices
-6b0db163ff9200a55dc77a652dad1d4b0a853f63 ARM: dts: at91: sama7g5ek: fix debounce delay property for shdwc
-b3d0dcc8e359cf5d57fb6308bc9750af5da574b3 soc: qcom: ramp_controller: Fix an error handling path in qcom_ramp_controller_probe()
-7b374a2fc8665bfb8a0d93b617463cc0732f533a soc: qcom: rmtfs: Fix error code in probe()
-47820d3263a4a7ba258fe2efe26ae5afb5b83036 soc: qcom: Rename ice to qcom_ice to avoid module name conflict
-672b584c68de309017cd2ce8938856c9b7c1b70e dt-bindings: power: qcom,rpmpd: Add SA8155P
-57a9d4bdb49a7d811140aba591295659c86aa5b8 Merge branch '20230411-topic-hanaau-v2-1-fd3d70844b31@linaro.org' into arm64-fixes-for-6.4
-8c67e554754ca669911625412ae9a6cd8cee1c82 arm64: dts: qcom: Split out SA8155P and use correct RPMh power domains
-52ebee922b638c828d427345fadacc936fd2807f Merge branch '20230411-topic-hanaau-v2-1-fd3d70844b31@linaro.org' into drivers-fixes-for-6.4
-4a08af2f22ba3c2fb26287dc27fa07bf298acb34 soc: qcom: rpmhpd: Add SA8155P power domains
-4c8bb2d567588ccbfbf374c079f291a1402c4454 arm64: dts: qcom: sm8550: use uint16 for Soundwire interval
-3a735530c159b75e1402c08abe1ba4eb99a1f7a3 arm64: dts: qcom: sc7180-lite: Fix SDRAM freq for misidentified sc7180-lite boards
-b317cebff59d9994ba041240654acb3c06b2f1f0 dt-bindings: cache: qcom,llcc: Fix SM8550 description
-661a4f089317c877aecd598fb70cd46510cc8d29 arm64: dts: qcom: sm8550: Use the correct LLCC register scheme
-3d49f7406b5d9822c1411c6658bac2ae55ba19a2 EDAC/qcom: Remove superfluous return variable assignment in qcom_llcc_core_setup()
-cbd77119b6355872cd308a60e99f9ca678435d15 EDAC/qcom: Get rid of hardcoded register offsets
-700581ede41d029403feec935df4616309696fd7 soundwire: dmi-quirks: add new mapping for HP Spectre x360
-99e09b9c0ab43346c52f2787ca4e5c4b1798362e soundwire: qcom: add proper error paths in qcom_swrm_startup()
-2b28fc688cdff225c41cdd22857500e187453ed7 arm64: dts: imx8qm-mek: correct GPIOs for USDHC2 CD and WP signals
-ca50d7765587fe0a8351a6e8d9742cfd4811d925 arm64: dts: imx8-ss-dma: assign default clock rate for lpuarts
-f1a411873c85b642f13b01f21b534c2bab81fc1b ksmbd: fix out-of-bound read in deassemble_neg_contexts()
-fc6c6a3c324c1b3e93a03d0cfa3749c781f23de0 ksmbd: fix out-of-bound read in parse_lease_state()
-25933573ef48f3586f559c2cac6c436c62dcf63f ksmbd: fix posix_acls and acls dereferencing possible ERR_PTR()
-368ba06881c395f1c9a7ba22203cf8d78b4addc0 ksmbd: check the validation of pdu_size in ksmbd_conn_handler_loop
-1c1bcf2d3ea061613119b534f57507c377df20f9 ksmbd: validate smb request protocol id
-a37f2699c36a7f6606ba3300f243227856c5ad6b x86/head/64: Switch to KERNEL_CS as soon as new GDT is installed
-9bf2e534313fcf420367668cc1f30e10469901dc arm64: dts: imx8mn-beacon: Fix SPI CS pinmux
-63b679a962acc49a9e412d5c511da8e25bda598f MAINTAINERS: Add myself as I2C host drivers maintainer
-8110bf24c82d08aa2ed1d09a2b996d06c41f2e67 i2c: img-scb: Fix spelling mistake "innacurate" -> "inaccurate"
-7ebfd881abe9e0ea9557b29dab6aa28d294fabb4 i2c: mchp-pci1xxxx: Avoid cast to incompatible function type
-1acfc6e753ed978b36d722f54e57fe4d1e8a6ffa i2c: designware: fix idx_write_cnt in read loop
-5578d0a79b6430fa1543640dd6f2d397d0886ce7 i2c: mv64xxx: Fix reading invalid status value in atomic mode
-1c278f8eba9b6fed8290beb5c4aa8d90619c782f Merge tag 'qcom-dts-fixes-for-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-be02e1fc71d2256f4657eb4ac9aadcee4354bc36 Merge tag 'qcom-driver-fixes-for-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-44b5814fbab412a34b350480b10110754f25e094 Merge tag 'qcom-arm64-fixes-for-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-eeda0b71a7003aa13ef4f2720edc01f6783a909e Merge tag 'at91-fixes-6.4' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-4a672d500bfd6bb87092c33d5a2572c3d0a1cf83 ARM: dts: Fix erroneous ADS touchscreen polarities
-3aa0519a4780f1b8e11966bd879d4a2934ba455f firmware: arm_ffa: Set handle field to zero in memory descriptor
-08425abbab9987ec48c78f418e61130b5dc9d22d Merge tag 'ffa-fix-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-ca0aa17f2db3468fd017038d23a78e17388e2f67 i2c: sprd: Delete i2c adapter in .remove's error path
-abd649fdf91adf44c5bb46891b6d8741a14f90a5 Merge tag 'amdtee-fix-for-v6.5' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
-7f3c782b3914e510b646a77aedc3adeac2e4a63b eeprom: at24: also select REGMAP
-58d95889f3c2064c6139ee94bb0e4d86e1ad4eab soundwire: stream: Add missing clear of alloc_slave_rt
-8d38800a762c880244f3df87abbc9f34e276e955 MAINTAINERS: Add entries for Renesas RZ/V2M I2C driver
-5cdd5ec176544a3f5b18591577cfab2fcdc13c79 Merge tag 'imx-fixes-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-33f36147be36c5fa0919d32d20d501ca97981d9a Merge tag 'at24-fixes-for-v6.4-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-current
-859c74595156f894c4e8edd523c6d1c4a1899127 Merge tag 'arm-fixes-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6be5e47b69d8bb7c3dba8d84807624954243c23a Merge tag 'soundwire-6.4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-022ce8862dff83c859089cd14bc4dca0733e2f90 Merge tag 'i2c-for-6.4-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-65d7ca5987f29f4c3d5c0889d2f046bb246d18d4 Merge tag '6.4-rc5-smb3-server-fixes' of git://git.samba.org/ksmbd
-4c605260bc60347d3d5601900704cb22b0b2efec Merge tag 'x86_urgent_for_v6.4_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-858fd168a95c5b9669aac8db6c14a9aeab446375 Linux 6.4-rc6
+fa8e566e6ffc9d6e0e76286db0c7f76f7a49b40f extraversion
+74cb40464cc5082f832b47354bdb433cae4d3bf5 mm: thp: consolidate mapcount logic on THP split
+98206a31dd403148f0be3246ce22c8f53d3ee709 mm: thp: make the THP mapcount atomic with a seqlock
+f86a6586b7d5cb412493ac47e0045b01d5d1e328 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+73bc263353ddb549bf0be81ce00376273c0e2293 mm: thp: introduce page_trans_huge_anon_shared
+5cb775b46ba827c62baf4e85d934d9f5e053b233 mm: gup: COR: copy-on-read fault
+3630afad947c984a570e8a4dc2ce4643ca33be13 mm: gup: gup_must_unshare()
+f1fd6577669687a9cb546977dc997238437960af mm: gup: gup_must_unshare() use can_read_pin_swap_page()
+2ee857b0262d17e0463a6fd2970839773a9d48f2 mm: gup: activate GUP unsharing with COR
+9b0b8c47936d653014d6a88b0b2ebeefe10e5c94 mm: gup: FOLL_NOUNSHARE: optimize follow_page
+eeb31072b79501046814aca2cf9377fd26c62023 mm: hugetlbfs: COR: copy-on-read fault
+696efd7258c9c559fbd8167d99a5cf390fb7dea2 mm: hugetlbfs: FOLL_FAULT_UNSHARE
+f774000b80104f630942d90533072cb876479cb7 mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
+ec3e44091dbdf33bea5c3338c3e05c1a660e2789 mm: COW: skip the page lock in the COW copy path
+481764b4aee70bd8c73a8dbdc54fdf37c87ce463 mm: thp: replace the page lock with the seqlock for the THP mapcount
+e88b4c4a8c86c060c940b54268057c449279da6c mm: COW: restore full accuracy in page reuse
+2d5eeb1ceebe1ba6d26c1a39bd99b0a2be4198a7 mm: COW/COR: de-dup the lock page locking
+3645a98663e8ed3679cedb17ae4fd509e2750c3b mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+62f0d4653b263fa8aa721ea8c41cb65c22ecec7d mm: gup: FOLL_MM_SYNC: enable COR on PageKsm
+574442b2de19b70d9c1558bcedb36d1cbb6e21d3 mm: gup: FOLL_MM_SYNC: handle FOLL_MM_SYNC in can_read_pin_swap_page()
+68ff2d73a59a2ee8ab1737823592bd22595d67ca mm: gup: FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+11bd4bc28848d9e73771a43f17eb9f8393f54a92 mm: gup: document FOLL_MM_SYNC
+d41faa6809d8ce1f9281861b30f3c1bd0770f125 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+5413b2895ef1fbd67a233aec1d01c769d0c2099a mm: gup: retain synchronicity of concurrent FOLL_LONGTERM R/O pins taken while child exits
+a0a40d3fc91c2155ca5b7030db900f7dd22107c7 mm: gup: retain synchronicity of concurrent FOLL_LONGTERM R/O pins on SWP_STABLE_WRITE
+2e537c0d1cdd2910a002c92cfc9bf8f4e4523bfe mm: KSM: improve reuse_swap_page for CONFIG_SWAP=n
+f59da694a4195bdbd437662db8363ee79ff1dfda mm: thp: fix COW accuracy on double map THP
+9cbe3956eec1d406393b5c77d722e2fdfdacf957 mm: gup: fix synchronicity of all GUP pins universally
+c675b39a617ee4fce89c178c1e4e24dbf9c67030 mm: ksm: introduce PageAnonNoKsm
+6548996d8849c40c93110a5fdc3214ed0e35a401 mm: ksm: introduce PageHeadAnonNoKsm
+6697d886b273b97567159a98892d2a8efa62d760 mm: gup: introduce PageAnonGup helpers
+49e5ab816781da5e6b9673fed3caa3ae73c9b85b mm: gup: enable PageAnonGup to reduce the false positive copies in fork
+6bd04315c5e3a2eee4bef2ac4622d0779ae59693 mm: thp: avoid false positive copies in fork() with virtually splitted THPs
+cd04f46730dce619063128b05f0f3cc924c04586 Revert "mm: thp: avoid false positive copies in fork() with virtually splitted THPs"
+962dcf003b39ea133530ba4d4d9ce9530a5f67bf mm: cacheline alignment for page_table_lock and mmap_lock
+2af305890e317774060e812c673d52563ff06701 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+d90639fafdd0d1451ac1053ed8e8cbff96152192 mm: thp: optimize total_mapcount() with head_compound_mapcount
+c4a4625559096056214665ebff04d83456ae47b7 mm: thp: cleanup and optimize compound_nr
+785f2d5f5a1a8b239ba89c3a1555aed9085644e9 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+09e126d61772dc398dab3c1d918e66ffd566becd mm: mm_take_all_locks: add cond_resched()
+ac1de79dc022cb84ad813f74c15fbe254752b60d x86: restore the write back cache of reserved RAM in iounmap()
+1e0b2a25c9376f9e08c1b5c3142787a4461c3416 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+a1ffab03df9326700eed74bf807f1fadc0bfa6fe x86: deduplicate the spectre_v2_user documentation
+a21474cd3b93f46ae1d7a810363d98c9ce61f01f x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+8983641c5a3e4f40075a5572e05c478c1687c482 x86: atomic_set needs WRITE_ONCE
+9a652d0de71f682d0cbd0016a3e5324d81340e3b sched/fair: skip select_idle_sibling() in presence of sync wakeups
+4795fb4701d529840e273536376fe7fbc556b913 mm/userfaultfd: provide unmasked address on page-fault
+7f035d485ccadda07f80febe30bc2cb45fbc23b1 userfaultfd: UFFDIO_REMAP: rmap preparation
+4d740f08345440ae772176103edb91745661a524 userfaultfd: UFFDIO_REMAP uABI
+2bf6c48b6facb2532779d2c93f325fa76219c305 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+8bcc05feb911dc38e7a23a678408ac696ccc57a6 arm64: select CPUMASK_OFFSTACK if NUMA
+6936203186b275eafa85c9202b849e4cce0b9da9 arm64: tlb: skip tlbi broadcast
+3afbf5df72b5bdecfbd61806ce0dc48d8068bffa mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+4547d1245c80068a6b77ef6e39047ad9287ae63b randprotect: KSM: add batch random generator helper
+cc592012b9b089612e769d6d9bd0ad35d4d1ba13 randprotect: KSM: only attempt to merge with KSM pages if the payload doesn't change
+2cf52ffa0309fe6973a60fac4f1085e7dd30476f randprotect: KSM: eliminate the KSM COW side channel
+07b13d18e4b45cb7ee56df3075c38c9797c46771 randprotect: mm: THP: preserved young bit in the THP split
+f68f53ddc21c2938672c1a023e2d5331d1ea0b35 randprotect: KSM: re-enable mmu_notifier_change_pte during wrprotect
+df0b90805be38ef3af3be85937c4a154a3279c4d randprotect: KVM: micro-optimize mmu notifier change_pte
+82f978740e7f76014e785f06ed96c34dcf29f0b8 randprotect: KSM: break_ksm: use the COR fault
+eabdf87fdcfcb69dc52d2db68c160977b5d40a9e mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy
+19fd86a5b23750c0d67791f36c642c97ec0a1fee mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy v5
+711909de7acfd7667d057e93cb7e626e2d54b6fe mm/rmap: fix missing swap_free() in try_to_unmap() after arch_unmap_one() failed
+80865f57b69a3f913683c1c73fb737d2a724cf56 mm/gup_test: start/stop/read functionality for PIN LONGTERM test
+c1a485b04a36a1db918ba8ac27a9a3323c97773c mm/gup_test: fix PIN_LONGTERM_TEST_READ with highmem
+51d469787f3e79c2f4540267dd204ed75a532613 mm/gup_test: free memory allocated via kvcalloc() using kvfree()
+7b5bc609e0821db6e95df0e82c7b493eef941688 Merge remote-tracking branch 'gitlab/main-5.15.y' into main-5.15.y
 
---===============4852962302232138244==--
+--===============6550588045474843911==--
