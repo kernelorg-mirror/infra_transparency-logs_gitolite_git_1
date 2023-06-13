@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 13 Jun 2023 08:39:28 -0000
-Message-Id: <168664556886.10373.14928456485594269055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 13 Jun 2023 08:40:02 -0000
+Message-Id: <168664560203.10770.7043598194038603016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/main
-    old: 6973c24b068b99dd69e1cd4f223e68b6b33ba62b
-    new: 91ccdbb94feadb0d8bf3b35c841b33ac95f2f45f
+  - ref: refs/heads/fixes
+    old: 8c345dff1804dfa90381343932dd1d27087c28ad
+    new: e6f9e590b72e12bbb86b1b8be7e1981f357392ad
