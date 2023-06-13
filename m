@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 13 Jun 2023 23:50:41 -0000
-Message-Id: <168670024132.27845.4990797576556594224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Tue, 13 Jun 2023 23:51:41 -0000
+Message-Id: <168670030141.28267.10134048481367899799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/heads/dev-test
-    old: 4a8d578ed9ee75faa666fe230aa3eece4d07a063
-    new: c1ac6e02b5fc00503ad18a7641a66f4550464766
+  - ref: refs/heads/for-6.5
+    old: fb59fd2defb116ec077768f34b026c41e49d069f
+    new: 8812387d056957355ef1d026cd38bed3830649db
     log: |
-         3980d3fdf77ca1df4d8d7124596a903ad988a1e9 f2fs: compress tmp files given extension
-         c1ac6e02b5fc00503ad18a7641a66f4550464766 f2fs: remove i_xattr_sem to avoid deadlock and fix the original issue
+         16d7fd3cfa7259729c8e2a7620bd5b4ca480da85 zonefs: use iomap for synchronous direct writes
+         8812387d056957355ef1d026cd38bed3830649db zonefs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
          
