@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3550630539721893389=="
+Content-Type: multipart/mixed; boundary="===============2648862511072458097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 13 Jun 2023 10:06:06 -0000
-Message-Id: <168665076642.20628.4753304644637083186@gitolite.kernel.org>
+Date: Tue, 13 Jun 2023 10:16:56 -0000
+Message-Id: <168665141667.27130.15929870369725176213@gitolite.kernel.org>
 
---===============3550630539721893389==
+--===============2648862511072458097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 41e2f976b558ca71fb79dbc7874c4fc91370b5d6
-    new: 53d061c19dc4cb68409df6dc11c40389c8c42a75
+  - ref: refs/heads/usb-linus
+    old: c4a8bfabefed706bb9150867db528ceefd5cb5fe
+    new: 286d9975a838d0a54da049765fa1d1fb96b89682
     log: |
-         0ac37fbdad7087bbcbbe246a602c248ccfd954ea usb: chipidea: imx: turn off vbus comparator when suspend
-         53d061c19dc4cb68409df6dc11c40389c8c42a75 usb: chipidea: imx: add missing USB PHY DPDM wakeup setting
+         92c9c3baad6b1fd584fbabeaa4756f9b77926cb5 usb: typec: Fix fast_role_swap_current show function
+         50966da807c81c5eb3bdfd392990fe0bba94d1ee usb: gadget: udc: core: Offload usb_udc_vbus_handler processing
+         286d9975a838d0a54da049765fa1d1fb96b89682 usb: gadget: udc: core: Prevent soft_connect_store() race
          
 
---===============3550630539721893389==
+--===============2648862511072458097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686650764 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686651414 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1686650763-5d940aa936277c4105ca492c4194f802d448864a
+nonce 1686651414-8cf15020982d400c2b9547249db3c774556a6ada
 
-41e2f976b558ca71fb79dbc7874c4fc91370b5d6 53d061c19dc4cb68409df6dc11c40389c8c42a75 refs/heads/usb-testing
+c4a8bfabefed706bb9150867db528ceefd5cb5fe 286d9975a838d0a54da049765fa1d1fb96b89682 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSIP4wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M5kP/jY0uW5d/JoMYPHOf7gh
-dUDY3rYBdMp5qcE0a/DY7OEy9r6Cmukxjog0zmLzJNfAM582oPSXAeehqowisEZ7
-VjvsKYVe0ruFs2MbhnBLvYxnaAu81/7fmGRlTU8D62c2EFz9f97gChmvTL2ct00+
-85zImsu6ZdSRBx56ey81NYIdPcHLQ5mpLviAZtZYflMZjc8vkW77q2N83k00ndIw
-v+6Gz/6e6DOtR9/FJDdPJw4/tgYF+Sl0Qpcjo6a9Kjgq9UL4b8JsjVbmESkp3Skz
-EnTQLzNIyzqDIyy9co0bwxeosWcXpw42xo/dL3sweDUXeL4OWRhXAMZ/OGtfHTMe
-ampxwdOFmP2CW+ieKEFRDOzyGYpfdj4agS7Mb5Bvr1PxOXdMClh6TDns+BfGiKWf
-/euaoCWSBOoCw6h698CQPPKn2LUQUuGaByKiz9HP80mSmdUx7K8jXLTYDrYbX+54
-YyHyXT25bOATf3vFLCL2DHg1RlqkZkyYFQcfRVCYxvHjdVxH0pGhSW+wy7mcll1f
-m3FWoOVO8iYO1bZwYW2SUdP5sg5eBlv4Fe/X5iNRE+1zvOUVGwNJuf3qJocumS0t
-ULv3Je3GTv2Q6Q4Y+49UAj2iZyJ2QWBHnLCQ2chwZ4PXf+tmvOksSpkcD/brH1c2
-t5+d1gU51FvJwoObvfb4bQ4l
-=U+iw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSIQhYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ygQP/2As5mdaeSHIzRDeLEU0
+agFhPGhw4NCwFRMmHTXRJm5ZTeEi0My+uS7BKBsiP7MT7qKU9LxlDqdtyl2IFKkB
+orbXEKwCq4JcH9eMr61yAvMDA5a3N0Pc8kSfyZcAWl4WK6bsmKG7rncnarjHHXnj
+3lSChV7gp04MSj1g4UFs23nFx7V90CfdrFtgydZ2gEn8JaB2kfTXdt1sbA99Xi9z
+NSmMQeYjkX/Dy3HgX2YCi1gDiD4OSdbkMXgS+bhx3VQaMLMzFO2kip11x8oj5Zcv
+QdZ/NRd2+fVKtCngb2GmuiTiT7mDOWUF8zCNauX/i0AuGlp9guFN07qELOWghCCk
+waAKyYxoai1Ncl2fs7zhYWGdeqsUAUYtkU9ekohi0O6E5P4cN8PuB5vS3hBPK3Il
+wJ7njKyD+rKr0R1z9va3LkGO67OglZWcW9h+PDO/PLcvncmUy8LSME0KI+8dEjQc
+4H82NroPynqP9pLRX1yKOsDnwYNjiW1J4iTOUctmWR9M16R0E0VEYG7eCgObZB2/
+3OU1z18F1HiNasGUyx0pNChK6nA4JlyC4eOqFZLPuC5wwW8NkTn5yT57bPVpxi14
+OGo276WoqkiK4ckUeEiNpoBqHiTdnqP7Ifanfp1gYunD+G3+Mnn3MHPwDjmn36vJ
+MO7YyVmQEWDt2XYY5p4GrfBU
+=1jvS
 -----END PGP SIGNATURE-----
 
---===============3550630539721893389==--
+--===============2648862511072458097==--
