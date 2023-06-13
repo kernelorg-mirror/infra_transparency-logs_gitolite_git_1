@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 13 Jun 2023 20:57:36 -0000
-Message-Id: <168668985659.32596.16942836061542004253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 13 Jun 2023 21:00:23 -0000
+Message-Id: <168669002368.2959.10158192722902009825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 339f88223c900d2083bbc30dec70b44ff24dc628
-    new: 104328c0a8fd2e6f9767cacaf255aba7c98032d1
+  - ref: refs/heads/dev-test
+    old: e78273288bd6dd4e85e07499dec2834846d13c46
+    new: f51351515cf83cee3a6cb13c867a1caf0885333f
     log: |
-         2cb0b30b8da243a33f78507d5eb6c9a22a70f346 perf tests task_analyzer: Print command that failed instead of just "perf"
-         446aa805733281a99ece54170b3d8a1a72ab2a72 perf tests task_analyzer: Skip tests if no libtraceevent support
-         25c49c6b93318fe7ced4c3155dd7298733caeb0d pert tests: Support metricgroup perf stat JSON output
-         104328c0a8fd2e6f9767cacaf255aba7c98032d1 perf vendor events arm64: Add default tags into topdown L1 metrics
+         d618126911829523e35a61f4a5a4ad159b1b2c8d f2fs: enable nowait async buffered writes
+         f5329eb776c92589dfed7bc1b3cc6711a5b8d9e5 f2fs: compress tmp files given extension
+         5cda8dcc6707d79a6de4dd2791df99e7877a6fe2 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+         6fadf250979df8e35029c64dd48dcc9d574ef17e f2fs: add helper to check compression level
+         2f9e724f3d6739d52bcc2ffb5a5046cc689dffd1 f2fs: cleanup MIN_INLINE_XATTR_SIZE
+         310b00500515b91c392b74d6da7765b5aedf94f2 f2fs: add f2fs_ioc_get_compress_blocks
+         9f7c1dec29c9b074b315d56adf8bcdac77e6a158 f2fs: check zone write pointer points to the end of zone
+         f51351515cf83cee3a6cb13c867a1caf0885333f f2fs: do not issue small discard commands during checkpoint
          
