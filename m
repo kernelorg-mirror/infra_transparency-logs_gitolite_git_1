@@ -1,40 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4498078699526360912=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 13 Jun 2023 17:12:17 -0000
-Message-Id: <168667633717.2804.5348586118257616840@gitolite.kernel.org>
-
---===============4498078699526360912==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 13 Jun 2023 17:12:48 -0000
+Message-Id: <168667636871.3363.2613654037164673110@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/trace/urgent
-    old: a2d910f02231f33118647fc438157ae69c073f89
-    new: a8c5c6a5c87ea10189ec43483f44800a4ec97785
-    log: revlist-a2d910f02231-a8c5c6a5c87e.txt
-
---===============4498078699526360912==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2d910f02231-a8c5c6a5c87e.txt
-
-aafbb1eeabdc4e9241b400146f77369f041ec11b tracing/rv/rtla: Update MAINTAINERS file to point to proper mailing list
-c24c7957f8eeda765a0c1161aa96db27dab3684c x86/alternatives: Add cond_resched() to text_poke_bp_batch()
-0ba0fd29ead03d2868888c220846393d1ed8599e tracing/user_events: Prevent same name but different args event
-f37f3262131dd8b6ffdf555d803b276142c565ba tracing/user_events: Handle matching arguments that is null from dyn_events
-63d0cb619a89ee834fca8e1478a8ab969368ceb0 tracing: Modify print_fields() for fields output order
-d3ef41ca8eb22fc91d22ef226c3467720b57f186 tracing/user_events: Fix the incorrect trace record for empty arguments events
-e74cc6057d1d4999ab18552943998421f2d66a64 selftests/user_events: Add ftrace self-test for empty arguments events
-9948e697306b27845df8b847470ca9ae14123047 selftests/user_events: Clear the events after perf self-test
-a162609559c7629a511a9e3c2be9ed53b9a0541a selftests/user_events: Add perf self-test for empty arguments events
-a8c5c6a5c87ea10189ec43483f44800a4ec97785 tracing/user_events: Remove user_ns walk for groups
-
---===============4498078699526360912==--
+  - ref: refs/heads/for-kernelci
+    old: d8b2137321692543cd380c1b9689c4d7c68f885b
+    new: 4641cff8e81058d28eb7b4d03d714bb1b6f059a5
+    log: |
+         389ce21b622b0dba4e9134d6236ce0bf1635edcb arm64: add kdump.rst into index.rst
+         9706c6383f2d68037ac1e2ca13d6fcc991561966 Merge branch 'for-next/kdump' into for-next/core
+         4641cff8e81058d28eb7b4d03d714bb1b6f059a5 Merge branch 'for-next/core', remote-tracking branch 'arm64/for-next/fixes' into for-kernelci
+         
+  - ref: refs/heads/for-next/core
+    old: d18070cbad873f5d848f6c6d082d78a801f8f9e4
+    new: 9706c6383f2d68037ac1e2ca13d6fcc991561966
+    log: |
+         389ce21b622b0dba4e9134d6236ce0bf1635edcb arm64: add kdump.rst into index.rst
+         9706c6383f2d68037ac1e2ca13d6fcc991561966 Merge branch 'for-next/kdump' into for-next/core
+         
+  - ref: refs/heads/for-next/kdump
+    old: 03dc0e05407f394d4f8b3da8210013fef91e74ff
+    new: 389ce21b622b0dba4e9134d6236ce0bf1635edcb
+    log: |
+         389ce21b622b0dba4e9134d6236ce0bf1635edcb arm64: add kdump.rst into index.rst
+         
