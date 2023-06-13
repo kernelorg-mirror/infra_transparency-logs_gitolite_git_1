@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5807938260773722518=="
+Content-Type: multipart/mixed; boundary="===============4507115534903766679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 13 Jun 2023 09:53:28 -0000
-Message-Id: <168665000830.11478.5725587923042098714@gitolite.kernel.org>
+Date: Tue, 13 Jun 2023 09:56:06 -0000
+Message-Id: <168665016640.13880.18261873440400365855@gitolite.kernel.org>
 
---===============5807938260773722518==
+--===============4507115534903766679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 7b672f282cf4712cb392ef798f0305cc4de32454
-    new: c4a8bfabefed706bb9150867db528ceefd5cb5fe
+  - ref: refs/heads/usb-testing
+    old: d5e234ff08a45a7a08a52173ed793b3c125ab88d
+    new: 5ae8a35459e77fd9ddb1844baa8c736fc0223847
     log: |
-         3e6ac852fbc71a234de24b5455086f6b98d3d958 usb: gadget: udc: renesas_usb3: Fix RZ/V2M {modprobe,bind} error
-         00f8205ffcf112dcef14f8151d78075d38d22c08 usb: dwc3: gadget: Reset num TRBs before giving back the request
-         d2d69354226de0b333d4405981f3d9c41ba8430a USB: dwc3: qcom: fix NULL-deref on suspend
-         e3dbb657571509044be15184a13134fa7c1fdca1 USB: dwc3: fix use-after-free on core driver unbind
-         c4a8bfabefed706bb9150867db528ceefd5cb5fe usb: typec: ucsi: Fix command cancellation
+         0a453dc9f260281e3a063e07b526a7e494e496fe usb: typec: intel_pmc_mux: Expose IOM port status to debugfs
+         ffd603f214237e250271162a5b325c6199a65382 usb: gadget: u_serial: Add null pointer check in gs_start_io
+         f817f271dad345833929a6180a3a637f9bcc1a76 usb: usb251xb: Use of_property_read_u16()
+         152669f844d11513fc438bfee01d3f1bb2b2b565 usb: gadget: udc: udc-xilinx: Add identifier to read_fn function arg
+         5ae8a35459e77fd9ddb1844baa8c736fc0223847 usb: gadget: uvc: clean up comments and styling in video_pump
          
 
---===============5807938260773722518==
+--===============4507115534903766679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686650005 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686650164 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1686650005-b9bebbe398e2adf6c4747400b18e91a888229b55
+nonce 1686650163-9c6ca92fa189537a9f97709bd5014044af1cef1a
 
-7b672f282cf4712cb392ef798f0305cc4de32454 c4a8bfabefed706bb9150867db528ceefd5cb5fe refs/heads/usb-linus
+d5e234ff08a45a7a08a52173ed793b3c125ab88d 5ae8a35459e77fd9ddb1844baa8c736fc0223847 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSIPJUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4nMP/RebXTd3ocnipMQbASdi
-KQoqk82VfV7RaimBz+lA2g6zATSjmRVEtrsWxnX4YNhy+OhVawiMmUTwSVf9MXUa
-wRWeuWiSqH9RwWdGV+2BUITySku+BY4Vjh+wzBMwLdbYtOHyl/a4GnX69QJM/BZb
-xgKK6OT4KQbyHJBEVp0y9aNTRbhQ3U1VSjiqL/N0XSaGfH4nU9D9+oESIONTn1BK
-B8PE+0dn3tZZAd7o5tv3xk+RVDj8mQBV78tAxzUWWDInwENgMcwBP3kUa5AGjnSW
-NX3Rw8GKsZe1qga09tS5BijMlNV0f5T4iZzbGJ4Cu2XQ5AKOGxN1vb5ksexNtuxX
-qc1JP0zCoH34aKfhoUqFS2aIz9wwGvRGtAZ3C3bXBqrt4naFl0fZiqJWCDJV7HNW
-4ZzjzO3Txrz6369hXF2V+pPnohnzQmrcrk91JMTSahCmjdG6RWy/qT/X2PktshqZ
-2pCR4HpWwdvfuMHUbO775tenuwmUC/tHggALmDYVCDlqplHAyjp5c/11DxzUROTm
-PNbd9BrKfdET95PenJbne1hai9a5B7spwFuUtrbw5QE0rvFE3he4iD9CdxSJILFZ
-PqeeOluvPE+dfLldSt6ZkNJJYPeaEI7y0JCANk+X/S71wD3pbo4toVHPTPH64xoZ
-WRo24KJqARd+docZ/NszYvec
-=35H8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSIPTQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Se8P/ixab9K4k0vle1X69wr8
+H+jDLQznRJtUbmPrLFD4zFzs1DMYuZfF2c81xB0rhRPrP/Km67Ue6YJspB22DHS3
+GFBI0uPR3u6KxOM3IpwykHRmcQ1S7n+KQEBt7TX30zJICpucpam/WJEBHTw5TCHo
+COEjyKOa9jS5q1mBIwIapQvS80kCD9zg2ZnI86ykl6oJFC7yJqozv90zKKv7iG/C
+4sMuj/HbuP3QhpdLoolpN4o5HpWe+WzBIvVpoW2R59NqdjhFqo24+GMbawd4/h/N
+mhq7SsWqPeixd3I+pIkvbHuUJTS+BgwDHVsLqAZwUtVwGZHy39nYuqE2ZtA2mmYe
+p+6EkvYEHcPvRs3BoI6WYm0IyA9mj8jXoYlBR7EGv3uBOmWsVoy60cW/whzRFsiK
+c6ZwBFbPC3MZCOPZGaQZ0Quac4sP92p+mEQ6PdTeR+luU1nMxGwUuyxltqaXk7j4
+xyS/aTtFvS7knA3Earu8kdNWrsEM5uSkfbI156rj/THty8Jqppd7tkPGavKkvlh6
+VHy+xGaKBHLAu+Hd72SHmiqb8H4DnX76RiBj+kI1Ris89LV88dIOEfl/vnQQOIh/
+pRVLuwjgUAaY0U62zpnYB7ZXnHxQTvnY8uS2A9jA+rzf6WnLK5JfBM51qDB69bns
+wpc0TMFFXA6oxLxVutXUItjn
+=UfDJ
 -----END PGP SIGNATURE-----
 
---===============5807938260773722518==--
+--===============4507115534903766679==--
