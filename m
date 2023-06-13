@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1640775504439190501=="
+Content-Type: multipart/mixed; boundary="===============2284505480920176590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 13 Jun 2023 15:19:10 -0000
-Message-Id: <168666955084.17056.10872818252677123343@gitolite.kernel.org>
+Date: Tue, 13 Jun 2023 15:19:46 -0000
+Message-Id: <168666958657.17362.748074292643644483@gitolite.kernel.org>
 
---===============1640775504439190501==
+--===============2284505480920176590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 75e6def3b26736e7ff80639810098c9074229737
-    new: fbf6f482b65da72744b4a82be412e53a94fd7c9c
-    log: revlist-75e6def3b267-fbf6f482b65d.txt
+  - ref: refs/heads/dev-queue
+    old: d28fa396b137856d19ffd8e687d7b6f4546e7053
+    new: 513b88e1a43f1e15fd2c447a66a526698a6017ad
+    log: revlist-d28fa396b137-513b88e1a43f.txt
 
---===============1640775504439190501==
+--===============2284505480920176590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75e6def3b267-fbf6f482b65d.txt
+Content-Disposition: attachment; filename=revlist-d28fa396b137-513b88e1a43f.txt
 
 b9dc1046edfeb7d9dbc2272c8d9ad5a8c47f3199 net: phylink: report correct max speed for QUSGMII
 923454c0368b8092e9d05c020f50abca577e7290 net: phylink: use a dedicated helper to parse usgmii control word
@@ -47,5 +47,29 @@ ff8897b5189495b47895ca247b860a29dc04b36b selftests: mptcp: join: skip fail tests
 96b84195df61d374d8028cf426a115ae085031ec selftests: mptcp: join: uniform listener tests
 6673851be0fc1bfc3353ffb52ff26ae5468f12c9 selftests: mptcp: join: skip mixed tests if not supported
 fbf6f482b65da72744b4a82be412e53a94fd7c9c Merge branch 'mptcp-fixes'
+5732903fa31ba5b3073513101b074ad385ac7971 igc: Fix possible system crash when loading module
+16c3b6635a8c9a3cdc32dd8fe97815b99ecd8133 igb: fix nvm.ops.read() error handling
+a861cfe89def68db54bc60743cb27fa66dc2af2f iavf: Fix use-after-free in free_netdev
+eb90103e340266b88e539742e8b27868ad6b629c iavf: Fix out-of-bounds when setting channels on remove
+c7de95b0c6990520b75bac5bb0806e9c2e4f54ab igc: Clean the TX buffer and TX descriptor ring
+8b822c195d961e2ef889cfd1ee415c111c0c1767 igc: Add condition for qbv_config_change_errors counter
+8251e4f950f6aa966cecd7e2b9566075b7a021ab igc: Remove delay during TX ring configuration
+1ac61a19462009a5f0cf7a43a55f26475cabef15 iavf: use internal state to free traffic IRQs
+1e9a214257200223285a7d64938728b5a88e7879 ice: Fix ice module unload
+e34bc0f23852abe6733473036c797d3492318a2b igc: Fix TX Hang issue when QBV Gate is closed
+14cdf3a66498ff70e5bb80a659603d52580c50d8 iavf: Wait for reset in callbacks which trigger it
+69d91a0449141578dcd4cad48e72f963dfd86837 Revert "iavf: Detach device during reset task"
+018621d2cd44c2f4fb7f7b210e414e339a4810da Revert "iavf: Do not restart Tx queues after reset task failure"
+8768bfdb6408e76e3a4eb2408eeacc44af5d0918 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+04855ba74e4acc7d2b922b4fcce306984b573efc iavf: fix reset task race with iavf_remove()
+1edcbf99820cbd271409d758ca1cf82c4ec1c905 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+827808452e62c2a5a07d04bcf5cef103123a9d42 igb: fix hang issue of AER error during resume
+df19f2f6fcfc2112bf09f8beb494f47ccdd891c4 igc: Fix race condition in PTP tx code
+31a6a2b001f30f453960713eb21fbcc095df6da7 igc: Check if hardware TX timestamping is enabled earlier
+23a7469a599a156ee26bb09a4d4b43f01765e046 igc: Retrieve TX timestamp during interrupt handling
+e99549e5d26e96b22226f1035fa068ceec7040cb igc: Work around HW bug causing missing timestamps
+d350c4103a91e64bbbb258279d53545c16e50f87 igc: Include the length/type field and VLAN tag in queueMaxSDU
+1cbf6e183d8d47682a181e9209f567d165b2c745 ice: Fix max_rate check while configuring TX rate limits
+513b88e1a43f1e15fd2c447a66a526698a6017ad ice: Fix tx queue rate limit when TCs are configured
 
---===============1640775504439190501==--
+--===============2284505480920176590==--
