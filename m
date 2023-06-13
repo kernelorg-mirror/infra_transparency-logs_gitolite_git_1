@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 13 Jun 2023 08:50:39 -0000
-Message-Id: <168664623939.20387.317933995619910196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 13 Jun 2023 08:53:24 -0000
+Message-Id: <168664640449.21453.2881208466195567573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: b5fc1d120e6b2db9b1dcd198d73ab4616741d9f9
-    new: 88ad4e74628fe0a2fb9403a5f1b70d201ecb3e53
+  - ref: refs/heads/habanalabs-next-6.6
+    old: 67cda390cc1a87839ef8612239bb27e04d6cdbae
+    new: 8761ef9c833a427f339928a51c3ce97e46aed5d7
     log: |
-         565eebbc455f151216d3dc2d7d795d1654b08e6d meson: build test_mount_optlist
-         88ad4e74628fe0a2fb9403a5f1b70d201ecb3e53 libmount: (tests) add helper for option list splitting
+         38753e5257fcfb8a140ee1c79cba0263062b80b3 accel/habanalabs: remove pdev check on idle check
+         b10054a19b5dd14b2c7f2ba0056ead28607cf5d4 accel/habanalabs: reset device if scrubbing failed
+         8761ef9c833a427f339928a51c3ce97e46aed5d7 accel/habanalabs: dump temperature threshold boot error
          
