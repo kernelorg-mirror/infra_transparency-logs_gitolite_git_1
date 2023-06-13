@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Tue, 13 Jun 2023 04:28:20 -0000
-Message-Id: <168663050070.2181.12737350149291422426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Tue, 13 Jun 2023 04:29:20 -0000
+Message-Id: <168663056041.2564.4503808374751669620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 44d512e294808c7453d885ce66fdac29af06a8b8
-    new: bed30984abaf83b73334c0d6d7f7ec7c0e6e419a
+  - ref: refs/heads/for-kernelci
+    old: f5bb4e381290883a014a9e865ee2c430447ef953
+    new: 2b8cc5858a07ab75ce98cae720e263e1c1b0d1d9
     log: |
-         bed30984abaf83b73334c0d6d7f7ec7c0e6e419a platform/chrome: cros_ec_spi: Use %*ph for printing hexdump of a small buffer
+         2b8cc5858a07ab75ce98cae720e263e1c1b0d1d9 platform/chrome: cros_ec_spi: Use %*ph for printing hexdump of a small buffer
          
