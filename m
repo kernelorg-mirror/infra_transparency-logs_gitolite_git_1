@@ -1,27 +1,49 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 13 Jun 2023 20:06:32 -0000
-Message-Id: <168668679251.27832.6558638421818009193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 13 Jun 2023 20:06:45 -0000
+Message-Id: <168668680512.27993.12067755717550754243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/master
-    old: fb054096aea0576f0c0a61c598e5e9676443ee86
-    new: 15adb51c04ccfcf58ac3eec7464a2768fe175fcc
-    log: |
-         44b902e935be111fc98eb2a2d8e3d08196fd52ac dt-bindings: net: realtek-bluetooth: Fix RTL8821CS binding
-         2a567c1e29301495affa220543f156dd6dad50a9 dt-bindings: net: realtek-bluetooth: Fix double RTL8723CS in desc
-         f7efdf5e4dc10756ad632b1863b54b1b42a07530 dt-bindings: Change Damien Le Moal's contact email
-         c44e0503e5fd90c5ccbf81bcff7b6b70e9e2655b docs: dt: fix documented Primecell compatible string
-         b0b4a63f38d7cae3c57588592556481aedcae8b1 docs: zh_CN/devicetree: sync usage-model fix
-         39affd1fdf65983904fafc07cf607cff737eaf30 of: overlay: Fix missing of_node_put() in error case of init_overlay_changeset()
-         5b47f56b6a0fe5752f0827d26037a809ec0080bc dt-bindings: i3c: silvaco,i3c-master: fix missing schema restriction
-         c7753ed71c160f75f92ff5679e9fc22526e56fc5 dt-bindings: pinctrl: qcom,pmic-mpp: Fix schema for "qcom,paired"
-         15adb51c04ccfcf58ac3eec7464a2768fe175fcc Merge tag 'devicetree-fixes-for-6.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/tags/v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
+  - ref: refs/tags/v6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+  - ref: refs/tags/v6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
