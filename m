@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2989236806292624119=="
+Content-Type: multipart/mixed; boundary="===============5929427169949898954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 13 Jun 2023 14:46:23 -0000
-Message-Id: <168666758365.26020.3787926965072875946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 13 Jun 2023 14:47:10 -0000
+Message-Id: <168666763045.26369.10219138798174309264@gitolite.kernel.org>
 
---===============2989236806292624119==
+--===============5929427169949898954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e5d5c8081911f12c6ed83560224f67c60794b9fe
 
---===============2989236806292624119==
+--===============5929427169949898954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -507,4 +507,4 @@ fee5eaecca86afa544355569b831c1f90f334b85 nilfs2: fix possible out-of-bounds segm
 0bdf0efa180a9cb1361cbded4e2260a49306ac89 zswap: do not shrink if cgroup may not zswap
 fb054096aea0576f0c0a61c598e5e9676443ee86 Merge tag 'mm-hotfixes-stable-2023-06-12-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============2989236806292624119==--
+--===============5929427169949898954==--
