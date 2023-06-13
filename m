@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 13 Jun 2023 12:40:47 -0000
-Message-Id: <168666004760.28542.6667066234507227631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 13 Jun 2023 12:41:23 -0000
+Message-Id: <168666008372.28794.204134116823127033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 858fd168a95c5b9669aac8db6c14a9aeab446375
-    new: 8c00914e5438e3636f26b4f814b3297ae2a1b9ee
+  - ref: refs/heads/dev-test
+    old: 068bdb46bf4d303c630649ab6b025e755fc73036
+    new: 3b2b71075a72d085ef9362c47f748a51f21fe0ec
     log: |
-         8c00914e5438e3636f26b4f814b3297ae2a1b9ee gpiolib: Fix GPIO chip IRQ initialization restriction
+         3ea8cae2003e144c708dc8994bd864c222b2a29f erofs: unify inline/shared xattr iterators for listxattr/getxattr
+         3b2b71075a72d085ef9362c47f748a51f21fe0ec erofs: use separate xattr parsers for listxattr/getxattr
          
