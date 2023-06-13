@@ -1,58 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3501535312551911617=="
+Content-Type: multipart/mixed; boundary="===============0349066767088294422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 13 Jun 2023 10:33:37 -0000
-Message-Id: <168665241780.6100.7362272251847522347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 13 Jun 2023 10:42:58 -0000
+Message-Id: <168665297887.12108.14507370887154113434@gitolite.kernel.org>
 
---===============3501535312551911617==
+--===============0349066767088294422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/tty-testing
-    old: d9f59caf94a92f7a54b83766de29028cab9ec5b8
-    new: f3710f5e9e1a68da53202cffba73f4b604f05b15
-    log: |
-         a9c09546e903f1068acfa38e1ee18bded7114b37 tty: serial: samsung_tty: Fix a memory leak in s3c24xx_serial_getclk() in case of error
-         832e231cff476102e8204a9e7bddfe5c6154a375 tty: serial: samsung_tty: Fix a memory leak in s3c24xx_serial_getclk() when iterating clk
-         f3710f5e9e1a68da53202cffba73f4b604f05b15 tty: serial: samsung_tty: Use abs() to simplify some code
-         
+  - ref: refs/heads/review-hans
+    old: 2515e54267c98dc91a6273765b4bbf560c52b770
+    new: ff7c602ca850cff244db91995abf572a81670a2c
+    log: revlist-2515e54267c9-ff7c602ca850.txt
 
---===============3501535312551911617==
+--===============0349066767088294422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2515e54267c9-ff7c602ca850.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686652415 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1686652415-2351968bdab50d28240e497d468654c5b8e9031d
+4ebde55b7de1a25a9e20ae91e42157798ef8e958 tools/power/x86/intel-speed-select: Adjust scope of core-power config
+fcf127839e6a37bfb0f3ac102c8bc7988f627df2 tools/power/x86/intel-speed-select: Fix json formatting issue
+7244720ac137e3193db11b009fc33c0dd4e999c9 tools/power/x86/intel-speed-select: v1.16 release
+f999e23ce66c1555d7b653fba171a88ecee53704 platform/x86: thinkpad_acpi: Fix lkp-tests warnings for platform profiles
+801e5dc9853fcc36164c502456078145d72b23c5 platform/x86/intel/pmc: Add resume callback
+f2b689ab2f8cc089cc7659c323f282e6a1fb6d64 platform/x86/intel/pmc/mtl: Put devices in D3 during resume
+8802fcfb57d5ec1adc866bde010f07be78267e4e platform/surface: surface3_power: Switch back to use struct i2c_driver's .probe()
+bba73a1d05f3445ef7ae42456692078cd66ab39b platform/x86: asus-tf103c-dock: Switch back to use struct i2c_driver's .probe()
+aeaee158c2dbcba3763044424783e98846a1922c platform/x86: int3472: Switch back to use struct i2c_driver's .probe()
+fa5e68b1c10d56befcee2ee0a9e1eed2c830e352 platform/x86: ISST: Reset default callback on unregister
+b77b75fc61216cfaa974a8241186635eabe6671a platform/x86: ISST: Fix usage counter
+9ce930869164abf2d2d260e5470ed7ffc17a32c3 Merge remote-tracking branch 'intel-speed-select/intel-sst' into review-hans
+ff7c602ca850cff244db91995abf572a81670a2c platform/x86/dell/dell-rbtn: Fix resources leaking on error path
 
-d9f59caf94a92f7a54b83766de29028cab9ec5b8 f3710f5e9e1a68da53202cffba73f4b604f05b15 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSIRf8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+218P/Au2CNnEqDIX4iffmhk0
-3V2knfBU+iOGCD1yxy7yxYYx/L0nm/Fpv+FIMZ5SBYrldKljHF6Mj7PgH/P8hUgr
-kNcBrEyrb57eah2aynjp3WsyeS5tOgElWam8ekG+pdnGB8L8t+TZ8nkvu2/iAuzP
-c+Jjg6v3Sz+3CjhN/0XWo5d6Fff8MGM12MFs6hieWkR5fXSCggKR9qA1wUyJqYdv
-tDJuUL7rrffarK26Lo2IG57/R5vBu1G3g0EHyo1wEzWU6ErV8K2Y+8CBtmprpPKJ
-CootLrpMAizX5AELK1ysTsUtKptOMjwXhXbfZZVVQW0MsLO/YQduz2zcqGZYguLT
-F1UYHkBIUC+2WbDPd49v9MhgaBH1gVhqmp3Isgimbw0rjlv/emtFuknNpsyjHZRp
-njUh2Q+WEV5Gn2gR0PbvzOGQYhXVZqizJwkh7uwZ/xWVvZfeKzZMeTEW0I614qF+
-cyNPyb+/WcwLcF8Mi2uRS7rS81hB5eo7b3tSFLt6KrfBU05QRtRD+zBLz5ospO/4
-qpOxkoYcUFPm/A1AareO2JUOpqgnR+vcHgvzNbre4V7nGPWV8PVqQOmHWnwMOyMz
-dp7JGEFJVwudfiRxiitXXulQzOkdsfTWKsI40OUn+5YlshuFvD8ReiWwjaO4yH/k
-QC7CdpBvBPnqi3jAG/7UtfXq
-=onKS
------END PGP SIGNATURE-----
-
---===============3501535312551911617==--
+--===============0349066767088294422==--
