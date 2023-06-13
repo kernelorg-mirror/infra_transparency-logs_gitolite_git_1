@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8575347994936825946=="
+Content-Type: multipart/mixed; boundary="===============5030021933112219398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 13 Jun 2023 00:55:18 -0000
-Message-Id: <168661771829.15973.11233708873899993867@gitolite.kernel.org>
+Date: Tue, 13 Jun 2023 00:55:25 -0000
+Message-Id: <168661772556.16097.522776206719864274@gitolite.kernel.org>
 
---===============8575347994936825946==
+--===============5030021933112219398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: fe8e04348727f992f6fce3709639fb6d92a81137
     new: 103b3d2f94732fb1bc796e68e4cdfbcd731bbeaa
     log: revlist-fe8e04348727-103b3d2f9473.txt
 
---===============8575347994936825946==
+--===============5030021933112219398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ d3944f0ed4e4039201b160fc11004abaa2ca5385 perf inject: Lazily allocate event_copy
 892d00fba18a6dec2620165ce05e1697496f8381 perf inject: Lazily allocate guest_event event_buf
 103b3d2f94732fb1bc796e68e4cdfbcd731bbeaa perf annotate: Allow whitespace between insn operands
 
---===============8575347994936825946==--
+--===============5030021933112219398==--
