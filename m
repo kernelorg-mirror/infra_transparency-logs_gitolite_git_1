@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 14 Jun 2023 18:44:26 -0000
-Message-Id: <168676826602.19321.12428270381922970204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Wed, 14 Jun 2023 18:46:15 -0000
+Message-Id: <168676837536.21626.9759169478565281905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: a7969f58df35d1fbc973678ed846ff431dab6aef
-    new: ca64da3052bee0b0f7334c45b7963f2b4995ae69
+  - ref: refs/heads/master
+    old: a6505f3b21049a1b95828ec10806c5e381887023
+    new: b3e341c1a81b901a3debd2b172c830df0b518b89
     log: |
-         ca64da3052bee0b0f7334c45b7963f2b4995ae69 sh: Replace all non-returning strlcpy with strscpy
+         045d8dbe4c52315f972e046040a809a604266695 sff-8636: report LOL / LOS / Tx Fault
+         b3e341c1a81b901a3debd2b172c830df0b518b89 cmis: report LOL / LOS / Tx Fault
          
