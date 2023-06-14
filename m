@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 14 Jun 2023 17:38:42 -0000
-Message-Id: <168676432287.4935.5532409818082740607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Wed, 14 Jun 2023 17:46:55 -0000
+Message-Id: <168676481595.11101.13553723160566431268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/fs/fsverity/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/x86/alternatives
-    old: 3496d1c64a0fcc9bae3ed40decc3ecd7f8ac072f
-    new: 2bd4aa9325821551648cf9738d6aa3a49317d7e5
+  - ref: refs/heads/for-next
+    old: 13e2408d02dd12a3b46bf8a29b3ae4f6119fc520
+    new: 74836ecbc5c7565d24a770917644e96af3e98d25
     log: |
-         9350a629e839ca1c2b529a83a916cf2370bd1c64 x86/alternatives: Add cond_resched() to text_poke_bp_batch()
-         2bd4aa9325821551648cf9738d6aa3a49317d7e5 x86/alternative: PAUSE is not a NOP
+         74836ecbc5c7565d24a770917644e96af3e98d25 fsverity: rework fsverity_get_digest() again
          
