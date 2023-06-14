@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1007607884526904302=="
+Content-Type: multipart/mixed; boundary="===============7019774346088140638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 14 Jun 2023 17:19:29 -0000
-Message-Id: <168676316922.21937.12161041598060819642@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 17:20:36 -0000
+Message-Id: <168676323643.23940.8549453494618678883@gitolite.kernel.org>
 
---===============1007607884526904302==
+--===============7019774346088140638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: b752a984e2e3abfba2e0d2294a96bf3516adab4d
-    new: c668f0d3737590ea2033a1c81602d8e4af2ae9e0
-    log: revlist-b752a984e2e3-c668f0d37375.txt
+  - ref: refs/heads/ti-next
+    old: ed07c55c7a7454f4abb1a3a848046e26138f31d5
+    new: dd1ecdfc0503dc321b3904689082b45011ca3749
+    log: revlist-ed07c55c7a74-dd1ecdfc0503.txt
 
---===============1007607884526904302==
+--===============7019774346088140638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b752a984e2e3-c668f0d37375.txt
+Content-Disposition: attachment; filename=revlist-ed07c55c7a74-dd1ecdfc0503.txt
 
 6bc1ebad43697e0c2235cbc8ca89e4fb1aba5f32 arm64: dts: ti: k3-j784s4-mcu-wakeup: Add support for ADC nodes
 772e245b62fcfb5b9155a2b39aae7bfaab1b78fd arm64: dts: ti: k3-j784s4-evm: Add pinmux information for ADC
@@ -126,5 +126,6 @@ df69d81093e6dbff0bfecfe98efd23283a834aa1 arm64: dts: ti: Add basic support for p
 ae3c7bb8e28393f00b9474fbdbdfb85ec7e089cd arm64: dts: ti: add verdin am62
 4a697b56ba843c5947bdbc9e8240bad03630c11c arm64: dts: ti: add verdin am62 dahlia
 c668f0d3737590ea2033a1c81602d8e4af2ae9e0 arm64: dts: ti: add verdin am62 yavia
+dd1ecdfc0503dc321b3904689082b45011ca3749 Merge remote-tracking branch 'ti-k3-dts-next' into ti-next
 
---===============1007607884526904302==--
+--===============7019774346088140638==--
