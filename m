@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 14 Jun 2023 10:14:45 -0000
-Message-Id: <168673768573.9743.7828252241690628274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 14 Jun 2023 10:24:15 -0000
+Message-Id: <168673825582.16204.17564324219278894601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/riscv-extensions
-    old: 44358b72293e2ba01a1c17b5f4e96e6a3b9efb68
-    new: 8c168d882c8ea892e38c9c1e5330d13ace173be6
+  - ref: refs/heads/linux-5.10.y-cip
+    old: 52f00829380df13d144d530b732464a175350508
+    new: 7cde3fba93966b9614ca285f91928a57a79f7f3f
     log: |
-         1a81198d23fbcf42b51c75e3833e429843ac9067 RISC-V: split riscv_fill_hwcap in 3
-         4df89c1fb9d6a203eb6b7502074ef9fb3acef18b RISC-V: enabling parsing isa extensions from new boolean properties
-         c3754b85755dd5a41e0e2c21c5d5c92fa2875867 dt-bindings: fixup properties
-         8c168d882c8ea892e38c9c1e5330d13ace173be6 RISC-V: try riscv,isa-base in of_early_processor_hartid()
+         7cde3fba93966b9614ca285f91928a57a79f7f3f dt-bindings: usb: ti,hd3ss3220: Update interrupt property as optional
          
