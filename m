@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 14 Jun 2023 00:10:00 -0000
-Message-Id: <168670140033.8263.5934415443694840158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 14 Jun 2023 00:13:06 -0000
+Message-Id: <168670158683.10954.9432894753307327406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 15adb51c04ccfcf58ac3eec7464a2768fe175fcc
-    new: b6dad5178ceaf23f369c3711062ce1f2afc33644
+  - ref: refs/heads/dm-6.5
+    old: bdfdc65fb487802fd8754ff4bc43d491414781fd
+    new: 86eb5c45428cfa4221d1b362a1c82d974a266e6b
     log: |
-         85041e12418fd0c08ff972b7729f7971afb361f8 nios2: dts: Fix tse_mac "max-frame-size" property
-         b6dad5178ceaf23f369c3711062ce1f2afc33644 Merge tag 'nios2_fix_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
+         86eb5c45428cfa4221d1b362a1c82d974a266e6b dm thin: fix issue_discard to pass GFP_NOIO to __blkdev_issue_discard
          
