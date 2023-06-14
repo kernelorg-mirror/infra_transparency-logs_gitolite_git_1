@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 14 Jun 2023 19:04:19 -0000
-Message-Id: <168676945925.712.1310047661497236794@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 19:04:45 -0000
+Message-Id: <168676948581.973.15841816776076937061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 5a5d3a09dd76b9ea5a9f5b868f8e12831eb02d8b
+  - ref: refs/heads/for-next/kspp
+    old: b2f10148ec1eae7d63dd6a1a56afdf93a27daa74
     new: cab573a674fbf95384aca9de9701e5303d0a71a3
     log: |
+         f0e212de87a1c7884d011da714418a9b18823f7d Hexagon: Replace all non-returning strlcpy with strscpy
          bb07972fd64a8d666424e6e65648eed2ab758eac sparc64: Replace all non-returning strlcpy with strscpy
          fdd932efaec97693e6b383df876712f590f4332a of/flattree: Replace all non-returning strlcpy with strscpy
          59e1919013703d65c0b9f2805e9fc18790f1d208 sh: Replace all non-returning strlcpy with strscpy
