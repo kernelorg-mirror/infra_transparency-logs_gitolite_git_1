@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6093137720568986170=="
+Content-Type: multipart/mixed; boundary="===============7425354466894193201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Jun 2023 21:29:33 -0000
-Message-Id: <168677817353.11440.16471872957553038638@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 21:29:41 -0000
+Message-Id: <168677818158.11545.5798432479526519408@gitolite.kernel.org>
 
---===============6093137720568986170==
+--===============7425354466894193201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/tmp.perf/core
     old: 50516f42d44b7b92140fef13d70e7e9560cadd5c
     new: 701677b95764c06bb058c92be11c3a4ad25ab5f2
     log: revlist-50516f42d44b-701677b95764.txt
 
---===============6093137720568986170==
+--===============7425354466894193201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ e2595550177d8ea42083c9fd8e8a9d4acd5604ec pert tests: Support metricgroup perf st
 f4c0d5309a3e5f16ca3c3854b1e719dace843e03 tools api: Add simple timeout to io read
 701677b95764c06bb058c92be11c3a4ad25ab5f2 perf srcline: Add a timeout to reading from addr2line
 
---===============6093137720568986170==--
+--===============7425354466894193201==--
