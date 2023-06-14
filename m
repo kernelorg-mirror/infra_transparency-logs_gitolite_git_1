@@ -1,45 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1312806494291791321=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 14 Jun 2023 19:47:38 -0000
-Message-Id: <168677205874.2893.3583474382863715680@gitolite.kernel.org>
-
---===============1312806494291791321==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 14 Jun 2023 19:50:03 -0000
+Message-Id: <168677220341.4772.3239023986567922655@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 7e67dd4899d866115be2f68fa3f328616cd60408
-    new: b4975b97757f86f7ef7dc55e4c7e8673bbf31db0
-    log: revlist-7e67dd4899d8-b4975b97757f.txt
-
---===============1312806494291791321==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e67dd4899d8-b4975b97757f.txt
-
-8635e8df477bc77837886da206f4915576f88fec Revert "[PATCH] uml: export symbols added by GCC hardened"
-92e74fb6e6196d642505ae2b74a8e327202afef9 scripts/kallsyms: constify long_options
-1c975da56a6f89a3e610cc86d92f65de3da7bd61 scripts/kallsyms: remove KSYM_NAME_LEN_BUFFER
-92e2921eeafdfca9acd9b83f07d2b7ca099bac24 ARC: define ASM_NL and __ALIGN(_STR) outside #ifdef __ASSEMBLY__ guard
-28676fb2be5b58b2ab6abc2f7423a058ab6b5e99 modpost: pass struct module pointer to check_section_mismatch()
-172cf4686df073be968f87939f485e076c8f2791 kbuild: generate KSYMTAB entries by modpost
-a9bc4c6a73cd86a5d297d6a5b836bb06c603e96a ia64,export.h: replace EXPORT_DATA_SYMBOL* with EXPORT_SYMBOL*
-16a4a7252c8ec270830e6552b4779337a079e9a8 modpost: check static EXPORT_SYMBOL* by modpost again
-b822d7e67560198cebf35fcab6e557987f31ee52 modpost: squash sym_update_namespace() into sym_add_exported()
-1f2615c14b17eb36c33b7c1b9e86dd2f6b6c9699 modpost: use null string instead of NULL pointer for default namespace
-5d4410b09f69a657bfa61119b7cdc441ba39b667 kbuild: implement CONFIG_TRIM_UNUSED_KSYMS without recursion
-115cacd208e47f77ff1035c9d7669840f040fed0 modpost: merge two similar section mismatch warnings
-027d424be1711b8ea7950710c3aed6cf0ba3f5e0 modpost: show offset from symbol for section mismatch warnings
-af7396f9d651dfbecabc141ca4a99c6f2abce473 linux/export.h: rename 'sec' argument to 'license'
-b4975b97757f86f7ef7dc55e4c7e8673bbf31db0 kbuild: revive "Entering directory" for Make >= 4.4.1
-
---===============1312806494291791321==--
+  - ref: refs/heads/io_uring-6.4
+    old: 2329818eed62a32a8ef7e5e007489d3163d8ac31
+    new: adeaa3f290ecf7f6a6a5c53219a4686cbdff5fbd
+    log: |
+         adeaa3f290ecf7f6a6a5c53219a4686cbdff5fbd io_uring/io-wq: clear current->worker_private on exit
+         
+  - ref: refs/heads/io_uring-futex
+    old: a57ce35020dbb7c8c1227248e89f2959ccedc137
+    new: 87cb89f16605e9fd7abd5a8d542b16997a60416e
+    log: |
+         adeaa3f290ecf7f6a6a5c53219a4686cbdff5fbd io_uring/io-wq: clear current->worker_private on exit
+         504bb1153e00221c2a70c47a133089b5fef85036 Merge branch 'io_uring-6.4' into io_uring-futex
+         e4c5c021d1f0cc9ef2aab7b0e23d98bafebbc774 Merge branch 'for-6.5/io_uring' into io_uring-futex
+         da27e0ab1030598c63309f6a2a8c39d37fe6eeee futex: abstract out futex_op_to_flags() helper
+         6f6e7f1d54ea922456949be842c47be487d544df futex: factor out the futex wake handling
+         d146cf6239e0d282373ddf36ac660378b3f288a1 io_uring: add support for futex wake and wait
+         70ecaf2a9a788074d4b6f7a77cb8e0a0e9671511 futex: add wake_data to struct futex_q
+         688c3d7ee57d72ce226958e2aa989719d84d5fd4 futex: make futex_parse_waitv() available as a helper
+         f26312e2cfcaacbf6beaf9d1a242f1ea3bf960cc futex: make the vectored futex operations available
+         87cb89f16605e9fd7abd5a8d542b16997a60416e io_uring: add futex waitv
+         
