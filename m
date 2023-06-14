@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 14 Jun 2023 18:26:03 -0000
-Message-Id: <168676716324.6591.14004121251775870083@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 18:35:24 -0000
+Message-Id: <168676772460.12970.14664508366672239789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/hardening
-    old: e4615b69db755fa2dcb7eb8fa3805bd5403ccbc1
-    new: 7136be35e71c3da85a024c928a7ec69a66ac0996
+    old: 7136be35e71c3da85a024c928a7ec69a66ac0996
+    new: a7969f58df35d1fbc973678ed846ff431dab6aef
     log: |
-         7136be35e71c3da85a024c928a7ec69a66ac0996 sparc64: Replace all non-returning strlcpy with strscpy
+         a7969f58df35d1fbc973678ed846ff431dab6aef of/flattree: Replace all non-returning strlcpy with strscpy
          
