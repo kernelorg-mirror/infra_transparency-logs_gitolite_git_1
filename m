@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 14 Jun 2023 18:46:40 -0000
-Message-Id: <168676840001.21852.2286119793067236184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 14 Jun 2023 18:47:26 -0000
+Message-Id: <168676844617.22208.646976818496371975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/next
-    old: a6505f3b21049a1b95828ec10806c5e381887023
-    new: b3e341c1a81b901a3debd2b172c830df0b518b89
+  - ref: refs/heads/for-next/hardening
+    old: ca64da3052bee0b0f7334c45b7963f2b4995ae69
+    new: 5a5d3a09dd76b9ea5a9f5b868f8e12831eb02d8b
     log: |
-         045d8dbe4c52315f972e046040a809a604266695 sff-8636: report LOL / LOS / Tx Fault
-         b3e341c1a81b901a3debd2b172c830df0b518b89 cmis: report LOL / LOS / Tx Fault
+         5a5d3a09dd76b9ea5a9f5b868f8e12831eb02d8b kallsyms: Replace all non-returning strlcpy with strscpy
          
