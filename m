@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 14 Jun 2023 08:31:03 -0000
-Message-Id: <168673146329.12391.16689776744785151882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 14 Jun 2023 08:31:29 -0000
+Message-Id: <168673148946.12649.17797503960607681354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: 07b1cc841b4f283f3bc34d228690f88b17e57008
-    new: 41f2c7c342d3adb1c4dd5f2e3dd831adff16a669
+  - ref: refs/heads/vfs.all
+    old: f68c3a6bcb553240456e8cebb36db0cf55cf6dd5
+    new: c678b651655ff6ce1958b0ec6b4e9216433be79d
     log: |
-         41f2c7c342d3adb1c4dd5f2e3dd831adff16a669 net/sched: act_ct: Fix promotion of offloaded unreplied tuple
+         9b37b3342a98300bbc96974a39edb9530700fe07 autofs: set ctime as well when mtime changes on a dir
+         c678b651655ff6ce1958b0ec6b4e9216433be79d Merge branches 'vfs.misc', 'v6.5/vfs.mount', 'fs.ntfs' and 'vfs.rename.locking' into vfs.all
          
