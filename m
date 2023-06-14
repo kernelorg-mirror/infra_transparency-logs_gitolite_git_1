@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8766221165209122854=="
+Content-Type: multipart/mixed; boundary="===============3492699949556946696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 14 Jun 2023 05:06:25 -0000
-Message-Id: <168671918517.29506.219780215629107787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 14 Jun 2023 05:06:38 -0000
+Message-Id: <168671919802.29696.7169279385653561710@gitolite.kernel.org>
 
---===============8766221165209122854==
+--===============3492699949556946696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 1f6ce8392d6ff486af5ca96df9ded5882c4b6977
     new: b16049b21162bb649cdd8519642a35972b7910fe
     log: revlist-1f6ce8392d6f-b16049b21162.txt
-  - ref: refs/heads/stable
-    old: fb054096aea0576f0c0a61c598e5e9676443ee86
-    new: 15adb51c04ccfcf58ac3eec7464a2768fe175fcc
-    log: |
-         44b902e935be111fc98eb2a2d8e3d08196fd52ac dt-bindings: net: realtek-bluetooth: Fix RTL8821CS binding
-         2a567c1e29301495affa220543f156dd6dad50a9 dt-bindings: net: realtek-bluetooth: Fix double RTL8723CS in desc
-         f7efdf5e4dc10756ad632b1863b54b1b42a07530 dt-bindings: Change Damien Le Moal's contact email
-         c44e0503e5fd90c5ccbf81bcff7b6b70e9e2655b docs: dt: fix documented Primecell compatible string
-         b0b4a63f38d7cae3c57588592556481aedcae8b1 docs: zh_CN/devicetree: sync usage-model fix
-         39affd1fdf65983904fafc07cf607cff737eaf30 of: overlay: Fix missing of_node_put() in error case of init_overlay_changeset()
-         5b47f56b6a0fe5752f0827d26037a809ec0080bc dt-bindings: i3c: silvaco,i3c-master: fix missing schema restriction
-         c7753ed71c160f75f92ff5679e9fc22526e56fc5 dt-bindings: pinctrl: qcom,pmic-mpp: Fix schema for "qcom,paired"
-         15adb51c04ccfcf58ac3eec7464a2768fe175fcc Merge tag 'devicetree-fixes-for-6.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
-  - ref: refs/tags/next-20230314
-    old: 0fdfa26451e2bca69c73a7c7ed8757791557c1e2
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230614
     old: 0000000000000000000000000000000000000000
     new: e32769647b4d5b14ebc098bbfb0b2e4a0d86fa67
 
---===============8766221165209122854==
+--===============3492699949556946696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -962,4 +945,4 @@ c32fd883a8607309c8d89b16d631a17c5b193b3b Merge branch 'bitmap-for-next' of https
 1f0a70db8b85e7f64404157edc974217b167c96b Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 b16049b21162bb649cdd8519642a35972b7910fe Add linux-next specific files for 20230614
 
---===============8766221165209122854==--
+--===============3492699949556946696==--
