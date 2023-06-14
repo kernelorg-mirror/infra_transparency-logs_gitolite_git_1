@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6057003978207450247=="
+Content-Type: multipart/mixed; boundary="===============3634851335655495123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Jun 2023 02:25:12 -0000
-Message-Id: <168670951247.12816.5898690937865806761@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 02:25:21 -0000
+Message-Id: <168670952159.12974.13285428531748034980@gitolite.kernel.org>
 
---===============6057003978207450247==
+--===============3634851335655495123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/tmp.perf-tools-next
     old: 104328c0a8fd2e6f9767cacaf255aba7c98032d1
     new: 50516f42d44b7b92140fef13d70e7e9560cadd5c
     log: revlist-104328c0a8fd-50516f42d44b.txt
 
---===============6057003978207450247==
+--===============3634851335655495123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b21dec462cd827c20ef56f9113c83a4f7edae964 perf tests task_analyzer: Skip tests if
 0ee7a3663c9937f943a4da6781838b7f6341b152 pert tests: Support metricgroup perf stat JSON output
 50516f42d44b7b92140fef13d70e7e9560cadd5c perf vendor events arm64: Add default tags into topdown L1 metrics
 
---===============6057003978207450247==--
+--===============3634851335655495123==--
