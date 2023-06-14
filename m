@@ -1,48 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1828213987708490990=="
+Content-Type: multipart/mixed; boundary="===============1802130472242678377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 14 Jun 2023 21:59:17 -0000
-Message-Id: <168677995795.32580.4397358171306568042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 14 Jun 2023 22:04:08 -0000
+Message-Id: <168678024845.3691.5448589509015657058@gitolite.kernel.org>
 
---===============1828213987708490990==
+--===============1802130472242678377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: fe74cee6588a63f590e4bf31da9fd7d5d7ddd3bc
-    new: 6e765d29784689813f4910c7f9a593844f238aa1
-    log: revlist-fe74cee6588a-6e765d297846.txt
+  - ref: refs/heads/i2c/for-current
+    old: 858fd168a95c5b9669aac8db6c14a9aeab446375
+    new: e4c18fbee68942c8a6e99e42c39dd4abfcf8a4a1
+    log: |
+         d04c2fee1c59464aa89289f74ae61847510cbb16 dt-bindings: i2c: opencores: Add missing type for "regstep"
+         e4c18fbee68942c8a6e99e42c39dd4abfcf8a4a1 i2c: qup: Add missing unwind goto in qup_i2c_probe()
+         
+  - ref: refs/heads/i2c/for-mergewindow
+    old: c21a17b5ce6e1a2e8de2f027a9a98db3cb96c428
+    new: e653810f7898baebd05f953b8fb3e2c7b8485b45
+    log: |
+         9d178e00583ee803dd48ec60916c64b87f5449e7 i2c: mpc: Use of_property_read_reg() to parse "reg"
+         0520628e5c6bce6b43af8b468ae9396617d5b9a4 i2c: hix5hd2: Add I2C_M_STOP flag support for i2c-hix5hd2 driver.
+         acdaf0e767494697edf44d3424f5458d5868b3ea i2c: versatile: Use devm_platform_get_and_ioremap_resource()
+         3152893c04d2c03bf752a0866d6bf8fae91779c6 i2c: wmt: Use devm_platform_get_and_ioremap_resource()
+         a7fbfd44c0204f0629288edfd0d77829edb4a2f8 usb: typec: ucsi: Mark dGPUs as DEVICE scope
+         1c5d33fff0d375e4ab7c4261dc62a286babbb4c6 i2c: nomadik: Remove unnecessary goto label
+         9c7174db4cdd111e10d19eed5c36fd978a14c8a2 i2c: nomadik: Use devm_clk_get_enabled()
+         e653810f7898baebd05f953b8fb3e2c7b8485b45 i2c: nomadik: Use dev_err_probe() whenever possible
+         
+  - ref: refs/heads/i2c/for-next
+    old: 0fa1d7f8a036fe872d6951508cd008c3fcb96bb1
+    new: 8e5b414887abab250ae44350413712c6ced86e70
+    log: revlist-0fa1d7f8a036-8e5b414887ab.txt
 
---===============1828213987708490990==
+--===============1802130472242678377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe74cee6588a-6e765d297846.txt
+Content-Disposition: attachment; filename=revlist-0fa1d7f8a036-8e5b414887ab.txt
 
-b50f2d048ecf1512ff85128ea4153bceb0e60590 btrfs: scrub: fix a return value overwrite in scrub_stripe()
-e53b4a53bd88a295fab482363dcb800c39ed7252 Merge branch 'misc-6.4' into next-fixes
-0b5af18e9b3e3f69a860c71e1d42cb4d5c4c3fbc btrfs: scrub: remove unused btrfs_path in scrub_simple_mirror()
-89171bdafe2af49cc1b874432e1179664d4ac12b btrfs: do not BUG_ON on failure to get dir index for new snapshot
-91956ff5efb3fe642131226e595849adad09fc3d btrfs: do not BUG_ON after failure to migrate space during truncation
-afdcde2164c30cb86b158f05ecb467fd543b6f85 btrfs: do not ASSERT() on duplicated global roots
-54767c66756690fb60090090614502fb64d22aa2 btrfs: scrub: remove scrub_ctx::csum_list member
-7f83fcfa3144ecc660b9772c0a444db9a43d01b3 btrfs: scrub: remove btrfs_fs_info::scrub_wr_completion_workers
-67b99d8fcc16df530b2e8cf5ee76ee8cfe71ac52 btrfs: fix iomap_begin length for nocow writes
-45c16496bc201033ad1f7631c4fdd2cdf69b2a2f btrfs: can_nocow_file_extent should pass down args->strict from callers
-8ccf0148e6b956ec0376e61533d0723ad5e713d2 btrfs: zoned: do not limit delalloc size to fs_info->max_extent_size
-fbe64dc36b5233a3b2e5a6d132b89cb216b90c56 btrfs: add handling for RAID1C23/DUP to btrfs_reduce_alloc_profile
-3a1f79b42791c5b9487f8ce67a3fe9d5c6ac05dc btrfs: scrub: fix a return value overwrite in scrub_stripe()
-ae96da06ffc0c503a7ba7283689c32ba46e2da3a Merge branch 'misc-6.4' into for-next-current-v6.3-20230614
-529ef6716ad02b941e123520c1055d5d0098def0 Merge branch 'next-fixes' into for-next-next-v6.4-20230614
-71d812b4416348e1e553853a6fc7d86c60747fd2 Merge branch 'misc-next' into for-next-next-v6.4-20230614
-08d5e52a844d3cfde5726df3cb57424d2387206c Merge branch 'for-next-current-v6.3-20230614' into for-next-20230614
-6e765d29784689813f4910c7f9a593844f238aa1 Merge branch 'for-next-next-v6.4-20230614' into for-next-20230614
+d04c2fee1c59464aa89289f74ae61847510cbb16 dt-bindings: i2c: opencores: Add missing type for "regstep"
+9d178e00583ee803dd48ec60916c64b87f5449e7 i2c: mpc: Use of_property_read_reg() to parse "reg"
+0520628e5c6bce6b43af8b468ae9396617d5b9a4 i2c: hix5hd2: Add I2C_M_STOP flag support for i2c-hix5hd2 driver.
+acdaf0e767494697edf44d3424f5458d5868b3ea i2c: versatile: Use devm_platform_get_and_ioremap_resource()
+3152893c04d2c03bf752a0866d6bf8fae91779c6 i2c: wmt: Use devm_platform_get_and_ioremap_resource()
+e4c18fbee68942c8a6e99e42c39dd4abfcf8a4a1 i2c: qup: Add missing unwind goto in qup_i2c_probe()
+a7fbfd44c0204f0629288edfd0d77829edb4a2f8 usb: typec: ucsi: Mark dGPUs as DEVICE scope
+1c5d33fff0d375e4ab7c4261dc62a286babbb4c6 i2c: nomadik: Remove unnecessary goto label
+9c7174db4cdd111e10d19eed5c36fd978a14c8a2 i2c: nomadik: Use devm_clk_get_enabled()
+e653810f7898baebd05f953b8fb3e2c7b8485b45 i2c: nomadik: Use dev_err_probe() whenever possible
+4fdc65001f89a54ab7eb50fa1f634458fa0062b9 Merge branch 'i2c/for-current' into i2c/for-next
+8e5b414887abab250ae44350413712c6ced86e70 Merge branch 'i2c/for-mergewindow' into i2c/for-next
 
---===============1828213987708490990==--
+--===============1802130472242678377==--
