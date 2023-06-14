@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8227765356439314014=="
+Content-Type: multipart/mixed; boundary="===============5588953472897984136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 14 Jun 2023 16:17:38 -0000
-Message-Id: <168675945893.9908.1157710955646219217@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 16:18:40 -0000
+Message-Id: <168675952064.10358.6687775628164179738@gitolite.kernel.org>
 
---===============8227765356439314014==
+--===============5588953472897984136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 2f932d4151599bc647607ae841cf57273279168c
-    new: b752a984e2e3abfba2e0d2294a96bf3516adab4d
-    log: revlist-2f932d415159-b752a984e2e3.txt
+  - ref: refs/heads/ti-next
+    old: 79c0a9fe69a950d97028c5f0f7bbde679d59b00c
+    new: ed07c55c7a7454f4abb1a3a848046e26138f31d5
+    log: revlist-79c0a9fe69a9-ed07c55c7a74.txt
 
---===============8227765356439314014==
+--===============5588953472897984136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f932d415159-b752a984e2e3.txt
+Content-Disposition: attachment; filename=revlist-79c0a9fe69a9-ed07c55c7a74.txt
 
+cf39ff15cc01adea0ec46d1571d5ae849bb02d43 arm64: dts: ti: k3-am62a7-sk: Describe main_uart1 and wkup_uart
+3d011933000ed9054c649952d83162d24f020a93 arm64: dts: ti: k3-j7200: Fix physical address of pin
+2f932d4151599bc647607ae841cf57273279168c arm64: dts: ti: k3-j7200-som: Enable I2C
 7e5fd896c3d1ecf7b806f5fd42245c1135fe878d arm64: dts: ti: k3-j784s4-main: Add R5F cluster nodes
 257d206b6d117d8e40742dc17ae02406747753ad arm64: dts: ti: k3-j784s4-main: Add C71x DSP nodes
 ba12d4dde708de01d3cae5ae368a930ec5f5fd07 arm64: dts: ti: k3-j784s4-evm: Reserve memory for remote proc IPC
@@ -38,6 +41,7 @@ da61731dc7f5d7a676acd81124229b57e6fbe0ef arm64: dts: ti: k3-j721s2-common-proc-b
 bbabba4ece74c51b98e7c8dbd8fa4725d0ae9baf arm64: dts: ti: k3-j721s2: Add support for OSPI Flashes
 b6f18aa80f4eee59f9292f0007c021cb7e7dbbec arm64: dts: ti: k3-j721s2-main: Add PCIe device tree node
 715084ecc25adafe7f724721807b64fcc3a13e4a arm64: dts: ti: k3-j721s2-common-proc-board: Enable PCIe
+2cfa260933192795e8784859be733744fb209cf2 Merge remote-tracking branch 'ti-keystone-dts-next' into ti-next
 96135297a76003faae68e3aa86e2e19851510eb9 arm64: dts: ti: k3-am64-main: add VTM node
 bbb6dc62505acf6fcb80573f7e7a59875c33be0d arm64: dts: ti: k3-am62-wakeup: add VTM node
 225312fbaf37bb283dbc92a0a1d4dfe58629ab64 arm64: dts: ti: k3-am62a-wakeup: add VTM node
@@ -147,5 +151,6 @@ cdf2d9f5fad7a768bc7f9c565fdc4e4cef6ad075 arm64: dts: ti: k3-am62: Add ESM suppor
 4ca6d65ca0fcc8363fee61c77ac2bd30ee4b3ba7 arm64: dts: ti: k3-am64: Add ESM support
 e15e87f63c86fb1e1af72ae80ce75d1ea3cc1097 arm64: dts: ti: k3-j721e-som-p0: Enable wakeup_i2c0 and eeprom
 b752a984e2e3abfba2e0d2294a96bf3516adab4d arm64: dts: ti: k3-j7200-mcu-wakeup: Remove 0x unit address prefix from nodename
+ed07c55c7a7454f4abb1a3a848046e26138f31d5 Merge remote-tracking branch 'ti-k3-dts-next' into ti-next
 
---===============8227765356439314014==--
+--===============5588953472897984136==--
