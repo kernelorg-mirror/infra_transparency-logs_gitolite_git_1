@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 14 Jun 2023 19:23:25 -0000
-Message-Id: <168677060503.15439.2701216333114067359@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 19:28:38 -0000
+Message-Id: <168677091863.18815.53659276843781282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/hardening
-    old: cab573a674fbf95384aca9de9701e5303d0a71a3
-    new: 89e9fb41364437266a4112c459de034606c00b18
+    old: 89e9fb41364437266a4112c459de034606c00b18
+    new: 5438cdaab52d200de6e08123f844898a6a6eeea4
     log: |
-         48ad87a5be0600e400bba05f5e55ec215c623399 um: Use HOST_DIR for mrproper
-         89e9fb41364437266a4112c459de034606c00b18 usb: ch9: Replace 1-element array with flexible array
+         870410910b6ad032afb6a02bfd6a8c65dde6084b sh: Replace all non-returning strlcpy with strscpy
+         33457938a0c4e817ab6f9923e244b91289f47f54 kallsyms: Replace all non-returning strlcpy with strscpy
+         a5a319ec2c2236bb96d147c16196d2f1f3799301 um: Use HOST_DIR for mrproper
+         5438cdaab52d200de6e08123f844898a6a6eeea4 usb: ch9: Replace 1-element array with flexible array
          
