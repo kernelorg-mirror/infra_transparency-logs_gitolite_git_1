@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7635700883041564848=="
+Content-Type: multipart/mixed; boundary="===============1312806494291791321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 14 Jun 2023 19:47:22 -0000
-Message-Id: <168677204229.2728.4400006491714935583@gitolite.kernel.org>
+Date: Wed, 14 Jun 2023 19:47:38 -0000
+Message-Id: <168677205874.2893.3583474382863715680@gitolite.kernel.org>
 
---===============7635700883041564848==
+--===============1312806494291791321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 7e67dd4899d866115be2f68fa3f328616cd60408
     new: b4975b97757f86f7ef7dc55e4c7e8673bbf31db0
     log: revlist-7e67dd4899d8-b4975b97757f.txt
 
---===============7635700883041564848==
+--===============1312806494291791321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ b822d7e67560198cebf35fcab6e557987f31ee52 modpost: squash sym_update_namespace() 
 af7396f9d651dfbecabc141ca4a99c6f2abce473 linux/export.h: rename 'sec' argument to 'license'
 b4975b97757f86f7ef7dc55e4c7e8673bbf31db0 kbuild: revive "Entering directory" for Make >= 4.4.1
 
---===============7635700883041564848==--
+--===============1312806494291791321==--
