@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 14 Jun 2023 13:16:39 -0000
-Message-Id: <168674859901.9654.16115986627279578305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 14 Jun 2023 13:26:05 -0000
+Message-Id: <168674916598.15922.2459340133589193758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: c180f85825e577225372b983fc86dd8d4be89de6
-    new: fa0e21fa44438a0e856d42224bfa24641d37b979
-    log: |
-         fa0e21fa44438a0e856d42224bfa24641d37b979 rtnetlink: extend RTEXT_FILTER_SKIP_STATS to IFLA_VF_INFO
-         
+  - ref: refs/heads/20230609_wenst_regulator_mt6358_remove_bogus_regulators_and_improvements
+    old: 0000000000000000000000000000000000000000
+    new: c5f5da216f4add0c598396ff22428fe8f4ad9dc6
