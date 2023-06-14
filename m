@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 14 Jun 2023 13:04:11 -0000
-Message-Id: <168674785114.31433.5176599160628332154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 14 Jun 2023 13:16:39 -0000
+Message-Id: <168674859901.9654.16115986627279578305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 9a80247cf4a70c837055271c978afda7ef107338
-    new: 953dbd6af794e528e05a22ba4bed4b02e49a46fd
+  - ref: refs/heads/main
+    old: c180f85825e577225372b983fc86dd8d4be89de6
+    new: fa0e21fa44438a0e856d42224bfa24641d37b979
     log: |
-         220281b46fdc7ea335779bdf81d892e98110f790 examples: add dedicated examples
-         53663aeb5f81283de4fc0bde8395e7bb94568cf1 bindings: cxx: examples: add dedicated examples
-         953dbd6af794e528e05a22ba4bed4b02e49a46fd bindings: python: examples: add dedicated examples
+         fa0e21fa44438a0e856d42224bfa24641d37b979 rtnetlink: extend RTEXT_FILTER_SKIP_STATS to IFLA_VF_INFO
          
