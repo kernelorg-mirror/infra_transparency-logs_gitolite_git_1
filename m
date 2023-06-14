@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 14 Jun 2023 03:47:47 -0000
-Message-Id: <168671446705.6486.7624102837257631351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 14 Jun 2023 03:47:52 -0000
+Message-Id: <168671447228.6584.8802934256740760912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a9c476978834f2c44c5d04b0938f661fe2f40728
-    new: e5d4a21b3a9477ead1c32504a56569a848c22736
+    old: fbf6f482b65da72744b4a82be412e53a94fd7c9c
+    new: 374283a1001277e4d07491387aac1fad5aa08d43
     log: |
-         e5d4a21b3a9477ead1c32504a56569a848c22736 mctp i2c: Switch back to use struct i2c_driver's .probe()
+         374283a1001277e4d07491387aac1fad5aa08d43 net: ethernet: ti: am65-cpsw: Call of_node_put() on error path
          
