@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 15 Jun 2023 17:18:03 -0000
-Message-Id: <168684948370.15262.5469584339471778333@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 17:45:19 -0000
+Message-Id: <168685111944.3055.3137101061821195500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,75 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 71dc662d0a698a4706d79619b5ea1d0a6c9eb55e
-    new: e6b8a879c75eeaa6f615454b1e55696bb9909749
-    log: |
-         2760904d895279f87196f0fa9ec570c79fe6a2e4 dm: don't lock fs when the map is NULL during suspend or resume
-         cb65b282c9640c27d3129e2e04b711ce1b352838 dm thin metadata: check fail_io before using data_sm
-         722d90822321497e2837cfc9000202e256e6b32f dm thin: fix issue_discard to pass GFP_NOIO to __blkdev_issue_discard
-         be04c14a1bd262a49e5764e5cf864259b7e740fd dm: use op specific max_sectors when splitting abnormal io
-         e6b8a879c75eeaa6f615454b1e55696bb9909749 Merge branch 'dm-6.4' into for-next (dm-6.5)
-         
+  - ref: refs/tags/block-6.3-2023-04-21
+    old: 0000000000000000000000000000000000000000
+    new: eaa7224d217501a9cbcee6f6cb0c100e836f06e4
+  - ref: refs/tags/block-6.4-2023-05-13
+    old: 0000000000000000000000000000000000000000
+    new: 01677e65e0b2425220e29fddd83d73a82cfbacd7
+  - ref: refs/tags/block-6.4-2023-05-20
+    old: 0000000000000000000000000000000000000000
+    new: 07e1c1d38862c4290baa98b5fe30fdc39c30b4f2
+  - ref: refs/tags/block-6.4-2023-05-26
+    old: 0000000000000000000000000000000000000000
+    new: bf58ec301f97f59259f8c023081988def7028b8b
+  - ref: refs/tags/block-6.4-2023-06-02
+    old: 0000000000000000000000000000000000000000
+    new: 862b5885e638f90ddfe65fd195b400c17525186e
+  - ref: refs/tags/for-6.4/block-2023-04-21
+    old: 0000000000000000000000000000000000000000
+    new: 0efcfd5a66532a4544e7616359c1f5fa27dec605
+  - ref: refs/tags/for-6.4/block-2023-05-06
+    old: 0000000000000000000000000000000000000000
+    new: 6229b78ba02da03ef53ee138563db0e8890e8e2d
+  - ref: refs/tags/for-6.4/dm-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 33c124ee67e27773ed6e99f95611bc593907acb0
+  - ref: refs/tags/for-6.4/io_uring-2023-04-21
+    old: 0000000000000000000000000000000000000000
+    new: 0c415d788ef25ac2eae0442abe428938fcc2db37
+  - ref: refs/tags/for-6.4/io_uring-2023-05-07
+    old: 0000000000000000000000000000000000000000
+    new: 5e08000ae506207ea35de556fa9856d2264436ec
+  - ref: refs/tags/io_uring-6.4-2023-05-12
+    old: 0000000000000000000000000000000000000000
+    new: 2d3adcd94476300178f35931d8fb96b57999ad5a
+  - ref: refs/tags/io_uring-6.4-2023-05-26
+    old: 0000000000000000000000000000000000000000
+    new: d33a68fbde9d3fef5bd5a037f6d31d4cdf372ed9
+  - ref: refs/tags/io_uring-6.4-2023-06-02
+    old: 0000000000000000000000000000000000000000
+    new: b15ece7bd6163cb886a4e9517accf0241fe13af1
+  - ref: refs/tags/iter-ubuf.2-2023-04-21
+    old: 0000000000000000000000000000000000000000
+    new: 04ca8f87db6e0287e4b3018f37509e7cbbebfbd7
+  - ref: refs/tags/pipe-nonblock-2023-05-06
+    old: 0000000000000000000000000000000000000000
+    new: e84f4bcc921280e8ccbbba00bee506c2134d5ac4
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+  - ref: refs/tags/v6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
