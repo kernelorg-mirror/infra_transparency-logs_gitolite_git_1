@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Thu, 15 Jun 2023 10:42:59 -0000
-Message-Id: <168682577905.17707.5993570166035223693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 15 Jun 2023 10:43:45 -0000
+Message-Id: <168682582596.18046.13517282799446097921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/v6.4-next-soc
-    old: 0000000000000000000000000000000000000000
-    new: 2e13e710582dc5f064c21b3a0fade01ff0a4fbda
+  - ref: refs/heads/main
+    old: 0c0cf3db83f8c7c9bb141c2771a34043bcf952ef
+    new: e84a1e1e683f3558e30f437d7c99df35afb8b52c
+    log: |
+         e84a1e1e683f3558e30f437d7c99df35afb8b52c sfc: fix XDP queues mode with legacy IRQ
+         
