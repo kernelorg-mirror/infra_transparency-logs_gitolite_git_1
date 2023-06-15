@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5455889162580224239=="
+Content-Type: multipart/mixed; boundary="===============1079674172943997179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 15 Jun 2023 02:14:20 -0000
-Message-Id: <168679526081.25390.3612724614500552519@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 02:14:33 -0000
+Message-Id: <168679527323.25543.14385011723300680683@gitolite.kernel.org>
 
---===============5455889162580224239==
+--===============1079674172943997179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 83e7a73a56b74a96a6e4caf61ed001e85c16686c
-    new: b138ead2d247f8aade0f26d7d7df8463bab292ca
-    log: revlist-83e7a73a56b7-b138ead2d247.txt
+  - ref: refs/heads/6.5/scsi-staging
+    old: 022000d3f586de7b0765075b85f0705f50a4fa69
+    new: aca416ac0b1fbe89d563f88cdb9884f986863d34
+    log: revlist-022000d3f586-aca416ac0b1f.txt
 
---===============5455889162580224239==
+--===============1079674172943997179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1686795251 -0400
+pusher 75C5DE3D 1686795264 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1686795251-0caf2e6a8ecc1c6b83add60d2be47db03e3c9f0c
+nonce 1686795264-5b0875a64c6fd2930564d2fb41b6e16c0d064c86
 
-83e7a73a56b74a96a6e4caf61ed001e85c16686c b138ead2d247f8aade0f26d7d7df8463bab292ca refs/tags/mkp-scsi-staging
+022000d3f586de7b0765075b85f0705f50a4fa69 aca416ac0b1fbe89d563f88cdb9884f986863d34 refs/heads/6.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSKc/MACgkQ7ulgGnXF
-3j1XRw//Vvcerre02dUQk0TqOd6yp9/zBqShYlsvWbhtjJPhK0tHdmDQIWtkgirW
-rA7tDWddKYS6Wk2B8cJLvQBMhW05MiNKF+qBcLzWxBJo4eEBik1+yFIdcM60JVf2
-pVkOlgkt8QtFRfgiBkNRqbCIn0N+wpc6LDlgeoQucgRMvTuS6KdHi512El3et/lL
-ox+WIol896KGeMw9o8vXr927nqJ7pL6cIiZFjE3L3DImGqzNwzwm5ZYOErGHPIui
-+utRD4pNPv598R/qn0IQVA7a3/cSkEltmxFiBUvSq8kRTG2czatC+nLkMBWTXOA8
-6f82m+b+5MUVb7dWpBU7KPtU8M6b5eX4X0Ah7gQvdm+uChkKr6+FBz9u3XntO6BA
-RRmfdyOI5kF2cr2S4PFPFDUNrhtyLpcUes9QxSFRhRurH4QgAFblTvfNhlRLXhmV
-c7WUZVmbY+8wOSEEg7FaQzO9Fz0BSVvt1ObED6YkiJzFeFLP3BijVTzssBFN5BTR
-MbH4xEbLD+LVlnWAIgeSxSjuBP3JrINN8q3Vk3cRCKZMGtck0GJmy1xPt8RG6Nfz
-b8DGdhFRchREMNgYITgx1jUgKeqRrb4p04ZlIUmWcCcMFShU8ZFURmIbY2zDvPaB
-SbvusJ6lvTawrHxX6muq/0PDqOS8tW1wUmMTBtspEg148WF7Ldw=
-=RrmX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSKdAAACgkQ7ulgGnXF
+3j1TcA/+Ln6Gb1bcNReotbh7IGHRWHeTTl+1WODNfon9aRxtekjydnTP28aozwPM
+1XSEsOIW1hlEnkvos9W/crwh1IEFFyT7zrplrgABGd67h8tOdXDaSNdGqN9O977T
+tnIhu4MPtObJprukzp4dMYoln9Pwzdz955y3PpXPJM7LeCUWLt0e3Cfi+pgZB0uP
+9AKZzWWSmSnQbO3xcaQjsdLYz3YaDpi69Wg1wGOvjUy7IkoG0+DCUrHWFWJbsEib
++QuaWsl3NlNV17/L33UjvsruWif4AF2GzVEAdzvdWS8JQgukRZyiMFPITiCQjBo5
+3ompIOxLNf5Qg4bz+4ae/QtutA3Ov/iHD0iU5j7xlPV0L/K/dTgvqk7unRAJKCJn
+p+goj/hsmHXkID7juMHfAD6nGvTNH5nCrAjoZR8qaIMLeF+EXuzM1eNv7cYnhUPj
+E4s8hzIxdLZuK+TxURVLS1Vigpbo5pyNgcwFrqtvZSwaDuoa3h7E8kSqyk+iRMAZ
+BI94QBdbYIyGmRpwDk3unsqvGqUffy/Tjm/SN9ulLMDsh/QkoVFaDcMifCfLuXA0
+NgBOBXxLFY1fqDBLveHsYhqUwwmuNPGq07lyfnCumtL7cN37fPbbvFmVfQk31/hd
+vAYslrSTopuPcJhJe2k2SLi9I2WaIA0GVFjAZ5jY8MbiA98pBnU=
+=PPIM
 -----END PGP SIGNATURE-----
 
---===============5455889162580224239==
+--===============1079674172943997179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83e7a73a56b7-b138ead2d247.txt
+Content-Disposition: attachment; filename=revlist-022000d3f586-aca416ac0b1f.txt
 
 bfaaaa3d9d09974828dc5c5d44eb2657a65d6b60 scsi: block: Improve ioprio value validity checks
 283df5a32d2cb7f6262c16ae6fd4bc57823c9922 scsi: ufs: dt-bindings: samsung,exynos: Drop unneeded quotes
@@ -79,4 +79,4 @@ b1b9d3825df4c757d653d0b1df66f084835db9c3 scsi: qla2xxx: Correct the index of arr
 991e7ac609ee817aa2100b7bc5ee8eadf074dea8 scsi: qla2xxx: Update version to 10.02.08.400-k
 aca416ac0b1fbe89d563f88cdb9884f986863d34 Merge patch series "qla2xxx klocwork fixes"
 
---===============5455889162580224239==--
+--===============1079674172943997179==--
