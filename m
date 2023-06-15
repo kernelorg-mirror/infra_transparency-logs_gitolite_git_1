@@ -1,85 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 15 Jun 2023 17:45:19 -0000
-Message-Id: <168685111944.3055.3137101061821195500@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8586155509002122987=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Thu, 15 Jun 2023 17:52:56 -0000
+Message-Id: <168685157607.7299.4595746363828691514@gitolite.kernel.org>
+
+--===============8586155509002122987==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/tags/block-6.3-2023-04-21
-    old: 0000000000000000000000000000000000000000
-    new: eaa7224d217501a9cbcee6f6cb0c100e836f06e4
-  - ref: refs/tags/block-6.4-2023-05-13
-    old: 0000000000000000000000000000000000000000
-    new: 01677e65e0b2425220e29fddd83d73a82cfbacd7
-  - ref: refs/tags/block-6.4-2023-05-20
-    old: 0000000000000000000000000000000000000000
-    new: 07e1c1d38862c4290baa98b5fe30fdc39c30b4f2
-  - ref: refs/tags/block-6.4-2023-05-26
-    old: 0000000000000000000000000000000000000000
-    new: bf58ec301f97f59259f8c023081988def7028b8b
-  - ref: refs/tags/block-6.4-2023-06-02
-    old: 0000000000000000000000000000000000000000
-    new: 862b5885e638f90ddfe65fd195b400c17525186e
-  - ref: refs/tags/for-6.4/block-2023-04-21
-    old: 0000000000000000000000000000000000000000
-    new: 0efcfd5a66532a4544e7616359c1f5fa27dec605
-  - ref: refs/tags/for-6.4/block-2023-05-06
-    old: 0000000000000000000000000000000000000000
-    new: 6229b78ba02da03ef53ee138563db0e8890e8e2d
-  - ref: refs/tags/for-6.4/dm-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 33c124ee67e27773ed6e99f95611bc593907acb0
-  - ref: refs/tags/for-6.4/io_uring-2023-04-21
-    old: 0000000000000000000000000000000000000000
-    new: 0c415d788ef25ac2eae0442abe428938fcc2db37
-  - ref: refs/tags/for-6.4/io_uring-2023-05-07
-    old: 0000000000000000000000000000000000000000
-    new: 5e08000ae506207ea35de556fa9856d2264436ec
-  - ref: refs/tags/io_uring-6.4-2023-05-12
-    old: 0000000000000000000000000000000000000000
-    new: 2d3adcd94476300178f35931d8fb96b57999ad5a
-  - ref: refs/tags/io_uring-6.4-2023-05-26
-    old: 0000000000000000000000000000000000000000
-    new: d33a68fbde9d3fef5bd5a037f6d31d4cdf372ed9
-  - ref: refs/tags/io_uring-6.4-2023-06-02
-    old: 0000000000000000000000000000000000000000
-    new: b15ece7bd6163cb886a4e9517accf0241fe13af1
-  - ref: refs/tags/iter-ubuf.2-2023-04-21
-    old: 0000000000000000000000000000000000000000
-    new: 04ca8f87db6e0287e4b3018f37509e7cbbebfbd7
-  - ref: refs/tags/pipe-nonblock-2023-05-06
-    old: 0000000000000000000000000000000000000000
-    new: e84f4bcc921280e8ccbbba00bee506c2134d5ac4
-  - ref: refs/tags/v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
-  - ref: refs/tags/v6.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
-  - ref: refs/tags/v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
-  - ref: refs/tags/v6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9632302b68e03c8579120884b22c4e4dc2340e43
-  - ref: refs/tags/v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/heads/dev
+    old: 4138d5a9121b2620e3937ffa05c1876299daa335
+    new: 18a87f3eaef571d006e9a4a4c66ceb816bf98005
+    log: revlist-4138d5a9121b-18a87f3eaef5.txt
+
+--===============8586155509002122987==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4138d5a9121b-18a87f3eaef5.txt
+
+e59031a552b5cbda098a7ee421ec56bd084dfd4d f2fs: assign default compression level
+bc26aeeb513a3f4519f24d33efa86c0c1eb0fbfe f2fs: add sanity compress level check for compressed file
+3a02b5f66c924a92519c51bf1f2965c7708df545 f2fs: compress: fix to check validity of i_compress_flag field
+67297c50287aa25e2cc3b3c14d1b097efc99001f f2fs: do more sanity check on inode
+d618126911829523e35a61f4a5a4ad159b1b2c8d f2fs: enable nowait async buffered writes
+2032178255b22041a420650fd1d275cbe6e2e105 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+ff39f73ac768b23cd297c4d8a21025d0a3380741 f2fs: add helper to check compression level
+4acc6b9d6104bafb0b010814bbcbc8fdffba3cc1 f2fs: cleanup MIN_INLINE_XATTR_SIZE
+1c5c646596c6ea9a6a59cb719a77c6f23314bcea f2fs: add f2fs_ioc_get_compress_blocks
+7faa5e31fcc187229cacf102fcea25feb65af239 f2fs: check zone write pointer points to the end of zone
+3980d3fdf77ca1df4d8d7124596a903ad988a1e9 f2fs: compress tmp files given extension
+c1ac6e02b5fc00503ad18a7641a66f4550464766 f2fs: remove i_xattr_sem to avoid deadlock and fix the original issue
+18a87f3eaef571d006e9a4a4c66ceb816bf98005 f2fs: do not issue small discard commands during checkpoint
+
+--===============8586155509002122987==--
