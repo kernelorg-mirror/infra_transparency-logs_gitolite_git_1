@@ -1,82 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3952709556828984912=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 15 Jun 2023 02:14:43 -0000
-Message-Id: <168679528372.25770.8355928318357342337@gitolite.kernel.org>
-
---===============3952709556828984912==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 15 Jun 2023 02:20:10 -0000
+Message-Id: <168679561016.31073.15048433825896989830@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-next
-    old: 022000d3f586de7b0765075b85f0705f50a4fa69
-    new: aca416ac0b1fbe89d563f88cdb9884f986863d34
-    log: revlist-022000d3f586-aca416ac0b1f.txt
-
---===============3952709556828984912==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1686795282 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1686795281-076446a1886ee085a5fdd57fe6feaf7a697902b9
-
-022000d3f586de7b0765075b85f0705f50a4fa69 aca416ac0b1fbe89d563f88cdb9884f986863d34 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSKdBIACgkQ7ulgGnXF
-3j2O5RAAtkFWcvM41AHK2Dht4wjKLTiPIc7Y1sGrfLfKRp6uM8XV9WI/MRc04kuv
-AlZjNf9vmAKuHROlgNTEOLEKhNUx1mDPYSG9anFg1/QOiJ3w4dvaZ1R+SPHSrl8g
-rg9yXUa/UWCYMRRP+cKg96MUm2xVNAWCeehoWAQylG+nVF5olSiTFArfuNXsnFng
-+Xcn+H4caQzDFWoJKUb0HYk50WrJLpGIAkzYMl82tEhQhyuMEn6cEbhIp5SzGTs8
-Xaxbt75LdTnrc2bWEVqSrMkwNTNsgTRaQx9FGbqMYlpAilXdRVBfia842hFYEYcy
-X0FbBGd+T7hxyIuvtgeTYflWRpSu4PmNP11mX8ZQ9IcL5aCdxkaHrB7zzc9HzeW3
-4XGuFtQ88lI0V6kJTp0tf0wXyr3Ov+9NCR3iK0J6yOjXJhYwkQlCtqiD7nbn0QaM
-dzbhP/VuCKrRpHp/4qAlRUkVbpRcH2l0ge5m1yBAKl2Qb/LgTQ65f4KII5VuGMe1
-9pDj1Z/XiOS/tCa6hT7AKij2l21BoYzXzE8fjeVPqGDoZe+og1VB99+sAQKRfC8G
-342Ig7+8+ICZ1T/+a5LUAEVyN7S+EsNjr7kmPWKOBTae0OcfjF+WRhypQVQOfqXx
-vgBvTcMhWqseVrJKmDQisjEntzv6a1TyjdSMrnK3vMEdKiDOj74=
-=VX+E
------END PGP SIGNATURE-----
-
---===============3952709556828984912==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-022000d3f586-aca416ac0b1f.txt
-
-bfaaaa3d9d09974828dc5c5d44eb2657a65d6b60 scsi: block: Improve ioprio value validity checks
-283df5a32d2cb7f6262c16ae6fd4bc57823c9922 scsi: ufs: dt-bindings: samsung,exynos: Drop unneeded quotes
-70dbeb0e7b9480a8c63ce1b5fc0027aa7841dc24 scsi: ufs: core: mcq: Fix the incorrect OCS value for the device command
-f61be07dfc1cedc039a4444b7651ad1845934238 scsi: ufs: core: Remove dedicated hwq for dev command
-42644cdfe4066b8b6c23233eecbce977a2879cab scsi: ufs: core: Add host quirk UFSHCD_QUIRK_MCQ_BROKEN_INTR
-d9fb74cb97f4b12f1da1f66d3d03a0a6dd7c302b scsi: ufs: core: Add host quirk UFSHCD_QUIRK_MCQ_BROKEN_RTC
-e2bcc45e2b5e4bc5a8c30e10cd7e58f45fddb86e scsi: ufs: ufs-mediatek: Set UFSHCD_QUIRK_MCQ_BROKEN_INTR quirk
-f0750d6433e401f1f575c68bbc48fd7a05eb8b5e scsi: ufs: ufs-mediatek: Set UFSHCD_QUIRK_MCQ_BROKEN_RTC quirk
-35e98649fc83e578fa7d7fb5341407cf440f85f6 scsi: ufs: dt-bindings: qcom: Add ICE phandle
-b72738a3827cb052bc06758900a99001fbb113c6 scsi: ufs: ufs-qcom: Switch to the new ICE API
-0ec376c80c857efc867d9667c9cfec82af01659e scsi: ufs: wb: Add explicit flush_threshold sysfs attribute
-736b405c18fd9dcb5f110a09c1ca95c76c809d08 scsi: sd: sd_zbc: Use PAGE_SECTORS_SHIFT
-36a1aca4b64c9df05e34d43fc3bf7a84e054c5b9 scsi: ufs: ufs-pci: Add support for Intel Arrow Lake
-d721b591b95cf3f290f8a7cbe90aa2ee0368388d scsi: qla2xxx: Array index may go out of bound
-464ea494a40c6e3e0e8f91dd325408aaf21515ba scsi: qla2xxx: Fix potential NULL pointer dereference
-6b504d06976fe4a61cc05dedc68b84fadb397f77 scsi: qla2xxx: Avoid fcport pointer dereference
-af73f23a27206ffb3c477cac75b5fcf03410556e scsi: qla2xxx: Check valid rport returned by fc_bsg_to_rport()
-b68710a8094fdffe8dd4f7a82c82649f479bb453 scsi: qla2xxx: Fix buffer overrun
-00eca15319d9ce8c31cdf22f32a3467775423df4 scsi: qla2xxx: Pointer may be dereferenced
-b1b9d3825df4c757d653d0b1df66f084835db9c3 scsi: qla2xxx: Correct the index of array
-991e7ac609ee817aa2100b7bc5ee8eadf074dea8 scsi: qla2xxx: Update version to 10.02.08.400-k
-aca416ac0b1fbe89d563f88cdb9884f986863d34 Merge patch series "qla2xxx klocwork fixes"
-
---===============3952709556828984912==--
+  - ref: refs/heads/fixes-base
+    old: 09e797c8641f6ad435c33ae24c223351197ea29a
+    new: 6d074ce231772c66e648a61f6bd2245e7129d1f5
+    log: |
+         13247018d68f21e7132924b9853f7e2c423588b6 scsi: target: iscsi: Fix hang in the iSCSI login code
+         98a8c2bf938a5973716f280da618077a3d255976 scsi: target: iscsi: Remove unused transport_timer
+         2a737d3b8c792400118d6cf94958f559de9c5e59 scsi: target: iscsi: Prevent login threads from racing between each other
+         d54820b22e404b06b2b65877ff802cc7b31688bc scsi: qla2xxx: Fix NULL pointer dereference in target mode
+         6d074ce231772c66e648a61f6bd2245e7129d1f5 scsi: stex: Fix gcc 13 warnings
+         
