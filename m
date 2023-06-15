@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 15 Jun 2023 16:35:48 -0000
-Message-Id: <168684694856.15924.14873634904994239335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Thu, 15 Jun 2023 16:36:20 -0000
+Message-Id: <168684698048.16198.6823593689790594188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/tags/qcom-dts-for-6.5-2
-    old: 0000000000000000000000000000000000000000
-    new: 0623b589f3b130a00f00c7f5ab1e1a0a2d981acd
+  - ref: refs/tags/ext4_for_linus_stable
+    old: 77522f50cb1deb0dc30507d36594398ead7f06b6
+    new: 0000000000000000000000000000000000000000
