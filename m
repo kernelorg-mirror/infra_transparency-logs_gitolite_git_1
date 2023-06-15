@@ -1,28 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 15 Jun 2023 02:49:45 -0000
-Message-Id: <168679738502.19333.18124058270147422236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 15 Jun 2023 02:50:03 -0000
+Message-Id: <168679740393.21104.13332507279378128238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 86eb5c45428cfa4221d1b362a1c82d974a266e6b
-    new: 71dc662d0a698a4706d79619b5ea1d0a6c9eb55e
+  - ref: refs/heads/for-6.5/block
+    old: 6dd4423f3f247b6f0ecb828cf62ea2bc4604f0b5
+    new: dd7de3704af9989b780693d51eaea49a665bd9c2
     log: |
-         a38e808b0c442d489bbe949811b5bfce2172320f dm: don't lock fs when the map is NULL during suspend or resume
-         a574f704e15d1491bee49bcfa175e627bd233007 dm thin metadata: check fail_io before using data_sm
-         c8e09f5133e953302ca442f25c08670a2697e322 dm thin: fix issue_discard to pass GFP_NOIO to __blkdev_issue_discard
-         f27283aafdae780e231bc9591df15f9db801f590 dm: use op specific max_sectors when splitting abnormal io
-         715f44db3f118680c592791a1179782667686de8 dm thin metadata: Fix ABBA deadlock by resetting dm_bufio_client
-         0491242575771c14904d032aab22be3949700a66 dm zone: Use the bitmap API to allocate bitmaps
-         724cbeb4815711e23b15d839f72cb8cce10ddf30 dm: support turning off block-core's io stats accounting
-         68806da1234d54ddf80ab03585f71217ae8b1f1d dm: avoid needless dm_io access if all IO accounting is disabled
-         8d36dfb671fee74c59594f34e5d508acfba7b946 dm: skip dm-stats work in alloc_io() unless needed
-         71dc662d0a698a4706d79619b5ea1d0a6c9eb55e Merge branch 'dm-6.4' into for-next (dm-6.5)
+         cbe7cff4a76bc749dd70264ca5cf924e2adf9296 blktrace: use inline function for blk_trace_remove() while blktrace is disabled
+         db59133e927916d8a25ee1fd8264f2808040909d scsi: sg: fix blktrace debugfs entries leakage
+         dd7de3704af9989b780693d51eaea49a665bd9c2 block: fix blktrace debugfs entries leakage
+         
+  - ref: refs/heads/for-next
+    old: 54fd5cbd131c415516a9e48d6c12ffb1a9bd1a4d
+    new: 00e4e45897a71ba2f290a86605a97c3d2a032be1
+    log: |
+         cbe7cff4a76bc749dd70264ca5cf924e2adf9296 blktrace: use inline function for blk_trace_remove() while blktrace is disabled
+         db59133e927916d8a25ee1fd8264f2808040909d scsi: sg: fix blktrace debugfs entries leakage
+         dd7de3704af9989b780693d51eaea49a665bd9c2 block: fix blktrace debugfs entries leakage
+         00e4e45897a71ba2f290a86605a97c3d2a032be1 Merge branch 'for-6.5/block' into for-next
          
