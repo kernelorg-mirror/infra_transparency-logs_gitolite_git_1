@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 15 Jun 2023 07:42:09 -0000
-Message-Id: <168681492974.4183.16179236092440631771@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 07:47:41 -0000
+Message-Id: <168681526117.7751.8366679990232772128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 89da780aa4c7667c8b1a144959206262aebdeabe
-    new: 473f5e13b38b9533bd3ae0758418581eabf69b50
+    old: 473f5e13b38b9533bd3ae0758418581eabf69b50
+    new: 580b7fe5fcc430a38a0b073dbab2f94533a7ae89
     log: |
-         70f7457ad6d655e65f1b93cbba2a519e4b11c946 net: create device lookup API with reference tracking
-         48eed027d310326052655c5ac14588855663087b netpoll: allocate netdev tracker right away
-         473f5e13b38b9533bd3ae0758418581eabf69b50 Merge branch 'netdev-tracking'
+         5b32c61a2dac17db3f87c65cada74c9d7f31f4fb dt-bindings: net: cdns,macb: Add rx-watermark property
+         cae4bc06b3e41bc6dfd7116a45c1006e50ffe153 net: macb: Add support for partial store and forward
+         580b7fe5fcc430a38a0b073dbab2f94533a7ae89 Merge branch 'macb-partial-store-and-forward'
          
