@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6361804119477879290=="
+Content-Type: multipart/mixed; boundary="===============7329907000692378881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 15 Jun 2023 15:11:56 -0000
-Message-Id: <168684191670.20773.14538997360033419879@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 15:12:34 -0000
+Message-Id: <168684195415.21375.10571424760505261031@gitolite.kernel.org>
 
---===============6361804119477879290==
+--===============7329907000692378881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bef68e201e538eaa3a91f97aae8161eb2d0a8ed7
-    new: e84a1e1e683f3558e30f437d7c99df35afb8b52c
-    log: revlist-bef68e201e53-e84a1e1e683f.txt
+  - ref: refs/heads/dev-queue
+    old: d56017fb8c5a242376ff78917e8f22898b68e1d4
+    new: d7b975ca909e34601c02c472190683efb6835d6f
+    log: revlist-d56017fb8c5a-d7b975ca909e.txt
 
---===============6361804119477879290==
+--===============7329907000692378881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bef68e201e53-e84a1e1e683f.txt
+Content-Disposition: attachment; filename=revlist-d56017fb8c5a-d7b975ca909e.txt
 
 996c3117dae4c02b38a3cb68e5c2aec9d907ec15 wifi: cfg80211: fix double lock bug in reg_wdev_chan_valid()
 01605ad6c3e8608d7e147c9b75d67eb8a3d27d88 wifi: mac80211: fix link activation settings order
@@ -48,5 +48,26 @@ c9a82bec02c339cdda99b37c5e62b3b71fc4209c net/sched: cls_api: Fix lockup on flush
 9eed321cde22fc1afd76eac563ce19d899e0d6b2 net: lapbether: only support ethernet devices
 0c0cf3db83f8c7c9bb141c2771a34043bcf952ef net: macsec: fix double free of percpu stats
 e84a1e1e683f3558e30f437d7c99df35afb8b52c sfc: fix XDP queues mode with legacy IRQ
+1281eb246ac2f8984b06ac0f6a0ccc2ecf275284 igb: fix nvm.ops.read() error handling
+4f926b7e4bf407b2349d20dc9de009aa40c34943 iavf: Fix use-after-free in free_netdev
+e976227832d079944834b446dc1cf849b6adacd1 iavf: Fix out-of-bounds when setting channels on remove
+51a2216c3602c3fd00ee854f73fda06d5fbe109a igc: Add condition for qbv_config_change_errors counter
+c75f13f4ac8328a7153ce5ac94f86286e537364c igc: Remove delay during TX ring configuration
+2f2f946de856b9b669a0ab3355f798034f6445df iavf: use internal state to free traffic IRQs
+498560d03a0e9015c4c02c7c2718f45defc03d00 igc: Fix TX Hang issue when QBV Gate is closed
+22d67fd1b03f2ea1aab04b1f246d2353142c3ffd iavf: Wait for reset in callbacks which trigger it
+5543b060e4fa5cb92f356ecaf9a3bc207ac79bec Revert "iavf: Detach device during reset task"
+74299edbba1b395cd041b4fbd5c596db43cfc97e Revert "iavf: Do not restart Tx queues after reset task failure"
+b0983975ddacd152d30d857449c417210380b8e3 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+686661f06e2ac1d18bf5d95f6a9c4d8b0dc36a8d iavf: fix reset task race with iavf_remove()
+a5c93fd14743a8e0a4b07115494d520b6a62308b igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+e79dfb3fe36d7f43269c2f10a5aa9752b3858750 igb: fix hang issue of AER error during resume
+d1fcdee614cb177f45b8fbd2129d22d790846607 igc: Fix race condition in PTP tx code
+38de19e0fda6b2c350c767572cc31fbf79669e73 igc: Check if hardware TX timestamping is enabled earlier
+907f9310cdc47f7dbc4b3380cd09237e0b2d8623 igc: Retrieve TX timestamp during interrupt handling
+71cdf9cfffbff803a537b2102710c67341e644f7 igc: Work around HW bug causing missing timestamps
+81b72db3728a038f71ed321a430487137e4784e3 igc: Include the length/type field and VLAN tag in queueMaxSDU
+2a198ba3655b933149a60bc0ea1c3ba9d9373b72 ice: Fix max_rate check while configuring TX rate limits
+d7b975ca909e34601c02c472190683efb6835d6f ice: Fix tx queue rate limit when TCs are configured
 
---===============6361804119477879290==--
+--===============7329907000692378881==--
