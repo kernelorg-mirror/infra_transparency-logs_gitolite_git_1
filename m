@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4906377346307005970=="
+Content-Type: multipart/mixed; boundary="===============5099202205213229352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 15 Jun 2023 02:13:56 -0000
-Message-Id: <168679523633.24982.16574166631652268322@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 02:14:01 -0000
+Message-Id: <168679524161.25118.12947512293672451538@gitolite.kernel.org>
 
---===============4906377346307005970==
+--===============5099202205213229352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: bdfd041eba705208114c10738463ba757226eac5
-    new: 8e9ee8feac9cbcf2205027ba4019aa4d77ab62c2
+  - ref: refs/heads/6.5/scsi-queue
+    old: 467e6cc73ef290f0099b1b86cec4f14060984916
+    new: 022000d3f586de7b0765075b85f0705f50a4fa69
     log: |
          72554035b9797e00e68cd866e6cefa7f0b2c6f76 scsi: ufs: core: Remove a ufshcd_add_command_trace() call
          e01d05bbf6348ccd9f5a057280310d78ea9e7b52 scsi: ufs: core: Fix ufshcd_inc_sq_tail() function bug
@@ -30,33 +30,33 @@ changes:
          022000d3f586de7b0765075b85f0705f50a4fa69 scsi: qla2xxx: Drop useless LIST_HEAD
          
 
---===============4906377346307005970==
+--===============5099202205213229352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1686795227 -0400
+pusher 75C5DE3D 1686795240 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1686795227-dbe29dc7f933c0034cc83962f60a6d0b98ef0752
+nonce 1686795239-78a20d490f69f31c5ad08d74836fbc3cd00cc127
 
-bdfd041eba705208114c10738463ba757226eac5 8e9ee8feac9cbcf2205027ba4019aa4d77ab62c2 refs/tags/mkp-scsi-queue
+467e6cc73ef290f0099b1b86cec4f14060984916 022000d3f586de7b0765075b85f0705f50a4fa69 refs/heads/6.5/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSKc9sACgkQ7ulgGnXF
-3j24FQ/8CcLvGNcfXOW0qqxLxzZTJeO1xOTGtCCaMJKS9CDuazrxOm/RtUEwM7b+
-4Tskz3zy9k55h/TUz0Vj/sDF1tsOM5VipE50YG6FWN+aM9abG/GBjAsW79J9Xgwx
-OMmW1LP51ZhRvsyBFaRJDZy6/4Gz+OOdneQVXF/XuqD0SKodkGzwg+l05t/GTDIx
-M4c7A4rN0A2fFjEtAOyVtmM0tdzeSNbgyktwfpgsmQG17LB9bLWn9KZwanctrgO6
-sVpiuNISyBF7Cfv/I3SlTtdlfIIR/14ywhBrNrV85RxLOBsA83ndDFfmg7uaJBi8
-KzXGwskgrZn0lovk03gy/D1iOZaAP29rjt02Hc1XwAOqYpuGh2K2KMpx6mDPcRng
-1iE+YBO4TRSIcK6ZXe3ZOTRfeWDwiQEkpCSUPhYyEYtxq2yNLjWY8DCpLSgmI7xj
-lPnjAgpIAu3uWhhAiI3wbJA7ypu8M9kyrT5zhwVikL29NjJzvDcX3VuHLTwnzJJe
-Q8jONrtEop0VTJ19UTqGmsHT5MQs8GgA486dq80GGT0SFPNwfjddE+U9zmM5V5vP
-2DyvndNm/JBWmAn0jvGK1ZMnF3rJ3cLlvx7v+olgoslItvMooAZ9zC3JnKEseJ4G
-vS9ychfLqRZDCjjNpRKW7YRTf5ZLhNjp4dd47Bm/s18E6IS3WmY=
-=ZxSk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSKc+gACgkQ7ulgGnXF
+3j2gDA/8DRYv/nG5o8uUuZs6PPm7N0JLkjDo1vYpX0pG4oVtoODHATKpzuiArnAf
+9q0usn3C7QFXtQoQDXe92ytyz622VQeE5HA9sND7K8oFrebe0rIL+YauhqRaYvUG
+PMd1n0lvjIl8r4gK9ow1mL4oH1tQY3WcKA2ltwM1W1Hqjo6ncvMLeCiv32Ryr25G
+hkbtD3lRaEh5rZIyJOezXbNcrjxQw8UGmKJRwQQm8gCK3h7OdofA/Z0E2Y7BrNh/
+02aBeB6sLtGq9hoR8aCnZWfO8ph0MIvlve27UECQgCn5LGBP7X/D8MlK0BmsJd6f
+7XY+hMikoiK1FfNbRCPM44jYP+o7TtypNiOv5xpe86WO2oWXiiIl+VvI2+W2lzXW
+6ovVezJ9s5rTzjW0s8VoRQxurGts8PLjMGaZBGI/P6ttD8bcsrJTZ2jINZfcsNnY
++ExVbGhV0u2gJpstqzW8H3ed6UAxvRtMCdsfKM2JozfyvmlKooETzbolnTJR4trQ
+1V3N5mcTB6QHVMGTjjRSJ5nF3WDnJ3vWrcVPlXEhLQ+TlZmj4JjgKJ2bL8zdbc2x
+YcxJUVxNDYKf7+IwHGeh8CujZ4LEeVOhot/szbBB7sR6PZJs4q6beyAtMVOXKp3o
+hbsai35w6ucmgTZCXY6Y+ICexqamow5HSeejoKrX8s80pIX/zKo=
+=uWMo
 -----END PGP SIGNATURE-----
 
---===============4906377346307005970==--
+--===============5099202205213229352==--
