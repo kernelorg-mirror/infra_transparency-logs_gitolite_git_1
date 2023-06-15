@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5020036426994484772=="
+Content-Type: multipart/mixed; boundary="===============4072674419689014160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 15 Jun 2023 05:37:03 -0000
-Message-Id: <168680742322.10521.10757653313775835578@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 05:37:11 -0000
+Message-Id: <168680743127.10622.16036482355980932798@gitolite.kernel.org>
 
---===============5020036426994484772==
+--===============4072674419689014160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: c668f0d3737590ea2033a1c81602d8e4af2ae9e0
+  - ref: refs/heads/ti-k3-dts-stage
+    old: 1ba95ab5c779af9107e36be78e60f2dea937773b
     new: b70d520145c04bc614b78f46d6427c5a03b15da4
-    log: revlist-c668f0d37375-b70d520145c0.txt
+    log: revlist-1ba95ab5c779-b70d520145c0.txt
 
---===============5020036426994484772==
+--===============4072674419689014160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c668f0d37375-b70d520145c0.txt
+Content-Disposition: attachment; filename=revlist-1ba95ab5c779-b70d520145c0.txt
 
+96135297a76003faae68e3aa86e2e19851510eb9 arm64: dts: ti: k3-am64-main: add VTM node
+bbb6dc62505acf6fcb80573f7e7a59875c33be0d arm64: dts: ti: k3-am62-wakeup: add VTM node
+225312fbaf37bb283dbc92a0a1d4dfe58629ab64 arm64: dts: ti: k3-am62a-wakeup: add VTM node
 64821fbf67382951c5eae4e088df93f236c1ead6 arm64: dts: ti: j784s4: Add VTM node
 8fb4e87c55979c1f6691346205b884d1863ca6db arm64: dts: ti: j721e: Add VTM node
 4aa6586a9720849527379c415d0977f0d5bcfcac arm64: dts: ti: j7200: Add VTM node
@@ -136,4 +139,4 @@ c60a30d481d53f18d4ceb9fc2bc195d492f5fff8 dt-bindings: arm: ti: add toradex,verdi
 26d659277dc9847f1204fae37de054bb20114a3e arm64: dts: ti: add verdin am62 dahlia
 b70d520145c04bc614b78f46d6427c5a03b15da4 arm64: dts: ti: add verdin am62 yavia
 
---===============5020036426994484772==--
+--===============4072674419689014160==--
