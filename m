@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8331409313374812926=="
+Content-Type: multipart/mixed; boundary="===============4842998085205812947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 15 Jun 2023 12:52:30 -0000
-Message-Id: <168683355052.16044.4472293568966891648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 15 Jun 2023 12:52:40 -0000
+Message-Id: <168683356003.16157.12218665856492449280@gitolite.kernel.org>
 
---===============8331409313374812926==
+--===============4842998085205812947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: fed4be313a55e9a19fdabe99d1ec373e25889e2c
     new: 06f2c60eee2556259ae0d4da0bf9f3b97629a6dc
     log: |
@@ -32,28 +32,28 @@ changes:
          06f2c60eee2556259ae0d4da0bf9f3b97629a6dc ASoC: Use the maple tree register cache for RealTek
          
 
---===============8331409313374812926==
+--===============4842998085205812947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1686833549 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1686833548-a3936714773cd12f3612d0cd0b7bd57b45a0c382
+pusher C3F436CA30F5D8EB 1686833558 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1686833557-71dba40d366b89e1def507a5d9800b68301cde82
 
-fed4be313a55e9a19fdabe99d1ec373e25889e2c 06f2c60eee2556259ae0d4da0bf9f3b97629a6dc refs/heads/for-6.5
+fed4be313a55e9a19fdabe99d1ec373e25889e2c 06f2c60eee2556259ae0d4da0bf9f3b97629a6dc refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSLCY0ACgkQJNaLcl1U
-h9B0rAf7BAAw/Sv9rBNnPvA7Niv3X3dFYBmS9Z4sOQQWpFFwmqTd3UBWoI1/msMH
-Pcg7UxdpX8bDgb9TQofkiV0QtkYDvW+hvQ0aOeZre7JDgVMEuCMOw5fLlFCS2/q1
-fSt8tMQtYIFnGKSU30/Qjv2yfZ7QPJekuc6j6w7p2kJFDjqn8zw5eUQbMeseNoPC
-8W6Pk3PPTunQKHBjz3T6fYD7ksZJ4YcYHEPLE/00lKDhQlf7pQ7WiFcWHhQLl/dq
-+H+DioGt3voxC2wglPUwK0PwF9c4YusRzJq6j1QZ4KrOKpMWu9EzwtAfqjJ0LJwj
-ZODE2b4nt92O8ESsG0/BMBFfB4EPPA==
-=Ho6Q
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSLCZYACgkQJNaLcl1U
+h9CKMAf8C4sNqNpbQaT0LV/rCDlYkp6R+Sf4KHS5OggpNEBRjFahKuAIqWROUT7V
+sGP50B4kcUWMOtMPozGkz3T/hRPlpRcExX0xuOf9RaLDZQlCz2aO/O6oAhD//ghV
+nR/5k3GWzHjxoPJB3olWn9cwclkYETophMIQrCV3PEdG9/JNZCbyyyoSpxlX7CUE
+BCBT3SiUORKoiI8lgA/BxympNcolxGzb4gLju4YC6yhPNKu2+kWq+rho9HcMuU8V
+VS3VFbNgQU/fQpl8Do+LIV++65YuiFoFXD4SMuEeBPTWddsDbg5w1j3h9Se4AV+J
+J0EGmTqigARlBHNkRC2v6L1F88MofA==
+=PYSd
 -----END PGP SIGNATURE-----
 
---===============8331409313374812926==--
+--===============4842998085205812947==--
