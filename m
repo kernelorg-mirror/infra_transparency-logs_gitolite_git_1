@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6510481845603798759=="
+Content-Type: multipart/mixed; boundary="===============3845006129353415181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 15 Jun 2023 06:01:50 -0000
-Message-Id: <168680891021.28545.3961608818625481688@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 06:02:02 -0000
+Message-Id: <168680892203.28687.14961192089658627958@gitolite.kernel.org>
 
---===============6510481845603798759==
+--===============3845006129353415181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-stage
+  - ref: refs/heads/ti-k3-dts-next
     old: b70d520145c04bc614b78f46d6427c5a03b15da4
     new: e6f90bddb978a1a8a9554a5acddc94e4afd296af
     log: revlist-b70d520145c0-e6f90bddb978.txt
 
---===============6510481845603798759==
+--===============3845006129353415181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f049b541b81acd88133c2c2247d4fae6c33f1b99 arm64: dts: ti: k3-am64: Add ESM suppor
 68dfbea16159ef600272f225bcf5504129f1b195 arm64: dts: ti: add verdin am62 dahlia
 e6f90bddb978a1a8a9554a5acddc94e4afd296af arm64: dts: ti: add verdin am62 yavia
 
---===============6510481845603798759==--
+--===============3845006129353415181==--
