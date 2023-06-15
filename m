@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4426628817250040043=="
+Content-Type: multipart/mixed; boundary="===============8497984161607431316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 15 Jun 2023 11:38:25 -0000
-Message-Id: <168682910585.27172.15108328783069543708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 15 Jun 2023 11:40:34 -0000
+Message-Id: <168682923496.29543.1110654334111314123@gitolite.kernel.org>
 
---===============4426628817250040043==
+--===============8497984161607431316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 259b8366fdd729413a0de399e85e49154e71de57
-    new: a91845b9a872039618d74104c0721376ce092638
+  - ref: refs/heads/char-misc-next
+    old: e04b1bff338255777a5a2ba70ec907d52b8e7c8a
+    new: 9fb908040a935806b2ea606d3429f790c99c965c
     log: |
-         39d422555e43379516d4d13f5b7162a3dee6e646 drivers: fwnode: fix fwnode_irq_get[_byname]()
-         4981e0139feeadb1cdffd43a203543afe20769fa sysfs: Improve readability by following the kernel coding style
-         a91845b9a872039618d74104c0721376ce092638 sysfs: Skip empty folders creation
+         325bec7157b3859b45b9471447f5d130ab8a8723 mfd: tps6594: Add driver for TI TPS6594 PMIC
+         9fb908040a935806b2ea606d3429f790c99c965c Merge tag 'ib-mfd-tps6594-core-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd into char-misc-next
          
 
---===============4426628817250040043==
+--===============8497984161607431316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686829103 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1686829103-9f27594edb5050759ba841f0b7c95980367de61c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686829232 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1686829231-8862e5a95906065ad728fb9b0084b550c33133af
 
-259b8366fdd729413a0de399e85e49154e71de57 a91845b9a872039618d74104c0721376ce092638 refs/heads/driver-core-testing
+e04b1bff338255777a5a2ba70ec907d52b8e7c8a 9fb908040a935806b2ea606d3429f790c99c965c refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSK+C8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FyUQAIoTibn9MkBgItQwxiPL
-csDgS+BUZsVarnTP8/4E0pVflIXxhX678xM21lj4P6GWIeZkG0jli021IbF5Z19A
-chNL5TNZhH5LnomwAk4Hz3SJBEWyqVYJXOY5jfQEc+6WjQa9EPE49CTylUMkFmBj
-p/oBiYDaxdsAkcr5PKUITD5QLjVafrb1NLTpprp4/wJ7ML/nLyO+NxTQLk/Ik2ja
-I5nfKT04n4PxjOSEHH8d49iR91LD3+ROy500s+EDNWWI2Zz6vzKf1Rsw52IS23RC
-4ivl41Dn2kTEWIgQrcQ+tQMb3bOZZmU+IOVDbP9hWkE1ix/YcmoB697KZKqkbXFp
-tfd8hjFTBlBJtuodE0QKnKzCmMb7ngVvP/xfwmE3/pob8MhEFYi1Gbo1mTJuflu9
-qvDQgCU1k6AxCPgVHgnRyN4M4OUCCJeiMr1q+cLIAEzYtBvFgwJhFIdK84GYYQ2T
-XRrz5B8SaQ5ihnZU5a63mRAmZwF5eNB1lxwvR1IifkPk0Tx6kMAHGIqHx1kvWoPl
-599DUvKC8KD6yDPa/sbdEdJ8uRryrU7EUe/4hYPkHz4+AzOAY3ctL2op4WPk6xz+
-k3j61EH1Q/ej2pmf+aM+cnAy1L1khUO8gpJha1y0FiS2YXN3WCmrYEeXZ7uSa3rB
-c39QIU2PzMUQ3+kjtJFUNOoa
-=W03I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSK+LAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ckYQAKaW1kV5Nxfi6lY5nWJZ
+0ubMq7Em8pliLmaai0NeoqotS7jIZ0QQkQ7Sx3zKFd3jz/Hg9Zwl5CPHTCmvPWey
+10kIbs+LsxFxkwPY3711r7oHjeOXuu+w8ThTtQNfgt2A5QZntE/ZHTafz9AiO4Hn
+ZaqSciZ79JgbUl9fGS5HS21tt0QYSWohUdud12fkH8Twhubry0GTE4Yl8il2x87p
+Apx6H6z0bRnhkBIYXPdPB1F+6XNV+VUEbCI+aekpF33ie8ejhiCk8rUPb1Ws8zBC
+ZP7+gIEVoJ17wbCEOag8ufMh2NPe1MDxX5BGQ3hokHRWwW8Tu/z6koOdDDXgThfj
+ZwRyAIbxLJnndCjEilTeh0kotDNbdcMzPXmXkH7fY3lno7dI8S2siSA75xLSYKFr
+iwgZkhpunk6VCtXvrN5edgbnArF1WumeKuYNVfoTkNAy1KMpP9rq2hJ9VTX1VEN8
+eiCO3sTifQ4Lei2gkiEKThDlF8e9MTAHFz78LtFWCpf0qmLgH9DllllSA5R0odcd
+swDZfnaUUvnAC+qCEk1qPOSjPXgQKrUTd1xsnuPbI25uUK7SVHqINCR7DsBAatyl
+dSYCjwW2wDIAT4Jr4SxQG2UhumnBrnDXmoWTK+rx2bzZ59kSGAcJ7HuqeuSjMDkM
+uEMyvbTeNfQ2Sb81JtbdMWRQ
+=Y8ou
 -----END PGP SIGNATURE-----
 
---===============4426628817250040043==--
+--===============8497984161607431316==--
