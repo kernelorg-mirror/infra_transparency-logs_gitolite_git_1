@@ -1,96 +1,121 @@
-Content-Type: multipart/mixed; boundary="===============5079478976403698667=="
+Content-Type: multipart/mixed; boundary="===============6743033316841036688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 15 Jun 2023 11:05:27 -0000
-Message-Id: <168682712728.1752.17748914679860457561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 15 Jun 2023 11:06:18 -0000
+Message-Id: <168682717879.2173.10226221361238499179@gitolite.kernel.org>
 
---===============5079478976403698667==
+--===============6743033316841036688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: 4f67830b84dd65ae033223871d6060b73b5a9f6e
-    new: 82d0b8ca25afa3b0c52f84c0dd32e935d06b1148
-    log: revlist-4f67830b84dd-82d0b8ca25af.txt
+  - ref: refs/heads/char-misc-testing
+    old: 6ea65f24f78cdc1618be2b7ca5ffc9ce83448c3c
+    new: 269b9d8fafbef403fa3e5672954aee5a9079be11
+    log: revlist-6ea65f24f78c-269b9d8fafbe.txt
 
---===============5079478976403698667==
+--===============6743033316841036688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f67830b84dd-82d0b8ca25af.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3f409e132de923412e4084c97e367bf458feaf24 tty_audit: use TASK_COMM_LEN for task comm
-10b59418085526313eed2c3c115b2cf4251ac1c3 tty_audit: use kzalloc in tty_audit_buf_alloc()
-da48d9ae1b6d4123fcf85f9f09e7cd040e3d15ce tty_audit: invert the condition in tty_audit_log()
-9f27edd2db049471bb84d0e28bf8f64524eb340d tty_audit: make icanon a bool
-ea154af763e3a80d1c4e18f0fa17b6bb3f980ff0 tty_audit: make tty pointers const
-c72c0c7c62ac3730f89d1d0a12281cc4d20235d9 tty_audit: make data of tty_audit_log() const
-030dc2e9ad15f362410a40bb98253f8ddd869a91 sysrq: rename i to loglevel in sysrq_handle_loglevel()
-392efe8c7474c4bbd8fff9532d44ec97aeac8b30 n_tty: drop fp from n_tty_receive_buf_real_raw()
-22659dcf451c00ef59d7714edadb7791f09d7b14 tty: sysrq: switch sysrq handlers from int to u8
-d1495415cbaa6c6be0e485b550157d763ac0065e tty: sysrq: switch the rest of keys to u8
-a7fb51f7f9417f395b05392ed4847fa09611c293 tty: sysrq: use switch in sysrq_key_table_key2index()
-ae23c0a125fd52fbd1d6ba43f58fa5542a80314e serial: convert uart sysrq handling to u8
-166674b3620adfb37e3fb6b587180f20f9228d75 serial: make strlen of sysrq_toggle_seq[] a global constant
-de00c97d959a6307871db16328d20d2fd72705a1 serial: make uart_insert_char() accept u8s
-de47df84a64077ca7d8193d40438372f28f08bb7 tty: make tty_port_client_operations operate with u8
-ec4cab61da178b4ceabd8033d3d428d6ea774341 tty: make tty_port_client_operations::receive_buf's count uint
-14ed58fa2094a8e09942adaf96ed4052576aacf9 tty: switch receive_buf() to unsigned int
-2d5cbb18f9fc3e03de2ec4211765a32a23066866 tty: switch count in tty_ldisc_receive_buf() to unsigned
-8fb0d9b9fceec9e1dc0786079acb2a5a17504b19 tty: make tty_ldisc_ops::receive_buf*() operate on unsigned count
-a557bd7f56f7f5e57cc79d89680ca03ce8461380 tty: use u8 for chars
-185d138fa524ce479d025591c573975f62208b41 tty: use u8 for flags
-7115774d1988d7783ea9d3fa1f6b95897b1b0532 n_tty: simplify and sanitize zero_buffer()
-8bf28e692612788a16481d341201258c332b19b0 n_tty: pass ldata to canon_skip_eof() directly
-880b276f98f2df7bc97f2f1854fa04537165d52b n_tty: make many tty parameters const
-a45af91c81df76e9ff2a297ed470857b259528b6 BRANCH_MARKER: submit
-557d4ca4da1b9c84ad18fc4b89f04789a43ce9b0 mxser: less tty, more termios
-e788911dacfffc0d6e76571c14390efae7d033bc mxser: add to_mport helper
-0e73a216342218a4748182d347cb3cdd00bdac2c mxser: use lock from uart_port
-a5b4e6ac13a931d9f28d1dfbdd78980edb249362 mxser: use iobase from uart_port
-b074237075c566c0226d6d11828d20334d663f45 mxser: use type from uart_port
-e76ff837a7a799163995edf1c397b3af5d829f12 mxser: use x_char from uart_port
-688017d1d0518e389dfae7b5bee138fdb74b6fb9 mxser: use icount from uart_port
-680ab41babbbd2b90fd1fb632b94f85ec769f0e0 mxser: use timeout from uart_port
-afc928e088c6dabf366d298661efb6cfdb780b6b mxser: use status masks from uart_port
-c6302973f35cc34a48cd6c909844b079065c941f mxser: use fifosize from uart_port
-2486a6cc90ade7b3533efde40df69387d84046c6 mxser: use hw_stopped from uart_port
-cec2741a4ed8b2d46248c31d953beb0a907fae37 mxser: switch to uart_driver
-b7a052babcf76d54d6ed1059c64deda4109aaa64 tty: 8250_dma, use dmaengine_prep_slave_sg
-a0ebb3e19e4db4c1e876ff305cccda39272f77ef tty: 8250_omap, use dmaengine_prep_slave_sg
-08558186b8e205e8e586ca70f8d72cf74cd5af60 kfifo updates (_r UNFINISHED)
-fd40b629810ed3a32404d803a5ac343037e8566f tty: serial, use kfifo
-c60a155c81424dcd378af56cef725a02468358f1 kfifo tester
-b91234d154c7717bf79402f472619710e023d59b can: slcan: fix freed work crash
-ca3525de045ea38b26e14e7a360c9e9945decee4 tty: saner types in iterate_tty_read() size+copied UNFINISHED
-d8d57b90e285fa129d15bef89cb0a956ff61926b doc: add console.h
-cc763a40f1b3983971375186c11747a99e7d5114 vgacon: remove unneeded forward declarations
-7b59e4f2234aa12a21fbb2c58489294eb8b12a9e vgacon: remove unused xpos from vgacon_set_cursor_size()
-1207f116f4113be800d84a302854764c63062771 vgacon: let vgacon_doresize() return void
-8e80afce928a0b38cdbdfbc67dbd86d8ab8dd45c tty: make check_tty_count() void
-3beeb8701cdf42a30f5991b40283066072197e57 sticon: make sticon_set_def_font() void and remove op parameter
-10a5d87efd86e270cd53b64816f608d1d6c28d63 fbcon: remove unused display (p) from fbcon_redraw()
-f54ade000a7a6b7d19933585142c2d1ff4461ec5 vgacon: use if instead of switch-case for vgacon_cursor()
-2e49855efe5c5b5aa1d48f4eb45d56aeb28a110a vgacon: cache vc_cell_height in vgacon_cursor()
-0097f2359c62961ff4a92481ef8b6d0c9ff56bea newport_con: use if instead of switch-case for newport_cursor()
-989f3f0827849ec8acdc03cefdfe15ca7bc44747 console: remove CM_* constants
-1320e655719e6c815f5161501745d014e0d1e9eb console: make init of con_init a bool
-9f468ff29dc518f0b2bbed6c1afa1a3194f10a71 consw: document the rest
-2b666a90f5bcea4d76f046b2c5b3e6920ba1b359 console: remove checks for height and width in consw::con_clear
-6a66ff20502056a809f9899709b949e0f823e484 console: remove height from consw::con_clear()
-706330eb7de0b931521db2e36977ad10033d300b console: check for count
-0ae35cab983e299ababd31b97babd328ca0ce98d x86: Make IA32_EMULATION boot time configurable
-00840ff9820122d2f3837e65e952fb472e281125 x86/entry: Rename ignore_sysret
-ea19c0089f9df937c0b30ac08f16ff80b39e185f x86/entry: Compile entry_SYSCALL32_ignore unconditionally
-3c2d8e487bd76fa550a51dad29064b3f79d197b4 x86/elf: Predicate loading of 32bit processes on ia32_enabled()
-b92db3242b52270c20fbbb4b5beb964c4f3b8e70 x86/entry: Make IA32 syscalls availability depend on ia32_enabled()
-82d0b8ca25afa3b0c52f84c0dd32e935d06b1148 BRANCH_MARKER: work
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686827172 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1686827171-01314565b3ded9194faa5c412701eda0c7d78989
 
---===============5079478976403698667==--
+6ea65f24f78cdc1618be2b7ca5ffc9ce83448c3c 269b9d8fafbef403fa3e5672954aee5a9079be11 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSK8KQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lHIQAJDZdsJpv22501qHIBXe
+agU+k0BktiYF7UHC/u8gdlWKgFDz+zGi6CVkR+H87jATE0AEf2KDhRP1ULLua3sw
+nPpJOdHXxbbxwKN8CxAaADwLk19M9NrovE2XXH3yaFeQO+mniz/wCOZ0CqAB1NtI
+1Z/HoaztGkMXnwaxkQERuASXPHHvXS4j/Wb7fyc6cnGqNKmkEt8uKQQY4m5IS6PI
+ca1MHawWRDiIhcsI46XnB5VERFSW38wFfq1y132TZU5LftCV00d4RkE1g6kVVM/o
+6jmalcpoYMnQfynWDTjpWXQ3/Zksm/kKAymPgo7ll+9bJh5Jd98ITYWe5SKCOpVL
+4EKZt1P2d8AeAOrSV6QI6PBuCviQEbWHsTNEd3rNr/za7ZU4p75PTd6mypivQ7yA
+qRmwxNq7sldPyZojIqXTwYX8fra0Et5l7i3Hz4129UqNDESrJk4uBzJxhDO5piXK
+QBdj6wECN/zIZQMsJlvIICwuWqSSfx+ZcsIK+hg4lQ3hzZaxP2sGR0/LHs/Sm4It
+B8NhKu17Bgln/V16fIcaaIUgiJCqyxUSlKzMb7Y4ZCRtHbCTxZAXo3zSxq0y/vqW
+e6y1rzAvilz3Edqwtq6sCzAtOLSZKmrCjGyqY87eYi9dY6ouwn8i059t7OMq/CF8
+MUYjEg1Pzqsum4VsqmaF6LvP
+=t42j
+-----END PGP SIGNATURE-----
+
+--===============6743033316841036688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6ea65f24f78c-269b9d8fafbe.txt
+
+ef513aa7aa5038d2f53e9f2932af5006f37ed0b6 dt-bindings: iio: adc: qcom,spmi-vadc: Allow 1/16 for pre-scaling
+9445368bca2f62cadfcf98e06219f784ae94dce0 iio: accel: st_accel: Add LSM303D
+a9e19f636036567284ef41008b930f5730acd974 iio: magnetometer: st_accel: Add LSM303D
+c0f68439ae06c8612e4d64e24b70a5c82fcdede6 iio: st_sensors: Add lsm303d support to the LSM9DS0 IMU driver
+598e971fabf8c7c560896394b06175330b1c1aba iio: st_sensors: Add ACPI support for lsm303d to the LSM9DS0 IMU driver
+69ee1fb21340cb83df531175f298010697a87448 iio: Comment that the LSM303D also has the Magnetometer DRDY
+773aa06d706ce1c2055b7a3f1616c2978ca66dac dt-bindings: iio: st-sensors: Add LSM303D accelerometer+magnetometer
+b4d32eb31f49358ad9de1baed92844e7a4cc5de0 iio: accel: bma400: Simplify an error message
+5b24fdd991e53f10514cb6a6096f76bf555ffeac iio: light: al3320a: Handle ACPI device CALS0001
+7b0d54ae76e3c6e4f0222c5af3e3d7531f62b58e iio: adc: stm32-adc: add debug info if dt uses legacy channel config
+e88d989fb01fa06b0fe77be3ce9041c7a4ea9f9c dt-bindings: iio: adc: Add support for MT7986
+b8ddd02281401658b41d491bfa02d152cba806a5 iio: adc: palmas: Remove the unneeded include <linux/i2c.h>
+480abd88c04a56f1817985f6854333a5ea2d26fa dt-bindings: iio: light: Document TI OPT4001 light sensor
+9a9608418292bb8733805c3f3123dfe0454fadac iio: light: Add support for TI OPT4001 light sensor
+26e46ef7758922e983a9a2f688369f649cc1a635 iio: buffer: fix coding style warnings
+e0b7972461b082be7168deb217ab7daaa8d425f0 dt-bindings: iio: adc: Require generic `channel` name for channel nodes
+4cd56dbd764e27468c7115575ac200c284406439 iio: bu27034: Probe asynchronously
+a508fbfed333aea05e4ac42d98803a031cda8ce8 iio: kx022a: Probe asynchronously
+123627ad03d9915f6a6ecb69bb86a80da69ee972 iio: core: Point users of extend_name field to read_label callback
+e93cde03abf72fd7c98c08107dbeb3b9dfe9dca5 iio: adc: qcom-spmi-adc5: Use driver datasheet_name instead of DT label
+0744ef3b2b63e705aee9cc26bbbf290480335880 iio: adc: qcom-spmi-adc5: Fall back to datasheet_name instead of fwnode name
+ac0abf75e1a94425f1cd503e1a895e003e2f40d6 iio: adc: qcom-spmi-adc5: Remove unnecessary datasheet_name NULL check
+3d0b126029d92b659afd8ffa8ee4fe751ff3996c iio: adc: qcom-spmi-vadc: Propagate fw node label to userspace
+757c49215f961871d30ad633836099cacb4dcac7 dt-bindings: iio: imu: mpu6050: Add icm20600 bindings to mpu6050
+23cf1846f4395c61e2dd4309a344e937689702fd iio: imu: mpu6050: Add support for the ICM 20600 IMU
+dd731888d1e0ee93af2daca5e545d5a58c45119b dt-bindings: iio: potentiometer: Add the Renesas X9250 potentiometers
+66bfc528a6fd5225e59ea4bbca0665aad38f1567 iio: potentiometer: Add support for the Renesas X9250 potentiometers
+5361613b1997a1ef0d274eddf144690f7878c6b6 MAINTAINERS: add the Renesas X9250 driver entry
+787eb0c0cb7b504dd3e9822e1a90f6d351c39b93 dt-bindings: iio: st,lsm6dsx: reference common schema for mount-matrix
+76aa53e20e77a4de3b9b5cbdf405fa13ff9be6de iio: ad7606: Kconfig: add HAS_IOPORT dependencies
+7cf15f4275f5b478035c1422a15fe049829cc34c iio: Switch i2c drivers back to use .probe()
+a765c985e69671054f397046b1d94d8c6e34149e dt-bindings: iio: pressure: Support Honeywell mprls0025pa sensor
+713337d9143ed1ccc70e2dab6633e8e6b0186ad5 iio: pressure: Honeywell mprls0025pa pressure sensor
+0f840ff7910c0bc05b5567467aa1c19bd9a4ffad MAINTAINERS: Add Honeywell mprls0025pa sensor
+aac997a8a815ae1d708c24c8187264fd7869a81f dt-bindings: iio: temperature: melexis,mlx90614: Document MLX90615 support
+4c077429b42245f9aae855027758c9e6d05bcf33 iio: mlx90614: Sort headers
+02214837287640f94f5fb7d1bf3e696101230507 iio: mlx90614: Drop unused register macros
+8a0377bf671da3a4737d5bff2a974c3049cedbfe iio: mlx90614: Drop MLX90614_CONST_EMISSIVITY_RESOLUTION
+3d5ead238bc85ecca115481a91b63548f156a7f7 iio: mlx90614: Factor our register IO and constants into model specific descriptor
+7699e975e54a47de79de9fcc4b83df61ecd86cd5 iio: mlx90614: Add MLX90615 support
+4bef3adbd4ba40ec3b81c0adf288fb44a2d0aaf2 dt-bindings: iio: light: ROHM BU27008
+517985ebc53119a2c2590d29d4056e3f17ef8375 iio: trigger: Add simple trigger_validation helper
+2a4deb8488077016f1221c29b85ba4e168a5ba66 iio: kx022a: Use new iio_validate_own_trigger()
+41ff93d14f784695b5019bc1451dfd4eb2b30d9d iio: light: ROHM BU27008 color sensor
+6e42f3710d00bd51b02e9a19b583f6f2f9294d53 MAINTAINERS: Add ROHM BU27008
+f3ae82534ab221f24225dbf03120462e8ae64636 iio: imu: inv_icm42600: avoid frequent timestamp jitter
+8b5e7c33b3693aa12b5ce1cd0930f7b8bb978281 iio: amplifiers: ad8366 Fix whitespace issue
+8ff55fe553b327ab8bcd91133d6a4b1b506f629e staging: iio: Switch i2c drivers back to use .probe()
+7ad78a4074a3a357e94b0026639375d86d86b37b dt-bindings: iio: temperature: Add support for tmp006
+12a875055c15279c4f2db14cb0b593d81d16fc0b iio: temperature: tmp006: Add OF device matching support
+fb1c13d595857ccff49cbb69ddcdc08594a832e7 iio: adc: rockchip_saradc: Add callback functions
+757953f8ec6916084e0c22218d1d0482e9fc6682 iio: adc: rockchip_saradc: Add support for RK3588
+97ad10bb2901738b87b02a8fbf02215f1f198bdb iio: adc: rockchip_saradc: Make use of devm_clk_get_enabled
+47902344c8c35c1c08147df08879ef75a3ff86c1 iio: adc: rockchip_saradc: Use of_device_get_match_data
+10bec68f51ee1564fc2b6dcc25ccec22a01b22f9 iio: adc: rockchip_saradc: Match alignment with open parenthesis
+5e63d7a260ea5536c22fda7b852f54eeee6d7c98 iio: adc: rockchip_saradc: Use dev_err_probe
+2daf2ae9793d03d705a0ab5bbe876c5fe5ca6247 dt-bindings: iio: adc: Add rockchip,rk3588-saradc string
+939110f2d0759c679d860ead97d5a8fcf94220e7 dt-bindings: iio: afe: voltage-divider: Spelling s/curcuit/circuit/
+0cf9a77e80fa48e4392e408f8660e93c080cb78d dt-bindings: iio: rockchip: Fix 'oneOf' condition failed warning
+269b9d8fafbef403fa3e5672954aee5a9079be11 Merge tag 'iio-for-6.5a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
+
+--===============6743033316841036688==--
