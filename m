@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4155517644294804236=="
+Content-Type: multipart/mixed; boundary="===============2173081090527315539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 15 Jun 2023 05:07:43 -0000
-Message-Id: <168680566344.22412.6693602233070837091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 15 Jun 2023 05:07:53 -0000
+Message-Id: <168680567396.22581.7939022746207469837@gitolite.kernel.org>
 
---===============4155517644294804236==
+--===============2173081090527315539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: b16049b21162bb649cdd8519642a35972b7910fe
     new: 925294c9aa184801cc0a451b69a18dd0fe7d847d
     log: revlist-b16049b21162-925294c9aa18.txt
-  - ref: refs/heads/stable
-    old: 15adb51c04ccfcf58ac3eec7464a2768fe175fcc
-    new: b6dad5178ceaf23f369c3711062ce1f2afc33644
-    log: |
-         85041e12418fd0c08ff972b7729f7971afb361f8 nios2: dts: Fix tse_mac "max-frame-size" property
-         b6dad5178ceaf23f369c3711062ce1f2afc33644 Merge tag 'nios2_fix_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
-         
-  - ref: refs/tags/next-20230315
-    old: 0f01c81fabcbfaf4b88ec1387c2f06c208a66605
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230615
     old: 0000000000000000000000000000000000000000
     new: 16731e984cfbf74a1534a738bc7b7b1e927f93ac
 
---===============4155517644294804236==
+--===============2173081090527315539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -861,4 +851,4 @@ da673d850d3e5d16bf7eac76cd3046a97863325d Merge branch 'sysctl-next' of git://git
 15f271057e56d387fdbfeb408115ed9ef2acf9bd Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 925294c9aa184801cc0a451b69a18dd0fe7d847d Add linux-next specific files for 20230615
 
---===============4155517644294804236==--
+--===============2173081090527315539==--
