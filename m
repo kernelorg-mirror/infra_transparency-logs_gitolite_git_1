@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 15 Jun 2023 15:30:05 -0000
-Message-Id: <168684300557.1922.14862049461523745419@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 15:30:13 -0000
+Message-Id: <168684301306.2027.17598120484730546072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: e8596b0a54ecce00e34dc3d2dffb35cdad644e52
+  - ref: refs/heads/ti-k3-dts-stage
+    old: 0ad58871f63cbc4a03360bebd4ccc967bd9346db
     new: a49568115143435390f20965902809471b6f830c
     log: |
          3443c1c4ed61c3b9d0d211f81ebfa0b559836646 arm64: dts: ti: Add basic support for phyBOARD-Lyra-AM625
