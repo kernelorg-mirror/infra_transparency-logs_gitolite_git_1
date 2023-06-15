@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5985084073789410459=="
+Content-Type: multipart/mixed; boundary="===============1408322567667303744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 15 Jun 2023 00:48:46 -0000
-Message-Id: <168679012615.23461.7600099320839648202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Thu, 15 Jun 2023 02:13:25 -0000
+Message-Id: <168679520543.24573.8281505547613516818@gitolite.kernel.org>
 
---===============5985084073789410459==
+--===============1408322567667303744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/seen
-    old: e16cf29f3fad892ca5fbda21dc14ad4763e53529
-    new: 5a8c4d0fbbea86a59990be391b561616c0e662f6
-    log: revlist-e16cf29f3fad-5a8c4d0fbbea.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 3286189a871a3e29118088349ca0c12d6fe9b545
+    new: 43aa438072c778d4443b97d6eb0014d5d82637b8
+    log: |
+         9dc704dcc09eae7d21b5da0615eb2ed79278f63e scsi: aacraid: Reply queue mapping to CPUs based on IRQ affinity
+         31d16e712bdcaee769de4780f72ff8d6cd3f0589 scsi: storvsc: Always set no_report_opcodes
+         91271699228bfc66f1bc8abc0327169dc156d854 scsi: target: core: Fix error path in target_setup_session()
+         9cefd6e7e0a77b0fbca5c793f6fb6821b0962775 scsi: lpfc: Fix incorrect big endian type assignment in bsg loopback path
+         
 
---===============5985084073789410459==
+--===============1408322567667303744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e16cf29f3fad-5a8c4d0fbbea.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4f76c5094308927ae46cfe752d06a1189f910b7c setup.c: don't setup in discover_git_directory()
-3b676d65e5caeeddbedaead52c13d1fd6afa7a6c credential: avoid erasing distinct password
-8783eeba7f52ebf2d675d264dfb28a3cf2c62d67 credential: erase all matching credentials
-f0b68f0546a44e2bc3a764bd75b3aa4418c01601 CodingGuidelines: use octal escapes, not hex
-c398e98844154e034e078598cac262b718c9e583 Merge branch 'mh/credential-erase-improvements' into jch
-795d09b3ab5ab28cf002a9f381e8819e38dd28be Merge branch 'gc/discover-not-setup' into jch
-3f7cd298258ef8827700babf6d968337476d6d2b Merge branch 'mh/mingw-case-sensitive-build' into seen
-ee314d55b30f86e03edffb1407304a777260eb6e Merge branch 'tb/collect-pack-filenames-fix' into seen
-78deb5823de4db0fd25f22b792257bf6cbe984ef Merge branch 'tb/refs-exclusion-and-packed-refs' into seen
-4bc767193f9516d5bb790aada7755e37a976c7c3 Merge branch 'jt/path-filter-fix' into seen
-e450f8b8c5d449244455bac3685c99e139d923a5 Merge branch 'pb/complete-diff-options' into seen
-05de8bcadad1cb479844898209cbcc35eebc9c4c Merge branch 'ks/ref-filter-signature' into seen
-1aab5511b4b1e7aef82e00008a70c402a7c87ca5 Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
-bc18f3d9299257b07949499a6cf05355dfcd5396 Merge branch 'ab/imap-send-requires-curl' into seen
-2e25d3d4f1d3730d015fa733eac08779a44e75d1 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
-f31b175bd5b49680ed3a85efe88adfb260339ce8 Merge branch 'so/diff-merges-more' into seen
-5cfaecc35d92ca715e4755194a722b61907d71a7 Merge branch 'cw/submodule-status-in-parallel' into seen
-162872de4d727d157e6a0f2a74e51247149f72a6 Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
-21aa272d5e4f47ff0a1e1045fee4940862c463ad Merge branch 'cb/checkout-same-branch-twice' into seen
-e5502922cfcab0eb28527b90d232ce5de38d633f Merge branch 'ab/tag-object-type-errors' into seen
-2d53e42ae4eb9055bd7cc43ae9591e891dc32523 Merge branch 'tb/pack-bitmap-index-seek' into seen
-c25d224fabec2e4e294cd2e39915b77a64274e92 Merge branch 'rn/sparse-diff-index' into seen
-a161d4f1701cc4c2520d1d683db5ddf46ba5c9c7 Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
-158119de15e979b67d2a25e1f20da09659d56031 Merge branch 'ob/revert-of-revert' into seen
-8b11e3caa7255fdec75e495447fe67f6ee3b71b8 Merge branch 'js/doc-unit-tests' into seen
-b0a8a39962d3f54537866d9d648382083508a77a Merge branch 'jt/doc-use-octal-with-printf' into seen
-5a8c4d0fbbea86a59990be391b561616c0e662f6 Merge branch 'cc/git-replay' into seen
+certificate version 0.1
+pusher 75C5DE3D 1686795190 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1686795190-7c1340356fbe0d7561a08c787409ae41616ca374
 
---===============5985084073789410459==--
+3286189a871a3e29118088349ca0c12d6fe9b545 43aa438072c778d4443b97d6eb0014d5d82637b8 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSKc7YACgkQ7ulgGnXF
+3j3xZxAAhaLejUU7BFBhsZS81/5WO5RzEj8OISyYU4jjLyj4vU4DoodQRKp7i8te
+02cr68DVQy0MIMBmg2XQtr5I5H87zDZRqSCd2KC1xJMBaEz5H/zYSUIm/gGGQEj8
+VY5a89VPip+IfVzB5m4y0eZ2Siwc3yVuehgso4t5iUfzCHegzjOJ2dBlVLXsD2kA
+o/Kgg29IjPQ0SpMBx7lumvcQwZlobw+R8V8d/Yf/QQq62FzEr3GkHMdnBYD0W4dH
+EU2MfLNScSxh+I7dPPTpD7ludlOGalMylKqyFBLrWiM20LRTsMH6fSURcd6TiKTu
+/xotSzNm4EJlNiqm/E9rSiUMpG2o+csryRw3vtJtt/HLwdiCGactsx4K0p9nudHW
+MvOIZSPHNocppnKGC3ROPuqYtVIVxHF26aisCA7e3r67ZG51RI9qyqb20s+QFMh2
+ANwY2dUFnscr8emDXttDGlOtpvulUyJKXfZnVc/Yc0gH0vNHIkBu1VugkZTGK4KO
+9qNE4sTG+VnjUStfBxSKzi3tNFOQsJbOn9rBDwFMcEnmzBLMftDO7C21gDADwkWa
+aNfGI5Hcx7b7tNqeneIta5Meo/2BpV7uMJ+2TB91C6oShzgh1zSSKaOtZUykjvf+
+ig7Q3rI4XafIQAbxbtL9iHgA5wv7hrs0phOP8r1tJWDb9q/rUxE=
+=xDdo
+-----END PGP SIGNATURE-----
+
+--===============1408322567667303744==--
