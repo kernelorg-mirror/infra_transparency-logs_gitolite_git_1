@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 15 Jun 2023 08:22:55 -0000
-Message-Id: <168681737564.667.2608348010395338479@gitolite.kernel.org>
+Date: Thu, 15 Jun 2023 08:32:30 -0000
+Message-Id: <168681795070.7362.12482406668093726255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: 7cde3fba93966b9614ca285f91928a57a79f7f3f
-    new: dba81ae6f2be7f7d87f3a29a8566758d2e0017ae
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 4cc1cc26e90f104dbefb9aa54defaf48b5802325
+    new: 486caac40d06a2c987e5514b550d341cf6791b17
     log: |
-         f402f4975eea9d8c2a738f114aad5144fd752ded serial: 8250_em: Simplify probe()
-         efaca3ab40ba927b657050b3e34ef4c0f613a2c2 serial: 8250_em: Drop unused header file
-         b206ba63944797047f5e68958581a4554636334a serial: 8250_em: Add missing break statement
-         36040bcf61128d37d119b1a50188de58f3a63811 serial: 8250_em: Use devm_clk_get_enabled()
-         6401f10eeccd2dafdfa9c69399dff57bc87afd1c serial: 8250_em: Use pseudo offset for UART_FCR
-         2e87e5d7beaa690adac17412039071b148c1f513 serial: 8250_em: Add serial8250_em_{reg_update(),out_helper()}
-         dba81ae6f2be7f7d87f3a29a8566758d2e0017ae arm64: dts: renesas: rzv2mevk2: Add uart0 pins
+         e0fecc3279bbbfce149d6402cbcb226275bc4bd4 serial: 8250_em: Simplify probe()
+         67f49b0fe411417b3855db245112e178c622d98e serial: 8250_em: Drop unused header file
+         7fe69f1c1febf4fc53eaeb2443ca71c42a78924f serial: 8250_em: Add missing break statement
+         0f78c6bd124d75aa8d85358e70e7c48a0dc19a0c serial: 8250_em: Use devm_clk_get_enabled()
+         c728f5b441247b60b8e62fb9d085a259bcdad66a serial: 8250_em: Use pseudo offset for UART_FCR
+         072efbea7c13f40f46737376ac0f38ac768a9f1e serial: 8250_em: Add serial8250_em_{reg_update(),out_helper()}
+         486caac40d06a2c987e5514b550d341cf6791b17 arm64: dts: renesas: rzv2mevk2: Add uart0 pins
          
