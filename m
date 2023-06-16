@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4521488452374760730=="
+Content-Type: multipart/mixed; boundary="===============8512653216020158813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 16 Jun 2023 16:44:07 -0000
-Message-Id: <168693384739.28053.11483471760246710920@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 16:44:21 -0000
+Message-Id: <168693386120.28240.14499830942123838479@gitolite.kernel.org>
 
---===============4521488452374760730==
+--===============8512653216020158813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: b138ead2d247f8aade0f26d7d7df8463bab292ca
-    new: 742955ce62446d536b5226533ef02e0371a9b575
-    log: revlist-b138ead2d247-742955ce6244.txt
+  - ref: refs/heads/6.5/scsi-staging
+    old: aca416ac0b1fbe89d563f88cdb9884f986863d34
+    new: af92c02fb2090692f4920ea4b74870940260cf49
+    log: revlist-aca416ac0b1f-af92c02fb209.txt
 
---===============4521488452374760730==
+--===============8512653216020158813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1686933837 -0400
+pusher 75C5DE3D 1686933852 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1686933837-1e3bd215ef52062d2fdf9d77f1abe2d04bd72951
+nonce 1686933850-8be4e4cf225c137aca032c7c5fa88eb4c47e8859
 
-b138ead2d247f8aade0f26d7d7df8463bab292ca 742955ce62446d536b5226533ef02e0371a9b575 refs/tags/mkp-scsi-staging
+aca416ac0b1fbe89d563f88cdb9884f986863d34 af92c02fb2090692f4920ea4b74870940260cf49 refs/heads/6.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSMkU0ACgkQ7ulgGnXF
-3j3mzg/+LzEisateBMA/Jr+bFPrCZAyZ1csIi7pgafhEZAMl125wU/c2lphBhM6+
-9AckeyWtSZo6q5Q8MfIXpsxYM71Ztdbh1Qk8nhUsoKEAR5hGuMr+Cz2tSMiJ+Eaq
-iHtBU3AideS+S5H/8G3RtObAjnVzX3TbIAchoOBQ74O+eJutG1tMVYJt/r3h9jzI
-Ns51iwQT9yaOtfGheGM4J6puqkhbjy/PdqTV+NEY86ALivfA3X0RMDAT1mXV45Z2
-5/kcpJoJySHw2i+2npMQHGsanyitFAlog3AVcYd/uQUiCggXo78C/GTBc00r8M0Z
-kIv1Vz5qtTbABG1G+bc50aAWQoPDVgF4VYU11/BLVF8rD17WMeVXvjA1Cv5GTqyk
-6IO0Hu6f1HXrrI6xAIiVSatEmFzw/toYS5XXwaKcZ/lOsSanTRkTfrA8K5iGR6ui
-g5i8i+sMIykBufav5Sr/hBevHonBGkHvmlybhKmAuCV31yfH6venStusvlI4q6cH
-4NwRjrSA6H5CBqsjK9FiHOA68PeaiB/4cUYVYrgpTOaYw72J9nNIDCejT1G43Lkv
-+VrHoFIkkSQ2taJjUrY5NZgLvdlEZo/Q+81tgVYU/4RNwzcrM19EnYwfHq6dZ8m0
-vHu5sIpnyG5rBtTE/ghheRjSIQlco/ZcEcSHG6gW+ItPgfwXeDs=
-=zQfi
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSMkVwACgkQ7ulgGnXF
+3j1vNxAAhzqatsKBTSqIDjU7ExMvuEOByOb3g6kfU5p7VKpPn7hfsUrB/W2hCSRc
+iE0QZ0tMOKE1mW1fC0fNIkjX0z74iugk3RQTwkD4sn3wFgscCH4Dc/4w2rW+XYki
+K5HKCp3mm3qrkGG7I6NX4EtS6u0Ijq1whg20uPrl6tpEZqgpScHoTXyzOkuVLoU/
+Qt+AMlt+HlUH5yy5tl1z98ow1daCcKGhBJMkS1ZnmnWPnZsoPmsO6G4lTWIqfwbi
+51fkIDSeuH1UxdQwL+cm8Bu5qWPBu2hcaoSYBzfuC0dMoyxUWDAK5DYqVozI0g7V
+EdjXJSxYzN/rieIXWKRmiOjE0o444ghuSBCdOdfGr+ki/3QxFmKbCd2eo4yxLrWG
+G+WHI2FlSpR0KVhh+jl1hDxJcRxvqstiHhJw+vHR0lEvCC7j2icz1TEk+QG5FLQQ
+bKpqZcoTmwYKIydAnX8pImCFyvLvsOCavGThmAwczTnj5K/GfYnOj+OeU/brTHc0
+eVIqRgnMf/tkKUGYT6iOqAEvzufoXwKe0ZwmJ7KIpDYynYppygmHXdy7Cnf/vlE3
+i40sAwGtx1vNNyWkEVXII7ai+7K33udNcUhfKuykYLeAwoTw8kg62aFg99shRvLn
+N9xjdnktvHsoKesX6igHuIpIkJAKanBzns+V9DTCf56gIYaWbYk=
+=odGR
 -----END PGP SIGNATURE-----
 
---===============4521488452374760730==
+--===============8512653216020158813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b138ead2d247-742955ce6244.txt
+Content-Disposition: attachment; filename=revlist-aca416ac0b1f-af92c02fb209.txt
 
 01584c1e233740519d0e11aa20daa323d26bf598 scsi: block: Improve ioprio value validity checks
 e246514ae698813ab1eadb1600aeea0a0c959769 scsi: ufs: dt-bindings: samsung,exynos: Drop unneeded quotes
@@ -80,4 +80,4 @@ e20fff8a1f4940f46be888bd175412c2e3e64e96 scsi: core: Don't wait for quiesce in s
 6d7160c7da6fa3010252910a1680c62ababa6c2f scsi: core: Improve warning message in scsi_device_block()
 af92c02fb2090692f4920ea4b74870940260cf49 Merge patch series "scsi: fixes for targets with many LUNs, and scsi_target_block rework"
 
---===============4521488452374760730==--
+--===============8512653216020158813==--
