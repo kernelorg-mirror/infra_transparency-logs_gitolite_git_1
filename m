@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6407566801363497227=="
+Content-Type: multipart/mixed; boundary="===============6053356515571950168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Fri, 16 Jun 2023 15:38:26 -0000
-Message-Id: <168692990600.13533.11748833726766319658@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 15:38:55 -0000
+Message-Id: <168692993556.13779.14296328320232317998@gitolite.kernel.org>
 
---===============6407566801363497227==
+--===============6053356515571950168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/dev-queue
     old: 1ba3519eab0fbc3cedf6b423ea0470461b902c1b
     new: 1cd1c871c9162a2c34380e6dd0c8ac9474d36522
     log: revlist-1ba3519eab0f-1cd1c871c916.txt
 
---===============6407566801363497227==
+--===============6053356515571950168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ eb3ae8417ca1330387aadd6bc45e073fbbe31f72 linux-firmware: update firmware for MT7
 55e7448533e774824cfb34a7eaeb9604608e1a4a rtl_bt: Update RTL8852C BT USB firmware to 0x040D_7225
 1cd1c871c9162a2c34380e6dd0c8ac9474d36522 rtl_bt: Update RTL8852A BT USB firmware to 0xDAC7_480D
 
---===============6407566801363497227==--
+--===============6053356515571950168==--
