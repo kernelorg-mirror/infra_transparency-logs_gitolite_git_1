@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 16 Jun 2023 22:15:20 -0000
-Message-Id: <168695372034.5199.9266948191232393436@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 22:15:31 -0000
+Message-Id: <168695373110.5337.2031857120973067018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: e6b8a879c75eeaa6f615454b1e55696bb9909749
+  - ref: refs/heads/dm-6.5
+    old: 6f3a099361f0b8ad8107edf65c84b040da010962
     new: 7bfd1ce9916ffd49881e4cf05f6cdd37600a562e
     log: |
          ee10dc3113dc77aee33b5ecef210e5268a2dc84b dm: support turning off block-core's io stats accounting
