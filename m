@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============4659112763007095856=="
+Content-Type: multipart/mixed; boundary="===============9210189252098074983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 16 Jun 2023 06:14:47 -0000
-Message-Id: <168689608778.18752.9932481004156028201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 16 Jun 2023 06:16:13 -0000
+Message-Id: <168689617317.20908.14483052550576717443@gitolite.kernel.org>
 
---===============4659112763007095856==
+--===============9210189252098074983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: f3710f5e9e1a68da53202cffba73f4b604f05b15
-    new: e8cc334847dbd204ed4f500b3e3fa899b3766b62
+  - ref: refs/heads/staging-next
+    old: c6e9da9d556673b07e0ba4f00580904286787f22
+    new: 01da3efafe060ba685fcd08f8db665e5a9f1f9fc
     log: |
-         20a41a62618df85f3a2981008edec5cadd785e0a serial: 8250_omap: Use force_suspend and resume for system suspend
-         cef09673c35bdffb0866268cedae5994e024ddb8 serial: core: fix -EPROBE_DEFER handling in init
-         4903fde8047a28299d1fc79c1a0dcc255e928f12 tty: fix hang on tty device with no_room set
-         360c11e2258ce4269441a5ab6d43d0b202f4261b tty: tty_io: update timestamps on all device nodes
-         e8cc334847dbd204ed4f500b3e3fa899b3766b62 selftests: tty: add selftest for tty timestamp updates
+         00eca57d6521a14c9257049ad8d029ac6601c4a3 Staging: rts5208: rtsx: Removed new line in else and else if
+         c88af76f71c5459852ed959af5ab7afbbf2c4411 staging: rtl8192e: remove blank lines
+         d88b46ce5ab8160a3c5d4efde27197d7545ec19a staging: rtl8192e: Add cfg80211.h and remove defined variables
+         4e9e2c8026ff200e818928f818dde17a311fed86 staging: rtl8192e: Use standard api to calculate frequency to channel
+         01da3efafe060ba685fcd08f8db665e5a9f1f9fc staging: rtl8192e: Use standard api to calculate channel to frequency
          
 
---===============4659112763007095856==
+--===============9210189252098074983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686896087 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1686896086-d4f685935b90e00f35eb594dbd3efc23f057a4da
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686896172 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1686896172-5eee3e08aa9a3b8fb7359480efd22fb21e690011
 
-f3710f5e9e1a68da53202cffba73f4b604f05b15 e8cc334847dbd204ed4f500b3e3fa899b3766b62 refs/heads/tty-next
+c6e9da9d556673b07e0ba4f00580904286787f22 01da3efafe060ba685fcd08f8db665e5a9f1f9fc refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSL/dcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4B4P/jON3Ks5XNQ6fwJkQTo/
-JVH1IkvTykiRf2/ns0bI7YcG2xw7IFjR70AKLoRINNHwPCFna/EqDV2tP69lf9kg
-3jrRFOdaJ5DHew/QWynPGuTDc3UI8ror+V4SQPOZyel2qTvoS5FLIw7v3BtFQ0k1
-WovzQXogCOsqnlvYc8BkYj/DPe2GUzxTw/BUOwbIcZ+HvIOFxSmOoXS8FfqjeJls
-TlUOvGhOGeEmxFjit5FfWyuEpWWoy+pnsuSCMjsBf17Co16gwLIDYLQDSGD+diVd
-Clw3TNkf9j6DxxWzX6TszDjJV3hbfEATZoXr3o6g4zx62Yt8YXyal09dVYQcESJ9
-vWgT8bYlt+aWm9kejdthLJjDMdJM+HdnRHpo+wdpAvr+mh/e+ZbRZ0/LtRVMiXWz
-9NVqrmf623j/AzAdwn974zH/iYpS/OCp5xwHhOiXek6/OIqG195HbNmryZgEjIxi
-G16sDADa6Ds89B4gD+uIhl8o5Yny1/+r+RwV6uKHESQMd1Q+t0csUad76kY25BF/
-J9f8e6KMrHhfpQzrq3vLfq66/A8XWHdI24Ty2voyNH6H7zlRuZKxCoB+Z7TARLKw
-0kM3BDaWgdypTGHsMNhTjX55nTZp6PH8Qm8WqXkyfSyMQET+5BhRPlPtIVDqy5//
-VGJAH1n7PYf+xQx4+Rxp09C8
-=OHSX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSL/iwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RpcP/AsQAyxdWJYMP92/q97A
+o86A3Jj5Aq3rO41x5CJ1rZ7PdS3XxmE6qGbK+mCsMVtBnhE9GuSIt3ZCc3r444DY
+rzObdCFMYYQwoeND8vitdLZVUW6NDNdY/oIZ1PdWVUq7RcGaRvuAUSJV+bTXpmsH
+t7O/7LLbhVnFrO+6JXu0ATa7uFbByOi1d+m8+Fj/y6vM+gbNxJNuekQFU0VrNI7K
+97y3lgbZ+7hH0X/9g3IEyjsYlqME1v5FkDTTHvgCtQA7QmhRItO8C+b0dU86i13n
+hu04bHJGx7yJosWuXw331VDGHKpYfa2QLhF06v3NJ56sQEY6Al7vx6xFD+r0Oiip
+HXNTQfv6WPRJqvtYMT0GF7FIZWGlDKRrEiaGJchhgSD/Uc21PSLUscFqQfO4ge70
+s771E+L/4P4aQxjNlbjCyuIgit4i5b/u1PfvPAtTdQCJV0mYTzcXZbb8ffn3HLuY
+iVl+j6+bzTB6K0rzZDTaGz5tVq6uRvgoNSEfE+ps0R1JI8Cx0De8YVyBzhc+7VOf
+3V8xqzpGFzua7jtGmFfi8TO8WUEFfAEN4wjEt8mEY8vy+KFyleqUKhsGWymXPpJz
+dqk43yvxHvSqYrEwH0BazCHwvTKrunPA5WfXYX5O5ZGXWtLixr499n9oZn7dgtPA
+dQpj9fRZrLIo/jgkFIqGzadh
+=Cayj
 -----END PGP SIGNATURE-----
 
---===============4659112763007095856==--
+--===============9210189252098074983==--
