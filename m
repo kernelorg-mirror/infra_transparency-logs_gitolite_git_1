@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893791567400609943=="
+Content-Type: multipart/mixed; boundary="===============5867319304612933674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 16 Jun 2023 22:25:49 -0000
-Message-Id: <168695434917.11893.7608114544888864049@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 22:25:57 -0000
+Message-Id: <168695435765.12010.8740707207374910011@gitolite.kernel.org>
 
---===============2893791567400609943==
+--===============5867319304612933674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.5
+  - ref: refs/heads/for-next
     old: 7bfd1ce9916ffd49881e4cf05f6cdd37600a562e
     new: fa375646241b5350f7326fd4d686891b95d9fbe5
     log: revlist-7bfd1ce9916f-fa375646241b.txt
 
---===============2893791567400609943==
+--===============5867319304612933674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -170,4 +170,4 @@ c4f512d255e3c4ade80a1d68ca816c1b11556a13 dm: skip dm-stats work in alloc_io() un
 862c6663c12ba217e8e920dc6dd158383ea5cf76 dm: remove stale/redundant dm_internal_{suspend,resume} prototypes in dm.h
 fa375646241b5350f7326fd4d686891b95d9fbe5 dm thin: disable discards for thin-pool if no_discard_passdown
 
---===============2893791567400609943==--
+--===============5867319304612933674==--
