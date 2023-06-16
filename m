@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2395576509304114173=="
+Content-Type: multipart/mixed; boundary="===============4902406532351843934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 16 Jun 2023 20:16:04 -0000
-Message-Id: <168694656401.17254.7740897357667907571@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 20:16:25 -0000
+Message-Id: <168694658579.17507.16807316249893314584@gitolite.kernel.org>
 
---===============2395576509304114173==
+--===============4902406532351843934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/eevdf
-    old: f28db72712705ef0cc6c976153d28ba6dfce097c
-    new: 03c712baa44a1ae1af8c1c6f28b24a1196eb6100
-    log: revlist-f28db7271270-03c712baa44a.txt
+  - ref: refs/heads/sched/eevdf-latency-nice
+    old: 4b2c643925eeb06d9ac908a658ebe56c61d39d14
+    new: 6e93defc4fc1e554b4feb975c4526e9aff53a6d8
+    log: revlist-4b2c643925ee-6e93defc4fc1.txt
 
---===============2395576509304114173==
+--===============4902406532351843934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f28db7271270-03c712baa44a.txt
+Content-Disposition: attachment; filename=revlist-4b2c643925ee-6e93defc4fc1.txt
 
 a707df30c9438a9d4d0a43ae7f22b59b078f94c4 sched/fair: Rename variable cpu_util eff_util
 0cce0fde499a92c726cd2e24f7763644f7c9f971 sched/topology: Mark set_sched_topology() __init
@@ -46,5 +46,8 @@ f75097e6e03738c8849c7f02599cd6bc28d0ded5 sched/smp: Use lag to simplify cross-ru
 3ff3a77fe7f0f8248df300036779196f344f5072 sched/debug: Rename min_granularity to base_slice
 8df33d90f30407ee8818a2c021f9b40efac62e8f sched/fair: Propagate enqueue flags into place_entity()
 03c712baa44a1ae1af8c1c6f28b24a1196eb6100 sched/eevdf: Better handle mixed slice length
+c2b7fe513ebf0a7735dc4820bbbaa79e094d7dce sched: Introduce latency-nice as a per-task attribute
+e9c4e1bd71b5f954beb1c4db6d68412dda6eec54 sched/fair: Implement latency-nice
+6e93defc4fc1e554b4feb975c4526e9aff53a6d8 sched/fair: Add sched group latency support
 
---===============2395576509304114173==--
+--===============4902406532351843934==--
