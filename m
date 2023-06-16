@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 16 Jun 2023 11:20:14 -0000
-Message-Id: <168691441407.22276.2232713815270992268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 16 Jun 2023 11:24:32 -0000
+Message-Id: <168691467231.23801.11747698144318376839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next/perf
-    old: b1acb4e5601b07700fd30346a08dcb7dbfc437a7
-    new: 7e51d05e43f19f394b3b0df01a22225143f9c5b5
+  - ref: refs/heads/irq/irqchip-next
+    old: 2b384e01fd12275b93ba777b40ec8b868c965e2d
+    new: d59b553fefa940f91aa96ff898267acc58e59e6b
     log: |
-         95f5819738a7500b91e99151a03eb05be478ee6a perf/arm_dmc620: Add cpumask
-         7819e05a0dceac20c5ff78ec9b252faf3b76b824 perf/arm-cmn: Revamp model detection
-         a1c45d3ebd30cf8b9b1131c1335d603f3c46999c perf/arm-cmn: Add sysfs identifier
-         7e51d05e43f19f394b3b0df01a22225143f9c5b5 perf: arm_cspmu: Add missing MODULE_DEVICE_TABLE
+         0cfb4a1af386427cdaba98f18f501eb074985cfd genirq: Use BIT() for the IRQD_* state flags
+         7cc148a32f1e7496e22c0005dd113a31d4a3b3d4 genirq: Expand doc for PENDING and REPLAY flags
+         9c15eeb5362c48dd27d51bd72e8873341fa9383c genirq: Allow fasteoi handler to resend interrupts on concurrent handling
+         8f4b589595d01f882d63d21efe15af4a5ad7c59b irqchip/gic-v3-its: Enable RESEND_WHEN_IN_PROGRESS for LPIs
+         d59b553fefa940f91aa96ff898267acc58e59e6b Merge branch irq/lpi-resend into irq/irqchip-next
          
