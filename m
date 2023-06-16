@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 16 Jun 2023 11:56:27 -0000
-Message-Id: <168691658783.14447.3539803000269592911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Fri, 16 Jun 2023 11:58:57 -0000
+Message-Id: <168691673735.15401.15037124707639628900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/20230616_pierre_louis_bossart_asoc_sof_misc_updates_for_6_5
-    old: 0000000000000000000000000000000000000000
-    new: fd4e9e9bfa0b1c63946fde2ff61440ff1e5eb75b
-  - ref: refs/heads/fileN0hho8
-    old: 0000000000000000000000000000000000000000
-    new: 928314eb06709e3861ce3e2c7e9ef3f83ba8691b
-  - ref: refs/heads/filePjvB52
-    old: 0000000000000000000000000000000000000000
-    new: 3e47b8877d6c0f60943b00f3112756ca3b572cd6
-  - ref: refs/heads/filepLRcVl
-    old: 0000000000000000000000000000000000000000
-    new: d3b555e563a0ac80383b66f4ffd8bee2f6272779
+  - ref: refs/heads/for-next/perf
+    old: 7e51d05e43f19f394b3b0df01a22225143f9c5b5
+    new: ea8d1c062a0e876e999e4f347daeb598d5e677ab
+    log: |
+         1a51688474c0d395b864e98236335fba712e29bf drivers/perf: hisi: Add support for HiSilicon H60PA and PAv3 PMU driver
+         312eca95e28d40694aee7c78a18ac0ecfd6d8159 drivers/perf: hisi: Add support for HiSilicon UC PMU driver
+         ea8d1c062a0e876e999e4f347daeb598d5e677ab docs: perf: Add new description for HiSilicon UC PMU
+         
