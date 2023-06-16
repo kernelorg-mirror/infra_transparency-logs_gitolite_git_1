@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 16 Jun 2023 13:33:16 -0000
-Message-Id: <168692239644.18828.6984868139086639094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 16 Jun 2023 13:33:29 -0000
+Message-Id: <168692240962.19029.17646324298176807639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: cd10910d410baece53f5095fb1931149b2c947bd
-    new: f7540e731e9b136983d5d01d7b7ee893da3a59df
+    old: 8ae573f7757c0a24750c5579ced2d3b25eaa9d05
+    new: bf307cc41231eaa734231a9c5b653cc65efbf353
     log: |
-         0c340ba05fda0fbf5a54207452728911c6388330 ASoC: max98388: fix unused function warnings
-         041c5a1d065e5882299475326655f573e2a2a580 ASoC: loongson: fix unused PM function warning
-         08432e59c7d9a958e69cf6b7a03777ba4f26f10b ASoC: loongson: add PCI dependency
-         928314eb06709e3861ce3e2c7e9ef3f83ba8691b ASoC: loongson: fix compile testing on 32-bit
-         f7540e731e9b136983d5d01d7b7ee893da3a59df Merge remote-tracking branch 'asoc/for-6.5' into asoc-next
+         d3b555e563a0ac80383b66f4ffd8bee2f6272779 regulator: helper: Document ramp_delay parameter of regulator_set_ramp_delay_regmap()
+         bf307cc41231eaa734231a9c5b653cc65efbf353 Merge remote-tracking branch 'regulator/for-6.5' into regulator-next
          
