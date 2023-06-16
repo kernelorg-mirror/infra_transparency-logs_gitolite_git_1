@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Jun 2023 05:53:43 -0000
-Message-Id: <168689482385.3738.8500797341062212520@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 05:54:43 -0000
+Message-Id: <168689488319.4148.15488083480714402804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d9ffa069e006fa2873b94fbf2387546942d4f85b
-    new: ca2d49f77ce4531c74ba207b1e07b55f5ced5ab4
+    old: ca2d49f77ce4531c74ba207b1e07b55f5ced5ab4
+    new: 8f72fb1578a910571b3f25457e3b7855edfac6cf
     log: |
-         ca2d49f77ce4531c74ba207b1e07b55f5ced5ab4 splice, net: Fix splice_to_socket() to handle pipe bufs larger than a page
+         8f72fb1578a910571b3f25457e3b7855edfac6cf eth: fs_enet: fix print format for resource size
          
