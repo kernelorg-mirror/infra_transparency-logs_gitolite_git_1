@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3825449206735723030=="
+Content-Type: multipart/mixed; boundary="===============7020884496598008633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 16 Jun 2023 21:14:23 -0000
-Message-Id: <168695006310.25029.18720745053764659@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 21:14:59 -0000
+Message-Id: <168695009980.25329.3596271609034831960@gitolite.kernel.org>
 
---===============3825449206735723030==
+--===============7020884496598008633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 5cdd5ec176544a3f5b18591577cfab2fcdc13c79
-    new: 5b017b5ed2bccfdb9a26c8ddb89f093fb8f8a94c
-    log: revlist-5cdd5ec17654-5b017b5ed2bc.txt
-  - ref: refs/heads/soc/arm
-    old: 9a0e0c5957ff37147253796fbf5dfd68b307af58
-    new: 11ca605653480b2ddc70ec142a0a686796a7fc87
-    log: |
-         11ca605653480b2ddc70ec142a0a686796a7fc87 Input: ads7846 - fix pointer cast warning
-         
+  - ref: refs/heads/for-next
+    old: 15d2ee76762da5f3a6b277243cf6ebd7bb5c12ab
+    new: 75b5a265036c4f12a1213fc5f114ff7eb2546721
+    log: revlist-15d2ee76762d-75b5a265036c.txt
 
---===============3825449206735723030==
+--===============7020884496598008633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cdd5ec17654-5b017b5ed2bc.txt
+Content-Disposition: attachment; filename=revlist-15d2ee76762d-75b5a265036c.txt
 
 529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
 978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
@@ -671,6 +665,7 @@ beee7fdb5b56a46415a4992d28dd4c2d06eb52df vhost_vdpa: support PACKED when setting
 ccc45cb4e7271c74dbb27776ae8f73d84557f5c6 s390/dasd: Use correct lock while counting channel queue length
 7e8c948b3f09b19e3883517e10a3d5ffa9899f84 Merge tag 'ceph-for-6.4-rc6' of https://github.com/ceph/ceph-client
 dbfa18c5d7695766f24c0c140204e1f8c921fb95 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+11ca605653480b2ddc70ec142a0a686796a7fc87 Input: ads7846 - fix pointer cast warning
 64569520920a3ca5d456ddd9f4f95fc6ea9b8b45 Merge tag 'block-6.4-2023-06-09' of git://git.kernel.dk/linux
 859c74595156f894c4e8edd523c6d1c4a1899127 Merge tag 'arm-fixes-6.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 6be5e47b69d8bb7c3dba8d84807624954243c23a Merge tag 'soundwire-6.4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
@@ -679,5 +674,7 @@ dbfa18c5d7695766f24c0c140204e1f8c921fb95 Merge tag 'for_linus' of git://git.kern
 4c605260bc60347d3d5601900704cb22b0b2efec Merge tag 'x86_urgent_for_v6.4_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 858fd168a95c5b9669aac8db6c14a9aeab446375 Linux 6.4-rc6
 5b017b5ed2bccfdb9a26c8ddb89f093fb8f8a94c Merge tag 'v6.4-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+1b02ae9f4698f663aa9f0c305459c63558b173d9 Merge branch 'soc/arm' into for-next
+75b5a265036c4f12a1213fc5f114ff7eb2546721 Merge branch 'arm/fixes' into for-next
 
---===============3825449206735723030==--
+--===============7020884496598008633==--
