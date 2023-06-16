@@ -1,98 +1,143 @@
-Content-Type: multipart/mixed; boundary="===============5446613807123185897=="
+Content-Type: multipart/mixed; boundary="===============0852461634855248859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 16 Jun 2023 18:00:40 -0000
-Message-Id: <168693844034.18267.9655337452259655110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 16 Jun 2023 18:10:02 -0000
+Message-Id: <168693900293.25571.6742094792691125956@gitolite.kernel.org>
 
---===============5446613807123185897==
+--===============0852461634855248859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: c183fe143e1d8bc5742f2c7b2650b979e1b59337
-    new: ffad264a7f15f9bfaad50621b3657e72193c79ee
-    log: revlist-c183fe143e1d-ffad264a7f15.txt
-  - ref: refs/heads/linux-next
-    old: 06c8e224e003919993b1ea1c7ef6fd648725b004
-    new: cfe5d922f964486bd4b8d3f587765b7a6769f241
-    log: |
-         22db06337f590d01d79f60f181d8dfe5a9ef9085 ACPI: sleep: Avoid breaking S3 wakeup due to might_sleep()
-         eb34f01c834056a14beca7483c05670f6873e926 Merge branch 'acpi-sleep' into linux-next
-         0bb619f9227aa370330d2b309733d74750705053 thermal/intel/intel_soc_dts_iosf: Fix reporting wrong temperatures
-         cfe5d922f964486bd4b8d3f587765b7a6769f241 Merge branch 'thermal-intel-fixes' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 06c8e224e003919993b1ea1c7ef6fd648725b004
-    new: cfe5d922f964486bd4b8d3f587765b7a6769f241
-    log: |
-         22db06337f590d01d79f60f181d8dfe5a9ef9085 ACPI: sleep: Avoid breaking S3 wakeup due to might_sleep()
-         eb34f01c834056a14beca7483c05670f6873e926 Merge branch 'acpi-sleep' into linux-next
-         0bb619f9227aa370330d2b309733d74750705053 thermal/intel/intel_soc_dts_iosf: Fix reporting wrong temperatures
-         cfe5d922f964486bd4b8d3f587765b7a6769f241 Merge branch 'thermal-intel-fixes' into linux-next
-         
+  - ref: refs/heads/next
+    old: 377b9f9a001829b5159fce20fdeece3b1dee2a40
+    new: b138273e7eaefe1fe61b843b04991dd5ff61190b
+    log: revlist-377b9f9a0018-b138273e7eae.txt
+  - ref: refs/heads/seen
+    old: 63d5231cab2b5f1b669f16d239ef3e1c00c54efb
+    new: b3f9d48b0210c82ef7196a2b2a3d7fd8eeca6dd7
+    log: revlist-63d5231cab2b-b3f9d48b0210.txt
 
---===============5446613807123185897==
+--===============0852461634855248859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c183fe143e1d-ffad264a7f15.txt
+Content-Disposition: attachment; filename=revlist-377b9f9a0018-b138273e7eae.txt
 
-dc59bdd7b2817d4fb702ab678b3a3f6839b21179 dt-bindings: thermal: tsens: Add QCM2290
-25ccf22cf21c70d6d2b9f49f1b455dfbcbbdcd9d dt-bindings: thermal: tsens: Add compatible for SM6375
-6b4513a12191644382c5d2948ce4e6c46bcee4c4 drivers/thermal/rcar_gen3_thermal: introduce 'info' structure
-1edc27e59af73252f012dd97c86af9e73f50240e drivers/thermal/rcar_gen3_thermal: refactor reading fuses into seprarate function
-2e3dc1d53d80487f2b63c7c585b0dd3f9d852c2e drivers/thermal/rcar_gen3_thermal: add reading fuses for Gen4
-cc08c25e18b6318f45753b36216e1cd019d8dd9b dt-bindings: thermal: tsens: Add compatible for MSM8226
-f55b5d86a068fc491284132f3d15b6f9aad0ad43 thermal/drivers/qcom/tsens-v0_1: Add support for MSM8226
-1d537efbc95587d2908741b715dcd66636093896 thermal: Allow selecting the bang-bang governor as default
-27c21187eadf103ffea880f800633f56cb889fe6 dt-bindings: thermal: convert bcm2835-thermal bindings to YAML
-549f099309a870b5fb43334d5b91a591f16d05b0 dt-bindings: thermal: tsens: Add ipq9574 compatible
-c93fc01ae239f766b21cfcd847aadb308728e35a thermal/drivers/qcom/tsens: Drop unused legacy structs
-4ecd7b0eb0666998d5886cd591ea36a6f3d2a03a thermal/drivers/qcom/tsens-v0_1: Fix mdm9607 slope values
-6928c115fde6468c5c04d2938012c05abee459d6 thermal/drivers/qcom/tsens-v0_1: Add mdm9607 correction offsets
-f7f592523e04509d5feb54976037820692b92f84 dt-bindings: thermal: qcom-tsens: Drop redundant compatibles
-9ffe8c69562d9ec638a0800c2c5727f944168b1c dt-bindings: thermal: qcom-tsens: Add MSM8909 compatible
-f59e653d1067c4a036e285f11db890ddb97b3d0a thermal/drivers/qcom/tsens-v0_1: Add MSM8909 data
-427f64d9f7ea28320cd3ef7159b9909403bbe527 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
-936277ef6961c6e42659972d10ad5f3815ecdcd7 thermal/drivers/sun8i: Fix some error handling paths in sun8i_ths_probe()
-c6872f3055abf6daf77450c36c16b5da9d1ebb85 thermal/drivers/mediatek/lvts_thermal: Register thermal zones as hwmon sensors
-22db06337f590d01d79f60f181d8dfe5a9ef9085 ACPI: sleep: Avoid breaking S3 wakeup due to might_sleep()
-eb34f01c834056a14beca7483c05670f6873e926 Merge branch 'acpi-sleep' into linux-next
-b4a11fa3331e163e177e76098fe1d8b12b87cf6b cpufreq: Fail driver register if it has adjust_perf without fast_switch
-aa68f2446c043c424db4d3a046533916bb865f89 thermal/drivers/qoriq: No need to program site adjustment register
-4cceb6f8ee6f3007f40cac1b969eeebcbd74527f thermal/drivers/qoriq: Only enable supported sensors
-38df23c5e25461554ebf58e2cbc7e01b359d8234 thermal/drivers/qoriq: Support version 2.1
-415d9e839d878c6094fc1eabe7cee5aef586e2fd dt-bindings: armada-thermal: Add armada-ap807-thermal compatible
-00f8611d0a3cee0b53179b29d06a8fc246292f8c thermal/drivers/armada: Add support for AP807 thermal data
-f88bb798a22bbf67281f9c0d5f8effab27c87d2a net/mlx5: Update the driver with the recent thermal changes
-19bc6f9da25e7f7c944afa60a586510ec747b0bd thermal/core: Hardening the self-encapsulation
-ab83f07f4826dc000ef8d6966b126f4da3d2eb77 thermal/core: Reorder the headers inclusion
-980c8295c95365bc8ac71b8c5370d9bdad9f3d49 thermal/core: Update the generic trip points
-5b73835d16942ea75f136e0b5a33836ae9a8b099 thermal/drivers/int3400: Use thermal zone device wrappers
-33d1b58cf6e7784b28e871a1ff505eb62f552b6c thermal/drivers/int340x: Do not check the thermal zone state
-9742a3475e5ead795d216762aba686eae74ad07a thermal/drivers/int340x: Use thermal zone device trip update
-f619663add5d265ddbfeb5ccc165dd88c1edd5ce thermal/core: Move the thermal zone structure to the private core header
-2f3d08f074b02aa449de27238fda72496c789034 intel_idle: Add support for using intel_idle in a VM guest using just hlt
-d7e2d2326e730c7539bfd0e280451b452ab04d97 Merge branch 'pm-cpuidle' into bleeding-edge
-217e67784eab30cd0704fab4109647ea68a4d850 cpufreq: amd-pstate: Write CPPC enable bit per-socket
-f4aad639302a07454dcb23b408dcadf8a9efb031 cpufreq: amd-pstate: Make amd-pstate EPP driver name hyphenated
-4753961658445a1bb3e94b646873653664da51ad Merge branch 'pm-cpufreq' into bleeding-edge
-0d51157dfaac05ea66616d8a250dce04bef49a4f ACPI: button: Eliminate the driver notify callback
-e4e62d5fd8ecb0ea4174afda654432927d248a8a ACPI: button: Use different notify handlers for lid and buttons
-ff1d7aea83e2ea805b060d6a2f0623e41e3e4158 ACPI: tiny-power-button: Eliminate the driver notify callback
-365eac5ef2febeea75432b0c5257271fed93bcc5 ACPI: bus: Simplify installation and removal of notify callback
-c0f03ec209f97b00324a249d2b479dd3bd450ada Merge branch 'acpi-button' into bleeding-edge
-7ba169a03fbe8d6a9ee4b4d93a45b4d3d7244672 ACPI: Move ACPI_DEVICE_CLASS() to mod_devicetable.h
-c3425887d80a7791c6774e81dbe3e6f865b2c504 device property: Implement device_is_compatible()
-8e61353a48a8afdb9708ef000ce53437f1547f5c ata: ahci_platform: Make code agnostic to OF/ACPI
-570e67d4990327b62469e7160deb8a98a4b34cf8 Merge branch 'acpi-properties' into bleeding-edge
-ffad264a7f15f9bfaad50621b3657e72193c79ee Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+03bf92b9bfee808667588e65645c5427114a5634 statinfo.h: move DTYPE defines from dir.h
+6b6fe8b43ee71e52141ad762a38339688278f66f t1800: loosen matching of error message for bad shebang
+6d224ac286d62bb3a10c3697f220b0c10d4b5f51 run-command: report exec error even on ENOENT
+8fac776f441c69af60825452a3b5d4adecd47ad9 worktree: integrate with sparse-index
+78e56cff69df290058ddefe18637de973f91b39d t/lib-gpg: require GPGSSH for GPGSSH_VERIFYTIME prereq
+548afb0d9a5a15e538fbf7e01fafbc27691365f1 docs: typofixes
+01e9ca4a40e04cceeed01da05bed182556daa005 reachable.c: extract `obj_is_recent()`
+4dc16e2cb05fa467c3ef507679ae625f785770cf gc: introduce `gc.recentObjectsHook`
+06f38678654eb40c46fe09ec52ae9f864ccafa03 pack-bitmap.c: gracefully degrade on failure to load MIDX'd pack
+003c1f1171f12678fe7994b3e6b3f6b2f2b88de3 config: fix a leak in git_config_copy_or_rename_section_in_file
+4689101a4042ff245a425f476c6939b3c464ebc3 remote: fix a leak in query_matches_negative_refspec
+1533bda7700d6aa4374509f9611ae52a4eb2bcda branch: fix a leak in dwim_and_setup_tracking
+a88a3d7cd7cee64fd29fe2a4c6c7a0511f398bfb branch: fix a leak in inherit_tracking
+caee1d669c937a6b9d871901acbf9a5643a3fd9f branch: fix a leak in check_tracking_branch
+861c56f6f9e6d886421849a117afa60308fdba3b branch: fix a leak in setup_tracking
+0d863b943bf4ab86b4aa6bf400b1065be02d4a6f cmake: adapt to `cache.h` being no more
+3744ffcbcdcd5a619b7522671e6137b33d84626b ls-tree: fix documentation of %x format placeholder
+aeb21ce22eec112b37975443a160cb5418c6ec22 credential: avoid erasing distinct password
+6c26da8404c8acfed62fa4775b7b591f099bcd33 credential: erase all matching credentials
+69f4da8eadac4213fddbf68d85c992f230287001 setup.c: don't setup in discover_git_directory()
+27d1cd2a1bfae8605337a98a02f9557ae364872b Merge branch 'gc/discover-not-setup' into next
+5a3ed25303cad7eb2e36b9a0ce9fb2a2e5782a40 Merge branch 'mh/credential-erase-improvements' into next
+267100947e6998032b8ccbb3c63978eb85158f9c Merge branch 'as/dtype-compilation-fix' into next
+6bb4425334f3b0a35c3ad460ffec0d0ac37dfa4e Merge branch 'rs/run-command-exec-error-on-noent' into next
+ca0a7edcc5a12c9c1c824a4b15cba50d05ee60fd Merge branch 'sl/worktree-sparse' into next
+19770e970a7c37d3fcd3000129cb431f7dc2c3df Merge branch 'tz/lib-gpg-prereq-fix' into next
+56ddcb16e6551c624b6a7ebbecdf26c09d858817 Merge branch 'la/docs-typofixes' into next
+2d8d8ea2efc06ed89baa4747583104cceb25877f Merge branch 'tb/gc-recent-object-hook' into next
+6546fee7343da45a887757577cf77de77fda4348 Merge branch 'tb/open-midx-bitmap-fallback' into next
+d9330ea2306a898f91a09578ca0b4367d8320a95 Merge branch 'rj/leakfixes' into next
+472c7f55c982286e8b5c3a88b1aec5dd308171f7 Merge branch 'rs/doc-ls-tree-hex-literal' into next
+b138273e7eaefe1fe61b843b04991dd5ff61190b Merge branch 'js/cmake-wo-cache-h' into next
 
---===============5446613807123185897==--
+--===============0852461634855248859==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-63d5231cab2b-b3f9d48b0210.txt
+
+0d863b943bf4ab86b4aa6bf400b1065be02d4a6f cmake: adapt to `cache.h` being no more
+3744ffcbcdcd5a619b7522671e6137b33d84626b ls-tree: fix documentation of %x format placeholder
+cc8045018d0ba6c9b94d3f0010f27c342d0d4111 revision: reorder `read_revisions_from_stdin()`
+af37a209ad76ce760becc0d2c2fac63c2022e730 revision: small readability improvement for reading from stdin
+c40f0b78771ecc8696014e2e0aa37e78417b4723 revision: handle pseudo-opts in `--stdin` mode
+aeb21ce22eec112b37975443a160cb5418c6ec22 credential: avoid erasing distinct password
+6c26da8404c8acfed62fa4775b7b591f099bcd33 credential: erase all matching credentials
+69f4da8eadac4213fddbf68d85c992f230287001 setup.c: don't setup in discover_git_directory()
+039b6b0388fe1e3f2710d6aa56b8baef65411d02 Merge branch 'ps/fetch-cleanups' into jch
+58b0e479f0b7c54dafca86aa6c6c654dc31d15e3 Merge branch 'tl/quote-problematic-arg-for-clarity' into jch
+0bbaeb09799df86bfe425127888af3b26704bc09 Merge branch 'jk/ci-use-clang-for-sanitizer-jobs' into jch
+69a4eaeb9fe8ded9754c4e28473732124f8409f0 Merge branch 'tz/test-ssh-verifytime-fix' into jch
+cd1a89a930b78b31dec577810efdcf83bc18e753 Merge branch 'tz/test-fix-pthreads-prereq' into jch
+713b064112380f9811208f50983476ec3b521fd4 Merge branch 'mh/commit-reach-get-reachable-plug-leak' into jch
+ec92ce6c64d60ef8357e49317aa2893984d71cb4 Merge branch 'en/header-split-cache-h-part-3' into jch
+4554acb496a5b39c63d6c16853a3bd093b572180 Merge branch 'pb/complete-and-document-auto-merge-and-friends' into jch
+96e1f4b8cd464043654c9f8d8027d0637b62fe92 Merge branch 'kh/use-default-notes-doc' into jch
+70e73f906546d80a32a3adb847e7fcaefdc65853 Merge branch 'jc/test-modernization' into jch
+038bcad9d449d450a76b5d449f3960aa88ce7fcc Merge branch 'jc/test-modernization-2' into jch
+474a3571bd8b076319759ee76e226ee1a21058ed Merge branch 'tb/submodule-null-deref-fix' into jch
+1a03914b005258c94bef37fb694fdee7e0d69857 Merge branch 'vd/worktree-config-is-per-repository' into jch
+8cf1fd31bdb0ed51dc5d945a9622ecc924812830 Merge branch 'jk/log-follow-with-non-literal-pathspec' into jch
+e5c2af025636d8252c00d8a41cacd7ff147c58f1 Merge branch 'ja/worktree-orphan' into jch
+dd97b0be259f6b1de70a45aad77f8d3d0c8bfc74 Merge branch 'la/doc-interpret-trailers' into jch
+58df241397b4429639882beb583387030b93361d Merge branch 'ds/disable-replace-refs' into jch
+b71a4ada753aea32ed7d8696d078e40abe7516c2 Merge branch 'ps/cat-file-null-output' into jch
+6ae4acc789df1749d3600fbac1d99cb7f64151fa Merge branch 'ds/add-i-color-configuration-fix' into jch
+b2d8523ca388b477b652cda5516253ce4b7ce1b1 Merge branch 'gc/discover-not-setup' into jch
+5b7136880db07e17a4986d462e0afd0248d397f5 Merge branch 'mh/credential-erase-improvements' into jch
+20efb69dfc890e949b840367355f74e0656feae1 Merge branch 'as/dtype-compilation-fix' into jch
+c09f49bf7da830d5bd00ee4b25b919f02f0758e1 Merge branch 'rs/run-command-exec-error-on-noent' into jch
+f2a4bb2737fad454f9e97ba1c483d8ee59b509ff Merge branch 'sl/worktree-sparse' into jch
+1751d1766920859ada196d1190d931fd1e75fb44 Merge branch 'tz/lib-gpg-prereq-fix' into jch
+3a3b308a7659ceb3797de1e4eadde8d3edfea505 Merge branch 'la/docs-typofixes' into jch
+74b4ec784d9f458cf593a049b14f0a20f7ccfdfb Merge branch 'tb/gc-recent-object-hook' into jch
+be80e035879cd6c7dadb9e7c7ad84ec563a76b71 Merge branch 'tb/open-midx-bitmap-fallback' into jch
+703608f7e8a8f186e35a84ef565b8b124ed57579 Merge branch 'rj/leakfixes' into jch
+68c2af901c3b82ffcbad01df6802085f12e95888 Merge branch 'rs/doc-ls-tree-hex-literal' into jch
+327693495ccc127c427a925b940b47bfb87afe85 Merge branch 'js/cmake-wo-cache-h' into jch
+8b9fa169e3fbca6142bada6b80d627a69b7a780e ### match next
+00e756d85c001dde9af90346a0612fd48f5ad5e6 Merge branch 'jt/doc-use-octal-with-printf' into jch
+bd6eed60b537d815eecc13b308b2ce66ef3bd46e Merge branch 'js/defeat-ignore-submodules-config-with-explicit-addition' into jch
+cddcc98e63eb77e5cc077abf955122f94b88c730 Merge branch 'mh/credential-libsecret-attrs' into jch
+58f7749ef9e01a80acd7a41da6f05789a7eaaea9 Merge branch 'pw/rebase-i-after-failure' into jch
+7b931a1ab7749015fae00b024895d11065e99ae2 Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
+183568e33e32608b94807c1a78c92fecc3892dea Merge branch 'cw/strbuf-cleanup' into jch
+61b07f5e88bef8214736155c859940bf5a84c8a8 Merge branch 'cc/repack-sift-filtered-objects-to-separate-pack' into jch
+b497bdde708ff94ed3b048e6dc4ce280bb9e683d Merge branch 'tl/notes-separator' into jch
+9112ebe6f7359631fa38cf256405c7dc92a045ed Merge branch 'jc/notes-separator-fix' into jch
+ce90bcdecf1774989dc747095e777e88039be085 Merge branch 'ps/revision-stdin-with-options' into jch
+0c0eb9ca5e844c54115b1ba8bb4990e76a59bbc7 Merge branch 'mh/mingw-case-sensitive-build' into seen
+30bc02da93ee01998450ad87b334d45c24eb9c54 Merge branch 'tb/collect-pack-filenames-fix' into seen
+92f37318a0a367cb6d113fc802cc9b5fd678dce8 Merge branch 'tb/refs-exclusion-and-packed-refs' into seen
+bb4c8b07485183736f27fab1b12af95380a8205e Merge branch 'jt/path-filter-fix' into seen
+536dca2571945bc67385ad697e956a1027d12446 Merge branch 'pb/complete-diff-options' into seen
+2ab0e1519cb3761205b44966174c28fd818a1e9c Merge branch 'ks/ref-filter-signature' into seen
+d7a6829dd951ea72e051311af58253fe190b2073 Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
+69d03d6234aed86447a5cc7aee5540c92c9d6a90 Merge branch 'ab/imap-send-requires-curl' into seen
+94a2b9e070542a0b00e3c72bdecf99c22c03ce49 Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
+71968b655c9d0aa22c9fb5f82f8dc799d2f88acf Merge branch 'so/diff-merges-more' into seen
+a4b48d9e6679a6056a1e4209f1f6ad2d3e34f57f Merge branch 'cw/submodule-status-in-parallel' into seen
+30584377ef05e89d15b788661d1f8633a841c68e Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+02bc60b8745cc64fc10ce546c826a7421b6b6d8e Merge branch 'cb/checkout-same-branch-twice' into seen
+b24c41873dc186d3e4ccf8a5f1835703a14ed438 Merge branch 'ab/tag-object-type-errors' into seen
+7e04e727c15bf0b7c75a6bd9ca8b29c825e2de37 Merge branch 'tb/pack-bitmap-index-seek' into seen
+3e0b6359763434cb0384b5eca391ce64510fc328 Merge branch 'rn/sparse-diff-index' into seen
+a6390b3514cde7271ef5469a0809dddb49e2a6b6 Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
+90e816a522870348c072a2b4a30a344eb54c1b4b Merge branch 'ob/revert-of-revert' into seen
+5fa5f980543d766fb82234e56b089161fa5a8c49 Merge branch 'js/doc-unit-tests' into seen
+b3f9d48b0210c82ef7196a2b2a3d7fd8eeca6dd7 Merge branch 'cc/git-replay' into seen
+
+--===============0852461634855248859==--
