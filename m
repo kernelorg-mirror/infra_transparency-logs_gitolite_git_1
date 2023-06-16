@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6937718960230895898=="
+Content-Type: multipart/mixed; boundary="===============4659112763007095856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 16 Jun 2023 06:12:00 -0000
-Message-Id: <168689592082.17753.11283540230848834907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 16 Jun 2023 06:14:47 -0000
+Message-Id: <168689608778.18752.9932481004156028201@gitolite.kernel.org>
 
---===============6937718960230895898==
+--===============4659112763007095856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: df49f2a0ac4a34c0cb4b5c233fcfa0add644c43c
-    new: 88d8f3ac9c67e2d00db671dbb0af50efb7c358cb
+  - ref: refs/heads/tty-next
+    old: f3710f5e9e1a68da53202cffba73f4b604f05b15
+    new: e8cc334847dbd204ed4f500b3e3fa899b3766b62
     log: |
-         09b69dd4378b91b3ac3fbac387fb992dc21c0f88 usb: ch9: Replace 1-element array with flexible array
-         771e0e37bff042b31e8b104263c7ebbe915a0fd3 dt-bindings: usb: add ON Semiconductor nb7vpq904m Type-C Linear Redriver bindings
-         c43e7983fcc3f7dea0b49adfae848c2830d80a59 dt-bindings: reset: convert the xlnx,zynqmp-reset.txt to yaml
-         4ee94d9407898a5c0d3824d50ec91e4cb1276761 MAINTAINERS: USB: add uapi header files to USB SUBSYSTEM entry
-         88d8f3ac9c67e2d00db671dbb0af50efb7c358cb usb: typec: add support for the nb7vpq904m Type-C Linear Redriver
+         20a41a62618df85f3a2981008edec5cadd785e0a serial: 8250_omap: Use force_suspend and resume for system suspend
+         cef09673c35bdffb0866268cedae5994e024ddb8 serial: core: fix -EPROBE_DEFER handling in init
+         4903fde8047a28299d1fc79c1a0dcc255e928f12 tty: fix hang on tty device with no_room set
+         360c11e2258ce4269441a5ab6d43d0b202f4261b tty: tty_io: update timestamps on all device nodes
+         e8cc334847dbd204ed4f500b3e3fa899b3766b62 selftests: tty: add selftest for tty timestamp updates
          
 
---===============6937718960230895898==
+--===============4659112763007095856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686895920 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1686895919-c33450a992e16c901281a9613b9dac86920a9c62
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686896087 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1686896086-d4f685935b90e00f35eb594dbd3efc23f057a4da
 
-df49f2a0ac4a34c0cb4b5c233fcfa0add644c43c 88d8f3ac9c67e2d00db671dbb0af50efb7c358cb refs/heads/usb-next
+f3710f5e9e1a68da53202cffba73f4b604f05b15 e8cc334847dbd204ed4f500b3e3fa899b3766b62 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSL/TAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i90P/ic2HwclLLHsYO7yc9qY
-71pAKj2MhRNRIUKqJYC9QexTNJfCxcVom8udX1BB0TRlJiFOnND7/KWg6CUfuHo9
-aV1zaZsoAkwzdQaoujjiLr6ZdtWabj9iM5wjka/f48Ea105GuJXkQ3qdGsEdyhjq
-qXr9EZwyVBDbworc1FoS3at0SZH+B1Opz+WPxLTl6NixV8ccjFPF73PX4w2gT87y
-sZB1eYCNkCN3X6/mchP5FEjiNWUC4kZL9L1tpsi/xNWVi2oW4KMrYuSdD3bhTPki
-33X6dmCLgLvyHwfx9lI73fyW2xKfA+DVKo4qBwZdQG5f5QHaTcXN16RbHnY4H2Pg
-oYga6yhhkFTo7RzI+RdbXV6oEzeoX8o0cDpOE91AxHvBVzejixJVaPYPUbL7a4xM
-fOta7o1FCXQZtEt/68pGUHg8Q96yi4RRDPzM1Hdm1KF+NGxqDJ6Fj0y7rX4iHJKv
-XrkM0/0Dr6Auhoyrq1m2hBLzFIwEaCqi89UsBtjLn9p2/lUH/BicVCZm8fA4NNc3
-MF9yEuXImvh8nHth1pWcPpY0TfU2N0Y9OcfOVZCc5/xUdRdIJbMKWr8te4sZL8C3
-+FubrDC6LSAWC1RX2dfH5pVers6V6dGLIbqy6a48wMP0lRBvKaNbBhEVMUV2kYBT
-5IAJU2lEr8p6EiMqQ7pamTHG
-=C8+T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSL/dcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4B4P/jON3Ks5XNQ6fwJkQTo/
+JVH1IkvTykiRf2/ns0bI7YcG2xw7IFjR70AKLoRINNHwPCFna/EqDV2tP69lf9kg
+3jrRFOdaJ5DHew/QWynPGuTDc3UI8ror+V4SQPOZyel2qTvoS5FLIw7v3BtFQ0k1
+WovzQXogCOsqnlvYc8BkYj/DPe2GUzxTw/BUOwbIcZ+HvIOFxSmOoXS8FfqjeJls
+TlUOvGhOGeEmxFjit5FfWyuEpWWoy+pnsuSCMjsBf17Co16gwLIDYLQDSGD+diVd
+Clw3TNkf9j6DxxWzX6TszDjJV3hbfEATZoXr3o6g4zx62Yt8YXyal09dVYQcESJ9
+vWgT8bYlt+aWm9kejdthLJjDMdJM+HdnRHpo+wdpAvr+mh/e+ZbRZ0/LtRVMiXWz
+9NVqrmf623j/AzAdwn974zH/iYpS/OCp5xwHhOiXek6/OIqG195HbNmryZgEjIxi
+G16sDADa6Ds89B4gD+uIhl8o5Yny1/+r+RwV6uKHESQMd1Q+t0csUad76kY25BF/
+J9f8e6KMrHhfpQzrq3vLfq66/A8XWHdI24Ty2voyNH6H7zlRuZKxCoB+Z7TARLKw
+0kM3BDaWgdypTGHsMNhTjX55nTZp6PH8Qm8WqXkyfSyMQET+5BhRPlPtIVDqy5//
+VGJAH1n7PYf+xQx4+Rxp09C8
+=OHSX
 -----END PGP SIGNATURE-----
 
---===============6937718960230895898==--
+--===============4659112763007095856==--
