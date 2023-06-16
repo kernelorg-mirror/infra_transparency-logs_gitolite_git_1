@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 16 Jun 2023 19:59:30 -0000
-Message-Id: <168694557056.3805.884038045562632029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 16 Jun 2023 20:15:18 -0000
+Message-Id: <168694651890.16813.5707175325354234431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/tags/mlx5-fixes-2023-06-16
-    old: 0000000000000000000000000000000000000000
-    new: fd79664c51261754c64c5aa9d3a2b7da8689a74a
+  - ref: refs/heads/main
+    old: c08afcdcf95288c627267bb20002e8baaf3394e1
+    new: 5a6f6873606e03a0a95afe40ba5e84bb6e28a26f
+    log: |
+         5a6f6873606e03a0a95afe40ba5e84bb6e28a26f ip, ip6: Fix splice to raw and ping sockets
+         
