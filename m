@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Jun 2023 05:46:49 -0000
-Message-Id: <168689440971.31961.7141575926193426097@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 05:49:28 -0000
+Message-Id: <168689456806.466.16617440400744517608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e1d001fa5b477c4da46a29be1fcece91db7c7c6f
-    new: f7d625adeb7bc6a9ec83d32d9615889969d64484
+    old: f7d625adeb7bc6a9ec83d32d9615889969d64484
+    new: d9ffa069e006fa2873b94fbf2387546942d4f85b
     log: |
-         f7d625adeb7bc6a9ec83d32d9615889969d64484 net: ena: Add dynamic recycling mechanism for rx buffers
+         d9ffa069e006fa2873b94fbf2387546942d4f85b sunvnet: fix sparc64 build error after gso code split
          
