@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 16 Jun 2023 03:13:34 -0000
-Message-Id: <168688521406.20725.6811940788342116542@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 03:55:52 -0000
+Message-Id: <168688775212.17987.2437473460803334626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
   - ref: refs/heads/dev
-    old: cb274110fcc01ea60a0562f1b4a736bace40155a
-    new: 9c59dbc49473e09fd2b00c22377fc79556d8635f
+    old: 9c59dbc49473e09fd2b00c22377fc79556d8635f
+    new: c1b905f8b123c011689a08b6fadb2fb1d13cf3dd
     log: |
-         9c59dbc49473e09fd2b00c22377fc79556d8635f torture: Make kvm-remote print diagnostics on initial ssh failure
+         c1b905f8b123c011689a08b6fadb2fb1d13cf3dd torture: Make kvm-remote print diagnostics on initial ssh failure
          
