@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 16 Jun 2023 09:29:36 -0000
-Message-Id: <168690777644.27158.7355839199406276909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 16 Jun 2023 09:33:04 -0000
+Message-Id: <168690798470.30032.16866519228482772047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 45af195ec1293aa726934b9311d94bde94e6309d
-    new: e00a68bc1301eeadd608ab2962ccd573e10d1b55
+  - ref: refs/heads/main
+    old: 5bc9a34ce87bee0ca53b86ff1a5ca340a62c2117
+    new: 707a13c7e488785170a5e7f2467f2823824651e2
     log: |
-         013fdeb07a8fd32bbb3412e5f49d60207a78bf08 x86/mm: Remove unused current_untag_mask()
-         5946bcf1478a31062b266e38fcdadb91be12a2f6 Merge x86/cleanups into tip/master
-         30d65d1b19850c9bc8c17dba8ebe9be5e0c17054 x86/xen: Set default memory type for PV guests to WB
-         e00a68bc1301eeadd608ab2962ccd573e10d1b55 Merge x86/mtrr into tip/master
+         56714e5f1255fc318b65b6b338a0d8ebc44c920c wifi: brcmfmac: fix gnu_printf warnings
+         4b6ec74ec476c775b44d49ecd8cd48334db8e798 wifi: brcmsmac: fix gnu_printf warnings
+         5ea0c313090046d84064dc556983d8ed7e6065dd wifi: hostap: fix stringop-truncations GCC warning
+         707a13c7e488785170a5e7f2467f2823824651e2 wifi: ray_cs: fix stringop-truncation GCC warning
          
