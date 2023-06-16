@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Fri, 16 Jun 2023 15:54:59 -0000
-Message-Id: <168693089916.24108.8105068406602939845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 16 Jun 2023 16:05:21 -0000
+Message-Id: <168693152199.32376.478271887826952542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
-user: tnguy
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/dev-queue
-    old: 1cd1c871c9162a2c34380e6dd0c8ac9474d36522
-    new: 154f8b60f22af782a65a8bbe39a9f1ac688d0a16
+  - ref: refs/heads/probes/core
+    old: e46ad59233cf16daf4f3b9dd080003f01ac940fe
+    new: c0a44f8cafbecc2bd96be02d60c73fe2b174ef5a
     log: |
-         154f8b60f22af782a65a8bbe39a9f1ac688d0a16 ice: update ice DDP wireless_edge package to 1.3.10.0
+         6932387338a94ddde7e5ba54911f2cc76a231322 tracing/probes: Fix to return NULL and keep using current argc
+         9f674b69eb5b1270773c00007f31707d19f8d6f8 Documentation: Fix typo of reference file name
+         c0a44f8cafbecc2bd96be02d60c73fe2b174ef5a tracing/probes: Fix tracepoint event with $arg* to fetch correct argument
          
