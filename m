@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4525983634051518068=="
+Content-Type: multipart/mixed; boundary="===============2349567621677149856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 16 Jun 2023 21:41:41 -0000
-Message-Id: <168695170107.12804.2529802581748006754@gitolite.kernel.org>
+Date: Fri, 16 Jun 2023 21:41:47 -0000
+Message-Id: <168695170779.12933.4728997022001109429@gitolite.kernel.org>
 
---===============4525983634051518068==
+--===============2349567621677149856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/perf/core
     old: e90208e9ffe6cbeb3c14cba14082137bcb633ffe
     new: bb6b369cb42737afa4114f371868eb1d858ff36e
     log: revlist-e90208e9ffe6-bb6b369cb427.txt
 
---===============4525983634051518068==
+--===============2349567621677149856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f0dc208267bb744e3b2008bb11f68d02663330ef perf mem amd: Fix perf_pmus__num_mem_pm
 5752c20f3787c9bc9ff9411a70b3d41add85518c perf mem: Scan all PMUs instead of just core ones
 bb6b369cb42737afa4114f371868eb1d858ff36e perf test record+probe_libc_inet_pton.sh: Use "grep -F" instead of obsolescent "fgrep"
 
---===============4525983634051518068==--
+--===============2349567621677149856==--
