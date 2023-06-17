@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 17 Jun 2023 01:17:56 -0000
-Message-Id: <168696467650.3047.9797858034604298656@gitolite.kernel.org>
+Date: Sat, 17 Jun 2023 01:18:10 -0000
+Message-Id: <168696469050.3206.16830326703891754971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/perf-tools-next
     old: bb6b369cb42737afa4114f371868eb1d858ff36e
     new: 82fe2e45cdb00de4fa648050ae33bdadf9b3294a
     log: |
