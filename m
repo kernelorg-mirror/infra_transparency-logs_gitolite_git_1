@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 17 Jun 2023 07:29:02 -0000
-Message-Id: <168698694200.4306.13680542950255965932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 17 Jun 2023 07:36:29 -0000
+Message-Id: <168698738986.9993.12247069579758067634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: 6907217a8054b8afc47b3944afc7d77ad5caf824
-    new: f60ce8a48b97eb970bfbec1f26c914b9017c4a46
-    log: |
-         f60ce8a48b97eb970bfbec1f26c914b9017c4a46 net: mctp: remove redundant RTN_UNICAST check
-         
+  - ref: refs/heads/irq/gicv4-vpe-inv
+    old: 0000000000000000000000000000000000000000
+    new: 374483e6357c4efe0b4867cf7ec16115401f805d
