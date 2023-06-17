@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8720663279184095826=="
+Content-Type: multipart/mixed; boundary="===============6777345011135147623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 17 Jun 2023 08:53:15 -0000
-Message-Id: <168699199554.31494.11554330359434100450@gitolite.kernel.org>
+Date: Sat, 17 Jun 2023 08:53:17 -0000
+Message-Id: <168699199787.31587.8940655141615809565@gitolite.kernel.org>
 
---===============8720663279184095826==
+--===============6777345011135147623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,125 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 0312c44fe57536e9b4128c831334afb0d829e674
-    new: d1785513fcf91e8e81e50a9adddfc08a064709cf
-    log: revlist-0312c44fe575-d1785513fcf9.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 6385fa10377499ea394f124b27ddc00506535785
+    new: 615b5c31a2cee509b9f82bec7df7b26d5e26f0c4
+    log: revlist-6385fa103774-615b5c31a2ce.txt
 
---===============8720663279184095826==
+--===============6777345011135147623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686991994 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1686991996 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1686991994-e3b5c4ff3ba99b188f243437c3489b9661b051ce
+nonce 1686991996-d4296e7b285a76887e7b8301c6a5712a86513807
 
-0312c44fe57536e9b4128c831334afb0d829e674 d1785513fcf91e8e81e50a9adddfc08a064709cf refs/heads/linux-4.19.y
+6385fa10377499ea394f124b27ddc00506535785 615b5c31a2cee509b9f82bec7df7b26d5e26f0c4 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSNdHobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ne4QAJrOqef5X8RNby9v6RyC
-0j8E99LHoW0HMB+GIqlq+2fX7X+zOyfic+iyJfjvnOkVqzHm9xXNl1UArKDHV98t
-LWejPU2gThFF6P/Y/J6QQN2kStARyXM2echla0qEGurisQSzJ2z4HDAaYUTBiGMk
-XKaLTRe4HC5FDuYEx1cxcl1uPdWV6GG7s/jTu9zV4uECXe9Kg1vT9F3LnWF5LjXc
-1xn+gERVDx448fcACcnXZ1jphNV5B6sP5vk1SefURWxRtkkyXGn4mI+F1XUCy67Z
-sCwgqgDzHH2ZfFJNYI6u02OtfVh/3eCeVR4s/iVQny+GXHau8I+l2Akq7fOzNEKW
-ou40s3h+eH7JGCyWiVV+dxpqNdCeqTFyYkuj4Eo1pVpnfkV3odKXbCug6tSN92sJ
-J2sAGNac9e6YBLB6mAm+C1H737TN5C0ZsVBCvLALIy6nIsXQXmKUjMDM+MjmMOHP
-bNZrOenBFa4MIXkrgjdFxVMo8Fi7TrBC3djO3GTO+lY0fd6cgIX4gogbnAm+o/Mx
-vkGxDoEeHO+2ZMB2YBMjZqjw2moJjn9gelZVke7aUzTzg49G1YiOy1D8LXXlDawe
-D1HK1Ui0XfyyXSLWTaeX//AJvHWotLzqjy2xML1R/KYmSFHtP5cp6nIpid3r7T1s
-99gUaIwuOrP6nF8YH8fDk7Qc
-=GuU4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSNdHwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6+QP/iEjK7Fi8aWoiTFAgV+O
+OZiXprtcDLHThccTgsYMJLmDK+HQp4GgPtse+SDNtjP6g8MTcZRM3YwPgS0MtIj8
+FHe1n67ZkH9Dh4kOeE4AX0ogq4MvrJI6IH2TWszKln3XpGFEp79V2RCSpeCdIxkr
+5TxpgtIAkG0kJkzm5fuHl7I4dL9BpACfFuX0sb0pqjvbi8+1IjMKKH9ppfdDGj9d
+/UzvOVX9RJDN77MjtYb7iN93ZX9a/0D1iAA9eof07/CgH079JLxztyStpAHJrKih
+OmsRqJ/YkhudeF8iB/Yf45v6pKobunJHxXH5qwQzQcF+zSPaMJ8Qz3rGKBZ3TydE
+XAvkIJAEOnl/1yXgmpyWtos+imJ3hlTSVz7Hd5xw+GeaEba6bNEcXROT8NX9+xTL
+UDpfIJSCKxox5Oow/FHQPmA+Y46LK5rhBgEx2Aq/VcXLdyZPR7qZYBpLhJPRT9mP
+/HoDmcMfaMTBmVoui/94z9gAoa2n3ZlGI4S+gp1oyJgU82yVNgKNB6ov9oJOhsG4
+vnX2uRa9Jz8CFXoXvFpcSyhuWe9t0FY9/8nIeBfwJGLAFGRguMdQsxeNJ/+od9XG
+353ZkosLFxl/C+xsfRn921kBM6hXY87f4VBd1FdjCk8OXV8U56FGpQRGixnf1yw9
+v2LO5vPWfPgNKIceeqDS2r74
+=DXX1
 -----END PGP SIGNATURE-----
 
---===============8720663279184095826==
+--===============6777345011135147623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0312c44fe575-d1785513fcf9.txt
+Content-Disposition: attachment; filename=revlist-6385fa103774-615b5c31a2ce.txt
 
-047bf6291b6a9b5a18a05c97cf71beaf06be629c i40iw: fix build warning in i40iw_manage_apbvt()
-0821988113421c85cc9bf02772673816c18345aa i40e: fix build warnings in i40e_alloc.h
-7434af0995ad3795e9a0cbbc1d2d7d55155fa58f spi: qup: Request DMA before enabling clocks
-fe286b286ea9fe6bdebd1d21908f5254f8e769f5 net: dsa: lan9303: allow vid != 0 in port_fdb_{add|del} methods
-5822e209bcfc04fd7d45cc56f5ab0358403ba6c2 Bluetooth: Fix l2cap_disconnect_req deadlock
-8a2000677d6ee0ef2ec2e6bff8e7572b74a391ef Bluetooth: L2CAP: Add missing checks for invalid DCID
-9b3907c57b044d4709fcadd7b0690004fb310962 rfs: annotate lockless accesses to sk->sk_rxhash
-28dbabef5bb865c5a573ebee831a4b9f3544e2e1 rfs: annotate lockless accesses to RFS sock flow table
-9b2903fc0cdeb64b4637adebfc7f046ada9a0e6f net: sched: move rtm_tca_policy declaration to include file
-3cc54473badeb4cdb3798a079480114f0738432f net: sched: fix possible refcount leak in tc_chain_tmplt_add()
-53f16fa73f71abfcac67e71a5513653b8db28b76 lib: cpu_rmap: Fix potential use-after-free in irq_cpu_rmap_release()
-819c30857d1306b3a61f75474998a82d0a9fbd40 batman-adv: Broken sync while rescheduling delayed work
-c41d5cbfaf20b39f6b98e3a5accb1de4dd5177c0 Input: xpad - delete a Razer DeathAdder mouse VID/PID entry
-a80ea8aeb3d32b184267b47deeb691395b36871e Input: psmouse - fix OOB access in Elantech protocol
-46a036d213efa78018e825a284da06255bcee8f1 drm/amdgpu: fix xclk freq on CHIP_STONEY
-cf7bb1099585be44a70e358cff1866ca23a7e168 ceph: fix use-after-free bug for inodes when flushing capsnaps
-c900deb180537b1a77cc4872f873c9a6cc6e32c2 Bluetooth: Fix use-after-free in hci_remove_ltk/hci_remove_irk
-67c1b939ad32255c9d209adae044e17a1dbd9f9d pinctrl: meson-axg: add missing GPIOA_18 gpio group
-b43c35da1735d692b3e9935718b6ab2d6d554067 i2c: sprd: Delete i2c adapter in .remove's error path
-55b55f3ffdbe50623a277db2a1a3ef7ed5fcf302 ext4: only check dquot_initialize_needed() when debugging
-499d29bf151951399367ba83645abfdb429a3af9 btrfs: check return value of btrfs_commit_transaction in relocation
-dcb11fe0a0a9cca2b7425191b9bf30dc29f2ad0f btrfs: unset reloc control if transaction commit fails in prepare_to_relocate()
-f54ca87b5fb3c6b5eb978b94346a37f7f6adef04 Revert "staging: rtl8192e: Replace macro RTL_PCI_DEVICE with PCI_DEVICE"
-c111487599ab513f5a7ae4bb6fedaa077b022ecb Linux 4.19.286
-4e5338fc6aa47bc53f809380d1aa7296d5a2fc0e power: supply: ab8500: Fix external_power_changed race
-b1ee086c139b733de1b2b3420425ba808ff8b3ca power: supply: bq27xxx: Use mod_delayed_work() instead of cancel() + schedule()
-739fb31a8ab52e64e882fa8e160f372c549907f3 ARM: dts: vexpress: add missing cache properties
-dd5fc7d9d28707ff501fbbbb72d64dc0711ca67e power: supply: Ratelimit no data debug output
-05574a3cfda2913f5e0cbdbe7fa06f2bee1da4e2 regulator: Fix error checking for debugfs_create_dir
-284e986b309f5374520726ee2455ba2a1925ef39 irqchip/meson-gpio: Mark OF related data as maybe unused
-80349f78507b4c722109e99b378e89103baa985b power: supply: Fix logic checking if system is running from battery
-e4e5a13a71e4853712874cb11ca4ffd51dd2400b parisc: Improve cache flushing for PCXL in arch_sync_dma_for_cpu()
-8bb4eb3b452b07f001385280c7a2157215a1999c parisc: Flush gatt writes and adjust gatt mask in parisc_agp_mask_memory()
-fa4caeb3f05cc831edac116c08ff80a769d88241 MIPS: Restore Au1300 support
-86d1284fb416075e46aca9705f58e305258c36f4 MIPS: Alchemy: fix dbdma2
-a32c5b1e2a3291dfdae0f602eeb50f0c3da4c087 mips: Move initrd_start check after initrd address sanitisation.
-525b9bd9bf4c931ce921400e13070276bcef3089 xen/blkfront: Only check REQ_FUA for writes
-444b48fa4b8aa9c75d21f14b2e9166b2a7cab542 ocfs2: fix use-after-free when unmounting read-only filesystem
-4dec9d04f46ed847e17d2550401b6a94c66dd695 ocfs2: check new file size on fallocate call
-65374ff1e21be63da9473db78d7e9eeb747c493f nios2: dts: Fix tse_mac "max-frame-size" property
-f97d5b2b0e61b073d1d23a9682be24caad170d32 nilfs2: fix incomplete buffer cleanup in nilfs_btnode_abort_change_key()
-1c5e18e4a5d4a37651d7a7ff57f7b7bd31720449 nilfs2: fix possible out-of-bounds segment allocation in resize ioctl
-329e621e7bd5a39e9564bee75677fb069a750e42 kexec: support purgatories with .text.hot sections
-d251eefa771ad48ced4b4fbe0b34fda885527c9e powerpc/purgatory: remove PGO flags
-0d3d8c935c2829aa933e0577bc3b956d60c85b5c nouveau: fix client work fence deletion race
-fde40069a47fdd3a4bd0f9df357402ab4333a09c RDMA/uverbs: Restrict usage of privileged QKEYs
-f012b8c0c99ef9d52d6eebed70d21b92125a6cad net: usb: qmi_wwan: add support for Compal RXM-G1
-d1785513fcf91e8e81e50a9adddfc08a064709cf Linux 4.19.287-rc1
+ec97af8e8a36d75dd6936220e734fcc8648863b9 blk-iocost: avoid 64-bit division in ioc_timer_fn
+c425e71826e4ddfda4fc6112f8116d9b7d61d199 block/blk-iocost (gcc13): keep large values in a new enum
+fc75b8973de4ca046ebec0989a28fe3e043dfb75 i40iw: fix build warning in i40iw_manage_apbvt()
+1cc6435cd704cb7598a526980d02ab8edf821bb4 i40e: fix build warnings in i40e_alloc.h
+e96f52705a630aaef0a06fef81ce523f5548c3c0 spi: qup: Request DMA before enabling clocks
+314713ff4c9bf10392e1c6ce274cad7ab107b666 neighbour: Replace zero-length array with flexible-array member
+7e0da73ce546ae2f1f449b1d7207eeead9cb530d neighbour: fix unaligned access to pneigh_entry
+b0b1b97702a5bf1e24cb6e6bb6c666662ef9ab95 net: dsa: lan9303: allow vid != 0 in port_fdb_{add|del} methods
+0f841f80390d5ffb8a01071b1286213789da1c60 Bluetooth: Fix l2cap_disconnect_req deadlock
+c2c6133eebaf3eb2e16147b856e5bc63f70b48eb Bluetooth: L2CAP: Add missing checks for invalid DCID
+0b705ed9d4036257cf32a74535186c442a0bcb43 netfilter: conntrack: fix NULL pointer dereference in nf_confirm_cthelper
+a4c72805fda436a82bc31fe046a4f79c712045b6 netfilter: ipset: Add schedule point in call_ad().
+28ac3cf2ac2140c073902a20220bf86a3f0df8ab rfs: annotate lockless accesses to sk->sk_rxhash
+b8b90f92444b6b5e9a54e5ce073a79bf0372123c rfs: annotate lockless accesses to RFS sock flow table
+8f7cbd6d5e39a7597a81b63b6db593aaa93077f9 net: sched: move rtm_tca_policy declaration to include file
+198da74a4e8d4c2b2669eebc9f85e19e80cfae5a net: sched: fix possible refcount leak in tc_chain_tmplt_add()
+a6ca812973923229e1582efd1c8e221b4382308a lib: cpu_rmap: Fix potential use-after-free in irq_cpu_rmap_release()
+df7044fc099b93e22259c7514c681f3cca1f2be9 bnxt_en: Query default VLAN before VNIC setup on a VF
+a3a99a069eb955f7e090c9fa45e37afca62985bd batman-adv: Broken sync while rescheduling delayed work
+282a96e3f88fcecb80a00689b2c1758a8f22259a Input: xpad - delete a Razer DeathAdder mouse VID/PID entry
+d5ca4799e6d3e7f2fc7cad2932a4a79696d023d3 Input: psmouse - fix OOB access in Elantech protocol
+ca599db7a5e080cd41494b61bfd670f692f84e41 ALSA: hda/realtek: Add a quirk for HP Slim Desktop S01
+e752bb1c039f448eaf6f6e60ac558fabb28aa445 ALSA: hda/realtek: Add Lenovo P3 Tower platform
+2fc62d51d3e404b37fc0ba891fd3162cb46efde4 drm/amdgpu: fix xclk freq on CHIP_STONEY
+9eed68d62e2aa835b9366ba93062b7446bd47584 can: j1939: j1939_sk_send_loop_abort(): improved error queue handling in J1939 Socket
+bf0245bd44c0913472fbfb26434906d4cb1b7caa can: j1939: change j1939_netdev_lock type to mutex
+2416bac0e7b21113aa8047ecf8e97c9d559e26a3 can: j1939: avoid possible use-after-free when j1939_can_rx_register fails
+953335a377b6a829570916d4951f821394d048a1 ceph: fix use-after-free bug for inodes when flushing capsnaps
+69653f9416198329bee4733a113be961d34d147a Bluetooth: Fix use-after-free in hci_remove_ltk/hci_remove_irk
+c6e842555050ad24c10de41a23101e87fa80b1a3 rbd: move RBD_OBJ_FLAG_COPYUP_ENABLED flag setting
+090878903dd391d2f538ca0cbd3621b307408e46 pinctrl: meson-axg: add missing GPIOA_18 gpio group
+0147952d158b674a05556b06e1f0540d8368103d usb: usbfs: Enforce page requirements for mmap
+ec946898039a479ea95c3347f0c45c7ce5e4cbcc usb: usbfs: Use consistent mmap functions
+c73f1c2f6816c6b5f5b3bedfd809337fb9d6caa9 bonding (gcc13): synchronize bond_{a,t}lb_xmit() types
+0360652bf6abf82551d75290ea7828b41f005be1 i2c: sprd: Delete i2c adapter in .remove's error path
+7d0a29c74a312366c013161787a1a59691e6aa39 eeprom: at24: also select REGMAP
+73ed7996bbecb7d361acf7e6ee022e1f2ce7b48d ext4: only check dquot_initialize_needed() when debugging
+307ffb7162821737a57cf7cb6e1d86e110be9877 cifs: get rid of unused parameter in reconn_setup_dfs_targets()
+2cc5d40e4d49ec05d01538a2a6ee8c5cd737fe2b cifs: handle empty list of targets in cifs_reconnect()
+52a40eaa55d60a4554bb39c12e57652a859706bd drm/atomic: Don't pollute crtc_state->mode_blob with error pointers
+a35d89d3605ba085eee458303730d8f21c595560 rbd: get snapshot context after exclusive lock is ensured to be held
+4223d91ca1b5bf3928e5722c3c6b3fdb49250ab3 btrfs: check return value of btrfs_commit_transaction in relocation
+8e546674031fc1576da501e27a8fd165222e5a37 btrfs: unset reloc control if transaction commit fails in prepare_to_relocate()
+85258ae3070848d9d0f6fbee385be2db80e8cf26 mtd: spinand: macronix: Add support for MX35LFxGE4AD
+4b0199bc81892ae5a47ea8146ec7965ba51d9894 Revert "staging: rtl8192e: Replace macro RTL_PCI_DEVICE with PCI_DEVICE"
+61a2f83e4762ee0c766f86944e612305f5888bcb Linux 5.4.247
+09b863d48c743e0e8c06e4ae7f491600e2641144 test_firmware: fix a memory leak with reqs buffer
+ae2208b733f89f4894f37e8e8d8d0dfa2becf839 KEYS: asymmetric: Copy sig and digest in public_key_verify_signature()
+d9fd2b1bc461c4453fd111c8cdefdcb79542c742 dasd: refactor dasd_ioctl_information
+0c014969451131ceef8501a3e9c3392db9fdaaf1 s390/dasd: Use correct lock while counting channel queue length
+c7de8ffcf96aa92414dce40c7162fb0d73d73a7f power: supply: ab8500: Fix external_power_changed race
+8f49576868d92114e27dd5d0c9c71d2959608c2c power: supply: sc27xx: Fix external_power_changed race
+a8405cad7ec272cb768aadacfce4a45e718e3702 power: supply: bq27xxx: Use mod_delayed_work() instead of cancel() + schedule()
+3e162d55be4f9a20e672686ebfdd6796bd000928 ARM: dts: vexpress: add missing cache properties
+d134c4488ea627110202d135335dc8da789c69be power: supply: Ratelimit no data debug output
+0992c86c2861902f0c02fdf4d55b31ff9a3902de platform/x86: asus-wmi: Ignore WMI events with codes 0x7B, 0xC0
+9f225f3f04c11adab33e376ebf8c9a19f768fefe regulator: Fix error checking for debugfs_create_dir
+408de9cf46860cef8c0fdd6c42fc3a125aab374d irqchip/meson-gpio: Mark OF related data as maybe unused
+53fd1908018becfe89b2088be590fce1a1111d8e power: supply: Fix logic checking if system is running from battery
+9c43e9c9f5c52998912b25f7789dfa084de6dc09 btrfs: handle memory allocation failure in btrfs_csum_one_bio
+994d59c9ec415a4354a58b133c4344052617aceb parisc: Improve cache flushing for PCXL in arch_sync_dma_for_cpu()
+7ec14afbda2738cb2223b272f1af33401c85a83f parisc: Flush gatt writes and adjust gatt mask in parisc_agp_mask_memory()
+9665ce20d71241a0d30e8cb2f871f526e545e6b6 MIPS: Restore Au1300 support
+c45ad41cc526f486c23a6f937bf4c1718b927d83 MIPS: Alchemy: fix dbdma2
+80c82f043e8b1b89bb4345599198578f2c19c767 mips: Move initrd_start check after initrd address sanitisation.
+614d21aadb5310449ab2e659eb93acba0deef148 xen/blkfront: Only check REQ_FUA for writes
+bfc5a5e0c04ee7096814eaf8d673efdb9bf36685 drm:amd:amdgpu: Fix missing buffer object unlock in failure path
+955c5f9dd47ab7e7eb95a762f1e89798e8d76e6d ocfs2: fix use-after-free when unmounting read-only filesystem
+eaccbad7a7659105e52dca039c64c2e6786e225d ocfs2: check new file size on fallocate call
+ff985036604026575fb097a9fb1bcd618fd86ef0 nios2: dts: Fix tse_mac "max-frame-size" property
+429846006ec9681ed7fe22bc6faaa49e12c4108e nilfs2: fix incomplete buffer cleanup in nilfs_btnode_abort_change_key()
+a5a43406e99914f1630f9f92365ffec484c332ab nilfs2: fix possible out-of-bounds segment allocation in resize ioctl
+8bc37a3e2500253508d068ab34760aa5ab9fa4df kexec: support purgatories with .text.hot sections
+27d0bf4af3cb134e55563b7a995ff1b02ecb36d3 powerpc/purgatory: remove PGO flags
+60e25cd27a2583695c9933135295f26df27748d8 nouveau: fix client work fence deletion race
+b089b06498194fd8ab13b1290edf1941e61a59f3 RDMA/uverbs: Restrict usage of privileged QKEYs
+7b4158708b96876dd5ffb3be324d39aef116d102 net: usb: qmi_wwan: add support for Compal RXM-G1
+ee522a09a7b79eb00a238503299bbe96a1b9107e ALSA: hda/realtek: Add a quirk for Compaq N14JP6
+615b5c31a2cee509b9f82bec7df7b26d5e26f0c4 Linux 5.4.248-rc1
 
---===============8720663279184095826==--
+--===============6777345011135147623==--
