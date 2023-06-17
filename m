@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 17 Jun 2023 17:18:22 -0000
-Message-Id: <168702230218.9243.14243533476515569624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 17 Jun 2023 18:05:56 -0000
+Message-Id: <168702515608.9779.16672426090889990618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 3272a8f6f2d90af6c7a6d8d0abd57ec3bf03c072
-    new: e88ef801065feff97e458db43549dd23f7c1b25f
+  - ref: refs/heads/regmap-kunit-read-writeonly-flat
+    old: bb1fae4fed96b07d6053e6dbdc7e2958e2fa8004
+    new: 720a81e064648dfa6bc2c86e41bec9c70acf0437
     log: |
-         e88ef801065feff97e458db43549dd23f7c1b25f hwmon: (oxp-sensors) Add tt_toggle attribute on supported boards
+         c0612ff91ca90c8d2cd6e39949929fcc8eab9788 # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
+         720a81e064648dfa6bc2c86e41bec9c70acf0437 regmap: Allow reads from write only registers with the flat cache
          
