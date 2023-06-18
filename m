@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 18 Jun 2023 13:29:37 -0000
-Message-Id: <168709497702.24467.11078381328871378611@gitolite.kernel.org>
+Date: Sun, 18 Jun 2023 13:30:38 -0000
+Message-Id: <168709503880.26513.4588516408235780385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 7a7f094635349a7d0314364ad50bdeb770b6df4f
-    new: 3515440df461359762d447b5068f148611bb4d42
+    old: 3515440df461359762d447b5068f148611bb4d42
+    new: 264879fdbea0c3093057d48f3dcc7afeea433fb7
     log: |
-         4380499218c6a1aa77e80e3bf6da107dd8babf62 crypto: Fix af_alg_sendmsg(MSG_SPLICE_PAGES) sglist limit
-         3515440df461359762d447b5068f148611bb4d42 ipv6: also use netdev_hold() in ip6_route_check_nh()
+         264879fdbea0c3093057d48f3dcc7afeea433fb7 dt-bindings: net: phy: gpy2xx: more precise description
          
