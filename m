@@ -1,79 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============2608569598715582413=="
+Content-Type: multipart/mixed; boundary="===============3444219091812243259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sun, 18 Jun 2023 15:35:53 -0000
-Message-Id: <168710255380.16190.5465877167408654087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 18 Jun 2023 16:09:13 -0000
+Message-Id: <168710455326.7137.7182190837455658508@gitolite.kernel.org>
 
---===============2608569598715582413==
+--===============3444219091812243259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: ggreenman
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending-all
-    old: 7016c057949e578df3f1b0001d0b312fe6b65ab5
-    new: 45026154210a833b11e5047a886eab4976bedc19
-    log: revlist-7016c057949e-45026154210a.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 953ee245f229b1c75ed5c1e124e0cabfc48f20de
+    new: ee7f4a0cc1f14aaf430157bda5cfc2de1a07bf8c
+    log: revlist-953ee245f229-ee7f4a0cc1f1.txt
 
---===============2608569598715582413==
+--===============3444219091812243259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7016c057949e-45026154210a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d562a43a623e7b118bf484d6adb01c1be21995ed wifi: cfg80211: Support changes in AP MLD link state change
-ae8246b93d85a3c9265a63584af4cc8c01839f4a wifi: mac80211: Include Multi-Link in CRC calculation
-3c7ed481733815cecc1065915b379f8d09b150eb wifi: ieee80211: Fix the common size calculation for reconfiguration ML
-1b50e7a3b3cf8d73492c3adc64e3156d046d65b8 wifi: ieee80211: add helper to validate ML element type and size
-a7725bef379531504c17b3957947f2840d8bb436 wifi: ieee80211: use default for medium synchronization delay
-c0e17989b4ed90c60992878a7d4cfd788b6e6838 wifi: cfg80211: Always ignore ML element
-9999842237c04ca10c959b1c92b76f93909873ac wifi: ieee80211: add definitions for RNR MLD params
-831ab8a87b6f3feb88ee53bfdac52cd00df34612 wifi: cfg80211: use a struct for inform_single_bss data
-2a6f8766a3ecbe80a70cdbfe4e48cd7eff6a94a3 wifi: ieee80211: add structs for TBTT information access
-4c3f8901c1bcee7f217acbaa70efc52eaf40983d wifi: cfg80211: use structs for TBTT information access
-29593bd0ae1f42037fc7b833008504059364772e wifi: cfg80211: handle BSS data contained in ML probe responses
-4f73840064718749b149aedd3f9624eabaa3ae04 wifi: cfg80211: do not scan disabled links on 6GHz
-d8a046dc0c1ab79e5e5f53ab3d2c015be9037ee3 wifi: mac80211: Support link removal using Reconfiguration ML element
-fdbf17320a3727a08cffc72f4e3daa02f6f6c170 wifi: ieee80211: reorder presence checks in MLE per-STA profile
-7f03dec6a90b46cc00649ccd1ec8c587fc0c647d wifi: mac80211: agg-tx: add a few locking assertions
-e5b52777462a138949de0f7c90822c27d4db7f6d wifi: mac80211: agg-tx: prevent start/stop race
-2e1383b31f0747fc31d6f92f3270e63fd43f318c wifi: update multi-link element STA reconfig
-0ffac98475cfa1f761e2ddd34726f539ee027a39 wifi: cfg80211: stop parsing after allocation failure
-ffe2c014f4789291e9694938c7891e7f4d7296b0 wifi: cfg80211: search all RNR elements for colocated APs
-737827c906c95e6f570f094f02345f6411b1e76f wifi: mac80211: check EHT basic MCS/NSS set
-e63e7588198f5ed5529bd7a305c51a89cd18ff57 wifi: mac80211: drop unprotected robust mgmt before 4-way-HS
-e799254e923fe22485e314b7ee3f04ab617edd07 wifi: mac80211: move action length check up
-eb44611081296e3bbbc4e1078ce804b544892bf7 wifi: mac80211: drop some unprotected action frames
-1799c164e7e99c2ddaf4aaab4f6a65e0dcd876a4 wifi: mac80211: store BSS param change count from assoc response
-a5cf7534beda848d7b14e373cfddd28ac296c7b1 wifi: mac80211: always hold sdata lock in chanctx assign/unassign
-cdd81377dea0fd50eb05bf72452d1b7c4c2514a7 wifi: mac80211: avoid lockdep checking when removing deflink
-93235d5c86515cf276753e8dd0375b5d4dbe99ad wifi: mac80211: fix CRC calculation for extended elems
-067ded2b8fc3f1aa3f75c833c5530b1d76083921 wifi: cfg80211: Retrieve PSD information from RNR AP information
-74ce2983aed81ff46e487655df7016f92699ac33 wifi: nl80211/reg: add no-EHT regulatory flag
-37f02d83c6dfadc69a96c4372f6479eaf7429a0b wifi: iwlwifi: pcie: refactor RB status size calculation
-17f5b441cbee6f740932c18a7e0300499289af54 wifi: iwlwifi: pcie: add size assertions
-98a87b024249d6df08fa333f5ad8033cf5cf687c wifi: iwlwifi: mvm: check the right csa_active
-2985b1d6eb0aa8b560b8dbe329eef58f7b8137b6 wifi: iwlwifi: send marker cmd before suspend cmd
-b5f3be194f20be518014fe7a12bbcd5328faf2a7 wifi: iwlwifi: mvm: make iwl_mvm_set_fw_mu_edca_params mld aware
-6c84beda7dd6eb8b3b438278e7a3ca8d3cfdca9b wifi: iwlwifi: nvm: handle EHT/320 MHz regulatory flag
-8b084b7cc45164f067b7950cff693c5bb3350fdd wifi: iwlwifi: mvm: use EHT maximum MPDU length on 2.4 GHz
-0dc3dd2227ba1146a44e412383e0ac17ae2be654 wifi: iwlwifi: mvm: use min_t() for agg_size
-9e0943ef243f21eed6721ab3ce75a2a8d46ecbae wifi: mvm: add EHT A-MPDU size exponent support
-ccd8e779f4bb5b92e47efd0730a7f238d0484eda wifi: iwlwifi: limit EHT capabilities based on PCIe link speed
-0d42daee92ff918115ed04c82911fec170108415 wifi: iwlwifi: remove disable_dummy_notification
-5a6a5c7018c209d3e5b302bc9bd0591021970af0 wifi: iwlwifi: send LARI configuration earlier
-191e442b28545ee6bec307000d9655efe0414f29 wifi: iwlwifi: Add support for new PCI Id
-60fa99d26107e76d9da49c49debc383741dedd45 wifi: iwlwifi: mvm: support new flush_sta method
-5518b2f4ccb4f25264dde75052279bd8727ca997 wifi: iwlwifi: mvm: indicate HW decrypt for beacon protection
-e145a292a65efecad5a8fdca09da2594ee7de020 wifi: iwlwifi: mvm: avoid baid size integer overflow
-62c376ff30440f9db3809826fa2c44e7556e0c1a wifi: iwlwifi: mvm: check only affected links
-9b5e41824eb6b2b21fd94b2c41e66ce1861d0d7f wifi: iwlwifi: adjust skip-over-dtim in D3
-6db09d5c8817eb38b90e0233a4bf23da4590e0ba wifi: iwlwifi: mvm: Add support for scan version 17
-45026154210a833b11e5047a886eab4976bedc19 wifi: iwlwifi: pcie: Handle SO-F device for PCI id 0x7AF0
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687104551 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1687104549-025c25c06e2eae5082fbc4466bf5cf3a7a20486f
 
---===============2608569598715582413==--
+953ee245f229b1c75ed5c1e124e0cabfc48f20de ee7f4a0cc1f14aaf430157bda5cfc2de1a07bf8c refs/heads/linux-4.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSPLCcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E80P+gJjcoR2Ar4S2T7Jsngw
+FsBxG9qRiHGVkoGNqxYFtqbfqU3zBa8KB57/KlRLlIq6pbxD6mWM291t4m7AKqgj
+qjXAkeRc8K946OzcLTDL51yeeuM6liwV68E3NumpRVITuJBudGIsI9wgoFRuXbJk
+tePbfMDZ4TGigBz5wipWPDdSm7l6+8hXXtKKgDqAqGOR4vFeVPDnGXIty3QaRsZK
+tk3PmNvJVC4LRMTdLX7nIOvvdMlEhMA6avmnlycgy8RiGPS5sY6xcVaZh0yREO50
+n9mEtV6ea+DGxoibKCkGMK3eHUZDOJJ/EPVB2uqeQMOgndsvQkzYxESvP1s/juQm
+dwLgaZAiRXy89u31A+pbU/Euf1VmzR352XTbP0H8ILurA7zbh0MyEYtQtEhlxAar
+d6CwbnzA5TaVf2OynkDi9mxT+eHwr2EBoOHIDkFJ1LO3d/t2m7II6wer1rpam+4w
+4nzc80qCv9UN2Vpi5QOyK6Lk6Dx+TSsrEfkbX7uoRXovTiwhs3ucoqWuEWKRmBvy
+eL0JuzMaljNxtc1AQ40qEZMfktLa50Fn8RKhTKyXPE7ct+GvgX+8cAec+t5M4Dvz
+M1xXBkkMQrQDtcw6UtqhI0iYarOsFew1J2S9BTrQ732HMf9giCuekG7UpJ1l/Won
+i96btkl+2iqotoYsl8GMCzq+
+=cnCi
+-----END PGP SIGNATURE-----
+
+--===============3444219091812243259==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-953ee245f229-ee7f4a0cc1f1.txt
+
+bf99b0dee9a0615c62d47d9730d5bb008a26f85e power: supply: ab8500: Fix external_power_changed race
+29833d9db2d6227bbd7be5d27d3d8a6e4fb32bfd power: supply: bq27xxx: Use mod_delayed_work() instead of cancel() + schedule()
+97d0d5cba47deae86793b75d45108330eef638df ARM: dts: vexpress: add missing cache properties
+7f1c3bf9d52f30b002a105e79bd2d56d4c3f41d9 power: supply: Ratelimit no data debug output
+4d2bb1e49806578eb8165ceeb10a3e96d60cf36e regulator: Fix error checking for debugfs_create_dir
+09349850f4021991af4869dda0132e9e7cbe8397 power: supply: Fix logic checking if system is running from battery
+4cdc9732f2a53eba23086e56453c33690b93fcce MIPS: Alchemy: fix dbdma2
+737d5bc4621d30aa722173aecf0afa6d6bb4d644 mips: Move initrd_start check after initrd address sanitisation.
+982101056428c51f73c77080dfeac20b62b0ddd9 xen/blkfront: Only check REQ_FUA for writes
+805163fcf18b78d1da4cf69cf3e202abd27c0921 ocfs2: fix use-after-free when unmounting read-only filesystem
+280548154c2ca8ee3dd69951c8a936694d391e7d ocfs2: check new file size on fallocate call
+d1b5300775e236867b56ac0b39d2f3997ed1525e nios2: dts: Fix tse_mac "max-frame-size" property
+02434faf4a75b9bd7e1b818c4c9f57ab69dbc8d9 nilfs2: fix incomplete buffer cleanup in nilfs_btnode_abort_change_key()
+3fb6ddc2d3e6c327a5378ed5615e95a96fcdfd12 nilfs2: fix possible out-of-bounds segment allocation in resize ioctl
+06918d82e5f9498e16a752090d17335d42eb2851 net: usb: qmi_wwan: add support for Compal RXM-G1
+c50bcdc43b2b5bb92f8d1550093e7c4a236dd146 Remove DECnet support from kernel
+c1f724d36ed3411f22c3f683b00848b4e095452d USB: serial: option: add Quectel EM061KGL series
+de72624da2321b52620b44e66b3b380d32897129 netfilter: nfnetlink: skip error delivery on batch in case of ENOMEM
+f668cca495f04eb73e3f19d8112899fc52c70bd3 ping6: Fix send to link-local addresses with VRF.
+2e9cc22ebd9990cba61a68ca28fffc779ed211ee IB/isert: Fix dead lock in ib_isert
+7f4201c063a87c35690d9e97a612c916ebe611d3 IB/isert: Fix possible list corruption in CMA handler
+f2352b9610f20331ab0098c78ab0077baff0c06c IB/isert: Fix incorrect release of isert connection
+2adcb794736efd5d5395fabf3435536eab0ba928 sctp: fix an error code in sctp_sf_eat_auth()
+f59a0fb263b78abff4552b5563aff93fc1c0d82e igb: fix nvm.ops.read() error handling
+6b7ea793aeab01404669aa22c8eb8e4f8bd6c765 drm/nouveau/dp: check for NULL nv_connector->native_mode
+fc6fa318cc26068f86aca61507995ee57ca4dc2e net: lapbether: only support ethernet devices
+e0b631f9162dc59a3e6e1e810ad5f26d1903d28a net: tipc: resize nlattr array to correct size
+4274267b1f53676ab6391c52fab338e7cad22b0f selftests/ptp: Fix timestamp printf format for PTP_SYS_OFFSET
+ee7f4a0cc1f14aaf430157bda5cfc2de1a07bf8c Linux 4.14.319-rc1
+
+--===============3444219091812243259==--
