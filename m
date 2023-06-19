@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 19 Jun 2023 17:06:25 -0000
-Message-Id: <168719438589.25443.8875642572060586204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 19 Jun 2023 18:28:34 -0000
+Message-Id: <168719931401.17182.6033784840258814655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 3391e3ff695a5431f5fddd4172638722c77e46ff
-    new: abd6152d6046ddc4be1040b6206bee2e025e8a79
-    log: |
-         abd6152d6046ddc4be1040b6206bee2e025e8a79 Merge patch series "RISC-V: Export Zba, Zbb to usermode via hwprobe"
-         
+  - ref: refs/heads/filegB6rrP
+    old: 337207408f74a8374beacf232ec1e08742c1d98f
+    new: 0000000000000000000000000000000000000000
