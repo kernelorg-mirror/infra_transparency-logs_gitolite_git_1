@@ -1,49 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Mon, 19 Jun 2023 07:05:48 -0000
-Message-Id: <168715834899.32337.15861902880959418394@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4475545760300471664=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 19 Jun 2023 07:06:25 -0000
+Message-Id: <168715838552.32625.11361018696530925666@gitolite.kernel.org>
+
+--===============4475545760300471664==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wpan/wpan
-user: sschmidt
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/ieee802154-for-net-2023-06-19
-    old: 0000000000000000000000000000000000000000
-    new: cd9125030689dda69f73f6c2843d63135cb383f0
-  - ref: refs/tags/v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
-  - ref: refs/tags/v6.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
-  - ref: refs/tags/v6.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
-  - ref: refs/tags/v6.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
-  - ref: refs/tags/v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
-  - ref: refs/tags/v6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9632302b68e03c8579120884b22c4e4dc2340e43
-  - ref: refs/tags/v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/heads/master
+    old: c7675518371ee8a28670ced3201a8db8d837d512
+    new: 538fe7fe1d84a83f43faf2b0bbc1d96b0152d36b
+    log: |
+         538fe7fe1d84a83f43faf2b0bbc1d96b0152d36b 5.15-stable patches
+         
+
+--===============4475545760300471664==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687158384 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1687158383-37a1f15425786a164c09ad66157436883987510d
+
+c7675518371ee8a28670ced3201a8db8d837d512 538fe7fe1d84a83f43faf2b0bbc1d96b0152d36b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSP/nAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P9cP/iIvjZ4MHOGi7pOM97WP
+tTIYxMgA3GkQ0YNyTpi1O4r2uWxl2hsM7NEg6WsBvfq+/YpQH2qUsmOn0htZAedn
+9KR7vSEWj6EtdD6kcNGOcbElB1VXgiYQmm+ule5bkGXjSapt6oXpUoQPqzddMnFT
+HHONFZTgVtBB514N6qYEWXRTo8QqiNYXkVHO1q0EpcCLBN8Qeqd3Ex7elGxAcnKW
+xI3n6ZucaHT+V4PWsDO4sdtOEaNWdg6qI3fwu0qWyUsIUTpJiN4Gjn0yFbd/Oz9m
+qRKkP1Dg7AkTD8R2YkZBq/6Ud55OT6SjscpODq3SUsTDgNK5MBYBctB7dAVz9P+u
+bZDS1CBhXdL3VLcrOVduuxFSd9007mIPIBTacksdnYgnKp1F8T16bwNlMxPhxkv6
+ZWC49fkhBxiPs96Bp+9qmOT+tvwL4X/tTc1bDOkoMBetrXGaEsF68YhlSHz9dcxi
+Bb0/sJgyzgKpi+a3YE28ogQs5tvjCjcdLANIHlydoQRoNDV+dGF08rOO3vplUSk4
+x74ZN96QcYs8UrDcZUU7LV2Mqa0NIqwOXZt+SfO+DuW2o7WJzDS6TD/+DrZGWKpN
+E7N0rKCRw8IJ3wFzhbqGIWa8jbaTiQDBr3xkltY5zH+JAy5Q4+uQVgXIwut0W67F
+OtERWss/d15gX1Xfrwm5I+Xj
+=IF6Z
+-----END PGP SIGNATURE-----
+
+--===============4475545760300471664==--
