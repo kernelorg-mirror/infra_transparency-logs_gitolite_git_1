@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 19 Jun 2023 20:36:06 -0000
-Message-Id: <168720696608.10681.10042340087910971710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 19 Jun 2023 20:56:21 -0000
+Message-Id: <168720818127.24997.9003656754351472232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: e2fa5c2068fbea59e648d1637040ba8494f45104
-    new: 970308a7b544fa1c7ee98a2721faba3765be8dd8
+  - ref: refs/heads/master
+    old: dba29c1bfb0a723b71aa2aaac2b11536b1f80099
+    new: c866f8dc9a3b10fb75988a9045bfd68ca2789a15
     log: |
-         8ad663d3dfac95cbcc4121d0655bd18ad9de826f selftests/bpf: Use producer_cnt to allocate local counter array
-         ea400d13fc92ec66578b068e661a162e01d4b641 selftests/bpf: Output the correct error code for pthread APIs
-         da77ae2b27ec73a644624a6d4bffc206e2df6bb8 selftests/bpf: Ensure that next_cpu() returns a valid CPU number
-         970308a7b544fa1c7ee98a2721faba3765be8dd8 selftests/bpf: Set the default value of consumer_cnt as 0
+         6e98d6bf135f0fa29534428a296ea52d664ce4b2 build: Make sure --disable-optimization works
+         92822bd53a4969e0e4482206e04aee19be01f227 build: Enable configuring with gcov
+         b2e830739c24e9fd0b20de5950d6a74c2bc5ff74 gitignore: Add gcov output files
+         c866f8dc9a3b10fb75988a9045bfd68ca2789a15 doc: Add document describing code coverage testing
          
