@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 19 Jun 2023 16:23:08 -0000
-Message-Id: <168719178854.27143.5897277992540838822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 19 Jun 2023 16:28:41 -0000
+Message-Id: <168719212140.30617.9019673086513703791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/vfs.all
-    old: 27648ae8b791ca42e57e5ffdee56257c548aa3ca
-    new: a0fdfb1ee912533bf0a2deb3751f5a5466a69cce
+  - ref: refs/heads/for-next
+    old: 67ae570302a6e07a61d53ad4b5b6fdb475bf5ae4
+    new: 0319d7b58f8f28ac60cab91423d2caba5e9a8fed
     log: |
-         5cf8f23baf5f2e793d5027fd2bfb4c2db1846010 fs: Provide helpers for manipulating sb->s_readonly_remount
-         d56e0ddb8fc35a7aa13ab8f21c499a34f45dda05 fs: rename {vfs,kernel}_tmpfile_open()
-         cbb0b9d4bbcfa96e7872808a63be03202536f1bc fs: use a helper for opening kernel internal files
-         8a05a8c31d06c5d0d67b273a4a00f87269adde82 fs: move kmem_cache_zalloc() into alloc_empty_file*() helpers
-         62d53c4a1dfe347bd87ede46ffad38c9a3870338 fs: use backing_file container for internal files with "fake" f_path
-         bc2473c90fca55bf95b2ab6af1dacee26a4f92f6 ovl: enable fsnotify events on underlying real files
-         a0fdfb1ee912533bf0a2deb3751f5a5466a69cce Merge branches 'vfs.misc', 'v6.5/vfs.mount', 'fs.ntfs', 'vfs.rename.locking' and 'vfs.backing.file' into vfs.all
+         650ea2a1dd964ca0a9c55f68dcb614d359c6b7d7 riscv: hibernation: Replace jalr with jr before suspend_restore_regs
+         c6399b893043a5bb634de8677362f96684f1c0c8 riscv: hibernation: Remove duplicate call of suspend_restore_csrs
+         3b426d4b5b1462b8da31d4e631ac4f3c6270e9e1 RISC-V: ACPI : Fix for usage of pointers in different address space
+         ca7473cb8312232d8e03808004c54528e9446b73 RISC-V/perf: Use standard interface to get INTC domain
+         f20233852ae295fde59c9a28c4a2087d693de3fb dt-bindings: riscv: cpus: drop unneeded quotes
+         0319d7b58f8f28ac60cab91423d2caba5e9a8fed Merge patch series "riscv: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION"
          
