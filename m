@@ -1,43 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 19 Jun 2023 12:00:32 -0000
-Message-Id: <168717603294.539.12981656806896129138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 19 Jun 2023 12:06:50 -0000
+Message-Id: <168717641096.4484.17032332939864594886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/20230610_broonie_asoc_convert_realtek_i2c_drivers_to_use_maple_tree_register_cache
-    old: 0000000000000000000000000000000000000000
-    new: eefc27ea14ad6f5aa4656cf302dec366e1fd62f1
-  - ref: refs/heads/20230610_broonie_asoc_use_maple_tree_register_cache_for_everest_semi_codecs
-    old: 0000000000000000000000000000000000000000
-    new: 9321015a5f40891e7cb094c6f68f6d4f67b5f3dc
-  - ref: refs/heads/20230610_broonie_regulator_convert_linear_technologies_driver_to_maple_tree_cache
-    old: 0000000000000000000000000000000000000000
-    new: ce44a03db73f7ce7cca152e07bd9cbfc3c10a0ba
-  - ref: refs/heads/20230614_kuninori_morimoto_gx_add_snd_soc__of__get_dlc
-    old: 0000000000000000000000000000000000000000
-    new: b83c3da6c4454a49b56f0ba9b1696a80d7c4ef6f
-  - ref: refs/heads/fileeU5w2k
-    old: 0000000000000000000000000000000000000000
-    new: 1f1ef7e5bbe2de125da413e238915f6047ea4ba2
-  - ref: refs/heads/filegB6rrP
-    old: 0000000000000000000000000000000000000000
-    new: 337207408f74a8374beacf232ec1e08742c1d98f
-  - ref: refs/heads/filehTmkTr
-    old: 0000000000000000000000000000000000000000
-    new: 02474880e8fdd8533f21da4264a7ebfce8196be7
-  - ref: refs/heads/fileJo8WJP
-    old: 0000000000000000000000000000000000000000
-    new: decfed9a54fad2e0c23e3f8330b93c7bb3dfc219
-  - ref: refs/heads/fileTdGM5H
-    old: 0000000000000000000000000000000000000000
-    new: d0c99ffe212679b338d12fe283964e6e43ce1501
-  - ref: refs/heads/v3_20230619_srinivas_kandagatla_asoc_qcom_audioreach_add_compress_offload_support
-    old: 0000000000000000000000000000000000000000
-    new: c317d148a2b02c4756832fb4bd00a6480d874606
+  - ref: refs/heads/master
+    old: ab5d47bd41b1db82c295b0e751e2b822b43a4b5a
+    new: e2fa5c2068fbea59e648d1637040ba8494f45104
+    log: |
+         1d28635abcf1914425d6516e641978011984c58a bpf: Move unprivileged checks into map_create() and bpf_prog_load()
+         22db41226b679768df8f0a4ff5de8e58f625f45b bpf: Inline map creation logic in map_create() function
+         6c3eba1c5e283fd2bb1c076dbfcb47f569c3bfde bpf: Centralize permissions checks for all BPF map types
+         7f6719f7a8662a40afed367a685516f9f34e7bc2 bpf: Keep BPF_PROG_LOAD permission checks clear of validations
+         e2fa5c2068fbea59e648d1637040ba8494f45104 xsk: Remove unused inline function xsk_buff_discard()
+         
