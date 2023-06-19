@@ -1,59 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2675347865708278787=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 19 Jun 2023 15:14:40 -0000
-Message-Id: <168718768048.10947.3112363786105136007@gitolite.kernel.org>
-
---===============2675347865708278787==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 19 Jun 2023 15:30:50 -0000
+Message-Id: <168718865018.22749.9551819004295304840@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/staging-testing
-    old: 57e2936e22ed166734e011abcd755dfce87aefbc
-    new: 1e302984616bb8e547347ac62beaaca2ad5db053
+  - ref: refs/heads/master
+    old: af42b490017a78e5fda33deda93eb295014349d6
+    new: 728a75e19bfc63e11c6bb2e0316414894794cb0a
     log: |
-         413cc33f2742ea8a542a6841393f15a2db62aa20 staging: rtl8192e: Rename variable SetWirelessMode
-         0ec908bc792c02b9ecf6c9f1b218be363d398b1c staging: rtl8192e: Rename variable SetBWModeHandler
-         a6efe935c7f8670496622156ae424d2acf6eef7d staging: rtl8192e: Rename variable LeisurePSLeave
-         1e302984616bb8e547347ac62beaaca2ad5db053 staging: rtl8192e: Rename variable InitialGainHandler
+         e22f1dd54647a1ae4b3fb6c8146a5ab93703cf82 dt-bindings: net: realtek-bluetooth: Fix RTL8821CS binding
+         db642443c352df9861db8079125e7a6bc8e24e14 dt-bindings: net: realtek-bluetooth: Fix double RTL8723CS in desc
+         5b1473619169f97cc040626b95d93d0d18edf5e4 dt-bindings: Change Damien Le Moal's contact email
+         84c922c8eb08f20411ad4723696be5cd76b432e9 dt-bindings: i3c: silvaco,i3c-master: fix missing schema restriction
+         e59e22d57b4d1dae45be8b30673b5386374d2a03 dt-bindings: pinctrl: qcom,pmic-mpp: Fix schema for "qcom,paired"
+         1532b587e45480eebbcaab85126d59ec8b1d0485 Merge tag 'devicetree-fixes-for-6.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+         b6c0f48c37508a1d9e7a3bc90782673a8f56834a nios2: dts: Fix tse_mac "max-frame-size" property
+         7469561807e58c7644914998f22623e2201b5314 Merge tag 'nios2_fix_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
+         728a75e19bfc63e11c6bb2e0316414894794cb0a Merge tag 'v6.4-rc7-dts-raw'
          
-
---===============2675347865708278787==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687187677 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1687187678-b39460f8742b7b487e48872c95a6855a5331274b
-
-57e2936e22ed166734e011abcd755dfce87aefbc 1e302984616bb8e547347ac62beaaca2ad5db053 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSQcN0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ihgQAIstrno59YXgdBDt4Jr7
-oDeRgPdBYvUl5sV9pgAFOzkjktpqOYILI9EigCoGWFefqYF+lbvIP1FrFHn2OBFr
-V/sr703xFIDE57LyN/mwLoCsEZf10MuNfuE06z6PZ7i+5gVdsQmEmvfi0RNdgEMw
-oUslCvYTxo/tdpVOzRGg59HUR97atoEx5rrUmjiWPjljUnbWOj2aX/9s+3BRhmPt
-sv5hc0L+xrdhFvEI3xFY6uRJw78dBis6337Z7fapgrMNigSImBGAqsYbajsgDeia
-stpQjLFKqZFAPk1qLVkUGqq2+1891VnysEl02vHDrvDYwYswHcpwas8XNxyVL1Fq
-AfoixSRjVzM71LyeFVMyGaOaNLHJhdgiGFOa44RBvQc6TUJcCFZIVEgRvpWN2wD/
-vpkJw2Rrmt+tYIXoFnx/7VRLqOT5kdpZrvLpXhRERcihUe80oLECwWvpK+TfKZXN
-MVG5Rs5tcwiocGO2g01Xxfj2wdzjchQGDYfHK6+k0N0PO1YTBlmDSVff8cg4y3eW
-1dPjnif0yJD+vVMKHFRcGid0YV2cPYgSFtWkeZBjJXInbWg387+LvdoSMvlCxYFY
-wfTy5QeKvnz8fE4gQfqzoNsRzyE0tGtPe7CT8vqiQKFYXVkcyFKdgiwki+Ne5Vlh
-Zmg4KvW7UEyIZz3w7ReOrLqn
-=hNv+
------END PGP SIGNATURE-----
-
---===============2675347865708278787==--
