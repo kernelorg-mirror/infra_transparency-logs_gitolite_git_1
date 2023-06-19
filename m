@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3068176093780839434=="
+Content-Type: multipart/mixed; boundary="===============5572174980087838544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 19 Jun 2023 13:01:17 -0000
-Message-Id: <168717967758.11998.6966627448090625308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Mon, 19 Jun 2023 13:02:58 -0000
+Message-Id: <168717977836.12671.11952993697356776414@gitolite.kernel.org>
 
---===============3068176093780839434==
+--===============5572174980087838544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: a82c3df955f8c1c726e4976527aa6ae924a67dd9
+  - ref: refs/heads/main
+    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
     new: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
-    log: revlist-a82c3df955f8-45a3e24f65e9.txt
+    log: revlist-9561de3a55be-45a3e24f65e9.txt
 
---===============3068176093780839434==
+--===============5572174980087838544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687179676 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1687179675-a8de07edfd6bbf91ea72e3e5b3024d19dda1b74d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687179777 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1687179777-3ed70c721ae22c880a700ec65ac894a4f38e3f5d
 
-a82c3df955f8c1c726e4976527aa6ae924a67dd9 45a3e24f65e90a047bef86f927ebdc4c710edaa1 refs/heads/tty-linus
+9561de3a55bed6bdd44a12820ba81ec416e705a7 45a3e24f65e90a047bef86f927ebdc4c710edaa1 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSQUZwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VQ4QAI8oiLFx+H2r6C0SsMHM
-UC0Bt1GrsQk9v7ybFS0DvYodNM58rdfR0aaeL1gtDzSIIHWqIuo76B20Yegf5fFV
-nV2INQs+KoE3Iml/eVTUTulInwpkUbJj6QFStGb906Iu4o0GCO48aPxtx6JP58Ee
-1q0EgtFsbehUcdWjHLlEzl+uGAm73Qq/wq7+PeAEQgkUb9znHsuY0fbjgtNM9rqt
-1/FQI5Uz80psVzKGJQYDHhAUcdw/iJZJQ4yIGq2zy4Ao3jYRtgDyn/8y6e/jm3EV
-kE2OV1wVL7+KTCMv2hliulltolyDdkxvr66x4ajK+WxFh3UDPp1KjVcEdE691Amd
-krjKyT/RZTHwZZjTtyI/lu9XUu7FK61W+IJgludzPgTe15f7DO7HvrLV7LKDAVww
-lZFiYUFCmCwp+dcOlBbx6ws88uiMMjdo915cpJaWwKENjq6PzxLR4F83s3JFsuEU
-+WMJgSs7VjFb0cDJE/Wurcm4/cNyC0oiy4LccsBlnQc78P3HKzt1AEJJrbHYW8Hw
-kuKx1ZgU2h7Xai6cwdHDvzufL2HfEDdxdAmZWX3GBWlldgEIeYluVy2df73frUJQ
-f2pFGwyA4obrw9Vuzyvvhn7h97moYcT9DuyvySHOhNB8+52UPSgIHrmCWvz2T99x
-ZP02usehqUlqFVDj0wgmhTrq
-=rCIk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSQUgEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s4EQAMIIj/LeCkoIH+DPqPlw
+KiVnUMBPC9BkGSkLIAqrQ8QaN4K+siuWE/MnGVrl57XWTVxvKqHDfeR8rH+sW3nk
+NwEh62hNCDp/GKcmiKKo+v54lehdapVrkeVVWMcPNKWsYFArCHcVsWibBmhdweSY
+xa0qnVAbxJx2ShxUueABUUCSpL72s9yfVH9FHhofCCaAQ73tIiikUVtcRMUGb3b+
+YGKni3JR9ghZ/TS8R6vP8djN0JYrpCyirZyOzt2IlANbvx2nAUHBujjPOCu+WNLt
+LQyWverVemy7/dzGdMbGKNnpqsbOtdnVqSqwnqOO8kn2DwVFIj6MhgWjSdF2Z5Qr
+B02V8axCdCDNGGprL5v2+MkykIBwg36Rg2rx2fTlCzeS8qhR1b+GrLA4AP7EubE1
+vDGuQDaJ0vTcb6GRw+OWOX+ycg0Ae+9BP7JqssBOCGP2jX+GJCKWdqWcygxUc9Xg
+FLG7sP33KSOvZm4opIM5YUxyNIqrDtSKy9Ay3cDvluPJIXMKWIECqiW835eo3rrz
+TDrsP8Xlst/bTqqjvPAdz3oo01VWbjwrftk9Wx+O9g8b6Ied94LOupl/K4FGh0oM
+yUjX+Jn5SnQtXszPxHDDyKie44XVcDxADOl2k4hcY/MlMqYSZPqqzH63J7tG/P1H
+kJOSSdATh35kyRw34hfE45em
+=Nvi2
 -----END PGP SIGNATURE-----
 
---===============3068176093780839434==
+--===============5572174980087838544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a82c3df955f8-45a3e24f65e9.txt
+Content-Disposition: attachment; filename=revlist-9561de3a55be-45a3e24f65e9.txt
 
 529de2f1ca3f0898c0d905b7d355a43dce1de7dc Input: cyttsp5 - fix array length
 978134c4b192ed04ecf699be3e1b4d23b5d20457 Input: fix open count when closing inhibited device
@@ -262,6 +262,7 @@ c5ae57b1bb99bd6f50b90428fabde397c2aeba0f ALSA: gus: Fix kctl->id initialization
 3aa0519a4780f1b8e11966bd879d4a2934ba455f firmware: arm_ffa: Set handle field to zero in memory descriptor
 846b065da6460a4ac9d927e5511ce24901bf43ad Merge tag 'platform-drivers-x86-v6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 411360257c1f4fccaa20143098b6d3fcc9d4e4dc accel/ivpu: Reserve all non-command bo's using DMA_RESV_USAGE_BOOKKEEP
+306320034e8fbe7ee1cc4f5269c55658b4612048 serial: lantiq: add missing interrupt ack
 0bdd0f0bf17c5aac16f348ee4b1ebf23d1ec1649 Merge tag 'gfs2-v6.4-rc4-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 3e54ed8247c94c8bdf370bd872bd9dfe72b1b12b wifi: cfg80211: fix locking in sched scan stop work
 f7e60032c6618dfd643c7210d5cba2789e2de2e2 wifi: cfg80211: fix locking in regulatory disconnect
@@ -535,6 +536,7 @@ c4a8bfabefed706bb9150867db528ceefd5cb5fe usb: typec: ucsi: Fix command cancellat
 50966da807c81c5eb3bdfd392990fe0bba94d1ee usb: gadget: udc: core: Offload usb_udc_vbus_handler processing
 286d9975a838d0a54da049765fa1d1fb96b89682 usb: gadget: udc: core: Prevent soft_connect_store() race
 11d24327c2d7ad7f24fcc44fb00e1fa91ebf6525 drm/nouveau: don't detect DSM for non-NVIDIA device
+a82c3df955f8c1c726e4976527aa6ae924a67dd9 tty: serial: fsl_lpuart: reduce RX watermark to 0 on LS1028A
 f9fd804aa0a36f15a35ca070ec4c52650876cc29 ASoC: tegra: Fix Master Volume Control
 44e46572f0bae431a6092e3cfd2f47bff8b8d18c regmap: regcache: Don't sync read-only registers
 c7753ed71c160f75f92ff5679e9fc22526e56fc5 dt-bindings: pinctrl: qcom,pmic-mpp: Fix schema for "qcom,paired"
@@ -650,4 +652,4 @@ ecbcffe3b7edc9a42b4e29ed8dafd56855ee675c Merge tag 'ata-6.4-rc7' of git://git.ke
 8c1f0c38b31025f60437215dd27fffc293565fa4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 45a3e24f65e90a047bef86f927ebdc4c710edaa1 Linux 6.4-rc7
 
---===============3068176093780839434==--
+--===============5572174980087838544==--
