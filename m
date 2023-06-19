@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8417680344582415766=="
+Content-Type: multipart/mixed; boundary="===============5117077709453391155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 19 Jun 2023 15:13:03 -0000
-Message-Id: <168718758390.10244.13055976412587013028@gitolite.kernel.org>
+Date: Mon, 19 Jun 2023 15:13:39 -0000
+Message-Id: <168718761901.10524.13868403290118422467@gitolite.kernel.org>
 
---===============8417680344582415766==
+--===============5117077709453391155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 74a81c4854a8cda61efabcb18ea1ba5b1ae7f768
-    new: afc5fddd3937959b646011fe901360598f826a05
-    log: revlist-74a81c4854a8-afc5fddd3937.txt
+  - ref: refs/heads/char-misc-testing
+    old: ff0585177e624cdfdebf2036839ce248a1bed770
+    new: a5052c85b9def55cf1c6d13bbed0ae07ffb1c6a1
+    log: revlist-ff0585177e62-a5052c85b9de.txt
 
---===============8417680344582415766==
+--===============5117077709453391155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687187580 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687187615 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1687187581-abbdb052102a839fbde08f29f1de04ca4eaef9fa
+nonce 1687187615-857b10dd09087f7993cfb3fe87d14d96931a57e4
 
-74a81c4854a8cda61efabcb18ea1ba5b1ae7f768 afc5fddd3937959b646011fe901360598f826a05 refs/heads/char-misc-next
+ff0585177e624cdfdebf2036839ce248a1bed770 a5052c85b9def55cf1c6d13bbed0ae07ffb1c6a1 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSQcHwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mNsQALT0NdpAQ1UCVsrnIEmQ
-bs9UkXNNZvC2hJChtMD9NDFkllVaro1YQbAT4fnYgRg8zIi7fE5hXgASSmwtigcq
-LLOELNsPzcTTui1O7M/IgZMCXjGs9vGzexGYXUmhBmAsOOFWmIdzH5mMh3JafgDJ
-AI103RstOy6Nr5CCW61KzWpWcKcsFdgqYWshAW2A1BFsaV5BnIQFZdor+hfyfSxx
-Aankmz1QGPLlva4UGvKyqgMlhqfJq09amDhwbQHETwqUYNah1kHm71HVYTEwQ22g
-UWL2NAdsJObCLeCm80MYhVh4OebCn1IuLw9aFSMn5C1BNmVw+TA4F7DHsNHu3k25
-Ok/1a89+CviMQgXR5tH4UK4KFZ7YIXivh+NFpJa5sKdwdGgoMCHd0eCkvtC0Xs69
-F/kdt5N8wZKkkBv/QzGO38yH2ENihe09cjaZtiNM8BixiEz3n6IZiUVpuCUCJ5Mz
-uNgU9pR1np++kF+6TNZbH8abQZqG8ZYHPvf08OcIGwHr+jFBy//Tfb+1d02hiFF3
-VbCBVcEOWSOSblFFDIyYu9sMZmUYXF5iAuqJw602FCKD6T8Ero3++/HE9EPVuoHA
-HZmRB7FnvV+h1/4wES0lNwtiFCPBaVWxFFXfQWYc7JixV7pJzlBo54u8YoFoh1UC
-rEw8h+0Okmi91OYGTjUl5eQ1
-=lbgt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSQcKAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sHUP/3J6n/rSbR7UqgjQVpcb
+PiFDLiJZbHTAm6UDnBBEzkKr4DHnjAhm68JgmG27FOP1deAYMop17ZvP5yoWSdzq
+qioXangPclOEeRNIHh7hHpPh4+AI1MudXUyuhiJkAGnqi3QRFKWEvshz9GaiDyAE
+a818Pl+SjDGEpgHEA31TTBBlWxPsOvLUAkgE++GmYGw3ts87LsaiuGARGoIfFZL5
+0zVag6ONpm0OS4M1XRJ+RWqisr5rAF4CHKWhOeOJXXcd93/JK1OoYQLQ2SUpjkGU
+ZT4bI355cmw7JjcMWjBJ+P9YWacN1Fv/oEAODV2R1Sgd7xqkpuh6dRLUuUbhnoov
+tGlDOK7g4SGESOHAExM8jf4ral8JmPDlZa2U1hz7UEh3uUpfGCaY5l1A7qgqJ3Kq
+yEZrrTTH2jcHfL2yXEsP1Uh6E3105dY16heWJRZ5KRwz1iUiVpnxnIye4Fxt0URl
+O6KHHiwkIneMaTJmY9Is2lwz4ebAlZemjuRKVXkSIobgBWdOUw8KNUcy9+PBMWz2
+C6/V+W5tU4AdbxeFRnI1K8uFzJI3Ov5R7QdIcxoUbyFqvahMDrp8EDFqKo0J5d9l
+EMzKZsQhEnuCl8DRk/pcXfNaXW+b8cZZZa77wrdtp9W9DWFqYsI2/ht3MiESDlEx
+BS/voHvSgL6Y2hH8ZEMAeA/n
+=oN4U
 -----END PGP SIGNATURE-----
 
---===============8417680344582415766==
+--===============5117077709453391155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74a81c4854a8-afc5fddd3937.txt
+Content-Disposition: attachment; filename=revlist-ff0585177e62-a5052c85b9de.txt
 
 3adbaa30d973093a4f37927baf9596cca51b593d extcon: usbc-tusb320: Unregister typec port on driver removal
 07c8eb325f29a4a967f939b9fe6cce09f35e25e9 extcon: axp288: Replace open coded acpi_dev_put()
@@ -84,5 +84,7 @@ ef753fb4e86607afc6228d8632705122bc67f29a extcon: Use sizeof(*pointer) instead of
 bcfa8e33064f1357e60a7c056a2e51cc5928d629 extcon: Switch i2c drivers back to use .probe()
 94da3da96c35744001adfdb65e501e633a64cb51 dt-bindings: extcon: wlf,arizona: drop unneeded quotes
 afc5fddd3937959b646011fe901360598f826a05 Merge tag 'extcon-next-for-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
+af2e19d82a116bc622eea84c9faadd5f7e20bec4 misc: fastrpc: check return value of devm_kasprintf()
+a5052c85b9def55cf1c6d13bbed0ae07ffb1c6a1 samples: pfsm: add CC_CAN_LINK dependency
 
---===============8417680344582415766==--
+--===============5117077709453391155==--
