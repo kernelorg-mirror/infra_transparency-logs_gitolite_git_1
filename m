@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3521258681940494636=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 19 Jun 2023 07:05:31 -0000
-Message-Id: <168715833168.32163.13415061166356860405@gitolite.kernel.org>
-
---===============3521258681940494636==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
+Date: Mon, 19 Jun 2023 07:05:48 -0000
+Message-Id: <168715834899.32337.15861902880959418394@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wpan/wpan
+user: sschmidt
 changes:
-  - ref: refs/heads/master
-    old: 74df77b449acc4b61d80c3c25a604edcdf4a3731
-    new: c7675518371ee8a28670ced3201a8db8d837d512
-    log: |
-         c7675518371ee8a28670ced3201a8db8d837d512 5.10-stable patches
-         
-
---===============3521258681940494636==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687158330 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1687158329-9f42d05f22d0153d32bf7c2d4164904fc7830aeb
-
-74df77b449acc4b61d80c3c25a604edcdf4a3731 c7675518371ee8a28670ced3201a8db8d837d512 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSP/jobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zgAQAMe3+Ch8JIYLLDiv1iSl
-vplGdVBKIIw2TJxgbopXqWD0vZ3WyQ378jbGf9MzEuaOOx3qybHSA7cGD8uHsvut
-s0APCRsZCoRCHMX+PXUWfg0VkpHGXZBW0/1XPimai3dO2jk2QgLWUVskrchLQwtv
-MBGq02TCSJKmOZ2AjY+tSo1CMDz9F+a65/p2vZub3EYC2dh/69QYC0kaTJ2Kvyav
-d9HXFQycUBFZSw1f/PEQtsR5AGvTZ7gqNLF/kWvGmwbbEOz0ezjDIWRWm4sx+WXk
-TpELj8EdShagzNvshgcwMC8Yf2mBJwiB3Og32lATwpEfmG1eodGL2bNmf7J4+Gwa
-VADI0ejgGCajXXHr5QGEL94YMIDHpueJHkyUNWc55fykTM2kvg7gC9XE/wrbhwy+
-ZGc94MBPjqsJgkaAQ03Ri76pPAYrYcO8tdZGWVU12EPRTKObmMmCvvdU7ntf48GQ
-tmiLwXcaeQjHkjP0ZJieRf0yJ25+DdBAZhuiV82Rh7RLxKUlk8+hFTpgFsQxjWLn
-LJUS7k3HQievMdltSQIzmzbFZj1rTO9e3dQvw5nDqhBvVtHcOSSHvWCyFtqZSt5M
-JpOjhm1dViNegWKp03kbKQMFxxbBeIHOK2RSKDpkvbBucgwxkqpFhq1+ud/9nSgz
-w3v34IxLAHQ/+Sq/CSqHZDMN
-=zCS+
------END PGP SIGNATURE-----
-
---===============3521258681940494636==--
+  - ref: refs/tags/ieee802154-for-net-2023-06-19
+    old: 0000000000000000000000000000000000000000
+    new: cd9125030689dda69f73f6c2843d63135cb383f0
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/tags/v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
+  - ref: refs/tags/v6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+  - ref: refs/tags/v6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
