@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4442425319306473476=="
+Content-Type: multipart/mixed; boundary="===============7548714914540982602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Jun 2023 06:51:58 -0000
-Message-Id: <168715751853.21113.18283361449207925520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 19 Jun 2023 06:52:15 -0000
+Message-Id: <168715753507.21296.10825682228406571439@gitolite.kernel.org>
 
---===============4442425319306473476==
+--===============7548714914540982602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ae681f7d59234c591d279b9fd0c4ccf6bc110c24
-    new: 338a801aee1b8258089c83a0bafca6a57ae1e7f0
-    log: revlist-ae681f7d5923-338a801aee1b.txt
+    old: c38df9d7fdccc240cff16ad76b6166d23490eaf4
+    new: e79d0135803f690d62abac90370fd98e3c764c36
+    log: |
+         e79d0135803f690d62abac90370fd98e3c764c36 5.10-stable patches
+         
 
---===============4442425319306473476==
+--===============7548714914540982602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae681f7d5923-338a801aee1b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c572572b36506376229bb25d9c537d053c598c25 Merge branch into tip/master: 'objtool/urgent'
-518a376ea8bf1ef40dc1706529927957709dcf0a Merge branch into tip/master: 'perf/urgent'
-bcc145c58905acc9cd65255d5243fc3ff01d3df1 Merge branch into tip/master: 'timers/urgent'
-a570971bcb7bd47e047c82eee714a51e86bff796 Merge branch into tip/master: 'x86/urgent'
-671f389e6b5ab4adccb94d9e7840ec7c64a0eebc Merge branch into tip/master: 'x86/merge'
-2dd70e892488ed526e41ad3aa669810b00651ed8 Merge branch into tip/master: 'core/debugobjects'
-7b6a629967b0723ed5491ceba5115bab317699f6 Merge branch into tip/master: 'irq/core'
-f5cf92b3917574198ea6c7c30bf19b9e0299b217 Merge branch into tip/master: 'locking/core'
-452cf31afd31495487f814edbeb42b24fa83b4d1 Merge branch into tip/master: 'objtool/core'
-11f09c63d5b0596cf204a8206cf668de7f432592 Merge branch into tip/master: 'perf/core'
-a3bed9dfe78196a34678fbeb0e3678c6d3bc0d94 Merge branch into tip/master: 'ras/core'
-0e3cc7240fb46336d6f42c8b12470db17156bd78 Merge branch into tip/master: 'sched/core'
-ea2b49e8291a3297afa53559134f9f69ed938ec9 Merge branch into tip/master: 'timers/core'
-d113b7d753004e7b3d961f69f110e398c9fb6a85 Merge branch into tip/master: 'x86/alternatives'
-76d502f357c2ddedf86d767a0c827668b9617f3e Merge branch into tip/master: 'x86/build'
-3d9ff4fd11a27c2cbde4f0475d474e5e84dd810b Merge branch into tip/master: 'x86/cache'
-df0431981e86ae4416d74b9de9af086108e1f9b6 Merge branch into tip/master: 'x86/cc'
-3f096ab87d4aa46cf238bba40a14016ba9771829 Merge branch into tip/master: 'x86/cleanups'
-4249bd11492cc4a4f068d9edb0186d0a2c4f3b95 Merge branch into tip/master: 'x86/irq'
-bbca56c535e46ffed1fd7759dc36eb96a54725a7 Merge branch into tip/master: 'x86/microcode'
-d0763b5e5189b49c30605a3670c0ea7d79d0295b Merge branch into tip/master: 'x86/misc'
-ca1925b5cce3b0b58bd789b177bb8e60cd801152 Merge branch into tip/master: 'x86/mm'
-299cef74143b57e121454a6629dfb84d1ddf330b Merge branch into tip/master: 'x86/mtrr'
-b6397a5c4581bfce66508416b99cf29966f71738 Merge branch into tip/master: 'x86/platform'
-4764ed859fd5f659f9a3cbb07daf792b8dda0f8a Merge branch into tip/master: 'x86/sev'
-338a801aee1b8258089c83a0bafca6a57ae1e7f0 Merge branch into tip/master: 'x86/sgx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687157534 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1687157532-dca154a8ae57b781bbf786c89d7f47a35829fec4
 
---===============4442425319306473476==--
+c38df9d7fdccc240cff16ad76b6166d23490eaf4 e79d0135803f690d62abac90370fd98e3c764c36 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSP+x4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NiEP/R2PR2VCt4aopJkATR0P
+Z4oTRBT5DiUaTlbhLYnPLxyrqVVzmZ4iAFJsQU1gJ5l2ksh7pV7QZOGgxG/v8VIh
+j7JRQPvz53UIsvsctdcpcih8wuL5j7BVebe8qA9y82owPWnc8WpVeSZRy43tvioM
+JHFcsLXEWpfTL6Grhz1biwvf7nrZNz27roG4nXROFA0JLw6Lwph/LHSpxqYPGkJD
+PHUynZYWZlfXEIiXp9redFMEnWzuoQLtVZKJcmo3mv0NJC6oDWoZ2OesLqFzWILz
+G6MinQBb6xKt0C2vX/08DTf+woE1jTyphWKhM+jgtLMUOXczH92pcQMKMKHGWAdi
+srrmPtARJy5duId7daOaD2sjGxrM5LpgZiUgSDkFtTL8R0vQeV+dGiJ7+sg5koBL
+g4n9Zrz5Aa2mAlMTHUvCo8/HT8+A85b1u7cTgm1ZzFCcUfzajlwOUAD9Ms7mOLqj
+zqE/WC+yzzfOAdFvUkKGJCyKnpUOma3oPU9u8F4Wc4A1s8hSIGTBDYFCuajccP4t
+6ibcmB09qMLY1T60QXzBbkwwijAm+KTKWOaaB+nffcbKt9LOJGLNWbJ8h3BN8/GG
+Iq7NXTo/bmKNPpAAgJDi8o1vwKBv76RL/Ts0KORs9i86n4kSJe79SMZDmhaq/8ju
+w492oq1FxkGMbArW8etjcalq
+=dYVd
+-----END PGP SIGNATURE-----
+
+--===============7548714914540982602==--
