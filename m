@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Jun 2023 11:04:17 -0000
-Message-Id: <168717265720.23795.4928754021967190980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 19 Jun 2023 11:13:28 -0000
+Message-Id: <168717320819.31662.12274803228911941586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/ras/core
-    old: 1b474896156b1b30e37dcd1f98e79875cf505090
-    new: 4251566ebc1cf95ae26a1e5a24cdac1ac25e942f
+  - ref: refs/heads/master
+    old: 842665a9008a53ff13ac22a4e4b8ae2f10e92aca
+    new: f015b900bc3285322029b4a7d132d6aeb0e51857
     log: |
-         4251566ebc1cf95ae26a1e5a24cdac1ac25e942f EDAC/amd64: Cache and use GPU node map
+         f015b900bc3285322029b4a7d132d6aeb0e51857 xfrm: Linearize the skb after offloading if needed.
          
