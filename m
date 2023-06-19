@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Jun 2023 19:03:59 -0000
-Message-Id: <168720143900.9623.1507111967215798130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 19 Jun 2023 19:09:21 -0000
+Message-Id: <168720176115.14390.2434809540257605142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/x86/urgent
-    old: d082d48737c75d2b3cc1f972b8c8674c25131534
-    new: 85d38d5810e285d5aec7fb5283107d1da70c12a9
+  - ref: refs/heads/for-6.4/upstream-fixes
+    old: 5fe251112646d8626818ea90f7af325bab243efa
+    new: 4982126e3029cd59fbd1da0d9cc0365a0585fe64
     log: |
-         85d38d5810e285d5aec7fb5283107d1da70c12a9 x86/apic: Fix kernel panic when booting with intremap=off and x2apic_phys
+         4982126e3029cd59fbd1da0d9cc0365a0585fe64 HID: intel-ish-hid: ipc: Add Arrow Lake PCI device ID
+         
+  - ref: refs/heads/for-next
+    old: de0d0d98e2c2d811365f1c3b60b1d98cd15a7e74
+    new: b98ec211af5508457e2b1c4cc99373630a83fa81
+    log: |
+         4982126e3029cd59fbd1da0d9cc0365a0585fe64 HID: intel-ish-hid: ipc: Add Arrow Lake PCI device ID
+         b98ec211af5508457e2b1c4cc99373630a83fa81 Merge branch 'for-6.4/upstream-fixes' into for-next
          
