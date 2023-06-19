@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 19 Jun 2023 16:55:27 -0000
-Message-Id: <168719372714.18534.14648159367590418570@gitolite.kernel.org>
+Date: Mon, 19 Jun 2023 17:06:25 -0000
+Message-Id: <168719438589.25443.8875642572060586204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 67a6ad2b2c1059511ec47219bcfd6daad9cf8632
-    new: 3391e3ff695a5431f5fddd4172638722c77e46ff
+    old: 3391e3ff695a5431f5fddd4172638722c77e46ff
+    new: abd6152d6046ddc4be1040b6206bee2e025e8a79
     log: |
-         3391e3ff695a5431f5fddd4172638722c77e46ff Merge patch series "RISC-V: Export Zba, Zbb to usermode via hwprobe"
+         abd6152d6046ddc4be1040b6206bee2e025e8a79 Merge patch series "RISC-V: Export Zba, Zbb to usermode via hwprobe"
          
