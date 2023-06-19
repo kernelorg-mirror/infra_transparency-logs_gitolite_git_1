@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 19 Jun 2023 03:43:04 -0000
-Message-Id: <168714618429.15771.2334471255345612620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 19 Jun 2023 04:20:17 -0000
+Message-Id: <168714841737.10698.14305475767753914894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 8c1f0c38b31025f60437215dd27fffc293565fa4
-    new: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
+  - ref: refs/heads/opp/linux-next
+    old: 1ff98cf7a893a0c44a73c2803f1efcf684efe936
+    new: 7c41cdcd3bbee5d49de9d4821b15e49d155ff22b
     log: |
-         45a3e24f65e90a047bef86f927ebdc4c710edaa1 Linux 6.4-rc7
+         84cb7ff35fcf7c0b552f553a3f2db9c3e92fc707 OPP: pstate is only valid for genpd OPP tables
+         7c41cdcd3bbee5d49de9d4821b15e49d155ff22b OPP: Simplify the over-designed pstate <-> level dance
          
