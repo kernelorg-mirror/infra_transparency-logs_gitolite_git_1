@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2278637779295206672=="
+Content-Type: multipart/mixed; boundary="===============5923090246130719265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 19 Jun 2023 09:37:12 -0000
-Message-Id: <168716743258.12287.15613487399589262209@gitolite.kernel.org>
+Date: Mon, 19 Jun 2023 09:37:26 -0000
+Message-Id: <168716744696.12730.11068036524334183509@gitolite.kernel.org>
 
---===============2278637779295206672==
+--===============5923090246130719265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 25232797d336d3e255a96467a5c1d9419e608625
-    new: e3fd27df1ffd70c33ef33b0b59902ecdb4e51652
-    log: revlist-25232797d336-e3fd27df1ffd.txt
+  - ref: refs/heads/m68k-queue
+    old: 86871419e67539d932638fd32ffb264092d52669
+    new: 4085215d95d0a087a8112eaf098879f26bbf2ab0
+    log: revlist-86871419e675-4085215d95d0.txt
 
---===============2278637779295206672==
+--===============5923090246130719265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25232797d336-e3fd27df1ffd.txt
+Content-Disposition: attachment; filename=revlist-86871419e675-4085215d95d0.txt
 
 b3dad076a058916c443c93074dc3ee80baaff4ea staging: octeon: delete my name from TODO contact
 70c2e03e9aaf17496c63f6e42333c012f5ae5307 thunderbolt: dma_test: Use correct value for absent rings when creating paths
@@ -306,6 +306,11 @@ b5b2a02bcaac7c287694aa0db4837a07bf178626 parisc: Delete redundant register defin
 ecbcffe3b7edc9a42b4e29ed8dafd56855ee675c Merge tag 'ata-6.4-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 8c1f0c38b31025f60437215dd27fffc293565fa4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 45a3e24f65e90a047bef86f927ebdc4c710edaa1 Linux 6.4-rc7
-e3fd27df1ffd70c33ef33b0b59902ecdb4e51652 Merge tag 'v6.4-rc7'
+0357b6c1b8c42dcac4851acadce49bfe8ae57db7 nubus: Partially revert proc_create_single_data() conversion
+41b9be66f5738ca23a19ced48b00b8525ddd3a3b nubus: Remove proc entries before adding them
+1249c43be6b3c3ff95d26b476b9ae5c53004f6ad nubus: Don't list slot resources by default
+33d8c0b8f8521f0d904b1320e9b41384c9ad653a m68k: atari: usb: Add ISP1160 USB host controller support
+dec38bdae5769871fea4d771cf65ae3211f081ce m68k: atari: Update Kconfig.bus help text
+4085215d95d0a087a8112eaf098879f26bbf2ab0 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2278637779295206672==--
+--===============5923090246130719265==--
