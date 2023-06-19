@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 19 Jun 2023 22:15:25 -0000
-Message-Id: <168721292568.16861.1739412543822504777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 19 Jun 2023 22:17:18 -0000
+Message-Id: <168721303829.17567.5823711439376735698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 74836ecbc5c7565d24a770917644e96af3e98d25
-    new: 87799d06d7b344708fc0499f72f835ef8e1cb969
-    log: |
-         87799d06d7b344708fc0499f72f835ef8e1cb969 fsverity: improve documentation for builtin signature support
-         
+  - ref: refs/heads/fileTdGM5H
+    old: d0c99ffe212679b338d12fe283964e6e43ce1501
+    new: 0000000000000000000000000000000000000000
