@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
-Date: Tue, 20 Jun 2023 09:21:16 -0000
-Message-Id: <168725287655.5247.4472751865497959440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 20 Jun 2023 09:27:22 -0000
+Message-Id: <168725324201.8915.4062034575605838977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: 01e7b676c245c079e04b6b1e29cb24b74107b799
-    new: cc7e4d7ce5ea183b9ca735f7466b4491a1ee440e
+  - ref: refs/heads/kbuild
+    old: 9ac40f75debfcb20c93de71b434ae73add1f692d
+    new: da53661d02ed20f0aac25375dcce24048a2c36d9
     log: |
-         cc7e4d7ce5ea183b9ca735f7466b4491a1ee440e ovl: add Amir as co-maintainer
+         da53661d02ed20f0aac25375dcce24048a2c36d9 script: modpost: emit a warning when the description is missing
          
