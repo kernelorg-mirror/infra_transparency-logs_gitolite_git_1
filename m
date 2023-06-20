@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/remail
-Date: Tue, 20 Jun 2023 21:43:35 -0000
-Message-Id: <168729741502.2063.12038287783473347570@gitolite.kernel.org>
+Date: Tue, 20 Jun 2023 21:46:14 -0000
+Message-Id: <168729757440.4632.5058913225958370468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/remail
 user: tglx
 changes:
-  - ref: refs/heads/testing
-    old: 1c1fcd6b04c0bb0e0afec99fd9f6a9042ebc458e
+  - ref: refs/heads/master
+    old: bab35c35b65a522c6469704533075c2ec99e8cb0
     new: 25900eb7c6633b7eedfd0c4904276a9d583841a7
     log: |
          2cee74a08be328e8ace7a47f91369b58e19d6739 remail: Remove unused functions and debug leftovers
@@ -28,3 +28,6 @@ changes:
          dc68e97937bf589b31bde1b083c6530c94ec14b4 remail: Make From header mangling less convoluted
          25900eb7c6633b7eedfd0c4904276a9d583841a7 remail: v0.14
          
+  - ref: refs/tags/v0.14
+    old: 0000000000000000000000000000000000000000
+    new: 9b37931e547c1a68883b453216d33f8c8b92d19e
