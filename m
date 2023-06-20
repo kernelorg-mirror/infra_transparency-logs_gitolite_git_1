@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 20 Jun 2023 20:57:07 -0000
-Message-Id: <168729462716.821.17458998294458126377@gitolite.kernel.org>
+Date: Tue, 20 Jun 2023 20:58:14 -0000
+Message-Id: <168729469423.1406.17532687089748876375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/mediatek/dt32
+  - ref: refs/heads/qcom/dt32-2
     old: 0000000000000000000000000000000000000000
-    new: 115ee470e5d2438f9c36802fc47bcb2297ec33be
+    new: 831b802a7727ba6e67c5ed585c54f610d9db1316
