@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 20 Jun 2023 15:10:30 -0000
-Message-Id: <168727383084.9361.14300026698281061209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 20 Jun 2023 15:11:08 -0000
+Message-Id: <168727386865.9640.340108860169069278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 16252e018a30486eedcfec81fc313445cac25bea
-    new: 7d3332be011e4ed061c1403b30b5e54ebccb4fa2
+    old: 7d3332be011e4ed061c1403b30b5e54ebccb4fa2
+    new: 648321fa0d970c04b4327ac1a053abf43d285931
     log: |
-         7d3332be011e4ed061c1403b30b5e54ebccb4fa2 riscv: mm: Pre-allocate PGD entries for vmalloc/modules area
+         648321fa0d970c04b4327ac1a053abf43d285931 riscv: mm: try VMA lock-based page fault handling first
          
