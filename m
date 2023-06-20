@@ -1,58 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3515151507883495829=="
+Content-Type: multipart/mixed; boundary="===============7727632838801398021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 20 Jun 2023 07:23:22 -0000
-Message-Id: <168724580244.17979.15520230835850414324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 20 Jun 2023 07:23:46 -0000
+Message-Id: <168724582689.18201.12201407972899328390@gitolite.kernel.org>
 
---===============3515151507883495829==
+--===============7727632838801398021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: e8cc334847dbd204ed4f500b3e3fa899b3766b62
-    new: 930cbf92db0184e327293d5e7089be0b08d46371
+  - ref: refs/heads/usb-next
+    old: 88d8f3ac9c67e2d00db671dbb0af50efb7c358cb
+    new: 5aa735a4742c5ffff2fe34f764cbcbd917e100ae
     log: |
-         639949a7031e04c59ec91614eceb9543e9120f43 tty: serial: imx: fix rs485 rx after tx
-         e0edfdc15863ec80a1d9ac6e174dbccc00206dd0 tty: serial: fsl_lpuart: add earlycon for imx8ulp platform
-         930cbf92db0184e327293d5e7089be0b08d46371 tty: serial: Add Nuvoton ma35d1 serial driver support
+         1e35f074399dece73d5df11847d4a0d7a6f49434 usb: typec: tcpm: fix cc role at port reset
+         8be558dcffe69b078b34b1fa93b82acaf4ce4957 usb: typec: tcpm: add get max power support
+         ee400a1be11527e1ea58b716b338b9fb6665b8d6 usb: gadget: function: printer: Replace strlcpy with strscpy
+         55f90c3f83c5d26ce6b1a6a01a4f435860376be4 usb: cdns2: Fix spelling mistake in a trace message "Wakupe" -> "Wakeup"
+         6059d8124388c123f61a1affd1ebe04083dac588 dt-bindings: usb: dwc3: Add IPQ9574 compatible
+         5aa735a4742c5ffff2fe34f764cbcbd917e100ae dt-bindings: usb: Add StarFive JH7110 USB controller
          
 
---===============3515151507883495829==
+--===============7727632838801398021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687245800 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1687245801-789689916fd7564e52cfaccf75da1c959b123db1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687245825 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1687245825-fc622ad5e6141030b67a19c9cdbd80e2319796ff
 
-e8cc334847dbd204ed4f500b3e3fa899b3766b62 930cbf92db0184e327293d5e7089be0b08d46371 refs/heads/tty-next
+88d8f3ac9c67e2d00db671dbb0af50efb7c358cb 5aa735a4742c5ffff2fe34f764cbcbd917e100ae refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSRU+gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CGQP/1ORAN+yXvR2FWR1yZ4n
-ZvylWQ3PvSrOd92lsgIVsEpareJFm3zN7FPBqJ0kuZasnQ+WG/SW3XYfdWtTEVZm
-ym/pmtD7rQJ5mwqir9p83as0CzE53Ibv3vtANk7XctrEJZyQPdw7WGIxO8plcTKW
-rpqsO4fWzzmsFlmrLksO5gTQfNhPoL+qEpHvdljSwXZTbSsge1r7A73kNieJhBgo
-z2CzvypORL0k3capplEAmHVIEP4ba47lyhvHk3QjijDz1ddk0Wui3tp9yNUnyeev
-/4PTUlrTXdQ+wCyCKdfv8Eh7f9OT5tWpvmS7kR9AZDhZMTla+hckZkrJQEciEsx+
-k/3f98GtviqYYOdoXGONXsU8liaHN1CgWXwYy3TRRUJ49Ydv5dvCenm/U49iG8zX
-bmOKvntmf9NbcK+TI+pPT5O29PnAXq0VJrtTHyrJGb3eBNEju+CcNRmgEI4NkA+j
-kyhHaBADlxJULooJNGyZouDXEzeTrQlqnd2tJIZs3Aqz/8P80Kbtn635HOZw2htE
-JRJ5jkgHRYL4olgWdWvSki7rvwYZaZk7Srx/MXQPWFgDjOXi7pBaC/CbJw9pDpbX
-2XeHwpRuK30BPk9g+PK7SechSy+dYoi8u0ud5fMSouPpHrwweA7n2tlCYIl25FnI
-Oi0gS4jpVBW+F6FKTYHtHxO8
-=O9ng
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSRVAEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DkUP/RxRnxAszP1Eh1wmFSVE
+untjqZ/mjHbPHWT9TGdVh5EbMP9ebtunuWrWwcpU3kohZePE4RRshStGY8vhGV2b
+nh8G0M74QVgy80ct9pGh60VIvpKQdZ3Hog/K74fLNujRCw1qGu9hpvXvbXjbGUtt
+BemuSfZLAl45gf1wqxS8t1LOUa0uExuPXEnh0UoHvpNoO11WoJWNFYtGtaqfJI32
+MQBQ4spLfTPEObffLB4h2beT8tvLPxiUbh38yINx1pljRXD6buq41kdn04DHXGL9
+uQft9sh4MUpEJJ3aiGTGH3p5S45CrX+192qAygVh5l3ibOQDZA+8HmhBXIL6tn0e
+Q2zyCd75H8g+c043rkXFIw+uVNTv7IP8AHss+QPRtySCtDRDBVtufpLIZrocQyUV
+JWWd1r4YXMNatDz5/VZsFbZjhjHzfAG3vnXiC9SOg0jXUC3s4QUeB1gt0VwUBTSl
+x9z5+bI85PLmr7Pxfevz1qjOpUoySaUCA4+htqzgVUOYeICrK17ecqNJHa/Bfhtz
+2D6Hn30jUdSrppk6dH/NTAS6E2er/hznTHlGAZqF5yB/dccY+O/SMNgwRGQYT063
+gEMlbC4OVH9LsQDNCqDZQ8eukC6vXZLuc0RE5h/BqRmggtteXRJRMdDYq5jNGfmj
+O71ipXAIsD1e5ccsdFnpbNZW
+=Jegs
 -----END PGP SIGNATURE-----
 
---===============3515151507883495829==--
+--===============7727632838801398021==--
