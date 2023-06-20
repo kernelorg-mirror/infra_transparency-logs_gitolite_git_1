@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 20 Jun 2023 01:17:04 -0000
-Message-Id: <168722382470.20684.17216476423967204915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 20 Jun 2023 01:34:20 -0000
+Message-Id: <168722486037.31318.2259614025544682411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 0515fca297077fdb9f584c18fdfd69f1dd7a82fe
-    new: d3d8f4b21e07f609ab9bf827ef4feda61fdef5d2
+  - ref: refs/heads/master
+    old: c866f8dc9a3b10fb75988a9045bfd68ca2789a15
+    new: 2e2f6f991d75031a932ee0cf60cfae463ab80c7e
     log: |
-         23f9c66e75e772df5070babe41802bf28655d9cc dt-bindings: ata: dwc-ahci: add PHY clocks
-         75a3ec9993cc639f1e7ab85362baec250b98fb87 dt-bindings: ata: dwc-ahci: add Rockchip RK3588
-         d3d8f4b21e07f609ab9bf827ef4feda61fdef5d2 dt-bindings: phy: rockchip: rk3588 has two reset lines
+         b7872de90a43f4b325edb3f7bd2366f971126b13 netdev: move GETLINK into its own function, track command ID
+         29edb1626d88bb713db71f7b374d8f24832fd94f netdev: disable power save if required
+         2e2f6f991d75031a932ee0cf60cfae463ab80c7e wiphy: remove l_info's for control port/power save
          
