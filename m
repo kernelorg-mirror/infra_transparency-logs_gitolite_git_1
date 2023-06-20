@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3292782015933083870=="
+Content-Type: multipart/mixed; boundary="===============3348749957608245822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 20 Jun 2023 15:26:28 -0000
-Message-Id: <168727478804.19994.15258375081653835049@gitolite.kernel.org>
+Date: Tue, 20 Jun 2023 15:27:03 -0000
+Message-Id: <168727482345.20314.905107114952731961@gitolite.kernel.org>
 
---===============3292782015933083870==
+--===============3348749957608245822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d4e067287b41b9eba278533d32afda35b25fbdd5
-    new: e438edaae26ce80c3fcc498fbba0c8f7e78497e5
-    log: revlist-d4e067287b41-e438edaae26c.txt
+  - ref: refs/heads/dev-queue
+    old: afdfa3db812052c83ecfdcf23d69adf40b9281b2
+    new: d2909ef0e48e52e38a0321431655e310b907fdb4
+    log: revlist-afdfa3db8120-d2909ef0e48e.txt
 
---===============3292782015933083870==
+--===============3348749957608245822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4e067287b41-e438edaae26c.txt
+Content-Disposition: attachment; filename=revlist-afdfa3db8120-d2909ef0e48e.txt
 
 a61675294735570daca3779bd1dbb3715f7232bd ieee802154: hwsim: Fix possible memory leaks
 e3a0877e7e66b465588f6262680437024edccb9f MAINTAINERS: Update wpan tree
@@ -64,5 +64,26 @@ b79d7c14f48083abb3fb061370c0c64a569edf4c net: dsa: introduce preferred_default_l
 94d12d88b4a849765bf7185c876c6c672ad4714e MAINTAINERS: add me as maintainer of MEDIATEK SWITCH DRIVER
 440d71e2edf283465c7a9ed151efd589d71b6307 Merge branch 'dsa-mt7530-fixes'
 e438edaae26ce80c3fcc498fbba0c8f7e78497e5 Merge tag 'ipsec-2023-06-20' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+d2eeb006ffafd34993b747507815aef6467711bf iavf: Fix use-after-free in free_netdev
+cbd2088caea5018abfe95bb507aba9f887228744 iavf: Fix out-of-bounds when setting channels on remove
+b9772f40ce11766195a2350b7eab3da9f5da807f igc: Add condition for qbv_config_change_errors counter
+215515a3b46b857985da4c3474a28c25c468a4f9 igc: Remove delay during TX ring configuration
+b584d4721d5cb1edab8cd674cb99ac5e04698532 iavf: use internal state to free traffic IRQs
+1b7257b910532914fe8ff1f97e5f463f499c2154 igc: Fix TX Hang issue when QBV Gate is closed
+3ee87d08a8be331077694ac21a7ce12e6f317ec9 iavf: Wait for reset in callbacks which trigger it
+a3b9c5729c59231636efe5d193131dc999618aca Revert "iavf: Detach device during reset task"
+f7ace977d74465b985a40b8710c252e4d0ee4772 Revert "iavf: Do not restart Tx queues after reset task failure"
+b032e585cc18a1d9e5d41b4813838bb35da9a241 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+2e002ba6131f7b1c791094246efb7cf9171ef049 iavf: fix reset task race with iavf_remove()
+bc86f4ac0924c479676d8e49eaa8874a6095eed3 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+a99ec1f31b1304ecbedfec4b593e70a40e83cfd0 igb: fix hang issue of AER error during resume
+233b7cff8e0f26730546129830172c8b4d052279 igc: Fix race condition in PTP tx code
+4c76ad04b109f9a2788fc098487cad66250059b3 igc: Check if hardware TX timestamping is enabled earlier
+1401320c0f029307c307d2738cfbab789a09d625 igc: Retrieve TX timestamp during interrupt handling
+18dab7b602e7e0c6890d8d3a1e12c7739b5d5b6a igc: Work around HW bug causing missing timestamps
+e19a12657ded5aface8a0b5186ec4fc1246abc65 igc: Include the length/type field and VLAN tag in queueMaxSDU
+cede4be2ff28751d945d67f83a1c4982360995b4 ice: Fix max_rate check while configuring TX rate limits
+83fefb555afc9542f960b4cbabea5cf0df85a650 ice: Fix tx queue rate limit when TCs are configured
+d2909ef0e48e52e38a0321431655e310b907fdb4 igc: Handle PPS start time programming for past time values
 
---===============3292782015933083870==--
+--===============3348749957608245822==--
