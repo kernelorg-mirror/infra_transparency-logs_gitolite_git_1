@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6107749152486338889=="
+Content-Type: multipart/mixed; boundary="===============6338220490952176540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 20 Jun 2023 05:24:40 -0000
-Message-Id: <168723868022.31402.937193173353476212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 20 Jun 2023 05:24:49 -0000
+Message-Id: <168723868987.31565.17612047766871783917@gitolite.kernel.org>
 
---===============6107749152486338889==
+--===============6338220490952176540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 47045630bc409ce6606d97b790895210dd1d517d
     new: 9dbf40840551df336c95ce2a3adbdd25ed53c0ef
     log: revlist-47045630bc40-9dbf40840551.txt
-  - ref: refs/heads/stable
-    old: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
-    new: dbad9ce9397ef7f891b4ff44bad694add673c1a1
-    log: |
-         a2b6f2ab3e144f8e23666aafeba0e4d9ea4b7975 afs: Fix dangling folio ref counts in writeback
-         819da022dd007398d0c42ebcd8dbb1b681acea53 afs: Fix waiting for writeback then skipping folio
-         dbad9ce9397ef7f891b4ff44bad694add673c1a1 Merge tag 'afs-fixes-20230719' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-         
-  - ref: refs/tags/next-20230320
-    old: a7ffe548f11303e31ae7d5383aa83410f549b86d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230620
     old: 0000000000000000000000000000000000000000
     new: 807d996a05d9aae6d6020891ee5b91e113f9a61d
 
---===============6107749152486338889==
+--===============6338220490952176540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,4 +1054,4 @@ cb06626bb4327b4ea0c40f036fc85a0d455ece22 Merge branch 'for-next/kspp' of git://g
 ca1e5025c3b444a3ae915cb0ba53eec394634ef3 fix up for "init: consolidate prototypes in linux/init.h"
 9dbf40840551df336c95ce2a3adbdd25ed53c0ef Add linux-next specific files for 20230620
 
---===============6107749152486338889==--
+--===============6338220490952176540==--
