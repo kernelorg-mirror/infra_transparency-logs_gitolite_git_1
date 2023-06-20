@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 20 Jun 2023 23:32:07 -0000
-Message-Id: <168730392770.13954.6277303070328661390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 20 Jun 2023 23:34:47 -0000
+Message-Id: <168730408752.14962.13602650308424321618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/todo
-    old: cf824b16617f292be7dfd95f4719f0ab3354996a
-    new: c54a1591f31364ab0a686d30947f4defdc4516ac
+  - ref: refs/heads/master
+    old: 970308a7b544fa1c7ee98a2721faba3765be8dd8
+    new: 6d1dd92c29f3dde4a75e1302bfc8d7066a3591e9
     log: |
-         c54a1591f31364ab0a686d30947f4defdc4516ac What's cooking (2023/06 #05)
+         9a44df2a4f2a6636140ce9ac1d27519a2ef09863 bpf: make bpf_prog_pack allocator portable
+         a7ed8ed924828da794b60bf97456aea4c39924c8 arm64: patching: Add aarch64_insn_copy()
+         49703aa2adfaff2805dc08d3ce4ccb3e0056cb32 bpf, arm64: use bpf_jit_binary_pack_alloc
+         6d1dd92c29f3dde4a75e1302bfc8d7066a3591e9 Merge branch 'bpf, arm64: use BPF prog pack allocator in BPF JIT'
          
