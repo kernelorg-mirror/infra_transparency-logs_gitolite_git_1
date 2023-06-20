@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8437644541164570540=="
+Content-Type: multipart/mixed; boundary="===============7019723213125614451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 20 Jun 2023 14:24:29 -0000
-Message-Id: <168727106981.7324.14468997582351154461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 20 Jun 2023 14:24:50 -0000
+Message-Id: <168727109043.7559.14964999878116684266@gitolite.kernel.org>
 
---===============8437644541164570540==
+--===============7019723213125614451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
+  - ref: refs/heads/for-next
     old: 02474880e8fdd8533f21da4264a7ebfce8196be7
     new: d4b2aee1be41adbbbe9132104620dfc70032a044
     log: revlist-02474880e8fd-d4b2aee1be41.txt
 
---===============8437644541164570540==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1687271067 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1687271067-a20bb9a73e0efeaf2e10de7d5f18de3d97d043f7
-
-02474880e8fdd8533f21da4264a7ebfce8196be7 d4b2aee1be41adbbbe9132104620dfc70032a044 refs/heads/asoc-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSRtpsACgkQJNaLcl1U
-h9Auxgf/eHDX8cMeJnScOsb4qeoI+pf8Gxtea/3Xbcs33OKfSg0jNGQiKvw80BUC
-9uHIteCAVWj8haVeYdrHjDC5/syUHRmfN0fo7H3hcTPyuwqT3trEYyyJ8lDClraE
-ck8pSpVNNSoCY4BrFz3CrTw/74pftnzua6/2JzG2o6T59tNV3P1qEhcJ3SaCi5F/
-S895EdQFrD2UXwZJNFmuCygooqiHpBFayohIZooJ3mnq6LILx0Dd1iBJICjO1oId
-8zl5srPztXsycrr6Q5t6NkgwSwmVtITD7QbZRvn2R9E41VmD90Gszts7jKTBtFAj
-6LGzOJJa4s9WgqZIMYQUHMH1LdQM1w==
-=QL8T
------END PGP SIGNATURE-----
-
---===============8437644541164570540==
+--===============7019723213125614451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +61,4 @@ a42e988b6265dcd489feb1adab8551b40c988f43 ASoC: dwc: add DMA handshake control
 29735f6fb0f57c8010c9486216361c0f68c90226 ASoC: Use maple tree register cache for Everest Semi
 d4b2aee1be41adbbbe9132104620dfc70032a044 ASoC: qcom: audioreach: add compress offload
 
---===============8437644541164570540==--
+--===============7019723213125614451==--
