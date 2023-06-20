@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
 Date: Tue, 20 Jun 2023 09:27:22 -0000
-Message-Id: <168725324201.8915.4062034575605838977@gitolite.kernel.org>
+Message-Id: <168725324270.8967.6938861662458859448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/kbuild
-    old: 9ac40f75debfcb20c93de71b434ae73add1f692d
-    new: da53661d02ed20f0aac25375dcce24048a2c36d9
+  - ref: refs/heads/master
+    old: d7f1fc1839dba85adc10ba7cc9a46da57c946491
+    new: 7293d66314b4cb89a9fe5b6f1fe4e564c26e3c11
     log: |
-         da53661d02ed20f0aac25375dcce24048a2c36d9 script: modpost: emit a warning when the description is missing
+         7293d66314b4cb89a9fe5b6f1fe4e564c26e3c11 sys-utils: fix SELinux context example in mount.8
          
