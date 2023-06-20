@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8230460000141259745=="
+Content-Type: multipart/mixed; boundary="===============3094372496038081464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Jun 2023 15:40:10 -0000
-Message-Id: <168727561068.30755.10702028147941088771@gitolite.kernel.org>
+Date: Tue, 20 Jun 2023 15:40:50 -0000
+Message-Id: <168727565005.31069.2593597138500980522@gitolite.kernel.org>
 
---===============8230460000141259745==
+--===============3094372496038081464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5a6f6873606e03a0a95afe40ba5e84bb6e28a26f
-    new: 712557f210723101717570844c95ac0913af74d7
-    log: revlist-5a6f6873606e-712557f21072.txt
+  - ref: refs/heads/dev-queue
+    old: 630f5743f8f6a92d5adc329aa0c9fc27b1b028f2
+    new: 26d59258f741ba754df3dffe53f40b0ddb9fad3f
+    log: revlist-630f5743f8f6-26d59258f741.txt
 
---===============8230460000141259745==
+--===============3094372496038081464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a6f6873606e-712557f21072.txt
+Content-Disposition: attachment; filename=revlist-630f5743f8f6-26d59258f741.txt
 
 92501fa6e4217aa0b85b092f91b2649b3c214a75 net/mlx5: Ack on sync_reset_request only if PF can do reset_now
 8bb42ed4210e342631f63d32f7ed87b722968da6 net/mlx5: Expose timeout for sync reset unload stage
@@ -70,5 +70,58 @@ c066e74f34bc464bc1a077a688d7fa31a742d2d5 ptp: ptp_clockmatrix: Add .getmaxphase 
 e156e4d2e43f8b57696ee155f8c3d026419d3363 ptp: idt82p33: Add .getmaxphase ptp_clock_info callback
 d8ee5ca845b4f96cc2e74fb5dd1465c8ea3f5fa3 ptp: ocp: Add .getmaxphase ptp_clock_info callback
 712557f210723101717570844c95ac0913af74d7 Merge branch 'ptp-adjphase-cleanups'
+53a9c8686050158772a4bd90433caa554d42bd0f iavf: Fix use-after-free in free_netdev
+558a40437ae69539e583d1aa8111b27ca8e6b74c iavf: Fix out-of-bounds when setting channels on remove
+45f8beed79d2c0a738213a4f5b316f72d1ba5558 igc: Fix race condition in PTP tx code
+d1d24508906457f895044115bcd64c6d4149f783 igc: Check if hardware TX timestamping is enabled earlier
+bc905ab82001aac83d7448ff81fd021e48ccfef7 igc: Retrieve TX timestamp during interrupt handling
+08ece7cfd2c7077af4c0ab5d444e98caef173c18 igc: Work around HW bug causing missing timestamps
+544eba9669079a4f13254746aede55a4a4ed726f igc: Add condition for qbv_config_change_errors counter
+ead0b4884518f1e3609d690a3e40b09e1088ae49 igc: Remove delay during TX ring configuration
+9112c768760d13c99fbf61a82fe2087a05c67939 iavf: use internal state to free traffic IRQs
+4fba05551661cdc2c19bc1619219376df4bba601 igb: fix hang issue of AER error during resume
+7a1828376a6d7925778bd2ca02573f32f49d10c4 igb: Fix igb_down hung on surprise removal
+58d451e613e04198340587125d4d20004f04c627 ice: clean up freeing SR-IOV VFs
+b8829ee2f0f59769e21d4db3232b89be375874d3 ice: remove null checks before devm_kfree() calls
+2711bbef76f9d761ea8d3584a695950219f81706 igc: Fix TX Hang issue when QBV Gate is closed
+497e8333d9bb720eaffa2408efdc8cf3034c329b iavf: Wait for reset in callbacks which trigger it
+5f541177a21ea6b2bc5dbf6d4c288d56464ed6eb Revert "iavf: Detach device during reset task"
+2b67a006a010a7e5acdbb1e4ec05985692f4390f Revert "iavf: Do not restart Tx queues after reset task failure"
+263b80af3e4d26668a67182e990b6120ad64c0cd iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+84b603ea834fd2a08b3b1a0396c58a4d275409e3 iavf: fix reset task race with iavf_remove()
+abba9f4b5bbb4897f2849fa34854082d43d2c743 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+0d78216cf29c6bc4ae075784222f26a8b95328cf e1000e: Use PME poll to circumvent unreliable ACPI wake
+7a21bb57c5184738e81882105b6bc5fe74662bf7 ip_tunnel: use a separate struct to store tunnel params in the kernel
+e74a0200cc57da1b9b79e96579a9622b2bfbf491 ip_tunnel: convert __be16 tunnel flags to bitmaps
+cfb4fb5632c4b8229c457caaef3c8f2b6856f7e8 pfcp: add PFCP module
+f633d3be01f7b16394ce07781f85846118683a0d pfcp: always set pfcp metadata
+6ed543ea0768034be7b4c29ba72d2b612ddcc1e7 ice: refactor ICE_TC_FLWR_FIELD_ENC_OPTS
+628c282b947c0d9e11e444326f0e8d8a837fd41e ice: Add support for PFCP hardware offload in switchdev
+f80dcbead33e0d92ad8b81780ec7ee28cd88e088 ice: clean up __ice_aq_get_set_rss_lut()
+72a651a8b0e69602a0e4cac91ba0dafc5f106202 igc: Include the length/type field and VLAN tag in queueMaxSDU
+c95cd682bd3767fb612317fde8e0df93190d4efc ice: Fix max_rate check while configuring TX rate limits
+d37de55e46d201c819e3c6c150695805e3a58b81 ice: Fix tx queue rate limit when TCs are configured
+86c458d85cfdc63156eb5676471b798cf1ca059e ice: Skip adv rules removal upon switchdev release
+067fc3c3b2b1c7628543b7b7c7664013b18ccba4 ice: Prohibit rx mode change in switchdev mode
+77fee6887863987f5770fa0c92b7b5168cb1f7d8 ice: Don't tx before switchdev is fully configured
+747d586903eca4d4440432647d6158961256fe88 ice: Disable vlan pruning for uplink VSI
+b3b59deae0e70ba7435ac33176e018075673740a ice: Unset src prune on uplink VSI
+54e192486e7cd908b8b040c58a60acd2a77197fe ice: Implement basic eswitch bridge setup
+fd4a746fa52dd9c5e9f6b75b758ecd4b56a25d19 ice: Switchdev FDB events support
+506399aafc7b42e3b942687d0fc6d2d2d1b958be ice: Add guard rule when creating FDB in switchdev
+f271efd033db352b9a40e29e6b588672d269886f ice: Add VLAN FDB support in switchdev mode
+4d86feb84570790f3ff16998c7120d92458f7ef9 ice: implement bridge port vlan
+14fed97c1b432f0ca4cda72594689fab09108074 ice: implement static version of ageing
+1b248830d7dfed78f9ed467660b2db099e285f82 ice: add tracepoints for the switchdev bridge
+3b5ce6d42411ee4404121a2af781770ba1353abe ice: Remove managed memory usage in ice_get_fw_log_cfg()
+64db3cf58e2e4116301d8f959f8eedabde7a65fd ice: use ice_down_up() where applicable
+07173cede551a4bef834cddd2caf4688d0aab139 ice: reduce initial wait for control queue messages
+0b23af7ec06545ebaf83615244c4225a3a64b1b0 i40e: Add helper for VF inited state check with timeout
+0dc0e7da7c023754ecf68ece6a7579eaf0b95b4b i40e: Wait for pending VF reset in VF set callbacks
+bacfdad6cac8123337dd2e221cb7bdbe17648aea igc: Add TransmissionOverrun counter
+fb7366d81348a0420d29bb3d930e2007fd1f1b79 igc: Handle PPS start time programming for past time values
+4dcc5afcd9ed5a97aa551f166cc0aaefc826ab3b iavf: remove some unused functions and pointless wrappers
+bc6756200f2870f4d39a5fb341b6bbd445739b00 iavf: make functions static where possible
+26d59258f741ba754df3dffe53f40b0ddb9fad3f ice: allow hot-swapping XDP programs
 
---===============8230460000141259745==--
+--===============3094372496038081464==--
