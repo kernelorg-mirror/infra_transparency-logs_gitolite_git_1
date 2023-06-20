@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 20 Jun 2023 18:50:03 -0000
-Message-Id: <168728700326.5482.10349591750259177751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 20 Jun 2023 19:01:15 -0000
+Message-Id: <168728767520.12704.13989856801708644654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-6.5/block
-    old: c576c4bf9ecfa3fb9f7b11681cc2f60aba5276c4
-    new: 9a72a02456a839676fe8f220a44ef00951596047
+  - ref: refs/heads/master
+    old: 692b7dc87ca6d55ab254f8259e6f970171dc9d01
+    new: 99ec1ed7c2ed358280588ab1d013387e8c7a9333
     log: |
-         12629621669b239445727256d1a5dab616b30deb block: disallow Persistent Reservation on partitions
-         9a72a02456a839676fe8f220a44ef00951596047 block: fine-granular CAP_SYS_ADMIN for Persistent Reservation
-         
-  - ref: refs/heads/for-next
-    old: 76c9ad1a08bee45c00045f058870fca540fca92f
-    new: 2975b899f928ac54ddcd5d770dbde1322d4ad2fe
-    log: |
-         12629621669b239445727256d1a5dab616b30deb block: disallow Persistent Reservation on partitions
-         9a72a02456a839676fe8f220a44ef00951596047 block: fine-granular CAP_SYS_ADMIN for Persistent Reservation
-         2975b899f928ac54ddcd5d770dbde1322d4ad2fe Merge branch 'for-6.5/block' into for-next
+         2b9b8f3b68edb3d67d79962f02e26dbb5ae3808d ksmbd: validate command payload size
+         40b268d384a22276dca1450549f53eed60e21deb ksmbd: add mnt_want_write to ksmbd vfs functions
+         5fe7f7b78290638806211046a99f031ff26164e1 ksmbd: fix out-of-bound read in smb2_write
+         5005bcb4219156f1bf7587b185080ec1da08518e ksmbd: validate session id and tree id in the compound request
+         99ec1ed7c2ed358280588ab1d013387e8c7a9333 Merge tag '6.4-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
          
