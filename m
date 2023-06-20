@@ -1,27 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 20 Jun 2023 16:04:52 -0000
-Message-Id: <168727709226.14819.2585033273957950936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Tue, 20 Jun 2023 16:04:55 -0000
+Message-Id: <168727709583.14893.199541228841166254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/enumeration
-    old: 7bf3ac8f8a883b57320c85f2377a4441737a2ef8
-    new: 08e3ed12ca8615b078ea19488fb45b084e5de16b
+  - ref: refs/heads/for-6.5/dt-bindings
+    old: 29a7d5db1e2eaa0c6074e54b45367441983dbec2
+    new: 9928d6789ac84d12d329bd0937c05e3f9a92a536
     log: |
-         fd6e6e38ebe5db99b8eeab0abef8cc930301a677 PCI/ASPM: Avoid unnecessary pcie_link_state use
-         3c0ec896a4b42bc4751c71cac5996d23d3b648ae PCI/ASPM: Factor out waiting for link training to complete
-         07a8d698de50c4740ac6f709c43e23a6da6e4dbc PCI: Execute quirk_enable_clear_retrain_link() earlier
-         33a176abcc4cd4ed3d65512ed96d7b73f2565ed7 PCI: Export PCIe link retrain timeout
-         37edd87eb621a96d33ee4eefe4b54cfc5a7e03df PCI: Export pcie_retrain_link() for use outside ASPM
-         680e9c47a2293bcc6a67a6f13f3b23d4c456885b PCI: Add support for polling DLLLA to pcie_retrain_link()
-         7604bc294c19fe70fb7d9091731a950b16249c51 PCI: Use pcie_wait_for_link_status() in pcie_wait_for_link_delay()
-         a89c82249c3763780522f763dd2e615e2ea114de PCI: Work around PCIe link training failures
-         08e3ed12ca8615b078ea19488fb45b084e5de16b PCI: Add failed link recovery for device reset events
+         f13fe44fff4042950a43fe3d0dbe6f16318a1286 dt-bindings: tegra: Document Jetson Orin Nano
+         0cfe33924cd1c4681bd97446a6108a10dabf0804 dt-bindings: tegra: Document Jetson Orin Nano Developer Kit
+         9730c09c479f53dee405ee3e7010802872c8f0ba dt-bindings: reserved-memory: Add support for DRAM MRQ GSCs
+         63594855a314eec400d012fffe04a481b75afd16 dt-bindings: firmware: Add support for tegra186-bpmp DRAM MRQ GSCs
+         9928d6789ac84d12d329bd0937c05e3f9a92a536 dt-bindings: gpio: Remove FSI domain ports on Tegra234
+         
+  - ref: refs/heads/for-next
+    old: bf2f1271a064da22f8ee68b7db0b842e339fb053
+    new: 3281fba16642cb88fe7b051c3f95cfad0307d46b
+    log: |
+         f13fe44fff4042950a43fe3d0dbe6f16318a1286 dt-bindings: tegra: Document Jetson Orin Nano
+         0cfe33924cd1c4681bd97446a6108a10dabf0804 dt-bindings: tegra: Document Jetson Orin Nano Developer Kit
+         9730c09c479f53dee405ee3e7010802872c8f0ba dt-bindings: reserved-memory: Add support for DRAM MRQ GSCs
+         63594855a314eec400d012fffe04a481b75afd16 dt-bindings: firmware: Add support for tegra186-bpmp DRAM MRQ GSCs
+         9928d6789ac84d12d329bd0937c05e3f9a92a536 dt-bindings: gpio: Remove FSI domain ports on Tegra234
+         e3a1bbf718ad203b9e758cffd8b1d00f60fd6064 Merge branch for-6.5/soc into for-next
+         c16b4d51c93d6453448846397830287562532468 Merge branch for-6.5/firmware into for-next
+         948d6ff249f55b31b90d83d5b91b22fc2373d071 Merge branch for-6.5/dt-bindings into for-next
+         11af69717986e876157f7c2da6744c278b50f42e Merge branch for-6.5/memory into for-next
+         bacebe3724cecfd980ef85029b3cf2c74eca3ada Merge branch for-6.5/pci into for-next
+         3281fba16642cb88fe7b051c3f95cfad0307d46b Merge branch for-6.5/arm64/dt into for-next
          
