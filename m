@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Wed, 21 Jun 2023 00:26:48 -0000
-Message-Id: <168730720893.20947.18254706322925811603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 21 Jun 2023 00:33:17 -0000
+Message-Id: <168730759761.24803.11490517063276331835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: b432b55176443e96b6f3bc39ed140ab00cddd84f
-    new: 970ebb8a26a120340dcbb4e6c2fb4ecfbad0d190
+  - ref: refs/heads/for-6.5
+    old: 9bd1f9dbbf9b395e0f18661850fc923d129729af
+    new: 1afc383a17001b93fd1e5c749b0f6a668412b85b
     log: |
-         970ebb8a26a120340dcbb4e6c2fb4ecfbad0d190 SafeSetID: fix UID printed instead of GID
+         1f1ef7e5bbe2de125da413e238915f6047ea4ba2 ASoC: intel: sof_sdw: Fixup typo in device link checking
+         1afc383a17001b93fd1e5c749b0f6a668412b85b ASoC: Merge up fixes for CI
          
