@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3901475410952352908=="
+Content-Type: multipart/mixed; boundary="===============0540933098747838643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 Jun 2023 16:02:55 -0000
-Message-Id: <168736337514.1432.1654677715478776089@gitolite.kernel.org>
+Date: Wed, 21 Jun 2023 16:04:22 -0000
+Message-Id: <168736346221.2051.13397221985501136577@gitolite.kernel.org>
 
---===============3901475410952352908==
+--===============0540933098747838643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: 99f2d956e1fa3ead355cde4fd1a914e54cfe0a40
     new: aed1a2a5a6a2aa67095c103b497d05cd322c8713
     log: revlist-99f2d956e1fa-aed1a2a5a6a2.txt
 
---===============3901475410952352908==
+--===============0540933098747838643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687363373 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687363461 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1687363372-2f28c987fc0c6f432b7c9a9a81a781afa06b183e
+nonce 1687363461-a7c9f74fe5719b875eb2a4e513a4b9aefeedda1b
 
-99f2d956e1fa3ead355cde4fd1a914e54cfe0a40 aed1a2a5a6a2aa67095c103b497d05cd322c8713 refs/heads/usb-testing
+99f2d956e1fa3ead355cde4fd1a914e54cfe0a40 aed1a2a5a6a2aa67095c103b497d05cd322c8713 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSTHy0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+26kQAMoykFkcF3FlS3PBhIRp
-xABIEhvEMCtfPwG9JbTXuHFwNn92yg8SqpGhCWP5PpeCJHR5MRlAT3E3apFhJA8v
-mo2Sazo7tcmGRLvdOa46h5Zt1WcbAkBYiaTb/Qv3wILprmqdQGIKuUVGiBgsp0Zm
-GSy4BXLUQRKLFZzleB0cvCS4zGd1RDvVsOCijoElvb+XyMlNfgumsRswiubUnxK6
-k2y9QlzkDWXXNJE4NvG2htx5ywxn1GBU3+FbSLohJYW/5tLgLQXCi+kQQoqSCV30
-HmikfOftyGO3IAJ8DJE/aHmkRrQoZwmmVBh5aTQpt/xy2d4cd3FB/BxrfHtZQ7DB
-jxnCWN7+AkzYpRTMJiaD9NAtHdFd4wvwIhJMeFfeWPp6QxIIGQ0AGTE69Ps4j1Xf
-z332cJuKlb6Edw24HKJSl0sJPrTWCI7vpth1WilnHbSCgcCWeABH0wrGr61RPYMZ
-6T71xrk9oQcIewbOr1Ba7tUD0UOG+Qm36b0FnLNHRn0m/QDvYSM5fvE5g6bmZ4te
-IT4xIoYL3/ff1EJyVmSMOoCDEZtUF3jvscHQFF4vG336l/4HUGq3EsiKUMnSasQ7
-UwVWZORwUc8dmVGdMkBaXZXCzRq1e4IE52hn6h0bFCQw9diITSnDt9OJnVxWRRas
-kwZLKQ1O8FexZwFQg6U1siXb
-=qdTr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSTH4UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yBEQANOEgOvp9Q/RADPNL2l2
+vV6OdABfWl4RUFyAXRSReBoojseIUZBRv/yxptf0gZovXB8KEUgMkGnjRG3N7IH3
+EMa0cLiAq0cenUOiUrZMrtzqCfkVW/vv7vjMkwmQgsr1Gba58AKJJ/FSLj4U4rcs
+D20q/3SzfEasUiV1mVHmOioO3IVUMo9ZSURinisA7dpW4EsxpN44sDEoaN19ab1e
+A1Ky8HDTYRdYSrgpQRxnd8/V9OKliJzepHEIpbG3OT2XsqCKH29in5INJYg9ZgQh
+/LAUgED5Fn2cUfjc+oVb7TXpOzh3sJ+Mn10pmaVUrdcGD8JBjcMFwXa6dsybaWTg
+kiUB6GKDpXD7glhWLpKnjgoWbrUjCZtiAG1T1dZVWPAoaMGSg+1n3fKVtvMBy/Ub
+GvmUveXMVGeNVWcvGEfhVuuxV1ir1pYltuhca86nw9C7GlxYy7gHmGuT5mBUAMpt
+zUJ7pz/43gFDT5wq94WoTFrtHe0/Q7oIN7k8eQ/gMn4J4dL+Z/fi9E97r6JwI+5/
+jF1ZcJhU79Qin2BY27WkiNfF7tRo6EXY6OumUnBvc3pkdM6y3jPlPVCrb4WYCUee
+IO1zTSd52NU6X0B3IuYKfmDOmdzKFGn7/DDS9AkNCEntWtXAu4EgDgNSzZLIMeLM
+TLOplCD78+4TM6a2LnIZ23D5
+=vZ9K
 -----END PGP SIGNATURE-----
 
---===============3901475410952352908==
+--===============0540933098747838643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -115,4 +115,4 @@ fd4d58d1fef9ae9b0ee235eaad73d2e0a6a73025 thunderbolt: Enable CL2 low power state
 481012b479fe6d8dd4e01d739c359a8d99d074a9 thunderbolt: Add test case for 3 DisplayPort tunnels
 aed1a2a5a6a2aa67095c103b497d05cd322c8713 Merge tag 'thunderbolt-for-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 
---===============3901475410952352908==--
+--===============0540933098747838643==--
