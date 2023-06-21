@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 21 Jun 2023 13:15:57 -0000
-Message-Id: <168735335766.2480.2287911539099603282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 21 Jun 2023 13:18:42 -0000
+Message-Id: <168735352226.3509.3380490374161834533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/at91/dt-2
+  - ref: refs/tags/asoc-fix-v6.4-rc7
     old: 0000000000000000000000000000000000000000
-    new: 33c01ff3b1003aea11288f2bf7924ada5b5b8327
+    new: a1c426eda2809ade74f69af7c2548fd4a684c067
