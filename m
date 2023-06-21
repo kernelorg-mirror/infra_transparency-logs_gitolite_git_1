@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 21 Jun 2023 15:15:45 -0000
-Message-Id: <168736054501.606.168517496884459475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 21 Jun 2023 15:25:44 -0000
+Message-Id: <168736114412.7396.271824072058409945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 88770b8de38eeaf093c877ed78a7e6e1660df8df
-    new: 1ac93da27c2c66664cb4a3eb874d56d1dd1c7398
+  - ref: refs/heads/main
+    old: 4e9f0ec38852c18faa9689322e758575af33e5d4
+    new: a129b41fe0a8b4da828c46b10f5244ca07a3fec3
     log: |
-         1ac93da27c2c66664cb4a3eb874d56d1dd1c7398 nfsd: remove redundant assignments to variable len
+         408c090002c8ca5da3da1417d1d675583379fae6 net: mdio: fix the wrong parameters
+         a129b41fe0a8b4da828c46b10f5244ca07a3fec3 Revert "net: phy: dp83867: perform soft reset and retain established link"
          
