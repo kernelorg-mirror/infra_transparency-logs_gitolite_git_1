@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Jun 2023 16:37:10 -0000
-Message-Id: <168736543034.27137.368791536360536452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 21 Jun 2023 16:40:23 -0000
+Message-Id: <168736562383.31080.14573699184648304297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/1GbE
-    old: b30c446d325a22eccb2f2ba9c5aee01c21eab36c
-    new: d1196c5c6faa5fc633f17c00ad8e339826d1f3a2
+  - ref: refs/heads/master
+    old: 5c05bd6d4faf1167183ba7d28fde6bde448f02f6
+    new: 8926be703d7992d458416bc5652a6e707913d01a
     log: |
-         e5fc5e51a896033bc769de22acc0f9be8a0f3dee igc: Fix race condition in PTP tx code
-         2ee83454c8267f8bb646478293cc308c139deef8 igc: Check if hardware TX timestamping is enabled earlier
-         8518d7451ef62b6fb9eb1c6f3bbbcb66cdaaad07 igc: Retrieve TX timestamp during interrupt handling
-         d1196c5c6faa5fc633f17c00ad8e339826d1f3a2 igc: Work around HW bug causing missing timestamps
+         4b0fc6c80894832e6f9cb08b5c7d018cf49eac44 Fixes for 6.3
+         8b28d4e43beaeeb74e3150202d511d68da5ac0af Fixes for 6.1
+         dbc02872c1a3b827da8c85af9439792f51f6f1a9 Fixes for 5.15
+         251a6cf7ec317d72b484d393139e9bc38a245305 Fixes for 5.10
+         6855e3d67af5eb7adf85ae955ea5ad6f73d39cdb Fixes for 5.4
+         8926be703d7992d458416bc5652a6e707913d01a Fixes for 4.19
          
