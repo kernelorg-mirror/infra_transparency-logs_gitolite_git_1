@@ -1,50 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============5896801571026736399=="
+Content-Type: multipart/mixed; boundary="===============5102325108045675210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
-Date: Wed, 21 Jun 2023 08:14:59 -0000
-Message-Id: <168733529991.31677.6709426287573875267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Wed, 21 Jun 2023 08:16:17 -0000
+Message-Id: <168733537728.1480.10138447405459749394@gitolite.kernel.org>
 
---===============5896801571026736399==
+--===============5102325108045675210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinawa
-user: takaswie
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/topic/async-context-tstamp
-    old: fa71d985c32e6a6d1080abd4409356a970403e5a
-    new: 096dae90bac612144bb8f9e2f66738e93f4b88bc
-    log: revlist-fa71d985c32e-096dae90bac6.txt
-  - ref: refs/heads/topic/cycle-time
-    old: 0000000000000000000000000000000000000000
-    new: 9833e15f906cd1a482863a57603f4aa02e628c26
+  - ref: refs/heads/linux-next
+    old: ab2b00daacb18fb4034c4d049f027d7ace5861d8
+    new: 10990ff3e54fd1ce10802313f2cea6c0e7b80cc6
+    log: revlist-ab2b00daacb1-10990ff3e54f.txt
+  - ref: refs/heads/test
+    old: ab2b00daacb18fb4034c4d049f027d7ace5861d8
+    new: 10990ff3e54fd1ce10802313f2cea6c0e7b80cc6
+    log: revlist-ab2b00daacb1-10990ff3e54f.txt
+  - ref: refs/heads/vhost
+    old: ab2b00daacb18fb4034c4d049f027d7ace5861d8
+    new: 10990ff3e54fd1ce10802313f2cea6c0e7b80cc6
+    log: revlist-ab2b00daacb1-10990ff3e54f.txt
+  - ref: refs/tags/for_linus
+    old: f8360da7320f4b0d446a10d32fb128e23d433f84
+    new: e52806f6a16cd486e61246505d758e3385aa16ed
+    log: |
+         afd384f0dbea2229fd11159efb86a5b41051c4a9 Revert "virtio-blk: support completion batching for the IRQ path"
+         
 
---===============5896801571026736399==
+--===============5102325108045675210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa71d985c32e-096dae90bac6.txt
+Content-Disposition: attachment; filename=revlist-ab2b00daacb1-10990ff3e54f.txt
 
-223086322ea03c54f5abdd58a746683a79b45877 cycle_time: add boxed object to express cycle time
-c08d22baa83b0a74115e42dc48eed4ca030ca548 fw_node: add a new method to read CYCLE_TIMER register in 1394 OHCI controller
-9833e15f906cd1a482863a57603f4aa02e628c26 cycle_time: add methods to compute isochronous cycle from time stamp
-cade990111a1a7c63b70c8134739f1ed4b5a3423 backport UAPI of Linux FireWire subsystem from Linux kernel v6.5 prepatch
-0cace638accccb8bc251d125d4716183128029a3 fw_node: use ABI version 6
-24926db5dfe563ba04d32c0f23c0d077a576b920 fw_resp: add requested3 signal
-aadeb597db869bd90c87e7edea511ebfcd5556bc fw_resp: add class closure for requested3 signal
-0124b94948be59344323f829a7039daba0451a38 fw_resp: implement requested3 signal
-ed5b3c5fb392a4b9ea9ecce2928307a6c8997891 fw_req: add responded2 signal
-82fa0ca9dfec09ece16a863e312a53117293d091 fw_req: add class closure for responded2 signal
-d6cbd9654e3d130616304628cad6c9f27c4eab63 fw_req: implement responded2 signal
-f7e852cf7424fd82f25ea16d982303428eb0f11a fw_req: add method to send asynchronous transaction and receive time stamp
-d9878c2b92c3c270a32dd5c36d9e802b49c7f81a fw_fcp: add responded2 signal
-966faa647669b98a21e94974233a44ebf68d7f22 fw_fcp: add class closure for responded2 signal
-9c77e0bac3456bcd9dd8be585ba2ab6a37e725df fw_fcp: implement responded2 signal
-5f9a13caee15b5775ed05604a1001c68b4c51f8a fw_fcp: add variations of method for FCP transaction
-096dae90bac612144bb8f9e2f66738e93f4b88bc samples: use new methods for asynchronous transaction with time stamps
+afd384f0dbea2229fd11159efb86a5b41051c4a9 Revert "virtio-blk: support completion batching for the IRQ path"
+9289a15b7cd5135937d6819c65a2f0012ca0b9c1 vDPA/ifcvf: virt queue ops take immediate actions
+c31dadc444a7e34a5d0fb2816dad523ed708a12d vDPA/ifcvf: get_driver_features from virtio registers
+c6178513ff8b2068d175211b072b8061e56ebda9 vDPA/ifcvf: retire ifcvf_start_datapath and ifcvf_add_status
+66d8825eaa287a8a52019a4576207d0a256fec05 vDPA/ifcvf: synchronize irqs in the reset routine
+db00f5145693e813c1467373f56b549692163da0 vDPA/ifcvf: a vendor driver should not set _CONFIG_S_FAILED
+f5cf2bdf41988b0c26071ed58a74012ee4a89b9c vdpa: solidrun: constify pointers to hwmon_channel_info
+34eb6f2c9b92bf4c16d8479f361df88a9f4d9d45 vdpa/snet: implement the resume vDPA callback
+20207fb0dc93e70e0fa9be7677f47faa95772a7d virtio-vdpa: Fix unchecked call to NULL set_vq_affinity
+8264e70cb6d866a64564ae39a0fcad7031dbf7f1 tools/virtio: fix build break for aarch64
+6f936c4572bc3cf8ef169fd4143460f7ab3ccbd4 virtio_pci: Optimize virtio_pci_device structure size
+0d40626d24d4c460e17a02a78486dd8a53a9316f virtio: allow caller to override device id in vp_modern
+ef0c79de72e2a9f9e13501c628f887cc217b706b virtio: allow caller to override device DMA mask in vp_modern
+5bc0eeb46f8836f30f7dc705f007dbfd07a6f838 pds_vdpa: Add new vDPA driver for AMD/Pensando DSC
+6c30a71da2098659a8c72968e5691e48a46b5e94 pds_vdpa: move enum from common to adminq header
+5f097c4aae98e9ce0c9f01b61be1a948538562e8 pds_vdpa: new adminq entries
+aaca14ceaab3562af4156d834d144f33eb675c16 pds_vdpa: get vdpa management info
+3e44eeb49cb127191051a5a9ed969f4741e6b8ae pds_vdpa: virtio bar setup for vdpa
+e9a860efb2d45c01aaa1c903fd24ad2762db6c77 pds_vdpa: add vdpa config client commands
+c947f4439caaec20c4453b5acccea0f8e0672e1e pds_vdpa: add support for vdpa and vdpamgmt interfaces
+677512e001eaaded4da23d1de126d0a15e3cc71c pds_vdpa: subscribe to the pds_core events
+57b16e3af6b5b98197937b662f2b87596a4484ac pds_vdpa: pds_vdps.rst and Kconfig
+05172f9e8f9073a894fe92db6a9b93e53488e918 virtio: Add missing documentation for structure fields
+b16cbff2cd044fc1bd2b5589e5ce70a5e376d92d vdpa: add VHOST_BACKEND_F_ENABLE_AFTER_DRIVER_OK flag
+c6c2360c8250d5e27f8955448d38c1325e861832 vdpa: accept VHOST_BACKEND_F_ENABLE_AFTER_DRIVER_OK backend feature
+2cb68de37239ca35fae19ceb599e08a5a26187ff vdpa: add get_backend_features vdpa operation
+cac5d774c593b58c2169dbac4f570bd169143b3f vdpa_sim: offer VHOST_BACKEND_F_ENABLE_AFTER_DRIVER_OK
+10990ff3e54fd1ce10802313f2cea6c0e7b80cc6 vdpa/mlx5: Support interrupt bypassing
 
---===============5896801571026736399==--
+--===============5102325108045675210==--
