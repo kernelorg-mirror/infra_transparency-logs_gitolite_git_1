@@ -1,102 +1,118 @@
-Content-Type: multipart/mixed; boundary="===============9052263630298068397=="
+Content-Type: multipart/mixed; boundary="===============8901711008996591347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 21 Jun 2023 13:13:56 -0000
-Message-Id: <168735323613.31241.3585863984091454465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 21 Jun 2023 13:15:14 -0000
+Message-Id: <168735331481.11138.8933657442006290853@gitolite.kernel.org>
 
---===============9052263630298068397==
+--===============8901711008996591347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
-    new: e660abd551f1172e428b4e4003de887176a8a1fd
-    log: revlist-45a3e24f65e9-e660abd551f1.txt
+  - ref: refs/heads/ctime
+    old: 5955b4e3e9af6c50ceb59508a298e7bc38acea78
+    new: 7da61fc09932c73d16077ceb3ac0f55fe0a592e5
+    log: revlist-5955b4e3e9af-7da61fc09932.txt
 
---===============9052263630298068397==
+--===============8901711008996591347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5955b4e3e9af-7da61fc09932.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687353235 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1687353234-9808a99a0641d3ccaab1c047d77cfa588ee0b70b
+ffc736e565fe8ca7066b49cde4b4b25abefcff64 btrfs: update i_version in update_dev_time
+074a6006518de9c879644b490385d084d4eae5a8 ibmvmc: update ctime in conjunction with mtime on write
+bea94be3d7c8a16672e02aef407aaf9f71e4acc7 usb: update the ctime as well when updating mtime after an ioctl
+14e9dbc260e2fd12c3f7eba5216b94ef94b921a2 autofs: set ctime as well when mtime changes on a dir
+5324b52f7be6389dbe3872147220de5fdaf5239f bfs: update ctime in addition to mtime when adding entries
+c9346d956583ecd7dd41d6c3f3fbe2c78d9ea4fd efivarfs: update ctime when mtime changes on a write
+2551b7cd1b2bb7c5142bdb173d7326230ec04665 exfat: ensure that ctime is updated whenever the mtime is
+7e452373412e7aa7013fea81f33b087478066349 apparmor: update ctime whenever the mtime changes on an inode
+48d9156350ee4c982ea1c8ca93fe16320d37bc88 cifs: update the ctime on a partial page write
+019a77617b325920866ebbdbf49c84d5ad257e65 fs: add ctime accessors infrastructure
+21285bc9b600621bbd532aa28b69c611b1adabd5 spufs: switch to new ctime accessors
+b221aef08e5334ff089cb7e838fc64cc57eb4da5 s390: switch to new ctime accessors
+6b1df263ff31a9d136ae30d4bbb74bd57ab26e4f binderfs: switch to new ctime accessors
+a3155d48544a6f23ef376714dfd694a0c60c2b8d qib_fs: switch to new ctime accessors
+a8e9b63d662deed279407d788f2ac323468ae07b ibm: switch to new ctime accessors
+a4e85faa38fb86c9243d1523a0d9ed49987283bb usb: switch to new ctime accessors
+bc333c915ce84686a1fc67d5d3b5f503c751462e 9p: switch to new ctime accessors
+d300aaf6ab97dab9e2e92c80652a05bc7d2f4411 adfs: switch to new ctime accessors
+403f95996affecb0490750ed47fb4fabe3c121f7 affs: switch to new ctime accessors
+358102cf7553bc3df738506cb481068d69fcece1 afs: switch to new ctime accessors
+b91727185b0d9db0c5e6da8aa6ba796db5b8a94d fs: switch to new ctime accessors
+2953198a6e0445c082554c4b263b678fcca2d1e1 autofs: switch to new ctime accessors
+05b37587f674cb25d4be82aa39c867b98bdaaa29 befs: switch to new ctime accessors
+6220b12d30dd4717e54365348a971275432478e8 bfs: switch to new ctime accessors
+45c9af58921a6907700347c1393215f0bf61c443 btrfs: switch to new ctime accessors
+7e75119dca703f2110f0e7834e19b715378756d9 ceph: switch to new ctime accessors
+243894fb772a42e8a37235f293ca5bd3c7fbd830 coda: switch to new ctime accessors
+cfebe623a667f3ccfa83acf897c09280590b3946 configfs: switch to new ctime accessors
+5b8dcf65fd07407df43545079999ca654fb26791 cramfs: switch to new ctime accessors
+0ec72159bff8b3245777c7117f65812d3dbe3fc3 debugfs: switch to new ctime accessors
+d2cb49f658ebd1fb63cbafcb2cb8092ce8e2a412 devpts: switch to new ctime accessors
+23d53fa79ea483bfd02039b1bc635ac619aa680e ecryptfs: switch to new ctime accessors
+1acee64dda292688dcf84c8f5e7cef6076442cce efivarfs: switch to new ctime accessors
+831b0bff106d7a539429d3b06b4d2530a9cac6de efs: switch to new ctime accessors
+92e33e19707e6377646b840375401f959b1bb010 erofs: switch to new ctime accessors
+2b4a5b2984d439d642ac20c88196c927496e22fb exfat: switch to new ctime accessors
+c40383dee283692d1331848f27be4fbb473c1ba2 ext2: switch to new ctime accessors
+ab1c8bda9ad8dfe22f7b44d94796c7083553f8bc ext4: switch to new ctime accessors
+f83b721b850e89eb5189493ed68bba5b06245056 f2fs: switch to new ctime accessors
+398958b17f3fee6ebacecdc840e38c7cbf0d8fbf fat: switch to new ctime accessors
+2c6fcd5573b59f19f92d9a701b516d09e85d753e freevxfs: switch to new ctime accessors
+2a56cf136604d1f16207327698642a641e081a37 fuse: switch to new ctime accessors
+7579cda276d8296eba07f447786efc76adcff89b gfs2: switch to new ctime accessors
+835cae3ba5139f32ca41d15572f67b7fc0194086 hfs: switch to new ctime accessors
+b271f59b0126df4c53411e1e8b67b86b556a1de7 hfsplus: switch to new ctime accessors
+5f1bfadfe902500110920692e5cfab00f11db0b8 hostfs: switch to new ctime accessors
+58d94264521ef315ee3b07e61a7a048c940bee76 hpfs: switch to new ctime accessors
+debcf8c6051192fb3ce754067043466783eea419 hugetlbfs: switch to new ctime accessors
+329d3fb220674dd51629896c3a700d02c85e91fd isofs: switch to new ctime accessors
+e4c02f8554a99ced47d5ed83175fa43c93a748c5 jffs2: switch to new ctime accessors
+8fc4b3baca4ae6ef8f34cce8c22bf0e2b724338c jfs: switch to new ctime accessors
+dacbe047c064e3941d1dd4762128cf0a7b882eed kernfs: switch to new ctime accessors
+9d3d515a6a8d38a0e8d0f7684224e27785667aa8 minix: switch to new ctime accessors
+102f63eea32dd16d879d56fcd25471b7e2fd054d nfs: switch to new ctime accessors
+42b04461b2cf6765a1730b9aacef0cfb99b87ce5 nfsd: switch to new ctime accessors
+18aead24b8cc9947e335ef8a2333875ada9a7ac8 nilfs2: switch to new ctime accessors
+7f6a831269b7bbd58c48a274c103834b568d3fb5 ntfs: switch to new ctime accessors
+3e771741acedcc70d1baf34874324497a3a08c95 ntfs3: switch to new ctime accessors
+d651eb6b79331e14e8e7f8b822f6815295ced6c3 ocfs2: switch to new ctime accessors
+fc27c3622ce0f7584d8e9494bbad51de5b6419cf omfs: switch to new ctime accessors
+7cba38165689c670946169bc7fa1d5bb7538aba7 openpromfs: switch to new ctime accessors
+36ba31cbba262355f13e42d2f1499dc3e0222a58 orangefs: switch to new ctime accessors
+148604eb9b6bc9f7699ae467742e6a4022b1b484 overlayfs: switch to new ctime accessors
+7da6a6c8b2db725932f94bbc8496591fcfdc0598 proc: switch to new ctime accessors
+952a80c555a02c655c8ed8feea01f0cf95fc7255 pstore: switch to new ctime accessors
+d5cc45b4a2f3a99d0996ceefc03f3be38acf6ef3 qnx4: switch to new ctime accessors
+67de9e4858818cf92be183876191cfa6ac4a39da qnx6: switch to new ctime accessors
+0f5bdf8e7d4f58dd205a024b6a6151378db2084c ramfs: switch to new ctime accessors
+2a886a76093de415938717189d623e359e995101 reiserfs: switch to new ctime accessors
+f3af7fe2f8595eab4f9723b42fade6bee562312c romfs: switch to new ctime accessors
+57b4726cac24b81d1179c5dc241fe96d547082a3 smb: switch to new ctime accessors
+63115f386113feb61dce3b4fa3f150a96a5a469d squashfs: switch to new ctime accessors
+7d3db8bce17dc1e4c424f63ff5a2c87a3758902f sysv: switch to new ctime accessors
+7d0929a52b8fd5e67b53e02e6cbefe368be255ea tracefs: switch to new ctime accessors
+08465f2db1921124b5832be93f1b3530c1be111d ubifs: switch to new ctime accessors
+72706e54cee2e14428dd36f3c735e8c05adf1b5c udf: switch to new ctime accessors
+7f326a578667b6ca3168eb76fe15a513ae4eff03 ufs: switch to new ctime accessors
+df4b262aa25abe20fecc8288de3dd8eff5a8bbbe vboxsf: switch to new ctime accessors
+26afce290aa77a8a76d27512533e4fb3ad0f467e xfs: switch to new ctime accessors
+254ce43535495f15e174e5c3c3cd51b353a3578e zonefs: switch to new ctime accessors
+cedc52b96cdc250ef546fe476e31e71d3df87fc2 mqueue: switch to new ctime accessors
+8a7a1dda1034c6874f6d5e51849589afbb62e921 bpf: switch to new ctime accessors
+0af3e2aa70920533a29e7e40e70c8ae10888667f shmem: switch to new ctime accessors
+e7a2f7b1d04413c29b16bfd408ef20674f9762bf rpc_pipefs: switch to new ctime accessors
+71a9e6599235d7cba0ecac25b91fdc677cd5ce9e apparmor: switch to new ctime accessors
+bcc41ca2b260693b1cb559f138fd95f969fed561 security: switch to new ctime accessors
+ccc1adda59bd9fa4851adc611d3d87f67c037a15 selinux: switch to new ctime accessors
+7da61fc09932c73d16077ceb3ac0f55fe0a592e5 fs: rename i_ctime field to __i_ctime
 
-45a3e24f65e90a047bef86f927ebdc4c710edaa1 e660abd551f1172e428b4e4003de887176a8a1fd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSS95MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/6MQAJ4buQjxN9BG6qrRHPHY
-KMlU/q0EP3pQ8qDaBw7EB6VvT97Xn+iqyYIssXK6YLYcyEzH0S4jM5/bQYnF/XUg
-mQoyOmvpi9xC5cRFUtISWkftGWmXl6/G1ZGCVrUJsXfXfEGyH0RvsWKvm6kL4QJR
-CsEoBmK79No4jtMlWBugiosrh6mXBfN5qzQ9YYbYbgywSkR6nzkiuJRDi1fdY6If
-no6fHpPa9PZXUIGLQ2GunvPaDxs6IF9d1iLaDkcAXbl58s0iQ3kmNDIlneIKZAc1
-5/O/Y8iy97CyUb3cVt9gPI1Jv0T7a14Yw269+55cBds/+RiwsJ4gVgiP5S/Hkc/d
-aKaKfh2HR6U8KFZhUh5ya4Ud7OcdIFLRplAqdEx4dETy7ECOwuAnrypBRXRoTqxJ
-rypDTGASPD/RBEe0xlSwu0+HmsYASsMEYipOLc63IphcmaSKNBK5VL1s5gvCx7eB
-w2JrsrQumnhLZs/w1ewdH+Cj+GYOS3xv5FPwEaapFiDxCRjAAxTtlMW+hCCZEY9H
-GFPSVR60C0Y6Y/viy9+HY2FKtJLtOu2955lihkMDgVIWIhCI8kOHyWQvWZ/0Kl2V
-NxfduNd+IOO3iqUf2jQf1/opF4k2JVgYdUddWpnmIT1B6d57AUsbZrej9U8cLKFx
-PDliFCGRg9I6ijew09PnmsIl
-=/Hld
------END PGP SIGNATURE-----
-
---===============9052263630298068397==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45a3e24f65e9-e660abd551f1.txt
-
-cb6aeeb69af06b09e687fbef4da36a81c36b4994 x86/hyperv/vtl: Add noop for realmode pointers
-ec97e112985c2581ee61854a4b74f080f6cdfc2c Drivers: hv: vmbus: Call hv_synic_free() if hv_synic_alloc() fails
-320805ab61e5f1e2a5729ae266e16bec2904050c Drivers: hv: vmbus: Fix vmbus_wait_for_unload() to scan present CPUs
-aafbb1eeabdc4e9241b400146f77369f041ec11b tracing/rv/rtla: Update MAINTAINERS file to point to proper mailing list
-ba470eebc2f6c2f704872955a715b9555328e7d0 tracing/user_events: Prevent same name but different args event
-cfac4ed7279d056df6167bd665e460787dc9e0c4 tracing/user_events: Handle matching arguments that is null from dyn_events
-e70bb54d7a51299e7feca9169c07d79f9a3fc01d tracing: Modify print_fields() for fields output order
-6f05dcabe5c241d066ec472cf38ac8b84f8c9c6f tracing/user_events: Fix the incorrect trace record for empty arguments events
-3e7269dd5fd5e77c215829e80fc1f29c989c9c42 selftests/user_events: Add ftrace self-test for empty arguments events
-4b56c21b11dcd2c6e4c6ee81bde77bea05e64db0 selftests/user_events: Clear the events after perf self-test
-42187bdc3ca45435bec96c66a90276315b2db1cb selftests/user_events: Add perf self-test for empty arguments events
-ed0e0ae0c932188654422d01f4e0ea14ff97c063 tracing/user_events: Remove user_ns walk for groups
-b08d72580584ab89c41d6fc0f15cd1cf4ce2ed93 tracing/user_events: Store register flags on events
-f0dbf6fd0bddb9290c89fdd7afc53dad5051030e tracing/user_events: Track refcount consistently via put/get
-a65442edb47a6d9c974b50049296ac9ddb378fee tracing/user_events: Add auto cleanup and future persist flag
-216a137e3eadac888cece141bd2c940785e235a2 selftests/user_events: Ensure auto cleanup works as expected
-61701242e86f0b509a0f5f9deb226bedfc8dfab7 selftests/user_events: Adapt dyn_test to non-persist events
-0113d4615dbf053ae9a7a1e0acbc6652713af01f tracing/user_events: Document auto-cleanup and remove dyn_event refs
-22db06337f590d01d79f60f181d8dfe5a9ef9085 ACPI: sleep: Avoid breaking S3 wakeup due to might_sleep()
-0bb619f9227aa370330d2b309733d74750705053 thermal/intel/intel_soc_dts_iosf: Fix reporting wrong temperatures
-2b9b8f3b68edb3d67d79962f02e26dbb5ae3808d ksmbd: validate command payload size
-40b268d384a22276dca1450549f53eed60e21deb ksmbd: add mnt_want_write to ksmbd vfs functions
-5fe7f7b78290638806211046a99f031ff26164e1 ksmbd: fix out-of-bound read in smb2_write
-5005bcb4219156f1bf7587b185080ec1da08518e ksmbd: validate session id and tree id in the compound request
-9636be85cc5bdd8b7a7f6a53405cbcc52161c93c x86/hyperv: Fix hyperv_pcpu_input_arg handling when CPUs go online/offline
-52ae076c3a9b366b6fa9f7c7e67aed8b28716ed9 arm64/hyperv: Use CPUHP_AP_HYPERV_ONLINE state to fix CPU online sequencing
-440b5e3663271b0ffbd4908115044a6a51fb938b PCI: hv: Fix a race condition bug in hv_pci_query_relations()
-2738d5ab7929a845b654cd171a1e275c37eb428e PCI: hv: Fix a race condition in hv_irq_unmask() that can cause panic
-add9195e69c94b32e96f78c2f9cea68f0e850b3f PCI: hv: Remove the useless hv_pcichild_state from struct hv_pci_dev
-a847234e24d03d01a9566d1d9dcce018cc018d67 Revert "PCI: hv: Fix a timing issue which causes kdump to fail occasionally"
-067d6ec7ed5b49380688e06c1e5f883a71bef4fe PCI: hv: Add a per-bus mutex state_lock
-a2b6f2ab3e144f8e23666aafeba0e4d9ea4b7975 afs: Fix dangling folio ref counts in writeback
-819da022dd007398d0c42ebcd8dbb1b681acea53 afs: Fix waiting for writeback then skipping folio
-dbad9ce9397ef7f891b4ff44bad694add673c1a1 Merge tag 'afs-fixes-20230719' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-692b7dc87ca6d55ab254f8259e6f970171dc9d01 Merge tag 'hyperv-fixes-signed-20230619' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-a7299a18a179a9713651fce9ad00972a633c14a9 btrfs: fix u32 overflows when left shifting stripe_nr
-99ec1ed7c2ed358280588ab1d013387e8c7a9333 Merge tag '6.4-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
-4b0c7a1ba09386e26cf9e55cd375af8e0f48662e Merge tag 'for-6.4-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-2e30b9734398ad8f29432da63a97728326050536 Merge tag 'trace-v6.4-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-c74e2ac2383fd687bf2f8dd3f29f674cbd0cdaea Merge tag 'thermal-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e660abd551f1172e428b4e4003de887176a8a1fd Merge tag 'acpi-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-
---===============9052263630298068397==--
+--===============8901711008996591347==--
