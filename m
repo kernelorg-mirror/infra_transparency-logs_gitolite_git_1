@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpirko/libteam
-Date: Thu, 22 Jun 2023 12:03:00 -0000
-Message-Id: <168743538044.19318.8715841720430637008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 22 Jun 2023 12:09:12 -0000
+Message-Id: <168743575227.24408.1147065399174864260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpirko/libteam
-user: jpirko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 61e27812c1074a865d7e1a778c0ce442837c28d7
-    new: 7cb5de8b01be132bd4150eff460bfd83296414b6
+  - ref: refs/heads/arm64-fix-tpidr2-signal-restore
+    old: 009bf459dbdc1cc0fc950bc18f904dfcddbdaa64
+    new: bdbf6de69f0d1290a82f052ae2bdcfd4b39204de
     log: |
-         7cb5de8b01be132bd4150eff460bfd83296414b6 teamd: Add option to change evaluation logic of multiple link-watchers
+         45eb6adad7f1f38e7ed987d08b94632a8cd225d2 arm64/signal: Fix handling of TPIDR2
+         40d91a9aa74dfaa01ee15730590bb136964d1bc8 arm64/signal: Restore TPIDR2 register rather than memory state
+         bdbf6de69f0d1290a82f052ae2bdcfd4b39204de kselftest/arm64: Add a test case for TPIDR2 restore
          
