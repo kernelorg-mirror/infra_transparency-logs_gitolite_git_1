@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 22 Jun 2023 20:14:16 -0000
-Message-Id: <168746485683.16212.912687074472530463@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1615288116820842930=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 22 Jun 2023 20:17:00 -0000
+Message-Id: <168746502020.18776.15578728090408168146@gitolite.kernel.org>
+
+--===============1615288116820842930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 8d4ed667f3f9c5f6beda154d27b2125334d31b51
-    new: 3d00df30cfd2b0f156dcc6fc5066ecb84538f4e2
+  - ref: refs/heads/master
+    old: 832010c4d50bc73695865ec0771091a14f4b24fb
+    new: 73291165599839de9a2dcf4986c35a2041b22d09
     log: |
-         54d7ff986478daeecdd99dba7a12199e3843ab1a dm integrity: Use %*ph for printing hexdump of a small buffer
-         51b35dc8123fba1ccef1501f714f730c7181851d Documentation: dm-integrity: Fix minor grammatical error.
-         acb6194b2da702833f702a2ee4220d92c04935ab Documentation: dm-integrity: Document the meaning of "buffer".
-         5b1ef037b15393f79a41f321ad17929037d26e01 Documentation: dm-integrity: Document default values.
-         3d00df30cfd2b0f156dcc6fc5066ecb84538f4e2 Documentation: dm-integrity: Document an example of how the tunables relate.
+         73291165599839de9a2dcf4986c35a2041b22d09 shazam: switch to top of git tree before running git-am
          
+
+--===============1615288116820842930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1687465019 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1687465019-44d20fb454f8bee1bfd9f47f62bc386d6ac8f052
+
+832010c4d50bc73695865ec0771091a14f4b24fb 73291165599839de9a2dcf4986c35a2041b22d09 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSsOwAKCRC2xBzjVmSZ
+bAzDAP9+LaZ0vSpIT/+sWT2Mojc2i7pt3VMUVMfS50aKZY1fvAEAwQNEKT7/gOhr
+f/AEL/0ZdXKNQYQ6/QtA9QPUatxs+wU=
+=SxNx
+-----END PGP SIGNATURE-----
+
+--===============1615288116820842930==--
