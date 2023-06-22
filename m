@@ -1,47 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0549251917808870829=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Jun 2023 18:09:32 -0000
-Message-Id: <168745737207.24790.12704736228168799963@gitolite.kernel.org>
-
---===============0549251917808870829==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 22 Jun 2023 18:18:08 -0000
+Message-Id: <168745788843.31350.4687797975874412081@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/stable-0.12.y
-    old: 76b0b98e415e28ae35ba0a40dbab764ea3a9161a
-    new: 854722a1167cae526c3d27623b35f75eee014082
+  - ref: refs/heads/trace/urgent
+    old: ed0e0ae0c932188654422d01f4e0ea14ff97c063
+    new: 0113d4615dbf053ae9a7a1e0acbc6652713af01f
     log: |
-         ee6bd2c91f38a4bde1a4e22e0bbd4a6f4984e28d Fix wrong CTR header after 8bit cover content is mixed in
-         854722a1167cae526c3d27623b35f75eee014082 trailers: normalize address after parsing
+         b08d72580584ab89c41d6fc0f15cd1cf4ce2ed93 tracing/user_events: Store register flags on events
+         f0dbf6fd0bddb9290c89fdd7afc53dad5051030e tracing/user_events: Track refcount consistently via put/get
+         a65442edb47a6d9c974b50049296ac9ddb378fee tracing/user_events: Add auto cleanup and future persist flag
+         216a137e3eadac888cece141bd2c940785e235a2 selftests/user_events: Ensure auto cleanup works as expected
+         61701242e86f0b509a0f5f9deb226bedfc8dfab7 selftests/user_events: Adapt dyn_test to non-persist events
+         0113d4615dbf053ae9a7a1e0acbc6652713af01f tracing/user_events: Document auto-cleanup and remove dyn_event refs
          
-
---===============0549251917808870829==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1687457371 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1687457371-46d288a10eb93c7e467833b96e80238190ce9641
-
-76b0b98e415e28ae35ba0a40dbab764ea3a9161a 854722a1167cae526c3d27623b35f75eee014082 refs/heads/stable-0.12.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSOWwAKCRC2xBzjVmSZ
-bDRIAQCQF6uM/1OPUUQ93kEK+rxXV0YmhSzsKG01EgmqjsdoPwEA3+a0va3KHREC
-AaFfF6EBTpHfOkohTDRKGQb4WAWKXwc=
-=kTaL
------END PGP SIGNATURE-----
-
---===============0549251917808870829==--
