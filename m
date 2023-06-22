@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 Jun 2023 23:57:54 -0000
-Message-Id: <168739187408.27215.2768900760074355658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 22 Jun 2023 00:03:55 -0000
+Message-Id: <168739223598.31065.10004463478577512540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/main
-    old: 1ca09f5746edd5e483d144118497f622af9dbe60
-    new: ca4fa87435370747cac535cecfd08672bb679487
-    log: |
-         ca4fa87435370747cac535cecfd08672bb679487 selftests: tc-testing: add one test for flushing explicitly created chain
-         
+  - ref: refs/tags/kvmarm-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 0189747ea5ce9d48c0ed1e04f47a48515beaf56b
