@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 22 Jun 2023 05:43:30 -0000
-Message-Id: <168741261079.22005.8597181274474676099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 22 Jun 2023 05:44:05 -0000
+Message-Id: <168741264581.22305.6589780396269371728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/main
-    old: 53bf91641ae19fe51fb24422de6d07565a3536d0
-    new: 5dfbbaa208f5429a02ccb410ae3515222bbe64ef
-    log: |
-         5dfbbaa208f5429a02ccb410ae3515222bbe64ef net: ena: Fix rst format issues in readme
-         
+  - ref: refs/tags/mlx5-updates-2023-06-21
+    old: 0000000000000000000000000000000000000000
+    new: c68f2b758c6510cab41d3f9a2423e32586b91dee
