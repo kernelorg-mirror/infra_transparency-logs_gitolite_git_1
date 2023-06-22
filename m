@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8377244202874105098=="
+Content-Type: multipart/mixed; boundary="===============4122019208822455945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Jun 2023 20:49:09 -0000
-Message-Id: <168746694997.9071.14031771015334492345@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 20:49:38 -0000
+Message-Id: <168746697811.9306.11364718597413620779@gitolite.kernel.org>
 
---===============8377244202874105098==
+--===============4122019208822455945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 73291165599839de9a2dcf4986c35a2041b22d09
-    new: 87aacf279afc3c1eda7b2e6e02e70842b4f99bc7
+  - ref: refs/heads/stable-0.12.y
+    old: 310f48f41e0283e47442f1ad2d2559224eb09986
+    new: 2ef54d9d83a403b3c1ae5efcc00e35fd35efdc76
     log: |
-         87aacf279afc3c1eda7b2e6e02e70842b4f99bc7 Properly quote the address before adding into From
+         2ef54d9d83a403b3c1ae5efcc00e35fd35efdc76 Properly quote the address before adding into From
          
 
---===============8377244202874105098==
+--===============4122019208822455945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1687466949 -0400
+pusher B6C41CE35664996C! 1687466977 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1687466949-fa7478eba8988883388d23527e255d82434f3bd6
+nonce 1687466977-0dc944821c23c77623951cfa4629590e69801402
 
-73291165599839de9a2dcf4986c35a2041b22d09 87aacf279afc3c1eda7b2e6e02e70842b4f99bc7 refs/heads/master
+310f48f41e0283e47442f1ad2d2559224eb09986 2ef54d9d83a403b3c1ae5efcc00e35fd35efdc76 refs/heads/stable-0.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSzxQAKCRC2xBzjVmSZ
-bGDGAQDwK9I3I+eSAG80XGgRaLsTtKeo1aR7RBngUxvbOKEXQwD+N30eQxwn010x
-O6/wILQCRQ+gTuLQo5gelF/E/ekh8AA=
-=1BJb
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSz4QAKCRC2xBzjVmSZ
+bFvXAQDWMpkvVSfvt1UYFZW+eNEFk6bxPVS+YcvLkOhf6BKe9AD+NeKx3yQ4XenY
+/Ze2ErYnbAO5WzWgynFUDLz2YIVPoAQ=
+=OiWU
 -----END PGP SIGNATURE-----
 
---===============8377244202874105098==--
+--===============4122019208822455945==--
