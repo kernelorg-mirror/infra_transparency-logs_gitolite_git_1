@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0266924788778118818=="
+Content-Type: multipart/mixed; boundary="===============1394580577570858273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 22 Jun 2023 12:36:15 -0000
-Message-Id: <168743737596.11265.16608057832309613123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 22 Jun 2023 12:42:10 -0000
+Message-Id: <168743773029.16248.9612141896092362935@gitolite.kernel.org>
 
---===============0266924788778118818==
+--===============1394580577570858273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: ab7fe95ad7495adac41a4d79f4771c1b4cbe1fc0
-    new: ae62db725024363a0c45e839b6559a41984acf54
-    log: revlist-ab7fe95ad749-ae62db725024.txt
+  - ref: refs/heads/xfrm-next
+    old: b46d6df770006a0d21c8214cbb0c2357269ddcce
+    new: 7e52c003c15345d74652e3b6e578338c46e4e418
+    log: revlist-b46d6df77000-7e52c003c153.txt
 
---===============0266924788778118818==
+--===============1394580577570858273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab7fe95ad749-ae62db725024.txt
+Content-Disposition: attachment; filename=revlist-b46d6df77000-7e52c003c153.txt
 
-4d344934501cbcdf87c3532c5bf845290dbcc71e ci: fix indentation
-de7e11495bfe7a0233f7862cdcafbd585ee1b767 lsfd: (filter) weakly support ARRAY_STRING and ARRAY_NUMBER json types
-92e0e017d80954cfc82fdac0ad6c68060a9eff0c lsfd: use \n as the separator in EVENTPOLL.TFDS column
-c34f86326d2fb10bd42102eb5963d60d2e76e1f2 lsfd: use \n as the separator in INOTIFY.INODES and INOTIFY.INODES.RAW columns
-42497e7d92280770ca048ff5bb8bf81a431dab13 lsfd: use ARRAY_STRING and ARRAY_NUMBER json types in some columns
-14fee76fc17d778e4d4c2752c68a95ce85b049ab lsfd.1.adoc: fix a typo
-f5b49efe42c0928dc292efe24946cccad86d711e ci: tweak build dir's ACL when collecting coverage
-b4b8f8c293507cbe86dbe55c9c955e511279d673 ci: hide coverage-related stuff begind --enable-coverage
-b0d003023cabecd45402a4d8e2529940ec778735 ci: collect coverage on _exit() as well
-2235cf919ab32486c25d6e38f78e4e6ee082a1f3 ci: cancel running jobs on push
-71111609342e3fd7d9f7a7468734a4e9749ceaa9 Merge branch 'cancel-jobs-on-push' of https://github.com/mrc0mmand/util-linux
-6a28c2f90aa425f7884f3c67906d4ff0ab61db2a Merge branch 'coverage-tweaks' of https://github.com/mrc0mmand/util-linux
-ae62db725024363a0c45e839b6559a41984acf54 Merge branch 'lsfd--fix-separators-for-json-output' of https://github.com/masatake/util-linux
+d58269aa862e6526e29ebe38fd3db3049f6376a3 xfrm: don't skip free of empty acquire policy
+85aa96c06e361327b034366f5d627dfad39889ac net/mlx5: Add relevant capabilities bits to support NAT-T
+078ac44a5abeb86f8f1b8688af14de732d36e11e net/mlx5e: Check for IPsec NAT-T support
+c1b8b27fa4974588573f5aba25ceaef3a8cfb22a net/mlx5e: Support IPsec NAT-T functionality
+d893bb587206f5ad2efe0b6244060711147f64c5 xfrm: Support UDP encapsulation in packet offload mode
+2a7c335791ba328dc16d2fe49cf8ea0a3a1f9596 net/mlx5e: Fix scheduling of IPsec ASO query while in atomic
+9b2c8cba6c05a13933a5fc1c71984c33e4333033 net/mlx5e: Add function to get IPsec offload namespace
+72bca678fba558070a102bc5060b7a7a551e9938 net/mlx5e: Change the parameter of IPsec RX skb handle function
+8b63c3fd58b942255e50f49cd92857c6d54ae120 net/mlx5e: Prepare IPsec packet offload for switchdev mode
+bbdfa1e3c00320485d5efa20b48b5fddd173575e net/mlx5e: Refactor IPsec RX tables creation and destruction
+0775cb375101fb7ccc945de38a920d66f0362584 net/mlx5e: Support IPsec packet offload for RX in switchdev mode
+1b28bf6a3d558112dd5d5cf5f5fa1f531188e079 net/mlx5e: Handle IPsec offload for RX datapath in switchdev mode
+1f7972b4e7dd3de4805bfd943a7b1c1efab75fbd net/mlx5e: Refactor IPsec TX tables creation
+5b09ffcddd02c8f396df79ca3239e7b5ff370c55 net/mlx5e: Support IPsec packet offload for TX in switchdev mode
+d3d01466f3998883b59f2f669a323869c23ef3c5 net/mlx5: Compare with old_dest param to modify rule destination
+3b18d2ca494fa209c8a3dc06631778c9c5976725 net/mlx5e: Modify and restore TC rules for IPSec TX rules
+7e52c003c15345d74652e3b6e578338c46e4e418 net/mlx5e: Add get IPsec offload stats for uplink representor
 
---===============0266924788778118818==--
+--===============1394580577570858273==--
