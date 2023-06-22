@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9061417819054715502=="
+Content-Type: multipart/mixed; boundary="===============5755072705935439793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 22 Jun 2023 08:12:47 -0000
-Message-Id: <168742156787.2409.13720996322374942347@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 08:12:48 -0000
+Message-Id: <168742156814.2447.10831629793713637220@gitolite.kernel.org>
 
---===============9061417819054715502==
+--===============5755072705935439793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,22 +16,20 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 10c994966905ff07bc3cca4c6802da6e94152b83
-    new: fe2f114223c6a057f2752a7450af835d943cf580
+  - ref: refs/heads/linux-5.10.y
+    old: ef0d5feb32ab7007d1316e9c5037cd7d9f7febbf
+    new: e4636b6297b0cfda1f46671b7ac0abcd909a5a63
     log: |
-         5d521a04ad078da18ef1049ab1813842fb5bae3e serial: lantiq: Change ltq_w32_mask to asc_update_bits
-         0bbf3aea2359e07a8ceef1f1b469cb5eeea10b06 serial: lantiq: Use readl/writel instead of ltq_r32/ltq_w32
-         267f1e315c7270a3f59632e9add442fecd3fd4bd serial: lantiq: Do not swap register read/writes
-         d7e40089cb39f0822707a6a3d0aabf221f74481f serial: lantiq: add missing interrupt ack
-         ef1e4ff8b13488050dcecea164f8bdb1d7041439 nilfs2: reject devices with insufficient block count
-         e446a3a5df9d2b6b7bc097f1a637096249727615 x86/purgatory: remove PGO flags
-         bf616135e59fe6b05eaf4ebc0517ee177dbe938f ipmi: Make the smi watcher be disabled immediately when not needed
-         991a35e027fe7bca032d29d1e865627abbeeea42 ipmi: move message error checking to avoid deadlock
-         fe2f114223c6a057f2752a7450af835d943cf580 Linux 4.19.288-rc1
+         58a0409a4c9b1cb11eaa152f69c54dc1811b1e2e drm/amd/display: fix the system hang while disable PSR
+         ee9aa1d3b75ad6887ba3e56b7c6d5df5a346801f net/sched: Refactor qdisc_graft() for ingress and clsact Qdiscs
+         bf5ca307c95d01109342b0ffabd89c7f968f50bf tracing: Add tracing_reset_all_online_cpus_unlocked() function
+         4b34b076d6da52f9e6c02f533f5b2a7f4851e912 tick/common: Align tick period during sched_timer setup
+         6f9f2228e484726e04b846256abb5e36b9edce67 selftests: mptcp: lib: skip if missing symbol
+         0bd18c8ee26c06fea4342ee8ac71d525fd4da32f selftests: mptcp: lib: skip if not below kernel version
+         e4636b6297b0cfda1f46671b7ac0abcd909a5a63 Linux 5.10.186-rc1
          
 
---===============9061417819054715502==
+--===============5755072705935439793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,23 +40,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687421566 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1687421566-1d62c96bbf918f3b855a44fadc906df40f5ae37f
 
-10c994966905ff07bc3cca4c6802da6e94152b83 fe2f114223c6a057f2752a7450af835d943cf580 refs/heads/linux-4.19.y
+ef0d5feb32ab7007d1316e9c5037cd7d9f7febbf e4636b6297b0cfda1f46671b7ac0abcd909a5a63 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSUAn4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PLUP/jzfTNnlRPto0eeJOUoe
-3wTovTIG4BFyKxv+RoFRX2HKofIx46RuFtJlBgGJqaAPyulipIX/OGna0r4rR/QM
-B+Rbe6PHHOQTHeBNYh4wijvs43xOQW2FCTve8BqPtl4gUqkkUWpZijOqLl5Hgw4S
-1YFyLYuca1QqyZfqJkBdxqWcADfbEojkoR0c7C3Q0pAwmzJCjI3QWuNFNefvdGGy
-B1K4W+8pQtU7nn0pTUk1xWQcDVyaGGfgU0WBhl9wP6AljsjwiPXgXDjJVzgLNN9N
-082zE4Yjg+qcFgVxFAlNM30KkMZMYkTX1Pvt28aoAcAFwZX3gJ8q5u531JklRPRh
-43tZoz5KYUnff+iRjHSpunuADTfRSJwct2A5zcaKT6Y9bCfZ/67FFKO+awF5ATvk
-NB+4AY4EkqVQK3JeHjTlbnROTgpDm5NDmPmRfXXcjHAlQmItQv6en6yiEkoR4Q27
-EdfvXXh+Z5USimtuYhg1Mz0ywQGkwmdPiFGxDGHduZoYfXMuMf6jFz5vGjVTANQm
-uyq7kh5FHxFeznOWvhX6tVAxx9bChImhmeK10ybjJu6muGD5vk1lOWr5V1NRpVxy
-XsZpkm0voiJD6Ip7o9Gh7EUcZVaXbgRUyt9T34kYhrFw5Fnp0wWp34jvD0EtSReV
-rbztjkmZ8rjpYuUrWpv3UO5u
-=oBR4
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+loQQAJHS/gqeMEAQ4Vz0dBkm
+XUZ80JPVxIIdRaU/PgkidaI4GuiSpQjIsa+TWjwF9VaBF1+2OnOkZ/tqHFt4t6Sh
+q3qenjsdGKc+pD6Vk5ZKgBL1kr4KofV0ySJII1sWYaj13De5hi/8cqFMEhQ9d0Vz
+70FMr6PO8QDDBAAxoIcf0XjP7KFzd6OWGy+4BJlMBhmCVMGTKHxyZyvMSS6BHPK9
+f+iw+g17pliaQAjbPUpBSuPNOJr+zHTcUIIaZsMD1yoBrM2NDlWGSQhTGFeHh5bF
+4luxnxjnBeZs07wAIlIU36PRvjiEaidjOzcoBjJd8t+ApMUX5LJa6l7QbP5oX8YM
+Q6qMUskwyz5OHkuyp7xRHWre/J2XObJeL6ZDB30cx4JPJDj8dFUo6VU/e2PRXEtF
+Y1XAL81A54XjNYg+76RhRYYCA64k8xCKVEXtlzzdZ1001C//9VukZEPgQX3F6n++
+/XilsMFyEhUFYt1g6NFMsVmr/d4l8l3xZZhlBnUJ2/MGkNuwpb3bn7JKhTLbT+Aq
+dE9q0iWJ3sn88k3ghwSacpHEUCfRSRb9b2HFkASFhQHn3RY6rmGWVj2H4kVhPaIN
+d7VvsiJBeCa79fujOfYH3tLBQXeXlOtxqEofz3QWl2fupfI88S3FfzkOdxxgBsQ8
+MCz15MP+TrP2mDp7ZkrRkbfD
+=anHO
 -----END PGP SIGNATURE-----
 
---===============9061417819054715502==--
+--===============5755072705935439793==--
