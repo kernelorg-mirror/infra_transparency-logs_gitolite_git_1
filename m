@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5016376174057663282=="
+Content-Type: multipart/mixed; boundary="===============4537034235073204268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 22 Jun 2023 22:44:55 -0000
-Message-Id: <168747389570.28137.17276871367331085659@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 22:45:02 -0000
+Message-Id: <168747390264.28720.4656580820777457943@gitolite.kernel.org>
 
---===============5016376174057663282==
+--===============4537034235073204268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.5
+  - ref: refs/heads/for-next
     old: 3d00df30cfd2b0f156dcc6fc5066ecb84538f4e2
     new: 7d8bae011ec676d6c0a6ea18f2b74c9c32d57849
     log: revlist-3d00df30cfd2-7d8bae011ec6.txt
 
---===============5016376174057663282==
+--===============4537034235073204268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c3ba5aa6f789097364398ad38fe541841bade17d Documentation: dm-integrity: Fix minor 
 e1ac274125f3d42375a515b7e0cb7f98d47cba89 dm ioctl: Refuse to create device named "control"
 7d8bae011ec676d6c0a6ea18f2b74c9c32d57849 dm ioctl: Refuse to create device named "." or ".."
 
---===============5016376174057663282==--
+--===============4537034235073204268==--
