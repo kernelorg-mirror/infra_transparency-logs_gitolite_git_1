@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2255769685522645031=="
+Content-Type: multipart/mixed; boundary="===============3577887971469599255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 22 Jun 2023 02:22:49 -0000
-Message-Id: <168740056998.7569.543820840748329040@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 02:23:10 -0000
+Message-Id: <168740059034.7794.1826107787923377936@gitolite.kernel.org>
 
---===============2255769685522645031==
+--===============3577887971469599255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 022000d3f586de7b0765075b85f0705f50a4fa69
-    new: af92c02fb2090692f4920ea4b74870940260cf49
-    log: revlist-022000d3f586-af92c02fb209.txt
+  - ref: refs/heads/for-next
+    old: 9b9561dbcb76bb0e643c2f65bebf67657c0c37f8
+    new: 95c5539096a3946bfa90d454b29e86672814dcb9
+    log: revlist-9b9561dbcb76-95c5539096a3.txt
 
---===============2255769685522645031==
+--===============3577887971469599255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-022000d3f586-af92c02fb209.txt
+Content-Disposition: attachment; filename=revlist-9b9561dbcb76-95c5539096a3.txt
 
 d721b591b95cf3f290f8a7cbe90aa2ee0368388d scsi: qla2xxx: Array index may go out of bound
 464ea494a40c6e3e0e8f91dd325408aaf21515ba scsi: qla2xxx: Fix potential NULL pointer dereference
@@ -57,5 +57,6 @@ e20fff8a1f4940f46be888bd175412c2e3e64e96 scsi: core: Don't wait for quiesce in s
 31950192d939a969415d0e1da4c62598023b0850 scsi: core: Replace scsi_target_block() with scsi_block_targets()
 6d7160c7da6fa3010252910a1680c62ababa6c2f scsi: core: Improve warning message in scsi_device_block()
 af92c02fb2090692f4920ea4b74870940260cf49 Merge patch series "scsi: fixes for targets with many LUNs, and scsi_target_block rework"
+95c5539096a3946bfa90d454b29e86672814dcb9 Merge branch 'misc' into for-next
 
---===============2255769685522645031==--
+--===============3577887971469599255==--
