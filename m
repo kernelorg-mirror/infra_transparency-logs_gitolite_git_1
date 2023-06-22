@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6236881752211613472=="
+Content-Type: multipart/mixed; boundary="===============0266924788778118818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 22 Jun 2023 12:24:17 -0000
-Message-Id: <168743665795.2346.18113196595115670226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 22 Jun 2023 12:36:15 -0000
+Message-Id: <168743737596.11265.16608057832309613123@gitolite.kernel.org>
 
---===============6236881752211613472==
+--===============0266924788778118818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/kbuild
-    old: da53661d02ed20f0aac25375dcce24048a2c36d9
-    new: 89c302bc9e7b5ed6c5cc1ea58a4f92bafc2b4801
-    log: revlist-da53661d02ed-89c302bc9e7b.txt
+  - ref: refs/heads/master
+    old: ab7fe95ad7495adac41a4d79f4771c1b4cbe1fc0
+    new: ae62db725024363a0c45e839b6559a41984acf54
+    log: revlist-ab7fe95ad749-ae62db725024.txt
 
---===============6236881752211613472==
+--===============0266924788778118818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da53661d02ed-89c302bc9e7b.txt
+Content-Disposition: attachment; filename=revlist-ab7fe95ad749-ae62db725024.txt
 
-ddb5cdbafaaad6b99d7007ae1740403124502d03 kbuild: generate KSYMTAB entries by modpost
-7d59313f19df0b55db6b31c5e4d4e828aa77d584 ia64,export.h: replace EXPORT_DATA_SYMBOL* with EXPORT_SYMBOL*
-6d62b1c46b1e6e1686a0cf6617c96c80d4ab5cd5 modpost: check static EXPORT_SYMBOL* by modpost again
-6e7611c485315a0e4e36c763d0810677e1f26ecd modpost: squash sym_update_namespace() into sym_add_exported()
-700c48b439921b67715e25380e0f67e6e490d7b8 modpost: use null string instead of NULL pointer for default namespace
-5e9e95cc9148b82074a5eae283e63bce3f1aacfe kbuild: implement CONFIG_TRIM_UNUSED_KSYMS without recursion
-78dac1a22944910ba5c1475c384309d30c99afaa modpost: merge two similar section mismatch warnings
-f234627898d7644998e28938390fa3d63efeefb7 modpost: show offset from symbol for section mismatch warnings
-8ed7e33a685a679c04cfe5ffdbb3b4c396ac8076 linux/export.h: rename 'sec' argument to 'license'
-15f7c845eac067d1e12c48573cf9cd1ddf9b43a6 kbuild: make modules_install copy modules.builtin(.modinfo)
-1f6d4d5f09db845ecd55e7a08a316acfa533a43b script: modpost: emit a warning when the description is missing
-15444f264109b9b0ab412da4f19d4a3785535d28 kbuild: revive "Entering directory" for Make >= 4.4.1
-b305b13adac72fb8e720bf9d49503209bfcecba7 kbuild: respect GNU Make -w flag
-89c302bc9e7b5ed6c5cc1ea58a4f92bafc2b4801 kbuild: make clean rule robust against too long argument error
+4d344934501cbcdf87c3532c5bf845290dbcc71e ci: fix indentation
+de7e11495bfe7a0233f7862cdcafbd585ee1b767 lsfd: (filter) weakly support ARRAY_STRING and ARRAY_NUMBER json types
+92e0e017d80954cfc82fdac0ad6c68060a9eff0c lsfd: use \n as the separator in EVENTPOLL.TFDS column
+c34f86326d2fb10bd42102eb5963d60d2e76e1f2 lsfd: use \n as the separator in INOTIFY.INODES and INOTIFY.INODES.RAW columns
+42497e7d92280770ca048ff5bb8bf81a431dab13 lsfd: use ARRAY_STRING and ARRAY_NUMBER json types in some columns
+14fee76fc17d778e4d4c2752c68a95ce85b049ab lsfd.1.adoc: fix a typo
+f5b49efe42c0928dc292efe24946cccad86d711e ci: tweak build dir's ACL when collecting coverage
+b4b8f8c293507cbe86dbe55c9c955e511279d673 ci: hide coverage-related stuff begind --enable-coverage
+b0d003023cabecd45402a4d8e2529940ec778735 ci: collect coverage on _exit() as well
+2235cf919ab32486c25d6e38f78e4e6ee082a1f3 ci: cancel running jobs on push
+71111609342e3fd7d9f7a7468734a4e9749ceaa9 Merge branch 'cancel-jobs-on-push' of https://github.com/mrc0mmand/util-linux
+6a28c2f90aa425f7884f3c67906d4ff0ab61db2a Merge branch 'coverage-tweaks' of https://github.com/mrc0mmand/util-linux
+ae62db725024363a0c45e839b6559a41984acf54 Merge branch 'lsfd--fix-separators-for-json-output' of https://github.com/masatake/util-linux
 
---===============6236881752211613472==--
+--===============0266924788778118818==--
