@@ -1,32 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 22 Jun 2023 13:50:03 -0000
-Message-Id: <168744180346.1011.3097399009179919034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 22 Jun 2023 14:03:50 -0000
+Message-Id: <168744263087.9145.2765968666029661404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/block-6.4
-    old: 20cb1c2fb7568a6054c55defe044311397e01ddb
-    new: 9c39b7a905d84b7da5f59d80f2e455853fea7217
-    log: |
-         9c39b7a905d84b7da5f59d80f2e455853fea7217 block: make sure local irq is disabled when calling __blkcg_rstat_flush
-         
-  - ref: refs/heads/for-6.5/block
-    old: 017fb83ee0612595ec70c65ddd83472706b02a50
-    new: 8270cb10c0681d52fce508f827dfa1688d3acc3a
-    log: |
-         8270cb10c0681d52fce508f827dfa1688d3acc3a cdrom: Fix spectre-v1 gadget
-         
-  - ref: refs/heads/for-next
-    old: bad712d3ccb735f082b29aaff8efba6b098bf933
-    new: 5e66e27f6d2f885769ed6ba3d657af94809a5287
-    log: |
-         8270cb10c0681d52fce508f827dfa1688d3acc3a cdrom: Fix spectre-v1 gadget
-         5e66e27f6d2f885769ed6ba3d657af94809a5287 Merge branch 'for-6.5/block' into for-next
-         
+  - ref: refs/heads/fileA17JJB
+    old: 0000000000000000000000000000000000000000
+    new: 1527b076ae2cb6a9c590a02725ed39399fcad1cf
+  - ref: refs/heads/filec0DOQB
+    old: 0000000000000000000000000000000000000000
+    new: 09280a496d94bf79ee3de390b53159ae6546ddf1
+  - ref: refs/heads/fileelIwi4
+    old: 0000000000000000000000000000000000000000
+    new: daeedc2e9b2845ce431661b77d387dd99bbf5a0a
+  - ref: refs/heads/fileyyjXOm
+    old: 0000000000000000000000000000000000000000
+    new: 0e14d23093492d471960e5f7f843fa7a86eeb89c
+  - ref: refs/heads/v2_20230622_fabrizio_castro_jz_spi_add_csi_support_for_renesas_rz_v2m
+    old: 0000000000000000000000000000000000000000
+    new: dfbd12ae0e7c761e07369f5a2d55fe06eb54ad31
+  - ref: refs/heads/v3_20230622_miquel_raynal_spi_helper_for_deriving_timeout_values
+    old: 0000000000000000000000000000000000000000
+    new: e5d233bf3da0de46c131a2d56ec1c994e043e8d9
