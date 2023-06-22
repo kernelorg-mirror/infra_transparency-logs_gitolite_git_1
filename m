@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 22 Jun 2023 16:04:53 -0000
-Message-Id: <168744989319.31686.3995383298220397610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 22 Jun 2023 16:15:57 -0000
+Message-Id: <168745055764.9131.11514367938452583198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 2bd9e07140ae7b22b5d049b1dde0449b2f2a28f8
-    new: 273235194e4d7682907166954bb95e5d57c8df19
+  - ref: refs/heads/dm-6.5
+    old: fa375646241b5350f7326fd4d686891b95d9fbe5
+    new: 25355bac476a78dade76f95210ee94da03ce93dd
     log: |
-         273235194e4d7682907166954bb95e5d57c8df19 RISC-V: make ARCH_THEAD preclude XIP_KERNEL
+         c71878e9982075eab2e9f6dc5a09ba7b60ac1e24 dm: Avoid double-fetch of version
+         8d4e1800e4a7a4c3ee2c313e1c026d02d17fae36 dm: Refuse to create device named "control"
+         25355bac476a78dade76f95210ee94da03ce93dd dm: Refuse to create device named "." or ".."
          
