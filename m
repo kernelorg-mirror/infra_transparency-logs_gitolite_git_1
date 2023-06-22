@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7425987927813079123=="
+Content-Type: multipart/mixed; boundary="===============6583779867351453605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 22 Jun 2023 18:53:32 -0000
-Message-Id: <168746001217.23792.2137451511675057900@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 18:55:49 -0000
+Message-Id: <168746014990.26154.11311399508499044376@gitolite.kernel.org>
 
---===============7425987927813079123==
+--===============6583779867351453605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 5f743f576d3f9ac08ed28fe8e65bdbc8d49b8034
-    new: 31b5a547622b3782388eb676081da1eefe5b98d2
-    log: |
-         31b5a547622b3782388eb676081da1eefe5b98d2 wifi: ieee80211: fix erroneous NSTR bitmap size checks
-         
+  - ref: refs/tags/wireless-next-2023-06-22
+    old: 0000000000000000000000000000000000000000
+    new: 3ac2fdc18be30b685ee5ffef280ce9d6efa83836
 
---===============7425987927813079123==
+--===============6583779867351453605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1687459988 +0200
+pusher 7BF9099A 1687460129 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1687459987-8980cf7bf9f105d870d94b69347d2e058f9b78cd
+nonce 1687460129-6a5bbb4bb21da2bf4f2ee2f102b5e4a2568c35b9
 
-5f743f576d3f9ac08ed28fe8e65bdbc8d49b8034 31b5a547622b3782388eb676081da1eefe5b98d2 refs/heads/main
+0000000000000000000000000000000000000000 3ac2fdc18be30b685ee5ffef280ce9d6efa83836 refs/tags/wireless-next-2023-06-22
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmSUmJQACgkQ10qiO8sP
-aADYZRAAnfWSSs366s2Ry64G/uBYJZuEMrEZSbAx9PxnxbRAhHYrGtw84ZgmbapS
-fX0mhg3MF0FcF6/NX0AtnUxqpJSTVHQ+3wfNPclAS30bIafl7BeVn7pXZEK4ICQj
-5LLFPSE2InY0zdkeE6IlnRPx79mmAQ/cXBCUgS634c8e0UfQ+qzOJgcBv6lW3La9
-VBk45F+LCaoaMOGOt7cJdIkRXFlqJeZMI8q50bL1vMOnl4HQ1TzbMfCbod+V63Zo
-EwiWMJAgVLVCYxyipDGmpU8HU0QN/Oc2E+8OlrjzzUpGmPvMkTyutREFLdh2TB1L
-vcO70sni1AXb7DiRKFhrm+xcqrPqrklXjYTCiVWQkUIEA3sib4NcttiHioA/ih6y
-M4ms2tU+HtFMYPbbibQoEsj6M/fzMLQKW4BO32XFF+JrfKOBz4Vc3IKMzIWn0/zt
-WPBZdAGpmh7jd4REyhRV+/NrNwbTMHU96hdHQ7PLk9cBoaxc7GZ6ehkE/lTfI9r7
-MVhj2J3xgags+m924AVOoiUrg6Yb0PgP7G1wyHALFI/lu0bQ3S1qnRZShKHXIMzA
-Q4oyqdsJ4Kd1pKXzRwtq1btuOYbWLmcbq+ebvooAK/CXGQUvtjZgCwYtfd52Ap//
-zzfmba5XgSQYlhPCIDJQegzQrvHHjeGz26yqj5gJC8RkKc5HDcs=
-=k7u2
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmSUmSEACgkQ10qiO8sP
+aADfqA//ZrqZPRnDO1kc8S7kPszmZcTlvJ24Bj6gfcxnoxS56cGm7KacpEvqSigq
+cQB1MBiL/ZHG1gEVH/jV+mzHJFICMoUoKmsU5WM38mzEK1J7vFbjaAcR9JqbyIXh
+LiF2JCJ1iSMjumcIyIHy/G/m1O56T6GICrrfRRjJfMmrHavFYNVoAoZtEkk66YiG
+WlL1R0iXQ/yI9SX/Uo5URqkj8ZTPTay8rdMkuXKDbt2zxURivGiXsDbi2lmq4A3I
+MTa3IQrnME2KAaH2u52Wk0Gpdug8bNa6VbNnoVKSZK1DYFy3BB4VIgRSRoOo8L/O
+GL8IGgjzPJvQE76NDmSsnJRJRtBuudhM67fOwVHk3mMv55WvKyKXnQe9BMht5Gbz
+5mO+FyL6/0j9TE02fnpOEGp3aR3JLIZNfIGhsEoJ4itRfBQtiwd9gny7H7fxh4q/
+5qRnbI67q5eVEeZrPxFUa67w7tQmPr3P1MQ6sDqvbXUbAdNEhsKEuTftOgqRaT5c
+X89CJZXOmVDv+2Y8wmKYVNgMybRAoXrKAdcRW0pa0S25MBxr26Xmkfum8eZc2uC6
+w1TjHA2106+e8BDeIzOs1VjTQ7+t69m+qKnKKcJj6lUY1/RRcZgjjoO9Py8dxRS5
+DdPlH82R9qHXlFLPYNfpKymuDY2owfYe8rlhAlstd1a7UcRGsKk=
+=HeyX
 -----END PGP SIGNATURE-----
 
---===============7425987927813079123==--
+--===============6583779867351453605==--
