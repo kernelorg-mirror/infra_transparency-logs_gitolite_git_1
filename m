@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============9197401782172403457=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Jun 2023 17:43:56 -0000
-Message-Id: <168745583613.6050.3287526972892227543@gitolite.kernel.org>
-
---===============9197401782172403457==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 22 Jun 2023 17:44:06 -0000
+Message-Id: <168745584683.6227.8494322917755343429@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: cb93cd00e391622db4a49753f8944ce2b29c5d9d
-    new: cee377e23203fd12590316c96ceadae8357e7a77
+  - ref: refs/heads/hwmon-next
+    old: 37f665ffa886ce49d1baaca1c3501ce93713b77e
+    new: 0d67bbc48c7397bc97fa91c9b9c66c6570451131
     log: |
-         cee377e23203fd12590316c96ceadae8357e7a77 Fix wrong CTR header after 8bit cover content is mixed in
+         98ac8af4e7b2f260236cf468762450630e73eb67 hwmon: (pmbus/adm1275) Prepare for protected write to PMON_CONFIG
+         dd5219ce4f295a129ee38baff308f9c1e4f0761b hwmon: (pmbus/adm1275) Disable ADC while updating PMON_CONFIG
+         0d67bbc48c7397bc97fa91c9b9c66c6570451131 hwmon: (corsair-psu) add support for reading PWM values and mode
          
-
---===============9197401782172403457==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1687455835 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1687455835-f363c1a71140d605315de8a1f2cb4671bc6fe324
-
-cb93cd00e391622db4a49753f8944ce2b29c5d9d cee377e23203fd12590316c96ceadae8357e7a77 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSIWwAKCRC2xBzjVmSZ
-bIHpAP96xkH1yJHsuzBveY0xkQ1mTpyxcHMXDTVKJBXsAMIxdAD/bBNLc2FyIsv8
-9FVvqosBqDI09EJss5ho32x564/jegc=
-=NfAQ
------END PGP SIGNATURE-----
-
---===============9197401782172403457==--
