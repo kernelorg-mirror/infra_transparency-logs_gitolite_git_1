@@ -1,46 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4122019208822455945=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Jun 2023 20:49:38 -0000
-Message-Id: <168746697811.9306.11364718597413620779@gitolite.kernel.org>
-
---===============4122019208822455945==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 22 Jun 2023 21:03:13 -0000
+Message-Id: <168746779379.19233.701813953995524306@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/stable-0.12.y
-    old: 310f48f41e0283e47442f1ad2d2559224eb09986
-    new: 2ef54d9d83a403b3c1ae5efcc00e35fd35efdc76
-    log: |
-         2ef54d9d83a403b3c1ae5efcc00e35fd35efdc76 Properly quote the address before adding into From
-         
-
---===============4122019208822455945==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1687466977 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1687466977-0dc944821c23c77623951cfa4629590e69801402
-
-310f48f41e0283e47442f1ad2d2559224eb09986 2ef54d9d83a403b3c1ae5efcc00e35fd35efdc76 refs/heads/stable-0.12.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSz4QAKCRC2xBzjVmSZ
-bFvXAQDWMpkvVSfvt1UYFZW+eNEFk6bxPVS+YcvLkOhf6BKe9AD+NeKx3yQ4XenY
-/Ze2ErYnbAO5WzWgynFUDLz2YIVPoAQ=
-=OiWU
------END PGP SIGNATURE-----
-
---===============4122019208822455945==--
+  - ref: refs/heads/doc.2023.05.10a
+    old: 0000000000000000000000000000000000000000
+    new: e1bd2334f165aa7bef7f9fa2b0bef97a85614963
+  - ref: refs/heads/fixes.2023.05.11a
+    old: 0000000000000000000000000000000000000000
+    new: 401b0de3ae4fa49d1014c8941e26d9a25f37e7cf
+  - ref: refs/heads/kvfree.2023.05.10a
+    old: 0000000000000000000000000000000000000000
+    new: 6b706e5603c44ff0b6f43c2e26e0d590e1d265f8
+  - ref: refs/heads/nocb.2023.05.11a
+    old: 0000000000000000000000000000000000000000
+    new: fbde57d2d2995375305917b3c944bc861beb84d4
+  - ref: refs/heads/rcu-tasks.2023.05.10a
+    old: 0000000000000000000000000000000000000000
+    new: edff5e9a99e0ed9463999455b2604c3154eb7ab3
+  - ref: refs/heads/torture.2023.05.15a
+    old: 0000000000000000000000000000000000000000
+    new: ce2544b2d05ee84cb9be1e05bf3e1a98c72b15dc
