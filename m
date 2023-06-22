@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4661124226802012530=="
+Content-Type: multipart/mixed; boundary="===============0549251917808870829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Jun 2023 18:09:03 -0000
-Message-Id: <168745734381.24551.7453500873218376204@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 18:09:32 -0000
+Message-Id: <168745737207.24790.12704736228168799963@gitolite.kernel.org>
 
---===============4661124226802012530==
+--===============0549251917808870829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: cee377e23203fd12590316c96ceadae8357e7a77
-    new: 832010c4d50bc73695865ec0771091a14f4b24fb
+  - ref: refs/heads/stable-0.12.y
+    old: 76b0b98e415e28ae35ba0a40dbab764ea3a9161a
+    new: 854722a1167cae526c3d27623b35f75eee014082
     log: |
-         832010c4d50bc73695865ec0771091a14f4b24fb trailers: normalize address after parsing
+         ee6bd2c91f38a4bde1a4e22e0bbd4a6f4984e28d Fix wrong CTR header after 8bit cover content is mixed in
+         854722a1167cae526c3d27623b35f75eee014082 trailers: normalize address after parsing
          
 
---===============4661124226802012530==
+--===============0549251917808870829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1687457343 -0400
+pusher B6C41CE35664996C! 1687457371 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1687457343-3b971a759bd658935dfb3dc95e20f1a0f2d0c3be
+nonce 1687457371-46d288a10eb93c7e467833b96e80238190ce9641
 
-cee377e23203fd12590316c96ceadae8357e7a77 832010c4d50bc73695865ec0771091a14f4b24fb refs/heads/master
+76b0b98e415e28ae35ba0a40dbab764ea3a9161a 854722a1167cae526c3d27623b35f75eee014082 refs/heads/stable-0.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSOPwAKCRC2xBzjVmSZ
-bIYcAQCAq0EM7H4foWQ1Hv1D9zT/mYEmX28GYHutEFMctpfMmwEAouz4orLtCX4O
-rQpa7z7ed8ehIYOQqUs7WueQFgsbKwI=
-=iwTW
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSOWwAKCRC2xBzjVmSZ
+bDRIAQCQF6uM/1OPUUQ93kEK+rxXV0YmhSzsKG01EgmqjsdoPwEA3+a0va3KHREC
+AaFfF6EBTpHfOkohTDRKGQb4WAWKXwc=
+=kTaL
 -----END PGP SIGNATURE-----
 
---===============4661124226802012530==--
+--===============0549251917808870829==--
