@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6909157145189996219=="
+Content-Type: multipart/mixed; boundary="===============2914391157172547134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 22 Jun 2023 12:55:06 -0000
-Message-Id: <168743850686.25691.13731372358047860543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 22 Jun 2023 12:55:20 -0000
+Message-Id: <168743852014.25839.2067815463927904097@gitolite.kernel.org>
 
---===============6909157145189996219==
+--===============2914391157172547134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
     log: revlist-858fd168a95c-45a3e24f65e9.txt
 
---===============6909157145189996219==
+--===============2914391157172547134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -307,4 +307,4 @@ ecbcffe3b7edc9a42b4e29ed8dafd56855ee675c Merge tag 'ata-6.4-rc7' of git://git.ke
 8c1f0c38b31025f60437215dd27fffc293565fa4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 45a3e24f65e90a047bef86f927ebdc4c710edaa1 Linux 6.4-rc7
 
---===============6909157145189996219==--
+--===============2914391157172547134==--
