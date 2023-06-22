@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 22 Jun 2023 17:48:05 -0000
-Message-Id: <168745608533.9939.6882131776120812112@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4661124226802012530=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 22 Jun 2023 18:09:03 -0000
+Message-Id: <168745734381.24551.7453500873218376204@gitolite.kernel.org>
+
+--===============4661124226802012530==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 2404dd01b53430e4ab78fc9ca069e9e93fd22059
-    new: fbc5669de62a452fb3a26a4560668637d5c9e7b5
+  - ref: refs/heads/master
+    old: cee377e23203fd12590316c96ceadae8357e7a77
+    new: 832010c4d50bc73695865ec0771091a14f4b24fb
     log: |
-         fbc5669de62a452fb3a26a4560668637d5c9e7b5 bpf, docs: Document existing macros instead of deprecated
+         832010c4d50bc73695865ec0771091a14f4b24fb trailers: normalize address after parsing
          
+
+--===============4661124226802012530==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1687457343 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1687457343-3b971a759bd658935dfb3dc95e20f1a0f2d0c3be
+
+cee377e23203fd12590316c96ceadae8357e7a77 832010c4d50bc73695865ec0771091a14f4b24fb refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZJSOPwAKCRC2xBzjVmSZ
+bIYcAQCAq0EM7H4foWQ1Hv1D9zT/mYEmX28GYHutEFMctpfMmwEAouz4orLtCX4O
+rQpa7z7ed8ehIYOQqUs7WueQFgsbKwI=
+=iwTW
+-----END PGP SIGNATURE-----
+
+--===============4661124226802012530==--
