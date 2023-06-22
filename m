@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 22 Jun 2023 23:34:45 -0000
-Message-Id: <168747688574.30725.12218376227870807989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 22 Jun 2023 23:59:38 -0000
+Message-Id: <168747837879.15980.2607688797933976572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: d3d8f4b21e07f609ab9bf827ef4feda61fdef5d2
-    new: 84ce33f97702067e2ca662a3700c2140d797bd80
-    log: |
-         892cde3cabce97de253dc7ab85e18e88ebc846d5 ata: ahci_octeon: Remove unnecessary include
-         fff429ae12f39339cbeb1aba5766ed6db6f13f9c dt-bindings: ata: dwc-ahci: add PHY clocks
-         d22b5249d1576f4c0c6ae3cc735683a793937b2c dt-bindings: ata: dwc-ahci: add Rockchip RK3588
-         84ce33f97702067e2ca662a3700c2140d797bd80 dt-bindings: phy: rockchip: rk3588 has two reset lines
-         
+  - ref: refs/heads/throwaway
+    old: 728565a94870aaea0aba1276a17eadf55c1a236b
+    new: 0000000000000000000000000000000000000000
