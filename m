@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6028166932409612605=="
+Content-Type: multipart/mixed; boundary="===============5762520615141527613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Thu, 22 Jun 2023 19:10:41 -0000
-Message-Id: <168746104148.5052.16837902288082323921@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 19:11:31 -0000
+Message-Id: <168746109137.5426.3647186997266963670@gitolite.kernel.org>
 
---===============6028166932409612605==
+--===============5762520615141527613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 99ddf2254febae9eab7fb0bcc02c5322243f5c49
+  - ref: refs/heads/dm-cryptsetup
+    old: 2b784e883f7519b7ca36a513ac605bcd01d338f2
     new: dad9774deaf1cf8e8f7483310dfb2690310193d2
-    log: revlist-99ddf2254feb-dad9774deaf1.txt
+    log: revlist-2b784e883f75-dad9774deaf1.txt
 
---===============6028166932409612605==
+--===============5762520615141527613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99ddf2254feb-dad9774deaf1.txt
+Content-Disposition: attachment; filename=revlist-2b784e883f75-dad9774deaf1.txt
 
 a1a5f2c887252dec161c1e12e04303ca9ba56fa9 dmaengine: pl330: rename _start to prevent build error
 2a6c7e8cc74e58ba94b8c897035a8ef7f7349f76 dmaengine: at_hdmac: Repair bitfield macros for peripheral ID handling
@@ -1051,4 +1051,4 @@ e075d681a27eea6e3722749dda10cf3c4ddfc9fc Merge tag 'regmap-fix-v6.4-rc7' of git:
 007034977130b49b618a5206aad54f634d9f169c Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 dad9774deaf1cf8e8f7483310dfb2690310193d2 Merge tag 'timers-urgent-2023-06-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============6028166932409612605==--
+--===============5762520615141527613==--
