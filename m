@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3061903617346510434=="
+Content-Type: multipart/mixed; boundary="===============0660175926857442397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 22 Jun 2023 15:31:57 -0000
-Message-Id: <168744791707.9073.11079603336775554944@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 15:32:10 -0000
+Message-Id: <168744793066.9240.10783431345668713794@gitolite.kernel.org>
 
---===============3061903617346510434==
+--===============0660175926857442397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/affs
-    old: 858fd168a95c5b9669aac8db6c14a9aeab446375
-    new: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
-    log: revlist-858fd168a95c-45a3e24f65e9.txt
+  - ref: refs/heads/next-fixes
+    old: 02a8f929f7d8053c3783f45ee18a79e25905895e
+    new: 4d0998044f33ef997ada624dc029838432c960c0
+    log: revlist-02a8f929f7d8-4d0998044f33.txt
 
---===============3061903617346510434==
+--===============0660175926857442397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-858fd168a95c-45a3e24f65e9.txt
+Content-Disposition: attachment; filename=revlist-02a8f929f7d8-4d0998044f33.txt
 
 b3dad076a058916c443c93074dc3ee80baaff4ea staging: octeon: delete my name from TODO contact
 70c2e03e9aaf17496c63f6e42333c012f5ae5307 thunderbolt: dma_test: Use correct value for absent rings when creating paths
@@ -40,11 +40,9 @@ f1832e2b5e498e258b090af3b065b85cf8cc5161 USB: serial: option: add Quectel EM061K
 899e373ef0b0d3f1c2712a849f019de4f46bfa02 Merge tag 'v6.4-rc4' into v4l_for_linus
 592295e61b5c51ea89fd1959932fd0f121f08c46 Merge tag 'thunderbolt-for-v6.4-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 ad24919540fb4df83981d469b5253cc1aecca939 firmware: cs_dsp: Log correct region name in bin error messages
-917ac77846b907dfdbd878688a9a61236ad6c51e btrfs: subpage: fix a crash in metadata repair path
 306320034e8fbe7ee1cc4f5269c55658b4612048 serial: lantiq: add missing interrupt ack
 947c70a213769f60e9d5aca2bc88b50a1cfaf5a6 spi: cadence-quadspi: Add missing check for dma_set_mask
 c5c31fb71f16ba75bad4ade208abbae225305b65 spi: fsl-dspi: avoid SCK glitches with continuous transfers
-981a37bab5e5f16137266d3f00cf2bd018af36ef btrfs: properly enable async discard when switching from RO->RW
 b00de0000a69579f4d730077fe3ea8ca31404255 regulator: qcom-rpmh: Fix regulators for PM8550
 44b902e935be111fc98eb2a2d8e3d08196fd52ac dt-bindings: net: realtek-bluetooth: Fix RTL8821CS binding
 2a567c1e29301495affa220543f156dd6dad50a9 dt-bindings: net: realtek-bluetooth: Fix double RTL8723CS in desc
@@ -52,8 +50,6 @@ de29a96acceae732c68a4094d08dc49079eefa02 notifier: Initialize new struct srcu_us
 212ed75dc5fb9d1423b3942c8f872a868cda3466 netfilter: nf_tables: integrate pipapo into commit protocol
 a1a64a151dae8ac3581c1cbde44b672045cb658b netfilter: nfnetlink: skip error delivery on batch in case of ENOMEM
 7b672f282cf4712cb392ef798f0305cc4de32454 Merge tag 'usb-serial-6.4-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-1f2030ff6e4958780af9e65a22c39fa8082f292b btrfs: scrub: respect the read-only flag during repair
-79b8ee702c918f1936e17cc53e14bec388ce1045 btrfs: scrub: also report errors hit during the initial read
 f7efdf5e4dc10756ad632b1863b54b1b42a07530 dt-bindings: Change Damien Le Moal's contact email
 c44e0503e5fd90c5ccbf81bcff7b6b70e9e2655b docs: dt: fix documented Primecell compatible string
 b0b4a63f38d7cae3c57588592556481aedcae8b1 docs: zh_CN/devicetree: sync usage-model fix
@@ -154,10 +150,7 @@ fee5eaecca86afa544355569b831c1f90f334b85 nilfs2: fix possible out-of-bounds segm
 e43516f5978d11d36511ce63d31d1da4db916510 igc: Clean the TX buffer and TX descriptor ring
 c080fe262f9e73a00934b70c16b1479cf40cd2bd igc: Fix possible system crash when loading module
 48a821fd58837800750ec1b3962f0f799630a844 igb: fix nvm.ops.read() error handling
-7833b865953c8e62abc76a3261c04132b2fb69de btrfs: fix iomap_begin length for nocow writes
-deccae40e4b30f98837e44225194d80c8baf2233 btrfs: can_nocow_file_extent should pass down args->strict from callers
 fb054096aea0576f0c0a61c598e5e9676443ee86 Merge tag 'mm-hotfixes-stable-2023-06-12-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-745806fb4554f334e6406fa82b328562aa48f08f btrfs: do not ASSERT() on duplicated global roots
 b9dc1046edfeb7d9dbc2272c8d9ad5a8c47f3199 net: phylink: report correct max speed for QUSGMII
 923454c0368b8092e9d05c020f50abca577e7290 net: phylink: use a dedicated helper to parse usgmii control word
 4d17beb66b918c01e9ff5e2d623218889aa02295 Merge branch 'fixes-for-q-usgmii-speeds-and-autoneg'
@@ -232,7 +225,6 @@ bef68e201e538eaa3a91f97aae8161eb2d0a8ed7 selftests: forwarding: hw_stats_l3: Set
 b104dbedbe61d89a933479f8effce6409037ef73 Documentation: RISC-V: patch-acceptance: mention patchwork's role
 c774e6779f38bf36f0cce65e30793704bab4b0d7 cifs: fix lease break oops in xfstest generic/098
 e4645cc2f1e2d6f268bb8dcfac40997c52432aed cifs: add a warning when the in-flight count goes negative
-b50f2d048ecf1512ff85128ea4153bceb0e60590 btrfs: scrub: fix a return value overwrite in scrub_stripe()
 0c7e314a6352664e12ec465f576cf039e95f8369 RDMA/rxe: Fix rxe_cq_post
 adeaa3f290ecf7f6a6a5c53219a4686cbdff5fbd io_uring/io-wq: clear current->worker_private on exit
 ec21a38df77a5aefbd2f70c48127003b6f259cf3 Revert "media: dvb-core: Fix use-after-free on race condition at dvb_frontend"
@@ -306,5 +298,8 @@ b5b2a02bcaac7c287694aa0db4837a07bf178626 parisc: Delete redundant register defin
 ecbcffe3b7edc9a42b4e29ed8dafd56855ee675c Merge tag 'ata-6.4-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 8c1f0c38b31025f60437215dd27fffc293565fa4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 45a3e24f65e90a047bef86f927ebdc4c710edaa1 Linux 6.4-rc7
+a7299a18a179a9713651fce9ad00972a633c14a9 btrfs: fix u32 overflows when left shifting stripe_nr
+cb091225a538005965b7c59c7c33ebe5358a5815 btrfs: fix remaining u32 overflows when left shifting stripe_nr
+4d0998044f33ef997ada624dc029838432c960c0 Merge branch 'misc-6.4' into next-fixes
 
---===============3061903617346510434==--
+--===============0660175926857442397==--
