@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 22 Jun 2023 21:46:31 -0000
-Message-Id: <168747039105.19996.5317635881155462393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 22 Jun 2023 22:15:11 -0000
+Message-Id: <168747211118.8097.4184423647263034155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/csd-lock.2023.06.07a
-    old: 0000000000000000000000000000000000000000
-    new: 1f8f41659c133ab9e19e30850bbc90a3c0a0ac7d
-  - ref: refs/tags/csd-lock.2023.06.22a
-    old: 0000000000000000000000000000000000000000
-    new: 3e86795b93574e0f2a4ec30ce9c5d945ffc910fa
-  - ref: refs/tags/nolibc.2023.06.22a
-    old: 0000000000000000000000000000000000000000
-    new: 2c7e73528a747767b4809179a1e2bbc1aeb7a968
-  - ref: refs/tags/rcu.2023.06.22a
-    old: 0000000000000000000000000000000000000000
-    new: 8dbea6cdeb2d0b3ea7e5aad7e2188631c19115f0
+  - ref: refs/heads/pm
+    old: 57c1aae01a2bb33a90c6096fb7f7d6bbabb71322
+    new: 1ffb8fe11aef8d86c7cfcc0163572b9cea92f0a6
+    log: |
+         3dd0732fad66755dddb5ba18443560b365c30671 PCI/PM: Validate acpi_pci_set_power_state() parameter
+         1ffb8fe11aef8d86c7cfcc0163572b9cea92f0a6 PCI/PM: Call _REG when transitioning D-states
+         
