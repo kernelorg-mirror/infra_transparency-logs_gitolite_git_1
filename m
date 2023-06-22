@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 22 Jun 2023 16:16:03 -0000
-Message-Id: <168745056390.9266.15415397805285897885@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 16:26:23 -0000
+Message-Id: <168745118334.15973.12910829456416214091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: fa375646241b5350f7326fd4d686891b95d9fbe5
-    new: 25355bac476a78dade76f95210ee94da03ce93dd
+    old: 25355bac476a78dade76f95210ee94da03ce93dd
+    new: 8d4ed667f3f9c5f6beda154d27b2125334d31b51
     log: |
-         c71878e9982075eab2e9f6dc5a09ba7b60ac1e24 dm: Avoid double-fetch of version
-         8d4e1800e4a7a4c3ee2c313e1c026d02d17fae36 dm: Refuse to create device named "control"
-         25355bac476a78dade76f95210ee94da03ce93dd dm: Refuse to create device named "." or ".."
+         a5a3de762b3ae8959347928843c12502b1b23163 dm ioctl: Avoid double-fetch of version
+         d837363a5a296e598e356c4c2941cd31f92053ec dm ioctl: Refuse to create device named "control"
+         8d4ed667f3f9c5f6beda154d27b2125334d31b51 dm ioctl: Refuse to create device named "." or ".."
          
