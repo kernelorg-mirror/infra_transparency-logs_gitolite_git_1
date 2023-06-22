@@ -1,92 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8164537212468327422=="
+Content-Type: multipart/mixed; boundary="===============4533540677527598853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 22 Jun 2023 07:31:18 -0000
-Message-Id: <168741907806.2002.10590276643688732867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 22 Jun 2023 07:32:56 -0000
+Message-Id: <168741917626.2638.2802780162668746335@gitolite.kernel.org>
 
---===============8164537212468327422==
+--===============4533540677527598853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e660abd551f1172e428b4e4003de887176a8a1fd
-    new: dad9774deaf1cf8e8f7483310dfb2690310193d2
-    log: revlist-e660abd551f1-dad9774deaf1.txt
+    old: f50fe91f86ab70cf9034286264b6bb618845a225
+    new: 6d663d30d6b7a1d3d5ba6b011f61f64d8f09d3c5
+    log: |
+         6d663d30d6b7a1d3d5ba6b011f61f64d8f09d3c5 6.3-stable patches
+         
 
---===============8164537212468327422==
+--===============4533540677527598853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687419074 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1687419074-8983bf5e014f8caf56e2292d94d1847c0e485517
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687419174 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1687419174-fd88ed8b19ebc1e821dcfdfff2e44892d39dec58
 
-e660abd551f1172e428b4e4003de887176a8a1fd dad9774deaf1cf8e8f7483310dfb2690310193d2 refs/heads/master
+f50fe91f86ab70cf9034286264b6bb618845a225 6d663d30d6b7a1d3d5ba6b011f61f64d8f09d3c5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmST+MIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YoIP/RET2vQnCMACRVD0t2N3
-nhVVkwx7ZNeLxu408u/cgiojGi9c6udfScuVlnfPjt1z1SnC+2ukeqRwnHDsQEz4
-v4OArjHRX9xm5W6Z+qd9Xqdc8qx4q5qNMe5nuuSa+jJ3YyTg5NrTTNZOiAJdIr7G
-l5+mQxjGaMcgo81/fYzNS2akATsvV5ZLz+Nu7DEHdck/tmkIBFBXrknSoCNN01Fb
-5dDalLzFsJg2Xj77DML/N/lvXbn5No8fOUioP0+HLy5v8jKKe9FMzA4dH7S53MxC
-0la9b8dDekJYevHBsSQP9CUhjPDc+URpvWZZzSlvy2TWLz/FPs64zDyoE9XXs9fO
-n1skBwz2E454OQT44wPL4cdawPTRJqs+vfeCONhyTZZH5neYE52kJ27xhUchTlqV
-NXLg+B4+mSCv7L7ogsMaAyqJKbgKlJNn1HuBfl7vgZI/kje2xmbW300YtbGAmj6T
-d+HFpPYqoMUD24v2Kf001Fz+lrwVtluxPa44J9loooq3jwW+n4l9qd2HRBAeu2dB
-IA+pBEKl4GDk5HwGmsD4ASq1T1MjdgSHUwtzhH++BPJMMOnVSksom+vLdVHA1uDn
-IAOxBveYSBFzFp+WYw6lNwRWCSdyFBQ+ndvzzLjKmStBZ+e5Hjn4kJP9U3gyeLgx
-+ONyzp5FIv23LJfBUpxv//2j
-=lAEu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmST+SYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sXkP/ijnbJ+IBCSo4Z0VTzEV
+daPRtJffVmvncbXDtN7SBFpPYaMSOf8p5rW/7jETBJLKiJhiJgq7htSbwVGXgprm
+70RgGRdkVX83napJNTJ0Uz7NLj5YRZBwvUIDFA5vl1CWpU/w/xeUUKe951Js6NLG
+jzqhp9OVWdzOjgOWhYwbQ79ydk2rh7dDpoJYZa8QU7vGDLvMtpfFg02y8Gx9Qc21
+qIdh5CXYZu74O/KhRT58VUAxhyqOgCimdeKfBjXqsEF1Bms0n+J9fp7ViwiIQghh
+vcU6jLmH1GuHO/fB/Pfs/P05xtrbl7sQsH+XuTrzJMCmwy+k7NETe2+ZR1libXjY
+9I898+Zq4LXLC1T8+HKS7G5Bcw4kcMkGcphRLVEmSKk/E+auc26ln+fDerOsORvL
+JyXaanfXWHmAEI0zRFx0jxA9/0auB1eBLYfeYizbCAk/FQ3ZynzYZawraGzmmfoa
+RFtiW/NCBxwhOcnfragkjEy1IMZgG8hNvmfGaDa9ML0xHMytgmxrC1vCkFeGH9pS
+eiDraoZiQME8llbxvXxI8SMsW9BB0din8LWJHSddKknW6u0GLJvMsffHjtMQIrKR
+ZR+XVRPqqiQrxtpXsN5gQZeSMh/4smCDIudj0Is05mKYi6TK8J2220CX4KQRdiYg
+LBpI/wBhyfBhdSsc5/TY5B0V
+=hKmf
 -----END PGP SIGNATURE-----
 
---===============8164537212468327422==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e660abd551f1-dad9774deaf1.txt
-
-9d7054fb3ac2e8d252aae1268f20623f244e644f spi: spi-geni-qcom: correctly handle -EPROBE_DEFER from dma_request_chan()
-13bb06f8dd42071cb9a49f6e21099eea05d4b856 tick/common: Align tick period during sched_timer setup
-7257d930aadcd62d1c7971ab14f3b1126356abdc regulator: pca9450: Fix LDO3OUT and LDO4OUT MASK
-54abe19e00cfcc5a72773d15cd00ed19ab763439 writeback: fix dereferencing NULL mapping->host on writeback_page_template
-77795f900e2a07c1cbedc375789aefb43843b6c2 mm/mprotect: fix do_mprotect_pkey() limit check
-95a301eefa82057571207edd06ea36218985a75e mm/vmalloc: do not output a spurious warning when huge vmalloc() fails
-935d44acf621aa0688fef8312dec3e5940f38f4e memfd: check for non-NULL file_seals in memfd_create() syscall
-c8a8f3b4a95ace7683b615ad9c9aa0eac59013ae mm/khugepaged: fix iteration in collapse_file
-b7cb3821905b79b6ed474fd5ba34d1e187649139 udmabuf: revert 'Add support for mapping hugepages (v4)'
-2049a7d0cbc6ac8e370e836ed68597be04a7dc49 scripts: fix the gfp flags header path in gfp-translate
-6a59cb5158bff13b80f116305155fbe4967a5010 scripts/gdb: fix SB_* constants parsing
-679bd7ebdd315bf457a4740b306ae99f1d0a403d nilfs2: fix buffer corruption due to concurrent device reads
-47a7c01c3efc6581f5dcca40928baeb38e1e40c2 Revert "mm: shrinkers: convert shrinker_rwsem to mutex"
-07252b0f97150b03050f74f42250f275566d70b9 Revert "mm: vmscan: remove shrinker_rwsem from synchronize_shrinkers()"
-c534f7cca6b9b1c0dc97d6e9c5587858d4330cd9 Revert "mm: vmscan: hold write lock to reparent shrinker nr_deferred"
-1a554ecc971406e291cea867112f7f2e377e810e Revert "mm: shrinkers: make count and scan in shrinker debugfs lockless"
-d6ecbcd70fffcffe79d45f3be7b8fcf5d8e04a3d Revert "mm: vmscan: add shrinker_srcu_generation"
-7cee3603192a198b23c034a7372b599081cbee88 Revert "mm: vmscan: make memcg slab shrink lockless"
-71c3ad65fabec9620d3f548b2da948c79c7ad9d5 Revert "mm: vmscan: make global slab shrink lockless"
-782e53d0c14420858dbf0f8f797973c150d3b6d7 nilfs2: prevent general protection fault in nilfs_clear_dirty_page()
-823b37e8a7104ca2bcf1945be77f33d4d5740f55 mailmap: add entries for Ben Dooks
-0518dbe97fe629fea255318841cf3ef1b4532d66 selftests/mm: fix cross compilation with LLVM
-c8e796895e2310b6130e7577248da1d771431a77 regmap: spi-avmm: Fix regmap_bus max_raw_write
-8ba90f5cc71701aa262f222effead02206b04227 Merge tag 'mm-hotfixes-stable-2023-06-20-12-31' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-afd384f0dbea2229fd11159efb86a5b41051c4a9 Revert "virtio-blk: support completion batching for the IRQ path"
-e075d681a27eea6e3722749dda10cf3c4ddfc9fc Merge tag 'regmap-fix-v6.4-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-6e6fb54de1ef34fd20a0bdd99ce72a657814391b Merge tag 'regulator-fix-v6.4-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-2214170caabbff673935eb046a7edf4621213931 Merge tag 'spi-fix-v6.4-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-69cbeb61ff9093a9155cb19a36d633033f71093a Revert "efi: random: refresh non-volatile random seed when RNG is initialized"
-007034977130b49b618a5206aad54f634d9f169c Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-dad9774deaf1cf8e8f7483310dfb2690310193d2 Merge tag 'timers-urgent-2023-06-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-
---===============8164537212468327422==--
+--===============4533540677527598853==--
