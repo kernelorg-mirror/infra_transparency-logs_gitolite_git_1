@@ -1,116 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============0642108547576801346=="
+Content-Type: multipart/mixed; boundary="===============9024068798925947163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 22 Jun 2023 10:11:14 -0000
-Message-Id: <168742867414.6252.16232099459536299921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Thu, 22 Jun 2023 10:35:11 -0000
+Message-Id: <168743011136.22209.7563910382126341605@gitolite.kernel.org>
 
---===============0642108547576801346==
+--===============9024068798925947163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/mgctime-next
-    old: bd7c3134424fa9b6989ec44fcab8019ba2d72495
-    new: 154d68715278864ebe582de85bd53efc328a429e
-    log: revlist-bd7c3134424f-154d68715278.txt
+  - ref: refs/heads/devel
+    old: 82d0b8ca25afa3b0c52f84c0dd32e935d06b1148
+    new: 48bbb2920f04e3004c9ea9bce4ea600d9c17c599
+    log: revlist-82d0b8ca25af-48bbb2920f04.txt
 
---===============0642108547576801346==
+--===============9024068798925947163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd7c3134424f-154d68715278.txt
+Content-Disposition: attachment; filename=revlist-82d0b8ca25af-48bbb2920f04.txt
 
-2cc2eae835bd584773ab16c14467169216e49954 spufs: switch to new ctime accessors
-9dc195792dd670397aca7e158131fd42bbd899c7 s390: switch to new ctime accessors
-6d5c917f10993460d422223bab1a109d98c4859c binderfs: switch to new ctime accessors
-e350718e76acd44684ccc2e1520a24081bc27d9c qib_fs: switch to new ctime accessors
-373b0e8b2b47d8ee8aace7526a1e0ded6b56e948 ibm: switch to new ctime accessors
-c123ba2e583f32ff11a8a86f49b0cd5bb59d7286 usb: switch to new ctime accessors
-c87ee3f5878718ba07f355b8d2a1c818069943c2 9p: switch to new ctime accessors
-b28882ccd5be7f347bdac1641810cb2b4cfd6a87 adfs: switch to new ctime accessors
-d56b11cfbb459464d046a77908c1243f08b0ac67 affs: switch to new ctime accessors
-a01ef218db9c06fb31fcb0df6af3912815b114ae afs: switch to new ctime accessors
-927ef4ae5e1e2c1c7fb2096dedce71fa3629ecd3 fs: switch to new ctime accessors
-ec6c345062fc9944ac283ac103e6cd7f62808e32 autofs: switch to new ctime accessors
-9b12a221d57fe0717b7ab2426be3426226dda396 befs: switch to new ctime accessors
-6388ed6dc73696f6cc161a6a03d7de4e7c2132cb bfs: switch to new ctime accessors
-3dc2efca1c3496b5a380d11d4cce1a2878fcb6e4 btrfs: switch to new ctime accessors
-89141e877ffd40391357d41e781099943610b869 ceph: switch to new ctime accessors
-0a46145032bb8d67f740b4272d968b4cce588337 coda: switch to new ctime accessors
-96c857b6678fda0de45347c88b008e45bad526b8 configfs: switch to new ctime accessors
-42bb505ed487bf073c8e464a33d26323c13b300c cramfs: switch to new ctime accessors
-18f54f49aa4c61c932cb2deaee2b4ad42ac10435 debugfs: switch to new ctime accessors
-10c96ae0a5e0e430218c6c7f874f973f2aa80de4 devpts: switch to new ctime accessors
-27707cb7c7f8b7992d7aff038f559286003c9f44 ecryptfs: switch to new ctime accessors
-b49eeb0516a96965409f652f9166622acf9fb336 efivarfs: switch to new ctime accessors
-fe09ba4b8853338bc9d46c3dc43c39779c6eb2fb efs: switch to new ctime accessors
-a0bfbf11599a34f4ee69f03534d78534ab1874e3 erofs: switch to new ctime accessors
-bb15033b5adf7e1895ce9608347f759345cafd02 exfat: switch to new ctime accessors
-c2b25e69e63bc4d07dcc0247d03c681dcdbeb1a6 ext2: switch to new ctime accessors
-f661f11d102d316822d6de35fe63050ca41d5ad0 ext4: switch to new ctime accessors
-341362b26cd78da599a21ca45c5747f7f195458b f2fs: switch to new ctime accessors
-080a45578301b8ab15e71b5674dd1048320a3896 fat: switch to new ctime accessors
-0a248b92b6fa54aff4f4b25dc64320424bdc61cb freevxfs: switch to new ctime accessors
-204fea86488558b0531e66dd640ba047c4df50be fuse: switch to new ctime accessors
-f85830742a2e1be58c3ae3a566f03425079a7859 gfs2: switch to new ctime accessors
-574e7e42b4d72deebb0485908454cdf6c5b5b64e hfs: switch to new ctime accessors
-f8b5dcb9dad88a1e71499bd511904c6766258860 hfsplus: switch to new ctime accessors
-06cfd1a2be01da5fa34f1204fd74f75b13c3fd46 hostfs: switch to new ctime accessors
-f7cfa1d2bd645f91c52ea82ebe0af3afa4157e4e hpfs: switch to new ctime accessors
-a8d62dbedd6035f8baf5fd872814b925b9e69e6b hugetlbfs: switch to new ctime accessors
-33ab518c77bddac99e52b24ce4ec0b1cc35904f6 isofs: switch to new ctime accessors
-f9fa4d848ba009fe8ea6004801b07222bedb7f01 jffs2: switch to new ctime accessors
-14c7d7f58b705c6e9052e3e418bf99920c1e1d52 jfs: switch to new ctime accessors
-7147c2ba2f1bd9703454acd1130985130c12a312 kernfs: switch to new ctime accessors
-25f00dd83602693472a20019c44b98eb70891806 minix: switch to new ctime accessors
-3c31ada110e4e43de27ff69764d94b56edecd31c nfs: switch to new ctime accessors
-e20597af638d66b07aff80f394a608b57ea3b25e nfsd: switch to new ctime accessors
-efa46c593e5a1d0e7ddd8c203531567e868e837b nilfs2: switch to new ctime accessors
-cd622570584a00c9406ecac78b0010cd9b2b2b77 ntfs: switch to new ctime accessors
-5fa0b70b99d834871a710bf5d7b870417f0db3f1 ntfs3: switch to new ctime accessors
-3e860566cbbf6c902cebd4d4da15806a2f8993a7 ocfs2: switch to new ctime accessors
-a66c822e7cdb23b3c6eb486d04f853ecf3feacc1 omfs: switch to new ctime accessors
-15d7f00e0504133e8a33bf82b2300da452ed4a61 openpromfs: switch to new ctime accessors
-34f09ef3c53520dc8faf727e0f5c6932c8352f53 orangefs: switch to new ctime accessors
-020aab299d7b2e63a837d70393d43091392218ed overlayfs: switch to new ctime accessors
-2fb01a533739dfa80be59cac464c80ccb8b78c8f proc: switch to new ctime accessors
-22a6ff9ccbc968e18d45cce01fb87b46d6be2a3e pstore: switch to new ctime accessors
-4d3c084e12d6efd2d23c4ad60b7b1c3cedf9d602 qnx4: switch to new ctime accessors
-febf9c88173e868bc4455f24113252da04443ea8 qnx6: switch to new ctime accessors
-d29b7927ac80739dbe112eb431f03cbd0c4ada9c ramfs: switch to new ctime accessors
-154808155e257cdbc43c99122ee5b59f16cf4f8c reiserfs: switch to new ctime accessors
-ec506cbc99657fe09ec245b9a5cfcb6d686ba1d2 romfs: switch to new ctime accessors
-b435124ffb099549961b02383c725e6614dd4c71 smb: switch to new ctime accessors
-20c36317df5add44031b75fc1f4bd50d0e982f2a squashfs: switch to new ctime accessors
-0466c031c0e26f2ae5bc0e934c514ba6cf12c480 sysv: switch to new ctime accessors
-217b096c3dd2c618ccdccf0befa626b5a4c1dcac tracefs: switch to new ctime accessors
-089d78cc7aef6740d1ae1d61454065c44e6536d9 ubifs: switch to new ctime accessors
-7f148800a3366795dad230a01d13feecf91229a0 udf: switch to new ctime accessors
-f89ad97fc049a9645843682edb7cc6dafa3248eb ufs: switch to new ctime accessors
-f46ca84611f2aee0fb8d91f8ab166b2ba745ffea vboxsf: switch to new ctime accessors
-cabbd47113ca0188de6338c9fc12d903f1ee0cf5 xfs: switch to new ctime accessors
-9c36c8dd9bd3751d6e2f577c445bdae1adae0e18 zonefs: switch to new ctime accessors
-bf9073c52c2ee3da100aa0b269ccfc96c8885bc2 mqueue: switch to new ctime accessors
-f9a2199c0df8bc8bc88a08ba89c2497736c30b13 bpf: switch to new ctime accessors
-536bc7c3efe40a758ff0ded676cf44a35dcaee0e shmem: switch to new ctime accessors
-353cabc414425769e09e7f3feea5b598eb1bf51d rpc_pipefs: switch to new ctime accessors
-fa023b062883a2c463cf73e5a160889e2c9a5b2d apparmor: switch to new ctime accessors
-a35a10dfa85e518ee22d446b5afc12d350a8dfa6 security: switch to new ctime accessors
-33e563f71f627620e65af875727a62745fef4a91 selinux: switch to new ctime accessors
-a136f7de73c4b0aaeaa3927d2d862c9e20104917 fs: rename i_ctime field to __i_ctime
-44a593a9622e907357c360c2c0f3fcb918e59d61 fs: pass the request_mask to generic_fillattr
-c0e595e33e8ca3d31caf5ce984f850f1d0ef2205 fs: add infrastructure for multigrain inode i_m/ctime
-c8ca96fc873f7f9b6f35a3f1574f5e45ac0414e2 tmpfs: add support for multigrain timestamps
-e35139753412bab008234154926614aa45368a7b xfs: switch to multigrain timestamps
-50f59103fa40d050c25a2ffbf0db8979db543389 ext4: convert to multigrain timestamps
-818608f91372dde953dc5f2ac4a63964df588397 btrfs: convert to multigrain timestamps
-fb5053beb000d71ad3bd20122bd20275c9eb0de4 f2fs: convert to multigrain timestamps
-154d68715278864ebe582de85bd53efc328a429e gfs2: convert to multigrain timestamps
+b559f69a498870354592610826bf29de390c4164 drm/amdgpu/sdma4: set align mask to 255
+28b9656ff728b21d2e79b004c0b3f7cfbb8f4077 tty_audit: use TASK_COMM_LEN for task comm
+f65ca248b55e1a6f2fcc5318a36511197ed0d66c tty_audit: use kzalloc() in tty_audit_buf_alloc()
+d363278404412c787522c9c61a871753ee952d28 tty_audit: invert the condition in tty_audit_log()
+f9807f7a13f62a727bc739874ab6e9c6c08d0e31 tty_audit: make icanon a bool
+66d2bb760a99d7b37d696ae4d166cbd25e3a81f5 tty_audit: make tty pointers in exposed functions const
+ee118673763ec658fd6b50f60c841774e61e7ed6 tty_audit: make data of tty_audit_log() const
+cc0a622e51eefc96cf315284d3f95845435c81f4 n_tty: drop fp from n_tty_receive_buf_real_raw()
+fd5e7c6afe17545773372463c715c25c807fb996 n_tty: simplify and sanitize zero_buffer()
+1e20d920b09796313c25da994e0e9e5b4e097fac n_tty: pass ldata to canon_skip_eof() directly
+d8c21839f0d3322facd1080af8927ea7e09682e8 n_tty: make many tty parameters const
+681e36f91e26c39526911441fb031adf4bdd6d2f ACPI: video: Add backlight=native DMI quirk for Lenovo Ideapad Z470
+e83c70b524081ff85aa6d4c9c235dfe78c3125e7 drm/i915/display: fix randconfig build -- NACK
+a4c30b31fdd60e9f415adb635c4146a987240b43 MAINTAINERS: add static_call_inline.c to STATIC BRANCH/CALL
+21f81fc4bfb46602fcc0dee2b614ac0af8747f25 perf: remove shebang from scripts/{perl,python}/*.{pl,py}
+38a02f61f50e581e7a0f917fe6ab574c6c0f181f tty: sysrq: rename and re-type i in sysrq_handle_loglevel()
+f3c295b007d9f94d3679b6fb049eda1300e89096 tty: sysrq: switch sysrq handlers from int to u8
+14824ec51768eb23a52bfb9c91981cad30173ea7 tty: sysrq: switch the rest of keys to u8
+c961e45d5bd8379fb3c3b1d1720eef27899c8ba8 tty: sysrq: use switch in sysrq_key_table_key2index()
+e8f5acbde94d5f8336bc3940be3f385172d3b98c serial: convert uart sysrq handling to u8
+4d452b7101d5c1df0477776fdc0ad38d3e4034a5 serial: make strlen of sysrq_toggle_seq[] a global constant
+a3f4ff338a89b280a7932f246447bd2245664806 serial: make uart_insert_char() accept u8s
+27a7f4da6c822d0138cf717b5e662286a0799e34 tty: make tty_port_client_operations operate with u8
+4baa71c0adacf9f94fa2bdfd13e67f9302e57ddf tty: make tty_port_client_operations::receive_buf's count uint
+57679800cd1322b451f35ad59718995b56794bda tty: switch receive_buf() counts to unsigned int
+14c271f602b7fd940821ab6316a7dd8bcf81cbed tty: switch count in tty_ldisc_receive_buf() to unsigned
+3c6df35cb65bfc3145e9abd00b4cbfcb021afc8d tty: make tty_ldisc_ops::receive_buf*() operate on unsigned count
+d242be8a411cbb1b4768deb99df3642bd5a4440b tty: use u8 for chars
+e4e0dd8652cc6fe65ac70c732ee79060c6e77d6a tty: use u8 for flags
+cda3362dd75d241df237ed0a431be151cf5c5d21 serial: core: pass state to __uart_start() directly
+47385fd38f7a02439c7ea2deb330fd6b8ed22600 serial: arc_uart: simplify flags handling in arc_serial_rx_chars()
+fdf203593f8ed55d4112c9e5b39f1158c54eabd8 serial: omap-serial: remove flag from serial_omap_rdi()
+575d75c6293d058de2f8d754cb0be124382aa79a serial: drivers: switch ch and flag to u8
+c9f1279192e3f9d0d5f01e5328bae14fe8ea73aa BRANCH_MARKER: submit
+7c7e40b466d9c4ff79bd7988d2a785b7125d70b0 mxser: less tty, more termios
+a57cc7998e06597481e645f13341a809fa49c594 mxser: add to_mport helper
+e70e6d504b6acc0fa47cf7b3c38dd6c8fb5d3f03 mxser: use lock from uart_port
+af0564c5e5995efa533f3fb24d22a9d941776a6c mxser: use iobase from uart_port
+b5b9d11f85d6bb7f298550c450b86cbba788f8a6 mxser: use type from uart_port
+e203893812bf8867f660cdaa776b8233744cdaeb mxser: use x_char from uart_port
+ad9f0ff6c8e1b2e76ae5de532b5a3ea13888968e mxser: use icount from uart_port
+c26d09fe5e5ac448f5028b01efaa55d904a72432 mxser: use timeout from uart_port
+be274e318730c335f1dcd9c4fb95ec833892aa88 mxser: use status masks from uart_port
+40d957cea091595151c9c0478b390e55ddbe0e8b mxser: use fifosize from uart_port
+1b2909a7132d83ac34b3de794c452c01b8f89a51 mxser: use hw_stopped from uart_port
+8a8aa5d6a7b93864937dd3c6c36fa0372a26d91d mxser: switch to uart_driver
+9a4f6fffa271d80e379639a8471bbe1821235819 tty: 8250_dma, use dmaengine_prep_slave_sg
+f9ad56af5e8fdf8ce3e9ad6f189be2e43ca96149 tty: 8250_omap, use dmaengine_prep_slave_sg
+f7a6671070b329bea78e4623ee18b197d8431d5b kfifo updates (_r UNFINISHED)
+341e64b1e346541d7685bc3add5250e6254ae9be tty: serial, use kfifo
+665448b8c57b4244acef820b9fe9b6e6cbe2b176 kfifo tester
+8907eb5675ee77e400e373f9f0e8f862f7d7bc6f can: slcan: fix freed work crash
+1e8574676cd34dd6c039e5c16062e1e99785d2d4 tty: saner types in iterate_tty_read() size+copied UNFINISHED
+a581435c8197754a84e11b3e1fb3b22b188aa76e doc: add console.h
+92d9b6ec1e57e5398c3ac264db8ed99cea3c32ac vgacon: remove unneeded forward declarations
+b20d0b680fe0dc97e908fc40a6b5d65ff32388f9 vgacon: remove unused xpos from vgacon_set_cursor_size()
+40d70b6615c39d3dfb14e1eaddc6f08df2e3c588 vgacon: let vgacon_doresize() return void
+f0e144cabc730c149c3ab66a435d98d46aa1e96a tty: make check_tty_count() void
+8e47a48e05a5061cb8ea3110aa37334f4b324a6e sticon: make sticon_set_def_font() void and remove op parameter
+d2c17b0f9f0d268a5bfe8b524b5b5ccb52198f3a fbcon: remove unused display (p) from fbcon_redraw()
+6754c3c6d39b163a548fe10f6f4834c3347c71b5 vgacon: use if instead of switch-case for vgacon_cursor()
+32f7c4ffe86f5f440739e32b72a7e67d55d3d1bf vgacon: cache vc_cell_height in vgacon_cursor()
+32a596fc4d5814c5d6dc0761e4a2844921462278 newport_con: use if instead of switch-case for newport_cursor()
+91813294a0a85ec0f50de83a394777fd408bd567 console: remove CM_* constants
+ebfafd873459051b2701567170a01c42ce1193bb console: make init of con_init a bool
+b9de4df2ae7c019e7a3b4771ddec403a6e51739c consw: document the rest
+e674d835486565865b61568e29f14a8be38631e4 console: remove checks for height and width in consw::con_clear
+025e81ee499aadd0f307e22cf5546ec236a7482d console: remove height from consw::con_clear()
+9cf90e91a0030f745aa2beef194294b0247a1f31 console: check for count
+a2793dff0e5816398e4cecf63b341260c19c6e77 x86: Make IA32_EMULATION boot time configurable
+9535194f3a5e2d01683beed40c265bf2f26d31a1 x86/entry: Rename ignore_sysret
+5630517baf02dc624f099817331f5ae67f4dacc5 x86/entry: Compile entry_SYSCALL32_ignore unconditionally
+78c7c317bf3096a64d174b8f11ebc752fe1c8441 x86/elf: Make loading of 32bit processes depend on ia32_enabled()
+5db1983d7e2d42678ee183d481f3ca45236cd85a x86/entry: Make IA32 syscalls' availability depend on ia32_enabled()
+48bbb2920f04e3004c9ea9bce4ea600d9c17c599 BRANCH_MARKER: work
 
---===============0642108547576801346==--
+--===============9024068798925947163==--
