@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1450237670477243953=="
+Content-Type: multipart/mixed; boundary="===============6283833581878443693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 22 Jun 2023 08:12:53 -0000
-Message-Id: <168742157376.2656.2336887660442404518@gitolite.kernel.org>
+Date: Thu, 22 Jun 2023 08:12:55 -0000
+Message-Id: <168742157518.2722.10146247245500958975@gitolite.kernel.org>
 
---===============1450237670477243953==
+--===============6283833581878443693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,83 +16,97 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: e84a4e368abe42cf359fe237f0238820859d5044
-    new: 639ecee7e0d33f1aaef3207acc700222a1b8d5f1
-    log: revlist-e84a4e368abe-639ecee7e0d3.txt
+  - ref: refs/heads/linux-6.3.y
+    old: 00d3ac724541a0661b148b16cf34fac135a4fd53
+    new: 75add2038dd3772d64064e6ad428df9bf4ef56f0
+    log: revlist-00d3ac724541-75add2038dd3.txt
 
---===============1450237670477243953==
+--===============6283833581878443693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687421572 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687421573 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1687421571-0627d0e9286f4ced6b0c16ce2794d5b6c2003586
+nonce 1687421573-e02a509789709e3f099de0d05917eb188745135c
 
-e84a4e368abe42cf359fe237f0238820859d5044 639ecee7e0d33f1aaef3207acc700222a1b8d5f1 refs/heads/linux-6.1.y
+00d3ac724541a0661b148b16cf34fac135a4fd53 75add2038dd3772d64064e6ad428df9bf4ef56f0 refs/heads/linux-6.3.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSUAoQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xzgP/jZotjiCKruQ84fZkXu1
-M6/aVT1e27Hn/1pZlfo1MjXZh6Yc75He7Sblg+kBFBr2SOh2FX0EpjoikC9BrIRi
-YAATj0SDZVtfXH37+4Pn1UDeHxQK/l8LCethT34CHfBMyfAKdsUpo97CsC8Wrsgt
-FQD+R76AkqjFKuqLW41SkTisHYOTq1da/8J6wiEPHDJpDcZwgvcT+8TgbIDE/wky
-dl9QyiKkBXvzx3/dRMZ1yaUZZ739byJ+0VUUNvyPzTM+8QqOtzf9JU1JJtGbYwgx
-/QPPlNiBPDpltsDZA0AkQ+dUIMnDNoxc/qsIQnCe+wxreYcIyui3oXdvt5R5waeG
-loN9gXkCE2/t3+q+I3L4lYw8NymFD3O/jdAKHxigWumsDOl26cjajB4hkHV7FlX6
-lpBlOS81QMrxTYLXlddBc3x1fdClrDRIGCbdCDph18kXWQx5SvD5V8b32thTdq1g
-bktfr3PYJs1u9BiDk5uv7ZQffLfB/QY5N0WctZx0oMVlIByw24Snk5lde4EwNI0I
-9j3JXEJty+5eOSg9CjwwpvnWPBhRFe+idPJLI1DziAVbxNUvqtrBNt10Za1QYO2a
-w2CHaq6T/lLYI1PSMNefcyKxjJ1JfcfX8J1Gawjrzwr0+X+GAOYrFmi6QqOildP6
-QSn20NYgHfizvbuUlvIzHh4P
-=gYZH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSUAoUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bJ8P/RQH5/LPBQYs8mn+fCzg
+Bkgw63izdus7Aqed1DYbYR4Uc5pX//mC3cjfEfzBTyEODOBApDtijMCJnLMaSqNp
+1oEBGIS/dMC9jXiT8EkK4g+c6UpL1VV1FyqRfOuQNBZ1m3ehGmp1xAZqheUKx3Wy
+ua8i3IXEMnyaTsl0reLuD9AndqTRygpn3sMox4ku2jkHPy0/RBstID7zyRJHcmab
+Jc/H8sbze2F3l27aZDdsg6mM2VB6hkHtrfrmnWGzpWBiRQJQIBGMhbkGN6ZitbOl
+XXF9qzb8V4YHbCL1y3yZLTRAUsiVUTCOCBWNoZqffcJcowqhwksjz7UGWrBMPRfe
+phxy1tnmt65WBoBEvG951/hGY+w24ddbxePy+O+vr4Bf7+4EhaLeGDFVdWCC81X4
+h4ZTViuSRwjXYXGY+rqZMSWoOmt5/jUwWZpwcwSy2rkh8bNc0IhPAbruggABjkvL
+B4a3zVnkzmR6BIWZ6n3U7f322zGFb7CICWWG+F6Lqg+FJlf42Ablg4E9MxRrVJe9
+2+pDmk/pFxNlMK2+iYsE2pyf4axQKWNDg5MKD9wxgPj8Djoe5RFfP/aFYT0ZNbxl
+x6eqoJ3gUfWnMpWfTleFItSJjlhsqXdWSW0J6+VR/yQU1J+NQRPHoa1ifkUGoW/J
+u/aNtooatcsJ7LSJhwpTd3uJ
+=PG+s
 -----END PGP SIGNATURE-----
 
---===============1450237670477243953==
+--===============6283833581878443693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e84a4e368abe-639ecee7e0d3.txt
+Content-Disposition: attachment; filename=revlist-00d3ac724541-75add2038dd3.txt
 
-da1f713590f82ab1e51479eaf01b8618bd4a8db4 drm/amd/display: Use dc_update_planes_and_stream
-c7168a4158315d2a7c91d62e81043d07c6bb60b9 drm/amd/display: Add wrapper to call planes and stream update
-e9153d50cb7dbcb4bc81063d8346de6eefa2603d drm/amd/display: fix the system hang while disable PSR
-d5b7944f087d668ac722b777f420182699acac33 tty: serial: fsl_lpuart: make rx_watermark configurable for different platforms
-a497f1e0d77889dc7f004f21d8f3f5feb5706d29 tty: serial: fsl_lpuart: reduce RX watermark to 0 on LS1028A
-208b64eb7e52d7d140d4ac60bb66fbb5f5ae8d22 ata: libata-scsi: Avoid deadlock on rescan after device resume
-0445c2ae4196209d25fd7c49329f6408a2a8f2c6 mm: Fix copy_from_user_nofault().
-92caa4f718bb50cc3e7f0f54e0edb030d0d51088 tpm, tpm_tis: Claim locality in interrupt handler
-1d3d2ef6512930e7431db586a336049ca1df0879 tpm_crb: Add support for CRB devices based on Pluton
-b20d022f9a7eeb92e5a91c14926e8859ed0fce8d ksmbd: validate command payload size
-7b97659bf079704199273f9772b34a3e03145c65 ksmbd: fix out-of-bound read in smb2_write
-8c8fb2bd2a58031be288f252c3b9fba1a4bfb19c ksmbd: validate session id and tree id in the compound request
-be3a24dc02a9a1d712c09793889cd4f78bd6263e tick/common: Align tick period during sched_timer setup
-04461e0d1f7822cd0895c2d71adeac5f01475071 selftests: mptcp: remove duplicated entries in usage
-976f811c34738abbf4d46151024b8e5325d86de9 selftests: mptcp: join: fix ShellCheck warnings
-ce12e31622fb1f52011fdbe82a97e735a63705f7 selftests: mptcp: lib: skip if missing symbol
-55b3822f4d669e92983b42c8408f57e6e9bab4aa selftests: mptcp: connect: skip transp tests if not supported
-1c3c7e693018726284174cfb714d3d213033c884 selftests: mptcp: connect: skip disconnect tests if not supported
-4fb3f791d41e59c31b18293d97cfdc492e03cc1a selftests: mptcp: pm nl: remove hardcoded default limits
-778bdf5acd410bad39eb9b66103f709a28e4490c selftests: mptcp: pm nl: skip fullmesh flag checks if not supported
-c8fa74f578cb531dcb12c964778264a78beb8869 selftests: mptcp: sockopt: relax expected returned size
-e99e0462756a2ed3cafdb6eda4d06eb6d5e9aaaa selftests: mptcp: sockopt: skip getsockopt checks if not supported
-dafc7759a7bc20746d2eab0bea24b1ef95b98daf selftests: mptcp: userspace pm: skip if 'ip' tool is unavailable
-f4e79b6ff3adc71057f85f988bf2b5c8a7db0627 selftests: mptcp: userspace pm: skip if not supported
-1ca099481f0472e93410a6940b80ad00fba079df selftests: mptcp: lib: skip if not below kernel version
-6ea15887a332e7ef7f6e43c81a69fa121fce0999 selftests: mptcp: join: use 'iptables-legacy' if available
-3ba7c76f63779beb2ae19a3182d0bb88d2e930d1 selftests: mptcp: join: helpers to skip tests
-383b81569f732522ffb22d998873a5118e63404e selftests: mptcp: join: skip check if MIB counter not supported
-24a6a8868e3ceb0f7be0e45a95816e994f6560de selftests: mptcp: join: support local endpoint being tracked or not
-c6b2daac027162535c5559c99a17395e2f0fa54d selftests: mptcp: join: skip Fastclose tests if not supported
-89f9fde8bbe868fde461d00cfd1dbaaa92abbb99 selftests: mptcp: join: support RM_ADDR for used endpoints or not
-9d28ec9a8b7ca02031e9db94964f2447c69ae4f9 selftests: mptcp: join: skip implicit tests if not supported
-ce57f1c1d3fd0a7e1c5c5a37efa8fe2bd364176b selftests: mptcp: join: skip backup if set flag on ID not supported
-227c838185fa1e583f77ca933c1059074b477785 selftests: mptcp: join: skip fullmesh flag tests if not supported
-3dba7f1c93fe7c8096f5f3515b64a36d4a25c87c selftests: mptcp: join: skip MPC backups tests if not supported
-75b84b29018531da7e7f57fe0d03400cb354539d selftests/mount_setattr: fix redefine struct mount_attr build error
-639ecee7e0d33f1aaef3207acc700222a1b8d5f1 Linux 6.1.36-rc1
+40667818c0b8d848d127669a86746f9411747607 cifs: fix status checks in cifs_tree_connect
+5f02ae698ae6242ea7cbb4478dd7575e095cd8b8 drm/amd/display: Use dc_update_planes_and_stream
+cc74616d1295a895552328152099b8d09dc7bff8 drm/amd/display: Add wrapper to call planes and stream update
+fe08ea396c536e12390cfc845462a760f40777ee drm/amd/display: fix the system hang while disable PSR
+520753d0c210047a9c8b0b28a03394524603d70a ata: libata-scsi: Avoid deadlock on rescan after device resume
+724a55e04c330819f509e6f4c460411f26a610e1 mm: Fix copy_from_user_nofault().
+31aa5914b5b07914a05d37e2689d4a0a45088d3e tpm, tpm_tis: Claim locality in interrupt handler
+e487b6c581255c6128acc7e774129cb4bc4d0496 ksmbd: validate command payload size
+9911b94114313756126340749ddfb86cfbcfd3c8 ksmbd: fix out-of-bound read in smb2_write
+215f9f39bf4be81736f7534021147a5f1c13a6ba ksmbd: validate session id and tree id in the compound request
+46e70d0c5c333a5880188569b6a7084fa7a01c09 udmabuf: revert 'Add support for mapping hugepages (v4)'
+74aa8753ee5a6447b039fce7f1e9fcde17bc4ebd Revert "efi: random: refresh non-volatile random seed when RNG is initialized"
+7ae8b0134c1ad514cd8be788d703bf078f9d600f afs: Fix dangling folio ref counts in writeback
+d912146f89bc9bbbedd7a1c012534cd938e5750b afs: Fix waiting for writeback then skipping folio
+d991c23558b89f4eefd64fa332d793d549744de9 tick/common: Align tick period during sched_timer setup
+063f97d215929395b37d8381760e259877e0482b Revert "virtio-blk: support completion batching for the IRQ path"
+86ee32bc1319469e03d8ad5622566962eae626a9 riscv: Link with '-z norelro'
+6415a949d59fc108789f4b0a17a2953dc7f3f225 selftests: mptcp: remove duplicated entries in usage
+ca4fc7ed54d3dc49abee00d3336e27c6ea11a857 selftests: mptcp: join: fix ShellCheck warnings
+2a44b9d87c9330f385ec6aa56fb161e9e2001229 selftests: mptcp: lib: skip if missing symbol
+6fe6f9f4b13985469960a33524c87671727bbc40 selftests: mptcp: connect: skip transp tests if not supported
+42f8143f326d546829a3a2d6155e224f6200b3d1 selftests: mptcp: connect: skip disconnect tests if not supported
+49c348619ed385822928fa117243915f52a681ac selftests: mptcp: connect: skip TFO tests if not supported
+d0056f809bca3c11412aad72627652abc4ea74ab selftests: mptcp: diag: skip listen tests if not supported
+b268b26f5c8eba1ed1829560101f6bdd3a654549 selftests: mptcp: diag: skip inuse tests if not supported
+c3b0caa5b50344c79a4aeef5d780e5b0c1b07bba selftests: mptcp: pm nl: remove hardcoded default limits
+7592bc3002c9bc0640742d824daf8be1e2178246 selftests: mptcp: pm nl: skip fullmesh flag checks if not supported
+082be27f7ba116711ea54f4754013fc8592701a8 selftests: mptcp: sockopt: relax expected returned size
+ccc51f4bc4c7148c8cba678143e455d91892e509 selftests: mptcp: sockopt: skip getsockopt checks if not supported
+071efbffb020d863666bd425527b0fe3cad3ae3d selftests: mptcp: sockopt: skip TCP_INQ checks if not supported
+636575e2c5fe35b82616271ee5e7c3514960b99e selftests: mptcp: userspace pm: skip if 'ip' tool is unavailable
+d51bf777dc85c5752da5773469faf83b0955e8ca selftests: mptcp: userspace pm: skip if not supported
+dfba53fdc91a2645986acff65716119da45aac1d selftests: mptcp: userspace pm: skip PM listener events tests if unavailable
+0872d1b95019318dc6946955e324431fe1217e2a selftests: mptcp: lib: skip if not below kernel version
+17f465622ae94103c30f58a17e26cf0ef67067e5 selftests: mptcp: join: use 'iptables-legacy' if available
+e9b3637ffddee9d5bc310d3b9d2ec82ff8eb51c7 selftests: mptcp: join: helpers to skip tests
+46da52207819b34f2d2ee39724e2ba739369d21d selftests: mptcp: join: skip check if MIB counter not supported
+28f465558ca8a8c1d95b7372c7e3c04fb3758b5e selftests: mptcp: join: skip test if iptables/tc cmds fail
+f43a9673481b29b8988dfa9d4b0fab920562a1ea selftests: mptcp: join: support local endpoint being tracked or not
+28d2c22022f0ba3595b44eea0451759ea0193bc6 selftests: mptcp: join: skip Fastclose tests if not supported
+437d1a4a6957ae57cd4f613fb6ec0366381b1bc3 selftests: mptcp: join: support RM_ADDR for used endpoints or not
+92bea9378cf5cd316fa7c1f881e5c533f09bf49b selftests: mptcp: join: skip implicit tests if not supported
+4ef0b026a56c6a0fd398f9f47015a4010c610ea1 selftests: mptcp: join: skip backup if set flag on ID not supported
+6a0b213a9de978990e070e431226e1534ac468b6 selftests: mptcp: join: skip fullmesh flag tests if not supported
+169b997c518288ba04b4e2eaf5ebdc06a467503c selftests: mptcp: join: skip userspace PM tests if not supported
+7d633fcf459c511c774b0606ea075bd75e922771 selftests: mptcp: join: skip fail tests if not supported
+5ecc59ccf9fc0fc25e183c83def90f5aad232503 selftests: mptcp: join: skip MPC backups tests if not supported
+6a4f0bcb1290c696d53f2fc24bac15ea8780d235 selftests: mptcp: join: skip PM listener tests if not supported
+e02c792ca5f49c77c2784bdbbb273ea444832d67 selftests: mptcp: join: uniform listener tests
+7b64d6aa8650e8af1702aaeefb0ac73fd2da52eb selftests: mptcp: join: skip mixed tests if not supported
+75add2038dd3772d64064e6ad428df9bf4ef56f0 Linux 6.3.10-rc1
 
---===============1450237670477243953==--
+--===============6283833581878443693==--
