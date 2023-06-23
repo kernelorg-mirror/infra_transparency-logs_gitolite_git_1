@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4059047230374591942=="
+Content-Type: multipart/mixed; boundary="===============0059723044769997426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 23 Jun 2023 05:00:57 -0000
-Message-Id: <168749645744.10838.18414255139612653616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 23 Jun 2023 05:01:07 -0000
+Message-Id: <168749646736.11050.15800907888761139555@gitolite.kernel.org>
 
---===============4059047230374591942==
+--===============0059723044769997426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: c87d46a9e8ebd2f2c3960927b1d21687096d1109
     new: 8d2be868b42c08290509c60515865f4de24ea704
     log: revlist-c87d46a9e8eb-8d2be868b42c.txt
-  - ref: refs/tags/next-20230323
-    old: 814642c77a806d2daf77bf4c74bcd16a43316ed5
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230623
     old: 0000000000000000000000000000000000000000
     new: 914bff522eb92ad09f79ef67c48a59e230dc78be
 
---===============4059047230374591942==
+--===============0059723044769997426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -659,4 +656,4 @@ b58064c5726f2324b99d54c7e395fe6617cd96ed Merge branch 'bitmap-for-next' of https
 86353e4e074b9fbd8d173696e1a4a03e84e11281 fix up for "dm ioctl: Check dm_target_spec is sufficiently aligned"
 8d2be868b42c08290509c60515865f4de24ea704 Add linux-next specific files for 20230623
 
---===============4059047230374591942==--
+--===============0059723044769997426==--
