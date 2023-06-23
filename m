@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3994573290496044878=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 23 Jun 2023 08:31:44 -0000
-Message-Id: <168750910464.29812.9221458696956155010@gitolite.kernel.org>
-
---===============3994573290496044878==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 23 Jun 2023 08:36:51 -0000
+Message-Id: <168750941151.761.7188054488644653461@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 9ee202e69e29470e3a0a2406493538378d4e9a85
-    new: 3b7a628decfb3b385ca5169d7c415752bf40e536
+  - ref: refs/heads/probes/for-next
+    old: 362042656f7599d98ada3518d44ccb73f8776577
+    new: 53431798f4bb60d214ae1ec4a79eefdd414f577b
     log: |
-         3b7a628decfb3b385ca5169d7c415752bf40e536 comedi: make all 'class' structures const
+         cf9071dd46e72bd51c116b84fe33bf671ab3ae65 selftests/ftrace: Add new test case which adds multiple consecutive probes in a function
+         5985329c7073924afc19132456d212e1e8b57b1f selftests/ftrace: Add new test case which checks for optimized probes
+         ed5f297802fca41d88fbfa6f9c13b218e7c6f5cb tracing/probes: Fix to return NULL and keep using current argc
+         a2bd0c08a459b4cb8da57cc9c754de5e45d7a61e Documentation: Fix typo of reference file name
+         53431798f4bb60d214ae1ec4a79eefdd414f577b tracing/probes: Fix tracepoint event with $arg* to fetch correct argument
          
-
---===============3994573290496044878==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687509101 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1687509101-97f6d41ef364799502de3849628c6f4a838442dd
-
-9ee202e69e29470e3a0a2406493538378d4e9a85 3b7a628decfb3b385ca5169d7c415752bf40e536 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVWG0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L5oQAL7D/3yvJYYPM1yJ2Yce
-3VR9V3t95Ukl4t2b0YOQcT/ho2Y00Z2YDfZW01pCRH05W73qjhnN8xfWcoC60Clj
-4pbtPrSiur8uydxUT0WWMhAmlfgFxsqZNObn5j73MrtC7S2LBohfqdplmbDP1YPB
-DPg1fFOW1I9oq0YBzzIbfRr0e3lE/4LoH8kKCXQlN5xjrKbd0knDwWjvjX9gHWQu
-QecyXcbDFoETt+02dk5Dh23WyyHzVuXVtw6bADvNNgueAd0RXpATcuAZTWyKhj3t
-PcIWXf74eYSUwXWiOIjW5NcQbU4DE/o5uQqRQlp9UVkWXOcbZAINzMMwiBiCZVOJ
-sSMs0XyFraHB4O/XIeVm1n1xu0ntwsQocPEhnIQXWRX0gxgmM0B/PaoO0vVIrdzO
-KQdDA+kO1gyieEFK79qwG+WqfvVol0nEMNwTT/V5kMTak2x6x7srbQhetnk+nej1
-MS8ohtoq1HReNRv0KVapP1FtqVn3SbAWZTURyTiOP1KP/iSYKDazO09TYjGs6TDo
-E1QvCnHR2X6EJdGfS7IQQ18kV2e0o8Shiukm2XMLEdmOSwZ5ovg9BMlRbghD71O5
-x39iKzwZleuxSJ1Y8jA9Vx+AAMoXyQi5ieL0gEeExseOyBomq8m8kWrMsoKL88/p
-uYFgQP/C5iTTxj5/fapZ8Fpx
-=9hyT
------END PGP SIGNATURE-----
-
---===============3994573290496044878==--
