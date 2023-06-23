@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5881683660860416432=="
+Content-Type: multipart/mixed; boundary="===============3702444616880563323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 23 Jun 2023 00:31:44 -0000
-Message-Id: <168748030451.7282.5843700842608479155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 Jun 2023 00:31:52 -0000
+Message-Id: <168748031269.7400.17044867512697761777@gitolite.kernel.org>
 
---===============5881683660860416432==
+--===============3702444616880563323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 337207408f74a8374beacf232ec1e08742c1d98f
     new: f22993e20f29f7cfb69303f75e7f7e0e3cdf0249
     log: |
@@ -33,28 +33,28 @@ changes:
          f22993e20f29f7cfb69303f75e7f7e0e3cdf0249 spi: Add CSI support for Renesas RZ/V2M
          
 
---===============5881683660860416432==
+--===============3702444616880563323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1687480302 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1687480301-ced43ee102836c4986577b600eb16dac83541332
+pusher Mark Brown <broonie@kernel.org> 1687480310 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1687480309-71acc9fef06fb4ec87dde937d3376714e24a5c0a
 
-337207408f74a8374beacf232ec1e08742c1d98f f22993e20f29f7cfb69303f75e7f7e0e3cdf0249 refs/heads/for-6.5
+337207408f74a8374beacf232ec1e08742c1d98f f22993e20f29f7cfb69303f75e7f7e0e3cdf0249 refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSU5+4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LaKB/9IYeuBHcnHMyCmilLPnAhDEmyw8fLN
-WcCAgU8d1Y9iz6oeP6wQsE9zFktDBqbJD05QUREpU0YGCFesX2rSYBs6YUe1tIEk
-ooT2ElSRClpfk8wR4H+rX/4I+ZBUhniEzbwDF2LxgETZbioxGumXQix26zGz5Aq+
-SwuE5JLxL4JSwb+xZE/DJUzUKKV/25ExbEzWklYvM/IYrXIYOG2m0hyBoGr539bw
-PBV1e7/1TKKwnmPvL9UiGCDBOxDLjvB4GYnV9T58kEiYrVwU+Jxv80braXmzy2nT
-A3YE8scjRoZ9NzGC1E459zcRtbkfkMzLNRGW+PHesCIaniT4Ci+vU6yq
-=sb3g
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSU5/YTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0N6iB/9hZxVM8ebKXafbNMaOCOah5CGPkZbd
+SSFZH4bTZK8Ltg6tqXpPGsm4v+VQil1ZOE5nWjtAyATyLZtYoUQbSMiUAbJUBJLc
+KxA8SagkrhYImtByJb1Zn9pjLGMqfowtKHXq3FFh5Y5AqHnwrh5i9WbfluvEjbUL
+2ZGV4wTB96xSfOH89Ts2jybofKwnfsvc+zAlqQJylFQEi4iqC5KCl0hR+P02xk45
+vAz6vXbXeo3Ni2nFnZ7Y+hhPy//9604DnpijvmR4IgEC7eHvDAqCgY0+GHx2HDBw
+yPlV96z15Qg4oSYg/WV23YtMT7xyj24Gv57vuKOD98e3s0VvJu0v7s9P
+=8t1S
 -----END PGP SIGNATURE-----
 
---===============5881683660860416432==--
+--===============3702444616880563323==--
