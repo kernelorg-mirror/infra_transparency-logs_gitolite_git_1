@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 23 Jun 2023 02:46:30 -0000
-Message-Id: <168748839047.12554.8810372290460137473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 23 Jun 2023 02:47:38 -0000
+Message-Id: <168748845804.13015.9537724412513888748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: aa5406950726e336c5c9585b09799a734b6e77bf
-    new: fc0649395dca81f2b3b02d9b248acb38cbcee55c
+    old: 018c00dd4e88d78b0e97d4bcc413dd727497128f
+    new: 0c3d6fd4b89c1a6393283249cdd0bd484ad8f2e5
     log: |
-         fc0649395dca81f2b3b02d9b248acb38cbcee55c net: phy: dp83td510: fix kernel stall during netboot in DP83TD510E PHY driver
+         2a441a3dbe84be61be502142a2fb8ea633fcc528 net: txgbe: remove unused buffer in txgbe_calc_eeprom_checksum
+         0c3d6fd4b89c1a6393283249cdd0bd484ad8f2e5 tools: ynl: improve the direct-include header guard logic
          
