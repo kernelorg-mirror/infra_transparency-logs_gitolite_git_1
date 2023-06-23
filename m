@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 23 Jun 2023 12:45:24 -0000
-Message-Id: <168752432433.30256.5075975813784863470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 23 Jun 2023 13:03:56 -0000
+Message-Id: <168752543693.8938.2695508435349406881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 714804ebbdf40fbbce1bfe21cc5fc14edf57e37b
-    new: 2a362c480f5059ddfbf4732afd78df711d4f6f76
+  - ref: refs/heads/mips-next
+    old: fd99ac5055d4705e91c73d1adba18bc71c8511a8
+    new: 670f77f76f650b1b341d31d009cc2fb03a4d1fcf
     log: |
-         874f3918587aafeb785e7faa2c55071e9842f914 Fixes for 6.3
-         38471ea4602d145341928510fea3642fad722363 Fixes for 6.1
-         75940d3fec5b83e56ee163ecf2993d485e8175d3 Fixes for 5.15
-         2a362c480f5059ddfbf4732afd78df711d4f6f76 Fixes for 5.10
+         6e68dae946e3a0333fbde5487ce163142ca10ae0 clk: ralink: mtmips: Fix uninitialized use of ret in mtmips_register_{fixed,factor}_clocks()
+         944520f85d5b1fb2f9ea243be41f9c9af3d4cef3 MIPS: DTS: CI20: Raise VDDCORE voltage to 1.125 volts
+         7b191b9b55df2a844bd32d1d380f47a7df1c2896 MIPS: dec: prom: Address -Warray-bounds warning
+         670f77f76f650b1b341d31d009cc2fb03a4d1fcf mips: ralink: match all supported system controller compatible strings
          
