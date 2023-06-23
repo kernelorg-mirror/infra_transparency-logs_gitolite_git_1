@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 23 Jun 2023 02:57:57 -0000
-Message-Id: <168748907746.19987.6708796529868285337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Jun 2023 03:04:46 -0000
+Message-Id: <168748948616.24085.16023976937875988409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2555f35a4f428a9bfdf09aa0459dbfdf59a24a9a
-    new: 0ec92a8f56ff07237dbe8af7c7a72aba7f957baf
+    old: fc0649395dca81f2b3b02d9b248acb38cbcee55c
+    new: 6f68fc395f49fb43f6ae801c340953ee4f793e98
     log: |
-         9a14f2e3dab106df7f27d1730cc540247317d4b9 sfc: keep alive neighbour entries while a TC encap action is using them
-         0ec92a8f56ff07237dbe8af7c7a72aba7f957baf net: fix net device address assign type
+         e38910c0072b541a91954682c8b074a93e57c09b can: isotp: isotp_sendmsg(): fix return error fix on TX path
+         6f68fc395f49fb43f6ae801c340953ee4f793e98 Merge tag 'linux-can-fixes-for-6.4-20230622' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
          
