@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2736735370890540938=="
+Content-Type: multipart/mixed; boundary="===============7600330444472450526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Fri, 23 Jun 2023 17:36:45 -0000
-Message-Id: <168754180584.9685.566941527474563083@gitolite.kernel.org>
+Date: Fri, 23 Jun 2023 17:36:54 -0000
+Message-Id: <168754181431.9816.4469888037531456292@gitolite.kernel.org>
 
---===============2736735370890540938==
+--===============7600330444472450526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/OLK-5.10
-    old: 02df2e9918868383f36aef92059212954cfaf88e
-    new: 7ac36644af87f0bf4c7ce18d162559d97602bd17
-    log: revlist-02df2e991886-7ac36644af87.txt
+  - ref: refs/heads/openEuler-1.0-LTS
+    old: f59c1a3e1a7187a3f5009e0061acfae5196026c3
+    new: df4418ec2726b368c675d8a7d480ef0d7eb4deac
+    log: revlist-f59c1a3e1a71-df4418ec2726.txt
 
---===============2736735370890540938==
+--===============7600330444472450526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02df2e991886-7ac36644af87.txt
+Content-Disposition: attachment; filename=revlist-f59c1a3e1a71-df4418ec2726.txt
 
-f2924f3450b281f38b39c187871eac2103592deb proc: allow pid_revalidate() during LOOKUP_RCU
-26bd36add0d81ca28a7c5de6e6cc0b7a93b13241 scsi: sd: try more retries of START_STOP when resuming scsi device
-5f12ac52c50de07dad496bbfadc572922579e23c scsi: hisi_sas: Add slave_destroy interface for v3 hw
-de8c7460934a95d2f3f15b3c99b3d3deb945fea3 scsi: hisi_sas: Block requests before take debugfs snapshot
-6a05d2b5f7d0218799ee49ae3d131e318c21ce40 scsi: hisi_sas: Work around build failure in suspend function
-b819b23d99e507d5860505284c183e94cfd13a8c scsi: hisi_sas: Check usage count only when the runtime PM status is RPM_SUSPENDING
-d261404a9ce9d50db89961f05aa2c1ebc114990d sched: Add static key for qos sched to improve performance
-a1816ee09a141ccd5227c2225b37a626546ead39 gfs2: Don't deref jdesc in evict
-195117a255b679d86d6293331f0af70274274402 !1136  gfs2: Don't deref jdesc in evict
-39a3041adb60606d7e6e75f9aa6c2a83a24ca9c6 Revert "LoongArch: Add swiotlb backups buffer"
-ffd28a2778b581ccb5dbd5c4556b0f8566a273ed Revert "LoongArch: Add ARCH_HAS_SETUP_DMA_OPS and DMA_OPS"
-6b1c0854d29adaca7d890ca1c6a16a8e6329a3ca EDAC/i10nm: Add Intel Emerald Rapids server support
-2c5720199e09c7eca94f847480cfa498cdd560e3 !1150  EDAC/i10nm: Add Intel Emerald Rapids server support
-9cd6f55e9c3313ecd74ee5f5412f19ee0a166e94 mm: oom: move memcg_print_bad_task() out of mem_cgroup_scan_tasks()
-377b75d3983befcaa28bd649e4953c1fb381f884 !1107 scsi: hisi_sas: A group of SAS-related bugfixes
-1a86940388049d27b6cb387c041c7d18e25af830 xhci:fix USB xhci controller issue
-aa4e4b8dee88a8561ad1ca7beaf37d4add0e717b fbcon: Check font dimension limits
-671291b43707375519244ddce80a87d57dc9cb1d !1098  proc: allow pid_revalidate() during LOOKUP_RCU
-34b773ec995da110c77f7da6b3646dabd89a7ba6 MAINTAINERS: update openEuler/MAINTAINERS for LoongArch
-b6d06231af7e25af80512ccfd415aec82c997a0c !1162  fbcon: Check font dimension limits
-536e70da00092d4d9036aead533bec07d4c352c1 !1154 [sync] PR-582: mm: oom: move memcg_print_bad_task() out of  mem_cgroup_scan_tasks()
-65dc09dabca11b856ef97638860c8b361dae3564 !1157 Add LoongArch maintainers to openEuler/MAINTAINERS
-4cd177d441141cac2b383434211b9c44a5c666be net/sched: flower: fix possible OOB write in fl_set_geneve_opt()
-24fbf41b86ee763b7f567c6dfb35e920a248c47d memstick: r592: Fix UAF bug in r592_remove due to race condition
-629cdf078a47f32bac84fe7adc2c91cd1c645e08 !1133  sched: Add static key for qos sched to improve performance
-e652b75490f62c9e968668240675bd07aa45957e nbd: validate the block size in nbd_set_size
-d2d7ffdae8ef0e616b3880d1dcd867ecaf776171 nbd: fix incomplete validation of ioctl arg
-7b97038314eb48c45aaf40a59d508779b4bf3104 !1177  net/sched: flower: fix possible OOB write in fl_set_geneve_opt()
-c95fdec629c1ae962870085fb6f50b8aaae59945 memcg: fix implicit declaration of memcg_print_bad_task()
-f87395088a60c94a71b6ee536bb1616da1d45712 !1178  memstick: r592: Fix UAF bug in r592_remove due to race condition
-2fcd3e307c8d4ca0c33a8bebae115d52ca24da93 !1159 xhci:fix USB xhci controller issue
-2b34be30fac7c0f70a1ed5bff4dc4e87bfcd86d0 fs/stat: make tmp variable 16-bytes aligned in copy stat
-420dcdfd140703e0f7b86f294e0a0fdef40a5c21 !1190  memcg: fix implicit declaration of memcg_print_bad_task()
-29b79be45f4824ec18103d835f6f2a65ba412012 !1148 LoongArch: cleanup swiotlb bakcup buffer related code
-1fdb2b878b24f46af75bc103aec5558741669f67 !1185  nbd: validate the block size in nbd_set_size
-7ac36644af87f0bf4c7ce18d162559d97602bd17 !1196  fs/stat: make tmp variable 16-bytes aligned in copy stat
+822fb46bdc08eef2e42a23db52fba3b7cb9ac5c4 net: nsh: Use correct mac_offset to unwind gso skb in nsh_gso_segment()
+373fd2360e0058b8f243256df67ab7a1bc740d54 sched: Add static key to reduce noise
+d90991633edf22f56332ae16fb14044aed4e9cbb sched: fix smart grid usage count
+217edab9e7c157afdf3ca16be84f4ae27576cd83 sched: fix WARN found by deadlock detect
+21e5d85e205f37cf84898136ab6ed2818cee5582 sched: Fix possible deadlock in tg_set_dynamic_affinity_mode
+cde6dbb8c65e4508561e4dfbd35ae7c90520d9c5 sched: Fix negative count for jump label
+cfeb87ad5aef28a8bf56b322b768a44280515e0e pci: workaround multiple functions can be assigned to only one VM
+0822bf6255dc5f63c7087e6736171de3ce901f07 !1152 pci: workaround multiple functions can be assigned to only one VM
+3e40e3aa84eda1442a630b434b9b4491b0412bb9 sched/rt: Fix possible warn when push_rt_task
+513128e293349d9bfc68af3dd0da277a7b2fc857 fbcon: Check font dimension limits
+b6dc4c1da67c39fdf08c58288ea88c2f320b7fe3 memstick: r592: Fix UAF bug in r592_remove due to race condition
+1252135690f87278d6c9f5f37b587a11f3dd0f5f sched: Fix timer storm for smart grid
+b43a1c9e774686a41c8e2b8eed3fda8f70be6415 sched: fix dereference NULL pointers
+d791cf335320d98a01ca32245de3a3e35d4403f6 sched: Fix memory leak on error branch
+82caaaf461be9881d351f7c004f3cc36301600a3 sched: clear credit count in error branch
+27c8c87a18d985171a518b2e8219a71f6076b7ab sched: Adjust few parameters range for smart grid
+5cce350a760d784f1baffc20d75f0e5af7d79486 net/sched: flower: fix possible OOB write in fl_set_geneve_opt()
+1eb719bff326720a8a8813ed50d2bba35441c25d kernel/relay.c: fix read_pos error when multiple readers
+b99f764b4b616ce24f0ce762a645a144ac598200 relayfs: fix out-of-bounds access in relay_file_read
+25541f0013c19df5b537eb34b767416f5289c3c0 nbd: validate the block size in nbd_set_size
+df4418ec2726b368c675d8a7d480ef0d7eb4deac nbd: fix incomplete validation of ioctl arg
 
---===============2736735370890540938==--
+--===============7600330444472450526==--
