@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 23 Jun 2023 14:44:37 -0000
-Message-Id: <168753147709.15937.2037194695486528585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 23 Jun 2023 14:49:36 -0000
+Message-Id: <168753177665.19277.11382915180541228233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/trace/for-next
-    old: b97aec082b51a0728adc9f69494826d32e0d1f8f
-    new: fc30ace06f250f79381a8e3f6ed92dd68e25a9f5
+  - ref: refs/heads/hwmon-next
+    old: 0d67bbc48c7397bc97fa91c9b9c66c6570451131
+    new: b54c4b02abd1578132712eae5b294a9c77e7422b
     log: |
-         fc30ace06f250f79381a8e3f6ed92dd68e25a9f5 tracing: Fix warnings when building htmldocs for function graph retval
+         b54c4b02abd1578132712eae5b294a9c77e7422b hwmon: (corsair-psu) various cleanups
          
