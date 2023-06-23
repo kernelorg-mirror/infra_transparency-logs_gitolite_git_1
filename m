@@ -1,42 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============0379693481430147569=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Fri, 23 Jun 2023 17:37:17 -0000
-Message-Id: <168754183711.10399.11715896745721515422@gitolite.kernel.org>
-
---===============0379693481430147569==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 23 Jun 2023 17:37:40 -0000
+Message-Id: <168754186041.11540.2334219596741859212@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-user: colyli
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS-SP1
-    old: 8ebcce8d3c2be0ca34fe837a4c592ae7804d9827
-    new: 9e0479e8fab33f336c4719e72a7d881a6936dcce
-    log: revlist-8ebcce8d3c2b-9e0479e8fab3.txt
-
---===============0379693481430147569==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ebcce8d3c2b-9e0479e8fab3.txt
-
-789038c7436e6dc0efb144114992134a52233dbd mm: oom: move memcg_print_bad_task() out of mem_cgroup_scan_tasks()
-93e918414e3821b7993efb46ab4a76218e419a0a gfs2: Don't deref jdesc in evict
-b0771f09c9ae077d7a8b665632bfc71c9d3661df !1146 [sync] PR-1136:  gfs2: Don't deref jdesc in evict
-785b3c123bb2a91cbbf49eb28b6f9cb546f17fb5 !582 mm: oom: move memcg_print_bad_task() out of  mem_cgroup_scan_tasks()
-614802127e14e2dba5eb7c1881ef2df25200ff8c proc: allow pid_revalidate() during LOOKUP_RCU
-8e410f6b4eb37a63f6fdd78ca8693abb7d66753f fbcon: Check font dimension limits
-c5a17e7c66eb774b488e4753ce055f817f56fcb5 !1168 [sync] PR-1162:  fbcon: Check font dimension limits
-5f446a9dab7f7478074880a275260fb1211971a3 !1164 [sync] PR-1098:  proc: allow pid_revalidate() during LOOKUP_RCU
-839ddba55dddecd65183a66b1e25e6d1a4f907b8 MAINTAINERS: update openEuler/MAINTAINERS for LoongArch
-49425c900bacc899fec5c91b5727f2ca3caf434b !1179 MAINTAINERS: update openEuler/MAINTAINERS for LoongArch
-00a0c80c32cee197cac812bf471d0b72db46c7b8 memcg: fix implicit declaration of memcg_print_bad_task()
-9e0479e8fab33f336c4719e72a7d881a6936dcce !1199 [sync] PR-1190:  memcg: fix implicit declaration of memcg_print_bad_task()
-
---===============0379693481430147569==--
+  - ref: refs/heads/for-kernelci
+    old: 42234a7526798381b2e260591121f7e65d485966
+    new: e40939bbfc686ac8e1563c13ed0eabb1b14f7981
+    log: |
+         616cb2f4b141852cac3dfffe8354c8bf19e9999d arm64/signal: Restore TPIDR2 register rather than memory state
+         f7a5d72edc522b9210521d9b3969eac221eb6ecb kselftest/arm64: Add a test case for TPIDR2 restore
+         f42039d10b0f1d0075568df1d64df31f5cc90e92 Merge branches 'for-next/kpti', 'for-next/missing-proto-warn', 'for-next/iss2-decode', 'for-next/kselftest', 'for-next/misc', 'for-next/feat_mops', 'for-next/module-alloc', 'for-next/sysreg', 'for-next/cpucap', 'for-next/acpi', 'for-next/kdump', 'for-next/acpi-doc', 'for-next/doc' and 'for-next/tpidr2-fix', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+         abc17128c81ae8d6a091f24348c63cbe8fe59724 Merge branch 'for-next/feat_s1pie' into for-next/core
+         e40939bbfc686ac8e1563c13ed0eabb1b14f7981 Merge branch 'for-next/core' into for-kernelci
+         
+  - ref: refs/heads/for-next/core
+    old: 90a1100ae525430bfa3bb1d8bd38b7606c031dd2
+    new: abc17128c81ae8d6a091f24348c63cbe8fe59724
+    log: |
+         616cb2f4b141852cac3dfffe8354c8bf19e9999d arm64/signal: Restore TPIDR2 register rather than memory state
+         f7a5d72edc522b9210521d9b3969eac221eb6ecb kselftest/arm64: Add a test case for TPIDR2 restore
+         f42039d10b0f1d0075568df1d64df31f5cc90e92 Merge branches 'for-next/kpti', 'for-next/missing-proto-warn', 'for-next/iss2-decode', 'for-next/kselftest', 'for-next/misc', 'for-next/feat_mops', 'for-next/module-alloc', 'for-next/sysreg', 'for-next/cpucap', 'for-next/acpi', 'for-next/kdump', 'for-next/acpi-doc', 'for-next/doc' and 'for-next/tpidr2-fix', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+         abc17128c81ae8d6a091f24348c63cbe8fe59724 Merge branch 'for-next/feat_s1pie' into for-next/core
+         
+  - ref: refs/heads/for-next/tpidr2-fix
+    old: 0000000000000000000000000000000000000000
+    new: f7a5d72edc522b9210521d9b3969eac221eb6ecb
