@@ -1,60 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============1176194320664178996=="
+Content-Type: multipart/mixed; boundary="===============0805700483686714373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 23 Jun 2023 07:31:50 -0000
-Message-Id: <168750551089.19950.9247817010521499324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 23 Jun 2023 07:42:16 -0000
+Message-Id: <168750613687.27948.17401645957928839830@gitolite.kernel.org>
 
---===============1176194320664178996==
+--===============0805700483686714373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: aed1a2a5a6a2aa67095c103b497d05cd322c8713
-    new: e6ecc0414c87126836d04b46cce8942e778226bb
+  - ref: refs/heads/tty-next
+    old: 930cbf92db0184e327293d5e7089be0b08d46371
+    new: e534755c9412be07f579acd2947401a9f87a33c8
     log: |
-         25a2bc21c86392223142dcbd5bc92e598a950678 usb: typec: ucsi: call typec_set_mode on non-altmode partner change
-         c7054c31c1c94dbfe0ddf7c327f72f020d47c6c9 usb: typec: fsa4480: rework mux & switch setup to handle more states
-         ef1e29c6f6ad1e327d07b078e37a1eddd832e8e4 usb: typec: fsa4480: add support for Audio Accessory Mode
-         ff399bab86382c896c3922a570884bba287eb465 usb: gadget: legacy: fix error return code in gfs_bind
-         e6ecc0414c87126836d04b46cce8942e778226bb usb: ulpi: Make container_of() no-op in to_ulpi_dev()
+         27a826837ec9a3e94cc44bd9328b8289b0fcecd7 serial: atmel: don't enable IRQs prematurely
+         a82d62f708545d22859584e0e0620da8e3759bbc Revert "8250: add support for ASIX devices with a FIFO bug"
+         777e456852f729fa2942187a43a8eafbaecc6876 tty_audit: use TASK_COMM_LEN for task comm
+         e1488513abee9f34a7d0f3bd57ee65d2a7e13426 tty_audit: use kzalloc() in tty_audit_buf_alloc()
+         94f94810efc4b4b337c9f2abc8b0188cef5ccb9b tty_audit: invert the condition in tty_audit_log()
+         3e540a7bad8534a9b8845defa051834c9694d86c tty_audit: make icanon a bool
+         e64ed44bce43e003dd154c0bc418a431c15bdf77 tty_audit: make tty pointers in exposed functions const
+         e534755c9412be07f579acd2947401a9f87a33c8 tty_audit: make data of tty_audit_log() const
          
 
---===============1176194320664178996==
+--===============0805700483686714373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687505510 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1687505510-8239d2242d603639df9f95433a513f4ca1fa50fa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687506136 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1687506135-bf0bd759192328a155bde2539c4adace204a5a53
 
-aed1a2a5a6a2aa67095c103b497d05cd322c8713 e6ecc0414c87126836d04b46cce8942e778226bb refs/heads/usb-next
+930cbf92db0184e327293d5e7089be0b08d46371 e534755c9412be07f579acd2947401a9f87a33c8 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVSmYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lNsP/Raz5p2uWabDVWxt2Ah6
-a4fovl8ZmYEFcSDpIO/I59wTKSGhD279TeNATqK6WskC3+aygPpBzAsDtN5zaGPu
-a8Y/V3rmsNo4/Uf+2iaCd1QoQoADBZrCD+YvQOcTgaJppwTrs/RZIcuEvUDbFmsm
-Et10K0AmJEVyumyGC2h9RjLLJGhu4r6GXYs6uMeR/F9K/MQ9vN+uNjESqwFRS0II
-IWDjZexLAjAW7rK/KejrbTt606KoxXV/H50vn5hbrhTN4/BYALGB8tDatiM7J4OR
-ADLu8OZY1LXQ+0LYvSBY1ehedaAkWOeP1CcMNyFero2ZkFH7unNnA0mywUR6JPj/
-NZq7cQ0grBBCSa2W7/H3wvyPsfRUkgHE9fQjUhHInZ7MRLBlBVbAXv19b8G2miTr
-p1bKuf4VYp8tnKwdoxlz1uk+tapQ9HHdQ5ySQbVhrqokWK+QvuMQ3VDIjTtdxv/o
-QRiRGjGM/mSXfuupUfwNv2gctIV4dwCLWvQUBl+yTMK2Z+9UD4RGyXgcICM+cpMo
-TXKSRMO8EY9QBU2nEG0qXZCMnciBbm5FpWIzZ1ftCxJ53UBFVqPv2dVa5Gs3byuI
-LYTImxAQWDPJkHfXoFRGKdEliWuDkGsB1ptT0qGgVuDAxyxOxhNgu/09TJRRTMos
-5nqW3nf9TfBXF24BBdEsWhvk
-=vbIy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVTNgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YLkP/2LxcQ28cU1dy7Orb5WD
+74NjveRUSMh/T7V8Qh6caK320TrPekM6e6VaLXzo/zqFSpoc4B7jbRgO4rCxgeWV
+gyJU8tPnQo/UmgTyHIQbjgCwZptoT+LVtcmMzqSdJGf0Znxn4nTnkHhWmVM/DYhb
+CQdVJX1k6moT6StOQBDE1lau0SrpDNcKMv1YLmeupoMqx/QOgbJSbwlgn2aEnzLf
+Z7g90xfFW3BC5VQ0B0DoMLi3A1ttwnD9GUbBNLgZvfXTDFKy4q813IEWIN8oRx6Z
+9NrL21zZpcSReNyIoAyk7wtoc9UXfvKeJaN8lBQndR1f5jLcptmvO/3bOeXsTjNu
+Dzz55+bgd8JQkmg45mnF8ApUr0cwlq3DzoCupdfrxPpRO5aH7eSzb/xha/fIKJLu
+1PHo7fRsoBLa4MjwJvZh7DHd4pflzA8hkgTskWMhwNdffMLBEU0MUiAdrZOK2A2T
+TPfC0kL8h3B4Gs070DsMp6WSynQu7lW2zQSNZkzKN/QblloPJuo084pfxdQrInhE
+s9vzXS1aE4ahxv1C+mViAfY+5hOhXPI47/RnJTrde6n9Bd6G4k7VtPiYyiguLCjA
+Uhsaf8E42M+uWcIhSOeRh08HVjS+jh/ZnBLIntaARO13WhRREwyuv5mRBwi4hfRz
+yh+dtasSMH8QWbAFAW9VLh3k
+=xCH8
 -----END PGP SIGNATURE-----
 
---===============1176194320664178996==--
+--===============0805700483686714373==--
