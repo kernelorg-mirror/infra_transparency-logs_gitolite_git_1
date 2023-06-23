@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Fri, 23 Jun 2023 08:30:18 -0000
-Message-Id: <168750901814.29246.18378958663537677564@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3994573290496044878=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 23 Jun 2023 08:31:44 -0000
+Message-Id: <168750910464.29812.9221458696956155010@gitolite.kernel.org>
+
+--===============3994573290496044878==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 9edd94b2b3cc125cd4c86b60f22dae1f4c878c3a
-    new: 7e58ec6867ce6533316c45cb0d91c097561c3825
+  - ref: refs/heads/char-misc-testing
+    old: 9ee202e69e29470e3a0a2406493538378d4e9a85
+    new: 3b7a628decfb3b385ca5169d7c415752bf40e536
     log: |
-         50a9929546c4eaaf5c631452cff4d884de52202e Designate existing antiquated 'mac-fr' as legacy
-         16a06bed77081638dd99eb94fdcfbdf5313f5c89 Created new 'fr-latin9' based layout as new 'mac-fr'
-         15d71992bcfffa02334911b334ae6a2219c2e49f Merge branch 'github-pull-98' into for-master
-         1e15af4d8b272ca50e9ee1d0c584c5859102c848 Functions get/set_font_kdfontop should return negative value on error
-         6f783513be11775a08a6cf81d0f9ce5faffb1f33 Return an error if it is necessary to load a tall font but we do not have support for such fonts
-         a1fde28af59dbca1483f54d957a523765e6ea335 Show an error only if the second ioctl failed
-         830459d78081dc9dda12dc4101fae06ea7070c30 Respect height when writing font header
-         7e58ec6867ce6533316c45cb0d91c097561c3825 Get a font with a charsize of at least 32
+         3b7a628decfb3b385ca5169d7c415752bf40e536 comedi: make all 'class' structures const
          
+
+--===============3994573290496044878==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687509101 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1687509101-97f6d41ef364799502de3849628c6f4a838442dd
+
+9ee202e69e29470e3a0a2406493538378d4e9a85 3b7a628decfb3b385ca5169d7c415752bf40e536 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVWG0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L5oQAL7D/3yvJYYPM1yJ2Yce
+3VR9V3t95Ukl4t2b0YOQcT/ho2Y00Z2YDfZW01pCRH05W73qjhnN8xfWcoC60Clj
+4pbtPrSiur8uydxUT0WWMhAmlfgFxsqZNObn5j73MrtC7S2LBohfqdplmbDP1YPB
+DPg1fFOW1I9oq0YBzzIbfRr0e3lE/4LoH8kKCXQlN5xjrKbd0knDwWjvjX9gHWQu
+QecyXcbDFoETt+02dk5Dh23WyyHzVuXVtw6bADvNNgueAd0RXpATcuAZTWyKhj3t
+PcIWXf74eYSUwXWiOIjW5NcQbU4DE/o5uQqRQlp9UVkWXOcbZAINzMMwiBiCZVOJ
+sSMs0XyFraHB4O/XIeVm1n1xu0ntwsQocPEhnIQXWRX0gxgmM0B/PaoO0vVIrdzO
+KQdDA+kO1gyieEFK79qwG+WqfvVol0nEMNwTT/V5kMTak2x6x7srbQhetnk+nej1
+MS8ohtoq1HReNRv0KVapP1FtqVn3SbAWZTURyTiOP1KP/iSYKDazO09TYjGs6TDo
+E1QvCnHR2X6EJdGfS7IQQ18kV2e0o8Shiukm2XMLEdmOSwZ5ovg9BMlRbghD71O5
+x39iKzwZleuxSJ1Y8jA9Vx+AAMoXyQi5ieL0gEeExseOyBomq8m8kWrMsoKL88/p
+uYFgQP/C5iTTxj5/fapZ8Fpx
+=9hyT
+-----END PGP SIGNATURE-----
+
+--===============3994573290496044878==--
