@@ -1,63 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0805700483686714373=="
+Content-Type: multipart/mixed; boundary="===============0004263399494683651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 23 Jun 2023 07:42:16 -0000
-Message-Id: <168750613687.27948.17401645957928839830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 23 Jun 2023 07:44:04 -0000
+Message-Id: <168750624464.28636.3954960290810356257@gitolite.kernel.org>
 
---===============0805700483686714373==
+--===============0004263399494683651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 930cbf92db0184e327293d5e7089be0b08d46371
-    new: e534755c9412be07f579acd2947401a9f87a33c8
+  - ref: refs/heads/usb-testing
+    old: e6ecc0414c87126836d04b46cce8942e778226bb
+    new: 0e5342f634b26eed0a0fb21daa53a45449396c3f
     log: |
-         27a826837ec9a3e94cc44bd9328b8289b0fcecd7 serial: atmel: don't enable IRQs prematurely
-         a82d62f708545d22859584e0e0620da8e3759bbc Revert "8250: add support for ASIX devices with a FIFO bug"
-         777e456852f729fa2942187a43a8eafbaecc6876 tty_audit: use TASK_COMM_LEN for task comm
-         e1488513abee9f34a7d0f3bd57ee65d2a7e13426 tty_audit: use kzalloc() in tty_audit_buf_alloc()
-         94f94810efc4b4b337c9f2abc8b0188cef5ccb9b tty_audit: invert the condition in tty_audit_log()
-         3e540a7bad8534a9b8845defa051834c9694d86c tty_audit: make icanon a bool
-         e64ed44bce43e003dd154c0bc418a431c15bdf77 tty_audit: make tty pointers in exposed functions const
-         e534755c9412be07f579acd2947401a9f87a33c8 tty_audit: make data of tty_audit_log() const
+         6ff58ae17fd9523246a260434133ed9ab7f56df2 USB: serial: return errors from break handling
+         f4bbae27b32ea0ffb9e25931b9769600e8d8a664 USB: serial: cp210x: disable break signalling on CP2105 SCI
+         c9d934053d9e850bc901b6425eacb5fe3d4b1738 USB: serial: report unsupported break signalling
+         ffa5f7a3bf28c1306eef85d4056539c2d4b8eb09 USB: serial: option: add LARA-R6 01B PIDs
+         0e5342f634b26eed0a0fb21daa53a45449396c3f Merge tag 'usb-serial-6.5-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
          
 
---===============0805700483686714373==
+--===============0004263399494683651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687506136 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1687506135-bf0bd759192328a155bde2539c4adace204a5a53
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687506238 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1687506238-3b7805626ecc9f6caaeb3dee91f99f907c3d6e30
 
-930cbf92db0184e327293d5e7089be0b08d46371 e534755c9412be07f579acd2947401a9f87a33c8 refs/heads/tty-next
+e6ecc0414c87126836d04b46cce8942e778226bb 0e5342f634b26eed0a0fb21daa53a45449396c3f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVTNgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YLkP/2LxcQ28cU1dy7Orb5WD
-74NjveRUSMh/T7V8Qh6caK320TrPekM6e6VaLXzo/zqFSpoc4B7jbRgO4rCxgeWV
-gyJU8tPnQo/UmgTyHIQbjgCwZptoT+LVtcmMzqSdJGf0Znxn4nTnkHhWmVM/DYhb
-CQdVJX1k6moT6StOQBDE1lau0SrpDNcKMv1YLmeupoMqx/QOgbJSbwlgn2aEnzLf
-Z7g90xfFW3BC5VQ0B0DoMLi3A1ttwnD9GUbBNLgZvfXTDFKy4q813IEWIN8oRx6Z
-9NrL21zZpcSReNyIoAyk7wtoc9UXfvKeJaN8lBQndR1f5jLcptmvO/3bOeXsTjNu
-Dzz55+bgd8JQkmg45mnF8ApUr0cwlq3DzoCupdfrxPpRO5aH7eSzb/xha/fIKJLu
-1PHo7fRsoBLa4MjwJvZh7DHd4pflzA8hkgTskWMhwNdffMLBEU0MUiAdrZOK2A2T
-TPfC0kL8h3B4Gs070DsMp6WSynQu7lW2zQSNZkzKN/QblloPJuo084pfxdQrInhE
-s9vzXS1aE4ahxv1C+mViAfY+5hOhXPI47/RnJTrde6n9Bd6G4k7VtPiYyiguLCjA
-Uhsaf8E42M+uWcIhSOeRh08HVjS+jh/ZnBLIntaARO13WhRREwyuv5mRBwi4hfRz
-yh+dtasSMH8QWbAFAW9VLh3k
-=xCH8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVTT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ux0P/3fs7vZEuM1OxCuznESL
+8mgHESjsD4smMwW9iZuxAB/wGxQQvd0vzpybJtAhHEN1oy9sEJMKNg6epOnxfq9x
+i9EHtZTANdgZHAqRDQ5I7pAHH1MThtERiSjysckUuVaBcOXyzR9qFzVMOA3wOdx+
+hMG8Jmlj0HU2ZBuFJZoNGS2zE8sTqiVnk4vQfGY8jx4eCMSExN/M8VJZOa9bQNZA
+n2rc/Fl6MXf5E7fnwzyBmGF7WrDGi3BNZzaJjCkrU7seXZaKtQFXLENCoIh5aHlZ
+UFl93f/UMxYyyr5rKFtYXj/TvdB2VfBDm6M1569X+AlYSKNSHpmbFWUd/2abjHqn
+RoBlugoCgBNjci7Uq/YUqt7CrNRx3iOzoBmbd9H5Ggn16bR3A0PHlZ4ocOC7sYR7
+HjABLO+hj9AGHbTPq76jjeGJGzeAvL62vv1RlYzfxVFtRk2x5tU/SDDGEjO+Lxby
+f1JQ2BZcgXSe39BHxE8DEUqLESgPFI1ETP4WYnpWcRt8L15X5jam1tlSpnrzAHlM
+jYzgwfdkLqeXIFfI/CGFlSwq7N+hFd6N4yEoKD3A2WeH7le/WuTsPLME0gMafXEg
+Dm1IunLnsmTRvkrhW75V7P+0P4rcQCljTTOHuRpwbkIUg9vcacKxIkWUbph/WIxw
+cnL7xt6gEnPNtX5pwGWewaRg
+=YnAJ
 -----END PGP SIGNATURE-----
 
---===============0805700483686714373==--
+--===============0004263399494683651==--
