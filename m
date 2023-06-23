@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 23 Jun 2023 22:12:59 -0000
-Message-Id: <168755837977.12028.7331062373765339211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 23 Jun 2023 22:18:49 -0000
+Message-Id: <168755872991.15646.8028512953226425695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 2d45d607d25889fefa99791c231972c6de235c6b
-    new: 449ebc5a425f3a8b14c78357cbe9ab1011a797eb
+  - ref: refs/heads/dt/next
+    old: e591c47f2c2ab11e2faf853f1646ecb9f0f61a7b
+    new: a7ab84a5915fc67697131b8e5eba96c278bbe785
     log: |
-         7eba81f6eb2d62d7835622267b483b95bdf0bcd5 configure: Remove --nolibc option
-         151f80504d8cba262f0950b76953dd7441342163 configure: Introduce '--use-libc' option
-         449ebc5a425f3a8b14c78357cbe9ab1011a797eb src/Makefile: Allow using stack protector with libc
+         f6814f6f3fb2802d8808749b9abead2756f57402 dt-bindings: crypto: drop unneeded quotes
+         a7ab84a5915fc67697131b8e5eba96c278bbe785 dt-bindings: pwm: drop unneeded quotes
          
