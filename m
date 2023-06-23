@@ -1,50 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============3852324137662991935=="
+Content-Type: multipart/mixed; boundary="===============3985692407938690031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 23 Jun 2023 08:20:18 -0000
-Message-Id: <168750841800.22573.14258383478026232750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 23 Jun 2023 08:28:16 -0000
+Message-Id: <168750889680.26868.10271220673605059055@gitolite.kernel.org>
 
---===============3852324137662991935==
+--===============3985692407938690031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d614dcb225a8af349b73b8e9bbda4374571d4b9e
-    new: b335f258e8ddafec0e8ae2201ca78d29ed8f85eb
-    log: revlist-d614dcb225a8-b335f258e8dd.txt
+  - ref: refs/heads/char-misc-testing
+    old: fa50d6b8a5f762c62dc0049d3ede9f1e47cc47d3
+    new: 9ee202e69e29470e3a0a2406493538378d4e9a85
+    log: |
+         02fa4bcf4d15d7c93e6bb09d000d291dc2eb410e oradax: make 'cl' a static const structure
+         e55ce9fd3d8fbf4e94fd5d0c72eb5b7d01fc4574 bsr: make bsr_class a static const structure
+         bd31ef88361a1ca8435bf81551b2bba2d1e07457 dsp56k: make dsp56k_class a static const structure
+         03bcd4d8e9e6da7521b1bdff4116bfed9050cfa9 char: lp: make lp_class a static const structure
+         7671284b6c77df93b7dad8be40fe354dd4243a5d /dev/mem: make mem_class a static const structure
+         eafd52e6971ab63dd9294df1e363951148f292cf char: misc: make misc_class a static const structure
+         98ab58a7a0b08be3f5ebdcb44fdf49127f749970 ppdev: make ppdev_class a static const structure
+         11680fdf29cec560987fc8f6d290a5bfdb73e4e4 virtio_console: make port class a static const structure
+         936cb492a13e767c63b75ab84fd321682a18f9a5 xilinx_hwicap: make icap_class a static const structure
+         9ee202e69e29470e3a0a2406493538378d4e9a85 char: xillybus: make xillybus_class a static const structure
+         
 
---===============3852324137662991935==
+--===============3985692407938690031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d614dcb225a8-b335f258e8dd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ef492d080302913e85122a2d92efa2ca174930f8 crypto: caam - adjust RNG timing to support more devices
-2be0d806e25e7b068113187f9245575914daf0dc crypto: caam - add a test for the RNG
-1abc89661ad3cd18d8c6af5c2584bcc63df43bf2 crypto: caam - optimize RNG sample size
-df12284ad3dc1db11bdc784265a4947d3db29c06 crypto: starfive - Update hash module irq handling
-445a4aaf5842073e4130b1d6dbe3785284d9615f crypto: starfive - Add RSA algo support
-fb28fabfad332a731423ffdd2be122b73ea90f1e crypto: algboss - Add missing dependency on RNG2
-ba51738fa78972fb446b49b6b9ddda4058a272e0 crypto: geniv - Split geniv out of AEAD Kconfig option
-6637e11e4ad22ff03183da0dbd36d65c98b81cf7 crypto: rsa - allow only odd e and restrict value in FIPS mode
-fa919f9e8857bfe230891a8b7ea6d7f69396cdc5 crypto: api - Remove crypto_init_ops()
-fa3b3565f3ac5a468e3efebca00e10db5db3d6bb crypto: api - Add __crypto_alloc_tfmgfp
-9979c6e55d2b54ed6e0ce69b6f7faa7889549402 crypto: cipher - On clone do crypto_mod_get()
-addde1f2c966833f210e9318b17050293086b8c6 crypto: akcipher - Add sync interface without SG lists
-6cb8815f41a966b217c0d9826c592254d72dcc31 crypto: sig - Add interface for sign/verify
-b6d0695bb3c24ebe8dbaaaf61de791d5821a00ac KEYS: Add forward declaration in asymmetric-parser.h
-e5221fa6a355112ddcc29dc82a94f7c3a1aacc0b KEYS: asymmetric: Move sm2 code into x509_public_key
-63ba4d67594ad05b2c899b5a3a8cc7581052dd13 KEYS: asymmetric: Use new crypto interface without scatterlists
-d744ae7477190967a3ddc289e2cd4ae59e8b1237 hwrng: imx-rngc - fix the timeout for init and self check
-afa9d00ee0fda2387ad598d0b106e96a7ed360ae hwrng: st - support compile-testing
-501e197a02d4aef157f53ba3a0b9049c3e52fedc hwrng: st - keep clock enabled while hwrng is registered
-b335f258e8ddafec0e8ae2201ca78d29ed8f85eb hwrng: imx-rngc - switch to DEFINE_SIMPLE_DEV_PM_OPS
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687508892 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1687508892-d1753c2f88ee4624ce246d5c87b0cd1bd44d1471
 
---===============3852324137662991935==--
+fa50d6b8a5f762c62dc0049d3ede9f1e47cc47d3 9ee202e69e29470e3a0a2406493538378d4e9a85 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSVV5wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/sMP/jed3vPhzrb4E526QuWM
+DICufKOiaFdocWFeZ9yL8z9WakfCIm9/PiUu3uiGfill8fjeSiaiMaA9mv/rq0wd
+QCv5n9LNuvWhJl34tkFSHe22VN5A1TBCN9YHJrVNj9yLRpcRXdt4GyrH+TBt6nWK
+6aVFBre3caqaczovjqivgfuG7utKk+fXUuAI9UGtmEQOStWaYwQzWBveD9T7TCkD
+uQk+s/egqZ03bZ0nwBg2LoaNmiC2/SgZquOdZnAjl5G0n1bo032oQEGgw+/ER7py
+NkoKZMzdd2147wG+qe4gGHkNC1JiO9Cw6/iP/fTAA4kuh0yS+Yqbd60SmgWXJry6
++ygb+D14BzLX9IpQL1vN6QPboRI+zmSLrktZ+wTV7K+iLENBieHZltvtXMsycFkY
+BFernb5d82VUcyVCNnfiRejjMv8A4fUdWAdqchjSt0ETGnQrtqvPlTwPUCeHr9+4
+/SKJNnashQ9VshJZ6ORfK3aLSuvEJixFs3pnyDd+p3hxTiHMrFPilsszMITjEvY8
+vs82EGta3ITO2/UVT4zpY3YEOjgGTvEL/HST7OlEaIwKfwOK8dZs8hgZu501L7nS
+FpfNx0CNhM14VOrCo05xgzWxqTbd4cuyFzcvFt2iauPrT5skzC9Jr3058Nzi6Dlw
+uY9VOFoRfLbn7BixbOXvd57+
+=TOmq
+-----END PGP SIGNATURE-----
+
+--===============3985692407938690031==--
