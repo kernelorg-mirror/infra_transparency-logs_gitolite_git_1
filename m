@@ -1,16 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 23 Jun 2023 14:26:29 -0000
-Message-Id: <168753038964.3417.11823925342148573543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 23 Jun 2023 14:31:57 -0000
+Message-Id: <168753071769.6899.4288795129473132009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/tags/kvmarm-6.5
-    old: 0000000000000000000000000000000000000000
-    new: 4bd85e7fee3ad53fa3fe1b91fcafe4dc4e3c4d9e
+  - ref: refs/heads/dm-6.5
+    old: 1a03aedc50ff49646699a4b96feb3c48fd18596f
+    new: 81ca2dbefaabe1a2ca1c7cfc84dfd45c072c82a6
+    log: |
+         b60528d9e68113e2c297c3a45102332cb1d3e608 dm ioctl: Check dm_target_spec is sufficiently aligned
+         13f4a697f8b4feb705569f9336127e9e2f9ac596 dm ioctl: Avoid pointer arithmetic overflow
+         10655c7a48570315343fdd9cc6acb261d57c2c7a dm ioctl: structs and parameter strings must not overlap
+         249bed821b4db6d95a99160f7d6d236ea5fe6362 dm ioctl: Avoid double-fetch of version
+         a85f1a9de91a59cd9b12d60f631cbda9c56a1c3c dm ioctl: Refuse to create device named "control"
+         81ca2dbefaabe1a2ca1c7cfc84dfd45c072c82a6 dm ioctl: Refuse to create device named "." or ".."
+         
