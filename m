@@ -1,66 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6586217169312821448=="
+Content-Type: multipart/mixed; boundary="===============6073365395939835009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 24 Jun 2023 13:58:37 -0000
-Message-Id: <168761511745.8348.5414280425837948489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 24 Jun 2023 13:58:42 -0000
+Message-Id: <168761512272.8428.6030245283641457704@gitolite.kernel.org>
 
---===============6586217169312821448==
+--===============6073365395939835009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: fa50d6b8a5f762c62dc0049d3ede9f1e47cc47d3
-    new: 3b7a628decfb3b385ca5169d7c415752bf40e536
+  - ref: refs/heads/staging-next
+    old: 32db98b92c8a204dcf3e178a1368f8320589c56e
+    new: 4a22870cede374d80c5d2f9c5b79253a5a667832
     log: |
-         02fa4bcf4d15d7c93e6bb09d000d291dc2eb410e oradax: make 'cl' a static const structure
-         e55ce9fd3d8fbf4e94fd5d0c72eb5b7d01fc4574 bsr: make bsr_class a static const structure
-         bd31ef88361a1ca8435bf81551b2bba2d1e07457 dsp56k: make dsp56k_class a static const structure
-         03bcd4d8e9e6da7521b1bdff4116bfed9050cfa9 char: lp: make lp_class a static const structure
-         7671284b6c77df93b7dad8be40fe354dd4243a5d /dev/mem: make mem_class a static const structure
-         eafd52e6971ab63dd9294df1e363951148f292cf char: misc: make misc_class a static const structure
-         98ab58a7a0b08be3f5ebdcb44fdf49127f749970 ppdev: make ppdev_class a static const structure
-         11680fdf29cec560987fc8f6d290a5bfdb73e4e4 virtio_console: make port class a static const structure
-         936cb492a13e767c63b75ab84fd321682a18f9a5 xilinx_hwicap: make icap_class a static const structure
-         9ee202e69e29470e3a0a2406493538378d4e9a85 char: xillybus: make xillybus_class a static const structure
-         3b7a628decfb3b385ca5169d7c415752bf40e536 comedi: make all 'class' structures const
+         4a22870cede374d80c5d2f9c5b79253a5a667832 staging: rtl8192e: Remove whitespace and blank lines
          
 
---===============6586217169312821448==
+--===============6073365395939835009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687615116 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1687615116-37b366631164b2c361368e128d6f8769ac39bd1e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687615122 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1687615121-f39cf1f43883dd8228235dfdff72fb03ad576bf1
 
-fa50d6b8a5f762c62dc0049d3ede9f1e47cc47d3 3b7a628decfb3b385ca5169d7c415752bf40e536 refs/heads/char-misc-next
+32db98b92c8a204dcf3e178a1368f8320589c56e 4a22870cede374d80c5d2f9c5b79253a5a667832 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSW9owbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZnYP/R1zTjHEt/wk17LsqjAc
-PM1HnzSCEO6Bb+2Qgj0Mk1+FYvzG4q6p726/saOAwMVk0qGY20r6i9opAbihMt+U
-tWZTsupf379Xz3ztILXYFVh7nl9aHKqwa7hoUulqNxmR88zkKJToY2UwArmG2lsH
-YfypUVVHZxcxw8F9lmFDMTYlry0/kHZxq3/mnySNQHvhoQvgk5RqBCMp28ANIA8U
-r4PfUIIgb0PEqsZK6LlnP6tuPzmxwaIns7qhuDz2nZ3Xhnxq9Wj3xUqZ7tOmH0Qp
-66kcANKcXOgF0QtUw4vxO15AQm53+01yGDj8POTJOv1f8O1rWeaTrwVQR4ugF+w5
-U4txnmnBLyNzJGCs9/iBo8wnPDUNZt5l+1MACylP47UTBV9VqU7Vmdo6PNhZIpEc
-BWskPcDE4Lv9RQ/dGOxaQ5vyQE/DyDVAhjsCFJ9ld+fs/BSs2hEtSV11MKY4oq6/
-88dsBLRt77ppWr4036N22cb+tHF6jj7Q4fwSc12oP+ypkEV//CKXC/ITotWa939I
-EEtTaLovrl/xYhZJUUv6pN97CA/2jRchO1RCP4wQN3fD/6vPvv2hWU5U84YSJ2bz
-xBy/PecS8JNoCl+i+NtaGsjR+x+l+ZKl9xAtGkMO2O+YgFt3RrGLLDYED+GnZtmL
-9oT84KWytkfkrGgWHiuLSKu/
-=Nc6K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSW9pIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HZgQAMvHnCCLtO5H/lIbAx4V
+Q63IAUf8p6BZ53GWAfFkN++Tw2OSa87ApIsRD1sYXUNUuTABCYXIZUBl3kCMHOJ5
+wCIrNfEFYzayOhle0iiQwHFJE2u6RfBHUsqs59eqLG9ZqgFDzrnWn7Y5g5KoDtkd
+UrA8YaV682rroH3V90z60rvPQ7+x5WTxmUAqsdBt4gU9B27pwyRWGGfHXKKHG/qv
+mXfZ99KL17ZO/2BSjmMn1Bfy1XsL0MDyVGuRyBwbbKj54flHnFH0u2trL/KBgEgt
+MxtcNUkxKAUPjTMQmdItpKBHuJ7yxRo9cQ/ygNWVmhdcprRzHWkmREjeOWonvnaV
+9Q+WpCdUnqZv9uYAYy47LWtA0PvtcvRvZIFI1gQp3axhr9YMxenmcS4QOzCG6WDb
+aBoztzVa7vhlxLK5gft/wmm1mDPf8kBTtb/Bm+vTxplFnjUnmPVvjLcEOBe+MX0Y
+goBV8fn9Au+uOstbUMfOI44svTPcRVGljlxtX90SZ/fSNMJTm8q7QjHsDKYXOI7/
+jBK7xvuVeBuKQiwZYlghL6X9/ux+leneFurPrQ+aBpP9gl+CKZqmKukhXqjjdx6u
+cGVf5+yQI1Lgh9LNfYwZB+ZrFMPGnmClZg62P/EtVPaxeB8a5YPU+zUuPlXj7xcm
++uSxaZD3oykmOhweI9J2Djgw
+=8N2D
 -----END PGP SIGNATURE-----
 
---===============6586217169312821448==--
+--===============6073365395939835009==--
