@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 24 Jun 2023 15:48:08 -0000
-Message-Id: <168762168809.22826.1913851167618657923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 24 Jun 2023 16:08:25 -0000
+Message-Id: <168762290582.5010.17686106243511725301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/hwmon-next
-    old: b54c4b02abd1578132712eae5b294a9c77e7422b
-    new: 741ed0856d5ef94c2dbdbf58cb13d262d89505bb
+  - ref: refs/heads/controller/vmd
+    old: b61cf04c49c3dfa70a0d6725d3eb40bf9b35cf71
+    new: cc61ea12064cccb2d9769f8e372605170486d877
     log: |
-         741ed0856d5ef94c2dbdbf58cb13d262d89505bb hwmon: (corsair-psu) update Series 2022 and 2023 support
+         cc61ea12064cccb2d9769f8e372605170486d877 PCI: vmd: Fix uninitialized variable usage in vmd_enable_domain()
          
