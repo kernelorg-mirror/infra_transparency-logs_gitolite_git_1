@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 24 Jun 2023 19:55:33 -0000
-Message-Id: <168763653368.2267.5442997881811701661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 24 Jun 2023 20:12:12 -0000
+Message-Id: <168763753228.13998.15390567251456399016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 29c171de52bcef23a7593a890cbcb6761be0123c
-    new: c2d22806aecb24e2de55c30a06e5d6eb297d161d
+  - ref: refs/heads/master
+    old: b659e03e4e79be42f2d0722cb163d6f20b950320
+    new: 863d68525db42537c219f2c4c6895bfadd17f005
     log: |
-         c2d22806aecb24e2de55c30a06e5d6eb297d161d fbdev: fix potential OOB read in fast_imageblit()
+         863d68525db42537c219f2c4c6895bfadd17f005 foo
          
