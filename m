@@ -1,25 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Sat, 24 Jun 2023 05:34:30 -0000
-Message-Id: <168758487015.31407.5341916986883106554@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3618872117056602405=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 24 Jun 2023 05:59:16 -0000
+Message-Id: <168758635608.16569.13468489504083727592@gitolite.kernel.org>
+
+--===============3618872117056602405==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/jitalloc/v2.3
-    old: 114642a327b3f8dc4dbfe29a6a173d49b0ddbaa4
-    new: d68891f625f21cd47f4900581289673c60e366d4
-    log: |
-         cb51a5627bba610ca87dc6a384f58ff76198fe62 mm/execmem: introduce execmem_data_alloc()
-         f9cb94f718d86c19585c5f35ea7213a3fc89ae13 arm64, execmem: extend execmem_params for generated code definitions
-         961931d5adcd1ac4fff12983b533f79e5858a000 riscv: extend execmem_params for kprobes allocations
-         df47b4f02528e2107ee8ff686dbf15171592f8c7 powerpc: extend execmem_params for kprobes allocations
-         458ee33f510911ae8d2b06142707f27f59005ee8 x86/ftrace: enable dynamic ftrace without CONFIG_MODULES
-         29fdff216f18983b734ae5d8849dc191bb10d60a kprobes: remove dependcy on CONFIG_MODULES
-         d68891f625f21cd47f4900581289673c60e366d4 bpf: remove CONFIG_BPF_JIT dependcy on CONFIG_MODULES of
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 4dcd805c9bdfd292dbaf1fb86bccf1b3d1616ea6
+    new: 929ff679b694f0f9656aec38b3a7d5c440c5ca24
+    log: revlist-4dcd805c9bdf-929ff679b694.txt
+
+--===============3618872117056602405==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4dcd805c9bdf-929ff679b694.txt
+
+8d3df7c39b10d4ff24a605f7b80bb6fefb990798 perf test: Reorder event name checks in stat STD output linter
+4d60e83dfcee794213878155463d8f7353a80864 perf test: Skip metrics w/o event name in stat STD output linter
+b7a2d774c9c5a9a3228c6169ecf32f05b96609cf perf build: Add ability to build with a generated vmlinux.h
+5c45b210479bffe068d38902fcdcb52c4c60a264 perf bpf: Move the declaration of struct rq
+06c39e742d46eb0a360563f0888ac8c3a9539f47 perf test: Add build tests for BUILD_BPF_SKEL
+ae7eb5baad3fd5f9ff69a3721fdaa0324731cf8d perf build: Filter out BTF sources without a .BTF section
+ce5b293405fda0f80c803b6c838f51ec7f618f90 perf dso: Sort symbols under lock
+259dce914e93482a0e25a6ddef88f5b6d85df9bd perf symbol: Remove symbol_name_rb_node
+d82257d7f604ba6e714c9f1087a6dc599ccb1879 perf symbol: Remove now unused symbol_conf.sort_by_name
+220f88b5a11a88539fbc44d2740c41bf995ecb45 perf trace-event-info: Add tracepoint_id_to_name() helper
+5492e72500646170cd409b14fe273e6d067b9fae perf tools: Extend PRINT_ATTRf to support printing of members with a value of 0
+2e4dd65d7d0c73451e2f8b575884b35c90ba058a perf tools: Add printing perf_event_attr type symbol in perf_event_attr__fprintf()
+929ff679b694f0f9656aec38b3a7d5c440c5ca24 perf tools: Add printing perf_event_attr config symbol in perf_event_attr__fprintf()
+
+--===============3618872117056602405==--
