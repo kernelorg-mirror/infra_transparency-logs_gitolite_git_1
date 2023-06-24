@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6073365395939835009=="
+Content-Type: multipart/mixed; boundary="===============9125088215385525427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 24 Jun 2023 13:58:42 -0000
-Message-Id: <168761512272.8428.6030245283641457704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 24 Jun 2023 13:59:00 -0000
+Message-Id: <168761514062.8642.5680267841459184609@gitolite.kernel.org>
 
---===============6073365395939835009==
+--===============9125088215385525427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 32db98b92c8a204dcf3e178a1368f8320589c56e
-    new: 4a22870cede374d80c5d2f9c5b79253a5a667832
+  - ref: refs/heads/usb-next
+    old: 0e5342f634b26eed0a0fb21daa53a45449396c3f
+    new: 18af4b5c97915a6daef9de28a30ae1d3786bc2ac
     log: |
-         4a22870cede374d80c5d2f9c5b79253a5a667832 staging: rtl8192e: Remove whitespace and blank lines
+         c0aabed9cabe057309779a9e26fe86a113d24dad usb: dwc3: gadget: Propagate core init errors to UDC during pullup
+         61d52f64ac58f917e47175cbc5bb54ee9a672209 usbip: usbip_host: Replace strlcpy with strscpy
+         256a02e2caa3c606b84a40e8035e240beb93e67b usb: typec: nb7vpq904m: fix CONFIG_DRM dependency
+         fb2ce17874cf3c3c183e5fd75144ffbe2313bf31 usb: host: xhci: Do not re-initialize the XHCI HC if being removed
+         18af4b5c97915a6daef9de28a30ae1d3786bc2ac usb: host: xhci-plat: Set XHCI_STATE_REMOVING before resuming XHCI HC
          
 
---===============6073365395939835009==
+--===============9125088215385525427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687615122 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1687615121-f39cf1f43883dd8228235dfdff72fb03ad576bf1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687615140 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1687615139-f2671340b4b9bfb29f38eec08c6027bbfa644505
 
-32db98b92c8a204dcf3e178a1368f8320589c56e 4a22870cede374d80c5d2f9c5b79253a5a667832 refs/heads/staging-next
+0e5342f634b26eed0a0fb21daa53a45449396c3f 18af4b5c97915a6daef9de28a30ae1d3786bc2ac refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSW9pIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HZgQAMvHnCCLtO5H/lIbAx4V
-Q63IAUf8p6BZ53GWAfFkN++Tw2OSa87ApIsRD1sYXUNUuTABCYXIZUBl3kCMHOJ5
-wCIrNfEFYzayOhle0iiQwHFJE2u6RfBHUsqs59eqLG9ZqgFDzrnWn7Y5g5KoDtkd
-UrA8YaV682rroH3V90z60rvPQ7+x5WTxmUAqsdBt4gU9B27pwyRWGGfHXKKHG/qv
-mXfZ99KL17ZO/2BSjmMn1Bfy1XsL0MDyVGuRyBwbbKj54flHnFH0u2trL/KBgEgt
-MxtcNUkxKAUPjTMQmdItpKBHuJ7yxRo9cQ/ygNWVmhdcprRzHWkmREjeOWonvnaV
-9Q+WpCdUnqZv9uYAYy47LWtA0PvtcvRvZIFI1gQp3axhr9YMxenmcS4QOzCG6WDb
-aBoztzVa7vhlxLK5gft/wmm1mDPf8kBTtb/Bm+vTxplFnjUnmPVvjLcEOBe+MX0Y
-goBV8fn9Au+uOstbUMfOI44svTPcRVGljlxtX90SZ/fSNMJTm8q7QjHsDKYXOI7/
-jBK7xvuVeBuKQiwZYlghL6X9/ux+leneFurPrQ+aBpP9gl+CKZqmKukhXqjjdx6u
-cGVf5+yQI1Lgh9LNfYwZB+ZrFMPGnmClZg62P/EtVPaxeB8a5YPU+zUuPlXj7xcm
-+uSxaZD3oykmOhweI9J2Djgw
-=8N2D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSW9qQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SpAP/RWiZAbNPs/9aZBP+Wbh
+J3FWtPPdEjwefkUlY6kVx5MSjMuk7aBHNlayJF63XBYHNrXR5jZjEN8pBZe6v7YI
+c4iVbKVh08FcxirXotLm71W0LDjwM2K5KM8v4tdVdPO/W7gjpG/MUVBTt6CSOvRN
+HY6h4zSkFSlOGiXOEKLvQa92brkI6I539kk19DepJCc5PyhwW5nBGE5OUoibPEFf
+73Lck8yMhgveQNMDAWnBxWWSWM6S6287Vo+tNP2UEhUjIesOIT7FPDmmThbX0gjh
+7QZyRUQnwggfpuM3jcT800x8zl0Qb/QxrvMMR3ZQlj6sLzTyYECXKhl8Ie2F6Iyc
+6XFnb4Aw9Ng7SdzsJ2EcH85hJBFcijB5gFP4BwQqhSMZ+l7hPbxMHZC4tAY7JW6R
+yZfFATYecsfvOqFvdPgfMBcWT0a+U4q2EJzDbW2CRuAexAHfip2HseuiikIeTR5G
+n7UiQ8GXs2qwVM6rsEt3T4O+VtvY1I7GxKBQh/b7AseLzRXrgCNCIyYWjKpf4AmC
+E1kemGZ4cNsiqNq75g+uEEooeezWSV65z2lTYCTjSxT6NBO+cOYqN/oHFGf8BeZJ
+DB28IdfdnHSyLNJj7kEm74/NtP2ljc7hl8AErlpSB/pBqTdS0Y+Vsrdf9DMla5Yu
+L8+5UmtsdYuH3PgjjAb8zhnW
+=WrTW
 -----END PGP SIGNATURE-----
 
---===============6073365395939835009==--
+--===============9125088215385525427==--
