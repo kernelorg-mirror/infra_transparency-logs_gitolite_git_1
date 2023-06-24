@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1141966668503657864=="
+Content-Type: multipart/mixed; boundary="===============6506124970309141732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sat, 24 Jun 2023 00:58:28 -0000
-Message-Id: <168756830891.32560.13004932863277655451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 24 Jun 2023 00:58:36 -0000
+Message-Id: <168756831621.32669.16563404790860968999@gitolite.kernel.org>
 
---===============1141966668503657864==
+--===============6506124970309141732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regulator-6.5
     old: ce44a03db73f7ce7cca152e07bd9cbfc3c10a0ba
     new: 54e47eade73046e860634736d2651ddc118ca694
     log: revlist-ce44a03db73f-54e47eade730.txt
 
---===============1141966668503657864==
+--===============6506124970309141732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1687568307 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1687568306-520a4d5d0e09d03437530e51e65b325b6604ca45
+pusher Mark Brown <broonie@kernel.org> 1687568314 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1687568314-d3cbd2a8315652d85176b3fa2230c80c84e551d2
 
-ce44a03db73f7ce7cca152e07bd9cbfc3c10a0ba 54e47eade73046e860634736d2651ddc118ca694 refs/heads/for-6.5
+ce44a03db73f7ce7cca152e07bd9cbfc3c10a0ba 54e47eade73046e860634736d2651ddc118ca694 refs/heads/regulator-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSWP7MTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HdPCACBX9MZVmmvLlYV19VadaZJgfap1bm7
-5X/ohNxP9wmpRSHcPpsAAoco1Yi2JnW2jldrnk6U3HlgVIeVJjy6vJZWRXqVpI4l
-xXHlMXpQb8rxIrGfOKAXMTCGi2iEFLfdJCLpUn03p6dIrlpAAIh31nKXhfKnVQry
-j0COb88Saogk5lAuGHjYX9vDclKule9hcShZISXssOUF7b5lBuqLh/TcwkJqLGp1
-apqJqfrgMWwNhx+tLDtAnEPO3F6ftL95EXotgvvVQIgpVQk06SSDM2eOzk+9Igfj
-zrPEF+AEwK/sniRLPSuATAPuUBpl9K+N3Cbonzho4K9UanRn+EAjRoLU
-=qoEu
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSWP7oTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Op9B/wPZxUOWBQtVAc+wk3xhNvBOhAaLHAE
+qAE9OmRT5VS9GYEyvrfjdifPBngC5xzihwaj0gf8pwaGR0uBE5zq/6pSWmQu9TRp
+LvnyC6y40CwGsCDWFtGyCRg8AJQqoJpAfd+QnGQTNGGL8FEaegBQgJMuVa7qQg4H
+BF4FOcrJesGFDVNRWz98EzmnBkFuwtZVyO5wAbY+HE0DSePzV2SbHYmp5teuWBXg
+zZaJQct0AXK8gRVVXAP5kRyFZJpnTdIZwBwQogVwvmVDY9j2hTYH3kQN8yVBKu1q
+RPWqnyF3iARrVdLwhR/lG1eXLpe/RsFM5mTHUwFGob5O7TuOjeGwPJ3L
+=ar3K
 -----END PGP SIGNATURE-----
 
---===============1141966668503657864==
+--===============6506124970309141732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -649,4 +649,4 @@ fff8f6b0723159f09eb2c067e626fb96402c0e53 regulator: dt-bindings: Add Renesas RAA
 7bce16630837c705f72e8fd53a11ae8c236236f4 regulator: Add Renesas PMIC RAA215300 driver
 54e47eade73046e860634736d2651ddc118ca694 Add Renesas PMIC RAA215300 and built-in RTC
 
---===============1141966668503657864==--
+--===============6506124970309141732==--
