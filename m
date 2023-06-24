@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 24 Jun 2023 22:06:52 -0000
-Message-Id: <168764441239.28160.4979871749086416148@gitolite.kernel.org>
+Date: Sat, 24 Jun 2023 22:11:20 -0000
+Message-Id: <168764468040.32654.3471390050513741368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a685d0df75b0357bf0720cafa30c27634063be0a
-    new: 28e219aea0b9ec374de27179c3d45b2d86bfe562
+    old: 28e219aea0b9ec374de27179c3d45b2d86bfe562
+    new: 6a11af7c21da0fdbba101452ddeec2dbe289b174
     log: |
-         28e219aea0b9ec374de27179c3d45b2d86bfe562 net: phy: broadcom: drop brcm_phy_setbits() and use phy_set_bits() instead
+         6a11af7c21da0fdbba101452ddeec2dbe289b174 revert "s390/net: lcs: use IS_ENABLED() for kconfig detection"
          
