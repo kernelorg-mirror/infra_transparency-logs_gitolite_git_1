@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Sat, 24 Jun 2023 07:05:24 -0000
-Message-Id: <168759032473.31001.14805241751602324560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 24 Jun 2023 08:07:42 -0000
+Message-Id: <168759406276.10193.13870454190357171874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/tags/mhi-for-v6.5
-    old: 0000000000000000000000000000000000000000
-    new: 148d7127a0433eda88a77833b3c794ba064793c1
+  - ref: refs/heads/for-next
+    old: 7947540d1d1e76297869921ed601e2f47fa6f27d
+    new: 29c171de52bcef23a7593a890cbcb6761be0123c
+    log: |
+         29c171de52bcef23a7593a890cbcb6761be0123c MAINTAINERS: adjust entry in VIA UNICHROME(PRO)/CHROME9 FRAMEBUFFER DRIVER
+         
