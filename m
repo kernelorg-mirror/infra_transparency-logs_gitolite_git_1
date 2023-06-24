@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 24 Jun 2023 22:19:57 -0000
-Message-Id: <168764519712.5320.18193973218641434882@gitolite.kernel.org>
+Date: Sat, 24 Jun 2023 22:21:41 -0000
+Message-Id: <168764530193.7538.9216774966231900448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 11b73313c12403f617b47752db0ab3deef201af7
-    new: 5f789f103671fec3733ebe756e56adf15c90c21d
+    old: 5f789f103671fec3733ebe756e56adf15c90c21d
+    new: ce3aee7114c575fab32a5e9e939d4bbb3dcca79f
     log: |
-         5f789f103671fec3733ebe756e56adf15c90c21d selftests: rtnetlink: remove netdevsim device after ipsec offload test
+         ce3aee7114c575fab32a5e9e939d4bbb3dcca79f gtp: Fix use-after-free in __gtp_encap_destroy().
          
