@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 25 Jun 2023 03:58:25 -0000
-Message-Id: <168766550590.15688.9992838279941402709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 25 Jun 2023 05:49:58 -0000
+Message-Id: <168767219833.29253.4387105648577558425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: 863d68525db42537c219f2c4c6895bfadd17f005
-    new: 636817bb0ac188fdbe64ac61182b6975232966d1
+    old: 8785077d6c69482a2814a2f771aaada2f6ea1894
+    new: 4ffb54079cde63894292b67c5cf1b62deb02a330
     log: |
-         636817bb0ac188fdbe64ac61182b6975232966d1 foo
+         ac8d461a2ce1ca3ea68099d75b5e6fd09f48fcef Make it harder to set invalid capabilities on files.
+         4ffb54079cde63894292b67c5cf1b62deb02a330 Add a check for a capabability of all spaces.
          
