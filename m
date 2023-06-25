@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sun, 25 Jun 2023 20:57:35 -0000
-Message-Id: <168772665507.2037.4186879719008961679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Sun, 25 Jun 2023 21:18:35 -0000
+Message-Id: <168772791503.17035.16221884612719319714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/tags/v6.4-rc7
-    old: 0000000000000000000000000000000000000000
-    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/heads/jitalloc/v2.3
+    old: d68891f625f21cd47f4900581289673c60e366d4
+    new: 0000000000000000000000000000000000000000
