@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sun, 25 Jun 2023 09:36:58 -0000
-Message-Id: <168768581869.26194.16383671971248423418@gitolite.kernel.org>
+Date: Sun, 25 Jun 2023 09:44:53 -0000
+Message-Id: <168768629359.13065.17112553039962270353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
   - ref: refs/heads/next
-    old: d0a1865cf7e2211d9227592ef4141f4632e33908
-    new: cb7f9f384b5b0e933676a834dd36449e326a4ad0
+    old: cb7f9f384b5b0e933676a834dd36449e326a4ad0
+    new: 36e60c0bb7d29e755e58136f8531708932838f3d
     log: |
-         cb7f9f384b5b0e933676a834dd36449e326a4ad0 efivarfs: Expose RandomSeed variable but with limited permissions
+         36e60c0bb7d29e755e58136f8531708932838f3d efivarfs: Expose RandomSeed variable but with limited permissions
          
