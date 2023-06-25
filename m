@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 25 Jun 2023 21:50:03 -0000
-Message-Id: <168772980369.7470.7938423700075846510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Sun, 25 Jun 2023 22:34:46 -0000
+Message-Id: <168773248602.4393.675202372997195824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: a92b7d26c743b9dc06d520f863d624e94978a1d9
-    new: 547cc9be86f4c51c51fd429ace6c2e1ef9050d15
+  - ref: refs/heads/main
+    old: d1c484c9b3a12d336711fa0e46716ca038f89783
+    new: 26d911e3de7ce3ee92c7872142078b19c20988f2
     log: |
-         b50f26a44887f3f71ff5457135ee1d5f1d542d7d perf/core: Drop __weak attribute from arch_perf_update_userpage() prototype
-         a6742cb90b567f952a95efa27dee345748d09fc7 perf/x86/intel: Fix the FRONTEND encoding on GNR and MTL
-         b9f174c811e3ae4ae8959dc57e6adb9990e913f4 x86/unwind/orc: Add ELF section with ORC version identifier
-         d082d48737c75d2b3cc1f972b8c8674c25131534 x86/mm: Avoid using set_pgd() outside of real PGD pages
-         85d38d5810e285d5aec7fb5283107d1da70c12a9 x86/apic: Fix kernel panic when booting with intremap=off and x2apic_phys
-         661e723b6fc7247e8aa6704651c49cd25c559f75 Merge tag 'x86_urgent_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         300edd751b102715dda0fe44b4bf8442f6ccf9db Merge tag 'objtool_urgent_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         547cc9be86f4c51c51fd429ace6c2e1ef9050d15 Merge tag 'perf_urgent_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         800c134496751eb675990238c3fc2ce2b40f3436 cycle_time: add boxed object to express cycle time
+         adbedb7ab7df4daf92922cf419eba3a4d79b2185 fw_node: add a new method to read CYCLE_TIMER register in 1394 OHCI controller
+         26d911e3de7ce3ee92c7872142078b19c20988f2 cycle_time: add methods to compute isochronous cycle from time stamp
          
