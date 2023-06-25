@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0316821191859952878=="
+Content-Type: multipart/mixed; boundary="===============1002916162610575346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 25 Jun 2023 17:32:32 -0000
-Message-Id: <168771435236.19629.10115264317826359626@gitolite.kernel.org>
+Date: Sun, 25 Jun 2023 17:32:40 -0000
+Message-Id: <168771436067.19737.16756855825113523534@gitolite.kernel.org>
 
---===============0316821191859952878==
+--===============1002916162610575346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: fbc5669de62a452fb3a26a4560668637d5c9e7b5
     new: 9ae440b8fdd6772b6c007fa3d3766530a09c9045
     log: revlist-fbc5669de62a-9ae440b8fdd6.txt
 
---===============0316821191859952878==
+--===============1002916162610575346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dc97391e661009eab46783030d2404c9b6e6f2e7 sock: Remove ->sendpage*() in favour of
 b848b26c6672c9b977890ba85f5a155e5eb221f0 net: Kill MSG_SENDPAGE_NOTLAST
 9ae440b8fdd6772b6c007fa3d3766530a09c9045 Merge branch 'splice-net-switch-over-users-of-sendpage-and-remove-it'
 
---===============0316821191859952878==--
+--===============1002916162610575346==--
