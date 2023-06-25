@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4783801760326320441=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 25 Jun 2023 23:19:17 -0000
-Message-Id: <168773515775.4325.16421944131428681386@gitolite.kernel.org>
-
---===============4783801760326320441==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 25 Jun 2023 23:31:12 -0000
+Message-Id: <168773587281.13066.4561416133455109691@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/rtc-next
-    old: 0e6f36cca1bd3f5257315b55d9f31519ea4cc059
-    new: 1b733a9ebc3d8011ca66ec6ff17f55a440358794
-    log: revlist-0e6f36cca1bd-1b733a9ebc3d.txt
-
---===============4783801760326320441==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e6f36cca1bd-1b733a9ebc3d.txt
-
-ac739bac5201d4308cba2525dacb5da654b3ff31 dt-bindings: rtc: isl1208: Convert to json-schema
-138f352556d791d7e0ca3ac9a4f4815123af8c82 dt-bindings: rtc: isil,isl1208: Document clock and clock-names properties
-380960c40a1d106bba3476c9a010eaf28195115d rtc: isl1208: Drop name variable
-fbc06a53561c64ec6d7f9a1b3bc04597de4cbb2d rtc: isl1208: Make similar I2C and DT-based matching table
-5923fc75d0dfcebce53894ddada7e2440d756f8b rtc: isl1208: Drop enum isl1208_id and split isl1208_configs[]
-262f72b4656e182eefaab91ab24a7575dda5524f rtc: isl1208: Add isl1208_set_xtoscb()
-fdd63f65ac25d0851dade4c7ba94a7a882b8d9c2 rtc: isl1208: Add support for the built-in RTC on the PMIC RAA215300
-7e2a60efab8ad901c4743137857c1c5e18e27ed8 rtc: rv3028: make rv3028 probeable from userspace
-487ef32caebe010f0ff0f17267230ebaf2177e67 dt-bindings: rtc: Split loongson,ls2x-rtc into SoC-based compatibles
-9fb23090658adbd7f8f44bf5c38aa3fc4b1699bd rtc: Remove the Loongson-1 RTC driver
-1b733a9ebc3d8011ca66ec6ff17f55a440358794 rtc: Add rtc driver for the Loongson family chips
-
---===============4783801760326320441==--
+  - ref: refs/heads/master
+    old: 547cc9be86f4c51c51fd429ace6c2e1ef9050d15
+    new: 6995e2de6891c724bfeb2db33d7b87775f913ad1
+    log: |
+         bd5c7104d41b62a2ae5d7f11d07e7c5f232eee42 dt-bindings: i2c: opencores: Add missing type for "regstep"
+         cd9489623c29aa2f8cc07088168afb6e0d5ef06d i2c: qup: Add missing unwind goto in qup_i2c_probe()
+         e69b9bc170c6d93ee375a5cbfd15f74c0fb59bdd i2c: imx-lpi2c: fix type char overflow issue when calculating the clock cycle
+         e3b2e2c14bcc12da2c463a7179db39139f682573 Merge tag 'i2c-for-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         6995e2de6891c724bfeb2db33d7b87775f913ad1 Linux 6.4
+         
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
