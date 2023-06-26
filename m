@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 26 Jun 2023 17:55:36 -0000
-Message-Id: <168780213680.22602.14890387376648626434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 26 Jun 2023 17:59:41 -0000
+Message-Id: <168780238128.24074.2574289963826880871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-6.5-merged
+  - ref: refs/tags/x86_cc_for_v6.5
     old: 0000000000000000000000000000000000000000
-    new: d5a1dcdcfea2d5767527bd56716c689c26d8ae51
+    new: a093ff3b6fa6ef4aa800b5d3595fec656f9848ac
