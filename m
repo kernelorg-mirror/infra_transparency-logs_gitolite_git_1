@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 26 Jun 2023 14:55:24 -0000
-Message-Id: <168779132499.20633.14350009574673135321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 26 Jun 2023 14:58:31 -0000
+Message-Id: <168779151100.21833.5443764093099858863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: e0d2e16c5c483aaa3e84eb0bb6bfbc60bc8cdd60
-    new: 2a4b950dc6f028dad00953e4fcc307ac690c2389
+  - ref: refs/heads/master
+    old: eee4ae24ca9d19df5a7ee4fa9c4ad660f4f78138
+    new: f741d62799ac51b4f5df0c14c3edf9dc2efdb8ee
     log: |
-         9a6c0e28e215535b2938c61ded54603b4e5814c5 HID: wacom: Use ktime_t rather than int when dealing with timestamps
-         2a4b950dc6f028dad00953e4fcc307ac690c2389 Merge branch 'for-6.5/wacom' into for-next
+         f741d62799ac51b4f5df0c14c3edf9dc2efdb8ee Fixes for 5.10
          
