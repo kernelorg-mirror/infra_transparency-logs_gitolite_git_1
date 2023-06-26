@@ -1,280 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
-Date: Mon, 26 Jun 2023 09:02:22 -0000
-Message-Id: <168777014290.8731.9127151257496171020@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2197236408417182446=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 26 Jun 2023 09:04:56 -0000
+Message-Id: <168777029694.9819.9454077283743589798@gitolite.kernel.org>
+
+--===============2197236408417182446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/linux
-user: wens
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/sunxi-clk-fixes-for-4.13
-    old: d29fbde4346a37ae32c3b9331cf8b9d6b03357a5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-fixes-for-4.16
-    old: d334f45dcd921f929b8c271dbbb3cb3512794867
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-fixes-for-4.19
-    old: 462be27c7f72018ed555d7b02fdda03710575c49
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-fixes-for-5.0
-    old: c6b152ddb2b5e01d101a1857b086f7e859a1e81d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.14
-    old: 3e976945e9f30f66a049aafe19d22857e5e305db
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.14-2
-    old: cdeb900a3232f64660f6bf5673b956cee0fe1a61
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.14-3
-    old: 3f2b76de2cd4ce8ec06a40f07919ee36f0637426
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.15
-    old: d21cc64a9af6975627057d4dd441d74eebceed03
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.16
-    old: 9639e1450ff582813fb9363430ed6b1fa2cd1671
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.16-2
-    old: b23670d2fd1ed9eb04fc507d0981de7714e11148
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.17
-    old: cfcea2df42ae7b7ec4818e4d78f4324af8218d72
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.18
-    old: f367769d700c04c5af45e8be28f5e63807772280
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.19
-    old: 1dd15e0ae3cb8b7e3e4431646ab5d182fe7ce83a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.20
-    old: d2a1f9468fe9f4045b55e0c969535e54163b5adb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-4.21
-    old: 5451b86df24150bb7214ab883004cc9ad0f3d0ff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-5.1
-    old: f4c78f9da069491cab2e8010d4487b4087cd9188
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-5.2
-    old: 8d8d604757a82a94bd0cdc614f42e70aaf3b215f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-clk-for-5.3-201906210814
-    old: e4b7e40d8a23523a3475422abc7ddcf7ef61b40b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-4.14
-    old: 3edf2b34dcd63b1f73bf2c603d33622a7556d679
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-4.16
-    old: d42983a898dbdef08fcf4f955e616fcc2259115d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-4.20
-    old: 51e3a3e691ea3646e3b1707acd8c365968ad393d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-4.21
-    old: 8a6bad66829320371185103ff74e0dcfed414b0d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-5.1
-    old: a32ce314c791aed1e6a47c07d2303bde3cf51c60
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-5.2
-    old: 2a44a77b0943d2636c71aeee050db00cfca22fb4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-config64-for-5.3-201906210813
-    old: 313ef6762141ae9b45c2f84ea8c9b0ea63b09601
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-core-for-4.15
-    old: 57c3627b89fad1222f212b7b518452ef73566b43
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-core-for-4.17
-    old: f85a10a4f14b16a04482171e60241036229b9d33
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-core-for-4.18
-    old: e76429f8e2f2f51fcebf53d041e1a190a34a8d18
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-core-for-4.21
-    old: 47621f67efcc68c16d928241762034dbe991600b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-defconfig-for-4.14
-    old: 0b8c656324089a283b2912f0f3fc59c1abb8dc00
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-drivers-for-4.14
-    old: 2ab535eabcf227ae8e3849dd6fbba25a3d515c11
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-drivers-for-4.19
-    old: f1aad3f2c6ec4a6c1ef581a26ee0087fe4f08e20
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-drivers-for-4.20
-    old: ea5beb276606913765d3ce4a1c86842342b0a411
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-drivers-for-4.21
-    old: 1da6685fe93ce1ea39101002fc5b1c5231d66bb7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.14
-    old: e32355b09b88abfe656288aaf804a47f43781d49
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.14-2
-    old: 99af12a0f2b712c8a1089d0ee8f833ac1494a8a9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.14-3
-    old: 9d850eca72478cdfceba11aa156812dab3d8f7c5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.15
-    old: 886b0b97f49d190b5c1140a06a1117f3cd5f138d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.15-2
-    old: 484ffdecf914e2f66b5d84e95e3a7ab3b88e3b55
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.16
-    old: a6ab5aa7968be4954905d2712ef8e17ed58478c4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.16-2
-    old: eac86046dbe2a87f29c6357c2b1702d0b1b22ca0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.17
-    old: c3598ca9df7615e16a5e2f73197e636f4a7df016
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.18
-    old: 65325dfd631ba87767cd51dca0dc0f2b5d684bdf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.19
-    old: 69a56bbbddff60ec518c10ca1619e7cc67567250
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.20
-    old: ab3d80b5186df6eaa5d58d129db7709cec08975a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.21
-    old: 12693fbe29a67b625b4ae8515f15176ddf83d853
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-4.21-2
-    old: 3c4533cbd9e0a5efef57187e27c4b643b8ccf103
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-5.1
-    old: a9d401160bef8947b672ee956637b8592868632f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-5.1-2
-    old: 637c3e4c290a8d5324c4b3a1accb4bc148797d96
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-5.2
-    old: 7bf6d19cef79321198eb3c224e00763adc08a7eb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt-for-5.3-201906210807
-    old: 0967a5218c44179da7c88f622ba365a03c5c3050
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.14
-    old: 6c7177d84f5167c9f1dc2cb40af8097ade2ec477
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.14-2
-    old: 6b04ea2711a18a2e02ebfe1cc7c5853cad88ea5a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.15
-    old: 18a884aca3f75465776ef8cdbab14e9dc29d9a13
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.15-2
-    old: 20819faaeae4218c40a1f7c02eddf0e3d1241474
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.16
-    old: e8788d0ba5af054fe80607a3ab6290a098693035
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.17
-    old: 0b5479bb094e7a0c53a0fd501d5877858ad9886e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.18
-    old: 832515a8c54958ac03c5be59d2f5af897a6bdcca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.19
-    old: bf2fa6179b80d21266a1890710d1318cf5d26f27
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.20
-    old: cd0c34ef0937c9cd3eb8f38251bb0b3c74a26b06
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.21
-    old: 58ed78c7eea59c79deaac8f781fe088d6fc6c961
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-4.21-2
-    old: 1822a7374d9c8de82eecd6df90af176044f294ad
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-5.1
-    old: f4e254507010efb0519d924571f3229d1b8c2151
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-5.1-2
-    old: ffc0ac68967a2d5cad442277af435bb7961d3787
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-5.2
-    old: 27ba612593477d419ac494b0d21a883adbec62bc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-5.3-201906210808
-    old: 0df20143414c4c9ade7a1bf0143f8e676451fa40
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-dt64-for-5.3-round-2
-    old: 9e22cd0956eac073998989ad1f8550c151c4d5d4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.13
-    old: ac282fa7fb1c006a3755fd89e10ebed7903bfbcf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.13-2
-    old: bcc129d0d97dc81b4a0243144fd07e0e8b5158c7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.13-3
-    old: 84d13d096815430fa9323012bda11c4f98f0fcf7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.14
-    old: 4324f13fde710063e8e484ae57e3fa19371d762f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.15
-    old: 76461cffba808f915b74687e5db551d7b05fc71b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.15-2
-    old: c4f51935071d13da250077ac0bb814ade05e6fbc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.16
-    old: 36b3a7b9272003f4116f205e36e4b9bec660aeb0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.17
-    old: 972fc5dc774383cea135e09bf98e86e2e1a38e14
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.19
-    old: 21016d6aa8b6acdf40a2b62783795cf686ce310c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.19-2
-    old: 324e26063d1e8f307284c732e3f553e22e960120
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-4.20
-    old: 786afc4e904970cec7e02a42e32b9922eaa8c37c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-5.0
-    old: 6b45d7feb321529af83826e9e3b3cbd3f5ac6f14
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-fixes-for-5.1
-    old: 1d9c266c10141c7198324df4dcf75b8987739f95
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-4.17
-    old: 9f3d80eaa9728a250c65624e2f09068b4c35c9da
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-4.18
-    old: 4a05b0c96b9908e445e13768c21cb5dfb7903ad7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-4.19
-    old: 10c3b3690cf35dd1f89b380860da348e376563c4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-4.20
-    old: 7bc2bf377e118868dcc70d28d9116834417748f7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-4.21
-    old: 728735736cb91157165b5c95c6cb6d672cafe387
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-5.1
-    old: 2f68094c8de9914ae7458e0e5ede9430963bfe03
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-5.2
-    old: 88626f4b4bb4c09d32250fa354f2b13eb4dd1ddf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-h3-h5-for-5.3-201906210812
-    old: 49ee72a9e2a68b714fd61e19c99978dac50794b5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sunxi-ng-parent-rewrite-part-1-take-2
-    old: 91273c12f98ce2e4b3feb0ad09ba55e078cbbd83
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/timers/core
+    old: ccaa4926c2264ca2a2fcad4b3511fe435d7d4d15
+    new: d2b32be7debd6c0deeae95844997bd89fbe4769d
+    log: revlist-ccaa4926c226-d2b32be7debd.txt
+
+--===============2197236408417182446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ccaa4926c226-d2b32be7debd.txt
+
+ea95051063f95bf612683f5697e44604d0cbd0f1 clocksource/drivers/ingenic-timer: Use pm_sleep_ptr() macro
+9e130e2be4e7ac54de1ecc3fa424ca7ddfb1a748 MIPS: Loongson32: Remove deprecated PWM timer clocksource
+b25efff2a63f0d573f409f22e82904db9cc7d577 dt-bindings: timer: Add Loongson-1 clocksource
+e738521a11f13e40af89f66527e59306c4169782 clocksource/drivers/loongson1: Move PWM timer to clocksource framework
+95aded1b1c409fb2e902c6bd455068700ac38878 clocksource/drivers/imx-gpt: Use only a single name for functions
+011da162da2f915989a571b557867f7eea699000 clk: imx: Drop inclusion of unused header <soc/imx/timer.h>
+281bf6b94aec092096d788b56c106a8c9c2a432a clocksource/drivers/imx-gpt: Fold <soc/imx/timer.h> into its only user
+038d454ad996a5e275d46188d65d890d2a243f36 dt-bindings: timer: brcm,kona-timer: convert to YAML
+e5313f1c540434b18ea57927633b1584c534b14a clocksource/drivers/hyper-v: Rework clocksource and sched clock setup
+6d0d4df8e7e1fe22d961d667c2bfa40c3d5022e8 dt-bindings: timers: Add Ralink SoCs timer
+8b5bf64c89c7100c921bd807ba39b2eb003061ab clocksource/drivers/cadence-ttc: Fix memory leak in ttc_timer_probe
+d2b32be7debd6c0deeae95844997bd89fbe4769d Merge tag 'timers-v6.5-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
+
+--===============2197236408417182446==--
