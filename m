@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 26 Jun 2023 08:28:49 -0000
-Message-Id: <168776812980.17031.17238181546402806520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Mon, 26 Jun 2023 08:41:38 -0000
+Message-Id: <168776889800.27426.16053854958481308349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/main
-    old: f1bc9fc4a06de0108e0dca2a9a7e99ba1fc632f9
-    new: d1b355438b8325a486f087e506d412c4e852f37b
-    log: |
-         d1b355438b8325a486f087e506d412c4e852f37b sfc: fix crash when reading stats while NIC is resetting
-         
+  - ref: refs/tags/landlock-6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c7dec7aeffda08548e7eedff0e138b2a01fb555f
