@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 26 Jun 2023 14:17:59 -0000
-Message-Id: <168778907914.25995.3061536861143306696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Mon, 26 Jun 2023 14:20:17 -0000
+Message-Id: <168778921716.28403.15189328307489785464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/b4/fs-btrfs-mount-api
-    old: 514793a2fdff1b8a351fd8215524f33ed1949b1a
-    new: ca0d1f24b607d0ec7a4dc498a23d8ebd7f83a38d
+  - ref: refs/heads/next
+    old: 83060132e4c3670a20393f3ed3ae5c6d4aea3c8e
+    new: c07bc504269211f88beca012dad934de8cc6027b
     log: |
-         5a5d6c1e90237e057d60a5d4bf84fb83ca2b804d btrfs: port to new mount api
-         8ed221e9387097f7a06dc2c188cc3cac5bb2009a fs: indicate request originates from old mount api
-         ca0d1f24b607d0ec7a4dc498a23d8ebd7f83a38d btrfs: port to new mount api
+         196d7a43297885ca86cb44adcfcc8cc3b2f7bd24 doc: fix a typo in draft-bottomley-tpm2-keys.xml
+         058fdde98ce658d1d3f67e08f55fce6e68c38319 intel-tss: fix openssl3 code
+         c07bc504269211f88beca012dad934de8cc6027b tpm-common: remove support for < 256 bit elliptic curves
          
