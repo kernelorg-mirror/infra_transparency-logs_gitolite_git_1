@@ -1,53 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2009314841332468723=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 26 Jun 2023 05:52:53 -0000
-Message-Id: <168775877315.30185.4145315355359718648@gitolite.kernel.org>
-
---===============2009314841332468723==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Mon, 26 Jun 2023 06:14:36 -0000
+Message-Id: <168776007667.14300.17022643468255707450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/linux-6.4.y
-    old: 0000000000000000000000000000000000000000
-    new: 6995e2de6891c724bfeb2db33d7b87775f913ad1
-
---===============2009314841332468723==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687758771 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1687758771-2cc86db496cadde15b494cfbc87b0ce20f4a42cc
-
-0000000000000000000000000000000000000000 6995e2de6891c724bfeb2db33d7b87775f913ad1 refs/heads/linux-6.4.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSZJ7MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v64P/j85AMShEPyMes498eT3
-5WwganIc/g7x7kFQB3k0sosLYjPBHqQySf0QJNYYaAN8dN1NjQ5WMvXjVmuieXuf
-fsY12THmuWeUY80lDg0k02q398uiAO72KtwoE1CyPI7aBFH7eGJOREwgjsPnuHTi
-3nx7ZvOT+19nkKkoWtA2rpTOJALsL69ywG0WvUH6QtckCd/fA+4ANErT2bg+Q9SW
-SQttA2olrU8UzXrTA/907pnVEsoyKrNYN5gSB0OX6/do7ifUevu83s/1R4oPlZtN
-PMFGhxkesHh+GriG+gdhL5aegnXBB/k2ewIsa6VdeS/kL9BnQQ81C9QVmt09YMdY
-8zFY3+yhqSqAKn/B+RvbY86GBnDNFJBeknvQYk+zfimJZURDrbfEOO7namS5XE7B
-L6HqcsrBs6fP1wLh7rd+36kt00SXknUlugiNtAhkqo0YcDHao6ornh1aw8R5Ynnn
-Ic+0ZMn3RVoeqB3d28THPROiDnyf8lah99Gr73FATw5XKtjr1xQ/oxk4IbArC8tF
-wTY4DCZpEJKWK8oaJpn9z37Oxp2hcdNZP93ArQflYqpjS3ZXBZIeVWPNyYbBQj3r
-GAc8gL4jxZmMp2nNtiL9HkJeph8WpzdZVVsbN+jUnuyz3xHGCK2V9M+8y7O7UwP4
-VkWeCmbEmp2gEcD+F5kjPAW9
-=KOoZ
------END PGP SIGNATURE-----
-
---===============2009314841332468723==--
+  - ref: refs/heads/main
+    old: 4f325e26277b6a1381235008ca6fa97e6cc8f43b
+    new: a412dbf40ff37515acca4bba666f5386aa37246e
+    log: |
+         de6843be3082d416eaf2a00b72dad95c784ca980 netfilter: nft_payload: rebuild vlan header when needed
+         78aa23d0081b2029a5763c4f7d396bf2666c0c87 netfilter: ipset: remove rcu_read_lock_bh pair from ip_set_test
+         96b2ef9b16cb302d0b47c5670d30a05963e0e1e3 netfilter: nf_tables: permit update of set size
+         4589725502871e77d06464f731f92fd9173e2be6 netfilter: snat: evict closing tcp entries on reply tuple collision
+         079cd633219d7298d087cd115c17682264244c18 netfilter: nf_tables: Introduce NFT_MSG_GETSETELEM_RESET
+         a412dbf40ff37515acca4bba666f5386aa37246e netfilter: nf_tables: limit allowed range via nla_policy
+         
