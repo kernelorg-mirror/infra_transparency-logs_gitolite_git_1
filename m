@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 26 Jun 2023 14:37:22 -0000
-Message-Id: <168779024244.7257.275033131837153542@gitolite.kernel.org>
+Date: Mon, 26 Jun 2023 14:47:54 -0000
+Message-Id: <168779087472.14795.16897943215424820453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 96c52d3e595be1ef0c247d53882abf8052d1a752
-    new: 370bf6825d2750b8328d0d1aeeb8075c2edb174c
+  - ref: refs/heads/v2.0.x
+    old: 7e4aba39d26eb3de6f27c13d229536db6f21c213
+    new: ffe476a844698329f28d14a2460000805fc2f967
     log: |
-         370bf6825d2750b8328d0d1aeeb8075c2edb174c gpiosim: fix data race that corrupts heap
+         ffe476a844698329f28d14a2460000805fc2f967 gpiosim: fix data race that corrupts heap
          
