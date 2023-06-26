@@ -1,34 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 26 Jun 2023 16:01:09 -0000
-Message-Id: <168779526988.4018.5917913373610549565@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8676319206663708206=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 26 Jun 2023 16:01:15 -0000
+Message-Id: <168779527552.4137.5062496288945372857@gitolite.kernel.org>
+
+--===============8676319206663708206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/v6.4-rc2
+  - ref: refs/tags/slab-for-6.5
     old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
-  - ref: refs/tags/v6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9632302b68e03c8579120884b22c4e4dc2340e43
-  - ref: refs/tags/v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
-  - ref: refs/tags/v6.4-rc7
-    old: 0000000000000000000000000000000000000000
-    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
-  - ref: refs/tags/v6.4
-    old: 0000000000000000000000000000000000000000
-    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+    new: 5715c9243809147a833864155baabe9064c4fe05
+
+--===============8676319206663708206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1687795272 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1687795271-7b1dbbb88242ff6a7b79518ea953b334c241b1e2
+
+0000000000000000000000000000000000000000 5715c9243809147a833864155baabe9064c4fe05 refs/tags/slab-for-6.5
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmSZtkgACgkQu+CwddJF
+iJqUewf/eC1tZFP9G5vH3/68dl548tt3fzw/Zw9XBZGkBe5UmjxlcsbNy7wSLi0C
+Zz6Gu7BJRAb45IKciVT2LvYmTVkWCi/PhFVlrjk8BTefsto9tfZ6pI38944vngXt
+FW+7VHNqt81cVYDurm17p4ONXn9xVW1J57MqREFRhMam1inZ0Tu0vVFMuNHixRps
+OYOtqXTCfbx2Dku86QHED0WpjulCXrW+2SC0zipEws6bCpgp/9trtUB39HfZbRlu
+Ett7lH7ahU+SmKYfrfzGrg9JNxy1uwqDIf/W0+Ve7VUgn/RO+GwDoBpwd3Dr5mez
+edWqqkw4JT41bLrzrq3q/ZZl5DAhLQ==
+=jx89
+-----END PGP SIGNATURE-----
+
+--===============8676319206663708206==--
