@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4437312986014855266=="
+Content-Type: multipart/mixed; boundary="===============3481426858673625751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 Jun 2023 10:13:43 -0000
-Message-Id: <168777442381.9274.9804446939397489711@gitolite.kernel.org>
+Date: Mon, 26 Jun 2023 10:13:58 -0000
+Message-Id: <168777443803.9412.1119586439916149382@gitolite.kernel.org>
 
---===============4437312986014855266==
+--===============3481426858673625751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-linus
-    old: b845b574f86dcb6a70dfa698aa87a237b0878d2a
-    new: 4055eabe04a26f5d113b5a02588b20b5e166a753
-    log: |
-         0e96647cff9224db564a1cee6efccb13dbe11ee2 nubus: Partially revert proc_create_single_data() conversion
-         b7629ce6f492eb2d48b9ee1dab5980c7278514c1 nubus: Remove proc entries before adding them
-         72b44f6577f15f37fe964c8dcc42a7c5736e604c nubus: Don't list slot resources by default
-         4055eabe04a26f5d113b5a02588b20b5e166a753 m68k: defconfig: Update defconfigs for v6.4-rc1
-         
-  - ref: refs/heads/master
-    old: e3fd27df1ffd70c33ef33b0b59902ecdb4e51652
-    new: 908f2ae6a112cfddb175e47343b5608173c41760
-    log: revlist-e3fd27df1ffd-908f2ae6a112.txt
+  - ref: refs/heads/m68k-queue
+    old: 4085215d95d0a087a8112eaf098879f26bbf2ab0
+    new: 3e61457e9c28626b1ca28c810d814cd713464578
+    log: revlist-4085215d95d0-3e61457e9c28.txt
 
---===============4437312986014855266==
+--===============3481426858673625751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3fd27df1ffd-908f2ae6a112.txt
+Content-Disposition: attachment; filename=revlist-4085215d95d0-3e61457e9c28.txt
 
 a61675294735570daca3779bd1dbb3715f7232bd ieee802154: hwsim: Fix possible memory leaks
 e3a0877e7e66b465588f6262680437024edccb9f MAINTAINERS: Update wpan tree
@@ -274,6 +265,11 @@ a92b7d26c743b9dc06d520f863d624e94978a1d9 Merge tag 'drm-fixes-2023-06-23' of git
 547cc9be86f4c51c51fd429ace6c2e1ef9050d15 Merge tag 'perf_urgent_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e3b2e2c14bcc12da2c463a7179db39139f682573 Merge tag 'i2c-for-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6995e2de6891c724bfeb2db33d7b87775f913ad1 Linux 6.4
-908f2ae6a112cfddb175e47343b5608173c41760 Merge tag 'v6.4'
+22d4de6ab87710d3c35f535d3915f9b41a6e46e5 nubus: Partially revert proc_create_single_data() conversion
+f8aa9ff882493dcb4edfa267af91d7e15fc1549e nubus: Remove proc entries before adding them
+2576708ff40c3b15ebafafb144bbd14512be4be9 nubus: Don't list slot resources by default
+7930c874ec74aea4a3b3a6fd4436772d022cb6c6 m68k: atari: usb: Add ISP1160 USB host controller support
+1a9430436dd877e031859be7e049b4beaa11e4d3 m68k: atari: Update Kconfig.bus help text
+3e61457e9c28626b1ca28c810d814cd713464578 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4437312986014855266==--
+--===============3481426858673625751==--
