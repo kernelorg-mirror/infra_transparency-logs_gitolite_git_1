@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 26 Jun 2023 13:32:40 -0000
-Message-Id: <168778636007.24676.11219183185657110180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 26 Jun 2023 13:32:55 -0000
+Message-Id: <168778637541.24835.14863661766930204086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/tags/asoc-v6.5
+  - ref: refs/tags/regmap-v6.5
     old: 0000000000000000000000000000000000000000
-    new: d01260f3bbf49e5ec0ad39fa78f96f1274792635
+    new: 8fd40404eaacd86618b4b5d7124648b8837dc4c0
