@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Mon, 26 Jun 2023 21:43:11 -0000
-Message-Id: <168781579148.23928.15341459300153591823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 26 Jun 2023 21:44:39 -0000
+Message-Id: <168781587940.24553.3443814699799093988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/tags/ext4_for_linus_stable
-    old: fba0c64c8c66a7d8c1f4487a2c9fe8fcfa9d815b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/wq-for-6.5
+    old: 1827853d2ad765676f197616cd8a6697df2b4c83
+    new: 269430a4bf58728393a9a1630f2c699a921806d1
