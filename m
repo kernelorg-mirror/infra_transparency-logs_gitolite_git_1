@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 26 Jun 2023 22:01:50 -0000
-Message-Id: <168781691018.4482.14850857496875953402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Mon, 26 Jun 2023 22:04:48 -0000
+Message-Id: <168781708812.5575.1372964909461546527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/tags/wq-for-6.5-cleanup-ordered
+  - ref: refs/tags/counter-fixes-for-6.5a
     old: 0000000000000000000000000000000000000000
-    new: 993ca4efa8d1ea27efb585f294553a4f993c10e4
+    new: f24497047e2cc54204e9b86b994b06216ac8c178
