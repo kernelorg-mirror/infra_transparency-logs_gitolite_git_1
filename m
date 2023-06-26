@@ -1,43 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2535206972899656698=="
+Content-Type: multipart/mixed; boundary="===============8620501050768408724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 26 Jun 2023 15:23:17 -0000
-Message-Id: <168779299786.7594.12431756317748758822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 26 Jun 2023 15:24:15 -0000
+Message-Id: <168779305565.8024.5632809360838117180@gitolite.kernel.org>
 
---===============2535206972899656698==
+--===============8620501050768408724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6f68fc395f49fb43f6ae801c340953ee4f793e98
-    new: 6709d4b7bc2e079241fdef15d1160581c5261c10
-    log: revlist-6f68fc395f49-6709d4b7bc2e.txt
+  - ref: refs/heads/master
+    old: f741d62799ac51b4f5df0c14c3edf9dc2efdb8ee
+    new: 75b6d02b49afbc2f81f365d3e8bf0c9afe68c182
+    log: |
+         e1341585d84178cb43140c01dc0f6413ba8c6a3c 5.10-stable patches
+         75b6d02b49afbc2f81f365d3e8bf0c9afe68c182 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         
 
---===============2535206972899656698==
+--===============8620501050768408724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f68fc395f49-6709d4b7bc2e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9c50e2b150c8ee0eee5f8154e2ad168cdd748877 igc: Fix race condition in PTP tx code
-ce58c7cc8b9910f2bc1d038d7ba60c3f011b2cb2 igc: Check if hardware TX timestamping is enabled earlier
-afa141583d82725f682b2fa762cb36a07f58b3f3 igc: Retrieve TX timestamp during interrupt handling
-c789ad7cbebcac5d5f417296c140a1252c689524 igc: Work around HW bug causing missing timestamps
-1b5ea7ffb7a3bdfffb4b7f40ce0d20a3372ee405 net: bcmgenet: Ensure MDIO unregistration has clocks enabled
-6a940abdef3162e5723f1495b8a49859d1708f79 bonding: do not assume skb mac_header is set
-eb441289f940c86df47db95044820fa5cf90c21f Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-11b73313c12403f617b47752db0ab3deef201af7 sch_netem: fix issues in netem_change() vs get_dist_table()
-5f789f103671fec3733ebe756e56adf15c90c21d selftests: rtnetlink: remove netdevsim device after ipsec offload test
-ce3aee7114c575fab32a5e9e939d4bbb3dcca79f gtp: Fix use-after-free in __gtp_encap_destroy().
-f1bc9fc4a06de0108e0dca2a9a7e99ba1fc632f9 net: axienet: Move reset before 64-bit DMA detection
-d1b355438b8325a486f087e506d412c4e852f37b sfc: fix crash when reading stats while NIC is resetting
-6709d4b7bc2e079241fdef15d1160581c5261c10 net: nfc: Fix use-after-free caused by nfc_llcp_find_local
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687793054 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1687793053-aebaeb1f6ba576fca35db2bbad32125c819b42c5
 
---===============2535206972899656698==--
+f741d62799ac51b4f5df0c14c3edf9dc2efdb8ee 75b6d02b49afbc2f81f365d3e8bf0c9afe68c182 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSZrZ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c9gP/j2WTr8zajM2eOzvSpb0
+MGRXughVNx0jLfr4VFsRNC/kRdZvHNeGiSiaL1E2srIDD2uMdUKBOG9Lqn8UAiRX
+3mybRNIG8tQd7ar0xrKPqa26PigNv91qdGgmD5iv3f8dQRHdBKM/4Oh5MxxIf8YY
++RpvS70R1yuqVRNjCWAx6F7edCWtByyMDYJGWY14Y6DR/dQhSepeF6UPpYPmnWgP
+k2WfNpF8GXvoPX6vBhdrDwEdPeHzOIOpSHV8iPQ+y3HPOOYaXl8d6tpGKJTMNmW3
+UdYQULvpRTLy3l1WIR55g6cM6LYjADc3XAGqRLiKb9uotIsCRSMeNTsc9Y2YNuv+
+ONel413Yx+U8evWNiDOwG98uRAgvvNfv8MGJLBq6lAJRHMEgmTV0Tqf9U3th8EDW
+UTZFcwO/4cNo+9PPMfqdba7yEiHkg3GInfZq84k4+R6ak1apEsCzWf34+aNWwMw/
+HFgDUkmlQkvlaHpjEEF2PwCKR0fOQIsIvfkBwmxyiL5rGp0hGxwTZIWenpK4t1zn
+z/fQsRPKku7L3JMP0iIkG5dmtecu1A2A082DvRtwU+a+z5NWdG+ktx9F4TkWJklY
+w9rdt91s7env5ZFOW4wk7HLxpKuKGg4R/PXsqb6E1He0JLB2ltdq9LnDDCJE/8O3
+N1pG3Hmi0hW7MnBGGSnbSWP0
+=ACFT
+-----END PGP SIGNATURE-----
+
+--===============8620501050768408724==--
