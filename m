@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3669495698632977923=="
+Content-Type: multipart/mixed; boundary="===============5083213594580064579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 26 Jun 2023 16:01:28 -0000
-Message-Id: <168779528847.4304.2955226162060474430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 26 Jun 2023 16:01:32 -0000
+Message-Id: <168779529292.4370.8254708237829348430@gitolite.kernel.org>
 
---===============3669495698632977923==
+--===============5083213594580064579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: d99a51196742650743cb0ef0f5abac535b1b4dee
-    new: 120548d8a2810ceb860fa6ae016d02fce47c6a93
-    log: revlist-d99a51196742-120548d8a281.txt
+    old: 5eba58b16e86b49fddf40450359fc3f1c19b6a8e
+    new: 6562f24b062008390199f85e60824e48e2da821e
+    log: revlist-5eba58b16e86-6562f24b0620.txt
 
---===============3669495698632977923==
+--===============5083213594580064579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d99a51196742-120548d8a281.txt
+Content-Disposition: attachment; filename=revlist-5eba58b16e86-6562f24b0620.txt
 
 77af1f2b9a2464e4bce20cfd32bfb2390c67de7c Merge tag 'thermal-6.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 abac3ac97fe8734b620e7322a116450d7f90aa43 batman-adv: Broken sync while rescheduling delayed work
@@ -1049,6 +1049,6 @@ a92b7d26c743b9dc06d520f863d624e94978a1d9 Merge tag 'drm-fixes-2023-06-23' of git
 547cc9be86f4c51c51fd429ace6c2e1ef9050d15 Merge tag 'perf_urgent_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e3b2e2c14bcc12da2c463a7179db39139f682573 Merge tag 'i2c-for-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6995e2de6891c724bfeb2db33d7b87775f913ad1 Linux 6.4
-120548d8a2810ceb860fa6ae016d02fce47c6a93 audit: add a Linux Audit specific README.md and SECURITY.md
+6562f24b062008390199f85e60824e48e2da821e selinux: add a SELinux specific README.md and SECURITY.md
 
---===============3669495698632977923==--
+--===============5083213594580064579==--
