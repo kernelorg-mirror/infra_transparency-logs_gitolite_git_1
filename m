@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Jun 2023 11:13:34 -0000
-Message-Id: <168777801492.20222.10068398759270542747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Mon, 26 Jun 2023 11:17:08 -0000
+Message-Id: <168777822895.23109.15675169446353952139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/tags/timers-core-2023-06-26
-    old: 0000000000000000000000000000000000000000
-    new: dc9792fa845dbb36d9ce326d01198ff2f934cb8c
+  - ref: refs/heads/probes/core
+    old: 362042656f7599d98ada3518d44ccb73f8776577
+    new: 53431798f4bb60d214ae1ec4a79eefdd414f577b
+    log: |
+         cf9071dd46e72bd51c116b84fe33bf671ab3ae65 selftests/ftrace: Add new test case which adds multiple consecutive probes in a function
+         5985329c7073924afc19132456d212e1e8b57b1f selftests/ftrace: Add new test case which checks for optimized probes
+         ed5f297802fca41d88fbfa6f9c13b218e7c6f5cb tracing/probes: Fix to return NULL and keep using current argc
+         a2bd0c08a459b4cb8da57cc9c754de5e45d7a61e Documentation: Fix typo of reference file name
+         53431798f4bb60d214ae1ec4a79eefdd414f577b tracing/probes: Fix tracepoint event with $arg* to fetch correct argument
+         
