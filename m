@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 26 Jun 2023 06:40:47 -0000
-Message-Id: <168776164748.2090.6543621877532013803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 26 Jun 2023 06:44:20 -0000
+Message-Id: <168776186061.3357.15056657382809678248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 7c41cdcd3bbee5d49de9d4821b15e49d155ff22b
-    new: fa155f4f834882a79788218aea4914568b41dd0f
+  - ref: refs/heads/misc
+    old: 2aa5ac633259843f656eb6ecff4cf01e8e810c5e
+    new: f01e0c59a1c9fa691d1d82c87ef2abdeacf0b58f
     log: |
-         fa155f4f834882a79788218aea4914568b41dd0f OPP: Use dev_err_probe() when failing to get icc_path
+         f01e0c59a1c9fa691d1d82c87ef2abdeacf0b58f Documentation: PCI: correct spelling
          
