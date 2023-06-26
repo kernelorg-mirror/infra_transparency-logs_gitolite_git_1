@@ -1,122 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============0245886230443739869=="
+Content-Type: multipart/mixed; boundary="===============4046864813114067521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 26 Jun 2023 18:07:45 -0000
-Message-Id: <168780286574.31919.7453556307796684843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
+Date: Mon, 26 Jun 2023 18:07:51 -0000
+Message-Id: <168780287128.32065.3966125753673331581@gitolite.kernel.org>
 
---===============0245886230443739869==
+--===============4046864813114067521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sre/linux-misc
+user: sre
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 4e956dec52e633231382243ff061407315a709d6
-    new: 824b023c3cda00fe610c1f79d14a6223d68f425f
-    log: revlist-4e956dec52e6-824b023c3cda.txt
+  - ref: refs/heads/rk3588
+    old: 96f4443b4bb519c16004070d24f77aae00812819
+    new: d2c3dc48e1c666a2b0a018797d29c864cf71611c
+    log: revlist-96f4443b4bb5-d2c3dc48e1c6.txt
 
---===============0245886230443739869==
+--===============4046864813114067521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-96f4443b4bb5-d2c3dc48e1c6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687802863 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1687802862-9a703342067b6370dfa994acf2e0bb3f059a633d
+68e2ad5132d02bb7ceaf1c9f9c998c0d71a0ab42 arm64: dts: rockchip: rock-5a: add PMIC
+8df475ed3cacc9f6c2cf9ff42eb03f97950ae274 arm64: dts: rockchip: rock-5a: Add SD card support
+e97cdc94243bed32b18178e1c76d58be7f3b7606 arm64: dts: rockchip: rock-5a: Add vdd_cpu_big regulators
+67e8edd5b88d126f1d98b4df256b68767a76cbff arm64: dts: rockchip: rock-5a: Add status LED
+85209678c4ef3ab041890bd989bd9404e3d6524c arm64: dts: rockchip: rock-5a: Add analog audio
+7aac41c770ad1d6f3f3ad3bb2e17e2c36e786fac arm64: dts: rockchip: rock-5a: Add I2C EEPROM
+2dd5fd4ee72ed9a89798ab3f19504f081b56da42 cpufreq: rockchip: Introduce driver for rk3588
+deb2da9d15d47c5fa9d204dc72d9247db12de00e arm64: dts: rockchip: rk3588: add cpu frequency scaling support
+122c00bb6dccbcd70e319cebe12066cd009ccaee arm64: dts: rockchip: rk3588-evb1: enable tsadc
+42f75a198192adc7d244853bc33b0a5d5f528401 arm64: dts: rockchip: rk3588-evb1: add cpu mem regulator info
+a5c2c26cfb47ab5402777ed21bc25322c255f4d4 soc: rockchip: power-domain: add rk3588 mem module support
+1fa9feb7e07ac3f28f36bd3a119336ee151da53a dt-bindings: usb: Add RK3588 OHCI
+3f36eada34334d2a83ae9fbfd012e413eb1084cb dt-bindings: usb: Add RK3588 EHCI
+726ffbb57af50e802681f9c27c3991fd7dac3b6c usb: host: ohci-platform: increase max clock number to 4
+f9be84cd42d970a677dd7f566c05a8c31ef4531a dt-bindings: soc: rockchip: add rk3588 usb2phy syscon
+18c810afbece2da32120e13034abfc888beba9c8 dt-bindings: phy: rockchip,inno-usb2phy: add rk3588
+528431e3737ac56903d06ee617cdf7b79ec249a9 phy: phy-rockchip-inno-usb2: add rk3588 support
+4b14d1ce3cf0c78c45f12f08022141d5c73e6090 phy: phy-rockchip-inno-usb2: add reset support
+27217b0ef20e9092bbc6ca1c74defa4831bb3069 phy: phy-rockchip-inno-usb2: add rk3588 phy tuning support
+ed82667aca242b9070ec09be84bab4bb0717bc5d phy: phy-rockchip-inno-usb2: simplify phy clock handling
+614c4483a1db891380bb261cc206bc612cb544ac phy: phy-rockchip-inno-usb2: simplify getting match data
+3d278af10b699f8d7f019dd87ca06aa6ee9a340b phy: phy-rockchip-inno-usb2: improve error message
+16246a052a466d4f93f045cc74c18f828bdcfa4c arm64: dts: rockchip: rk3588: add USB2 support
+828176318df93977cc4e078e7467af6b412febb3 arm64: dts: rockchip: rk3588-evb1: add USB2
+d5bd223fa8e5ca03034a55fb430aebb8a43a1580 arm64: dts: rockchip: rk3588-rock5b: add USB2
+fba80e265ae60242cfcfa33c912c1a23e65d8471 dt-bindings: soc: rockchip: add rk3588 pipe-phy syscon
+611b62a0cc9b3370fada11bed14719f912a96cbb dt-bindings: ata: dwc-ahci: add PHY clocks
+296d0054a85a492b7721243e511fb4c1c5153d06 dt-bindings: ata: dwc-ahci: add Rockchip RK3588
+5618f6b7c58565764cfa7b007677ace281701f57 dt-bindings: phy: rockchip: rk3588 has two reset lines
+154a9cb0a987be8986d930afd8ed1085b8832e67 arm64: dts: rockchip: rk3588: add combo PHYs
+806402683e154796a7d6689a350d5fc6f19ef028 arm64: dts: rockchip: rk3588: add SATA support
+31c4f80a57f16b0124be927a1af88086ed0d7594 arm64: dts: rockchip: rk3588-evb1: add SATA
+4dbfa301df452c70762736d103ad6de16923788c arm64: dts: rockchip: rk3588: add GIC ITS support
+355e7100d90d953e7b4161b422188417b02b465b dt-bindings: PCI: dwc: rockchip: Fix interrupt-names issue
+b781630f1b045dc77ae3f00f61315e996b3d19e3 dt-bindings: PCI: dwc: rockchip: Add missing legacy-interrupt-controller
+853ac4c1c3a9cc66b0aa72ea613aeb83bff7e129 dt-bindings: PCI: dwc: rockchip: Update for RK3588
+5e8ddbf7078ed12804646d3cc3c52822e44b7cf9 arm64: dts: rockchip: rk3588: add PCIe2 support
+b56b494c0f9ccbc1a653ad29218ba56809dd026b arm64: dts: rockchip: rk3588-evb1: add PCIe2 network controller
+39d2c3f435aace607953b2a75c2e5e4fb996a6d1 arm64: dts: rockchip: rock-5b: add PCIe network controller
+91b2dc60c47fe1cc1804a4a574f0016038c932f2 arm64: defconfig: Enable ethernet for Rock 5B
+84916b009644417aa38a2433edda1474179b989e arm64: defconfig: Enable Sound Card for Rock 5B
+ff99d19321f247bd7e05a815475909337018b0c8 clk: composite: Fix handling of high clock rates
+ab4277294f8d4a95607d73c8acad5d8e7ac618e6 clk: divider: Fix divisions
+6de5bb35f1b81c86cca172e36a3ebd8913a66840 net: phy: realtek: Add optional external PHY clock
+fb1f2ca82326f672a23311c36a9eebedcd87422a dt-bindings: net: phy: Support external PHY xtal
+94d73348dde627eb02f8c504a58c9e21b7024e2c dt-bindings: phy: add rockchip usbdp combo phy document
+9b1a332357cfa65801de07942b8edf89863fda64 dt-bindings: usb: rockchip,dwc3: Add RK3588 binding
+5d9aa8aaa2cf0b56a6b6efd1da36a6dd0bb1d567 dt-bindings: soc: rockchip: add rk3588 USB3 syscon
+d7dd0621234ce9aa30c1e76b5bdfa906389b00b2 phy: rockchip: add usbdp combo phy driver
+f9d272bdf35ac5df412b5358d82f14a863164a59 arm64: dts: rockchip: rk3588s: Add USBDP phy nodes
+3905df4c545d8d64d5443f302666b67a9429b256 arm64: dts: rockchip: rk3588s: Add USB3 controllers
+02004feba4cdbe9334e4841b339954141b0fa23f arm64: dts: rockchip: rk3588-evb1: add USB3
+8dc029c08f8ab2e62b2f8c5773417fd804c8cb3c clk: rockchip: rk3588: fix pclk_vo0grf and pclk_vo1grf
+d2c3dc48e1c666a2b0a018797d29c864cf71611c irqchip/gic-v3: Enable Rockchip 3588001 erratum workaround for RK3588S
 
-4e956dec52e633231382243ff061407315a709d6 824b023c3cda00fe610c1f79d14a6223d68f425f refs/heads/linux-5.4.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSZ0+8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A/MQAKXzppB9P5kicpl8ez4a
-i7SjJ+oEYE0uh3A5we79xfAHFcElCN2IksH8NAif32pw20ii2d9r0uuQ8oMrTS98
-l4mNDTYC1EWguJlNFpLebx492f390UmKlhZ5uAvZ/zaJgy868KLpi3gjIfPxeTm6
-Zw67lDKd0p7/zLQRFC2oLn+ftc6mY2wj9Zk4tgD7cY4+2A5+3mruXXhZzwBrOJw0
-rdYbk6eYsyve34YFwgl2tTVlGMT98H87FambVWqfkpjVqCZyyxp+G3bSh3p2XLnS
-8z8+P927wzgcZwyUsDHoIliFCzVZTUZu/5r4dsv+59T7dAb4vymhtPEU5xTO55Wo
-JVveadww6cbfszDrhp4vXaffApMPblK5X2vSTsDXBzWqcG3mvxti4D9wP6YVp/qZ
-QOU70lfTK/NQKWtnR/F6NGlIN6EiWvZhPRj03qJWjIBOQhUsqS4/+Niduqe8ek5d
-eMmpTFCeWo+EeOL96rEPzSVF+M1g4UrzMf9x+iTKJZ4o3rB8pLM23YF4zCDNEdFO
-C14SNAm2mNYP3NWoB6YsQzdBiLKd2eIyrAD/Hbf0uu6UEfce8QaSJff72YhUK9yF
-EoQEofN4THE9mx2If9Tmhie+QdCuOuoj8wxWPovBYoaTKQPbiuO/qxhDr0ihLNFs
-9cQp7Z76/riUPwIXeohJkAAh
-=LCzj
------END PGP SIGNATURE-----
-
---===============0245886230443739869==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e956dec52e6-824b023c3cda.txt
-
-419b27bac98c6c481b0a9677b8cf6cd03d7802ec nilfs2: reject devices with insufficient block count
-ba1b991cf5a5389d1c5fa8240f5bc90d33a9e319 mm: rewrite wait_on_page_bit_common() logic
-205a79aa947ee70832a72ae2dda1870ace3f9a03 list: add "list_del_init_careful()" to go with "list_empty_careful()"
-739be23480d3d270e9f03ed276430984a79e5de2 epoll: ep_autoremove_wake_function should use list_del_init_careful
-d3f03ea8b9113c1b9e01153e9f1fb39e114da033 tracing: Add tracing_reset_all_online_cpus_unlocked() function
-0cb39feac7fc1789ffb40fcc724ba11998fcc062 x86/purgatory: remove PGO flags
-d3a8b4c78d565b1a5fe0e7cc66f10c09bbc7cc45 tick/common: Align tick period during sched_timer setup
-84c7ae83265450782e53b4f0ffd3a04d4cab8b2c media: dvbdev: Fix memleak in dvb_register_device
-8874702c0e10057ac74463d7ad77d6d4069ce44b media: dvbdev: fix error logic at dvb_register_device()
-3814168b5834884d372282040f31c3184175c7fb media: dvb-core: Fix use-after-free due to race at dvb_register_device()
-e4f045aef41a68f28b2ebdc305aaeb7bbf88329a nilfs2: fix buffer corruption due to concurrent device reads
-f2a6cf28d0b5a126926e23fc5197aaba32646046 Drivers: hv: vmbus: Fix vmbus_wait_for_unload() to scan present CPUs
-0712903f08578fa10ef2b6bee0fd44c1076cb3ef PCI: hv: Fix a race condition bug in hv_pci_query_relations()
-63712a903c8e63bbf87fe030f68b982c9b43a335 cgroup: Do not corrupt task iteration when rebinding subsystem
-1ea91984c37abaec76cb2a230a8ea079947a2444 mmc: meson-gx: remove redundant mmc_request_done() call from irq context
-c0fcacb34fb9dcde7bacbea90253a1dadffab97f ip_tunnels: allow VXLAN/GENEVE to inherit TOS/TTL from VLAN
-fdcffa2f4e8a4bbacd30c02b38958693cf0028f5 writeback: fix dereferencing NULL mapping->host on writeback_page_template
-69b7f708fa22b3eeb707bd9e44dbfcf53bc1db65 nilfs2: prevent general protection fault in nilfs_clear_dirty_page()
-0d0d1004f087b4cd8091b2144eb0e0fd59cb0598 cifs: Clean up DFS referral cache
-10e8c7083b24ae4da9b45b5eedcbe394fbae7ddb cifs: Get rid of kstrdup_const()'d paths
-fa8bb05d5dc9d06edb4cb84b27d7b376ae76f97b cifs: Introduce helpers for finding TCP connection
-3f8ef5f5cf888e71d3071352ec7b605602fe47b7 cifs: Merge is_path_valid() into get_normalized_path()
-a5bd132aadcb69618ea6d43ca44e5925c50b8541 cifs: Fix potential deadlock when updating vol in cifs_reconnect()
-51d45e605edd17857f67d58ede43eeb5ca1af6bc x86/mm: Avoid using set_pgd() outside of real PGD pages
-eac433ee91a7617f29bec0cac25e3350a168f180 rcu: Upgrade rcu_swap_protected() to rcu_replace_pointer()
-39ecba136a4afcc090a6cadd79bc65c11b207af2 ieee802154: hwsim: Fix possible memory leaks
-cb7455b52e5a356786f473f3d6efee324dfef9f2 xfrm: Linearize the skb after offloading if needed.
-26a9de3760814252216d1137fba11adee929ef12 net: qca_spi: Avoid high load if QCA7000 is not available
-ef3980fd1787b6f10c2ffbc3e67436b9b975ab40 mmc: mtk-sd: fix deferred probing
-31148771a39ea175e49493859f28ce5ce43de334 mmc: mvsdio: convert to devm_platform_ioremap_resource
-fdfe2d7ae14701105a2aba5b0aae468d19e75771 mmc: mvsdio: fix deferred probing
-c735ee8bbd88307253bcb4d76c52043a465e540f mmc: omap: fix deferred probing
-1944f62c0cf9181f837245e5f26b780333ebab1a mmc: omap_hsmmc: fix deferred probing
-2100c851bc9efd19df7472114d454482fb2ec8cc mmc: sdhci-acpi: fix deferred probing
-335ef45982cb4ececa94d33fef79a97055b1eacd mmc: sh_mmcif: fix deferred probing
-d7ae95ca9e89c5538aa33070f9d855cb88a05105 mmc: usdhi60rol0: fix deferred probing
-c71a67f899dc79418f56f6181d39815b4b9726c1 ipvs: align inner_mac_header for encapsulation
-402c6cb34947efbf36a69227237eb0b484ab55e1 net: dsa: mt7530: fix trapping frames on non-MT7621 SoC MT7530 switch
-595934a9d6f2b376aa6216b7b237140f4fd1b42f be2net: Extend xmit workaround to BE3 chip
-55c63f9f2d3d9b2179a78b4c0543fcfe3316c124 netfilter: nf_tables: disallow element updates of bound anonymous sets
-6649f8e19f40d33d8931980079145a922d52404b netfilter: nfnetlink_osf: fix module autoload
-8c3f7ebb448704c3b560a3300a7e04822a01d8f0 Revert "net: phy: dp83867: perform soft reset and retain established link"
-0aa62d60976a9fb0bc5b8d6b26772bf765674a1b sch_netem: acquire qdisc lock in netem_change()
-565f1b00f912d55819a2b24e2f6a7a88ea1361b1 scsi: target: iscsi: Prevent login threads from racing between each other
-044ed7490efdb9d2c9173d1b3bde5a2f01613e3e HID: wacom: Add error check to wacom_parse_and_register()
-562fe0ac4537169b1d3c02a1f0a5552f96ed3c5e arm64: Add missing Set/Way CMO encodings
-d38ad8d9c5fbfd4ea23f5b04b09bb79395aae653 media: cec: core: don't set last_initiator if tx in progress
-08574bece58c4cc58e4321a3eedcd429fb17d6c4 nfcsim.c: Fix error checking for debugfs_create_dir
-b385a83de3b431a6559d78076439b3ffe9ac7ebe usb: gadget: udc: fix NULL dereference in remove()
-a9189bcdf1e4fe15f6b64c996b5204c48cc451db s390/cio: unregister device when the only path is gone
-eeb07f68a956f4b9485fc85f42cab0bd40c0e9de ASoC: nau8824: Add quirk to active-high jack-detect
-18bc705ebda5c7ea2cd38acfc098128478c02cae ARM: dts: Fix erroneous ADS touchscreen polarities
-95fb288112a5afddfa0f321851c5dbee392b0cb2 drm/exynos: vidi: fix a wrong error return
-ce662709ca296bcaa2f6bbae5ebae43870f96a7b drm/exynos: fix race condition UAF in exynos_g2d_exec_ioctl
-6c552cec73834ea7adb92cc6e2d215cbba27dafd drm/radeon: fix race condition UAF in radeon_gem_set_domain_ioctl
-421d1d9cb5acfc8c962de353b8820ab40fbb8643 x86/apic: Fix kernel panic when booting with intremap=off and x2apic_phys
-bab637574d3db92888348075b340fee35f838431 i2c: imx-lpi2c: fix type char overflow issue when calculating the clock cycle
-f1f65443f57827c2d4d2f7a6a164baa216a11aec mm: fix VM_BUG_ON(PageTail) and BUG_ON(PageWriteback)
-1d048839631f696c180a9c26b66a55b3be6f954d mm: make wait_on_page_writeback() wait for multiple pending writebacks
-380b4d9362654b3ce85863eab2f75e8612a63b7b xfs: verify buffer contents when we skip log replay
-824b023c3cda00fe610c1f79d14a6223d68f425f Linux 5.4.249-rc1
-
---===============0245886230443739869==--
+--===============4046864813114067521==--
