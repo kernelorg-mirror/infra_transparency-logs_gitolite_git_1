@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2304706886659848143=="
+Content-Type: multipart/mixed; boundary="===============6084682960898107292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 26 Jun 2023 18:07:37 -0000
-Message-Id: <168780285758.31683.5839694575885052897@gitolite.kernel.org>
+Date: Mon, 26 Jun 2023 18:07:40 -0000
+Message-Id: <168780286046.31767.7053789801568917699@gitolite.kernel.org>
 
---===============2304706886659848143==
+--===============6084682960898107292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 59d2cad1f5638ea9a189c89b54893c5ac416ef20
-    new: 11aa1c2697f51ec92ee0c9033b8bce9e13b71787
-    log: revlist-59d2cad1f563-11aa1c2697f5.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 79a565358b4d5ae2529b43cdf77a54ce92014c7c
+    new: d46c55c4b242c7dc4d40b4b2a0fb5dbac24ae5cd
+    log: revlist-79a565358b4d-d46c55c4b242.txt
 
---===============2304706886659848143==
+--===============6084682960898107292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687802856 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1687802859 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1687802855-a8d089dbc96353e13978cd9c1bb92ebf9bb8a979
+nonce 1687802858-128be9d2109a96ceb3ebe995d363bdc8329c1f6a
 
-59d2cad1f5638ea9a189c89b54893c5ac416ef20 11aa1c2697f51ec92ee0c9033b8bce9e13b71787 refs/heads/linux-4.14.y
+79a565358b4d5ae2529b43cdf77a54ce92014c7c d46c55c4b242c7dc4d40b4b2a0fb5dbac24ae5cd refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSZ0+gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6XQP/RGvvJ12NHLxwB/QAxEl
-JlwVeLgCU3mU+3XQpMN871rLYgf3RunfBJWWX12F8xfYqpQkqqbOJbtQiNgNI8iO
-9S+4lRZhaG43eioFpC3H+QHjAI+fuLICXDGkwC8FPA5lGGZwXB6QYaxj7NIK/T1B
-MTD5fQvmrVkb4eLRGa3BwdZFWoZA1L5ttXJc4edEx5ig0sBXXlyBd89hNynLZ++g
-M+oqXMsfMMsi48+bsdqGW6X5MjBZUBXNiBGmcNjLjTvoUly40mIbUJQAMjB61X35
-pifuGvHT+13SLuSCnCJCidyFWM8+0oxhq1pqdmMdg/0dKQzoWV9sPtWOlXI+Kxgj
-rURwssk4Vy/v7gfk9mRfo180POCsS2vCkJsgLqxyQ2ldT9Qjbw9L4ZYT30/Qtww6
-J3b3WjEafWw08dzrY0KQgXRiTe5X7d7k1xdXXD+Bw9510CKTz0xom2HIJoijc8Wq
-SqO/dmqnAlAIuRLln6v8db0H8HX+K1jNmlx7jbVLFV9AmHK16R+oWZxe/eGfUlo0
-2y8dv6HCsTnhLR2Oj+8n1AiTTr76iL33W3H2unvRx/onar7LeD145GrGwNhiAALZ
-S9xLJ7KWqYpYLQzBbB60kgAPtcjU0DXdp1DM0Z7+0Uymohb+comvt/aPHZhaniNH
-/f5QPoBeeTFn2H4VFEnw7Zs5
-=IEry
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSZ0+sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cw0P+wdFFen3FcSHUveHDxy6
+O92wmhJscqHDuy0OryPXbXvdVsvFT00KHR775tXr9BrMfElskPWy1v9WfCjZxoxw
+DGbIesxgpDIZ6HuHGJF0XJXdFnaE51f5cPYmMZv+lxLA5nEUEWgTCNI9Q0nkvzeT
+4yELwLwwWn+7Xvik0jqfhWPaSn6h4NwXfXOOwvDOrtxRwU558EJ8ax30jvF4ZUE/
+SUwDu4c5uf3fJGD05Ho2xVuwE5/yZaZcJua4Uv++lJ7xiSU2c7AYmajvV5RHrcHe
+22Zg+VP9saZjgQkKBj6NqyCXDRcGcupybnotM25SrtCiyFb0rXhpuz12ididyLus
+7HumdF1VlGyTKr6Ip3r1zHsdZEFhHilY4oaZGZIPxkLCu6YqgCS0TDqdt4wje43Z
+x2MTNkfTlYcdzhpHNGvsOODQg/QbQhgazLbxuiA2DoL6S3DPmPJpHo8OuS5asm1P
+z+MtfxbH1/Eo+frTHJEujxGJHXdlp1p0OS/SOhhugW+gfTX5h+axP13bE59hZOoH
+v4vMhwRQISFnfg+aLynQTSwOr6BxhWHWljGkZj0KiCGJrvRUrJkI4VA7+Ii8X/qP
+1eCYKmAZ8geG25v4aLwIGMaubIJmRzZYWpdq/wZ9rHRgEt//LDXVHMhOQsURqM5c
+5Zjw5a3CLgcTz29CW1FjiZ1Z
+=/gCF
 -----END PGP SIGNATURE-----
 
---===============2304706886659848143==
+--===============6084682960898107292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59d2cad1f563-11aa1c2697f5.txt
+Content-Disposition: attachment; filename=revlist-79a565358b4d-d46c55c4b242.txt
 
-d178117ae112289053e3df27cdc67497e174e0b1 serial: lantiq: add missing interrupt ack
-3dbb6d05ba090874c46d2e27ac131172f2a25c25 nilfs2: reject devices with insufficient block count
-c1533ce52cf5f63ce8c4b9aecc7a3c4f1da9042e nilfs2: fix buffer corruption due to concurrent device reads
-0509443b2dabad71b9c7d98e37503f15a023b464 Drivers: hv: vmbus: Fix vmbus_wait_for_unload() to scan present CPUs
-ff97a463a1ae779c0ab4752205f5024fdf1f60a6 cgroup: Do not corrupt task iteration when rebinding subsystem
-3935fcbfcb7164a071abb562fb71859671fa3cbc nilfs2: prevent general protection fault in nilfs_clear_dirty_page()
-1049a366fe24150d817fac0d635b49485410ad05 xfrm: Linearize the skb after offloading if needed.
-a472aa4d4b52e830972ba87952f5624d1fa9ceac net: qca_spi: Avoid high load if QCA7000 is not available
-ae72abd0b364f6c74bf8ebebf031de1ab9cb5405 mmc: mtk-sd: fix deferred probing
-d9e2be66b63d87b3d4cc047843f4724a9fe67370 mmc: omap: fix deferred probing
-02aa7b5799e78ff774b480b71af5801a19cd8e50 mmc: omap_hsmmc: fix deferred probing
-7eacf3cab019d02a52b73a6ec613379c2f064603 mmc: usdhi60rol0: fix deferred probing
-7c97fc06b80d2613e7df313ce27edba5d262aafc be2net: Extend xmit workaround to BE3 chip
-45a57685ee04d4798f4a6962ae04ba3b8c876217 netfilter: nf_tables: disallow element updates of bound anonymous sets
-15d2454ae081982ad139a5c15c73b143f18810d1 scsi: target: iscsi: Prevent login threads from racing between each other
-86fc53eea2350b145c585364145296ea563e3e9a HID: wacom: Add error check to wacom_parse_and_register()
-6803d0164a49e0bfec5f7b515b6f3d3f1f5ae30b arm64: Add missing Set/Way CMO encodings
-706ce478625a2d93279f8f9a51735d316e0edae3 nfcsim.c: Fix error checking for debugfs_create_dir
-322a209e182f09c7f9369a8d0dd4d8ee114e0a80 fbdev: imsttfb: Release framebuffer and dealloc cmap on error path
-c3989d2bac9eec6d1b03191f1a498f41adfbeae6 usb: gadget: udc: fix NULL dereference in remove()
-2d6441fdcc832db60a2b05166d80ecc6fd355a9e s390/cio: unregister device when the only path is gone
-3120bdf9c87ac2e969df7622986e56896b9455bd drm/exynos: vidi: fix a wrong error return
-0d624f6e8d6863322ab31e0c22089b91e2d3fcd7 drm/exynos: fix race condition UAF in exynos_g2d_exec_ioctl
-26acb7be75c66de77a3e92c58d49f59e9526edff drm/radeon: fix race condition UAF in radeon_gem_set_domain_ioctl
-9b533b000a5c7f5a669dafe66c06c4e772fde9ad x86/apic: Fix kernel panic when booting with intremap=off and x2apic_phys
-64fbd34b7b2488153f691d465d1f58765553f8d3 i2c: imx-lpi2c: fix type char overflow issue when calculating the clock cycle
-11aa1c2697f51ec92ee0c9033b8bce9e13b71787 Linux 4.14.320-rc1
+a28412ff23dc56023335bc5450937dd12c4a7d71 serial: lantiq: Change ltq_w32_mask to asc_update_bits
+e6860cb934ebc460adacaf3e90854058d20103e8 serial: lantiq: Use readl/writel instead of ltq_r32/ltq_w32
+e3f3ba2f399d84458e9e8bb5fb2cc1e7e4faa611 serial: lantiq: Do not swap register read/writes
+8d957b6e89b109a303e575b1236e3edd3d8b15c6 serial: lantiq: add missing interrupt ack
+d0ed381a23cefe6bd6b0ee8cb3bd4aa8c3080685 nilfs2: reject devices with insufficient block count
+42fe0f856d841a0eed49b36fc110de833ea0eba2 x86/purgatory: remove PGO flags
+63c3465e2d2c76f5c799416bcbf2ecee61e35306 ipmi: Make the smi watcher be disabled immediately when not needed
+fdb3c26194f38488c19e35f0dbf1f9c8aea9de43 ipmi: move message error checking to avoid deadlock
+91e1d5bd97711d8c4bbcebe25f7a5774243209c7 nilfs2: fix buffer corruption due to concurrent device reads
+3cf1e733b029eac1f313822afcf94cb704698f09 Drivers: hv: vmbus: Fix vmbus_wait_for_unload() to scan present CPUs
+0f2a68a7b75f5b39d85ffba7e409903b5e5d8e0c PCI: hv: Fix a race condition bug in hv_pci_query_relations()
+f603a760ac7021ae61c05a34d96279ccb47b6cd7 cgroup: Do not corrupt task iteration when rebinding subsystem
+d2b1c094ad09803a02a3aad02ead388c0a9d5050 nilfs2: prevent general protection fault in nilfs_clear_dirty_page()
+696a2e8c9a8be9ba8563803e7e5d3cdc2be61769 rcu: Upgrade rcu_swap_protected() to rcu_replace_pointer()
+7f9b73b0877ddf08b38315383af0f0d5d30fb39c ieee802154: hwsim: Fix possible memory leaks
+c1d751d43dd008e80c7deb5953daf992ba60a064 xfrm: Linearize the skb after offloading if needed.
+dc6db12534b48131073ff59984493cb7b250c4e6 net: qca_spi: Avoid high load if QCA7000 is not available
+9662d749f8e1f8fe2ed562a7ff3ebe9e6df08239 mmc: mtk-sd: fix deferred probing
+4fdb0bdd99ac30b5791a9c19703a7bd87f03623a mmc: mvsdio: convert to devm_platform_ioremap_resource
+b232c0fc14a7a9aa71a7e0806422b20a05e7a9c0 mmc: mvsdio: fix deferred probing
+e87f598774bdd97919dbfd365f40286fc6973de8 mmc: omap: fix deferred probing
+24e3adcd4e504733682a15a2be72f8ca3d663907 mmc: omap_hsmmc: fix deferred probing
+fa036f07f20a787cc96408a52113fa3f1631b176 mmc: sdhci-acpi: fix deferred probing
+11c1b417c6df20ba3a34575d354307ca25a5f611 mmc: usdhi60rol0: fix deferred probing
+4535038db741802f7a37837fdb1a3822c5009b2d be2net: Extend xmit workaround to BE3 chip
+1bbbf35cc9f4d3a3d3aa0b99871da2590b2df863 netfilter: nf_tables: disallow element updates of bound anonymous sets
+e5b554744c3e933af8ddf8cf2bf06baf4e72bce5 netfilter: nfnetlink_osf: fix module autoload
+4fa4797e084f0acb41a2cd1d95a9ef38f8a2e223 sch_netem: acquire qdisc lock in netem_change()
+eb79ea39d18a7724a13e98d55f59bd044bb5711a scsi: target: iscsi: Prevent login threads from racing between each other
+c0bad2057e617427049f79b2761ff8d7d3e713aa HID: wacom: Add error check to wacom_parse_and_register()
+30867c62e6339f5267bf8f76c968c2712b7c0210 arm64: Add missing Set/Way CMO encodings
+3ab7a880bfed56ae9bc5568c57d48d94c3dff9f0 media: cec: core: don't set last_initiator if tx in progress
+fb5d97114b08a5b5d7eb3b30946cb5cb37a5c36e nfcsim.c: Fix error checking for debugfs_create_dir
+3ac416dc8b3b7909e41f8645c9b4ff09a2cb5450 usb: gadget: udc: fix NULL dereference in remove()
+0225399fd266fb1cdc5fcd7e08485a21d8dbfba2 s390/cio: unregister device when the only path is gone
+df1369132301b8d3e56142e9dd27ffe411797e1c ASoC: nau8824: Add quirk to active-high jack-detect
+afd54ba510a48318321e57a3282c065d39f94335 drm/exynos: vidi: fix a wrong error return
+a288b44f7cd8811572096de06d9a2415d1364347 drm/exynos: fix race condition UAF in exynos_g2d_exec_ioctl
+46aa529c9748a207cc6de3330cccea74950f0a21 drm/radeon: fix race condition UAF in radeon_gem_set_domain_ioctl
+989eb755e19757b9f5584893a4c9ef19d2fbb983 x86/apic: Fix kernel panic when booting with intremap=off and x2apic_phys
+e6101cfbf925a03ac589a4304a99c7834f2c0944 i2c: imx-lpi2c: fix type char overflow issue when calculating the clock cycle
+d46c55c4b242c7dc4d40b4b2a0fb5dbac24ae5cd Linux 4.19.288-rc1
 
---===============2304706886659848143==--
+--===============6084682960898107292==--
