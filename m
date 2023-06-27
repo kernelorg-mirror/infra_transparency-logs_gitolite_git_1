@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 27 Jun 2023 16:36:53 -0000
-Message-Id: <168788381326.5759.10926857716883650363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Jun 2023 16:38:14 -0000
+Message-Id: <168788389458.7647.10504967680303987801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 71025b8565a383223ea2d94325db37cdabbcc453
-    new: 2f5d532dc466b6e5f3ac3352ac2ae8169a326728
+  - ref: refs/heads/main
+    old: d9b1a5a60ac33da3a2921c41ef26b84bfdf67044
+    new: 9d797ee2dce1e3e243bcc18dad7728df72fd11a4
     log: |
-         5fa94ceb793e93870541dc5a1235aec87b0871bc kbuild: set correct abs_srctree and abs_objtree for package builds
-         5fc10e76fa2a96d0207ed4d0cc9d16fb61371f71 kbuild: revive "Entering directory" for Make >= 4.4.1
-         2f5d532dc466b6e5f3ac3352ac2ae8169a326728 kbuild: respect GNU Make -w flag
+         528a08bcd820d07887edeae706df88ceb06db109 net: phy: mscc: fix packet loss due to RGMII delays
+         5da4d7b8e6dfd5bd7d61f7fe1338b1e5d5b4f76c libceph: Partially revert changes to support MSG_SPLICE_PAGES
+         1a3f6fc430ed220889c7fb1a63bc2a30267ebc2a phylink: ReST-ify the phylink_pcs_neg_mode() kdoc
+         9d797ee2dce1e3e243bcc18dad7728df72fd11a4 Revert "af_unix: Call scm_recv() only after scm_set_cred()."
          
