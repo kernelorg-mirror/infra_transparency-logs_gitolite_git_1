@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0476623095264475247=="
+Content-Type: multipart/mixed; boundary="===============6046167838020222626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 27 Jun 2023 18:13:59 -0000
-Message-Id: <168788963910.10348.17232109478179087964@gitolite.kernel.org>
+Date: Tue, 27 Jun 2023 18:16:38 -0000
+Message-Id: <168788979815.12907.9935486855376280466@gitolite.kernel.org>
 
---===============0476623095264475247==
+--===============6046167838020222626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,30 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: fb26b623d6b18a900926abf234ee4d5275b27bf4
-    new: 8b3ac0bad886cab0043a53396bad8b63f4e71451
-    log: revlist-fb26b623d6b1-8b3ac0bad886.txt
+    old: 8b3ac0bad886cab0043a53396bad8b63f4e71451
+    new: 1d70c4c81b3511cd494d475eee1f111a5db59290
+    log: revlist-8b3ac0bad886-1d70c4c81b35.txt
   - ref: refs/heads/linux-next
-    old: fb26b623d6b18a900926abf234ee4d5275b27bf4
-    new: 8b3ac0bad886cab0043a53396bad8b63f4e71451
-    log: revlist-fb26b623d6b1-8b3ac0bad886.txt
+    old: 8b3ac0bad886cab0043a53396bad8b63f4e71451
+    new: 1d70c4c81b3511cd494d475eee1f111a5db59290
+    log: revlist-8b3ac0bad886-1d70c4c81b35.txt
 
---===============0476623095264475247==
+--===============6046167838020222626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb26b623d6b1-8b3ac0bad886.txt
+Content-Disposition: attachment; filename=revlist-8b3ac0bad886-1d70c4c81b35.txt
 
-4b4c0d37164c296efbdbceacb8d2535a3910b13e cpufreq: dt-platdev: Add JH7110 SOC to the allowlist
-9ab24b0486681ecc059ee766e00d9570c6311e08 cpufreq: tegra194: Fix an error handling path in tegra194_cpufreq_probe()
-dcfce7c2cee481853e7717890e1e2d6daba354c4 cpufreq: sparc: Don't allocate cpufreq_driver dynamically
-11a3b0ac33d95aa84be426e801f800997262a225 cpufreq: imx6q: don't warn for disabling a non-existing frequency
-5008e4c8c31c65bbe080cbfc1383602d1abf076e cpufreq: ti-cpufreq: Add support for AM62A7
-b2b2029eb17888117a9dad3b111db004f2e7353b cpufreq: dt-platdev: Blacklist ti,am62a7 SoC
-b79ead08a7d995262aa2e7f676c93e0263fc3be1 dt-bindings: cpufreq: qcom-cpufreq-nvmem: document IPQ8074
-3b062a086984d35a3c6d3a1c7841d0aa73aa76af cpufreq: dt-platdev: Support building as module
-8eec6e740b564ec5e1da59ab7070b89aa23c9973 cpufreq: armada-8k: add ap807 support
-f85534113f5ae90a52521cdb9e9977a43ee42626 cpufreq: mediatek: correct voltages for MT7622 and MT7623
-5ee64250286e8c5162808667a9a8668488d9f577 cpufreq: qcom-cpufreq-hw: Use dev_err_probe() when failing to get icc paths
-813ce98178b1f723de813949a5dd2d50690a95e7 Merge tag 'cpufreq-arm-updates-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-8b3ac0bad886cab0043a53396bad8b63f4e71451 Merge branch 'pm-cpufreq' into linux-next
+9e28f7a74581204807f20ae46568939038e327aa OPP: rate-limit debug messages when no change in OPP is required
+b2a2ab039bd58f51355e33d7d3fc64605d7f870d opp: Fix use-after-free in lazy_opp_tables after probe deferral
+167eb2bd947d9c04b0f6f1a5495ce4a99eeab598 OPP: Staticize `lazy_opp_tables` in of.c
+64aaeb708245acdcbe51cf30c84418668c044d80 OPP: Protect `lazy_opp_tables` list with `opp_table_lock`
+04bd2eafee153b9cc4b411d4a24d32b1ec2ce41c OPP: don't drop performance constraint on OPP table removal
+84cb7ff35fcf7c0b552f553a3f2db9c3e92fc707 OPP: pstate is only valid for genpd OPP tables
+7c41cdcd3bbee5d49de9d4821b15e49d155ff22b OPP: Simplify the over-designed pstate <-> level dance
+fa155f4f834882a79788218aea4914568b41dd0f OPP: Use dev_err_probe() when failing to get icc_path
+5fb2864cbd50a84a73af4fdd900b31f2daddea34 OPP: Properly propagate error along when failing to get icc_path
+bb814518bf7c2d6c0468a39153de222e0400e3a4 Merge tag 'opp-updates-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+1d70c4c81b3511cd494d475eee1f111a5db59290 Merge branch 'pm-opp' into linux-next
 
---===============0476623095264475247==--
+--===============6046167838020222626==--
