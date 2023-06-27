@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0598259515172459928=="
+Content-Type: multipart/mixed; boundary="===============5409360490773997497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 27 Jun 2023 16:19:37 -0000
-Message-Id: <168788277704.25283.9181287004058199257@gitolite.kernel.org>
+Date: Tue, 27 Jun 2023 16:19:57 -0000
+Message-Id: <168788279703.25475.10777522419455529427@gitolite.kernel.org>
 
---===============0598259515172459928==
+--===============5409360490773997497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/locks-6.6
+  - ref: refs/heads/locks-next
     old: f8c334dadd0c039f5ad2a030a2952a8a8552f0d7
     new: 0d6aeec73f8cd3290662748a4fb1bded1e5bb5c7
     log: revlist-f8c334dadd0c-0d6aeec73f8c.txt
 
---===============0598259515172459928==
+--===============5409360490773997497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bb6950556d4b1dd1226c1f09e84b53cb37e5340f Merge tag 'acpi-6.5-rc1' of git://git.k
 6c9007f65d14c87842920b0d376c9ade34fab152 fs/locks: F_UNLCK extension for F_OFD_GETLK
 0d6aeec73f8cd3290662748a4fb1bded1e5bb5c7 selftests: add OFD lock tests
 
---===============0598259515172459928==--
+--===============5409360490773997497==--
