@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 27 Jun 2023 07:11:51 -0000
-Message-Id: <168784991109.12742.6820343905301069908@gitolite.kernel.org>
+Date: Tue, 27 Jun 2023 07:16:46 -0000
+Message-Id: <168785020628.16353.12323173782919493045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
   - ref: refs/heads/controller/tegra194
-    old: 8a4c5856c9c22242369f1f1d17220db0e94713f0
-    new: b5aebbde372802bec0f0eb7dd15d3e0fca9dbf81
+    old: b5aebbde372802bec0f0eb7dd15d3e0fca9dbf81
+    new: b6c45d4ab8d5b2b01005e163a457c2e8d57f6687
     log: |
-         b5aebbde372802bec0f0eb7dd15d3e0fca9dbf81 Revert "PCI: tegra194: Enable support for 256 Byte payload"
+         b6c45d4ab8d5b2b01005e163a457c2e8d57f6687 Revert "PCI: tegra194: Enable support for 256 Byte payload"
          
