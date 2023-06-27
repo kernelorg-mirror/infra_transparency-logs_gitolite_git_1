@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 27 Jun 2023 18:58:27 -0000
-Message-Id: <168789230762.8974.8296880486323679008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 27 Jun 2023 19:01:45 -0000
+Message-Id: <168789250545.11879.3022773893593694671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/next
-    old: 31bc0d7410572f6e03e3ed9da7c8c6f0d8df23c8
-    new: 0a1944b19569c4f9b724de562adb7a19c2adb4a5
-    log: |
-         0a1944b19569c4f9b724de562adb7a19c2adb4a5 spec: Migrate license to a SPDX standardized one
-         
+  - ref: refs/tags/for-net-next-2023-06-27
+    old: 0000000000000000000000000000000000000000
+    new: 6bffd400975d0da6c2e0f8a935ebfb52e80f6af7
