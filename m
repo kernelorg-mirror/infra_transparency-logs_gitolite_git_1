@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 27 Jun 2023 15:50:55 -0000
-Message-Id: <168788105554.5495.3271772135441269395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 27 Jun 2023 15:59:05 -0000
+Message-Id: <168788154585.9900.5532748547091516441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/probes/fixes
-    old: c7559e5327cd6a374e4d02378612d70c694fb712
-    new: 5f81018753dfd4989e33ece1f0cb6b8aae498b82
+  - ref: refs/heads/controller/qcom
+    old: 58cfae52a8773dc9d6e8f96ead3edcc4c5ac7df7
+    new: d356b6fdf6d52daafa6758e99410223d4deeba5b
     log: |
-         5f81018753dfd4989e33ece1f0cb6b8aae498b82 fprobe: Release rethook after the ftrace_ops is unregistered
+         d356b6fdf6d52daafa6758e99410223d4deeba5b PCI: qcom-ep: Correctly gate MHI bus master clock during L1SS
          
