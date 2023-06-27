@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Tue, 27 Jun 2023 05:48:34 -0000
-Message-Id: <168784491431.16607.1201138971935134113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 27 Jun 2023 05:56:19 -0000
+Message-Id: <168784537933.22427.16255007688312824318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/tags/for-linus-6.5-rc1-tag
+  - ref: refs/tags/fbdev-for-6.5-rc1
     old: 0000000000000000000000000000000000000000
-    new: de141bd03f4a1c759a867d5d46e638b6ed2f7ef1
+    new: 2a8a894d15b81c27b18f263b24a77edd7263f15e
