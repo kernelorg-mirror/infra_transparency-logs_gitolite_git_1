@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 27 Jun 2023 19:20:39 -0000
-Message-Id: <168789363930.26409.2530930928347074055@gitolite.kernel.org>
+Date: Tue, 27 Jun 2023 19:28:06 -0000
+Message-Id: <168789408669.30582.13145102311772270197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 921c233cf47970d13aba8f30c3cd360a8524182e
+  - ref: refs/heads/perf-tools-next
+    old: 929ff679b694f0f9656aec38b3a7d5c440c5ca24
     new: ad5f604e186ac08d12c401e34ea96c09c38ddbc5
     log: |
          49a5e3edd35352833270dd18b0d5ca414fcc9406 perf tools: Add missing else to cmd_daemon subcommand condition
