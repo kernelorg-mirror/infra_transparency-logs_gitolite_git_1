@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 27 Jun 2023 19:49:20 -0000
-Message-Id: <168789536061.13267.10797408783490215644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ntb-fixes
+Date: Tue, 27 Jun 2023 19:49:53 -0000
+Message-Id: <168789539346.13527.16420252771999734818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/geoff/ntb-fixes
+user: geoff
 changes:
-  - ref: refs/heads/master
-    old: 6b9d167034b741605c3186e78e9742dda8e28e08
-    new: d6bfbd28420edf91382635b229b9f8b2f94dc060
-    log: |
-         d6bfbd28420edf91382635b229b9f8b2f94dc060 shared/bap: Fix parsing of vendor specific codecs
-         
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
