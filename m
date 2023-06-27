@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 27 Jun 2023 08:53:52 -0000
-Message-Id: <168785603267.18314.8342308447984987901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 27 Jun 2023 09:10:14 -0000
+Message-Id: <168785701446.31532.665916822610144282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 370bf6825d2750b8328d0d1aeeb8075c2edb174c
-    new: 4510231c95a087f58a155cf74164e403e1e0584f
-    log: |
-         753c33142f450f1fae60ae9a74b9c5b499be5ae0 bindings: cxx: examples: consistently use () for functions taking no args
-         4510231c95a087f58a155cf74164e403e1e0584f bindings: cxx: use () instead of (void) in line_settings::reset()
-         
+  - ref: refs/tags/x86_microcode_for_v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 5af06e65221c8d9c51ad46e1f48a91fab1bfc033
