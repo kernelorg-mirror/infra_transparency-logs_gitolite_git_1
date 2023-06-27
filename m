@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 27 Jun 2023 11:39:10 -0000
-Message-Id: <168786595049.21101.5545522846897759394@gitolite.kernel.org>
+Date: Tue, 27 Jun 2023 11:50:09 -0000
+Message-Id: <168786660918.29621.4650336529793126629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+user: bp
 changes:
-  - ref: refs/tags/x86-mm-2023-06-27
+  - ref: refs/tags/x86_mtrr_for_v6.5
     old: 0000000000000000000000000000000000000000
-    new: a0d953731d6cc79b4bc61b70b06fe8b2b607c6d0
+    new: 55d416e3e2d2382f9389cf0040f36846f6a390d7
