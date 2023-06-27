@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 27 Jun 2023 20:10:05 -0000
-Message-Id: <168789660517.29809.18402214830221206840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 27 Jun 2023 20:43:30 -0000
+Message-Id: <168789861079.19357.14918481333105802976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/tags/block-5.18-2022-04-14
-    old: 0000000000000000000000000000000000000000
-    new: bc02acf697c961cd1ff8b84bfaf6cbee842e47b0
-  - ref: refs/tags/io_uring-6.4-2023-06-21
-    old: 0000000000000000000000000000000000000000
-    new: 55dee817599370f332b013cd9dc7601096fa0c3d
-  - ref: refs/tags/v6.4
-    old: 0000000000000000000000000000000000000000
-    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
-  - ref: refs/tags/v6.4-rc7
-    old: 0000000000000000000000000000000000000000
-    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/heads/topic-shmem-stable-dir-cookies
+    old: 83d31285842eedbc0c1f7e08a77a33b43c87a7e0
+    new: 3f8c2d51305a6d2953cfdd76cff63eeb1419c2f5
+    log: |
+         ce2561677e5298c69499de3018c4ae4ec949a4bf libfs: Add directory operations for stable offsets
+         feafd845b36f3a2715b63dc1f7e75043c23f4260 shmem: Refactor shmem_symlink()
+         3f8c2d51305a6d2953cfdd76cff63eeb1419c2f5 shmem: stable directory offsets
+         
