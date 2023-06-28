@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8648551852489088888=="
+Content-Type: multipart/mixed; boundary="===============5751829435907663169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 28 Jun 2023 12:10:41 -0000
-Message-Id: <168795424188.22593.2282427705534977455@gitolite.kernel.org>
+Date: Wed, 28 Jun 2023 12:11:00 -0000
+Message-Id: <168795426064.22810.11873484124120617060@gitolite.kernel.org>
 
---===============8648551852489088888==
+--===============5751829435907663169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: 9b9cf3c77e7e090b30657b3d2c288deb58dfb4f2
-    new: d15e4314abec83e4f910659437bc809b0889e3a5
-    log: revlist-9b9cf3c77e7e-d15e4314abec.txt
+  - ref: refs/heads/for-next
+    old: 192e2d6e04d0d068555bf2a2901c4c17b0688ff6
+    new: 3b317ce08dceb356b000545bdd51aa934e8f97df
+    log: revlist-192e2d6e04d0-3b317ce08dce.txt
 
---===============8648551852489088888==
+--===============5751829435907663169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b9cf3c77e7e-d15e4314abec.txt
+Content-Disposition: attachment; filename=revlist-192e2d6e04d0-3b317ce08dce.txt
 
+b9dc1046edfeb7d9dbc2272c8d9ad5a8c47f3199 net: phylink: report correct max speed for QUSGMII
+923454c0368b8092e9d05c020f50abca577e7290 net: phylink: use a dedicated helper to parse usgmii control word
+4d17beb66b918c01e9ff5e2d623218889aa02295 Merge branch 'fixes-for-q-usgmii-speeds-and-autoneg'
+b1a6a38ab8a633546cefae890da842f19e006c74 selftests: mptcp: lib: skip if not below kernel version
 0c4cd3f86a40028845ad6f8af5b37165666404cd selftests: mptcp: join: use 'iptables-legacy' if available
 cdb50525345cf5a8359ee391032ef606a7826f08 selftests: mptcp: join: helpers to skip tests
 47867f0a7e831e24e5eab3330667ce9682d50fb1 selftests: mptcp: join: skip check if MIB counter not supported
@@ -778,10 +782,6 @@ b57c7cd1c17616ae9db5614525ba703f384afd05 io_uring: remove a confusing comment ab
 f432c8c8c12b84c5465b1ffddb6feb7d6b19c1ca io_uring: use io_file_from_index in io_msg_grab_file
 4bfb0c9af832a182a54e549123a634e0070c8d4f io_uring: add helpers to decode the fixed file file_ptr
 a7299a18a179a9713651fce9ad00972a633c14a9 btrfs: fix u32 overflows when left shifting stripe_nr
-f471c6585c7f2f168b8eb2d19e2d6e5f22a6645f s390/crash: use the correct type for memory allocation
-2ed8b509753a0454b52b2d72e982265472c8d861 s390/kasan: fix insecure W+X mapping warning
-3e8261003bd28208986d3c42004510083c086e24 s390/kasan: avoid short by one page shadow memory
-c70505434c8defb111326a143e2dd2be09778593 s390/boot: fix physmem_info virtual vs physical address confusion
 12629621669b239445727256d1a5dab616b30deb block: disallow Persistent Reservation on partitions
 9a72a02456a839676fe8f220a44ef00951596047 block: fine-granular CAP_SYS_ADMIN for Persistent Reservation
 99ec1ed7c2ed358280588ab1d013387e8c7a9333 Merge tag '6.4-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
@@ -867,7 +867,6 @@ ccaa4926c2264ca2a2fcad4b3511fe435d7d4d15 hrtimer: Add missing sparse annotations
 dec24b3b339487e58ce2da2875e9ee0316cc7e70 net: wwan: iosm: Convert single instance struct member to flexible array
 a9628e88776eb7d045cf46467f1afdd0f7fe72ea revert "net: align SO_RCVMARK required privileges with SO_MARK"
 2ba7e7ebb6a71407cbe25cd349c9b05d40520bf0 Merge tag 'nf-23-06-21' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-ad3d770b83afffd10abf624ec80c408254343a20 s390/defconfigs: set CONFIG_NET_TC_SKB_EXT=y
 12d0a24afd9ea58e581ea64d64e066f2027b28d9 erofs: Fix detection of atomic context
 1990595547976baa922285b999612cc3549874d6 erofs: remove unnecessary goto
 8241fdd3cdfe88e31a3de09a72b5bff661e4534a erofs: clean up zmap.c
@@ -1050,5 +1049,6 @@ a193cc7506fde23185a7c0d99474a03a8ec5ee4c Merge tag 'perf-core-2023-06-27' of git
 938f0c35d7d93a822ab9c9728e3205e8e57409d0 s390/decompressor: fix misaligned symbol build error
 27d45655faa83bde1545251b8a576ab4f1a9e731 s390: consistently use .balign instead of .align
 d15e4314abec83e4f910659437bc809b0889e3a5 s390/vdso: filter out mno-pic-data-is-text-relative cflag
+3b317ce08dceb356b000545bdd51aa934e8f97df Merge branch 'features' into for-next
 
---===============8648551852489088888==--
+--===============5751829435907663169==--
