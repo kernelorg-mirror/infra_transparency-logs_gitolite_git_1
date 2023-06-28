@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 28 Jun 2023 18:39:09 -0000
-Message-Id: <168797754940.9607.17057364140117815812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Wed, 28 Jun 2023 18:39:35 -0000
+Message-Id: <168797757541.9870.16985543613756119318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/master
-    old: d6bfbd28420edf91382635b229b9f8b2f94dc060
-    new: ddfa40977c7e7b8723fc3ba9389822631ddeeb5c
-    log: |
-         ddfa40977c7e7b8723fc3ba9389822631ddeeb5c shared/bap: Fix handling of codec fields
-         
+  - ref: refs/tags/v6.5-rc1-modules-next
+    old: 0000000000000000000000000000000000000000
+    new: 5ba0d565253c0ae94ce570d093df0c04c7620315
