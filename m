@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9132245809507421138=="
+Content-Type: multipart/mixed; boundary="===============7980787371337042403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 28 Jun 2023 12:25:45 -0000
-Message-Id: <168795514511.32480.5406933635275403632@gitolite.kernel.org>
+Date: Wed, 28 Jun 2023 12:56:49 -0000
+Message-Id: <168795700959.21264.4937645326323930531@gitolite.kernel.org>
 
---===============9132245809507421138==
+--===============7980787371337042403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: cca2f6ddf0b6e9427527ce19aca0e7073c131199
-    new: 2942fc7a65539880df2a5ed8bf09768fe40859aa
-    log: revlist-cca2f6ddf0b6-2942fc7a6553.txt
+  - ref: refs/tags/loongarch-6.5
+    old: ccef6bdc5c2ad6b3fb75701c2f59d600877b96f9
+    new: c076791a18d97d70306aa06dcad8540cad311161
+    log: revlist-ccef6bdc5c2a-c076791a18d9.txt
 
---===============9132245809507421138==
+--===============7980787371337042403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cca2f6ddf0b6-2942fc7a6553.txt
+Content-Disposition: attachment; filename=revlist-ccef6bdc5c2a-c076791a18d9.txt
 
 5c3cb8897a1eb243cd993efb1c309b4c7297de17 LoongArch: Set CPU#0 as the io master for FDT
 e186b4da6bf663082a707830bbd738045dc2847e LoongArch: Add guard for the larch_insn_gen_xxx functions
@@ -54,4 +54,4 @@ bb169fe3660561c428881ba16209c2c35e4266db LoongArch: Select HAVE_DEBUG_KMEMLEAK t
 2c543c171bbe3be41d87da68b128f935dbc345ea LoongArch: Add uprobes support
 2942fc7a65539880df2a5ed8bf09768fe40859aa LoongArch: Remove five DIE_* definitions in kdebug.h
 
---===============9132245809507421138==--
+--===============7980787371337042403==--
