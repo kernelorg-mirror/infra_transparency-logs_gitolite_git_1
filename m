@@ -1,315 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2561018071349574105=="
+Content-Type: multipart/mixed; boundary="===============3589250996803679183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 28 Jun 2023 01:55:55 -0000
-Message-Id: <168791735500.19016.14634446026208476462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Wed, 28 Jun 2023 04:24:44 -0000
+Message-Id: <168792628400.25034.11323444524688436243@gitolite.kernel.org>
 
---===============2561018071349574105==
+--===============3589250996803679183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/master
-    old: e8f75c0270d930ef675fee22d74d1a3250e96962
-    new: 98be618ad03010b1173fc3c35f6cbb4447ee2b07
-    log: revlist-e8f75c0270d9-98be618ad030.txt
+  - ref: refs/heads/loongarch-next
+    old: 1048493d7aa292a2f953e8245bcd7e036e969e38
+    new: cca2f6ddf0b6e9427527ce19aca0e7073c131199
+    log: revlist-1048493d7aa2-cca2f6ddf0b6.txt
 
---===============2561018071349574105==
+--===============3589250996803679183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8f75c0270d9-98be618ad030.txt
+Content-Disposition: attachment; filename=revlist-1048493d7aa2-cca2f6ddf0b6.txt
 
-0d6d062ca27ec7ef547712d34dcfcfb952bcef53 perf/core: Rework forwarding of {task|cpu}-clock events
-2fad201fe38ff9a692acedb1990ece2c52a29f95 perf/ibs: Fix interface via core pmu events
-9551fbb64d094cc105964716224adeb7765df8fd perf/core: Remove pmu linear searching code
-78075d947534013b4575687d19ebcbbb6d3addcd perf test: Add selftest to test IBS invocation via core pmu events
-10d95a317ec12ec7dd4587a646c6bd6aa03c7ded perf/x86/intel: Define bit macros for FixCntrCtl MSR
-8b36d07f1d63de102d464f44a89704bc62d00811 sched/fair: Move is_core_idle() out of CONFIG_NUMA
-eefefa716c9fa6aa73159f09954b7eeba4cafd09 sched/fair: Only do asym_packing load balancing from fully idle SMT cores
-ef7657d4d2d6a8456aa624010de456c32a135fe9 sched/fair: Simplify asym_packing logic for SMT cores
-18ad34532755feb5b9f4284b07769b1bfec18ab3 sched/fair: Let low-priority cores help high-priority busy SMT cores
-5fd6d7f43958cb62da105c8413eac3e78480f09a sched/fair: Keep a fully_busy SMT sched group as busiest
-43726bdedd29797d8e1fee2e7300a6d2b9a74ba8 sched/fair: Use the busiest group to set prefer_sibling
-c9ca07886aaa40225a29e5c1e46ac31d2e14f53a sched/fair: Do not even the number of busy CPUs via asym_packing
-40b4d3dc328265c8ec6688657d74813edf785c83 sched/topology: Check SDF_SHARED_CHILD in highest_flag_domain()
-ca528cc501896a808dc79c3c0544369d23b331c8 sched/topology: Remove SHARED_CHILD from ASYM_PACKING
-995998ebdebd09b85c28cc46068d8a0744113837 x86/sched: Remove SD_ASYM_PACKING from the SMT domain flags
-046a5a95c3b0425cfe79e43021d8ee90c1c4f8c9 x86/sched/itmt: Give all SMT siblings of a core the same priority
-044f0e27dec6e30bb8875a4a12c5f2594964e93f x86/sched: Add the SD_ASYM_PACKING flag to the die domain of hybrid processors
-519fabc7aaba3f0847cf37d5f9a5740c370eb777 psi: remove 500ms min window size limitation for triggers
-bf2dc42d6beb890c995b8b09f881ef1b37259107 sched/topology: Propagate SMT flags when removing degenerate domain
-a6fcdd8d95f7486150b3faadfea119fc3dfc3b74 sched/debug: Correct printing for rq->nr_uninterruptible
-0f88130e8a6fd185b0aeb5d8e286083735f2585a x86/mm: Fix __swp_entry_to_pte() for Xen PV guests
-6f933aa7dfd0bb84b7935168f1d45abec4f702c1 selinux: more Makefile tweaks
-53f3517ae0870fcb398afbba8ff901d0267772b3 selinux: do not leave dangling pointer behind
-3d9047a06477ffd630a37e733f2a656e08c6d3aa selinux: adjust typos in comments
-757010002b97ad0ed89a3b4499c93d23cae429eb selinux: avc: drop unused function avc_disable()
-aeb060ec71547a3fb7f68b8091538e94c5c5187f selinux: drop return at end of void function avc_insert()
-4595ae8c4a10a005a24c0994b710c9575f5b46b9 selinux: retain const qualifier on string literal in avtab_hash_eval()
-4158cb600006371f4359f6ef23a0f1a7255e8843 selinux: declare read-only data arrays const
-c52df19e3759055cf07d1c0030c46ea958163aa9 selinux: small cleanups in selinux_audit_rule_init()
-ad3a557daf6915296a43ef97a3e9c48e076c9dd8 cgroup/cpuset: Rename functions dealing with DEADLINE accounting
-111cd11bbc54850f24191c52ff217da88a5e639b sched/cpuset: Bring back cpuset_mutex
-6c24849f5515e4966d94fa5279bdff4acf2e9489 sched/cpuset: Keep track of SCHED_DEADLINE task in cpusets
-c0f78fd5edcf29b2822ac165f9248a6c165e8554 cgroup/cpuset: Iterate only if DEADLINE tasks are present
-85989106feb734437e2d598b639991b9185a43a6 sched/deadline: Create DL BW alloc, free & check overflow interface
-2ef269ef1ac006acf974793d975539244d77b28f cgroup/cpuset: Free DL BW in case can_attach() fails
-bd545224663399435a395b8a4ff2fd4b67892ffa powerpc, workqueue: Use alloc_ordered_workqueue() to create ordered workqueues
-44d69dd9ada17147141c8aa692f044d20bf20107 greybus: Use alloc_ordered_workqueue() to create ordered workqueues
-25c8c0d91ddb688f37e5f30a5342740b5a78e1cf net: thunderx: Use alloc_ordered_workqueue() to create ordered workqueues
-289f97467480266f9bd8cac7f1e05a478d523f79 net: octeontx2: Use alloc_ordered_workqueue() to create ordered workqueues
-255c1273c2d43d494f32033283bfa1c7b285e654 virt: acrn: Use alloc_ordered_workqueue() to create ordered workqueues
-715557b02c08222066ee677c0f22e7ff59a1112a xen/pvcalls: Use alloc_ordered_workqueue() to create ordered workqueues
-4c1b3f26a98b85dbcb55cbeb154a4100f3025230 wifi: iwlwifi: Use default @max_active for trans_pcie->rba.alloc_wq
-854f5cc5b7355ceebf2bdfed97ea8f3c5d47a0c3 Further upgrade queue_work_on() comment
-3a3d8fce31a49363cc31880dce5e3b0617c9c38b smack: Retrieve transmuting information in smack_inode_getsecurity()
-2c085f3a8f23c9b444e8b99d93c15d7ce870fc4e smack: Record transmuting in smk_transmuted
-ecc758cee6a1088f2e2e684a09fea650472a47f0 s390/pai_crypto: replace atomic_t with refcount_t
-1f2597cd3686955a4d64e01909dbfe625a2a35a1 s390/pai_ext: replace atomic_t with refcount_t
-fbac266f095de92b93e7c91c71cdca432c2c9275 s390: select ARCH_SUPPORTS_INT128
-95f0e3a209b0045a56a06987d85981280f523270 x86/unwind/orc: Use swap() instead of open coding it
-514ca14ed5444b911de59ed3381dfd195d99fe4b start_kernel: Add __no_stack_protector function attribute
-dc1d05536f44cee16e46e86316e6718b2c0d8872 start_kernel: Omit prevent_tail_call_optimization() for newer toolchains
-89da5a69a831f20df6463fd524e1578e12a8f46f x86/unwind/orc: Add 'unwind_debug' cmdline option
-5e3992fe72748ed3892be876f09d4d990548b7af objtool: Limit unreachable warnings to once per function
-ca653464dd097fe64e69f1735e9f348b2a0f8037 objtool: Add verbose option for disassembling affected functions
-ced23d2e3762ecfb859ae65d3a351218edff7205 objtool: Include backtrace in verbose mode
-fedb724c3db5490234ddde0103811c28c2fedae0 objtool: Detect missing __noreturn annotations
-55eeab2a8a11b71586ef0ad3adf532ca5f97d4be objtool: Ignore exc_double_fault() __noreturn warnings
-34245659debd194cbd4148d2ee5176306bdf8899 objtool: Remove superfluous global_noreturns entries
-d59fec29b131f30b27343d54bdf1071ee98eda8e tools/lib/subcmd: Replace NORETURN usage with __noreturn
-6245ce4ab670166efcdae843c35c14e4c0811aa3 objtool: Move noreturn function list to separate file
-e455ca40dbcf2cd50d1e59bf4b2752b300bcdad4 audit: avoid missing-prototype warnings
-725e8ec59c56c65fb92e343c10a8842cd0d4f194 workqueue: Add pwq->stats[] and a monitoring script
-3a46c9833c1fad3b4a91bbbeb856810c7e1d8e47 workqueue: Re-order struct worker fields
-c54d5046a06b90adb3d1188f0741a88692854354 workqueue: Move worker_set/clr_flags() upwards
-bdf8b9bfc131864f0fcef268b34123acfb6a1b59 workqueue: Improve locking rule description for worker fields
-616db8779b1e3f93075df691432cccc5ef3c3ba0 workqueue: Automatically mark CPU-hogging work items CPU_INTENSIVE
-6363845005202148b8409ec3082e80845c19d309 workqueue: Report work funcs that trigger automatic CPU_INTENSIVE mechanism
-8a1dd1e547c1a037692e7a6da6a76108108c72b1 workqueue: Track and monitor per-workqueue CPU time usage
-e3d9387f002612093dbeaa272f7930ce5108033f security, lsm: Introduce security_mptcp_add_subflow()
-85c3222dddc6697dc7513623983a2ba748ba710e selinux: Implement mptcp_add_subflow hook
-ed99135f7621459ef873991115372ba1afe88a04 selinux: keep context struct members in sync
-eb14232fb7713fa6258fa876d6d387c03ec21868 selinux: make header files self-including
-58b18011d08dc90e89a02df487474db560e6b231 wifi: mwifiex: Use default @max_active for workqueues
-1e80449e8d4bd954c775db76dd809ad55cdef687 wifi: ath10/11/12k: Use alloc_ordered_workqueue() to create ordered workqueues
-8ae5c4d1366a063d59f9340fc12356658f78d699 crypto: octeontx2: Use alloc_ordered_workqueue() to create ordered workqueues
-ed18185b77c8e3164523b9ee0a97d8063eba7992 media: coda: Use alloc_ordered_workqueue() to create ordered workqueues
-eb1cfd09f788e39948a82be8063e54e40dd018d9 lockdep: Add lock_set_cmp_fn() annotation
-e2a1f85bf9f509afd09b5d3308e3489b65845c28 sched/psi: Avoid resetting the min update period when it is unnecessary
-658888050998d0f0f7d8eca0c4dbb304bfa408bb cgroup/cpuset: remove unneeded header files
-525ff9c2965770762b81d679820552a208070d59 workqueue: fix enum type for gcc-13
-a495108ea99c64ce6b5727cb163162ba28e27bff capability: fix kernel-doc warnings in capability.c
-c33080cdc0cab7e72c5e4841cb7533d18a3130dc cgroup: Replace all non-returning strlcpy with strscpy
-6f640df149adf785184656a076b79d90fc4c86cc scsi: NCR5380: Use default @max_active for hostdata->work_q
-8bfbd046a3a8883c476eab1de6eb526f62bdc9d1 selinux: deprecated fs ocon
-bce487a439d3c06e43178d2a430b13acb7d64ba1 media: amphion: Use alloc_ordered_workqueue() to create ordered workqueues
-db1d1e8b9867aae5c3e61ad7859abfcc4a6fd6c7 IMA: use vfs_getattr_nosec to get the i_version
-4c8a49244c6abc5fb829d81abaaf2435ad2a44bf bcache: Convert to lock_cmp_fn
-c8f6219be2e58d7f676935ae90b64abef5d0966a workqueue: Fix WARN_ON_ONCE() triggers in worker_enter_idle()
-659db0789c2e66c5d6a52d57008e3a7401a3ffff cgroup: Update out-of-date comment in cgroup_migrate()
-18c8ae813156a6855f026de80fffb91e1a28ab3d workqueue: Disable per-cpu CPU hog detection when wq_cpu_intensive_thresh_us is 0
-d031f4e8b493df299123fbb4ec13db870584ed28 reiserfs: Initialize sec->length in reiserfs_security_init().
-4432b507445acf3f8e09ce253d4ca852c177b625 lsm: fix a number of misspellings
-57bbf99ce9639c46eec43081d30e2763c135c653 dm integrity: Use alloc_ordered_workqueue() to create ordered workqueues
-72b1fe6cc6523908bfc339d07d18cb0f3469a643 net: wwan: t7xx: Use alloc_ordered_workqueue() to create ordered workqueues
-022acfa632607735833eab34487a098c1ee9a7fc net: qrtr: Use alloc_ordered_workqueue() to create ordered workqueues
-78ef970385ea4d02a44af2776e4f4c74d4fce3d4 rxrpc: Use alloc_ordered_workqueue() to create ordered workqueues
-29cd55fe69e37722c797504cffeb9f9e13df1faf selinux: cleanup exit_sel_fs() declaration
-d55ebae3f3122b07689cc4c34043114e09ce904c sched: Hide unused sched_update_scaling()
-378be384e01f13fc44d0adc70873de525586ad74 sched: Add schedule_user() declaration
-c0bdfd72fbfb7319581bd5bb09b4f10979385bac sched/fair: Hide unused init_cfs_bandwidth() stub
-f7df852ad6dbb84644e75df7402d9a34f39f31bd sched: Make task_vruntime_update() prototype visible
-7aa55f2a5902646a19db89dab9961867724b27b8 sched/fair: Move unused stub functions to header
-3f4bf7aa315bf55b2a569bf77f61ff81c7e11fc1 sched/deadline: remove unused dl_bandwidth
-cec5fe700799b3f863d25cf883f02e5735598ab5 selinux: make labeled NFS work when mounted before policy load
-9df6a4870dc371136e90330cfbbc51464ee66993 integrity: Fix possible multiple allocation in integrity_inode_get()
-5dd4241964c86e866ae51b5c5b95cd14c5f341e6 vfio/ccw: replace one-element array with flexible-array member
-d933e5f41e4f6c54f4bd3e0b29ca4854fe5fa0d6 vfio/ccw: use struct_size() helper
-31e9ccc67ce24f82120e41fcafd841f98838ff5c s390/ipl: add REIPL_CLEAR flag to os_info
-9f70bc890ae299a6fdf83bfc99832509fd2f7494 s390/zcore: conditionally clear memory on reipl
-46a29b039e2ea1199ef59c68f4313a8eebbd7d56 s390/pkey: introduce reverse x-mas trees
-f370f45c6475ad0058277ae111f28fb32f58aa46 s390/pkey: do not use struct pkey_protkey
-9e436c195e2d6d3a0db6921e14ef2c85e559ae5b s390/pkey: add support for ecc clear key
-ff9a6459bbec06df7da2545020d7383aba13b3fb objtool: Add __kunit_abort() to noreturns
-ec4a491d180b076191e72ef88c240caead1b20fc selinux: fix Makefile for versions of make < v4.3
-f413e724818c6482146218b3bcaf3d75b1317fc4 cyrpto/b128ops: Remove struct u128
-224d80c584d3016cb8d83d1c33914fdd3508aa8c types: Introduce [us]128
-b23e139d0b66c0216e7e9361a5021290395f504c arch: Introduce arch_{,try_}_cmpxchg128{,_local}()
-8c8b096a23d12fedf3c0f50524f30113ef97aa8c instrumentation: Wire up cmpxchg128()
-c5c0ba953b8c969c5d51bf1c57f239866a97c47c percpu: Add {raw,this}_cpu_try_cmpxchg()
-6d12c8d308e68b9b0fa98ca2df4f83db4b4c965d percpu: Wire up cmpxchg128
-8664645ade97b66a9d150cae43f4e6eef737b97d parisc: Raise minimal GCC version
-0a0a6800b02489c1288f963ad290b6a4876a2cc8 x86,amd_iommu: Replace cmpxchg_double()
-b1fe7f2cda2a003afe316ce8dfe8d3645694a67e x86,intel_iommu: Replace cmpxchg_double()
-6801be4f2653e5fdddca73b527cf0728284ba8a3 slub: Replace cmpxchg_double()
-febe950dbfb464799beb0339cc6fb10699f4a5da arch: Remove cmpxchg_double
-497cc42bf53b55185ab3d39c634fbf09eb6681ae s390/cpum_sf: Convert to cmpxchg128()
-dda5f312bb09e56e7a1c3e3851f2000eb2e9c879 locking/atomic: arm: fix sync ops
-14d72d4b6f0e88b5f683c1a5b7a876a55055852d locking/atomic: remove fallback comments
-a7bafa7969da1c0e9c342c792d8224078d1c491c locking/atomic: hexagon: remove redundant arch_atomic_cmpxchg
-d12157efc8e083c77d054675fcdd594f54cc7e2b locking/atomic: make atomic*_{cmp,}xchg optional
-f739287ef57bc01155e556033462e9a6ff020c97 locking/atomic: arc: add preprocessor symbols
-d6cd3664806fbe8313b8e04b042d40e8135ca459 locking/atomic: arm: add preprocessor symbols
-8ad17f2183fd7e37ceafddbdff334a3e2608cc84 locking/atomic: hexagon: add preprocessor symbols
-e50f06ce2d876c740993b5e3d01e203520391ccd locking/atomic: m68k: add preprocessor symbols
-07bf3dcbe0e199422598f12918021c516161fd12 locking/atomic: parisc: add preprocessor symbols
-770345adc38485c688e5d832d82306a4c2da828c locking/atomic: sh: add preprocessor symbols
-358c449afa662b1120d43738d2b0400ed2cc97df locking/atomic: sparc: add preprocessor symbols
-5bef003538ae8621c95ac6ebfd37324373fae37d locking/atomic: x86: add preprocessor symbols
-7c7084f3ba4031a9c2858afed696a577fcfe41d2 locking/atomic: xtensa: add preprocessor symbols
-a083ecc9333c62237551ad93f42e86a42a3c7cc2 locking/atomic: scripts: remove bogus order parameter
-e40e5298e692bb6b5a200b3f0f55e6e5adf0e5ad locking/atomic: scripts: remove leftover "${mult}"
-7ed7a1564090fdd265f49d1ad94ee92845b14c76 locking/atomic: scripts: factor out order template generation
-c9268ac615f9f6dded7801df5993374598934377 locking/atomic: scripts: add trivial raw_atomic*_<op>()
-0f613bfa8268a89be25f2b6b58fc6fe8ccd9a2ba locking/atomic: treewide: use raw_atomic*_<op>()
-1815da1718aa4c062b94cf3fc09432f552e25768 locking/atomic: scripts: build raw_atomic_long*() directly
-9257959a6e5b4fca6fc8e985790bff62c2046f20 locking/atomic: scripts: restructure fallback ifdeffery
-b916a8c765692444388891f5b9c5b6e941e16d42 locking/atomic: scripts: split pfx/name/sfx/order
-630399469ffcb937936644fbaa5daf61e700a329 locking/atomic: scripts: simplify raw_atomic_long*() definitions
-1d78814d41701c216e28fcf2656526146dec4a1a locking/atomic: scripts: simplify raw_atomic*() definitions
-8aaf297a0dd66d4fac215af24ece8dea091079bc docs: scripts: kernel-doc: accept bitwise negation like ~@var
-ad8110706f381170c9f9975f1cb06010fd3ca381 locking/atomic: scripts: generate kerneldoc comments
-e74f4059d11f36e936b08e98bc96f654c308807a locking/atomic: docs: Add atomic operations to the driver basic API documentation
-ef558b4b7bbbf7e115c87e4da21ce86444d6ec3b locking/atomic: treewide: delete arch_atomic_*() kerneldoc
-b1de86d4248b273cb12c4cd7d20c08d459519f7d evm: Complete description of evm_inode_setattr()
-0dd37d6dd33a9c23351e6115ae8cdac7863bc7de sched/fair: Don't balance task to its current running CPU
-d5e1586617be7093ea3419e3fa9387ed833cdbb1 sched: Unconditionally use full-fat wait_task_inactive()
-1c06918788e8ae6e69e4381a2806617312922524 sched: Consider task_struct::saved_state in wait_task_inactive()
-8f2d6c41e5a649fe217724364cbb1a7d2e6ff205 x86/sched: Rewrite topology setup
-d16317de9b412aa7bd3598c607112298e36b4352 seqlock/latch: Provide raw_read_seqcount_latch_retry()
-5949a68c73444d89b171703b67ff04fc4d6059c1 time/sched_clock: Provide sched_clock_noinstr()
-c1d26c0f0295953d35307f9ee07f3e5295741315 arm64/io: Always inline all of __raw_{read,write}[bwlq]()
-24ee7607b286b44a5112ced38652df14cd80d5e2 arm64/arch_timer: Provide noinstr sched_clock_read() functions
-6b10fef09f937433563822f4bb6a2f947176e5a0 loongarch: Provide noinstr sched_clock_read()
-91b41a237512b569746e1f560a42d9fba077261d s390/time: Provide sched_clock_noinstr()
-fc4a0db4149afcdae2527f0d8c376accca34adc9 math64: Always inline u128 version of mul_u64_u64_shr()
-77750f78b0b3247c64b9821b49158cafe0506880 x86/vdso: Fix gettimeofday masking
-9397fa2ea3e7634f61da1ab76b9eb88ba04dfdfc clocksource: hyper-v: Adjust hv_read_tsc_page_tsc() to avoid special casing U64_MAX
-e39acc37db34f6688e2c16e958fb1d662c422c81 clocksource: hyper-v: Provide noinstr sched_clock()
-5c5e9a2b25b6a79d4b7a5f2a54d02ef1c36dc35a x86/tsc: Provide sched_clock_noinstr()
-fb7d4948c4da2dbd26da4b7ec76bbd2f19ff862a sched/clock: Provide local_clock_noinstr()
-e6a15fa9ea8372ad4db973191233f743ae1081d5 cpuidle: Use local_clock_noinstr()
-3eb6d6ececca2fd566d717b37ab467c246f66be7 sched/fair: Refactor CPU utilization functions
-7d0583cf9ec7bf8e5897dc7d3a7059e8fae5464a sched/fair, cpufreq: Introduce 'runnable boosting'
-a49a11dc6449a7e1370441bc23d83d528787066d cgroup: remove unused macro for_each_e_css()
-7bf11e90a30afcf79ff1acf28b01c6455799861a cgroup: Replace the css_set call with cgroup_get
-c20d4d889fc65bedd52430710ff7428bf32944fd rdmacg: fix kernel-doc warnings in rdmacg
-0dad9b072b2b170a99fcefa330a1a3193d503d8c cgroup: make cgroup_is_threaded() and cgroup_is_thread_root() static
-447a5688005e5b789633bd080016517a08f9fd8d selinux: avoid bool as identifier name
-228020b490eda9133c9cb6f59a5ee1278d8c463f perf: Re-instate the linear PMU search
-5416bf1cf5602ab3a38b4c0d15ccec1ca4199633 arm64/arch_timer: Fix MMIO byteswap
-e23b4fdb5cd0bab2ba770bc481dfb36c875a1d09 Merge branch 'protected-key' into features
-6afc770048edc90405c444163de70b1cdfbb8b57 s390/vfio-ap: realize the VFIO_DEVICE_GET_IRQ_INFO ioctl
-bf48961f6f48e3b7eb80c3e179207e9f4e4cd660 s390/vfio-ap: realize the VFIO_DEVICE_SET_IRQS ioctl
-2e3d8d71e285fcf39eb30dbb17a58baa90649867 s390/vfio-ap: wire in the vfio_device_ops request callback
-996e0a97ebd7b11cb785794e2a83c20c1add9d92 evm: Fix build warnings
-95526d13038c2bbddd567a4d8e39fac42484e182 ima: Fix build warnings
-55382134366e641e97cd83264c22c60c7dc10ccd capability: erase checker warnings about struct __user_cap_data_struct
-d49d1666aab51ad3caf79f414aff6b641837a6ea tools: Remove unnecessary variables
-4a03aa34432abe0703abf232f31fc5e2ed8256f6 lkdtm: Avoid objtool/ibt warning
-020126239b8f376ed2f0bef9dc07d0b280a0b7f5 Revert "x86/orc: Make it callthunk aware"
-ac27ecf68a1ada240bb71531dc2d30cde04ad70a x86/entry: Move thunk restore code into thunk functions
-1e4b619185e83e54aca617cf5070c64a88fe936b objtool: Allow stack operations in UNWIND_HINT_UNDEFINED regions
-a9da8247627eefc73f909bf945031a5431a53993 drm/vmwgfx: Add unwind hints around RBP clobber
-809373e17b2649948cc681dd1962b2736b22c7a6 objtool: Tidy elf.h
-2707579dfa615a5dda4aabb92e433f03a87b5ec5 objtool: Remove flags argument from elf_create_section()
-a5bd623653231bce8657978e9d2c2ebfaf19e297 objtool: Improve reloc naming
-53257a977a69b5eabbaafb64dcd767d2a4fef2b3 objtool: Consolidate rel/rela handling
-eb0481bbc4ce386e73e28ad8590b4f12c8aded56 objtool: Fix reloc_hash size
-ff4082730c2aaff3706232266e09d1ae4b350521 objtool: Add mark_sec_changed()
-6342a20efbd8b70d169c325b2c27a8a8f96388d5 objtool: Add elf_create_section_pair()
-fcf933552bebdecd72b324738c6635f46b0df569 objtool: Keep GElf_Rel[a] structs synced
-5201a9bcb7d3f98ab99c17325b0aa925c2888ca3 objtool: Don't free memory in elf_close()
-caa4a6b74b405ddaea40e2946cc3983aac96451d objtool: Add for_each_reloc()
-e0a9349b4c590145c6a83e6c9f7701cec42debbd objtool: Allocate relocs in advance for new rela sections
-ebcef730a19ba7ca446169f391d2e51722d68043 objtool: Get rid of reloc->list
-be9a4c116824c39720001db5bc45fe7528b26cff objtool: Get rid of reloc->idx
-e4cbb9b81f1f7519c7ae3abda09cb15794022952 objtool: Get rid of reloc->offset
-fcee899d2794319c9dbeb7b877b0c4ac92f5dd16 objtool: Get rid of reloc->type
-0696b6e314dbe4bd2f24d5e749469f57ea095a9f objtool: Get rid of reloc->addend
-be2f0b1e12644c956a347d7fde93c2ffe9cdb1af objtool: Get rid of reloc->jump_table_start
-890f10a433f51f95eccaec13d46dde769ccc113b objtool: Shrink reloc->sym_reloc_entry
-02b54001066364aee72bc4c802b42a96c6e0dc1f objtool: Shrink elf hash nodes
-ec24b927c1fbfc91cf7a48276d9fd92072b17d3b objtool: Get rid of reloc->rel[a]
-d93b5935fd47007597aed5105a902a10204bc30e objtool: Free insns when done
-b4c96ef0add5b701eb37be9830a98610e1d9b4a3 objtool: Skip reading DWARF section data
-093d9b240a1fa261ff8aeb7c7cc484dedacfda53 percpu: Fix self-assignment of __old in raw_cpu_generic_try_cmpxchg()
-b432b55176443e96b6f3bc39ed140ab00cddd84f MAINTAINERS: move labeled networking to "supported"
-78841cd185aa74bc92d3ac2c63a870395caaa086 x86/mm: Remove Xen-PV leftovers from init_32.c
-301cf77e21317b3465c5e2bb0188df24bbf1c2e2 x86/orc: Make the is_callthunk() definition depend on CONFIG_BPF_JIT=y
-5273ee254e34cf577460dc8eb786b26a7b5329d8 cgroup/cpuset: remove unneeded header files
-d16b3af46679a1eb21652c37711a60d3d4e6b8c0 cgroup: remove unused task_cgroup_path()
-74ce793bcbde5cef0f82d6ccb3c47cb651295a9a hostfs: Fix ephemeral inodes
-592efeb4a07ee46204c0f87001455c28f4743dea selftests/landlock: Don't create useless file layouts
-3de64b656b3c827d7d194558b0ae3a09400b116d selftests/landlock: Add supports_filesystem() helper
-55ab3fbe8333148e9c21477ffdc4edbe1f568f55 selftests/landlock: Make mounts configurable
-04f9070e99a4c5d60f05436f63e470c19b579e24 selftests/landlock: Add tests for pseudo filesystems
-35ca4239929737bdc021ee923f97ebe7aff8fcc4 selftests/landlock: Add hostfs tests
-f9f6ff8c5adb1b60cabc65dd830580dedeeb9aa6 xtensa: xt2000: drop empty platform_init
-71a5fd7d89fb6e6071f041ba1b55837837ccddb8 xtensa: drop platform_heartbeat
-11976fe2a47aa952b8fec54bc2bd54d57642f650 xtensa: drop platform_restart
-7561dfbf3b3451957c5d3fc52f53c78e78ed3034 xtensa: drop platform_halt and platform_power_off
-752121c7ebf84c39a3e7a45c432d7fc220cbe465 xtensa: clean up default platform functions
-fe5775f238d68ae160eb7c2a3ddbb1d7894d2c56 xtensa: boot-redboot: clean up Makefile
-f8b09d4524125163b9db47e831f398d7c6f8b22c xtensa: drop EXPORT_SYMBOL for common_exception_return
-e7cb083891e42493d07e9e597f837ff622f892ea xtensa: drop bcopy implementation
-74e25376b0fea8912d85df6e53a096c51f9df9f5 xtensa: only build __strncpy_user with CONFIG_ARCH_HAS_STRNCPY_FROM_USER
-338d9150900d39530d3b49a446ef68d28d98e377 xtensa: add asm-prototypes.h
-e6807b44e49aa737b4ee9fb614da3152e2ce49c0 xtensa: report trax and perf counters in cpuinfo
-959b76a909bf520b3b2ead067db487a80d19663d xtensa: drop ARCH_WANT_FRAME_POINTERS
-67e886229e27e80253e1ff9025a74a3dce941f17 xtensa: move early_trap_init from kasan_early_init to init_arch
-3522bcfe1ecd48b9db1bbecec5f27010f77b639b xtensa: always install slow handler for unaligned access exception
-651d4aff6892f630d399201f9ce94e240d932520 xtensa: rearrange unaligned exception handler
-f29cf77609cc401d28e2e7ec5c57d9d178ef347d xtensa: add load/store exception handler
-cc34f2909d2fbc8f52d24b20f6cbedcdf477e049 xtensa: rearrange show_stack output
-b33eb50a92b0a298fa8a6ac350e741c3ec100f6d locking/atomic: scripts: fix ${atomic}_dec_if_positive() kerneldoc
-a707df30c9438a9d4d0a43ae7f22b59b078f94c4 sched/fair: Rename variable cpu_util eff_util
-0cce0fde499a92c726cd2e24f7763644f7c9f971 sched/topology: Mark set_sched_topology() __init
-ef73d6a4ef0b35524125c3cfc6deafc26a0c966a sched/wait: Fix a kthread_park race with wait_woken()
-6a9d623aad89539eca71eb264db6b9d538620ad5 sched/deadline: Fix bandwidth reclaim equation in GRUB
-e20f204c88d595c04fc9197794bb68c0fbabd902 sched/deadline: Update GRUB description in the documentation
-cab3ecaed5cdcc9c36a96874b4c45056a46ece45 sched/core: Fixed missing rq clock update before calling set_rq_offline()
-96500560f0c73c71bca1b27536c6254fa0e8ce37 sched/core: Avoid double calling update_rq_clock() in __balance_push_cpu_stop()
-ebb83d84e49b54369b0db67136a5fe1087124dcc sched/core: Avoid multiple calling update_rq_clock() in __cfsb_csd_unthrottle()
-11458e2b3ffa0e3798f392695d7aec210ac14efd s390/module: fix rela calculation for R_390_GOTENT
-d0d3e218d50bc93282df7bded9193e6fc9ccda48 s390/cpum_cf: open access to hwctr device for CAP_PERFMON privileged process
-970ebb8a26a120340dcbb4e6c2fb4ecfbad0d190 SafeSetID: fix UID printed instead of GID
-4be22f16a4a1a1667e79b52b56cca2c64b3747e2 device_cgroup: Fix kernel-doc warnings in device_cgroup
-a04de42460e271e532b43ad40e9fb07a9a09fe5c cgroup: remove obsolete comment on cgroup_on_dfl()
-36de5f303ca1bd6fce74815ef17ef3d8ff8737b5 cgroup: Avoid -Wstringop-overflow warnings
-e973dfe9299441ad263efedf094897fbb31e6a87 cgroup/misc: Expose misc.current on cgroup v2 root
-9b9cf3c77e7e090b30657b3d2c288deb58dfb4f2 s390/cpum_cf: rework PER_CPU_DEFINE of struct cpu_cf_events
-81621430c81bb7965c3d5807039bc2b5b3ec87ca Revert "cgroup: Avoid -Wstringop-overflow warnings"
-f7667ca106df50ff8b776db54f85074dc9c52e1b xtensa: dump userspace code around the exception PC
-04d684875b30393c3e5cd0daf2fa737b562a7ad9 xen: xen_debug_interrupt prototype to global header
-9338c2233b97f97aa68bc42f53b06e90def129d7 iscsi_ibft: Fix finding the iBFT under Xen Dom 0
-3d013424de1efc2c9e68c6c06e76159e467c7ba8 x86/xen: add prototypes for paravirt mmu functions
-fb9b7b4b2b82d72031bff6d615215c1c74064bb3 x86: xen: add missing prototypes
-ed3b7923a816ded62dccef377c9ee346c7d3b1b4 Merge tag 'sched-core-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bc6cb4d5bc3a44197de30784eae71d8ba28483eb Merge tag 'locking-core-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a193cc7506fde23185a7c0d99474a03a8ec5ee4c Merge tag 'perf-core-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4d6751815b1d3057423b3feb156bd1525b7183e2 Merge tag 'x86-mm-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6f612579be9d0ff527ca2e517e10bfaf08cc1860 Merge tag 'objtool-core-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0ae612299621b5ae76bec55cc92503b6ed3f554b Revert "nios2: Convert __pte_free_tlb() to use ptdescs"
-8d8026f376c8e46cc90c59de91256d8ee4322ad8 Merge tag 'xtensa-20230627' of https://github.com/jcmvbkbc/linux-xtensa
-6a46676994607a1bde51cba71c1b0d373a555f45 Merge tag 's390-6.5-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-18eb3b6dff007f2e4ef4f0d8567dfb5cdb6086fc Merge tag 'for-linus-6.5-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-7ab044a4f42aecba23db5ce96e763e5ec807bf42 Merge tag 'wq-for-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-72dc6db7e3b692f46f3386b8dd5101d3f431adef Merge tag 'wq-for-6.5-cleanup-ordered' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-6e2332e0ab532eb01f1fde39080dbfa9bf65c4cf Merge tag 'cgroup-for-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-26642864f8b212964f80fbd69685eb850ced5f45 Merge tag 'landlock-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-cae72026b5ecf059687ccb431cb0e5965e863fea Merge tag 'audit-pr-20230626' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-729b39ec1bdb7e1ca594e14069d05f682d9ab868 Merge tag 'selinux-pr-20230626' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-21953eb16c2a6ebc039126d63acf84b286a58a02 Merge tag 'lsm-pr-20230626' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-b4c7f2e6ef40f545054a902e4708ed908d562318 Merge tag 'integrity-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-98be618ad03010b1173fc3c35f6cbb4447ee2b07 Merge tag 'Smack-for-6.5' of https://github.com/cschaufler/smack-next
+57301062d3912fd0bc3d324f7d14aa422e52366c LoongArch: Set CPU#0 as the io master for FDT
+3841b6011ca15ab055efb298713d97476d555a11 LoongArch: Add guard for the larch_insn_gen_xxx functions
+653106c09380043afe76076e77ee6b89066e154b LoongArch: Calculate various sizes in the linker script
+e83d110a61c0c9ed39d7f900767d49616ac9f6cd LoongArch: extable: Also recognize ABI names of registers
+f8166d69c98f92c79fb4b5cc211bc8e99705092e LoongArch: Prepare for assemblers with proper FCSR class support
+9e4ca2e23fecdbd18bc9bbfae8f15edd6bd3e5fd LoongArch: Make the CPUCFG&CSR ops simple aliases of compiler built-ins
+d6aa042cac6c37dca05a2103f902cb11e3af9996 LoongArch: Simplify the invtlb wrappers
+8ffd2145352de70b7587c127169f3eda3ef6d2e3 LoongArch: Tweak CFLAGS for Clang compatibility
+386e6223f2eb13247db8ec79504dba871981f82c LoongArch: vDSO: Use CLANG_FLAGS instead of filtering out '--target='
+d9606a38231b21afab8ae0bd4026b980c67b0ae7 LoongArch: Include KBUILD_CPPFLAGS in CHECKFLAGS invocation
+5d60e2bf4808574b9c1ffc2744e796b185581b2e LoongArch: Mark Clang LTO as working
+12e466e1ceb7f4f251c49f42b6ca12d16f18cf8f Makefile: Add loongarch target flag for Clang compilation
+5444e6cd046f6df7e2daa8e6d171ab3f1ff36e49 LoongArch: Add support to clone a time namespace
+8711e052bef58fba755b2ad78b5e3e5a3e19faef LoongArch: Add vector extensions support
+831d8c941ba9b3b038347141d8f67470385757cb LoongArch: Add SMT (Simultaneous Multi-Threading) support
+b02e626514d281c1e743ff30dc7068d94b6ebc46 LoongArch: Support dbar with different hints
+f3aa6dc85221e1c454f0f1248ef6a991aab0667b LoongArch: Introduce hardware page table walker
+1883d2ab053d3d42c1edf05e16ebc861e0e3b045 LoongArch: Export some arch-specific pm interfaces
+f69791e78166df4af7987be07a3ccc76d5929219 LoongArch: Select HAVE_DEBUG_KMEMLEAK to support kmemleak
+0895d27ff84632f568b3c3820da1b2bd985fc3b2 LoongArch: Add jump-label implementation
+fda30539ba56747554c4f0b002f273f4eab8cd68 LoongArch: Replace kretprobe with rethook
+3d3c88aa581df995f0fe35425854d20f410316b6 LoongArch: Move three functions from kprobes.c to inst.c
+422f3acd731d73a93dddd38dd509461bbe96a0cf LoongArch: Check for AMO instructions in insns_not_supported()
+72f858128572fb498563483570d6bd3a0c3cffcf LoongArch: Add larch_insn_gen_break() to generate break insns
+4f278c7e3b7910d571cebea2abee7b09bc358faf LoongArch: Use larch_insn_gen_break() for kprobes
+0ba72e066c10cd8da01886b45f3d6c4ba3025fed LoongArch: Add uprobes support
+cca2f6ddf0b6e9427527ce19aca0e7073c131199 LoongArch: Remove five DIE_* definitions in kdebug.h
 
---===============2561018071349574105==--
+--===============3589250996803679183==--
