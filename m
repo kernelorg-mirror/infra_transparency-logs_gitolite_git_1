@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0319586037944172447=="
+Content-Type: multipart/mixed; boundary="===============2680192134754907473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 28 Jun 2023 21:12:02 -0000
-Message-Id: <168798672253.24056.12337933097209602144@gitolite.kernel.org>
+Date: Wed, 28 Jun 2023 21:12:30 -0000
+Message-Id: <168798675060.24593.3588266937880894159@gitolite.kernel.org>
 
---===============0319586037944172447==
+--===============2680192134754907473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: bcd6987b87b18141a4bfc6f3eaf5b55c63fdd240
     new: f42582c6b23a8c0c631645048a4e463f19c0b3d7
     log: revlist-bcd6987b87b1-f42582c6b23a.txt
 
---===============0319586037944172447==
+--===============2680192134754907473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -558,4 +558,4 @@ b5f2d0ff6ee467a55d862bd4381077674dd9e0c6 tpm: tis_i2c: Limit write bursts to I2C
 bffff355d2011e3c7797c58c3432dc494882ebdc tpm_tis-spi: Add hardware wait polling
 f42582c6b23a8c0c631645048a4e463f19c0b3d7 tpm: Switch i2c drivers back to use .probe()
 
---===============0319586037944172447==--
+--===============2680192134754907473==--
