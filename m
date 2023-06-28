@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Wed, 28 Jun 2023 16:41:18 -0000
-Message-Id: <168797047882.22966.15801776974859317081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 28 Jun 2023 16:50:10 -0000
+Message-Id: <168797101028.29161.13602715770211381486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: ee91452dac5abfc4c5b9827cf55e701d8c0ca678
-    new: d4931aa1883759869b13f2b2666830787e8a85a3
+    old: e512757e5d811f9276e08cae98cce7cc2973415c
+    new: e3a732bcba0358ec9648f7da216829a12227e7d0
     log: |
-         d4931aa1883759869b13f2b2666830787e8a85a3 ice: add LAG-supporting DDP package
+         e3a732bcba0358ec9648f7da216829a12227e7d0 igc: Fix Kernel Panic during ndo_tx_timeout callback
          
