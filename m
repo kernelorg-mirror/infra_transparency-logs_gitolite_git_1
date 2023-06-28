@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 28 Jun 2023 17:51:13 -0000
-Message-Id: <168797467364.7771.10993332628561517433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ntb-fixes
+Date: Wed, 28 Jun 2023 18:01:34 -0000
+Message-Id: <168797529452.14694.15380865652002489745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/geoff/ntb-fixes
+user: geoff
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: acf15e07eb06507c69f92394c36052677029b0a8
-    new: 47f04616f2c9b2f4f0c9127e30ca515a078db591
-    log: |
-         47f04616f2c9b2f4f0c9127e30ca515a078db591 dm: verity-loadpin: Add NULL pointer check for 'bdev' parameter
-         
+  - ref: refs/tags/for-merge-ntb-1
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
