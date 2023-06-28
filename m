@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 28 Jun 2023 17:23:11 -0000
-Message-Id: <168797299179.19725.11841212989365340297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ntb-fixes
+Date: Wed, 28 Jun 2023 17:45:17 -0000
+Message-Id: <168797431715.3981.10270345527497178581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/geoff/ntb-fixes
+user: geoff
 changes:
-  - ref: refs/heads/for-next/core
-    old: abc17128c81ae8d6a091f24348c63cbe8fe59724
-    new: 1c297ec192458b3b51d9403f1cc1fc0b8efce23c
+  - ref: refs/heads/master
+    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
+    new: 38ad16e068e3b6ca41b173e50ac2693870973a96
     log: |
-         1c297ec192458b3b51d9403f1cc1fc0b8efce23c arm64: sme: Use STR P to clear FFR context field in streaming SVE mode
+         38ad16e068e3b6ca41b173e50ac2693870973a96 Add README
          
