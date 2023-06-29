@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 29 Jun 2023 20:24:13 -0000
-Message-Id: <168807025339.552.8034816932142236525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ntb-work
+Date: Thu, 29 Jun 2023 20:46:42 -0000
+Message-Id: <168807160257.17595.2327487490606544084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/geoff/ntb-work
+user: geoff
 changes:
-  - ref: refs/heads/riscv-extensions-strings
-    old: 56d94ec027054ae7ba37796a0cdd70459695e06f
-    new: 8f402e823bd382bd44089ab4821c0e3713ebd21a
+  - ref: refs/heads/for-merge-ntb-1.1
+    old: 48f5562fa84dbb2b1e53d18ada756ab0a378eb07
+    new: 3102d6f5287c58ca417c616b5631a343b62dfe74
     log: |
-         8f402e823bd382bd44089ab4821c0e3713ebd21a [tmp] add cmdline
+         3102d6f5287c58ca417c616b5631a343b62dfe74 ntb.rst: Fix copy and paste error
          
