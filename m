@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6977055628939409205=="
+Content-Type: multipart/mixed; boundary="===============1400957686894211733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 29 Jun 2023 02:39:46 -0000
-Message-Id: <168800638667.32000.3836499516666674173@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 02:39:58 -0000
+Message-Id: <168800639893.32166.18240068273840668631@gitolite.kernel.org>
 
---===============6977055628939409205==
+--===============1400957686894211733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 8a24cc40fb8e6ef0caa3c292a823bd66d1bf694e
-    new: dcf9ad9d145397371ba3a5219465c77c4438215a
+  - ref: refs/heads/6.5/scsi-staging
+    old: 6f0a92fd7db1507b203111ee53632eeeba2daca5
+    new: 24033d71cc36ae8af02b56ec22c7490779a9e39f
     log: |
          4e45236982bcc3ce8a0ea719e1159cc5c935eb94 scsi: isci: Fix comment typo
          71e3e85ccf2b816e612c94b7460309dc5007caef scsi: core: Simplify scsi_cdl_check_cmd()
@@ -28,33 +28,33 @@ changes:
          24033d71cc36ae8af02b56ec22c7490779a9e39f scsi: ufs: core: Remove unused function declaration
          
 
---===============6977055628939409205==
+--===============1400957686894211733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1688006377 -0400
+pusher 75C5DE3D 1688006390 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1688006377-ae9380f4c85833b32c939909718723892e5422a8
+nonce 1688006390-bf27600a95e2afca3b7a4b5a270ee2a2fba5ac90
 
-8a24cc40fb8e6ef0caa3c292a823bd66d1bf694e dcf9ad9d145397371ba3a5219465c77c4438215a refs/tags/mkp-scsi-staging
+6f0a92fd7db1507b203111ee53632eeeba2daca5 24033d71cc36ae8af02b56ec22c7490779a9e39f refs/heads/6.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSc7ukACgkQ7ulgGnXF
-3j3YkQ//TLGwEYkMvz4zbdj0h7HHQzNJD4JGnXeV3AtD3YWcagEjypWy1gyiqLuI
-J0vYP2Wj52k/FS4lMhCzMDJMPUI1UmUci/KVg7dBe0WhkVZMISrUkBudfoaMXkJA
-DfDukAFidioSLjEXsTPl6nqQ/Qibk8IOgotyxxDsQNuA5Fb71xbGrjRemO5SZUnD
-aDCfJPZDL3Ub6mXYqAujyN8hlCgwMOYyVNnTzh7v/69sc7KhNlaGFECqjVDwXVyz
-WMdA6PIbCiuiozdH2irW7cRm2zpXkVbAPzfut9khEHYFn5ep4nWVNXNzq9BiO4Ju
-JdIZox3b5+K0OQ6Olk2oaKlxsSnu3s3/brHiXDL7+cV8Ek4GKUWxUjwEFhtrq+YO
-w/ViELFZF2EFzva7/Dgynm6JmY5yRX2Id7fl9L4wVJvmWKj5wVqPeW/LrmwJ18Pr
-YibM7yfY929sI1jS8yq0skP+MV1OdFlPdZr/t0V2UxQlVSPqN/tPRXV+LKYJcVVI
-YNsj+CVd8eIEwNZEDEyDjTXan6+dGOueap05/17yoX6T+qafx8A9zoEePiskH19s
-AHFMBjqCxATNKp4GbRpS0o2B6Xm4LPI7+HyDHOEU8Qp3Z1VP5FlXYzuARJJuaPnu
-/YeQYIz8dPCGV8w2K92Sc/K2cJOQyEaxhUOpFU5td+DmddyNEbM=
-=nWYp
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSc7vYACgkQ7ulgGnXF
+3j2ovw//eN2Aj5zEBCAtgRAeLV4pOUnGZakGhzmHjJYKAfO/QU3W+d/0bTxWyWos
+ljmMCu5W0L6FveMpHD9SVO3CnPpMSorWeZ9/BHpiVBj5N8Efk4/bAdkRfkaLn4W6
+vGR8KzDyMd1uu1y+wjNWt3QSAP10HCiED6SRTx6GISk2xmvewS9+uymHhUo5pWqJ
+WgtNWCnmh265+4weRdaVdYI2J2Q3g55py4qVJq6OVJDcGywRGYoNmpSs4TNj+q//
+WEUISiFx5bfiZ+0HziFH54SjjeiJ6T9Cb1aIIxgvnct2na+slHR03U4PeaG3TSf1
+V+RbU4l4euU7h66r5khw/v6Hb++7783AqeVN+osHZCg+EpXz+YZDrMcY6gPSgdeq
+DuX1uUhRmE7EE44mM3LV5FSBeGjPAC3Sh+xMPjTuP1XWY8a7KJbeAwAQddHpjyfL
+5QD3GIPuEq4+ju3QVAf84kodLjq+llqYJcfBb3/Ox7uZWWnsjqEBGcRRjx1tswCI
+1JpukMt4uBCMJan+y51Nfc2bgJQ9v8i9+EXstyDILziH6PXZvUIgP2tXA/QJ5eaE
+6EICgEpDHMcdAZp1II3XUZoJwm0WGLWvN541puBmEg5B1MIxOu/US/uhqQQ9/UkJ
+XFNgg0Qpo/hW80xhZfPVVt0TSRJgaQGcqaX5HJJD3NOMx5bPEoY=
+=lqzE
 -----END PGP SIGNATURE-----
 
---===============6977055628939409205==--
+--===============1400957686894211733==--
