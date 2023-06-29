@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6903028117951491007=="
+Content-Type: multipart/mixed; boundary="===============8874324241301574593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 29 Jun 2023 18:24:17 -0000
-Message-Id: <168806305725.10435.1784914818182135523@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 18:24:18 -0000
+Message-Id: <168806305805.10489.6579597370442097077@gitolite.kernel.org>
 
---===============6903028117951491007==
+--===============8874324241301574593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,74 +16,76 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.4.y
-    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
-    new: b6ac0f3df0be045c5c5fc05c7059bb5fa2001c68
-    log: revlist-6995e2de6891-b6ac0f3df0be.txt
+  - ref: refs/heads/linux-6.1.y
+    old: a1c449d00ff8ce2c5fcea5f755df682d1f6bc2ef
+    new: 90c9505b275bc6f26f59750240c94d787bfdbe00
+    log: revlist-a1c449d00ff8-90c9505b275b.txt
 
---===============6903028117951491007==
+--===============8874324241301574593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688063055 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688063056 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1688063050-e5c18a6abb2ee3761d29e29033a0ddc537de498d
+nonce 1688063051-3555a103cb3a086b5a734c6341526bb851feeb3c
 
-6995e2de6891c724bfeb2db33d7b87775f913ad1 b6ac0f3df0be045c5c5fc05c7059bb5fa2001c68 refs/heads/linux-6.4.y
+a1c449d00ff8ce2c5fcea5f755df682d1f6bc2ef 90c9505b275bc6f26f59750240c94d787bfdbe00 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSdzE8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rugP/1ImrlJ9tP1jaeArnjIS
-iL1ewrzR9Y2g6vvpUpFKJK0Y5dZJuN+BDKUEALkj/7T6VFquKnmdUzU9AF7/3TZi
-0L9HHOlZYMSUElmoAJlzb/CyUUrbasbSA4UnaR4/F7MOk7FHqhpcrSxBE/+3w2IA
-Ty1Z/yMVEjWShH1CHWJFw0hNk3JrWiFsOOl1YDUD+g3S98XTlXlrJPfpPwyrTPRr
-cvRZ7wes7sEpaUk81cGrFWcAI+KZVexsFQg/baitkzTcBibmLLJkHfzD7UEnMdAh
-4jlI65LI6yofswbgXp3HQauOGMFxgHllXTHEfdZYoyDz6cKy2MCj38a4LdqnlSpg
-8LxS+iAIVmjhPe/9nTkS8ZgwPCwN35dWO+8n3DAIBk2GZLILPhWy9hTqc9Qf/bHW
-a0Y2O/FA569G/ciDI0gH01FLHhR2hD6qwJqKmUEuGYgbbSjg/AUnZ2drKn7g3Nm4
-xn+GqIjKU647D6hGx9WxcdQHjWdU2sEk5SrJwxWxmo6u8f7zTYJV1wN2gOiz+7Cq
-Oqex4qZEElCKaynp7+5PjUn/CoWJW0Gcow1vfIITC8l6iEzvWAO0QgZV2bDUsl8s
-XhpBiP+4eNrw3aq9/+Ofbi2ZL7YpvIyJtqQGIxUlIuB7NFclRHByU4JZooxlbx/T
-K7jCsIMqaeilBBWHeOPtBW3Q
-=4O4V
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSdzFAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BbUP/AtedUqBH72QOu7fEIBm
+aYI5/ovga8WvgPYgrDg+j/HDg2C+F10UYY+gSuFIzKkGky/OAqPOJ//NtwGLrSLp
+j2wUgFNE7Qyj96rx0IP9obheVeXib3a6OnkUHWh6QJwnVEnxAxopnSvMP6ttn314
+nQCjIGu7cliXsbi41G7yaERqGzHYEjfiQYV2qDyDH15wiOYMZQyGcxnfif9iini/
+vEgLUpvk7VgYA8QJAF4zx8Z7Qm3WkH99/D/FWSr4AI8kKS7XOMk8IBD4i0LUB1Ww
+gRRSfdLIC1tG+PCKrlN4yU96MXnM9Xrs0jnmGrFd381kq+4GmhjgRXe4F8+KeeLW
+lN0sooTpr490YsH1mZ8P55q4XcAOWr0WGh26TiE5BDGMOLuW1QUKZffyHZGHi5Ix
+VI0B+yTSBPErG+em9in5QVGWgKpz1VDpWYEs/8uHvkPKgoga7NWTrdh82RzvdOkF
+7E9MbWKA/k5tT/mwjs+W0B6N0/IgapbzACS9nCA/RwAJAHbjT49qeE6a/roGuVaY
+RWjpTUKGZ9HY3NoJWmbAu8ggfShtHjUoGERV4VHu0cGX2WPyKvD20Fn7krur9GJU
+vU8qfuGdkm50hLYVY4cCfDsQiyJQk+0OYIhb1AC3ICQYLSrNStuZOFGN3kvHpFEi
+DDbVl+JYVw1HXmovaLfjILp8
+=zp4b
 -----END PGP SIGNATURE-----
 
---===============6903028117951491007==
+--===============8874324241301574593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6995e2de6891-b6ac0f3df0be.txt
+Content-Disposition: attachment; filename=revlist-a1c449d00ff8-90c9505b275b.txt
 
-53b8364da9808fe69932bd40d4f256a3ed2cb079 x86/microcode/AMD: Load late on both threads too
-be96e876f0ac7a521c076d3974236b9299d4e8d0 x86/smp: Make stop_other_cpus() more robust
-6bd800eee56a2b64925c392106fa21875c373768 x86/smp: Dont access non-existing CPUID leaf
-1790c2a0db64cb56c81591ca931c575a7cb1618e x86/smp: Remove pointless wmb()s from native_stop_other_cpus()
-48d715e6ba3b2c8d6e07f237f81d7f3ae0485fac x86/smp: Use dedicated cache-line for mwait_play_dead()
-13d829207cba779be083766a119de44da662a914 x86/smp: Cure kexec() vs. mwait_play_dead() breakage
-5f9e455415273dc2921b2ee63bd87773464bffad cpufreq: amd-pstate: Make amd-pstate EPP driver name hyphenated
-692aa904340a2a000df8f3c349489b2e0f0cdaed can: isotp: isotp_sendmsg(): fix return error fix on TX path
-bc2f689a230d3b1c0aca24be4d8e7d2f12d99740 maple_tree: fix potential out-of-bounds access in mas_wr_end_piv()
-5479e62148a9d17422b96ca67187861653f6bb75 mm: introduce new 'lock_mm_and_find_vma()' page fault helper
-be54b7ba3b03dea3e8976aba3e584de6d4816177 mm: make the page fault mmap locking killable
-3451622a0a87a1730fa7cb6cbd137d0a9585519f arm64/mm: Convert to using lock_mm_and_find_vma()
-cf834b7470d0f36ccf6a259b27a3d82da345a4af powerpc/mm: Convert to using lock_mm_and_find_vma()
-ce747de004c799b11f84ef4eace2fd1b970e1e28 mips/mm: Convert to using lock_mm_and_find_vma()
-d232c959d433b255106e26e8f6fa214f2596f08c riscv/mm: Convert to using lock_mm_and_find_vma()
-f53812d2075400a87e4d0fd3892739783a541742 arm/mm: Convert to using lock_mm_and_find_vma()
-cd2a2ffa8651edf9df3ea50b964ea028d40a9fc9 mm/fault: convert remaining simple cases to lock_mm_and_find_vma()
-2b3053ef4ad867de77eb91c735b7a6ee060f8490 powerpc/mm: convert coprocessor fault to lock_mm_and_find_vma()
-998b9e3b4d784f3dd2852a081f334bc8c7f256d9 mm: make find_extend_vma() fail if write lock not held
-66c40b08e788719fdc8228ce028241b12b20eff3 execve: expand new process stack manually ahead of time
-319114a89664b7214243eb8140cf37a22a49ea14 mm: always expand the stack with the mmap write lock held
-efd3b6d4139bf8282b5eb0704e6dbeffcfb7c5af HID: wacom: Use ktime_t rather than int when dealing with timestamps
-04ea40a7965212cef37548b6b8a509399fb82119 gup: add warning if some caller would seem to want stack expansion
-f198517ecbfc10b6ccaefc1e4d4ba6dbe60fcded mm/khugepaged: fix regression in collapse_file()
-c729f757fb9de8664675c04c5daf6d1a51a04f8c fbdev: fix potential OOB read in fast_imageblit()
-2583bf90d200e995817f90a434fde08444c2aa3e HID: hidraw: fix data race on device refcount
-abd5b59268634b2a30d44d6144fc9e3c705f2e07 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
-b6ac0f3df0be045c5c5fc05c7059bb5fa2001c68 Linux 6.4.1-rc1
+ca4418690aa06a91a6fb64b0f0e64fc3a76e62c4 mm/mmap: Fix error path in do_vmi_align_munmap()
+6a654061c59fe264d2aa8d81242d15e9fbbf74f3 mm/mmap: Fix error return in do_vmi_align_munmap()
+d3b66869af9295b7f07ff926a757b4e9b38f972b mptcp: ensure listener is unhashed before updating the sk status
+97299160b158e0efef12c5f8f21a0622060d0182 mm, hwpoison: try to recover from copy-on write faults
+f169a8a1a1584614afccf84227ed908ccbb4a676 mm, hwpoison: when copy-on-write hits poison, take page offline
+b6d9f2679369f07242aef2540a1ef1f2386233c2 x86/microcode/AMD: Load late on both threads too
+4ae9a556bf7b60a28c33d75926135abcd4c7db38 x86/smp: Make stop_other_cpus() more robust
+213d5aa7f219e244fb346d5cb9f8d5b466b8b96e x86/smp: Dont access non-existing CPUID leaf
+c34479fdf240e1312e5c4707c9f619f8cd3b8b54 x86/smp: Remove pointless wmb()s from native_stop_other_cpus()
+e21260708abe0a685d77b3ed5cd43b6aeafa8236 x86/smp: Use dedicated cache-line for mwait_play_dead()
+d2b35a2f50496e15dbe4de61067ee1bc033133f8 x86/smp: Cure kexec() vs. mwait_play_dead() breakage
+c4e878789174f11e8053a5d9061dd26c965a33c8 can: isotp: isotp_sendmsg(): fix return error fix on TX path
+29870d3d85e6a7a20d16b8a9df2a250de804f670 maple_tree: fix potential out-of-bounds access in mas_wr_end_piv()
+d7305102c6d7ad9e28abc55b6b597c20ce2a898d mm: introduce new 'lock_mm_and_find_vma()' page fault helper
+f110eeafaeacc3fc9f7419e2d710cca93a19ac39 mm: make the page fault mmap locking killable
+16b059f3fabe751fd136e47ffe5b435ccddfdf2d arm64/mm: Convert to using lock_mm_and_find_vma()
+5829b0afea973ae8b2337982008a34e43e947a8a powerpc/mm: Convert to using lock_mm_and_find_vma()
+20527fb7d662de1818919fb04a64f49b10390f42 mips/mm: Convert to using lock_mm_and_find_vma()
+aa807487544490dbefdb3aee6e1179f572996028 riscv/mm: Convert to using lock_mm_and_find_vma()
+6d6011282a8642bb5720e40180cb5cd917fdec5d arm/mm: Convert to using lock_mm_and_find_vma()
+2203470ed64d33775535642a81bef1074c8e7ca5 mm/fault: convert remaining simple cases to lock_mm_and_find_vma()
+203b406d326c8f760729c142acc86ac52c7250f6 powerpc/mm: convert coprocessor fault to lock_mm_and_find_vma()
+adae2b291c769452e3406a1bacdf96ce249bed5c mm: make find_extend_vma() fail if write lock not held
+242ca0b9db3b3f99cae7e3c61cfe6f0cccdced76 execve: expand new process stack manually ahead of time
+dccc7c8af9b81d690e7b5718dfe07852fbc3021e mm: always expand the stack with the mmap write lock held
+64567ded17f7edfbbeb2cb5f1ec70753f31d524d fbdev: fix potential OOB read in fast_imageblit()
+d0f1ec6d5bfa5b2da023227875b57ecadccc0da4 HID: hidraw: fix data race on device refcount
+445d64164fb072f2ef7a69127cbb53192d74dda0 HID: wacom: Use ktime_t rather than int when dealing with timestamps
+c0f97a64d7ae6da5d23944127defbcba0ce9be48 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+90c9505b275bc6f26f59750240c94d787bfdbe00 Linux 6.1.37-rc1
 
---===============6903028117951491007==--
+--===============8874324241301574593==--
