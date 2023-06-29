@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 29 Jun 2023 00:03:04 -0000
-Message-Id: <168799698494.13644.12492798287607822269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 29 Jun 2023 00:49:21 -0000
+Message-Id: <168799976100.13483.474280769727980794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/tags/block-6.4-2023-06-23
-    old: 0000000000000000000000000000000000000000
-    new: cbf570bf9beb9bc3b0c874c3d7116295d13daee1
-  - ref: refs/tags/for-6.5/block-2023-06-23
-    old: 0000000000000000000000000000000000000000
-    new: b2839f0b3877737401770e0b9b1d33b96cc13185
-  - ref: refs/tags/for-6.5/dm-changes
-    old: 0000000000000000000000000000000000000000
-    new: d57a5957dcb8afcf56a4e5e47a1d61d821fe4623
-  - ref: refs/tags/for-6.5/io_uring-2023-06-23
-    old: 0000000000000000000000000000000000000000
-    new: 30784bf1cbfa83629645d662b9900b869e0e17ef
-  - ref: refs/tags/for-6.5/splice-2023-06-23
-    old: 0000000000000000000000000000000000000000
-    new: f5327814ed152c3b466d422d2f46efc906dc166a
+  - ref: refs/heads/damon/next
+    old: 3a6c8f058730df25cbe40effcefc7384426fe836
+    new: f42b509d0c8a161b7480e6adac3fbffe6bfe22e6
+    log: |
+         48dc216e224edfbccf0f1ea086ca85e02537ba8b btf: warn but return no error for NULL btf from __register_btf_kfunc_id_set()
+         78124b8355ef4ad87175d7461b2a662701e4d6ae Docs/process/changes: Consolidate NFS-utils update links
+         79eb3bbca9923b75393ae5f3c65de38397e3476d Docs/process/changes: Replace http:// with https://
+         3eb1081fc3e03361baf7f0b2c2c9eea4881d0f43 Documentation/subsystem-apis: Sort subsystems alphabetically
+         f42b509d0c8a161b7480e6adac3fbffe6bfe22e6 Documentation: Remove redundant words in titles of subsystem documents
+         
