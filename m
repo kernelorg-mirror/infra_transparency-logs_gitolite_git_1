@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9091377143553801481=="
+Content-Type: multipart/mixed; boundary="===============8422026450477700797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 29 Jun 2023 18:42:01 -0000
-Message-Id: <168806412101.25111.12108976611100050914@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 18:42:03 -0000
+Message-Id: <168806412368.25234.115672851158592939@gitolite.kernel.org>
 
---===============9091377143553801481==
+--===============8422026450477700797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,76 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 9505ab98ec9c9390a7fdd6b357c8c66b5a61bd50
-    new: a5e54d03cf39db7eed877a6417d2518e8573435a
-    log: revlist-9505ab98ec9c-a5e54d03cf39.txt
+  - ref: refs/heads/linux-6.3.y
+    old: a60b5beda10c5d9bb6f45f91808a3aba895dbf16
+    new: 4dedefb62ff0dfcb226b176d92939fcf71bcd733
+    log: revlist-a60b5beda10c-4dedefb62ff0.txt
 
---===============9091377143553801481==
+--===============8422026450477700797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688064119 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688064122 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1688064113-6e4790e8489967f11c8fe6bce14dcdc8af0cbc39
+nonce 1688064115-0603808f34e59aa85fdeb0d94584ec3c6afca4ec
 
-9505ab98ec9c9390a7fdd6b357c8c66b5a61bd50 a5e54d03cf39db7eed877a6417d2518e8573435a refs/heads/linux-5.15.y
+a60b5beda10c5d9bb6f45f91808a3aba895dbf16 4dedefb62ff0dfcb226b176d92939fcf71bcd733 refs/heads/linux-6.3.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSd0HcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2U8QAKUYb//9lb9Nb2kMnK+J
-HY9fqMdUWyVfd10B5MxRPVEIVEK+HNZksyW5I+l9H+2bGSswzP1uNx7vIMbu1qq+
-OhkxHaokGaDEWG6X44y+DJCKbgjvlo43CAKvw9RC7fLZplKEobInqENySATN4E3b
-LcpR61Tqtvi6H8XbLObtbNyEm3sRvoIRtwe5Jc4sr+js6r9lM9pogG+sA5Ekw6gZ
-tUozUoeDwsGynOvFk2X4YvwkC+RuOapY3CIJ+1wYiGDrAwW1JtbkmoxKJb0tIITG
-o/HlEpbOFe53obsUCykJ6cXEjuORZi3nIWBvDCjyHiO/iI3xZHihuT8/8uR9U722
-+EKQ8jFuS7cKB11+boQDVU0wFzl70PZ3rCH/bcCc377fMmkHZFtL8eq7K0YWtDm6
-ZEf/pjVv7vgCr0FvRmf1VFlOFAb3c5rfK7SgX+kdGetaItYYHmU5eyXpMmjKExKh
-TzsC0aaOb/KaFS9tIMM+Bjg8RoStgpBt7hqglt21pHRVmhLYLOnpI1HImOsWTaov
-4AtormM0nDE0HCo/wCjk9H0p2AIa58Ckff18ozIhf1kpuVpTOWtqdj2O7kUwK8Z8
-rLL8n0/TC06CZRKzRHHFPEer4lAYD+58Eha2UmO0MjKdsRyeb8IL7EZ/sWtpqZkY
-9bSct5BaF2zgJxshDAnBr+dW
-=s4ik
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSd0HobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+stQP/R6hp7ctlyYG+RAwx02Y
+QLYcNvLh/RwEf4CIj+K244sy0WtfrXuVTBYXWdsRs4fVj7/Im7DAhAFCzeDHtNpr
+8GVxx9J5jBVDjndpqESc+f0QTdqVjzJ9EvceYZ9dceK6h3VPhUSi2lvHXIHZdTPZ
+RqGzjQj2yeBS8mougwFfEcCqfIB6+5CXd1YGgmj8UVpBVG95ytd8M9ktbkf8EiIm
+wjPR1AzBZugfV2sa/nERorVfJelo2ZNHEupuYPtz67a1kKaIHaS3PXsG3WHt9ZQz
+NhFkKOx1CvsXF4lCZgQ93ZP6t4nYFISt/9wd1UXajzHm9qOaPLiDBQlxttMxaU4T
+5iR8eb7F2fGdXOj4Joajh7yey/wLvKJwWJugghkfwBYGeI9EAb1ljmAa36uG5I+P
+bDlcNQIh1BDNshdQCjaTqVriLfc8DQgYwsuSDZhci4EKsqos2Ba7COwPOYMgIrH5
+QhyyuNhCo2z6tNZPmrjCeHwY/FB+iU6ZUnfJV5VawZm4WvSdCH2QGh+mxSG0yCBH
+Jr0h8d4zpk8dbJaEldaklz1UEtJgCRM18PCjuqMTLSnBOGxcoyDbaCeAST7jjHBa
+9zfzUCOG7dCHmEuwCFcCCISbuvzFBkSndoBZfnrWPedcuFw5jtD3K4uSdRoQCJN8
+D957g4+TEu26D2UsWI9lNGgW
+=ktdo
 -----END PGP SIGNATURE-----
 
---===============9091377143553801481==
+--===============8422026450477700797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9505ab98ec9c-a5e54d03cf39.txt
+Content-Disposition: attachment; filename=revlist-a60b5beda10c-4dedefb62ff0.txt
 
-3386383d9a3bd59afd2d6340266609abce1b920c mptcp: fix possible divide by zero in recvmsg()
-62c1686da9777956cc3211830343935fa513e6aa mptcp: consolidate fallback and non fallback state machine
-6ec6234c0f63bffbae4ee3bab149908b995b1f63 mm, hwpoison: try to recover from copy-on write faults
-53393e957e11938950d5f3d03c619ee2c8afafee mm, hwpoison: when copy-on-write hits poison, take page offline
-03d198752463edb473e698682e4725b658178eda drm/amdgpu: Set vmbo destroy after pt bo is created
-6feb0a356108c62d894fd996bd392f4d6c33b257 x86/microcode/AMD: Load late on both threads too
-9db4ce85535506541260a40a4e2642933eaf6ff3 x86/smp: Use dedicated cache-line for mwait_play_dead()
-a3909c09c700de796dd5b0aa62ea0e808b23bf95 can: isotp: isotp_sendmsg(): fix return error fix on TX path
-8e8a52e5667b4b7efaebbfbdcfef1deaba9140a6 bpf: ensure main program has an extable
-8cfea2a7d61fec77363c2e5d98bdd59cf5ec4c8b HID: wacom: Use ktime_t rather than int when dealing with timestamps
-969b83fc5d424fa7ce9d34f41d1ac6594e751319 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
-807a4fdf5973ba2dfa4c9b2c1fab060cbef64fc0 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
-a5e54d03cf39db7eed877a6417d2518e8573435a Linux 5.15.120-rc1
+9c9a206347fce436b668a5cdf4a93fccfe527a43 mm/mmap: Fix error path in do_vmi_align_munmap()
+eda731329b29b87e7d6f24c422acdab0e90fad3b mm/mmap: Fix error return in do_vmi_align_munmap()
+e3c89a5bf80da8c26c07dc8141066d5323dab9ee x86/microcode/AMD: Load late on both threads too
+b3da5aa2b3673cd6c85c4435ad1ad6863bc752a9 x86/smp: Make stop_other_cpus() more robust
+237dcd433d1de8c47d3eca019d7493817ca4281e x86/smp: Dont access non-existing CPUID leaf
+b9499bbcf35babdef71346135e50fb590d9f911d x86/smp: Remove pointless wmb()s from native_stop_other_cpus()
+90366b726782731e93852b50e16861cf368a92c4 x86/smp: Use dedicated cache-line for mwait_play_dead()
+1e58d8262c725d4de204941cdff492887009bc16 x86/smp: Cure kexec() vs. mwait_play_dead() breakage
+15c8d3774fedfdd1b6fbb9a98e25b399fee157de cpufreq: amd-pstate: Make amd-pstate EPP driver name hyphenated
+976eb3406a3e6e2146cb56ecf27451c8aacfbd78 can: isotp: isotp_sendmsg(): fix return error fix on TX path
+7d870803ac1a1ba69c8fbb5e81e140a4b3b9b113 maple_tree: fix potential out-of-bounds access in mas_wr_end_piv()
+613a7d048dd68efddd1936e84b3106e0f1031fdb mm: introduce new 'lock_mm_and_find_vma()' page fault helper
+3d632834a333f4e0dc327c84cf52eebd99bd9059 mm: make the page fault mmap locking killable
+cc88261da22d98a59c5fe58fcc798360d4bbb9b1 arm64/mm: Convert to using lock_mm_and_find_vma()
+e1b2abd168a7679eeb5aad07a2c4cc76fa8bcbd2 powerpc/mm: Convert to using lock_mm_and_find_vma()
+875b309cae65e89f64c609950f08cc561b934e7c mips/mm: Convert to using lock_mm_and_find_vma()
+e9c8ac6a163447e6aa6cdd51159c7cf2c9089354 riscv/mm: Convert to using lock_mm_and_find_vma()
+d1152ddbafe8ee9e173ba0ff112fb88cb406f6e9 arm/mm: Convert to using lock_mm_and_find_vma()
+8b76d7e3a128ea08c7c517a2118f2feceda23b76 mm/fault: convert remaining simple cases to lock_mm_and_find_vma()
+2dcdfd8d57f1731da67c34c137cf70e533ca503d powerpc/mm: convert coprocessor fault to lock_mm_and_find_vma()
+25d625cb746ca3c2ac3448b473849ed10940399e mm: make find_extend_vma() fail if write lock not held
+381c692467cb58d598f192ea59ac9fefb93ed09b execve: expand new process stack manually ahead of time
+f593e1bb4c5788c47784fb3430fcdb5bf6818bb5 mm: always expand the stack with the mmap write lock held
+eb26a34c35e529d34b62f374876ace6f668fec01 gup: add warning if some caller would seem to want stack expansion
+8a385d2ebd28106c6a2d16599cf55e9cad693066 fbdev: fix potential OOB read in fast_imageblit()
+1f8d45a296da2b767b78d7431697049d49726afa HID: hidraw: fix data race on device refcount
+269a5d1a5795221dad3bed3de6ca64fd30c7ba93 HID: wacom: Use ktime_t rather than int when dealing with timestamps
+23ba5684c2a49ea8b62ee4fc0686db331d779182 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+245b32158b2a03d13f81bcc1dc9610ab45ff0f2a Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
+4dedefb62ff0dfcb226b176d92939fcf71bcd733 Linux 6.3.11-rc1
 
---===============9091377143553801481==--
+--===============8422026450477700797==--
