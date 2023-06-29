@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 29 Jun 2023 11:41:22 -0000
-Message-Id: <168803888259.11704.15545700296129729982@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 11:42:33 -0000
+Message-Id: <168803895344.12173.9830784491102531693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
   - ref: refs/heads/riscv-extensions-strings
-    old: 55943530d6064d9de14726a8927c5f99ba2d9ec4
-    new: 6d67114e78d6ccce6da07b85af4324216cae79ef
+    old: 6d67114e78d6ccce6da07b85af4324216cae79ef
+    new: e0097d2c62d553c9e5c5f62e052d323e7f34b8ec
     log: |
-         6d67114e78d6ccce6da07b85af4324216cae79ef RISC-V: provide a Kconfig option to disable parsing "riscv,isa"
+         e0097d2c62d553c9e5c5f62e052d323e7f34b8ec RISC-V: provide a Kconfig option to disable parsing "riscv,isa"
          
