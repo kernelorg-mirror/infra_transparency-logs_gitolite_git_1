@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 29 Jun 2023 05:40:48 -0000
-Message-Id: <168801724894.32510.6465183215646416147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 29 Jun 2023 05:50:05 -0000
+Message-Id: <168801780582.6648.2908759472033845119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: df614e369b5c5c9c2e94d0e0cf7b1ebba19956e1
-    new: a49b4a62c5fdce5043f41426a550857d4c444e74
+  - ref: refs/heads/for-next
+    old: 762a3a488cea554bd65a4bd9819f8d451c3a0aef
+    new: 67710e662203b20fbc3f76ddc335b9532744d329
     log: |
-         a49b4a62c5fdce5043f41426a550857d4c444e74 perf/benchmark: add a new benchmark for seccom_unotify
+         3b0be5f156b1ac2a7adaaae18741dd46a6c6c847 parisc: Drop parisc32_classify_syscall()
+         67710e662203b20fbc3f76ddc335b9532744d329 parisc: Fix eisa
          
