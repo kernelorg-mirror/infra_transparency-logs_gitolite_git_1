@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 29 Jun 2023 22:19:36 -0000
-Message-Id: <168807717636.18678.158228220171495159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 29 Jun 2023 22:21:49 -0000
+Message-Id: <168807730903.21090.5529254476167456813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next
-    old: bab690562ea3aef8c3a678eed62ddfedfd8dd155
-    new: b0026dc7e7309c459ba10f9bfa8d93a6ae447b79
-    log: |
-         b0026dc7e7309c459ba10f9bfa8d93a6ae447b79 gfs2: Add quota_change type
-         
+  - ref: refs/tags/sysctl-6.5-rc1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 4f8f3509ace6a6c6eadce2b876f9476fac86aa4d
