@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Thu, 29 Jun 2023 01:01:13 -0000
-Message-Id: <168800047328.26020.10625634167071680993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 29 Jun 2023 01:29:58 -0000
+Message-Id: <168800219856.14401.14590372821689829361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/topic/fix-probe-template
-    old: 0000000000000000000000000000000000000000
-    new: c8be1ba8b966d8fa1f95ec45773b0e3cfc8981f7
+  - ref: refs/tags/net-next-6.5
+    old: 36d92c0a11a9b298d34db6d3434f2f18ddd7d591
+    new: 0000000000000000000000000000000000000000
