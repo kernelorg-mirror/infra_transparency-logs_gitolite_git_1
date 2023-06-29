@@ -1,28 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 29 Jun 2023 08:30:27 -0000
-Message-Id: <168802742775.21682.3016426762802569450@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8352124093856023634=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 29 Jun 2023 08:31:03 -0000
+Message-Id: <168802746392.21988.15755604703784088296@gitolite.kernel.org>
+
+--===============8352124093856023634==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/riscv-extensions-strings
-    old: a0c1f984526cb3a947cb1dd5571727f8c7302b2e
-    new: 55943530d6064d9de14726a8927c5f99ba2d9ec4
-    log: |
-         c72e6e13557bdd92eff2b4d13489906b1e137617 RISC-V: don't parse dt/acpi isa string to get rv32/rv64
-         66aca53e36f4600410075fb16aae20f14b3449e5 RISC-V: drop a needless check in print_isa_ext()
-         f629388a2797c7c13777c162f4d6ffe2fc2e36f4 RISC-V: shunt isa_ext_arr to cpufeature.c
-         002ad99db31111feab5b324147d62adc6b92b205 RISC-V: repurpose riscv_isa_ext array in riscv_fill_hwcap()
-         bdb16cc50f4799ed8584bfe64263dadc8386ae35 RISC-V: add missing single letter extension definitions
-         b4aa63603218855964ed18d16c3d66a8c8a1afe7 RISC-V: add single letter extensions to riscv_isa_ext
-         4783354ee8c0744e6e1f7851dde8a3bc4bec6547 RISC-V: split riscv_fill_hwcap() in 3
-         153e8962c7c6a33a56d3eec95122f1a1564ecd8c RISC-V: enable extension detection from new properties
-         f9c5958153b299829f42e0f9ca902fc282f2f424 RISC-V: try new extension properties in of_early_processor_hartid()
-         55943530d6064d9de14726a8927c5f99ba2d9ec4 RISC-V: provide a Kconfig option to disable parsing "riscv,isa"
-         
+  - ref: refs/heads/dev-test
+    old: e39aa7e2aad77e6a5a4d91d350679621c0e393ac
+    new: 7b2cc4ba4c23e5f5a2424ac3f3e9b56c37ee3ce6
+    log: revlist-e39aa7e2aad7-7b2cc4ba4c23.txt
+
+--===============8352124093856023634==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e39aa7e2aad7-7b2cc4ba4c23.txt
+
+8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
+ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
+00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
+698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
+64ee9163fe1b911aa0476af06ee0afd23fdf7388 f2fs: compress: fix to check validity of i_compress_flag field
+f240d3aaf5a1552ecb75445b47b1ca957d5151d2 f2fs: do more sanity check on inode
+94c8431fb46bfbe51bd3eb68687334797af0a221 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+c571fbb5b59a3741e48014faa92c2f14bc59fe50 f2fs: add helper to check compression level
+dde38c03b351749f682db087df5202b55c7c1b40 f2fs: cleanup MIN_INLINE_XATTR_SIZE
+ac1ee161dec5801d9bbd874ef69cd0ff1e8053b6 f2fs: add f2fs_ioc_get_compress_blocks
+c9667b19e2cf13735fe2620f9d97b788897cd4af f2fs: check zone write pointer points to the end of zone
+9ac00e7cef106b66611e131f59f61f5ae35cf726 f2fs: do not issue small discard commands during checkpoint
+3f8ac7da8c6efd72908e0a16d4a149e79f356a00 f2fs: remove redundant assignment to variable err
+c3355ea9d82fe6b1a4226c9a7d311f9c5715b456 f2fs: convert to use sbi directly
+6201c478dedcf7c50361b23b5c4d4f41a68921ac f2fs: refactor struct f2fs_attr macro
+2724daf6c24c58099a758d1e842d39b10133b065 f2fs: compress tmp files given extension
+396d0a28836d42bef595a8843533285abaf64ff7 f2fs: update mtime and ctime in move file range method
+cf2423a7555c4b012576c7282fb495ce739d50d4 f2fs: remove unneeded page uptodate check/set
+7b1a68e7ba39e5882d0908f6d6156a60bf45fe31 f2fs: fix deadlock in i_xattr_sem and inode page lock
+7dde02cbf7ba06233cbc9e10c73516d0d6bf9a63 f2fs: fix to avoid mmap vs set_compress_option case
+0f7b2419cabe53134b7b79b7554951036f947c72 f2fs: fix compile warning in f2fs_destroy_node_manager()
+02d334c8fa2759fc12a09e48ca852c6c7ab119c5 f2fs: fix error path handling in truncate_dnode()
+fecc7424f7ae96d9e3f35d32ff0d92ba2b7c14e8 f2fs: support background_gc=adjust mount option
+e41ea0da11ad1095ae0f95633f0660aabe4ccc2f f2fs: fix to tag FIEMAP_EXTENT_DELALLOC in fiemap() for delay allocated extent
+9564a54063e87209b5231d23063fe64e34a48a98 f2fs: compress: fix prepare_compress vs memory reclaim case
+0ffc86ff8f2e6ca5e527fc07ad379122e9905b0f f2fs: trigger checkpoint to submit remained discard during mount()
+7b2cc4ba4c23e5f5a2424ac3f3e9b56c37ee3ce6 f2fs: fix to sanity check on direct node
+
+--===============8352124093856023634==--
