@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 29 Jun 2023 18:11:28 -0000
-Message-Id: <168806228805.1228.12306808313433354328@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 18:13:29 -0000
+Message-Id: <168806240986.2116.768737194286687833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 56f66ce1fd41c8eb063b550581d664af1e576b55
-    new: 915057ae79692d47f9fb3504785855be49abaea4
+    old: 915057ae79692d47f9fb3504785855be49abaea4
+    new: 48538ccb825b05544ec308a509e2cc9c013402db
     log: |
-         915057ae79692d47f9fb3504785855be49abaea4 sfc: support for devlink port requires MAE access
+         48538ccb825b05544ec308a509e2cc9c013402db ibmvnic: Do not reset dql stats on NON_FATAL err
          
