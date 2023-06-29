@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7184147777314656782=="
+Content-Type: multipart/mixed; boundary="===============9091377143553801481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 29 Jun 2023 18:42:00 -0000
-Message-Id: <168806412083.25091.14079015037436272800@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 18:42:01 -0000
+Message-Id: <168806412101.25111.12108976611100050914@gitolite.kernel.org>
 
---===============7184147777314656782==
+--===============9091377143553801481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,23 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 479d05f2ce65df3c7c2ed2b9509c1aafc1a97095
-    new: 5f99a36aeb1c74d6d540796fbbe4904016140d5d
-    log: |
-         910407c0d83d1f2fc8bfce0e484b3254eff3e72d media: atomisp: fix "variable dereferenced before check 'asd'"
-         20a1351ecae83bb75fdce864f779679dd8cb3130 x86/microcode/AMD: Load late on both threads too
-         f75edec44089cf992e4cc2a7006ad89d8c7d12da x86/smp: Use dedicated cache-line for mwait_play_dead()
-         8d20925e263b04fdf0ba427d180568ab49d822cd can: isotp: isotp_sendmsg(): fix return error fix on TX path
-         d0d24e381eadfe6aca66559d47f88617927c4466 video: imsttfb: check for ioremap() failures
-         1c3a29118ef8e233e0fc2f7096cfd6f5649a6953 fbdev: imsttfb: Fix use after free bug in imsttfb_probe
-         90fae763289e62c1efc1847ca91aa920f7165b8b HID: wacom: Use ktime_t rather than int when dealing with timestamps
-         7a0cc78548048523d85cc45bcdf4269ca659ceb0 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
-         c64686909e9175102be323ec2ca30f7acab8d118 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
-         5f99a36aeb1c74d6d540796fbbe4904016140d5d Linux 5.10.187-rc1
-         
+  - ref: refs/heads/linux-5.15.y
+    old: 9505ab98ec9c9390a7fdd6b357c8c66b5a61bd50
+    new: a5e54d03cf39db7eed877a6417d2518e8573435a
+    log: revlist-9505ab98ec9c-a5e54d03cf39.txt
 
---===============7184147777314656782==
+--===============9091377143553801481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,23 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688064119 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1688064113-6e4790e8489967f11c8fe6bce14dcdc8af0cbc39
 
-479d05f2ce65df3c7c2ed2b9509c1aafc1a97095 5f99a36aeb1c74d6d540796fbbe4904016140d5d refs/heads/linux-5.10.y
+9505ab98ec9c9390a7fdd6b357c8c66b5a61bd50 a5e54d03cf39db7eed877a6417d2518e8573435a refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSd0HcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3Y4P/1zsJ8xUl/oONrhdEW+V
-ZOOjrhfQ3MwYPnDLWl956PIS44/auqpdLQWiOWiMwdV/GBs36AeVW4/7COHaXIt6
-JE9wXDxQEdpK+DaisFBH/qqElnR7dYbnhYmm//JoxUJvqn/yiQ0HV/TfPFLPFxqP
-3JySqPKkudlLC85MgdeNEMXeq/HlXiS8XYGHbEw8m5tqKcNecQE5eU5gyik6mHHd
-8e7r2Qiiit8Tu0umGrohyzifE9Q1AORO0hm/WKkCQjSXn483A2cPu3OsLiwjxBTR
-le2GHbYbbmSerL1iATx3U0WeztyAIlRt4a5nUcpEBOxfc9Xyrh0Low5MZsw/osPX
-lJw6dSvznXD7nFa44wQSk35ochD8JwSCKvMDbMrVRWfXQece5Dcwbj99vMFM7EuQ
-GHzOehXH1a6SN5+JQhOVH7kV38pESnmwnbWp+ITvjtBgG7jX8I3lAFUrXmoupPcv
-Jaq8yGHvQ/q2PpwloO9psD9RMsDzvGciUJvaOwdi5fcuoJAup2ivOsYN4k1Fq4xu
-ueFUyNXmr/L+dlmYxLG4YFXPSzpz1vp0nBFgyR4kCt5Z3lQfNX4TTJWuBKbGrWiD
-zeM4mCO3kT+z1EOD4gosxGdFk+uLrIYFg1BG2Z3+lHBXzXjzfMHrNIbZEAe/hnqZ
-kyGfn59Nu2TP8q507ES1/RKx
-=p7H4
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2U8QAKUYb//9lb9Nb2kMnK+J
+HY9fqMdUWyVfd10B5MxRPVEIVEK+HNZksyW5I+l9H+2bGSswzP1uNx7vIMbu1qq+
+OhkxHaokGaDEWG6X44y+DJCKbgjvlo43CAKvw9RC7fLZplKEobInqENySATN4E3b
+LcpR61Tqtvi6H8XbLObtbNyEm3sRvoIRtwe5Jc4sr+js6r9lM9pogG+sA5Ekw6gZ
+tUozUoeDwsGynOvFk2X4YvwkC+RuOapY3CIJ+1wYiGDrAwW1JtbkmoxKJb0tIITG
+o/HlEpbOFe53obsUCykJ6cXEjuORZi3nIWBvDCjyHiO/iI3xZHihuT8/8uR9U722
++EKQ8jFuS7cKB11+boQDVU0wFzl70PZ3rCH/bcCc377fMmkHZFtL8eq7K0YWtDm6
+ZEf/pjVv7vgCr0FvRmf1VFlOFAb3c5rfK7SgX+kdGetaItYYHmU5eyXpMmjKExKh
+TzsC0aaOb/KaFS9tIMM+Bjg8RoStgpBt7hqglt21pHRVmhLYLOnpI1HImOsWTaov
+4AtormM0nDE0HCo/wCjk9H0p2AIa58Ckff18ozIhf1kpuVpTOWtqdj2O7kUwK8Z8
+rLL8n0/TC06CZRKzRHHFPEer4lAYD+58Eha2UmO0MjKdsRyeb8IL7EZ/sWtpqZkY
+9bSct5BaF2zgJxshDAnBr+dW
+=s4ik
 -----END PGP SIGNATURE-----
 
---===============7184147777314656782==--
+--===============9091377143553801481==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9505ab98ec9c-a5e54d03cf39.txt
+
+3386383d9a3bd59afd2d6340266609abce1b920c mptcp: fix possible divide by zero in recvmsg()
+62c1686da9777956cc3211830343935fa513e6aa mptcp: consolidate fallback and non fallback state machine
+6ec6234c0f63bffbae4ee3bab149908b995b1f63 mm, hwpoison: try to recover from copy-on write faults
+53393e957e11938950d5f3d03c619ee2c8afafee mm, hwpoison: when copy-on-write hits poison, take page offline
+03d198752463edb473e698682e4725b658178eda drm/amdgpu: Set vmbo destroy after pt bo is created
+6feb0a356108c62d894fd996bd392f4d6c33b257 x86/microcode/AMD: Load late on both threads too
+9db4ce85535506541260a40a4e2642933eaf6ff3 x86/smp: Use dedicated cache-line for mwait_play_dead()
+a3909c09c700de796dd5b0aa62ea0e808b23bf95 can: isotp: isotp_sendmsg(): fix return error fix on TX path
+8e8a52e5667b4b7efaebbfbdcfef1deaba9140a6 bpf: ensure main program has an extable
+8cfea2a7d61fec77363c2e5d98bdd59cf5ec4c8b HID: wacom: Use ktime_t rather than int when dealing with timestamps
+969b83fc5d424fa7ce9d34f41d1ac6594e751319 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+807a4fdf5973ba2dfa4c9b2c1fab060cbef64fc0 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
+a5e54d03cf39db7eed877a6417d2518e8573435a Linux 5.15.120-rc1
+
+--===============9091377143553801481==--
