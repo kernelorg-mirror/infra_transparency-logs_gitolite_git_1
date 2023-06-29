@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 29 Jun 2023 23:36:28 -0000
-Message-Id: <168808178844.9736.1703316701888520436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
+Date: Thu, 29 Jun 2023 23:59:54 -0000
+Message-Id: <168808319435.25563.4751359132132650317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/aegl/linux
+user: aegl
 changes:
-  - ref: refs/heads/riscv-extensions-strings
-    old: 8f402e823bd382bd44089ab4821c0e3713ebd21a
-    new: 69bb2d7ae3ec90fae112c2118f78fa683c8a740a
+  - ref: refs/heads/resctrl2_v64
+    old: eda3e6a0e3b6c896d9ced0e8488c06cd373abd2e
+    new: afb7cdd4d64023650b5cc6e003b1aa3d2ab80af1
     log: |
-         372a21066d8aa3d7340251411d7a25efa2fc1c22 RISC-V: Provide a more helpful error message on invalid ISA strings
-         a3fd6975f0b8ed2ec0d73bb04de4c782416e107d [tmp] hack on top of palmer
-         69bb2d7ae3ec90fae112c2118f78fa683c8a740a fix tabbing of print_mmu()
+         afb7cdd4d64023650b5cc6e003b1aa3d2ab80af1 resctrl2: Many cleanups, fixes, and new functionality
          
