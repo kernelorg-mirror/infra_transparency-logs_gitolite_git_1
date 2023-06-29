@@ -1,181 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6176595895809743480=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
-Date: Thu, 29 Jun 2023 06:25:56 -0000
-Message-Id: <168801995696.31477.520623319877598388@gitolite.kernel.org>
-
---===============6176595895809743480==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 29 Jun 2023 06:43:34 -0000
+Message-Id: <168802101421.11139.16533180722140213870@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
-user: ggreenman
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-upstream
-    old: 78a8782a9e51e502a6ed267d270c6925fb738805
-    new: b255f5b92998d0277f1068e69768e3e70aae5210
-    log: revlist-78a8782a9e51-b255f5b92998.txt
-  - ref: refs/tags/iwlwifi-fw-2023-06-29
-    old: 0000000000000000000000000000000000000000
-    new: e12598d5d056593b719ff59ee42b363363304aa4
-
---===============6176595895809743480==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78a8782a9e51-b255f5b92998.txt
-
-e40a5b63243dbc0a77543d3975658fd668ef2586 rtw88: 8822c: Update normal firmware to v9.9.15
-898b7deff9fe22da4da8fc5e02d1cde3d0d9adee amdgpu: Add GC 11.0.4 firmware
-eb13e66975aeb503743aa6a33687541f8dd36730 amdgpu: Update DCN 3.1.4 firmware
-2cc9a4d0bdee41f7c3ce8b812662d30bd1f11b9c amdgpu: Update GC 11.0.1 firmware
-f098803d4f322b0dce6bf405640403128627e52d amdgpu: Update PSP 13.0.4 firmware
-7df2a1ae8debaefbf5a45d96d2197bc1e3c531dd amdgpu: Add PSP 13.0.11 firmware
-9ee24ce0e164ba9620ecc33295b183fc135bac7b amdgpu: Update SDMA 6.0.1 firmware
-7bce2920f9f71cfc817a4341ef8752897780354c Merge https://github.com/pkshih/linux-firmware
-717e62eb2e8673323a56e66462b10129b66486ce linux-firmware: Amphion: Update vpu firmware
-956c11638aec597fb10d2ce872afb8d6776e61f3 Merge branch 'mlimonci/update-dcn-3-1-4' of https://gitlab.freedesktop.org/superm1/linux-firmware
-87bb6c9a6578d34e1ef3ab3b1a69d5bdad0639f5 Merge tag 'iwlwifi-fw-2023-03-30' of http://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware
-33d8bf7941a9b098ac7c88569ae1d826edc84c60 linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-002583713fbcfb167a411c522e9ada1581b85d4c linux-firmware: update firmware for MT7922 WiFi device
-2e92a49f90f73c8edc44b25c6e669d5e70893c90 nvidia: update Tu10x and Tu11x signed firmware to support newer Turing HW
-465dc284fe279a8e553e53887f2714ef04b20451 ath10k: QCA4019 hw1.0: update board-2.bin
-e13fedda2381d4b3ad4454fd06189513b701a9a9 ath10k: QCA6174 hw3.0: update board-2.bin
-d0731d408f755a2e04419b4dedf0bd9601ce418b ath10k: QCA9888 hw2.0: update board-2.bin
-a5dcb44196d02cc6ee13eddda3ac2a71eed80306 ath10k: QCA9984 hw1.0: update board-2.bin
-2c67adc9f3983379c4903027f9d7de4f14209726 ath10k: QCA99X0 hw2.0: update board-2.bin
-aa98ffa3ac152e1f4ded9fc268429b624befce4b ath11k: IPQ6018 hw1.0: update board-2.bin
-7262bd5d439c8099aa94a0e801f4e900742d2484 ath11k: IPQ6018 hw1.0: update to WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
-0747362d83f26bc86df985b20390b1e6a8cfadc1 ath11k: IPQ8074 hw2.0: update board-2.bin
-b58b086902024fd06d320286da4e174b0304b91c ath11k: IPQ8074 hw2.0: update to WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
-7d2ab030e8a8a608934df1122d5b2443dfb5b1de ath11k: QCN9074 hw1.0: update to WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
-8115bd848e5e0efa87513969409f030c03ca6096 ath11k: WCN6750 hw1.0: update to WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1
-d1dc30480fef478b06827a428970ef5d763ed76e ath11k: WCN6855 hw2.0: update board-2.bin
-b9c8e9f7056ba3bd0313208ac4d185b695a84f2d rtw89: 8852c: update fw to v0.27.56.13
-9f7502f1dbb16aea2122004dd607e03ca6a62c0b rtw89: 8852b: update format-1 fw to v0.29.29.1
-0aea9cdf37180535a88e956d7d3532cba08f6610 Merge branch 'ath10k-20230405' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/linux-firmware
-5d0d24b3b4207292dd2b1e927348899e10e06427 linux-firmware: update firmware for MT7916
-86da2ac9b4e57e9a88f8bfcb5a163a406f5c00e1 Merge https://github.com/pkshih/linux-firmware
-74afc00db84cb49768a057720c8595c04786ed20 linux-firmware: Add firmware for Cirrus CS35L41 on Lenovo Laptops
-9fdb844beb03d6c3726c2294f36ad5eaa7ef9581 linux-firmware: update qat firmware
-2deb2d3079b783b58d752b6b127728df20a58084 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
-0d02ce696c1b679ecf02c6405fb0471da027ba56 linux-firmware: update firmware for MT7921 WiFi device
-45530bcb3c62a5777e43fac79f97cc928a303e23 linux-firmware: add firmware for MT7981
-1c942e46b0813a45ef543713ae5ea436cdf14b49 Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
-69143e8eca62a80b9791b8d358d1cc4c90e373c9 linux-firmware: Update AMD cpu microcode
-53e48f93f594f4109d5ddcfb049a5ae266cff529 rtl_bt: Add firmware and config files for RTL8851B
-8451c2b1d529dc1a49328ac9235d3cf5bb8a8fcb mt76xx: Move the old Mediatek WiFi firmware to mediatek
-2c6be1a4f0d0fadb103b72af2242fd3732337d6f qca: Update firmware files for BT chip WCN6750
-507ee862c591b8bb6b0ad64559e814b83591674c Merge branch 'main' of github.com:sampathnimmmala/bt_firmware
-bcbbf6bf8676924ab167b25155c2c987d32d210d linux-firmware: update firmware for MT7981
-40ba7eeee356d48b17dd2b3e44915c27e471cb5e linux-firmware: Update firmware file for Intel Bluetooth AX210
-1ee587d5efd9d82f0ba61070ab2fbd9399237398 linux-firmware: Update firmware file for Intel Bluetooth AX211
-a2739f057add3a20ac4e1aecdf832264c29c842f linux-firmware: Update firmware file for Intel Bluetooth AX211
-209ba08379fa016dd48631b39d04fa12b4eacb3d linux-firmware: Update firmware file for Intel Bluetooth AX203
-7610656f02c501c46bf7c81cd510bccb7f68aa0a linux-firmware: Update firmware file for Intel Bluetooth AX203
-2ca1787600eaf035937982d74c0ac4de43acfc9b linux-firmware: Update firmware file for Intel Bluetooth AX201
-6536a964bd96d3d3069d053c78c69c7e52a0a35c linux-firmware: Update firmware file for Intel Bluetooth AX200
-e88bdbe4b5a98370e30f8b6cbbfebf09cd604b4d rtl_nic: update firmware of USB devices
-fab149657d8d029c06179dd006b59b2f3594f916 Group all Conexant V4L devices together
-dee0d4cdf195d3294c1ed2be07a1745be0084ba6 rtl_bt: Update RTL8761B BT UART firmware to 0x9DC6_D922
-1de22a39246513ce431de0971a6376093a94c5c1 rtl_bt: Update RTL8761B BT USB firmware to 0xDFC6_D922
-0061a2dde6c3ad74dd5dbfa0f645408bf846f9cd rtl_bt: Update RTL8852B BT USB firmware to 0xDBC6_B20F
-312c61f5a6c9c6a313383a8f0c2b02711ec15262 amdgpu: update DCN 3.1.6 DMCUB firmware
-192ee6d1a7806620eeb6f8478e6a3ec6ea44821c i915: Add GuC v70.6.6 for MTL
-2bc50f50b092087636cc216f1605c557dc12a1ee Merge branch 'mtl_guc_70.6.6' of git://anongit.freedesktop.org/drm/drm-firmware
-c4423c9147d6147b85568a758d0719659f62e753 WHENCE: comment out duplicate MediaTek firmware
-05183b7bd5593edec62018c30dd52b9603df0368 check_whence: error on duplicate file entries
-6c9e0ed5362ff9fd74c11a2b9552a9223371f04a check_whence: error on directory listed as File
-a0146258f1b44913f763eec95168ceb1baa5f4a3 cxgb4: Update firmware to revision 1.27.3.0
-b8a56bf227d3d1f435628c3b46ffa8f0a912be5f cirrus: Add firmware and tuning files for Lenovo ThinkPad P1 Gen 6
-7d639e80a3c3bf80912598e2979f7c3f65659529 cnm: update chips&media wave521c firmware.
-6569484e6b57bc1c688b383ba6719bf2e25574c4 linux-firmware: update firmware for MT7922 WiFi device
-d196289109fb1e4914387f37d357502ac2f442dc WHENCE: Cleanup Realtek BT firmware provenance
-905d32656e4afd507b9150df03c6be2c6f972ace linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-cc628d657e2d516bef3e0955042df07e5a35eb16 cirrus: Add firmware and tuning files for HP G10 series laptops
-512909428e46953e4ade391387aef1305f52029c Merge branch 'main' of https://github.com/CirrusLogic/linux-firmware
-b72c69dd542c4684ece8ac88ec1ba33364ec9365 rtlwifi: Update firmware for RTL8188EU to v28.0
-08b854f020666a5df3d1987f6c01c8c2b780de7e rtlwifi: Add firmware v6.0 for RTL8192FU
-601c181310ed04bec74961e65d1d316a15eb754c Merge https://github.com/pkshih/linux-firmware
-c9e4034ad7bb47c751936426ca895fdf7cd213ad ice: update ice DDP comms package to 1.3.40.0
-dcd30473de546d2c20502c544ba0de6a78370f37 amdgpu: DMCUB updates for various AMDGPU asics
-84d5550e9947ff58491257617f3d4e9b809b9898 amdgpu: update aldebaran firmware for amd.5.5 release
-3b92077321e507e51c7e75c5b74349b818672a75 amdgpu: update sienna cichlid firmware for amd.5.5 release
-3bffc9f80bd852830d526b0eaf593ceda74a46d1 amdgpu: update navy flounder firmware for amd.5.5 release
-44772528faab6ea20e57460651ec099e72503d1f amdgpu: update GC 10.3.6 firmware for amd.5.5 release
-9eaff8661547d4aafd20457d4ba18159af53822e amdgpu: update psp 13.0.5 firmware for amd.5.5 release
-91251d1696374760e30cc3f1fe9ee22fd70a0cc5 amdgpu: update vcn 3.1.2 firmware for amd.5.5 release
-909cef98ad5fbb2b0b43452021dac06afa07fb2c amdgpu: update arcturus firmware for amd.5.5 release
-95eb53c9a49aee0ee98f0774288876fb3ba0b366 amdgpu: update dimgrey cavefish firmware for amd.5.5 release
-ceba765dd4cabac3ead989cc998a77d7fb0a72c5 amdgpu: update beige goby firmware for amd.5.5 release
-72d525d751a8f5e01ca6f9c79bf795eef46f730a amdgpu: update green sardine firmware for amd.5.5 release
-ffe1a41e2ddbc39109b12d95dcac282d90eba8fc amdgpu: update GC 11.0.0 firmware for amd.5.5 release
-568325574a3b6148f3296984aa24fcd1fb4b912c amdgpu: update PSP 13.0.0 firmware for amd.5.5 release
-39d6fcc73100ae4aeeec0194bbf102c672673edd amdgpu: update SMU 13.0.0 firmware for amd.5.5 release
-683c91f7e82c7165eb6c46d2464c9946cbae0595 amdgpu: update VCN 4.0.0 firmware for amd.5.5 release
-c1db00c5fcf42723c576d92d4713caac0000f229 amdgpu: update renoir firmware for amd.5.5 release
-a5d7b4df1a76f82e2ecb725cc1b56ce111830bac amdgpu: update GC 11.0.2 firmware for amd.5.5 release
-80b2d561a1fcad3eb13a1cc304e29d1c26959ae1 amdgpu: update PSP 13.0.7 firmware for amd.5.5 release
-a7fe4aa13128ce8139e339f2ea61449cf27cdac5 amdgpu: update SMU 13.0.7 firmware for amd.5.5 release
-102a4138636d1c71d01fc8c192fdd0a80d08bfcc amdgpu: update VCN 4.0.4 firmware for amd.5.5 release
-bb4d72504af10638d031984c6a2483680cd4ee14 amdgpu: update vangogh firmware for amd.5.5 release
-9c48881ff737af17f29ea9bbb384eefa1ace3eb3 amdgpu: update GC 10.3.7 firmware for amd.5.5 release
-ba70041c0913d2f4f022f173d675ae75c8945085 amdgpu: update 13.0.8 firmware for amd.5.5 release
-60dc78a708ad283b9c43b8b8b91ad4cc5568f076 amdgpu: update GC 11.0.1 firmware for amd.5.5 release
-474244643bac7b292d55b1adb9824cb6850489b2 amdgpu: update PSP 13.0.4 firmware for amd.5.5 release
-f0ce70265709b8510679c6e7e5361a8b3371dd6f amdgpu: update SDMA 6.0.1 firmware for amd.5.5 release
-31f8f526941991051581b4df92a367e1665b7c06 amdgpu: update GC 11.0.4 firmware for amd.5.5 release
-d13ef0cb3cb3e37d163d2af383a8755eadd7cc89 amdgpu: update PSP 13.0.11 firmware for amd.5.5 release
-3c98630afa17c56f0b32d6a3efc56d0b9679ef6b amdgpu: update vega10 firmware for amd.5.5 release
-c167587dd15b9e391c1135ea79f2f85f1f6d1549 amdgpu: update navi10 firmware for amd.5.5 release
-413348f395fabba193ae1ebe7a925975188acf97 amdgpu: update vega12 firmware for amd.5.5 release
-0e4f17cca0bc2b3e4708df00bcc7caa61920c80e amdgpu: update vega20 firmware for amd.5.5 release
-c70d3c3ba8464185655ec9e607238e84f5390233 amdgpu: update navi12 firmware for amd.5.5 release
-5eccb3c10c187e6e43f898fb08ef47368e586a5f amdgpu: update navi14 firmware for amd.5.5 release
-2e77545089e5d2481cf6dcad8d468e138f3396b9 amdgpu: update yellow carp firmware for amd.5.5 release
-1ba3519eab0fbc3cedf6b423ea0470461b902c1b Merge branch 'dev-queue' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/firmware
-c10facaf11266da21db27de9af1c51756ecd07bf rtw89: 8851b: add firmware v0.29.41.0
-8449fcd0ece9c04ebf36b6375aefd11344ffda5d Merge https://github.com/pkshih/linux-firmware
-1c513ec749766746ffcddfc6109f0abede2d4fae amdgpu: Update GC 11.0.1 and 11.0.4
-d11ae98478d52548172918511f949aa92193f2c6 brcm: Add symlinks from Pine64 devices to AW-CM256SM.txt
-244d6b5c2fdd8292ff61cc77b65c940119674960 cirrus: Add firmware for new Asus ROG Laptops
-b544e2b086f22357cfb57c5145ea912311073e7f Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
-1f9667ebd8e6aac23bab8e95b0d555181dd432ba Merge branch 'for-upstream' of http://git.chelsio.net/pub/git/linux-firmware
-9d4c9a52c2377c367978ff7b2ec4963b0704613e qcom: apq8016: add Dragonboard 410c WiFi and modem firmware
-fc90c59beebd551dde5fe5eb3e76d36651ba08fb Merge branch 'db410c' of https://github.com/lumag/linux-firmware
-795aea911f227ecbf8481d223f39a5b2856d466f mediatek: Update mt8195 SCP firmware to support hevc
-5de33fb45cee8d83abfe17e9e85bd74d51a2653f i915: Add HuC v8.5.0 for MTL
-05f94af7d23cf66cfd1659c6f32174626c5da604 Merge branch 'v2.0.21478' of https://github.com/yunfei-mtk/linux_fw_scp
-185f49df055ae37db22ac0c3179dd45deae34879 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
-2c50361c7dec68c0c6c671e6d790740f4277d61c linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-5ce06b9e07a748b66d0a7d8329563b13f425a6f1 linux-firmware: update firmware for MT7921 WiFi device
-eb3ae8417ca1330387aadd6bc45e073fbbe31f72 linux-firmware: update firmware for MT7922 WiFi device
-9a47adc736199880071c157f7aadee177300b2fd Merge branch 'mtl_huc_v8.5.0' of git://anongit.freedesktop.org/drm/drm-firmware
-9dbd8ec28fd810e5f4f9da41452aba74896a5564 amdgpu: DMCUB updates for various AMDGPU asics
-55e7448533e774824cfb34a7eaeb9604608e1a4a rtl_bt: Update RTL8852C BT USB firmware to 0x040D_7225
-1cd1c871c9162a2c34380e6dd0c8ac9474d36522 rtl_bt: Update RTL8852A BT USB firmware to 0xDAC7_480D
-1c59948891a66062653cc2a7bd3e3be840196946 qcom: sdm845: update remoteproc firmware
-9412046724a718363db868113b0fd4e0d64a2c52 qcom: sdm845: rename the modem firmware
-01a7a844cda3009327145d117844fd78bf01011b qcom: Update the microcode files for Adreno a630 GPUs.
-2f81bd9f502471e5decd183110d82d5a1cbd76d7 fix broken cirrus firmware symlinks
-5a1842ce738aa6697d59d66c2ae444ac314107c2 Merge branch 'rb3-update' of https://github.com/lumag/linux-firmware
-045b2136a61968e7984caeae857a326150bfe851 amdgpu: update DMCUB to v0.0.172.0 for various AMDGPU ASICs
-ade163aaaeae0c1ad20cb3dd8ce878bf61c91b3a amdgpu: DMCUB updates for DCN 3.1.4 and 3.1.5
-109b23c5f470b242341d31fa721affb194baa1d1 ice: update ice DDP wireless_edge package to 1.3.10.0
-32693d3b6b8471309f389bbd7abae9238d7f02e1 linux-firmware: wilc1000: update WILC1000 firmware to v16.0
-4b539e7a32e199bc74191634c2c56d7b679c01b7 check_whence: strip quotation marks
-f2671b1f50eb11901f88b3e8dc3c2b47b4b33008 check_whence: error if File: is actually a link
-77f92e0b9df20317bd7663ef44a13abbcde0f969 check_whence: error if symlinks are in-tree
-40fa2b20964acc491e909743165273da4343f105 copy-firmware: quote deskdir and dirname
-77f31a8000b197d0c26d3a7eeb591bee1a9eb3c2 copy-firmware: tweak sed invocation
-67bf50e72c3ea3a0bbc6327542d56996ad645b75 copy-firmware: drop obsolete backticks, quote
-ad2ce8beeeb46bca4246ecb62ac4fe715f097e39 copy-firmware: silence the last shellcheck warnings
-ee91452dac5abfc4c5b9827cf55e701d8c0ca678 Makefile, copy-firmware: support xz/zstd compressed firmware
-fa5d30b5c69be636b98b9a97c0f41a1bab38ce86 iwlwifi: update cc/Qu/QuZ firmwares for core80-39 release
-b255f5b92998d0277f1068e69768e3e70aae5210 iwlwifi: add new FWs from core80-39 release
-
---===============6176595895809743480==--
+  - ref: refs/heads/for-linus
+    old: d6048fdc870240e5020343f8af0c825829c232bd
+    new: 22065e4214c1196b54fc164892c2e193a743caf3
+    log: |
+         d17f0ce9a9ee1372b9c71b4dc9bd6c8fbe73790f ALSA: oxfw: make read-only const array models static
+         a64db0b9dfac2011e14e88faf59847baac1dad5a ALSA: fireface: make read-only const array for model names static
+         4eecae44a51a13be2d017cebc4f760173253d238 ALSA: ump: Correct wrong byte size at converting a UMP System message
+         4926a34b1b4e568edcd47b7215718dc187147780 Merge branch 'topic/midi20' into for-linus
+         22065e4214c1196b54fc164892c2e193a743caf3 ALSA: hda/realtek: Add quirk for Clevo NPx0SNx
+         
+  - ref: refs/heads/for-next
+    old: d6048fdc870240e5020343f8af0c825829c232bd
+    new: 22065e4214c1196b54fc164892c2e193a743caf3
+    log: |
+         d17f0ce9a9ee1372b9c71b4dc9bd6c8fbe73790f ALSA: oxfw: make read-only const array models static
+         a64db0b9dfac2011e14e88faf59847baac1dad5a ALSA: fireface: make read-only const array for model names static
+         4eecae44a51a13be2d017cebc4f760173253d238 ALSA: ump: Correct wrong byte size at converting a UMP System message
+         4926a34b1b4e568edcd47b7215718dc187147780 Merge branch 'topic/midi20' into for-linus
+         22065e4214c1196b54fc164892c2e193a743caf3 ALSA: hda/realtek: Add quirk for Clevo NPx0SNx
+         
+  - ref: refs/heads/master
+    old: dc6b47c7dc539c8780e07bbd884c8b43409f040d
+    new: 6af640091673736526dc4910d0d910d27c49154e
+    log: |
+         d17f0ce9a9ee1372b9c71b4dc9bd6c8fbe73790f ALSA: oxfw: make read-only const array models static
+         a64db0b9dfac2011e14e88faf59847baac1dad5a ALSA: fireface: make read-only const array for model names static
+         41e13a4cc371a42e418736146040897d117b5a66 Merge branch 'for-linus'
+         4eecae44a51a13be2d017cebc4f760173253d238 ALSA: ump: Correct wrong byte size at converting a UMP System message
+         4926a34b1b4e568edcd47b7215718dc187147780 Merge branch 'topic/midi20' into for-linus
+         22065e4214c1196b54fc164892c2e193a743caf3 ALSA: hda/realtek: Add quirk for Clevo NPx0SNx
+         6af640091673736526dc4910d0d910d27c49154e Merge branch 'for-linus'
+         
+  - ref: refs/heads/topic/midi20
+    old: 33cd7630782df2230529c3e8f1a6d0ae9cd6ab49
+    new: 4eecae44a51a13be2d017cebc4f760173253d238
+    log: |
+         4eecae44a51a13be2d017cebc4f760173253d238 ALSA: ump: Correct wrong byte size at converting a UMP System message
+         
