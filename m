@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 29 Jun 2023 05:09:25 -0000
-Message-Id: <168801536505.9356.15424017382955868615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 29 Jun 2023 05:40:48 -0000
+Message-Id: <168801724894.32510.6465183215646416147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: 214047a456ac7f6ea80f532dd98c81f5d555c8db
-    new: 762a3a488cea554bd65a4bd9819f8d451c3a0aef
+  - ref: refs/heads/for-next/seccomp
+    old: df614e369b5c5c9c2e94d0e0cf7b1ebba19956e1
+    new: a49b4a62c5fdce5043f41426a550857d4c444e74
     log: |
-         762a3a488cea554bd65a4bd9819f8d451c3a0aef parisc: Rename eisa_init() to parisc_eisa_init()
+         a49b4a62c5fdce5043f41426a550857d4c444e74 perf/benchmark: add a new benchmark for seccom_unotify
          
