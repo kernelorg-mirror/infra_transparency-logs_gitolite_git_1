@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5798484256906953911=="
+Content-Type: multipart/mixed; boundary="===============7886652765637371444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 29 Jun 2023 18:24:09 -0000
-Message-Id: <168806304951.10033.13768765391654280631@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 18:24:12 -0000
+Message-Id: <168806305216.10120.9762570185606589969@gitolite.kernel.org>
 
---===============5798484256906953911==
+--===============7886652765637371444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,47 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 94bffc1044d871e2ec89b2621e9a384355832988
-    new: ebef957eeb5cc3c89e8867fcfe9f588aacb01b2a
+  - ref: refs/heads/linux-5.4.y
+    old: b30db4f7e45f3c17cca2ba5be6f22762837a6e34
+    new: b05882891981d73f843ab5e0cd2b3d16a37b8401
     log: |
-         9a9ffea27cfc459f7b326abcdfd36254426125e5 gfs2: Don't deref jdesc in evict
-         5baeb117292240f09b7b39e683ea6c2e51d66f26 x86/microcode/AMD: Load late on both threads too
-         9fbe5154dfe4bbea8ea77cd7b90fb22b9bc7fb04 x86/smp: Use dedicated cache-line for mwait_play_dead()
-         1a9d6d77a5e477ea43bd8fffc3e6a085afe6944f video: imsttfb: check for ioremap() failures
-         5d79c69f1b88e6e1740a42ccb26b6561a0dd01e1 fbdev: imsttfb: Fix use after free bug in imsttfb_probe
-         ebef957eeb5cc3c89e8867fcfe9f588aacb01b2a Linux 4.19.289-rc1
+         0aafc2c451407c8f06b7d79ea79dfe9a5bb92ebd gfs2: Don't deref jdesc in evict
+         713f92a732f1e3bba8bca09edb3433591bde6196 x86/microcode/AMD: Load late on both threads too
+         ef90e689bef9ca3bba8da7178c172f757af809fa x86/smp: Use dedicated cache-line for mwait_play_dead()
+         4688b0b30d8e56ba08c39267400966cc08cd5b9e video: imsttfb: check for ioremap() failures
+         923b341be92148a8cae58a7df8445f62b2cf33db fbdev: imsttfb: Fix use after free bug in imsttfb_probe
+         d98bfda90e66fecf6d49f924373a5350e88e44e4 HID: wacom: Use ktime_t rather than int when dealing with timestamps
+         b05882891981d73f843ab5e0cd2b3d16a37b8401 Linux 5.4.250-rc1
          
 
---===============5798484256906953911==
+--===============7886652765637371444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688063048 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688063051 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1688063042-76d602f92a699880c47e94cc26d983820785aafd
+nonce 1688063045-1702863edaedb117280f419b999c3d0ce77489d4
 
-94bffc1044d871e2ec89b2621e9a384355832988 ebef957eeb5cc3c89e8867fcfe9f588aacb01b2a refs/heads/linux-4.19.y
+b30db4f7e45f3c17cca2ba5be6f22762837a6e34 b05882891981d73f843ab5e0cd2b3d16a37b8401 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSdzEgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UMoP/R3ArrXXU3L78xxZxm0K
-D5XIzp60NuPPUrhQAAZrS2ZAh4ZHr70s/kWIrEzimAp9tPXLXEVZSYby505YR2zq
-E5cHvtfmixi4gHL/bAYWCCtbCzMAfSraAlVZlkQGoy/voUxlZfRhpLHKPvQ26Kkb
-4hZ99hRfmyRHyKVhZN36tEynkFP3pNuUlcUuF2PrAjjLjSj3UgV8BpncLBQX1qJq
-wB0LlQqgBQJYvNhliugZvvKvChseKfKpocoP9R9xqFCRbV+L3eJehSoaCnMLoJhB
-cbyOlPvBN2H7wiRB4csWeH7BiZ3zBzLBhfxqIxjJd97pz9D61VtaUr46O1NYbA/N
-YoW3df9ljKkH5nvjn/ld+7M667a6xEIKUKrFUJfmTK8cdIty/1I35OosNfH/EnNr
-9RMqYF6DLCYo4hBcNrlCnss3mCg9orDt8544umTWbaymBsMnoiQPO3sdydlOwvez
-GVe13tPBn74YhYDuS8KcnrEY5vsP00JlU/cHp5a/7IRH7FcD9q97DJDLEOUSwY0+
-BAkokD1OXZHjWPCNm5TOtJ/OOR1ZiLtYPrOdGv3JPVYUxlXsoqXJQxddqvM7OOUx
-o7p4t/9s+96LeXwyhMoVSGZSCkh2eEZcg/Cjao88Vmvy+/csohX+kKRqeWHVpIBK
-zbFvtN9qMd4XCO2RXfbjSi0o
-=9iPi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSdzEsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QTcQAISzDNox0MBsCPwl9j0Q
+l/gJA2EQAooDZSC7Q0hQRUiOTTTMi4goGigWswLrTHTq0CCBcQY9by/cm2O2UiqU
+0dk1Nbysyv/Nr5L00mLMMQkHC222mlLf2UiziLjSiQVWnO04e9p5vjvpTjEviFdA
++8ir1jTwhstkXnJF1KO45SGLmFnDKtRoskKQ+KXiNUvJ549E+dOjZOS2rLysVlGO
+hQ/LW5DCgqguGJ7OBwTkCD3GPzRwvYHDnNMzkN5JpC5i7UkZBM6ZjQOZ0zlHntHk
+0mlK1DDjRR+BTUlkROZYzITe2FZ/7NPKJb8umOQQoiyycVfT+LhQh/ykpH+OQOF/
+Y/ORF0ZVUjV7cPNOGOP389573RUNgehfz5FBunbtqcmRQ6CKwD9CuB0xQ3BRxKLv
+FQT49nagMTsSsjppZ0bMcQzqxoEqV+OMbtjqn4v55vfxthPH7ZfFjJrdjWZwtpDq
+fAkuorWT7hrqifAWgutAzzvbNExzZCmWFpCOvMIBz7oIojhkV46RjpA6osW/1gcS
+spBSMfIWQw4FT6rVuPm74vPOwC6zp4T93CRCAYQSqugNjXI9tPBLGELaNqZU4b4S
+k8uXXs35aAcqUW4R3YyT9TMyqgTuCihXxFnsEqO81kkhXDgn/lQkZ1MU6KrXC67U
+1YufhOQo+g9LFrTW/sg/u5LC
+=b3mM
 -----END PGP SIGNATURE-----
 
---===============5798484256906953911==--
+--===============7886652765637371444==--
