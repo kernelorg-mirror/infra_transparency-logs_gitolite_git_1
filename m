@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7717760045739069258=="
+Content-Type: multipart/mixed; boundary="===============0668064089851866499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 29 Jun 2023 08:10:52 -0000
-Message-Id: <168802625247.8300.10248265827378710117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 29 Jun 2023 08:11:07 -0000
+Message-Id: <168802626741.8461.11327394649175014268@gitolite.kernel.org>
 
---===============7717760045739069258==
+--===============0668064089851866499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6995e2de6891c724bfeb2db33d7b87775f913ad1
     log: revlist-45a3e24f65e9-6995e2de6891.txt
 
---===============7717760045739069258==
+--===============0668064089851866499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -266,4 +266,4 @@ a92b7d26c743b9dc06d520f863d624e94978a1d9 Merge tag 'drm-fixes-2023-06-23' of git
 e3b2e2c14bcc12da2c463a7179db39139f682573 Merge tag 'i2c-for-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6995e2de6891c724bfeb2db33d7b87775f913ad1 Linux 6.4
 
---===============7717760045739069258==--
+--===============0668064089851866499==--
