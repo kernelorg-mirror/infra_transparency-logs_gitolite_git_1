@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3485754377295644586=="
+Content-Type: multipart/mixed; boundary="===============2084891884111691438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 29 Jun 2023 11:32:15 -0000
-Message-Id: <168803833526.4022.4201028377706870605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 29 Jun 2023 11:32:23 -0000
+Message-Id: <168803834324.4148.17763358506204232687@gitolite.kernel.org>
 
---===============3485754377295644586==
+--===============2084891884111691438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2134f40b94cf609ebba6c19e272d369f5175519b
-    new: 43ee011dea9e39370054e8a119bff61ba72984db
+  - ref: refs/heads/for-6.5
+    old: 85aeab362201cf52c34cd429e4f6c75a0b42f9a3
+    new: 70a6404ff610aa4889d98977da131c37f9ff9d1f
     log: |
-         43ee011dea9e39370054e8a119bff61ba72984db 5.15-stable patches
+         49bd7b08149417a30aa7d92c8c85b3518de44a76 ASoC: tegra: Fix AMX byte map
+         6dfe70be0b0dec0f9297811501bec26c05fd96ad ASoC: tegra: Fix ADX byte map
+         70a6404ff610aa4889d98977da131c37f9ff9d1f ASoC: rt5640: Fix sleep in atomic context
          
 
---===============3485754377295644586==
+--===============2084891884111691438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688038333 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1688038333-a21241ed8f927c37033725a38f1c992541e06da5
+pusher C3F436CA30F5D8EB 1688038341 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1688038341-d0618fa0a73f1262e2eb0657c380b001adc1e796
 
-2134f40b94cf609ebba6c19e272d369f5175519b 43ee011dea9e39370054e8a119bff61ba72984db refs/heads/master
+85aeab362201cf52c34cd429e4f6c75a0b42f9a3 70a6404ff610aa4889d98977da131c37f9ff9d1f refs/heads/for-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSda70bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DcYQAJAVcsutcanbkxznQk5Z
-/Ov6mftkiHFfUeLoMqbl+LoQJPfgZomuIMS5qXyyCrmr8I74IS3FV23da7Qk5aOH
-afKUBYAde7BTbwEb50qOkKWa/+l87IuwKvlQbYKi+/cfvaSLjAGZjTHea017iJII
-dULGPrD1/YyZWaSPfZe122v9Kqpz4Nn5evdUQpxXrF+n4kX/R+/G6pbPDkVmfyIc
-UY9s5fwpkkj3l2qauIhKmw14P+aUUo0bcyymg3HiqccXeUnDzmL772VjYPaL5h8U
-n+wsINHBDpiU3Di2H8pjZzZZ9mPZ5ASfIlOHc6zypCjQvuzh7RgyLnKfV79UZpfd
-p//8GVvh7F13ZPLaA/FktR37+5Gm4h6yOkv7geAq2xKp09ynV20k7nk24x2Pv69u
-OuG2M9cNad+o57qpmGFo7KGD6HlbiLHU7B3KfTEi7jwAdRaQsxspis93obX0rpWE
-h46YM5KPHHnZBfs8nyzd4DXqC3/KsO8Xtpn8DjySoQ0o+IHmWdG1iZJuBjte8WaA
-kz/3+4tf2KbBcG7tqQWVAgcHb2KW+ARa+wqCYnZHSxPwh9hAZb++dYBoqXE/2vUy
-TubooogVDoP2GVaGwYtvX5dF1hE9QTNok0lbhhag14lF8f3J+ZpMeVqzWW9zSX2k
-yjfXps7qVRuUajw8CNNtqEMI
-=QoX2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSda8UACgkQJNaLcl1U
+h9A3fgf6A/WH59cYhq9g6kxO+XnF3sjKEcXwsbMyih/KISByilhSUXaboYzmlGIw
+Wy+bPyZKsgGG8N6JLFPcCqmckWizKUJnt9gueW7U9WNJZXuj+JUidUTZuvK2uWzz
+HK2LsQlqNrkHTi/Ufh2VTV/g73lp2vIKyDwRU6d6hyAy1pUlHSadtDJmm/8Iu0yI
+kVr89Tx9RXRpIb7g7WRmOcWk1hhRFdqSPNY4QeP1ZLlMEaUgICbJAemBvQldkOev
+RG5mQBcpJKSaxcpVEcGYCsC/zHDhi7pm/GmaBtNUlE3lJ/1fpgMc7ReEIIzim8gg
+ga6HFmbs7veZgIHepOz19F75ldn64g==
+=QQKy
 -----END PGP SIGNATURE-----
 
---===============3485754377295644586==--
+--===============2084891884111691438==--
