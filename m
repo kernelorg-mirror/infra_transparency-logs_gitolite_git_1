@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8313749254737718877=="
+Content-Type: multipart/mixed; boundary="===============2273041391470703065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 29 Jun 2023 08:46:51 -0000
-Message-Id: <168802841118.1085.7216680560880374138@gitolite.kernel.org>
+Date: Thu, 29 Jun 2023 08:47:15 -0000
+Message-Id: <168802843554.1371.17769098625884582083@gitolite.kernel.org>
 
---===============8313749254737718877==
+--===============2273041391470703065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: f015b900bc3285322029b4a7d132d6aeb0e51857
     new: 3a8a670eeeaa40d87bd38a587438952741980c18
     log: revlist-f015b900bc32-3a8a670eeeaa.txt
 
---===============8313749254737718877==
+--===============2273041391470703065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d416a46c954ef0b753595ebfe6bb0988a24c2a57 Merge tag 'execve-v6.5-rc1' of git://gi
 6a8cbd9253abc1bd0df4d60c4c24fa555190376d Merge tag 'v6.5-rc1-sysctl-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 3a8a670eeeaa40d87bd38a587438952741980c18 Merge tag 'net-next-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============8313749254737718877==--
+--===============2273041391470703065==--
