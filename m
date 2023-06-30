@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 30 Jun 2023 13:54:07 -0000
-Message-Id: <168813324715.31698.18312259079450797393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 30 Jun 2023 13:54:26 -0000
+Message-Id: <168813326681.31866.13395665495322092468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 075e333591e6aee7b0008dd6c14c361bb1509821
-    new: e55e5df193d247a38a5e1ac65a5316a0adcc22fa
-    log: |
-         e55e5df193d247a38a5e1ac65a5316a0adcc22fa csky: fix up lock_mm_and_find_vma() conversion
-         
+  - ref: refs/heads/fileL5uGrC
+    old: 0000000000000000000000000000000000000000
+    new: 7c1f23ad34fcdace50275a6aa1e1969b41c6233f
+  - ref: refs/heads/fileZz2Njy
+    old: 0000000000000000000000000000000000000000
+    new: ac192c1a54f9562efe6bac910e6e7aae7b5fbea3
