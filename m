@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Fri, 30 Jun 2023 04:34:13 -0000
-Message-Id: <168809965307.1068.2363108590794343909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 30 Jun 2023 05:36:19 -0000
+Message-Id: <168810337971.13240.11741330508895813090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/memblock-v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 36f4239643bd93604c96ff682e55f385b051336d
+  - ref: refs/heads/dev
+    old: e4939f9eaa177e05d697ace85d8dc283e25dc2ed
+    new: 29ac6a28301846fdb25589ff4e9f2982e4ab780b
+    log: |
+         29ac6a28301846fdb25589ff4e9f2982e4ab780b erofs-utils: fsck: add support for extracting hard links
+         
