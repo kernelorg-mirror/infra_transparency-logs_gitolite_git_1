@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 30 Jun 2023 23:39:06 -0000
-Message-Id: <168816834612.3854.2629545407745093092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Fri, 30 Jun 2023 23:51:20 -0000
+Message-Id: <168816908056.12945.13705481309220176660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/dev-test
-    old: c647a6bea719d0fb3b753388c2542407c381d625
-    new: a6ec83786ab9f13f25fb18166dee908845713a95
-    log: |
-         5eda1ad1aaffdfebdecf7a164e586060a210f74f f2fs: fix deadlock in i_xattr_sem and inode page lock
-         0135c482fa97e2fd8245cb462784112a00ed1211 f2fs: fix error path handling in truncate_dnode()
-         c31e49615762a5fa0d14ffcfd5e2f1c206213a14 f2fs: fix compile warning in f2fs_destroy_node_manager()
-         87a91a155902f2b652e272ad3ba4de3486af9229 f2fs: only set release for file that has compressed data
-         a6ec83786ab9f13f25fb18166dee908845713a95 f2fs: fix to do sanity check on direct node in truncate_dnode()
-         
+  - ref: refs/tags/sysctl-fixes-v2-v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2ccf5906bcd9399d92690efbce0e1e8dfd14c26e
