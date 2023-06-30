@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4370673622177618501=="
+Content-Type: multipart/mixed; boundary="===============1257808379640796124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 30 Jun 2023 15:20:57 -0000
-Message-Id: <168813845796.31725.4455324111712277423@gitolite.kernel.org>
+Date: Fri, 30 Jun 2023 15:21:33 -0000
+Message-Id: <168813849387.32046.7080755345460811086@gitolite.kernel.org>
 
---===============4370673622177618501==
+--===============1257808379640796124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5998bb7642bfc984b2305dd4e37e085a2f654477
-    new: 08fc75735fda3be97194bfbf3c899c87abb3d0fe
-    log: revlist-5998bb7642bf-08fc75735fda.txt
+  - ref: refs/heads/dev-queue
+    old: 5cfd2883b7c45f86618545a5a573b39a250beca0
+    new: f70af5d1aab699a3a7c9d29111de6a98d6d1ebc1
+    log: revlist-5cfd2883b7c4-f70af5d1aab6.txt
 
---===============4370673622177618501==
+--===============1257808379640796124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5998bb7642bf-08fc75735fda.txt
+Content-Disposition: attachment; filename=revlist-5cfd2883b7c4-f70af5d1aab6.txt
 
 046f753da6143ee16452966915087ec8b0de3c70 Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
 bb23f07cb63975968bbabe314486e2b087234fc5 Bluetooth: btrtl: Add missing MODULE_FIRMWARE declarations
@@ -48,5 +48,29 @@ fa01eba11f0e57c767a5eab5291c7a01407a00be Bluetooth: btusb: Add MT7922 bluetooth 
 48538ccb825b05544ec308a509e2cc9c013402db ibmvnic: Do not reset dql stats on NON_FATAL err
 3cf62c8177adb0db9e15c8b898c44f997acf3ebf net: dsa: vsc73xx: fix MTU configuration
 08fc75735fda3be97194bfbf3c899c87abb3d0fe mlxsw: minimal: fix potential memory leak in mlxsw_m_linecards_init
+ca8a2ea0ed2c3716f7e14d16358e56b8eb8d1966 iavf: Fix use-after-free in free_netdev
+1f3b208f11b6c786fafcea8003b0f0078599b8f3 iavf: Fix out-of-bounds when setting channels on remove
+c621e7ff0fc6ed7e952462adaddcdab217eb6bd9 igc: Add condition for qbv_config_change_errors counter
+b598163eb7b9417ae64eb9d44d91850580172159 igc: Remove delay during TX ring configuration
+72019e93de95c2a8b5655bc22d8cb952911ed797 iavf: use internal state to free traffic IRQs
+04368e338c4f1e8357d40ffb3c5c80db21a1cf9b igc: Fix TX Hang issue when QBV Gate is closed
+bc5e9bb46385d3b43b218b5b783f9d8ecba342d8 iavf: Wait for reset in callbacks which trigger it
+25063cf6999e228fba61454da57e7c80104d4852 Revert "iavf: Detach device during reset task"
+d60c60baa51ae7a4c58ae7d3d189da3669bf2d27 Revert "iavf: Do not restart Tx queues after reset task failure"
+dbf1544867d7f79314d3f74d6f49e2a8243bb2a4 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+d734df2798904c66489c26d73a5cc226a30573f0 iavf: fix reset task race with iavf_remove()
+dd8d65486c594c46aedafa01f09dcb5eb53c52f8 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+bcb56d87a6b0e7f354ee14e8749cbdc8baac4c57 igb: fix hang issue of AER error during resume
+20e267a1394c1407c8808e3afc56507241922917 igc: Include the length/type field and VLAN tag in queueMaxSDU
+822e258a9c5e2ef1b4fd260073f1c68c59fc5ebe ice: Fix max_rate check while configuring TX rate limits
+4435dbe457b5a9b55205207857601431852c0d37 ice: Fix tx queue rate limit when TCs are configured
+5a6595d5e280ff48c8a80f7432bbbb22f5f94114 igc: Handle PPS start time programming for past time values
+ee0b4b5ead34c4be1cfca6dd0c436c7c4d0354fe igc: Rename qbv_enable to taprio_offload_enable
+891dbfdcf9559d9b72b25f4ae73dcaf64994ad80 igc: Do not enable taprio offload for invalid arguments
+1f8e4b4182026c3b111b89732de783a919594238 igc: Handle already enabled taprio offload for basetime 0
+95e9592b1689091557dee864278f5e9f4632c9e2 igc: No strict mode in pure launchtime/CBS offload
+701ae460eaa6c5956303cb308a6f50d9611cc81e igc: Fix launchtime before start of cycle
+2d4f8573f6234ea44f308ef0bad8ed301e68c905 igc: Fix inserting of empty frame for launchtime
+f70af5d1aab699a3a7c9d29111de6a98d6d1ebc1 igc: Fix Kernel Panic during ndo_tx_timeout callback
 
---===============4370673622177618501==--
+--===============1257808379640796124==--
