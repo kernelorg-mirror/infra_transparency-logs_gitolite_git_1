@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 30 Jun 2023 19:30:16 -0000
-Message-Id: <168815341626.17890.11823770229779341174@gitolite.kernel.org>
+Date: Fri, 30 Jun 2023 19:39:33 -0000
+Message-Id: <168815397369.24044.5585838658686066857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,10 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 539c7e67aa4a170eea9a401464ec72a18a795a30
-    new: 2d2c95162de8fc6875c9c3d39f83527ae28e2e8a
+    old: 2d2c95162de8fc6875c9c3d39f83527ae28e2e8a
+    new: c20f9cef725bc6b19efe372696e8000fb5af0d46
     log: |
-         2d2c95162de8fc6875c9c3d39f83527ae28e2e8a libbpf: Skip modules BTF loading when CAP_SYS_ADMIN is missing
+         52364abb10b57074bf724ee2032e688180ed8bde libbpf: Add netfilter link attach helper
+         a94098d490e17d652770f2309fcb9b46bc4cf864 selftests/bpf: Add bpf_program__attach_netfilter helper test
+         c20f9cef725bc6b19efe372696e8000fb5af0d46 Merge branch 'libbpf: add netfilter link attach helper'
          
