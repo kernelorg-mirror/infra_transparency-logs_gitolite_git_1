@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0604928296493659677=="
+Content-Type: multipart/mixed; boundary="===============6454953771886636723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 30 Jun 2023 07:21:08 -0000
-Message-Id: <168810966887.26870.16572958049920515684@gitolite.kernel.org>
+Date: Fri, 30 Jun 2023 07:21:26 -0000
+Message-Id: <168810968699.27070.14521579221794636797@gitolite.kernel.org>
 
---===============0604928296493659677==
+--===============6454953771886636723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,79 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.4.y
-    old: 58829da6dfe868041531e1de5bc055e3f48424be
-    new: 94976aa9d87c63c78bc4d660382977fcf89d2921
-    log: revlist-58829da6dfe8-94976aa9d87c.txt
+  - ref: refs/heads/linux-6.3.y
+    old: e236789dc3290589a4174f62aa580a645b94ef00
+    new: 45e606c9f23d18a36b9c799e8b7d2cf5bf750021
+    log: revlist-e236789dc329-45e606c9f23d.txt
 
---===============0604928296493659677==
+--===============6454953771886636723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688109666 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688109685 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1688109663-e8af70edc8b67ed6fbec48c6327bb1e4b88bd7aa
+nonce 1688109683-ec3b01715f7b75fab2d204ebc153c50e9e7daa7a
 
-58829da6dfe868041531e1de5bc055e3f48424be 94976aa9d87c63c78bc4d660382977fcf89d2921 refs/heads/linux-6.4.y
+e236789dc3290589a4174f62aa580a645b94ef00 45e606c9f23d18a36b9c799e8b7d2cf5bf750021 refs/heads/linux-6.3.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSegmMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3D8P/Ai8fC3HKtrD19WZ/8Id
-DfYTpL9ATIAmn2II3oldzmDaZW0/DNLKBC5E41M3zuXayazr46qkRAMZaAH/Odng
-dTP9SiA31JRBSTQ+9rYxMWHRrTWtpsJQBmXGhwhaSxo5Dkc5xPOVVtdcTYGyK9/+
-wH3SwqmZDCqr0P1OrQlNshQ+CLlbZ+19hv85y/SVCXX1ns7NOCCzsNqPgXviBWPx
-c9/w/QN7/j/IshGHx8yTQ0diurYtS39xncS+NQY1DeE1/9WE1KSq80wHqaiR6HsG
-X6IXuSxTPlh6M5k0srqIAgPfE60hOuRFKp10h2LLMgEGzU/dVRc9LmEDL4flm+GG
-4khj1b1FxPlqnQq3NiySRpbRbf13phsIWIL3gfA2s+KU6IvH9BVNaVURclwSCPVs
-iy5vXtH77KZfs0YqYzSPJzDVzmfMmqXcre5ys6cEu6nb0H9v/onveMjjNLx8LCXN
-ic7Vzxqt5ct2RU2MvN2FzqWh8/FZqbSSFK3egcdwXJWGNe9nUQV/dbkFypxR975e
-1D0N3vZIUGs5bzpOQbkg8msXywyRs/kT2pLAkidqafJarrRGxNcW4/KHiLyJN6fU
-TCZ2Cld9Vd1XqJ91tbUz+WLchSpANSyhFoMrZV+P4ljH+YXc+S80xWCbL2VE3VxQ
-HbfdVffpaNT2PJoJzyM/C416
-=XK2U
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSegnUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z5QP/1XOhSKmildCQMKUxpfy
+TH5xLYQNT9NPz5HcvEcTw5jsjjI9d9tGcMH01V9FDsraboa94v8ZhBY83kouyJqn
+IrGqa75cLnEvSzvJyxN4ckyTED2+Y6Ug9o6TB6/PZrcV/L8/ofr8JLLJYnT8RniV
+QKrjSIGJa84kCmvmP9fkC5OZf62g0ep2Afvwu6u/fVSiBZ24zPqgz2OPbh5pVaOU
+hXVATOoPT+QMdbHXrdgOdkSYM+WhTFtsWX9+qIm9kdoSDcZfEwIKUgI7gdtETRFU
+Di3+HuiPBWacATAC06ncCg3cQ0SS3glgiNF5bI8LFHhgKx/SfBnZkbXH/Q7rUE8N
+PxWd/fAnFYQIXjtUNeuUHPIMulcpaoyByTmOgU7kjKlxX0T9qosEUKj4D2iHzf6P
+4mpR9V3VcVdSn57vz2FdglpBNQmvGaEqb88p5C8/E5zxsb00N/Hz9GgAO+cZ+f0G
+1/07PPVYfqEB+6G9bnDupYZFDVYqoNEMEuGf//v+hG4UH8W8+vF56L6q++g+ZvfU
+01qNazmuhAcosdaighJh3IFvz9y8v7N/Yr5q8NT2s4RzsFTOLU4iUEpQH+xNV8dq
+RW34QVyQpP0P8/9j54aCm7VDokIdhS6FziYAJAGUxBvOkphrrWiYVS+xs17EmsSD
+dJm1ObMbGl4MEkxSCUBpk9gU
+=tjcn
 -----END PGP SIGNATURE-----
 
---===============0604928296493659677==
+--===============6454953771886636723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58829da6dfe8-94976aa9d87c.txt
+Content-Disposition: attachment; filename=revlist-e236789dc329-45e606c9f23d.txt
 
-025ec6e7e8419634c00fde6e9d4cfbf343a16c58 x86/microcode/AMD: Load late on both threads too
-f823a2eb228863037b1036b31bc575f439125624 x86/smp: Make stop_other_cpus() more robust
-e217cec9dc745113cd2991869fff6c7936531b75 x86/smp: Dont access non-existing CPUID leaf
-81fb3a6ad6388f17cee72c636d864da59701a501 x86/smp: Remove pointless wmb()s from native_stop_other_cpus()
-77e639b25203464c04750fdff89f16a0de129bbe x86/smp: Use dedicated cache-line for mwait_play_dead()
-99e0821f01e5b031ec16ebeb18d3dc1f9acbde39 x86/smp: Cure kexec() vs. mwait_play_dead() breakage
-283b8096d098e896860052fa2de111baaac86eab cpufreq: amd-pstate: Make amd-pstate EPP driver name hyphenated
-8361a4af306f85b62cf569e3cb63cdf0d9a54815 can: isotp: isotp_sendmsg(): fix return error fix on TX path
-e35aa60212a756fc536833d87c001a85405a6771 maple_tree: fix potential out-of-bounds access in mas_wr_end_piv()
-4cea0e1b437ae3a35b2f41c645f5bb878566137d mm: introduce new 'lock_mm_and_find_vma()' page fault helper
-ca61514ec019819f3f60d6712864398c85353aba mm: make the page fault mmap locking killable
-969b6d451fe60ed3768422fb2337fd01d918be02 arm64/mm: Convert to using lock_mm_and_find_vma()
-3ba874e3dacf1ac73acd72bd96365750587cface powerpc/mm: Convert to using lock_mm_and_find_vma()
-f01d7fc774b02903ccf1f351d4d6950f7b5abdef mips/mm: Convert to using lock_mm_and_find_vma()
-9c4d88201fdb4b541c9731c876ffa82b0b1f82df riscv/mm: Convert to using lock_mm_and_find_vma()
-2892d321d08d751c193f7ea003247d52973b2323 arm/mm: Convert to using lock_mm_and_find_vma()
-8d2be08b8536b6e5814a45e4f7273171a1ab0ad5 mm/fault: convert remaining simple cases to lock_mm_and_find_vma()
-19062e84ea42a3c1666bacbdf14a24a2563147db powerpc/mm: convert coprocessor fault to lock_mm_and_find_vma()
-2cdc066ba25adace667d792862ffea1f096187de mm: make find_extend_vma() fail if write lock not held
-b5954e0e698703e28501e15bc09b5eba39024e7d execve: expand new process stack manually ahead of time
-2d6c522bbe47139352f02e40a4c334ea67b0fda1 mm: always expand the stack with the mmap write lock held
-f70d99ce782ef0420a47545fc4a2104c12bfc42f HID: wacom: Use ktime_t rather than int when dealing with timestamps
-ce6986456116faecc4b462a9fce90a5646749237 gup: add warning if some caller would seem to want stack expansion
-ccbfd561924ffd5d5fcf92126ccf8c494b7b150f mm/khugepaged: fix regression in collapse_file()
-764f5cb5ce0223d4ddcb96f98617214f1a2aab51 fbdev: fix potential OOB read in fast_imageblit()
-436d5fc578903913886cf2f10360b2c955651956 HID: hidraw: fix data race on device refcount
-607fbfe6ee5fe1c401e2e83f396069cfa1be7a7f HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
-0708f77142e1e8d5a6cb84d1bfeacae0a85fdbfa Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
-c65cf9d4a22b29711c3f598688cdea7cc9a8ab61 sparc32: fix lock_mm_and_find_vma() conversion
-7b62c5e23d451263ad5ce532e70f3c412322f912 parisc: fix expand_stack() conversion
-522ac85f3bd39a1204c2d097ed60f45ec85c6891 csky: fix up lock_mm_and_find_vma() conversion
-94976aa9d87c63c78bc4d660382977fcf89d2921 Linux 6.4.1-rc3
+10136b7a86a70990deabfc97f09e1969f41e0c38 mm/mmap: Fix error path in do_vmi_align_munmap()
+35e6378e2c93724b19ff8e177adb08747338463d mm/mmap: Fix error return in do_vmi_align_munmap()
+2648ece614f6c98ea78484646d8197c92de04ec3 x86/microcode/AMD: Load late on both threads too
+69befc6637dff3699d989c500d9ef91a093d4476 x86/smp: Make stop_other_cpus() more robust
+e35cdb9416256447ddf407c4cdfacd4dacfb8fdb x86/smp: Dont access non-existing CPUID leaf
+5e9fd5eda65feb05b229e4f43205f171d44a95f8 x86/smp: Remove pointless wmb()s from native_stop_other_cpus()
+7446ab38d28869e3ad48c82789f0c5b761e8c2b5 x86/smp: Use dedicated cache-line for mwait_play_dead()
+f7a1ca62d343ad5459f7fbfe7d9bee6910f3e89f x86/smp: Cure kexec() vs. mwait_play_dead() breakage
+7cb63d28cd6187843fae866ad7c59c50f893039d cpufreq: amd-pstate: Make amd-pstate EPP driver name hyphenated
+8e20505b2572c0192f62a13fe73f9a1f067806b0 can: isotp: isotp_sendmsg(): fix return error fix on TX path
+6ba5afbac7e2dd8be26c609a20b776e3a427c4a2 maple_tree: fix potential out-of-bounds access in mas_wr_end_piv()
+cb89a9bf943c65a503f690f9dd89bbc8857b7ff0 mm: introduce new 'lock_mm_and_find_vma()' page fault helper
+755ab73c98f648f08088d66c72dc001afb25571d mm: make the page fault mmap locking killable
+a54977e770480e36ce36085291ed4ccc48e26486 arm64/mm: Convert to using lock_mm_and_find_vma()
+3d47f30d275eccbed36f3f1154daea9d441178c6 powerpc/mm: Convert to using lock_mm_and_find_vma()
+ae3d649816211a99d28c8fa922989d1f4be17f28 mips/mm: Convert to using lock_mm_and_find_vma()
+5cb2ee98aef37a3d920deed0f944e243c72036bb riscv/mm: Convert to using lock_mm_and_find_vma()
+ce50883f2d7d928cade8bb71402c16dec8d5cf04 arm/mm: Convert to using lock_mm_and_find_vma()
+e9d8eb8eaf37111091ba2028fd55252211790043 mm/fault: convert remaining simple cases to lock_mm_and_find_vma()
+ce8d245dd925b1be2cba7598136ed0451cfaa150 powerpc/mm: convert coprocessor fault to lock_mm_and_find_vma()
+097719d3e89ab0e1fb871e0ab7d5331fd855f741 mm: make find_extend_vma() fail if write lock not held
+a8d94adba9b55e6149df7029716f94f3a608f856 execve: expand new process stack manually ahead of time
+d93312b8626da1061d67dffa821b1456c8389d51 mm: always expand the stack with the mmap write lock held
+f64243bcdc12b3aaf36cf0bce3f067d9a7d26396 gup: add warning if some caller would seem to want stack expansion
+e8f039f5657d6e928c89b7f257d28e934d3a8c8e fbdev: fix potential OOB read in fast_imageblit()
+b75de8ee3f451065ae6dd68198c43be80c723607 HID: hidraw: fix data race on device refcount
+59c8debd2a244408194796431aea5ddbf5d53136 HID: wacom: Use ktime_t rather than int when dealing with timestamps
+cdb8a665301c312401fd00682067816feea21275 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+3346f6fb7b3b04fb5b2c3b71c5cca702cb2782b2 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
+841b0fae335db973327e06791f566abc6bfb6cd9 sparc32: fix lock_mm_and_find_vma() conversion
+16e811c139c45b560764f0ed8c60bddea9b25311 parisc: fix expand_stack() conversion
+789cbf8099fd450ad4fa17d96074d5c79dc97439 csky: fix up lock_mm_and_find_vma() conversion
+45e606c9f23d18a36b9c799e8b7d2cf5bf750021 Linux 6.3.11-rc4
 
---===============0604928296493659677==--
+--===============6454953771886636723==--
