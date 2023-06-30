@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 30 Jun 2023 08:03:04 -0000
-Message-Id: <168811218415.25342.5151321824818250283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 30 Jun 2023 08:09:36 -0000
+Message-Id: <168811257648.30539.4055320894608013027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/testing
-    old: 3a8a670eeeaa40d87bd38a587438952741980c18
-    new: 75065a8929069bc93181848818e23f147a73f83a
+  - ref: refs/heads/master
+    old: 58c08ed19deb183cf7532ba8881450be9be1d93c
+    new: d4b9d89f449128fe6d7571a7ba901c7c9df37b2e
     log: |
-         dfa73c17d55b921e1d4e154976de35317e43a93a net: xfrm: Fix xfrm_address_filter OOB read
-         75065a8929069bc93181848818e23f147a73f83a net: af_key: fix sadb_x_filter validation
+         d4b9d89f449128fe6d7571a7ba901c7c9df37b2e Release 5.67
          
