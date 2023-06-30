@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 30 Jun 2023 10:13:15 -0000
-Message-Id: <168811999531.4320.12673723353633250329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 30 Jun 2023 10:19:40 -0000
+Message-Id: <168812038000.8194.12550317173628169228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 0cb419c2a64ade774d17625953f96c7ddde8a162
+  - ref: refs/heads/v6.4-armsoc/dtsfixes
+    old: 568a67e742dfa90b19a23305317164c5c350b71e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.4-rockchip-dtsfixes1
+    old: 5357fec65513a9b48024d022fe4a926ef7d5af05
+    new: 0000000000000000000000000000000000000000
