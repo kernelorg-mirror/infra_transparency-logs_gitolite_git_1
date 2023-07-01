@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 01 Jul 2023 18:47:46 -0000
-Message-Id: <168823726696.5413.13821181389268560414@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6772617800645856116=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 01 Jul 2023 19:38:58 -0000
+Message-Id: <168824033885.9692.15433928700635909639@gitolite.kernel.org>
+
+--===============6772617800645856116==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 887e845f8c1ce5b031dbad95d22e56f2e61bb35c
-    new: 5f06267b6e6a10dd0cac4eb248fcc51f18c260cc
+  - ref: refs/heads/master
+    old: aa686e5b5d6816a6dea01b89cb24c620e7e048e3
+    new: 7089568c7f846a3a03a9a4ed2f48b8a1174f6169
     log: |
-         7b83d597c8cab98caf18e2a3e2198c33068fcbad perf lock: Remove stale comments
-         69c5c9930d722dee4312a7427f89733bfb4bf984 perf lock contention: Add -x option for CSV style output
-         f6027053f82c9b533bb306bff64e4e8c8f92e9e4 perf lock contention: Add --output option
-         2aefb4cc904f17aad03acc3e05f44cef7801c497 perf test: Test perf lock contention CSV output
-         78a175c4623f66722709494295a0f6754b46f858 perf symbol: Fix uninitialized return value in symbols__find_by_name()
-         5f06267b6e6a10dd0cac4eb248fcc51f18c260cc perf: unwind: Fix symfs with libdw
+         7089568c7f846a3a03a9a4ed2f48b8a1174f6169 6.1-stable patches
          
+
+--===============6772617800645856116==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688240337 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1688240337-d6c916d178c3faa216b29cc5ae22a351520907ff
+
+aa686e5b5d6816a6dea01b89cb24c620e7e048e3 7089568c7f846a3a03a9a4ed2f48b8a1174f6169 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSggNIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fbMP/jOVUT7VshQ/dNBqqbP4
+WaXYxmmXK20kk2XiVBjmtikMI2+ktyUN4ApLIUzye0pMo8TXDhzwODOO8VCfecjk
+JZuzkAGx8ybDI65vxSnTWxLConu7hPI2gzaKpyhWILOug0C002zHNLqwIbvNR/5U
+Q8ItPj68OlYxH80pyp/+lZ4Y4BwvDoC96Ynz9mlNzgqyGap5j3VTg97MJSrXXRgK
+PSp2U1dUQ55KDzWR8l5Uo2810ppeBW7xtnh6XruOEn4ZIO4tblQnTAcgZZgncFde
+IlAjvePDVvklC8My8a1U5Om8fTTIEYg9332Jqgoi4vh4USpUEpShlkBgbh+omGor
+8PkPpGjMrlnknx2NkRS1CUNflZnCInXvlyXkQaNE8zO5siiJUthCDMGcuIRrsOU6
+rAWYtzW6r3bXwg8O1RfK8ChImtHm2Yi5nT0qXgLtLn0f86prXAe65z8lCjup091e
+b7BsoQDTtDLWhfAAC+KsegG0FCuxeDpOTQ/8Fn32Z0fBxDrIDk49P/qxo3zvlPUg
+/70Qo71JyXtF5Z1vw2MAI5lpWkHY23nmfzQ+dRflO1Ktl36wyK/9QLz4zBWF9Wy0
+WerFEJQlDz3jSwiYl78d95SDsyQSsqzrfd47wEKqlAtCE6ZGNmOoqV1groSxFxeu
+74A83MpXRpHoK32UPhINosz7
+=4GcV
+-----END PGP SIGNATURE-----
+
+--===============6772617800645856116==--
