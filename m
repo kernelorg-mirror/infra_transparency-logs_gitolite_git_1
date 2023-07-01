@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1314112475919524337=="
+Content-Type: multipart/mixed; boundary="===============1699570496797987711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 01 Jul 2023 15:27:51 -0000
-Message-Id: <168822527160.24277.1483531835339302022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 01 Jul 2023 15:28:02 -0000
+Message-Id: <168822528279.24420.861421270791613612@gitolite.kernel.org>
 
---===============1314112475919524337==
+--===============1699570496797987711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 533925cb760431cb496a8c965cfd765a1a21d37e
     log: revlist-b104dbedbe61-533925cb7604.txt
 
---===============1314112475919524337==
+--===============1699570496797987711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b69f0aeb068980af983d399deafc7477cec8bc04 pid: Replace struct pid 1-element array
 d8b0bd57c2d68eb500f356f0f9228e6183da94ae Merge tag 'powerpc-6.5-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 533925cb760431cb496a8c965cfd765a1a21d37e Merge tag 'riscv-for-linus-6.5-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============1314112475919524337==--
+--===============1699570496797987711==--
