@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 02 Jul 2023 01:01:38 -0000
-Message-Id: <168825969809.12398.6771395613983359369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 02 Jul 2023 04:13:34 -0000
+Message-Id: <168827121438.20163.847242291604973142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 5f06267b6e6a10dd0cac4eb248fcc51f18c260cc
-    new: b2ad9549bfd0c1f74287492a9d9a31a03c97f088
+  - ref: refs/heads/master
+    old: dfab92f27c600fea3cadc6e2cb39f092024e1fef
+    new: 995b406c7e972fab181a4bb57f3b95e59b8e5bf3
     log: |
-         b2ad9549bfd0c1f74287492a9d9a31a03c97f088 perf evsel amd: Fix IBS error message
+         dd64621a2a97798d5df40028238a703d4324036b csky: uprobes: Restore thread.trap_no
+         995b406c7e972fab181a4bb57f3b95e59b8e5bf3 Merge tag 'csky-for-linus-6.5' of https://github.com/c-sky/csky-linux
          
