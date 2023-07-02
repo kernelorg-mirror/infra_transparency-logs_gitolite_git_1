@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sun, 02 Jul 2023 10:42:04 -0000
-Message-Id: <168829452444.19762.7495155336009662739@gitolite.kernel.org>
+Date: Sun, 02 Jul 2023 11:16:28 -0000
+Message-Id: <168829658814.12101.15823467111730240755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/tags/v6.5/vfs.fixes
-    old: 0000000000000000000000000000000000000000
-    new: eec0a72d311104cb9b91e5fd6ae2ca5c54731533
+  - ref: refs/heads/vfs.fixes
+    old: 0ed645e2a86c07f0b5fc6e196346cb195e630e3c
+    new: dff745c1221a402b4921d54f292288373cff500c
+    log: |
+         dff745c1221a402b4921d54f292288373cff500c fs: move cleanup from init_file() into its callers
+         
