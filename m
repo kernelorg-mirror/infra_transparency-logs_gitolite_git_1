@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6707006013147812935=="
+Content-Type: multipart/mixed; boundary="===============3760630912208761726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 02 Jul 2023 00:08:21 -0000
-Message-Id: <168825650177.7267.13730346201712364594@gitolite.kernel.org>
+Date: Sun, 02 Jul 2023 00:19:05 -0000
+Message-Id: <168825714500.14195.12058467830364343953@gitolite.kernel.org>
 
---===============6707006013147812935==
+--===============3760630912208761726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: f1fcbaa18b28dec10281551dfe6ed3a3ed80e3d6
     new: dfab92f27c600fea3cadc6e2cb39f092024e1fef
     log: revlist-f1fcbaa18b28-dfab92f27c60.txt
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/tags/v6.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
 
---===============6707006013147812935==
+--===============3760630912208761726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1069,4 @@ ad2885979ea6657fa8d3da51a301ec0e998ad8e7 Merge tag 'kbuild-v6.5' of git://git.ke
 f8566aa4f1766bb0267b7a0ed89c1d2c4a82ee1a Merge tag 'x86-urgent-2023-07-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dfab92f27c600fea3cadc6e2cb39f092024e1fef Merge tag 'nfs-for-6.5-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============6707006013147812935==--
+--===============3760630912208761726==--
