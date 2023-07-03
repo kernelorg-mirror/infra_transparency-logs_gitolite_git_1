@@ -1,50 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============8821185229161011496=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 03 Jul 2023 15:14:17 -0000
-Message-Id: <168839725707.3912.11952142604355675786@gitolite.kernel.org>
-
---===============8821185229161011496==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 03 Jul 2023 15:14:30 -0000
+Message-Id: <168839727042.4106.11276143821632573571@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
-    old: 7c1f23ad34fcdace50275a6aa1e1969b41c6233f
-    new: e1ef683c86d248e785499779156d9885fd4e85fc
+  - ref: refs/heads/for-linus
+    old: 1d7a58b4ed422f67cab053f48ff8de1243941086
+    new: 3e54d9e1cb213e3694add66c77f71ff87c49bc05
     log: |
-         e1ef683c86d248e785499779156d9885fd4e85fc spi: rzv2m-csi: Fix SoC product name
+         e5ce198bd5c6923b6a51e1493b1401f84c24b26d ASoC: codecs: wcd938x: fix mbhc impedance loglevel
+         5db9fe9562aaefca3c972401a9e3d6454707b1d5 ASoC: codecs: wcd938x: drop inline keywords
+         17d59d9ed832742f9572fe5e77ed3a66f5ae404d ASoC: codecs: wcd938x: use dev_printk() for impedance logging
+         cb7d60ab98cfe12fdd6052142176d42682f78540 ASoC: codecs: wcd934x: demote impedance printk
+         c93723ada378a63929b3135b4f30483383e88e05 ASoC: codecs: wcd934x: drop inline keywords
+         055509cdfd018cc6cd793593df916f1cf4f83d84 ASoC: codecs: wcd938x/wcd934x: loglevel fix and
+         3e54d9e1cb213e3694add66c77f71ff87c49bc05 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
          
-
---===============8821185229161011496==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1688397255 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1688397255-a6ea4682df3cfffddcdcc9d45eec6ae8315ca157
-
-7c1f23ad34fcdace50275a6aa1e1969b41c6233f e1ef683c86d248e785499779156d9885fd4e85fc refs/heads/for-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSi5ccACgkQJNaLcl1U
-h9AAqAf9EdDWQhPbJPiX/aZ5ZG54QR5V1JKlcaFCkXmF7dzDvD0R5Dynj0zlki3i
-tPgq0wG4rlb5s9KrxhD5f1sX2M1t0I8T4aDB4O3jKnRjtI2mThy/4AG0rW1tS/C8
-BcBw3h2PYMWKDXZlLUkkzx7Bz8HzJdHBtEvHVr43Lj0Lu1YQJavfCR6ouoDUv2U1
-UoNgvIWSjA2Uf/JP2Awtl5klyQnBKDtGgbExEiYE9JmnDCPXwlNBcnlXP5lg2QxG
-ux4s18HBYFan/MFBaAsrp6mK3InI/qggZJMVC7IeObiVQAStHMpoeYz6fAu8+CMS
-m3NsrOaKZXdO45IMwoHQsWx9eIoSFA==
-=uy0C
------END PGP SIGNATURE-----
-
---===============8821185229161011496==--
+  - ref: refs/heads/for-next
+    old: 1d7a58b4ed422f67cab053f48ff8de1243941086
+    new: 3e54d9e1cb213e3694add66c77f71ff87c49bc05
+    log: |
+         e5ce198bd5c6923b6a51e1493b1401f84c24b26d ASoC: codecs: wcd938x: fix mbhc impedance loglevel
+         5db9fe9562aaefca3c972401a9e3d6454707b1d5 ASoC: codecs: wcd938x: drop inline keywords
+         17d59d9ed832742f9572fe5e77ed3a66f5ae404d ASoC: codecs: wcd938x: use dev_printk() for impedance logging
+         cb7d60ab98cfe12fdd6052142176d42682f78540 ASoC: codecs: wcd934x: demote impedance printk
+         c93723ada378a63929b3135b4f30483383e88e05 ASoC: codecs: wcd934x: drop inline keywords
+         055509cdfd018cc6cd793593df916f1cf4f83d84 ASoC: codecs: wcd938x/wcd934x: loglevel fix and
+         3e54d9e1cb213e3694add66c77f71ff87c49bc05 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
