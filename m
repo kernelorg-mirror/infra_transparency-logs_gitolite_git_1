@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4578237252255973674=="
+Content-Type: multipart/mixed; boundary="===============7718266572930209527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Jul 2023 16:34:52 -0000
-Message-Id: <168840209252.30073.4611811072562760929@gitolite.kernel.org>
+Date: Mon, 03 Jul 2023 16:35:25 -0000
+Message-Id: <168840212562.31898.9077519279346585198@gitolite.kernel.org>
 
---===============4578237252255973674==
+--===============7718266572930209527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-fgt
-    old: 706fb8ad3a325c18c97a0b8042ac9afec14c4eea
-    new: 8b9fec5402a507b33d5b8aaaac6595d15fb4a216
-    log: revlist-706fb8ad3a32-8b9fec5402a5.txt
+  - ref: refs/heads/kvm-arm64-test-mte-regs
+    old: 4e3e16ebd056b6bfe38dbd7c2acb22f2421ea576
+    new: 94ee17fa5d5acde9e85c722dd319a822250789b0
+    log: revlist-4e3e16ebd056-94ee17fa5d5a.txt
 
---===============4578237252255973674==
+--===============7718266572930209527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-706fb8ad3a32-8b9fec5402a5.txt
+Content-Disposition: attachment; filename=revlist-4e3e16ebd056-94ee17fa5d5a.txt
 
+abac3ac97fe8734b620e7322a116450d7f90aa43 batman-adv: Broken sync while rescheduling delayed work
 45c2f36871955b51b4ce083c447388d8c72d6b91 btrfs: call btrfs_orig_bbio_end_io in btrfs_end_bio_work
 8fd9f4232d8152c650fd15127f533a0f6d0a4b2b btrfs: fix an uninitialized variable warning in btrfs_log_inode
 5ad9b4719fc9bc4715c7e19875a962095b0577e7 btrfs: fix csum_tree_block page iteration to avoid tripping on -Werror=array-bounds
@@ -1047,8 +1048,7 @@ a92b7d26c743b9dc06d520f863d624e94978a1d9 Merge tag 'drm-fixes-2023-06-23' of git
 547cc9be86f4c51c51fd429ace6c2e1ef9050d15 Merge tag 'perf_urgent_for_v6.4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e3b2e2c14bcc12da2c463a7179db39139f682573 Merge tag 'i2c-for-6.4-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6995e2de6891c724bfeb2db33d7b87775f913ad1 Linux 6.4
-458cbf0829e1d072dc495996c31300a648301889 Changes in v5: - EDITME: describe what is new in this series revision. - EDITME: use bulletpoints and terse descriptions. - Link to v4: https://lore.kernel.org/r/20230301-kvm-arm64-fgt-v4-0-1bf8d235ac1f@kernel.org
-5032c5b19cc724ac6ac8cce14df7d0a8a604f9ea arm64: Add feature detection for fine grained traps
-8b9fec5402a507b33d5b8aaaac6595d15fb4a216 KVM: arm64: Move FGT value configuration to vCPU state
+6cfdd055af8fc3424b94ba136ea0bbf15c6b3bc4 # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself.
+94ee17fa5d5acde9e85c722dd319a822250789b0 KVM: selftests: Add coverage of MTE system registers
 
---===============4578237252255973674==--
+--===============7718266572930209527==--
