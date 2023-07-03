@@ -1,25 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 03 Jul 2023 09:39:23 -0000
-Message-Id: <168837716340.28937.12271332811960979247@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0254429030499906734=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 03 Jul 2023 10:01:04 -0000
+Message-Id: <168837846494.5415.2431581116122492330@gitolite.kernel.org>
+
+--===============0254429030499906734==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
-    new: 76483eaf2109fc3d94f29c68ff9dee6579e95ccf
-    log: |
-         cb3f4e8cacfa7b32ed8b9dff1282c0d4aaf42e88 dt-bindings: arm: amlogic: add C3 bindings
-         c2258a94fae556797085b58c0b6839c41826bd3d arm64: dts: amlogic: add missing cache properties
-         02310be6f080071e1b9e2021fd6dd655bd842aad arm64: dts: add support for C3 based Amlogic AW409
-         19f1263230b6c665d950d63290de6648ed81e0a9 dt-bindings: arm: amlogic: add Amlogic A311D2 bindings
-         419b6066cf1ff2a5f29edf565d5ece55fceb4230 arm64: dts: amlogic-t7-a311d2-khadas-vim4: add initial device-tree
-         75831c457ea135e01259af8bfa3fcf40c244256c arm64: dts: amlogic: minor whitespace cleanup around '='
-         76483eaf2109fc3d94f29c68ff9dee6579e95ccf Merge branch 'v6.6/arm64-dt' into for-next
-         
+  - ref: refs/tags/usb-6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c29ef8b5f1c1554a82c367f5267c7ef190a3734c
+
+--===============0254429030499906734==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688378461 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1688378460-ef835ac5c37d51746e42bd2ac76b0568fbdb1c2c
+
+0000000000000000000000000000000000000000 c29ef8b5f1c1554a82c367f5267c7ef190a3734c refs/tags/usb-6.5-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSinF0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IkAQAJbLEyJs3/lvrX+sElql
+8FCtySEeOKrQujPl593STG+gC4aeWVcWSMu4GiO069HZT9rxUL57lXfuKjzmsLyH
+o7HZ7xOcZlCf+ML70OjjOxU8BCAhtDZ94Fn9r95lmLzLXzhBANJljeT79GYPMSS/
+VrCxjKQrq7ozqZerlLUqEr/zoUxcdBK7NWnWskO+GiZnHV5Nf1LkpZzyEjFRf1UA
+eW0L8sE8N+bG8PnYoFtBMDo4HvEj6+ae2g0igpshY7tM7TKdVr/P8yg28U6fqROa
+fDMllQp8VWI20jtCmI9vCajK6f+1ba7pDcvrXdnDK1HYZbEB9SYw33i3VD+xbHeT
+4DHra7Tg31HAjvJxeuEuPWcy1Qw3dnLo4zi4/Vpd17qhgp7Nvr5278LRJj/n04YS
+QqjB65hjLyYMGjVRC+P4SNv8AXAEOEoSSsgpG93J3Cf+TU/YuYovUskwJ59hNg3o
+cwGdriVieBJP2XLshH8BDVYvaNf+tqZMjG2+03/ro/kx9aNomuD5RVP2iDAfD5cl
+hVBGHNXSxNAOdAGgeM4xbnL/lmo2Eydv6mOEOkdlU5OZN77RKbxbfc/DP2e6Mb2j
+hoFxB6918Nont7xZcW9b9h3NgCscWcnLqXuUSmYz6bvTYwluNjMM15uozjFSAj/h
++fBj1LvBAtSzQ/Qdlk0S84TN
+=gIe6
+-----END PGP SIGNATURE-----
+
+--===============0254429030499906734==--
