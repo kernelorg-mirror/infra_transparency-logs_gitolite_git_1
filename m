@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Jul 2023 13:29:37 -0000
-Message-Id: <168839097731.24819.14331726152735016455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 03 Jul 2023 14:07:20 -0000
+Message-Id: <168839324035.19933.2229055728808542571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/fileKDc408
-    old: 0000000000000000000000000000000000000000
-    new: e1ef683c86d248e785499779156d9885fd4e85fc
-  - ref: refs/heads/fileqsyAR7
-    old: 0000000000000000000000000000000000000000
-    new: 6f49256897083848ce9a59651f6b53fc80462397
+  - ref: refs/heads/for-next
+    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
+    new: 0000000000000000000000000000000000000000
