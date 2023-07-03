@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 03 Jul 2023 14:17:49 -0000
-Message-Id: <168839386978.27930.8995660437560418249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Mon, 03 Jul 2023 14:20:04 -0000
+Message-Id: <168839400439.30363.4706412697483943962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: a50131eb16d961aeafdf0102be8082c950471e16
-    new: 33a326b64769c01dd5ff0e11e510641055c9354d
+    old: 5087502fb05b2b4d756045c594a2e09c2ffc97dc
+    new: 38708e211baacbf2e56ae346bc1139202c7243c4
     log: |
-         04aefca1b4bb3d1762c9c4ddee68fde0b8437ef7 Fixes make --trace
-         c34dca74854cb6e7f2b09affa2a4ab0145e62371 Fixes build failure on ./configure && make --shuffle=2836571325
-         33a326b64769c01dd5ff0e11e510641055c9354d Merge branch 'master' of https://github.com/stonebrakert6/liburing
+         a51fe82b7ff91b144a1c87cf3221f4a66c1f54bf use 'min' macro to find out next value of actual_min in libaio
+         38708e211baacbf2e56ae346bc1139202c7243c4 Merge branch 'libaio/actual_min_algo_update' of https://github.com/dpronin/fio
          
