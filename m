@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 03 Jul 2023 19:40:29 -0000
-Message-Id: <168841322980.7783.2555088474392701245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 03 Jul 2023 19:52:22 -0000
+Message-Id: <168841394284.15453.2589599781777604103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: d2573a393da12601d7b76e1c5068a495cc4278b3
-    new: 8a332e2afaa134d472be3832357d630ea7bebe73
-    log: |
-         8a332e2afaa134d472be3832357d630ea7bebe73 foo
-         
+  - ref: refs/tags/hwlock-v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 55afdca4f65fa4e50ae81ec3e174f5238c555b7c
