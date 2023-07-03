@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 03 Jul 2023 10:39:32 -0000
-Message-Id: <168838077210.435.1818108004303331922@gitolite.kernel.org>
+Date: Mon, 03 Jul 2023 10:39:54 -0000
+Message-Id: <168838079420.651.13773399133102381933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: d15e4314abec83e4f910659437bc809b0889e3a5
-    new: efccd4e0f3ab6d97dcb097d1ae4cf022b6487aa3
+  - ref: refs/heads/for-next
+    old: 3b317ce08dceb356b000545bdd51aa934e8f97df
+    new: 4d9d51cb794bde6f421500a04ff272a0deb7a2a8
     log: |
          6376402841e1fa6f1c5b7604abc9c746a84c715a s390/ptrace: remove PSW_DEFAULT_KEY from uapi
          b8af5999779d1225c82fcc960223625b279f5f0d s390/ptrace: make all psw related defines also available for asm
@@ -25,4 +25,5 @@ changes:
          2b70a11955366b0732fbb63562458c316e01384a s390/zcrypt: remove ZCRYPT_MULTIDEVNODES kernel config option
          cada938a01586fc144902919e133354b1459db04 s390: fix various typos
          efccd4e0f3ab6d97dcb097d1ae4cf022b6487aa3 s390/entry: remove mcck clock
+         4d9d51cb794bde6f421500a04ff272a0deb7a2a8 Merge branch 'features' into for-next
          
