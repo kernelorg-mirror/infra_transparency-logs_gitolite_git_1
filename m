@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3030957779987096709=="
+Content-Type: multipart/mixed; boundary="===============8877033623123507147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 03 Jul 2023 18:45:31 -0000
-Message-Id: <168840993117.31790.15928203706626106580@gitolite.kernel.org>
+Message-Id: <168840993122.31797.11641632106290626621@gitolite.kernel.org>
 
---===============3030957779987096709==
+--===============8877033623123507147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 381518b4a9165cd793599c1668c82079fcbcbe1f
-    new: a5e7c39a80ad721c67b797ff18634bcaea0bf5e7
-    log: revlist-381518b4a916-a5e7c39a80ad.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 4af60700a60cc45ee4fb6d579cccf1b7bca20c34
+    new: 66130849c020f4cf55ecac785b8017d2b7c63a88
+    log: revlist-4af60700a60c-66130849c020.txt
 
---===============3030957779987096709==
+--===============8877033623123507147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,44 +30,48 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688409929 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1688409920-6f4e0d8c3631143f0ac0cddaab32a961fe4d6810
+nonce 1688409921-085160b0cf51ec0ae82d830df058d945c975917b
 
-381518b4a9165cd793599c1668c82079fcbcbe1f a5e7c39a80ad721c67b797ff18634bcaea0bf5e7 refs/heads/linux-5.10.y
+4af60700a60cc45ee4fb6d579cccf1b7bca20c34 66130849c020f4cf55ecac785b8017d2b7c63a88 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjF0kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g0IP/24mREoQpBZ+LV3U503g
-5IjBcPVjN98NHlrOoj48++RaTA7Y4Rwqek1xNM/HOpoLzPYzgVAXq+GWRBzuEpkM
-0d23/mRTlYTBRg5Bc8WzmKS5uMeuLrlY4hqESJ/f4MQy5AO3ctXBo0h/sgvVVWbH
-lHDV3s95R4whpKL1J5jtk2ncflkrJ5pSCzHXpxJYkRUgTHCppdcdiTZn6eDHsFb1
-+hJJRh821O50SzLF8v5U8VMnzRe2kTubDDh99+KpaY6TUwgk0oFgjoh6gz70qBHa
-+KsRfQP/Oqwtr9Ju015VBf9t6cTtPESZ5Se2r0Vx20bwPsZo7VcOszEJS5uBZl7A
-xx5M3Js2n7/qJnsosnZUEpgvcI1OYBW5hcQkoLF4W9ZEGD640VBS4r5AfAHR1yXk
-m0xHexIobfdeijrd/SX0nbUJ19NpJFJqSlx2MPHgFNvWNsePVrQLhw9tlnMeaOnO
-Utwg1HhdpTjRn0WCj8SpvuI7ClAxp0gFbKCbCpArOUaEP4/TbOhDx/XapsKKD7pJ
-OoZtP97AK/QcpP+CUdeSrFA3od1DgbCEx+JnLjwDXgpAmEOdNmjJS6ZHSkEFGp4k
-CGo85BnUX2y7ua2b/WgPEQcy5soMbNoj/PqGFCNqW4jQe+ZxfLPgYzoip+Ix6vgg
-ZuFXD0bONvudPTr62ESqaqbv
-=hiQA
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zkkP/jik3oP38R4rP+P3HNm7
+KPbPSXQgCpOdFN6dJKIVFKkP1wEOYdYb2cELE3Eg9gq5COUo3qpMji8jeEwd0BnL
+tqXGn/6Rffpe+m+0oxYPVodEXCDOoUSl8KHxhWHB57DM/xwCnmlUzBtGQWOHZCR7
+OAjAwtE8d0OUcE77q9MPO54mFe/j9diWsgltaTr67H81Dek+h4ggTFi6/mHAftm4
+FwHIJRRZu/qiwCXkl/bJs6SgeS24X8iweHbNx3RrrhTTgE3Leh862guczKEjJEDA
+FQcaJhdFeen/KlK8jcdwhKH++4TJPx7RwumGmtgU0jECxi99PrOXcabDFrJnv4qY
+xNW1pcckdExBx3/aD4rPGM5XuUoiu9SF4xp2P0G/j5Ak3iWmJ6jX4eYLvPYYVaMh
+j1/4t+hzSjv5/+taiwWsrFiqlTOGe06kKeT10L10qvnrVc9Myw0uchJb0i0Gy41Y
+XenDVuIhUKWLJ2LWanYO7j54gHmWj+ZCG2gFOc8dBywbCppe3JsgbpfkgThfDlom
+rVBqSh385yFHvP7Ba2y9SuxziqqWqWwG6ov8ITTTLkjQOE3gRCBCpsn/vlc666ga
+icejXMGlJpD2Uo/ua3E5MRhY8nYw1nPNhvKqbUqzGeIZ292ZJanZG+Yxbj3xKWIh
+ZOxW5uMZBT1WbL+iGv0DjWLQ
+=wjx8
 -----END PGP SIGNATURE-----
 
---===============3030957779987096709==
+--===============8877033623123507147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-381518b4a916-a5e7c39a80ad.txt
+Content-Disposition: attachment; filename=revlist-4af60700a60c-66130849c020.txt
 
-d6b020c80a5e17c7c446b199dcd5dc6cbdc20aba media: atomisp: fix "variable dereferenced before check 'asd'"
-e093db03586be29c88ce78da53746fe640d8d266 x86/microcode/AMD: Load late on both threads too
-9845b8d9734666a69bc8bb589d453e4769cc0791 x86/smp: Use dedicated cache-line for mwait_play_dead()
-fd068f83643f5502645f6ab0b102c2ac5b084b78 can: isotp: isotp_sendmsg(): fix return error fix on TX path
-44b4e529288cf61fe19423d5ddd8da1906bfc64f video: imsttfb: check for ioremap() failures
-9c9ecbc1cfa5fb47070396a61fc4e02c43ba76d7 fbdev: imsttfb: Fix use after free bug in imsttfb_probe
-65dc448a8a38b04bbf1202c5c47e0bb1031e2273 HID: wacom: Use ktime_t rather than int when dealing with timestamps
-2ee8535ce2321c6468edb9bbcd787534d0f4f5e9 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
-763dcc5441f7261d44b6b7f39774955c6d468b19 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
-7f8b8f7bd739417a7ff233e11a7209fd56909663 scripts/tags.sh: Resolve gtags empty index generation
-31d8ca1c26990f2c6a28c0ff7d070847227886f6 drm/amdgpu: Validate VM ioctl flags.
-a5e7c39a80ad721c67b797ff18634bcaea0bf5e7 Linux 5.10.187-rc1
+cabab7475de8ae0d8ed1c623809e0562ce78f61c mptcp: fix possible divide by zero in recvmsg()
+e3f0fb9aa47bf9e9169adcf89af3597ecd2edbf3 mptcp: consolidate fallback and non fallback state machine
+86fc02f177676006a8ac44fde5b354d0ba417d7f mm, hwpoison: try to recover from copy-on write faults
+bcc9b1bcdecf963a00dae44029357907759374d5 mm, hwpoison: when copy-on-write hits poison, take page offline
+a7775b66825bcd9f2c80e05e6ccc7b7fe1a71b8c drm/amdgpu: Set vmbo destroy after pt bo is created
+d5ac540dd6a6149acf9c06ed33b3b02833328bd3 x86/microcode/AMD: Load late on both threads too
+19ba2758036a28f510c73bb2f129c5af1582c249 x86/smp: Use dedicated cache-line for mwait_play_dead()
+dda87c9629030900a42d47c9f26f5d272344089d can: isotp: isotp_sendmsg(): fix return error fix on TX path
+da1800a9070e1c192761bae7d3f08b051c239899 bpf: ensure main program has an extable
+09ea8cb61bf218f4d473aa152132fb58832bd9dc HID: wacom: Use ktime_t rather than int when dealing with timestamps
+902cea761fc63ff669c4f312a99cc776bdc7bfd9 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+2ab2f4528c21f3c8191785a00e331e0f5387c11e Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
+9fb24d2d6d758dd214d9b11074ec3834f0ca739b perf symbols: Symbol lookup with kcore can fail if multiple segments match stext
+b234c52df2bda719a1be76ccbd7ce8abe893c37c scripts/tags.sh: Resolve gtags empty index generation
+d8a8c0f2c2fd536bdc17b3697730b99804c9aef1 drm/amdgpu: Validate VM ioctl flags.
+66130849c020f4cf55ecac785b8017d2b7c63a88 Linux 5.15.120-rc1
 
---===============3030957779987096709==--
+--===============8877033623123507147==--
