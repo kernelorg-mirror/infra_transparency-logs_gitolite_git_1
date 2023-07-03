@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Mon, 03 Jul 2023 20:53:28 -0000
-Message-Id: <168841760891.27029.8418141790834089250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Mon, 03 Jul 2023 20:57:40 -0000
+Message-Id: <168841786044.30082.6598211026154542993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
-  - ref: refs/heads/rpi/v6.4/unicam
+  - ref: refs/tags/hsi-for-6.5
     old: 0000000000000000000000000000000000000000
-    new: ddb258f53d95f6fcf7fb619e655f195c31fb3c6c
+    new: 3228f876415175c917dfdffaa6dbaef2699b3502
