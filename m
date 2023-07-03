@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3937620799591710552=="
+Content-Type: multipart/mixed; boundary="===============3030957779987096709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 03 Jul 2023 18:45:30 -0000
-Message-Id: <168840993086.31761.6731544207169143900@gitolite.kernel.org>
+Date: Mon, 03 Jul 2023 18:45:31 -0000
+Message-Id: <168840993117.31790.15928203706626106580@gitolite.kernel.org>
 
---===============3937620799591710552==
+--===============3030957779987096709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 0f4ac6b4c5f00f45b7a429c8a5b028a598c6400c
-    new: 86236a041c0ffc821b7c1ee4891237bdc48ac881
-    log: revlist-0f4ac6b4c5f0-86236a041c0f.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 381518b4a9165cd793599c1668c82079fcbcbe1f
+    new: a5e7c39a80ad721c67b797ff18634bcaea0bf5e7
+    log: revlist-381518b4a916-a5e7c39a80ad.txt
 
---===============3937620799591710552==
+--===============3030957779987096709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,44 +30,44 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688409929 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1688409921-085160b0cf51ec0ae82d830df058d945c975917b
+nonce 1688409920-6f4e0d8c3631143f0ac0cddaab32a961fe4d6810
 
-0f4ac6b4c5f00f45b7a429c8a5b028a598c6400c 86236a041c0ffc821b7c1ee4891237bdc48ac881 refs/heads/linux-6.1.y
+381518b4a9165cd793599c1668c82079fcbcbe1f a5e7c39a80ad721c67b797ff18634bcaea0bf5e7 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjF0kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GwYP/iRD9HG+1Hy0NGgqiIzH
-IqwsSPF3bfz7IZ2gKiR+vYnx6vaEzhy57GSkTiOEmHEMZXeyKGsN340xV6W5V4Gs
-+7TQdtHWqzeQoIMk4jxzyJlAdxDWTCDoX1beSPJZaAx6uilp71RKxnJeVua38xc8
-VqZrlpwCIxE6OC2TMT89I1YdLFGR1Dn0Tafm3ZzmIsa4iFpreUdBevkd+NKeJGFq
-hQPChos8I4tIEgpRZGHHQilvt+bSymv1SYcrJqTw5NggosajEwxmMf7PXBbzr0/r
-tOJE0IM5E7zcUnfcNuAzv1c67WmGuA2V2LfGTRSOiWneT7xwyvZIXp320ZtOWjod
-yrE35dPuD12hIVx1z7wPvGvhQHCCE03v2K0/Lbtmkz7w/SKDniaYNaN1xbfiiEqN
-DaPFVdIso8ULliXy+mAolKXU0KtZsYoHYV3qZXBK+oNIEd7OXj+qnGIIkd+QDyju
-4Y6TvdVld/ZAkIjLL+/pxDXypPYR+32q/JzDtAUtZlBLD08sBbkNVb/kPT7JPV0H
-qL9nioNuMSf8i8tlxK+FvFIgBr6Ziw4GHlqFG0xCuhiNhgdVzEMRA92vlPUmDBYr
-jBOD6yHdZj1dHJ0iqn3wU2/F5rYUYRlApiIE2Q+ZcuK5d6E45CE8oHvddKdnGTtm
-wTUC5NCU7uA75hALK4e7l3AC
-=IQY1
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g0IP/24mREoQpBZ+LV3U503g
+5IjBcPVjN98NHlrOoj48++RaTA7Y4Rwqek1xNM/HOpoLzPYzgVAXq+GWRBzuEpkM
+0d23/mRTlYTBRg5Bc8WzmKS5uMeuLrlY4hqESJ/f4MQy5AO3ctXBo0h/sgvVVWbH
+lHDV3s95R4whpKL1J5jtk2ncflkrJ5pSCzHXpxJYkRUgTHCppdcdiTZn6eDHsFb1
++hJJRh821O50SzLF8v5U8VMnzRe2kTubDDh99+KpaY6TUwgk0oFgjoh6gz70qBHa
++KsRfQP/Oqwtr9Ju015VBf9t6cTtPESZ5Se2r0Vx20bwPsZo7VcOszEJS5uBZl7A
+xx5M3Js2n7/qJnsosnZUEpgvcI1OYBW5hcQkoLF4W9ZEGD640VBS4r5AfAHR1yXk
+m0xHexIobfdeijrd/SX0nbUJ19NpJFJqSlx2MPHgFNvWNsePVrQLhw9tlnMeaOnO
+Utwg1HhdpTjRn0WCj8SpvuI7ClAxp0gFbKCbCpArOUaEP4/TbOhDx/XapsKKD7pJ
+OoZtP97AK/QcpP+CUdeSrFA3od1DgbCEx+JnLjwDXgpAmEOdNmjJS6ZHSkEFGp4k
+CGo85BnUX2y7ua2b/WgPEQcy5soMbNoj/PqGFCNqW4jQe+ZxfLPgYzoip+Ix6vgg
+ZuFXD0bONvudPTr62ESqaqbv
+=hiQA
 -----END PGP SIGNATURE-----
 
---===============3937620799591710552==
+--===============3030957779987096709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f4ac6b4c5f0-86236a041c0f.txt
+Content-Disposition: attachment; filename=revlist-381518b4a916-a5e7c39a80ad.txt
 
-da1f8845d264ef093fe5f2513400ca617ea45d42 xtensa: fix lock_mm_and_find_vma in case VMA not found
-60941444f802e2f9198682f08d2af9f335d1bc93 drm/amd/display: Remove optimization for VRR updates
-a6c36ac0102bcfc96894517ef729ae435e75a548 drm/amd/display: Do not update DRR while BW optimizations pending
-fb5802190838c3e98385995dd1351e2a9d5ee8fe PCI/ACPI: Validate acpi_pci_set_power_state() parameter
-0df2eb2cb9d9c06edca5696580c4ba909bc61a46 PCI/ACPI: Call _REG when transitioning D-states
-0140eae44accd0df8071de6487afe0921eb0d7fd execve: always mark stack as growing down during early stack setup
-29baa6b065568ef070679bed106030e1e5d85848 nubus: Partially revert proc_create_single_data() conversion
-a6477707432d2d42bf6e4bf5364eb2c422d58f57 perf symbols: Symbol lookup with kcore can fail if multiple segments match stext
-4c0d45c7bbe9f6cde29f705de1bc4c298ef1d8c6 scripts/tags.sh: Resolve gtags empty index generation
-6ceb9db4a383087dba797612669a5ca6e01cbda3 docs: Set minimal gtags / GNU GLOBAL version to 6.6.5
-9afbf4156ba1a1aeeba3f2310c8f423d6629b613 drm/amdgpu: Validate VM ioctl flags.
-86236a041c0ffc821b7c1ee4891237bdc48ac881 Linux 6.1.38-rc1
+d6b020c80a5e17c7c446b199dcd5dc6cbdc20aba media: atomisp: fix "variable dereferenced before check 'asd'"
+e093db03586be29c88ce78da53746fe640d8d266 x86/microcode/AMD: Load late on both threads too
+9845b8d9734666a69bc8bb589d453e4769cc0791 x86/smp: Use dedicated cache-line for mwait_play_dead()
+fd068f83643f5502645f6ab0b102c2ac5b084b78 can: isotp: isotp_sendmsg(): fix return error fix on TX path
+44b4e529288cf61fe19423d5ddd8da1906bfc64f video: imsttfb: check for ioremap() failures
+9c9ecbc1cfa5fb47070396a61fc4e02c43ba76d7 fbdev: imsttfb: Fix use after free bug in imsttfb_probe
+65dc448a8a38b04bbf1202c5c47e0bb1031e2273 HID: wacom: Use ktime_t rather than int when dealing with timestamps
+2ee8535ce2321c6468edb9bbcd787534d0f4f5e9 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+763dcc5441f7261d44b6b7f39774955c6d468b19 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
+7f8b8f7bd739417a7ff233e11a7209fd56909663 scripts/tags.sh: Resolve gtags empty index generation
+31d8ca1c26990f2c6a28c0ff7d070847227886f6 drm/amdgpu: Validate VM ioctl flags.
+a5e7c39a80ad721c67b797ff18634bcaea0bf5e7 Linux 5.10.187-rc1
 
---===============3937620799591710552==--
+--===============3030957779987096709==--
