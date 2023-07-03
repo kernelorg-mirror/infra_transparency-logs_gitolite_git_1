@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4877121544489051363=="
+Content-Type: multipart/mixed; boundary="===============9104540206161016045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/patches
-Date: Mon, 03 Jul 2023 06:01:42 -0000
-Message-Id: <168836410266.12753.9544653693524284329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 03 Jul 2023 06:06:52 -0000
+Message-Id: <168836441232.16184.17650279948937904646@gitolite.kernel.org>
 
---===============4877121544489051363==
+--===============9104540206161016045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/patches
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c4a298735eb23d6a2b0b55b35a32accf0e79c790
-    new: 8b2fe15fafbd9adc123223e7986f958f7d7b4f7a
+    old: d5913ed4ae0762018f2090f379e2a29cd6e1ed49
+    new: 822be437671ba9cf81747c555b8ff6ffc4a28a20
     log: |
-         891da36cf2633b68baf820e89969a16600f3f85f remove patch that is now in 6.2
-         8b2fe15fafbd9adc123223e7986f958f7d7b4f7a Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/patches
+         822be437671ba9cf81747c555b8ff6ffc4a28a20 6.1-stable patches
          
 
---===============4877121544489051363==
+--===============9104540206161016045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688364102 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/patches.git
-nonce 1688364101-89a912c51db1c9b51db370b28496637ab6ad48b2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688364410 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1688364409-404e67105c25c65303244e97db55eecf30dda248
 
-c4a298735eb23d6a2b0b55b35a32accf0e79c790 8b2fe15fafbd9adc123223e7986f958f7d7b4f7a refs/heads/master
+d5913ed4ae0762018f2090f379e2a29cd6e1ed49 822be437671ba9cf81747c555b8ff6ffc4a28a20 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSiZEYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OBkQANCFzF7JDaOhd9fibJth
-PVunbJV3Jnjhxsm7hpj8C7AMlUOW2ehaI56vn2ygh+/3HU1UlO5BMRxwTMUI/qHT
-mGeZFHMWR07eba95x1SMS1fUDSCbCB7fJ5896x2YrZTukJM3ptL4JZuecaomUTep
-MEepa38MmFFRAX1lYGmEsTkugVBd+pbPh1BJnFjLckt9qL5Q+kdsmxv7MzWY2vB0
-SXQAIQsXXzTZML/MJkv04FZEbdJA0fu4m6sgtKyZrygbl0w8QPB4nt03//EqVOHg
-0Ljod1oJXULYsUUkqCy2dMcuwadHEDQ/bG8CNWzjtagxX3fEjKDBql4ECeIOVNYR
-JNO3nqktF4uYC4xNPA4UeeCGYZAjgZdsRdbrNWQTXjDS9fiUv8+eeXcuPplzNXzQ
-D32F7pF5eFeTLzW80OD/rpYgGwpg4TGnCZ7oSxvBYPm5u4mlP46uG7AkJ3/oOr6w
-Afu2V5f6+SE8MD97r5ZDomemfjrgcEyNCnnH2YYXxI5dnPFtfeD3APc6Brgh3Yt4
-n2DEBHG5M5GmZBZure6lz6NivzpajE9gWt66t14MoyUzLFYcwpxWTwVhI0G1bGDW
-RdZ512f+c5QOrrQV1iOSRc/oEqOvXYerIfGnBP3B/xuyg+uof+fq5MyT6cuHkB54
-fsU57PuOa8NVYUEDh8ky5P8e
-=02a9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSiZXsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fIIQAK9a49aTQLOQirUrijhq
+/oCgdP5H5ax1uPItG8sXuTQWp2AJgpMBtfXNC9G6QalRJoUzDZfuCutvV2GjrQp3
+FhJalZVmKL+cirFB9evrZpLjD+9o4JNqG51Hi0j7FJngUkkPlTiaKYeNLp95X9Ff
+isK4UbYSBL4uWoaH5LVjDx8s8Me+C847F/bQIN+Yf8+lqr9hrD/Dj2d3EihlSSxt
+qdCH0Q3zk4Eje4vebyNM+UDkQr7en9COIE3yR8vJUMv/gyLSWSV7528Edd50Hzg4
+M9KChXcEOeRZ7awx2eEJ1aMLsKNV7FuWvnNUBRzUg7BbKHeF7qg0FYRpzk9GpACW
+UCJrPUWuI7yP9STOUnHqrxRQm3tt02stofrekf4SXuCksg1iNuuZXM5pQuiZ+HBZ
+D+iXrDMhW4tF5Yam0gUW/9gbpb00hXwvs2JVVkGnHaGV6pR2hz6dD1AM/cSf3TTJ
+QZfmwoGy+uBYhR6ugW5cI++Aqc7GqWCxbTsdEpwYiV1x2UHZKtl11anKt4ozfwuZ
+zMDa4OYzVyOp9LG3R9+dBohSCspOSVMmKwVkVn4Xt5t2MYSFErVp8lA0r4y4gU19
+nFWC2sc5pzuA4D4J93EMwKijfyBDIUEua7QbtjnnHhSd6Iv2yvulrOUPI/cb0LS/
+sbrsp/G/9D/KtvnpkIz1cUwX
+=1nrz
 -----END PGP SIGNATURE-----
 
---===============4877121544489051363==--
+--===============9104540206161016045==--
