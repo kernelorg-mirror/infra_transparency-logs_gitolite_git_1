@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7164329893151877432=="
+Content-Type: multipart/mixed; boundary="===============5560399229076843729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 04 Jul 2023 08:46:22 -0000
-Message-Id: <168846038260.30716.10102455940850772065@gitolite.kernel.org>
+Message-Id: <168846038267.30731.15708239163012575305@gitolite.kernel.org>
 
---===============7164329893151877432==
+--===============5560399229076843729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.4.y
-    old: 388a3f399fc0bdf4179f80ae0382498c04fd3ec7
-    new: 289036004f4bd4d640d3f6bfb47667af77c26a17
-    log: revlist-388a3f399fc0-289036004f4b.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 66130849c020f4cf55ecac785b8017d2b7c63a88
+    new: 492521f41846c04df93ee45e8b780dc9478d90df
+    log: revlist-66130849c020-492521f41846.txt
 
---===============7164329893151877432==
+--===============5560399229076843729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,46 +32,48 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688460381 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1688460373-ddcba932ddca0dc392fd9267a5574b3604723777
 
-388a3f399fc0bdf4179f80ae0382498c04fd3ec7 289036004f4bd4d640d3f6bfb47667af77c26a17 refs/heads/linux-6.4.y
+66130849c020f4cf55ecac785b8017d2b7c63a88 492521f41846c04df93ee45e8b780dc9478d90df refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSj3F0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TDsP/22NGXupmFo1gIG0xRaM
-6WJD8YwZnDklbBywZ1ckZY4MwJptZhO2aC+rPEjVr1k8gLGLTt/cvXQBlpT40kw2
-k0rpPQnfbxplw0tcn6Jbu6/2EC1rEE+X4iv/36LfiYwq/PSK8ifHqBIXOZJ0YJ0b
-6OkZldVIIuobyZ+HUNwzMYRmCD5KuPwbbybWjhHTlipnGiVZdOgUy3kA8ZKL6cnQ
-svkK1IQDO+wtAoqRjT06KtF88agB2R8lpMyT3unP7CWlMM/aipCtz/9IiwNYIvpr
-EHpaKKetUBKQ5ItDc1Vx9ML1ZxV/uyiySl2BzxlRj5NqHRMeOHZeQdaWlqnBISwy
-tvjmke5xnEa51lF/vxfbzXbEiO663qx4Oq22pyzVmr2asy+e3BxVIhlR919DVZFA
-UW1z+AatZCsqmfRuFZmrChTHFxOlb63p6Le4DcXePWwgRfrQ2N+AsOarxg7XYJGn
-3/MJUajPAce4IASXQAgtBJsLToybHsesfQZfq4n845g+EBQV6+a9QAlFiv1v8H0z
-WDfQxUKB39pyF1EOsSxd+G/N11rxvxuV07z0CbTAE7kWCqlVO+7kxmup2WFJ0jcq
-iF+6x2BNDOL/jc2pmHIYDGRurn1jjaHeaT82AK2Qe48jnmaiQmuXMNDp+SJWfFxO
-TxZA4nPLu+QoLxX5ctFexWie
-=qvsP
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++jIQANOsGhjY63dlcBFw97u2
+FqqwOy3adnUYi242JGTGiy4Dh2GWRIRCNu3suDyBOF+U3Qr1HohBVdeDZxvRrMcE
+UH6/POMToAZGfKi9wer0jNk6cI8Xf4YV6DYQ1/5iGZVHqI07TChcMxZb01xvVulW
+9hQX4qHsE4KOv8PToDKhUeEZFLhtoeR086leUA+YqC4QqnSkm1piaFMlqtrZV4Dy
+qJvwO6sHrWSo6U5IMrUAwifhQD2w2EWT9BBRFpzbKXdRw6AjLsuDH54fwPUw9gfs
+fVsbGYAPBW4EqWV8Pw5hQOT0ijUYGTsmAJXlw+ZqppM1xsFh8nydSHIgb7GpFT0e
+cGXL67Pawqza1xCA7es8MWd1YWRGRkPLfvZGqebi3udl/8WouILjkbHIwQXKsEBo
+o99r0prKUPdUNarmWXML+0jPGDjQl9labW+D3pwdwMqq1UPGgJyoy+fHfgFyKKeQ
+FLVnwXIRmqzOKkTPM4UYZ1WZ6YZDhr20AYTLJTNWuuI2chBNheZdwNR/kUeHx6hb
+CZidItSBCL5EOBGqW5QGG7Na/eyNS/JsHhphdMb/2fLuoIyUdLWm0G68uHMnzFLT
+HNmtAouQIFNDtfOlO/GkM93B2vlgPE288pjjXjigHBSpJ2B63VK6bdS3kjyMocD+
+DVrU9l8VkXKMvQxoNlz+X4XD
+=ZFk9
 -----END PGP SIGNATURE-----
 
---===============7164329893151877432==
+--===============5560399229076843729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-388a3f399fc0-289036004f4b.txt
+Content-Disposition: attachment; filename=revlist-66130849c020-492521f41846.txt
 
-bb0031d9862b5655ac8cb150816866394cf1ef9f xtensa: fix lock_mm_and_find_vma in case VMA not found
-fc645f456791b5b83c83ad0c50c29f3dc3da3509 tools/nolibc: x86_64: disable stack protector for _start
-971077bd57318d73eeb3db66855f1b475d171c31 PCI/ACPI: Validate acpi_pci_set_power_state() parameter
-3c80db772c11003a4622e26852de6a16f68ce868 PCI/ACPI: Call _REG when transitioning D-states
-aa25100c81108bdbe73d7933f24fab6770d57528 execve: always mark stack as growing down during early stack setup
-f043b3d96c462233d608431befe25085d142b689 nfs: don't report STATX_BTIME in ->getattr
-44069c67dea111326b58c120431751b2c6084679 Revert "cxl/port: Enable the HDM decoder capability for switch ports"
-836398291c24cd416d3871a8fdd1c106e4a91be8 nubus: Partially revert proc_create_single_data() conversion
-9a6b81d6afe42d58800711bacc32113dcc3525c6 hugetlb: revert use of page_cache_next_miss()
-51d32c218267d0ec447e3776e177add4b79e6baa scripts/tags.sh: Resolve gtags empty index generation
-d992f86e46c8be7efd569313b80dc8f98e260636 docs: Set minimal gtags / GNU GLOBAL version to 6.6.5
-21a09a7376fb4508205817c0e8c4a3cdad2cbbcb dm ioctl: Avoid double-fetch of version
-c6d551cc90235c5a9ff7b024fbfc0b6f30040954 drm/amdgpu: Validate VM ioctl flags.
-a194cb73377d6baa4a343eb36e3accf5146e4cd7 arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
-42a3636122f43e9e707e8a3f4b6bed19809b6e66 gup: avoid stack expansion warning for known-good case
-289036004f4bd4d640d3f6bfb47667af77c26a17 Linux 6.4.2-rc2
+b197f10a0ec51fc3e755e56f1cb47a38576efe40 mptcp: fix possible divide by zero in recvmsg()
+a8fac8c889f510852e0012174d73dd90a6661ae1 mptcp: consolidate fallback and non fallback state machine
+db5e5bc63b6e9ebbe22d7cb602549e82814dcdc2 mm, hwpoison: try to recover from copy-on write faults
+a726872cbd6f5885b9207f029dc789765adf8cd5 mm, hwpoison: when copy-on-write hits poison, take page offline
+eecb5934e379eff5bd5f3f48a7a592f1d3d71ada drm/amdgpu: Set vmbo destroy after pt bo is created
+22e50ebc92d06705b8433ed049687449519d0a1b x86/microcode/AMD: Load late on both threads too
+d974ed6014e0ecf8cac58f1de42f6a6087a3e3cb x86/smp: Use dedicated cache-line for mwait_play_dead()
+398e6fa57b7bf4c5ad76fb7641459d167a5b0cd9 can: isotp: isotp_sendmsg(): fix return error fix on TX path
+7cfdc5d0d12ef2008d0e6d78b4acda54c1ad09cd bpf: ensure main program has an extable
+073a3bf93ff80678614fc76119f4cfabb3d8ef52 HID: wacom: Use ktime_t rather than int when dealing with timestamps
+9dea89c75b027cf4a3eecc99a9cc31eacaf69e94 HID: logitech-hidpp: add HIDPP_QUIRK_DELAYED_INIT for the T651.
+6b5b3c5128c57a82b41dda237795363618a0cfb1 Revert "thermal/drivers/mediatek: Use devm_of_iomap to avoid resource leak in mtk_thermal_probe"
+3ea75494811795084fc5802cec8c46f123c703ec perf symbols: Symbol lookup with kcore can fail if multiple segments match stext
+a55fad36b489b8712fa80b30de7be25746b1124c scripts/tags.sh: Resolve gtags empty index generation
+f602ce9b113773a6d2e58bbbe202bfd23a25bfbf drm/amdgpu: Validate VM ioctl flags.
+15e5306014b93ab9518a000f5f526c67964dbd92 parisc: Delete redundant register definitions in <asm/assembly.h>
+8dbb0af983cce0af3048787fee21e879b677fa54 nubus: Partially revert proc_create_single_data() conversion
+492521f41846c04df93ee45e8b780dc9478d90df Linux 5.15.120-rc2
 
---===============7164329893151877432==--
+--===============5560399229076843729==--
