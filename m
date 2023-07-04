@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7024705811725163535=="
+Content-Type: multipart/mixed; boundary="===============4737536080303225910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 04 Jul 2023 07:44:15 -0000
-Message-Id: <168845665505.17482.1141686660468862734@gitolite.kernel.org>
+Date: Tue, 04 Jul 2023 07:44:20 -0000
+Message-Id: <168845666018.17562.11231750397622038109@gitolite.kernel.org>
 
---===============7024705811725163535==
+--===============4737536080303225910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: b3dad076a058916c443c93074dc3ee80baaff4ea
+  - ref: refs/heads/staging-next
+    old: 4a22870cede374d80c5d2f9c5b79253a5a667832
     new: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
-    log: revlist-b3dad076a058-24be4d0b46bb.txt
+    log: revlist-4a22870cede3-24be4d0b46bb.txt
 
---===============7024705811725163535==
+--===============4737536080303225910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688456654 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688456659 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1688456653-c0f5e2680623c7534eb6a1a2411806ee15c9ab0f
+nonce 1688456657-13267230a7f9c2ee337657a1bd61ac50e006ed2d
 
-b3dad076a058916c443c93074dc3ee80baaff4ea 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/staging-linus
+4a22870cede374d80c5d2f9c5b79253a5a667832 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjzc4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wgsQALN1OYIvsGuNU6QqLv23
-LBd+d0WQ3nc3vkm3wHz78efxxsOZIGcSu2qVrJZQeQWxgSIpmL7bgyysqseYomyd
-GP2porq457D0Nz6LkSUMDtfEiDIrNycvrrmLP3FdCnWno1RoFrIHYydvC2XeDsWq
-ZKnf/U1vhcJKMRYJdvaFEHk8Uy1xJlLO4s5mRqO8J0/o/xMhVdk7CmzeymcIy48l
-TXhRzhA7A9b1NCNLB1v0Voo0TF555ZkjaJwZmV94/adQJwOj8VN3W4VJ2yg0WpoH
-sv2aoEEdYr96KrAOIIyCdJtOONWbnmF0vkgmTQi4BQ+WNnm1ykfH+9lT7pRplJp5
-sXFrJof/GYDQIihBSOijlQcLyNW0cc/tQUWC3r0DxIW8vjMA2t5Pbw7LmkEqmuUj
-J/MYaie6p4n6NooL2XCBCN1Ns0WwGjaXSMozghHqx/D9GA586NG+LabsIynNo+W6
-ujwcxtNNAsZVFpgpLVb0XLa3iWjwgbqkgFc3DsypiAm/tHKz7+AapkXJWLwOHl26
-e3UTPJRYn6+Gh7mcDfN44SajiDwLWZWjcM9EFwN3xVCquJc1l1p2oa08sDG7QGd+
-8Mf9sJwFl14E+QzzUAQV321s18TR4IWqoNU5DM7hyxy7XlOmzTXwETKzRnNYWjqi
-UTKX+uUbrmX0EJmNcxPQxQ7i
-=Jxpv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjzdMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NFkP/jCBqPjUYfqzVoM2p4qu
+Edfw+3cLsE//IFjKcLkghfXAZc/GdR7aQ+Es9AgIlhmOrgsqdhujO6dm6y9wVgbt
+pEvryXDgncDMHA5WW9MZBpYMzeijZhub+9urmdHNfLR09Ap6WQCvoV0Vi1FLFkDC
+JEIqiI4YXwGbXDaSQe86p7SlD8FzxZbMN1j2igEg9tju6pC9sjOW+0PdKtm3NKL3
+er+PQ7nQKTRLicB2G0wohgR/DNQ9xpLti/OQpvR/OE4HYtX49fuvYxlHuqsDubDz
+xCX5JvPRpAw7Ui3QHYUEWKc/41NH+34KeszdrLTFLRK/4AFS3auHfgesBpeyb+wg
+4/wy7QtK7uyRXvV6Em+jaT8IkZ9pkCE7meSh3amIqNpPdWGAMPZRHyp9hecqiOtI
+RCRxuD909EpZCPvLvCM7gm6wsfSDSLD9yTSXihptBsnSs9DgRzYlcw+nJXMFiGhA
+Py+E5bCV35zQOkNAtjl2ZcQMOZlnphqBYh57+LhFjMj0FJWzHEWYbqIICWANQPJe
+BnCaymdLNETGp5Mofc/e987ZnTFebp55S6XkFJkiYGFtpYsqTTKQcKoZiPAcRlwI
+pFqPHKhDpBnNEvOMhBXaFaMX+bFQZYzvzxReT4m1iRIW0GyHLO/MsQPTkswWQBVi
+K184WZKffRhjPjvtmeaLA/KZ
+=uQ1R
 -----END PGP SIGNATURE-----
 
---===============7024705811725163535==
+--===============4737536080303225910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3dad076a058-24be4d0b46bb.txt
+Content-Disposition: attachment; filename=revlist-4a22870cede3-24be4d0b46bb.txt
 
+e4ef3ef1bc0a3d2535427da78b8095ef657eb474 perf test: Set PERF_EXEC_PATH for script execution
 33941dbd14da4eac40a26ac5fd5f84e1842ffc3a perf unwind: Fix map reference counts
 d685819b40affd39d2fbc937e93b2eee7fc63dd5 perf pmus: Add notion of default PMU for JSON events
 d06593aa00b2bb1cc1ac9d88157bb8db0ac17872 perf pmu: Remove a hard coded cpu PMU assumption
@@ -100,7 +101,6 @@ d744ae7477190967a3ddc289e2cd4ae59e8b1237 hwrng: imx-rngc - fix the timeout for i
 afa9d00ee0fda2387ad598d0b106e96a7ed360ae hwrng: st - support compile-testing
 501e197a02d4aef157f53ba3a0b9049c3e52fedc hwrng: st - keep clock enabled while hwrng is registered
 b335f258e8ddafec0e8ae2201ca78d29ed8f85eb hwrng: imx-rngc - switch to DEFINE_SIMPLE_DEV_PM_OPS
-4a22870cede374d80c5d2f9c5b79253a5a667832 staging: rtl8192e: Remove whitespace and blank lines
 9e1a1ee93f6b08aad5ee645073f7c7b115f71e15 i2c: ocores: use devm_ managed clks
 dcb31e8df8cf6e80ccfaad9d9c1fa286d38a87e9 i2c: davinci: Use platform table macro over module_alias
 02fa4bcf4d15d7c93e6bb09d000d291dc2eb410e oradax: make 'cl' a static const structure
@@ -1082,4 +1082,4 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
 
---===============7024705811725163535==--
+--===============4737536080303225910==--
