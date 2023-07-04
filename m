@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4886875358481999946=="
+Content-Type: multipart/mixed; boundary="===============2555393728389392792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 04 Jul 2023 07:29:09 -0000
-Message-Id: <168845574955.4333.7854564446953584371@gitolite.kernel.org>
+Date: Tue, 04 Jul 2023 07:29:14 -0000
+Message-Id: <168845575444.4457.13497483913958893212@gitolite.kernel.org>
 
---===============4886875358481999946==
+--===============2555393728389392792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: a91845b9a872039618d74104c0721376ce092638
     new: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
     log: revlist-a91845b9a872-24be4d0b46bb.txt
 
---===============4886875358481999946==
+--===============2555393728389392792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688455748 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688455753 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1688455747-c1ea725a4e0ee4bffab0112243300954dbc9cdc0
+nonce 1688455752-a7fecb618608e663101e8e14fa2c3f094b4aabe1
 
-a91845b9a872039618d74104c0721376ce092638 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/driver-core-next
+a91845b9a872039618d74104c0721376ce092638 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjykQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aUQQAMkqgcIv7avwozfTaicT
-eGofyx9a6r858fP93hW9do9JKEvwCMV5SU/m8OyXlUvq2ZLM1MO91DEW2q5UxjPx
-ycr+1r07uKWWkNIZW5qHIaq1u929pILkg2rIHRdDNi4B/Y3wC2q6Ea+JaoqW9sdo
-kTVpivNpv/FCXl9dGOVj3AjLLLuiS1cOQV1e/i1SbMw6TDZSyuBkdPS2gy1huYIr
-M2qB755p1GPhH3fDUvqLWxLsITupJHfLar4/AQCrQv8KHnHd+lT6QoaSNAK3PC4X
-41bL1hWOHl7aG4lIvo+2b/KVSk/ghZrYWpBCRTupAJyNDlJB7ZUPX5sRHOOmLLdO
-D/1dtbyAFYklUf04s9TiibvZRTOkAseEdYLH9VbjmZ/csTA17uEvZSYh6HX0450p
-6NilAdRU7A60s8lGLjVTsdQON2i0HH8GVJz4TvB0r15xEmsGl9sGTLUZDGUAEm49
-aagg9ySfWITc1cf+edf8m3oedL4YD1Yv/YcVBgfsOOmyDAsztdUqEYI8BNHDOeOJ
-qBQc7GjNJDsaUoSnJBgRdqPQjcdONwuP6tvsrdBbBwmwuDuS8OKUQYuqG+BSm2tD
-tRTNYh8Fpy+FzcI2qQ1xgJHBvgW9d72wz0VdC5sFNk25I9vv+SzsyEqrF5zis7wp
-3XOGyu3QyyRZJvSmoPiWHe1q
-=+0NH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjykkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BQQQAJGC6RlnHIVpdvTsouli
+wyLIxOibt6wR7xiKLcuwd30ucBTXMguT3cQ4rgbymqHDuKECuWgMOQdGcokPIBiz
+EJnpogZpNDsql/eUuQwgVl/1x7XCkm160YPhoqvTHXzJHx5WbC7m+owKK3U9mENf
+qrIWA08yUN2xgp2Dt77ECqWV77cApLATmm4HFJIRdlQsHEjpBLYtjveFkGcaR/j+
+it9VcDRJcQlDCQY6Z/RBLyF9aGWN8AL9GwfhUeiIU/DAgwwgw/PpX7IxOMKBAJJC
+dPrgTNhHhnRXMX2m22UDYnkDLw2U3DxqeF9r4DigPvVSieFnkhkzi0fEIeaC2bJm
+E20Hcm+1TI8V9UJLkxHJmr21yVchHgx1cDWhcAMg4m7ZNl1vDXVE0ZryaXmczbsg
+aLi1bDAZyM81L/J+rboGEjnMqbfPI26Bos8rc5hvH8UVSsSV/jcwalJAXjd07PDF
+W37WeUlrp9MGhg0QY/AdGrRwqvzjt+Tx21KYYM1JqbR31NONpwtmTMkYyPOjhVVk
+hKrKwKVN76bjzSskrdGqJtmNfO63W8GG/vzEqj9yYmKess09rm1Y2/tIB21C+MHN
+NUXQw0NIL6OGxmC9NzihyRqui29v37dmLr6SNIJyzILO3P+Jt6d50D0+K9GRKC76
+nAkneyMgpZEEzEgOBrKalZg5
+=GF6S
 -----END PGP SIGNATURE-----
 
---===============4886875358481999946==
+--===============2555393728389392792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
 
---===============4886875358481999946==--
+--===============2555393728389392792==--
