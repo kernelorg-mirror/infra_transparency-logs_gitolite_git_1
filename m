@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7979737500754428192=="
+Content-Type: multipart/mixed; boundary="===============4886875358481999946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 04 Jul 2023 07:29:04 -0000
-Message-Id: <168845574485.4246.17042719138013817546@gitolite.kernel.org>
+Date: Tue, 04 Jul 2023 07:29:09 -0000
+Message-Id: <168845574955.4333.7854564446953584371@gitolite.kernel.org>
 
---===============7979737500754428192==
+--===============4886875358481999946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+  - ref: refs/heads/driver-core-next
+    old: a91845b9a872039618d74104c0721376ce092638
     new: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
-    log: revlist-9561de3a55be-24be4d0b46bb.txt
+    log: revlist-a91845b9a872-24be4d0b46bb.txt
 
---===============7979737500754428192==
+--===============4886875358481999946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688455744 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688455748 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1688455743-f96a1ba653b93cdcd303902987f26ca60f3890f9
+nonce 1688455747-c1ea725a4e0ee4bffab0112243300954dbc9cdc0
 
-9561de3a55bed6bdd44a12820ba81ec416e705a7 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/driver-core-linus
+a91845b9a872039618d74104c0721376ce092638 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjykAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++SMP/AnT4ahcVFuYtwlDCoQv
-GWdqhKlra9dxPP/G4GxNQ2+46zlrf0Qw9NBiO83UtlnT8UHtuF63HEJU9+C+NddM
-izMsAsrOP9gshVUEiPhFO1o006zivLB0j3QsNPcseKcCinPX4Az6ldbKeN5Fs132
-7kmqnEtenZ70O8kdEWrivWg9UGMRij5Pe5How0miExxFuNLon4ofkKh1CrJ5N9WY
-ljaT4kkaQNIG4XhLTYxklajKIn5Z8mUK77IcklB07S0Y7/a2FyXyYSkcUlwdUyqH
-vl2a2uNCZxmRXymeudqVeUSGDU8qS1ccKb62iFOl/drGW9Xp7lp7tMpIDTMDNf/3
-IqOkvEjY1M8q2by4WglHfBnyuZXoHG2xP5LhgeTv7bVF80kzXSVeu7V20IURa1/N
-3klvcvKt3dPDlxp8C6gkDgrWL2A1cjPnHZAwWt5esEq0DVRdP5shWAMWvpiLH6Ue
-bz4oKWJzPfzWIHbv3jd+VvdVuBMHEd/FPQ4Q4yo6jESwOo+lmKu/ZKrzXzAIDfP1
-kE8ZUFSNkx9nehj4Nw8DSH1LwsSkq9E5zKapyrTlQpQlHd60Tne9VXSx06XQLowt
-FK+BbkshifbE4pmM/feuhUPzpdKM6dEGFWP66jSA9nQ5BU8U/ET2RbaCnTGgbPWd
-F0PSM/hGZ8nr6+55vayXf5yV
-=NPJm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjykQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aUQQAMkqgcIv7avwozfTaicT
+eGofyx9a6r858fP93hW9do9JKEvwCMV5SU/m8OyXlUvq2ZLM1MO91DEW2q5UxjPx
+ycr+1r07uKWWkNIZW5qHIaq1u929pILkg2rIHRdDNi4B/Y3wC2q6Ea+JaoqW9sdo
+kTVpivNpv/FCXl9dGOVj3AjLLLuiS1cOQV1e/i1SbMw6TDZSyuBkdPS2gy1huYIr
+M2qB755p1GPhH3fDUvqLWxLsITupJHfLar4/AQCrQv8KHnHd+lT6QoaSNAK3PC4X
+41bL1hWOHl7aG4lIvo+2b/KVSk/ghZrYWpBCRTupAJyNDlJB7ZUPX5sRHOOmLLdO
+D/1dtbyAFYklUf04s9TiibvZRTOkAseEdYLH9VbjmZ/csTA17uEvZSYh6HX0450p
+6NilAdRU7A60s8lGLjVTsdQON2i0HH8GVJz4TvB0r15xEmsGl9sGTLUZDGUAEm49
+aagg9ySfWITc1cf+edf8m3oedL4YD1Yv/YcVBgfsOOmyDAsztdUqEYI8BNHDOeOJ
+qBQc7GjNJDsaUoSnJBgRdqPQjcdONwuP6tvsrdBbBwmwuDuS8OKUQYuqG+BSm2tD
+tRTNYh8Fpy+FzcI2qQ1xgJHBvgW9d72wz0VdC5sFNk25I9vv+SzsyEqrF5zis7wp
+3XOGyu3QyyRZJvSmoPiWHe1q
+=+0NH
 -----END PGP SIGNATURE-----
 
---===============7979737500754428192==
+--===============4886875358481999946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9561de3a55be-24be4d0b46bb.txt
+Content-Disposition: attachment; filename=revlist-a91845b9a872-24be4d0b46bb.txt
 
 33941dbd14da4eac40a26ac5fd5f84e1842ffc3a perf unwind: Fix map reference counts
 d685819b40affd39d2fbc937e93b2eee7fc63dd5 perf pmus: Add notion of default PMU for JSON events
@@ -1082,4 +1082,4 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
 
---===============7979737500754428192==--
+--===============4886875358481999946==--
