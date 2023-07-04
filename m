@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2555393728389392792=="
+Content-Type: multipart/mixed; boundary="===============3437337209665924900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 04 Jul 2023 07:29:14 -0000
-Message-Id: <168845575444.4457.13497483913958893212@gitolite.kernel.org>
+Date: Tue, 04 Jul 2023 07:34:23 -0000
+Message-Id: <168845606396.7969.9048947302466373598@gitolite.kernel.org>
 
---===============2555393728389392792==
+--===============3437337209665924900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: a91845b9a872039618d74104c0721376ce092638
-    new: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
-    log: revlist-a91845b9a872-24be4d0b46bb.txt
+  - ref: refs/heads/bus_cleanup
+    old: a8feae5c21152ff7233805b3b16648162fe334d3
+    new: d4af51e544651cf38194dc0462ff73398b3e7432
+    log: revlist-a8feae5c2115-d4af51e54465.txt
 
---===============2555393728389392792==
+--===============3437337209665924900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688455753 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688456061 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1688455752-a7fecb618608e663101e8e14fa2c3f094b4aabe1
+nonce 1688456060-265ec600833e4919794c78127fcbb04bef393865
 
-a91845b9a872039618d74104c0721376ce092638 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/driver-core-testing
+a8feae5c21152ff7233805b3b16648162fe334d3 d4af51e544651cf38194dc0462ff73398b3e7432 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjykkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BQQQAJGC6RlnHIVpdvTsouli
-wyLIxOibt6wR7xiKLcuwd30ucBTXMguT3cQ4rgbymqHDuKECuWgMOQdGcokPIBiz
-EJnpogZpNDsql/eUuQwgVl/1x7XCkm160YPhoqvTHXzJHx5WbC7m+owKK3U9mENf
-qrIWA08yUN2xgp2Dt77ECqWV77cApLATmm4HFJIRdlQsHEjpBLYtjveFkGcaR/j+
-it9VcDRJcQlDCQY6Z/RBLyF9aGWN8AL9GwfhUeiIU/DAgwwgw/PpX7IxOMKBAJJC
-dPrgTNhHhnRXMX2m22UDYnkDLw2U3DxqeF9r4DigPvVSieFnkhkzi0fEIeaC2bJm
-E20Hcm+1TI8V9UJLkxHJmr21yVchHgx1cDWhcAMg4m7ZNl1vDXVE0ZryaXmczbsg
-aLi1bDAZyM81L/J+rboGEjnMqbfPI26Bos8rc5hvH8UVSsSV/jcwalJAXjd07PDF
-W37WeUlrp9MGhg0QY/AdGrRwqvzjt+Tx21KYYM1JqbR31NONpwtmTMkYyPOjhVVk
-hKrKwKVN76bjzSskrdGqJtmNfO63W8GG/vzEqj9yYmKess09rm1Y2/tIB21C+MHN
-NUXQw0NIL6OGxmC9NzihyRqui29v37dmLr6SNIJyzILO3P+Jt6d50D0+K9GRKC76
-nAkneyMgpZEEzEgOBrKalZg5
-=GF6S
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjy30bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+raoP/RxvmbvCHXNee5FTC+XV
+xb1XDqcmp7Teb1us3LgSw9HRblsaNm8fGWDba9LhhGs/TMh4Axw/LbZw4czXMDLe
+3Zk38rOX1RkgScYnEe9AbD/PFNd9MToABPwLNPKd6tyXFEPAL9istS3ymYQUsHXC
+jCjg5CF19oywXP7OZJAbxOeX1XwG4+LFGScFoc84nOdGDnl1RTv29DHsPNOnD4l6
+EhGHwk+YFkTFce5OSdluvCL6vGXGF9fuu6SiEvXwPA64QhkHMQqwGE3EenNIPRND
+ZELzGELVIXhsU/hWFFG/0/hKMZXDCh9uGHgnJTz7TGQuK8aqGpdf0DcQCdbtVKud
+qLvFeuDXD3UrueeKI24DtEBG3fvM9WjCRds84OABQcbq88KSaVFDhiHWIH/UhJQn
+ppSZb2BcZP4rZI1UoMREvXhbqjiKR14UqMVjoFjHjWFjlToq5op6UbLggJ+huq1T
+4CXaw2V2qrNJ8g7UuWAHMriGiHMSwU6b9zCbkmt8s61gAJy6nfQQZsq/LKZOEcO8
+QcKPuz9kuZBn1XVj4CaFpRHvlg2rKWR+AI0bVuI+bgZYushWMh9zNmXOn+LeWGsI
+t/u2/rGJIAWwDFwPoO/nYuabFCjtZ37b0xhNFO2jBxKrqo9uehmAmax+SVNNCyQE
+KxB/tNW1YF4IpqwGNtu+AB3u
+=Hf9z
 -----END PGP SIGNATURE-----
 
---===============2555393728389392792==
+--===============3437337209665924900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a91845b9a872-24be4d0b46bb.txt
+Content-Disposition: attachment; filename=revlist-a8feae5c2115-d4af51e54465.txt
 
-33941dbd14da4eac40a26ac5fd5f84e1842ffc3a perf unwind: Fix map reference counts
 d685819b40affd39d2fbc937e93b2eee7fc63dd5 perf pmus: Add notion of default PMU for JSON events
 d06593aa00b2bb1cc1ac9d88157bb8db0ac17872 perf pmu: Remove a hard coded cpu PMU assumption
 6d24b170a9db0456f577b1ab01226a2254c016a8 dax: Fix dax_mapping_release() use after free
@@ -1081,5 +1080,6 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 4f52875366bfbd6ddc19c1045b603d853e0a889c Merge tag 'io_uring-6.5-2023-07-03' of git://git.kernel.dk/linux
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
+d4af51e544651cf38194dc0462ff73398b3e7432 FIXME: driver core: platform: make platform_bus_type constant
 
---===============2555393728389392792==--
+--===============3437337209665924900==--
