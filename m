@@ -1,62 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============5082953513472801299=="
+Content-Type: multipart/mixed; boundary="===============1432521478153583367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 04 Jul 2023 07:40:22 -0000
-Message-Id: <168845642287.15612.882399958100226442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 04 Jul 2023 07:40:26 -0000
+Message-Id: <168845642668.15703.11514622321304892129@gitolite.kernel.org>
 
---===============5082953513472801299==
+--===============1432521478153583367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: e534755c9412be07f579acd2947401a9f87a33c8
+  - ref: refs/heads/usb-next
+    old: 18af4b5c97915a6daef9de28a30ae1d3786bc2ac
     new: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
-    log: revlist-e534755c9412-24be4d0b46bb.txt
+    log: revlist-18af4b5c9791-24be4d0b46bb.txt
 
---===============5082953513472801299==
+--===============1432521478153583367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688456422 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1688456421-91525629f430a9fe23991c0056585d393cbf0d6b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688456425 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1688456424-f885050e2557ed10221b5070a1e6bec5c1a2c160
 
-e534755c9412be07f579acd2947401a9f87a33c8 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/tty-testing
+18af4b5c97915a6daef9de28a30ae1d3786bc2ac 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjzOYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RpkP/2QImYFx8PqUE06hZLgR
-HWU9HsBADQoWbkkueoO0u5NDUX3UCo9DX5QelnGpnh3U0JFR8jebEkQO6P6CtkKA
-VhOwV+R/dVf2Fi1lJpu5sYNp3VcpnctWG7b8IT6AOJr5CI+t/Mi5S4tUULY2ntdB
-WzJZUTw96N6H7g1QkS2WH9+x/IWx5R/4xehEKFHBRVC8uL5O0G6ykgUcxUTlGril
-2ilpvSsAyVF3H1pQkSTaivGWgzORp/th3WdTGnflxHBqFEUFT16u2i3xElpkdUAv
-oz6J2BCrkynFVWwjviLU1Qm/iL9axEh3nroBVfIxODR+4iK+Nkfy4drkH4U1NUsV
-2K7yIZOzC2jMOPQyXqw5oNhoPyEYnVhgNpD0PwqtKb2q6KDV2NRkNMSRW4N8yyxn
-1t0PuUi6GksPJ5+oRdVdLu5us+85NJNBM6gKK6axQ2s0W410T10EMpKuRMGEO90a
-FrV7Woqj4UVJziPKcTdeQ8yREpQYOwHG5g1E77CWH6LaaSh13jB1dDa24TIjjV2G
-0hIM0EOJ+pq4GKh3aAXCrO08qrSv/fMEXSxZEMsk8vOm1NIr0tOW4kBHII5h9mOP
-O4h773SsUJSiQiLLkOc5+ThU8JY40ldbsRI88mvVBZ9ksq13eQW2HfsnvxMMNTVD
-jMAPLDw464iD+sNWIE7dw+xx
-=CXDO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjzOkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+49MP/29FO11gZRGVTcDzuKpX
+Cr59YEQI0wi2LDF8xg5CphxZU7ptGstXKtrTmfBLC4H8QKMLlfWZEPD8RSV8vSd6
+D+KgT7Z6ULmxmUA2irsiS+uHfSwazPfvJuWC/85AhgwjCKgj+qW28eewho1/dhRO
+uV7AWK+m9JEkJD7tQ5OdMyaU+ENwfDtegucKRFP4Kz+R+/DV2AuUedDKX766f2F2
+TmQENR+68UnBJrtaqs/ElIfPIBwfjV6ipi+fLI62lNrJ07wwWVwBOTsuQ81DHP+e
+VDoLWdrIJ4ByZFgHzhNgbEny67HybTZ89mPOF+Ntqb1bMZswLrc/jpRDq4t7QfGv
+Cr+GSTX2RcJYnhtY/uquVpOgv1eaff79cn3tsyFeufkrxS3tyE1bEw9p0NIPuKyp
+ys9Nsdmbk3fPqxVxXvXFvKRL707d7fMg2PwXdUNk56HKkm6JekKeNDyIV/kkUYnB
+NOG8MK+B4jpQc0WDDsvvGY2mRWse0IefP8/xA8F5eowOnNl1U1B+dSal916o/yzS
+TtP0pN3L4ZGjkNyD4via+MfApa5jAp/jg1d4LYo4SsJaetOI4f/HWHnTvm8MOueb
+dHQ5kuCuRvXzNe9IV2r1owmsY+SOfaAu0FnI4aUOF0uR9uRGHVi02ft7RbNJxvXg
+ypA+3aNfIaKUbomd+TM7AXLh
+=e5xj
 -----END PGP SIGNATURE-----
 
---===============5082953513472801299==
+--===============1432521478153583367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e534755c9412-24be4d0b46bb.txt
+Content-Disposition: attachment; filename=revlist-18af4b5c9791-24be4d0b46bb.txt
 
+6f68fc395f49fb43f6ae801c340953ee4f793e98 Merge tag 'linux-can-fixes-for-6.4-20230622' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+08eeccb2491a3198f4adcba63adeace6e2499ea3 Merge tag 'linux-can-next-for-6.5-20230622' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+e6988447c15d622d11c68250a33f47b3cacb66eb Merge tag 'wireless-next-2023-06-22' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+33fe7c08446af6dda0ff08ff4fa9c921e574477f perf tests: Fix test_arm_callgraph_fp variable expansion
+2d7f5540b8696b855adf4121ce4a9bf77938848f perf script: Initialize buffer for regs_map()
+e4ef3ef1bc0a3d2535427da78b8095ef657eb474 perf test: Set PERF_EXEC_PATH for script execution
 33941dbd14da4eac40a26ac5fd5f84e1842ffc3a perf unwind: Fix map reference counts
 d685819b40affd39d2fbc937e93b2eee7fc63dd5 perf pmus: Add notion of default PMU for JSON events
 d06593aa00b2bb1cc1ac9d88157bb8db0ac17872 perf pmu: Remove a hard coded cpu PMU assumption
@@ -72,12 +78,6 @@ dd0c64258a9d9e74b4896f05c7e77fa3365b5f12 fsdax: remove redundant variable 'error
 e5313f1c540434b18ea57927633b1584c534b14a clocksource/drivers/hyper-v: Rework clocksource and sched clock setup
 6d0d4df8e7e1fe22d961d667c2bfa40c3d5022e8 dt-bindings: timers: Add Ralink SoCs timer
 8b5bf64c89c7100c921bd807ba39b2eb003061ab clocksource/drivers/cadence-ttc: Fix memory leak in ttc_timer_probe
-0e5342f634b26eed0a0fb21daa53a45449396c3f Merge tag 'usb-serial-6.5-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-c0aabed9cabe057309779a9e26fe86a113d24dad usb: dwc3: gadget: Propagate core init errors to UDC during pullup
-61d52f64ac58f917e47175cbc5bb54ee9a672209 usbip: usbip_host: Replace strlcpy with strscpy
-256a02e2caa3c606b84a40e8035e240beb93e67b usb: typec: nb7vpq904m: fix CONFIG_DRM dependency
-fb2ce17874cf3c3c183e5fd75144ffbe2313bf31 usb: host: xhci: Do not re-initialize the XHCI HC if being removed
-18af4b5c97915a6daef9de28a30ae1d3786bc2ac usb: host: xhci-plat: Set XHCI_STATE_REMOVING before resuming XHCI HC
 33cd7630782df2230529c3e8f1a6d0ae9cd6ab49 ALSA: ump: Export MIDI1 / UMP conversion helpers
 4a1b5ba16e27cdfa71310393673d5799d8c02af1 Merge branch 'topic/midi20' into for-next
 ef492d080302913e85122a2d92efa2ca174930f8 crypto: caam - adjust RNG timing to support more devices
@@ -1082,4 +1082,4 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
 
---===============5082953513472801299==--
+--===============1432521478153583367==--
