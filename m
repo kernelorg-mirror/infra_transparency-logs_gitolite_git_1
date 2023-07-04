@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 04 Jul 2023 05:41:25 -0000
-Message-Id: <168844928536.23149.14277254120605591518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Tue, 04 Jul 2023 06:01:07 -0000
+Message-Id: <168845046734.4105.2958759027866243232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/master
-    old: 3a8a670eeeaa40d87bd38a587438952741980c18
-    new: d1e0e61d617ba17aa516db707aa871387566bbf7
+  - ref: refs/heads/for-next
+    old: 4d9d51cb794bde6f421500a04ff272a0deb7a2a8
+    new: b0324ab87db7920dd880de485ed6df2840e4a3a2
     log: |
-         dfa73c17d55b921e1d4e154976de35317e43a93a net: xfrm: Fix xfrm_address_filter OOB read
-         75065a8929069bc93181848818e23f147a73f83a net: af_key: fix sadb_x_filter validation
-         d1e0e61d617ba17aa516db707aa871387566bbf7 net: xfrm: Amend XFRMA_SEC_CTX nla_policy structure
+         f4767f9f32b7b1abf43baf3beb077e554e35eea7 s390/cpum_cf: remove unneeded debug statements
+         eeeff534e9946f1db16eedd35acb9554ad77f4cd s390/cpum_sf: simplify function setup_pmu_cpu
+         b2ae4969497ee982fc9f30e53301d53e88ea5b65 s390/cpum_sf: remove parameter in call to pr_err
+         c13166bdb23976e2cde8f25dd669e2d8250492c9 s390/cpum_sf: remove unnecessary debug statement
+         b2534c28b23b099fc399021283ffaf9f40513abf s390/cpum_sf: handle casts consistently
+         6aca56c024e42577c28706a85979a6967b9b5e97 s390/cpum_sf: remove check on CPU being online
+         54372cf043276735e29045abf998895b2ac277cf Revert "s390/mm: get rid of VMEM_MAX_PHYS macro"
+         b0324ab87db7920dd880de485ed6df2840e4a3a2 Merge branch 'features' into for-next
          
