@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4858768272288179906=="
+Content-Type: multipart/mixed; boundary="===============2076957550873786563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 04 Jul 2023 07:14:56 -0000
-Message-Id: <168845489671.26452.16811435052788908704@gitolite.kernel.org>
+Date: Tue, 04 Jul 2023 07:15:01 -0000
+Message-Id: <168845490155.26665.10967403863905879299@gitolite.kernel.org>
 
---===============4858768272288179906==
+--===============2076957550873786563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,59 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 9561de3a55bed6bdd44a12820ba81ec416e705a7
+  - ref: refs/heads/char-misc-next
+    old: adfdaf81f9d48d8618a4d8296567248170fe7bcc
     new: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
-    log: revlist-9561de3a55be-24be4d0b46bb.txt
+    log: revlist-adfdaf81f9d4-24be4d0b46bb.txt
 
---===============4858768272288179906==
+--===============2076957550873786563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688454895 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688454900 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1688454895-d68e6a44f1d5c8c1e0819ea81032d67b7a69da67
+nonce 1688454899-508966ad2a59b2438619aa193c7c24b1e3e2dfa4
 
-9561de3a55bed6bdd44a12820ba81ec416e705a7 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/char-misc-linus
+adfdaf81f9d48d8618a4d8296567248170fe7bcc 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjxvAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pY4QAIi/6TMtbwtUNdlraiLO
-syv7L6BZVU1qnqUbvBZAjkGU2GdANmFB1jJ0I3vl/C6fEgCrAyp8Q+BQGnsjICbI
-7HBA1yBHI0HAmsvEoFj7FcdSKvVqKVjbig0q6V8RG+/APeIAEHG9J9IZz1wgV+pV
-Ny4h8XxbPTFIycfMN9mOAvzqxOK1y2Rf5UVZz19CTjfb0AWwMnHLBClNnoJZ6hba
-2guW9UGLLx6G5eD2pSTWTsE/ylY3TqmzIs3Qskd3nWyAtvCFR47uF8k/MFNRqxCu
-xeKuYQykQsuTIcBUn7v5G4rTdmGYZaz4BHO7ZPWAOahffDvQ79fdk9xH7f0LjLxG
-HoAAU6my8+E1XOfTM4j6o+X6oNQyKZKtsKekyDvkpTv6SJQ9/Lw+9fXD4HTWutgw
-NsnlYXXC/nErr+aSVvU74TgYrTS2Oqr2RugSMs150ZZl36+3RBcO7A4Y5pD6i8XU
-uvcdZK8ULK2o/FYve3vWyGac4S57pTRO3jwiX+w+bOwuiBHkmH7SeNjBodhKkYyH
-dYmFEny3ZLkJQPRVsX1o/vWE83mjtiflyP+2zNMLyjVgnkrwWb1pVqASkDbflz0V
-LIm5Ozn8FR1IgQ4uU71NrQtJXbGdBKqSqTHB31VSQKZ0Qmnwp4tTRSd8mMhpiDaF
-ZGOd2GXKdqTPlz1T0h3aWBEW
-=5xa0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSjxvQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eVkQAJAht6eEiWoS273ZUkAu
+SJfQwRy9C8T8Lb+ugbSjGC+GCdp3GHtZ07omNQj6lBsKmMwYRtcbFG/lvw/Q6Cm1
+ctGYqru/1x3fwBuS+CTRhrmNgRZLz2opsXKPeUEkk3lR9693eF5EZwcKMhHK1w2f
+jKyoNFeSbYMeomqjaKKg70JbFq0FlP0IvTkrB0SWUBHlEbDHVMm2E6TQULWXnTqO
+XrvbSYurqSNzPK6PT/JokTi4zkCupg3Hf43612L6pgewPt/ytJyPikLq9479AFNS
+ubcdqXdabb1aOrK82L5goTdzDWcCK3QcmOjVRUuHzezpQbirMzb7F85k4HVvdEaV
+1ubNC2BBsY8qFqx8YKgMNY9xrxb0kyvhhWXLjsppnj+OpPR7etrtwlaCRTKqSH3x
+hS9oiIoirs/A9D2xlFVLFTps5jHw0BlFXt0rn4vjd7+AST19Y82Dr1rG5CROE3AZ
+HxwhSk+vABj2m2rQyj4IOzAOwsofSM0QABMaMLwjz16z87gtTJI2eDUr22ssry7q
+DoiW+eW56R4stHD5xesyoThJPOlU6ocv0JkAJCdS2UxEMPfbHgmxEYBfdmZ7TjRY
+rAdKOvb9sX4j0wMQMH7XmD9gbjOpdOWhtHp+SfhClxq3bvRfJ42rkWsAiGr903Ig
+mH4dR9TZwS/IVA6NHb80A60f
+=61d6
 -----END PGP SIGNATURE-----
 
---===============4858768272288179906==
+--===============2076957550873786563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9561de3a55be-24be4d0b46bb.txt
+Content-Disposition: attachment; filename=revlist-adfdaf81f9d4-24be4d0b46bb.txt
 
+b2fef875aa6f78dfa89a943282d6dbeaf0dd2095 Merge branch 'net-dsa-microchip-fix-writes-to-phy-registers-0x10'
+004d25060c78fc31f66da0fa439c544dda1ac9d5 igb: Fix igb_down hung on surprise removal
+2ffb8d02a9b60d9190a871cb8466cd0721bc0a49 docs: ABI: sysfs-class-led-trigger-netdev: add new modes and entry
+2555f35a4f428a9bfdf09aa0459dbfdf59a24a9a net: dsa: qca8k: add support for additional modes for netdev trigger
+9a14f2e3dab106df7f27d1730cc540247317d4b9 sfc: keep alive neighbour entries while a TC encap action is using them
+0ec92a8f56ff07237dbe8af7c7a72aba7f957baf net: fix net device address assign type
+6f68fc395f49fb43f6ae801c340953ee4f793e98 Merge tag 'linux-can-fixes-for-6.4-20230622' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+08eeccb2491a3198f4adcba63adeace6e2499ea3 Merge tag 'linux-can-next-for-6.5-20230622' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+e6988447c15d622d11c68250a33f47b3cacb66eb Merge tag 'wireless-next-2023-06-22' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+33fe7c08446af6dda0ff08ff4fa9c921e574477f perf tests: Fix test_arm_callgraph_fp variable expansion
+2d7f5540b8696b855adf4121ce4a9bf77938848f perf script: Initialize buffer for regs_map()
+e4ef3ef1bc0a3d2535427da78b8095ef657eb474 perf test: Set PERF_EXEC_PATH for script execution
 33941dbd14da4eac40a26ac5fd5f84e1842ffc3a perf unwind: Fix map reference counts
 d685819b40affd39d2fbc937e93b2eee7fc63dd5 perf pmus: Add notion of default PMU for JSON events
 d06593aa00b2bb1cc1ac9d88157bb8db0ac17872 perf pmu: Remove a hard coded cpu PMU assumption
@@ -103,17 +115,6 @@ b335f258e8ddafec0e8ae2201ca78d29ed8f85eb hwrng: imx-rngc - switch to DEFINE_SIMP
 4a22870cede374d80c5d2f9c5b79253a5a667832 staging: rtl8192e: Remove whitespace and blank lines
 9e1a1ee93f6b08aad5ee645073f7c7b115f71e15 i2c: ocores: use devm_ managed clks
 dcb31e8df8cf6e80ccfaad9d9c1fa286d38a87e9 i2c: davinci: Use platform table macro over module_alias
-02fa4bcf4d15d7c93e6bb09d000d291dc2eb410e oradax: make 'cl' a static const structure
-e55ce9fd3d8fbf4e94fd5d0c72eb5b7d01fc4574 bsr: make bsr_class a static const structure
-bd31ef88361a1ca8435bf81551b2bba2d1e07457 dsp56k: make dsp56k_class a static const structure
-03bcd4d8e9e6da7521b1bdff4116bfed9050cfa9 char: lp: make lp_class a static const structure
-7671284b6c77df93b7dad8be40fe354dd4243a5d /dev/mem: make mem_class a static const structure
-eafd52e6971ab63dd9294df1e363951148f292cf char: misc: make misc_class a static const structure
-98ab58a7a0b08be3f5ebdcb44fdf49127f749970 ppdev: make ppdev_class a static const structure
-11680fdf29cec560987fc8f6d290a5bfdb73e4e4 virtio_console: make port class a static const structure
-936cb492a13e767c63b75ab84fd321682a18f9a5 xilinx_hwicap: make icap_class a static const structure
-9ee202e69e29470e3a0a2406493538378d4e9a85 char: xillybus: make xillybus_class a static const structure
-3b7a628decfb3b385ca5169d7c415752bf40e536 comedi: make all 'class' structures const
 5985329c7073924afc19132456d212e1e8b57b1f selftests/ftrace: Add new test case which checks for optimized probes
 ed5f297802fca41d88fbfa6f9c13b218e7c6f5cb tracing/probes: Fix to return NULL and keep using current argc
 a2bd0c08a459b4cb8da57cc9c754de5e45d7a61e Documentation: Fix typo of reference file name
@@ -516,7 +517,6 @@ e47084e116fccaa43644360d7c0b997979abce3e MIPS: Loongson64: DTS: Add RTC support 
 3867caee497edf6ce6b6117aac1c0b87c0a2cb5f crypto: sm2 - Provide sm2_compute_z_digest when sm2 is disabled
 d1b355438b8325a486f087e506d412c4e852f37b sfc: fix crash when reading stats while NIC is resetting
 d2b32be7debd6c0deeae95844997bd89fbe4769d Merge tag 'timers-v6.5-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
-adfdaf81f9d48d8618a4d8296567248170fe7bcc bsr: fix build problem with bsr_class static cleanup
 f121ab7f4ac32ed2aa51035534926f9507a8308b Merge tag 'irqchip-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 cf60ed469629927fe43c2f4b4ef28a563d991935 sfc: use padding to fix alignment in loopback test
 30c24dd87f3f4640ee3dc693230f343023227c1c sfc: siena: use padding to fix alignment in loopback test
@@ -1082,4 +1082,4 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
 
---===============4858768272288179906==--
+--===============2076957550873786563==--
