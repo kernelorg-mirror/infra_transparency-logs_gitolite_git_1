@@ -1,56 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3086359857773223064=="
+Content-Type: multipart/mixed; boundary="===============4149759560770668066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 04 Jul 2023 08:44:32 -0000
-Message-Id: <168846027259.28048.14492626440840499351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 04 Jul 2023 08:46:14 -0000
+Message-Id: <168846037425.30396.14362573882062845503@gitolite.kernel.org>
 
---===============3086359857773223064==
+--===============4149759560770668066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e77909fde5dfcf771f9678ac5b5eea108a92a4a5
-    new: a87fbdc258ffdaddfd4992671e5b9940c9d71eae
+  - ref: refs/heads/linux-4.14.y
+    old: d40c34dd0c292c5d764976615cba4e2cb1aa13e5
+    new: 703dcb94f85a52e84d5b8e2a0cf1e84313a94fb0
     log: |
-         a87fbdc258ffdaddfd4992671e5b9940c9d71eae drop queue-6.3/hugetlb-revert-use-of-page_cache_next_miss.patch
+         dd246604dac371127d21baebaed635cf3f3e1414 gfs2: Don't deref jdesc in evict
+         1fa47968ab6fb9fa4e56e7d7edcf0f0fccc473d0 x86/microcode/AMD: Load late on both threads too
+         feae6996377fc923f733a62d09180732b6684ba4 x86/smp: Use dedicated cache-line for mwait_play_dead()
+         375d0c512650db743a42300c233088d975d074e3 fbdev: imsttfb: Fix use after free bug in imsttfb_probe
+         0e8e4358227db07ff1f33f65d04692ea655c482a scripts/tags.sh: Resolve gtags empty index generation
+         bd0c6d02715ef18d6630fb01364a9278fd88cf2e drm/amdgpu: Validate VM ioctl flags.
+         703dcb94f85a52e84d5b8e2a0cf1e84313a94fb0 Linux 4.14.321-rc1
          
 
---===============3086359857773223064==
+--===============4149759560770668066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688460271 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1688460269-6ed55508c0dda5ae7892e7df07cd05aa95ce0c89
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688460373 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1688460370-710c98a0f2d8bdef0ec81bb0e5b2cf585dfbce6d
 
-e77909fde5dfcf771f9678ac5b5eea108a92a4a5 a87fbdc258ffdaddfd4992671e5b9940c9d71eae refs/heads/master
+d40c34dd0c292c5d764976615cba4e2cb1aa13e5 703dcb94f85a52e84d5b8e2a0cf1e84313a94fb0 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSj2+8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+py0P/0TCrGCWzi7+Y5cgh3N8
-u4/87+xzvZ/HpfZKAbcyF4mYnA0jPtmiBXDmlYxWNSqRZcg31OmcQlfFGw0qRYa1
-CPQPUDeiktNIM9MIP+n6AgnQLBnP3w9kTAp39+792CeY8nXRIGc7c0QR4X8rDzvt
-NJAv7wy4OkOoDPqiUd7UUWtNoGqjzSUV0OUWm6tHJXTnp9YwuB4i+teUJYtju2UV
-fJClZD6vbloKGE92PIVw+Z53nutGAWU4ocyDnBY2VcAoAOU9hDGeefVIMHpr8JSH
-5Zv3f/iGquNU/8kD5fV5SKXbb9aZk+RmpzaoQhBZ1EUPqjunRdd64X8V5nJtori9
-9fpipgnxgite7AH+L9MUSYGBudPC4lUjkXFaZ0w+2Kv0ImM/hwuuejCefEWb9HY1
-Qoi+IAindfOzp7owcqQ/ZHb4oKTc87L3+VKPNRLZROio8+Y+DLfDrzYJE3rzmME8
-Rby8bd2HzQaXeFt615rrgnoBBL4/BMbcM4v6Drzicxwm9IxYS+9s33zsNZuTxa37
-xpER2Kz6Hps8YUfsHJ6FawmMSJuMP3YF6cTaiekrDak7TJzfqCrkURYLhoyTfCNu
-UYaZ1ScQOPOOYwNMQuYETJzxpnRFbCWZPMwX9DT9HtkDNoRFs01kNd1iK6wxVH1K
-lTeJsKRFBm75XvgjpnKFCHWP
-=QR2n
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSj3FUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0lwP+wSuD9yegL4/Jpq/pI3I
+LCYuTLZBAYLRYJbhm423noNC5bDBi7T1ao2FBhZtqsFca3RVhpOKLtAt5agNJGHj
+xuQ619tnjaMlqCgp6hJ2dMiw9iAbdtyzALq1Nra7vHrTuej7JP307zh5rxKN0SO+
+g1+f3hQxCu6j7Tj+ng7BPymo6Nzry3V6e8a87QEOv6HEiJu6tnrD/SJEKNr+phPS
+SNtvl4hZAWc6MIWrQcnHpCZcaXkWcTpklXClWOu9unN0oeePruc2YhOJp02QKSd2
+/HufXXlfQsQPjIBvAhBJ5Opkyk11Wwdqx7Y1+DLe7bVcNG4MgdMyD8VV3vJi7HD4
+/e8UC354VkkW5WV0sV5M9Rq+OXYR9ilKM64ihR1tRGk43yZyQU3D3Tx1SeLiM6Z9
+xdangJYFyWuC8ieTR4Vv6FHzczBwl42tvZVKNYdiOLBCCijMMRz4ScEAyK89iyz9
+KexL1aktuCFALdsU2pA6UuaYwRPQWLvrEwGVrm61fbVl/jXXghj8GSkACR2LVz2L
+rG5Wzv+7OmqzOCBPMNuSod2qkrQzLhD9oPhLkT+GYVzq4sEXCD2cSuU3rfqEO10Y
+LfS+MLuIHpV/3J84HrhHl8xj8ZY5p1eBKDVKPTN9AZ3c+4SVWKkBkuVBG/Tw4G1H
+qj9R/T64A68QZ83s2/84Wfej
+=lf6l
 -----END PGP SIGNATURE-----
 
---===============3086359857773223064==--
+--===============4149759560770668066==--
