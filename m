@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3799251514933026704=="
+Content-Type: multipart/mixed; boundary="===============2742416131946594520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
 Date: Wed, 05 Jul 2023 19:18:39 -0000
-Message-Id: <168858471936.31847.3082070337499016969@gitolite.kernel.org>
+Message-Id: <168858471984.31885.14989930271062303832@gitolite.kernel.org>
 
---===============3799251514933026704==
+--===============2742416131946594520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/char-misc-next
     old: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
     new: fe1de55167963a1c0ebe1579e37a8a41495f0a81
     log: revlist-24be4d0b46bb-fe1de5516796.txt
 
---===============3799251514933026704==
+--===============2742416131946594520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688584718 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1688584718-5c8e75298b008812322d7a78017350e74c4159c6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688584719 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1688584718-d43094d472b36eab9225370a86065a4b2734709a
 
-24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc fe1de55167963a1c0ebe1579e37a8a41495f0a81 refs/heads/driver-core-linus
+24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc fe1de55167963a1c0ebe1579e37a8a41495f0a81 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlwg4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vfwQALkYxOn7A6nTLs43gu4N
-AdUvB/9FlxDO1ZwBXy++OOjV8YmbGaqUMp16vUDcF2XsZVRXNkKFp9aKsWhz8xUQ
-UcvHxfwZscrkS2+JPkOUyhQF6QKr6ha8fjhwciylDn+H1FdvsUrUCTVN7Ws1C6uv
-pNOLvrKPGdmdy6lUgvRN5pRZxjn7m8YGFZKtACRP/fEbyRh12pnZvU1NzaPGSJqe
-+92eZk6BGNROp881MMfg+15HSi3w4RbSSTb4sXE9+WvffqC+DnLarq8ZYl0gdbcS
-SrkbQXvIBUeUAl6NErf9sA16yxguo5CZo2RbnB4OkNHwstm+nbKEazdwizgLNoZ5
-32H7URISmIyHfVwSCHuWz/mqoqI9xfCH/0Ewb98BeppLzJFxEm9bKh2WA4z3HygW
-131mMPpRCYAds5GSZRaxqfWY2i6RCYK4Pi9aM6TT25BWen3t1YsFBkQCYM7xCvqT
-4mBeBgHnVWFR83VxZLI9e6IwobDSiDpC8sIuQIsfRnojdGq51AfUjPAZfhFZWIxg
-lwPS0/vex3yYd4rDB4p7FqySzElQ7hB2WpL2/ROY4YoOEHUMwBg31g2mjN/iFZs4
-feK0CxioPDuHA7F5mVII9MNFq1x27iL9nLoPNwbcP3HqQGSt4sw1IKb7OJY/Skgd
-PgINXtKwWCD+t8fyOtR87Tlk
-=4XjL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlwg8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QZYP/2pnK4iDaBUQSq92dfgJ
+KQ788P9fPwqQUCsfj5r+BKivRLEBL3B4W3LD/a5/Y+9tK2QVWX0BZsPDiGVZYaUY
+qTSxZ72rrru103e3V30EeV2AMaP8AUc+sU7CauI8ChS64kGkLqYKW8Pi9fW5vORc
+yJRdyvOfkrjXAgiE61pVMWMoN97JRr5xfJ0u8q7TN7lYYVS0pTE+wpB5f9G1fr9U
+mHwRWXdStwDvvSybAKhHs1lr3h+RuQF4Px+RPl+dwLxlfFmGMhgTkZjYMkXDLyKe
+KOnMccBhu7llp6hhpeCJF3bML4QfGur6fS9l65kVuNUOucbBhUL4xLUe0PS5WWNM
+80e4ei1vRw/8//XkVRvdVZj9pxZzZA186w3+D3xKWTbFUCq+EB24OFZku+KP05fB
+5ToT/1yMB2yWTsaR/S3kWsRJuu6o+n+UOROlSFtcNMcMewJIvN8WXbBti0xtNVv1
+0LNgoVc8m5RHts4pXYtjhMXiE8cGA9IFCdWlSPf7HicJt+B0jWzwgHNgA6QqDsdK
+Y193/5nBU0TmFlKg/wsbhk3JCEO6ZwGudFg0cWOigw9qAY4vBS8X7SioEeA3Mgmm
+OiFu+6ItC8a3NjRCLDahtHZfuFS9VYpD+FgCI9IV3JrpF1H0ujHyN+HqTSXo0T2x
+dBgxWol1UKgiibCwfyByTnRC
+=hRqe
 -----END PGP SIGNATURE-----
 
---===============3799251514933026704==
+--===============2742416131946594520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -558,4 +558,4 @@ d528014517f2b0531862c02865b9d4c908019dc4 Revert ".gitignore: ignore *.cover and 
 15ac468614e5e4fee82e1eb32568f427b0e51adc Merge tag 'media/v6.5-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 fe1de55167963a1c0ebe1579e37a8a41495f0a81 Merge tag 'soundwire-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============3799251514933026704==--
+--===============2742416131946594520==--
