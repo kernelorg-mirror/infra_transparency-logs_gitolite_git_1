@@ -1,53 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============2553620708462988477=="
+Content-Type: multipart/mixed; boundary="===============0925115684811477629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 05 Jul 2023 17:30:58 -0000
-Message-Id: <168857825887.17398.14347103107797203730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 05 Jul 2023 17:31:12 -0000
+Message-Id: <168857827213.17536.12215843062029626024@gitolite.kernel.org>
 
---===============2553620708462988477==
+--===============0925115684811477629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.4.2
-    old: 0000000000000000000000000000000000000000
-    new: 7264a84f856174241fe069489af09e1bec31f9c7
+  - ref: refs/heads/linux-6.4.y
+    old: 59377679473491963a599bfd51cc9877492312ee
+    new: d7defc5b8d422ba19ab762a96cf1b1eb158aa5a8
+    log: revlist-593776794734-d7defc5b8d42.txt
 
---===============2553620708462988477==
+--===============0925115684811477629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688578257 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1688578256-d6aac6cdd3bb81efa7509b527704ff93b79d6256
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688578270 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1688578267-7aabd2e048fbdd1dce85b584a09b7274e953fcf0
 
-0000000000000000000000000000000000000000 7264a84f856174241fe069489af09e1bec31f9c7 refs/tags/v6.4.2
+59377679473491963a599bfd51cc9877492312ee d7defc5b8d422ba19ab762a96cf1b1eb158aa5a8 refs/heads/linux-6.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlqNEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xe8P/0Gp00cINpraBIleJmb5
-QidvGI4orRtp82KYaXyuHRo9cuEaO3JtOjgZO/sEPfZthpMfjBu/MiJw2tDrjIfa
-sNvWQS+Zib4G+LF99iKAVsYnUiUs+siITdnyUQwx8dKvPx7KX+0LG8LqxSFKOvYo
-QHOxLfgUla7FbcVrUTFWlrPoMBlaD6LmYXKr6Xs6+E/blRoBI1CHxn2BB1i66NpZ
-NYsheXVjSYvq50EGJ4agtOIofxbp0Vq6vW0701Wd91dx7oT3yyX2fYYYUIVx0ThO
-XdUhukJeYZESygC3fE8c7W8+bL6mDHuZj9xmwk9pFeyxbIA8j0mvPcWzK3QGCcYV
-IYzILEo+iuXVY0YI3iycVgNMHQtIzckkvfs9stw5myPTZvu2uW8mX/yJRDE0L4+D
-XhT4YM4pXp7JKYjYm+00zM5PJVAiotR9uqeNues3treE4xGRmzRPFhB8aH99z/pq
-1ViIX5MPWqJzAH5sZHwc8zj+UPTq27ktYcNECUkaKnlOQ1QZgu/c11WItEjRBpLg
-kg2/mromrKJtSX1DRs4SvXL2zghg6t+aY+4Y/oryY7o0jZBRyWeJ9InIiCwdWq/l
-mzfuX3yRsF4H/tKgrMe05ksTc4oJsrfu2BceMAcinpgFBYVQEDoABY8nAHNUzT8y
-N3E5sTMawmvy7Iz/As/QbHET
-=OZzF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlqN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JjgQANXfy8qI/jhWBYV4qFjk
+EEU6gsPYs1fOfZGjIlnlEJwnV5JBDD0Wj65BtP3aebQP9MbtSKYNtY5byGWCRza5
+ji3oDl8/V44zhJhLJgbSeRzo0WPzwd8TpqnG8DfFbsOXtc68Qi4awE3LJhoUW75L
+hgm8XFqj9TcDM6jDP3TI+Lweplu+BQXXG+Y4fIOzUiygnImYj5lLiyoXJywFRTyp
+phXlmqa2StPAj/mzDexzB8AL7bRHKma8LEqIzCVzfGerfB+Fk8I/qgwKvJWk5gb+
+sqxCfCv5bL/SIu4IhNaqvh6pVmwPjHG77zfFYar/Uxwu8wa1tbBYtaReVi+ZQP0D
+jGcJ0s0eAvy/aYlhy1xa50ZnZ6MZ7wFj1V6U5qdloWfAYxyurfmyLZP012nnrAGz
+Z0zkxyT0fFa328vt70muImvhYXhrbK58ryhz20LmeKeMvOF0j9XZinchIRZSj0WE
+fEGC3LepWHxb2g8rNpWXHUNxO459QaLSx1Y9dcWA4nGaqpJXQl3QobbuDAo1GA/z
+Kb8UJccml2k+KuilNvqgKD01emWAXAbhE5U8Bun/E/m9QPTYVOkoxkTMvafaMpFS
+Raw1yLaObLxVicW+OxzfiXOM8BKWXcBNTAz71ftocPi1wPNzaMLHoQfoBw/3t7sY
+Og0kJzP/OlW8v63sNWqbOP3N
+=rafD
 -----END PGP SIGNATURE-----
 
---===============2553620708462988477==--
+--===============0925115684811477629==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-593776794734-d7defc5b8d42.txt
+
+8911865ae284e4751889f0475f984e3d493f30d9 xtensa: fix lock_mm_and_find_vma in case VMA not found
+f23cf6986b87a2972315025a8f1f89741eda3439 tools/nolibc: x86_64: disable stack protector for _start
+f933605c176731a89ef0da8229894e7547c358d6 PCI/ACPI: Validate acpi_pci_set_power_state() parameter
+dfb27a7668963317ef6a2bfb89d5ebd270e9259e PCI/ACPI: Call _REG when transitioning D-states
+926eae6ede9b9c1ed589c4f6abcc964d16436df6 execve: always mark stack as growing down during early stack setup
+5dda60d2310448547a78e198f1e272df8ac3e21c nfs: don't report STATX_BTIME in ->getattr
+1c70f4df65ac44d965a85fb93986b8faab8e4adf Revert "cxl/port: Enable the HDM decoder capability for switch ports"
+a03f2f4bd49030f57849227be9ba38a3eb1edb61 nubus: Partially revert proc_create_single_data() conversion
+b1c2d0ded4dc33f3940d8fe8e5d1ed1f95d204af hugetlb: revert use of page_cache_next_miss()
+16167ccafbb3efee75aedfe24a350d3800f4743b scripts/tags.sh: Resolve gtags empty index generation
+c27c99d4458fe981a4d6b17de62e69c98247dd2b docs: Set minimal gtags / GNU GLOBAL version to 6.6.5
+cc39da6c58c4038d1a262e2b80e7e316e6296f5d dm ioctl: Avoid double-fetch of version
+57db8dc02888ea0fa2f9d53031aaef0497138a41 drm/amdgpu: Validate VM ioctl flags.
+ba0f198721f4efeaf34c2c71a7c7512349d9ffbe arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
+d7defc5b8d422ba19ab762a96cf1b1eb158aa5a8 Linux 6.4.2
+
+--===============0925115684811477629==--
