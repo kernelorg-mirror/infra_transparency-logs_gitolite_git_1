@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 05 Jul 2023 21:50:05 -0000
-Message-Id: <168859380532.19655.18003643887239426184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 05 Jul 2023 21:50:51 -0000
+Message-Id: <168859385155.20029.1619026957671980770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: d47132c6a6be57bb5033c57db5e86cfba179c12f
-    new: 8e2b81b854286f32eae7951a434dddebd968f9d5
+  - ref: refs/heads/for-linus
+    old: afbc67a90c7ccef304796af15477b43de5555b07
+    new: 2479191c30fe90c368fd6c8842e9846959466ccd
     log: |
-         8e2b81b854286f32eae7951a434dddebd968f9d5 zbd: Support finishing zones on Android
+         2479191c30fe90c368fd6c8842e9846959466ccd Input: cpcap-pwrbutton - replace GPLv2 boilerplate with SPDX
          
