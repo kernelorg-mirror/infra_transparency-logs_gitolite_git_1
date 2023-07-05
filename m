@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8178184143885666426=="
+Content-Type: multipart/mixed; boundary="===============6564680218535858346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 05 Jul 2023 20:02:50 -0000
-Message-Id: <168858737073.1151.12736788710528343569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 05 Jul 2023 20:06:41 -0000
+Message-Id: <168858760180.7501.12594142237544797089@gitolite.kernel.org>
 
---===============8178184143885666426==
+--===============6564680218535858346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: d528014517f2b0531862c02865b9d4c908019dc4
     new: ace1ba1c9038b30f29c5759bc4726bbed7748f15
     log: revlist-d528014517f2-ace1ba1c9038.txt
 
---===============8178184143885666426==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688587366 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1688587363-e5273dc2ec5f0d2f7f40b71eb2874a2ae3586a8b
-
-d528014517f2b0531862c02865b9d4c908019dc4 ace1ba1c9038b30f29c5759bc4726bbed7748f15 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlzGYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iA0QAJyZDS5qvzs82T+Qx8uq
-W8lbbfe1169wXav5ssf8xePJHuzODvuMRDDXKz8w32aHkYqbInze7i3jRPA5AVRz
-CzAEJg7VO1sdDhMvylZ0x2UO9qAprlPtIVeVAHsI+4khQZfXjLbR0l7MNnBp1sBN
-PAb1ejWj5SjznTNfED9F1e1jTYLeS4QXD2L/tzAiZJFARgDZJN/bhZkJNPzE6127
-JOeFQtT4w46+37Z5hiE0C3GeCuMOkNRSpaS6UMTe+awHFaR4enLYQEr7YD1ZFNGR
-RUyEGpk0mz6u9VCEiuB29+eXQue/fFaisHoLY2ErDyeHYsUXho76Z/rT56uKhoKH
-BRI6ueq8jRiiReoN0zRAoO6HfVCnC3gz8GsgfHorqPo26YOwV4/4IytYqUSv8oRs
-1sxAXGVALGLO+qfh2RjK0kK+w/iYruTvOexs63oFXxqkNOZBl9z4+NC/WVf1RGzp
-nqitel1iQrOC35oh2hKW5TQtDsLRrTqi7/xwGweHe9cnYYfyWZ5beBKtWAVy+MmF
-4dzqBbBsfUt4Cqt9gebrjdq+5EIFHZwHP/qTrE2gJ11zfPgpefrq+O9V3CfdTx5P
-S2VtsQG4BB8ahRuDYiL7F5Mp9xvD2W9DDhONTDeD2hAM2duGgwBRFd7jCCT0mQ0Y
-eKx2va+R8wUo2spkS7YmrzGj
-=2dZ0
------END PGP SIGNATURE-----
-
---===============8178184143885666426==
+--===============6564680218535858346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -422,4 +391,4 @@ fe1de55167963a1c0ebe1579e37a8a41495f0a81 Merge tag 'soundwire-6.5-rc1' of git://
 b9861581641225262b836508ec2980e1c4fd0c91 Merge tag 'devicetree-for-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 ace1ba1c9038b30f29c5759bc4726bbed7748f15 Merge tag 'pwm/for-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
 
---===============8178184143885666426==--
+--===============6564680218535858346==--
