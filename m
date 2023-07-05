@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7281325802913088068=="
+Content-Type: multipart/mixed; boundary="===============3897398985470075221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 05 Jul 2023 19:19:14 -0000
-Message-Id: <168858475489.32695.1771024344507437627@gitolite.kernel.org>
+Date: Wed, 05 Jul 2023 19:19:18 -0000
+Message-Id: <168858475816.323.16009339954986050095@gitolite.kernel.org>
 
---===============7281325802913088068==
+--===============3897398985470075221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
+  - ref: refs/heads/tty-next
     old: 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc
     new: fe1de55167963a1c0ebe1579e37a8a41495f0a81
     log: revlist-24be4d0b46bb-fe1de5516796.txt
 
---===============7281325802913088068==
+--===============3897398985470075221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688584754 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688584757 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1688584753-9e2f4a3d7a2b1846b2134a074bda357e44961558
+nonce 1688584756-5fce6059d1759b7f94a114b66ef055568c3682d7
 
-24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc fe1de55167963a1c0ebe1579e37a8a41495f0a81 refs/heads/tty-linus
+24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc fe1de55167963a1c0ebe1579e37a8a41495f0a81 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlwjIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WNEP/2s6HPlNgfX0nSHnsoPT
-ZOpl89sINArKqfTq5Pzp1PJy1baUjti+cM++nK1dO5F8WrO03h7Jbpy4SjSv0ds7
-IdO+EII/lpqNumyw0c0mA5Je4uYVMjdktCW13gMw/PHAe3AtLWifXscZWYBR5lcK
-fUgmTWrOt0BbqMfBk/88IiJ4pXgymxuST/vxKm3ZjxTSAxS/mfRfFN2h9P8COKcr
-Jfk0jPjae6MTM0UiOhlUPktDroYmhUumrZLMzeVgqDQx1DuMXtVX9QLB534TTGZ1
-JyVRHzzHM7NRjErZnxBZ+aiIbCRDdtCcS4nYrBRgYw0UFSY5sNx4MXTw4mITGEqc
-sRhrkrCxlSrfhbpbuOrupGxn2eWUVxlNSWyX2I1/uupYw1Tp+Op5SCoylOVaUPkR
-gTX3szb4gxaYSTdecih9KkiVIOr5FzOA0l6Jp8i7dsIwsn3hRdGEC981nTtggG23
-TjVqa8xVnIC6frvzGiJGR0nLVvVCI2C+PH3fVL8Z/2urk583uARY405LnJMIOZii
-Tr9XSml5CtMM2wqNBayjz7GEA0jq+lYGoGXGZBhLTGwZRfSduMmNEm8n24a8n+VI
-n9IiE0wIgGf99vV9IDW4hwg1yw5HeU26H6Y0NHJb0oGmorrF44UiRZXLjOMiTC9p
-vsLBm0HGDx/mWgVCG6Cz81b9
-=iKlV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSlwjUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t+cQAKwux8C7aL7WrAYZME7Z
+P/6e0w7yCon6qGnGOrxtij/6CLIkKy6s9pdy5bOOhKZi/J+9Vwg7x9Bvci1GrlIA
+HC2BwkQj3eQviDoj1Esvm8nbxCbTsMVPupn2Fe60YnrdwLENfhPtcWwX+YZpF7AN
+xF4PdxoCK/LC08IE0fprfkgO3sPJ+zqOOLkCdRLEnrvJYNhAPMjn+/YpclO392sz
+fKAyqZCWCRYkd/DStLlUD4zZpWuZxFSvTNa6d+5rLMZqoOPEqmRwM28Pd/qC4rPR
+AKYdfgbmZTMCAYNFxmDlF6Y7v0OhC/1bvgJ1n89ywar8WhlHDkB/ejNJD0KZbQy7
+9mjWa8xZ7gPD5T890aPOosgDpmKESInBQhGvdqno8riNLu+J42xRplaPppu+CrIA
+7OM6SeemYvEtwDQJbSExQnZjhFErhWFPA4fe6MPgnVRcVFdwOtIW9Ox8APni4Rrj
++VMJAJq9b5nOcYwXPzw21KT5CprE7Jh+yZ6BNHJsj86NIS5qjW4i+JcWPe2HfZas
+9xcivSW9P5KLkQ8ToY1E6udUH5XeJR7hQiMUI0nYSB4SXex8/EQ0WWQr8SSM24Nm
+JQ88sp5dw4HRkdjpnRtMUpQ5kTCeqCEK0+6kRW73Szru/XmWexBXjpKUXjiqt4xr
+RU/JTeIuP3JgdoWpqNxYPUt/
+=m5hQ
 -----END PGP SIGNATURE-----
 
---===============7281325802913088068==
+--===============3897398985470075221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -558,4 +558,4 @@ d528014517f2b0531862c02865b9d4c908019dc4 Revert ".gitignore: ignore *.cover and 
 15ac468614e5e4fee82e1eb32568f427b0e51adc Merge tag 'media/v6.5-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 fe1de55167963a1c0ebe1579e37a8a41495f0a81 Merge tag 'soundwire-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============7281325802913088068==--
+--===============3897398985470075221==--
