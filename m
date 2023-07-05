@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 05 Jul 2023 17:58:36 -0000
-Message-Id: <168857991613.5379.198485359136084356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 05 Jul 2023 17:58:52 -0000
+Message-Id: <168857993254.5550.17092121237500496028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: d764f78f27653bc1df71c462e9aca7a18bc75f9f
-    new: b741460688925448807c7532fe96182e4d32ec42
+  - ref: refs/heads/main
+    old: c451410ca7e3d8eeb31d141fc20c200e21754ba4
+    new: fdaff05b4a67ae6789a8d45c10f891990329f85e
     log: |
-         466fce0209a3878512672159168943047a9e2323 transport: handle BAP Enabling state correctly when resuming
-         8fd0c76b41d35e24e10e45fcf57262482cb978a2 shared/bap: use only nonzero req->id
-         80f2fa14b6d431fba9402e5efae0ac7bd98892bf doc/tester-config: enable DEBUG_KERNEL, PROVE_RCU, DEBUG_ATOMIC_SLEEP
-         19ce052d35d367005bfcf63461e43758301556f1 mgmt-tester: Add a regression test hitting hci_sync bug
-         7b10e72de6f41585f087e6fc338106b44d3e69c9 shared/bap: detach io for source ASEs only after Stop Ready
-         8c3170190d6f626869f1f382138caf3a16030462 bap: wait for CIG to become configurable before recreating CIS
-         f9557931ad361e08f1f1537ea670fedd1dd0138d monitor: Add decoding support for Sync Receiver events
-         b741460688925448807c7532fe96182e4d32ec42 plugins/admin: Fix heap-use-after-free when using 2 controllers
+         3de4d22cc9ac7c9f38e10edcf54f9a8891a9c2aa bpf, btf: Warn but return no error for NULL btf from __register_btf_kfunc_id_set()
+         f7306acec9aae9893d15e745c8791124d42ab10a xsk: Honor SO_BINDTODEVICE on bind
+         fdaff05b4a67ae6789a8d45c10f891990329f85e Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
          
