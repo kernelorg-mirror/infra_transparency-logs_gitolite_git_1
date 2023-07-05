@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 05 Jul 2023 12:12:01 -0000
-Message-Id: <168855912180.10928.12448339348745022171@gitolite.kernel.org>
+Date: Wed, 05 Jul 2023 12:35:58 -0000
+Message-Id: <168856055830.27157.14459600372910013490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: c20f9cef725bc6b19efe372696e8000fb5af0d46
-    new: cf6eeb8f9dace014f63a3b2e959d0922bf737233
+    old: cf6eeb8f9dace014f63a3b2e959d0922bf737233
+    new: 21be9e477fd2e0b39b5180db6793a1ffeb84d504
     log: |
-         cf6eeb8f9dace014f63a3b2e959d0922bf737233 bpf: Remove unnecessary ring buffer size check
+         ce1f289f541e34f5ae235cb66a5c130436f327f1 selftests/bpf: Add F_NEEDS_EFFICIENT_UNALIGNED_ACCESS to some tests
+         21be9e477fd2e0b39b5180db6793a1ffeb84d504 selftests/bpf: Honor $(O) when figuring out paths
          
