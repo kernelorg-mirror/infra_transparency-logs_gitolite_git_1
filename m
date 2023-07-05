@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/fbtest
-Date: Wed, 05 Jul 2023 09:47:56 -0000
-Message-Id: <168855047679.4532.8915399787429514410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 05 Jul 2023 09:48:02 -0000
+Message-Id: <168855048271.4664.13933250374711191222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/fbtest
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: ecfa67adb269c3a230352708e12731dc63498bae
-    new: dba87e7bb0a024f77549221ffa8e388c6a3b2a6a
+  - ref: refs/heads/main
+    old: 14bb236b29922c4f57d8c05bfdbcb82677f917c9
+    new: 80de809bd35e2a8999edf9f5aaa2d8de18921f11
     log: |
-         dba87e7bb0a024f77549221ffa8e388c6a3b2a6a Initialize ticks in benchmark()
+         80de809bd35e2a8999edf9f5aaa2d8de18921f11 s390/qeth: Fix vipa deletion
          
