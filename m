@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Wed, 05 Jul 2023 21:03:12 -0000
-Message-Id: <168859099269.16220.11665670383548590213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 05 Jul 2023 21:15:24 -0000
+Message-Id: <168859172444.26895.5631118078716068209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
-user: glaubitz
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/tags/sh-for-v6.5-tag1
-    old: 0000000000000000000000000000000000000000
-    new: 501cc539573a72bbf8f43344a93939f2267b75a5
+  - ref: refs/heads/for-next/hardening
+    old: 5e2956ee46244ffba1d345bae8115aa5dc199adc
+    new: 01f23c5f1526f5b6ff744887aa511b9e69d4401b
+    log: |
+         01f23c5f1526f5b6ff744887aa511b9e69d4401b usb: ch9: Replace bmSublinkSpeedAttr 1-element array with flexible array
+         
