@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9044428097581689636=="
+Content-Type: multipart/mixed; boundary="===============2171875260366540096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 05 Jul 2023 15:46:57 -0000
-Message-Id: <168857201796.2812.12219775099501791980@gitolite.kernel.org>
+Date: Wed, 05 Jul 2023 15:47:33 -0000
+Message-Id: <168857205391.3137.9044505625172467422@gitolite.kernel.org>
 
---===============9044428097581689636==
+--===============2171875260366540096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 08fc75735fda3be97194bfbf3c899c87abb3d0fe
-    new: c451410ca7e3d8eeb31d141fc20c200e21754ba4
-    log: revlist-08fc75735fda-c451410ca7e3.txt
+  - ref: refs/heads/dev-queue
+    old: f70af5d1aab699a3a7c9d29111de6a98d6d1ebc1
+    new: 58cb24478211199784aec12f0d3139cd00a31c51
+    log: revlist-f70af5d1aab6-58cb24478211.txt
 
---===============9044428097581689636==
+--===============2171875260366540096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08fc75735fda-c451410ca7e3.txt
+Content-Disposition: attachment; filename=revlist-f70af5d1aab6-58cb24478211.txt
 
 1b0fce8c8e69485e49a7d34aac3d4c2a2aa15d62 net: usb: cdc_ether: add u-blox 0x1313 composition.
 d5dc39459bdafd18ff1e93e1a86eb3e814ff9f94 docs: netdev: broaden mailbot to all MAINTAINERS
@@ -66,5 +66,29 @@ d8566d0e03922217f70d9be2d401fcb860986374 selftests: mptcp: userspace_pm: use cor
 6c8880fcaa5c45355179b759c1d11737775e31fc selftests: mptcp: depend on SYN_COOKIES
 61d9658050260dbcbf9055479b7ac5bbbe1e8831 selftests: mptcp: pm_nl_ctl: fix 32-bit support
 c451410ca7e3d8eeb31d141fc20c200e21754ba4 Merge branch 'mptcp-fixes'
+e650287000761856db03195c2d807509b24fcf5b iavf: Fix use-after-free in free_netdev
+2b67c8731fe79e00b65147b7de5d5dbcd5acfa77 iavf: Fix out-of-bounds when setting channels on remove
+8c1cbe8b819a0b908445f8c959a787fc45325a36 igc: Add condition for qbv_config_change_errors counter
+5e442bf25c5b195e43692ede217440fb44488c4c igc: Remove delay during TX ring configuration
+104a08b13136cc55f855eceb69e9df1345521f9a iavf: use internal state to free traffic IRQs
+0c3c0635aeff2060ff9de6cb2a3297a9bae155c7 igc: Fix TX Hang issue when QBV Gate is closed
+a64f4f739a2eec224747e6643fe86e01d24ca118 iavf: Wait for reset in callbacks which trigger it
+78465f16d18ae090373c8432c2c7b497e401dd6f Revert "iavf: Detach device during reset task"
+6601228c926d85762c7a665afced0149cbff17f9 Revert "iavf: Do not restart Tx queues after reset task failure"
+e391d1fcab2c57fb08cdbe7662e692a5a7742146 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+3027f275d9093fff119284b00ff28108db4099ea iavf: fix reset task race with iavf_remove()
+f553b812ff6a30e3c54233a1fe45f9516041fc37 igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+64c478e3ba8b3c96b6a608ddc40062accb2831d4 igb: fix hang issue of AER error during resume
+7035a8880d399a53581bf472e00c7920d999f256 igc: Include the length/type field and VLAN tag in queueMaxSDU
+e9300133edcf9df1d3d858a3ec8ba57d09fc289c ice: Fix max_rate check while configuring TX rate limits
+0e4a31d7c02b809bb1cc99a44b032d9b7d2395fc ice: Fix tx queue rate limit when TCs are configured
+7a6acda3f00abf13cbe387b7abe54d5a0c490f8a igc: Handle PPS start time programming for past time values
+6b89ef866a308a944246a9f37bc673b6f2edec95 igc: Rename qbv_enable to taprio_offload_enable
+ed35167d36dcc3c6d75cf88b127f69deebcc502f igc: Do not enable taprio offload for invalid arguments
+d79149fdc16cb29a9fb5d936625d502d7cf80c13 igc: Handle already enabled taprio offload for basetime 0
+036c49a5969b0f0f0f1f8b3a74c78413261a6abc igc: No strict mode in pure launchtime/CBS offload
+c3c2d1b90ac15f7b99a3907c9b27b844fa7d098b igc: Fix launchtime before start of cycle
+2b5b686d6c2f1f739a70e071a42da0094356bfe5 igc: Fix inserting of empty frame for launchtime
+58cb24478211199784aec12f0d3139cd00a31c51 igc: Fix Kernel Panic during ndo_tx_timeout callback
 
---===============9044428097581689636==--
+--===============2171875260366540096==--
