@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 05 Jul 2023 14:39:47 -0000
-Message-Id: <168856798791.18352.11856608594809025723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 05 Jul 2023 14:40:05 -0000
+Message-Id: <168856800570.20105.6562782164668636159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/test/snd_ctl_remove-lock-fix
-    old: 3495d531bce358b24b611e2f0fc22845c864a012
-    new: 9ad18619a06d551105bd84191dca5bb5295277c7
+  - ref: refs/heads/trace/core
+    old: 513f25cdf82cec8eb98b111dc0570116562391e0
+    new: fddca7db4a4c17f7333793dfb5308d80c76d2896
     log: |
-         bc79f10141641e8e43746a50d16b7428eeda49dc ALSA: ice1712: Simplify with snd_ctl_find_id_mixer()
-         0f7196cee4f8695b994ed87ae1842417059859fe ALSA: maestro3: Simplify with snd_ctl_find_id_mixer()
-         1ebb833a616b9349fd6a4863c5e43aa6dc9d7e2b ALSA: via82xx: Simplify with snd_ctl_find_id_mixer()
-         c1402c12a3c7d85bf38baf83bc3852fd0890df00 ALSA: cmipci: Simplify with snd_ctl_find_id_mixer()
-         feb803b4fff3a887fa65c11e98767ee84a001c50 ASoC: mediatek: mt8188: Simplify with snd_ctl_find_id_mixer()
-         27ad605b9bc03dfe74230fca92c630d3ac5de5ef ALSA: ac97: Simplify with snd_ctl_find_id_mixer()
-         4cb7a4ae080437598e6dd24520663e47a6f84ef3 ALSA: vmaster: Add snd_ctl_add_followers() helper
-         4efa3e6e7420a7ab8f0c3a34e05620da671dd1d5 ALSA: ac97: Use the standard snd_ctl_add_followers() helper
-         29d10b35e3ad43205631ad012ca179e7aa3046a9 ALSA: ca0106: Use the standard snd_ctl_add_followers() helper
-         9ad18619a06d551105bd84191dca5bb5295277c7 ALSA: ice1712: Use the standard snd_ctl_add_followers() helper
+         83f74441bcb16c324b7bdba0ab4261a44cb1ac21 ftrace: Show all functions with addresses in available_filter_functions_addrs
+         4998e7fda149d2392ea6aa9879299d8a32019dbe tracing/osnoise: Switch from PF_NO_SETAFFINITY to migrate_disable
+         cb7ca871c883eed5132e106cda44b2b060e6f52e tracing/osnoise: Skip running osnoise if all instances are off
+         e88ed227f639ebcb31ed4e5b88756b47d904584b tracing/timerlat: Add user-space interface
+         38638ffa6059049334b4d87bd4d85cf3418b5e27 tracing/boot: Replace strlcpy with strscpy
+         b97aec082b51a0728adc9f69494826d32e0d1f8f riscv: ftrace: Enable HAVE_FUNCTION_GRAPH_RETVAL
+         fc30ace06f250f79381a8e3f6ed92dd68e25a9f5 tracing: Fix warnings when building htmldocs for function graph retval
+         02b0095e2fbbc060560c1065f86a211d91e27b26 tracing: Fix null pointer dereference in tracing_err_log_open()
+         931a2ca6a5ba4bfa6062aa9475d4e6a835d75e83 arm64: ftrace: fix build error with CONFIG_FUNCTION_GRAPH_TRACER=n
+         fddca7db4a4c17f7333793dfb5308d80c76d2896 tracing/boot: Test strscpy() against less than zero for error
          
