@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/nolibc
-Date: Wed, 05 Jul 2023 09:00:16 -0000
-Message-Id: <168854761625.21618.4196290897955593585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/fbtest
+Date: Wed, 05 Jul 2023 09:46:23 -0000
+Message-Id: <168855038361.3891.3455988841796128397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wtarreau/nolibc
-user: wtarreau
+repo: pub/scm/linux/kernel/git/geert/fbtest
+user: geert
 changes:
-  - ref: refs/heads/20230705-nolibc-series2
-    old: 0000000000000000000000000000000000000000
-    new: 5367755868c834a1329dd6280015fe1f84685f3f
+  - ref: refs/heads/master
+    old: 47f6351b7c227308b213285d9fd3c1affa53871a
+    new: ecfa67adb269c3a230352708e12731dc63498bae
+    log: |
+         ecfa67adb269c3a230352708e12731dc63498bae Initialize ticks in benchmark()
+         
