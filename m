@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Thu, 06 Jul 2023 00:09:05 -0000
-Message-Id: <168860214593.23991.10752705171288797058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 06 Jul 2023 00:23:16 -0000
+Message-Id: <168860299604.1400.12005560957160719326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/tags/6.5-rc1-5.10
-    old: 0000000000000000000000000000000000000000
-    new: aa1da5e725e58f84703aa2b66a717c15891cf67f
-  - ref: refs/tags/6.5-rc1-5.15
-    old: 0000000000000000000000000000000000000000
-    new: ba7b05dbfaaf1a4dc55b03c9a436099ddce99f3c
-  - ref: refs/tags/6.5-rc1-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 33465ff18dda870bc282223474d7d512d56534c5
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 32a95f5a4e3b66089d84743bbec9da44020328ba
+    new: 93fc2d0f50088e8475632061960ee7cdb9756010
+    log: |
+         86f28b643294f1bd6ee13ef5258bb4051aa8a6df i2c: rzv2m: Drop extra space
+         45d5e572888dc5c92d117fb4c7f30310900bc230 i2c: rzv2m: Replace lowercase macros with static inline functions
+         93fc2d0f50088e8475632061960ee7cdb9756010 i2c: rzv2m: Disable the operation of unit in case of error
+         
