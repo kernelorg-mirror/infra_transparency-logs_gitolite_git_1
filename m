@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5481031900573541773=="
+Content-Type: multipart/mixed; boundary="===============6566682102362516205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 06 Jul 2023 02:07:33 -0000
-Message-Id: <168860925350.19098.11405988106517399617@gitolite.kernel.org>
+Date: Thu, 06 Jul 2023 02:07:45 -0000
+Message-Id: <168860926552.19298.5912964876267679699@gitolite.kernel.org>
 
---===============5481031900573541773==
+--===============6566682102362516205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: dcf9ad9d145397371ba3a5219465c77c4438215a
-    new: b86d2da9610dc1411582305eade47910878bf2d9
-    log: revlist-dcf9ad9d1453-b86d2da9610d.txt
+  - ref: refs/heads/6.5/scsi-staging
+    old: 24033d71cc36ae8af02b56ec22c7490779a9e39f
+    new: a97ccaa4f04396c594c25877fd2b78cc5baea4ed
+    log: revlist-24033d71cc36-a97ccaa4f043.txt
 
---===============5481031900573541773==
+--===============6566682102362516205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1688609243 -0400
+pusher 75C5DE3D 1688609257 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1688609243-412bce5879cd3e41c5e50ac35584b4ae873efd35
+nonce 1688609256-5ab7ba1685bf871d968c358cba1bc07618066102
 
-dcf9ad9d145397371ba3a5219465c77c4438215a b86d2da9610dc1411582305eade47910878bf2d9 refs/tags/mkp-scsi-staging
+24033d71cc36ae8af02b56ec22c7490779a9e39f a97ccaa4f04396c594c25877fd2b78cc5baea4ed refs/heads/6.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSmIdsACgkQ7ulgGnXF
-3j1a6RAAk2Ks8hDIA5E41k7ylSUqqWnitYZFYeazLOKW2HNJLF0bZvt7bFxw4CCr
-zVJ1BdbcqhAFTDJ8i9697zvlDuLiMjFGcc7gslTmdCUrW3f0SeO0A1znU7NDEY4v
-NSoSXlwpJGDa5nJNWeTMyVoZJIGCFufaSUk/KWz2n6EiIoAjhSG3Z9s2eEWWkmIt
-Hu7AWOr2wbmvM7TM25oqa4cNvTE/n1Hnbt3mxk0bbp2ECW8Qh38Sh5tWj9SX5+h7
-52HBTRDmjgixWKsr+GcF2YufpRuWuucphzqLRuylfl5OdsjSSB4KOK3QhJfWGwG3
-K8+SNlSym2NM01sXd3trOif9yQ6OpHPfzB58biHga+JjizOjn4GMN8R4VoNaWCbA
-i4A+8WSl3W6HKHk/OGtGsc7pIEsdqUhDCuOo86Q7EvDMAEgaoFr2Iv+pT855Kygk
-WfsnumYFU0dHSD6fl8bOYM3K6j5nEnVkgNPaAqWlXvUHS8cnRZB5P018MgsB8+wi
-p5ATxzvrrKO0gf3q/PMyYNl7BEk5c1ZwyytI1S0ZaR6aJK3v1/UHUmv93CxfZ2S+
-eoggxYKuBG/10Z7rtLl3URvPyHRExi+YAh2OhohoFNOsIwnuwgWxa4V0KSArzSUH
-p0wdZr6SYXbJ/gHAtNUtDluee2WCcnLc6k1VsKLpAzQylCL4XNI=
-=epr9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmSmIekACgkQ7ulgGnXF
+3j3njBAAsexF9o4JtoGSo9eoqAif/snUYhVkztbay0YG7DQ58QwCS3evUZSKlDd+
+A/pbmRTGl4aM3B9UmMwyX/ZUYJ4NoSaVpsDWWdyecCHbEZpg5U6LLZMusnDRZu0E
+7sXsqpjVYZEQxZ3DBQ4KRoGGxCnI8TpCKC1zzzS75Zv09hwYkReAADbrvlntB7L4
+NopIiQnbjflq5VPGkDCAodAOxolxjeUo2Y1/yWXWPfO1L3Rb5N3bMAsCVW7CUToF
+/6uhDIED2g5Ehvk06La94fKoBkl/yzEZ2FN6UOODffyiYnckfXwlpf06hs86loPE
+gb4HDetaeJzHuMtZ8bTFKfN+ugDMDqz/ovU5lE7AzI8QbVCaV+VEpCBVwfCbtCRA
+ar2qfQ5LbmBkLeLj/XokThiKotKWZvA4XIqhYxGuPN1GtrzjoRPuzL7MICxXJmiV
+APsDf9M6/XZfbfXQ4EjUlV5lzC95wFvfDFTYHKjOHYb1cFR/2uu/ZoYTh9mAglES
+rRSR5e30NAYSCXLannO358RoBy8zz8Fd8WQftSMI5eVYAApir0ouQu+aOBdFb1CC
+LKDAE4BRj9OE1D1VC3EmFajdu1Ea95/nl52+loex3qY/bEjAqNexh+v4pYc14M1u
+RBY1bTS+ElLrjxPdmHrQzc3rD/mEoofbcqj7ajS/9mh9tn/xpnc=
+=Z7o0
 -----END PGP SIGNATURE-----
 
---===============5481031900573541773==
+--===============6566682102362516205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcf9ad9d1453-b86d2da9610d.txt
+Content-Disposition: attachment; filename=revlist-24033d71cc36-a97ccaa4f043.txt
 
 0e881c0a4b6146b7e856735226208f48251facd8 scsi: lpfc: Fix a possible data race in lpfc_unregister_fcf_rescan()
 134f66959cd0bc90a745f2eed4c10a0519d455c4 scsi: qla2xxx: Silence a static checker warning
@@ -73,4 +73,4 @@ a3d96ed21507e8d70ddab6c7abc93d5e56aaeeb0 scsi: block: virtio_blk: Set zone limit
 03e51c4a74b91b0b1a9ca091029b0b58f014be81 scsi: block: Improve checks in blk_revalidate_disk_zones()
 a97ccaa4f04396c594c25877fd2b78cc5baea4ed Merge patch series "Improve checks in blk_revalidate_disk_zones()"
 
---===============5481031900573541773==--
+--===============6566682102362516205==--
