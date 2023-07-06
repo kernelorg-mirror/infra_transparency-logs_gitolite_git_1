@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Thu, 06 Jul 2023 17:16:30 -0000
-Message-Id: <168866379039.6064.6129392431965066761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 06 Jul 2023 17:25:31 -0000
+Message-Id: <168866433147.12425.4732208274018622084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/mgctime
+  - ref: refs/tags/perf-tools-for-v6.5-2-2023-07-06
     old: 0000000000000000000000000000000000000000
-    new: 7e6cc6b4cf24caa25625429ad4e29cd4beaf5f59
+    new: 532ff92e832604bcfa0ba7edddd6cbd714d60f76
