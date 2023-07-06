@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8227208711334800492=="
+Content-Type: multipart/mixed; boundary="===============3221728377560054272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Jul 2023 00:35:19 -0000
-Message-Id: <168860371970.11215.8862426101631907569@gitolite.kernel.org>
+Date: Thu, 06 Jul 2023 00:36:02 -0000
+Message-Id: <168860376282.11581.2673975313518829762@gitolite.kernel.org>
 
---===============8227208711334800492==
+--===============3221728377560054272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,69 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3a8a670eeeaa40d87bd38a587438952741980c18
-    new: 6843306689aff3aea608e4d2630b2a5a0137f827
-    log: revlist-3a8a670eeeaa-6843306689af.txt
+  - ref: refs/heads/dev-queue
+    old: 3b37e4e70f383ae6cd057e1c3564ce5ed2d41999
+    new: 7a6c68ff6375fe15eae2aea2a21636f7df826a14
+    log: revlist-3b37e4e70f38-7a6c68ff6375.txt
 
---===============8227208711334800492==
+--===============3221728377560054272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8a670eeeaa-6843306689af.txt
+Content-Disposition: attachment; filename=revlist-3b37e4e70f38-7a6c68ff6375.txt
 
-b20c81371a96b87478d2430d80615df189d17cd8 ASoC: Intel: sof_rt5682: Add mtl support RT1019P speaker
-97ae6f4e5dd3bc7873ee70c864ab2ba2e8bff0c3 ASoC: dt-bindings: qcom,wsa8840: Add WSA884x family of speakers
-aa21a7d4f68a0a5067578cbb93c136ab5ac09cfa ASoC: codecs: wsa884x: Add WSA884x family of speakers
-6ab11462c68499933bd9b5d52a710f4e18a9e43e ASoC: fsl-asoc-card: Allow passing the number of slots in use
-612616e6381929e7f9e303f8b8ad3655cc101516 dt-bindings: clock: add mtmips SoCs system controller
-6f3b15586eef736831abe6a14f2a6906bc0dc074 clk: ralink: add clock and reset driver for MTMIPS SoCs
-ffcdf47379eae86dc8f8f02c62994dacf2c9038e mips: ralink: rt288x: remove clock related code
-daf73c70f69386fb15960526772ef584a4efcaf2 mips: ralink: rt305x: remove clock related code
-7cd1bb48885449a9323c7ff0f10012925e93b4e1 mips: ralink: rt3883: remove clock related code
-04b153abdfcbaba70ceef5a846067d4447fd0078 mips: ralink: mt7620: remove clock related code
-201ddc05777cd8e084b508bcdda22214bfe2895e mips: ralink: remove reset related code
-ad38c17b0c26ae2108b50ac1eb0281a2e1ce08e9 mips: ralink: get cpu rate from new driver code
-fc15a7193a4d37d79e873fa06cc423180ddd2ddf MAINTAINERS: add Mediatek MTMIPS Clock maintainer
-9f9a035e6156a57d9da062b26d2a48d031744a1e mips: pci-mt7620: do not print NFTS register value as error log
-89ec9bbe60b61cc6ae3eddd6d4f43e128f8a88de mips: pci-mt7620: use dev_info() to log PCIe device detection result
-fd99ac5055d4705e91c73d1adba18bc71c8511a8 mips: ralink: introduce commonly used remap node function
-cf971df2cb464efcb27b943e9caa53a8097c72e4 ARM: multi_v7_defconfig: update MFD_RK808 name
-ffd791349859c47c50e1e423295b4f8912c45ee0 arm64: defconfig: update RK8XX MFD config
-2b24391767ae6897dff6eeb521f01d495bc27b55 arm64: defconfig: Enable Rockchip I2S TDM and ES8316 drivers
-ee44484c12edcf9ad81c816d383f28b63c712fdb Merge tag 'at91-dt-6.5-2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/dt
-ca2fb05cb7e41d7f8b7399adbc2e71016483efad ARM: dts: allwinner: Use quoted #include
-86684c2481b6e6a46c2282acee13554e34e66071 ARM: dts: Add .dts files missing from the build
-6a1d798feb65d2a67e6e2cafb0b0e4f430603226 kbuild: Support flat DTBs install
-fed14be476f075a523fd4addfee07cb2f8dc1971 RISC-V: simplify register width check in ISA string parsing
-2ac874343749b76e069cff5fea09c49e0bd365a0 RISC-V: split early & late of_node to hartid mapping
-069b0d51707721d5ab2001df866b66b82e4c1c35 RISC-V: validate riscv,isa at boot, not during ISA string parsing
-6b913e3da87da1be57096c068b4d2e7d4b31f457 RISC-V: rework comments in ISA string parser
-7816ebc1ddd16b5cc95febb75f778bf88411a365 RISC-V: remove decrement/increment dance in ISA string parser
-1e5cae98e46d15f4dc7c675e1bd0ed2172ea181c dt-bindings: riscv: explicitly mention assumption of Zicntr & Zihpm support
-07edc32779e3dfe164970fc254291258277219c9 RISC-V: always report presence of extensions formerly part of the base ISA
-9a096a813ac29ea6a92f21b8519e36e15fe5843f dt-bindings: mfd: gateworks-gsc: Remove unnecessary fan-controller nodes
-944ee77dc6ec7b0afd8ec70ffc418b238c92f12b HID: hidraw: fix data race on device refcount
-27a826837ec9a3e94cc44bd9328b8289b0fcecd7 serial: atmel: don't enable IRQs prematurely
-a82d62f708545d22859584e0e0620da8e3759bbc Revert "8250: add support for ASIX devices with a FIFO bug"
-777e456852f729fa2942187a43a8eafbaecc6876 tty_audit: use TASK_COMM_LEN for task comm
-e1488513abee9f34a7d0f3bd57ee65d2a7e13426 tty_audit: use kzalloc() in tty_audit_buf_alloc()
-94f94810efc4b4b337c9f2abc8b0188cef5ccb9b tty_audit: invert the condition in tty_audit_log()
-3e540a7bad8534a9b8845defa051834c9694d86c tty_audit: make icanon a bool
-e64ed44bce43e003dd154c0bc418a431c15bdf77 tty_audit: make tty pointers in exposed functions const
-e534755c9412be07f579acd2947401a9f87a33c8 tty_audit: make data of tty_audit_log() const
-aed1a2a5a6a2aa67095c103b497d05cd322c8713 Merge tag 'thunderbolt-for-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-25a2bc21c86392223142dcbd5bc92e598a950678 usb: typec: ucsi: call typec_set_mode on non-altmode partner change
-c7054c31c1c94dbfe0ddf7c327f72f020d47c6c9 usb: typec: fsa4480: rework mux & switch setup to handle more states
-ef1e29c6f6ad1e327d07b078e37a1eddd832e8e4 usb: typec: fsa4480: add support for Audio Accessory Mode
-ff399bab86382c896c3922a570884bba287eb465 usb: gadget: legacy: fix error return code in gfs_bind
-724418b84e6248cd27599607b7e5fac365b8e3f5 ALSA: hda/realtek: Add quirks for ROG ALLY CS35l41 audio
-d0dd594bedc57f9be2af2af170bf56f9c3f2376e nvme: Print capabilities changes just once
-9d16d264775b9a10f3f5b5db768d7f51294b2a63 nvmet: Reorder fields in 'struct nvmet_ns'
-147394dbe1237ef1f2da528c238633215f7193e1 RDMA/bnxt_re: Initialize opcode while sending message
-24ce94782c4878fe25ff15d8c08088a6ca5810e1 RDMA/bnxt_re: Use the common mmap helper functions
-390bf429cc6ce6844f834b1d9ddfbc1125aff1fc RDMA/bnxt_re: Add disassociate ucontext support
-7d3115eba3e3eef6e0cbe65f05285c5ab28360d7 RDMA/bnxt_re: Optimize the bnxt_re_init_hwrm_hdr usage
 ba75fe7b500e71aff8bc3b7096c4ce1dcc649eb3 RDMA/bnxt_re: Query function capabilities from firmware
 3fe9882fbb50eeb724504df5979e9140f8842f76 RDMA/bnxt_re: Move the interface version to chip context structure
 0ac20faf5d837b59fb4c041ea320932ed47fd67f RDMA/bnxt_re: Reorg the bar mapping
@@ -1050,5 +998,57 @@ ace1ba1c9038b30f29c5759bc4726bbed7748f15 Merge tag 'pwm/for-6.5-rc1' of git://gi
 bb8e7e9f0bc47d01bea310808ab8c27f6484d850 Merge tag 'xfs-6.5-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 73a3fcdaa73200e38e38f7e8a32c9b901c5b95b5 Merge tag 'f2fs-for-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 6843306689aff3aea608e4d2630b2a5a0137f827 Merge tag 'net-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+4a1c9d144f634b966f7324049e21f26aacf578c7 iavf: Fix use-after-free in free_netdev
+8a5222ea96a94520676a612323491d8b609f5254 iavf: Fix out-of-bounds when setting channels on remove
+f4ced279f21ec32f7220261fba6d248f22045820 igc: Add condition for qbv_config_change_errors counter
+b12690327348412366201029f7d85891334e3199 igc: Remove delay during TX ring configuration
+ae647831794eadf7e80a9db9af936314964f0306 iavf: use internal state to free traffic IRQs
+1d3593c072be27cbd2674b4b4c8800ea32628afb igb: fix hang issue of AER error during resume
+39aa48953be142cbe240eaef1213d16a82e6248b igc: Fix TX Hang issue when QBV Gate is closed
+fb408903bd262f3fecb88b5012bed7c3ed625f7f iavf: Wait for reset in callbacks which trigger it
+ee9b7d9e11c997cc367f1867a78eabfe118fb434 Revert "iavf: Detach device during reset task"
+ba6a28789503e3b9e099d14b445de86f742fffc9 Revert "iavf: Do not restart Tx queues after reset task failure"
+f62812ee728e65e4e95691818a063f62bf00ace8 iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+38759bd6a59af50c059fe6529610e038491eff0e iavf: fix reset task race with iavf_remove()
+81f83b64b6bb85bdeba7121f42de94d0531da98b igc: set TP bit in 'supported' and 'advertising' fields of ethtool_link_ksettings
+6eb189116debe3752dc2751b80eefe2c6d72b745 e1000e: Use PME poll to circumvent unreliable ACPI wake
+4919639a16fb1948f0094dfeb58bfb8e29b19697 ip_tunnel: use a separate struct to store tunnel params in the kernel
+9669eecf2c267c21861d96d59ce4f02ff4a18f48 ip_tunnel: convert __be16 tunnel flags to bitmaps
+b4b82c37ffa9dca53250ebbd4f4e41ba2861f25f pfcp: add PFCP module
+76918bfd2da17029c1877a72aafc398689123e1e pfcp: always set pfcp metadata
+0215519005689d60aaf83d5fecc0b34069a5a5b1 ice: refactor ICE_TC_FLWR_FIELD_ENC_OPTS
+9a5590db116d0b1d0ef70e4e023f7e78e33382c5 ice: Add support for PFCP hardware offload in switchdev
+3ee637132502c787b0e2703713ab62e14d57dffa ice: clean up __ice_aq_get_set_rss_lut()
+61b3da0981bcc9b4814a58d5cbbbaa59bb2affc7 igc: Include the length/type field and VLAN tag in queueMaxSDU
+68242b86f89274f1f6a6fb25c8866450b7838ce5 ice: Fix max_rate check while configuring TX rate limits
+917e4c2cb4e91771d070e2b60a0b72f9e30cea5b ice: Fix tx queue rate limit when TCs are configured
+ccffd2945cf8626d7abe5be9f9f6e2b7c55078fd i40e: Add helper for VF inited state check with timeout
+28f0df7048599ddbd761ca76809cfc674605a6df i40e: Wait for pending VF reset in VF set callbacks
+18886d04da0779a7531d78aa5084f6d2d96bd657 igc: Handle PPS start time programming for past time values
+5e76c314a3b3ffced8ad9de029a6ef3d0094a797 igc: Rename qbv_enable to taprio_offload_enable
+6d6de0a52b7b9a04ae40922d22ddc1891e1e2534 igc: Do not enable taprio offload for invalid arguments
+38d2a0302233a6e8ddad08207542fb263fae87d3 igc: Handle already enabled taprio offload for basetime 0
+6fd4fe205938821b8e72288dd30206d681e87359 igc: No strict mode in pure launchtime/CBS offload
+ca64bf362e198cb1fac47d8a6b14b48b779e4f79 igc: Fix launchtime before start of cycle
+bd152e0b44fcd3545aca5b90ece811ba58cee81e igc: Fix inserting of empty frame for launchtime
+a24414eb47e64362f5754c878b18675a3ff7c025 igc: Add TransmissionOverrun counter
+1b8bfe844d7fb9d694b82672e8fa24cd8cd7dfa5 ice: Correctly initialize queue context values
+6ecf5cc0592c7727ba1aff756722118fe76540b9 ice: Add driver support for firmware changes for LAG
+e55e4ca6d01fef8e0e6241b17ad6d5aa889300de ice: changes to the interface with the HW and FW for SRIOV_VF+LAG
+01f58058f6eaaa1a1429a92e214504f0ca86fdb1 ice: implement lag netdev event handler
+61e16843bc813c3a7aca2a6459e02bffc7df2c23 ice: process events created by lag netdev event handler
+23b1fb72a5e549a123def453c35610bcf7e7d8f9 ice: Flesh out implementation of support for SRIOV on bonded interface
+dd70dcf1b13bee321112fd7623bc276d46e9acb0 ice: support non-standard teardown of bond interface
+212495e3c09593497c9205552d04017338872a60 ice: enforce interface eligibility and add messaging for SRIOV LAG
+b879beda48f749ffa4a7bc7328812a9e0b1eafe2 ice: enforce no DCB config changing when in bond
+36ddcd2360eaa109bc28e49c54bbf5fd83973e08 ice: update reset path for SRIOV LAG support
+504d5c8a0271f3cf7f9a1555268772041b55e6b8 ice: Add direction metadata
+e47025b9c6c4bccf62541e3aa346d2b2f6ee3ad8 ice: Rename enum ice_pkt_flags values
+0c34517c5db51839b3ba06ed87ee0dd427636a33 ice: remove FW logging code
+fd6335f470a31491375fbb0bc5a104b0fb06fced ice: configure FW logging
+ee2744e41fd12dea5335675064c28554f413e91d ice: enable FW logging
+f0fb07f2b087bb85a87853953f8f913f8711a28a ice: add ability to read FW log data and configure the number of log buffers
+400b2c123ff5c6d8cefca98662a31aea4a5e063f ice: add documentation for FW logging
+7a6c68ff6375fe15eae2aea2a21636f7df826a14 igc: Prevent garbled TX queue with XDP ZEROCOPY
 
---===============8227208711334800492==--
+--===============3221728377560054272==--
