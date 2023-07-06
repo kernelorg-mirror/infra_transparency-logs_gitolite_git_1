@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 06 Jul 2023 23:18:42 -0000
-Message-Id: <168868552210.9949.10245665667413026459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
+Date: Thu, 06 Jul 2023 23:37:43 -0000
+Message-Id: <168868666324.24308.5709514445818416656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/aegl/linux
+user: aegl
 changes:
-  - ref: refs/heads/dev
-    old: 76425c895e659e1f74cffdda912d9b72cb320bcd
-    new: 7fa5e38eb7da0666f9c70dd4382e8052a777e0aa
+  - ref: refs/heads/resctrl2_v64
+    old: 26b4ee60389ad3a5294d0927cc5417e78be499e0
+    new: ae4a417f18e2317ad0ffbbf1b2a337277d9cd212
     log: |
-         2d26335616ae349ea0525ab31126aa90367b6353 fixup! torture: Place --bootargs parameters at end of -append list
-         89c79a100de443cc6f977745438bfef96bbe7a18 refscale: Add CONFIG_PREEMPT_DYNAMIC=n to NOPREEMPT scenario
-         7fa5e38eb7da0666f9c70dd4382e8052a777e0aa rcuscale: Add CONFIG_PREEMPT_DYNAMIC=n to TRACE01 scenario
+         ae4a417f18e2317ad0ffbbf1b2a337277d9cd212 resctrl2: CPU hot plug fixes
          
