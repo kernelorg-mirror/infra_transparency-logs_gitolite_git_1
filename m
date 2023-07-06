@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 06 Jul 2023 16:58:37 -0000
-Message-Id: <168866271792.23986.14092890382923734685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Thu, 06 Jul 2023 17:16:30 -0000
+Message-Id: <168866379039.6064.6129392431965066761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/b4/vfs-delegate-superblock
+  - ref: refs/heads/mgctime
     old: 0000000000000000000000000000000000000000
-    new: f75fd44f685ec3c3cee10e6bd5e569a34b033f61
+    new: 7e6cc6b4cf24caa25625429ad4e29cd4beaf5f59
