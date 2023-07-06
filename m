@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5320214587919007830=="
+Content-Type: multipart/mixed; boundary="===============6089674076460250145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Thu, 06 Jul 2023 00:05:58 -0000
-Message-Id: <168860195824.21429.9718819297596220817@gitolite.kernel.org>
+Date: Thu, 06 Jul 2023 00:06:13 -0000
+Message-Id: <168860197380.21606.4785480509708057827@gitolite.kernel.org>
 
---===============5320214587919007830==
+--===============6089674076460250145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,61 +15,62 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 3b772494fda938edf9f694c6971bd371670573ed
-    new: ba7b05dbfaaf1a4dc55b03c9a436099ddce99f3c
-    log: revlist-3b772494fda9-ba7b05dbfaaf.txt
+  - ref: refs/heads/linux-6.1.y
+    old: ed1265d5854d66863140693309c5e3cacfbe19a6
+    new: 33465ff18dda870bc282223474d7d512d56534c5
+    log: revlist-ed1265d5854d-33465ff18dda.txt
 
---===============5320214587919007830==
+--===============6089674076460250145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b772494fda9-ba7b05dbfaaf.txt
+Content-Disposition: attachment; filename=revlist-ed1265d5854d-33465ff18dda.txt
 
-6bd7922961453ce74dac8ab5f1ee2e1b0dc82c3e ext4,f2fs: fix readahead of verity data
-ada15ba4110c97e5d7422d72acdbfaea54e7ae65 f2fs: support errors=remount-ro|continue|panic mountoption
-1a1e808ffa9a7b0ff9d185249b6e2e183d88f5ad f2fs: add sanity check for proc_mkdir
-365735ea8de44eccc08f3eed726166ca0d6a7f26 f2fs: do not allow to defragment files have FI_COMPRESS_RELEASED
-aa5e0f03e2e74465eca785884da84fee578355a8 f2fs: remove some dead code
-97489cfc6a6ac246ca0d3040febaee68d6f65e20 f2fs: maintain six open zones for zoned devices
-27fb83846b97dc059bf6db10cfb8d67b48e9a262 f2fs: fix the wrong condition to determine atomic context
-53ebb65aabde459510a951236f4af0aef182360d f2fs: close unused open zones while mounting
-31fad17428235cfb25a48572207c9b0866f211d8 f2fs: Fix over-estimating free section during FG GC
-681cb1c30b4e4c3b4d63bcc3d57b8f37f2c7657d f2fs: fix potential deadlock due to unpaired node_write lock use
-7949815e02fb676657013dcbb70470b8f51b6f28 f2fs: renew value of F2FS_MOUNT_*
-57379467d5c0ab1290f0e32af205782999484036 f2fs: renew value of F2FS_FEATURE_*
-932be402738306236ddecd613840da35a9fc0d8f f2fs: fix to set noatime and immutable flag for quota file
-eda4febc1b75ddda053e3b929dd094e247be8637 f2fs: clean up w/ sbi->log_sectors_per_block
-00fd4eb81831997c0d8213c894f71e073cc3ed3f f2fs: fix to avoid NULL pointer dereference f2fs_write_end_io()
-57e2bdd335a4113e8f89fb0477c5ca0a1eb9037c f2fs: don't reset unchangable mount option in f2fs_remount()
-9b0c8088558281abb3c2bdbfab6e2eb8b9b95f98 f2fs: flush error flags in workqueue
-382554d42fae887ac1addc15e9d18ec0626797e5 f2fs: add async reset zone command support
-03edec89c67a92e161e4f75ef02d32cba4ba1b97 f2fs: Detect looped node chain efficiently
-29b1be83ef174b6af480ee0c7b11c0b82edc0645 f2fs: fix to drop all dirty meta/node pages during umount()
-7a38e1257d9cfb783ce8932829e46b4fc0eea8c6 f2fs: flag as supporting buffered async reads
-5b5432c13b1bd0854889013caec79325196a8e20 f2fs: fix args passed to trace_f2fs_lookup_end
-6aa620b1c49b71073c41056bcae5a738a709fa7c f2fs: avoid dead loop in f2fs_issue_checkpoint()
-48bb83025b9be15a53a9935b4b0ee7c4e05cdce6 f2fs: check return value of freeze_super()
-b14d4fde15ed0fca5694145e17b0868f0ec1ed84 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
-62be4397fb8deacae8ae010c669983cb3b27f9c2 f2fs: assign default compression level
-e77962a0e96e86d1880b4d78f66cf4bb49dc4646 f2fs: add sanity compress level check for compressed file
-8efd792ca399c36278713ba10ef63b89b323f765 f2fs: compress: fix to check validity of i_compress_flag field
-2e7b63c630c756aac9ee5e96f781d13d63509cf8 f2fs: do more sanity check on inode
-8a71ef6632c2bedad4a901e07ad85f2b91766d32 f2fs: add helper to check compression level
-614b96a8f9fdb980f4543bae232fd267c2c8e79a f2fs: cleanup MIN_INLINE_XATTR_SIZE
-8961adb34d18a95133747daee034ee83ab3ec491 f2fs: add f2fs_ioc_get_compress_blocks
-bf857b29dfdae282ca598fa530cb8251f654ce41 f2fs: check zone write pointer points to the end of zone
-f53b12d6e43d87ed55b5522b5078d1b4d334d228 f2fs: do not issue small discard commands during checkpoint
-e8c3811cb1719622adcaad16bc68fe7b4dd2c347 f2fs: remove redundant assignment to variable err
-a52d59f7255bec1a50dc07e54af3ccf2fcef6257 f2fs: convert to use sbi directly
-151f3621e98cc9e9d17c44a2f7b14d39d3dd7460 f2fs: refactor struct f2fs_attr macro
-70402cdb7279f03c0b8ab94db69eb247f326a33c f2fs: compress tmp files given extension
-d6eb7ccd684ee61d04068bb1c61495477ae40d78 f2fs: update mtime and ctime in move file range method
-876ecae3b1d14995c34cdd2be427390dab4ef1d8 f2fs: remove unneeded page uptodate check/set
-82d8a4f642421ece594542e1fabc689dcb094b1a f2fs: fix deadlock in i_xattr_sem and inode page lock
-d3b387448d360ac4650e840d68f9536872ae1e16 f2fs: fix error path handling in truncate_dnode()
-cd064f0a9b46e97a907808be626c21c981bf7735 f2fs: fix compile warning in f2fs_destroy_node_manager()
-213ddb424fea6e71b297f430b776c75b8df3c3e7 f2fs: only set release for file that has compressed data
-ba7b05dbfaaf1a4dc55b03c9a436099ddce99f3c f2fs: fix to do sanity check on direct node in truncate_dnode()
+f833623cf017b251d3d9d52fa43e5fd92f3a1ea6 f2fs: support errors=remount-ro|continue|panic mountoption
+c057bac28937e9ae3f3f7989f7386e32e9fcb2ed f2fs: add sanity check for proc_mkdir
+8f01384848e733cffa208fc5ad090e6f69e27d8a f2fs: do not allow to defragment files have FI_COMPRESS_RELEASED
+3e1a5a8d7022cb9506b8250d1b1b97357d639e1c f2fs: remove redundant goto statement in f2fs_read_single_page()
+a7685b0a88670aaeadc53f28fd43d67912617b3c f2fs: remove some dead code
+40040d97ae883ee146c35c974230d4665580d9ac f2fs: maintain six open zones for zoned devices
+2782e1ac256fe4b5039a90ead1f685abfd327627 f2fs: fix the wrong condition to determine atomic context
+3e42d0a6401287f73942d0dbda5c5bcb318e7392 f2fs: close unused open zones while mounting
+595f23303c86a1f6f2d4f22fd920c87d13e93b4e f2fs: Fix over-estimating free section during FG GC
+b4d93f2bfe8060136bbbd4d23082229eb32d4855 f2fs: fix potential deadlock due to unpaired node_write lock use
+e65842c8faba880a5fd763193ec6b373ed2d133f f2fs: renew value of F2FS_MOUNT_*
+ca5fc30d9f4ba03bafa7dd00e14c1d0a6930c336 f2fs: renew value of F2FS_FEATURE_*
+b7c493d73be115e86f85c330f532887c97e4db64 f2fs: fix to set noatime and immutable flag for quota file
+0f4539f14f0f8105c040d80381661cde667f04eb f2fs: clean up w/ sbi->log_sectors_per_block
+bbb9f8d8d2692727f227e9d720114623189f167b f2fs: fix to avoid NULL pointer dereference f2fs_write_end_io()
+67fadd326180b5d157f16cc3a84f5897055d9e06 f2fs: don't reset unchangable mount option in f2fs_remount()
+4d5fafc42b9c7f05bfa892bd32d67e1d743f7d3d f2fs: flush error flags in workqueue
+9da2eab4c5bdd94f00bb8f0cb119c72e10d73d96 f2fs: add async reset zone command support
+220f2550c30ff08ac690649c652d2451ae2b72fc f2fs: Detect looped node chain efficiently
+061ca6292f16e1f5a882b3943011a5f266e094c8 f2fs: fix to drop all dirty meta/node pages during umount()
+f901ca96e1efc1283d791d16549db507868b9b56 f2fs: flag as supporting buffered async reads
+3ac2117fac6065aa54cd4ad0e3e686d11cde6b02 f2fs: fix args passed to trace_f2fs_lookup_end
+fe151c0b7efb11035bb2cc7376ed20b850cdc1a8 f2fs: avoid dead loop in f2fs_issue_checkpoint()
+09135a6503dda2ff57de18e6a6044da4da3b23ce f2fs: check return value of freeze_super()
+da8c6280cef39625c9fede315b6daa4bc094f19d f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
+32b91c5ac867e233fe00f1c7854472fca03028e8 f2fs: assign default compression level
+d0cbf1baf1302abac750f9033b95b0a62c9fc88a f2fs: add sanity compress level check for compressed file
+a9fd05c0ff6a12c8f0099b43ecb96fda4b01d838 f2fs: compress: fix to check validity of i_compress_flag field
+8e15202387bfd5fb24425338b9c309813eed20be f2fs: do more sanity check on inode
+b42890dd185c4e83122ba5ecd1c8ec1303ae69b2 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+a44a38bdf0cd99cf96740193b28cb02d868b15bf f2fs: add helper to check compression level
+830f301b4fab44728a02a817de562625660836c0 f2fs: cleanup MIN_INLINE_XATTR_SIZE
+db30dd5daf9a5d80215800d03a05864c76217623 f2fs: add f2fs_ioc_get_compress_blocks
+4403558f1339ae412c98456721ffb545172c386f f2fs: check zone write pointer points to the end of zone
+fe1caa770211d9b0ab713733b4002a92294f93df f2fs: do not issue small discard commands during checkpoint
+62f019ebde7c843b3b88739972c612d3b772ea26 f2fs: remove redundant assignment to variable err
+17bb71cd73f140e989669e60ad80420f9c94d440 f2fs: convert to use sbi directly
+f3522d568d40ee383c7d70cc5b9c984cc9872f5c f2fs: refactor struct f2fs_attr macro
+c64709037cb5079d8c6915bd728bbf195a998557 f2fs: compress tmp files given extension
+0fff3a1a2859df30503de1e9403f3cb3bdbd9dad f2fs: update mtime and ctime in move file range method
+db4a0d1bd1751a1913277d73478828b3ec1891cf f2fs: remove unneeded page uptodate check/set
+53b7ce1c495d8e83d2e56d404f169199ed48c6b5 f2fs: fix deadlock in i_xattr_sem and inode page lock
+b6482341ddc22fd06afe649473895b4fff0b5670 f2fs: fix error path handling in truncate_dnode()
+d6e7baf820f4d0b0234432bbd1c3b7c0cf9cb7db f2fs: fix compile warning in f2fs_destroy_node_manager()
+8e2703a8641af452d91e78332e80910dd22afb05 f2fs: only set release for file that has compressed data
+33465ff18dda870bc282223474d7d512d56534c5 f2fs: fix to do sanity check on direct node in truncate_dnode()
 
---===============5320214587919007830==--
+--===============6089674076460250145==--
