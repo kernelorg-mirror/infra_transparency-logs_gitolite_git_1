@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 06 Jul 2023 17:44:38 -0000
-Message-Id: <168866547859.25969.4305045295826608417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Thu, 06 Jul 2023 17:51:22 -0000
+Message-Id: <168866588262.31608.7282403637209910118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/acpi
-    old: b5539eb5ee70257520e40bb636a295217c329a50
-    new: 2e178ee13b02d95c7380f6a21149de535ccdfc7f
+  - ref: refs/heads/overlayfs-next
+    old: 0e071a141517fa67f742e748907b6fd1715cbdb0
+    new: 1062ac73265a31ca952566ff4a2a6573d7c80c88
     log: |
-         7ba6b73db3dbe6cf365a8122e4ce36559a7714cc ACPI: scan: Move acpi_root to internal header
-         86fca926c042138c7defc94e1b55b5f29ca4fa13 ACPI: bus: Constify acpi_companion_match() returned value
-         90f6af81604c7f831273c08ac9994d0d0724b553 ACPI: scan: fix undeclared variable warnings by including sleep.h
-         2b5ae9604949391da6661eab0a854de4ecd140f6 ACPI: bus: Introduce acpi_match_acpi_device() helper
-         cefbd80bf52c791fede129ab5cf8be6ed9e8ce38 ACPI: platform: Ignore SMB0001 only when it has resources
-         bf6067a6caa6717c40156fd8dfa443fd568c193a ACPI: platform: Move SMB0001 HID to the header and reuse
-         59e8d4bb8d485a3c125dc1c66439dde589b9d9cd ACPI: scan: Use the acpi_match_acpi_device() helper
-         2e178ee13b02d95c7380f6a21149de535ccdfc7f Merge branches 'acpi-bus' and 'acpi-scan'
+         a1645f3d0fda5a40691f74a2389e62a45d66b7ef ovl: add support for unique fsid per instance
+         c012884bf11638b7da468126e166df182b689d01 ovl: store persistent uuid/fsid with uuid=on
+         1062ac73265a31ca952566ff4a2a6573d7c80c88 ovl: auto generate uuid for new overlay filesystems
          
-  - ref: refs/tags/acpi-6.5-rc1-3
-    old: 0000000000000000000000000000000000000000
-    new: ffb98810309fdd4a0913d64c878ea52da87d19c7
