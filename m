@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 06 Jul 2023 13:13:25 -0000
-Message-Id: <168864920536.24988.6202782031548715479@gitolite.kernel.org>
+Date: Thu, 06 Jul 2023 13:27:16 -0000
+Message-Id: <168865003691.2255.18211678109207492732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
   - ref: refs/heads/kvm-arm64/nv-fgt-wip
-    old: be9b585194bd0f828ade7e4c72178ce7ca7bcaa9
-    new: 3b4eec5debd641bc6e601c4be258f4727abd886a
+    old: 3b4eec5debd641bc6e601c4be258f4727abd886a
+    new: daf96054697428aa68c87db81dd3988fcf2e4bd8
     log: |
-         3b4eec5debd641bc6e601c4be258f4727abd886a encoding fixes
+         daf96054697428aa68c87db81dd3988fcf2e4bd8 fix LOR FGTs
          
