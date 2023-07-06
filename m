@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 06 Jul 2023 23:06:12 -0000
-Message-Id: <168868477250.532.14121726529910746886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 06 Jul 2023 23:18:42 -0000
+Message-Id: <168868552210.9949.10245665667413026459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 0d28e1abb80192be82ad4033f671d7a8d1755794
-    new: 56baeeba0a355ecf4d0c71bfbb1d5ba09501dbfc
+  - ref: refs/heads/dev
+    old: 76425c895e659e1f74cffdda912d9b72cb320bcd
+    new: 7fa5e38eb7da0666f9c70dd4382e8052a777e0aa
     log: |
-         8a3fe76f8718bad4056d665bee1a0c43d128af72 libbpf: Cross-join available_filter_functions and kallsyms for multi-kprobes
-         56baeeba0a355ecf4d0c71bfbb1d5ba09501dbfc libbpf: Use available_filter_functions_addrs with multi-kprobes
+         2d26335616ae349ea0525ab31126aa90367b6353 fixup! torture: Place --bootargs parameters at end of -append list
+         89c79a100de443cc6f977745438bfef96bbe7a18 refscale: Add CONFIG_PREEMPT_DYNAMIC=n to NOPREEMPT scenario
+         7fa5e38eb7da0666f9c70dd4382e8052a777e0aa rcuscale: Add CONFIG_PREEMPT_DYNAMIC=n to TRACE01 scenario
          
