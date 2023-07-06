@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0396107358177142801=="
+Content-Type: multipart/mixed; boundary="===============9033199103075039612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 06 Jul 2023 05:06:43 -0000
-Message-Id: <168862000327.18512.14763122223864460069@gitolite.kernel.org>
+Date: Thu, 06 Jul 2023 05:06:54 -0000
+Message-Id: <168862001493.18642.9236434402327062910@gitolite.kernel.org>
 
---===============0396107358177142801==
+--===============9033199103075039612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: dfab92f27c600fea3cadc6e2cb39f092024e1fef
     new: c17414a273b81fe4e34e11d69fc30cc8b1431614
     log: revlist-dfab92f27c60-c17414a273b8.txt
 
---===============0396107358177142801==
+--===============9033199103075039612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bb8e7e9f0bc47d01bea310808ab8c27f6484d850 Merge tag 'xfs-6.5-merge-5' of git://gi
 7afb9d76bc513cb8a2409092dbd3610524a198fe Merge tag 'phy-for-6.5_v2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 c17414a273b81fe4e34e11d69fc30cc8b1431614 Merge tag 'sh-for-v6.5-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 
---===============0396107358177142801==--
+--===============9033199103075039612==--
