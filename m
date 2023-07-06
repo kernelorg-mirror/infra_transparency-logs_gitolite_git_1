@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 06 Jul 2023 19:19:05 -0000
-Message-Id: <168867114514.29412.2395491550173974758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 06 Jul 2023 19:35:44 -0000
+Message-Id: <168867214418.9250.17534100464101099207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dev
-    old: 27bd123bbe8b425a6c15a280c2d774dfe6c11006
-    new: c8db5e05c81f4f1863cab71aac9aeab51d8fe57e
+  - ref: refs/heads/main
+    old: ee91452dac5abfc4c5b9827cf55e701d8c0ca678
+    new: 9e0343cf9231c1d77ebd8137bc94beebc3a06c57
     log: |
-         c8db5e05c81f4f1863cab71aac9aeab51d8fe57e checkpatch: Complain about unexpected uses of RCU Tasks Trace
+         9e0343cf9231c1d77ebd8137bc94beebc3a06c57 check_whence: Check link targets are valid
          
