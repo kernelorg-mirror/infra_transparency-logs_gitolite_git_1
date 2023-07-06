@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 06 Jul 2023 18:32:25 -0000
-Message-Id: <168866834511.27599.12219531575680934704@gitolite.kernel.org>
+Date: Thu, 06 Jul 2023 18:32:43 -0000
+Message-Id: <168866836315.27842.8740131875876374897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 6f0a92fd7db1507b203111ee53632eeeba2daca5
-    new: 24033d71cc36ae8af02b56ec22c7490779a9e39f
+  - ref: refs/heads/for-next
+    old: c725787c2bdfbb89cb8cc7b2b35939bdf330c7ff
+    new: e0d21060a8f63582e15f94c9bd613d449791655c
     log: |
          4e45236982bcc3ce8a0ea719e1159cc5c935eb94 scsi: isci: Fix comment typo
          71e3e85ccf2b816e612c94b7460309dc5007caef scsi: core: Simplify scsi_cdl_check_cmd()
@@ -21,4 +21,5 @@ changes:
          40863cb945c93a55aeaf8a2fd2bef1c7507ee8f2 scsi: target: iblock: Quiet bool conversion warning with pr_preempt use
          7bcf57782503b7025941372863a20e2587483baf scsi: target: docs: Remove tcm_mod_builder.py
          24033d71cc36ae8af02b56ec22c7490779a9e39f scsi: ufs: core: Remove unused function declaration
+         e0d21060a8f63582e15f94c9bd613d449791655c Merge branch 'misc' into for-next
          
