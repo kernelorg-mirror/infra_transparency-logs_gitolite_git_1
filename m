@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 07 Jul 2023 15:28:43 -0000
-Message-Id: <168874372357.14013.2887089721533867479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 07 Jul 2023 15:43:46 -0000
+Message-Id: <168874462681.25409.12167218891876722601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/riscv-for-linus-6.5-mw2
-    old: 0000000000000000000000000000000000000000
-    new: 5b68423f8aef18bddec010173fab4fd0a126f80c
+  - ref: refs/heads/b4/vfs-delegate-superblock
+    old: f75fd44f685ec3c3cee10e6bd5e569a34b033f61
+    new: 0ba8b43791d5073cf5334fcc686d303224e207d9
+    log: |
+         0ba8b43791d5073cf5334fcc686d303224e207d9 fs: add generic "delegate" mount option
+         
