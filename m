@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 07 Jul 2023 06:29:46 -0000
-Message-Id: <168871138648.32743.18065565949405226622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 07 Jul 2023 07:15:40 -0000
+Message-Id: <168871414068.2855.11267667299905494482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: e15fae5e388d3b2e04e2cbfdb812ef2af9fb7e54
-    new: c1cd7a7a231a26c61534ae0ced078c8faa39c2a0
+  - ref: refs/heads/master
+    old: 2e29e2e219182969cc3281db05471111046efe40
+    new: d20ee35fb8f0b72e9ea034a81190c8d9e0086d4b
     log: |
-         c1cd7a7a231a26c61534ae0ced078c8faa39c2a0 fbdev: imxfb: Convert to devm_platform_ioremap_resource()
+         d20ee35fb8f0b72e9ea034a81190c8d9e0086d4b Fri Jul  7 07:12:01 AM UTC 2023
          
