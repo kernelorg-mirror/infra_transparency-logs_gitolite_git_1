@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 07 Jul 2023 07:15:40 -0000
-Message-Id: <168871414068.2855.11267667299905494482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Fri, 07 Jul 2023 07:20:38 -0000
+Message-Id: <168871443826.6282.9173960549912558181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/master
-    old: 2e29e2e219182969cc3281db05471111046efe40
-    new: d20ee35fb8f0b72e9ea034a81190c8d9e0086d4b
+  - ref: refs/heads/overlayfs-next
+    old: 1062ac73265a31ca952566ff4a2a6573d7c80c88
+    new: 70df3e1bf705189ec48c0f5522a8f405d570ec64
     log: |
-         d20ee35fb8f0b72e9ea034a81190c8d9e0086d4b Fri Jul  7 07:12:01 AM UTC 2023
+         f98176ce4da6c1a8e991bf4cc145529432000ef0 ovl: support encoding non-decodable file handles
+         4f5d7cb89d41fdf7df7b9ce21589dd4759645924 ovl: add support for unique fsid per instance
+         bedf1a5da04e3abcfad463d35341c88aec6c3cd5 ovl: store persistent uuid/fsid with uuid=on
+         70df3e1bf705189ec48c0f5522a8f405d570ec64 ovl: auto generate uuid for new overlay filesystems
          
