@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3430957439647857426=="
+Content-Type: multipart/mixed; boundary="===============6618598654969422976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 07 Jul 2023 13:03:28 -0000
-Message-Id: <168873500834.5515.2087267573010551793@gitolite.kernel.org>
+Date: Fri, 07 Jul 2023 13:03:39 -0000
+Message-Id: <168873501962.5631.1902825651373566819@gitolite.kernel.org>
 
---===============3430957439647857426==
+--===============6618598654969422976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,47 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a901a3568fd26ca9c4a82d8bc5ed5b3ed844d451
-    new: 5133c9e51de41bfa902153888e11add3342ede18
-    log: revlist-a901a3568fd2-5133c9e51de4.txt
+  - ref: refs/heads/merge
+    old: 039164657b85340b3318de642aa98ac2f0b99ad7
+    new: 71e2dd0b47e7ebff429ca95750d6f8286a90ede4
+    log: revlist-039164657b85-71e2dd0b47e7.txt
 
---===============3430957439647857426==
+--===============6618598654969422976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1688735004 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1688735017 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1688735003-f42d8f43b66f583de2327f8688202ea57bfc34e1
+nonce 1688735017-e121c62a7eb263feba661457ee3403baa0a87077
 
-a901a3568fd26ca9c4a82d8bc5ed5b3ed844d451 5133c9e51de41bfa902153888e11add3342ede18 refs/heads/master
+039164657b85340b3318de642aa98ac2f0b99ad7 71e2dd0b47e7ebff429ca95750d6f8286a90ede4 refs/heads/merge
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmSoDRwTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgJ7oD/9vHLAhMyQogwmdKJR+xSgVbFt70rdz
-uT2hzkztLra6bnYR6nMj2brpMC9/6hQ2rqloGA77CQl75G329v10uTI0n5hb2OrD
-516w85EM5cNuJ8cZWQUTDo2MhqQX0rCTLL282xuRMgGZHuy0oQNLlpwiqLiCU+MN
-uUPzdRMHFU3g6yUqEZUmPC0z2vocOMEZrW6rJlZELlCdH69A2j3dgOP2glbmePxu
-rZUouz9v5UrkX/VtlyRCDPSqChlPOXH7zBHrJvmnhyJVZL4CPd1O3ZkWHm5B3wGc
-fiuPBBX7TGl9R8imSSAs7zdY8m08wahOzlcCwR1iQMcKkYSekKcw5/vr/HvuimYt
-Me4iWLyzReG7IXmShg05x0s8AawBuEbbpLcqc5tg2zeUknwZ/+0sZWrTGa+mfieS
-gt30uS4TGuZP4timX+w6E20awkNze8Sf6CMfft6yjjn8KmdumFy15sKJ45mcJckk
-2vpgEmCmMcsHfasAgvuKfnH50ZMWvbh/AGhF0A0yg2OFx9ltArgu0tPqnT6dkKhk
-p0OV29vdcFu5+6ElYG05ZGKQIKSmKCmQvPaZznnrvUgng0BfV5qm5S6ZSGTPnac7
-5C8wyGA9TRd8iTdJBNoV1BWyhFuvLvxk2pAac1A/NhMMa44l32kOs+Ny61bL5PBL
-LfxH80slruofdg==
-=O+5k
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmSoDSkTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgPgeD/44TAFcNu2mj/BuG+RwLOGjANgt6jro
+QAMtL4EuWYLpktYAswAq3wdHJ64NMRNnHROBoag3lDe3X4CKGm+zTTQT6RKGy4ld
+rSosv26ut/iuwNXvqCyIhxz+E1tAisj/dPruKr1DEem5bz0kYtX4e0jUICkT7l4m
++8L/b6qA3ugvIXXhuwQnm+IC1IrZcogLNvrihzXRJKOE4Lgz/WP4AL2ctykT/ury
+J8HBu0Id2UP+lEK6aj/cnQeih6RPIpxXUbeHiKWCOpjMUvDcoXHlApsi6y+HpQaT
+4fk5q8EXmpBorjJeNc8gT7SQFqY9lspM73futuyYtUEaU/qYwHimqajC2da5jgiq
+VgwRw9EUB9iZUgJ0S6IzOWdgdlIovD4PkVJfh+v/JTGDJuy4R3AXcnR2lmU+QBVA
+yvc24Dl5LBfiN+oGepTsemST7LniAMCvarFDJe7UcWvFYInMxFLhxdxYfY6EEXey
+ZQgZmrXHv4F14iirpTMG4EM73YHZQwztQZIeHeITAn/wTbqVo+W3OquDaDEYtu/z
+ubtNJH6ZxOqZyqugScHTbf3QRVy6CUSDhV+dv9ykmIFkt/pUZ5i9UprkalUhykht
+gT3HHAUPl3hm2DgccKoOeCkSJPa3zxn0d+aYrPatGGp8VQ7nehDEgBMVqU82Bnkh
+fBTCZOchKZKS9A==
+=NopN
 -----END PGP SIGNATURE-----
 
---===============3430957439647857426==
+--===============6618598654969422976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a901a3568fd2-5133c9e51de4.txt
+Content-Disposition: attachment; filename=revlist-039164657b85-71e2dd0b47e7.txt
 
-d80be6a10cd3855004dc0ba3716fb1c76471dea1 media: atomisp: Drop v4l2_get_acpi_sensor_info() function
-1657f2934daf89e8d9fa4b2697008909eb22c73e media: atomisp: gmin_platform: fix out_len in gmin_get_config_dsm_var()
-fadac6afccf7d8a4efa1e0ca89958f6716685333 media: atomisp: Fix buffer overrun in gmin_get_var_int()
-36f48c705242bd21a295992c3b0bd2ebbcdef1df media: atomisp: Update TODO
-19cdcf676355a93a139113d3008112c895915cfc media: atomisp: ov2680: s/ov2680_device/ov2680_dev/
-b0e880e4a85b87b68a76391cdfd1046f024386ef media: atomisp: ov2680: s/input_lock/lock/
-c1ee1db3c936c09141020007a11da24660c5393f media: atomisp: ov2680: Add missing ov2680_calc_mode() call to probe()
 b1b2d3992623290833f7f4ddea1986c7f123f3ad media: atomisp: ov2680: Add init_cfg pad-op
 a5cc2f0dc51964c200dc6cfcdf8a77aa711b7c0c media: atomisp: ov2680: Implement selection support
 503bf3090a19b6c7ba620b9c224a9409a41d3c91 media: atomisp: Remove a bunch of sensor related custom IOCTLs
@@ -887,6 +880,9 @@ a949a1c2a198e048630a8b0741a99b85a5d88136 xfs: fix logdev fsmap query result filt
 3ee9351e74907fe3acb0721c315af25b05dc87da xfs: validate fsmap offsets specified in the query keys
 75dc0345312221971903b2e28279b7e24b7dbb1b xfs: fix xfs_btree_query_range callers to initialize btree rec fully
 5cf32f63b0f4c520460c1a5dd915dc4f09085f29 xfs: fix the calculation for "end" and "length"
+39f49684036d24af800ff194c33c7b2653c591d7 powerpc: allow PPC_EARLY_DEBUG_CPM only when SERIAL_CPM=y
+6cb44bef35ac11724ef22c5ae4f1bc607e2ef3d8 powerpc: Include asm/nmi.c in mobility.c for watchdog_hardlockup_set_timeout_pct()
+abaa02fc944f2f9f2c2e1925ddaceaf35c48528c powerpc: dts: turris1x.dts: Fix PCIe MEM size for pci2 node
 6ca3c005d0604e8d2b439366e3923ea58db99641 net: bridge: keep ports without IFF_UNICAST_FLT in BR_PROMISC mode
 a398b9ea0c3b791b7a0f4c6029a62cf628f97f22 net: dsa: tag_sja1105: fix source port decoding in vlan_filtering=0 bridge mode
 f88fcb1d7d961b4b402d675109726f94db87571c net: fix net_dev_start_xmit trace event vs skb_transport_offset()
@@ -1022,6 +1018,8 @@ a372d66af48506d9f7aaae2a474cd18f14d98cb8 net: dsa: sja1105: always enable the se
 03275585cabd0240944f19f33d7584a1b099a3a8 afs: Fix accidental truncation when storing data
 04f2933d375e3f90d4435b7b518d3065afd1fa25 Merge tag 'core_guards_for_6.5_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peterz/queue
 d528014517f2b0531862c02865b9d4c908019dc4 Revert ".gitignore: ignore *.cover and *.mbx"
+9805c3f27323ea62a72c3f2b7b09551f6cdbcd30 powerpc/ci: Add powernv boots
+af64ca0ad63fc6bf03bf6389c864c10a683cb5f4 powerpc/ci: Don't build ppc64le_defconfig
 80de809bd35e2a8999edf9f5aaa2d8de18921f11 s390/qeth: Fix vipa deletion
 3fffa15bfef48b0ad6424779c03e68ae8ace5acb mptcp: ensure subflow is unhashed before cleaning the backlog
 0226436acf2495cde4b93e7400e5a87305c26054 mptcp: do not rely on implicit state check in mptcp_listen()
@@ -1081,5 +1079,7 @@ bd10668c5c68d8909526c591b57d75945026f529 Merge tag 'drm-intel-next-fixes-2023-07
 7210de3a328c4df5cb8b25b2ef5703c72d8842e9 Merge tag 'docs-6.5-2' of git://git.lwn.net/linux
 94e0d43e51ff8577ad273032bb1cacfd68e9297b Merge tag 'acpi-6.5-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 5133c9e51de41bfa902153888e11add3342ede18 Merge tag 'drm-next-2023-07-07' of git://anongit.freedesktop.org/drm/drm
+da88f46f4e6223c9bd5082b278b5cded36fff8d3 Automatic merge of 'master' into merge (2023-07-07 22:51)
+71e2dd0b47e7ebff429ca95750d6f8286a90ede4 Automatic merge of 'next' into merge (2023-07-07 22:51)
 
---===============3430957439647857426==--
+--===============6618598654969422976==--
