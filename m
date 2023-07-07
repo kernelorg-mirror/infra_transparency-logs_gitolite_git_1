@@ -1,59 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============8090774431949825312=="
+Content-Type: multipart/mixed; boundary="===============1733615296931022499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 07 Jul 2023 22:25:36 -0000
-Message-Id: <168876873654.22843.7931434669859966225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 07 Jul 2023 22:47:32 -0000
+Message-Id: <168877005273.5847.16499726283802618296@gitolite.kernel.org>
 
---===============8090774431949825312==
+--===============1733615296931022499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 4f6b6c2b2f86b7878a770736bf478d8a263ff0bc
-    new: 3290badd1bb8c9ea91db5c0b2e1a635178119856
-    log: revlist-4f6b6c2b2f86-3290badd1bb8.txt
+  - ref: refs/heads/seen
+    old: 0b884aa03a15ec928ce0a7427c149c7278c06a42
+    new: b015ee916be7187a3ed9bf7952d926f24302a00a
+    log: revlist-0b884aa03a15-b015ee916be7.txt
 
---===============8090774431949825312==
+--===============1733615296931022499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f6b6c2b2f86-3290badd1bb8.txt
+Content-Disposition: attachment; filename=revlist-0b884aa03a15-b015ee916be7.txt
 
-f7c2f4f6ce16fb58f7d024f3e1b40023c4b43ff9 ceph: only send metrics when the MDS rank is ready
-8b0da5c549ae63ba1debd92a350f90773cb4bfe7 ceph: try to dump the msgs when decoding fails
-d9d00f71ab5a2b5a47b228f678a8817e8687387f ceph: voluntarily drop Xx caps for requests those touch parent mtime
-23ee27dce30e7d3091d6c3143b79f48dab6f9a3e ceph: add a dedicated private data for netfs rreq
-dc94bb8f271c079f69583d0f12a489aaf5202751 ceph: fix blindly expanding the readahead windows
-2d12ad950b0c2a89d82f5d258309ad23aa70fc38 ceph: trigger to flush the buffer when making snapshot
-ce72d4e0f179340cece90d5b826eb63bbf9fefc0 ceph: issue a cap release immediately if no cap exists
-257e6172ab36ebbe295a6c9ee9a9dd0fe54c1dc2 ceph: don't let check_caps skip sending responses for revoke msgs
-3c675ddffb17a8b1e32efad5c983254af18b12c2 ntfs: Fix panic about slab-out-of-bounds caused by ntfs_listxattr()
-f39244e2f21ee63dc26e57b2c909d9484924e24b fs/ntfs3: Use wrapper i_blocksize() in ntfs_zero_range()
-fdec309c7672cbee4dc0229ee4cbb33c948a1bdd fs/ntfs3: Enhance sanity check while generating attr_list
-c9db0ff04649aa0b45f497183c957fe260f229f6 fs/ntfs3: Return error for inconsistent extended attributes
-97498cd610c0d030a7bd49a7efad974790661162 fs: ntfs3: Fix possible null-pointer dereferences in mi_read()
-ea303f72d70ce2f0b0aa94ab127085289768c5a6 fs/ntfs3: Use __GFP_NOWARN allocation at ntfs_load_attr_list()
-14f527d44de632c8d1d65b42ca1bee26bc426455 fs/ntfs3: Correct checking while generating attr_list
-d6cd7cecfd5e4a189db97876c317d96ebca075fa fs/ntfs3: Fix ntfs_atomic_open
-e0f363a98830e8d7d70fbaf91c07ae0b7c57aafe fs/ntfs3: Mark ntfs dirty when on-disk struct is corrupted
-6a4cd3ea7d771be17177d95ff67d22cfa2a38b50 fs/ntfs3: Alternative boot if primary boot is corrupted
-f1d325b8c75e90487b1691fee0199669ea94fff1 fs/ntfs3: Do not update primary boot in ntfs_init_from_boot()
-f037776165b0643199f50fb105be1c3dcf8e8726 fs/ntfs3: Code formatting
-a81f47c4406e372ce47aff140f3876babac5f01e fs/ntfs3: Code refactoring
-33e70701ed313fa4aca78cde89ef09c794584a9b fs/ntfs3: Add ability to format new mft records with bigger/smaller header
-d5ca77335846944d77d1e67ed841044074550943 fs/ntfs3: Fix endian problem
-7832e123490ac39f85ab5befc2ceee7b25b03acb fs/ntfs3: Add support /proc/fs/ntfs3/<dev>/volinfo and /proc/fs/ntfs3/<dev>/label
-44b4494d5c5971dc8f531c8783d90a637e862880 fs/ntfs3: Correct mode for label entry inside /proc/fs/ntfs3/
-69562eb0bd3e6bb8e522a7b254334e0fb30dff0c fanotify: disallow mount/sb marks on kernel internal pseudo fs
-986ffe6070d661650f8198069f6f3c228e23bca0 Merge tag 'fsnotify_for_v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-36b93aed9ec07607e26630ecf210e065662f6b0d Merge tag 'ntfs3_for_6.5' of https://github.com/Paragon-Software-Group/linux-ntfs3
-3290badd1bb8c9ea91db5c0b2e1a635178119856 Merge tag 'ceph-for-6.5-rc1' of https://github.com/ceph/ceph-client
+7b7203e78af7bfe431b9aadd7b726775ed442b3c ls-tree: simplify prefix handling
+1dd14e8e934873eac6168649da4f200cda029b7b pretty: avoid double negative in format_commit_item()
+7e360bc6267e4741b75d30ec19a7461ed869a244 t6135: attr magic with path pattern
+812fc1e1316caf9082c891ec3422c75f56bb2124 dir: do not feed path suffix to pathspec match
+0ad927e9e0013471cc752781f0c368f862934a44 tree-walk: lose base_offset that is never used in tree_entry_interesting
+30c8c55cbfa6e4f81e4d73767294f50f5d9c7d10 tree-walk: drop unused base_offset from do_match()
+3e81b896f769dfdb479363acb00bdc6b076cfd55 pkt-line: add size parameter to packet_length()
+bd19ee9c459b2d7872a8e486fd9c2f1b17d662a5 pretty: use strchr(3) in userformat_find_requirements()
+6b93634ca4220e7cdec20482601bd4754fb75893 Merge branch 'rs/packet-length-simplify' into jch
+a49d126ed8a0a7849496cac09a3c3bafda8e01d1 Merge branch 'rs/pretty-format-double-negation-fix' into jch
+799ed4b985000d8314a01bfc7e833465516ebf81 Merge branch 'rs/userformat-find-requirements-simplify' into jch
+f7618f12bfb92cf2eb07fb11e1a52bbc610ae815 Merge branch 'rs/ls-tree-prefix-simplify' into jch
+a8d0a740af8803813c91aa0bfcbf4b796ace765e Merge branch 'vd/adjust-mfow-doc-to-updated-headers' into jch
+ea3ec035747e6952701acd5e624522c50f616038 Merge branch 'cw/compat-util-header-cleanup' into jch
+0e1e1dd0cd272d5e060affd36b887db9003bdce9 Merge branch 'mh/credential-libsecret-attrs' into jch
+8c47f534a3a174289e7000994f5b684433f31b9e Merge branch 'pw/rebase-i-after-failure' into jch
+ea506ce11afaa77083b004415e884413b08d279a Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
+0c749a205c6d8e2a8e3ab6d220019be7b00d40fe Merge branch 'cc/repack-sift-filtered-objects-to-separate-pack' into jch
+7a591b32507cc9bc46b8400e8fc1d7bb2d854a12 Merge branch 'mh/credential-erase-improvements-more' into jch
+43cffe195a21cbc693e46135d9b82e926735a82b Merge branch 'jc/pathspec-match-with-common-prefix' into jch
+b19e837263a66a3ebb65eb50fddd0f357921244a Merge branch 'jc/tree-walk-drop-base-offset' into jch
+0ead371f3c56d000cafa89ab1026e35c2d89dfce push: advise about force-pushing as an alternative to reconciliation
+3ab6d44621d853813a5a665bf6ada78ac650bf1f Merge branch 'mh/mingw-case-sensitive-build' into seen
+f6f4981512e88c82062f11790c84813612fb0f59 Merge branch 'tb/refs-exclusion-and-packed-refs' into seen
+6ab9dc8a6d1eed98e37b10f5b05143fec8d34978 Merge branch 'jt/path-filter-fix' into seen
+d8aa611c653d2f85873c6a3d6a484d547963e95e Merge branch 'ad/test-record-count-when-harness-is-in-use' into seen
+f812189971e4b452ffe6052a4367940171946f82 Merge branch 'ab/imap-send-requires-curl' into seen
+02ef51e2fbddd39f79f2a49707391fcf0a19cf1b Merge branch 'ed/fsmonitor-windows-named-pipe' into seen
+64b218b41ba1cb271ea9f76f3bb03c19c126da1c Merge branch 'so/diff-merges-more' into seen
+66462ff36e3320e37270e610a2d1df59f24c0f16 Merge branch 'cw/submodule-status-in-parallel' into seen
+43e8c88520a4f96e88c2c689464a52b8ed0125ee Merge branch 'tk/pull-conflict-suggest-rebase-merge-not-rebase-true' into seen
+8a2e78944727a380914ab3aae8adbecd65efde66 Merge branch 'cb/checkout-same-branch-twice' into seen
+1fd549f07b98943b933c84adb0aeadb33b742ef8 Merge branch 'ab/tag-object-type-errors' into seen
+44cd36a9029e7860e17fe803c0208aaf8bbd47e0 Merge branch 'rn/sparse-diff-index' into seen
+8ebbbf2a4c3b7695fa7e74be089872be29b97c51 Merge branch 'es/recurse-submodules-option-is-a-bool' into seen
+87dd223f5e40cb39d2a43a41a37dc55e99e29076 Merge branch 'ob/revert-of-revert' into seen
+f4000d53a28b7426cdd6512d3aefbcfa8ee93d5a Merge branch 'js/doc-unit-tests' into seen
+2f856d24b27109b735b2d2ab5b4df027960f88f6 Merge branch 'cc/git-replay' into seen
+b015ee916be7187a3ed9bf7952d926f24302a00a Merge branch 'ah/advise-force-pushing' into seen
 
---===============8090774431949825312==--
+--===============1733615296931022499==--
