@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Fri, 07 Jul 2023 02:39:27 -0000
-Message-Id: <168869756718.29752.6115877061433284783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 07 Jul 2023 04:19:48 -0000
+Message-Id: <168870358864.5042.13320986106320781621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: 492abd260567598dcd3969620fe2f6223c5e1394
-    new: a71833a549c8e87bd1b23935b6efcab971ca1060
+    old: d3dccb0a487d065ce097e565d9ca8ae85d892a55
+    new: 9e9311e04e63ede92be98425efd843f9836336bd
     log: |
-         a915725581833444ac37b480c3acb0a4743f6052 Documentation: alignment fix in quickstart
-         a71833a549c8e87bd1b23935b6efcab971ca1060 Merge branch 'patch-1' of https://github.com/gwendalcr/xfstests-bld
+         9e9311e04e63ede92be98425efd843f9836336bd KEYS: asymmetric: Fix error codes
+         
+  - ref: refs/tags/v6.5-p2
+    old: e44bf618479a0cd32b05b5d0e84ffc3bd6246e64
+    new: 4abc006aeeb3a56028afa49d8c9217d958d18b21
+    log: |
+         9e9311e04e63ede92be98425efd843f9836336bd KEYS: asymmetric: Fix error codes
          
