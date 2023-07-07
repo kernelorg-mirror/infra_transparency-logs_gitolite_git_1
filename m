@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1554352065247650407=="
+Content-Type: multipart/mixed; boundary="===============6505327747102900769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 07 Jul 2023 15:19:00 -0000
-Message-Id: <168874314050.7314.4278713580470272573@gitolite.kernel.org>
+Date: Fri, 07 Jul 2023 15:24:35 -0000
+Message-Id: <168874347501.10893.9652257569404131839@gitolite.kernel.org>
 
---===============1554352065247650407==
+--===============6505327747102900769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6843306689aff3aea608e4d2630b2a5a0137f827
-    new: 8139dccd464aaee4a2c351506ff883733c6ca5a3
-    log: revlist-6843306689af-8139dccd464a.txt
+  - ref: refs/heads/dev-queue
+    old: 29440df3d52b4ac7909e75c3094da1ede0286e91
+    new: 7c260273e39f5fc2f2465569688396624bccb8f1
+    log: revlist-29440df3d52b-7c260273e39f.txt
 
---===============1554352065247650407==
+--===============6505327747102900769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6843306689af-8139dccd464a.txt
+Content-Disposition: attachment; filename=revlist-29440df3d52b-7c260273e39f.txt
 
 1689f25924ada8fe14a4a82c38925d04994c7142 netfilter: nf_tables: report use refcount overflow
 8a9dc07ba92497a81f1ff65d25c2ba7b6f9a8bdc netfilter: conntrack: gre: don't set assured flag for clash entries
@@ -66,5 +66,23 @@ af42088bdaf292060b8d8a00d8644ca7b2b3f2d1 octeontx2-af: Promisc enable/disable th
 abfb2a58a5377ebab717d4362d6180f901b6e5c1 ionic: remove WARN_ON to prevent panic_on_warn
 3a7af34fb6ecd9fbeb4454fc03c654b26fab5f5e ionic: remove dead device fail path
 8139dccd464aaee4a2c351506ff883733c6ca5a3 udp6: add a missing call into udp_fail_queue_rcv_skb tracepoint
+70f1b4c6f449fde01eb935fe49bd5ecef1ae578b iavf: Fix use-after-free in free_netdev
+bfebff8d9160ca9ef8e38953513a1b8acf4a91db iavf: Fix out-of-bounds when setting channels on remove
+2ba57cacaea3bb43c26714d3c5a841fd7f65bf5f iavf: use internal state to free traffic IRQs
+92c0be850a493da4ebc15c4537087076b762564c iavf: Wait for reset in callbacks which trigger it
+4bcb9388ceda30ef41c93f67c9fff082611aa077 Revert "iavf: Detach device during reset task"
+11768a81a623002eb775343487e839a9c17a4eca Revert "iavf: Do not restart Tx queues after reset task failure"
+395b43f9d6ce108ee213659c917dffbc6e93701b iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
+edd949041e6813d312c17618a645e59208fc64ef iavf: fix reset task race with iavf_remove()
+145f4508ee461a70587553b35634e135dfb84357 igb: fix hang issue of AER error during resume
+418e0bb7241b449d413b8f225b0f55effddb8e22 igc: Rename qbv_enable to taprio_offload_enable
+30550a3f35e73a35b84c9889719b3d569b58d81b igc: Do not enable taprio offload for invalid arguments
+af9c30d7e340c4e91ee2e6b8efae11c3312553ac igc: Handle already enabled taprio offload for basetime 0
+1ea2bcfde388400f4dcf97d35031398544a5c8de igc: No strict mode in pure launchtime/CBS offload
+13c33f7ed3de8c43f29911ee6e0befaab7f333ef igc: Fix launchtime before start of cycle
+1f255a130278b6ec2c20c9cbf45fa0a627817166 igc: Fix inserting of empty frame for launchtime
+8a4dd64a819d5fb02ae76e711d2503459200294a igc: Prevent garbled TX queue with XDP ZEROCOPY
+36db99fcc73f3273e75e06340194b4cd4d2d1de8 ice: Fix RDMA VSI removal during queue rebuild
+7c260273e39f5fc2f2465569688396624bccb8f1 ice: Fix memory management in ice_ethtool_fdir.c
 
---===============1554352065247650407==--
+--===============6505327747102900769==--
