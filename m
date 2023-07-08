@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3999959361293954870=="
+Content-Type: multipart/mixed; boundary="===============3224488523409649370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 08 Jul 2023 13:08:39 -0000
-Message-Id: <168882171913.17304.10958201527175796854@gitolite.kernel.org>
+Date: Sat, 08 Jul 2023 13:08:52 -0000
+Message-Id: <168882173285.17465.8049049457657339120@gitolite.kernel.org>
 
---===============3999959361293954870==
+--===============3224488523409649370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 0019a2d4b7e37a983d133d42b707b8a3018ae6f4
-    new: 8caff3dd44fe409c44ef3b317f0a8fc4437c05a9
-    log: revlist-0019a2d4b7e3-8caff3dd44fe.txt
+  - ref: refs/heads/locking/urgent
+    old: 92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b
+    new: f1e968b2ce4f48156360636d16d715f3e9af91a9
+    log: revlist-92cc5d00a431-f1e968b2ce4f.txt
 
---===============3999959361293954870==
+--===============3224488523409649370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0019a2d4b7e3-8caff3dd44fe.txt
+Content-Disposition: attachment; filename=revlist-92cc5d00a431-f1e968b2ce4f.txt
 
+dcfb70610d40704d929d824db36b1444c8f37f7a Merge branch 'for-6.5/cxl-background' into for-6.5/cxl
 7e2a60efab8ad901c4743137857c1c5e18e27ed8 rtc: rv3028: make rv3028 probeable from userspace
 867eab655d3b38740d8d6c24705af25e0b1dbdb6 Merge branch 'for-6.5/cxl-fwupd' into for-6.5/cxl
 487ef32caebe010f0ff0f17267230ebaf2177e67 dt-bindings: rtc: Split loongson,ls2x-rtc into SoC-based compatibles
@@ -1048,7 +1049,6 @@ bd10668c5c68d8909526c591b57d75945026f529 Merge tag 'drm-intel-next-fixes-2023-07
 3290badd1bb8c9ea91db5c0b2e1a635178119856 Merge tag 'ceph-for-6.5-rc1' of https://github.com/ceph/ceph-client
 4c8ab068bea2ed7b5b192cd66d436620a0b4f05e Merge tag 'sound-fix-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8689f4f2ea561dd080118eeb05c0255ac9542905 Merge tag 'mmc-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-e1d6ff8fe18cd0eaa38526b7fe6d303f15bf9e8a sched/fair: Use recent_used_cpu to test p->cpus_ptr
-8caff3dd44fe409c44ef3b317f0a8fc4437c05a9 sched/psi: use kernfs polling functions for PSI trigger polling
+f1e968b2ce4f48156360636d16d715f3e9af91a9 locking/rtmutex: Fix task->pi_waiters integrity
 
---===============3999959361293954870==--
+--===============3224488523409649370==--
