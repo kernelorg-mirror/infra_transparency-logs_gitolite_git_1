@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3224488523409649370=="
+Content-Type: multipart/mixed; boundary="===============7437063312948129025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 08 Jul 2023 13:08:52 -0000
-Message-Id: <168882173285.17465.8049049457657339120@gitolite.kernel.org>
+Date: Sat, 08 Jul 2023 13:09:06 -0000
+Message-Id: <168882174684.17631.3128054774004372561@gitolite.kernel.org>
 
---===============3224488523409649370==
+--===============7437063312948129025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 92cc5d00a431e96e5a49c0b97e5ad4fa7536bd4b
-    new: f1e968b2ce4f48156360636d16d715f3e9af91a9
-    log: revlist-92cc5d00a431-f1e968b2ce4f.txt
+  - ref: refs/heads/perf/core
+    old: 228020b490eda9133c9cb6f59a5ee1278d8c463f
+    new: f434999e433dc8a274d7d7eee18f4e54bc082f85
+    log: revlist-228020b490ed-f434999e433d.txt
 
---===============3224488523409649370==
+--===============7437063312948129025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92cc5d00a431-f1e968b2ce4f.txt
+Content-Disposition: attachment; filename=revlist-228020b490ed-f434999e433d.txt
 
-dcfb70610d40704d929d824db36b1444c8f37f7a Merge branch 'for-6.5/cxl-background' into for-6.5/cxl
-7e2a60efab8ad901c4743137857c1c5e18e27ed8 rtc: rv3028: make rv3028 probeable from userspace
-867eab655d3b38740d8d6c24705af25e0b1dbdb6 Merge branch 'for-6.5/cxl-fwupd' into for-6.5/cxl
-487ef32caebe010f0ff0f17267230ebaf2177e67 dt-bindings: rtc: Split loongson,ls2x-rtc into SoC-based compatibles
 9fb23090658adbd7f8f44bf5c38aa3fc4b1699bd rtc: Remove the Loongson-1 RTC driver
 1b733a9ebc3d8011ca66ec6ff17f55a440358794 rtc: Add rtc driver for the Loongson family chips
 ab7fa6b05ebbe2a8cc07114014f14fd2326fb80a riscv: move options to keep entries sorted
@@ -1049,6 +1045,10 @@ bd10668c5c68d8909526c591b57d75945026f529 Merge tag 'drm-intel-next-fixes-2023-07
 3290badd1bb8c9ea91db5c0b2e1a635178119856 Merge tag 'ceph-for-6.5-rc1' of https://github.com/ceph/ceph-client
 4c8ab068bea2ed7b5b192cd66d436620a0b4f05e Merge tag 'sound-fix-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8689f4f2ea561dd080118eeb05c0255ac9542905 Merge tag 'mmc-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-f1e968b2ce4f48156360636d16d715f3e9af91a9 locking/rtmutex: Fix task->pi_waiters integrity
+3323b5d629542ba1dc2c39fe36be3872beca4976 perf/amd: Prevent grouping of IBS events
+5081582d65cb60d70249d4a80eb5d0513110e11f perf/x86: Use local64_try_cmpxchg
+cda4467ab12b2055da0cb998dca293aedefc328a perf/core: Use local64_try_cmpxchg in perf_swevent_set_period
+e1603d756858e5839f18e76e689a774158cf4a2a locking/arch: Avoid variable shadowing in local_try_cmpxchg()
+f434999e433dc8a274d7d7eee18f4e54bc082f85 perf/ring_buffer: Use local_try_cmpxchg in __perf_output_begin
 
---===============3224488523409649370==--
+--===============7437063312948129025==--
