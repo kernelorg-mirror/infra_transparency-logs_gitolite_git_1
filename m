@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7437063312948129025=="
+Content-Type: multipart/mixed; boundary="===============5707443506472967932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 08 Jul 2023 13:09:06 -0000
-Message-Id: <168882174684.17631.3128054774004372561@gitolite.kernel.org>
+Date: Sat, 08 Jul 2023 13:09:21 -0000
+Message-Id: <168882176107.17808.5655558756353805127@gitolite.kernel.org>
 
---===============7437063312948129025==
+--===============5707443506472967932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 228020b490eda9133c9cb6f59a5ee1278d8c463f
-    new: f434999e433dc8a274d7d7eee18f4e54bc082f85
-    log: revlist-228020b490ed-f434999e433d.txt
+  - ref: refs/heads/sched/core
+    old: ebb83d84e49b54369b0db67136a5fe1087124dcc
+    new: f3b0365d52273a293665c0a4d92c161f9a8bd250
+    log: revlist-ebb83d84e49b-f3b0365d5227.txt
 
---===============7437063312948129025==
+--===============5707443506472967932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-228020b490ed-f434999e433d.txt
+Content-Disposition: attachment; filename=revlist-ebb83d84e49b-f3b0365d5227.txt
 
-9fb23090658adbd7f8f44bf5c38aa3fc4b1699bd rtc: Remove the Loongson-1 RTC driver
-1b733a9ebc3d8011ca66ec6ff17f55a440358794 rtc: Add rtc driver for the Loongson family chips
-ab7fa6b05ebbe2a8cc07114014f14fd2326fb80a riscv: move options to keep entries sorted
-cead443a306262a16056d84d63b5a6a10908eb62 riscv: vmlinux-xip.lds.S: remove .alternative section
-d4035ff16bfa73915f74cb3d28f878aff1da510a vmlinux.lds.h: use correct .init.data.* section name
-c828856b51bb4180c0803c12ffaeb86c41336c11 riscv: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION
-6995e2de6891c724bfeb2db33d7b87775f913ad1 Linux 6.4
 f7584322e4fef794b290e5fdb290fa92a925236e riscv: disable HAVE_LD_DEAD_CODE_DATA_ELIMINATION for LLD
 aeaefabc59ec3c7edd6d0ca7add7aff2ff6f59d0 Merge branch 'for-6.5/cxl-type-2' into for-6.5/cxl
 e2c18eb50c7bb191d1ebfed973c2ec3e0066ad37 Merge branch 'for-6.5/cxl-region-fixes' into for-6.5/cxl
@@ -1045,10 +1038,17 @@ bd10668c5c68d8909526c591b57d75945026f529 Merge tag 'drm-intel-next-fixes-2023-07
 3290badd1bb8c9ea91db5c0b2e1a635178119856 Merge tag 'ceph-for-6.5-rc1' of https://github.com/ceph/ceph-client
 4c8ab068bea2ed7b5b192cd66d436620a0b4f05e Merge tag 'sound-fix-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8689f4f2ea561dd080118eeb05c0255ac9542905 Merge tag 'mmc-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-3323b5d629542ba1dc2c39fe36be3872beca4976 perf/amd: Prevent grouping of IBS events
-5081582d65cb60d70249d4a80eb5d0513110e11f perf/x86: Use local64_try_cmpxchg
-cda4467ab12b2055da0cb998dca293aedefc328a perf/core: Use local64_try_cmpxchg in perf_swevent_set_period
-e1603d756858e5839f18e76e689a774158cf4a2a locking/arch: Avoid variable shadowing in local_try_cmpxchg()
-f434999e433dc8a274d7d7eee18f4e54bc082f85 perf/ring_buffer: Use local_try_cmpxchg in __perf_output_begin
+b01eddadaefe4dd2db9a88080430e371cf9c6f5d kernel/fork: beware of __put_task_struct calling context
+2cb9cd9c2c75948095b2b8392c4f31c291427c9f sched: avoid false lockdep splat in put_task_struct()
+1fbc7a987f30e99c38a8890afc5b5341f25c9dbe sched: don't account throttle time for empty groups
+16d9d53453475852939e501d3cf0aba6a642f310 sched: add throttled time stat for throttled children
+d6607319c5d82c7889322f8a0da47131c8f05bd2 sched/core: introduce sched_core_idle_cpu()
+51b0e34a66c87f2426c58cd89a0357f77b6a74a7 sched/psi: make psi_cgroups_enabled static
+d60ef920091c3c635853dcd5ad788f97134a9995 sched/fair: Determine active load balance for SMT sched groups
+0d045c1e0af4c25c053c9a5719b66e7f5648a3b2 sched/topology: Record number of cores in sched group
+8da9819ba2e5cc2ef7863d60e931fdad01dd4f6e sched/fair: Implement prefer sibling imbalance calculation between asymmetric groups
+40cdd226a480803dac469d1a6ed0eb2cb592a991 sched/fair: Consider the idle state of the whole core for load balance
+e07f3b476d14518c29db7461b6a7c8eff8af8af6 x86/sched: Enable cluster scheduling on Hybrid
+f3b0365d52273a293665c0a4d92c161f9a8bd250 sched/debug: Dump domains' sched group flags
 
---===============7437063312948129025==--
+--===============5707443506472967932==--
