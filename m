@@ -1,271 +1,210 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Sun, 09 Jul 2023 01:57:12 -0000
-Message-Id: <168886783224.17305.257842256167992773@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5852366036711965144=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 09 Jul 2023 02:12:07 -0000
+Message-Id: <168886872755.28838.5030200209210050674@gitolite.kernel.org>
+
+--===============5852366036711965144==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/mm-everything-2023-01-20-01-30
-    old: 41c457e96ba51547c6e80b125dcba91aa6a00699
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-22-03-28
-    old: 37e05fecfbb00291d3e903e0a0522992c1dd12fe
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-23-22-24
-    old: be80ef2679cdf421c74b371e5ccb986afc3f7442
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-24-22-38
-    old: b2f2a42a7fbe0661e3cc87d4af6143cd2489cbed
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-26-03-25
-    old: 2ab6ca767809891e014f7c51bc96066e85b05eb8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-26-03-28
-    old: 53fa09273281203ebd718e71a83665255f09d658
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-27-00-21
-    old: b826248c048331d0ccc2128d1f85d0bc8fc3641e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-27-03-23
-    old: 47950d0b936865a97b0fa0a21abb6ce70258a5c5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-27-23-52
-    old: 864d8bcf60c714b1c6bb71a3f20c7b384c6b5b3b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-31-02-35
-    old: 53ca72f3243cafffa192120bcc747e8dd82e48b2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-01-31-23-59
-    old: 7c8a725c02dfcf63e9070c98580efd4936102a01
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-01-01-08
-    old: c2b84f78109d458421fbcab19769e75dac1ba290
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-01-01-31
-    old: 4f206e661f00906c640450150ff256dbd07f0bff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-03-02-00
-    old: dba580f8a10a8dfaad15249e89a3ca8205cc9794
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-03-06-58
-    old: 24017b5007ddb5db7be879bcae7e9df642864514
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-07-02-08
-    old: 29093de189d48513bb81dea07700ec43b02d7628
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-07-23-43
-    old: 27be475f8877c7af5d7bf5d6d2d2e6e959fd6196
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-02-09-04-49
-    old: 900ca1df892edb49b740359004a46b598a4df5f6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-03-04-15
-    old: 09acda2464627c46d1a8e033e18219b7845fd23d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-03-05-58
-    old: fbcd6c987e79e584573bb51e30da63b1c956f7cd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-04-00-19
-    old: 8fe43ff8248e25a9337721aab9e564f3c662eb33
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-06-22-14
-    old: b6da721b45668717d80530469abd085170614fc1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-08-00-03
-    old: be19fbcd03780ab1f23b2babcf24baf6cc6a3c31
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-08-01-07
-    old: e4bd1aea2dac912e4c836e1229190cd99a0bc719
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-08-21-37
-    old: 34c926bfb685e828a0e8daf92d950548861c851c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-09-22-27
-    old: 138226e51df37750c006a703f1aeb43cf3fa74ea
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-12-21-57
-    old: 8ffa09ccc7049c948f804adbd40d5cebac542a6c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-13-20-32
-    old: 795b475334753f82b9215e88df58bc59320c1c2e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-14-22-47
-    old: 6896f3554380c9cbc37ebee1d7cdec6c31950c4d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-15-21-19
-    old: e1285502c35f0d58cdaaea93852bdc350c401b96
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-17-05-23
-    old: 16eea9ea3ce3b50f1cbf59bbc5d702e014a2db94
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-18-00-37
-    old: c36f942b404ee629d45bba185edbd6ffe4d47955
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-19-21-50
-    old: c99e75dfa659494c835175511f4048822a580ef7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-20-23-20
-    old: 9f63dcd4248bf10a829de6a420588680d4312e90
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-21-22-20
-    old: 912e12e8eb1ab07ee29147e487bdf12d914da502
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-23-00-26
-    old: 8ad7b0481c7d1ad0ec3c605d2e01b8516562f483
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-23-23-11
-    old: 4f8ccd52f237d30f777762ce6469b7f3515e0baf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-24-00-20
-    old: 1bc7fc07b6b1f60eb972b4968bcc068a53352577
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-24-00-37
-    old: eddd6f96fb2a40f834ca219f5bfefdf0c3097217
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-24-22-58
-    old: df5e96c35edb00bd1fd8c74a6b8dfd73d29c79f6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-25-21-12
-    old: 6cd8a7e0c04767d129bba25a549818f3cfbc11c1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-27-21-20
-    old: 3892f54b605b7d94c6183202fb28c97514ea4bc7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-28-21-13
-    old: 5cc5df842ecfe57a63efb51398fe7804999bad6d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-28-23-26
-    old: 4446b9bd3eb85a2d813e4d6226e864758e66914c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-29-23-25
-    old: f21c9492fe238629354656900dbf168c86b7cb00
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-30-21-50
-    old: c6a09bbde255c58bcfb06782c3215b6588afa842
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-03-31-23-05
-    old: bf20ad742f2a29b5b1fb411d5954721357bd1f54
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-03-22-11
-    old: 306f38ec0481c7a835661e3e26dc19a0918870c5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-04-22-40
-    old: 750df83348b760a68dbdb74c63bbf8f6b63dac9c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-05-23-08
-    old: ab57a7d6c531a024bdd043d345afd6579384122a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-06-23-58
-    old: ba08896e0cd33f1a0d953d9bb354de5073e220fc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-07-23-06
-    old: 890854f571108690b4bf7b5bd4b3d909a4173405
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-08-20-50
-    old: e22b1c0718a4a05ef5332ee830d578eeac08a5dd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-11-05-19
-    old: 89324b02d36bda446693cfc7015e941188365ec2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-12-01-13
-    old: 9037e62198dc7d2c007132c2bedc6eedfd5630aa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-12-22-49
-    old: f07833a4b5f21a0c58d564bba83340f4f7d81b94
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-13-23-03
-    old: 32ed3874f2bf1125a392206a089c72d20c3cb4d6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-14-23-03
-    old: f51e55a937d51a4c8ed9852587088abf729771b0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-16-19-38
-    old: 4109e62247ecf1bc5f109dadf88973fc193a16b1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-18-03-54
-    old: c6077f4ded36dce3aed29e8e6442d8d022efe6d6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-18-20-42
-    old: 0e20050edd3ce16d74f90655336bf5bbe4d27b7c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-18-23-41
-    old: 623f94170aac88b1c301fa51eff55a1b010e40c1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-18-23-57
-    old: 1f61deded8590f1b3d050798c11949c16b2766d5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-19-22-06
-    old: 32d5ef106eca01ba94f7344267230956fd418fc5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-20-23-34
-    old: e258c1125ec2ea0ee7acc6be5e883d01bf58279c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-21-21-13
-    old: e61d271176cffa5ecab68a429d66b0e3e2095103
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-21-23-08
-    old: 8de1a994eb1a434b9a0580b8db4fc03c8fa59ae2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-24-23-50
-    old: 25aab2ea365fe6a262d3ac5b3d8c79e69159afc6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-27-20-43
-    old: 7ca25c6b6eeebb83a2d65b88fceb8adb7f97c703
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-04-29-22-56
-    old: 836763569361a1a9c0185219800356549b5893ec
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-03-02-17
-    old: 55a5b15d0a629fb221df0ade55173a5f81f80fea
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-03-22-01
-    old: bb9a1a223096ba8d1a2445c615f0d7e92c0bcc1f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-05-02-04
-    old: fd0f94ba29324e9aab842a3b0bc5ca41b1dca1ff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-05-23-21
-    old: b47c3866f2ed8b86559a6b8ad699bc381ac78e92
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-06-18-50
-    old: f3bd4c78ea06354f22136822ab96b2085d0f8d96
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-08-01-24
-    old: 7684b6c4b31556e55e685b89e9b481c1a2db0e34
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-13-01-35
-    old: af7f872bc49a15f1fbbb88e957babcc761e6d762
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-15-21-02
-    old: 7d4c988c8910a39778a0b32858f83666eed75134
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-16-23-30
-    old: 88b7d333e56bda595ddbb93f29f93ca2b19a5664
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-17-23-41
-    old: 5a8047c0febe9a0b15e3db302881343d6433bc0a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-18-22-42
-    old: 2caec7572a99f4fc6e94c9bb2f21aea653819fa8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-19-23-15
-    old: 5601adb458e03278a24a538e58e3266673db1974
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-22-22-25
-    old: 1374df24c22a3eb75adfbeffcb8a289c283c9b34
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-25-22-31
-    old: 7fb90b7628d16c76fd3e6de4c356fd8928d0cb2c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-26-19-30
-    old: 39ff09d6a99e013d00547e32aee30ca07fb80e07
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2023-05-30-23-44
-    old: 2e3311ce46ecd34da268e680107fdadb5744212a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 5133c9e51de41bfa902153888e11add3342ede18
+    new: 1c7873e3364570ec89343ff4877e0f27a7b21a61
+    log: revlist-5133c9e51de4-1c7873e33645.txt
+
+--===============5852366036711965144==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5133c9e51de4-1c7873e33645.txt
+
+76862af5d1add618f0cc99868bc729925f9551d2 apparmor: fix kernel-doc complaints
+00c2cae6b66a913e8d9a39073988e4aa5baff0d8 scsi: lpfc: Fix lpfc_name struct packing
+d1e8a9fbb39292e6666192565b51bbda781f9f04 scsi: ncr53c8xx: Replace strlcpy() with strscpy()
+4b2e28758dafeeaa34819296821686addfddaa6a scsi: target: tcmu: Replace strlcpy() with strscpy()
+6f0a92fd7db1507b203111ee53632eeeba2daca5 scsi: smartpqi: Replace one-element arrays with flexible-array members
+c4c14c290682e080da5cee81f4998062e1be274a lib/test_bitmap: increment failure counter properly
+c1d2ba10f594046831d14b03f194e8d05e78abad lib/bitmap: drop optimization of bitmap_{from,to}_arr64
+cdd2d06fbc0a58297f782c8eb7e2f3c0b1dc367e nodemask: Drop duplicate check in for_each_node_mask()
+839cad5fa54bd6e4aad137f695ec6f90acb78728 cpumask: fix function description kernel-doc notation
+f4bc6c12b0280077f799f2d50719ca52370ecb20 MAINTAINERS: Add bits.h to the BITMAP API record
+2a3110e3f97ddc0f53bb766797b926a35edd07e6 MAINTAINERS: Add bitfield.h to the BITMAP API record
+b7a2d774c9c5a9a3228c6169ecf32f05b96609cf perf build: Add ability to build with a generated vmlinux.h
+5c45b210479bffe068d38902fcdcb52c4c60a264 perf bpf: Move the declaration of struct rq
+06c39e742d46eb0a360563f0888ac8c3a9539f47 perf test: Add build tests for BUILD_BPF_SKEL
+ae7eb5baad3fd5f9ff69a3721fdaa0324731cf8d perf build: Filter out BTF sources without a .BTF section
+ce5b293405fda0f80c803b6c838f51ec7f618f90 perf dso: Sort symbols under lock
+259dce914e93482a0e25a6ddef88f5b6d85df9bd perf symbol: Remove symbol_name_rb_node
+d82257d7f604ba6e714c9f1087a6dc599ccb1879 perf symbol: Remove now unused symbol_conf.sort_by_name
+220f88b5a11a88539fbc44d2740c41bf995ecb45 perf trace-event-info: Add tracepoint_id_to_name() helper
+5492e72500646170cd409b14fe273e6d067b9fae perf tools: Extend PRINT_ATTRf to support printing of members with a value of 0
+2e4dd65d7d0c73451e2f8b575884b35c90ba058a perf tools: Add printing perf_event_attr type symbol in perf_event_attr__fprintf()
+929ff679b694f0f9656aec38b3a7d5c440c5ca24 perf tools: Add printing perf_event_attr config symbol in perf_event_attr__fprintf()
+ab7fa6b05ebbe2a8cc07114014f14fd2326fb80a riscv: move options to keep entries sorted
+cead443a306262a16056d84d63b5a6a10908eb62 riscv: vmlinux-xip.lds.S: remove .alternative section
+d4035ff16bfa73915f74cb3d28f878aff1da510a vmlinux.lds.h: use correct .init.data.* section name
+c828856b51bb4180c0803c12ffaeb86c41336c11 riscv: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION
+f7584322e4fef794b290e5fdb290fa92a925236e riscv: disable HAVE_LD_DEAD_CODE_DATA_ELIMINATION for LLD
+49a5e3edd35352833270dd18b0d5ca414fcc9406 perf tools: Add missing else to cmd_daemon subcommand condition
+710dffc969023315c3c32717dc08b543012e60d8 perf pmu: Correct auto_merge_stats test
+78987bb02ad29161a75d7c512822232321250d1d perf: Replace deprecated -target with --target= for Clang
+ad5f604e186ac08d12c401e34ea96c09c38ddbc5 perf test: Fix a compile error on pe-file-parsing.c
+628eaa4e877af8230ef7326d378e15d511c506ba perf pmus: Add placeholder core PMU
+d17f0ce9a9ee1372b9c71b4dc9bd6c8fbe73790f ALSA: oxfw: make read-only const array models static
+a64db0b9dfac2011e14e88faf59847baac1dad5a ALSA: fireface: make read-only const array for model names static
+4eecae44a51a13be2d017cebc4f760173253d238 ALSA: ump: Correct wrong byte size at converting a UMP System message
+4926a34b1b4e568edcd47b7215718dc187147780 Merge branch 'topic/midi20' into for-linus
+47f04616f2c9b2f4f0c9127e30ca515a078db591 dm: verity-loadpin: Add NULL pointer check for 'bdev' parameter
+4e45236982bcc3ce8a0ea719e1159cc5c935eb94 scsi: isci: Fix comment typo
+71e3e85ccf2b816e612c94b7460309dc5007caef scsi: core: Simplify scsi_cdl_check_cmd()
+9b7c13b83c1dedb79a746eae9dfabc10a2673049 scsi: dt-bindings: ufs: qcom: Fix ICE phandle
+40863cb945c93a55aeaf8a2fd2bef1c7507ee8f2 scsi: target: iblock: Quiet bool conversion warning with pr_preempt use
+7bcf57782503b7025941372863a20e2587483baf scsi: target: docs: Remove tcm_mod_builder.py
+24033d71cc36ae8af02b56ec22c7490779a9e39f scsi: ufs: core: Remove unused function declaration
+22065e4214c1196b54fc164892c2e193a743caf3 ALSA: hda/realtek: Add quirk for Clevo NPx0SNx
+36cee69f572c72610da2681a358318d0dc9740b0 perf tools: Do not remove addr_location.thread in thread__find_map()
+4a4a9bf9075fbc753ab20f05347fd1482d4801e4 perf expr: Add has_event function
+eadc0040a9ebfa2ad6debe6df087c549e6e49bd4 perf jevents: Support for has_event function
+8076dc8c6818eebbb5029bd77eea9848a3c32f3c perf vendor metrics intel: Make transaction metrics conditional
+7e74ece31af7f701d2cf8c3529633e3620a61c70 perf vendor events intel: Add rocketlake events/metrics
+dfc83cc8776917fbb8452328b56bb2192421a809 perf vendor events intel: Update meteorlake to 1.03
+0c9e39421cd00258f7cd17b25ee5fe177a3088dd perf vendor events intel: Update cascadelakex to 1.19
+d1363b9454a32cf615d1a4df920e88cb73763af9 perf vendor events intel: Update icelake to 1.19
+663655c91ce195f912957157d7aaa3e8c06e8b14 perf vendor events intel: Update icelakex to 1.21
+938e4ad3101160481e5502186f95c7469d6bbcbc perf vendor events intel: Update sapphirerapids to 1.14
+ea3eafa08aa73800a095f974ee4bc230ee055083 perf vendor events intel: Update skylake to 57
+b5d2644da65cfc249e4caf820943dfbfb559bce1 perf vendor events intel: Update skylakex to 1.31
+887e845f8c1ce5b031dbad95d22e56f2e61bb35c perf vendor events intel: Update tigerlake to 1.13
+f7c2f4f6ce16fb58f7d024f3e1b40023c4b43ff9 ceph: only send metrics when the MDS rank is ready
+8b0da5c549ae63ba1debd92a350f90773cb4bfe7 ceph: try to dump the msgs when decoding fails
+d9d00f71ab5a2b5a47b228f678a8817e8687387f ceph: voluntarily drop Xx caps for requests those touch parent mtime
+23ee27dce30e7d3091d6c3143b79f48dab6f9a3e ceph: add a dedicated private data for netfs rreq
+dc94bb8f271c079f69583d0f12a489aaf5202751 ceph: fix blindly expanding the readahead windows
+2d12ad950b0c2a89d82f5d258309ad23aa70fc38 ceph: trigger to flush the buffer when making snapshot
+ce72d4e0f179340cece90d5b826eb63bbf9fefc0 ceph: issue a cap release immediately if no cap exists
+257e6172ab36ebbe295a6c9ee9a9dd0fe54c1dc2 ceph: don't let check_caps skip sending responses for revoke msgs
+fa700d73494abbd343c47c6f54837c9874c61bbe mmc: Revert "mmc: core: Allow mmc_start_host() synchronously detect a card"
+0a30901b0732a59e038088d3de3e5611db1870d3 Merge branch 'master' into mm-hotfixes-stable
+44f10dbefd5e41b3385af91f855a57aa2afaf40e Merge branch 'master' into mm-hotfixes-stable
+bcc8790057c1f02d20654f68d107973405c1f823 RISC-V: Document that V registers are clobbered on syscalls
+e50db34efdc8cac2f17b8f5d32fddd7b58914ce6 RISC-V: Fix up some vector state related build failures
+782aefb177e8932c558ae55f64206ded7fe1292f Merge patch series "riscv: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION"
+26c38cd802c947401cfbcc285b7d841256b5f17f riscv: vector: only enable interrupts in the first-use trap
+75b59f2a90aa7ccac62e3dcb680dfb967b341431 riscv: vector: clear V-reg in the first-use trap
+5c93c4c72fbc69f0f1cdf43c9402b923314e67c8 selftests: Test RISC-V Vector's first-use handler
+7b83d597c8cab98caf18e2a3e2198c33068fcbad perf lock: Remove stale comments
+69c5c9930d722dee4312a7427f89733bfb4bf984 perf lock contention: Add -x option for CSV style output
+f6027053f82c9b533bb306bff64e4e8c8f92e9e4 perf lock contention: Add --output option
+2aefb4cc904f17aad03acc3e05f44cef7801c497 perf test: Test perf lock contention CSV output
+78a175c4623f66722709494295a0f6754b46f858 perf symbol: Fix uninitialized return value in symbols__find_by_name()
+5f06267b6e6a10dd0cac4eb248fcc51f18c260cc perf: unwind: Fix symfs with libdw
+b2ad9549bfd0c1f74287492a9d9a31a03c97f088 perf evsel amd: Fix IBS error message
+3c675ddffb17a8b1e32efad5c983254af18b12c2 ntfs: Fix panic about slab-out-of-bounds caused by ntfs_listxattr()
+f39244e2f21ee63dc26e57b2c909d9484924e24b fs/ntfs3: Use wrapper i_blocksize() in ntfs_zero_range()
+fdec309c7672cbee4dc0229ee4cbb33c948a1bdd fs/ntfs3: Enhance sanity check while generating attr_list
+c9db0ff04649aa0b45f497183c957fe260f229f6 fs/ntfs3: Return error for inconsistent extended attributes
+97498cd610c0d030a7bd49a7efad974790661162 fs: ntfs3: Fix possible null-pointer dereferences in mi_read()
+ea303f72d70ce2f0b0aa94ab127085289768c5a6 fs/ntfs3: Use __GFP_NOWARN allocation at ntfs_load_attr_list()
+14f527d44de632c8d1d65b42ca1bee26bc426455 fs/ntfs3: Correct checking while generating attr_list
+d6cd7cecfd5e4a189db97876c317d96ebca075fa fs/ntfs3: Fix ntfs_atomic_open
+e0f363a98830e8d7d70fbaf91c07ae0b7c57aafe fs/ntfs3: Mark ntfs dirty when on-disk struct is corrupted
+6a4cd3ea7d771be17177d95ff67d22cfa2a38b50 fs/ntfs3: Alternative boot if primary boot is corrupted
+f1d325b8c75e90487b1691fee0199669ea94fff1 fs/ntfs3: Do not update primary boot in ntfs_init_from_boot()
+f037776165b0643199f50fb105be1c3dcf8e8726 fs/ntfs3: Code formatting
+a81f47c4406e372ce47aff140f3876babac5f01e fs/ntfs3: Code refactoring
+33e70701ed313fa4aca78cde89ef09c794584a9b fs/ntfs3: Add ability to format new mft records with bigger/smaller header
+d5ca77335846944d77d1e67ed841044074550943 fs/ntfs3: Fix endian problem
+7832e123490ac39f85ab5befc2ceee7b25b03acb fs/ntfs3: Add support /proc/fs/ntfs3/<dev>/volinfo and /proc/fs/ntfs3/<dev>/label
+44b4494d5c5971dc8f531c8783d90a637e862880 fs/ntfs3: Correct mode for label entry inside /proc/fs/ntfs3/
+3fbff91afbf0148e937b8718ed865b073c587d9f Merge branch 'master' into mm-hotfixes-stable
+39f49684036d24af800ff194c33c7b2653c591d7 powerpc: allow PPC_EARLY_DEBUG_CPM only when SERIAL_CPM=y
+6cb44bef35ac11724ef22c5ae4f1bc607e2ef3d8 powerpc: Include asm/nmi.c in mobility.c for watchdog_hardlockup_set_timeout_pct()
+abaa02fc944f2f9f2c2e1925ddaceaf35c48528c powerpc: dts: turris1x.dts: Fix PCIe MEM size for pci2 node
+73f1c75d5e6bd8ce2a887ef493a66ad1b16ed704 ALSA: hda/realtek: Add quirks for Unis H3C Desktop B760 & Q760
+1f4a08fed450db87fbb5ff5105354158bdbe1a22 ALSA: hda: fix a possible null-pointer dereference due to data race in snd_hdac_regmap_sync()
+bd55842ed998a622ba6611fe59b3358c9f76773d ALSA: pcm: Fix potential data race at PCM memory allocation helpers
+5e2956ee46244ffba1d345bae8115aa5dc199adc Revert "fortify: Allow KUnit test to build without FORTIFY"
+8cc87c055d28320e5fa5457922f43bc07dec58bd ALSA: hda/realtek: Add quirk for ASUS ROG GX650P
+9abc77fb144fe916fd2f592dc4b8c7bade02e58a ALSA: hda/realtek: Add quirk for ASUS ROG GA402X
+b759a5f097cd42c666f1ebca8da50ff507435fbe ALSA: hda/realtek: Amend G634 quirk to enable rear speakers
+33d7c9c3bf70ed91191a2bedbbc03783b824b5de ALSA: hda/realtek: Add quirk for ASUS ROG G614Jx
+72cea3a3175b50a4875b3c112fb13df20c6218a5 ALSA: hda/realtek: Whitespace fix
+69562eb0bd3e6bb8e522a7b254334e0fb30dff0c fanotify: disallow mount/sb marks on kernel internal pseudo fs
+54cdede08f2f4414629001b124110d656161080a riscv: vdso: include vdso/vsyscall.h for vdso_data
+c1f048a6bd7d7cb42e9bfd79eff85b33894997fe riscv: Enable ARCH_SUSPEND_POSSIBLE for s2idle
+85fadc0d04119c2fe4a20287767ab904c6d21ba1 riscv: move memblock_allow_resize() after linear mapping is ready
+9657e9b7d2538dc73c24947aa00a8525dfb8062c riscv: Discard vector state on syscalls
+52909f1768023656d5c429873e2246a134289a95 RISC-V: drop error print from riscv_hartid_to_cpuid()
+983b9180db96255183c30f69fe43c0db75bf8502 ALSA: seq: ump: fix typo in system_2p_ev_to_ump_midi1()
+5284876d82da4453df0e21f1d243b026281a6558 Merge branch 'topic/midi20' into for-linus
+aeb71e42caae2031ec849a858080d81462cacca9 dt-bindings: riscv: deprecate riscv,isa
+62ba41d2761206664a1fdc998051324457da2dd6 mm: riscv: fix an unsafe pte read in huge_pte_alloc()
+6259f3443c6a376aa077816ac92e9ddeb0817d09 risc-v: Fix order of IPI enablement vs RCU startup
+808ce56e7d6bfc144b18ded8c11819c45a889520 perf test: Fix event parsing test on Arm
+bcd981db12e6d26111609802fc7c358f30a8c72a perf test: Fix event parsing test when PERF_PMU_CAP_EXTENDED_HW_TYPE isn't supported.
+01f23c5f1526f5b6ff744887aa511b9e69d4401b usb: ch9: Replace bmSublinkSpeedAttr 1-element array with flexible array
+89dbb335cb6a627a4067bc42caa09c8bc3326d40 ALSA: jack: Fix mutex call in snd_jack_report()
+5177978ee074d55577aabad7c42b431e8af68fcc RISC-V: Document the ISA string parsing rules for ACPI
+a2492ca86c98f676561f7d318b1e2e1786af0caf riscv: Select HAVE_ARCH_USERFAULTFD_MINOR
+31ca5d49264ba6197aa48a926f6a035ed08b3715 riscv: errata: thead: only set cbom size & noncoherent during boot
+3b472f860c5c73244a9b951c10c289cc9ee080f3 riscv: mm: mark CBO relate initialization funcs as __init
+8500808a991f0e569b3d835a6223848c0717a6c7 riscv: mm: mark noncoherent_supported as __ro_after_init
+e8605e8fdf42642048b7e59141deaf8e4cf06d71 Merge patch series "riscv: some CMO alternative related clean up"
+b54aebd4411134b525a82d663a26b2f135ecb7e8 apparmor: fix use of strcpy in policy_unpack_test
+755a22c74345a7b4c18dbb86f553eeb7895a97c9 AppArmor: Fix some kernel-doc comments
+6d7467957ecdc9018fb860bb60738e997abeaecb apparmor: Return directly after a failed kzalloc() in two functions
+000518bc5aef25d3f703592a0296d578c98b1517 apparmor: fix missing error check for rhashtable_insert_fast
+6600e9f692e36e265ef0828f08337fa294bb330f apparmor: add missing failure check in compute_xmatch_perms
+ba808cb5edfdf032db9e849e194d28169b6efbcd apparmor: aa_buffer: Convert 1-element array to flexible array
+0bac2002b397fda7c9ea81ee0b06a02242958107 apparmor: fix policy_compat permission remap with extended permissions
+6f442d42c0d89876994a4a135eadf82b0e6ff6e4 apparmor: fix profile verification and enable it
+ec6851ae0ab4587e610e260ddda75f92f3389f91 apparmor: fix: kzalloc perms tables for shared dfas
+3f069c4c643225f2b96b4b3f8c30e4445f079d2e apparmor: Fix kernel-doc header for verify_dfa_accept_index
+cb6e45c9a0ad9e0f8664fd06db0227d185dc76ab i2c: xiic: Don't try to handle more interrupt events after error
+05f933d5f7318b03ff2028c1704dc867ac16f2c7 i2c: nomadik: Remove a useless call in the remove function
+6537ed3904a3b3720e5e238dd5d542448fcf94c2 i2c: mpc: Drop unused variable
+5251605f4d297a0eb5d3b7f39f9dcee9e4d0115a ALSA: hda/realtek: Add quirk for ASUS ROG GZ301V
+70806ee18a871140a73a2524a29865e1d904348c Merge tag 'apparmor-pr-2023-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
+22dcc7d77fa463914bc2a2fb4580e6d183ca415d Merge tag 'powerpc-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+4f6b6c2b2f86b7878a770736bf478d8a263ff0bc Merge tag 'riscv-for-linus-6.5-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+986ffe6070d661650f8198069f6f3c228e23bca0 Merge tag 'fsnotify_for_v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+36b93aed9ec07607e26630ecf210e065662f6b0d Merge tag 'ntfs3_for_6.5' of https://github.com/Paragon-Software-Group/linux-ntfs3
+3290badd1bb8c9ea91db5c0b2e1a635178119856 Merge tag 'ceph-for-6.5-rc1' of https://github.com/ceph/ceph-client
+4c8ab068bea2ed7b5b192cd66d436620a0b4f05e Merge tag 'sound-fix-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+8689f4f2ea561dd080118eeb05c0255ac9542905 Merge tag 'mmc-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+2b4f3b4987b56365b981f44a7e843efa5b6619b9 fork: lock VMAs of the parent process when forking
+f96c48670319d685d18d50819ed0c1ef751ed2ac mm: disable CONFIG_PER_VMA_LOCK until its fixed
+a57b4b7f0557be4fa40d57e2c5e71f17e4510248 MAINTAINERS: update ocfs2-devel mailing list address
+5a569db68c6a961cf75993b16bdcc2fed087df9d docs: update ocfs2-devel mailing list address
+191fcdb6c9cf8b738b1628cbcf3af63d545c825c mm/hugetlb.c: fix a bug within a BUG(): inconsistent pte comparison
+08bab74ae653b57bb2bfcec7d499bfe7ff0efe4f squashfs: fix cache race with migration
+6dca4ac6fc91fd41ea4d6c4511838d37f4e0eab2 mm: call arch_swap_restore() from do_swap_page()
+8344a3d44be3d18671e18c4ba23bb03dd21e14ad writeback: account the number of pages written back
+6dedd768f380a6977234891fc3c7e0df656f1908 mailmap: add Markus Schneider-Pargmann
+0d707cdefb3b7f52d23967e1473d24d591329e13 MAINTAINERS: add linux-next info
+028725e73375a1ff080bbdf9fb503306d0116f28 bootmem: remove the vmemmap pages from kmemleak in free_bootmem_page
+ddcd91f4cb42fcc833b0a5e00d4e9f034da95249 mailmap: update manpage link
+d3a808ec787e8cbfee053405f95105b3be3c7743 mailmap: add entries for Heiko Stuebner
+05c56e7b4319d7f6352f27da876a1acdc8fa5cc4 kasan: fix type cast in memory_is_poisoned_n
+fdb54d96600aafe45951f549866cd6fc1af59954 kasan, slub: fix HW_TAGS zeroing with slub_debug
+8ba388c06bc8056935ec1814b2689bfb42f3b89a lib: dhry: fix sleeping allocations inside non-preemptable section
+ad8258e87729e4337569c4b7d30cfdd4b299179d Merge tag 'bitmap-6.5-rc1' of https://github.com/norov/linux
+c206353dfdf026dafd42679cf82d6f0a89781e36 Merge tag 'perf-tools-for-v6.5-2-2023-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next
+8fc3b8f082cc2f5faa6eae315b938bc5e79c332e Merge tag 'hardening-v6.5-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+84dc5aa3f0d861281d353e4b7f4ea03da31e9aba Merge tag 'i2c-for-6.5-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+7fcd473a6455450428795d20db7afd2691c92336 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+c137381f71aec755fbf47cd4e9bd4dce752c054c mm: lock a vma before stack expansion
+33313a747e81af9f31d0d45de78c9397fa3655eb mm: lock newly mapped VMA which can be modified after it becomes visible
+fb49c455323ff8319a123dd312be9082c49a23a5 fork: lock VMAs of the parent process when forking
+946c6b59c56dc6e7d8364a8959cb36bf6d10bc37 Merge tag 'mm-hotfixes-stable-2023-07-08-10-43' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+1c7873e3364570ec89343ff4877e0f27a7b21a61 mm: lock newly mapped VMA with corrected ordering
+
+--===============5852366036711965144==--
