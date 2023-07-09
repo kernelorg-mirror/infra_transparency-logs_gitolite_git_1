@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3478054127743636981=="
+Content-Type: multipart/mixed; boundary="===============5751212383708655382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 09 Jul 2023 21:33:18 -0000
-Message-Id: <168893839818.1930.6686139173653370878@gitolite.kernel.org>
+Date: Sun, 09 Jul 2023 21:33:37 -0000
+Message-Id: <168893841739.2133.6793684339661080985@gitolite.kernel.org>
 
---===============3478054127743636981==
+--===============5751212383708655382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/mfd-axp20x-maple
-    old: 0124ecdc7d3c5cafc97c737fef92de6c760b6a93
-    new: c58590387df49150f4bd778c1c4df0d07996d3f0
-    log: revlist-0124ecdc7d3c-c58590387df4.txt
+  - ref: refs/heads/mfd-cirrus-maple
+    old: 18b04ea1ae00e36c19e3bd31dac770da0e191f84
+    new: bc074b2b44d89ed6f8cdae427155280918185121
+    log: revlist-18b04ea1ae00-bc074b2b44d8.txt
 
---===============3478054127743636981==
+--===============5751212383708655382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0124ecdc7d3c-c58590387df4.txt
+Content-Disposition: attachment; filename=revlist-18b04ea1ae00-bc074b2b44d8.txt
 
-a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
-8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
-6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
-be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
-12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
-e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
-f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
-009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
-c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
-25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
 8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
 ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
 00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
@@ -1048,7 +1038,17 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-2b06fa9266d4d67b96e422e4004e8224569a2c64 # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
-c58590387df49150f4bd778c1c4df0d07996d3f0 mfd: axp20x: Update to use maple tree register cache
+bd2496c629267a6d0d946a745ff9ca73db94f3b0 mfd:: Update Cirrus Logic drivers to use maple tree register caches
+8047d65bd44c98413791c9141dffea9890f77f93 mfd: cs47l15: Update to use maple tree register cache
+8e3a680ce64240aaa4a183efff40a953974679b9 mfd: cs47l24: Update to use maple tree register cache
+a62e21676f55a838dcfa571d419250b0320e3124 mfd: cs47l35: Update to use maple tree register cache
+7912cafc5fad4fd3906deb7283a4514128622eb7 mfd: cs47l85: Update to use maple tree register cache
+56c23ce41cb6225b835cbc95ec98817616156725 mfd: cs47l90: Update to use maple tree register cache
+74a41cf90603ad22e23304022065095fbf8c15c5 mfd: cs47l92: Update to use maple tree register cache
+261fe42bd3906c0c8be164a13d4a1b55c87b645f mfd: wm5102: Update to use maple tree register cache
+e921d2cd0be644222a0085198ffd8a940758d799 mfd: wm5110: Update to use maple tree register cache
+22ef153af78bf6b8e2283fd35a5911b7c0692225 mfd: wm8994: Update to use maple tree register cache
+b805af11c0aae71bb09a8010514882f3509b423d mfd: wm8997: Update to use maple tree register cache
+bc074b2b44d89ed6f8cdae427155280918185121 mfd: wm8998: Update to use maple tree register cache
 
---===============3478054127743636981==--
+--===============5751212383708655382==--
