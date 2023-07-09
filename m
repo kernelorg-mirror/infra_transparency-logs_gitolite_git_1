@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 09 Jul 2023 08:15:50 -0000
-Message-Id: <168889055008.31596.2075326431266868667@gitolite.kernel.org>
+Date: Sun, 09 Jul 2023 09:00:07 -0000
+Message-Id: <168889320768.30088.181548343752653354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,12 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: mingo
 changes:
-  - ref: refs/tags/objtool_urgent_for_v6.5_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 565a22ad03524f4bf7e777b08dc14abf101a4235
+  - ref: refs/heads/master
+    old: 5507174909d573e8def55b81e83125409ef9ddeb
+    new: ac442f6a364dd23bc08086f07b4bc4ef8476a9fe
+    log: |
+         b1472a60a584694875a05cf8bcba8bdf0dc1cd3a x86/smp: Don't send INIT to boot CPU
+         ac442f6a364dd23bc08086f07b4bc4ef8476a9fe Merge branch into tip/master: 'x86/core'
+         
