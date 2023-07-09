@@ -1,57 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============1310972342680830655=="
+Content-Type: multipart/mixed; boundary="===============1264925972016842151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 09 Jul 2023 11:05:20 -0000
-Message-Id: <168890072031.6358.98701425535303681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 09 Jul 2023 11:05:47 -0000
+Message-Id: <168890074731.6593.8663427914142248@gitolite.kernel.org>
 
---===============1310972342680830655==
+--===============1264925972016842151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4abbc21a2513fd3efcbbd4f33a093a6888921c06
-    new: 03e4541c7ef5fabbfd2e51476ab5435c72f29391
+  - ref: refs/heads/linux-6.4.y
+    old: 86d93bb26b40459fe9be7911fe0ecc6bdb72089a
+    new: fb656ac6dd8822be49b9feffc9664b7f4a764b10
     log: |
-         1a5c327c99d21068a83f1b205949c99f7d559e31 fix up missing " in crypto patch
-         03e4541c7ef5fabbfd2e51476ab5435c72f29391 drop unneeed 6.3 patches
+         6e23b66db6a2ef92ccd82388b862fea537cf0f84 mm: disable CONFIG_PER_VMA_LOCK until its fixed
+         1fbeb097b12ff8677b1e8c37e67e910abb23a70c mm: lock a vma before stack expansion
+         d7d7bd91651e75947e862a42146d6c6d72db6735 mm: lock newly mapped VMA which can be modified after it becomes visible
+         06b27022ca1fdd4671aca3091ce18641850be194 mm: lock newly mapped VMA with corrected ordering
+         fd801dbad9089796b5148539e9b7b8fb3c4c5149 mm: call arch_swap_restore() from do_swap_page()
+         1ef7d822913ef55c16feb9092773b57306b2564f bootmem: remove the vmemmap pages from kmemleak in free_bootmem_page
+         952b4bac4dd838939abf74a395395c852311ff2a fork: lock VMAs of the parent process when forking
+         7f08c3ade782548df8e25d5a81644dba690339ca fork: lock VMAs of the parent process when forking, again
+         fb656ac6dd8822be49b9feffc9664b7f4a764b10 Linux 6.4.3-rc1
          
 
---===============1310972342680830655==
+--===============1264925972016842151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688900716 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1688900713-ad4f2473f52531daa794f25b5d26946ae44abf62
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1688900746 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1688900743-6aca8c2368ca63c91f34cc20e46c153726c89906
 
-4abbc21a2513fd3efcbbd4f33a093a6888921c06 03e4541c7ef5fabbfd2e51476ab5435c72f29391 refs/heads/master
+86d93bb26b40459fe9be7911fe0ecc6bdb72089a fb656ac6dd8822be49b9feffc9664b7f4a764b10 refs/heads/linux-6.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSqlGwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7wQP/0Ly0RPT8i5Nb4yghvSR
-EWL9IiCbT2O2b6xhDgdSWgYtqL88dfDyNrbvuKu5a6+exj9pPuKHAcGpZbtl8LpR
-pwc+Xkpt0AfejVG48Q+L0xtlTcT4KHMzfcypJiG581Qi0hcaf6xGQkdKBaH1iqKx
-msB77UJ972oR4PMdsFoxIMs/fZ6OtfUdVF/0XDacgdgAlqns8vK1QVT7UF0B2Log
-AkAFFyNM8hcVMcuMIjibf+Uqe68GDTHpAaQKilJYvwzXdo2xBCamzkk4XOi+iSGG
-fyqdGe1kKbio2LzAzHqErdBaQ16YbTfhh2U4326r0H+bcreNW4X0zqO2WtEluYdZ
-sA82+mjOlXVJSKd8r7zOMfdd0vYTutHGGypAVSTjUIajtaNsCNs8ih9t1v0Dam6l
-l6k75bKvWr68cZj2wnyuuT4S17mmZVFPkbSfMAmSe9TKIHBAzMK/zwrsoN+rWH7U
-DEKxf97D8S5q1eyGlbTyl+Yg58Ld7nc4U9TSSAKHaKBg07hGMJWCGnxF0B9sNcan
-AQeddGhvG/N52FvMN5oQ58aQoW/jsz6P5LjlnbMPY1FjPulEx1A23Fv8meOUuFc1
-mgfbVxMFmBf4uHZBbBNktrOLncF85EafE5XE4OfkGO1U0GEDwpxBnWWBhGJNp5fT
-LHH0tZ0LYx40F6H/mkaJcFDo
-=BbL3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSqlIobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K80P/3xxEo261d2/xISJ+3c3
+j2xhb75LHJ2+62Be13rpQfyF4Byjf597aIsCmjVO7CYF+YfhH2a/6RzU1qWGKRkd
+60yF/OdF5TQILqBeORhZCuCXs2rUcOIo7Cfh83oGavHDoRsN3boaU/4ITuHDZmj2
+h35kVB2nbDswerXSMo6btDR0RBSmYzNgecePgVrLTvzCAQAIAXbLyYNh93l8x4Rr
+DvMdtRMmOy+L7SdSxccvmyv0+DOrC8s/rve6tPuSzn2Yn0Lr9f0WOzrnkpjvLurA
+qNfCJI8OQoetiWBDebajvy5nG29X4GGOPKKTHGDLNORAcSS2t5hnxhoaXFUKkrt6
+CtszIHyI9deNBnCB9TP3Y6U5Jsy4eAAWkxukq+OwUqQM67PZrC3OJpMro+lnKc29
+0fFlJMcyPX9Ap+tztR0WBxs0GLDRhLzKq7FJQn1/wzpnWZHZToSambEIKNJ+KuEc
+jjcAv+R4/bqtiFxRKLnmH/9cxTIl4kud1O7xDs9zTs5ncJV5BT6kxqOSyNjoIeaN
+yLktgzeYYcPC4MsTnZ3KsSJsuG4zCKG1KQDja7onW+m907nj/3YIKBtRGW5Xga/Z
+zDgfjxYuZwMPcKl1XY2CS2BeyuFSKwdyRrprRgUr8dFYJG7RoL19c+NmWbYtLOWT
+9ta1tNrXgZrTFh1pLuieqQ4r
+=FGfn
 -----END PGP SIGNATURE-----
 
---===============1310972342680830655==--
+--===============1264925972016842151==--
