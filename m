@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7941441323936386749=="
+Content-Type: multipart/mixed; boundary="===============6728681360592214137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 09 Jul 2023 21:52:37 -0000
-Message-Id: <168893955766.19326.16224519092797355123@gitolite.kernel.org>
+Date: Sun, 09 Jul 2023 21:52:57 -0000
+Message-Id: <168893957749.19505.15706279409286278542@gitolite.kernel.org>
 
---===============7941441323936386749==
+--===============6728681360592214137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-signal-memcpy-fix
-    old: 310bab23be1d0a93f4458949f4de7d89b7942c58
-    new: 0c85eaa2e34e914068b6bcd98906996ad3b0a63c
-    log: revlist-310bab23be1d-0c85eaa2e34e.txt
+  - ref: refs/heads/iio-maple
+    old: 02e5aa0ab2547d6d524d5ec3be093b13fde0fda0
+    new: 1aeb02bee908ed68813d1279021b64cd7eda0979
+    log: revlist-02e5aa0ab254-1aeb02bee908.txt
 
---===============7941441323936386749==
+--===============6728681360592214137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-310bab23be1d-0c85eaa2e34e.txt
+Content-Disposition: attachment; filename=revlist-02e5aa0ab254-1aeb02bee908.txt
 
-a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
-8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
@@ -1048,7 +1046,9 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-dcadf5dc432cc0bfb63935f78192696e9a2f531e # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
-0c85eaa2e34e914068b6bcd98906996ad3b0a63c kselftest/arm64: Exit streaming mode after collecting signal context
+f2d7daa3ad763aff09461aac961f8bc3a1bc8c1d iio: Use maple tree register cache for single register I/O devices
+a7a05504ac5e41ae2496d5c515cde93b2fdaed07 iio: apds9960: Use maple tree register cache
+0e81c63068229579a7fb9369a43b278949047422 iio: max44000: Use maple tree register cache
+1aeb02bee908ed68813d1279021b64cd7eda0979 iio: mlx90632: Use maple tree register cache
 
---===============7941441323936386749==--
+--===============6728681360592214137==--
