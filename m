@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1689887717507044199=="
+Content-Type: multipart/mixed; boundary="===============3693103379696901592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 09 Jul 2023 21:53:25 -0000
-Message-Id: <168893960547.19765.639319930934511360@gitolite.kernel.org>
+Date: Sun, 09 Jul 2023 21:54:16 -0000
+Message-Id: <168893965694.20157.3976358540797516426@gitolite.kernel.org>
 
---===============1689887717507044199==
+--===============3693103379696901592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-fgt
-    old: 8b9fec5402a507b33d5b8aaaac6595d15fb4a216
-    new: c33b985b5ce016ea85258f09b9bee60d1e7e371c
-    log: revlist-8b9fec5402a5-c33b985b5ce0.txt
+  - ref: refs/heads/pci-imx-regulator-cleanup
+    old: 2e3a7d0417fcda69372edc2298df88b845e1f95e
+    new: 1e9e33f27b8b7f97cbdc3f78d8867d93bbf70fcb
+    log: revlist-2e3a7d0417fc-1e9e33f27b8b.txt
 
---===============1689887717507044199==
+--===============3693103379696901592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b9fec5402a5-c33b985b5ce0.txt
+Content-Disposition: attachment; filename=revlist-2e3a7d0417fc-1e9e33f27b8b.txt
 
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
@@ -1047,8 +1048,7 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-b569e9facb6fc7b38d2865aee1256ea4d7b0b2cf KVM: arm64: Support for per-guest fine grained traps configuration
-5eda03777c048e649f4ecac43079b15742073d15 arm64: Add feature detection for fine grained traps
-c33b985b5ce016ea85258f09b9bee60d1e7e371c KVM: arm64: Move FGT value configuration to vCPU state
+8f32c8e7737613c43f7907cf9847a3a086ab654d # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
+1e9e33f27b8b7f97cbdc3f78d8867d93bbf70fcb PCI: dwc: Provide deinit callback for i.MX
 
---===============1689887717507044199==--
+--===============3693103379696901592==--
