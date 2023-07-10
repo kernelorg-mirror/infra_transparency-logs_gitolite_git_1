@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4288709065150119482=="
+Content-Type: multipart/mixed; boundary="===============1183793054955653360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 10 Jul 2023 06:21:55 -0000
-Message-Id: <168897011568.6023.12634730961435074535@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 06:22:07 -0000
+Message-Id: <168897012748.6184.7473347603130361461@gitolite.kernel.org>
 
---===============4288709065150119482==
+--===============1183793054955653360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: ffa5f7a3bf28c1306eef85d4056539c2d4b8eb09
+  - ref: refs/heads/usb-linus
+    old: 45a3e24f65e90a047bef86f927ebdc4c710edaa1
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ffa5f7a3bf28-06c2afb862f9.txt
+    log: revlist-45a3e24f65e9-06c2afb862f9.txt
 
---===============4288709065150119482==
+--===============1183793054955653360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffa5f7a3bf28-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-45a3e24f65e9-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============4288709065150119482==--
+--===============1183793054955653360==--
