@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5968090897349353965=="
+Content-Type: multipart/mixed; boundary="===============5927192702775171171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 10 Jul 2023 05:13:08 -0000
-Message-Id: <168896598873.20944.3686774590171362786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 10 Jul 2023 05:14:29 -0000
+Message-Id: <168896606959.21508.16623560826332680766@gitolite.kernel.org>
 
---===============5968090897349353965==
+--===============5927192702775171171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: bed30984abaf83b73334c0d6d7f7ec7c0e6e419a
+  - ref: refs/heads/for-kernelci
+    old: 2b8cc5858a07ab75ce98cae720e263e1c1b0d1d9
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-bed30984abaf-06c2afb862f9.txt
+    log: revlist-2b8cc5858a07-06c2afb862f9.txt
 
---===============5968090897349353965==
+--===============5927192702775171171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bed30984abaf-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-2b8cc5858a07-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============5968090897349353965==--
+--===============5927192702775171171==--
