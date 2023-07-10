@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============0384631902583543332=="
+Content-Type: multipart/mixed; boundary="===============3823256822797906259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 10 Jul 2023 06:22:37 -0000
-Message-Id: <168897015723.6587.14955104955487444033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
+Date: Mon, 10 Jul 2023 06:30:24 -0000
+Message-Id: <168897062428.12507.17933305697380401375@gitolite.kernel.org>
 
---===============0384631902583543332==
+--===============3823256822797906259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/gnss
-user: johan
+repo: pub/scm/linux/kernel/git/wens/linux
+user: wens
 changes:
-  - ref: refs/heads/gnss-next
-    old: 44c026a73be8038f03dbdeef028b642880cf1511
+  - ref: refs/heads/master
+    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-44c026a73be8-06c2afb862f9.txt
+    log: revlist-6995e2de6891-06c2afb862f9.txt
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
 
---===============0384631902583543332==
+--===============3823256822797906259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44c026a73be8-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-6995e2de6891-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1054,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============0384631902583543332==--
+--===============3823256822797906259==--
