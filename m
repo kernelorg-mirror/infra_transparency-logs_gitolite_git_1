@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2380334397970882002=="
+Content-Type: multipart/mixed; boundary="===============6325831358847650943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 10 Jul 2023 00:33:39 -0000
-Message-Id: <168894921918.5330.4433713656006984456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Mon, 10 Jul 2023 00:38:56 -0000
+Message-Id: <168894953654.10378.15963523523413822137@gitolite.kernel.org>
 
---===============2380334397970882002==
+--===============6325831358847650943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/master
-    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-6995e2de6891-06c2afb862f9.txt
-  - ref: refs/tags/v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/heads/apparmor-next
+    old: 97a79eea179721a324532c2b09ecd3f99d1f23a5
+    new: afad53575a938ceb557227ecfeb0dda59d668d4e
+    log: revlist-97a79eea1797-afad53575a93.txt
 
---===============2380334397970882002==
+--===============6325831358847650943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6995e2de6891-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-97a79eea1797-afad53575a93.txt
 
-dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
-20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
-a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
-8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
@@ -1053,5 +1046,9 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
+0897fcb1c1e7316375166e0a665237bce2391a09 apparmor: make aa_set_current_onexec return void
+8de4a7de1950e88c233b105faf24666db348e65a apparmor: remove unused macro
+180cf257998c5f136f76b8899ef6ec57b410680b apparmor: advertise availability of exended perms
+afad53575a938ceb557227ecfeb0dda59d668d4e apparmor: use passed in gfp flags in aa_alloc_null()
 
---===============2380334397970882002==--
+--===============6325831358847650943==--
