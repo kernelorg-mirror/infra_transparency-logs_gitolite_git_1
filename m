@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 10 Jul 2023 17:45:50 -0000
-Message-Id: <168901115092.11824.11804063361837780223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Mon, 10 Jul 2023 17:47:37 -0000
+Message-Id: <168901125736.12543.9129198007946556586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/master
-    old: a90a5f8db6653b5998b3a8c663deb05e6f74906d
-    new: fada7f02d80f9291c44fc8ee483d1b8c9a4fb256
+  - ref: refs/heads/patchset/fchmodat4/v3.1
+    old: d24aacc89b6b7460e1353e04f571610fe92895c4
+    new: 05a8ebc20f81621aed16080357ae296c2ad5a8d6
     log: |
-         fada7f02d80f9291c44fc8ee483d1b8c9a4fb256 foo
+         05a8ebc20f81621aed16080357ae296c2ad5a8d6 selftests: add fchmodat4(2) selftest
          
