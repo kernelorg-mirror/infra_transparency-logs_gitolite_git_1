@@ -1,31 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4157687834488702199=="
+Content-Type: multipart/mixed; boundary="===============4738056722411696199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 10 Jul 2023 19:43:48 -0000
-Message-Id: <168901822813.3278.1321045563640720359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Mon, 10 Jul 2023 19:45:39 -0000
+Message-Id: <168901833935.5638.12660544875678791523@gitolite.kernel.org>
 
---===============4157687834488702199==
+--===============4738056722411696199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/dt/header-cleanups
-    old: 3118a5812ec5b3b83ca38f2d1c4162ccda268c0d
-    new: 28b80b0c178e0b987d585e2cee27d61f20447f64
-    log: revlist-3118a5812ec5-28b80b0c178e.txt
+  - ref: refs/heads/modules-next
+    old: 0eeaf1eb40a34fddd1d568a9b32c3d6669238743
+    new: c05780ef3c190c2dafbf0be8e65d4f01103ad577
+    log: revlist-0eeaf1eb40a3-c05780ef3c19.txt
 
---===============4157687834488702199==
+--===============4738056722411696199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3118a5812ec5-28b80b0c178e.txt
+Content-Disposition: attachment; filename=revlist-0eeaf1eb40a3-c05780ef3c19.txt
 
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
+6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
+be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
+12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
+e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
+f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
+009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
+c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
+25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
+8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
+ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
+00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
+698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
+64ee9163fe1b911aa0476af06ee0afd23fdf7388 f2fs: compress: fix to check validity of i_compress_flag field
+f240d3aaf5a1552ecb75445b47b1ca957d5151d2 f2fs: do more sanity check on inode
+94c8431fb46bfbe51bd3eb68687334797af0a221 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+c571fbb5b59a3741e48014faa92c2f14bc59fe50 f2fs: add helper to check compression level
+dde38c03b351749f682db087df5202b55c7c1b40 f2fs: cleanup MIN_INLINE_XATTR_SIZE
 ac1ee161dec5801d9bbd874ef69cd0ff1e8053b6 f2fs: add f2fs_ioc_get_compress_blocks
 c9667b19e2cf13735fe2620f9d97b788897cd4af f2fs: check zone write pointer points to the end of zone
 9ac00e7cef106b66611e131f59f61f5ae35cf726 f2fs: do not issue small discard commands during checkpoint
@@ -1029,26 +1049,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-d028b5a0c6865299c10eab0de89a44203c568531 DT header disentangling, part 1
-9670410042267bec2a23e964aef0cca8b9488c17 of: Move of_device_{add,register,unregister} to platform.c
-e183982f9f0bf748f73eeefe1ce440305cfd35a9 drm: etnaviv: Replace of_platform.h with explicit includes
-6a346040edd54e36e425ae185738fcefae8e604f ARM: imx: Drop unnecessary includes
-055c188ca9e3888d36ffdfe9e3d5ed2f91af4624 memory: tegra: Add explicit of.h and of_platform.h includes
-f18815393d3732df646dae2f9318792598357674 pinctrl: freescale/imx1: Add explicit platform_device.h and of_platform.h includes
-9161656f32ed31dea480c315f17eee7b73607cad WIP gpu: host1x: Add explicit of_device.h include
-a01fb585bf814fc298bde982f2c0c9104b1f771d WIP drm: vc4: Add explicit of_device.h include
-cfe4ec0a4fd379c9cb7317cc6d78841b7c55e1a2 bus: imx-weim: Use of_device_get_match_data()
-4d300f649ebd25cba2cc43fe028f6f418017756a simple-pm-bus: Add explicit DT includes
-bab8adbc9f2a0c199704d80c0f815b7c138bc85d Adjust headers for of_device_(add|register|unregister)
-975dd1dccf38209dd517215a5d79474b530acba4 platform_device.h include fixes
-9cbd93990c9d9a728793fe6678a7db875cc610f0 clk: Cleanup platform_device.h includes
-b16f0aaa52a60d3c08921581dbddf007e081a9a6 spi: Cleanup platform_device.h includes
-b784450830a2c9f1f9481ab63be1ed1da8deeb47 net: qcom emac: Add explicit of.h include
-a80ee83657ea5133207b4f9fa8bc63af4f353718 ALSA: aoa: Clean-up DT includes
-98481ab45b0314632324960fe99e375aea2f002a edac: highbank: Fix DT includes
-43853c704f8113df971d419cd65b09a918f7582b genalloc: fix DT includes
-4b0a6d48b4f5e9291fb087c3d2a45e0e0749096e Use of_device_get_match_data
-3cfb021fe23a760f4f1d4ef834356217730e4c3e DT include cleanups
-28b80b0c178e0b987d585e2cee27d61f20447f64 of: header cleanups
+c05780ef3c190c2dafbf0be8e65d4f01103ad577 module: Ignore RISC-V mapping symbols too
 
---===============4157687834488702199==--
+--===============4738056722411696199==--
