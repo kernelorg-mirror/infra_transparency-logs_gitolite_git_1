@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 10 Jul 2023 15:38:19 -0000
-Message-Id: <168900349984.11816.11495207175034391435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 10 Jul 2023 15:39:02 -0000
+Message-Id: <168900354282.12179.16587937430471080295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/v6.5-rc1-dts
+  - ref: refs/heads/origin-master
     old: 0000000000000000000000000000000000000000
-    new: dc84902ce286f9465cbcc16baa28900bde2a0922
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
