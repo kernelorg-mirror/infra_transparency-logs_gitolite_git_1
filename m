@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4280056698774568011=="
+Content-Type: multipart/mixed; boundary="===============2382223585703705483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 10 Jul 2023 16:49:14 -0000
-Message-Id: <168900775494.31148.1848189514956586192@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 16:49:19 -0000
+Message-Id: <168900775902.31230.942708985779260650@gitolite.kernel.org>
 
---===============4280056698774568011==
+--===============2382223585703705483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: fe1de55167963a1c0ebe1579e37a8a41495f0a81
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-fe1de5516796-06c2afb862f9.txt
 
---===============4280056698774568011==
+--===============2382223585703705483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689007754 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689007758 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1689007753-14a8e97ae00205617264a8d5967c769e2870aecb
+nonce 1689007757-2000f0bbe89d418f7d056cddaed0ea5291f44179
 
-fe1de55167963a1c0ebe1579e37a8a41495f0a81 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/driver-core-linus
+fe1de55167963a1c0ebe1579e37a8a41495f0a81 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSsNoobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9r8QALBDrTnokaN+E/rZZfo9
-Wg/EZ9v1kt9g1V5cZYB6BFeYE88px4YnXshQsKs+Xcz3TA/Lx8Wamsas5UguWYQB
-t7RQwtu/EyyUsubbrAoFvI/+P70fPT24Cd8dYE2p2VQrVC2g1zj4KhEakXicZd7u
-U6UpkdpKmCRa2dCqm9085K6O/MxTPuDiAqh+P+YoapSj+0NTMTWduvyCcpoMJ7k1
-S9uE3NhkjuXqAxMIdD2pFlxYB/h90wWp1JQg1nAmSu2/O1MlB1c5uQ+FdHXQuj1u
-VXJO3A1q25yWLgJNh8yH24URdHDtWOJWSwe1nvnehsufCC1s41AleFG+1zcLwxHF
-M61ORf8aWj87APPlEFLzThhEQd5RrLk7HqaQWxsKJefIeo9pehnxHF3b67AFUWkv
-daRFVXOWFe9VwnslJv6AvkRW5AG1lYr/0druOdeXWmqc8187ze7OTZId/g28hH6d
-8xHFmaHiP67dJ7OTbBe8G9s/V8A3/3vYdMFxxFLQzWNziu2uSjt6hMIbmMwHuzVJ
-cCPv7O+yZCiChlUJvGs2nETI0euK+azqzQxDslHPVHYKss9GpMrTyQCmCkQSmh28
-0ql/xsc9N+nf290+0NnkKBRI9yFEP915Z8eDuFZPlaof0rSbDco5SlYdlJb8WnRg
-nTb4ilOLjvNJAcvl8/Oaas4i
-=O09w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSsNo4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CasP/0S6ZE46gESAdybwXJor
+3IJxOWUp3BQMGeIlL9RStiEW4WV+qdN5T5Q8Dwp9woDitzMtEaZy8roQQlo+tEKt
+lDs9tgcs/NsK7ovMVwCZG9uZZVQdvKgSbhtgPrX20ij99PSdJDvT9rGp/VjdJAbF
+TTOWKpwD8FffnZOran7MOZpLyW5HN9oKN9IA80h4qu3An32dLIOSKcrLGL+YDFrc
+LJQ16LzjCZTv8clgwQyN5jts+yiuQkhK8wY5rGzgNNRN/O+c98sgj8cVb2r1INRJ
+AAE1pGAQiBuY4REBvqFj6qGPRE2Hcfo1lWOLT8JhZeiA7w0Ai7cEEiURoUR2BrhJ
+nVx9QMJZpNwZhymiL0baVecjbJ8MoLEVe5gf886ecyovYptOvvC88m6fF35lslpE
+yAlIXxuCSgq0U6z+7DYgNsKjHf2bDGujzMwv0mKuA12MFN9op3+761uBkp12VcMO
+9W5dRqoRcq00RnMcUlJj0BTBs6Oaolm8z+Nvb+HCL3hCtmstn7LqEwbnbmGHv3/1
+47uwODghutOFWLmYwXKhVTnqGE3zIhg+oq4HW3dBfPJ7lmaN0xaUe9IEMWfevIQu
+8EQbw0n50+w3wEZf02vJz7jwjCt1xy1IW7mPCVS9t7c+59ThONN12iyv/+cGogZT
+ZLrWmgITBxX6iwKtudRV7A6l
+=NI3w
 -----END PGP SIGNATURE-----
 
---===============4280056698774568011==
+--===============2382223585703705483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -739,4 +739,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============4280056698774568011==--
+--===============2382223585703705483==--
