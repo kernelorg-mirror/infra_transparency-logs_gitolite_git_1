@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0179146178223969544=="
+Content-Type: multipart/mixed; boundary="===============1605102708304757874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 10 Jul 2023 09:55:30 -0000
-Message-Id: <168898293057.20245.2022454012497063187@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 09:56:45 -0000
+Message-Id: <168898300504.20757.16822654538490358435@gitolite.kernel.org>
 
---===============0179146178223969544==
+--===============1605102708304757874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: conor
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ac9a78681b92-06c2afb862f9.txt
-  - ref: refs/heads/at91-soc
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ac9a78681b92-06c2afb862f9.txt
+  - ref: refs/heads/at91-next
+    old: 20c5a786467548f7e7b5a132ad2d3101b011bad3
+    new: 47508c7ba8db77b69de61aae67709799aa9c5d77
+    log: revlist-20c5a7864675-47508c7ba8db.txt
 
---===============0179146178223969544==
+--===============1605102708304757874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-20c5a7864675-47508c7ba8db.txt
 
-dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
-20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
-a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
@@ -1054,5 +1047,8 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
+49bf59df2d108fa7b66f891d908408dbe810f64e arm64: dts: microchip: minor whitespace cleanup around '='
+8566662f2665431f4dcae7efded82525f498069d ARM: dts: microchip: minor whitespace cleanup around '='
+47508c7ba8db77b69de61aae67709799aa9c5d77 Merge branches 'microchip-dt64' and 'at91-dt' into at91-next
 
---===============0179146178223969544==--
+--===============1605102708304757874==--
