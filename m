@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1605102708304757874=="
+Content-Type: multipart/mixed; boundary="===============8750175634725693327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 10 Jul 2023 09:56:45 -0000
-Message-Id: <168898300504.20757.16822654538490358435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Mon, 10 Jul 2023 10:00:17 -0000
+Message-Id: <168898321789.23732.4864498499318817535@gitolite.kernel.org>
 
---===============1605102708304757874==
+--===============8750175634725693327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: conor
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/at91-next
-    old: 20c5a786467548f7e7b5a132ad2d3101b011bad3
-    new: 47508c7ba8db77b69de61aae67709799aa9c5d77
-    log: revlist-20c5a7864675-47508c7ba8db.txt
+  - ref: refs/heads/b4/dma_iommu
+    old: 5a43baad240a00d0a9d82fa5d99f4ea11b612ae3
+    new: acfe9f3ee4c02aaceb63421a142347cde31897b4
+    log: revlist-5a43baad240a-acfe9f3ee4c0.txt
 
---===============1605102708304757874==
+--===============8750175634725693327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20c5a7864675-47508c7ba8db.txt
+Content-Disposition: attachment; filename=revlist-5a43baad240a-acfe9f3ee4c0.txt
 
-8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
-6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
-be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
 e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
 f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
@@ -1047,8 +1044,11 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-49bf59df2d108fa7b66f891d908408dbe810f64e arm64: dts: microchip: minor whitespace cleanup around '='
-8566662f2665431f4dcae7efded82525f498069d ARM: dts: microchip: minor whitespace cleanup around '='
-47508c7ba8db77b69de61aae67709799aa9c5d77 Merge branches 'microchip-dt64' and 'at91-dt' into at91-next
+c613b6dd8d11198f9d7669d28d61db7a478c4e5f iommu/dma: s390 DMA API conversion and optimized IOTLB flushing
+16e86b24a3e5264f8467a8f98cb671c4b0ee4b9a iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
+c0f6d9be22360b957b8f276083b67bacaa65e2a2 s390/pci: prepare is_passed_through() for dma-iommu
+74fcc8fb23b89fe8dfb1f77302d8999f5debca1e s390/pci: Use dma-iommu layer
+47c25b8dc53a16759d8f6066995f31c89914c9ee iommu/dma: Allow a single FQ in addition to per-CPU FQs
+acfe9f3ee4c02aaceb63421a142347cde31897b4 iommu/dma: Use a large flush queue and timeout for shadow_on_flush
 
---===============1605102708304757874==--
+--===============8750175634725693327==--
