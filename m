@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7900008573575387237=="
+Content-Type: multipart/mixed; boundary="===============0384631902583543332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 10 Jul 2023 06:22:27 -0000
-Message-Id: <168897014779.6433.17375924036355266953@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 06:22:37 -0000
+Message-Id: <168897015723.6587.14955104955487444033@gitolite.kernel.org>
 
---===============7900008573575387237==
+--===============0384631902583543332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/gnss-next
     old: 44c026a73be8038f03dbdeef028b642880cf1511
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-44c026a73be8-06c2afb862f9.txt
 
---===============7900008573575387237==
+--===============0384631902583543332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============7900008573575387237==--
+--===============0384631902583543332==--
