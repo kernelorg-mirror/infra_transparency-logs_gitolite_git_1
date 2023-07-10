@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4688104252897020338=="
+Content-Type: multipart/mixed; boundary="===============4897606732603382002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 10 Jul 2023 05:03:50 -0000
-Message-Id: <168896543075.12726.16386526242611221965@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 05:03:54 -0000
+Message-Id: <168896543463.12799.17387541288941660869@gitolite.kernel.org>
 
---===============4688104252897020338==
+--===============4897606732603382002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,146 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.5
-    old: f470c3a03eb3099a6dd8ca58ffddd9a9a7d93c9d
-    new: 798f1df86e5709b7b6aedf493cc04c7fedbf544a
-    log: revlist-f470c3a03eb3-798f1df86e57.txt
+  - ref: refs/heads/for-next
+    old: e62f7f072b12feceb8f350dc9f99ef189d61ffd8
+    new: 6faff7e892237232ddc8d6071a591198df2d9a30
+    log: revlist-e62f7f072b12-6faff7e89223.txt
 
---===============4688104252897020338==
+--===============4897606732603382002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f470c3a03eb3-798f1df86e57.txt
+Content-Disposition: attachment; filename=revlist-e62f7f072b12-6faff7e89223.txt
 
-be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
-12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
-e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
-f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
-009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
-c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
-25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
-8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
-ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
-00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
-698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
-64ee9163fe1b911aa0476af06ee0afd23fdf7388 f2fs: compress: fix to check validity of i_compress_flag field
-f240d3aaf5a1552ecb75445b47b1ca957d5151d2 f2fs: do more sanity check on inode
-94c8431fb46bfbe51bd3eb68687334797af0a221 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
-c571fbb5b59a3741e48014faa92c2f14bc59fe50 f2fs: add helper to check compression level
-dde38c03b351749f682db087df5202b55c7c1b40 f2fs: cleanup MIN_INLINE_XATTR_SIZE
-ac1ee161dec5801d9bbd874ef69cd0ff1e8053b6 f2fs: add f2fs_ioc_get_compress_blocks
-c9667b19e2cf13735fe2620f9d97b788897cd4af f2fs: check zone write pointer points to the end of zone
-9ac00e7cef106b66611e131f59f61f5ae35cf726 f2fs: do not issue small discard commands during checkpoint
-3f8ac7da8c6efd72908e0a16d4a149e79f356a00 f2fs: remove redundant assignment to variable err
-c3355ea9d82fe6b1a4226c9a7d311f9c5715b456 f2fs: convert to use sbi directly
-6201c478dedcf7c50361b23b5c4d4f41a68921ac f2fs: refactor struct f2fs_attr macro
-2724daf6c24c58099a758d1e842d39b10133b065 f2fs: compress tmp files given extension
-396d0a28836d42bef595a8843533285abaf64ff7 f2fs: update mtime and ctime in move file range method
-cf2423a7555c4b012576c7282fb495ce739d50d4 f2fs: remove unneeded page uptodate check/set
-e94f1f96f108ba96c0ed8bf3fbdd8ee6a6703880 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook
-a15b51375684c2bfa6017bb185139477e7a3b96c Merge branch 'for-next' into for-linus
-0ab83a6459604c566a745875c4df1aec8e8866c0 RDMA/bnxt_re: Remove duplicated include in bnxt_re/main.c
-d1d7fc3bf6d2e6fb5d81a24dbb4120779a447b33 RDMA/bnxt_re: Fix spelling mistake "priviledged" -> "privileged"
-d6048fdc870240e5020343f8af0c825829c232bd Merge tag 'asoc-v6.5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-90fc660e8479c5da5bb99a4fb3e0d266fa041b15 hwmon: max31827: Switch back to use struct i2c_driver::probe
-1ea7ca1b090145519aad998679222f0a14ab8fce dax: enable dax fault handler to report VM_FAULT_HWPOISON
-9a6c0e28e215535b2938c61ded54603b4e5814c5 HID: wacom: Use ktime_t rather than int when dealing with timestamps
-87b5374b49c3d99f9c581c59e5ad47d13294b66d Merge branches 'acpi-scan', 'acpi-pm', 'acpi-resource' and 'acpi-ec'
-9fc520a6fe14cb7fadd64718375da1572f5acf6a Merge branches 'acpi-x86', 'acpi-video', 'acpi-soc' and 'acpi-tables'
-f188d30087480eab421cd8ca552fb15f55d57f4d netfilter: nf_conntrack_sip: fix the ct_sip_parse_numerical_param() return value.
-3e70489721b6c870252c9082c496703677240f53 netfilter: nf_tables: unbind non-anonymous set if rule construction fails
-b389139f12f287b8ed2e2628b72df89a081f0b59 netfilter: nf_tables: fix underflow in chain reference counter
-0586d26339ed4a84cfd60333daadb853663066fd Merge branches 'acpi-thermal' and 'acpi-button'
-01fee479846bb13139d339b11e04bf327200cac9 Merge branches 'acpi-apei', 'acpi-pad' and 'acpi-misc'
-a33677b9211b6c328ad359b072043af94f7c9592 backlight: led_bl: Take led_access lock when required
-4af191d60d22184e8c529068a8e9a6c77eee1706 Merge branches 'pm-cpufreq' and 'pm-cpuidle'
-a6b6790c020a01cc3e9353059d98bbe60c2fd105 mfd: Switch two more drivers back to use struct i2c_driver::probe
-9b8f36398e52840a6fe3a56d65be5f45bad4525a Merge branches 'pm-sleep' and 'pm-domains'
-645a829e03384a235b3760959d4ebe420a0f2027 blk-wbt: don't create wbt sysfs entry if CONFIG_BLK_WBT is disabled
-71b8642e79f277459555629f2bea1a8d1fed307e blk-wbt: remove dead code to handle wbt enable/disable with io inflight
-06257fda83ebfd1c33fb992e41dba7be4e1184d4 blk-wbt: cleanup rwb_enabled() and wbt_disabled()
-eebc21d12f56c1e09a163abf91e351fa2a55a938 blk-iocost: move wbt_enable/disable_default() out of spinlock
-6d85ebf95c44e52337ca1d07f0db4b435d1e6762 blk-sysfs: add a new attr_group for blk_mq
-e155a3660784badaa48bd7bb868dd7da9e45ae7d Merge branches 'clk-platform', 'clk-i2c', 'clk-mediatek', 'clk-i2cid' and 'clk-vc5' into clk-next
-6e11940ab392cf804c1f124cae960f2a3a5e079c Merge branches 'clk-renesas', 'clk-determine-rate', 'clk-allwinner', 'clk-samsung' and 'clk-amlogic' into clk-next
-b9a40506a2cb626da3f21c6d494a76879e3141d7 Merge branches 'clk-imx', 'clk-microchip', 'clk-cleanup', 'clk-bindings', 'clk-ti' and 'clk-kasprintf' into clk-next
-c89a27f4f8fbf4dcbaf1738b42b8c68e160d7cda Merge branch 'powercap'
-f46117bf9d641aec96866bb6add83b4f34ee20e9 Merge back earlier Intel thermal control material for 6.5.
-be5b52dc144415a88ce785575ec9b6d989fc5ac6 Merge tag 'nios2_updates_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
-e5d10d1d1aa4c7274bf7ff54660832004800655a Merge branch '20230608125315.11454-2-srinivas.kandagatla@linaro.org' into clk-for-6.5
-f30e04303f3dd23e3adf175f7257c4fc504f73cf dt-bindings: input: mediatek,pmic-keys: Fix typo in "linux,keycodes" property name
-74f02dd73906f5a0e48dfc39b8f3adc03ad86274 dt-bindings: auxdisplay: holtek: Add missing type for "linux,no-autorepeat"
-9d9a9bf07ed9b09af3696997f02a557b428be092 Merge tag 's390-6.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-a1257b5e3b7f8a21faf462d0118067fe31e71ffb Merge tag 'rust-6.5' of https://github.com/Rust-for-Linux/linux
-1f268d6d2c244baf2c7769f33782ca532717723d Merge tag 'auxdisplay-6.5' of https://github.com/ojeda/linux
-5c1c88cddb79d3ed3fb1d02a3eaf529eded76f05 Merge tag 'v6.5/fs.ntfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-64bf6ae93e08787f4a6db8dddf671fd3a9c43916 Merge tag 'v6.5/vfs.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a8460ba59464c038c817844f67a74fe847b56613 Merge tag 'thermal-v6.5-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into thermal
-2eedfa9e27ed7b22d9c06d8d072ad2dbce4fd635 Merge tag 'v6.5/vfs.rename.locking' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-1f2300a7382119a857cc09e95db6e5d6fd813163 Merge tag 'v6.5/vfs.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-c0a572d9d32fe1e95672f24e860776dba0750a38 Merge tag 'v6.5/vfs.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-f7976a6493b3f00c4d057a37d9e63c322154ef8c Merge tag 'nfsd-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-4d483ab702c5cd5e8953a123e0aab734af09cc77 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-74774e243c5ff0903df22dff67be01f2d4a7f00c Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-a274a4e65f78cc892c207780b9d3a4fc560e88f1 Merge branch 'pci/aer'
-0f32114ea0747ed94be2618cdfd073a90a026550 Merge branch 'pci/aspm'
-1abb47390350a1bd5430390e296492e6248865b2 Merge branch 'pci/enumeration'
-db5ccb2eda47ab4ec5ac6cece0032d75a995d5a4 Merge branch 'pci/hotplug'
-7e229f0e054b148f9bf8eb9f70b8b18ee4677936 Merge branch 'pci/pm'
-d0b7b3a422f1f550a1bac9fc3404196c10232d14 Merge branch 'pci/resource'
-283810ac54a2b8a179fd4f30fd9f05907b397fcd Merge branch 'pci/virtualization'
-30fec3b884589b6cd9f441c139220c5eb2ed55d3 Merge branch 'pci/misc'
-41370553c01b4a0ff8663db9badc9232262c55ea Merge branch 'pci/controller/dt'
-375328faa2c546f28719c68a3d88e043e878debd Merge branch 'pci/controller/cadence'
-99f7b809067be43141027f4bbb6af7b55f854554 Merge branch 'pci/controller/dwc'
-69fa3ef3d2699acdf0ac917cc070c0e9cfd61b74 Merge branch 'pci/pci/ftpci100'
-5c13b3c19a726fc0918ef221759bd225dadb1923 Merge branch 'pci/controller/qcom'
-9cd5f2cec7e51c7254cda228e6b9950e994be401 Merge branch 'pci/controller/rcar'
-9f5eb1bf55121a5729c7ca27b4276b51d4ae3048 Merge branch 'pci/controller/rockchip'
-b5abb12cdd297339b30e95bc3e5e8e26723cf923 Merge branch 'pci/controller/vmd'
-d8c226ac1f748d0eac54ef869a4f41b26bc4f825 Merge branch 'pci/controller/endpoint'
-6ecac465eee887de7ceda7ffe3bccf538eb786bc Merge branch 'pci/controller/remove-void-callbacks'
-098c5dd9cf96fc6d7f35429561ef58cd7c5fcecf Merge tag 'erofs-for-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-e940efa936be65866db9ce20798b13fdc6b3891a Merge tag 'zonefs-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-cc423f6337d0a5ff1906f3b3d465d28c0d1705f6 Merge tag 'for-6.5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-3eccc0c886b1796f95a289c9d127c8ca1a254bd5 Merge tag 'for-6.5/splice-2023-06-23' of git://git.kernel.dk/linux
-0aa69d53ac7c30f6184f88f2e310d808b32b35a5 Merge tag 'for-6.5/io_uring-2023-06-23' of git://git.kernel.dk/linux
-a0433f8cae3ac51f59b4b1863032822aaa2d8164 Merge tag 'for-6.5/block-2023-06-23' of git://git.kernel.dk/linux
-61dc651cdfe85066e1371dd1bd8aee685bd6ec75 Merge tag 'nf-next-23-06-26' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-cef2dd76531fda106fa698b6b7ee3e87b1622c08 Merge tag 'core-debugobjects-2023-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0017387938993553fe8e08bd9bcf398fb609d136 Merge tag 'irq-core-2023-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7cffdbe3607a6cc2dc02d135e13732ec36bc4e28 Merge tag 'x86-boot-2023-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9244724fbf8ab394a7210e8e93bf037abc859514 Merge tag 'smp-core-2023-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cd336f6562d3d7646a9cf071b902db200a1dd77b Merge tag 'timers-core-2023-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip
-88afbb21d4b36fee6acaa167641f9f0fc122f01b Merge tag 'x86-core-2023-06-26' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7ed1cefbf169367bae5b356ecd15928b040aeafc Merge tag 'qcom-clk-for-6.5-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
-e5ce2f196fb9ab35fe18dcfd2bc17883db7bbe33 Merge tag 'edac_updates_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-aa35a4835e4f4c113c29bc7ea64cfecb951d51b8 Merge tag 'ras_core_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-11b6890be0084ad4df0e06d89a9fdcc948472c65 ext4: get block from bh in ext4_free_blocks for fast commit replay
-8c69e7afe9588f9259a6422c6619d7643c76d12c Merge tag 'x86_alternatives_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bf4ed21778f2920ca91a32fd3a1e1130e843e98f Merge branch 'next' into for-linus
-59035135b32280fd394ba5765c6f4de24f48353e Merge tag 'x86_build_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3e5822e0f99e429fa8b03c956dad890179b5b3b1 Merge tag 'x86_cache_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2c96136a3f8dad6bfe35b003fb8b312f13a107e8 Merge tag 'x86_cc_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-941d77c77339d2dd1cda8911da63da3c67e90860 Merge tag 'x86_cpu_for_v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a3d763f0b34d94a4f2b2e3075350a19d589630f3 Merge tag 'x86_irq_for_6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-36db314440502c1a3a283ba5a16cb5075c19f3d9 Merge tag 'x86_platform_for_6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ff1c6c904c8dd265e62abd8adf301bf755e203de Merge tag 'clk-microchip-6.5-2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
-4243afdb932677a03770753be8c54b3190a512e8 kbuild: builddeb: always make modules_install, to install modules.builtin*
-1240dabe8d58b4eff09e7edf1560da0360f997aa kbuild: deb-pkg: remove the CONFIG_MODULES check in buildeb
-5dfe7a7e52ccdf60dfd11ccbe509e4365ea721ca Merge tag 'x86_tdx_for_6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ad78b5efe4246e5deba8d44a6ed172b8a00d3113 ext4: remove unused parameter from ext4_mb_new_blocks_simple()
-247c3d214c23dfeeeb892e91a82ac1188bdaec9f ext4: fix wrong unit use in ext4_mb_clear_bb
-2ec6d0a5ea72689a79e6f725fd8b443a788ae279 ext4: fix wrong unit use in ext4_mb_new_blocks
-569f196f1e7a14472f21734170411f75a3179db0 ext4: mballoc: Remove useless setting of ac_criteria
-5730cce35344fba94e2c329d2bc0a170333a059f ext4: Remove unused extern variables declaration
-4eb7a4a1a33bdaf259fca8528f2546c90ad18f0d ext4: Convert mballoc cr (criteria) to enum
-fdd9a00943a5f6687937628e01506dad697c9140 ext4: Add per CR extent scanned counter
-3ef5d263879696027c70548532a94418aad3bd95 ext4: Add counter to track successful allocation of goal length
-1b420011210802a7a1b1e99f30bc1d62c352ac71 ext4: Avoid scanning smaller extents in BG during CR1
-3c6296046c85333bc52555a670a9093d9e2657bb ext4: Don't skip prefetching BLOCK_UNINIT groups
-4f3d1e4533b0982034f316ace85415d3bc57e3da ext4: Ensure ext4_mb_prefetch_fini() is called for all prefetched BGs
-856d865c178b4fbf4c629d5a7d0df9352d123280 ext4: Abstract out logic to search average fragment list
 7e170922f06bf46effa7c57f6035fc463d6edc7e ext4: Add allocation criteria 1.5 (CR1_5)
 f52f3d2b9fbab73c776f4d3386393e9bbc83b87d ext4: Give symbolic names to mballoc criterias
 de25d6e9610a8b30cce9bbb19b50615d02ebca02 ext4: only update i_reserved_data_blocks on successful block allocation
@@ -1049,6 +920,135 @@ c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 6d526ee4bfe1b86af4d53bde20e1dbcdc1ee69f7 arm64: dts: qcom: sm8250: Fix EPSS L3 interconnect cells
 9ea2c3fba5c5b78a13bfc51d0999ff0be58baae8 arm64: dts: qcom: sc8180x: Fix OSM L3 compatible
 4d29db2043610dd70be00a61f26fd64256a2a6c5 arm64: dts: qcom: sm8350: fix BAM DMA crash and reboot
+f51a36649d07edfa3de40b982ed329d316291699 arm64: defconfig: Enable Qualcomm SC8280XP GPUCC
+e21e74c6e251152dfc45efdf2279db2778d51223 clk: qcom: mmcc-msm8974: Add OXILICX_GDSC for msm8226
+e0f250c8fd012b010cdae0535903402765f7ffe5 arm64: dts: qcom: Drop undocumented "svid" property
+d5fb01ad5eb449ccfd950e946a882639cad168b3 ARM: dts: qcom: msm8226: Add mdss nodes
+0c55f6229bc3a17c48c7c488805d98f253ab61d3 arm64: dts: qcom: qcm2290: Add USB3 PHY
+85c0d230098fcc2fe8e4e52b783919ed71b91b9e dt-bindings: clock: Add USB related clocks for IPQ9574
+9e1857ee65e78d706c33e906724d6166532989e1 Merge branch 'd1c5aa4a8535c645fdb06df62a562918516ba0c6.1686289721.git.quic_varada@quicinc.com' into clk-for-6.6
+745dfa078666a70be9aabc5d96e3f04e1f412d0c clk: qcom: gcc-ipq9574: Add USB related clocks
 798f1df86e5709b7b6aedf493cc04c7fedbf544a arm64: dts: qcom: qrb5165-rb5: fix thermal zone conflict
+f6f89d194e4ddcfe197ac8a05ed4161f642a5c68 clk: qcom: gpucc-sm6350: Introduce index-based clk lookup
+743913b343a3ec2510fe3c0dfaff03d049659922 clk: qcom: gpucc-sm6350: Fix clock source names
+0276f69f13e23b828a149d765d5712e214182ee7 soc: qcom: icc-bwmon: Set default thresholds dynamically
+a7b484b1c9332a1ee12e8799d62a11ee3f8e0801 soc: qcom: ocmem: Fix NUM_PORTS & NUM_MACROS macros
+7a2fcba1f4031fa472f069fcd856f19d367b5808 soc: qcom: ocmem: Use dev_err_probe where appropriate
+a7e12e7bda08c367460eed0e4aea5c3694959df1 soc: qcom: ocmem: make iface clock optional
+f77b2d7607d0f4c23052f02788052dbea04831bc dt-bindings: sram: qcom,ocmem: Add msm8226 support
+2976eec238dcd89475664795f54d4a4d3d05e0f9 soc: qcom: ocmem: Add support for msm8226
+4bad24d73abcc6adf70bc4c894c29cb1d0acda05 ARM: dts: qcom: msm8226: Add ocmem
+98c8b3efacaec61287a096dd37ca3c197f298b70 soc: qcom: rpmpd: Add sync_state
+dc015a3a6d6986c41a7bd12fb205a282f685e328 arm64: defconfig: enable Qualcomm MSM8996 Global Clock Controller as built-in
+7caf09215ca32f1020df1559027d77770ca2e901 ARM: dts: qcom: ipq4019: use generic node names for USB
+9a3b29c33b5d3d3dd446c1fa314a79f7a905886a ARM: dts: qcom: sdx55: use generic node names for USB
+1bfeee1aeef0e6070e9ca2f06d310eb1c3058464 ARM: dts: qcom: ipq8064: drop spi-max-frequency from controller
+594ccb8d24726c89dd6601b2322b399648da7a8c ARM: dts: qcom: msm8960: drop spi-max-frequency from controller
+d4600cbd5bcbaa2b296b5cf9a5c04408eedb4ef3 soc: qcom: cmd-db: Drop NUL bytes from debugfs output
+1b06d8ca087a8fd9b395b577048636926db22f0e soc: qcom: rpmh-rsc: Include state in trace event
+58d359fdc0650f333113d2448768c03f3dee0c15 Merge branch 'd1c5aa4a8535c645fdb06df62a562918516ba0c6.1686289721.git.quic_varada@quicinc.com' into HEAD
+a98bfb31f6766db26e0d4f39c909b7e8926cb0d8 arm64: dts: qcom: ipq9574: Add USB related nodes
+d5506524d9d9f2be01cbff510b0b8eec0cc9d691 arm64: dts: qcom: ipq9574: Add LDO regulator node
+ec4f047679d59294c98095ae2470d34c2f2335a2 arm64: dts: qcom: ipq9574: Enable USB
+3091e5820a367f3368132f57e0a9ba6d545da15d arm64: dts: qcom: sm8150: use proper DSI PHY compatible
+75a511b1e5ff6ffadb9b51d85beee8c7bcc29ba9 arm64: dts: qcom: sm6350: Add GPUCC node
+5b1e5d9a21ec2ad0654ce192371ed81b12088c6f arm64: dts: qcom: sm6350: Add QFPROM node
+bd9b767502806faccbac6f2c8db09d0ea6ca6e3e arm64: dts: qcom: sm6350: Add GPU nodes
+44bcded2be4fe9b9d0b6e48075c9947b75c0af63 arm64: dts: qcom: sm6350: Fix ZAP region
+26c71d31f8be3493006140961acf6be204004fdb arm64: dts: qcom: sm6350: Add DPU1 nodes
+2b812caf5f64df959555e48dfc7bf8f061d9fe8f Revert "arm64: dts: qcom: msm8996: rename labels for HDMI nodes"
+1770394e68942f48d9b111694fccfef337905632 arm64: dts: qcom: msm8996: rename labels for HDMI nodes
+775a5283c25d160b2a1359018c447bc518096547 arm64: dts: qcom: sm8250: correct dynamic power coefficients
+adc16b84e1ea12fe527fba463db05452c9f06993 arm64: dts: qcom: sc7180: Hook up BWMONs
+b02966f8689795406ac210189924a8cb02a71bbe arm64: dts: qcom: sm8450: correct crypto unit address
+9e3a0c7acba5e1ec7b0730bac904ba820b70b5cf arm64: dts: qcom: apq8039-t2: remove superfluous "input-enable"
+ba492bea16e2c036ef5725f166f1d20835b6e114 arm64: dts: qcom: sc8180x-flex-5g: remove superfluous "input-enable"
+c756d233715a899dd1cce4b1db4cbd50b0f55a9e arm64: dts: qcom: msm8916-gt5: drop incorrect accelerometer interrupt-names
+6a541eaa6e8e5283efb993ae7a947bede8d01fa5 arm64: dts: qcom: msm8916-l8150: correct light sensor VDDIO supply
+031df8e650a8584d24c91fa64465e0660accd339 arm64: dts: qcom: apq8016-sbc: drop label from I2C and SPI
+d4bbcf50baa9d7f70e97a3fd3b0d5e4f599a6217 arm64: dts: qcom: apq8096-db820c: drop label from I2C
+35cda57217adceee2f6bc738a1d98a2cccab709e arm64: dts: qcom: msm8939: drop incorrect smp2p Hexagon properties
+368f8d196976e691af9cb8e61c9c852d574759fb arm64: dts: qcom: msm8996-xiaomi: drop label from I2C
+f7eb45427af670e48a9d28e6bbe7c6b8f68c3bfe arm64: dts: qcom: msm8996-xiaomi: use generic node names
+0ec3a3e1b84bc27d482a6cab4e7ab7e2dd26ecf6 arm64: dts: qcom: sc7180-aspire1: use generic ADC channel node names
+978869867216e669b6bed11aa669317a11e0dc7a arm64: dts: qcom: sc8180x: use generic ADC channel node names
+9ca4673201cc08df152a4ec054d81ae6a6895938 arm64: dts: qcom: sc8180x: align thermal node name with bindings
+bee2dea5be813eafc7979c09854b447abd75dfd0 arm64: dts: qcom: sc8180x-flex-5g: correct panel ports
+0f06e8cbd18e7f0e016f21c870f7d7af20ffd47e arm64: dts: qcom: sc8180x-primus: correct panel ports
+adc2ee325806e805f9d729f28dd1ac77dd82932a arm64: dts: qcom: sc8180x-flex-5g: align gpio-keys node name with bindings
+c8df0c62cb6a21b98845c44c3539aa727874cd08 arm64: dts: qcom: sm6115-pro1x: fix incorrect gpio-key,wakeup
+44f2f74df42910ae3a2289f1020788a348089718 arm64: dts: qcom: sm8350-hdk: correct FSA4480 port
+dea98746f90ab368ec51dc7a070090165560a5de arm64: dts: qcom: sm8450-hdk: correct FSA4480 port
+c42f5452de6ad2599c6e5e2a64c180a4ac835d27 arm64: dts: qcom: sm6125-pdx201: correct ramoops pmsg-size
+2951e7e7611a3ea04de98d0f1bfc4e7ec609ef29 arm64: dts: qcom: sm6125-sprout: correct ramoops pmsg-size
+c86b97a72065e06eacb993dc71fa9febc93422af arm64: dts: qcom: sm6350: correct ramoops pmsg-size
+4e6b942f092653ebcdbbc0819b2d1f08ab415bdc arm64: dts: qcom: sm8150-kumano: correct ramoops pmsg-size
+7dc3606f91427414d00a2fb09e6e0e32c14c2093 arm64: dts: qcom: sm8250-edo: correct ramoops pmsg-size
+404d7f65767dde3a0eb3d6127b458b61ed7d7118 arm64: dts: qcom: msm8916-samsung-serranove: Add RT5033 PMIC with charger
+40b398beabdfe0e9088b13976e56b1dc706fe851 arm64: dts: qcom: sm8250-edo: Add gpio line names for TLMM
+6b8a63350752c6a5e4b54f2de6174084652cd3cd arm64: dts: qcom: sm8250-edo: Add GPIO line names for PMIC GPIOs
+2de55db6bca0856ecbff5c288dc330af94c8e5b1 arm64: dts: qcom: sm8250-pdx203: Configure SLG51000 PMIC
+a422c6a91a667b309ca1a6c08b30dbfcf7d4e866 arm64: dts: qcom: sm8250-edo: Rectify gpio-keys
+9566b5271f68bdf6e69b7c511850e3fb75cd18be arm64: dts: qcom: sc8280xp-crd: Correct vreg_misc_3p3 GPIO
+8882ae076344f8b4e9f1e5a116e1a83c4292b790 arm64: dts: qcom: sc8280xp-crd: Fix naming of regulators
+11750af256f8287f853daed0424eac726dcc5b9f arm64: dts: qcom: sm6115: Add GPU nodes
+e3dc814d8ca0fb3c8e2760d004ea048e502887a4 arm64: dts: qcom: sm6115p-j606f: Hook up display
+be9f88abf8695b59f17ac0ef365cd2d2a9baae78 arm64: dts: qcom: sm6115p-j606f: Enable GPU
+d368279dfa02c6c1eb5eb91126613769527d450b arm64: dts: qcom: qrb4210-rb2: Enable GPU
+38c6fe604bc21530b3df16c79a7a96bdc42a0e93 arm64: dts: qcom: msm8939-sony-xperia-kanuti-tulip: Add missing 'chassis-type'
+46b17dfd0154b3720b22a4056c0f060ba0c7ec66 arm64: dts: qcom: sm8[1235]50-mtp: add chassis-type property
+b047b90261791fd439dfd0d885e1a3e995c05985 arm64: dts: qcom: sm8[45]50-qrd: add chassis-type property
+8fef2422f53a84ec32f9d7ac8d6af1fa9426e835 arm64: dts: qcom: sm8[1234]50-hdk: add chassis-type property
+d8d1d994246f7d44241c5332817c8e850e1b2e73 arm64: dts: qcom: msm89xx-mtp: add chassis-type property
+2b08da0d791ff08e1c29ee3abd2563ce0a9da7b9 arm64: dts: qcom: sdm845-mtp: add chassis-type property
+683ef77158cbb56ede2a524751b150cec340128a arm64: dts: qcom: sa8775p: add the SGMII PHY node
+ff499a0fbb2352bff15d75c13afe46decf90d7eb arm64: dts: qcom: sa8775p: add the first 1Gb ethernet interface
+5ef26fb8b3ed72cc5beb6461c258127e3a388247 arm64: dts: qcom: sa8775p-ride: enable the SerDes PHY
+48c99529998026e21a78f84261d24c0b93c1027e arm64: dts: qcom: sa8775p-ride: add pin functions for ethernet0
+120ab6c06f69b39e54c949542fa85fd49ff51278 arm64: dts: qcom: sa8775p-ride: enable ethernet0
+412bf52d3ed7deb7b2dbde977413190072fbe0ea dt-bindings: firmware: qcom,scm: Allow interconnect on SC8280XP
+0a69ccf20b0837db857abfc94d7e3bacf1cb771b arm64: dts: qcom: sc8280xp: Add missing SCM interconnect
+6d5872f2ccbe4ebd6aa926e3699a760356009dbb arm64: dts: qcom: ipq5332: Add common RDP dtsi file
+519c47acac28db7cec7ab5d929055a73001ac2d9 arm64: dts: qcom: pm8953: Add thermal zone
+9eba4db02a88e7a810aabd70f7a6960f184f391f dt-bindings: clock: qcom,gcc-sc8280xp: Add missing GDSCs
+5605164aa83bcaa5538062a01f6c7b7f4f1dfbe0 Merge branch '20230620-topic-sc8280_gccgdsc-v2-2-562c1428c10d@linaro.org' into clk-for-6.6
+b1260cee1c1825a3a61326920a2d89014d7ffd5d Merge branch '20230620-topic-sc8280_gccgdsc-v2-2-562c1428c10d@linaro.org' into arm64-for-6.6
+2fd02de27054576a4a8c89302e2f77122c55e957 clk: qcom: gcc-sc8280xp: Add missing GDSC flags
+4712eb7ff85bd3dd09c6668b8de4080e02b3eea9 clk: qcom: gcc-sc8280xp: Add missing GDSCs
+55179c92c7346ab20991975195c3dc0ba7b74c50 arm64: dts: qcom: Fix "status" value
+86b0aef435851dec9e5202d22dfbfff56da4440c arm64: dts: qcom: sm8450: Use standalone ICE node for UFS
+55c9b1bf29dad107b3871bbb250c00df80a68791 arm64: dts: qcom: sc8280xp-pmics: add explicit rtc interrupt parent
+fdc3cf9fc3b266af2b23c82c616b6b87d37c97e0 arm64: dts: qcom: sm6375: Set up L3 scaling
+afc19e3716c3bc32c31baac54e3a9057661979ad arm64: dts: qcom: sc7180: Fix DSI0_PHY reg-names
+982f810fc196002808b6d4230ba8f431c993d264 arm64: dts: qcom: msm8939: Drop "qcom,idle-state-spc" compatible
+68a59251f1c590ad567ff7fd799f6634fbab6e16 arm64: dts: qcom: msm8939: Add missing 'cache-unified' to L2
+9cc6dee9b3a8aea0af836d365793ffce47bc7a11 arm64: dts: qcom: apq8039-t2: Drop inexistent property
+36541089c4733355ed844c67eebd0c3936953454 arm64: dts: qcom: msm8996: Add missing interrupt to the USB2 controller
+9acc60c3e2d449243e4c2126e3b56f1c4f7fd3bc arm64: dts: qcom: sdm845-tama: Set serial indices and stdout-path
+ddf66e4b16744b96db4bd1ddee9d19b5a834f94f arm64: dts: qcom: msm8998: Provide XO to RPMCC
+60838878e1fe84a056bc33ea0803c6e5470eb0c4 dt-bindings: clock: qcom: Update my email address
+ff19022b9112d6bbd7c117c83e944cb21b438e91 clk: qcom: gcc-sm7150: Add CLK_OPS_PARENT_ENABLE to sdcc2 rcg
+934a3b4d5a2d4c265ca22d3cf471a72ec8d9ee65 arm64: dts: qcom: minor whitespace cleanup around '='
+c4cf1cc5afbaa84513d1d4e2b60b1a434927f4ae ARM: dts: qcom: minor whitespace cleanup around '='
+5a89585fc880a56bdeed6132d0568d99a29e4231 arm64: dts: qcom: qdu1000-idp: Add reserved gpio list
+301f7ca3574c05c3ae62d6d5ac1fa0c48cd4b080 arm64: dts: qcom: qru1000-idp: Add reserved gpio list
+7bc1cfaee1f03008e8b1fd29e621cb50a9512263 soc: qcom: spm: Convert to devm_platform_ioremap_resource()
+29a687c219e20fd4c6e8c47d214365f0d34e3d3d arm64: dts: qcom: sm8350: Add missing cluster sleep state
+91ce3693e2fb685f31d39605a5ad1fbd940804da arm64: dts: qcom: sm8350: Fix CPU idle state residency times
+951151c2bb548e0f6b2c40ab4c48675f5342c914 arm64: dts: qcom: sm8350: Add missing LMH interrupts to cpufreq
+068be6cb4b98a8a26426b603b23582b78630dd23 arm64: dts: qcom: add missing space before {
+9c31a3f5abc9eeb6509d06041b1e5f12deb39c4d arm64: dts: qcom: sc8180x: Fix cluster PSCI suspend param
+4390730cc12af25f7c997f477795f5f4200149c0 arm64: dts: qcom: sm8350: Use proper CPU compatibles
+db382dd55bcb8bc6319a14ad50689c19dba83b7b clk: qcom: gcc-sc8280xp: Allow PCIe GDSCs to enter retention state
+64f19c06f704846db5e4885ca63c689d9bef5723 arm64: dts: qcom: pm8350: fix thermal zone name
+aad41d9e6c44dfe299cddab97528a5333f17bdfe arm64: dts: qcom: pm8350b: fix thermal zone name
+99f8cf491d546cd668236f573c7d846d3e94f2d6 arm64: dts: qcom: pmr735b: fix thermal zone name
+435a73d7377ceb29c1a22d2711dd85c831b40c45 arm64: dts: qcom: pmk8350: fix ADC-TM compatible string
+701b59db773730a914f1778cf2dd05e3a05c2c69 arm64: dts: qcom: sm8450-hdk: remove pmr735b PMIC inclusion
+53ccae05c90fc9f961cc18945ab8d53c6ade7ca6 arm64: dts: qcom: sm8450-hdk: define DIE_TEMP channels
+10848179ae9778d624a124f72a8f22c7c1687a7d arm64: dts: qcom: sm8450-hdk: add ADC-TM thermal zones
+339d38a436f30d0f874815eafc7de2257346bf26 arm64: dts: qcom: sm8250: Mark PCIe hosts as DMA coherent
+4cb19bd7c6329c4702f92c6dd4e7c02eb903ca13 arm64: dts: qcom: sm8250: Mark SMMUs as DMA coherent
+6faff7e892237232ddc8d6071a591198df2d9a30 Merge branches 'arm64-defconfig-for-6.6', 'arm64-fixes-for-6.5', 'arm64-for-6.6', 'clk-for-6.6', 'drivers-for-6.6' and 'dts-for-6.6' into for-next
 
---===============4688104252897020338==--
+--===============4897606732603382002==--
