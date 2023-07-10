@@ -1,88 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Mon, 10 Jul 2023 17:17:12 -0000
-Message-Id: <168900943277.22174.259971247597773798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 10 Jul 2023 17:19:21 -0000
+Message-Id: <168900956124.23100.11889664315917668851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/tags/patchset/bpf-selftests-fixes/v1.0/cover
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
     old: 0000000000000000000000000000000000000000
-    new: 6dfff5daf448c6378ac40328e8da61cdaf2de70a
-  - ref: refs/tags/patchset/fchmodat4/v1.0/cover
-    old: 0000000000000000000000000000000000000000
-    new: 91a0ec599cb790b49c7c4dba653f5f4624f345b0
-  - ref: refs/tags/patchset/fchmodat4/v3.0/cover
-    old: 0000000000000000000000000000000000000000
-    new: 3c26f147569347b0b2e137ffbc20b77e0f59702e
-  - ref: refs/tags/patchset/fchmodat4/v3.1/cover
-    old: 0000000000000000000000000000000000000000
-    new: f7e13a7d9e73aa7cc7388e3d73aa0bffbe919ded
-  - ref: refs/tags/patchset/idmap-mounts/v1.0/cover
-    old: 0000000000000000000000000000000000000000
-    new: 8ce0ce40cfebe8f4f090e00798cf67db3961c112
-  - ref: refs/tags/patchset/sysctl-ipc/v2.0/cover
-    old: 0000000000000000000000000000000000000000
-    new: c3b8087cae126ae42e8eb46cae3a2285cb41b234
-  - ref: refs/tags/patchset/vfs-separate-uid-gid/v1.0/cover
-    old: 0000000000000000000000000000000000000000
-    new: 9cd5ad50e850d343da2fd122d84bbbdb082643dd
-  - ref: refs/tags/v6.2
-    old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
-  - ref: refs/tags/v6.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
-  - ref: refs/tags/v6.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
-  - ref: refs/tags/v6.2-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
-  - ref: refs/tags/v6.3
-    old: 0000000000000000000000000000000000000000
-    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
-  - ref: refs/tags/v6.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
-  - ref: refs/tags/v6.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
-  - ref: refs/tags/v6.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
-  - ref: refs/tags/v6.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
-  - ref: refs/tags/v6.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
-  - ref: refs/tags/v6.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
-  - ref: refs/tags/v6.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
-  - ref: refs/tags/v6.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
-  - ref: refs/tags/v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
-  - ref: refs/tags/v6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9632302b68e03c8579120884b22c4e4dc2340e43
-  - ref: refs/tags/v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+    new: c1931398be810677a4a7e1f4cc3230fb71b3bb3d
