@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6643745607086412834=="
+Content-Type: multipart/mixed; boundary="===============0376898088939852592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 10 Jul 2023 20:55:21 -0000
-Message-Id: <168902252198.24152.8398291680162569940@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 20:55:39 -0000
+Message-Id: <168902253954.24335.18093266627459894016@gitolite.kernel.org>
 
---===============6643745607086412834==
+--===============0376898088939852592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: d2a7bd3690990ab8a8239096ee432ad51985d5b6
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-d2a7bd369099-06c2afb862f9.txt
+  - ref: refs/heads/review-hans
+    old: 645a08fa74b9add29eed1c15824f697ab3a1e843
+    new: 9204fc5071bf8b237d455e0c271c37729682a7ff
+    log: revlist-645a08fa74b9-9204fc5071bf.txt
 
---===============6643745607086412834==
+--===============0376898088939852592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2a7bd369099-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-645a08fa74b9-9204fc5071bf.txt
 
-dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
-20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
-a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
-8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
-6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
-be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
-12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
-e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
-f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
-009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
-c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
-25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
-8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
 ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
 00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
 698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
@@ -1050,5 +1037,18 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
+00d4b35212351d1c49a3068a8ba73253c476a3d2 platform/x86: hp-bioscfg: Documentation
+5f94f181ca25d8c5b77beb2da0cb466ddb6ece29 platform/x86: hp-bioscfg: bioscfg-h
+a34fc329b1895fc8a6eb12099adc47009421ba6a platform/x86: hp-bioscfg: bioscfg
+69ea03e38f241b224e0e75ea20932f2a0df94e5c platform/x86: hp-bioscfg: biosattr-interface
+6b2770bfd6f92440e36dfa04c17ea065f24fd28d platform/x86: hp-bioscfg: enum-attributes
+6f2c06d5a467a372a92696685541aee3c9053685 platform/x86: hp-bioscfg: int-attributes
+4b2672ec71a3b4c89c5b6a093c82495234ef80ca platform/x86: hp-bioscfg: order-list-attributes
+8646a3b5ee3a5b384a22a721f37c24274d974045 platform/x86: hp-bioscfg: passwdobj-attributes
+b2715aa2e1352c0060b9dcba57a2e465bbfbcd68 platform/x86: hp-bioscfg: spmobj-attributes
+e6c7b3e15559699a30646dd45195549c7db447bd platform/x86: hp-bioscfg: string-attributes
+63e8f906e94e122ad1a38588b919a6b5e98b3532 platform/x86: hp-bioscfg: surestart-attributes
+eff3bac88aeda6f10f3b3c5e146e8ce29ff3bfb9 platform/x86: hp-bioscfg: Makefile
+9204fc5071bf8b237d455e0c271c37729682a7ff platform/x86: hp-bioscfg: MAINTAINERS
 
---===============6643745607086412834==--
+--===============0376898088939852592==--
