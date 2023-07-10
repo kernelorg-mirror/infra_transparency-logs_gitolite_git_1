@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1223868701526178197=="
+Content-Type: multipart/mixed; boundary="===============6643745607086412834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 10 Jul 2023 20:55:04 -0000
-Message-Id: <168902250409.23952.1075600967713989002@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 20:55:21 -0000
+Message-Id: <168902252198.24152.8398291680162569940@gitolite.kernel.org>
 
---===============1223868701526178197==
+--===============6643745607086412834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/fixes
-    old: 146b6f6855e7656e8329910606595220c761daac
-    new: 9ecedaf6f82acf9e0d68932da2a72aefcf0b7176
-    log: revlist-146b6f6855e7-9ecedaf6f82a.txt
+  - ref: refs/heads/for-next
+    old: d2a7bd3690990ab8a8239096ee432ad51985d5b6
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    log: revlist-d2a7bd369099-06c2afb862f9.txt
 
---===============1223868701526178197==
+--===============6643745607086412834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-146b6f6855e7-9ecedaf6f82a.txt
+Content-Disposition: attachment; filename=revlist-d2a7bd369099-06c2afb862f9.txt
 
+dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
@@ -1046,9 +1050,5 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-028e6e204ace1f080cfeacd72c50397eb8ae8883 platform/x86: wmi: Break possible infinite loop when parsing GUID
-6bf06f14bf33d668ee0eb85b6c414d85a0f8e1a5 platform/x86: wmi: Replace open coded guid_parse_and_compare()
-5b2a4a4394ce96fb01a282dd58e263d02218db03 platform/x86/intel/tpmi: Prevent overflow for cap_offset
-9ecedaf6f82acf9e0d68932da2a72aefcf0b7176 platform/x86: int3472/discrete: set variable skl_int3472_regulator_second_sensor storage-class-specifier to static
 
---===============1223868701526178197==--
+--===============6643745607086412834==--
