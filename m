@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5341400208674961473=="
+Content-Type: multipart/mixed; boundary="===============7731562370222044590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 10 Jul 2023 07:23:26 -0000
-Message-Id: <168897380621.20060.17490326763416279056@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 07:23:29 -0000
+Message-Id: <168897380992.20174.799269642179031360@gitolite.kernel.org>
 
---===============5341400208674961473==
+--===============7731562370222044590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 0ff9f5e57c5bb45b6b807a4d466228de39d8cd2f
+  - ref: refs/heads/gpio/for-current
+    old: ff7a1790fbf92f1bdd0966d3f0da3ea808ede876
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-0ff9f5e57c5b-06c2afb862f9.txt
+    log: revlist-ff7a1790fbf9-06c2afb862f9.txt
 
---===============5341400208674961473==
+--===============7731562370222044590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ff9f5e57c5b-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-ff7a1790fbf9-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============5341400208674961473==--
+--===============7731562370222044590==--
