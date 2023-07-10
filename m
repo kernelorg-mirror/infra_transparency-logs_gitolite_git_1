@@ -1,36 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3088246658788814130=="
+Content-Type: multipart/mixed; boundary="===============3067209079034431883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 10 Jul 2023 08:37:57 -0000
-Message-Id: <168897827781.13568.14168568415430867897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 10 Jul 2023 08:39:36 -0000
+Message-Id: <168897837652.14246.13570164365608097216@gitolite.kernel.org>
 
---===============3088246658788814130==
+--===============3067209079034431883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: e14fd2af7a1d621c167dad761f729135a7a76ff4
+    old: 858fd168a95c5b9669aac8db6c14a9aeab446375
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-e14fd2af7a1d-06c2afb862f9.txt
-  - ref: refs/heads/for-linus
-    old: ac9a78681b921877518763ba0e89202254349d1b
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ac9a78681b92-06c2afb862f9.txt
+    log: revlist-858fd168a95c-06c2afb862f9.txt
   - ref: refs/heads/master
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-ac9a78681b92-06c2afb862f9.txt
   - ref: refs/heads/next
-    old: 907514a7dc4c574136e8fb576b014be05d25813a
+    old: a4857d1afdd1fa7ff763e1d07b1c2db521a5f9b1
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-907514a7dc4c-06c2afb862f9.txt
+    log: revlist-a4857d1afdd1-06c2afb862f9.txt
   - ref: refs/tags/v6.5-rc1
     old: 0000000000000000000000000000000000000000
     new: a5233ebc0b27249e13f09f2e06d5c2555a367991
@@ -49,18 +45,15 @@ changes:
   - ref: refs/tags/v6.4-rc5
     old: 0000000000000000000000000000000000000000
     new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
   - ref: refs/tags/v6.4-rc7
     old: 0000000000000000000000000000000000000000
     new: be10b9a5f6c20252039731efda7f268e57fb5dd3
 
---===============3088246658788814130==
+--===============3067209079034431883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e14fd2af7a1d-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-858fd168a95c-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1087,7 +1080,7 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============3088246658788814130==
+--===============3067209079034431883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2118,11 +2111,11 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============3088246658788814130==
+--===============3067209079034431883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-907514a7dc4c-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-a4857d1afdd1-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -3149,4 +3142,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============3088246658788814130==--
+--===============3067209079034431883==--
