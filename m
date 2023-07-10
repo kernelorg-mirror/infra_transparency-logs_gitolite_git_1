@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3576683946257568571=="
+Content-Type: multipart/mixed; boundary="===============3430787848699136217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 10 Jul 2023 08:19:09 -0000
-Message-Id: <168897714997.30862.7290809685968262289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Mon, 10 Jul 2023 08:19:14 -0000
+Message-Id: <168897715437.30972.1857115851501639637@gitolite.kernel.org>
 
---===============3576683946257568571==
+--===============3430787848699136217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: conor
+repo: pub/scm/linux/kernel/git/srini/fastrpc
+user: srini
 changes:
-  - ref: refs/heads/at91-dt
-    old: 33c01ff3b1003aea11288f2bf7924ada5b5b8327
-    new: 8566662f2665431f4dcae7efded82525f498069d
-    log: revlist-33c01ff3b100-8566662f2665.txt
+  - ref: refs/heads/master
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============3576683946257568571==
+--===============3430787848699136217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33c01ff3b100-8566662f2665.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
 
+dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
 a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
@@ -1049,6 +1050,5 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-8566662f2665431f4dcae7efded82525f498069d ARM: dts: microchip: minor whitespace cleanup around '='
 
---===============3576683946257568571==--
+--===============3430787848699136217==--
