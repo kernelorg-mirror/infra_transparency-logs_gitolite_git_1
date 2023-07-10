@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Mon, 10 Jul 2023 18:47:44 -0000
-Message-Id: <168901486452.25960.17331298011282725030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 10 Jul 2023 18:49:43 -0000
+Message-Id: <168901498342.26712.17138489037212149826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/patchset/fchmodat4/v3.1
-    old: 08b8c0b175646cfb03f8ba7ffb3d955dccd074bb
-    new: 7f50cfa2f66534d890b240c06e8d258ae42ce315
+  - ref: refs/heads/dev
+    old: c275888f32b88e952018f4104d0486a1dcd7d829
+    new: 1e6b84dcc89794a8156e2defecb9c2e72b162e5d
     log: |
-         7f50cfa2f66534d890b240c06e8d258ae42ce315 selftests: add fchmodat4(2) selftest
+         1e6b84dcc89794a8156e2defecb9c2e72b162e5d torture: Loosen .config checks for KCSAN kernels
          
