@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3801205430503237567=="
+Content-Type: multipart/mixed; boundary="===============2473827911245165931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 10 Jul 2023 07:55:15 -0000
-Message-Id: <168897571500.12551.15924271043818783667@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 07:55:29 -0000
+Message-Id: <168897572912.12734.12500345120164516588@gitolite.kernel.org>
 
---===============3801205430503237567==
+--===============2473827911245165931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 228020b490eda9133c9cb6f59a5ee1278d8c463f
-    new: 1af61adb3a23192023fec1733bd4c8500f53e546
-    log: revlist-228020b490ed-1af61adb3a23.txt
+  - ref: refs/heads/sched/core
+    old: ebb83d84e49b54369b0db67136a5fe1087124dcc
+    new: eeb4ce8fb0a21f4c8bdd92e70356a7c58c2b2f4b
+    log: revlist-ebb83d84e49b-eeb4ce8fb0a2.txt
 
---===============3801205430503237567==
+--===============2473827911245165931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-228020b490ed-1af61adb3a23.txt
+Content-Disposition: attachment; filename=revlist-ebb83d84e49b-eeb4ce8fb0a2.txt
 
-be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
-12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
-e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
-f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
-009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
-c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
-25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
-8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
 ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
 00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
 698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
@@ -1045,10 +1037,18 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-7c2128235eff99b448af8f4b5b2933495bf1a440 perf/amd: Prevent grouping of IBS events
-4c1c9dea2089374cb58505a0df6136969ff3c8b9 perf/x86: Use local64_try_cmpxchg
-28fd85a10a2a73658c6e26056d9e093de06b5a22 perf/core: Use local64_try_cmpxchg in perf_swevent_set_period
-d6b45484c130f4095313ae3edeb4aae662c12fb1 locking/arch: Avoid variable shadowing in local_try_cmpxchg()
-1af61adb3a23192023fec1733bd4c8500f53e546 perf/ring_buffer: Use local_try_cmpxchg in __perf_output_begin
+eb15cb094ddb0227c9dfe5eb836d1a4357f070fd kernel/fork: beware of __put_task_struct calling context
+304e25b0498e5351bbbceedb1b9e14e87f0763f5 sched: avoid false lockdep splat in put_task_struct()
+0f1f22171d65b83e364b3fd861d8fd60f7fa824c sched: don't account throttle time for empty groups
+ffeb4350e6a462e7492b3dd28652f68f17297920 sched: add throttled time stat for throttled children
+97c9597c3bc37cc6e96c7a556f76d2eb90d338d6 sched/core: introduce sched_core_idle_cpu()
+d22e2919cd86fe102b5286c7ea16b8d4d43979af sched/psi: make psi_cgroups_enabled static
+cc6abfca15050b817dee7dda2c3e93ff67f7bd6f sched/fair: Determine active load balance for SMT sched groups
+52caff6139987e9c9f222f9aec15b1147374f0b6 sched/topology: Record number of cores in sched group
+6d6e3641cdef5f56855bba0324a3cfd7ad1f9e7f sched/fair: Implement prefer sibling imbalance calculation between asymmetric groups
+6fa0d630c581f883642e4dc4c629d207ded52ed5 sched/fair: Consider the idle state of the whole core for load balance
+e13294917dbb024391ba89713c4babd3bf5df092 x86/sched: Enable cluster scheduling on Hybrid
+fa9ff3aac022ab1b3f39e0f58d4cf13475b061cc sched/debug: Dump domains' sched group flags
+eeb4ce8fb0a21f4c8bdd92e70356a7c58c2b2f4b sched/fair: remove util_est boosting
 
---===============3801205430503237567==--
+--===============2473827911245165931==--
