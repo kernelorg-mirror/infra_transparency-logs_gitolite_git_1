@@ -1,53 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3062536469051661081=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 10 Jul 2023 16:49:30 -0000
-Message-Id: <168900777058.31456.17681821005236270570@gitolite.kernel.org>
-
---===============3062536469051661081==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 10 Jul 2023 16:50:03 -0000
+Message-Id: <168900780374.567.15640518847434111845@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
-
---===============3062536469051661081==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689007768 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1689007767-ab32d3edf4b0b920128fe4d5003529bb54c116f2
-
-0000000000000000000000000000000000000000 a5233ebc0b27249e13f09f2e06d5c2555a367991 refs/tags/v6.5-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSsNpgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6z0P/38lXjG+gMtdUTwHMmW+
-rnBo9oo5SypqiLNnz4tK4nQtZOxIe1+gtoWOcxg1lRIT9XgTTSrluAV2vs5sycnq
-KejlxnaRk3cZ2YkgXx9gv2ucmDplJJpMtVe3hgM9T7DZucaDjHEnahlDptmtG5eo
-A+p28F3YYJiJMVylSRVrvWjlmpc7RNPXYPVJHus2w3XJxWlCBm6KLQATXSpZQAVn
-6MoqDuAfdZYsZKXWtEuiZgQpyI/M5G9qlHgxHT2HhcszgaQ92Y1Hsvb6Zq2yjQGd
-tbodLkpRDJOTdnw4Ve/AnhDLnMvqZLgx6hMFklQr8sLpefPiMW6aLnpubFdSr9HJ
-x06S4ZzUcFmOji6mD1X64cnqXtjbkaQX1YPxad9ptsM4BbMQ+HBy9ljZgCursXOO
-HuSZMFDUKZ5efsebTZfX+inABgua4GJ32ASXanGQ87XfIBqXY+HtjzFG5jjw7YGY
-4PsffU6OIYdQCiASpOzO8d2klcc/psPNTxSXwjLXCR8Ypz0BL7DMJGBsIRV806iy
-h4XYldJU+MJiPnfZbMq8/+Bc55WvmMD8RPgcpsMRZXM3bLGHydBdVOO6tC4x8WG5
-yq04YESV8szZoCjQIqRNkszP4AqIBy771rBhLCYJAr9KOo7jT/X4S+t80WIVljgj
-uZdUrN27VcDUtMuD5WWoWQRI
-=yA0o
------END PGP SIGNATURE-----
-
---===============3062536469051661081==--
+  - ref: refs/heads/block-6.5
+    old: 2fb48d88e77f29bf9d278f25bcfe82cf59a0e09b
+    new: dc8cbb65dc17b0daebca84375d35ce54ff730762
+    log: |
+         dc8cbb65dc17b0daebca84375d35ce54ff730762 block: remove dead struc request->completion_data field
+         
+  - ref: refs/heads/xfs-async-dio
+    old: 5ad2bd84153abde0253cc2da730ac64a5be9ea45
+    new: 58dcdb583bee4d4737a8a1c795918a19852a1c52
+    log: |
+         2a86a8e13a4d41acac5bf1bda5d4fa19eef5aa1a iomap: complete polled writes inline
+         f27705b53ea3b1d430b9c9948136a65183a1b66b iomap: add local 'iocb' variable in iomap_dio_bio_end_io()
+         743d07486296a73af2000644e779d8cd99617bdb iomap: don't flush the write cache if device cache isn't volatile
+         01aac063019806e36adff192c7b363356e6e4430 fs: add IOCB flags related to passing back dio completions
+         555c13e8be2e24dbd489a4e7017f643f5ffa44a3 io_uring/rw: add write support for IOCB_DIO_DEFER/PASSBACK
+         58dcdb583bee4d4737a8a1c795918a19852a1c52 iomap: support IOCB_DIO_DEFER
+         
