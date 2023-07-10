@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 10 Jul 2023 21:17:42 -0000
-Message-Id: <168902386283.8403.16570601796394502958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 10 Jul 2023 21:24:23 -0000
+Message-Id: <168902426342.12365.18205179244503156826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/dev-test
-    old: d73b38253cda925126fc85e32277fbe2f1b100bf
-    new: f3caffb35c93f98d39be9bd8b1062ce35e15b869
+  - ref: refs/heads/master
+    old: 70ec552ac638bc0bf47ef44e6bdd703af81965f4
+    new: c9a85685d0c13f9e8b52e70987a37b6871cee79b
     log: |
-         f3caffb35c93f98d39be9bd8b1062ce35e15b869 f2fs: fix to avoid mmap vs set_compress_option case
+         c9a85685d0c13f9e8b52e70987a37b6871cee79b Bluetooth: MGMT: Fix always using HCI_MAX_AD_LENGTH
          
