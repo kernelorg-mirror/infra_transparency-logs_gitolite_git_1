@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8756763595929835183=="
+Content-Type: multipart/mixed; boundary="===============0025924112602165283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 10 Jul 2023 18:23:29 -0000
-Message-Id: <168901340997.6780.9412637204298097010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 10 Jul 2023 18:23:33 -0000
+Message-Id: <168901341302.6858.477765966973318470@gitolite.kernel.org>
 
---===============8756763595929835183==
+--===============0025924112602165283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-e8605e8fdf42-06c2afb862f9.txt
 
---===============8756763595929835183==
+--===============0025924112602165283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============8756763595929835183==--
+--===============0025924112602165283==--
