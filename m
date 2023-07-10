@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9175356798186402329=="
+Content-Type: multipart/mixed; boundary="===============7528790004899071846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 10 Jul 2023 08:10:44 -0000
-Message-Id: <168897664460.25673.12934407423725546911@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 08:10:49 -0000
+Message-Id: <168897664980.25763.6172840555896782379@gitolite.kernel.org>
 
---===============9175356798186402329==
+--===============7528790004899071846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
+  - ref: refs/heads/for-next
+    old: 9314d0530276aba19fd7b1c62b04eccb8e5327bc
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-7877cb91f108-06c2afb862f9.txt
+    log: revlist-9314d0530276-06c2afb862f9.txt
 
---===============9175356798186402329==
+--===============7528790004899071846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7877cb91f108-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-9314d0530276-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============9175356798186402329==--
+--===============7528790004899071846==--
