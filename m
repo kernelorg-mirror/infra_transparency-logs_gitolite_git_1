@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4993483623571475600=="
+Content-Type: multipart/mixed; boundary="===============8148096471990603579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 10 Jul 2023 10:02:53 -0000
-Message-Id: <168898337369.25226.9496827884692164178@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 10:03:01 -0000
+Message-Id: <168898338193.25366.2269533639476312684@gitolite.kernel.org>
 
---===============4993483623571475600==
+--===============8148096471990603579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============4993483623571475600==
+--===============8148096471990603579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1688983372 +0200
+pusher krzk@kernel.org 1688983380 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1688983370-d4a978fd4332147b187220392883187637ef1afc
+nonce 1688983379-cccf499566549c15f09c889ad2fb6737a5adf139
 
-ac9a78681b921877518763ba0e89202254349d1b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/fixes
+ac9a78681b921877518763ba0e89202254349d1b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSr10wQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD199DEACRk/RvV79ytHMmOICbcLie4ZSEldX186Lh
-ci+fUjvKMetcyMWpxq081n3wSfCITJjPX9m80jy4zC2zqa0Ce3r2fORrFvX+m5Lj
-ZuugQ7Tmjl/hffBe4SteYCNXZbfActJDtpaUH6tqAkosXmzDgMttJbZm4F5zd3c2
-6jbZsZ8OmZjgoVegvhvVSlh9lPm6zvzgp2IwT+vbCUC6qqfZ9eRHQOGpKh2TikDZ
-keXvKkdHgBYBjxlcYTh+9ms5wEXwIcR9NDfR6KMNGgADbiO/2bneJL6cts13jx/L
-JAm6NHUW/8LYq8XiCmAwDizThdFB2sCCsUYJGS+Pd3wkH6vAIP5tcCl51N5XCGQD
-uL151rGokxxg5Y4ELmwZeaDs79ajmpFGkU8+K//Iux5Z761mF/PhetuiHf0+Tkhl
-aK+ZSH8XcbxOWDnILPPkiIHlOc5qB0mx48JzI+IH9BBsiCfdeE2HONDgxw8SgnnW
-IEPtydS5AFnkATC8VpVrUdc0HnMFXCrkcIqsAc9Sq5ldD+I6GAYyBwD1JaNFy9i2
-fSs2pJi1hqRZOxSMI3nM14TNZ1QadHuK6enMgVbBv7WTYgQ1HEYiDJLZH0UpMzTJ
-l8ujC5AshPrzwAV87NCdr4fBh2Op002IMUEiLP+YunzcL26HA6JRVkgy2Ecx9+R4
-4kk9oswk/g==
-=avQW
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSr11QQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11/KEACMMuUeWFC4GpKLflLG0nyxUW2iZgVbxeB6
+tdsg/2OMKwKiHZ55HWt+5LOvIygg1KsgsXbSKieW/4vNBcOafqnW8Lfq071XaZ3K
+sGr2bJOPut84A4X6YibNSEhmFNnzmUzAELNp+ZNHRW4hAWKWSkyrSVpn/6J9S0Qa
+wxh+WsboRN0/ytiQiy//1VXSc5dOTLDu8CavgROw2z289eTidYagJcetG3TTGQZZ
+nD5iDsBssQyNOKzTclxFnLIq8ckqw+o/8iCvO56BjV9en9Z2ll2TI/rxNXritxwJ
+JPToPk2cAMA8sYB4ii794S6m/px7RXVR8Um6g99yaOneUVGYWwTPaS7ZTbr8O4oK
+wfWUwMOWfS7NZcXu0Mua0/79raUtfDixVo/vh3El7s+Z3KaHVMjk5o0zmmupSASd
+bLO0mlb8wLSocQVBh1sd8CXz0Ea4+bHTz6e+MJp+iaYWm3co72Rajv8VXonwdGfi
+SSUOuR3pfGZsWRNvgbTpcdby8KtfkuZtIr7UPrOul1pmJJzq0LDBK1XNnrXWSUfa
+WYu/1x5ahV7AcpTGsDwfla2SGKJVcbTOP8p7DbLfwAPlvI7Sp4/XgMl1/zoTJJ26
+H5nAS52RXZpsNOsTv/9+5WyQLwmQkm4G9bYNJLU0481ZqyiAXUACLZXEs2dqOOEa
+Qd9HxFdytw==
+=pvff
 -----END PGP SIGNATURE-----
 
---===============4993483623571475600==
+--===============8148096471990603579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============4993483623571475600==--
+--===============8148096471990603579==--
