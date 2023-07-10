@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8486717609612294139=="
+Content-Type: multipart/mixed; boundary="===============6504726997218300319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Jul 2023 10:17:45 -0000
-Message-Id: <168898426554.5586.14255469822821888972@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 10:18:13 -0000
+Message-Id: <168898429320.5796.31598396417853764@gitolite.kernel.org>
 
---===============8486717609612294139==
+--===============6504726997218300319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 908f2ae6a112cfddb175e47343b5608173c41760
-    new: 7b34d67e5ca0007875cf8770b84697e607129c23
-    log: revlist-908f2ae6a112-7b34d67e5ca0.txt
+  - ref: refs/heads/m68k-queue
+    old: 3e61457e9c28626b1ca28c810d814cd713464578
+    new: e773b5f0b39771c1d1a77fc5a97971bf998377de
+    log: revlist-3e61457e9c28-e773b5f0b397.txt
 
---===============8486717609612294139==
+--===============6504726997218300319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-908f2ae6a112-7b34d67e5ca0.txt
+Content-Disposition: attachment; filename=revlist-3e61457e9c28-e773b5f0b397.txt
 
-20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
-a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
@@ -1049,6 +1047,8 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-7b34d67e5ca0007875cf8770b84697e607129c23 Merge tag 'v6.5-rc1'
+967c9816811a89fede435474affb855a08cbff89 m68k: atari: usb: Add ISP1160 USB host controller support
+52a9fc8e822491977f1ecb7fb506581e7c858bd1 m68k: atari: Update Kconfig.bus help text
+e773b5f0b39771c1d1a77fc5a97971bf998377de m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8486717609612294139==--
+--===============6504726997218300319==--
