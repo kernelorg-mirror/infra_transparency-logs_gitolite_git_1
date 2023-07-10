@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3170417667678675462=="
+Content-Type: multipart/mixed; boundary="===============6726354549065294811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 10 Jul 2023 08:55:46 -0000
-Message-Id: <168897934675.26929.13456196063647049224@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 08:56:08 -0000
+Message-Id: <168897936840.27124.10609198839390664367@gitolite.kernel.org>
 
---===============3170417667678675462==
+--===============6726354549065294811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/hmm
+  - ref: refs/heads/wip/for-testing
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============3170417667678675462==
+--===============6726354549065294811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============3170417667678675462==--
+--===============6726354549065294811==--
