@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2151703534052544527=="
+Content-Type: multipart/mixed; boundary="===============6500911515561987627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Jul 2023 16:26:48 -0000
-Message-Id: <168900640826.14566.5583133437623451307@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 16:27:08 -0000
+Message-Id: <168900642841.14767.18355861293945659232@gitolite.kernel.org>
 
---===============2151703534052544527==
+--===============6500911515561987627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 0c166dde1c26113897b40a29283f946583ef41c9
     new: b8eb9a86d290ac910a43139d853ad5c47dc56cb9
     log: revlist-0c166dde1c26-b8eb9a86d290.txt
 
---===============2151703534052544527==
+--===============6500911515561987627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ dd65d585278a8b57c13ae44509d1d2845eae936a tpm: Switch i2c drivers back to use .pr
 5ea53c822a82828f570d85e3eab8aabdac498369 tpm/tpm_tis: Disable interrupts for Framework Laptop Intel 12th gen
 b8eb9a86d290ac910a43139d853ad5c47dc56cb9 tpm/tpm_tis: Disable interrupts for Framework Laptop Intel 13th gen
 
---===============2151703534052544527==--
+--===============6500911515561987627==--
