@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============0241883946444236098=="
+Content-Type: multipart/mixed; boundary="===============0258790033008545890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Jul 2023 08:31:12 -0000
-Message-Id: <168897787212.7973.11285657363385249500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 10 Jul 2023 08:31:39 -0000
+Message-Id: <168897789974.8227.17854915653418619559@gitolite.kernel.org>
 
---===============0241883946444236098==
+--===============0258790033008545890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: f42582c6b23a8c0c631645048a4e463f19c0b3d7
-    new: dee24c5d8db391d5023a12d3d9411ea39553f5c1
-    log: revlist-f42582c6b23a-dee24c5d8db3.txt
+  - ref: refs/heads/perf/core
+    old: 228020b490eda9133c9cb6f59a5ee1278d8c463f
+    new: 1af61adb3a23192023fec1733bd4c8500f53e546
+    log: revlist-228020b490ed-1af61adb3a23.txt
 
---===============0241883946444236098==
+--===============0258790033008545890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f42582c6b23a-dee24c5d8db3.txt
+Content-Disposition: attachment; filename=revlist-228020b490ed-1af61adb3a23.txt
 
+be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
+12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
+e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
+f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
+009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
+c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
+25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
 8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
 ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
 00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
@@ -1038,17 +1045,10 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-d978a313bf349092f8eaced1ebbd8cfaf70c9442 tpm: tpm_vtpm_proxy: fix a race condition in /dev/vtpmx creation
-5940a9869c0c86788ab15faa21b7ffbce4b47c1a tpm: tpm_tis: Disable interrupts *only* for AEON UPX-i11
-5c8224a239ab3ac96fc84239fb8170974a0bfdf7 tpm_tis_spi: Release chip select when flow control fails
-2700f871a3d16910533837fba152e47310f2f759 security: keys: perform capable check only on privileged operations
-271e5b83001141910e890cee3815f43c88d87fe3 KEYS: Replace all non-returning strlcpy with strscpy
-d34d2e10b7cb883ecec5fd442d0d0ea7061fa8a5 KEYS: DigitalSignature link restriction
-d37d24427bf9cb0fb98f87ebe33ea1722134c52d integrity: Enforce digitalSignature usage in the ima and evm keyrings
-8465b1e63957a2c4339661480a944c8a3765c5c1 tpm: tis_i2c: Limit read bursts to I2C_SMBUS_BLOCK_MAX (32) bytes
-fdab2b534d587d903ae7a760cf705e9d597120a6 tpm: tis_i2c: Limit write bursts to I2C_SMBUS_BLOCK_MAX (32) bytes
-e44467f90c8f40db2087841581e439926c915fe9 keys: Fix linking a duplicate key to a keyring's assoc_array
-ee6a7badf092170e6cf7b357ea9225d5eea12434 tpm_tis-spi: Add hardware wait polling
-dee24c5d8db391d5023a12d3d9411ea39553f5c1 tpm: Switch i2c drivers back to use .probe()
+7c2128235eff99b448af8f4b5b2933495bf1a440 perf/amd: Prevent grouping of IBS events
+4c1c9dea2089374cb58505a0df6136969ff3c8b9 perf/x86: Use local64_try_cmpxchg
+28fd85a10a2a73658c6e26056d9e093de06b5a22 perf/core: Use local64_try_cmpxchg in perf_swevent_set_period
+d6b45484c130f4095313ae3edeb4aae662c12fb1 locking/arch: Avoid variable shadowing in local_try_cmpxchg()
+1af61adb3a23192023fec1733bd4c8500f53e546 perf/ring_buffer: Use local_try_cmpxchg in __perf_output_begin
 
---===============0241883946444236098==--
+--===============0258790033008545890==--
