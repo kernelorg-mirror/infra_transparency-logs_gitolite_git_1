@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7528790004899071846=="
+Content-Type: multipart/mixed; boundary="===============4275142402924098282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 10 Jul 2023 08:10:49 -0000
-Message-Id: <168897664980.25763.6172840555896782379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 10 Jul 2023 08:11:14 -0000
+Message-Id: <168897667404.26003.12693677121266667213@gitolite.kernel.org>
 
---===============7528790004899071846==
+--===============4275142402924098282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: 9314d0530276aba19fd7b1c62b04eccb8e5327bc
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-9314d0530276-06c2afb862f9.txt
+  - ref: refs/heads/sched/urgent
+    old: 0019a2d4b7e37a983d133d42b707b8a3018ae6f4
+    new: aff037078ecaecf34a7c2afab1341815f90fba5e
+    log: revlist-0019a2d4b7e3-aff037078eca.txt
 
---===============7528790004899071846==
+--===============4275142402924098282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9314d0530276-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-0019a2d4b7e3-aff037078eca.txt
 
-dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
-20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
 a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
@@ -1050,5 +1048,7 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
+ae2ad293d6be143ad223f5f947cca07bcbe42595 sched/fair: Use recent_used_cpu to test p->cpus_ptr
+aff037078ecaecf34a7c2afab1341815f90fba5e sched/psi: use kernfs polling functions for PSI trigger polling
 
---===============7528790004899071846==--
+--===============4275142402924098282==--
