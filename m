@@ -1,31 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============8750175634725693327=="
+Content-Type: multipart/mixed; boundary="===============3261113746720966228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Mon, 10 Jul 2023 10:00:17 -0000
-Message-Id: <168898321789.23732.4864498499318817535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 10 Jul 2023 10:01:46 -0000
+Message-Id: <168898330679.24372.16319204914791170347@gitolite.kernel.org>
 
---===============8750175634725693327==
+--===============3261113746720966228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/b4/dma_iommu
-    old: 5a43baad240a00d0a9d82fa5d99f4ea11b612ae3
-    new: acfe9f3ee4c02aaceb63421a142347cde31897b4
-    log: revlist-5a43baad240a-acfe9f3ee4c0.txt
+  - ref: refs/heads/fixes
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============8750175634725693327==
+--===============3261113746720966228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a43baad240a-acfe9f3ee4c0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher krzk@kernel.org 1688983305 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1688983304-9f07bd3653977c140659dda83d7e1ffc609109ac
+
+ac9a78681b921877518763ba0e89202254349d1b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSr1wkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16/KD/sGh3rS4H/Qvm9G7hG9FvUYTe3ceXeAjcnq
+rHK4O//1TTI9ywn02oA93RWhTNOEiNt2/3ISez87nKzqE+58GrX+l1d56uqcmTZX
+T/3mgevxO65miMS769/h9zbbI3sRBgpKDFvZO+uvQVvJdAs9Hi2k3E2ML62GRso8
+Pg3cXTX8o8FK+e6fY0Say1SD+l3SVef6OyanduG0Q2akIlMJljHSWLfIyZC6TFD6
+8vspPQ+FGsEo4cY/dxuhLm1pXTEYbC0tPbnwIaB4ovAWvKDlVhJNxYW9T0kTPuTi
+/wYDmzICqF+7PWu/Rb0xLKRZT2XOcMz/I4dCLnrlaIaVVz+x939Yfypnvj1LuTEr
+5T8leHSQ25NqHxbu/sD5btsQCeMbJzKBh39xWKH82XOFanBsdwLhnodWyhNZRnBj
+JKAvlNUKIc5QemK7tflGZ7LuZPFS+hPyxsWh+R1Fl0DjLmgpB4hUaGcly01R4+yN
+oWml9o1RKwJSx15mAe7I3sVXQnQavfF0PdgNZoBZXn+xHM9paHaap3CTEHi6PLgJ
+iYsKKXpUiBy7fsh3IFlrBwCg+awkwvc/GZqkArg6iespSuvhRZzXV+sd66gQMOht
+X+hmNB4cpI1JNzpup5+USa8JNjqe9ScjU0SXGlAIzfFWBj/eMflgS83U98S+yvlD
+kABVVxAjLw==
+=edmD
+-----END PGP SIGNATURE-----
+
+--===============3261113746720966228==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
+
+dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
+6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
+be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
 e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
 f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
@@ -1044,11 +1081,5 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-c613b6dd8d11198f9d7669d28d61db7a478c4e5f iommu/dma: s390 DMA API conversion and optimized IOTLB flushing
-16e86b24a3e5264f8467a8f98cb671c4b0ee4b9a iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
-c0f6d9be22360b957b8f276083b67bacaa65e2a2 s390/pci: prepare is_passed_through() for dma-iommu
-74fcc8fb23b89fe8dfb1f77302d8999f5debca1e s390/pci: Use dma-iommu layer
-47c25b8dc53a16759d8f6066995f31c89914c9ee iommu/dma: Allow a single FQ in addition to per-CPU FQs
-acfe9f3ee4c02aaceb63421a142347cde31897b4 iommu/dma: Use a large flush queue and timeout for shadow_on_flush
 
---===============8750175634725693327==--
+--===============3261113746720966228==--
