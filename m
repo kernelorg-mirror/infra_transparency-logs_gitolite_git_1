@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6674274163396161415=="
+Content-Type: multipart/mixed; boundary="===============2149110048978659967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Jul 2023 16:42:28 -0000
-Message-Id: <168900734886.26990.3606495798639965662@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 16:42:46 -0000
+Message-Id: <168900736637.27156.12802719852777982546@gitolite.kernel.org>
 
---===============6674274163396161415==
+--===============2149110048978659967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 348d3e70d438292cdf7d5d4e1f9e8060c27a792c
     new: 0e207e028f1ef2a17c6804ec22cf4c0f05591518
     log: revlist-348d3e70d438-0e207e028f1e.txt
 
---===============6674274163396161415==
+--===============2149110048978659967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ cbc6ec07c6c308059f55418c45553a022f1e9763 tpm: return false from tpm_amd_is_rng_d
 9574616fb6efe28c8ff7d53c17fe5b3f5aa6198c tpm/tpm_tis: Disable interrupts for Framework Laptop Intel 12th gen
 0e207e028f1ef2a17c6804ec22cf4c0f05591518 tpm/tpm_tis: Disable interrupts for Framework Laptop Intel 13th gen
 
---===============6674274163396161415==--
+--===============2149110048978659967==--
