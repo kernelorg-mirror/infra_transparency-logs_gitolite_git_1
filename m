@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6699640158504717572=="
+Content-Type: multipart/mixed; boundary="===============4744563029688761245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 10 Jul 2023 10:02:01 -0000
-Message-Id: <168898332178.24609.13049415195324441508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 10 Jul 2023 10:02:22 -0000
+Message-Id: <168898334249.24814.84808439535474381@gitolite.kernel.org>
 
---===============6699640158504717572==
+--===============4744563029688761245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 6a66fb9ffe7b4558c04f73593c01ee484a5c9ddf
+  - ref: refs/heads/fixes
+    old: ac9a78681b921877518763ba0e89202254349d1b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-6a66fb9ffe7b-06c2afb862f9.txt
+    log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============6699640158504717572==
+--===============4744563029688761245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1688983320 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1688983319-13c561bce04e57e3d129a96564f24b47fd92b6f7
+pusher krzk@kernel.org 1688983340 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1688983340-07e01c788aa9adac3ea64556209a97aaf2e7ad07
 
-6a66fb9ffe7b4558c04f73593c01ee484a5c9ddf 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/mem-ctrl-next
+ac9a78681b921877518763ba0e89202254349d1b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSr1xgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13S/EACJrWPpNv4W4efsH9zrM5HOmklY22Ss1wVa
-7VA8V7NHWMfDcaSkdlesgqHAskphBrqCmqZLrAQ3WwG2ItsinUAfJBJGH8M3l7Ni
-wmIdU0G/vvhNZOWjXEJIer3JJhZ73W1U2bvEix6TtoUKXu24/75XI5A/hrremegs
-iFHIGHAnAOJwnMPOJDZ41yfS4Qzow3onmvzK0L4U73wgnPcJSlgO5cLW500WESiH
-gxEvxCr9zOsbCtl0sGENyShzcAsndU8w2JmabQSP06+amZ95VCffSOnudHRo1bOu
-vdycsI9P17qzWl/7ueaejaahggtOm1ovMz5wgDBBTtDQ1JIuw3HYaOKH2QZntPkO
-1nBuCNuRlqVB6GFMmT2wB/yK2Q+ziF2Qthau5hbIt5Kgtwc2ghBn1fwejfqTjxVD
-fXPesnbqbQZ1k/851FgRV2uF3oSv+3h57BFXGGP07NrA7OlmDyVmonXB+sURAwgn
-r83xsP4r5TUTIAmrbdZM8r+C+0aZ5qi40xZ0VNWBqqIAmIiPgRw4MT2qBxvj0m/B
-iJuBzlEoHvBSSztwmo/VRplA6nOrh382+PnOTAz3Tw04+hcW0shVqtE2AImajnX+
-KhN7y2qioE3Kp8C/3VUl7T9dvoUJNymxBUqhrC15JBFt8+dohXcYJE9OaJkbMVEn
-cIDLNdOtng==
-=WA83
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSr1ywQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14PlD/9gAJDF+TaXA97E/g18aVjyyZBbcHalfMXc
+fNOk25WtotH1WPrOoJEW2q95i3yPfRlj11zuTgYiAe3z4xpWdEsKARw4msp527Da
+Rwszw7T33ETQliLsQIWNO0ktc75LnlQw7jxIZeuwBhhLdm6ljuK6S56utA0RsQgs
+wb9BKlgSCTtsZUDS5Dz1+OLzswyu5+FBpEiPtIu6Qc/8DSEyjPne6ykjq1pNJYpv
+r4CkVjMwuyxFCDQtKjgYF5NnxeLb8aXHyBJlIT1H4/EIJVBYtN/S6WDHAdSkwpxC
+YihBRjd+OMz+UXuq1lU0WdqL1v4ZUDsvrwy51OsA/3qDrLEQJmZxEywAI6Dn5Rp/
+Uku508ld6y7Yg0YVjbz2WAXBC9oP+TgYjHRu4XAbDH8qY3CZEdUaLQ/P6DSn/WgD
+muIwDry8a7ypFXWUZQExeBpdKk6xCrp3r3Dbc0ZX7n+ckDWGt5o8uY+4P2aoZ1a6
+/yA8mUXoYs4ML4nkOFHm+XDVi72giyzMr0ehTjDP6j3g/9slPcitIZK/h/FOWE8X
+8eWEl8IRy3TUJygHKSvL4L5Nb9HBOKZZMl9qeAiVzjS8K+WB7ktoHcuBa/JHHm9X
+6q1gnQdemkv99tDjYI2OPWvHuzXj2DGQSKe9sTBqvfzUzkbR9wYSuGP0rhQr7K6p
+EEtv6xbbBA==
+=h4Ml
 -----END PGP SIGNATURE-----
 
---===============6699640158504717572==
+--===============4744563029688761245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a66fb9ffe7b-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1082,4 +1082,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============6699640158504717572==--
+--===============4744563029688761245==--
