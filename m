@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7002230509664894491=="
+Content-Type: multipart/mixed; boundary="===============8711015332832799951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 10 Jul 2023 18:25:10 -0000
-Message-Id: <168901351050.9292.14740710134044728298@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 18:25:17 -0000
+Message-Id: <168901351795.9433.4395581517483736290@gitolite.kernel.org>
 
---===============7002230509664894491==
+--===============8711015332832799951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.5
+  - ref: refs/heads/for-next
     old: e2c789cab60a493a72b42cb53eb5fbf96d5f1ae3
     new: 953159c123ae38b0412353340e319ac580af75bc
     log: revlist-e2c789cab60a-953159c123ae.txt
-  - ref: refs/tags/v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
 
---===============7002230509664894491==
+--===============8711015332832799951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 953159c123ae38b0412353340e319ac580af75bc dm integrity: fix double free on memory allocation failure
 
---===============7002230509664894491==--
+--===============8711015332832799951==--
