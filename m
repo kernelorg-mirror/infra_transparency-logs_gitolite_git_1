@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0491246858084130702=="
+Content-Type: multipart/mixed; boundary="===============0591567638785500740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 10 Jul 2023 18:12:22 -0000
-Message-Id: <168901274204.31447.3078563449559161312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 10 Jul 2023 18:14:53 -0000
+Message-Id: <168901289322.32401.2913375735872179902@gitolite.kernel.org>
 
---===============0491246858084130702==
+--===============0591567638785500740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/next
-    old: 4be22f16a4a1a1667e79b52b56cca2c64b3747e2
-    new: c31288e56c1a7bb57a1be1f9f6f3faacbeddeff6
-    log: revlist-4be22f16a4a1-c31288e56c1a.txt
+    old: e455ca40dbcf2cd50d1e59bf4b2752b300bcdad4
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    log: revlist-e455ca40dbcf-06c2afb862f9.txt
 
---===============0491246858084130702==
+--===============0591567638785500740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4be22f16a4a1-c31288e56c1a.txt
+Content-Disposition: attachment; filename=revlist-e455ca40dbcf-06c2afb862f9.txt
 
+dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
+6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
 e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
@@ -1045,10 +1050,5 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-ff72942caa586f2c0a81e2fbae2e8ea5e131d38f lsm: fix typo in security_file_lock() comment header
-6bcdfd2cac5559c680aef8dd4c5facada55ab623 security: Allow all LSMs to provide xattrs for inode_init_security hook
-baed456a6a2f6b8bec2913a6c6a72cc811252c6e smack: Set the SMACK64TRANSMUTE xattr in smack_inode_init_security()
-6db7d1dee8003921b353d7e613471fe8995f46b5 evm: Align evm_inode_init_security() definition with LSM infrastructure
-c31288e56c1a7bb57a1be1f9f6f3faacbeddeff6 evm: Support multiple LSMs providing an xattr
 
---===============0491246858084130702==--
+--===============0591567638785500740==--
