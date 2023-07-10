@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1124750485478714641=="
+Content-Type: multipart/mixed; boundary="===============0601740478333035441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 10 Jul 2023 06:57:04 -0000
-Message-Id: <168897222461.32047.8316461546989221350@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 06:57:11 -0000
+Message-Id: <168897223172.32143.12698535485197802188@gitolite.kernel.org>
 
---===============1124750485478714641==
+--===============0601740478333035441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/defconfig
-    old: ac9a78681b921877518763ba0e89202254349d1b
+  - ref: refs/heads/next/drivers
+    old: 538af6e5856b1aa971975c747a2974a74db48928
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ac9a78681b92-06c2afb862f9.txt
+    log: revlist-538af6e5856b-06c2afb862f9.txt
 
---===============1124750485478714641==
+--===============0601740478333035441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1688972222 +0200
+pusher krzk@kernel.org 1688972230 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1688972222-cfbedb6aa6b0696ffe25f21604bf65cae97ba1a1
+nonce 1688972228-2811c7bdc318761a1b217b671e3c3412413e7884
 
-ac9a78681b921877518763ba0e89202254349d1b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/next/defconfig
+538af6e5856b1aa971975c747a2974a74db48928 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSrq74QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19YFD/46p3UHQBVO4qOibJoZ6HlsvcInG5yw5lQL
-a3AazrIziatpIOlhegNMABXNBmdexdCzNj54hoVVJtBg4ROEI3dLIlNuSqojk0EX
-cMlRS7jquy86YRoj+8AGQjDPfGU5pGkmh0GilzexZ+UwwJYCEmtJgzDOD0vdjMte
-8cdRyiXtTxHHXyAA1WjahawyqUltTx9wnSFk/a5+Qm95YQ6ACUn/IkVXgDjDoJJl
-S/fz9xXJRDuNWeJ4cP9X3dIt7aJkTy196TBumLiya4ObQo6OQASWxmlf4899SLo4
-Yy1qPICjORkItz/+0Zqh2Pus193u05xx7+C/Hm2Ilf1WsP7NZd6kaN5/DyTlyLdj
-Hi1X94Z0GzI5bGCNG5AHHKrGc1sn1rcSgQpoDvdTJeqBU+6PXPtaB8YBI08woXlT
-0uzpJC1SgMUdoaSjZPo1MpC1osEY5tzvr4jZ+A2sabWhvegs3kG4fP8ddJvGcsSU
-+9XI93VB7qL9d2C6r9kqZ6MydbpdaGbn/R+vQGeeZJNLfdEwrlOUJopSnkOLmBzD
-sHVm9AdF3VDG6Xve4PUV4Dd5BG9s/+xCCXon8FKjITDy2gaVdJ/L4fkhzAGuZ/mX
-azC7S/ArB+DOv3hu6En3PvJFYTS14eubvgpqS3zJAeWTzH17aaXp8qEGSF+poF7b
-x+16qx3rxw==
-=Ar7N
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSrq8YQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13WOD/0QD6R1DNd14h6HjxAkGlLS2WL+qyqz9wMd
+LGvhD+38jmhk/0uw9RCVMNlvzjbyJVtbI0NeozpgGeCRfzZ0FEC5wVGCTnKFqjRQ
+GyZwdla5DkYimz8dWlriYbp0GiNJUPa+T5Zq6dWGDBKcBwk3iq0NY9YbvQs3JOZ4
+lrGN7Ol98fpWhi/sX3YyKFmmUZFQB8J9cRsqzt35RblAL5d5EgvS47aAKk/nfYjH
+fBCFxTGv/YVhQZYikLVexS2x59KS1mYWGd5sb1vog8GalTAmoNtvF+LhdfkLscWv
+8psgw3N5p38ykP0E//zW1UnBoJ2jLy9/hvvEa9nyrzJ9c/F01Qghw36bzV8LmdLE
+OToUb9q0RudHaBqQxSzS6ubKzXq4B9J0exaozQbZA8itfMdWrDqEJcuQcGjUfyDs
+15SKII2lRjmp2ZAtkQMVaoz8sP/CQ09Y54KgrCFwjCwv/7rX1pDnXPplKnPFVGPE
+veBqCl2D2IiuOlZ23VtvTsb/Uh5o2dlbMjd3UUCdOzwDcJiWuw9BfHk57kWLJh1G
+HMc3DNTTWEF87+yw8Ufozx8zjT++eKDjwXyFK6+Ez9sFf+3ZVqO38wJc+6Acyy+Z
+e9T/kdMEHMV/SbYAfccAgx/fSlVDOJOaE+Cqgdiw8rS3wdd152ccW/nXfw0VmIVs
+2MCsNVmuQw==
+=pTRu
 -----END PGP SIGNATURE-----
 
---===============1124750485478714641==
+--===============0601740478333035441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-538af6e5856b-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1082,4 +1082,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============1124750485478714641==--
+--===============0601740478333035441==--
