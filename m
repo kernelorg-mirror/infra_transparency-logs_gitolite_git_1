@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0545611135531580723=="
+Content-Type: multipart/mixed; boundary="===============6604781839052953365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 10 Jul 2023 08:18:37 -0000
-Message-Id: <168897711771.30546.12948317717472535383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Mon, 10 Jul 2023 08:19:05 -0000
+Message-Id: <168897714507.30765.5920550408559154373@gitolite.kernel.org>
 
---===============0545611135531580723==
+--===============6604781839052953365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
-  - ref: refs/heads/for-next
-    old: ac1c0d15aedc0863031bc8d678d5f96ab11d3a41
+  - ref: refs/heads/master
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ac1c0d15aedc-06c2afb862f9.txt
+    log: revlist-f2906aa86338-06c2afb862f9.txt
 
---===============0545611135531580723==
+--===============6604781839052953365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac1c0d15aedc-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============0545611135531580723==--
+--===============6604781839052953365==--
