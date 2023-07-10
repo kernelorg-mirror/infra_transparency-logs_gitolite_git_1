@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1762729959753718131=="
+Content-Type: multipart/mixed; boundary="===============3454223490167865872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 10 Jul 2023 07:23:45 -0000
-Message-Id: <168897382569.20461.17348897372432353443@gitolite.kernel.org>
+Date: Mon, 10 Jul 2023 07:23:49 -0000
+Message-Id: <168897382930.20527.5403336837391582779@gitolite.kernel.org>
 
---===============1762729959753718131==
+--===============3454223490167865872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/davinci/for-next
+  - ref: refs/heads/davinci/for-current
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============1762729959753718131==
+--===============3454223490167865872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============1762729959753718131==--
+--===============3454223490167865872==--
