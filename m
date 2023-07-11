@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8438896627691147898=="
+Content-Type: multipart/mixed; boundary="===============3555610907576791083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 11 Jul 2023 21:20:33 -0000
-Message-Id: <168911043388.17469.2901350729271421951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 11 Jul 2023 21:20:42 -0000
+Message-Id: <168911044241.17609.2235055537268121570@gitolite.kernel.org>
 
---===============8438896627691147898==
+--===============3555610907576791083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7213dd22e1faf1ce7e954c9668592f59e91dc7d3
-    new: 8ab878498d49971d59fd805959705fee04355fbe
+  - ref: refs/heads/for-6.5
+    old: 980d97efdb30b8baa74b61fec086becb3aedbb90
+    new: c65b21f8aeac86768d387a86dfcbec5980480b6a
     log: |
-         8ab878498d49971d59fd805959705fee04355fbe drop some 5.15 mmc patches
+         86867aca7330e4fbcfa2a117e20b48bbb6c758a9 ASoC: fsl_sai: Revert "ASoC: fsl_sai: Enable MCTL_MCLK_EN bit for master mode"
+         cd710900ed2b96b1fbc26d711d562581afc385e2 ASoC: amd: ps: Fix extraneous error messages
+         a1ff5802da3806e916de100130a7850b3f80c377 ASoC: dt-bindings: Update maintainer email id
+         c65b21f8aeac86768d387a86dfcbec5980480b6a ASoC: dt-bindings: audio-graph-card2: Drop incomplete example
          
 
---===============8438896627691147898==
+--===============3555610907576791083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689110424 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1689110423-dc5ca0757d0fa925b3957f8136fc9e0f41b033ab
+pusher C3F436CA30F5D8EB 1689110440 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1689110440-e22b142535ac562df0d52b8e6a60dc79db2d02bc
 
-7213dd22e1faf1ce7e954c9668592f59e91dc7d3 8ab878498d49971d59fd805959705fee04355fbe refs/heads/master
+980d97efdb30b8baa74b61fec086becb3aedbb90 c65b21f8aeac86768d387a86dfcbec5980480b6a refs/heads/for-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmStx5gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LRwQAJ9bmOFFMn40TY885Vzu
-IzTN5kKoeg4UA6DaTSM9PmDwAaLp45L8RSl/HS5bBqJeoVBmdZ8cf9dk5dhvOa5s
-e3gqBBEqsRewXWXFLxJwNXmIDORrldVoKGsJR3I8v3yeHqPwsFdDhPVo7ldOAvj4
-tqn0UgOn95H/wuVuo69xHN3IvApXBm+Od+3j5hhCqxQl+jJW5IaxeHt2vrkyMhib
-tP72lEuG/V//KXFJh60PJ/kVcKHKWif/P7e+LUtpQLiL0JbPzwoc2mbttVT9g8qO
-XASmGQHtEsKFVL0EpCbkTCsJD5G8bKlowIPVouSWewhIO71h8fkayCbvQ/nY+FR3
-hkc3eeKdY1d0y/zVw3aohtPIVl4t81zdFgZmpm7DwDuEHQOJ5qR0CqKlgO5IWIAx
-75KNGY3orFLadvsZW7jMV7XKY7RwenRjYG3M8EIzDiys6CIyGF38oJzLVk4z1Kfr
-3XvPZOKZRyS8hQtbGd63WcgC3R5cDtqkMjWB7Wpq1oEwQpXxN4Hbw6+Yb07oXH7+
-eMy8vU2OlpAErslEJThVtstUXN2t40L3VCsbXbvR1jhwQTIEKJ5Y9nG3D1JrN5xH
-C2gbh2SGXfrj6upNvYRNKsb/BDo8s8hYWAMGss6l8dBFcHOufvBv1StSYLi4f5Ly
-TP4UYgLmbuWs5B57csFLkhy1
-=TbYv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmStx6kACgkQJNaLcl1U
+h9CpeQf+Kkl6GF45xZiB5kNKe2apTwDbufYJwsxwMYl+Fei4sClM3QlUG31ajz0/
+pXtBykl+X6el6AtK2bGrbcq5J5iAlnxi1ng159fVgSsA+73UIgMaCVK1YDQK2kXL
+va+mP0jgwOl+VRn5IyDaOv6l1df85GCihsg57YFu+53hRiwoUfAPtas92nwy7Xa3
+9IzL2efzhGJn1yMb4KeMCwjx3sfU4EA4cJpRhX7O1qdDwCAXKeLVuzS0JpGityg7
+uBRPNRmwN5n4d3lv6DaDT1STtXTj37l2qEu10nENGE9WadX1JDRajI7KFuNyPybR
+YoWIGNem7870C1RHLqzwL2u+qVlzEg==
+=qRLr
 -----END PGP SIGNATURE-----
 
---===============8438896627691147898==--
+--===============3555610907576791083==--
