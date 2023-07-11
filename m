@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 11 Jul 2023 16:37:17 -0000
-Message-Id: <168909343713.30652.15360856786417917338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 11 Jul 2023 16:39:03 -0000
+Message-Id: <168909354313.32395.3450907237430042843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/topic-sunrpc-thread-scheduling
-    old: 7f520f76d5933b16b2482dbc54c04329a868caae
-    new: 699ec8b0f57ed7e8fe18b683c0b04326f3b385bd
+  - ref: refs/heads/trace/core
+    old: fddca7db4a4c17f7333793dfb5308d80c76d2896
+    new: 46b77ea28faeed56f1d1b63f9049c40b9eb3cbf5
     log: |
-         dfdf4514c85ed85e69342ac4214a6fbb7cca4b42 SUNRPC: Deduplicate thread wake-up code
-         647935e79f0e79c08ebec4b13eda56478b55a3db SUNRPC: Report when no service thread is available.
-         b4d86c10ba9b6bba251b28b13be3a2a45ebeb2d3 SUNRPC: Split the svc_xprt_dequeue tracepoint
-         24a9d390331c2e28a70c2fa9180b060a6a5e3224 SUNRPC: Count ingress RPC messages per svc_pool
-         027e90377a43fde03e15f7602106bd0bacf981be SUNRPC: Count pool threads that were awoken but found no work to do
-         9d15980863e0e7e1a427bcd9ea7a33fa59977161 SUNRPC: Clean up svc_set_num_threads
-         f0e913124cecf03b64ea107966d7689aac33674e SUNRPC: Replace dprintk() call site in __svc_create()
-         c32beb07b5e517727fdf403f17f5ab82717291af SUNRPC: Replace sp_threads_all with an xarray
-         699ec8b0f57ed7e8fe18b683c0b04326f3b385bd SUNRPC: Convert RQ_BUSY into a per-pool bitmap
+         f70cc5a84dbc4f03334aefc3e0843cfea576b2a2 samples: ftrace: Save required argument registers in sample trampolines
+         eb4bc520814f3e99d69fde67dd188ff466edd0eb arm64: ftrace: Add direct call trampoline samples support
+         0e696b59a7cde4f6eac9c0e38ae3b4a54f1f53d4 x86/ftrace: Remove unsued extern declaration ftrace_regs_caller_ret()
+         55803539764e831c4e642de1c6634f8f645a10aa tracing: arm64: Avoid missing-prototype warnings
+         46b77ea28faeed56f1d1b63f9049c40b9eb3cbf5 tracing/user_events: Fix struct arg size match check
          
