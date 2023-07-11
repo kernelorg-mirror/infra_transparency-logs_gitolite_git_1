@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Tue, 11 Jul 2023 12:22:38 -0000
-Message-Id: <168907815840.8413.12126623952566101060@gitolite.kernel.org>
+Date: Tue, 11 Jul 2023 12:23:57 -0000
+Message-Id: <168907823773.8913.7146625812485363483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
   - ref: refs/heads/dev
-    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: d1fd346b8ac5d535d20569dbd15fc41300e1f88c
