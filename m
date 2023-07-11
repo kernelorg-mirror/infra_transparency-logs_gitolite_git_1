@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 11 Jul 2023 10:55:26 -0000
-Message-Id: <168907292690.11293.6682384626840192360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 11 Jul 2023 11:10:17 -0000
+Message-Id: <168907381715.22639.4339676397977115812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/stm32-next
-    old: df362914eeadb82572434391f533d66f66360453
-    new: f0215440069c4fb12958d2d321e05faa2708a11d
+  - ref: refs/heads/main
+    old: 04499f28b40bfc24f20b0e2331008bb90a54a6cf
+    new: 8278ee2a2646b9acf747317895e47a640ba933c9
     log: |
-         0637e66f8250c61f75042131fcb7f88ead2ad436 ARM: dts: stm32: add pin map for i2c3 controller on stm32f7
-         f0215440069c4fb12958d2d321e05faa2708a11d ARM: dts: stm32: add touchscreen on stm32f746-disco board
+         8278ee2a2646b9acf747317895e47a640ba933c9 octeontx2-pf: Add additional check for MCAM rules
          
