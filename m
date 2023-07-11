@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 11 Jul 2023 08:59:30 -0000
-Message-Id: <168906597021.8661.5253246706223807505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 11 Jul 2023 09:02:56 -0000
+Message-Id: <168906617603.11611.17285404924774674322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/main
-    old: c0dbbdf56f13c960aa6bedf61302f57411ae4865
-    new: 04499f28b40bfc24f20b0e2331008bb90a54a6cf
+  - ref: refs/heads/master
+    old: d1e0e61d617ba17aa516db707aa871387566bbf7
+    new: 57010b8ece2821a1fdfdba2197d14a022f3769db
     log: |
-         04499f28b40bfc24f20b0e2331008bb90a54a6cf net: dsa: Removed unneeded of_node_put in felix_parse_ports_node
+         57010b8ece2821a1fdfdba2197d14a022f3769db xfrm: Silence warnings triggerable by bad packets
          
