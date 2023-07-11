@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4746905259020120453=="
+Content-Type: multipart/mixed; boundary="===============9113168931911244919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 11 Jul 2023 02:13:34 -0000
-Message-Id: <168904161413.2910.11991575230407920384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 11 Jul 2023 02:13:42 -0000
+Message-Id: <168904162299.3054.14089893720609638496@gitolite.kernel.org>
 
---===============4746905259020120453==
+--===============9113168931911244919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: fe57d0d86f03a8b2afe2869a95477d0ed1824c96
     new: 8e4b7f2f3d6071665b1dfd70786229c8a5d6c256
     log: revlist-fe57d0d86f03-8e4b7f2f3d60.txt
-  - ref: refs/heads/stable
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 3f01e9fed8454dcd89727016c3e5b2fbb8f8e50c
-    log: |
-         d3dccb0a487d065ce097e565d9ca8ae85d892a55 crypto: af_alg - Fix merging of written data into spliced pages
-         2500df55a615f2f177bacf1a261f927790a137db dt-bindings: watchdog: Add Loongson-1 watchdog
-         9e9311e04e63ede92be98425efd843f9836336bd KEYS: asymmetric: Fix error codes
-         0b7ec177b589842c0abf9e91459c83ba28d32452 crypto: algif_hash - Fix race between MORE and non-MORE sends
-         419caed6cc77f19148faefe13515f8685ede219b Merge tag 'v6.5-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         3f01e9fed8454dcd89727016c3e5b2fbb8f8e50c Merge tag 'linux-watchdog-6.5-rc2' of git://www.linux-watchdog.org/linux-watchdog
-         
-  - ref: refs/tags/next-20230411
-    old: 6b27f07da55de4766fd3790cf84dba6b1d211d34
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230711
     old: 0000000000000000000000000000000000000000
     new: 67614bd24b38a5b31c92d2f3e1187b1daf360fc0
 
---===============4746905259020120453==
+--===============9113168931911244919==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -745,4 +731,4 @@ b99652a1d4f8a6b586ffbb7ca84f6a630e3b1b6d Merge branch 'for-next' of git://git.ke
 c5c8a8fa4c2e8c1b8d7936fdcc62df85efc6d93c Merge branch 'sysctl-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux.git
 8e4b7f2f3d6071665b1dfd70786229c8a5d6c256 Add linux-next specific files for 20230711
 
---===============4746905259020120453==--
+--===============9113168931911244919==--
