@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 11 Jul 2023 08:19:21 -0000
-Message-Id: <168906356116.12476.10771493588387508689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 11 Jul 2023 08:20:44 -0000
+Message-Id: <168906364404.14625.13102086413280112690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: d4d8e15cec34303615bd96578f1e86b5de7a6775
-    new: 1a2945f27157825a561be7840023e3664111ab2f
+  - ref: refs/heads/habanalabs-accel-6.6
+    old: 77b8d2a4b6264baf8566813c7e61809e4722c327
+    new: 0c9c61a681e9325fae22581363c40663487777c0
     log: |
-         535d0ae39185a266536a1e97ff9a8956d7fbb9df x86/cfi: Only define poison_cfi() if CONFIG_X86_KERNEL_IBT=y
-         1a2945f27157825a561be7840023e3664111ab2f Merge branch into tip/master: 'x86/urgent'
+         3b77db9a2665281a8020c182eb5ab9e045f5fe6f add linux version
+         94e95eecce854bfe8c53e26b9e68dae0e17064ae accel/habanalabs/gaudi2: fix missing check of kernel ctx
+         4cf8e53745d9f66cf4d4e2b6df8f08e1ad76e301 add to version
+         6b629d1edf2419c5ee9cf3e085302f44286c61b8 add to version2
+         14bca364c605a536221d796e38a8ac254de26372 remove class
+         0c9c61a681e9325fae22581363c40663487777c0 add static to __hl_mmap
          
