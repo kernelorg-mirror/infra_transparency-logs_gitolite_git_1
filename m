@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 11 Jul 2023 10:47:38 -0000
-Message-Id: <168907245847.5100.4412581852915109865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 11 Jul 2023 10:51:02 -0000
+Message-Id: <168907266206.7995.406154326829860919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/stm32-next
-    old: a1915d9ebb83089579274ba11bbcb5fb19956649
-    new: df362914eeadb82572434391f533d66f66360453
+  - ref: refs/heads/main
+    old: 6843306689aff3aea608e4d2630b2a5a0137f827
+    new: b8e39b38487e68c6503419db6e4a851a0ef56de7
     log: |
-         df362914eeadb82572434391f533d66f66360453 ARM: dts: stm32: re-add CAN support on stm32f746
+         274c4a6d529cff48b241b15627b46b0f65987ade net/core: Make use of assign_bit() API
+         b8e39b38487e68c6503419db6e4a851a0ef56de7 netlink: Make use of __assign_bit() API
          
