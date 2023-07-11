@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0578164911866014203=="
+Content-Type: multipart/mixed; boundary="===============2437911048927646749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
-Date: Tue, 11 Jul 2023 05:22:31 -0000
-Message-Id: <168905295102.13103.15547861379189419930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Tue, 11 Jul 2023 05:26:22 -0000
+Message-Id: <168905318293.16050.11824280836218952103@gitolite.kernel.org>
 
---===============0578164911866014203==
+--===============2437911048927646749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: 51aaa68222d6c34f0373cf95223ce2f230329e8f
+    old: dd8b3a802b64adf059a49a68f1bdca7846e492fc
     new: 6843306689aff3aea608e4d2630b2a5a0137f827
-    log: revlist-51aaa68222d6-6843306689af.txt
+    log: revlist-dd8b3a802b64-6843306689af.txt
 
---===============0578164911866014203==
+--===============2437911048927646749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51aaa68222d6-6843306689af.txt
+Content-Disposition: attachment; filename=revlist-dd8b3a802b64-6843306689af.txt
 
 8f05cd35c73b97b9df759dd70e3ad26bc7482a7d PCI: qcom-ep: Add support for BME notification
 1bf5f25324f7f6a52c3eb566ec5f78f6a901db96 PCI: endpoint: Add PCI Endpoint function driver for MHI bus
@@ -1051,4 +1051,4 @@ bb8e7e9f0bc47d01bea310808ab8c27f6484d850 Merge tag 'xfs-6.5-merge-5' of git://gi
 73a3fcdaa73200e38e38f7e8a32c9b901c5b95b5 Merge tag 'f2fs-for-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 6843306689aff3aea608e4d2630b2a5a0137f827 Merge tag 'net-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0578164911866014203==--
+--===============2437911048927646749==--
