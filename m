@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3976063964518924489=="
+Content-Type: multipart/mixed; boundary="===============3408122893658731272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 11 Jul 2023 19:38:26 -0000
-Message-Id: <168910430607.4746.8882791151940941231@gitolite.kernel.org>
+Date: Tue, 11 Jul 2023 19:38:39 -0000
+Message-Id: <168910431990.4919.2536463504078917407@gitolite.kernel.org>
 
---===============3976063964518924489==
+--===============3408122893658731272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 24033d71cc36ae8af02b56ec22c7490779a9e39f
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-24033d71cc36-06c2afb862f9.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: b86d2da9610dc1411582305eade47910878bf2d9
+    new: 4d804642a28e3cfe70690c3300bf8fb5a6ee9a3a
+    log: revlist-b86d2da9610d-4d804642a28e.txt
 
---===============3976063964518924489==
+--===============3408122893658731272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1689104304 -0400
+pusher 75C5DE3D 1689104310 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1689104302-29bc3976217251a7f6acafd5584fc8d08b4c002e
+nonce 1689104310-fdf3fdf6cdea4e3639012cfd67fd1678e7f0d82c
 
-24033d71cc36ae8af02b56ec22c7490779a9e39f 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/queue
+b86d2da9610dc1411582305eade47910878bf2d9 4d804642a28e3cfe70690c3300bf8fb5a6ee9a3a refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmStr7AACgkQ7ulgGnXF
-3j1IIg//WThXr3/AmEFP+hIOm9zx3/+RbMzGHM6fWuFCkX3Ar86IjJxc6YIScKdd
-k/vlfdKNSY4gS5BIHHioBN/+hnEuB9+08lujFsD6sYRUrLBsTJWZaFQUeF2O+vtu
-inKj8FC6d3T8yQtfFyyAphZ5D/wx75WgZbDQr5Mhszoqcp0k5Lt9Lzr6RoEY1A+p
-vFNJxpXO/h7wK73BUEqF6uuS4v2BG3F4D/zm1RGc3DPqvDdOrwzEI4ZWWp3ZEbXX
-gmD82ZIyDwyVkU8maXboY7+mAglmUXNyYWyWLZlBW9eK3es41ZlStiGGBm3kTQW5
-r9Z3GSI4NsC32vVUGh8fesSqibtqNDdf7fJrS08zw/wkNMHA7mR1nPXDzTl3zmKk
-rvbIhuN+TQBRr8/ZaAGlG4Iz8kQ/sN/tZ9jJSILVCno9E5i1/VxgCOZc8vJZx1zJ
-5cesvHNYTxKIewd3qhEsIrviEcBr477nhr5gZSccK9pyaL/1Rnihg6a8D6kprTv+
-9OztWmsafxcwumZwhGUq5oa89jA2scvEY9NAjfPmAEvUlvCE0r0QaCBmiXHY047z
-gTxbfyYauTaRE3Y9l6QkYHyLDeZIy5tBH3x6agA+8Y1RL2e4F/EwTYherYpnr9IZ
-ibgvqD0VG1fpWWl87gGb3jMarw3HzHCteZvMAga9uXYYxTg6EFw=
-=ajGU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmStr7YACgkQ7ulgGnXF
+3j2XcQ/7B7pBgLDozmSrCTQsScVgk6zizSK+FsOkge1TP5u3XYUnYD7wyjCjK0e/
+tVbRc5y6+CaaI8LHZeEhuLWOMIQCLnR6wk3PgvoEq7AtoceXLMoMyUcIPfY0hVhV
+Q5yvVLOSKqnfJAIyEe+v9X5NnuchX1Fd+qpITCmDnsYhO6/mKFnxzk5Sj6oUT/xu
+ddxFla8gIntf5DxWocWmJ4CFIFY7kO7oLyTxEn59OtVvy0qS/ocsND2cGnQ+9H/p
+j6INfHoOQrC2/k780Df/5fAJf/1wQhoD6C/dLSDg4Z9qNQCA6f9Q2oPWxWIgxIDt
+y9jQ95w7jz36kii3fSCroZ4EC9j5sEcO+h9f2Ve+9xqEDvfqclVpb/uw3pof+ghP
+TD/5T8vRBmYPrJObKrbFFgGKnjHW+rFVbk27ZNxG8ZO3HtzVun7TQfsMckhA1NX3
+LI4+cJYEpSpbx3tQFytbBnxJgGHl80Y9csK8nEKBQr4qPKZSy4q5+nhDcyxC8k5J
+j/KJiYE59M9dlttIF2WcfqB229P8VdhIioMD7bJytzFECRp0oITlsFcKNnm8c+Td
+p6L0+eHC8cZ+IAZqWUWLAwECabOpnNyhVP/lOBJlpMTfgFiosUzeiIC+Vp+kBfeg
+je0mwJYprvNe+Xg4ycgTyvkYieHZRh09/0rrJpQ6mgA8Bx4S3C0=
+=Ysww
 -----END PGP SIGNATURE-----
 
---===============3976063964518924489==
+--===============3408122893658731272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24033d71cc36-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-b86d2da9610d-4d804642a28e.txt
 
-85b21fdec906ecd46856618910f8762afecbf1e9 thermal/drivers/generic-adc: Register thermal zones as hwmon sensors
-57c9eaa4de537e6f08819d9214de502cac5a989c thermal/drivers/qcom/temp-alarm: Use dev_err_probe
-6f67fbf8192da80c4db01a1800c7fceaca9cf1f9 lib/ts_bm: reset initial match offset for every block of text
-ff0a3a7d52ff7282dbd183e7fc29a1fe386b0c30 netfilter: conntrack: dccp: copy entire header to stack buffer, not just basic one
 f18e7122cc73d9218930156fa38f050a2e37de57 linux/netfilter.h: fix kernel-doc warnings
 804ca14d04df09bf7924bacc5ad22a4bed80c94f iommufd: Do not access the area pointer after unlocking
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
@@ -1080,5 +1076,9 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
+30a5b62e1c83d7660c6c471915ad968b6c6b7d98 scsi: target: iscsi: Remove the unused netif_timeout attribute
+aa2db9d44a8b9b3cb12df7c253b3d6f46618d37e scsi: ufs: core: Convert UPIU_HEADER_DWORD() into a function
+11afb65c100ac5b16dd8ea6c8fcd55a1c61c3886 scsi: ufs: core: Export symbols for MTK driver module
+e152a616c88653e67244595979fde24038d9653a scsi: ufs: ufs-mediatek: Add MCQ support for MTK platform
 
---===============3976063964518924489==--
+--===============3408122893658731272==--
