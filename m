@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 11 Jul 2023 08:59:04 -0000
-Message-Id: <168906594488.8424.13244412585604661552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 11 Jul 2023 08:59:30 -0000
+Message-Id: <168906597021.8661.5253246706223807505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/stm32-next
-    old: 5060e27012f7e0044ae838de59a46f563c54fb84
-    new: 5408d51846b4ddb8e062c89e0b3097e51cd798af
+  - ref: refs/heads/main
+    old: c0dbbdf56f13c960aa6bedf61302f57411ae4865
+    new: 04499f28b40bfc24f20b0e2331008bb90a54a6cf
     log: |
-         5408d51846b4ddb8e062c89e0b3097e51cd798af ARM: dts: stm32: Deduplicate DSI node on stm32mp15
+         04499f28b40bfc24f20b0e2331008bb90a54a6cf net: dsa: Removed unneeded of_node_put in felix_parse_ports_node
          
