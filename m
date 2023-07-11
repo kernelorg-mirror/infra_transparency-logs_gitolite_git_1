@@ -1,45 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============3419783931888193612=="
+Content-Type: multipart/mixed; boundary="===============5267238844595614872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 11 Jul 2023 07:43:27 -0000
-Message-Id: <168906140704.18497.1930033957785595645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 11 Jul 2023 07:45:24 -0000
+Message-Id: <168906152482.20898.4328172786955224545@gitolite.kernel.org>
 
---===============3419783931888193612==
+--===============5267238844595614872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/x86-efistub-cleanup-v6
-    old: bf2651b20324087549eb6ed9f04894f3d7630533
-    new: 2701fe38770f9606c5a1c0cd11ac0ba57b6ff5dc
-    log: revlist-bf2651b20324-2701fe38770f.txt
+  - ref: refs/heads/fixes
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    new: 059c78ebf1e94a825e27cc3ef8a9d77cef06827e
+    log: |
+         03966c3950d36d6b671158be3794eb7211434faa phy: phy-mtk-dp: Fix an error code in probe()
+         059c78ebf1e94a825e27cc3ef8a9d77cef06827e phy: mediatek: hdmi: mt8195: fix prediv bad upper limit test
+         
+  - ref: refs/heads/next
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    new: 315a1a400d9c6533823e3e3af9b07cb4d0555f77
+    log: revlist-06c2afb862f9-315a1a400d9c.txt
 
---===============3419783931888193612==
+--===============5267238844595614872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf2651b20324-2701fe38770f.txt
+Content-Disposition: attachment; filename=revlist-06c2afb862f9-315a1a400d9c.txt
 
-c54d96c2f2b9290f42af8fa7f4a869b4b3737793 x86/head_64: Store boot_params pointer in callee save register
-29dbc3cbe2c09479e1143ae61ed12a7608df3b63 x86/decompressor: Call trampoline as a normal function
-a94f619e88dbced26589cdd7ff00f196bfbcfbd8 x86/decompressor: Use standard calling convention for trampoline
-1a97421cc4d385b69c4244a84f1ca9b9f7f952ce x86/decompressor: Avoid the need for a stack in the 32-bit trampoline
-3ba4ccf32e1a0d47a5810b4346155a3621b87fe2 x86/decompressor: Call trampoline directly from C code
-7c09d3d984d71190b40f199b862143cd27c1f9cb x86/decompressor: Only call the trampoline when changing paging levels
-049f3e3c3a465c7934d203965273ff7f94511db9 x86/decompressor: Merge trampoline cleanup with switching code
-c1e434f1f01d49277ff51a6a6d8436d6ac61f34c x86/efistub: Perform 4/5 level paging switch from the stub
-5ad4bda5502a780bb6151ffdde167aa9e57643a8 x86/efistub: Prefer EFI memory attributes protocol over DXE services
-bec1f9a063c8d38d49f28e5ff9c84053d31c6f77 decompress: Use 8 byte alignment
-e4a3144791ac05a73c03b59b5bae7fc2cc53461d x86/decompressor: Move global symbol references to C code
-d43f93791909d0555365cc056ecae3d34bf4ab55 x86/decompressor: Factor out kernel decompression and relocation
-8a30a144e7553a0e88fadb84985141b8a6034898 efi/libstub: Add limit argument to efi_random_alloc()
-c30526418becc20c686e8c711983b5bfd0ce687a x86/efistub: Perform SNP feature test while running in the firmware
-2701fe38770f9606c5a1c0cd11ac0ba57b6ff5dc x86/efistub: Avoid legacy decompressor when doing EFI boot
+babfcaf544d890fe96a54184ccabde9c2afa520f phy: marvell: phy-mvebu-cp110-comphy: Use devm_platform_get_and_ioremap_resource()
+161f7ca9455c27eb0d228def6516d73a9cb841bf phy: rockchip: phy-rockchip-typec: Use devm_platform_get_and_ioremap_resource()
+f21829b8b928ca2aedbed839ab9dec5d079c42dd phy: renesas: r8a779f0-ether-serdes: Convert to devm_platform_ioremap_resource()
+81e4c826b35672838e2cb9ef693855998913fde4 phy: cadence-torrent: Add single link USXGMII configuration for 156.25MHz refclk
+01c69d7d76db623ed7bcaf60a652af64bfbe4a15 phy: cadence-torrent: Use key:value pair table for all settings
+26720f89ee6878ef505812e852a3e914b7cbfe44 dt-bindings: phy: rockchip,inno-usb2phy: add rk3588
+52b99b871eb79637342660b46c900642483d4412 phy: phy-rockchip-inno-usb2: add rk3588 support
+44d88aa9ae81c79ccc47ba4ef85aeda968bc4a50 phy: phy-rockchip-inno-usb2: add reset support
+7d508a92e4588a59b909e235667d515051dd5955 phy: phy-rockchip-inno-usb2: add rk3588 phy tuning support
+f4ca578b9803601074ab0d9e366b5fcda504e5a6 phy: phy-rockchip-inno-usb2: simplify phy clock handling
+2e5ead8478e8e4a7b3d63a2001c2f0022b2f5e1b phy: phy-rockchip-inno-usb2: simplify getting match data
+e7254a4a7c444fa194440fa8dc73c7728e927162 phy: phy-rockchip-inno-usb2: improve error message
+b484e246a21433daaabd8678347c96f8339bf818 dt-bindings: phy: qcom,sc7180-qmp-usb3-dp-phy: add sm8150 USB+DP PHY
+4daee20877df04b96bc36752acdc41dfc581b34c phy: qcom-qmp-combo: add support for the USB+DP PHY on SM8150 platform
+c30d437e92d20741a6db7ece024e15a0f5af6bcc dt-bindings: phy: qcom,msm8996-qmp-usb3-phy: drop legacy bindings
+770025644d971229c86fb97796268b8363c2c70a phy: qcom-qmp-usb: split off the legacy USB+dp_com support
+b1a34e7d196646a8fc0a6f91c2bf98943f3d440a phy: mediatek: mipi-dsi: Convert to register clk_hw
+e812c5b62a978ae67d23c5eb237959596734a86e phy: mediatek: mipi-dsi: Use devm variant for of_clk_add_hw_provider()
+5d295c1a20c747425c27dd9212ff091528136e55 phy: mediatek: mipi-dsi: Compress of_device_id match entries
+1414920a5fd570e67bb7d367eda08f8851b2e378 phy: xilinx: add runtime PM support
+e4f01e75cdcf003f07ca5f4ba61823b687fd941c phy: xilinx: phy-zynqmp: dynamic clock support for power-save
+8fa60f5ab940ba732644c996c3570b78b10b8fdc phy: qcom: qmp-combo: correct bias0_en programming
+211ddf1d89cfb6be8aead2092c95bb285bf790b6 phy: qcom: qmp-combo: reuse register layouts for more registers
+01f363f4eb0c0c35aa88a0ff2a329c4d88dc1da0 phy: qcom: qmp-combo: reuse register layouts for even more registers
+245fa640ea46ad430cd962351fef0618f71ffda9 phy: qcom: qmp-combo: reuse register layouts for some more registers
+f4ed3532ca7422811083d15a204f91b8f5f8b49a phy: qcom: qmp-combo: drop similar functions
+8e4137dc4eac0982aeb4f3fd103598a41c4f165d phy: qcom: qmp-combo: drop qmp_v6_dp_aux_init()
+315a1a400d9c6533823e3e3af9b07cb4d0555f77 phy: qcom: qmp-combo: extract common function to setup clocks
 
---===============3419783931888193612==--
+--===============5267238844595614872==--
