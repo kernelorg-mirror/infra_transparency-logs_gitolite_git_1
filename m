@@ -1,56 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============5482299633876968509=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 11 Jul 2023 17:47:00 -0000
-Message-Id: <168909762089.19941.13430194358767751273@gitolite.kernel.org>
-
---===============5482299633876968509==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 11 Jul 2023 17:50:03 -0000
+Message-Id: <168909780358.23002.4989792697463363982@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: a018368d837a875e1230fe8bc975f62f7f746708
-    new: d7ecf7bb468b552470f30b7f6b4575f3ac614641
+  - ref: refs/heads/io_uring-futex
+    old: 79608aecbea96d8d4ecddee7bc362beb4b798db9
+    new: c8fffbd2c38b72edfff94f5f6ef234913fe0145f
     log: |
-         d7ecf7bb468b552470f30b7f6b4575f3ac614641 move 6.4 patches back into place
+         bacfd2431ccd020aff236fadbccd7b6f83e8f663 io_uring: add support for futex wake and wait
+         3a5b31e17a98ec19bcbfeb4de55defe1dc370b4c futex: add wake_data to struct futex_q
+         f0c0b88e966b753aadb3c7c637f92020aa68e500 futex: make futex_parse_waitv() available as a helper
+         9468bd7d0debf8f40cda776e0bf28f7ad5c3f497 futex: make the vectored futex operations available
+         c8fffbd2c38b72edfff94f5f6ef234913fe0145f io_uring: add futex waitv
          
-
---===============5482299633876968509==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689097619 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1689097619-24b3667af65629674bac2a358c4d1722e4222bcf
-
-a018368d837a875e1230fe8bc975f62f7f746708 d7ecf7bb468b552470f30b7f6b4575f3ac614641 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmStlZMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/kIQANXY/B1d1NkPP2+UN+0y
-svAOfgdVskWf1Pza4D5mLxSbXRMEXHX7gNvNSXnvmrZrk93NhzMIkfoTys5AMVTO
-s1Rqa04XgzZd/5XEEeKLSJh2cIWCW/hCUsSF8YCR/w4FA80jzJjyFqBDG2TzOeic
-4sGEkfIRJf0AbSfKMOd8Dr/3FJc1hriOIMZolX6mHF7c5heiANoPbTfqhOkr+uBn
-3mAp28HLUK1uTC9sqoB+XuhDSAMW/KvLJ0yR9Ex0R7H9Zs9sBKhMyWf9sWLFi0bT
-NvE7/teWy0TujJNcagOkVUok9qyM4Qai/39pu22s0+ZrTVZ2oDch7vqrSRh6HRwB
-WhsvjHrDo7CEU/TCsfE98zTVltLyoL1ZN4Ihto8JU88/xfc7meccRN/Ldy6a6Gld
-5/uIJoj2w4GD6pVWjJZ05bvrInkTZECuIz9MyWaVh+8pzpCRFNiI6ZgMMoa/alfO
-fn/BbtqesrAptQf27p0wD9KEliU5lLIzMLhlHLar8QP6TYH11+8riSZ70q7crFI0
-7QvWzA7FYgut9dA+uwNuFXMb1U4US+1BAHEAPeFLt4JJY7T4oNpUfrKv4XhiLy9I
-OC/MhZbZP6mY5Jiv/iAdqrq6B+wr0lyLeSOWW+hL2ANtq7LtXedTeA2goZaeg7ZD
-N3JEr8lN1AMVtbaM1RHlFKRM
-=Pd+t
------END PGP SIGNATURE-----
-
---===============5482299633876968509==--
+  - ref: refs/heads/io_uring-waitid
+    old: d76cabac8b8ed0a5df8195a5538b01c9d2e552c0
+    new: 0608555ad6e35eb9810b65796e58c8eef10e56be
+    log: |
+         bacfd2431ccd020aff236fadbccd7b6f83e8f663 io_uring: add support for futex wake and wait
+         3a5b31e17a98ec19bcbfeb4de55defe1dc370b4c futex: add wake_data to struct futex_q
+         f0c0b88e966b753aadb3c7c637f92020aa68e500 futex: make futex_parse_waitv() available as a helper
+         9468bd7d0debf8f40cda776e0bf28f7ad5c3f497 futex: make the vectored futex operations available
+         c8fffbd2c38b72edfff94f5f6ef234913fe0145f io_uring: add futex waitv
+         a77caca1ed9b9c6a1d2323b5c9f1d2c5625f1a51 exit: abtract out should_wake helper for child_wait_callback()
+         13c6288a6171dae83b365787b8c93b679277dc0f exit: move core of do_wait() into helper
+         1e0f62134b9ebdbb13042763e821d3eea0129b40 exit: add kernel_waitid_prepare() helper
+         8638de5048efcf75e99ee9e876917daf1aa6e6d0 exit: add internal include file with helpers
+         0608555ad6e35eb9810b65796e58c8eef10e56be io_uring: add IORING_OP_WAITID support
+         
