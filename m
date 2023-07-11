@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 11 Jul 2023 18:01:51 -0000
-Message-Id: <168909851153.31115.1290151795716079871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 11 Jul 2023 18:10:49 -0000
+Message-Id: <168909904999.6583.7431168799821699311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/waitid
-    old: f89d83beda99a06ed872dfb76f9eec97d51f5a64
-    new: 32aca2b5f9732aa9356edcc0fba1a9fc9c7007e1
-    log: |
-         32aca2b5f9732aa9356edcc0fba1a9fc9c7007e1 test/waitid: add explicit cancel test
-         
+  - ref: refs/heads/for-next
+    old: 3951e68e700079aa00656477a8da8ccb25fa665e
+    new: 0000000000000000000000000000000000000000
