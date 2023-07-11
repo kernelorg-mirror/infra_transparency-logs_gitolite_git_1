@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 11 Jul 2023 14:00:08 -0000
-Message-Id: <168908400864.15950.16521057798265221399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Tue, 11 Jul 2023 14:04:44 -0000
+Message-Id: <168908428416.17659.6725241253053350898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: b192df20e8c9dda03e005d4cb4909d846ea437bb
-    new: 8fae18103387e09e360941d7df884a2fc6010f66
-    log: |
-         098b944e6395806dade714525c9977a1734f9210 dt-bindings: mmc: renesas,sdhi: Document RZ/V2M support
-         fbf0b85a8a488128b5569f88c918a2f00eaae79f clk: renesas: r9a09g011: Add SDHI/eMMC clock and reset entries
-         81b13ab6862201769ced0d30def6311ec10fa307 mmc: renesas_sdhi: Add RZ/V2M compatible string
-         0f69f8568698f80fd7e50dd23d10aa12afcece9e arm64: dts: renesas: r9a09g011: Add eMMC and SDHI support
-         8fae18103387e09e360941d7df884a2fc6010f66 arm64: dts: renesas: rzv2mevk2: Add uSD card and eMMC support
-         
+  - ref: refs/heads/patchset/fchmodat4/v4.0
+    old: 0000000000000000000000000000000000000000
+    new: 180ba4fdd840616def1c7e241907a78ae178f640
+  - ref: refs/tags/patchset/fchmodat4/v4.0/cover
+    old: 0000000000000000000000000000000000000000
+    new: 0028bea2fec79b360e0334a487ffb415cb26fd2d
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
