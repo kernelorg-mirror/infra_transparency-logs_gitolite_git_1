@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 11 Jul 2023 08:21:03 -0000
-Message-Id: <168906366328.14803.13710358808938675851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 11 Jul 2023 08:26:19 -0000
+Message-Id: <168906397946.18247.4129091060910202144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/habanalabs-accel
-    old: e08323dd3fca39050e8ec4d70d4ca4fc6ce02162
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/stm32-next
+    old: 518272af37b218161dc321e5a11316fc72422f9c
+    new: 5060e27012f7e0044ae838de59a46f563c54fb84
+    log: |
+         5060e27012f7e0044ae838de59a46f563c54fb84 ARM: dts: stm32: leverage OP-TEE ASync notif on STM32MP13x Soc family
+         
