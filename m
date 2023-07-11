@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4816655789752883076=="
+Content-Type: multipart/mixed; boundary="===============3921403361132501966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Tue, 11 Jul 2023 05:43:26 -0000
-Message-Id: <168905420678.28495.12944147887945343172@gitolite.kernel.org>
+Date: Tue, 11 Jul 2023 05:45:52 -0000
+Message-Id: <168905435251.31040.2037922003463876444@gitolite.kernel.org>
 
---===============4816655789752883076==
+--===============3921403361132501966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/rdma
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: 63ce7bc02df1040bce8273fbb92448a382bc7d93
+  - ref: refs/heads/for-next
+    old: 66e4c73795d3e6d90c34ba5586f7e21c68f1d7d9
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-63ce7bc02df1-06c2afb862f9.txt
+    log: revlist-66e4c73795d3-06c2afb862f9.txt
 
---===============4816655789752883076==
+--===============3921403361132501966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63ce7bc02df1-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-66e4c73795d3-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============4816655789752883076==--
+--===============3921403361132501966==--
