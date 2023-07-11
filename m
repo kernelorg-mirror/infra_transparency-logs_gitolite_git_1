@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 11 Jul 2023 10:12:14 -0000
-Message-Id: <168907033422.12389.7744658256641079781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 11 Jul 2023 10:19:17 -0000
+Message-Id: <168907075702.16555.14741155854692208155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/habanalabs-accel-6.6
-    old: 691b198806bcb1d35fbd56526c2b449568d28d60
-    new: 04623e882f3a4d988e6579ad3001f5ca30e3e8a9
+  - ref: refs/heads/fixes
+    old: 7ebbc81cadd12c522304f87b1f4f188c6367b61b
+    new: 6b293a8c91bca52726448d03216e65da509e9bb7
     log: |
-         9785f21fc58bfb74daeb46decc8431043c5c1f5b accel/habanalabs: handle f/w reserved dram space request
-         394f2b272d69200ec127c53af72e89d48650090b accel/habanalabs: set default device release watchdog T/O as 30 sec
-         12373282687374c300d31b3e9595166e58956a66 accel/habanalabs: add info ioctl for engine error reports
-         44cc971520889b93d61578fd4b3048c89590ccd9 accel/habanalabs: register compute device as an accel device
-         25eb8e651646995ad70f3b98adc57ea499007227 accel/habanalabs: update sysfs-driver-habanalabs with the accel path
-         b0c3c31bdf27ea0d46a7236959e73d9af71c5324 accel/habanalabs: update debugfs-driver-habanalabs with the accel path
-         34c60a66361e6f0e22f0293f0dd41d1f0c87b8d2 accel/habanalabs: Move ioctls to the device specific ioctls range
-         04623e882f3a4d988e6579ad3001f5ca30e3e8a9 accel/habanalabs: release user interfaces earlier in device fini
+         822507ca6affc8930a3919f326c79062354e8283 platform/x86/amd: pmc: Add new ACPI ID AMDI000A
+         5d3acd9d7a44ad9902e98e57013f028d5f4fc86c platform/x86/amd: pmf: Add new ACPI ID AMDI0103
+         8c4893837554687addae919998b0f3de23a514dc platform/x86: dell-ddv: Improve error handling
+         d0050c2ef53f87561d8345cccf49927ade91cca6 platform/x86: dell-ddv: Fix mangled list in documentation
+         6b293a8c91bca52726448d03216e65da509e9bb7 platform/x86: touchscreen_dmi: Add info for the Archos 101 Cesium Educ tablet
          
