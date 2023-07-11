@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 11 Jul 2023 21:34:04 -0000
-Message-Id: <168911124452.26536.7412024255543094227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Tue, 11 Jul 2023 21:46:19 -0000
+Message-Id: <168911197932.4674.6470433963849303476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/heads/for-6.6
-    old: 6037293812d78417ae8734dec9200711ef332bba
-    new: ace3c5499e61ef7c0433a7a297227a9bdde54a55
-  - ref: refs/heads/for-next
-    old: 6037293812d78417ae8734dec9200711ef332bba
-    new: 6dc917b4452559777d2cb8d9a175183fa0ee6730
+    old: 3ae0b773211ed0231e7ee3e8d28ec4ab9bc5134b
+    new: d1d4ff5d11a5887a9c4cfc00294bc68ba03e7c16
     log: |
-         b2ec116aad38aa9c8b67fad4314e50823adf6949 workqueue: Fix cpu_intensive_thresh_us name in help text
-         6dc917b4452559777d2cb8d9a175183fa0ee6730 Merge branch 'for-6.5-fixes' into for-next
+         d1d4ff5d11a5887a9c4cfc00294bc68ba03e7c16 cgroup: put cgroup_tryget_css() inside CONFIG_CGROUP_SCHED
          
-  - ref: refs/heads/for-6.5-fixes
-    old: 0000000000000000000000000000000000000000
-    new: b2ec116aad38aa9c8b67fad4314e50823adf6949
+  - ref: refs/heads/for-next
+    old: 3ae0b773211ed0231e7ee3e8d28ec4ab9bc5134b
+    new: d1d4ff5d11a5887a9c4cfc00294bc68ba03e7c16
+    log: |
+         d1d4ff5d11a5887a9c4cfc00294bc68ba03e7c16 cgroup: put cgroup_tryget_css() inside CONFIG_CGROUP_SCHED
+         
