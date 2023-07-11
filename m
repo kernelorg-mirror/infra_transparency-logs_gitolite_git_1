@@ -1,37 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============7919372302676044734=="
+Content-Type: multipart/mixed; boundary="===============2543009812430799102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 11 Jul 2023 20:43:39 -0000
-Message-Id: <168910821932.21775.7390803217844339609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 11 Jul 2023 20:43:59 -0000
+Message-Id: <168910823948.22001.17471381187845478034@gitolite.kernel.org>
 
---===============7919372302676044734==
+--===============2543009812430799102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 701c1cef8e02ec910fede638b02a7506608450a4
-    new: c78f8c33f3fb776f22fdc68e8b4dec5c1fe866ee
+    old: d0e1c60318ac4ab2c5e275773696a9937ffe98a6
+    new: 7a669fc7d6f4e25fe89c8c64388510384b2382f8
     log: |
-         c78f8c33f3fb776f22fdc68e8b4dec5c1fe866ee Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         7a669fc7d6f4e25fe89c8c64388510384b2382f8 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 701c1cef8e02ec910fede638b02a7506608450a4
-    new: 937510f3df69f32fb3e1ef246d1779b616091a9c
-    log: revlist-701c1cef8e02-937510f3df69.txt
+    old: d0e1c60318ac4ab2c5e275773696a9937ffe98a6
+    new: c0c5e40bac3134b11e7a8fcdbc2a863ee30935ea
+    log: revlist-d0e1c60318ac-c0c5e40bac31.txt
 
---===============7919372302676044734==
+--===============2543009812430799102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-701c1cef8e02-937510f3df69.txt
+Content-Disposition: attachment; filename=revlist-d0e1c60318ac-c0c5e40bac31.txt
 
+f18e7122cc73d9218930156fa38f050a2e37de57 linux/netfilter.h: fix kernel-doc warnings
+804ca14d04df09bf7924bacc5ad22a4bed80c94f iommufd: Do not access the area pointer after unlocking
+dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
 a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
@@ -370,6 +373,7 @@ b2918089d5cb452e928ad9f86c5ee601c592cee3 intel_idle: Add __init annotation to ma
 1b2c92a1cb2469d8c0079dbf496ab86e22e1cb7c x86/mem_encrypt: Remove stale mem_encrypt_init() declaration
 5ff2977b19769fd24b0cfbe7cbe4d5114b6106af Merge tag 'drm-intel-next-fixes-2023-06-21' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
 4171a9aa235988fc5cb19d84d493496cb73e6988 Merge tag 'regmap-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+e9bd04e52d649c3cfd713b594c5db35cab03c42b regulator: raa215300: Add build dependency with COMMON_CLK
 362067b6d5ca5b59a849a8e1183fb51d616fcf19 Merge tag 'regulator-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 84fccbba93103b22044617e419ba20e1403b4a65 Merge tag 'spi-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 3ae872de410751fe5e629e04da491a632d95201c smb: client: fix shared DFS root mounts with different prefixes
@@ -405,7 +409,6 @@ b2dc32dcba08bf55cec600caa76f4afd2e3614df net/sched: act_ipt: add sanity checks o
 93d75d475c5dc3404292976147d063ee4d808592 net/sched: act_ipt: zero skb->cb before calling target
 3c4bb45ab29303265a8c6d7099e00c824503c586 Merge branch 'net-sched-act_ipt-bug-fixes'
 893b24181b4c4bf1fa2841b1ed192e5413a97cb1 arm64: sme: Use STR P to clear FFR context field in streaming SVE mode
-d10005837be83906bbd2078c3b4f9dfcbd6c95b6 spi: spi-geni-qcom: enable SPI_CONTROLLER_MUST_TX for GPI DMA mode
 4fd44b82b7aceaa35c2901c6546d2c4198e0799d net: mscc: ocelot: don't report that RX timestamping is enabled by default
 45d0fcb5bc9558d0bf3d2fa7fabc5d8a88d35439 net: mscc: ocelot: don't keep PTP configuration of all ports in single structure
 2edcfcbb3c5946609be1d8875473a240b170673b net: dsa: felix: don't drop PTP frames with tag_8021q when RX timestamping is disabled
@@ -549,7 +552,6 @@ ce72d4e0f179340cece90d5b826eb63bbf9fefc0 ceph: issue a cap release immediately i
 257e6172ab36ebbe295a6c9ee9a9dd0fe54c1dc2 ceph: don't let check_caps skip sending responses for revoke msgs
 fa700d73494abbd343c47c6f54837c9874c61bbe mmc: Revert "mmc: core: Allow mmc_start_host() synchronously detect a card"
 0303c9729afc4094ef53e552b7b8cff7436028d6 x86/efi: Make efi_set_virtual_address_map IBT safe
-7c1f23ad34fcdace50275a6aa1e1969b41c6233f spi: bcm-qspi: return error if neither hif_mspi nor mspi is available
 2255234460f0575603a171afd878e6a6083b23f1 parisc: Move TLB_PTLOCK option to Kconfig.debug
 40c9c62c85a8b7e58350f2d00649f9e0060150b7 parisc: Check if IRQs are disabled when calling arch_local_irq_restore()
 c6d96328fecdda16e12f3b3c33f3677f4bcef89f parisc: Add cacheflush() syscall
@@ -773,7 +775,6 @@ af40322e90d4e0093569eceb7d3a28ab635f3e75 s390/zcrypt: do not retry administrativ
 2b70a11955366b0732fbb63562458c316e01384a s390/zcrypt: remove ZCRYPT_MULTIDEVNODES kernel config option
 cada938a01586fc144902919e133354b1459db04 s390: fix various typos
 efccd4e0f3ab6d97dcb097d1ae4cf022b6487aa3 s390/entry: remove mcck clock
-e1ef683c86d248e785499779156d9885fd4e85fc spi: rzv2m-csi: Fix SoC product name
 bd55842ed998a622ba6611fe59b3358c9f76773d ALSA: pcm: Fix potential data race at PCM memory allocation helpers
 7fb7998b599a2e1f3744fbd34a3e7145da841ed1 ovl: move all parameter handling into params.{c,h}
 65fee014dc41a774bcd94896f3fb380bc39d8dda MIPS: Loongson: Fix cpu_probe_loongson() again
@@ -868,7 +869,6 @@ f7306acec9aae9893d15e745c8791124d42ab10a xsk: Honor SO_BINDTODEVICE on bind
 fdffb7dbc74f48cb1d404d9ab0c9fd769a59caf0 drm/i915/psr: Fix BDW PSR AUX CH data register offsets
 f6cf3883df471abbcf1553127681dc244c8ff8dd drm/i915: use mock device info for creating mock device
 69562eb0bd3e6bb8e522a7b254334e0fb30dff0c fanotify: disallow mount/sb marks on kernel internal pseudo fs
-879a879c216a41f5403d8d3dbc204a48501912bf spi: bcm{63xx,bca}-hsspi: update my email address
 b5641a5d8b8b14643bfe3d017d64da90a5c55479 mm: don't do validate_mm() unnecessarily and without mmap locking
 57ada2358fae8c3df0f810c3a7196f074da01c98 Fix documentation of panic_on_warn
 29e31a8ee811f5d85274f0381f13cd6fe650aea4 Documentation: ACPI: fix typo in ssdt-overlays.rst
@@ -1054,7 +1054,7 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-c78f8c33f3fb776f22fdc68e8b4dec5c1fe866ee Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-937510f3df69f32fb3e1ef246d1779b616091a9c Merge branch 'regulator-linus' into regulator-next
+7a669fc7d6f4e25fe89c8c64388510384b2382f8 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+c0c5e40bac3134b11e7a8fcdbc2a863ee30935ea Merge branch 'spi-linus' into spi-next
 
---===============7919372302676044734==--
+--===============2543009812430799102==--
