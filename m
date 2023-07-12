@@ -1,72 +1,111 @@
-Content-Type: multipart/mixed; boundary="===============8036562553672732620=="
+Content-Type: multipart/mixed; boundary="===============8551090063376912686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 Jul 2023 11:45:35 -0000
-Message-Id: <168916233562.17649.16112046220400955456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 12 Jul 2023 11:45:57 -0000
+Message-Id: <168916235740.17870.8388332092058563153@gitolite.kernel.org>
 
---===============8036562553672732620==
+--===============8551090063376912686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.6
-    old: b8968c388b69d9cf31d7f5b1721ac7fe9f932cb9
-    new: 64a7b0e08143cb68e589b8c47ee3e04d9ffff0bc
-    log: revlist-b8968c388b69-64a7b0e08143.txt
+  - ref: refs/heads/for-linus
+    old: 06a88197bb6a0bb822c235648576b3563fe8ad7b
+    new: 23bc65313667c143fa71af133cec91a50987e3f7
+    log: |
+         23bc65313667c143fa71af133cec91a50987e3f7 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: a1f51c13b74ab00ac299401c08393d69029ce47b
+    new: c607042e4a2abcd8b59d941a743106605a8c7172
+    log: revlist-a1f51c13b74a-c607042e4a2a.txt
 
---===============8036562553672732620==
+--===============8551090063376912686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a1f51c13b74a-c607042e4a2a.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1689162333 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1689162332-8381281257c99419ec4373c8a48c38eef3711cc1
+5512ffd9f39832f312b7f903703ac39d6367fe8a ASoC: rt5677: Refactor GPIO support code
+c3d42d7baf6b4032171270e3df001fb946493452 ASoC: rt5677: Use agnostic irq_domain_create_linear()
+043bb9c012ee7d092a477159cc66dbdf62fd2666 ASoC: rt5677: Use device_get_match_data()
+ea1c1019a88d88cf0a7d6892f594b72ddb3b8c0b ASoC: rt5677: Sort headers alphabetically
+acb5c0b14b761df258e480cc721676073f6d953a ASoC: amd: ps-sdw-dma: Convert to platform remove callback returning void
+50a91c513fb7da5c48b1cffdaa30c1f98f403801 ASoC: starfive: jh7110_tdm: Convert to platform remove callback returning void
+be7dc10ab0bc247c2abbdefdaa9d5196df88e9d1 ASoC: codecs: es8316: Add support for 24 MHz MCLK
+c30d10aeb398cf71662cb8c6b0090ed9ab38dd8e ASoC: codecs: es8316: Add support for S24_3LE format
+32e40c8d6ff920354fde36299198c80e7a7d3b76 ASoC: Intel: avs: Add es8336 machine board
+d55bb0f1c1a365c42d8b4032cb965a255692a400 ASoC: Intel: avs: Load es8336 board on KBL-based platforms
+05c5d4e326cc41221a9c065c1e6fee4cdca549b1 ASoC: Intel: avs: Add rt5663 machine board
+3ed180ac3cec77fe193573adcbaaca34bbc63551 ASoC: Intel: avs: Load rt5663 board on KBL-based platforms
+27cd41698de49c8afbcc148a0d76c35da3271519 ASoC: Intel: avs: rt5682: Add missing components
+7012fa7d56b7b3e100e4ff0c8d8d7a183f09130d ASoC: Intel: avs: rt5682: Tidy up hw_params()
+fd9965235099fc4cccd94f82a371192bf7645a3e ASoC: mediatek: mt8188: add memory-region support
+e3326e3bc4937622b4dc6e9721262483109b0f0c ASoC: dt-bindings: mediatek,mt8188-afe: add memory-region
+e61b415515d3db57dce3af3e4a0441f08d8d8f15 ASoC: amd: acp: refactor the acp init and de-init sequence
+7ad6fb9dd1ca63f9f36e413036f36f075cdaec4a ASoC: amd: acp: add acp i2s master clock generation for rembrandt platform
+fc11d3266dc7ed386efe91c20d09780bbded1f03 ASoC: amd: acp: remove the redundant acp enable/disable interrupts functions
+7a83903022dc3bd5214f6bdde8132c66015ab538 ASoC: amd: acp: store platform device reference created in pci probe call
+088a40980efbc2c449b72f0f2c7ebd82f71d08e2 ASoC: amd: acp: add pm ops support for acp pci driver
+c8786ac7bb374276b1c2b545b4a6be3b230be7cb ASoC: amd: acp: store xfer_resolution of the stream
+a8d1316a264f36c2ffe798e42d6b415dc377851e ASoC: amd: acp: export config_acp_dma() and config_pte_for_stream() symbols
+7373e6bee60cdac36a134897164885b2257a02ac ASoC: amd: acp: store the pdm stream channel mask
+e3a96e441e05bbf599ce70c2a03e7acd55b275ee ASoC: amd: acp: move pdm macros to common header file
+5debf4ae138c81321832d41203483696cac1c580 ASoC: amd: acp: add pm ops support for rembrandt platform
+f97fa3dcb2db02013e6904c032a1d2d45707ee40 lib/math: Move dvb_math.c into lib/math/int_log.c
+08f6a14b2d376e96cb7166694193ec3c3a496d25 lib/math/int_log: Use ARRAY_SIZE(logtable) where makes sense
+9ab04d7ed8bdd395b0617a1647dd475681f99151 lib/math/int_log: Replace LGPL-2.1-or-later boilerplate with SPDX identifier
+a04616321f50bc389cd8d19a6d300d3c3f1be77b ASoC: nau8825: Replace copied'n'pasted intlog10()
+a0cb05cb70b469198ad86c0b13b02cbba3ecd8fd ASoC: amd: vangogh: Make use of DRV_NAME
+3dd26e27ccb4f18b4d25c0a49e1888eca9c6a724 ASoC: amd: vangogh: Use dmi_first_match() for DMI quirk handling
+dba22efd0d177a23c6da2a161e9a1ad29718924c ASoC: amd: vangogh: Add support for NAU8821/MAX98388 variant
+4b526b3278becdf1f2bfd375078f5db469f8a6bb ASoC: amd: acp: Add machine driver support for nau8821 codec
+ac91c8c89782d7d0781120a74c9bd939e3ce2831 ASoC: amd: acp: Add machine driver support for max98388 codec
+ef51cddf014b3e4909e9656025d1f7c2b4cc4117 ASoC: amd: Add acpi machine id's for vangogh platform
+197b1f7f0df183db332b6b8851a29c8bc901571d ASoC: amd: Add new dmi entries to config entry
+cacff5e8a305b98595829ac4f5fe669e015ce19c ASoC: dt-bindings: Add audio-iio-aux
+b5f3484117b86cb128f500ff2d730c3cfcb9ddfc ASoC: dt-bindings: simple-card: Add additional-devs subnode
+f75c544d74133278b004195220f540d8ab953e14 iio: inkern: Check error explicitly in iio_channel_read_max()
+1e1b4fbd6d0f8c54af14dcf18bd3136816153b12 iio: consumer.h: Fix raw values documentation notes
+ad4e8480a1db8713ee7dfcc2770ea9f577750111 iio: inkern: Remove the 'unused' variable usage in iio_channel_read_max()
+524cfdf6b88e2536f90f726b8c01ffe218f37d68 iio: inkern: Fix headers inclusion order
+c952c748c7a983a8bda9112984e6f2c1f6e441a5 minmax: Introduce {min,max}_array()
+97aee7157eeadaf628e7f76da5e49cee91f19901 iio: inkern: Use max_array() to get the maximum value from an array
+4dc603735826ec3963e30d6f25260255ca96d103 iio: inkern: Replace a FIXME comment by a TODO one
+7560418078b939e1e83f7dce502ec3c1ca8c152f iio: inkern: Add a helper to query an available minimum raw value
+12e58fec5b2aff3ae6fef4e6c278f295a666b9b6 ASoC: soc-dapm.h: Convert macros to return a compound literal
+1d298ad822178d365b53eac298c1752730505306 ASoC: codecs: Add support for the generic IIO auxiliary devices
+6d8ad35d119ca4c9c6fdf83faa733102c4a63f4b ASoC: simple-card: Handle additional devices
+2b48d170fb9965dda9d41edcb0bbfc9ee4c6584f ASoC: SOF: amd: refactor PSP smn_read
+521d675d2497f890e881dc48e954a1559460e97c ASoC: soc-core.c: initialize dlc on snd_soc_get_dai_id()
+0e66a2c694096abc54ed58b3be654103f155ea43 ASoC: soc-core.c: cleanup soc_dai_link_sanity_check()
+7f6ecc220272dff53b7cec0ae2a863eefcb5335b ASoC: rt5645: implement set_jack callback
+82770b76abae2ff9d70f354a61983b921e63bae1 ASoC: imx-pcm-rpmsg: Set PCM hardware parameters separately
+065aa861b1243704b329a6d8407d8399614df6bd ASoC: soc-core: protect dlc->of_node under mutex
+209fb30ee1c7edc6807ac94f98c9ce78b4891aed ASoC: rt722-sdca: Remove redundant sdca mask
+754d1ce3ab6bec057bf94b0ec1a789fdfa2fef99 ASoC: dt-bindings: nau8821: Convert to dtschema
+24e04c94bebc4144f790a21a93d090cf9673acd9 ASoC: tas2781: No need to set device_driver owner
+221acc16aee16eb246bad32a6b9014021218b7cd ASoC: dwc: Add TDM mode support
+e125891c2ed6f6d3f59375caf04d76802c86efae ASoC: Convert pm8916-wcd-analog-codec to YAML
+c70064b96f509daa78f57992aeabcf274fb2fed4 ASoC: stac9766: fix build errors with REGMAP_AC97
+c7a0f10b885164e4804dc144c375076c2e0d39f6 ASoC: rt5645: add the system level suspend-resume callback
+b8c442b391d44323a79f6b51c31dba253241c896 Add support for IIO devices in ASoC
+441511aeeafe1b7a0c8dbcfb244cfaf1c6d91438 ASoC: remove copy of intlog10()
+09225b434ed1bbdadcc3df610a2364580c12b92d ASoC: Intel: avs: New boards and fixes to existing
+860c9ef04a2c338e86e1eba00e808a2e4fa2a0b8 AMD Vangogh support for NAU8821/MAX98388
+79f4bde84d5e5e820cc9d180292da577a46b75a5 ASoC: mt8188: add memory-region support
+cd2f8ce39ca3e2fcf9fc089bef70ecf392943dac Add acpi mahine id's for vangogh platform and
+92f33bf10f122559d7643724c239bb8d5a8de6fc Refactor acp legacy driver and add
+5a043fd5c74c66897ad113e5ee34e9361e3f4c11 ASoC: rt5677: Refactor GPIO and use
+f7c30811ded192e6eeb7cba503422f942ff9b1f9 ASoC: Another set of platform remove conversions
+23bc65313667c143fa71af133cec91a50987e3f7 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+ac35bd2ec3814eed4c1a837da25e9b56141045bc Merge branch 'asoc-linus' into asoc-next
+c607042e4a2abcd8b59d941a743106605a8c7172 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
-b8968c388b69d9cf31d7f5b1721ac7fe9f932cb9 64a7b0e08143cb68e589b8c47ee3e04d9ffff0bc refs/heads/spi-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSukl0ACgkQJNaLcl1U
-h9AgdggAgJfUJl93+f0rDn36Sgl4GArq8eTGElUuz+vM92uTzeicuoh7Bc1hZoNa
-k4kwsOo29UrKXcUo+3VTzVq8Q20sjcPXlGyvrARiQ8IHS5egvRzJUcXnB7dvhN7I
-XdnyegJ2zuz8MdhkzCn7MUngachfCg5U6SCdZsf5wPfLtFRdobCyvd7egsv3358J
-HCIY3499S/sCYihNkzTlXalmXIdFVnU3tpv+CzscKZYFoddYQ2WeAU0vSjegZWLJ
-4kZ6WIM+m5bzOpYSk0kDe7mh7gqYDTBD1LiPTgjCgPR+adH8RxA6NRkAEzZYW8yw
-HZ7U68pt69DUWGBtQcq9yLUr1y28JQ==
-=2kyM
------END PGP SIGNATURE-----
-
---===============8036562553672732620==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8968c388b69-64a7b0e08143.txt
-
-0605d9fb411f3337482976842a3901d6c125d298 spi: sun6i: add quirk for dual and quad SPI modes support
-25453d797d7abe8801951c8290ea11ea8bba7b96 spi: sun6i: add dual and quad SPI modes support for R329/D1/R528/T113s
-68a199640d28ecd507bc53bccb5cd98f5330fafc spi: amlogic-spifc-a1: implement adjust_op_size()
-8d4d4c6813fea356ef79f182d8f4d82793c8f64b spi: amlogic-spifc-a1: add support for max_speed_hz
-fbab5b2c09060e8034fee6ec2df69a62594fb7db spi: Remove unneeded OF node NULL checks
-440c47331bdb889e24128c75387c695ca81d9b9b spi: Drop duplicate IDR allocation code in spi_register_controller()
-2b308e7176e366a52a07a49868e3b1a295e56785 spi: Replace if-else-if by bitops and multiplications
-f2daa4667fda1aa951b91da0ae9675a5da9d7716 spi: Use sysfs_emit() to instead of s*printf()
-edf6a864c996f9a9f5299a3b3e574a37e64000c5 spi: Sort headers alphabetically
-c397f09e5498994790503a64486213ef85e58db9 spi: Get rid of old SPI_MASTER_NO_TX & SPI_MASTER_NO_RX
-90366cd60133a9f5b6a2f31360367c658585e125 spi: Get rid of old SPI_MASTER_MUST_TX & SPI_MASTER_MUST_RX
-82238d2cbd99ebd09dda48fb7c1c8802097da6a2 spi: Rename SPI_MASTER_GPIO_SS to SPI_CONTROLLER_GPIO_SS
-7a2b552c8e0e5bb280558f6c120140f5f06323bc spi: Convert to SPI_CONTROLLER_HALF_DUPLEX
-702ca0269ed56e2d8dae7874a4d8af268e2a382e spi: Fix spelling typos and acronyms capitalization
-1dc8ca71816dfae1b480627d0dfe1e0dc0a1b9ad spi: amlogic-spifc-a1: fixes and improvements for
-0f51622628190aa663ca23c46afbb7f500a35b71 Allwinner R329/D1/R528/T113s Dual/Quad SPI modes
-64a7b0e08143cb68e589b8c47ee3e04d9ffff0bc spi: Header and core clean up and refactoring
-
---===============8036562553672732620==--
+--===============8551090063376912686==--
