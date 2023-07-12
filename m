@@ -1,32 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 12 Jul 2023 10:35:14 -0000
-Message-Id: <168915811475.28060.13661078010317168788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 12 Jul 2023 10:35:39 -0000
+Message-Id: <168915813912.28264.15885553946697118386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: c78f8c33f3fb776f22fdc68e8b4dec5c1fe866ee
-    new: 013e37863d0d53fc524ad25261173f4b63628694
+    old: 8063c5535baaf9f315e85fc820defc88251d8266
+    new: 7c75d0cd2b458af015e0670bded44a85f94b2d39
     log: |
-         013e37863d0d53fc524ad25261173f4b63628694 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         c09168c9392ac9250d87d71fc5ca3156f7456ea4 MAINTAINERS: Add myself as a maintainer for Microchip SPI
+         5158814cbb37bbb38344b3ecddc24ba2ed0365f2 spi: bcm63xx: fix max prepend length
+         7c75d0cd2b458af015e0670bded44a85f94b2d39 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 937510f3df69f32fb3e1ef246d1779b616091a9c
-    new: b8a6a6fe838e0a4d3ba6e024ca756f5c111d6465
+    old: 670d3b1833732485c8a42d08e2a0590dd208529f
+    new: d594c2bafeddecf693d085b66347c327e50232a4
     log: |
-         d16db38c2a66060ee25c6b86ee7b6d66d40fc8e0 dt-bindings: regulator: Describe Qualcomm REFGEN regulator
-         7cbfbe23796086fdb72b681e2c182b02acd36a04 regulator: Introduce Qualcomm REFGEN regulator driver
-         42a95739c5bc4d7a6e93a43117e9283598ba2287 regulator: raa215300: Change the scope of the variables {clkin_name, xin_name}
-         741da3f60479acc0de3d79501c4819e49fa28639 regulator: raa215300: Switch back to use struct i2c_driver::probe
-         4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 Qualcomm REFGEN regulator
-         013e37863d0d53fc524ad25261173f4b63628694 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         8163d008a7392cce72e040e91e90fa63dfb65e98 Merge branch 'regulator-linus' into regulator-next
-         b8a6a6fe838e0a4d3ba6e024ca756f5c111d6465 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
+         c09168c9392ac9250d87d71fc5ca3156f7456ea4 MAINTAINERS: Add myself as a maintainer for Microchip SPI
+         5158814cbb37bbb38344b3ecddc24ba2ed0365f2 spi: bcm63xx: fix max prepend length
+         7c75d0cd2b458af015e0670bded44a85f94b2d39 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         3befa9de932c4a51f50e85c3b7e3e991a50990e1 Merge branch 'spi-linus' into spi-next
+         d594c2bafeddecf693d085b66347c327e50232a4 Merge remote-tracking branch 'spi/for-6.6' into spi-next
          
