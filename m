@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Wed, 12 Jul 2023 07:49:58 -0000
-Message-Id: <168914819846.24194.16959616232750797395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 12 Jul 2023 08:19:06 -0000
+Message-Id: <168914994630.12831.1097658328387863214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/habanalabs-accel-6.6
-    old: 04623e882f3a4d988e6579ad3001f5ca30e3e8a9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 29c08a0eb165aef72a4134cead51b40c7846daf9
+    new: 0fc338b0360a2479cc4144aba481aae1aa240c3c
+    log: |
+         ed59648ce07a51aee2933592e0ee464e77818d8a lsclocks: add NS_OFFSET column
+         7ceb540628611210efe1606c8f83cd9f48d0f83f nsenter: fix possible NULL dereferece [coverity scan]
+         0fc338b0360a2479cc4144aba481aae1aa240c3c Merge branch 'lsclocks/ns-offset' of https://github.com/t-8ch/util-linux
+         
