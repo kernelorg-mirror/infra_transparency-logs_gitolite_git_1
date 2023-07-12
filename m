@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0817998001054938491=="
+Content-Type: multipart/mixed; boundary="===============7786792908681311517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 12 Jul 2023 11:44:58 -0000
-Message-Id: <168916229847.15434.12545431983469763496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Jul 2023 11:45:06 -0000
+Message-Id: <168916230651.17149.2993612892578133540@gitolite.kernel.org>
 
---===============0817998001054938491==
+--===============7786792908681311517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 3d74f42c56db263e82ad96f8fe23aef38cdc071f
     new: f7c30811ded192e6eeb7cba503422f942ff9b1f9
     log: revlist-3d74f42c56db-f7c30811ded1.txt
 
---===============0817998001054938491==
+--===============7786792908681311517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689162296 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1689162295-058c4e4562b13851774de323bd06e14da3800fab
+pusher C3F436CA30F5D8EB 1689162303 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689162302-78fa5dae33e50bf4b70c377cd20fd4444e05f7ad
 
-3d74f42c56db263e82ad96f8fe23aef38cdc071f f7c30811ded192e6eeb7cba503422f942ff9b1f9 refs/heads/for-6.6
+3d74f42c56db263e82ad96f8fe23aef38cdc071f f7c30811ded192e6eeb7cba503422f942ff9b1f9 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSukjgACgkQJNaLcl1U
-h9ClqAf+KpGBFaCxC2S6YvYINNeNw2uFOGsTRSvzRBOaB1SS5C34IqkVLveHFdLs
-pQ3kd66ER2hIgH3XrPHOG8SFlC71Qcz6gR9HZw9ITnh/p+l72A7O8V4q5xh3517c
-gc4aOh6NhNrOoYNcLurB0pWOIR2lyGPgwlKgGRRgBJhbdITQtXwxwPp5iMY1e8bn
-dwps1FiprhdbcdPF1KJtmw1C2CV0dd5NpPeeIlU0Uz9XWZQI9tZkMU1U7oswZt9Z
-xoKGT/1c9zVMBx9QZTrmEJEp6hp0K3vmTCU+q09GdU59QUeP06nbjUhR/tTkSt/F
-yfMgIVF9dYtwU+YiNMQ8JuDPNAuH3g==
-=OfTc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSukj8ACgkQJNaLcl1U
+h9BC1Qf+Iw/c0nEwH6ds1bNaTJmXlTHw5sPxigW7vpCpRC3TEO+xcNKAVjZklZz0
+BVKRNfhU9lryuykaWjGTWUdPeVzNEEQJQnN+awoTpJ2760o/6eUWkwa7mZv9NENV
+6gQspVqObUXKlbwiKcZZtsvJizHruWJ/8PyemjrCBKK7ASpaEMRj9k8JSYLTeyu4
+Yi5MxKBFgYqXpIZ7UUduhZJNo5TXpwsYhY3jRFeAn0tUVTdG9pjF0UieoWLjqJV8
+tIbDz2eVoDWQ+eDL+j3+lwPMVw+b+jKqFhPzLaUa5cA1VuubLwEOfqJytKkGefj2
+tQHfxzRxDs9qRYdVPc9XtJkigR/aQg==
+=LtsG
 -----END PGP SIGNATURE-----
 
---===============0817998001054938491==
+--===============7786792908681311517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -124,4 +124,4 @@ cd2f8ce39ca3e2fcf9fc089bef70ecf392943dac Add acpi mahine id's for vangogh platfo
 5a043fd5c74c66897ad113e5ee34e9361e3f4c11 ASoC: rt5677: Refactor GPIO and use
 f7c30811ded192e6eeb7cba503422f942ff9b1f9 ASoC: Another set of platform remove conversions
 
---===============0817998001054938491==--
+--===============7786792908681311517==--
