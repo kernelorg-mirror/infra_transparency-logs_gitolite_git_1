@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
-Date: Wed, 12 Jul 2023 12:46:53 -0000
-Message-Id: <168916601308.29701.14682713447662726429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Jul 2023 12:50:54 -0000
+Message-Id: <168916625447.315.7662908037970011668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/morse/linux
-user: morse
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/mpam/snapshot/v6.3
-    old: 1e3140d17f34df8a7d86862a3f6b1a500d7c29b1
-    new: 12cfca78f35616f341c538e40c441683198c9c0c
-    log: |
-         12cfca78f35616f341c538e40c441683198c9c0c ACPI / PPTT: Caller initialize 'levels' for 'acpi_count_level'
-         
+  - ref: refs/tags/sent/20230301-kvm-arm64-fgt-e5dd12746f67-v5
+    old: 0000000000000000000000000000000000000000
+    new: 6199d95318b0eb3d02f9318c4d4bb07d7a70cb10
