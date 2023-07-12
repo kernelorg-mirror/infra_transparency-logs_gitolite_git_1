@@ -1,54 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============4270277757903596420=="
+Content-Type: multipart/mixed; boundary="===============0625699072650947662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 12 Jul 2023 10:34:11 -0000
-Message-Id: <168915805179.25790.17473682948930661957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Jul 2023 10:34:19 -0000
+Message-Id: <168915805904.25926.9782358897729452577@gitolite.kernel.org>
 
---===============4270277757903596420==
+--===============0625699072650947662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6
+  - ref: refs/heads/regulator-6.5
+    old: 54e47eade73046e860634736d2651ddc118ca694
+    new: e9bd04e52d649c3cfd713b594c5db35cab03c42b
     log: |
-         d16db38c2a66060ee25c6b86ee7b6d66d40fc8e0 dt-bindings: regulator: Describe Qualcomm REFGEN regulator
-         7cbfbe23796086fdb72b681e2c182b02acd36a04 regulator: Introduce Qualcomm REFGEN regulator driver
-         42a95739c5bc4d7a6e93a43117e9283598ba2287 regulator: raa215300: Change the scope of the variables {clkin_name, xin_name}
-         741da3f60479acc0de3d79501c4819e49fa28639 regulator: raa215300: Switch back to use struct i2c_driver::probe
-         4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 Qualcomm REFGEN regulator
+         e9bd04e52d649c3cfd713b594c5db35cab03c42b regulator: raa215300: Add build dependency with COMMON_CLK
          
+  - ref: refs/heads/regulator-6.6
+    old: 0000000000000000000000000000000000000000
+    new: 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6
 
---===============4270277757903596420==
+--===============0625699072650947662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689158049 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1689158048-c404e739a2b85a15f2c7c79878cfa7cd4b1c7f19
+pusher C3F436CA30F5D8EB 1689158057 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689158056-e809b00f150820559db9b5320aa42ef702edf457
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 refs/heads/for-6.6
+54e47eade73046e860634736d2651ddc118ca694 e9bd04e52d649c3cfd713b594c5db35cab03c42b refs/heads/regulator-6.5
+0000000000000000000000000000000000000000 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSugaEACgkQJNaLcl1U
-h9BwQQgAgQWgovrKjTLSmUpndICxyouLwstWH2W/i9/8tTwAKNrASZhZ7eTzKuBP
-RRTDk4mqaVYoKhPi7AiLG2pLKc5/jFUg8OBkMUl9qh6fqbq59DaC/FWjcCLiV6+Z
-uaHHNoohZAsL8A42odNK+/m6GKYQnhTZpIfvzCnjefCDYkmLt3shkAHxotRsYKe9
-GqCsL4lUl8QxZ/nnI5fwYYhtGKfNLugFF94MaY2IE9+4POgrowg3VeVkcvK+vbDJ
-+JUSKnL3jV6zoqR1qjiDcXtXnGKOElmnDl9RvTOQzIWbh0mwwYaApxrxxGObMo64
-zWEaBfb9oGm6MjrxDa6wP5ACeJ5Vjw==
-=w2tP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSugakACgkQJNaLcl1U
+h9D87ggAhQNrv7ArbFbUpRfP4k7U0EUh6WkeGGemjJtqa39TGB7wdLkrMNFdDpSb
+KnH+49htK531ceoouUtbJ1kiGsK5zr5VisVuZY/LCyNvd404mdozbBdsstVzUoWy
+UXN4BSAmwMXI1GnTu6cfZ3EuJWNabOI7QO3I2uPaORL0OyIjKHzS62AsfIA9UbNa
+rBY/HaC/yppQ3Oi3c4Uc4E60nG1oFkQGhZmOUjHlMSWYMjorYJa6nujsSh0pIrRj
+usl0YisYFj4r0SmfH5yfghUby5xjSRpDQcp/FMYeyIfEPJq2jRAfs4h70fo6qBXH
+OFsLKL7ItttPQ6mObNUxbzLWsydc5A==
+=3VRH
 -----END PGP SIGNATURE-----
 
---===============4270277757903596420==--
+--===============0625699072650947662==--
