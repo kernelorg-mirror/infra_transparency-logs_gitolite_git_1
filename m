@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 12 Jul 2023 15:00:35 -0000
-Message-Id: <168917403507.29373.17445760893670413714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 12 Jul 2023 15:00:40 -0000
+Message-Id: <168917404008.29472.3954672090855355924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/mtd/next
-    old: e1666cfd78222ae145ac260368f29fa443d97b3f
-    new: 259b4d4c1308a1fa0a671be3ecd8f847c7ce2e95
+  - ref: refs/heads/master
+    old: 87e098e62347ebb55ed775126580cfbdc42a3669
+    new: c21de5fc5ffde70b21e4f370aebad79a7d7bdc0d
     log: |
-         259b4d4c1308a1fa0a671be3ecd8f847c7ce2e95 mtd: devices: docg3: Remove unnecessary (void*) conversions
+         f42bcd168d034aa8abd9178c430b407be8c98827 bpf: teach verifier actual bounds of bpf_get_smp_processor_id() result
+         c21de5fc5ffde70b21e4f370aebad79a7d7bdc0d selftests/bpf: extend existing map resize tests for per-cpu use case
          
