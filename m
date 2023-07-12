@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1836244644692684979=="
+Content-Type: multipart/mixed; boundary="===============7549720938404618794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 12 Jul 2023 14:28:50 -0000
-Message-Id: <168917213062.5273.17931521578991410076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Jul 2023 14:28:57 -0000
+Message-Id: <168917213795.5377.6094763230133689886@gitolite.kernel.org>
 
---===============1836244644692684979==
+--===============7549720938404618794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regulator-6.5
     old: e9bd04e52d649c3cfd713b594c5db35cab03c42b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-e9bd04e52d64-06c2afb862f9.txt
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6
     new: 933448e8d02be1fc3a63cd3fdcc01c87ce316fd3
     log: |
@@ -29,32 +29,32 @@ changes:
          933448e8d02be1fc3a63cd3fdcc01c87ce316fd3 Add compatible support for RT5733
          
 
---===============1836244644692684979==
+--===============7549720938404618794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689172128 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1689172127-60e5d0600e89548f42e3da531a81f4e02b78ca15
+pusher C3F436CA30F5D8EB 1689172136 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689172134-4ca984ba923bd14988b14a2354eda04bb58ccb29
 
-e9bd04e52d649c3cfd713b594c5db35cab03c42b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/for-6.5
-4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 933448e8d02be1fc3a63cd3fdcc01c87ce316fd3 refs/heads/for-6.6
+e9bd04e52d649c3cfd713b594c5db35cab03c42b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/regulator-6.5
+4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 933448e8d02be1fc3a63cd3fdcc01c87ce316fd3 refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSuuKAACgkQJNaLcl1U
-h9DcnAf+IkX9zQSJvSpD7seGcUqYk/l62CCA51gV69G/E2lhD8NIriV6PW83nhqF
-QYR+U37wSXxBZDJqpMp6J4HjIAP9MilTofzSK8gujgpBriT/jPLDxOo6tszJr/tF
-PcusfCuH7TQPxq/KI1YxSTLHdX3rG6qEyLxd7BY8OMFlqDFfqkwKkcSG1tlMtFvF
-yubzluhMnMI7uTGIWC0MsSa5sBfGa9yjKQAUWn5pNZ/IduGkQ/omugCw4GX5Tr5w
-ZMO7bKR0W5Osgr0hfrz9VPfxqMOAs+hzeudpCEP8CCvVZoFOkfLbHFgPMTJfNEeb
-5Z9VCGh2SIOnJn4LCiUwLUy77+SO/A==
-=t/6g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSuuKgACgkQJNaLcl1U
+h9AG9wf+IC0qsr1WiYwgToQzDSSO0ZIo8zqiMIruvZUPveCs02PEvqpDfR+AYk9R
+CkqfdXLgdrxlEbcXSmvYaUobGitRq0iLzpQwqRmYYNxxSFrgrKevuMyjcHuiqeC2
+5pUvbjIts/ohp9yR19l+tQhg3UqNNpZF9ANllwiJL5RCdo9PWAMh+UIb5mDKODoq
+L3TWN84HEJGP7ycJk6dLyon0w1dTDwDXRPDz5uyY2kl9aDBTfUCSmlMY+dKYwcOp
+gppoje0NfArQK3tCLN9530iUY1TaQsm38CicZtNZsM6dGY/zs9xRwwmdB/5f9x5N
+XiDQ8zlr849tZun1OnZui4vgOEdwIg==
+=NydP
 -----END PGP SIGNATURE-----
 
---===============1836244644692684979==
+--===============7549720938404618794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1085,4 +1085,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============1836244644692684979==--
+--===============7549720938404618794==--
