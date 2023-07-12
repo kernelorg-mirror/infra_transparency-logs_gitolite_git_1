@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 12 Jul 2023 17:05:37 -0000
-Message-Id: <168918153781.24786.12341905921210222399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Wed, 12 Jul 2023 17:20:13 -0000
+Message-Id: <168918241397.4109.2022119954658244450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/fixes
-    old: b690e266dae2f85f4dfea21fa6a05e3500a51054
-    new: ab2dbc7accedc2e98eb7d8b8878d337e3b36c95d
-    log: |
-         ab2dbc7accedc2e98eb7d8b8878d337e3b36c95d RISC-V: Don't include Zicsr or Zifencei in I from ACPI
-         
+  - ref: refs/heads/mm-nonmm-stable
+    old: e9be1d1c50e3572ddf0bdceee6c63911011cc835
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+  - ref: refs/heads/mm-stable
+    old: fd3006d2d0e735c460f69fa0ce551530334d27f6
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
