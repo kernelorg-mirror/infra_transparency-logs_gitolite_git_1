@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
-Date: Wed, 12 Jul 2023 16:16:57 -0000
-Message-Id: <168917861770.22057.13661256485879269575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 12 Jul 2023 16:27:52 -0000
+Message-Id: <168917927283.29051.3221032487534241150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/kvmtool
-user: will
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 0b5e55fc032d1c6394b8ec7fe02d842813c903df
-    new: bd4ba57156dad39349edfb2338bdc2f4ed3c0bae
+  - ref: refs/heads/riscv-dt-for-next
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    new: ef6012f301f71fd8d8bc07dd9710f5e5de362cf5
     log: |
-         2cc4929cc6b9a382a0c866cf5bbe849e3c0ec271 util: Make pr_err() return void
-         72e13944777a6c60fbcd78ef97e06ffd00969d77 Replace printf/fprintf with pr_* macros
-         fc184a682a2164c156655ec18bc4a18bb638f644 util: Use __pr_debug() instead of pr_info() to print debug messages
-         bd4ba57156dad39349edfb2338bdc2f4ed3c0bae Add --loglevel argument for the run command
+         ef6012f301f71fd8d8bc07dd9710f5e5de362cf5 riscv: dts: Enable device-tree overlay support for starfive devices
          
