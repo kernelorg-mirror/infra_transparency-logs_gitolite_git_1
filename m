@@ -1,29 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 12 Jul 2023 03:12:58 -0000
-Message-Id: <168913157861.20450.6060718351886940141@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5874062313748995399=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 12 Jul 2023 03:26:29 -0000
+Message-Id: <168913238956.30007.16174216867133638084@gitolite.kernel.org>
+
+--===============5874062313748995399==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 07018b57066e0009c0b9945723f30e532d347ed3
-    new: 87e098e62347ebb55ed775126580cfbdc42a3669
-    log: |
-         7ac8d0d2619256cc13eaf4a889b3177a1607b02d bpf: Support ->fill_link_info for kprobe_multi
-         dc6519445b33bcd9c0ce69c914979a3c0c6e80ce bpftool: Dump the kernel symbol's module name
-         edd7f49bb884139af9069dcf59d9f89f1f4ddf3f bpftool: Show kprobe_multi link info
-         f1a414537ecc18b5882a57045ce3e4a11e528290 bpf: Protect probed address based on kptr_restrict setting
-         5125e757e62f6c1d5478db4c2b61a744060ddf3f bpf: Clear the probe_addr for uprobe
-         cd3910d005052382901fe3d0a3aeed48b1b64906 bpf: Expose symbol's respective address
-         57d485376552480602ab83bf7499b451bae5a1b9 bpf: Add a common helper bpf_copy_to_user()
-         1b715e1b0ec531fae72cd6698fe1c98affa436f8 bpf: Support ->fill_link_info for perf_event
-         62b57e3ddd64002f5b3f6fb2ea50b79a2994cfec bpftool: Add perf event names
-         88d6160737fa7bec9addb9c479b8166e88bc5ff5 bpftool: Show perf link info
-         87e098e62347ebb55ed775126580cfbdc42a3669 Merge branch 'bpf: Support ->fill_link_info for kprobe_multi and perf_event links'
-         
+  - ref: refs/heads/main
+    old: b8e39b38487e68c6503419db6e4a851a0ef56de7
+    new: 47b7acfb016b9fdc950cb501c351faf5723b1868
+    log: revlist-b8e39b38487e-47b7acfb016b.txt
+
+--===============5874062313748995399==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b8e39b38487e-47b7acfb016b.txt
+
+1e679b957ae244cd839b8792b589ea5a671482e8 net: dpaa: Improve error reporting
+9c3ddc44d0c005ac3138efd53d6037dd99e43ccb net: dpaa: Convert to platform remove callback returning void
+12d6cc19f29b86982d16e15486f8bc5f520e84a0 net: fec: Convert to platform remove callback returning void
+4875b2a362e97a25d5f0ec905bb5b8672f951aeb net: fman: Convert to platform remove callback returning void
+ead29c5e0888ddf25300962bd18f8776b89390a0 net: fs_enet: Convert to platform remove callback returning void
+f833635589aefc713582ae763aed8ef997b39f91 net: fsl_pq_mdio: Convert to platform remove callback returning void
+4be0ebc33f39f22f5568eac9d23715d79f1d110f net: gianfar: Convert to platform remove callback returning void
+ae18facf566c94ba78b2acbe26feae5b5596cbea net: ucc_geth: Convert to platform remove callback returning void
+1518abee499ea1d5066b86b63e9a741df6b0d255 Merge branch 'net-freescale-convert-to-platform-remove-callback-returning-void'
+47b7acfb016b9fdc950cb501c351faf5723b1868 bnxt_en: use dev_consume_skb_any() in bnxt_tx_int
+
+--===============5874062313748995399==--
