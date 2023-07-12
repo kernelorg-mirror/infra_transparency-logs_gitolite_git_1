@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1678882660748445667=="
+Content-Type: multipart/mixed; boundary="===============2076874440551930513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 12 Jul 2023 10:12:51 -0000
-Message-Id: <168915677190.11563.1991164776218081257@gitolite.kernel.org>
+Date: Wed, 12 Jul 2023 10:13:39 -0000
+Message-Id: <168915681998.11918.420260400699337414@gitolite.kernel.org>
 
---===============1678882660748445667==
+--===============2076874440551930513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.ctime
-    old: c06d4bf5e20786afd35f237e1179f0118e9793d5
-    new: 8de81d53f1b68755a08446fe65face76fad16269
-    log: revlist-c06d4bf5e207-8de81d53f1b6.txt
+  - ref: refs/heads/vfs.all
+    old: d3f102eba76bda50174b16fdd13b322d5a32c00d
+    new: 5b558a564c9427f1cda8d4f6a8d7549a65f6abc7
+    log: revlist-d3f102eba76b-5b558a564c94.txt
 
---===============1678882660748445667==
+--===============2076874440551930513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c06d4bf5e207-8de81d53f1b6.txt
+Content-Disposition: attachment; filename=revlist-d3f102eba76b-5b558a564c94.txt
 
 b7c364751b225e6027e70374a7292b47097af800 hostfs: convert to ctime accessor functions
 e764d812e8e0596bed24869d38e158fd0484d475 hpfs: convert to ctime accessor functions
@@ -69,5 +69,6 @@ fefc1ef1101116a752c30148ff17e2c09a1d229e apparmor: convert to ctime accessor fun
 f41753cbd0d1b3219a84874ee76084b11cd7a8db security: convert to ctime accessor functions
 1ec84fff3c3c6b00c4e3d9bf8e053f8cf8c694fb selinux: convert to ctime accessor functions
 8de81d53f1b68755a08446fe65face76fad16269 fs: rename i_ctime field to __i_ctime
+5b558a564c9427f1cda8d4f6a8d7549a65f6abc7 Merge branches 'vfs.readdir', 'vfs.misc', 'vfs.ctime' and 'vfs.unstable.fchmodat2' into vfs.all
 
---===============1678882660748445667==--
+--===============2076874440551930513==--
