@@ -1,51 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5685849577349784292=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 Jul 2023 10:34:31 -0000
-Message-Id: <168915807188.26163.3039115363632435554@gitolite.kernel.org>
-
---===============5685849577349784292==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 12 Jul 2023 10:35:14 -0000
+Message-Id: <168915811475.28060.13661078010317168788@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.5
-    old: 879a879c216a41f5403d8d3dbc204a48501912bf
-    new: 5158814cbb37bbb38344b3ecddc24ba2ed0365f2
+  - ref: refs/heads/for-linus
+    old: c78f8c33f3fb776f22fdc68e8b4dec5c1fe866ee
+    new: 013e37863d0d53fc524ad25261173f4b63628694
     log: |
-         c09168c9392ac9250d87d71fc5ca3156f7456ea4 MAINTAINERS: Add myself as a maintainer for Microchip SPI
-         5158814cbb37bbb38344b3ecddc24ba2ed0365f2 spi: bcm63xx: fix max prepend length
+         013e37863d0d53fc524ad25261173f4b63628694 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
          
-
---===============5685849577349784292==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1689158070 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1689158069-7199f2a233694ca42c3257bc6a4aa18aac9a71e4
-
-879a879c216a41f5403d8d3dbc204a48501912bf 5158814cbb37bbb38344b3ecddc24ba2ed0365f2 refs/heads/spi-6.5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSugbYACgkQJNaLcl1U
-h9BmtQf/TyBz8dFCBG1QSQvwK0htH0a+7yvUCW5y5clrbrh7CexT+Bxfervkh50Q
-bBS75GByKzb3oHE8Jdf8TNIwSmujHvY24A+06g27IiSh+ZOLFQ499qX9OPbSOZzZ
-52kDD9lEeabGGj2MQ4/2J0WCgZjoFFH+YYtybv1KFoVS5IJiLsy6UuzK8UaSJIsA
-KdmWOD2wc3S7zXhYui7sCbSy3cKEzCKSdataq98ubvoW8F591mh8S8QhHw6wpKZD
-GmuMsj10jkSo3WbTYC5q1UN2d5HojjNChf7eJyhyRzyv9Y14A6woR4wLFWXXioXZ
-MSmtYg/yeZApdzpmWycvq3HyWtj5Ng==
-=cVt3
------END PGP SIGNATURE-----
-
---===============5685849577349784292==--
+  - ref: refs/heads/for-next
+    old: 937510f3df69f32fb3e1ef246d1779b616091a9c
+    new: b8a6a6fe838e0a4d3ba6e024ca756f5c111d6465
+    log: |
+         d16db38c2a66060ee25c6b86ee7b6d66d40fc8e0 dt-bindings: regulator: Describe Qualcomm REFGEN regulator
+         7cbfbe23796086fdb72b681e2c182b02acd36a04 regulator: Introduce Qualcomm REFGEN regulator driver
+         42a95739c5bc4d7a6e93a43117e9283598ba2287 regulator: raa215300: Change the scope of the variables {clkin_name, xin_name}
+         741da3f60479acc0de3d79501c4819e49fa28639 regulator: raa215300: Switch back to use struct i2c_driver::probe
+         4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 Qualcomm REFGEN regulator
+         013e37863d0d53fc524ad25261173f4b63628694 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         8163d008a7392cce72e040e91e90fa63dfb65e98 Merge branch 'regulator-linus' into regulator-next
+         b8a6a6fe838e0a4d3ba6e024ca756f5c111d6465 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
+         
