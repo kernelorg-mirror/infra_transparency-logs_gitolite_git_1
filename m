@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0625699072650947662=="
+Content-Type: multipart/mixed; boundary="===============5744038181708003683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 Jul 2023 10:34:19 -0000
-Message-Id: <168915805904.25926.9782358897729452577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 12 Jul 2023 10:34:25 -0000
+Message-Id: <168915806565.26033.7735794506111125072@gitolite.kernel.org>
 
---===============0625699072650947662==
+--===============5744038181708003683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.5
-    old: 54e47eade73046e860634736d2651ddc118ca694
-    new: e9bd04e52d649c3cfd713b594c5db35cab03c42b
+  - ref: refs/heads/for-6.5
+    old: 879a879c216a41f5403d8d3dbc204a48501912bf
+    new: 5158814cbb37bbb38344b3ecddc24ba2ed0365f2
     log: |
-         e9bd04e52d649c3cfd713b594c5db35cab03c42b regulator: raa215300: Add build dependency with COMMON_CLK
+         c09168c9392ac9250d87d71fc5ca3156f7456ea4 MAINTAINERS: Add myself as a maintainer for Microchip SPI
+         5158814cbb37bbb38344b3ecddc24ba2ed0365f2 spi: bcm63xx: fix max prepend length
          
-  - ref: refs/heads/regulator-6.6
-    old: 0000000000000000000000000000000000000000
-    new: 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6
 
---===============0625699072650947662==
+--===============5744038181708003683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689158057 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1689158056-e809b00f150820559db9b5320aa42ef702edf457
+pusher C3F436CA30F5D8EB 1689158064 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1689158063-49b42f1f7e8502b02d267770ed0b833b5ce5fc18
 
-54e47eade73046e860634736d2651ddc118ca694 e9bd04e52d649c3cfd713b594c5db35cab03c42b refs/heads/regulator-6.5
-0000000000000000000000000000000000000000 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 refs/heads/regulator-6.6
+879a879c216a41f5403d8d3dbc204a48501912bf 5158814cbb37bbb38344b3ecddc24ba2ed0365f2 refs/heads/for-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSugakACgkQJNaLcl1U
-h9D87ggAhQNrv7ArbFbUpRfP4k7U0EUh6WkeGGemjJtqa39TGB7wdLkrMNFdDpSb
-KnH+49htK531ceoouUtbJ1kiGsK5zr5VisVuZY/LCyNvd404mdozbBdsstVzUoWy
-UXN4BSAmwMXI1GnTu6cfZ3EuJWNabOI7QO3I2uPaORL0OyIjKHzS62AsfIA9UbNa
-rBY/HaC/yppQ3Oi3c4Uc4E60nG1oFkQGhZmOUjHlMSWYMjorYJa6nujsSh0pIrRj
-usl0YisYFj4r0SmfH5yfghUby5xjSRpDQcp/FMYeyIfEPJq2jRAfs4h70fo6qBXH
-OFsLKL7ItttPQ6mObNUxbzLWsydc5A==
-=3VRH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSugbAACgkQJNaLcl1U
+h9BkKgf/Rjc1tcAt2/kMc2u0NyEkSCa1HLjHSvr6D4I+AH49CxduE1nQXWL3MNhA
+LqVpTsQF+1Gsebg0V4w7qJMEry5w23WCdALIJPBz4vOOaWSqUC12rIRs5Ze/nN7L
+Uq2+tvtiCQWbnfN0YsHUoPgXN/f1EDAvwza3JmvDnoU6rxlYTX7+hvIJYBwXii4Q
+vDFCUoxDKz5bCyYVAX3olvCoVvQpYS9PSqb1HPKTgiNHOQVCiOQOU73DERWeV0J0
+CU2WWCuT/vhI8hqMB8eVyXdUXK1BQy1le4iNdmx7f/pxvTRLc8L82e6TKqZZwAix
+0KkyLvEI4mvQJhqR5lUDd/Dx7jJMZQ==
+=jRky
 -----END PGP SIGNATURE-----
 
---===============0625699072650947662==--
+--===============5744038181708003683==--
