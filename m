@@ -1,60 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6869035539966046590=="
+Content-Type: multipart/mixed; boundary="===============4393382694454853454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 12 Jul 2023 11:45:13 -0000
-Message-Id: <168916231362.17282.17611638623449637330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Jul 2023 11:45:21 -0000
+Message-Id: <168916232139.17398.3554920128519614048@gitolite.kernel.org>
 
---===============6869035539966046590==
+--===============4393382694454853454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regmap-6.5
     old: d0c99ffe212679b338d12fe283964e6e43ce1501
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-d0c99ffe2126-06c2afb862f9.txt
-  - ref: refs/heads/for-6.6
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+  - ref: refs/heads/regmap-6.6
+    old: 0000000000000000000000000000000000000000
     new: 875403a7b524e9523e49dd32662adbc3e48cc12a
-    log: |
-         1425bdd7ef88631d0623ce3d0b8c89d8a65815d2 regmap: Revert "add 64-bit mode support" and Co.
-         039fd2e4134b7b880ba83f40a136df440047594a regmap: cache: Revert "Add 64-bit mode support"
-         875403a7b524e9523e49dd32662adbc3e48cc12a regmap: mmio: Remove unused 64-bit support code
-         
 
---===============6869035539966046590==
+--===============4393382694454853454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689162311 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1689162310-c0ca377a829097f76559944945fb57330ef6a060
+pusher C3F436CA30F5D8EB 1689162319 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689162318-2ac0a0398a0ae53d6e36fe08f7ed8c87bac71281
 
-d0c99ffe212679b338d12fe283964e6e43ce1501 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/for-6.5
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 875403a7b524e9523e49dd32662adbc3e48cc12a refs/heads/for-6.6
+d0c99ffe212679b338d12fe283964e6e43ce1501 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/regmap-6.5
+0000000000000000000000000000000000000000 875403a7b524e9523e49dd32662adbc3e48cc12a refs/heads/regmap-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSukkcACgkQJNaLcl1U
-h9CqJwf/ZhSskRXHJyywieIJwY6HHV/JAuY0wVXmJMCcVARO6pw9GjRAgsksBUCO
-ZWGghLXA7Zhuwu4DCuv3NToTPoWd6wQKKFXO0HxpLVbVzkYtCfmDxfCkUqf20jwP
-3B3kimrblr6Yl0yw7lrjwAxwHpVisKv01YKry1i6aI7YYDvSri+wBc1dM6Ydrw/m
-Cuawlx7+dKT64lyV8ioqKGEqgBHuMPv+aSwnbG9DWp3n+gE70g2bJE3FdcUS7lEQ
-BhzHAxIp+Wyv+gA3a6YN8uSB482RdrR3of5Sb5r7/Vb+Nmyof7/3sPsdhJMxMBTd
-SJsCC1Z0UBM/D8FAm7FzHFUuL5KgSg==
-=R6Xl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSukk8ACgkQJNaLcl1U
+h9CUKAf9Ht/4U1zNZ7Kd+gKegHQI6Sarl4ksD6LLoWOthDK0gzmI1U+GPedD5xC/
+9RwxXfVfxBy26ONOeGY2RL4NJAysKlDxp7bqWDWqhNns5d4YhfwA9XiFwIpQn4OH
+NOGv0sykjLUbt1rKPoJVaaq9inst2225I7EtdvjHgtiCnaPRCOiuwgch7NfU0/E0
+OuHMxwzaLaO9Wv0/kT18SPmTGFgOtLXoUc8iTeZNvdfZ0xmF9VJp+Zh3+V3RfQq2
+ftXhsbv8WE0fwE08qqJ0WPCjyW+Dk/dOAhlbbPmfvTTtdbA3fKgR/dNPNbD4Pfec
+57qZKFbYdX+468yrcOFw0x9i9EurfA==
+=+sdD
 -----END PGP SIGNATURE-----
 
---===============6869035539966046590==
+--===============4393382694454853454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1085,4 +1080,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============6869035539966046590==--
+--===============4393382694454853454==--
