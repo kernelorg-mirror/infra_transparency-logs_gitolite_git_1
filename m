@@ -1,31 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============4867786124900250632=="
+Content-Type: multipart/mixed; boundary="===============3587747301847455650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 12 Jul 2023 14:15:16 -0000
-Message-Id: <168917131654.29261.8836115600959815310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 12 Jul 2023 14:24:12 -0000
+Message-Id: <168917185216.1668.3300778707148632600@gitolite.kernel.org>
 
---===============4867786124900250632==
+--===============3587747301847455650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/mtd/next
-    old: cf431a5998326a0468532a188a188ac2c8e9c55d
-    new: e1666cfd78222ae145ac260368f29fa443d97b3f
-    log: revlist-cf431a599832-e1666cfd7822.txt
+  - ref: refs/heads/for-next
+    old: 7bc162d5cc4de5c33c5570dba2719a01506a9fd0
+    new: 44f6a42d4935028ffd788e7cf9114e4a1f8d6d3a
+    log: revlist-7bc162d5cc4d-44f6a42d4935.txt
 
---===============4867786124900250632==
+--===============3587747301847455650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf431a599832-e1666cfd7822.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1689171847 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1689171847-a92d818dff159484aa72eb1d78a38a4060209f98
+
+7bc162d5cc4de5c33c5570dba2719a01506a9fd0 44f6a42d4935028ffd788e7cf9114e4a1f8d6d3a refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmSut4cACgkQu+CwddJF
+iJqvGQf/ah+cEMwugAPWAqBVolrVRfYX7bqpHYpMNzcHIruz7eqblW8sd8gdLCOm
+g2eVVeZYWYd51uZcKCoWEXq0Utvgp5btTOzrSHOqeqiC1ZnvFbkzNFNTTzLIYNRh
+YDCz/y3KnjuUpqknIWzwsFugbBEmo5QuccM1RI+0ZV/UpxRaTsA2xIUPDavLqGmN
+qGg8Zzc6ZbBbFasdomaRXoDX0nCjcGE2dhKA8bzlI3pubY3+h5dJUlPgxPE49Dxj
+2722DSiSEFq8su6smYiqK11D0+iSrIxDXVZaptR/xfDJdmEqfPFaESwoehcqvz/n
+pzwvpUkh3PkgAmNMbDTGRAPBbrC4ag==
+=vCf/
+-----END PGP SIGNATURE-----
+
+--===============3587747301847455650==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7bc162d5cc4d-44f6a42d4935.txt
+
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
+6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
+be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
+12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
+e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
 f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
 009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
 c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
@@ -1042,13 +1074,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-19bfa9ebebb5ec0695def57eb1d80de7e9cab369 mtd: use refcount to prevent corruption
-79c4a56250216991f1d965ee26dcd273376e4e91 mtd: call external _get and _put in right order
-0e0d59f2f6ba8f26a16081fb76d301fc369cea36 mtd: plat-ram: Use devm_platform_get_and_ioremap_resource()
-6145e07e9c77a99cfe98f10b6544beef8026ce28 mtd: lantiq-flash: Use devm_platform_get_and_ioremap_resource()
-a29f696aa96f94ced1655b183c9694920d8bbfe2 mtd: lpddr2_nvm: Convert to devm_platform_ioremap_resource()
-1726813c2efff24a78836dd6333cd213b28cd5fa mtd: st_spi_fsm: Convert to devm_platform_ioremap_resource()
-badd019b4a2a44815e976a0108dd8e52a1a24a83 mtd: spear_smi: Convert to devm_platform_ioremap_resource()
-e1666cfd78222ae145ac260368f29fa443d97b3f mtd: physmap-core: Use devm_platform_get_and_ioremap_resource()
+44f6a42d4935028ffd788e7cf9114e4a1f8d6d3a mm/slub: refactor freelist to use custom type
 
---===============4867786124900250632==--
+--===============3587747301847455650==--
