@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 12 Jul 2023 19:23:31 -0000
-Message-Id: <168918981101.28017.10260049208531486342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 12 Jul 2023 19:34:20 -0000
+Message-Id: <168919046076.2813.17864842812742011203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 76d2ceda723c90ad7ee93224b8ebaeeb4ea13203
-    new: 221a4b56ec70c1a9f09ce78751613d16c508a4ce
+  - ref: refs/heads/master
+    old: 10d38d2b2d31a21fde5879331c489ec69c2f3c54
+    new: 980bd54d2e5fa60f31bbcff91667013b89eb4811
     log: |
-         221a4b56ec70c1a9f09ce78751613d16c508a4ce sparc: openpromio: Address -Warray-bounds warning
+         980bd54d2e5fa60f31bbcff91667013b89eb4811 foo
          
