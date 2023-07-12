@@ -1,66 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7549720938404618794=="
+Content-Type: multipart/mixed; boundary="===============1361871767359554246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 Jul 2023 14:28:57 -0000
-Message-Id: <168917213795.5377.6094763230133689886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 12 Jul 2023 14:29:24 -0000
+Message-Id: <168917216488.5623.4707592844590029392@gitolite.kernel.org>
 
---===============7549720938404618794==
+--===============1361871767359554246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.5
-    old: e9bd04e52d649c3cfd713b594c5db35cab03c42b
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-e9bd04e52d64-06c2afb862f9.txt
-  - ref: refs/heads/regulator-6.6
-    old: 4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6
-    new: 933448e8d02be1fc3a63cd3fdcc01c87ce316fd3
+  - ref: refs/heads/for-linus
+    old: 013e37863d0d53fc524ad25261173f4b63628694
+    new: dd68061ab1f1e96109a4df48cbf89d2dbbed7250
+    log: revlist-013e37863d0d-dd68061ab1f1.txt
+  - ref: refs/heads/for-next
+    old: b8a6a6fe838e0a4d3ba6e024ca756f5c111d6465
+    new: bca8fb5545da2841bc53be9aebd723b8e64cc917
     log: |
          8978af5ef662541bc0a5a7722ad6942cd19daed0 regulator: dt-bindings: rt5739: Add compatible for rt5733
          6f5e285839845729858b8f6ca7cf3dd35e1f9a29 regulator: rt5739: Add DID check and compatible for rt5733
          933448e8d02be1fc3a63cd3fdcc01c87ce316fd3 Add compatible support for RT5733
+         dd68061ab1f1e96109a4df48cbf89d2dbbed7250 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         bca8fb5545da2841bc53be9aebd723b8e64cc917 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
          
 
---===============7549720938404618794==
+--===============1361871767359554246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-013e37863d0d-dd68061ab1f1.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1689172136 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1689172134-4ca984ba923bd14988b14a2354eda04bb58ccb29
-
-e9bd04e52d649c3cfd713b594c5db35cab03c42b 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 refs/heads/regulator-6.5
-4d8cd4d289ad81b87a3c35a6cff96b3ff5386ed6 933448e8d02be1fc3a63cd3fdcc01c87ce316fd3 refs/heads/regulator-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSuuKgACgkQJNaLcl1U
-h9AG9wf+IC0qsr1WiYwgToQzDSSO0ZIo8zqiMIruvZUPveCs02PEvqpDfR+AYk9R
-CkqfdXLgdrxlEbcXSmvYaUobGitRq0iLzpQwqRmYYNxxSFrgrKevuMyjcHuiqeC2
-5pUvbjIts/ohp9yR19l+tQhg3UqNNpZF9ANllwiJL5RCdo9PWAMh+UIb5mDKODoq
-L3TWN84HEJGP7ycJk6dLyon0w1dTDwDXRPDz5uyY2kl9aDBTfUCSmlMY+dKYwcOp
-gppoje0NfArQK3tCLN9530iUY1TaQsm38CicZtNZsM6dGY/zs9xRwwmdB/5f9x5N
-XiDQ8zlr849tZun1OnZui4vgOEdwIg==
-=NydP
------END PGP SIGNATURE-----
-
---===============7549720938404618794==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9bd04e52d64-06c2afb862f9.txt
-
-804ca14d04df09bf7924bacc5ad22a4bed80c94f iommufd: Do not access the area pointer after unlocking
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
 a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
@@ -1084,5 +1059,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
+dd68061ab1f1e96109a4df48cbf89d2dbbed7250 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
 
---===============7549720938404618794==--
+--===============1361871767359554246==--
