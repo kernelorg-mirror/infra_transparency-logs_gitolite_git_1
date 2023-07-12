@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0945305320203011071=="
+Content-Type: multipart/mixed; boundary="===============4867786124900250632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 12 Jul 2023 14:10:24 -0000
-Message-Id: <168917102450.25844.15642730631792057248@gitolite.kernel.org>
+Date: Wed, 12 Jul 2023 14:15:16 -0000
+Message-Id: <168917131654.29261.8836115600959815310@gitolite.kernel.org>
 
---===============0945305320203011071==
+--===============4867786124900250632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mtd/linux
 user: mraynal
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: c4d28e30a8d0b979e4029465ab8f312ab6ce2644
-    new: 7e6b04f9238eab0f684fafd158c1f32ea65b9eaa
-    log: revlist-c4d28e30a8d0-7e6b04f9238e.txt
+  - ref: refs/heads/mtd/next
+    old: cf431a5998326a0468532a188a188ac2c8e9c55d
+    new: e1666cfd78222ae145ac260368f29fa443d97b3f
+    log: revlist-cf431a599832-e1666cfd7822.txt
 
---===============0945305320203011071==
+--===============4867786124900250632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4d28e30a8d0-7e6b04f9238e.txt
+Content-Disposition: attachment; filename=revlist-cf431a599832-e1666cfd7822.txt
 
-6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
-be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
-12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
-e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
 f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
 009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
 c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
@@ -1046,9 +1042,13 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-8544cda94dae6be3f1359539079c68bb731428b1 mtd: spinand: toshiba: Fix ecc_get_status
-f5a05060670a4d8d6523afc7963eb559c2e3615f mtd: spinand: winbond: Fix ecc_get_status
-d8403b9eeee66d5dd81ecb9445800b108c267ce3 mtd: rawnand: omap_elm: Fix incorrect type in assignment
-7e6b04f9238eab0f684fafd158c1f32ea65b9eaa mtd: rawnand: meson: fix OOB available bytes for ECC
+19bfa9ebebb5ec0695def57eb1d80de7e9cab369 mtd: use refcount to prevent corruption
+79c4a56250216991f1d965ee26dcd273376e4e91 mtd: call external _get and _put in right order
+0e0d59f2f6ba8f26a16081fb76d301fc369cea36 mtd: plat-ram: Use devm_platform_get_and_ioremap_resource()
+6145e07e9c77a99cfe98f10b6544beef8026ce28 mtd: lantiq-flash: Use devm_platform_get_and_ioremap_resource()
+a29f696aa96f94ced1655b183c9694920d8bbfe2 mtd: lpddr2_nvm: Convert to devm_platform_ioremap_resource()
+1726813c2efff24a78836dd6333cd213b28cd5fa mtd: st_spi_fsm: Convert to devm_platform_ioremap_resource()
+badd019b4a2a44815e976a0108dd8e52a1a24a83 mtd: spear_smi: Convert to devm_platform_ioremap_resource()
+e1666cfd78222ae145ac260368f29fa443d97b3f mtd: physmap-core: Use devm_platform_get_and_ioremap_resource()
 
---===============0945305320203011071==--
+--===============4867786124900250632==--
