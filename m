@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 12 Jul 2023 21:04:19 -0000
-Message-Id: <168919585920.3451.270331955581238468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 12 Jul 2023 21:05:33 -0000
+Message-Id: <168919593326.5533.2738801875003753217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c9a85685d0c13f9e8b52e70987a37b6871cee79b
-    new: 34ffc92ed051e8c81dbcf5efa347125fdb3b1dd7
+  - ref: refs/heads/dev-queue
+    old: 8d5bc02673a4fa9f5db4e9e949f41cfc68ae1758
+    new: da327916810886a45c25047311353d2d9aae12b1
     log: |
-         326581b76adae6eabb0b0eb365d641007ba4d852 Bluetooth: hci_conn: return ERR_PTR instead of NULL when there is no link
-         23ba0a1d51bdf776cda88c21c70e7d72aa247d09 Bluetooth: SCO: fix sco_conn related locking and validity issues
-         4b6a06db2f8a07745b79cf50108da0876ef6b307 Bluetooth: btusb: Add a new VID/PID 0489/e0f6 for MT7922
-         159c43e9925e8f4655b8f834cbb864f5ecaf1778 Bluetooth: btusb: Add new VID/PID 0489/e102 for MT7922
-         b18d35adebf49ede669a8bd4aeefa4b4e95143f2 Bluetooth: btusb: Add new VID/PID 04ca/3804 for MT7922
-         34ffc92ed051e8c81dbcf5efa347125fdb3b1dd7 Bluetooth: hci_debugfs: Use kstrtobool() instead of strtobool()
+         77244a8e200856cc1089c7a8ccce55414dcc1c01 ice: prefix clock timer command enumeration values with ICE_PTP
+         155e04aa9107c105bbfbbecd54e662b850ce42df ice: Clean the main timer command register after use
+         cccea000843965b4e13bf6b140db65dc9e9933fa ice: retry acquiring hardware semaphore during cross-timestamp request
+         162464ce85cca29791985e9783b6045623c63523 ice: Support cross-timestamping for E823 devices
+         da327916810886a45c25047311353d2d9aae12b1 ice: move E810T functions to before device agnostic ones
          
