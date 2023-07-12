@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 12 Jul 2023 15:01:45 -0000
-Message-Id: <168917410574.30311.1305272177826575044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 12 Jul 2023 15:09:39 -0000
+Message-Id: <168917457949.3699.4990316041523267415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-linus
-    old: 1bfaee35d37c93f87a9939e267d381af06731d1c
-    new: b1fdc75d1ddf908c86dd1620935161b50382c5cd
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
+    old: 699ec8b0f57ed7e8fe18b683c0b04326f3b385bd
+    new: 89fa212ccd956b5d340f8bcf6852ef9f5d2bc39d
     log: |
-         b1fdc75d1ddf908c86dd1620935161b50382c5cd Merge remote-tracking branch 'spi/for-6.4' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 44382911636e22f7bf97de4d5e506e883db7a672
-    new: a8dec853098d4db9a477f18a1bd078b5a2a10667
-    log: |
-         3b38cabd5e12b8b54b9c9feab9ab0093b991f249 spi: spi-cadence: Delete unmatched comments
-         b1fdc75d1ddf908c86dd1620935161b50382c5cd Merge remote-tracking branch 'spi/for-6.4' into spi-linus
-         b50266d37c68a37e4068c5ab49fd6f5a3b3caefb Merge branch 'spi-linus' into spi-next
-         a8dec853098d4db9a477f18a1bd078b5a2a10667 Merge remote-tracking branch 'spi/for-6.6' into spi-next
+         7215e47e629c86ec72665c3f345f18b5c740f1cf SUNRPC: Deduplicate thread wake-up code
+         96fd54bbb9df2150de6dfa5f923f95f3db1cd8fe SUNRPC: Report when no service thread is available.
+         40f1d4871d22ba03f7cbd5d69917e5a019f3eb3e SUNRPC: Split the svc_xprt_dequeue tracepoint
+         aafa7e8e232171ac1cbacea4f72fc18dc80dc450 SUNRPC: Count ingress RPC messages per svc_pool
+         b2a6ac3eb6b732d911764838d269161ad99103ed SUNRPC: Count pool threads that were awoken but found no work to do
+         aa3617f520f1d52ea3987ccecaed321a02e15783 SUNRPC: Clean up svc_set_num_threads
+         89fa212ccd956b5d340f8bcf6852ef9f5d2bc39d SUNRPC: Replace dprintk() call site in __svc_create()
          
