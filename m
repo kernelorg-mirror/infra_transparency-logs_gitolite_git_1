@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Jul 2023 11:37:44 -0000
-Message-Id: <168916186417.10434.1082753580481311863@gitolite.kernel.org>
+Date: Wed, 12 Jul 2023 11:37:51 -0000
+Message-Id: <168916187144.10561.11299487449108903624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20230629_trevor_wu_asoc_mt8188_add_memory_region_support
-    old: e3326e3bc4937622b4dc6e9721262483109b0f0c
+  - ref: refs/heads/20230707_venkataprasad_potturu_add_acpi_mahine_id_s_for_vangogh_platform_and
+    old: 197b1f7f0df183db332b6b8851a29c8bc901571d
     new: 0000000000000000000000000000000000000000
