@@ -1,38 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 12 Jul 2023 13:23:10 -0000
-Message-Id: <168916819062.22794.15842089662536353271@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8276929335005183049=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 12 Jul 2023 13:30:06 -0000
+Message-Id: <168916860669.28462.326356764141187092@gitolite.kernel.org>
+
+--===============8276929335005183049==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/rdma-next
-    old: b47ee66d4e0035b5a63c4f2e9bd5d2c001c27b58
-    new: 4749f6d74e88399228b3154ccc26fa12121eabd7
-    log: |
-         52b4bdd28c861e7331543f4b5a0853b80c9fd3fa RDMA/mlx5: align MR mem allocation size to power-of-two
-         113383eff3ff6f6ea6fcddeb469d10d21c8e3d35 RDMA/efa: Add RDMA write HW statistics counters
-         65e02e840847158c7ee48ca8e6e91062b0f78662 RDMA/qedr: Remove a duplicate assignment in irdma_query_ah()
-         f877f22ac1e9bf1f9aded3765b0012851e1dc4c5 RDMA/irdma: Implement egress VLAN priority
-         763b0dc8375cb823c4ef875b04ad565cb3a0617c net/sched: Don't print dump stack in event of transmission timeout
-         70e5c1685191a9e525165537e029abad38acea34 RDMA/core: Introduce peer memory interface
-         50b9d80a4514b83ef0bc5576887710c192bee2a5 RDMA: Split kernel-only create QP flags from uverbs create QP flags
-         f462bf41a3d1baf912dda02c533cb580cbfd8041 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
-         aaf6b888f31835d7adae4d59232594dbcae89ae4 IB/mlx5: Add HW counter called rx_dct_connect
-         4749f6d74e88399228b3154ccc26fa12121eabd7 RDMA/umem: Set iova in ODP flow
-         
-  - ref: refs/heads/rdma-rc
-    old: 62d898a6685c47dba7653e8df8aa11e893a9a547
-    new: f682d292d814e272a05ad0c506e44027dc73bd34
-    log: |
-         d64b1ee12a168030fbb3e0aebf7bce49e9a07589 RDMA/mlx4: Make check for invalid flags stricter
-         13120f2d08fd739aca2f79387f9e896f46e085e6 RDMA/irdma: Add missing read barriers
-         df56ce725d7c6149bc13dd4daac30d0a851ac348 RDMA/irdma: Fix data race on CQP completion stats
-         e77ac83ee5fd1683b6dce01056f8e0b242336517 RDMA/irdma: Fix data race on CQP request done
-         f682d292d814e272a05ad0c506e44027dc73bd34 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
-         
+  - ref: refs/heads/for-next
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    new: 9204fc5071bf8b237d455e0c271c37729682a7ff
+    log: revlist-06c2afb862f9-9204fc5071bf.txt
+
+--===============8276929335005183049==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-06c2afb862f9-9204fc5071bf.txt
+
+00d4b35212351d1c49a3068a8ba73253c476a3d2 platform/x86: hp-bioscfg: Documentation
+5f94f181ca25d8c5b77beb2da0cb466ddb6ece29 platform/x86: hp-bioscfg: bioscfg-h
+a34fc329b1895fc8a6eb12099adc47009421ba6a platform/x86: hp-bioscfg: bioscfg
+69ea03e38f241b224e0e75ea20932f2a0df94e5c platform/x86: hp-bioscfg: biosattr-interface
+6b2770bfd6f92440e36dfa04c17ea065f24fd28d platform/x86: hp-bioscfg: enum-attributes
+6f2c06d5a467a372a92696685541aee3c9053685 platform/x86: hp-bioscfg: int-attributes
+4b2672ec71a3b4c89c5b6a093c82495234ef80ca platform/x86: hp-bioscfg: order-list-attributes
+8646a3b5ee3a5b384a22a721f37c24274d974045 platform/x86: hp-bioscfg: passwdobj-attributes
+b2715aa2e1352c0060b9dcba57a2e465bbfbcd68 platform/x86: hp-bioscfg: spmobj-attributes
+e6c7b3e15559699a30646dd45195549c7db447bd platform/x86: hp-bioscfg: string-attributes
+63e8f906e94e122ad1a38588b919a6b5e98b3532 platform/x86: hp-bioscfg: surestart-attributes
+eff3bac88aeda6f10f3b3c5e146e8ce29ff3bfb9 platform/x86: hp-bioscfg: Makefile
+9204fc5071bf8b237d455e0c271c37729682a7ff platform/x86: hp-bioscfg: MAINTAINERS
+
+--===============8276929335005183049==--
