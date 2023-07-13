@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5898779877184247407=="
+Content-Type: multipart/mixed; boundary="===============5203309525891069651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 13 Jul 2023 18:43:04 -0000
-Message-Id: <168927378430.24273.17731197135725758998@gitolite.kernel.org>
+Date: Thu, 13 Jul 2023 18:43:39 -0000
+Message-Id: <168927381989.24549.3370630505570455652@gitolite.kernel.org>
 
---===============5898779877184247407==
+--===============5203309525891069651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/master
-    old: ac9a78681b921877518763ba0e89202254349d1b
+  - ref: refs/heads/fixes
+    old: dbcf76390eb9a65d5d0c37b0cd57335218564e37
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    log: revlist-ac9a78681b92-06c2afb862f9.txt
+    log: revlist-dbcf76390eb9-06c2afb862f9.txt
 
---===============5898779877184247407==
+--===============5203309525891069651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
+Content-Disposition: attachment; filename=revlist-dbcf76390eb9-06c2afb862f9.txt
 
 dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============5898779877184247407==--
+--===============5203309525891069651==--
