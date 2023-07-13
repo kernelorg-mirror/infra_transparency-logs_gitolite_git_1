@@ -1,45 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5570772495677274566=="
+Content-Type: multipart/mixed; boundary="===============5989272164108028168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 13 Jul 2023 20:43:11 -0000
-Message-Id: <168928099194.16062.17807422937819042277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 13 Jul 2023 20:43:14 -0000
+Message-Id: <168928099458.16179.12275159099377720555@gitolite.kernel.org>
 
---===============5570772495677274566==
+--===============5989272164108028168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 877e91191ccf0782ae18c5dfa7522fb1e5bfba8c
-    new: 7a2b85a76b05f16e8e788d035afcacdd4faa1d71
-    log: revlist-877e91191ccf-7a2b85a76b05.txt
+  - ref: refs/heads/for-mfd-next
+    old: b05740d71bd2f8b2261930944bfe95f529190b8b
+    new: b90e33b6116afd3bf18f43d4b6d2858caa3c8640
+    log: revlist-b05740d71bd2-b90e33b6116a.txt
 
---===============5570772495677274566==
+--===============5989272164108028168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-877e91191ccf-7a2b85a76b05.txt
+Content-Disposition: attachment; filename=revlist-b05740d71bd2-b90e33b6116a.txt
 
-009637de1f65cff452ad49554d1e8ef9fda99e43 watchdog: sp5100_tco: support Hygon FCH/SCH (Server Controller Hub)
-c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
-25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
-8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
-ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
-00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
-698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
-64ee9163fe1b911aa0476af06ee0afd23fdf7388 f2fs: compress: fix to check validity of i_compress_flag field
-f240d3aaf5a1552ecb75445b47b1ca957d5151d2 f2fs: do more sanity check on inode
-94c8431fb46bfbe51bd3eb68687334797af0a221 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
-c571fbb5b59a3741e48014faa92c2f14bc59fe50 f2fs: add helper to check compression level
-dde38c03b351749f682db087df5202b55c7c1b40 f2fs: cleanup MIN_INLINE_XATTR_SIZE
-ac1ee161dec5801d9bbd874ef69cd0ff1e8053b6 f2fs: add f2fs_ioc_get_compress_blocks
-c9667b19e2cf13735fe2620f9d97b788897cd4af f2fs: check zone write pointer points to the end of zone
 9ac00e7cef106b66611e131f59f61f5ae35cf726 f2fs: do not issue small discard commands during checkpoint
 3f8ac7da8c6efd72908e0a16d4a149e79f356a00 f2fs: remove redundant assignment to variable err
 c3355ea9d82fe6b1a4226c9a7d311f9c5715b456 f2fs: convert to use sbi directly
@@ -64,7 +50,6 @@ b389139f12f287b8ed2e2628b72df89a081f0b59 netfilter: nf_tables: fix underflow in 
 01fee479846bb13139d339b11e04bf327200cac9 Merge branches 'acpi-apei', 'acpi-pad' and 'acpi-misc'
 a33677b9211b6c328ad359b072043af94f7c9592 backlight: led_bl: Take led_access lock when required
 4af191d60d22184e8c529068a8e9a6c77eee1706 Merge branches 'pm-cpufreq' and 'pm-cpuidle'
-a6b6790c020a01cc3e9353059d98bbe60c2fd105 mfd: Switch two more drivers back to use struct i2c_driver::probe
 9b8f36398e52840a6fe3a56d65be5f45bad4525a Merge branches 'pm-sleep' and 'pm-domains'
 645a829e03384a235b3760959d4ebe420a0f2027 blk-wbt: don't create wbt sysfs entry if CONFIG_BLK_WBT is disabled
 71b8642e79f277459555629f2bea1a8d1fed307e blk-wbt: remove dead code to handle wbt enable/disable with io inflight
@@ -332,10 +317,6 @@ a64db0b9dfac2011e14e88faf59847baac1dad5a ALSA: fireface: make read-only const ar
 d15e4314abec83e4f910659437bc809b0889e3a5 s390/vdso: filter out mno-pic-data-is-text-relative cflag
 190e2e1177010ab9ffccd5f968500099c247e8e5 media: dvb: mb86a20s: get rid of a clang-15 warning
 6c26bd4384da24841bac4f067741bbca18b0fb74 mm/mmap: Fix error return in do_vmi_align_munmap()
-8640b38234cf295a6b548fc303e93322464155ad dt-bindings: regulator: max77541: Add ADI MAX77541/MAX77540 Regulator
-c2b2afe6c8811290e4207dcb1d627def32a970f8 regulator: max77541: Add ADI MAX77541/MAX77540 Regulator Support
-04c9a8eb722ff6ebafd95217bed4faf6193e7e46 iio: adc: max77541: Add ADI MAX77541 ADC Support
-b05740d71bd2f8b2261930944bfe95f529190b8b dt-bindings: mfd: max77541: Add ADI MAX77541/MAX77540
 f6d026eea390d59787a6cdc2ef5c983d02e029d0 tracing/user_events: Fix incorrect return value for writing operation when events are disabled
 c27b40cf919254459698d6622828152b509b9980 selftests/user_events: Enable the event before write_fault test in ftrace self-test
 d34a271accf8fad00e05aad2cecb9fb53a840a94 selftests/user_events: Add test cases when event is disabled
@@ -1041,14 +1022,33 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-cb68b9e917daa6b02ea96d5656911af1d2bac878 leds: aw200xx: Fix error code in probe()
-009335061332c130d6fb7812895dbc98644ac607 leds: simatic-ipc-leds-gpio: Restore LEDS_CLASS dependency
-f03190139c59e87673160048e5252a1ba1a1fd40 leds: aw200xx: Switch back to use struct i2c_driver::probe
-9e239593d8312b62bc98aefa35fd683e0c32d310 leds: ip30: Convert to devm_platform_ioremap_resource()
-33bf85d1bb7d09db9b040bb30704a755d781379a dt-bindings: leds: Read max-brightness from device tree
-aea6af74f1be860555613da7894c6d925d6353f4 led: led-class: Read max-brightness from devicetree
-a2923757f4e41a133562e930ed83a9b1d5e61e0b dt-bindings: leds: bd2606mvv: Fix maximum register value
-5890a293bedbff79a5f4ff87ea6b48eacc8ef817 leds: pwm: Fix error code in led_pwm_create_fwnode()
-7a2b85a76b05f16e8e788d035afcacdd4faa1d71 leds: simatic-ipc-leds-gpio: Fix comment style in SPDX header
+92d82d76c842472b4d18579fefaba2ea96e61ef5 mfd: ipaq-micro: Use %*ph for printing hexdump of a small buffer
+c6408160314721c509169f6688ec53404ae290d5 dt-bindings: mfd: Add compatible for pm7550ba
+f493220a5f035af25b9afda3037ebaae656546a9 dt-bindings: mfd: Add compatible for pmx75
+44b25488f84791945780970433b3e48b413176a1 mfd: rk808: Make MFD_RK8XX tristate
+2ba17e4dd978ee5f7db6f66d0a27f26ebf491ecf mfd: atmel-hlcdc: Convert to devm_platform_ioremap_resource()
+662d6c9fcb491def4a6976a1452319109351a867 mfd: omap-usb-tll: Convert to devm_platform_ioremap_resource()
+c1b51f6dc9102e72c29d54e1a66508a3d6b97601 mfd: ti_am335x_tscadc: Use devm_platform_get_and_ioremap_resource()
+73b9e55925dd6e5848b6c90e33567086f3650cde mfd: exynos-lpass: Convert to devm_platform_ioremap_resource()
+c53cbaa2215eca9a695d091175e681c8ddf7f217 mfd: omap-usb-host: Convert to devm_platform_ioremap_resource()
+d7eb6b8cbdb2aa9cc9c748084d1b7f912771c43a mfd: stm32-timers: Use devm_platform_get_and_ioremap_resource()
+6f5a6418a0c4f08ea8c12eda70ee4ae0f0f42b94 mfd: hi655x-pmic: Convert to devm_platform_ioremap_resource()
+4e7cd8fc9e0ea62ccceb4b5e20e0d2dfc7efae18 dt-bindings: mfd: Convert STMPE to YAML schema
+b8b28b718ddd56e546d44107cf7c57f3a07d7efd mfd: Add module build support for RZ/G2L MTU3a
+91a98da3a95d101442d7e6dcc4c29b331e191596 dt-bindings: mfd: Add bindings for SAM9X75 LCD controller
+712b9706333509f851ecdc5c4dd22bfc3b18cd1e mfd: axp20x: Update to use maple tree register cache
+092545cc8e8e880f9fdfefec8d1660d7dbff54e4 dt-bindings: mfd: qcom,spmi-pmic: Reference pm8916 wcd analog codec schema
+113f9d8b863079e37c038092898c5deabc08f1cb dt-bindings: mfd: brcm: Drop unneeded quotes and use absolute /schemas path
+b4dcbfa82d1264f7c813b6fa4cdc63851daa9b86 mfd: cs47l15: Update to use maple tree register cache
+7814d7e4eac9ad7f87dd1a670feadd9caafd3713 mfd: cs47l24: Update to use maple tree register cache
+1ae7edc5cb666d6d382263d50d9a48cb8a6898e9 mfd: cs47l35: Update to use maple tree register cache
+e7c8dce6e5dc3f9963bc9762278f8db33770db95 mfd: cs47l85: Update to use maple tree register cache
+703458beace3c8530808371398dd147339f31c71 mfd: cs47l90: Update to use maple tree register cache
+5b6b74f62046d44269d3720fdfe5cc482392b99e mfd: cs47l92: Update to use maple tree register cache
+d635f7d7f1be3160291d22cb05148259c9fdfafd mfd: wm5102: Update to use maple tree register cache
+aad8ec37d158a35c2397a76964f9541fe3fd59b6 mfd: wm5110: Update to use maple tree register cache
+03665778ce02e9bf95ef18f2548cb6dfca01a347 mfd: wm8994: Update to use maple tree register cache
+8e3c1052f4fb404f7264059e706807de43f68a23 mfd: wm8997: Update to use maple tree register cache
+b90e33b6116afd3bf18f43d4b6d2858caa3c8640 mfd: wm8998: Update to use maple tree register cache
 
---===============5570772495677274566==--
+--===============5989272164108028168==--
