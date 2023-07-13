@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 13 Jul 2023 00:28:03 -0000
-Message-Id: <168920808310.23648.13595769899284038588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Jul 2023 00:33:27 -0000
+Message-Id: <168920840730.27279.14246799624598635380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/exynos-drm-fixes
-    old: 9bd9be5cbaf8a8faa175ef4fba04a5623281debe
-    new: db5d61886b43e816b4da4f69ea91694adb83889f
+  - ref: refs/heads/main
+    old: c5ec13e38af5527f69f647c46ce15ebaa6b35e6c
+    new: ba2274dcfda859b8a27193e68ad37bfe4da28ddc
     log: |
-         db5d61886b43e816b4da4f69ea91694adb83889f drm/exynos: fix a possible null-pointer dereference due to data race in exynos_drm_crtc_atomic_disable()
+         ba2274dcfda859b8a27193e68ad37bfe4da28ddc net: wwan: t7xx: Add AP CLDMA
          
