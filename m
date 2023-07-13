@@ -1,40 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Thu, 13 Jul 2023 06:51:41 -0000
-Message-Id: <168923110162.14182.10891770628828982879@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5571110138529639623=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Thu, 13 Jul 2023 06:52:32 -0000
+Message-Id: <168923115227.14588.17018792541326761986@gitolite.kernel.org>
+
+--===============5571110138529639623==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
-user: glaubitz
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/tags/sh-for-v6.5-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 6cb6d03c3cc3f576549ffb857616016191b96210
-  - ref: refs/tags/v6.4
-    old: 0000000000000000000000000000000000000000
-    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
-  - ref: refs/tags/v6.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
-  - ref: refs/tags/v6.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
-  - ref: refs/tags/v6.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 9632302b68e03c8579120884b22c4e4dc2340e43
-  - ref: refs/tags/v6.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
-  - ref: refs/tags/v6.4-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
-  - ref: refs/tags/v6.4-rc7
-    old: 0000000000000000000000000000000000000000
-    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
-  - ref: refs/tags/v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/heads/next/dt64
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    new: 1193001081e98d13c786fe0cae407cb747104cdc
+    log: |
+         a8cf500c42c751b992f5480c390d6ad2419472e0 arm64: dts: nuvoton: add missing cache properties
+         1193001081e98d13c786fe0cae407cb747104cdc arm64: dts: lg: add missing cache properties
+         
+
+--===============5571110138529639623==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1689231147 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1689231147-7fe447db56ed2192334d8b377ee452bab476eb26
+
+06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 1193001081e98d13c786fe0cae407cb747104cdc refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmSvnysQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/N4D/9D2RbXuN3YBPDezpATEC1GcFhaIdulXJ2j
+xh8cxIP0iG3u1+IW7HGR9Rzl+XSUaeDZ8YBnaxvCzmUMqbnIB+P91c+SJkn4fs+L
+yTFol59JVKc9d7pp2xwLpA0kXyOdxOz8gBoeruYAPjRkpLt0Cf4dmVIPUA/EqRoc
+ABpNQEZ38acNHfZZpj1JkP4/4e6CDuqi9xD2pstpiTBVHk5dy8/aYq0wD+HNlWXw
+BhjCJSK5QSbwv6xdIDhkvUpeYjkUGPOwm6t+4J3Naea5jA6ncH2vTZWsU4PvMyYJ
+/1UtJGGznYc64tyQrwfkDYfwtBKgxWneRDIaHKUUZNO4H5vsksKADfcoXCFieTs2
+6UIFWKAXqtBuHJV8XcVqYRaez3+Qg275XbUPwiDO+wkRtvyVWr2RHBDgnuP1H5Gg
+jRGtLHpCwzoxRpNrTyAqbNS43zD2IFYncapujct7CeB8UJLDfLizk2QsjjsDvr6e
+lRiL4vKawlQnZAXnO0TvFB3M2Qj+CMALJNbl8kGt2kYyFswkpiwza3eHWKrWatIP
+pPZ0FcQpVtAODqxvMUlrprLvjN0E5FDJgU+Cc6PHq/15WT34GkZaqbaFBqOmdg+x
+3dUT0HVUw6F+iZO6EORTutiAPsyTM4yfYkzkAIpD0B0nfTcX6hlWyJg/TGXzIaw1
+EnHZcBy7Aw==
+=PNQy
+-----END PGP SIGNATURE-----
+
+--===============5571110138529639623==--
