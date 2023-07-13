@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8223972844539758952=="
+Content-Type: multipart/mixed; boundary="===============3086262591618322987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 13 Jul 2023 18:28:34 -0000
-Message-Id: <168927291427.12591.8882626331223126820@gitolite.kernel.org>
+Date: Thu, 13 Jul 2023 18:28:37 -0000
+Message-Id: <168927291709.12675.12253627032496192259@gitolite.kernel.org>
 
---===============8223972844539758952==
+--===============3086262591618322987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/controller/resources
-    old: 860955d0db7d039f3d3081f3ab3d4eba11162edf
-    new: 188f46cac267b9b8f3201ed21d719a51946e1e34
-    log: revlist-860955d0db7d-188f46cac267.txt
+  - ref: refs/heads/controller/tegra194
+    old: 5d0844362f42b15fe0889050be174e88ff8c6a4a
+    new: 2955c3818f235ceda59140b26ac36f956937b657
+    log: revlist-5d0844362f42-2955c3818f23.txt
 
---===============8223972844539758952==
+--===============3086262591618322987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-860955d0db7d-188f46cac267.txt
+Content-Disposition: attachment; filename=revlist-5d0844362f42-2955c3818f23.txt
 
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
@@ -1046,9 +1049,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-da1e3277a8fe6bc0d368db7d3210e369566a47fb PCI: rcar-gen2: Use devm_platform_get_and_ioremap_resource()
-88f29abd249a1e2bd74206841963780f445226e9 PCI: v3: Use devm_platform_get_and_ioremap_resource()
-b1042a7caa02e4e52cd4ccf1c04c07e635fe7dd6 PCI: xgene-msi: Use devm_platform_get_and_ioremap_resource()
-188f46cac267b9b8f3201ed21d719a51946e1e34 PCI: imx6: Use devm_platform_get_and_ioremap_resource()
+2955c3818f235ceda59140b26ac36f956937b657 Revert "PCI: tegra194: Enable support for 256 Byte payload"
 
---===============8223972844539758952==--
+--===============3086262591618322987==--
