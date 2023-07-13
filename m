@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5147593002592462479=="
+Content-Type: multipart/mixed; boundary="===============5598442449757665504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Thu, 13 Jul 2023 09:02:32 -0000
-Message-Id: <168923895251.10615.4987204149805807503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Thu, 13 Jul 2023 09:03:25 -0000
+Message-Id: <168923900531.11007.15944854743854674311@gitolite.kernel.org>
 
---===============5147593002592462479==
+--===============5598442449757665504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
   - ref: refs/heads/for-next
-    old: 703b10801b445c2334f8628dfc38cae2d2137844
-    new: 54fbc0260c64a6386cbd88a7aff5b3ae4ceeff3c
-    log: revlist-703b10801b44-54fbc0260c64.txt
+    old: de649e7f5edb2e61dbd3d64deae44cb165e657ad
+    new: 0f5e4adb608c79bedd8ced30f9ffdcfa01c37459
+    log: revlist-de649e7f5edb-0f5e4adb608c.txt
 
---===============5147593002592462479==
+--===============5598442449757665504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-703b10801b44-54fbc0260c64.txt
+Content-Disposition: attachment; filename=revlist-de649e7f5edb-0f5e4adb608c.txt
 
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
+6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
+be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
 e62c63ffd06c376fcfd885c610d5228425627d7a MAINTAINERS: Add support for Xilinx versal watchdog
 f4dc5290c0289d6958e185deeba47ea91c2c9cfb dt-bindings: watchdog: restrict node name suffixes
@@ -1044,11 +1049,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-c44fdf8649dc635e1f11115cdc2b89eadc269bf6 ARM: dts: marvell: add missing space before {
-7184919b12de4c6d603759b088170a44b1b02956 arm64: dts: marvell: add missing space before {
-db6705c730ab19445739c50ff3f8ebc874b81da7 firmware: turris-mox-rwtm: Fix an error handling path in mox_get_board_info()
-58fe732052196777112fdba536fb9db5cdd42ec6 arm64: dts: marvell: Add NAND flash controller to AC5
-01a1f760aff02a99d17ecb506a1d8f208ad3716b Merge branch 'mvebu/dt64' into mvebu/for-next
-54fbc0260c64a6386cbd88a7aff5b3ae4ceeff3c Merge branch 'mvebu/drivers' into mvebu/for-next
+0f5e4adb608c79bedd8ced30f9ffdcfa01c37459 memblock: report failures when memblock_can_resize is not set
 
---===============5147593002592462479==--
+--===============5598442449757665504==--
