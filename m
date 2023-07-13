@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2277281896095170189=="
+Content-Type: multipart/mixed; boundary="===============2711203350451738175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Thu, 13 Jul 2023 18:57:25 -0000
-Message-Id: <168927464545.2470.2260112345928352260@gitolite.kernel.org>
+Date: Thu, 13 Jul 2023 18:59:40 -0000
+Message-Id: <168927478096.3397.8719585266351550790@gitolite.kernel.org>
 
---===============2277281896095170189==
+--===============2711203350451738175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/cpupower
-    old: 25891bc945f715d2a796fc60d0000d0aaf9582a1
-    new: d7de5d8e403a1293e10f8f59a1f2db320232c831
-    log: revlist-25891bc945f7-d7de5d8e403a.txt
+  - ref: refs/heads/vimc
+    old: ac9a78681b921877518763ba0e89202254349d1b
+    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============2277281896095170189==
+--===============2711203350451738175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25891bc945f7-d7de5d8e403a.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-06c2afb862f9.txt
 
+dbe245cdf5189e88d680379ed13901356628b650 iommufd: Call iopt_area_contig_done() under the lock
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
 a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
 8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
@@ -1049,6 +1050,5 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-d7de5d8e403a1293e10f8f59a1f2db320232c831 cpupower: Bump soname version
 
---===============2277281896095170189==--
+--===============2711203350451738175==--
