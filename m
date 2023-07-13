@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5620302193580154177=="
+Content-Type: multipart/mixed; boundary="===============9144337957071242885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 13 Jul 2023 18:08:59 -0000
-Message-Id: <168927173909.31223.15699345936597633447@gitolite.kernel.org>
+Date: Thu, 13 Jul 2023 18:09:30 -0000
+Message-Id: <168927177041.31471.16356885874419145407@gitolite.kernel.org>
 
---===============5620302193580154177==
+--===============9144337957071242885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/controller/apple
-    old: 328a16477027b48bffa3bbee895328c4db798eb9
-    new: d8650c0c2aa2e413594e4cb0faafa9958c1d7782
-    log: revlist-328a16477027-d8650c0c2aa2.txt
+  - ref: refs/heads/controller/iproc
+    old: 4ce7d88e7ad9ad47fa212f4a8024677bba2d0718
+    new: 8f1c517ccd378a41b8c4ac951b6793ad693dbfbc
+    log: revlist-4ce7d88e7ad9-8f1c517ccd37.txt
 
---===============5620302193580154177==
+--===============9144337957071242885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-328a16477027-d8650c0c2aa2.txt
+Content-Disposition: attachment; filename=revlist-4ce7d88e7ad9-8f1c517ccd37.txt
 
 20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
 a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
@@ -1049,6 +1049,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-d8650c0c2aa2e413594e4cb0faafa9958c1d7782 PCI: apple: Initialize pcie->nvecs before use
+8f1c517ccd378a41b8c4ac951b6793ad693dbfbc PCI: iproc: Use of_property_read_bool() for boolean properties
 
---===============5620302193580154177==--
+--===============9144337957071242885==--
