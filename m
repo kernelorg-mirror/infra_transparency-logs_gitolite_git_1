@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2459401975004023565=="
+Content-Type: multipart/mixed; boundary="===============5700875752634309577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 13 Jul 2023 20:23:38 -0000
-Message-Id: <168927981854.1358.1919300647500195613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 13 Jul 2023 20:23:44 -0000
+Message-Id: <168927982475.1507.6530570185862746000@gitolite.kernel.org>
 
---===============2459401975004023565==
+--===============5700875752634309577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 6657fcc91db9b01fcbc4f8de0659e10cabd7ce2f
     new: 2edd6419f2a224823534b260627c64c376735e00
     log: revlist-6657fcc91db9-2edd6419f2a2.txt
 
---===============2459401975004023565==
+--===============5700875752634309577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689279816 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1689279816-55c60ee90e2ec164b1aa25c3aada13b3ee3a6f15
+pusher C3F436CA30F5D8EB 1689279823 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689279822-08bd43096748ca85955a6e5838a09817358fa655
 
-6657fcc91db9b01fcbc4f8de0659e10cabd7ce2f 2edd6419f2a224823534b260627c64c376735e00 refs/heads/for-6.6
+6657fcc91db9b01fcbc4f8de0659e10cabd7ce2f 2edd6419f2a224823534b260627c64c376735e00 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSwXUgACgkQJNaLcl1U
-h9BLJQf8CJI/qg7s1r9sLvuEst50yOHobrWfW/qSKxszHBmX7FQbolfSvR5/Ie86
-YTQKdzwRjVmEQDouR9qElMudENYtnWZeT1mVddiQmq6kbvsBc2wAOQv9Lkgczm5h
-jbEQUQXVUZZ8B0c1uQjmg4CiYJDnLWezJ8Nj7HA2hc5pZLhJPGGaqh7LaJ1lGjr8
-ViMGzFjHAfSCM+zkGZJvybeOOrB9idWqZ1iMUBH6D6hJMXFnT5M9IajasZkMkniR
-6yQ0M/3VDmQQ1v0HKOcBbDKo9ogmzcZNmScCOd+LGPbh+I4T/xeFfPXLLowR5+lS
-EmisX1BWAYaNG4sXejRxQnkqvMhf/A==
-=6B/W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSwXU8ACgkQJNaLcl1U
+h9CiLwf/RmjlYlgQrQorARtpllW5/ZfbLQxqBGXVX9x1jqq4p4AH2QPChqpMuvRT
+/sp7Q1KOx+7pd7LZxaEJOMg1rKJN/Wj2aLYyLraokv91Fl2ohyvVdhjf5262IAmX
+M0y4wXJ6nJuVM6SCL3D31ozuY89Qqiv+wtrSSOYFt2AxfC7BabrCdN/QFKhzstak
+Igu4qutV0fr2CXKJLXjNbLO5kkxzKMCgug72X9cSrPE2EYtuhmriU5B9dV02VsVK
+cyQV6IFAKYcjzH8MlG6qvjgNRpHimf3TUencUa+zEVSbkpyJQY9k7PL3O3lQ6Uz6
+OYPnvIPsxtQEbtBsQZZlYNJf9as9aw==
+=GLsD
 -----END PGP SIGNATURE-----
 
---===============2459401975004023565==
+--===============5700875752634309577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ c05c32dd82a602e5b75c3e473e55e7b6325a1967 ASoC: adau7118: Update to use maple tre
 df43fba7c75545094639be42a85502634f075a19 ASoC: q6dsp: q6apm: make g_apm static
 2edd6419f2a224823534b260627c64c376735e00 ASoC: ad: Update Analog Devices drivers to maple tree
 
---===============2459401975004023565==--
+--===============5700875752634309577==--
