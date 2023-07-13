@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Thu, 13 Jul 2023 09:57:24 -0000
-Message-Id: <168924224414.31685.18067247705158492404@gitolite.kernel.org>
+Date: Thu, 13 Jul 2023 10:06:17 -0000
+Message-Id: <168924277786.5830.11077827762335151251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,16 @@ repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 757f8b3835c936a44c0f2c3f66bcd03eea96b661
+    old: 757f8b3835c936a44c0f2c3f66bcd03eea96b661
+    new: 17340c6c425fd0c29c75ee682742258955515a33
     log: |
-         fbe37a7afce21f33283869f5d79901b25537c385 ABI: sysfs-nvmem-cells: Expose cells through sysfs
-         681e18c0a0f200c27ee72e274e572d370e957a70 nvmem: core: Create all cells before adding the nvmem device
-         757f8b3835c936a44c0f2c3f66bcd03eea96b661 nvmem: core: Expose cells through sysfs
+         b7495ea1b534fa4d73e5132f05ecc79f5068aa22 dt-bindings: nvmem: fixed-cell: add compatible for MAC cells
+         e4ccbdc5f82463e014b6b9072f206f80326e61e9 nvmem: sunxi_sid: Convert to devm_platform_ioremap_resource()
+         37bda099309f2c7c5a75113f43baf1ec3feeee14 nvmem: brcm_nvram: Use devm_platform_get_and_ioremap_resource()
+         8584695d9ad95246e79d3470f97f16578eb3c2f0 nvmem: lpc18xx_otp: Convert to devm_platform_ioremap_resource()
+         b12a4928e60f0e683b1a8ccd317031de23a1679f nvmem: meson-mx-efuse: Convert to devm_platform_ioremap_resource()
+         c169b0d3f79a2c26cbb1233948ea374b7b7c8ec6 nvmem: rockchip-efuse: Use devm_platform_get_and_ioremap_resource()
+         0d7713aa08dbd96d37f1fc33610b2cfcff87fed2 nvmem: stm32-romem: Use devm_platform_get_and_ioremap_resource()
+         4156cae2936605e982ad671d1078d41edf79875b nvmem: qfprom: do some cleanup
+         17340c6c425fd0c29c75ee682742258955515a33 nvmem: uniphier: Use devm_platform_get_and_ioremap_resource()
          
