@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1095579179169653267=="
+Content-Type: multipart/mixed; boundary="===============6250756353286839311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 13 Jul 2023 18:45:45 -0000
-Message-Id: <168927394566.27149.9796898867946958292@gitolite.kernel.org>
+Date: Thu, 13 Jul 2023 18:46:13 -0000
+Message-Id: <168927397333.27411.5609638053262990068@gitolite.kernel.org>
 
---===============1095579179169653267==
+--===============6250756353286839311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
+  - ref: refs/heads/devel
     old: ac9a78681b921877518763ba0e89202254349d1b
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-ac9a78681b92-06c2afb862f9.txt
 
---===============1095579179169653267==
+--===============6250756353286839311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============1095579179169653267==--
+--===============6250756353286839311==--
