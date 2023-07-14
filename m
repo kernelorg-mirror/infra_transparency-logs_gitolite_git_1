@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 14 Jul 2023 14:52:57 -0000
-Message-Id: <168934637786.15684.17712404119754996240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 14 Jul 2023 15:01:44 -0000
+Message-Id: <168934690464.22039.17675454118705876584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-6.6/arm64/dt
-    old: d5b9d25d3fb6f63614ee00104f16e099e3497c65
-    new: 20515700cb11baf82687ccb4c34f64e7af5f4e6c
+  - ref: refs/heads/vfs.misc
+    old: 77b652535528770217186589d97261847f15f862
+    new: 6a8e1b3b709217dddb23502f1f592fc01086fd21
     log: |
-         20515700cb11baf82687ccb4c34f64e7af5f4e6c arm64: tegra: Update CPU OPP tables
-         
-  - ref: refs/heads/for-next
-    old: ce0b19be3ac9823681ae1e372139ddc51d561c96
-    new: e6a235bdf7124ab07a024ed3a84cb7450a304378
-    log: |
-         20515700cb11baf82687ccb4c34f64e7af5f4e6c arm64: tegra: Update CPU OPP tables
-         e6a235bdf7124ab07a024ed3a84cb7450a304378 Merge branch for-6.6/arm64/dt into for-next
+         6a8e1b3b709217dddb23502f1f592fc01086fd21 fs: Fix error checking for d_hash_and_lookup()
          
