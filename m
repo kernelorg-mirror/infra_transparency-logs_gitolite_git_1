@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 14 Jul 2023 06:38:29 -0000
-Message-Id: <168931670944.31010.15735840300525449307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 14 Jul 2023 07:34:37 -0000
+Message-Id: <168932007711.4893.17831007000137642803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 274b410c4100dc56f8696845f4652c00b659a8f7
-    new: 0ec1b5bea32bce719ebdab253462f9c9cb0aca3e
+  - ref: refs/heads/main
+    old: 5e1627cb43ddf1b24b92eb26f8d958a3f5676ccb
+    new: 9845217d60d01d151b45842ef2017a65e8f39f5a
     log: |
-         cc73ecc578e01f283dd3a4a0e265f33c8ab6be4e tpm: Do not remap from ACPI resources again for Pluton TPM
-         17222dfebab120c3c7503c9f0083964b81596320 tpm: remove redundant variable len
-         ebd84a0c773f16d61579df93c8553af7412ee91e tpm/tpm_tis: Disable interrupts for Lenovo L590 devices
-         5a29fb0d959a8b4d6e896954926fbada0e7dff3b tpm: make all 'class' structures const
-         0ec1b5bea32bce719ebdab253462f9c9cb0aca3e tpm,tpm_tis: Disable interrupts after 1000 unhandled IRQs
+         9845217d60d01d151b45842ef2017a65e8f39f5a net: dsa: ar9331: Use explict flags for regmap single read/write
          
