@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3642571117581527000=="
+Content-Type: multipart/mixed; boundary="===============7177565032572542582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 14 Jul 2023 15:22:11 -0000
-Message-Id: <168934813110.5010.11327172741567045607@gitolite.kernel.org>
+Date: Fri, 14 Jul 2023 15:22:45 -0000
+Message-Id: <168934816539.5308.15915384725486948919@gitolite.kernel.org>
 
---===============3642571117581527000==
+--===============7177565032572542582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.6/random_kmalloc
-    old: 633151adb573cb11eb56784a6e7c4504020c9faf
-    new: 24accc491cfd54fb6e009dfcdbf906330a96b0d0
+  - ref: refs/heads/for-next
+    old: 8db4dc46f163d804a835fab0d0e3f993566ad28e
+    new: 2ad1099bb36d3af498f2a1339846667755a940ba
     log: |
          24accc491cfd54fb6e009dfcdbf906330a96b0d0 Randomized slab caches for kmalloc()
+         2ad1099bb36d3af498f2a1339846667755a940ba Merge branch 'slab/for-6.6/random_kmalloc' into slab/for-next
          
 
---===============3642571117581527000==
+--===============7177565032572542582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1689348126 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1689348157 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1689348125-90b7f7c875ed974180987ebbb19d03beec0926fc
+nonce 1689348156-52948412b3d1da3edee1cd4454ec4ad796424c99
 
-633151adb573cb11eb56784a6e7c4504020c9faf 24accc491cfd54fb6e009dfcdbf906330a96b0d0 refs/heads/slab/for-6.6/random_kmalloc
+8db4dc46f163d804a835fab0d0e3f993566ad28e 2ad1099bb36d3af498f2a1339846667755a940ba refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmSxaB4ACgkQu+CwddJF
-iJoSNQf8CsogmQ3aEo5IOTJTTpUN2LdoFrisH7DS3uh44CWgnuSceD+9hiNV8Wff
-gk+FLrOGhMrQQWCu+fXa0f+DEVVDkTgP5EOuCmgWB+rKgGqwgJJVhUjT7JUTOZ/R
-bc9mmKlo/BIMRBws8rI9oiTZn6LSwvQVfJuovR4ZhA/wjujdYy3nxw0OgT97agr+
-UKxkxKYTDIbDqPZg+O2PkEbWkD1JBUgYgsKROIlefpHX3caXbjWcY0Gw82TsOX//
-pn+UL90uVR2X6wq7VRXYtFzqdpoRBN7wY29Z7qL/4DaFFK83v48uERuv+wHmNc0t
-4Lr/DuTxpuwkIawUUnzbZ8PMhF8K4g==
-=GrTE
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmSxaD0ACgkQu+CwddJF
+iJo59Af9FROGpO29fmcBvi3TNi3kdPUQOdRJGLqN4oBUO3VRHjc2iZMaZtB8knTp
+d9cMM6yc6c+toFNvEgB0GcGoSwWkfN/CeFb9rHZMvAfWKVFIYccEbeu3pqpOpAh3
+wH76S3Y88/Q0uAY1KGo6nFbc+9PK2Qi61GrWxaGVs8Q7Vw0ZAsK+8KcgqUmdtZFo
+ipHi23zoMwJmm5X1G2rqyqlJCMohsBTsTXCAAn5ehFZXO7Q2rPwZ258KSiKlDMl2
+QoTY0gCEjtaU7xPfR2uPskQ6s+u3ienXEzgCOTlO2jmBahYR3hUCQpOlBh5/qeNU
+1kkpfkFfwE3NmPQjb4A2IaRYY8JwNw==
+=fJhQ
 -----END PGP SIGNATURE-----
 
---===============3642571117581527000==--
+--===============7177565032572542582==--
