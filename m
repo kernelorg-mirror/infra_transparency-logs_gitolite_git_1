@@ -1,42 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5965742014521912719=="
+Content-Type: multipart/mixed; boundary="===============1716629846945075432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 14 Jul 2023 07:52:48 -0000
-Message-Id: <168932116860.19893.936719826066849294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 14 Jul 2023 07:58:49 -0000
+Message-Id: <168932152992.23678.16043702978947819734@gitolite.kernel.org>
 
---===============5965742014521912719==
+--===============1716629846945075432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 6963e463256e4a5fa1635b3636aa38b058668122
-    new: a8fbe1eeef700c64a819330b5e3476de9bbb318d
-    log: revlist-6963e463256e-a8fbe1eeef70.txt
+  - ref: refs/heads/slab/for-6.6/cleanup
+    old: 44f6a42d4935028ffd788e7cf9114e4a1f8d6d3a
+    new: 1662b6c2bb7e7502d6ae4b6aca4116e844a4277c
+    log: |
+         b06952cdbc7f01a761eb95e8b899633f4ae9334e mm/slub: remove redundant kasan_reset_tag() from freelist_ptr calculations
+         1662b6c2bb7e7502d6ae4b6aca4116e844a4277c mm/slub: remove freelist_dereference()
+         
 
---===============5965742014521912719==
+--===============1716629846945075432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6963e463256e-a8fbe1eeef70.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-90ef0a7b0622c62758b2638604927867775479ea net: phylink: add pcs_enable()/pcs_disable() methods
-aee6098822ed8a298ad817da8339ba4c7ea381fe net: phylink: add pcs_pre_config()/pcs_post_config() methods
-24699cc1ff3e633d7c3a0d3ef394243db11757ec net: phylink: add support for PCS link change notifications
-e6a45700e7e19b1c945ee56feab429ff8489370b net: mdio: add unlocked mdiobus and mdiodev bus accessors
-40da0c32c3fcb5bcb79068574ae60baaea78f3c4 net: dsa: mv88e6xxx: remove handling for DSA and CPU ports
-b92143d4420fde0e7f2ca1637362120177e03458 net: dsa: mv88e6xxx: add infrastructure for phylink_pcs
-05407b0ebc3932cf9a6010eb81168ba0b6c5e8ab net: dsa: mv88e6xxx: export mv88e6xxx_pcs_decode_state()
-4aabe35c385ce6c28613ab56b334b4a9521d62b7 net: dsa: mv88e6xxx: convert 88e6185 to phylink_pcs
-85764555442fad03b67ee91c066a49586cceef5d net: dsa: mv88e6xxx: convert 88e6352 to phylink_pcs
-e5b732a275f5fae0f1342fb8cf76de654cd51e50 net: dsa: mv88e6xxx: convert 88e639x to phylink_pcs
-d20acfdd3f88fc2a68897c202310194654988276 net: dsa: mv88e6xxx: cleanup after phylink_pcs conversion
-a8fbe1eeef700c64a819330b5e3476de9bbb318d Merge branch 'mv88e6xxx-phylink_pcs'
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1689321525 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1689321525-bb90648473cd38e5321cf350e8ff1356b2d84e0f
 
---===============5965742014521912719==--
+44f6a42d4935028ffd788e7cf9114e4a1f8d6d3a 1662b6c2bb7e7502d6ae4b6aca4116e844a4277c refs/heads/slab/for-6.6/cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmSxADUACgkQu+CwddJF
+iJpjKgf/fg2bEk/SpOS0QKhweCo4fp4wef7eGsCi880+LUrxhtu06Sg5EHU2W0RC
+1UWeIkItEQbfTXzOY5TPFwcnHavbgbLykr61INLoFbP74wBDpaW1a89T9BPLNbHh
+hgR/y+Hdc2Z5DxpkOjPK/vDzlqzNlt+GaRZ1kKCWQINM6bzZEKEE7r4T6XM/ByLE
+tiQobZs+Iv6EKY9vXQ4LoraBlmy3WXzFz1kWd6uJ0vHteSrFdLl1zSAMBnEkYJ0Y
+b0fFdO0McbThhLA0dKiNqqDVMCfLV6b5T8XDs7Juoh5YLhFfzOIttHJtxAOs1J/K
+fbKWPa+vAnuu1uOctjBjMdPXKXZDiA==
+=szc1
+-----END PGP SIGNATURE-----
+
+--===============1716629846945075432==--
