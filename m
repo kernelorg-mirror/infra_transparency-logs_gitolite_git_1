@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 14 Jul 2023 08:37:19 -0000
-Message-Id: <168932383911.20072.1349553234279325053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 14 Jul 2023 08:42:32 -0000
+Message-Id: <168932415295.24563.2323673405671724225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/execve.fs.binfmt.misc
-    old: 6ad9c82b3e3129793aa7e58e571875569e07a00b
-    new: 7fe689dad88ee5931974ffdb9068583b7c08c7c5
+  - ref: refs/heads/experimental
+    old: b580d62df0dae72e65cfbbb44fbd864831f59ae4
+    new: 1164eb680e4bfd2db28ec7b45f6923c8224882f5
     log: |
-         ffffd8cb246eac5f6d98fc6a532ed3c2973b7f42 binfmt_misc: enable sandboxed mounts
+         1164eb680e4bfd2db28ec7b45f6923c8224882f5 erofs-utils: introduce tarerofs
          
