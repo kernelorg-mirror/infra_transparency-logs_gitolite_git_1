@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8708991437752587251=="
+Content-Type: multipart/mixed; boundary="===============3802507428892181097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 14 Jul 2023 04:01:23 -0000
-Message-Id: <168930728362.13041.2755853655741935565@gitolite.kernel.org>
+Date: Fri, 14 Jul 2023 04:01:29 -0000
+Message-Id: <168930728958.13171.18151298697665171162@gitolite.kernel.org>
 
---===============8708991437752587251==
+--===============3802507428892181097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 1cd0e7715cad848017e48033772791e8b9ee2932
     new: def3833fc6022c7f23bd4fd66ba5ed65c6b23272
     log: revlist-1cd0e7715cad-def3833fc602.txt
 
---===============8708991437752587251==
+--===============3802507428892181097==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aa5513f5d95f6b5311de859f8f466a09863bedf6 net: stmmac: replace the ext_snapshot_e
 9d0c0d5ebd635f914ab2ab691b68e8754fbe0a57 net: stmmac: replace the en_tx_lpi_clockgating field with a flag
 def3833fc6022c7f23bd4fd66ba5ed65c6b23272 Merge branch 'net-stmmac-replace-boolean-fields-in-plat_stmmacenet_data-with-flags'
 
---===============8708991437752587251==--
+--===============3802507428892181097==--
