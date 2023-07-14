@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 14 Jul 2023 14:11:56 -0000
-Message-Id: <168934391645.18912.2767536364884336516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 14 Jul 2023 14:30:25 -0000
+Message-Id: <168934502598.31772.13687965389158598148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 7418c5fd3c55f0667d5c36f8d1bfb5d2e9488787
-    new: b736f07e2ed490b5e7b71fb5b8937c7b5949c1cd
+  - ref: refs/heads/waitid
+    old: 569b4fccb0941a3301321a07c66f7a3ad82dfe42
+    new: f949b8380988c0f1b433351bc6b3ef20d02da764
     log: |
-         b736f07e2ed490b5e7b71fb5b8937c7b5949c1cd netdev: relax requirement for OWE AKM in assoc reply
+         c8848d401929a2ca1dee3c52f491d3d083b29c8b liburing.h: add `io_uring_prep_waitid`
+         ec6a2349c1ceb8942d6cd2095eadda56731607de man: add man page for `IORING_OP_WAITID`
+         f949b8380988c0f1b433351bc6b3ef20d02da764 Merge branch 'waitid2' of https://github.com/CarterLi/liburing into waitid
          
