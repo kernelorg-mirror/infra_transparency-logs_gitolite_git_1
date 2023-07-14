@@ -1,40 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4783156191199490820=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 14 Jul 2023 05:45:13 -0000
-Message-Id: <168931351377.25384.932007610890822242@gitolite.kernel.org>
-
---===============4783156191199490820==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 14 Jul 2023 06:00:28 -0000
+Message-Id: <168931442827.3400.3975713531090297377@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: e04047a9540dbab271f6a42d228e31b61c79aa48
-    new: d154eac138f4c05dab60fa22225e585f662c182b
-    log: revlist-e04047a9540d-d154eac138f4.txt
-
---===============4783156191199490820==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e04047a9540d-d154eac138f4.txt
-
-6b0fd355e9572f4db52880e63e0bc74a2a3bfd84 arm64: dts: qcom: sdm850-c630: add missing panel supply
-7e1f024ef0d1da456f61d00f01dc3287ede915b3 arm64: dts: qcom: pm6150l: Add missing short interrupt
-9a4ac09db3c7413e334b4abd6b2f6de8930dd781 arm64: dts: qcom: pm660l: Add missing short interrupt
-4d77b639531fd85b84a7079c3369908dfaddf8b2 arm64: dts: qcom: pmi8950: Add missing OVP interrupt
-8db94432690371b1736e9a2566a9b3d8a73d5a97 arm64: dts: qcom: pmi8994: Add missing OVP interrupt
-e4322bb818bbcd36b441de9880fa4ac911a5eb51 arm64: dts: qcom: sc8180x: Add missing 'cache-unified' to L3
-2bc06b7604d214807918dea810b56e0840aa7ba3 arm64: dts: qcom: c630: add panel bridge 1p2 regulator
-443042bec49e896705bbfd1969729c9bd69e194f arm64: dts: qcom: c630: add debug uart
-2c2f83d9c32ea6e58ad30d88f1edfa67165f151b arm64: dts: qcom: sdm850-*: fix uart6 aliases
-d154eac138f4c05dab60fa22225e585f662c182b Merge branches 'arm64-defconfig-for-6.6', 'arm64-fixes-for-6.5', 'arm64-for-6.6', 'clk-for-6.6', 'drivers-for-6.6' and 'dts-for-6.6' into for-next
-
---===============4783156191199490820==--
+  - ref: refs/heads/for-linus
+    old: 645e583d2689a1dd2163da28a7789b4d9febf316
+    new: 69ea4c9d02b7947cdd612335a61cc1a02e544ccd
+    log: |
+         69ea4c9d02b7947cdd612335a61cc1a02e544ccd ALSA: hda/realtek - remove 3k pull low procedure
+         
+  - ref: refs/heads/master
+    old: 60aa772606d276df837cfbe6d04b2540dc87d943
+    new: 071ea77b608dc556a970014562cc99f48685906b
+    log: |
+         69ea4c9d02b7947cdd612335a61cc1a02e544ccd ALSA: hda/realtek - remove 3k pull low procedure
+         071ea77b608dc556a970014562cc99f48685906b Merge branch 'for-linus'
+         
