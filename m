@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3846669221219689259=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 14 Jul 2023 22:30:42 -0000
-Message-Id: <168937384287.25462.16322994255592514311@gitolite.kernel.org>
-
---===============3846669221219689259==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 14 Jul 2023 22:31:19 -0000
+Message-Id: <168937387926.25798.4880709542483482712@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.6
-    old: 75e308ffc4f0d36b895f1110ece8b77d4116fdb1
-    new: 749396cb29a7d82cb5e324bf61be3fc948d97141
+  - ref: refs/heads/for-linus
+    old: bb0d7140a9fe8f16a71042a8b72adebff4beb7c0
+    new: 2aa892b695394e08d2862ac7861b2d0d003dd4c0
+    log: |
+         2aa892b695394e08d2862ac7861b2d0d003dd4c0 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 18ce29c91557cb5c7d689ae6c615f9738c5983e6
+    new: abe075e6c87fbe6e7101944d7efe7de8f2637e83
     log: |
          749396cb29a7d82cb5e324bf61be3fc948d97141 spi: Explicitly include correct DT includes
+         2aa892b695394e08d2862ac7861b2d0d003dd4c0 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         977b1396b4584e9ea1ca1c394c45be75cf929d70 Merge branch 'spi-linus' into spi-next
+         abe075e6c87fbe6e7101944d7efe7de8f2637e83 Merge remote-tracking branch 'spi/for-6.6' into spi-next
          
-
---===============3846669221219689259==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1689373841 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1689373840-50d6477c61c7f4078cbc6c60e25a86976fcc8a97
-
-75e308ffc4f0d36b895f1110ece8b77d4116fdb1 749396cb29a7d82cb5e324bf61be3fc948d97141 refs/heads/spi-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmSxzJEACgkQJNaLcl1U
-h9CbBwf+PlqnzaGIWU9AorngTdDKz/fEFyH+6DLAsjbKx4KZx+eBu9EZpPUR7wAZ
-HOjJkSB+NFeI7tTH73al+CbvKAr29TkhG0LpUhh7YLhUH9FeNis70jXkRdk6ixBF
-5ebmbMavUn3jUpdxIB3E+2IB4DvAP2jfX3fwNG+b+y8DJQN1lGnCa3YYnbF6qiDS
-ohYGRTJxdOD38dXD0G/K26D6s5p0DzptftJDLWPQiLz1qnjXAMdgY/AoVso4UKwJ
-gbyOhLwytkzWx91iSVcFhEAmYbSIQPO8niqOkegWCC/PVd4aqrzAuhtAtpXex1R2
-4gYpO78KXOQmyt/05vjqIO/BrLrfyg==
-=43aB
------END PGP SIGNATURE-----
-
---===============3846669221219689259==--
