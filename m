@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 14 Jul 2023 10:26:16 -0000
-Message-Id: <168933037672.16484.7944015454601490446@gitolite.kernel.org>
+Date: Fri, 14 Jul 2023 10:45:16 -0000
+Message-Id: <168933151678.30765.16177478843917794181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,14 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
   - ref: refs/heads/platform-drivers-x86-simatic-ipc
-    old: 3dd276705ca9fa9b9dca21a707c63cf0c7bd84e3
-    new: d5cabf677df447f27e07b0fbfaaeabc09124423b
+    old: d5cabf677df447f27e07b0fbfaaeabc09124423b
+    new: 161c6512536100ae4919032ef6f1132621794e01
     log: |
-         58855c91c77becb812dde3d39e0b2d090c76eea3 platform/x86: simatic-ipc: add CMOS battery monitoring
-         c85387f9cfc0033c95fff89edecd767f7c430e75 platform/x86: simatic-ipc: drop PCI runtime depends and header
-         8d6dc554b502350b5586532ac6d2bf4343aaa39c platform/x86: simatic-ipc: add another model
-         46fd56d75015f31b1f883ac3347fecb8471aa3d9 platform/x86: simatic-ipc: add auto-loading of hwmon modules
-         d5cabf677df447f27e07b0fbfaaeabc09124423b platform/x86: simatic-ipc: use extra module loading for watchdog
+         1b3aa9701bd2975f7e08aac6f13fbd75d1df8eac platform/x86: simatic-ipc: add another model BX-21A
+         15fe994ee53a0093f4f7771100cd4ca9c1597748 watchdog: simatic-ipc-wdt: make IO region access of one model muxed
+         ad90535e51415fb636054649b5894447a984496e platform/x86: simatic-ipc: add CMOS battery monitoring
+         0c38d051af1e254ac90d19c208657ac241b32f47 platform/x86: simatic-ipc: drop PCI runtime depends and header
+         196b479c2c4eed08ba07655f8d17f388111955d0 platform/x86: simatic-ipc: add another model
+         32ce0f4cdecc1ee383a8f065aa66268a4c69ee40 platform/x86: simatic-ipc: add auto-loading of hwmon modules
+         161c6512536100ae4919032ef6f1132621794e01 platform/x86: simatic-ipc: use extra module loading for watchdog
          
