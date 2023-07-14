@@ -1,247 +1,164 @@
-Content-Type: multipart/mixed; boundary="===============0029792311936424329=="
+Content-Type: multipart/mixed; boundary="===============1492274426731009576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Fri, 14 Jul 2023 14:37:42 -0000
-Message-Id: <168934546295.5000.13740484973134116160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+Date: Fri, 14 Jul 2023 14:44:11 -0000
+Message-Id: <168934585117.9033.7252197247030665020@gitolite.kernel.org>
 
---===============0029792311936424329==
+--===============1492274426731009576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
 user: djwong
 changes:
-  - ref: refs/heads/iomap-fixes-6.5
-    old: 8cd6b4530630fc7cac00894b422cd7c9bf4d41fc
-    new: 52fc9968f53963632ebe379f0c7839375b1e835a
-    log: |
-         0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-         f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-         fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-         addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-         52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-         
-  - ref: refs/heads/kernel-fsfreeze-6.6
-    old: 1f89614adb148baf30aa1db0290efd6bf9358c80
-    new: 4c1aa5442891b695981f27421c0f21101fb0a539
-    log: revlist-1f89614adb14-4c1aa5442891.txt
-  - ref: refs/heads/large-folios-dirty-tracking-6.6
-    old: ac8f7fbe28b889dc4bc84828cd945ba549f45814
-    new: a4f342ff7bb314816813491e9873cb50b46811a1
-    log: revlist-ac8f7fbe28b8-a4f342ff7bb3.txt
+  - ref: refs/heads/for-next
+    old: e05d65121e7dc97a2b010d87514187fec28e4eb4
+    new: 10139046b4b95c53befd409f7ea91e3c7777771e
+    log: revlist-e05d65121e7d-10139046b4b9.txt
+  - ref: refs/heads/libxfs-fixes-6.5
+    old: a2560528b853fba0d1de3e8805e93b10b5e4de25
+    new: 3fa11197893a7c06192a03b353ee2413caa15b13
+    log: revlist-a2560528b853-3fa11197893a.txt
+  - ref: refs/heads/libxfs-sync-6.5
+    old: 812b76a3c0f32964b5495caa3f2a59ef0bcdcf06
+    new: 5b193d5b6b91430dc861d4494e99d42c6ba4fb02
+    log: revlist-812b76a3c0f3-5b193d5b6b91.txt
+  - ref: refs/tags/origin/for-next_2023-07-14
+    old: 0000000000000000000000000000000000000000
+    new: 42c26655204dbe1d40ddd58e40bc9f85f39c3e57
+  - ref: refs/tags/libxfs-sync-6.5_2023-07-14
+    old: 0000000000000000000000000000000000000000
+    new: ddd02e8f3a7dcbcce889ab7f734659fa6f1392c4
   - ref: refs/heads/ubsan-fixes-6.5
-    old: 404ee08ac84210f118118caffd6be368d1e940df
-    new: fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b
-    log: |
-         0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-         f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-         fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-         
-  - ref: refs/heads/write-large-folios-6.6
-    old: 336fc6113c9fe70416c7ac4c2dd2f1235a1bf02c
-    new: a95b98107d0e25fa1b42006a96bcf06b34403c5f
-    log: revlist-336fc6113c9f-a95b98107d0e.txt
-  - ref: refs/tags/iomap-fixes-6.5_2023-07-14
-    old: af94668639352d61de810d36a9d0705830511f80
-    new: 62f8f8a92352eb36517d070090429978106aa76c
-    log: |
-         0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-         f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-         fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-         addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-         52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-         
-  - ref: refs/tags/kernel-fsfreeze-6.6_2023-07-14
-    old: 09b029e9d1a871fbd69e15b14974cc4b1028f1f3
-    new: 0f9e911395424832ba5d6f396e2db8fe1b64fb43
-    log: revlist-09b029e9d1a8-0f9e91139542.txt
-  - ref: refs/tags/large-folios-dirty-tracking-6.6_2023-07-14
-    old: f7889d78d2e46c721bca4594b710c2eaaaefbb8c
-    new: 1521965833fb28555037af4d65082d6ec2259068
-    log: revlist-f7889d78d2e4-1521965833fb.txt
+    old: 0000000000000000000000000000000000000000
+    new: 6d5f69d9c7a58d1ce049b5b6060c8adf3dc99e9b
   - ref: refs/tags/ubsan-fixes-6.5_2023-07-14
-    old: c5dde0a4de9daefaa6362353c8dbdf3a31ad3781
-    new: bd862adaf7a8bedb901a0d7ac0c137dcafe8dc39
-    log: |
-         0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-         f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-         fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-         
-  - ref: refs/tags/write-large-folios-6.6_2023-07-14
-    old: 09a8b6f50460ecc45c05a878b16387ddbfc17b66
-    new: 67578a91ce9a159895e6e0f79d4829342a1aad6c
-    log: revlist-09a8b6f50460-67578a91ce9a.txt
+    old: 0000000000000000000000000000000000000000
+    new: 87499afc3a5f6d49131fe75368fe437a081bbed1
+  - ref: refs/tags/libxfs-fixes-6.5_2023-07-14
+    old: 0000000000000000000000000000000000000000
+    new: f16b6295c1b6dea01e9d995f8766df1bcd57d6ee
 
---===============0029792311936424329==
+--===============1492274426731009576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f89614adb14-4c1aa5442891.txt
+Content-Disposition: attachment; filename=revlist-e05d65121e7d-10139046b4b9.txt
 
-0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-9f4381ce173eb4b8c52ec9cac44c7b94da5de3d7 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-fcfd6bb76ed5db26f3e7e8420a44d0c8ba9a60ab iov_iter: Add copy_folio_from_iter_atomic()
-283ca40a9c05f335d6762490520325fd8b4f1f85 iomap: Remove large folio handling in iomap_invalidate_folio()
-ca4e4c8690ceafee34016e2525ed9e6a16f43991 doc: Correct the description of ->release_folio
-961dac9d7b35c9d66cbf1b1c2d54bb43b7ef4250 iomap: Remove unnecessary test from iomap_release_folio()
-d7f3871c7addb498948966c04334d687fdc8b48b filemap: Add fgf_t typedef
-06a859343aaa831473a20cf63698dce2a74f8a48 filemap: Allow __filemap_get_folio to allocate large folios
-1f37161d529e48878eca051b6baf0ffc0f2d7128 iomap: Create large folios in the buffered write path
-a95b98107d0e25fa1b42006a96bcf06b34403c5f iomap: Copy larger chunks from userspace
-d2a3b14ee327d03037d7940b928ce076ebccf93b iomap: Rename iomap_page to iomap_folio_state and others
-a08d7c261717f7ffc493e2a9c1c58a1bfaf449c0 iomap: Drop ifs argument from iomap_set_range_uptodate()
-159b7b9a22e7b3028314cbb9f2c51aa26cef6e38 iomap: Add some uptodate state handling helpers for ifs state bitmap
-b1505226e2ba7ec21a5896fd679a936650a66fe6 iomap: Fix possible overflow condition in iomap_write_delalloc_scan
-9e5b7e4e483e7e792194bb4c359185a00aa7ab98 iomap: Use iomap_punch_t typedef
-2750827bbc43bc92fec629c2abaa5145458fae22 iomap: Refactor iomap_write_delalloc_punch() function out
-2bd3c91978a8d67f7b47b8619ec0ca4d2429c8f4 iomap: Allocate ifs in ->write_begin() early
-f975a049b267b983aaab1b4caa5c4f764742c571 iomap: Add per-block dirty state tracking to improve performance
-a4f342ff7bb314816813491e9873cb50b46811a1 Re: iomap: Add per-block dirty state tracking to improve performance
-d31c92effce5f6619e2550fab0eac8d7147cff0b fs: distinguish between user initiated freeze and kernel initiated freeze
-530b17e3af7fb065d9a1a6f6f53abb114a885f3a fs: wait for partially frozen filesystems
-4c1aa5442891b695981f27421c0f21101fb0a539 xfs: stabilize fs summary counters for online fsck
+0babf94ff560a53b92586a2fcff88380e9d39893 libxcmd: add return value check for dynamic memory function
+965f91091e4442ea74132aa0c3c6795d922bda8c mkfs: fix man's default value for sparse option
+67f541056f4dd3ba1ccc5d11464d67afdab0f2a3 xfs_repair: don't spray correcting imap all by itself
+2618b37ae9db06aecb4db74113d0eed74202370b xfs_repair: don't log inode problems without printing resolution
+d159552bbb05de6998388b960f50e5e0012828ea xfs_repair: fix messaging when shortform_dir2_junk is called
+beb78d7558ad8cd2eaa0e60dcb42d2de2b90be80 xfs_repair: fix messaging in longform_dir2_entry_check_data
+1e12a0751b99efd48cda501258e16f00bef9d13d xfs_repair: fix messaging when fixing imap due to sparse cluster
+aca02624815ca47c6fd4cafdb0aeaad641ca1915 xfs_repair: don't add junked entries to the rebuilt directory
+dafa78c9ad8ce5b7cb836b0fb16d36b63fd6be69 xfs_repair: always perform extended xattr checks on uncertain inodes
+4a16ce6837ce6f41f11dc51783470d00400a85bd xfs_repair: check low keys of rmap btrees
+ad662cc1734675623a484e111fa2422a08ee45d6 xfs_repair: warn about unwritten bits set in rmap btree keys
+10139046b4b95c53befd409f7ea91e3c7777771e xfs_db: expose the unwritten flag in rmapbt keys
 
---===============0029792311936424329==
+--===============1492274426731009576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac8f7fbe28b8-a4f342ff7bb3.txt
+Content-Disposition: attachment; filename=revlist-a2560528b853-3fa11197893a.txt
 
-0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-9f4381ce173eb4b8c52ec9cac44c7b94da5de3d7 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-fcfd6bb76ed5db26f3e7e8420a44d0c8ba9a60ab iov_iter: Add copy_folio_from_iter_atomic()
-283ca40a9c05f335d6762490520325fd8b4f1f85 iomap: Remove large folio handling in iomap_invalidate_folio()
-ca4e4c8690ceafee34016e2525ed9e6a16f43991 doc: Correct the description of ->release_folio
-961dac9d7b35c9d66cbf1b1c2d54bb43b7ef4250 iomap: Remove unnecessary test from iomap_release_folio()
-d7f3871c7addb498948966c04334d687fdc8b48b filemap: Add fgf_t typedef
-06a859343aaa831473a20cf63698dce2a74f8a48 filemap: Allow __filemap_get_folio to allocate large folios
-1f37161d529e48878eca051b6baf0ffc0f2d7128 iomap: Create large folios in the buffered write path
-a95b98107d0e25fa1b42006a96bcf06b34403c5f iomap: Copy larger chunks from userspace
-d2a3b14ee327d03037d7940b928ce076ebccf93b iomap: Rename iomap_page to iomap_folio_state and others
-a08d7c261717f7ffc493e2a9c1c58a1bfaf449c0 iomap: Drop ifs argument from iomap_set_range_uptodate()
-159b7b9a22e7b3028314cbb9f2c51aa26cef6e38 iomap: Add some uptodate state handling helpers for ifs state bitmap
-b1505226e2ba7ec21a5896fd679a936650a66fe6 iomap: Fix possible overflow condition in iomap_write_delalloc_scan
-9e5b7e4e483e7e792194bb4c359185a00aa7ab98 iomap: Use iomap_punch_t typedef
-2750827bbc43bc92fec629c2abaa5145458fae22 iomap: Refactor iomap_write_delalloc_punch() function out
-2bd3c91978a8d67f7b47b8619ec0ca4d2429c8f4 iomap: Allocate ifs in ->write_begin() early
-f975a049b267b983aaab1b4caa5c4f764742c571 iomap: Add per-block dirty state tracking to improve performance
-a4f342ff7bb314816813491e9873cb50b46811a1 Re: iomap: Add per-block dirty state tracking to improve performance
+03f97ae49b9cbeae21d14deabfa88c877d1cfeb8 libxfs: test the ascii case-insensitive hash
+cb8c70b017e30d4004373300bce488a9687166ac xfs_db: move obfuscate_name assertion to callers
+10a01bcdd748773c185255516a72e75a71295bd4 xfs_db: fix metadump name obfuscation for ascii-ci filesystems
+5309ddc05796df78c8cd96c27232b2b3b1b1fc6a mkfs.xfs.8: warn about the version=ci feature
+6a5285ec1763e0ee0e04d8c135ac995d96fbe34e mkfs: deprecate the ascii-ci feature
+2b686ab313478f3714bb5be73b636abd01453131 xfs_db: hoist name obfuscation code out of metadump.c
+c51c8c857999615a23c27a038099070ab2fab7ea xfs_db: create dirents and xattrs with colliding names
+47560612f1213c2159bb4bbe4244df4ffef4d1e0 xfs_db: make the hash command print the dirent hash
+4d3226b6ec5af8a114280ac9c745c29235928f13 libxfs: deferred items should call xfs_perag_intent_{get,put}
+c6b593ee4398b747856a1d9d0a2436b34d0d447a libxfs: port list_cmp_func_t to userspace
+05a3a3895651153c3123fc28c1f8fd30a9ca9685 libxfs: port transaction precommit hooks to userspace
+8b2a40fffad68e881398f17dabd2801d8b20fcd0 xfs: restore allocation trylock iteration
+a565e345614b6b2839fd1088dacf5957309752e2 xfs: fix AGF vs inode cluster buffer deadlock
+daa2d8205208dfafaa8dc29310f93f6c94803e24 xfs: fix agf/agfl verification on v4 filesystems
+629d6b3df786a8a241b2cd72fb5885d66ea143d8 xfs: validity check agbnos on the AGFL
+cd3e5d3cf6cf33cbddbac364183c1aebb1352378 xfs: validate block number being freed before adding to xefi
+987373623e127fe476d29c81625d288d7a418f95 po: Fix invalid .de translation format string
+0babf94ff560a53b92586a2fcff88380e9d39893 libxcmd: add return value check for dynamic memory function
+965f91091e4442ea74132aa0c3c6795d922bda8c mkfs: fix man's default value for sparse option
+67f541056f4dd3ba1ccc5d11464d67afdab0f2a3 xfs_repair: don't spray correcting imap all by itself
+2618b37ae9db06aecb4db74113d0eed74202370b xfs_repair: don't log inode problems without printing resolution
+d159552bbb05de6998388b960f50e5e0012828ea xfs_repair: fix messaging when shortform_dir2_junk is called
+beb78d7558ad8cd2eaa0e60dcb42d2de2b90be80 xfs_repair: fix messaging in longform_dir2_entry_check_data
+1e12a0751b99efd48cda501258e16f00bef9d13d xfs_repair: fix messaging when fixing imap due to sparse cluster
+aca02624815ca47c6fd4cafdb0aeaad641ca1915 xfs_repair: don't add junked entries to the rebuilt directory
+dafa78c9ad8ce5b7cb836b0fb16d36b63fd6be69 xfs_repair: always perform extended xattr checks on uncertain inodes
+4a16ce6837ce6f41f11dc51783470d00400a85bd xfs_repair: check low keys of rmap btrees
+ad662cc1734675623a484e111fa2422a08ee45d6 xfs_repair: warn about unwritten bits set in rmap btree keys
+10139046b4b95c53befd409f7ea91e3c7777771e xfs_db: expose the unwritten flag in rmapbt keys
+8b48dfe520eae617deb2a2246991eb8a14c1d7f9 xfs: fix ag count overflow during growfs
+379c17752ada816354312761929812fa22471286 xfs: remove redundant initializations of pointers drop_leaf and save_leaf
+4823ac895ca5d28ff3cdf4db59ca227aca48be81 xfs: use deferred frees for btree block freeing
+2fc02ed392dfb9af2e40361c74b404719745abe3 xfs: pass alloc flags through to xfs_extent_busy_flush()
+6afb076ec5343d11af6e353367ed6ede261e5268 xfs: don't block in busy flushing when freeing extents
+29a5ce31a290d22f9dfb49f877ae4e601decbf17 xfs: journal geometry is not properly bounds checked
+5dec4cccc73df202f07efa79f9784e42b14a4b88 xfs: AGF length has never been bounds checked
+b6de92be804ec4525779f404cf33035be9f37b24 xfs: fix bounds check in xfs_defer_agfl_block()
+2fb5713d37f4f0c5c037cf11b06a57b8765b2b3d xfs: AGI length should be bounds checked
+6f734027230b126ddd708bd181d827c0f85e4339 xfs: fix xfs_btree_query_range callers to initialize btree rec fully
+5b193d5b6b91430dc861d4494e99d42c6ba4fb02 overflow: Add struct_size_t() helper
+cee3013bc769feaea7f218c942dd5c0454b7a463 xfs: convert flex-array declarations in struct xfs_attrlist*
+c7840782747ad5071e2ad16ff36706cdfa3d8637 xfs: convert flex-array declarations in xfs attr leaf blocks
+6d5f69d9c7a58d1ce049b5b6060c8adf3dc99e9b xfs: convert flex-array declarations in xfs attr shortform objects
+21c38ade3322770b7da51993b24e470deec321a3 libfrog: fix overly sleep workqueues
+3fa11197893a7c06192a03b353ee2413caa15b13 libxfs: use XFS_IGET_CREATE when creating new files
 
---===============0029792311936424329==
+--===============1492274426731009576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-336fc6113c9f-a95b98107d0e.txt
+Content-Disposition: attachment; filename=revlist-812b76a3c0f3-5b193d5b6b91.txt
 
-0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-9f4381ce173eb4b8c52ec9cac44c7b94da5de3d7 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-fcfd6bb76ed5db26f3e7e8420a44d0c8ba9a60ab iov_iter: Add copy_folio_from_iter_atomic()
-283ca40a9c05f335d6762490520325fd8b4f1f85 iomap: Remove large folio handling in iomap_invalidate_folio()
-ca4e4c8690ceafee34016e2525ed9e6a16f43991 doc: Correct the description of ->release_folio
-961dac9d7b35c9d66cbf1b1c2d54bb43b7ef4250 iomap: Remove unnecessary test from iomap_release_folio()
-d7f3871c7addb498948966c04334d687fdc8b48b filemap: Add fgf_t typedef
-06a859343aaa831473a20cf63698dce2a74f8a48 filemap: Allow __filemap_get_folio to allocate large folios
-1f37161d529e48878eca051b6baf0ffc0f2d7128 iomap: Create large folios in the buffered write path
-a95b98107d0e25fa1b42006a96bcf06b34403c5f iomap: Copy larger chunks from userspace
+03f97ae49b9cbeae21d14deabfa88c877d1cfeb8 libxfs: test the ascii case-insensitive hash
+cb8c70b017e30d4004373300bce488a9687166ac xfs_db: move obfuscate_name assertion to callers
+10a01bcdd748773c185255516a72e75a71295bd4 xfs_db: fix metadump name obfuscation for ascii-ci filesystems
+5309ddc05796df78c8cd96c27232b2b3b1b1fc6a mkfs.xfs.8: warn about the version=ci feature
+6a5285ec1763e0ee0e04d8c135ac995d96fbe34e mkfs: deprecate the ascii-ci feature
+2b686ab313478f3714bb5be73b636abd01453131 xfs_db: hoist name obfuscation code out of metadump.c
+c51c8c857999615a23c27a038099070ab2fab7ea xfs_db: create dirents and xattrs with colliding names
+47560612f1213c2159bb4bbe4244df4ffef4d1e0 xfs_db: make the hash command print the dirent hash
+4d3226b6ec5af8a114280ac9c745c29235928f13 libxfs: deferred items should call xfs_perag_intent_{get,put}
+c6b593ee4398b747856a1d9d0a2436b34d0d447a libxfs: port list_cmp_func_t to userspace
+05a3a3895651153c3123fc28c1f8fd30a9ca9685 libxfs: port transaction precommit hooks to userspace
+8b2a40fffad68e881398f17dabd2801d8b20fcd0 xfs: restore allocation trylock iteration
+a565e345614b6b2839fd1088dacf5957309752e2 xfs: fix AGF vs inode cluster buffer deadlock
+daa2d8205208dfafaa8dc29310f93f6c94803e24 xfs: fix agf/agfl verification on v4 filesystems
+629d6b3df786a8a241b2cd72fb5885d66ea143d8 xfs: validity check agbnos on the AGFL
+cd3e5d3cf6cf33cbddbac364183c1aebb1352378 xfs: validate block number being freed before adding to xefi
+987373623e127fe476d29c81625d288d7a418f95 po: Fix invalid .de translation format string
+0babf94ff560a53b92586a2fcff88380e9d39893 libxcmd: add return value check for dynamic memory function
+965f91091e4442ea74132aa0c3c6795d922bda8c mkfs: fix man's default value for sparse option
+67f541056f4dd3ba1ccc5d11464d67afdab0f2a3 xfs_repair: don't spray correcting imap all by itself
+2618b37ae9db06aecb4db74113d0eed74202370b xfs_repair: don't log inode problems without printing resolution
+d159552bbb05de6998388b960f50e5e0012828ea xfs_repair: fix messaging when shortform_dir2_junk is called
+beb78d7558ad8cd2eaa0e60dcb42d2de2b90be80 xfs_repair: fix messaging in longform_dir2_entry_check_data
+1e12a0751b99efd48cda501258e16f00bef9d13d xfs_repair: fix messaging when fixing imap due to sparse cluster
+aca02624815ca47c6fd4cafdb0aeaad641ca1915 xfs_repair: don't add junked entries to the rebuilt directory
+dafa78c9ad8ce5b7cb836b0fb16d36b63fd6be69 xfs_repair: always perform extended xattr checks on uncertain inodes
+4a16ce6837ce6f41f11dc51783470d00400a85bd xfs_repair: check low keys of rmap btrees
+ad662cc1734675623a484e111fa2422a08ee45d6 xfs_repair: warn about unwritten bits set in rmap btree keys
+10139046b4b95c53befd409f7ea91e3c7777771e xfs_db: expose the unwritten flag in rmapbt keys
+8b48dfe520eae617deb2a2246991eb8a14c1d7f9 xfs: fix ag count overflow during growfs
+379c17752ada816354312761929812fa22471286 xfs: remove redundant initializations of pointers drop_leaf and save_leaf
+4823ac895ca5d28ff3cdf4db59ca227aca48be81 xfs: use deferred frees for btree block freeing
+2fc02ed392dfb9af2e40361c74b404719745abe3 xfs: pass alloc flags through to xfs_extent_busy_flush()
+6afb076ec5343d11af6e353367ed6ede261e5268 xfs: don't block in busy flushing when freeing extents
+29a5ce31a290d22f9dfb49f877ae4e601decbf17 xfs: journal geometry is not properly bounds checked
+5dec4cccc73df202f07efa79f9784e42b14a4b88 xfs: AGF length has never been bounds checked
+b6de92be804ec4525779f404cf33035be9f37b24 xfs: fix bounds check in xfs_defer_agfl_block()
+2fb5713d37f4f0c5c037cf11b06a57b8765b2b3d xfs: AGI length should be bounds checked
+6f734027230b126ddd708bd181d827c0f85e4339 xfs: fix xfs_btree_query_range callers to initialize btree rec fully
+5b193d5b6b91430dc861d4494e99d42c6ba4fb02 overflow: Add struct_size_t() helper
 
---===============0029792311936424329==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09b029e9d1a8-0f9e91139542.txt
-
-0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-9f4381ce173eb4b8c52ec9cac44c7b94da5de3d7 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-fcfd6bb76ed5db26f3e7e8420a44d0c8ba9a60ab iov_iter: Add copy_folio_from_iter_atomic()
-283ca40a9c05f335d6762490520325fd8b4f1f85 iomap: Remove large folio handling in iomap_invalidate_folio()
-ca4e4c8690ceafee34016e2525ed9e6a16f43991 doc: Correct the description of ->release_folio
-961dac9d7b35c9d66cbf1b1c2d54bb43b7ef4250 iomap: Remove unnecessary test from iomap_release_folio()
-d7f3871c7addb498948966c04334d687fdc8b48b filemap: Add fgf_t typedef
-06a859343aaa831473a20cf63698dce2a74f8a48 filemap: Allow __filemap_get_folio to allocate large folios
-1f37161d529e48878eca051b6baf0ffc0f2d7128 iomap: Create large folios in the buffered write path
-a95b98107d0e25fa1b42006a96bcf06b34403c5f iomap: Copy larger chunks from userspace
-d2a3b14ee327d03037d7940b928ce076ebccf93b iomap: Rename iomap_page to iomap_folio_state and others
-a08d7c261717f7ffc493e2a9c1c58a1bfaf449c0 iomap: Drop ifs argument from iomap_set_range_uptodate()
-159b7b9a22e7b3028314cbb9f2c51aa26cef6e38 iomap: Add some uptodate state handling helpers for ifs state bitmap
-b1505226e2ba7ec21a5896fd679a936650a66fe6 iomap: Fix possible overflow condition in iomap_write_delalloc_scan
-9e5b7e4e483e7e792194bb4c359185a00aa7ab98 iomap: Use iomap_punch_t typedef
-2750827bbc43bc92fec629c2abaa5145458fae22 iomap: Refactor iomap_write_delalloc_punch() function out
-2bd3c91978a8d67f7b47b8619ec0ca4d2429c8f4 iomap: Allocate ifs in ->write_begin() early
-f975a049b267b983aaab1b4caa5c4f764742c571 iomap: Add per-block dirty state tracking to improve performance
-a4f342ff7bb314816813491e9873cb50b46811a1 Re: iomap: Add per-block dirty state tracking to improve performance
-d31c92effce5f6619e2550fab0eac8d7147cff0b fs: distinguish between user initiated freeze and kernel initiated freeze
-530b17e3af7fb065d9a1a6f6f53abb114a885f3a fs: wait for partially frozen filesystems
-4c1aa5442891b695981f27421c0f21101fb0a539 xfs: stabilize fs summary counters for online fsck
-
---===============0029792311936424329==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7889d78d2e4-1521965833fb.txt
-
-0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-9f4381ce173eb4b8c52ec9cac44c7b94da5de3d7 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-fcfd6bb76ed5db26f3e7e8420a44d0c8ba9a60ab iov_iter: Add copy_folio_from_iter_atomic()
-283ca40a9c05f335d6762490520325fd8b4f1f85 iomap: Remove large folio handling in iomap_invalidate_folio()
-ca4e4c8690ceafee34016e2525ed9e6a16f43991 doc: Correct the description of ->release_folio
-961dac9d7b35c9d66cbf1b1c2d54bb43b7ef4250 iomap: Remove unnecessary test from iomap_release_folio()
-d7f3871c7addb498948966c04334d687fdc8b48b filemap: Add fgf_t typedef
-06a859343aaa831473a20cf63698dce2a74f8a48 filemap: Allow __filemap_get_folio to allocate large folios
-1f37161d529e48878eca051b6baf0ffc0f2d7128 iomap: Create large folios in the buffered write path
-a95b98107d0e25fa1b42006a96bcf06b34403c5f iomap: Copy larger chunks from userspace
-d2a3b14ee327d03037d7940b928ce076ebccf93b iomap: Rename iomap_page to iomap_folio_state and others
-a08d7c261717f7ffc493e2a9c1c58a1bfaf449c0 iomap: Drop ifs argument from iomap_set_range_uptodate()
-159b7b9a22e7b3028314cbb9f2c51aa26cef6e38 iomap: Add some uptodate state handling helpers for ifs state bitmap
-b1505226e2ba7ec21a5896fd679a936650a66fe6 iomap: Fix possible overflow condition in iomap_write_delalloc_scan
-9e5b7e4e483e7e792194bb4c359185a00aa7ab98 iomap: Use iomap_punch_t typedef
-2750827bbc43bc92fec629c2abaa5145458fae22 iomap: Refactor iomap_write_delalloc_punch() function out
-2bd3c91978a8d67f7b47b8619ec0ca4d2429c8f4 iomap: Allocate ifs in ->write_begin() early
-f975a049b267b983aaab1b4caa5c4f764742c571 iomap: Add per-block dirty state tracking to improve performance
-a4f342ff7bb314816813491e9873cb50b46811a1 Re: iomap: Add per-block dirty state tracking to improve performance
-
---===============0029792311936424329==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09a8b6f50460-67578a91ce9a.txt
-
-0e0069a2968a8744c42a447b94d5203a4688b3dc xfs: convert flex-array declarations in struct xfs_attrlist*
-f5b44b9dc8d0b6bb759102b22e71402d624ae845 xfs: convert flex-array declarations in xfs attr leaf blocks
-fe8e93e704a1641f2c8e5fbf1156cb136a1eb98b xfs: convert flex-array declarations in xfs attr shortform objects
-addbe5e06bc391f6233637e3beb4d1d4ea633948 iomap: fix a regression for partial write errors
-52fc9968f53963632ebe379f0c7839375b1e835a iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
-9f4381ce173eb4b8c52ec9cac44c7b94da5de3d7 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-fcfd6bb76ed5db26f3e7e8420a44d0c8ba9a60ab iov_iter: Add copy_folio_from_iter_atomic()
-283ca40a9c05f335d6762490520325fd8b4f1f85 iomap: Remove large folio handling in iomap_invalidate_folio()
-ca4e4c8690ceafee34016e2525ed9e6a16f43991 doc: Correct the description of ->release_folio
-961dac9d7b35c9d66cbf1b1c2d54bb43b7ef4250 iomap: Remove unnecessary test from iomap_release_folio()
-d7f3871c7addb498948966c04334d687fdc8b48b filemap: Add fgf_t typedef
-06a859343aaa831473a20cf63698dce2a74f8a48 filemap: Allow __filemap_get_folio to allocate large folios
-1f37161d529e48878eca051b6baf0ffc0f2d7128 iomap: Create large folios in the buffered write path
-a95b98107d0e25fa1b42006a96bcf06b34403c5f iomap: Copy larger chunks from userspace
-
---===============0029792311936424329==--
+--===============1492274426731009576==--
