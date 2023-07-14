@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6011552749455101321=="
+Content-Type: multipart/mixed; boundary="===============1209792077790780882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 14 Jul 2023 06:10:41 -0000
-Message-Id: <168931504114.11805.9403361555390034106@gitolite.kernel.org>
+Date: Fri, 14 Jul 2023 06:10:58 -0000
+Message-Id: <168931505809.11978.8023140290934249047@gitolite.kernel.org>
 
---===============6011552749455101321==
+--===============1209792077790780882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 0298fb0888e6cd44fd8e60e7e6328d56f2330b6a
     new: 274b410c4100dc56f8696845f4652c00b659a8f7
     log: revlist-0298fb0888e6-274b410c4100.txt
 
---===============6011552749455101321==
+--===============1209792077790780882==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ dfd6ecc2066c16175966765ed7212429f19772f7 tpm_tis: Resend command to recover from
 7c810a02587d3b19d8218c822ad5c784359d1dba tpm: make all 'class' structures const
 274b410c4100dc56f8696845f4652c00b659a8f7 tpm,tpm_tis: Disable interrupts after 1000 unhandled IRQs
 
---===============6011552749455101321==--
+--===============1209792077790780882==--
