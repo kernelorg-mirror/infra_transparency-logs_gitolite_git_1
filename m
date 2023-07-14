@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 14 Jul 2023 09:29:32 -0000
-Message-Id: <168932697229.25007.1613261705098155577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 14 Jul 2023 09:32:13 -0000
+Message-Id: <168932713341.27698.11496871985838675170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/main
-    old: a822551c51f0dc063305ca16b9dd0dec7fe1f259
-    new: 9840036786d90cea11a90d1f30b6dc003b34ee67
+  - ref: refs/heads/fixes
+    old: d44263222134b5635932974c6177a5cba65a07e8
+    new: 5def5c1c15bf22934ee227af85c1716762f3829f
     log: |
-         9840036786d90cea11a90d1f30b6dc003b34ee67 gso: fix dodgy bit handling for GSO_UDP_L4
+         5def5c1c15bf22934ee227af85c1716762f3829f mmc: sdhci-f-sdh30: Replace with sdhci_pltfm
          
