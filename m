@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1969924459024226604=="
+Content-Type: multipart/mixed; boundary="===============8904870221089636750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 15 Jul 2023 17:05:30 -0000
-Message-Id: <168944073003.25483.10497778600191612347@gitolite.kernel.org>
+Date: Sat, 15 Jul 2023 17:05:46 -0000
+Message-Id: <168944074666.25659.621575095760293176@gitolite.kernel.org>
 
---===============1969924459024226604==
+--===============8904870221089636750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 9e66fb52449538406cea43e9f3889c391350e76e
+  - ref: refs/heads/testing
+    old: d0bf3ec2f37f790a3d540bfd3ec1d334ad258906
     new: d9b4310265237da28ccb73c59329b9c02f6026bc
-    log: revlist-9e66fb524495-d9b431026523.txt
+    log: revlist-d0bf3ec2f37f-d9b431026523.txt
 
---===============1969924459024226604==
+--===============8904870221089636750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e66fb524495-d9b431026523.txt
+Content-Disposition: attachment; filename=revlist-d0bf3ec2f37f-d9b431026523.txt
 
 cf2423a7555c4b012576c7282fb495ce739d50d4 f2fs: remove unneeded page uptodate check/set
 e94f1f96f108ba96c0ed8bf3fbdd8ee6a6703880 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook
@@ -1051,4 +1051,4 @@ a127310ccc96a5f040b35cf94711fd5fa97c0c6a iio: adc: ad7192: Use sysfs_emit_at
 bc7edf70639e79971b34eb0b52dc9b65d6d7a4b2 iio: adc: ti-lmp92064: add buffering support
 d9b4310265237da28ccb73c59329b9c02f6026bc dt-bindings: iio: adc: qcom,spmi-adc7: use predefined channel ids
 
---===============1969924459024226604==--
+--===============8904870221089636750==--
