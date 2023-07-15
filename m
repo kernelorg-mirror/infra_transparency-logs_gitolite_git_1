@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4516073898690523134=="
+Content-Type: multipart/mixed; boundary="===============7433121603076971083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 15 Jul 2023 17:02:26 -0000
-Message-Id: <168944054608.22579.13376857424318237892@gitolite.kernel.org>
+Date: Sat, 15 Jul 2023 17:02:27 -0000
+Message-Id: <168944054778.22644.2692553675546917474@gitolite.kernel.org>
 
---===============4516073898690523134==
+--===============7433121603076971083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-6.6
-    old: db382dd55bcb8bc6319a14ad50689c19dba83b7b
-    new: ad4e807f5f774ebf13d9cd5377126aa55bb68edf
-    log: revlist-db382dd55bcb-ad4e807f5f77.txt
-  - ref: refs/heads/drivers-for-6.6
-    old: 8ddfa81d090c71fd6cb3cb8ca1d420c0da33a575
-    new: 6484be9dd109bded43953ae7883bd69b5d841a0b
-    log: |
-         6484be9dd109bded43953ae7883bd69b5d841a0b soc: qcom: Explicitly include correct DT includes
-         
+  - ref: refs/heads/for-next
+    old: d154eac138f4c05dab60fa22225e585f662c182b
+    new: ffe79ac138e1c94c1657fbcb71dd544324e717c4
+    log: revlist-d154eac138f4-ffe79ac138e1.txt
 
---===============4516073898690523134==
+--===============7433121603076971083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db382dd55bcb-ad4e807f5f77.txt
+Content-Disposition: attachment; filename=revlist-d154eac138f4-ffe79ac138e1.txt
 
+6484be9dd109bded43953ae7883bd69b5d841a0b soc: qcom: Explicitly include correct DT includes
 7296bd3f0046f87e089499865345ab337598f5ab dt-bindings: interconnect: Add Qcom RPM ICC bindings
 cb0116090e4cff6da2e9abd1c29b8e16491af176 soc: qcom: smd-rpm: Add QCOM_SMD_RPM_STATE_NUM
 82a793e2d3e3da748f23a0fbe0b4615292625fe8 soc: qcom: smd-rpm: Use tabs for defines
@@ -55,5 +50,6 @@ d6edc31f3a68d8d0636e0cfcd9eced7460ad32f4 clk: qcom: smd-rpm: Separate out interc
 3b7480106bf8ac2666d901e42bf9835959f79e7f interconnect: qcom: icc-rpm: Set correct bandwidth through RPM bw req
 17fc623e0f728c35b82a0e79cd4f3b8aab495663 interconnect: qcom: icc-rpm: Fix bandwidth calculations
 ad4e807f5f774ebf13d9cd5377126aa55bb68edf Merge branch '20230526-topic-smd_icc-v7-0-09c78c175546@linaro.org' into clk-for-6.6
+ffe79ac138e1c94c1657fbcb71dd544324e717c4 Merge branches 'arm64-defconfig-for-6.6', 'arm64-fixes-for-6.5', 'arm64-for-6.6', 'clk-for-6.6', 'drivers-for-6.6' and 'dts-for-6.6' into for-next
 
---===============4516073898690523134==--
+--===============7433121603076971083==--
