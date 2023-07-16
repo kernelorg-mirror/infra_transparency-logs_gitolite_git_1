@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 16 Jul 2023 01:53:41 -0000
-Message-Id: <168947242198.12760.7368601175622909809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 16 Jul 2023 01:54:13 -0000
+Message-Id: <168947245352.13056.14950760099802530116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/regmap-cache-check
-    old: 2f4162a12fcfcb8e16c7e1fa9912a696e8a03998
-    new: 3e469cd04141e31d277f3699553d33643fd20ad3
+  - ref: refs/heads/master
+    old: 7672f13007c7395afd4799bda1a260815ae7f0b6
+    new: a51cb93681d2bd1336677c11d2da07fa09ea18bf
     log: |
-         3e469cd04141e31d277f3699553d33643fd20ad3 ALSA: hda: Use regcache_reg_cached() rather than open coding
+         f4144a825e479bee273c8470423066356de009c4 LICENSES/Linux-man-pages-copyleft-var.txt: Add license text
+         a51cb93681d2bd1336677c11d2da07fa09ea18bf man2/: Use SPDX-License-Identifier: Linux-man-pages-copyleft-var
          
