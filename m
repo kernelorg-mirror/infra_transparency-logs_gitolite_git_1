@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 16 Jul 2023 23:11:22 -0000
-Message-Id: <168954908272.15723.17622647784715982410@gitolite.kernel.org>
+Date: Sun, 16 Jul 2023 23:11:33 -0000
+Message-Id: <168954909348.15870.6057238998940292428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a
-    new: fdf0eaf11452d72945af31804e2a1048ee1b574c
+  - ref: refs/heads/hwmon-next
+    old: 96e4fb748d758f01e136932028f06cbf8d8a0a50
+    new: 8b6e7cf4e1729fd33267e970b5019b50dceb25f9
     log: |
-         fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
+         8b6e7cf4e1729fd33267e970b5019b50dceb25f9 hwmon: Remove smm665 driver
          
-  - ref: refs/tags/v6.5-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
