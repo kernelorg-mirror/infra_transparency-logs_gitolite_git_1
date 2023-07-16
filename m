@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2371918500803816064=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 16 Jul 2023 09:43:46 -0000
-Message-Id: <168950062622.9337.16784743018217898387@gitolite.kernel.org>
-
---===============2371918500803816064==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 16 Jul 2023 09:55:33 -0000
+Message-Id: <168950133304.18329.2046029941389103564@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 88edd82daba748ec0a27bc8224e9d429a78c51e5
-    new: 4a9face01cf39b5ec0069c7eea4292fe28171ec8
+  - ref: refs/heads/topic/midi20-gadget
+    old: 0840a4c54b6684fb1d1d73863ff2c54fe6389167
+    new: 1d9d142afefc49661470bdc41244c622fa35c260
     log: |
-         4a9face01cf39b5ec0069c7eea4292fe28171ec8 drop some patches
+         dbb65086fa6e88e0e579a83d0c0a1031caefd055 usb: gadget: Add support for USB MIDI 2.0 function driver
+         e98f03478ae269cd841ccddd9c5dc1e0ce28d899 usb: gadget: midi2: Add configfs support
+         50d27c31d7de85fa8c865111ca9ce8cc0f5b6c71 usb: gadget: midi2: Dynamically create MIDI 1.0 altset descriptors
+         87b62d91b4efa5587a308f99abe39bbf4f4a12c1 usb: gadget: midi2: MIDI 1.0 interface (altset 0) support
+         7fb8012d4baae935a45de4ce17e22f58e637e2bb usb: gadget: midi2: Add testing documentation
+         644f091e910eea23edcd12eecd4a1874f94758c6 usb: gadget: midi2: Add "Operation Mode" control
+         1d9d142afefc49661470bdc41244c622fa35c260 usb: gadget: midi2: More flexible MIDI 1.0 configuration
          
-
---===============2371918500803816064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689500625 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1689500624-6276d64cf57d98b59b95a7b5c1bfd39b5c4dbd71
-
-88edd82daba748ec0a27bc8224e9d429a78c51e5 4a9face01cf39b5ec0069c7eea4292fe28171ec8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmSzu9EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+egYP/2jobiOHrnXytP2snSXt
-LXWvLeLMCDiEG/NVzwh4rtFa4PxgfDxkZ51D7zrntjxDFNoOqfioN1zy9Fn748ge
-20BStp919t8liW4QfbuquGw6ReQ9l13b26UixMmLf02E+pbeGX7U+UMZX/kM6rF7
-LRSzDuSKzcYDTHDFKUTtzKxRFH5oEok5QMhbsxkwFRswNAWhp11+U8Enx6p3snCX
-9DLtF4YrbH5hcoDLcpCy7VKrOWd3Pro587L085mSHOUcAhcUPW67VwCs1ZeQP/K/
-8JYCrZq7p/Ac2+Q8B3tsVTJMhuxjPawgs8nGGxHsyLR/vi7af65VniD072UmpXn+
-G5H6yhvcNUU3b2nbrDiPzR+EbeqeRWIHsmFusDavjzl/tZOSMk7n0hD25bjtYsJs
-6d/ElorYnsNtvfXLuwfa1bjDIK7kEysgqYVHCzdylv/pVAKIb0992YXm2r7Kcq3w
-sm7s094z3FK0AOW6ns7LUZq995I0nCG9N35Vyhqxd/5s5L7QPtnFJTim2GLWthls
-2v99fyE5sl9MEKaXG/3sL+npdCIIQDIKATk72ep5pSLpZlQW6S6a68oNqwDj7u/R
-J/JSkBELlpkEeSugjJ1WcrWv/TtD5DXJprRR3HUEvvZfSfvS/7AT1o+ipzJmD1Ay
-b7AMa36kCF8T7GtOHPVBUNv1
-=oWE5
------END PGP SIGNATURE-----
-
---===============2371918500803816064==--
