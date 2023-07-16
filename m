@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
-Date: Sun, 16 Jul 2023 23:33:48 -0000
-Message-Id: <168955042863.30829.12698099276551188343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 16 Jul 2023 23:37:22 -0000
+Message-Id: <168955064214.2096.288103714417477975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/zonefs
-user: dlemoal
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
-  - ref: refs/tags/v6.5-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/heads/master
+    old: 790c7a5e4964534cae20b4e952dca4b05d97efae
+    new: 0b0a5b092f0ea4817acb40187124ca6b828d5b32
+    log: |
+         0b0a5b092f0ea4817acb40187124ca6b828d5b32 Sun Jul 16 11:36:22 PM UTC 2023
+         
