@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 16 Jul 2023 01:14:39 -0000
-Message-Id: <168947007982.17397.11173817160557928504@gitolite.kernel.org>
+Date: Sun, 16 Jul 2023 01:36:33 -0000
+Message-Id: <168947139358.500.17339546082929683475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/regmap-cache-check
-    old: b6ade97498afd7bc2191e97d9807ae3469e5e5c0
-    new: 94e357199dd2d15b7b8a7fe9ec9dfbe2baf4f68a
+    old: 94e357199dd2d15b7b8a7fe9ec9dfbe2baf4f68a
+    new: 2f4162a12fcfcb8e16c7e1fa9912a696e8a03998
     log: |
-         94e357199dd2d15b7b8a7fe9ec9dfbe2baf4f68a ALSA: hda: Use regcache_reg_cached() rather than open coding
+         2f4162a12fcfcb8e16c7e1fa9912a696e8a03998 ALSA: hda: Use regcache_reg_cached() rather than open coding
          
