@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 16 Jul 2023 01:54:13 -0000
-Message-Id: <168947245352.13056.14950760099802530116@gitolite.kernel.org>
+Date: Sun, 16 Jul 2023 02:04:39 -0000
+Message-Id: <168947307982.19889.13955604421468854069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 7672f13007c7395afd4799bda1a260815ae7f0b6
-    new: a51cb93681d2bd1336677c11d2da07fa09ea18bf
+    old: a51cb93681d2bd1336677c11d2da07fa09ea18bf
+    new: ba45d94564a1bab30afa945f537f89c2542fe4df
     log: |
-         f4144a825e479bee273c8470423066356de009c4 LICENSES/Linux-man-pages-copyleft-var.txt: Add license text
-         a51cb93681d2bd1336677c11d2da07fa09ea18bf man2/: Use SPDX-License-Identifier: Linux-man-pages-copyleft-var
+         ba45d94564a1bab30afa945f537f89c2542fe4df crypt.3, encrypt.3: Fix library name and description
          
