@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Jul 2023 20:47:29 -0000
-Message-Id: <168954044996.8643.5584132582888545487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 16 Jul 2023 20:55:26 -0000
+Message-Id: <168954092682.14590.9727907577601333287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ede950b01922778ade5ba0d0834f25fca4ed1d88
-    new: 1667e630c228ca2e7577de7a404c89de3d9f7772
+  - ref: refs/heads/asoc-topology-kunit-enable
+    old: 79952cecb70bde07c84f9e41686e158a907d7f28
+    new: ff2d2bd235bab4138adfdb60a987c3d522c20be8
     log: |
-         27c68c216ee1f1b086e789a64486e6511e380b8a perf/x86: Fix lockdep warning in for_each_sibling_event() on SPR
-         9f71fbcde2820f2af4658313e808cf1e579190a4 objtool: initialize all of struct elf
-         719a937b7003933de1298ffa4b881dd6a234e244 iov_iter: Mark copy_iovec_from_user() noclone
-         ae2ad293d6be143ad223f5f947cca07bcbe42595 sched/fair: Use recent_used_cpu to test p->cpus_ptr
-         aff037078ecaecf34a7c2afab1341815f90fba5e sched/psi: use kernfs polling functions for PSI trigger polling
-         f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         8a3e4a64849eb9da0e8c7e693978499562581631 Merge tag 'objtool_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         1667e630c228ca2e7577de7a404c89de3d9f7772 Merge tag 'perf_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         1228a1c9f80841be32148985c5c2fc0d46879602 ASoC: Improve coverage in default KUnit runs
+         47fb4625128f957cd3979d7c8f9bded5cd75bd50 driver core: Provide stubs for !IOMEM builds
+         d7c0fffe5321225bb6099a64664cf348ab260976 platform: Provide stubs for !HAS_IOMEM builds
+         e8d64a9f3d4d790ecbe1bf9f93dc463b68bfee05 ALSA: Enable build with UML
+         8fbc5823be6788db069e4036802f4590ae5783dd kunit: Enable ASoC in all_tests.config
+         ff2d2bd235bab4138adfdb60a987c3d522c20be8 ASoC: topology: Add explicit build option
          
