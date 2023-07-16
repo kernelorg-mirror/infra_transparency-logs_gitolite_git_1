@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 16 Jul 2023 02:04:39 -0000
-Message-Id: <168947307982.19889.13955604421468854069@gitolite.kernel.org>
+Date: Sun, 16 Jul 2023 03:47:11 -0000
+Message-Id: <168947923134.29208.13004783613627291999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: a51cb93681d2bd1336677c11d2da07fa09ea18bf
-    new: ba45d94564a1bab30afa945f537f89c2542fe4df
+    old: ba45d94564a1bab30afa945f537f89c2542fe4df
+    new: c98d237c22e9e898ae7d05e2222e7eac47791bd3
     log: |
-         ba45d94564a1bab30afa945f537f89c2542fe4df crypt.3, encrypt.3: Fix library name and description
+         c98d237c22e9e898ae7d05e2222e7eac47791bd3 Makefile: Improve Makefile troubleshooting
          
