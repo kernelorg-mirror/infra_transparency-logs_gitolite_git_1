@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2151328900700749041=="
+Content-Type: multipart/mixed; boundary="===============2288651556117702204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 16 Jul 2023 14:41:28 -0000
-Message-Id: <168951848804.28908.17398907373760994009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 16 Jul 2023 14:48:52 -0000
+Message-Id: <168951893204.740.9131349030394234471@gitolite.kernel.org>
 
---===============2151328900700749041==
+--===============2288651556117702204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/origin-master
-    old: b6e6cc1f78c772e952495b7416c9ac9029f9390c
-    new: 831fe284d8275987596b7d640518dddba5735f61
-    log: revlist-b6e6cc1f78c7-831fe284d827.txt
+  - ref: refs/heads/master
+    old: 72d337446c8367a2676889015d594b30a416d20b
+    new: 08a07457f862a3ec1383cf395c7a8450b35a7f47
+    log: |
+         08a07457f862a3ec1383cf395c7a8450b35a7f47 6.4-stable patches
+         
 
---===============2151328900700749041==
+--===============2288651556117702204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6e6cc1f78c7-831fe284d827.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c09168c9392ac9250d87d71fc5ca3156f7456ea4 MAINTAINERS: Add myself as a maintainer for Microchip SPI
-5158814cbb37bbb38344b3ecddc24ba2ed0365f2 spi: bcm63xx: fix max prepend length
-963b54df82b6d6206d7def273390bf3f7af558e1 regmap-irq: Fix out-of-bounds access when allocating config buffers
-9ec3c5517e22a12d2ff1b71e844f7913641460c6 spi: s3c64xx: clear loopback bit after loopback test
-2bbc72ffc4de803f6265119963aa7aac6559960f MAINTAINERS: add myself for spi-bcm63xx
-54ccc8758ef4d29de9e8fdb711c852abbdd4103a mailmap: add entry for Jonas Gorski
-911476ef3c585da9fdf156fd7aaa7455455daf76 iommu: Fix crash during syfs iommu_groups/N/type
-c20ecf7bb6153149b81a9277eda23398957656f2 iommu/sva: Fix signedness bug in iommu_sva_alloc_pasid()
-82678ab2a4af2b827d2b44b35b1295de8a1d312d Merge tag 'iommu-fixes-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-393ea78172cdc68800285cb43855c9531abc26a1 Merge tag 'regmap-fix-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-831fe284d8275987596b7d640518dddba5735f61 Merge tag 'spi-fix-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689518930 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1689518929-f9bbf8cc0a5ab8ff37dff3170f4af28c08b3b9c1
 
---===============2151328900700749041==--
+72d337446c8367a2676889015d594b30a416d20b 08a07457f862a3ec1383cf395c7a8450b35a7f47 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS0A1IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MG8QAK1as/2iHur4XOczlDVa
+D+/daXOIS79NVkkN0IWmhOyJVsxGFNTzk32k6myeXQkgSnsfCXwWF3ssRXaLqzB+
+6nN6A2WZvr7yfc3cs3NBk2P5hW5ciNWWlG0h/+ajNrQ9lsYBAGFq3NI8zrU5u2r6
+sFg9cUY654VZxLEzVccQA5qaRPmXduHK5kA9UYD9KyULkKgRPNhZqv4YIJYn4pZt
+CDzECnehvKIZOjyw99tNDso/xekqpBj0nKn6C7jU7mKeuUM5S2jZaDxjGGqLdBH4
+ePHZoCUvek+v9yNWIOgoeHdYatQ9+KhXGjwfCE5/OiJ2OKj2QEGfXziV0oFo4MEF
+mO+jE48HZuJnRHMHwSlm/ZhZV/iZZVeYeMKimTNWmqTK/Ehk7iYRhqUkxD26m42n
+SrYPwDptlQElhqx24B7QH0YRHDQtNRE+64A/dJLlI8ii5S9QbkYvzaFiICzJ1BL8
+BciLDMU98ZlwpKgRONs+BsvXgzGHdwa2sKpbn/Mw90UFOVBjHNRdldBRAxhv8HIc
+H2Gy5whIvxYGA6Lu55estaMHN8mpVXsx7nuwonPTbYKRtZDIfGX0+O1riYH8p6+6
+UEvJVfPN1uUSeYksFi2OA4u0NL8Ngi1RNTpc+rE/C8WbARmKHzwVdbuBE+ttNmqx
+UYRS2bzmU5CY02vJXehLGP4T
+=3554
+-----END PGP SIGNATURE-----
+
+--===============2288651556117702204==--
