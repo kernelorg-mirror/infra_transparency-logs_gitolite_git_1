@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Sat, 15 Jul 2023 22:42:54 -0000
-Message-Id: <168946097441.7466.6031406694426948872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sun, 16 Jul 2023 00:37:22 -0000
+Message-Id: <168946784298.23303.4696690795755908139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/dev-test
-    old: 6222c7ae752d3b87ea187087a1beebbf088d14bb
-    new: a35353d208cfcec722392c44639686c6ec805ae7
-    log: |
-         a35353d208cfcec722392c44639686c6ec805ae7 f2fs: should use inode when updating file offset
-         
+  - ref: refs/tags/hardening-v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0712b592ff5877273b44da8853fb9d5124fd1ab3
