@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0342518182225973442=="
+Content-Type: multipart/mixed; boundary="===============5409644217183277349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 16 Jul 2023 19:31:19 -0000
-Message-Id: <168953587948.15638.2399204261023832856@gitolite.kernel.org>
+Date: Sun, 16 Jul 2023 19:35:07 -0000
+Message-Id: <168953610765.18669.12676623029552213632@gitolite.kernel.org>
 
---===============0342518182225973442==
+--===============5409644217183277349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9769270a9588e101c6e141f975f25842205d6444
-    new: c9a8c925feee8062d2b2a4f965ac4813b9cfd7b8
+    old: c9a8c925feee8062d2b2a4f965ac4813b9cfd7b8
+    new: 17b526a0c116b7ef625bd95b7b04dd63f390459d
     log: |
-         c9a8c925feee8062d2b2a4f965ac4813b9cfd7b8 6.4-stable patches
+         29fd6508e4be6e4eb75ee7c652ac62c559f11a21 fix up 6.4 io_uring stuff
+         17b526a0c116b7ef625bd95b7b04dd63f390459d drop io_uring patch from older kernels
          
 
---===============0342518182225973442==
+--===============5409644217183277349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689535878 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689536106 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1689535877-13e936c5b48d7585e7fc0955d156abf05e0e46a3
+nonce 1689536106-0639ca175afac7519d4f2c141f17858f88ab957f
 
-9769270a9588e101c6e141f975f25842205d6444 c9a8c925feee8062d2b2a4f965ac4813b9cfd7b8 refs/heads/master
+c9a8c925feee8062d2b2a4f965ac4813b9cfd7b8 17b526a0c116b7ef625bd95b7b04dd63f390459d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS0RYYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYUP/1Hpb/dsPM+HB8Lv5bwA
-AtURA0Zq0sC4vSxaiAIkYYsCxX8Vho03AgmUGJ35ssmU1faN+EcdSukMLbbTESkq
-Xw7Pk8Bhji+z0plYEglvhDlvE0lJ+YQlkBouVEciI8Dhr3zpGmds6irC3EpmWJkb
-OZyUGrWLPKWWBD6c3mw8hWT0jNcA+xrZtPQwcj/qpxiS4mSWHubBkrbphzXgNhJQ
-HnD5G8m+Vm95G6qkcJZy83M0GLajnvIwwmUGj51SDCAg//udIMp/Il0wFV1VQGbV
-SL/MDFdQmJC6YV4pyWmiX8+BN2IwFms8Rq7cnngsiyaBl5uifG3gV5OsN02BQU7Y
-ny6C33KBJKQ30jghF39tqZVmavlQsHPm9rbKlF81WbwKahFyHJizrNmFyPwMhZC0
-g4Sd0cJXbxIUBS+mRRorXx6u1FQWfYpfsVfnn8Oa60MFNNu+CkZercswBwvakcYk
-HGKk6L+JN4DoMYcIqiTedJf5oRV8e9m88QkvK95BBMQmQHqX/foxk8sfhNx/IDn1
-3OGv+rZ6TqeImlRnVbObAJ1QojKozVupFqry1sUPf4USi4G+8Hz23KNdqlorz7Uy
-JY04JvzfhqZUxuja+TjvuDMW6uUDTuw4sDiipesoEamTR8enxuCp5QDnLyYN5XlZ
-7OqesOWOegdAlmn0aiSP+rcB
-=+1K4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS0RmobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4xsQAJ5JLdGpKe5dcZMAwyWc
+c3yqrUSYi2mLJNlCghqpKk0sVVE7nxWFCG3HWYzJKlu08yQsSLIicD3mSCn01wo6
+KFR7uk9d4ta0yh5Y84qskBC9TLcp4HVwcf9dqQgJdwdDqyJg6n3NbDtKVhB1fsJl
+m26u3x0ehcbFw+D1aF7vqVkzUbYVzEEd0vijMRUvWZmIChGhjwsRGr//vpoBtID7
+CdyJweHzTq/dh0O6kfpEqBZsASzJ0C6KEeXOFFV2BFJ0qCrjMn2rnrla6oNLTy/u
+F2p4vDn31NX0BB4I0ei0ilAkl1/jVH447rW4yH2Dy89btQqD49dHP+FvgGfhiomW
+D+pTa8l0nwhKa0dDbIEQDd8QHu2xgHfJr+/YHC14oCElJE+tFQNtU/mDq7ZnVk6r
+4l3/ge0EKhQ3vVfAaplCK53sO68ZXXRFFg+e/wYO/LtjPeJH6SRcCDGCGNidFtVA
+BSOcBbK03HF6xvkD/YmsVA71xeaLGaW/x2RetrbTtlktipx96of0j+zOhPNnLGwF
+8ojC6/rKd4uAqFD8OsN82w3GQu5twpPBWvzLGECDa+B5rybXBj3UPqUho0JmOC0p
+0uZmm3m6x4T+/gK7/M3YUMY3sSAv637M/aYoamdjERsUztd3/I4k1H81WIWtny0L
+0zja/C/lM7oK0zIvxU/+IMfd
+=PoiO
 -----END PGP SIGNATURE-----
 
---===============0342518182225973442==--
+--===============5409644217183277349==--
