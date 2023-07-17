@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 17 Jul 2023 13:21:58 -0000
-Message-Id: <168960011824.4986.317790592366080654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 17 Jul 2023 13:29:13 -0000
+Message-Id: <168960055309.9092.17989149598859249247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 8796622ce83d62eee5d37dfd68896e206866a731
-    new: 8739cd96d58a386bfba64e6371849722835b90fc
-    log: |
-         8739cd96d58a386bfba64e6371849722835b90fc Makefile: Simplify
-         
+  - ref: refs/heads/kvm-arm64/nv-6.6-NV2-WIP
+    old: 0000000000000000000000000000000000000000
+    new: f270f895b8ddc936190cb0b93ee6105fcd644d6f
