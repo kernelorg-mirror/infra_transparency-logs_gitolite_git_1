@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8778767181917451627=="
+Content-Type: multipart/mixed; boundary="===============0315414062764960530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 17 Jul 2023 14:00:56 -0000
-Message-Id: <168960245640.1196.12567393761159820622@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 14:01:46 -0000
+Message-Id: <168960250674.1670.8703947060152142589@gitolite.kernel.org>
 
---===============8778767181917451627==
+--===============0315414062764960530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 5951fa2ed11bbf2e8bd43120e11b44271794240c
-    new: 8f738869ffd23dd84fa0923ccd0774fcdd8f6858
-    log: revlist-5951fa2ed11b-8f738869ffd2.txt
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
+    old: 8e4db506973d67f7238470c3d07ea6c97b65c3fc
+    new: 72140cb83ae3a0864b6eddcff301674ac2518054
+    log: revlist-8e4db506973d-72140cb83ae3.txt
 
---===============8778767181917451627==
+--===============0315414062764960530==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5951fa2ed11b-8f738869ffd2.txt
+Content-Disposition: attachment; filename=revlist-8e4db506973d-72140cb83ae3.txt
 
 2c56a751845ddfd3078ebe79981aaaa182629163 drm/panel: simple: Add connector_type for innolux_at043tn24
 e30cb0599799aac099209e3b045379613c80730e drm/sched: Make sure we wait for all dependencies in kill_jobs_cb()
@@ -352,5 +352,12 @@ b1640cc17bcd915a3aa97147b989e3724ad856d6 SUNRPC: Remove gss_import_v1_context()
 726bb63bb61f3a608bd53ed604635d68eab88b51 SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
 e80ebabfcc5dc95648e4803b640a5bf158d310fe SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
 8f738869ffd23dd84fa0923ccd0774fcdd8f6858 SUNRPC: Use a per-transport receive bio_vec array
+94bdc938a2d1ae2c8e13b2d3964a5b2cf2ad602c SUNRPC: Deduplicate thread wake-up code
+c35772116e056b07afd9c4d7cb33bcc20093409d SUNRPC: Report when no service thread is available.
+b13d5f68c1283a3c2f82ada61c76d09385cf6b4d SUNRPC: Split the svc_xprt_dequeue tracepoint
+103a90f598ed6841b9ff1cbd1712a0e3a9f0de4d SUNRPC: Count ingress RPC messages per svc_pool
+85ec0d811a170b8b99ce2022efd32e163effa5b4 SUNRPC: Count pool threads that were awoken but found no work to do
+7ef05b813585d8c1f8022cc2e8a8b2b9b26948f5 SUNRPC: Clean up svc_set_num_threads
+72140cb83ae3a0864b6eddcff301674ac2518054 SUNRPC: Replace dprintk() call site in __svc_create()
 
---===============8778767181917451627==--
+--===============0315414062764960530==--
