@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 17 Jul 2023 18:58:25 -0000
-Message-Id: <168962030507.26967.3136128671789964851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 17 Jul 2023 18:59:04 -0000
+Message-Id: <168962034495.27292.2558822867224296574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-6.6
-    old: ceddae22cd08ba9f52a995cfb573fee89fa4afc4
-    new: c25ff4b911a11908c7f05bc07cc6762f9cece2b5
+  - ref: refs/heads/master
+    old: ff425c2781ee9f27d1e445b806d94b0d908cc75a
+    new: 809701e58590aaca1e86c13b38ec6e0e6cf72bae
     log: |
-         fcbb485d9f720b176d7bac0802181901eedddbed cgroup: use cached local variable parent in for loop
-         6f71780e7fadf778eeb45e830d31339af53533fc cgroup: fix obsolete function name
-         c25ff4b911a11908c7f05bc07cc6762f9cece2b5 cgroup: remove cgrp->kn check in css_populate_dir()
-         
-  - ref: refs/heads/for-next
-    old: ceddae22cd08ba9f52a995cfb573fee89fa4afc4
-    new: c25ff4b911a11908c7f05bc07cc6762f9cece2b5
-    log: |
-         fcbb485d9f720b176d7bac0802181901eedddbed cgroup: use cached local variable parent in for loop
-         6f71780e7fadf778eeb45e830d31339af53533fc cgroup: fix obsolete function name
-         c25ff4b911a11908c7f05bc07cc6762f9cece2b5 cgroup: remove cgrp->kn check in css_populate_dir()
+         f3e031721db11740384c0b21da2d1ec4f5d51c2f foo
+         809701e58590aaca1e86c13b38ec6e0e6cf72bae foo
          
