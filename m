@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2729909613945445281=="
+Content-Type: multipart/mixed; boundary="===============3248463898222947815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 17 Jul 2023 15:13:19 -0000
-Message-Id: <168960679999.21472.1175053822519330355@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 15:13:32 -0000
+Message-Id: <168960681254.21636.14053460722394728729@gitolite.kernel.org>
 
---===============2729909613945445281==
+--===============3248463898222947815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,57 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 790ef3901f18be794f5b246f990f305bbd08ffd7
-    new: d0fc0ef083bc51d8d0211a2e1498d450220c1bc3
-    log: revlist-790ef3901f18-d0fc0ef083bc.txt
+  - ref: refs/heads/main
+    old: faaa5fd30344f9a7b3816ae7a6b58ccd5a34998f
+    new: 68af900072c157c0cdce0256968edd15067e1e5a
+    log: revlist-faaa5fd30344-68af900072c1.txt
+  - ref: refs/heads/master
+    old: faaa5fd30344f9a7b3816ae7a6b58ccd5a34998f
+    new: 68af900072c157c0cdce0256968edd15067e1e5a
+    log: revlist-faaa5fd30344-68af900072c1.txt
 
---===============2729909613945445281==
+--===============3248463898222947815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689606794 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689606808 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1689606791-e71c571265c027022409180fe53baf2d5f344ade
+nonce 1689606808-5ad2275dd77eb8e453011f44307761dfdd1a5610
 
-790ef3901f18be794f5b246f990f305bbd08ffd7 d0fc0ef083bc51d8d0211a2e1498d450220c1bc3 refs/heads/testing
+faaa5fd30344f9a7b3816ae7a6b58ccd5a34998f 68af900072c157c0cdce0256968edd15067e1e5a refs/heads/main
+faaa5fd30344f9a7b3816ae7a6b58ccd5a34998f 68af900072c157c0cdce0256968edd15067e1e5a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS1WooTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6MbdCACcT1xa7bF343vsW6loWYq4UjSTVVs7
-hB/yj1EZBuTJutS74tsjmCiFmqv+8eVISlN+9+IWDhIBjjy6MULRIgYXroEA7ZRB
-IOorGAfeTCjr6pO8/HY+U065yswCQ6GH7/k+HHbKF9tIcnO7tGQj5ELiAvLZcOaK
-zURynWStIiZm+H2T/TjvPMcyjBAJTAbgRhXHQk9a34uJuqQO8EgU9V/iQ4lbFJWW
-q5vmAo1vqnvI+HN1mxVgM21RmrrXV22fip9YVRfpgAjHeDk/sKAHGqVyV5TdKlL/
-6F+Sbu/kVTUw0zJlsMxiFsvjxMMZt2uztd+Qf+rSLrs+aLjXTUxgL15k
-=F9mY
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS1WpgTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6E43B/9ws4nb597B7jnIPd6vYgxQqLsvQrzJ
+L0yQa/ElbwFB4y9M09gJ4cMNvK4mxrdviQS1UbqbqaRpqc0WlmShZPf1Lv6xmEo4
+kK3D3Dlf4d21xK4v7McHoR8ziHFJHCrmZzj1YnvY574SPOYVI3vmP28mFtpCUtf0
+8MZ4NcEkbeQ1SkLXDfq92m9aezgDsiDDJM7m2EXfdAy1B7yel68t6bB070G+akEv
+MGbDl/q07c9TID5l+1bvu8k+uzFFaUlCQ/ud3WR6eBnXYQFj5oKayU2C9DOWpF9C
+71jSApNdyFAWCCRx2t2Iuflp+K+H8L+9bvrzfzlyvPbiJiXOS2fpnw40
+=u706
 -----END PGP SIGNATURE-----
 
---===============2729909613945445281==
+--===============3248463898222947815==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-790ef3901f18-d0fc0ef083bc.txt
+Content-Disposition: attachment; filename=revlist-faaa5fd30344-68af900072c1.txt
 
+456be42aa713e7f83b467db66ceae779431c7d9d s390/mm: get rid of VMEM_MAX_PHYS macro
+688fcbbb9c0b023b54cf306cbac54300cef7fa5b s390/vmem: fix virtual vs physical address confusion
+51f513fd9659faf00976071a9525474b08764ccb s390/mm: do not include <asm-generic/io.h> directly
+0dd0bbc2003a33a0e4705f8eec6ba6535b1e49d1 s390/vdso: check for undefined symbols after build
+13cf06d57fa8d2313d53ac19fbc8f1f7c751a4c4 s390/zcrypt: use kvmalloc_array() instead of kzalloc()
+938f0c35d7d93a822ab9c9728e3205e8e57409d0 s390/decompressor: fix misaligned symbol build error
+27d45655faa83bde1545251b8a576ab4f1a9e731 s390: consistently use .balign instead of .align
+d15e4314abec83e4f910659437bc809b0889e3a5 s390/vdso: filter out mno-pic-data-is-text-relative cflag
+190e2e1177010ab9ffccd5f968500099c247e8e5 media: dvb: mb86a20s: get rid of a clang-15 warning
+6c26bd4384da24841bac4f067741bbca18b0fb74 mm/mmap: Fix error return in do_vmi_align_munmap()
+8640b38234cf295a6b548fc303e93322464155ad dt-bindings: regulator: max77541: Add ADI MAX77541/MAX77540 Regulator
 c2b2afe6c8811290e4207dcb1d627def32a970f8 regulator: max77541: Add ADI MAX77541/MAX77540 Regulator Support
 04c9a8eb722ff6ebafd95217bed4faf6193e7e46 iio: adc: max77541: Add ADI MAX77541 ADC Support
 b05740d71bd2f8b2261930944bfe95f529190b8b dt-bindings: mfd: max77541: Add ADI MAX77541/MAX77540
@@ -1064,16 +1080,5 @@ b0307b77265bc8e2f4d2ecea3225ed2de8565a70 selftests: router_bridge_vlan_upper_pvi
 9cbb3da4f4f7c2851df2ed3548263718e99c281a selftests: router_bridge_pvid_vlan_upper: Add a new selftest
 382d7dcfffcbd0f004fdb2b6c2da789841d66bc1 Merge branch 'mlxsw-rif-pvid'
 68af900072c157c0cdce0256968edd15067e1e5a gve: trivial spell fix Recive to Receive
-bb410c03b999a361ab4e11e103d88707b4155bf9 dt-bindings: net: can: Remove interrupt properties for MCAN
-b382380c0d2da427aaffca931e4a3b831048cace can: m_can: Add hrtimer to generate software interrupt
-09ff091a0a08bdd6f768a32fabf63a97021b88f6 Merge patch series "Enable multiple MCAN on AM62x"
-76de1f30aeae7ef53c6d3072615997b2636cfd80 can: ems_pci: Remove unnecessary (void *) conversions
-8b178fc95493f817f6a2c4951bd6d837021673a0 can: Explicitly include correct DT includes
-80f2f27bfdaea223617f5c62681098c539ee5b1b dt-bindings: can: xilinx_can: Add reset description
-e277727c402889d3a823712c3355db91ca583490 can: xilinx_can: Add support for controller reset
-42dab70e5d2d10ce14d41d67122a0f64f3175f33 Merge patch series "can: xilinx_can: Add support for reset"
-900cdd4479865e42e7787782b0c4757c589cd765 can: kvaser_pciefd: Move hardware specific constants and functions into a driver_data struct
-555d2cafe54c06e70eb9ad51d15c876e8ef8f81d can: kvaser_pciefd: Add support for new Kvaser pciefd devices
-d0fc0ef083bc51d8d0211a2e1498d450220c1bc3 Merge patch series "can: kvaser_pciefd: Add support for new Kvaser PCI Express devices"
 
---===============2729909613945445281==--
+--===============3248463898222947815==--
