@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8212376902093525938=="
+Content-Type: multipart/mixed; boundary="===============1306915360304244174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 17 Jul 2023 23:05:48 -0000
-Message-Id: <168963514826.15828.16725042630918690757@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 23:05:55 -0000
+Message-Id: <168963515595.15949.13819058805026916607@gitolite.kernel.org>
 
---===============8212376902093525938==
+--===============1306915360304244174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 592eafdf690e8e4893613d4b57a47d7e3f25bcbd
+  - ref: refs/heads/for-next/kspp
+    old: ec7633de404e7ce704d8f79081b97bca5b616c23
     new: c30417b20f4993e49406f3f6d986355c6e943aa2
-    log: revlist-592eafdf690e-c30417b20f49.txt
+    log: revlist-ec7633de404e-c30417b20f49.txt
 
---===============8212376902093525938==
+--===============1306915360304244174==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-592eafdf690e-c30417b20f49.txt
+Content-Disposition: attachment; filename=revlist-ec7633de404e-c30417b20f49.txt
 
 2c56a751845ddfd3078ebe79981aaaa182629163 drm/panel: simple: Add connector_type for innolux_at043tn24
 e30cb0599799aac099209e3b045379613c80730e drm/sched: Make sure we wait for all dependencies in kill_jobs_cb()
@@ -329,4 +329,4 @@ ce6616724fb425d6043d0dad6af996cd7c79bcc4 ubsan: Clarify Kconfig text for CONFIG_
 8453e7924a1a9130f2b4d2c507de2cdc3892a5b5 soc: fsl: qe: Replace all non-returning strlcpy with strscpy
 c30417b20f4993e49406f3f6d986355c6e943aa2 seq_file: Replace strncpy()+nul by strscpy()
 
---===============8212376902093525938==--
+--===============1306915360304244174==--
