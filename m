@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0375177221129315291=="
+Content-Type: multipart/mixed; boundary="===============3187556124977012576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Jul 2023 10:22:06 -0000
-Message-Id: <168958932633.4920.1940192859087689034@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 10:22:19 -0000
+Message-Id: <168958933940.5072.1932079923401716187@gitolite.kernel.org>
 
---===============0375177221129315291==
+--===============3187556124977012576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 7b34d67e5ca0007875cf8770b84697e607129c23
-    new: 7591c31aed751c09d2d0ea295babb43e95d4f644
-    log: revlist-7b34d67e5ca0-7591c31aed75.txt
+  - ref: refs/heads/m68k-queue
+    old: e773b5f0b39771c1d1a77fc5a97971bf998377de
+    new: e4e057e791c261ad08da695666eaa2fc24f0d218
+    log: revlist-e773b5f0b397-e4e057e791c2.txt
 
---===============0375177221129315291==
+--===============3187556124977012576==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7b34d67e5ca0-7591c31aed75.txt
+Content-Disposition: attachment; filename=revlist-e773b5f0b397-e4e057e791c2.txt
 
 2c56a751845ddfd3078ebe79981aaaa182629163 drm/panel: simple: Add connector_type for innolux_at043tn24
 e30cb0599799aac099209e3b045379613c80730e drm/sched: Make sure we wait for all dependencies in kill_jobs_cb()
@@ -329,6 +329,8 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 1667e630c228ca2e7577de7a404c89de3d9f7772 Merge tag 'perf_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
-7591c31aed751c09d2d0ea295babb43e95d4f644 Merge tag 'v6.5-rc2'
+83f1a7f9b49ee538c33eb18ca4357a353372380b m68k: atari: usb: Add ISP1160 USB host controller support
+ee83b8585f581055a1ef803786caff4c4ad08e85 m68k: atari: Update Kconfig.bus help text
+e4e057e791c261ad08da695666eaa2fc24f0d218 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0375177221129315291==--
+--===============3187556124977012576==--
