@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8335996291079730836=="
+Content-Type: multipart/mixed; boundary="===============2339543776467858239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 17 Jul 2023 19:38:04 -0000
-Message-Id: <168962268474.25538.5599453861856145058@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 19:38:11 -0000
+Message-Id: <168962269105.25642.2686864938905218243@gitolite.kernel.org>
 
---===============8335996291079730836==
+--===============2339543776467858239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: def3833fc6022c7f23bd4fd66ba5ed65c6b23272
     new: 60cc1f7d0605598b47ee3c0c2b4b6fbd4da50a06
     log: revlist-def3833fc602-60cc1f7d0605.txt
 
---===============8335996291079730836==
+--===============2339543776467858239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ df9401ff3e6eeaa42bfb06761967f1b71f5afce7 net: phy: at803x: remove qca8081 1G fas
 723970affdd8766fa0d91cd34bf2ffc861538b5f net: phy: at803x: add qca8081 fifo reset on the link changed
 60cc1f7d0605598b47ee3c0c2b4b6fbd4da50a06 Merge branch 'phy-at803x-support'
 
---===============8335996291079730836==--
+--===============2339543776467858239==--
