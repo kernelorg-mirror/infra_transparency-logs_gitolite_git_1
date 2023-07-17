@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5128426382373620372=="
+Content-Type: multipart/mixed; boundary="===============2387247712829081623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 17 Jul 2023 05:30:22 -0000
-Message-Id: <168957182253.3246.1143420053997885307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 17 Jul 2023 05:30:35 -0000
+Message-Id: <168957183537.3406.11150288413232036504@gitolite.kernel.org>
 
---===============5128426382373620372==
+--===============2387247712829081623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 963b54df82b6d6206d7def273390bf3f7af558e1
-    new: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    log: revlist-963b54df82b6-fdf0eaf11452.txt
+    old: 91ca9066e0a4a2cf146c8d711c6fce9c714d3aae
+    new: 65450bf018b75ef6db8bbc8194d6c6e0b3e0f508
+    log: revlist-91ca9066e0a4-65450bf018b7.txt
   - ref: refs/heads/for-next
-    old: c9a82362486316ed15610555efc60d794e46d176
-    new: 1c004e45fffb4b701a7ab5d4baeed037af442078
-    log: revlist-c9a823624863-1c004e45fffb.txt
+    old: 702c86f21c149a6ca680da99be9461eff26f08d0
+    new: 8b2ba126363197eb031bd84f22d4fb0151fcfc5d
+    log: revlist-702c86f21c14-8b2ba1263631.txt
 
---===============5128426382373620372==
+--===============2387247712829081623==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-963b54df82b6-fdf0eaf11452.txt
+Content-Disposition: attachment; filename=revlist-91ca9066e0a4-65450bf018b7.txt
 
 2c56a751845ddfd3078ebe79981aaaa182629163 drm/panel: simple: Add connector_type for innolux_at043tn24
 e30cb0599799aac099209e3b045379613c80730e drm/sched: Make sure we wait for all dependencies in kill_jobs_cb()
@@ -227,6 +227,7 @@ e522c1bd0ab4f645885a3eef4e1dd920cc9ac3b6 MAINTAINERS: Add another mailing list f
 b6c9ebde5a967f40fdc462b0c27eff7e31fe6c28 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 d3f87278bcb80bd7f9519669d928b43320363d4f net/sched: flower: Ensure both minimum and maximum ports are specified
 bfb5ef2219b7b28a6e328860438eb55027807289 cpufreq: sparc: Don't mark cpufreq callbacks with __init
+963b54df82b6d6206d7def273390bf3f7af558e1 regmap-irq: Fix out-of-bounds access when allocating config buffers
 9ec3c5517e22a12d2ff1b71e844f7913641460c6 spi: s3c64xx: clear loopback bit after loopback test
 2bbc72ffc4de803f6265119963aa7aac6559960f MAINTAINERS: add myself for spi-bcm63xx
 54ccc8758ef4d29de9e8fdb711c852abbdd4103a mailmap: add entry for Jonas Gorski
@@ -332,12 +333,13 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 1667e630c228ca2e7577de7a404c89de3d9f7772 Merge tag 'perf_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
+65450bf018b75ef6db8bbc8194d6c6e0b3e0f508 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
 
---===============5128426382373620372==
+--===============2387247712829081623==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c9a823624863-1c004e45fffb.txt
+Content-Disposition: attachment; filename=revlist-702c86f21c14-8b2ba1263631.txt
 
 2c56a751845ddfd3078ebe79981aaaa182629163 drm/panel: simple: Add connector_type for innolux_at043tn24
 e30cb0599799aac099209e3b045379613c80730e drm/sched: Make sure we wait for all dependencies in kill_jobs_cb()
@@ -536,6 +538,7 @@ e522c1bd0ab4f645885a3eef4e1dd920cc9ac3b6 MAINTAINERS: Add another mailing list f
 b6c9ebde5a967f40fdc462b0c27eff7e31fe6c28 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 d3f87278bcb80bd7f9519669d928b43320363d4f net/sched: flower: Ensure both minimum and maximum ports are specified
 bfb5ef2219b7b28a6e328860438eb55027807289 cpufreq: sparc: Don't mark cpufreq callbacks with __init
+963b54df82b6d6206d7def273390bf3f7af558e1 regmap-irq: Fix out-of-bounds access when allocating config buffers
 9ec3c5517e22a12d2ff1b71e844f7913641460c6 spi: s3c64xx: clear loopback bit after loopback test
 2bbc72ffc4de803f6265119963aa7aac6559960f MAINTAINERS: add myself for spi-bcm63xx
 54ccc8758ef4d29de9e8fdb711c852abbdd4103a mailmap: add entry for Jonas Gorski
@@ -641,6 +644,7 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 1667e630c228ca2e7577de7a404c89de3d9f7772 Merge tag 'perf_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
-1c004e45fffb4b701a7ab5d4baeed037af442078 Merge remote-tracking branch 'regmap/for-6.6' into regmap-next
+65450bf018b75ef6db8bbc8194d6c6e0b3e0f508 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+8b2ba126363197eb031bd84f22d4fb0151fcfc5d Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
 
---===============5128426382373620372==--
+--===============2387247712829081623==--
