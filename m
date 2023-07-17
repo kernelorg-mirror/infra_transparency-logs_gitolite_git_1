@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 17 Jul 2023 13:03:29 -0000
-Message-Id: <168959900990.22709.2106814030249339564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 17 Jul 2023 13:05:58 -0000
+Message-Id: <168959915834.25194.12994315821988895541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: b8ded25e1ebc9ee8ec590e6c0750e71dfc7743b7
-    new: 206b6a9bf620dbc1ffaffcae6b538648d599055a
+  - ref: refs/heads/master
+    old: b5f9c81f50c7dbf5c460b27e8b0747a09de15b0d
+    new: a148b0e40a2bc73932733767d78e94ecdb701fbf
     log: |
-         96b709be183c56293933ef45b8b75f8af268c6de ACPI: video: Add backlight=native DMI quirk for Lenovo Ideapad Z470
-         206b6a9bf620dbc1ffaffcae6b538648d599055a Merge branch 'acpi-video' into bleeding-edge
+         8792bebad0dbcb1779ec12f76c59f011a3092d24 dt-bindings: watchdog: Add Loongson-1 watchdog
+         4888916d88407f5c5483ede5d15da9283903d216 Merge tag 'linux-watchdog-6.5-rc2' of git://www.linux-watchdog.org/linux-watchdog
+         a148b0e40a2bc73932733767d78e94ecdb701fbf Merge tag 'v6.5-rc2-dts-raw'
          
