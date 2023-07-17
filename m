@@ -1,27 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0187308250928092696=="
+Content-Type: multipart/mixed; boundary="===============3764303359702345141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 17 Jul 2023 05:45:49 -0000
-Message-Id: <168957274972.17479.17991459788715381147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 17 Jul 2023 05:45:50 -0000
+Message-Id: <168957275018.17531.3648841930979044252@gitolite.kernel.org>
 
---===============0187308250928092696==
+--===============3764303359702345141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/usb-testing
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
     log: revlist-06c2afb862f9-fdf0eaf11452.txt
 
---===============0187308250928092696==
+--===============3764303359702345141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -29,29 +29,29 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689572749 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1689572748-f2ea62ccde9517d7f57b30ca2cd6ef6256264e98
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1689572749-88c4051fc67331b75140d761914a669848b74d49
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 fdf0eaf11452d72945af31804e2a1048ee1b574c refs/heads/main
+06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 fdf0eaf11452d72945af31804e2a1048ee1b574c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS01Y0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xjAQAKRHvWa3vX8mskHkNBTT
-CG/SLlZj5VsC5MErI2NDWYs3WN4OMSVb8Vj7s4+r93HR7g3rXst050ijcelywhGb
-Le7TM5doyyBuXXnNdTRll2jv1zZGz33f4EXzVo5S3BnpWzh+sUVsWtTgV9PvsMlk
-T3eHZ2fymOrOM4Ool0tHXbTjtkqHNIK6KiI98oHXqK7v/I2g/IJEy0iB2O0RZlxY
-ATdCvU/SLCIpVp0i5k0GpgQ2QzIpJiScBG6/ngmDNQrbLBgayTnjPv4St/uBiRpD
-oXnzNLxPRRCt40JkI2cXeR+OMCekatkfj+qre2CEosTfnQGDd/8Jt6FGUngJfH+o
-cz/9vqO4SXFUaT1pQFV4Jxthf5Ep6X+ZsYq+s9n6nAy45Zk5t7enlKrRUeHElOF5
-p8zzmj3Sinw5BZXVBBQac6NoQhycxSkfq+uSzlq/JG8BCRfGaQ4RVJhSAXc9AJva
-dBVCNiWN9PSphBX6uOs2UZj+dsTZ+Jtb+iDyN8zPqMqOq2Hgsv69B1xPQzg5fyMB
-15/JZfjn+Tn0qWO2GJLivQ2UQPWCud5U/4+8r/EbuHQ81dvf11//DycfsnU19ERO
-6ioFEscHSWhDM6w6Akr4WXOssLqugqWytULDDhwlqetDPcdVgMeyb7iLOkN25vBg
-6vXb+NZbtlHwHQVyFMye0g3S
-=S5ae
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lkwQAKM/DWWmYRAM4ai+lm+n
+sRIEtjhO9P7Mb2bviDvkfaBLxkb2ZyOUanyJQffKwwELG7TqB+Mh5vlwurf2KFRk
+iRE02MKQhd19zNuFrdHrbjmIAbe5yEiS6lzSAEcCqiTBqx+eC2qrrzejHaNU4XFi
+/z+nQSaS09POyUwphTGZpldvDgLJt5ruAm+QOupY5P6yfnd/BgPJcyBKcoK5ApBq
+pW2UjTfkt5r/ccvtbwSEMWZyxhahFaCmzan0gp5LjYJ4A9lsXhTCmEedy9QFuuti
+UQiHZDDMbkrz+ZCh2brqM+j1dR5noGQKcZKvOKQR6R9i3djhJm67DLqlTbHI6Aqx
+CwPm4EDb1ZmX6ahLT6yzQIEp1kV4wMXm4ayrxjwyXrGSghqA63flKnUUS5z1RqSI
+2myKveboWQHd+uvSAbxH2GLppqGVZZfiQJONMOZ0fnHKqXz9xmZ1Go1w+Z9Wkv9i
+FS0Ykra+pDh/76qxgzmXoIyChfLGLmqPBdQrG4QCTozTfR3deQqbVBKVrYgNoOPc
+PCkeg8ZBwWrMAOhwDxdaqMr/4TUDwf+5Oo6CnjZMH0wZI57XIbhsCggpleGTwxgQ
+HHLv1pFw5wB6LpVvtUpNSAUPmcBeYB3IqZLS2yeOwzkBVkKabJQvM0HDSkB71wVf
+qk64X4tiEQRBePA/QnTUkMLo
+=Nr2k
 -----END PGP SIGNATURE-----
 
---===============0187308250928092696==
+--===============3764303359702345141==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -361,4 +361,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============0187308250928092696==--
+--===============3764303359702345141==--
