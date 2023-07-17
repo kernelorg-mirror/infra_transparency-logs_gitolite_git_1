@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5909191715456773929=="
+Content-Type: multipart/mixed; boundary="===============7949865772617009951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 17 Jul 2023 05:46:37 -0000
-Message-Id: <168957279751.18587.15379888593118678391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 17 Jul 2023 05:46:39 -0000
+Message-Id: <168957279946.18658.13065135345802134838@gitolite.kernel.org>
 
---===============5909191715456773929==
+--===============7949865772617009951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
+  - ref: refs/heads/staging-testing
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
     log: revlist-06c2afb862f9-fdf0eaf11452.txt
 
---===============5909191715456773929==
+--===============7949865772617009951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689572797 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1689572796-1b93f3761aebba976bf84655f52ac2559187ccdf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689572798 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1689572798-c7d6a90298e5b1affe629b62c60da1e90695bdb8
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 fdf0eaf11452d72945af31804e2a1048ee1b574c refs/heads/spdx-linus
+06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 fdf0eaf11452d72945af31804e2a1048ee1b574c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS01b0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+brcP/RtToShywWrExmwMzFkW
-Wmhj/ky5s8l5Mbw3YbpfsDUfqdNlWgN4qJ8zFXEsByIpnRr6XX5sRKV00r12uYJP
-7aWVsfXwWImw3IBZVlLaNxJl2xdZw0OtKFA14vRKhhZ1DCwmTAZZpoGTApMGWxpw
-ikT4qdljBWQcUZr2oQw3/inRbW31g5F70uAYpwEfVZ7T2EmvtP5SS4xKR2JiQqr+
-pXq14Bqe2GvsnVBBomgmdMMTKhSVChlNCjrcMe+4KmK8fHNhGEv4Bn08ds5/Ta4L
-xxRnZjnS8EEcCFe6ELR1fC6ND9xEzRqLvwGWGiqF4X5ZQpGaeGyOL6chvSnS6ihd
-1mSStV5WieIEZY5/m5baajOsJ9ddNm31u4mv9ham7rpmK7Oi/mpZj/bLg5VqkcDD
-rDhHhgUQbi50dwsJdBWIUIXFLwGkMoc+tzC9ytFwfba+ZAB9lclMX46jWZUe6K7G
-WRHgtTQqdXAnzGfhbp5Y8R5k2+1vt9LnSS3PF4i+bVjDZG47V8fleazl3Dh9r8qP
-FTJfzPtEbvoANK2M1z/eYgK/tuzVBPVqWh/gnmFfh+4BGv3CPEo4pCeXVdAwD2zu
-n+wKP4mnTIHUD2bSFbkrqXaI0uiwJigcuEqTh4yKJEKsJ0vRKzVnqWmRMtviO2wF
-WT39XWpPUmemjqiIgd8u9/UD
-=vSPf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS01b4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sN8P/0n+U9tKV+mlrjATxqgL
+kor/O3ouWcDlV2k7GNwwtKpzI+PFgY0qT+Gna3zFPwpRqY18MwwRXAKpiauTvCB/
+o1Dos8mROLP4QseWl87a5AXD952nZnYcRbMdW0QqmSakpbTcz8/vAj99jkDF19Ad
+Pzu90bMZPgu+Z4+iBT6EStDxQCHfjw1z1NlRk0cCQrjlp0e/vwBCkmKUKKf5Qlib
+gvIkAkIgDqTB5VX6WO3nCkIuRuyO1eb/clzM3ldg2W+TsdygMR0gNdZmblHnHerN
+5T3yanPzg2mDQD+59OIyvApF1Eal2SuZyFSHkQYcGcUIxHIMHhHjrHu7u1JZ9KgR
+llSydlRCO25xERGE1looUKYvbzd5YgW9ooGBA3ROCBgAYehSN/hPSMx5kVBRaetR
+q8k5lxSYkWVc2SQYk0hQ8uJ9YTlLvgwEa6cgLZzL/l2fuaN/J45Dfc7NwaG28TeN
+xHkDnePP4jMMx6MHdYjcBIJBMu08wtuFKeKz2YSObiUIo9LoIFydK81xN6CZIxaq
+h9IciTYANrTo0YB0Sr1sjlyk4zzam7BEQiv30N3aF9DbaLBU5BpuIAUEmp1WZLAM
+tpWBUqTiTuVr+r8Xg5jZGBIUV4SxhmF3aBHhYikkIeW8kXvCU+fD3OAKyYet0jlm
+aC7V3dKEumSLy+hXHcilYU7x
+=0Nhl
 -----END PGP SIGNATURE-----
 
---===============5909191715456773929==
+--===============7949865772617009951==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -361,4 +361,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============5909191715456773929==--
+--===============7949865772617009951==--
