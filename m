@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4308772721749420800=="
+Content-Type: multipart/mixed; boundary="===============8778767181917451627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 17 Jul 2023 13:58:40 -0000
-Message-Id: <168960232043.31086.3313412503024350873@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 14:00:56 -0000
+Message-Id: <168960245640.1196.12567393761159820622@gitolite.kernel.org>
 
---===============4308772721749420800==
+--===============8778767181917451627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    log: revlist-06c2afb862f9-fdf0eaf11452.txt
-  - ref: refs/tags/v6.5-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/heads/nfsd-next
+    old: 5951fa2ed11bbf2e8bd43120e11b44271794240c
+    new: 8f738869ffd23dd84fa0923ccd0774fcdd8f6858
+    log: revlist-5951fa2ed11b-8f738869ffd2.txt
 
---===============4308772721749420800==
+--===============8778767181917451627==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-06c2afb862f9-fdf0eaf11452.txt
+Content-Disposition: attachment; filename=revlist-5951fa2ed11b-8f738869ffd2.txt
 
 2c56a751845ddfd3078ebe79981aaaa182629163 drm/panel: simple: Add connector_type for innolux_at043tn24
 e30cb0599799aac099209e3b045379613c80730e drm/sched: Make sure we wait for all dependencies in kill_jobs_cb()
@@ -332,5 +329,28 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 1667e630c228ca2e7577de7a404c89de3d9f7772 Merge tag 'perf_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
+4ea4a2942cc047a71f49f45abfa1ef30caa52228 locks: allow support for write delegation
+bd6ca3453fdf8e9f204e150eb674ccc64d550612 NFSD: allow client to use write delegation stateid for READ
+ab5e328ae4b3dd8ad923fc2ffb9c49a624352e28 NFSD: handle GETATTR conflict with write delegation
+f71d1d793814a7d22f52c0c13476f9dd1192c5dc NFSD: Enable write delegation support
+1d582285399c08d73aa16afcee064fb0b3002927 SUNRPC: Remove RPCSEC_GSS_KRB5_ENCTYPES_DES
+30a9a71c22c3eb919812cefc5564bf59f05b88fa SUNRPC: Remove Kunit tests for the DES3 encryption type
+7262ae574622649f0ef5884f1f9d728aaaeb4280 SUNRPC: Remove DES and DES3 enctypes from the supported enctypes list
+52e4d38114160fed3892089121c8831f80cdfb08 SUNRPC: Remove code behind CONFIG_RPCSEC_GSS_KRB5_SIMPLIFIED
+cb8d1c10f403b1f038b386b5c98837c2cae9befb SUNRPC: Remove krb5_derive_key_v1()
+b1640cc17bcd915a3aa97147b989e3724ad856d6 SUNRPC: Remove gss_import_v1_context()
+62f9cf9a08e974ee4d1f41fcf5283b083b75bb94 SUNRPC: Remove CONFIG_RPCSEC_GSS_KRB5_CRYPTOSYSTEM
+6f6fdf7b8342738cb6d5de7c84e2984c5c059c13 SUNRPC: Remove the ->import_ctx method
+61af5fa1376ed8c9a230edad287319aa67ebb8ed SUNRPC: Remove net/sunrpc/auth_gss/gss_krb5_seqnum.c
+767b1d5badd6eb418e3f91f0cd8fa6d2894ff43a NFSD: Refactor nfsd_reply_cache_free_locked()
+2c4c4e68a7f2ab9e1b1c46a4ddc4697026afbfb5 NFSD: Rename nfsd_reply_cache_alloc()
+30a2719f4cfb14f03ac1333de230daf7002f7fc0 NFSD: Replace nfsd_prune_bucket()
+1dee64a77a4ef33adce7cd23fc557dd1c5e1dbf1 NFSD: Refactor the duplicate reply cache shrinker
+99f45258754bc62feb3e69f2831b991038074802 NFSD: Remove svc_rqst::rq_cacherep
+08ef45195dc70abd6e1f06fa622b8fcfa04b1496 NFSD: Rename struct svc_cacherep
+19a1b5c94c663175b385ee651ecb9712d899bf62 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
+726bb63bb61f3a608bd53ed604635d68eab88b51 SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
+e80ebabfcc5dc95648e4803b640a5bf158d310fe SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
+8f738869ffd23dd84fa0923ccd0774fcdd8f6858 SUNRPC: Use a per-transport receive bio_vec array
 
---===============4308772721749420800==--
+--===============8778767181917451627==--
