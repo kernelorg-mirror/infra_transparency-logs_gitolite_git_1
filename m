@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0144678539687904074=="
+Content-Type: multipart/mixed; boundary="===============2176683572380055880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 17 Jul 2023 16:16:05 -0000
-Message-Id: <168961056523.3906.11234244503149691400@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 16:18:01 -0000
+Message-Id: <168961068178.4678.1946594053992590070@gitolite.kernel.org>
 
---===============0144678539687904074==
+--===============2176683572380055880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: ed04a91f718e6e1ab82d47a22b26e4b50c1666f6
-    new: f6250e205691a58c81be041b1809a2e706852641
-    log: revlist-ed04a91f718e-f6250e205691.txt
-  - ref: refs/heads/xfs-6.5-fixes
-    old: 0000000000000000000000000000000000000000
-    new: f6250e205691a58c81be041b1809a2e706852641
-  - ref: refs/tags/xfs-6.5-fixes-1
-    old: 0000000000000000000000000000000000000000
-    new: c4cd7b4b88fabec8a4f2a3d1f123fea87e9d4804
+  - ref: refs/heads/whatamess
+    old: 4dbffe5ccbfea767ace12979339695907f4de10a
+    new: 294444ba0c5ab5789de57921f826fe90e9637f66
+    log: revlist-4dbffe5ccbfe-294444ba0c5a.txt
 
---===============0144678539687904074==
+--===============2176683572380055880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ed04a91f718e-f6250e205691.txt
+Content-Disposition: attachment; filename=revlist-4dbffe5ccbfe-294444ba0c5a.txt
 
-4d6751815b1d3057423b3feb156bd1525b7183e2 Merge tag 'x86-mm-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6f612579be9d0ff527ca2e517e10bfaf08cc1860 Merge tag 'objtool-core-2023-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b65db9211ecb7f8383e02dcf71b8c1e9c7043a40 io_uring/net: use proper value for msg_inq
-10e1c0d59006c6492d380602aa0a6c4eb9441426 io_uring: remove io_fallback_tw() forward declaration
 0ae612299621b5ae76bec55cc92503b6ed3f554b Revert "nios2: Convert __pte_free_tlb() to use ptdescs"
 8d8026f376c8e46cc90c59de91256d8ee4322ad8 Merge tag 'xtensa-20230627' of https://github.com/jcmvbkbc/linux-xtensa
 6a46676994607a1bde51cba71c1b0d373a555f45 Merge tag 's390-6.5-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -174,8 +164,6 @@ a587b046ce921cc1805de6f0f000209b3644cadd cdrom/gdrom: Fix build error
 0914e4d3cda853471a72b2c26a516c7619658b87 kdb: include kdb_private.h for function prototypes
 ac615db03ba508d42d240612262f21f2e5836b67 cifs: log session id when a matching ses is not found
 61986a58bc6abbb1aea26e52bd269f49e5bacf19 cifs: new dynamic tracepoint to track ses not found errors
-302efbef9d77a170a94dd81f4076814142dc5a31 fs: iomap: Change the type of blocksize from 'int' to 'unsigned int' in iomap_file_buffered_write_punch_delalloc
-447a0bc108e4bae4c1ea845aacf43c10c28814e8 iomap: drop me [hch] from MAINTAINERS for iomap
 e8c716bc6812202ccf4ce0f0bad3428b794fb39c mm/khugepaged: fix regression in collapse_file()
 046f753da6143ee16452966915087ec8b0de3c70 Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
 acd1d46b0ddec686d4170b2205bc08c88d5d4d74 Merge tag 'hwmon-for-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
@@ -1056,5 +1044,11 @@ fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 371baf5c9750a258fee21d0cb8c8d683bb057429 xfs: convert flex-array declarations in struct xfs_attrlist*
 a49bbce58ea90b14d4cb1d00681023a8606955f2 xfs: convert flex-array declarations in xfs attr leaf blocks
 f6250e205691a58c81be041b1809a2e706852641 xfs: convert flex-array declarations in xfs attr shortform objects
+20c64ec83a9f779a750bbbcc1d07d065702313a5 iomap: fix a regression for partial write errors
+efa96cc99793bafe96bdbff6abab94d81472a32d iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
+880b9577855edddda1e732748e849c63199d489b fs: distinguish between user initiated freeze and kernel initiated freeze
+59ba4fdd2d1f9dd7af98f5168c846150c9aec56d fs: wait for partially frozen filesystems
+27c02e64848f009c0639f7f9bcf532002e334e45 Merged korg/iomap-for-next at Mon Jul 17 09:17:48 PDT 2023.
+294444ba0c5ab5789de57921f826fe90e9637f66 Merged korg/for-next at Mon Jul 17 09:17:49 PDT 2023.
 
---===============0144678539687904074==--
+--===============2176683572380055880==--
