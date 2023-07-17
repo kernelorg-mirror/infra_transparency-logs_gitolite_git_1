@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6047625800543527587=="
+Content-Type: multipart/mixed; boundary="===============7979725277082776795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 17 Jul 2023 18:13:24 -0000
-Message-Id: <168961760488.26673.7966801812056231615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 17 Jul 2023 18:13:31 -0000
+Message-Id: <168961761136.26808.10361389357060543460@gitolite.kernel.org>
 
---===============6047625800543527587==
+--===============7979725277082776795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: e8bf1741c14eb8e4a4e1364d45aeeab66660ab9b
     new: 469e2f28c2cbee2430058c1c9bb6d1675d7195fb
     log: revlist-e8bf1741c14e-469e2f28c2cb.txt
 
---===============6047625800543527587==
+--===============7979725277082776795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689617603 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1689617602-b105f2b4e7ed65bff5a0bc64c35c5c6526017098
+pusher C3F436CA30F5D8EB 1689617609 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689617609-4ec0ac25e5514eeb97a277d1690fc07209041b17
 
-e8bf1741c14eb8e4a4e1364d45aeeab66660ab9b 469e2f28c2cbee2430058c1c9bb6d1675d7195fb refs/heads/for-6.5
+e8bf1741c14eb8e4a4e1364d45aeeab66660ab9b 469e2f28c2cbee2430058c1c9bb6d1675d7195fb refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS1hMMACgkQJNaLcl1U
-h9Agzwf6AxAmg70rgUAYo68FiX70a6moSAObi2MJ0iHjsxSCID5bJtg6DYKBkLqH
-LAoIGQRHEha72uxcduVXvk133IjApoXaws1FSKkTL8Z2KpeiTKC6UGZsgR+Aztnf
-vX8xWUqbl1fOL1guPMmYzDXoOcWoNlzeK9am690nBkA6eji+Ejj9URUXFfwvxI82
-yNUZFbYjnDb5BLWJupjN3Nj4Tbe19FPu2igLaGQhhn77eOCtCQGiGog8C4KGh6uR
-UVo/y9hdrTPv+Z5c64rnlsB+YXaKzhi8JRz2HESXKCkXluWGLypjPuYsxl7+BfBB
-zbpg7FNxXnR2bfHQFVtp20OMXEKrAQ==
-=DC9W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS1hMkACgkQJNaLcl1U
+h9CSrQf/Q1vZpUfS80mIn7/xdlVGtgfOJ3TADB1lchsvREu76md0hcb/i42+0qYj
+D3CqTSMtY2cFYOKDQ9L9pcPjKx5YHelOI+mDltW3VnImun4sNU8b9D9YjeVbQT3l
+Ji5w8YZk4UNn6yboQx6etoZXBHzvs5ucu0blpUzLbLAS7yOrH21bEPOotwzShGGr
+wEeqRDMcbo6UoGuhV/xydico1Q7kvIPtKamhk8BbKW0b2WY5g+eyOvDagyGh1Q1M
+QwANj9ZQlGdqXZYY0ol3Vi8/sP5g6YL/qQXQlPHM1F85RYjdvgjzRVoNL26LfCPa
+y5ISImX4Cc88wfyzqW61hL/UrieVhA==
+=+u5n
 -----END PGP SIGNATURE-----
 
---===============6047625800543527587==
+--===============7979725277082776795==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1076,4 +1076,4 @@ fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 e51df4f81b02bcdd828a04de7c1eb6a92988b61e ASoC: cs42l51: fix driver to properly autoload with automatic module loading
 469e2f28c2cbee2430058c1c9bb6d1675d7195fb ASoC: SOF: ipc3-dtrace: uninitialized data in dfsentry_trace_filter_write()
 
---===============6047625800543527587==--
+--===============7979725277082776795==--
