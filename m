@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 17 Jul 2023 22:57:17 -0000
-Message-Id: <168963463753.9550.9482274692010157263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 17 Jul 2023 23:04:31 -0000
+Message-Id: <168963507154.13774.15221004546812858426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/tags/v6.5-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
-  - ref: refs/tags/v6.4
-    old: 0000000000000000000000000000000000000000
-    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/heads/for-next/hardening
+    old: dc2322e96fd64656fb75123feffacd10fbee502e
+    new: 592eafdf690e8e4893613d4b57a47d7e3f25bcbd
+    log: |
+         592eafdf690e8e4893613d4b57a47d7e3f25bcbd seq_file: Replace strncpy()+nul by strscpy()
+         
