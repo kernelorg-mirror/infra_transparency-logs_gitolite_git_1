@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4675376772164859976=="
+Content-Type: multipart/mixed; boundary="===============7515282831969861547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 17 Jul 2023 09:13:55 -0000
-Message-Id: <168958523552.6816.9215932475624280110@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 09:14:02 -0000
+Message-Id: <168958524291.6947.406090686109277657@gitolite.kernel.org>
 
---===============4675376772164859976==
+--===============7515282831969861547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/usb-next
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
     log: revlist-06c2afb862f9-fdf0eaf11452.txt
 
---===============4675376772164859976==
+--===============7515282831969861547==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -330,4 +330,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============4675376772164859976==--
+--===============7515282831969861547==--
