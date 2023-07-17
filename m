@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3764303359702345141=="
+Content-Type: multipart/mixed; boundary="===============6895010533715487382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 17 Jul 2023 05:45:50 -0000
-Message-Id: <168957275018.17531.3648841930979044252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Mon, 17 Jul 2023 05:45:52 -0000
+Message-Id: <168957275278.17628.2556881146677956570@gitolite.kernel.org>
 
---===============3764303359702345141==
+--===============6895010533715487382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/tty-linus
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
     log: revlist-06c2afb862f9-fdf0eaf11452.txt
 
---===============3764303359702345141==
+--===============6895010533715487382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689572749 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1689572749-88c4051fc67331b75140d761914a669848b74d49
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689572752 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1689572751-ce4a480a5adf9560a80ca609a3cda9cc148decc8
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 fdf0eaf11452d72945af31804e2a1048ee1b574c refs/heads/usb-testing
+06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 fdf0eaf11452d72945af31804e2a1048ee1b574c refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS01Y0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lkwQAKM/DWWmYRAM4ai+lm+n
-sRIEtjhO9P7Mb2bviDvkfaBLxkb2ZyOUanyJQffKwwELG7TqB+Mh5vlwurf2KFRk
-iRE02MKQhd19zNuFrdHrbjmIAbe5yEiS6lzSAEcCqiTBqx+eC2qrrzejHaNU4XFi
-/z+nQSaS09POyUwphTGZpldvDgLJt5ruAm+QOupY5P6yfnd/BgPJcyBKcoK5ApBq
-pW2UjTfkt5r/ccvtbwSEMWZyxhahFaCmzan0gp5LjYJ4A9lsXhTCmEedy9QFuuti
-UQiHZDDMbkrz+ZCh2brqM+j1dR5noGQKcZKvOKQR6R9i3djhJm67DLqlTbHI6Aqx
-CwPm4EDb1ZmX6ahLT6yzQIEp1kV4wMXm4ayrxjwyXrGSghqA63flKnUUS5z1RqSI
-2myKveboWQHd+uvSAbxH2GLppqGVZZfiQJONMOZ0fnHKqXz9xmZ1Go1w+Z9Wkv9i
-FS0Ykra+pDh/76qxgzmXoIyChfLGLmqPBdQrG4QCTozTfR3deQqbVBKVrYgNoOPc
-PCkeg8ZBwWrMAOhwDxdaqMr/4TUDwf+5Oo6CnjZMH0wZI57XIbhsCggpleGTwxgQ
-HHLv1pFw5wB6LpVvtUpNSAUPmcBeYB3IqZLS2yeOwzkBVkKabJQvM0HDSkB71wVf
-qk64X4tiEQRBePA/QnTUkMLo
-=Nr2k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS01ZAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+414QAIgB24gOBtqG+Z7YaR0h
+01CixKgd4NQTQlIlwEjB8La2u7khl9Dmva8OB5HNINqxtJUwHNWMsZJxXc2zAG++
+hm2Kk75V4cEpcXPcQV9uaY7EbSTmZSRA/B1Rqk8Vv2nYLNVnSTxjEWCNFVyGCdRv
+ewR4irapSIdZF4dzbRHfOx7pnrFV8nqaadqP+0VuQGDTxO5K5/WuaVmln+P9zulG
+7DgpIYW0Zi1l3+j2ZqFoxSsduFj6mBiNdGWDckjqfbwH9xzT9TVlygQynIFWj2gI
+ZmIlln3owp1LS9j0rdM6OzAT2XWGCf0KVtyB8YaTlmHyhBGLZ+6+8DHbDuq1UW7x
+6mjamiBOSombXsyUWgQF5By5QNpF4RDzXD8C2+SvbnoLo//j1bPUnag3iZqWGye7
+03Lf0fX3pmlpssrHq0XVBxwYFaONeR+yQQk5DMoQailYYZ7Vr4yNUpIvdzS/HQ/6
+CldMsegKEh1PWnqhqrbVKafjgnVXPyl6eTNuzY2BGD1ZEYmrzDAhNLXk7fbSx38Q
+R4L20uAAPGff9LXhJzdYu8AYuLE8vFcM0LQOCbu/+4P6ShAppsd2HRbbyje8dh79
+n1raMNzMIkYVbShIuwBuTwXSuiGX1L+GoUa6gW+JyyD3qfP4HAP2VwwHqHLdt3b8
+eYomYooXThfPs1fPf73NhULz
+=w09A
 -----END PGP SIGNATURE-----
 
---===============3764303359702345141==
+--===============6895010533715487382==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -361,4 +361,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============3764303359702345141==--
+--===============6895010533715487382==--
