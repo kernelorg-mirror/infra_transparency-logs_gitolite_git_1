@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6488384268712917101=="
+Content-Type: multipart/mixed; boundary="===============1435145700545181376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 17 Jul 2023 05:56:12 -0000
-Message-Id: <168957337210.25237.7253094542751522968@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 05:57:11 -0000
+Message-Id: <168957343191.25686.4486794034219471120@gitolite.kernel.org>
 
---===============6488384268712917101==
+--===============1435145700545181376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
+  - ref: refs/heads/linux-next
+    old: 21a235bce12361e64adfc2ef97e4ae2e51ad63d4
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    log: revlist-6995e2de6891-fdf0eaf11452.txt
+    log: revlist-21a235bce123-fdf0eaf11452.txt
 
---===============6488384268712917101==
+--===============1435145700545181376==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6995e2de6891-fdf0eaf11452.txt
+Content-Disposition: attachment; filename=revlist-21a235bce123-fdf0eaf11452.txt
 
+21953eb16c2a6ebc039126d63acf84b286a58a02 Merge tag 'lsm-pr-20230626' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+b4c7f2e6ef40f545054a902e4708ed908d562318 Merge tag 'integrity-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 98be618ad03010b1173fc3c35f6cbb4447ee2b07 Merge tag 'Smack-for-6.5' of https://github.com/cschaufler/smack-next
 d416a46c954ef0b753595ebfe6bb0988a24c2a57 Merge tag 'execve-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 8ad78685ffa6e3836b5b32197bffb03ee3389bec Merge tag 'pstore-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -555,7 +557,6 @@ b39aeb338a6f3854fe52c7e669438731ec2138c9 rdma: fix INFINIBAND_USER_ACCESS depend
 4f52875366bfbd6ddc19c1045b603d853e0a889c Merge tag 'io_uring-6.5-2023-07-03' of git://git.kernel.dk/linux
 e50df24979fd02f920aa7baada714a58bc61bfd9 Merge tag 'block-6.5-2023-07-03' of git://git.kernel.dk/linux
 24be4d0b46bb0c3c1dc7bacd30957d6144a70dfc arch/arm64/mm/fault: Fix undeclared variable error in do_page_fault()
-1cfd4ccb3014922c8516557d857b6bc83e7db980 x86/Xen: tidy xen-head.S
 f4767f9f32b7b1abf43baf3beb077e554e35eea7 s390/cpum_cf: remove unneeded debug statements
 eeeff534e9946f1db16eedd35acb9554ad77f4cd s390/cpum_sf: simplify function setup_pmu_cpu
 b2ae4969497ee982fc9f30e53301d53e88ea5b65 s390/cpum_sf: remove parameter in call to pr_err
@@ -563,7 +564,6 @@ c13166bdb23976e2cde8f25dd669e2d8250492c9 s390/cpum_sf: remove unnecessary debug 
 b2534c28b23b099fc399021283ffaf9f40513abf s390/cpum_sf: handle casts consistently
 6aca56c024e42577c28706a85979a6967b9b5e97 s390/cpum_sf: remove check on CPU being online
 54372cf043276735e29045abf998895b2ac277cf Revert "s390/mm: get rid of VMEM_MAX_PHYS macro"
-21a235bce12361e64adfc2ef97e4ae2e51ad63d4 xen/virtio: Fix NULL deref when a bridge of PCI root bus has no parent
 8cc87c055d28320e5fa5457922f43bc07dec58bd ALSA: hda/realtek: Add quirk for ASUS ROG GX650P
 9abc77fb144fe916fd2f592dc4b8c7bade02e58a ALSA: hda/realtek: Add quirk for ASUS ROG GA402X
 b759a5f097cd42c666f1ebca8da50ff507435fbe ALSA: hda/realtek: Amend G634 quirk to enable rear speakers
@@ -1051,4 +1051,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============6488384268712917101==--
+--===============1435145700545181376==--
