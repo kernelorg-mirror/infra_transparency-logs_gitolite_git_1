@@ -1,34 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 17 Jul 2023 17:16:08 -0000
-Message-Id: <168961416867.16466.14740079385118103843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 17 Jul 2023 17:29:24 -0000
+Message-Id: <168961496450.24343.11669724495554717322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 206b6a9bf620dbc1ffaffcae6b538648d599055a
-    new: ac07365c6c8d560b5dc998b87f9131f5040221d3
+  - ref: refs/heads/dev-test
+    old: 9e497eaf3ac15843062e6109801b80fe5777be27
+    new: 10c7134ee4408eb3ecc16b7177ca369cbbb8b697
     log: |
-         540792999344b81838f87e71a835d5791558859c Merge branch 'acpi-video' into linux-next
-         ac07365c6c8d560b5dc998b87f9131f5040221d3 Merge branch 'acpi-processor' into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: f7d2f4b15a188ee035203d5d27248b0dd5729924
-    new: 540792999344b81838f87e71a835d5791558859c
-    log: |
-         96b709be183c56293933ef45b8b75f8af268c6de ACPI: video: Add backlight=native DMI quirk for Lenovo Ideapad Z470
-         540792999344b81838f87e71a835d5791558859c Merge branch 'acpi-video' into linux-next
-         
-  - ref: refs/heads/testing
-    old: f7d2f4b15a188ee035203d5d27248b0dd5729924
-    new: 540792999344b81838f87e71a835d5791558859c
-    log: |
-         96b709be183c56293933ef45b8b75f8af268c6de ACPI: video: Add backlight=native DMI quirk for Lenovo Ideapad Z470
-         540792999344b81838f87e71a835d5791558859c Merge branch 'acpi-video' into linux-next
+         f5adeb15adf4fb1e915af7e1655e674920c2b1ea f2fs: don't reopen the main block device in f2fs_scan_devices
+         eb0e30a6f8a71161a594fef7f60b2a3c97ef2e86 f2fs: allow f2fs_ioc_{,de}compress_file to be interrupted
+         10c7134ee4408eb3ecc16b7177ca369cbbb8b697 f2fs: compress: don't {,de}compress non-full cluster
          
