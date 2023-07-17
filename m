@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 17 Jul 2023 06:43:25 -0000
-Message-Id: <168957620502.26738.18003392621251695932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 17 Jul 2023 06:58:27 -0000
+Message-Id: <168957710792.4484.16370172445418662969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/main
-    old: 6e8778f8e0f58cac4955b17130549b156cf9d25f
-    new: 4bdf79d686b49ac49373b36466acfb93972c7d7c
+  - ref: refs/heads/next
+    old: 76009ee76e05e30e29aade02e788aebe9ce9ffd2
+    new: 7559e7572c03e433efec7734af6a674fdd83dd68
     log: |
-         4bdf79d686b49ac49373b36466acfb93972c7d7c net: dsa: microchip: correct KSZ8795 static MAC table access
+         1fdfa7cccd35519d97a1f301b8143ea4196b2d16 phy: ti: gmii-sel: Allow parent to not be syscon node
+         7559e7572c03e433efec7734af6a674fdd83dd68 phy: Explicitly include correct DT includes
          
