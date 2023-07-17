@@ -1,31 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============1905766131221642938=="
+Content-Type: multipart/mixed; boundary="===============4741907372356648391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 17 Jul 2023 08:35:33 -0000
-Message-Id: <168958293327.10868.8572930724634459925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Mon, 17 Jul 2023 08:36:33 -0000
+Message-Id: <168958299380.11299.7568125609897789467@gitolite.kernel.org>
 
---===============1905766131221642938==
+--===============4741907372356648391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/habanalabs-fixes
-    old: 23faa78acd252116b47a2414dedc337d6bec0dc8
-    new: e595a063d080e3d0840934d3a1fc32fa8d900ae4
-    log: revlist-23faa78acd25-e595a063d080.txt
+  - ref: refs/heads/devel
+    old: 9f0648f13e34a01f2e1a7a0d5801988a7bca6988
+    new: 7a69e63d0d9bffd259229938171466e74f666579
+    log: revlist-9f0648f13e34-7a69e63d0d9b.txt
+  - ref: refs/heads/for-next
+    old: 04e601f2a71c804422a91df813e19fda5f4b845e
+    new: 7a69e63d0d9bffd259229938171466e74f666579
+    log: |
+         4bbee99da13a2ef84372ad8bdbb4a17c1065f088 dt-bindings: pinctrl: qcom-pmic-gpio: Add pm7550ba support
+         75ec058db332ea8e79cfc81e00a948dd2b5279cd dt-bindings: pinctrl: qcom-pmic-gpio: Add pmx75 support
+         8fff6514ff0a0d803c1cf98adebebd45865a3f5c pinctrl: qcom-pmic-gpio: Add support for pm7550ba
+         1e46c7430af766cc647c6a9cb469ac08ba603815 pinctrl: qcom-pmic-gpio: Add support for pmx75
+         28d8eb3687445f46b11216443e7ae3524681a2b1 pinctrl: berlin: as370: Use devm_platform_get_and_ioremap_resource()
+         2d357f25663ddfef47ffe26da21155302153d168 pinctrl: mvebu: Use devm_platform_get_and_ioremap_resource()
+         885b129f61350bbf77991f9f815cc26836745aa7 pinctrl: pic32: Convert to devm_platform_ioremap_resource()
+         49104893fe97bdf92b3d5ed4401246d71f49a279 pinctrl: ti: Convert to devm_platform_get_and_ioremap_resource()
+         ccd687377064b20197afcae14af136823f8819c6 dt-bindings: pinctrl: amlogic,meson-pinctrl: allow gpio-line-names
+         7a69e63d0d9bffd259229938171466e74f666579 dt-bindings: pinctrl: amlogic,meson-pinctrl-common: allow gpio hogs
+         
 
---===============1905766131221642938==
+--===============4741907372356648391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23faa78acd25-e595a063d080.txt
+Content-Disposition: attachment; filename=revlist-9f0648f13e34-7a69e63d0d9b.txt
 
+c8dce4e7438be24be7a5b8477555ba03c0fb16ae RDMA/bnxt_re: Remove incorrect return check from slow path
+25ed2d409f5ff73f1bde8e9b2863f686364cbc7f RDMA/bnxt_re: Refactor code around bnxt_qplib_map_rc()
+8bec7dd1b3f7d7769d433d67bde404de948a2d95 f2fs: check return value of freeze_super()
+ccf3ff2b30edd52fb54e239da25758fb22acfb78 f2fs: introduce F2FS_QUOTA_DEFAULT_FL for cleanup
+00e120b5e4b5638cf19eee96d4332f2d100746ba f2fs: assign default compression level
+698a5c8c8e05590d92629ad5796a421e14218e20 f2fs: add sanity compress level check for compressed file
+64ee9163fe1b911aa0476af06ee0afd23fdf7388 f2fs: compress: fix to check validity of i_compress_flag field
+f240d3aaf5a1552ecb75445b47b1ca957d5151d2 f2fs: do more sanity check on inode
+94c8431fb46bfbe51bd3eb68687334797af0a221 f2fs: set FMODE_CAN_ODIRECT instead of a dummy direct_IO method
+c571fbb5b59a3741e48014faa92c2f14bc59fe50 f2fs: add helper to check compression level
+dde38c03b351749f682db087df5202b55c7c1b40 f2fs: cleanup MIN_INLINE_XATTR_SIZE
+ac1ee161dec5801d9bbd874ef69cd0ff1e8053b6 f2fs: add f2fs_ioc_get_compress_blocks
+c9667b19e2cf13735fe2620f9d97b788897cd4af f2fs: check zone write pointer points to the end of zone
+9ac00e7cef106b66611e131f59f61f5ae35cf726 f2fs: do not issue small discard commands during checkpoint
+3f8ac7da8c6efd72908e0a16d4a149e79f356a00 f2fs: remove redundant assignment to variable err
+c3355ea9d82fe6b1a4226c9a7d311f9c5715b456 f2fs: convert to use sbi directly
+6201c478dedcf7c50361b23b5c4d4f41a68921ac f2fs: refactor struct f2fs_attr macro
+2724daf6c24c58099a758d1e842d39b10133b065 f2fs: compress tmp files given extension
+396d0a28836d42bef595a8843533285abaf64ff7 f2fs: update mtime and ctime in move file range method
+cf2423a7555c4b012576c7282fb495ce739d50d4 f2fs: remove unneeded page uptodate check/set
 e94f1f96f108ba96c0ed8bf3fbdd8ee6a6703880 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook
 a15b51375684c2bfa6017bb185139477e7a3b96c Merge branch 'for-next' into for-linus
 0ab83a6459604c566a745875c4df1aec8e8866c0 RDMA/bnxt_re: Remove duplicated include in bnxt_re/main.c
@@ -90,7 +125,6 @@ b5abb12cdd297339b30e95bc3e5e8e26723cf923 Merge branch 'pci/controller/vmd'
 d8c226ac1f748d0eac54ef869a4f41b26bc4f825 Merge branch 'pci/controller/endpoint'
 6ecac465eee887de7ceda7ffe3bccf538eb786bc Merge branch 'pci/controller/remove-void-callbacks'
 098c5dd9cf96fc6d7f35429561ef58cd7c5fcecf Merge tag 'erofs-for-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-7aa83fbd712a6f08ffa67890061f26d140c2a84f drm/bridge: ti-sn65dsi86: Fix auxiliary bus lifetime
 e940efa936be65866db9ce20798b13fdc6b3891a Merge tag 'zonefs-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 cc423f6337d0a5ff1906f3b3d465d28c0d1705f6 Merge tag 'for-6.5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 3eccc0c886b1796f95a289c9d127c8ca1a254bd5 Merge tag 'for-6.5/splice-2023-06-23' of git://git.kernel.dk/linux
@@ -174,8 +208,6 @@ bb6950556d4b1dd1226c1f09e84b53cb37e5340f Merge tag 'acpi-6.5-rc1' of git://git.k
 8d7868c41df58edabc4e408d119a1aef58a54d9d Merge tag 'thermal-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 1ef6663a587ba3e57dc5065a477db1c64481eedd Merge tag 'tag-chrome-platform-for-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
 25ea739ea1d4d3de41acc4f4eb2d1a97eee0eb75 powerpc: Fail build if using recordmcount with binutils v2.37
-e8188c461ee015ba0b9ab2fc82dbd5ebca5a5532 drm/ttm: Don't leak a resource on eviction error
-a590f03d8de7c4cb7ce4916dc7f2fd10711faabe drm/ttm: Don't leak a resource on swapout move error
 54a11654de163994e32b24e3aa90ef81f4a3184d powerpc: remove checks for binutils older than 2.25
 84d21f13af40f35e2e658f046d0c1e508e8a82ee Merge 'irq/loongarch-fixes-6.5' into loongarch-next
 767cfee8368f43c6d6c58cdf8c2d143a027fa55f crypto: akcipher - Set request tfm on sync path
@@ -508,7 +540,6 @@ e55e5df193d247a38a5e1ac65a5316a0adcc22fa csky: fix up lock_mm_and_find_vma() con
 0b76cc3e9081216918d5e7e907cf9efc7a5fa7db cpufreq: Make CONFIG_CPUFREQ_DT_PLATDEV depend on OF
 0fcfc9e51990246a9813475716746ff5eb98c6aa cpufreq: intel_pstate: Fix scaling for hybrid-capable systems with disabled E-cores
 67a4e1a3bf7c68ed3fbefc4213648165d912cabb irqdomain: Use return value of strreplace()
-1c519980aced3da1fae37c1339cf43b24eccdee7 drm/panel: simple: Add Powertip PH800480T013 drm_display_mode flags
 f7c2f4f6ce16fb58f7d024f3e1b40023c4b43ff9 ceph: only send metrics when the MDS rank is ready
 8b0da5c549ae63ba1debd92a350f90773cb4bfe7 ceph: try to dump the msgs when decoding fails
 d9d00f71ab5a2b5a47b228f678a8817e8687387f ceph: voluntarily drop Xx caps for requests those touch parent mtime
@@ -743,7 +774,6 @@ af40322e90d4e0093569eceb7d3a28ab635f3e75 s390/zcrypt: do not retry administrativ
 2b70a11955366b0732fbb63562458c316e01384a s390/zcrypt: remove ZCRYPT_MULTIDEVNODES kernel config option
 cada938a01586fc144902919e133354b1459db04 s390: fix various typos
 efccd4e0f3ab6d97dcb097d1ae4cf022b6487aa3 s390/entry: remove mcck clock
-f781f661e8c99b0cb34129f2e374234d61864e77 dma-buf: keep the signaling time of merged fences v3
 e1ef683c86d248e785499779156d9885fd4e85fc spi: rzv2m-csi: Fix SoC product name
 bd55842ed998a622ba6611fe59b3358c9f76773d ALSA: pcm: Fix potential data race at PCM memory allocation helpers
 7fb7998b599a2e1f3744fbd34a3e7145da841ed1 ovl: move all parameter handling into params.{c,h}
@@ -887,8 +917,6 @@ d8566d0e03922217f70d9be2d401fcb860986374 selftests: mptcp: userspace_pm: use cor
 6c8880fcaa5c45355179b759c1d11737775e31fc selftests: mptcp: depend on SYN_COOKIES
 61d9658050260dbcbf9055479b7ac5bbbe1e8831 selftests: mptcp: pm_nl_ctl: fix 32-bit support
 c451410ca7e3d8eeb31d141fc20c200e21754ba4 Merge branch 'mptcp-fixes'
-020b527b556a35cf636015c1c3cbdfe7c7acd5f0 accel/ivpu: Fix VPU register access in irq disable
-7f34e01f77f811ecb2ef83e60301b38cf89af466 accel/ivpu: Clear specific interrupt status bits on C0
 02b0095e2fbbc060560c1065f86a211d91e27b26 tracing: Fix null pointer dereference in tracing_err_log_open()
 931a2ca6a5ba4bfa6062aa9475d4e6a835d75e83 arm64: ftrace: fix build error with CONFIG_FUNCTION_GRAPH_TRACER=n
 aeb71e42caae2031ec849a858080d81462cacca9 dt-bindings: riscv: deprecate riscv,isa
@@ -928,7 +956,6 @@ d14de8067e3f9653cdef5a094176d00f3260ab20 cifs: Add a laundromat thread for cache
 c17414a273b81fe4e34e11d69fc30cc8b1431614 Merge tag 'sh-for-v6.5-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d011f0c395c6f59ae3d494b1beec0d101eab1115 Merge tag 'drm-misc-next-fixes-2023-06-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 826eeaf68b03e5b96bdbc11e3e796f8b562bc0e3 MIPS: dts: add missing space before {
-00ae1491f970acc454be0df63f50942d94825860 dma-buf: fix an error pointer vs NULL bug
 89dbb335cb6a627a4067bc42caa09c8bc3326d40 ALSA: jack: Fix mutex call in snd_jack_report()
 c91e587be8e2680786cbf0b87fa7ae92c345857f Merge tag 'linux-watchdog-6.5-rc1' of git://www.linux-watchdog.org/linux-watchdog
 0b907305022beb1a4cf5b9f6d776483a2356c841 Merge tag 'dmaengine-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
@@ -967,7 +994,6 @@ bd10668c5c68d8909526c591b57d75945026f529 Merge tag 'drm-intel-next-fixes-2023-07
 94e0d43e51ff8577ad273032bb1cacfd68e9297b Merge tag 'acpi-6.5-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 5133c9e51de41bfa902153888e11add3342ede18 Merge tag 'drm-next-2023-07-07' of git://anongit.freedesktop.org/drm/drm
 5251605f4d297a0eb5d3b7f39f9dcee9e4d0115a ALSA: hda/realtek: Add quirk for ASUS ROG GZ301V
-15008052b34efaa86c1d56190ac73c4bf8c462f9 drm/fbdev-dma: Fix documented default preferred_bpp value
 3a6dbb691782e88e07e5c70b327495dbd58a2e7f MIPS: kvm: Fix build error with KVM_MIPS_DEBUG_COP0_COUNTERS enabled
 b1472a60a584694875a05cf8bcba8bdf0dc1cd3a x86/smp: Don't send INIT to boot CPU
 70806ee18a871140a73a2524a29865e1d904348c Merge tag 'apparmor-pr-2023-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
@@ -1029,26 +1055,15 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-a2848d08742c8e8494675892c02c0d22acbe3cf8 drm/ttm: never consider pinned BOs for eviction&swap
-2f98e686ef59b5d19af5847d755798e2031bee3a Merge v6.5-rc1 into drm-misc-fixes
-5c413188c68da0e4bffc93de1c80257e20741e69 drm/i915: Don't preserve dpll_hw_state for slave crtc in Bigjoiner
-dde4c3d477d834212947f38519407df404acde4a drm/i915/perf: Consider OA buffer boundary when zeroing out reports
-6bf0961a008ac74b085f1690fba8520ac3b253ee drm/i915: Remove dead code from gen8_pte_encode
-113899c2669dff148b2a5bea4780123811aecc13 drm/i915: Fix one wrong caching mode enum usage
-27655b9bb9f0d9c32b8de8bec649b676898c52d5 drm/client: Send hotplug event after registering a client
-d94303699921bda8141ad33554ae55b615ddd149 drm/nouveau/disp: fix HDMI on gt215+
-c177872cb056e0b499af4717d8d1977017fd53df drm/nouveau/disp/g94: enable HDMI
-d934e537c14bfe1227ced6341472571f354383e8 drm/amd/pm: fix smu i2c data read risk
-8a774fe912ff09e39c2d3a3589c729330113f388 drm/amdgpu: avoid restore process run into dead loop.
-dcb489bae65d92cfd26da22c7a0d6665b06ecc63 drm/amd/pm: share the code around SMU13 pcie parameters update
-31c7a3b378a136adc63296a2ff17645896fcf303 drm/amd/pm: conditionally disable pcie lane/speed switching for SMU13
-188623076d0f1a500583d392b6187056bf7cc71a drm/amd: Move helper for dynamic speed switch check out of smu13
-e701156ccc6c7a5f104a968dda74cd6434178712 drm/amd: Align SMU11 SMU_MSG_OverridePcieParameters implementation with SMU13
-938a06c8b7913455073506c33ae3bff029c3c4ef drm/nouveau/acr: Abort loading ACR if no firmware was found
-835a65f51790e1f72b1ab106ec89db9ac15b47d6 drm/nouveau: bring back blit subchannel for pre nv50 GPUs
-b7a57386b851aa28547c0d389644ec77d59cbc23 Merge tag 'drm-misc-fixes-2023-07-13' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
-864e029fea2b8e6583e026a6f93e8933ba626d42 Merge tag 'drm-intel-fixes-2023-07-13' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-38d88d5e97c9032ebeca092b9372209f2ca92cdf Merge tag 'amd-drm-fixes-6.5-2023-07-12' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-e595a063d080e3d0840934d3a1fc32fa8d900ae4 accel/habanalabs: add more debugfs stub helpers
+4bbee99da13a2ef84372ad8bdbb4a17c1065f088 dt-bindings: pinctrl: qcom-pmic-gpio: Add pm7550ba support
+75ec058db332ea8e79cfc81e00a948dd2b5279cd dt-bindings: pinctrl: qcom-pmic-gpio: Add pmx75 support
+8fff6514ff0a0d803c1cf98adebebd45865a3f5c pinctrl: qcom-pmic-gpio: Add support for pm7550ba
+1e46c7430af766cc647c6a9cb469ac08ba603815 pinctrl: qcom-pmic-gpio: Add support for pmx75
+28d8eb3687445f46b11216443e7ae3524681a2b1 pinctrl: berlin: as370: Use devm_platform_get_and_ioremap_resource()
+2d357f25663ddfef47ffe26da21155302153d168 pinctrl: mvebu: Use devm_platform_get_and_ioremap_resource()
+885b129f61350bbf77991f9f815cc26836745aa7 pinctrl: pic32: Convert to devm_platform_ioremap_resource()
+49104893fe97bdf92b3d5ed4401246d71f49a279 pinctrl: ti: Convert to devm_platform_get_and_ioremap_resource()
+ccd687377064b20197afcae14af136823f8819c6 dt-bindings: pinctrl: amlogic,meson-pinctrl: allow gpio-line-names
+7a69e63d0d9bffd259229938171466e74f666579 dt-bindings: pinctrl: amlogic,meson-pinctrl-common: allow gpio hogs
 
---===============1905766131221642938==--
+--===============4741907372356648391==--
