@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7580696364351308034=="
+Content-Type: multipart/mixed; boundary="===============2237103201547853990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 17 Jul 2023 17:59:52 -0000
-Message-Id: <168961679253.15263.11315425726852990313@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 18:00:01 -0000
+Message-Id: <168961680109.15386.1882222659432774856@gitolite.kernel.org>
 
---===============7580696364351308034==
+--===============2237103201547853990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 6f68fc395f49fb43f6ae801c340953ee4f793e98
-    new: 0dd1805fe498e0cf64f68e451a8baff7e64494ec
-    log: revlist-6f68fc395f49-0dd1805fe498.txt
-  - ref: refs/heads/master
-    old: 6f68fc395f49fb43f6ae801c340953ee4f793e98
-    new: 0dd1805fe498e0cf64f68e451a8baff7e64494ec
-    log: revlist-6f68fc395f49-0dd1805fe498.txt
+  - ref: refs/heads/testing
+    old: e38910c0072b541a91954682c8b074a93e57c09b
+    new: 9efa1a5407e81265ea502cab83be4de503decc49
+    log: revlist-e38910c0072b-9efa1a5407e8.txt
 
---===============7580696364351308034==
+--===============2237103201547853990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689616788 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689616797 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1689616785-f8035a378b9eb96871eeee0dd888effe0b262d55
+nonce 1689616797-8c87ce0aab4aa666f486ba56513732aa7ecf1f3a
 
-6f68fc395f49fb43f6ae801c340953ee4f793e98 0dd1805fe498e0cf64f68e451a8baff7e64494ec refs/heads/main
-6f68fc395f49fb43f6ae801c340953ee4f793e98 0dd1805fe498e0cf64f68e451a8baff7e64494ec refs/heads/master
+e38910c0072b541a91954682c8b074a93e57c09b 9efa1a5407e81265ea502cab83be4de503decc49 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS1gZQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6ImwB/9RHPT4CtoDOnt2kwy9imWIULyz8Hbq
-mF8yTNcYqCVKFn4r+tRo58048vDevOHBkEgzwnea70Od1MgTHZEO83XInsrLTTa0
-ZMbqvB10FGVJLKpAJtH7brshQhLyCwii0F0nIeFxBXZf6efzLg8jEu4Z6Ec6XtVc
-h3C4DShX5t3lrQ9vokGu5GVQbViSX4ftQzYRshHP6FhZIvsIivcB+8vt3ZuYn6pC
-CZ07Cj7RlvltnpTgpY1KMljr9JrW7k+2O+lLkQDYUl82sWqGNE1xzT4okiCJmckS
-WGu+vFy/3nUECsq8wlzhVrniArbH26+DBoijJ95iXh3vpZH+kFX8WbDZ
-=WSr4
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS1gZ0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6BadB/0czP6OqO0DomaQCtcpNzLpgAYcZwoH
+m/bIITTti8k/t62gEOAfRmP6qHyN9hWMjHkTErKL8WmnW0cnaEP0zcuuUgEXZkdF
+7vOS0OaNvmv6H7WVKQ0nZHEXhuunLHDsd/yNuLtUnDKPkr7skDQo3ISIW2mPTMYA
+hpK2XEkgMnap8aSZBS2n45rfQdvmcu8KWbGPbrRTC+B72THJKLcVw59Pvogl/0ZE
+Ey3Pt8o4bGAPhjvH2H/OgKNduzsA6tnGnWsUx6udo/WtdZmWzzRU0zFXDDEWvZwp
+xIQcbrmKFHEtAhUJFQi33E5nPedSBF/9LddsS3+adAx1hWrQoJXKl2le
+=kEnZ
 -----END PGP SIGNATURE-----
 
---===============7580696364351308034==
+--===============2237103201547853990==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6f68fc395f49-0dd1805fe498.txt
+Content-Disposition: attachment; filename=revlist-e38910c0072b-9efa1a5407e8.txt
 
-31464ab01fff910cb88376384e2b6824f7bf713f jbd2: skip reading super block if it has been verified
-2ef6c32a914b85217b44a0a2418e830e520b085e ext4: avoid updating the superblock on a r/o mount if not needed
-19300488c9d9c9ed539ab3f4f1bfc0050c9a4482 Merge tag 'x86_cleanups_for_6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f810c182366acd2eb7eb5efb3c06b1fc9f719835 Merge tag 'm68k-for-v6.5-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-2b603cd5b78fe79af0498824fbd9281b1fba6a75 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-2605e80d3438c77190f55b821c6575048c68268e Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 5fb2864cbd50a84a73af4fdd900b31f2daddea34 OPP: Properly propagate error along when failing to get icc_path
 bb6950556d4b1dd1226c1f09e84b53cb37e5340f Merge tag 'acpi-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 40e8e98f512fc76891ae2328a63e2e4ffdbe3010 Merge tag 'pm-6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1080,5 +1069,11 @@ d1533d726aa1efca3a7ae8f40c94ccb149d22e6a net: NSH: fix kernel-doc notation warni
 d1cca974548d76e0fa8b6761d25f7b47376a3780 pie: fix kernel-doc notation warning
 04be3c95da8266a099c8446b6d1205ccf8a62e66 rsi: remove kernel-doc comment marker
 0dd1805fe498e0cf64f68e451a8baff7e64494ec Merge branch 'net-fix-kernel-doc-problems-in-include-net'
+ee8b94c8510ce64afe0b87ef548d23e00915fb10 can: raw: fix receiver memory leak
+55c3b96074f3f9b0aee19bf93cd71af7516582bb can: bcm: Fix UAF in bcm_proc_show()
+2603be9e8167ddc7bea95dcfab9ffc33414215aa can: gs_usb: gs_can_open(): improve error handling
+5886e4d5ecec3e22844efed90b2dd383ef804b3a can: gs_usb: fix time stamp counter initialization
+dc050849d93f4c5d8a88dc6789668212b7785967 Merge patch series "can: gs_usb: fix time stamp counter initialization"
+9efa1a5407e81265ea502cab83be4de503decc49 can: mcp251xfd: __mcp251xfd_chip_set_mode(): increase poll timeout
 
---===============7580696364351308034==--
+--===============2237103201547853990==--
