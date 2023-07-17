@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8899945822988624585=="
+Content-Type: multipart/mixed; boundary="===============7273032801788762297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 17 Jul 2023 09:14:19 -0000
-Message-Id: <168958525921.7113.11080241631252622703@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 09:14:27 -0000
+Message-Id: <168958526740.7221.5419787235444206087@gitolite.kernel.org>
 
---===============8899945822988624585==
+--===============7273032801788762297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
     log: revlist-06c2afb862f9-fdf0eaf11452.txt
 
---===============8899945822988624585==
+--===============7273032801788762297==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -330,4 +330,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============8899945822988624585==--
+--===============7273032801788762297==--
