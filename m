@@ -1,24 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 17 Jul 2023 17:10:48 -0000
-Message-Id: <168961384873.12647.5719405750857126640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 17 Jul 2023 17:16:08 -0000
+Message-Id: <168961416867.16466.14740079385118103843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/asoc-topology-kunit-enable
-    old: ff2d2bd235bab4138adfdb60a987c3d522c20be8
-    new: 3ab0374fc2ea1b004851366f71a40a04f4b88726
+  - ref: refs/heads/bleeding-edge
+    old: 206b6a9bf620dbc1ffaffcae6b538648d599055a
+    new: ac07365c6c8d560b5dc998b87f9131f5040221d3
     log: |
-         c4d51b9021009db1b8d3714f167bc32b4a4c9dad ASoC: Improve coverage in default KUnit runs
-         c2610038da66b843d43f31648ce40be2d8c53b6b driver core: Provide stubs for !IOMEM builds
-         4a7d22d4b38c321bb53886c36677a171401bb585 platform: Provide stubs for !HAS_IOMEM builds
-         e4873b92816db8cf027e602bcf4e042a41dd4504 ALSA: Enable build with UML
-         05550384cb650021c1b6a0793bad64b7dea18795 kunit: Enable ASoC in all_tests.config
-         3ab0374fc2ea1b004851366f71a40a04f4b88726 ASoC: topology: Add explicit build option
+         540792999344b81838f87e71a835d5791558859c Merge branch 'acpi-video' into linux-next
+         ac07365c6c8d560b5dc998b87f9131f5040221d3 Merge branch 'acpi-processor' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: f7d2f4b15a188ee035203d5d27248b0dd5729924
+    new: 540792999344b81838f87e71a835d5791558859c
+    log: |
+         96b709be183c56293933ef45b8b75f8af268c6de ACPI: video: Add backlight=native DMI quirk for Lenovo Ideapad Z470
+         540792999344b81838f87e71a835d5791558859c Merge branch 'acpi-video' into linux-next
+         
+  - ref: refs/heads/testing
+    old: f7d2f4b15a188ee035203d5d27248b0dd5729924
+    new: 540792999344b81838f87e71a835d5791558859c
+    log: |
+         96b709be183c56293933ef45b8b75f8af268c6de ACPI: video: Add backlight=native DMI quirk for Lenovo Ideapad Z470
+         540792999344b81838f87e71a835d5791558859c Merge branch 'acpi-video' into linux-next
          
