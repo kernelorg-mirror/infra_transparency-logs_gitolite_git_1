@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3260185536310063187=="
+Content-Type: multipart/mixed; boundary="===============3868645784160544321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 17 Jul 2023 00:43:19 -0000
-Message-Id: <168955459954.17234.6317707706182102557@gitolite.kernel.org>
+Date: Mon, 17 Jul 2023 00:43:28 -0000
+Message-Id: <168955460897.17397.12880139718218148133@gitolite.kernel.org>
 
---===============3260185536310063187==
+--===============3868645784160544321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/for-next
     old: 863a85ef798aa61dc004f9e390cba75cf6f17b82
     new: 5cff2dbd980d6df90e90d56864754ccdd8c4f23f
     log: revlist-863a85ef798a-5cff2dbd980d.txt
 
---===============3260185536310063187==
+--===============3868645784160544321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ bc3dadea4cfaccb46b0bfbde69591f1d76ea531d ata: pata_ixp4xx: Use devm_platform_get
 ebc8cea639cbba8fdcaa12c4b11baac1084368a4 ata: pata_ftide010: Use devm_platform_get_and_ioremap_resource()
 5cff2dbd980d6df90e90d56864754ccdd8c4f23f ata: pata_imx: Use devm_platform_get_and_ioremap_resource()
 
---===============3260185536310063187==--
+--===============3868645784160544321==--
