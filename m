@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 18 Jul 2023 09:09:40 -0000
-Message-Id: <168967138084.3584.673401302090495061@gitolite.kernel.org>
+Date: Tue, 18 Jul 2023 09:30:32 -0000
+Message-Id: <168967263250.19158.6941039884127993360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: a7f6eb19e26dc81b1bc469689b9a4c2caceaf852
-    new: c62c0a17f9b7398022f9eebe547878033264f81f
+    old: c62c0a17f9b7398022f9eebe547878033264f81f
+    new: 9ffc4de5c695df237644502a87d10165cd455501
     log: |
-         c62c0a17f9b7398022f9eebe547878033264f81f netconsole: Append kernel version to message
+         9ffc4de5c695df237644502a87d10165cd455501 ptp: Explicitly include correct DT includes
          
