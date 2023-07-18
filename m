@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1376581624099079661=="
+Content-Type: multipart/mixed; boundary="===============7834936455747385524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 18 Jul 2023 19:51:25 -0000
-Message-Id: <168970988574.3528.10517771470871837109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 18 Jul 2023 19:55:33 -0000
+Message-Id: <168971013374.6802.12512379429153597397@gitolite.kernel.org>
 
---===============1376581624099079661==
+--===============7834936455747385524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: fb0da0c953c1e3bebbcdcbe458c178c2ae7bf87d
-    new: 179d34cb68c807437485509dc92ef71bcde10258
-    log: |
-         179d34cb68c807437485509dc92ef71bcde10258 drop btrfs-move-out-now-unused-bg-from-the-reclaim-list.patch
-         
+    old: 9dd8d5cd6a64bb506244356da8796c12bb828268
+    new: dbdba2c9dcbbe1eb0b503993bebd80224af0012b
+    log: revlist-9dd8d5cd6a64-dbdba2c9dcbb.txt
 
---===============1376581624099079661==
+--===============7834936455747385524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9dd8d5cd6a64-dbdba2c9dcbb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689709884 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1689709884-90e63501c174fe1338bcbe508c521740335fa745
+ae2698f0f0ceeac443ab07bd290e99108895e1a4 security: keys: perform capable check only on privileged operations
+670982022413341325d2bc07dfb4e0beac01de64 KEYS: Replace all non-returning strlcpy with strscpy
+ea6c438550e31375a99a8fb56f7e887aecb325c3 KEYS: DigitalSignature link restriction
+641a1c5cd456a335379d324f450981f5b3b582dc integrity: Enforce digitalSignature usage in the ima and evm keyrings
+74daceab00fde25407e4289d317d0e66ba8cff65 tpm_tis-spi: Add hardware wait polling
+0568d4512b4bad87d324c634722d90a2d56cf5c1 tpm: Switch i2c drivers back to use .probe()
+bd472c6caf001fea4de9b5c2067beda659404637 tpm_tis: Explicitly check for error code
+eb1fcddda84d936aeece8ec981894774e16f7bf2 tpm_tis: Move CRC check to generic send routine
+437ec56a29d0e9493922368f9c43a402dd7ec185 tpm_tis: Use responseRetry to recover from data transfer errors
+3318e60e4ea22952e9b5463894bb8607b7b9eaf8 tpm_tis: Resend command to recover from data transfer errors
+d4e2034d18ad10a24551462afa2fd7e6cfa6550c tpm: remove redundant variable len
+dbdba2c9dcbbe1eb0b503993bebd80224af0012b tpm: make all 'class' structures const
 
-fb0da0c953c1e3bebbcdcbe458c178c2ae7bf87d 179d34cb68c807437485509dc92ef71bcde10258 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS27T0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++d4P/R/nmcqHtHVL3qPLWFr1
-cX9WB+cNizFC5Y86ngEjWePFiZSuS3e+mfIS9RSMidjILhdaSgjbVkqPvV6aedHR
-pNBj/9SxBhcCZjJfj5cmI2NUUTNwpT73h4keUpTQhML+8gn2elDOtm7jBW84/3qU
-k6D7oiN+izA3gGmfppx8lt7ZDA/e5ISautMq0NQG6Xw/4TNYT8Y3W0yGkHBy0Qv6
-iSeoxeqfqUIPMPSlGLRZ43HRIVx/qzbZ0Q2lLFNqo8bBgpAk2ZVAcw3Er+QAvVvi
-8IM6mIbgaeJbqFF02oVtWsyKSsUCbPHGzNZ+WXYQOcT7i1lldgd9x9iyzBM6CjxN
-CMkHZJMVjOJLLJF2sL+XvLt8LKIs8HwA+LusqQTrGpaKri1+Q5d9tC4y1j8qvkTO
-Xsbcdq+hSVOqtlwpjE53UzGiYsLshdcObI+NoSpaEvqc0FIF34kTuu6mXqmyclgy
-DYHbdtEu2Ff6hHaN+W9y8sI008MQkBQIhQQovsSQkm7Gro0x2OA1EWT/mnANhlAp
-3C2ORj35yyVHaWvLy3MffzoivHuU/PE1wlRXREF+66wu/+wvcXXd1TwG3hC7Wcte
-Kd6TNjqah4FcxVArJKc4I9u1rykr+ma2ZM9HpaFqBTH7b9tMhSvy9Tdhpo0WzWd9
-zMOOhBA1n31RJv/kqS+4F1ut
-=gSjh
------END PGP SIGNATURE-----
-
---===============1376581624099079661==--
+--===============7834936455747385524==--
