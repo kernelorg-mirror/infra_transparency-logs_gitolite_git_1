@@ -1,35 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Jul 2023 18:46:09 -0000
-Message-Id: <168970596996.18714.9947212973417094257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 18 Jul 2023 18:46:24 -0000
+Message-Id: <168970598445.18887.18326122719055020494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 6f9257c36a035555c54041357328ece154a5e38d
-    new: abf81bf92857e5bfa3c044a1461e3e92a01a8a87
+    old: 6bb46a710fa7b1a9428983c1af65909f5c3cc635
+    new: db5ca3fc2b8cc25724ba92c92fd27c99faf9866f
     log: |
-         abf81bf92857e5bfa3c044a1461e3e92a01a8a87 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         db5ca3fc2b8cc25724ba92c92fd27c99faf9866f Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 0545a9385ebc0c1baa2b69ddd7ce54f3e1310e15
-    new: 9da13f44a51c7a80f3272703c55a020df70ca37b
+    old: 709ef1f9327cc80e975dadc8ef2f2a682d6230b7
+    new: 55a1cfa1ce01f36e1e44e4ccd13774b3b9a91d40
     log: |
-         09f75f098105d65c37915e41a6ed3a75ec3ecfc7 ASoC: soc-dai.c: add DAI get/match functions
-         45655ec69cb954d7fa594054bec33d6d5b99f8d5 ASoC: soc-core.c: enable multi Component
-         442ae56cf5c007faaf7440d4aa018c62e5761157 ASoC: soc-core.c: add snd_soc_get_dai_via_args()
-         988bad5ee4d7138d26081f3661779b63725605d8 ASoC: soc-core.c: add snd_soc_dlc_use_cpu_as_platform()
-         bbde4a30c6b18dd034dcce41612907dc64817175 ASoC: soc-core.c: add snd_soc_copy_dai_args()
-         90de551c1bf0c78ca5cd10c5ff424dee4d44cb1c ASoC: simple-card-utils.c: enable multi Component support
-         970dc991b2aaf22cdd497bf66c8fbb13c28c7de4 ASoC: simple-card.c: enable multi Component support
-         c1325a2d5182f263f2edbc6e0c1e581e4c5d5a95 ASoC: amd: acp: delete unnecessary NULL check
-         4da4a7467f90a0272d2b14c40ea0345255c9b132 ASoC: add multi Component support
-         abf81bf92857e5bfa3c044a1461e3e92a01a8a87 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         9da13f44a51c7a80f3272703c55a020df70ca37b Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         f572ba797c639c9b1705908d3f5d71ed7c3f53e0 spi: rzv2m-csi: Add missing include
+         74e27ce8d23c3aeb1a9fdcaf6261462506bbbfc3 spi: rzv2m-csi: Adopt HZ_PER_MHZ for max spi clock
+         aecf9fbdb7a4dc6d83e8d9984c8d9dc074d8ea2e spi: rzv2m-csi: Rework CSI_CKS_MAX definition
+         2ed2699f58891c72fcd462129345d09424f986c5 spi: rzv2m-csi: Leave readl_poll_timeout calls for last
+         9f5ac599801c0f7c0969fa94c638265ed988b9bc spi: rzv2m-csi: Replace unnecessary ternary operators
+         dfc07ee62c03eaaaf806fccc50bd52fcbc9f828f spi: spi-fsl-lpspi: Move controller initialization further down
+         f46b06e62c86a688ebe691b004f3056818c8ed15 spi: spi-fsl-lpspi: Read chip-select amount from hardware for i.MX93
+         35057870b1cb4d1fcc16b72590befed091d3bed0 spi: rzv2m-csi: Code refactoring
+         db5ca3fc2b8cc25724ba92c92fd27c99faf9866f Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         55a1cfa1ce01f36e1e44e4ccd13774b3b9a91d40 Merge remote-tracking branch 'spi/for-6.6' into spi-next
          
