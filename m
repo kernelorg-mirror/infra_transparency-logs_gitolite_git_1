@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 18 Jul 2023 11:47:07 -0000
-Message-Id: <168968082710.4800.92074988169568733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 18 Jul 2023 11:47:20 -0000
+Message-Id: <168968084061.4991.18098002806962236063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    new: 0c9d2eb5e94792fe64019008a04d4df5e57625af
+    old: e6d4c24fce0ff33e8f4a7858a9abc020625bd3da
+    new: 6bb46a710fa7b1a9428983c1af65909f5c3cc635
     log: |
-         bc64734825c59e18a27ac266b07e14944c111fd8 regmap: Drop initial version of maximum transfer length fixes
-         0c9d2eb5e94792fe64019008a04d4df5e57625af regmap: Account for register length in SMBus I/O limits
+         6bb46a710fa7b1a9428983c1af65909f5c3cc635 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 1c004e45fffb4b701a7ab5d4baeed037af442078
-    new: a563d12d1008350c33cf9e3e95d09d73c2739cb6
+    old: f75e9322ebf4fe8d89c20252333a620ddc621d14
+    new: 709ef1f9327cc80e975dadc8ef2f2a682d6230b7
     log: |
-         bc64734825c59e18a27ac266b07e14944c111fd8 regmap: Drop initial version of maximum transfer length fixes
-         0c9d2eb5e94792fe64019008a04d4df5e57625af regmap: Account for register length in SMBus I/O limits
-         a563d12d1008350c33cf9e3e95d09d73c2739cb6 Merge remote-tracking branch 'regmap/for-6.6' into regmap-next
+         a55265eeedafee12d9743196ce5bb43266509c31 spi: spi-fsl-lpspi: Remove num_cs from device struct
+         6bb46a710fa7b1a9428983c1af65909f5c3cc635 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         709ef1f9327cc80e975dadc8ef2f2a682d6230b7 Merge remote-tracking branch 'spi/for-6.6' into spi-next
          
