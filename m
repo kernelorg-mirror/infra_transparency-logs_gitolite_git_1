@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 18 Jul 2023 19:31:53 -0000
-Message-Id: <168970871391.19676.6471179871997507583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 18 Jul 2023 19:33:47 -0000
+Message-Id: <168970882790.20469.17716958385279893844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 65be4d5e1746a34df93a676f4e0cb1e031b92c19
-    new: 92b88040f0c4723b6d4ad685875b7f6785db485a
+  - ref: refs/heads/misc
+    old: 091f9f7f3b819434eed5c1c3acad6c7b32bf13f6
+    new: c925cfaf0992f151c02f239e035ca9316224f224
     log: |
-         3bc72e01fc82377d143b3315fd47baf87526fa53 foo
-         92b88040f0c4723b6d4ad685875b7f6785db485a foo
+         c00f94ad9ab0ea1560b9d98d96bfef0a9886394e x86/PCI: Use struct_size() in pirq_convert_irt_table()
+         c925cfaf0992f151c02f239e035ca9316224f224 PCI: Explicitly include correct DT includes
          
