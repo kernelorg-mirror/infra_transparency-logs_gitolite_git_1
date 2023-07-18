@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
-Date: Tue, 18 Jul 2023 22:39:07 -0000
-Message-Id: <168971994758.28959.1240942954321084074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 18 Jul 2023 22:44:15 -0000
+Message-Id: <168972025526.32454.5728396194313289097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux-next
-user: mcgrof
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/large-block-nobdev-20230714-minorder
-    old: 0000000000000000000000000000000000000000
-    new: 037b96adc07c3f2004459646537f6735ec545aca
+  - ref: refs/heads/next
+    old: c867248cf451964a14c64b4ca232055f117df9c1
+    new: 90aa4f5e92f2797c3c86e05f588ab277b0e0ba39
+    log: |
+         90aa4f5e92f2797c3c86e05f588ab277b0e0ba39 selinux: de-brand SELinux
+         
