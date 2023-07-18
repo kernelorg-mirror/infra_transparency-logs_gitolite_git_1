@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895447080980691047=="
+Content-Type: multipart/mixed; boundary="===============3968347864454820707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 18 Jul 2023 16:15:25 -0000
-Message-Id: <168969692585.6093.12314723282985826383@gitolite.kernel.org>
+Date: Tue, 18 Jul 2023 16:15:32 -0000
+Message-Id: <168969693268.6234.3094152987832042621@gitolite.kernel.org>
 
---===============5895447080980691047==
+--===============3968347864454820707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 31e9f406efae513156c129e9f7ad16b9f0ec7a65
     new: 1f5ce01d5d7179e31e93206cf6b32745acabc455
     log: revlist-31e9f406efae-1f5ce01d5d71.txt
 
---===============5895447080980691047==
+--===============3968347864454820707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 1f5ce01d5d7179e31e93206cf6b32745acabc455 dt-bindings: crypto: qcom-qce: add SoC compatible string for ipq9574
 
---===============5895447080980691047==--
+--===============3968347864454820707==--
