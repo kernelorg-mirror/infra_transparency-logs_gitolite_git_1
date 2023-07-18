@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1510069063260231310=="
+Content-Type: multipart/mixed; boundary="===============5248267561062228130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Jul 2023 23:26:01 -0000
-Message-Id: <168972276136.31384.18259862593210398010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 18 Jul 2023 23:26:15 -0000
+Message-Id: <168972277559.31566.15797597582889396911@gitolite.kernel.org>
 
---===============1510069063260231310==
+--===============5248267561062228130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: df4167d658d45946677f91d84e9d40570c875cb8
-    new: b174f9cab5fb178ddb1df61e4737cabf8e0e5b91
-    log: revlist-df4167d658d4-b174f9cab5fb.txt
+  - ref: refs/heads/for-linus
+    old: 792f5e8d200179ebd7099a94c95ec9cd7e76b79a
+    new: 5886c67b3ffb20d140de2028c2b364801b32a815
+    log: |
+         5886c67b3ffb20d140de2028c2b364801b32a815 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 7ff0e86bd332cc74bb71b0c81b152e05db97a22b
+    new: e5bfd531cc608da28707745c3f2d9dd954d2486a
+    log: revlist-7ff0e86bd332-e5bfd531cc60.txt
 
---===============1510069063260231310==
+--===============5248267561062228130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1689722759 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1689722758-75b01c1611d9ff40f9942d8d27b28443bdaf4f72
-
-df4167d658d45946677f91d84e9d40570c875cb8 b174f9cab5fb178ddb1df61e4737cabf8e0e5b91 refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS3H4cACgkQJNaLcl1U
-h9CfdAf+PJx0CdZD9MS6LtDoJNPXUjADVuGhbHusmLYNmgqq5P9r0zkU6nwWE9JE
-STy3y9Broi/K0AfCxj6Lw35yMV5zL3Gy+DI23pBgtae+LVj+UvBXzbmEOG0G4zYA
-FAB0PRfJchDPhVEp+33ZXKxAASsYAVvb9vn/ZcTGTxhDjV38EkQW+yWeiYpC9nQ8
-SLPYsup2YMz7wpLnDIJuWzD+KvxfI05rdMTsbqypTAlQZwxeoHVM0cwPmLs1ixG1
-rHF7AgvT7iD86ydv8p7W0NREKLk/rMOYXgmLXuNhyDamwTUVSpwXN3G6tgOImrt6
-AupzMHIaghoJgVqyBDtx21+K6JHUQg==
-=RWUH
------END PGP SIGNATURE-----
-
---===============1510069063260231310==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df4167d658d4-b174f9cab5fb.txt
+Content-Disposition: attachment; filename=revlist-7ff0e86bd332-e5bfd531cc60.txt
 
 317af09e296f70e4fb55b17f49655e103a794172 ASoC: cs35l36: Update to use maple tree register cache
 78138627acc014dc3a23cb6f29f53a025544743f ASoC: cs35l41: Update to use maple tree register cache
@@ -100,5 +81,7 @@ fb60b65a65b038f1881a3f1a0146c07e22f647d0 ASoC: wm8988: Update to use maple tree 
 2e3a4ee07211b047881b3f2e944453cdd4deaf96 ASoC: wm9712: Update to use maple tree register cache
 8bfb4c81b9c896448e5d7229f1849bd0ad7c2f20 ASoC: wm9713: Update to use maple tree register cache
 b174f9cab5fb178ddb1df61e4737cabf8e0e5b91 ASoC: cirrus: Use the maple tree register cache
+5886c67b3ffb20d140de2028c2b364801b32a815 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+e5bfd531cc608da28707745c3f2d9dd954d2486a Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
---===============1510069063260231310==--
+--===============5248267561062228130==--
