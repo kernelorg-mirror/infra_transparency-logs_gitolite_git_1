@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Jul 2023 22:23:28 -0000
-Message-Id: <168971900807.16833.3676323177372493383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 18 Jul 2023 22:28:08 -0000
+Message-Id: <168971928896.20193.6608616486412503389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/for-linus
-    old: abf81bf92857e5bfa3c044a1461e3e92a01a8a87
-    new: 792f5e8d200179ebd7099a94c95ec9cd7e76b79a
+  - ref: refs/heads/master
+    old: 8fcd7c7b3a38ab5e452f542fda8f7940e77e479a
+    new: a8237cc87e3de1adb3f2f6a8056621e7e578cc00
     log: |
-         792f5e8d200179ebd7099a94c95ec9cd7e76b79a Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 9da13f44a51c7a80f3272703c55a020df70ca37b
-    new: 7ff0e86bd332cc74bb71b0c81b152e05db97a22b
-    log: |
-         df4167d658d45946677f91d84e9d40570c875cb8 ASoC: cs35l56: Patch soft registers to defaults
-         792f5e8d200179ebd7099a94c95ec9cd7e76b79a Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         7ff0e86bd332cc74bb71b0c81b152e05db97a22b Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         ba7b3e7d5f9014be65879ede8fd599cb222901c9 bpf: Fix subprog idx logic in check_max_stack_depth
+         b5e9ad522c4ccd32d322877515cff8d47ed731b9 bpf: Repeat check_max_stack_depth for async callbacks
+         824adae4530b4db1d06987d8dd31a0adef37044f selftests/bpf: Add more tests for check_max_stack_depth bug
+         a8237cc87e3de1adb3f2f6a8056621e7e578cc00 Merge branch 'two-more-fixes-for-check_max_stack_depth'
          
