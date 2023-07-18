@@ -1,28 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Tue, 18 Jul 2023 09:37:49 -0000
-Message-Id: <168967306959.24593.10686284674278896897@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6853787705288925039=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 18 Jul 2023 09:49:21 -0000
+Message-Id: <168967376170.13320.987437716647668403@gitolite.kernel.org>
+
+--===============6853787705288925039==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 3a7e4daf7aeaf05a0be0aed579866dc98482327e
-    new: 8fd85ce6cfdfa41a7823c706832407ad815084df
-    log: |
-         31c8217bc34a42e0dd27f74d090330b72202a3f0 dt-bindings: nvmem: fixed-cell: add compatible for MAC cells
-         6870b4a3734300bdbf912413e0d24181519cc75d nvmem: sunxi_sid: Convert to devm_platform_ioremap_resource()
-         5f41033e41545f5de5ad4b43c7e7fe6a4faedeb5 nvmem: brcm_nvram: Use devm_platform_get_and_ioremap_resource()
-         67f919120705ac2e0da4b2bc0103e5d1d2da3270 nvmem: lpc18xx_otp: Convert to devm_platform_ioremap_resource()
-         ad065ae27bd17d5b230cf8bb614f4a1f7cbe9ddc nvmem: meson-mx-efuse: Convert to devm_platform_ioremap_resource()
-         e75d23cf347d89da134b4a886267afa762059c4f nvmem: rockchip-efuse: Use devm_platform_get_and_ioremap_resource()
-         77803ef8637962a6dccfb55192c92fb69f2babc8 nvmem: stm32-romem: Use devm_platform_get_and_ioremap_resource()
-         431f08ed0ba51420a5f319949bfd257fcfd055b5 nvmem: qfprom: do some cleanup
-         97edd4c6ba343af411d9d147bed4729322dcf76d nvmem: uniphier: Use devm_platform_get_and_ioremap_resource()
-         8fd85ce6cfdfa41a7823c706832407ad815084df dt-bindings: nvmem: qfprom: Add compatible for MSM8226
-         
+  - ref: refs/heads/xfrm-next
+    old: 900ff54f2aca90f1da30176355b5227463b2a171
+    new: ad2cec5916e3de1bc8227715a19de91652246488
+    log: revlist-900ff54f2aca-ad2cec5916e3.txt
+
+--===============6853787705288925039==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-900ff54f2aca-ad2cec5916e3.txt
+
+2207e33b606cdad74ba2df2aafb0383f21f10508 xfrm: Support UDP encapsulation in packet offload mode
+f90291f428c832851da4d7c00728dfbd0bcbdd17 devlink: Expose port function commands to control IPsec crypto offloads
+b50767a963c071e3fe82fa3517a2a042d119cc12 net/mlx5: Implement devlink port function cmds to control ipsec_crypto
+89d3922be29d227186b197e6a04f972e15c70737 devlink: Expose port function commands to control IPsec packet offloads
+a7a56f800e0c06e314b46834c3007fe605ee224b net/mlx5: Implement devlink port function cmds to control ipsec_packet
+c77360cd2106090a9710860f02ab3082ef7aa805 net/mlx5e: Move MACsec flow steering operations to be used as core library
+cf9641769606b620e7ddc725247df252df9b45bc net/mlx5: Remove dependency of macsec flow steering on ethernet
+644aa7e83027546dee01e8255e68891a83b720d8 net/mlx5e: Rename MACsec flow steering functions/parameters to suit core naming style
+1658025f26fdb7d2bfda27c13831763daa9734ed net/mlx5e: Move MACsec flow steering and statistics database from ethernet to core
+88e3e93f063279ec2cda5af2341b89185fff8a65 net/mlx5: Remove netdevice from MACsec steering
+820c126b6e61401577fa0ba129e72da92c232df9 net/mlx5: Maintain fs_id xarray per MACsec device inside macsec steering
+993a30900d30886a84532685dec358a86134f339 macsec: add functions to get macsec real netdevice and check offload
+8d2f9be1e38b5b2a264ba32c444499f0d16e016d RDMA/mlx5: Implement MACsec gid addition and deletion
+6200c124e5a3ecdcdf6f894064e4a1c90366981a net/mlx5: Add MACsec priorities in RDMA namespaces
+1fa5e8584b722be3b619a2c08ad722585b6636f5 IB/core: Reorder GID delete code for RoCE
+3dc7a691595e083b9a0b956ed3ee288e66486e04 net/mlx5: Configure MACsec steering for egress RoCEv2 traffic
+4b77a972c59f76025e54db6cbc4c5b4f829fe7ea net/mlx5: Configure MACsec steering for ingress RoCEv2 traffic
+4f8849abe26ad18c5236c55f75be78be5019feba net/mlx5: Add RoCE MACsec steering infrastructure in core
+ad2cec5916e3de1bc8227715a19de91652246488 RDMA/mlx5: Handles RoCE MACsec steering rules addition and deletion
+
+--===============6853787705288925039==--
