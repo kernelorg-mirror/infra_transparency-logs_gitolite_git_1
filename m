@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1792259587132417617=="
+Content-Type: multipart/mixed; boundary="===============5948478448774725492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 18 Jul 2023 08:14:56 -0000
-Message-Id: <168966809645.27959.16686187330105962775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 18 Jul 2023 08:16:21 -0000
+Message-Id: <168966818189.30255.646772142703964982@gitolite.kernel.org>
 
---===============1792259587132417617==
+--===============5948478448774725492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 85d15200e840d4fd150801e635ee5c1b7da84737
-    new: 91ea8ff5cf43568cccba41da573bd9a462f17a84
-    log: revlist-85d15200e840-91ea8ff5cf43.txt
+  - ref: refs/heads/for-next
+    old: 2ad1099bb36d3af498f2a1339846667755a940ba
+    new: 66489e5487b7157c457d84ed23cd6306e811df07
+    log: |
+         3c6152940584290668b35fa0800026f6a1ae05fe Randomized slab caches for kmalloc()
+         66489e5487b7157c457d84ed23cd6306e811df07 Merge branch 'slab/for-6.6/random_kmalloc' into slab/for-next
+         
 
---===============1792259587132417617==
+--===============5948478448774725492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85d15200e840-91ea8ff5cf43.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8beea162ce1c2f5a7565044b68434efbb96f0697 libblkid: (bcachefs) adapt to major.minor version
-93ba7961779789217a1f814ce3110ff8c040c8c3 Revert "libblkid: try LUKS2 first when probing"
-ac9ee302d3649b19abb87bae12da0c7d14712e3b lsclocks: add COL_TYPE
-c31251eff35610187ba865cd451136d6008afa7f lsclocks: split out data function
-c4620c6a040cd5ef17fc955c2352035c54a762dd lsclocks: add support for dynamic clocks
-6fcb27e7193e9b9292ee7bfb2d67af67e6018408 lsclocks: automatically discover dynamic clocks
-4916d45ebfdbacbf77f6db928c0095734b2c8415 lsfd: use the specified output stream for printing help messages
-d5f0412990a03f84a924cd3db91272986ad94625 lsfd: rearrange the aligment of the help messages
-d0fe6e42fc18f11367e5ee6275c2619f9f61e892 lsfd: (man) fix the form for the optional argument of --inet option
-e0cdf606b61a4dea385f59b382d5ff8d8b81b986 lsfd: introduce -H, --list-columns option for making help messages short
-6b3efddf529baf7766e5aeeb1432d446c5022db2 lsfd: update the help message for XMODE column
-7bc7ccb6b2df46e2cb6aea73fa718b41c666c250 ci: disable cpp/path-injection rule
-9420ca34dc8b6f0fda1129493b5a043e4e37a638 libmount: handle failure to apply flags as part of a mount operation
-9d1714a38d179e146e4d7d8dbb346f24237070c4 lsfd: show default columns in the help message
-aad8a6079a5cfcf27344a2efdba61017049a927d column: fix memory leak
-baef265925b2745d0ff8cfd5c8f77de89b0b87fb lsfd: avoid passing NULL to qsort()
-58a8c9284d625347db86970af90a88f5d6c9f7cd libsmartcols: don't include hidden headers in column width calculation
-bac5aa9d832466cef0c36351d7fc635f84a65a65 Merge branch 'libblkid/bcachefs-major-minor' of https://github.com/t-8ch/util-linux
-f9e61fea1c3c3d2ee218594ef473ba6d640b5e42 Merge branch 'lsclocks/dynamic-clock' of https://github.com/t-8ch/util-linux
-8af3a9cf4e61dd5a66e71bd9432601373b7cbfde Merge branch 'raidrevert' of https://github.com/Vogtinator/util-linux
-5c8654e7f3051d7b25abc7e38a7908fc44ad9bca Merge branch 'ci/codeql-path-injection' of https://github.com/t-8ch/util-linux
-f226d0877d25b0599b6c086526c14dbb711de071 Merge branch 'lsfd--revise-help-message' of https://github.com/masatake/util-linux
-15f0cc7e484f914c940bc2a3b1a5e7713849a010 Merge branch 'wip/rishi/libmount-handle-failure-to-apply-flags-as-part-of-mount' of https://github.com/debarshiray/util-linux
-91ea8ff5cf43568cccba41da573bd9a462f17a84 Merge branch 'libsmartcols/noheading-width' of https://github.com/t-8ch/util-linux
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1689668177 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1689668176-81f3a658b6824cc149ff35c3bb268db9cfa7bd6c
 
---===============1792259587132417617==--
+2ad1099bb36d3af498f2a1339846667755a940ba 66489e5487b7157c457d84ed23cd6306e811df07 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmS2SlEACgkQu+CwddJF
+iJpZ+AgAkM3NekF8ZLvbmqEc7Q6PtFg1+8PFS7teWlKJRGMt2Od05PvAhGQPinTu
+aoaGy5CkuOF9OHX16dVFmlU9v9sp/Jl7pV1zV+nhqSOrVf64NoPh5MwjIZgllsp8
+u6W08K5RUlhZF3Two54x27viQqnmkxwFwb6ymyywRpBqjWO8h3WtbV+ob0BQWJue
+1HA8xIcr45Gss73sj5YELAOjg0QKuKrlHJM/4gZLqV9WXxnYKnITS19l89Q3FWVR
+OnS6dSPj8hIxGCIbjg4jIhBT+BRkll7k3WtwZhPqy4SBhhxDdI0K93rpDUcLQSZF
+WzStwvZn6yV+ZAETXlZYFsKVXrmpZg==
+=ogHM
+-----END PGP SIGNATURE-----
+
+--===============5948478448774725492==--
