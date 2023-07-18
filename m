@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 18 Jul 2023 12:26:04 -0000
-Message-Id: <168968316481.695.3964090643502809385@gitolite.kernel.org>
+Date: Tue, 18 Jul 2023 12:28:05 -0000
+Message-Id: <168968328557.1624.5784419702138569832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/tags/v6.5-rc2
+  - ref: refs/tags/hda-pci-ids
     old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+    new: a38f6d87a08931f11c28dd0c7d259356503d63aa
