@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7260995237146445357=="
+Content-Type: multipart/mixed; boundary="===============1445128796240779175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 18 Jul 2023 19:40:14 -0000
-Message-Id: <168970921425.27889.16356958414123869145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 18 Jul 2023 19:40:22 -0000
+Message-Id: <168970922273.28002.1691959972355470330@gitolite.kernel.org>
 
---===============7260995237146445357==
+--===============1445128796240779175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
 
---===============7260995237146445357==
+--===============1445128796240779175==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -346,4 +346,4 @@ b1c1b98962d17a922989aa3b2822946bbb5c091f tpm: Do not remap from ACPI resources a
 f2f393c385af0635eddb58df8bcd645cb6a18f5d Merge tag 'tpmdd-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 74f1456c4a5f3d7da4102ecae5c20370f89c6ed1 Merge tag 'linux-kselftest-fixes-6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============7260995237146445357==--
+--===============1445128796240779175==--
