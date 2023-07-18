@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Jul 2023 20:55:02 -0000
-Message-Id: <168971370247.17074.6091986485807683140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 18 Jul 2023 21:39:23 -0000
+Message-Id: <168971636343.16940.3230154966401684053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: d38fe5157733eac4e3e7ee072b608b015ee628d9
-    new: e209b9496e109188268dd8e7e7e6abeaaff7a285
+    old: 114ed1505678640c456533d8e2b4436a52afc7f4
+    new: c654cde5ec9e9fa975d5d041aa069489ab12a4ce
     log: |
-         81edabb171cef07508415c4c97a2df9cde3f6c12 Merge branch into tip/master: 'locking/urgent'
-         f7b311e9243776431667cdebee74c0d48bae8ac6 Merge branch into tip/master: 'perf/core'
-         0e75291690a8f097e56543c5bbd11b9b943f9c73 Merge branch into tip/master: 'sched/core'
-         e209b9496e109188268dd8e7e7e6abeaaff7a285 Merge branch into tip/master: 'x86/mm'
+         40e36d6634927396611d5ed41e0d83782135ee8e statfs.2: Unshade as deprecated, but direct to statvfs(3)
+         c654cde5ec9e9fa975d5d041aa069489ab12a4ce recv.2: Document MSG_CMSG_CLOEXEC as returned in msg_flags
          
