@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8429050215310606266=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Jul 2023 20:54:49 -0000
-Message-Id: <168971368943.16386.8985108252755845706@gitolite.kernel.org>
-
---===============8429050215310606266==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 18 Jul 2023 20:55:02 -0000
+Message-Id: <168971370247.17074.6091986485807683140@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,35 +12,11 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 30489704b2d11e4bf5e093a6c3bd68449e3f5d06
-    new: d38fe5157733eac4e3e7ee072b608b015ee628d9
-    log: revlist-30489704b2d1-d38fe5157733.txt
-
---===============8429050215310606266==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30489704b2d1-d38fe5157733.txt
-
-b33b8731566d50aae6e11bd02921452cf3a7e0e7 selftests/mincore: fix skip condition for check_huge_pages test
-e8b03aef194c3c8597f4fb8e58ade1cc1f43001e tools: timers: fix freq average calculation
-c77896b143d3c9c3e84c4ed0662b807ccbd8730b selftests/riscv: fix potential build failure during the "emit_tests" step
-569f8b501b177f21121d483a96491716ab8905f4 selftests/arm64: fix build failure during the "emit_tests" step
-f4032d615f90970d6c3ac1d9c0bce3351eb4445c tpm: tpm_vtpm_proxy: fix a race condition in /dev/vtpmx creation
-edb13d7bb034c4d5523f15e9aeea31c504af6f91 tpm: tpm_tis: Disable interrupts *only* for AEON UPX-i11
-f0afba4042bd902d290405c0638bc1295872d8a7 tpm_tis_spi: Release chip select when flow control fails
-f3b70b6e3390bfdf18fdd7d278a72a12784fdcce tpm: tis_i2c: Limit read bursts to I2C_SMBUS_BLOCK_MAX (32) bytes
-83e7e5d89f04d1c417492940f7922bc8416a8cc4 tpm: tis_i2c: Limit write bursts to I2C_SMBUS_BLOCK_MAX (32) bytes
-d55901522f96082a43b9842d34867363c0cdbac5 keys: Fix linking a duplicate key to a keyring's assoc_array
-ecff6813d2bcf0c670881a9ba3f51cb032dd405a tpm: return false from tpm_amd_is_rng_defective on non-x86 platforms
-2a4152742025c5f21482e8cebc581702a0fa5b01 security: keys: Modify mismatched function name
-08b0af4478bacb8bb701c172c99a34ea32da89f5 tpm/tpm_tis: Disable interrupts for Framework Laptop Intel 12th gen
-bc825e851c2fe89c127cac1e0e5cf344c4940619 tpm/tpm_tis: Disable interrupts for Framework Laptop Intel 13th gen
-b1c1b98962d17a922989aa3b2822946bbb5c091f tpm: Do not remap from ACPI resources again for Pluton TPM
-393f362389cecc2e4f2e3520a6c8ee9dbb1e3d15 tpm/tpm_tis: Disable interrupts for Lenovo L590 devices
-481c2d14627de8ecbb54dd125466e4b4a5069b47 tpm,tpm_tis: Disable interrupts after 1000 unhandled IRQs
-f2f393c385af0635eddb58df8bcd645cb6a18f5d Merge tag 'tpmdd-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-74f1456c4a5f3d7da4102ecae5c20370f89c6ed1 Merge tag 'linux-kselftest-fixes-6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-d38fe5157733eac4e3e7ee072b608b015ee628d9 Merge branch 'linus'
-
---===============8429050215310606266==--
+    old: d38fe5157733eac4e3e7ee072b608b015ee628d9
+    new: e209b9496e109188268dd8e7e7e6abeaaff7a285
+    log: |
+         81edabb171cef07508415c4c97a2df9cde3f6c12 Merge branch into tip/master: 'locking/urgent'
+         f7b311e9243776431667cdebee74c0d48bae8ac6 Merge branch into tip/master: 'perf/core'
+         0e75291690a8f097e56543c5bbd11b9b943f9c73 Merge branch into tip/master: 'sched/core'
+         e209b9496e109188268dd8e7e7e6abeaaff7a285 Merge branch into tip/master: 'x86/mm'
+         
