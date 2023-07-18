@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 18 Jul 2023 19:00:42 -0000
-Message-Id: <168970684246.29097.8953547071942393996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 18 Jul 2023 19:07:00 -0000
+Message-Id: <168970722087.748.14837971206076400283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 0f93a345aa42c40e2145c3719d878e7daa4eb6ee
-    new: 55b2395e4e92adc492c6b30ac109eb78250dcd9d
+  - ref: refs/heads/clk-for-6.6
+    old: ad4e807f5f774ebf13d9cd5377126aa55bb68edf
+    new: a9f71a033587c9074059132d34c74eabbe95ef26
     log: |
-         55b2395e4e92adc492c6b30ac109eb78250dcd9d gpio: mmio: handle "ngpios" properly in bgpio_init()
+         c948ff727e25297f3a703eb5349dd66aabf004e4 clk: qcom: camcc-sc7180: fix async resume during probe
+         b0f3d01bda6c3f6f811e70f76d2040ae81f64565 clk: qcom: dispcc-sm8450: fix runtime PM imbalance on probe errors
+         acaf1b3296a504d4a61b685f78baae771421608d clk: qcom: dispcc-sm8550: fix runtime PM imbalance on probe errors
+         10192ab375c39c58d39cba028d9685cefe1ca3c2 clk: qcom: gcc-sc8280xp: fix runtime PM imbalance on probe errors
+         66af5339d4f8e20c6d89a490570bd94d40f1a7f6 clk: qcom: lpasscc-sc7280: fix missing resume during probe
+         97112c83f4671a4a722f99a53be4e91fac4091bc clk: qcom: q6sstop-qcs404: fix missing resume during probe
+         e2349da0fa7ca822cda72f427345b95795358fe7 clk: qcom: mss-sc7180: fix missing resume during probe
+         a9f71a033587c9074059132d34c74eabbe95ef26 clk: qcom: turingcc-qcs404: fix missing resume during probe
          
