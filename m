@@ -1,33 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7570646667855712751=="
+Content-Type: multipart/mixed; boundary="===============5388895068935576675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 18 Jul 2023 03:56:41 -0000
-Message-Id: <168965260117.4702.8453049057556650758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 18 Jul 2023 03:56:48 -0000
+Message-Id: <168965260854.4886.4330512344686216283@gitolite.kernel.org>
 
---===============7570646667855712751==
+--===============5388895068935576675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 2205be537aeb1ca2ace998e2fefaa2be04e393e4
     new: aeba456828b4e47d99ec8ffb01412fbed0f94806
     log: revlist-2205be537aeb-aeba456828b4.txt
-  - ref: refs/heads/stable
-    old: 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a
-    new: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    log: |
-         fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
-         
-  - ref: refs/tags/next-20230418
-    old: f17d87822dec91cbfa292779cf80e6143e6c3bff
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230718
     old: 0000000000000000000000000000000000000000
     new: 00444b8f79048c705348ceb2b4d7cbc0fb58fa42
@@ -35,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
 
---===============7570646667855712751==
+--===============5388895068935576675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -487,4 +478,4 @@ eb4321887e5ca1ee190477f4cc3d854f641ca7eb Merge branch 'for-next/kspp' of git://g
 97289c6f53c7e75b0d37fc9de0c6fda7fcfea1bc Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 aeba456828b4e47d99ec8ffb01412fbed0f94806 Add linux-next specific files for 20230718
 
---===============7570646667855712751==--
+--===============5388895068935576675==--
