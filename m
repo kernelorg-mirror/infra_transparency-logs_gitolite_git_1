@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6061137054480653498=="
+Content-Type: multipart/mixed; boundary="===============7219524550674810292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Jul 2023 18:45:30 -0000
-Message-Id: <168970593031.18157.6958903802432031307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 18 Jul 2023 18:45:36 -0000
+Message-Id: <168970593695.18272.7190001777155307939@gitolite.kernel.org>
 
---===============6061137054480653498==
+--===============7219524550674810292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 72ab68580cd04ab8745b854a9ee2e5ea7c70d473
     new: 4da4a7467f90a0272d2b14c40ea0345255c9b132
     log: |
@@ -31,28 +31,28 @@ changes:
          4da4a7467f90a0272d2b14c40ea0345255c9b132 ASoC: add multi Component support
          
 
---===============6061137054480653498==
+--===============7219524550674810292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689705927 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1689705927-6783b50311758651934e40d0c96c49d5cf298d77
+pusher C3F436CA30F5D8EB 1689705935 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1689705934-9f6706fb6d94b0850f468bae5ff699b0daa93620
 
-72ab68580cd04ab8745b854a9ee2e5ea7c70d473 4da4a7467f90a0272d2b14c40ea0345255c9b132 refs/heads/for-6.6
+72ab68580cd04ab8745b854a9ee2e5ea7c70d473 4da4a7467f90a0272d2b14c40ea0345255c9b132 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS23ccACgkQJNaLcl1U
-h9AcxQf/fBTH8P7dw5RsL/FDSCGk8BVxNgHD/HPKAcOyijBT3YqdIQxZLOs91LAd
-hjCLNMq0EjyhqJYmNsZ11RBI0ARAlGzwfN9lLGK77V73JKAzKaggef/sM6c9BQg8
-YcMI1hIWGqxLt7RXA4aipPPLu8OqxuwnOe0StkrFc8CjAAQCsa/QDKCJnpf6/pfX
-IXNJxiIiR+JYwTtZhcBjXwEJpiVbUesvJRHxgYS1kHPKfiTOAk9YoviiyUGW7Jhi
-CiZmUm7uE3MPm2s/jCWpiLwY/GxG+xfy+AhexP8OjN1Sb8Anb4SlN3NRlLVq+iax
-69+C8Q52UIdUyY9acXt3UyHeiI7Ogw==
-=x3FH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS23c8ACgkQJNaLcl1U
+h9CZCgf/YAEM+fQK+ZbfCyOoVqXNs5XjpKKQKeL0H4rXk//DlTeP5/TxAtQPbajP
+jse0m9+V6Oz1LRQ+fBy+hIz0eBOQHwNuy4yajkC0lBFqacIdZ5VOXK1R1S48P4gP
+uE47gg9POuqKv4NeMMtSQI2zEil623TMwnponENziDNKcE8vrBCQBP3S5zRLJG66
+SRegwvJBWEblSVkIvnsMbE6PUxtuTHAPI/p8WAJNmWry5HaKUu7owGovqpCXLsp9
+OmyW1Ovkfqx9iWkBMiJ68d0w6S5+X9nzbhwy0AdePVRREDKtX0lgmUIrf3p9Hj/2
+wq5L1ZiDAxGeu3IFcteU6sG3WCnN8g==
+=RN10
 -----END PGP SIGNATURE-----
 
---===============6061137054480653498==--
+--===============7219524550674810292==--
