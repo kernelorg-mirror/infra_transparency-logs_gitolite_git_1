@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 18 Jul 2023 18:25:57 -0000
-Message-Id: <168970475781.2791.11081598259357339056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 18 Jul 2023 18:29:59 -0000
+Message-Id: <168970499963.4340.9680383821152696660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/tags/csd-lock.2023.07.15a
-    old: 0000000000000000000000000000000000000000
-    new: fe3174d815c69036679b465a2e8cd5d7523712e9
-  - ref: refs/tags/v6.5-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/heads/dev-queue
+    old: 4a4b781befc3e862801f9bad380cce27f9afe6cb
+    new: 986ca9aa4a0167ea3859f8d27a3241e8c3d47a2f
+    log: |
+         47204a479f490ec8145bf4b3a0ee54a9a9cf5fdf ice: Reset stats on queues num change
+         986ca9aa4a0167ea3859f8d27a3241e8c3d47a2f ice: Accept LAG netdevs in bridge offloads
+         
