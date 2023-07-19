@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Jul 2023 16:55:50 -0000
-Message-Id: <168978575091.12233.11121431987753168343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 19 Jul 2023 16:59:40 -0000
+Message-Id: <168978598067.13629.7986905078730365392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/for-next
-    old: 9df76fe0c5ac7622dfd16c47f98f3d48e890890e
-    new: 492e797fdab25f2d8eb1b6bb3236f4aac474f878
+  - ref: refs/heads/fixes
+    old: 9d2a55b403eea26cab7c831d8e1c00ef1e6a6850
+    new: 84f68679032147dcdac9bb4d8eb8f4638e995dc6
     log: |
-         492e797fdab25f2d8eb1b6bb3236f4aac474f878 bpf, x86: initialize the variable "first_off" in save_args()
+         84f68679032147dcdac9bb4d8eb8f4638e995dc6 KVM: arm64: Allow pKVM on v1.0 compatible FF-A implementations
          
