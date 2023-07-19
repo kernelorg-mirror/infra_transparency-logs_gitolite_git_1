@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 19 Jul 2023 12:58:46 -0000
-Message-Id: <168977152692.31304.11216193783274906523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 19 Jul 2023 12:58:48 -0000
+Message-Id: <168977152863.31393.1699014813162058191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: 0000000000000000000000000000000000000000
-    new: 4619dd77e66d0ac834afbc55937937a8745a4149
+  - ref: refs/tags/expand-bmap-intent-usage_2022-11-30
+    old: 10958779b67e798d7264de52aca59e15c57e814c
+    new: 0000000000000000000000000000000000000000
