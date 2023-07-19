@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 19 Jul 2023 13:42:15 -0000
-Message-Id: <168977413594.9286.3727726448212068887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 19 Jul 2023 13:42:17 -0000
+Message-Id: <168977413787.9384.17065943114034867877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/hwmon
-    old: a746b3689546da27125da9ccaea62b1dbaaf927c
-    new: 957961b6dcc813e6222a4f7e8e3626fcd1f1e098
-    log: |
-         957961b6dcc813e6222a4f7e8e3626fcd1f1e098 hwmon: (oxp-sensors) Move tt_toggle attribute to dev_groups
-         
+  - ref: refs/tags/repair-quotacheck_2023-05-25
+    old: 6b9543f3887aab33f5757b15eb32abc584858198
+    new: 0000000000000000000000000000000000000000
