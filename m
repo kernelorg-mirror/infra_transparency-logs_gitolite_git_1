@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 19 Jul 2023 21:23:05 -0000
-Message-Id: <168980178587.16250.3380535682865970178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 19 Jul 2023 21:23:44 -0000
+Message-Id: <168980182408.16573.4179454349367059617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-next
-    old: 7b9fc309c0b57c5b1230bf3e0a8bb9e937eb6529
-    new: d40befed9a581740f6ceb0e5998ec2f59bfbc559
+  - ref: refs/heads/master
+    old: ccff6d117d8dc8d8d86e8695a75e5f8b01e573bf
+    new: bfa3037d828050896ae52f6467b6ca2489ae6fb1
     log: |
-         d40befed9a581740f6ceb0e5998ec2f59bfbc559 power: reset: at91-reset: add sysfs interface to the power on reason
+         5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
+         1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
+         3066ff93476c35679cb07a97cce37d9bb07632ff fuse: Apply flags2 only when userspace set the FUSE_INIT_EXT
+         a9d1c4c6df0e568207907c04aed9e7beb1294c42 fuse: revalidate: don't invalidate if interrupted
+         6a567e920fd0451bf29abc418df96c3365925770 fuse: ioctl: translate ENOSYS in outarg
+         bfa3037d828050896ae52f6467b6ca2489ae6fb1 Merge tag 'fuse-update-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
          
