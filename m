@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 19 Jul 2023 13:41:30 -0000
-Message-Id: <168977409036.7686.2530779935676777582@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 13:41:32 -0000
+Message-Id: <168977409237.7747.9782842470113485402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
-  - ref: refs/tags/repair-quota_2022-07-26
-    old: 8be60134d986e5ac6e097bc9afef4db4da294a4d
+  - ref: refs/tags/repair-quota_2022-08-09
+    old: 119049e3b673cf7176fe53674c434a8be6fe05a1
     new: 0000000000000000000000000000000000000000
