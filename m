@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Jul 2023 17:17:11 -0000
-Message-Id: <168978703166.28810.16097740526238848398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 19 Jul 2023 17:26:10 -0000
+Message-Id: <168978757077.2921.1678767582854510286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: 24cc7564e0de23b60eb76eb71f5c9a984c6b63b4
-    new: 41ee0145a4ea7f6971c02a6dddef20d6cd806270
+  - ref: refs/heads/for-next/scmi/fixes
+    old: f44005623a34ba7c054f6e2235c74ba8b259a7d4
+    new: da042eb4f061a0b54aedadcaa15391490c48e1ad
     log: |
-         41ee0145a4ea7f6971c02a6dddef20d6cd806270 bpf: sync tools/ uapi header with
+         da042eb4f061a0b54aedadcaa15391490c48e1ad firmware: arm_scmi: Drop OF node reference in the transport channel setup
          
