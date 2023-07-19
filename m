@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 19 Jul 2023 21:08:08 -0000
-Message-Id: <168980088897.5799.1401714865447222609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Wed, 19 Jul 2023 21:14:21 -0000
+Message-Id: <168980126116.9929.13986299398897349750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 767b1d5badd6eb418e3f91f0cd8fa6d2894ff43a
-    new: 61af5fa1376ed8c9a230edad287319aa67ebb8ed
+  - ref: refs/heads/for-next
+    old: da28e18d6a31448a5f67e59e835669e930f8c044
+    new: 7b9fc309c0b57c5b1230bf3e0a8bb9e937eb6529
+    log: |
+         7b9fc309c0b57c5b1230bf3e0a8bb9e937eb6529 power: supply: bd99954: make read-only array sub_status_reg
+         
