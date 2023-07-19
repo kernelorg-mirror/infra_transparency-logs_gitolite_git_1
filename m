@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4753600668667731491=="
+Content-Type: multipart/mixed; boundary="===============4961996658157685375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Wed, 19 Jul 2023 08:29:42 -0000
-Message-Id: <168975538260.10074.2400436226934720466@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 08:30:19 -0000
+Message-Id: <168975541990.12033.16836711144201269758@gitolite.kernel.org>
 
---===============4753600668667731491==
+--===============4961996658157685375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 878b02d5f3b56cb090dbe2c70c89273be144087f
     new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     log: revlist-878b02d5f3b5-06c2afb862f9.txt
 
---===============4753600668667731491==
+--===============4961996658157685375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' 
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
 
---===============4753600668667731491==--
+--===============4961996658157685375==--
