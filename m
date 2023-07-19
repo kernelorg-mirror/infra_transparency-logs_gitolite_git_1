@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 19 Jul 2023 13:00:48 -0000
-Message-Id: <168977164823.3472.14006379891476280800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 19 Jul 2023 13:00:54 -0000
+Message-Id: <168977165447.3572.12880646375241557388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/fix-asciici-bugs_2023-06-05
-    old: df9f046053c1c72e11953e51126e5ff9625f08b9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/fileoKvxcM
+    old: 0000000000000000000000000000000000000000
+    new: 541e75954cadde0355ce7bebed5675625b2943a8
