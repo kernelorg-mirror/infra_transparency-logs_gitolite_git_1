@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 19 Jul 2023 11:33:40 -0000
-Message-Id: <168976642013.27935.14428461071737177494@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 11:33:56 -0000
+Message-Id: <168976643673.28102.13000103842145496261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 55b2395e4e92adc492c6b30ac109eb78250dcd9d
-    new: 91093b57ee3b2080a1f30895f862690f8d794161
+  - ref: refs/heads/gpio/for-current
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+    new: 1945063eb59e64d2919cb14d54d081476d9e53bb
     log: |
-         e91d0f05e66afba9a3804bccf3d0a4310bb30024 gpio: Explicitly include correct DT includes
-         c9ab610e5cd98f7fe0213b382870437368f11457 gpio: bcm-kona: Make driver OF-independent
-         ec72293cc2099859f79485861fbced41ae3fde60 gpio: bcm-kona: remove unneeded platform_set_drvdata() call
-         91093b57ee3b2080a1f30895f862690f8d794161 gpio: bcm-kona: Drop unused pdev member in private data structure
+         5a7adc6c1069ce31ef4f606ae9c05592c80a6ab5 gpio: tps68470: Make tps68470_gpio_output() always set the initial value
+         1945063eb59e64d2919cb14d54d081476d9e53bb gpio: mvebu: Make use of devm_pwmchip_add
          
