@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 19 Jul 2023 13:00:54 -0000
-Message-Id: <168977165447.3572.12880646375241557388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 19 Jul 2023 13:00:57 -0000
+Message-Id: <168977165716.3640.180169062692823631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/fileoKvxcM
-    old: 0000000000000000000000000000000000000000
-    new: 541e75954cadde0355ce7bebed5675625b2943a8
+  - ref: refs/tags/fix-bmap-intent-recovery_2020-10-10
+    old: 9a5adf16e5c6441410e161ca26e6fd1fba4c87ae
+    new: 0000000000000000000000000000000000000000
