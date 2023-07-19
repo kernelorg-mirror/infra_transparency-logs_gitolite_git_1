@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 19 Jul 2023 12:19:16 -0000
-Message-Id: <168976915612.10795.9481316593195617607@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 12:19:18 -0000
+Message-Id: <168976915838.10859.10474061201196794841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
-  - ref: refs/tags/scrub-nlinks_2023-05-25
-    old: 960f48187d93afc251570304628b8aba94e453dd
+  - ref: refs/tags/scrub-nlinks_2023-06-05
+    old: e1b4cc182041a37b2fabfe8cc06eb37dfc86a2f1
     new: 0000000000000000000000000000000000000000
