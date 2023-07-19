@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 19 Jul 2023 14:46:40 -0000
-Message-Id: <168977800072.11114.1170524687868159423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 19 Jul 2023 14:56:37 -0000
+Message-Id: <168977859723.17926.18342709198970303882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 48d032e50bc04fc4914308fd05a88a136b5717a8
-    new: 650e756191cce22efe8f20ee21e744cfeaff883f
+  - ref: refs/heads/for-linus
+    old: a2a93f4e2fd400907f89753025d1e4bebb64d4db
+    new: 0659400f18c0e6c0c69d74fe5d09e7f6fbbd52a2
     log: |
-         ecbe7c54a822fb14b4bda9657ee61518f4e0ad1b firmware: arm_scmi: Harden PERF domain info access
-         d5d78c5a7097728d514606723f626558d28a34f3 firmware: arm_scmi: Add v3.2 PERF Level Indexing mode support
-         f44005623a34ba7c054f6e2235c74ba8b259a7d4 firmware: arm_scmi: Drop OF node reference in the transport channel setup
-         650e756191cce22efe8f20ee21e744cfeaff883f Merge branches 'for-next/juno/fixes', 'for-next/juno/updates', 'for-next/vexpress/updates', 'for-next/scmi/fixes' and 'for-next/scmi/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         0659400f18c0e6c0c69d74fe5d09e7f6fbbd52a2 ALSA: hda/realtek: Enable Mute LED on HP Laptop 15s-eq2xxx
+         
+  - ref: refs/heads/master
+    old: 6955c538e801b62de09f00359a697e04654f2f1d
+    new: 0adbd4af288d5a4c5477287a8fa3d8c2ad385b1e
+    log: |
+         0659400f18c0e6c0c69d74fe5d09e7f6fbbd52a2 ALSA: hda/realtek: Enable Mute LED on HP Laptop 15s-eq2xxx
+         0adbd4af288d5a4c5477287a8fa3d8c2ad385b1e Merge branch 'for-linus'
          
