@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Jul 2023 17:31:54 -0000
-Message-Id: <168978791488.6909.10998405747133313812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 19 Jul 2023 17:42:34 -0000
+Message-Id: <168978855460.15271.2169577040734861084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 41ee0145a4ea7f6971c02a6dddef20d6cd806270
-    new: 6f5a630d7c57cd79b1f526a95e757311e32d41e5
-    log: |
-         6f5a630d7c57cd79b1f526a95e757311e32d41e5 bpf, net: Introduce skb_pointer_if_linear().
-         
+  - ref: refs/tags/for-netdev
+    old: 0000000000000000000000000000000000000000
+    new: a589d2ef3ceab83a389e3b79aa232c2f407869ea
