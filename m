@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 19 Jul 2023 13:54:41 -0000
-Message-Id: <168977488120.23179.8294965927365102337@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 13:54:54 -0000
+Message-Id: <168977489462.23325.7796731915502684488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
-  - ref: refs/tags/reserve-rt-metadata-space_2023-06-05
-    old: 91ded339dd4c2c6cf767dbb9658dea8a785b14db
+  - ref: refs/tags/retain-ilock-during-dir-ops_2023-05-25
+    old: 3728e7c5edbaa39f83c2dd1bc966a43d70149080
     new: 0000000000000000000000000000000000000000
