@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 19 Jul 2023 21:00:18 -0000
-Message-Id: <168980041893.32002.15223544063127371807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 19 Jul 2023 21:03:37 -0000
+Message-Id: <168980061774.907.12135371630909703233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 2c4c4e68a7f2ab9e1b1c46a4ddc4697026afbfb5
-    new: 767b1d5badd6eb418e3f91f0cd8fa6d2894ff43a
+  - ref: refs/heads/for-6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: aa84ce8a78a1a5c10cdf9c7a5fb0c999fbc2c8d6
