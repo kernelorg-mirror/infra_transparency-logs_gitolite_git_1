@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 19 Jul 2023 13:12:18 -0000
-Message-Id: <168977233819.19966.16789723209115037834@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 13:12:20 -0000
+Message-Id: <168977234024.20044.207076563187981441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
-  - ref: refs/tags/metadir_2022-07-19
-    old: 39dbf0ee4f0d4fb2217f151524d5f6df560a78e5
+  - ref: refs/tags/metadir_2022-07-26
+    old: 2d2b793a9f0c5a8c266a66976f565b3043deda6b
     new: 0000000000000000000000000000000000000000
