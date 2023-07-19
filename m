@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 19 Jul 2023 16:17:01 -0000
-Message-Id: <168978342135.15236.4537309786542675072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
+Date: Wed, 19 Jul 2023 16:21:02 -0000
+Message-Id: <168978366238.18360.5568577794782478033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/ericvh/v9fs
+user: ericvh
 changes:
-  - ref: refs/heads/for-linus
-    old: 89fca3c19e5b140a173afebb63486b97f058aca5
-    new: d20ac73982553ad529da9787039132d0b2a06d9a
+  - ref: refs/heads/b4/fixes-overly-restrictive-mmap
+    old: ae283629d8f91ee98e6752909bf00746595820bb
+    new: 17a858ae0627a77700c8e6f7d20472482e093ca6
     log: |
-         d20ac73982553ad529da9787039132d0b2a06d9a Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         
-  - ref: refs/heads/for-next
-    old: 8b15527cc436d5c8dc6ed0664e34398cef755a82
-    new: 862b56287a2559b4f8448d6784339fe267f83a2d
-    log: |
-         2920e08bef609c8b59f9996fd6852a7b97119d75 regulator: max77857: Switch back to use struct i2c_driver's .probe()
-         541e75954cadde0355ce7bebed5675625b2943a8 regulator: max77857: mark more functions static
-         d20ac73982553ad529da9787039132d0b2a06d9a Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         862b56287a2559b4f8448d6784339fe267f83a2d Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
+         e3f085069d484967dd7e3b9825b2af8f530c1183 fs/9p: fix mmap regression
+         d9b49a537bfc87a7d7c1a3c8eca2a1d01f8b4c23 fs/9p: remove unnecessary and overrestrictive check
+         11d60d2569cb48a105ce87f7b1a1b4595b25b6a2 fs/9p: fix typo in comparison logic for cache mode
+         0e186fc2eb300ad37d8b8751f863c04ef792fed3 fs/9p: fix type mismatch in file cache mode helper
+         17a858ae0627a77700c8e6f7d20472482e093ca6 fs/9p: remove unnecessary invalidate_inode_pages2
          
