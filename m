@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1047893929034609239=="
+Content-Type: multipart/mixed; boundary="===============6714493925217078048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Wed, 19 Jul 2023 18:48:03 -0000
-Message-Id: <168979248313.30404.6784874154286075945@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 18:52:13 -0000
+Message-Id: <168979273320.1198.11078586082399354829@gitolite.kernel.org>
 
---===============1047893929034609239==
+--===============6714493925217078048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 902480fcb975912222ebf4a4b5972ec23948a412
-    new: 67f2c63f05705876eeaa88ae234a55d44a9b3b0d
+    old: 67f2c63f05705876eeaa88ae234a55d44a9b3b0d
+    new: f25e5126091f1a25dd610f8ab620be8f8195e73b
     log: |
-         a951b8fe4a5f9bfd915e4a6cf998539d5f063834 git-patchwork-bot: support histogram patches
-         67f2c63f05705876eeaa88ae234a55d44a9b3b0d pr-tracker-bot: add process-id to logging
+         f25e5126091f1a25dd610f8ab620be8f8195e73b mlmmj-subscriber-sync: also catch OSError
          
 
---===============1047893929034609239==
+--===============6714493925217078048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1689792482 -0400
+pusher B6C41CE35664996C! 1689792732 -0400
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1689792482-45655a44febd4c84dd9507af16258110dc1ebb3a
+nonce 1689792732-1932265be12dc21991c6da9d3276b2f6d76aaae8
 
-902480fcb975912222ebf4a4b5972ec23948a412 67f2c63f05705876eeaa88ae234a55d44a9b3b0d refs/heads/master
+67f2c63f05705876eeaa88ae234a55d44a9b3b0d f25e5126091f1a25dd610f8ab620be8f8195e73b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZLgv4gAKCRC2xBzjVmSZ
-bP2VAQCZg8VbzjmwitmudRythTnm8VnIsdlIgCUEEyLmVzq9ugD+MRkf9YfIMabX
-1+QGHAL0kDOqVs+/AV+wcjkV0W9ZXQY=
-=PIgD
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZLgw3AAKCRC2xBzjVmSZ
+bGkYAQC3sne5EFUXOFzxmKXHbpZdKeC0u6/Sqsw1uRaJU8TETQD/RzX+xG3n16uF
+IQK93U1HvEXPjO5wO6+hPNlYFO6W+Qw=
+=MxjA
 -----END PGP SIGNATURE-----
 
---===============1047893929034609239==--
+--===============6714493925217078048==--
