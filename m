@@ -1,47 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7725364630027431918=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 19 Jul 2023 07:20:29 -0000
-Message-Id: <168975122972.26688.4107287273595077162@gitolite.kernel.org>
-
---===============7725364630027431918==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 19 Jul 2023 07:31:06 -0000
+Message-Id: <168975186675.1376.8793087950356098222@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/tags/linux-can-next-for-6.6-20230719
-    old: 0000000000000000000000000000000000000000
-    new: 7806a39dc5db29490a0f4fe29aa575692bead5db
-
---===============7725364630027431918==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689751226 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1689751225-096f541c1707ac7d728376d785a0dcc8c64214ae
-
-0000000000000000000000000000000000000000 7806a39dc5db29490a0f4fe29aa575692bead5db refs/tags/linux-can-next-for-6.6-20230719
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS3jroTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6N0fB/9pdA+fSVk3P50IeUNhtEuTRg9qsBLS
-Ot7S8Na4zzmzYNaMCcDuMyq66GsMgrbRKjkdE705sALpuWeXwP6VNdlSglpf5OAz
-tNQbi9wrG5kvwjXe1N5TFG5sAnoqPKS4qOVSr2Bo8sC9ERZgHyPpOBFYjRmdBbBk
-Q8fVrwIHCfPI6Lx5gQifbnbgZJgE11wXeCHjFQS12NPoT67zuwtAgZBKyJKuB8Tn
-4mTHu8QgCVb88OvyYWFT4uTJRNKpB3W7/Tz3bPwHau1CLQYq+Vor/AjWIZIZheBV
-mz/8fNVO78lInuQR6nGZas6wfi7dWWhwIKy2n7cIh3BQLeiMRqNfLoNZ
-=LYHR
------END PGP SIGNATURE-----
-
---===============7725364630027431918==--
+  - ref: refs/heads/imx/dt
+    old: 532115865b9213e01d1428a695f08a4ccfe807af
+    new: a722b232f8d44e699cf2da541b51d5bc62b9580c
+    log: |
+         ec20d468d05f4cd5a489d232f3d98745e11e948e ARM: dts: imx: Remove regulators from simple-bus
+         912133986ebb5cd6fcf70364551d4df86cb3c279 ARM: dts: nxp: add missing space before {
+         1bf7e5e179a7e0e28436496da5af14046cc409b4 ARM: dts: imx7d-sdb: Pass the Ethernet aliases
+         f3ce2466eb18fd816a038e58b874ffee8534e21d ARM: dts: imx1-apf9328: correct ethernet reg addresses (split)
+         a722b232f8d44e699cf2da541b51d5bc62b9580c ARM: dts: imx6qdl-mba6: Add missing supply regulator for lm75 and at24
+         
