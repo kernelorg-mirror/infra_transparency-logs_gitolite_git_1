@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8344205015217003614=="
+Content-Type: multipart/mixed; boundary="===============5495315128491504773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 19 Jul 2023 14:31:13 -0000
-Message-Id: <168977707339.29383.18422486919331218699@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 14:31:36 -0000
+Message-Id: <168977709641.29611.17580661276754646339@gitolite.kernel.org>
 
---===============8344205015217003614==
+--===============5495315128491504773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/tmp.perf-tools-next
     old: bcd981db12e6d26111609802fc7c358f30a8c72a
     new: ccff6d117d8dc8d8d86e8695a75e5f8b01e573bf
     log: revlist-bcd981db12e6-ccff6d117d8d.txt
 
---===============8344205015217003614==
+--===============5495315128491504773==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f2f393c385af0635eddb58df8bcd645cb6a18f5d Merge tag 'tpmdd-v6.5-rc3' of git://git
 4806364acf770fa1d24ccc98169ca6f5c6979caa Merge tag 'mm-hotfixes-stable-2023-07-18-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ccff6d117d8dc8d8d86e8695a75e5f8b01e573bf Merge tag 'perf-tools-fixes-for-v6.5-1-2023-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============8344205015217003614==--
+--===============5495315128491504773==--
