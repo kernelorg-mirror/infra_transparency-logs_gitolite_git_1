@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4376332844142423908=="
+Content-Type: multipart/mixed; boundary="===============2185193515368162446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Jul 2023 17:00:07 -0000
-Message-Id: <168978600723.15553.18086445031519364347@gitolite.kernel.org>
+Date: Wed, 19 Jul 2023 17:00:13 -0000
+Message-Id: <168978601316.15696.16914681381578727487@gitolite.kernel.org>
 
---===============4376332844142423908==
+--===============2185193515368162446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 492e797fdab25f2d8eb1b6bb3236f4aac474f878
     new: 3226e3139dfe02d5892562976a649a54ada12a13
     log: revlist-492e797fdab2-3226e3139dfe.txt
 
---===============4376332844142423908==
+--===============2185193515368162446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ f80ddbec476257a064ee0f57aa018bfc0f4d54d7 selftests/xsk: add metadata copy test f
 3666bccab43a33904372eaa26936dabef3232497 selftests/xsk: reset NIC settings to default after running test suite
 3226e3139dfe02d5892562976a649a54ada12a13 Merge branch 'xsk-multi-buffer-support'
 
---===============4376332844142423908==--
+--===============2185193515368162446==--
