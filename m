@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 19 Jul 2023 20:58:31 -0000
-Message-Id: <168980031167.29633.7877762646821310787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 19 Jul 2023 21:00:18 -0000
+Message-Id: <168980041893.32002.15223544063127371807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 2ce8284c31156c432df60d4497ec68cca04e128f
-    new: da28e18d6a31448a5f67e59e835669e930f8c044
-    log: |
-         da28e18d6a31448a5f67e59e835669e930f8c044 power: supply: bq24190: Considers FORCE_20PCT when getting IPRECHG
-         
+  - ref: refs/heads/nfsd-next
+    old: 2c4c4e68a7f2ab9e1b1c46a4ddc4697026afbfb5
+    new: 767b1d5badd6eb418e3f91f0cd8fa6d2894ff43a
