@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 19 Jul 2023 17:42:34 -0000
-Message-Id: <168978855460.15271.2169577040734861084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 19 Jul 2023 17:45:55 -0000
+Message-Id: <168978875595.18156.8484831233459841502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-netdev
-    old: 0000000000000000000000000000000000000000
-    new: a589d2ef3ceab83a389e3b79aa232c2f407869ea
+  - ref: refs/heads/fileL0Ivf0
+    old: 82e7c8b93a0614b1725e0ea11d0a77b04e058716
+    new: 0000000000000000000000000000000000000000
