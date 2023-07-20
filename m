@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3159772122536320053=="
+Content-Type: multipart/mixed; boundary="===============4794365549075320642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 20 Jul 2023 03:18:46 -0000
-Message-Id: <168982312626.21267.14387536941043549881@gitolite.kernel.org>
+Date: Thu, 20 Jul 2023 03:18:59 -0000
+Message-Id: <168982313988.21431.15115778726983396251@gitolite.kernel.org>
 
---===============3159772122536320053==
+--===============4794365549075320642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: f4d1a8e011909fee24643f84bd1196e1366c26f2
-    new: 80b6051085c5fedcb1dfd7b2562a63a83655c4d8
+  - ref: refs/tags/mkp-scsi-queue
+    old: 036d2951915d1c081befaf1e07ddefac1fa5e080
+    new: e78407ff6ef7406eabc7ee642ce2f17f5db51285
     log: |
-         80b6051085c5fedcb1dfd7b2562a63a83655c4d8 scsi: sg: Fix checking return value of blk_get_queue()
+         30a5b62e1c83d7660c6c471915ad968b6c6b7d98 scsi: target: iscsi: Remove the unused netif_timeout attribute
+         aa2db9d44a8b9b3cb12df7c253b3d6f46618d37e scsi: ufs: core: Convert UPIU_HEADER_DWORD() into a function
+         11afb65c100ac5b16dd8ea6c8fcd55a1c61c3886 scsi: ufs: core: Export symbols for MTK driver module
+         e152a616c88653e67244595979fde24038d9653a scsi: ufs: ufs-mediatek: Add MCQ support for MTK platform
          
 
---===============3159772122536320053==
+--===============4794365549075320642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1689823124 -0400
+pusher 75C5DE3D 1689823130 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1689823124-6a42bd0c578e940fe713903c5cafe9cd82879771
+nonce 1689823130-98e17ff267f973bbce6de180442ca85d67d6f73c
 
-f4d1a8e011909fee24643f84bd1196e1366c26f2 80b6051085c5fedcb1dfd7b2562a63a83655c4d8 refs/heads/fixes
+036d2951915d1c081befaf1e07ddefac1fa5e080 e78407ff6ef7406eabc7ee642ce2f17f5db51285 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmS4p5QACgkQ7ulgGnXF
-3j2Ezg//Rp8PtLpkgDnWaiwflM1T22iRQuQNSdXNE58b0/pT5NI3ytrXhYrdUU5c
-wcnM8rLEeei/dd5sRwto9L/Nn2oVINbGLk4VSD0jPahhYrO9lmS3RBABvrVvQngl
-d5vhlPjEvZZjWLP11J7YaghtRFj4ebwwFyvAYBay/n303biCPAXZwMgwCt0MkjOC
-IKLsYvRArVRbjSCSZggsgT4wnWOvAZ2SRxVxT7ZQHevfXZ8+mu+LeyNaTx4ipMD3
-57I0EqIY1myLAPJS1TYR+v7QH7luG98XlsV5DLXUIU/WgN1mNu3glQ55TAf6RkKW
-9ZVTHLJHLOk42kUmsD+jgEc6IL6iE7jypD+dF/nV6GasRQwi5yU7dTmrIR5DoQD8
-mhuMitj1IQTdC1Cc/x3Kvr64/f75ifIpgsLiKdiiP3cRUmixdRRt54vNRpXznKL7
-IlQ2+HOtywihUW8lkwvKowPEtdIbVLNhJe5lOwbld3ERE5VATQ+Wa3U1IBCu4Ssm
-bcrlKA4VlWE5mbAykgUB+4LZRxqj556DivxpX0pBJG6pplKPTJSObiHnQJdcHWT2
-1v6s0q8TkCC3dHtwZDWpkjGkSVCiJDMJJFml9zTL4Q7PGGsjJ7HXLcvd6sIvbdH+
-f0xTOH+S1upm/BMm7IkTIb/07xg+9JSrxHMhcKMQnApOd3xv2GI=
-=DRWd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmS4p5oACgkQ7ulgGnXF
+3j37eBAAhzsXeFTDXPCktSCT68VP0qzBhmRkV4aKnYfoAZaLlq/6e6wrJneSCC9k
+1/6jjGaSKfAwNP/tAARwwnbXYd/GfMARIwBDzjUOBvY670QeDktJ55xtk2rLCy+A
+zNvfkre+nKHItP4Zou2YQ4WMRiGzVIAn/78z90P/S0wVS+Bf8EyOr67+SA5xwOxH
+vpr2FJQKmgMCZy1hCMRxLspRpk7qdtC0z5eOuXZhT+/Bld7/FKT6oer/zqkhubfM
+IbF2trPpepRA1CAAIQhsURN+wackYlEmyCCBpePyqiTBagY26TXlnPo+1NR1y9j1
+NymtDYb9zzmzneOlgdT4pmvnfmj9zHXjr10JgR2VgaQdgyE/jG06/x9BoFw69DeO
+QYHALKDgNQXW4GdUz4/XK0gVy5BxFJD95LB61OVu7wF51NyA09nXe9rdvcl6aRDR
+FnSphmyn5f7EmvEOdFqMWICjV5j0lvHXKyy8DSXl/9CH4yegyTxvjDTQKRCt5Sc0
+DDnQ69bJ0RQ7R1kOBwNTjsNvrYmNMAEvVLjacsNmNxfbcvw9Rlgm1iE/GrBcZ4GT
+MtQ5PU3L3QZPGl5NR0pxhW90T//WmMJ0ZHW7RQPQBOBqDbu2ha1fnaS08bDCqo/a
+3gpuY5aGQxI+WhGsakcYyZjWPQSDm7Sbv8qx3EvvnEBvGu3mMm0=
+=uYIB
 -----END PGP SIGNATURE-----
 
---===============3159772122536320053==--
+--===============4794365549075320642==--
