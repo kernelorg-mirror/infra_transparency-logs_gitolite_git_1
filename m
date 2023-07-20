@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 20 Jul 2023 10:51:04 -0000
-Message-Id: <168985026469.9506.13463726645146587625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 20 Jul 2023 10:58:13 -0000
+Message-Id: <168985069376.13647.7872864585354921328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 91ea8ff5cf43568cccba41da573bd9a462f17a84
-    new: 54e4a6b145fd6ef943d93e16de748283e687855d
+  - ref: refs/heads/habanalabs-next
+    old: 748957c54129a61a5310b53d535b5dd1d28b7770
+    new: e4f79224af4f35a91fa8b8167023995a335334eb
     log: |
-         54e4a6b145fd6ef943d93e16de748283e687855d libmount: use some MS_* flags as superblock flags
+         e4f79224af4f35a91fa8b8167023995a335334eb accel/habanalabs/gaudi2: prepare to remove cpu_rst_status
          
