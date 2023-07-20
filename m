@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6298640009724410041=="
+Content-Type: multipart/mixed; boundary="===============7276271950583973673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 20 Jul 2023 04:21:55 -0000
-Message-Id: <168982691558.4315.9347190821329182662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 20 Jul 2023 04:22:03 -0000
+Message-Id: <168982692376.4480.16116644635781739792@gitolite.kernel.org>
 
---===============6298640009724410041==
+--===============7276271950583973673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 352ce39a8bbaec0405793682be59fae120fc6b05
     new: c58c49dd89324b18a812762a2bfa5a0458e4f252
     log: revlist-352ce39a8bba-c58c49dd8932.txt
-  - ref: refs/heads/stable
-    old: ccff6d117d8dc8d8d86e8695a75e5f8b01e573bf
-    new: bfa3037d828050896ae52f6467b6ca2489ae6fb1
-    log: |
-         5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
-         1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
-         3066ff93476c35679cb07a97cce37d9bb07632ff fuse: Apply flags2 only when userspace set the FUSE_INIT_EXT
-         a9d1c4c6df0e568207907c04aed9e7beb1294c42 fuse: revalidate: don't invalidate if interrupted
-         6a567e920fd0451bf29abc418df96c3365925770 fuse: ioctl: translate ENOSYS in outarg
-         bfa3037d828050896ae52f6467b6ca2489ae6fb1 Merge tag 'fuse-update-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-         
-  - ref: refs/tags/next-20230420
-    old: 132fd4866eb912226ccb0e47ea60f6b937144294
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230720
     old: 0000000000000000000000000000000000000000
     new: 10d747c1f3542414a104d163bf8a077659f0bca2
 
---===============6298640009724410041==
+--===============7276271950583973673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -851,4 +837,4 @@ d6c350be23cec040a557e736e2d5e547823abd3a Merge branch 'for-next/kspp' of git://g
 39f6dc11a8dca6c47691fd36fb19b381f8305ddb Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 c58c49dd89324b18a812762a2bfa5a0458e4f252 Add linux-next specific files for 20230720
 
---===============6298640009724410041==--
+--===============7276271950583973673==--
