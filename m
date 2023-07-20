@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3682143828453096751=="
+Content-Type: multipart/mixed; boundary="===============0895406438430175197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Thu, 20 Jul 2023 09:14:20 -0000
-Message-Id: <168984446022.21272.17994775493659405825@gitolite.kernel.org>
+Date: Thu, 20 Jul 2023 09:14:30 -0000
+Message-Id: <168984447020.21405.4820006468901591140@gitolite.kernel.org>
 
---===============3682143828453096751==
+--===============0895406438430175197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 0dd1805fe498e0cf64f68e451a8baff7e64494ec
-    new: 9f9d4c1a2e82174a4e799ec405284a2b0de32b6a
-    log: revlist-0dd1805fe498-9f9d4c1a2e82.txt
-  - ref: refs/heads/master
-    old: 0dd1805fe498e0cf64f68e451a8baff7e64494ec
-    new: 9f9d4c1a2e82174a4e799ec405284a2b0de32b6a
-    log: revlist-0dd1805fe498-9f9d4c1a2e82.txt
+  - ref: refs/heads/testing
+    old: 9efa1a5407e81265ea502cab83be4de503decc49
+    new: f8a2da6ec2417cca169fa85a8ab15817bccbb109
+    log: revlist-9efa1a5407e8-f8a2da6ec241.txt
 
---===============3682143828453096751==
+--===============0895406438430175197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689844456 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1689844466 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1689844456-95dba44c04294ca7ca78d8dce8d2d3e2378cb0a1
+nonce 1689844466-6b37d86f40ee058fe3ca6d9ec07dd3d020a748c6
 
-0dd1805fe498e0cf64f68e451a8baff7e64494ec 9f9d4c1a2e82174a4e799ec405284a2b0de32b6a refs/heads/main
-0dd1805fe498e0cf64f68e451a8baff7e64494ec 9f9d4c1a2e82174a4e799ec405284a2b0de32b6a refs/heads/master
+9efa1a5407e81265ea502cab83be4de503decc49 f8a2da6ec2417cca169fa85a8ab15817bccbb109 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS4+ugTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6MYuCACQQTlOpKTD5HUJmNnkiQS32/HEGg2P
-21FTeGvyxGzwIW6yrCpOu2iAgfk8XVhMj7dCEbY+HgOUnH4ZhhCas5z8FeLZEp7F
-PjNPIoEUiZsUnvdmeoW9xi2+yR/satlOnsh/VWrpQN8Xw50IdvOFrJBSvfB7aWRN
-6dwvD64OxedLctkhxZ7bcSByMfCZFCRngbfILlCTckxKz801G4QVWoWgD7O8KF+M
-NKDju8MGSpRiGWDaoByvVAY/fQmsO4IWPBPAp8Oo2wvrxAyjSBIykcAeD7DAKYWJ
-H8x/ySKXzR/ut2AKckBXvCTBrB6NUcEWoQDBkVqmjH/Ipteysa4PbiLq
-=EdHN
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmS4+vITHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6OXeCACmy3gXRIbMsGCMaED/NDlN/+OlLMve
+b6BfGtGOWXmSTS8lLo4ndrGby5YyApcGZP1yUpzetvayy+I4Qa/HcLA+I7VVeKIL
+tnGjTbX900ehvJptr2ox87RVjAi3sLFS8+lsIM5Rn2nV+dX5kKRvFAIMWSJoC6Vd
+EErUy9RgRUYiBG0lX3XICgMWNEXmuvBJkVF+znY/Z6ZoswwRq1OaU1qs85r7WQIR
+aHC8SZnCK7gLBM12gaVyin8F6RNf+lChPC9lmo8PlxwaU/4dWPwCcimR4oR+pIlR
+PW7/sCyGsSJ0f/Cv0xHwyl+2qHO1Y2fuhS/xjv1eAsXp/Y8ZwD5hv8mn
+=IF4j
 -----END PGP SIGNATURE-----
 
---===============3682143828453096751==
+--===============0895406438430175197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dd1805fe498-9f9d4c1a2e82.txt
+Content-Disposition: attachment; filename=revlist-9efa1a5407e8-f8a2da6ec241.txt
 
 24a3298ac9e6bd8de838ab79f7868207170d556d ice: Unregister netdev and devlink_port only once
 b3e7b3a6ee92ab927f750a6b19615ce88ece808f ice: prevent NULL pointer deref during reload
@@ -66,11 +61,6 @@ ac177a330077f264664f56259038e121bb214bec net: sched: cls_flower: Undo tcf_bind_f
 6e8778f8e0f58cac4955b17130549b156cf9d25f Merge branch 'sched-fixes'
 4bdf79d686b49ac49373b36466acfb93972c7d7c net: dsa: microchip: correct KSZ8795 static MAC table access
 162d626f3013215b82b6514ca14f20932c7ccce5 r8169: fix ASPM-related problem for chip version 42 and 43
-ee8b94c8510ce64afe0b87ef548d23e00915fb10 can: raw: fix receiver memory leak
-55c3b96074f3f9b0aee19bf93cd71af7516582bb can: bcm: Fix UAF in bcm_proc_show()
-2603be9e8167ddc7bea95dcfab9ffc33414215aa can: gs_usb: gs_can_open(): improve error handling
-5886e4d5ecec3e22844efed90b2dd383ef804b3a can: gs_usb: fix time stamp counter initialization
-dc050849d93f4c5d8a88dc6789668212b7785967 Merge patch series "can: gs_usb: fix time stamp counter initialization"
 5f4fa1672d98fe99d2297b03add35346f1685d6b iavf: Fix use-after-free in free_netdev
 7c4bced3caa749ce468b0c5de711c98476b23a52 iavf: Fix out-of-bounds when setting channels on remove
 a77ed5c5b768e9649be240a2d864e5cd9c6a2015 iavf: use internal state to free traffic IRQs
@@ -79,7 +69,6 @@ d2806d960e8387945b53edf7ed9d71ab3ab5f073 Revert "iavf: Detach device during rese
 d916d273041b0b5652434ff27aec716ff90992ac Revert "iavf: Do not restart Tx queues after reset task failure"
 d1639a17319ba78a018280cd2df6577a7e5d9fab iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
 c34743daca0eb1dc855831a5210f0800a850088e iavf: fix reset task race with iavf_remove()
-9efa1a5407e81265ea502cab83be4de503decc49 can: mcp251xfd: __mcp251xfd_chip_set_mode(): increase poll timeout
 03803083a9b4d88886fb059458682301a8c7219a Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 2033ab90380d46e0e9f0520fd6776a73d107fd95 vrf: Fix lockdep splat in output path
 8fcd7c7b3a38ab5e452f542fda8f7940e77e479a octeontx2-pf: Dont allocate BPIDs for LBK interfaces
@@ -113,5 +102,6 @@ cf2ffdea0839398cb0551762af7f5efb0a6e0fea r8169: revert 2ab19de62d67 ("r8169: rem
 e31a9fedc7d8d80722b19628e66fcb5a36981780 Revert "r8169: disable ASPM during NAPI poll"
 88f2e009761d120eea31e71dafd73b8433b0e379 Merge branch 'r8169-revert-two-changes-that-caused-regressions'
 9f9d4c1a2e82174a4e799ec405284a2b0de32b6a net: ethernet: mtk_eth_soc: always mtk_get_ib1_pkt_type
+f8a2da6ec2417cca169fa85a8ab15817bccbb109 can: gs_usb: gs_can_close(): add missing set of CAN state to CAN_STATE_STOPPED
 
---===============3682143828453096751==--
+--===============0895406438430175197==--
