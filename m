@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 20 Jul 2023 03:46:01 -0000
-Message-Id: <168982476112.10028.1984451190976766596@gitolite.kernel.org>
+Date: Thu, 20 Jul 2023 03:57:22 -0000
+Message-Id: <168982544265.17219.401323511023811504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e93165d5e75d025280763ff01eece98575b32901
-    new: 567b12fe7c7ed9d0de58227e8ada15aa3fce3c4c
+    old: 567b12fe7c7ed9d0de58227e8ada15aa3fce3c4c
+    new: 2faf5ad2682d4fadf9fb51d2745e3c6c05cb4502
     log: |
-         a94fd40a18ae76ba76dbaa8eca0e3c46aa1142c1 xfrm: delete not-needed clear to zero of encap_oa
-         567b12fe7c7ed9d0de58227e8ada15aa3fce3c4c Merge tag 'ipsec-next-2023-07-19' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+         2eb85b750512cc5dc5a93d5ff00e1f83b99651db net: stmmac: don't clear network statistics in .ndo_open()
+         133466c3bbe171f826294161db203f7670bb30c8 net: stmmac: use per-queue 64 bit statistics where necessary
+         2faf5ad2682d4fadf9fb51d2745e3c6c05cb4502 Merge branch 'net-stmmac-improve-driver-statistics'
          
