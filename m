@@ -1,44 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3238560304413323396=="
+Content-Type: multipart/mixed; boundary="===============8665636487233059075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 20 Jul 2023 21:04:34 -0000
-Message-Id: <168988707489.13370.1111383996925498816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 20 Jul 2023 21:06:30 -0000
+Message-Id: <168988719049.15745.16744784479552108052@gitolite.kernel.org>
 
---===============3238560304413323396==
+--===============8665636487233059075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/locking/futex
-    old: b70d7a00de0dc4c0525ce8226eb903695114f8ab
-    new: a089fd138df309d9d90ec2d347ae4d57ea9fbdb3
-    log: revlist-b70d7a00de0d-a089fd138df3.txt
+  - ref: refs/heads/main
+    old: ac528649f7c63bc233cc0d33cff11f767cc666e3
+    new: 9b39f758974ff8dfa721e68c6cecfd37e6ddb206
+    log: revlist-ac528649f7c6-9b39f758974f.txt
 
---===============3238560304413323396==
+--===============8665636487233059075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b70d7a00de0d-a089fd138df3.txt
+Content-Disposition: attachment; filename=revlist-ac528649f7c6-9b39f758974f.txt
 
-c4ae35f74fee5a088a8ee7332ad279a29f0d1d3e futex: Clarify FUTEX2 flags
-0d1339e84e91b4f54b946ca72f80c2cf6d0e5b52 futex: Extend the FUTEX2 flags
-f7608e8ce24e28f368133c4c6508f61962f795ff futex: Flag conversion
-999d7fc8798229520439be13809cda538a9abb10 futex: Validate futex value against futex size
-58b19e38123045fc0dab8ff0c55da9443a0ab8c1 futex: Add sys_futex_wake()
-3748e822ae7c15d8a80f68f442fabc58e46efef3 futex: Add sys_futex_wait()
-66d810d39e8c1e4db9192273a9154d0507de54d6 futex: Propagate flags into get_futex_key()
-2192f27cf278520726f1f973db737a452312a6d6 futex: Add flags2 argument to futex_requeue()
-1784ad426695f569439c8599969e61a6c1493637 futex: Add sys_futex_requeue()
-b671ae34665065b744cdeac293e56cd897fb1838 mm: Add vmalloc_huge_node()
-42422e9839b48f19a1044c43df3abfc39cb51c7e futex: Implement FUTEX2_NUMA
-1e1b5f5ddded62985d31aa76388ad7986869099b futex: Propagate flags into futex_get_value_locked()
-e6b6390c713b46f00d984813dfda3c2e56e21648 futex: Enable FUTEX2_{8,16}
-a089fd138df309d9d90ec2d347ae4d57ea9fbdb3 futex,selftests: Extend the futex selftests
+ddbd8be68941985f166f5107109a90ce13147c44 netfilter: nf_tables: fix spurious set element insertion failure
+314c82841602a111c04a7210c21dc77e0d560242 netfilter: nf_tables: can't schedule in nft_chain_validate
+87b5a5c209405cb6b57424cdfa226a6dbd349232 netfilter: nft_set_pipapo: fix improper element removal
+751d460ccff3137212f47d876221534bf0490996 netfilter: nf_tables: skip bound chain in netns release path
+6eaf41e87a223ae6f8e7a28d6e78384ad7e407f8 netfilter: nf_tables: skip bound chain on rule flush
+348b81b68b13ebd489a3e6a46aa1c384c731c919 tcp: annotate data-races around tp->tcp_tx_delay
+dd23c9f1e8d5c1d2e3d29393412385ccb9c7a948 tcp: annotate data-races around tp->tsoffset
+4164245c76ff906c9086758e1c3f87082a7f5ef5 tcp: annotate data-races around tp->keepalive_time
+5ecf9d4f52ff2f1d4d44c9b68bc75688e82f13b4 tcp: annotate data-races around tp->keepalive_intvl
+6e5e1de616bf5f3df1769abc9292191dfad9110a tcp: annotate data-races around tp->keepalive_probes
+3a037f0f3c4bfe44518f2fbb478aa2f99a9cd8bb tcp: annotate data-races around icsk->icsk_syn_retries
+9df5335ca974e688389c875546e5819778a80d59 tcp: annotate data-races around tp->linger2
+ae488c74422fb1dcd807c0201804b3b5e8a322a3 tcp: annotate data-races around rskq_defer_accept
+1aeb87bc1440c5447a7fa2d6e3c2cca52cbd206b tcp: annotate data-races around tp->notsent_lowat
+26023e91e12c68669db416b97234328a03d8e499 tcp: annotate data-races around icsk->icsk_user_timeout
+70f360dd7042cb843635ece9d28335a4addff9eb tcp: annotate data-races around fastopenq.max_qlen
+7998c0ad4c89cbb0bcd1594d9f989c8a5853daf7 Merge branch 'tcp-add-missing-annotations'
+1c613beaf877c0c0d755853dc62687e2013e55c4 net: phy: prevent stale pointer dereference in phy_init()
+9b39f758974ff8dfa721e68c6cecfd37e6ddb206 Merge tag 'nf-23-07-20' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============3238560304413323396==--
+--===============8665636487233059075==--
