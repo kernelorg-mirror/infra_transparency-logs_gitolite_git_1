@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 20 Jul 2023 12:51:49 -0000
-Message-Id: <168985750948.32586.13499619533348579930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 20 Jul 2023 13:05:07 -0000
+Message-Id: <168985830723.9795.8817898335635664198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/arm64-signal-memcpy-fix
-    old: 0c85eaa2e34e914068b6bcd98906996ad3b0a63c
-    new: cae3e7f256bfcd01bcb0df06f3a5563d4ccebb54
-    log: |
-         d7651f5794df03dbbef9a1ba948c50fdd363e555 # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
-         cae3e7f256bfcd01bcb0df06f3a5563d4ccebb54 kselftest/arm64: Exit streaming mode after collecting signal context
-         
+  - ref: refs/tags/asoc-fix-v6.5-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: c5297151971748fcf2266f3a4204ff5aa859a460
