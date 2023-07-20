@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0189362250169060050=="
+Content-Type: multipart/mixed; boundary="===============5349400212086119818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 20 Jul 2023 17:22:22 -0000
-Message-Id: <168987374236.8409.16407364556344336948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
+Date: Thu, 20 Jul 2023 17:22:47 -0000
+Message-Id: <168987376792.8635.16908676393643684134@gitolite.kernel.org>
 
---===============0189362250169060050==
+--===============5349400212086119818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sre/linux-misc
+user: sre
 changes:
-  - ref: refs/heads/tty-linus
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    new: 690c8b804ad2eafbd35da5d3c95ad325ca7d5061
-    log: |
-         690c8b804ad2eafbd35da5d3c95ad325ca7d5061 TIOCSTI: always enable for CAP_SYS_ADMIN
-         
+  - ref: refs/heads/rk3588
+    old: 664f366ad7f2d1fe84b37f22570a1bc43c6307e1
+    new: a7f0495c4d46173f982848ad3a422092e1486b05
+    log: revlist-664f366ad7f2-a7f0495c4d46.txt
 
---===============0189362250169060050==
+--===============5349400212086119818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-664f366ad7f2-a7f0495c4d46.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689873740 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1689873740-fcc2f9606e72a9c87e95c09dd86fd0eb4f55a108
+669591322340f8c54027fed4a0ce3843fc438529 dt-bindings: usb: add rk3588 compatible to rockchip,dwc3
+6e88ed5694d11f36301f950dfdee66d90bd6ba04 usb: dwc3: add optional PHY interface clocks
+fd76e47c099aa1977ea4890c6ec970e342153e94 arm64: dts: rockchip: rk3588s: Add USB3 host controller
+6d43d820a6572a7c43f47b4c63eecad234435a66 arm64: dts: rockchip: rk3588-rock5b: add USB3 host
+7e8ca44f4a03a5ebf44210b08c7740793d490a75 dt-bindings: phy: add rockchip usbdp combo phy document
+1f4f68520e19450d5ea40a99ccf8f49803eb1865 dt-bindings: soc: rockchip: add rk3588 USB3 syscon
+aeae7be0a6ec04a73321d6edd8449028ff7a7424 phy: rockchip: add usbdp combo phy driver
+883d10e5d1119fbbbbb2d3d76670d857d76a5806 arm64: dts: rockchip: rk3588s: Add USBDP phy nodes
+4004e4e1a3f89371b41dd945c4f110dda7fac9b0 arm64: dts: rockchip: rk3588s: Add USB3 DRD controllers
+acfb855a2bb17de5a375c3dfed9596155cda079f arm64: dts: rockchip: rk3588-evb1: add USB3
+b679e3d11785d74e94f319905eac0034f34fcca4 clk: rockchip: rk3588: fix pclk_vo0grf and pclk_vo1grf
+24320ec9273c7ba7ced8c643823748ddef359a47 arm64: defconfig: Enable Rockchip OTP memory driver
+b82c358e4c653f64e8cfda0682293824959ef250 arm64: dts: rockchip: rk3588is: Add AV1 decoder node
+72b6bc2bc282bf0823488d4a0ce0699c6bd03e9c media: verisilicon: Fixes clock list for rk3588 av1 decoder
+4bb85fb21cf1880a9dfc5e41bc28ebfe5aecb18c dt-bindings: media: rockchip: Add resets property into decoder node
+250013cd85efdfba266ea9d15b50c022ea20c538 arm64: dts: rockchip: Drop invalid regulator-init-microvolt property
+f28078416146ab328bc8eb1e38be610bbfaa8b10 cpufreq: rockchip: Introduce driver for rk3588
+05c00de15362e2ce307b5cb4edf0a84096e94598 arm64: dts: rockchip: rk3588: add cpu frequency scaling support
+2e8ce3c538a88b95cc8aa1e3feebe16ab54c4c72 arm64: dts: rockchip: rk3588-evb1: enable tsadc
+99261891744af9825d9676608afada01ae929b2e arm64: dts: rockchip: rk3588-evb1: add cpu mem regulator info
+a7f0495c4d46173f982848ad3a422092e1486b05 [BROKEN] arm64: dts: rockchip: rk3588-evb1: add PCIe2 WLAN controller
 
-fdf0eaf11452d72945af31804e2a1048ee1b574c 690c8b804ad2eafbd35da5d3c95ad325ca7d5061 refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS5bUwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LisP/iWJyJ8Krd9VlzFMAgg1
-QS1GtIy2QtZtczH5b9o2F4LtxxzB/OxamXctyhd8Hb7t/dvAker5aMP25qB3dnXL
-krxI58fHoiYpxJLpCdwh5FndJkAHQ4nn1Hcynk9fMffHQ82wsUvYgXKWKHODCKZX
-lcMDq9eEXmqlOMiGNsEo9Z2Lp27Ws6A8H8MU3mA6pktVo34dTXj0yQzMVVq6lDHg
-J/lAgOOyVdg1KuCKyMHOHCFATqmmc1oy6kU528LVvsEwzRj8Jpn9pmiQs+f0qQ7x
-72eZeLeOGkJFOMEdVkD5FVi5PIbYU38dZg5KRwFHQ1B/m5cBZTOE8235sw1IBpw9
-MvL1OfCicSCNh2yWphzlpJeduIJHjijHPSyf2GGqepleOaZ2zCs/ilfBJTUZj8aR
-1X3qEFAsnX8tDVp099gyjUsPPn6tZ058ZxD+A0n03C7ZUy16MVBoaMnwz4dXZPqx
-6smIVAEjjfY/LsxvAw+RRZGVjBEWs97a08x/j9FIQqjcX8ZOZYpiAuSZo5nbnKLn
-kJLk5p7nqzJZqdBITnRvGNcDd3iHgdSsUHIKMhcIvCjtVXMd/uFsBvVl+yJiwiqQ
-6JlJJVrATSuYpMBCkWp+LRXrGer1+wsfWlbXbBZ3It6XWux3XOhmmXul71ZMnLn3
-/SIMzEnrxyCF93oERSkxcrhF
-=w/iV
------END PGP SIGNATURE-----
-
---===============0189362250169060050==--
+--===============5349400212086119818==--
