@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2840987601665473232=="
+Content-Type: multipart/mixed; boundary="===============3410677643140765944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 20 Jul 2023 15:53:58 -0000
-Message-Id: <168986843829.4470.17579461435401871261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
+Date: Thu, 20 Jul 2023 16:04:27 -0000
+Message-Id: <168986906771.11441.11893219110871200323@gitolite.kernel.org>
 
---===============2840987601665473232==
+--===============3410677643140765944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/will/kvmtool
+user: will
 changes:
   - ref: refs/heads/master
-    old: bfa3037d828050896ae52f6467b6ca2489ae6fb1
-    new: 46670259519f4ee4ab378dc014798aabe77c5057
-    log: revlist-bfa3037d8280-46670259519f.txt
+    old: bd4ba57156dad39349edfb2338bdc2f4ed3c0bae
+    new: 106e2ea7756d980454d68631b87d5e25ba4e4881
+    log: revlist-bd4ba57156da-106e2ea7756d.txt
 
---===============2840987601665473232==
+--===============3410677643140765944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfa3037d8280-46670259519f.txt
+Content-Disposition: attachment; filename=revlist-bd4ba57156da-106e2ea7756d.txt
 
-b19c98f237cd76981aaded52c258ce93f7daa8cb btrfs: fix race between balance and cancel/pause
-4e7de35eb7d1a1d4f2dda15f39fbedd4798a0b8d btrfs: be a bit more careful when setting mirror_num_ret in btrfs_map_block
-0657b20c5a76c938612f8409735a8830d257866e btrfs: fix use-after-free of new block group that became unused
-98e2dd5f7a8be5cb2501a897e96910393a49f0ff regulator: da9063: fix null pointer deref with partial DT config
-f1a07c2b4e2c473ec322b8b9ece071b8c88a3512 btrfs: zoned: fix memory leak after finding block group with super blocks
-b777d279ff31979add57e8a3f810bceb7ef0cfb7 btrfs: fix double iput() on inode after an error during orphan cleanup
-cbaee87f2ef628c10331b69a2f3def6bc32402d7 btrfs: fix iput() on error pointer after error during orphan cleanup
-866e98a4d95d93de2d485f82c69ffeabd712e48b btrfs: use irq safe locking when running and adding delayed iputs
-486c737f7fdc0c3f6464cf27ede811daec2769a1 btrfs: raid56: always verify the P/Q contents for scrub
-17b17fcd6d446b95904a6929c40012ee7f0afc0c btrfs: set_page_extent_mapped after read_folio in btrfs_cont_expand
-7cad645ebf20d777b2a48750ebd80fd81593b78c btrfs: fix ordered extent split error handling in btrfs_dio_submit_io
-aa84ce8a78a1a5c10cdf9c7a5fb0c999fbc2c8d6 btrfs: fix warning when putting transaction with qgroups enabled after abort
-2922800a1803f6319e329bdbfd2962fd83eb5360 Merge tag 'regulator-fix-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-46670259519f4ee4ab378dc014798aabe77c5057 Merge tag 'for-6.5-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+b6bae725decc42a4b5bc76058afb4c9d6abe4645 Factor out getting the host page size
+834e5ed62fb8e4905b31e54d456d4011365b9533 Factor out getting the number of physical memory host pages
+63643b11ce7d7c36d0b4e7636a48ca8451c2aae7 Apply scaling down the calculated guest ram size to the number of pages
+15757e8e6441d83757c39046a6cdd3e4d74200ce virtio-net: Don't print the compat warning for the default device
+d8343698df72d03986efc4b985b2ee18df514200 kvm tools: Add __DECLARE_FLEX_ARRAY() in include/linux/stddef.h
+be98682486a0920b9cecb0aa9bbdca6bc3ecb146 Sync-up headers with Linux-6.4
+9e9cfde59dfe291f7cb86782ba1a5eb90aecef9b riscv: Allow setting custom mvendorid, marchid, and mimpid
+a416fdc2e664b8b8faf653fec636f93c187d2529 riscv: Allow disabling SBI extensions for Guest
+b346fabe6d2c4cc8e926fd0a0bbc7bc1758963e6 riscv: Sort the ISA extension array alphabetically
+8c1584e776a48d5dc2343e1a5d8d3b44883d9f63 riscv: Add zbb extension support
+8f1e47ca04c993303013127407ce68e35ec38c08 riscv: Add Zicboz extension support
+8659200f69310e1f0e9cea70ae0fd65b363f6c4e riscv: Add Ssaia extension support
+106e2ea7756d980454d68631b87d5e25ba4e4881 riscv: Fix guest RAM alloc size computation for RV32
 
---===============2840987601665473232==--
+--===============3410677643140765944==--
