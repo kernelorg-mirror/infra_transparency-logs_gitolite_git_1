@@ -1,24 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
-Date: Thu, 20 Jul 2023 23:24:21 -0000
-Message-Id: <168989546181.18441.5213309742565642130@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2431365273150964605=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 20 Jul 2023 23:24:30 -0000
+Message-Id: <168989547053.18584.6609413133283241770@gitolite.kernel.org>
+
+--===============2431365273150964605==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinawa
-user: takaswie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: 9d76ad2c265e7c748a2bb800f0b78ba08ab30382
-    new: 85b6d8b8a609bb46ec084e275866b4acdef62c75
-    log: |
-         f8c1a9daa8c8b2898a63e44678783edd8487bf77 snd_tscm: remove Hinawa.SndTscm
-         4320d97afa3d06217ca778de111d6fd5ba3ea7e2 snd_motu: remove Hinawa.SndMotu and Hinawa.SndMotuRegisterDspParameter
-         5e4bc547368893b520b999bdde26083645ac77a0 snd_dg00x: remove Hinawa.SndDg00x
-         5d057a22a992ca0c043e392b573ddc8c1caa1ff8 snd_efw: remove Hinawa.SndEfw, Hinawa.SndEfwStatus, and Hinawa.SndEfwError
-         5aae8137d9c6a0b7252209e03a079e7d3cdac499 snd_dice: remove Hinawa.SndDice and Hinawa.SndDiceError
-         85b6d8b8a609bb46ec084e275866b4acdef62c75 snd_unit: remove Hinawa.SndUnit and Hinawa.SndUnitError
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 2e92041c42365ba856a0fe7fc861962e2fcefcd5
+    new: 681f34d52b9647db68cebc5f957ddfff01fb6ba0
+    log: revlist-2e92041c4236-681f34d52b96.txt
+
+--===============2431365273150964605==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2e92041c4236-681f34d52b96.txt
+
+3f6a74bd628278e6eab4220449702a388aea7595 perf evsel: Free evsel->filter on the destructor
+04cb4fc4d40a5bf1f9d116bc77e69791451f9fcc perf thread: Allow tools to register a thread->priv destructor
+9de251cb501f834aeb13e87598d1f78588964101 perf trace: Register a thread priv destructor
+7962ef13651a9163f07b530607392ea123482e8a perf trace: Really free the evsel->priv area
+fcca1faf11b47011770c361a1dfc36ed83905148 perf trace: Free thread_trace->files table
+faa4e0da1cbab97aa18bb6562ab32d9f0fc32e82 MAINTAINERS: Add git information for perf-tools and perf-tools-next trees/branches
+2df270716447a1024a6c955eed8fa579333dca85 perf bench uprobe: Add benchmark to test uprobe overhead
+dded6f615b854740461be63672fa05158875ffaa perf bench uprobe: Print diff to baseline
+54d811023b5f99e658511b577b16a6d7014d162c perf bench uprobe: Show diff to previous
+6af5e4cf3a6521d23ca53df5001319babefdffbf perf bench uprobe empty: Add entry attaching an empty BPF program
+7b47623b8cae8149688c11396bb690bed6936f70 perf bench uprobe trace_printk: Add entry attaching an BPF program that does a trace_printk
+681f34d52b9647db68cebc5f957ddfff01fb6ba0 perf diff: Replaces some ',' as separator with the more usual ';'
+
+--===============2431365273150964605==--
