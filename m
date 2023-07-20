@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8732681395643806414=="
+Content-Type: multipart/mixed; boundary="===============7594898330593617018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 20 Jul 2023 15:07:34 -0000
-Message-Id: <168986565482.3383.10059019828692568808@gitolite.kernel.org>
+Date: Thu, 20 Jul 2023 15:07:47 -0000
+Message-Id: <168986566755.3568.4355235566732551333@gitolite.kernel.org>
 
---===============8732681395643806414==
+--===============7594898330593617018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6f5a630d7c57cd79b1f526a95e757311e32d41e5
     new: b44693495af8f309b8ddec4b30833085d1c2d0c4
     log: revlist-6f5a630d7c57-b44693495af8.txt
 
---===============8732681395643806414==
+--===============7594898330593617018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -118,4 +118,4 @@ a60eb72066af272c2891c6685b9a082dde69198c net: phy: c45: detect the BASE-T1 speed
 af1e2cffbd2ef338b1d2e7318cb2516cc6380303 Merge branch 'add-a-driver-for-the-marvell-88q2110-phy'
 b44693495af8f309b8ddec4b30833085d1c2d0c4 tcp: add TCP_OLD_SEQUENCE drop reason
 
---===============8732681395643806414==--
+--===============7594898330593617018==--
