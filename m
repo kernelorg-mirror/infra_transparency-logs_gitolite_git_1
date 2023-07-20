@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 20 Jul 2023 02:03:07 -0000
-Message-Id: <168981858790.30912.1091836800274080663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 20 Jul 2023 02:57:48 -0000
+Message-Id: <168982186863.5545.17005091645733450709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 7e73545fc720b081edd354f561d9e3a8e16e928c
-    new: df7aee54b21992a8d40e6b462f50f0c84f95f476
+  - ref: refs/heads/dev
+    old: 109d2a9163519a08395411a205d4ed9c5270bd94
+    new: 7d15c91a75aae55767f368e8abbabd7cedf4ec94
     log: |
-         df7aee54b21992a8d40e6b462f50f0c84f95f476 foo
+         7d15c91a75aae55767f368e8abbabd7cedf4ec94 erofs: fix wrong primary bvec selection on deduplicated extents
+         
+  - ref: refs/heads/dev-test
+    old: 109d2a9163519a08395411a205d4ed9c5270bd94
+    new: 7d15c91a75aae55767f368e8abbabd7cedf4ec94
+    log: |
+         7d15c91a75aae55767f368e8abbabd7cedf4ec94 erofs: fix wrong primary bvec selection on deduplicated extents
          
