@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 20 Jul 2023 11:54:03 -0000
-Message-Id: <168985404325.22009.16757748285539877954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Thu, 20 Jul 2023 11:55:03 -0000
+Message-Id: <168985410327.23359.18290341376802963636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/usb-linus
-    old: 85ac688e6ef86580b51c6e48c77daa4e8877bc65
-    new: bae60387aa8cb9f31c210af310f0bb5f235964f8
+  - ref: refs/heads/misc-next
+    old: a508af864554f90e8def36dafd2ab3ed9e5e6ee9
+    new: 8b5e23907e790234838396da2b2760b4d76caa4d
     log: |
-         857ea9005806e2a458016880278f98715873e977 USB: serial: option: add Quectel EC200A module support
-         dd92c8a1f99bcd166204ffc219ea5a23dd65d64f USB: serial: simple: add Kaufmann RKS+CAN VCP
-         bae60387aa8cb9f31c210af310f0bb5f235964f8 USB: serial: simple: sort entries
+         8b5e23907e790234838396da2b2760b4d76caa4d btrfs: account block group tree when calculating global reserve size
          
