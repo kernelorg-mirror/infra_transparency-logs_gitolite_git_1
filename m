@@ -1,74 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2558102370747580936=="
+Content-Type: multipart/mixed; boundary="===============6098445551058023082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 20 Jul 2023 15:09:19 -0000
-Message-Id: <168986575986.4446.15051621144948459033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 20 Jul 2023 15:16:43 -0000
+Message-Id: <168986620357.10773.16531953050580220557@gitolite.kernel.org>
 
---===============2558102370747580936==
+--===============6098445551058023082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: a3f25d614bc73b45e8f02adc6769876dfd16ca84
-    new: ac528649f7c63bc233cc0d33cff11f767cc666e3
-    log: revlist-a3f25d614bc7-ac528649f7c6.txt
+  - ref: refs/heads/dev-test
+    old: 57230609e91a3476804f9cf5c801e83f0b03cbbf
+    new: e3f220f5d71724026b5964396dc2137551a240b1
+    log: revlist-57230609e91a-e3f220f5d717.txt
 
---===============2558102370747580936==
+--===============6098445551058023082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3f25d614bc7-ac528649f7c6.txt
+Content-Disposition: attachment; filename=revlist-57230609e91a-e3f220f5d717.txt
 
-ee8b94c8510ce64afe0b87ef548d23e00915fb10 can: raw: fix receiver memory leak
-55c3b96074f3f9b0aee19bf93cd71af7516582bb can: bcm: Fix UAF in bcm_proc_show()
-2603be9e8167ddc7bea95dcfab9ffc33414215aa can: gs_usb: gs_can_open(): improve error handling
-5886e4d5ecec3e22844efed90b2dd383ef804b3a can: gs_usb: fix time stamp counter initialization
-dc050849d93f4c5d8a88dc6789668212b7785967 Merge patch series "can: gs_usb: fix time stamp counter initialization"
-5f4fa1672d98fe99d2297b03add35346f1685d6b iavf: Fix use-after-free in free_netdev
-7c4bced3caa749ce468b0c5de711c98476b23a52 iavf: Fix out-of-bounds when setting channels on remove
-a77ed5c5b768e9649be240a2d864e5cd9c6a2015 iavf: use internal state to free traffic IRQs
-c2ed2403f12c74a74a0091ed5d830e72c58406e8 iavf: Wait for reset in callbacks which trigger it
-d2806d960e8387945b53edf7ed9d71ab3ab5f073 Revert "iavf: Detach device during reset task"
-d916d273041b0b5652434ff27aec716ff90992ac Revert "iavf: Do not restart Tx queues after reset task failure"
-d1639a17319ba78a018280cd2df6577a7e5d9fab iavf: fix a deadlock caused by rtnl and driver's lock circular dependencies
-c34743daca0eb1dc855831a5210f0800a850088e iavf: fix reset task race with iavf_remove()
-9efa1a5407e81265ea502cab83be4de503decc49 can: mcp251xfd: __mcp251xfd_chip_set_mode(): increase poll timeout
-fda05798c22a354efde09a76bdfc276b2d591829 selftests: tc: set timeout to 15 minutes
-719b4774a8cb1a501e2d22a5a4a3a0a870e427d5 selftests: tc: add 'ct' action kconfig dep
-031c99e71fedcce93b6785d38b7d287bf59e3952 selftests: tc: add ConnTrack procfs kconfig
-2187d6ca8209d34a29aec3cd5c7b6c05dc6da43f Merge branch 'selftests-tc-increase-timeout-and-add-missing-kconfig'
-d1998e505a995f5305a6add46f3d806fa38dae06 mailmap: add entries for past lives
-195e903b342a73c08c3249cec55b07bf3f23200a mailmap: Add entry for old intel email
-936fd2c50bddd8c1dbe49bc7bb31c5e5975fdf2e Merge tag 'linux-can-fixes-for-6.5-20230717' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-78adb4bcf99effbb960c5f9091e2e062509d1030 igc: Prevent garbled TX queue with XDP ZEROCOPY
-e7002b3b20c58bce4a88c15aca8e6cc894e3a7ed octeontx2-pf: mcs: Generate hash key using ecb(aes)
-5e5265522a9a7f91d1b0bd411d634bdaf16c80cd tcp: annotate data-races around tcp_rsk(req)->txhash
-eba20811f32652bc1a52d5e7cc403859b86390d9 tcp: annotate data-races around tcp_rsk(req)->ts_recent
-e9b2bd96af6fc35a81e37bbc2f3277d3677e6126 Merge branch 'tcp-annotate-data-races-in-tcp_rsk-req'
-7f5acea727e7a41ed40ed07d45e88ccdb01a87f5 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-daa751444fd9d4184270b1479d8af49aaf1a1ee6 net: ipv4: Use kfree_sensitive instead of kfree
-4258faa130be4ea43e5e2d839467da421b8ff274 net:ipv6: check return value of pskb_trim()
-78a93c31003cc53aca5d67b1bbe2d5b9fc37cc4d drivers: net: fix return value check in emac_tso_csum()
-bce5603365d8184734ba7e6b22e74bd2c90a7167 drivers:net: fix return value check in ocelot_fdma_receive_skb
-02d84f3eb53a5be982b17c88410fa6c58806356b ipv4: ip_gre: fix return value check in erspan_fb_xmit()
-aa7cb3789b429d4fdfbe767e0e0cf8c769299d7a ipv4: ip_gre: fix return value check in erspan_xmit()
-e80698b7f8e9ddc3b23e5fba2eea7bc24c06c537 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-81b3ade5d2b98ad6e0a473b0e1e420a801275592 Revert "tcp: avoid the lookup process failing to get sk in ehash table"
-cf2ffdea0839398cb0551762af7f5efb0a6e0fea r8169: revert 2ab19de62d67 ("r8169: remove ASPM restrictions now that ASPM is disabled during NAPI poll")
-e31a9fedc7d8d80722b19628e66fcb5a36981780 Revert "r8169: disable ASPM during NAPI poll"
-88f2e009761d120eea31e71dafd73b8433b0e379 Merge branch 'r8169-revert-two-changes-that-caused-regressions'
-9f9d4c1a2e82174a4e799ec405284a2b0de32b6a net: ethernet: mtk_eth_soc: always mtk_get_ib1_pkt_type
-9b64e93e83c2145a750e780198b41d612e3dfa5d llc: Check netns in llc_dgram_match().
-97b1d320f48c21e40cc42b4ac033f2520f9ecc5c llc: Check netns in llc_estab_match() and llc_listener_match().
-6631463b6e6673916d2481f692938f393148aa82 llc: Don't drop packet from non-root netns.
-7ebd00a5a20c48e6020d49a3b2afb3cdfd2da8b7 Revert "bridge: Add extack warning when enabling STP in netns."
-ac528649f7c63bc233cc0d33cff11f767cc666e3 Merge branch 'net-support-stp-on-bridge-in-non-root-netns'
+df19023418cd424993f8eb0079cc0ebd20b5545a f2fs: don't handle error case of f2fs_compress_alloc_page()
+eb4ebfac51db0559c9adf538412c0b7a81e9586d f2fs: flush inode if atomic file is aborted
+5a47ad28e6061c8fddf5c82d49fdc3280a80b2c4 f2fs: get out of a repeat loop when getting a locked data page
+666de8daceef152ca23ee6d28abf04fb77e07a3e f2fs: fix spelling in ABI documentation
+3174a6dbb94551b5962dc7e55f5c391de81f06d1 f2fs: fix to avoid mmap vs set_compress_option case
+f5adeb15adf4fb1e915af7e1655e674920c2b1ea f2fs: don't reopen the main block device in f2fs_scan_devices
+eb0e30a6f8a71161a594fef7f60b2a3c97ef2e86 f2fs: allow f2fs_ioc_{,de}compress_file to be interrupted
+10c7134ee4408eb3ecc16b7177ca369cbbb8b697 f2fs: compress: don't {,de}compress non-full cluster
+d2b0491d895c551fea54ff3d3f9984f9887c57ef f2fs: fix to update i_ctime in __f2fs_setxattr()
+a0c9e9551005ac8c573d6578e5b55090c16a81b6 f2fs: remove unneeded check condition in __f2fs_setxattr()
+c83a9e7da5ef4bb970810af059ed90a332429d50 Revert "f2fs: fix to do sanity check on extent cache correctly"
+4826eaff4ff294297667af7f3a9d2477b9199ca6 f2fs: support background_gc=adjust mount option
+e66d997be6f645d0eafc6fa6f88397d759d38713 f2fs: fix to tag FIEMAP_EXTENT_DELALLOC in fiemap() for delay allocated extent
+d23ec8919c2f747a01075fb7c0069b90b5b54c04 f2fs: compress: fix prepare_compress vs memory reclaim case
+b44c7ece63f44e5b8aa183dbabc73cb2d23dd499 f2fs: trigger checkpoint to submit remained discard during mount()
+e3f220f5d71724026b5964396dc2137551a240b1 Revert "f2fs: enable small discard by default"
 
---===============2558102370747580936==--
+--===============6098445551058023082==--
