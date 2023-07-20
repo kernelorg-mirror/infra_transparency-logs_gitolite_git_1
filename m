@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 20 Jul 2023 13:05:25 -0000
-Message-Id: <168985832555.9975.2422224574927263575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 20 Jul 2023 13:15:36 -0000
+Message-Id: <168985893695.18406.5964847657290604835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/tags/regulator-fix-v6.5-rc1
+  - ref: refs/heads/fileDHUbg9
     old: 0000000000000000000000000000000000000000
-    new: 7b79b518ce8e8d76952329e05592a326033f7694
+    new: a9e26169cfda651802f88262a315146fbe4bc74c
+  - ref: refs/heads/fileZfWumV
+    old: 0000000000000000000000000000000000000000
+    new: ee43f5bb23340c27603c3ad8ef94f677ad7cb9ad
