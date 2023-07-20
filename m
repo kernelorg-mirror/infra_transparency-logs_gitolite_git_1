@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 20 Jul 2023 11:34:10 -0000
-Message-Id: <168985285033.7041.8926086098669654250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 20 Jul 2023 11:37:57 -0000
+Message-Id: <168985307789.11353.70273073639607852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 5cff59cac977b1b5b2762b500623602540959ab1
-    new: f4eb42f1924629d499c0622f4aa8616d1d719851
+  - ref: refs/heads/origin-master
+    old: ccff6d117d8dc8d8d86e8695a75e5f8b01e573bf
+    new: bfa3037d828050896ae52f6467b6ca2489ae6fb1
     log: |
-         e504437931510f48c253ce9d28f03d79617828cd arm64: dts: renesas: rzg2lc-smarc: Include SoM DTSI into board DTS
-         875a20fbb5d5a8894fb58d022947a84b130b7e34 arm64: defconfig: Enable Renesas MTU3a counter config
-         f4eb42f1924629d499c0622f4aa8616d1d719851 pwm: Add Renesas RZ/G2L MTU3a PWM driver
+         5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
+         1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
+         3066ff93476c35679cb07a97cce37d9bb07632ff fuse: Apply flags2 only when userspace set the FUSE_INIT_EXT
+         a9d1c4c6df0e568207907c04aed9e7beb1294c42 fuse: revalidate: don't invalidate if interrupted
+         6a567e920fd0451bf29abc418df96c3365925770 fuse: ioctl: translate ENOSYS in outarg
+         bfa3037d828050896ae52f6467b6ca2489ae6fb1 Merge tag 'fuse-update-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
          
