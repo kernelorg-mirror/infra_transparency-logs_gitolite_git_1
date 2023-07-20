@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2201029910910166030=="
+Content-Type: multipart/mixed; boundary="===============3604238812215455303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 20 Jul 2023 09:30:32 -0000
-Message-Id: <168984543260.1057.14510645460386301508@gitolite.kernel.org>
+Date: Thu, 20 Jul 2023 09:32:00 -0000
+Message-Id: <168984552028.1747.1207312784416756743@gitolite.kernel.org>
 
---===============2201029910910166030==
+--===============3604238812215455303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,50 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/drivers
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 4c4458375c5633954eda8fb9e7d31d56836b2bbd
+  - ref: refs/heads/for-next
+    old: cd29d6f9a235717d51408241b9c1c952f8b8c2ed
+    new: fa4616125dd2d92a0c9597efb5cefbc4c436f20e
     log: |
          4c4458375c5633954eda8fb9e7d31d56836b2bbd soc: samsung: Explicitly include correct DT includes
+         edf049c708681b4defacc740e3b254a5daa90e5e MAINTAINERS: samsung: Un-support cpuidle and clock drivers
+         fa4616125dd2d92a0c9597efb5cefbc4c436f20e Merge branch 'next/drivers' into for-next
+         
+  - ref: refs/heads/next/drivers
+    old: 4c4458375c5633954eda8fb9e7d31d56836b2bbd
+    new: edf049c708681b4defacc740e3b254a5daa90e5e
+    log: |
+         edf049c708681b4defacc740e3b254a5daa90e5e MAINTAINERS: samsung: Un-support cpuidle and clock drivers
          
 
---===============2201029910910166030==
+--===============3604238812215455303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1689845428 +0200
+pusher krzk@kernel.org 1689845518 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1689845427-797638b5484bf0989e739c65a6055351794f21aa
+nonce 1689845517-6211de2a3fc1643e52208b8139919d696a0a71ba
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 4c4458375c5633954eda8fb9e7d31d56836b2bbd refs/heads/next/drivers
+cd29d6f9a235717d51408241b9c1c952f8b8c2ed fa4616125dd2d92a0c9597efb5cefbc4c436f20e refs/heads/for-next
+4c4458375c5633954eda8fb9e7d31d56836b2bbd edf049c708681b4defacc740e3b254a5daa90e5e refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmS4/rQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zT2D/930uO6QsfRr/+KvvrnedZGO3KEK3WBlreh
-B+8Lk1nQn50EmMsWRPlfee4bIFRDTNL2nGl3x0wl7LjLKO/g2yyE1yfRkBpvIGrx
-h1Hxzwd/Pdja39W5ppL3cXprgIxxrfGLueG9AOovhBat0EBhYUxDybdz5xT1ZgCa
-o9hEaZj653F/5o4YJAezMnVVYO1pNm/5iHzMazFpbTxIBTCdTazPxkyX/ta2RQEJ
-WMvaDg9rYMMCSBvIQQcCr3UVdWLLtlZ/mWMk/FpideV2LgQA/sCSgk27dDHE6Njh
-4rSlLcMRaoly+9S/+h5PN2ukR74K1YuxrD/DqAgFoUTMfME5vwKel8hWkRqH8+a/
-F4/FwxTuE8GAWXJYGvJQRA+PBG74gauXZb13uCeIgZlwd7OgRVZYnYzRdIEOpPq0
-NYuDtY63h5kSGeLJCwGcQyOPOWx8UwT1IJSVaYQ4Ko3DCVLWySaw+NJSo/QE/7wg
-wpoyEgQIHNd+Ga0Zu3eNbktZ4Y9EiwgKqtrKUSir8WmjDx/j7ZWssg1lVjJLNa09
-NqPqmgfK28IjspiSGHIb6yRlUkIphlfJm/hK/RgAbUbin4vKQR6OSBxqBEZJ9DqE
-7dejZTCzER2I7aKQsSKiV5ovGcMuhbaZu3p/jOiElF8gWC133SlGKl/vW/5Hz7aW
-wGPq+kS73Q==
-=tBfp
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmS4/w4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1w/tEACRf5up0Fixj1WBXOE3KqMKYM2WdxbXZyH4
+t11NgFpo13wTanRfPlcJGWI3eUhRrjF0kts68qDLxYPOEzkl1UVarNl2hMfpikoe
+cWAMOTM2IzEQtLkPKY0hwOlmiskUXqGMuVQygPb54wL9LMfn9g449C6tvSC70aeQ
+Uy8MR7iNrruFUnaROalslEWy0c2tndoCBt/9ex8thxLhpTVSnPfAzlABi5TvqVgo
+ddUvIcDwmjxRAjOEJCX3OK3V5YZIQY51yhtEcveYT6ZlCd00MedyMS6+yOJL3EhH
+piwug2Kh5u5Pfh+4orax/T01Inj3LBvr6LN/B/sGHx0qSAxgGxE8kWoxRxhKYR85
+8u0VuJUwsMO9tQbGrjLl4ogyUK99brUtXI6IiYz302aiHz6pRCHJiRj/IuB+4wWx
+3AuUwl9wjvAhGxqGXdKLfRfit5Sh0TP8YIwZM83ufG3nZwmhQadxM7RdbUSUn9Rq
+mu6m1eTvv95mPbJK33Z9dkvM6MpmPB5uaTB5VlgdK6z7Vf4jpQxXPrTuzrceZ57b
+rO4QwLZuN7e5rbJCQbUYYm+ZGV0/A+I31EznNulzgHiG51bpIWdqOicEq7+uRfRu
+gTwSu3iU4bXuFfjZGe14UfbuJG7dgQsvsc4hW6vbRsio7Pj6QYjoOpnZ6Er4s5jq
+KG2jy+JN7g==
+=NgL/
 -----END PGP SIGNATURE-----
 
---===============2201029910910166030==--
+--===============3604238812215455303==--
