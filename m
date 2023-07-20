@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4594103384697111674=="
+Content-Type: multipart/mixed; boundary="===============4039347564125355507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 20 Jul 2023 18:23:10 -0000
-Message-Id: <168987739037.22537.11257999844101322871@gitolite.kernel.org>
+Date: Thu, 20 Jul 2023 18:24:45 -0000
+Message-Id: <168987748572.23191.374058215875204425@gitolite.kernel.org>
 
---===============4594103384697111674==
+--===============4039347564125355507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: a05719e646670ff958e58b0e8eb63ebb582242be
     new: 3a06b2845a09a2c7bcbd909d4289353f054363e9
     log: revlist-a05719e64667-3a06b2845a09.txt
 
---===============4594103384697111674==
+--===============4039347564125355507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ c38180bf3d1e2460e0674f8e58045f2e2fa74613 iio: adc: meson: add enum for iio chann
 b593ce5db22483dd66405861ac3f782e5a7cd9f3 iio: adc: meson: add channel labels
 3a06b2845a09a2c7bcbd909d4289353f054363e9 iio: adc: meson: support reading from channel 7 mux inputs
 
---===============4594103384697111674==--
+--===============4039347564125355507==--
