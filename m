@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 20 Jul 2023 16:13:37 -0000
-Message-Id: <168986961757.19491.3062227290425969698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
+Date: Thu, 20 Jul 2023 16:19:51 -0000
+Message-Id: <168986999142.23434.96020489042470344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ericvh/v9fs
+user: ericvh
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: 65bc25b8d0904e0aff66b1c3a9dd4c0dcb8efbf1
-    new: 3adbc7c7cda0715b3f2cd89552a341f7801a5970
+  - ref: refs/heads/fixes/next
+    old: 95f41d87810083d8b3dedcce46a4e356cf4a9673
+    new: 350cd9b959757e7c571f45fab29d116d5f67cbff
     log: |
-         e8c213ca026d3cadbc306885ad1b37efab02c218 ASoC: dt-bindings: nau8822: Add #sound-dai-cells
-         c214131f492083025e33354430d5b420add88b5e ASoC: dt-bindings: nau8822: Add MCLK clock
-         83759352fd0b941c3ab3d365bf5f754b9e2f1af9 ASoC: dt-bindings: wm8904: Convert to dtschema
-         3adbc7c7cda0715b3f2cd89552a341f7801a5970 ASoC: dt-bindings: nau8822: minor updates
+         75b396821cb71164dac3a1ad51dda4781ea8dbad fs/9p: remove unnecessary and overrestrictive check
+         878cb3e0337d7c3096aee301a2a3cd358dc8aa81 fs/9p: fix typo in comparison logic for cache mode
+         09430aba3a9ffd986834614a3406a13588170bde fs/9p: fix type mismatch in file cache mode helper
+         350cd9b959757e7c571f45fab29d116d5f67cbff fs/9p: remove unnecessary invalidate_inode_pages2
          
