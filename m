@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 20 Jul 2023 17:17:38 -0000
-Message-Id: <168987345837.4728.7116876132611751802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 20 Jul 2023 17:18:15 -0000
+Message-Id: <168987349514.5060.11588113391748215193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/fixes
-    old: 944ae0f01060d5f33f03de1b6dae701b39140fa5
-    new: 733c758e509b86a5d38b9af927817258b88ededd
+  - ref: refs/heads/master
+    old: eaf477a2cff5c88c856a837658b9c5dd6d094bb2
+    new: d41a6d391e858e5df6be505dee68264803f11332
     log: |
-         c718ca0e99401d80d2480c08e1b02cf5f7cd7033 KVM: arm64: Fix hardware enable/disable flows for pKVM
-         733c758e509b86a5d38b9af927817258b88ededd KVM: arm64: Rephrase percpu enable/disable tracking in terms of hyp
+         c50f9ad6ddbadecff6bffb4ac3d51b9a97b58cf6 foo
+         d8d6faddb7d6280011d2a79fc838b009a0ea2dca foo
+         d41a6d391e858e5df6be505dee68264803f11332 foo
          
