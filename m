@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7142659755064129442=="
+Content-Type: multipart/mixed; boundary="===============4802163599536656998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Jul 2023 15:29:03 -0000
-Message-Id: <168995334346.5384.5181655629384438594@gitolite.kernel.org>
+Date: Fri, 21 Jul 2023 15:29:41 -0000
+Message-Id: <168995338170.5680.16421361807473399859@gitolite.kernel.org>
 
---===============7142659755064129442==
+--===============4802163599536656998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 59be3baa8dff271d48500e009622318badfc7140
-    new: 2da6a8041699691df4269e756253fa04a1d6a5fd
-    log: revlist-59be3baa8dff-2da6a8041699.txt
+  - ref: refs/heads/dev-queue
+    old: aa29136c92a1122f30e3fdc3f36306ef00ddcf73
+    new: fcecc58d86e5c71607d68fc215f66713f1a738bb
+    log: revlist-aa29136c92a1-fcecc58d86e5.txt
 
---===============7142659755064129442==
+--===============4802163599536656998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59be3baa8dff-2da6a8041699.txt
+Content-Disposition: attachment; filename=revlist-aa29136c92a1-fcecc58d86e5.txt
 
 fea2993aecd74d5d11ede1ebbd60e478ebfed996 eth: bnxt: move and rename reset helpers
 9b1a00fda61ee9874e11c24c6be7ddc36e8a4598 eth: bnxt: take the bit to set as argument of bnxt_queue_sp_work()
@@ -59,5 +59,53 @@ f78dca691287813b6f101b207272786f0cb39c65 octeontx2-pf: implement transmit schedu
 47a9656f168a4b76a1e069ed8a67924ea8c1ac43 octeontx2-pf: htb offload support for Round Robin scheduling
 6f71051ffbdb914fc3688ba9b13baba4142630a5 docs: octeontx2: extend documentation for Round Robin scheduling
 2da6a8041699691df4269e756253fa04a1d6a5fd Merge branch 'octeontx2-pf-round-robin-sched'
+e58ba5bad001552e15de626e6696ada3846224e1 igb: fix hang issue of AER error during resume
+bd58724886d65bfcb270dc1b2893d88457b3fa91 e1000e: Use PME poll to circumvent unreliable ACPI wake
+be91cfcb740b7d8d2ea5015e36d03d541f9c359c ice: clean up __ice_aq_get_set_rss_lut()
+4dc2a91434138ba42125e33f6ea15b50840939f3 ice: Correctly initialize queue context values
+4aebcac8e7c3648dc489e58920b56372396dc9e7 ice: Add driver support for firmware changes for LAG
+a4c7bb27da4e40622d3684f158b6c47b141fa387 ice: changes to the interface with the HW and FW for SRIOV_VF+LAG
+5843aef8e6fcee3d81d7454120ae3feab925da00 ice: implement lag netdev event handler
+2903806be9fa610a20e41bfaa1f29f6e83373c79 ice: process events created by lag netdev event handler
+4b733ffae6c10a9e10a71183f8d629ccb65a7ff8 ice: Flesh out implementation of support for SRIOV on bonded interface
+4d559690823acbb70ed4bdc5a31c3eddfa05525d ice: support non-standard teardown of bond interface
+32013bc5b2a33a94cc24fb6505c9be7503fb1ed8 ice: enforce interface eligibility and add messaging for SRIOV LAG
+c8d5b68cc3b0295fb64e4589f0aa893023d0bf97 ice: enforce no DCB config changing when in bond
+8cb8a2a0fb1a7caf65bca4bc377189c065b9202d ice: update reset path for SRIOV LAG support
+90d13c408dd5dc6786d41e625a4d259c1da997bb ice: Add direction metadata
+d3a01e5a9cc617b1766f476279f45d6bf9d54daa ice: Rename enum ice_pkt_flags values
+9a6538bd4c109db2365e7f900103c92356c6a091 ice: Fix RDMA VSI removal during queue rebuild
+c45b4cdc7c43edcbbd1d87a8736c0aed4a619bcb igc: Fix Kernel Panic during ndo_tx_timeout callback
+8022d4b71b659449ce50323621359cf4a9c5fcf2 iavf: fix potential deadlock on allocation failure
+e1dd6e23529580acc875aa7629dfb81afe1f90a4 iavf: check for removal state before IAVF_FLAG_PF_COMMS_FAILED
+a9c0311851c4ab40093e5c629881499f2639f229 ice: prefix clock timer command enumeration values with ICE_PTP
+2556eb2984de4f62c64780aa160c03f305fbef06 ice: Clean the main timer command register after use
+18df58346918adf8567b96777260281c3050f680 ice: retry acquiring hardware semaphore during cross-timestamp request
+aad7d3febff9d9d08a3fdaa690e76c7d619a81ab ice: Support cross-timestamping for E823 devices
+52cc7579e9742f3592768bdd1fc68a6bd7caaacb ice: move E810T functions to before device agnostic ones
+e998e1b33c05834c227abfc2169e451f023c9ef1 ice: Fix memory management in ice_ethtool_fdir.c
+e831124cefbb7cde70a3e07bf93dda8664609e09 ice: Skip adv rules removal upon switchdev release
+4bc87187825010c59e24b2d3f6a7174e0b6bbbaa ice: Prohibit rx mode change in switchdev mode
+a8c4f3360d2e73ffdc0f73f678289ecab0a6943d ice: Don't tx before switchdev is fully configured
+5d5f0a48958b53431d777f44e8e0e8681a472144 ice: Disable vlan pruning for uplink VSI
+b71f9e6fb27dab2e5e9fa8497e01d3ad31c2d29f ice: Unset src prune on uplink VSI
+5bcb35511efb04bbb0d7fe77c04bb9ed39915c73 ice: Implement basic eswitch bridge setup
+6b0e1225817e17b7756e1454492f9fa7abc2c6a3 ice: Switchdev FDB events support
+2d1225aee0da8868f2a28991553a0525a38f5e4e ice: Add guard rule when creating FDB in switchdev
+3f0810781e8ea477b51498d67132141a84ec5702 ice: Add VLAN FDB support in switchdev mode
+a1977432dbcf83802c694beaa7b41aa8f94f2514 ice: implement bridge port vlan
+a58762e44becc62096c1d314eb8ce503ff3bffc1 ice: implement static version of ageing
+28183180c45763022be8186ecb39ca3483a776e4 ice: add tracepoints for the switchdev bridge
+f0ea65b8b8aced4c098ca5ed6ebb00dde43d8268 igc: Expose tx-usecs coalesce setting to user
+35f1bfd121083006c3a08b76953ecf2e23eb4161 igc: Modify the tx-usecs coalesce setting
+293fe61f399a84f9d36c995594915c816df469b1 i40e: Fix an NULL vs IS_ERR() bug for debugfs_create_dir()
+99d1e9c4d492a8f6837efa2394a8e083b258f094 ice: remove FW logging code
+2d33549f0b8cd1bf1b5826940508488bc339e7a5 ice: configure FW logging
+8dd32c6356294a47e0d12bb1b7bdacca39ef8726 ice: enable FW logging
+67faf1179b9bc657536050a5381e540ca651b9cb ice: add ability to read FW log data and configure the number of log buffers
+880cd8f171ae898184ce345b38152e16dc9e7edd ice: add documentation for FW logging
+7b0d429991b9cec86d7b6a90b757e3c1b6a9b312 ice: Add get C827 PHY index function
+8f42751a3586801cf8c51809802c00f4f7ca0768 ice: add FW load wait
+fcecc58d86e5c71607d68fc215f66713f1a738bb ice: introduce hw->phy_model for handling PTP PHY differences
 
---===============7142659755064129442==--
+--===============4802163599536656998==--
