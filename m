@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Fri, 21 Jul 2023 10:08:59 -0000
-Message-Id: <168993413953.26432.12972132000970778867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 21 Jul 2023 10:24:37 -0000
+Message-Id: <168993507749.4441.10125736369892335196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/misc-next
-    old: 8b5e23907e790234838396da2b2760b4d76caa4d
-    new: ce368edf9997c7bc4bd1f0a3e7b8c9fd96450db6
+  - ref: refs/heads/locks-6.6
+    old: 0d6aeec73f8cd3290662748a4fb1bded1e5bb5c7
+    new: f9d742d5b7e808776aa5f0fd31c6b7ce41174bb7
     log: |
-         ef39d239a3d444a4a9788d5690c7f570ba6b8d52 btrfs: check if the transaction was aborted at btrfs_wait_for_commit()
-         ce368edf9997c7bc4bd1f0a3e7b8c9fd96450db6 btrfs: check for commit error at btrfs_attach_transaction_barrier()
+         f9d742d5b7e808776aa5f0fd31c6b7ce41174bb7 fs/locks: Fix typo
          
