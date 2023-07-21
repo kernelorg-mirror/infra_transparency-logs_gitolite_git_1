@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6221020895010334257=="
+Content-Type: multipart/mixed; boundary="===============0351854242829727804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 21 Jul 2023 14:52:02 -0000
-Message-Id: <168995112288.10644.5156487934830492903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 21 Jul 2023 15:06:10 -0000
+Message-Id: <168995197035.20427.14549275294435187270@gitolite.kernel.org>
 
---===============6221020895010334257==
+--===============0351854242829727804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
-    old: 0c9d2eb5e94792fe64019008a04d4df5e57625af
-    new: a9e26169cfda651802f88262a315146fbe4bc74c
+  - ref: refs/heads/master
+    old: cb47767d1cffad917ebf439793e75c16d5bdb10b
+    new: b0dcea26effd6ff4cd76eddb3b54218d1e5ff3c0
     log: |
-         b460a52257b1f5299ca70b7d1bb32442d3ce7bf6 regcache: Push async I/O request down into the rbtree cache
-         a9e26169cfda651802f88262a315146fbe4bc74c regmap: Disable locking for RBTREE and MAPLE unit tests
+         b0dcea26effd6ff4cd76eddb3b54218d1e5ff3c0 6.1-stable patches
          
 
---===============6221020895010334257==
+--===============0351854242829727804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1689951121 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1689951120-79381dcf3680707fdd7005bfdf7b1e2d8d51f32b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1689951969 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1689951968-aeaa338d7c7d15ddd6067fe9b2b6f03631b01e80
 
-0c9d2eb5e94792fe64019008a04d4df5e57625af a9e26169cfda651802f88262a315146fbe4bc74c refs/heads/for-6.5
+cb47767d1cffad917ebf439793e75c16d5bdb10b b0dcea26effd6ff4cd76eddb3b54218d1e5ff3c0 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS6m5EACgkQJNaLcl1U
-h9AkgAf/T572wXFdLLb/tlOf9ByhPfw316vKI8LPH0cc6HThydRqMBRBR4h9uj1+
-uHFmJiz5fYZBTyiU7ep77fxBQtLwOx7Stk0OxABS+kC3r7T8TAlCoe0SDB7SlQpU
-2Wns5/FBgeebK55lWbxLRq6av4fNj3NLTynE8cP8wfs+QvM/vWd9xRAJU8v6P+Zb
-8tmI13x3/vfJ/ur7dW5dy/v6JaURzWM8VcGigMnYt5fZaKUrlzwllHjihkAsj0v2
-mD5UVqT9sGKjtV1qr+vTnO+gw/1JEuwT7RBaHEhy490vlr7wXqcCgSc6jprKVHNy
-blk4Rk0Oi9rafBJZelyDrfP2iby8AA==
-=lFdL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS6nuEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ouoQAI1Ybb/Q8VvDrZEPje/N
+u40gAG5ATypwh0fCcpI/ZFyJUekiCvM8ZkF086CgQBibWi3ytlSwadoJuhcvbmmG
+LR2XHZK3im+/gLAau9MZHgOG04Crltvhkv80yELGVVZOPrQWKk2Y9D3z1Vrf/DAn
+TKswS8MClaMBONUjly23xTmfU0o9ftdvlhJ9u+CYg9NJRuAkuc2/J6n4YJeM0ncQ
+SkIk1D0cRBxskDnQq0WQZSWzTbalK9GIP1DX9R6InxP8/VRv40lpcojLcuv/nbdo
++BlnNkz2C4/cU56CcyYsLiUlqsJCGM9fb0caNGjCFTYGo0umdmU1IRvgpO7xpTmg
+UrkCBfbm4VnjELrHLTCI4bnQIfAzDpCSLSQppdSLfBkn8w+gLLlxHp8/gMNgLVF+
+6sJ0AC2j6aETAOJetc9R9xTOJA1n6+GWeGOr1BJGeob1a/ZMYSYHAgGunUvadZtP
+pxzjPlnKlPrEzjNdfP147W9jhBOAu4ZBgIvVcCvrSugn7KHIW8qOG83/uc6XrROP
+UjcEO8ZSqDLCtb+OteRaA/NIbG85Nwz6DFhqzVOznBWHlA/MPjZnnV1cBHnrGqqi
+irEH7Ufy175HX7XkFIMYir2X1wDz7U3FBtsYRS5dwk+AnBvc+boEHM0czMyRcKKc
+r47gUAW6DxpHuY+45OLIsHzn
+=98jW
 -----END PGP SIGNATURE-----
 
---===============6221020895010334257==--
+--===============0351854242829727804==--
