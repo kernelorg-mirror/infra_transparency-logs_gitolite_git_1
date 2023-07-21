@@ -1,28 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 21 Jul 2023 17:40:41 -0000
-Message-Id: <168996124177.8536.12682153330218078069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 21 Jul 2023 17:40:52 -0000
+Message-Id: <168996125259.8711.18172449727916305343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: ec6ea16646ce6fd4db1e2d9d52c1071a47ec9102
-    new: 45d2580c6466529905df54ceab02d9bc53753bdd
+    old: 0c9d2eb5e94792fe64019008a04d4df5e57625af
+    new: a9e26169cfda651802f88262a315146fbe4bc74c
     log: |
-         0e4c2b6b0c4a4b4014d9424c27e5e79d185229c5 ASoC: fsl_spdif: Silence output on stop
-         45d2580c6466529905df54ceab02d9bc53753bdd Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         b460a52257b1f5299ca70b7d1bb32442d3ce7bf6 regcache: Push async I/O request down into the rbtree cache
+         a9e26169cfda651802f88262a315146fbe4bc74c regmap: Disable locking for RBTREE and MAPLE unit tests
          
   - ref: refs/heads/for-next
-    old: 5b44295db7033851ca5f6d49273757d9072f8d16
-    new: ce523439897133a4ee000c5b53706367b7012a45
+    old: 5b68c4b1824772789dd6c628273bd4b5259cd4c1
+    new: b8415273213c03250d7caf268fb6685b524686f8
     log: |
-         0e4c2b6b0c4a4b4014d9424c27e5e79d185229c5 ASoC: fsl_spdif: Silence output on stop
-         45d2580c6466529905df54ceab02d9bc53753bdd Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         ce523439897133a4ee000c5b53706367b7012a45 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         b460a52257b1f5299ca70b7d1bb32442d3ce7bf6 regcache: Push async I/O request down into the rbtree cache
+         a9e26169cfda651802f88262a315146fbe4bc74c regmap: Disable locking for RBTREE and MAPLE unit tests
+         0c8b0bf42c8cef56f7cd9cd876fbb7ece9217064 regmap: rbtree: Use alloc_flags for memory allocations
+         e02a4ccbeced64aa10f4e99683c721ec43e993c1 regmap: Remove dynamic allocation warnings for rbtree and maple
+         b8415273213c03250d7caf268fb6685b524686f8 Merge remote-tracking branch 'regmap/for-6.6' into regmap-next
          
