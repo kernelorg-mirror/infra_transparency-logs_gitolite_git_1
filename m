@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 21 Jul 2023 09:40:34 -0000
-Message-Id: <168993243489.27084.1524825095176720164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 21 Jul 2023 10:08:59 -0000
+Message-Id: <168993413953.26432.12972132000970778867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 5ddded46303f9d034ecb79f1fcc48abcc590f7db
+  - ref: refs/heads/misc-next
+    old: 8b5e23907e790234838396da2b2760b4d76caa4d
+    new: ce368edf9997c7bc4bd1f0a3e7b8c9fd96450db6
     log: |
-         754833b3194c30dad5af0145e25192a8e29521ab OPP: Rearrange entries in pm_opp.h
-         142e17c1c2b48e3fb4f024e62ab6dee18f268694 OPP: Introduce dev_pm_opp_find_freq_{ceil/floor}_indexed() APIs
-         93dc0fb7d0c51908ce1a1c35bec846afa7596e65 OPP: Introduce dev_pm_opp_get_freq_indexed() API
-         852a47c0e7a795bdf6424519ab7fadfdeb5b4a3c OPP: Add dev_pm_opp_find_freq_exact_indexed()
-         13c3657578d0c054cfcfe4496dde560b6a816e3b OPP: Update _read_freq() to return the correct frequency
-         5ddded46303f9d034ecb79f1fcc48abcc590f7db OPP: Reuse dev_pm_opp_get_freq_indexed()
+         ef39d239a3d444a4a9788d5690c7f570ba6b8d52 btrfs: check if the transaction was aborted at btrfs_wait_for_commit()
+         ce368edf9997c7bc4bd1f0a3e7b8c9fd96450db6 btrfs: check for commit error at btrfs_attach_transaction_barrier()
          
