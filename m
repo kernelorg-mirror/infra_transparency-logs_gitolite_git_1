@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 22 Jul 2023 23:28:06 -0000
-Message-Id: <169006848690.15518.7234619567227677903@gitolite.kernel.org>
+Date: Sat, 22 Jul 2023 23:28:12 -0000
+Message-Id: <169006849239.15603.4927985663302260992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20230722-thermal-fix-of-memory-corruption-73c023f8612b-v2
+  - ref: refs/heads/asoc-fix-wm8904-adc-test-read
     old: 0000000000000000000000000000000000000000
-    new: db39fce04b976765aa055d92f1a444c4095b1229
+    new: 37d56f9b9fccd4ac810ff127fdf6f32018fd8eae
