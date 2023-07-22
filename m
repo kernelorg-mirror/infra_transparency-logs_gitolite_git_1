@@ -1,29 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Sat, 22 Jul 2023 14:33:56 -0000
-Message-Id: <169003643676.18072.12129670250386432761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 22 Jul 2023 15:35:19 -0000
+Message-Id: <169004011912.30699.11489886324645623718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master-pending
-    old: 2cfb58a27aa91305d97950713dac8df448450329
-    new: 75d87912aa404df37686c922be1dea8579b835cd
+  - ref: refs/heads/nfsd-next
+    old: 7008150e8a8a55ea5df9c503b082f12279ebcd69
+    new: 4e149d9e03ecdc054f26b6262d58021dba033a33
     log: |
-         fbda2e2abb52d885632b296e815da0f1fc90bb22 Revert "wifi: ath11k: Enable threaded NAPI"
-         75d87912aa404df37686c922be1dea8579b835cd Merge branch 'pending' into master-pending
+         901789540cc77e89832d49f26da76dd15d76940f sunrpc: Remove unused extern declarations
+         8e7c0004d64f784b63cdd21ef17760a11b6cd727 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
+         2780603cf0e2e7c99ff9ada2ea4df3ebafce750a SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
+         cc69c7371607012d590216a0bb32b0f7b327e8fc SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
+         a1accd9a3c3e743a8e02a1d4b1260ebab9c568d0 SUNRPC: Revert e0a912e8ddba
+         4e149d9e03ecdc054f26b6262d58021dba033a33 SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
          
-  - ref: refs/heads/pending
-    old: db85b83a7ccf0c703af320292accbdf12d917d42
-    new: fbda2e2abb52d885632b296e815da0f1fc90bb22
-    log: |
-         fbda2e2abb52d885632b296e815da0f1fc90bb22 Revert "wifi: ath11k: Enable threaded NAPI"
-         
-  - ref: refs/tags/ath-pending-202307221430
-    old: 0000000000000000000000000000000000000000
-    new: 75d87912aa404df37686c922be1dea8579b835cd
