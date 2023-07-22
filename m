@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 22 Jul 2023 16:12:53 -0000
-Message-Id: <169004237316.25789.8172926276451839007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 22 Jul 2023 16:25:51 -0000
+Message-Id: <169004315168.2925.11676734055654778535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 3ba2e83334bed2b1980b59734e6e84dfaf96026c
-    new: fd470a8beed88440b160d690344fbae05a0b9b1b
+  - ref: refs/heads/testing
+    old: 3a06b2845a09a2c7bcbd909d4289353f054363e9
+    new: ad25fc289be9532f486ef2cc6156e8d5acb060db
     log: |
-         fd470a8beed88440b160d690344fbae05a0b9b1b x86/cpu: Enable STIBP on AMD if Automatic IBRS is enabled
+         ad25fc289be9532f486ef2cc6156e8d5acb060db iio: accel: adxl355: Simplify probe()
          
