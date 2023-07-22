@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 22 Jul 2023 08:25:54 -0000
-Message-Id: <169001435468.31257.13341706986952551528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-hw
+Date: Sat, 22 Jul 2023 09:39:21 -0000
+Message-Id: <169001876156.5711.8858480221397488649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/maz/cs-hw
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: d810afdd5bc34348f3a6a04be7a7339aeddd8cda
-    new: 4471514d1134396044432f30d2540e8c664a834b
+  - ref: refs/heads/v3-dev
+    old: fac13f25d3ab854ac7357c1ac4196bb25c58b12b
+    new: 9a6170355e5e08a4905f29c3be1eac65c3d2e5e1
     log: |
-         2e7e5bbb1c3c8d502edeb5c0670eac4995134b6f x86: Fix kthread unwind
-         c3629dd7e67d6ec5705d33b0de0d142c972fe573 x86/mce: Prevent duplicate error records
-         d4ecd0c1fd588d560fc5925dc89b1f8c77c5660a Merge branch into tip/master: 'x86/urgent'
-         4471514d1134396044432f30d2540e8c664a834b Merge branch into tip/master: 'ras/core'
+         eed4759e167561e4ce3f61b2cef18a49a11e3621 Update README.txt for v3.1
+         9a6170355e5e08a4905f29c3be1eac65c3d2e5e1 Production files for v3.1
          
