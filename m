@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6194376446022755785=="
+Content-Type: multipart/mixed; boundary="===============6371486057370063914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Sun, 23 Jul 2023 08:51:30 -0000
-Message-Id: <169010229000.32596.16527453564359712024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Sun, 23 Jul 2023 08:51:41 -0000
+Message-Id: <169010230150.32708.13914833784388962902@gitolite.kernel.org>
 
---===============6194376446022755785==
+--===============6371486057370063914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 94da3da96c35744001adfdb65e501e633a64cb51
+  - ref: refs/heads/devfreq-next
+    old: a83bfdca8b2098999e3edfb87e98925e019eb818
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    log: revlist-94da3da96c35-fdf0eaf11452.txt
+    log: revlist-a83bfdca8b20-fdf0eaf11452.txt
 
---===============6194376446022755785==
+--===============6371486057370063914==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-94da3da96c35-fdf0eaf11452.txt
+Content-Disposition: attachment; filename=revlist-a83bfdca8b20-fdf0eaf11452.txt
 
 98be618ad03010b1173fc3c35f6cbb4447ee2b07 Merge tag 'Smack-for-6.5' of https://github.com/cschaufler/smack-next
 d416a46c954ef0b753595ebfe6bb0988a24c2a57 Merge tag 'execve-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -1051,4 +1051,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============6194376446022755785==--
+--===============6371486057370063914==--
