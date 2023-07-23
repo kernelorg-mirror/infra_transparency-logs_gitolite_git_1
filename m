@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============9214048814329935854=="
+Content-Type: multipart/mixed; boundary="===============4683495036198282627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 23 Jul 2023 22:36:53 -0000
-Message-Id: <169015181308.3049.3536238083360664244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Sun, 23 Jul 2023 22:37:03 -0000
+Message-Id: <169015182313.3385.4865534381493629564@gitolite.kernel.org>
 
---===============9214048814329935854==
+--===============4683495036198282627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/heads/spi-6.5
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+  - ref: refs/heads/for-6.5
+    old: a9e26169cfda651802f88262a315146fbe4bc74c
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
-    log: revlist-fdf0eaf11452-6eaae1980760.txt
-  - ref: refs/heads/spi-6.6
-    old: a90a987ebe008c941338285764e5afc0d663f54d
-    new: 0b201982fe1735dd41b35bc0a18d57a382b7da59
-    log: revlist-a90a987ebe00-0b201982fe17.txt
+    log: revlist-a9e26169cfda-6eaae1980760.txt
+  - ref: refs/heads/for-6.6
+    old: e02a4ccbeced64aa10f4e99683c721ec43e993c1
+    new: 9c214af0bd0f43df214470a35bc38dd5602b666f
+    log: revlist-e02a4ccbeced-9c214af0bd0f.txt
 
---===============9214048814329935854==
+--===============4683495036198282627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf0eaf11452-6eaae1980760.txt
+Content-Disposition: attachment; filename=revlist-a9e26169cfda-6eaae1980760.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -168,8 +168,6 @@ fb74c4e3bee283ad8ce981fb744aa8239bed2d7a powerpc/crypto: Add gitignore for gener
 8739312ed2faa79df61d157ac44fda840646d444 powerpc/512x: lpbfifo: Convert to platform remove callback returning void
 e51df4f81b02bcdd828a04de7c1eb6a92988b61e ASoC: cs42l51: fix driver to properly autoload with automatic module loading
 469e2f28c2cbee2430058c1c9bb6d1675d7195fb ASoC: SOF: ipc3-dtrace: uninitialized data in dfsentry_trace_filter_write()
-bc64734825c59e18a27ac266b07e14944c111fd8 regmap: Drop initial version of maximum transfer length fixes
-0c9d2eb5e94792fe64019008a04d4df5e57625af regmap: Account for register length in SMBus I/O limits
 98e2dd5f7a8be5cb2501a897e96910393a49f0ff regulator: da9063: fix null pointer deref with partial DT config
 b2cb84d7802b75bc4029519bce2c4e0c9319ac42 Merge tag 'asoc-fix-v6.5-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 057849ccc3d898b8a2dc21933b50ed8fbddc963b ALSA: seq: Fix memory leak at error path in snd_seq_create_port()
@@ -292,7 +290,6 @@ bce5603365d8184734ba7e6b22e74bd2c90a7167 drivers:net: fix return value check in 
 aa7cb3789b429d4fdfbe767e0e0cf8c769299d7a ipv4: ip_gre: fix return value check in erspan_xmit()
 106ea7ffd56b0f9454cd4f625474967f12ac4dbd Revert "powerpc/64s: Remove support for ELFv1 little endian userspace"
 1945063eb59e64d2919cb14d54d081476d9e53bb gpio: mvebu: Make use of devm_pwmchip_add
-b460a52257b1f5299ca70b7d1bb32442d3ce7bf6 regcache: Push async I/O request down into the rbtree cache
 a2a93f4e2fd400907f89753025d1e4bebb64d4db selftests: ALSA: Add test-pcmtest-driver to .gitignore
 0659400f18c0e6c0c69d74fe5d09e7f6fbbd52a2 ALSA: hda/realtek: Enable Mute LED on HP Laptop 15s-eq2xxx
 d46b0a05bdc849d39c75268ddaf654c59bd6785c Revert "intel_idle: Add __init annotation to matchup_vm_state_with_baremetal()"
@@ -330,7 +327,6 @@ a8bd38dbc57c2fe074df2c9e549b9c2ad3183c83 arm64: mm: Make hibernation aware of KF
 71e06e1acecbb50e712a3be9a7d56778509f3538 arm64: vdso: Clear common make C=2 warnings
 78e9b217d78e9f69c5699ccff18794ea03be597f accel/habanalabs: add more debugfs stub helpers
 644ee70267a934be27370f9aa618b29af7290544 gpio: mvebu: fix irq domain leak
-a9e26169cfda651802f88262a315146fbe4bc74c regmap: Disable locking for RBTREE and MAPLE unit tests
 5f69c65e07b99ceb113d304fe31e0c653eb1c4bc Merge tag 'asoc-fix-v6.5-rc1-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 1f7e9067756cac5b44b9701bbe0bb83e93011e47 s390/crypto: use kfree_sensitive() instead of kfree()
 4cfca532ddc3474b3fc42592d0e4237544344b1a s390/zcrypt: fix reply buffer calculations for CCA replies
@@ -413,11 +409,11 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============9214048814329935854==
+--===============4683495036198282627==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a90a987ebe00-0b201982fe17.txt
+Content-Disposition: attachment; filename=revlist-e02a4ccbeced-9c214af0bd0f.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -1104,6 +1100,6 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-0b201982fe1735dd41b35bc0a18d57a382b7da59 spi: Merge up fixes from mainline
+9c214af0bd0f43df214470a35bc38dd5602b666f regmap: Merge up fixes from mainline
 
---===============9214048814329935854==--
+--===============4683495036198282627==--
