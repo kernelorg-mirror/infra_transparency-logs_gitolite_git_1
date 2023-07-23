@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============5781655290721164740=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 23 Jul 2023 14:57:08 -0000
-Message-Id: <169012422883.26686.14590587406204160905@gitolite.kernel.org>
-
---===============5781655290721164740==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 23 Jul 2023 14:59:47 -0000
+Message-Id: <169012438748.27694.3677688533462843246@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,30 +11,18 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 87f90a2dae7a4adb7a0a314e27abae9aa1de78fb
-    new: 66fcf86bbaea42ee7cefc3cc4e97814e51fa0a84
-    log: revlist-87f90a2dae7a-66fcf86bbaea.txt
-
---===============5781655290721164740==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87f90a2dae7a-66fcf86bbaea.txt
-
-3e7166ffb2ef365fb987610e176ce145846f3e5a fstests: reduce runtime of check -n
-2c29b9b58618b4e9946613aecfe2cdc7268ead07 common/config: redirect modprobe helpinfo to stdout for busybox
-60054d5118fdc020c42323062a4c82370a1c0a8d check: fix excluded tests are only expunged in the first iteration
-06cee93225c9f9ea41d04efd6af911f7abb6e6a1 generic/604: Fix for overlayfs
-db7fb78fda6960c853b12ae923a0e865a401edb8 btrfs: test activating swapfile in the presence of snapshots
-4ea344909abababdcbd1ccb79f4d0986dbf478c9 btrfs: add test case to verify the behavior with large RAID0 data chunks
-e7006c6dc1c2ec0259582dd76afb088a7769546f common/btrfs: handle dmdust as mounted device in _btrfs_buffered_read_on_mirror()
-2fc1f5dc90f497bf971024c2b160f8ca6e4ed59a xfs/529: fix bogus failure when realtime is configured
-cfa2c8fadbc8b38e6d507ee221b63857dd4b62fc xfs/569: skip post-test fsck run
-08389a5aaa29e374e26536c943b92f8c19e8e959 xfs/439: amend test to work with new log geometry validation
-14941ffecb85b7df5cb732ed5782603ce2ae9933 xfs/041: force create files on the data device
-27211f9bb44b2fab8cd2b76bd57e20328c9480cf xfs: test growfs of the realtime device
-8bab8ef9872ecf9bce7381b6e784063c92c2cad3 report: safely update the result.xml file
-66fcf86bbaea42ee7cefc3cc4e97814e51fa0a84 report: remove xmlns specifier
-
---===============5781655290721164740==--
+  - ref: refs/heads/for-next
+    old: 66fcf86bbaea42ee7cefc3cc4e97814e51fa0a84
+    new: 8de535c53887bb49adae74a1b2e83e77d7e8457d
+    log: |
+         23f643a0c3e4d2f6e09c0f75bea70d9adbc1b04f overlay: add helper for mounting rdonly overlay
+         5f8c60fe8140f7c8870c6e59114b49196b6678b5 overlay/060: add test cases of follow to lowerdata
+         019122400875a59b02e35dc5d49e31c9b7b704e0 overlay: Add test for follow of lowerdata in data-only layers
+         f2c9af189a76ecd0920466fb4afd8e542a5dc5e9 overlay: Add test coverage for fs-verity support
+         05574f3cfc49df09af8d98b68db5e44a4cf9c0ee common/rc: cleanup old .kmemleak files
+         1cd6b612992a59d1a20bcd2c1f072e79ccd6dd60 xfs: add a couple more tests for ascii-ci problems
+         d28912bad3c00b3a0303d1b62fbbe97c44c578a8 generic/558: avoid forkbombs on filesystems with many free inodes
+         6ca154c1b239d1e1fa9153d66272a1bf9e34c65e btrfs: add a test case to verify the write behavior of large RAID5 data chunks
+         9b84d93f225f4ffbb61030ac39ef89ee459e64b1 btrfs: add a test case to check btrfs won't crash on certain corruption
+         8de535c53887bb49adae74a1b2e83e77d7e8457d btrfs: add a test case to verify that per-fs features directory gets updated
+         
