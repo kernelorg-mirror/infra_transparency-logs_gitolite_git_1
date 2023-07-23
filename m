@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1709270990330521538=="
+Content-Type: multipart/mixed; boundary="===============4505953425038964410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 23 Jul 2023 07:52:34 -0000
-Message-Id: <169009875408.21692.11926648570910743533@gitolite.kernel.org>
+Date: Sun, 23 Jul 2023 07:52:45 -0000
+Message-Id: <169009876541.21853.16256082201966080416@gitolite.kernel.org>
 
---===============1709270990330521538==
+--===============4505953425038964410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/for-next
     old: b3d2b014b259ba758d72d7026685091bde1cf2d6
     new: 44725a87381353075273618eeedc9127e99c378e
     log: revlist-b3d2b014b259-44725a873813.txt
 
---===============1709270990330521538==
+--===============4505953425038964410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ ea222485788208cd79bad42d25aae9232b33a934 RDMA/bnxt_re: Update alloc_page uapi fo
 2f5833ead7ea332889cfbdd4ac7b84279fdd3cef RDMA/qedr: Remove a duplicate assignment in qedr_create_gsi_qp()
 44725a87381353075273618eeedc9127e99c378e RDMA/qedr: Remove duplicate assignments of va
 
---===============1709270990330521538==--
+--===============4505953425038964410==--
