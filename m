@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 23 Jul 2023 13:37:16 -0000
-Message-Id: <169011943698.32263.11421937440506421314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sun, 23 Jul 2023 13:46:10 -0000
+Message-Id: <169011997011.7367.17528879171065569044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/fixes
-    old: d3c0d2d848da31c8bc611b24b739f2663d312c9f
-    new: 0817d2599cfe894fa4ded7dbaa2b06111f2609b5
+  - ref: refs/heads/master
+    old: b6e558fb75b6e46b9a10d2b1e5c10c346b412331
+    new: 7ec58f1c9dc011f334863e07917e349d95748d51
     log: |
-         1c67921444bf68107f7901d5bcfce954efaa8754 gen_compile_commands: add assembly files to compilation database
-         0817d2599cfe894fa4ded7dbaa2b06111f2609b5 kbuild: flatten KBUILD_CFLAGS
+         7ec58f1c9dc011f334863e07917e349d95748d51 update-pciids: Report itself as an user agent, version included
          
