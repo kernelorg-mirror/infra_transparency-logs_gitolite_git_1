@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sun, 23 Jul 2023 23:17:20 -0000
-Message-Id: <169015424035.1647.3835317091166151495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 23 Jul 2023 23:28:26 -0000
+Message-Id: <169015490611.8679.17012348783700820086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/locks-next
-    old: 2d61d0faac288ebcbc49056c43f294bb1c3fb350
-    new: 72bb0abc34923c207eab2e3f15114b3aed89a795
+  - ref: refs/heads/master
+    old: e9807ac352c5c9664884d9ee1e64f2556df0c5da
+    new: bbdf20a19d7afc3d63b1c7fc079d34aa06ae0bb0
     log: |
-         d55ddfbc08fe9910a68c9396878d7dc4b7112186 fs/locks: Fix typo
-         72bb0abc34923c207eab2e3f15114b3aed89a795 locks: fix KASAN: use-after-free in trace_event_raw_event_filelock_lock
+         bbdf20a19d7afc3d63b1c7fc079d34aa06ae0bb0 Sun Jul 23 11:27:18 PM UTC 2023
          
