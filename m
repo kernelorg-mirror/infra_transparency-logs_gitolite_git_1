@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Sun, 23 Jul 2023 20:14:40 -0000
-Message-Id: <169014328071.28871.17450481248605398285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 23 Jul 2023 20:20:33 -0000
+Message-Id: <169014363352.1972.16484956615295557777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/extcon-next
-    old: 52e4e2878236823ac3ba4d6033d81e8c389745fd
-    new: a635f91c71d9737c8227d44eff1dee5526953fad
+  - ref: refs/heads/master
+    old: a306dd67df8ff315f4c9a6aeb590906804609914
+    new: e9807ac352c5c9664884d9ee1e64f2556df0c5da
     log: |
-         fb2c3f72e819254d8c76de95917e5f9ff232586c dt-bindings: extcon: maxim,max77843: restrict connector properties
-         a635f91c71d9737c8227d44eff1dee5526953fad dt-bindings: extcon: siliconmitus,sm5502-muic: document connector
+         e9807ac352c5c9664884d9ee1e64f2556df0c5da Sun Jul 23 08:19:11 PM UTC 2023
          
