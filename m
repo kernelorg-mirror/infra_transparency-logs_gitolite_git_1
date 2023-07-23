@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 23 Jul 2023 09:14:31 -0000
-Message-Id: <169010367194.16805.367101582065690641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Sun, 23 Jul 2023 09:34:17 -0000
+Message-Id: <169010485761.30018.17121613308291676527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/testing
-    old: ad25fc289be9532f486ef2cc6156e8d5acb060db
-    new: cb1d17535061ca295903f97f5cb0af9db719c02c
+  - ref: refs/heads/main
+    old: 0e1e96d013b885cb794e0506656368db049cb842
+    new: 9fa1dc43bf554786f7d04bb8957134809407379d
     log: |
-         6ad9f01cf4fc2b51504ce45080e379ad5a204d76 iio: adc: meson: init channels 0,1 input muxes
-         d1adcaf7a407fe3ba5607727244de98bb3abfbd2 iio: adc: meson: init internal continuous ring counter
-         90c6241860bf804c95aec02ed296898459720a7c iio: adc: meson: init voltage control bits
-         cb1d17535061ca295903f97f5cb0af9db719c02c iio: core: Use min() instead of min_t() to make code more robust
+         9478dac79d37a2a5048e3c5b8c0313d49e5c5453 fw_req: code refactoring for FwReq.request()
+         bd217a0034c82885c320c999f6355f097f5e1a15 fw_req: code refactoring for FwReq.transaction()
+         23b25d91516e5db4e6c33cb0a1fe62d808bf40bb fw_fcp: code refactoring for FwFcp.command()
+         9fa1dc43bf554786f7d04bb8957134809407379d fw_fcp: code refactoring for FwFcp.avc_transaction()
          
