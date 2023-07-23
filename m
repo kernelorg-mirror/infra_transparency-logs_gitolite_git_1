@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6371486057370063914=="
+Content-Type: multipart/mixed; boundary="===============1818348764683980006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 23 Jul 2023 08:51:41 -0000
-Message-Id: <169010230150.32708.13914833784388962902@gitolite.kernel.org>
+Date: Sun, 23 Jul 2023 08:52:02 -0000
+Message-Id: <169010232254.485.17227518078066002519@gitolite.kernel.org>
 
---===============6371486057370063914==
+--===============1818348764683980006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: a83bfdca8b2098999e3edfb87e98925e019eb818
+  - ref: refs/heads/devfreq-fixes
+    old: 7877cb91f1081754a1487c144d85dc0d2e2e7fc4
     new: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    log: revlist-a83bfdca8b20-fdf0eaf11452.txt
+    log: revlist-7877cb91f108-fdf0eaf11452.txt
 
---===============6371486057370063914==
+--===============1818348764683980006==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a83bfdca8b20-fdf0eaf11452.txt
+Content-Disposition: attachment; filename=revlist-7877cb91f108-fdf0eaf11452.txt
 
 98be618ad03010b1173fc3c35f6cbb4447ee2b07 Merge tag 'Smack-for-6.5' of https://github.com/cschaufler/smack-next
 d416a46c954ef0b753595ebfe6bb0988a24c2a57 Merge tag 'execve-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -1051,4 +1051,4 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
 
---===============6371486057370063914==--
+--===============1818348764683980006==--
