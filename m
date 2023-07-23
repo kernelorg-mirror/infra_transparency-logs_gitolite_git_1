@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6893263826640168169=="
+Content-Type: multipart/mixed; boundary="===============9214048814329935854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 23 Jul 2023 22:36:46 -0000
-Message-Id: <169015180693.2899.16469875614043956112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 23 Jul 2023 22:36:53 -0000
+Message-Id: <169015181308.3049.3536238083360664244@gitolite.kernel.org>
 
---===============6893263826640168169==
+--===============9214048814329935854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: fdf0eaf11452d72945af31804e2a1048ee1b574c
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     log: revlist-fdf0eaf11452-6eaae1980760.txt
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: a90a987ebe008c941338285764e5afc0d663f54d
     new: 0b201982fe1735dd41b35bc0a18d57a382b7da59
     log: revlist-a90a987ebe00-0b201982fe17.txt
 
---===============6893263826640168169==
+--===============9214048814329935854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -413,7 +413,7 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============6893263826640168169==
+--===============9214048814329935854==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1106,4 +1106,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 0b201982fe1735dd41b35bc0a18d57a382b7da59 spi: Merge up fixes from mainline
 
---===============6893263826640168169==--
+--===============9214048814329935854==--
