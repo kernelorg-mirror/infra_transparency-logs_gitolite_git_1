@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8418933157910989613=="
+Content-Type: multipart/mixed; boundary="===============4917613066297274134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 23 Jul 2023 22:55:19 -0000
-Message-Id: <169015291928.17509.13262400538064598280@gitolite.kernel.org>
+Date: Sun, 23 Jul 2023 22:55:38 -0000
+Message-Id: <169015293826.17702.3747029095986964868@gitolite.kernel.org>
 
---===============8418933157910989613==
+--===============4917613066297274134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-fix-sve-sme-vl-change
-    old: 65e574a8b9dae4bf07a44097416e70f503063cd8
-    new: d9ef74822fc70ef2ee1328d781afac26ce4c4a62
-    log: revlist-65e574a8b9da-d9ef74822fc7.txt
+  - ref: refs/heads/arm64-gcs
+    old: 3359a8499632bea95a998fffcf442e3762a89c62
+    new: f8bdc2065437c9aff759f74480ecde92ffcc30f0
+    log: revlist-3359a8499632-f8bdc2065437.txt
 
---===============8418933157910989613==
+--===============4917613066297274134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65e574a8b9da-d9ef74822fc7.txt
+Content-Disposition: attachment; filename=revlist-3359a8499632-f8bdc2065437.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -408,9 +408,51 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-9c2422b2fc87a8793f54bf6cbbf4124e01d24174 selftests: Fix arm64 test installation
-3446dbcaa2d06dc606317a0ae4edd6e57f007ffe arm64/fpsimd: Fix use after free in SME when changing SVE VL
-d07a1f868effa7c0aa9050973b70443f3dc9ab56 kselftest/arm64: Add a test case for SVE VL changes with SME active
-d9ef74822fc70ef2ee1328d781afac26ce4c4a62 kselftest/arm64: Validate that changing one VL type does not affect another
+4ca4c9c9257c7de67d352c23ef9af9557a851b67 mm: Rename arch pte_mkwrite()'s to pte_mkwrite_novma()
+9b6e042ef9e05bf129f9f66d13452df1f3ebadcf mm: Move pte/pmd_mkwrite() callers with no VMA to _novma()
+a73b5842c0eb1551d80b107c66e3f1dd94aaea71 mm: Make pte_mkwrite() take a VMA
+60ac205c439273a6e5fa46610c214dc3c608e042 mm: Re-introduce vm_flags to do_mmap()
+aabf83cc5b94a7dfff9e9ca453d2aff5067717cb mm: Move VM_UFFD_MINOR_BIT from 37 to 38
+7151062d3266b7177262bd905546bfdbb95ad9d7 mm: Introduce VM_SHADOW_STACK for shadow stack memory
+a80fbd3fe97c12c00eb45f58c619b918acf9a266 mm: Add guard pages around a shadow stack.
+dc67364385ea40bf12cf4853d64be7a12b2e2a12 mm/mmap: Add shadow stack pages to memory accounting
+53d5aef27358e91fd001597d41e250c7b60a1414 mm: Don't allow write GUPs to shadow stack memory
+b8f2cc1100d85456f9a48243328b33ab0ce5caff signal: Add SEGV code for control protection faults
+14ebdb78aebfb6726748f91263b3f9cd7a923868 arm64/gcs: Provide support for GCS in userspace
+b89e62b1b6e63a9661b7eef946fe04a73d08e9b1 prctl: arch-agnostic prctl for shadow stack
+f76ba8c53642113b86dd713227b486c79a9f158c arm64: Document boot requirements for Guarded Control Stacks
+e37a3d867163d4b44586879d8a62dde68bb31687 arm64/gcs: Document the ABI for Guarded Control Stacks
+92bc0d69e86298925ea05e0f351342b83af25372 arm64/sysreg: Add new system registers for GCS
+f7f3f8e325e1e02736ddc08a1771db693049d44f arm64/sysreg: Add definitions for architected GCS caps
+96f2314265cd64504fa070899225d7292f77dea5 arm64/gcs: Add manual encodings of GCS instructions
+85bd3191f5453d6443128a90452fcf4bf0f98de3 arm64/gcs: Provide copy_to_user_gcs()
+88252c6417a98c952f9be4dee00bcc6669602046 arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
+c464ebd4b2eebec995d6ce7dc327cde98ab8f7e0 arm64/mm: Allocate PIE slots for EL0 guarded control stack
+ee8654a508d0d1a04ef18bf7c9aa88509a69b2de mm: Define VM_SHADOW_STACK for arm64 when we support GCS
+498a98f0f6d4cf05e0344cb881c56f3f19c7e48d arm64/mm: Map pages for guarded control stack
+3ec61b7dd321a720d70f184a4fa4af12734aef61 KVM: arm64: Manage GCS registers for guests
+9d3f54f50b0fa35c005140b0c9a036361e4800fa arm64/el2_setup: Allow GCS usage at EL0 and EL1
+04e98e16c4b2e84fd2fec3545956d845da34c5b3 arm64/idreg: Add overrride for GCS
+6e3135e4b322dbe19f825789afa19348fdec18aa arm64/hwcap: Add hwcap for GCS
+9bf9c35eaabe53cdbca467cb07113ead71c24d35 arm64/traps: Handle GCS exceptions
+779dc77048f5dab1e00bf7e2e4dedbe36b88eb05 arm64/mm: Handle GCS data aborts
+2c5024fe1ef9dd3bdbe93cada0746b03fc317859 arm64/gcs: Context switch GCS registers for EL0
+792ce4bd978da3fae391ba4f6e9a42e4e4f0faa0 arm64/gcs: Allocate a new GCS for threads with GCS enabled
+bd61e5d9f7d20c296614a11e165f4d11f057782a arm64/gcs: Implement shadow stack prctl() interface
+91e857685021b1e93824fbff6fa420c1119a6937 arm64/mm: Implement map_shadow_stack()
+e20891da9943826ece97edef8e7c49336744e6b4 arm64/signal: Set up and restore the GCS context for signal handlers
+c05602892156b362b8c59aeee7a9bdd7a4051e37 arm64/signal: Expose GCS state in signal frames
+fc09e396a3a5787169d4e7fc9324513c213a7f86 arm64/ptrace: Expose GCS via ptrace and core files
+e3ba2e68b639479bf134cc7a0e49f19a1c9e687e arm64: Add Kconfig for Guarded Control Stack (GCS)
+e959fad30f2934471b6da90485e732d3fc32c4ca kselftest/arm64: Verify the GCS hwcap
+f6305853e2b034c1936d1dbbbb6e7a0bd5de22d0 kselftest/arm64: Add GCS as a detected feature in the signal tests
+2eced188240d5ba6a99e71158d9622c5d2588f77 kselftest/arm64: Add framework support for GCS to signal handling tests
+1620c5fe04b34db8b857e10ea8d6067d92e19ab9 kselftest/arm64: Allow signals tests to specify an expected si_code
+df0224daf470be84272328b7d4c62a653ee7044c kselftest/arm64: Always run signals tests with GCS enabled
+ce941b0e707bcaec2df602527e45396437f1feac kselftest/arm64: Add very basic GCS test program
+2d2860cfe5190a1d470300e1d432fe879ed16d68 kselftest/arm64: Add a GCS test program built with the system libc
+12f1f3e3cc8d5d125c0c79e5a8794c43e58e9e02 kselftest/arm64: Add test coverage for GCS mode locking
+6022996a1876a1075a6bce4e9e024caef8206a26 selftests/arm64: Add GCS signal tests
+f8bdc2065437c9aff759f74480ecde92ffcc30f0 kselftest/arm64: Enable GCS for the FP stress tests
 
---===============8418933157910989613==--
+--===============4917613066297274134==--
