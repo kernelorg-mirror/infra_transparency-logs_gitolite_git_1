@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
-Date: Sun, 23 Jul 2023 09:34:17 -0000
-Message-Id: <169010485761.30018.17121613308291676527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 23 Jul 2023 10:34:42 -0000
+Message-Id: <169010848233.22034.12772077111058412229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinawa
-user: takaswie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/main
-    old: 0e1e96d013b885cb794e0506656368db049cb842
-    new: 9fa1dc43bf554786f7d04bb8957134809407379d
+    old: 6bfef2ec01728cc877c0e6caf9dfb701afcdf2a7
+    new: 2e60314c2809408f999c080cf3980dc5a5b5ce96
     log: |
-         9478dac79d37a2a5048e3c5b8c0313d49e5c5453 fw_req: code refactoring for FwReq.request()
-         bd217a0034c82885c320c999f6355f097f5e1a15 fw_req: code refactoring for FwReq.transaction()
-         23b25d91516e5db4e6c33cb0a1fe62d808bf40bb fw_fcp: code refactoring for FwFcp.command()
-         9fa1dc43bf554786f7d04bb8957134809407379d fw_fcp: code refactoring for FwFcp.avc_transaction()
+         a3377386b56420d78a4c0a931a40f9a25c3ca2bd netlink: Reverse the patch which removed filtering
+         a4c9a56e6a2cdeeab7caef1f496b7bfefd95b50e netlink: Add new netlink_release function
+         2aa1f7a1f47ce8dac7593af605aaa859b3cf3bb1 connector/cn_proc: Add filtering to fix some bugs
+         743acf351bae1ff7ff4aaadd6a406d4d6091d90b connector/cn_proc: Performance improvements
+         bfdfdc2f3b7073571ce40b6d19193002b0126b6a connector/cn_proc: Allow non-root users access
+         73a29531f45fed6423144057d7a844aae46dad9d connector/cn_proc: Selftest for proc connector
+         2e60314c2809408f999c080cf3980dc5a5b5ce96 Merge branch 'process-connector-bug-fixes-and-enhancements'
          
