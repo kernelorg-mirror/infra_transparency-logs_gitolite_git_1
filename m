@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1434531164506548071=="
+Content-Type: multipart/mixed; boundary="===============4420735728608395791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 23 Jul 2023 22:35:58 -0000
-Message-Id: <169015175842.2214.14700867775555902374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sun, 23 Jul 2023 22:36:21 -0000
+Message-Id: <169015178156.2447.13211499612412017094@gitolite.kernel.org>
 
---===============1434531164506548071==
+--===============4420735728608395791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.5
+  - ref: refs/heads/for-6.5
     old: 0e4c2b6b0c4a4b4014d9424c27e5e79d185229c5
     new: 1477c794c771be0a873a41421812e7274717dcd1
     log: revlist-0e4c2b6b0c4a-1477c794c771.txt
-  - ref: refs/heads/asoc-6.6
+  - ref: refs/heads/for-6.6
     old: 8cf2e3b1961e59dabc75e9e917d58439164a8f84
     new: de1b43a57aff8b1808bbfe0402932f9e373d1172
     log: revlist-8cf2e3b1961e-de1b43a57aff.txt
 
---===============1434531164506548071==
+--===============4420735728608395791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -369,7 +369,7 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 1477c794c771be0a873a41421812e7274717dcd1 ASoC: Merge up fixes from mainline
 
---===============1434531164506548071==
+--===============4420735728608395791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -724,4 +724,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 de1b43a57aff8b1808bbfe0402932f9e373d1172 ASoC: Merge up fixes from mainline
 
---===============1434531164506548071==--
+--===============4420735728608395791==--
