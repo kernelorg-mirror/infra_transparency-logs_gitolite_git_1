@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0233506419607889234=="
+Content-Type: multipart/mixed; boundary="===============8418933157910989613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 23 Jul 2023 22:55:00 -0000
-Message-Id: <169015290042.15748.14151999357242305623@gitolite.kernel.org>
+Date: Sun, 23 Jul 2023 22:55:19 -0000
+Message-Id: <169015291928.17509.13262400538064598280@gitolite.kernel.org>
 
---===============0233506419607889234==
+--===============8418933157910989613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-dont-flush-smstate
-    old: ba46b4c5b60725555b1e3b7e15c1dd60e4afdc3b
-    new: e92f10eb0301674111c25383e459df20336394d1
-    log: revlist-ba46b4c5b607-e92f10eb0301.txt
+  - ref: refs/heads/arm64-fix-sve-sme-vl-change
+    old: 65e574a8b9dae4bf07a44097416e70f503063cd8
+    new: d9ef74822fc70ef2ee1328d781afac26ce4c4a62
+    log: revlist-65e574a8b9da-d9ef74822fc7.txt
 
---===============0233506419607889234==
+--===============8418933157910989613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba46b4c5b607-e92f10eb0301.txt
+Content-Disposition: attachment; filename=revlist-65e574a8b9da-d9ef74822fc7.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -408,7 +408,9 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-1e5dfca783bd042df13bdd42d8945c9fb8f1b8d6 EDITME: cover title for arm64-dont-flush-smstate
-e92f10eb0301674111c25383e459df20336394d1 arm64/fpsimd: Don't flush SME register hardware state along with thread
+9c2422b2fc87a8793f54bf6cbbf4124e01d24174 selftests: Fix arm64 test installation
+3446dbcaa2d06dc606317a0ae4edd6e57f007ffe arm64/fpsimd: Fix use after free in SME when changing SVE VL
+d07a1f868effa7c0aa9050973b70443f3dc9ab56 kselftest/arm64: Add a test case for SVE VL changes with SME active
+d9ef74822fc70ef2ee1328d781afac26ce4c4a62 kselftest/arm64: Validate that changing one VL type does not affect another
 
---===============0233506419607889234==--
+--===============8418933157910989613==--
