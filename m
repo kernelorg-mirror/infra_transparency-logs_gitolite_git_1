@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4683495036198282627=="
+Content-Type: multipart/mixed; boundary="===============5196047098913524926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Sun, 23 Jul 2023 22:37:03 -0000
-Message-Id: <169015182313.3385.4865534381493629564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 23 Jul 2023 22:37:09 -0000
+Message-Id: <169015182982.3518.14568388831060931230@gitolite.kernel.org>
 
---===============4683495036198282627==
+--===============5196047098913524926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regmap-6.5
     old: a9e26169cfda651802f88262a315146fbe4bc74c
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     log: revlist-a9e26169cfda-6eaae1980760.txt
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regmap-6.6
     old: e02a4ccbeced64aa10f4e99683c721ec43e993c1
     new: 9c214af0bd0f43df214470a35bc38dd5602b666f
     log: revlist-e02a4ccbeced-9c214af0bd0f.txt
 
---===============4683495036198282627==
+--===============5196047098913524926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -409,7 +409,7 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============4683495036198282627==
+--===============5196047098913524926==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1102,4 +1102,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 9c214af0bd0f43df214470a35bc38dd5602b666f regmap: Merge up fixes from mainline
 
---===============4683495036198282627==--
+--===============5196047098913524926==--
