@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1355710791815006720=="
+Content-Type: multipart/mixed; boundary="===============3372488459246444868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 23 Jul 2023 14:20:00 -0000
-Message-Id: <169012200086.31613.14131711633830312942@gitolite.kernel.org>
+Date: Sun, 23 Jul 2023 14:20:05 -0000
+Message-Id: <169012200591.875.7097183570357726152@gitolite.kernel.org>
 
---===============1355710791815006720==
+--===============3372488459246444868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,97 +16,118 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 75389113731bb629fa5e971baf58e422414c8d23
-    new: 8866318d3d9385b1aa14ca02ab8417dfb7c11161
-    log: revlist-75389113731b-8866318d3d93.txt
+  - ref: refs/heads/linux-6.4.y
+    old: bcecfeef53d4a78b282d67713ff8d6b35da723f0
+    new: 39acd61a95646c04ab027766ae9f6b1e2586c160
+    log: revlist-bcecfeef53d4-39acd61a9564.txt
 
---===============1355710791815006720==
+--===============3372488459246444868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690121999 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690122004 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1690121997-139f891e3cd46551ad387e61f68757ebdce88536
+nonce 1690122002-6c92c8c1d62db757de0e4bd39cf615e3246e82fa
 
-75389113731bb629fa5e971baf58e422414c8d23 8866318d3d9385b1aa14ca02ab8417dfb7c11161 refs/heads/linux-6.1.y
+bcecfeef53d4a78b282d67713ff8d6b35da723f0 39acd61a95646c04ab027766ae9f6b1e2586c160 refs/heads/linux-6.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS9Nw8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FssQANECo7D8MiKi+NaVY1fN
-J7pAZcpVTW83AaWfmKjFTJWqR38uoza48dpNm431yV8nbGtioHCWk4t/jPkFFlSc
-vk5o4m5tK2dXdnQH7poUvpeq6h5lA36O9L09mCQIT+sWP0la+nlldIwkMsFhpnmY
-PRmsXwj8qTGSe70pQwbrv0YwYaanTn0eRbnJYB3x22+UlnxsibV4DGNJAZLhI5Us
-esnV1CsiyJ45/HLXsLO909b9hf8Re+hpPma+mPgdtvnlCWnS6TP98ep/OYbd3Jn3
-N6ATxOJj79isTLVid1rHGimdezyfd1hVnF2BVHeqQyQE1+IOuR84dDeFuDfr6qoA
-Ocf1qQS8wCNU3D5/4aUubUFXLgwnCO9aDgIAm9wcd9VAVFxNy8VyV+x4pV9j8V2z
-lsJgYSZ+4tA5FRrcjgiQbKmoIk+ApdcTOxNGEa/GshB31CtXTgQsoiT5iTaUBEt4
-FUZaQohpwgWCWnSNtiiMykuvUSIz2DJ/qywQzsg5u/WW7lJ8qEFKnRvcQ0sa+4Ch
-XKwqZx82UOUTP25acMdH/xc9rDDMQRRNE0xSqizKWY+MP/7574H9AFsgPU+k6YdV
-vd6InCSaKi6y1tQ61uJgFwYt+OGBWOmN0UzZuytUWD0gZ43yhoAFt6R77guBFuyG
-vnFsFXYwSODv4NP77tgAHTFy
-=KK9o
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS9NxQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+04YP/RGXbsqR+mI2peMTmDb+
+J4E06bwzXB1/6f5YuRv1WKr7yES59YYqVUgcXZHAC0yxzym1WWiXciFu8qSEh70X
+jxNckUc6gO3KuGI8/v2fYxP7IYIccRt/qm0Q573IP1WBam7jgN8+7NRNTpJtwm6g
+WaDtyRmWcLH3EAB+3n2Bd1/XltXNzJ1ZfC0yQs2G0aD5lgV+tWimNW3YVsWfwKaQ
+GKSJY2qRfkuSphUpZq/fqbiVpy6sVNsXpw2E8N/UGxd0FCTNP7+l5Gbx/i1+wcbJ
+6lGX/PYsSejHVJhXb4ZK+s4qiG46moW0iZ9S1hCf8HTPKo3OJbAAosuqOHIdyuNw
+1btJW2a8Dpl6FRtOOFD1U370WmfouTQZPmD6uh3OJFGzCbredd7zUKLyWjvBWe+l
+xGcO/63OH8xCQ16MINOOaFuhvwb9b/R19u6bJulykTedeSFnqm/xExQ+pLL+6OeA
+qGmf+3+57Fa0wx9MVA8+QP2I1+nU8cb1z0QHu+spJymjtvjexGM8x3a00e+TxXgJ
+KiFTvm3Kqc8wWjmIImk8pNQJWq66Go+aiYtO5LZPCEKrZLPF8/ysnx2hsMp7v0ZM
+Hw9sIJBy92H8QerYxolLBhvjq81blJWArHZlgXCbQuZ8jgmPWr9bcidRb7mlDeZn
+gxuCPkRVhOCHEtwBxi7iMAHv
+=ltL9
 -----END PGP SIGNATURE-----
 
---===============1355710791815006720==
+--===============3372488459246444868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75389113731b-8866318d3d93.txt
+Content-Disposition: attachment; filename=revlist-bcecfeef53d4-39acd61a9564.txt
 
-a9409c101ab8422711d23aa7e4c3b588b439905b io_uring: treat -EAGAIN for REQ_F_NOWAIT as final for io-wq
-82217f5228b9b2205997897c7272f40651539dd1 ALSA: hda/realtek - remove 3k pull low procedure
-e4336e70a889d47d7607e56aecc29d1c077205b9 ALSA: hda/realtek: Add quirk for Clevo NS70AU
-e16301f70f2995f57ca1c66a380cf054e66cea99 ALSA: hda/realtek: Enable Mute LED on HP Laptop 15s-eq2xxx
-591328fa6ea72de561718ee69b5c8c7f2b631d90 maple_tree: set the node limit when creating a new root node
-8a312cff2a8c1c3671afd1d3edcda68b0cfd8244 maple_tree: fix node allocation testing on 32 bit
-c9cb18a80b241e02cde54c389be26aa7e5ef3791 keys: Fix linking a duplicate key to a keyring's assoc_array
-ddb82414e6e912ca1d37dbc8c8720664fd4baaec perf probe: Add test for regression introduced by switch to die_get_decl_file()
-ed9c2d329db0095de7de5220965ddcf94b9768d3 btrfs: fix warning when putting transaction with qgroups enabled after abort
-e7ef04ef7579914ee889b7aae045d73aadd12060 fuse: revalidate: don't invalidate if interrupted
-370b38e07f61c22f1736cdb0dc0e026055a9fbeb fuse: Apply flags2 only when userspace set the FUSE_INIT_EXT
-b105515b56769846833028395404ad5caed59813 btrfs: set_page_extent_mapped after read_folio in btrfs_cont_expand
-813e028f46505393707a6b89c67af830dc26f3de btrfs: zoned: fix memory leak after finding block group with super blocks
-e18a271dfaaf81768ccc32af59f6d5c1a55d114a fuse: ioctl: translate ENOSYS in outarg
-18252c6d37f748aa212b6a9707bc62e8a3c2e2d8 btrfs: fix race between balance and cancel/pause
-fedf2ff4dbad23e04bae732d67cd2339b71937bc selftests: tc: set timeout to 15 minutes
-96ed3684cd4d494c69fe271baa8e5e312ea75d37 selftests: tc: add 'ct' action kconfig dep
-601716f83fc8cfc4acbb40b744e350071163557c regmap: Drop initial version of maximum transfer length fixes
-54295f9a03006cb6ff57b0e87ff0bf9a2ba85e2a of: Preserve "of-display" device name for compatibility
-6af5502ca51b6ce327ea03bb9648ebe91c758b32 regmap: Account for register length in SMBus I/O limits
-46bcd6f4aa71566cfbdeffe983afab22fbbeb0e2 arm64/fpsimd: Ensure SME storage is allocated after SVE VL changes
-b500a6ddf1e1a429b01ec3107f71d3974dd181e0 can: raw: fix receiver memory leak
-9650fcfab9604fa2dfacde1be09a71f1d903b412 can: mcp251xfd: __mcp251xfd_chip_set_mode(): increase poll timeout
-23f95148dd2ce721cbed768cde26302771abe61e can: bcm: Fix UAF in bcm_proc_show()
-51bcac783cbfaacfbe31d1d8d3df983bbe299933 can: gs_usb: gs_can_open(): improve error handling
-293f186fa40cd6e3918176b2b16d7d38ad760d45 selftests: tc: add ConnTrack procfs kconfig
-10f05aaa8e1a8709401635297088742574159880 dma-buf/dma-resv: Stop leaking on krealloc() failure
-a426a38b2233e7ae57fda36529e1aba66238a6d4 drm/amdgpu/vkms: relax timer deactivation by hrtimer_try_to_cancel
-011eb43f67e081802ad1ab6c761925b8bbac8382 drm/amdgpu/pm: make gfxclock consistent for sienna cichlid
-dac94042a764f292538d2edc7f23fb6e93b4ed78 drm/amdgpu/pm: make mclk consistent for smu 13.0.7
-829f33c25ecc850ca6b74532aedea96fd9c58e1d drm/client: Fix memory leak in drm_client_target_cloned
-03043acba88a28014a272f0e3d4441f7967a17d6 drm/client: Fix memory leak in drm_client_modeset_probe
-2b7b60d6b91fce1f1cdf1d9bbced93fd3d1f605f drm/amd/display: only accept async flips for fast updates
-eaf67a05086e72adc00db2c40294ece3644dd246 drm/amd/display: Disable MPC split by default on special asic
-7d1d0cc5a91877593cfda2c3b32b75a26272b3b9 drm/amd/display: check TG is non-null before checking if enabled
-95f9ad0356066e3b60338a82ff1fa5a249794e51 drm/amd/display: Keep PHY active for DP displays on DCN31
-4073b9bd85cabf570b50c10695101841cbbb4b8c ASoC: fsl_sai: Disable bit clock with transmitter
-b44973a2f9f25393febbd1cbc3717378b923bb6d ASoC: fsl_sai: Revert "ASoC: fsl_sai: Enable MCTL_MCLK_EN bit for master mode"
-79812e7f739e8d9c0f791c4002823f7103894c83 ASoC: tegra: Fix ADX byte map
-26bdd0acb1f6487e5590fc4b4aab00ea7f6d767f ASoC: rt5640: Fix sleep in atomic context
-1516fcd95c41af07fb5755ac6ce274d289f2c807 ASoC: cs42l51: fix driver to properly autoload with automatic module loading
-bb5d99a1643b63e5cabf79f166df00a1b0b80238 ASoC: codecs: wcd938x: fix missing clsh ctrl error handling
-46a2344c140b96168a0af0a57f8051c760bd4f9e ASoC: codecs: wcd-mbhc-v2: fix resource leaks on component remove
-f308e7ab778f113183f60e666f52642d443d8191 ASoC: qdsp6: audioreach: fix topology probe deferral
-daa7c3de4e092c6f2413f0d01a76d3f4b1b0f533 ASoC: tegra: Fix AMX byte map
-4c975f62889e9599df31e50b92191311500e798f ASoC: codecs: wcd938x: fix resource leaks on component remove
-04b4b41ee0fc20255ce5dc8aef12dd3e05202b1a ASoC: codecs: wcd938x: fix missing mbhc init error handling
-bc506a5d16f65cd761da83cb13fe18c9ef006adb ASoC: codecs: wcd934x: fix resource leaks on component remove
-a4171a57fbe9251294459010d854f36d943ffefd ASoC: codecs: wcd938x: fix codec initialisation race
-5b047bfa416f75038ee61692966bcd8539f30267 ASoC: codecs: wcd938x: fix soundwire initialisation race
-8866318d3d9385b1aa14ca02ab8417dfb7c11161 Linux 6.1.41-rc1
+9212d20dc2ba658e6120b7035a9b08373af6fa6b io_uring: treat -EAGAIN for REQ_F_NOWAIT as final for io-wq
+915c425f89bb1c2e1db6389ec09b7fb71e614aed io_uring: Fix io_uring mmap() by using architecture-provided get_unmapped_area()
+01d4acee0a131ac867a8ea5dec1f14712cc61566 ALSA: hda/realtek - remove 3k pull low procedure
+136e368c995dd0aa1b54b04057df339db9b9e8fd ALSA: hda/realtek: Add quirk for Clevo NS70AU
+5e704abca0aa3399f831742b11e69e7053592bce ALSA: hda/realtek: Enable Mute LED on HP Laptop 15s-eq2xxx
+a16776714effa0867b96b19cde71076f29200f59 maple_tree: set the node limit when creating a new root node
+7a84eb849c52facef45d510efec278a8e400c9f4 mm/mlock: fix vma iterator conversion of apply_vma_lock_flags()
+55b0820a9361cc8fa798c834ebcc31ff3ef733ed maple_tree: fix node allocation testing on 32 bit
+74e4848fc7aee79dda9f5f1ce3ab5897f1ad5132 selftests/mm: mkdirty: fix incorrect position of #endif
+21849f4554c167672f949d1f43d707ca28729751 keys: Fix linking a duplicate key to a keyring's assoc_array
+a3310d5f24658e763d237474243de43b106175d1 prctl: move PR_GET_AUXV out of PR_MCE_KILL
+d5d0a2ff0d6b17b418143b92ffc7276af75251a2 perf probe: Add test for regression introduced by switch to die_get_decl_file()
+3825b5800ae0e1beb0a1a493e8a716af7872db2a perf probe: Read DWARF files from the correct CU
+0b3c0fe9013907268f5db8f99a8e02d734276326 btrfs: fix iput() on error pointer after error during orphan cleanup
+77650922b086de51a43c13ef604b489884398466 btrfs: fix warning when putting transaction with qgroups enabled after abort
+1f826b2cf40013900c7e086ba933a1075454fef8 fuse: revalidate: don't invalidate if interrupted
+11b75ce3b060aa2e058a34230baedb38c575cdb7 fuse: add feature flag for expire-only
+121fc4f233a1b8fd0023b4de115619c18154fce8 fuse: Apply flags2 only when userspace set the FUSE_INIT_EXT
+63bc76047182728caf9574e73f0a483f1081311f btrfs: raid56: always verify the P/Q contents for scrub
+5b3aea704bcf807273f11e6eaf315d4027376e1e btrfs: set_page_extent_mapped after read_folio in btrfs_cont_expand
+3b246fc5d33519b4715626ebce7fe6747dd7b253 btrfs: fix double iput() on inode after an error during orphan cleanup
+c7d2acc4583ff7b70ae8168ac495a71f5b85557c btrfs: zoned: fix memory leak after finding block group with super blocks
+dd8b3a812a12c028824a08f6b1ee2533362f4a1a fuse: ioctl: translate ENOSYS in outarg
+995ce38919258ad050eb8e4fffca4abd54bf8a19 btrfs: fix race between balance and cancel/pause
+c472b2b223c212f5e9f2f944a99708feac49b679 selftests: tc: set timeout to 15 minutes
+cb21b66145aabe795d62f2eaa273eaf62fe8053f accel/qaic: Fix a leak in map_user_pages()
+61e6d13442e3efae851da28219843b1fbc61b348 selftests: tc: add 'ct' action kconfig dep
+30f8aa6713ed1702b593d1d926f0b950e5c022fe regmap: Drop initial version of maximum transfer length fixes
+3bc55d8b5d0b81fc75486897ef9a8b7ed538c409 s390/zcrypt: fix reply buffer calculations for CCA replies
+e546ae5aa58200a48a4ba055586f0567692c7f38 of: Preserve "of-display" device name for compatibility
+e53036382d2b89880d3b214f0e89ea6bbf29eb3a regmap: Account for register length in SMBus I/O limits
+4f074297e8e28d935fc6de69a50f4b756905a5f0 ia64: mmap: Consider pgoff when searching for free mapping
+db7dd23bd1630d0f031271829e7c326d87708f7b arm64/fpsimd: Ensure SME storage is allocated after SVE VL changes
+83dbf355b47c2e58e00784a5cb4ea8c5c3f4274a can: raw: fix receiver memory leak
+125b67f8dbd7840baf75ebad2a4e937a00166aac can: mcp251xfd: __mcp251xfd_chip_set_mode(): increase poll timeout
+fb72b266bebb33175ec5bd9999c26044287cf21f can: bcm: Fix UAF in bcm_proc_show()
+1d4e128cd404c80c699228dc86fd34d44c3f46b5 can: gs_usb: gs_can_open(): improve error handling
+7faf022d6958c7ef35956c2fb9b0362eaddfbb9d can: gs_usb: fix time stamp counter initialization
+4d460d144880180b533902327e0bb87f5b2195a1 Revert "r8169: disable ASPM during NAPI poll"
+0f55444f5c37419ff01fa12297e6174786839115 selftests: tc: add ConnTrack procfs kconfig
+8ec0dd9c31bc01f57e7866c978c4579d5e78309f accel/qaic: tighten bounds checking in encode_message()
+6002b0cce75e46181310ce7a8fecc3e20a9acbbf accel/qaic: tighten bounds checking in decode_message()
+e3fd5ff38ed057b7001378d1bc1f9ba082778e76 accel/qaic: Add consistent integer overflow checks
+16f0c8c105e7aead301d01bacdaede7471fef9bc dma-buf/dma-resv: Stop leaking on krealloc() failure
+cf00119747cdce54e6e37174c2ddfbd337a1be09 drm/amdgpu/vkms: relax timer deactivation by hrtimer_try_to_cancel
+7fcc99160d7d56d32c89e46721086a94ee1b8e10 drm/amdgpu/pm: make gfxclock consistent for sienna cichlid
+6a4b5280ed871bdd4ab55f1cbcf6ec9ca5ff33dc drm/amdgpu/pm: make mclk consistent for smu 13.0.7
+03d254c77188d2cc5dcd8664411a834407d5d269 drm/nouveau/disp: PIOR DP uses GPIO for HPD, not PMGR AUX interrupts
+65555c1aaca1396eb552bd2a3d93b0b338690f68 drm/nouveau/kms/nv50-: init hpd_irq_lock for PIOR DP
+087f59fbd1cfc87b9e2094efae8809b9f5a815aa drm/nouveau/i2c: fix number of aux event slots
+9491ff26ba8fce998d42df4b5da6b2d53804748c drm/client: Fix memory leak in drm_client_target_cloned
+4ee732e8f7036f369f288ad16a4638ce133370fd drm/client: Fix memory leak in drm_client_modeset_probe
+a36cc9fd3b0e1ddf4d087e82c8d10c083d4f8d48 drm/amd/display: only accept async flips for fast updates
+67ae085b61d19d0d50b59b627fc91897bec4ad97 drm/amd/display: Disable MPC split by default on special asic
+6ed93e3647bed7eebd8f869bdb8c3c0fa22f360c drm/amd/display: check TG is non-null before checking if enabled
+a33336d12ad8e96485a8a3080e945236a96c4a5e drm/amd/display: Keep PHY active for DP displays on DCN31
+dd243a613bce3462245199d44872ea45be92abcc ASoC: fsl_sai: Disable bit clock with transmitter
+bbf0f87b541790b9ebe1c4c658c70ed80134e974 ASoC: fsl_sai: Revert "ASoC: fsl_sai: Enable MCTL_MCLK_EN bit for master mode"
+308a213c50302711a0754296e46c5aececd7d2ee ASoC: tegra: Fix ADX byte map
+b7971e71e515d80b9fd2f20da942348b3a92e16e ASoC: rt5640: Fix sleep in atomic context
+a54c0ced43b2c27280a646498027ecdd94dceb4a ASoC: cs42l51: fix driver to properly autoload with automatic module loading
+5c7720f1741a49d51d473fabdecd9224fc1b6e38 ASoC: codecs: wcd938x: fix missing clsh ctrl error handling
+7940c68297c86aab9404fb42f0a1ebeaa4ab3e6c ASoC: cs35l45: Select REGMAP_IRQ
+2f125b5fcad3dfda42297f857b16fef9b4a55c61 ASoC: codecs: wcd-mbhc-v2: fix resource leaks on component remove
+2afeeb71f96a4848a8fd3751cd54df32d6472216 ASoC: qdsp6: audioreach: fix topology probe deferral
+34b118fa4b8098965baa18b4c4233caf573e1743 ASoC: tegra: Fix AMX byte map
+af74c05b5e8a90a43a0fa589dee8ab1c5eac43d6 ASoC: codecs: wcd938x: fix resource leaks on component remove
+193805fb184002bfb2407e4dac0aaeb35c31a425 ASoC: codecs: wcd938x: fix missing mbhc init error handling
+b69c79ac42921d45f1b6537ea3f8613ff7654822 ASoC: codecs: wcd934x: fix resource leaks on component remove
+f995883cf81d8b460086552277f593d695fdbd82 ASoC: codecs: wcd938x: fix codec initialisation race
+60017b0abd1a294c9aab587f994756e8c7774c81 ASoC: codecs: wcd938x: fix soundwire initialisation race
+39acd61a95646c04ab027766ae9f6b1e2586c160 Linux 6.4.6-rc1
 
---===============1355710791815006720==--
+--===============3372488459246444868==--
