@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6882146220683893337=="
+Content-Type: multipart/mixed; boundary="===============3492730546220009820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sun, 23 Jul 2023 22:36:33 -0000
-Message-Id: <169015179382.2608.17221203539667654883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 23 Jul 2023 22:36:39 -0000
+Message-Id: <169015179983.2746.1521546548622872456@gitolite.kernel.org>
 
---===============6882146220683893337==
+--===============3492730546220009820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regulator-6.5
     old: 98e2dd5f7a8be5cb2501a897e96910393a49f0ff
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     log: revlist-98e2dd5f7a8b-6eaae1980760.txt
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: 79232ec0ee0dfd11f0070a63d9307480ac39f87d
     new: 447281e71527080244ed1fa07e84a9d4e0654616
     log: revlist-79232ec0ee0d-447281e71527.txt
 
---===============6882146220683893337==
+--===============3492730546220009820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -412,7 +412,7 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============6882146220683893337==
+--===============3492730546220009820==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1105,4 +1105,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 447281e71527080244ed1fa07e84a9d4e0654616 regulator: Merge up fixes from mainline
 
---===============6882146220683893337==--
+--===============3492730546220009820==--
