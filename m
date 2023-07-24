@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3405266705184839527=="
+Content-Type: multipart/mixed; boundary="===============1183869985329483534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Jul 2023 15:28:12 -0000
-Message-Id: <169021249279.25592.5068145007381610078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 24 Jul 2023 15:35:38 -0000
+Message-Id: <169021293896.31536.15112075928397220871@gitolite.kernel.org>
 
---===============3405266705184839527==
+--===============1183869985329483534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: a2b6d7348b2202ac457166b6bfa4f3bf87ade4ef
-    new: 46ac68a51a8031e1134d27e4ca90992552154a16
-    log: |
-         46ac68a51a8031e1134d27e4ca90992552154a16 6.1-stable patches
-         
+  - ref: refs/heads/main
+    old: 57f1f9dd3abea322173ea75a15887ccf14bbbe51
+    new: 22117b3ae6e37d07225653d9ae5ae86b3a54f99c
+    log: revlist-57f1f9dd3abe-22117b3ae6e3.txt
 
---===============3405266705184839527==
+--===============1183869985329483534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-57f1f9dd3abe-22117b3ae6e3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690212491 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1690212490-54eeb7a2732983eec41502d10c9def47b86c12db
+32ad45b76990ece9c5dd1fe7aae6e688c3baa647 docs: net: clarify the NAPI rules around XDP Tx
+c7b75bea853daeb64fc831dbf39a6bbabcc402ac net: phy: marvell10g: fix 88x3310 power up
+b27d0232e8897f7c896dc8ad80c9907dd57fd3f3 net: hns3: fix the imp capability bit cannot exceed 32 bits issue
+6d2336120aa6e1a8a64fa5d6ee5c3f3d0809fe9b net: hns3: add tm flush when setting tm
+116d9f732eef634abbd871f2c6f613a5b4677742 net: hns3: fix wrong tc bandwidth weight data issue
+882481b1c55fc44861d7e2d54b4e0936b1b39f2c net: hns3: fix wrong bw weight of disabled tc issue
+a071c6ace314d7bcc8400275ea79f13b5bcc89e9 Merge branch 'hns3-fixes'
+94d166c5318c6edd1e079df8552233443e909c33 vxlan: calculate correct header length for GPE
+8d01da0a1db237c44c92859ce3612df7af8d3a53 ethernet: atheros: fix return value check in atl1c_tso_csum()
+17a0a64448b568442a101de09575f81ffdc45d15 vxlan: generalize vxlan_parse_gpe_hdr and remove unused args
+b0b672c4d0957e5897685667fc848132b8bd2d71 vxlan: fix GRO with VXLAN-GPE
+22117b3ae6e37d07225653d9ae5ae86b3a54f99c Merge branch 'vxlan-gro-fixes'
 
-a2b6d7348b2202ac457166b6bfa4f3bf87ade4ef 46ac68a51a8031e1134d27e4ca90992552154a16 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+mIsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jJ8P/30ZpcwwUYYBJWiok9P5
-g1UZbwwIjKa+Pdwse8bz8GrDbBuQrpXHuF5672WViGdUlnm5x1W3tNrPmt1MDFyq
-SVnf8c6tkPYunqfz8kckeMPNZuWCXnIgEZvseNTf+Y7RpnJHknrJdaFYX4UCg4r8
-c7rkSwC7iruU6muUcDFEq4xldIfiIXGRlsHpCTYDce08V/EFuaozH57FCgCOU5G7
-QevNM6QbLCPxDjKblZzSBnpKstYgBp4iteHMGbc1HaH+Agk0DnMvH5/TswLkQgEQ
-H2z7oX8Y0+s7EgBRvv9rwOOfhHTXH5jx1A+qQdKh75bcaL2Mu3oVfE+DaO5QHTXY
-yLokOYfj/nD74OtqFfTzLR6vRdJQQYmcoumzzoAjGrQk2FxS3pufwOanBjutE9kS
-vXTyQnIGxymovldA5qX4jkyjmA0qY0UShS+DHmLa9QsiWiUH9gm+JBEmqY06E+Ql
-mWWVXv5VkNxjYzubspTAmM/zmRaSMPCTPZQgQzd7WWdrGM7BKje0twOEecBa1C/v
-Sur+L/FKFDdQDxvcOoxRmvuWLeETMglbRV/NL/e/aOsD4zJMuXEqoUl/Ob1xQrXm
-Kbb85gsFFHnsZ19wC8XP76iRMDWtp5+LMxsZnKNBvRaY7gB45eTlhKs3iNXRb1gG
-B7vX6CUM+e9TjAGVpVHX3CT0
-=3hQD
------END PGP SIGNATURE-----
-
---===============3405266705184839527==--
+--===============1183869985329483534==--
