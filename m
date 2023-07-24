@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2949647092161250197=="
+Content-Type: multipart/mixed; boundary="===============0457221799394020176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 24 Jul 2023 17:11:29 -0000
-Message-Id: <169021868995.13033.10900328748175762304@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 17:11:33 -0000
+Message-Id: <169021869396.13115.6484272171573338576@gitolite.kernel.org>
 
---===============2949647092161250197==
+--===============0457221799394020176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: b30db4f7e45f3c17cca2ba5be6f22762837a6e34
-    new: 27745d94abe1036a3423cb8577b665c01725e321
-    log: |
-         4d4112e2845cbe4bee455f1580c98c6fd2168b22 x86/microcode/AMD: Load late on both threads too
-         92b292bed627f18b8ad9e0ad6cdbde47eeeb9a8e x86/cpu/amd: Move the errata checking functionality up
-         00363ef30797211c247605464dc3daaa988531a2 x86/cpu/amd: Add a Zenbleed fix
-         27745d94abe1036a3423cb8577b665c01725e321 Linux 5.4.250
-         
+  - ref: refs/tags/v5.4.250
+    old: 0000000000000000000000000000000000000000
+    new: 0b8226d9658ecaf73d453338f9ad1541d6d64ffc
 
---===============2949647092161250197==
+--===============0457221799394020176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690218688 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690218692 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1690218687-c6350d87c1a840e02433947afc5872bbf8986dbc
+nonce 1690218691-8fd7e933204ac78cf092d3d206079f7c419527d7
 
-b30db4f7e45f3c17cca2ba5be6f22762837a6e34 27745d94abe1036a3423cb8577b665c01725e321 refs/heads/linux-5.4.y
+0000000000000000000000000000000000000000 0b8226d9658ecaf73d453338f9ad1541d6d64ffc refs/tags/v5.4.250
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+sMAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+098QAJNpy/zCrRhk9+HRrtvj
-TsxfdBIr2oWeuRoaDIaYZwFIWkKPCjYiSIylN1uiP5MNkH511Bkr6Ic5p43aeKlR
-las7ipYOL5cFpyDn5FWwW5c6BdRZAPRlM3EzwjDAd7DwCaj0AM0R7EBsK+8pmZmu
-+NBUjeVi/EC85RAQGgZgk1NQYpk2FDOr2sz2GisgCABmYwV7xvVEXhjmKb7gtnUr
-QU3jYJ2jKOeYWNXIKGbiTu1+fNnnH016sRUnAQ8ZAHRCJDBoOasRBYCPOQv1A5BN
-WLOasOCGlhR89VhRwAJ8xn537NSq+ff3lX7qolvYOdlnEWQuJXteRhwUOZnYL08A
-fMqyMwInpLVXjsHfOUEPytDDN7FwCMqLVwp394GQyI7UuNqhMm8nrx8JpyHn3zO4
-oSoy3zw55BCVN5NfUEN9zJSHoNA+81gM6H5aDhYJKCZIeZlMcWKRWx1nvAXNrgUo
-Z8g9/YYS3RPBPYMrysJEs1wJ7+sErFG7CVw2C0EK/ED7xRduhhtdb57hEa3SqjQX
-Fp7d7/JKq1MKKpuzbvTloKbAZNFwSIJxq3DDQW9tWGwIm5GjceaaTU8u7DdoBaN6
-BwRCFs0wYT8emyoIoKmBMnxT1UChxPvDBy6rZS1i73TEy1pubtDhwejqpG3adD6m
-x4jXZUuIt2To5WYYl/dQ9vwm
-=P0Qs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+sMQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HbwP/2RgF36fo1atR122FH9l
+pKBREgFEh3WEUcly0vIakFWYdyST/RlLpCEhH1j9XLsS9TAQgRLKZIZgCCk6QSra
+ObQpKv3VeCcIo/QIOlSbPlJdxNKviFb0yPhCcTPe/9TGkfzgqEPFVKpl2XWY4o85
+5Sw2f+VXGqhiwJ7T7ew2BW6fSpGdfB//eKEna+2/qex0KBkm+XcQyFUy7zwN9FXL
+BXAESyATscg24K/HC73hJ1Tw+HSfG5Vo0xXDif5XSwBoOtFjgKXjPNKNOvDdfErQ
+B7jVRPD/Qima7cQzd2kZzN7m2uTIv1JTOeBuMO6V574oo/ffIC0eVEEYtaAW0xU8
+mxwZbtdm3l/rspxnVQ8N7GR7OuK5R5pBAFY/8iUKpoMQtDDajZyCX4ENbVcrBjjh
+Q19uswBghUt8YlvyPlxbflh/j5XbWZT7Znf479e0wjjLvxfKFDg43533ziyV3Wq3
+A2Xk44UgmBMdLa+GKDG1bD+Aqvpr8/pIFl5nm40sHrzreRwVM+acb3jtXr8Pjbas
+XJO6ewxUCqc/DwgU7/CGlBvifdrQfUfA/OHwWeHlDEdJgKoBxwbffUI2BhL/0JwU
+wUGfPo54T6xCm115RF+2hMFS8pS4lrlUFqf+sJ8/mQYTtR34Clv1eIlNdmd2b2Ww
+wtR0ZwPP9M8jdLQnYRvbNkEq
+=O32f
 -----END PGP SIGNATURE-----
 
---===============2949647092161250197==--
+--===============0457221799394020176==--
