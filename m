@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7809554091000677830=="
+Content-Type: multipart/mixed; boundary="===============4123561958031766887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 24 Jul 2023 12:13:40 -0000
-Message-Id: <169020082063.6540.3332498282102493057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 24 Jul 2023 12:13:53 -0000
+Message-Id: <169020083380.6707.3112678416604956308@gitolite.kernel.org>
 
---===============7809554091000677830==
+--===============4123561958031766887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 0536aa6cae2845d4a08b26c09a3073a9df3314be
-    new: 2b81f8e4d1e67a8014cde7be5d073c37f9099bbb
-    log: revlist-0536aa6cae28-2b81f8e4d1e6.txt
+    old: 4e9196433daa1afe644bd1d62ffab74f2d8f20a8
+    new: 061a3eb9908ac462bfc8d93d131600605f7065cb
+    log: revlist-4e9196433daa-061a3eb9908a.txt
   - ref: refs/heads/for-next
-    old: 6632bd2d12bc948965513332d6801d085bd4ff00
-    new: 45670723246ae286ebad38358bb0c932b6f4bd84
-    log: revlist-6632bd2d12bc-45670723246a.txt
+    old: be15b91155cd5a6c4ac8f46740ae62e610981b79
+    new: aa9e02cf7aa86ea1fa40f8baced05a7ee9033e20
+    log: revlist-be15b91155cd-aa9e02cf7aa8.txt
 
---===============7809554091000677830==
+--===============4123561958031766887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0536aa6cae28-2b81f8e4d1e6.txt
+Content-Disposition: attachment; filename=revlist-4e9196433daa-061a3eb9908a.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -170,6 +170,7 @@ e51df4f81b02bcdd828a04de7c1eb6a92988b61e ASoC: cs42l51: fix driver to properly a
 469e2f28c2cbee2430058c1c9bb6d1675d7195fb ASoC: SOF: ipc3-dtrace: uninitialized data in dfsentry_trace_filter_write()
 bc64734825c59e18a27ac266b07e14944c111fd8 regmap: Drop initial version of maximum transfer length fixes
 0c9d2eb5e94792fe64019008a04d4df5e57625af regmap: Account for register length in SMBus I/O limits
+98e2dd5f7a8be5cb2501a897e96910393a49f0ff regulator: da9063: fix null pointer deref with partial DT config
 b2cb84d7802b75bc4029519bce2c4e0c9319ac42 Merge tag 'asoc-fix-v6.5-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 057849ccc3d898b8a2dc21933b50ed8fbddc963b ALSA: seq: Fix memory leak at error path in snd_seq_create_port()
 b3d0e0489430735e2e7626aa37e6462cdd136e9d net: sched: cls_matchall: Undo tcf_bind_filter in case of failure after mall_set_parms
@@ -411,15 +412,13 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-649fee5a17a7f96152fee2fb9111d9a4db535f35 regulator: mt6358: Sync VCN33_* enable status after checking ID
-67cb608838e0aac8efb48828b1165156f99c1af9 regulator: mt6358: Fix incorrect VCN33 sync error message
-2b81f8e4d1e67a8014cde7be5d073c37f9099bbb Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+061a3eb9908ac462bfc8d93d131600605f7065cb Merge remote-tracking branch 'spi/for-6.4' into spi-linus
 
---===============7809554091000677830==
+--===============4123561958031766887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6632bd2d12bc-45670723246a.txt
+Content-Disposition: attachment; filename=revlist-be15b91155cd-aa9e02cf7aa8.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -561,6 +560,7 @@ e51df4f81b02bcdd828a04de7c1eb6a92988b61e ASoC: cs42l51: fix driver to properly a
 469e2f28c2cbee2430058c1c9bb6d1675d7195fb ASoC: SOF: ipc3-dtrace: uninitialized data in dfsentry_trace_filter_write()
 bc64734825c59e18a27ac266b07e14944c111fd8 regmap: Drop initial version of maximum transfer length fixes
 0c9d2eb5e94792fe64019008a04d4df5e57625af regmap: Account for register length in SMBus I/O limits
+98e2dd5f7a8be5cb2501a897e96910393a49f0ff regulator: da9063: fix null pointer deref with partial DT config
 b2cb84d7802b75bc4029519bce2c4e0c9319ac42 Merge tag 'asoc-fix-v6.5-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 057849ccc3d898b8a2dc21933b50ed8fbddc963b ALSA: seq: Fix memory leak at error path in snd_seq_create_port()
 b3d0e0489430735e2e7626aa37e6462cdd136e9d net: sched: cls_matchall: Undo tcf_bind_filter in case of failure after mall_set_parms
@@ -802,10 +802,8 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-447281e71527080244ed1fa07e84a9d4e0654616 regulator: Merge up fixes from mainline
-649fee5a17a7f96152fee2fb9111d9a4db535f35 regulator: mt6358: Sync VCN33_* enable status after checking ID
-67cb608838e0aac8efb48828b1165156f99c1af9 regulator: mt6358: Fix incorrect VCN33 sync error message
-2b81f8e4d1e67a8014cde7be5d073c37f9099bbb Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-45670723246ae286ebad38358bb0c932b6f4bd84 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
+0b201982fe1735dd41b35bc0a18d57a382b7da59 spi: Merge up fixes from mainline
+061a3eb9908ac462bfc8d93d131600605f7065cb Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+aa9e02cf7aa86ea1fa40f8baced05a7ee9033e20 Merge remote-tracking branch 'spi/for-6.6' into spi-next
 
---===============7809554091000677830==--
+--===============4123561958031766887==--
