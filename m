@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6510491929678700942=="
+Content-Type: multipart/mixed; boundary="===============4693705626218726767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Mon, 24 Jul 2023 08:19:18 -0000
-Message-Id: <169018675848.15341.5625641850169314718@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 08:19:34 -0000
+Message-Id: <169018677414.15531.151110960787136465@gitolite.kernel.org>
 
---===============6510491929678700942==
+--===============4693705626218726767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,134 +15,118 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-1.0-LTS
-    old: df4418ec2726b368c675d8a7d480ef0d7eb4deac
-    new: 2c1bd374a01009c9316530054b2567e3ffaf7543
-    log: revlist-df4418ec2726-2c1bd374a010.txt
+  - ref: refs/heads/openEuler-22.03-LTS
+    old: 7aef5961bfbc2c85bd3c4d97b42aabd775ccacda
+    new: 425ad94fac58f4151865871eaf883079d9ba95c6
+    log: revlist-7aef5961bfbc-425ad94fac58.txt
 
---===============6510491929678700942==
+--===============4693705626218726767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df4418ec2726-2c1bd374a010.txt
+Content-Disposition: attachment; filename=revlist-7aef5961bfbc-425ad94fac58.txt
 
-b0b03a7dc793d934324b23ca3c8b90a7edab9a54 net:bonding:support balance-alb interface with vlan to bridge
-a1badb57cb823e486aa7e5c6ebf1540e4c9f00f9 bonding: fix reference count leak in balance-alb mode
-4f3df479a4a14808ca1eee8f4c71c571ceb07a8c sched: Delete redundant updates to p->prefer_cpus
-2b5d1aa52d60633abc2a900a842c689c485e6790 sched: Fix memory leak for smart grid
-4ababe0bb783672f2926534edfbaaa435f4db9dd media: dm1105: Fix use after free bug in dm1105_remove due to race condition
-905927d949383a31045c60fc0c61fbe6d88586d4 mm: oom: move memcg_print_bad_task() out of mem_cgroup_scan_tasks()
-7660f27a125798030660eb0c2b769b9d76d81b79 config: enable CONFIG_QOS_SCHED_SMART_GRID by default
-51b2eb79717ca346d22c3f7849db2d2635842689 media: saa7134: fix use after free bug in saa7134_finidev due to race condition
-3a15036067324feebba63861d8d1bcb697541a07 HID: intel_ish-hid: Add check for ishtp_dma_tx_map
-2506d4f0939ff53b8e246586a52c84030b62f46c usb: gadget: udc: renesas_usb3: Fix use after free bug in renesas_usb3_remove due to race condition
-803f7f8d382162878cfaefc338d709db00a959ad drm/msm/dpu: Add check for pstates
-6df69b59f389babbc87aedc1c8c8ff75deb1c8f0 scsi: hisi_sas: Fix normally completed I/O analysed as failed
-4d772181d690410e570e5c119b97adf4bb9948de scsi: hisi_sas: Fix Null point exception after call debugfs_remove_recursive()
-70dc4628964d3b9c6acd04141bfdc72363a88063 sched: Fix null pointer derefrence for sd->span
-92e41d84cc01c2253aa3baadd54c6a8c6e4f729b ipvlan:Fix out-of-bounds caused by unclear skb->cb
-6b84e9d9ab6f6abaae16ca5967300e7f0f15e96a ext4: Stop trying writing pages if no free blocks generated
-9d0422bf311dfb36617e4d8f7367a3e7dc9179ec nbd: fold nbd config initialization into nbd_alloc_config()
-e752a39801ee918d6b2e9944b40c0b183d2aba08 nbd: factor out a helper to get nbd_config without holding 'config_lock'
-d55e3cf07933da5599f8c837bc1f37772bdeb28a nbd: fix null-ptr-dereference while accessing 'nbd->config'
-3d00750ac022ab5d4ed4212ce877def77e8b71b6 jbd2: remove journal_clean_one_cp_list()
-87abd734e020d47bcef0aff016457013c7406342 jbd2: Fix wrongly judgement for buffer head removing while doing checkpoint
-aa5d953c129af9ba31eed4cd8ba97ce832e7e415 jbd2: fix a race when checking checkpoint buffer busy
-9018569112a0f0d3fca5f347030bb744809d47f9 jbd2: remove __journal_try_to_free_buffer()
-cdbe929ae3a629eebac89d97f651bd4a2c712468 jbd2: fix checkpoint cleanup performance regression
-e9ee78958be5ea8df43b39c19373f01bf7e024e6 !1323  jbd2: fix several checkpoint
-92ea9f89d2fa1a7d9a99d37e97ff446abf2b1824 !1317  ext4: Stop trying writing pages if no free blocks generated
-119d5f3d21ad2ba56aa4235ea745f82017ee9191 net: tap: check vlan with eth_type_vlan() method
-b2202eddd7287e175eb35288b3324f0ba3b88f4d net: add vlan_get_protocol_and_depth() helper
-18b2bde9fa1c3b30525f268208b36ab9953beabd ipmi_si: fix a memleak in try_smi_init()
-4445b4dc577b64b1574e7d04c0d9fddec54d7d77 quota: fixup *_write_file_info() to return proper error code
-505ffd276c223fd0d633769340c9b440c1bf7618 ext4: forbid commit inconsistent quota data when errors=remount-ro
-8400bff7bdd2fd431124d6aa2b367ad34f9cb9dc ext4: turning quotas off if mount failed after enable quotas
-70447fb8203734b3d27d813631d4712c1b893150 x86/kprobes: Fix the error judgment for debug exceptions
-4dbe47bc9e5321075bb8f5004dfed60599ff89ef random: fix data race on crng_node_pool
-7d2380ec4fb379eca0b7096a587223525a3e6d1f crypto: cryptd - Protect per-CPU resource by disabling BH.
-c1ea82c0ddde70d5998c2f547520afbee10bea2a block: Limit number of items taken from the I/O scheduler in one go
-8c91fb1a068158692ff8ba7684eb19b13f06d9c8 blk-wbt: make enable_state more accurate
-98f62c2f71ebd415789c83b17ce20d96e21c9547 block: return -EBUSY when there are open partitions in blkdev_reread_part
-75715c6adc1fa05d23bac804fc0a81c36854bd03 block: don't set GD_NEED_PART_SCAN if scan partition failed
-2d627bc92a8f8637bb2b9369194c3ad777618e6b Revert "loop: Check for overflow while configuring loop"
-1472bb0a05bd28cae465d19e9ab40c13c8f2a716 loop: Check for overflow while configuring loop
-91a08b4503ba71c1835e3f3290ac5019a69b3de5 loop: loop_set_status_from_info() check before assignment
-86e639996a9c397eee301648b418dca4a25556e1 PCI: pciehp: Fix AB-BA deadlock between reset_lock and device_lock
-463aed61d867394c8ca96b6acc22ef0c5f0c73ed scsi: core: Improve scsi_vpd_inquiry() checks
-d3d9df7cf842b983d52dd048d9abd1d6948e36fa ext4: improve error recovery code paths in __ext4_remount()
-80c81c174f819c0ea418416a85406b4c12079e30 lib: cpu_rmap: Avoid use after free on rmap->obj array entries
-bb341c4345ecaf8edd3e9185681401fed3dbe8c8 lib: cpu_rmap: Fix potential use-after-free in irq_cpu_rmap_release()
-47ff3eba0f0c80612bc22e07b5e74bc8b673e518 ACPI: EC: Fix oops when removing custom query handlers
-68b2ece64dfc45f2f16f1a3eb98480d68517bab5 ACPICA: ACPICA: check null return of ACPI_ALLOCATE_ZEROED in acpi_db_display_objects
-707c0d48493ae8cbc3e2bdd4b1ee9549e39172b1 serial: 8250: Reinit port->pm on port specific driver unbind
-f61443e03c430e939d8871c4fc094d0068742c95 sched: Fix KCSAN noinstr violation
-ef3d4916627a5329f62906f779644bc0013820f4 x86/mm: Avoid incomplete Global INVLPG flushes
-c8079d2b532a121fc41cb4b5d26ec67a0d0f43e3 arm64/mm: mark private VM_FAULT_X defines as vm_fault_t
-dfdd56d1d2c3870231b1c952453e3a81129acb90 kernel/extable.c: use address-of operator on section symbols
-56993c73e56151410599b6fee3f6cd24279c9d61 quota: avoid increasing DQST_LOOKUPS when iterating over dirty/inuse list
-46bbc9c50dc8de70374a5a1c170df6e3542aedb8 quota: add dqi_dirty_list description to comment of Dquot List Management
-d78ea078409030de15d1acab59242ac9b97f329e quota: factor out dquot_write_dquot()
-4222ec982667694750cd2b18b95984b275ef7a88 quota: rename dquot_active() to inode_quota_active()
-810fb5382e332d5d5a9957190e1a3a44c376612e quota: add new helper dquot_active()
-1715dfd068f1682b0b216943e2752849ad43d809 quota: fix dqput() to follow the guarantees dquot_srcu should provide
-17a06cc9678a49fb9f95bc9740a4ddd0749aa94e quota: simplify drop_dquot_ref()
-35734b0e0b63661d63415cf99ab389bf236cf5e7 netlink: annotate accesses to nlk->cb_running
-201455bc053f4f903e4ef7446f6a77f05b7ba89b net: annotate sk->sk_err write from do_recvmmsg()
-bca754add6f29d6176995003b2bdec45619f9c2d tcp: factor out __tcp_close() helper
-dd603aa41368c57ac861a8b9a5e2df0d62bbe0eb net: datagram: fix data-races in datagram_poll()
-f654260794d6ba21aaa783b03f5d9d38288d5d01 af_unix: Fix a data race of sk->sk_receive_queue->qlen.
-fefc202e6f228df229264758539726a8f95f0620 af_unix: Fix data races around sk->sk_shutdown.
-5f84c0e68de8243b47e20cc1e2efa955ce2df809 net: Catch invalid index in XPS mapping
-95a00f74242e142573fcf7c1a357b6215d633d6f af_key: Reject optional tunnel/BEET mode templates in outbound policies
-7cfbe1e51f95ba065a6408b36a4b2052d121e895 vlan: fix a potential uninit-value in vlan_dev_hard_start_xmit()
-fbab6aa0b284ddf5254dde26d7905001c47ebca5 udplite: Fix NULL pointer dereference in __sk_mem_raise_allocated().
-a55e987646d3401ca49ce781578ce4edadaa2c16 net: fix skb leak in __skb_tstamp_tx()
-931f2d65653ea15fabf07763d3f9a6d01cf43a4b ipv6: Fix out-of-bounds access in ipv6_find_tlv()
-f78e63f9a46114b1c4a169e93be097d4d5baba51 ipv{4,6}/raw: fix output xfrm lookup wrt protocol
-dff732f3a508c7e2100e17a1187f7d6f3fab54fd af_packet: Fix data-races of pkt_sk(sk)->num.
-d5273ba2161501c4acbb1b3223f242c18713b060 af_packet: do not use READ_ONCE() in packet_bind()
-bd03da80cf2dd7f2b561c0ff013da219e7ccd0be tcp: Return user_mss for TCP_MAXSEG in CLOSE/LISTEN state if user_mss set
-2886ed979de6f2d8ee8b81441f8518f7f4f021d5 udp6: Fix race condition in udp6_sendmsg & connect
-09b57136a01f4d2b84411f690fd4c2e479ff008b xfrm: Check if_id in inbound policy/secpath match
-67df54a485b3fca922654ae5c432d017c8999994 rfs: annotate lockless accesses to sk->sk_rxhash
-f26f5f07f639bba2e12d72fb1cac16f5d1d18efc rfs: annotate lockless accesses to RFS sock flow table
-820e2f23b50456f453f6084ff639dfea55e6efa2 net: sched: fix possible refcount leak in tc_chain_tmplt_add()
-8eb13b7c6c214741d6ecf2e03b9b8cf71df1f9ea ping6: Fix send to link-local addresses with VRF.
-5a7019478a90eb79502b546fc5936c630a0e01b2 tcp: deny tcp_disconnect() when threads are waiting
-679d13c03f85c035efbba371160642b56d963fba net: tcp: fix kabi breakage in struct sock
-8f44df8094e0d4dcd28122eab732820e5c639ccd net/netlink: fix NETLINK_LIST_MEMBERSHIPS length report
-1e06b3d0edfbc73aaaf38abbdfac052a7c745aa7 Remove DECnet support from kernel
-80ea3691400ac6880885f2cc66aaab2b021743cc file: Rename __close_fd_get_file close_fd_get_file
-0a50e5be0696816fdc34c847d3e75cabec2d0997 fs: provide locked helper variant of close_fd_get_file()
-b2b243d6115480833f9d888b06d70e372ae6fdb2 io_uring: get rid of intermediate IORING_OP_CLOSE stage
-cb31b5b2a0586833ecb141b785ebc3f9ba231c7f !1361 fix CVE-2023-1295
-248e70331e76f841415ce8e4cf284054c138d617 etmem: fix the div 0 problem in swapcache reclaim process
-a49943e0993ac35ff393cdc91985527febb210f6 jbd2: Check 'jh->b_transaction' before remove it from checkpoint
-75b135ea06ef0cc0a19ad8bc588597d2052b3058 !177 net:bonding:support balance-alb interface with vlan to bridge
-d57eaffdc47aa299070a0cf99022fc0ea210df5a !1374  etmem: fix the div 0 problem in swapcache reclaim process
-0e8f2fe7a174fa08ba35f6b4c03e3f8bda2a3655 !1377 [sync] PR-1376:  jbd2: Check 'jh->b_transaction' before remove it from checkpoint
-fc89ac5b21a3220835ef8f88e36c4ec67097b257 block: Try to handle busy underlying device on discard
-37a90df3c47889a9f057a11cdad287417594c2a4 bpf: cpumap: Fix memory leak in cpu_map_update_elem
-b587ba7ce3b2017ccfcb7ae1a83c808feb670721 !1404  bpf: cpumap: Fix memory leak in cpu_map_update_elem
-62405f696b91bdd846f2acddf9cc56b81e006d7d Revert "ext4: Stop trying writing pages if no free blocks generated"
-963b3ef78b774ae6ed45412c0b115aea5d3a1f9e ext4: Add debug message to notify user space is out of free
-cd34d6db7b2de811487d4b47d632cdd17a357bee !1416  Fix generic/299 fail
-8121bcb0ba2fc1883f806ad3f7b323d95f0f1d55 !1400 [openEuler-1.0-LTS] block: Try to handle busy underlying device on discard
-34d94918903e8f4ad8b6c1d3fd138f77010cdfa2 netfilter: nf_tables: incorrect error path handling with NFT_MSG_NEWRULE
-b9c7440e995da0f716c031068d04d220bf17f8b2 netfilter: nf_tables: add NFT_TRANS_PREPARE_ERROR to deal with bound set/chain
-2414a3ff3b603591a85a5dec30fab096393aa102 netfilter: nf_tables: unbind non-anonymous set if rule construction fails
-5a1a48edad37902840b618d1d30d1bc895144306 !1435 fix CVE-2023-3117
-e4403a7ded017d9b410f9dac875e1f376dfcf1dc ring-buffer: Fix deadloop issue on reading trace_pipe
-1d8017416ae9bcc169082bef07d9fb95113d585b ftrace: Fix possible warning on checking all pages used in ftrace_process_locs()
-2aafe85a75130612a7715d3e34096741ca505bdf netfilter: nf_tables: prevent OOB access in nft_byteorder_eval
-fd2ee0ae008ff3cd4d953227003627c5ed1377d1 ipv6/addrconf: fix a potential refcount underflow for idev
-e0b206d118d91fee060f71fa0fb1cb21d9a0821f pmu: remove uncore code for Zhaoxin Platform
-3afccbd188722f4425fb7bf8b93d92a41719cc18 !1472  ipv6/addrconf: fix a potential refcount underflow for idev
-d7ba83954776fe697a51b21f771f78e1a44a5ba0 !1469  netfilter: nf_tables: prevent OOB access in nft_byteorder_eval
-592dd126c85886ef469b2b9f2ba266eea0bf224d !1444 ring-buffer: Fix deadloop issue on reading trace_pipe
-dd8858aa50c6c821898da95d2707a2f3366aad8d media: dvb-core: Fix use-after-free due on race condition at dvb_net
-c681aa42538a13332b7eefb504418b2e9bbb78e9 !1498  media: dvb-core: Fix use-after-free due on race condition at dvb_net
-2c1bd374a01009c9316530054b2567e3ffaf7543 !1474 [openEuler-1.0-LTS] pmu: remove uncore code for Zhaoxin Platform
+f05e3679683fe8dc821946c401f466dd6b831214 drm/qxl: Fix missing free_irq
+6bff8e507a559779e94a4c2c423cf64ce25a07c1 net/sched: flower: fix possible OOB write in fl_set_geneve_opt()
+51a58dd0d66f425cdda97895cf4f024aea438f8c Revert "LoongArch: Add swiotlb backups buffer"
+81e76248eaf5ccefef612689bfa2f8cfe3f496ba Revert "LoongArch: Add ARCH_HAS_SETUP_DMA_OPS and DMA_OPS"
+45b072b3ea11ad63bb036460e844d0b4b241e186 nbd: validate the block size in nbd_set_size
+7bc57978e976dea002b2992ea7ba2fdb1ff6accb nbd: fix incomplete validation of ioctl arg
+60d7f3dcb6fcdabba77a4df720469af10c53f435 media: rkvdec: fix use after free bug in rkvdec_remove
+b979cf5db73995246020e7bdf6279d3b54da4393 !1224 [sync] PR-1221:  media: rkvdec: fix use after free bug in rkvdec_remove
+83417a9f6536a742b44c6206f974e1ff7ca4ce32 mm/memory_hotplug: extend offline_and_remove_memory() to handle more than one memory block
+a3e2d8aad5f420c6c070f0b8652677d341c7a441 !1232 [sync] PR-1220:  mm/memory_hotplug: extend offline_and_remove_memory() to handle more than one memory block
+62acc03389b26029c4409d8f69de821ab86f75c4 !1209 [sync] PR-1185:  nbd: validate the block size in nbd_set_size
+3fdaa75df85e3874001b9c71fccd6da28529c5f3 efi: Fix UAF for arm64 when enable efi_fake_mem
+483b2b14858719e5735f3f2cf4587ef714049bbc config: Disable EFI_FAKE_MEMMAP support for arm64 by default
+399b246a72f6ae5d9f36d1dd81be60a5d418391c relayfs: fix out-of-bounds access in relay_file_read
+7e747d5cb29e5b90fb6f1d66105083204859f5dc !1238 [sync] PR-1181:  relayfs: fix out-of-bounds access in relay_file_read
+025839c12a8e2f9bac170eeda5f3bff048b5eee3 hugetlb: fix wrong use of nr_online_nodes
+a07067dd44fc7c2b97582e1da2e1b2d00c79a481 hugetlb: fix hugepages_setup when deal with pernode
+18f86a34b25c5f4e955e3a6ffbb16745bdccaa21 !1250  hugetlb: Fix some incorrect behavior
+ed27fa7ec2a42ef36346a9137da538dd9dc4198b HID: intel_ish-hid: Add check for ishtp_dma_tx_map
+077bfdfb6de9b2ac61913741e355a154215231d2 usb: gadget: udc: renesas_usb3: Fix use after free bug in renesas_usb3_remove due to race condition
+0eaac1d1e8f843286636e40d8583d4e34499f82a !1128 [sync] PR-1077:  drm/qxl: Fix missing free_irq
+f847fc237a7fe8a5e2750ebef97ef764bd07b4c6 !1255 [sync] PR-1247:  HID: intel_ish-hid: Add check for ishtp_dma_tx_map
+6977748c4f171dab9559401eebb5e25eb3b3b6b6 arm64: Add AMPERE1 to the Spectre-BHB affected list
+67b001269bcb4248aff240f22c6cd27c47a4a666 !1202 [sync] PR-1148: LoongArch: cleanup swiotlb bakcup buffer related code
+2776acc3bd58a31a1e4c1af3ad7815878423dc5d media: saa7134: fix use after free bug in saa7134_finidev due to race condition
+2c12a9281a4ff8a7d0d1dacad2133cd99bc8bdb4 drm/msm/dpu: Add check for pstates
+dcfd0d01f46cfdaa482e180d419f6cc2978abe55 media: dvb-core: Fix kernel WARNING for blocking operation in wait_event*()
+4f6ed27a66d8cab744fe6f5de4f9d53026200e2c !1187 [sync] PR-1177:  net/sched: flower: fix possible OOB write in fl_set_geneve_opt()
+01b4e76836f172eb1b8b891ae5a327848be4db73 media: dm1105: Fix use after free bug in dm1105_remove due to race condition
+491c6fdc17d82e414a2c3558f0d04b70c6d5544b !1264 [sync] PR-1261:  usb: gadget: udc: renesas_usb3: Fix use after free bug in renesas_usb3_remove due to race condition
+3da03a090321e837a0f7dae0060c14928fb81dc9 !1269  arm64: Add AMPERE1 to the Spectre-BHB affected list
+171694d84c024140e3c3e296c45ef6cb5d8108e2 cgroup: always put cset in cgroup_css_set_put_fork
+0d8a14807f73a50d25d88e56bace33fb5fec7793 !1299 [sync] PR-1270:  media: dvb-core: Fix kernel WARNING for blocking operation in wait_event*()
+24392e4545d67732bb80551cb0028479e79d607f !1303 [sync] PR-1283:  media: dm1105: Fix use after free bug in dm1105_remove due to race condition
+4b20dfe71bbe17121482aa9801ba07641ac33301 !1274 [sync] PR-1253:  media: saa7134: fix use after free bug in saa7134_finidev due to race condition
+4aff823931ea17f51a17f2151ce93f3aa70d3742 ipv6: sr: fix out-of-bounds read when setting HMAC data.
+bd71d79ed66597d0b2ae6f8cd233d8a88ac2276d !1237 [sync] PR-1194:  fix memleak with efi_fake_mem
+44a28dc2562699c8f4bc59766b90ab22a7e9ea29 !1311 Fix CVE-2023-2860
+70758b82c09b018529f1f85174852f2de2252d46 jbd2: remove journal_clean_one_cp_list()
+f223f34566c9bc761e8debb47519318f089c4f4e jbd2: Fix wrongly judgement for buffer head removing while doing checkpoint
+2134436e1ffcde78caca89eec0fc328ac615ce5f jbd2: fix a race when checking checkpoint buffer busy
+7b5c67e4573fd53cb6877c12f3469cd9f575f535 jbd2: remove __journal_try_to_free_buffer()
+3a1a769a78a812f9b7e3b2cf11904637a90d1a7e jbd2: fix checkpoint cleanup performance regression
+b02515a3db5565e3558e5cb31574c31fd6366148 ext4: Stop trying writing pages if no free blocks generated
+5f7ae95a2ce2bb7ced1db11f700ff15d3fadac9c ext4: turning quotas off if mount failed after enable quotas
+c40c5af77a8658c3106724751872f9fa92edac98 xfs: fix mounting failed caused by sequencing problem in the log records
+3d58eaaae572693c2d8c2d72e1267a9d9d17efcc xfs: factor out xfs_defer_pending_abort
+a5606b61862204ac530b8a3b663ce6ecf1f094bd xfs: don't leak intent item when recovery intents fail
+cabf510037028061a4f901e2aecc7155720fea7e xfs: fix warning in xfs_vm_writepages()
+f953968764b14b3b786e12e3318d0a4e49a1806b xfs: factor out xfs_destroy_perag()
+fcf3e0a466ea5156d97b6251e2cf2e9dc76ac9e4 xfs: don't leak perag when growfs fails
+d89e28a0607a5d79f9db3d41800ecedde84d4697 xfs: set XFS_FEAT_NLINK correctly
+f01539babee4cff4879bc638eb543e6f5eb1eaa7 xfs: fix uninitialized variable access
+7478fbbbadb4b65a0f812f7747b3c09e36d3a379 blk-wbt: make enable_state more accurate
+6451e2032f23fff8096342a01570381489ce83e1 blk-wbt: don't show valid wbt_lat_usec in sysfs while wbt is disabled
+d4a7a821b6b1a7029e4699e90abb294e0d0960f3 !1342 [sync] PR-1272:  xfs: fix some problems recently
+632b0576edc5f2ed23f4648365c8c7769ad5ee3b io_uring: hold uring mutex around poll removal
+3a7593f222b4cb79aaa0454a41e3dd80d90ffa3d ipvlan:Fix out-of-bounds caused by unclear skb->cb
+83e8a61373b5b9ecab3e09067d2bf806fa67ef08 ksmbd: fix memleak in session setup
+ab8f8c3f1431334320bc18d18199698ea6627e9b ksmbd: fix NULL pointer dereference in smb2_get_info_filesystem()
+5d0d7a6a56e2ea1a1ead2a743ddd8d05ad6d0fe3 !1369 [sync] PR-1287:  ipvlan:Fix out-of-bounds caused by unclear skb->cb
+1bbf030ed99e4f34f22187af72ec2336d4aad260 !1366 [sync] PR-1324:  io_uring: hold uring mutex around poll removal
+3cb64cbb7771bd5ef09e54b6ffe3fe6b7b8b5a8e !1339 [sync] PR-1286:  ext4: turning quotas off if mount failed after enable quotas
+14ae89825f4ae056b8a892a91091542fb381312e !1331 [sync] PR-1314:  ext4: Stop trying writing pages if no free blocks generated
+16272664d48f5d7567d1883caadd88bcd5cc59d1 !1328 [sync] PR-1325:  jbd2: fix several checkpoint
+df6787c27b8ff509c7df73148551606e973e58a2 quota: factor out dquot_write_dquot()
+b57f1f92b5115b3a556a968aaf6c49b3a0da513c quota: rename dquot_active() to inode_quota_active()
+22abd37ef30bc01158ff7458ae8578a3d833c764 quota: add new helper dquot_active()
+fb08d1e90fcc840a84d6789abcc2973a659a8006 quota: fix dqput() to follow the guarantees dquot_srcu should provide
+654ee4fcaefe98344a3d79a609a2ff00477c0361 quota: simplify drop_dquot_ref()
+4c7e174ec68f11a1ee0fb80040c441352edc54d1 jbd2: Check 'jh->b_transaction' before remove it from checkpoint
+9d56cb3266c538c507df871948a3ef1483f564c8 !1307 [sync] PR-1280: cgroup: always put cset in cgroup_css_set_put_fork
+ea8877a9a9f268fa78a6856d8b4031c3844bb60f !1391 [sync] PR-1376:  jbd2: Check 'jh->b_transaction' before remove it from checkpoint
+7fb44d00392b8590d1b8cc52d12d50b5b01523d9 !1388 [sync] PR-1312:  quota: fix race condition between dqput() and dquot_mark_dquot_dirty()
+aa890c5f29a0ed4ccad047f89f86956983422c82 Revert "cgroup: Stop task iteration when rebinding subsystem"
+39e55deff957bd691e4d093a5493c2a893155c7e cgroup: Do not corrupt task iteration when rebinding subsystem
+de04fb1186642d1b243bcfb946854d4facabbae2 !1411 [sync] PR-1408:  Replace the hulk patch with the lts patch
+5616fd864b5d8a4b17805cedc5f00df7d605e9bf Revert "ext4: Stop trying writing pages if no free blocks generated"
+3bbf8b61589342c84f65735b276af8fe7e979e27 ext4: Add debug message to notify user space is out of free
+7b8f440b87cdbbbcbe64f8f5b06b314415d813d6 nbd: fold nbd config initialization into nbd_alloc_config()
+77d63b9a5a13886ec263bcbdef87553be51614ad nbd: factor out a helper to get nbd_config without holding 'config_lock'
+749eccf13cf854165670b32996dbb35022467ce7 nbd: fix null-ptr-dereference while accessing 'nbd->config'
+7aa75253cbce48d3cedc4e5d15f23fa86aaee2e7 !1348 [sync] PR-1295:  blk-wbt: don't show valid wbt_lat_usec in
+8f65c8141d0d739e0097132558cb10f0fecba153 !1419 [sync] PR-1415:  Fix generic/299 fail
+d62d9bee59a42f2166059545612b1ca1d848c056 netfilter: nf_tables: do not ignore genmask when looking up chain by id
+8122fc6b2c08ab2f14c95b20b582e7ff0afa6803 Remove DECnet support from kernel
+b80e012d55dffb57f1759c1859884d4f6b0022a9 loop: loop_set_status_from_info() check before assignment
+3b4615d782742500867045cfe985462eee7d4a18 netfilter: nf_tables: incorrect error path handling with NFT_MSG_NEWRULE
+55092e51819274ab17bd9ea1a354cb0546938f74 netfilter: nf_tables: fix chain binding transaction logic
+79830835b91d386e926732ffe780d4336e6df6fd netfilter: nf_tables: add NFT_TRANS_PREPARE_ERROR to deal with bound set/chain
+827dae9a3d670ec7b9c3791ce22be206c60d7f3c netfilter: nf_tables: unbind non-anonymous set if rule construction fails
+03d56375c81934aca80ebd0f579781b8f8e252e1 !1429  nbd: fix null-ptr-dereference while accessing 'nbd->config'
+9a6a0170e93e1f3bb5855434b87f754e15073c23 !1462 [sync] PR-1436: Fix CVE-2023-3117
+c13dbef2425697c381b8fab1eee71e6289838d0c !1459 [sync] PR-1425:  loop: loop_set_status_from_info() check before assignment
+d8ccaf9f297e59f3bab1555d423ad1d0e9a1d531 !1438 [sync] PR-1426:  netfilter: nf_tables: do not ignore genmask when looking up chain by id
+92f365bff225907c08a250cfd8dae8fc5956bd6d !1455 [sync] PR-1358:  Remove DECnet support from kernel
+b04de11c05e41a1e6ed06bfcc14f75e4ca820176 !1289 [sync] PR-1262:  drm/msm/dpu: Add check for pstates
+1111eda612193f1527c868a7695c379ddbbb34d7 !1371 [sync] PR-1254:  Two CVE fixes of ksmbd
+185aae74af3b8c12c788c13f53c4151e972943b8 media: dvb-core: Fix use-after-free due on race condition at dvb_net
+bd37035ed1833aad0e718151e86fec15f2f3f5a1 netfilter: nf_tables: prevent OOB access in nft_byteorder_eval
+465b75b5a80159ee0601fe8dded69b0057a3ecf3 !1494 [sync] PR-1445:  netfilter: nf_tables: prevent OOB access in nft_byteorder_eval
+425ad94fac58f4151865871eaf883079d9ba95c6 !1485 [sync] PR-1452:  media: dvb-core: Fix use-after-free due on race condition at dvb_net
 
---===============6510491929678700942==--
+--===============4693705626218726767==--
