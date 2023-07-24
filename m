@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1739239591462067811=="
+Content-Type: multipart/mixed; boundary="===============4197125386748657013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Jul 2023 16:57:17 -0000
-Message-Id: <169021783710.29741.40037171361759410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 24 Jul 2023 16:57:27 -0000
+Message-Id: <169021784798.29880.10423091871631957152@gitolite.kernel.org>
 
---===============1739239591462067811==
+--===============4197125386748657013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.4.6
-    old: 0000000000000000000000000000000000000000
-    new: 1cbe28c132ca1cd2b3fc8a63fb53d9f0a8e9d31d
+  - ref: refs/heads/linux-6.4.y
+    old: bcecfeef53d4a78b282d67713ff8d6b35da723f0
+    new: 79562f63d621517795c125092620cf4e5778ad44
+    log: |
+         fee9e863965831972da046e657f412a575de1c3d x86/cpu/amd: Move the errata checking functionality up
+         9b8bb5c4e25678af895dc9dd4a1e82b2f948cacc x86/cpu/amd: Add a Zenbleed fix
+         79562f63d621517795c125092620cf4e5778ad44 Linux 6.4.6
+         
 
---===============1739239591462067811==
+--===============4197125386748657013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690217836 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1690217835-38f1c83cb6f6660b9a1daf85841c5285de7ad00f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690217847 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1690217845-036a3f76f83e3b651c5c2e5c1bcf171f625e61a1
 
-0000000000000000000000000000000000000000 1cbe28c132ca1cd2b3fc8a63fb53d9f0a8e9d31d refs/tags/v6.4.6
+bcecfeef53d4a78b282d67713ff8d6b35da723f0 79562f63d621517795c125092620cf4e5778ad44 refs/heads/linux-6.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+rWwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2DwP/jIKY97pP2P0sQtbHoed
-r4x+EaWJxkc4wXlqQlhc7MEU/OQDPt8TOJ6s2jzJv6EQpTFLaGoyxpBu9fcd0Ouf
-uNv1u8x2EhVZIyasvPAtDYcHgxicCS9dKOb8B84unhVFxe5FJesi3aXEgBiPHaXM
-/rEQfQAPqSMfVgK4NNEJz+ttTrMIRn1+Zj378n8L5Ks/BHYwK+blfZDfs4HqOzmq
-3r4a36JuAVbQ2N6kfZtPLekDzUeEAWmrl2GjqJSlbogx44oOzdodlBMbHYH6l+MD
-75S8Q+dShomRfzK6srFRhuMrR1DAwELZtwzpauNqeqidW4Q8I9JnAOclNFIrdXDl
-ufKPIVJjEmj3kjMou6rU7zMU5i51ziW+podXZBDeg3qq3lkQmzgw9FQzEsjKCE+V
-YiHb2CE4/NslQ2ToksDA3tUCIsTTUO373Pk3LxmFKkglWS9RAV4BVLuNs8h1PUPT
-rv7G1YWMjux2sKJVwwKdOJoyy+vkqd6KtIw3OgS7+4zehXQUc/mOICMAGwdhEzSU
-a+Nx2latbSNs7Mefx/nIbtGIAtTD/lOx2/iv7YLtb7n4A7PFZiw3S7YUviiMIHsn
-7GejhIg1URThkC9D1GpYRQmBONprnfA5MF/jgHXIgLTgkosC0sxNC+OyyecAW8sj
-FS4BGTdYKcEkqB9P1/tnis7F
-=hrZo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+rXcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3I8P/0ekstiKhAmDtq6+qg93
+RujIK0NgYQrYx5MVeFEMxL5yN7l6SycqJCCeK18X1fgoiKM9Bhqx7ODV9wNWf1y3
+uhRJxvPrEw/1tD5YRzqzJ1jPe31XCUjrEzbMXIBYa/vo9FWW2HgFGsSmazTQjeME
+qGK8kTLCo6AciX6Ws9sedX05+k7nm7iW28IVdnQntUV0UtjKg8YDMo2EsG0FAd1d
+fQJNdJfuUpk/mdwPWdcnYpvBQm63mbDUntE5JdqC7kPzObMc68k6SHWXR+zKf6eP
+EYKBBDbQoDyk93cLbzRpuOFCPFrj02cmV0p4tmowXaGL5G9JoFbnOBYBE1YqO/Ld
+wXadOs63hY7RU4yeOPyOmBAx5wijBuABrJjmo+SINcDNlFxiesT5BIbaJ9np8k3r
+htFfH53JTY90jwQ7ZCef6MdtXF6LDPTWqxhEDtpmxf0vVyij4tr/VGSDtfx2WLQ8
+sFLSM4Jy8wCU90p/WXzzh0p17kROA3mi8lsZ42S3K85DH5Nh0fGHHukFOqgYZfNY
+alBCGFYFoTsgnHcUiEy8wNZx8bB0dkpJPoexhnsvUHQn6NMs0dscfoJyfWhhc9ld
+7TRUPL9P/RBV/rBANql+/fVdL1vsM/2D2j9kP81YnxEQ8j7lsZeEUPK1v7aqlme0
+itJvysaimqEWoodBjhBsNJ32
+=wKyT
 -----END PGP SIGNATURE-----
 
---===============1739239591462067811==--
+--===============4197125386748657013==--
