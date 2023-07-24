@@ -1,69 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8372951476019502357=="
+Content-Type: multipart/mixed; boundary="===============6261293757681705850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 24 Jul 2023 16:58:15 -0000
-Message-Id: <169021789594.30432.12142618835073687726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
+Date: Mon, 24 Jul 2023 16:59:01 -0000
+Message-Id: <169021794199.30819.4461584025246876759@gitolite.kernel.org>
 
---===============8372951476019502357==
+--===============6261293757681705850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sre/linux-misc
+user: sre
 changes:
-  - ref: refs/heads/linux-rolling-lts
-    old: a6a5b942270762b435a4136979b21474983f9488
-    new: b817407b11aa4440a62875204cb0c99e6a269884
-    log: |
-         5fc203d8d3ed416bee054e9f2e6513df51d74577 x86/cpu/amd: Move the errata checking functionality up
-         ed9b87010aa84c157096f98c322491e9af8e8f07 x86/cpu/amd: Add a Zenbleed fix
-         5302e81aa2091d7dd59803f0727d1ba35ed2f929 Linux 6.1.41
-         b817407b11aa4440a62875204cb0c99e6a269884 Merge v6.1.41
-         
-  - ref: refs/heads/linux-rolling-stable
-    old: 619931ff83a275ad04b912a6089078a0f03eceb0
-    new: afa61f4ec24b55c6d70ee48aeb6c2a14efdf2bf4
-    log: |
-         fee9e863965831972da046e657f412a575de1c3d x86/cpu/amd: Move the errata checking functionality up
-         9b8bb5c4e25678af895dc9dd4a1e82b2f948cacc x86/cpu/amd: Add a Zenbleed fix
-         79562f63d621517795c125092620cf4e5778ad44 Linux 6.4.6
-         afa61f4ec24b55c6d70ee48aeb6c2a14efdf2bf4 Merge v6.4.6
-         
+  - ref: refs/heads/rk3588
+    old: ff43ba6cb982e40654915d026a5fc2f0c93befa2
+    new: b15acf156e13635b426c1bc52bc0d68712ddda49
+    log: revlist-ff43ba6cb982-b15acf156e13.txt
 
---===============8372951476019502357==
+--===============6261293757681705850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ff43ba6cb982-b15acf156e13.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690217894 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1690217893-772f26fd112a23b31c5bae6b1bf8b7ba8ffbf00f
+add2a1a4aa14f5d9838e6fa3dd9f8672de21098a arm64: dts: rockchip: rock-5b: add PCIe for M.2 M-key
+2406a50cebe2b870c0e0963ea7ecf1ec1fb33af9 arm64: dts: rockchip: rock-5b: add PCIe for M.2 E-Key
+29867ac692cfcbbcc5707bb5c06ad5f05323c077 arm64: defconfig: enable RK3588 PCIe support
+90795c46768fa2529af1ee7eb3c8384bc0aa2739 dt-bindings: usb: add rk3588 compatible to rockchip,dwc3
+2aa7651cae82cf49aa7c96491fb96fde23d978ac usb: dwc3: add optional PHY interface clocks
+c544c36ff97d1840060383c80c5b02b929b571da arm64: dts: rockchip: rk3588s: Add USB3 host controller
+7d2c0a9e6b6d033afdef618077ff5eb49fe0f2c5 arm64: dts: rockchip: rk3588-rock5b: add USB3 host
+ae32f019c19952fd701b235700418d08c09107fb arm64: dts: rockchip: rk3588s-rock5a: add USB3 host
+84f4702367e84a450b99c1541dedf0bfeb84f832 dt-bindings: phy: add rockchip usbdp combo phy document
+631288ebc98e0d8694fd93a8bcffdfb08658af96 dt-bindings: soc: rockchip: add rk3588 USB3 syscon
+1d5c02e28777f85eda1ba7b16a4e0ac5da8146c8 phy: rockchip: add usbdp combo phy driver
+4a32509ff3ec0408eb23e857afc7ce187d13ad89 arm64: dts: rockchip: rk3588s: Add USBDP phy nodes
+2a2f1366ab265a481874a0601cea2ef047af6e3f arm64: dts: rockchip: rk3588s: Add USB3 DRD controllers
+b27627ce77571bced68deaa98fa5f1e98c76930f arm64: dts: rockchip: rk3588-evb1: add USB3
+66bdbb4c91d4ed350e3e30517d31c50646237bee clk: rockchip: rk3588: fix pclk_vo0grf and pclk_vo1grf
+df895cb840069e17286c01151a387d69a08defe1 arm64: defconfig: Enable Rockchip OTP memory driver
+3bea476b79547c4900e0e5869305fc58f86a930f arm64: dts: rockchip: rk3588is: Add AV1 decoder node
+fde2b4c67fd0f8f9054c25aa47c34cfe3ba6b555 media: verisilicon: Fixes clock list for rk3588 av1 decoder
+e73625b27ae3ea8a4c83277185a14c17113f9a69 dt-bindings: media: rockchip: Add resets property into decoder node
+8069357bf2518259fa42ab200bd527a6cefef5ae arm64: dts: rockchip: Drop invalid regulator-init-microvolt property
+3d5442bc57807a4ffd42fc3348e608aab807ca07 cpufreq: rockchip: Introduce driver for rk3588
+0c5b672abe05276672555c35f9285e16f6daa813 arm64: dts: rockchip: rk3588: add cpu frequency scaling support
+a64fd015f9f179a483cc57a1eba159b5266c72c9 arm64: dts: rockchip: rk3588-evb1: enable tsadc
+e76be8c68cda3ce6f5098e0edb7d2c2a7dcf168a arm64: dts: rockchip: rk3588-evb1: add cpu mem regulator info
+9f535502e1a0edf8c6f5ff7f45a02f474b90986a arm64: dts: rockchip: rock5a: add cpu mem regulator info
+99131decf94e10c0d754201225eca70c9118aa8c arm64: dts: rockchip: rock5b: add cpu mem regulator info
+1b00edfed08bc28619704a8679480a7cf3e14222 arm64: dts: rockchip: add status LED to rock-5b
+7218b56ff1a698b69dca376d2351ee083d9c995a arm64: dts: rockchip: rk3588-evb1: add ADC buttons
+247b7adb7e067fb48b96be7ef6c12407ba9a21ac [BROKEN] arm64: dts: rockchip: rk3588-evb1: add PCIe2 WLAN controller
+b15acf156e13635b426c1bc52bc0d68712ddda49 [BROKEN] arm64: dts: rockchip: rk3588-evb1: add analog audio
 
-a6a5b942270762b435a4136979b21474983f9488 b817407b11aa4440a62875204cb0c99e6a269884 refs/heads/linux-rolling-lts
-619931ff83a275ad04b912a6089078a0f03eceb0 afa61f4ec24b55c6d70ee48aeb6c2a14efdf2bf4 refs/heads/linux-rolling-stable
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+raYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZAYQANLOoy7uL2QBOMtolnGU
-2M5rys05+aX1gl/aW/jBxzEqTEgDeBsGctg57iImevOqB1nzLkZj7QttptBo4GEZ
-fztB0Kjl4wt+nw/EioPhHxnsJTScsIw5/AAXzZZXgw4BGzN8f4eMQo+BHvUBUg0I
-/FKCUqO/YpS6rIxymqWxhC6eiSXpAwBGLsvYFIRbOJTlt0VCGKK/Aou4tSj85aYb
-3ZErdThMv7RSg9GdCVFxwupqkOLdSy9r2JQBfGXxQxrJP1r3r7v6InvXr9tB+fN7
-2YVadRKyWv6a3h/+uhrLcS/yUHzakNnGGcTmaNSTT49sgBpfpHs8DzPT7tTzPBM8
-8a6iC3SaE7k5HtW5tXPJkMtYAbkA+4x6PLO3ZzplGLjIjcER902X5m3Cn3nDvuKj
-/4E3av/sXLliTz/SdrTxVPTXM+bM7LUGSHZL00yvNG2v4hUBW2DmBC6tyRpvRx9X
-bT1ITxjn8VGa4SPd7JEMo+7iwVU0OLmAVt8TiJYZ0EssrS5ap10SWCMKKUPntMpu
-AnE2STiFbcUxPRi2Gp0wRYd3mjso3XsGR8D+HNgoZUt76YQsaxPnLL8hLiYlMB/O
-bw9QgJiYMDrHwTXWbET2WMQbjH2gJqYsrpBwH8QkoFM4kLL06mX8nQV7aqFiPQxh
-xQE2R7tvzkTvy4Pd86Um2JYd
-=C6uR
------END PGP SIGNATURE-----
-
---===============8372951476019502357==--
+--===============6261293757681705850==--
