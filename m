@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8997364767398148879=="
+Content-Type: multipart/mixed; boundary="===============8598212742314233010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 24 Jul 2023 18:10:32 -0000
-Message-Id: <169022223222.27571.7051413860130313374@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 18:10:39 -0000
+Message-Id: <169022223963.27675.17164725741257464943@gitolite.kernel.org>
 
---===============8997364767398148879==
+--===============8598212742314233010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b44693495af8f309b8ddec4b30833085d1c2d0c4
     new: 5322a27c0d461ab3938dd513b1672b86ee722da7
     log: revlist-b44693495af8-5322a27c0d46.txt
 
---===============8997364767398148879==
+--===============8598212742314233010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ f5f80e32de12fad2813d37270e8364a03e6d3ef0 ipv6: remove hard coded limitation on i
 a79b559e99bea6e3284366265d1c63b28ff0ca2e ionic: add FLR recovery support
 5322a27c0d461ab3938dd513b1672b86ee722da7 Merge branch 'ionic-FLR-support'
 
---===============8997364767398148879==--
+--===============8598212742314233010==--
