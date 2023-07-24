@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7283772616101127498=="
+Content-Type: multipart/mixed; boundary="===============6380272037799998038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 24 Jul 2023 16:01:03 -0000
-Message-Id: <169021446352.18517.10040656415283758908@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 16:01:13 -0000
+Message-Id: <169021447360.18673.3989982750009307597@gitolite.kernel.org>
 
---===============7283772616101127498==
+--===============6380272037799998038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: deadbbf486929fdcf31ad8ab63e881a8b36f8aa5
+  - ref: refs/heads/for-next
+    old: 3685a5b63db143f0beef3dead23cdd96a594b93b
     new: 4d15c9fa058e6dee09324cfc93f48858d4296019
-    log: revlist-deadbbf48692-4d15c9fa058e.txt
+    log: revlist-3685a5b63db1-4d15c9fa058e.txt
 
---===============7283772616101127498==
+--===============6380272037799998038==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-deadbbf48692-4d15c9fa058e.txt
+Content-Disposition: attachment; filename=revlist-3685a5b63db1-4d15c9fa058e.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -695,6 +695,8 @@ c2782531397f5cb19ca3f8f9c17727f1cdf5bee8 Merge tag 'powerpc-6.5-4' of git://git.
 6909cf5c4101214f4305a62d582a5b93c7e1eb9a ext4: correct inline offset when handling xattrs in inode body
 5d5460fa7932bed3a9082a6a8852cfbdb46acbe8 ext4: fix off by one issue in ext4_mb_choose_next_group_best_avail()
 9d3de7ee192a6a253f475197fe4d2e2af10a731f ext4: fix rbtree traversal bug in ext4_mb_use_preallocated
+1c67921444bf68107f7901d5bcfce954efaa8754 gen_compile_commands: add assembly files to compilation database
+0817d2599cfe894fa4ded7dbaa2b06111f2609b5 kbuild: flatten KBUILD_CFLAGS
 1faf7e4a0b6ff13d50c45b4b3469fc125536cf37 tracing: Remove unused extern declaration tracing_map_set_field_descr()
 8a96c0288d0737ad77882024974c075345c72011 ring-buffer: Do not swap cpu_buffer during resize process
 4b8b3905165ef98386a3c06f196c85d21292d029 tracing/histograms: Return an error if we fail to add histogram to hist_vars list
@@ -713,4 +715,4 @@ e14f1242a8be413846360b295102abd4c62848ad kconfig: menuconfig: simplify global ju
 356f0cb7efd9563112f18a2c8647ceb6d9f2ccef kconfig: menuconfig: remove jump_key::index
 4d15c9fa058e6dee09324cfc93f48858d4296019 Revert "kbuild: Hack for depmod not handling X.Y versions"
 
---===============7283772616101127498==--
+--===============6380272037799998038==--
