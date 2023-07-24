@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 24 Jul 2023 19:17:30 -0000
-Message-Id: <169022625004.12873.5495894960500940350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 24 Jul 2023 19:22:13 -0000
+Message-Id: <169022653366.16258.10280170949267970930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/fixes
-    old: 80b6051085c5fedcb1dfd7b2562a63a83655c4d8
-    new: 010c1e1c5741365dbbf44a5a5bb9f30192875c4c
+  - ref: refs/heads/master
+    old: 5322a27c0d461ab3938dd513b1672b86ee722da7
+    new: dc644b540a2d2874112706591234be3d3fbf9ef7
     log: |
-         010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
+         dc644b540a2d2874112706591234be3d3fbf9ef7 tcx: Fix splat in ingress_destroy upon tcx_entry_free
          
