@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1952627862489090317=="
+Content-Type: multipart/mixed; boundary="===============8372951476019502357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 24 Jul 2023 16:57:48 -0000
-Message-Id: <169021786809.30176.12974022868857318695@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 16:58:15 -0000
+Message-Id: <169021789594.30432.12142618835073687726@gitolite.kernel.org>
 
---===============1952627862489090317==
+--===============8372951476019502357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,54 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9cba2b77ecde866f42751061a0224fcc788d2378
-    new: 957d426b7150e7c4ff6f406beaca05e6575bd88f
+  - ref: refs/heads/linux-rolling-lts
+    old: a6a5b942270762b435a4136979b21474983f9488
+    new: b817407b11aa4440a62875204cb0c99e6a269884
     log: |
-         957d426b7150e7c4ff6f406beaca05e6575bd88f Notes added by 'git notes add'
+         5fc203d8d3ed416bee054e9f2e6513df51d74577 x86/cpu/amd: Move the errata checking functionality up
+         ed9b87010aa84c157096f98c322491e9af8e8f07 x86/cpu/amd: Add a Zenbleed fix
+         5302e81aa2091d7dd59803f0727d1ba35ed2f929 Linux 6.1.41
+         b817407b11aa4440a62875204cb0c99e6a269884 Merge v6.1.41
+         
+  - ref: refs/heads/linux-rolling-stable
+    old: 619931ff83a275ad04b912a6089078a0f03eceb0
+    new: afa61f4ec24b55c6d70ee48aeb6c2a14efdf2bf4
+    log: |
+         fee9e863965831972da046e657f412a575de1c3d x86/cpu/amd: Move the errata checking functionality up
+         9b8bb5c4e25678af895dc9dd4a1e82b2f948cacc x86/cpu/amd: Add a Zenbleed fix
+         79562f63d621517795c125092620cf4e5778ad44 Linux 6.4.6
+         afa61f4ec24b55c6d70ee48aeb6c2a14efdf2bf4 Merge v6.4.6
          
 
---===============1952627862489090317==
+--===============8372951476019502357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690217866 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690217894 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1690217865-2ab4b5e1ec31e5d35c6f06262f9c50a0a7b32c41
+nonce 1690217893-772f26fd112a23b31c5bae6b1bf8b7ba8ffbf00f
 
-9cba2b77ecde866f42751061a0224fcc788d2378 957d426b7150e7c4ff6f406beaca05e6575bd88f refs/notes/signatures/tar
+a6a5b942270762b435a4136979b21474983f9488 b817407b11aa4440a62875204cb0c99e6a269884 refs/heads/linux-rolling-lts
+619931ff83a275ad04b912a6089078a0f03eceb0 afa61f4ec24b55c6d70ee48aeb6c2a14efdf2bf4 refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+rYobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A1AP+wb8GH+3nhM3hsde1gFH
-doSuGjDJXahk8OzG68G1+kb9rYxrHVEdMRrh7vlS/rveFCtDCEuaq+eNhNf48B4f
-Pvi1qBdFAbo2VPk5Ipy2WMPVrC9TpbYWZtW9Yw/REo4tpUFvC5bcdA3hPmET6zgG
-nmCSarx1qAvoGM6LJwEA0dqyzTdRIoV1EamDPE8riw1dc19Q3ttQOIlEAz2uXpw9
-xhYGIgsHLScguD+H+tw5f/L6OnNcSeMmqjseaSKeE4D6TY3F7nxpoih59R+otzKi
-sd8zlVv9yvr9YSJKUf6OFyqpnN4NVwq0WNoS9UMg0V1hLEedb7abwipKn4jTXnWA
-ZVNTm0/Lnm0YoAREFKtRi2HC+pnB4YEBh6XVJaer6bgZD5wyZAxHs0kVwHfdU8zX
-/7ydJzMM5H4XIzTuCGF0mBfAvsUjx5n7PQoTEgNR49XvCuFx7f1Ak0wlhyO4mH+a
-b8Bz4nxrTSA8gW7Hoa4IWIbmCIQSo1JM9l3PG0AXDJhyrBIc/Nyq7yNXPpw0gJP0
-z8O3501l0dIwAo5Rk+dgLM8N5I20ek2CtbnWHkCFOt17fG8bithtY9QQ/1ON/aDj
-dS3BIhoQ6dpin2rECX5TEDm7H0dwN3j2lzUm24ou1V/HcMoi0CFBC3gYiMVDGEBS
-xPuZfPQnXpqw1WjpRXQ5afoI
-=FX0E
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+raYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZAYQANLOoy7uL2QBOMtolnGU
+2M5rys05+aX1gl/aW/jBxzEqTEgDeBsGctg57iImevOqB1nzLkZj7QttptBo4GEZ
+fztB0Kjl4wt+nw/EioPhHxnsJTScsIw5/AAXzZZXgw4BGzN8f4eMQo+BHvUBUg0I
+/FKCUqO/YpS6rIxymqWxhC6eiSXpAwBGLsvYFIRbOJTlt0VCGKK/Aou4tSj85aYb
+3ZErdThMv7RSg9GdCVFxwupqkOLdSy9r2JQBfGXxQxrJP1r3r7v6InvXr9tB+fN7
+2YVadRKyWv6a3h/+uhrLcS/yUHzakNnGGcTmaNSTT49sgBpfpHs8DzPT7tTzPBM8
+8a6iC3SaE7k5HtW5tXPJkMtYAbkA+4x6PLO3ZzplGLjIjcER902X5m3Cn3nDvuKj
+/4E3av/sXLliTz/SdrTxVPTXM+bM7LUGSHZL00yvNG2v4hUBW2DmBC6tyRpvRx9X
+bT1ITxjn8VGa4SPd7JEMo+7iwVU0OLmAVt8TiJYZ0EssrS5ap10SWCMKKUPntMpu
+AnE2STiFbcUxPRi2Gp0wRYd3mjso3XsGR8D+HNgoZUt76YQsaxPnLL8hLiYlMB/O
+bw9QgJiYMDrHwTXWbET2WMQbjH2gJqYsrpBwH8QkoFM4kLL06mX8nQV7aqFiPQxh
+xQE2R7tvzkTvy4Pd86Um2JYd
+=C6uR
 -----END PGP SIGNATURE-----
 
---===============1952627862489090317==--
+--===============8372951476019502357==--
