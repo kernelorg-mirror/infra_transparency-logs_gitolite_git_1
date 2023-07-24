@@ -1,60 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6261293757681705850=="
+Content-Type: multipart/mixed; boundary="===============4748367942873615216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
-Date: Mon, 24 Jul 2023 16:59:01 -0000
-Message-Id: <169021794199.30819.4461584025246876759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Jul 2023 17:08:39 -0000
+Message-Id: <169021851959.6753.15825523767627009522@gitolite.kernel.org>
 
---===============6261293757681705850==
+--===============4748367942873615216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-misc
-user: sre
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rk3588
-    old: ff43ba6cb982e40654915d026a5fc2f0c93befa2
-    new: b15acf156e13635b426c1bc52bc0d68712ddda49
-    log: revlist-ff43ba6cb982-b15acf156e13.txt
+  - ref: refs/heads/master
+    old: 66abf0a7be9ca06ab137c0b63b78a0f2a9b27ca7
+    new: 4b6c3e4791c83e8fdfeb7d5b26f3c65fd6ebf2f9
+    log: |
+         b9996da5927c81be7c8e15cbcbf0058f0915f3c4 drop some patches
+         95af05916624ab370028cafd4972dafc0efbfbbb drop some 4.19 patches
+         4b6c3e4791c83e8fdfeb7d5b26f3c65fd6ebf2f9 Linux 5.15.122
+         
 
---===============6261293757681705850==
+--===============4748367942873615216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff43ba6cb982-b15acf156e13.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-add2a1a4aa14f5d9838e6fa3dd9f8672de21098a arm64: dts: rockchip: rock-5b: add PCIe for M.2 M-key
-2406a50cebe2b870c0e0963ea7ecf1ec1fb33af9 arm64: dts: rockchip: rock-5b: add PCIe for M.2 E-Key
-29867ac692cfcbbcc5707bb5c06ad5f05323c077 arm64: defconfig: enable RK3588 PCIe support
-90795c46768fa2529af1ee7eb3c8384bc0aa2739 dt-bindings: usb: add rk3588 compatible to rockchip,dwc3
-2aa7651cae82cf49aa7c96491fb96fde23d978ac usb: dwc3: add optional PHY interface clocks
-c544c36ff97d1840060383c80c5b02b929b571da arm64: dts: rockchip: rk3588s: Add USB3 host controller
-7d2c0a9e6b6d033afdef618077ff5eb49fe0f2c5 arm64: dts: rockchip: rk3588-rock5b: add USB3 host
-ae32f019c19952fd701b235700418d08c09107fb arm64: dts: rockchip: rk3588s-rock5a: add USB3 host
-84f4702367e84a450b99c1541dedf0bfeb84f832 dt-bindings: phy: add rockchip usbdp combo phy document
-631288ebc98e0d8694fd93a8bcffdfb08658af96 dt-bindings: soc: rockchip: add rk3588 USB3 syscon
-1d5c02e28777f85eda1ba7b16a4e0ac5da8146c8 phy: rockchip: add usbdp combo phy driver
-4a32509ff3ec0408eb23e857afc7ce187d13ad89 arm64: dts: rockchip: rk3588s: Add USBDP phy nodes
-2a2f1366ab265a481874a0601cea2ef047af6e3f arm64: dts: rockchip: rk3588s: Add USB3 DRD controllers
-b27627ce77571bced68deaa98fa5f1e98c76930f arm64: dts: rockchip: rk3588-evb1: add USB3
-66bdbb4c91d4ed350e3e30517d31c50646237bee clk: rockchip: rk3588: fix pclk_vo0grf and pclk_vo1grf
-df895cb840069e17286c01151a387d69a08defe1 arm64: defconfig: Enable Rockchip OTP memory driver
-3bea476b79547c4900e0e5869305fc58f86a930f arm64: dts: rockchip: rk3588is: Add AV1 decoder node
-fde2b4c67fd0f8f9054c25aa47c34cfe3ba6b555 media: verisilicon: Fixes clock list for rk3588 av1 decoder
-e73625b27ae3ea8a4c83277185a14c17113f9a69 dt-bindings: media: rockchip: Add resets property into decoder node
-8069357bf2518259fa42ab200bd527a6cefef5ae arm64: dts: rockchip: Drop invalid regulator-init-microvolt property
-3d5442bc57807a4ffd42fc3348e608aab807ca07 cpufreq: rockchip: Introduce driver for rk3588
-0c5b672abe05276672555c35f9285e16f6daa813 arm64: dts: rockchip: rk3588: add cpu frequency scaling support
-a64fd015f9f179a483cc57a1eba159b5266c72c9 arm64: dts: rockchip: rk3588-evb1: enable tsadc
-e76be8c68cda3ce6f5098e0edb7d2c2a7dcf168a arm64: dts: rockchip: rk3588-evb1: add cpu mem regulator info
-9f535502e1a0edf8c6f5ff7f45a02f474b90986a arm64: dts: rockchip: rock5a: add cpu mem regulator info
-99131decf94e10c0d754201225eca70c9118aa8c arm64: dts: rockchip: rock5b: add cpu mem regulator info
-1b00edfed08bc28619704a8679480a7cf3e14222 arm64: dts: rockchip: add status LED to rock-5b
-7218b56ff1a698b69dca376d2351ee083d9c995a arm64: dts: rockchip: rk3588-evb1: add ADC buttons
-247b7adb7e067fb48b96be7ef6c12407ba9a21ac [BROKEN] arm64: dts: rockchip: rk3588-evb1: add PCIe2 WLAN controller
-b15acf156e13635b426c1bc52bc0d68712ddda49 [BROKEN] arm64: dts: rockchip: rk3588-evb1: add analog audio
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690218518 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1690218517-ca753f9f58a5b290afe3602c20a30db6f6a218d2
 
---===============6261293757681705850==--
+66abf0a7be9ca06ab137c0b63b78a0f2a9b27ca7 4b6c3e4791c83e8fdfeb7d5b26f3c65fd6ebf2f9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+sBYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7NgP/1J/FfHsAUymbE1l1QAB
+LEJdVVjnHvTMwYFNWHddDpiy0bfaufqLuTG8vZSYd6zbwx7fb07qxuYidSkqPcOF
+YI8QlnVKeoUk5GgXOvLsmal331QWm+BqA1/Ehaa8YKaTX1kR2ErRkPGLw8cK5KKu
+EU4Occxx+PP2i96AKBN7DjJJrtXmueASKZdneoTdTezh4QzfB0pliYmWBaLYrPoI
+ylCFFlMBBu8rpBrOUMnLLBCDi+syYzSnwLhwJ3lgUN8IC0La+ozWPOwBYY2VS1Us
+ZVuarjYZNRBu/P5d5jixgmoYfeEv3wSaaTvZWZ5zJdirpghthWOpmnsagSLektiB
+mnAToZevrTnWdLnliDkkRo1AEWKh8Ty8l2nPh5fuQtn+MNLc6rZ0uj7wo1U64GMg
+jCiSqYr4m8rcuTkMWm6fF8J3ntzBel+3cAqIhsM5umM8WDsik9HiRYN7jF7t3nVC
+SsIcUacylkNy4SJyu54vKzxOps6ULw1iIJeuCplDBzTO+diDjiK9Seb48/xunzQF
+vmZWEGYRl1qW5pNi4Wab2x69cvrKNST5gsSJkS9r4Dvv3Sy4WQVtnLUeSLikfITv
++1dOBOCZx8GDVdaz2x69Q4rtri0KWEdl8FtR+mNPNlEuZIsDH/zDIU/3MNrvg9nB
+Hd4DMKPAcLHS7km56wsWhpJT
+=2w1r
+-----END PGP SIGNATURE-----
+
+--===============4748367942873615216==--
