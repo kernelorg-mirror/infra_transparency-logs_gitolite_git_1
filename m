@@ -1,16 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 24 Jul 2023 05:12:30 -0000
-Message-Id: <169017555021.6649.5685561673548559751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 24 Jul 2023 05:32:58 -0000
+Message-Id: <169017677811.20261.8658845182561659457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-kernelci
-    old: a6edd5f5d9cc4ae3bc9f77123d1bd7ebac38bb9a
-    new: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+  - ref: refs/heads/master
+    old: bf93349b11ab6f4a5861fbabe01236bf3d58075a
+    new: 447c09544275663e1082f796b26c7959915c922a
+    log: |
+         2b6aa9e7927b8e8fe3fd1e0a189d082b0801eacd Input: lm8333 - convert to use devm_* api
+         caddca33a0177f452312f1644822bc98384ba58a Input: amikbd - convert to use devm_* api
+         e175eae16c1bf92062f1f431a95f476a61a77c48 Input: mcs-touchkey - convert to use devm_* api
+         447c09544275663e1082f796b26c7959915c922a Input: qt1070 - convert to use devm_* api
+         
+  - ref: refs/heads/next
+    old: bf93349b11ab6f4a5861fbabe01236bf3d58075a
+    new: 447c09544275663e1082f796b26c7959915c922a
+    log: |
+         2b6aa9e7927b8e8fe3fd1e0a189d082b0801eacd Input: lm8333 - convert to use devm_* api
+         caddca33a0177f452312f1644822bc98384ba58a Input: amikbd - convert to use devm_* api
+         e175eae16c1bf92062f1f431a95f476a61a77c48 Input: mcs-touchkey - convert to use devm_* api
+         447c09544275663e1082f796b26c7959915c922a Input: qt1070 - convert to use devm_* api
+         
