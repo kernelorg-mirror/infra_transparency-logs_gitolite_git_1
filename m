@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 24 Jul 2023 19:08:05 -0000
-Message-Id: <169022568516.5104.12483824765655695982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 24 Jul 2023 19:09:28 -0000
+Message-Id: <169022576891.5732.12132805156600230511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 5322a27c0d461ab3938dd513b1672b86ee722da7
-    new: dc644b540a2d2874112706591234be3d3fbf9ef7
-    log: |
-         dc644b540a2d2874112706591234be3d3fbf9ef7 tcx: Fix splat in ingress_destroy upon tcx_entry_free
-         
+  - ref: refs/heads/fileGPA8KO
+    old: 1bc40efdaf4a0ccfdb10a1c8e4b458f4764e8e5f
+    new: 0000000000000000000000000000000000000000
