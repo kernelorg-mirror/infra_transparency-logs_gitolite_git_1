@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0897903474841054815=="
+Content-Type: multipart/mixed; boundary="===============5124570907179979745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 24 Jul 2023 02:44:26 -0000
-Message-Id: <169016666637.27350.13035527993032536577@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 02:45:07 -0000
+Message-Id: <169016670701.29302.14638569975378712321@gitolite.kernel.org>
 
---===============0897903474841054815==
+--===============5124570907179979745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 4e149d9e03ecdc054f26b6262d58021dba033a33
-    new: 7bfb36a2ee1d329a501ba4781db4145dc951c798
-    log: revlist-4e149d9e03ec-7bfb36a2ee1d.txt
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
+    old: 4de010dca31a53bf5d2b696684d737439d7c3a66
+    new: a269f483ebc5e0c1ddbf7d0d4dad68e507addbfc
+    log: revlist-4de010dca31a-a269f483ebc5.txt
 
---===============0897903474841054815==
+--===============5124570907179979745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e149d9e03ec-7bfb36a2ee1d.txt
+Content-Disposition: attachment; filename=revlist-4de010dca31a-a269f483ebc5.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -438,5 +438,13 @@ d0fb7bd165972042684db3e58e8a47a531346a25 nfsd: handle failure to collect pre/pos
 4d60f5f4b56d30f168ce32c7472c904ccec7dca3 SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
 23ccb49c55790575c07dbe16b5892f35117ba3f1 SUNRPC: Revert e0a912e8ddba
 7bfb36a2ee1d329a501ba4781db4145dc951c798 SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
+d5be9f86aa90ed61ddd01b93f195c9c84a8c6b56 SUNRPC: Move trace_svc_xprt_enqueue
+dbccd3336a92f1b4c6ccda0fd5f0f70f36f3f93f SUNRPC: Deduplicate thread wake-up code
+4cf02f4f79d6209c364db93964187de0605b1832 SUNRPC: Report when no service thread is available.
+63dbbbf784083b4e3bc67e18edc3d8248c9cdb7e SUNRPC: Split the svc_xprt_dequeue tracepoint
+27fd56474b3ea8b2679b42b927d9d29465c631c6 SUNRPC: Count ingress RPC messages per svc_pool
+2e1fc7018e9e252146dc534ea3656c8cf899fb13 SUNRPC: Count pool threads that were awoken but found no work to do
+5e2035732f756a4df138d74f6fada2ded5688238 SUNRPC: Clean up svc_set_num_threads
+a269f483ebc5e0c1ddbf7d0d4dad68e507addbfc SUNRPC: Replace dprintk() call site in __svc_create()
 
---===============0897903474841054815==--
+--===============5124570907179979745==--
