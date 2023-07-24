@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4228480170658039231=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 24 Jul 2023 15:36:12 -0000
-Message-Id: <169021297203.31796.15257440131064162116@gitolite.kernel.org>
-
---===============4228480170658039231==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 24 Jul 2023 15:50:47 -0000
+Message-Id: <169021384734.10879.17471601991617554666@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev-queue
-    old: d030d481742306ea805bf833bb38a787b4e44bcb
-    new: daae7551e9f7a49b5f289121d06820debf628178
-    log: revlist-d030d4817423-daae7551e9f7.txt
-
---===============4228480170658039231==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d030d4817423-daae7551e9f7.txt
-
-32ad45b76990ece9c5dd1fe7aae6e688c3baa647 docs: net: clarify the NAPI rules around XDP Tx
-c7b75bea853daeb64fc831dbf39a6bbabcc402ac net: phy: marvell10g: fix 88x3310 power up
-b27d0232e8897f7c896dc8ad80c9907dd57fd3f3 net: hns3: fix the imp capability bit cannot exceed 32 bits issue
-6d2336120aa6e1a8a64fa5d6ee5c3f3d0809fe9b net: hns3: add tm flush when setting tm
-116d9f732eef634abbd871f2c6f613a5b4677742 net: hns3: fix wrong tc bandwidth weight data issue
-882481b1c55fc44861d7e2d54b4e0936b1b39f2c net: hns3: fix wrong bw weight of disabled tc issue
-a071c6ace314d7bcc8400275ea79f13b5bcc89e9 Merge branch 'hns3-fixes'
-94d166c5318c6edd1e079df8552233443e909c33 vxlan: calculate correct header length for GPE
-8d01da0a1db237c44c92859ce3612df7af8d3a53 ethernet: atheros: fix return value check in atl1c_tso_csum()
-17a0a64448b568442a101de09575f81ffdc45d15 vxlan: generalize vxlan_parse_gpe_hdr and remove unused args
-b0b672c4d0957e5897685667fc848132b8bd2d71 vxlan: fix GRO with VXLAN-GPE
-22117b3ae6e37d07225653d9ae5ae86b3a54f99c Merge branch 'vxlan-gro-fixes'
-5ba7c083d8cf1e6b16ab6883a7770c872e661515 igb: fix hang issue of AER error during resume
-d24f9f4c31ec56629612210e06f33c2f1d0d5ac2 ice: Fix RDMA VSI removal during queue rebuild
-c5312d02894ff009ed0d5ed0db5923e0d8f8a244 igc: Fix Kernel Panic during ndo_tx_timeout callback
-5c16d97bcce18a3dcf318d5d91808bd247852f6b iavf: fix potential deadlock on allocation failure
-286144c04cacfaef71f3a04dbdb17d8811682699 iavf: check for removal state before IAVF_FLAG_PF_COMMS_FAILED
-3c15920ca3ad5a6bd03888ee4c19f2ebcde06878 i40e: Fix VF reset recognition
-d08086b28ae9db3a2b3ff76ef56ccc882aae3455 ice: Fix memory management in ice_ethtool_fdir.c
-ba4e43913ccb2414e52a825fa8694818ec21e373 igc: Expose tx-usecs coalesce setting to user
-1aaabf7539d219302bfd91be81b7823941103df4 igc: Modify the tx-usecs coalesce setting
-e24979dccbe256ec7665ac0243a6d9e7c3f478a9 i40e: Fix an NULL vs IS_ERR() bug for debugfs_create_dir()
-daae7551e9f7a49b5f289121d06820debf628178 igc: Add lock to safeguard global Qbv variables
-
---===============4228480170658039231==--
+  - ref: refs/heads/nfsd-next
+    old: 326de0d7c4772fcaa3ba9748b4db918b96b83f75
+    new: 4d4b8f4f64754430478a35759b91643d697079ea
+    log: |
+         af88388eed1f878278ae5e20aeb9b82fd514f126 nfsd: set missing after_change as before_change + 1
+         9ecc9843fe94b6aaacb8a6f1eab096eadbb4dcbd lockd: nlm_blocked list race fixes
+         810d8cf910d605f2bacff461b02da583d182edd0 sunrpc: Remove unused extern declarations
+         91fbd972ee7292d9f07fc819f413942313280fdb nfsd: inherit required unset default acls from effective set
+         717d46c893d2baf8a20dc14dacafb0971e4bee33 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
+         da668042d4046f95707440a1f50b6c5b1a8cf213 SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
+         1d1140f6ac4e6886c3d0135117008a0801b68b96 SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
+         f511551b89f29e7bf447372d1c59440e68ec8a19 SUNRPC: Revert e0a912e8ddba
+         4d4b8f4f64754430478a35759b91643d697079ea SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
+         
