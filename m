@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 24 Jul 2023 20:13:43 -0000
-Message-Id: <169022962373.23551.235317591774064297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 24 Jul 2023 20:43:27 -0000
+Message-Id: <169023140780.12628.5165279417734472854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/ffa-fix-6.4-2
-    old: 48ba9da2a240ad65b74f1322b0f511bc3daad4ef
+  - ref: refs/heads/fileNuM7Yv
+    old: f061e2be8689057cb4ec0dbffa9f03e1a23cdcb2
     new: 0000000000000000000000000000000000000000
