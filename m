@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3387591728218606419=="
+Content-Type: multipart/mixed; boundary="===============6563475295632439961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/linux-firmware
-Date: Mon, 24 Jul 2023 13:05:31 -0000
-Message-Id: <169020393134.16059.11845539181547517417@gitolite.kernel.org>
+Date: Mon, 24 Jul 2023 13:05:41 -0000
+Message-Id: <169020394126.16167.8305863608389089888@gitolite.kernel.org>
 
---===============3387591728218606419==
+--===============6563475295632439961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/linux-firmware
 user: srini
 changes:
-  - ref: refs/heads/sc8280xp-audio-fw-fixes
-    old: 63e7f2e2291ffc7148304aeaeb01fc48e313e96c
-    new: a8b2a94c58f5cd9dc93b56dbdce83c867ea1e916
-    log: revlist-63e7f2e2291f-a8b2a94c58f5.txt
+  - ref: refs/heads/main
+    old: d3f66064cf43bd7338a79174bd0ff60c4ecbdf6d
+    new: c7824580d310809b55f95626b4b46954911be820
+    log: revlist-d3f66064cf43-c7824580d310.txt
 
---===============3387591728218606419==
+--===============6563475295632439961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63e7f2e2291f-a8b2a94c58f5.txt
+Content-Disposition: attachment; filename=revlist-d3f66064cf43-c7824580d310.txt
 
 1a76e8bb646c08784ad4504d2722ff19c07181fd cirrus: Add CS35L41 firmware for ASUS ROG 2023 Models
 0ee23bd11c577afb9391b8ee48b91558c8d2a1c4 i915: update to GuC 70.8.0 and HuC 8.5.1 for MTL
@@ -43,6 +43,5 @@ b250b32ab1d044953af2dc5e790819a7703b7ee6 linux-firmware: Update AMD cpu microcod
 0bc3126c9cfa0b8c761483215c25382f831a7c6f linux-firmware: Update AMD fam17h cpu microcode
 ca9086f8f622342809c81281f24b9767d14f5213 Merge branch 'dg2_mtl_guc_70.8' of git://anongit.freedesktop.org/drm/drm-firmware
 c7824580d310809b55f95626b4b46954911be820 Merge branch 'v2.0.21961' of https://github.com/yunfei-mtk/linux_fw_10bit
-a8b2a94c58f5cd9dc93b56dbdce83c867ea1e916 linux-firmware: add link to sc8280xp audioreach firmware
 
---===============3387591728218606419==--
+--===============6563475295632439961==--
