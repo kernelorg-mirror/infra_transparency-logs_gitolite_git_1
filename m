@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2187635465532343996=="
+Content-Type: multipart/mixed; boundary="===============5249165703027614159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Jul 2023 17:08:42 -0000
-Message-Id: <169021852219.6821.6572222444932559287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 24 Jul 2023 17:08:53 -0000
+Message-Id: <169021853364.6988.14687636767271313968@gitolite.kernel.org>
 
---===============2187635465532343996==
+--===============5249165703027614159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.122
-    old: 0000000000000000000000000000000000000000
-    new: c6f805a7d45c1adb59e340c35fc47537b75c00fa
+  - ref: refs/heads/linux-5.15.y
+    old: cdd3cdb682f4939aa1adeff025b97e75a9a0f5b3
+    new: 5c6a716301d915055c7bd6d935f7a4fccec2649c
+    log: |
+         5398be2c48aa22189c3992a0d92288e67853cb47 x86/cpu/amd: Move the errata checking functionality up
+         be824fdb827dc06f77a31122949fe1bc011e3e1e x86/cpu/amd: Add a Zenbleed fix
+         5c6a716301d915055c7bd6d935f7a4fccec2649c Linux 5.15.122
+         
 
---===============2187635465532343996==
+--===============5249165703027614159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690218521 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1690218520-693c71211b316c029f5d0acf1795a91e8109f79b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690218532 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1690218531-e09a1b2ac82804e41c19dee8448d5e5f15ffcd7f
 
-0000000000000000000000000000000000000000 c6f805a7d45c1adb59e340c35fc47537b75c00fa refs/tags/v5.15.122
+cdd3cdb682f4939aa1adeff025b97e75a9a0f5b3 5c6a716301d915055c7bd6d935f7a4fccec2649c refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+sBkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z04P/ieTzXyMfH+IVi7uZE60
-Y3wdS9GHoP+QC6ZuROTgNLDenaatjdsRX+qVOM8rt951ZgyZN65LGkZMRTPIH3WR
-rl6ymUO8bhoX3KDq2r4TeOkaX5UlF34Hi4D5+Zu9uHAE6Mz+iVVtnIysAt2TiFz6
-47/VJw2oh32PNk4Cc1it4Tv67ziyJumeeIL7xKF8AMLIKxHcUcwe8NgfzZDJqWJQ
-Y/ky3LpeIV7eBuamtRDjjXp+toIUgtLqPzgBrsiGsiZ+YkN6OGpoNm1JMaGTxk5Z
-8samfmPUleFU+dbXCXI8dkqAfCZx6zgzGh3KGYSHX/emPG13WeXufPJk7igJZ2ZN
-xCnBOiBDqXCayFsJ6/9Ok9ByileTWtBob4Wog0JulYqtSljFMZEI2V0NRM+hj6BZ
-eiLGGKiJ+6dFQ51+L+MiF9zAoA3Xjy3xW16lmr2civEAhzprr4RIAGB8k9jPz+W+
-Z7rw3e9Hn9R4PWHnRjm9caxBXSLD5OhG2DUwDlXu8l3J9jk+q2HpQiDX0mkWTIN6
-F6wPG+BRveuYnxx8wHWBHmiHLqy8lgpN56O0Fd+QpQxtHte4h97VoTu9KjHx6eMq
-ehsrnqSbahLGSa897vJpB0EmKoTWrXQHpIBXKdijpvVI2MtEDMKrDGxffZ6Ism14
-wtfdBqO8bz2EfKEaO8hpb5AH
-=sHme
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS+sCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+28QP/3WQ5dOkCSQ1QO3fyUo1
+PQ0JBxFzSV3B33qhgG1lsdsrQPp4sFL8FzeMnXCVk0hIT7qpA4aaoPrUrKvcV44C
+cymLpa5OLtmmEJu54epmOPg4smRs5jIVtD17M4nihMLNATSArbUhOhqOQLETCi2x
+UwGgfCn6SjVl7ApSRfmbsy5UrtnH+e9aif06mAMLz9tKgyMV2NtVnvBAlR0QenTm
+VRhi045TnhlA7xrsxNqls+hT4eYH/VkunLZItDJo1f8OLj2itx4SR5RGdEeWQxVa
+bxA6nfekTrRX1nOkKyGqsxxzTIKmkjDyJ6OBpgykwVt/0tV3aZVpcDky/CXVKuXB
+VDmciKfb3oFZXpveBmWHsi82EtAtNqwhZVWZw0s/E2b651ZxcGBSowc1bzuSEixx
++nPzao2LNHsuhCGxWFquounYn/oBeT47n9xsraCkP35fDKTDBLhPI+RQ3aBt/KgA
+jKma0NGZhGy3Z6/yDxqHdxOWUqCyiw34JtOlKgXvHedjD4cN8o/I1XQUvJA37GWX
+Xofevdt5FJKYBOdxeXsOR/7Jvh9/i0a+epNcQZs6oJDNQKMeZKJIdJoXJi3ycCNW
+vLEYaqM//cGsTBerF1CsPzOk0+zCFw+oK40bMJqQrEWwVL1F6JL26To381mckCoc
+6s+TgxUj5qdWTg3iM252qb21
+=1Wey
 -----END PGP SIGNATURE-----
 
---===============2187635465532343996==--
+--===============5249165703027614159==--
