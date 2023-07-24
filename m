@@ -1,42 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0565835880639676524=="
+Content-Type: multipart/mixed; boundary="===============3721755733254101064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 24 Jul 2023 17:42:40 -0000
-Message-Id: <169022056082.6086.9592431274877079121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 24 Jul 2023 17:50:03 -0000
+Message-Id: <169022100362.11772.6201503284611763347@gitolite.kernel.org>
 
---===============0565835880639676524==
+--===============3721755733254101064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: f54e3474507427bf272bcc79c7c248c7f55d45b4
-    new: 85d12eda2382cd5b93eed720b5a08f39d42cfef4
-    log: revlist-f54e34745074-85d12eda2382.txt
+  - ref: refs/heads/io_uring-6.5
+    old: 07e981137f17e5275b6fa5fd0c28b0ddb4519702
+    new: 7b72d661f1f2f950ab8c12de7e2bc48bdac8ed69
+    log: |
+         7b72d661f1f2f950ab8c12de7e2bc48bdac8ed69 io_uring: gate iowait schedule on having pending requests
+         
+  - ref: refs/heads/master
+    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+    new: 20ea1e7d13c1b544fe67c4a8dc3943bb1ab33e6f
+    log: revlist-6eaae1980760-20ea1e7d13c1.txt
 
---===============0565835880639676524==
+--===============3721755733254101064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f54e34745074-85d12eda2382.txt
+Content-Disposition: attachment; filename=revlist-6eaae1980760-20ea1e7d13c1.txt
 
-898673b905b9318489430663083f629bc38c7461 ASoC: cs35l56: Move shared data into a common data structure
-cf6e7486de80b680fe178a6517dd7c4166a12dbc ASoC: cs35l56: Make cs35l56_system_reset() code more generic
-0a2e49230f7f1796aa79c532426d56e8739ee4b1 ASoC: cs35l56: Convert utility functions to use common data structure
-8a731fd37f8b33026e545f5ee5cdd7b9a837cbeb ASoC: cs35l56: Move utility functions to shared file
-9974d5b57697770cba2a99c6fe925d01152cd544 ASoC: cs35l56: Move runtime suspend/resume to shared library
-22e51dbb257a218e43de42764b5bdc5302f27cd1 ASoC: cs35l56: Move cs_dsp init into shared library
-84851aa055c890f2ea731a128e8feb64520c2c8e ASoC: cs35l56: Move part of cs35l56_init() to shared library
-f32a2bcbc092d60ba8a1b00a22607b220d53a25e ASoC: cs35l56: Make common function for control port wait
-444dfa0912639fb2431553e8e54d2b35fdf590c2 ASoC: cs35l56: Make a common function to shutdown the DSP
-64e05321506261b737abdbfc7a82144f30d0a925 ALSA: hda: Fix missing header dependencies
-73cfbfa9caea8eda54b4c6e49a9555533660aa1e ALSA: hda/cs35l56: Add driver for Cirrus Logic CS35L56 amplifier
-85d12eda2382cd5b93eed720b5a08f39d42cfef4 ALSA: hda: Adding support for CS35L56 on HDA
+9c2dcfc2cf0f2e4e0a0db33bc1a626e35928c475 media: tc358746: Address compiler warnings
+bf4c985707d3168ebb7d87d15830de66949d979c media: staging: atomisp: select V4L2_FWNODE
+517f088385e1b8015606143e6212cb30f8714070 media: amphion: use dev_err_probe
+dcff0b56f661b6b42e828012b464d22cc2068c38 media: amphion: Fix firmware path to match linux-firmware
+53ebeea50599c1ed05277d7a57e331a34e6d6a82 media: imx-jpeg: Support to assign slot for encoder/decoder
+20de9fdaf4883deffb0138eef28e9cbbead32cfd media: mtk_jpeg_core: avoid unused-variable warning
+92cbf865ea2e0f2997ff97815c6db182eb23df1b media: pulse8-cec: handle possible ping error
+4aaa96b59df5fac41ba891969df6b092061ea9d7 media: pci: cx23885: fix error handling for cx23885 ATSC boards
+d05dea76d4a813eb959ba0a150c45246d54e7148 media: mediatek: vcodec: fix cancel_work_sync fail with fluster test
+7ee8acd1b803502878992acd6f99e61f1e8c7a25 media: verisilicon: fix excessive stack usage
+0cb1d9c845110ce638a43a1417c7df5968d1daa3 media: verisilicon: change confusingly named relaxed register access
+8b6f687743dacce83dbb0c7cfacf88bab00f808a x86/cpu/amd: Move the errata checking functionality up
+522b1d69219d8f083173819fde04f994aa051a98 x86/cpu/amd: Add a Zenbleed fix
+0a9266b79cacdd02b888aed1308c308ad6d4ee4e Merge tag 'x86_bugs_zenbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9e0ee0c7545c7ec012a53878e7687e05b87abc75 Merge tag 'media/v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+20ea1e7d13c1b544fe67c4a8dc3943bb1ab33e6f file: always lock position for FMODE_ATOMIC_POS
 
---===============0565835880639676524==--
+--===============3721755733254101064==--
