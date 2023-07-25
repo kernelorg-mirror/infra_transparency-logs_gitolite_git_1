@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6995981033134698346=="
+Content-Type: multipart/mixed; boundary="===============2151049972944012188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 25 Jul 2023 15:46:06 -0000
-Message-Id: <169029996612.5068.15747613441708654113@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 15:46:50 -0000
+Message-Id: <169030001060.5405.12163450426372384903@gitolite.kernel.org>
 
---===============6995981033134698346==
+--===============2151049972944012188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: da6d91ed77062960107e2eddacd932abecfd0592
-    new: 609fded3f91972ada551c141c5d04a71704f8967
+    old: 609fded3f91972ada551c141c5d04a71704f8967
+    new: 2627335a1329a0d39d8d277994678571c4f21800
     log: |
-         b33ebb2415e7e0a55ee3d049c2890d3a3e3805b6 usb: typec: Set port->pd before adding device for typec_port
-         4b642dc9829507e4afabc03d32a18abbdb192c5e usb: typec: Iterate pds array when showing the pd list
-         609fded3f91972ada551c141c5d04a71704f8967 usb: typec: Use sysfs_emit_at when concatenating the string
+         f4fc01af5b640bc39bd9403b5fd855345a2ad5f8 usb: gadget: call usb_gadget_check_config() to verify UDC capability
+         2627335a1329a0d39d8d277994678571c4f21800 usb: cdns3: fix incorrect calculation of ep_buf_size when more than one config
          
 
---===============6995981033134698346==
+--===============2151049972944012188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690299962 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690300006 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1690299961-f7efbf5406408d48a1e1d53de0b3e54e3a30a4a8
+nonce 1690300005-b1ef63bf077ae6a027961387a2da21f408be457b
 
-da6d91ed77062960107e2eddacd932abecfd0592 609fded3f91972ada551c141c5d04a71704f8967 refs/heads/usb-linus
+609fded3f91972ada551c141c5d04a71704f8967 2627335a1329a0d39d8d277994678571c4f21800 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/7jobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y6cP/0KjJMBCMQWAmrDg/fMh
-wsLkSb/+VGSZz5OrVKK9kk5ZYyVweT5++xz1pJiX2zEnoG3siPNMKspsW0sDGWTR
-762RIapRnj1vqD0NmTTV+/FkS08qljVEsOBA9DHJN3ulKR/cBV9engjkpzxjea8a
-vLSj7wnuXW/jzjUAwnxTr3sMF6KD0kKWScdlgviQ/jCgSh3kId9Qdl62CIFiB4tH
-n4c4fGmjDrbDTAZj5NA+nLsXutJxnNOyL18gtARQ/0cfaSvaEWaBmIVSW06BSuGB
-GUCJEaROJHX9mdPJDA5BJ5qgs53JtmQLa15tMQtHq/lF2tB3PWXeHS0BcAXNsOuF
-i4gv+mf5Mk7tQOWoWxw7I/4p/woGbhOi3Xk6CmMeUq/zKjyNgH3MGfeDcxWVTqHt
-httgCaabucUJkcsgVvyCvJg+yb3j2fDMjuz/ocCDP8+1B08U9DktVEQzWWDAcoQP
-8ACjDJHm0t5r+D2JUGQD+qMgZoh3Alef9H9DJsOnSfybllixXVFZRLiKAFdKwGiA
-Fi6keOoJ7Y6gLMi6T0m5SC9o9OXTq54O39i3VX4NBDlcIj0r7XO4HhnZnJJZKr4y
-Z0KtNihwmv4K4key0iEklI6fJWLi7wAX7s9jHyoJZQ5tJ9DZyyE/1gwsejp8RDS4
-e0c1pb5ziL4c8zwd4Muq7IP6
-=Br1/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/7mYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uKwP/3GaYOMsGku1TXovyfbp
+Zrw+roOCX1WlMwlGj1FST5Ocq4SOOhFVDyakpJlkjNwQ9vG3rBX0hcI2psj+6gaw
+TjrFkbz15CjkY3icldGsewaZT8hy1i+axsGlSADWFWOA3OA5V8DqP9GjMn52Bpxh
+g+l422qdBeFn0Vu+RZISWoq9Z8mpDdiiKsEgPdTAhTSy3GNwDq2UpgVP1InDDgOk
+JC2YuOVewkVp/MQN8sIqRs9W7jcglgcHCguiqnWdywjlY9mWN6b4LLyA9eT6JFiN
+a+lUiCBUqGXZNS27DTh4qzNUx2Mv9BNqvt/SrYEnlPaQq7Yh0sn/4RnmxDWjPbwp
+gmByIBOpK1cfSpuKfr2rYkDuR/A5irkNymYZ1Zd/g96nNU/d1Z7NHbo+ddHSlTND
+kl4vNaI90K3Wty5sXnad9KaD7X28/Lmkfz+p2cOpf9XldsZCbYkoXYrLCFUe262T
+7CfiRJRJNH3aVQ6H2Skl4I2dQOb2+oAcWXDCd+ATEO4hcEWNNMqPgdhpyGKz/Tnd
+zyVqCB5oX2xYMgLAaeV+EDF8nrsceWxc5iNoaoVRDQMZ3l9+UYYJGtHFSMbExhsV
+Qh89Zi1ZHag3Qlm8ihak6iXe7TrqKrMafKuPmKPN7XPXb8chU7TLgJzQCrRBjd0p
+oqcQwr/DfzIb0ccYx1cOHkSt
+=tdB7
 -----END PGP SIGNATURE-----
 
---===============6995981033134698346==--
+--===============2151049972944012188==--
