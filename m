@@ -1,62 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1533500710903109054=="
+Content-Type: multipart/mixed; boundary="===============4422114975164670381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 25 Jul 2023 16:29:05 -0000
-Message-Id: <169030254507.3225.11027665786745742205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 25 Jul 2023 16:30:47 -0000
+Message-Id: <169030264725.5625.13596805356335073760@gitolite.kernel.org>
 
---===============1533500710903109054==
+--===============4422114975164670381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/usb-testing
-    old: eb694edcf767e0aa6611416fa9da32241a6ed463
-    new: ac47051f0bb8ccf1eaedb296a19fcb541474db53
-    log: |
-         60f1dde0d2119d82d1623959630c068091b3f785 usb: gadget: Add support for USB MIDI 2.0 function driver
-         12260cd7491f42e8ab1b73a5f8fd5c5b662489a4 usb: gadget: midi2: Add configfs support
-         46c1d35c72abeb84bdd225f2c9eb562a75f711c9 usb: gadget: midi2: Dynamically create MIDI 1.0 altset descriptors
-         0c1c2ec063f0d78525b441e7e60b6d1115c0f703 usb: gadget: midi2: MIDI 1.0 interface (altset 0) support
-         03c256c68d0b01f6a30daf6bb41d6df0b28407e5 usb: gadget: midi2: Add testing documentation
-         a809187947ce3cab26558cd40cd89d9a038c6e33 usb: gadget: midi2: Add "Operation Mode" control
-         ac47051f0bb8ccf1eaedb296a19fcb541474db53 usb: gadget: midi2: More flexible MIDI 1.0 configuration
-         
+  - ref: refs/heads/rcu/next
+    old: 21b92d271c179c6dd0eb2503811341297a97aadb
+    new: 1f91f6bcde22c3cc709aef0c084c28ecd8c1ec4f
+    log: revlist-21b92d271c17-1f91f6bcde22.txt
 
---===============1533500710903109054==
+--===============4422114975164670381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-21b92d271c17-1f91f6bcde22.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690302541 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1690302541-74c50d8be26775080ef99ab0fd58cde353347b4f
+84dd7f19e72656fac5faf67f1b1809e57e9788cc checkpatch: Complain about unexpected uses of RCU Tasks Trace
+33ee475aee03e9a4f06de741a6979476bff9a270 torture: Add lock_torture writer_fifo module parameter
+6c8bebb1a7c68be96e499b55935af25c134b83a6 torture: Make torture_hrtimeout_*() use TASK_IDLE
+817d16cc5ef5009226b3a59271a5e838dbbaae5f torture: Move torture_onoff() timeouts to hrtimers
+f57ab7f69f82d5d34e22ca1bd77bfe05cb495d95 torture: Move torture_shuffle() timeouts to hrtimers
+f90082d42a0cba66149c6bbb5e0e31f0df5c47c2 torture: Move stutter_wait() timeouts to hrtimers
+f62d4da262ce01603d83927ab1d332281f63b3a9 torture: Stop right-shifting torture_random() return values
+73053792d3cc8ff7097c86e7719cd753b85e12bb rcutorture: Stop right-shifting torture_random() return values
+2e037a434550b1c384cede6f296f70b260864b71 Merge branches 'doc.2023.07.14b', 'fixes.2023.07.19a', 'rcu-tasks.2023.07.24a', 'rcuscale.2023.07.14b', 'refscale.2023.07.14b', 'torture.2023.07.24a' and 'torturescripts.2023.07.20a' into HEAD
+764e8b8aa60e847d76f205a4c85c975126c2de19 Merge branch 'scftorture.2023.07.14b' into HEAD
+a4f727eab32849db99e892db38b630527bde31b7 Merge branch 'clocksource.2023.07.14b' into HEAD
+6ad6bbe0d69dac369b897836c6e8d1bc51a672e4 Merge branch 'csd-lock.2023.07.14b' into HEAD
+582e5439e4327879a509fdcc84c200ebeba6b213 rcu: Delete a redundant check in rcu_check_gp_kthread_starvation()
+c98353028a6938dbf4bb977860923508a2b68512 rcu: Don't redump the stalled CPU where RCU GP kthread last ran
+96cdc312e867ed1f310cadfc2cdf750441ca93f6 torture: Share torture_random_state with torture_shuffle_tasks()
+9b142cb11db853921ef90612acb16a5b3459e813 torture: Make kvm-recheck.sh use mktemp
+cf9eca90a339798a050144f4b7b745a16a5282f1 fs/proc: Add /proc/cmdline_load for boot loader arguments
+2185ffe43b69a858c7e28b245f449a7aa80c2183 fs/proc: Add /proc/cmdline_image for embedded arguments
+1f91f6bcde22c3cc709aef0c084c28ecd8c1ec4f rcu: Eliminate check_cpu_stall() duplicate code
 
-eb694edcf767e0aa6611416fa9da32241a6ed463 ac47051f0bb8ccf1eaedb296a19fcb541474db53 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/+E0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7icP/RIZuWWnS2L8wjL8TfKw
-2nDrnhOCuGKp5cimzCfqJaMhmy5jtenzDnmBycPqsHndeeSZboZ2KGhAqZAU7USx
-11RI6kn5Q7jx7aRO48Ouhq6+Gjpqe47TfiBx+0Hn2GxvcSxWNI1vPKl37eT/JokD
-2nKiKF5jzo40QEkAWC77DcT+25e8IgOeMWJDtM2+wb3sLqiG9gj4KLuX/Zp4MG5F
-FdjN1c8WaF9qhenXx/MemYH8bcsjj5vd0RlMRzKg0AwjrufIuLzBdij8dVeHEaML
-yOlTbrFKknWOBEX3RvBiLFk/6zCmKOEzxEWXN6c5XpX9KPGCk+NOo5bwCuF6aS8X
-Ef3xiRYXImA59MYGXGq1ycxSiCaVuu8H12eSRz8HhQPhFrkRhKNU8Ud/lDPh/h8Z
-IOVDd8sY5GSSiN0q7ytB4i995VaHNtd9Pev5oCp3/lhUl8kOEe8VoPSN+Enfae6K
-YhXPLV4WDcXYvyopb+mVVAkJC7e9n0madTw+82xlg6y+iRM0JbF81qSo7ob6K+qx
-3WnEKJU4pVC0MFuLuczItibmb3ZE5AGNXWOgHHD5ZMpDQBe9AOnZ11Zmhrt4LCS1
-l9gUhNf9AFouwukdc4hc2/1PLZQVK58FRCsGf8+nn6CEqP9Qnb0FCqw/n/lms20p
-R3/miJWiy6K5YGW2pJuv8X8X
-=KMbm
------END PGP SIGNATURE-----
-
---===============1533500710903109054==--
+--===============4422114975164670381==--
