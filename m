@@ -1,88 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0508374906612435341=="
+Content-Type: multipart/mixed; boundary="===============5470924918517601622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 25 Jul 2023 07:27:11 -0000
-Message-Id: <169027003152.8661.4925991762569000680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Tue, 25 Jul 2023 07:30:46 -0000
+Message-Id: <169027024644.11704.6283975932673754988@gitolite.kernel.org>
 
---===============0508374906612435341==
+--===============5470924918517601622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/vfs.all
-    old: c62e19541f8bb39f1f340247f651afe4532243df
-    new: adef173e1153a51a423459016d71ed96d4ca0baa
-    log: revlist-c62e19541f8b-adef173e1153.txt
+  - ref: refs/heads/loongarch-next
+    old: 1b9a8a5cc6cdb16d2f869bcd9d7ce2f0a53026fe
+    new: 66b198b500fa82bfdd10a508a08bf3440c3e72e2
+    log: revlist-1b9a8a5cc6cd-66b198b500fa.txt
 
---===============0508374906612435341==
+--===============5470924918517601622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c62e19541f8b-adef173e1153.txt
+Content-Disposition: attachment; filename=revlist-1b9a8a5cc6cd-66b198b500fa.txt
 
-06a0213977dc5f8345c1222183b8fafac1a8a524 Non-functional cleanup of a "__user * filename"
-01d391923fb64829b21b23a00fb63a4d93927470 fs: Add fchmodat2()
-acdc965ce9ed2f5609fe9fa8743f5b969fa4b828 arch: Register fchmodat2, usually as syscall 452
-6d54c6b660d0672086a08011a64090b4e049ede2 selftests: Add fchmodat2 selftest
-1311011c2bb7b307ed048aa74997b2b514eac88d ext4: convert to ctime accessor functions
-d6fdafe825b07cd784fcaacba3bb0904451c8e9c f2fs: convert to ctime accessor functions
-71c9194b679c00959b29324172bd7af0b40fb3dc fat: convert to ctime accessor functions
-d5d6b96c617f6911fce7105b42607c79e0cbbac1 freevxfs: convert to ctime accessor functions
-3adea149b97ae9b42fa8210c3fad08840510e18d fuse: convert to ctime accessor functions
-09589533213d7d29e77f2acba3480ad5bfdc08f0 gfs2: convert to ctime accessor functions
-49fb985b8ba2dce8987880c2875254ad321759ea hfs: convert to ctime accessor functions
-a374703a081f9f8496179c82e3a80a764c152432 hfsplus: convert to ctime accessor functions
-ea5c25a17f2f40e58a041a41eb8fdbb23e3883a6 hostfs: convert to ctime accessor functions
-1827680a85c81ed133c5c9080177b74878607f20 hpfs: convert to ctime accessor functions
-66fd18e550bfc6559a5f06a321e12eb5a6e12f8c hugetlbfs: convert to ctime accessor functions
-82b60377a651c00f9602ca7254ee6adbdcc6b66e isofs: convert to ctime accessor functions
-ce4599dc0222436535ef07d4db6730c5a2293c0a jffs2: convert to ctime accessor functions
-71e67a50421cb1b2b55b7438842693cdeddbd1d1 jfs: convert to ctime accessor functions
-1b1bd092bb510a23d5f3511b2617cf096dd9a42a kernfs: convert to ctime accessor functions
-0a95849daae947a22bf296422eb290fd251a285c nfs: convert to ctime accessor functions
-0b302777fd27ed237560d668165a0d3f43d98a2b nfsd: convert to ctime accessor functions
-bf5bd558181d13f1ea217ddf1ab34d79e098271f nilfs2: convert to ctime accessor functions
-637baec693aac257d0b140698d7e4daef387409c ntfs: convert to ctime accessor functions
-660575bc58403608ca4722af294248d2c56c1f47 ntfs3: convert to ctime accessor functions
-434b1871d04df828f126a54adde01a271e6262d4 ocfs2: convert to ctime accessor functions
-c3c2aad004905887512bc117d94b9a26d82e1c3f omfs: convert to ctime accessor functions
-3eb4ac9d231c1bd78e9ed61c4ff05f242336ddf8 openpromfs: convert to ctime accessor functions
-b13937555a777aa0e823ae17d67ed3a77beb1fdd orangefs: convert to ctime accessor functions
-1d9ae9e2490055d642893ee852bd66996752a68c overlayfs: convert to ctime accessor functions
-59bb8e08e8abaee13edcbccc256150f6de5fcdb1 procfs: convert to ctime accessor functions
-8fed8d6e7e02b948f76d345b8a9ecac19969a810 pstore: convert to ctime accessor functions
-19eb427b7cdd8e7fe43fe7f3e5f3cbb42cb00c7d qnx4: convert to ctime accessor functions
-fc3c774dab9010dc56c938c3cdac9dde27f67933 qnx6: convert to ctime accessor functions
-5fd128f6402c321894d4a61614a1556bcf88bf11 ramfs: convert to ctime accessor functions
-cd737c17249c4a77d0fb6d7a4ca14ddfd3a48617 reiserfs: convert to ctime accessor functions
-631b278e6f2f11e0e1406e09cb477401d6fd2dee romfs: convert to ctime accessor functions
-772f3c6435a6d742edffce4870b10bf2cbfb096c smb: convert to ctime accessor functions
-249b97364395f4e021cb827e63ca2acae860beba squashfs: convert to ctime accessor functions
-fd6e7fdcd731a736cba346b3bc080d9b11f78891 sysv: convert to ctime accessor functions
-8a5bbcaf17160cb37fe77429336b35005086827a tracefs: convert to ctime accessor functions
-bf8a3c2271ef0ba1552bac566e38dd0e0a0f882b ubifs: convert to ctime accessor functions
-cdf43a27a56b4ae2872d917fdd7584746d7eefd2 udf: convert to ctime accessor functions
-40f1b6094e4d9d4246e27a9d980fccb63e5817e1 ufs: convert to ctime accessor functions
-72f4a1b2cdb3ad802b67bd0f841e552c0ed6bba5 vboxsf: convert to ctime accessor functions
-8d9569aedf2317f451d5f1e8a7d16668b91de48e xfs: convert to ctime accessor functions
-d18d50df01742b45961bc037b67406c3578e9070 zonefs: convert to ctime accessor functions
-3f07c84bf21959a44aa67cbbada68218c993b6b6 linux: convert to ctime accessor functions
-46d180d4e1e152f8da7abd644cb0a8848a017707 mqueue: convert to ctime accessor functions
-edef340e4a49b50ae36964ad1b5a1033f6040890 bpf: convert to ctime accessor functions
-7ac184e01fede59721e93bdf2589dd13a44578d7 shmem: convert to ctime accessor functions
-1d399b27a9f3439d8c26423bfa210e0f783e3d32 sunrpc: convert to ctime accessor functions
-54d7d4b44cada0c6cd64c8dbe57d5c76b69ee517 apparmor: convert to ctime accessor functions
-4295a12117f560c976dce552842b01e1928dc146 security: convert to ctime accessor functions
-57f0d0f6f6cfe815b80f5a8caeebee60d92108f3 selinux: convert to ctime accessor functions
-b0d2be0574b4f2fe1d625e6d8bcecc2d00841c2d fs: rename i_ctime field to __i_ctime
-525deaeb2fbf634222f4231608c72190c551c935 gfs2: fix timestamp handling on quota inodes
-fc66c4c9dc907ca2c1c1e6e16a69033a456e65e7 libfs: Add a lock class for the offset map's xa_lock
-adef173e1153a51a423459016d71ed96d4ca0baa Merge branches 'vfs.readdir', 'vfs.misc', 'vfs.ctime', 'vfs.fchmodat2' and 'fs.proc.uapi' into vfs.all
+9c2dcfc2cf0f2e4e0a0db33bc1a626e35928c475 media: tc358746: Address compiler warnings
+bf4c985707d3168ebb7d87d15830de66949d979c media: staging: atomisp: select V4L2_FWNODE
+517f088385e1b8015606143e6212cb30f8714070 media: amphion: use dev_err_probe
+dcff0b56f661b6b42e828012b464d22cc2068c38 media: amphion: Fix firmware path to match linux-firmware
+53ebeea50599c1ed05277d7a57e331a34e6d6a82 media: imx-jpeg: Support to assign slot for encoder/decoder
+20de9fdaf4883deffb0138eef28e9cbbead32cfd media: mtk_jpeg_core: avoid unused-variable warning
+92cbf865ea2e0f2997ff97815c6db182eb23df1b media: pulse8-cec: handle possible ping error
+4aaa96b59df5fac41ba891969df6b092061ea9d7 media: pci: cx23885: fix error handling for cx23885 ATSC boards
+d05dea76d4a813eb959ba0a150c45246d54e7148 media: mediatek: vcodec: fix cancel_work_sync fail with fluster test
+7ee8acd1b803502878992acd6f99e61f1e8c7a25 media: verisilicon: fix excessive stack usage
+0cb1d9c845110ce638a43a1417c7df5968d1daa3 media: verisilicon: change confusingly named relaxed register access
+8b6f687743dacce83dbb0c7cfacf88bab00f808a x86/cpu/amd: Move the errata checking functionality up
+522b1d69219d8f083173819fde04f994aa051a98 x86/cpu/amd: Add a Zenbleed fix
+80b6051085c5fedcb1dfd7b2562a63a83655c4d8 scsi: sg: Fix checking return value of blk_get_queue()
+0a9266b79cacdd02b888aed1308c308ad6d4ee4e Merge tag 'x86_bugs_zenbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9e0ee0c7545c7ec012a53878e7687e05b87abc75 Merge tag 'media/v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+20ea1e7d13c1b544fe67c4a8dc3943bb1ab33e6f file: always lock position for FMODE_ATOMIC_POS
+0b5547c51827e053cc754db47d3ec3e6c2c451d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+76381ee2f0aba44aa2937a5176eeffc4edc18076 LoongArch: Fix module relocation error with binutils 2.41
+662be86d4080f3c956437b9b65e47f5f9d64931d LoongArch: Fix CMDLINE_EXTEND and CMDLINE_BOOTLOADER handling
+c021e7b62148b7a7c94fa8a60106b283908cad56 LoongArch: Fix return value underflow in exception path
+175ca79bf37dcc04e2b06e1a8f59dccde502c40f LoongArch: BPF: Fix check condition to call lu32id in move_imm()
+df6b62a748d53dca2ddc389707f160535fa88981 LoongArch: Cleanup __builtin_constant_p() checking for cpu_has_*
+82446ad64da1f1e5242be050673f5b64c7869513 LoongArch: Allow usage of LSX/LASX in the kernel
+4bb64b08ef77cee83b8f4b00648776e363867169 LoongArch: Add Loongson Binary Translation (LBT) extension support
+3ffd877d6a0f1b8ad1c25000d0f0c850583f0cfe LoongArch: Provide kaslr_offset() to get kernel offset
+66b198b500fa82bfdd10a508a08bf3440c3e72e2 LoongArch: Allow building with kcov coverage
 
---===============0508374906612435341==--
+--===============5470924918517601622==--
