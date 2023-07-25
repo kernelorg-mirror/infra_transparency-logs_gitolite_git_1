@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 25 Jul 2023 21:50:03 -0000
-Message-Id: <169032180334.16651.13049567847548213069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 25 Jul 2023 21:50:19 -0000
+Message-Id: <169032181923.17447.3407107575119190987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/io_uring-futex
-    old: e2b1d36036d878f6359c77be53624c29d94c5959
-    new: fdd311d01e52716def608afd1dcda2e6a031ac27
+  - ref: refs/heads/for-6.5-fixes
+    old: c338a5837a9320a724a977f8f30371a86ea68e8c
+    new: aa6fde93f3a49e42c0fe0490d7f3711bac0d162e
     log: |
-         fdd311d01e52716def608afd1dcda2e6a031ac27 io_uring: add support for vectored futex waits
+         aa6fde93f3a49e42c0fe0490d7f3711bac0d162e workqueue: Scale up wq_cpu_intensive_thresh_us if BogoMIPS is below 4000
+         
+  - ref: refs/heads/for-next
+    old: fce9adbf77cccae08bde1127579d6c950b312db6
+    new: 2ef92cb3bc82900945e2390f15deb6d5f4ac9d6d
+    log: |
+         aa6fde93f3a49e42c0fe0490d7f3711bac0d162e workqueue: Scale up wq_cpu_intensive_thresh_us if BogoMIPS is below 4000
+         2ef92cb3bc82900945e2390f15deb6d5f4ac9d6d Merge branch 'for-6.5-fixes' into for-next
          
