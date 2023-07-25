@@ -1,49 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============4422114975164670381=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 25 Jul 2023 16:30:47 -0000
-Message-Id: <169030264725.5625.13596805356335073760@gitolite.kernel.org>
-
---===============4422114975164670381==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Tue, 25 Jul 2023 16:32:50 -0000
+Message-Id: <169030277017.6435.5893932138393698841@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/rcu/next
-    old: 21b92d271c179c6dd0eb2503811341297a97aadb
-    new: 1f91f6bcde22c3cc709aef0c084c28ecd8c1ec4f
-    log: revlist-21b92d271c17-1f91f6bcde22.txt
-
---===============4422114975164670381==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21b92d271c17-1f91f6bcde22.txt
-
-84dd7f19e72656fac5faf67f1b1809e57e9788cc checkpatch: Complain about unexpected uses of RCU Tasks Trace
-33ee475aee03e9a4f06de741a6979476bff9a270 torture: Add lock_torture writer_fifo module parameter
-6c8bebb1a7c68be96e499b55935af25c134b83a6 torture: Make torture_hrtimeout_*() use TASK_IDLE
-817d16cc5ef5009226b3a59271a5e838dbbaae5f torture: Move torture_onoff() timeouts to hrtimers
-f57ab7f69f82d5d34e22ca1bd77bfe05cb495d95 torture: Move torture_shuffle() timeouts to hrtimers
-f90082d42a0cba66149c6bbb5e0e31f0df5c47c2 torture: Move stutter_wait() timeouts to hrtimers
-f62d4da262ce01603d83927ab1d332281f63b3a9 torture: Stop right-shifting torture_random() return values
-73053792d3cc8ff7097c86e7719cd753b85e12bb rcutorture: Stop right-shifting torture_random() return values
-2e037a434550b1c384cede6f296f70b260864b71 Merge branches 'doc.2023.07.14b', 'fixes.2023.07.19a', 'rcu-tasks.2023.07.24a', 'rcuscale.2023.07.14b', 'refscale.2023.07.14b', 'torture.2023.07.24a' and 'torturescripts.2023.07.20a' into HEAD
-764e8b8aa60e847d76f205a4c85c975126c2de19 Merge branch 'scftorture.2023.07.14b' into HEAD
-a4f727eab32849db99e892db38b630527bde31b7 Merge branch 'clocksource.2023.07.14b' into HEAD
-6ad6bbe0d69dac369b897836c6e8d1bc51a672e4 Merge branch 'csd-lock.2023.07.14b' into HEAD
-582e5439e4327879a509fdcc84c200ebeba6b213 rcu: Delete a redundant check in rcu_check_gp_kthread_starvation()
-c98353028a6938dbf4bb977860923508a2b68512 rcu: Don't redump the stalled CPU where RCU GP kthread last ran
-96cdc312e867ed1f310cadfc2cdf750441ca93f6 torture: Share torture_random_state with torture_shuffle_tasks()
-9b142cb11db853921ef90612acb16a5b3459e813 torture: Make kvm-recheck.sh use mktemp
-cf9eca90a339798a050144f4b7b745a16a5282f1 fs/proc: Add /proc/cmdline_load for boot loader arguments
-2185ffe43b69a858c7e28b245f449a7aa80c2183 fs/proc: Add /proc/cmdline_image for embedded arguments
-1f91f6bcde22c3cc709aef0c084c28ecd8c1ec4f rcu: Eliminate check_cpu_stall() duplicate code
-
---===============4422114975164670381==--
+  - ref: refs/heads/for-6.6/dt-bindings
+    old: f8657bd4ad754c47e947460d9a29bafb1d4e8513
+    new: 22af900bdb02d7e5d983832ea8067fc5f2f01686
+    log: |
+         a640358defd84c71640b68065eb0ce359722e145 dt-bindings: clock: tegra: Document Tegra132 compatible
+         436ebd32b02568378eb694f97f5c1c2fa8c984c8 dt-bindings: arm: tegra: nvec: Convert to json-schema
+         22af900bdb02d7e5d983832ea8067fc5f2f01686 dt-bindings: thermal: tegra: Convert to json-schema
+         
+  - ref: refs/heads/for-next
+    old: f6b0adb4bacfbc9a9da7aa94a9924aaceb177fc0
+    new: a3e08a88120b085021abb38a40c02f5a08913aa7
+    log: |
+         a640358defd84c71640b68065eb0ce359722e145 dt-bindings: clock: tegra: Document Tegra132 compatible
+         436ebd32b02568378eb694f97f5c1c2fa8c984c8 dt-bindings: arm: tegra: nvec: Convert to json-schema
+         22af900bdb02d7e5d983832ea8067fc5f2f01686 dt-bindings: thermal: tegra: Convert to json-schema
+         c4aa02208aa69d4cd45c9287d2e54f875ca0ceca Merge branch for-6.6/soc into for-next
+         a66a916a107a68b358bdbd989bc0b8dedb92bbe0 Merge branch for-6.6/dt-bindings into for-next
+         3766bcf70bea02d72e9486ff6c94f32fc65085dd Merge branch for-6.6/arm/dt into for-next
+         a3e08a88120b085021abb38a40c02f5a08913aa7 Merge branch for-6.6/arm64/dt into for-next
+         
