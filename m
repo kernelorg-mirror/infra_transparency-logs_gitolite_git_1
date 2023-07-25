@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8497881869677305893=="
+Content-Type: multipart/mixed; boundary="===============1109907982222240685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 25 Jul 2023 14:17:29 -0000
-Message-Id: <169029464971.2413.11597751881102956107@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 14:23:12 -0000
+Message-Id: <169029499298.6077.2319146119035137822@gitolite.kernel.org>
 
---===============8497881869677305893==
+--===============1109907982222240685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/mgctime
-    old: 30911ec4ccc3a973d2f2be29d6a6f3d836db5d32
-    new: 0b9e65c9676231ae099f5908b5e63c93366f189b
-    log: revlist-30911ec4ccc3-0b9e65c96762.txt
+  - ref: refs/heads/vfs.all
+    old: 3271ab2400978a27fe78fb3da57f890278454599
+    new: 810b5fff7917119ea82ff96e312e2d4350d6b681
+    log: revlist-3271ab240097-810b5fff7917.txt
 
---===============8497881869677305893==
+--===============1109907982222240685==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-30911ec4ccc3-0b9e65c96762.txt
+Content-Disposition: attachment; filename=revlist-3271ab240097-810b5fff7917.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -197,6 +197,17 @@ bfc374a145ae133613e05b9b89be561f169cb58d pinctrl: renesas: rzg2l: Handle non-uni
 c09168c9392ac9250d87d71fc5ca3156f7456ea4 MAINTAINERS: Add myself as a maintainer for Microchip SPI
 5158814cbb37bbb38344b3ecddc24ba2ed0365f2 spi: bcm63xx: fix max prepend length
 a2848d08742c8e8494675892c02c0d22acbe3cf8 drm/ttm: never consider pinned BOs for eviction&swap
+8b70deb8ca901d45e2342d654c1e8d306f52e6cb fs/ecryptfs: Replace kmap() with kmap_local_page()
+c3c6833ea8114a18d5acf5f9a4d32f864103144c fs/ecryptfs: Use kmap_local_page() in ecryptfs_write()
+e2393b8f3987c5f29dca03aa71d0502f6d721c0d fs/ecryptfs: Use kmap_local_page() in copy_up_encrypted_with_header()
+ba38980add7ffc9e674ada5b4ded4e7d14e76581 reiserfs: Check the return value from __getblk()
+12ee4b66af34f8e72f3b2fd93a946a955efe7c86 splice: always fsnotify_access(in), fsnotify_modify(out) on success
+7f0f1ea069e52d5a16921abd59377a7da6c25149 splice: fsnotify_access(fd)/fsnotify_modify(fd) in vmsplice
+576d498e0ac5caff2d9f6312573ab54d98f12d32 splice: fsnotify_access(in), fsnotify_modify(out) on success in tee
+bccb5c397fbfe348e22c045f5e09c35780edb817 fcntl: Cast commands with int args explicitly
+ed5f17f66ef39273dcf83ca89b2f1d52a52b22a5 fs: Pass argument to fcntl_setlease as int
+515c5046650d8f56f93546d3867b64c1906162bc pipe: Pass argument of pipe_fcntl as int
+f4ae4081e5a871b4c4e2f802ccf73f8d69566073 dnotify: Pass argument of fcntl_dirnotify as int
 028e6e204ace1f080cfeacd72c50397eb8ae8883 platform/x86: wmi: Break possible infinite loop when parsing GUID
 6bf06f14bf33d668ee0eb85b6c414d85a0f8e1a5 platform/x86: wmi: Replace open coded guid_parse_and_compare()
 5b2a4a4394ce96fb01a282dd58e263d02218db03 platform/x86/intel/tpmi: Prevent overflow for cap_offset
@@ -255,6 +266,7 @@ dde4c3d477d834212947f38519407df404acde4a drm/i915/perf: Consider OA buffer bound
 04499f28b40bfc24f20b0e2331008bb90a54a6cf net: dsa: Removed unneeded of_node_put in felix_parse_ports_node
 e8ef8dd28c4c4b86cd3010ff42c79582f766862e platform/x86: Move s2idle quirk from thinkpad-acpi to amd-pmc
 d194803325150c53ad228aedb6f6a82ac9ea6360 platform/x86/amd: pmc: Apply nvme quirk to HP 15s-eq2xxx
+758b492047816a3158d027e9fca660bc5bcf20bf eventfd: prevent underflow for eventfd semaphores
 822507ca6affc8930a3919f326c79062354e8283 platform/x86/amd: pmc: Add new ACPI ID AMDI000A
 5d3acd9d7a44ad9902e98e57013f028d5f4fc86c platform/x86/amd: pmf: Add new ACPI ID AMDI0103
 8c4893837554687addae919998b0f3de23a514dc platform/x86: dell-ddv: Improve error handling
@@ -363,6 +375,32 @@ ab8aa4f0956d2e0fb8344deadb823ef743581795 sh: mach-r2d: Handle virq offset in cas
 a2601b8d8f077368c6d113b4d496559415c6d495 sh: mach-highlander: Handle virq offset in cascaded IRL demux
 3d20f7a6eb76afdf9d4ad9cb864c2e2da9c38e1f sh: mach-dreamcast: Handle virq offset in cascaded IRQ demux
 7c28a35e19fafa1d3b367bcd3ec4021427a9397b sh: hd64461: Handle virq offset for offchip IRQ base and HD64461 IRQ
+5cb426dc84d064006807cd837236600e70b489b3 s390: convert to ctime accessor functions
+e415258442f7c55a49982a237966b85b153ab3ad binderfs: convert to ctime accessor functions
+6beb71c7ad1301341bf1bd02a563cc03b4367694 infiniband: convert to ctime accessor functions
+55f42de2ecf36b425fc18d82f54a3db76c390ce9 ibm: convert to ctime accessor functions
+bd910aae136e766705f3592e528ba0570f54a033 usb: convert to ctime accessor functions
+0ca11760d0118b2fff76f8d6fe45d3052ba38275 9p: convert to ctime accessor functions
+2631f6298341351882a0918a63fbabf87c98ba7b adfs: convert to ctime accessor functions
+92fb0db0c8ba90c2df0598e2381345e980a8c6fd affs: convert to ctime accessor functions
+4e670c304af4a075c223a54c5d49c22049f85638 afs: convert to ctime accessor functions
+607a01b8b26ec7a0d255d820a81fed5aa6aa0398 fs: convert to ctime accessor functions
+a6fb760bd8c492a2a3cc349a1adab09d1067128b autofs: convert to ctime accessor functions
+ac2f5be39e5aaef879109611d09927ea4b9071ad befs: convert to ctime accessor functions
+23536e963dfec382285c9bb0b75268ae353ed463 bfs: convert to ctime accessor functions
+cf61f587fe13eec25613e714dc636c5d65962a77 btrfs: convert to ctime accessor functions
+c5534142ab857a9ffcd6e30f6bb1ba21f61dc265 ceph: convert to ctime accessor functions
+80e2c107c9ca5716f1fcea73b591ac396d3e52dd coda: convert to ctime accessor functions
+332f98f3d709dcfdcdbd49fd59dbe825b8aec823 configfs: convert to ctime accessor functions
+a77b383e28419bdd036088f5ff03b89565d84331 cramfs: convert to ctime accessor functions
+bd1928d342c2d5ec2b89029fd3a29c591c78b509 debugfs: convert to ctime accessor functions
+a6d65febad1a3bbc132e793c5c3d53de599ad8ac devpts: convert to ctime accessor functions
+3c5e7d3b653f0c33d9fa0dbd07cfcb726ff09876 ecryptfs: convert to ctime accessor functions
+bcccbdcd6579a22db2cfd0e30e1c54324e1ca826 efivarfs: convert to ctime accessor functions
+67053ffe0d93e84d574b956c02cdccddc161fd38 efs: convert to ctime accessor functions
+6c7b3a24e990e8b3ef2afc0485b1f2ab8e3619a1 erofs: convert to ctime accessor functions
+fb8223f5f67749270a3b1372938f59d47441df83 exfat: convert to ctime accessor functions
+00f6e48a0c5bff96336d5d80a32995f895c732b2 ext2: convert to ctime accessor functions
 158810b261d02fc7dd92ca9c392d8f8a211a2401 net/sched: sch_qfq: reintroduce lmax bound check for MTU
 c5a06fdc618d1d262fa0db3483f096936961588c selftests: tc-testing: add tests for qfq mtu sanity check
 3e337087c3b5805fe0b8a46ba622a962880b5d64 net/sched: sch_qfq: account for stab overhead in qfq_enqueue
@@ -370,8 +408,11 @@ c5a06fdc618d1d262fa0db3483f096936961588c selftests: tc-testing: add tests for qf
 9d23aac8a85f69239e585c8656c6fdb21be65695 Merge branch 'net-sched-fixes-for-sch_qfq'
 55b87b74996383230586f4f9f801ae304c70e649 arm64: Fix HFGxTR_EL2 field naming
 a282a2f10539dce2aa619e71e1817570d557fc97 libceph: harden msgr2.1 frame segment length checks
+49319832de90f1943264e5c573b072947af6ae26 selftests/nolibc: drop test chmod_net
+18e66ae67673f2c8df6f02428798b1355691f2a9 proc: use generic setattr() for /proc/$PID/net
 c2a88e8bdf5f6239948d75283d0ae7e0c7945b03 drm/client: Fix memory leak in drm_client_target_cloned
 2329cc7a101af1a844fbf706c0724c0baea38365 drm/client: Fix memory leak in drm_client_modeset_probe
+ccf61486fe1e1a48e18c638d1813cda77b3c0737 procfs: block chmod on /proc/thread-self/comm
 d5a821896360cc8b93a15bd888fabc858c038dc0 tracing: Fix memory leak of iter->temp when reading trace_pipe
 ac522fc6c3165fd0daa2f8da7e07d5f800586daa nvme: don't reject probe due to duplicate IDs for single-ported PCIe devices
 b8f6446b6853768cb99e7c201bddce69ca60c15e nvme-pci: fix DMA direction of unmapping integrity data
@@ -402,6 +443,7 @@ b7a57386b851aa28547c0d389644ec77d59cbc23 Merge tag 'drm-misc-fixes-2023-07-13' o
 b685f1a58956fa36cc01123f253351b25bfacfda net: ethernet: ti: cpsw_ale: Fix cpsw_ale_get_field()/cpsw_ale_set_field()
 56a16035bb6effb37177867cea94c13a8382f745 bridge: Add extack warning when enabling STP in netns.
 1d6d537dc55d1f42d16290f00157ac387985b95b net: ethernet: mtk_eth_soc: handle probe deferral
+77b652535528770217186589d97261847f15f862 attr: block mode changes of symlinks
 797311bce5c2ac90b8d65e357603cfd410d36ebb tracing/probes: Fix to record 0-length data_loc in fetch_store_string*() if fails
 4ad23d2368ccce6da74edc74e69300a4d75a2379 bna: Remove error checking for debugfs_create_dir()
 a822551c51f0dc063305ca16b9dd0dec7fe1f259 net: ethernet: Remove repeating expression
@@ -414,6 +456,7 @@ c20ecf7bb6153149b81a9277eda23398957656f2 iommu/sva: Fix signedness bug in iommu_
 963293ff058cef54718fd225a542c73778257b3c tools headers arm64: Sync arm64's cputype.h with the kernel sources
 cc8ff2dfcb948f16267335ba5440a42abb41aee2 ASoC: rt5640: Fix the issue of speaker noise
 9f87fc4d72f52b26ac3e19df5e4584227fe6740c block: queue data commands from the flush state machine at the head
+6a8e1b3b709217dddb23502f1f592fc01086fd21 fs: Fix error checking for d_hash_and_lookup()
 ea33cb6fc2788f9fe248d49e1c0b2553a58436ef accel/qaic: tighten bounds checking in encode_message()
 51b56382ed2a2b03347372272362b3baa623ed1e accel/qaic: tighten bounds checking in decode_message()
 ddbd91617f6d0b2fd8d509c45348a56125df07b1 Merge tag 'ceph-for-6.5-rc2' of https://github.com/ceph/ceph-client
@@ -770,14 +813,5 @@ b0d2be0574b4f2fe1d625e6d8bcecc2d00841c2d fs: rename i_ctime field to __i_ctime
 fc66c4c9dc907ca2c1c1e6e16a69033a456e65e7 libfs: Add a lock class for the offset map's xa_lock
 adef173e1153a51a423459016d71ed96d4ca0baa Merge branches 'vfs.readdir', 'vfs.misc', 'vfs.ctime', 'vfs.fchmodat2' and 'fs.proc.uapi' into vfs.all
 810b5fff7917119ea82ff96e312e2d4350d6b681 Merge branch 'vfs/vfs.all'
-91fa16e2f515b45a4171ccaa58eb1aa22d03f96d EDITME: cover title for ctime
-af324b37676bf89375961975acb5235b01558912 fs: implement multigrain timestamps
-a437122d352d01e7e78bb103030b20335d3aae99 fs: pass the request_mask to generic_fillattr
-494a40e02e9c4d10abca3a0dcdf70eeb0cdfa4db fs: add infrastructure for multigrain timestamps
-3678a0cb41896346be6bb93ff0857466bc85acb6 tmpfs: bump the mtime/ctime/iversion when page becomes writeable
-4a32e8c3f0e2d418661cda9fbee0c9b34042656c tmpfs: add support for multigrain timestamps
-4f296fec2249790654d1259f6e927bf3c141df26 xfs: switch to multigrain timestamps
-740fe4039dde476639081dd1e5511f10c8d28c61 ext4: switch to multigrain timestamps
-0b9e65c9676231ae099f5908b5e63c93366f189b btrfs: convert to multigrain timestamps
 
---===============8497881869677305893==--
+--===============1109907982222240685==--
