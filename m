@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7829708131510957716=="
+Content-Type: multipart/mixed; boundary="===============8047816309643682278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 25 Jul 2023 21:26:35 -0000
-Message-Id: <169032039515.31320.1390519152128903676@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 21:26:52 -0000
+Message-Id: <169032041273.31495.6056486860448655715@gitolite.kernel.org>
 
---===============7829708131510957716==
+--===============8047816309643682278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/futex
-    old: 3b4aa104baf04deae004c10a42126bdb9ba12400
-    new: 463aaa496e2bce686fcb23260b2ed2d9c408c26e
-    log: revlist-3b4aa104baf0-463aaa496e2b.txt
+  - ref: refs/heads/waitid
+    old: 73b4e56155703bc724e12244dc6ee385c8403c47
+    new: d63491482f24cbbb2e6c788b5d4ca0ff602af1ca
+    log: revlist-73b4e5615570-d63491482f24.txt
 
---===============7829708131510957716==
+--===============8047816309643682278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b4aa104baf0-463aaa496e2b.txt
+Content-Disposition: attachment; filename=revlist-73b4e5615570-d63491482f24.txt
 
 8bbcf56cde6ca248e6f3508454b3bcef82596a7f Improve debian build
 85c2e60cb51742f0a5bc3d293a3e69a444d0d39c Add link for io_uring_prep_cancel_fd() man page
@@ -42,5 +42,11 @@ f01421b7bc6c35ccc5945d3e50a9e48f9e793c9a test/futex: break early if there's no f
 e79f0e4a59ebf2d8d9bff697452c5d31bce4ee05 liburing.h: update futex prep helpers for new sqe layout
 1a29af7b62d6fbf2b8fbf5f5375a594d7ab57abf Add 'flags' to futex prep helpers
 463aaa496e2bce686fcb23260b2ed2d9c408c26e Update for new prep_futex_waitv() prototype
+531f5671c26ca5396ad1704f9eb330c4b0b2cd97 Add waitid test case
+347e6dd4b9f91ec8e4d85718b126ef47cf75c136 test/waitid: add explicit cancel test
+b4a87323cba71b11b6d9fd6148244bf7322526f7 test/waitid: drop rusage
+79d56dfdf60592400037d442b4f1d8612cd11f43 test/waitid: shorten wait times
+909e43e9644f37ab84209fe74f0d85ae93e93f9a liburing.h: add `io_uring_prep_waitid`
+d63491482f24cbbb2e6c788b5d4ca0ff602af1ca man: add man page for `IORING_OP_WAITID`
 
---===============7829708131510957716==--
+--===============8047816309643682278==--
