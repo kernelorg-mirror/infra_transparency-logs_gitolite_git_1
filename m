@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7633052070762946307=="
+Content-Type: multipart/mixed; boundary="===============0881772090230641155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 25 Jul 2023 15:57:08 -0000
-Message-Id: <169030062856.12390.11164023148919355932@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 15:57:26 -0000
+Message-Id: <169030064619.12587.3176655437106576926@gitolite.kernel.org>
 
---===============7633052070762946307==
+--===============0881772090230641155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.5
+  - ref: refs/heads/for-next
     old: 7aa303bf1bd244cd4c6d9f2f3f543f74f033166e
     new: 1e4ab7b4c881cf26c1c72b3f56519e03475486fb
     log: revlist-7aa303bf1bd2-1e4ab7b4c881.txt
-  - ref: refs/tags/block-6.5-2023-07-03
-    old: 0000000000000000000000000000000000000000
-    new: 10aa8a229e89961f2b2f7fed9061ebad7e1e7d13
-  - ref: refs/tags/block-6.5-2023-07-14
-    old: 0000000000000000000000000000000000000000
-    new: 7d48fb83c30c260540ce8ab69fb9c0082313e923
-  - ref: refs/tags/block-6.5-2023-07-21
-    old: 0000000000000000000000000000000000000000
-    new: d6eef14eac19527e2644f826269aecb4feb51f32
-  - ref: refs/tags/io_uring-6.5-2023-07-03
-    old: 0000000000000000000000000000000000000000
-    new: 62bd66b3a1fa967321bfb2ae646a3d8d5836c163
-  - ref: refs/tags/io_uring-6.5-2023-07-14
-    old: 0000000000000000000000000000000000000000
-    new: 40427ae7f1945a8cbd5f3bc8fd768103890e1761
-  - ref: refs/tags/io_uring-6.5-2023-07-21
-    old: 0000000000000000000000000000000000000000
-    new: 3fc1ae72fb5db62c9f1d9d5aa84c37703493abc9
-  - ref: refs/tags/v6.5-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
-  - ref: refs/tags/v6.5-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
-  - ref: refs/tags/xfs-async-dio
-    old: 0000000000000000000000000000000000000000
-    new: 22516601121590ecbadd324a86091e7acc1b8555
 
---===============7633052070762946307==
+--===============0881772090230641155==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -362,4 +335,4 @@ e74c874eabe2e9173a8fbdad616cd89c70eb8ffd dm raid: clean up four equivalent goto 
 7d5fff8982a2199d49ec067818af7d84d4f95ca0 dm raid: protect md_stop() with 'reconfig_mutex'
 1e4ab7b4c881cf26c1c72b3f56519e03475486fb dm cache policy smq: ensure IO doesn't prevent cleaner policy progress
 
---===============7633052070762946307==--
+--===============0881772090230641155==--
