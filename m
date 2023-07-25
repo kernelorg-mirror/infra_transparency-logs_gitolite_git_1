@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1849663464705146183=="
+Content-Type: multipart/mixed; boundary="===============9053144390083662465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 25 Jul 2023 06:52:33 -0000
-Message-Id: <169026795358.15216.9072726544271430634@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 06:52:37 -0000
+Message-Id: <169026795741.15304.8710948188282953272@gitolite.kernel.org>
 
---===============1849663464705146183==
+--===============9053144390083662465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: fdf0eaf11452d72945af31804e2a1048ee1b574c
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     log: revlist-fdf0eaf11452-6eaae1980760.txt
 
---===============1849663464705146183==
+--===============9053144390083662465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690267952 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690267956 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1690267952-a3fecb2e01e40edf45d2f697264f7956a69ead25
+nonce 1690267956-7389cac5fd7a8d800a49fd009a0f60d7dda659d7
 
-fdf0eaf11452d72945af31804e2a1048ee1b574c 6eaae198076080886b9e7d57f4ae06fa782f90ef refs/heads/tty-next
+fdf0eaf11452d72945af31804e2a1048ee1b574c 6eaae198076080886b9e7d57f4ae06fa782f90ef refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/cTAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+01wQAIv/9223O98SCUANZ/2M
-PkrYPe0+ur5DBbdkLTKT0rK/stDBYkVTjS27RrygEtpd8D0E3uTxc2+pH62sQTEL
-0PUVInTX+QFlvPKtJJ9GtPF82itYzEiJwnFj+eoXNwphBC1StgQgGDrLAf9fCi2n
-7hj9ZJaKSSEtdB9ikz7+rlc3ujM3/w1a1UKmekdIQYonBbGgqAR7djm1ApdfO5FE
-JSShMCFVUEzYV653TXLwI2YVBwrh634Mf73txPjQG/QIv56kOO3LboNrETCHIJZA
-EIOSpjTs80L2c0fIgQEWjObc9j1o8cZlsP0fVMpWKN+sBVG64asIS/hbCRXPQH/f
-UKDWAgjA6fOcwCteR9kheleu8/A8zarzeX4kDwdO/xMYu6W6KbhxpjSLPfKWEn5N
-eLKcpptQJFGIylBzgSl45WD0UDrBmyuWTc6qcIe5HtpV36C7tvMqdPpqAaYIpVGw
-5sEeOTYKlr75lHBqq2mXk6qGHFaDoPgNn6fCwJMzGleOS2J4Uy0cv5G2AdmAYYAF
-jyEjFb/Hgf9tx0rC+AJrmMTa6e73ir5mOI8pcuagFCaHnRaPjQ2+aXXuajjkzlNN
-Q6BRaNRnyppEdKN2bubS0voXkI3ZjhWjZILAyITDHcTtBNpf1yQ8Fm+GQ3EOtXHw
-T0qiE+r8yVJw0H4DzULpyTB2
-=ycI+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/cTQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Uf0QALkEmZpcJkkYacQpAlbQ
+RxCF7yOO4DIpREkOFLDGd6xoGkr4FCaXlqZ9A2PApf4m+t/mUyLyZhq580w/PL2x
+wan9mNbW6rR0OCemcWOTBFJeYKIRfD3KSQFNYViSMAqaWh/0sS+iliCQvhW96cUt
+JANnjhaU2DikXAGR94g+Ftke3SvHyQ+7KrXeAeibQhxwJeP/HpeQxRI6mlZE0kFA
+bJPxigKnPlRBpHvqK4Mo7/suPmutDVmRa211tbTHuzpEk0KmOob4iyxdmVQq0QsJ
+7+NcX/vJjiyzU1pndfrHCap6cWl6FaB7e4Vag3judrhh7mpjreJcmhVMeR8sC+qB
+MXIsO0hA2xVuOozc0ZaqTC5vQ5/De5i6WT6hD/v/Fbc02sMKQxkfB1fAPWIRGktx
+UBs4bUKnmAfDK5S3yZ0d7mEyVDO8sfcPgEzrUW9RudulKpJSRJpsr3yLYcUXKEmT
+2E5ulJLp80hUf2s+U34hIIzCp2vJpKo7F6vcft62CC3zWFFR+rIb8l69dKm2VrrA
+k3s4AB3hOXvXIgHCH5dPW7OkaYyy6Ep1/aMpCWQK9iM259CPfx8OS6xkymk7qRIX
+yEydg7o3WMkG8tlSbuB4x42AGNeo646X3ZdSkl5TsB/Q0i7vwCZCKnne2Xh+moik
+Ib+wqF6ZaO2Tt6a/vM5/VD0E
+=Gwtz
 -----END PGP SIGNATURE-----
 
---===============1849663464705146183==
+--===============9053144390083662465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -440,4 +440,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============1849663464705146183==--
+--===============9053144390083662465==--
