@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9175963014281144443=="
+Content-Type: multipart/mixed; boundary="===============2181509529627955919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 25 Jul 2023 17:53:29 -0000
-Message-Id: <169030760984.2996.15803357211519177400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Jul 2023 17:53:36 -0000
+Message-Id: <169030761601.3102.7943908950160773140@gitolite.kernel.org>
 
---===============9175963014281144443==
+--===============2181509529627955919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: f061e2be8689057cb4ec0dbffa9f03e1a23cdcb2
     new: f85739c0b2b0d98a32f5ca4fcc5501d2b76df4f6
     log: |
@@ -29,28 +29,28 @@ changes:
          f85739c0b2b0d98a32f5ca4fcc5501d2b76df4f6 ASoC: atmel: Fix the 8K sample parameter in I2SC master
          
 
---===============9175963014281144443==
+--===============2181509529627955919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1690307608 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1690307607-11ef281feda3d8311597727eb955f45327b4b210
+pusher C3F436CA30F5D8EB 1690307614 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1690307614-301f588f34a465639bbf930908630d3d938644ec
 
-f061e2be8689057cb4ec0dbffa9f03e1a23cdcb2 f85739c0b2b0d98a32f5ca4fcc5501d2b76df4f6 refs/heads/for-6.5
+f061e2be8689057cb4ec0dbffa9f03e1a23cdcb2 f85739c0b2b0d98a32f5ca4fcc5501d2b76df4f6 refs/heads/asoc-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTADBgACgkQJNaLcl1U
-h9ASxwf8Dd7gOSWbKqWjIJ2maq2NFe+AdhC8avDk8Mjc9Y0h0kAoIQXmPjFHP53W
-vpH70sqP1b1FwQhRVYJ37mRDuMScG8v8lKgUKWD/ceKh/cbrAg/0E/7FCWw435eJ
-jsTvMh4pIyg4nlUZL2RtDnsZ/dUu+S0GzUxm3FTfKacTa5yTcD0lTP0uggW/IKIy
-JsbBwPlhr+pLiRkCaJGmXjRhfctngTcGmjVBoPje5mPgrGI77kcmcv52/2DysOLz
-2sDs1Ia64BM9ONVQ0BcgxQ07elB9lVGpQR3iyiC6xpFs//QjS2hqmnKmr6dt85yn
-K9+YpSNNdKTU8o46ntHxCYOFTVIH5Q==
-=ymuQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTADB4ACgkQJNaLcl1U
+h9AVzQf/a+YLVmrxyGThpSJOc8lImAnfwOSW7lXBq5Gv5T5bf29TzkwJ1PfXc1Tj
+8RtlFOnA1+v2/QJJO8ZOf8o8XEpeb0cnkX1h/Up7sHwZBt5yd/nhz/Pno4IUJnUi
+gU/gMB6t1aDWw4VWQ/Q9jmX0g3P/6mdRQyTuKc0BqWdUYJ2bbIbQnkRQ3XJJkaO+
+4zYZAKhQAaQPCnAopfLmdHrjZqJhjTLFnE10VHGynZREHx/erTZrB/LcFfkt9UK8
+ao3/UMfQ+mX9CAgNQ8YbfoQq31iBdO7UnEdz3jXDEf94T3iWsybejWjJWpfKWFHx
+o3HniX8p76ZGGvos6/xB4TlklTkvTA==
+=xFl0
 -----END PGP SIGNATURE-----
 
---===============9175963014281144443==--
+--===============2181509529627955919==--
