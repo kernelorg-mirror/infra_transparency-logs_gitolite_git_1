@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5906466294604241624=="
+Content-Type: multipart/mixed; boundary="===============3436770931647077027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 25 Jul 2023 06:56:49 -0000
-Message-Id: <169026820914.18953.1851938300772310121@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 06:56:52 -0000
+Message-Id: <169026821269.19049.6100274083969918240@gitolite.kernel.org>
 
---===============5906466294604241624==
+--===============3436770931647077027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: fdf0eaf11452d72945af31804e2a1048ee1b574c
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     log: revlist-fdf0eaf11452-6eaae1980760.txt
 
---===============5906466294604241624==
+--===============3436770931647077027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690268208 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690268212 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1690268208-0e1903d74fa174ae8b39ad8b5cb5b08811865ea0
+nonce 1690268211-0cac0d3a1b0a921f2ccafce36cae9f9ed8dde74a
 
-fdf0eaf11452d72945af31804e2a1048ee1b574c 6eaae198076080886b9e7d57f4ae06fa782f90ef refs/heads/staging-next
+fdf0eaf11452d72945af31804e2a1048ee1b574c 6eaae198076080886b9e7d57f4ae06fa782f90ef refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/cjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qXUP/RbLe3ltYc7CxW+WIHql
-3Pihlxzjd7Sw06aXSmvSUBdr00NeIV5MIEcuMIzdEvoioBcelYhlErJwaxn3IEU5
-20+rEeOmxJHSKNS5ylnkC9VEu+Vu7r9ngPpkuKQ6brEowqRcotIwRS/0cijtwxrY
-FW4DLM/pSryG4Yn/Hi0AAEFtLbnw8SxH3O1WLjU+eKyZk85IEYsVN9XCOcgTk/yY
-QfRdtECk8abWohVGezPF+deaZIXaoub9DXUFLf37H2oqt+NHAJCJxHk+ZHqW1Ulq
-R6415Hlod1fUMzMyoUvx5j66Hdi5fdOFW/e9kQFxmd4YCCso2gVLk+1SUOA+f5GS
-gAQ1+WBtFuloHBxoGrfdrK8eUOeZxeAmzpwxKGSnnz13bhp4x3vLp9Fh98j0zxNA
-twfWyNHb/Rsx+kMbO9m0fEeOzUqz7DQrWl0CUnX33VqFP9jhrd9bT0MM1KLaOw2K
-IWWEDpRqkL3PtiPgqWP8mkVioG66nrsfEczNEm15h6yEXKnRL3YdGZUW0tB8MMTo
-D0ewiso9YG/WpV+xRy0AssOt3hj9JmbRhbyE4YM9hjx/RhoMJ5vrOM0drZJx8v2/
-HXZpNCozv5OwXShOEHKo73LPhClE8ecGIDBICUBNi8Tr1k1JEYy5f3e0ZPY/tABX
-eqZ78ngQim0jX56DdDVt5L58
-=9Z9L
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmS/cjQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o3QP/ja6mAx+DKz7eJpSET6T
+rGzd1zl5vvQZ8/kif/JUSzPLQF//dttDPtScaaihe5oZq5tp1zQk6pBBs1SIyR4V
+EBe3hJ3m4o6+NWlIovAVIL2kOOjyHtwI02P0DGScOEE3lzMCERr/Xc3OyIyvPar8
+jsRg+YATPOcjHtwKrfJsa+gekYOgKUzvXFZInzsbIyK3kG58bjASY7Yh7kbL11Wx
+lUKcHEApXq9XQT9jaqPXVLayjyDrQrRVYp9WiaCQeFV+8qDL8t4x2kVEwErJGRf+
+N0ajC2MD2tQkKmut2Bs/3fHlmrUWeJK6w0hZV5RvtaPgI1ZYjyZ3u9VVCb24v2QT
+KnSzqb/Pnm9u8JoSRqITtkiCf2pmOXIjgnSRykPOewsKeiYOIU+8bwwjd1c9hBm7
+HAq+aoY/ITgfW5Kp8s4NVOJYF64l6Y+1kDU/y1CFPBCQ4QpgfaI5o21soEjvHOwI
+2RVSAANcGbU+6M2YFuWclnbrnkBn4buhqwy31mfVIrvCmtZ7UEQqji20QsYNDkl3
+fCnKdLxxgPwg6hvR+RTkCaWRsCvNjNmDMINkNNvmpDAclZg8pUstdxwiCNxg0Xg8
+spJJnc89qtqDVI+bCmGY+PhCa7TM8E0ElB9Y1VNzHww+PMkj0VqffRgsIaXa/GOf
+9XShbuNKA9zjNgOzOUnvfizP
+=fg+D
 -----END PGP SIGNATURE-----
 
---===============5906466294604241624==
+--===============3436770931647077027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -440,4 +440,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============5906466294604241624==--
+--===============3436770931647077027==--
