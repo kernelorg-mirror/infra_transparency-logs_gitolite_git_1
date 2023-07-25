@@ -1,34 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 25 Jul 2023 20:35:48 -0000
-Message-Id: <169031734886.26710.8434445211499932299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 25 Jul 2023 21:17:09 -0000
+Message-Id: <169031982910.24473.12946935065160547061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/for-linus
-    old: 789217d241a4856cff61070b4f214010e00ff740
-    new: 535350d39ddc0a64f1fe69a60e7114b27cf7b52b
+  - ref: refs/heads/master
+    old: 7b2b20125f1e9ec49e3d13c41264afef70e70463
+    new: 36397a189513c8bf9736d07360238a09a4694b90
     log: |
-         17aaf9ea07b656016316dc37716e987742b3e296 spi: spi-qcom-qspi: Ignore disabled interrupts' status in isr
-         f7ba36d399c4558f36886adff9400be591b245f6 spi: spi-qcom-qspi: Use GFP_ATOMIC flag while allocating for descriptor
-         cfb81f2243b25a0d79accc6510ad66c5c5ad99ba spi: spi-qcom-qspi: Call dma_wmb() after setting up descriptors
-         916a4edf3daed845b1e5d6cf0578a7e43c6f520e spi: spi-qcom-qspi: Add DMA_CHAIN_DONE to ALL_IRQS
-         535350d39ddc0a64f1fe69a60e7114b27cf7b52b Merge remote-tracking branch 'spi/for-6.4' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 47fec99d0d95c58daa2becd25f25c874109fd06d
-    new: f89cf3035649e97e6d9431775f63247e59bc6ec2
-    log: |
-         17aaf9ea07b656016316dc37716e987742b3e296 spi: spi-qcom-qspi: Ignore disabled interrupts' status in isr
-         f7ba36d399c4558f36886adff9400be591b245f6 spi: spi-qcom-qspi: Use GFP_ATOMIC flag while allocating for descriptor
-         cfb81f2243b25a0d79accc6510ad66c5c5ad99ba spi: spi-qcom-qspi: Call dma_wmb() after setting up descriptors
-         916a4edf3daed845b1e5d6cf0578a7e43c6f520e spi: spi-qcom-qspi: Add DMA_CHAIN_DONE to ALL_IRQS
-         535350d39ddc0a64f1fe69a60e7114b27cf7b52b Merge remote-tracking branch 'spi/for-6.4' into spi-linus
-         f89cf3035649e97e6d9431775f63247e59bc6ec2 Merge remote-tracking branch 'spi/for-6.6' into spi-next
+         f0ea27e7bfe1c34e1f451a63eb68faa1d4c3a86d udp: re-score reuseport groups when connected sockets are present
+         67312adc96b5a585970d03b62412847afe2c6b01 bpf: reject unhashed sockets in bpf_sk_assign
+         ce796e60b3b196b61fcc565df195443cbb846ef0 net: export inet_lookup_reuseport and inet6_lookup_reuseport
+         0f495f7617229772403e683033abc473f0f0553c net: remove duplicate reuseport_lookup functions
+         2a61776366bd17db9ac8c93ec32b8e0ae6b11cf2 net: document inet[6]_lookup_reuseport sk_state requirements
+         6c886db2e78ce1dee163d07240467770a235f33e net: remove duplicate sk_lookup helpers
+         9c02bec95954252c3c01bfbb3f7560e0b95ca955 bpf, net: Support SO_REUSEPORT sockets with bpf_sk_assign
+         22408d58a42cb59b88dcec3694f477a838dd68ed selftests/bpf: Test that SO_REUSEPORT can be used with sk_assign helper
+         36397a189513c8bf9736d07360238a09a4694b90 Merge branch 'Add SO_REUSEPORT support for TC bpf_sk_assign'
          
