@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3349646132370543948=="
+Content-Type: multipart/mixed; boundary="===============2158330753677100901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 25 Jul 2023 16:47:55 -0000
-Message-Id: <169030367538.18426.559109300701715527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Jul 2023 16:48:01 -0000
+Message-Id: <169030368199.18554.11802577474463936752@gitolite.kernel.org>
 
---===============3349646132370543948==
+--===============2158330753677100901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 85d12eda2382cd5b93eed720b5a08f39d42cfef4
     new: 2b7aecd58528551e6e3da58091ff7ceb4718e6be
     log: |
@@ -29,28 +29,28 @@ changes:
          2b7aecd58528551e6e3da58091ff7ceb4718e6be ASoC: rt1017: Add RT1017 SDCA amplifier driver
          
 
---===============3349646132370543948==
+--===============2158330753677100901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1690303673 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1690303673-1a9f5b9e527e6c1c2db58ec15b354d6b7c04e3f1
+pusher C3F436CA30F5D8EB 1690303680 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1690303679-6ff8aa234029d73bea3518dedbec3515a94c5c1d
 
-85d12eda2382cd5b93eed720b5a08f39d42cfef4 2b7aecd58528551e6e3da58091ff7ceb4718e6be refs/heads/for-6.6
+85d12eda2382cd5b93eed720b5a08f39d42cfef4 2b7aecd58528551e6e3da58091ff7ceb4718e6be refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS//LkACgkQJNaLcl1U
-h9Ce6gf8CKU6b/Z70qwZ9fSmMplI0CeqOxk/Ma1lrsG8OqEkL6s2admopafKVZjF
-NpHVpgdmEdqf7ZHA3QIyYco+xmnuA0Z8/7+rhcVoQ9ajqWif2xLGhMKlzyz90HLF
-MGqoHxdfLrDyx1JrKntAY445QQSywRHd99Npgn8Gk7ZJrFCvjswXpwtVYye0Hp1H
-onJWu8NN2WtCGciv5PyC8stTAXFk0ZfPqWVy6G1HLmw6mzT7ZyufZKA34TkOSG7N
-JL0QPm0zjAQb/320RiHnoWj6ED4TEQ+sspA9AFRMuAF3VlL1p5tn3JJJrP6iDRxQ
-QCI/ZfJf80wyRL3TugXyToDg7uTCeg==
-=YtUe
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmS//MAACgkQJNaLcl1U
+h9BQzwf/dMCz0vG3Tnhm3RsBZbS+oT/vPc1vBlBDCjUYaRWYJGFnTi5RZKXBAEkP
+bDsh3u9rESmvEM/4l/QCdGGXiMHMZGkTKjgLXeF71fGRFzRH90r+Az3BEXbNv01z
+XeK+9mld2KGeXDjkDMMa4hi6ZaRfd5vd1tNaCqHinXQUXnfDaITokZBh5Q4+fGGG
+iCFaocWh8LcRA4dAat79w5YN7aJgqo8DjGhtvl/+d1NsPoYcgB9nSGysvR5mStTn
+SvUXa0w+uxgY/lki2w2NLdN20r2GwDjovB5tg7vAVaRZGfXcSLAq9fPrOKatIDVV
+EruxiuV8E7nG6+iv64fvSILH53sYtA==
+=ZT3C
 -----END PGP SIGNATURE-----
 
---===============3349646132370543948==--
+--===============2158330753677100901==--
