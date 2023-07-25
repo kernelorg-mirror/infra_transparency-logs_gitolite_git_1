@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 25 Jul 2023 19:42:30 -0000
-Message-Id: <169031415001.19254.10139372053563839052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 25 Jul 2023 19:51:55 -0000
+Message-Id: <169031471561.25855.4675976880100051948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: d8ca06631b7434ea8837f9c571bfe31d6602d31f
-    new: 4d714becb7df1fd928340ffc5b9a759f9a625c47
+  - ref: refs/heads/for-linus
+    old: 7ece3fae5ff0d1e2d947580f922a16492f0ddd81
+    new: 1d7f15a6d4e866fd0afb610a03e6862a70e37477
     log: |
-         06ec4f61000aad92df33ff7d95df0594136797b6 shared/vcp: Fix the crash observed with VOCS
-         2a0e392b40fae902ebf4d789a0456df020bbcc16 shared/vcp: Fix issues of audio location and descriptor
-         4d714becb7df1fd928340ffc5b9a759f9a625c47 shared/vcp: Reserve one more handle in VCS for VOCS
+         98777c45aaf6bf4ec1e78e960ed01b93ce3b10eb Revert "PCI: dwc: Wait for link up only if link is started"
+         1d7f15a6d4e866fd0afb610a03e6862a70e37477 Revert "PCI: acpiphp: Reassign resources on bridge if necessary"
          
