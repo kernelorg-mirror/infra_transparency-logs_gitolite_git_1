@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6120951156785693811=="
+Content-Type: multipart/mixed; boundary="===============8781862730995869210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 25 Jul 2023 00:44:29 -0000
-Message-Id: <169024586934.28947.10102979186791856822@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 00:44:48 -0000
+Message-Id: <169024588802.29147.18377505486336565848@gitolite.kernel.org>
 
---===============6120951156785693811==
+--===============8781862730995869210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/whatamess
-    old: 294444ba0c5ab5789de57921f826fe90e9637f66
-    new: 7d9d0cb5f8bdc5a515d925d27cb6f968efe98f49
-    log: revlist-294444ba0c5a-7d9d0cb5f8bd.txt
+  - ref: refs/heads/master
+    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+    new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+    log: revlist-fdf0eaf11452-6eaae1980760.txt
+  - ref: refs/tags/v6.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
 
---===============6120951156785693811==
+--===============8781862730995869210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-294444ba0c5a-7d9d0cb5f8bd.txt
+Content-Disposition: attachment; filename=revlist-fdf0eaf11452-6eaae1980760.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -186,6 +189,11 @@ ee8b94c8510ce64afe0b87ef548d23e00915fb10 can: raw: fix receiver memory leak
 ccb381e1af1ace292153c88eb1fffa5683d16a20 powerpc/kasan: Disable KCOV in KASAN code
 2480232c61b888a160153b9022858ac8c4362d5f perf test task_exit: No need for a cycles event to check if we get an PERF_RECORD_EXIT
 dc050849d93f4c5d8a88dc6789668212b7785967 Merge patch series "can: gs_usb: fix time stamp counter initialization"
+371baf5c9750a258fee21d0cb8c8d683bb057429 xfs: convert flex-array declarations in struct xfs_attrlist*
+a49bbce58ea90b14d4cb1d00681023a8606955f2 xfs: convert flex-array declarations in xfs attr leaf blocks
+f6250e205691a58c81be041b1809a2e706852641 xfs: convert flex-array declarations in xfs attr shortform objects
+20c64ec83a9f779a750bbbcc1d07d065702313a5 iomap: fix a regression for partial write errors
+efa96cc99793bafe96bdbff6abab94d81472a32d iomap: micro optimize the ki_pos assignment in iomap_file_buffered_write
 5f4fa1672d98fe99d2297b03add35346f1685d6b iavf: Fix use-after-free in free_netdev
 7c4bced3caa749ce468b0c5de711c98476b23a52 iavf: Fix out-of-bounds when setting channels on remove
 a77ed5c5b768e9649be240a2d864e5cd9c6a2015 iavf: use internal state to free traffic IRQs
@@ -403,17 +411,5 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-f7f9a0c8736d418af8d981000ea68ea43b395da4 iov_iter: Map the page later in copy_page_from_iter_atomic()
-908a1ad89466c1febf20bfe0037b84fc66f8a3f8 iov_iter: Handle compound highmem pages in copy_page_from_iter_atomic()
-1b0306981e0f1e5a9ad3d08b9c88bfe21b68e3b9 iov_iter: Add copy_folio_from_iter_atomic()
-a221ab717c43147f728d93513923ba3528f861bf iomap: Remove large folio handling in iomap_invalidate_folio()
-32b29cc9db455f69ac792c637aea11493bfaf1bc doc: Correct the description of ->release_folio
-7a8eb01b078f6280089347feee02aebda0024880 iomap: Remove unnecessary test from iomap_release_folio()
-ffc143db63eeea7c8a27deb3c56d090a220a1ace filemap: Add fgf_t typedef
-4f66170119107f1452d2438ba4606e105e9e3afe filemap: Allow __filemap_get_folio to allocate large folios
-d6bb59a9444d218dc60dee3b45fd93c0d4f5e123 iomap: Create large folios in the buffered write path
-5d8edfb900d55db7dbf2dbf325bfb9fdb863ec72 iomap: Copy larger chunks from userspace
-d42bd17c6a20638ddf96862bfc0c47e481c28392 Merge tag 'large-folio-writes' of git://git.infradead.org/users/willy/pagecache into iomap-6.6-merge
-7d9d0cb5f8bdc5a515d925d27cb6f968efe98f49 Merged korg/vfs-for-next at Mon Jul 24 17:44:24 PDT 2023.
 
---===============6120951156785693811==--
+--===============8781862730995869210==--
