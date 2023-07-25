@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7205002063414917340=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 25 Jul 2023 17:30:17 -0000
-Message-Id: <169030621789.18649.5429841004384634035@gitolite.kernel.org>
-
---===============7205002063414917340==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 25 Jul 2023 17:47:44 -0000
+Message-Id: <169030726491.31226.18215117025886030399@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/tty-linus
-    old: 9b9c8195f3f0d74a826077fc1c01b9ee74907239
-    new: e29c3f81eb8904edb762ea450aa78f52e5044b31
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
+    old: 4b83a272d6369e5e1f310cfd86d96708c7e22ce7
+    new: fd827cc20016b088917fa291db4f6d3fad88a1a4
     log: |
-         767bb2aacf64752946f0a72fcec521a4968b2942 MAINTAINERS: Update TTY layer for lists and recently added files
-         e29c3f81eb8904edb762ea450aa78f52e5044b31 Documentation: devices.txt: reconcile serial/ucc_uart minor numers
+         f5934c3f8ba55f8997bb363b3c392757ee744bae SUNRPC: Deduplicate thread wake-up code
+         0221844b23f51736e8fe10a59e46789afdb38b21 SUNRPC: Report when no service thread is available.
+         30cae85e4461a434c0b5af97298074142df8fb16 SUNRPC: Split the svc_xprt_dequeue tracepoint
+         b8aa06896ced2829f41b7b62380250fc7e9cf891 SUNRPC: Count ingress RPC messages per svc_pool
+         3363f1d794c9d9d32d711b64274b31cf62a68e61 SUNRPC: Count pool threads that were awoken but found no work to do
+         42397cdea5a71a7f0fbcfbeb750ec6b41fe9aef7 SUNRPC: Clean up svc_set_num_threads
+         fd827cc20016b088917fa291db4f6d3fad88a1a4 SUNRPC: Replace dprintk() call site in __svc_create()
          
-
---===============7205002063414917340==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690306211 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1690306210-6e6be74da6f37ac2cb70807ffc1f8ef931c0f8f7
-
-9b9c8195f3f0d74a826077fc1c01b9ee74907239 e29c3f81eb8904edb762ea450aa78f52e5044b31 refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTABqMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ub8P/isvCgXezFdXaRr4/JML
-Z7Zi6i4xVTtHXaVmjejOytCKFudCQcPUkdYRbEml7jZfn7A8jdWV80cdanQh50b0
-XKQv5Txl3VpJ9i0/+t0xMxvJ9MnHN6gWQJGLBgCwZ/jg6b4RcBHR7Z3/65Y6lbWo
-2HzcIYoaINnQKz9hihQyXNAgBXsr8SjONz/PGdX5r5/thW2MElORd6LUrIyxbT7R
-ATVjDauX43aIftHxjA36pPH1/mysYpyAQYvKJjxSFH0DJpR3looh2aueNMNNylyJ
-buhLxVCzZONuQtuITjgNaVSR3MjCop/Kd7CnGvhJw3eHFLhU0+H3geNNvSumoFLJ
-V0geQ4Yd/E+ZLP7aTNP0W0QMmwxze0rNj1LtB9sbehkrMxbheGISp+o8+NWbn/vv
-egj5QeAKP/LvCufoqUczzmDEJzJogpYmhyvYLVJWpI+KO+5OosD/4J6/eo5PkL7z
-fDbdwWc9LUH+vL0w08rgECyA4OCA6OEXbzO/d/cFNuc9AK+sTt2DYsJm6JonIz6g
-N7JB5AiaTUJ+7i9fjpueOmH2/gx4uO2+ro0CWCxKhxr11LpPlx2iDCx+De4XWxnv
-U7lABNYuCllf2Dq0Zaidl4+2i9NmWFexbyC7cuqAnIBOzkfBaAhYutlQhgHMCNBf
-P/dbG5S2pmhp2W5vbfH91wUy
-=xsm9
------END PGP SIGNATURE-----
-
---===============7205002063414917340==--
