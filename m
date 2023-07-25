@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 25 Jul 2023 22:57:24 -0000
-Message-Id: <169032584477.32524.16223644110651998256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 25 Jul 2023 22:59:50 -0000
+Message-Id: <169032599078.1108.649469042272535441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 54504621a27df427072b17b05c10363dc0253478
-    new: fd5582a73681b19c68c82af53b924a45ce370649
-    log: |
-         fd5582a73681b19c68c82af53b924a45ce370649 Tue Jul 25 10:56:20 PM UTC 2023
-         
+  - ref: refs/heads/fileRgT4vI
+    old: 75d9bf03e2fa38242b35e941ce7c7cdabe479961
+    new: 0000000000000000000000000000000000000000
