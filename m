@@ -1,33 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 25 Jul 2023 16:48:41 -0000
-Message-Id: <169030372164.19007.4270702231495982098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jul 2023 16:49:01 -0000
+Message-Id: <169030374181.19227.18139134037190373689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 90544c04950609e7d75c30fb7c29d0387e90eef0
-    new: f5170bdba90a80bb30a10389ebb9c3844b27058f
+    old: e33cfd4154ab8eba56bc59498c514281a221660f
+    new: ebf59a054c7bed74ab2824bde7c7a659222ac416
     log: |
-         f5170bdba90a80bb30a10389ebb9c3844b27058f Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         ebf59a054c7bed74ab2824bde7c7a659222ac416 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 63dfd81b8c80400f7dd3afe6072d0185e442c9f1
-    new: 7a0973725773622e57d11dd0bf3b76aef506ef61
+    old: 69ba04e40bcddb2cc29c0236b15d137fe33fa1a5
+    new: 6a659d302f26ff962b71919f3e48d9f87801cb84
     log: |
-         4005d1ba0a7e5cf32f669bf0014dca0dd12c2a44 ASoC: soc-dai: don't call PCM audio ops if the stream is not supported
-         4ddad00c609bdcd6635537d3acb9bd57a5fc79e6 ASoC: codecs: ES8326: Change Hp_detect register names
-         f1230a27c14b4d05e1d6af02be55c617b53728a4 ASoC: codecs: ES8326: Change Volatile Reg function
-         ac20a73d765c0374f5e7b5d0f2f43c4598d69c66 ASoC: codecs: ES8326: Fix power-up sequence
-         0663286e58e6f611f3578b5e63e1faa576d139fd ASOC: codecs: ES8326: Add calibration support for version_b
-         04f96c9340463aae20d2511a3d6cb0b005b07d24 ASoC: codecs: ES8326: Update jact detection function
-         2b7aecd58528551e6e3da58091ff7ceb4718e6be ASoC: rt1017: Add RT1017 SDCA amplifier driver
-         f5170bdba90a80bb30a10389ebb9c3844b27058f Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         7a0973725773622e57d11dd0bf3b76aef506ef61 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         908e5a3d4e6f60fa2d3912be7087e745639c4404 spi: fsl-dspi: Use dev_err_probe() in dspi_request_dma()
+         ebf59a054c7bed74ab2824bde7c7a659222ac416 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         6a659d302f26ff962b71919f3e48d9f87801cb84 Merge remote-tracking branch 'spi/for-6.6' into spi-next
          
