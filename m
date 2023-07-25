@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7557533625447038398=="
+Content-Type: multipart/mixed; boundary="===============4849505052778456533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 25 Jul 2023 15:10:54 -0000
-Message-Id: <169029785475.10128.420610086728646777@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 15:11:21 -0000
+Message-Id: <169029788105.10382.14612679041544984713@gitolite.kernel.org>
 
---===============7557533625447038398==
+--===============4849505052778456533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 55612007f16b5d7b1fb83a7b0f5bb686829db7c7
-    new: ad0f768007f4a533ea7abb489be731e2ad296140
-    log: revlist-55612007f16b-ad0f768007f4.txt
+  - ref: refs/heads/master
+    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+    new: 0b5547c51827e053cc754db47d3ec3e6c2c451d2
+    log: revlist-6eaae1980760-0b5547c51827.txt
 
---===============7557533625447038398==
+--===============4849505052778456533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55612007f16b-ad0f768007f4.txt
+Content-Disposition: attachment; filename=revlist-6eaae1980760-0b5547c51827.txt
 
-55aab08f1856894d7d47d0ee23abbb4bc4854345 hwmon: (pmbus_core) Fix pmbus_is_enabled()
-0bd66784274a287beada2933c2c0fa3a0ddae0d7 hwmon: (pmbus_core) Fix NULL pointer dereference
-1d9cfa8758c447f36d663db356a5740fb7c57ddd hwmon: (pmbus) Update documentation to not use .probe_new() any more
-fd5afcf643b70241643b75d3890820aa6d7419b1 hwmon: (pmbus/acbel-fsg032) Add firmware version debugfs attribute
-b5ca532cbe93040b0dbc58063ca7333a50f1dc63 hwmon: (lan966x) Use the devm_clk_get_enabled() helper function
-153eb41b05afbaee5b81dfa4d75b782630290c44 hwmon: Explicitly include correct DT includes
-8953fa7b842f401b64f5aec08ecf2dea304383a1 hwmon: (pmbus/max20730) Remove strlcpy occurences
-0395eefa1b7d3a00fa76b4a973e57a55097578ea hwmon: (dimmtemp) Support more than 32 DIMMs
-984100e266e2e0095cdf67879bb523ebb87889ea hwmon: (bt1-pvt) Convert to devm_platform_ioremap_resource()
-3a8189e6334f78093eb9b5645e193065f58a46b7 hwmon: (nct6775) Change labels for nct6799
-ec49de48faef7b0b7878f18c53a0679f3340720e hwmon: Remove smm665 driver
-54f5d4708b41505e5e615832fbe6157398f2a885 hwmon: (nct6775) Increase and reorder ALARM/BEEP bits
-e9e81aed33e18c93eab900989f0972ef6b0b9c3f hwmon: (oxp-sensors) Move board detection to the init function
-342e7c897723a7d76fc784409e07f5a7a6a3ce90 hwmon: (it87) Split temperature sensor detection to separate function
-25c6fd2a7b0571adc3dad4b89e9a628022e0977c hwmon: (it87) Improve temperature reporting support
-6a4f37d9c4bbf0e934c447cb5c88fb13cfa0c7bc hwmon: (it87) Add support to detect sensor type AMDTSI
-801aa209f30e9180c0d67e47a84faf9ff0648841 hwmon: (pmbus/mp2975) Fix whitespace error
-7c9c8e0161426aafa4ebe8fc0f3016b8cf780df7 dt-bindings: trivial-devices: Add MPS MP2971 and MP2973
-d24395418d82a2b0a72f2c7079e35f106881f36c hwmon: (pmbus/mp2975) Prepare for MP2973 and MP2971
-4828ad6cf0e9259cc2097ba237eb3c9bc72c6b77 hwmon: (pmbus/mp2975) Simplify VOUT code
-e1eda3f422a02ff3d586c2265e98b86fad50ffdc hwmon: (pmbus/mp2975) Make phase count variable
-fbed1871cb727100bbc92045ba0b6b6130109452 hwmon: (pmbus/mp2975) Add support for MP2971 and MP2973
-c2ede3778a17a7331ef0596d2b45838396854a44 hwmon: (pmbus/mp2975) Add regulator support
-7e2ed719b7856ddc801389b74f93172c07956bc2 hwmon: (pmbus/mp2975) Add OCP limit
-4e02c0ce555ac37b3950dbd5030f18896df30fd1 hwmon: (sht3x) convert some of sysfs interface to hwmon
-dd6d9116544260a03b374cd112f8d3090c4ba263 hwmon: (nct6775) Add support for 18 IN readings for nct6799
-6df54b0feba10f7e4679c6910d03ed056c69095a hwmon: (hp-wmi-sensors) Get WMI instance count from WMI driver core
-ad0f768007f4a533ea7abb489be731e2ad296140 hwmon: (hp-wmi-sensors) Initialize pevents in hp_wmi_sensors_init()
+9c2dcfc2cf0f2e4e0a0db33bc1a626e35928c475 media: tc358746: Address compiler warnings
+bf4c985707d3168ebb7d87d15830de66949d979c media: staging: atomisp: select V4L2_FWNODE
+517f088385e1b8015606143e6212cb30f8714070 media: amphion: use dev_err_probe
+dcff0b56f661b6b42e828012b464d22cc2068c38 media: amphion: Fix firmware path to match linux-firmware
+53ebeea50599c1ed05277d7a57e331a34e6d6a82 media: imx-jpeg: Support to assign slot for encoder/decoder
+20de9fdaf4883deffb0138eef28e9cbbead32cfd media: mtk_jpeg_core: avoid unused-variable warning
+92cbf865ea2e0f2997ff97815c6db182eb23df1b media: pulse8-cec: handle possible ping error
+4aaa96b59df5fac41ba891969df6b092061ea9d7 media: pci: cx23885: fix error handling for cx23885 ATSC boards
+d05dea76d4a813eb959ba0a150c45246d54e7148 media: mediatek: vcodec: fix cancel_work_sync fail with fluster test
+7ee8acd1b803502878992acd6f99e61f1e8c7a25 media: verisilicon: fix excessive stack usage
+0cb1d9c845110ce638a43a1417c7df5968d1daa3 media: verisilicon: change confusingly named relaxed register access
+8b6f687743dacce83dbb0c7cfacf88bab00f808a x86/cpu/amd: Move the errata checking functionality up
+522b1d69219d8f083173819fde04f994aa051a98 x86/cpu/amd: Add a Zenbleed fix
+80b6051085c5fedcb1dfd7b2562a63a83655c4d8 scsi: sg: Fix checking return value of blk_get_queue()
+0a9266b79cacdd02b888aed1308c308ad6d4ee4e Merge tag 'x86_bugs_zenbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9e0ee0c7545c7ec012a53878e7687e05b87abc75 Merge tag 'media/v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+20ea1e7d13c1b544fe67c4a8dc3943bb1ab33e6f file: always lock position for FMODE_ATOMIC_POS
+0b5547c51827e053cc754db47d3ec3e6c2c451d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============7557533625447038398==--
+--===============4849505052778456533==--
