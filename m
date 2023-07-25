@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3250442285902615645=="
+Content-Type: multipart/mixed; boundary="===============2875599371320808812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 25 Jul 2023 08:07:29 -0000
-Message-Id: <169027244929.6896.15878905651926270763@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 08:07:40 -0000
+Message-Id: <169027246097.7050.13881513231818013422@gitolite.kernel.org>
 
---===============3250442285902615645==
+--===============2875599371320808812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     log: revlist-06c2afb862f9-6eaae1980760.txt
 
---===============3250442285902615645==
+--===============2875599371320808812==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -712,4 +712,4 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
 
---===============3250442285902615645==--
+--===============2875599371320808812==--
