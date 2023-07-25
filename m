@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3418316899429582543=="
+Content-Type: multipart/mixed; boundary="===============2417291692034959503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 25 Jul 2023 20:23:04 -0000
-Message-Id: <169031658444.16103.16639057753451818907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Jul 2023 20:23:10 -0000
+Message-Id: <169031659038.16206.17732587035431463209@gitolite.kernel.org>
 
---===============3418316899429582543==
+--===============2417291692034959503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: 447281e71527080244ed1fa07e84a9d4e0654616
     new: 269cb04b601dd8c35bbee180a9800335b93111fb
     log: |
@@ -24,28 +24,28 @@ changes:
          269cb04b601dd8c35bbee180a9800335b93111fb regulator: Use bitfield values for range selectors
          
 
---===============3418316899429582543==
+--===============2417291692034959503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1690316583 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1690316582-b25603834a4134ca8f3a3001a99ba679f3a01509
+pusher C3F436CA30F5D8EB 1690316588 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1690316588-7e71e5635ea53c97ce00549822d2bbca2db6a471
 
-447281e71527080244ed1fa07e84a9d4e0654616 269cb04b601dd8c35bbee180a9800335b93111fb refs/heads/for-6.6
+447281e71527080244ed1fa07e84a9d4e0654616 269cb04b601dd8c35bbee180a9800335b93111fb refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTALycACgkQJNaLcl1U
-h9ApOgf/ecUJjo0xuxsjoOsyl641B1RCGm602ZKYC+zbaR3eXULnQipT0rfk98gl
-+jDWQf3WJKCk57r7J4O5kWiL2gkVIj4aNFOu2/erzFS40wxn9yT9djUZZyTA+OF9
-VeC/OQ7EpcDst8cR+kzbZEuMj+RiDaBSrn/RS5pRO7RzhOd4ZDjActRPWM1b7aBd
-OJLlI8dQ6HBvxaTfnInXutRFu790RCNTKqe+GeKZwZ0Bk4No5IAbKO0kHjF6vOtv
-/08fQWRRtVWJOXHA/+grWXZSjew/Z8JHxHVU4U4BVACT/93F4NAwpTOUnQIRjCKE
-kpSwBMteDQPdOme+nJvr32DMRI4kPg==
-=LnE+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTALywACgkQJNaLcl1U
+h9CDggf/S9WE56jKnNpebsgXe9qHKx0OULTA79rpe2Jyn5v2QVcGgqr/uGi5slns
+YtZjmsrDN4VHUbeSoUh2OI937DFdmDJb28+OQf4uNwoTz9K6E50PXFFJttCA1b8n
+W5z2sHnd8jUftIUWF5vLnjZCY/WLpzLItc0gHylMOadrzyirOaLx2boMI7tDCqHj
+B1IB6RYVgsQQcrP1Ri962k7kE1KwOb0bjCQBYqTzQAVpARKXBfAQJWhuBWZf66bW
+agjEZ7s73Dp6iaGNQWZrT7kO3XwLmlsTQmFV8ULHxtjXapZcIg/2j2aQRFe9xxOn
+qs1vuE8ra9ibGCSK+SVBcVw07S6xJQ==
+=E+ml
 -----END PGP SIGNATURE-----
 
---===============3418316899429582543==--
+--===============2417291692034959503==--
