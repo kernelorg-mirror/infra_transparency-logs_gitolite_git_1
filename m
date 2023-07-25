@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 25 Jul 2023 08:25:36 -0000
-Message-Id: <169027353645.19952.12416219719803137278@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 08:25:44 -0000
+Message-Id: <169027354455.20084.10207639658874673503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 2deed4cda3b76bcb8be2533f5bd07803b1bfa452
     log: |
