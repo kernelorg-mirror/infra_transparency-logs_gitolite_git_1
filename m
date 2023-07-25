@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5435103846229484928=="
+Content-Type: multipart/mixed; boundary="===============6120951156785693811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 25 Jul 2023 00:37:18 -0000
-Message-Id: <169024543872.23767.8480506942684085361@gitolite.kernel.org>
+Date: Tue, 25 Jul 2023 00:44:29 -0000
+Message-Id: <169024586934.28947.10102979186791856822@gitolite.kernel.org>
 
---===============5435103846229484928==
+--===============6120951156785693811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/iomap-for-next
-    old: efa96cc99793bafe96bdbff6abab94d81472a32d
-    new: d42bd17c6a20638ddf96862bfc0c47e481c28392
-    log: revlist-efa96cc99793-d42bd17c6a20.txt
-  - ref: refs/heads/iomap-6.6-merge
-    old: 0000000000000000000000000000000000000000
-    new: d42bd17c6a20638ddf96862bfc0c47e481c28392
-  - ref: refs/tags/iomap-6.6-merge-1
-    old: 0000000000000000000000000000000000000000
-    new: 88f6abb5df0ae98c6011a9e3da3f2773f1399cef
+  - ref: refs/heads/whatamess
+    old: 294444ba0c5ab5789de57921f826fe90e9637f66
+    new: 7d9d0cb5f8bdc5a515d925d27cb6f968efe98f49
+    log: revlist-294444ba0c5a-7d9d0cb5f8bd.txt
 
---===============5435103846229484928==
+--===============6120951156785693811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efa96cc99793-d42bd17c6a20.txt
+Content-Disposition: attachment; filename=revlist-294444ba0c5a-7d9d0cb5f8bd.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -192,9 +186,6 @@ ee8b94c8510ce64afe0b87ef548d23e00915fb10 can: raw: fix receiver memory leak
 ccb381e1af1ace292153c88eb1fffa5683d16a20 powerpc/kasan: Disable KCOV in KASAN code
 2480232c61b888a160153b9022858ac8c4362d5f perf test task_exit: No need for a cycles event to check if we get an PERF_RECORD_EXIT
 dc050849d93f4c5d8a88dc6789668212b7785967 Merge patch series "can: gs_usb: fix time stamp counter initialization"
-371baf5c9750a258fee21d0cb8c8d683bb057429 xfs: convert flex-array declarations in struct xfs_attrlist*
-a49bbce58ea90b14d4cb1d00681023a8606955f2 xfs: convert flex-array declarations in xfs attr leaf blocks
-f6250e205691a58c81be041b1809a2e706852641 xfs: convert flex-array declarations in xfs attr shortform objects
 5f4fa1672d98fe99d2297b03add35346f1685d6b iavf: Fix use-after-free in free_netdev
 7c4bced3caa749ce468b0c5de711c98476b23a52 iavf: Fix out-of-bounds when setting channels on remove
 a77ed5c5b768e9649be240a2d864e5cd9c6a2015 iavf: use internal state to free traffic IRQs
@@ -423,5 +414,6 @@ ffc143db63eeea7c8a27deb3c56d090a220a1ace filemap: Add fgf_t typedef
 d6bb59a9444d218dc60dee3b45fd93c0d4f5e123 iomap: Create large folios in the buffered write path
 5d8edfb900d55db7dbf2dbf325bfb9fdb863ec72 iomap: Copy larger chunks from userspace
 d42bd17c6a20638ddf96862bfc0c47e481c28392 Merge tag 'large-folio-writes' of git://git.infradead.org/users/willy/pagecache into iomap-6.6-merge
+7d9d0cb5f8bdc5a515d925d27cb6f968efe98f49 Merged korg/vfs-for-next at Mon Jul 24 17:44:24 PDT 2023.
 
---===============5435103846229484928==--
+--===============6120951156785693811==--
