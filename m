@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0694878972248123109=="
+Content-Type: multipart/mixed; boundary="===============3925378501263653446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 26 Jul 2023 04:41:42 -0000
-Message-Id: <169034650287.317.15190932736465968993@gitolite.kernel.org>
+Date: Wed, 26 Jul 2023 04:43:42 -0000
+Message-Id: <169034662227.1192.7615564982299714372@gitolite.kernel.org>
 
---===============0694878972248123109==
+--===============3925378501263653446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.all
-    old: adef173e1153a51a423459016d71ed96d4ca0baa
-    new: edf7eafb5cfe3ca541e8d6bc4064d2641a6685bb
-    log: revlist-adef173e1153-edf7eafb5cfe.txt
+  - ref: refs/notes/commits
+    old: 83dcdc96fea654baa16bd36276b73ab74f661d50
+    new: bc6d707ee06abab47b37e20a25e7f5066dae25aa
+    log: revlist-83dcdc96fea6-bc6d707ee06a.txt
 
---===============0694878972248123109==
+--===============3925378501263653446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adef173e1153-edf7eafb5cfe.txt
+Content-Disposition: attachment; filename=revlist-83dcdc96fea6-bc6d707ee06a.txt
 
-787388e88395511beff52e9ecdd45a46585c0fab fs: open block device after superblock creation
-fd612a41ed54a3582dc49423d3c7006373e702cb shmem: make shmem_inode_acct_block() return error
-91f1d62b97b4a497d6678c0d38caf03fa3d1e6df shmem: make shmem_get_inode() return ERR_PTR instead of NULL
-641c3cdf05e0dfd30b3eec2a93c1ac19e495006f quota: Check presence of quota operation structures instead of ->quota_read and ->quota_write callbacks
-8286a5c8264ab73591e72b2ba98f689e784f42d0 shmem: prepare shmem quota infrastructure
-9a9f8f590f6dbb215455b7aca9f6909a96e2a017 shmem: quota support
-fbf5fbc5ed0ea31ad75d5282fee37d5bc6306665 shmem: Add default quota limit mount options
-5da76f81c519e73437a579ae995d6d477c7c07c4 shmem: fix quota lock nesting in huge hole handling
-70aad12ff979a872b61f1123a4e2a1f99e21d090 libfs: Add directory operations for stable offsets
-28b0aa410e3d953770c0607eaaa342e7cd1d0a3e shmem: Refactor shmem_symlink()
-845377eba5d96e1cf9b8c9eb22ebb02b581531cc shmem: stable directory offsets
-17d27b97c250377f4488e5bc35cdbba34f3e577f libfs: Add a lock class for the offset map's xa_lock
-2faab6e1eba6121c50cac7ad926e08bd8ad89092 Merge branch 'vfs.tmpfs' into vfs.all
-26778085b215cc8ab19e24a6e4cea5ef1d9b5416 Merge branch 'vfs.misc' into vfs.all
-70426cabf004c8d51b9260f3e21965f4d4ae5dc8 Merge branch 'vfs.fchmodat2' into vfs.all
-edf7eafb5cfe3ca541e8d6bc4064d2641a6685bb Merge branch 'fs.proc.uapi' into vfs.all
+8cb6dbfc97c185d15fc7252aacc8ff5d026c3c1e Notes added by 'git notes add'
+a6c33518fa85f54645f112fd151896832aa228be Notes added by 'git notes copy'
+b0f5b72c9ce83de3b767e4626269dd40572b2ba6 Notes added by 'git commit --amend'
+c13f2b4edeedb61ed737a3fe48902e2dc3f6c770 Notes added by 'git notes copy'
+f18e5ac5e9adad020c1d480ba88ff25830528029 Notes added by 'git commit --amend'
+e2f78af384fe28b22b1a3940cd6b9d75fae4e566 Notes added by 'git notes copy'
+89cd235ada4f6a9ada012f58bb71bb81d9cbe7c4 Notes added by 'git notes edit'
+a2da21791e292009188252bc7b09d17620dd4458 Notes added by 'git notes copy'
+20869ce63a288aeb27932d71c5197da8b4ac187c Notes added by 'git notes copy'
+a9a889dbc3678bfcb755ffd22bc0fc63caa2ad31 Notes added by 'git commit --amend'
+8aebcca1477cce2124f9ee424fe630916ee3d00c Notes added by 'git notes copy'
+8eb19f545aea8c2564f4c996f10b436c2bfa05ee Notes added by 'git commit --amend'
+b66095ee907831b03303c9ec6aa1654c3a5258d7 Notes added by 'git notes copy'
+7bda09e45eac9f8cfbd152b609f5d6638d5e45ca Notes added by 'git notes edit'
+bc6d707ee06abab47b37e20a25e7f5066dae25aa Notes added by 'git notes copy'
 
---===============0694878972248123109==--
+--===============3925378501263653446==--
