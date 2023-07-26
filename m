@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5396199827624342016=="
+Content-Type: multipart/mixed; boundary="===============4048061676110909301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 26 Jul 2023 15:50:09 -0000
-Message-Id: <169038660943.21154.9990090577406197320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 26 Jul 2023 15:50:16 -0000
+Message-Id: <169038661632.21288.443214831582248515@gitolite.kernel.org>
 
---===============5396199827624342016==
+--===============4048061676110909301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 916a4edf3daed845b1e5d6cf0578a7e43c6f520e
     new: cc71c42b3dc1085d3e72dfa5603e827b9eb59da1
     log: |
@@ -24,28 +24,28 @@ changes:
          cc71c42b3dc1085d3e72dfa5603e827b9eb59da1 spi: spi-qcom-qspi: Add mem_ops to avoid PIO for badly sized reads
          
 
---===============5396199827624342016==
+--===============4048061676110909301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1690386608 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1690386607-e63d27509b76440ad787466f98b35db962ae536c
+pusher C3F436CA30F5D8EB 1690386614 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1690386614-dc70926980449785faf70248477012cb8e03dfd6
 
-916a4edf3daed845b1e5d6cf0578a7e43c6f520e cc71c42b3dc1085d3e72dfa5603e827b9eb59da1 refs/heads/for-6.5
+916a4edf3daed845b1e5d6cf0578a7e43c6f520e cc71c42b3dc1085d3e72dfa5603e827b9eb59da1 refs/heads/spi-6.5
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTBQLAACgkQJNaLcl1U
-h9BAFQgAg74Gdjansif/cF2k/XLKZBlpHyU1mrSTTUkO+QouO9WEVt3YJRvN27Ua
-8e1U6/oDJRRXiOb0HIYzfZgeMiLz6JdbmRdKsTzknChG5p65W1OyVrMszxZn9nxv
-/dg36CW1VtonqjBWHUARnQJNCTsu5CPNN/SYMqwu7xA47E9KBLfi3cj1IylRO4+5
-RkmNBXF5411/1AIFLWiMZ7xz12cPHctfX4rOGQ0bC/5KdmVdUz8V7IEEmtGhZJok
-5pX1osNbcnv5jQFz4lAqltrs759C/FxDob3Vce0nT2gB1AK7jlX5EdrT24QHRT6+
-+dkmizNA4Dh41yEZUFArZIUYrzrjCQ==
-=36fO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTBQLYACgkQJNaLcl1U
+h9CW9wf/W5je0jkYku5Ga4CMjjdVFID2Xi99qNCrKlDjdQO32OTyXWqMU63eiiVr
+kMNafvrCpXWwiQgZfE0atg9Yi1yxoNeA9NIfdCenkhR+gCqvBYW9r5EABW6L2p7o
+SydX8GHxv9a9TEtlTw/oDXMyLBIj9xb/y8lynJ8/7YrDQDJaFfNxArT6auae/sZd
+0V6eaOX1dDi3N5PBiJ9q2JNS+/E5G/JsAsXfebLD9G2If2Z3zDFS/OAHew4tJgeV
++aY85RMuE0XHLoxcnfZaqhkGz9/S6QIUj1mCLlFLG9u4QmifTe/a/R/MuqkH7K/K
+LwUIVYKguoidBAqWtdJZmqOGWWAoFw==
+=mlOY
 -----END PGP SIGNATURE-----
 
---===============5396199827624342016==--
+--===============4048061676110909301==--
