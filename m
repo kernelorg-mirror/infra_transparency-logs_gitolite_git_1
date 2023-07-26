@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6973192128183105610=="
+Content-Type: multipart/mixed; boundary="===============0253123783618770569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 26 Jul 2023 05:26:43 -0000
-Message-Id: <169034920355.4304.1217703131108256385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 26 Jul 2023 05:26:53 -0000
+Message-Id: <169034921352.4448.8714628301283900381@gitolite.kernel.org>
 
---===============6973192128183105610==
+--===============0253123783618770569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 1e25dd7772483f477f79986d956028e9f47f990a
     new: 0ba5d07205771c50789fd9063950aa75e7f1183f
     log: revlist-1e25dd777248-0ba5d0720577.txt
-  - ref: refs/heads/stable
-    old: 0b5547c51827e053cc754db47d3ec3e6c2c451d2
-    new: 18b44bc5a67275641fb26f2c54ba7eef80ac5950
-    log: |
-         f75546f58a70da5cfdcec5a45ffc377885ccbee8 nfsd: Remove incorrect check in nfsd4_validate_stateid
-         922a9bd138101e3e5718f0f4d40dba68ef89bb43 m68k: Fix invalid .section syntax
-         af2e19389c2c1d8a299e04c5105b180ef0c5b5b5 Merge tag 'm68k-for-v6.5-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-         0b4a9fdc9317440a71d4d4c264a5650bf4a90f3c Merge tag 'nfsd-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-         9f9116406120638b4d8db3831ffbc430dd2e1e95 x86/traps: Fix load_unaligned_zeropad() handling for shared TDX memory
-         18b44bc5a67275641fb26f2c54ba7eef80ac5950 ovl: Always reevaluate the file signature for IMA
-         
-  - ref: refs/tags/next-20230426
-    old: 3956488cd14b941f443305bc047af1ed95162665
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230726
     old: 0000000000000000000000000000000000000000
     new: c074ca98e0ba681ec268e6136d35bc82d3a3713b
 
---===============6973192128183105610==
+--===============0253123783618770569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1068,4 +1054,4 @@ dabe0907ff84676df9d10ab1bf70747485d8324e Revert "scripts/gdb/stackdepot: add sta
 aed06a42065df11e5096834fddf9da6c76142321 Revert "scripts/gdb/aarch64: add aarch64 page operation helper commands and configs"
 0ba5d07205771c50789fd9063950aa75e7f1183f Add linux-next specific files for 20230726
 
---===============6973192128183105610==--
+--===============0253123783618770569==--
