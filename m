@@ -1,73 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2303255642177405034=="
+Content-Type: multipart/mixed; boundary="===============0694878972248123109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Jul 2023 04:38:43 -0000
-Message-Id: <169034632324.30099.14187842919476734425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 26 Jul 2023 04:41:42 -0000
+Message-Id: <169034650287.317.15190932736465968993@gitolite.kernel.org>
 
---===============2303255642177405034==
+--===============0694878972248123109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/usb-testing
-    old: ac47051f0bb8ccf1eaedb296a19fcb541474db53
-    new: a85ff0db48c372063988f2072a07bd361ce9c4ef
-    log: revlist-ac47051f0bb8-a85ff0db48c3.txt
+  - ref: refs/heads/vfs.all
+    old: adef173e1153a51a423459016d71ed96d4ca0baa
+    new: edf7eafb5cfe3ca541e8d6bc4064d2641a6685bb
+    log: revlist-adef173e1153-edf7eafb5cfe.txt
 
---===============2303255642177405034==
+--===============0694878972248123109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-adef173e1153-edf7eafb5cfe.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690346318 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1690346317-f1bf67645927435dec5ef0c57ed13b29626d1c79
+787388e88395511beff52e9ecdd45a46585c0fab fs: open block device after superblock creation
+fd612a41ed54a3582dc49423d3c7006373e702cb shmem: make shmem_inode_acct_block() return error
+91f1d62b97b4a497d6678c0d38caf03fa3d1e6df shmem: make shmem_get_inode() return ERR_PTR instead of NULL
+641c3cdf05e0dfd30b3eec2a93c1ac19e495006f quota: Check presence of quota operation structures instead of ->quota_read and ->quota_write callbacks
+8286a5c8264ab73591e72b2ba98f689e784f42d0 shmem: prepare shmem quota infrastructure
+9a9f8f590f6dbb215455b7aca9f6909a96e2a017 shmem: quota support
+fbf5fbc5ed0ea31ad75d5282fee37d5bc6306665 shmem: Add default quota limit mount options
+5da76f81c519e73437a579ae995d6d477c7c07c4 shmem: fix quota lock nesting in huge hole handling
+70aad12ff979a872b61f1123a4e2a1f99e21d090 libfs: Add directory operations for stable offsets
+28b0aa410e3d953770c0607eaaa342e7cd1d0a3e shmem: Refactor shmem_symlink()
+845377eba5d96e1cf9b8c9eb22ebb02b581531cc shmem: stable directory offsets
+17d27b97c250377f4488e5bc35cdbba34f3e577f libfs: Add a lock class for the offset map's xa_lock
+2faab6e1eba6121c50cac7ad926e08bd8ad89092 Merge branch 'vfs.tmpfs' into vfs.all
+26778085b215cc8ab19e24a6e4cea5ef1d9b5416 Merge branch 'vfs.misc' into vfs.all
+70426cabf004c8d51b9260f3e21965f4d4ae5dc8 Merge branch 'vfs.fchmodat2' into vfs.all
+edf7eafb5cfe3ca541e8d6bc4064d2641a6685bb Merge branch 'fs.proc.uapi' into vfs.all
 
-ac47051f0bb8ccf1eaedb296a19fcb541474db53 a85ff0db48c372063988f2072a07bd361ce9c4ef refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTAo04bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1i0P/jppV/kmGVHYlKzrTY34
-cVqb976di0Xp9vAVGuwq+dnXjghH9weBPU7U7gaSiJXrdsvjDZ5jgHGabuorggz5
-IxRxrzCzG0KJLPivzDYgIzEqV58dC/QOb8B3qfip1pjYVm9klTprJp8Rp6QyVLz8
-SBmbEpqeVJ32GMRLD6yv5hs4Ay4HFrnJx6pssuCTXFy09M1accCwa37U3NMt9dtk
-KmxwuBIYP1be7Tv2QIQQuFYzUKl7e/pVqQ6kWqHb7iPVwV/U2/toMMd8C/aEsMCG
-cV2O+MEoAdM08vpXRmoWCzp4NJhMZEFL5ptWqYD/28kWXDg0fmtmQdERiTlxNSCT
-VPf/H8U2dLc8liq/kT/IeQ5gpelgvmD/DAG6ppAiCxS4xKJ2Wb0RKahBUsjD0qSa
-HxOtn49DfAXehPsCb7b0jl/g1jjCrmoVz9FDse63dFvWL55VeHdiRDop9XxTjiVJ
-x61FL1An1uJsDzvhngJSckZYSW1g0WjpwlD42CvN1MHOFgT1rwj39otE9In3RzHd
-43hUQrxEAQ4ScvJFi7LpoSIqsK+wtdb2QXf6QKJv+srqjREICo9kGz+jcuHBfeOk
-9hhJmcP0K9NqVlS0dltDKeZ/pfP5COrQUYkAeA16UZyiPPoHHjeBbKvZPuzwYM1i
-3qUGMfhQnvUhWCEfD+fYsL0Q
-=3OrN
------END PGP SIGNATURE-----
-
---===============2303255642177405034==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac47051f0bb8-a85ff0db48c3.txt
-
-a08799cf17c22375752abfad3b4a2b34b3acb287 usb: phy: add usb phy notify port status API
-134e6d25f6bd06071e5aac0a7eefcea6f7713955 phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY
-adda6e82a7de7d6d478f6c8ef127f0ac51c510a1 phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY
-612ad27a3045525feedc2f77b5807b16c402951a dt-bindings: phy: realtek: Add Realtek DHC RTD SoC USB 2.0 PHY
-d6ef688786beafc0fda8f12afaee313cabb4456e dt-bindings: phy: realtek: Add Realtek DHC RTD SoC USB 3.0 PHY
-8b645922b22303cec4628dbbbf6c8553d1cdec87 usb: gadget: Add support for USB MIDI 2.0 function driver
-29ee7a4dddd5caa18d1cef000f20c6af43f762f1 usb: gadget: midi2: Add configfs support
-856fa444b0982746f95e801bab0e586533eb29a3 usb: gadget: midi2: Dynamically create MIDI 1.0 altset descriptors
-d6468be779af2eaa92bb853090ad540a49ed867e usb: gadget: midi2: MIDI 1.0 interface (altset 0) support
-8559caa985503d057e55dd7c6362b8f98359ba2e usb: gadget: midi2: Add testing documentation
-1b437d2fb3c1a8c7f2a8a096c0871c8e7c8d109e usb: gadget: midi2: Add "Operation Mode" control
-a85ff0db48c372063988f2072a07bd361ce9c4ef usb: gadget: midi2: More flexible MIDI 1.0 configuration
-
---===============2303255642177405034==--
+--===============0694878972248123109==--
