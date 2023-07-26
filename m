@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 26 Jul 2023 03:33:33 -0000
-Message-Id: <169034241376.13286.9650116977970253445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 26 Jul 2023 03:36:22 -0000
+Message-Id: <169034258274.15942.10490750760033090591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-6.5-fixes
-    old: cec148c2476a6e06cf8190b20de81f98983b53ca
-    new: 1cfe2d28e4d50a4e3e49344ade3b28f8dc26f891
+  - ref: refs/heads/main
+    old: a49441c9ab059ce47f97dc15fb82d4e7b7b2ef65
+    new: e11ec2b868af2b351c6c1e2e50eb711cc5423a10
     log: |
-         4139f992c49356391fb086c0c8ce51f66c26d623 ata: pata_arasan_cf: Use dev_err_probe() instead dev_err() in data_xfer()
-         1cfe2d28e4d50a4e3e49344ade3b28f8dc26f891 ata: pata_octeon_cf: fix error return code in octeon_cf_probe()
+         e11ec2b868af2b351c6c1e2e50eb711cc5423a10 net: ipa: only reset hashed tables when supported
          
