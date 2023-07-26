@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7511727519580636638=="
+Content-Type: multipart/mixed; boundary="===============0959537933871618509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 26 Jul 2023 10:56:59 -0000
-Message-Id: <169036901979.31983.6437383004442423801@gitolite.kernel.org>
+Date: Wed, 26 Jul 2023 10:57:15 -0000
+Message-Id: <169036903505.32172.3192351868662904513@gitolite.kernel.org>
 
---===============7511727519580636638==
+--===============0959537933871618509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e152a616c88653e67244595979fde24038d9653a
-    new: 7e9609d2daea0ebe4add444b26b76479ecfda504
-    log: revlist-e152a616c886-7e9609d2daea.txt
+  - ref: refs/heads/for-next
+    old: b3f5bb4227f4bd423dfc8c396adf7d453033186d
+    new: d82cd15be581681ba9b2eff3949e30e45f44eb9e
+    log: revlist-b3f5bb4227f4-d82cd15be581.txt
 
---===============7511727519580636638==
+--===============0959537933871618509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e152a616c886-7e9609d2daea.txt
+Content-Disposition: attachment; filename=revlist-b3f5bb4227f4-d82cd15be581.txt
 
 a9814b6c23e79ed58aeb432d7f1c556935aeaf8d scsi: ufs: ti-j721e: Expose device tree aliases
 f5393a5602cacfda2014e0ff8220e5a7564e7cd1 scsi: hisi_sas: Fix normally completed I/O analysed as failed
@@ -34,6 +34,7 @@ f5393a5602cacfda2014e0ff8220e5a7564e7cd1 scsi: hisi_sas: Fix normally completed 
 f52a805e19b169989ec6c61254529b273a18116d scsi: ufs: qcom: Hold the mutex lock when configuring ESI
 75aa298739fdff5dac98e5a6e8b9106c1297d6f0 scsi: ufs: ufs-mediatek: Remove redundant dev_err()
 317a38045ab763fb98570b67848ebc65c731b570 scsi: ufs: core: Fix some kernel-doc comments
+010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
 c2ab666072bcf5bf181b84f591e83713e772fa60 scsi: ufs: Explicitly include correct DT includes
 c4ca20f0f1286039f9bc09310e1853dd4ff6c22e scsi: qlogicpti: Explicitly include correct DT includes
 109a2a48fc3d4b59f69b5be6ea05544ac8b4dded scsi: sun_esp: Explicitly include correct DT includes
@@ -64,5 +65,10 @@ a31a596a426555ff603599e115466d596a1abd85 scsi: qla2xxx: Update version to 10.02.
 0645ab15ed0bf5b17ad510bd72ef589cda542795 scsi: ufs: ufs-qcom: Change UFS devfreq timer to delayed
 f669b8a683e4ee26fa5cafe19d71cec1786b556a scsi: core: Fix the scsi_set_resid() documentation
 7e9609d2daea0ebe4add444b26b76479ecfda504 scsi: ufs: core: Remove HPB support
+5f494188dd97cd99bfaa50745918001a09783459 Merge branch 'fixes' into for-next
+e65851989001c0c9ba9177564b13b38201c0854c scsi: zfcp: Defer fc_rport blocking until after ADISC response
+d4e0265345778c623d1fe619075b677731847c34 scsi: pm80xx: Fix error return code in pm8001_pci_probe()
+88db0f511c5d8166e71097aadcf2928187bf24d1 Merge branch 'misc' into for-next
+d82cd15be581681ba9b2eff3949e30e45f44eb9e Merge branch 'fixes' into for-next
 
---===============7511727519580636638==--
+--===============0959537933871618509==--
