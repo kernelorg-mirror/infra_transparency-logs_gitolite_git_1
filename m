@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 26 Jul 2023 02:50:04 -0000
-Message-Id: <169033980431.15276.5800025405430717534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 26 Jul 2023 03:06:44 -0000
+Message-Id: <169034080483.26029.16440670750770948162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.6/block
-    old: 65a558f66c308251e256317957b75d1e643c33c3
-    new: 51d74ec9b62f5813767a60226acaf943e26e7d7a
+  - ref: refs/heads/main
+    old: a5a91f546444940f3d75e2edf3c53b4d235f0557
+    new: f080864a9d906678e050f10f0e81add711b86fbc
     log: |
-         51d74ec9b62f5813767a60226acaf943e26e7d7a block: cleanup bio_integrity_prep
-         
-  - ref: refs/heads/for-next
-    old: 739d8d8d31b67fc9972e53e5283d06a32b6d7501
-    new: a761d08b4c4c483612a55a0686c22d416afe632f
-    log: |
-         51d74ec9b62f5813767a60226acaf943e26e7d7a block: cleanup bio_integrity_prep
-         a761d08b4c4c483612a55a0686c22d416afe632f Merge branch 'for-6.6/block' into for-next
+         f080864a9d906678e050f10f0e81add711b86fbc net: remove redundant NULL check in remove_xps_queue()
          
