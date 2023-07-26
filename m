@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5620065863406700425=="
+Content-Type: multipart/mixed; boundary="===============1256120736369638097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 26 Jul 2023 02:03:14 -0000
-Message-Id: <169033699449.12322.11678419578548423226@gitolite.kernel.org>
+Date: Wed, 26 Jul 2023 02:03:19 -0000
+Message-Id: <169033699901.12404.13881340972864111738@gitolite.kernel.org>
 
---===============5620065863406700425==
+--===============1256120736369638097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: e78407ff6ef7406eabc7ee642ce2f17f5db51285
-    new: f6820b19ff3368ee3084806ec3cc68649ca0491f
-    log: revlist-e78407ff6ef7-f6820b19ff33.txt
+  - ref: refs/heads/6.6/scsi-queue
+    old: e152a616c88653e67244595979fde24038d9653a
+    new: 7e9609d2daea0ebe4add444b26b76479ecfda504
+    log: revlist-e152a616c886-7e9609d2daea.txt
 
---===============5620065863406700425==
+--===============1256120736369638097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1690336985 -0400
+pusher 75C5DE3D 1690336997 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1690336985-fad0ecfa0cad76c1d09caf2a5a4f059623038e47
+nonce 1690336997-f6a421b8c3d79cad540de3e7f9e07ea113c1364a
 
-e78407ff6ef7406eabc7ee642ce2f17f5db51285 f6820b19ff3368ee3084806ec3cc68649ca0491f refs/tags/mkp-scsi-queue
+e152a616c88653e67244595979fde24038d9653a 7e9609d2daea0ebe4add444b26b76479ecfda504 refs/heads/6.6/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTAftkACgkQ7ulgGnXF
-3j2JmQ/+Oqce6cNxp/EMOgryGY9amfunsmVLV4JgyGNKSXsqJEVQ5uYO73A+wdff
-GSU4VyNE0omqhUff5hwZTj5oCBv/j8QMK6U7UQ6Pa2s+2tKhWiK0LMJwSQONLeMJ
-bctb6kSjikkBQ30occTxFn2gdl3L4mtpLOs5dcJO2mWVcoqSkezeXWhno6+QCeXF
-Kv9D54SJt5KlMMyBHLj5KLzAUhcGSbZb6uN88IhvgW4BzmyJDgtc0FLYZ6FcunT/
-PdeZZSJzY/QQjwuJODGSCAvu1dyR4i0bgeeZDeb2SnJWvF9rJcDyDz0hbTiSzhLu
-R0LxowQnqq0gzTmOrxKbhlkvwF+d/VVmAXViE7dNG8B4JvxPIYJg8G8m3avRQf0u
-68cVlC4b0SpazKrzikLyf1jEsRL1a7FYXC3oStuSgf1cb/Q3ySp+FyC5Nq7BDJda
-R08vPZ+MI/o2uK+9w+deq5pAVt1GzPtONVQyp3gStIAoipFGFImWIfmGS87kyAeo
-/knYSPEUr3fvUXGL5GbLAxsrk//L40YGMfw6aAqE6krCYxbk/Ox/Mvbt+LVYrH3h
-Q+2sdr4tnEBXvi0ZzmnC/LpHnCdkorjXx8TkHy6B5M9CP5gQhlTCy5iOI2Xo/hFz
-smiJRLIkZttIqYEkWPcHgC6sBTJlZs/npN4EhcDXsFtggVUj78U=
-=Y1BB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTAfuUACgkQ7ulgGnXF
+3j2m3w//S66eCzllEfWjCJWQ6bm8kV+chOW73660DFx431tJp/C8CVGwjyy4uI6b
+nGIB7hWWyaa+O4y88yhWabwoMQ3TISwhqmO3wF028qIFN1Y+wEzl0I+8sSgnvci9
+HeA0J77gPRmcrzWSLVPCoNjkQSDtvtZ6T4K9c7oq0cAIQ6rjg1zE8XmAQm8eWXJi
+qYljA1sgjpiXAASF3zla7svHfUSDZ9xP9eKU0eRMTq/lZEG6P9xCly3WFXotLRJn
+G9MgtOUQ4FHAE3vx+5iupdtvTfxWjnRgWpn17BnUXqMUFuCJfupV9RGmRrqeDhx5
+0CWwzrlu0LcSAUE3RUha84NGrp+KePvSclk18vbr7mBaBbpRh/SAolblvudcJsd5
+XXQYI7juWjylNk7+ZnBbvjcfQ0ZPrqb1NC30XgLCs10ISh0Tcb5P9iT0bijdJgcx
+XlBdp9QzE1JBku1AzGRA+5+3ufk6h6FSTCcd+wzF4cTtXGL1hW+8TQDHV3jFBT0N
+RdNZEhJP4tv6VmtIFfL4NkxTcDX97Vf1gO/9X7tFH7TJ0OgqvBNpNVSsS2ijCLWi
+Lo5vwjITGXHQIWHvDAizKybVmP6h0BAxqF4PsNBcO0Hg/B7BV/gAeXidieUNN4bY
+UnOHHdmvIK1wPILcj5U9TbvBEfDSH7L9MC3KOO5lBQwGRnvPyFc=
+=vgAe
 -----END PGP SIGNATURE-----
 
---===============5620065863406700425==
+--===============1256120736369638097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e78407ff6ef7-f6820b19ff33.txt
+Content-Disposition: attachment; filename=revlist-e152a616c886-7e9609d2daea.txt
 
 a9814b6c23e79ed58aeb432d7f1c556935aeaf8d scsi: ufs: ti-j721e: Expose device tree aliases
 f5393a5602cacfda2014e0ff8220e5a7564e7cd1 scsi: hisi_sas: Fix normally completed I/O analysed as failed
@@ -95,4 +95,4 @@ a31a596a426555ff603599e115466d596a1abd85 scsi: qla2xxx: Update version to 10.02.
 f669b8a683e4ee26fa5cafe19d71cec1786b556a scsi: core: Fix the scsi_set_resid() documentation
 7e9609d2daea0ebe4add444b26b76479ecfda504 scsi: ufs: core: Remove HPB support
 
---===============5620065863406700425==--
+--===============1256120736369638097==--
