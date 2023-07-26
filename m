@@ -1,43 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============2833685082057424470=="
+Content-Type: multipart/mixed; boundary="===============2303255642177405034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 26 Jul 2023 04:12:29 -0000
-Message-Id: <169034474996.10621.11576149509421074312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 26 Jul 2023 04:38:43 -0000
+Message-Id: <169034632324.30099.14187842919476734425@gitolite.kernel.org>
 
---===============2833685082057424470==
+--===============2303255642177405034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 20bf98c94146eb6fe62177817cb32f53e72dd2e8
-    new: b57e0d48b3000dac75bbae1e56071d97ac14ccb2
-    log: revlist-20bf98c94146-b57e0d48b300.txt
+  - ref: refs/heads/usb-testing
+    old: ac47051f0bb8ccf1eaedb296a19fcb541474db53
+    new: a85ff0db48c372063988f2072a07bd361ce9c4ef
+    log: revlist-ac47051f0bb8-a85ff0db48c3.txt
 
---===============2833685082057424470==
+--===============2303255642177405034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20bf98c94146-b57e0d48b300.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ee95d4420a2f4f02a2bf2b9ff0086ddc31965187 ice: Skip adv rules removal upon switchdev release
-2571a3fa6251662e5201372f889bf93f234c8261 ice: Prohibit rx mode change in switchdev mode
-7aa529a69e92b9aff585e569d5003f7c15d8d60b ice: Don't tx before switchdev is fully configured
-6ab1155798c356630a7ad1e4baae44eb6414f5ba ice: Disable vlan pruning for uplink VSI
-6c0f4441d83b1efd311acbab266246aee6e46bea ice: Unset src prune on uplink VSI
-f6e8fb55e5af9a506d2e50d1079a231ce95ca215 ice: Implement basic eswitch bridge setup
-7c945a1a8e5fb84195f74813b5d24c924b694932 ice: Switchdev FDB events support
-bccd9bce29e0d0ac3d0705cc2e58fffe16179d12 ice: Add guard rule when creating FDB in switchdev
-e9dda2cfab820f76c40932bda629aaeed71eec74 ice: Add VLAN FDB support in switchdev mode
-2946204b3fa84fda9b3b3048451fb9ffc977f434 ice: implement bridge port vlan
-e42c6e0c902b34cdbf06a6d80009a0b3c32e3d37 ice: implement static version of ageing
-d129c2a245bfd59035cc661364b056c38f2bf18e ice: add tracepoints for the switchdev bridge
-b57e0d48b3000dac75bbae1e56071d97ac14ccb2 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690346318 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1690346317-f1bf67645927435dec5ef0c57ed13b29626d1c79
 
---===============2833685082057424470==--
+ac47051f0bb8ccf1eaedb296a19fcb541474db53 a85ff0db48c372063988f2072a07bd361ce9c4ef refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTAo04bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1i0P/jppV/kmGVHYlKzrTY34
+cVqb976di0Xp9vAVGuwq+dnXjghH9weBPU7U7gaSiJXrdsvjDZ5jgHGabuorggz5
+IxRxrzCzG0KJLPivzDYgIzEqV58dC/QOb8B3qfip1pjYVm9klTprJp8Rp6QyVLz8
+SBmbEpqeVJ32GMRLD6yv5hs4Ay4HFrnJx6pssuCTXFy09M1accCwa37U3NMt9dtk
+KmxwuBIYP1be7Tv2QIQQuFYzUKl7e/pVqQ6kWqHb7iPVwV/U2/toMMd8C/aEsMCG
+cV2O+MEoAdM08vpXRmoWCzp4NJhMZEFL5ptWqYD/28kWXDg0fmtmQdERiTlxNSCT
+VPf/H8U2dLc8liq/kT/IeQ5gpelgvmD/DAG6ppAiCxS4xKJ2Wb0RKahBUsjD0qSa
+HxOtn49DfAXehPsCb7b0jl/g1jjCrmoVz9FDse63dFvWL55VeHdiRDop9XxTjiVJ
+x61FL1An1uJsDzvhngJSckZYSW1g0WjpwlD42CvN1MHOFgT1rwj39otE9In3RzHd
+43hUQrxEAQ4ScvJFi7LpoSIqsK+wtdb2QXf6QKJv+srqjREICo9kGz+jcuHBfeOk
+9hhJmcP0K9NqVlS0dltDKeZ/pfP5COrQUYkAeA16UZyiPPoHHjeBbKvZPuzwYM1i
+3qUGMfhQnvUhWCEfD+fYsL0Q
+=3OrN
+-----END PGP SIGNATURE-----
+
+--===============2303255642177405034==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ac47051f0bb8-a85ff0db48c3.txt
+
+a08799cf17c22375752abfad3b4a2b34b3acb287 usb: phy: add usb phy notify port status API
+134e6d25f6bd06071e5aac0a7eefcea6f7713955 phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY
+adda6e82a7de7d6d478f6c8ef127f0ac51c510a1 phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY
+612ad27a3045525feedc2f77b5807b16c402951a dt-bindings: phy: realtek: Add Realtek DHC RTD SoC USB 2.0 PHY
+d6ef688786beafc0fda8f12afaee313cabb4456e dt-bindings: phy: realtek: Add Realtek DHC RTD SoC USB 3.0 PHY
+8b645922b22303cec4628dbbbf6c8553d1cdec87 usb: gadget: Add support for USB MIDI 2.0 function driver
+29ee7a4dddd5caa18d1cef000f20c6af43f762f1 usb: gadget: midi2: Add configfs support
+856fa444b0982746f95e801bab0e586533eb29a3 usb: gadget: midi2: Dynamically create MIDI 1.0 altset descriptors
+d6468be779af2eaa92bb853090ad540a49ed867e usb: gadget: midi2: MIDI 1.0 interface (altset 0) support
+8559caa985503d057e55dd7c6362b8f98359ba2e usb: gadget: midi2: Add testing documentation
+1b437d2fb3c1a8c7f2a8a096c0871c8e7c8d109e usb: gadget: midi2: Add "Operation Mode" control
+a85ff0db48c372063988f2072a07bd361ce9c4ef usb: gadget: midi2: More flexible MIDI 1.0 configuration
+
+--===============2303255642177405034==--
