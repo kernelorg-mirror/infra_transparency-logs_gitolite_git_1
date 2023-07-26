@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2248491039310038169=="
+Content-Type: multipart/mixed; boundary="===============2959124576660717893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 26 Jul 2023 02:02:44 -0000
-Message-Id: <169033696455.11922.3553692573342206389@gitolite.kernel.org>
+Date: Wed, 26 Jul 2023 02:02:56 -0000
+Message-Id: <169033697681.12044.850013504905529869@gitolite.kernel.org>
 
---===============2248491039310038169==
+--===============2959124576660717893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: bee516e189a56e1b92bfe0a293404126b7976d6e
-    new: 5d9cd14d924227bae35ab0e093c222469b0003b5
+  - ref: refs/heads/6.5/scsi-fixes
+    old: 010c1e1c5741365dbbf44a5a5bb9f30192875c4c
+    new: d4e0265345778c623d1fe619075b677731847c34
     log: |
          e65851989001c0c9ba9177564b13b38201c0854c scsi: zfcp: Defer fc_rport blocking until after ADISC response
          d4e0265345778c623d1fe619075b677731847c34 scsi: pm80xx: Fix error return code in pm8001_pci_probe()
          
 
---===============2248491039310038169==
+--===============2959124576660717893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1690336948 -0400
+pusher 75C5DE3D 1690336967 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1690336948-bc278568102dcf0067cf71052edcd619f6446f4e
+nonce 1690336967-13f3ae477596dbc1435b75a66d3f8a99e304f1e0
 
-bee516e189a56e1b92bfe0a293404126b7976d6e 5d9cd14d924227bae35ab0e093c222469b0003b5 refs/tags/mkp-scsi-fixes
+010c1e1c5741365dbbf44a5a5bb9f30192875c4c d4e0265345778c623d1fe619075b677731847c34 refs/heads/6.5/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTAfrQACgkQ7ulgGnXF
-3j0eaw/+NklmNSRYqnlLv2Jf/TFx0yytXXvPZEc8ei4nDv6Op/4h0wDtYaG622WU
-HblfZD6bg+7xbKCKt9QR0CwRKghlgksv1T/p0wMJBDdNjbBnaOhfJVF9E0BL1GSj
-KI1TzRhu00Lx0MQH8Iq0D1aKXACSaiQyD/fOMgBaoebZIapX1PTGZkOh7kBtXD42
-sqj55JOsKHfxCk8rTFGaQBcxi3Z5OaXVrbUM2C3ouCrDRT6p5xSUARmrwZVNZpq+
-p/w7OzCOZ97ijt1NEp4dqywGl4Zf7nypAjanwaeoW6KaOAd2nC+M5NFjjAIcRAYO
-22wdW+TM9Pyxe43AsTqlPYPiLac4tK8tZcocFJYCP6PrLZj1I0VbqicAv027/8Zb
-FANgO3XSBpOmnC9aQLs+SoKMFvRBvxCpmyMpI31QifjULDadSOr8wdBIH6dN1Jlk
-laPx1eAwWiFpAwURp0XnZzCr5VP5sk1ApTxRjsjyMGcsptmP63k0+qORp2GmTXzm
-JkEIphdgZftj3p02nWMEJ2EF/dkVcEl3Dj7Ni4BMP7M6BVHDFcOf81sqDeVBumnY
-gGIOsEv5FWDpaiWTL+bI0FYwsrggJQPch+E+BaKtraPU/OC33T1S73ixD4oj2E3t
-Ia6t7PaQAeaaMHwcLZv5H8SBbkMg/NekLZtIEpU2bvJvE74wDww=
-=5eue
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTAfscACgkQ7ulgGnXF
+3j3vVBAAhAeq8v0jJC3RcG6TNyvE5xNKs1OhEDD8xluv9cmZaQxTHtDINnZ5pvcL
+zOnh7jvKjjdPXqCo1qwGk2TB0vtWLp1ZNiTKtPHYrtcRekuETTt7f7UjM9aaFNCP
+Nrmp6MIAfdidKQs8ZM18P4EK2q6q9iVzm0dFijzo9KajfMW06e5fIKYpvSXU3U4/
+E9KKUwyJWg4a78XoEZ3oj5kwpIv4NMJDvISXyNLSjSAwmP9QP1cuTqHv0Z0EomYL
+zUC40Ws6XwGUBnRvUUPsGoI1PgD4phh/0zj55XvccIwpQ6pJRwhVFmcB6UHBfOKO
+tys+dHj1zH4UjxFwVwSAvgR7RFEOOR6BHv163vXEMo1KmaA4LB7qlVtLNnj9Uhjc
+0nFLFTEThPuHw12k48M/S/1oaucd8ntQXP4Jmc1zPgJ6JgGu5tc+sT0PPccQopA7
+txw8yn/dp8sjTXmMkkItfx9FS4kuG1Nnzoh3pzDP2jfFuinMhz482Q2euAkqXI1G
+SzVvEJC9CWS/yM8VwH9zpZNBVvm5XTvHXHs8Cgxdb2sDL5SC4cm2MF2EK6n7iv50
+DPw6FOks7bf8L4AVL1Nhj34Bl1fBVC71/oYVZtgSoBF25D/MFHr8fJLLNkVjn/ON
+5YpvfRir7QXUvzfi9iNkCweB5+bg1qYRhdU7Tw8ifBUKs9znZKY=
+=P1Nw
 -----END PGP SIGNATURE-----
 
---===============2248491039310038169==--
+--===============2959124576660717893==--
