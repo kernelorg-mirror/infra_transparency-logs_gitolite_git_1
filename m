@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 26 Jul 2023 16:20:59 -0000
-Message-Id: <169038845970.11344.7636233890532985876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 26 Jul 2023 16:50:05 -0000
+Message-Id: <169039020587.32328.4880629831758665126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 74fb20c8f05df7a7ea5c98ca85a713758e0e59f6
-    new: e7c304c0346d23f5813149bfc686fb68b1108bbe
+  - ref: refs/heads/for-6.6/io_uring
+    old: 8834f298980f1d38460f58727a8b6554b179d43a
+    new: 95ba83afd0968d4699054e613033d1cefb295845
     log: |
-         ac73c09716c3d0da3f0606e282e99c2a8c0a9afc riscv: dts: starfive: jh7110: add dma controller node
-         e7c304c0346d23f5813149bfc686fb68b1108bbe riscv: dts: starfive: jh7110: add the node and pins configuration for tdm
+         95ba83afd0968d4699054e613033d1cefb295845 io_uring: Add io_uring command support for sockets
+         
+  - ref: refs/heads/for-next
+    old: 7ce71748e927b5f1ae830854e1d95dff0c52506e
+    new: 2d834f87d3e9de58dc33acbe83b9f54ec99d35c3
+    log: |
+         95ba83afd0968d4699054e613033d1cefb295845 io_uring: Add io_uring command support for sockets
+         2d834f87d3e9de58dc33acbe83b9f54ec99d35c3 Merge branch 'for-6.6/io_uring' into for-next
          
