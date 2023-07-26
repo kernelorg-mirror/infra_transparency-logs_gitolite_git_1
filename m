@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 26 Jul 2023 23:34:09 -0000
-Message-Id: <169041444914.4072.11964023816507248514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 26 Jul 2023 23:44:43 -0000
+Message-Id: <169041508323.12311.13215201827669719917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 7beaa9a181711c2419017fa2a75c70fef24991f5
-    new: 683789ff1e1c0a9373ca20daed4bbc700eccc22e
+  - ref: refs/heads/for-6.5-fixes
+    old: 1cfe2d28e4d50a4e3e49344ade3b28f8dc26f891
+    new: 4ec0e6086b2e4292ffbb755037b89c3951ee894c
     log: |
-         11b42f6418bd440f99d1816557a31cc529645b6a watchdog: Enable more drivers for COMPILE_TEST
-         683789ff1e1c0a9373ca20daed4bbc700eccc22e hw_random: Enable COMPILE_TEST for more drivers
+         4ec0e6086b2e4292ffbb755037b89c3951ee894c ata: pata_ns87415: mark ns87560_tf_read static
          
