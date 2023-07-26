@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0899011051044555254=="
+Content-Type: multipart/mixed; boundary="===============4781328609854411453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 26 Jul 2023 04:47:13 -0000
-Message-Id: <169034683370.4285.5636659784934631115@gitolite.kernel.org>
+Date: Wed, 26 Jul 2023 04:51:47 -0000
+Message-Id: <169034710736.7790.16839775591361468242@gitolite.kernel.org>
 
---===============0899011051044555254==
+--===============4781328609854411453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e6df090a412868dfb3cb5255e553f54167b61c97
-    new: 44cfa01c22ce8df1544658bcf3db3e382d6660e2
+    old: 44cfa01c22ce8df1544658bcf3db3e382d6660e2
+    new: 8ec7a8a7dd51b806dfa1c6a05cc4ff69500d4f37
     log: |
-         44cfa01c22ce8df1544658bcf3db3e382d6660e2 drop some unneeded crypto patches from 5.4
+         8ec7a8a7dd51b806dfa1c6a05cc4ff69500d4f37 drop ext4-fix-to-check-return-value-of-freeze_bdev-in-ext4_shutdown.patch from everywhere
          
 
---===============0899011051044555254==
+--===============4781328609854411453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690346832 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690347106 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1690346831-946f33ecc2843b6705e05390a3bb6cd5590853ee
+nonce 1690347105-cb4f85720162fc1e2b3a9b31043ca0ec2825f14b
 
-e6df090a412868dfb3cb5255e553f54167b61c97 44cfa01c22ce8df1544658bcf3db3e382d6660e2 refs/heads/master
+44cfa01c22ce8df1544658bcf3db3e382d6660e2 8ec7a8a7dd51b806dfa1c6a05cc4ff69500d4f37 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTApVAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WEAQAKpHQRmdfQA4+e0zYmuu
-wGY5WdHrDQdZRqsUgQ0m+Zjw4G0AdX6SueEryZNaoksIu5+RBoE0fIMi3+UZVbdS
-9N5bvnnQbDAI8Hj9vbs9cVx9y6zS1WaLFXhfHUBNrS63aLorHJpt/CiyU+bswPKf
-YSzQ4XWBa3RMXyOnDui59w89Vd14eTf3TB/vg3qgPte5dR3x8iKAENwKkPu+QpMT
-4IkVEGiZw0eZjAEy4/SD9Z2NWe59s6yYv1SHfR5QZbMKnwSqgWQKiYJghcjxeEfu
-/Krl5MF1CPkBz+1wCANbgGN6vJbfLTDGXQHog2iDPtB9A3AN7Z2dKk0nkmUkqD/o
-WyXP3miwbVQY6Ps17SVdI+SNie83D4IDidIli8yZtgDN8DafyhjIAnQplgBaVcTI
-0pMJjXf1ntJwhOhBAQSUJzOH8D/N5Qun3Yy6LAjjRfAI20+czG0lImO0COKPzOwO
-CLoZv1kZ573aF/dxWtOCilzrr5yKpWbaDX0cZhMdyQkyfnq/u9IDqJGJC5fCPUJH
-sZthJnC2UV4qMe/+NiV0G31HFqx/ZKYTI+ikHO7wsjqtOjivsIlEMVvgLp3VsSaw
-8I6+Oi1XvEHcSAzGtzG1xNUlppbrLJwTH2UdBJvorl3ZzccvCzvig0l2u7kfJQQT
-Bb7CCtuQDGmVatFsMKDyuJn+
-=ACCY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTApmIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+baoP/2VKK7eYY9F/8auzMDBy
+fycjVmIwLnhEUHwcP3uN2LA1SzD+B3wQzqiwVdlyZSGbfr6rtml+LrhXi4FnoOyo
+AzEyHW+iWUmQRRmgYgYoALKpIEgLxLD75PIxcnhow5ewU6rwpVX2vu5RTjxWcWl4
+6uwvR395pZ/lm29qMjj9kSA6No8awaySHV/oE0IdFvVQaYMZjpkTu02m5Tttsko2
+HChDXxSAQaqhhsSeqgF4wbUwbt7LJjbpN/b7EEx0LqEc0ExS6PNERnz/uz7Wzh6b
+IMFOcdJFRS+5G8RPL7Z0novzjEXkLaMdeCAt9T6kesXYtxPFBcOjXSrbPtTRm/Lx
+m5HcryIi7S2rvHyafgnPc2ByI2gXrxK1pjLtuKbMiQa9m4rFvF7ztFPNDxAJ93mE
+meU1ADqZ2ugPB63dSX2H/lqgsZ+USA24886/pNt4K2DbzxA7HxT17REc6afC3gfH
+MoLAU7SpAVM5D2zwZjrmnCwdpviK9kvUx5FTT2/UBjzhqsmXUZJHoYdccxovEXjs
+pdOKd7UHWQP4ovFgdtR6rm69D0FWAX1rz5lljWeR8bDCOds+5vXJ/U/XYkcedK+f
+LFj3t2b4l6sZ0fBXtEPDQXO+xf6rMVTgCYm/Qx+m2lnQCLjy/J8MTD6ZF+JDLKYg
+Otc1b1q9lmTOQx5LMBcyOT7G
+=wVNP
 -----END PGP SIGNATURE-----
 
---===============0899011051044555254==--
+--===============4781328609854411453==--
