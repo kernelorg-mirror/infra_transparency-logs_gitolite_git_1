@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0384367305431873798=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 26 Jul 2023 07:28:55 -0000
-Message-Id: <169035653590.27207.8969414676156490788@gitolite.kernel.org>
-
---===============0384367305431873798==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 26 Jul 2023 07:29:13 -0000
+Message-Id: <169035655368.27441.4037806187370351513@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,40 +12,16 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 20f223fd2807ede1c27958a5217efcc04b29cb22
-    new: 698539695b8b049dd9fb381be25564acce1800f2
-    log: revlist-20f223fd2807-698539695b8b.txt
-
---===============0384367305431873798==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20f223fd2807-698539695b8b.txt
-
-9c2dcfc2cf0f2e4e0a0db33bc1a626e35928c475 media: tc358746: Address compiler warnings
-bf4c985707d3168ebb7d87d15830de66949d979c media: staging: atomisp: select V4L2_FWNODE
-517f088385e1b8015606143e6212cb30f8714070 media: amphion: use dev_err_probe
-dcff0b56f661b6b42e828012b464d22cc2068c38 media: amphion: Fix firmware path to match linux-firmware
-53ebeea50599c1ed05277d7a57e331a34e6d6a82 media: imx-jpeg: Support to assign slot for encoder/decoder
-20de9fdaf4883deffb0138eef28e9cbbead32cfd media: mtk_jpeg_core: avoid unused-variable warning
-92cbf865ea2e0f2997ff97815c6db182eb23df1b media: pulse8-cec: handle possible ping error
-4aaa96b59df5fac41ba891969df6b092061ea9d7 media: pci: cx23885: fix error handling for cx23885 ATSC boards
-d05dea76d4a813eb959ba0a150c45246d54e7148 media: mediatek: vcodec: fix cancel_work_sync fail with fluster test
-7ee8acd1b803502878992acd6f99e61f1e8c7a25 media: verisilicon: fix excessive stack usage
-0cb1d9c845110ce638a43a1417c7df5968d1daa3 media: verisilicon: change confusingly named relaxed register access
-8b6f687743dacce83dbb0c7cfacf88bab00f808a x86/cpu/amd: Move the errata checking functionality up
-522b1d69219d8f083173819fde04f994aa051a98 x86/cpu/amd: Add a Zenbleed fix
-f75546f58a70da5cfdcec5a45ffc377885ccbee8 nfsd: Remove incorrect check in nfsd4_validate_stateid
-80b6051085c5fedcb1dfd7b2562a63a83655c4d8 scsi: sg: Fix checking return value of blk_get_queue()
-922a9bd138101e3e5718f0f4d40dba68ef89bb43 m68k: Fix invalid .section syntax
-0a9266b79cacdd02b888aed1308c308ad6d4ee4e Merge tag 'x86_bugs_zenbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9e0ee0c7545c7ec012a53878e7687e05b87abc75 Merge tag 'media/v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-20ea1e7d13c1b544fe67c4a8dc3943bb1ab33e6f file: always lock position for FMODE_ATOMIC_POS
-0b5547c51827e053cc754db47d3ec3e6c2c451d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-af2e19389c2c1d8a299e04c5105b180ef0c5b5b5 Merge tag 'm68k-for-v6.5-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-0b4a9fdc9317440a71d4d4c264a5650bf4a90f3c Merge tag 'nfsd-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9f9116406120638b4d8db3831ffbc430dd2e1e95 x86/traps: Fix load_unaligned_zeropad() handling for shared TDX memory
-18b44bc5a67275641fb26f2c54ba7eef80ac5950 ovl: Always reevaluate the file signature for IMA
-698539695b8b049dd9fb381be25564acce1800f2 Merge branch 'linus'
-
---===============0384367305431873798==--
+    old: 698539695b8b049dd9fb381be25564acce1800f2
+    new: 3f3422d644e12169456bbf141d685a6ae4c12fa6
+    log: |
+         63b171c2cdfefc20bc90e0dbb11e76ff243c998d Merge branch into tip/master: 'irq/urgent'
+         fb3c21cf94f880de2e534696682f367a163022c0 Merge branch into tip/master: 'locking/urgent'
+         45bac3eba22c357a723cd61acbe5aac4157216ab Merge branch into tip/master: 'sched/urgent'
+         6b96077ce905c38fca9e93b012d34447877df097 Merge branch into tip/master: 'x86/urgent'
+         1e98ca776bb129a7419da83b1898fdd8822a979e Merge branch into tip/master: 'perf/core'
+         4acdb8d8859bb8ec83bc59275c045999f76a0f8b Merge branch into tip/master: 'ras/core'
+         466998c943d55694d30f276fb0599ba9f8ceeb82 Merge branch into tip/master: 'sched/core'
+         0df8b7b2430965d0bf8d6d79ceb02ec12bc3dbe8 Merge branch into tip/master: 'sched/eevdf'
+         3f3422d644e12169456bbf141d685a6ae4c12fa6 Merge branch into tip/master: 'x86/mm'
+         
