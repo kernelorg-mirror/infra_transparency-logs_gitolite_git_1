@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6191134435091060001=="
+Content-Type: multipart/mixed; boundary="===============7432737584363484036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 26 Jul 2023 10:31:30 -0000
-Message-Id: <169036749064.12537.12063560958161713958@gitolite.kernel.org>
+Date: Wed, 26 Jul 2023 10:31:46 -0000
+Message-Id: <169036750649.12721.9113063413682598946@gitolite.kernel.org>
 
---===============6191134435091060001==
+--===============7432737584363484036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/core
-    old: b1472a60a584694875a05cf8bcba8bdf0dc1cd3a
-    new: 1e68adb59894117251d942316d32514d45bd23ef
-    log: revlist-b1472a60a584-1e68adb59894.txt
+  - ref: refs/heads/locking/core
+    old: b33eb50a92b0a298fa8a6ac350e741c3ec100f6d
+    new: f66c538098b61e2eb596bb88fae90dbd2cebb378
+    log: revlist-b33eb50a92b0-f66c538098b6.txt
 
---===============6191134435091060001==
+--===============7432737584363484036==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b1472a60a584-1e68adb59894.txt
+Content-Disposition: attachment; filename=revlist-b33eb50a92b0-f66c538098b6.txt
 
+1b0fce8c8e69485e49a7d34aac3d4c2a2aa15d62 net: usb: cdc_ether: add u-blox 0x1313 composition.
+d5dc39459bdafd18ff1e93e1a86eb3e814ff9f94 docs: netdev: broaden mailbot to all MAINTAINERS
+26b32974ad2e82811706fd19c33c4ad6b9953663 docs: networking: Update codeaurora references for rmnet
+bcc8790057c1f02d20654f68d107973405c1f823 RISC-V: Document that V registers are clobbered on syscalls
 e50db34efdc8cac2f17b8f5d32fddd7b58914ce6 RISC-V: Fix up some vector state related build failures
 782aefb177e8932c558ae55f64206ded7fe1292f Merge patch series "riscv: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION"
 26c38cd802c947401cfbcc285b7d841256b5f17f riscv: vector: only enable interrupts in the first-use trap
@@ -423,6 +427,7 @@ abfb2a58a5377ebab717d4362d6180f901b6e5c1 ionic: remove WARN_ON to prevent panic_
 3a7af34fb6ecd9fbeb4454fc03c654b26fab5f5e ionic: remove dead device fail path
 8139dccd464aaee4a2c351506ff883733c6ca5a3 udp6: add a missing call into udp_fail_queue_rcv_skb tracepoint
 3a6dbb691782e88e07e5c70b327495dbd58a2e7f MIPS: kvm: Fix build error with KVM_MIPS_DEBUG_COP0_COUNTERS enabled
+b1472a60a584694875a05cf8bcba8bdf0dc1cd3a x86/smp: Don't send INIT to boot CPU
 70806ee18a871140a73a2524a29865e1d904348c Merge tag 'apparmor-pr-2023-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
 22dcc7d77fa463914bc2a2fb4580e6d183ca415d Merge tag 'powerpc-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 4f6b6c2b2f86b7878a770736bf478d8a263ff0bc Merge tag 'riscv-for-linus-6.5-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
@@ -1044,11 +1049,6 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-21a039c252ba0e23b438eb301187439ab20fd1c2 kprobes: Prohibit probing on CFI preamble symbol
-9289e7bef6851d3b50619eab6b28d4d9ff69a12a x86/kprobes: Prohibit probing on compiler generated CFI checking code
-5d78ed0959d293a570ef61dd9a6336aee75a483c x86/speculation: Add __update_spec_ctrl() helper
-8930fd8ff47f423a5d5e734fd30df52a4860f1cb x86/idle: Disable IBRS when cpu is offline
-85751db67a9e44ea7bebad055752d9319976744c intel_idle: Use __update_spec_ctrl() in intel_idle_ibrs()
-1e68adb59894117251d942316d32514d45bd23ef intel_idle: Add ibrs_off module parameter to force disable IBRS
+f66c538098b61e2eb596bb88fae90dbd2cebb378 lockdep/selftests: Use SBRM APIs for wait context tests
 
---===============6191134435091060001==--
+--===============7432737584363484036==--
