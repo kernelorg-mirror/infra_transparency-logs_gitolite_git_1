@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 27 Jul 2023 16:48:47 -0000
-Message-Id: <169047652753.8385.8671919401445792447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 27 Jul 2023 16:51:10 -0000
+Message-Id: <169047667032.10937.1179829738221409964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/rproc-next
-    old: 7784311cad42e67a1a51a9d1b961752c0f9b7200
-    new: 49f80a7ab988de408518b935c1eab5953c63308e
+  - ref: refs/heads/for-next/kspp
+    old: d570b0f23ddbfb23f8bb3ffb89500867a2a19858
+    new: 4e770fe36f016d4eeae22498c06a7492f71aca68
     log: |
-         05117bafbd6cdbd5639d5f02d298731e16444d7c dt-bindings: remoteproc: imx_rproc: Support i.MX8MN/P MMIO
-         49f80a7ab988de408518b935c1eab5953c63308e remoteproc: imx_rproc: Switch iMX8MN/MP from SMCCC to MMIO
+         61ce78f29a694772c3b2c5c749589682dbdfec2d um: Remove strlcpy declaration
+         c9732f1461f947429f8ee9289792c5ffea793350 perf: Replace strlcpy with strscpy
+         535c78cbc0c4095b6ebef304aef819b5777a4601 wifi: mt76: Replace strlcpy with strscpy
+         f2ccf8d13625784359f60078635f6b745f5e6b15 EISA: Replace all non-returning strlcpy with strscpy
+         5469fb73e96d04d665f57afa11265ebe7efaf194 wifi: mwifiex: Replace strlcpy with strscpy
+         4e770fe36f016d4eeae22498c06a7492f71aca68 Merge branch 'for-next/hardening' into for-next/kspp
          
