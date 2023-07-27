@@ -1,59 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2936306186438707496=="
+Content-Type: multipart/mixed; boundary="===============8441345145986054178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 27 Jul 2023 08:06:55 -0000
-Message-Id: <169044521545.335.3311351524011084202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 27 Jul 2023 08:35:15 -0000
+Message-Id: <169044691565.21170.12665282885382787553@gitolite.kernel.org>
 
---===============2936306186438707496==
+--===============8441345145986054178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/staging-testing
-    old: e1bfd97461541c5f974a690ac1f11e675f80fb3a
-    new: c928e84ce577262da288c0178c8c77620ba8b430
-    log: |
-         ca77687ae3f6d65fb26a0e1f93b54753af3581fc Staging: rtl8192e: Rename function ActivateBAEntry
-         8dd56eaa9450fb19f6bcc73956b3b1477331d28b Staging: rtl8192e: Rename function DeActivateBAEntry
-         7b31905582358d566332182653a4e5552dba1574 Staging: rtl8192e: Rename function TxTsDeleteBA
-         c928e84ce577262da288c0178c8c77620ba8b430 Staging: rtl8192e: Rename function RxTsDeleteBA
-         
+  - ref: refs/heads/master
+    old: 3f3422d644e12169456bbf141d685a6ae4c12fa6
+    new: d5e8803b2874a8d885e43fb7d89adc619c0429b4
+    log: revlist-3f3422d644e1-d5e8803b2874.txt
 
---===============2936306186438707496==
+--===============8441345145986054178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3f3422d644e1-d5e8803b2874.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690445212 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1690445212-927dea4351a5104c65e2bb86f38ce944199e6607
+0266a2f791294e0b4ba36f4a1d89b8615ea3cac0 ksmbd: Fix unsigned expression compared with zero
+8b58f757cd1c712b5f081e4c26b13611298dfb07 platform/x86: touchscreen_dmi.c: small changes for Archos 101 Cesium Educ tablet
+f2ae72541d52a0bf50366840fe2238aaf111f7ae platform/x86/amd: pmc: Use release_mem_region() to undo request_mem_region_muxed()
+676b7c5ecab36274442887ceadd6dee8248a244f platform/x86: serial-multi-instantiate: Auto detect IRQ resource for CSC3551
+2b57a4322b1b14348940744fdc02f9a86cbbdbeb ksmbd: check if a mount point is crossed during path lookup
+dc318846f3dd54574a36ae97fc8d8b75dd7cdb1e ksmbd: fix out of bounds in smb3_decrypt_req()
+3df0411e132ee74a87aa13142dfd2b190275332e ksmbd: validate session id and tree id in compound request
+e202a1e8634b186da38cbbff85382ea2b9e297cf ksmbd: no response from compound read
+536bb492d39bb6c080c92f31e8a55fe9934f452b ksmbd: fix out of bounds in init_smb2_rsp_hdr()
+839e90e75e695b3d9ee17f5a2811e7ee5aea8d4a platform/x86/amd/pmf: reduce verbosity of apmf_get_system_params
+33c9ab5b493a0e922b06c12fed4fdcb862212cda platform/x86/amd/pmf: Notify OS power slider update
+e3ab18de2b09361d6f0e4aafb9cfd6d002ce43a1 platform/x86: intel: hid: Always call BTNL ACPI method
+7783e97f8558ad7a4d1748922461bc88483fbcdf platform/x86/intel/hid: Add HP Dragonfly G2 to VGBS DMI quirks
+1da0893aed2e48e2bdf37c29b029f2e060d25927 platform/x86: think-lmi: Use kfree_sensitive instead of kfree
+6a758a3e831ce1a84c9c209ac6dc755f4c8ce77a platform/x86: asus-wmi: Fix setting RGB mode on some TUF laptops
+ad084a6d99bc182bf109c190c808e2ea073ec57b platform/x86: msi-laptop: Fix rfkill out-of-sync on MSI Wind U100
+c21733754cd6ecbca346f2adf9b17d4cfa50504f platform/x86: huawei-wmi: Silence ambient light sensor
+5f0bc0b042fc77ff70e14c790abdec960cde4ec1 mm: suppress mm fault logging if fatal signal already pending
+f40125c0a160912ee3ac8def2f7de5bacb80df50 Merge tag '6.5-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+0a8db05b571ad5b8d5c8774a004c0424260a90bd Merge tag 'platform-drivers-x86-v6.5-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+d5e8803b2874a8d885e43fb7d89adc619c0429b4 Merge branch 'linus'
 
-e1bfd97461541c5f974a690ac1f11e675f80fb3a c928e84ce577262da288c0178c8c77620ba8b430 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTCJZwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G+AP+wVcu2FwP5mE8buMGX56
-+LGDFwa1VgOyTPNYTNEZBaj8jejFyWE6uIbymKukA+Qzb3BkGXFvvZApSICHZouT
-upNCABkUtdPOaRfZpLVMOVcyM9cGB9yfGmGThoYDTM450HtqaTwJKHX2My0hc23E
-uH0R4e0aA/Tx5RBv0wsicJQNvZ/BXZ6yicHFcXtxlU4br7vfbJ1cFhGF0SnbiMAc
-qkmWEn/u/11C5AS3cwsrZTW0aiBL5hZ1bKvEUBkeO8WSvz1/RKP2SNzclhPLzvDW
-jZ0Jd9cY1dw9ZPwf+9cfv3M8HLKo/4oxjIk64qwcy4b7LBKM0hWNaO2x3OYbc4QL
-GjWVJDCI7PfFudes4dUTrUDuu9x0z/215OF4JL0VOoeEq2U0nlqjpKw6T7xahZSe
-x/0TFNeVoOLEQmAa9X9B/uPePw7E2fbu/PXgOHXhkp+Ptpo0t79R/vCYTRs53JLk
-dXBQTXNhRuiydOyNc3yJKNbEAj5hQ2J6Cs4Uix+Dvq3KBIYSBVz0etFwHMvHfwdR
-el4E9oV/UoEZGkuyvh40t+0XYJMLBofpXzTeks5T2BVuWUbvrtP7ei44n114+npC
-js8946hwvd3QMHNuXKVs2pS3pLG005uKbYtqBEPgvRNtIZi3bupp83JYEMn2DbLA
-m+Pm9NdTYIjtIuIhyNQTBtGu
-=ivda
------END PGP SIGNATURE-----
-
---===============2936306186438707496==--
+--===============8441345145986054178==--
