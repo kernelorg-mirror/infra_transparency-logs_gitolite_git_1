@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 27 Jul 2023 01:37:37 -0000
-Message-Id: <169042185759.3371.5370514068203333425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 27 Jul 2023 01:41:57 -0000
+Message-Id: <169042211763.6651.13083203951944869527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: ac63227d0a4db6f0480e7ecbba59019175360f8f
-    new: 3e77308102571db549f971e661deb4998294c832
+  - ref: refs/heads/main
+    old: fa29d467977d50400f6bb1374e942e7474fdf53c
+    new: 2e3c5df2ee89d01c4dc6c30b4366375d3cf942bd
     log: |
-         2582c531203d224f3d18cf582deb65383a05c038 of: fix htmldocs build warnings
-         3e77308102571db549f971e661deb4998294c832 dt-bindings: usb: samsung-hsotg: remove bindings already part of dwc2
+         016e7ba47f33064fbef8c4307a2485d2669dfd03 selftests: mptcp: join: only check for ip6tables if needed
+         21d9b73a7d5241905367098d260a3c68b811da32 mptcp: more accurate NL event generation
+         2e3c5df2ee89d01c4dc6c30b4366375d3cf942bd Merge branch 'mptcp-more-fixes-for-6-5'
          
