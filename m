@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 27 Jul 2023 19:50:05 -0000
-Message-Id: <169048740527.14699.14123548019722718087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 27 Jul 2023 20:08:32 -0000
+Message-Id: <169048851254.27479.17084337563338183844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 29ba26059190bf337024b3aa0d95a12b2525cbf2
-    new: 45eb1cf5ce883ae3b170f102db38204616c8e4b1
+    old: aa0dd56835699f23f6bcc6f845a0e2681d7bcab5
+    new: 4adecfa0320f576c58aa31e84fc410c6b3ba92c4
     log: |
-         b29033254cbae585f319857e2a7acef176f046f2 helper_thread.h: include missing stdbool.h because 'bool' type is used
-         5bf944a011984675f31e591272eda8efb2092d78 helper_thread.h: forwardly declare structures fio_sem and sk_out
-         45eb1cf5ce883ae3b170f102db38204616c8e4b1 Merge branch 'helper_thread-fix-missing-stdbool-header' of https://github.com/dpronin/fio
+         b8415cd5ec10af2a539b090e266448ca8c42b0b6 foo
+         28047f68a3c8f35a581965f825d4fadd8a38aaf3 foo
+         5c08bb3a4a8c2568a1204ab3620b270e19cf58fe foo
+         eed03bcf61ad43868630d882550abb7355dc11e9 foo
+         4adecfa0320f576c58aa31e84fc410c6b3ba92c4 foo
          
