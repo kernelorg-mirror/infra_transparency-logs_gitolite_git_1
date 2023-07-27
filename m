@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7767298191279826924=="
+Content-Type: multipart/mixed; boundary="===============7717704678306199343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 27 Jul 2023 07:55:01 -0000
-Message-Id: <169044450119.23121.12440556620034336179@gitolite.kernel.org>
+Date: Thu, 27 Jul 2023 07:57:21 -0000
+Message-Id: <169044464152.25583.4148159594975050985@gitolite.kernel.org>
 
---===============7767298191279826924==
+--===============7717704678306199343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: ac83631230f77dda94154ed0ebfd368fc81c70a3
-    new: 5f1c7031e044cb2fba82836d55cc235e2ad619dc
+  - ref: refs/heads/staging-testing
+    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+    new: ad536aa5b0252869070e23240fdaa69d65d1b84a
     log: |
-         4912649e1cf0317bf563f91655e04a303cacaf8d staging: fbtft: ili9341: use macro FBTFT_REGISTER_SPI_DRIVER
-         5f1c7031e044cb2fba82836d55cc235e2ad619dc staging: ks7010: potential buffer overflow in ks_wlan_set_encode_ext()
+         ad536aa5b0252869070e23240fdaa69d65d1b84a staging: greybus: pwm: Drop unused member from driver struct
          
 
---===============7767298191279826924==
+--===============7717704678306199343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690444498 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690444638 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1690444497-5b50679cd1f46334fe5653720abe6a26dafdf9c6
+nonce 1690444638-7e677b490156a86bdb85d7a50fb2723322427264
 
-ac83631230f77dda94154ed0ebfd368fc81c70a3 5f1c7031e044cb2fba82836d55cc235e2ad619dc refs/heads/staging-linus
+6eaae198076080886b9e7d57f4ae06fa782f90ef ad536aa5b0252869070e23240fdaa69d65d1b84a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTCItIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NIYQAL/tGFftncrlKpAPIKkz
-ASWIxSkR1DZQjRzqafxlY2j/64r0Ju9zu9mz2mP8CkT00EbQdyBuOX5Jdm9a0gnh
-ieQNr6K4uVrJ/XSyG8bC9ZeqphgNPQ9cJTtNE1xPWqzz9efVPgm3mN6EF6o/TmF1
-BahpP7GRkz0wHC5panKJn1DDdMd0Txa0PhbZy4hmveOjjNQtaUFDmwLVIKPo/chQ
-9PEOrkGpOUh8JCEh7vwtR4cjVal3tAZMPzER7Oc+8zCgoLu3kIR+Mj1vTdBJbCSJ
-utvaE/OVMTFwXaC3dGAk0P6cR8CtuKN85t9egPeRLYS+Eiy+Hj30ksPZRX3dMJv1
-tn3FDXxSJmj3JTNM6/Bw7TaKn7QLhTOPPIws9c3uc30Z0WbgrP3DhAzStxqUrEa3
-XDqJVSvWr8IKrUxroZQOb2wmUzny4HlCd0oUS31adFlguc1r/dId44A+8yEPSqrl
-g9F8j0IGKUguyrs73EUDSGNgNSCt84TnTCSOlXsbSYHWWXYo+fcN9Yn8F4bHrnPA
-g41HNBCykJjlMLEtP6MKFm3sm4nkq81fcxAnVKMaJxzBQCWd3Kg3xcF79LPRUPGL
-9NwZVN9DbuVBvxr0FO6Bh0izwqSbQN4+QAYwz6VJi1iQOcNJ27Yar80AI4cq3t4W
-Ciy/SAKUtJYz2BtRQcb0VxJt
-=3vTf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTCI14bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+73gQAMcYXQVf2EI08oH8+2Rp
+MjjIbgWhxnM8H7hAYBrIkomIE0WmqaCPghkfHS9FX3vLfUwdSHIjU1CmDUO/vOjn
+WdnVpWOYHuofvW3A2ALmZ8oSt2u9o5ngYZOxIcIv+dYk9JJaywNJgp89uiesMNed
+B+zGzn4Dzzy2JOSaeC0SGJo2ejW4+NE1txYhcv2zvkHji7+xygGVkOLo4IMm3Hz9
+OI6zfsGq6hCtnY3P0WdGQUalE7zABHF8aK8AVFveMpV7udqlhYak5zV7OD2GVy4w
+hT4rcUyufaVP8RlvhvzAs7+RophvoVVy+VFuY/Ebz2RzZ0bcizSo513LOzgVDUAz
+Ue9vi96hrPhpwLtk5QqZg6a1Im4ngpwis7gEq8ghXKqR90zS0oqHVfpw6C5wjzCw
+3036u3GASW+0E5RcMNKtt6r2JGyicSeZSxTW6w6lV/iggobGSWD/v/GwgDeoq/2P
+cRr3bEfFwwJ8bX5wrmglDIircoWS4O3X4xfX9YM2pGGAubOLKJExb7XDTvAHx5fh
++7Q/edQ3ZvLAFPu/fBaaMjFmUoV3uvCwpTSDq/0FEuEj42qbwxQwOzR1+V5tvnZB
+Dd3U1w5xwoXs1vshSbfjdqiRvbCsI/61QtcZjPHZd0DiZRhiZJDCl3uILuqGyEXr
+GDZnIJxbz5HCSP0vgYKKthOb
+=IAut
 -----END PGP SIGNATURE-----
 
---===============7767298191279826924==--
+--===============7717704678306199343==--
