@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Jul 2023 14:06:18 -0000
-Message-Id: <169046677827.18258.16711115106576092046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 27 Jul 2023 14:09:37 -0000
+Message-Id: <169046697710.20801.2433234545808513167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: f90d290973819bec46cbc9acf37990b735b24ae9
-    new: 363664856d3ffbf1482d6b50921c67bdcafdbff5
+  - ref: refs/heads/riscv-crypto
+    old: 7270fac03adc9aa0824b2a14e1f7e0da3ed2774c
+    new: 110352d2d7d10f4dd48c27ec423808567205a454
     log: |
-         05e91e72113833385fb8c9a33bda9dbd93e27609 x86/microcode/AMD: Rip out static buffers
-         363664856d3ffbf1482d6b50921c67bdcafdbff5 Merge branch into tip/master: 'x86/microcode'
+         110352d2d7d10f4dd48c27ec423808567205a454 crypto: riscv/aes - Implement scalar Zkn version for RV32
          
