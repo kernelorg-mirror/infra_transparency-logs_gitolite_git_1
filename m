@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 27 Jul 2023 16:15:46 -0000
-Message-Id: <169047454619.17254.2453253997694791306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 27 Jul 2023 16:21:52 -0000
+Message-Id: <169047491223.21025.8123031995167601125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/ath-next
-    old: 061115fbfb2ce5870c9a004d68dc63138c07c782
-    new: 1ad8237e971630c66a1a6194491e0837b64d00e0
+  - ref: refs/heads/master
+    old: d1d99c8df553338adbcb6b2df15daa5e3a804246
+    new: ba98ce671e4f6c8da9d49768c2df759068e32984
     log: |
-         1ad8237e971630c66a1a6194491e0837b64d00e0 wifi: wil6210: fix fortify warnings
-         
-  - ref: refs/heads/ath-qca
-    old: f9482c7149e74886673e6582ec87f8fd85b89873
-    new: 4b548ae92d7ea3a68eb39f64e2339dec4c5383b4
-    log: |
-         1ad8237e971630c66a1a6194491e0837b64d00e0 wifi: wil6210: fix fortify warnings
-         4b548ae92d7ea3a68eb39f64e2339dec4c5383b4 Merge branch 'ath-next' into ath-qca
+         ba98ce671e4f6c8da9d49768c2df759068e32984 foo
          
