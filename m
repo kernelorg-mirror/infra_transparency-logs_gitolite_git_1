@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3085535999870286777=="
+Content-Type: multipart/mixed; boundary="===============5588753850403171049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Thu, 27 Jul 2023 17:07:53 -0000
-Message-Id: <169047767376.23552.10401684185126457823@gitolite.kernel.org>
+Date: Thu, 27 Jul 2023 17:09:04 -0000
+Message-Id: <169047774480.24071.13859119198766338320@gitolite.kernel.org>
 
---===============3085535999870286777==
+--===============5588753850403171049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
+  - ref: refs/heads/next-integrity
     old: 95526d13038c2bbddd567a4d8e39fac42484e182
-    new: 021f5c028416d271a05831132167a842bf898dd2
-    log: revlist-95526d13038c-021f5c028416.txt
+    new: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+    log: revlist-95526d13038c-6eaae1980760.txt
 
---===============3085535999870286777==
+--===============5588753850403171049==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-95526d13038c-021f5c028416.txt
+Content-Disposition: attachment; filename=revlist-95526d13038c-6eaae1980760.txt
 
+255006adb3da71bb75c334453786df781b415f54 Merge tag 'kvm-x86-vmx-6.5' of https://github.com/kvm-x86/linux into HEAD
+1b0fce8c8e69485e49a7d34aac3d4c2a2aa15d62 net: usb: cdc_ether: add u-blox 0x1313 composition.
+d5dc39459bdafd18ff1e93e1a86eb3e814ff9f94 docs: netdev: broaden mailbot to all MAINTAINERS
 26b32974ad2e82811706fd19c33c4ad6b9953663 docs: networking: Update codeaurora references for rmnet
 bcc8790057c1f02d20654f68d107973405c1f823 RISC-V: Document that V registers are clobbered on syscalls
 e50db34efdc8cac2f17b8f5d32fddd7b58914ce6 RISC-V: Fix up some vector state related build failures
@@ -1047,8 +1050,5 @@ df01b7cfcef08bf3fdcac2909d0e1910781d6bfd kbuild: rust: avoid creating temporary 
 12a5336ca384b295093c18e0c66ca60b4518d9b9 Merge tag 'kbuild-fixes-v6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 3b4e48b8007105695c913348ca11df50260a5ccb Merge tag 'trace-v6.5-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6eaae198076080886b9e7d57f4ae06fa782f90ef Linux 6.5-rc3
-587835101f950d162fecc39540ab15bc4672efa6 ima: Remove deprecated IMA_TRUSTED_KEYRING Kconfig
-7c47acb25c4dc40b99164173e1991673b2b46f9d integrity: Always reference the blacklist keyring with appraisal
-021f5c028416d271a05831132167a842bf898dd2 ima: require signed IMA policy when UEFI secure boot is enabled
 
---===============3085535999870286777==--
+--===============5588753850403171049==--
