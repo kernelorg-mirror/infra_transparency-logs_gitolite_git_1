@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8067866298055745295=="
+Content-Type: multipart/mixed; boundary="===============2659903708387412166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 27 Jul 2023 11:46:40 -0000
-Message-Id: <169045840059.13685.13891521718599566955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 27 Jul 2023 11:46:57 -0000
+Message-Id: <169045841700.13871.1481535529000927170@gitolite.kernel.org>
 
---===============8067866298055745295==
+--===============2659903708387412166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: df5c2c036d74edeb25aedfbd0cda8a478b9066e2
     log: revlist-681f34d52b96-df5c2c036d74.txt
 
---===============8067866298055745295==
+--===============2659903708387412166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ d46d8f9b9c8df103d176f62bf5c7d3a3ea35aefe perf scripts python: Add initial script
 3449f59dbf1e6f1e4dfd61526687ef9424a76dd5 perf scripts python: Implement add sample function and thread processing
 df5c2c036d74edeb25aedfbd0cda8a478b9066e2 perf scripts python: Add command execution for perf gecko script
 
---===============8067866298055745295==--
+--===============2659903708387412166==--
