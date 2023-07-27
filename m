@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 27 Jul 2023 12:06:51 -0000
-Message-Id: <169045961179.27309.4393855475765957499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 27 Jul 2023 12:10:15 -0000
+Message-Id: <169045981593.31566.15002451412128145633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/file9PJFHh
-    old: 0000000000000000000000000000000000000000
-    new: b505e2ecf31b6a2a62c76203558384d7646ab02f
-  - ref: refs/heads/fileR2aDbB
-    old: 0000000000000000000000000000000000000000
-    new: cfef69cbe3726c095f55769bd0e7c72f32bf5060
+  - ref: refs/heads/for-next
+    old: 24b1b5d85c1c1e1c0eb7b6d7b6986ecb6c80041d
+    new: 693e1cdebb50d2aa67406411ca6d5be195d62771
+    log: |
+         8cfc99dada35b8889f76fbe28115dcde1a6f0874 RDMA/irdma: Drop a local in irdma_sc_get_next_aeqe
+         133b1cba46c6c8b67c630eacc0a1e4969da16517 RDMA/irdma: Refactor error handling in create CQP
+         e49bad785e550fe26ca9416ffc0c85fef84be808 RDMA/irdma: Add table based lookup for CQ pointer during an event
+         693e1cdebb50d2aa67406411ca6d5be195d62771 RDMA/irdma: Cleanup and rename irdma_netdev_vlan_ipv6()
+         
