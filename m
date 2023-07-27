@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 27 Jul 2023 22:40:18 -0000
-Message-Id: <169049761810.13166.13023605418463391810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 27 Jul 2023 22:43:19 -0000
+Message-Id: <169049779981.14317.15150715319413245620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: e241daab835022642243d0851f962c66b6f2e6a0
-    new: 359cde47d53e72758762bdffa1581650dab1357f
+    old: f57f797eebfe62621f37d00831b5bc4c95398a11
+    new: dd338bea1ff1dcc7e5efc614545c32d1c8c75936
     log: |
-         359cde47d53e72758762bdffa1581650dab1357f Thu Jul 27 10:38:17 PM UTC 2023
+         d5e8b6a140ecfb3f8fc3dff4189417620c1217de Bluetooth: nokia: fix value check in nokia_bluetooth_serdev_probe()
+         dd338bea1ff1dcc7e5efc614545c32d1c8c75936 Bluetooth: btnxpuart: Add support for AW693 chipset
          
