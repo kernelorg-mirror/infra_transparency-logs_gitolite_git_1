@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Thu, 27 Jul 2023 00:52:43 -0000
-Message-Id: <169041916393.29233.6029485352557295486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 27 Jul 2023 01:37:30 -0000
+Message-Id: <169042185085.3245.10414377396697410568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 141cb9d6628eb044f4a8f18a36d3b24d2aa48143
-    new: 32d13a9ee3ae55b73e59c37dcc0c4aac2949bdf9
+  - ref: refs/heads/dt/next
+    old: ac63227d0a4db6f0480e7ecbba59019175360f8f
+    new: 3e77308102571db549f971e661deb4998294c832
     log: |
-         32d13a9ee3ae55b73e59c37dcc0c4aac2949bdf9 Update the kvm-quickstart and kvm-xfstests documentation.
+         2582c531203d224f3d18cf582deb65383a05c038 of: fix htmldocs build warnings
+         3e77308102571db549f971e661deb4998294c832 dt-bindings: usb: samsung-hsotg: remove bindings already part of dwc2
          
