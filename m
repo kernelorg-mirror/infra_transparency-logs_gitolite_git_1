@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3770449264720993017=="
+Content-Type: multipart/mixed; boundary="===============4057867049794456142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 28 Jul 2023 02:18:27 -0000
-Message-Id: <169051070752.15527.12098635829663557166@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 02:18:36 -0000
+Message-Id: <169051071621.15683.8745842315837609450@gitolite.kernel.org>
 
---===============3770449264720993017==
+--===============4057867049794456142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 10d78a66a5f29fbbde1b09b5139c17c436b08c6e
     new: f7e6bd33d1d404608515addcd84cf25ac5289314
     log: revlist-10d78a66a5f2-f7e6bd33d1d4.txt
 
---===============3770449264720993017==
+--===============4057867049794456142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ de1c26809ec37b632ad7bcec3bba8b849eb44d43 selftests/bpf: Add unit tests for new s
 245d4c40c09bd8d5a71640950eeb074880925b9a docs/bpf: Add documentation for new instructions
 f7e6bd33d1d404608515addcd84cf25ac5289314 Merge branch 'bpf-support-new-insns-from-cpu-v4'
 
---===============3770449264720993017==--
+--===============4057867049794456142==--
