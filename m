@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4043228305082135907=="
+Content-Type: multipart/mixed; boundary="===============5265745273116774140=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 28 Jul 2023 15:22:47 -0000
-Message-Id: <169055776717.17854.15695083519301557574@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 15:23:19 -0000
+Message-Id: <169055779995.18130.16660068016812843224@gitolite.kernel.org>
 
---===============4043228305082135907==
+--===============5265745273116774140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 57012c57536f8814dec92e74197ee96c3498d24e
-    new: 5416d7925e6ee72bf1d35cad1957c9a194554da4
-    log: revlist-57012c57536f-5416d7925e6e.txt
+  - ref: refs/heads/dev-queue
+    old: b13a62c79e753e67a4a634e504002d47985cdf2b
+    new: 4266cead025c6fff0b5aa1267ca20eae914a9ff0
+    log: revlist-b13a62c79e75-4266cead025c.txt
 
---===============4043228305082135907==
+--===============5265745273116774140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57012c57536f-5416d7925e6e.txt
+Content-Disposition: attachment; filename=revlist-b13a62c79e75-4266cead025c.txt
 
 aeb660171b0663847fa04806a96302ac6112ad26 net/mlx5e: fix double free in macsec_fs_tx_create_crypto_table_groups
 5dd77585dd9d0e03dd1bceb95f0269a7eaf6b936 net/mlx5: DR, fix memory leak in mlx5dr_cmd_create_reformat_ctx
@@ -48,5 +48,15 @@ fa467226669c09520bfb3e67fca5aeff947cdf17 MAINTAINERS: stmmac: retire Giuseppe Ca
 dadc5b86cc9459581f37fe755b431adc399ea393 net: dsa: fix value check in bcm_sf2_sw_probe()
 4a0822608e6aafdcb67ea0aaaa516b67826d1119 Merge tag 'mlx5-fixes-2023-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 5416d7925e6ee72bf1d35cad1957c9a194554da4 dt-bindings: net: rockchip-dwmac: fix {tx|rx}-delay defaults/range in schema
+1158e07c9116103d0ebf6a3dc4dc3b4d32ee571d igb: fix hang issue of AER error during resume
+85650d2aafe8b119adca851143de165f2228e1c9 ice: Fix RDMA VSI removal during queue rebuild
+1e2dea0d6316c0b956df5d810ade3250bb12d1eb i40e: Fix VF reset recognition
+33efcd027ea2719c91a23b4b5d8b3687c42d1cd7 igc: Expose tx-usecs coalesce setting to user
+cbdc4ab98af0d81567831dec471c99802e760a3b igc: Modify the tx-usecs coalesce setting
+8e47d1de5d4cde08d2c367900e34c172c7911857 igc: Add lock to safeguard global Qbv variables
+d7f14b4b2e2a42f1762a547de8368687ee1fa584 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+84691a20d5ffae6e02e2b278159143fca497f5e0 igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+120d950f66809a442630ba70ebe9f9eb8ded36f3 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+4266cead025c6fff0b5aa1267ca20eae914a9ff0 ice: avoid executing commands on other ports when driving sync
 
---===============4043228305082135907==--
+--===============5265745273116774140==--
