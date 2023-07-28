@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 28 Jul 2023 00:17:22 -0000
-Message-Id: <169050344280.19317.13294822663439474188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/klibc/klibc
+Date: Fri, 28 Jul 2023 00:22:54 -0000
+Message-Id: <169050377415.22944.17119563989822372520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/klibc/klibc
+user: bwh
 changes:
-  - ref: refs/heads/main
-    old: 4d66f235c7904576a7df396791b96bc7d259507b
-    new: d4a80cc69aea74fe220dc9faa0d6d62e4dfa871a
+  - ref: refs/heads/master
+    old: d16525038612be94cf2573c02eac8c7f76321f62
+    new: 47b2771e2d0762e9b1b9af00a42792c17f35774e
     log: |
-         d4a80cc69aea74fe220dc9faa0d6d62e4dfa871a dccp: Remove unused declaration dccp_feat_initialise_sysctls()
+         47b2771e2d0762e9b1b9af00a42792c17f35774e [klibc] 2.0.13 released, next version is 2.0.14
          
+  - ref: refs/tags/klibc-2.0.13
+    old: 0000000000000000000000000000000000000000
+    new: ef603dd9890361a128a7f80068104d32b4f71b36
