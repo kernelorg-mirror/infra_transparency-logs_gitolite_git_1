@@ -1,41 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0419661663643498482=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 28 Jul 2023 10:04:18 -0000
-Message-Id: <169053865843.10809.3567883749686319640@gitolite.kernel.org>
-
---===============0419661663643498482==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 28 Jul 2023 10:21:22 -0000
+Message-Id: <169053968239.24461.10487943879168487008@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/main
-    old: 7f6c40391a048c5d0f593f285bee45f7f98a3ca4
-    new: f5fbd3246c068d4c67e4259f39c1bd2f27110d7a
-    log: revlist-7f6c40391a04-f5fbd3246c06.txt
-
---===============0419661663643498482==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f6c40391a04-f5fbd3246c06.txt
-
-f3fbda3396f39c9849ea31c19c9b188905b1691d ice: Correctly initialize queue context values
-bb52f42acef6ac317ee298d39909ce17bbaddb82 ice: Add driver support for firmware changes for LAG
-23ccae5ce15f33001f34ed1b9e2ac312bb5e8615 ice: changes to the interface with the HW and FW for SRIOV_VF+LAG
-41ccedf5ca8fcd9fc97f977887625c035d9b15df ice: implement lag netdev event handler
-ec5a6c5f79ed7ff3e26418dce330d2a583e57fb0 ice: process events created by lag netdev event handler
-1e0f9881ef79af9629bbf3cc3b307498d2e015ac ice: Flesh out implementation of support for SRIOV on bonded interface
-ba789fb45697e98a3fce9d0f26e41067a65a8a05 ice: support non-standard teardown of bond interface
-bf65da2eb279f27d6933e11a713a55fe49e71671 ice: enforce interface eligibility and add messaging for SRIOV LAG
-ab2ed5d77ab9c438d1ca8ebb230cf8eb699c163f ice: enforce no DCB config changing when in bond
-3579aa86fb4046a378f7d68583cfb7f62e0feabd ice: update reset path for SRIOV LAG support
-f5fbd3246c068d4c67e4259f39c1bd2f27110d7a Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/nex t-queue
-
---===============0419661663643498482==--
+  - ref: refs/heads/master
+    old: dd105461ad15ea930d88aec1e4fcfc1f3186da43
+    new: 3de0152bf26ff0c5083ef831ba7676fc4c92e63a
+    log: |
+         e22471c2331c984ba48e89acd00d0ba1f60a3ea7 crypto: starfive - Add AES skcipher and aead support
+         9f3fa6bc4ff8515da1349c44a77e7327bd2f4788 KEYS: use kfree_sensitive with key
+         80e40fea8e2a7528b079ac1853da528c5cabf625 hwrng: cctrng - don't open code init and exit functions
+         8bcd9689384810bd1c610419563c827e23118e34 hwrng: cctrng - let devres enable the clock
+         80a34c037713b183032fad578cf5cb88b94298a8 hwrng: cctrng - merge cc_trng_clk_init into its only caller
+         9553ae3497f0753b79efa54b1719a7117e10bdf4 hwrng: cctrng - use dev_err_probe in error paths
+         5a3d66acf072ae78dfa06af712a42b24bef32c0f hwrng: cn10k - delete empty remove function
+         81511798bdfb1a61f97569436789721aace942fb hwrng: cn10k - use dev_err_probe
+         6df04505f3b285f3bcfe81cf0461339b0f4ed41d crypto: caam - Use struct_size()
+         3de0152bf26ff0c5083ef831ba7676fc4c92e63a crypto: caam - Remove messages related to memory allocation failure
+         
