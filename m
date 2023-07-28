@@ -1,88 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8972742710697709186=="
+Content-Type: multipart/mixed; boundary="===============1350473483582091831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 28 Jul 2023 08:28:47 -0000
-Message-Id: <169053292766.23780.2776565919389684252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+Date: Fri, 28 Jul 2023 08:31:00 -0000
+Message-Id: <169053306096.26336.13458952923461488663@gitolite.kernel.org>
 
---===============8972742710697709186==
+--===============1350473483582091831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+user: thierry.reding
 changes:
-  - ref: refs/heads/vfs.ctime
-    old: ea462c3f7f48279441076e74eb5035e2293a28b8
-    new: b90a04d1c30caf8502c5f6c78ff53cdf59daff75
-    log: revlist-ea462c3f7f48-b90a04d1c30c.txt
+  - ref: refs/heads/for-next
+    old: a2f68c7e312f94c8f78740449a88e8d7308ab18d
+    new: 3ccb179aa40d931eb00ef8910d7b812a95659563
+    log: revlist-a2f68c7e312f-3ccb179aa40d.txt
 
---===============8972742710697709186==
+--===============1350473483582091831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea462c3f7f48-b90a04d1c30c.txt
+Content-Disposition: attachment; filename=revlist-a2f68c7e312f-3ccb179aa40d.txt
 
-1311011c2bb7b307ed048aa74997b2b514eac88d ext4: convert to ctime accessor functions
-d6fdafe825b07cd784fcaacba3bb0904451c8e9c f2fs: convert to ctime accessor functions
-71c9194b679c00959b29324172bd7af0b40fb3dc fat: convert to ctime accessor functions
-d5d6b96c617f6911fce7105b42607c79e0cbbac1 freevxfs: convert to ctime accessor functions
-3adea149b97ae9b42fa8210c3fad08840510e18d fuse: convert to ctime accessor functions
-09589533213d7d29e77f2acba3480ad5bfdc08f0 gfs2: convert to ctime accessor functions
-49fb985b8ba2dce8987880c2875254ad321759ea hfs: convert to ctime accessor functions
-a374703a081f9f8496179c82e3a80a764c152432 hfsplus: convert to ctime accessor functions
-ea5c25a17f2f40e58a041a41eb8fdbb23e3883a6 hostfs: convert to ctime accessor functions
-1827680a85c81ed133c5c9080177b74878607f20 hpfs: convert to ctime accessor functions
-66fd18e550bfc6559a5f06a321e12eb5a6e12f8c hugetlbfs: convert to ctime accessor functions
-82b60377a651c00f9602ca7254ee6adbdcc6b66e isofs: convert to ctime accessor functions
-ce4599dc0222436535ef07d4db6730c5a2293c0a jffs2: convert to ctime accessor functions
-71e67a50421cb1b2b55b7438842693cdeddbd1d1 jfs: convert to ctime accessor functions
-1b1bd092bb510a23d5f3511b2617cf096dd9a42a kernfs: convert to ctime accessor functions
-0a95849daae947a22bf296422eb290fd251a285c nfs: convert to ctime accessor functions
-0b302777fd27ed237560d668165a0d3f43d98a2b nfsd: convert to ctime accessor functions
-bf5bd558181d13f1ea217ddf1ab34d79e098271f nilfs2: convert to ctime accessor functions
-637baec693aac257d0b140698d7e4daef387409c ntfs: convert to ctime accessor functions
-660575bc58403608ca4722af294248d2c56c1f47 ntfs3: convert to ctime accessor functions
-434b1871d04df828f126a54adde01a271e6262d4 ocfs2: convert to ctime accessor functions
-c3c2aad004905887512bc117d94b9a26d82e1c3f omfs: convert to ctime accessor functions
-3eb4ac9d231c1bd78e9ed61c4ff05f242336ddf8 openpromfs: convert to ctime accessor functions
-b13937555a777aa0e823ae17d67ed3a77beb1fdd orangefs: convert to ctime accessor functions
-1d9ae9e2490055d642893ee852bd66996752a68c overlayfs: convert to ctime accessor functions
-59bb8e08e8abaee13edcbccc256150f6de5fcdb1 procfs: convert to ctime accessor functions
-8fed8d6e7e02b948f76d345b8a9ecac19969a810 pstore: convert to ctime accessor functions
-19eb427b7cdd8e7fe43fe7f3e5f3cbb42cb00c7d qnx4: convert to ctime accessor functions
-fc3c774dab9010dc56c938c3cdac9dde27f67933 qnx6: convert to ctime accessor functions
-5fd128f6402c321894d4a61614a1556bcf88bf11 ramfs: convert to ctime accessor functions
-cd737c17249c4a77d0fb6d7a4ca14ddfd3a48617 reiserfs: convert to ctime accessor functions
-631b278e6f2f11e0e1406e09cb477401d6fd2dee romfs: convert to ctime accessor functions
-772f3c6435a6d742edffce4870b10bf2cbfb096c smb: convert to ctime accessor functions
-249b97364395f4e021cb827e63ca2acae860beba squashfs: convert to ctime accessor functions
-fd6e7fdcd731a736cba346b3bc080d9b11f78891 sysv: convert to ctime accessor functions
-8a5bbcaf17160cb37fe77429336b35005086827a tracefs: convert to ctime accessor functions
-bf8a3c2271ef0ba1552bac566e38dd0e0a0f882b ubifs: convert to ctime accessor functions
-cdf43a27a56b4ae2872d917fdd7584746d7eefd2 udf: convert to ctime accessor functions
-40f1b6094e4d9d4246e27a9d980fccb63e5817e1 ufs: convert to ctime accessor functions
-72f4a1b2cdb3ad802b67bd0f841e552c0ed6bba5 vboxsf: convert to ctime accessor functions
-8d9569aedf2317f451d5f1e8a7d16668b91de48e xfs: convert to ctime accessor functions
-d18d50df01742b45961bc037b67406c3578e9070 zonefs: convert to ctime accessor functions
-3f07c84bf21959a44aa67cbbada68218c993b6b6 linux: convert to ctime accessor functions
-46d180d4e1e152f8da7abd644cb0a8848a017707 mqueue: convert to ctime accessor functions
-edef340e4a49b50ae36964ad1b5a1033f6040890 bpf: convert to ctime accessor functions
-7ac184e01fede59721e93bdf2589dd13a44578d7 shmem: convert to ctime accessor functions
-1d399b27a9f3439d8c26423bfa210e0f783e3d32 sunrpc: convert to ctime accessor functions
-54d7d4b44cada0c6cd64c8dbe57d5c76b69ee517 apparmor: convert to ctime accessor functions
-4295a12117f560c976dce552842b01e1928dc146 security: convert to ctime accessor functions
-57f0d0f6f6cfe815b80f5a8caeebee60d92108f3 selinux: convert to ctime accessor functions
-b0d2be0574b4f2fe1d625e6d8bcecc2d00841c2d fs: rename i_ctime field to __i_ctime
-525deaeb2fbf634222f4231608c72190c551c935 gfs2: fix timestamp handling on quota inodes
-0a6ab6dc69581384905ca3cab0b5fe9273db76e9 fs: pass the request_mask to generic_fillattr
-d242b98ac3e9b6ff0fe445b5ad54c5a566317066 fs: add infrastructure for multigrain timestamps
-1f31c58cf0322f71e8318d05dea8c22ef2096aa1 tmpfs: add support for multigrain timestamps
-859dd91017dd4a25345b7c7cd79cdd397198aad6 xfs: switch to multigrain timestamps
-093af249eab4869ffb21a5505ef7f1b6906c8f25 ext4: switch to multigrain timestamps
-b90a04d1c30caf8502c5f6c78ff53cdf59daff75 btrfs: convert to multigrain timestamps
+018121e655c8ac2b369f70758dbddf7a37ef534f pwm: Remove outdated documentation for pwmchip_remove()
+bdebe27e3dc22c11c72b0d1ef4ed30355f154e58 pwm: rz-mtu3: Fix build warning 'num_channel_ios' not described
+84c33f4278249aecb49375fb884b0b14a3664a63 pwm: Drop unused #include <linux/radix-tree.h>
+0323e8fedd1ef25342cf7abf3a2024f5670362b8 pwm: atmel-tcb: Harmonize resource allocation order
+c11622324c023415fb69196c5fc3782d2b8cced0 pwm: atmel-tcb: Fix resource freeing in error path and remove
+78dca23bd6706dd6a3cdb5c0052f48794b4d2bed pwm: atmel-tcb: Put per-channel data into driver data
+9a6ac822a2153d583b0da95b8693e954b5f4203a pwm: atmel-tcb: Unroll atmel_tcb_pwm_set_polarity() into only caller
+28a1dadc49e2902d0a7a2e8c699a15f93b1b6f40 pwm: atmel-tcb: Don't track polarity in driver data
+4aed0ccd6868e6ec71f0cf26fc755dbd67447072 pwm: lpc18xx-sct: Simplify using devm_clk_get_enabled()
+63808bbb3e226b0160f61723614e612fbf51541c pwm: pxa: Don't reimplement of_device_get_match_data()
+250b4ca0c9d611c61e12a8eb2d24e69f9058de2b pwm: ntxec: Drop a write-only variable from driver data
+387c74e5f91d8e6f0c6e49fddd8b0e53118e5def pwm: ntxec: Use device_set_of_node_from_dev()
+86eed2a10304a9efe56c2b192b914b377cad260d pwm: Fix order of freeing resources in pwmchip_remove()
+e9c2f69aac05919a4f2bf72a7b53c43ac3f4c410 pwm: stm32: Don't modify HW state in .remove() callback
+8c89fd866ad221af037ef0ec3d60b83d0b859c65 pwm: stm32: Simplify using devm_pwmchip_add()
+b2c71e9f8dd0d023a847f6c38f9a83c0949ec01a pwm: stmpe: Handle errors when disabling the signal
+8b9d91d23c18423d4e4bda735f20b669fb28115f dt-bindings: pwm: brcm,kona-pwm: convert to YAML
+b22bb0d6a828b4eab579056647d2f362ac116cf2 pwm: atmel: Simplify using devm functions
+3ccb179aa40d931eb00ef8910d7b812a95659563 pwm: lpc32xx: Remove handling of PWM channels
 
---===============8972742710697709186==--
+--===============1350473483582091831==--
