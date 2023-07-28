@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 28 Jul 2023 17:28:20 -0000
-Message-Id: <169056530054.12477.1575304214471710948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 28 Jul 2023 17:40:05 -0000
+Message-Id: <169056600527.22768.13431719982282858002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/synquacer-net
-    old: 5cdb50dfd0dbd2501fe99c5d2041c459250441a8
-    new: 418f65e3572453aa3825dced9a1c0a3b47f8f9da
+  - ref: refs/heads/master
+    old: 696abd97e2b15d96374b866e577f0afaa4f6f62c
+    new: 824912be19542f94264e485a25d37b55a9f68f0e
     log: |
-         418f65e3572453aa3825dced9a1c0a3b47f8f9da net: netsec: Ignore 'phy-mode' on SynQuacer in DT mode
+         824912be19542f94264e485a25d37b55a9f68f0e Revert "correctly free thread_data options at the topmost parent process"
          
