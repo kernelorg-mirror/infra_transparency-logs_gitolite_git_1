@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 28 Jul 2023 00:34:45 -0000
-Message-Id: <169050448593.30413.14866141282713141686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 28 Jul 2023 00:40:42 -0000
+Message-Id: <169050484221.4737.18356034063460032055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 63e2da3b7f7f63f881aa508825b0c4241e9910e1
-    new: 10d78a66a5f29fbbde1b09b5139c17c436b08c6e
+  - ref: refs/heads/main
+    old: d4a80cc69aea74fe220dc9faa0d6d62e4dfa871a
+    new: 994650353cae9e10cca7fd61de79c911aa8ed287
     log: |
-         10d78a66a5f29fbbde1b09b5139c17c436b08c6e bpf, docs: fix BPF_NEG entry in instruction-set.rst
+         d0358c1a37db4c46b9a1cd6c1b36e5a24ff970f9 net: Remove unused declaration dev_restart()
+         994650353cae9e10cca7fd61de79c911aa8ed287 net: datalink: Remove unused declarations
          
