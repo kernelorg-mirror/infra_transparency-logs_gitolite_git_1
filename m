@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 28 Jul 2023 18:14:23 -0000
-Message-Id: <169056806367.14182.2533576318030009792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 28 Jul 2023 18:14:31 -0000
+Message-Id: <169056807154.14319.15182644007766749532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/next
-    old: 57012c57536f8814dec92e74197ee96c3498d24e
-    new: 513253f8c293c0c8bd46d09d337fc892bf8f9f48
+  - ref: refs/heads/main
+    old: b6ea35ff6b9869470a0c68813f1668acb3d356a8
+    new: 6c8ce49d35c9283b8db4c4ab32f25b349a269eef
     log: |
-         2d7f105edbb3b2be5ffa4d833abbf9b6965e9ce7 security: keys: perform capable check only on privileged operations
-         be6f48a7c8e44a15ffc95f6f323dec548a4b990e tpm: Switch i2c drivers back to use .probe()
-         513253f8c293c0c8bd46d09d337fc892bf8f9f48 tpm_tis: Explicitly check for error code
+         6c8ce49d35c9283b8db4c4ab32f25b349a269eef ice: add LAG-supporting DDP package
          
