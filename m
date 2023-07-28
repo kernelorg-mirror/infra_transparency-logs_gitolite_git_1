@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 28 Jul 2023 20:07:27 -0000
-Message-Id: <169057484726.2917.975755635302102374@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3359956835008722067=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/peebz/peebz
+Date: Fri, 28 Jul 2023 20:07:39 -0000
+Message-Id: <169057485958.3092.11361738937084644019@gitolite.kernel.org>
+
+--===============3359956835008722067==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/peebz/peebz
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 88ca547335b21594105fecb58294342e58eb10f6
-    new: 495702a4da350ed1b6a54513ae0000aadc3830d7
+    old: 44a0ace096e83847ab7de36d6607d1f0037b06ec
+    new: 1358414856a1d18fe407481e8e23e50c1822731c
     log: |
-         abf35b0f6872cc9936a2c37b0a7f8c9f971124fe foo
-         495702a4da350ed1b6a54513ae0000aadc3830d7 foo
+         1358414856a1d18fe407481e8e23e50c1822731c pi2bz: retrieve new messages in updated threads only
          
+
+--===============3359956835008722067==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1690574858 -0400
+pushee gitolite.kernel.org:pub/scm/utils/peebz/peebz
+nonce 1690574858-3ac9f45c94307a10da8ad50e517406655991967e
+
+44a0ace096e83847ab7de36d6607d1f0037b06ec 1358414856a1d18fe407481e8e23e50c1822731c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZMQgCgAKCRC2xBzjVmSZ
+bNJ2AQD8k64S6aJY7snBgeaAD+k+0OBDD8iySVN5vK+6Vw4oOwEA3aA8OAdTGbqy
+TG1o9U3aFyNdkXN6P0JAVE2Ciyq21wI=
+=8PLV
+-----END PGP SIGNATURE-----
+
+--===============3359956835008722067==--
