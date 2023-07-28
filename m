@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Fri, 28 Jul 2023 18:25:29 -0000
-Message-Id: <169056872992.25054.11029647571078516938@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 18:25:59 -0000
+Message-Id: <169056875929.25333.6501655777560269394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b6ea35ff6b9869470a0c68813f1668acb3d356a8
+  - ref: refs/heads/dev-queue
+    old: 46478221c71f8b46b85982587e0f465ea90ec4e9
     new: 07f05b0c9750b4e3302473244400668dab70a91e
     log: |
          c8424cf03def7777a4a83b8305d1af7b1321ab62 cirrus: Add CS35L41 firmware for Dell Oasis Models
