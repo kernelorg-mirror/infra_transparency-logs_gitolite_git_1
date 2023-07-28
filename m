@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 28 Jul 2023 20:52:26 -0000
-Message-Id: <169057754633.3031.16054927368122249924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 28 Jul 2023 20:53:57 -0000
+Message-Id: <169057763777.3638.8531166763745547161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: vishal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/fixes
-    old: 70d49bbf962ce4579bebd82938ef7f265bc3e6ae
-    new: 11dcd3b6a3aac1cace09f35407a47a311fdb0259
+  - ref: refs/heads/main
+    old: b10d10a7c187de47c7c2768e5553c511f38e4f2e
+    new: a4989bee921c48b2deced30f3ed25748e55a2e5f
     log: |
-         0fcde5989e8a54b2a155d8bcea21a7f99abb50f9 cxl/memdev: Improve sanitize ABI descriptions
-         3de8cd2242419fb0adaee629d488acfd6cd93c92 cxl/memdev: Document security state in kern-doc
-         ad64f5952ce3ea565c7f76ec37ab41df0dde773a cxl/memdev: Only show sanitize sysfs files when supported
-         e6ee120397fc3c49bcf6133f149a6d91497e53b7 cxl/mbox: Remove redundant dev_err() after failed mem alloc
-         11dcd3b6a3aac1cace09f35407a47a311fdb0259 cxl/region: Remove else after return statement
+         833c4a8105ac8c2df42ec061be09a5a682454f69 eth: bnxt: fix one of the W=1 warnings about fortified memcpy()
+         9f49db62f58eceffd8345abe8ec110f1fb142ab6 eth: bnxt: fix warning for define in struct_group
+         a4989bee921c48b2deced30f3ed25748e55a2e5f Merge branch 'eth-bnxt-fix-a-couple-of-w-1-c-1-warnings'
          
