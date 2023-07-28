@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 28 Jul 2023 09:06:05 -0000
-Message-Id: <169053516547.19982.2499225644677324573@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 09:07:10 -0000
+Message-Id: <169053523017.20628.12173390434368730473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,19 +12,19 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 60e5be4ca4703ee0e5085ca1ff173c4fcc34f733
-    new: 130352929ac456fbc3d4c8978b028512eeee8fb5
+    old: 130352929ac456fbc3d4c8978b028512eeee8fb5
+    new: 6b04724914eb378993ca6929dbaab849dc044abb
     log: |
-         9c976f419572f40e008f2824c4e4e6533952e54b Merge branch into tip/master: 'irq/urgent'
-         9576719ecc485e3a7d2720084b72fa5e3a2d7668 Merge branch into tip/master: 'locking/urgent'
-         065d1890d646dd737a78f18eaf696ad5ce4d48ca Merge branch into tip/master: 'sched/urgent'
-         ee7bf9232029fc37544513dde53db3040a84495e Merge branch into tip/master: 'x86/urgent'
-         06fb2dd4a59e4934ac09559d921156af55de45cd Merge branch into tip/master: 'perf/core'
-         f54d4025b0b380a70e37c43cbc8e3ad57584e1bd Merge branch into tip/master: 'ras/core'
-         5c0f61cf67b772bf80bec799225ed7d91e5071ed Merge branch into tip/master: 'sched/core'
-         63c1627724fec21c95aa67fa1aebc122645b02ab Merge branch into tip/master: 'sched/eevdf'
-         ca214ad9dfa8cc1ed2bcfb064ab1204464943cdb Merge branch into tip/master: 'smp/core'
-         f22f39e7aa151382104810b8227cf176efe58210 Merge branch into tip/master: 'x86/core'
-         9bd2e25cc9b854755317899c85ac02a3fd700b6a Merge branch into tip/master: 'x86/microcode'
-         130352929ac456fbc3d4c8978b028512eeee8fb5 Merge branch into tip/master: 'x86/mm'
+         af841bb68ed5a4e4eafa8545b01ac8973329889a Merge branch into tip/master: 'irq/urgent'
+         8822f6958bf604303c4236175e151dde2c17015c Merge branch into tip/master: 'locking/urgent'
+         86abebfe66f2848eca28b489db32337cd86c0a3e Merge branch into tip/master: 'sched/urgent'
+         ff1c0ea29cf19a6889585331e105c2c351a77665 Merge branch into tip/master: 'x86/urgent'
+         dde788ed97b390011f605f0798f8a9ac87012866 Merge branch into tip/master: 'perf/core'
+         1f1fce21cc1873c0e62e9209e209b50bcaffec22 Merge branch into tip/master: 'ras/core'
+         9e0f8145d78c8bce6e95f1f27f172fdea5083667 Merge branch into tip/master: 'sched/core'
+         87139f9725b001421d257e5e0db5fa9e25cf397a Merge branch into tip/master: 'sched/eevdf'
+         6748016230c843c6227d9843792bc9cd51a6d65a Merge branch into tip/master: 'smp/core'
+         d5ecd0923fd46a203dd63ac7284677fb7508aa2f Merge branch into tip/master: 'x86/core'
+         e27f9b5d5c020fbfd54d9a5f321956732fd00779 Merge branch into tip/master: 'x86/microcode'
+         6b04724914eb378993ca6929dbaab849dc044abb Merge branch into tip/master: 'x86/mm'
          
