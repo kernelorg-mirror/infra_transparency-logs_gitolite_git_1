@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5544043586252281172=="
+Content-Type: multipart/mixed; boundary="===============0825229223042083070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Fri, 28 Jul 2023 15:41:39 -0000
-Message-Id: <169055889911.32608.7257787043517550159@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 15:42:09 -0000
+Message-Id: <169055892934.420.3742105570494889274@gitolite.kernel.org>
 
---===============5544043586252281172==
+--===============0825229223042083070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ee91452dac5abfc4c5b9827cf55e701d8c0ca678
-    new: b6ea35ff6b9869470a0c68813f1668acb3d356a8
-    log: revlist-ee91452dac5a-b6ea35ff6b98.txt
+  - ref: refs/heads/dev-queue
+    old: d4931aa1883759869b13f2b2666830787e8a85a3
+    new: 46478221c71f8b46b85982587e0f465ea90ec4e9
+    log: revlist-d4931aa18837-46478221c71f.txt
 
---===============5544043586252281172==
+--===============0825229223042083070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee91452dac5a-b6ea35ff6b98.txt
+Content-Disposition: attachment; filename=revlist-d4931aa18837-46478221c71f.txt
 
 f9a35b3f0779844aa686b76506344db70a72820d qcom: Add Audio firmware for SC8280XP X13s
 fa5d30b5c69be636b98b9a97c0f41a1bab38ce86 iwlwifi: update cc/Qu/QuZ firmwares for core80-39 release
@@ -69,5 +69,6 @@ e0bad5e7f3d4daa4900ee07f559f6109596a90ee qcom: sc8280xp: LENOVO: Remove execute 
 b602d438fb7b3e07cc208236bcee7794323286d7 qcom: sc8280xp: LENOVO: remove directory sym link
 0a51959c6fd4248b454f7250997fd4f13500fb8a copy-firmware: Fix test: unexpected operator
 b6ea35ff6b9869470a0c68813f1668acb3d356a8 copy-firmware: Fix linking directories when using compression
+46478221c71f8b46b85982587e0f465ea90ec4e9 ice: add LAG-supporting DDP package
 
---===============5544043586252281172==--
+--===============0825229223042083070==--
