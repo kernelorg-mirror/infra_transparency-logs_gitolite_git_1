@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 28 Jul 2023 10:21:22 -0000
-Message-Id: <169053968239.24461.10487943879168487008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 28 Jul 2023 11:04:23 -0000
+Message-Id: <169054226375.21225.4386723873774567802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: dd105461ad15ea930d88aec1e4fcfc1f3186da43
-    new: 3de0152bf26ff0c5083ef831ba7676fc4c92e63a
+  - ref: refs/heads/next
+    old: 38972754a2fe9f40ee95f09e9c853e5f28f298de
+    new: 3b4e3afb2032fdc86b585b0de34d226b9e87e445
     log: |
-         e22471c2331c984ba48e89acd00d0ba1f60a3ea7 crypto: starfive - Add AES skcipher and aead support
-         9f3fa6bc4ff8515da1349c44a77e7327bd2f4788 KEYS: use kfree_sensitive with key
-         80e40fea8e2a7528b079ac1853da528c5cabf625 hwrng: cctrng - don't open code init and exit functions
-         8bcd9689384810bd1c610419563c827e23118e34 hwrng: cctrng - let devres enable the clock
-         80a34c037713b183032fad578cf5cb88b94298a8 hwrng: cctrng - merge cc_trng_clk_init into its only caller
-         9553ae3497f0753b79efa54b1719a7117e10bdf4 hwrng: cctrng - use dev_err_probe in error paths
-         5a3d66acf072ae78dfa06af712a42b24bef32c0f hwrng: cn10k - delete empty remove function
-         81511798bdfb1a61f97569436789721aace942fb hwrng: cn10k - use dev_err_probe
-         6df04505f3b285f3bcfe81cf0461339b0f4ed41d crypto: caam - Use struct_size()
-         3de0152bf26ff0c5083ef831ba7676fc4c92e63a crypto: caam - Remove messages related to memory allocation failure
+         1ba11daef0a9b062e40b5393d285c82ab6483730 KVM: arm64: Use the known cpu id instead of smp_processor_id()
+         e21f3905f98ff1f72b06614440c2be93fda58b44 KVM: arm64: Drop HCR_VIRT_EXCP_MASK
+         319d1a957cbe67bda6473e117fc6f1961467345e Merge branch kvm-arm64/6.6/generic-vcpu into kvmarm-master/next
+         3b4e3afb2032fdc86b585b0de34d226b9e87e445 Merge branch kvm-arm64/6.6/misc into kvmarm-master/next
          
