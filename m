@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3852594939526378919=="
+Content-Type: multipart/mixed; boundary="===============7866840915220719908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 28 Jul 2023 18:07:49 -0000
-Message-Id: <169056766927.9877.13935467569980222122@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 18:08:33 -0000
+Message-Id: <169056771319.10276.1539359302469616920@gitolite.kernel.org>
 
---===============3852594939526378919==
+--===============7866840915220719908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 7bf7fdf48032f082dc3a4ed5604fc46a98b2a8b8
-    new: 632fa01f58d3e9eea002cbc71470815980351648
-    log: revlist-7bf7fdf48032-632fa01f58d3.txt
+  - ref: refs/heads/next
+    old: 8447ac1ca47bc17307cd3a0882480cd0d2152d17
+    new: 57012c57536f8814dec92e74197ee96c3498d24e
+    log: revlist-8447ac1ca47b-57012c57536f.txt
 
---===============3852594939526378919==
+--===============7866840915220719908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bf7fdf48032-632fa01f58d3.txt
+Content-Disposition: attachment; filename=revlist-8447ac1ca47b-57012c57536f.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -122,8 +122,6 @@ dcf89d111199562fa5f31a1bb76f17bc4831f6da KVM: arm64: Add missing BTI instruction
 55b87b74996383230586f4f9f801ae304c70e649 arm64: Fix HFGxTR_EL2 field naming
 c2a88e8bdf5f6239948d75283d0ae7e0c7945b03 drm/client: Fix memory leak in drm_client_target_cloned
 2329cc7a101af1a844fbf706c0724c0baea38365 drm/client: Fix memory leak in drm_client_modeset_probe
-b33b8731566d50aae6e11bd02921452cf3a7e0e7 selftests/mincore: fix skip condition for check_huge_pages test
-e8b03aef194c3c8597f4fb8e58ade1cc1f43001e tools: timers: fix freq average calculation
 b321c31c9b7b309dcde5e8854b741c8e6a9a05f0 KVM: arm64: vgic-v4: Make the doorbell request robust w.r.t preemption
 95ce158b6c93b28842b54b42ad1cb221b9844062 dsa: mv88e6xxx: Do a final check before timing out
 5e1627cb43ddf1b24b92eb26f8d958a3f5676ccb net: usbnet: Fix WARNING in usbnet_start_xmit/usb_submit_urb
@@ -161,8 +159,6 @@ f13be0ad5344b46bb89323ea5576a2417c6d1e55 selftests/mm: give scripts execute perm
 24a3298ac9e6bd8de838ab79f7868207170d556d ice: Unregister netdev and devlink_port only once
 b3e7b3a6ee92ab927f750a6b19615ce88ece808f ice: prevent NULL pointer deref during reload
 676b7c5ecab36274442887ceadd6dee8248a244f platform/x86: serial-multi-instantiate: Auto detect IRQ resource for CSC3551
-c77896b143d3c9c3e84c4ed0662b807ccbd8730b selftests/riscv: fix potential build failure during the "emit_tests" step
-569f8b501b177f21121d483a96491716ab8905f4 selftests/arm64: fix build failure during the "emit_tests" step
 70904263512a74a3b8941dd9e6e515ca6fc57821 blk-mq: Fix stall due to recursive flush plug
 030d2a0ce5dc621e5c6b2f5f65a77a4bb1620adb dt-bindings: hwmon: moortec,mr75203: fix multipleOf for coefficients
 6d4f9236cd678e0bf0c09fd0e1fa20435bb2e5a2 KVM: arm64: Correctly handle RES0 bits PMEVTYPER<n>_EL0.evtCount
@@ -248,8 +244,6 @@ c2fceb59bbda16468bda82b002383bff59de89ab KVM: s390: pv: fix index value of repla
 7686762d1ed092db4d120e29b565712c969dc075 s390/mm: fix per vma lock fault handling
 c250ef8954eda2024c8861c36e9fc1b589481fe7 ALSA: hda/realtek: Add quirk for Clevo NS70AU
 f75546f58a70da5cfdcec5a45ffc377885ccbee8 nfsd: Remove incorrect check in nfsd4_validate_stateid
-f2f393c385af0635eddb58df8bcd645cb6a18f5d Merge tag 'tpmdd-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-74f1456c4a5f3d7da4102ecae5c20370f89c6ed1 Merge tag 'linux-kselftest-fixes-6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 60a2dae4902015f43d144f5a4710f655b2955b9b drm/amd: Use amdgpu_device_pcie_dynamic_switching_supported() for SMU7
 2ed5a4c4615b47c70dcd8d7d942207e5a607561d drm/amd/display: export some optc function for reuse
 d1792509e1031a6750f82bc7faa5fc9d7203b5b7 drm/amd/display: add DCN301 specific logic for OTG programming
@@ -518,17 +512,5 @@ de52e17326c3e9a719c9ead4adb03467b8fae0ef tipc: stop tipc crypto on failure in ti
 53c8621b9e6c3fa2607cb36db76780f6e327f57d Merge tag 'phy-fixes-6.5' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 bc168790de87bd70371793cfecb0fab26f85b857 Merge tag 'soundwire-6.5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 57012c57536f8814dec92e74197ee96c3498d24e Merge tag 'net-6.5-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-2d7f105edbb3b2be5ffa4d833abbf9b6965e9ce7 security: keys: perform capable check only on privileged operations
-b2517b0a6885a03b6dca9be6cbd91afe58ad4d8d KEYS: Replace all non-returning strlcpy with strscpy
-16a8abdac22bb6b6a2fbd76fcdb7972aeaed546e KEYS: DigitalSignature link restriction
-ac4b9f8808dff822eb70bed3107a219784033e0d integrity: Enforce digitalSignature usage in the ima and evm keyrings
-e6fca01751558ecad57a508cc63961a47b7c3bb1 tpm_tis-spi: Add hardware wait polling
-96ed6ffeaf642cd30a5cbfb5bb6aa1d9d40925bb tpm: Switch i2c drivers back to use .probe()
-cd141562022b2605fe60ffb4e8d5837da51ed264 tpm_tis: Explicitly check for error code
-fa7bf83ecb5a954e2a294df283581955157be071 tpm_tis: Move CRC check to generic send routine
-1e9336d546f513c75cd6774c496171552735d2cd tpm_tis: Use responseRetry to recover from data transfer errors
-2ee8b33b6f43c402f78c5eacc54501b5c31f8ed2 tpm_tis: Resend command to recover from data transfer errors
-4a79fb9dc8454634596a91729b68ecd7974a27d2 tpm: remove redundant variable len
-632fa01f58d3e9eea002cbc71470815980351648 tpm: make all 'class' structures const
 
---===============3852594939526378919==--
+--===============7866840915220719908==--
