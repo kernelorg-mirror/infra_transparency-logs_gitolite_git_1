@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3695795708392385485=="
+Content-Type: multipart/mixed; boundary="===============1910300663002404482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 28 Jul 2023 08:26:21 -0000
-Message-Id: <169053278122.22751.7322602693346064143@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 08:27:16 -0000
+Message-Id: <169053283673.23168.16762977782472580146@gitolite.kernel.org>
 
---===============3695795708392385485==
+--===============1910300663002404482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.6-NV2-WIP
-    old: f270f895b8ddc936190cb0b93ee6105fcd644d6f
-    new: 2b62f0deaa316f99824e552c6dd6b01b26f9ab0a
-    log: revlist-f270f895b8dd-2b62f0deaa31.txt
+  - ref: refs/heads/kvm-arm64/nv-6.6-WIP
+    old: 852ee44f08a0ad77ee2408815c1c419b223e4a03
+    new: d8e06bb5134639d11a01be06da91dd7798152f87
+    log: revlist-852ee44f08a0-d8e06bb51346.txt
 
---===============3695795708392385485==
+--===============1910300663002404482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f270f895b8dd-2b62f0deaa31.txt
+Content-Disposition: attachment; filename=revlist-852ee44f08a0-d8e06bb51346.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -486,8 +486,5 @@ f7e044589918c715eff3c446e37cdd392503ec6f KVM: arm64: nv: Publish emulated timer 
 7d70e1440fc8f6a5603f9ffea1f23dc83b1df423 KVM: arm64: nv: Add nested GICv3 tracepoints
 252c3df7acac7443824795bf6467a3698e5ab5c8 mailmap: Update address for Jintack Lim
 d8e06bb5134639d11a01be06da91dd7798152f87 KVM: arm64: Opportunistically track HCR_EL2.E2H being flipped
-38923eaa7cb5305aa6f4e9b51b4b1146792ec28a WIP
-37edc8ed843b4c11f85de444e810ddf5d8ec968d WIP21
-2b62f0deaa316f99824e552c6dd6b01b26f9ab0a WIP
 
---===============3695795708392385485==--
+--===============1910300663002404482==--
