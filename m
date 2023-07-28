@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Fri, 28 Jul 2023 00:22:54 -0000
-Message-Id: <169050377415.22944.17119563989822372520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 28 Jul 2023 00:34:38 -0000
+Message-Id: <169050447819.30281.3627759093288561218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
-user: bwh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: d16525038612be94cf2573c02eac8c7f76321f62
-    new: 47b2771e2d0762e9b1b9af00a42792c17f35774e
+    old: 63e2da3b7f7f63f881aa508825b0c4241e9910e1
+    new: 10d78a66a5f29fbbde1b09b5139c17c436b08c6e
     log: |
-         47b2771e2d0762e9b1b9af00a42792c17f35774e [klibc] 2.0.13 released, next version is 2.0.14
+         10d78a66a5f29fbbde1b09b5139c17c436b08c6e bpf, docs: fix BPF_NEG entry in instruction-set.rst
          
-  - ref: refs/tags/klibc-2.0.13
-    old: 0000000000000000000000000000000000000000
-    new: ef603dd9890361a128a7f80068104d32b4f71b36
