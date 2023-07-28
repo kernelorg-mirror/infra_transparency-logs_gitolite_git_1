@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8888919094772506408=="
+Content-Type: multipart/mixed; boundary="===============1543749103475426773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Fri, 28 Jul 2023 07:37:42 -0000
-Message-Id: <169052986247.19794.7406421682921949856@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 07:37:55 -0000
+Message-Id: <169052987524.20033.17470466905990705307@gitolite.kernel.org>
 
---===============8888919094772506408==
+--===============1543749103475426773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 68af900072c157c0cdce0256968edd15067e1e5a
-    new: 3d40aed862874db14e1dd41fd6f12636dcfdcc3e
-    log: revlist-68af900072c1-3d40aed86287.txt
-  - ref: refs/heads/master
-    old: 68af900072c157c0cdce0256968edd15067e1e5a
-    new: 3d40aed862874db14e1dd41fd6f12636dcfdcc3e
-    log: revlist-68af900072c1-3d40aed86287.txt
+  - ref: refs/heads/testing
+    old: d0fc0ef083bc51d8d0211a2e1498d450220c1bc3
+    new: f95f8b0a74214d8469d4b0b9dbda10726208e64e
+    log: revlist-d0fc0ef083bc-f95f8b0a7421.txt
 
---===============8888919094772506408==
+--===============1543749103475426773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1690529859 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1690529872 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1690529858-c412446d20350beb7419e2b49306c51f42557b28
+nonce 1690529871-6f497841bc65e47551ce9f1584ae78a178bff694
 
-68af900072c157c0cdce0256968edd15067e1e5a 3d40aed862874db14e1dd41fd6f12636dcfdcc3e refs/heads/main
-68af900072c157c0cdce0256968edd15067e1e5a 3d40aed862874db14e1dd41fd6f12636dcfdcc3e refs/heads/master
+d0fc0ef083bc51d8d0211a2e1498d450220c1bc3 f95f8b0a74214d8469d4b0b9dbda10726208e64e refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmTDcEMTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6Ox6B/41GwFVWR4ntz5S0N6Rmr639YjBUOPt
-SDjPiy98xQii/iK2DLjH+sS0Txzgll4C1XieQqwZbvZR/CpJPHZMd+4V11fJNxcG
-TKjse69aqHuKHv/sxT2k61AtZFvlja+NPRe6ZtRrJSg7J50K30JK4Kg6BaqEIInf
-SgOBXYFodOFOb2dtVom/VTbgvz7YSZT7xlYZ41vpVdytKtSpf6UGDIsdiSPsgE76
-0Q+ceSk4NG26d8S/hZhas3lQrwnZ2VfSZQSKTB9JmSAjsKmspU4bo6TQaDDl9i3R
-C/R3VuNi6yDGLEfLH107hLO/LYdSjmfVDvHtAWJbqRUh6mqmycYpGLJ9
-=SCOC
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmTDcFATHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6F7oB/96GcRaUeSGMb/8UV+/HSNUS+PUsbe8
+4lPZscN6R+c5YLj5ne7ISKVdf4ozYkZF8jnJRMnaRPclsHYcecNGzlMT+EsJkFpq
+KDxzzvune7Phm3s4V0riB52ApTTEcFStK9Q4LS6EZ53EluxE2IQ89OJAvvU6n298
+w2/MSns2cSBArd8z1KCFi5t1S5v5JT5BLi4tOxLp5u02OpFa7sZdO+Sscl5mpLtn
+WqOPUuu4EKMIzUKA52eRDhx5F7M1RSsGMqft59GdVmQ+YaEDvYAGqvsKBIGAQvm8
+wVp+8UaeyO84pjQYWc+KuXVtFEXKbw7b+PdvMO986Ibsw2dL7GbEN0hl
+=GVIC
 -----END PGP SIGNATURE-----
 
---===============8888919094772506408==
+--===============1543749103475426773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68af900072c1-3d40aed86287.txt
+Content-Disposition: attachment; filename=revlist-d0fc0ef083bc-f95f8b0a7421.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -424,9 +419,6 @@ ccb381e1af1ace292153c88eb1fffa5683d16a20 powerpc/kasan: Disable KCOV in KASAN co
 2480232c61b888a160153b9022858ac8c4362d5f perf test task_exit: No need for a cycles event to check if we get an PERF_RECORD_EXIT
 8b6f687743dacce83dbb0c7cfacf88bab00f808a x86/cpu/amd: Move the errata checking functionality up
 522b1d69219d8f083173819fde04f994aa051a98 x86/cpu/amd: Add a Zenbleed fix
-bb410c03b999a361ab4e11e103d88707b4155bf9 dt-bindings: net: can: Remove interrupt properties for MCAN
-b382380c0d2da427aaffca931e4a3b831048cace can: m_can: Add hrtimer to generate software interrupt
-09ff091a0a08bdd6f768a32fabf63a97021b88f6 Merge patch series "Enable multiple MCAN on AM62x"
 dc050849d93f4c5d8a88dc6789668212b7785967 Merge patch series "can: gs_usb: fix time stamp counter initialization"
 371baf5c9750a258fee21d0cb8c8d683bb057429 xfs: convert flex-array declarations in struct xfs_attrlist*
 a49bbce58ea90b14d4cb1d00681023a8606955f2 xfs: convert flex-array declarations in xfs attr leaf blocks
@@ -1026,5 +1018,29 @@ db845b9b2040f4ed5f8bce6cd30103e3b8557566 net: stmmac: dwmac-qcom-ethqos: Use max
 85e2a2c42b662a1040b98c67f504f8fa52c52bc0 Merge branch 'net-stmmac-increase-clk_ptp_ref-rate'
 81b04a800d3c537d1d9ac1f0c2192011c4ebabb7 Revert "net: stmmac: correct MAC propagation delay"
 3d40aed862874db14e1dd41fd6f12636dcfdcc3e net: Explicitly include correct DT includes
+8c07fb0d647772018e0562fc4e920e081efb4c80 dt-bindings: net: can: Add support for Allwinner D1 CAN controller
+6ea1ad888f5900953a21853e709fa499fdfcb317 riscv: dts: allwinner: d1: Add CAN controller nodes
+8cda0c6dfd42ee6f2586e7dffb553aaf1fcb62ca can: sun4i_can: Add acceptance register quirk
+e58ee933c27a2ddd587752788dd843817008313f MAINTAINERS: Add myself as maintainer of the ems_pci.c driver
+8abb95250ae6af2d51993da8fcae18da2ce24cc4 can: sun4i_can: Add support for the Allwinner D1
+74dedbd74d2bfac24b44acb268ea77faa9fc9c41 can: peak_usb: remove unused/legacy peak_usb_netif_rx() function
+f131a03de641585669f8d7857dcfeadee6390865 Merge patch series "Add support for Allwinner D1 CAN controllers"
+07382e6b68a742f18d57a27fec5fd0c2b0b61b40 can: Explicitly include correct DT includes, part 2
+f1a14714bf48f87fa8e774f415ea9815daf3750d can: gs_usb: remove leading space from goto labels
+5780148bedd6aa7e51d3a18cd70f5b9b6cefb79e can: gs_usb: gs_usb_probe(): align block comment
+a2002f455c0e1f1c8802e7bdafe370d47d4328de can: gs_usb: gs_usb_set_timestamp(): remove return statements form void function
+b6980ad3a90c73c95cab97e9a33129b8f53e2a5b can: gs_usb: uniformly use "parent" as variable name for struct gs_usb
+fcb880ef2f55b9d50baf42c7efa5c45a9baabea9 can: gs_usb: gs_usb_receive_bulk_callback(): make use of netdev
+55ad95d944251bb53df958e408964be2499603fd can: gs_usb: gs_usb_receive_bulk_callback(): make use of stats
+6c8bc15f02b85bc8f47074110d8fd8caf7a1e42d can: gs_usb: gs_usb_receive_bulk_callback(): count RX overflow errors also in case of OOM
+1494ffe4cbe0f97af9c57a4cc37131c8efbe79fc can: gs_usb: gs_can_start_xmit(), gs_can_open(): clean up printouts in error path
+32f1bb0f105d4c75429f71d34b3408c879a198d2 cam: gs_usb: gs_can_close(): don't complain about failed device reset during ndo_stop
+a2faba589d326396c081cfe99db9dc7a33ec40ad can: gs_usb: gs_destroy_candev(): remove not needed usb_kill_anchored_urbs()
+09c9c62684e437143d32ccfedbd15bc2dc60fa5d can: gs_usb: gs_usb_disconnect(): remove not needed usb_kill_anchored_urbs()
+282b740c921ff183d3d184d8cf915986bb96defb Merge patch series "can: gs_usb-cleanups: various clenaups"
+4c616a9651200dcfeb01b24c679338ddeac9d9c5 can: rx-offload: rename rx_offload_get_echo_skb() -> can_rx_offload_get_echo_skb_queue_timestamp()
+705ae9232c0b49f392b571ee7ea7e380be30f23c can: rx-offload: add can_rx_offload_get_echo_skb_queue_tail()
+d659cd28b0549e5dbb76203c3377282bffb492fa can: gs_usb: convert to NAPI/rx-offload to avoid OoO reception
+f95f8b0a74214d8469d4b0b9dbda10726208e64e Merge patch series "can: gs_usb: convert to NAPI"
 
---===============8888919094772506408==--
+--===============1543749103475426773==--
