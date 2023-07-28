@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8092507033925670204=="
+Content-Type: multipart/mixed; boundary="===============5065970739514081458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 28 Jul 2023 22:11:29 -0000
-Message-Id: <169058228949.28853.14862498146490239894@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 22:12:05 -0000
+Message-Id: <169058232569.29143.4380612231277744606@gitolite.kernel.org>
 
---===============8092507033925670204==
+--===============5065970739514081458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: f5fbd3246c068d4c67e4259f39c1bd2f27110d7a
-    new: 222a6c42e9ef131fd20463bf95d7ce7b39bee2f8
-    log: revlist-f5fbd3246c06-222a6c42e9ef.txt
+  - ref: refs/heads/dev-queue
+    old: 202ff18f406f8bc7dfbbca1e7398fc48b0f460ea
+    new: 79dc5308c824de000283d82a4496567bbedae5db
+    log: revlist-202ff18f406f-79dc5308c824.txt
 
---===============8092507033925670204==
+--===============5065970739514081458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5fbd3246c06-222a6c42e9ef.txt
+Content-Disposition: attachment; filename=revlist-202ff18f406f-79dc5308c824.txt
 
 02ceda65f014e357d4142e9c004f40b3b3d61857 net/mlx5: Use shared code for checking lag is supported
 88d162b479815f5d6b6a4ff5fdb07aec9dc6280c net/mlx5: Devcom, Infrastructure changes
@@ -63,5 +63,40 @@ b10d10a7c187de47c7c2768e5553c511f38e4f2e Merge tag 'mlx5-updates-2023-07-24' of 
 9f49db62f58eceffd8345abe8ec110f1fb142ab6 eth: bnxt: fix warning for define in struct_group
 a4989bee921c48b2deced30f3ed25748e55a2e5f Merge branch 'eth-bnxt-fix-a-couple-of-w-1-c-1-warnings'
 222a6c42e9ef131fd20463bf95d7ce7b39bee2f8 octeontx2-af: Initialize 'cntr_val' to fix uninitialized symbol error
+81768e4676001165991f1c694cb183a2ca5b2857 igb: fix hang issue of AER error during resume
+4793bf5033aa6abddc9858f251d8366779682abd e1000e: Use PME poll to circumvent unreliable ACPI wake
+0b434aeaf2ad097af61d892dfe34c559c625ba21 ice: clean up __ice_aq_get_set_rss_lut()
+ba5703e5019405396071c67f45039d5e5c6d5bb1 ice: Add direction metadata
+b95b9b500052f48a8a7e12f9b129d4217561c70d ice: Rename enum ice_pkt_flags values
+7f4fdfaf6f9ac3c882457caac90c7dd075fbb90c ice: Fix RDMA VSI removal during queue rebuild
+3b73cedf4a12d2b620ebe3b58eff6f7c95a34c48 ice: avoid executing commands on other ports when driving sync
+127b0cf473fcbb7b7f2faf128adad6fd8e0ffe7e ice: prefix clock timer command enumeration values with ICE_PTP
+c0f2c892fe9765cfb8e9922586fda81ad388235a ice: retry acquiring hardware semaphore during cross-timestamp request
+17505ef25a0110d523580d85bf8e5717cb8b5f7b ice: Support cross-timestamping for E823 devices
+fb22f60be76edbc30317dd31d5b4ece2244097db ice: move E810T functions to before device agnostic ones
+6c4b3c133ce353d19909f067b8553c5c068eab2c igc: Expose tx-usecs coalesce setting to user
+1d9689f3f1c3347dbfa858ab6e045847251dad33 igc: Modify the tx-usecs coalesce setting
+b067dd096146dd36f7b53efcd1aa6f278a4165aa ice: Add get C827 PHY index function
+0d269b1566ce7519ab840d00da561c954d23cdb0 ice: add FW load wait
+562d305340e5db77e659fb83bd085dd89224a811 ice: introduce hw->phy_model for handling PTP PHY differences
+21d3dfff99274b2f5999cae009477b32863e8cda igc: Add lock to safeguard global Qbv variables
+5cf9f325973ae668cb821baab5061beb2412ab0b e1000e: Add support for the next LOM generation
+446db844344922c180cd2d1f66468093f710ae2b igc: Decrease PTM short interval from 10 us to 1 us
+82b59e57efa27569a7bfffe49d96c63f9b21e519 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+2a4c06ae7fcd0fb2fa8a70e2f8beed4dbeef2ae5 igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+216725a784892477fe66bb5dccefdcdc102bf62f igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+1a20cfdd90d77dd06144b2e2d12856221af18a14 igb: Stop PTP related workqueues if aren't necessary
+71b30c9aa7ed16fda54153790d7ae97d58c6b0c0 iavf: fix potential races for FDIR filters
+e057fb3100153979c37f2514e0a84c743d120728 i40e: fix livelocks in i40e_reset_subtask()
+73689722ef1bbb03a17214bcc5a12ead27e505f4 ice: PTP: Clean up timestamp registers correctly
+c75fb8b2cc19e1f76fe27a4c81457d598ae71047 ice: PTP: Rename macros used for PHY/QUAD port definitions
+88d8f0c9a8165186fbee01504cd04d18b62f3ad4 ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+e1d5ed23188dc98de39f8d46511157e90102fb6d ice: Accept LAG netdevs in bridge offloads
+c77dce0d1f656a94d4de969e52cedf2b71ccaf45 i40e: Clear stats after deleting tc
+cb363398a765554500e311480b68c70575cf957a ice: Auxbus devices & driver for E822 TS
+0014cb582c880058cd7b39d8fc33ff64cc1455ba ice: Use PTP auxbus for all PHYs restart in E822
+7f1c438612f8df266ad04fd76569f6264e2da89d ice: PTP: add clock domain number to auxiliary interface
+29cd146bf57f9d6b3ad45a801f36e7a6fc5eced5 ice: Remove the FW shared parameters
+79dc5308c824de000283d82a4496567bbedae5db ice: Support untagged VLAN traffic in br offload
 
---===============8092507033925670204==--
+--===============5065970739514081458==--
