@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 28 Jul 2023 21:07:29 -0000
-Message-Id: <169057844944.14824.11171823961356125114@gitolite.kernel.org>
+Date: Fri, 28 Jul 2023 21:17:01 -0000
+Message-Id: <169057902126.21858.666702358801482250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 47b6b10ec8a61dade7f50d6ec2a2ff7001fb19af
-    new: 34f8e15f066dd765eac88700dfc7e0a510a48572
+    old: 34f8e15f066dd765eac88700dfc7e0a510a48572
+    new: d7ec31628938c8261a1f00d3c273de4f7407ccee
     log: |
-         34f8e15f066dd765eac88700dfc7e0a510a48572 man*/: srcfix
+         d7ec31628938c8261a1f00d3c273de4f7407ccee prctl.2: Use mathematical notation for a range
          
