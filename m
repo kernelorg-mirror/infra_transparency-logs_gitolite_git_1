@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0731015207197699626=="
+Content-Type: multipart/mixed; boundary="===============6046469563443026946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 28 Jul 2023 12:09:26 -0000
-Message-Id: <169054616665.6160.7109344483348232078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 28 Jul 2023 12:09:33 -0000
+Message-Id: <169054617316.6293.17119875038667189218@gitolite.kernel.org>
 
---===============0731015207197699626==
+--===============6046469563443026946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 8f59c7ed230784ca914c98e250c65768b71d5de4
     new: 58f3c70cce635bb47694e16a5c6e9ddcbe20effc
     log: |
@@ -28,28 +28,28 @@ changes:
          58f3c70cce635bb47694e16a5c6e9ddcbe20effc ASoC: st: Use maple tree register cache
          
 
---===============0731015207197699626==
+--===============6046469563443026946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1690546165 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1690546164-58e32c2a454dd6e63b7b8223088b3a659fe611ef
+pusher C3F436CA30F5D8EB 1690546171 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1690546171-19512e43badadd6b17ceae7fe7fbe0b7719eaac9
 
-8f59c7ed230784ca914c98e250c65768b71d5de4 58f3c70cce635bb47694e16a5c6e9ddcbe20effc refs/heads/for-6.6
+8f59c7ed230784ca914c98e250c65768b71d5de4 58f3c70cce635bb47694e16a5c6e9ddcbe20effc refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTDr/UACgkQJNaLcl1U
-h9CjiQf/Qs38JECz5t87m43xu0Hp92oVCV33SV4Y5KFVH+VV6XyXC6u44C3rAqMS
-kEraE2/cwSWTl4+Ah6e41868rFHQufvpJH44KCRg1P7dFSt1y1qjpTBalpDCMQvc
-f2UM1XFClJKjJBBgCNylgagY1Uk4cju9Jl/Nla8R46cl4bz6Don06Mb7QWBEe3M1
-V4yZL0jjpnZSAdwfWLorRQf7ehvd1uaDhYpU0th6nLo21jiT2BStz3qndCPsenIK
-Jmuop/jbWYRlwx6yjOwvA+Q+iQdl7InFuEqA2yWwzqdwE6uclBOkIMK86ewEV3t8
-If4JDADmv4FP4KvQ4t+zY2I+pQ9/bg==
-=IVw7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTDr/sACgkQJNaLcl1U
+h9BVSgf+Ica/ZlcXi/EaG20T07nOcTX+w2P0v5GjRbEnGG1ac1RNSqgO+BfROPli
+4o2lEPoodzjx91dqf/sFgx988KJL/GNS4RmFsfczuNUrLsbC4RMdnTohYNPEQtGm
+3SdKWmKmi6V8xil4wMns9cQwajFfCZ9nIGK5wwpqOm5r3aiXOGXaa5oijiLg6FQ8
+LIEPWQDbPETZfh4Xikj/UuLrfDzdalOR4oyc03tT5OdO47vFe3GscB5C5r0Kd062
+sofLgEejLYw1gqWj6pqjr6vIuVA1z25tGahd5wkErnHG0gg842IUnGGoUOHtUz+W
+UvpNirHLKZXdvQOMsDOPoDxnbIutCg==
+=+LaC
 -----END PGP SIGNATURE-----
 
---===============0731015207197699626==--
+--===============6046469563443026946==--
