@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3536747006088260607=="
+Content-Type: multipart/mixed; boundary="===============8663161201865157431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 28 Jul 2023 14:25:18 -0000
-Message-Id: <169055431815.8381.11142501842192475606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 28 Jul 2023 14:25:35 -0000
+Message-Id: <169055433544.8575.12414288739612685370@gitolite.kernel.org>
 
---===============3536747006088260607==
+--===============8663161201865157431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 385cefc035f44bdf9efb4b1bf60f90dcd4e785f8
     log: revlist-24e5cfdefefe-385cefc035f4.txt
 
---===============3536747006088260607==
+--===============8663161201865157431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ ca5aeaf687f3195516362cd94bd6e25086f8720c perf build: Update build rule for gener
 5f5d8b02f9ef38db92f22081fe33bc7088405f01 perf tools: Revert enable indices setting syntax for BPF map
 385cefc035f44bdf9efb4b1bf60f90dcd4e785f8 perf parse-events: Remove array remnants
 
---===============3536747006088260607==--
+--===============8663161201865157431==--
