@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 29 Jul 2023 03:08:49 -0000
-Message-Id: <169060012940.16433.8907350333523750256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 29 Jul 2023 03:12:10 -0000
+Message-Id: <169060033016.19235.12843785610249779107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/loongarch-fixes-6.5-1
-    old: 0000000000000000000000000000000000000000
-    new: 72354a95d7655752c4184826de4f1cf58642d632
+  - ref: refs/heads/master
+    old: 434763c4ba05d590702bd8ea0b0db1af96685900
+    new: 084e696b568c70aa23bda498e97bf2fe83411bbc
+    log: |
+         084e696b568c70aa23bda498e97bf2fe83411bbc Sat Jul 29 03:11:06 AM UTC 2023
+         
