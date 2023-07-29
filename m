@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 29 Jul 2023 11:21:43 -0000
-Message-Id: <169062970370.27434.2739696783766762182@gitolite.kernel.org>
+Date: Sat, 29 Jul 2023 11:31:29 -0000
+Message-Id: <169063028903.1910.10782172828651803006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 6811694eb2f6b7a4e97be2029edc7dd6a39460f8
-    new: 8a4629055ef55177b5b63dab1ecce676bd8cccdd
+  - ref: refs/heads/testing
+    old: 089c1e1132c86c668a19e8cbfab0faffe0220643
+    new: 579f6b003ae230ffe81933c5941b7b7dba52370b
     log: |
-         8a4629055ef55177b5b63dab1ecce676bd8cccdd iio: cros_ec: Fix the allocation size for cros_ec_command
+         f636554c4cd1c644109cc525900a056495b86cc9 iio: accel: adxl313: Fix adxl313_i2c_id[] table
+         579f6b003ae230ffe81933c5941b7b7dba52370b iio: accel: adxl313: Use i2c_get_match_data
          
