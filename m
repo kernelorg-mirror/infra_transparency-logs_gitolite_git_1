@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 29 Jul 2023 14:34:30 -0000
-Message-Id: <169064127008.2842.5967708660906017829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 29 Jul 2023 14:57:21 -0000
+Message-Id: <169064264108.20070.10588341984526161432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/probes/fixes
-    old: 02ab7234fc69695736d60b34044fe591689ffadd
-    new: de02f2ac5d8cfb311f44f2bf144cc20002f1fbbd
+  - ref: refs/heads/testing
+    old: 65659a8df1f5130041417c65b95d91bc048555ea
+    new: 9afc8c6dc68f2f58c4ad7c7c72158e1a7bb5395e
     log: |
-         de02f2ac5d8cfb311f44f2bf144cc20002f1fbbd kprobes: Prohibit probing on CFI preamble symbol
+         b68adc0ee5b5d12e6eb683e523f1158dabd19f43 iio: potentiometer: mcp4018: Use i2c_get_match_data()
+         9afc8c6dc68f2f58c4ad7c7c72158e1a7bb5395e iio: potentiometer: mcp4531: Use i2c_get_match_data()
          
