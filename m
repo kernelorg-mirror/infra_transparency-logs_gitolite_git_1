@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 29 Jul 2023 01:49:41 -0000
-Message-Id: <169059538135.23884.2889136386006741084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 29 Jul 2023 02:10:23 -0000
+Message-Id: <169059662314.8184.12900471850336086235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/main
-    old: e68409db995380d1badacba41ff24996bd396171
-    new: 56c6be35fcbed54279df0a2c9e60480a61841d6f
+  - ref: refs/heads/master
+    old: 144bb44069c992d5edf5bc5e0201480ab3cd52a8
+    new: 434763c4ba05d590702bd8ea0b0db1af96685900
     log: |
-         56c6be35fcbed54279df0a2c9e60480a61841d6f mISDN: hfcpci: Fix potential deadlock on &hc->lock
+         434763c4ba05d590702bd8ea0b0db1af96685900 Sat Jul 29 02:08:42 AM UTC 2023
          
