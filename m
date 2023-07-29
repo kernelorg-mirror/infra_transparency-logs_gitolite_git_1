@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 29 Jul 2023 14:57:21 -0000
-Message-Id: <169064264108.20070.10588341984526161432@gitolite.kernel.org>
+Date: Sat, 29 Jul 2023 15:00:12 -0000
+Message-Id: <169064281290.22814.8686127873894364366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 65659a8df1f5130041417c65b95d91bc048555ea
-    new: 9afc8c6dc68f2f58c4ad7c7c72158e1a7bb5395e
+    old: 9afc8c6dc68f2f58c4ad7c7c72158e1a7bb5395e
+    new: 49d736313d0975ddeb156f4f59801da833f78b30
     log: |
-         b68adc0ee5b5d12e6eb683e523f1158dabd19f43 iio: potentiometer: mcp4018: Use i2c_get_match_data()
-         9afc8c6dc68f2f58c4ad7c7c72158e1a7bb5395e iio: potentiometer: mcp4531: Use i2c_get_match_data()
+         49d736313d0975ddeb156f4f59801da833f78b30 tools: iio: iio_generic_buffer: Fix some integer type and calculation
          
