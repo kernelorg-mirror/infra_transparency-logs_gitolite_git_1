@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0198094141835925270=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 29 Jul 2023 03:12:12 -0000
-Message-Id: <169060033207.19309.12851654979118363699@gitolite.kernel.org>
-
---===============0198094141835925270==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 29 Jul 2023 03:24:13 -0000
+Message-Id: <169060105334.27123.5089849945351874954@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,50 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-fixes
-    old: e7dd44f4f3166db45248414f5df8f615392de47a
-    new: ae9b14582ad03abb3db66ba3f8dc5ca443ff54a1
-    log: |
-         6e2acbfe59b83043bc7ae1bb39fac4fc9dcd5a18 clk: meson: change usleep_range() to udelay() for atomic context
-         ae9b14582ad03abb3db66ba3f8dc5ca443ff54a1 Merge tag 'clk-meson-fixes-v6.5-1' of https://github.com/BayLibre/clk-meson into clk-fixes
-         
+  - ref: refs/heads/clk-cleanup
+    old: b93d1331ea266dea1485e6de4a21c1af42b57df5
+    new: a995c50db887ef97f3160775aef7d772635a6f6e
   - ref: refs/heads/clk-next
-    old: 4d7c2c61e5c5793ce8c3823ea2bc12630eb8a8b0
-    new: ca3a9f6a75966532bacba5211aed1123a58857cf
-    log: revlist-4d7c2c61e5c5-ca3a9f6a7596.txt
-  - ref: refs/heads/clk-starfive
-    old: 8303d4eed208efca3d1872b7c45794c356d3fe11
-    new: 0e2b2a76278153d1ac312b0691cb65dabb9aef3e
+    old: ca3a9f6a75966532bacba5211aed1123a58857cf
+    new: 335eca6a1c2d615381281612df01c6d9b1d39872
     log: |
-         0e2b2a76278153d1ac312b0691cb65dabb9aef3e reset: starfive: jh7110: Add StarFive STG/ISP/VOUT resets support
+         23b2010df3690c983569cdab474ce833cc1e3912 Merge branch 'clk-bindings' into clk-next
+         98ae8558dc7cf97ca43e9e14ea9ddb7f069552c4 Merge branch 'clk-starfive' into clk-next
+         e8794a1422eb0cf35bc0a4656122669620e4a6ee Merge branch 'clk-fixes' into clk-next
+         3f6cea1d6e857c5de9739e9a2d6316362c5e4025 Merge branch 'clk-rm' into clk-next
+         5d647c52a020686eb155bf6b2d84ef00c08a5284 Merge branch 'clk-renesas' into clk-next
+         aee5dde16bfbbfe1e77747d632d2479c373ffbc6 Merge branch 'clk-cleanup' into clk-next
+         335eca6a1c2d615381281612df01c6d9b1d39872 Merge branch 'clk-versa' into clk-next
          
-  - ref: refs/heads/clk-renesas
-    old: 0000000000000000000000000000000000000000
-    new: 226ab01019d6a432a3a64e418d4c59e0e23d1140
-
---===============0198094141835925270==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d7c2c61e5c5-ca3a9f6a7596.txt
-
-1bc6f6dda0a3158af0703110656273958793f076 clk: renesas: rcar-gen3: Add support for ZG clock
-f7b0dfffd3e0897ca73916a0c3d3fb61c61df51e clk: renesas: r8a774a1: Add 3DGE and ZG support
-2f77da092661b58e499411688877c8db47ab8692 clk: renesas: r8a774e1: Add 3DGE and ZG support
-adf6b916c9ee65503d4e7b9650a66e65f5064c3f clk: renesas: r8a774b1: Add 3DGE and ZG support
-63370298426b850220bba40012fb801a48c5fd14 clk: renesas: r9a09g011: Add CSI related clocks
-bbceb13ce2c7b084bbbf2463ac8ac2b1f2bd2949 clk: renesas: rzg2l: Simplify .determine_rate()
-6e2acbfe59b83043bc7ae1bb39fac4fc9dcd5a18 clk: meson: change usleep_range() to udelay() for atomic context
-2fd3f06b527e6ffaa929129a267386961e20a86c clk: renesas: r9a07g043: Add MTU3a clock and reset entry
-0e2b2a76278153d1ac312b0691cb65dabb9aef3e reset: starfive: jh7110: Add StarFive STG/ISP/VOUT resets support
-4a42508284e31332b4e251dbbd52516e9de0be7f Merge branch 'clk-starfive' into clk-next
-ae9b14582ad03abb3db66ba3f8dc5ca443ff54a1 Merge tag 'clk-meson-fixes-v6.5-1' of https://github.com/BayLibre/clk-meson into clk-fixes
-af8750fee76f228bbd180885b491855dae0867b3 Merge branch 'clk-fixes' into clk-next
-89feed8e97c4cc43447661e3796724e295061bf9 clk: renesas: emev2: Remove obsolete clkdev registration
-eba0214d05cd1f6c4d04580d2ee9aab68d279644 clk: renesas: r8a7795: Add 3DGE and ZG support
-fd177b9ac565423db6e0326445552735511e7dd1 clk: renesas: r8a7796: Add 3DGE and ZG support
-dec57795efc4585d5bbca913af6683c5cce2a647 clk: renesas: r8a77965: Add 3DGE and ZG support
-226ab01019d6a432a3a64e418d4c59e0e23d1140 Merge tag 'renesas-clk-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
-ca3a9f6a75966532bacba5211aed1123a58857cf Merge branch 'clk-renesas' into clk-next
-
---===============0198094141835925270==--
