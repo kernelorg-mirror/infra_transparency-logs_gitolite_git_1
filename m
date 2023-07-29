@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 28 Jul 2023 23:56:57 -0000
-Message-Id: <169058861755.7320.18163083560546225617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 29 Jul 2023 00:16:23 -0000
+Message-Id: <169058978377.21928.3019760962416791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: ee932bf940d4f624041293fab216cb1783b5df6b
-    new: eb03993a60780589e06e04a4dc23fda62b905ca6
+  - ref: refs/heads/seen
+    old: a015249cc25aa74bb1692869235433c4955e5088
+    new: e1e841b5dfae79d8e607fa7f94afdd3bbb7455a3
     log: |
-         9abddac583d68e16258d5e0b95dc1b3ca1886173 netfilter: defrag: Add glue hooks for enabling/disabling defrag
-         91721c2d02d3a0141df8a4787c7079b89b0d0607 netfilter: bpf: Support BPF_F_NETFILTER_IP_DEFRAG in netfilter link
-         3495e89cdc3ab71719bd88c03dbd624c49ee70d2 bpf: selftests: Support not connecting client socket
-         e15a22095608ae5e1da5892da739d83b49b3bba5 bpf: selftests: Support custom type and proto for client sockets
-         c313eae739b9a0fc5fbe655cece38eae0a90ec42 bpf: selftests: Add defrag selftests
-         eb03993a60780589e06e04a4dc23fda62b905ca6 Merge branch 'support-defragmenting-ipv-4-6-packets-in-bpf'
+         5de351181997cbeb8e1e497fe42c9e4bf5d581dd checkout/restore: refuse unmerging paths unless checking out of the index
+         fb594a820add837161c337684610b5f14cd8286e checkout/restore: add basic tests for --merge
+         e1e841b5dfae79d8e607fa7f94afdd3bbb7455a3 Merge branch 'jc/checkout-merge-fix' into seen
          
