@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0090020307335999381=="
+Content-Type: multipart/mixed; boundary="===============2182734244540601023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 30 Jul 2023 11:01:48 -0000
-Message-Id: <169071490899.21433.59632673744085307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 30 Jul 2023 11:05:18 -0000
+Message-Id: <169071511836.24278.6788904914207918729@gitolite.kernel.org>
 
---===============0090020307335999381==
+--===============2182734244540601023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/staging-6.5-rc4
+  - ref: refs/tags/char-misc-6.5-rc4
     old: 0000000000000000000000000000000000000000
-    new: 09b371f2be7e9c2a68c030202ec53c6d03e790cf
+    new: 8e26f849fac6bb4e7d170ad8f36bc44e3237a652
 
---===============0090020307335999381==
+--===============2182734244540601023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690714907 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1690714907-d97d75ae1ee68e61784c75e009cd471990eb83fb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690715116 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1690715116-b02a073e1da4c313f0684cbae1dc2f2f0e1f2aac
 
-0000000000000000000000000000000000000000 09b371f2be7e9c2a68c030202ec53c6d03e790cf refs/tags/staging-6.5-rc4
+0000000000000000000000000000000000000000 8e26f849fac6bb4e7d170ad8f36bc44e3237a652 refs/tags/char-misc-6.5-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGQxsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cGAQAKxP/6DOcYm0I6IinM3a
-H/LBvMcOVOVnUs9voTIFbKqKJjHIhUvZqYIMve6kPFBEifME/PuyVqJ6qRI4Rfnq
-MznGZSxvv2KlfujpK8Goci82XkNmogI5bgus2AB4v7vnjFeZfRJUWWLydbwLyWlg
-7aRmH9lcF4flGNFvUeeZFi9gSi7/81wPsHPjfExH+efl0f+OsomiGUTu8ZFxy+2P
-U1nQnQajCzAHZehNHwy728ssV8duWGUfwkX2dlVwqvc1PBlLidbuz4U5qhRqgnVp
-Rfass/Yci5FL+XhsexlT8rrvMq1yoGaQy9gCcMCb7LxE3Vzinbwd/LAqNckrtlho
-J8NgudVlqhexj9fNzpWKcw0i6ycwTsYk6x5t5Bzjv4vAn73tvF5y8SR8zIQXmGFe
-jxQbYX6rHAY9BYwQtfFIPv9fEtZJBw1zhMjH0Xp+/zj2gLNOKMe3dOvpq8SfcVFC
-BE49ZYbz2C3ZK1lmE9KChdyWqnajVmArnf2Khv2XSimEvPZmfVfzYaOmbfiyWqH8
-oTyuanGbVB5X/1LASG8deFhKBzmFeTNFt4hN+FliWGxean2mPyn5DN8BZkAnWzG5
-Is/irxn6goTMTBGI2l2GHJlO6PM3X+m2VYaaY997hxuUCZIyAaYSuufwX2MRJYC8
-NOqRuybqwR3hYTVvInusMHR6
-=StCa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGQ+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dqIQANAYC+tc2cLzouxeQOuH
+I4GGDf+OgeFCUtEeVdTtEd89Dy025oMGSk5OJTdxrPbEetewZgZOOKMDbD4ISYy5
+IYP6RnLc6ScnI0TLFNuksBT9XKkZZLQKu5bc+9BCeptR/sdttk8j9n2+SB74AmCN
+qqiIJuYvKjD0ZIVvmzr1oQmXOByQ778rYsVkw4bD5x8+cIKY6dP3p9R9592BVcKL
+3ZaeSJ6FVorg2sSlBmqZp5nuVUV7Ph77lSPopYlk6XszFpCeMBQtjTyMSmJ9au9J
+n3GAmMH3Q+WXcbeRAuNBtZb/hk8c9jUKr+B02lVTzigdegckSmVE4+Xrwatq6mpi
+ZZuuDXNhEEeB+lSLOqNwXcsfxu7EEln7jA6T9GfeuoFCBufMU/AlQuC2zlqyx6xy
+WV6Z1It6B7+rTK1rC00VR3xPbL3NdBSw+aDCDnw1IAa89lViKNbfahi3Sh4tu489
+mLawIn4HGNR2vCUnw46E5h5TRq5ZSZq9xZ6rD1CpNpMKJUgkxJwUuQwXyZEWdXwo
+cv7YtI4RplcTBEwTfPdOMq0p6pxuFn3pus6J2ZcrcaO3c3UnJ6LOWY/33bhWy0ce
+kf4Q0tyX7ma6JbgvzqDTEMXrrl/iFYZJ51xqcbj5tR0V6XuGnWFqjBPXUCgm1Ipd
+49oAtjQM/IVvlt6Ce06mQ2On
+=wwLY
 -----END PGP SIGNATURE-----
 
---===============0090020307335999381==--
+--===============2182734244540601023==--
