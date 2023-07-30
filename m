@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8987028024347576609=="
+Content-Type: multipart/mixed; boundary="===============4683780858739051221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Sun, 30 Jul 2023 22:44:58 -0000
-Message-Id: <169075709838.10537.1961429762829459710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 30 Jul 2023 22:45:08 -0000
+Message-Id: <169075710805.12305.14299105704120929630@gitolite.kernel.org>
 
---===============8987028024347576609==
+--===============4683780858739051221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
-    new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-6eaae1980760-5d0c230f1de8.txt
+    old: cf9baae9e4f2f11ccad314d6e0ba879c6cd9ebd7
+    new: 11d6f56fa9ebe1945b20b038ea7c31ebbc4c7f31
+    log: revlist-cf9baae9e4f2-11d6f56fa9eb.txt
   - ref: refs/heads/for-next
-    old: ffb57ee9c0e2a9aae89016ee7b793a666c6aa4a5
-    new: 5d481ddb6a731281238b6a064c719a91f0234b0c
-    log: revlist-ffb57ee9c0e2-5d481ddb6a73.txt
+    old: bb01a193b437fd89d7eda76f538bdb4a51e1b52b
+    new: 1519454ab7686d3902ae65aef422c3c662b5944a
+    log: revlist-bb01a193b437-1519454ab768.txt
 
---===============8987028024347576609==
+--===============4683780858739051221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eaae1980760-5d0c230f1de8.txt
+Content-Disposition: attachment; filename=revlist-cf9baae9e4f2-11d6f56fa9eb.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -132,8 +132,6 @@ e202a1e8634b186da38cbbff85382ea2b9e297cf ksmbd: no response from compound read
 91e292917dad64ab8d1d5ca2ab3069ad9dac6f72 ASoC: da7219: Flush pending AAD IRQ when suspending
 f0691dc16206f21b13c464434366e2cd632b8ed7 ASoC: da7219: Check for failure reading AAD IRQ events
 1bc40efdaf4a0ccfdb10a1c8e4b458f4764e8e5f ASoC: nau8821: Add DMI quirk mechanism for active-high jack-detect
-649fee5a17a7f96152fee2fb9111d9a4db535f35 regulator: mt6358: Sync VCN33_* enable status after checking ID
-67cb608838e0aac8efb48828b1165156f99c1af9 regulator: mt6358: Fix incorrect VCN33 sync error message
 9e46e4dcd9d6cd88342b028dbfa5f4fb7483d39c mm,memblock: reset memblock.reserved to system init state to prevent UAF
 80ddce5f2dbd0e83eadc9f9d373439180d599fe5 thermal: core: constify params in thermal_zone_device_register
 ac4436a5b20e0ef1f608a9ef46c08d5d142f8da6 thermal: of: fix double-free on unregistration
@@ -420,12 +418,13 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
+11d6f56fa9ebe1945b20b038ea7c31ebbc4c7f31 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
 
---===============8987028024347576609==
+--===============4683780858739051221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffb57ee9c0e2-5d481ddb6a73.txt
+Content-Disposition: attachment; filename=revlist-bb01a193b437-1519454ab768.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -529,8 +528,6 @@ e202a1e8634b186da38cbbff85382ea2b9e297cf ksmbd: no response from compound read
 91e292917dad64ab8d1d5ca2ab3069ad9dac6f72 ASoC: da7219: Flush pending AAD IRQ when suspending
 f0691dc16206f21b13c464434366e2cd632b8ed7 ASoC: da7219: Check for failure reading AAD IRQ events
 1bc40efdaf4a0ccfdb10a1c8e4b458f4764e8e5f ASoC: nau8821: Add DMI quirk mechanism for active-high jack-detect
-649fee5a17a7f96152fee2fb9111d9a4db535f35 regulator: mt6358: Sync VCN33_* enable status after checking ID
-67cb608838e0aac8efb48828b1165156f99c1af9 regulator: mt6358: Fix incorrect VCN33 sync error message
 9e46e4dcd9d6cd88342b028dbfa5f4fb7483d39c mm,memblock: reset memblock.reserved to system init state to prevent UAF
 80ddce5f2dbd0e83eadc9f9d373439180d599fe5 thermal: core: constify params in thermal_zone_device_register
 ac4436a5b20e0ef1f608a9ef46c08d5d142f8da6 thermal: of: fix double-free on unregistration
@@ -817,6 +814,8 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-5d481ddb6a731281238b6a064c719a91f0234b0c regmap: Merge up fixes from Linus' tree
+9349f564f90d12438d92b1ad98bdf8b1a69d9005 regulator: Merge up fixes from Linus' tree
+11d6f56fa9ebe1945b20b038ea7c31ebbc4c7f31 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+1519454ab7686d3902ae65aef422c3c662b5944a Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
 
---===============8987028024347576609==--
+--===============4683780858739051221==--
