@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0963554089860129678=="
+Content-Type: multipart/mixed; boundary="===============5445465726400687515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 30 Jul 2023 23:13:18 -0000
-Message-Id: <169075879824.32305.6267579983476556090@gitolite.kernel.org>
+Date: Sun, 30 Jul 2023 23:14:01 -0000
+Message-Id: <169075884167.32658.13805518803663400909@gitolite.kernel.org>
 
---===============0963554089860129678==
+--===============5445465726400687515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: f75bfe7ceaa9acc4f5ed75733be08101292b6003
-    new: 20f5da7114f5b2a4293bc77542c1df77c5eefb7a
-    log: revlist-f75bfe7ceaa9-20f5da7114f5.txt
-  - ref: refs/tags/v6.5-rc4
-    old: 0000000000000000000000000000000000000000
-    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
+    old: 905302e714c9e5c727758e6d002109013ca69b99
+    new: dba8c6aa8eb52599ba34cbf71b6141330fecf6b1
+    log: revlist-905302e714c9-dba8c6aa8eb5.txt
 
---===============0963554089860129678==
+--===============5445465726400687515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f75bfe7ceaa9-20f5da7114f5.txt
+Content-Disposition: attachment; filename=revlist-905302e714c9-dba8c6aa8eb5.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -451,5 +448,23 @@ d048ec160a0a6118ac082a2a3f68284e154391e7 lockd: nlm_blocked list race fixes
 317801ea116fb902eebcec7d10a88528fdd13412 SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
 57b7831075bf7ea33afb74727311254546936b99 SUNRPC: Revert e0a912e8ddba
 20f5da7114f5b2a4293bc77542c1df77c5eefb7a SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
+edbe4052144b72ebf219cda65abbdc199a25e3fd lockd: remove SIGKILL handling
+3a3815ea5a03c1f191d722837ddcb863d712a21d nfsd: don't allow nfsd threads to be signalled.
+672ad3a4f198ae1b85de3d49f43cdad708d59e14 SUNRPC: call svc_process() from svc_recv().
+a4a0e4e0982f614a8a0389b65dbee4d25b4d6c58 SUNRPC: change svc_recv() to return void.
+6f8ab07facd944fa9dada17eb215f547fb2f67af SUNRPC: remove timeout arg from svc_recv()
+c3a6722d75f593867a690f969043c4693059aeb7 SUNRPC: change cache_head.flags bits to enum
+7184f7803903fa5b57d82c0d26e5a2264f5b79e8 SUNRPC: change svc_pool::sp_flags bits to enum
+511fe13bd361ea5977b99b2858fb685d7b6aa61f SUNRPC: change svc_rqst::rq_flags bits to enum
+69ab7a87a6f672946819d369127c8e5774184b78 SUNRPC: change svc_xprt::xpt_flags bits to enum
+cc9f4e0b01aaf888977d7a04f1e26a32f03a8cf5 SUNRPC: Add enum svc_auth_status
+7f5e67003bb07003c50f99ae84b8f7109ed099df SUNRPC: Move trace_svc_xprt_enqueue
+a26b27edf8d9a2ef97140afbd9d946b0ab5a3ed2 SUNRPC: Deduplicate thread wake-up code
+efe78a87584445062340884b17fc4bfde061777e SUNRPC: Report when no service thread is available.
+9b6b4197ba41263a07e9967ae68f8a07ddf55574 SUNRPC: Split the svc_xprt_dequeue tracepoint
+5dc85068162bc198a1620797273a9edaf76a4d84 SUNRPC: Count ingress RPC messages per svc_pool
+393c65b4e3a05163bd7c3a72824c44a377bb417f SUNRPC: Count pool threads that were awoken but found no work to do
+3c596ccf3f077dd65f87b060b11336d523541212 SUNRPC: Clean up svc_set_num_threads
+dba8c6aa8eb52599ba34cbf71b6141330fecf6b1 SUNRPC: Replace dprintk() call site in __svc_create()
 
---===============0963554089860129678==--
+--===============5445465726400687515==--
