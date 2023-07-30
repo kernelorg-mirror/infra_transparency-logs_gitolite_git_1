@@ -1,30 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 30 Jul 2023 11:15:24 -0000
-Message-Id: <169071572495.333.16342682854024868607@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8771183347825317762=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 30 Jul 2023 11:26:50 -0000
+Message-Id: <169071641061.7682.12905982890017450124@gitolite.kernel.org>
+
+--===============8771183347825317762==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b576cd37a3967293dfcc21ccd1bf0953a23dcc57
-    new: a48c5d5d98224135415f2bd0f764ae2ddafbe7c9
+  - ref: refs/heads/usb-testing
+    old: ba0b3af706305e5b11fd832eecd2c4a7fce57156
+    new: 4202633a3a23c14823226656cac579a75b621cdf
     log: |
-         1a78354457a4323528400ccc3d2495c8b1de7e76 Merge branch into tip/master: 'irq/urgent'
-         c70110d4e9b91b93708322c19434309cb5514547 Merge branch into tip/master: 'locking/urgent'
-         a88744ce764ea55febb72962990dbc39b232f00c Merge branch into tip/master: 'sched/urgent'
-         ba124ec72abf12fb8c0281be4b96d6f5acfe7129 Merge branch into tip/master: 'x86/urgent'
-         1d41b38ab3f9e1f2faf5e2e8307b018fb18ded45 Merge branch into tip/master: 'perf/core'
-         a9c880cd0d67780084561172e92f6e42b8b8ae33 Merge branch into tip/master: 'ras/core'
-         959e9684f9d873cd77c3dd162bbbddb2c6dce5e8 Merge branch into tip/master: 'sched/core'
-         598f2a54e69e93cf776b6b1ea44c42e0af31ac97 Merge branch into tip/master: 'sched/eevdf'
-         35fc2cec1d5f0be3abe2b891d5bd45c6e9cc4bfa Merge branch into tip/master: 'smp/core'
-         f1dc53b4f4d6b788d9a1fbe2b8bd04e35577c672 Merge branch into tip/master: 'x86/core'
-         31efe64ee389386c39df68eb3355204d31261a85 Merge branch into tip/master: 'x86/microcode'
-         a48c5d5d98224135415f2bd0f764ae2ddafbe7c9 Merge branch into tip/master: 'x86/mm'
+         6bb75eb9ff3acfc3e1f31c01d70e72b3b3637167 usb: gadget: midi2: fix missing unlock in f_midi2_block_opts_create()
+         25a1489dc4214133ae44a7385b4f951887857eef dt-bindings: usb: ehci: Add atmel at91sam9g45-ehci compatible
+         e0f75882521f1416406981299fd99777b5d02dcc usb: ohci-at91: Fix the unhandle interrupt when resume
+         4202633a3a23c14823226656cac579a75b621cdf phy: realtek: usb: phy-rtk-usb2 and phy-rtk-usb3 needs USB_COMMON
          
+
+--===============8771183347825317762==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690716408 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1690716408-8a8b867494f2d33f69f0c3b32640b294a1551c11
+
+ba0b3af706305e5b11fd832eecd2c4a7fce57156 4202633a3a23c14823226656cac579a75b621cdf refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGSPgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AAwP/0EJ2h943cGtYA6ieWtY
+I5jOfu6aWfUExM/TSRrGhEGO/ATRSsHxyz49oxHMQdmCjLnk42KNHJxCeaJ8wpo8
++aQvN9MAGbtXa+Sv+oQqs8bBCX+HQp0vQ9zxsNCUT3iwH6GiwUNBErtqBWcdHRqR
+1wMzzrhYIUm4p6SVy3g/HaQtqW9CWFpkYmw7hDwSQYDHTewDT8TTdhV/rZV0XhBB
+31vzhhSCQznUoIAcW+ItlSxN6CWNzMKHq2zDlhenP0rRPC5MGrU8msU4cewQvk6C
++xnFAxuA+jCtZ5kSqNHU9YjnciJzucNZXnfZXNFrzv4HxQD+GAefgrMsI+l8t2Kg
+sAAwYANuXqSf3QCjdfADbZFfz++P1eM+3CExabz1popclJF56KlSD0HSogUi2FC8
+REUo58SRr6zuLkpxIfFlN4ONZxiqA+e4Y8zTFSdJSBAEEM1SDbC5TlZMokQ43E4O
+ZMadpiW7EvJuPf0TJeoLyFOnEpQpZOz8+iubcqCyVeeBq5lO3WD6sqXI38t95ERL
+2xVoZBKHLOZ3eduItKTjPMUev/sS0YCubvomY36lr9I2i8JAuG+qmkwL58sd2D60
+Xr1py1lFMP3fg+uNq4CkZ2Dgw+zdfGVdG8qi4NMomIcoJ7Ourr2QCcA0RYnbwU1C
+JzuKJvktjNU3GTfmhG/4XSg1
+=ag+4
+-----END PGP SIGNATURE-----
+
+--===============8771183347825317762==--
