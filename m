@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Sun, 30 Jul 2023 16:28:33 -0000
-Message-Id: <169073451349.30619.668744842290045744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 30 Jul 2023 17:23:21 -0000
+Message-Id: <169073780199.5487.717300333285962388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: vishal
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/fixes
-    old: 11dcd3b6a3aac1cace09f35407a47a311fdb0259
-    new: c4b53e8ad3a7452392f3ecd882f06f3416a021e0
+  - ref: refs/heads/master
+    old: ed7b74f13ad86de5a5c3006fe98a6d98ac11ee7d
+    new: da6d0c648bbc79fb1366029951e1bb1fce6504fa
     log: |
-         911c23f29cd89e383d18c390f71cf7eb6347b793 cxl/mbox: Remove redundant dev_err() after failed mem alloc
-         c4b53e8ad3a7452392f3ecd882f06f3416a021e0 cxl/region: Remove else after return statement
+         da6d0c648bbc79fb1366029951e1bb1fce6504fa time.1: ffix
          
