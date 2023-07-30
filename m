@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 30 Jul 2023 22:07:38 -0000
-Message-Id: <169075485851.15671.17096045467062835718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 30 Jul 2023 22:08:10 -0000
+Message-Id: <169075489071.16023.13414691484134756631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: d6f21e04b716a37e1da492ceef77a2363d2d1612
-    new: 101df45e7ec36f470559c8fdab8e272cb991ef42
+  - ref: refs/heads/master
+    old: 9dd539b079e908256ba0ec843c683804216747b2
+    new: 88d4e3ea6ec3d616e7d869e39aa11fec60b04266
     log: |
-         101df45e7ec36f470559c8fdab8e272cb991ef42 nfsd: Fix reading via splice
+         88d4e3ea6ec3d616e7d869e39aa11fec60b04266 toolsoftrade: Make intelligence warning more inclusive
          
