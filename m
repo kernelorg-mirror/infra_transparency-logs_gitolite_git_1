@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8771183347825317762=="
+Content-Type: multipart/mixed; boundary="===============6377286806728332314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 30 Jul 2023 11:26:50 -0000
-Message-Id: <169071641061.7682.12905982890017450124@gitolite.kernel.org>
+Date: Sun, 30 Jul 2023 11:28:00 -0000
+Message-Id: <169071648015.8169.1885363431229401372@gitolite.kernel.org>
 
---===============8771183347825317762==
+--===============6377286806728332314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: ba0b3af706305e5b11fd832eecd2c4a7fce57156
-    new: 4202633a3a23c14823226656cac579a75b621cdf
+    old: 4202633a3a23c14823226656cac579a75b621cdf
+    new: 1eca51f58a10259f63fbc1ca77e0582581e9bd48
     log: |
-         6bb75eb9ff3acfc3e1f31c01d70e72b3b3637167 usb: gadget: midi2: fix missing unlock in f_midi2_block_opts_create()
-         25a1489dc4214133ae44a7385b4f951887857eef dt-bindings: usb: ehci: Add atmel at91sam9g45-ehci compatible
-         e0f75882521f1416406981299fd99777b5d02dcc usb: ohci-at91: Fix the unhandle interrupt when resume
-         4202633a3a23c14823226656cac579a75b621cdf phy: realtek: usb: phy-rtk-usb2 and phy-rtk-usb3 needs USB_COMMON
+         f26069c9d7b6f83af953060cf05e425ea3cc7eeb usb: misc: onboard-hub: support multiple power supplies
+         b43cd82a1a40daaf4e1dd7098b8b63b4b8dfb094 usb: misc: onboard-hub: add support for Cypress HX3 USB 3.0 family
+         1eca51f58a10259f63fbc1ca77e0582581e9bd48 dt-bindings: usb: Add binding for Cypress HX3 USB 3.0 family
          
 
---===============8771183347825317762==
+--===============6377286806728332314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690716408 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690716477 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1690716408-8a8b867494f2d33f69f0c3b32640b294a1551c11
+nonce 1690716477-9b07bee4d90a93da130c73a21344df8161b62f3e
 
-ba0b3af706305e5b11fd832eecd2c4a7fce57156 4202633a3a23c14823226656cac579a75b621cdf refs/heads/usb-testing
+4202633a3a23c14823226656cac579a75b621cdf 1eca51f58a10259f63fbc1ca77e0582581e9bd48 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGSPgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AAwP/0EJ2h943cGtYA6ieWtY
-I5jOfu6aWfUExM/TSRrGhEGO/ATRSsHxyz49oxHMQdmCjLnk42KNHJxCeaJ8wpo8
-+aQvN9MAGbtXa+Sv+oQqs8bBCX+HQp0vQ9zxsNCUT3iwH6GiwUNBErtqBWcdHRqR
-1wMzzrhYIUm4p6SVy3g/HaQtqW9CWFpkYmw7hDwSQYDHTewDT8TTdhV/rZV0XhBB
-31vzhhSCQznUoIAcW+ItlSxN6CWNzMKHq2zDlhenP0rRPC5MGrU8msU4cewQvk6C
-+xnFAxuA+jCtZ5kSqNHU9YjnciJzucNZXnfZXNFrzv4HxQD+GAefgrMsI+l8t2Kg
-sAAwYANuXqSf3QCjdfADbZFfz++P1eM+3CExabz1popclJF56KlSD0HSogUi2FC8
-REUo58SRr6zuLkpxIfFlN4ONZxiqA+e4Y8zTFSdJSBAEEM1SDbC5TlZMokQ43E4O
-ZMadpiW7EvJuPf0TJeoLyFOnEpQpZOz8+iubcqCyVeeBq5lO3WD6sqXI38t95ERL
-2xVoZBKHLOZ3eduItKTjPMUev/sS0YCubvomY36lr9I2i8JAuG+qmkwL58sd2D60
-Xr1py1lFMP3fg+uNq4CkZ2Dgw+zdfGVdG8qi4NMomIcoJ7Ourr2QCcA0RYnbwU1C
-JzuKJvktjNU3GTfmhG/4XSg1
-=ag+4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGST0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aSMP/i9/mNrj5fv42kIXa724
+dlMW5nWidJo5YT/w7Gl6ZW8xKtESl2mxauldWlznVbCtkmGHjgnJgm0cAiv/55aA
+5fgFEXKwpeqHD6rCfbbYO1w8pLXBY0Lt5cMBvWYxzXXL4zf4YxF2rrXHWbesO6g5
+z9VGdRQLcTbZJQGXdj0YfzE1riZJaqlcJwjjuushgt7AixPaHp2uewV5lVvxiXG7
+3gM3cLRgBJ5W0tkoVbAyhQiR75zeV3BJrUE++BF4SSuGTU5V+eqHYSjKW3lSTj49
+Qt74jtu9PNZfU9n5QterN8PBdezDNJJgNtRg8olRyH6rDPe0jc7cdyQMxP+BiDOG
+0y09z69WVJoD1QmfAyirnW2oV75+YRkjnfIRRHf+ZfUIppXJJp/7zhOOiwc+sRcW
+3IOh+p1SJzdDP7CtmcsgtdpXC0posn3Dwz7fyCxuCsa9Glw2YegXWfZ05X9IrpYM
+7DGHy7o3zH3vW/jqGRqw8h1y5EDmoWN5nXREB/r+LOQxmN5Ssr+CZyYvDeoqEob2
+VRaHatGJXaV795eajdaAVR2AuCnyOYzDGcYBmQstm9Aqg4tMRzb3K+RVqlR6YMap
+p9yrn/sH4yLRO3UGvmDEx/t/efmCLKaq1VQl8j++iDxBgLQTlWDKr+nBCRsdigHA
+DMOPrqP+Zkj1+rKlDEb/3a9x
+=Udh/
 -----END PGP SIGNATURE-----
 
---===============8771183347825317762==--
+--===============6377286806728332314==--
