@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8777492418019440319=="
+Content-Type: multipart/mixed; boundary="===============7971034134137689393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 30 Jul 2023 11:54:17 -0000
-Message-Id: <169071805760.26784.11115300056812902851@gitolite.kernel.org>
+Date: Sun, 30 Jul 2023 11:55:58 -0000
+Message-Id: <169071815836.29034.12868929185763017869@gitolite.kernel.org>
 
---===============8777492418019440319==
+--===============7971034134137689393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 9b4e18f032db160a70d73d3cdf3a0bff229686b4
-    new: cd119fdc3ee1450fbf7f78862b5de44c42b6e47f
+    old: cd119fdc3ee1450fbf7f78862b5de44c42b6e47f
+    new: 16aae4c64600a6319a6f10dbff833fa198bf9599
     log: |
-         5f45b336fc57cb31c81d2eb4a63008ab65840a2b 8250_men_mcb: fix error handling in read_uarts_available_from_reg()
-         17be181b061b4b7b72d4ffb856d94a356592bfd7 tty: serial: meson: refactor objects definition for different devnames
-         130a9571aee966ad8ba65719fe6c32db7b26db6a drivers:tty: fix return value check in asc_init_port
-         77a82cebf0eb023203b4cb2235cab75afc77cccf serial: sc16is7xx: Put IOControl register into regmap_volatile
-         f9608f1887568b728839d006024585ab02ef29e5 serial: sprd: Assign sprd_port after initialized to avoid wrong access
-         cd119fdc3ee1450fbf7f78862b5de44c42b6e47f serial: sprd: Fix DMA buffer leak issue
+         e6015e3ded636e63b5f166241a3487469d0f73a8 can: ems_pci: remove PCI_SUBVENDOR_ID_ASIX definition
+         3029ad91335353a70feb42acd24d580d70ab258b can: ems_pci: move ASIX AX99100 ids to pci_ids.h
+         0b32216557ce3b2a468d1282d99b428bf72ff532 serial: 8250_pci: add support for ASIX AX99100
+         16aae4c64600a6319a6f10dbff833fa198bf9599 parport_pc: add support for ASIX AX99100
          
 
---===============8777492418019440319==
+--===============7971034134137689393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690718055 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690718156 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1690718055-88380c303bb0290f2ec3188d241019e05f3a3a3c
+nonce 1690718155-d294790641d1875d98b08715212a30b1bda3b69a
 
-9b4e18f032db160a70d73d3cdf3a0bff229686b4 cd119fdc3ee1450fbf7f78862b5de44c42b6e47f refs/heads/tty-testing
+cd119fdc3ee1450fbf7f78862b5de44c42b6e47f 16aae4c64600a6319a6f10dbff833fa198bf9599 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGT2cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EusQANh6BUkGei9WpHkjieES
-yMm/JIMZm9lBkvhSJyInue52nheZmZXYOETnN5lQTKjW6gGtiPxWR+fbnFqNnMI/
-dktsMul1oIwIcPfaTFZ72xjxcXaKgiwbBGGoFA9emMaMP3yrSTjrocRGKTwzmwb5
-O/AbcaDtKheCo6I3fP1H921zNtY2HNc1O6kxQiWfixyDo5o4iTWTV2rg/AemZN4d
-KNT4WbySBSUvjo2rymd5WtESIXmqOnqoSDZCmiZ+/2RJRJT3nHkIg3l2TpGxIG0r
-7cj8lKBr8x4FEz7b0TlniYMv8iwGsdJhK3yL3zMjpK0RS32Om8VkzYUAySP3DPiF
-0u3kOxZmXFQ4YP7SxCRyFt7/XzK7E6rKpm4810DNRWqdrsT0We6Inu7XWIhGvLuS
-eLu6xGXr7L+MO8kaaM6rYy07iGvYQ6jvm/BiIDSN3rFjqsmTetB8JpPlREe712Df
-D803o8jJFyVVEsnoBlvWzKvsCdflRaC39jl6SOqRGOkwRZBi5CHHGqW9LMsCM6Ym
-zQ+v8vZ649MUeqSJNrBR0vlUgNdHJhKLSDwWuHwhu2/I/5zRieH90dUcLoL2extR
-qm3z+Ej7nqJTivypWFJYKpjg4ArVcrWZc+523DaQbCj/rKzl82//MIRxEXOAlLjw
-sXoebucULd54rajNMKtUaZEf
-=PaO7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTGT8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CWMP/3H7xgFEhGL01ScOdgrI
+YiSK02BHc6IC2vTyKwnOXH8zL8Hwcbe+uevWy7JsaJ1Ix6fxVZLxZS3VS/FPUP5+
+vYPSmxeVxehuox0kqdmIPy7aldO+bpBH3JbU26a4u4Xvfm+fVZ2OOSGMAGPwxSKP
+3+wQ2Oeq9xrCupUQAD+LDw/mix+4zbn1lC854eMiLjwgRqihD1TbjMq187CXnFe8
+U4BySlrOm6R/UXDtZAHA9MXg6PEu6vuWh3xXoDNARguFdCBK0A9YJtG9gqSk8UWF
+yQnlvD4rAnPuF339h3drnlHHGHxMKV6YrV8+F1U4EJqYvem3sEQx8cq1KLu8lzd7
+JR9YD9E1z8ZoFpLitprH54jzJTtxONQZscph6Wz6PxkWaQKPFgz8rbCdeA5aGPHj
+fqbj0X/boWOAQSJGfw6VVe8L98G80cE8OvIYwhGgZMAjNGxlXvQI6BOWpEn9qlHu
+w6GS56bLo9zgsDgDl+MLzlzqjNKD+Sr7ymA0T802rYv6FGw6iqKD2Ft5aaQUwiST
+g2uujVThgy3Qkb3WVoSeAi/zZ3QTIkWJCvxINDcaLCAIMjrAJusbnjz+PpExYI5c
+6rPbL8eA4tSCWGvGC/Y4JU5Rl3qW1UYZ8+HkYN20eVt1IDNGtxXEBqhPfz0ColS8
+g5XSV6xEaCbW9p8SJF+lWi9j
+=MEsx
 -----END PGP SIGNATURE-----
 
---===============8777492418019440319==--
+--===============7971034134137689393==--
