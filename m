@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7421811996288769681=="
+Content-Type: multipart/mixed; boundary="===============5986718557731714310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 30 Jul 2023 22:39:23 -0000
-Message-Id: <169075676349.6500.8747643225520989068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 30 Jul 2023 22:39:29 -0000
+Message-Id: <169075676972.6637.7319487250728823964@gitolite.kernel.org>
 
---===============7421811996288769681==
+--===============5986718557731714310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-6.6
-    old: 7eb10bfbbae6025cb7b4bba3db0c1281eac05862
-    new: 2cddb06cb020f02a69e4e065599c1e5aa8b4a5d1
-    log: revlist-7eb10bfbbae6-2cddb06cb020.txt
+    old: cfef69cbe3726c095f55769bd0e7c72f32bf5060
+    new: 9349f564f90d12438d92b1ad98bdf8b1a69d9005
+    log: revlist-cfef69cbe372-9349f564f90d.txt
 
---===============7421811996288769681==
+--===============5986718557731714310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7eb10bfbbae6-2cddb06cb020.txt
+Content-Disposition: attachment; filename=revlist-cfef69cbe372-9349f564f90d.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -416,6 +416,6 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-2cddb06cb020f02a69e4e065599c1e5aa8b4a5d1 ASoC: Merge up fixes from Linus' tree
+9349f564f90d12438d92b1ad98bdf8b1a69d9005 regulator: Merge up fixes from Linus' tree
 
---===============7421811996288769681==--
+--===============5986718557731714310==--
