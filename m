@@ -1,19 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Sun, 30 Jul 2023 13:31:36 -0000
-Message-Id: <169072389691.886.17322782994900734602@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5467255583085517397=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Sun, 30 Jul 2023 13:36:41 -0000
+Message-Id: <169072420103.4390.18047919174859853147@gitolite.kernel.org>
+
+--===============5467255583085517397==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 7ed363cd8d0a3e4fbe3c37b7458420f82ef9a106
-    new: a6a67e5a13f6974913a38d5bd1c595c3fd73b204
-    log: |
-         a6a67e5a13f6974913a38d5bd1c595c3fd73b204 genpd: Makefile: build imx
-         
+  - ref: refs/tags/for-linus
+    old: 40b0f478cb70ab1ac001518b6c4d34ca5ad3c748
+    new: 573bcb510107aaa30a2584abc184f454379d98dd
+
+--===============5467255583085517397==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1690724188 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1690724187-334a503d0be553cf748d94fcf62952195f209442
+
+40b0f478cb70ab1ac001518b6c4d34ca5ad3c748 573bcb510107aaa30a2584abc184f454379d98dd refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmTGZ1wUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOEZAf/d3oCRqcyiwkeGxTso/lInSjT0dWP
+e6pR4gSxxY3ZIfjONCCkTEuRevO1C4VtLfdgWJsovb3E+ku5BHOrf7Ql7hUf+JFh
+zDYzjWUBrDpLhd1EuSJFQuOY2NREVDMrNR4YRs66j728BQJy9srFqsWsyc7vWmI+
+R+zrj6Fe2X25C7FNlQCAfsZj9i68SdltHJevKB/wyFB9HXciv8UnaAvIPA0soX3q
+Acly5gmsWsaRX9ZQTT1OsHztw2Y7qW0oQEaQZsh+ccwhqK0dTSgRKHk4wErFmn1H
+EMLXMGiG92rW86yQ45P6ePtfqH+AqL6fuA4jmfEG5/ghJeUIGt8v1Vtz+A==
+=GT9G
+-----END PGP SIGNATURE-----
+
+--===============5467255583085517397==--
