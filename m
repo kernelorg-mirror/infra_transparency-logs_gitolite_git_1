@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
-Date: Sun, 30 Jul 2023 12:54:33 -0000
-Message-Id: <169072167373.5489.16232427140771583683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 30 Jul 2023 13:03:35 -0000
+Message-Id: <169072221580.11916.16800120843981090298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinawa
-user: takaswie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: b2fd1e56ef982e7a00a8931340998a27f61b11f8
-    new: f92373e57f46eb3b78bef48cbca0ac9a7ef204cd
+  - ref: refs/heads/wip/leon-for-next
+    old: 72d422c2465e93d5de622173f04d666cb9854c5f
+    new: e5331f1f90f6fc11d5ec0005325d0e47ea033238
     log: |
-         f92373e57f46eb3b78bef48cbca0ac9a7ef204cd add a section to describe the histical changes of library
+         e5331f1f90f6fc11d5ec0005325d0e47ea033238 RDMA/mlx: Remove unnecessary variable initializations
          
