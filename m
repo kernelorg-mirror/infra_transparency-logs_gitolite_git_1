@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6001113145003268757=="
+Content-Type: multipart/mixed; boundary="===============8818578311635711876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 30 Jul 2023 20:47:02 -0000
-Message-Id: <169075002260.21849.18136673186207223232@gitolite.kernel.org>
+Date: Sun, 30 Jul 2023 20:47:20 -0000
+Message-Id: <169075004089.22042.16233622243650606656@gitolite.kernel.org>
 
---===============6001113145003268757==
+--===============8818578311635711876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sme-fa64-hotplug
-    old: a45f19b2e035d2002ee17db2959336d040656065
-    new: b4d6af773d9690bb6a198df8c3ced081f0e14416
-    log: revlist-a45f19b2e035-b4d6af773d96.txt
+  - ref: refs/heads/arm64-gcs
+    old: 1770981687b003f08fdf8a4298e4ea17e1051e33
+    new: 09fa4cc97a3ad64ca29fb97ff513d040fdee045a
+    log: revlist-1770981687b0-09fa4cc97a3a.txt
 
---===============6001113145003268757==
+--===============8818578311635711876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a45f19b2e035-b4d6af773d96.txt
+Content-Disposition: attachment; filename=revlist-1770981687b0-09fa4cc97a3a.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -416,7 +416,52 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-c0ec23f9a41a7192c8b5f259bf255e12229eb31b EDITME: cover title for arm64-sme-fa64-hotplug
-b4d6af773d9690bb6a198df8c3ced081f0e14416 arm64/fpsimd: Only provide the length to cpufeature for xCR registers
+695e1556827e08bed05a830899c1a32d208398da mm: Rename arch pte_mkwrite()'s to pte_mkwrite_novma()
+df45c9c812d39f462fcd9b363b6dd1d066fd89c1 mm: Move pte/pmd_mkwrite() callers with no VMA to _novma()
+de9798d8d6602916a848d126af4a740521600122 mm: Make pte_mkwrite() take a VMA
+b80758168019c5c24727b0c5b3a44d683b073a69 mm: Re-introduce vm_flags to do_mmap()
+ed671174e0437bdf7cd8afb8d3fce0788bc1914a mm: Move VM_UFFD_MINOR_BIT from 37 to 38
+82ae3d548ad8d6eaf917a370146fd9f8eb7c0cca mm: Introduce VM_SHADOW_STACK for shadow stack memory
+d345b409640ea2ff386564e50d333ef8e8b80af5 mm: Add guard pages around a shadow stack.
+12080219f8cb782339254531dcdedd755a37e5fa mm/mmap: Add shadow stack pages to memory accounting
+61134f5bdadf1b8b81b7f06610ca2d0e3810c295 mm: Don't allow write GUPs to shadow stack memory
+730a197c555893dfad0deebcace710d5c7425ba5 signal: Add SEGV code for control protection faults
+2009338307fcc39edbb4de1d7c5b40cc40b7f342 arm64/gcs: Provide support for GCS in userspace
+3cef7c91f8103d1c289156ba7799a38c51968e0d prctl: arch-agnostic prctl for shadow stack
+e0e1eb0dffbf08e895798b8c1826293bd36d562c arm64: Document boot requirements for Guarded Control Stacks
+8f7101a84bccb7bf855c3ee90af775f4ac184669 arm64/gcs: Document the ABI for Guarded Control Stacks
+4d3697aa01c0f92e37d2bb76807a9b461176bfbe arm64/sysreg: Add new system registers for GCS
+89eec8411d46473970497ec75d64d2b37d85e674 arm64/sysreg: Add definitions for architected GCS caps
+600969c6b9dfc889403e5a1d065154e82a35f804 arm64/gcs: Add manual encodings of GCS instructions
+bea19e19bf84ba408aa31ce48e2a111392154d1d arm64/gcs: Provide copy_to_user_gcs()
+18983f3d635f76b9c6d25e2db1feaf87297c3ad1 arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
+d7d89b575b6f665a8e79b5c57c4b218d21755c08 arm64/mm: Allocate PIE slots for EL0 guarded control stack
+0a36f538fde8dc30ffb06333669160c9f41a21a1 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
+40641698ba5b421a8c4b57eb7563f3c26fda631b arm64/mm: Map pages for guarded control stack
+e76b5689b0f3d7c3696aa1976e4c7de3af753455 KVM: arm64: Manage GCS registers for guests
+e51d0558b063c4d0b82c0724289c7fcf27fd4e17 arm64/gcs: Allow GCS usage at EL0 and EL1
+282625afb393f6c1f17ca9514de651b2d572120c arm64/idreg: Add overrride for GCS
+5424f97af6988c97c1e4490f237e3d946d5c1cf9 arm64/hwcap: Add hwcap for GCS
+4dc4092c6a5adbd1099f4fcb93bf5ea4d7fc777c arm64/traps: Handle GCS exceptions
+9bd20f093e53974ca7f3c9fef5f7938e11398eba arm64/mm: Handle GCS data aborts
+1a1490bc6f025f573e4d5c9f0803d643b6487443 arm64/gcs: Context switch GCS state for EL0
+4a8993ebdcb60419a4b765b4d6f9f8c08e127e74 arm64/gcs: Allocate a new GCS for threads with GCS enabled
+3d07431b528f18808e071c16bb411509cb945422 arm64/gcs: Implement shadow stack prctl() interface
+a489e8cd0205cea058e0e1bf8c0594f29b51b809 arm64/mm: Implement map_shadow_stack()
+6cdfd6f4b4e5afe95f8b265cb3646a48a233848a arm64/signal: Set up and restore the GCS context for signal handlers
+191f51bab0c9c0c42243f233407c6b62fd204cba arm64/signal: Expose GCS state in signal frames
+5782d3277c5d37b8be9255ab12dd059612045348 arm64/ptrace: Expose GCS via ptrace and core files
+141f867a138d6a72b5fff4532722a31738a1b21f arm64: Add Kconfig for Guarded Control Stack (GCS)
+3d77267b933069a3823823f52c1f27d0c5e9ccf1 kselftest/arm64: Verify the GCS hwcap
+ec72c0b50cc7c23763705b6510666395844a4bc5 kselftest/arm64: Add GCS as a detected feature in the signal tests
+0f115cbb05769a59ee8ae126917b24ff04fd4efc kselftest/arm64: Add framework support for GCS to signal handling tests
+69dcb0ef4b5a207da7358cb6a10a3752ab5cf686 kselftest/arm64: Allow signals tests to specify an expected si_code
+f38e4de6972600ec0cb4045b476a8574bf72a040 kselftest/arm64: Always run signals tests with GCS enabled
+47cf611a723166f83de21c6a795b72342af09e85 kselftest/arm64: Add very basic GCS test program
+75d5fc7fc5d12752cf75d3f784c7a33f08d9b019 kselftest/arm64: Add a GCS test program built with the system libc
+5f4f8f93b9ee09d750b999ae42551da0ee81c04b kselftest/arm64: Add test coverage for GCS mode locking
+7e531bc6fc3d72ee52789cbddbc37241c75d46fb selftests/arm64: Add GCS signal tests
+8f56354ac551dc016c0873fce4ebc49276837584 kselftest/arm64: Add a GCS stress test
+09fa4cc97a3ad64ca29fb97ff513d040fdee045a kselftest/arm64: Enable GCS for the FP stress tests
 
---===============6001113145003268757==--
+--===============8818578311635711876==--
