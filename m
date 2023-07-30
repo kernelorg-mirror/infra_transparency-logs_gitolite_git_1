@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 30 Jul 2023 12:44:40 -0000
-Message-Id: <169072108024.31019.9917979616372952656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Sun, 30 Jul 2023 12:54:33 -0000
+Message-Id: <169072167373.5489.16232427140771583683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: cb06b6b3f6cbc56c534587db2aac3e0958a4a314
-    new: 72d422c2465e93d5de622173f04d666cb9854c5f
+  - ref: refs/heads/main
+    old: b2fd1e56ef982e7a00a8931340998a27f61b11f8
+    new: f92373e57f46eb3b78bef48cbca0ac9a7ef204cd
     log: |
-         3a8498720450174b8db450d3375a04dca81b3534 RDMA/irdma: Allow accurate reporting on QP max send/recv WR
-         72d422c2465e93d5de622173f04d666cb9854c5f RDMA/irdma: Use HW specific minimum WQ size
+         f92373e57f46eb3b78bef48cbca0ac9a7ef204cd add a section to describe the histical changes of library
          
