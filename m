@@ -1,44 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4115801390137916430=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 30 Jul 2023 20:27:52 -0000
-Message-Id: <169074887224.7349.7590570606470584629@gitolite.kernel.org>
-
---===============4115801390137916430==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 30 Jul 2023 20:45:42 -0000
+Message-Id: <169074994292.21244.7790920747859876522@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 88f66f13ea51029280d3f91feafb6d66296c95d0
-    new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-88f66f13ea51-5d0c230f1de8.txt
-  - ref: refs/tags/v6.5-rc4
-    old: 0000000000000000000000000000000000000000
-    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
-
---===============4115801390137916430==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88f66f13ea51-5d0c230f1de8.txt
-
-649fee5a17a7f96152fee2fb9111d9a4db535f35 regulator: mt6358: Sync VCN33_* enable status after checking ID
-67cb608838e0aac8efb48828b1165156f99c1af9 regulator: mt6358: Fix incorrect VCN33 sync error message
-17aaf9ea07b656016316dc37716e987742b3e296 spi: spi-qcom-qspi: Ignore disabled interrupts' status in isr
-f7ba36d399c4558f36886adff9400be591b245f6 spi: spi-qcom-qspi: Use GFP_ATOMIC flag while allocating for descriptor
-cfb81f2243b25a0d79accc6510ad66c5c5ad99ba spi: spi-qcom-qspi: Call dma_wmb() after setting up descriptors
-916a4edf3daed845b1e5d6cf0578a7e43c6f520e spi: spi-qcom-qspi: Add DMA_CHAIN_DONE to ALL_IRQS
-138d73b627c71bf2b2f61502dc6c1137b9656434 spi: spi-qcom-qspi: Fallback to PIO for xfers that aren't multiples of 4 bytes
-cc71c42b3dc1085d3e72dfa5603e827b9eb59da1 spi: spi-qcom-qspi: Add mem_ops to avoid PIO for badly sized reads
-3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-
---===============4115801390137916430==--
+    old: 96507853a1cc5ab3ce7123a7486fc3d13fd092b0
+    new: bd4686f967de07ad96042c8433a060a3a6920671
+    log: |
+         64fd7f5821b6f05cdac9711aade825b3e663d372 syscalls.2: srcfix
+         f4884cfd16c228a36db63b024efb9449bd53806b man*/: ffix (un-bracket tables, continued)
+         c4780bf09bd77e2e146a3ea27a0f50dacba35f1f termios.3: srcfix
+         2beee28f96f5314b0186f88914d7b62c114d08e2 pthread_setcancelstate.3: srcfix
+         b428dc509a172c56648a5547868fdf4216c342f7 pthread_setcancelstate.3: ffix
+         ba687b00ecb35e159298832020bee589667ba96e man3/: srcfix
+         255cde0d9a005ea0f0786ecc28646e063b3d6d43 setnetgrent.3, unlocked_stdio.3: ffix
+         bd4686f967de07ad96042c8433a060a3a6920671 ipv6.7: srcfix
+         
