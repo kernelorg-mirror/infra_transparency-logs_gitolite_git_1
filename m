@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3994723538760412140=="
+Content-Type: multipart/mixed; boundary="===============5023348864911827834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 30 Jul 2023 22:10:20 -0000
-Message-Id: <169075502031.18470.4745861774535296424@gitolite.kernel.org>
+Date: Sun, 30 Jul 2023 22:10:41 -0000
+Message-Id: <169075504114.18657.7450955129728052945@gitolite.kernel.org>
 
---===============3994723538760412140==
+--===============5023348864911827834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/andi-for-next
-    old: a810bc42f7879dac4f579998ff589d2831d4f911
-    new: 1851a80ee87d2decf774ee5785c8dd25e30bd118
-    log: revlist-a810bc42f787-1851a80ee87d.txt
+  - ref: refs/heads/i2c/andi-for-current
+    old: fb6c2268a0ba106b522f81807a90786b0d527b24
+    new: e0be05a600b0151d747820c081edb3afa6e839ed
+    log: revlist-fb6c2268a0ba-e0be05a600b0.txt
 
---===============3994723538760412140==
+--===============5023348864911827834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Andi Shyti <andi.shyti@kernel.org> 1690755016 +0200
+pusher Andi Shyti <andi.shyti@kernel.org> 1690755040 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1690755014-b5c0289c1fde8954748efca5128bc7af9a945219
+nonce 1690755037-4bd3b398686726fd247966b2d3fcdb6df0733f4d
 
-a810bc42f7879dac4f579998ff589d2831d4f911 1851a80ee87d2decf774ee5785c8dd25e30bd118 refs/heads/i2c/andi-for-next
+fb6c2268a0ba106b522f81807a90786b0d527b24 e0be05a600b0151d747820c081edb3afa6e839ed refs/heads/i2c/andi-for-current
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZMbfyBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uMDQBANkiJ3O1/eEv16uRyuK7RR4486gI
-wCkeHZ/rX+QQpDjwAQDCmbDVCvi9eMNGrAfuaNj9JSkv/9V6JWmpUDOuu81eCg==
-=Ov0X
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZMbf4BYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uixMBAORAwBicmFeupuzqE5Lds+1rkXBc
+N/okfA1McF9ghMwzAQDSCqoZzOlegdj7fhEaLNvYiAsHY1iZ7u10Fqa0N/WuAA==
+=mSpX
 -----END PGP SIGNATURE-----
 
---===============3994723538760412140==
+--===============5023348864911827834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a810bc42f787-1851a80ee87d.txt
+Content-Disposition: attachment; filename=revlist-fb6c2268a0ba-e0be05a600b0.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -437,32 +437,9 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-5864d948a857cceb684567465b2a14dc7330eab0 i2c: imx-lpi2c: directly return ISR when detect a NACK
-cc13119fb11abd9db02fc75cf473a73746b3f549 i2c: s3c2410: Remove redundant dev_err()
-22b7ce047ad1b6993f38696356eae72e918bec19 i2c: au1550: Remove #ifdef guards for PM related functions
-db0e8dcd52aa32057bbce37517a5341838a2e713 i2c: iproc: Remove #ifdef guards for PM related functions
-657a9568d6d318d3f9bd45104723507ef60c0ff7 i2c: brcmstb: Remove #ifdef guards for PM related functions
-256d9313ca972560f2b8a9a8d4a8cf0452d78ab1 i2c: davinci: Remove #ifdef guards for PM related functions
-0cf90837db926b4082156b51ddc5dc0f30a57ca2 i2c: designware: Remove #ifdef guards for PM related functions
-f7bb518fb877c691a3e5ebf4e70679918836e0dc i2c: exynos5: Remove #ifdef guards for PM related functions
-0e9b2b5365c9d9db9f04dc1b374faf0b2e70ff6d i2c: hix5hd2: Remove #ifdef guards for PM related functions
-641518d61b00f99a237b085ebbc5091c035be0e0 i2c: i801: Remove #ifdef guards for PM related functions
-d4771287eb47c51d23f9baa1e0c5b140bb228a44 i2c: img-scb: Remove #ifdef guards for PM related functions
-30b0e3c1ba831e95bc6798ea4c82027879a426fb i2c: kempld: Convert to use regular device PM
-48e22c35295a3245e05e7caf41ee8545f38299b8 i2c: lpc2k: Remove #ifdef guards for PM related functions
-e0e0805ec24d312918a55e69be6b0fd1548965ea i2c: mt65xx: Remove #ifdef guards for PM related functions
-a7a4b23b6267c9f9bf9dde2a2a8cbf2617cf7be9 i2c: nomadik: Remove #ifdef guards for PM related functions
-93042e891bf8c187000014bf85e8d5ae06222dec i2c: ocores: Remove #ifdef guards for PM related functions
-c317500349a76f0cd8e21b722316126ca09da966 i2c: pnx: Remove #ifdef guards for PM related functions
-94e973336fc6e95a9dd07afda17a867183311537 i2c: pxa: Remove #ifdef guards for PM related functions
-15ca98cba1b3ee9cac57ff9c14c37e6f3ebd171f i2c: qup: Remove #ifdef guards for PM related functions
-7b728c258062869524d42d3e1486e914ee4ffd2e i2c: rcar: Remove #ifdef guards for PM related functions
-940ea0b9217a884bbad48be2d3fc4dd9f0c549c2 i2c: s3c2410: Remove #ifdef guards for PM related functions
-730ee2a2d81282f8fc89d2fc76129fc3225e875b i2c: sh-mobile: Remove #ifdef guards for PM related functions
-73d546c76235b5329c0b6d370c836777443fd208 i2c: virtio: Remove #ifdef guards for PM related functions
-9abd28725109cada017983f0a9be8aa5de5cc5d3 i2c: mux: pca954x: Remove #ifdef guards for PM related functions
-f0a235e070f317b3b2f3633eb054091929d6b62a i2c: imx: Clean up a call to request_irq()
-fa5aa828121e67b7f90f3db87b447c1e59ab8217 dt-bindings: i2c: nxp,pca9541: convert to DT schema
-1851a80ee87d2decf774ee5785c8dd25e30bd118 dt-bindings: i2c: arb-gpio-challange: convert to DT schema
+1f7a1d698cd37a7b1bfbbd48e176a452a38002aa i2c: tiny-usb: check usb base class before assuming the interface on device is for this driver
+233c3f8830b68938fcca0056a6b9944e5442d578 i2c: imx-lpi2c: return -EINVAL when i2c peripheral clk doesn't work
+33675d1d270a9f827c3e9fd1bf55b9570e17c245 i2c: designware: Correct length byte validation logic
+e0be05a600b0151d747820c081edb3afa6e839ed i2c: designware: Handle invalid SMBus block data response length value
 
---===============3994723538760412140==--
+--===============5023348864911827834==--
