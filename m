@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 30 Jul 2023 05:39:09 -0000
-Message-Id: <169069554903.4553.15816009205369140439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 30 Jul 2023 09:10:21 -0000
+Message-Id: <169070822141.26110.11250066445017738256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 7a66ca0b8fc3911a08a4144ed276e618570db460
-    new: 0c4b9728b9ef83653b265437ebe692375f76744b
-    log: |
-         0c4b9728b9ef83653b265437ebe692375f76744b Sun Jul 30 05:37:51 AM UTC 2023
-         
+  - ref: refs/tags/irq_urgent_for_v6.5_rc4
+    old: 0000000000000000000000000000000000000000
+    new: ff9c0c35769700b7ad2776fd7ff3b56e26e73a8e
