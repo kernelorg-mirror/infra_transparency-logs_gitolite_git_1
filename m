@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============4890924645011495804=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 31 Jul 2023 18:26:56 -0000
-Message-Id: <169082801681.24450.10709737708228329791@gitolite.kernel.org>
-
---===============4890924645011495804==
-Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 31 Jul 2023 18:28:41 -0000
+Message-Id: <169082812149.25128.12726482190436999736@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,41 +12,8 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: jgg
 changes:
   - ref: refs/heads/wip/jgg-for-next
-    old: 61a8118f60e9dde64be4f3a6e07c15014a8bfbd2
-    new: 5d122db2ff80cd2aed4dcd630befb56b51ddf947
-    log: revlist-61a8118f60e9-5d122db2ff80.txt
-
---===============4890924645011495804==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61a8118f60e9-5d122db2ff80.txt
-
-2f5833ead7ea332889cfbdd4ac7b84279fdd3cef RDMA/qedr: Remove a duplicate assignment in qedr_create_gsi_qp()
-44725a87381353075273618eeedc9127e99c378e RDMA/qedr: Remove duplicate assignments of va
-f5a61344ed23e5c5786c399a4c2d0e18af17014a RDMA/hns: Support get XRCD number from firmware
-0b5eed06832c87275ee67f69a943d811b1fe066d RDMA/hns: Remove VF extend configuration
-24b1b5d85c1c1e1c0eb7b6d7b6986ecb6c80041d IB/hfi1: Use struct_size()
-8cfc99dada35b8889f76fbe28115dcde1a6f0874 RDMA/irdma: Drop a local in irdma_sc_get_next_aeqe
-133b1cba46c6c8b67c630eacc0a1e4969da16517 RDMA/irdma: Refactor error handling in create CQP
-e49bad785e550fe26ca9416ffc0c85fef84be808 RDMA/irdma: Add table based lookup for CQ pointer during an event
-693e1cdebb50d2aa67406411ca6d5be195d62771 RDMA/irdma: Cleanup and rename irdma_netdev_vlan_ipv6()
-063975feedb14386489619084fbb20792b87d21c bnxt_re: Reorganize the resource stats
-cb95709e0dca7a2dee1c168a2100b5fa21ca6205 bnxt_re: Update the hw counters for resource stats
-4405baf85a83eda03065cf5ddd5de41d7bd1881b bnxt_re: Expose the missing hw counters
-8b6573ff3420a2da1deb469a480dbc454745f784 bnxt_re: Update the debug counters for doorbell pacing
-cb06b6b3f6cbc56c534587db2aac3e0958a4a314 RDMA/core: Get IB width and speed from netdev
-3a8498720450174b8db450d3375a04dca81b3534 RDMA/irdma: Allow accurate reporting on QP max send/recv WR
-72d422c2465e93d5de622173f04d666cb9854c5f RDMA/irdma: Use HW specific minimum WQ size
-a45e5f1859579f88df624997c38c05706f9015e3 RDMA/mlx: Remove unnecessary variable initializations
-91f36237b4b9bdce7610c7450a906d46704a566a RDMA/siw: Fix tx thread initialization.
-d43ea9c3d52f2e8ab97faa0a9349b990acfa4b61 RDMA/irdma: Fix one kernel-doc comment
-50f338cd8847053283c82f73129ba90c08dad06c RDMA/mthca: Remove unnecessary NULL assignments
-f0ff2a2dd08df50656961c26c06c7091e3792123 IB/mlx5: Add HW counter called rx_dct_connect
-272bba19d631e21e47f6ffa5654d3c17c57ea2ac RDMA: Remove unnecessary ternary operators
-e0ba8ff46704fc924e2ef0451ba196cbdc0d68f2 RDMA/rxe: Move work queue code to subroutines
-5993b75d0bc71cd2b441d174b028fc36180f032c RDMA/rxe: Fix unsafe drain work queue code
-cc28f351155def8db209647f2e20a59a7080825b RDMA/rxe: Fix rxe_modify_srq
-5d122db2ff80cd2aed4dcd630befb56b51ddf947 RDMA/rxe: Fix incomplete state save in rxe_requester
-
---===============4890924645011495804==--
+    old: 5d122db2ff80cd2aed4dcd630befb56b51ddf947
+    new: 2897f1925be9a3fad3972660ca4bb0909cd64f35
+    log: |
+         2897f1925be9a3fad3972660ca4bb0909cd64f35 RDMA/hns: Remove unused function declarations
+         
