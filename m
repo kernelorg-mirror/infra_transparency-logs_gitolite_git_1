@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1472548143372078917=="
+Content-Type: multipart/mixed; boundary="===============3933091628781133484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 31 Jul 2023 07:34:27 -0000
-Message-Id: <169078886732.11881.18052771377172451367@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 07:35:06 -0000
+Message-Id: <169078890685.13812.6442176141534150120@gitolite.kernel.org>
 
---===============1472548143372078917==
+--===============3933091628781133484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: c928e84ce577262da288c0178c8c77620ba8b430
-    new: f5c9676e48770454a19a5deb5d06dfe484037a79
-    log: revlist-c928e84ce577-f5c9676e4877.txt
+  - ref: refs/tags/staging-6.4-rc7
+    old: 58eb19b7e29451a511485e62486f8b70c61ae442
+    new: 0000000000000000000000000000000000000000
 
---===============1472548143372078917==
+--===============3933091628781133484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788866 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788905 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1690788866-52e25dc963fe6fe4f505206932773cec97382acf
+nonce 1690788906-384a10326b6ab04ede2774563da39a39939a1c4c
 
-c928e84ce577262da288c0178c8c77620ba8b430 f5c9676e48770454a19a5deb5d06dfe484037a79 refs/heads/staging-next
+58eb19b7e29451a511485e62486f8b70c61ae442 0000000000000000000000000000000000000000 refs/tags/staging-6.4-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHZAIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GuIP/R7g2+mtizR82X+nu77X
-uK4aLbH67jE4jGjBTZUdMLPesxw6P6qULeQqg9ySZF+1kxJseMkDgsXZTnQHVHkC
-RnVwySH4WN1+zQqZ1z0P0ZYAWhdAnw4DAHxSaupgEhOfoNnY74cF5sCGg+JdvPkn
-s5xO3MCbgAkW4a3gagh1+BCQyZzKNBwLQaG/fHxPsf4rmWg4AOXHgqJHdzvnQ/uI
-Pw7UKJTd07BLYdEtMPCshplCE6r7Wg6IBU6bj+M/WeXITsr3jXrCMXPeunMKNb+4
-2V19AOKndNLI1mEFEDwBx5dXitT5xsy9KR258Y9MrhbH7ZV1luwS5tLlN8h4kSh0
-FvltADuM4eCJP2GFEQFu2C4o8PO6RdZc3f1G3fW7km9YIUKep2HWBKslBaQXjgoE
-f8SjB9GwQ0YS0iYQLOOYo4ZrevL4OgbqBw7CEwx4FEqn3CvrxZ4eOVUWQeCoIFaZ
-4VdGKBtCOtssh+zef3VQYQcOZWfAtT58V52tIkBClx5ldON5iCDHm21R8rRfQdj7
-LK99TMVGrOrUs4pvQts84BSP0J6Edo0kK5EsLia0bK2j8DBD+hrYDQowLxUxy4Jy
-KgJapfQZzYNiBJf7FFGhAAlR0upcSQ326aVcV1bMJHmyfr9H2B3aLEriTq7zI4Z3
-kx6U+9gcBS8/RwTm2zHq6dWj
-=N+ZC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHZCkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dxsQAIE5Qk+2cQrgg+R8Thiq
+HDqs9i5cidXYBBUKP2fyMEC1nlhZjxz6DLNoAkXI/zr92DSH83WASh0FmLXNzvbx
+hoC2etCiSEBnaAOdIaIVoPWOz6gl9cw+iZusm48LnTrG8OsQCt2QXGmtddgSnwmH
+nnmmVjy5zz7qUj9RYR+3/B9NR6oGb+Y/1NI8ggELNX2U59pcF+muaiLFSIRaEqkI
+vCpkK1E7I3Yx3RYNqgv2TFdRP7RAA6mAoh8uMBzmLmSCG2fZ2H9tvQWApLqFAVqD
+MZ9iadEjapc2E35/AXOpSibaQtlnAMHBYL56D0c/5ozfsrfu021f9I8W1zcD2c+/
+na0acr8h1E73r4yreuaFGUmp2I7jkSdn7VIUUmi3vUh9hN9UoMEYR9mgawyzpaD9
+ecy03sOZFqv2hPysFrRY5ECgMa6kZfmoSrZ3pHz0DC7PHyKcTwdQncUemdtrL54j
+zmYiArCdQYgLJ2IbmJptClA3X8ROYkiuJPZZ0a5zUSsuJ0mJf29r+kESwLwRVKEr
+1gCq0l0JRmlqStO6gHhzDOeiTEjGZtjeIBS+QRu4e+RQVo3N+c8UX+jnuHbxjRSI
+J6ZjMvoxwmYjIfyZDd23v/vgxi/wNBMuH5e7JYX4ZbEIvy6YkpncyO97JMORfo3I
+X9fCtG3QgbNOC8SqbiJ1kLMF
+=XQcy
 -----END PGP SIGNATURE-----
 
---===============1472548143372078917==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c928e84ce577-f5c9676e4877.txt
-
-7363749d09e8790db484a04363f6329f09e47b11 Staging: rtl8192e: Rename function ResetBaEntry
-810d7b88451c831beec1bff601105f2667a61b51 staging: rtl8192e: Remove unused variable p_intb
-9bd15c51e803fb70d0f9aee95a46ae6d32a040ae staging: rtl8192e: Remove unused variable intb in _rtl92e_irq()
-37a207d8411bd5b86f6453b5b78449872003e719 staging: rtl8192e: Remove empty function rtllib_rx_Master()
-206e69b6363ddcfc67c6f6fe66446580c8b125ab staging: rtl8192e: Remove empty function rtllib_rx_Mesh()
-bbf2b164d2214adca9307e4be03724b5a47e42df staging: rtl8192e: Remove unused variable is_mesh from rtllib_send_probe
-fc6ea9d3efccbb53b5574c5c1d32453ff881c794 staging: rtl8192e: Remove is_mesh from rtllib_send_probe_requests
-349db4213371b5fa2a73d61d581d1259453856f9 staging: rtl8192e: Remove is_mesh from rtllib_start_scan_syncro
-30afa99d454f91c2ba174c4e72d0a81022fb724b staging: rtl8192e: Remove is_mesh from rtllib_softmac_scan_syncro
-60a0e1a7dd01e74c959aa3608e200d47044f8866 staging: rtl8192e: Remove is_mesh from rtl92e_set_swcam
-f5c9676e48770454a19a5deb5d06dfe484037a79 staging: rtl8192e: Remove DefaultKey from rtl92e_set_swcam
-
---===============1472548143372078917==--
+--===============3933091628781133484==--
