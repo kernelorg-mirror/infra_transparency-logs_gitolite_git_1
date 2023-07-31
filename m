@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3684434066164306714=="
+Content-Type: multipart/mixed; boundary="===============0181377669486094462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 31 Jul 2023 11:01:47 -0000
-Message-Id: <169080130703.21612.9895666355958725472@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 11:02:14 -0000
+Message-Id: <169080133430.21870.6645728684672540751@gitolite.kernel.org>
 
---===============3684434066164306714==
+--===============0181377669486094462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: c7f72524fc7a679fd534113df46587d393ef81e7
-    new: 727ca37ab7408cda8f9fc96e8104fab0e5fc266c
-    log: revlist-c7f72524fc7a-727ca37ab740.txt
+  - ref: refs/heads/next
+    old: 3b7d0410063cf1d1deed24ce51eaf1c24964fd30
+    new: ccfb2b2c584ba1b558a6c0e81cd4eadbaade50d5
+    log: revlist-3b7d0410063c-ccfb2b2c584b.txt
 
---===============3684434066164306714==
+--===============0181377669486094462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7f72524fc7a-727ca37ab740.txt
+Content-Disposition: attachment; filename=revlist-3b7d0410063c-ccfb2b2c584b.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -290,15 +290,6 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-c5246aa6755e65821a2cb1aef086e62e946ed71a tpm/tpm_tis: Disable interrupts for TUXEDO InfinityBook S 15/17 Gen7
-027227fc57f0d702b9ec57d309dcdfdb3c34e6f8 KEYS: Replace all non-returning strlcpy with strscpy
-b66290150023f1ea76a371b5c8afd14fb1203e29 KEYS: DigitalSignature link restriction
-6a5201d3438067e43563442607e16ace7a499d34 integrity: Enforce digitalSignature usage in the ima and evm keyrings
-25ea7137d8e58af13cf61a2eadf1c1077d45caf5 tpm_tis-spi: Add hardware wait polling
-86ff4f420dec377346909e9accacbc864917c8b4 tpm_tis: Move CRC check to generic send routine
-a2d650645f29ade5610b61c99154ba2af6dbd40a tpm_tis: Use responseRetry to recover from data transfer errors
-8f2c9c69bc6f8f85a5a3020d71b511c0897885ab tpm_tis: Resend command to recover from data transfer errors
-583f8a713ad2e95107cc6e94a345ae91ec4e0d1f tpm: remove redundant variable len
-727ca37ab7408cda8f9fc96e8104fab0e5fc266c tpm: make all 'class' structures const
+ccfb2b2c584ba1b558a6c0e81cd4eadbaade50d5 tpm/tpm_tis: Disable interrupts for TUXEDO InfinityBook S 15/17 Gen7
 
---===============3684434066164306714==--
+--===============0181377669486094462==--
