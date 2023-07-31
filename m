@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Mon, 31 Jul 2023 21:04:29 -0000
-Message-Id: <169083746975.8996.17600845777680755710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Mon, 31 Jul 2023 21:10:07 -0000
+Message-Id: <169083780771.15478.1114645653776372067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
-user: sre
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 2359dd1aafa9b4240fbb05d848e8e288cb6f6795
+  - ref: refs/heads/master
+    old: 824912be19542f94264e485a25d37b55a9f68f0e
+    new: 1660df6601e24a17dda9e12cbc901337fd5fd925
     log: |
-         2359dd1aafa9b4240fbb05d848e8e288cb6f6795 hsi: omap_ssi: Explicitly include correct DT includes
+         b85c01f7e9dfc468eb78faf86692433e6105178d iolog.c: fix inaccurate clat when replay trace
+         febae487985a8b63185fe8ac4c1623dd2ad3cf58 use 'const' where it is required
+         79c77d043578272d9be95096bdb6daebb70c7817 Merge branch 'improment/constness' of https://github.com/dpronin/fio
+         1660df6601e24a17dda9e12cbc901337fd5fd925 Merge branch 'master' of https://github.com/min22/fio
          
