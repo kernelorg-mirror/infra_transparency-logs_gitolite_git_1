@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9217748541294516311=="
+Content-Type: multipart/mixed; boundary="===============8176546905963586829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 31 Jul 2023 07:32:27 -0000
-Message-Id: <169078874706.10403.1771549262394471042@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 07:32:31 -0000
+Message-Id: <169078875162.10522.7958039482323877599@gitolite.kernel.org>
 
---===============9217748541294516311==
+--===============8176546905963586829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+  - ref: refs/heads/char-misc-linus
+    old: f8ea95021022826a010f56cf19451c21f4c9c155
     new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-fdf0eaf11452-5d0c230f1de8.txt
+    log: revlist-f8ea95021022-5d0c230f1de8.txt
 
---===============9217748541294516311==
+--===============8176546905963586829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788745 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788750 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1690788746-2483aa2384e71e9f40ae18fb277fcdfffdab598a
+nonce 1690788749-a27427487a0e982d2b2f7a02abbb7b44a0e68e5d
 
-fdf0eaf11452d72945af31804e2a1048ee1b574c 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 refs/heads/main
+f8ea95021022826a010f56cf19451c21f4c9c155 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHY4kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h8cP/1pytdUjMKEfEHPz67Qc
-l1DwDT1FhbkNSkBK15jKo3xgC22HOMEEN0xat7oqVoXySrgUqkMVEnfASQu91Z1e
-RapGnuL1y6H5NSSwf6LfcMz3WtjTL5cewGFZp6JpsZuROys9KVmIPxx0NfKXjSO9
-st1q0FJCQ5Rk2lNhOCGQPgKr/fH9CySi1PPIp88wrv1Kuj6NAzcvw5XYIU5OplqN
-Ljmgp72yewSO0G2SPtGj9hv3sWgFP73s32/h0QHhjTFGrUNZcB4V0KPJstR5YPr4
-44QQJEMTgeUvTpwbonduGEGxFkh0Ps7nIn20gl7L08mtoSSOfIYtAXEY4eZpgArU
-Tg6SOZe4Xp7wRjpeOjanPWZxOmD2ud+3U52xETq/gckNFgDS38VNJtoXHhsr/vj6
-b/x/Es6eU0k/IHN0aErqQZjmu6VWziG064xwEM2igdKykfcUBJz5xT9BG+cek5qS
-pXxD8MFk8WTk5SKH/zsPTFzYMXIjD8bOFFGXNrzFb/QqNMNW1N2Vm3Zoe+lrDrcf
-wd6UPhrhOnZg8xlvXE3LGst16efUigdvMiInLc7uN3xdVNUwgfumcwYkSLPWPMV8
-8dMWX8GfOVVLCkf93jyEpjOkV8aR9uW2kVdipUtZG71xkOukDVIqj/fZM930FhJO
-R3EQNb1Aw1QEW8zRPSWJQsKJ
-=jd5n
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHY44bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ui0P+waJOJmEMS6bYziV4kW2
+pSGDqsojDtVYEKm1+voyLvpHjbhrPS0SZ9TJ1laIpdxC9vrws0sFlQ9iCTTYOljF
+L5vzSjl8vf2phCS16crI5wwAsleMNZdQKxykzpZ3z/Z3OMAnMfi2YRzBjSIyNstP
+3Hs7wsZmTk7Fm2PzKcLzuVQgLU7Ehkn70J7oBZiTNTfeSd+sE6R9ZYsI3VUQ62Wz
+WUIzxzFnTyJ64PCNIbQU+j8XZ+mGvJ+azDWEH+zSi2tXp/opAb0tQnSDm/RDL4Di
+tS0vf+iC9M7de5wPXXugcQKg+v+EQadCt3N0D71kpvsKpxn6wAFjlqeMoxytMkak
+kTMpu5kjRikMXSU5mW27vYb7kkxUEXYSJ9FcXVjha4z75YdgDyR4DFj9tvGov9AV
+OxVIy/oT9m4JfjeZ8Io7oAp+7QACZnRrxQ6G2ZrILMBD7yjALTaldgpMXKY9Nj59
+0Ifbnno41SgVQi8q4hhVHXOdMpLN8MJ/0nYK2VbpTH5Qo5o5LUDW7m+DQ5N38lm6
+abmIF4Gnm7n/M79IDlC/V6D4LaWRYJ3o2+WgdY7otCKH0IU6KtHk7CoOJYAblvcJ
+hf/D1tAr6zvdrAcx8MTVM2CCaP3LnLcblkO4bPfWauMatagA0Q0lQvSUWDiVGvhV
+OtY45ObBz9QC9ei3St9pfscx
+=Pmo+
 -----END PGP SIGNATURE-----
 
---===============9217748541294516311==
+--===============8176546905963586829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf0eaf11452-5d0c230f1de8.txt
+Content-Disposition: attachment; filename=revlist-f8ea95021022-5d0c230f1de8.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -246,8 +246,6 @@ e51df4f81b02bcdd828a04de7c1eb6a92988b61e ASoC: cs42l51: fix driver to properly a
 bc64734825c59e18a27ac266b07e14944c111fd8 regmap: Drop initial version of maximum transfer length fixes
 0c9d2eb5e94792fe64019008a04d4df5e57625af regmap: Account for register length in SMBus I/O limits
 98e2dd5f7a8be5cb2501a897e96910393a49f0ff regulator: da9063: fix null pointer deref with partial DT config
-4fee0915e649bd0cea56dece6d96f8f4643df33c Documentation: security-bugs.rst: update preferences when dealing with the linux-distros group
-3c1897ae4b6bc7cc586eda2feaa2cd68325ec29c Documentation: security-bugs.rst: clarify CVE handling
 b2cb84d7802b75bc4029519bce2c4e0c9319ac42 Merge tag 'asoc-fix-v6.5-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 057849ccc3d898b8a2dc21933b50ed8fbddc963b ALSA: seq: Fix memory leak at error path in snd_seq_create_port()
 b3d0e0489430735e2e7626aa37e6462cdd136e9d net: sched: cls_matchall: Undo tcf_bind_filter in case of failure after mall_set_parms
@@ -345,7 +343,6 @@ dcaa32e1f58473b9f4ac566fadd326956be83138 drm/amdgpu: Allocate root PD on correct
 8ecee4cbc72b53551c1d33251a48c912d70282ea drm/amdgpu: fix slab-out-of-bounds issue in amdgpu_vm_pt_create
 8e78127143086bd89aa099740c1767d64fe80631 drm/amdgpu/vm: use the same xcp_id from root PD
 b13d3e9c6b62597a5c31fdc74febb3bc588893bf drm/amdgpu: use a macro to define no xcp partition case
-28f47693a920ed66e985feafc1937b4c96008b95 Documentation: embargoed-hardware-issues.rst: clean out empty and unused entries
 6adc2272aaaf84f34b652cf77f770c6fcc4b8336 io_uring: don't audit the capability check in io_uring_create()
 4806364acf770fa1d24ccc98169ca6f5c6979caa Merge tag 'mm-hotfixes-stable-2023-07-18-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ccff6d117d8dc8d8d86e8695a75e5f8b01e573bf Merge tag 'perf-tools-fixes-for-v6.5-1-2023-07-18' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
@@ -674,8 +671,6 @@ e11ec2b868af2b351c6c1e2e50eb711cc5423a10 net: ipa: only reset hashed tables when
 1f9f4f4777e7958e5c1fbdfd9ddf4207dc00a40f tracing/probes: Fix to add NULL check for BTF APIs
 02ab7234fc69695736d60b34044fe591689ffadd selftests/ftrace: Fix to check fprobe event eneblement
 58f6259b7a08f8d47d4629609703d358b042f0fd xen/evtchn: Introduce new IOCTL to bind static evtchn
-645bb6b1fe0b15f2f134055e7ad470036aca9202 Documentation: embargoed-hardware-issues.rst: add AMD to the list
-f8ea95021022826a010f56cf19451c21f4c9c155 misc/genalloc: Name subpools by of_node_full_name()
 2c39dd025da489cf87d26469d9f5ff19715324a0 net: dsa: qca8k: enable use_single_write for qca8xxx
 80248d4160894d7e40b04111bdbaa4ff93fc4bd7 net: dsa: qca8k: fix search_and_insert wrong handling of new rule
 ae70dcb9d9ecaf7d9836d3e1b5bef654d7ef5680 net: dsa: qca8k: fix broken search_and_del
@@ -830,4 +825,4 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
 
---===============9217748541294516311==--
+--===============8176546905963586829==--
