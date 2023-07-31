@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3632608064761992977=="
+Content-Type: multipart/mixed; boundary="===============8197548362119165529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 31 Jul 2023 15:52:30 -0000
-Message-Id: <169081875086.8540.1163439950552304237@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 15:53:03 -0000
+Message-Id: <169081878383.8795.8977820593311510085@gitolite.kernel.org>
 
---===============3632608064761992977==
+--===============8197548362119165529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5416d7925e6ee72bf1d35cad1957c9a194554da4
-    new: 1e7417c188d0a83fb385ba2dbe35fd2563f2b6f3
-    log: revlist-5416d7925e6e-1e7417c188d0.txt
+  - ref: refs/heads/dev-queue
+    old: f2f5830a5311f13058364f3e8818f231867796cb
+    new: 5734c26c238bad1849e3f2dae5b9728b67e64477
+    log: revlist-f2f5830a5311-5734c26c238b.txt
 
---===============3632608064761992977==
+--===============8197548362119165529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5416d7925e6e-1e7417c188d0.txt
+Content-Disposition: attachment; filename=revlist-f2f5830a5311-5734c26c238b.txt
 
 e68409db995380d1badacba41ff24996bd396171 net: sched: cls_u32: Fix match key mis-addressing
 56c6be35fcbed54279df0a2c9e60480a61841d6f mISDN: hfcpci: Fix potential deadlock on &hc->lock
@@ -47,5 +47,15 @@ e5f0d2dd3c2faa671711dac6d3ff3cef307bcfe3 net: add missing data-race annotation f
 e739718444f7bf2fa3d70d101761ad83056ca628 net/sched: taprio: Limit TCA_TAPRIO_ATTR_SCHED_CYCLE_TIME to INT_MAX.
 8469c7f5472fe5f77fc31c8f10f23d5aad987231 dt-bindings: net: mediatek,net: fixup MAC binding
 1e7417c188d0a83fb385ba2dbe35fd2563f2b6f3 net: usb: lan78xx: reorder cleanup operations to avoid UAF bugs
+bff9ed3f0c597a8f0b1c548a9817ceede626e861 igb: fix hang issue of AER error during resume
+9732bd2df86fd68b6efdd25b626ccb7e3f46223c ice: Fix RDMA VSI removal during queue rebuild
+d79f623f60cf27b73c993315847a2e187cd34978 i40e: Fix VF reset recognition
+0247a6e7b6309f298ba54abd2f99a2ac3d92d842 igc: Add lock to safeguard global Qbv variables
+838c32b16025a41d6bc655cf76de4c7d7c28ee65 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+50254c3fa86fd614cadc4c3a621057560ddf75ad igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+11eb0e7afdaf5dbfed7e0d5d5e9acbb1d30f8f5c igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+a855a1bdbd7c75ce06d1d07e65d7cf491f099b81 ice: avoid executing commands on other ports when driving sync
+31a74ded5eced6fc0aa1699eca09d449c1d00903 iavf: fix potential races for FDIR filters
+5734c26c238bad1849e3f2dae5b9728b67e64477 i40e: fix livelocks in i40e_reset_subtask()
 
---===============3632608064761992977==--
+--===============8197548362119165529==--
