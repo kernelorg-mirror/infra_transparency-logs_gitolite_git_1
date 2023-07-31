@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2241607724771942990=="
+Content-Type: multipart/mixed; boundary="===============5871017013548179822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 31 Jul 2023 10:40:02 -0000
-Message-Id: <169080000222.4891.1837941028272807002@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 10:40:15 -0000
+Message-Id: <169080001594.6613.7216804154504369353@gitolite.kernel.org>
 
---===============2241607724771942990==
+--===============5871017013548179822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: 6995e2de6891c724bfeb2db33d7b87775f913ad1
+  - ref: refs/heads/next
+    old: 481012b479fe6d8dd4e01d739c359a8d99d074a9
     new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-6995e2de6891-5d0c230f1de8.txt
+    log: revlist-481012b479fe-5d0c230f1de8.txt
 
---===============2241607724771942990==
+--===============5871017013548179822==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6995e2de6891-5d0c230f1de8.txt
+Content-Disposition: attachment; filename=revlist-481012b479fe-5d0c230f1de8.txt
 
 146d7ce3e01cba1eae25dcdc6d39cec68347962e Merge tag 'regulator-fix-v6.5-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 1793eac148d0136f9afe877766b9d8f4458fbf21 Merge tag 'spi-fix-v6.5-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
@@ -1051,4 +1051,4 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
 
---===============2241607724771942990==--
+--===============5871017013548179822==--
