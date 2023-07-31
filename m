@@ -1,53 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4253232617339246249=="
+Content-Type: multipart/mixed; boundary="===============2666521998735116356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 31 Jul 2023 07:33:41 -0000
-Message-Id: <169078882178.11454.1319234247644270901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 31 Jul 2023 07:34:24 -0000
+Message-Id: <169078886441.11812.5880595971849626582@gitolite.kernel.org>
 
---===============4253232617339246249==
+--===============2666521998735116356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.5-rc4
-    old: 0000000000000000000000000000000000000000
-    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/heads/usb-next
+    old: ba0b3af706305e5b11fd832eecd2c4a7fce57156
+    new: 1eca51f58a10259f63fbc1ca77e0582581e9bd48
+    log: |
+         6bb75eb9ff3acfc3e1f31c01d70e72b3b3637167 usb: gadget: midi2: fix missing unlock in f_midi2_block_opts_create()
+         25a1489dc4214133ae44a7385b4f951887857eef dt-bindings: usb: ehci: Add atmel at91sam9g45-ehci compatible
+         e0f75882521f1416406981299fd99777b5d02dcc usb: ohci-at91: Fix the unhandle interrupt when resume
+         4202633a3a23c14823226656cac579a75b621cdf phy: realtek: usb: phy-rtk-usb2 and phy-rtk-usb3 needs USB_COMMON
+         f26069c9d7b6f83af953060cf05e425ea3cc7eeb usb: misc: onboard-hub: support multiple power supplies
+         b43cd82a1a40daaf4e1dd7098b8b63b4b8dfb094 usb: misc: onboard-hub: add support for Cypress HX3 USB 3.0 family
+         1eca51f58a10259f63fbc1ca77e0582581e9bd48 dt-bindings: usb: Add binding for Cypress HX3 USB 3.0 family
+         
 
---===============4253232617339246249==
+--===============2666521998735116356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788819 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1690788819-524ec02604d9488bb48f40b5574ae76c91d4a34e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788863 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1690788863-83d462ba8782be9cda356059e089b89f759fdcb1
 
-0000000000000000000000000000000000000000 e725214df0b61dcd1e0c4a9eaa25b408b444e4a8 refs/tags/v6.5-rc4
+ba0b3af706305e5b11fd832eecd2c4a7fce57156 1eca51f58a10259f63fbc1ca77e0582581e9bd48 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHY9MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6oP/i0G0sbPj4YzgBeB3WN7
-nJMxnsjx8JMRfjia5FwyAEs28glsQNxjzOWSwvJzMTQ4u/CMxwonbv3to1gQfZWk
-4x7BYTELqJb3hDdKpLNpW6SSKaE76Pz9sftYCw8cfUU0CQ7FTHLSrzbRxetMC2h2
-+qEIr++fCF6b5EEbNiyYcrdGNPjQU6OL284Ob/+ZLNMFsKbsSlY+1y3qIwE4IscD
-iHxoOMQGJGKyiPx1Be7dE9LMvXJkJ5hdaaO55uRKr24QJKU3hUT+RSiopACDfoNC
-GxsuIKy0lG5m4+zIy55Tim/xvPnbVPuBj9gcSfyEd6d2IlKBKxYg5C3uxwEcgRAH
-bJcWqtohFyxZgqMNlRlRHCS3mm0URA7dExYspV0fI1xrPGJLBA4+9dqmaDWJFJsC
-IeK7c3FJXqyVMy265ZZl/Exwq4wchxkUy1ojpB8yNdvgpADl0l9GQP/aPxbZbHLH
-YonvoRdJIlMGiMraCX5hlVNSNHNd44pm9Iv2hluAJ+xZxyDUltQlJtr8ZqXzSiqZ
-RZq+VfwNLRRxE6Ev/oSC2tBUn0kzfD6alSPNxEPzlXusLh08XDC5C6GC8qL5b30v
-6qFls5J4Vli57f5BiRpfLL+x3x8UrJKk0mcxh4ZM/0RhaicW/ZOpriWGsYz0JYtB
-t0oPPSX5R8au455ZDmcHzOpp
-=yMZl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHY/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MYUQAKHdRwa/oJD2xFhPAKam
+qp1VZ7Ua0br84mXYhldGgJ/448g61dPeryWczSYA8rAR+iLlEK3RmY4nUhWJSkcj
+/rO1gDTYJXBzGVr/JNP3G0EbWv937nDuPZhYTTgQoPck2DH93etUuZL0OySaiLkB
+VsVXncGodsP+7fWVbSt5luJw5FC4RKetxKGq+GDfH7i/wD/UKtjw05EU+GndTwK9
+xJ8//Bq+7Zd0OCvNYUYmWFsW7YXKeYkjRAI4DFmE4axc4fIEH6YE/A86muJQZeD6
+s2n8G9iCP58RTOu9mBMDJymLRkIFwk9wRshrSHIWG3p8pzQMi8WwP7XyUrzrrG0Y
+z4U4TE19QYdzq7JKot+QyDppQL3aKPsbwqJj2KOeFOCBfkx/5oZdCnUMGM1onvKf
+yt0qYc/Q3Iqm7nl91bCzNWenq69OMZmc6iu3LGhaAiZWD1+l/3YjZbH7FBCfubxZ
+Xv3vqU7LNplgkXkafinLTG//Ffv2ZgUd4V32ff2juXp1JH2fjEgNJjCqS1M0H/h3
+gfdyDzNIRtXWDIOHowEsicnayRS7LMWek6PNjJkSHw/gKTzU96SW4DA0Wm6V6gvU
+shxSldkTns4oibBAFyG9VvC9k0VP8giMlXvDjzc0HBscaGAFqw1YwllptfyJyayt
+UWNKlBONCpnMpvVvf3GqsBEC
+=aawl
 -----END PGP SIGNATURE-----
 
---===============4253232617339246249==--
+--===============2666521998735116356==--
