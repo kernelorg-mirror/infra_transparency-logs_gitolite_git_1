@@ -1,22 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 31 Jul 2023 21:10:07 -0000
-Message-Id: <169083780771.15478.1114645653776372067@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9060885765734840190=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 31 Jul 2023 21:15:58 -0000
+Message-Id: <169083815822.19511.3718595526171088856@gitolite.kernel.org>
+
+--===============9060885765734840190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 824912be19542f94264e485a25d37b55a9f68f0e
-    new: 1660df6601e24a17dda9e12cbc901337fd5fd925
+  - ref: refs/heads/for-6.6
+    old: 6c7a864007b66e60a3f64858a9555efed408b048
+    new: 3dcce5b3ff095628458c9daa2d69bbc7dca6686f
     log: |
-         b85c01f7e9dfc468eb78faf86692433e6105178d iolog.c: fix inaccurate clat when replay trace
-         febae487985a8b63185fe8ac4c1623dd2ad3cf58 use 'const' where it is required
-         79c77d043578272d9be95096bdb6daebb70c7817 Merge branch 'improment/constness' of https://github.com/dpronin/fio
-         1660df6601e24a17dda9e12cbc901337fd5fd925 Merge branch 'master' of https://github.com/min22/fio
+         59bbe86bb212b618ec2b50434f54bb4cfc704f44 soc: qcom: geni-se: Add SPI Device mode support for GENI based QuPv3
+         d7f74cc31a89a45d4c7deaa5f759661a07a183d6 spi: spi-geni-qcom: Add SPI Device mode support for GENI based QuPv3
+         3dcce5b3ff095628458c9daa2d69bbc7dca6686f spi-geni-qcom: Add SPI device mode support for GENI
          
+
+--===============9060885765734840190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1690838156 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1690838156-da312db7ad560574660a2ea35cf5c28120ca792b
+
+6c7a864007b66e60a3f64858a9555efed408b048 3dcce5b3ff095628458c9daa2d69bbc7dca6686f refs/heads/for-6.6
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTIJIwACgkQJNaLcl1U
+h9CaeAf+L8+bERcSmhXH5cl2OlspvpSreabwzkyfaVowjoRPSX2gK8B15Gn2KyH4
+N9uappCed3uBcYJo/iXJhYEK+HJ8s43K4xPoqOLpONcEnqSL7l0cDGh2RwwRsGLd
+vC/QfBvV/cayrtcDzcPR8HtHdHKP/OEY4PDA/5Z/AVUVkyJqNYUVQ2zDkZiktwiv
+xyRR1H3HZMms12WzHr/w3iov2Eag0K+0SpT7/4Gl/DfFNqeg/HwWavQ5mQOM+CI+
+949Bnx0Jlj5G0rGqBSmpDFJqRwp+gtxkYA8xYW9LqesesWalyYkaeInDGLWuB5gN
+28ErN8cqhvVyGIpxeeDtj8mWnPallg==
+=BiQd
+-----END PGP SIGNATURE-----
+
+--===============9060885765734840190==--
