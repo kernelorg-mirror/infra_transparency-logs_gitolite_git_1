@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5335126758641646673=="
+Content-Type: multipart/mixed; boundary="===============7271621939983154208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 31 Jul 2023 07:36:18 -0000
-Message-Id: <169078897829.14459.15918680751644577668@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 07:36:22 -0000
+Message-Id: <169078898273.14558.15655868594299571492@gitolite.kernel.org>
 
---===============5335126758641646673==
+--===============7271621939983154208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+  - ref: refs/heads/staging-linus
+    old: 5f1c7031e044cb2fba82836d55cc235e2ad619dc
     new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-6eaae1980760-5d0c230f1de8.txt
+    log: revlist-5f1c7031e044-5d0c230f1de8.txt
 
---===============5335126758641646673==
+--===============7271621939983154208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788977 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788981 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1690788977-6756199d29dc21253ada574a5967b529ec21ec42
+nonce 1690788981-69fac4d3f0fbc1197a4fad1ffd89c3215b04e161
 
-6eaae198076080886b9e7d57f4ae06fa782f90ef 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 refs/heads/main
+5f1c7031e044cb2fba82836d55cc235e2ad619dc 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHZHEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ltcP/2lUZI0A+ECt7qMKn0mK
-bnyuki+eCAWnKhcvZCQRyvLH+R9Flq7eLGRr70P2t/jkSJ19/9+Sk5eA/QumLL2m
-jtFH7LpakG+wlbDAoPJ65CFFFqY0GK36ZjyGpoFe3fm+d5AyuQ1otciYTNOm7mUb
-2tnvsFTP4+j6DcszZIQe5Ta06ABWZp2sD+PZSy7ODuOzAy+EXOoCq/xWV9ycSVk2
-wqri+dBbx0pwP0XqsIQmJmB0igQRxjnpDwbsxefulvjxLac3ohGGMshGQEMqQCFm
-RRyZ+Jaa1DDTCCBBT4ZczTJEyeGEiXwpI34I8cjQJwSAH0yL1pLuGZG4WoD7ib9+
-Any7EPR+h0VGoMMGwhJfKsV0WmoDG1VGc8oIbe9qmU6S9puEsrFDNehUNF6fzvFu
-hYEucXPGGAycw+IJoi3f8BJoPNRRkr4ZDD871T0ZhigsBt5Y7542HF+9Xy3d/ivP
-r6o23KFX22IG+u0fxnQepuuy0Fe1A1DYSsa1wiDU2rn1lq8kxc0GTDu/KU8UnfxF
-28P+E2PpdsdLHTCwPAwBqR5D7ZY+eljLlPJEh1IfynnNuNnaDd92LgH3LBQp0udl
-VdGkBQlQNQtnLimXBP7IybYkjHNNf/NbLstVd2MPME4PRewe7TZzpgdDz2BhTjSy
-/uL9/Ti1Fy+YDEg5THcn9xQX
-=ca3B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHZHUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XckP/2mReLY6FShV9gsPxzdR
+b28Y1JJCXzU4dH8FvWxYss+DLVw56gOfz0tQ6szCyeskfTsdeothx1OkkslH2078
+6x4AM0aZ6TbEEfEgTZsUbqT/K17bIVIVdsf6xrHl0KUurDtEiVZohF7Rdm+XkBrg
+DFciSlwd2zvkvRQrUgjNsQR9xKLQFIIBzhJ71ENV8lc8ucf42Z46KJv9VcYYFwBy
+sGojPO20H13z7Z0WcF9tn6vmLSIAHRbOU6Se9Xnp482iknKXBm8AVDfFRqtaeuJt
+HdThHMbKhGw+7RSBcfcx7OzSvXi/QVZQiEp6y9s0rb4toFMKlRAWPGt04FziWC+A
+kYAhgDGVqMjD3cukD7LT4JtZYatbdSQxu5LOmkulLNuFM3hZBP2UzifAg6JhKOJF
++sQ7uZ9JsMo4eRdv/GSoPWy8E/3wH9tdp87xquF2PdPl2Vz8FlwfHsorXbrWZKsT
+7WcgITCc5pJLgb3XO/H5vh4aVauJ5YFOW+2jALv5dhGs2ZbjjNEokem8/keNYtd4
+OxbDD+GOJShZh2qke028MLdHei50Z142TJRSSFyIOiLyTaaN0hsczteETICZ8T53
+seW/13AaDZRrrBqCGmuFW6v7GcMhEWMdEcPfWt0cQ+bXlylPHciNi4YImZHGkLX7
+mTOer67hgsPY4kw2pwc/N87r
+=lClC
 -----END PGP SIGNATURE-----
 
---===============5335126758641646673==
+--===============7271621939983154208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eaae1980760-5d0c230f1de8.txt
+Content-Disposition: attachment; filename=revlist-5f1c7031e044-5d0c230f1de8.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -332,9 +332,6 @@ b84000f2274520f73ac9dc59fd9403260b61c4e7 hwmon: (pmbus_core) Fix Deadlock in pmb
 ff0df20827f6ac32822f9855998c4db3e99af47c Merge tag 'nf-23-07-26' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 c04e9894846c663f3278a414f34416e6e45bbe68 xen: speed up grant-table reclaim
 8019a4ab3d80c7af391a646cccff953753fc025f ALSA: hda/realtek: Support ASUS G713PV laptop
-ac83631230f77dda94154ed0ebfd368fc81c70a3 staging: r8712: Fix memory leak in _r8712_init_xmit_priv()
-4912649e1cf0317bf563f91655e04a303cacaf8d staging: fbtft: ili9341: use macro FBTFT_REGISTER_SPI_DRIVER
-5f1c7031e044cb2fba82836d55cc235e2ad619dc staging: ks7010: potential buffer overflow in ks_wlan_set_encode_ext()
 5c85f7065718a949902b238a6abd8fc907c5d3e0 benet: fix return value check in be_lancer_xmit_workarounds()
 b32b8f2b9542d8039f5468303a6ca78c1b5611a5 usb: dwc3: pci: skip BYT GPIO lookup table for hardwired phy
 7f2327666a9080e428166964e37548b0168cd5e9 usb: misc: ehset: fix wrong if condition
@@ -448,4 +445,4 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
 
---===============5335126758641646673==--
+--===============7271621939983154208==--
