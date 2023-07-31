@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9060885765734840190=="
+Content-Type: multipart/mixed; boundary="===============6155874368407598242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 31 Jul 2023 21:15:58 -0000
-Message-Id: <169083815822.19511.3718595526171088856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 31 Jul 2023 21:16:04 -0000
+Message-Id: <169083816420.19603.17161129655054814412@gitolite.kernel.org>
 
---===============9060885765734840190==
+--===============6155874368407598242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: 6c7a864007b66e60a3f64858a9555efed408b048
     new: 3dcce5b3ff095628458c9daa2d69bbc7dca6686f
     log: |
@@ -25,28 +25,28 @@ changes:
          3dcce5b3ff095628458c9daa2d69bbc7dca6686f spi-geni-qcom: Add SPI device mode support for GENI
          
 
---===============9060885765734840190==
+--===============6155874368407598242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1690838156 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1690838156-da312db7ad560574660a2ea35cf5c28120ca792b
+pusher C3F436CA30F5D8EB 1690838162 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1690838162-a05244e397d9cdf7c77ce19ccaf6149832dfac6a
 
-6c7a864007b66e60a3f64858a9555efed408b048 3dcce5b3ff095628458c9daa2d69bbc7dca6686f refs/heads/for-6.6
+6c7a864007b66e60a3f64858a9555efed408b048 3dcce5b3ff095628458c9daa2d69bbc7dca6686f refs/heads/spi-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTIJIwACgkQJNaLcl1U
-h9CaeAf+L8+bERcSmhXH5cl2OlspvpSreabwzkyfaVowjoRPSX2gK8B15Gn2KyH4
-N9uappCed3uBcYJo/iXJhYEK+HJ8s43K4xPoqOLpONcEnqSL7l0cDGh2RwwRsGLd
-vC/QfBvV/cayrtcDzcPR8HtHdHKP/OEY4PDA/5Z/AVUVkyJqNYUVQ2zDkZiktwiv
-xyRR1H3HZMms12WzHr/w3iov2Eag0K+0SpT7/4Gl/DfFNqeg/HwWavQ5mQOM+CI+
-949Bnx0Jlj5G0rGqBSmpDFJqRwp+gtxkYA8xYW9LqesesWalyYkaeInDGLWuB5gN
-28ErN8cqhvVyGIpxeeDtj8mWnPallg==
-=BiQd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTIJJIACgkQJNaLcl1U
+h9DRQQf+LiQaaaiuIl9mUohhAsqRKOpMGLFmf8prfR5BhyyeCZwqgxcOUpQErOVm
+8JVH6dj1+SISrVwZ7JDSU8ghfFC4HGWy1i//R4ATeXgOirM3MIjPn2hHzfnAmdd6
+RubXuXYqf5oRipxGr0A/Zxa+nbxqBnKHYsgTgMCfGk8e7A7jtPwP2SyT8Pmv9kyE
+UNl03z6tAgYnyEqljXAqsKAohL4qW5d1bUX67ZRZzjlIbquLbfJbmntsjHDFD4qO
+GADjlL99DMUNmUI/r4yCCoJyA7V5cCwiM9WIihDK4v9GEhqo1dMXaA+M3rzhyMiS
+OnHvRawDa15fGpJXNbDokvE+5DPe0g==
+=R1QH
 -----END PGP SIGNATURE-----
 
---===============9060885765734840190==--
+--===============6155874368407598242==--
