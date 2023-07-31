@@ -1,47 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============7566957364242483675=="
+Content-Type: multipart/mixed; boundary="===============0298359584216023407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 31 Jul 2023 07:07:22 -0000
-Message-Id: <169078724239.25212.10973769211669360316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 31 Jul 2023 07:30:13 -0000
+Message-Id: <169078861338.9504.9011589822138690703@gitolite.kernel.org>
 
---===============7566957364242483675==
+--===============0298359584216023407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: bd6b7321497ac732da813f8dc58edd4e857e969c
-    new: b1c6741e03398036fd4cfe3fbc345f5109d0cc51
-    log: revlist-bd6b7321497a-b1c6741e0339.txt
+  - ref: refs/heads/char-misc-next
+    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+    new: 0995c95b0882ee0ed0ea1930c8918bb0899e924c
+    log: |
+         4ba2909638a29630a346d6c4907a3105409bee7d x86/APM: drop the duplicate APM_MINOR_DEV macro
+         9c4625f81fbd37ca0473732d5f6c72836ac91ca8 mei: log firmware status on hw_start failure.
+         5fc227484d11d2391e6c37c9904b2e50804fec49 mei: bus: enable asynchronous suspend.
+         6549b2b7addf4d1d1557382b565a0dcd031243a8 mei: obtain firmware version only on gsc.
+         dd218433f2b635d97e8fda3eed047151fd528ce4 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
+         350170cc4cab301d017fdd1e115730f752083dc4 MAINTAINERS: Add drivers/firmware/google/ entry
+         89f6fc9cc712f17f14a1bd66ae8ee7ff2abe8bd6 char: Explicitly include correct DT includes
+         fb827efbece747884300193917e3bae3ab67fed9 mei: pxp: Keep a const qualifier when calling mei_cldev_send()
+         0995c95b0882ee0ed0ea1930c8918bb0899e924c mei: gsc: add module description
+         
 
---===============7566957364242483675==
+--===============0298359584216023407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd6b7321497a-b1c6741e0339.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a45e5f1859579f88df624997c38c05706f9015e3 RDMA/mlx: Remove unnecessary variable initializations
-91f36237b4b9bdce7610c7450a906d46704a566a RDMA/siw: Fix tx thread initialization.
-d32548b02228feb4f3c83b9ad688a71ea615fc1a net/sched: Don't print dump stack in event of transmission timeout
-5c85942657c3894ed7c2304d1bc2800a372dfb66 RDMA/core: Introduce peer memory interface
-7bdf14aae44d34dff386f07d23bd4d5624675ef0 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
-e81dab65e713c4e35a23675621ef1ab9c5c88dfd IB/mlx5: Add HW counter called rx_dct_connect
-873ba6058d1630fd193956f0433db7f9e76a4fd9 RDMA/umem: Set iova in ODP flow
-21fe71ca41a2f049b5467e4f052154211b352c80 mlx4: Get rid of the mlx4_interface.get_dev callback
-c508d7f7bc7bab493c3dd006b27e92454f4c7f84 mlx4: Rename member mlx4_en_dev.nb to netdev_nb
-56af8509a022c6b353ce16ba07231cfc1a3e6bca mlx4: Replace the mlx4_interface.event callback with a notifier
-b576f26445f9ac56e7c9455983605fd0e07b6f09 mlx4: Get rid of the mlx4_interface.activate callback
-18b2d750ce96f637dbe145f8797175f6b449ea80 mlx4: Move the bond work to the core driver
-e131f9f8843791cb29143a87439bcd690664e38a mlx4: Avoid resetting MLX4_INTFF_BONDING per driver
-0b31600b9c584853a1c9089c7f20afa1af582b5f mlx4: Register mlx4 devices to an auxiliary virtual bus
-f4de9c5c0a4500abb53f63baa8ea3de4ccfe2cdf mlx4: Connect the ethernet part to the auxiliary bus
-8056acb961405d668774ea6de7541a60bb158f4b mlx4: Connect the infiniband part to the auxiliary bus
-b1c6741e03398036fd4cfe3fbc345f5109d0cc51 mlx4: Delete custom device management logic
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690788612 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1690788612-b2105c23cf23bc650e04245f7467742ab8c70ed9
 
---===============7566957364242483675==--
+fdf0eaf11452d72945af31804e2a1048ee1b574c 0995c95b0882ee0ed0ea1930c8918bb0899e924c refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHYwQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wIQQANcXHWbmvHZvCCZWt/sf
+c/5EqmXCMyfETbsdPDA58x7CznYAQHoV0SIUl4F9XWHoi7JdbZ7ftNRxfwdK8MFy
+5C/CW9TlMLpdooFCAMjTXV5iQTB7HAFPlHsgaI4EEd9s1IFHYUlZ9fYrdDEWKLW7
+4j6Km2Peg1+oY8rx81QqSAnVn8JA11LRBIvsuIXtU5IMxs+y+nu8nRwuwazui7eo
+X0hrJJnyItA1uWVjMDfBtJG0h1ZVKRwBTmSQykGt7vf/vNxOp74nwc987OumZo/1
++sVDkbBqjJuvMtUy5Okpq7pR0j9TfkWv8PzGeLCGcfh2EFUUEElskIsETbxUyv/B
+ibOT7qA7O1WD5UMp2CWAXgLimH+lSUkNnAK2TLn6I0X5Z8DXSDwOOMoBfnLaHXWQ
+4RCuB2/UFNTnWTHipaJWtG6Muh2l9FAbAor5OmpW+Shk4itbPagb7/hWUYMB2/pd
+UfGrfxT52lN3wF9ozlh+3TUKhvQs6gWDP6D6x3EnBijasKWrT4nTXmvtKXBsPb92
+gSffSz/bPAg0jLnwIw1Xd7IP88nW2ma7FFuyvlrhpo5lLvAzSKvxznM9lk7EOLaz
+AmVxmNS26xceKKnKcwzKp9AD78gc12xmrdUd+IUruBx1hW95D1RVRPbMTTBhRhie
+bgJbr+yNUxeVsLXBkGImM0mF
+=OQwB
+-----END PGP SIGNATURE-----
+
+--===============0298359584216023407==--
