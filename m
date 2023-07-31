@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4675751952872808558=="
+Content-Type: multipart/mixed; boundary="===============3711981046865258580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 31 Jul 2023 19:43:23 -0000
-Message-Id: <169083260366.14829.9494169296229990002@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 19:43:28 -0000
+Message-Id: <169083260898.14956.16754981053677224548@gitolite.kernel.org>
 
---===============4675751952872808558==
+--===============3711981046865258580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: f6820b19ff3368ee3084806ec3cc68649ca0491f
-    new: 0ffbbf061a7b7a0516efefd84bc1dc95fe33c25e
+  - ref: refs/heads/6.6/scsi-queue
+    old: 7e9609d2daea0ebe4add444b26b76479ecfda504
+    new: a615e93d6cfe70f9fab2cb02c7b11fe9de1c56b5
     log: |
          65aca38b8ce728bf5a449b74f2a6a344167dfb02 scsi: ufs: qcom: Remove unused variable
          2903265e27bfc6dea915dd9e17a1b2587f621f73 scsi: ufs: Fix residual handling
@@ -30,33 +30,33 @@ changes:
          a615e93d6cfe70f9fab2cb02c7b11fe9de1c56b5 scsi: iscsi: Remove unused extern declaration iscsi_lookup_iface()
          
 
---===============4675751952872808558==
+--===============3711981046865258580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1690832594 -0400
+pusher 75C5DE3D 1690832607 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1690832593-876e446c8196d2fc44edb3a39072f77aa04f9bdf
+nonce 1690832607-45e32229151f527ab9d124b6cc4dc3fb4fbfc09a
 
-f6820b19ff3368ee3084806ec3cc68649ca0491f 0ffbbf061a7b7a0516efefd84bc1dc95fe33c25e refs/tags/mkp-scsi-queue
+7e9609d2daea0ebe4add444b26b76479ecfda504 a615e93d6cfe70f9fab2cb02c7b11fe9de1c56b5 refs/heads/6.6/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTIDtIACgkQ7ulgGnXF
-3j1unw/9GEjxeSREBCrAf8BNxfULEfBUMWm+F/Y05ExlHKj+LIynCqUk/Ng55CTm
-JCG3MU3l/Dd7zW5krP0tDADVuIIPHHV8C7dgIl5UUAKd6zji5kQIzeUvbAaPVLF8
-eZ1KMAx+iyTf+78ylJ98xEnAMAY53mqYmVJigntTDcZ5vCp20fOGl+8Ues5vNCcp
-i9WlZPkEZ3zlOO6GMhVunZ2xQDEUP3DVtTSfyhxXEjY6cr8lZwzfUNKnSLqV+Ng/
-6knZOpTtCsFhwXxaRHsyWzkFWqJtLnFsHejTJtDIzgR3PpYcewOzzMWJRVbRDJgq
-1x6fXHvOVoquhMHvmzmXUN4SQl5HSTaHjt3UjpUUil1Zn57ajTNAaDFx3lz74xJ3
-PbyfrDrKXl5lekZJI4vb0l5J4u8QBSNktUirXqcKNpArYgch/nTNmqPErZ9+hW7Z
-iOFsXv0gapbsM0W5eqhknLytvn/l6TszTKuaBa6BZCk2EKbTNLXCJyGAk5cxU+JK
-mtf1Sp5uID3k5XA2ouCtE7wywQkHo/2WXdT2yN2wNs98bcUPJwTmXlVxPXdM/rr4
-u6uNam28bRkuS5/YN13PSdeG29Gb6qDutHIUqG+u6hvPrsg8FT/HjtmDNuDjhy4h
-XOklypxU+5K1lJWEddf0jRlaWEwxNRqT9VowKYw/oefgy6mAdmw=
-=mxZD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTIDt8ACgkQ7ulgGnXF
+3j3+VhAArsynco1Lt3DLvFUFYzkIvZMrNR+K3+7zoOUZUIWB2IejZRNw8QrPOLqF
+/dN+jQkTQ4w5sNvVbYlsOdapfG62tpV4fDO8g5Manyqedac26ZAUjUr2Ru/iCXfh
+rgSUuoBz3+i5YQ92lc74aw4aU4QxjkVkGDux2vrdNE/E3TcK/utdvfYMhVYBckfW
+LR2d5vUr2mHsfBIRbM89m/IoUmweNqZdBO79quMCpScCrBTymXvE7bsDgftDOWHQ
+OMivro1Bdzu7pRXndIuRTKBlOeuvlt2qDowGnlxFLLT1xsrXRpz5BuiDdldM3LNP
+yE3C5nHiHybC2v+Vmyv4xLPTombIBytTbpe3MTC+Nbblg84ajSAFZHqQufXTEEt8
+1iapelUwwKAYs73u9b3jGhNkgvzNE3iUejCKGnNur8ti1OlUaBQc43CjDwinhDxp
+NYZa6CYxjBbCa2ZsUPlFhFzjKIECVs9dn4BxTvfBip1C/aToQchSGip2LoscGOs7
+PWTbCguIZV0f9m7UiPXwrJOfHcgLafScQ++Ik/Im97ZK+mTGCHkm7Xuk1aEnxLI2
+Xu8giX/esIyGE1zKaGBwKaZEzWZdQYNYXdy8+/Y0apgP64Fg817L0UEAOFcPt5Cz
+4/fuEvt15o3N5QqslKBv0x+cQjBq4/uig3DMHGWYJ26WNIjdj+s=
+=cuX+
 -----END PGP SIGNATURE-----
 
---===============4675751952872808558==--
+--===============3711981046865258580==--
