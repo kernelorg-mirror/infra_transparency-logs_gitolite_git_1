@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1252921615178528670=="
+Content-Type: multipart/mixed; boundary="===============9021740149798571113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 Jul 2023 07:37:53 -0000
-Message-Id: <169078907314.16741.4242494181693700570@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 07:37:57 -0000
+Message-Id: <169078907757.16819.14130646141013144976@gitolite.kernel.org>
 
---===============1252921615178528670==
+--===============9021740149798571113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
+  - ref: refs/heads/usb-linus
+    old: 7f2327666a9080e428166964e37548b0168cd5e9
     new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-6eaae1980760-5d0c230f1de8.txt
+    log: revlist-7f2327666a90-5d0c230f1de8.txt
 
---===============1252921615178528670==
+--===============9021740149798571113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690789072 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690789076 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1690789072-0168dd73266a793b704b58396c6d2e42108b0866
+nonce 1690789075-dcec4f815aa6d200e3f093b136a842132b177132
 
-6eaae198076080886b9e7d57f4ae06fa782f90ef 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 refs/heads/main
+7f2327666a9080e428166964e37548b0168cd5e9 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHZNAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+55sP/RTV/9gem70pjnQUGEU2
-yWOcsS1AJ94mOonRZzFfRcLleuWRhgCMz5qng13Ti6hx0cjKwiqtb7U6ra7Dzx9b
-UnWzWx7tp3NuWPHFfcYMjNJMQUvkyMtWkRtoBbhOmRCy/C8RJhBYbr7S0y2cUHTx
-eAjKsGWyjQ3FFk21WueEp2nd+GnIW40TfuptO0GP5k6NPEy+y01tw+oDbeBDB/T4
-q9zk2x7C50r+59EGAGFDeHiH0rSdQlwhAxPlJHCuLxsE6c2W3VLO1CJl8Oe3BsJQ
-9t1PGwB5gQqtS+55is9waxJYPgYcNZW1L2G/BNakvRxaI5mTC7Jn4M1e/BkEmLj8
-6PZ/g3Z8iiz3e/A22ds2+FOGlOTFyOXnomoVTF91zcOPvhB0G4F3GwbXapVYT1S7
-KgQbRnGl7oDmrxwuz2YG0zzGjlbB7nRmlXefsRzPcz9HgZyCoMQZWOYCiUQIfYZA
-nTRJ6Gxg7ryotsMeR1ew4zI0G2rzSeTXTA8BM4smq/s8Nsexo+GyR+MTEuIw0uAC
-twwhOOSR8LYATyvGEqPYHK9SS/5QoFwDZW3uM5qJwJvqHB7HFh9lB+ugRUc0UoWh
-WwVfJALg4H6zWP0IIhNNKnZ9DE6fMTPmDgfdCN08A1E4mtp7p8L3Ae+MO0fgvz3D
-18gxCvHqBOzYU1GThMrSDjYN
-=DPC6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTHZNQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H7wP+weuHrLx1Zr/4Jomm1Mm
+PlD2v2Uv0LgeS0fs/4OgrjYT9O1dSBVaJcU4eCGG9e13p3yYV4wvQCG3OzI76koc
+dJv6303wyIDpyFHio6rQpb+/w/cgrJ5l7q+dhAzJRAjRpqz5CexwzqvtyyPFCUZs
+HPpoZOSP+ddCUxRKTDKgGFzAUixxdImmSQOxBmuhKzJR9/jtf4U/iMUvTQa0jRcf
+0upt6dcFw5rejVlEgHq3UFNixZOq7geDWVTVop42aCFIi64B6my3SVICVvqUtbSI
+r9Yh/+Hu7NvkVw3CY/vpB8qKLUvFQvjDIDNor7NlxCFbjbcpbXiE5DyinwdmE2Qf
+YMDb73tDEdeP3zpLzVzhlDCNy6ZLWRYsGPGfI4TS4psIpmFRq0wpq3x2RMQeh6T9
+JZ8Glmj9oS25zsC93D3WQeQdJR2Bwl1IC0yVZe9beWdlVCwuyfSb6CGvqg9Rgll0
+Ob1m7qrA0tqmo7QUuaSXAa7HQCmw22ZqmIJGr98xrpdzhi9al74ViyBD/LdzLfuD
+zwqldsg2uJ93PQNrqegWUlsM1fb2QCqV6H4l81TgHhz8MX1/Lh2QSZTg5le+VceR
+PqSr0Gp32FQPtS14Qyw+Izs+/UwVrMHbMcN79ksHX9bEo2xI2wJGGWLtlfRWcjz5
+fTDiL0RlHDDf/ngBolFWDLly
+=dIf4
 -----END PGP SIGNATURE-----
 
---===============1252921615178528670==
+--===============9021740149798571113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eaae1980760-5d0c230f1de8.txt
+Content-Disposition: attachment; filename=revlist-7f2327666a90-5d0c230f1de8.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -121,12 +121,8 @@ f75546f58a70da5cfdcec5a45ffc377885ccbee8 nfsd: Remove incorrect check in nfsd4_v
 0e4c2b6b0c4a4b4014d9424c27e5e79d185229c5 ASoC: fsl_spdif: Silence output on stop
 13558a2e6341d1ba6dff9f8e2febf97877067885 hwmon: (nct6775) Fix IN scaling factors for 6798/6799
 80b6051085c5fedcb1dfd7b2562a63a83655c4d8 scsi: sg: Fix checking return value of blk_get_queue()
-4f7cab49cecee16120d27c1734cfdf3d6c0e5329 USB: serial: option: support Quectel EM060K_128
 f8a2da6ec2417cca169fa85a8ab15817bccbb109 can: gs_usb: gs_can_close(): add missing set of CAN state to CAN_STATE_STOPPED
 11c9027c983e9e4b408ee5613b6504d24ebd85be can: raw: fix lockdep issue in raw_release()
-857ea9005806e2a458016880278f98715873e977 USB: serial: option: add Quectel EC200A module support
-dd92c8a1f99bcd166204ffc219ea5a23dd65d64f USB: serial: simple: add Kaufmann RKS+CAN VCP
-d245aedc00775c4d7265a9f4522cc4e1fd34d102 USB: serial: simple: sort driver entries
 75b396821cb71164dac3a1ad51dda4781ea8dbad fs/9p: remove unnecessary and overrestrictive check
 878cb3e0337d7c3096aee301a2a3cd358dc8aa81 fs/9p: fix typo in comparison logic for cache mode
 09430aba3a9ffd986834614a3406a13588170bde fs/9p: fix type mismatch in file cache mode helper
@@ -233,26 +229,7 @@ ad084a6d99bc182bf109c190c808e2ea073ec57b platform/x86: msi-laptop: Fix rfkill ou
 c21733754cd6ecbca346f2adf9b17d4cfa50504f platform/x86: huawei-wmi: Silence ambient light sensor
 55aab08f1856894d7d47d0ee23abbb4bc4854345 hwmon: (pmbus_core) Fix pmbus_is_enabled()
 0bd66784274a287beada2933c2c0fa3a0ddae0d7 hwmon: (pmbus_core) Fix NULL pointer dereference
-13e098b58b8ff6d17f98f459dcc23ff064818e80 Merge tag 'usb-serial-6.5-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 0d8f7cc8057890db08c54fe610d8a94af59da082 xenbus: check xen_domain in xenbus_probe_initcall
-c55afcbeaa7a6f4fffdbc999a9bf3f0b29a5186f usb: ohci-at91: Fix the unhandle interrupt when resume
-71c47ad8920ef19d6545202191252a50c03aca30 usb: typec: ucsi: move typec_set_mode(TYPEC_STATE_SAFE) to ucsi_unregister_partner()
-e835c0a4e23c38531dcee5ef77e8d1cf462658c7 usb: dwc3: don't reset device side if dwc3 was configured as host-only
-57111552a5284533282199ba20d0e264f4ed28bc MAINTAINERS: drop invalid usb/cdns3 Reviewer e-mail
-9fd10829a9eb482e192a845675ecc5480e0bfa10 usb: xhci-mtk: set the dma max_seg_size
-9dc162e22387080e2d06de708b89920c0e158c9a USB: quirks: add quirk for Focusrite Scarlett
-5bef4b3cb95a5b883dfec8b3ffc0d671323d55bb Revert "xhci: add quirk for host controllers that don't update endpoint DCS"
-734ae15ab95a18d3d425fc9cb38b7a627d786f08 Revert "usb: dwc3: core: Enable AutoRetry feature in the controller"
-6237390644fb92b81f5262877fe545d0d2c7b5d7 usb: gadget: core: remove unbalanced mutex_unlock in usb_gadget_activate
-83e30f2bf86ef7c38fbd476ed81a88522b620628 USB: gadget: Fix the memory leak in raw_gadget driver
-288b4fa1798e3637a9304c6e90a93d900e02369c Revert "usb: xhci: tegra: Fix error check"
-a8291be6b5dd465c22af229483dbac543a91e24e Revert "usb: gadget: tegra-xudc: Fix error check in tegra_xudc_powerdomain_init()"
-da6d91ed77062960107e2eddacd932abecfd0592 usb: typec: qcom: fix return value check in qcom_pmic_typec_probe()
-b33ebb2415e7e0a55ee3d049c2890d3a3e3805b6 usb: typec: Set port->pd before adding device for typec_port
-4b642dc9829507e4afabc03d32a18abbdb192c5e usb: typec: Iterate pds array when showing the pd list
-609fded3f91972ada551c141c5d04a71704f8967 usb: typec: Use sysfs_emit_at when concatenating the string
-f4fc01af5b640bc39bd9403b5fd855345a2ad5f8 usb: gadget: call usb_gadget_check_config() to verify UDC capability
-2627335a1329a0d39d8d277994678571c4f21800 usb: cdns3: fix incorrect calculation of ep_buf_size when more than one config
 d4a3806bea61c8ef6e0103d0f39786e00586522e dm integrity: fix double free on memory allocation failure
 bae3028799dc4f1109acc4df37c8ff06f2d8f1a0 dm raid: fix missing reconfig_mutex unlock in raid_ctr() error paths
 e74c874eabe2e9173a8fbdad616cd89c70eb8ffd dm raid: clean up four equivalent goto tags in raid_ctr()
@@ -336,8 +313,6 @@ ac83631230f77dda94154ed0ebfd368fc81c70a3 staging: r8712: Fix memory leak in _r87
 4912649e1cf0317bf563f91655e04a303cacaf8d staging: fbtft: ili9341: use macro FBTFT_REGISTER_SPI_DRIVER
 5f1c7031e044cb2fba82836d55cc235e2ad619dc staging: ks7010: potential buffer overflow in ks_wlan_set_encode_ext()
 5c85f7065718a949902b238a6abd8fc907c5d3e0 benet: fix return value check in be_lancer_xmit_workarounds()
-b32b8f2b9542d8039f5468303a6ca78c1b5611a5 usb: dwc3: pci: skip BYT GPIO lookup table for hardwired phy
-7f2327666a9080e428166964e37548b0168cd5e9 usb: misc: ehset: fix wrong if condition
 e46e06ffc6d667a89b979701288e2264f45e6a7b tipc: check return value of pskb_trim()
 ecb4534b6a1c8a9c01d4d1d532d58fc18f23c8da af_unix: Terminate sun_path when bind()ing pathname socket.
 de52e17326c3e9a719c9ead4adb03467b8fae0ef tipc: stop tipc crypto on failure in tipc_node_create
@@ -448,4 +423,4 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
 
---===============1252921615178528670==--
+--===============9021740149798571113==--
