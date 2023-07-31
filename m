@@ -1,68 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============0815453403326851905=="
+Content-Type: multipart/mixed; boundary="===============6125837458623718535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 31 Jul 2023 23:22:44 -0000
-Message-Id: <169084576450.15655.4804016702350930887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 31 Jul 2023 23:49:27 -0000
+Message-Id: <169084736778.1882.12718821213860110911@gitolite.kernel.org>
 
---===============0815453403326851905==
+--===============6125837458623718535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/dev
-    old: 37949a3fa71f82018f8ccb502211e6948ac30fe9
-    new: 5db4f341edc3e2e264461793bc36c6ad2e86c3fe
-    log: revlist-37949a3fa71f-5db4f341edc3.txt
-  - ref: refs/heads/dev.2023.07.29a
-    old: 0000000000000000000000000000000000000000
-    new: c36a442379c4f882888f67bff3981c2f33ef0292
+  - ref: refs/heads/arm64-fixes-for-6.5
+    old: e608d16e01456f82738bd98f6f5ca9f46634369d
+    new: 6d4cc57630a867a944483fdf7f8a060d2bbebdb9
+    log: |
+         6d4cc57630a867a944483fdf7f8a060d2bbebdb9 arm64: dts: qcom: sc7180: Fix DSI0_PHY reg-names
+         
+  - ref: refs/heads/arm64-for-6.6
+    old: ee0e92b8e7b5894daf5c94e6433a1989f7233fbe
+    new: a5de9bc61181cd65df0170ba8c855b6be650c1e8
+    log: |
+         f9568d22ce06192a7e14bda3a29dc216659554ff arm64: dts: qcom: sm8150: Fix the I2C7 interrupt
+         243f1a6d3df947874827a9a8837145621cbef7d3 arm64: dts: qcom: sm8550: add ports subnodes in usb/dp qmpphy node
+         7a69845b3a08eb28dacbef35f47d979e4908e21f arm64: dts: qcom: sm8550-mtp: add pmic glink port/endpoints
+         fd42c8ec68905bfd093ce08ecf893d995d8f1478 arm64: dts: qcom: sm8550-qrd: add pmic glink port/endpoints
+         2b1fd18fe5f9382409d4c881d28bca9693f361a1 dt-bindings: arm: qcom: Document SM4450 SoC and boards
+         7a1fd03e7410a8413e6140d967d66c624ddec690 arm64: dts: qcom: Adds base SM4450 DTSI
+         a5de9bc61181cd65df0170ba8c855b6be650c1e8 arm64: dts: qcom: Add base SM4450 QRD DTS
+         
+  - ref: refs/heads/clk-for-6.6
+    old: 20e1d75bc043c5ec1fd8f5169fde17db89eb11c3
+    new: fd0b5ba87ad5709f0fd3d2bc4b7870494a75f96a
+    log: revlist-20e1d75bc043-fd0b5ba87ad5.txt
+  - ref: refs/heads/drivers-for-6.6
+    old: d5d9bca2219d78c652d340079945f0f2071e1219
+    new: 23b45f8aab49f97b0c32bdc6331c0baf7337c48a
+    log: |
+         0b9d94e1f19acd19613386096d924af2333b620a dt-bindings: power: qcom,rpmpd: Add compatible for sdx75
+         668e08c2e7b02124da573e29a67e013627ebf9ea soc: qcom: rpmhpd: Add SDX75 power domains
+         1beecfe68f802e5d4218bb7c5a728f2f38c979c7 soc: qcom: pmic_glink_altmode: handle safe mode when disconnect
+         0549bc385f3534c380acbd7722cb6e14cca8c580 soc: qcom: pmic_glink_altmode: add retimer-switch support
+         7daada8630eb49cd841c0fd022fadd52da100bce soc: qcom: pmic_glink: enable altmode for SM8550
+         4d641d2fafbb4470f6c765b8cb92c0e1073f1f03 dt-bindings: arm: qcom,ids: add SoC ID for SM4450
+         42618de085cc305a5a03bb16a5965f8413944843 soc: qcom: socinfo: add SM4450 ID
+         90158bc118f6f09fd5cd412c5954a40fd032aeff soc: qcom: socinfo: drop the IPQ5019 SoC ID
+         cb160cd7b11d0080d6bd21f1ea97c6edd2ae295a dt-bindings: arm: qcom,ids: drop the IPQ5019 SoC ID
+         b1b52717beb1e2cbb905e09f0d83a58323baec40 dt-bindings: arm: qcom,ids: Add SoC ID for SM7125
+         23b45f8aab49f97b0c32bdc6331c0baf7337c48a soc: qcom: socinfo: Add SoC ID for SM7125
+         
+  - ref: refs/heads/dts-for-6.6
+    old: 7c74379afdfee7b13f1cd8ff1ad6e0f986aec96c
+    new: d988aa8cd09653d9607788e9d1c98f0d7a55e731
+    log: |
+         174b934c3dc4fc7bd1d2075745bba829a743553f ARM: dts: qcom-mdm9615: specify clocks for the lcc device
+         d988aa8cd09653d9607788e9d1c98f0d7a55e731 ARM: dts: qcom-mdm9615: specify gcc clocks
+         
 
---===============0815453403326851905==
+--===============6125837458623718535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37949a3fa71f-5db4f341edc3.txt
+Content-Disposition: attachment; filename=revlist-20e1d75bc043-fd0b5ba87ad5.txt
 
-cb88f7f51bc6f351a529ff61d0a706c6eae1417a rcu-tasks: Permit use of debug-objects with RCU Tasks flavors
-ec13bc25470a02a9084d90628e1e953a5369109c torture: Add lock_torture writer_fifo module parameter
-b1dbe42b2fa2822f2a15fe7d1f4b3ac90c875904 torture: Make torture_hrtimeout_*() use TASK_IDLE
-2e790f18faff800ce84e345a95a323648a30d20e torture: Move torture_onoff() timeouts to hrtimers
-3c76f3a883841f17535b8100788f75755c6a9a19 torture: Move torture_shuffle() timeouts to hrtimers
-525c43a0720e894f3d96e8772ede8fd74a28c09e torture: Move stutter_wait() timeouts to hrtimers
-f68d8aecf1717ab4683d4485c21ff6eb2142e752 torture: Stop right-shifting torture_random() return values
-165ac4a4076e6b4cbbe556cf339086eaccd03b87 rcutorture: Stop right-shifting torture_random() return values
-55712abe33c9348200752eaa9408dc1ff349cd3b Merge branches 'doc.2023.07.14b', 'fixes.2023.07.19a', 'rcu-tasks.2023.07.24a', 'rcuscale.2023.07.14b', 'refscale.2023.07.14b', 'torture.2023.07.31a' and 'torturescripts.2023.07.20a' into HEAD
-08e2230368e88fa1f6425eec6becc1da51afc96a Merge branch 'scftorture.2023.07.14b' into HEAD
-b0be446aa3e31dd7eb2ca66614f54ace53545ce3 Merge branch 'clocksource.2023.07.14b' into HEAD
-dada6cb4a1008f0e1a8cd455bf89987210734f9d Merge branch 'csd-lock.2023.07.14b' into HEAD
-261a60d6feca7f31dbbdd824c7571a96fc9780a1 rcu: Delete a redundant check in rcu_check_gp_kthread_starvation()
-318a1c431c1cd41c448aa18d7f9455a10882ebc2 rcu: Don't redump the stalled CPU where RCU GP kthread last ran
-7bc2bd01c10cbb35b5c530a178ba0a0943c3080e torture: Share torture_random_state with torture_shuffle_tasks()
-6fed298eda7a141d309e0c6c2057573ead969f9e torture: Make kvm-recheck.sh use mktemp
-28e1a4f727bb83d4d8281d179c19a0c5f33916c4 doc: Update /proc/cmdline documentation to include boot config
-c25186493a771b6567662957b191cb3cf0427814 fs/proc: Add /proc/cmdline_load for boot loader arguments
-79a2cd9c6b64317ad084fa2202f3ff535c850dff doc: Add /proc/bootconfig to proc.rst
-7773b6050b2812c2b612a30d925de98bcb080559 rcu: Eliminate check_cpu_stall() duplicate code
-42c011829691b18bff28b3b9cd1ccfda1c0f67c7 torture: Make torture_hrtimeout_ns() take an hrtimer mode parameter
-d1fab6bb0e780be908a1f469e87e70e12ca8384e Revert "checkpatch: Error out if deprecated RCU API used"
-d83592b229a05bee730abfa9c5131a14bbdc0878 rcu-tasks: Add printk()s to localize boot-time self-test hang
-91c5f6bd9bdb6df97e69d91879d1e3548a99bc33 torture: Move rcutorture_sched_setaffinity() out of rcutorture
-d8c73344d4977561cedd2142382de76bbfd3a2e6 locktorture: Add readers_bind and writers_bind module parameters
-921406203054afbd246ddc50eef1a45719f835c5 rcutorture: Add CONFIG_DEBUG_OBJECTS to RCU Tasks testing
-4e8ffc7ee2c0a37f72f6d1e003b679bf7c4fc7da rcutorture: Fix stuttering races and other issues
-99b98f52561b1b639c48f82bf9771f2a9c7e5054 srcu: Fix error handling in init_srcu_struct_fields()
-d17fb8e21f334a2e68873a74711468b28d1f68e9 rcu/tree: Remove superfluous return from void call_rcu* functions
-99cf7c7812b71f127c6dd648a29c063e6bc8bf96 EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-7bc85d0241c11b6c6aed4dc7e31bdcf3055a405a EXP rcutorture: Test NMI diagnostics
-82890776662a1b3dca950ceb9befa050345b6f62 EXP qspinlock: Diagnostics for excessive lock-drop wait loop time
-08912d0d5a590b1afdcc0796f444890c9d65c4bf EXP qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-1d02a55e4022b4c5d901f2a2bd321eb51319954a EXP x86/nmi: Add a set_nmi_torture() function to control NMI testing
-5db4f341edc3e2e264461793bc36c6ad2e86c3fe EXP qspinlock: debugging
+dfe488d99da728a1cea58ef7a4a5d97b89eb0413 dt-bindings: clock: qcom,sm8350-videocc: Add SC8280XP
+e5e527d1ed02fec0310d1e1574557781360e4418 clk: qcom: videocc-sm8350: Add SC8280XP support
+83490976a7a724eb8d7d4247c544a7ba2d2d1ac4 dt-bindings: clock: qcom,lcc.yaml: describe clocks for lcc,qcom-mdm9615
+9f08d334969ba3e2ced6769a13372b153256b2d7 dt-bindings: clock: drop qcom,lcc-mdm9615 header file
+b7fd5d19e32aa65fbbba616e99f4e2deda8405ac dt-bindings: clock: provide separate bindings for qcom,gcc-mdm9615
+6bab5dab6ed3c2b0eb9112f288ce05276083b492 clk: qcom: gcc-mdm9615: use ARRAY_SIZE instead of specifying num_parents
+bac4675a4d1b80cd69eef311c6c112a88e5845f5 clk: qcom: drop lcc-mdm9615 in favour of lcc-msm8960
+1583694bb4eaf186f17131dbc1b83d6057d2749b clk: qcom: gcc-mdm9615: use proper parent for pll0_vote clock
+c01c9ed3aba90e509ecffd5f99987e93898af460 clk: qcom: gcc-mdm9615: use parent_hws/_data instead of parent_names
+a47fa46187cc2621fa29c7b89ccd4b1efa07a1eb clk: qcom: gcc-mdm9615: drop the cxo clock
+434cb57732cd6b39c41a218f2e1dfddd5373fe1b dt-bindings: clock: qcom,msm8996-cbf: Add compatible for MSM8996 Pro
+bc48641a68dcf9998c78248ce7e79d1a492463c1 clk: qcom: cbf-msm8996: Add support for MSM8996 Pro
+fd0b5ba87ad5709f0fd3d2bc4b7870494a75f96a clk: qcom: gcc-sc7180: Fix up gcc_sdcc2_apps_clk_src
 
---===============0815453403326851905==--
+--===============6125837458623718535==--
