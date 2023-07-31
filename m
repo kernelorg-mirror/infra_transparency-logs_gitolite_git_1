@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Mon, 31 Jul 2023 07:01:59 -0000
-Message-Id: <169078691947.20546.17937293243980289703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 31 Jul 2023 07:05:34 -0000
+Message-Id: <169078713424.23421.844607426288714552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/topic/fprobe-event-ext
-    old: 0c7d5459dfd4b67e791a0b1937d7dbd8dbee5894
-    new: a291bd832d507e3618a31ce12b6eaf4bc082d7d8
+  - ref: refs/heads/wip/leon-for-next
+    old: 5a752f23f43a670c62ff19bd6bc68281bf01e8ab
+    new: 91f36237b4b9bdce7610c7450a906d46704a566a
     log: |
-         4568340fcbb056015d47e016fd7c22b8cedecb4f tracing/probes: Support BTF field access from $retval
-         947505589a72dca05e782de2b938394738322e5e tracing/probes: Add string type check with BTF
-         89e4ccbedb21a80c40571d6e16f91805368ed8b0 tracing/fprobe-event: Assume fprobe is a return event by $retval
-         f5626b5774f4e9de9cf422c3df3186825675d15e selftests/ftrace: Add BTF fields access testcases
-         a291bd832d507e3618a31ce12b6eaf4bc082d7d8 Documentation: tracing: Update fprobe event example with BTF field
+         a45e5f1859579f88df624997c38c05706f9015e3 RDMA/mlx: Remove unnecessary variable initializations
+         91f36237b4b9bdce7610c7450a906d46704a566a RDMA/siw: Fix tx thread initialization.
          
