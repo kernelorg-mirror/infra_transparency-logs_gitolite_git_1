@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 31 Jul 2023 20:53:32 -0000
-Message-Id: <169083681254.1687.15148428254779467126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 31 Jul 2023 20:53:44 -0000
+Message-Id: <169083682420.1827.8041054613989499765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-next
-    old: fb213ecbb8ac56b2d5569737f59126e91f87829a
-    new: 74bdfab4fd7c641e55f7fe9d1be9687eeb01df67
+  - ref: refs/heads/testing/fam01-next20230731
+    old: fe48117f31afb2a3804b91b382a77a4e6d3b4351
+    new: 686a448268382aefe178130cd2b582db09b14aeb
     log: |
-         74bdfab4fd7c641e55f7fe9d1be9687eeb01df67 net: remove duplicate INDIRECT_CALLABLE_DECLARE of udp[6]_ehashfn
+         686a448268382aefe178130cd2b582db09b14aeb cpufreq: brcmstb-avs-cpufreq: Fix -Warray-bounds bug
          
