@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 31 Jul 2023 10:54:52 -0000
-Message-Id: <169080089245.15561.5710370213036847276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 31 Jul 2023 11:00:01 -0000
+Message-Id: <169080120101.19000.11753573771485408545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/stable/v2.39
-    old: e98ef85a8f934bccac2b984422a40f92955ac97d
-    new: 0a9bf6166017c9623e001ece6945edb3e3bd6837
+  - ref: refs/heads/next
+    old: 513253f8c293c0c8bd46d09d337fc892bf8f9f48
+    new: 3b7d0410063cf1d1deed24ce51eaf1c24964fd30
     log: |
-         0a9bf6166017c9623e001ece6945edb3e3bd6837 libmount: handle failure to apply flags as part of a mount operation
+         3b7d0410063cf1d1deed24ce51eaf1c24964fd30 tpm/tpm_tis: Disable interrupts for TUXEDO InfinityBook S 15/17 Gen7
          
