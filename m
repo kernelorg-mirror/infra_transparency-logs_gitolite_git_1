@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 31 Jul 2023 08:12:43 -0000
-Message-Id: <169079116303.12163.2040278772429733689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 31 Jul 2023 08:14:39 -0000
+Message-Id: <169079127968.12934.17618624450129387150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 37e3cecb4cdfbc99aaa1da2175681aac1d8a7f6d
-    new: e739718444f7bf2fa3d70d101761ad83056ca628
+    old: 2b3082c6ef3b0104d822f6f18d2afbe5fc9a5c2c
+    new: 8936bf53a091ad6a34b480c22002f1cb2422ab38
     log: |
-         e739718444f7bf2fa3d70d101761ad83056ca628 net/sched: taprio: Limit TCA_TAPRIO_ATTR_SCHED_CYCLE_TIME to INT_MAX.
+         8936bf53a091ad6a34b480c22002f1cb2422ab38 net: Use sockaddr_storage for getsockopt(SO_PEERNAME).
          
