@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 31 Jul 2023 10:13:05 -0000
-Message-Id: <169079838546.16726.6451149962568423016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 31 Jul 2023 10:19:29 -0000
+Message-Id: <169079876919.20639.7993648718970266866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/sched/core
-    old: 752182b24bf4ffda1c5a8025515d53122d930bd8
-    new: 4efcc8bc7e08c09c58a2f5cbc2096fbda5b7cf5e
+  - ref: refs/heads/wip/leon-for-next
+    old: 50f338cd8847053283c82f73129ba90c08dad06c
+    new: f0ff2a2dd08df50656961c26c06c7091e3792123
     log: |
-         c2e164ac33f75e0acb93004960c73bd9166d3d35 sched/fair: remove util_est boosting
-         4efcc8bc7e08c09c58a2f5cbc2096fbda5b7cf5e sched/topology: Align group flags when removing degenerate domain
+         f0ff2a2dd08df50656961c26c06c7091e3792123 IB/mlx5: Add HW counter called rx_dct_connect
+         
+  - ref: refs/heads/wip/leon-for-rc
+    old: ae463563b7a1b7d4a3d0b065b09d37a76b693937
+    new: 186b169cf1e4be85aa212a893ea783a543400979
+    log: |
+         186b169cf1e4be85aa212a893ea783a543400979 RDMA/umem: Set iova in ODP flow
          
