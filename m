@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6731250971583654728=="
+Content-Type: multipart/mixed; boundary="===============6946034663875827595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 31 Jul 2023 09:40:40 -0000
-Message-Id: <169079644035.21178.16876038335515403608@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 09:41:12 -0000
+Message-Id: <169079647294.25677.15439564648791751856@gitolite.kernel.org>
 
---===============6731250971583654728==
+--===============6946034663875827595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
-  - ref: refs/heads/v6.6/arm64-dt
-    old: 75831c457ea135e01259af8bfa3fcf40c244256c
-    new: fae63a81e23acc95c077e0efbba17072320b7ff1
-    log: revlist-75831c457ea1-fae63a81e23a.txt
+  - ref: refs/heads/for-next
+    old: 76483eaf2109fc3d94f29c68ff9dee6579e95ccf
+    new: aef876ddd9cf54d35dfb82f687674f98a8831a73
+    log: revlist-76483eaf2109-aef876ddd9cf.txt
 
---===============6731250971583654728==
+--===============6946034663875827595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75831c457ea1-fae63a81e23a.txt
+Content-Disposition: attachment; filename=revlist-76483eaf2109-aef876ddd9cf.txt
 
-8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
@@ -1050,5 +1049,6 @@ c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 76ccc46852e8bc754689083fa0e209c29ab6797c dt-bindings: arm: amlogic: add Amlogic A311D2 bindings
 4fef056588f5219a9a59039e5dbe04c2e643dc2b arm64: dts: amlogic-t7-a311d2-khadas-vim4: add initial device-tree
 fae63a81e23acc95c077e0efbba17072320b7ff1 arm64: dts: amlogic: minor whitespace cleanup around '='
+aef876ddd9cf54d35dfb82f687674f98a8831a73 Merge branch 'v6.6/arm64-dt' into for-next
 
---===============6731250971583654728==--
+--===============6946034663875827595==--
