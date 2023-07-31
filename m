@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 31 Jul 2023 08:14:39 -0000
-Message-Id: <169079127968.12934.17618624450129387150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 31 Jul 2023 08:16:17 -0000
+Message-Id: <169079137781.15271.10383750487616484814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 2b3082c6ef3b0104d822f6f18d2afbe5fc9a5c2c
-    new: 8936bf53a091ad6a34b480c22002f1cb2422ab38
+    old: e739718444f7bf2fa3d70d101761ad83056ca628
+    new: 8469c7f5472fe5f77fc31c8f10f23d5aad987231
     log: |
-         8936bf53a091ad6a34b480c22002f1cb2422ab38 net: Use sockaddr_storage for getsockopt(SO_PEERNAME).
+         8469c7f5472fe5f77fc31c8f10f23d5aad987231 dt-bindings: net: mediatek,net: fixup MAC binding
          
