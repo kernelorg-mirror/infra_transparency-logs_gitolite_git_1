@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 31 Jul 2023 21:19:35 -0000
-Message-Id: <169083837591.21109.985868615505314557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Mon, 31 Jul 2023 21:20:25 -0000
+Message-Id: <169083842578.23071.8316582909131861700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
-  - ref: refs/heads/main
-    old: 1e7417c188d0a83fb385ba2dbe35fd2563f2b6f3
-    new: d4480c9bb9258db9ddf2e632f6ef81e96b41089c
+  - ref: refs/heads/for-next
+    old: 2359dd1aafa9b4240fbb05d848e8e288cb6f6795
+    new: 7ebf243a201856adcac240e490596bb908ee5fcc
     log: |
-         d4480c9bb9258db9ddf2e632f6ef81e96b41089c net: usb: qmi_wwan: add Quectel EM05GV2
+         7ebf243a201856adcac240e490596bb908ee5fcc hsi: omap_ssi: Explicitly include correct DT includes
          
