@@ -1,85 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============7128899797156615485=="
+Content-Type: multipart/mixed; boundary="===============7270304045834491383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 31 Jul 2023 17:03:08 -0000
-Message-Id: <169082298887.27649.3259120645057662203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
+Date: Mon, 31 Jul 2023 17:06:39 -0000
+Message-Id: <169082319980.30575.430669390992882146@gitolite.kernel.org>
 
---===============7128899797156615485==
+--===============7270304045834491383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sre/linux-misc
+user: sre
 changes:
-  - ref: refs/heads/next
-    old: 3c896d9aca1c5931ed3dc7706b5f75e24048c311
-    new: 740a260315f663d112ca96dba50b607cb7269bdf
-    log: revlist-3c896d9aca1c-740a260315f6.txt
-  - ref: refs/heads/seen
-    old: e1e841b5dfae79d8e607fa7f94afdd3bbb7455a3
-    new: 11b92efe3d14fb4c54c3d70e42bb811ce946e799
-    log: revlist-e1e841b5dfae-11b92efe3d14.txt
+  - ref: refs/heads/rk3588
+    old: 7a5aac740d804bf907bb3781c011a051fdcabd7e
+    new: e085cdcef7da99fbc3c8df3c3f686f79905de501
+    log: revlist-7a5aac740d80-e085cdcef7da.txt
 
---===============7128899797156615485==
+--===============7270304045834491383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c896d9aca1c-740a260315f6.txt
+Content-Disposition: attachment; filename=revlist-7a5aac740d80-e085cdcef7da.txt
 
-448abbba63471153df6ba520a5621595557ce3c8 short help: allow multi-line opthelp
-d86a8f386d89edaffec63a626f5226c9f39f5027 remote: simplify "remote add --tags" help text
-c512643e67d33673933fa3d245be28b08b974755 short help: allow a gap smaller than USAGE_GAP
-835950bd19260426f664a9b0164c580db9f9aacb blame: allow --contents to work with bare repo
-4970bedef2e077f78baac5c6e825d17786be735b branch: update the message to refuse touching a branch in-use
-c355b641769db757bc4187aa03f18510a289c86d t/lib-commit-graph.sh: allow `graph_read_expect()` in sub-directories
-a953d2b628952f8d225d337deb1c30e20f835689 t/lib-commit-graph.sh: avoid directory change in `graph_git_behavior()`
-51550d03e438bfcb83bec7665baec2378f931a80 t5318: avoid top-level directory changes
-749f126b296f1147c7994de41c93a0afb9a250dd t5328: avoid top-level directory changes
-f1b9cebc8bdc01c5b8643fac9f78f2962df82cf3 t/lib-commit-graph.sh: avoid sub-shell in `graph_git_behavior()`
-010447cf098f7407008f2940b4fefa5351477044 MyFirstContribution: refrain from self-iterating too much
-51f5d9d465d73a8b3aba3ce81c54373a7deb09dc Merge branch 'jc/doc-sent-patch-now-what' into next
-e076d1f497ed378d93aca5ffa07597054f92a39d Merge branch 'jc/parse-options-short-help' into next
-39ac96d8d87ab106b30541552deb29dab036e0d5 Merge branch 'hy/blame-in-bare-with-contents' into next
-22f17d131b3d3f8018635982c4a1c8bb4055265a Merge branch 'jc/branch-in-use-error-message' into next
-740a260315f663d112ca96dba50b607cb7269bdf Merge branch 'tb/commit-graph-tests' into next
+8d038380941ccfd8bc5e38fd464a8f97c4ad20c5 dt-bindings: PCI: dwc: improve msi handling
+41a619bd62a20d3642adae65d20d4de46802935b dt-bindings: PCI: dwc: rockchip: Fix interrupt-names issue
+889a553ed5de155f65bb374480e96da930508fc9 dt-bindings: PCI: dwc: rockchip: Use generic binding
+7d0d0fb43481ae4a30b4743f717aa19539cc9308 dt-bindings: PCI: dwc: rockchip: Add missing legacy-interrupt-controller
+91b9b8c35d4cffd861046b6778a062e159476e4e arm64: dts: rockchip: rk3588: add PCIe2 support
+a232eafd0f3e15f121293e39a0f4d358570f5f4c arm64: dts: rockchip: rk3588: add PCIe3 support
+7fb50fad354d2209c4798521e9888ca5cb155d06 arm64: dts: rockchip: rk3588-evb1: add PCIe2 network controller
+9b14e34f6ed733b6c8adad0b1f764a58feb99887 arm64: dts: rockchip: rk3588-evb1: add PCIe3 bus
+3fa848463cb1e914c931f8adc853986563c874be arm64: dts: rockchip: rock-5b: add PCIe network controller
+a2b9dbfe409ba9dcd86bbc793d523a2166ff6b6d arm64: dts: rockchip: rock-5b: add PCIe for M.2 M-key
+67ddb5e6b3d8dbdc6ca365c5f5750862f4877fda arm64: dts: rockchip: rock-5b: add PCIe for M.2 E-Key
+5018ddb4d6294f63cc86d75e2f8096023d845870 arm64: defconfig: enable RK3588 PCIe support
+96903cc43e94de2a3ad6e438b12aa243d98f9bad arm64: defconfig: enable Synopsys AHCI SATA support
+c8720af034abcc1408117c5b37073668660c9a53 dt-bindings: usb: add rk3588 compatible to rockchip,dwc3
+c17c959b5c8e8b9362c407e774b6e8c23a617e2b usb: dwc3: add optional PHY interface clocks
+446aa5b17d61661ad8a06c34b5a44fdf4f3bb1f8 arm64: dts: rockchip: rk3588s: Add USB3 host controller
+1090108014b6ed69627297c82c5e8bb347968c0b arm64: dts: rockchip: rk3588-rock5b: add USB3 host
+6aed55af174e69dc4549672533b8b8f7c607915e arm64: dts: rockchip: rk3588s-rock5a: add USB3 host
+99b107ba0a4604a242f4f6312cca5e261b7d57b8 dt-bindings: phy: add rockchip usbdp combo phy document
+4cf1b5664ad1ae0444c71c71dda82fe3d632e5f2 dt-bindings: soc: rockchip: add rk3588 USB3 syscon
+b397e12f61d1207301ec125966767fc39e00bd24 phy: rockchip: add usbdp combo phy driver
+d4bbfc3a2e171314fb4470b65843b1ca03626984 arm64: dts: rockchip: rk3588s: Add USBDP phy nodes
+faf06f727078220f4c7ed5a2d07ed486c593a876 arm64: dts: rockchip: rk3588s: Add USB3 DRD controllers
+0ed93bd6547acbd63d58c208903f835d738ec13d arm64: dts: rockchip: rk3588-evb1: add USB3
+849f0a7782125777a934e7590701c42e87be2dad clk: rockchip: rk3588: fix pclk_vo0grf and pclk_vo1grf
+ae3cc926a11deb9d858bc351471f8d5253390236 arm64: dts: rockchip: rk3588is: Add AV1 decoder node
+94508bb18a2e74436cd1909f2f237c0a431f402c media: verisilicon: Fixes clock list for rk3588 av1 decoder
+ead848946321030ee17b9e331bb9b1c4f014aa01 dt-bindings: media: rockchip: Add resets property into decoder node
+4a0aa2bc330f08edbe1bc51d9491559f755262aa arm64: dts: rockchip: Drop invalid regulator-init-microvolt property
+a01a7b76cf4d5fde605e83b0cb1cd6f8d24820c6 cpufreq: rockchip: Introduce driver for rk3588
+4262d21fa3b3caba7e186b2b44486e978162195f arm64: dts: rockchip: rk3588: add cpu frequency scaling support
+22457cc5a0fd53a27aa60dff822708e623ff94f4 arm64: dts: rockchip: enable RK3588 tsadc by default
+b84924c2071ba782139bb7b01885edcb9111539a arm64: dts: rockchip: rk3588-evb1: add cpu mem regulator info
+59e954e4f005e49f48eb4c413855e4f84100b12b arm64: dts: rockchip: rock5a: add cpu mem regulator info
+2bec26b242845c03c657074e4f849c7d86688b83 arm64: dts: rockchip: rock5b: add cpu mem regulator info
+31e901f342e9ca7badd67b43f532b289cdfc2d90 arm64: dts: rockchip: add status LED to rock-5b
+1337151c5eeb3259068474d9244ba14c1cfd18df arm64: dts: rockchip: rk3588-evb1: add ADC buttons
+ac8c266352d218fc1cd752368fdcc1c9abcc2f76 usb: typec: tcpm: avoid graph warning
+64e5600e8e1c882f0897a45b2a0d629617357c00 arm64: dts: rockchip: rk3588s-rock5a: add upper USB3 port
+66c16b1b012ae3a3bb579f821738d3045504192c arm64: dts: rockchip: rk3588-rock5b: add lower USB3 port
+dffea713dbb37d347ef599013f0ee276b56b3fe4 arm64: dts: rockchip: rk3588-rock5b: add USB-C support
+ada397d4bc0941d6fb382438482d3715a075f8ec [BROKEN] arm64: dts: rockchip: rk3588-evb1: add PCIe2 WLAN controller
+6d2ec46c83f2bd77d64b8588debb1d053aa42240 dt-bindings: es8328: convert to DT schema format
+e085cdcef7da99fbc3c8df3c3f686f79905de501 [BROKEN] arm64: dts: rockchip: rk3588-evb1: add analog audio
 
---===============7128899797156615485==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1e841b5dfae-11b92efe3d14.txt
-
-d089a06421c86d120f50f05020ca6b833b068dcb bundle: use OPT_PASSTHRU_ARGV
-b4b85e41a74eaf61dfb490004541622e63df092b sha256/gcrypt: fix build with SANITIZE=leak
-8b608f3fb84388bb1b6da70feb62e20a19390cb6 sha256/gcrypt: fix memory leak with SHA-256 repos
-823839bda1a72c54fe8ac025fb70dd3403c11f46 sha256/gcrypt: die on gcry_md_open failures
-8e42eb0e9ae44f65c360cd95ce28e84496ad8247 doc: sha256 is no longer experimental
-16c19d9dafd1bc7f81d4d7c88b8630ed3cec916d Merge branch 'jc/doc-sent-patch-now-what' into jch
-9009bfd6910a34994bb1c33a7ab3c6d30170d726 Merge branch 'jc/parse-options-short-help' into jch
-8948b6ce2340f108f761dea2f529f8cf659ebf85 Merge branch 'hy/blame-in-bare-with-contents' into jch
-bea4b3935855ef06c12e411e88755487d6ae6945 Merge branch 'jc/branch-in-use-error-message' into jch
-4a81275d56f267b1c5067314e267ad1369d7eb12 Merge branch 'tb/commit-graph-tests' into jch
-492fa2a33d437a2b10a5144614577909205eb193 ### match next
-83692078c304ef847b8dbe5f52dbdca09cc51aeb Merge branch 'am/doc-sha256' into jch
-a4052108165e9e1353161a9b0b1d2b1260f02bd2 Merge branch 'rs/bundle-parseopt-cleanup' into jch
-90516ece17edb8f41b311e87d472f8dca2820027 Merge branch 'ew/sha256-gcrypt-leak-fixes' into jch
-7cfa8cc2effe5a9c9952f0db57bbb41200a6da16 Merge branch 'jt/path-filter-fix' into jch
-e47eb6531c6711e1ccbb7ce1ed1291b2012ac3cb Merge branch 'mh/credential-libsecret-attrs' into jch
-e01731eda6125d1e2213ac60e7823367bfee3fea Merge branch 'pw/rebase-i-after-failure' into jch
-0b0a015cc3ec4c4bbf51a62d10eae830c4db838f Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
-637d7c09ab32faf6379c6957dd36248bbdbeba85 Merge branch 'mh/credential-erase-improvements-more' into jch
-e4c9deffd51dcbecbee9df7859432bd857d9b23b Merge branch 'rs/parse-options-negation-help' into jch
-10b035112fc85b106c653cd9046668c4cb4b29eb Merge branch 'js/doc-unit-tests' into seen
-29649771d8046a77a1002d54a4b928e01f498271 Merge branch 'cc/git-replay' into seen
-3a133121906f499c2e9ee46f1bde7ebbcce3b903 ###
-f39c50550d5f6232a1458c4e1384b6443ba3c0b8 Merge branch 'ab/tag-object-type-errors' into seen
-694e4fce5ae262b7fc70b43b6af6c5022f51215a Merge branch 'sl/sparse-check-attr' into seen
-62dc0d2efe87f590f526f20d38d75fb11a483475 Merge branch 'ob/revert-of-revert' into seen
-91bb00c336a95c2e49246c2af16d6fbad1fd71f0 Merge branch 'jc/resolve-undo-fixes' into seen
-11b92efe3d14fb4c54c3d70e42bb811ce946e799 Merge branch 'jc/checkout-merge-fix' into seen
-
---===============7128899797156615485==--
+--===============7270304045834491383==--
