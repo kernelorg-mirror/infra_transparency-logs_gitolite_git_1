@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 31 Jul 2023 08:11:38 -0000
-Message-Id: <169079109809.11724.8751016145962527124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 31 Jul 2023 08:12:43 -0000
+Message-Id: <169079116303.12163.2040278772429733689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 64a37272fa5fb2d951ebd1a96fd42b045d64924c
-    new: 2b3082c6ef3b0104d822f6f18d2afbe5fc9a5c2c
+    old: 37e3cecb4cdfbc99aaa1da2175681aac1d8a7f6d
+    new: e739718444f7bf2fa3d70d101761ad83056ca628
     log: |
-         2b3082c6ef3b0104d822f6f18d2afbe5fc9a5c2c net: flow_dissector: Use 64bits for used_keys
+         e739718444f7bf2fa3d70d101761ad83056ca628 net/sched: taprio: Limit TCA_TAPRIO_ATTR_SCHED_CYCLE_TIME to INT_MAX.
          
