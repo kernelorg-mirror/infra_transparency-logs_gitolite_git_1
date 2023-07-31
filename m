@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 31 Jul 2023 04:49:11 -0000
-Message-Id: <169077895192.21268.11034956229720264356@gitolite.kernel.org>
+Date: Mon, 31 Jul 2023 04:50:04 -0000
+Message-Id: <169077900498.23276.3736645727832146454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-dt
-    old: 42412773ab258f9bf6c9a8c56378aa98dec1f4f8
-    new: 535aad676102c33149002de9a49a2df9d46e3590
+  - ref: refs/heads/at91-soc
+    old: 71c7b083e310e8bb730bcd6a3a9c2097f3759786
+    new: 163edfdfd9d1aceb475076e5f7d3d9727badb645
     log: |
-         8dd876c466db6b78b178f8db4cb52974409459c6 ARM: dts: microchip: minor whitespace cleanup around '='
-         dd471ebbb917e62a5b2d6df2d799cc0188c832ec ARM: dts: microchip: add missing space before {
-         67a58c383a1c85190d96c7e1b028c634081a11ec ARM: dts: at91-vinco: Fix "status" values
-         8b4c90a9f961ca91ce5b701dcde19a8c6d8a9192 ARM: dts: at91: ksz9477_evb: Add missing timer nodes
-         535aad676102c33149002de9a49a2df9d46e3590 ARM: dts: at91: ksz9477_evb: Add tx-internal-delay-ps property for port5
+         11795e02c142c536644a07825c8dbc4058ddfac3 soc: microchip: Explicitly include correct DT includes
+         d4b564a524612ee8766a51128eca17e43b40d16e ARM: at91: Explicitly include correct DT includes
+         96a49448c4777940b16eecdfc61f935fa380d864 ARM: at91: Remove unused extern declarations
+         163edfdfd9d1aceb475076e5f7d3d9727badb645 ARM: dts: at91: remove duplicated entries
          
