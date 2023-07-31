@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2744781509940396102=="
+Content-Type: multipart/mixed; boundary="===============3777831317720845761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 31 Jul 2023 01:25:32 -0000
-Message-Id: <169076673270.4641.7628783901821676271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 31 Jul 2023 01:55:04 -0000
+Message-Id: <169076850456.25760.3956838781359065300@gitolite.kernel.org>
 
---===============2744781509940396102==
+--===============3777831317720845761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
   - ref: refs/heads/master
-    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
-    new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    log: revlist-6eaae1980760-5d0c230f1de8.txt
+    old: 62e409149b62a285e89018e49b2e115757fb9022
+    new: c78b14a1818acf4825d8079a0d7adce1610f0f28
+    log: revlist-62e409149b62-c78b14a1818a.txt
 
---===============2744781509940396102==
+--===============3777831317720845761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eaae1980760-5d0c230f1de8.txt
+Content-Disposition: attachment; filename=revlist-62e409149b62-c78b14a1818a.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -150,6 +150,8 @@ b0b672c4d0957e5897685667fc848132b8bd2d71 vxlan: fix GRO with VXLAN-GPE
 13c088cf3657d70893d75cf116be937f1509cc0f phy: hisilicon: Fix an out of bounds check in hisi_inno_phy_probe()
 50164507f6b7b7ed85d8c3ac0266849fbd908db7 ceph: never send metrics if disable_send_metrics is set
 922a9bd138101e3e5718f0f4d40dba68ef89bb43 m68k: Fix invalid .section syntax
+421033deb91521aa6a9255e495cb106741a52275 wifi: mt76: mt7615: do not advertise 5 GHz on first phy of MT7615D (DBDC)
+a2777be03236c00466326acba8d39ac4f9c3e971 MAINTAINERS: Update mwifiex maintainer list
 54685abe660a59402344d5045ce08c43c6a5ac42 hwmon: (nct7802) Fix for temp6 (PECI1) processed even if PECI1 disabled
 0a9266b79cacdd02b888aed1308c308ad6d4ee4e Merge tag 'x86_bugs_zenbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d8ccbd21918fd7fa6ce3226cffc22c444228e8ad btrfs: remove BUG_ON()'s in add_new_free_space()
@@ -200,9 +202,23 @@ e3ab18de2b09361d6f0e4aafb9cfd6d002ce43a1 platform/x86: intel: hid: Always call B
 6a758a3e831ce1a84c9c209ac6dc755f4c8ce77a platform/x86: asus-wmi: Fix setting RGB mode on some TUF laptops
 ad084a6d99bc182bf109c190c808e2ea073ec57b platform/x86: msi-laptop: Fix rfkill out-of-sync on MSI Wind U100
 c21733754cd6ecbca346f2adf9b17d4cfa50504f platform/x86: huawei-wmi: Silence ambient light sensor
+634fcbcaa4062db39aeb5ac6ed1bc1feb8dd5216 wifi: rtw88: delete timer and free skb queue when unloading
+6ca25a31e0a804be1675c0c0115fd6dbdfd7889e wifi: rtw88: remove unused and set but unused leftovers
+e88c9558951f4209a29fcaae64def133a30e9917 wifi: rtw88: remove unused USB bulkout size set
+8986f0a9a3bb26bdaf17d5a1c8fadcc4c3edeae8 wifi: rtw88: simplify vif iterators
+59b4cc439f184c5eaa34161ec67af1e16ffabed4 wifi: rtw89: debug: Fix error handling in rtw89_debug_priv_btc_manual_set()
+2d59478308685f95346e2289c2dc519d8d8ecc48 wifi: zd1211rw: fix typo "tranmits"
+efbc7e791a51b416555c6013cdf4943288d49261 wifi: rtl8xxxu: Enable AP mode for RTL8192FU
+dd71aca9a58bedb7bbba1c5c7cca2059a9cb2430 wifi: rtl8xxxu: Enable AP mode for RTL8710BU (RTL8188GU)
+8c34b62167b449d16d6737a132996acad312a398 wifi: rtl8xxxu: Enable AP mode for RTL8192EU
+4831a80908f1562685ed29f7ec63ef5bec6b0fc3 wifi: rtl8xxxu: Enable AP mode for RTL8723BU
 55aab08f1856894d7d47d0ee23abbb4bc4854345 hwmon: (pmbus_core) Fix pmbus_is_enabled()
 0bd66784274a287beada2933c2c0fa3a0ddae0d7 hwmon: (pmbus_core) Fix NULL pointer dereference
 13e098b58b8ff6d17f98f459dcc23ff064818e80 Merge tag 'usb-serial-6.5-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+caf9ead2c7d06fd7aa4cb48bd569ad61db9a0b4a wifi: mwifiex: prefer strscpy() over strlcpy()
+dcce94b80a954a8968ff29fafcfb066d6197fa9a wifi: mwifiex: fix fortify warning
+7ee92f6b41606202de66f7629a7d3c597d92da02 wifi: mwifiex: Set WIPHY_FLAG_NETNS_OK flag
+b2090d93d4b6f1c72a9793d5a171806b8468b7cb wifi: brcmsmac: remove unused data type
 0d8f7cc8057890db08c54fe610d8a94af59da082 xenbus: check xen_domain in xenbus_probe_initcall
 c55afcbeaa7a6f4fffdbc999a9bf3f0b29a5186f usb: ohci-at91: Fix the unhandle interrupt when resume
 71c47ad8920ef19d6545202191252a50c03aca30 usb: typec: ucsi: move typec_set_mode(TYPEC_STATE_SAFE) to ucsi_unregister_partner()
@@ -261,6 +277,19 @@ e11ec2b868af2b351c6c1e2e50eb711cc5423a10 net: ipa: only reset hashed tables when
 1f9f4f4777e7958e5c1fbdfd9ddf4207dc00a40f tracing/probes: Fix to add NULL check for BTF APIs
 02ab7234fc69695736d60b34044fe591689ffadd selftests/ftrace: Fix to check fprobe event eneblement
 58f6259b7a08f8d47d4629609703d358b042f0fd xen/evtchn: Introduce new IOCTL to bind static evtchn
+d265ebe41c911314bd273c218a37088835959fa1 Revert "wifi: ath11k: Enable threaded NAPI"
+fd7f08d92fcd7cc3eca0dd6c853f722a4c6176df wifi: cfg80211: Fix return value in scan logic
+a1ce186db7f0e449f35d12fb55ae0da2a1b400e2 Revert "wifi: ath6k: silence false positive -Wno-dangling-pointer warning on GCC 12"
+96839282edc28996809b2101afef8ae971b9dad7 MAINTAINERS: wifi: rtw88: change Ping as the maintainer
+25700d4916fefd27f83b933149c4da3d32db8585 MAINTAINERS: wifi: atmel: mark as orphan
+74b81eac2dda55584aa6102feb920142ab08721a MAINTAINERS: wifi: mark cw1200 as orphan
+e76983151dc66717e43c2a77abcfdb36318d2255 MAINTAINERS: wifi: mark ar5523 as orphan
+bc5dee3ce7c06d2c3d7a3b135a24f85de45a8362 MAINTAINERS: wifi: mark rndis_wlan as orphan
+0566ec90515c50352442db467d2a8c8950d35dc9 MAINTAINERS: wifi: mark wl3501 as orphan
+c1e0a70de12dea642c696a81fd1104f5377fb203 MAINTAINERS: wifi: mark zd1211rw as orphan
+3ccbc99c152fded21ff3661d7685095e14065e96 MAINTAINERS: wifi: mark b43 as orphan
+cc326aae03c37d393e8dfba950caa33493dcdfad MAINTAINERS: wifi: mark mlw8k as orphan
+456b5e85d8a56e5563573b10e0840c7ae59373da MAINTAINERS: add Jeff as ath10k, ath11k and ath12k maintainer
 645bb6b1fe0b15f2f134055e7ad470036aca9202 Documentation: embargoed-hardware-issues.rst: add AMD to the list
 f8ea95021022826a010f56cf19451c21f4c9c155 misc/genalloc: Name subpools by of_node_full_name()
 2c39dd025da489cf87d26469d9f5ff19715324a0 net: dsa: qca8k: enable use_single_write for qca8xxx
@@ -416,5 +445,8 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
+3cc996a6a105c73fb2f0f7dbc02df517f9980f53 Merge remote-tracking branch 'wireless/main'
+dd4cd3b6299c38230006ce7b2ee8f1dd72ca9d6c Merge remote-tracking branch 'wireless-next/main'
+c78b14a1818acf4825d8079a0d7adce1610f0f28 Add localversion to identify builds from this tree
 
---===============2744781509940396102==--
+--===============3777831317720845761==--
