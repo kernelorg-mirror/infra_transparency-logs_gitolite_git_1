@@ -1,43 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6774594532014448013=="
+Content-Type: multipart/mixed; boundary="===============0226532189220752721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 31 Jul 2023 19:22:45 -0000
-Message-Id: <169083136581.31982.15903456957792315091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Mon, 31 Jul 2023 19:42:50 -0000
+Message-Id: <169083257086.14402.2467971673249891721@gitolite.kernel.org>
 
---===============6774594532014448013==
+--===============0226532189220752721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs.all
-    old: 4ce0966ed7c04881c5f352e0bb53af9b38f94253
-    new: 7028b622ed01e04690975e728e086246594c386d
-    log: revlist-4ce0966ed7c0-7028b622ed01.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 5d9cd14d924227bae35ab0e093c222469b0003b5
+    new: 398641622b571e0925d784c1c4a97e2effa0376a
+    log: |
+         175544ad48cbf56affeef2a679c6a4d4fb1e2881 scsi: storvsc: Fix handling of virtual Fibre Channel timeouts
+         5a43b07a87835660f91d88a4db11abfea8c523b7 scsi: fnic: Replace return codes in fnic_clean_pending_aborts()
+         8366d1f1249a0d0bba41d0bd1298d63e5d34c7f7 scsi: 53c700: Check that command slot is not NULL
+         9426d3cef5000824e5f24f80ed5f42fb935f2488 scsi: core: Fix legacy /proc parsing buffer overflow
+         
 
---===============6774594532014448013==
+--===============0226532189220752721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ce0966ed7c0-7028b622ed01.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5daeb41a6fc9d0d81cb2291884b7410e062d8fa1 fchmodat2: add support for AT_EMPTY_PATH
-7b5df029afda1a13b7363f3c6e8bbee17d3cda14 fs: pass the request_mask to generic_fillattr
-06c4e96d5c371230398bdda1dcd8319a43141335 fs: add infrastructure for multigrain timestamps
-532e70f9561dc881045e6f62a4c372c51b26959c tmpfs: add support for multigrain timestamps
-20bd5bcc040d7bc2387384f1f8ba87206e6d7791 xfs: switch to multigrain timestamps
-d8f6d19a9914528a00bbeee499f26ec36be78673 ext4: switch to multigrain timestamps
-18c7556879cf666301858b4651f15fc27bd7ecb9 btrfs: convert to multigrain timestamps
-d2310e2c296230ba1bd87e8e8525e146e1559c7b fs: compare truncated timestamps in current_mgtime
-8b3257808f04e406ad84883cb90b607dcdc3685d Merge branch 'vfs.tmpfs' into vfs.all
-b6a0cf119647b607f4cb40ea0223c2232071a74e Merge branch 'vfs.misc' into vfs.all
-c05bd10ddc1a62af37110714155eb1f5de4036f0 Merge branch 'fs.proc.uapi' into vfs.all
-7c6050e054016755f68a1a75a7d30d8ead343544 Merge branch 'vfs.fchmodat2' into vfs.all
-7028b622ed01e04690975e728e086246594c386d Merge branch 'vfs.super' into vfs.all
+certificate version 0.1
+pusher 75C5DE3D 1690832559 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1690832558-f91d0501679f0c3ba3460f6311908b6b4edd2da4
 
---===============6774594532014448013==--
+5d9cd14d924227bae35ab0e093c222469b0003b5 398641622b571e0925d784c1c4a97e2effa0376a refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTIDq8ACgkQ7ulgGnXF
+3j24iw//d7Daj8U7x2u8tmSqh7gf+V+e+jASbBulYBnkTT3+qBScbzg5CjVDXWcb
+C/NO9CrRfxINZDrr2v9CdHB6HlOKXJKYeOrRBKrCPagbKCiiXZ5V7h3eGk3qMnXT
+qlMEDVCSOCfFTwH4RUgjhwki/Uk9hGF+qIpTnz5W6EJGcY4KtSIbtVlLgYxO6Dr4
+9sAoUrsfrFr0CRRrkxGa2//qMzWOUeoWIG97urF4QhgJXC1rAME1+O0A6Vmy6BoM
+grz7i5PF1jXToIflAZAu1ij7VVs5CllIEY52+DRYU2o5ddfAgBlbRvKgoZJO1HUv
+7UVTY6vtJ49qvdev39xSX/sPxOEoCAHgD6Ry/1Qj3/6Vj0aTEkeYIduS8oQALKYf
+Zx73EfAw+dEowUcQpR99dh1FG2v15emOAiawPRKiAF3dRvkdrse5GjGQ0VfxySqi
+kH4i1tukR1vNnw4+wecrfZ91rJ2TnXxevZOZ4lrBmVmNzRqAudusjkC9ni4jtgUc
+Dh43ZfIH4wtRiM8FTK4Jt5tF274f3bMYGqs1rBIqi1hn+3WGDzoLBSOHKbtP71dI
+LyJhoMO4sFjZjwk3ekb0QaIrEYoBr0yy+AGliG89GXH9k3PhX0qK6b7mxtOABtUQ
+XVzY0IbAOqqbOKpxhjUD4sjFaeU/BhjZITeLN/PWB7F1qqnajWk=
+=w2h2
+-----END PGP SIGNATURE-----
+
+--===============0226532189220752721==--
