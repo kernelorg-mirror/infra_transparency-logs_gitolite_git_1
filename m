@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 01 Aug 2023 13:25:07 -0000
-Message-Id: <169089630738.3784.12930751274811909538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 01 Aug 2023 13:27:27 -0000
+Message-Id: <169089644761.4680.2419111757539973551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 51b8eb0e7f42f55274e4ea3e4d41cb09465ac3e4
-    new: 4e43b98637d518e79f30d05dfda1b9e58fae9eb8
+  - ref: refs/heads/perf-tools
+    old: 98ce8e4a9dcfb448b30a2d7a16190f4a00382377
+    new: 07d2b820fd75b96f550c93503f19c8cfcbc577cf
     log: |
-         899bcd6a7f0fb7f312276aae9065b8065ed8324d perf test bpf: Address error about non-null argument for epoll_pwait 2nd arg
-         4e43b98637d518e79f30d05dfda1b9e58fae9eb8 perf probe: Show correct error message about @symbol usage for uprobe
+         34bc65d6d831200194c0b9a30fb8fe47faaf83d6 perf pmus: Create placholder regardless of scanning core_only
+         07d2b820fd75b96f550c93503f19c8cfcbc577cf perf test parse-events: Test complex name has required event format
          
