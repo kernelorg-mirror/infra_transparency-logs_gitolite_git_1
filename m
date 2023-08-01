@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 01 Aug 2023 03:12:28 -0000
-Message-Id: <169085954830.25419.1352434872418129794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 01 Aug 2023 03:13:19 -0000
+Message-Id: <169085959995.25765.13740997254406050057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 611e1b016c7beceec5ae82ac62d4a7ca224c8f9d
-    new: c5ccff70501d92db445a135fa49cf9bc6b98c444
+    old: 079082c60affefeb9d2bd4176a4f2b390a9ccfda
+    new: 05e1d8bdb276068069d3de65e488700280029e20
     log: |
-         3044b16e7c6fe5d24b1cdbcf1bd0a9d92d1ebd81 net/sched: cls_u32: No longer copy tcf_result on update to avoid use-after-free
-         76e42ae831991c828cffa8c37736ebfb831ad5ec net/sched: cls_fw: No longer copy tcf_result on update to avoid use-after-free
-         b80b829e9e2c1b3f7aae34855e04d8f6ecaf13c8 net/sched: cls_route: No longer copy tcf_result on update to avoid use-after-free
-         c5ccff70501d92db445a135fa49cf9bc6b98c444 Merge branch 'net-sched-bind-logic-fixes-for-cls_fw-cls_u32-and-cls_route'
+         04786c0659dbacf1f626f70c2b19c1bc334f1098 selftests: connector: Fix input argument error paths to skip
+         2f48401dd0f2d93a41d28bb8dc3474158f4e906c net/hsr: Remove unused function declarations
+         03668c65d153579c1725ef439b6676ef3742522e selftests: mptcp: join: rework detailed report
+         9466df1a27d55842bec496d3a84e98ee938c31aa selftests: mptcp: join: colored results
+         1dc88d241f9260fac6477ad040a5f1edbc3c2968 selftests: mptcp: pm_nl_ctl: always look for errors
+         6a5c8c69a4c771625ea25fb2bc916d274516288a selftests: mptcp: userspace_pm: unmute unexpected errors
+         05e1d8bdb276068069d3de65e488700280029e20 Merge branch 'mptcp-cleanup-and-improvements-in-the-selftests'
          
