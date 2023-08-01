@@ -1,66 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============6230465054788524979=="
+Content-Type: multipart/mixed; boundary="===============4666782730783948686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 01 Aug 2023 01:12:31 -0000
-Message-Id: <169085235140.3107.10538003280147554060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 01 Aug 2023 01:12:52 -0000
+Message-Id: <169085237275.4178.6753424750706989751@gitolite.kernel.org>
 
---===============6230465054788524979==
+--===============4666782730783948686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: f5385d7b536a4ab2d3bebd206b56b7c273805e71
-    new: 710612e9f854c7007595b9554bc0b331bd5c7303
-    log: revlist-f5385d7b536a-710612e9f854.txt
+  - ref: refs/heads/futex
+    old: 463aaa496e2bce686fcb23260b2ed2d9c408c26e
+    new: 4c9e3fe16abfadfcc20b9cc1089759cce5b287a5
+    log: revlist-463aaa496e2b-4c9e3fe16abf.txt
+  - ref: refs/heads/waitid
+    old: d63491482f24cbbb2e6c788b5d4ca0ff602af1ca
+    new: 8f1d9e9128414ac141d6ec0f9752e2f9dda5efdc
+    log: revlist-d63491482f24-8f1d9e912841.txt
 
---===============6230465054788524979==
+--===============4666782730783948686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5385d7b536a-710612e9f854.txt
+Content-Disposition: attachment; filename=revlist-463aaa496e2b-4c9e3fe16abf.txt
 
-4d3a5f09fef125d93c991d2191af05d29ac5aec3 tools build: Add 3-component logical version comparators
-56ebba06ba4ec9fdfcf688860fa891eaa1d6a20e perf build: Disable fewer flex warnings
-1d7f656b68e84d5098687d1438eb4cb13b1d9ba3 perf build: Disable fewer bison warnings
-4218351f4812b8ca3bd75c03c0003433b6a73ec1 perf build: Remove -Wno-redundant-decls in 2 cases
-faef1c3fe2e5965b2212d6dfd08a84e7d96d1e88 perf build: Update build rule for generated files
-63b12d5ac7d584894a856908fdd7a9d61eabac84 perf build: Include generated header files properly
-2f41ce5139b11ab2233941faeac4363f178a714c perf parse-event: Avoid BPF test SEGV
-47b132214de187d9d035ae0146db6aa02ffe041c perf tools: Revert enable indices setting syntax for BPF map
-ad52129e137b9bf24b25ec1fc5910cb5356bc95d perf parse-events: Remove array remnants
-b6a1c174c7ef54fde637bcd1288eceee0f5742c7 perf tests task_analyzer: Check perf build options for libtraceevent support
-7e145c66ae311f1edc01e1f05c97aceeecf8a9ac perf tests trace+probe_vfs_getname: Fix shellcheck warnings about word splitting/quoting
-86288ddc0a04db22830f192f01d63afa11e567de perf tests probe_vfs_getname: Fix shellcheck warnings about word splitting/quoting
-3b34357f1488bd7343ccef1cf678a6e198e813d9 perf tests record_offcpu: Fix shellcheck warnings about word splitting/quoting and signal names case
-c49d7bb63fa31202a64cca3233447827b02dce31 perf tests lock_contention: Fix shellcheck issue about quoting to avoid word splitting
-bccccc35494c8e45ff01e5fc7e302f3662936c78 perf test stat_bpf_counters_cgrp: Fix shellcheck issue about logical operators
-7b7cbecccbf4c4b02465c8aadc43327c5b43dbd9 perf tests: Address signal case issues detected via shellcheck
-00a31769ad2598eb56d1fdced98fbca734749ce9 perf tests stat+csv_summary: Fix unused variable references detected via shellcheck
-413476c78ae1cc3fc30bdbaaf678e36dabac9320 perf tests perf_dat _converter_json: Use quoting to avoid word splitting
-41ebd11013afc427afb9d126fbda819362577e04 perf tests stat_bpf_counters: Fix usage of '==' to address shellcheck warning
-88fead25a9144d8b3aec39318fde370c347dae37 perf tests stat+shadow_stat: Fix shellcheck warning about unused variable
-0d5eb7849db84e8ae183763c6ab82fdcc71826d9 perf tests asm_pure_loop: Fix shellcheck warning about word splitting/quote
-226c4ded7abdb9a1082bbaedf159ac38b8f04bfc perf tests memcpy_thread_16k_10: Fix shellcheck warning about word splitting/quote
-5c1acb4d8be173aeab064d572011872bf3ae40c0 perf tests lib probe: Fix shellcheck warning about about missing shebang
-46699537a1b34fd392c25118cbceede2f824baf6 perf beauty arch_errno_names: Fix shellcheck issue about local variables
-1cdde0063338e2e93a91fb75484fa2de2c4183b8 perf build: Fix shellcheck issue about quotes for check-headers.sh
-5e2d3cb67fd4be87ff96f6fc9c3e1a472663638d perf tests thread_loop_check_tid_10: Fix shellcheck warnings bout word splitting/quoting
-68e59185d32f5632261b48caa87d198f23c34f43 perf tests unroll_loop_thread_10: Fix shellcheck warnings about word splitting/quoting
-6e859d711dc96ebc9378247a4adf3a3f78a33ce7 perf tests lib probe_vfs_getname: Fix shellcheck warnings about missing shebang/local variables
-2dc0d057039178c6a16cb79bc11fbc81c8dd6810 perf tests lib waiting: Fix the shellcheck warnings about missing shebang
-c453a249243ee47c017aa2ccd54340b577454002 perf trace x86_arch_prctl: Address shellcheck warnings about local variables
-2281539c52e438bb1c7e3d6eba337a6bd74a0ef9 perf arch x86: Address shellcheck warnings about unused variables in syscalltbl.sh
-a6e837617675c431eabb22a6e69c418d7668a4eb perf tests record+zstd_comp_decomp: Fix the shellcheck warnings about word splitting/quoting
-09d4c8342d6f26d61dc20a0ddfe42247c0bfa9cb perf tests coresight thread_loop_check_tid_2: Fix shellcheck warnings about word splitting/quoting
-a3c228d7db6db079190a1698f478affa16568be5 perf tests lib stat_output: Fix shellcheck warning about missing shebang
-035ba388d0f2795ffaef2b04c5930d71715869b1 perf tests stat+std_output: Fix shellcheck warnings about word splitting/quoting
-710612e9f854c7007595b9554bc0b331bd5c7303 perf tests stat+std_output: Fix shellcheck warnings about word splitting/quoting and local variables
+492b369aaba264b62363f178a9fb3b3d667a1ea8 uapi:  Sync with the kernel to get socket CMD
+2459fef094113fc0e4928d9190315852bda3c03a io_uring_prep_cmd: Create a new helper for command ops
+ac2296e928415ada5f05219b05731f9d93e2011b test: socket io cmd operations
+12e697608d841dc33c360beb4753c5509187ef6f Merge branch 'ioctl_submitv3' of https://github.com/leitao/liburing
+e1e758ae8360521334399c2a6eace05fa518e218 github: Fix LLVM packages conflict
+1463c44b3804e917b9a0d8ad42cd41bd41d5d695 Add futex helpers
+520a617b00e525009314f816fdce7e6e4b055851 Add basic futex test case
+4831ca132fe5e5836298fc65d03e2c8afa5b80cb test/futex: skip if argument is given
+1121b8546f9e0b708764c0a8838731aa8cf92021 test/futex: exercise io-wq driven cancel and wait as well
+75644c1c93bd3e1dc430f95ac9d5f8db87e54012 test/futex: test ordering and wakeups
+5b8858f7cfdc20f74a832a199962bd5d95e8c28c test/futex: break early if there's no futex support
+ecdb5e90f8f446f368df016f482f89c73550c8fb Add 'futex_flags' to struct io_uring_sqe
+c39a17772052476fe15dac14e08dc622ef26b68b liburing.h: update futex prep helpers for new sqe layout
+f9ce3dbfc283628b9c5ccfd96516cc980cf44da3 Add 'flags' to futex prep helpers
+4c9e3fe16abfadfcc20b9cc1089759cce5b287a5 Update for new prep_futex_waitv() prototype
 
---===============6230465054788524979==--
+--===============4666782730783948686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d63491482f24-8f1d9e912841.txt
+
+492b369aaba264b62363f178a9fb3b3d667a1ea8 uapi:  Sync with the kernel to get socket CMD
+2459fef094113fc0e4928d9190315852bda3c03a io_uring_prep_cmd: Create a new helper for command ops
+ac2296e928415ada5f05219b05731f9d93e2011b test: socket io cmd operations
+12e697608d841dc33c360beb4753c5509187ef6f Merge branch 'ioctl_submitv3' of https://github.com/leitao/liburing
+e1e758ae8360521334399c2a6eace05fa518e218 github: Fix LLVM packages conflict
+1463c44b3804e917b9a0d8ad42cd41bd41d5d695 Add futex helpers
+520a617b00e525009314f816fdce7e6e4b055851 Add basic futex test case
+4831ca132fe5e5836298fc65d03e2c8afa5b80cb test/futex: skip if argument is given
+1121b8546f9e0b708764c0a8838731aa8cf92021 test/futex: exercise io-wq driven cancel and wait as well
+75644c1c93bd3e1dc430f95ac9d5f8db87e54012 test/futex: test ordering and wakeups
+5b8858f7cfdc20f74a832a199962bd5d95e8c28c test/futex: break early if there's no futex support
+ecdb5e90f8f446f368df016f482f89c73550c8fb Add 'futex_flags' to struct io_uring_sqe
+c39a17772052476fe15dac14e08dc622ef26b68b liburing.h: update futex prep helpers for new sqe layout
+f9ce3dbfc283628b9c5ccfd96516cc980cf44da3 Add 'flags' to futex prep helpers
+4c9e3fe16abfadfcc20b9cc1089759cce5b287a5 Update for new prep_futex_waitv() prototype
+a8633bb3c5d46dff4956338a1a8ec0fe351c7f28 Add waitid test case
+ab64386620120fe5213f4feacc34769431997308 test/waitid: add explicit cancel test
+cedeb5fe2610baa24542c9ef1a73763227d70702 test/waitid: drop rusage
+536a4142359f23d9a9d2dc543a439ab3360d05a9 test/waitid: shorten wait times
+1406e1d7f50a1aaf4c40b0e6687a7aa84b67c3bf liburing.h: add `io_uring_prep_waitid`
+8f1d9e9128414ac141d6ec0f9752e2f9dda5efdc man: add man page for `IORING_OP_WAITID`
+
+--===============4666782730783948686==--
