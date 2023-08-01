@@ -1,60 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============8779713734019176653=="
+Content-Type: multipart/mixed; boundary="===============7718882750914738529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 01 Aug 2023 04:24:31 -0000
-Message-Id: <169086387197.12161.13787085078630226489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 01 Aug 2023 04:42:59 -0000
+Message-Id: <169086497912.26415.11425738327315128893@gitolite.kernel.org>
 
---===============8779713734019176653==
+--===============7718882750914738529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5416d7925e6ee72bf1d35cad1957c9a194554da4
-    new: c5ccff70501d92db445a135fa49cf9bc6b98c444
-    log: revlist-5416d7925e6e-c5ccff70501d.txt
+  - ref: refs/heads/tty-next
+    old: fe3015748a905e08eb0e1750aa2928f520063d59
+    new: 426263d5fb400ccde5444748693dc75bda18f01e
+    log: revlist-fe3015748a90-426263d5fb40.txt
 
---===============8779713734019176653==
+--===============7718882750914738529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5416d7925e6e-c5ccff70501d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e68409db995380d1badacba41ff24996bd396171 net: sched: cls_u32: Fix match key mis-addressing
-56c6be35fcbed54279df0a2c9e60480a61841d6f mISDN: hfcpci: Fix potential deadlock on &hc->lock
-a0b1b2055be34c0ec1371764d040164cde1ead79 net: stmmac: tegra: Properly allocate clock bulk data
-8d7ae22ae9f8c8a4407f8e993df64440bdbd0cee net: dsa: microchip: KSZ9477 register regmap alignment to 32 bit boundaries
-e346e231b42bcae6822a6326acfb7b741e9e6026 qed: Fix scheduling in a tasklet while getting stats
-7938cd15436873f649f31cb867bac2d88ca564d0 net: gro: fix misuse of CB in udp socket lookup
-fe11fdcb4207907d80cda2e73777465d68131e66 net: annotate data-races around sk->sk_reserved_mem
-c76a0328899bbe226f8adeb88b8da9e4167bd316 net: annotate data-race around sk->sk_txrehash
-ea7f45ef77b39e72244d282e47f6cb1ef4135cd2 net: annotate data-races around sk->sk_max_pacing_rate
-e6d12bdb435d23ff6c1890c852d85408a2f496ee net: add missing READ_ONCE(sk->sk_rcvlowat) annotation
-285975dd674258ccb33e77a1803e8f2015e67105 net: annotate data-races around sk->sk_{rcv|snd}timeo
-74bc084327c643499474ba75df485607da37dd6e net: add missing READ_ONCE(sk->sk_sndbuf) annotation
-b4b553253091cafe9ec38994acf42795e073bef5 net: add missing READ_ONCE(sk->sk_rcvbuf) annotation
-3c5b4d69c358a9275a8de98f87caf6eda644b086 net: annotate data-races around sk->sk_mark
-11695c6e966b0ec7ed1d16777d294cef865a5c91 net: add missing data-race annotations around sk->sk_peek_off
-e5f0d2dd3c2faa671711dac6d3ff3cef307bcfe3 net: add missing data-race annotation for sk_ll_usec
-8bf43be799d4b242ea552a14db10456446be843e net: annotate data-races around sk->sk_priority
-37e3cecb4cdfbc99aaa1da2175681aac1d8a7f6d Merge branch 'net-data-races'
-e739718444f7bf2fa3d70d101761ad83056ca628 net/sched: taprio: Limit TCA_TAPRIO_ATTR_SCHED_CYCLE_TIME to INT_MAX.
-8469c7f5472fe5f77fc31c8f10f23d5aad987231 dt-bindings: net: mediatek,net: fixup MAC binding
-1e7417c188d0a83fb385ba2dbe35fd2563f2b6f3 net: usb: lan78xx: reorder cleanup operations to avoid UAF bugs
-d4480c9bb9258db9ddf2e632f6ef81e96b41089c net: usb: qmi_wwan: add Quectel EM05GV2
-55c1528f9b97ff3b7efad73e8f79627fc2efb298 sfc: fix field-spanning memcpy in selftest
-4b31fd4d77ffa430d0b74ba1885ea0a41594f202 ice: Fix RDMA VSI removal during queue rebuild
-37b61cda9c1606cd8b6445d900ca9dc03185e8b6 bnxt: don't handle XDP in netpoll
-611e1b016c7beceec5ae82ac62d4a7ca224c8f9d octeon_ep: initialize mbox mutexes
-3044b16e7c6fe5d24b1cdbcf1bd0a9d92d1ebd81 net/sched: cls_u32: No longer copy tcf_result on update to avoid use-after-free
-76e42ae831991c828cffa8c37736ebfb831ad5ec net/sched: cls_fw: No longer copy tcf_result on update to avoid use-after-free
-b80b829e9e2c1b3f7aae34855e04d8f6ecaf13c8 net/sched: cls_route: No longer copy tcf_result on update to avoid use-after-free
-c5ccff70501d92db445a135fa49cf9bc6b98c444 Merge branch 'net-sched-bind-logic-fixes-for-cls_fw-cls_u32-and-cls_route'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690864978 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1690864978-d539264cbae452461897d18f58487fc21b58f207
 
---===============8779713734019176653==--
+fe3015748a905e08eb0e1750aa2928f520063d59 426263d5fb400ccde5444748693dc75bda18f01e refs/heads/tty-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTIjVIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XR8QAKzh+6MQir6F5i+tspIW
+aewfhg52QbLBcdnOjeyIZ00lQSHzIvsIHA/nAcauiA4NezutnYqC/TN9tpln/y6z
+zUP/HmwmAZ6rkrEe1HsZvrdWCo/GDe/5YcBSuvF55ww+qEkaUR9H6veu21Xo0PuD
+0yMsQNTKwwycBm2e1Ez4XEU4LCocUzC+AYRdxU8nKDu9iJUpCVe1b0FnUe8QfTx9
+Uswwm1+w9SZ3AP5YubFxSgkClONIndLOmpJWgRuzl6nrMtyXUc7BgPEE15/7zQTh
+H0xSB5h01rPMkPXtW4+xwlg01RHdTl7PnHdToc8aMz7NsS2flG32xFqEMKBI2fxq
+Y+7SGRGCdbQWJuUokq6scHxvaYQldGcUOdDvNE4ukAAiTGY8CGzxIP9XvRtacQM6
+lNzBkf/jx1Vj8JbNWJFfEStXWWaL06LMUbt4ukZA1MOJDBWl10QhaFHzuelXuYMV
+RhgLCbfVQrBclw1nL76sTD6kkn7Xxzx9xOtrk/gNoXRjhUQpyAaCZyGhWOvRe9QZ
+dqlw7CdyNsU337YfUBK7tzlHSELyoXBnJHQKJfQ2Bve56nknnCxn/TPwnIwZCDY8
+a1CSMxuISC5a4Pm4n9ysAwK8amcyX2SHB596xyO3X+vA4ZvsV+1jdu4RKqsA7ZXO
+UrW0i66FdBZAOrx2F3ZreTA9
+=K2dC
+-----END PGP SIGNATURE-----
+
+--===============7718882750914738529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fe3015748a90-426263d5fb40.txt
+
+602c802114a10cb03415fbed0163ca9ff97fc5d4 serial: move WARN_ON() in uart_write() to the condition
+659705d0a6992892bf3713bccf91ba43111aa71e Bluetooth: rfcomm: remove casts from tty->driver_data
+d3352ab0a9701a6d4c88b814815d7320c339f4a8 tty: hvsi: remove an extra variable from hvsi_write()
+ca1a8d2f50bb32ba4f43fff84590db21c8a87825 input: serport: remove casts from tty->disc_data
+0e4a23ce7cc29b8e661446b7c622f220bc1db5ca can: slcan: remove casts from tty->disc_data
+3e6e212f614c3af6ac324b8042ea2c99a2818ba8 serial: altera_jtaguart: switch status to u32
+6dc6657d890f5e4b45377e2bba8a437cafd0e750 speakup: switch to unsigned iterator in spk_ttyio_receive_buf2()
+99037697410f4df41558fc4227a9141dc1e24f59 misc: ti-st: remove forward declarations and make st_int_recv() static
+a60b3017601ef7f338ac44b942e917362f222b1c misc: ti-st: remove ptr from recv functions
+9b5752d1a882c96c0319aebe55bbfe9ad0c9aa30 misc: ti-st: don't check for tty data == NULL
+fe14cbc604af78348b5790832a5455541d572704 tty: synclink_gt: convert CALC_REGADDR() macro to an inline
+6340b02cc75020e0c3e47e988a9c5ea806e85a48 tty: synclink_gt: drop global slgt_driver_name array
+e33ec544baa85b447b9decbe39cdc642c1366380 tty: synclink_gt: define global strings as const strings
+833c31d244597d9521e199f16d6eb169ea517733 tty: synclink_gt: drop info messages from init/exit functions
+0e0a0380fd40d7230b6ca2c67810017ab03a1d0a tty: synclink_gt: use PCI_VDEVICE
+fe61b57fc0f27a7df81a1a355defb8ddcb9731cb tty: synclink_gt: make default_params const
+426263d5fb400ccde5444748693dc75bda18f01e tty: synclink_gt: mark as BROKEN
+
+--===============7718882750914738529==--
