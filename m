@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8223531990828064185=="
+Content-Type: multipart/mixed; boundary="===============6365802981566626162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 01 Aug 2023 14:48:31 -0000
-Message-Id: <169090131195.31238.15090631492346413553@gitolite.kernel.org>
+Date: Tue, 01 Aug 2023 14:48:39 -0000
+Message-Id: <169090131980.31333.14173633464205677430@gitolite.kernel.org>
 
---===============8223531990828064185==
+--===============6365802981566626162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: fe8052de2d399b86b461ab84690c2f8cf512a7eb
-    new: 0d240ee5040a7f69b94dd4575aa0de573b8a6d3c
-    log: revlist-fe8052de2d39-0d240ee5040a.txt
+  - ref: refs/heads/kfence/dev
+    old: 4111678ff709377b755616fc306c7358122e236d
+    new: 2b95bcf905413d4691cf6046ead4e0213e680e30
+    log: revlist-4111678ff709-2b95bcf90541.txt
 
---===============8223531990828064185==
+--===============6365802981566626162==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe8052de2d39-0d240ee5040a.txt
+Content-Disposition: attachment; filename=revlist-4111678ff709-2b95bcf90541.txt
 
+8ad78685ffa6e3836b5b32197bffb03ee3389bec Merge tag 'pstore-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+582c161cf38cf016cd573af6f087fa5fa786949b Merge tag 'hardening-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+6aeadf7896bff4ca230702daba8788455e6b866e Merge tag 'docs-arm64-move' of git://git.lwn.net/linux
 628eaa4e877af8230ef7326d378e15d511c506ba perf pmus: Add placeholder core PMU
 582d4ad468cbc6ef2db4689ff3bd5868d95402c9 media: tc358746: select CONFIG_GENERIC_PHY
 7997604bc90bbb367396dd406ecb50645ab406ef media: add HAS_IOPORT dependencies
@@ -1045,10 +1048,7 @@ f61a89ca1182c43aa7a141c40f4063be81bd2562 Merge tag 'sched_urgent_for_v6.5_rc2' o
 1667e630c228ca2e7577de7a404c89de3d9f7772 Merge tag 'perf_urgent_for_v6.5_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b8d6e8539498e8b2fa67fbcce3fe87834d44a7a Merge tag 'xtensa-20230716' of https://github.com/jcmvbkbc/linux-xtensa
 fdf0eaf11452d72945af31804e2a1048ee1b574c Linux 6.5-rc2
-abdf0e69037c494700906d1c732dc4cc6f40e2ab WIP: kcsan, seqlock: Support seqcount_latch_t
-04199acb2f99e66dc321e6d5af34f14993750781 kcsan: Disable stack protector and branch profiling in reporting
-d74d73c86fe767b5081f6eb187ea599dac948a50 kcsan: Refactor printing of report header/footer
-837b810f232bcf2467a440530ae1c25d72990728 kcsan: Add support for unaligned atomic access detection
-0d240ee5040a7f69b94dd4575aa0de573b8a6d3c objtool, kcsan: Add kcsan_report_unaligned_atomic() to uaccess whitelist
+e705468ef25e9dc9d055d130f6eb10386bbd9d6b docs: kernel-parameters: add info about kfence.sample_interval
+2b95bcf905413d4691cf6046ead4e0213e680e30 mm: kfence: allocate kfence_metadata at runtime
 
---===============8223531990828064185==--
+--===============6365802981566626162==--
