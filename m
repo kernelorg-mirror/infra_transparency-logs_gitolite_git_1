@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0628770288548908126=="
+Content-Type: multipart/mixed; boundary="===============5569403135356246212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 01 Aug 2023 05:49:45 -0000
-Message-Id: <169086898526.8984.7741496990496647717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 01 Aug 2023 05:56:57 -0000
+Message-Id: <169086941785.14742.10635074146611522747@gitolite.kernel.org>
 
---===============0628770288548908126==
+--===============5569403135356246212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 282069845af388b08d622ad192b831dcd0549c62
-    new: 1ef2c2df11997b8135f34adcf2c200d3b4aacbe9
+  - ref: refs/heads/master
+    old: 3ece514a68712f77fca6f04ff08771eec1924072
+    new: 209dbb7466d72f2879cc1f753b1daf19ef8f9afb
     log: |
-         83c35180abfdfb22f3d7703b0c85ad2d442ed2c5 serial: core: Controller id cannot be negative
-         d962de6ae51f9b76ad736220077cda83084090b1 serial: core: Fix serial core port id to not use port->line
-         1ef2c2df11997b8135f34adcf2c200d3b4aacbe9 serial: core: Fix serial core controller port name to show controller id
+         209dbb7466d72f2879cc1f753b1daf19ef8f9afb 4.19-stable patches
          
 
---===============0628770288548908126==
+--===============5569403135356246212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690868981 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1690868981-923bd88694a1533a166f563ec71a1d7237ce9de4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690869416 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1690869415-80a842e258ca1e6ed2eace6ce9b71e386a7bfafb
 
-282069845af388b08d622ad192b831dcd0549c62 1ef2c2df11997b8135f34adcf2c200d3b4aacbe9 refs/heads/tty-linus
+3ece514a68712f77fca6f04ff08771eec1924072 209dbb7466d72f2879cc1f753b1daf19ef8f9afb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTInPUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OrMP/jf0sn4kx6KKaiBjGM1D
-XU/jogt5kbYxoo55baUSMQAJLu6Z9YCn9TvRu4lvwr921oxcTPMmWVbfTdwAaGSC
-qGJqM7gxYtI/NuZDU/1aKYhjYcayEaBq0HzqZW1yPd5TrC4nDHJuMk0fUPTALUP+
-XxTbffC4g2AKSc+gpp9WbvVzdvhen1I1lNx/oZlF81GEM1WaeoCJEveXc5rrJkjV
-myod1X1eY93LVtz3ADSRt5NkY1DlhqnIf2gQxS8pYhlVzfazG858QUgT8VTnVLf1
-vhfucFfuWICS5WBpNZUTkXnZx9Yb3sM3NjfQF1DLxfBLCuxssaOEbXBY2GyYsCLr
-5HA1m3BnnaUlpgdXpkxbjQ0ao3Yvby0W2uFV0Mjw/fhPWCWOKFHSTj0ksaCEcEaf
-ci6068g9yfRh4Tgb3w2MVWPA1E+sQOgSsQ4UMqPX8Y6Ffq0krx16kugKsPCKC0sB
-8rkAQPNS/5n48znkemOkJkAW/qZR3nlbgLAojKrHSZoAoeaRl8wzH79j1AsiaKAG
-rpkUXCTww3jnVVCGq2Nv8ZWXsLJZhpwN5nJV9v2/zYGplxluct2iVuuUMDR/P9gu
-McEaVTAENDVakOM7il1uMQVsNgN5FpkKwfOASmSzdXYSLJp0+gysVlK70jySjfr7
-PfAznKtKZyPCMtuDErGmlC08
-=Na5M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTInqgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+flkP/Rxj7iMfdHboN2CceIAe
+d5A3o6/DSR9thxjui+i0rS4LD3kw00QJl66AQ+WRRBO/iX4k0MUbiGCupb7DwZxW
+O+U4LYiuPJbgBK4nzK0iicTzop7nUa2CioLjGPH3yUyRuixT6pwzY9AaH7s/eiyW
+Mxf9I6OJbQm43RFsRMH8htYbWwhIggD0iLfEGdBG1G1UR85XjIKtrIvybArhS9Kj
+0r7tSFwM0WtvhUnAZa6QFkmUPO6FSsvlEB6DZERn676QBkRKxlhd7V2KILaApG0F
+TKTT7hxE00V5uKgU89uSV34ch44nbtc3gTUY7x5kYug7dP0RuY3alav/0Uuty/tV
+ypktxCL8q52+j/CJERroaZ7wLp7Qq7DC4L6Y1n88mFcO4sY+aLxY52T5uyq6C9PW
+1TlC1Jq+Y/rkIRnWsHoAaWVa467DAl70DxTdJukMdNFPgVwjRK0vv0L/FppaVMiK
+/AV7GUfwAgybV/w61MDhz1NduZoiDk4YVKUc5m144G2ELfxvIVk+izCKRS6d3VV/
+rJwrk/Azecvw5B9oX81/0r+E/rYwjI167hEc6um/0nDaF6W1oKtpuDM773YfV2JF
+Ce+bTiaxxnCB6Q80mvQeLGBp/OCW6Z6QxMUswmhYtZ4LPeFTwTDHYKS25T7fCdJW
+UrCxFmmr5BRI3E3IDEyK/W9P
+=Fe20
 -----END PGP SIGNATURE-----
 
---===============0628770288548908126==--
+--===============5569403135356246212==--
