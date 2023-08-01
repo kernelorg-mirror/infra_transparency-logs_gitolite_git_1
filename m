@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 01 Aug 2023 15:44:47 -0000
-Message-Id: <169090468727.9007.8765559009967137152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 01 Aug 2023 15:45:00 -0000
+Message-Id: <169090470045.9174.16133601479380535773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 02d976e869c6ab46c1fd717451cc620ed2c9e072
-    new: 57fb4aeb308cdc2169b440c112bcbbbbdc7b6cc5
+  - ref: refs/heads/misc
+    old: bf309c386a8408eda11e81ceb2ccad00b67420de
+    new: 3309d318962fa5c02c116278d9035ae7d45ff2ca
     log: |
-         dc21824674f0e44b6d0ad10e4bd826c266f91f46 cpuidle: teo: Update idle duration estimate when choosing shallower state
-         6cf6a3f09da16c20d11ff16eb12b68fb0d3ea9c7 cpuidle: teo: Avoid stopping the tick unnecessarily when bailing out
-         49de26f76e5cf694bb718407a932c4efe252bb5c cpuidle: teo: Drop utilized from struct teo_cpu
-         57fb4aeb308cdc2169b440c112bcbbbbdc7b6cc5 Merge branch 'pm-cpuidle' into bleeding-edge
+         3309d318962fa5c02c116278d9035ae7d45ff2ca list_debug: Introduce CONFIG_DEBUG_LIST_MINIMAL
          
