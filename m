@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7429949316089002281=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 01 Aug 2023 06:28:18 -0000
-Message-Id: <169087129833.5884.1604232517154522288@gitolite.kernel.org>
-
---===============7429949316089002281==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 01 Aug 2023 06:30:44 -0000
+Message-Id: <169087144495.8498.16564746404178816358@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 07980b2b5953e542318659f9ea892260df91f567
-    new: f1891554541737597283d002bc5343e9ba2d0146
+  - ref: refs/heads/for-next
+    old: 2ad27caab44583eb38b71d90a364e5670b4c7c5a
+    new: 8ca3ee6f3f64673f377fc8f5ed163f71181c85ad
     log: |
-         f1891554541737597283d002bc5343e9ba2d0146 6.4-stable patches
+         7b6466ad1d7bfa178d28f125d75187c4f6597f2d ALSA: hda/cs35l56: Complete firmware reboot before calling cs_dsp_run()
+         c36570970a585bc816e15478fde71476f96f5e9c ALSA: hda/cs35l56: Do not mark cache dirty after REINIT
+         15c378d66fc5bd00ce7c8ac869624f9a4a29d1d4 ALSA: hda/cs35l56: Call cs_dsp_power_down() before reloading firmware
+         e5bac77b67082e59f7aceea08a30b5dc66138643 ALSA: hda/cs35l56: Always power-up and start cs_dsp
+         fb78d73dde2d4d91e2372685159d67a43cf7b8f3 ALSA: hda/cs35l56: Call cs_dsp_power_down() before calling cs_dsp_remove()
+         0ba0dfd969926563016e706346a9caba7f5a15ac ALSA: hda/cs35l56: cs_dsp_power_down() on cs35l56_hda_fw_load() error path
+         2f860dd895381c8d120e68526f34fe9b29da4310 ALSA: hda/cs35l56: Do not download firmware over existing RAM firmware
+         3106797d2b0b09e7a27f09fac329f1d6e9b35270 ALSA: hda/cs35l56: Fail if .bin not found and firmware not patched
+         8ca3ee6f3f64673f377fc8f5ed163f71181c85ad ALSA: hda/cs35l56: Reject I2C alias addresses
          
-
---===============7429949316089002281==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690871297 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1690871296-8866108b230a1941a9dc974abc8ab35752583dce
-
-07980b2b5953e542318659f9ea892260df91f567 f1891554541737597283d002bc5343e9ba2d0146 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTIpgEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wl8P/RspSqZkBfmIRwRXA9L1
-0TO5hLhP5IkVPvBGj+0r4jyj1KLwDXuC7ULqFvv94bGWkvVMUiVEQsO0380F+TU/
-+eTkgNPcferOxYjjNhDNtIS51mumrJgl8Fa+2k+KsBH1UQNTvJaBZrN1n3IgPSlB
-bTPsvnY/h6Hgil4NjOFMY7QrUKhjDmx+GVOHxJIKOA9MqbeuZOMP2kgP+DrB1HAV
-MipK4Xs5/Cf6xVlboZbqD63H/EOveZ/CGJbntH7N4KikiORDJwrQgeQtcfM0zy2p
-/4Kn6whbTJfK4MbBjW1zoRnT9uU7YuDnwPiQnRCveABaL8CqwJVCyCZ6dphRacif
-jXH0KlVUPQS7xGTMCQ/GDeusDVL9O3QASjj9abksklXtShnVy6Gzn4ofiw+NDYmV
-2YM/32ll7J12BnfYeSgaq1aXUJXV89cuqvwU/JVCNJFV/vmF+Yw2XN0YIbyvvDlv
-O4ZHrtJ3sRQ9/r5jxfko8JlQQlrIbir+E6mqDsZVLAXI6UZEzk8xStQbyN2FZY/+
-OoMDWm8kAPOa8W+CBMV7+KxF6mZ3wn9rhrbC8nG05OLN5lNlCKmLpU2GYe2HqbuV
-B+Xfu6nX79tEMiIHe9ewSS4hBHCmMQYZ4EH6Z9frpVLf4hA+ZWwKwPpOssF94p4g
-R0/6Ei1tmLdh9ZM8+mEv7ASf
-=MdEy
------END PGP SIGNATURE-----
-
---===============7429949316089002281==--
+  - ref: refs/heads/master
+    old: 6572312eef5c1a12a58049eef5101e129a0ccebe
+    new: 63a30a8a301114905caa4922e6c503b7740f2b8c
+    log: |
+         7b6466ad1d7bfa178d28f125d75187c4f6597f2d ALSA: hda/cs35l56: Complete firmware reboot before calling cs_dsp_run()
+         c36570970a585bc816e15478fde71476f96f5e9c ALSA: hda/cs35l56: Do not mark cache dirty after REINIT
+         15c378d66fc5bd00ce7c8ac869624f9a4a29d1d4 ALSA: hda/cs35l56: Call cs_dsp_power_down() before reloading firmware
+         e5bac77b67082e59f7aceea08a30b5dc66138643 ALSA: hda/cs35l56: Always power-up and start cs_dsp
+         fb78d73dde2d4d91e2372685159d67a43cf7b8f3 ALSA: hda/cs35l56: Call cs_dsp_power_down() before calling cs_dsp_remove()
+         0ba0dfd969926563016e706346a9caba7f5a15ac ALSA: hda/cs35l56: cs_dsp_power_down() on cs35l56_hda_fw_load() error path
+         2f860dd895381c8d120e68526f34fe9b29da4310 ALSA: hda/cs35l56: Do not download firmware over existing RAM firmware
+         3106797d2b0b09e7a27f09fac329f1d6e9b35270 ALSA: hda/cs35l56: Fail if .bin not found and firmware not patched
+         8ca3ee6f3f64673f377fc8f5ed163f71181c85ad ALSA: hda/cs35l56: Reject I2C alias addresses
+         63a30a8a301114905caa4922e6c503b7740f2b8c Merge branch 'for-next'
+         
