@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1455721955910505085=="
+Content-Type: multipart/mixed; boundary="===============1629807621680715628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 01 Aug 2023 08:12:47 -0000
-Message-Id: <169087756795.19086.11736706053699805394@gitolite.kernel.org>
+Date: Tue, 01 Aug 2023 08:18:05 -0000
+Message-Id: <169087788526.22646.4518314893096121796@gitolite.kernel.org>
 
---===============1455721955910505085==
+--===============1629807621680715628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/fixes
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    new: 4da3c7183e186afe8196160f16d5a0248a24e45d
-    log: revlist-fdf0eaf11452-4da3c7183e18.txt
+  - ref: refs/heads/dev
+    old: 68252fd8890e7b54f9e0634a302f625d345493d1
+    new: 8c53383377ba43fbf933f58eb6e0772992e78f7f
+    log: revlist-68252fd8890e-8c53383377ba.txt
+  - ref: refs/heads/dev-test
+    old: 68252fd8890e7b54f9e0634a302f625d345493d1
+    new: 8c53383377ba43fbf933f58eb6e0772992e78f7f
+    log: revlist-68252fd8890e-8c53383377ba.txt
 
---===============1455721955910505085==
+--===============1629807621680715628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf0eaf11452-4da3c7183e18.txt
+Content-Disposition: attachment; filename=revlist-68252fd8890e-8c53383377ba.txt
 
 5cadfbd5a11e5495cac217534c5f788168b1afd7 fuse: add feature flag for expire-only
 1c3610d30e5c15f4db7eb8465e311b582aa50ebe fuse: remove duplicate check for nodeid
@@ -798,7 +802,8 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 3dfe6886f96969c46afc42f9ba2791103b7b47c0 Merge tag 'regulator-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
-94c43de73521d8ed7ebcfc6191d9dace1cbf7caa erofs: fix wrong primary bvec selection on deduplicated extents
-4da3c7183e186afe8196160f16d5a0248a24e45d erofs: drop unnecessary WARN_ON() in erofs_kill_sb()
+82c56d931d7da72a2dfc69c4100d5a6762807ee1 erofs: DEFLATE compression support
+f740de033659b14b73c33e845e0f0cdf872bb5e5 erofs: update on-disk format for xattr name filter
+8c53383377ba43fbf933f58eb6e0772992e78f7f erofs: boost negative xattr lookup with bloom filter
 
---===============1455721955910505085==--
+--===============1629807621680715628==--
