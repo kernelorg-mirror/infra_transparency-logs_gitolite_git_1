@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2294504498220812333=="
+Content-Type: multipart/mixed; boundary="===============0653043773501391656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 01 Aug 2023 03:26:13 -0000
-Message-Id: <169086037387.2899.11517856007354326896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 01 Aug 2023 03:26:23 -0000
+Message-Id: <169086038350.3009.7079128851121246539@gitolite.kernel.org>
 
---===============2294504498220812333==
+--===============0653043773501391656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 51b8eb0e7f42f55274e4ea3e4d41cb09465ac3e4
     log: revlist-681f34d52b96-51b8eb0e7f42.txt
 
---===============2294504498220812333==
+--===============0653043773501391656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ bdeeff122e5b731e20a919bbd21004b9832c794d perf tests lib waiting: Fix the shellch
 7c417904ffc4fd403a90cb659ede6908d05567d0 perf tests stat+std_output: Fix shellcheck warnings about word splitting/quoting
 51b8eb0e7f42f55274e4ea3e4d41cb09465ac3e4 perf tests stat+std_output: Fix shellcheck warnings about word splitting/quoting and local variables
 
---===============2294504498220812333==--
+--===============0653043773501391656==--
