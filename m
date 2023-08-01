@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3808824794045635053=="
+Content-Type: multipart/mixed; boundary="===============3731065138221420615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 01 Aug 2023 15:41:01 -0000
-Message-Id: <169090446132.7510.13910358168885897061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 01 Aug 2023 15:41:16 -0000
+Message-Id: <169090447619.7710.17255451632116767471@gitolite.kernel.org>
 
---===============3808824794045635053==
+--===============3731065138221420615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: d09fd7eb07bd709a0942a862dc5195aa3c4ab75f
-    new: 224be454efe6c90360a09887556d0d07dd2ad2a4
-    log: revlist-d09fd7eb07bd-224be454efe6.txt
+  - ref: refs/heads/for-linus
+    old: 0c9d4a3a7b4736dedd18061743cb29a43ec71861
+    new: 207c801d8b14f1a1bca1312742978796b1405ffd
+    log: |
+         207c801d8b14f1a1bca1312742978796b1405ffd Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: ba6924447e1350723910bea21c2d4e65644e115b
+    new: 4bb76008e1d7eb3488fe849fa1a658fa853023ae
+    log: revlist-ba6924447e13-4bb76008e1d7.txt
 
---===============3808824794045635053==
+--===============3731065138221420615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1690904459 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1690904459-c46d37d2bcc422ab4f972fb20151f724d89d8ccb
-
-d09fd7eb07bd709a0942a862dc5195aa3c4ab75f 224be454efe6c90360a09887556d0d07dd2ad2a4 refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTJJ4sACgkQJNaLcl1U
-h9DsrAf8CtNTX2rYLxyZzqhud0Uw1SxJnKpMJS53+XZpFmAun1OIunafZi0cpbKf
-d8PhSbZehaKM4kdz3UOKgT8QhgPvaNN1hc7zv7v3gZNfWS6hmqFFfRHJpG2OtcIn
-F4ba/py+o/SJqcpFbWAR2J3zX5VloyYqwocfAiuSk7FmbOIgH8NpD+k2yP4bt5q/
-wGK2qhd2xltKwzkELazx4x4UHVdgWg3ijOePQeYgxZZiAImW8gIHZ+vibzy41FZL
-POFcErHuS39Uk2NvhoxlooGSE0kEnnBaWcMA2a2WRdO1t0OqBL8yZo2NGk1m/xIE
-2a0D6nlI6Pmj6O4994IdqSDgli+z2w==
-=6NGk
------END PGP SIGNATURE-----
-
---===============3808824794045635053==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d09fd7eb07bd-224be454efe6.txt
+Content-Disposition: attachment; filename=revlist-ba6924447e13-4bb76008e1d7.txt
 
 e63e2810edd229e320249dc85c20c22f4894919e ASoC: Intel: soc-acpi: Add entry for rt711-sdca-sdw at link 0 in RPL match table
 26d9726f667e18134bfc77a3e4e0da7518a8b180 ASoC: Intel: sof_rt5682: add RPL support for MAX98357A speaker
@@ -75,5 +56,7 @@ febac07b4c69242d7870944457c3a1158ab97bdc ASoC: intel: sof_sdw: Remove redundant 
 a386162e7dc2c8bc1be2777b1c6d41156f69b210 ASoC: intel: sof_sdw: Merge codec_conf_alloc into dailink_info
 a60ed3b738705dbcb4afce9a24af00e2671edf19 ASoC: intel: sof_sdw: Move group_generated logic
 224be454efe6c90360a09887556d0d07dd2ad2a4 ASoC: Intel: machine driver updates for 6.6
+207c801d8b14f1a1bca1312742978796b1405ffd Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+4bb76008e1d7eb3488fe849fa1a658fa853023ae Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
---===============3808824794045635053==--
+--===============3731065138221420615==--
