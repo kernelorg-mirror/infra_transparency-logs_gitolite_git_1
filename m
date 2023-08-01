@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6303653381216317630=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 01 Aug 2023 08:53:49 -0000
-Message-Id: <169088002971.16117.7005860993132751784@gitolite.kernel.org>
-
---===============6303653381216317630==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 01 Aug 2023 09:00:16 -0000
+Message-Id: <169088041658.21737.13742729184976518901@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 33a0528c51c2e7b0e18b819a582e7cee61f7fdb4
-    new: 022b5020eb3d627d3a78c2d9508a1066964c32c1
+  - ref: refs/heads/main
+    old: 05e1d8bdb276068069d3de65e488700280029e20
+    new: 630e0afacd4beb8ad3081774169632b5b84e653d
     log: |
-         022b5020eb3d627d3a78c2d9508a1066964c32c1 5.15-stable patches
+         8798481b667fa7c9bbd5aa843bf1557ada699964 net/sched: wrap open coded Qdics class filter counter
+         daf8d9181b9b4b58d3b182d1fea10dec75c5de88 net/sched: sch_drr: warn about class in use while deleting
+         8e4553ef3ed5ea6d58e7ab89955e2a56be4aa4f4 net/sched: sch_hfsc: warn about class in use while deleting
+         7118f56e04d4f89318ad222e210ba70da19a8d15 net/sched: sch_htb: warn about class in use while deleting
+         e20e75017c5a3dbc4a3cc505d8ad57487b500bbb net/sched: sch_qfq: warn about class in use while deleting
+         630e0afacd4beb8ad3081774169632b5b84e653d Merge branch 'net-sched-improve-class-lifetime-handling'
          
-
---===============6303653381216317630==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1690880028 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1690880027-29eed1f49e009898a0ff05a32e93535e6fb592d9
-
-33a0528c51c2e7b0e18b819a582e7cee61f7fdb4 022b5020eb3d627d3a78c2d9508a1066964c32c1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTIyBwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a8gP/ikWOhJjAMn4QOI0iLAo
-MlDHWUnfh3OMOHs1pcVjCpwEvdb2ewu/hxUIquNuFRVdx0oowd3+yoCAKzxyzMJ4
-U0Ob5WKX57cRu78GmhpA+Rtg0JUY3dVqVQyvO4ZVVOnLH/Lab2SYtEOs1q7v8Bzo
-dnrgFXq1rK8ySEu6K7nTFIkIjpBXRCpJ46TaDRpFpSAMNu4mrtpwcAxdqqcL6fJg
-lm3OwIJfYjvkeVkdi7WIlQtRHfLQMgJSYk5v0Xb7JAA3MLMr9G9DuTvRv0iovPZq
-bpzZ5ttdq9G1jpCHymZT/eor+hJjWKO+P4FNl+WefDKcK8z55PV+FMBoZAMR2P2+
-1hWW93tpFOyBDotJmEZpE9ZdYhGP1EEX/ayhMm9rVlFCx2XyL/AhpC6v5JZgkwpu
-IRHI9lXLKFHYjVVMCw7nfgW8oyGxiyTHLkoCuQV9nLkVthocPY7rdsMH2W6felsa
-C3rXMUPfUxyIoeDzGh2Iy/waIWOIczXvY4nlweePEJ2TDChVppbBYK08pwPk2tEh
-SlG5O6W3f+vpiPdtrHp4adZc7YYR88cfYxiew1SeZge/Ge7115KjQDUypPsF+GqX
-xtDPXYxD4XjdWFPeLCqlGGljcSRdtP/T7HitaHDbHeYOwBmI8C8DSsXXAGzOyLGL
-JUnms78lz6Cy6r+Wxmh8QmOR
-=+iUi
------END PGP SIGNATURE-----
-
---===============6303653381216317630==--
