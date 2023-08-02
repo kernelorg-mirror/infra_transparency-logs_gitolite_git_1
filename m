@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Aug 2023 14:27:59 -0000
-Message-Id: <169098647966.15933.7233476473960027807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 02 Aug 2023 14:34:35 -0000
+Message-Id: <169098687508.19907.7689730062895081555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/x86/core
-    old: d7114f83ee051dfeac82546d7ba03d74f8b92af3
-    new: 029239c5b0e6484e4443be90e5664fd0bf0f066b
+  - ref: refs/heads/next
+    old: 82d536db28f45dfea7f037bc931bc3a7c956a3f3
+    new: e40de41ac5f74196831dac91737e1a0b486ec269
     log: |
-         b65413768abd27a55af74945aec58127a52b30a8 x86/kprobes: Prohibit probing on compiler generated CFI checking code
-         973ab2d61f33dc85212c486e624af348c4eeb5c9 x86/retpoline,kprobes: Fix position of thunk sections with CONFIG_LTO_CLANG
-         029239c5b0e6484e4443be90e5664fd0bf0f066b x86/retpoline,kprobes: Skip optprobe check for indirect jumps with retpolines and IBT
+         e40de41ac5f74196831dac91737e1a0b486ec269 tpm: Disable RNG for all AMD fTPMs
          
