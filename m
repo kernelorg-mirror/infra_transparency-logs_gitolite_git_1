@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4059380362059107138=="
+Content-Type: multipart/mixed; boundary="===============0094175230144095323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 02 Aug 2023 09:15:33 -0000
-Message-Id: <169096773326.2101.12873541201449902511@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 09:18:21 -0000
+Message-Id: <169096790157.3168.8149053227728004249@gitolite.kernel.org>
 
---===============4059380362059107138==
+--===============0094175230144095323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.all
-    old: 7028b622ed01e04690975e728e086246594c386d
-    new: 6766515669bfde84bc4e65c24828c15dea830a30
-    log: revlist-7028b622ed01-6766515669bf.txt
+  - ref: refs/heads/vfs.tmpfs
+    old: 01c45fd0472c5aa510b30a2e0689c7ba34fcf45d
+    new: e49a2016684de6dd61f68b2e839dea3028eca701
+    log: revlist-01c45fd0472c-e49a2016684d.txt
 
---===============4059380362059107138==
+--===============0094175230144095323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7028b622ed01-6766515669bf.txt
+Content-Disposition: attachment; filename=revlist-01c45fd0472c-e49a2016684d.txt
 
 cd939e9a3b06d3df8c812ef5219a30ac15bf2790 shmem: make shmem_inode_acct_block() return error
 ae9bc0b0728d349ead57c49db56af77fb4af2b46 shmem: make shmem_get_inode() return ERR_PTR instead of NULL
@@ -38,11 +38,5 @@ ceb6b403a20c8d5625550b766f25ce0b8541a146 libfs: Add directory operations for sta
 1e4159490ea6db0968de1530a7fc271342d4b101 shmem: stable directory offsets
 2dc8dc6c9563c83a1e9bf18469437a0d78276a2d libfs: Add a lock class for the offset map's xa_lock
 e49a2016684de6dd61f68b2e839dea3028eca701 libfs: Remove parent dentry locking in offset_iterate_dir()
-8d66ed1cb2af028b867c23318032e2cc50eea16f fs/ecryptfs: remove kernel-doc warnings
-0841fcc5fcc2d72460057b98eeb48b32ddb9534a Merge branch 'vfs.tmpfs' into vfs.all
-07d3b90bcd280c556aac70e81e21152906d9c55c Merge branch 'vfs.misc' into vfs.all
-f44da1f707680f703a066907a8ca8eae88b135e0 Merge branch 'fs.proc.uapi' into vfs.all
-973904d1e17706d4619602b7286de25260cf0110 Merge branch 'vfs.fchmodat2' into vfs.all
-6766515669bfde84bc4e65c24828c15dea830a30 Merge branch 'vfs.super' into vfs.all
 
---===============4059380362059107138==--
+--===============0094175230144095323==--
