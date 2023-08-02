@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 02 Aug 2023 18:46:27 -0000
-Message-Id: <169100198707.10901.8549370168592034105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 02 Aug 2023 18:47:55 -0000
+Message-Id: <169100207556.11492.4282037986556419373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing/fam01-next20230731
-    old: 686a448268382aefe178130cd2b582db09b14aeb
-    new: fb53d89ede1aed6cca2a6cb73ffecb99fe1bcc65
+  - ref: refs/heads/master
+    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+    new: 4b954598a47ba07034aab9af8ddd485bdc3d5b16
     log: |
-         768db2c3764a490118f6850d24f6e49998494b6c i40e: Replace one-element array with flex-array member in struct i40e_package_header
-         52da391229a45fe3dbd5c43167cdb0701a17a361 i40e: Replace one-element array with flex-array member in struct i40e_profile_segment
-         ddc1cde5fe6cb6a0865ae96d0d064298e343720d i40e: Replace one-element array with flex-array member in struct i40e_section_table
-         8b945fa3afeb26b954c400c5b880c0ae175091ac i40e: Replace one-element array with flex-array member in struct i40e_profile_aq_section
-         565ca1d69bf35940569796cfba6d1212a553abba alpha: Replace one-element array with flexible-array member
-         fb53d89ede1aed6cca2a6cb73ffecb99fe1bcc65 RDMA/irdma: Replace one-element array with flexible-array member
+         daf60d6cca26e50d65dac374db92e58de745ad26 exfat: use kvmalloc_array/kvfree instead of kmalloc_array/kfree
+         d42334578eba1390859012ebb91e1e556d51db49 exfat: check if filename entries exceeds max filename length
+         ff84772fd45d486e4fc78c82e2f70ce5333543e6 exfat: release s_lock before calling dir_emit()
+         010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
+         e65851989001c0c9ba9177564b13b38201c0854c scsi: zfcp: Defer fc_rport blocking until after ADISC response
+         d4e0265345778c623d1fe619075b677731847c34 scsi: pm80xx: Fix error return code in pm8001_pci_probe()
+         79e8328e5acbe691bbde029a52c89d70dcbc22f3 word-at-a-time: use the same return type for has_zero regardless of endianness
+         79d65ee53b968c006ad382a4d4c2dccd898706f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+         4b954598a47ba07034aab9af8ddd485bdc3d5b16 Merge tag 'exfat-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
          
