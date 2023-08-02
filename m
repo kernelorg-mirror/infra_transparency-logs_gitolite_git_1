@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 02 Aug 2023 11:20:57 -0000
-Message-Id: <169097525737.10336.4008480341822758323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Wed, 02 Aug 2023 11:22:50 -0000
+Message-Id: <169097537056.11128.6968284990162574067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/x86-efistub-cleanup-v8
-    old: 9bd8331f648b24ac3b5211d99af2e2aefbc38d4a
-    new: 69ab6e77c3a4731d4e0101fff858539684e8632b
+  - ref: refs/heads/mhi-next
+    old: d0184830e611d0881e014e0fb10da707edbb3f71
+    new: 14a2714085acd94da5774081a5735c655540b632
     log: |
-         69ab6e77c3a4731d4e0101fff858539684e8632b x86/efistub: Avoid legacy decompressor when doing EFI boot
+         14a2714085acd94da5774081a5735c655540b632 docs: ABI: sysfs-bus-mhi: Update contact info
          
