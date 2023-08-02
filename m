@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7997996323312972241=="
+Content-Type: multipart/mixed; boundary="===============0204847219663071261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 02 Aug 2023 12:33:16 -0000
-Message-Id: <169097959613.29619.14277699873179401464@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 12:58:26 -0000
+Message-Id: <169098110692.15343.5615381130321800243@gitolite.kernel.org>
 
---===============7997996323312972241==
+--===============0204847219663071261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,26 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/x86-efistub-cleanup-v8
-    old: 9c8e00daff7c9f947c657ef7cfc2941d0e852d34
-    new: 0c03dcb61935f99008a36397bf9cfbd39b6cfa7f
-    log: revlist-9c8e00daff7c-0c03dcb61935.txt
+    old: 0c03dcb61935f99008a36397bf9cfbd39b6cfa7f
+    new: 5793d445f74a41edc1859bd9a5e27d2d033ce022
+    log: revlist-0c03dcb61935-5793d445f74a.txt
 
---===============7997996323312972241==
+--===============0204847219663071261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c8e00daff7c-0c03dcb61935.txt
+Content-Disposition: attachment; filename=revlist-0c03dcb61935-5793d445f74a.txt
 
-95e6987e334cec56dc8df85c546d287cd1d3d675 x86/decompressor: Call trampoline directly from C code
-cc01f1f07b08e161ec1945ef1d981ab3ef4f4254 x86/decompressor: Only call the trampoline when changing paging levels
-19689d1904eb74c9575e5fdbecd378d61ab63147 x86/decompressor: Pass pgtable address to trampoline directly
-ef474500fa256b0ee98686f3028c1d7421292063 x86/decompressor: Merge trampoline cleanup with switching code
-c901b246805e6ba1a96ca6fb82e73ed28d766e20 x86/efistub: Perform 4/5 level paging switch from the stub
-b54341d93927fd5062cf4312abd9d1c4bd5eeaf4 x86/efistub: Prefer EFI memory attributes protocol over DXE services
-a70cd3bf0a2603ae7674871f67f665ca7d813eb4 decompress: Use 8 byte alignment
-beb64651356ff481ebdbf529f5f7a5bc552a59f4 x86/decompressor: Move global symbol references to C code
-64bb6246c7fca8b8a4e90eb5763f2818a579992b x86/decompressor: Factor out kernel decompression and relocation
-b3d4cd56a9b022a6b5d837aa14f985e216afe216 efi/libstub: Add limit argument to efi_random_alloc()
-caa0ea627f58c1e4d96e2d58ce148277c213ed22 x86/efistub: Perform SNP feature test while running in the firmware
-0c03dcb61935f99008a36397bf9cfbd39b6cfa7f x86/efistub: Avoid legacy decompressor when doing EFI boot
+c24bb6bb2a59b757f5635c1260cc7e48f0a43a2a x86/decompressor: Only call the trampoline when changing paging levels
+b042a7e916672df631c01e743192bff0a12a5e5d x86/decompressor: Pass pgtable address to trampoline directly
+b73c2e93a1aaf90c559a25af898aa48403e54b13 x86/decompressor: Merge trampoline cleanup with switching code
+97ba504261dd9560405cfada3a56eadcd4face95 x86/efistub: Perform 4/5 level paging switch from the stub
+b1b1124306b13afa89d096e2f778a0fbeddff948 x86/efistub: Prefer EFI memory attributes protocol over DXE services
+1f72e3f51ebe67e1f632a89803a2f026a30b9acf decompress: Use 8 byte alignment
+70f801e000641a9546934c22596032bd6604dee8 x86/decompressor: Move global symbol references to C code
+e24a28cf5baa9ad178ecc9a5c91c0f4b403d575f x86/decompressor: Factor out kernel decompression and relocation
+196182b243aad07e414f699ad4c4610ae5a4f78c efi/libstub: Add limit argument to efi_random_alloc()
+87d8e133196a923a20a1e5151ac7ede3463b1cc2 x86/efistub: Perform SNP feature test while running in the firmware
+5793d445f74a41edc1859bd9a5e27d2d033ce022 x86/efistub: Avoid legacy decompressor when doing EFI boot
 
---===============7997996323312972241==--
+--===============0204847219663071261==--
