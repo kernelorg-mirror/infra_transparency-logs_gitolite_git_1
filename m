@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1297150397071415526=="
+Content-Type: multipart/mixed; boundary="===============9128946470799533097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 02 Aug 2023 09:00:30 -0000
-Message-Id: <169096683013.22226.3725856241792936055@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 09:00:45 -0000
+Message-Id: <169096684510.22390.1447755198525353164@gitolite.kernel.org>
 
---===============1297150397071415526==
+--===============9128946470799533097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/for-next
     old: a424eada69fb9d338ca141569d14c13b7a6ea590
     new: caea958926c33c72fd1c91b892feca82314e27e5
     log: revlist-a424eada69fb-caea958926c3.txt
 
---===============1297150397071415526==
+--===============9128946470799533097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -841,4 +841,4 @@ ac1bc5f957c1f5eef6b8aba48e585c06d83509a8 ata: sata_dwc_460ex: Convert to platfor
 3596b025627cdc84ac8c31b299a73cc0c350ed93 ata: sata_mv: Convert to platform remove callback returning void
 caea958926c33c72fd1c91b892feca82314e27e5 ata: sata_rcar: Convert to platform remove callback returning void
 
---===============1297150397071415526==--
+--===============9128946470799533097==--
