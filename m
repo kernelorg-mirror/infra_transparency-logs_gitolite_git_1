@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 02 Aug 2023 11:56:54 -0000
-Message-Id: <169097741494.3680.4763065284106536329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Wed, 02 Aug 2023 11:57:19 -0000
+Message-Id: <169097743908.3909.14204424555592595832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/osbi-nomap
-    old: 250d12a4acc055a1a59beea02141ca42bf5590e3
-    new: 0b3451385fd3d5430924aa3d08020e748f91a775
+  - ref: refs/heads/next
+    old: 04e8429c5b4f644257fe64db3403205a7a41e33b
+    new: c00701125cf379f8ce9a4c98cb3cbf9edc3a5672
     log: |
-         af130711e4b8e7562cb6f0d10190d05bb2313be2 RISC-V: handle missing "no-map" properties for OpenSBI's PMP protected regions
-         0b3451385fd3d5430924aa3d08020e748f91a775 Revert "RISC-V: mark hibernation as nonportable"
+         c00701125cf379f8ce9a4c98cb3cbf9edc3a5672 coresight: trbe: Directly use ID_AA64DFR0_EL1_TraceBuffer_IMP
          
