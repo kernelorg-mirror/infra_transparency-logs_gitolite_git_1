@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 02 Aug 2023 09:03:43 -0000
-Message-Id: <169096702384.23524.352783793473954210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 02 Aug 2023 09:04:45 -0000
+Message-Id: <169096708544.23964.17771277257477561747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/b4/vfs-super-exclusive
-    old: f859af42a2623890c6493f535c558fa465430286
-    new: 3e1f3f8862be06ad23dfb302288f8062f6a05955
+  - ref: refs/heads/main
+    old: 0a368a5c4e38438b36693e7522effb6eb1ab92f9
+    new: d7301c4a733c51dc87a31d2274f467b3c80e507a
     log: |
-         9044f6d60339ca827696d491bd55d63f4e42b3fb super: remove get_tree_single_reconf()
-         58e7e6c0dc084d11ffed41a498326e131ff0292e fs: add vfs_cmd_create()
-         fbec08165e845b9ad719aa62de76740d45fc715b fs: add vfs_cmd_reconfigure()
-         3e1f3f8862be06ad23dfb302288f8062f6a05955 fs: add FSCONFIG_CMD_CREATE_EXCL
+         a67fa91130ca3c20d2529b7c98ea6e8ef7addfa5 net: stmmac: dwmac-oxnas: remove obsolete dwmac glue driver
+         6d7d66ac9ce13ca8145b5c1ade08e622dd191395 dt-bindings: net: oxnas-dwmac: remove obsolete bindings
+         d7301c4a733c51dc87a31d2274f467b3c80e507a Merge branch 'oxnas=dwmac-removal'
          
