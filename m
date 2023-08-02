@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Aug 2023 19:10:50 -0000
-Message-Id: <169100345059.29015.5369200630864622708@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 19:30:56 -0000
+Message-Id: <169100465626.10706.9420683215008163613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ae336f30d513c5ccd8a87db02804c7451a061461
-    new: 9e63a99c566faf2a4b8f6257ea7fea82106612cc
+    old: 9e63a99c566faf2a4b8f6257ea7fea82106612cc
+    new: 30ff01ee99bc961e5f278f997e41ffb94785a88b
     log: |
-         ae3683a34265381cd4bc006295a091009c7215d1 net: dsa: hellcreek: Replace bogus comment
-         497c3a5fb3ed4a59c4d3c460c70393dd609815dc cirrus: cs89x0: fix the return value handle and remove redundant dev_warn() for platform_get_irq()
-         9e63a99c566faf2a4b8f6257ea7fea82106612cc udp: Remove unused function declaration udp_bpf_get_proto()
+         2fca1b5ef898b131c430eed6f07b8972fb6c9673 ila: Remove unnecessary file net/ila.h
+         e12f2a6d1b9e10cfa1a5c520a620cd5c3a7ceba3 netlabel: Remove unused declaration netlbl_cipsov4_doi_free()
+         f85b1c7da776d0cb2b4509bdd7f406fe5607930b net: switchdev: Remove unused typedef switchdev_obj_dump_cb_t()
+         30ff01ee99bc961e5f278f997e41ffb94785a88b pds_core: Fix documentation for pds_client_register
          
