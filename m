@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 02 Aug 2023 20:50:04 -0000
-Message-Id: <169100940402.5164.5424809091792319234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 02 Aug 2023 20:50:48 -0000
+Message-Id: <169100944846.5562.4077287436183045872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-6.6/io_uring
-    old: 95ba83afd0968d4699054e613033d1cefb295845
-    new: 33d7a8d1ff075329acb9dc9cadf10d6d4f738b2b
+  - ref: refs/heads/fixes
+    old: 25696067202f047e22c1562f1f56b0e2eb547d1a
+    new: 640c503d7dbd7d34a62099c933f4db0ed77ccbec
     log: |
-         33d7a8d1ff075329acb9dc9cadf10d6d4f738b2b io_uring: annotate the struct io_kiocb slab for appropriate user copy
-         
-  - ref: refs/heads/for-next
-    old: 927c5bbf3e445c182c3467832633e60a2d320c1a
-    new: 473ddd99450c07772c566bbb19519902dbc27586
-    log: |
-         33d7a8d1ff075329acb9dc9cadf10d6d4f738b2b io_uring: annotate the struct io_kiocb slab for appropriate user copy
-         473ddd99450c07772c566bbb19519902dbc27586 Merge branch 'for-6.6/io_uring' into for-next
+         568701fee36652a7660ed667a3980c945d8051e0 RISC-V: ACPI: Fix acpi_os_ioremap to return iomem address
+         fbe7d19d2b7fcbd38905ba9f691be8f245c6faa6 riscv: Export va_kernel_pa_offset in vmcoreinfo
+         640c503d7dbd7d34a62099c933f4db0ed77ccbec Documentation: kdump: Add va_kernel_pa_offset for RISCV64
          
