@@ -1,27 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 02 Aug 2023 22:50:03 -0000
-Message-Id: <169101660316.29259.17412691851621517580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 02 Aug 2023 23:13:48 -0000
+Message-Id: <169101802881.14268.1829508236168834388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    new: 4b954598a47ba07034aab9af8ddd485bdc3d5b16
+  - ref: refs/heads/devel
+    old: 87b549efcb0f7934b0916d2a00607a878b6f1e0f
+    new: 046d3546750a3e2f2e8e7d39318290604fe6f202
     log: |
-         daf60d6cca26e50d65dac374db92e58de745ad26 exfat: use kvmalloc_array/kvfree instead of kmalloc_array/kfree
-         d42334578eba1390859012ebb91e1e556d51db49 exfat: check if filename entries exceeds max filename length
-         ff84772fd45d486e4fc78c82e2f70ce5333543e6 exfat: release s_lock before calling dir_emit()
-         010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
-         e65851989001c0c9ba9177564b13b38201c0854c scsi: zfcp: Defer fc_rport blocking until after ADISC response
-         d4e0265345778c623d1fe619075b677731847c34 scsi: pm80xx: Fix error return code in pm8001_pci_probe()
-         79e8328e5acbe691bbde029a52c89d70dcbc22f3 word-at-a-time: use the same return type for has_zero regardless of endianness
-         79d65ee53b968c006ad382a4d4c2dccd898706f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-         4b954598a47ba07034aab9af8ddd485bdc3d5b16 Merge tag 'exfat-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
+         f46a0b47cc0829acd050213194c5a77351e619b2 pinctrl: renesas: rzv2m: Handle non-unique subnode names
+         bfc374a145ae133613e05b9b89be561f169cb58d pinctrl: renesas: rzg2l: Handle non-unique subnode names
+         f4b2ce40fd99ddb5c2ab9f1193454080f6714dfe pinctrl: renesas: rzv2m: Use devm_clk_get_enabled() helper
+         95eb19869401850f069723b296170b8b3bd5be9e pinctrl: renesas: rzg2l: Use devm_clk_get_enabled() helper
+         b56e23bf0c606b68df2919317f7065dabe3c4e86 pinctrl: core: handle radix_tree_insert() errors in pinctrl_generic_add_group()
+         ecfe9a015d3e1e46504d5b3de7eef1f2d186194a pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+         6ec89cd4d17bd5e818c335b72c736a5094ea66d7 pinctrl: pinmux: handle radix_tree_insert() errors in pinmux_generic_add_function()
+         046d3546750a3e2f2e8e7d39318290604fe6f202 Merge tag 'renesas-pinctrl-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
+         
+  - ref: refs/heads/for-next
+    old: 173b67f16e13d1b744c9984ffea57853f6fb9cad
+    new: 0919b5b0cec0b30f78a93f975aa468ea3bc49017
+    log: |
+         f4b2ce40fd99ddb5c2ab9f1193454080f6714dfe pinctrl: renesas: rzv2m: Use devm_clk_get_enabled() helper
+         95eb19869401850f069723b296170b8b3bd5be9e pinctrl: renesas: rzg2l: Use devm_clk_get_enabled() helper
+         b56e23bf0c606b68df2919317f7065dabe3c4e86 pinctrl: core: handle radix_tree_insert() errors in pinctrl_generic_add_group()
+         ecfe9a015d3e1e46504d5b3de7eef1f2d186194a pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+         6ec89cd4d17bd5e818c335b72c736a5094ea66d7 pinctrl: pinmux: handle radix_tree_insert() errors in pinmux_generic_add_function()
+         046d3546750a3e2f2e8e7d39318290604fe6f202 Merge tag 'renesas-pinctrl-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
+         0919b5b0cec0b30f78a93f975aa468ea3bc49017 Merge branch 'devel' into for-next
          
