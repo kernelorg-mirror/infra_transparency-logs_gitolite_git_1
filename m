@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 02 Aug 2023 20:59:46 -0000
-Message-Id: <169100998690.10648.5769144872607312931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 02 Aug 2023 21:02:59 -0000
+Message-Id: <169101017971.13573.6517250023382848862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 458853310845a7d7dbf75a59aaa104b310e77a9a
-    new: c8573f208a1267021ecd4ed6fea7f548c864b2cf
+    old: d3c4db86c71164ed9ae17b4026e1acde460a18ab
+    new: 94e38c956b97d3bb3f6cc8215efb13ea851e3a91
     log: |
-         c8573f208a1267021ecd4ed6fea7f548c864b2cf Bluetooth: Remove unused declaration amp_read_loc_info()
+         94e38c956b97d3bb3f6cc8215efb13ea851e3a91 libbpf: fix typos in Makefile
          
