@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 02 Aug 2023 13:07:07 -0000
-Message-Id: <169098162712.22028.194339856711087488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Wed, 02 Aug 2023 13:26:10 -0000
+Message-Id: <169098277048.4128.13749804929350739206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 51b8eb0e7f42f55274e4ea3e4d41cb09465ac3e4
-    new: 76efcf00428939d4f72669d3c0428aa6ddb95d49
-    log: |
-         899bcd6a7f0fb7f312276aae9065b8065ed8324d perf test bpf: Address error about non-null argument for epoll_pwait 2nd arg
-         4e43b98637d518e79f30d05dfda1b9e58fae9eb8 perf probe: Show correct error message about @symbol usage for uprobe
-         43a32c7066fae29dae838529a52251f52d7a509f perf parse-events x86: Avoid sorting uops_retired.slots
-         e918cc31d67aba2f97f5e5d8c81b6af4042dc801 perf vendor events intel: Update meteorlake to 1.04
-         770fd7d4d45c3dc061cf5e18058da49eef8ea3d2 perf vendor events intel: Update sapphirerapids to 1.15
-         76efcf00428939d4f72669d3c0428aa6ddb95d49 perf vendor events intel: Update Icelake+ metric constraints
-         
+  - ref: refs/tags/exfat-for-6.5-rc5
+    old: 3af992fd234e75914ac18dc1420ee1a8e4a6956b
+    new: 0000000000000000000000000000000000000000
