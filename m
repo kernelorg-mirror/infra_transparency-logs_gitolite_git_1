@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Aug 2023 09:32:16 -0000
-Message-Id: <169096873605.12982.16667670728663467302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 02 Aug 2023 09:35:34 -0000
+Message-Id: <169096893435.15784.12000322736505791898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 996dcfff998b11daea9f12137caa9c1e507854f1
-    new: 745d7e38e95d782053188be0a8e262ca02bcd6c4
+    old: 1cfef80d4c2b2c599189f36f36320b205d9447d9
+    new: 30e0191b16e8a58e4620fa3e2839ddc7b9d4281c
     log: |
-         745d7e38e95d782053188be0a8e262ca02bcd6c4 net: dsa: mv88e6xxx: Add erratum 3.14 for 88E6390X and 88E6190X
+         30e0191b16e8a58e4620fa3e2839ddc7b9d4281c ip6mr: Fix skb_under_panic in ip6mr_cache_report()
          
