@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Aug 2023 19:08:21 -0000
-Message-Id: <169100330157.26408.10833389571735208747@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 19:10:27 -0000
+Message-Id: <169100342706.28788.15639815973593697703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 34093c9fa05df24558d1e2c5d32f7f93b2c97ee9
-    new: ae1d60c41e581be049aa84dd53aca89027101ce1
+    old: ae1d60c41e581be049aa84dd53aca89027101ce1
+    new: ae336f30d513c5ccd8a87db02804c7451a061461
     log: |
-         ae1d60c41e581be049aa84dd53aca89027101ce1 net: hisilicon: fix the return value handle and remove redundant netdev_err() for platform_get_irq()
+         c7606d49e6093e9a66ffd1c5dfb294a4f8836dba octeontx2: Remove unnecessary ternary operators
+         ae336f30d513c5ccd8a87db02804c7451a061461 bnx2x: Remove unnecessary ternary operators
          
