@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6837292766375812447=="
+Content-Type: multipart/mixed; boundary="===============6137702649716552366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Wed, 02 Aug 2023 00:08:04 -0000
-Message-Id: <169093488470.20335.17972573812180718422@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 00:10:55 -0000
+Message-Id: <169093505546.22995.12338489403100395199@gitolite.kernel.org>
 
---===============6837292766375812447==
+--===============6137702649716552366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/for-linus
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
     log: revlist-06c2afb862f9-5d0c230f1de8.txt
 
---===============6837292766375812447==
+--===============6137702649716552366==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e6d34ced01bc3aaad616b9446bbaa96cd04617c4 Merge tag 'tty-6.5-rc4' of git://git.ke
 d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 Linux 6.5-rc4
 
---===============6837292766375812447==--
+--===============6137702649716552366==--
