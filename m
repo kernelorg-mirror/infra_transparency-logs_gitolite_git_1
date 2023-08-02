@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 02 Aug 2023 20:48:21 -0000
-Message-Id: <169100930172.2821.14530218200018783901@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 20:49:21 -0000
+Message-Id: <169100936191.3253.1883532091788317675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: ab2dbc7accedc2e98eb7d8b8878d337e3b36c95d
-    new: 25696067202f047e22c1562f1f56b0e2eb547d1a
+  - ref: refs/heads/for-next
+    old: 12d61a1bc28eef8d799ba00f370f421f7e942629
+    new: 174e8ac0272d54a9c1cc23185665f715c36620ad
     log: |
-         8c82d2bf5944123d8e90d01bf27655497d9aa321 selftests/riscv: fix potential build failure during the "emit_tests" step
-         25696067202f047e22c1562f1f56b0e2eb547d1a selftests: riscv: Fix compilation error with vstate_exec_nolibc.c
+         174e8ac0272d54a9c1cc23185665f715c36620ad riscv: alternatives: fix a typo in comment
          
