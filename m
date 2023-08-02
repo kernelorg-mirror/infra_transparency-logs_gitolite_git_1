@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 02 Aug 2023 21:24:39 -0000
-Message-Id: <169101147990.29806.5103662155326969819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 02 Aug 2023 21:30:17 -0000
+Message-Id: <169101181747.2792.5308536272835077997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 804633fd3bd12dc1cfdb4eb39e97caa06b1a390a
-    new: a702042f1b78e52592f2c864faa70ca386622292
+    old: 416c6d01244ecbf0abfdb898fd091b50ef951b48
+    new: 87dc2bb3291832994d216c7c86e3f4898022272f
     log: |
-         a702042f1b78e52592f2c864faa70ca386622292 format_patch: Add baseline argument
+         bf4ea1d0b2cb2251f9e5619c81daa98591087c33 bpf, xdp: Add tracepoint to xdp attaching failure
+         7fedbf32fcc779a07abdba1347e759ad52bded2c selftests/bpf: Add testcase for xdp attaching failure tracepoint
+         87dc2bb3291832994d216c7c86e3f4898022272f Merge branch 'bpf-xdp-add-tracepoint-to-xdp-attaching-failure'
          
