@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 02 Aug 2023 20:12:50 -0000
-Message-Id: <169100717055.9438.2805729424490789946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 02 Aug 2023 20:25:33 -0000
+Message-Id: <169100793362.18729.9454829309974463028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: aegl
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/edac-for-next
-    old: c545f5e412250555bd4e717d062b117f20bab418
-    new: ce53ad81ed36c24aff075f94474adecfabfcf239
+  - ref: refs/heads/master
+    old: dd338bea1ff1dcc7e5efc614545c32d1c8c75936
+    new: f2e1dd87c9cdd0a3150a9c5537539c1242b633c6
     log: |
-         ce53ad81ed36c24aff075f94474adecfabfcf239 EDAC/igen6: Fix the issue of no error events
+         d2a31b6f97011fe33a6e81fe7b1106c85dfb2d7d dt-bindings: net: qualcomm: Add WCN3988
+         f2e1dd87c9cdd0a3150a9c5537539c1242b633c6 Bluetooth: btqca: Add WCN3988 support
          
