@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8673756334932833103=="
+Content-Type: multipart/mixed; boundary="===============4876204474191324693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 02 Aug 2023 16:51:22 -0000
-Message-Id: <169099508256.23064.5692719804351904608@gitolite.kernel.org>
+Date: Wed, 02 Aug 2023 16:52:08 -0000
+Message-Id: <169099512825.23435.15898548031067588573@gitolite.kernel.org>
 
---===============8673756334932833103==
+--===============4876204474191324693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/trace/for-next
-    old: fc30ace06f250f79381a8e3f6ed92dd68e25a9f5
+  - ref: refs/heads/for-next
+    old: 61c692f56feceaa5f6bf55301f7c108ac1013e91
     new: 7c1130ea5cae215588e6d51242b877fd405e6c32
-    log: revlist-fc30ace06f25-7c1130ea5cae.txt
+    log: revlist-61c692f56fec-7c1130ea5cae.txt
 
---===============8673756334932833103==
+--===============4876204474191324693==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fc30ace06f25-7c1130ea5cae.txt
+Content-Disposition: attachment; filename=revlist-61c692f56fec-7c1130ea5cae.txt
 
 b1472a60a584694875a05cf8bcba8bdf0dc1cd3a x86/smp: Don't send INIT to boot CPU
 70806ee18a871140a73a2524a29865e1d904348c Merge tag 'apparmor-pr-2023-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
@@ -1051,4 +1051,4 @@ a3760079177765b7f1782419f1c3e12facaf1e9d eventfs: Implement functions to create 
 27152bceea1df27ffebb12ac9cd9adbf2c4c3f35 eventfs: Move tracing/events to eventfs
 7c1130ea5cae215588e6d51242b877fd405e6c32 test: ftrace: Fix kprobe test for eventfs
 
---===============8673756334932833103==--
+--===============4876204474191324693==--
