@@ -1,36 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 02 Aug 2023 15:50:04 -0000
-Message-Id: <169099140402.11667.1426059123181318976@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8713633891212072877=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 02 Aug 2023 16:07:38 -0000
+Message-Id: <169099245819.23865.227073368394287298@gitolite.kernel.org>
+
+--===============8713633891212072877==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6/block
-    old: d276bb291017e564b9f7c21e63fbe41a9fe0c764
-    new: 925c86a19bacf8ce10eb666328fb3fa5aff7b951
+  - ref: refs/heads/master
+    old: 034f2fb2ac27c89c1c7ab2af04d26ba63be9ea6c
+    new: e8045d1353165cc065b2f1b180bf1b0846af510e
     log: |
-         4a8b719f95c0dcd15fb7a04b806ad8139fa7c850 fs: remove emergency_thaw_bdev
-         2ba39cc46bfe463cb9673bf62a04c4c21942f1f2 fs: rename and move block_page_mkwrite_return
-         727cfe976758b79f8d2f8051c75a5ccb14539a56 block: open code __generic_file_write_iter for blkdev writes
-         a05f7bd9578b17521a9a5f3689f3934c082c6390 block: stop setting ->direct_IO
-         487c607df790d366e67a7d6a30adf785cdd98e55 block: use iomap for writes to block devices
-         925c86a19bacf8ce10eb666328fb3fa5aff7b951 fs: add CONFIG_BUFFER_HEAD
+         e8045d1353165cc065b2f1b180bf1b0846af510e ez: Add --use-web-endpoint arg to force web endpoint
          
-  - ref: refs/heads/for-next
-    old: e98acd815ebf6eac43bed669a647f118af18634f
-    new: 927c5bbf3e445c182c3467832633e60a2d320c1a
-    log: |
-         4a8b719f95c0dcd15fb7a04b806ad8139fa7c850 fs: remove emergency_thaw_bdev
-         2ba39cc46bfe463cb9673bf62a04c4c21942f1f2 fs: rename and move block_page_mkwrite_return
-         727cfe976758b79f8d2f8051c75a5ccb14539a56 block: open code __generic_file_write_iter for blkdev writes
-         a05f7bd9578b17521a9a5f3689f3934c082c6390 block: stop setting ->direct_IO
-         487c607df790d366e67a7d6a30adf785cdd98e55 block: use iomap for writes to block devices
-         925c86a19bacf8ce10eb666328fb3fa5aff7b951 fs: add CONFIG_BUFFER_HEAD
-         927c5bbf3e445c182c3467832633e60a2d320c1a Merge branch 'for-6.6/block' into for-next
-         
+
+--===============8713633891212072877==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1690992457 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1690992457-82e3824e499eda1221c5ad69123833539f866e5b
+
+034f2fb2ac27c89c1c7ab2af04d26ba63be9ea6c e8045d1353165cc065b2f1b180bf1b0846af510e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZMp/SQAKCRC2xBzjVmSZ
+bAGpAP9MLA2m7yfrWz2xPV3Sv4QOr1f9Ty0vCKnIo5ud+rYXIQD/ZjrZynbS7Jjl
+ZG2n4S77lsQ5JFT10sx8SjyZdBlOBgE=
+=ZXWe
+-----END PGP SIGNATURE-----
+
+--===============8713633891212072877==--
