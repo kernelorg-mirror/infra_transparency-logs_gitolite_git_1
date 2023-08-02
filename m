@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Wed, 02 Aug 2023 01:20:09 -0000
-Message-Id: <169093920981.13538.12358301575531747277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 02 Aug 2023 02:23:02 -0000
+Message-Id: <169094298231.25073.9384522850337913773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 4c68e4b16b22a8eb9c2dc39086f25c2d1375d049
-    new: bf6377a98d977116f14c438ff2f20d670b6d247a
+  - ref: refs/heads/experimental
+    old: b39289e8d66d7747abbee7d5940c65a54876a100
+    new: b6749839e710078187f2347dc29b7317cbb59d19
     log: |
-         bf6377a98d977116f14c438ff2f20d670b6d247a meson: set minimum Meson version to 0.56.0
-         
-  - ref: refs/heads/master
-    old: 4c68e4b16b22a8eb9c2dc39086f25c2d1375d049
-    new: bf6377a98d977116f14c438ff2f20d670b6d247a
-    log: |
-         bf6377a98d977116f14c438ff2f20d670b6d247a meson: set minimum Meson version to 0.56.0
+         b6749839e710078187f2347dc29b7317cbb59d19 erofs-utils: generate preallocated extents for tarerofs
          
