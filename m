@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 02 Aug 2023 04:09:30 -0000
-Message-Id: <169094937021.4102.17176204852852776655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 02 Aug 2023 04:15:04 -0000
+Message-Id: <169094970431.10116.14586092120502213356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 4a4474e3bf8af318e556c6c9bfa9ce24103d5c8d
-    new: 31d49ba033095f6e8158c60f69714a500922e0c3
+  - ref: refs/heads/master
+    old: 727ca37ab7408cda8f9fc96e8104fab0e5fc266c
+    new: 40b330f8707b0b976ae39c6d3e6de6a02c0f19f5
     log: |
-         31d49ba033095f6e8158c60f69714a500922e0c3 net: dcb: choose correct policy to parse DCB_ATTR_BCN
+         40b330f8707b0b976ae39c6d3e6de6a02c0f19f5 sysctl: set variable key_sysctls storage-class-specifier to static
          
