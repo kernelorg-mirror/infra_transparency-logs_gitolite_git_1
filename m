@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 02 Aug 2023 02:23:02 -0000
-Message-Id: <169094298231.25073.9384522850337913773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/xfs-lts-backports
+Date: Wed, 02 Aug 2023 02:23:32 -0000
+Message-Id: <169094301240.25336.18373817533409498475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tytso/xfs-lts-backports
+user: tytso
 changes:
-  - ref: refs/heads/experimental
-    old: b39289e8d66d7747abbee7d5940c65a54876a100
-    new: b6749839e710078187f2347dc29b7317cbb59d19
-    log: |
-         b6749839e710078187f2347dc29b7317cbb59d19 erofs-utils: generate preallocated extents for tarerofs
-         
+  - ref: refs/heads/xfs-5.15
+    old: 0000000000000000000000000000000000000000
+    new: eb639a92fb500b08a7d0460ffa6a8a00d1191dcf
