@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 02 Aug 2023 10:37:58 -0000
-Message-Id: <169097267811.11409.15898065293216900384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 02 Aug 2023 10:41:16 -0000
+Message-Id: <169097287609.14196.12531355957287009510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/main
-    old: 1d7dd5aa35474e553b8671b58579e0749b560779
-    new: 16e455a465fca91907af0108f3d013150386df30
+    old: 27bcd12295164c710369a94e56dc1ddfee1bbb75
+    new: bd60438eeb1ebe9415b157398083b4910c7f0aa3
     log: |
-         16e455a465fca91907af0108f3d013150386df30 wifi: brcmfmac: Fix field-spanning write in brcmf_scan_params_v2_to_v1()
+         bd60438eeb1ebe9415b157398083b4910c7f0aa3 selftests/net: report rcv_mss in tcp_mmap
          
