@@ -1,70 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5651443241735873246=="
+Content-Type: multipart/mixed; boundary="===============7582490905814954552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 03 Aug 2023 09:26:50 -0000
-Message-Id: <169105481064.15278.18163252251726531513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
+Date: Thu, 03 Aug 2023 09:28:32 -0000
+Message-Id: <169105491221.15967.16708001760927844758@gitolite.kernel.org>
 
---===============5651443241735873246==
+--===============7582490905814954552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/hansg/linux
+user: hansg
 changes:
-  - ref: refs/heads/ath-next
-    old: 3742928a52d6859731d525f06c09decff87ffa01
-    new: 8198950ccb7d311f8b4389441d8dcb597f926340
-    log: revlist-3742928a52d6-8198950ccb7d.txt
-  - ref: refs/heads/ath-qca
-    old: a0256a9416806892d5a7dc9345c51c12b0c63f55
-    new: d57c39267296f4ac6836c639d2e817eadb9aa368
-    log: revlist-a0256a941680-d57c39267296.txt
+  - ref: refs/heads/media-ov2680
+    old: a17f9773e032a12d52d8e5cab428fb27233e54d0
+    new: bec23424ee97063424e001629c951a17a96198c3
+    log: revlist-a17f9773e032-bec23424ee97.txt
 
---===============5651443241735873246==
+--===============7582490905814954552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3742928a52d6-8198950ccb7d.txt
+Content-Disposition: attachment; filename=revlist-a17f9773e032-bec23424ee97.txt
 
-e22f5b780c691ae2ed0d5e7743ccd6183baf5dc2 wifi: ath12k: rename HE capabilities setup/copy functions
-a7a6a45d37fe868b30363255d3a37a44acd1cf37 wifi: ath12k: move HE capabilities processing to a new function
-1476014fadb6625c6720c4439ff0c4b5b5431137 wifi: ath12k: WMI support to process EHT capabilities
-dbe90679bfa1287651b8bb8304b7ce46b00a5f81 wifi: ath12k: propagate EHT capabilities to userspace
-38013653a69734e2bcf84ce951f7a4aee3966320 wifi: ath12k: add EHT PHY modes
-17bbb8aa74fded03527427c25f43a29590c6a9ab wifi: ath12k: prepare EHT peer assoc parameters
-5b70ec6036c1c755fd1c1aa80ace3d349d91f3a5 wifi: ath12k: add WMI support for EHT peer
-6734cf9b4cc7ae017ec1e9ab44a8ba0d8c512d5d wifi: ath12k: peer assoc for 320 MHz
-22e1d1166c27ed9099f1312cd2043a480b1bda14 wifi: ath12k: add MLO header in peer association
-9211df5c025a5e50de8b8cb0798c1120f8593d8a wifi: ath12k: parse WMI service ready ext2 event
-07c01b86f21dd499bd487b70c1536f868fede241 wifi: ath12k: configure puncturing bitmap
-89a9dda1430a71fe95ad2b4f8056e7aa15b4aee7 wifi: ath12k: relax list iteration in ath12k_mac_vif_unref()
-9632ea57be659887ab0d28a2a1d7b901dfddd263 wifi: ath12k: add handler for scan event WMI_SCAN_EVENT_DEQUEUED
-8198950ccb7d311f8b4389441d8dcb597f926340 wifi: ath12k: avoid deadlock by change ieee80211_queue_work for regd_update_work
+80c73d0ff274e53bd8e9b736ee0328cd35ddd4fb media: ov2680: Add support for ACPI enumeration
+dc8a59a52ce48ccc3f66b7e799ae21832cac569b media: ov2680: Fix ov2680_enum_frame_interval()
+9d8c1ec3445a1d45bbc233c1a58718540fd29242 media: ov2680: Annotate the per mode register setting lists
+eac8b3f4bc9135f665dd72a062547ab23dfbab11 media: ov2680: Add ov2680_mode struct
+ec8bf5588bda9b73cee1d4cee65de7e95476d235 media: ov2680: Make setting the mode algorithm based
+b591bd8bde6f3335bd908ced07f5156a7da14910 media: ov2680: Add an __ov2680_get_pad_format() helper function
+a11cc07ddfae1c5466e371b11ff3c13510caafc1 media: ov2680: Implement selection support
+3c7629ca86db15017266636abe4e6302248cc6dd media: ov2680: Fix exposure and gain ctrls range and default value
+bf0f0388accec4b00af41799aa01b3c6a131b596 media: ov2680: Add a bunch of register tweaks
+133de2fbb570836d414a3ad55b8c77f77836844d media: ov2680: Drop unnecessary pad checks
+7de0aee91a39d727a51c012d3c25ca193f900500 media: ov2680: Read and log sensor revision during probe
+76ac000d5d5be77110d89f5e00170580c24281e8 media: ov2680: Add link-freq and pixel-rate controls
+35fb014d73690abaa8c0b66c63c2ce5ed32e6b76 media: ov2680: Add bus-cfg / endpoint property verification
+476bf43ae07e6d8dee28e7733ab832f338721cfb MAINTAINERS: Add Hans de Goede as OV2680 sensor driver maintainer
+1de0544723cebfa8f28f47bf26f0d8835495569f media: ipu-bridge: Add link-frequency to OV2680 ipu_supported_sensors[] entry
+bec23424ee97063424e001629c951a17a96198c3 media: atomisp: Drop atomisp-ov2680 sensor driver
 
---===============5651443241735873246==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0256a941680-d57c39267296.txt
-
-e22f5b780c691ae2ed0d5e7743ccd6183baf5dc2 wifi: ath12k: rename HE capabilities setup/copy functions
-a7a6a45d37fe868b30363255d3a37a44acd1cf37 wifi: ath12k: move HE capabilities processing to a new function
-1476014fadb6625c6720c4439ff0c4b5b5431137 wifi: ath12k: WMI support to process EHT capabilities
-dbe90679bfa1287651b8bb8304b7ce46b00a5f81 wifi: ath12k: propagate EHT capabilities to userspace
-38013653a69734e2bcf84ce951f7a4aee3966320 wifi: ath12k: add EHT PHY modes
-17bbb8aa74fded03527427c25f43a29590c6a9ab wifi: ath12k: prepare EHT peer assoc parameters
-5b70ec6036c1c755fd1c1aa80ace3d349d91f3a5 wifi: ath12k: add WMI support for EHT peer
-6734cf9b4cc7ae017ec1e9ab44a8ba0d8c512d5d wifi: ath12k: peer assoc for 320 MHz
-22e1d1166c27ed9099f1312cd2043a480b1bda14 wifi: ath12k: add MLO header in peer association
-9211df5c025a5e50de8b8cb0798c1120f8593d8a wifi: ath12k: parse WMI service ready ext2 event
-07c01b86f21dd499bd487b70c1536f868fede241 wifi: ath12k: configure puncturing bitmap
-89a9dda1430a71fe95ad2b4f8056e7aa15b4aee7 wifi: ath12k: relax list iteration in ath12k_mac_vif_unref()
-9632ea57be659887ab0d28a2a1d7b901dfddd263 wifi: ath12k: add handler for scan event WMI_SCAN_EVENT_DEQUEUED
-8198950ccb7d311f8b4389441d8dcb597f926340 wifi: ath12k: avoid deadlock by change ieee80211_queue_work for regd_update_work
-d57c39267296f4ac6836c639d2e817eadb9aa368 Merge branch 'ath-next' into ath-qca
-
---===============5651443241735873246==--
+--===============7582490905814954552==--
