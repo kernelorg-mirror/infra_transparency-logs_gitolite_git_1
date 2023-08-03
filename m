@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1542044175489292127=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 03 Aug 2023 14:56:56 -0000
-Message-Id: <169107461615.11978.6043886018641148712@gitolite.kernel.org>
-
---===============1542044175489292127==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 03 Aug 2023 14:57:21 -0000
+Message-Id: <169107464187.12222.1838924020403265824@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.6
-    old: 39b5ba6cb56962d2ac83e4dd89f68538f7861efe
-    new: 22475bcc2083196544fa55b861d76e0e7ee9da11
+  - ref: refs/heads/for-linus
+    old: 1920c7b4beb5165b4ed485574588055b2f721eff
+    new: 009c3bcf5dc5ae8ac585a3c535057b3a150f6855
+    log: |
+         009c3bcf5dc5ae8ac585a3c535057b3a150f6855 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         
+  - ref: refs/heads/for-next
+    old: 4fb53b2377c364e3753d6e293913b57dad68e98b
+    new: 0b89d358427b7665d02211b48610cb7199af231b
     log: |
          22475bcc2083196544fa55b861d76e0e7ee9da11 regulator: userspace-consumer: Add regulator event support
+         009c3bcf5dc5ae8ac585a3c535057b3a150f6855 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         0b89d358427b7665d02211b48610cb7199af231b Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
          
-
---===============1542044175489292127==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691074614 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691074614-b6864072614f0bd89fdf29e24504d80668d9e723
-
-39b5ba6cb56962d2ac83e4dd89f68538f7861efe 22475bcc2083196544fa55b861d76e0e7ee9da11 refs/heads/regulator-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTLwDYACgkQJNaLcl1U
-h9DSAQf/TzQT+HnqE+0C8sssTfrzO1kgp2xec7tnFahODtJmNxQnsyxhNE7Oj5Rd
-2rQzdgrhb6jH2D2OIwQcNULm6+zvNBtrmD3o2QI9fN2LNHCENFTeuVprpGUXMqxH
-zQCRjqMj+EDUyYI8NoEnjZzX1EpBlXcMnDfin/1qLw/oTV+iJDey6l65cGVaSbo3
-qT9VErJEkvmF6Es+FqNuVOJM17ec14ZR3BfRjXkVlTzmlguV+A4AnlKj3PCRCiYD
-PdaLQTOxo0CeB3WhhCBEC+755sW5B5B0fRU6FHqnPJtFw5HR1B/z2vrBDmRvifhg
-0LOykqSWFnbrwRY0ohyfPEtFwidudw==
-=vq5v
------END PGP SIGNATURE-----
-
---===============1542044175489292127==--
