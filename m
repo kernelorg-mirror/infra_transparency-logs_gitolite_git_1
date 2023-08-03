@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 03 Aug 2023 01:50:04 -0000
-Message-Id: <169102740420.4362.6593987947147880405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 03 Aug 2023 01:51:31 -0000
+Message-Id: <169102749173.5018.17449021887601955226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-6.6/io_uring
-    old: 33d7a8d1ff075329acb9dc9cadf10d6d4f738b2b
-    new: 8c57ecb0f5e58bcff0a8b7e984b77b261440b8c3
+  - ref: refs/heads/seen
+    old: 44838eabefb8fd86ff708607bdf95ccb681179b6
+    new: d9799259bf129cf997e3a766a1600ac016f984c7
     log: |
-         8c57ecb0f5e58bcff0a8b7e984b77b261440b8c3 io_uring: annotate the struct io_kiocb slab for appropriate user copy
-         
-  - ref: refs/heads/for-next
-    old: 473ddd99450c07772c566bbb19519902dbc27586
-    new: ba6396fc67ca7237024359674b43988c72190c0a
-    log: |
-         8c57ecb0f5e58bcff0a8b7e984b77b261440b8c3 io_uring: annotate the struct io_kiocb slab for appropriate user copy
-         ba6396fc67ca7237024359674b43988c72190c0a Merge branch 'for-6.6/io_uring' into for-next
+         adbda9c5ca81dccc980466961aa22cdfc8f09ddd rerere: simplify handle_file() helper function
+         80a15bccfe59e3711f0895e2c6edf5d38ccdb633 rerere: try_merge() should use LL_MERGE_ERROR when it means an error
+         26a77c5a665ce83a8804016a51d1a9dfaf01f974 rerere: modernize use of empty strbuf
+         863dda0473fb56102b4720d902afc01d5a2261a5 rerere: plug small strbuf leak
+         d9799259bf129cf997e3a766a1600ac016f984c7 Merge branch 'jc/rerere-cleanup' into seen
          
