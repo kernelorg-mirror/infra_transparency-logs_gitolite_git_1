@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 03 Aug 2023 16:06:35 -0000
-Message-Id: <169107879590.31141.5420672549802075788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 03 Aug 2023 16:06:52 -0000
+Message-Id: <169107881205.31355.13618039860595967881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 613fcf3071588741517a3f577e2c522bd47b3c8e
-    new: 6559da162f73ce87d5513613c205e5c255e357a9
+    old: afd250ec4ea60cb117487a889a35c2f2e9d45f4b
+    new: 465d09de4e36e8dad885f96f8ae540d2cd2747e4
     log: |
-         6559da162f73ce87d5513613c205e5c255e357a9 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         465d09de4e36e8dad885f96f8ae540d2cd2747e4 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: a8dc5097d92a224faf279f500ee6ca9b0b17094b
-    new: 62c13d1940a8f5a0fb852368863822e1364c8092
+    old: 7459240ce3c2dc660579f402f81e278de9dc9ea2
+    new: 75046e108653e9674b41cb36b0ca6c8f46cf66a6
     log: |
-         248c74bf42c16262f95f26523683334686a26263 ASoC: mediatek: mt8186: Remove unused mutex.
-         6559da162f73ce87d5513613c205e5c255e357a9 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         62c13d1940a8f5a0fb852368863822e1364c8092 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         d8736266ae960504110e812994f555bf7cb8740c spi: fsl-spi: Do not check 0 for platform_get_irq()
+         465d09de4e36e8dad885f96f8ae540d2cd2747e4 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         75046e108653e9674b41cb36b0ca6c8f46cf66a6 Merge remote-tracking branch 'spi/for-6.6' into spi-next
          
