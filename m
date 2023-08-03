@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 03 Aug 2023 18:41:53 -0000
-Message-Id: <169108811376.18071.12206159524619129225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Thu, 03 Aug 2023 18:42:39 -0000
+Message-Id: <169108815973.18428.6163282995302408804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/controller/tegra194
-    old: 9357e7a50bebca43bc837c7f059bac600a12736a
-    new: ebfde1584d9f037b6309fc682c96e22dac7bcb7a
+  - ref: refs/heads/pending
+    old: f3cca0bab1d5902f232fe45a112ba61368d12f44
+    new: 611d45b23bdb36e8424e3db53216ff31932434e5
     log: |
-         ebfde1584d9f037b6309fc682c96e22dac7bcb7a Revert "PCI: tegra194: Enable support for 256 Byte payload"
+         611d45b23bdb36e8424e3db53216ff31932434e5 daxctl: fix warning reported by udevadm verify
          
