@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Aug 2023 15:45:08 -0000
-Message-Id: <169107750828.16212.4899129574233874564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 03 Aug 2023 15:48:51 -0000
+Message-Id: <169107773105.17597.13391251418277934749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 87dc2bb3291832994d216c7c86e3f4898022272f
-    new: 648880e9331c68b2008430fd90f3648d1795399d
+  - ref: refs/heads/locktorture.2023.08.01a
+    old: 8654af2117a022c467756965b9a2d16eed69d820
+    new: 483aeb8ed480c8d4c47b5246b04c777ffd38e923
     log: |
-         92272ec4107ef4f826b694a1338562c007e09821 eth: add missing xdp.h includes in drivers
-         49e47a5b6145d86c30022fe0e949bbb24bae28ba net: move struct netdev_rx_queue out of netdevice.h
-         680ee0456a5712309db9ec2692e908ea1d6b1644 net: invert the netdevice.h vs xdp.h dependency
-         648880e9331c68b2008430fd90f3648d1795399d Merge branch 'net: struct netdev_rx_queue and xdp.h reshuffling'
+         365332de5f7bd1ab448ad4a6bd73a4fc8f1cc8ec rcu: Add sysfs to provide throttled access to rcu_barrier()
+         9368f0f55dc78a2f3caf666d22d652ec3998d48e locktorture: Alphabetize torture_param() entries
+         79fb0ebc387be2918a0daec6724cf880a9e6f75f locktorture: Consolidate "if" statements in lock_torture_writer()
+         483aeb8ed480c8d4c47b5246b04c777ffd38e923 locktorture: Add acq_writer_lim to complain about long acquistion times
          
