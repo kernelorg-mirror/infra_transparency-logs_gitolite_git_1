@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4876377554887731670=="
+Content-Type: multipart/mixed; boundary="===============9111755402975269027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 03 Aug 2023 20:15:06 -0000
-Message-Id: <169109370622.23685.15727873076021899208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 03 Aug 2023 20:15:16 -0000
+Message-Id: <169109371658.23823.4670679513806307294@gitolite.kernel.org>
 
---===============4876377554887731670==
+--===============9111755402975269027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: f6b8436bede3e80226e8b2100279c4450c73806a
     log: revlist-76efcf004289-f6b8436bede3.txt
 
---===============4876377554887731670==
+--===============9111755402975269027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ c43888e739bbf184eb95018188215a5487cc0b15 perf script python: Cope with declarati
 e2cabf2a44791f01c21f8d5189b946926e34142e perf hists browser: Fix hierarchy mode header
 f6b8436bede3e80226e8b2100279c4450c73806a perf hists browser: Fix the number of entries for 'e' key
 
---===============4876377554887731670==--
+--===============9111755402975269027==--
