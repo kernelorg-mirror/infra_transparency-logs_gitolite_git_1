@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Aug 2023 23:18:10 -0000
-Message-Id: <169110469000.28057.11307714074796558724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 03 Aug 2023 23:28:40 -0000
+Message-Id: <169110532062.2599.3726749068237361433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/main
-    old: d07b7b32da6f678d42d96a8b9824cf0a181ce140
-    new: 6f9bad6b2d7d6b4e11032b944e379974e31c5c8f
-    log: |
-         6f9bad6b2d7d6b4e11032b944e379974e31c5c8f eth: dpaa: add missing net/xdp.h include
-         
+  - ref: refs/tags/for-netdev
+    old: b9a682488575b2fb32008af9c9df99b91ccdabb9
+    new: 0000000000000000000000000000000000000000
