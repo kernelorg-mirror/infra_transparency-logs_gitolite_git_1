@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Aug 2023 09:43:14 -0000
-Message-Id: <169105579458.8740.15920808597072235165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Thu, 03 Aug 2023 09:59:34 -0000
+Message-Id: <169105677465.19227.13048442075556935850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/main
-    old: f11e5bd159b08976db9e7a9eabbf0318dfe5429d
-    new: 571e9c4968875a78495eccfa26901083d0e6f833
+  - ref: refs/heads/fixes
+    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+    new: 583893a66d731f5da010a3fa38a0460e05f0149b
     log: |
-         571e9c4968875a78495eccfa26901083d0e6f833 net: ethernet: mtk_eth_soc: support per-flow accounting on MT7988
+         583893a66d731f5da010a3fa38a0460e05f0149b thunderbolt: Fix Thunderbolt 3 display flickering issue on 2nd hot plug onwards
          
