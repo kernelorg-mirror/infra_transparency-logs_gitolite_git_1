@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 03 Aug 2023 20:27:26 -0000
-Message-Id: <169109444671.31390.16309815182690367399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 03 Aug 2023 20:34:38 -0000
+Message-Id: <169109487859.3394.189233719804210600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/mgctime
-    old: ffef667f9698cae637fe41b46df59816f79c050f
-    new: 95700cbb34eb6d1582628c9fbb710da3a20a3c56
+  - ref: refs/heads/master
+    old: 0a1944b19569c4f9b724de562adb7a19c2adb4a5
+    new: 37e3bf08e0314efa08ba88600f07adf0079c987d
     log: |
-         db10ad15580c9fcc3fff178a50169967db81325d fs: change update_time prototype
-         f50ce613e15d01a7cd9bde22e62bff43887a67e9 fs: rework generic_update_time to use inode_update_time_current
-         1cabcb82863834dc8bb3ee7e2bd8084e42c6df3e fs: add infrastructure for multigrain timestamps
-         dbfd988028f5dbfb58aa6595d6c964f83dd07412 tmpfs: add support for multigrain timestamps
-         2a095b1868a0fe385ad83c7249924af0dc7b88bf xfs: switch to multigrain timestamps
-         fe718199317322c92dd56c2a2c69963b744373e9 ext4: switch to multigrain timestamps
-         95700cbb34eb6d1582628c9fbb710da3a20a3c56 btrfs: convert to multigrain timestamps
+         d65499a8605c224b1f6f6cc53f7c3d1d44d60542 README: Remove old comments about ancient distros and add 'git submodule' instruction
+         37e3bf08e0314efa08ba88600f07adf0079c987d pahole: Don't keep structs in multiple RB trees
          
