@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8718644622667837583=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 03 Aug 2023 18:49:29 -0000
-Message-Id: <169108856935.22792.9845395386827503198@gitolite.kernel.org>
-
---===============8718644622667837583==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 03 Aug 2023 18:53:39 -0000
+Message-Id: <169108881918.25943.17363928326661230000@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 6b954db0ad36f45a5ac3826ee2149e68fa018742
-    new: d4e4e6e6d1c5cd9a03beeb789dde4d5a6e49c14d
+  - ref: refs/heads/next
+    old: 69286072664490a366f3331f9496fe78efaca603
+    new: 417acbdb96e248b4a6edefc7b6a5d130e3f6b824
     log: |
-         f896b8efe8d80e04eb922422a77ff0c4e3e1369b mm: no need to export mm_kobj
-         d4e4e6e6d1c5cd9a03beeb789dde4d5a6e49c14d kthread: unexport __kthread_should_park()
+         e3a3a097eaebaf234a482b4d2f9f18fe989208c1 PCI/DOE: Fix destroy_work_on_stack() race
+         ebfde1584d9f037b6309fc682c96e22dac7bcb7a Revert "PCI: tegra194: Enable support for 256 Byte payload"
+         0435466e0ae99d5727fdbe58b2a16923a4fc962d Merge branch 'pci/aer'
+         1bb8760fe9a95d7a322b3c3f37aa3e76c087f585 Merge branch 'pci/hotplug'
+         0d002fbd2b29b9bed78f96ad28c6085e8090da79 Merge branch 'pci/ioport'
+         809e63ffe56034aa4c17df5b6c30cbbd98bbcf88 Merge branch 'pci/controller/apple'
+         a94a4ce1375d4b20232e585565cbf631c1eb7181 Merge branch 'pci/controller/iproc'
+         8e8fb9e99d998435f4ef9826a11216e09a352222 Merge branch 'pci/controller/qcom'
+         0c147309bd9047b6472ad4ad7021254135c4b85f Merge branch 'pci/controller/rockchip'
+         8ef7203d64f0aaef711f82db644dbb4a3a596451 Merge branch 'pci/controller/tegra194'
+         6e6f2e1e34357a425890c9dd1e3883228e9f9465 Merge branch 'pci/controller/remove-void-cast'
+         00c252d161c426f19266c2bc65463798edf5fefa Merge branch 'pci/controller/resources'
+         417acbdb96e248b4a6edefc7b6a5d130e3f6b824 Merge branch 'pci/misc'
          
-
---===============8718644622667837583==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691088565 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1691088564-a648b72f5347af41a9d6daf9f41d0baf8d83d0a6
-
-6b954db0ad36f45a5ac3826ee2149e68fa018742 d4e4e6e6d1c5cd9a03beeb789dde4d5a6e49c14d refs/heads/class_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTL9rUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+quUP/1UbQu7z1tr2JLPNNlmp
-z+FnswJxDudtNmP7s6w89uK0ZN2M3F+Sm48QQA13WXeKjFHN68XAu3w9JKdGdFze
-wDhDM9xg3WzbOILdOEuvJQKQ5GCdJE3Vg2ALKPMVVdU7AsmimETPLBu2u3OYBlIn
-bTPy9509ftQyuMceKYFL98p+bTQW0P5UT3YMbvSy+yxCx9YoyzYtz5sriYfVlJzM
-4ln4VsXL8qU1+bq31121VUYy6FQ00TkQGkJV031fnN7+aFod5FVAVmJXicpR6pwB
-xppzNaOX+irf9z+yFyadphzGSG1cXA/deb7bYB2ssEArGbSpy51OH6IJcb43gNkt
-TQ2MwD6n1LQ68I8G1fQ5j8VLdU3jzBa8hbErAJr6FaFFNeQMrild4jr8d1UVhRa1
-x6RcFsFL/HtofDhDSxN61ttTU0VM5nU/L0Ri3yq/jN0NwH6CPfeyGcu/ft49ZBqf
-bDbDzpXo9TExiy/6HA8vIlSPn4E+w7GbuIcBSBQS2gDCzwU0FuCgd+iMJXoKhrS3
-/pgbEpyuCrfvyKxTfwJ5sMOXqt9q1GaUrpwfATkFuSeqeOCqQ3zdH9CWK4fzHl1a
-tjGSFDmkxIcAgW5/B4ATWKINhb2laD0Z1oArFfxeExb5GMh3FQlpQNSMVHqqQ6Gx
-fpWMrp89J6tBaXmO3XSKI81w
-=8ADJ
------END PGP SIGNATURE-----
-
---===============8718644622667837583==--
