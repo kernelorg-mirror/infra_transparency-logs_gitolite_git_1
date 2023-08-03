@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3798116151917616798=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 03 Aug 2023 16:06:21 -0000
-Message-Id: <169107878116.30959.13394910896654520291@gitolite.kernel.org>
-
---===============3798116151917616798==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 03 Aug 2023 16:06:35 -0000
+Message-Id: <169107879590.31141.5420672549802075788@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.6
-    old: 3dcce5b3ff095628458c9daa2d69bbc7dca6686f
-    new: d8736266ae960504110e812994f555bf7cb8740c
+  - ref: refs/heads/for-linus
+    old: 613fcf3071588741517a3f577e2c522bd47b3c8e
+    new: 6559da162f73ce87d5513613c205e5c255e357a9
     log: |
-         d8736266ae960504110e812994f555bf7cb8740c spi: fsl-spi: Do not check 0 for platform_get_irq()
+         6559da162f73ce87d5513613c205e5c255e357a9 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
          
-
---===============3798116151917616798==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691078779 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691078779-36ba1c8604c90b547c6459aad39ec845335912cc
-
-3dcce5b3ff095628458c9daa2d69bbc7dca6686f d8736266ae960504110e812994f555bf7cb8740c refs/heads/spi-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTL0HsACgkQJNaLcl1U
-h9CnQQf+OQQPGCO5yyEoeDOZ5idH9QMqSNT1o7+uHTSL7fhTm4oR/W3We7TyNSKW
-gPm7z2xoerUC5yebi9P+uWxjkDp3WrH9qFms1PE1e5/JOwO5/kZQ1Ek9/hSp45a+
-37dDIo6q7tqs7YqU0mUSTwH8kh8Rt61B0hMC2s57XEU6iYZT9zefQkw3JBhEFeJ5
-+RMIMoKamtqr8Lh7fSwsof4gR5agZodcePQlqEJsquPPHiPfEyzwWMIyhk/WXSQs
-LMF+nYXE45F3mkuGS9ICrVK5bQ66eNHLjiHZP0ItF6z2h10674SqyBk7/xkuGTZP
-22dF1hoXMXWEU/XcDk3N670K230vTQ==
-=7/QV
------END PGP SIGNATURE-----
-
---===============3798116151917616798==--
+  - ref: refs/heads/for-next
+    old: a8dc5097d92a224faf279f500ee6ca9b0b17094b
+    new: 62c13d1940a8f5a0fb852368863822e1364c8092
+    log: |
+         248c74bf42c16262f95f26523683334686a26263 ASoC: mediatek: mt8186: Remove unused mutex.
+         6559da162f73ce87d5513613c205e5c255e357a9 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         62c13d1940a8f5a0fb852368863822e1364c8092 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         
