@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0919650207792216125=="
+Content-Type: multipart/mixed; boundary="===============1672222149579164985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Thu, 03 Aug 2023 17:38:37 -0000
-Message-Id: <169108431715.2692.4397086527200647172@gitolite.kernel.org>
+Date: Thu, 03 Aug 2023 17:38:49 -0000
+Message-Id: <169108432990.2832.16658733960690126265@gitolite.kernel.org>
 
---===============0919650207792216125==
+--===============1672222149579164985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 021f5c028416d271a05831132167a842bf898dd2
+  - ref: refs/heads/next-integrity
+    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     new: 56dc986a6b20b20aab1b76e0d8bff79954a00333
-    log: revlist-021f5c028416-56dc986a6b20.txt
+    log: revlist-6eaae1980760-56dc986a6b20.txt
 
---===============0919650207792216125==
+--===============1672222149579164985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-021f5c028416-56dc986a6b20.txt
+Content-Disposition: attachment; filename=revlist-6eaae1980760-56dc986a6b20.txt
 
 55ad24857341c36616ecc1d9580af5626c226cf1 irq-bcm6345-l1: Do not assume a fixed block to cpu mapping
 926846a703cbf5d0635cc06e67d34b228746554b irqchip/gic-v4.1: Properly lock VPEs when doing a directLPI invalidation
@@ -420,4 +420,4 @@ d5bb4b89ac6996fe51a3ab63fdb25e15743e4351 Merge tag 'spi-fix-v6.5-rc3' of git://g
 f20765fdfdc2c8f47b41cb08489fdad3194a8465 integrity: Always reference the blacklist keyring with appraisal
 56dc986a6b20b20aab1b76e0d8bff79954a00333 ima: require signed IMA policy when UEFI secure boot is enabled
 
---===============0919650207792216125==--
+--===============1672222149579164985==--
