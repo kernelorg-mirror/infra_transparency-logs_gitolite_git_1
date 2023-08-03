@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 03 Aug 2023 12:50:48 -0000
-Message-Id: <169106704812.17482.9385076881708003223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 03 Aug 2023 12:52:13 -0000
+Message-Id: <169106713374.18124.615497443878690802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/testing/fam01-next20230731
-    old: 5b9b7641b0626bd648a5b663666611202836e172
-    new: 7c2ff7e1f2ed48f8e189b3d1bafcbf675a7aad0c
+  - ref: refs/heads/main
+    old: c956910d5af1e5df0f94fddb1bdae1ecaf74b3c5
+    new: 6abce66ba953a0f8ed97559709a2a567f95f560a
     log: |
-         7c2ff7e1f2ed48f8e189b3d1bafcbf675a7aad0c eth: bnxt: Fix -Wstringop-overflow warning
+         c1e9e5e0b9cc25dbfb3a584951e6189b159f869f drivers: net: xgene: Do not check for 0 return after calling platform_get_irq()
+         6abce66ba953a0f8ed97559709a2a567f95f560a net: gemini: Do not check for 0 return after calling platform_get_irq()
          
