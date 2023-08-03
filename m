@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Thu, 03 Aug 2023 21:38:55 -0000
-Message-Id: <169109873556.19959.16112600111861603796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Thu, 03 Aug 2023 21:40:31 -0000
+Message-Id: <169109883106.22236.14024972133287676462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: ce25e403eb6a4ee7a86f1401e72c9d5759ffd2b4
-    new: 0efff123c2846ff779b5fbf356290f7a63ddc4ae
-    log: |
-         0efff123c2846ff779b5fbf356290f7a63ddc4ae lsm: add a LSM specific README.md and SECURITY.md
-         
+  - ref: refs/tags/perf-tools-fixes-for-v6.5-2-2023-08-03
+    old: 0000000000000000000000000000000000000000
+    new: cf519c8665703c55f45473915c32278497d02c16
