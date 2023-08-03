@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4971419397460548078=="
+Content-Type: multipart/mixed; boundary="===============2825378917606036566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 03 Aug 2023 04:35:17 -0000
-Message-Id: <169103731707.27209.7543596016368310891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 03 Aug 2023 04:35:28 -0000
+Message-Id: <169103732871.27414.12117721217610950410@gitolite.kernel.org>
 
---===============4971419397460548078==
+--===============2825378917606036566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 626c67169f9972fffcdf3bc3864de421f162ebf5
     new: fb4327106e5250ee360d0d8b056c1eef7eeb9a98
     log: revlist-626c67169f99-fb4327106e52.txt
-  - ref: refs/heads/stable
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    new: 4b954598a47ba07034aab9af8ddd485bdc3d5b16
-    log: |
-         daf60d6cca26e50d65dac374db92e58de745ad26 exfat: use kvmalloc_array/kvfree instead of kmalloc_array/kfree
-         d42334578eba1390859012ebb91e1e556d51db49 exfat: check if filename entries exceeds max filename length
-         ff84772fd45d486e4fc78c82e2f70ce5333543e6 exfat: release s_lock before calling dir_emit()
-         010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
-         e65851989001c0c9ba9177564b13b38201c0854c scsi: zfcp: Defer fc_rport blocking until after ADISC response
-         d4e0265345778c623d1fe619075b677731847c34 scsi: pm80xx: Fix error return code in pm8001_pci_probe()
-         79e8328e5acbe691bbde029a52c89d70dcbc22f3 word-at-a-time: use the same return type for has_zero regardless of endianness
-         79d65ee53b968c006ad382a4d4c2dccd898706f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-         4b954598a47ba07034aab9af8ddd485bdc3d5b16 Merge tag 'exfat-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
-         
   - ref: refs/tags/next-20230803
     old: 0000000000000000000000000000000000000000
     new: 0e03385b3ae17720b80f835ee10a9bfe92a61baf
 
---===============4971419397460548078==
+--===============2825378917606036566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1068,4 +1054,4 @@ bfe537a9a40ac7e6a5f0ebe3727583f5197aad62 Merge branch 'for-next/kspp' of git://g
 a614d1704548bcb9820525a998bfd66d5c8542ff Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 fb4327106e5250ee360d0d8b056c1eef7eeb9a98 Add linux-next specific files for 20230803
 
---===============4971419397460548078==--
+--===============2825378917606036566==--
