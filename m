@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4713456735440006599=="
+Content-Type: multipart/mixed; boundary="===============7429960377950655685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 03 Aug 2023 16:34:15 -0000
-Message-Id: <169108045582.18269.15848299982952144432@gitolite.kernel.org>
+Date: Thu, 03 Aug 2023 16:34:17 -0000
+Message-Id: <169108045758.18341.3170268833530207259@gitolite.kernel.org>
 
---===============4713456735440006599==
+--===============7429960377950655685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.6
-    old: a5de9bc61181cd65df0170ba8c855b6be650c1e8
-    new: 41c1855232ed277e74daedbecac8d328b6c2ceb8
-    log: |
-         2c9e45dfeed126488aa73e7b82b3576c4c6f1036 arm64: dts: qcom: sm8550-mtp: Add missing supply for L1B regulator
-         b79663a5515f01307f25206c313997ef6267e0fd arm64: dts: qcom: use defines for interrupts
-         7c0755120f1f0495fe418d50f0618945136df9d1 arm64: dts: qcom: msm8953-tissot: use 0 as speaker DAI cells
-         636f47cac06a881415b8126802c38cbe5b32b575 arm64: dts: qcom: sdm845-enchilada: use 0 as speaker DAI cells
-         b6866546c214aad707f69a7d96215e3d08c2eb84 arm64: dts: qcom: msm8953-daisy: use new speaker maxim,interleave-mode
-         41c1855232ed277e74daedbecac8d328b6c2ceb8 arm64: dts: qcom: Use labels with generic node names for ADC channels
-         
-  - ref: refs/heads/clk-for-6.6
-    old: fd0b5ba87ad5709f0fd3d2bc4b7870494a75f96a
-    new: b6bcd1c0c27e1f210228346e6d23a2ec0c263e8c
-    log: |
-         e39d0fa7309bebdc19218276279b9f119d4e9f2b clk: qcom: lcc-msm8960: change pxo_parent_data to static
-         783cb693828ce487cf0bc6ad16cbcf2caae6f8d9 clk: qcom: gcc-sm8250: Fix gcc_sdcc2_apps_clk_src
-         b6bcd1c0c27e1f210228346e6d23a2ec0c263e8c clk: qcom: fix some Kconfig corner cases
-         
-  - ref: refs/heads/drivers-for-6.6
-    old: 23b45f8aab49f97b0c32bdc6331c0baf7337c48a
-    new: f2326eacfc5ad2a46bc29d0e24c9c606264a582c
-    log: revlist-23b45f8aab49-f2326eacfc5a.txt
-  - ref: refs/heads/dts-for-6.6
-    old: d988aa8cd09653d9607788e9d1c98f0d7a55e731
-    new: 04601b9b1b67888b7e2987e31ab40637f7c999c0
-    log: |
-         04601b9b1b67888b7e2987e31ab40637f7c999c0 ARM: dts: qcom: Use labels with generic node names for ADC channels
-         
+  - ref: refs/heads/for-next
+    old: d8b0fa7bb0d02c1a741aac22f184b498ae79ac35
+    new: a8726072d7bfe7b2795f4ba99e07bb514c095063
+    log: revlist-d8b0fa7bb0d0-a8726072d7bf.txt
 
---===============4713456735440006599==
+--===============7429960377950655685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23b45f8aab49-f2326eacfc5a.txt
+Content-Disposition: attachment; filename=revlist-d8b0fa7bb0d0-a8726072d7bf.txt
 
 c1e213e547e2055881a5d162be7cbcb92acdffbc genpd: Create a new subsystem directory to host genpd providers
 930c9005ed9f6640cb67bbc5c62cd11db3c02a34 soc: actions: Move power-domain driver to the genpd dir
@@ -72,9 +47,20 @@ b43f11e5b453a9c48159d7121c88d79d81901276 ARM: ux500: Move power-domain driver to
 00eb53b08cf5f4d8919a49c10ffd122647478aae soc: starfive: remove stale Makefile entry
 7ed363cd8d0a3e4fbe3c37b7458420f82ef9a106 genpd: move owl-sps-helper.c from drivers/soc
 a6a67e5a13f6974913a38d5bd1c595c3fd73b204 genpd: Makefile: build imx
+e39d0fa7309bebdc19218276279b9f119d4e9f2b clk: qcom: lcc-msm8960: change pxo_parent_data to static
+783cb693828ce487cf0bc6ad16cbcf2caae6f8d9 clk: qcom: gcc-sm8250: Fix gcc_sdcc2_apps_clk_src
 4d6e0a1bf8f7a6b44d20162e29a87d0bd9526bb0 soc: qcom: ocmem: add missing clk_disable_unprepare() in ocmem_dev_probe()
+b6bcd1c0c27e1f210228346e6d23a2ec0c263e8c clk: qcom: fix some Kconfig corner cases
+2c9e45dfeed126488aa73e7b82b3576c4c6f1036 arm64: dts: qcom: sm8550-mtp: Add missing supply for L1B regulator
 5f908786cf44fcb397cfe0f322ef2f41b0909e2a soc: qcom: smem: Fix incompatible types in comparison
 8d207400fd6b79c92aeb2f33bb79f62dff904ea2 soc: qcom: qmi_encdec: Restrict string length in decode
+b79663a5515f01307f25206c313997ef6267e0fd arm64: dts: qcom: use defines for interrupts
+7c0755120f1f0495fe418d50f0618945136df9d1 arm64: dts: qcom: msm8953-tissot: use 0 as speaker DAI cells
+636f47cac06a881415b8126802c38cbe5b32b575 arm64: dts: qcom: sdm845-enchilada: use 0 as speaker DAI cells
+b6866546c214aad707f69a7d96215e3d08c2eb84 arm64: dts: qcom: msm8953-daisy: use new speaker maxim,interleave-mode
+41c1855232ed277e74daedbecac8d328b6c2ceb8 arm64: dts: qcom: Use labels with generic node names for ADC channels
+04601b9b1b67888b7e2987e31ab40637f7c999c0 ARM: dts: qcom: Use labels with generic node names for ADC channels
 f2326eacfc5ad2a46bc29d0e24c9c606264a582c Merge branch 'genpd_create_dir' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm into drivers-for-6.6
+a8726072d7bfe7b2795f4ba99e07bb514c095063 Merge branches 'arm64-defconfig-for-6.6', 'arm64-fixes-for-6.5', 'arm64-for-6.6', 'clk-for-6.6', 'drivers-for-6.6' and 'dts-for-6.6' into for-next
 
---===============4713456735440006599==--
+--===============7429960377950655685==--
