@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5619592423571242609=="
+Content-Type: multipart/mixed; boundary="===============8133187567612294912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Aug 2023 23:32:40 -0000
-Message-Id: <169110556059.5830.16847984522185033757@gitolite.kernel.org>
+Date: Thu, 03 Aug 2023 23:33:45 -0000
+Message-Id: <169110562591.6296.16684624887059450325@gitolite.kernel.org>
 
---===============5619592423571242609==
+--===============8133187567612294912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: martin.lau
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 648880e9331c68b2008430fd90f3648d1795399d
     new: 6f9bad6b2d7d6b4e11032b944e379974e31c5c8f
     log: revlist-648880e9331c-6f9bad6b2d7d.txt
 
---===============5619592423571242609==
+--===============8133187567612294912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ddf251fa2bc1d3699eec0bae6ed0bc373b8fda79 tcp_metrics: fix data-race in tcpm_suck
 d07b7b32da6f678d42d96a8b9824cf0a181ce140 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 6f9bad6b2d7d6b4e11032b944e379974e31c5c8f eth: dpaa: add missing net/xdp.h include
 
---===============5619592423571242609==--
+--===============8133187567612294912==--
