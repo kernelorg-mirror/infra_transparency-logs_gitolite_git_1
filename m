@@ -1,80 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============9051672862494236250=="
+Content-Type: multipart/mixed; boundary="===============3076197306615798203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 03 Aug 2023 20:50:01 -0000
-Message-Id: <169109580106.15451.16631627901850278456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Thu, 03 Aug 2023 20:52:44 -0000
+Message-Id: <169109596414.18177.8859203400222752045@gitolite.kernel.org>
 
---===============9051672862494236250==
+--===============3076197306615798203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/next
-    old: 996db74865b48f0c71f712762d01ec992f26710e
-    new: e786442a9b926867f437aaf1e0744371026a7e76
-    log: |
-         740ec2614e983a596fb77d1719af26be803095bb gitformat-commit-graph: describe version 2 of BDAT
-         69f8e06a5cccd4627845eb101eab54052addf1e6 t/helper/test-read-graph.c: extract `dump_graph_info()`
-         739b46a89f3ecc850ded5cc4989cb7c5082d1a5e bloom.h: make `load_bloom_filter_from_graph()` public
-         fbc8cb081c92d1bf27d34a9810f1884f8618b3ed t/helper/test-read-graph: implement `bloom-filters` mode
-         c99c59e68f170197c8acb96573df0ec7079f38fd t4216: test changed path filters with high bit paths
-         e96587de93b2304f9261e7d2a40ac59faeae1008 repo-settings: introduce commitgraph.changedPathsVersion
-         9e4df4da0786797b1d51ed8fd3dfc18970772a91 commit-graph: new filter ver. that fixes murmur3
-         1c04cb0744d2acdcaebc77b0e78c47efbba67fd5 ident: don't consider '.' a crud
-         d99958c2877426caff6d3511522f60ba32e64f44 Merge branch 'jt/path-filter-fix' into next
-         e786442a9b926867f437aaf1e0744371026a7e76 Merge branch 'bc/ident-dot-is-no-longer-crud-letter' into next
-         
-  - ref: refs/heads/seen
-    old: 82ca900b0da43842065a0aa352d898c9af2317c9
-    new: cf3dc3f6c8a7d965ca6dd5aaea96196689137b33
-    log: revlist-82ca900b0da4-cf3dc3f6c8a7.txt
+  - ref: refs/heads/mgctime
+    old: b0fd6d0161db703ed31f63392324bab572a0cf6d
+    new: 20498e0cacabe9c8ffe1594fc8c4f13b2efc5add
+    log: revlist-b0fd6d0161db-20498e0cacab.txt
 
---===============9051672862494236250==
+--===============3076197306615798203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82ca900b0da4-cf3dc3f6c8a7.txt
+Content-Disposition: attachment; filename=revlist-b0fd6d0161db-20498e0cacab.txt
 
-7573cb9ef13a726ba4fa879f904cbd3a3b9f7001 compat: make path_lookup() available outside mingw.c
-1dccb991a98fb661f90c04ad12e7b30ae821856e run-command: teach locate_in_PATH about Windows
-fbcb19aa9dc7aa76e57907a52e85545e57f1f9b6 docs: update when `git bisect visualize` uses `gitk`
-1a8ba5282cfecbc769c251dc12bded09f59b3353 Merge branch 'la/doc-choose-starting-point' into jch
-aaf8d05ac2446df535b65ba98685c98dfbc66df5 Merge branch 'jc/retire-get-sha1-hex' into jch
-64457d1169d54fdb5bb9e6622b8d953137016d11 Merge branch 'ja/worktree-orphan-fix' into jch
-39d7da2312551858fee40d5de81f566392b27717 Merge branch 'pv/doc-submodule-update-settings' into jch
-bc5aa3e249fc40efcac55dbcabc0bdb78ce0a142 Merge branch 'la/doc-choose-starting-point-fixup' into jch
-cd28b35b934b6d17e9443652285986ea70014cdc Merge branch 'jc/doc-sent-patch-now-what' into jch
-f75c4c3293fba41022c64a21555a2b74fea57424 Merge branch 'jc/parse-options-short-help' into jch
-feb6fc0eab84396abcf6b8c8edecae06638d0ec4 Merge branch 'hy/blame-in-bare-with-contents' into jch
-17937bb2f68417f4518cea1b4d55dd9ab9c4c842 Merge branch 'jc/branch-in-use-error-message' into jch
-96ef65a81cd1913ea00be41843ccae05ea7cf177 Merge branch 'tb/commit-graph-tests' into jch
-743259ba5b7a193b2610f5896963254a87a1ddb6 Merge branch 'am/doc-sha256' into jch
-624aa9d26f2a6e299289037b5307d7977e42f31a Merge branch 'rs/bundle-parseopt-cleanup' into jch
-3c3895332041a96ec7bc8deea037274d1d659f6a Merge branch 'ew/sha256-gcrypt-leak-fixes' into jch
-1df770de90e4b0f1dc207489f8536941d406484f Merge branch 'ew/hash-with-openssl-evp' into jch
-5f969c6406de5565947a7fa63e57fe226c6c1cf3 Merge branch 'jt/path-filter-fix' into jch
-87a8894ef89f4e85ac880910718fd41de8561fdf Merge branch 'bc/ident-dot-is-no-longer-crud-letter' into jch
-9b2a94a52a1cf8bfc9000a34bbea7d67cc6879da ### match next
-4a603763c72b5f80205de33935f97e967a3ee896 Merge branch 'mh/credential-libsecret-attrs' into jch
-97264304946b54986a04f80e78821bee1cd6860c Merge branch 'pw/rebase-i-after-failure' into jch
-79ba27133f99cd5ebb4f9c06381ebdba2c68c008 Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
-451275b63f4929a7fac45a210313e08d9c34b6f9 Merge branch 'mh/credential-erase-improvements-more' into jch
-a0e64aa99763cda41754856fbed3fc833c7bd3dc Merge branch 'rs/parse-options-negation-help' into jch
-ed0a9bc05cc52dfda727aeb4891116071331b92b Merge branch 'jc/rerere-cleanup' into jch
-47a09382c8bc43432b3d1fc9329ab2649d86c2a0 Merge branch 'rj/status-bisect-while-rebase' into jch
-3f8bbdc45fe45d5e4678367535946700a35c02e1 Merge branch 'js/doc-unit-tests' into seen
-0472c7d3adf82781d4a70a2bc5920f7ff1f2a97e Merge branch 'cc/git-replay' into seen
-d652c80baaa9b8bbc2f1a03b400a73b7f2f5877a Merge branch 'ab/tag-object-type-errors' into seen
-9efe6f0cb329cd49a21c28ef39cf1fdce82ccfaf Merge branch 'sl/sparse-check-attr' into seen
-6eff954027754a4bd70200c229678af5affe2848 Merge branch 'ob/revert-of-revert' into seen
-50b09250121bf5ca57e1d8106e95c584ca81d104 Merge branch 'ma/locate-in-path-for-windows' into seen
-6ce7afe16384b741f1ee4c5f310fa4a9f66348ba rebase --skip: fix commit message clean up when skipping squash
-cf3dc3f6c8a7d965ca6dd5aaea96196689137b33 Merge branch 'pw/rebase-skip-commit-message-fix' into seen
+6e9aa61ef3865c27f9a2583f5ac83e40bcb08268 generic: Add mmap + DIO write test
+685d1dadd5260eb77c4541a34e4a987e0b9710df btrfs: add a test case to verify read-only scrub
+2702c4208dae05470f5b8c001130b74cb7ced436 btrfs: add a test case to verify the scrub error reports
+3ed1150fd7b8ee2d79cfc2120468fc62dec8d0ca xfs: test shipped config files work properly with mkfs.xfs
+156a8a1078509f5cc4bf528bf7246208641ee67e xfs/108: allow slightly higher block usage
+27d202f5c8de0622a11a762a64731c6f45531993 xfs/155: discard stderr when checking for NEEDSREPAIR
+eef60725c85068630c2375868a3426898392c5b8 xfs/155: improve logging in this test
+078bb0de7c2109b5fa54e567d82b82d6d3d75a59 fuzzy: disallow post-test online rebuilds when testing online fsck
+0adf9e7c0d591445d0a3933f3b15136b2a87fb46 xfs/503: don't rebuild the fs metadata when testing metadump
+8b88f4ca28ff93e3b87637a3f23d313d4118be6b common/xfs: compress online repair rebuild output by default
+39bcfc9ab3dd235153078804706010c7dcaf39ba btrfs/122: fix nodesize option in mfks.btrfs
+17c0dedf05fc4a8cb341c1779f1753c1ff684f16 btrfs/106: avoid hard coded output to handle different page sizes
+ab41f0bddb738000c9418c8d764f56fb542e7380 common/btrfs: use _scratch_cycle_mount to ensure all page caches are dropped
+e8fb7a0217ba8eeae70dfb163a5e837cf9d7a230 generic/506: fix to call _scratch_enable_pquota()
+2343f7cca0218c2271b78735c9dfd17914a4f756 generic/020: add ceph-fuse support
+7cef6bf6dc8d10648a3208c8c629c3eb72e93135 common/rc: skip ceph-fuse when atime is required
+87f90a2dae7a4adb7a0a314e27abae9aa1de78fb common/rc: Enable _test_mkfs to force a mkfs on a xfs filesystem
+3e7166ffb2ef365fb987610e176ce145846f3e5a fstests: reduce runtime of check -n
+2c29b9b58618b4e9946613aecfe2cdc7268ead07 common/config: redirect modprobe helpinfo to stdout for busybox
+60054d5118fdc020c42323062a4c82370a1c0a8d check: fix excluded tests are only expunged in the first iteration
+06cee93225c9f9ea41d04efd6af911f7abb6e6a1 generic/604: Fix for overlayfs
+db7fb78fda6960c853b12ae923a0e865a401edb8 btrfs: test activating swapfile in the presence of snapshots
+4ea344909abababdcbd1ccb79f4d0986dbf478c9 btrfs: add test case to verify the behavior with large RAID0 data chunks
+e7006c6dc1c2ec0259582dd76afb088a7769546f common/btrfs: handle dmdust as mounted device in _btrfs_buffered_read_on_mirror()
+2fc1f5dc90f497bf971024c2b160f8ca6e4ed59a xfs/529: fix bogus failure when realtime is configured
+cfa2c8fadbc8b38e6d507ee221b63857dd4b62fc xfs/569: skip post-test fsck run
+08389a5aaa29e374e26536c943b92f8c19e8e959 xfs/439: amend test to work with new log geometry validation
+14941ffecb85b7df5cb732ed5782603ce2ae9933 xfs/041: force create files on the data device
+27211f9bb44b2fab8cd2b76bd57e20328c9480cf xfs: test growfs of the realtime device
+8bab8ef9872ecf9bce7381b6e784063c92c2cad3 report: safely update the result.xml file
+66fcf86bbaea42ee7cefc3cc4e97814e51fa0a84 report: remove xmlns specifier
+0167b6ca007619a7585f6a57190a727340330459 src/fsync-err: add SPDX header
+999f3d27915703a1adb7d2ef4ec50c9b813e29f6 configs: add a sample kcephfs config
+20498e0cacabe9c8ffe1594fc8c4f13b2efc5add generic: add a test for multigrain timestamps
 
---===============9051672862494236250==--
+--===============3076197306615798203==--
