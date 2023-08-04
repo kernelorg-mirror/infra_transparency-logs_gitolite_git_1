@@ -1,138 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5703345820875589936=="
+Content-Type: multipart/mixed; boundary="===============2248645930760069851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 04 Aug 2023 19:05:55 -0000
-Message-Id: <169117595514.15341.10053757021817273185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 04 Aug 2023 19:06:09 -0000
+Message-Id: <169117596964.15535.5851837883702521175@gitolite.kernel.org>
 
---===============5703345820875589936==
+--===============2248645930760069851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 1b0a5129563ebe720330fdc8f5c6843d27641137
-    new: ac83bc5054c2ac489166072334b4147ce6d0fccb
-    log: revlist-1b0a5129563e-ac83bc5054c2.txt
   - ref: refs/heads/master
-    old: 1b0a5129563ebe720330fdc8f5c6843d27641137
-    new: ac83bc5054c2ac489166072334b4147ce6d0fccb
-    log: revlist-1b0a5129563e-ac83bc5054c2.txt
-  - ref: refs/heads/next
-    old: e786442a9b926867f437aaf1e0744371026a7e76
-    new: 6953b252045fa7a4c836b56ff7a46e3e85c8275b
-    log: revlist-e786442a9b92-6953b252045f.txt
-  - ref: refs/heads/seen
-    old: 17a09a9c7310504ad2b621e3f195b34d1565ebba
-    new: ab65c80d8e980154d8eabcebaa9f765bfdd74ffc
-    log: revlist-17a09a9c7310-ab65c80d8e98.txt
-  - ref: refs/tags/v2.42.0-rc0
-    old: 0000000000000000000000000000000000000000
-    new: e8f04c21fdad4551047395d0b5ff997c67aedd90
+    old: c1a515d3c0270628df8ae5f5118ba859b85464a2
+    new: c8273a25864e74ab66601459686d6f78b0eb666b
+    log: revlist-c1a515d3c027-c8273a25864e.txt
 
---===============5703345820875589936==
+--===============2248645930760069851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b0a5129563e-ac83bc5054c2.txt
+Content-Disposition: attachment; filename=revlist-c1a515d3c027-c8273a25864e.txt
 
-fc0825d56130ee3d7542c1711bd61cd1cf9bedb5 SubmittingPatches: reword awkward phrasing
-3423e372e4021b6608d4b5e65da9231425d0c455 SubmittingPatches: discuss subsystems separately from git.git
-b5dbfe28a4eafc2c6c7f495983f141abcafafdfb SubmittingPatches: de-emphasize branches as starting points
-5c98149ce4d5f57f5376fc38e512dade77a96f8b SubmittingPatches: emphasize need to communicate non-default starting points
-0a02ca2383455e40cfc0b1c0818479c2d36fe6cd SubmittingPatches: simplify guidance for choosing a starting point
-448abbba63471153df6ba520a5621595557ce3c8 short help: allow multi-line opthelp
-d86a8f386d89edaffec63a626f5226c9f39f5027 remote: simplify "remote add --tags" help text
-c512643e67d33673933fa3d245be28b08b974755 short help: allow a gap smaller than USAGE_GAP
-835950bd19260426f664a9b0164c580db9f9aacb blame: allow --contents to work with bare repo
-4970bedef2e077f78baac5c6e825d17786be735b branch: update the message to refuse touching a branch in-use
-08e5fb1296238c9c4468ae2cfbd7a49045159c60 hex: retire get_sha1_hex()
-7cebc5bd786a95722dc545a2cad22124ec996c00 doc: highlight that .gitmodules does not support !command
-37f6040764489ee63b14807c1196c3b2e6469eb4 SubmittingPatches: choice of base for fixing an older maintenance track
-9111ea1cbeba0861ea1c90e16bea980be4910d8c t2400: drop no-op `--sq` from rev-parse call
-7e42d4bf15b5d8fee1f43cefdc49cf516e94bc27 builtin/worktree.c: convert tab in advice to space
-d1b72cb36487772fa70217f4234c886db7a5892f t2400: rewrite regex to avoid unintentional PCRE
-f835de52d7c36c278004383919c58457861dac6c SubmittingPatches: explain why 'next' and above are inappropriate base
-369998df83d779e0b3fc45072be20d43a6559b27 SubmittingPatches: use of older maintenance tracks is an exception
-010447cf098f7407008f2940b4fefa5351477044 MyFirstContribution: refrain from self-iterating too much
-dd68b57fc404e9117385879460a63a25f8b3c354 Merge branch 'la/doc-choose-starting-point'
-3365e2675e5ac95e0a44665966e8cfbb9433456e Merge branch 'jc/retire-get-sha1-hex'
-4d060018467d5a8d05349294baad426d5407414d Merge branch 'ja/worktree-orphan-fix'
-a53e8a64884dffb23ea416687ae8fbdaf332641a Merge branch 'pv/doc-submodule-update-settings'
-840affcb8ddfa78e4988c276f98773e40ccba4f4 Merge branch 'la/doc-choose-starting-point-fixup'
-23b20fff3ab28b31678d23e67de328ac24801f18 Merge branch 'jc/doc-sent-patch-now-what'
-f9712d75e6389866efbe6ad918dc9773a8a880ad Merge branch 'jc/parse-options-short-help'
-f4a7c24c094cff87a4b5a02550b321591d847ca0 Merge branch 'hy/blame-in-bare-with-contents'
-65e25ae52298e9f1a8c7d94fd0ddffaf30cd944e Merge branch 'jc/branch-in-use-error-message'
-ac83bc5054c2ac489166072334b4147ce6d0fccb Git 2.42-rc0
+8544cda94dae6be3f1359539079c68bb731428b1 mtd: spinand: toshiba: Fix ecc_get_status
+f5a05060670a4d8d6523afc7963eb559c2e3615f mtd: spinand: winbond: Fix ecc_get_status
+d8403b9eeee66d5dd81ecb9445800b108c267ce3 mtd: rawnand: omap_elm: Fix incorrect type in assignment
+7e6b04f9238eab0f684fafd158c1f32ea65b9eaa mtd: rawnand: meson: fix OOB available bytes for ECC
+d0ca3b92b7a6f42841ea9da8492aaf649db79780 mtd: rawnand: rockchip: fix oobfree offset and description
+ea690ad78dd611e3906df5b948a516000b05c1cb mtd: rawnand: rockchip: Align hwecc vs. raw page helper layouts
+2dedcf414bb01b8d966eb445db1d181d92304fb2 drm/ttm: check null pointer before accessing when swapping
+d3053b4a6b76f29fd1bf0b438b19a2d6ece9657d MAINTAINERS: Add myself as reviewer for HYPERBUS
+71c8f9cf2623d0db79665f876b95afcdd8214aec mtd: spi-nor: avoid holes in struct spi_mem_op
+c6abce60338aa2080973cd95be0aedad528bb41f mtd: rawnand: fsl_upm: Fix an off-by one test in fun_exec_op()
+ee31742bf17636da1304af77b2cb1c29b5dda642 drm/imx/ipuv3: Fix front porch adjustment upon hactive aligning
+46d14e17095237007b59f56aae2d81ae2dcb0f93 drm/i915/gvt: Fix bug in getting msg length in AUX CH registers handler
+d14560ac1b595aa2e792365e91fea6aeaee66c2b drm/i915/gt: Cleanup aux invalidation registers
+b2f59e9026038a5bbcbc0019fa58f963138211ee drm/i915: Add the gen12_needs_ccs_aux_inv helper
+78a6ccd65fa3a7cc697810db079cc4b84dff03d5 drm/i915/gt: Ensure memory quiesced before invalidation
+592b228f12e15867a63e3a6eeeb54c5c12662a62 drm/i915/gt: Rename flags with bit_group_X according to the datasheet
+824df77ab2107d8d4740b834b276681a41ae1ac8 drm/i915/gt: Enable the CCS_FLUSH bit in the pipe control and in the CS
+0fde2f23516a00fd90dfb980b66b4665fcbfa659 drm/i915/gt: Poll aux invalidation register bit on invalidation
+6a35f22d222528e1b157c6978c9424d2f8cbe0a1 drm/i915/gt: Support aux invalidation on all engines
+a337b64f0d5717248a0c894e2618e658e6a9de9f drm/i915: Fix premature release of request's reusable memory
+e7e607bd00481745550389a29ecabe33e13d67cf ceph: defer stopping mdsc delayed_work
+9d01e07fd1bfb4daae156ab528aa196f5ac2b2bc rbd: prevent busy loop when requesting exclusive lock
+e6e2843230799230fc5deb8279728a7218b0d63c libceph: fix potential hang in ceph_osdc_notify()
+0bc057eae2610c275361766a064a23cc2758f3ff Merge tag 'gvt-fixes-2023-08-02' of https://github.com/intel/gvt-linux into drm-intel-fixes
+c71b7aa8619a0c9700132d0733e33999fb614339 drm/panel: samsung-s6d7aa0: Add MODULE_DEVICE_TABLE
+062ff85b11da63ecccf7c17778ad225e7b5d06bf Merge tag 'drm-misc-fixes-2023-08-03' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
+1958b0f95a35e4443573c4c3ec2efd89d2d00d82 Merge tag 'drm-intel-fixes-2023-08-03' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+797964253d358cf8d705614dda394dbe30120223 file: reinstate f_pos locking optimization for regular files
+4593f3c2c62c1bcdf274038ef87b08a057531692 Merge tag 'ceph-for-6.5-rc5' of https://github.com/ceph/ceph-client
+4142fc6743d39271e712936d9fb284cd84cb6010 Merge tag 'drm-fixes-2023-08-04' of git://anongit.freedesktop.org/drm/drm
+c8273a25864e74ab66601459686d6f78b0eb666b Merge tag 'mtd/fixes-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 
---===============5703345820875589936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e786442a9b92-6953b252045f.txt
-
-dd68b57fc404e9117385879460a63a25f8b3c354 Merge branch 'la/doc-choose-starting-point'
-3365e2675e5ac95e0a44665966e8cfbb9433456e Merge branch 'jc/retire-get-sha1-hex'
-4d060018467d5a8d05349294baad426d5407414d Merge branch 'ja/worktree-orphan-fix'
-a53e8a64884dffb23ea416687ae8fbdaf332641a Merge branch 'pv/doc-submodule-update-settings'
-840affcb8ddfa78e4988c276f98773e40ccba4f4 Merge branch 'la/doc-choose-starting-point-fixup'
-23b20fff3ab28b31678d23e67de328ac24801f18 Merge branch 'jc/doc-sent-patch-now-what'
-f9712d75e6389866efbe6ad918dc9773a8a880ad Merge branch 'jc/parse-options-short-help'
-f4a7c24c094cff87a4b5a02550b321591d847ca0 Merge branch 'hy/blame-in-bare-with-contents'
-65e25ae52298e9f1a8c7d94fd0ddffaf30cd944e Merge branch 'jc/branch-in-use-error-message'
-ac83bc5054c2ac489166072334b4147ce6d0fccb Git 2.42-rc0
-a5c01603b397f7f99b013a1334e0792d70be641c gitignore: ignore clangd .cache directory
-5cf8d419113cb16319c60ff1ebf3abe4914dfd63 Merge branch 'bc/ignore-cland-cache' into next
-6953b252045fa7a4c836b56ff7a46e3e85c8275b Sync with Git 2.42-rc0
-
---===============5703345820875589936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17a09a9c7310-ab65c80d8e98.txt
-
-bb532b534547d0a6b203baaf2f3379d987f611b9 run-command: conditionally define locate_in_PATH()
-2bf46a9f62159ced3a84ab8bc9ba151778414bd6 compat/mingw: implement a native locate_in_PATH()
-fff1594fa77372ea7a51f6b445267f23fdbf3089 docs: update when `git bisect visualize` uses `gitk`
-dd68b57fc404e9117385879460a63a25f8b3c354 Merge branch 'la/doc-choose-starting-point'
-3365e2675e5ac95e0a44665966e8cfbb9433456e Merge branch 'jc/retire-get-sha1-hex'
-4d060018467d5a8d05349294baad426d5407414d Merge branch 'ja/worktree-orphan-fix'
-a53e8a64884dffb23ea416687ae8fbdaf332641a Merge branch 'pv/doc-submodule-update-settings'
-840affcb8ddfa78e4988c276f98773e40ccba4f4 Merge branch 'la/doc-choose-starting-point-fixup'
-23b20fff3ab28b31678d23e67de328ac24801f18 Merge branch 'jc/doc-sent-patch-now-what'
-f9712d75e6389866efbe6ad918dc9773a8a880ad Merge branch 'jc/parse-options-short-help'
-f4a7c24c094cff87a4b5a02550b321591d847ca0 Merge branch 'hy/blame-in-bare-with-contents'
-65e25ae52298e9f1a8c7d94fd0ddffaf30cd944e Merge branch 'jc/branch-in-use-error-message'
-ac83bc5054c2ac489166072334b4147ce6d0fccb Git 2.42-rc0
-a5c01603b397f7f99b013a1334e0792d70be641c gitignore: ignore clangd .cache directory
-3c58e3b27256827bc3593d2b42dd2c1afabf2989 Merge branch 'tb/commit-graph-tests' into jch
-df57f92e0cfbf9440da596e95d92e59334f1f362 Merge branch 'am/doc-sha256' into jch
-ec27a3ce6f0838c499d31a9c6481bdfa647db66c Merge branch 'rs/bundle-parseopt-cleanup' into jch
-4edd1b294ec65573d9eb85ffff2397164bbc78ec Merge branch 'ew/sha256-gcrypt-leak-fixes' into jch
-04a1d3d1c89c1e5fb65911cf2482c8a3ef2972bc Merge branch 'ew/hash-with-openssl-evp' into jch
-1c54bba130cbc651fd721a30d93889b788c04a47 Merge branch 'jt/path-filter-fix' into jch
-ed4a60daa5954bab5c69791e13702b0abf1df033 Merge branch 'bc/ident-dot-is-no-longer-crud-letter' into jch
-d8e2ceed2fd85db491b1b78944af4320dc3f58f8 ###
-d6a51ac67eeae05fe63ddbbc43b9ea4e3fd149d2 Merge branch 'bc/ignore-cland-cache' into jch
-48288beb9d583aabe83ee74d10e1341acb81fc5a ### match next
-35afcdbc4eb7fdd0b4c8a3032ca1b8f044f972bd Merge branch 'rs/parse-options-negation-help' into jch
-10cc2e8f96eae8af1dca3a08e42f18df7d2cbdb5 Merge branch 'ma/locate-in-path-for-windows' into jch
-d5ff50f851c1978a4acb985763ace73b747a14a0 Merge branch 'pw/rebase-skip-commit-message-fix' into jch
-31442fb184a93fcb74d1fde61676bfd3cfda1e6a Merge branch 'pw/rebase-i-after-failure' into jch
-976cdcab53b8f079ed2aff6dc6933a137c3fd0b7 Merge branch 'mh/credential-libsecret-attrs' into jch
-b7d1b5c768fddad48bc8f9b980e6642ec80dde89 Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
-83d78463d30234f82c53c8a46413cf65761af1d9 Merge branch 'mh/credential-erase-improvements-more' into jch
-49cdb444de5b84b73f96392badc18d4ac614c36d Merge branch 'jc/rerere-cleanup' into jch
-04b7fe69b423bf2b81ff169c7683fc5007021bad Merge branch 'rj/status-bisect-while-rebase' into jch
-cca4124af6ef814e2376d20c5acf38c7451d815b Merge branch 'js/doc-unit-tests' into seen
-a7cc06b232bbecb24942dfdf0b965eb576499944 Merge branch 'cc/git-replay' into seen
-7143a07a075eb2fa8376e7e6a418e577533f6c5c Merge branch 'ab/tag-object-type-errors' into seen
-ab65c80d8e980154d8eabcebaa9f765bfdd74ffc Merge branch 'sl/sparse-check-attr' into seen
-
---===============5703345820875589936==--
+--===============2248645930760069851==--
