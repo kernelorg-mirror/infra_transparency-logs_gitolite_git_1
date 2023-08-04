@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1705517046191293691=="
+Content-Type: multipart/mixed; boundary="===============8334424604096994680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 04 Aug 2023 13:12:49 -0000
-Message-Id: <169115476977.10499.14741667855534258172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 04 Aug 2023 13:13:18 -0000
+Message-Id: <169115479881.10747.12351978139730769197@gitolite.kernel.org>
 
---===============1705517046191293691==
+--===============8334424604096994680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: bf1842996aaa726bf3d108b41f366b88680acbe6
     log: revlist-f6b8436bede3-bf1842996aaa.txt
 
---===============1705517046191293691==
+--===============8334424604096994680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -928,4 +928,4 @@ ddf251fa2bc1d3699eec0bae6ed0bc373b8fda79 tcp_metrics: fix data-race in tcpm_suck
 c1a515d3c0270628df8ae5f5118ba859b85464a2 Merge tag 'perf-tools-fixes-for-v6.5-2-2023-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 bf1842996aaa726bf3d108b41f366b88680acbe6 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============1705517046191293691==--
+--===============8334424604096994680==--
