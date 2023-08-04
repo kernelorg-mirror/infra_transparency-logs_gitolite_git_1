@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 04 Aug 2023 10:32:30 -0000
-Message-Id: <169114515099.18298.3469724749644878795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 04 Aug 2023 10:32:50 -0000
+Message-Id: <169114517083.18498.15867850153552185554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/main
-    old: 5c7b67f9128ab3be49528b1dfa29403edc856190
-    new: 5046942287a7ebaa761b7558d5c6e219f0a0553b
-    log: |
-         5046942287a7ebaa761b7558d5c6e219f0a0553b Mellanox: Add new mlxsw_spectrum firmware xx.2012.1012
-         
+  - ref: refs/tags/juno-update-6.6
+    old: 0000000000000000000000000000000000000000
+    new: e3618e74df5a92ec2011ed1a549afeae5e717d71
