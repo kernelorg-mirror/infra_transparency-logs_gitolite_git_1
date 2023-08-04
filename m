@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7876555726757328052=="
+Content-Type: multipart/mixed; boundary="===============6930601225710714653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 04 Aug 2023 15:41:38 -0000
-Message-Id: <169116369832.26061.9413316383353710350@gitolite.kernel.org>
+Date: Fri, 04 Aug 2023 15:42:06 -0000
+Message-Id: <169116372671.26354.16090505417016835276@gitolite.kernel.org>
 
---===============7876555726757328052==
+--===============6930601225710714653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 2353032d292e97005bebf346939841c6c008df7a
-    new: 7cd8126c2e6b7a1eba3e36347d83d95b1b1cfe47
-    log: revlist-2353032d292e-7cd8126c2e6b.txt
+  - ref: refs/heads/master
+    old: 83a7564d1f8a55c799ad66a1d2722535dfba8485
+    new: b16b5269921dfdb45243bc9f929a076e8e0dc615
+    log: revlist-83a7564d1f8a-b16b5269921d.txt
 
---===============7876555726757328052==
+--===============6930601225710714653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2353032d292e-7cd8126c2e6b.txt
+Content-Disposition: attachment; filename=revlist-83a7564d1f8a-b16b5269921d.txt
 
 d1478aea649e739a0a0e4890cd8b049ae5d08c13 memory: tegra: Add dummy implementation on Tegra194
 daf60d6cca26e50d65dac374db92e58de745ad26 exfat: use kvmalloc_array/kvfree instead of kmalloc_array/kfree
@@ -203,5 +203,14 @@ c1a515d3c0270628df8ae5f5118ba859b85464a2 Merge tag 'perf-tools-fixes-for-v6.5-2-
 c389f5a22bf5456504da9de197825327d08cb50a tpm/tpm_tis: Disable interrupts for TUXEDO InfinityBook S 15/17 Gen7
 8a73f1d98d73885f8971025b434471acf0601ae2 sysctl: set variable key_sysctls storage-class-specifier to static
 7cd8126c2e6b7a1eba3e36347d83d95b1b1cfe47 tpm: Disable RNG for all AMD fTPMs
+56c891adc5f092197deaf373efa925d0425f00c2 sysctl: set variable key_sysctls storage-class-specifier to static
+14d4e636037bf87baa4ffcd4dcbdf8167c5f4853 KEYS: Replace all non-returning strlcpy with strscpy
+b5254dd212fc449bb82ba8656ef79969607bcc3c KEYS: DigitalSignature link restriction
+dabe3a9c312d40df4de1a91352509f56c986de4c integrity: Enforce digitalSignature usage in the ima and evm keyrings
+b7ac98f61b5f7c22f9d0a7ae906990f6df0463dd tpm_tis-spi: Add hardware wait polling
+e49d04eb017b6d2b8e8036fa680ac9653ab8d7a1 tpm_tis: Move CRC check to generic send routine
+9be6bddfd63b6d3a6e56a08193f712738e0b132d tpm_tis: Use responseRetry to recover from data transfer errors
+9a72fddad5231cace38917f30bbe17c738f283a7 tpm_tis: Resend command to recover from data transfer errors
+b16b5269921dfdb45243bc9f929a076e8e0dc615 tpm: remove redundant variable len
 
---===============7876555726757328052==--
+--===============6930601225710714653==--
