@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6232205844212722247=="
+Content-Type: multipart/mixed; boundary="===============8239432563790125518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 04 Aug 2023 10:42:37 -0000
-Message-Id: <169114575789.28248.1298620022286684615@gitolite.kernel.org>
+Date: Fri, 04 Aug 2023 10:42:48 -0000
+Message-Id: <169114576811.28401.5814976206297800242@gitolite.kernel.org>
 
---===============6232205844212722247==
+--===============8239432563790125518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 628456543b05896a23b98a299992940caa1d123a
-    new: a16fa77002ac2e972535a2b3a04cb0af6f94e794
+    old: a16fa77002ac2e972535a2b3a04cb0af6f94e794
+    new: 72919afbe8b3e08ecf59244aa92c22bd3b1fbb1e
     log: |
-         567abed340a8ddec432889617c713fd5496296b6 drop queue-4.19/ath10k-fix-tkip-michael-mic-verification-for-pcie.patch
-         a16fa77002ac2e972535a2b3a04cb0af6f94e794 4.14-stable patches
+         72919afbe8b3e08ecf59244aa92c22bd3b1fbb1e 4.19-stable patches
          
 
---===============6232205844212722247==
+--===============8239432563790125518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691145757 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691145767 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1691145756-4b4c5d7a943e9ce13092a71e4f54e7dfa74dd164
+nonce 1691145766-c56b77225a8d35b09ac41252d0e2c85ca8b794c6
 
-628456543b05896a23b98a299992940caa1d123a a16fa77002ac2e972535a2b3a04cb0af6f94e794 refs/heads/master
+a16fa77002ac2e972535a2b3a04cb0af6f94e794 72919afbe8b3e08ecf59244aa92c22bd3b1fbb1e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTM1h0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w4wP/3ZjvPYKWB+OQ5WsYFG3
-Cdpg0MWsYM8mVaW4j2TKLHLi++5Vts1vNLLi2KBqaTl1kKj19luYr7XxCDKYg/8P
-hrolPjcVJVv121etg1iS7XACWrixOK9rTIIJiH+ELVhsxDCW5qca47jtsPJN4ywY
-tBrxEGkf72pX6YykaKf4ALp0M8yEzadjqvYRpXpaAYlc7RJ+h9vC/LSyvFHo7G4X
-h5Oj7Q5rpQJTOIV7pFOZyETT81NH/Gf+Grr3gZJ1gWEvv0QnKRnwcPoDCZS6GNx2
-agIFfXmfU3EHZAknoqseDWmdn1XZo5YlHwZCcRNpnCdYiniefkTvhCH3ttCnMeNs
-IUViA7XLoPcUt0qfe51fyA9wE2BFYJty1hT+UTnsfWxQBZWtFIfPo9PAGAVSk+b0
-Wggql/VPAWVVkXwvdCFESvWLlWMwYUqWrCCRN1RojaoEN0B7YrkgamRwD78r4LyV
-fnlPBMqWjabC+mbNZ2vshboC7fxK5Wep0q94Yt4bc1czo3qmoOM8DWCb0TCJ43Oe
-+aHFn+k1+TTcmduKNK5TcNd39t3y0xz85dta9VeayJ0iNGrvXXXNv56zaLVVR353
-nKRc80acPuzvzixRALVMqm2p0KXsUCjPG+jOt9+XUdTMZf6CTnywklUd8egEcuSC
-GrvpjMqvhC3baevaoGaroh1v
-=9Z0+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTM1icbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VV4P/0R+j3aKLovtolthxNNN
+cH47MJXIz3eOa6Mnw8kL/6h/mriFrP+8L7NUVhfBOU/5azBerAGPac5ornrYOkGc
+T7HJytJ2oDZ7yG1XCD+5DDI3K4mLG/BdeUTufpc/oIc7XDJncy6sr85PcJiiNohZ
+z4uWZPv0bGpR11DeiNTFxikac286UY2NzkxYVld8uTJ/ddbxwbC22EJeoPvK6WTd
+RMcXuXToz579KHAamq4oTNqoL04hpzwtHz2my/LiWEwKHG6bEyK0Vbiu9VhPGjKP
+Y3BNnt5GKiqUUqM7iEsKiymuR2+nRAlsVV/Xd3vv3OuheYa7GLtWKQAZXauA6VAU
+2QVxYpz+dwwckljQSvFVqL1qRxtfK4cOgTVrIaNTlkC/6y0lkbEmsnC+PDdZYUpe
+3rUNSQEVjyiy+XyEmnRU9rFJf++LXi1ZxyIIs/C5e28t5+3RMQCLNtmrD1oY9M9R
+6Qhf+iWcAx7x+oJ8IKFrapm5+vTSfdnjlepf0zWdXBS63lW+ExJvgWWcfuleajYq
+pUkXBXhvbY/7IYnGZJH4QEDwjhMrDjJrrZdacXXtNelmhgnjJH/QCoiAcC7pIphp
+SDSZUDeGfWRDG9RRz917Bn4vahdgYGJw32Ia8d2sHIMz3IOlegRDoZJUOgAGHt3O
+lhIK60JCeBsC5cKR7a9pLoUW
+=u4Y6
 -----END PGP SIGNATURE-----
 
---===============6232205844212722247==--
+--===============8239432563790125518==--
