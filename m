@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7947012578115610645=="
+Content-Type: multipart/mixed; boundary="===============6656470768775691184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 04 Aug 2023 17:32:24 -0000
-Message-Id: <169117034489.10447.13522786139810232116@gitolite.kernel.org>
+Date: Fri, 04 Aug 2023 17:38:46 -0000
+Message-Id: <169117072610.15650.14834595913788680832@gitolite.kernel.org>
 
---===============7947012578115610645==
+--===============6656470768775691184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,64 @@ repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
   - ref: refs/heads/x86/topo-full
-    old: d140762e85ed723de8f0fbad931784eb7bef0d98
-    new: 36474dd5fb0c8faa30c78230d4799f6d4e453498
-    log: revlist-d140762e85ed-36474dd5fb0c.txt
+    old: 36474dd5fb0c8faa30c78230d4799f6d4e453498
+    new: ef76f58d8b34b1c6af83139c7d7cbf2a53c50bf2
+    log: revlist-36474dd5fb0c-ef76f58d8b34.txt
 
---===============7947012578115610645==
+--===============6656470768775691184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d140762e85ed-36474dd5fb0c.txt
+Content-Disposition: attachment; filename=revlist-36474dd5fb0c-ef76f58d8b34.txt
 
-c960d72afcc664a602955d93c50338081299a258 x86/platform/ce4100: Dont override x86_init.mpparse.setup_ioapic_ids
-a15e9ab6adaa38eb49bb16a0aa4ff1d0993f44b4 x86/ioapic: Replace some more set bit nonsense
-6b4963c93ca41c0008112dc224f37e4936f8a9a9 x86/apic: Get rid of get_physical_broadcast()
-a97956e49e8a3f3c783c631316248df09c2ffe29 x86/ioapic: Make io_apic_get_unique_id() simpler
-dc21101a58421f8cda3cad2f98ab531a56d70556 x86/ioapic: Simplify setup_ioapic_ids_from_mpc_nocheck()
-408c1dd2e272e052ef88508baf666f701707938a x86/apic: Remove check_apicid_used() and ioapic_phys_id_map()
-a5916faec3b8152f0daa7a5c6496bb76e613f077 x86/mpparse: Rename default_find_smp_config()
-0615ec488113fdf20fb160aac771464aa6af085c x86/mpparse: Provide separate early/late callbacks
-1bd2a8cb6ecb1535587c7f86ad2f5c8d8f7c8a4d x86/mpparse: Prepare for callback separation
-0b7df5182dbe65c96743e983fce7a070e0c9e404 x86/dtb: Rename x86_dtb_init()
-97a5f3cc2c8cee12ed1e513d52c1e6618267c0b9 x86/platform/ce4100: Prepare for separate mpparse callbacks
-278bf262eb4ac1792762910592c7ea2816778fec x86/platform/intel-mid: Prepare for separate mpparse callbacks
-f7af64d8b4a7b52af770525d4ef101b20c3fb274 x86/jailhouse: Prepare for separate mpparse callbacks
-cd09a030ba0d45cd27d39017b807dcaa4c92b164 x86/xen/smp_pv: Prepare for separate mpparse callbacks
-72abfa79ffed0fe575cf4c5bcca8503fe8752ab4 x86/mpparse: Switch to new init callbacks
-2b9c5853209fc5021ea6cccd6828391fbc1e265b x86/mm/numa: Move early mptable evaluation into common code
-71ebc07c775c07038a3e8b8fa229a0f53b858668 x86/mpparse: Remove the physid_t bitmap wrapper
-a575ec15ed157c0cfcdcbd82ee8d4c4e52c573ee x86/apic: Remove the pointless writeback of boot_cpu_physical_apicid
-f7b59ed3b4f8428c2e0cae9ba221a03156de4f2e x86/apic: Remove yet another dubious callback
-818860706b4990f8db749c18f319570bc05d0348 x86/apic: Use a proper define for invalid ACPI CPU ID
-0abd1564854fa6e9e43d5d8f32345b4475373c50 x86/cpu/topology: Move registration out of APIC code
-eb93225607eb7ead0465b943efb5bf974b1505ae x86/cpu/topology: Provide separate APIC registration functions
-1cd78953e0753a1fecd6ca40b07c5d639736a7cf x86/acpi: Use new APIC registration functions
-6c0de6764755df1f6039f2444e91f2607ed16cc9 x86/jailhouse: Use new APIC registration function
-6028fe4f277ddb549b2cfb532203363a847fe4b8 x86/of: Use new APIC registration functions
-2fd42a08efd9fb8bb9e35a3f129f1f2c3d9c114c x86/mpparse: Use new APIC registration function
-acb112d2f976d88468593c810af98adef286a5f5 x86/acpi: Dont invoke topology_register_apic() for XEN PV
-516e47d0ddd7da8eb8cd055a0becb18de5c77092 x86/xen/smp_pv: Register fake APICs
-e186b4a819955a4d517706daaf2864a7318eb6a8 x86/cpu/topology: Confine topology information
-ec0e8972b8e376aa38586332d886615b5558748f x86/cpu/topology: Simplify APIC registration
-e9fbdaedffb57b9d14b9e48cec3ce4bc702188da x86/cpu/topology: Use a data structure for topology info
-2a9388b874d089188994c012549aab40b1b9b4b2 x86/smpboot: Make error message actually useful
-febddcb5861f1c7ebbe9102aad9b65d40155644f x86/cpu/topology: Sanitize the APIC admission logic
-1bb7c391495379431e8a33e99a87a489a6fd969b x86/cpu/topology: Rework possible CPU management
-cd948f9b2dcc8dd68cc63817fab9c4e64d41cb28 x86/cpu: Detect real BSP on crash kernels
-fcf37462a99bd3e274750cddbaf9f9531bf47900 x86/topology: Add a mechanism to track topology via APIC IDs
-8393c69a8c1d6fc974b3dc57b3f8534d3ea37fa2 x86/cpu/topology: Reject unknown APIC IDs on ACPI hotplug
-8104bc1b0a22ab40115c232406bfc52751bf4499 x86/cpu/topology: Use topology bitmaps for sizing
-71fb307933d340180c9c08782974387e73f2c1dc x86/cpu/topology: Mop up primary thread mask handling
-9c6b3408867e6196d9ff1443892e3f71126ac248 x86/cpu/topology: Simplify cpu_mark_primary_thread()
-8f3d588dd23e739d413ccd05bbfcbac22600c0ce x86/cpu/topology: Provide logical pkg/die mapping
-09cb94fb60b54544920b65d0f4612f9d9282fecb x86/cpu/topology: Use topology logical mapping mechanism
-f605de17587921fdfa017d5b6d83d018f2788998 x86/cpu/topology: Retrieve cores per package from topology bitmaps
-afebe9edffd747a09fa9ddaebf4886bc3e8343a2 x86: Use topology functions instead of smp_num_siblings where applicable
-05b98f88668252c5b7f44104665889e230bc35ee x86/cpu/topology: Rename smp_num_siblings
-8c964224f7aa3fee8b2026d36a43fae979e4aa21 x86/cpu/topology: Rename topology_max_die_per_package()
-f05ed5757176b4cc327e9bb208c7c0e5483a661a x86/cpu/topology: Provide __num_[cores|threads]_per_package
-bfb40af88041e763ad8bd6cf0cdd4fb0dc9f4fa6 x86/cpu/topology: Get rid of cpuinfo::x86_max_cores
-36474dd5fb0c8faa30c78230d4799f6d4e453498 x86/cpu/topology: Assign hotpluggable CPUIDs during init
+87438d6e1a8de1463a06628e72fa66d8d4771caa x86/platform/ce4100: Dont override x86_init.mpparse.setup_ioapic_ids
+326b3f722c75570e0d190a01aba6879af4ba813d x86/ioapic: Replace some more set bit nonsense
+d3aebcef23d1eecdc5bdef0153d26c020d7ba143 x86/apic: Get rid of get_physical_broadcast()
+5788b7a3aab2d064679541d6352d2f207852ecee x86/ioapic: Make io_apic_get_unique_id() simpler
+e8d527cf0de4d8a5f920ef1283acf1c68e3c4ab4 x86/ioapic: Simplify setup_ioapic_ids_from_mpc_nocheck()
+a2961e4cafaeaa5182904b43b962fd5a5d172911 x86/apic: Remove check_apicid_used() and ioapic_phys_id_map()
+1f21ea52695ce6420ef709e920ed89c4ab0fb265 x86/mpparse: Rename default_find_smp_config()
+9740006cf7f4d80021ce6d8089b3c506d0a8370c x86/mpparse: Provide separate early/late callbacks
+62da10bd7f4fc2b2a41f214cb75f76917a541f5b x86/mpparse: Prepare for callback separation
+f30407e42331e17d7330d58bd73a0780fe47b666 x86/dtb: Rename x86_dtb_init()
+43c9e443403da857056da5dbc45a0f5672d2abaa x86/platform/ce4100: Prepare for separate mpparse callbacks
+8f79f86abaf6d4ffd1ac99540f66244cf8de57d8 x86/platform/intel-mid: Prepare for separate mpparse callbacks
+fcd6195c73314b64d714e1f24e87e92dfbe4976c x86/jailhouse: Prepare for separate mpparse callbacks
+2f675672cba1792131c71ff83a445aecd6c00513 x86/xen/smp_pv: Prepare for separate mpparse callbacks
+478a44ecd7a0ddd931cd6c31a855be3b332926ec x86/mpparse: Switch to new init callbacks
+901dc20847016f200cb9dc46071a1fdb1a2e15cd x86/mm/numa: Move early mptable evaluation into common code
+0f6df72fe0dd50381dfe8439e47f01fd0d858da2 x86/mpparse: Remove the physid_t bitmap wrapper
+8d96aa8395e375989366c4e163bca1ea5d85e614 x86/apic: Remove the pointless writeback of boot_cpu_physical_apicid
+1622738d70fd4db8afc49c64c2d46f783fb3ad89 x86/apic: Remove yet another dubious callback
+0f0b77b22872da7f667847d1cea71cb9e85b91e7 x86/apic: Use a proper define for invalid ACPI CPU ID
+bee64ad39105608d4981a5e45bf01ca9feaa4fb8 x86/cpu/topology: Move registration out of APIC code
+f221b1ff8ba3723710fa76c29044eab9340a2d55 x86/cpu/topology: Provide separate APIC registration functions
+a22b9360f6d4f49fe7ebebf60de35fa82248b702 x86/acpi: Use new APIC registration functions
+c5fd7d8aafcf0186ce07bf683b178e789c7d86db x86/jailhouse: Use new APIC registration function
+5178750e35414789f5788f3b0db97b42b7e42e83 x86/of: Use new APIC registration functions
+f82208abbf916bab72da9f01645289009c3037e3 x86/mpparse: Use new APIC registration function
+e873cfff8dca758fb975299ceaad2dd5341310b6 x86/acpi: Dont invoke topology_register_apic() for XEN PV
+b1ccb590351b9c9c93f3d66c48fbec76cc437c4f x86/xen/smp_pv: Register fake APICs
+61fdc8ba6d6d35e24d61200596567395d058bad3 x86/cpu/topology: Confine topology information
+de97357aa8764d8aabdd986f0f1a1cea792d17b6 x86/cpu/topology: Simplify APIC registration
+ac253f68917bf2686f88b92ccbd643eda5811c5f x86/cpu/topology: Use a data structure for topology info
+7cbcb181b8f35fab4b939683957afe208c579fd0 x86/smpboot: Make error message actually useful
+41d028c5dd59bf98ed86656d96318ec76a861874 x86/cpu/topology: Sanitize the APIC admission logic
+fae50c56bf5c4d04c481368512f64e35818f9176 x86/cpu/topology: Rework possible CPU management
+279488b8db75e23ec15210ebbe53ecf1e11ee5cb x86/cpu: Detect real BSP on crash kernels
+102277662f1dde4f76584538c202272947e2a144 x86/topology: Add a mechanism to track topology via APIC IDs
+537733323f4c8596208dcd99b63a9532de56c68f x86/cpu/topology: Reject unknown APIC IDs on ACPI hotplug
+96248d87c82e9bd4547fd3a742715298cc48b31b x86/cpu/topology: Use topology bitmaps for sizing
+82e72ec56cb875e65c265c1b82cbd0e72d71b639 x86/cpu/topology: Mop up primary thread mask handling
+3bcfb46118923ca3d76f54f4cabe17c80831c89e x86/cpu/topology: Simplify cpu_mark_primary_thread()
+d613b3bc6128e920c35faba0140ab7b439707f80 x86/cpu/topology: Provide logical pkg/die mapping
+dbef13142df070d1598f85df56f0f1879bf50fff x86/cpu/topology: Use topology logical mapping mechanism
+1f88596f160114030628bcabaeb40ea2e99f81ae x86/cpu/topology: Retrieve cores per package from topology bitmaps
+9a8ec9a8787196f0555a42edb73070b5b26a51b8 x86: Use topology functions instead of smp_num_siblings where applicable
+b15232364d7f15f87ff99986136ded16ff5bd43e x86/cpu/topology: Rename smp_num_siblings
+aae02d0a046ca3aef06c28d5c35f64c97be233f0 x86/cpu/topology: Rename topology_max_die_per_package()
+baa9ad6ace175963f56fe48b21990d04cc740de3 x86/cpu/topology: Provide __num_[cores|threads]_per_package
+1a2951db60bb28ac9fddf7d7f3bc79bb8535b54c x86/cpu/topology: Get rid of cpuinfo::x86_max_cores
+ef76f58d8b34b1c6af83139c7d7cbf2a53c50bf2 x86/cpu/topology: Assign hotpluggable CPUIDs during init
 
---===============7947012578115610645==--
+--===============6656470768775691184==--
