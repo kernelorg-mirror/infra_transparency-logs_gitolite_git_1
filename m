@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 04 Aug 2023 00:13:55 -0000
-Message-Id: <169110803500.3691.11962246462796154928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 04 Aug 2023 00:51:39 -0000
+Message-Id: <169111029926.31099.2833316233992810473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-6.6
-    old: 95f5c19c8c04a81477b73b478d10d4eda7aa2f69
-    new: 7f828eacc4bbfd3ceea8ea17051858262fe04122
+  - ref: refs/heads/master
+    old: cf74d3bebd3480191f3a1c2a798288214c1fc417
+    new: 4f18b196d1c6974d943657ef61bba5d758b57695
     log: |
-         7f828eacc4bbfd3ceea8ea17051858262fe04122 cgroup: fix obsolete function name in cgroup_destroy_locked()
-         
-  - ref: refs/heads/for-next
-    old: 95f5c19c8c04a81477b73b478d10d4eda7aa2f69
-    new: 7f828eacc4bbfd3ceea8ea17051858262fe04122
-    log: |
-         7f828eacc4bbfd3ceea8ea17051858262fe04122 cgroup: fix obsolete function name in cgroup_destroy_locked()
+         4f18b196d1c6974d943657ef61bba5d758b57695 Fri Aug  4 12:50:30 AM UTC 2023
          
