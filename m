@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 04 Aug 2023 18:36:36 -0000
-Message-Id: <169117419670.25566.15088699367725360147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 04 Aug 2023 18:45:47 -0000
+Message-Id: <169117474702.1022.11216647129802608119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/misc
-    old: bca71808bcacdb0856ca03852590f052be8b02fa
-    new: a4877d92ba0f1559566fe4892672f4f2d25be270
+  - ref: refs/heads/dev
+    old: f3951d8a9319dad8fe3613a59f569b6caa1ae36e
+    new: 598927a5143723f88fb8f4b070e2355adadc3433
     log: |
-         c7a3674b833fcc319e4644fcfdb004e3580bcfb6 compiler_types: Introduce the Clang __preserve_most function attribute
-         b1e6555544988c921334ac4526c21c5b57816ad3 list_debug: Introduce inline wrappers for debug checks
-         a4877d92ba0f1559566fe4892672f4f2d25be270 list_debug: Introduce CONFIG_DEBUG_LIST_MINIMAL
+         598927a5143723f88fb8f4b070e2355adadc3433 squash! fs/proc: Add /proc/cmdline_load for boot loader arguments
          
