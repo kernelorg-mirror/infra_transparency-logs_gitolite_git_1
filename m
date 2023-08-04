@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5936234870362777674=="
+Content-Type: multipart/mixed; boundary="===============0898230124839862348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 04 Aug 2023 19:03:40 -0000
-Message-Id: <169117582024.12669.9150677856984550355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 04 Aug 2023 19:03:46 -0000
+Message-Id: <169117582645.12815.8740107337044594247@gitolite.kernel.org>
 
---===============5936234870362777674==
+--===============0898230124839862348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: ffae65fb1ae4738151158b4435fad822cb1ca29c
     new: 33f1ef6d4eb6bca726608ed939c9fd94d96ceefd
     log: |
@@ -24,28 +24,28 @@ changes:
          33f1ef6d4eb6bca726608ed939c9fd94d96ceefd spi: cadence-quadspi: Add clock configuration for StarFive JH7110 QSPI
          
 
---===============5936234870362777674==
+--===============0898230124839862348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1691175818 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1691175818-73adb9c5f0727e428dd11a590f2677696c7e8d1a
+pusher C3F436CA30F5D8EB 1691175825 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1691175824-6c9aa41e0f5b4555fbf5215370e286015986b8bf
 
-ffae65fb1ae4738151158b4435fad822cb1ca29c 33f1ef6d4eb6bca726608ed939c9fd94d96ceefd refs/heads/for-6.6
+ffae65fb1ae4738151158b4435fad822cb1ca29c 33f1ef6d4eb6bca726608ed939c9fd94d96ceefd refs/heads/spi-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTNS4oACgkQJNaLcl1U
-h9DQrQf+Jpznt4YQH06V5sZsr2J+9VUB4ekFfaiYB+m+fxNLoi/cYPx3cJPkq5Md
-N07ZLcC30j6kUirXZDClL+kRSb2btzxLxL3gJimLUrwy/l+e/r3JGJno5PeCcTzx
-jLHGqUKqfph9Z3+VkMHOBPQkMn6dZ5eIivfoA8bauJGWHLw4/xlq+kvQASVg85vx
-nORP7BG0aelx1pyJEqw1SnyKg4L+RVSnrRvrWCfv4Y9rCLkiK6Vvp+Oa47UjO2Rb
-15e2XJBt7hKrwDcnlHoWl/Lia5+D03aB0eBmgQPQ9e+fDZG+Sr5+JoM7HbmMqKTf
-MuqEZWe/AfNAm7b7/+IcfsPN0XO9Fg==
-=fHI0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTNS5EACgkQJNaLcl1U
+h9Cfmwf/eFZLEX64rH0M+2zSCmPxyT8/bynU2jF5mDSGWWB/47SRWh68mYbkkpqZ
+8T+hmsLVpcnjKPuEHbRNY0FKCcnnYpPRjKN3p3MDyAsebvcinqgX3TjKhz0vc8Qr
+ujLWip7sFb6ZZ97D2KnGzpC7MIHgFNhspklY7QIu3TiZrtXIkx5hwQE1H2NLTFMe
+kMbCYKDEBM4V1j/arPoulEtGxpEwc8blamQ1EZhK7/0FQf+JDLm5xCMKGO8HO6vU
+RN4QYA0rziUqaPhLYwMssx12SrdPPXmgc4SpL6vXGukqwgvwo8W4yLZ9zf7y2Pe9
+M4oMTEEyuAe0J0QrNHXAXt/qwU4tWg==
+=TwYw
 -----END PGP SIGNATURE-----
 
---===============5936234870362777674==--
+--===============0898230124839862348==--
