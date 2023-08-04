@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0250107713553145157=="
+Content-Type: multipart/mixed; boundary="===============7744200554180243454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 04 Aug 2023 14:20:39 -0000
-Message-Id: <169115883985.29995.14545639653559202024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 04 Aug 2023 14:22:24 -0000
+Message-Id: <169115894479.30724.16085875402900865665@gitolite.kernel.org>
 
---===============0250107713553145157==
+--===============7744200554180243454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 0e21a9d29d8bf9e3fe98c23c827a5be891f74347
-    new: 1422b526fba994cf05fd288a152106563b875fce
+  - ref: refs/heads/char-misc-testing
+    old: 1bae5c0e2c8d48c1c1306912dfae41d165508f58
+    new: 8306d6f35dbde19fe2d56964159fa2b4c6343bc1
     log: |
-         af01991005ff8c531ab521b1e1165362e69101d0 staging: rtl8723bs: use is_zero_ether_addr() instead of memcmp()
-         2f59ee3f8172d89693bae7c007870c4172387345 staging: rtl8723bs: use is_broadcast_ether_addr() instead of memcmp()
-         ac19020be0e2e6ff62d18439d7f81251bdd1bb5a staging: fieldbus: arcx-anybus: Do not check 0 for platform_get_irq()
-         1422b526fba994cf05fd288a152106563b875fce staging: rtl8712: fix race condition
+         05d56d8079d510a2994039470f65bea85f0075ee dma-buf/sync_file: Fix docs syntax
+         2fd84b9b839c3541815733701a06d9df48297a91 uio: pruss: fix to check return value of platform_get_irq() in pruss_probe()
+         a436194d0ee94ec67522647ace5a36a2126b6a0e cdx: Explicitly include correct DT includes
+         8306d6f35dbde19fe2d56964159fa2b4c6343bc1 peci: Constify struct peci_controller_ops
          
 
---===============0250107713553145157==
+--===============7744200554180243454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691158836 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1691158835-6492da16f172e92d4ab19a3fc9a513e603033f6e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691158941 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1691158941-1d68b53ff181ce1301f895bc33f4f4c865e8d3e1
 
-0e21a9d29d8bf9e3fe98c23c827a5be891f74347 1422b526fba994cf05fd288a152106563b875fce refs/heads/staging-testing
+1bae5c0e2c8d48c1c1306912dfae41d165508f58 8306d6f35dbde19fe2d56964159fa2b4c6343bc1 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTNCTQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EB4QAIw4qoC/WoFjPYfSafEA
-dEGJXJ3QL3xUNL62wqKeTpkSgUgmobTU1ubmUf1EA4x1NYEICEPxrZM/H3o0FEE6
-1hr659qoKSJODmfiFJZp9KdEY1vX0SNh6l5Nx3PTTwG2QYv3j9NNMW2aMgPghjCx
-1p1YCmj2FVgiJ3F5EuI0eXWnePLPgaGSr4LLyTpNGeyekwacgKUQE7kLaAtfBywX
-pEeG3awsDHgfsslOmX8Qbxxd0xKIlR1OLlhKhwt+HXON+DfTxYeS2oEXNqt4WQTb
-1G7AT4Gvl2Rgw0jV5UaJ7SOeqWW3BsFXtuWQZTIs1CCx3gfx6j8/LUgyCNxhTQ9J
-xAapbBPqMzf+i9GS/WaPKvXU4AXksj1tbtK5Z8QO6UQurVCu4uRUILUXyJR/43kn
-SnwUCFJQOrK2LyV/eJd7L/shzlwiQfljc4uRvQ1mx0m+TzOS87W7aF/1fCjpf4Vg
-+kAjQt63lmHV5YgqGB5MEEBrfOBCL7fffftb7WLaQvZ3pOOBPybSm9sy6f1Tb3uk
-M2rI9nxjS3J5G9yMYMOkidYjoeIZ31LZdrGhPyJ7Vle7+YDYFRRgkBFGgN16eRmB
-U3hP1Ht/uNJR5kDeJAcqj4j3Ih3Z7Bu6upTNk/sp60voR8l/hYwJaFgrIMHo+h2/
-XDSV1BZAftHHX+T/yhp2Vwla
-=HQZo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTNCZ0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++mIQAMuD2E7fOSHfenUejpUq
+VmujqgFEC0H2JJCPDijkFQm0BR+UOUnMbjMweShP8pIJCsKC3aGt8QQvxqxvA1nu
+uC9o+4Lfw9UG0LHu8pd+oFPDIYJUcp2kBcd8yy/8CWb4VaVGz5+TgTvW3SGN08Ir
+c/BMr2QAhnH4Rj2qLrVRE4Xk6ZQK99pGQtBqlQ99P5Vmx0kN9lI3WUMlTNgnqkTw
+f6Pq3uG4zpRuZbH3KD8t6fOFDsUl6UzRyBK85l4DmAov9NJqmgHhLkq2/7p9sS9w
+LfTrzeMoRicldIW5wMch1n9hRlHhp9JFJJLVpdJWEwkFW/uOzVijqaRFjO3TXREF
+2n1OjnL8rpdm5U80B6M4aJdFc4CPtbfbFzelZ5SDwPAqNqEpA58CdnHqw8YuRDwK
+Ujn7tEFFZcyWpxKYrtaortA8LVMrYCLQ1ER2KauX6lx/jpK2b66E9Z/MitQoA/07
+aw5rAH3APKN4SCYlqI6X/1Phdl87QLW3Rl1Wb/cKh8NETaodcR38AkiqUWvfE/Pg
+TcMUCb/eHyMeiIpUCf+3n4ryYDwE0rHZWUtkq/+wmCAfu/B/PboMAFKJ9nsOSWjC
+FOp++KrHbWDNWmY5g3ak7DMu+ZL45WPvFAcaOIcGq2qWkhJn8Q2uykVuk5/pX1AF
+s/uJTcSNS48LVogwqgZ6naqx
+=kSqO
 -----END PGP SIGNATURE-----
 
---===============0250107713553145157==--
+--===============7744200554180243454==--
