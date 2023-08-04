@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 04 Aug 2023 12:08:09 -0000
-Message-Id: <169115088926.26821.17843833302218499096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 04 Aug 2023 12:11:45 -0000
+Message-Id: <169115110528.29787.9358373491404514575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/tags/wireless-next-2023-08-04
+  - ref: refs/tags/scmi-updates-6.6
     old: 0000000000000000000000000000000000000000
-    new: ab0fab92303f39fc64fd7ff96ada78c2ab4901e7
+    new: 0249ed214eb297333fc4371259d7a93bd6441072
