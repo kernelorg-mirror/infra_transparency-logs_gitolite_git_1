@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 04 Aug 2023 18:22:23 -0000
-Message-Id: <169117334358.15524.103724320101110553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 04 Aug 2023 18:27:17 -0000
+Message-Id: <169117363787.18904.11924012122157580612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 80107630396d3d3a3984c599e0cb9b015be0499c
-    new: 033b68cbb1bf73b1bb9d26f5ffac35b6dc0afab8
+  - ref: refs/tags/arm64-fixes
+    old: 417a5da89310ca92401da8b2b83dca42b2db90f2
+    new: 2b480d11513ad4f3aa668d3a71a1fd19b2ed3c05
     log: |
-         5815a92423c3d074e26974f4ca5de0cc4b596845 btdev: check error conditions for HCI_Create_Connection_Cancel
-         23a7d4003064761e225394a42253d51dd5e81093 btdev: fix Command Status command opcodes for Setup Sync Conn
-         80c8266ae20ae6bf6d468d0b32d9ebffc1f4d400 sco-tester: test local and remote disconnecting simultaneously
-         10d83e3423bb3cc59fc0b5cb680c466b8658edfa iso-tester: test with large CIS_ID and invalid CIG_ID/CIS_ID
-         033b68cbb1bf73b1bb9d26f5ffac35b6dc0afab8 iso-tester: add tests checking Remove CIG is emitted
+         c9bb40b7f786662e33d71afe236442b0b61f0446 arm64/fpsimd: Clear SME state in the target task when setting the VL
+         89a65c3f170e5c3b05a626046c68354e2afd7912 arm64/ptrace: Flush FP state when setting ZT0
+         045aecdfcb2e060db142d83a0f4082380c465d2c arm64/ptrace: Don't enable SVE when setting streaming SVE
+         507ea5dd92d23fcf10e4d1a68a443c86a49753ed arm64/fpsimd: Sync FPSIMD state with SVE for SME only systems
+         69af56ae56a48a2522aad906c4461c6c7c092737 arm64/fpsimd: Sync and zero pad FPSIMD state for streaming SVE
          
