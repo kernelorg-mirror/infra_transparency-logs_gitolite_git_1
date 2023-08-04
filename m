@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2561807022920713689=="
+Content-Type: multipart/mixed; boundary="===============3108829712802650620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 04 Aug 2023 12:53:14 -0000
-Message-Id: <169115359468.26858.14955412267526656312@gitolite.kernel.org>
+Date: Fri, 04 Aug 2023 12:57:52 -0000
+Message-Id: <169115387268.30155.430717603610195402@gitolite.kernel.org>
 
---===============2561807022920713689==
+--===============3108829712802650620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: b35935d66a3a25848519b9bffc1fca0b6b1004c5
-    new: d9216d3ef538c32a7e413f3401cd6b606b81a708
+  - ref: refs/heads/usb-linus
+    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+    new: 3ddaa6a274578e23745b7466346fc2650df8f959
     log: |
-         976f82e8aa3cfe557ee22a313bf48f418695bedf usb: dwc3: dwc3-octeon: Convert to glue driver
-         417840663ab858bafb3a0d6d86e73a5db506202a usb: dwc3: dwc3-octeon: Use _ULL bitfields defines
-         23f87bcac649e91dce5a8bb8bd2908636117d6bd usb: dwc3: dwc3-octeon: Pass dwc3_octeon to setup functions
-         c61101631cdc0a98840a8e4f5a1e571ca94d82fc usb: dwc3: dwc3-octeon: Avoid half-initialized controller state
-         dc0092ce24dc1655a1b06edb37cddc0946bb40f9 usb: dwc3: dwc3-octeon: Move node parsing into driver probe
-         540264746d83b645b32e6a67367489d8e2c536f9 usb: dwc3: dwc3-octeon: Dump control register on clock init failure
-         d9216d3ef538c32a7e413f3401cd6b606b81a708 usb: dwc3: dwc3-octeon: Add SPDX header and copyright
+         4270d2b4845e820b274702bfc2a7140f69e4d19d usb: typec: tcpm: Fix response to vsafe0V event
+         5a5ccd61cfd76156cb3e0373c300c509d05448ce usb: typec: altmodes/displayport: Signal hpd when configuring pin assignment
+         348359e7c232adc153ed7ec9a157f22d68d29860 usb: typec: nb7vpq904m: Add an error handling path in nb7vpq904m_probe()
+         ef7c4d8a90c64bac294363c6f67eb98246a162a2 usb: typec: mux: intel: Add dependency on USB_COMMON
+         65dadb2beeb7360232b09ebc4585b54475dfee06 USB: Gadget: core: Help prevent panic during UVC unconfigure
+         8e21a620c7e6e00347ade1a6ed4967b359eada5a usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
+         a6ff6e7a9dd69364547751db0f626a10a6d628d2 usb-storage: alauda: Fix uninit-value in alauda_check_media()
+         3ddaa6a274578e23745b7466346fc2650df8f959 usb: dwc3: Properly handle processing of pending events
          
 
---===============2561807022920713689==
+--===============3108829712802650620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691153590 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691153867 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1691153590-757c70b0c6d795754a8e706542c2b553e18d0e6e
+nonce 1691153866-ae01a84bab7e69dd6f664124bd09e0421fbde97d
 
-b35935d66a3a25848519b9bffc1fca0b6b1004c5 d9216d3ef538c32a7e413f3401cd6b606b81a708 refs/heads/usb-testing
+5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 3ddaa6a274578e23745b7466346fc2650df8f959 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTM9LcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NKQQAIHukoWY0d/UoDEp94Ot
-RhmEsXgJ1OF//LMPRu+bmo6JkQi4aqvgbWVg9ttOlW4BEGEr9pFHt7JPKdNtHhn4
-32LuNUOSZEzhCm84khzQ7W7NPzEwsKogP7nil80pRJunC3D6v+LUDE4FvsEzcc54
-3btuggDnFUa+fZ5TG9aOQRxnABSyYRCF/5Z2w3F90KmvuaFSa5SKKTnmxNLeiBqP
-OHO4J1O08z+45rt+q6bpqSNfHgVZ0dU984vurCvwgysKPJgJAn3YHJY1CHb2UH61
-+CaRMXAMiAPJHz7OxYaw1+1kxYsc80IumBfPDY+YO3A2gHHlBcLqC47+8zA8tQnk
-/IqoW0r5CZwk4J2ZTbo80BiQMLLh8cHlAS+2eOPsptjpRTcDYL/vTRKI2dYNhUnM
-HrX4LSpXDp9inkszHPe6Wzj8AVUYWUzZ52N+/KRqtcfMqEGjeunSjavlOqKCD0QE
-P+mPF6OGsVtbtA6M6Zrlius0aJYpDHzHljlTAtDHptHY7jFxP6do/BLnrThIZH9T
-O/hrxn2ZDZmRwWdLOBYWmhXDoeUH3vOENneqjqCRAA/0uEJVlbJQfAkfjJefyCPV
-bvALrkeh1TxCnLex0M5iPqIrqGkP7z/qikfPTTqqDQ+nTijEPwm9KGJ9mYt4YbNq
-UrNQNEMYCkLwktNhPI+UxE8U
-=Utj9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTM9csbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w0kP/3wo5X18ZihL2ea7BOPx
+5e5M1yTCiRJgcnqtnMICiZShDb16YUCf3sD+WTTCVIYGwWbOLEFHbOmyuvQKJ0/C
+G2/V5uwEgIGcg5kBWY6/aVoDmZNIJLnllFZ51idXuISR/mYQUpPRRNOejwpHIjYR
+uL/BST9wtUfEvfXUnk0yJvmoxC7zTATrUZnUWSSafbAl13e74d4EcbElD8e0YmdZ
+Wlfr7mmQU3940ed7zkq+I0S3Ane2j7irWV1E2GIHR0aSaUI4hFdpIIFN8eQKyyl9
+kcG4z1XU4WtieQZ20+O1iGCG8yRO2YWBVSaeCNFu8rE0Zmivn8FDoigG+O+EWtre
+1dpC6OCm48HR8cCBSG1q7qFJmGdLboMD/ZDMAgpE876mRMAJL7mfUBAuFLWkQK0v
+SzAUDs9tiRWNJUJRlrCMpGuN6ecOeqm21QP0Q1CS5KLftmpyFEcHmCVbKD55I6Bc
+/VATEoABBUa/LodKhQpoKak7fgY1zH2jNyW0Wqj5NFdpnwtbfbKDkNjdeTXweHko
+Wx+7zeQMFLTtOBGOaJaGBlb7jhwRsmEWdtN2fUidee4gih1gYrXMfqkrHXsTH3VB
+pR7Nh+7rT1e7a89FqA4sjL0Ih1urCpw9t8SFmokdg4QFqN7Y/8+5i77zYRZ27yW+
+/OainTQHlpbYQAREnXmricJR
+=J8W+
 -----END PGP SIGNATURE-----
 
---===============2561807022920713689==--
+--===============3108829712802650620==--
