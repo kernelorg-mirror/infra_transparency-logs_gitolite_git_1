@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4764669650650694218=="
+Content-Type: multipart/mixed; boundary="===============2561807022920713689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 04 Aug 2023 12:49:42 -0000
-Message-Id: <169115338216.23843.5192088637407504588@gitolite.kernel.org>
+Date: Fri, 04 Aug 2023 12:53:14 -0000
+Message-Id: <169115359468.26858.14955412267526656312@gitolite.kernel.org>
 
---===============4764669650650694218==
+--===============2561807022920713689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,61 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 98a9e32bdf2525073fdfbdcc520d5c798a7375e5
-    new: b35935d66a3a25848519b9bffc1fca0b6b1004c5
-    log: revlist-98a9e32bdf25-b35935d66a3a.txt
+    old: b35935d66a3a25848519b9bffc1fca0b6b1004c5
+    new: d9216d3ef538c32a7e413f3401cd6b606b81a708
+    log: |
+         976f82e8aa3cfe557ee22a313bf48f418695bedf usb: dwc3: dwc3-octeon: Convert to glue driver
+         417840663ab858bafb3a0d6d86e73a5db506202a usb: dwc3: dwc3-octeon: Use _ULL bitfields defines
+         23f87bcac649e91dce5a8bb8bd2908636117d6bd usb: dwc3: dwc3-octeon: Pass dwc3_octeon to setup functions
+         c61101631cdc0a98840a8e4f5a1e571ca94d82fc usb: dwc3: dwc3-octeon: Avoid half-initialized controller state
+         dc0092ce24dc1655a1b06edb37cddc0946bb40f9 usb: dwc3: dwc3-octeon: Move node parsing into driver probe
+         540264746d83b645b32e6a67367489d8e2c536f9 usb: dwc3: dwc3-octeon: Dump control register on clock init failure
+         d9216d3ef538c32a7e413f3401cd6b606b81a708 usb: dwc3: dwc3-octeon: Add SPDX header and copyright
+         
 
---===============4764669650650694218==
+--===============2561807022920713689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691153378 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691153590 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1691153377-01c9975878016366a5bae6822d13670305844891
+nonce 1691153590-757c70b0c6d795754a8e706542c2b553e18d0e6e
 
-98a9e32bdf2525073fdfbdcc520d5c798a7375e5 b35935d66a3a25848519b9bffc1fca0b6b1004c5 refs/heads/usb-testing
+b35935d66a3a25848519b9bffc1fca0b6b1004c5 d9216d3ef538c32a7e413f3401cd6b606b81a708 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTM8+IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WaAP/i3iMxGSTz80e8f2rdNG
-cdsm7TTgFh094SKl5qrTewvAY0pN/gLSHp/ljm7TcJWn95bUxHFrlvMi5/7gfNPt
-r0gBcedX3S8zMeEcXUtyEflHRM7N++OWInISHfHkI8jl/0aMtQY1bdUcVbRa+kwJ
-Z5jH/SHQurvVqlqJ8JJov8oUMO4xNyXaJsLGWIsm1179BdBKwsWXkYumiO7yVBns
-mrBJeU42sp2YHs/Zk4EKd7hMRUnOPi52ooPcUG40pm71IsA/TjeiKId7SS1i3YGE
-xS6jZXDcaagKkb0/9NF2klpE11PW79eJ3cR8mYzFDnchVwO0po+b1QMMguiYkjwN
-LNWPwIbECcTfTD2mwoS6pyYxdvLaXIYBsqXbjZuxzS4o2B/zUYht3hiuci7PMUji
-7xP4evVui+pPkFJrzRHncXIYaOJ11U7Q3kSuN1ryu3ffSBvSYCqexfz3ptBbmn7G
-oN8m8y4KlPnYiQdYoKEn0/QzhBgOis+l83G7SvfycOUrS9GzrSMLvgX1dIwA7SaU
-eMpHvtOAd04juzSRsdpFbQ5NQOX9zbmA14bvQNYBcmyhFSwxBmouomao9jNzMOVp
-z3RhrRwG0xXLNHAH/Y+hnPjBgHgy3mpSPyPEVNTnoAbZM5KLBDfAvF8flCKqPZbJ
-2Xz2MOD2RPjqNHPczS1lQZKO
-=UeDq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTM9LcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NKQQAIHukoWY0d/UoDEp94Ot
+RhmEsXgJ1OF//LMPRu+bmo6JkQi4aqvgbWVg9ttOlW4BEGEr9pFHt7JPKdNtHhn4
+32LuNUOSZEzhCm84khzQ7W7NPzEwsKogP7nil80pRJunC3D6v+LUDE4FvsEzcc54
+3btuggDnFUa+fZ5TG9aOQRxnABSyYRCF/5Z2w3F90KmvuaFSa5SKKTnmxNLeiBqP
+OHO4J1O08z+45rt+q6bpqSNfHgVZ0dU984vurCvwgysKPJgJAn3YHJY1CHb2UH61
++CaRMXAMiAPJHz7OxYaw1+1kxYsc80IumBfPDY+YO3A2gHHlBcLqC47+8zA8tQnk
+/IqoW0r5CZwk4J2ZTbo80BiQMLLh8cHlAS+2eOPsptjpRTcDYL/vTRKI2dYNhUnM
+HrX4LSpXDp9inkszHPe6Wzj8AVUYWUzZ52N+/KRqtcfMqEGjeunSjavlOqKCD0QE
+P+mPF6OGsVtbtA6M6Zrlius0aJYpDHzHljlTAtDHptHY7jFxP6do/BLnrThIZH9T
+O/hrxn2ZDZmRwWdLOBYWmhXDoeUH3vOENneqjqCRAA/0uEJVlbJQfAkfjJefyCPV
+bvALrkeh1TxCnLex0M5iPqIrqGkP7z/qikfPTTqqDQ+nTijEPwm9KGJ9mYt4YbNq
+UrNQNEMYCkLwktNhPI+UxE8U
+=Utj9
 -----END PGP SIGNATURE-----
 
---===============4764669650650694218==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98a9e32bdf25-b35935d66a3a.txt
-
-adbe9720e573d0466b506df3b848bcf4c4dd63c9 usb: musb: Fix deferred probing
-d3af2f4c0434f3dde7f921f52614af81787bbec6 usb: typec: tcpci_mt6370: remove redundant dev_err_probe()
-4f4bda58c5aef66493f9878463c3f28502653067 usb: gadget: udc: gr_udc: Fix deferred probing
-ebcf774671da8b4985f61af11fd67ef74ffd48cf USB: cytherm: Correct the code style issue of redundant spaces
-98d6db05eda86ce50c84dcf29dcc9de0e9f8f140 usb: gadget: udc: Remove redundant initialization for udc_driver
-f2e5812fb4fb2bef665bd86dc579b292faae2029 usb: host: Do not check for 0 return after calling platform_get_irq()
-40f362ffa5e9ddf413825c99e9121db0ab59301f usb: typec: tcpm: Refactor the PPS APDO selection
-dad255a2361ae14b9d46f94bb3803b0d23f955df dt-bindings: usb: ci-hdrc-usb2: Add the "fsl,imx35-usb" entry
-e2fa03ec60f6313ff7cedce7119e6fbab06a8534 dt-bindings: usb: ci-hdrc-usb2: Fix clocks/clock-names maxItems
-2569088dbaaff6401630bda517db2e1ac4d92692 phy: realtek: usb: add the error handler for nvmem_cell_read
-803b1c8a0cea58cccde16eba31d285956f4c920c usb: typec: tcpm: not sink vbus if operational current is 0mA
-3024faf74de7ed7c0f6dc29bced4dbdbd2a1eade usb: gadget: udc: Remove unnecessary NULL values
-f87ba66a2a1b2e1dc1c4ece51fa5db93c9cf1d43 USB: misc: Remove unnecessary NULL values
-708368fb845f668ae5817f101e61bad8bbdc2bb8 usb: chipidea: udc: Remove an unnecessary NULL value
-9de17578b912f39e818035a217efd82a98cd26a6 usb: musb: Remove an unnecessary NULL value
-b35935d66a3a25848519b9bffc1fca0b6b1004c5 USB: usbip: Remove an unnecessary NULL value
-
---===============4764669650650694218==--
+--===============2561807022920713689==--
