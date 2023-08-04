@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 04 Aug 2023 00:51:39 -0000
-Message-Id: <169111029926.31099.2833316233992810473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 04 Aug 2023 01:02:34 -0000
+Message-Id: <169111095427.9852.13580620484585983686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: cf74d3bebd3480191f3a1c2a798288214c1fc417
-    new: 4f18b196d1c6974d943657ef61bba5d758b57695
+    old: 6f9bad6b2d7d6b4e11032b944e379974e31c5c8f
+    new: 5964d1e4594eb1dbfc1e2a34ec89eb48f6b03e75
     log: |
-         4f18b196d1c6974d943657ef61bba5d758b57695 Fri Aug  4 12:50:30 AM UTC 2023
+         5964d1e4594eb1dbfc1e2a34ec89eb48f6b03e75 bpf: bpf_struct_ops: Remove unnecessary initial values of variables
          
