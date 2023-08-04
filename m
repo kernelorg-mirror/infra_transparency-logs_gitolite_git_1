@@ -1,41 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6772001508652033259=="
+Content-Type: multipart/mixed; boundary="===============8855403447454937057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 04 Aug 2023 20:54:28 -0000
-Message-Id: <169118246862.29650.7524764627505579627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 04 Aug 2023 21:07:21 -0000
+Message-Id: <169118324159.7697.9758444049415672322@gitolite.kernel.org>
 
---===============6772001508652033259==
+--===============8855403447454937057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: 10c7134ee4408eb3ecc16b7177ca369cbbb8b697
-    new: 9b6d178f58838a7d2199c1395125e6c90daaac7f
-    log: revlist-10c7134ee440-9b6d178f5883.txt
+  - ref: refs/heads/main
+    old: 86b7e033d684a9d4ca20ad8e6f8b9300cf99668f
+    new: eef9630de072a21917ef5cb17ff37e4cf274be88
+    log: revlist-86b7e033d684-eef9630de072.txt
 
---===============6772001508652033259==
+--===============8855403447454937057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10c7134ee440-9b6d178f5883.txt
+Content-Disposition: attachment; filename=revlist-86b7e033d684-eef9630de072.txt
 
-418a5e7f0886be2687aefbd24a1d34ae78b8aa1c Revert "f2fs: clean up w/ sbi->log_sectors_per_block"
-8ef81b35231e1edbed8296fd31b5576c647cd102 f2fs: don't handle error case of f2fs_compress_alloc_page()
-0b4b16241e2d47b3b5d797f9a8aa1ca8de94b73d f2fs: flush inode if atomic file is aborted
-22ed93fc17871d0e78583eeeb95753f3e9d87d15 f2fs: get out of a repeat loop when getting a locked data page
-c58aafa2264e8bec91ffc8b98547230a33536d60 f2fs: fix spelling in ABI documentation
-f28bcb0af2daab97e7442ff9f9ebdc13f47ceab4 f2fs: fix to avoid mmap vs set_compress_option case
-acd0509a0383a1e018c4b1f76a11c5cd31ca5a0f f2fs: don't reopen the main block device in f2fs_scan_devices
-8d0d037401e52ee968a5386b078dfc30edce03fb f2fs: allow f2fs_ioc_{,de}compress_file to be interrupted
-428221262995577aecc62ac6802b2333284dfa96 f2fs: compress: don't {,de}compress non-full cluster
-5934f93f3b1e5283cded6f172c78e36c93ef019c f2fs: check zone type before sending async reset zone command
-9b6d178f58838a7d2199c1395125e6c90daaac7f f2fs: Only lfs mode is allowed with zoned block device feature
+78c96d7b7c9a6aa41d109ca9b040c3955db90c88 netlink: specs: add dump-strict flag for dont-validate property
+dc7b81a828db0d9801e7977edff2735d660937a8 ynl-gen-c.py: filter rendering of validate field values for split ops
+eab7be688b4416588d19ee1fe5edbfa79a639b42 ynl-gen-c.py: allow directional model for kernel mode
+fa8ba3502ade9e4a8e447066b0d94261fbbe1906 ynl-gen-c.py: render netlink policies static for split ops
+ba0f66c95fa670d99ad40e4a6c1ede425446a291 devlink: rename devlink_nl_ops to devlink_nl_small_ops
+d61aedcf628ef7467d69638c3b3e5e33cafd75aa devlink: rename couple of doit netlink callbacks to match generated names
+491a24872a64cbb8edf996b6113a97586702e5ca devlink: introduce couple of dumpit callbacks for split ops
+8300dce542e45c50ef318c4493bbb2e7966a883c devlink: un-static devlink_nl_pre/post_doit()
+759f661012d19e61e8d7e8d2bc8d4395ba45a689 netlink: specs: devlink: add info-get dump op
+6b7c486cae8136050df8fca2fbebedb685c49b2d devlink: add split ops generated according to spec
+b2551b1517d86ff5e258e7bc834e5be0e1ce08de devlink: include the generated netlink header
+6e067d0cab68a64ef3488b5639a66b65e91b146d devlink: use generated split ops and remove duplicated commands from small ops
+eef9630de072a21917ef5cb17ff37e4cf274be88 Merge branch 'devlink-use-spec-to-generate-split-ops'
 
---===============6772001508652033259==--
+--===============8855403447454937057==--
