@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 04 Aug 2023 20:11:48 -0000
-Message-Id: <169117990823.32186.1339661929272202240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 04 Aug 2023 20:27:06 -0000
+Message-Id: <169118082673.10082.10381128328106601337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-linus
-    old: 814b6bb15367055bfc611271b88a38985c1f744a
-    new: 759993782271a3d1f8a1d92d16e2bd3acff6db6d
+  - ref: refs/heads/master
+    old: 4f18b196d1c6974d943657ef61bba5d758b57695
+    new: 04d47e97c812b614357a7b341c29cba606f0a367
     log: |
-         759993782271a3d1f8a1d92d16e2bd3acff6db6d Revert "PCI: mvebu: Mark driver as BROKEN"
+         04d47e97c812b614357a7b341c29cba606f0a367 Fri Aug  4 08:25:38 PM UTC 2023
          
