@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 05 Aug 2023 21:49:23 -0000
-Message-Id: <169127216381.29085.4897098942990593073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 05 Aug 2023 22:38:42 -0000
+Message-Id: <169127512229.1391.3177502486707042725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ef0d6b2b1c9f35b4af6d6f2a7d470ad6c127ec10
-    new: 9d1e1e3fdaf638daf2c41fd2fab74fd37e213cb8
+  - ref: refs/heads/kselftest-user-events
+    old: 06c50400eb17bcbdbb84a1d81c3e1a0b5ed858d9
+    new: 6e747cb53f40d6a8d7c0b3016ce30150d413afcc
     log: |
-         9d1e1e3fdaf638daf2c41fd2fab74fd37e213cb8 Sat Aug  5 09:48:11 PM UTC 2023
+         40f903ee33b26aea3a3d7292cb8c40af66fd6fa0 EDITME: cover title for kselftest-user-events
+         6e747cb53f40d6a8d7c0b3016ce30150d413afcc selftests/user_events: Reenable build
          
