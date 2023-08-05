@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5577737482261949021=="
+Content-Type: multipart/mixed; boundary="===============7000637556164190435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 05 Aug 2023 07:18:50 -0000
-Message-Id: <169121993071.2154.6633179526020364587@gitolite.kernel.org>
+Date: Sat, 05 Aug 2023 07:20:52 -0000
+Message-Id: <169122005256.4542.8087530284523584766@gitolite.kernel.org>
 
---===============5577737482261949021==
+--===============7000637556164190435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.super
-    old: c6fb2ed736e378a250db907606694bda7b6cc77d
-    new: eeee52195312f627e20a7e6b0400f0130032cd3f
-    log: revlist-c6fb2ed736e3-eeee52195312.txt
+  - ref: refs/heads/vfs.all
+    old: 4542fd123b31cbb320cc88fb6a3159ce3bb5ae57
+    new: 34c73561eecae2fe80033f021cfd0212763c3cb7
+    log: revlist-4542fd123b31-34c73561eeca.txt
 
---===============5577737482261949021==
+--===============7000637556164190435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6fb2ed736e3-eeee52195312.txt
+Content-Disposition: attachment; filename=revlist-4542fd123b31-34c73561eeca.txt
 
 274b56310c5d9e8e3f6d85ab0a1d77969e946f75 fs: open block device after superblock creation
 dac6663e47fe5dd3377d69a207a2921a990e29ed super: remove get_tree_single_reconf()
@@ -43,5 +43,11 @@ f3dd400f48f46beb82c565cfe1eb741d7a7ab884 fs: export fs_holder_ops
 b6a46af1c0d1940a4732c8a614dd771d7876a49d ext4: use fs_holder_ops for the log device
 07bf395a3d28a063175d5f27a05b990a8f0fe9b1 xfs: drop s_umount over opening the log and RT devices
 eeee52195312f627e20a7e6b0400f0130032cd3f xfs use fs_holder_ops for the log and RT devices
+229ffcc6a08fb4cc5269b559aa9cd418a4d29feb Merge branch 'vfs.tmpfs' into vfs.all
+84324767cc213ad5e6832b56e6d4804ec1d25be4 Merge branch 'vfs.misc' into vfs.all
+a99875284bfdb121b9893d07452acc15866ac7bc Merge branch 'fs.proc.uapi' into vfs.all
+44e818633fe3febdb4c8f0d81115660dce79440d Merge branch 'vfs.fchmodat2' into vfs.all
+0227ead101164c1fa3d37a8bdca50a3d3b8bd467 Merge branch 'vfs.super' into vfs.all
+34c73561eecae2fe80033f021cfd0212763c3cb7 Merge branch 'vfs.autofs' into vfs.all
 
---===============5577737482261949021==--
+--===============7000637556164190435==--
