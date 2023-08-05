@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 05 Aug 2023 14:30:03 -0000
-Message-Id: <169124580357.3368.2667234240475460109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Sat, 05 Aug 2023 14:45:55 -0000
+Message-Id: <169124675531.15473.4853907860278102983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/x86-efi-runtime-cleanup
-    old: 0fa29422182165a356bbe68bb1edded9551f733f
-    new: e60ab1f8efa6af90871e59c31365d72fc4728353
+  - ref: refs/heads/topic/fprobe-ftrace-regs
+    old: 613d1c92c5d8c9a9c1333026250064b42bac72cc
+    new: 069e6430a717ff19937b79b565595cc7765791d0
     log: |
-         617d59596f4baecfea338e693e6e1415cd0a5761 efi/runtime-wrappers: Remove duplicated macro for service returning void
-         eaeb6e68819cfa5f0fb91286e2894718652d1854 acpi/prmt: Use EFI runtime sandbox to invoke PRM handlers
-         166de888030cfc36ade67608afcf92633869972f efi/x86: Realign EFI runtime stack
-         e60ab1f8efa6af90871e59c31365d72fc4728353 efi/x86: Rely on compiler to emit MS ABI calls
+         583a8d3cec3a2f898d6709db81307a47c6bf34e0 ftrace: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
+         069e6430a717ff19937b79b565595cc7765791d0 bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
          
