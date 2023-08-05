@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0602305166280423566=="
+Content-Type: multipart/mixed; boundary="===============0238548090477644386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
-Date: Sat, 05 Aug 2023 00:44:45 -0000
-Message-Id: <169119628585.8513.14102164035240707778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Sat, 05 Aug 2023 00:48:10 -0000
+Message-Id: <169119649079.11426.4589791216861011172@gitolite.kernel.org>
 
---===============0602305166280423566==
+--===============0238548090477644386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
 user: jkirsher
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 781486e415dc701466a25e49fb8bcc28362d80bf
     log: revlist-6843306689af-781486e415dc.txt
 
---===============0602305166280423566==
+--===============0238548090477644386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c4a6b2da4b59d4819e1d35446ca9363166388051 tcp_metrics: hash table allocation clea
 2f0e807bc2f105435be902997a385ebab86d1a7c net: 802: Remove unused function declarations
 781486e415dc701466a25e49fb8bcc28362d80bf af_vsock: Remove unused declaration vsock_release_pending()/vsock_init_tap()
 
---===============0602305166280423566==--
+--===============0238548090477644386==--
