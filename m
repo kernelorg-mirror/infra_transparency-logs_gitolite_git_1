@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 05 Aug 2023 01:22:40 -0000
-Message-Id: <169119856066.4537.14500127445779505876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 05 Aug 2023 01:26:19 -0000
+Message-Id: <169119877959.7455.5223448752145706460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/clk-fixes
-    old: ae9b14582ad03abb3db66ba3f8dc5ca443ff54a1
-    new: 2746f13f6f1df7999001d6595b16f789ecc28ad1
+  - ref: refs/heads/main
+    old: 8a9896177784063d01068293caea3f74f6830ff6
+    new: ec935188399d8f7f8618c7ec1c83eb6da8d3118f
     log: |
-         dd1df82ce27a05c7cf0bc5387978412e35fbdaaf clk: keystone: syscon-clk: Fix audio refclk
-         2746f13f6f1df7999001d6595b16f789ecc28ad1 clk: Fix undefined reference to `clk_rate_exclusive_{get,put}'
-         
-  - ref: refs/heads/clk-next
-    old: 0edfa3013720fb80cc6b10c2ebcb5de72568f86c
-    new: 735a8a71d250472e36e943d40ff27a9224921fa8
-    log: |
-         dd1df82ce27a05c7cf0bc5387978412e35fbdaaf clk: keystone: syscon-clk: Fix audio refclk
-         2746f13f6f1df7999001d6595b16f789ecc28ad1 clk: Fix undefined reference to `clk_rate_exclusive_{get,put}'
-         735a8a71d250472e36e943d40ff27a9224921fa8 Merge branch 'clk-fixes' into clk-next
+         6a7ac3d20593865209dceb554d8b3f094c6bd940 tunnels: fix kasan splat when generating ipv4 pmtu error
+         136a1b434bbb90c5e50831646ad0680c744c79bb selftests: net: test vxlan pmtu exceptions with tcp
+         ec935188399d8f7f8618c7ec1c83eb6da8d3118f Merge branch 'tunnels-fix-ipv4-pmtu-icmp-checksum'
          
