@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0621811749819806727=="
+Content-Type: multipart/mixed; boundary="===============5614876906272950963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
-Date: Sat, 05 Aug 2023 00:32:53 -0000
-Message-Id: <169119557300.31828.12281855327228112370@gitolite.kernel.org>
+Date: Sat, 05 Aug 2023 00:33:30 -0000
+Message-Id: <169119561000.32130.7713196171744267504@gitolite.kernel.org>
 
---===============0621811749819806727==
+--===============5614876906272950963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/firmware
 user: jkirsher
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: d3f66064cf43bd7338a79174bd0ff60c4ecbdf6d
     new: 7be2766de1f45a494a3e913f2e9fb77191a8ddb5
     log: revlist-d3f66064cf43-7be2766de1f4.txt
 
---===============0621811749819806727==
+--===============5614876906272950963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ fd6e13ca2a1141aeede3666f72d2a006a3903fc0 i915: Update MTL DMC to v2.13
 66c1db8224169f76da5fe4a0ab4abf05ef5a021a Merge https://github.com/pkshih/linux-firmware
 7be2766de1f45a494a3e913f2e9fb77191a8ddb5 Merge branch 'rb3-update' of https://github.com/lumag/linux-firmware
 
---===============0621811749819806727==--
+--===============5614876906272950963==--
