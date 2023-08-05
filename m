@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Sat, 05 Aug 2023 14:45:55 -0000
-Message-Id: <169124675531.15473.4853907860278102983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 05 Aug 2023 14:56:22 -0000
+Message-Id: <169124738285.22350.4586453971031407812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/topic/fprobe-ftrace-regs
-    old: 613d1c92c5d8c9a9c1333026250064b42bac72cc
-    new: 069e6430a717ff19937b79b565595cc7765791d0
+  - ref: refs/heads/riscv-dt-for-next
+    old: fc3d49f970d2258ee63f6914e4e6eaaf3835dc2f
+    new: 8384087a42232613e5741cccea699b508478c276
     log: |
-         583a8d3cec3a2f898d6709db81307a47c6bf34e0 ftrace: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
-         069e6430a717ff19937b79b565595cc7765791d0 bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
+         8384087a42232613e5741cccea699b508478c276 riscv: dts: starfive: Add QSPI controller node for StarFive JH7110 SoC
          
