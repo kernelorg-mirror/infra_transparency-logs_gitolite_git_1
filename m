@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Sat, 05 Aug 2023 19:46:18 -0000
-Message-Id: <169126477851.5977.2488260892256061135@gitolite.kernel.org>
+Date: Sat, 05 Aug 2023 20:05:19 -0000
+Message-Id: <169126591972.19034.14808570900137191304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/ti/linux
 user: nmenon
 changes:
   - ref: refs/heads/ti-k3-dts-next
-    old: 5a5cf3bdda04fe72440aa837c9451410d62ffa2f
-    new: f6a5b651144096bfccda41b62861a7dde87ec287
+    old: f6a5b651144096bfccda41b62861a7dde87ec287
+    new: dfe5ccf2359f70d36bf7e64711a46fbff2126ca8
     log: |
-         b9d801dbb2d5cb796dce32ffcee63fba83f72841 arm64: dts: ti: k3-am62a: Remove syscon compatible from epwm_tbclk
-         a57ba56bca42fa484bec916f7a88a3dc03d6cbdf arm64: dts: ti: k3-am64: Merge the two main_conf nodes
-         f6a5b651144096bfccda41b62861a7dde87ec287 arm64: dts: ti: k3: Fix epwm_tbclk node name to generic name
+         a1f62d114c8ce64d1273c308228b43de8bf45171 arm64: dts: ti: k3-j721s2-main: Add DSS node
+         dfe5ccf2359f70d36bf7e64711a46fbff2126ca8 arm64: dts: ti: k3-am68-sk-base-board: Add HDMI support
          
