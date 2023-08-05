@@ -1,86 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============1952410865284042758=="
+Content-Type: multipart/mixed; boundary="===============7107318024376759161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 05 Aug 2023 06:24:53 -0000
-Message-Id: <169121669308.26387.2794136346126393150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 05 Aug 2023 06:29:05 -0000
+Message-Id: <169121694527.29551.6248051596385047016@gitolite.kernel.org>
 
---===============1952410865284042758==
+--===============7107318024376759161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 1346e9331abe8d08c05148def1cb2cdf03085c40
-    new: abe8ff435fb613b6afa80fa4718c6302573464df
-    log: revlist-1346e9331abe-abe8ff435fb6.txt
+  - ref: refs/heads/usb-next
+    old: 98a9e32bdf2525073fdfbdcc520d5c798a7375e5
+    new: d9216d3ef538c32a7e413f3401cd6b606b81a708
+    log: revlist-98a9e32bdf25-d9216d3ef538.txt
 
---===============1952410865284042758==
+--===============7107318024376759161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691216692 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1691216692-0612479d44489bcf96f81dd42d9a1019a76f0cf7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691216944 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1691216944-f3dcd1d97de425a49745047877d9716ff9875a11
 
-1346e9331abe8d08c05148def1cb2cdf03085c40 abe8ff435fb613b6afa80fa4718c6302573464df refs/heads/char-misc-next
+98a9e32bdf2525073fdfbdcc520d5c798a7375e5 d9216d3ef538c32a7e413f3401cd6b606b81a708 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTN6zQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s/sP/3IsE7yM0tmC2Yd5Ut4l
-0o0/BozqnWOHctl9AOwtkSa6n7zajl+4IDzupyhESzeKPeo+L4RhYiY8id+WJfSi
-IcE/3k4BB906ay3v/h0cwMFQykwPIZf+XS2NVtV0YgMHrunDx0TZWuOStz/3uYPL
-8tN4ZqCkE0YPWxhEA/t2GPdgMrDxAFYvSbITJ201sX37BL1yHECK7+2R3kgDEV+A
-Tcx7u9C/FhP9xPCUu+Jq3BDYftnyvi49zqsoyvrQqOVElvubqMLL0FNMAxObvIqo
-NmsL5HwyPPzcOBPeMLwfjWSBGwT2LUAoLsoTizyRk6IfMuJ1Sarz4Bbi3OQdRw1o
-esZqUwCjYrJHzQuJecVGEkd07ecqHr6zlmsx01zEE35ybF6vpKEAxnhSl2DHZc0c
-hqD1saI5uz/riI97HnJQn823mfw5fQVRDTKWcJhkNID/Frr+jtNz5QJEjW+WZw1S
-HTjI5jRUa5AACdW/RCz8DmkFdIJ0El+k0T+Q4PlInST+8FpyhP4ObcGZ+jx+8+1Y
-DRNpRAh1RNLA5jWsj4UqL1ZuTvWBWIBTcIOKM78yD7uJXRXj2MDrymcIdjc32pDS
-S9W9hkt0E9QVI6NbeaodiIXKg3i0VItP3V5O7qnJIrGtyom3/UMjBBkHF4i+On69
-EB5DqfRWqVpPj6CbX+n88g2n
-=yFot
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTN7DAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LRIP/RrOK9fEkzHhQ9BphWEw
+z1PY5MwNKKOsnwRp0rck9MysVoSmOjA9QjQu8dOdFTY7FIhY1b9oAV+2cBd4Ni3C
+e4XpwDxF6ARHkZmVJnmmthIln7o3QawkmJrsf7fzmGJPk54Gi3QNgSRz01uU6FXN
+3o/UcSYfjg8aBBiY99Tbce2HJTKzqIgs+9XIgLWW5yVxNc5zJox1W8AasV6XM/1v
+VnmPwLbYfNKxc+Rws6MaQ/YuT931yYBJP44mx2lrznTYmtMGPReLmURuDN8C5JZB
+eS00+mMv9f8PMYFABfoxoCW9meu7I55HwA4t14bBVhwq3ySDk37TE6Ny/zTPW0t0
+Lq1C+5X6W4O1GuPlIwM8YkeFtWVwoJ3zzpg9TyRya+hacEKx17BjEivdu2j0NCwX
+/oX8ZR0vg0QXg3kRrYD1m/3HbNrWWhnyB4H2dbykuJaKE8v/Q9p0bOK/E108/m+Z
+OU4n5njviv3c/oU70uH4jpnHTgM7eWTOhX2Fm2WjJ2IoLmOayri7nr2mb0K0Yr2w
+oyeTFybgmYojZBkCuTO0O8mt5++AJhOzpiMWPQDKCxrF+/ZvuiKApKhcGHV3cEH0
+XzrMX3dzsy5aKp74hFFegWqwf2F0O1khLx9ogjD3fql+Is4ajYrYRxW762pNaUxA
+A+CxFEVajABxQdQpUBFp+sJP
+=dUdq
 -----END PGP SIGNATURE-----
 
---===============1952410865284042758==
+--===============7107318024376759161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1346e9331abe-abe8ff435fb6.txt
+Content-Disposition: attachment; filename=revlist-98a9e32bdf25-d9216d3ef538.txt
 
-51b080a480b80c59d5f7f487b86349e16360a366 android: Remove error checking for debugfs_create_dir()
-a5702920cf92639a7d8a496a15684e8a7390eeaf binderfs: Drop unused #include <linux/radix-tree.h>
-882f7a64edd119bc4ac9c96b37c2ef365a687d45 dyndbg: constify opt_array
-3bdaf739057e80811a9c299115d3272a69276049 dyndbg: increase PREFIX_SIZE to 128
-31ed379b7cb2b5c1f2abc7255ff31c30bab26066 dyndbg: add source filename to prefix
-0969001569e403107c11561d497893a07394d691 misc: microchip: pci1xxxx: Add support to read and write into PCI1XXXX OTP via NVMEM sysfs
-9ab5465349c01fdc0ef0d9446f790df5f36caa5f misc: microchip: pci1xxxx: Add support to read and write into PCI1XXXX EEPROM via NVMEM sysfs
-c6695aadca5dd469d04352eab57c7ee65f54c1fb misc: atmel-ssc: Use devm_platform_get_and_ioremap_resource()
-190d1f226407d4a08e193136e26c1ac967f67b9c misc/xilinx_sdfec: Convert to devm_platform_ioremap_resource()
-3905841967f89a53cdd1a46a312da6355fcbc25c misc: xilinx_tmr_manager: Use devm_platform_get_and_ioremap_resource()
-6dab711d7b278ccc17ccdc7cce7bb7cdcae66b88 misc: tps6594-pfsm: Convert to platform remove callback returning void
-56730af783ffa954997117c5c9f377df06009999 misc: tps6594-esm: Convert to platform remove callback returning void
-d9c58aeb408100647b624e1244aec7b871e859b1 misc: Explicitly include correct DT includes
-32fd0989a68aeffa6c50c779c07526d55d49458f misc: hi6421-spmi-pmic: Remove redundant dev_err()
-806eb9e4160d5fc633c20db660586e1aaa121e1c char: xillybus: make XILLYBUS_OF depend on HAS_IOMEM
-aefc8b57af7787c80686e49a5841e9289cb11f53 misc: open-dice: make OPEN_DICE depend on HAS_IOMEM
-acdbfa04816a3b9e990a9b07d5978f35d67f19c3 pcmcia : make PCMCIA depend on HAS_IOMEM
-1bae5c0e2c8d48c1c1306912dfae41d165508f58 misc: bcm_vk: Fix potential deadlock on &vk->ctx_lock
-05d56d8079d510a2994039470f65bea85f0075ee dma-buf/sync_file: Fix docs syntax
-2fd84b9b839c3541815733701a06d9df48297a91 uio: pruss: fix to check return value of platform_get_irq() in pruss_probe()
-a436194d0ee94ec67522647ace5a36a2126b6a0e cdx: Explicitly include correct DT includes
-8306d6f35dbde19fe2d56964159fa2b4c6343bc1 peci: Constify struct peci_controller_ops
-dff054e691dae97f177c82cda21918ca0ef974f3 firmware: coreboot: framebuffer: Allow building with simpledrm
-34949a31fb5ec5269cbf5e065370ae0e14d25223 firmware: stratix10-svc: Generic Mailbox Command
-abe8ff435fb613b6afa80fa4718c6302573464df firmware: stratix10-rsu: query spt addresses
+adbe9720e573d0466b506df3b848bcf4c4dd63c9 usb: musb: Fix deferred probing
+d3af2f4c0434f3dde7f921f52614af81787bbec6 usb: typec: tcpci_mt6370: remove redundant dev_err_probe()
+4f4bda58c5aef66493f9878463c3f28502653067 usb: gadget: udc: gr_udc: Fix deferred probing
+ebcf774671da8b4985f61af11fd67ef74ffd48cf USB: cytherm: Correct the code style issue of redundant spaces
+98d6db05eda86ce50c84dcf29dcc9de0e9f8f140 usb: gadget: udc: Remove redundant initialization for udc_driver
+f2e5812fb4fb2bef665bd86dc579b292faae2029 usb: host: Do not check for 0 return after calling platform_get_irq()
+40f362ffa5e9ddf413825c99e9121db0ab59301f usb: typec: tcpm: Refactor the PPS APDO selection
+dad255a2361ae14b9d46f94bb3803b0d23f955df dt-bindings: usb: ci-hdrc-usb2: Add the "fsl,imx35-usb" entry
+e2fa03ec60f6313ff7cedce7119e6fbab06a8534 dt-bindings: usb: ci-hdrc-usb2: Fix clocks/clock-names maxItems
+2569088dbaaff6401630bda517db2e1ac4d92692 phy: realtek: usb: add the error handler for nvmem_cell_read
+803b1c8a0cea58cccde16eba31d285956f4c920c usb: typec: tcpm: not sink vbus if operational current is 0mA
+3024faf74de7ed7c0f6dc29bced4dbdbd2a1eade usb: gadget: udc: Remove unnecessary NULL values
+f87ba66a2a1b2e1dc1c4ece51fa5db93c9cf1d43 USB: misc: Remove unnecessary NULL values
+708368fb845f668ae5817f101e61bad8bbdc2bb8 usb: chipidea: udc: Remove an unnecessary NULL value
+9de17578b912f39e818035a217efd82a98cd26a6 usb: musb: Remove an unnecessary NULL value
+b35935d66a3a25848519b9bffc1fca0b6b1004c5 USB: usbip: Remove an unnecessary NULL value
+976f82e8aa3cfe557ee22a313bf48f418695bedf usb: dwc3: dwc3-octeon: Convert to glue driver
+417840663ab858bafb3a0d6d86e73a5db506202a usb: dwc3: dwc3-octeon: Use _ULL bitfields defines
+23f87bcac649e91dce5a8bb8bd2908636117d6bd usb: dwc3: dwc3-octeon: Pass dwc3_octeon to setup functions
+c61101631cdc0a98840a8e4f5a1e571ca94d82fc usb: dwc3: dwc3-octeon: Avoid half-initialized controller state
+dc0092ce24dc1655a1b06edb37cddc0946bb40f9 usb: dwc3: dwc3-octeon: Move node parsing into driver probe
+540264746d83b645b32e6a67367489d8e2c536f9 usb: dwc3: dwc3-octeon: Dump control register on clock init failure
+d9216d3ef538c32a7e413f3401cd6b606b81a708 usb: dwc3: dwc3-octeon: Add SPDX header and copyright
 
---===============1952410865284042758==--
+--===============7107318024376759161==--
