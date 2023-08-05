@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3139161680257515073=="
+Content-Type: multipart/mixed; boundary="===============6146888589167877567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sat, 05 Aug 2023 12:22:44 -0000
-Message-Id: <169123816438.8734.5692617239031769@gitolite.kernel.org>
+Date: Sat, 05 Aug 2023 12:22:52 -0000
+Message-Id: <169123817254.8839.255125904397339990@gitolite.kernel.org>
 
---===============3139161680257515073==
+--===============6146888589167877567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,42 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/powerpc-6.5-5
+  - ref: refs/tags/v6.5-rc3
     old: 0000000000000000000000000000000000000000
-    new: b5c4c0b53682cdcb9e58ac791a0cd11d8560d7d2
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
+  - ref: refs/tags/v6.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
 
---===============3139161680257515073==
+--===============6146888589167877567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1691238162 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1691238170 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1691238162-49e0ada09f97032532ec148e617af7b6eaa0f5eb
+nonce 1691238170-4ddb82f231e573cdaddcfebe1981e876eeeb237a
 
-0000000000000000000000000000000000000000 b5c4c0b53682cdcb9e58ac791a0cd11d8560d7d2 refs/tags/powerpc-6.5-5
+0000000000000000000000000000000000000000 a96619491e04ab83a55787ab86ed22adf3ea27dc refs/tags/v6.5-rc3
+0000000000000000000000000000000000000000 e725214df0b61dcd1e0c4a9eaa25b408b444e4a8 refs/tags/v6.5-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmTOPxITHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgMmkEACoiRu9XzrbelRn9W+jx8su3QcONXTq
-C2nGmrX6kTsdlH+2KPnRnX7eareBHLOPG6OwXBqa6JAzIZvJSBO4P+ovymh0MtCv
-Onbnef/Ehr3JUMekKCBi95lct7o+j77LdctRNhGvmBYtV04KX7HZEyR5txvgkVdG
-ccFRaflLE4QMWDKts4jHqWizlsX+0FXUTsrjddhykQsmrixZ+bbZ5p8s62uoEydD
-HvRzDBs9RzcKObOZb5+qyFV6BBY1nhr3j9Gg3EHZsXs3PDeNBAkQZVB8dEkEWUuH
-G+wRgEEHC9lmzhy4pGqgCIu8gT55kS/nsA8XhXuLdLiDjDwVZa1BKd8ovS1xP47G
-NRDjBmFYKLKbWXJ2EQdeXUlUbZRNA4q8CIIReojs7nMODkGqdL6BfbOZSEmkElPq
-6d/WaFjSeqXpV9W6pEVh6RjmBa6sbntAXu6oA4kiOw9bnsQCiGhUm6YtaXnPYLeY
-X73emkNvyJ879Ta6RA+wR0UUQ05IdsdH9BDCkuhLX9fJ6FTp6pVRl64gavxqvOs/
-44dCWemlhO1QBs/dXaALODTsMk7pvEbvjNo3Tz0mmlucbEfkFq5OgkY+PYo4h1JV
-S5XgRxUtj2IE7n/OwUR3ZKSXVx/x/ciiue2Me0sYDIEXeucGnts45q2Ga8vEdPP8
-QqZb9K7mOosblg==
-=L9X2
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmTOPxoTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgOVkEAC9q74LHO+1+VgJp0/s1bOAmKLtnLHI
+Fr14SPxrd/sPeAaY8+ZtlKfLUo00iwpiVGhhU9AMldDIwENUUbTRAn+FWJshqjNq
+CVJZvaFT+0IhpbMVbYBsTRvgrt2Z6n9GviwagsGfGTlGzGtKZiH9QgYXZF55JMfc
+KMDzugEi2GFYzsyg4zX8TgfqJbUYoyE3HqiXRP6/ngWcBBMyhwjJQm7/9SZJMecR
+Rq0DpxCLOv1RqaehrpzvMazdpTP06asr2O9gfx0Ea1D4AJ3P37rxYK8MoAc8lmjN
+e8CQYumA51fo5GvrlR09/6viw7TA/EIRb679ERZz2XKpXWOZGvAC4RQWS9TrMWGU
+a0AhDujaqV4/4M1esJUtXUBsz2ZzfwJiVcseH+QrmiMc+U1sDTV0e0QE2U+/4eYF
+Hpswa7n9jKVZPB0Z3qPYj3horiz9MFpA8vym1ABq5/+9uSo4OaV0Yy2ymEW2X2NA
+tqKHS4lnX7YTmohd7TAlu/3DaKaHyL3cG32RBDgpq6k9hZJPSIgnIzVBBvjYC+cH
+YJtAEvl4dLlrZFpv8OI+Pktee8MGHA5rDTxofBVHuCKQlx/LvRQX8EohHhZyzrlf
+0gPoO2TJmMsJy/7pHJrNi4hqCVUQo14u5pqawoMX8EmJOthk+Qit5+2c4+TMcTxn
+4VK3928cAbQpPg==
+=QaO5
 -----END PGP SIGNATURE-----
 
---===============3139161680257515073==--
+--===============6146888589167877567==--
