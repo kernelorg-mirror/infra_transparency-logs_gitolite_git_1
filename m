@@ -1,84 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============7107318024376759161=="
+Content-Type: multipart/mixed; boundary="===============6765835376059341727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 05 Aug 2023 06:29:05 -0000
-Message-Id: <169121694527.29551.6248051596385047016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 05 Aug 2023 06:30:10 -0000
+Message-Id: <169121701009.31687.17567407806489617343@gitolite.kernel.org>
 
---===============7107318024376759161==
+--===============6765835376059341727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 98a9e32bdf2525073fdfbdcc520d5c798a7375e5
-    new: d9216d3ef538c32a7e413f3401cd6b606b81a708
-    log: revlist-98a9e32bdf25-d9216d3ef538.txt
+  - ref: refs/heads/tty-next
+    old: f68279ca7f806c44fbbae0a631e5603ba426d9be
+    new: 593135f09368dbddc0244b859a7c3befb97214e0
+    log: revlist-f68279ca7f80-593135f09368.txt
 
---===============7107318024376759161==
+--===============6765835376059341727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691216944 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1691216944-f3dcd1d97de425a49745047877d9716ff9875a11
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691217009 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1691217009-5effb3515067d1e7857afe5f431e45f1c88aa959
 
-98a9e32bdf2525073fdfbdcc520d5c798a7375e5 d9216d3ef538c32a7e413f3401cd6b606b81a708 refs/heads/usb-next
+f68279ca7f806c44fbbae0a631e5603ba426d9be 593135f09368dbddc0244b859a7c3befb97214e0 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTN7DAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LRIP/RrOK9fEkzHhQ9BphWEw
-z1PY5MwNKKOsnwRp0rck9MysVoSmOjA9QjQu8dOdFTY7FIhY1b9oAV+2cBd4Ni3C
-e4XpwDxF6ARHkZmVJnmmthIln7o3QawkmJrsf7fzmGJPk54Gi3QNgSRz01uU6FXN
-3o/UcSYfjg8aBBiY99Tbce2HJTKzqIgs+9XIgLWW5yVxNc5zJox1W8AasV6XM/1v
-VnmPwLbYfNKxc+Rws6MaQ/YuT931yYBJP44mx2lrznTYmtMGPReLmURuDN8C5JZB
-eS00+mMv9f8PMYFABfoxoCW9meu7I55HwA4t14bBVhwq3ySDk37TE6Ny/zTPW0t0
-Lq1C+5X6W4O1GuPlIwM8YkeFtWVwoJ3zzpg9TyRya+hacEKx17BjEivdu2j0NCwX
-/oX8ZR0vg0QXg3kRrYD1m/3HbNrWWhnyB4H2dbykuJaKE8v/Q9p0bOK/E108/m+Z
-OU4n5njviv3c/oU70uH4jpnHTgM7eWTOhX2Fm2WjJ2IoLmOayri7nr2mb0K0Yr2w
-oyeTFybgmYojZBkCuTO0O8mt5++AJhOzpiMWPQDKCxrF+/ZvuiKApKhcGHV3cEH0
-XzrMX3dzsy5aKp74hFFegWqwf2F0O1khLx9ogjD3fql+Is4ajYrYRxW762pNaUxA
-A+CxFEVajABxQdQpUBFp+sJP
-=dUdq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTN7HEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MKYP/11fhzwy7hBMb0IGvI8D
+4Rf+Jnb27/UKrAbGoASw2fyBUtNuRBHZwKvB+ka51O6UwvgJpPCgype9gHTzZTyN
+fOK5WDKEegHtVF7pY6Tm9dAF4Yx4Fi3SbYzc9ja9cRx9WRRO6nUFRmBCO2zqfT4/
+O6lINFDaBDC0VMHukpClwERWSs4O892q+6FBPwpbTkwyr7RiRNGiNvvDJHJES6X3
+mZYzXmENRQLmveCIppnC9ZDKB8hiNGhjKZGkuVzkxgx45WJ8aJduMo/xXXqRlpYp
+N08WHDKfBv/tW39HZ+NX1K2NoL3h9BSbLCL1TGFZWbxvAgF0o64AtaP2hboMfZ2k
+i1MvpjU9FlJTpENUvu6EGEP9V4fiIhZA03YpODaud0GI6xuQkY+/KNI5jTcABJRe
+ZnaAfD4CjxS2BwCPoA0hG9JTLUYRw9rh40Y8Xn0fYkCDvzq7rRPxTgQrRcfxyFVc
+iBF+0b5GFg6FH+kb66seichGECow4YZuNcRkkx+1W+cS0kSYY4XR6MDKxkBMF9Ak
+U4u/Esqq5T9wiT3eMJF2OLEXlclkpGlY5maJQ+BJaxjrIa5XmF9K2cWM14NyPjOD
+Tw/ADBZCU/LDnFkgSpZpLUJwkGBz6V8pTt2JKyUQMn0QuaXm5Lidki3ar1C85FDB
+sRXeBKkdFHVnLqYhBLIcH2Wb
+=KeMu
 -----END PGP SIGNATURE-----
 
---===============7107318024376759161==
+--===============6765835376059341727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98a9e32bdf25-d9216d3ef538.txt
+Content-Disposition: attachment; filename=revlist-f68279ca7f80-593135f09368.txt
 
-adbe9720e573d0466b506df3b848bcf4c4dd63c9 usb: musb: Fix deferred probing
-d3af2f4c0434f3dde7f921f52614af81787bbec6 usb: typec: tcpci_mt6370: remove redundant dev_err_probe()
-4f4bda58c5aef66493f9878463c3f28502653067 usb: gadget: udc: gr_udc: Fix deferred probing
-ebcf774671da8b4985f61af11fd67ef74ffd48cf USB: cytherm: Correct the code style issue of redundant spaces
-98d6db05eda86ce50c84dcf29dcc9de0e9f8f140 usb: gadget: udc: Remove redundant initialization for udc_driver
-f2e5812fb4fb2bef665bd86dc579b292faae2029 usb: host: Do not check for 0 return after calling platform_get_irq()
-40f362ffa5e9ddf413825c99e9121db0ab59301f usb: typec: tcpm: Refactor the PPS APDO selection
-dad255a2361ae14b9d46f94bb3803b0d23f955df dt-bindings: usb: ci-hdrc-usb2: Add the "fsl,imx35-usb" entry
-e2fa03ec60f6313ff7cedce7119e6fbab06a8534 dt-bindings: usb: ci-hdrc-usb2: Fix clocks/clock-names maxItems
-2569088dbaaff6401630bda517db2e1ac4d92692 phy: realtek: usb: add the error handler for nvmem_cell_read
-803b1c8a0cea58cccde16eba31d285956f4c920c usb: typec: tcpm: not sink vbus if operational current is 0mA
-3024faf74de7ed7c0f6dc29bced4dbdbd2a1eade usb: gadget: udc: Remove unnecessary NULL values
-f87ba66a2a1b2e1dc1c4ece51fa5db93c9cf1d43 USB: misc: Remove unnecessary NULL values
-708368fb845f668ae5817f101e61bad8bbdc2bb8 usb: chipidea: udc: Remove an unnecessary NULL value
-9de17578b912f39e818035a217efd82a98cd26a6 usb: musb: Remove an unnecessary NULL value
-b35935d66a3a25848519b9bffc1fca0b6b1004c5 USB: usbip: Remove an unnecessary NULL value
-976f82e8aa3cfe557ee22a313bf48f418695bedf usb: dwc3: dwc3-octeon: Convert to glue driver
-417840663ab858bafb3a0d6d86e73a5db506202a usb: dwc3: dwc3-octeon: Use _ULL bitfields defines
-23f87bcac649e91dce5a8bb8bd2908636117d6bd usb: dwc3: dwc3-octeon: Pass dwc3_octeon to setup functions
-c61101631cdc0a98840a8e4f5a1e571ca94d82fc usb: dwc3: dwc3-octeon: Avoid half-initialized controller state
-dc0092ce24dc1655a1b06edb37cddc0946bb40f9 usb: dwc3: dwc3-octeon: Move node parsing into driver probe
-540264746d83b645b32e6a67367489d8e2c536f9 usb: dwc3: dwc3-octeon: Dump control register on clock init failure
-d9216d3ef538c32a7e413f3401cd6b606b81a708 usb: dwc3: dwc3-octeon: Add SPDX header and copyright
+8b66eec1fd85ca9c4fd83f92e704de4fc0c583c1 tty: synclink_gt: Fix potential deadlock on &info->lock
+2c2d01a9f724a88be2895c5011689337da103c3b tty: serial: xilinx_uartps: Do not check for 0 return after calling platform_get_irq()
+c58f2ae0ee94901da078a60961262df03eab7552 tty: serial: samsung: Set missing PM ops for hibernation support
+fcb451ff66b4e07de78faefb07549b139b54b943 8250_men_mcb: Fix unsigned comparison with less than zero
+67c37756898a5a6b2941a13ae7260c89b54e0d88 tty: n_gsm: require CAP_NET_ADMIN to attach N_GSM0710 ldisc
+5666280f88a7594ba0413247fd2cc18281e8e580 serial: max310x: add comments for membase address workaround
+4b37932f7830cdd9dcfeb84163557705f0a7c90f serial: max310x: fix typos in comments
+b58168698c6e462ef02c49b14989d8c9175fbfc8 8250_men_mcb: Fix unsigned expression compared with zero
+06b64930dc18c704ef2a602e596cbab676879b6f 8250_men_mcb: Remove redundant initialization owner in mcb_driver
+36ef11d311f405e55ad8e848c19b212ff71ef536 serial: cpm_uart: Avoid suspicious locking
+b5f405e53feabf4b22fb19f05ce1f104c22311df serial: cpm_uart: Remove stale prototypes and table and macros
+42ac6998ec878f640768f03ec2d753f32f51d6a4 serial: cpm_uart: Stop using fs_uart_id enum
+c2d6c1b4f0349a5d93ebbd8d5311fbbaf1fa54dd serial: cpm_uart: Use get_baudrate() instead of uart_baudrate()
+647f5a00d3060297fcfcd0edb026594b313aefed serial: cpm_uart: Deduplicate cpm_set_{brg/smc_fcr/scc_fcr}()
+ae8261ed7e6801131a27868c00cdfc19cda37729 serial: cpm_uart: Deduplicate cpm_line_cr_cmd()
+86f0a9c8e3de2341e5d1150a3d0dfae72de38a4a serial: cpm_uart: Refactor cpm_uart_allocbuf()/cpm_uart_freebuf()
+8d1bd031ba152115461b3326eb3bdf7ca1f9bb3d serial: cpm_uart: Refactor cpm_uart_[un]map_pram()
+dbae4258d156e1c698bdd6deb56e13aa4d4e55cc serial: cpm_uart: Remove cpm_uart/ subdirectory
+80a8f487b9bab0d25536516e75f22c78fa657ff4 serial: cpm_uart: Remove stale prototype in powerpc/fsl_soc.c
+a833b201d90880f65ac04a1518645005e8c78aae serial: cpm_uart: Don't include fs_uart_pd.h when not needed
+a10b6a03e6377f8e658ee3c9f4bc0feae30f3df2 serial: cpm_uart: Remove linux/fs_uart_pd.h
+593135f09368dbddc0244b859a7c3befb97214e0 8250_men_mcb: remove unnecessary cast when reading register
 
---===============7107318024376759161==--
+--===============6765835376059341727==--
