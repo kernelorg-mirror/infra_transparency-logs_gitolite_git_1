@@ -1,53 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7000637556164190435=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 05 Aug 2023 07:20:52 -0000
-Message-Id: <169122005256.4542.8087530284523584766@gitolite.kernel.org>
-
---===============7000637556164190435==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 05 Aug 2023 09:08:30 -0000
+Message-Id: <169122651057.16197.9612001313693787501@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/vfs.all
-    old: 4542fd123b31cbb320cc88fb6a3159ce3bb5ae57
-    new: 34c73561eecae2fe80033f021cfd0212763c3cb7
-    log: revlist-4542fd123b31-34c73561eeca.txt
-
---===============7000637556164190435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4542fd123b31-34c73561eeca.txt
-
-274b56310c5d9e8e3f6d85ab0a1d77969e946f75 fs: open block device after superblock creation
-dac6663e47fe5dd3377d69a207a2921a990e29ed super: remove get_tree_single_reconf()
-ba951564be921355f976ddc8a0cd20d03319cea5 fs: add vfs_cmd_create()
-8e7a0a800a25ddd0f2294d228a6eb333a772956f fs: add vfs_cmd_reconfigure()
-c9eca69d372c38c361f28d5ffa1e869505b835bf fs: add FSCONFIG_CMD_CREATE_EXCL
-2218aaa0f80dbf3ad07c52b314462fc8e2929a1e fs: export setup_bdev_super
-7a9df337d32a727dd5974514fd6f8928c8f92f8e nilfs2: use setup_bdev_super to de-duplicate the mount code
-f14abe55246ac60c56b0976faccac41ae6e17f83 btrfs: always open the device read-only in btrfs_scan_one_device
-066d64b26a21a5b5c500a30f27f3e4b1959aac9e btrfs: open block devices after superblock creation
-8436077363fe99d5875425e58271fa6b57c9f04d ext4: make the IS_EXT2_SB/IS_EXT3_SB checks more robust
-f5e97984be59d86494f447f8683d9fe641f4d18b fs: use the super_block as holder when mounting file systems
-01de474386d4005056b3bf9358387dcafdf80ba6 fs: stop using get_super in fs_mark_dead
-f3dd400f48f46beb82c565cfe1eb741d7a7ab884 fs: export fs_holder_ops
-4a6b4d59f1db5864c010d49e88f073c5a7d8e6df ext4: drop s_umount over opening the log device
-b6a46af1c0d1940a4732c8a614dd771d7876a49d ext4: use fs_holder_ops for the log device
-07bf395a3d28a063175d5f27a05b990a8f0fe9b1 xfs: drop s_umount over opening the log and RT devices
-eeee52195312f627e20a7e6b0400f0130032cd3f xfs use fs_holder_ops for the log and RT devices
-229ffcc6a08fb4cc5269b559aa9cd418a4d29feb Merge branch 'vfs.tmpfs' into vfs.all
-84324767cc213ad5e6832b56e6d4804ec1d25be4 Merge branch 'vfs.misc' into vfs.all
-a99875284bfdb121b9893d07452acc15866ac7bc Merge branch 'fs.proc.uapi' into vfs.all
-44e818633fe3febdb4c8f0d81115660dce79440d Merge branch 'vfs.fchmodat2' into vfs.all
-0227ead101164c1fa3d37a8bdca50a3d3b8bd467 Merge branch 'vfs.super' into vfs.all
-34c73561eecae2fe80033f021cfd0212763c3cb7 Merge branch 'vfs.autofs' into vfs.all
-
---===============7000637556164190435==--
+  - ref: refs/heads/riscv-dt-for-next
+    old: e7c304c0346d23f5813149bfc686fb68b1108bbe
+    new: fc3d49f970d2258ee63f6914e4e6eaaf3835dc2f
+    log: |
+         fc3d49f970d2258ee63f6914e4e6eaaf3835dc2f riscv: dts: starfive: Add QSPI controller node for StarFive JH7110 SoC
+         
