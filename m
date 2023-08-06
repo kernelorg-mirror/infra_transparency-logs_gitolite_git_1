@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 06 Aug 2023 07:34:59 -0000
-Message-Id: <169130729980.29796.11061495196598493867@gitolite.kernel.org>
+Date: Sun, 06 Aug 2023 07:36:21 -0000
+Message-Id: <169130738149.31944.5393354196247593619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 16fd753995f740fb968edaf5fd57ffb96020102e
-    new: 48ae409aaf1ac2dd6f7a3e643f296a99bf6d67bb
+    old: 48ae409aaf1ac2dd6f7a3e643f296a99bf6d67bb
+    new: b1d13f7a3b5396503e6869ed627bb4eeab9b524f
     log: |
-         66ce8e6b49df401854f0c98bed50a65e4167825b gve: Control path for DQO-QPL
-         a6fb8d5a8b6925f1e635818d3dd2d89531d4a058 gve: Tx path for DQO-QPL
-         e7075ab4fb6b39730dfbfbfa3a5505d678f01d2c gve: RX path for DQO-QPL
-         5a3f8d1231073fc5f0b6f38ab8337d424ba0cfe4 gve: update gve.rst
-         48ae409aaf1ac2dd6f7a3e643f296a99bf6d67bb Merge branch 'gve-desc'
+         b1d13f7a3b5396503e6869ed627bb4eeab9b524f net: mana: Add page pool for RX buffers
          
