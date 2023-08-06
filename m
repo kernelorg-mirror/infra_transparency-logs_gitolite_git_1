@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 06 Aug 2023 18:35:34 -0000
-Message-Id: <169134693476.5530.3773928538452004806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 06 Aug 2023 18:36:39 -0000
+Message-Id: <169134699956.6000.8955007383377045146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: 3878ff1ab6f5afa13256b060e4a0ab5c1e93ba19
-    new: cfa6a18b08c648614b3596fb1e23945e8a1e318f
+  - ref: refs/heads/master
+    old: b3b146afc5ccf7b211af69e068ec77513f485921
+    new: ed483b9388527a689125d5f89d185f8f3dace187
     log: |
-         cfa6a18b08c648614b3596fb1e23945e8a1e318f TODO: Update
+         ed483b9388527a689125d5f89d185f8f3dace187 Sun Aug  6 06:35:36 PM UTC 2023
          
