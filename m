@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============0588322330676296092=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 06 Aug 2023 14:13:41 -0000
-Message-Id: <169133122157.8570.12580875321983953197@gitolite.kernel.org>
+Date: Sun, 06 Aug 2023 14:15:21 -0000
+Message-Id: <169133132114.10878.8032377664772097402@gitolite.kernel.org>
+
+--===============0588322330676296092==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,18 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 66fcf86bbaea42ee7cefc3cc4e97814e51fa0a84
-    new: 8de535c53887bb49adae74a1b2e83e77d7e8457d
-    log: |
-         23f643a0c3e4d2f6e09c0f75bea70d9adbc1b04f overlay: add helper for mounting rdonly overlay
-         5f8c60fe8140f7c8870c6e59114b49196b6678b5 overlay/060: add test cases of follow to lowerdata
-         019122400875a59b02e35dc5d49e31c9b7b704e0 overlay: Add test for follow of lowerdata in data-only layers
-         f2c9af189a76ecd0920466fb4afd8e542a5dc5e9 overlay: Add test coverage for fs-verity support
-         05574f3cfc49df09af8d98b68db5e44a4cf9c0ee common/rc: cleanup old .kmemleak files
-         1cd6b612992a59d1a20bcd2c1f072e79ccd6dd60 xfs: add a couple more tests for ascii-ci problems
-         d28912bad3c00b3a0303d1b62fbbe97c44c578a8 generic/558: avoid forkbombs on filesystems with many free inodes
-         6ca154c1b239d1e1fa9153d66272a1bf9e34c65e btrfs: add a test case to verify the write behavior of large RAID5 data chunks
-         9b84d93f225f4ffbb61030ac39ef89ee459e64b1 btrfs: add a test case to check btrfs won't crash on certain corruption
-         8de535c53887bb49adae74a1b2e83e77d7e8457d btrfs: add a test case to verify that per-fs features directory gets updated
-         
+  - ref: refs/heads/for-next
+    old: 8de535c53887bb49adae74a1b2e83e77d7e8457d
+    new: 0ca1d4fbb2e9a492968f2951df101f24477f7991
+    log: revlist-8de535c53887-0ca1d4fbb2e9.txt
+
+--===============0588322330676296092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8de535c53887-0ca1d4fbb2e9.txt
+
+32201166fb096fb5606799c591775bd6c07fc7fa fstests: install soak_duration.awk
+e573069170b6928e4fc68b5d4074d1a6b2681736 btrfs/294: reject zoned devices for now
+d74975e2c2847587a4f346be1ba2a2d9e24502a8 btrfs: add a test case to make sure scrub can repair parity corruption
+625b651b30601f67a7d109d5bc661f2c8b9e63bc generic: add a test for device removal with dirty data
+b716634e75d275c31dbf8f489e89fb92a4667a90 generic: add a test for device removal without dirty data
+03d27d8025697c987896d91ec0af8a41a5986412 xfs/122: adjust test for flexarray conversions in 6.5
+3f86deef7cbd1cf9e4fe6cafc9fb535d038ce010 fstests: add smoketest group
+24cfe625794ea0c807d0739291f0a9ce7ddd5a2b btrfs/276: make test accurate regarding number of expected extents
+d39fb9a81d76305ab1b3c0c3a042e767a7c1bf89 check: generate gcov code coverage reports at the end of each section
+a0c36009103b8addf50a860a60028227723f26ca fstests: add helper to canonicalize devices used to enable persistent disks
+d542fbc4ccef64887c5750a500b00318ffc3a7ff generic/642: fix SOAK_DURATION usage in generic/642
+0ca1d4fbb2e9a492968f2951df101f24477f7991 xfs: skip fragmentation tests when alwayscow mode is enabled, part 2
+
+--===============0588322330676296092==--
