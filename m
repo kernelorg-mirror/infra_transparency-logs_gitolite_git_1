@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 06 Aug 2023 03:03:29 -0000
-Message-Id: <169129100963.29411.13261100568922111264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
+Date: Sun, 06 Aug 2023 04:05:34 -0000
+Message-Id: <169129473477.9870.3630239697420287829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/ieee1394/libhinoko
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 3bbe614f16bdb75008f62d5fd133981179e0dcf5
-    new: b3b146afc5ccf7b211af69e068ec77513f485921
+  - ref: refs/heads/main
+    old: f1579a7cf54940321e5f72c2392138819caa0228
+    new: b35ab4513d804ac99b2b7fd67d940dd474fef774
     log: |
-         b3b146afc5ccf7b211af69e068ec77513f485921 Sun Aug  6 03:02:27 AM UTC 2023
+         b35ab4513d804ac99b2b7fd67d940dd474fef774 improve description about PyGObject in README
          
