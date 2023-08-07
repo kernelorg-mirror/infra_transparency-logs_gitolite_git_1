@@ -1,40 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 07 Aug 2023 13:47:15 -0000
-Message-Id: <169141603568.22630.3541129932996111782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 07 Aug 2023 13:47:40 -0000
+Message-Id: <169141606076.22845.11039375434801019357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/20230728_yangyingliang_spi_switch_to_use_modern_name
-    old: 0000000000000000000000000000000000000000
-    new: 1f6c80a74cd4686b5b0b9aed55d7195009c96330
-  - ref: refs/heads/20230802_alpernebiyasak_asoc_map_missing_jack_kcontrols
-    old: 0000000000000000000000000000000000000000
-    new: d27224a45e5457ad89195d92decdd57596253428
-  - ref: refs/heads/20230802_pierre_louis_bossart_asoc_soundwire_codecs_improve_pm_runtime_handling
-    old: 0000000000000000000000000000000000000000
-    new: b48f324f89ab8ee62c3448ef19445a1b292e02d3
-  - ref: refs/heads/file3laczh
-    old: 0000000000000000000000000000000000000000
-    new: 14ce0869eb3aee28cb44edebdfa5c590fa612d72
-  - ref: refs/heads/filecYFfBN
-    old: 0000000000000000000000000000000000000000
-    new: c163108e706909570f8aa9aa5bcf6806e2b4c98c
-  - ref: refs/heads/filefH4tqd
-    old: 0000000000000000000000000000000000000000
-    new: ed2f4c745fb2bc51bb1b402ff2294587cb0b207a
-  - ref: refs/heads/fileIo5e2C
-    old: 0000000000000000000000000000000000000000
-    new: 1ec6dffdedae4cbbd6e33b1d9be0e5a3dbb31804
-  - ref: refs/heads/fileOGzPlL
-    old: 0000000000000000000000000000000000000000
-    new: 8102d64c04e8ead02c30bb07ff7dd5c41ed61bce
-  - ref: refs/heads/v7_20230807_alina_yu_add_richtek_rtq2208_subpmic_support
-    old: 0000000000000000000000000000000000000000
-    new: 85a11f55621a0c18b22b43ab4219450ac1d19386
+  - ref: refs/heads/wip/leon-for-next
+    old: 14611b9b984125b2da5966d0725fdd89f6564c45
+    new: 9e03dbea2b0634b21a45946b4f8097e0dc86ebe1
+    log: |
+         df1bcf90a66a10967a3a43510b42cb3566208011 RDMA/hns: Fix port active speed
+         706efac4477cdb8be857f6322457de524acc02ff RDMA/hns: Fix incorrect post-send with direct wqe of wr-list
+         c9c0bd3c177d93d80968f720304087ba83fe8f74 RDMA/hns: Fix inaccurate error label name in init instance
+         9e03dbea2b0634b21a45946b4f8097e0dc86ebe1 RDMA/hns: Fix CQ and QP cache affinity
+         
