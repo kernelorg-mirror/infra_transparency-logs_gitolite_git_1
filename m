@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Mon, 07 Aug 2023 10:46:09 -0000
-Message-Id: <169140516906.19272.13641582543159461413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 07 Aug 2023 10:56:15 -0000
+Message-Id: <169140577515.26742.18068783737171069511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: egrumbach
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/release/core78
-    old: 5652cead5cd92b5c9ce898a93ede552b5bd8c7f1
-    new: 01314bb562a5e024184b0c97eaa47098017e0fe9
+  - ref: refs/heads/master
+    old: 9f592cc2164c3db3c76a2898975ceb58d09f0cbb
+    new: b8bed37a1493b913bf5bda938487ae0c06c11ce7
     log: |
-         01314bb562a5e024184b0c97eaa47098017e0fe9 [BUGFIX] wifi: iwlwifi: fw: fix build w/o debugfs
+         b8bed37a1493b913bf5bda938487ae0c06c11ce7 meson: properly handle gettext non-existence
          
