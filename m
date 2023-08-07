@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6571137215843101218=="
+Content-Type: multipart/mixed; boundary="===============7646105513347457245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 07 Aug 2023 13:43:18 -0000
-Message-Id: <169141579846.19309.5594201942708626797@gitolite.kernel.org>
+Date: Mon, 07 Aug 2023 13:44:19 -0000
+Message-Id: <169141585992.19734.10652914496537517890@gitolite.kernel.org>
 
---===============6571137215843101218==
+--===============7646105513347457245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 2bcc7607b3ecdeb925c826e6c5753d017d840ee3
-    new: 287da4419b039b2cde5df33cd69d6741f9ec10c4
-    log: revlist-2bcc7607b3ec-287da4419b03.txt
-  - ref: refs/tags/v6.5-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/heads/master
+    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+    new: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
+    log: revlist-5d0c230f1de8-52a93d39b17d.txt
 
---===============6571137215843101218==
+--===============7646105513347457245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bcc7607b3ec-287da4419b03.txt
+Content-Disposition: attachment; filename=revlist-5d0c230f1de8-52a93d39b17d.txt
 
 a6fe043880820981f6e4918240f967ea79bb063e Drivers: hv: Change hv_free_hyperv_page() to take void * argument
 55e544e1a922d272b62ec576a3de92329f838ce9 x86/hyperv: Improve code for referencing hyperv_pcpu_input_arg
@@ -286,57 +283,5 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 7d84d1b9af6366aa9df1b523bdb7e002372e38d0 fs: rely on ->iterate_shared to determine f_pos locking
 0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
-f7272e7103584adf79b995f75cf5f84f4cf281f8 locks: allow support for write delegation
-c2fa1626599c6a84d7f3410308f3bf0c0893fb08 NFSD: allow client to use write delegation stateid for READ
-7d0c16a6dcc686f76f1ffd22f1fb63a90204eda1 NFSD: handle GETATTR conflict with write delegation
-e21c71677733d1b061a77a0dc3582cf8b92e1515 NFSD: Report zero space limit for write delegations
-cb764940595abf4241b201d8cb0a332ae97dc833 NFSD: Enable write delegation support
-c33c4487397b662e6b4277a13cd67b677b91a2d0 SUNRPC: Remove RPCSEC_GSS_KRB5_ENCTYPES_DES
-910a172acfc4ca6d1a6c5645321d619854b5ba53 SUNRPC: Remove Kunit tests for the DES3 encryption type
-c02753a41a6f261f0a4de4c0690557da3fe425ce SUNRPC: Remove DES and DES3 enctypes from the supported enctypes list
-545e5fdde618ea94c5ec4c71567c352e2acce4d5 SUNRPC: Remove code behind CONFIG_RPCSEC_GSS_KRB5_SIMPLIFIED
-f6f075ea5992cf25d5de69ac5e25f3758b293c6d SUNRPC: Remove krb5_derive_key_v1()
-8d17a34fed4c49b2a64cec39d8e79e66da194d08 SUNRPC: Remove gss_import_v1_context()
-002a3a1b46a7233b4a806df135570dd90b461e22 SUNRPC: Remove CONFIG_RPCSEC_GSS_KRB5_CRYPTOSYSTEM
-f88a283e379b72e612d794f9cfff88ff9d08a60e SUNRPC: Remove the ->import_ctx method
-8512b87c2b6de311c0ee580495cd900e28ff3b33 SUNRPC: Remove net/sunrpc/auth_gss/gss_krb5_seqnum.c
-65c78c8e9aeb71dab1967bb2060ba626e4847f88 NFSD: Refactor nfsd_reply_cache_free_locked()
-4d4a91285af943bca8bd37466cc391952b16a8fe NFSD: Rename nfsd_reply_cache_alloc()
-d4bec6e29c36ca28b1478565820a06ef0924754e NFSD: Replace nfsd_prune_bucket()
-894cbc6095a792b29dcbfb84d551ebeae2b4d633 NFSD: Refactor the duplicate reply cache shrinker
-8c80ca41df712b7c9b3893617a0b280b1293e2ec NFSD: Remove svc_rqst::rq_cacherep
-0a02318c94a10966cb265a039d8b3ab321c8f123 NFSD: Rename struct svc_cacherep
-3b2addf39d172dd0c42fe83d896d05817a1d6836 nfsd: add a MODULE_DESCRIPTION
-e0083f6d31a660ad4fe01580b39321e2f7e132b5 nfsd: handle failure to collect pre/post-op attrs more sanely
-5347744971c5301eb7971da0218a37b1f2c5be8f nfsd: remove unsafe BUG_ON from set_change_info
-6b04c547e0624e6432cfd14c9da426eea9d3f6d5 nfsd: set missing after_change as before_change + 1
-1d7137fb599b697fafd9ca4044f7571dc0ca5437 lockd: nlm_blocked list race fixes
-88ef85d5f420d6fe7f3df824373d78d06eda5a85 sunrpc: Remove unused extern declarations
-919b026bc2af7991675c774656c5774473a48774 nfsd: inherit required unset default acls from effective set
-8cce97bdb78031be0484e1d50507b288fd8d3759 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
-3da5f450d59d6558119f82564966fd3ef7bfa72d SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
-f9a5256e7ad90ac49528056204ce8c2a669b0e31 SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
-c1f2719b61c6c448d9d1e5a79aeddfa5e00e618a SUNRPC: Revert e0a912e8ddba
-e9688ff18b2c8963e440956480f10dd07113f6fc SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
-0235779dbfc659816923ea48ffec1e0abb494418 exportfs: remove kernel-doc warnings in exportfs
-c52753649883a85d94897f23840218f82a61c742 fs: lockd: avoid possible wrong NULL parameter
-191eec405ac8e221b554cff8783a678ebea0df61 SUNRPC: add verbose parameter to __svc_print_addr()
-1576a84e2153fba9494cbd2189e34191d687423a NFSD: add rpc_status entry in nfsd debug filesystem
-130e7b6b7171702aa205ab3415c684794a5ea482 lockd: remove SIGKILL handling
-0805a5327aa4aac6d2cb6dff3dc02955fbf05ce9 nfsd: don't allow nfsd threads to be signalled.
-c57d4de95d38172f260b2962befbd8034947bff4 nfsd: Simplify code around svc_exit_thread() call in nfsd()
-9afe515e7de33ab2ce41da33ce994ebabe5a5e85 nfsd: separate nfsd_last_thread() from nfsd_put()
-ab45032d06da8b435a2291f818ffe7664569a327 SUNRPC: call svc_process() from svc_recv().
-44c993831085a8fb636913d75d607a78b7c27f15 SUNRPC: change svc_recv() to return void.
-218a0115e7d6539ff1c1b6ea71fe24817a252d76 SUNRPC: remove timeout arg from svc_recv()
-5a6f1c8c80ba8cb382fed963161ef9cb769d7af1 SUNRPC: change cache_head.flags bits to enum
-a99b581f9e94f20e99ad36a9d40e60a640b38459 SUNRPC: change svc_pool::sp_flags bits to enum
-02e4bf19e150206fc8116220c22e75bc894cec3c SUNRPC: change svc_rqst::rq_flags bits to enum
-2c706bd79830c9868acc773e8c5f0eace3246b92 SUNRPC: change svc_xprt::xpt_flags bits to enum
-52ab93616afd9d1570c9870cd8c5fb4f1b8de037 SUNRPC: Add enum svc_auth_status
-63f852f63f8dc62167270e44c639f10c9433f017 SUNRPC: Move trace_svc_xprt_enqueue
-f00275fc49ac933cbf4f7b686b143c0e89429e26 SUNRPC: Deduplicate thread wake-up code
-05033f95d1701b9eefa7292e0a13c6acee357f6f SUNRPC: Count ingress RPC messages per svc_pool
-287da4419b039b2cde5df33cd69d6741f9ec10c4 SUNRPC: Clean up svc_set_num_threads
 
---===============6571137215843101218==--
+--===============7646105513347457245==--
