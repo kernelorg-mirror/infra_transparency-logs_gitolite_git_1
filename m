@@ -1,41 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3054808341551556969=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 07 Aug 2023 13:46:10 -0000
-Message-Id: <169141597005.22098.7151446231183051585@gitolite.kernel.org>
-
---===============3054808341551556969==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 07 Aug 2023 13:47:15 -0000
+Message-Id: <169141603568.22630.3541129932996111782@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/devel
-    old: 046d3546750a3e2f2e8e7d39318290604fe6f202
-    new: 6387e0aa812297c4204d805b3df053fd58b699d1
-    log: revlist-046d3546750a-6387e0aa8122.txt
-
---===============3054808341551556969==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-046d3546750a-6387e0aa8122.txt
-
-03ffa9af3a5ff88f9855b18584d00aca7eb43e6d firmware: xilinx: Add support to get platform information
-aa5ed7b3fb3939ca6a3605c6fdc7399bb219ec23 firmware: xilinx: Add version check for TRISTATE configuration
-6cb1d2a158840513b2dfd88550aaefd63b0c38fa dt-bindings: pinctrl-zynqmp: Add output-enable configuration
-0516dd657246165016e0cdb4b4fc5e34e58c2372 pinctrl: pinctrl-zynqmp: Add support for output-enable and bias-high impedance
-743cbe6541da1c9e6ea4eb4b1ac29b2620639f83 dt-bindings: pinctrl: qcom,sm6115-lpass-lpi: add SM6115 LPASS TLMM
-1b1db9e02af40cb7b44693dd46d488321cac72cb pinctrl: qcom: Introduce SM6115 LPI pinctrl driver
-0a80e1d3cfc0effa9679da157a63b668ae7e651f pinctrl: qcom: Remove the unused _groups variable build warning
-677a62482bd6e584f83d0342e78735e3cd449ba4 dt-bindings: pinctrl: Update pinctrl-single to use yaml
-0e8ec0226e849e251276d4d77d1f1ae809c045d2 dt-bindings: interrupt-controller: Add header file for Amlogic Meson-G12A SoCs
-eb3d3349a3de70cd8b5994dcf87389219e719261 pinctrl: Replace the IRQ number in the driver with the IRQID macro definition
-6387e0aa812297c4204d805b3df053fd58b699d1 arm64: dts: Replace the IRQ number with the IRQID macro definition
-
---===============3054808341551556969==--
+  - ref: refs/heads/20230728_yangyingliang_spi_switch_to_use_modern_name
+    old: 0000000000000000000000000000000000000000
+    new: 1f6c80a74cd4686b5b0b9aed55d7195009c96330
+  - ref: refs/heads/20230802_alpernebiyasak_asoc_map_missing_jack_kcontrols
+    old: 0000000000000000000000000000000000000000
+    new: d27224a45e5457ad89195d92decdd57596253428
+  - ref: refs/heads/20230802_pierre_louis_bossart_asoc_soundwire_codecs_improve_pm_runtime_handling
+    old: 0000000000000000000000000000000000000000
+    new: b48f324f89ab8ee62c3448ef19445a1b292e02d3
+  - ref: refs/heads/file3laczh
+    old: 0000000000000000000000000000000000000000
+    new: 14ce0869eb3aee28cb44edebdfa5c590fa612d72
+  - ref: refs/heads/filecYFfBN
+    old: 0000000000000000000000000000000000000000
+    new: c163108e706909570f8aa9aa5bcf6806e2b4c98c
+  - ref: refs/heads/filefH4tqd
+    old: 0000000000000000000000000000000000000000
+    new: ed2f4c745fb2bc51bb1b402ff2294587cb0b207a
+  - ref: refs/heads/fileIo5e2C
+    old: 0000000000000000000000000000000000000000
+    new: 1ec6dffdedae4cbbd6e33b1d9be0e5a3dbb31804
+  - ref: refs/heads/fileOGzPlL
+    old: 0000000000000000000000000000000000000000
+    new: 8102d64c04e8ead02c30bb07ff7dd5c41ed61bce
+  - ref: refs/heads/v7_20230807_alina_yu_add_richtek_rtq2208_subpmic_support
+    old: 0000000000000000000000000000000000000000
+    new: 85a11f55621a0c18b22b43ab4219450ac1d19386
