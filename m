@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 07 Aug 2023 18:19:16 -0000
-Message-Id: <169143235620.27166.1304700828660934084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 07 Aug 2023 18:30:31 -0000
+Message-Id: <169143303167.3696.2277645911696052778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: f7b5ac04f510df1b2b39ea149f8d64320830b233
-    new: 20279418c06e20a867641c315e62ea207ad8a18d
+  - ref: refs/heads/for-6.6
+    old: 7f828eacc4bbfd3ceea8ea17051858262fe04122
+    new: e7e64a1bff12f212be12b048723718c2152c4489
     log: |
-         20279418c06e20a867641c315e62ea207ad8a18d Mon Aug  7 06:18:00 PM UTC 2023
+         e7e64a1bff12f212be12b048723718c2152c4489 cgroup: clean up if condition in cgroup_pidlist_start()
+         
+  - ref: refs/heads/for-next
+    old: 7f828eacc4bbfd3ceea8ea17051858262fe04122
+    new: e7e64a1bff12f212be12b048723718c2152c4489
+    log: |
+         e7e64a1bff12f212be12b048723718c2152c4489 cgroup: clean up if condition in cgroup_pidlist_start()
          
