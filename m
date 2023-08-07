@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 07 Aug 2023 18:34:35 -0000
-Message-Id: <169143327551.5273.201297199624104186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 07 Aug 2023 18:36:36 -0000
+Message-Id: <169143339677.7630.7552891627037722351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/tpmdd-v6.5-rc6
+  - ref: refs/heads/arm64-sve-trap-mitigation
     old: 0000000000000000000000000000000000000000
-    new: 6291a30c1bd7bf263f8944cf5d685497c4f0c204
+    new: 9a8bd0a300195fa4c6e60ed53a54abb4706928b1
