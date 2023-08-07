@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8278889321576276690=="
+Content-Type: multipart/mixed; boundary="===============4160881491087117251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 07 Aug 2023 21:56:49 -0000
-Message-Id: <169144540940.31246.3535597788092357543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 07 Aug 2023 21:57:15 -0000
+Message-Id: <169144543507.31503.15701318554014180937@gitolite.kernel.org>
 
---===============8278889321576276690==
+--===============4160881491087117251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.6
-    old: 8102d64c04e8ead02c30bb07ff7dd5c41ed61bce
-    new: f9a798867b15b906aa0637d8efb8f6d7ed188291
-    log: revlist-8102d64c04e8-f9a798867b15.txt
+  - ref: refs/heads/for-linus
+    old: d6fd6191234de36588c557f42e4229729cb95fbf
+    new: e9c33896608017371f763e4d1b5e48f9516d0237
+    log: |
+         e9c33896608017371f763e4d1b5e48f9516d0237 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 3d83b3c2df5978b4afddbe1e525d1d39778059d4
+    new: 8a905e30868ff1d21e5e03c4fcca84e3ca86d19b
+    log: revlist-3d83b3c2df59-8a905e30868f.txt
 
---===============8278889321576276690==
+--===============4160881491087117251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691445407 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691445406-abaff59f8a3d5945161b0859c7391fec556be02d
-
-8102d64c04e8ead02c30bb07ff7dd5c41ed61bce f9a798867b15b906aa0637d8efb8f6d7ed188291 refs/heads/spi-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTRaJ8ACgkQJNaLcl1U
-h9BZagf7B7wmice7iATW7olS+86L8XTtwWm/mbZ4Jdr4KmT3oX83YIKueQ9esCzT
-8yKZcUgLDFj1yVs9aTGmTb8QVTda1wexxFWU4LGQLMD1oovgfxtYrAjnAePAH+xE
-OvmPqlLXh608ivg4NkyfzLfMrhd7Bq8RVthrfb9CQKZ4Qr24vumNodVkqPG4jglX
-fTs+0h+3YQcQl0r0k3c7z9BEfrUck0xl74iXLqtTAFWfIk0A5+AMaucEr8K4Wo7g
-wGC7A1gnM1SK+O6WC0gyzoTnFhi3ppSez80lCKwG1waw3WoBeUweW1hult0ISbD5
-SmIBvBPIN+fgpciNdFxHyxPbw8udaw==
-=c7Vw
------END PGP SIGNATURE-----
-
---===============8278889321576276690==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8102d64c04e8-f9a798867b15.txt
+Content-Disposition: attachment; filename=revlist-3d83b3c2df59-8a905e30868f.txt
 
 e9759d403baaeda9ea4d61d64c3151e214561217 spi: amd: switch to use modern name
 21ac58f59125f1c45fdd3791cbc5cc3683514564 spi: aspeed: switch to use modern name
@@ -76,5 +57,7 @@ eefc6c5c2451126c27f4098536d659d07635a1b1 spi: dw: switch to use modern name
 142c61a5fddeb755c420cb2e23b4bc0c0901308f spi: omap2-mcspi: remove redundant dev_err_probe()
 0e19118ab24beea86dac16ce3c550c47d31f777d dt-bindings: spi: convert spi-brcm63xx.txt to YAML
 f9a798867b15b906aa0637d8efb8f6d7ed188291 spi: switch to use modern name
+e9c33896608017371f763e4d1b5e48f9516d0237 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+8a905e30868ff1d21e5e03c4fcca84e3ca86d19b Merge remote-tracking branch 'spi/for-6.6' into spi-next
 
---===============8278889321576276690==--
+--===============4160881491087117251==--
