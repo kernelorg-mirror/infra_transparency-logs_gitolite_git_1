@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4999836304589297374=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 07 Aug 2023 20:10:58 -0000
-Message-Id: <169143905828.16651.297329569083488407@gitolite.kernel.org>
-
---===============4999836304589297374==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 07 Aug 2023 20:11:48 -0000
+Message-Id: <169143910823.16999.4505102431380345947@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: eaec16c373d765939153e50178c1e9e03c15020a
-    new: 82a6966307a474dcf205847bee8343a9a40dd170
+  - ref: refs/heads/main
+    old: 96bc313783cbad7682f5f91f7483dc47296398bb
+    new: 66244337512fbe51a32e7ebc8a5b5c5dc7a5421e
     log: |
-         82a6966307a474dcf205847bee8343a9a40dd170 Add 4799A35146D12B35 (Sudip Mukherjee)
+         a9ca9f9ceff382b58b488248f0c0da9e157f5d06 page_pool: split types and declarations from page_pool.h
+         75eaf63ea7afeafd026ffef03bdc69e31f10829b net: skbuff: don't include <net/page_pool/types.h> to <linux/skbuff.h>
+         06d0fbdad612cb8def19065cf1fa14fc34dba9f8 page_pool: place frag_* fields in one cacheline
+         5b899c33b3b852b9559b724cfee67801324a0886 net: skbuff: avoid accessing page_pool if !napi_safe when returning page
+         ff4e538c8c3e675a15e1e49509c55951832e0451 page_pool: add a lockdep check for recycling in hardirq
+         4a36d0180c452c3482792e0ff14e2bcf536a9284 net: skbuff: always try to recycle PP pages directly when in softirq
+         66244337512fbe51a32e7ebc8a5b5c5dc7a5421e Merge branch 'page_pool-a-couple-of-assorted-optimizations'
          
-
---===============4999836304589297374==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1691439057 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1691439057-622df2aaceb078aaec813b1b06041a03f5da3693
-
-eaec16c373d765939153e50178c1e9e03c15020a 82a6966307a474dcf205847bee8343a9a40dd170 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZNFP0QAKCRC2xBzjVmSZ
-bIidAP994XDKxJQFeC/DWBEWJWLWSgUFFtQZQjhtnl6GAHdVVAD6Asl1RdXU6Wur
-GL5gHUrGVLiHwSq0NkVtLJP636S8Lgc=
-=JKaA
------END PGP SIGNATURE-----
-
---===============4999836304589297374==--
