@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4067458562315910768=="
+Content-Type: multipart/mixed; boundary="===============6274762740590631460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 07 Aug 2023 17:37:20 -0000
-Message-Id: <169142984093.29085.8676263322437245131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 07 Aug 2023 17:37:36 -0000
+Message-Id: <169142985677.29802.7284415787816862301@gitolite.kernel.org>
 
---===============4067458562315910768==
+--===============6274762740590631460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    new: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
-    log: revlist-5d0c230f1de8-52a93d39b17d.txt
+    old: f441bb6211aa353d12b088bf32af2c742c96c87b
+    new: d6fd6191234de36588c557f42e4229729cb95fbf
+    log: revlist-f441bb6211aa-d6fd6191234d.txt
   - ref: refs/heads/for-next
-    old: 5d481ddb6a731281238b6a064c719a91f0234b0c
-    new: 26fc7cfa30d6e1d0e5a0e6fd0022de8720a58e30
-    log: revlist-5d481ddb6a73-26fc7cfa30d6.txt
+    old: 120f54bdb8831d12c905cfdd26fbfdd73e1fcf64
+    new: 3d83b3c2df5978b4afddbe1e525d1d39778059d4
+    log: revlist-120f54bdb883-3d83b3c2df59.txt
 
---===============4067458562315910768==
+--===============6274762740590631460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d0c230f1de8-52a93d39b17d.txt
+Content-Disposition: attachment; filename=revlist-f441bb6211aa-d6fd6191234d.txt
 
 a6fe043880820981f6e4918240f967ea79bb063e Drivers: hv: Change hv_free_hyperv_page() to take void * argument
 55e544e1a922d272b62ec576a3de92329f838ce9 x86/hyperv: Improve code for referencing hyperv_pcpu_input_arg
@@ -287,12 +287,13 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 7d84d1b9af6366aa9df1b523bdb7e002372e38d0 fs: rely on ->iterate_shared to determine f_pos locking
 0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
+d6fd6191234de36588c557f42e4229729cb95fbf Merge remote-tracking branch 'spi/for-6.4' into spi-linus
 
---===============4067458562315910768==
+--===============6274762740590631460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d481ddb6a73-26fc7cfa30d6.txt
+Content-Disposition: attachment; filename=revlist-120f54bdb883-3d83b3c2df59.txt
 
 a6fe043880820981f6e4918240f967ea79bb063e Drivers: hv: Change hv_free_hyperv_page() to take void * argument
 55e544e1a922d272b62ec576a3de92329f838ce9 x86/hyperv: Improve code for referencing hyperv_pcpu_input_arg
@@ -551,6 +552,9 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 7d84d1b9af6366aa9df1b523bdb7e002372e38d0 fs: rely on ->iterate_shared to determine f_pos locking
 0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
-26fc7cfa30d6e1d0e5a0e6fd0022de8720a58e30 Merge remote-tracking branch 'regmap/for-6.6' into regmap-next
+3182d49aad5f1cd8acdcf7de0c5b651772edd32e spi: spi-zynq: Do not check for 0 return after calling platform_get_irq()
+8102d64c04e8ead02c30bb07ff7dd5c41ed61bce spi: Do not check for 0 return after calling platform_get_irq()
+d6fd6191234de36588c557f42e4229729cb95fbf Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+3d83b3c2df5978b4afddbe1e525d1d39778059d4 Merge remote-tracking branch 'spi/for-6.6' into spi-next
 
---===============4067458562315910768==--
+--===============6274762740590631460==--
