@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 07 Aug 2023 23:41:01 -0000
-Message-Id: <169145166155.13528.14811356965340464389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 07 Aug 2023 23:43:29 -0000
+Message-Id: <169145180911.14502.9710068295905356081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/for-next
-    old: 2369e52657d371c58da0b826f8b87f01611cfc59
-    new: a5c0a42bd3746091777642d0588102a3a42ac031
+  - ref: refs/heads/mediatek-drm-next
+    old: d6908912b6bc5553d8f9f30d2c76ad3c3772f79e
+    new: 5b491f04c9d7477734687d26cf3eb6cd6ed12fb4
     log: |
-         db2baf82b098aa10ac16f34e44732ec450fb11c7 bpf: Fix an incorrect verification success with movsx insn
-         a5c0a42bd3746091777642d0588102a3a42ac031 selftests/bpf: Add a movsx selftest for sign-extension of R10
+         5b491f04c9d7477734687d26cf3eb6cd6ed12fb4 drm/mediatek: Add valid modifier check
          
