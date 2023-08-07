@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 07 Aug 2023 18:53:44 -0000
-Message-Id: <169143442454.21162.7273522926678585921@gitolite.kernel.org>
+Date: Mon, 07 Aug 2023 18:53:52 -0000
+Message-Id: <169143443272.21274.9312627184661004887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 77e981758f017c0d0d9e3f2c0f296d38ddeb4965
+  - ref: refs/heads/for-next
+    old: 1f0ecfe3424a84e0fe82205d3c3b1aabcd9380b1
     new: 01e89a4acefc9d8356e91dde310da11e5b97d22d
     log: |
          4b970e436523ed34da4ced74ad2b81e5a4f573f2 kbuild: deb-pkg: use Debian compliant shebang for debian/rules
