@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 07 Aug 2023 14:01:07 -0000
-Message-Id: <169141686711.307.15978073498104875554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 07 Aug 2023 14:01:36 -0000
+Message-Id: <169141689642.566.13358689408411906974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/vfs.tmpfs
-    old: f384c361c99e2b464fc968c36a67737ca75df35d
-    new: 56fb59a6b3f4687f6bc54521ca4474f0f4f7accb
+  - ref: refs/heads/experimental
+    old: 45b43e5d3c912210e82fe41ab37cd7bee7adfd39
+    new: e99b5a04019b9e2a9baf360e3f1600a7506a580b
     log: |
-         25799eedd073f8924e08633a535bf7ba0ce20d85 shmem: move spinlock into shmem_recalc_inode() to fix quota support
-         56fb59a6b3f4687f6bc54521ca4474f0f4f7accb tmpfs: verify {g,u}id mount options correctly
+         c7992a1eb217849a4ef7e077aa8f4bf9fec1e6c2 erofs-utils: lib: add a way to request supported algorithms
+         e99b5a04019b9e2a9baf360e3f1600a7506a580b erofs-utils: dump: print more superblock fields
          
