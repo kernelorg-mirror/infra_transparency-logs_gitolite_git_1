@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============6044887299187706205=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 07 Aug 2023 19:56:42 -0000
-Message-Id: <169143820252.4651.13651255886370060766@gitolite.kernel.org>
-
---===============6044887299187706205==
-Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 07 Aug 2023 19:57:32 -0000
+Message-Id: <169143825259.5079.15653794203639378352@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,26 +12,11 @@ repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: c849cf1681bdeca07956f034f01b361104d4d24a
-    new: 2386f97eba0d8940d1035e39a52490a55608681b
-    log: revlist-c849cf1681bd-2386f97eba0d.txt
-
---===============6044887299187706205==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c849cf1681bd-2386f97eba0d.txt
-
-f7a177b8690e3c7999f00f6c5bcee6915e0be2bf Revert "f2fs: clean up w/ sbi->log_sectors_per_block"
-1fdce44e0af6b89a11fee9dc1e77a4c1341b6dbe f2fs: don't handle error case of f2fs_compress_alloc_page()
-3d75aedae581d700a1ab122a84ffbfbc2583e0eb f2fs: flush inode if atomic file is aborted
-80a2f5129730735e6fcb2f37451d76c10208fd9f f2fs: get out of a repeat loop when getting a locked data page
-155a90874d20aa0f8b13d400877ce604ed54c63e f2fs: fix spelling in ABI documentation
-46b49d3d697da46f70dcc5b702f2668a8f4d51d1 f2fs: fix to avoid mmap vs set_compress_option case
-4904b211b33107897ee9ae159c3d91f25936f985 f2fs: don't reopen the main block device in f2fs_scan_devices
-750ad91bb31f51167c548fd2a8bdfb89228f67cd f2fs: allow f2fs_ioc_{,de}compress_file to be interrupted
-bc3bcd21247d86ada391276b12320af994e5b346 f2fs: compress: don't {,de}compress non-full cluster
-f2488d2c31a638e75ecd90297b4a2563962f4cd5 f2fs: check zone type before sending async reset zone command
-2386f97eba0d8940d1035e39a52490a55608681b f2fs: Only lfs mode is allowed with zoned block device feature
-
---===============6044887299187706205==--
+    old: 2386f97eba0d8940d1035e39a52490a55608681b
+    new: d29db368a38d74b682d8fa6a95cfde4cc538b9a7
+    log: |
+         7d7ca40f26434a99e462df66e602d2985acbf8a0 f2fs: increase usage of folio_next_index() helper
+         be46fe55f7f58c35ce45f0ceb5652eba265334ef Revert "f2fs: fix to do sanity check on extent cache correctly"
+         d87f01be3f5cbf424d2b888350584a09e40a57fe f2fs: fix to update i_ctime in __f2fs_setxattr()
+         d29db368a38d74b682d8fa6a95cfde4cc538b9a7 f2fs: remove unneeded check condition in __f2fs_setxattr()
+         
