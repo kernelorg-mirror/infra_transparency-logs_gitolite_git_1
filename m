@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 07 Aug 2023 15:42:49 -0000
-Message-Id: <169142296916.10301.5670423970762104392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 07 Aug 2023 15:45:36 -0000
+Message-Id: <169142313609.12961.16298311479952974054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/testing/fam01-next20230731
-    old: 7c2ff7e1f2ed48f8e189b3d1bafcbf675a7aad0c
-    new: 83c48427efe530e35feb57e55873e5e7dda20cbe
+  - ref: refs/heads/master
+    old: d031eb395799a4d7f518e0419a18b8a9bf6b66a7
+    new: 1d7976a51ce589ec45797d3869f9969bddc4290e
     log: |
-         77a353c24d8c615c4c738af1c70c2b94e499cc14 bnxt_en: Fix W=1 warning in bnxt_dcb.c from fortify memcpy()
-         83c48427efe530e35feb57e55873e5e7dda20cbe bnxt_en: Fix W=stringop-overflow warning in bnxt_dcb.c
+         1d7976a51ce589ec45797d3869f9969bddc4290e foo
          
