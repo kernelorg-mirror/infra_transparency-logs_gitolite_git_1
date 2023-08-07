@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2809682960277804517=="
+Content-Type: multipart/mixed; boundary="===============1779097789806742495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 07 Aug 2023 16:30:03 -0000
-Message-Id: <169142580341.11947.3637645642449766690@gitolite.kernel.org>
+Date: Mon, 07 Aug 2023 16:30:43 -0000
+Message-Id: <169142584395.12840.7576357920317585921@gitolite.kernel.org>
 
---===============2809682960277804517==
+--===============1779097789806742495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: eef9630de072a21917ef5cb17ff37e4cf274be88
-    new: cc97777c80fdfabe12997581131872a03fdcf683
-    log: revlist-eef9630de072-cc97777c80fd.txt
+  - ref: refs/heads/dev-queue
+    old: 1efaa6ca8af14114dafb99924bc922daa135f870
+    new: b1e48e3e273ccac7d50d108480a786d4f7326a36
+    log: revlist-1efaa6ca8af1-b1e48e3e273c.txt
 
---===============2809682960277804517==
+--===============1779097789806742495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eef9630de072-cc97777c80fd.txt
+Content-Disposition: attachment; filename=revlist-1efaa6ca8af1-b1e48e3e273c.txt
 
 90f2ba4896e289ba7973a5349cbad4463c97e321 wifi: ath9k: avoid using uninitialized array
 810e41cebb6c6e394f2068f839e1a3fc745a5dcc wifi: ath9k: fix fortify warnings
@@ -234,5 +234,44 @@ f6ecb68b38a5c23f20160dd49718d1a9d395a86d net/tls: Remove unused function declara
 2c6af36beb2e7e0066a74bc930e562f66ad88bb6 ndisc: Remove unused ndisc_ifinfo_sysctl_strategy() declaration
 a6ab5c29b8d2039db885e26058ed8f8853e383ab net: sfp: Remove unused function declaration sfp_link_configure()
 cc97777c80fdfabe12997581131872a03fdcf683 udp/udplite: Remove unused function declarations udp{,lite}_get_port()
+d3bf1b3b43e7cbe6c93e4475a46ed8e07dc02ef0 igb: fix hang issue of AER error during resume
+cf0001dc3f8224810e31dddba2eb12ce56678d04 e1000e: Use PME poll to circumvent unreliable ACPI wake
+349eefd112ae6f5de10784a7e52d18ae27cf8159 ice: clean up __ice_aq_get_set_rss_lut()
+1dc2d88af09125571e67134acc1133801b3d4c51 ice: Add direction metadata
+a9acfa39451ddbe31fa2f97dee5474f947e7e2f2 ice: Rename enum ice_pkt_flags values
+6afbf624b46043b466261acb59413123814f3360 ice: avoid executing commands on other ports when driving sync
+afcfaf14a39581471a29a432204f9d16eed48aa7 ice: prefix clock timer command enumeration values with ICE_PTP
+5212bacb502bdc7ff4f4764619dddb7d03fa8582 ice: retry acquiring hardware semaphore during cross-timestamp request
+1c5334e13c86249fd347be677fa5c3f43dec8bd0 ice: Support cross-timestamping for E823 devices
+7f0eea492832b5000950ffeaf8a26f6fdb7613a7 ice: move E810T functions to before device agnostic ones
+20e8e408d6c5d84d33ab313dc9fd0c7db9295e1e ice: Add get C827 PHY index function
+7ddb80427042b5bf8b0fa7a1f3d1715e7828d4b5 ice: add FW load wait
+c1a4082cc559a713ffc9eb0fb8f8a24a4798830d ice: introduce hw->phy_model for handling PTP PHY differences
+4c7b1144310a08cdaa8ab60ef6321e6572e58ebe igc: Add lock to safeguard global Qbv variables
+a8cccf961d6858fb62aea84275ecefe46f394001 e1000e: Add support for the next LOM generation
+995d20b866a95c177d496afe958ce5d69ce4d023 igc: Decrease PTM short interval from 10 us to 1 us
+089032e10ae0a006b9183a013e1e90588398bc72 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+558e1f359478491e0e14b5c211655ed44fb9a07b igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+3ad363474f3ede0aeb15cd2435d3d91a325320d2 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+c100e197e4b941cb2ab23ba8cc4dfb3f9ed2477e igb: Stop PTP related workqueues if aren't necessary
+204e68eddaf1856ab938730c9e16855f9012307b iavf: fix potential races for FDIR filters
+70aa72ad06ac6ec38cd8f284654fefc34a79987d i40e: fix livelocks in i40e_reset_subtask()
+0087ee2d8a8d4bd5666669a41edf15b4deb1d01d ice: PTP: Clean up timestamp registers correctly
+d2e99f9373c68f73f575db541021e5d9bd0df1bc ice: PTP: Rename macros used for PHY/QUAD port definitions
+f278bb526c1fcefa833b82b7db093d36f4d8f88b ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+b6d024b96fbf776276bdf770d9ed9784a44f0ecd ice: Accept LAG netdevs in bridge offloads
+d10b361004237f0479f9b0087e7d4c1ebe9e2027 ice: Auxbus devices & driver for E822 TS
+ba8d0e8d0875e0269237fa9cb1e0f25405450580 ice: Use PTP auxbus for all PHYs restart in E822
+d9c8240a386d4198f5c21bc84f08fd382f426b27 ice: PTP: add clock domain number to auxiliary interface
+de70e6cac64fa3a8cc7a20f9b733eac56dd9809d ice: Remove the FW shared parameters
+b678313b53c0cb6bcfb3414986d6a1206587b9de ice: Remove redundant VSI configuration in eswitch setup
+485c18d4caa7cf0adfe3d84e4aa6c7e423d0bb3a i40e: Clear stats after deleting tc
+acc73ab731c9e684f2cd45dee61c5ba5d3abed41 ice: drop two params from ice_aq_alloc_free_res()
+1401d1de2dfc3753dc698a767a6ebe0c0035cd02 i40e: fix misleading debug logs
+0d56d1103f99763ba913e65ab1933c1d9695c40a igc: Add support for multiple in-flight TX timestamps
+ce884dadf4f3c5389d1a8d716b1f96de04ebf3a7 ice: use list_for_each_entry() helper
+0233afdfe8597fcc5444d3bd215de645d79087bb virtchnl: fix fake 1-elem arrays in structs allocated as `nents + 1` - 1
+20df030209ebcfa3d8eabf20fadab7b88c952413 virtchnl: fix fake 1-elem arrays in structures allocated as `nents + 1`
+b1e48e3e273ccac7d50d108480a786d4f7326a36 virtchnl: fix fake 1-elem arrays for structures allocated as `nents`
 
---===============2809682960277804517==--
+--===============1779097789806742495==--
