@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Aug 2023 20:06:21 -0000
-Message-Id: <169143878108.11923.10363498731513310768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 07 Aug 2023 20:10:01 -0000
+Message-Id: <169143900168.14640.13915715512415766497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-linus
-    old: c67e94ea6db91fe1a02d5dbbca2ba59401f478e0
-    new: 7f46e25d18fdfb3dbbe1c976568fe50280301c33
+  - ref: refs/heads/master
+    old: a027b2eca0b7e90b11a0b0ddfad0dc4068707799
+    new: 14f9643dc90adea074a0ffb7a17d337eafc6a5cc
     log: |
-         7f46e25d18fdfb3dbbe1c976568fe50280301c33 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         
-  - ref: refs/heads/for-next
-    old: d177be0f2915e159f16492d0e4a34f5540880529
-    new: e310971b536ba6de955e544b6bb1d4af294cdd28
-    log: |
-         4b591ed6971191134e331f02300b4ec4dee188ea regulator: dt-bindings: rtq2208: Add Richtek RTQ2208 SubPMIC
-         85a11f55621a0c18b22b43ab4219450ac1d19386 regulator: rtq2208: Add Richtek RTQ2208 SubPMIC driver
-         ed2f4c745fb2bc51bb1b402ff2294587cb0b207a regulator: max5970: Rename driver and remove wildcard
-         c82197491fe02f87ef810a69187596224c1784ba Add Richtek RTQ2208 SubPMIC support
-         7f46e25d18fdfb3dbbe1c976568fe50280301c33 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         e310971b536ba6de955e544b6bb1d4af294cdd28 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
+         b2ec116aad38aa9c8b67fad4314e50823adf6949 workqueue: Fix cpu_intensive_thresh_us name in help text
+         aa6fde93f3a49e42c0fe0490d7f3711bac0d162e workqueue: Scale up wq_cpu_intensive_thresh_us if BogoMIPS is below 4000
+         0b15afc9038146bb2009e7924b1ead2e919b2a56 tpm/tpm_tis: Disable interrupts for TUXEDO InfinityBook S 15/17 Gen7
+         0de030b308236a1392f924f527cf74614d8b6aef sysctl: set variable key_sysctls storage-class-specifier to static
+         554b841d470338a3b1d6335b14ee1cd0c8f5d754 tpm: Disable RNG for all AMD fTPMs
+         e117e7adc637e364b599dc766f1d740698e7e027 tpm/tpm_tis: Disable interrupts for Lenovo P620 devices
+         8043e2225aa2ef7c7a04aac129a7ded3b1771aba Merge tag 'tpmdd-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+         14f9643dc90adea074a0ffb7a17d337eafc6a5cc Merge tag 'wq-for-6.5-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
          
