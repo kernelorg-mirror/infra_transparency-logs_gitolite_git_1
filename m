@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 07 Aug 2023 13:57:24 -0000
-Message-Id: <169141664470.29697.8455858639537931106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 07 Aug 2023 14:01:07 -0000
+Message-Id: <169141686711.307.15978073498104875554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 9e03dbea2b0634b21a45946b4f8097e0dc86ebe1
-    new: 849b1955ade1c647234d6fadeb70377d9def01ca
+  - ref: refs/heads/vfs.tmpfs
+    old: f384c361c99e2b464fc968c36a67737ca75df35d
+    new: 56fb59a6b3f4687f6bc54521ca4474f0f4f7accb
     log: |
-         26b7d1a27167e7adf75b150755e05d2bc123ce55 IB/uverbs: Fix an potential error pointer dereference
-         849b1955ade1c647234d6fadeb70377d9def01ca RDMA: Remove unnecessary NULL values
+         25799eedd073f8924e08633a535bf7ba0ce20d85 shmem: move spinlock into shmem_recalc_inode() to fix quota support
+         56fb59a6b3f4687f6bc54521ca4474f0f4f7accb tmpfs: verify {g,u}id mount options correctly
          
