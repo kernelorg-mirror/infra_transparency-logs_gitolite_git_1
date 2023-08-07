@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3104758816153734556=="
+Content-Type: multipart/mixed; boundary="===============3103914395172746116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 07 Aug 2023 20:53:41 -0000
-Message-Id: <169144162133.15840.2956615242313779716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 07 Aug 2023 20:53:48 -0000
+Message-Id: <169144162872.15980.10793484929229328468@gitolite.kernel.org>
 
---===============3104758816153734556==
+--===============3103914395172746116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 8130471f34d08773d5d1311067f1acecd225846c
     log: revlist-c1a515d3c027-8130471f34d0.txt
 
---===============3104758816153734556==
+--===============3103914395172746116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -113,4 +113,4 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 c423bc20c4e20cedc90f763ce49e4777725a3aa1 tools arch x86: Sync the msr-index.h copy with the kernel sources
 8130471f34d08773d5d1311067f1acecd225846c perf stat: Don't display zero tool counts
 
---===============3104758816153734556==--
+--===============3103914395172746116==--
