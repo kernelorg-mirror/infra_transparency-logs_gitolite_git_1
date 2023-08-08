@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 08 Aug 2023 12:54:35 -0000
-Message-Id: <169149927588.2259.488624227131780691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 08 Aug 2023 13:12:24 -0000
+Message-Id: <169150034463.16732.6128117248044969721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/b4/virt-to-phys-csky
-    old: 9bf26d17070c4525f652bddb4bb86e9d00b7e055
-    new: cbf62f82b495ad73a0d9f6f98ea9150f83c0d5ce
-    log: |
-         90d878c1cab49b40df8c54e0eccf4cebcaf366ca csky: Convert memory accessors to static inlines
-         da743da169e67a26f54f4048df24528d6a2882cb csky: Cast argument to virt_to_pfn() to (void *)
-         cbf62f82b495ad73a0d9f6f98ea9150f83c0d5ce csky: Make pfn accessors static inlines
-         
+  - ref: refs/heads/file5LbdTN
+    old: 0000000000000000000000000000000000000000
+    new: 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9
+  - ref: refs/heads/fileTitusn
+    old: 0000000000000000000000000000000000000000
+    new: 2ca03ecc9c8556e913aef6f381154721dec4e44b
+  - ref: refs/heads/filev9AAvl
+    old: 0000000000000000000000000000000000000000
+    new: 90219f1bd273055f1dc1d7bdc0965755b992c045
