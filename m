@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 08 Aug 2023 17:29:41 -0000
-Message-Id: <169151578181.10973.8041659261307172593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 08 Aug 2023 17:30:05 -0000
+Message-Id: <169151580535.12846.16220760712104232703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: c50e125d057152bc68dfd5669b73611343653eb7
-    new: 64f18f8a8c091f1f8fdc4805bafaffd15b588b23
+  - ref: refs/heads/master
+    old: 39aecfd82dadbcf25d39e9f339d440af7cce9f66
+    new: 260f374b5e2f74f38a242a923cd4ccab5b3b89af
     log: |
-         64f18f8a8c091f1f8fdc4805bafaffd15b588b23 selinux: update comment on selinux_hooks[]
+         260f374b5e2f74f38a242a923cd4ccab5b3b89af Tue Aug  8 05:28:50 PM UTC 2023
          
