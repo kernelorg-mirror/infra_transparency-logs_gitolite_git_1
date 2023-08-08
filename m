@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 08 Aug 2023 18:35:34 -0000
-Message-Id: <169151973445.3934.15566067551666550863@gitolite.kernel.org>
+Date: Tue, 08 Aug 2023 18:37:11 -0000
+Message-Id: <169151983190.4884.9543079862866690187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 64917f4c35b3e490e0c0f966fab533dfb560db5e
-    new: d952f54d01ec2ea5ee9d5e21f2ea3a5807b4bcbc
+  - ref: refs/heads/for-rc
+    old: 4fdfaef71fced490835145631a795497646f4555
+    new: 8e7b295da1ed051baedd068b7f785f5d959ef95d
     log: |
-         d952f54d01ec2ea5ee9d5e21f2ea3a5807b4bcbc RDMA/hns: Remove unused declaration hns_roce_modify_srq()
+         8e7b295da1ed051baedd068b7f785f5d959ef95d MAINTAINERS: Remove maintainer of HiSilicon RoCE
          
