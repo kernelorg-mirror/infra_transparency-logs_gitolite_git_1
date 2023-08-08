@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 08 Aug 2023 23:44:15 -0000
-Message-Id: <169153825511.8508.1439475220830080679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 08 Aug 2023 23:45:01 -0000
+Message-Id: <169153830182.8858.15468284340751347787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: 260f374b5e2f74f38a242a923cd4ccab5b3b89af
-    new: 2f861cfe40d50aa18d3ae95d26bc8d846a648b1e
+    old: eb62e6aef940fcb1879100130068369d4638088f
+    new: e546a119801f732f5c5c620d59be2e85aa732a8b
     log: |
-         2f861cfe40d50aa18d3ae95d26bc8d846a648b1e Tue Aug  8 11:43:07 PM UTC 2023
+         e546a119801f732f5c5c620d59be2e85aa732a8b bpf, docs: Fix small typo and define semantics of sign extension
          
