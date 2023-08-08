@@ -1,58 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3412750394571252836=="
+Content-Type: multipart/mixed; boundary="===============5920830482852615463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 08 Aug 2023 08:46:06 -0000
-Message-Id: <169148436679.30410.3588545196690640759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 08 Aug 2023 08:54:20 -0000
+Message-Id: <169148486069.2760.6234101373795726531@gitolite.kernel.org>
 
---===============3412750394571252836==
+--===============5920830482852615463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: af6248afd7653924d224b3fa8843fc93fdbb93b6
-    new: ff33299ec8bb80cdcc073ad9c506bd79bb2ed20b
+  - ref: refs/heads/char-misc-testing
+    old: abe8ff435fb613b6afa80fa4718c6302573464df
+    new: f90bebb36a0831f5769b65e45e39dd7bc5621a7e
     log: |
-         85d07c55621676d47d873d2749b88f783cd4d5a1 USB: core: Unite old scheme and new scheme descriptor reads
-         de28e469da75359a2bb8cd8778b78aa64b1be1f4 USB: core: Change usb_get_device_descriptor() API
-         ff33299ec8bb80cdcc073ad9c506bd79bb2ed20b USB: core: Fix race by not overwriting udev->descriptor in hub_port_init()
+         37dd6b9f5bb0081082349d808fb4ac07f76fbf97 peci: cpu: Add Intel Sapphire Rapids support
+         68f436a80fc89faa474134edfe442d95528be17a hwmon: (peci/cputemp) Add Intel Sapphire Rapids support
+         621995b6d795c2c1a0a501241d4b647fbe865e68 hwmon: (peci/dimmtemp) Add Sapphire Rapids support
+         c8955701d65730ebececd134b9998aebc0314ae1 dt-bindings: Add bindings for peci-npcm
+         3e16184a1bd8ce83df2f8435e2eb4448d0339134 peci: Add peci-npcm controller driver
+         9949f98ca5a8e07ce18583f31c6134cba569ecdc ARM: dts: nuvoton: Add PECI controller node
+         d7c99890fe06a170c77af12b0c105babb3a47a04 arm64: dts: nuvoton: Add PECI controller node
+         f90bebb36a0831f5769b65e45e39dd7bc5621a7e Merge tag 'peci-next-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iwi/linux into char-misc-next
          
 
---===============3412750394571252836==
+--===============5920830482852615463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691484362 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1691484361-6af164943f3999223bf7ecb70d0dc52f2581ed1a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691484857 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1691484856-8e819b709dde283bf2a5fc7c9bc58eb200d50c47
 
-af6248afd7653924d224b3fa8843fc93fdbb93b6 ff33299ec8bb80cdcc073ad9c506bd79bb2ed20b refs/heads/usb-testing
+abe8ff435fb613b6afa80fa4718c6302573464df f90bebb36a0831f5769b65e45e39dd7bc5621a7e refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTSAMobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LrUQAJFNWMn/eJAsBYQ8Xt6D
-E006i9F8qBILNXEF+3z+RZq6HDWUBJqUnmIVkDNGKndk3dCHWJsjH4ULe6rJQSeP
-vNsYEba9Yc8zUBk1TKtxwa/Ce+I8HLnHbTvSMk+xPYjBisc7827ElGx4dLWcuRze
-Qv8sncZzqL8CfKnfl/JxaSua2YI3SEMNqa80tcXhQZK+a1Ynyfx0j+p/Rm0KqWIt
-ipULnQ+VFartWfsA7fvnToqxvo93csCycwcnrTng8+RCYHS5RfkX0hZ4hxCi64HS
-l+mBZTbsAv3g0l9By0jmiLXqm5S0Sr/EyOtlHoJvJ7E1H+F40/fZJF0Mg690hBh/
-9njN+exjX3Mw8OOVgp9iA3sYrL9cMSpOUZ3GoCT5Wvn1eyVqXjgQsnG0HcwZHN1q
-NtdxVmO/2nZvsQYh92J5bZmhNbuD/aew/ocnM3thynCIVXIQPjqd/1ggD5sbqC1+
-c33Fg0RR+wcvnwMwT/iuM+kG1oqJUCPKLXjrOqqFs1lHDV+nHSFfetHUigOf4jEA
-1n2j/zCfyd842eIeRB2VPTcINIMX7rjdLyPyY0oQloaKZgz2r/FzGrLnuzeRetRp
-9+IoYUythPzFQRiGu7N/20L2tU09F/q1NNbSDK0qkmr0ih5B/GLU0F97bRcIxW/o
-xXZIpkaEFC/KSekR6D0s8bLm
-=pkrS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTSArkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/roP/A+glO/8AAhJmQzPeLNw
+rd1JAb8/fWGnbZrozmtrzex/4F+6FT+XMMlgcTveKwL4qMbtRAftvetZpaOaBoDf
+OOXfBnDgvANOr4ttNnY55O+3IdACRRHaoqL6vfxW353lpZjNepyo+2wN4vRITekC
+tAry+As5na/zrmnpvjZDSYAQuY8sNLg3Ytj3inv6qOL9S3lz5Wm+hE0CzX7OY8OV
+2n286Gyt7WjqQgcJ+jVCmBWBTv+jcm23ZSLEzfAQ5amOOnfJ69GGdKR/0BDIwPRe
+4kCv/MfQNosn13bkB2buVufVKX8REBFEq/qztTIXJW1zPueXX8qDeC9RUJEt4xLC
+6zim92bl2lhqGAMiajkZis9C3ntDKqcn8pSTVqybjpqotKn+UjM4qhnMXfDSYdIz
+YuUC00dAkuz1ybowP/6V8SvSO9/rGLCBF5E9DPIuIRhRnflW4QL3/4F652PGPSEj
+IyWgILaw6mD94/vrnD8uX91zjHa9lHEcJoyywAMPVRyz2aXwkxJo1doP27UdiaNf
+V7t/yzD2G6XV/NxzwBA+r060JEF6HI6ef9K/MEixcqxkKhBLEogRyDKp0jByyC3y
+a0kOCC3XmzisNrwIuGZt1gD37+unXcziYSKTwRVYnZG/XE59ZbOLCiqsimB+Zijb
+5i2jRFNO15lChNe24sAaV+9f
+=QHhz
 -----END PGP SIGNATURE-----
 
---===============3412750394571252836==--
+--===============5920830482852615463==--
