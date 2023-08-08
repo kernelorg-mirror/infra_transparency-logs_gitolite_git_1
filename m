@@ -1,64 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============1651223881922387348=="
+Content-Type: multipart/mixed; boundary="===============8073623283151413815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Aug 2023 17:56:34 -0000
-Message-Id: <169151739400.5292.14338631170073259741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Aug 2023 17:56:50 -0000
+Message-Id: <169151741007.5469.12504518507757078410@gitolite.kernel.org>
 
---===============1651223881922387348==
+--===============8073623283151413815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: 41aad0905568508070842e22ebc5398f8b733939
-    new: 90219f1bd273055f1dc1d7bdc0965755b992c045
+  - ref: refs/heads/for-linus
+    old: 8144154d73c42346f73e0e31907ac84726578477
+    new: 97ca08ea75d1354e620f0d9d6c26f425a3a96e95
     log: |
          bd76caa26ab53ed3bf13ad541d69f119e910d764 ASoC: Intel: sof-sdw: update jack detection quirk for LunarLake RVP
          e61994882611d1a49387be37fda005e0ef6226ac ASoC: Intel: sof-sdw-cs42142: fix for codec button mapping
          90219f1bd273055f1dc1d7bdc0965755b992c045 ASoC: SOF: intel: hda: Clean up link DMA for IPC3 during stop
+         97ca08ea75d1354e620f0d9d6c26f425a3a96e95 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
          
-  - ref: refs/heads/asoc-6.6
-    old: a3440da490613ba9045fc3dcb9aff2c1fa8f3187
-    new: 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9
-    log: revlist-a3440da49061-94c40dbbffa1.txt
+  - ref: refs/heads/for-next
+    old: e7a6b551aa788fea92df83aa1aaef7149f737e22
+    new: b94d7eb1277957b252e3281444b6428cca0f4674
+    log: revlist-e7a6b551aa78-b94d7eb12779.txt
 
---===============1651223881922387348==
+--===============8073623283151413815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691517391 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691517390-1a981f4760848aa2a11672a324662f9c19546570
-
-41aad0905568508070842e22ebc5398f8b733939 90219f1bd273055f1dc1d7bdc0965755b992c045 refs/heads/asoc-6.5
-a3440da490613ba9045fc3dcb9aff2c1fa8f3187 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTSgc8ACgkQJNaLcl1U
-h9D+aAf/UFJfaMnaSw81m2QhMY70l1GGPVxv3gutH0AuMle+Ce6VD8BFx4z3s1YF
-lJRw7mGNctxARJVbMgQe+AMz8S9mUCyhQTBjyUkF8ucKtaIG95zMS+wqRC/0Vpfh
-03pWGocM01nLQu5WSnlHyczG8y5FloA2KHZDnDtEddCRnlrIWhrhSLnJAahlyOld
-5pnRlCKLuaXl0raZJhAouHwJkhet9MbZELiOxY5hGJkvnkNhdGLZomh3rZIql8F3
-NdjLeBp00aHylzb2TvCVb/L03/9O+QmTiNFdjbpi5IUmwZ1sZnRBUbAwGNX6rsnV
-epbb8Ah/HMQ0NxoppD5tIEMy2udIMg==
-=gIzV
------END PGP SIGNATURE-----
-
---===============1651223881922387348==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3440da49061-94c40dbbffa1.txt
+Content-Disposition: attachment; filename=revlist-e7a6b551aa78-b94d7eb12779.txt
 
 97efc0aa96f990966fe584149afa1aadcf7b8568 PCI: Sort Intel PCI IDs by number
 2407c45329ddfac0b760d2095c484b371dec8ec9 PCI: Add Intel Audio DSP devices to pci_ids.h
@@ -102,7 +77,12 @@ bb0b992c1bb94e44ba40f82ddb2c4e6d5c9fcc9e ASoC: SOF: Intel: hda-dai-ops: add ops 
 699e146d9ebf42ee2a5d4e4e28f7a49c4aef0105 ASoC: SOF: Intel: hda-dai-ops: reset device count for SoundWire DAIs
 1eaff2647eb1dfbaa500fb5f28e032db5ad35b70 ASoC: SOF: IPC4: clarify 'pipeline_ids' usage and logs
 02c7f8729a5a1e78412177482372c3124edd4d62 ASoC: SOF: Intel: hda-mlink: add sublink to dev_dbg() log
+bd76caa26ab53ed3bf13ad541d69f119e910d764 ASoC: Intel: sof-sdw: update jack detection quirk for LunarLake RVP
+e61994882611d1a49387be37fda005e0ef6226ac ASoC: Intel: sof-sdw-cs42142: fix for codec button mapping
 442ece6b3473157a5680aa156be7bd776ff7e378 ASoC: SOF: Intel: add LunarLake support
+90219f1bd273055f1dc1d7bdc0965755b992c045 ASoC: SOF: intel: hda: Clean up link DMA for IPC3 during stop
 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 ASoC: amd: acp3x-rt5682-max9836: Configure jack as not detecting Line Out
+97ca08ea75d1354e620f0d9d6c26f425a3a96e95 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+b94d7eb1277957b252e3281444b6428cca0f4674 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
---===============1651223881922387348==--
+--===============8073623283151413815==--
