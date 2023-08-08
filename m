@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 08 Aug 2023 14:23:31 -0000
-Message-Id: <169150461161.4212.15196501760352947923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Tue, 08 Aug 2023 15:13:20 -0000
+Message-Id: <169150760089.8548.14211535884447291602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/20230808_linus_walleij_regulator_legacy_gpio_header_removal
-    old: 0000000000000000000000000000000000000000
-    new: f321708da4db6b15a8691dc64b2d5169234937bc
+  - ref: refs/heads/genpd_create_dir
+    old: a6a67e5a13f6974913a38d5bd1c595c3fd73b204
+    new: fe38a2d570df3ed868c255fdad16652886997a08
+    log: |
+         fe38a2d570df3ed868c255fdad16652886997a08 MAINTAINERS: adjust file entry in STARFIVE JH71XX PMU CONTROLLER DRIVER
+         
