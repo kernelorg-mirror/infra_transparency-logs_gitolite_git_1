@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8723148700749234797=="
+Content-Type: multipart/mixed; boundary="===============9053299051093692469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 08 Aug 2023 10:07:19 -0000
-Message-Id: <169148923931.5754.6988513852990295842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 08 Aug 2023 10:07:40 -0000
+Message-Id: <169148926064.6619.6569896239785472973@gitolite.kernel.org>
 
---===============8723148700749234797==
+--===============9053299051093692469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
     log: revlist-5d0c230f1de8-52a93d39b17d.txt
 
---===============8723148700749234797==
+--===============9053299051093692469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -284,4 +284,4 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
 
---===============8723148700749234797==--
+--===============9053299051093692469==--
