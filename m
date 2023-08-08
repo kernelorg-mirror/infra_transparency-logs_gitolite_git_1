@@ -1,88 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8073623283151413815=="
+Content-Type: multipart/mixed; boundary="===============5789696674849097504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 08 Aug 2023 17:56:50 -0000
-Message-Id: <169151741007.5469.12504518507757078410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Aug 2023 17:56:58 -0000
+Message-Id: <169151741808.5589.535943768069744636@gitolite.kernel.org>
 
---===============8073623283151413815==
+--===============5789696674849097504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 8144154d73c42346f73e0e31907ac84726578477
-    new: 97ca08ea75d1354e620f0d9d6c26f425a3a96e95
+  - ref: refs/heads/master
+    old: 2a40d9257c69ebe1a897e6951854c695e95983f2
+    new: 65e0347cb79bf9a8e2f2e97711563a0db89b52b4
     log: |
-         bd76caa26ab53ed3bf13ad541d69f119e910d764 ASoC: Intel: sof-sdw: update jack detection quirk for LunarLake RVP
-         e61994882611d1a49387be37fda005e0ef6226ac ASoC: Intel: sof-sdw-cs42142: fix for codec button mapping
-         90219f1bd273055f1dc1d7bdc0965755b992c045 ASoC: SOF: intel: hda: Clean up link DMA for IPC3 during stop
-         97ca08ea75d1354e620f0d9d6c26f425a3a96e95 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         65e0347cb79bf9a8e2f2e97711563a0db89b52b4 Linux 5.4.252
          
-  - ref: refs/heads/for-next
-    old: e7a6b551aa788fea92df83aa1aaef7149f737e22
-    new: b94d7eb1277957b252e3281444b6428cca0f4674
-    log: revlist-e7a6b551aa78-b94d7eb12779.txt
 
---===============8073623283151413815==
+--===============5789696674849097504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7a6b551aa78-b94d7eb12779.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-97efc0aa96f990966fe584149afa1aadcf7b8568 PCI: Sort Intel PCI IDs by number
-2407c45329ddfac0b760d2095c484b371dec8ec9 PCI: Add Intel Audio DSP devices to pci_ids.h
-e9207825c899cec6df488b16ecf93c8f667842f4 ASoC: SOF: Remove unused Broxton PCI ID
-97b7aeb2d9a7efab43233aa9f20de365db064e2b ALSA: Remove unused Broxton PCI ID
-cab8cf497d708d74407745d05fdf8a3a1f83ce4f ALSA: hda: Add controller matching macros
-1b21bd7a565c724cd3f4d5f222c356faca2a4508 ALSA: hda: Use global PCI match macro
-fd6f3a84ab59784b83f0609cf17e5199f2141395 ALSA: hda/i915: Use global PCI match macro
-76e3a424646ee1ff71062d61b51852cb389badfd ASoC: Intel: Skylake: Use global PCI match macro
-0cd0a7c2c599e57b5dcb1c3a0717a31615b72de3 ALSA: intel-dsp-config: Convert to PCI device IDs defines
-e6232c80a55f812010c7c40b757cc5aa22e48199 ALSA: hda: Convert to PCI device IDs defines
-8d9614b885894c084b2617794512a8c3385228f9 ASoC: Intel: avs: Convert to PCI device IDs defines
-ea15d60252dc08f1ddda1efa1fc96cc4a9248b09 ASoC: Intel: avs: Convert to PCI device IDs defines
-a2db8743eda573de477e57319ea95ae088d6397c ASoC: Intel: Skylake: Convert to PCI device IDs defines
-a9022f4bec01f98f21106d66c81dfdacc57fe759 ASoC: SOF: Intel: Convert to PCI device IDs defines
-2218e10e6fec05f76d6cd2c7eed4cb5af447360b ASoC: Intel: sst: Convert to PCI device IDs defines
-a13b5340aa6892685adf655cd4bfa91a83d5a9d2 PCI: add ArrowLake-S PCI ID for Intel HDAudio subsystem.
-3bef0681682296c61f713fdb7989cb11bb836b5f ALSA: hda: add HD Audio PCI ID for Intel Arrow Lake-S
-73e6ebf6a21a62429282632eccb8aa4212489b3c ALSA: hda: intel-dsp-cfg: use common include for MeteorLake
-d2852b8c045ebd31d753b06f2810df5be30ed56a ALSA: hda: intel-dsp-cfg: add LunarLake support
-3f8c530fc458142e0db0185f18153d85c4359203 ALSA: hda/i915: extend connectivity check to cover Intel ARL
-f957172bf7c562df10dc57586118b1cbe15e6b00 ASoC: lower "no backend DAIs enabled for ... Port" log severity
-93fd2be6eb80fe37570fbd87652ec07a4f7c5b5a ASoC: SOF: ipc3-dtrace: Switch to memdup_user_nul() helper
-7075b0c91b3cd5d32b4ac7403f771a3253d3fbf6 ASoC: SOF: Intel: hda-mlink: fix off-by-one error
-7a52d7062e02af4a479da24b40cfd76b54c0cd6c ASoC: SOF: Intel: fix u16/32 confusion in LSDIID
-defc0c638d20eec17ebb3dbf82709aba1ac2f0d4 ASoC: SOF: ipc4: avoid uninitialized default instance 0
-ef8a29bae82fc635952de97fdd3bcf8e29d8c6be ASoC: SOF: ipc4-topology: restore gateway config length
-701c0ba46fabc4715606f840119271a818209357 ASoC: SOF: Intel: hda: add interface definitions for ACE2.x
-64a63d9914a5e9278fcd81c6dbc095fc84b772d2 ASoC: SOF: Intel: LNL: Add support for Lunarlake platform
-c22d53279709c46f2e19caf2886e38cee93d07ea ASoC: SOF: Intel: split MTL and LNL operations
-e78576c4aa0d5b7185e1f5188578d9bfb2d43d4b ASoC: SOF: Intel: LNL: enable DMIC/SSP offload in probe/resume
-12547730e5b7c41e2203003cda74f39f43739c53 ASoC: SOF: Intel: hda-dai-ops: add/select DMA ops for SSP
-a8338e76457c14c56bb13fbb16c8607e80498499 ASoC: SOF: Intel: hda-dai: add ops for SSP
-b6c508b46d84d88e617d8b9f38ffbe60470589d0 ASoC: SOF: Intel: hda-dai: add DMIC support
-f8ba62ac863c33fc0d8ac3f1270985c2b77f4377 ASoC: SOF: Intel: hda-dai-ops: only allocate/release streams for first CPU DAI
-bb0b992c1bb94e44ba40f82ddb2c4e6d5c9fcc9e ASoC: SOF: Intel: hda-dai-ops: add ops for SoundWire
-2960ee5c4814ee50b7b9f030dd99382623a4d7f0 ASoC: SOF: Intel: hda-dai: add helpers for SoundWire callbacks
-186ca4b522fec020f0201d4fcef09ea58b4d5701 ASoC: SOF: Intel: hda: add hw_params/free/trigger callbacks
-9362ab78f175db2003674e008ef1b8917725d502 ASoC: SOF: Intel: add abstraction for SoundWire wake-ups
-34e38f03d7e77141ef6879c69ca55fc2a44b9f2e ASoC: SOF: Intel: hda-mlink: add helper to get sublink LSDIID register
-699e146d9ebf42ee2a5d4e4e28f7a49c4aef0105 ASoC: SOF: Intel: hda-dai-ops: reset device count for SoundWire DAIs
-1eaff2647eb1dfbaa500fb5f28e032db5ad35b70 ASoC: SOF: IPC4: clarify 'pipeline_ids' usage and logs
-02c7f8729a5a1e78412177482372c3124edd4d62 ASoC: SOF: Intel: hda-mlink: add sublink to dev_dbg() log
-bd76caa26ab53ed3bf13ad541d69f119e910d764 ASoC: Intel: sof-sdw: update jack detection quirk for LunarLake RVP
-e61994882611d1a49387be37fda005e0ef6226ac ASoC: Intel: sof-sdw-cs42142: fix for codec button mapping
-442ece6b3473157a5680aa156be7bd776ff7e378 ASoC: SOF: Intel: add LunarLake support
-90219f1bd273055f1dc1d7bdc0965755b992c045 ASoC: SOF: intel: hda: Clean up link DMA for IPC3 during stop
-94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 ASoC: amd: acp3x-rt5682-max9836: Configure jack as not detecting Line Out
-97ca08ea75d1354e620f0d9d6c26f425a3a96e95 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-b94d7eb1277957b252e3281444b6428cca0f4674 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691517416 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1691517416-72d18323fbd1f69486628a5e264164daf3f936b9
 
---===============8073623283151413815==--
+2a40d9257c69ebe1a897e6951854c695e95983f2 65e0347cb79bf9a8e2f2e97711563a0db89b52b4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTSgegbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hVgP/1gWi1lAHmvjVcy73LHn
+4AOXKgGoRcmEtNSsDs24rKFRLSYfa3WvHMY/EHw3BFFZLzi6K00FR8oeWb+IEkPj
+nXC+nWb6oEZkVWby5+IDIgBA6ugva9n/m9fyCU003fzvoz3AkPQ9mrvjvFOfPeXZ
+Cn6d+6BqTNlDihNXQrD/hEfwB6KplmEtUDBSBi5MXtU+VB0RP8dJEvMoauGnRB2O
+xAwG24AET2FSFKjsiCo1Yuh3b+1ziRW4ihHKjzkwKnCUCm26pfHoLUqIWrXMgH+o
+fhR1mMlgbp1Hi7WlcraCWHaJCpzV/3nG8GmEZ1kHXTwpzU1m4dqWUkfePFTPHrxM
++FMRKHGRzGrF9G7z2lWjGxtCfg7E8qiL1LYiE4Ibar6Y20jGU0rkv47DJt6feDGY
+BJfUzNsjA60Y/IPkFcR8o4SnwVaDBKZEAuSiOD2BHwrDH5bqlvi7OnJcrwwrFg+3
+X9PT+GcaRABVaqoCLSJgbzmCIsFePITC0yUMBfiahxWxD0PlHY1D+Zd+odZTGqy5
+PHBtzZjwvN9/yDt/gCWxDBqPzG0Vi7zIts7S/KDjD3DqB4WYFv0n7uKeR6/D5wgq
+YbDa9lkhzZJcXk259y0aZYkepXZ8eFSkKhtUvWNGYDPeohBjt+mSbeBvWaPt4N+d
+2AK/rkvF8/G7Px4VS7tMEdio
+=DLcw
+-----END PGP SIGNATURE-----
+
+--===============5789696674849097504==--
