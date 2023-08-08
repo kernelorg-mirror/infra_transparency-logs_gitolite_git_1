@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 08 Aug 2023 13:41:12 -0000
-Message-Id: <169150207282.6652.15880259468641508872@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1860814127087471813=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 08 Aug 2023 14:04:11 -0000
+Message-Id: <169150345127.21471.4064121123367758655@gitolite.kernel.org>
+
+--===============1860814127087471813==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus
-    old: 7f46e25d18fdfb3dbbe1c976568fe50280301c33
-    new: 34aea80d685c725f6e78366a8cf5aba7c2b253ec
+  - ref: refs/heads/i2c/andi-for-current
+    old: cc635aa49c59261d583f78bebbda161754cbed4f
+    new: fc9a464f3d9a2a361e8bcb960345270a9dc46054
     log: |
-         34aea80d685c725f6e78366a8cf5aba7c2b253ec Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         fc9a464f3d9a2a361e8bcb960345270a9dc46054 This patch fixes the Tegra DMA config option processing in the i2c-tegra driver.
          
-  - ref: refs/heads/for-next
-    old: e310971b536ba6de955e544b6bb1d4af294cdd28
-    new: 047ea29f28563fd6171bcc7f73fc9bb4197ea703
-    log: |
-         200ee464f7a9a4e8d7a51a2083b28cf240e7cb91 regulator: rpi-panel-attiny-regulator: Remove redundant of_match_ptr()
-         34aea80d685c725f6e78366a8cf5aba7c2b253ec Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         047ea29f28563fd6171bcc7f73fc9bb4197ea703 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
-         
+
+--===============1860814127087471813==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Andi Shyti <andi.shyti@kernel.org> 1691503450 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1691503449-94e433b2f7a93f2a749fd22b7e4762b9ceaea554
+
+cc635aa49c59261d583f78bebbda161754cbed4f fc9a464f3d9a2a361e8bcb960345270a9dc46054 refs/heads/i2c/andi-for-current
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZNJLWhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ub8MA/RXoz2wow/gS0S2l3vDxP3ZH0d+o
+iNBLXLQJ2gBD12G7AQCanfpT6Qw7w7b6lEeHXSSl2/uMhJwBKDKaMVpLLGkYCQ==
+=GV0z
+-----END PGP SIGNATURE-----
+
+--===============1860814127087471813==--
