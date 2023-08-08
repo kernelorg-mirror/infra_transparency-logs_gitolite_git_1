@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2955897814943162818=="
+Content-Type: multipart/mixed; boundary="===============1651223881922387348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 08 Aug 2023 17:56:25 -0000
-Message-Id: <169151738536.5150.8065075699254221675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 08 Aug 2023 17:56:34 -0000
+Message-Id: <169151739400.5292.14338631170073259741@gitolite.kernel.org>
 
---===============2955897814943162818==
+--===============1651223881922387348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 41aad0905568508070842e22ebc5398f8b733939
     new: 90219f1bd273055f1dc1d7bdc0965755b992c045
     log: |
@@ -24,37 +24,37 @@ changes:
          e61994882611d1a49387be37fda005e0ef6226ac ASoC: Intel: sof-sdw-cs42142: fix for codec button mapping
          90219f1bd273055f1dc1d7bdc0965755b992c045 ASoC: SOF: intel: hda: Clean up link DMA for IPC3 during stop
          
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: a3440da490613ba9045fc3dcb9aff2c1fa8f3187
     new: 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9
     log: revlist-a3440da49061-94c40dbbffa1.txt
 
---===============2955897814943162818==
+--===============1651223881922387348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1691517382 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1691517381-80daca9a5328a70a6fa43ceb6fded1eed643eb3b
+pusher C3F436CA30F5D8EB 1691517391 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1691517390-1a981f4760848aa2a11672a324662f9c19546570
 
-41aad0905568508070842e22ebc5398f8b733939 90219f1bd273055f1dc1d7bdc0965755b992c045 refs/heads/for-6.5
-a3440da490613ba9045fc3dcb9aff2c1fa8f3187 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 refs/heads/for-6.6
+41aad0905568508070842e22ebc5398f8b733939 90219f1bd273055f1dc1d7bdc0965755b992c045 refs/heads/asoc-6.5
+a3440da490613ba9045fc3dcb9aff2c1fa8f3187 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTSgcYACgkQJNaLcl1U
-h9AUNAf+Jf5GqNiBtcrFGBJwCtzYbEx3XHwyOsnPzpX5yhH4IB8UMIgxb5Gi8gZ+
-6YJNDHJHWXecIc2xVqpKGaKVrpdelmMN6h2st2RVAa8BSFyd+4LdHmKYEvHDOmEt
-SkyODaPC4Ek6Ysul+uYke3U2yfrWexz86oc+ls5Uh994kGRyBYnaeQ50e7jCQpaC
-tGuE3UqQA947gwu01zoEwrBb1GGWH1g1nQeib4eE/cG4kUdr9zcs+s2XW/nbTNzs
-M11iLO+UoPXw2hvARHx5iYDTd/D37GUXo511kCyFco6PeEQNLYmpCgm/8aUnwJxU
-z7EDbTHy2/Jyj8jlanzJaWvH7ivybw==
-=g5L4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTSgc8ACgkQJNaLcl1U
+h9D+aAf/UFJfaMnaSw81m2QhMY70l1GGPVxv3gutH0AuMle+Ce6VD8BFx4z3s1YF
+lJRw7mGNctxARJVbMgQe+AMz8S9mUCyhQTBjyUkF8ucKtaIG95zMS+wqRC/0Vpfh
+03pWGocM01nLQu5WSnlHyczG8y5FloA2KHZDnDtEddCRnlrIWhrhSLnJAahlyOld
+5pnRlCKLuaXl0raZJhAouHwJkhet9MbZELiOxY5hGJkvnkNhdGLZomh3rZIql8F3
+NdjLeBp00aHylzb2TvCVb/L03/9O+QmTiNFdjbpi5IUmwZ1sZnRBUbAwGNX6rsnV
+epbb8Ah/HMQ0NxoppD5tIEMy2udIMg==
+=gIzV
 -----END PGP SIGNATURE-----
 
---===============2955897814943162818==
+--===============1651223881922387348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -105,4 +105,4 @@ bb0b992c1bb94e44ba40f82ddb2c4e6d5c9fcc9e ASoC: SOF: Intel: hda-dai-ops: add ops 
 442ece6b3473157a5680aa156be7bd776ff7e378 ASoC: SOF: Intel: add LunarLake support
 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 ASoC: amd: acp3x-rt5682-max9836: Configure jack as not detecting Line Out
 
---===============2955897814943162818==--
+--===============1651223881922387348==--
