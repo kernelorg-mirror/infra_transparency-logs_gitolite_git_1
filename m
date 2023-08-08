@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 08 Aug 2023 08:32:23 -0000
-Message-Id: <169148354359.18733.6917112154838275507@gitolite.kernel.org>
+Date: Tue, 08 Aug 2023 08:32:32 -0000
+Message-Id: <169148355263.18893.5884197734368731904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/x86-efi-runtime-cleanup
-    old: 99fb94a33b68fb6a3a33825309a5c6190ae904b2
+  - ref: refs/heads/for-kernelci
+    old: 0f67b339aae92feffbd01bdc8987f5298e969102
     new: 6b61c706d235dade563cb751adeb1061cdf5919c
     log: |
          4a3b83511413e5300f72b2d12330ce9b6fa67830 efi/x86: Move EFI runtime call setup/teardown helpers out of line
