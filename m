@@ -1,116 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============0953291361762862899=="
+Content-Type: multipart/mixed; boundary="===============6131630090911020411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 08 Aug 2023 18:07:39 -0000
-Message-Id: <169151805982.17121.10492146405871510642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 08 Aug 2023 18:26:44 -0000
+Message-Id: <169151920496.29709.4026654657697331931@gitolite.kernel.org>
 
---===============0953291361762862899==
+--===============6131630090911020411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: acme
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/perf-tools
-    old: c1a515d3c0270628df8ae5f5118ba859b85464a2
-    new: 487ae3b42d1040b4cd5ff9754e7516b409204029
-    log: revlist-c1a515d3c027-487ae3b42d10.txt
+  - ref: refs/heads/nfsd-next
+    old: 287da4419b039b2cde5df33cd69d6741f9ec10c4
+    new: 9e8eedee0188932f44c72b687c57d3d2db724024
+    log: revlist-287da4419b03-9e8eedee0188.txt
 
---===============0953291361762862899==
+--===============6131630090911020411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1a515d3c027-487ae3b42d10.txt
+Content-Disposition: attachment; filename=revlist-287da4419b03-9e8eedee0188.txt
 
-a6fe043880820981f6e4918240f967ea79bb063e Drivers: hv: Change hv_free_hyperv_page() to take void * argument
-55e544e1a922d272b62ec576a3de92329f838ce9 x86/hyperv: Improve code for referencing hyperv_pcpu_input_arg
-6e2acbfe59b83043bc7ae1bb39fac4fc9dcd5a18 clk: meson: change usleep_range() to udelay() for atomic context
-8544cda94dae6be3f1359539079c68bb731428b1 mtd: spinand: toshiba: Fix ecc_get_status
-f5a05060670a4d8d6523afc7963eb559c2e3615f mtd: spinand: winbond: Fix ecc_get_status
-d8403b9eeee66d5dd81ecb9445800b108c267ce3 mtd: rawnand: omap_elm: Fix incorrect type in assignment
-7e6b04f9238eab0f684fafd158c1f32ea65b9eaa mtd: rawnand: meson: fix OOB available bytes for ECC
-d0ca3b92b7a6f42841ea9da8492aaf649db79780 mtd: rawnand: rockchip: fix oobfree offset and description
-ea690ad78dd611e3906df5b948a516000b05c1cb mtd: rawnand: rockchip: Align hwecc vs. raw page helper layouts
-1eb8d61ac5c9c7ec56bb96d433532807509b9288 clk: mediatek: mt8183: Add back SSPM related clocks
-a29b2fccf5f2689a9637be85ff1f51c834c6fb33 clk: imx93: Propagate correct error in imx93_clocks_probe()
-e7dd44f4f3166db45248414f5df8f615392de47a clk: fixed-mmio: make COMMON_CLK_FIXED_MMIO depend on HAS_IOMEM
-d5ace2a776442d80674eff9ed42e737f7dd95056 x86/hyperv: Disable IBT when hypercall page lacks ENDBR instruction
-060f2b979c4e0e894c381c76a4dcad24376feddd x86/hyperv: fix a warning in mshyperv.h
-ed0cf84e9cc42e6310961c87709621f1825c2bb8 vmbus_testing: fix wrong python syntax for integer value comparison
-ae9b14582ad03abb3db66ba3f8dc5ca443ff54a1 Merge tag 'clk-meson-fixes-v6.5-1' of https://github.com/BayLibre/clk-meson into clk-fixes
-2dedcf414bb01b8d966eb445db1d181d92304fb2 drm/ttm: check null pointer before accessing when swapping
-d3053b4a6b76f29fd1bf0b438b19a2d6ece9657d MAINTAINERS: Add myself as reviewer for HYPERBUS
-71c8f9cf2623d0db79665f876b95afcdd8214aec mtd: spi-nor: avoid holes in struct spi_mem_op
-c6abce60338aa2080973cd95be0aedad528bb41f mtd: rawnand: fsl_upm: Fix an off-by one test in fun_exec_op()
-6722b25712054c0f903b839b8f5088438dd04df3 powerpc/mm/altmap: Fix altmap boundary check
-41a506ef71eb38d94fe133f565c87c3e06ccc072 powerpc/ftrace: Create a dummy stackframe to fix stack unwind
-ee31742bf17636da1304af77b2cb1c29b5dda642 drm/imx/ipuv3: Fix front porch adjustment upon hactive aligning
-46d14e17095237007b59f56aae2d81ae2dcb0f93 drm/i915/gvt: Fix bug in getting msg length in AUX CH registers handler
-d14560ac1b595aa2e792365e91fea6aeaee66c2b drm/i915/gt: Cleanup aux invalidation registers
-b2f59e9026038a5bbcbc0019fa58f963138211ee drm/i915: Add the gen12_needs_ccs_aux_inv helper
-78a6ccd65fa3a7cc697810db079cc4b84dff03d5 drm/i915/gt: Ensure memory quiesced before invalidation
-592b228f12e15867a63e3a6eeeb54c5c12662a62 drm/i915/gt: Rename flags with bit_group_X according to the datasheet
-824df77ab2107d8d4740b834b276681a41ae1ac8 drm/i915/gt: Enable the CCS_FLUSH bit in the pipe control and in the CS
-0fde2f23516a00fd90dfb980b66b4665fcbfa659 drm/i915/gt: Poll aux invalidation register bit on invalidation
-6a35f22d222528e1b157c6978c9424d2f8cbe0a1 drm/i915/gt: Support aux invalidation on all engines
-a337b64f0d5717248a0c894e2618e658e6a9de9f drm/i915: Fix premature release of request's reusable memory
-2dc0bc1138eecc88b2c376ccb0b0acb215c25a5c powerpc/64e: Fix secondary thread bringup for ELFv2 kernels
-16e95a62eed18864aecac404f1e4eed764c363f2 powercap: intel_rapl: Fix a sparse warning in TPMI interface
-e7e607bd00481745550389a29ecabe33e13d67cf ceph: defer stopping mdsc delayed_work
-9d01e07fd1bfb4daae156ab528aa196f5ac2b2bc rbd: prevent busy loop when requesting exclusive lock
-e6e2843230799230fc5deb8279728a7218b0d63c libceph: fix potential hang in ceph_osdc_notify()
-0bc057eae2610c275361766a064a23cc2758f3ff Merge tag 'gvt-fixes-2023-08-02' of https://github.com/intel/gvt-linux into drm-intel-fixes
-0a8589055936d8feb56477123a8373ac634018fa ata,scsi: do not issue START STOP UNIT on resume
-c71b7aa8619a0c9700132d0733e33999fb614339 drm/panel: samsung-s6d7aa0: Add MODULE_DEVICE_TABLE
-86582e6189dd8f9f52c25d46c70fe5d111da6345 powerpc/powermac: Use early_* IO variants in via_calibrate_decr()
-11260c3d608b59231f4c228147a795ab21a10b33 smb: client: fix dfs link mount against w2k8
-8c82d2bf5944123d8e90d01bf27655497d9aa321 selftests/riscv: fix potential build failure during the "emit_tests" step
-25696067202f047e22c1562f1f56b0e2eb547d1a selftests: riscv: Fix compilation error with vstate_exec_nolibc.c
-568701fee36652a7660ed667a3980c945d8051e0 RISC-V: ACPI: Fix acpi_os_ioremap to return iomem address
-fbe7d19d2b7fcbd38905ba9f691be8f245c6faa6 riscv: Export va_kernel_pa_offset in vmcoreinfo
-640c503d7dbd7d34a62099c933f4db0ed77ccbec Documentation: kdump: Add va_kernel_pa_offset for RISCV64
-9e2d0c336524706fb327e9b87477f5f3337ad7a6 x86/hyperv: add noop functions to x86_init mpparse functions
-6ad0f2f91ad14ba0a3c2990c054fd6fbe8100429 Drivers: hv: vmbus: Remove unused extern declaration vmbus_ontimer()
-c2ff2b736c41cc63bb0aaec85cccfead9fbcfe92 parisc/mm: preallocate fixmap page tables at init
-ce9ff57d393db86a34ba3f817d7fb886b7c278dc parisc: pci-dma: remove unused and dead EISA code and comment
-2e1b1d7063a35ab6cf9984f9d5bc29829e1e8788 parport: gsc: remove DMA leftover code
-99b2f159b6e76b84357eae6dc2a206871aa630d5 parisc: unaligned: Add required spaces after ','
-c9bb40b7f786662e33d71afe236442b0b61f0446 arm64/fpsimd: Clear SME state in the target task when setting the VL
-89a65c3f170e5c3b05a626046c68354e2afd7912 arm64/ptrace: Flush FP state when setting ZT0
-062ff85b11da63ecccf7c17778ad225e7b5d06bf Merge tag 'drm-misc-fixes-2023-08-03' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
-1958b0f95a35e4443573c4c3ec2efd89d2d00d82 Merge tag 'drm-intel-fixes-2023-08-03' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-b3d8aa84bbfe9b58ccc5332cacf8ea17200af310 rust: allocator: Prevent mis-aligned allocation
-1d24eb2d536ba27ef938a6563ac8bfb49c738cc1 rust: delete `ForeignOwnable::borrow_mut`
-b05544884300e98512964103b33f8f87650ce887 rust: fix bindgen build error with UBSAN_BOUNDS_STRICT
-045aecdfcb2e060db142d83a0f4082380c465d2c arm64/ptrace: Don't enable SVE when setting streaming SVE
-507ea5dd92d23fcf10e4d1a68a443c86a49753ed arm64/fpsimd: Sync FPSIMD state with SVE for SME only systems
-69af56ae56a48a2522aad906c4461c6c7c092737 arm64/fpsimd: Sync and zero pad FPSIMD state for streaming SVE
-797964253d358cf8d705614dda394dbe30120223 file: reinstate f_pos locking optimization for regular files
-4593f3c2c62c1bcdf274038ef87b08a057531692 Merge tag 'ceph-for-6.5-rc5' of https://github.com/ceph/ceph-client
-4142fc6743d39271e712936d9fb284cd84cb6010 Merge tag 'drm-fixes-2023-08-04' of git://anongit.freedesktop.org/drm/drm
-c8273a25864e74ab66601459686d6f78b0eb666b Merge tag 'mtd/fixes-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-e6fda526d9db2c7897dacb9daff8c80e13ce893d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-ea4f142ffa876ee4e7e99bbd8d666e0e81cbcc2c Merge tag 'pm-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e661f98c82832ddb76423f57dffb4ba6256e0fc6 Merge tag 'riscv-for-linus-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-024ff300db33968c133435a146d51ac22db27374 Merge tag 'hyperv-fixes-signed-20230804' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-c9d26d8de10f7c4decd10b6e75f5593c11ff9dfc Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-947c2a83584d3093efea1edf52430db47f11080f Merge tag 'parisc-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-251a94f1f66e909d75a774ac474a63bd9bc38382 Merge tag 'powerpc-6.5-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-f6a691685962637e53371788fe2a72b171aedc68 Merge tag '6.5-rc4-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
-fb0d91991cedb51bc604c6b3915df75d8a59a4a3 Merge tag 'ata-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-f0ab9f34e59e0c01a1c31142e0b336245367fd86 Merge tag 'rust-fixes-6.5-rc5' of https://github.com/Rust-for-Linux/linux
-a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly test for O_TMPFILE
-0a2c2baafa312ac4cec4f0bababedab3f971f224 proc: fix missing conversion to 'iterate_shared'
-3e3271549670783be20e233a2b78a87a0b04c715 vfs: get rid of old '->iterate' directory operation
-7d84d1b9af6366aa9df1b523bdb7e002372e38d0 fs: rely on ->iterate_shared to determine f_pos locking
-0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
-c0b067588a4836b762cfc6a4c83f122ca1dbb93a Revert "perf report: Append inlines to non-DWARF callchains"
-8cdd4aeff2e858c95bb088409028893cfb4e53d4 tools arch x86: Sync the msr-index.h copy with the kernel sources
-487ae3b42d1040b4cd5ff9754e7516b409204029 perf stat: Don't display zero tool counts
+bed5a600c6b0e0994d7405d989a9e3ecc25d50a8 block: Revert 615939a2ae73
+e4db4fae2ff188ee0a8067c0457e447dd8092c09 locks: allow support for write delegation
+937389147dda4d9d1cf4d4060dcb563cdc4d7eff NFSD: allow client to use write delegation stateid for READ
+38ee227d1240c103661c1baa0ca30780cf67728d NFSD: handle GETATTR conflict with write delegation
+b3cc1f13383a7f9628dd270a45cead78ee435e22 NFSD: Report zero space limit for write delegations
+dfc6482def0a51e2d67e7a16e437565452eea531 NFSD: Enable write delegation support
+435512621dda60c16f27f31263e00eabbb3732c9 SUNRPC: Remove RPCSEC_GSS_KRB5_ENCTYPES_DES
+6030a434c8b3aabb9e41e707d769988c7c1f6f1d SUNRPC: Remove Kunit tests for the DES3 encryption type
+b461a3f6e5602765d6b3ef42fc6ae96f657738a1 SUNRPC: Remove DES and DES3 enctypes from the supported enctypes list
+031986ec1ccbe49ff8c82f8cd73d268cadd11ba5 SUNRPC: Remove code behind CONFIG_RPCSEC_GSS_KRB5_SIMPLIFIED
+ac238e715899f506f07d9a2b740e0d479ba92df9 SUNRPC: Remove krb5_derive_key_v1()
+639cbadff7f3fd0215feea34f8e46935e5e7af14 SUNRPC: Remove gss_import_v1_context()
+43e3ec61d672d66b3132e8e3ce9511af54a56cf6 SUNRPC: Remove CONFIG_RPCSEC_GSS_KRB5_CRYPTOSYSTEM
+a745644e562a147fa321c4c5144f1542dc51d2ed SUNRPC: Remove the ->import_ctx method
+b9c0d983de4eb3288a43186e05de7701c4e0e3ce SUNRPC: Remove net/sunrpc/auth_gss/gss_krb5_seqnum.c
+e7f63ee1b2a76e4f6cc427da701b96f29aa9cb74 NFSD: Refactor nfsd_reply_cache_free_locked()
+c9ca88bcd3d4f74fff9a821bf2bd5ddf69e95992 NFSD: Rename nfsd_reply_cache_alloc()
+1e7c049e45f46418067dc7055557b9c5aac39f47 NFSD: Replace nfsd_prune_bucket()
+c5320794beeeed204e27b66833cb0ae79ef22f3d NFSD: Refactor the duplicate reply cache shrinker
+d7ee6b47ae6d95a5a2874915fc521260d7c6af04 NFSD: Remove svc_rqst::rq_cacherep
+bff274fcfb1fdcceae85d3b3a70505e51182b3b2 NFSD: Rename struct svc_cacherep
+abacecb24398af14ffedc7c492e9d244fcdb45ac nfsd: add a MODULE_DESCRIPTION
+99273ed35e6cd9eb0e0fd2625f1d04ced03d5ad0 nfsd: handle failure to collect pre/post-op attrs more sanely
+3b8838f10d458759cef06c1817eba6ec5e2c6f49 nfsd: remove unsafe BUG_ON from set_change_info
+8de5ec3b024442783ce1837bcc76c20ee5a6ca85 nfsd: set missing after_change as before_change + 1
+df23f5d4750e624d261dbc7f6087734a82f7353b lockd: nlm_blocked list race fixes
+e5e77949a606cb15ad7aeaf0f18cf949933eb20f sunrpc: Remove unused extern declarations
+164fe0e0fe8400e37d487415d95e8bba8572e09f nfsd: inherit required unset default acls from effective set
+26e603fa95fea99b1767d7e179db4ad80677b598 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
+a64577292fde4ab9e208202562097623d704b0b4 SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
+9fa95a7d109311ee20d0cf4c847e6e379a45e78d SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
+11b57469ca78c7faba5e3b3676eb4f48ef8c9821 SUNRPC: Revert e0a912e8ddba
+c06d3a24b56dad63d36ebd005faa79d2aa41c2c3 SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
+4d1fb596fc0ef507b428afc14f1ddaaac423753f exportfs: remove kernel-doc warnings in exportfs
+412fe9321ab0479a2291bcbe4412e2a5e5b39852 fs: lockd: avoid possible wrong NULL parameter
+e682321909fc880cf6d7bc9e7b0ccb6619ff12d6 lockd: remove SIGKILL handling
+23d082a15b171cb6bc5b6fb27671834261138d65 nfsd: don't allow nfsd threads to be signalled.
+22ca9c099e98d118f2cf9a1051f8a44a5708df1b nfsd: Simplify code around svc_exit_thread() call in nfsd()
+a18416be36d6f41f8bc6e964c4748f3563a37c9d nfsd: separate nfsd_last_thread() from nfsd_put()
+e5ea5044c4188ed2966f69ede4faf258a20c343e SUNRPC: call svc_process() from svc_recv().
+739462080d6e2c2c189c0f01a454871c3113517b SUNRPC: change svc_recv() to return void.
+83d593304ef00f87550a12777a29d4b5babde112 SUNRPC: remove timeout arg from svc_recv()
+08b4ae21d616f293f5076bb1b1a5b0b4d456ae2c SUNRPC: change cache_head.flags bits to enum
+94b3c3a4afd4c3a32f41087a1efaec67e951bda5 SUNRPC: change svc_pool::sp_flags bits to enum
+2912ef689abfb4ffdc7dea3690c706bc6326d6a4 SUNRPC: change svc_rqst::rq_flags bits to enum
+8e455147e8dea71cfe6ee674e2d795a43e3ce2c9 SUNRPC: change svc_xprt::xpt_flags bits to enum
+77136318d9ac7fbe0e10f77fb9adfeb3a8547a0c SUNRPC: Add enum svc_auth_status
+8ae7dc29c067ae9d6b7eba1c38b0bc39d7610fc7 SUNRPC: Move trace_svc_xprt_enqueue
+afc0e829e35bb92515ba4ad4f89a183ce813e323 SUNRPC: Deduplicate thread wake-up code
+62037cac05d05b3bcd1b71ebbc0e651c33f3e657 SUNRPC: Count ingress RPC messages per svc_pool
+9e8eedee0188932f44c72b687c57d3d2db724024 SUNRPC: Clean up svc_set_num_threads
 
---===============0953291361762862899==--
+--===============6131630090911020411==--
