@@ -1,76 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5467382303845113438=="
+Content-Type: multipart/mixed; boundary="===============3788363085685234084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 08 Aug 2023 14:17:33 -0000
-Message-Id: <169150425375.32540.14124591265484359789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 08 Aug 2023 14:20:09 -0000
+Message-Id: <169150440945.2822.9545828366259650737@gitolite.kernel.org>
 
---===============5467382303845113438==
+--===============3788363085685234084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/fixes
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 12acb348fa4528a4203edf1cce7a3be2c9af2279
-    log: revlist-06c2afb862f9-12acb348fa45.txt
-  - ref: refs/tags/v6.5-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
-  - ref: refs/tags/v6.5-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
-  - ref: refs/tags/v6.5-rc4
-    old: 0000000000000000000000000000000000000000
-    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
-  - ref: refs/tags/v6.5-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/heads/x86-efi-runtime-cleanup
+    old: 240effe70d6a0d0448ac506856b79779c3c21543
+    new: c71456a199541783dbb943e07547fc0d0c929ea2
+    log: revlist-240effe70d6a-c71456a19954.txt
 
---===============5467382303845113438==
+--===============3788363085685234084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06c2afb862f9-12acb348fa45.txt
+Content-Disposition: attachment; filename=revlist-240effe70d6a-c71456a19954.txt
 
-188623076d0f1a500583d392b6187056bf7cc71a drm/amd: Move helper for dynamic speed switch check out of smu13
-7e42907f3a7b4ce3a2d1757f6d78336984daf8f5 ring-buffer: Fix deadloop issue on reading trace_pipe
-e701156ccc6c7a5f104a968dda74cd6434178712 drm/amd: Align SMU11 SMU_MSG_OverridePcieParameters implementation with SMU13
-60e445bdfccbb90c1bc13a92e128e50ba4357b3c nvme-fc: return non-zero status code when fails to create association
-ee6fdc5055e916b1dd497f11260d4901c4c1e55e nvme-fc: fix race between error recovery and creating association
-71a5bb153be104d9175636e95166fd5e37466649 nvme: ensure disabling pairs with unquiesce
-5782017cc4d0c8f3425d55b893675bb8a20c33e9 phy: phy-mtk-dp: Fix an error code in probe()
-95bd315f0a5ed7d7afe771776272c5b3cdb29bc8 phy: mediatek: hdmi: mt8195: fix prediv bad upper limit test
-45d89a344eb46db9dce851c28e14f5e3c635c251 phy: qcom-snps-femto-v2: keep cfg_ahb_clk enabled during runtime suspend
-8a0eb8f9b9a002291a3934acfd913660b905249e phy: qcom-snps-femto-v2: properly enable ref clock
-8932089b566c24ea19b57e37704c492678de1420 phy: qcom-snps-femto-v2: use qcom_snps_hsphy_suspend/resume error code
-c40d6b3249b11d60e09d81530588f56233d9aa44 soundwire: fix enumeration completion
-f84d41b2a083b990cbdf70f3b24b6b108b9678ad soundwire: qcom: update status correctly with mask
-ab2dbc7accedc2e98eb7d8b8878d337e3b36c95d RISC-V: Don't include Zicsr or Zifencei in I from ACPI
-f673b4f5bd13365c8bee2f38c9794b635c73a302 block/mq-deadline: Fix a bug in deadline_from_pos()
-1d7546042f8fdc4bc39ab91ec966203e2d64f8bd Merge tag 'for-linus-2023071101' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-9a3236ce48406c3190dfa06137636525001b32f5 Merge tag 'probes-fixes-v6.5-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-5b10c18d1bf9238d842db6c8e86cc0066185c391 perf parse-events: Avoid SEGV if PMU lookup fails for legacy cache terms
-eb26cbb1a754ccde5d4d74527dad5ba051808fad Merge tag 'platform-drivers-x86-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-f72207a5c0dbaaf6921cf9a6c0d2fd0bc249ea78 netdevsim: fix uninitialized data in nsim_dev_trap_fa_cookie_write()
-df6556adf27b7372cfcd97e1c0afb0d516c8279f KVM: arm64: Correctly handle page aging notifiers for unaligned memslot
-938a06c8b7913455073506c33ae3bff029c3c4ef drm/nouveau/acr: Abort loading ACR if no firmware was found
-835a65f51790e1f72b1ab106ec89db9ac15b47d6 drm/nouveau: bring back blit subchannel for pre nv50 GPUs
-26efd79c4624294e553aeaa3439c646729bad084 ftrace: Fix possible warning on checking all pages used in ftrace_process_locs()
-bec3c25c247c4f88a33d79675a09e1644c9a3114 tracing: Stop FORTIFY_SOURCE complaining about stack trace caller
-0d5ace1a07f7e846d0f6d972af60d05515599d0b pinctrl: amd: Only use special debounce behavior for GPIO 0
-635a750d958e158e17af0f524bedc484b27fbb93 pinctrl: amd: Use amd_pinconf_set() for all config options
-3f62312d04d4c68aace9cd06fc135e09573325f3 pinctrl: amd: Drop pull up select configuration
-283c5ce7da0a676f46539094d40067ad17c4f294 pinctrl: amd: Unify debounce handling into amd_pinconf_set()
-04e601f2a71c804422a91df813e19fda5f4b845e Merge tag 'renesas-pinctrl-fixes-for-v6.5-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into fixes
-dcf89d111199562fa5f31a1bb76f17bc4831f6da KVM: arm64: Add missing BTI instructions
-8cc32a9bbf2934d90762d9de0187adcb5ad46a11 kallsyms: strip LTO-only suffixes from promoted global functions
-1e9cb763e9bacf0c932aa948f50dcfca6f519a26 net: ena: fix shift-out-of-bounds in exponential backoff
 150e33e62c1fa4af5aaab02776b6c3812711d478 net/sched: make psched_mtu() RTNL-less safe
 6018b585e8c6fa7d85d4b38d9ce49a5b67be7078 tracing/histograms: Add histograms to hist_vars if they have referenced variables
 0099852f9d7322890636503146f303b41cd8663e Merge tag 'for-linus' of https://github.com/openrisc/linux
@@ -1060,7 +1015,40 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 7d84d1b9af6366aa9df1b523bdb7e002372e38d0 fs: rely on ->iterate_shared to determine f_pos locking
 0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
-9a8fa00dad3c7b260071f2f220cfb00505372c40 cpuidle: dt_idle_genpd: Add helper function to remove genpd topology
-12acb348fa4528a4203edf1cce7a3be2c9af2279 cpuidle: psci: Move enabling OSI mode after power domains creation
+bee6cf1a80b54548a039e224c651bb15b644a480 x86/sev: Do not try to parse for the CC blob on non-AMD hardware
+264b82fdb4989cf6a44a2bcd0c6ea05e8026b2ac x86/decompressor: Don't rely on upper 32 bits of GPRs being preserved
+2f69a81ad6873231a2ae78d5ade3263ec54a4c9c x86/head_64: Store boot_params pointer in callee save register
+d2d7a54f69b67cd0a30e0ebb5307cb2de625baac x86/efistub: Branch straight to kernel entry point from C code
+df9215f15206c2a81909ccf60f21d170801dce38 x86/efistub: Simplify and clean up handover entry code
+12792064587623065250069d1df980e2c9ac3e67 x86/decompressor: Avoid magic offsets for EFI handover entrypoint
+d7156b986d4cc0657fa6dc05c9fcf51c3d55a0fe x86/efistub: Clear BSS in EFI handover protocol entrypoint
+8b63cba746f86a754d66e302c43209cc9b9b6e39 x86/decompressor: Store boot_params pointer in callee save register
+00c6b0978ec182f1a672095930872168b9d5b1e2 x86/decompressor: Assign paging related global variables earlier
+e8972a76aa90c05a0078043413f806c02fcb3487 x86/decompressor: Call trampoline as a normal function
+918a7a04e71745e99a0efc6753e587439b794b29 x86/decompressor: Use standard calling convention for trampoline
+bd328aa01ff77a45aeffea5fc4521854291db11f x86/decompressor: Avoid the need for a stack in the 32-bit trampoline
+64ef578b6b6866bec012544416946533444036c8 x86/decompressor: Call trampoline directly from C code
+f97b67a773cd84bd8b55c0a0ec32448a87fc56bb x86/decompressor: Only call the trampoline when changing paging levels
+cb83cece57e1889109dd73ea08ee338668c9d1b8 x86/decompressor: Pass pgtable address to trampoline directly
+03dda95137d3247564854ad9032c0354273a159d x86/decompressor: Merge trampoline cleanup with switching code
+cb1c9e02b0c13032c3aec325643453ba48e96e17 x86/efistub: Perform 4/5 level paging switch from the stub
+11078876b7a6a1b7226344fecab968945c806832 x86/efistub: Prefer EFI memory attributes protocol over DXE services
+8217ad0a435ff06d651d7298ea8ae8d72388179e decompress: Use 8 byte alignment
+24388292e2d7fae79a0d4183cc91716b851299cf x86/decompressor: Move global symbol references to C code
+83381519352d6b5b3e429bf72aaab907480cb6b6 x86/decompressor: Factor out kernel decompression and relocation
+bc5ddceff4c14494d83449ad45c985e6cd353fce efi/libstub: Add limit argument to efi_random_alloc()
+31c77a50992e8dd136feed7b67073bb5f1f978cc x86/efistub: Perform SNP feature test while running in the firmware
+a1b87d54f4e45ff5e0d081fb1d9db3bf1a8fb39a x86/efistub: Avoid legacy decompressor when doing EFI boot
+442fb3c1a95eddb059e50ff0e423683191fd1d87 efi/x86: Move EFI runtime call setup/teardown helpers out of line
+8a074f01634fec549bd0e7a0d91c92d7142a9389 efi/arm64: Move EFI runtime call setup/teardown helpers out of line
+66389e0cbc54cde46a24a1f85cf0c36ed2a26c06 efi/riscv: Move EFI runtime call setup/teardown helpers out of line
+cbaa79df03692765a72e653eba8dd3e28a66399f efi/runtime-wrappers: Use type safe encapsulation of call arguments
+8c2732ead01e2c63d3d9895d43b99f9b3e06e51a efi/runtime-wrapper: Move workqueue manipulation out of line
+0e380bfc84679c4c123c6a0addee3198e0f161d7 efi/runtime-wrappers: Remove duplicated macro for service returning void
+96bf0711caede9c9ea6aa46251e654e24c0ae861 efi/runtime-wrappers: Don't duplicate setup/teardown code
+74d615646e6a6ab2abe1d6b22d519d7b1b8981c1 acpi/prmt: Use EFI runtime sandbox to invoke PRM handlers
+12047f2af990f88f292681e4f80106a2aad80777 efi/x86: Realign EFI runtime stack
+9777a4479484a54a897205eef6dbe27675cb31e8 efi/x86: Rely on compiler to emit MS ABI calls
+c71456a199541783dbb943e07547fc0d0c929ea2 efi/runtime-wrappers: Clean up white space and add __init annotation
 
---===============5467382303845113438==--
+--===============3788363085685234084==--
