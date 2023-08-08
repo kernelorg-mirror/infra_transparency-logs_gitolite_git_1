@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1689618234594481117=="
+Content-Type: multipart/mixed; boundary="===============5222395869365136756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Aug 2023 20:32:13 -0000
-Message-Id: <169152673333.28937.1377100736548248765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Aug 2023 20:32:28 -0000
+Message-Id: <169152674837.29114.3450209786293647427@gitolite.kernel.org>
 
---===============1689618234594481117==
+--===============5222395869365136756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9
-    new: a932f45a1832d18fb64704636a958ef993a1d1da
-    log: revlist-94c40dbbffa1-a932f45a1832.txt
+  - ref: refs/heads/for-linus
+    old: 97ca08ea75d1354e620f0d9d6c26f425a3a96e95
+    new: 2ac1e7bad953a37b5916ce876a37c2830b8e9196
+    log: |
+         2ac1e7bad953a37b5916ce876a37c2830b8e9196 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: b94d7eb1277957b252e3281444b6428cca0f4674
+    new: 010bbfffa6635c3ac2d222cde819352fd0cce078
+    log: revlist-b94d7eb12779-010bbfffa663.txt
 
---===============1689618234594481117==
+--===============5222395869365136756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691526731 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691526731-0428fd7589e48e26b5647fd9141b32791c153f0b
-
-94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 a932f45a1832d18fb64704636a958ef993a1d1da refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTSpksACgkQJNaLcl1U
-h9CCqgf5Ae8uinMfQpd8Z2FQItgUfOuV4VZ9OsNNUqzG22BIGfVhlDiCtUIOrj/P
-LCnm+RH7+5N+75K7mtJeGk7wWU0WCogakjnCXGgvRtpv4wrm0digpdVrbYAEo+9Q
-Eez8MYrbv7a4GICn8XD4RcLs6Txd1icpzxduAthbK+6xvLDf+PtkIl/Umso1DGax
-qtSMtceyX76y2Db0aWefuGOuDaouhBv6wEe8jWGaRy939Qk4G8ukd1rj884lB3UR
-KHxggiA56IoFp5h77IsZV+04ddbPJGCBy7oCIYWgnHGmkkuetStRMEyBtt0UdtE7
-aAduT3WZBngmhwTgmaXdgXIHlJnVlQ==
-=6YUD
------END PGP SIGNATURE-----
-
---===============1689618234594481117==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94c40dbbffa1-a932f45a1832.txt
+Content-Disposition: attachment; filename=revlist-b94d7eb12779-010bbfffa663.txt
 
 8e5c4a9fc47ab6d8e1d9cf6c1f11c90675c1d968 ASoC: imx-audio-rpmsg: Remove redundant initialization owner in imx_audio_rpmsg_driver
 c307ca16c9bffc18dbf37ae64c71d935a2923c3a ASoC: intel: sof_sdw: Printk's should end with a newline
@@ -66,5 +47,7 @@ f82742dd479dfec7dc6a30a84f165a258c51ce09 ASoC: intel: sof_sdw: Support multiple 
 7f5cf19703ccb05ac4965d1cfc1422e38bec93aa ASoC: intel: sof_sdw: Simplify get_slave_info
 87b56172431bc2e8c497d2f10ee8245313167bd9 ASoC: codecs: aw88261: avoid uninitialized variable warning
 a932f45a1832d18fb64704636a958ef993a1d1da ASoC: pxa: address unused variable warning
+2ac1e7bad953a37b5916ce876a37c2830b8e9196 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+010bbfffa6635c3ac2d222cde819352fd0cce078 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
---===============1689618234594481117==--
+--===============5222395869365136756==--
