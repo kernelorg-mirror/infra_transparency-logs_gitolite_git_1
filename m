@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Tue, 08 Aug 2023 16:29:36 -0000
-Message-Id: <169151217664.30778.17696915474543913318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 08 Aug 2023 16:50:03 -0000
+Message-Id: <169151340347.14585.16799585533823842298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/v4.14-rt-next
-    old: 0d82957555e16227ac389ca68cfb44d55ba64b00
-    new: b952bc3879a6f2dd8faa424354477d958c1f4545
+  - ref: refs/heads/io_uring-waitid
+    old: bfc2c45a7f1aa0a9021994946a56ab892aa6099b
+    new: 4990a73a609a565ffe49a110a7583c0d2fff68f6
     log: |
-         b0e6196114833f4b07008e8f0e8b223e7514c058 Linux 4.14.320-rt151
-         b36bb894ff64f836f98a1f3ebebcc1c6c1bf25c6 rt: timers: use CONFIG_PREEMPT_RT_FULL instead of CONFIG_PREEMPT_RT
-         722e28b40a3a61ff1a5c15257a85c4ab1708e73a rt: PREEMPT_RT safety net for backported patches
-         b952bc3879a6f2dd8faa424354477d958c1f4545 Linux 4.14.320-rt152-rc1
+         b5229d372db9f02a75ee56eebc54ac1644f386c8 exit: abstract out should_wake helper for child_wait_callback()
+         f394498a869ecc3c27db135f5dbeb524e478d986 exit: move core of do_wait() into helper
+         7da06f6d331b3e41faa06b765cc31e8484291913 exit: add kernel_waitid_prepare() helper
+         36d854d13e49732c08eac22872d80f777444d1cb exit: add internal include file with helpers
+         4990a73a609a565ffe49a110a7583c0d2fff68f6 io_uring: add IORING_OP_WAITID support
          
-  - ref: refs/tags/v4.14.320-rt152-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 035c2c2236498e36a33ebdce38034dde5fd75ca7
