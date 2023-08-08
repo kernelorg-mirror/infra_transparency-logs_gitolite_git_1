@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2887144213174639570=="
+Content-Type: multipart/mixed; boundary="===============4553992496555288992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Aug 2023 02:43:35 -0000
-Message-Id: <169146261578.22712.9026966989640091126@gitolite.kernel.org>
+Date: Tue, 08 Aug 2023 02:43:48 -0000
+Message-Id: <169146262842.22867.4772062662883357375@gitolite.kernel.org>
 
---===============2887144213174639570==
+--===============4553992496555288992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: df8d25f133324bc519513d8e68d251f81e313d03
-    new: b69ddc8731b3994505ebe80aaecda613f5d9b710
-    log: revlist-df8d25f13332-b69ddc8731b3.txt
+  - ref: refs/heads/6.6/scsi-staging
+    old: 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa
+    new: a18e81d17a7e634420e589fa504e79e4893cde5e
+    log: revlist-6cae9a3910ac-a18e81d17a7e.txt
 
---===============2887144213174639570==
+--===============4553992496555288992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1691462605 -0400
+pusher 75C5DE3D 1691462618 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1691462605-6c6af855b747e634bb3610e292896a39847b4150
+nonce 1691462618-074f07fb6db99b0bf1226da7d84bf23391230c01
 
-df8d25f133324bc519513d8e68d251f81e313d03 b69ddc8731b3994505ebe80aaecda613f5d9b710 refs/tags/mkp-scsi-staging
+6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa a18e81d17a7e634420e589fa504e79e4893cde5e refs/heads/6.6/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTRq80ACgkQ7ulgGnXF
-3j0pug//QSrM89hvgsEuh0NK27CszxkSkiZTqTLbGStFdYhoaEH/BG8UrUcg+NRu
-k+1R7wmOQQcQQBWEY4hD1fCwmLnlmfR2k3bkLQ/WiyQ/SKUvu+svKRQco3UrO3ou
-3Fp8pSadeyj9qYPzJ8lfn4QP143uHfNb4FJ/7qxIAt6I85DJjdwX5p0A2mggFI+H
-2ojKe7C+q/UTvKjsa8r2E3Ja4ef7kJ93yXUD6pufQ9YYKs3V+pGmzQeRw2a4FD1h
-UgBREm9Xln/dYgulsIxJTQAvHE4A6VO3KlWc8eduR70+Yez4UcsES7YDwRBPZjeA
-tLp7p27FQUhVnh6IViBxHYsoxSQ3vLLUHgDB6K28CPxdNH5tTtUQfmrlC3ldfINi
-naMyLT0jRrGbZsPuU/+xgTZaxB6Syq8Q+XrAbE4amyMZtmbZzKobuTQ7rifYNGi3
-sEY39CsZRtk9b5hWiJ0NkwaWFbJ0omOu2YNRGjK5ZvmV66xsrpVCOIV3IqmLfvxw
-J6z3/F6MYBKj5cfpURK3Ndg2e/Z2Qt5/mgVBk7hRpS3TGySKfQ48uw0gwC78lbs6
-1jOe11e4eTh6jHJ8UdQaq9mpOjHZlTR5AXQoWTR4dPcEl2+L/lX7eXPP3fcS7q5/
-q1iLGcaNVuTCCMSmdQgIsaZBCa/Dkl8HdP5O+bsPzRtwbPiZbqg=
-=9esQ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTRq9oACgkQ7ulgGnXF
+3j3CMBAApAbbhMC4mdVHbZgMfvYQnChyRm/LW/rRQCGTkXue9+GoOhNDvvyYcqMU
+nCgqhs20hsC/wJKvOBZ6p7/uO5Rj0kEQZc72hbTBXOy5sBXUYMl5P+B7b0TYI+pn
+rGEce069US6zN8UYKJh9A0qC9ijbpK1U3YC3H2heWLc/oMIUqhVvVMQ8WXDESftC
+xR2p43z0nsVo+2gVuXQk+YuoSzqlhCqfNvSQJOYRofyjnmuIqb1hW2SDeehLoAcK
+xyp0HNfmjPGFC8AVuMkBs+yPm6uYUZZL3bH0sdHVAFNDG4NO+rNWo2uKVikg6IDZ
+XUADci7kWGwZX1iBQfC7tj1HVfMLhaZ/RjvjRJJlhL5PeTOxhPKy2CmCgu7jbncl
+pF0jX0YBTktkMH0kjkbQNuAiMuyiw1Yfm/g8xuswF5bMz2OGYFiPUGO/dQS2YfN0
+CdHklk0c/fgkB6iVcBcPDEva2JJIF6aQO474hJ3E8uqMRgsDivZAqVZM7X5oIpCH
+f7bXGrkHBP2zxe9HIE3USIL1lJoCCQhGMUVCMJUHvINKKzSjivozsvS0Pp2DN9r3
+2xQcBtaWnA0IA3shOR6CLyXay5j1wFBYbdjxgVrKEbD4BYv9DlrI36wEfacHXqAj
+HDnZ6CJU3TI3yWzYXm4BmFeBBwMvn9AS9grkbcbyG7hxllw4nEQ=
+=z7su
 -----END PGP SIGNATURE-----
 
---===============2887144213174639570==
+--===============4553992496555288992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df8d25f13332-b69ddc8731b3.txt
+Content-Disposition: attachment; filename=revlist-6cae9a3910ac-a18e81d17a7e.txt
 
 548fdf771b8e85e6f14fcebcf3443ea475444445 scsi: ufs: core: Export ufshcd_is_hba_active()
 21f04fb4e8ca4a6a88c76b1ddf9ea94e6c118005 scsi: ufs: ufs-qcom: Check host controller state
@@ -70,4 +70,4 @@ d9a5ab0ea98fdee77fcbfec27bb3976de9615377 scsi: mpi3mr: Enhance handling of devic
 9640d57d15611ab02be33e0db1639bcf3e2222c8 Merge patch series "mpi3mr: Few Enhancements and minor fixes"
 a18e81d17a7e634420e589fa504e79e4893cde5e scsi: ufs: ufs-pci: Add support for QEMU
 
---===============2887144213174639570==--
+--===============4553992496555288992==--
