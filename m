@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1558666692804928298=="
+Content-Type: multipart/mixed; boundary="===============8222735116139096887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 08 Aug 2023 17:37:25 -0000
-Message-Id: <169151624541.19075.17551151108402932679@gitolite.kernel.org>
+Message-Id: <169151624578.19104.16986703958647289914@gitolite.kernel.org>
 
---===============1558666692804928298==
+--===============8222735116139096887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 565bca90c30ecf86c2b3a78473840668ac6621f6
-    new: ed83f3b664e09f67dbdb1017e6e0ade8f7d5e77e
-    log: revlist-565bca90c30e-ed83f3b664e0.txt
+  - ref: refs/heads/linux-6.4.y
+    old: 23651c52ff50738cedc3b56bdfbe4678101c6db8
+    new: 6d17a970cb774f4bada014dcccc41b51ecd4cebf
+    log: revlist-23651c52ff50-6d17a970cb77.txt
 
---===============1558666692804928298==
+--===============8222735116139096887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,71 +32,66 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691516243 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1691516243-8932a28a79649694e861bb3b90bd341b7b5ffb30
 
-565bca90c30ecf86c2b3a78473840668ac6621f6 ed83f3b664e09f67dbdb1017e6e0ade8f7d5e77e refs/heads/linux-6.1.y
+23651c52ff50738cedc3b56bdfbe4678101c6db8 6d17a970cb774f4bada014dcccc41b51ecd4cebf refs/heads/linux-6.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTSfVMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aPQP/3SGI8n28RZ7NdToghAA
-eVXKFOqUqeQp26O8/i/prTEqsaTBSVygKN0JLVvDPunuCxX7seao9V4C/tK/wgkr
-h7FV1E0/cVraTjlthi7rEVuknpKYV+J/hEUIqdAitgx3a6o5yXzdrMhyhRonUPok
-Lv0IsNTV8liT9fN3rolXjvjpkMRXC4ssrBHTEQCgF+Ke5qsdQyqc14CuWkoo9hyf
-iC6My4VBIu1UE23u6cHvS2mT/ucv9zkIVwIIOfbs2gMS2XJphP0cE6aXtjDpq3D9
-ppEIBaB296eZdNuLtq9kgDh0fO2gsVR4+4+V5DuRVrv17wZNqlePTzxW6HcopwXZ
-Clg7RaUyMUvVcPAxL+rBKgJVa2v913Mh2L8hNcD+AkYAQKe1Rx3f9ZmRDxCavU1l
-mkaHRIJP7pTg7MwGs1qOk9VhQrlxkVEJ3kk5XVbBJqgucCQb/zDQwAQ12IJe3Zll
-NIOgmgOemv84ymkKT06i3a8neWp2EO8B9Mga/FEwqcoKlrBNvhl80Nq4x9FNDXQp
-vw3Mmm5arPJJJf22jE3zZZdOiXrpnRSDROncbbbAhu4zWj2vgOGctrrf2MXSvrgF
-vNjXNPp908lDU7+u6B0ndOBz1HpJjIb0ojRFoTsI5KX+jz8jMzKhrSGhO7eQsRgm
-3Sxuwoo1LDnfBNR3dJT5+4rH
-=iy4x
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+78AP/0fd65glR154yPNOREch
+TSC4bGmagfPoXSWj6cGpcGzqEfGaRHV1XgBHo2xlGjOeYw6mzfv0+IvYS0h4nVHT
+McGu5oLYzuU/HAd6q8o6VH9ZHeZ2TkKaFShXTcXRrPBfDCFmnwR5+j7h+jtZARkK
+Pw5IfTAhitKsxSaFCFqm3BRIxrVoh+242ckqhwx/loW2+ogXwu/TBopCrYnxy30W
+4AOdRiBkGes/6JI4NSnsl8nYsd7QYHpZ79+Q05daegQ3Z0PFE6rd9MYv9qj0P0rH
+5A2HnVi6PDUN3ehDpjGnKdQZVwqGwwdLZhmEWH30BLAnd0q5sKJFJcuwjKP/5LZr
+cp6nvCBott4yh3KC5cw/DM10eLYTA39U++jcKzevKoHpIiKepwpzgKUKJqZKc2tX
+QwywEWKud23l5whOa1fukzruo5ftp1gPgTbB5vXvPtR7E9lkxtVgu90Legc8/3pZ
+2fpM3aWZteFOxzRVL0PSFdn6sWsPqtE7jR8Dv+r/yb8jJziuFw6Ze9RMllPP4kP3
+SgByjQFTpenptoQVPXzfycxSpW+knN8YZ0isNjOnZFI03x99vxhFX6hrZBFKs7pb
+8EvwcPr3A6CDPfi+qcEPOB+Ufn5RW5eGohNBzpBojnsroyBzEfsAHIQu3WPQguPR
+F5MuGB8KwoCh95ZT9XJ4M43x
+=u0+M
 -----END PGP SIGNATURE-----
 
---===============1558666692804928298==
+--===============8222735116139096887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-565bca90c30e-ed83f3b664e0.txt
+Content-Disposition: attachment; filename=revlist-23651c52ff50-6d17a970cb77.txt
 
-39da1c326f316c705d76b4f49c3fddb39a2a667b init: Provide arch_cpu_finalize_init()
-fc211e5604e6038c1b5c3874189da81d5342517e x86/cpu: Switch to arch_cpu_finalize_init()
-8353918bc23ac28c75bc5f86ab2c0b823c81857f ARM: cpu: Switch to arch_cpu_finalize_init()
-4fc7a6d9c16472469a207d7b0b036f0ac75f1b47 ia64/cpu: Switch to arch_cpu_finalize_init()
-80d828eb0fdfacf020fa349851b63256dd609545 loongarch/cpu: Switch to arch_cpu_finalize_init()
-503d3e6832eb6e53a5e49720b2e11338702b2ce7 m68k/cpu: Switch to arch_cpu_finalize_init()
-41c56b49d7bba6ad72268f623b7c33176773a2a2 mips/cpu: Switch to arch_cpu_finalize_init()
-8ccc0a6e4974c24076459ee8ef051676996b888b sh/cpu: Switch to arch_cpu_finalize_init()
-bb0141e053c3562d2295e574e4d569a11f89944d sparc/cpu: Switch to arch_cpu_finalize_init()
-e3b15ae4e624dc28edc0cc61a18c871fb9d1e852 um/cpu: Switch to arch_cpu_finalize_init()
-abef63059312403f781c685c36e303987404ebad init: Remove check_bugs() leftovers
-1f8eac6f780cc429c8a6b37655a799721ba0a5c5 init: Invoke arch_cpu_finalize_init() earlier
-999dd5849b26b07c08464c125424f9862555f0ce init, x86: Move mem_encrypt_init() into arch_cpu_finalize_init()
-ae6ad4d04eb31ad6908f0a9227775d6094603e5e x86/init: Initialize signal frame size late
-943faf1e7bf8aac523df8503f24cabd523425eea x86/fpu: Remove cpuinfo argument from init functions
-034e977e9f368ac2c170b7b8958e5032d9b83030 x86/fpu: Mark init functions __init
-61ba3a6f0997b4558fb2b32d11e27c4c5534f03b x86/fpu: Move FPU initialization into arch_cpu_finalize_init()
-60f011bfd5dacd6b03bfcd74a2b7d42aef914bb1 x86/speculation: Add Gather Data Sampling mitigation
-12c44d9d1950290ebf2710809de374bbbb58767b x86/speculation: Add force option to GDS mitigation
-076f5cc6de48aef76f128b6de9dd9715cdb8483c x86/speculation: Add Kconfig option for GDS
-35269f96193479e54ca64bd2c54d7b02553e59c0 KVM: Add GDS_NO support to KVM
-9eb1c7f23a350b08a7335ca8752c3d5156bbec3c x86/mem_encrypt: Unbreak the AMD_MEM_ENCRYPT=n build
-5d47649442744b1f5b959dc8390ec013a865bace x86/xen: Fix secondary processors' FPU initialization
-be2fbf89fdf9338114cd814998b884f06c7b8f03 x86/mm: fix poking_init() for Xen PV guests
-496e77940b6576c604c29178db1f9946decd9813 x86/mm: Use mm_alloc() in poking_init()
-3d3477df3087f17dd61c899adccf2084910d0083 mm: Move mm_cachep initialization to mm_init()
-bb5b27c54190ac7fda8ea7fe783b07b1c95b69c4 x86/mm: Initialize text poking earlier
-2c235ff4cf2543b3df36726d15c0675b4aaf288f Documentation/x86: Fix backwards on/off logic about YMM support
-8ff9c21753d7c80ada9323d9210b5784f6dd1d29 x86/bugs: Increase the x86 bugs vector size to two u32s
-dc7d699a11f63d716df332bf9ed620f7d7df4ede x86/cpu, kvm: Add support for CPUID_80000021_EAX
-acbfcd16653c93cafe3ddac38c96d92da94cfb98 x86/srso: Add a Speculative RAS Overflow mitigation
-f5684a98f5745e118f174edb7f5dbeb516ac0f44 x86/srso: Add IBPB_BRTYPE support
-9707ca0183a875225a3e7dbe5433e4d7144b3b23 x86/srso: Add SRSO_NO support
-6a082b7eedf05730258366570e7e2e2e9e6d1be6 x86/srso: Add IBPB
-69131d7a99346c43971e4318268cf66e28b88374 x86/srso: Add IBPB on VMEXIT
-9e2c4f75ec7c9488a9534eba1dbadf6887d7cbce x86/srso: Fix return thunks in generated code
-7c09e2d0d621360bc116f93550406ff4c201d427 x86/srso: Add a forgotten NOENDBR annotation
-04007bed94f5b9d5ee2308e5b632a6a9440aad13 x86/srso: Tie SBPB bit setting to microcode patch detection
-e3b0e1b2b757e15863e39eb6ff4a8cd999475288 xen/netback: Fix buffer overrun triggered by unusual packet
-90ad2c7120bb3fddcacdb1db24c3bce9e678414c x86: fix backwards merge of GDS/SRSO bit
-ed83f3b664e09f67dbdb1017e6e0ade8f7d5e77e Linux 6.1.44-rc1
+f1465f294a2b35293e1664a027c4efd8efe0ca38 init: Provide arch_cpu_finalize_init()
+67c82485c77454ba0c6c39f8b7e66a369f455192 x86/cpu: Switch to arch_cpu_finalize_init()
+61a23c2fb6622e20ada3844e8748f196fdfd3bb3 ARM: cpu: Switch to arch_cpu_finalize_init()
+25dd16fcf1ee05078801e3b225089bafd729d2b4 ia64/cpu: Switch to arch_cpu_finalize_init()
+76709295d711fdbe0ae56fb3948cedcdf4cccc82 loongarch/cpu: Switch to arch_cpu_finalize_init()
+78051468f1ea8067207e6052947817163988253c m68k/cpu: Switch to arch_cpu_finalize_init()
+f489974ef9153883094d5bff46e8f45887cfa278 mips/cpu: Switch to arch_cpu_finalize_init()
+78054c48991e4e60de4ff98351559c9989910dfb sh/cpu: Switch to arch_cpu_finalize_init()
+38c84f1e158b19e4051e08c4e5e6b8e0fd47fd9c sparc/cpu: Switch to arch_cpu_finalize_init()
+d334b72c97070f7475b3ed21c735c604783d44ce um/cpu: Switch to arch_cpu_finalize_init()
+9dacb6fed2ff9403caaee1609187be3e796c2a91 init: Remove check_bugs() leftovers
+be524a6219b95d052c158dc4e4219173ec1486e1 init: Invoke arch_cpu_finalize_init() earlier
+c1252df9cf4172f51f9a7356176f57e995b1ebf4 init, x86: Move mem_encrypt_init() into arch_cpu_finalize_init()
+2356ac82fcb5890b6f0c0c392d5522e40fed507e x86/init: Initialize signal frame size late
+447a0383c29c11fc09a9d9c66136b4a2a6c14f61 x86/fpu: Remove cpuinfo argument from init functions
+902e07a33ed6fa5aa109e151d99665d76313a37c x86/fpu: Mark init functions __init
+d0c853184df06a953bee23010d931b9a10bab1a0 x86/fpu: Move FPU initialization into arch_cpu_finalize_init()
+50dee8cc75ec6a857334d31ddd2e03e8df530449 x86/speculation: Add Gather Data Sampling mitigation
+82c1ad0402424527b278761568f0ad91e584a4d1 x86/speculation: Add force option to GDS mitigation
+c56563be16b0abe8140b1bf247c413d654602a29 x86/speculation: Add Kconfig option for GDS
+e9928afdfa50500f5763df6e551b2922f0f89dcb KVM: Add GDS_NO support to KVM
+db6deea6ffe204a8fd3cf71e2d87915db4a391e8 x86/mem_encrypt: Unbreak the AMD_MEM_ENCRYPT=n build
+0f3692f386d44d7ad70acebe02112ed250f6f9cc x86/xen: Fix secondary processors' FPU initialization
+b5a3d6b538c8956e86c306f5a6f020a52a1e0868 Documentation/x86: Fix backwards on/off logic about YMM support
+f628e64cc6cb964844726c7b7d9e88b057596712 x86/bugs: Increase the x86 bugs vector size to two u32s
+854976cc715dfbf609c30ea47ee0adfc2b6b4d20 x86/srso: Add a Speculative RAS Overflow mitigation
+cd6740a9adaef1d0923c9afdee43f93b15debc00 x86/srso: Add IBPB_BRTYPE support
+351f3931091ecb9a8b3f5e0edf48f87b46212c8e x86/srso: Add SRSO_NO support
+157fed44775f1fc27bda8b4f7a03f5d99b09a9ee x86/srso: Add IBPB
+b7337769b998f11d053efca8a956ca7811a51146 x86/srso: Add IBPB on VMEXIT
+9c356045339a90aef5f4b3daed7c66e9f99bda92 x86/srso: Fix return thunks in generated code
+4f0d838057f1ba000dfa2423de0373a8470fba14 x86/srso: Add a forgotten NOENDBR annotation
+1ae09243a297f76dc8694b8a14c04c0bab76d20e x86/srso: Tie SBPB bit setting to microcode patch detection
+403bc857a004f818d2ca53e0919134cc4f7c6715 xen/netback: Fix buffer overrun triggered by unusual packet
+85a49939530ac233288e4e2b3cdb71ae005eb3bc x86: fix backwards merge of GDS/SRSO bit
+6d17a970cb774f4bada014dcccc41b51ecd4cebf Linux 6.4.9-rc1
 
---===============1558666692804928298==--
+--===============8222735116139096887==--
