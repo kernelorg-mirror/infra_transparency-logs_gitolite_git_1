@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1143152746604995977=="
+Content-Type: multipart/mixed; boundary="===============8725602147788177360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 08 Aug 2023 20:31:58 -0000
-Message-Id: <169152671855.28692.17985742177161540106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Aug 2023 20:32:07 -0000
+Message-Id: <169152672711.28802.17483668029941888154@gitolite.kernel.org>
 
---===============1143152746604995977==
+--===============8725602147788177360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
+  - ref: refs/heads/for-6.6
     old: 94c40dbbffa11bec54b5ca74df1c5bb0f52995b9
     new: a932f45a1832d18fb64704636a958ef993a1d1da
     log: revlist-94c40dbbffa1-a932f45a1832.txt
 
---===============1143152746604995977==
+--===============8725602147788177360==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1691526725 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1691526724-d14ae408d148578ab8efc26a5ad00e0019d48eef
+
+94c40dbbffa11bec54b5ca74df1c5bb0f52995b9 a932f45a1832d18fb64704636a958ef993a1d1da refs/heads/for-6.6
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTSpkUACgkQJNaLcl1U
+h9Cqbgf/UiGLdHRQ6WcHJHWbrYiy3N6pT0gQCmhJzqwldVwhwFWTbBk5/boVECFM
+A27O/5uaUsDUQNhPsOuZxQmBjQp4Ehd7oV10CCb/bGhfBFISSEFk8KsmBIV3Ok3r
+IeIHJUobk/5OmVW13hQO857onwIr51dmcs6MUIn1bWRmCpBPWENdNk4TOUo5YIXH
+v/kCWMg6iPA0l5jxiBk5Lc8cLbDKjY8zZF1aZNEFKWogH9QCbVKIqTIA/75lGOoP
+5Tmcznnq8RPHJpv/g273RQBga5iLxHi7Kx9/zn3tnFXydqZmGRX8m8+AS5FuEi33
+MWXYqaTtTsdtSdFxYarAeLviqxJYjA==
+=rJnO
+-----END PGP SIGNATURE-----
+
+--===============8725602147788177360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +67,4 @@ f82742dd479dfec7dc6a30a84f165a258c51ce09 ASoC: intel: sof_sdw: Support multiple 
 87b56172431bc2e8c497d2f10ee8245313167bd9 ASoC: codecs: aw88261: avoid uninitialized variable warning
 a932f45a1832d18fb64704636a958ef993a1d1da ASoC: pxa: address unused variable warning
 
---===============1143152746604995977==--
+--===============8725602147788177360==--
