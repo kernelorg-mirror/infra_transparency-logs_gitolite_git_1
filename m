@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0346387535176956000=="
+Content-Type: multipart/mixed; boundary="===============3753470607280751628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Aug 2023 02:43:13 -0000
-Message-Id: <169146259311.22376.13793461911328252537@gitolite.kernel.org>
+Date: Tue, 08 Aug 2023 02:43:17 -0000
+Message-Id: <169146259750.22451.5537149241624752534@gitolite.kernel.org>
 
---===============0346387535176956000==
+--===============3753470607280751628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0ffbbf061a7b7a0516efefd84bc1dc95fe33c25e
-    new: fe999034f6379a9baa9928031f1f6aaaaf713a23
-    log: revlist-0ffbbf061a7b-fe999034f637.txt
+  - ref: refs/heads/6.6/scsi-queue
+    old: a615e93d6cfe70f9fab2cb02c7b11fe9de1c56b5
+    new: 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa
+    log: revlist-a615e93d6cfe-6cae9a3910ac.txt
 
---===============0346387535176956000==
+--===============3753470607280751628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1691462583 -0400
+pusher 75C5DE3D 1691462596 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1691462583-e035096446f4b15f067ce0da7bfc5b588e250ce1
+nonce 1691462595-c24c4af4e33bc9448cdfe5b5d03c620fa94a8142
 
-0ffbbf061a7b7a0516efefd84bc1dc95fe33c25e fe999034f6379a9baa9928031f1f6aaaaf713a23 refs/tags/mkp-scsi-queue
+a615e93d6cfe70f9fab2cb02c7b11fe9de1c56b5 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa refs/heads/6.6/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTRq7cACgkQ7ulgGnXF
-3j1Euw//SF2NPVrgnd5OVuOE9++knq5P6HCydMOBzw/tgRIupk5epVkNA1RHA3fB
-tY2yLFaPnfuxJMXBKaZvm1SksGXyreutW5AmR+Wh7KI8gJIc8sO48w114WUtTRq/
-6xV1cpCgH8d1dOxPopB0VDYJ7sCiUJwUfi/GAphXl0XzTBH9/1K7liE4aAJK5h4g
-cQSvaWl1xGhp0Q7sebQfT0MtPICE5755QCGwwrd/6Up+cxwJdpB73Ts5QIWbgTe6
-Q5ddVW/JDbJTrKsrjNYk53YJNP4AXeQyp+PosAOu34wJ6Y1bnvOckIt3DxQYxDSO
-4IRBk5VWxBK3H1TXLI8bpPcL1rDlYkM+46eMH5qZW/tJT9zM8eoNckOclXh+8NzF
-vN0ST79GUncwixcX5/4/nRJ9RcuK3SEqphysjWWxtWL77nrzFVoBn1hro2DztwaJ
-l8PWXu4I1zKFb1VcnUFSQ2MR9osXT8FNmC06CjxSDf4kTrXySbQndv8tB1iFWtWd
-JFldND/ZUL3O5FMYfPUxCy2OOQBXKyI++zzosypMrI38d12QkN1CSHQWDYZp2+6G
-7l99FBuRQZoKYy2LvDNdpMOZ0POvmtE0q2oHq+pvHmOlYwV/2HS54nbBgZLOUzrO
-jSx5/Vfbe7t1NuCskmKeJGLtUr68iCGaHgjNR2XehXB4TEpNsmc=
-=jr+Y
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTRq8QACgkQ7ulgGnXF
+3j2Enw//Qy82XGP5+aFsipsd1foqrTNeQpWNXwUgPUkD6tYpz6BvUcVZHVmjnAeD
+Ovj0hZV7x18GNZgmxG94KvHFFiB2CVQVidzUCZwymrnSHZy2ldh419NJd2CTn9jC
+dl878MeEnUHjNddfQfT5kX4SqdW8aV9/g+kW3AZPtEB5rldW2Rag3vnbhGQC1PNV
+SaXw9T2iGEvLY/upEse+YzqBadb2tF3JNipaQjW0KkFyJ0Lm9MVK7m3KXr1ifF4V
+qdwZhXDpkIRvsRYzTY0QxjJ9d+2fDBQmICdTzhYmtvCuYgaytidwz59vnodJP5bw
+f2vfPgQbfFRTWWQ/4bWs1wV64uYIAG8lboBZ4tEBmY77qMw9bImZamC7IcH3gHvp
+E5D6VkXJb5B8o7JsmtTlrmVfkfbpZAHQ9pJSLn/6vKH+wmMfBesLhTIDh8oPind3
+TXcK0nk/VTAoEy1zFua9F4Qao/rcjsr53GGBjGx5QsHku6yDX/zXdiHpSHPZMv19
+XWzf4Xb+ndLh3YDYFQYJX4AtL+Hm3rO8MW5caijFqLlAoXCpkAh7g2bQE+DsAAyC
+Eevws73rOaF2t7m0kVwLl+3BF0wz1dT3Rw7L8CpFddbbpBZTXbq9fdEHnHyDb6Wi
+hkQ5ydJOUdx2ZfEIQqYMza6CYQzXd+j+8xbnGQ5pu+DbZQSLFqw=
+=GuX3
 -----END PGP SIGNATURE-----
 
---===============0346387535176956000==
+--===============3753470607280751628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ffbbf061a7b-fe999034f637.txt
+Content-Disposition: attachment; filename=revlist-a615e93d6cfe-6cae9a3910ac.txt
 
 ec6c7c9f5fc4e260725cb45061b54956d85f4c86 scsi: aic7xxx: Fix firmware build fatal error
 801f287c93ff95582b0a2d2163f12870a2f076d4 scsi: target: iscsi: Fix buffer overflow in lio_target_nacl_info_show()
@@ -80,4 +80,4 @@ e2566e0b7937f0a0b84f8b662fceebac6a1386c7 scsi: ufs: Remove a member variable
 617bfaa8dd50d6a3ffc8694b4696bf2aa196bd44 scsi: ufs: Simplify response header parsing
 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa Merge patch series "Multiple cleanup patches for the UFS driver"
 
---===============0346387535176956000==--
+--===============3753470607280751628==--
