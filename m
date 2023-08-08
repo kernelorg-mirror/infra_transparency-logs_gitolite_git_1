@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 08 Aug 2023 08:29:37 -0000
-Message-Id: <169148337712.16003.4707614201596271019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 08 Aug 2023 08:32:23 -0000
+Message-Id: <169148354359.18733.6917112154838275507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/testing
-    old: 013574567a60c427c36dbc2a5ff25fec69f9c4b6
-    new: 14b7447cec15ee8dfdfe0da66ba1e280ded7e00a
+  - ref: refs/heads/x86-efi-runtime-cleanup
+    old: 99fb94a33b68fb6a3a33825309a5c6190ae904b2
+    new: 6b61c706d235dade563cb751adeb1061cdf5919c
     log: |
-         ce2a8c1600668466f658231834251c4307ce559e dt-bindings: iio: ROHM BU27010 RGBC + flickering sensor
-         ccca97fb3c157136396108feda586b862f68c83d iio: light: bu27008: add chip info
-         fdb48f9d1a6ae5d17719ed8bfe836dfd473996d2 iio: light: bd27008: Support BD27010 RGB
-         1ed8775496c2f9a7153abbdca0818640eb4ebdc3 drivers: iio: filter: admv8818: add bypass mode
-         14b7447cec15ee8dfdfe0da66ba1e280ded7e00a Documentation: ABI: testing: admv8818: add bypass
+         4a3b83511413e5300f72b2d12330ce9b6fa67830 efi/x86: Move EFI runtime call setup/teardown helpers out of line
+         4280d6fdf2689ab495c29b836fa211d9d455ae91 efi/arm64: Move EFI runtime call setup/teardown helpers out of line
+         405ef3ba8195c6460bd30cdb7ec98e2bd00582f4 efi/riscv: Move EFI runtime call setup/teardown helpers out of line
+         dcf1b67da7c54b35edddf418796e7c12cbaba7d0 efi/runtime-wrappers: Use type safe encapsulation of call arguments
+         775933c77607229b2272de87036190c310cabdd4 efi/runtime-wrapper: Move workqueue manipulation out of line
+         2122c637886096a252e5a838216f0dcd7af1fd92 efi/runtime-wrappers: Remove duplicated macro for service returning void
+         58535543309cb9cc48d43f556ccf70d8b138ec3e acpi/prmt: Use EFI runtime sandbox to invoke PRM handlers
+         62a210ad9ce48e9ba6e469824991a3eb2f82ab62 efi/x86: Realign EFI runtime stack
+         6b61c706d235dade563cb751adeb1061cdf5919c efi/x86: Rely on compiler to emit MS ABI calls
          
