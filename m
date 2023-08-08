@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 08 Aug 2023 11:08:48 -0000
-Message-Id: <169149292857.21786.5183040746683589609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 08 Aug 2023 11:21:23 -0000
+Message-Id: <169149368331.31452.3377424388788115472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/fileMcUQ69
-    old: 200ee464f7a9a4e8d7a51a2083b28cf240e7cb91
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/dwc
+    old: 0000000000000000000000000000000000000000
+    new: fc8b24c28bec19fc0621d108b9ee81ddfdedb25a
