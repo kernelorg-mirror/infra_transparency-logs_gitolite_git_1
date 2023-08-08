@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 08 Aug 2023 23:39:39 -0000
-Message-Id: <169153797943.5206.10804480497406554987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 08 Aug 2023 23:44:15 -0000
+Message-Id: <169153825511.8508.1439475220830080679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/main
-    old: b9077ef4c1368b5a51852facc53c24fcd234e910
-    new: 0fb1d8eb234b6979d4981d2d385780dd7d8d9771
+  - ref: refs/heads/master
+    old: 260f374b5e2f74f38a242a923cd4ccab5b3b89af
+    new: 2f861cfe40d50aa18d3ae95d26bc8d846a648b1e
     log: |
-         06b412589eef780b792e73df131d35dc43cc4a49 igc: Add lock to safeguard global Qbv variables
-         0fb1d8eb234b6979d4981d2d385780dd7d8d9771 iavf: fix potential races for FDIR filters
+         2f861cfe40d50aa18d3ae95d26bc8d846a648b1e Tue Aug  8 11:43:07 PM UTC 2023
          
