@@ -1,62 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7609776051139078125=="
+Content-Type: multipart/mixed; boundary="===============4954536419121399048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 08 Aug 2023 11:26:12 -0000
-Message-Id: <169149397290.2991.13167683617890492089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 08 Aug 2023 11:34:11 -0000
+Message-Id: <169149445160.7652.6675309289031273433@gitolite.kernel.org>
 
---===============7609776051139078125==
+--===============4954536419121399048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: a4b47f608a6c8e6f36da6417e9ff9920289b5185
-    new: 7da4622a53eaaf9321b3cecfb60fc9b1ae8cc24e
-    log: revlist-a4b47f608a6c-7da4622a53ea.txt
+  - ref: refs/heads/kvm-arm64/nv-trap-forwarding
+    old: 0e1ee73631557d9555234b075e217d051a7a8421
+    new: 2be426bdc64007cfe833f7c5d7ed4659387012f0
+    log: revlist-0e1ee7363155-2be426bdc640.txt
 
---===============7609776051139078125==
+--===============4954536419121399048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4b47f608a6c-7da4622a53ea.txt
+Content-Disposition: attachment; filename=revlist-0e1ee7363155-2be426bdc640.txt
 
-ec6c7c9f5fc4e260725cb45061b54956d85f4c86 scsi: aic7xxx: Fix firmware build fatal error
-801f287c93ff95582b0a2d2163f12870a2f076d4 scsi: target: iscsi: Fix buffer overflow in lio_target_nacl_info_show()
-c0431feb0a75e24afe60a8090c9f93dd9e33fd81 scsi: target: iscsi: Stop using sprintf() in iscsi_target_configfs.c
-31799f9e6ac09e2e3ffb4091c236b28394ded713 Merge patch series "scsi: target: iscsi: Get rid of sprintf in iscsi_target_configfs.c"
-b7fc2caf20eadae28b182e446404b63ed8d8cf23 scsi: hisi_sas: Fix warning detected by sparse
-7d3d20dee4f648ec44e9717d5f647d594d184433 scsi: qedf: Do not touch __user pointer in qedf_dbg_stop_io_on_error_cmd_read() directly
-31b5991a9a91ba97237ac9da509d78eec453ff72 scsi: qedf: Do not touch __user pointer in qedf_dbg_debug_cmd_read() directly
-25dbc20deab5165f847b4eb42f376f725a986ee8 scsi: qedf: Do not touch __user pointer in qedf_dbg_fp_int_cmd_read() directly
-e0d01da2cb0f1274a4efe9489d4200acd55e3e20 scsi: ufs: core: Add enums for UFS lanes
-03ce80a1bb869f735de793f04c9c085b61884599 scsi: ufs: qcom: Add support for scaling interconnects
-3a17fefe0f1960d3f120de986129682f36bc89db scsi: ufs: Follow the kernel-doc syntax for documenting return values
-fd4bffb54dc0f6d179c0c09c06de9f6071792a85 scsi: ufs: Document all return values
-8d8af294ce03c9997fff36a20d0e697c6a73c41b scsi: ufs: Fix kernel-doc headers
-f08191520614764789aec42161b297c327d3660a scsi: ufs: Rename a function argument
-cce9fd602ca0c5b0a310dbe457aa61d1beaa2d38 scsi: ufs: Minimize #include directives
-f99533bd7e3dc033093f339784bebe0247e1831c scsi: ufs: Simplify zero-initialization
-08108d31129a104b06628b3ac95af2af9f5e9e4c scsi: ufs: Improve type safety
-e8b0234f8458fc26a39d5d2b75f9637d9839e6b6 scsi: ufs: Remove a local variable from ufshcd_abort_all()
-f9c028e7415a5ba4c00c08b7951bca4239823597 scsi: ufs: Simplify ufshcd_abort_all()
-e2566e0b7937f0a0b84f8b662fceebac6a1386c7 scsi: ufs: Remove a member variable
-67a2a8973832cbeb23a5c04a1dda94da71490a0d scsi: ufs: Simplify transfer request header initialization
-617bfaa8dd50d6a3ffc8694b4696bf2aa196bd44 scsi: ufs: Simplify response header parsing
-6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa Merge patch series "Multiple cleanup patches for the UFS driver"
-04b5b5cb0136ce970333a9c6cec7e46adba1ea3a scsi: core: Fix possible memory leak if device_add() fails
-41320b18a0e0dfb236dba4edb9be12dba1878156 scsi: snic: Fix possible memory leak if device_add() fails
-b6d128f89a85771433a004e8656090ccbe1fb969 scsi: ufs: renesas: Fix private allocation
-8eebf0e84f0614cebc7347f7bbccba4056d77d42 scsi: lpfc: Remove reftag check in DIF paths
-dd64f80587190265ca8a0f4be6c64c2fda6d3ac2 scsi: qedi: Fix potential deadlock on &qedi_percpu->p_work_lock
-1516ee035df32115197cd93ae3619dba7b020986 scsi: qedi: Fix firmware halt over suspend and resume
-ef222f551e7c4e2008fc442ffc9edcd1a7fd8f63 scsi: qedf: Fix firmware halt over suspend and resume
-809ec03f57eb3fdfd8fa38dd0478f4956af12295 Merge branch 'misc' into for-next
-7da4622a53eaaf9321b3cecfb60fc9b1ae8cc24e Merge branch 'fixes' into for-next
+50a80b7457a0f8926e22082c3474538ab84ec940 arm64: Add missing VA CMO encodings
+f36cfc492185ab1eb7109f08c7b2e076f3f44d05 arm64: Add missing ERX*_EL1 encodings
+7c01a42179af73a0ac292c978c4c7b82a7cb8b30 arm64: Add missing DC ZVA/GVA/GZVA encodings
+f46260ea672db19730316f8c620efd3a486907ff arm64: Add TLBI operation encodings
+377332960ea572f7986311914859ade08569e91c arm64: Add AT operation encodings
+698e58e5476f8e9626ea4e912b406f16487ed1ad arm64: Add debug registers affected by HDFGxTR_EL2
+369ca56cfd3ec90261fc0eacc3022b2aca6c24b5 arm64: Add missing BRB/CFP/DVP/CPP instructions
+e0656f1fac0e75552d1995972af1acedd0279834 arm64: Add HDFGRTR_EL2 and HDFGWTR_EL2 layouts
+fc58bef8879856f104fb987e85b9c9451a38b7f9 arm64: Add feature detection for fine grained traps
+c654ef75728c73b52ceed46bcfd5500978d3eb96 KVM: arm64: Correctly handle ACCDATA_EL1 traps
+ea7c18fcbad304c46c5b64d1bbf964fd6b29153d KVM: arm64: Add missing HCR_EL2 trap bits
+6b27768705ebe1d067ee2d1a450553c0a09178ed KVM: arm64: nv: Add FGT registers
+22466ddeed1f2f8fdacbfbf4a2ae8b072d409818 KVM: arm64: Restructure FGT register switching
+ab3450d2b13db45626c764505527dcd77be4e5b3 KVM: arm64: nv: Add trap forwarding infrastructure
+9b4feb4d2471c80ec74e2f579e76171ddb938324 KVM: arm64: nv: Add trap forwarding for HCR_EL2
+98ff9b9f1afcab53fc82124ef332d0496794b891 KVM: arm64: nv: Expose FEAT_EVT to nested guests
+db73d3ca8dcb36bafd6fabaf711d32fe69c152f8 KVM: arm64: nv: Add trap forwarding for MDCR_EL2
+4088805dd3bd77dbde90b874b9bfbd1963c52194 KVM: arm64: nv: Add trap forwarding for CNTHCTL_EL2
+1d80eaf05d6b6c991a787f7ad0f9e1ad14df8182 KVM: arm64: nv: Add fine grained trap forwarding infrastructure
+39a2ffd16844b5e650122ce951cf0632518c8851 KVM: arm64: nv: Add trap forwarding for HFGxTR_EL2
+34b2280eb124375a6dd3227316f2a4ff54cfb977 KVM: arm64: nv: Add trap forwarding for HFGITR_EL2
+8e6130a91355aef5123355545479e8f5056a0e51 KVM: arm64: nv: Add trap forwarding for HDFGxTR_EL2
+390cef0168143fd148f1c6a88029f8b192746d8c KVM: arm64: nv: Add SVC trap forwarding
+90731069124474796f8846a2e701b9b879f521a6 KVM: arm64: nv: Add switching support for HFGxTR/HDFGxTR
+5fba45037c585e3818cc889fd69f898c35fc1408 KVM: arm64: nv: Expose FGT to nested guests
+6571cc12c097c210e6d597abd7c6f05c04f645d5 KVM: arm64: Move HCRX_EL2 switch to load/put on VHE systems
+2be426bdc64007cfe833f7c5d7ed4659387012f0 KVM: arm64: nv: Add support for HCRX_EL2
 
---===============7609776051139078125==--
+--===============4954536419121399048==--
