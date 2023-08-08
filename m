@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 08 Aug 2023 21:55:46 -0000
-Message-Id: <169153174683.26087.8826647929975423697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Aug 2023 21:58:29 -0000
+Message-Id: <169153190929.27130.935362916488337899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d14eea09edf427fa36bd446f4a3271f99164202f
-    new: fa40ea27ede397cb19b8cb264f136db9c43c6f7e
+    old: b98a5aa7e4c20d6e4d9062ee0f0156ff3ad300fa
+    new: 6ff0490cd8100c07d0329d475afccaa9656595b9
     log: |
-         2aa71b4b294ee2c3041d085404cea914be9b3225 net: marvell: prestera: fix handling IPv4 routes with nhid
-         fa40ea27ede397cb19b8cb264f136db9c43c6f7e MAINTAINERS: update Claudiu Beznea's email address
+         ac0955f0ccb0c2e710fd6a8c114a6fe8f3cf4dfd ixgbe: Remove unused function declarations
+         2359fd0b8b1f2441ac2c732fba6bb0228189acbc i40e: Remove unused function declarations
+         6ff0490cd8100c07d0329d475afccaa9656595b9 net: hns: Remove unused function declaration mac_adjust_link()
          
