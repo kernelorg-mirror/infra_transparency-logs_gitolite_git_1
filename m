@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Aug 2023 10:20:53 -0000
-Message-Id: <169157645373.8314.12418267195718534005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 09 Aug 2023 10:23:14 -0000
+Message-Id: <169157659474.9255.4346189638062448670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: d0378ae6d16cac86579c0350d275741fd898ba08
-    new: c992fde9f977da9beec584528f9026d21c27a053
+    old: ae1ae5eb14b062d4e90984a80cc0f38df2b675ad
+    new: b9b05381e5d76a5ad05aedf5357c585d4a1f78cd
     log: |
-         833bac7ec392bf75053c8a4fa4c36d4148dac77d net/smc: Fix setsockopt and sysctl to specify same buffer size again
-         30c3c4a4497c3765bf6b298f5072c8165aeaf7cc net/smc: Use correct buffer sizes when switching between TCP and SMC
-         c992fde9f977da9beec584528f9026d21c27a053 Merge branch 'smc-fixes'
+         b9b05381e5d76a5ad05aedf5357c585d4a1f78cd net: dsa: mt7530: improve and relax PHY driver dependency
          
