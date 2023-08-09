@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 09 Aug 2023 14:35:53 -0000
-Message-Id: <169159175352.3745.1594622713545399620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 09 Aug 2023 14:52:18 -0000
+Message-Id: <169159273859.15838.16638348860591718268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/fixes
-    old: c3bcc65d4d2e8292c435322cbc34c318d06b8b6c
-    new: d2402048bc8a206a56fde4bc41dd01336c7b5a21
+  - ref: refs/heads/next
+    old: 2b86e04bce141311c3a68940be2c8d5984274fca
+    new: 817199e006e514e6c39a17ed2e9fece1bd56b898
     log: |
-         6514f81e1bd55cbe419a5001a4ce910acc276211 riscv: Fix CPU feature detection with SMP disabled
-         4eb2eb1b4c0eb07793c240744843498564a67b83 riscv,mmio: Fix readX()-to-delay() ordering
-         d2402048bc8a206a56fde4bc41dd01336c7b5a21 riscv: mm: fix 2 instances of -Wmissing-variable-declarations
+         817199e006e514e6c39a17ed2e9fece1bd56b898 selinux: revert SECINITSID_INIT support
          
