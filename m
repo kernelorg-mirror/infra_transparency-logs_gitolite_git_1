@@ -1,80 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6210184108064441432=="
+Content-Type: multipart/mixed; boundary="===============2068066833900643323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 09 Aug 2023 01:10:03 -0000
-Message-Id: <169154340317.11822.7237946651005047772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 09 Aug 2023 01:32:59 -0000
+Message-Id: <169154477916.28531.10581472081856170890@gitolite.kernel.org>
 
---===============6210184108064441432==
+--===============2068066833900643323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9e8eedee0188932f44c72b687c57d3d2db724024
-    new: b1e667caad1509f11064e2f1c494ef01c0663cd4
-    log: revlist-9e8eedee0188-b1e667caad15.txt
+  - ref: refs/heads/next
+    old: d011aa6fead2d142f3588f62734e67c309e7d095
+    new: fd1ba4accffeede84a3a0c749bb6e1e407769a41
+    log: |
+         0ce02e2feca6b0a7b09c71cf890d116de4e09f36 credential/libsecret: store new attributes
+         7144dee3ec233674ba534797e41fa399708c8313 credential/libsecret: erase matching creds only
+         cb626f8e5cb76ce081ab0a02656611f05a54cfb5 credential/wincred: erase matching creds only
+         dc73a2c55a80059b9cba466b84d58db3c3ec0392 Merge branch 'mh/credential-libsecret-attrs' into next
+         fd1ba4accffeede84a3a0c749bb6e1e407769a41 Merge branch 'mh/credential-erase-improvements-more' into next
+         
+  - ref: refs/heads/seen
+    old: ab599cdaf9c73d0b3d9b8f1b3cee3af4ab6297b8
+    new: 6ebb0baa26ab1a8c8f558b9f91d5f181f39c08b4
+    log: revlist-ab599cdaf9c7-6ebb0baa26ab.txt
 
---===============6210184108064441432==
+--===============2068066833900643323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e8eedee0188-b1e667caad15.txt
+Content-Disposition: attachment; filename=revlist-ab599cdaf9c7-6ebb0baa26ab.txt
 
-6bd417fad9a41814d9cb5347a0107eec897da966 locks: allow support for write delegation
-cc1d4534864f80d1e940edc20f183394b7592cd7 NFSD: allow client to use write delegation stateid for READ
-cfa0a8c34ee3c826ebcd2b4f1a6eb319d6ec913a NFSD: handle GETATTR conflict with write delegation
-a80e1bc97fcac28b26ca192697582a072821c5ca NFSD: Report zero space limit for write delegations
-811647b15459ec3b04725840cedd67b452abf761 NFSD: Enable write delegation support
-f784d13f0387df7b7b9598a0bdc94a5fe3fe5d13 SUNRPC: Remove RPCSEC_GSS_KRB5_ENCTYPES_DES
-09a9e53217bb5f975c02ab619e631d205d1779cd SUNRPC: Remove Kunit tests for the DES3 encryption type
-864575cac93978693ffaf4808ec81826700bc209 SUNRPC: Remove DES and DES3 enctypes from the supported enctypes list
-abe10a5a678f348a3e9e408d61b936e959271e39 SUNRPC: Remove code behind CONFIG_RPCSEC_GSS_KRB5_SIMPLIFIED
-1d4bb78c232740b6ed4575eb56f32cbf6b323b8d SUNRPC: Remove krb5_derive_key_v1()
-d939e9f6f6f3387072d12eba27ebadd2baf22ef2 SUNRPC: Remove gss_import_v1_context()
-ab07810a1661bcf175838f5cd6f7db8a2cc9b7e8 SUNRPC: Remove CONFIG_RPCSEC_GSS_KRB5_CRYPTOSYSTEM
-d62f05792d4538dcf3b3718e9e1bc88c4d6e739c SUNRPC: Remove the ->import_ctx method
-7873c819df1773bd9f35896062f32323fe3821b9 SUNRPC: Remove net/sunrpc/auth_gss/gss_krb5_seqnum.c
-37ae1c0dfdfbd92bb50fcd5d995651b15840f5ca NFSD: Refactor nfsd_reply_cache_free_locked()
-7a252c6b73504d816a1c1f7d86b04b718af81023 NFSD: Rename nfsd_reply_cache_alloc()
-f86e6c34368db80553ae8256afcf1d1bc007f13d NFSD: Replace nfsd_prune_bucket()
-2096ebd4f016ee6b49798684d99fda728de0dcf4 NFSD: Refactor the duplicate reply cache shrinker
-aee1a19db7dfca4eb918d0bf89f059831b1f42a8 NFSD: Remove svc_rqst::rq_cacherep
-a41cbf35991ccdc51962e8657a5607a79cbe8ae6 NFSD: Rename struct svc_cacherep
-f90b857bfc9348d168a4742b9a732b4cc8036b35 nfsd: add a MODULE_DESCRIPTION
-f424d156d2ed9b0d2b004525eda9286ce0126b5a nfsd: handle failure to collect pre/post-op attrs more sanely
-1e4cd9281877d78a0fd8b79b62bbcef9afe140e9 nfsd: remove unsafe BUG_ON from set_change_info
-9c7b09120088aaa6bba384e26511fcf2ab7696a7 nfsd: set missing after_change as before_change + 1
-8d6efad05472d10f67bc60bc2de9195cc85aece1 lockd: nlm_blocked list race fixes
-5803316f92235576d46488f371b4fd03d840b41e sunrpc: Remove unused extern declarations
-4dd0f55fb7ca21a4a6ba800442bce4b90d2b0c09 nfsd: inherit required unset default acls from effective set
-0931a0639104a6b1a61c13f7d4e9edd7d53b50b9 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
-b8c82a9623d41174d8b88ece3abdfca5555eb971 SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
-ddccea9e156ce47af99760437bd11e23b7817f41 SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
-cab36b2fb1a52b56a2d1d5317b2bcd48f00923bf SUNRPC: Revert e0a912e8ddba
-a31e581ccb77d8992a207f5de5ddbeca47be6aaa SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
-bf7d0d6ef16b33651f8ac9230967cea8dfbb7bc2 exportfs: remove kernel-doc warnings in exportfs
-236873bb6e55ba44b4d0c349dc036e3eb6f24330 fs: lockd: avoid possible wrong NULL parameter
-db97dd46b1cf9f4452bf756fe86088524f88da4d lockd: remove SIGKILL handling
-134e241205e28f394dddab082054ad7345ddd186 nfsd: don't allow nfsd threads to be signalled.
-7ef33095e0b9ac0029f8caa1cd62d3f65e8f0c05 nfsd: Simplify code around svc_exit_thread() call in nfsd()
-e4d7f3f8f97d77da7d5d0577223965acfc328791 nfsd: separate nfsd_last_thread() from nfsd_put()
-75451730fe2c92deded1908ca030be40aaa38799 SUNRPC: call svc_process() from svc_recv().
-989719d9c8f2d8d4eefe17e99f15a087cccc7a62 SUNRPC: change svc_recv() to return void.
-a446cbc7aa3e2cf7e2b254e0cc343c078b4fc99e SUNRPC: remove timeout arg from svc_recv()
-c4f61e8248cb7dbdc3eb4cc7163df87a7e2f765b SUNRPC: change cache_head.flags bits to enum
-142c265889a78abaaa02b59ed58bdc55660a0da6 SUNRPC: change svc_pool::sp_flags bits to enum
-19a975510aae967b7291bf3b59b5b4bb8170bb27 SUNRPC: change svc_rqst::rq_flags bits to enum
-cb53c9e44487850e3f1dd08303cb9afdf1d63bbd SUNRPC: change svc_xprt::xpt_flags bits to enum
-51ffa8453b65903fa4074f81ad0ace701e5cc8f3 SUNRPC: Add enum svc_auth_status
-1c250b9a20a7d6099025e7f742f1560a12e8776c SUNRPC: Move trace_svc_xprt_enqueue
-8f4c241923ab686da824eb275db4b28e758c76aa SUNRPC: Deduplicate thread wake-up code
-23dbb63a9df58f31046007ca3e509de194561356 SUNRPC: Count ingress RPC messages per svc_pool
-b1e667caad1509f11064e2f1c494ef01c0663cd4 SUNRPC: Clean up svc_set_num_threads
+12009a182b51c1dd1f8020a3d88a1813e0af5f33 t0040: declare non-tab indentation to be okay in this script
+dfd46bae92ec25d71e7c8a2887e9508aaf211ee8 send-email: drop FakeTerm hack
+c016726c2deb84bcc6a7418efad92ef0562a8af3 send-email: avoid creating more than one Term::ReadLine object
+cb888bb6991bb10bddedf9ddc9651ec25da6137d repack: free geometry struct
+bdf58f9cf8d2669480d28dd07a884ac52f8846ac commit-graph: fix small leak with invalid changedPathsVersion
+3284b93862b0aaea9d8e708f0aabd53e3e94409e parse-options: disallow negating OPTION_SET_INT 0
+25871afd1c4ed12b077c91185fee05b3ea97796b Merge branch 'ew/hash-with-openssl-evp' into jch
+e77c823ea59d3c5bd8739bf76fcf5fdfd197b658 Merge branch 'bc/ident-dot-is-no-longer-crud-letter' into jch
+0f364ddd170c377b4eb20e5f44fd0e76cb4d158a Merge branch 'bc/ignore-clangd-cache' into jch
+eeec55861bd1022f36d19c56dca39f5833ab457f Merge branch 'ma/locate-in-path-for-windows' into jch
+a4360ef23fe24bf62ba344ee148068748722acbb Merge branch 'pw/rebase-skip-commit-message-fix' into jch
+898801b1b43eb0073eab7ae783c4c0ed838bc58d Merge branch 'jt/path-filter-fix' (early part) into jch
+c24d99b6625e6ca4dd93a5573aebb028956380db Merge branch 'mh/credential-libsecret-attrs' into jch
+4b5563979f0a12afcd376c510cf68de76302e9b7 Merge branch 'mh/credential-erase-improvements-more' into jch
+76f5e0cf7890a56f08301c0903c12868fd1188f8 ### match next
+65bd08fe31c9e82c3ef20da3d6b1d957390b2279 Merge branch 'ob/rebase-conflict-advice-i18n-fix' into jch
+9be613c6d0463ee127c90e7fc933bfd6c1e6922e Merge branch 'rs/parse-opt-forbid-set-int-0-without-noneg' into jch
+7cb8a191969b164b1f90f04b4e830e7da4416442 Merge branch 'jt/path-filter-fix' into jch
+aeac4c5e7cfd4e4e4e4f0ed07b4f203d080a43a9 Merge branch 'jk/repack-leakfix' into jch
+5cfa00122cb175bffc1a8424a2bc00838b8440e2 Merge branch 'jk/send-email-with-new-readline' into jch
+dd49dbce3d9bd45870c91d338cf1108a415794eb Merge branch 'js/allow-t4000-to-be-indented-with-spaces' into jch
+cee3f65ad4a2315a481e67c6f065c08d7363464f Merge branch 'rs/parse-options-negation-help' into jch
+e132ab9de2cf1bef902e5e293ebc2ef3134b9af6 Merge branch 'pw/rebase-i-after-failure' into jch
+a4778ada39be3920d97204c8a2f4e56d5c48e4ef Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
+0febe7a549be3db1af8ef28595bd503386cb225d Merge branch 'jc/rerere-cleanup' into jch
+91b62b98ad8be5bd28b3c388070630e0ef520e18 Merge branch 'rj/status-bisect-while-rebase' into jch
+4144f29143618cd44f9fd645e77f0772e6cda48f Merge branch 'la/trailer-cleanups' into jch
+67ce93559ed6c40e65848893ea7e255f75cbf00e Merge branch 'la/trailer-test-and-doc-updates' into jch
+248a06dc48c80094b4f8c59f58c864420134eb4f Merge branch 'ob/sequencer-empty-hint-fix' into seen
+60816b6008ef7371e027156a1ec14cd76a6348ff Merge branch 'ob/test-lib-rebase-fake-editor-updates' into seen
+e9fd42c9fc8853cf5f5c55b887359cc361813260 Merge branch 'ob/send-email-interactive-failure' into seen
+af56cf2ca9f0399dfacf0c3d85ccc7d44cba89e8 Merge branch 'js/doc-unit-tests' into seen
+b9e5644c14886c912978d3d43d461318f104cfbf Merge branch 'cc/git-replay' into seen
+2a499264d39c663517a8e4fe7f3abb55fc4a829a branch: error message checking out a branch in use
+1d3c9050f5584f1430203cfc05377b23ada379ad Merge branch 'ab/tag-object-type-errors' into seen
+b625b4d5e842ca88fb4f800d66dc626829bf34a8 Merge branch 'sl/sparse-check-attr' into seen
+b61b5f9ec6c5d6f4690efcd227e31e16a5398091 Merge branch 'rj/branch-in-use-error-message' into seen
+6ebb0baa26ab1a8c8f558b9f91d5f181f39c08b4 Merge branch 'ds/maintenance-schedule-fuzz' into seen
 
---===============6210184108064441432==--
+--===============2068066833900643323==--
