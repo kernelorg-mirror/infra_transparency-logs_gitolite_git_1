@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 09 Aug 2023 11:58:12 -0000
-Message-Id: <169158229294.15370.4972722666056920729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 09 Aug 2023 11:59:31 -0000
+Message-Id: <169158237162.15931.5650361130293287991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/vfs.fchmodat2
-    old: 5daeb41a6fc9d0d81cb2291884b7410e062d8fa1
-    new: 71214379532794b5a05ea760524cdfb1c4ddbfcb
+  - ref: refs/heads/main
+    old: 0ab353f8d8aa96d68690911cea22ec538f3095c4
+    new: f2eb058afc57348cde66852272d6bf11da1eef8f
     log: |
-         71214379532794b5a05ea760524cdfb1c4ddbfcb selftests: fchmodat2: remove duplicate unneeded defines
+         f2eb058afc57348cde66852272d6bf11da1eef8f linux-firmware: Update AMD cpu microcode
          
