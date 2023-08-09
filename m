@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1176427194038238661=="
+Content-Type: multipart/mixed; boundary="===============8085581937855429669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 09 Aug 2023 14:04:23 -0000
-Message-Id: <169158986374.11802.16898651833826235032@gitolite.kernel.org>
+Date: Wed, 09 Aug 2023 14:04:57 -0000
+Message-Id: <169158989761.12075.5294222285736970828@gitolite.kernel.org>
 
---===============1176427194038238661==
+--===============8085581937855429669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d14eea09edf427fa36bd446f4a3271f99164202f
-    new: c992fde9f977da9beec584528f9026d21c27a053
-    log: revlist-d14eea09edf4-c992fde9f977.txt
+  - ref: refs/heads/dev-queue
+    old: 2d9a052351338d59df389857d9f914227c262143
+    new: 5e97fefd92fb556207b5b3edf42ebc3acf64a915
+    log: revlist-2d9a05235133-5e97fefd92fb.txt
 
---===============1176427194038238661==
+--===============8085581937855429669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d14eea09edf4-c992fde9f977.txt
+Content-Disposition: attachment; filename=revlist-2d9a05235133-5e97fefd92fb.txt
 
 72cc654970658e88a1cdea08f06b11c218efa4da net/mlx5e: Take RTNL lock when needed before calling xdp_set_features()
 ac5da544a3c2047cbfd715acd9cec8380d7fe5c6 net/mlx5e: TC, Fix internal port memory leak
@@ -55,5 +55,15 @@ d0378ae6d16cac86579c0350d275741fd898ba08 Merge branch 'enetc-probe-fix'
 833bac7ec392bf75053c8a4fa4c36d4148dac77d net/smc: Fix setsockopt and sysctl to specify same buffer size again
 30c3c4a4497c3765bf6b298f5072c8165aeaf7cc net/smc: Use correct buffer sizes when switching between TCP and SMC
 c992fde9f977da9beec584528f9026d21c27a053 Merge branch 'smc-fixes'
+dd29629520b65fd5bc9f4a96e4e4afc4784dc335 igb: fix hang issue of AER error during resume
+6e7505f9e3c08c0d09db6a27aa313099a0719aad i40e: Fix VF reset recognition
+291a618739e167a4306b6bc8f2fd6d24a2e47414 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+ba9ca52b42842fec6b7c2d67114c11f1ca19b2ba igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+7ba724ac34f981c2666459c4bd597501969c6ace igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+75c23b90a98b96ba5b7aa7213887fc6a7be42cdc ice: avoid executing commands on other ports when driving sync
+c5f8c1d477e4a45bfdfa54e251e169edaa3dcf10 i40e: fix livelocks in i40e_reset_subtask()
+5ea7cec875f4e161dc9e3dbf0c61b4e67c2a1a45 i40e: fix misleading debug logs
+21f18a86bb43d593c94c6f1f68c03fcbc322b244 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+5e97fefd92fb556207b5b3edf42ebc3acf64a915 iavf: fix FDIR rule fields masks validation
 
---===============1176427194038238661==--
+--===============8085581937855429669==--
