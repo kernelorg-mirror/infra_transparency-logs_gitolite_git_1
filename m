@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 09 Aug 2023 09:29:18 -0000
-Message-Id: <169157335896.20447.13152354852803902832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 09 Aug 2023 09:58:33 -0000
+Message-Id: <169157511306.23000.5990823227620412089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: b8bed37a1493b913bf5bda938487ae0c06c11ce7
-    new: 2d7549b79f2b32f33cec3a5b518cddfe9a63506b
-    log: |
-         2d7549b79f2b32f33cec3a5b518cddfe9a63506b zramctl: add hint about supported algorithms
-         
+  - ref: refs/tags/imx-fixes-6.5-2
+    old: 0000000000000000000000000000000000000000
+    new: c79415293ac30828833044da997c221d3c1f236b
