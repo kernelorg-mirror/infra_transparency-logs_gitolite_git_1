@@ -1,54 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============1601783862347993763=="
+Content-Type: multipart/mixed; boundary="===============3892485935486293527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 09 Aug 2023 15:14:08 -0000
-Message-Id: <169159404899.32387.12988887385257406841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Wed, 09 Aug 2023 15:22:25 -0000
+Message-Id: <169159454537.6237.8002107333241497972@gitolite.kernel.org>
 
---===============1601783862347993763==
+--===============3892485935486293527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/dev-test
-    old: e116872fdeb425635580ffa6b237b96c39bc6611
-    new: 6322bdccda4384d56a8bb59283cdb8acb704b720
-    log: revlist-e116872fdeb4-6322bdccda43.txt
+  - ref: refs/heads/testme
+    old: 2ddb7438be2fb486cba9f03e4e3257edd552a843
+    new: 2be751120b756145790e852b6dfd2e060119410f
+    log: revlist-2ddb7438be2f-2be751120b75.txt
 
---===============1601783862347993763==
+--===============3892485935486293527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e116872fdeb4-6322bdccda43.txt
+Content-Disposition: attachment; filename=revlist-2ddb7438be2f-2be751120b75.txt
 
-f7a177b8690e3c7999f00f6c5bcee6915e0be2bf Revert "f2fs: clean up w/ sbi->log_sectors_per_block"
-1fdce44e0af6b89a11fee9dc1e77a4c1341b6dbe f2fs: don't handle error case of f2fs_compress_alloc_page()
-3d75aedae581d700a1ab122a84ffbfbc2583e0eb f2fs: flush inode if atomic file is aborted
-80a2f5129730735e6fcb2f37451d76c10208fd9f f2fs: get out of a repeat loop when getting a locked data page
-155a90874d20aa0f8b13d400877ce604ed54c63e f2fs: fix spelling in ABI documentation
-46b49d3d697da46f70dcc5b702f2668a8f4d51d1 f2fs: fix to avoid mmap vs set_compress_option case
-4904b211b33107897ee9ae159c3d91f25936f985 f2fs: don't reopen the main block device in f2fs_scan_devices
-750ad91bb31f51167c548fd2a8bdfb89228f67cd f2fs: allow f2fs_ioc_{,de}compress_file to be interrupted
-bc3bcd21247d86ada391276b12320af994e5b346 f2fs: compress: don't {,de}compress non-full cluster
-f2488d2c31a638e75ecd90297b4a2563962f4cd5 f2fs: check zone type before sending async reset zone command
-2386f97eba0d8940d1035e39a52490a55608681b f2fs: Only lfs mode is allowed with zoned block device feature
-7d7ca40f26434a99e462df66e602d2985acbf8a0 f2fs: increase usage of folio_next_index() helper
-be46fe55f7f58c35ce45f0ceb5652eba265334ef Revert "f2fs: fix to do sanity check on extent cache correctly"
-d87f01be3f5cbf424d2b888350584a09e40a57fe f2fs: fix to update i_ctime in __f2fs_setxattr()
-d29db368a38d74b682d8fa6a95cfde4cc538b9a7 f2fs: remove unneeded check condition in __f2fs_setxattr()
-57b498cabce35d6f7582654b5e7a1261e50e69a3 f2fs: doc: fix description of max_small_discards
-cdd7e250174bfcc9d1de30121e7db4e3c3df75dc Revert "f2fs: do not issue small discard commands during checkpoint"
-5cb42106484d21a59834001f03a97a01ed506573 f2fs: fix to account gc stats correctly
-ad34dbf471090ce73df3614ced89d168150c0afa f2fs: fix to account cp stats correctly
-6ab0e2800f8bb57db5d38becde6d645d31fb19f1 f2fs: introduce two helper functions for the largest cached extent
-d8b0c575717246c4b0982bb5b33fe498f3c8df79 f2fs: support background_gc=adjust mount option
-b8cdc55f6332b9ae0f14d7e68d4dc2209980f37b f2fs: fix to tag FIEMAP_EXTENT_DELALLOC in fiemap() for delay allocated extent
-f51d9ecd65fa884d837756a6b982b26a20f98ae3 f2fs: compress: fix prepare_compress vs memory reclaim case
-6322bdccda4384d56a8bb59283cdb8acb704b720 f2fs: trigger checkpoint to submit remained discard during mount()
+a539cc86a1cb688df24d9cff17d946a8c0b94b38 x86/vector: Rename send_cleanup_vector() to vector_schedule_cleanup()
+bdc1dad299bb1d38ce329de0dad0beadc76badf4 x86/vector: Replace IRQ_MOVE_CLEANUP_VECTOR with a timer callback
+6e3edb0fb5c0ee3ab1edc1fcfd159e7dd177ef0e tools: Get rid of IRQ_MOVE_CLEANUP_VECTOR from tools
+e9c4aa6e0add4c612296041e63342371fb1c7bfe x86/cpu: Make identify_boot_cpu() static
+44a34c53a7117f459b766cf2c7c93a96fed530ee x86/cpu: Remove unused physid_*() nonsense
+5214126b38b852bdf84656353e9f70ecacb09703 x86/apic: Rename disable_apic
+662a13d59d33a87ac5fd21a7764424c1df621fae x86/apic/ioapic: Rename skip_ioapic_setup
+879249e7b2de2979833317736b8ff0187e9ccf2f x86/apic: Remove pointless x86_bios_cpu_apicid
+f58f8606b40001eaaee1eb747e06361cf585387a x86/apic: Get rid of hard_smp_processor_id()
+3fd3664b8e1a8dc088334a9410bc86635b9964f0 x86/apic: Remove unused max_physical_apicid
+66feb6e02108223623fd28307102d5a575e2c036 x86/apic: Nuke unused apic::inquire_remote_apic()
+7dd7c05387955235a56016271851030c558ae0f8 x86/apic: Consolidate boot_cpu_physical_apicid initialization sites
+4b57e1e4f266ae132a24aa4fc3d2a9beb12d13a9 x86/apic: Register boot CPU APIC early
+1baa9f1b66195e2609f59115e156f79bd8309420 x86/apic: Remove the pointless APIC version check
+5339a560914093ea9c491a583e9df030308e0cb3 x86/apic: Remove mpparse 'apicid' variable
+b735dd86b7c75df0863065ae5ab154be2dcf2a9d x86/of: Fix the APIC address registration
+b2f0f97b396baaac08b74ee3d2e6c49cbe70e664 x86/apic: Make some APIC init functions bool
+90815d75ec85919de391dd982b5c866dc67b8758 x86/apic: Split register_apic_address()
+89c6fc2213c01aa025e4f670a524219e00ea1e82 x86/apic: Sanitize APIC address setup
+8fd2ac6c0d74f59897eeb83de72aeb3278a54ae8 x86/xen/pv: Pretend that it found SMP configuration
+90d584c599a6e7e4aa577a45ec925855d2215ade x86/apic: Sanitize num_processors handling
+1ad49dcd9f85ed507a9a7543e2db360cf70005ba x86/apic: Nuke another processor check
+b042d8d3878e80eda7ff89b1fe66d09f5dd026c5 x86/apic: Remove check_phys_apicid_present()
+2be751120b756145790e852b6dfd2e060119410f x86/apic: Get rid of apic_phys
 
---===============1601783862347993763==--
+--===============3892485935486293527==--
