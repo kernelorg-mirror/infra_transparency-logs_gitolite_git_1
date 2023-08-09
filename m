@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Aug 2023 10:23:14 -0000
-Message-Id: <169157659474.9255.4346189638062448670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 09 Aug 2023 10:36:16 -0000
+Message-Id: <169157737646.18594.15148894450843575743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: ae1ae5eb14b062d4e90984a80cc0f38df2b675ad
-    new: b9b05381e5d76a5ad05aedf5357c585d4a1f78cd
+  - ref: refs/heads/master
+    old: 2d7549b79f2b32f33cec3a5b518cddfe9a63506b
+    new: 1d4456dd81a64a73685df9e5f1232d566818e453
     log: |
-         b9b05381e5d76a5ad05aedf5357c585d4a1f78cd net: dsa: mt7530: improve and relax PHY driver dependency
+         1d4456dd81a64a73685df9e5f1232d566818e453 enosys: fix build on hppa
          
