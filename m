@@ -1,55 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8853497928620065453=="
+Content-Type: multipart/mixed; boundary="===============2024212285361464711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 09 Aug 2023 12:13:39 -0000
-Message-Id: <169158321967.27842.16161934604544606219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 09 Aug 2023 12:13:48 -0000
+Message-Id: <169158322810.27979.17028844484100550727@gitolite.kernel.org>
 
---===============8853497928620065453==
+--===============2024212285361464711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b39dee4bdce7fc0e1a48be716e1b4a251507f9d6
-    new: 22b833df18a2f0b516f3712858bd5dee6fa54734
+  - ref: refs/heads/tty-linus
+    old: dfe2aeb226fd5e19b0ee795f4f6ed8bc494c1534
+    new: a4a79e03bab57729bd8046d22bf3666912e586fb
     log: |
-         22b833df18a2f0b516f3712858bd5dee6fa54734 wifi: ath12k: Fix buffer overflow when scanning with extraie
+         3f29d9ee323ae5cda59d144d1f8b0b10ea065be0 TIOCSTI: Document CAP_SYS_ADMIN behaviour in Kconfig
+         a4a79e03bab57729bd8046d22bf3666912e586fb serial: core: Revert port_id use
          
 
---===============8853497928620065453==
+--===============2024212285361464711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1691583193 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1691583193-e78204ba2e6ab049f03210e17aec70fbdd7c8d99
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691583225 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1691583224-553f16599c009b06921486bb51eeea3d823b2988
 
-b39dee4bdce7fc0e1a48be716e1b4a251507f9d6 22b833df18a2f0b516f3712858bd5dee6fa54734 refs/heads/main
+dfe2aeb226fd5e19b0ee795f4f6ed8bc494c1534 a4a79e03bab57729bd8046d22bf3666912e586fb refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmTTgtkACgkQ10qiO8sP
-aAAJ0A//ZiBQ6+kX+31nHWSGug4BX1gJR+zC/Kv+kls09ViHd4+tTMMRz9B8DNR4
-GHD1nmsi+h78cUswsD/xINI2XFFUjAb+c7jy5ww7qIoLodx5UtFQBqIH8ER14N1A
-nO9QtirYELfK84JH1yKFyMdPKJqIsOBVY3W6j9CkPMvkmFNbxtA4Bw/2p8lF0Ugw
-2w6w54q+8q+WMkQhJVcELENPCXD2ggGSXrWWFZ8eM9cHyJ1r0JoCrc/uF6pyCUdL
-4EtCOA84d2rNF0asloymis70QQKaX41CPbBmgBKcp+zd2e6SLK4YUzHSuzznPj5o
-xflEvaFGohESndGdOuizSFW1lzHbaBOlMJoMRodpfaudyt7RBB+fseu9uckchxx3
-AGMhavTv8yDDU7I/36L+1aCtfdhQVejRVGByisVyREqIJC+9Rkc/t0hCUQih9hWE
-gh4QlJbOQyJNO36O6VVbsqik7YOMgeL2bbTBBtYRybAGEBFFX/bxTc/AaOl8KkaI
-siIhdJE8SJnToWJac6oUg+EvyQ6xvFoo5MfgTYCyXAnKMMdIctZzUCuy+tJmF+FH
-jaWPwiYHzXmjhnCyJylJuBbAqydkKKLoOQ/8IGLya4AURCNfnYRk1kDu2pAp+v9o
-GAwMTR9Lmn17rx4x63Z0ydYhMS9qvem2QT/XS2wDIP3EqwyGvmQ=
-=9zng
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTTgvkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+juYP/3KMKRYG1tdeNDptEX2x
+vLJwsUgshupOI6qojpJl20HizLbTLLj6HOxSpFNtTs5r1hrDVNyQ4zENbh8Wu1Xg
+2xWGQ2Yve0x/8jCnJ9bm81mwbovaLg3OIqMZHx6xVO0WlsRlhZtrhT9vL162+cBd
+WY7bgWS+osaUNZh9skhrgoexOlLPm6nxdX5FxgoMfyg5MJVKeVC0wBnbO4uecJPY
+zhAaYf07nSE4S9ShDiscqiYwkQJLyDrlIqC1czmKeOIbkfQtu/9ZEEkLLZnq0pTe
+XouI/cvNLkqUjrr6YCsxPcMJIREiFjNKa6Yg0dBVpiDO15XGPa4bfPZgP57KL4YX
+zYY7VmTmzXqn0vTTqB+hU05WxcLVcNN9pv61mOqU3rM5t6Ns20vdiF2BPHiRRGOe
+YPgdvCMqP0A7eLuYcp0Z0IXLj4CNrMZt7jt62/1Zos5bOxkEpIbcFwwF2tqlbOd4
+zHK0x9Qn6bBZtmu/Blu94BJNFBU8api2QL2KuhG8kLMJgvyfKAIlJ03CCpXUM5qZ
++ItXZg0Dn1dsYTqCy8z8NMx/9vB5RbhbMJGKd2Pd+ZWFpov3ORF8dRSPQuKGE2Iz
+W5/0VV9rxDESpYIbWEsjoAzc6EDcgHU6ZA+1WyY5n8pv6tAKM+PRLMsw+Ix9m1EJ
+5djJpd2e0w4p6ltsX2ip1eAH
+=Hijb
 -----END PGP SIGNATURE-----
 
---===============8853497928620065453==--
+--===============2024212285361464711==--
