@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 09 Aug 2023 13:37:16 -0000
-Message-Id: <169158823661.24842.4297182892214000682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Wed, 09 Aug 2023 13:40:03 -0000
+Message-Id: <169158840360.28443.18108822740855700971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/fixes
-    old: 6741f37b4fdc6e0249315ecb9711e49feab3c100
-    new: cf3f15b8c6601c1dc70f85949788ee993dd9a439
+  - ref: refs/heads/b4/virt-to-phys-s390
+    old: 8ecc52ceb357c56a3841a03f5743120a217d08b0
+    new: ad02f71a92f621e1c2fe87ae47e2315d0a28da78
+    log: |
+         ad02f71a92f621e1c2fe87ae47e2315d0a28da78 s390/mm: Make virt_to_pfn() a static inline
+         
