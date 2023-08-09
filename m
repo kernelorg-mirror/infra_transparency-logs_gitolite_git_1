@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2674381247191042095=="
+Content-Type: multipart/mixed; boundary="===============8151253267653923257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 09 Aug 2023 12:15:46 -0000
-Message-Id: <169158334687.30479.8281664544804460487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 09 Aug 2023 12:16:37 -0000
+Message-Id: <169158339749.30868.18180593085320178199@gitolite.kernel.org>
 
---===============2674381247191042095==
+--===============8151253267653923257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 593135f09368dbddc0244b859a7c3befb97214e0
-    new: 9c8441330bb399cba6177acce9b0e68c0dbaa597
+  - ref: refs/heads/usb-testing
+    old: ff33299ec8bb80cdcc073ad9c506bd79bb2ed20b
+    new: 12e6ac69cc7e7d3367599ae26a92a0f9a18bc728
     log: |
-         0aaf78182b721991a594ad8f8fe96d806e75db5a serial: sifive: Remove redundant of_match_ptr()
-         9c8441330bb399cba6177acce9b0e68c0dbaa597 tty: serial: qcom-geni-serial: Poll primary sequencer irq status after cancel_tx
+         fb57f829beefd4b3746f1b23d51e80ed5d4bb87b usb: dwc3: dwc3-octeon: Verify clock divider
+         dda4b60ed70bd670eefda081f70c0cb20bbeb1fa usb: ehci: add workaround for chipidea PORTSC.PEC bug
+         12e6ac69cc7e7d3367599ae26a92a0f9a18bc728 usb: chipidea: add workaround for chipidea PEC bug
          
 
---===============2674381247191042095==
+--===============8151253267653923257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691583343 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1691583343-d12c983072c7222fda9dd07642b9cc9863a445b8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691583393 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1691583393-b2adb0b1d5aede738505a13dbdcc1064dbcfd0d3
 
-593135f09368dbddc0244b859a7c3befb97214e0 9c8441330bb399cba6177acce9b0e68c0dbaa597 refs/heads/tty-testing
+ff33299ec8bb80cdcc073ad9c506bd79bb2ed20b 12e6ac69cc7e7d3367599ae26a92a0f9a18bc728 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTTg28bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bWQQAMrCXTqSqa1GKew/1nzu
-5AlCN0I+CF6zyxt6wJH5F+ObCHjs1nD7jRFzzOnta46zjHkLNU0RCRlYRt8fJiyL
-TAHPOl8TFl6CdT5K3j0J9n0qcZ99NnDmR5kRVwsUK6Ygr9MPKZfM1hhEd1ohRIN1
-1AQj/inaF3fW/vjmx7JFY/7e8BwK9hWOURBe0bY7dRyWwvCx5T3LIhfXZWqCzAXc
-Z0ZrH6W0t2ZurQGUBv/cPOAT5fUN7CF0x7IC9Mhh2DFMRNi3vQL+NNweLF8i6zlJ
-4MG975QWb+058bT/lC3X6cuprwiykcgyAVQG87+jPJ9rvigLjfOo9H97HwPx8fCl
-Ck0+1QkCSmVv+tBdIWA/TF4EXpKakRa+cN27y119HI3H4CmIsAQqgdvHYhNHAc7T
-T0IN6yn/F8Kjaq9kDclHt1XYYNiGXdPw2CwLhflxsoeW8MDI0XB/ZIBmWn9FxdG4
-75l51FO8HPkFhgNLQAWgp3u0JdV1K0VF85oy3mex7wNJX8YdivjfOLJsKYSzzXZV
-5se8NjTNjTpG6+IzJgJIvYuTS0zyezfeIhkd+/lhJ5+NWsar5Obfq7ZMlUHtZLtc
-9q67xFNUZVMZaLvUTzOzFx9NEzZViPcgBFXbGy5sHVN3Onc8PFgU4QCg1DKc3Wz8
-UiaMldalyclR4m72LZFIhPyd
-=dH+d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTTg6IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xgYP+wbCKjdt0XDiw5LJUKlO
+n01MpkeuEw7fKfRLRRHfWlimOBDQ4glWpbi/+rv7q2cmS0jFyRxneWKPhe7vtKeK
+3Ew8u26mW1xSMj1Wz8lMHnJP047y0C9bAA7Bd7xzAtkPNecag2uGYgk/LaLZmwhB
+OGJHT6Sl3lUjBNTApp1MMlrwOVO83P5cjrk6ICMoQ7E5oGhuJRKCAZdytE1zq8DO
+pKuFlD14YUl2KAMLR7uP/mMqq/oPWKEX3Ri9u88BfgcmK1HFtXg+Zm9MYc0BOuoT
+r4A/UbzToAosQtmLkDl8ZQJvGWbfQhXboWZfEfI1Ir0vUuJSxYloGLm0reOtWo80
+oDxIui+Wevtf6Xkqh37AfazylyiN6c5zs8Q3pYETYnkvECyOTEpDUlFjzq8+d8Uk
+kp9zuaMqhesi118sVd5M/z1845CKWasH5s89/G5CHCkEB2tBEDhUwvs3zIixI5LQ
+4/zrcTod3wZw938PIEiisG6dsyfyqXCab5iFVnn/BwOnXXp7RNCADzgR8XZIurMy
+Q5gcGCFziiva9d9/Bq39MjdlYmY8nYGnoA1AMBxl2aROZxPwjHwPqJOLQnqzw62Z
+Z1lGKYvSYLKKerV/bpn5fdIczQYpeqE1of/PgLWZIU/F3JsFkvoO+TlaAM1FrW9I
+IueIjdxRGzoOgck41U1I4ZWj
+=UMIO
 -----END PGP SIGNATURE-----
 
---===============2674381247191042095==--
+--===============8151253267653923257==--
