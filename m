@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 09 Aug 2023 13:45:02 -0000
-Message-Id: <169158870242.30595.14232649869963087453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Wed, 09 Aug 2023 13:45:43 -0000
+Message-Id: <169158874351.32365.6351509761553871731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/next
-    old: 3257cf57eb200a154d8c85f845c5c6822f753bdf
-    new: 283cf357b02848a48eb544e3cde993254fc2c19e
+  - ref: refs/heads/b4/virt-to-phys-hexagon
+    old: a4b97b05dd997c5088836df55e46276c16d63531
+    new: 7c4642d79e7c215d50be255a36ddc985015a1054
     log: |
-         7fbfe6044229f9f69c7b5dfba2cf4d08a1824f15 mmc: Merge branch fixes into next
-         117d73b18441638b85b3963256c846509c6138f1 mmc: sunplus: Fix platform_get_irq() error checking
-         283cf357b02848a48eb544e3cde993254fc2c19e mmc: remove unnecessary set_drvdata() function
+         0adbb99ab6d161927b6f8e2ff64838c473f566ae Turn virt_to_pfn/pfn_to_virt into static inlines
+         7c4642d79e7c215d50be255a36ddc985015a1054 Hexagon: Make pfn accessors statics inlines
          
