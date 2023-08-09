@@ -1,24 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7310979813886441444=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 09 Aug 2023 17:14:54 -0000
-Message-Id: <169160129487.23960.3537134924710024169@gitolite.kernel.org>
-
---===============7310979813886441444==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 09 Aug 2023 17:15:20 -0000
+Message-Id: <169160132052.25869.6878856622565553626@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.6
-    old: f321708da4db6b15a8691dc64b2d5169234937bc
-    new: 252b9116aff4d04176adc931cd11f02169df54f1
+  - ref: refs/heads/for-linus
+    old: dc554ace8dc10958d00a85c786ff17d0d7f787cb
+    new: 50f860120ae3b755ad7a05f6568453dec706d606
+    log: |
+         50f860120ae3b755ad7a05f6568453dec706d606 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         
+  - ref: refs/heads/for-next
+    old: 8a663ffe293140aeb985f8ca6d19273c55434a05
+    new: e5fb6c04d2ea7a319f4bccd86f09d3a156a128a5
     log: |
          3a6d93eb5f27f313ce0f3fa3fb171cd0732c4878 regulator: da9121-regulator: Remove redundant of_match_ptr() macros
          f410cfe8be5788cf09a3f32ce39946c339297821 regulator: lp87565: Remove redundant of_match_ptr() macros
@@ -27,30 +28,6 @@ changes:
          c329adf3026034c84ddd61c0b19db53d40510ae7 regulator: mpq7920: Remove redundant of_match_ptr() macro
          9e8925eb7fd6e5d93d9dfa9ca4628e897f0db8f1 regulator: pfuze100-regulator: Remove redundant of_match_ptr() macro
          252b9116aff4d04176adc931cd11f02169df54f1 regulator: tps6286x-regulator: Remove redundant of_match_ptr() macros
+         50f860120ae3b755ad7a05f6568453dec706d606 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         e5fb6c04d2ea7a319f4bccd86f09d3a156a128a5 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
          
-
---===============7310979813886441444==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691601293 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691601292-affec938c42f95927a43c7667eeba7b49e006c83
-
-f321708da4db6b15a8691dc64b2d5169234937bc 252b9116aff4d04176adc931cd11f02169df54f1 refs/heads/regulator-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTTyY0ACgkQJNaLcl1U
-h9CWMggAhsBia1ZxgGJOLWCJM23P8Jzpx1eau0PI+E6SZ0cztEFeexSouQ4gaRDJ
-egdezlFUbiRA3cxw5AE1NAjBTDr2GjFd+reGdtOPAUSsWIn+iTHxVj05vnW1U/2R
-t91dmgqedrSOTXituzP6qNeRqqVYXIBhUG7qLp3eLjlS+7PquGBWCHqXAgOEWRaK
-1kuRrzOjJPMmvDvIOcdqjQAtJwILl8mZEn7WK2q1oJYjhh/JxjT3Ls4cpto/ejHe
-7P77IrI8z8nJApGdR+B4ojmHgYBck0GpV5lmfwCPCQHkNvhTaq/elPa5S/7uuRXW
-pnWe8BL923sWViHHCoIICnhUs7hk5w==
-=f3iM
------END PGP SIGNATURE-----
-
---===============7310979813886441444==--
