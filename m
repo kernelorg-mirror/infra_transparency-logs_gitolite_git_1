@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Aug 2023 22:52:03 -0000
-Message-Id: <169162152312.13270.235533084815972724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 09 Aug 2023 22:52:08 -0000
+Message-Id: <169162152893.13374.8925505423224867962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 15c8795dbff8105b9071a7e38e6d4a1649747ec9
-    new: 048c796beb6eb4fa3a5a647ee1c81f5c6f0f6a2a
+    old: e05a53ab867c106a3f21a806599ef885c67e59bd
+    new: fa1891aeb7620b51992d0db86c72c0cd3cf114ab
     log: |
-         048c796beb6eb4fa3a5a647ee1c81f5c6f0f6a2a ipv6: adjust ndisc_is_useropt() to also return true for PIO
+         1ded5e5a5931bb8b31e15b63b655fe232e3416b2 net: annotate data-races around sock->ops
+         fa1891aeb7620b51992d0db86c72c0cd3cf114ab net/llc/llc_conn.c: fix 4 instances of -Wmissing-variable-declarations
          
