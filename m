@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 09 Aug 2023 15:33:59 -0000
-Message-Id: <169159523900.13862.381936448418853081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 09 Aug 2023 15:50:03 -0000
+Message-Id: <169159620390.27189.8472920649729862574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/vfs.tmpfs
-    old: 0e83f68294d865ae63db70041879673aa3209cbb
-    new: 0c1f2aaa6e75579b8a1bf8f5af2a4abc00fd98f5
+  - ref: refs/heads/io_uring-waitid
+    old: 4990a73a609a565ffe49a110a7583c0d2fff68f6
+    new: 98c8ed2aaa8b44312e882db718e9b84da8dcb5c7
     log: |
-         5de75970c9fd7220e394b76e6d20fbafa1369b5a xattr: simple_xattr_set() return old_xattr to be freed
-         e07c469e979c104464300aaa3b7923f929055cd0 tmpfs: track free_ispace instead of free_inodes
-         87bc7fbae4a3b9605945cdf106a13be889a51783 tmpfs,xattr: enable limited user extended attributes
-         befebe782d845552d0dd48ff0eb4abea4c38ae7b tmpfs: trivial support for direct IO
-         0c1f2aaa6e75579b8a1bf8f5af2a4abc00fd98f5 mm: invalidation check mapping before folio_contains
+         16ad29a5721be059371c8bc20e9314563c21ab16 exit: add kernel_waitid_prepare() helper
+         b84edf2ec73f055f84465e18f8b36a5bd4f4ca3d exit: add internal include file with helpers
+         98c8ed2aaa8b44312e882db718e9b84da8dcb5c7 io_uring: add IORING_OP_WAITID support
          
