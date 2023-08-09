@@ -1,64 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============2735512621374054992=="
+Content-Type: multipart/mixed; boundary="===============7871075246108584625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Wed, 09 Aug 2023 16:21:50 -0000
-Message-Id: <169159811022.17265.10572746235364584774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 09 Aug 2023 16:24:31 -0000
+Message-Id: <169159827126.18308.10571186979230315282@gitolite.kernel.org>
 
---===============2735512621374054992==
+--===============7871075246108584625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/sunxi/clk-for-6.6
-    old: 075d9ca5b4e17f84fd1c744a405e69ec743be7f0
-    new: a69f9463397e56666b113eebb2e99956aacf6929
-    log: revlist-075d9ca5b4e1-a69f9463397e.txt
-  - ref: refs/heads/sunxi/for-next
-    old: 8bd9496071ba84b3277f25841a3d4c8a0b42084c
-    new: d82915563fee2180d0382e60d043017d169d7732
-    log: revlist-8bd9496071ba-d82915563fee.txt
+  - ref: refs/heads/next
+    old: 417acbdb96e248b4a6edefc7b6a5d130e3f6b824
+    new: 03838ed1dd79605f764b2a99933ff0697ff4ceaa
+    log: revlist-417acbdb96e2-03838ed1dd79.txt
 
---===============2735512621374054992==
+--===============7871075246108584625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-075d9ca5b4e1-a69f9463397e.txt
+Content-Disposition: attachment; filename=revlist-417acbdb96e2-03838ed1dd79.txt
 
-80c439cd1f011e8c6bb4c6c65987e235f686d9ee clk: sunxi-ng: nkm: Use correct parameter name for parent HW
-3492e4f6db5f6814869a4639d70ea025385f4cb6 clk: sunxi-ng: nkm: consider alternative parent rates when determining rate
-b271fc467acd71630d7a2f0f2fcd2a4dbfc22edf clk: sunxi-ng: a64: allow pll-mipi to set parent's rate
-48fb70cdd9e3c896340ab8639f45cf845f9b346f clk: sunxi-ng: Add feature to find closest rate
-e373315d8ff839543132d2a0dcea546fda8b5048 clk: sunxi-ng: Add helper function to find closest rate
-c0380d14745194906c378d2494fc494239e16a85 clk: sunxi-ng: nm: Support finding closest rate
-088cefca2418304f457818da0f3c33bf2dac0794 clk: sunxi-ng: nkm: Support finding closest rate
-78e7f7da07f9d93288c1804522c696c507787d56 clk: sunxi-ng: mux: Support finding closest rate
-253795abdb04bdc762a9c2dd842ad6e549a9e2d7 clk: sunxi-ng: div: Support finding closest rate
-bf8eb12f52c49e10ca1d86564bfa096e09c51c38 clk: sunxi-ng: a64: select closest rate for pll-video0
-a69f9463397e56666b113eebb2e99956aacf6929 clk: sunxi-ng: nkm: Prefer current parent rate
+d332642a9821bfab4c0ddf1173e3af40127f0157 PCI: apple: Use pci_dev_id() to simplify the code
+f7f7c3d61556bb25c8c45c164056533fb2dde867 PCI/AER: Use pci_dev_id() to simplify the code
+6f7dc3076717d48980d8214eee083ee401fbe66d PCI/IOV: Use pci_dev_id() to simplify the code
+6d473a5a26136edf55c435a1c433e52910e03926 PCI: microchip: Correct the DED and SEC interrupt bit offsets
+2e245bc8a2abf61e0adbac99c9f89fa537f67ecd PCI: microchip: Enable building driver as a module
+4d6bf4c49578b9d29bc0f22fc0e7193087619aed PCI: microchip: Align register, offset, and mask names with HW docs
+d1d6a0c9e79c595b3961d5b62594e058d811d6cb PCI: microchip: Enable event handlers to access bridge and control pointers
+4f0b91247f78ccd702f2da5a17d4524101adfc7d PCI: microchip: Clean up initialisation of interrupts
+1abb722888fda4a03e211db9b361281f903375e1 PCI: microchip: Gather MSI information from hardware config registers
+bac406c34fbc906f09479af72cb6a908a5d1db1d PCI: microchip: Re-partition code between probe() and init()
+fc8b24c28bec19fc0621d108b9ee81ddfdedb25a PCI: dwc: Provide deinit callback for i.MX
+374663bcd9fd3d9f1c1e511383c97bb762f81272 Merge branch 'pci/aer'
+b1ef3742093eb001233043922553edb7798c0ffc Merge branch 'pci/hotplug'
+30289f1f1c9396a87cd47c73c8e17a3ec9c9d58c Merge branch 'pci/ioport'
+662d039b43cfc630dce3185fb2e389ccf9deaa76 Merge branch 'pci/controller/apple'
+9f9afe7049bb2b962f75b2b9cafaa1095c13f3dc Merge branch 'pci/controller/dwc'
+37bbe8302eed3c3a199c3bcde496fee2ad793fb8 Merge branch 'pci/controller/iproc'
+b4fbce882c7f2f0b9bef3d03732ccbdd81a7de28 Merge branch 'pci/controller/microchip'
+a94ea21490fcb564cc883125a19001316cd1c77c Merge branch 'pci/controller/qcom'
+f1da4508c9f8e65ff8e339df465b87907cd49ff7 Merge branch 'pci/controller/rockchip'
+f07576d17e82c584e2ef979015eedab8c7efa68b Merge branch 'pci/controller/tegra194'
+2035e37c4bb8705fca0933c8402ca54920cc5e48 Merge branch 'pci/controller/remove-void-cast'
+6b7c1e069364d418b4238674054f6d177787dd02 Merge branch 'pci/controller/resources'
+03838ed1dd79605f764b2a99933ff0697ff4ceaa Merge branch 'pci/misc'
 
---===============2735512621374054992==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8bd9496071ba-d82915563fee.txt
-
-80c439cd1f011e8c6bb4c6c65987e235f686d9ee clk: sunxi-ng: nkm: Use correct parameter name for parent HW
-3492e4f6db5f6814869a4639d70ea025385f4cb6 clk: sunxi-ng: nkm: consider alternative parent rates when determining rate
-b271fc467acd71630d7a2f0f2fcd2a4dbfc22edf clk: sunxi-ng: a64: allow pll-mipi to set parent's rate
-48fb70cdd9e3c896340ab8639f45cf845f9b346f clk: sunxi-ng: Add feature to find closest rate
-e373315d8ff839543132d2a0dcea546fda8b5048 clk: sunxi-ng: Add helper function to find closest rate
-c0380d14745194906c378d2494fc494239e16a85 clk: sunxi-ng: nm: Support finding closest rate
-088cefca2418304f457818da0f3c33bf2dac0794 clk: sunxi-ng: nkm: Support finding closest rate
-78e7f7da07f9d93288c1804522c696c507787d56 clk: sunxi-ng: mux: Support finding closest rate
-253795abdb04bdc762a9c2dd842ad6e549a9e2d7 clk: sunxi-ng: div: Support finding closest rate
-bf8eb12f52c49e10ca1d86564bfa096e09c51c38 clk: sunxi-ng: a64: select closest rate for pll-video0
-a69f9463397e56666b113eebb2e99956aacf6929 clk: sunxi-ng: nkm: Prefer current parent rate
-d82915563fee2180d0382e60d043017d169d7732 Merge branch 'sunxi/clk-for-6.6' into sunxi/for-next
-
---===============2735512621374054992==--
+--===============7871075246108584625==--
