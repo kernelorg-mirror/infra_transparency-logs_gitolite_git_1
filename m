@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 09 Aug 2023 16:29:23 -0000
-Message-Id: <169159856349.22118.5477523103997986617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 09 Aug 2023 16:36:21 -0000
+Message-Id: <169159898133.27897.16278995030838228115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-linus
-    old: bab0d83369d44fa24c162c5eb07ffea5946bbd9a
-    new: 4dfbf17a091ca1bd058e448095f30ad3e7eeb132
+  - ref: refs/heads/x86-efi-peheader-cleanup
+    old: e6dcfa39366af8225e4fe493569e8c9d0231a0ae
+    new: 8f59d48de0124d99112fe4fcf7ce4fb29b29f765
     log: |
-         4dfbf17a091ca1bd058e448095f30ad3e7eeb132 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 3a838bb5ab0d190221807cb1053c7533a19f6717
-    new: 79c731d66baec4f2406ca18e3740f7fb00e47fb0
-    log: |
-         ddaec4e44d4e2a556b51159d48788a85ff67179d spi: fsl-cpm: Properly define and use IO pointers
-         4dfbf17a091ca1bd058e448095f30ad3e7eeb132 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
-         79c731d66baec4f2406ca18e3740f7fb00e47fb0 Merge remote-tracking branch 'spi/for-6.6' into spi-next
+         9231dc09966a8d54afe96bc075a1d83155919853 x86: efi/libstub: Use private copy of struct setup_header
+         6f0df94be869de8153141ed556a7860c158c0ec7 x86: efi/libstub: Drop the PE section describing the setup header
+         8f59d48de0124d99112fe4fcf7ce4fb29b29f765 x86: efi/libstub: Split PE/COFF .text section into .text and .data
          
