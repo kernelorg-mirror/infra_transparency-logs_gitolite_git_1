@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 09 Aug 2023 19:51:40 -0000
-Message-Id: <169161070005.10423.17668995166387079035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 09 Aug 2023 19:55:45 -0000
+Message-Id: <169161094536.13527.7257758350957655342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
+repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: f66c538098b61e2eb596bb88fae90dbd2cebb378
-    new: 47a35f56e63994577fabd8fbc58b6551416f8250
+  - ref: refs/heads/perf/core
+    old: 62af03223785c11a0916df6a854ef4785d2350a5
+    new: a430021faad6b4fa86c820fc3e7f8dbfc2f14fb4
     log: |
-         306bb7740ef00c4c453e1c90fa862a3ff1d01fed sched: Constrain locks in sched_submit_work()
-         594bc792e13e4674ab99697973d8124b0a23a07b locking/rtmutex: Avoid unconditional slowpath for DEBUG_RT_MUTEXES
-         ea4a6ddc8c096bda096ffa33ea696c9ffec9b29b sched: Extract __schedule_loop()
-         876dda04d9e0849c1d112180ec0e35cab6fbe494 sched: Provide rt_mutex specific scheduler helpers
-         36f2dc36700328fdebdd0f3588d175b6799ba2c7 locking/rtmutex: Use rt_mutex specific scheduler helpers
-         47a35f56e63994577fabd8fbc58b6551416f8250 locking/rtmutex: Add a lockdep assert to catch potential nested blocking
+         882cdb06b668488a42ef717a260c05ba7dc43a49 x86/cpu: Fix Gracemont uarch
+         0cfd8fbadd6833d243c9a9d8649ba4a9f4361c93 x86/cpu: Fix Crestmont uarch
+         535445621a66faa7050c21d9d668595116285648 x86/cpu: Update Hybrids
+         a430021faad6b4fa86c820fc3e7f8dbfc2f14fb4 perf/x86/intel: Add Crestmont PMU
          
