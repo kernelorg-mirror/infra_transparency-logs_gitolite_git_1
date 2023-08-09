@@ -1,42 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8558941917623394625=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Aug 2023 23:03:10 -0000
-Message-Id: <169162219046.20597.9801663966745410764@gitolite.kernel.org>
-
---===============8558941917623394625==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 09 Aug 2023 23:04:49 -0000
+Message-Id: <169162228902.21281.14459436818598101743@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/main
-    old: e972a54706e47a034991cee69fae95746540609b
-    new: 29afcd69672a4e3d8604d17206d42004540d6d5c
-    log: revlist-e972a54706e4-29afcd69672a.txt
-
---===============8558941917623394625==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e972a54706e4-29afcd69672a.txt
-
-09e0c3bbde901f17837ad5088a13c3985534b860 net/sched: taprio: don't access q->qdiscs[] in unoffloaded mode during attach()
-25b0d4e4e41fcf0d2f43c431a82d344149e91258 net/sched: taprio: keep child Qdisc refcount elevated at 2 in offload mode
-98766add2d55194be9f7d88628a058ceab3b06e6 net/sched: taprio: try again to report q->qdiscs[] to qdisc_leaf()
-6e0ec800c1740372a6bbada0d98e78c2e69ba4a8 net/sched: taprio: delete misleading comment about preallocating child qdiscs
-665338b2a7a0139337d1f85be65ed16e487f84c1 net/sched: taprio: dump class stats for the actual q->qdiscs[]
-40b0425f8ba17c32cf7182975032a3999c364dfc net: ptp: create a mock-up PTP Hardware Clock driver
-b63e78fca889e07931ec8f259701718a24e5052e net: netdevsim: use mock PHC driver
-35da47fe1c4766451def03a1b4f59c6b13a9373c net: netdevsim: mimic tc-taprio offload
-355adce3010b9e91a29fc675520fee919639d6ee selftests/tc-testing: add ptp_mock Kconfig dependency
-1890cf08bd9992558bfbe710a008a12209389c9b selftests/tc-testing: test that taprio can only be attached as root
-29c298d2bc82ccdbd23bf08bbafeb4e874832946 selftests/tc-testing: verify that a qdisc can be grafted onto a taprio class
-29afcd69672a4e3d8604d17206d42004540d6d5c Merge branch 'improve-the-taprio-qdisc-s-relationship-with-its-children'
-
---===============8558941917623394625==--
+  - ref: refs/heads/mediatek-drm-next
+    old: 63ee9438f2aeffb2d1b2df2599c168ca08d35025
+    new: 61d9afafa0460331666417430674b4a1126a7b94
+    log: |
+         47d4bb6bbcdb503b20df5dbcbf5a3bb94247875b drm/mediatek: mtk_dpi: Simplify with devm_drm_bridge_add()
+         be471406e343346c63d57d6e7edc6fb85c114449 drm/mediatek: mtk_dpi: Simplify with dev_err_probe()
+         846a7ae13c63b029727559a216bca50697ae0e7d drm/mediatek: mtk_dpi: Switch to devm_drm_of_get_bridge()
+         90c95c3892dde019182ceac984d4ca1f3c85844b drm/mediatek: mtk_dpi: Switch to .remove_new() void callback
+         4f109879451f04f4ea1f840406476edeb0b678dc drm/mediatek: mtk_dpi: Use devm_platform_ioremap_resource()
+         61d9afafa0460331666417430674b4a1126a7b94 drm/mediatek: mtk_dpi: Compress struct of_device_id entries
+         
