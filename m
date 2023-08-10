@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 10 Aug 2023 14:44:53 -0000
-Message-Id: <169167869304.14310.15787355358412215696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 10 Aug 2023 14:50:03 -0000
+Message-Id: <169167900392.19308.14362538181341889055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/fileDz6727
-    old: 0000000000000000000000000000000000000000
-    new: c418920567ae6101826cc05cda042f71435830d0
-  - ref: refs/heads/filesc3sUl
-    old: 0000000000000000000000000000000000000000
-    new: 927073ee468d9d9f7ef0fe1eb777a673120e7caa
+  - ref: refs/heads/for-6.6/block
+    old: 4eb44d10766ac0fae5973998fd2a0103df1d3fe1
+    new: d21fed50c523d87af6456697ad09378060c4f09a
+    log: |
+         d21fed50c523d87af6456697ad09378060c4f09a swim3: mark swim3_init() static
+         
+  - ref: refs/heads/for-next
+    old: 041da6ece59ae1666f3dc4181179b85104481584
+    new: 5017008f59ae1c2b45fa7ae663716bac382ca508
+    log: |
+         d21fed50c523d87af6456697ad09378060c4f09a swim3: mark swim3_init() static
+         5017008f59ae1c2b45fa7ae663716bac382ca508 Merge branch 'for-6.6/block' into for-next
+         
