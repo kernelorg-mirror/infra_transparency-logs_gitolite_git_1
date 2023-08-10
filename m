@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 10 Aug 2023 15:54:19 -0000
-Message-Id: <169168285938.1665.9475151860709167616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 10 Aug 2023 15:54:44 -0000
+Message-Id: <169168288427.1912.5589441071067895291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/dev
-    old: f97ab6291bc42696e97087f73af25778157e6701
-    new: 6dbdd19b46c7948b97e2c0f49b3504fe6c1a4e1b
+  - ref: refs/heads/fixes
+    old: 5748f889dd199eb8c8074cb149abd2441da6c06e
+    new: 7e3811521dc3934e2ecae8458676fc4a1f62bf9f
     log: |
-         73c0b4b626579048ac93b506c797b817f9254881 erofs: DEFLATE compression support
-         c772092ae57487a70e653ce8be169cb2319621c8 erofs: update on-disk format for xattr name filter
-         43fb04e926cf922ba2f379c2d4a1cc91d6d656b8 erofs: boost negative xattr lookup with bloom filter
-         6dbdd19b46c7948b97e2c0f49b3504fe6c1a4e1b erofs: refine warning messages for zdata I/Os
+         d566bea4a638ff0ae824df804bc08818bace41a5 riscv: Do not allow vmap pud mappings for 3-level page table
+         7e3811521dc3934e2ecae8458676fc4a1f62bf9f riscv: Implement flush_cache_vmap()
          
