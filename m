@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 10 Aug 2023 11:28:43 -0000
-Message-Id: <169166692397.31444.3475476058080942323@gitolite.kernel.org>
+Date: Thu, 10 Aug 2023 11:28:49 -0000
+Message-Id: <169166692944.31527.5397652017105845424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20230809-arm64-fix-ptrace-race-db8552fb985b-v1
+  - ref: refs/heads/arm64-fix-ptrace-race
     old: 0000000000000000000000000000000000000000
-    new: c4a2f1d9f00e1e5741e867122f4e5277f242519b
+    new: f31f56e187427d803dc28bcc5bc0d549ee8dc2a4
