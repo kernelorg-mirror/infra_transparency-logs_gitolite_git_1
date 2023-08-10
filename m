@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8021110982701494818=="
+Content-Type: multipart/mixed; boundary="===============8662640206558741166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Thu, 10 Aug 2023 11:48:42 -0000
-Message-Id: <169166812277.14401.10420030650950442851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Thu, 10 Aug 2023 11:49:09 -0000
+Message-Id: <169166814931.14640.3915370230817532645@gitolite.kernel.org>
 
---===============8021110982701494818==
+--===============8662640206558741166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
     log: revlist-5d0c230f1de8-52a93d39b17d.txt
 
---===============8021110982701494818==
+--===============8662640206558741166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -284,4 +284,4 @@ a0fc452a5d7fed986205539259df1d60546f536c open: make RESOLVE_CACHED correctly tes
 0108963f14e96abcfae0c4d1186c237cfb1a7fad Merge tag 'v6.5-rc5.vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 52a93d39b17dc7eb98b6aa3edb93943248e03b2f Linux 6.5-rc5
 
---===============8021110982701494818==--
+--===============8662640206558741166==--
