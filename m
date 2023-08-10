@@ -1,28 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 10 Aug 2023 10:29:43 -0000
-Message-Id: <169166338329.20827.8127296375609800914@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0603351593181755142=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 10 Aug 2023 10:45:41 -0000
+Message-Id: <169166434184.1839.16796991013972582663@gitolite.kernel.org>
+
+--===============0603351593181755142==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/origin-master
-    old: 13b9372068660fe4f7023f43081067376582ef3c
-    new: 374a7f47bf401441edff0a64465e61326bf70a82
+  - ref: refs/heads/for-6.6
+    old: 59146c3cd326a622e9041614842346aada11ca99
+    new: 81113108491edc277d61337ea410c5f89d85faa3
     log: |
-         5aa4fda5aa9c2a5a7bac67b4a12b089ab81fee3c ksmbd: validate command request size
-         79ed288cef201f1f212dfb934bcaac75572fb8f6 ksmbd: fix wrong next length validation of ea buffer in smb2_set_ea()
-         c0b067588a4836b762cfc6a4c83f122ca1dbb93a Revert "perf report: Append inlines to non-DWARF callchains"
-         8cdd4aeff2e858c95bb088409028893cfb4e53d4 tools arch x86: Sync the msr-index.h copy with the kernel sources
-         487ae3b42d1040b4cd5ff9754e7516b409204029 perf stat: Don't display zero tool counts
-         77245f1c3c6495521f6a3af082696ee2f8ce3921 x86/CPU/AMD: Do not leak quotient data after a division by 0
-         22883973244b1caaa26f9c6171a41ba843c8d4bd mm: Fix access_remote_vm() regression on tagged addresses
-         cacc6e22932f373a91d7be55a9b992dc77f4c59b tpm: Add a helper for checking hwrng enabled
-         b4f63b0f2d170b9dfae0de3fd2981424873cce2b Merge tag 'perf-tools-fixes-for-v6.5-3-2023-08-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-         374a7f47bf401441edff0a64465e61326bf70a82 Merge tag '6.5-rc5-ksmbd-server' of git://git.samba.org/ksmbd
+         f803ec63686dec863a33cad87218d7d99c4b5e92 ASoC: fsl: micfil: Use dual license micfil code
+         385311101538b071a487a9245e01349e3a68ed2c ASoC: max98363: don't return on success reading revision ID
+         c163108e706909570f8aa9aa5bcf6806e2b4c98c ASoC: rt5665: add missed regulator_bulk_disable
+         1f566435141047ca7db26aa4b0b6647a25badaee ASoC: lower "no backend DAIs enabled for ... Port" log severity
+         41aad0905568508070842e22ebc5398f8b733939 ASoC: SOF: Fix incorrect use of sizeof in sof_ipc3_do_rx_work()
+         bd76caa26ab53ed3bf13ad541d69f119e910d764 ASoC: Intel: sof-sdw: update jack detection quirk for LunarLake RVP
+         e61994882611d1a49387be37fda005e0ef6226ac ASoC: Intel: sof-sdw-cs42142: fix for codec button mapping
+         90219f1bd273055f1dc1d7bdc0965755b992c045 ASoC: SOF: intel: hda: Clean up link DMA for IPC3 during stop
+         e6475ce253187d2e68867102fddd57341ebbf8eb ASoC: SOF: ipc4-topology: Update the basecfg for copier earlier
+         81113108491edc277d61337ea410c5f89d85faa3 ASoC: Merge up fixes
          
+
+--===============0603351593181755142==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1691664340 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1691664339-7abdca740acc7e869aa61cbeb610327451aa4bca
+
+59146c3cd326a622e9041614842346aada11ca99 81113108491edc277d61337ea410c5f89d85faa3 refs/heads/for-6.6
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTUv9QACgkQJNaLcl1U
+h9DDXAf+O4GP81TaU8NUR4xWFbXxVSBljxmeMrtKkc2OsJ7fsOuszRTu1vcW2kP4
+jfECHZYda+oTdKiaDM/SSILZV3d2BM1LoYAsNEJ8IkaIPl0il7YQxA93HMwUTdIg
+PJPpR0Vs2zYvVAo7XJ4x2o1Iy6HsFiKm5c4eENGd8MJoa25cBDNd0jjvCW6ICiT2
+BPtYMcvtnPzkODLw8kfO+O3TQf+ykfnSQ0ySxnKML7nxLvI4OuGBLkTrqDjnLd7G
+7I70EWKadhIQbM6Lmr3bL60zVZlyhNqmn53FQXBRdvBzcDuVLrMyR7fFxz3Z0I2V
+GxthKELkM02Jl5AlJBPPIfEMQ9lswg==
+=vkIZ
+-----END PGP SIGNATURE-----
+
+--===============0603351593181755142==--
