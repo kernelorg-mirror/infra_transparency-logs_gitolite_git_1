@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 10 Aug 2023 01:58:04 -0000
-Message-Id: <169163268422.23888.331031011015717412@gitolite.kernel.org>
+Date: Thu, 10 Aug 2023 02:21:53 -0000
+Message-Id: <169163411316.9486.8127756517932370215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/deller/parisc-linux
 user: deller
 changes:
   - ref: refs/heads/for-next
-    old: b5eb0239c106b928587b2ad6afb08b2908412817
-    new: 5b2577094dcf083ceec7b36532de3ec64c2f2afa
+    old: 5b2577094dcf083ceec7b36532de3ec64c2f2afa
+    new: 701444db4a20eb973c793c7244f541b0ebf94a0f
     log: |
-         7735f69058459cc201849510c014e22894b1ef18 parisc: fault: Use C99 arrary initializers
-         5b2577094dcf083ceec7b36532de3ec64c2f2afa parisc: ioremap: Fix sparse warnings
+         701444db4a20eb973c793c7244f541b0ebf94a0f parisc: signal: Fix sparse incorrect type in assignment warning
          
