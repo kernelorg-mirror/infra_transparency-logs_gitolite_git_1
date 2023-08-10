@@ -1,48 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0363466725245993630=="
+Content-Type: multipart/mixed; boundary="===============9149799219687354982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 10 Aug 2023 18:58:17 -0000
-Message-Id: <169169389780.9820.5155612680601805925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 10 Aug 2023 19:02:17 -0000
+Message-Id: <169169413769.13053.11123546765253764378@gitolite.kernel.org>
 
---===============0363466725245993630==
+--===============9149799219687354982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 2a3183bf15150d73eeba9ce9a92b9776aeade4f7
-    new: a4abbf8dda849a20449584e22b58dbf20bc2c0ce
-    log: revlist-2a3183bf1515-a4abbf8dda84.txt
+  - ref: refs/heads/staging-next
+    old: 1422b526fba994cf05fd288a152106563b875fce
+    new: c3bdcb94967d4abcfe9bbaeb6b29b46ec894ed5e
+    log: |
+         a0c72b3756066e4adef093fbe5d2bcf9d47befb9 staging: vme_user: fix check alignment should match open parenthesis
+         c0614928432f850badbfbc0e4c9c01770077d4ee Staging: rtl8192e: Rename function TsInitAddBA
+         c54690eb85f35dfb6f2e49e86f0974d6c6bb8958 Staging: rtl8192e: Rename function TsInitDelBA
+         0936cda7a093a58527fbfaece154cf6ff42858f9 Staging: rtl8192e: Rename function BaSetupTimeOut
+         8dcf97801b5233dbd804e3d358bd6daa4eea38c7 Staging: rtl8192e: Rename function TxBaInactTimeout
+         c3bdcb94967d4abcfe9bbaeb6b29b46ec894ed5e Staging: rtl8192e: Rename function RxBaInactTimeout
+         
 
---===============0363466725245993630==
+--===============9149799219687354982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a3183bf1515-a4abbf8dda84.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-40b9341b2ad98548b83ebdc1475aec72d83209ad cpuidle: menu: Skip tick_nohz_get_sleep_length() call in some cases
-d815ff70f6288e7eac98d91393535f28d43327e0 Merge branch 'pm-cpuidle-gov' into bleeding-edge
-eca3f0a8ff86b8f21061033043d243e4a466da05 ACPI: thermal: Drop redundant local variable from acpi_thermal_resume()
-d2884ad0e29d89b96ef892e241088300791f0529 Merge branch 'acpi-thermal' into bleeding-edge
-8d086d0307c7790a037692828159431bb15effe4 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
-1996e9d73217276297ee09c0d57af911c6d468ef Merge 'acpi-bus' material for v6.6 to satisfy dependencies.
-bc840ea5f9a98cfab61f6f8f70a73dac43db27d0 thermal: core: Do not handle trip points with invalid temperature
-33697fa1ab8fce960882f83452eeafa268fb6707 thermal: core: Introduce thermal_zone_device_adjust()
-04e39dbb19f1f595a71011baa9d8964666868c3a thermal: core: Add priv pointer to struct thermal_trip
-fdef5c28b75dae65dd49fa6c8ddf28067e573dda ACPI: thermal: Clean up acpi_thermal_register_thermal_zone()
-1e0395b8646f91bf20a8fd7edb54283edfc95a3d ACPI: thermal: Carry out trip point updates under zone lock
-7b0fc50ed91c695de8b08d2c5e44aa49588cceb8 ACPI: thermal: Introduce struct acpi_thermal_trip
-970dbbae4129385f7cf2f850456557d4a6c1c5c4 thermal: core: Rework and rename __for_each_thermal_trip()
-e4fb2e10b921c3a9d0c609bbfc5bb1b4a7919a8e ACPI: thermal: Use trip point table to register thermal zones
-4f255d9f6c081b919defdf305a4dbe5145580854 ACPI: thermal: Rework thermal_get_trend()
-ba75a5b4ab5857a72a1e0d7a8748474e87a50f8a ACPI: thermal: Drop unnecessary thermal zone callbacks
-27de0a1fe7be52ea9d610ba35615f2683c833d75 ACPI: thermal: Eliminate code duplication from acpi_thermal_notify()
-a4abbf8dda849a20449584e22b58dbf20bc2c0ce Merge branch 'acpi-thermal-next' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691694137 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1691694136-d57cc07f11d63b09497b8247854de9b5af624c29
 
---===============0363466725245993630==--
+1422b526fba994cf05fd288a152106563b875fce c3bdcb94967d4abcfe9bbaeb6b29b46ec894ed5e refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTVNDkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Pb4QAMqywUdX22JZaiePAzFY
+u92l2+Psa9GfN4l6DbHDVZGLyB41BGlieW5/4+7UvXYzKQ0/Q8LwPWFfNYWtzH9W
+dbmHWkw8GQy7pbTMr6q81U37rZCt6edP0D8Z1wKGhrudn9NzBx4Gzu7aP0jGO0qW
+kXupWYrJLlHZDGugig3LkRt/n3oUMoOmQajpvpJ5HhqLc0ZOkWhCCDNWIKt06F76
+kUeOmZN/w9k1sz8EG0JsdSTzvvVwux3ycbJkVABXNQXd5cQyF8wig8crfcu1Or/l
+nB3WioAtlge/9QqsRGGtQZOMkmY9r7uEHfHKb74xiMfWDRLomLuOkUGb+lopeOgY
+BhZFeB+LJsCAyrSUh/3Kdk2cek11niSNy6Yew5oahwttMHj6yBXlzGgNznATMyML
+L0uyviNrgqs+KMXb3qkRt9GZ8h5rxYXnDilPYe0g94PqcUlcolRnToqR5j9MZHGu
+RFarZDBH5CgkGbdpOv793wqj5L+XkJQFclJspN0PgWXpJP6M9XFxNm9p4dQ2fLWs
+R9tH84yDcs6WHJWHTmCmXy3MRbzO273ca0t228Wv2hrbBTt5u60cR9iPvBr0VUPm
+6wKZvavcFy020Yfh9UUDO0sF8kT7t9lG7dFLHV5H5ccwfPAsntbtEccYNIKecU3v
+6M05Yn6SGIIqqHeIcKI6n6gD
+=w3xT
+-----END PGP SIGNATURE-----
+
+--===============9149799219687354982==--
