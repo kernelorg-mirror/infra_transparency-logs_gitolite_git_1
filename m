@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1011405598810517990=="
+Content-Type: multipart/mixed; boundary="===============6598024567267074342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 10 Aug 2023 13:34:57 -0000
-Message-Id: <169167449766.26290.18370112399573800768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Thu, 10 Aug 2023 13:35:05 -0000
+Message-Id: <169167450545.27988.18327271257409292190@gitolite.kernel.org>
 
---===============1011405598810517990==
+--===============6598024567267074342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 374a7f47bf401441edff0a64465e61326bf70a82
     log: revlist-487ae3b42d10-374a7f47bf40.txt
 
---===============1011405598810517990==
+--===============6598024567267074342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ cacc6e22932f373a91d7be55a9b992dc77f4c59b tpm: Add a helper for checking hwrng en
 b4f63b0f2d170b9dfae0de3fd2981424873cce2b Merge tag 'perf-tools-fixes-for-v6.5-3-2023-08-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 374a7f47bf401441edff0a64465e61326bf70a82 Merge tag '6.5-rc5-ksmbd-server' of git://git.samba.org/ksmbd
 
---===============1011405598810517990==--
+--===============6598024567267074342==--
