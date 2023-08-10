@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8932802559919520851=="
+Content-Type: multipart/mixed; boundary="===============2333492138264481121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 10 Aug 2023 14:31:01 -0000
-Message-Id: <169167786134.4099.11604794643056403394@gitolite.kernel.org>
+Date: Thu, 10 Aug 2023 14:31:34 -0000
+Message-Id: <169167789464.4380.2086385142497335040@gitolite.kernel.org>
 
---===============8932802559919520851==
+--===============2333492138264481121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8a70ed9520c5fafaac91053cacdd44625c39e188
-    new: 048c796beb6eb4fa3a5a647ee1c81f5c6f0f6a2a
-    log: revlist-8a70ed9520c5-048c796beb6e.txt
+  - ref: refs/heads/dev-queue
+    old: 0b50d5a40675d0ba185db89191a1fc40a6636f0f
+    new: 6a44e252984143abb352fd3eb33cc7728c452311
+    log: revlist-0b50d5a40675-6a44e2529841.txt
 
---===============8932802559919520851==
+--===============2333492138264481121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a70ed9520c5-048c796beb6e.txt
+Content-Disposition: attachment; filename=revlist-0b50d5a40675-6a44e2529841.txt
 
 07d698324110339b420deebab7a7805815340b4f wifi: brcm80211: handle params_v1 allocation failure
 6a67fe45fe3fffb0721ba068e21103b94a1e57a0 MAINTAINERS: Update entry for rtl8187
@@ -53,5 +53,16 @@ cb034948ac292da82cc0e6bc1340f81be36e117d selftests: forwarding: bridge_mdb_max: 
 acaaffc570f7743ce6395ffba31d34a566e32b85 Merge branch 'selftests-forwarding-various-fixes'
 15c8795dbff8105b9071a7e38e6d4a1649747ec9 Merge tag 'wireless-2023-08-09' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 048c796beb6eb4fa3a5a647ee1c81f5c6f0f6a2a ipv6: adjust ndisc_is_useropt() to also return true for PIO
+52e5c241b3e5bda80b7de6fadb8fc10b3dc31e93 igb: fix hang issue of AER error during resume
+88ae500f9ed7ffa2bd7e165880b814b76bd5fbf5 i40e: Fix VF reset recognition
+41ea2827d391a14d7b1da22df8fa0467b086d772 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+e54f92da78cfa21ed79b1791441c240a05130684 igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+bd97cdb94904853afaab73163d6e8390a07e2f2f igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+b70173b56ea44aebfafe42dc9a847ff900dd8a6c ice: avoid executing commands on other ports when driving sync
+3df3b10157f65d54590bec6f37cc8d69e1ed27aa i40e: fix livelocks in i40e_reset_subtask()
+e1514ddd5d0048d9d5c5c5bf12267f1bd5a6decb i40e: fix misleading debug logs
+5643eeac36ea84797102eecb087ff9ecf47b950f iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+7338e465e382a77938037ab05c48e755b6890e66 iavf: fix FDIR rule fields masks validation
+6a44e252984143abb352fd3eb33cc7728c452311 igc: Fix the typo in the PTM Control macro
 
---===============8932802559919520851==--
+--===============2333492138264481121==--
