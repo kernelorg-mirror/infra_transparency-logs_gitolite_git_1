@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6485514221205657370=="
+Content-Type: multipart/mixed; boundary="===============5277520051889024135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 10 Aug 2023 22:07:30 -0000
-Message-Id: <169170525073.20462.18393899834508388562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 10 Aug 2023 22:07:40 -0000
+Message-Id: <169170526072.20603.4115516979220038467@gitolite.kernel.org>
 
---===============6485514221205657370==
+--===============5277520051889024135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 25aa0bebba72b318e71fe205bfd1236550cc9534
     log: revlist-14f9643dc90a-25aa0bebba72.txt
 
---===============6485514221205657370==
+--===============5277520051889024135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -180,4 +180,4 @@ d78a671eb8996af19d6311ecdee9790d2fa479f0 ibmvnic: Handle DMA unmapping of login 
 5e3d20617b055e725e785e0058426368269949f3 net: hns3: fix strscpy causing content truncation issue
 25aa0bebba72b318e71fe205bfd1236550cc9534 Merge tag 'net-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6485514221205657370==--
+--===============5277520051889024135==--
