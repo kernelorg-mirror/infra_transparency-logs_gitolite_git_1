@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6650008441562403813=="
+Content-Type: multipart/mixed; boundary="===============6736624753941821479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Aug 2023 21:33:28 -0000
-Message-Id: <169170320881.26495.7469528694886420762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 10 Aug 2023 21:37:58 -0000
+Message-Id: <169170347858.31086.16489247954187731559@gitolite.kernel.org>
 
---===============6650008441562403813==
+--===============6736624753941821479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
     old: 29afcd69672a4e3d8604d17206d42004540d6d5c
     new: 6a1ed1430daa2ccf8ac457e0db93fb0925b801ca
     log: revlist-29afcd69672a-6a1ed1430daa.txt
-  - ref: refs/tags/v6.5-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
 
---===============6650008441562403813==
+--===============6736624753941821479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -330,4 +327,4 @@ d78a671eb8996af19d6311ecdee9790d2fa479f0 ibmvnic: Handle DMA unmapping of login 
 4d016ae42efb214d4b441b0654771ddf34c72891 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6a1ed1430daa2ccf8ac457e0db93fb0925b801ca Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============6650008441562403813==--
+--===============6736624753941821479==--
