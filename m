@@ -1,42 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============0895258391537055565=="
+Content-Type: multipart/mixed; boundary="===============8023607320429999420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/kvm-s390-vfio
-Date: Thu, 10 Aug 2023 08:16:48 -0000
-Message-Id: <169165540809.8918.9640043124079810247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 10 Aug 2023 08:17:05 -0000
+Message-Id: <169165542507.9086.14802638810465376671@gitolite.kernel.org>
 
---===============0895258391537055565==
+--===============8023607320429999420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/kvm-s390-vfio
-user: borntraeger
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
-    new: 92c50d840588d367e8960cc9f05debc9ec758261
-    log: revlist-fdf0eaf11452-92c50d840588.txt
+  - ref: refs/heads/i2c/andi-for-next
+    old: 0c89b3257b04950b4d66e9739af3e50bf93c74de
+    new: 7a34bab2daeaae6d2f32bdfa20b876a8f210cd7a
+    log: |
+         7aec2f39a1a4be99a7872e2342a69b96396c3e0c i2c: bcm2835: Use dev_err_probe in probe function
+         45a7a0524bff52360f82277f165bbdef7a199484 i2c: mlxbf: Use dev_err_probe in probe function
+         9a648b3f56c49551081b9560392e9a640aa3d5cb i2c: xlp9xx: Use dev_err_probe in probe function
+         3c5e6ae40164ba6af1efaa1ca94e2cdea0c8f25e i2c: hisi: Use dev_err_probe in probe function
+         605efbf43813857d8110ca0b5bda75f93426a789 i2c: qcom-cci: Use dev_err_probe in probe function
+         d29066600a85b15077221be404a38d9c4bf5b888 i2c: pxa: Use dev_err_probe in probe function
+         235712aa7ebf75a8442905ae672c02a4f9f8468c i2c: dln2: Use dev_err_probe in probe function
+         5d51af11f41eb348d9c3ccb5c74ffa9078673166 i2c: imx-lpi2c: Use dev_err_probe in probe function
+         7a34bab2daeaae6d2f32bdfa20b876a8f210cd7a i2c: synquacer: Use dev_err_probe in probe function
+         
 
---===============0895258391537055565==
+--===============8023607320429999420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf0eaf11452-92c50d840588.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c58448e47baea281e69bc658b536203f5a0badd3 s390/vfio-ap: No need to check the 'E' and 'I' bits in APQSW after TAPQ
-d67f268828261a20864bd3b0a3d74be16748b5e8 s390/vfio-ap: clean up irq resources if possible
-f08fbe1cbfe22c8cf8e571af17561f49d202c959 s390/vfio-ap: wait for response code 05 to clear on queue reset
-d704e154fc7e8423e5d4d77479f378344b1d8eac s390/vfio-ap: allow deconfigured queue to be passed through to a guest
-151dc639b465570cc247fbbd5a46dd800585fc27 s390/vfio-ap: remove upper limit on wait for queue reset to complete
-cca1a8cde18bc04536dc013c0bc45da956ea6659 s390/vfio-ap: store entire AP queue status word with the queue object
-aa166244c4d83eeaba7410f1f1d68938ca3d7353 s390/vfio-ap: use work struct to verify queue reset
-cd81f91b5c7cdd20b0d0921afd1ed9a8e4513d40 s390/vfio-ap: handle queue state change in progress on reset
-c27f2e505cb186e999e8b520f7683ab4ebc4a73a s390/vfio-ap: check for TAPQ response codes 0x35 and 0x36
-bc9717a4d9cbf154be07e20a670636661e32127d s390/uv: export uv_pin_shared for direct usage
-2e610a060d0cc747d394f592a92d02b860029f66 kvm: s390: export kvm_s390_pv*_is_protected functions
-92c50d840588d367e8960cc9f05debc9ec758261 s390/vfio-ap: Make sure nib is shared
+certificate version 0.1
+pusher Andi Shyti <andi.shyti@kernel.org> 1691655423 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1691655423-479209e1158ae43951f692655d4bb6487f33198e
 
---===============0895258391537055565==--
+0c89b3257b04950b4d66e9739af3e50bf93c74de 7a34bab2daeaae6d2f32bdfa20b876a8f210cd7a refs/heads/i2c/andi-for-next
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZNSc/xYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uaPYA+wXvLh/ktrLKatlyPEndiEGeSAso
+Nl/pUOwa3OR1PCJhAP9y75/mdmlrjiYWpiUm5Ga0wmxyk2ge2Mq7VQKpmkodAQ==
+=KVmu
+-----END PGP SIGNATURE-----
+
+--===============8023607320429999420==--
