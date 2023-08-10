@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 09 Aug 2023 23:27:32 -0000
-Message-Id: <169162365227.7284.18306316295250830487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 10 Aug 2023 00:00:40 -0000
+Message-Id: <169162564054.31668.5423723287925900604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/fileE4J7Fk
-    old: 0000000000000000000000000000000000000000
-    new: 9c28423d3caae63e665e2b8d704fa41ac823b2a6
+  - ref: refs/heads/master
+    old: fc6f5856d1775b39712b35049307afdd65df3d27
+    new: 8bf3a4a265bb199e21735639c57f1f652e5b8d45
+    log: |
+         ac04e5f38225d672a10ffd0a9162c3e466b6977b device: Fix not probing drivers at startup
+         8bf3a4a265bb199e21735639c57f1f652e5b8d45 shared/gatt-server: Fix not allowing valid attribute writes
+         
