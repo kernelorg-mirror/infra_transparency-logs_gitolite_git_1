@@ -1,51 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1457004763206465301=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 10 Aug 2023 17:09:40 -0000
-Message-Id: <169168738071.26363.10390287671377292090@gitolite.kernel.org>
-
---===============1457004763206465301==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 10 Aug 2023 17:09:56 -0000
+Message-Id: <169168739607.26529.16597766317691254979@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: 9c28423d3caae63e665e2b8d704fa41ac823b2a6
-    new: 927073ee468d9d9f7ef0fe1eb777a673120e7caa
+  - ref: refs/heads/for-linus
+    old: 6a496a027cd3e0f4466175a73511784622d3cdde
+    new: 2d8b361221bebd342c2af66f168212c5fdf1ef85
+    log: |
+         2d8b361221bebd342c2af66f168212c5fdf1ef85 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: e5628d92ed1ffd594d0bd37c57fbaa6029dda558
+    new: 65050bf4b16206f170b2f33c5caf8180f1bb826c
     log: |
          6870f41033d839fa72195fd2dd37f902b37ea62b dt-bindings: sound: gtm601: Add description
          927073ee468d9d9f7ef0fe1eb777a673120e7caa ASoC: rt715: Add software reset in io init
+         2d8b361221bebd342c2af66f168212c5fdf1ef85 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         65050bf4b16206f170b2f33c5caf8180f1bb826c Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
          
-
---===============1457004763206465301==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1691687379 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691687378-eb1cc6bea15158f95993cb879b63f55cfd85918c
-
-9c28423d3caae63e665e2b8d704fa41ac823b2a6 927073ee468d9d9f7ef0fe1eb777a673120e7caa refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTVGdMACgkQJNaLcl1U
-h9BxqwgAhsZeGEWbSv92+oEKdTg7noAgOajMUENgOR48ZbJosSrLIHDJeZcRlFaa
-qWx9LRu89H6FVyPidIsqJTq+ryptxBb0mDwCT6Hl7si8jZi8xWvMnHAcppH/AIXV
-OXtSqgXk4pMVOVvSXENwv0fh2+8pNq8TShiZLnLjmCk1e6FCdP1GxKKIrLFtI9+m
-Ps8x16HLeK9zlOOFne5tKo79/kKaOd+pYw0qqSlyoTLIXzi1whzOQbjmHHwwy+rA
-9Sqcw2ckdII5Wco/OQN1F5moGUvTgrkqaGuOHyhZCciyxWGSWyLetG613eBkp2FF
-683lawM9FHjbWBoRBcdm5fE46erLPw==
-=AHOS
------END PGP SIGNATURE-----
-
---===============1457004763206465301==--
