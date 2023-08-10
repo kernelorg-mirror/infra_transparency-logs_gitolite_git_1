@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 10 Aug 2023 09:05:46 -0000
-Message-Id: <169165834610.11682.17996677797397908601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Thu, 10 Aug 2023 09:06:19 -0000
+Message-Id: <169165837914.11943.762207867114233019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/tip
-    old: 97c136f3318198e0e60733137222c1c9775edeb2
-    new: f1be39bb373daa08aca76e1d417f604818c49045
-    log: |
-         f1be39bb373daa08aca76e1d417f604818c49045 auto-x86-next: Add x86/bugs
-         
+  - ref: refs/tags/omap-for-v6.6/soc-signed
+    old: 0000000000000000000000000000000000000000
+    new: 7033e408ba2171bd207d6d28d00531be638a7ff3
