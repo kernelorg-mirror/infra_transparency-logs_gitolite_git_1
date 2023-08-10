@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8023607320429999420=="
+Content-Type: multipart/mixed; boundary="===============5535461897600538283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 10 Aug 2023 08:17:05 -0000
-Message-Id: <169165542507.9086.14802638810465376671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 10 Aug 2023 08:26:56 -0000
+Message-Id: <169165601644.15731.16433545467245596977@gitolite.kernel.org>
 
---===============8023607320429999420==
+--===============5535461897600538283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/i2c/andi-for-next
-    old: 0c89b3257b04950b4d66e9739af3e50bf93c74de
-    new: 7a34bab2daeaae6d2f32bdfa20b876a8f210cd7a
-    log: |
-         7aec2f39a1a4be99a7872e2342a69b96396c3e0c i2c: bcm2835: Use dev_err_probe in probe function
-         45a7a0524bff52360f82277f165bbdef7a199484 i2c: mlxbf: Use dev_err_probe in probe function
-         9a648b3f56c49551081b9560392e9a640aa3d5cb i2c: xlp9xx: Use dev_err_probe in probe function
-         3c5e6ae40164ba6af1efaa1ca94e2cdea0c8f25e i2c: hisi: Use dev_err_probe in probe function
-         605efbf43813857d8110ca0b5bda75f93426a789 i2c: qcom-cci: Use dev_err_probe in probe function
-         d29066600a85b15077221be404a38d9c4bf5b888 i2c: pxa: Use dev_err_probe in probe function
-         235712aa7ebf75a8442905ae672c02a4f9f8468c i2c: dln2: Use dev_err_probe in probe function
-         5d51af11f41eb348d9c3ccb5c74ffa9078673166 i2c: imx-lpi2c: Use dev_err_probe in probe function
-         7a34bab2daeaae6d2f32bdfa20b876a8f210cd7a i2c: synquacer: Use dev_err_probe in probe function
-         
+  - ref: refs/heads/vfs.super
+    old: 299935ed4e670eb7b8ad837effe5136bb3929e03
+    new: c31631a8f4a16334695d7e376ce84e0a1dc5b156
+    log: revlist-299935ed4e67-c31631a8f4a1.txt
 
---===============8023607320429999420==
+--===============5535461897600538283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-299935ed4e67-c31631a8f4a1.txt
 
-certificate version 0.1
-pusher Andi Shyti <andi.shyti@kernel.org> 1691655423 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1691655423-479209e1158ae43951f692655d4bb6487f33198e
+9a3f1bdfff1a7f3228c184f13891bc6227e108cd fs: export setup_bdev_super
+55a12b71f145198208dd57ed6fca9390d9469f47 xfs: reformat the xfs_fs_free prototype
+c3b99728306cc85fc98681b584e829dc8dcaa6a4 xfs: remove a superfluous s_fs_info NULL check in xfs_fs_put_super
+65284ab100557fc7fe278c0a664d31fbaf596140 xfs: free the xfs_mount in ->kill_sb
+888c71ebdd904522e356cc27d0d59bbf75c315cf xfs: remove xfs_blkdev_put
+5f5b9d10c8de93f109e858b0daa2d6d180596910 xfs: close the RT and log block devices in xfs_free_buftarg
+38a96c541112ed08d4f9928235809ca44ba3b375 xfs: close the external block devices in xfs_mount_free
+e2d4f53cd004326f269c1da3b4fe358ecc5d3f1a xfs: document the invalidate_bdev call in invalidate_bdev
+b4d69e595e80217741ee38e41c95343d9210c153 ext4: close the external journal device in ->kill_sb
+40e4134d9456ffd3ab3e4248a74dce55cdb8dccd exfat: don't RCU-free the sbi
+fbccee88d4908fb21d7e3d6912cce80824de8539 exfat: free the sbi and iocharset in ->kill_sb
+451594da5766dd4a36c5ab78cfa3f0620740a5b4 ntfs3: rename put_ntfs ntfs3_free_sbi
+ad83e85dc38babae471d4b8f5ebe770484ba95e2 ntfs3: don't call sync_blockdev in ntfs_put_super
+d94f1580f8ece1163f7de3b4126f16cda382c8b6 ntfs3: free the sbi in ->kill_sb
+edb391d7c7c291adf49e8a82005b97d4aa30f62b nilfs2: use setup_bdev_super to de-duplicate the mount code
+3c3e5e4ab55537beabfb89ec5235517996a604bd ext4: make the IS_EXT2_SB/IS_EXT3_SB checks more robust
+35b1aa5fe8cf918fa2f98574c0c16cfeca24bc4d fs: use the super_block as holder when mounting file systems
+a95064c2a8a94720e7c533bffb192219b8df089e fs: stop using get_super in fs_mark_dead
+81a8028c0842180d1280fa4cf18bccd96ac8ef3e fs: export fs_holder_ops
+24e28aacc07a2992e460ff6d111a0c541972fa14 ext4: drop s_umount over opening the log device
+872c90a656685f49f889d758da0270ef85580311 ext4: use fs_holder_ops for the log device
+c50239d079142c5737c5fb9fd77f1e1f916f06e2 xfs: drop s_umount over opening the log and RT devices
+a090e1bac7aa41186032875c9481e25c59f46af8 xfs use fs_holder_ops for the log and RT devices
+93e028f48d27c774af9c49eb57c5eff0983bc8f2 fs: add vfs_cmd_create()
+2538a29608e26409676ab7d1e202b40895254c52 fs: add vfs_cmd_reconfigure()
+c31631a8f4a16334695d7e376ce84e0a1dc5b156 fs: add FSCONFIG_CMD_CREATE_EXCL
 
-0c89b3257b04950b4d66e9739af3e50bf93c74de 7a34bab2daeaae6d2f32bdfa20b876a8f210cd7a refs/heads/i2c/andi-for-next
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZNSc/xYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uaPYA+wXvLh/ktrLKatlyPEndiEGeSAso
-Nl/pUOwa3OR1PCJhAP9y75/mdmlrjiYWpiUm5Ga0wmxyk2ge2Mq7VQKpmkodAQ==
-=KVmu
------END PGP SIGNATURE-----
-
---===============8023607320429999420==--
+--===============5535461897600538283==--
