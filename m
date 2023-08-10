@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4008274858994850457=="
+Content-Type: multipart/mixed; boundary="===============7402629379226175467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 10 Aug 2023 14:03:35 -0000
-Message-Id: <169167621542.15503.1663219163916982284@gitolite.kernel.org>
+Date: Thu, 10 Aug 2023 14:03:43 -0000
+Message-Id: <169167622306.15601.13138692882947004443@gitolite.kernel.org>
 
---===============4008274858994850457==
+--===============7402629379226175467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 8c49c6e1a7b790c4cb9f464c5485117451d91c60
     new: 55b290501928bb2648978257e7a00fc3a64b15fa
     log: revlist-8c49c6e1a7b7-55b290501928.txt
 
---===============4008274858994850457==
+--===============7402629379226175467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -174,4 +174,4 @@ b4f63b0f2d170b9dfae0de3fd2981424873cce2b Merge tag 'perf-tools-fixes-for-v6.5-3-
 374a7f47bf401441edff0a64465e61326bf70a82 Merge tag '6.5-rc5-ksmbd-server' of git://git.samba.org/ksmbd
 55b290501928bb2648978257e7a00fc3a64b15fa Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============4008274858994850457==--
+--===============7402629379226175467==--
