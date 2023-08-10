@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5476829070846751202=="
+Content-Type: multipart/mixed; boundary="===============1137056731716526018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 10 Aug 2023 18:22:39 -0000
-Message-Id: <169169175975.15525.2791165405452323086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Aug 2023 18:22:45 -0000
+Message-Id: <169169176568.15657.1170819910057007477@gitolite.kernel.org>
 
---===============5476829070846751202==
+--===============1137056731716526018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: 252b9116aff4d04176adc931cd11f02169df54f1
     new: c418920567ae6101826cc05cda042f71435830d0
     log: |
@@ -26,28 +26,28 @@ changes:
          c418920567ae6101826cc05cda042f71435830d0 regulator: lp872x: Fix Wvoid-pointer-to-enum-cast warning
          
 
---===============5476829070846751202==
+--===============1137056731716526018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1691691758 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1691691757-1c513c4e25367418ab4934681702e033ffd5d39f
+pusher C3F436CA30F5D8EB 1691691764 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1691691763-eb43fb44c07ea45b7c37ff857a322cccabd1b66f
 
-252b9116aff4d04176adc931cd11f02169df54f1 c418920567ae6101826cc05cda042f71435830d0 refs/heads/for-6.6
+252b9116aff4d04176adc931cd11f02169df54f1 c418920567ae6101826cc05cda042f71435830d0 refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTVKu4ACgkQJNaLcl1U
-h9COkQf/RDGujgsvUZENGUyk5g29TzGMJxTNEPHpMIdIK7j1hTF9A7VhBJIlk/a1
-PjxN7d63AqJs4daGOCrHr3fU6L/9/q3cpOkv9imHcyBWsY4ulipnTMv9lv7gs4Tm
-+6TXzVTzkYA7p43adh/kLfysyLAKSCub878w9/jLLn+xMovtYgDO3Do+lsKrJBlf
-4AT9ZuFPfi5QcZ4i+Hn1ZhMxa4ySbrDZ4tNcg19g0KgdxYhFE0yBCpAq0BxaFiDu
-8m6ka3Nf24yzbdPA6cVbczAbAdP23JJ+nAh5NFFFTgiVnjdN2hXI3lfe2yk+yQsU
-mrAQX5hognVFimWX7IC143aArxGgrw==
-=1Cu0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTVKvQACgkQJNaLcl1U
+h9DaFgf+NQQZw1m8O1Gf14vcML3eB66w2+TXxzj48FkklTLXH6NC1DOLGStI2310
+XKfCPlFD06XwwrQn/0e8snt4cIik8rPCvrStnbUg1cSY3TACdg/SNRR4if7XUeDL
+FtvxlugVlXCZeoQTVnKpETQtze9vtFbq8taynIzgNNOrESNeBD4ilxs6EBInq0Sy
+6dAtolcKt06qfb7XtqyZglWUFwrLexlyUzAp3mnuc76LE8Sr4rG+Iw+74hu1A8Qb
+FOKAo4FxpuMtpTzDMuk/jiUT+51SNNkHtWFmlGp59RUZipVLMKfkuREmau7j6n5n
+JBF9aR5BKZhyGKE0xoDH9D0aG3ZdZQ==
+=K60w
 -----END PGP SIGNATURE-----
 
---===============5476829070846751202==--
+--===============1137056731716526018==--
