@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Aug 2023 18:47:48 -0000
-Message-Id: <169169326807.2215.12944539331268880160@gitolite.kernel.org>
+Date: Thu, 10 Aug 2023 18:48:36 -0000
+Message-Id: <169169331657.2586.11189274881466218139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
-  - ref: refs/tags/net-6.5-rc6
-    old: cd7626eb715c9c4c2c0e55c169f7107d07d0b670
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 6b486676b41c369fe822fe65771ffda7eeb3ea6f
+    new: 5e3d20617b055e725e785e0058426368269949f3
+    log: |
+         5e3d20617b055e725e785e0058426368269949f3 net: hns3: fix strscpy causing content truncation issue
+         
