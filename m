@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0283151094115195785=="
+Content-Type: multipart/mixed; boundary="===============4940994136939258808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 10 Aug 2023 16:57:41 -0000
-Message-Id: <169168666115.17145.2002345699453421462@gitolite.kernel.org>
+Date: Thu, 10 Aug 2023 16:58:02 -0000
+Message-Id: <169168668271.17359.14811471276997253166@gitolite.kernel.org>
 
---===============0283151094115195785==
+--===============4940994136939258808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: e117e7adc637e364b599dc766f1d740698e7e027
-    new: 374a7f47bf401441edff0a64465e61326bf70a82
-    log: revlist-e117e7adc637-374a7f47bf40.txt
+  - ref: refs/heads/master
+    old: b11703f234bc72bb9809059e384ff0973d30ccd7
+    new: 0b903ef77d3a9569b6a2890707445d4177d601f8
+    log: revlist-b11703f234bc-0b903ef77d3a.txt
 
---===============0283151094115195785==
+--===============4940994136939258808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e117e7adc637-374a7f47bf40.txt
+Content-Disposition: attachment; filename=revlist-b11703f234bc-0b903ef77d3a.txt
 
 b2ec116aad38aa9c8b67fad4314e50823adf6949 workqueue: Fix cpu_intensive_thresh_us name in help text
 0e52740ffd10c6c316837c6c128f460f1aaba1ea x86/bugs: Increase the x86 bugs vector size to two u32s
@@ -64,5 +64,14 @@ c0b067588a4836b762cfc6a4c83f122ca1dbb93a Revert "perf report: Append inlines to 
 cacc6e22932f373a91d7be55a9b992dc77f4c59b tpm: Add a helper for checking hwrng enabled
 b4f63b0f2d170b9dfae0de3fd2981424873cce2b Merge tag 'perf-tools-fixes-for-v6.5-3-2023-08-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 374a7f47bf401441edff0a64465e61326bf70a82 Merge tag '6.5-rc5-ksmbd-server' of git://git.samba.org/ksmbd
+89a261e711d94e899b20613ca54583e862fc18ef sysctl: set variable key_sysctls storage-class-specifier to static
+aed316b6a812d18490c5d2f3c97b205689787434 KEYS: Replace all non-returning strlcpy with strscpy
+3976b475fa99bd38a9bbd9bccea76f798d593137 KEYS: DigitalSignature link restriction
+6c19c8155b582f132bbeb73418917903ac277bd2 integrity: Enforce digitalSignature usage in the ima and evm keyrings
+c51fd023e0fa2cc4e35c1eed81d5b0268f02e6d1 tpm_tis-spi: Add hardware wait polling
+23b9dd56d357c94d618f2acd5610a0cfb0746ee0 tpm_tis: Move CRC check to generic send routine
+e302936870c7c77d0e039bfb7a0ee8858fb3ba96 tpm_tis: Use responseRetry to recover from data transfer errors
+deaa2f240fda69891899a64a49339e013c6f4bae tpm_tis: Resend command to recover from data transfer errors
+0b903ef77d3a9569b6a2890707445d4177d601f8 tpm: remove redundant variable len
 
---===============0283151094115195785==--
+--===============4940994136939258808==--
