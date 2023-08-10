@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 10 Aug 2023 00:52:47 -0000
-Message-Id: <169162876702.4138.10500622007973278637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Thu, 10 Aug 2023 01:23:19 -0000
+Message-Id: <169163059914.31519.3692887794838231267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/for-next
-    old: ba7d7449db95ddb264bdb1739c6a02547f08c677
-    new: b5eb0239c106b928587b2ad6afb08b2908412817
-    log: |
-         b5eb0239c106b928587b2ad6afb08b2908412817 parisc: pdt: Use PTR_ERR_OR_ZERO() to simplify code
-         
+  - ref: refs/heads/topic/fcp-abort-at-bus-reset
+    old: 0000000000000000000000000000000000000000
+    new: 36d4185254d6ae7df44d0dc4523f865e84e0695e
