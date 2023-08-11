@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5969930931529699360=="
+Content-Type: multipart/mixed; boundary="===============5856317834493440461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 11 Aug 2023 23:36:35 -0000
-Message-Id: <169179699528.20049.4228917988427954913@gitolite.kernel.org>
+Date: Fri, 11 Aug 2023 23:43:30 -0000
+Message-Id: <169179741082.25493.4444201061969778340@gitolite.kernel.org>
 
---===============5969930931529699360==
+--===============5856317834493440461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: a27c626e098789225f3a93c1051c5b51da167582
-    new: 6aaf663ee04a80b445f8f5abff53cb92cb583c88
-    log: revlist-a27c626e0987-6aaf663ee04a.txt
+  - ref: refs/heads/master
+    old: 86e3fcc466c381ac042879c5394f5cabe39c8197
+    new: 07670ce911823a279b481eed3ba4e86f7d3b1426
+    log: revlist-86e3fcc466c3-07670ce91182.txt
 
---===============5969930931529699360==
+--===============5856317834493440461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a27c626e0987-6aaf663ee04a.txt
+Content-Disposition: attachment; filename=revlist-86e3fcc466c3-07670ce91182.txt
 
 b1e213a9e31c20206f111ec664afcf31cbfe0dbb idmaengine: make FSL_EDMA and INTEL_IDMA64 depends on HAS_IOMEM
 a68b48afc050a9456ed4ed19d8755e0f925b44e6 dmaengine: xilinx: xdma: Fix Judgment of the return value
@@ -246,5 +246,15 @@ feb0eee9aa3c85aa15e3b60f82cb8d1fae28f2fe Merge tag 'parisc-for-6.5-rc6' of git:/
 190bf7b14b0cf3df19c059061be032bd8994a597 Merge tag 'mm-hotfixes-stable-2023-08-11-13-44' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 51e5e551af53259e0274b0cd4ff83d8351fb8c40 tpm: tpm_tis: Fix UPX-i11 DMI_MATCH condition
 6aaf663ee04a80b445f8f5abff53cb92cb583c88 tpm_tis: Opt-in interrupts
+ae299d7c322696b221b8e5cda83a440e48ff3b8a tpm/tpm_tis: Disable interrupts categorically for Lenovo
+e76f25d14f1657999ed0729b36a7e13e33906ca8 tpm/tpm_tis: Disable interrupts for MSI GS66 Stealth 11UG
+3d20cd013c3c189cd7369f16f4dd4cb336212efa KEYS: Replace all non-returning strlcpy with strscpy
+137f582af67d7c0dae60ce8151ff39d3b98526c3 KEYS: DigitalSignature link restriction
+bc34c9609b7cfa119ff54c856d4e1c6b7d69831c integrity: Enforce digitalSignature usage in the ima and evm keyrings
+c0439fb66a390883cb63fd37f3cd83b0badaa28e tpm_tis-spi: Add hardware wait polling
+3fdf85b6e9214f90fd30cd9a55bef815bb8ac5b6 tpm_tis: Move CRC check to generic send routine
+8004882b27610d2b0dc23437a317611eefe02edb tpm_tis: Use responseRetry to recover from data transfer errors
+24b9de7c5c42d7f6330d61ef620515022dd0da35 tpm_tis: Resend command to recover from data transfer errors
+07670ce911823a279b481eed3ba4e86f7d3b1426 tpm: remove redundant variable len
 
---===============5969930931529699360==--
+--===============5856317834493440461==--
