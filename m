@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 11 Aug 2023 21:11:24 -0000
-Message-Id: <169178828479.11740.1818648352427559142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 11 Aug 2023 21:12:51 -0000
+Message-Id: <169178837172.12610.16790590059403176341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/kdevops
-    old: 3a8a670eeeaa40d87bd38a587438952741980c18
-    new: 6e17c6de3ddf3073741d9c91a796ee696914d8a0
+  - ref: refs/heads/seen
+    old: 80a2790f2601974861e20a910ee9d70a4003af47
+    new: 208054d54c7cffd4ed761ff16f6ed4b1d08ee6ae
+    log: |
+         208054d54c7cffd4ed761ff16f6ed4b1d08ee6ae Merge branch 'ob/revert-of-revert-is-reapply' into seen
+         
