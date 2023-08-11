@@ -1,48 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Fri, 11 Aug 2023 16:17:05 -0000
-Message-Id: <169177062565.20261.622064934288636677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Fri, 11 Aug 2023 16:30:15 -0000
+Message-Id: <169177141577.29711.10646587782823163100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: djiang
 changes:
-  - ref: refs/heads/next
-    old: 15b11a1da6a4b7c6b8bb37883f52b544dee2b8fd
-    new: 0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5
+  - ref: refs/heads/libnvdimm-for-next
+    old: fd774e36fe873632b1e9cf067cea46d7d7df55ac
+    new: feb72e9b20823419aaed57801018eeffc7be7e82
     log: |
-         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
-         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
-         
-  - ref: refs/heads/pci
-    old: 15b11a1da6a4b7c6b8bb37883f52b544dee2b8fd
-    new: 0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5
-    log: |
-         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
-         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
-         
-  - ref: refs/tags/for_autotest
-    old: e4c5a4c5ec629e94315451c202804a38fe46f850
-    new: 53a411c607235467629d2b2d1f72debfef822aab
-    log: |
-         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
-         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
-         
-  - ref: refs/tags/for_autotest_next
-    old: e4c5a4c5ec629e94315451c202804a38fe46f850
-    new: 53a411c607235467629d2b2d1f72debfef822aab
-    log: |
-         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
-         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
-         
-  - ref: refs/tags/for_upstream
-    old: e4c5a4c5ec629e94315451c202804a38fe46f850
-    new: 53a411c607235467629d2b2d1f72debfef822aab
-    log: |
-         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
-         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
+         e96d9a938e8946e87daf456e0311020ca6747d99 nvdimm/pfn_dev: Prevent the creation of zero-sized namespaces
+         feb72e9b20823419aaed57801018eeffc7be7e82 nvdimm/pfn_dev: Avoid unnecessary endian conversion
          
