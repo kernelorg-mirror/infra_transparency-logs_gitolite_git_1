@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 11 Aug 2023 06:17:22 -0000
-Message-Id: <169173464210.27574.17359954602182517966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Fri, 11 Aug 2023 07:28:36 -0000
+Message-Id: <169173891688.12931.8906095062431612211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 216710a492dde71fc7674e9962727bccb08dfaeb
-    new: d3dec5bb61ce113cc84146bf4a72f752256d3767
+  - ref: refs/heads/main
+    old: a8de94e5f033afc1424dc37933c9d1ecb3dc1b9f
+    new: f67c4146d7b52bfc95f0d21353f2112c6ab3570d
     log: |
-         d3dec5bb61ce113cc84146bf4a72f752256d3767 cpufreq: amd-pstate-ut: Modify the function to get the highest_perf value
+         714fa11590febc9cf6fd3c6309374a040a05ebb0 kexec/arm64: Simplify the code for zImage
+         1572b91da7c4512d111a340185914c34acb0a139 kexec: Introduce a member kernel_fd in kexec_info
+         f41c4182b0c403ea93cf47dcdc96437f5d6c53da kexec/zboot: Add arch independent zboot support
+         fc7b83bdf734a42b02f7343fe73655f896332d95 arm64: Add ZBOOT PE containing compressed image support
+         f67c4146d7b52bfc95f0d21353f2112c6ab3570d arm64: Hook up the ZBOOT support as vmlinuz
          
