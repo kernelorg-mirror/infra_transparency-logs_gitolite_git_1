@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 11 Aug 2023 15:44:34 -0000
-Message-Id: <169176867400.27526.2459737365901186613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Fri, 11 Aug 2023 15:45:13 -0000
+Message-Id: <169176871304.29465.7828256918716913457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 55b290501928bb2648978257e7a00fc3a64b15fa
-    new: 0c9b5c9730c9d010a1bf12240628b69e714f9dc7
+  - ref: refs/heads/for-next
+    old: 996a3cff157113e80b8a08706de489707a0e708e
+    new: 9f9a7f057f079977fe587811c21cdc35689995b8
     log: |
-         878460e8d0ff84a0edbaff9d06f9d9dbe8353800 perf build: Remove -Wno-unused-but-set-variable from the flex flags when building with clang < 13.0.0
-         e59fea47f83e8a9ac5b772d140a0d67d50ba0ed8 perf symbols: Fix DSO kernel load and symbol process to correctly map DSO to its long_name, type and adjust_symbols
-         0c9b5c9730c9d010a1bf12240628b69e714f9dc7 perf bpf: Remove support for embedding clang for compiling BPF events (-e foo.c)
+         05d15c2629fd5a030f804df6a7a4e76ba9c5a0b2 gfs2: low-memory forced flush fixes
+         0d44f089d5577ba20d72524ef963e2f346260a0b gfs2: Remove explicit SDF_ bit numbers
+         fa6629ae14818c34410b112b19ac4fd1fce29c94 gfs2: prevent gfs2_logd from spinning
+         9f9a7f057f079977fe587811c21cdc35689995b8 gfs2: journal flush threshold fixes and cleanup
          
