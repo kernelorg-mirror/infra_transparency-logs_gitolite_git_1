@@ -1,66 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============1370152765035118500=="
+Content-Type: multipart/mixed; boundary="===============1284850197580799875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 11 Aug 2023 19:29:10 -0000
-Message-Id: <169178215051.32058.10880381484505938183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 11 Aug 2023 19:30:43 -0000
+Message-Id: <169178224336.2110.8366960948127677996@gitolite.kernel.org>
 
---===============1370152765035118500==
+--===============1284850197580799875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 03838ed1dd79605f764b2a99933ff0697ff4ceaa
-    new: b2c47cd736296cbb8d5a15a5ffb089a615e3d033
-    log: revlist-03838ed1dd79-b2c47cd73629.txt
+  - ref: refs/heads/char-misc-testing
+    old: 22884cf84ce5c1f1f7badf47cb42a8d8bd8bd864
+    new: 25a7de32c89d63d11257a67ff42f24630f8eabf1
+    log: revlist-22884cf84ce5-25a7de32c89d.txt
 
---===============1370152765035118500==
+--===============1284850197580799875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03838ed1dd79-b2c47cd73629.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-846691f5483d61259db2f4d6a3dce8b98d518794 PCI: switchtec: Use normal comment style
-0fb53e64705ae0fabd9593102e0f0e6812968802 PCI: switchtec: Add support for PCIe Gen5 devices
-d5af729dc2071273f14cbb94abbc60608142fd83 PCI: Mark NVIDIA T4 GPUs to avoid bus reset
-5e70d0acf0825f439079736080350371f8d6699a PCI: Add locking to RMW PCI Express Capability Register accessors
-fb0171a4c01b4825e36a5584eaa84291179c64ce PCI: Make link retraining use RMW accessors for changing LNKCTL
-5f75f96c61039151c193775d776fde42477eace1 PCI: pciehp: Use RMW accessors for changing LNKCTL
-e09060b3b6b4661278ff8e1b7b81a37d5ea86eae PCI/ASPM: Use RMW accessors for changing LNKCTL
-fbf7c1c2c573cd2edff29fc11726f822b7883930 drm/amdgpu: Use RMW accessors for changing LNKCTL
-26a031ba184a77d53f17efaa854c1b14ee1681d0 drm/radeon: Use RMW accessors for changing LNKCTL
-656a007b67eb2a53e4e76344e9eec0e0779aad71 net/mlx5: Use RMW accessors for changing LNKCTL
-56b5a3c755d6d586ec6bf62008744812f9a9c25f wifi: ath11k: Use RMW accessors for changing LNKCTL
-9a1875d2135580826fa2f8213160fdc930e9b337 wifi: ath12k: Use RMW accessors for changing LNKCTL
-bfbac0efb0a6369153a1dbff7ebc0d203704188b wifi: ath10k: Use RMW accessors for changing LNKCTL
-b0d72b46ecbb3dfe59278df9924c611f020bc2a4 PCI: Document the Capability accessor RMW improvements
-8ca91d7781685af8b27dd08df8f199af59876e6f PCI/P2PDMA: Use pci_dev_id() to simplify the code
-673e9bca8e67d02ca8ad1cda2f78f5546ff49caf PCI/sysfs: Move declarations to linux/pci.h
-cec66f297455c3bedfd236e5f3d9cb9aad909dc3 PCI: Remove unused function declarations
-5cd903bce9ddd234d76e67d0dfaf0aab0f11a2e0 PCI/VPD: Add runtime power management to sysfs interface
-d3fcd7360338358aa0036bec6d2cf0e37a0ca624 PCI: Fix runtime PM race with PME polling
-f9aaa59b5c1c3338a2de3db3d89f04223a4761be Merge branch 'pci/aer'
-6f7e20290677be278665f8febd225c72e43481a3 Merge branch 'pci/hotplug'
-09364bfb63f76a660ff4fa698a4864c1e039fcc6 Merge branch 'pci/ioport'
-4553e34824fb8edb7d69a7fd8d0826ce61ad7ef7 Merge branch 'pci/pcie-rmw'
-c86302e792d46ffaa9f2561dc3d2e9721b70269a Merge branch 'pci/virtualization'
-19150026e5c3d31ccaa2200e69fdd3028348fe1f Merge branch 'pci/vpd'
-624a155baad0e2f92a92ab9b71a7326856fe71a8 Merge branch 'pci/controller/apple'
-c96d97eb6f23a5ffc5ac0e83329676766aaa526d Merge branch 'pci/controller/dwc'
-9e389a99818c7c0a6a6079bf578b0091fb8f7a95 Merge branch 'pci/controller/iproc'
-f6815306b3dab3ebd94c264f94a7a838256c7bc7 Merge branch 'pci/controller/microchip'
-dc08cbb03313c2a01536c951b1d681851d501720 Merge branch 'pci/controller/qcom'
-20d198510f0de459e4cd05f6e2864ebf73e399a7 Merge branch 'pci/controller/rockchip'
-f60d23e478771181a619b1b172b2c120c4efaf86 Merge branch 'pci/controller/tegra194'
-45b97883ea59dacef90b8606107ea5cb69e0a033 Merge branch 'pci/controller/remove-void-cast'
-957f1241ae528cadb80ffba6dea676a46f16057c Merge branch 'pci/controller/resources'
-f762d9580e3cd2eb4da9f72aa8fa33d0a46a107a Merge branch 'pci/controller/switchtec'
-b2c47cd736296cbb8d5a15a5ffb089a615e3d033 Merge branch 'pci/misc'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691782239 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1691782239-305dac31431cdb70147e1eade09ba95b3b8be25d
 
---===============1370152765035118500==--
+22884cf84ce5c1f1f7badf47cb42a8d8bd8bd864 25a7de32c89d63d11257a67ff42f24630f8eabf1 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTWjF8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v58P/iHxedAV3W6n4VMYiLZC
+eVCNrBvFt/GUkbnW6DkD7QN4akK3vqjBWM6+zvjlqgZ1YVvPtxhPesWpbNnW4zu0
+FCsdJPPPfBrmhH6TS3brdzUCrs9fl544e5X6NshN7wvvsUR9NC2qob3sT++20wHo
+R8vVBH7WwBQvrqgIBVY1H9q3mIEt4eA5kFDS113cBK28yz4Ds8k7OvlU6EhCfhXv
+LhrRSpluFwTaGZpcQg/iMgXse28b7o3D/uS0qq1kdYvymMjC2LufLDCMYRXJOKYh
+BvdJTAYtGqpoYZY7Xu97+zwlQqeb7hCuUKzx7IkyP7+Y4WctnKeq7/jCCTn3jLNp
+lnUieHZqccI/qzB0jFK5VGiOva4Py71lTKX1Uni0N1adZpH5pU+O94l7TVYqbIxw
+GSO/cByZ7JjMS4xPRTs4bCljDNi9AWsUAgJsKcl3ePL29yHx6xgi1cNf61vefSQu
+utb1OWGqpXv3LokzdtJRwgzsPrwCB/6Im0XtVf5cI5LvAg2OrmmotCk7hHADaw0e
+qUtFA8JxuGIfEsCNUHLir7xyqK9sjViWLN25roPTLGG6Qf+Sf0QuEaT5Pfp6Z55i
+AfsRLIjOllDs32OKSDtGA+bWBsCERDigoXIkRdw6TYhV+Dp3NTHOegXORsdHApUs
+65IxcA2RPG+NaVUIrkkTmlQr
+=wq7x
+-----END PGP SIGNATURE-----
+
+--===============1284850197580799875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-22884cf84ce5-25a7de32c89d.txt
+
+cabce92dd805945a090dc6fc73b001bb35ed083a bus: mhi: host: Skip MHI reset if device is in RDDM
+15f6705756876d3bc953a792a608dd1ae97062d4 bus: mhi: host: pci_generic: Add support for IP_SW0 channels
+110f113a4898e8a45ea14a3b0108cfcd7ecd52d5 bus: mhi: host: pci_generic: Add support for Quectel EM160R-GL modem
+1cad976a1be9e97ceca5797b7e1000e2f1a9980e bus: mhi: host: pci_generic: Add support for Quectel RM520N-GL modem
+104a8c5dd943511507cf7c0aa7ff7f6159eac4ea bus: mhi: host: pci_generic: Add support for Dell DW5932e
+d0184830e611d0881e014e0fb10da707edbb3f71 bus: mhi: host: use vmalloc_array and vcalloc
+14a2714085acd94da5774081a5735c655540b632 docs: ABI: sysfs-bus-mhi: Update contact info
+efe47a18e43f59f063a82ccaa464a3b4844bb8a8 bus: mhi: host: allow MHI client drivers to provide the firmware via a pointer
+7b672d703e76094595500afe67db29a4c9763081 bus: mhi: host: pci_generic: Add support for Quectel RM520N-GL Lenovo variant
+b0f9f3607959a24685bb5ebeed57cc2f8a66869d bus: mhi: host: remove unused-but-set parameter
+0724869ede9c169429bb622e2d28f97995a95656 bus: mhi: host: pci_generic: add support for Telit FE990 modem
+25a7de32c89d63d11257a67ff42f24630f8eabf1 Merge tag 'mhi-for-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
+
+--===============1284850197580799875==--
