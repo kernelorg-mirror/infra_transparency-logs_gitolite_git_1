@@ -1,58 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8581845670401481893=="
+Content-Type: multipart/mixed; boundary="===============5743512258000228513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 11 Aug 2023 19:20:01 -0000
-Message-Id: <169178160126.24970.15083137707463635598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 11 Aug 2023 19:20:07 -0000
+Message-Id: <169178160756.26702.12142793242538518138@gitolite.kernel.org>
 
---===============8581845670401481893==
+--===============5743512258000228513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/tty-linus
-    old: a4a79e03bab57729bd8046d22bf3666912e586fb
-    new: 04c7f60ca477ffbf7b7910320482335050f0d23a
-    log: |
-         3c4f8333b582487a2d1e02171f1465531cde53e3 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
-         3d9e6f556e235ddcdc9f73600fdd46fe1736b090 serial: 8250: drop lockdep annotation from serial8250_clear_IER()
-         04c7f60ca477ffbf7b7910320482335050f0d23a serial: core: Fix serial core port id, including multiport devices
-         
+  - ref: refs/heads/seen
+    old: a5446fb90bba8a8523534f2b64140bfd713839b6
+    new: 80a2790f2601974861e20a910ee9d70a4003af47
+    log: revlist-a5446fb90bba-80a2790f2601.txt
 
---===============8581845670401481893==
+--===============5743512258000228513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a5446fb90bba-80a2790f2601.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691781597 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1691781597-2da2b973ce54f0059c04f92f1ff8919a11b950d2
+fd4faf7a5d5d92ca3e50f5a6ee2f94676d83530b t1092: add tests for 'git check-attr'
+4723ae1007f94cbb391c4fb5a042adccd038d9ae attr.c: read attributes in a sparse directory
+f9815878c16892aae7c5be11ac67200aef6e4ff6 check-attr: integrate with sparse-index
+58912cc82362997c1bd3759648f8d3470187226e sequencer: beautify subject of reverts of reverts
+7139d1298993b0148ad429cd7cb4824223b7f420 doc: revert: add discussion
+642de88f0673d2a26608ae4d69ee0a517f06b549 SQUASH??? reword by Linus Arver and Phillip Wood
+c36fd52b5356a9c4525348b8d961053c6a51bea1 revert: force explaining overly complex revert chain
+3526e5cfeedb3a2a23a8ee24d0325b8c5a94f959 Merge branch 'sl/sparse-check-attr' into seen
+686c9165b91ed8c850675df5a38b91b3b7009fae Merge branch 'la/trailer-test-and-doc-updates' into seen
+5e2a1e2e405928254e28e980f2a0a55248db4392 Merge branch 'ws/svn-with-new-readline' into seen
+bbc5abbb9f947b296651ea408eea1fe3ac9cf29d Merge branch 'cc/repack-sift-filtered-objects-to-separate-pack' into seen
+80a2790f2601974861e20a910ee9d70a4003af47 Merge branch 'ob/revert-of-revert-is-reapply' into seen
 
-a4a79e03bab57729bd8046d22bf3666912e586fb 04c7f60ca477ffbf7b7910320482335050f0d23a refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTWid4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+onQQAIjSS512r++H3EGB17tB
-yn4syVlVvx+hxhysP6Fxf1qbXTlq7UKTsFLSbHyQgFs4VH1yt5tNtOfJ057YtuIW
-fLmsCXtHneCdHYHOyBfZHcY1seD4Zuks7fJyYZkkEUX+mujrNEFpJSFGXSIqrC/m
-WOEkXxO30tBsSBeKsWQecmVvw5caq691+RLV+i9awBirf0DBvuYHPjdK5MhjFU+w
-JwR6TjUjEoWvmx4Q3Q1wpIRtH4hlMbPiHvRREfjQmbMeLsGuAZiCOo8c9V1MtRJj
-rK07pqFbQwUbWMA0jo9TF8jlbLaPnhEca21ePK0YQ+7iDcaqz0qRKrIaMCfdXoei
-dlc0z8F2vGRu/o3P8P4mJJfHNLWSpvlk5cruNqnGiDrbhlUzAyWlalsLW6XNLXef
-ntdG06+Jm65FzUiUlZwQzDpA/CpoPlyQk17AeGEjbhBn0OSdy8HffLtQrrlr81Hb
-P4tijF/8+THUM0kfYzCoZ2ZhUsBNnVmFuyMyOPWgA488i0nXWKzgD9ixBv7mFxtr
-CxfrMduyIpTX46jCm41w3isrCvQp8KkLOfZwVP7sx76C8G5qqd6SH+d+5FHaMpse
-t14d2hg/AjRoP6gGRxlewtNbS7R3B5S1R1m5ha19nkbDzDg4RkG5I787SHsSsDgH
-+lf43ZoGkwnVvYQzf/xlimpw
-=DoLq
------END PGP SIGNATURE-----
-
---===============8581845670401481893==--
+--===============5743512258000228513==--
