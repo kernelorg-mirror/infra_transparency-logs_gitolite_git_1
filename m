@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 11 Aug 2023 08:50:40 -0000
-Message-Id: <169174384022.8386.4013838532982296212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 11 Aug 2023 08:51:15 -0000
+Message-Id: <169174387552.8700.8033489174884072134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 9ebbb29db9cae23e29881b9a268767d4baa53cdb
-    new: 51b813176f098ff61bd2833f627f5319ead098a5
+    old: 12aa0a3b93f3adf61b6f7937c3aac8585ced3fca
+    new: a20b4c5f3a0ed257b9c0642bb935e3de2e23bce8
     log: |
-         51b813176f098ff61bd2833f627f5319ead098a5 virtio-net: set queues after driver_ok
+         a20b4c5f3a0ed257b9c0642bb935e3de2e23bce8 octeon_ep: Add control plane host and firmware versions.
          
