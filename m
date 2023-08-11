@@ -1,28 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 11 Aug 2023 11:38:13 -0000
-Message-Id: <169175389352.2352.2671561840971076795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 11 Aug 2023 11:39:21 -0000
+Message-Id: <169175396167.2866.2750634874990922022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/for-joerg/arm-smmu/bindings
-    old: a7a7c8c1a06a47ad87d9b10cec6a7cde4a041b23
-    new: b606e2e8eded40cacb0a0f0cd60cb45420e9b555
+  - ref: refs/heads/for-next/cpufeature
+    old: d70175b1470c4bdc8643fd744d722a00c7f0fb17
+    new: 01948b09edc3fecf8486c57c2d2fb8b80886f3d0
     log: |
-         b606e2e8eded40cacb0a0f0cd60cb45420e9b555 dt-bindings: arm-smmu: Fix MSM8998 clocks description
+         01948b09edc3fecf8486c57c2d2fb8b80886f3d0 arm64/fpsimd: Only provide the length to cpufeature for xCR registers
          
-  - ref: refs/heads/for-joerg/arm-smmu/updates
-    old: e30c960d3f44b7aaa0861ce4afa8ba8b8f4b0f03
-    new: 757d591d965f5fc1cc9888ab480988b6ec8e58fa
+  - ref: refs/heads/for-next/selftests
+    old: 672dbf97f6123ffe61ee46bd8bfbbe1cae6de815
+    new: 358b763ee64b11f45287c286e1f6145729ed49ab
     log: |
-         ec2ff4d8160f5d6fdf1b5be7a47e3ff29563b0ba iommu/arm-smmu-qcom: Sort the compatible list alphabetically
-         6ebaa77ce483effb3e21a22bf534517e12af8c39 iommu/arm-smmu-qcom: Add SM6375 DPU compatible
-         7e85676a4523c096ec02ff1abcd1a6dd52604002 iommu/arm-smmu-qcom: Add SM6350 DPU compatible
-         757d591d965f5fc1cc9888ab480988b6ec8e58fa iommu/arm-smmu-qcom: Add SM6375 SMMUv2
+         eb27c76ac9e1cf5e278703db8f2fea1ed5d3f78a kselftest/arm64: add float-point feature to hwcap test
+         09d2e95a04ad6fd258082ea3ba9a5bf52bbd5229 kselftest/arm64: add crc32 feature to hwcap test
+         71b634aba36201fa24e214db1be7ce50cf6e1863 kselftest/arm64: add DEF_SIGHANDLER_FUNC() and DEF_INST_RAISE_SIG() helpers
+         fd49cf088867f8fad7515b5424d301ca5d147070 kselftest/arm64: add test item that support to capturing the SIGBUS signal
+         82e7882b141c177b1b09ae66e1b2ae791a9a3918 kselftest/arm64: add lse and lse2 features to hwcap test
+         358b763ee64b11f45287c286e1f6145729ed49ab kselftest/arm64: Size sycall-abi buffers for the actual maximum VL
          
+  - ref: refs/heads/for-next/entry
+    old: 0000000000000000000000000000000000000000
+    new: f130ac0ae4412dbe4cbe32d0449a6b694b459ce6
