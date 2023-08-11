@@ -1,23 +1,48 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 11 Aug 2023 16:08:17 -0000
-Message-Id: <169177009713.13857.10768269314902718409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Fri, 11 Aug 2023 16:17:05 -0000
+Message-Id: <169177062565.20261.622064934288636677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/testme
-    old: eb3515dc99c7c85f4170b50838136b2a193f8012
-    new: 8de8a60ddd6a1697c2348f13e72de9b7d727651b
+  - ref: refs/heads/next
+    old: 15b11a1da6a4b7c6b8bb37883f52b544dee2b8fd
+    new: 0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5
     log: |
-         bee6cf1a80b54548a039e224c651bb15b644a480 x86/sev: Do not try to parse for the CC blob on non-AMD hardware
-         39163d5479285a36522b6e8f9cc568cc4987db08 x86/vdso: Choose the right GDT_ENTRY_CPUNODE for 32-bit getcpu() on 64-bit kernel
-         7324f74d39531262b8e362f228b46512e6bee632 x86/linkage: Fix typo of BUILD_VDSO in asm/linkage.h
-         1b8b1aa90c9c0e825b181b98b8d9e249dc395470 x86/mm: Fix VDSO and VVAR placement on 5-level paging machines
-         8de8a60ddd6a1697c2348f13e72de9b7d727651b x86/sgx: Resolves SECS reclaim vs. page fault for EAUG race
+         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
+         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
+         
+  - ref: refs/heads/pci
+    old: 15b11a1da6a4b7c6b8bb37883f52b544dee2b8fd
+    new: 0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5
+    log: |
+         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
+         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
+         
+  - ref: refs/tags/for_autotest
+    old: e4c5a4c5ec629e94315451c202804a38fe46f850
+    new: 53a411c607235467629d2b2d1f72debfef822aab
+    log: |
+         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
+         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
+         
+  - ref: refs/tags/for_autotest_next
+    old: e4c5a4c5ec629e94315451c202804a38fe46f850
+    new: 53a411c607235467629d2b2d1f72debfef822aab
+    log: |
+         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
+         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
+         
+  - ref: refs/tags/for_upstream
+    old: e4c5a4c5ec629e94315451c202804a38fe46f850
+    new: 53a411c607235467629d2b2d1f72debfef822aab
+    log: |
+         3d449bc6030904ead784a4e4644c9640c2152796 hw/pci-host: Allow extended config space access for Designware PCIe host
+         0f936247e8ed0ab5fb7e75827dd8c8f73d5ef4b5 pci: Fix the update of interrupt disable bit in PCI_COMMAND register
          
