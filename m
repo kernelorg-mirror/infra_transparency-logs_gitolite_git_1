@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 11 Aug 2023 20:47:01 -0000
-Message-Id: <169178682178.25603.12802931509410819132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 11 Aug 2023 20:47:54 -0000
+Message-Id: <169178687458.26002.1971903919077193824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 2b740b50da7c3ce9ddd38511d3d7a181efa408a3
-    new: c3b4f9b30ebf7a5f5891de842426bb1826b3cbdd
+  - ref: refs/heads/asm-generic
+    old: 4dd595c34c4bb22c16a76206a18c13e4e194335d
+    new: cdea694d7616727c2028ddac4d05ce4454d2e1db
     log: |
-         c3b4f9b30ebf7a5f5891de842426bb1826b3cbdd Fri Aug 11 08:45:52 PM UTC 2023
+         cdea694d7616727c2028ddac4d05ce4454d2e1db asm-generic: partially revert "Unify uapi bitsperlong.h for arm64, riscv and loongarch"
+         
+  - ref: refs/heads/master
+    old: 4dd595c34c4bb22c16a76206a18c13e4e194335d
+    new: cdea694d7616727c2028ddac4d05ce4454d2e1db
+    log: |
+         cdea694d7616727c2028ddac4d05ce4454d2e1db asm-generic: partially revert "Unify uapi bitsperlong.h for arm64, riscv and loongarch"
          
