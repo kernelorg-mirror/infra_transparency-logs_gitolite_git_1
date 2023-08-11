@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 11 Aug 2023 15:25:50 -0000
-Message-Id: <169176755008.13873.918523387423901846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Fri, 11 Aug 2023 15:26:30 -0000
+Message-Id: <169176759029.14216.4260183231012689659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/tags/pci-v6.5-fixes-1
+  - ref: refs/tags/mhi-for-v6.6
     old: 0000000000000000000000000000000000000000
-    new: 129dde9ce8fc29cbd6781af145ff2d2f3724bb3c
+    new: ccd89c8005676db0f14b0bc4e8d194290bb3e3b8
