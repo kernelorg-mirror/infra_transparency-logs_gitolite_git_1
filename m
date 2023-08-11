@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8636962141063183126=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 11 Aug 2023 15:41:44 -0000
-Message-Id: <169176850463.26368.18140375191059887781@gitolite.kernel.org>
-
---===============8636962141063183126==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 11 Aug 2023 15:44:00 -0000
+Message-Id: <169176864072.27270.1210482509788108664@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 62698a71d14db2b382832b0faf56cc81505bf9f7
-    new: 30e7921c4607fd41a569c88e828ecf72bd32f170
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 55b290501928bb2648978257e7a00fc3a64b15fa
+    new: 0c9b5c9730c9d010a1bf12240628b69e714f9dc7
     log: |
-         30e7921c4607fd41a569c88e828ecf72bd32f170 6.4-stable patches
+         878460e8d0ff84a0edbaff9d06f9d9dbe8353800 perf build: Remove -Wno-unused-but-set-variable from the flex flags when building with clang < 13.0.0
+         e59fea47f83e8a9ac5b772d140a0d67d50ba0ed8 perf symbols: Fix DSO kernel load and symbol process to correctly map DSO to its long_name, type and adjust_symbols
+         0c9b5c9730c9d010a1bf12240628b69e714f9dc7 perf bpf: Remove support for embedding clang for compiling BPF events (-e foo.c)
          
-
---===============8636962141063183126==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691768503 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1691768502-02fda715297e152f824abc8e4847675369c27e25
-
-62698a71d14db2b382832b0faf56cc81505bf9f7 30e7921c4607fd41a569c88e828ecf72bd32f170 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTWVrcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RYkP/3QB5z5CRKlmoTRHKEuc
-YCtt3tCQTr4poY2J4kxawU0YOszAcRzsi8r/w10JypJa3LwBMJRfiMb0HKARLiIP
-kLUqhbAGNdWBnE7ddZ3PNXXWwlHduMR6+SdbvH9Jbe2MZ6q8AXokROWPJy3yYT3P
-Xqm8T9/tXgiruGmB+eJ2UvMmKwNC5QvzZ5Dt9hWnjiqRaejubZHBIFUw9bJCIHnq
-AcuSBdsceX4p9CY+eIBXuXicg82DTTNsa9nOZg31s2EB554rz/rmzeNJUOYqWbao
-h6y125/neYw/wZWyhv/CnLw1ZfQxIZsMBERC3r4uyNEoPJKIYdEf8UnRxD320HSt
-nljwkSQkr8rUWIdTKJU+G5CFbOhmSeeK2vKiofzKYz1rGTwZPiej+w/3omK9ZI1Q
-Jxp/vmMyEwFzaf4zLWmKpigIhoEQduKSYDzZ2jAiY6w4qloWHmFQxnCy0pm4YRdv
-/cDMWZRKBUZMaZas/J0VA/0CNbyMk/Qjobcm4ExfNyXSGa68JIp1HB2dTc6RAwxb
-ECvfkDP5lBfVtcb187DesACzZzXYFt64+XFPBH3lu7D/LvyAiO1/OkdyOneb1HEc
-7MX5/BwNxCnCTbk6w23WUp50De8HGIXHGmgJ1NP++TeuvzN0aOY4aVYH6rNX4yws
-W5faIPAel63P51FORmFf15tv
-=SGxE
------END PGP SIGNATURE-----
-
---===============8636962141063183126==--
