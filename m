@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0148421643231341198=="
+Content-Type: multipart/mixed; boundary="===============4103415638345335538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 11 Aug 2023 09:02:37 -0000
-Message-Id: <169174455796.18477.9948046622863888765@gitolite.kernel.org>
+Date: Fri, 11 Aug 2023 09:02:54 -0000
+Message-Id: <169174457475.18653.13081522515923969265@gitolite.kernel.org>
 
---===============0148421643231341198==
+--===============4103415638345335538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 7a5a0b57f393ad425e6fc6938e1aaea31bfb6d8f
-    new: 854c4c744abb14bca72e0afffc63793f844d7d77
-    log: revlist-7a5a0b57f393-854c4c744abb.txt
+  - ref: refs/heads/master
+    old: 71606d5f55d317b8dba879176cb3fa0d988d8d47
+    new: 86e3fcc466c381ac042879c5394f5cabe39c8197
+    log: revlist-71606d5f55d3-86e3fcc466c3.txt
 
---===============0148421643231341198==
+--===============4103415638345335538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a5a0b57f393-854c4c744abb.txt
+Content-Disposition: attachment; filename=revlist-71606d5f55d3-86e3fcc466c3.txt
 
 a8f014ec6a214c94ed6a9ff5ba8904a5cadd42a6 vboxsf: Use flexible arrays for trailing string member
 cdddb626dc053a2bbe8be4150e9b67395130a683 media: venus: Use struct_size_t() helper in pkt_session_unset_buffers()
@@ -42,5 +42,13 @@ b4f63b0f2d170b9dfae0de3fd2981424873cce2b Merge tag 'perf-tools-fixes-for-v6.5-3-
 1edc9a2fb146eb1f0ade427ff23d49d461673f67 tpm: tpm_tis: Fix UPX-i11 DMI_MATCH condition
 42a1d1d88339697086bbd775a26a9f815da8419f tpm/tpm_tis: Disable interrupts categorically for Lenovo
 854c4c744abb14bca72e0afffc63793f844d7d77 tpm/tpm_tis: Disable interrupts for MSI GS66 Stealth 11UG
+4a41628dcb5ca58e3cce46021c5803e70e0fd97d KEYS: Replace all non-returning strlcpy with strscpy
+73ea15e76230701765d978ff8767eceb67beea46 KEYS: DigitalSignature link restriction
+a6054c8a86434d472e91ac9905b1e71d4c9b446b integrity: Enforce digitalSignature usage in the ima and evm keyrings
+03107180c4c32e25c3c861ba8833dd0daf13e459 tpm_tis-spi: Add hardware wait polling
+b1b4a3d9684c0cb210597a19a296ea6e23c55937 tpm_tis: Move CRC check to generic send routine
+f290469c3f00e9c01781ecef9ecb5d4b52085371 tpm_tis: Use responseRetry to recover from data transfer errors
+f1105d55bb24b68d4b61cad54f77393f5409d734 tpm_tis: Resend command to recover from data transfer errors
+86e3fcc466c381ac042879c5394f5cabe39c8197 tpm: remove redundant variable len
 
---===============0148421643231341198==--
+--===============4103415638345335538==--
