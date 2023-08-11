@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 11 Aug 2023 17:23:04 -0000
-Message-Id: <169177458482.3817.4046835082901451978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Fri, 11 Aug 2023 17:45:17 -0000
+Message-Id: <169177591737.20938.12486979159125668156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 6130cdd83d4078d7cbf7792e201d53bf944ee035
-    new: 0ae8f7d535548333e0849f7b100b64d998809782
+  - ref: refs/heads/b4/virt-to-phys-s390
+    old: efa4167cfb39530f5ca20b3fcdda5df4dd16eef2
+    new: 0a2e1728f65e2dc20b6fe6ce3762175e6c7500b1
     log: |
-         0ae8f7d535548333e0849f7b100b64d998809782 Bluetooth: Add device 0bda:4853 to blacklist/quirk table
+         5bbfe2a118851bcc96e2d96909af589d935dad9f s390: Make virt_to_phys() a static inline
+         0a2e1728f65e2dc20b6fe6ce3762175e6c7500b1 s390/mm: Make virt_to_pfn() a static inline
          
