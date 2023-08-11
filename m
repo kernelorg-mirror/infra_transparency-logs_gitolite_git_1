@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/fsi
-Date: Fri, 11 Aug 2023 03:34:01 -0000
-Message-Id: <169172484166.4029.3467828159773437572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 11 Aug 2023 04:12:06 -0000
+Message-Id: <169172712672.521.18317752200593982449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/fsi
-user: joel
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: 5b4ffc4030fbca16a69edb3c794de669911fc1f0
-    new: f432b1cf7820020ada05cf3bef080893ef2bd69a
+  - ref: refs/heads/dev-test
+    old: 6dbdd19b46c7948b97e2c0f49b3504fe6c1a4e1b
+    new: c23df8256b55297179aa7c0d874e8a82e1e443fd
     log: |
-         83ec2bf4d7d20f0ee2e666e2a5c75c1e3782b1c4 docs: ABI: fix spelling/grammar in SBEFIFO timeout interface
-         c0d1c32d8bcb6edb6eb66dd513090d93d6559df4 fsi: master-ast-cf: Add MODULE_FIRMWARE macro
-         f432b1cf7820020ada05cf3bef080893ef2bd69a fsi: fix some spelling mistakes in comment
+         ffa09b3bd02427ab631f0c1b64714ce6fc885f61 erofs: DEFLATE compression support
+         3f339920175c871ac63b4ea179117da7518618fd erofs: update on-disk format for xattr name filter
+         fd73a4395d477ae134f319f7368a9f8a6264fd8b erofs: boost negative xattr lookup with bloom filter
+         c23df8256b55297179aa7c0d874e8a82e1e443fd erofs: refine warning messages for zdata I/Os
          
