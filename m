@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 12 Aug 2023 01:59:16 -0000
-Message-Id: <169180555651.13945.11247884284529764480@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 01:59:17 -0000
+Message-Id: <169180555794.14007.11202901260705830708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/tags/nfs-rdma-4.8-2
-    old: 2fa89771a6450ab91f23f35e99687fb784831188
+  - ref: refs/tags/nfs-rdma-for-3.17
+    old: 910155bd3df4f7581f4727f92156dea40e457b8a
     new: 0000000000000000000000000000000000000000
