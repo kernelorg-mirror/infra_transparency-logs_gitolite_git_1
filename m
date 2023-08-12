@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0575141495563078646=="
+Content-Type: multipart/mixed; boundary="===============5753568776819732142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 12 Aug 2023 07:45:43 -0000
-Message-Id: <169182634374.5981.10278971386348127048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 12 Aug 2023 07:56:10 -0000
+Message-Id: <169182697044.12819.14110198615134474855@gitolite.kernel.org>
 
---===============0575141495563078646==
+--===============5753568776819732142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d5e3527fd9246cedf2a311a93e73df96d25dcd6a
-    new: 28ef007ee718c6fa8687b0999be66a0d06ff9d45
+  - ref: refs/heads/char-misc-next
+    old: 25a7de32c89d63d11257a67ff42f24630f8eabf1
+    new: fd06978b06a2ad99cb6d048617e50869d4081420
     log: |
-         28ef007ee718c6fa8687b0999be66a0d06ff9d45 6.4-stable patches
+         183238ffb8863e3d5efea6c59ef68428125ea30d misc: eeprom/idt_89hpesx: Switch to memdup_user_nul() helper
+         60df28ac09d666f0b0e96fedf556d878715fa86f misc: eeprom/idt_89hpesx: Use devm_kmemdup to replace devm_kmalloc + memcpy
+         b5fa33795544be7cb791a6991cb4bb6a237967f4 misc: genwqe: make class_genwqe a static const structure
+         fd06978b06a2ad99cb6d048617e50869d4081420 misc: hpilo: make ilo_class a static const structure
          
 
---===============0575141495563078646==
+--===============5753568776819732142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691826342 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1691826341-e3b9cd6ca7a4af703fb99383a4e60fc613b2d14c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691826969 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1691826968-545b3477fe7d3e05ac6614908c18c22d87490698
 
-d5e3527fd9246cedf2a311a93e73df96d25dcd6a 28ef007ee718c6fa8687b0999be66a0d06ff9d45 refs/heads/master
+25a7de32c89d63d11257a67ff42f24630f8eabf1 fd06978b06a2ad99cb6d048617e50869d4081420 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTXOKYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TN8QAItjRiBK0CHEw5OTl9Dq
-OkQJzIrGGNe4qohqQrPTEmnjnC+JCIs6Lubzx5Vkieel9yXolqeU27n22ArGoxNB
-cAMSFpU00c+aUs/yq/V0qCqkqnggCFqIgPUez8RdjvrORXrM5cLQB0wMdCTHcota
-xczXTs8nKIt6MxTk2UKTA1GcrAgBDSFphkyPQmxbRs5FRr4RTdd5ZxI/pahzj3aZ
-p/46gxNCK/icLaMA6PDKHsGOHR6ZyCLQAZDQLGVrUP3SH7AyuXcsU5nQmT5p1vpL
-J0pJuBQtIqUi66NupIP+uaIOdn+cACnAo6aNPrZ+B4t3mNaehs8M6VwoLaBbEELV
-rr7uCIUIT+kOkZNSlF5XlAFWiw4lodiBMRjmS8erqcvjuLJwV6Bd2Nadz77zLH7g
-5JDPJHKMTlPJAAtKkS2ZY7Vt3R8M+dEd4yxWyOZh5ylv4DhkqqLbp2jXQ2T24HnM
-b2eCBL8GbeAuzYU4PWDY2yXCVBPghgc2lYVq/INnYBRyRKxrb1roVyWInob1ZNfv
-jjy5VqrKd2hhgKiGkJg1FPhjqbZRUzy3pniBZmGksyzdR2oPJRxhEAGBsXIIpk00
-YfxFbTBZiOlTQyG0sU4n7NW4xX4bIAjjv7AmqWmnJ50MZEtaQqNSPfx2MbQYE0eu
-A7M12oiq82chN4JqB4uzB05G
-=mpHy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTXOxkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7f0QAJoEpRsIbPPCGU1ivrQE
+WycIAuSXfNysR04X8Vjco8hYmcOJwNtRbVYs9hH3gcuMIUx7TPFlJShgVtknHWs+
+D9cf63WLy7yM9C3lh430Ku+N6bkWO/+ifRzQM/knee6rF8lPPq4SixCYtGC55iFf
+o4xzdd0c3QHVSLBgNAK7Xnj6ZfUGLU9LxzVuD4Ma8piFj0l93oe2AUcQOzg2svM7
+gsyx5IRundEen+FIMBaMtywFzq6Zs5DYiGlNBwXfRWsNy7yLBP3za+NIPwW2UqfB
+KLhoJXiuH1p92wtSs1q4V8lDvCRm3FAGFuUulePEh/0y1i625TX2WPark9h2Ap2n
+3TbJPmMX8PEJHPQ+2DbBCzdMsmCdEw0AFDrEhD7jijlBnAgn1VJaoYKaKpCQNWX7
+fuICxjLUtiFjAq/3sPrRJSBjKmVjmNij4nUdKLoappM06tusfrMB2uSMOc7FaLAu
+DvsHNEE73aAMcg/arU2UVXVyKwB6qXShRkIPb7AICUCCKgbmHu8DBQ8kbM+6SCEp
+ybDJe1UAvKPxiCtiNL2A6ZZhhjw7MKXAzKqsIqNDP95r5XtdRpcq5rnF5t0eMzOA
+4M7q+Eq0Shd7lAxenw4Iyn9dCMlQYYf8Kztcz5IoA6vZDbvVYqgZzMk7aRIv38J1
+qEQrdMD4r0kPcRQiBm1l0sd3
+=X2Ny
 -----END PGP SIGNATURE-----
 
---===============0575141495563078646==--
+--===============5753568776819732142==--
