@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 12 Aug 2023 09:39:34 -0000
-Message-Id: <169183317479.20850.5854598044274426058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 12 Aug 2023 09:48:34 -0000
+Message-Id: <169183371448.12415.2054663255786801865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/renesas/defconfig
+  - ref: refs/tags/x86_urgent_for_v6.5_rc6
     old: 0000000000000000000000000000000000000000
-    new: 0bfe5475f6b9fc766aa1fabb0a90c88b882c2f70
+    new: b49ac1b89753e3228f94584d00ea44837fdf2caa
