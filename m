@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3401399602215431237=="
+Content-Type: multipart/mixed; boundary="===============5063891562899047901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 12 Aug 2023 21:53:50 -0000
-Message-Id: <169187723067.26813.16320184107749205666@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 21:53:55 -0000
+Message-Id: <169187723520.26893.9600368750054585949@gitolite.kernel.org>
 
---===============3401399602215431237==
+--===============5063891562899047901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,104 +16,121 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 3dbd538340c63540e85e51e9946f4f37288e415d
-    new: e3154e1b14b6e4d7711451f10249d322bf89db90
-    log: revlist-3dbd538340c6-e3154e1b14b6.txt
+  - ref: refs/heads/linux-5.15.y
+    old: e089901a2a7efb6b0a441ce72a1a1d6ed9ee9755
+    new: c79c1253de294e8b994c6569e8ecc5ce25f1c379
+    log: revlist-e089901a2a7e-c79c1253de29.txt
 
---===============3401399602215431237==
+--===============5063891562899047901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691877227 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691877231 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1691877227-47453c4f53ddaee26ce0b857c14c53a11928c1a6
+nonce 1691877230-4199ed05073d8581c09a83a43de2a31dfc80435c
 
-3dbd538340c63540e85e51e9946f4f37288e415d e3154e1b14b6e4d7711451f10249d322bf89db90 refs/heads/linux-5.10.y
+e089901a2a7efb6b0a441ce72a1a1d6ed9ee9755 c79c1253de294e8b994c6569e8ecc5ce25f1c379 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTX/2sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MTsQAMPpnSnWK+IxFC3JYYIv
-2NYrKhZmLUZFyFABPuuIJP5BYNeTcmkGx3WNjUmDnKQYq2wMMO4SqwO53NAYncGU
-4rD6RLJzf8XS/idGT9tgIJWuL2uizEdOPjVyKtlbDbZpWtgslwvh9u/GE4SXPrZT
-uyDQroLCQGH5/5lrTrYgAwS3cexnASmcngg5FN8d+xEoMEa0Xs8pIiMPmP7MUE1U
-+DFdRmw03pA/0gvwM7sXT4c/NyQi4GXBaYotNND/KKkXM6fU8t0rsczsA2NfopKN
-p8U6ikdONtGBQWjL+2CEejajeNHkIBjraO8ZSAbaYFU2IGYhXB/6daSK3cNk6xEo
-2qFE7r8IgW8jLwL64ojvscVQtSmOwWiWsvrpScYoNn7m1Ag4smVBEP9dJ3xNs8sj
-utfkoHZeRIei4ZKuMmJyxgouZiQfVfe58LddtoeKWUZasXp4Mc5EGc+tRa+89PfB
-Jl1I5/SdabziuZ1UMuyYL+fceoENtSf9I6uyLAdlpnLIKKHVZT8+U12XwkNklTl2
-GzKNKqUsiRbybhI6EoBT0+2QuKOb6OyGLqxuyj2VZ2TJAcYKhBCJhlei0uIUJ+yU
-eohWvYuQvrur//iQF5j9rzMmb3ggPIfkElPE4BBJs+lJZHyd4XEMq5WYGU/ecOlh
-Vfgvr4mKqDqctZTwMsn6ObfR
-=ziJ0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTX/28bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vTQQAJsJ31Y/sSHFuEUvD2GE
+J3OttJnG7C6FvrFlzjcitDrwJhU5DASItZieUWkh9cOqfG91DxTVlpOEEl0eUPhk
+ZSJjp1gN7WoKxgIVl/hMmSjLjjNPfzqMP7SkeAxZw3l6cTGwulPwfRbmuI7Pbp36
+ZcsjsRqY0hHVUah6Kld4HNCz8////HdSRFcZehw5Z266hI5Zt4ZTm6hhc9iCcbjs
+8c9nhG6DFzMoi5eRGCobsoM9akqOFOet6KXZLnEth6mUbcHCR3M6F8zLEy5SC1bQ
+NkdaCUzlWUWYKxaffWeZuIwjn+O8u9lUOaG+TNheMgA1uNfMuWnOWFhmyWD72+2I
+b9b38UMCX/+G6rNwEa8Ti+3FlVDigXOQpmT1xYWogFfiCCn8Pi7Sz7WupbI3as7p
+yfhQz68PsmPblrZzgblXT49u05+r24p4lJAbdxyblIdOjkR8AHczHQuFW77cuRxH
+tVbPlvcsw0etsg2hWVNw+HXwB1PtADczQNJBiACdzgDt7z65csYcGjs+ABlCYV16
+KqpQdCvwYk34mwKgiHEzYjoOJOimD74nmWC1n7cawkhQFSYmEh4m1ZC8wggC2Hj3
+ek9S+3wDZy5EsB72tNnkPOiuVhAaqSQWws9huHE/GQd6LsE/gIppAFKz5jxurGyW
+9aLAQkmX1hpVALm067VHPTIz
+=9Fia
 -----END PGP SIGNATURE-----
 
---===============3401399602215431237==
+--===============5063891562899047901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dbd538340c6-e3154e1b14b6.txt
+Content-Disposition: attachment; filename=revlist-e089901a2a7e-c79c1253de29.txt
 
-62c3f48f888a004829d7c6d8d5a0ca611e2e0b5b wireguard: allowedips: expand maximum node depth
-4795227eacb12064b35fdc99ea889d3b1b5cff5a mmc: moxart: read scr register without changing byte order
-252c1c465b39962df04c896d7800d085bde56d9e ipv6: adjust ndisc_is_useropt() to also return true for PIO
-2945a539895acb57acf78e46f0e15ed9d751c32b bpf: allow precision tracking for programs with subprogs
-ec2576dc51a1c73ee85c30c006ef0cb5938e9fc3 bpf: stop setting precise in current state
-baa26100d39c0c89a13446532d07f6f581541495 bpf: aggressively forget precise markings during state checkpointing
-f2f5afeb501f828e3b433b0c91bb07a984799437 selftests/bpf: make test_align selftest more robust
-f29ab35a2c9b7ad65c78c65749376f58b8a1501d selftests/bpf: Workaround verification failure for fexit_bpf2bpf/func_replace_return_code
-7671748bc6260fb862296c84e66f1e3f701695b8 selftests/bpf: Fix sk_assign on s390x
-4a176aa7e5bd73575d1cc360104be98f424a2a47 dmaengine: pl330: Return DMA_PAUSED when transaction is paused
-8b5ab38c08841cd65f502009cb7c4605884e735d riscv,mmio: Fix readX()-to-delay() ordering
-d2879a22a709380a531e024c51c9ecf04c11443a drm/nouveau/gr: enable memory loads on helper invocation on all channels
-9bcdb660540b389c10ae22306c93c7803f70bd61 drm/shmem-helper: Reset vma->vm_ops before calling dma_buf_mmap()
-0acb5999667aca361122d1f2396be4166446b40f drm/amd/display: check attr flag before set cursor degamma on DCN3+
-b5d3270d7c0cd17d44306726ec0121030a223d56 hwmon: (pmbus/bel-pfe) Enable PMBUS_SKIP_STATUS_CHECK for pfe1100
-6c0def64929ce698d26765d683fbe5950016182f radix tree test suite: fix incorrect allocation size for pthreads
-8efc3266520d282a88f8b6b52b67498f6c10a7ea x86/pkeys: Revert a5eff7259790 ("x86/pkeys: Add PKRU value to init_fpstate")
-0e158e8f21b4a22d169c868a11534095f56b4762 nilfs2: fix use-after-free of nilfs_root in dirtying inodes via iput
-4b0db7315a7dc836d89fe70fc428d08df7e5359c io_uring: correct check for O_TMPFILE
-e4f453f58377d751c48cb5ff13182f87f4fe82c0 iio: cros_ec: Fix the allocation size for cros_ec_command
-07e759b5925aed37c91ba1ece12e5d8b943ceff0 binder: fix memory leak in binder_init()
-b7adbe85f3e483a53f9834d72d4dc591015a621b usb-storage: alauda: Fix uninit-value in alauda_check_media()
-b992b982a299024e41fed3ec91bd5fef7936c5e4 usb: dwc3: Properly handle processing of pending events
-f1435b8042081b4e6471db56cbfe037a216dea23 usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
-23862f3a12c616462ea8bbb9508c7d7d10c205d5 x86/srso: Fix build breakage with the LLVM linker
-b48b08c9eca36eefb4a60c608ae3e29ec08eb25e x86/cpu/amd: Enable Zenbleed fix for AMD Custom APU 0405
-0c3ef7c6ad083170e740c865b652f8ad85cc3e70 x86/mm: Fix VDSO and VVAR placement on 5-level paging machines
-baaec5f760747bf593ac2d5caeabc76b9ed0ce09 x86/speculation: Add cpu_show_gds() prototype
-d880c4cdb6307c6e017f230238c8b12ceac9a089 x86: Move gds_ucode_mitigated() declaration to header
-97ff48b99fb046ca4ff58b3b039d953e4ffd79f6 drm/nouveau/disp: Revert a NULL check inside nouveau_connector_get_modes
-d144fea63b2dc2055a9f05dea81415a86eb2275c netfilter: nf_tables: don't skip expired elements during walk
-d34796c7437c7004429abfac7852bd377c97dd0e selftests/rseq: Fix build with undefined __weak
-d6b88373369e74edab18376551a36123160a69a0 selftests: forwarding: Add a helper to skip test when using veth pairs
-ccefdf2a321ba01986794497d18760626aeac121 selftests: forwarding: ethtool: Skip when using veth pairs
-ea74e510ca4b546242ecd66507b52bfb1fe8f2c1 selftests: forwarding: ethtool_extended_state: Skip when using veth pairs
-568cf29a1571d965dda2163632c47b6a17616cf7 selftests: forwarding: Skip test when no interfaces are specified
-05f1882b9c93db2f4c538add24af6c5a3b991193 selftests: forwarding: Switch off timeout
-c50ed9654e67ba5c9d79389f79ad1032f22d0a3f selftests: forwarding: tc_flower: Relax success criterion
-8fd8bf3c52bee225b9a33e22bb50ddd3db3123a5 mISDN: Update parameter type of dsp_cmx_send()
-e24bea5223660280aa46973d5a827d5ca025d03d net/packet: annotate data-races around tp->status
-fced8379ab6ef6d11235fc3ac959413ac3c2856d tunnels: fix kasan splat when generating ipv4 pmtu error
-385bcf232e0953155fe76451ff763b11c21953ab vlan: Fix VLAN 0 memory leak
-dedb7b4633108888801588f0f40986f2ca040c7b bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
-6947cead8ca9695a6cf79a012a838a2735d2f589 dccp: fix data-race around dp->dccps_mss_cache
-ea07f827fb85f4b0180b11482c3b79aa4c8ec0c9 drivers: net: prevent tun_build_skb() to exceed the packet size limit
-00def629d66cce4fcbbe0f8c8d1c7636ebc5adda IB/hfi1: Fix possible panic during hotplug remove
-9d354c3f100cda0a25d975da395e1302fab6be25 wifi: cfg80211: fix sband iftype data lookup for AP_VLAN
-e343d0e3a974e525915e6968d0e4f171b2d7e15a net: phy: at803x: remove set/get wol callbacks for AR8032
-e072156bf4f8ec7e4b38c5f342558b06ac65f72e net: hns3: refactor hclge_mac_link_status_wait for interface reuse
-e9f970058c45ee9c92510cfaa7bc6d5bf7a17725 net: hns3: add wait until mac link down
-8ff37ddf9e5646dff8beec6b255bfedb2b67edc2 dmaengine: mcf-edma: Fix a potential un-allocated memory access
-0ca1138cb7ed978116bde6b1eccf8029fc24422f net/mlx5: Allow 0 for total host VFs
-1e77ae07f030e77eac3bc142ee739c0b756ba0c7 ibmvnic: Enforce stronger sanity checks on login response
-5c43ce319c1146b0a131591905cfef41af5c50e7 ibmvnic: Unmap DMA login rsp buffer on send login fail
-6e81772f43e4bc0907c14843cec420c7e2ec835b ibmvnic: Handle DMA unmapping of login buffs in release functions
-d5205d81d0aa8c976011989ce572e16f51e9af9d btrfs: don't stop integrity writeback too early
-3786c27c026ceee149ec97bf85a789a931d9df71 btrfs: set cache_block_group_error if we find an error
-e3154e1b14b6e4d7711451f10249d322bf89db90 Linux 5.10.191-rc1
+b177c54bcb2558c561fd8334cc89b1217d3840ce ksmbd: validate command request size
+0a7218c5e8a4a726404ffef7350fcad3931658e0 ksmbd: fix wrong next length validation of ea buffer in smb2_set_ea()
+a539ed4c9905ffcf3f16ec83b2f232a3946da3c2 wireguard: allowedips: expand maximum node depth
+a69e8c5eac470eb9c5ce23242be5ffe3d51ffcd8 mmc: moxart: read scr register without changing byte order
+4af2d6795b94f16387fbd5597306619deee82bc4 ipv6: adjust ndisc_is_useropt() to also return true for PIO
+b77f06830be29bce8fb099fac6e3146abbd6701d dmaengine: pl330: Return DMA_PAUSED when transaction is paused
+91e2cf894adac1cd2c72749253a6e1406a682eb1 riscv,mmio: Fix readX()-to-delay() ordering
+7b7009b2231ca1070150ff5c1090424f7e4dc1a7 drm/nouveau/gr: enable memory loads on helper invocation on all channels
+7983143df59c2fbbf9778d785a073e3e4d29cbad drm/shmem-helper: Reset vma->vm_ops before calling dma_buf_mmap()
+dc30e3c2ff48426fc859da03004b4ebfd91844a6 drm/amd/display: check attr flag before set cursor degamma on DCN3+
+5dc4179847cfe90886453f2c06587ed8ca284712 hwmon: (pmbus/bel-pfe) Enable PMBUS_SKIP_STATUS_CHECK for pfe1100
+4549c0d7be27b0b041bdb3cc4083a3eb48eafb4b radix tree test suite: fix incorrect allocation size for pthreads
+408a61551032f4857533de3cd71b03ba109b3cdb nilfs2: fix use-after-free of nilfs_root in dirtying inodes via iput
+14e19797d0219f4f17d6f939779f84120abb297c bpf: allow precision tracking for programs with subprogs
+36741fd99e54563810de23a7cc28d33e4fa9a630 bpf: stop setting precise in current state
+257b80ce36c25ce76e6c0ac5d213161f0fda2cd5 bpf: aggressively forget precise markings during state checkpointing
+fb5576c733bb0cf184c305697414ad2ac45fc6c7 selftests/bpf: make test_align selftest more robust
+93fc0943c889717e10172adff3b7a88ff467a4fa selftests/bpf: Workaround verification failure for fexit_bpf2bpf/func_replace_return_code
+4c141c00f231eeba6dcb60ae804c5b6d28c1ee21 selftests/bpf: Fix sk_assign on s390x
+27b4eec6e73934632abf5a1116e98dd2519a907f io_uring: correct check for O_TMPFILE
+cd43076e532213492ee1cb6bcd7fb1c3de4ed66f iio: cros_ec: Fix the allocation size for cros_ec_command
+5b92267a05bf89dacbc771d5ab23aaed7a8c68d3 iio: adc: ina2xx: avoid NULL pointer dereference on OF device match
+b170bfcb1e6dd5fa09afa2d866d00416f436ac85 binder: fix memory leak in binder_init()
+81c288018a2ad66b8d8a04f0a16f8af4ef1edaa2 misc: rtsx: judge ASPM Mode to set PETXCFG Reg
+69309e881562896fe0695878b73c8f4b333bd1f8 usb-storage: alauda: Fix uninit-value in alauda_check_media()
+e8d74af53da3ae72960037c143baa7fba2ce2645 usb: dwc3: Properly handle processing of pending events
+6ad564a928cc6a69dac8112588aca4aa64ee01e7 usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
+5b132178c9de52bc8c6046d519033b821fb2168f usb: typec: tcpm: Fix response to vsafe0V event
+a45a8318f90f316153ba2a1f559b5babbc2681db x86/srso: Fix build breakage with the LLVM linker
+61508cef98c7c0cf5f882877a0a0018f43bfbb56 x86/cpu/amd: Enable Zenbleed fix for AMD Custom APU 0405
+fddabc40fcf42b80d214d1493139cb2ae7491649 x86/mm: Fix VDSO and VVAR placement on 5-level paging machines
+408272f760ae66818364ef531a5e8dcf0151d05b x86/speculation: Add cpu_show_gds() prototype
+8291dffccb137c65d5a628ea8c21b140d4154405 x86: Move gds_ucode_mitigated() declaration to header
+9f2f205be56b828537430a91d3247c10fe218e09 drm/nouveau/disp: Revert a NULL check inside nouveau_connector_get_modes
+3195a8ac23895de33ba438e0c49bb1f3cccc6134 netfilter: nf_tables: don't skip expired elements during walk
+12076bac7cef6a9e92d41c991080dc8b60780818 selftests/rseq: Fix build with undefined __weak
+c38956a2b008e9e0d8d6c324557c30a707c4708b selftests: forwarding: Add a helper to skip test when using veth pairs
+d7b896eda57231b0a085c700c699721525c1933c selftests: forwarding: ethtool: Skip when using veth pairs
+8b2f86f9b5d51a628403222302de336655796650 selftests: forwarding: ethtool_extended_state: Skip when using veth pairs
+00de53a549c0c4630e0caaec66634a8e86e1cc57 selftests: forwarding: Skip test when no interfaces are specified
+533a5ca7256c1f115772ce1c2b3f1829bca1afce selftests: forwarding: Switch off timeout
+8f176ddfbf486a08343c2bec7cc61908f292838e selftests: forwarding: tc_flower: Relax success criterion
+68934d9b900320bcfc737e07c8c4d16a57b87fd6 net: core: remove unnecessary frame_sz check in bpf_xdp_adjust_tail()
+7f2122ffe19c0e1258eead16565abddeeadfb95e bpf, sockmap: Fix map type error in sock_map_del_link
+372d0abce467ce6ffe33718fce5ff8f6b9a9eefa bpf, sockmap: Fix bug that strp_done cannot be called
+02173d32340f43fafe727b1cedc082cbe17cfb8b mISDN: Update parameter type of dsp_cmx_send()
+65677493698bd767777ba211f8c23884796fda7d net/packet: annotate data-races around tp->status
+2e42055b44832ab648465d38115f6eefc200dc0d tunnels: fix kasan splat when generating ipv4 pmtu error
+df7ea988531d677cd3742c58c344e799a47841ee vlan: Fix VLAN 0 memory leak
+139e597795b1eb60d20889841eeefa1c3e4b7493 xsk: fix refcount underflow in error path
+7ce7788c3ee9f8343228db6865b4aa2000f5a84d bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
+a0a9dcd1c6fcc4cdca15460da2a7fa39e0571f36 dccp: fix data-race around dp->dccps_mss_cache
+df6126b3f41f75d65e2f0286a587e879c0f52ebd drivers: net: prevent tun_build_skb() to exceed the packet size limit
+d9f8a1ff846ec6ffefc1ea4cec539e9af9755468 iavf: fix potential races for FDIR filters
+32d38a2a5d3740f86f7b8ea81e85803e1c6658c3 IB/hfi1: Fix possible panic during hotplug remove
+a212967fd7d9d13f7f5c6a29ae62dd977be092fe drm/rockchip: Don't spam logs in atomic check
+b74e7c15015429d4059dc294970d364302ffc87b wifi: cfg80211: fix sband iftype data lookup for AP_VLAN
+af672371dfa55c0045c6b584714fa994e84dccd3 RDMA/umem: Set iova in ODP flow
+8fb3fa963ddb40e25007a84871dfd2a584739041 net: phy: at803x: remove set/get wol callbacks for AR8032
+13d752e194c67a0223b43a43f249bce166bd303c net: hns3: refactor hclge_mac_link_status_wait for interface reuse
+a1ddae56230afe6fe1e7b7afc55dc7807e77c801 net: hns3: add wait until mac link down
+b63bb7490cce9ed61cfe4def4e65246d86d338c1 nexthop: Fix infinite nexthop dump when using maximum nexthop ID
+a08c879dda794980fbf9ee60be86033d238359e3 nexthop: Make nexthop bucket dump more efficient
+a9b390ac096f326ea15035bfa81ff989557ddee9 nexthop: Fix infinite nexthop bucket dump when using maximum nexthop ID
+edff5041f61bdf3a25fee114367800382ed644e6 dmaengine: mcf-edma: Fix a potential un-allocated memory access
+1b61f4a55f94871dd7686a79d21c895aec271b74 net/mlx5: Allow 0 for total host VFs
+e6c370d2f1962ff3e7c0a8f03e0d6c2b09ea5891 net/mlx5: Skip clock update work when device is in error state
+681e555cfa620fa3be6f894e763267792d09ca20 ibmvnic: Enforce stronger sanity checks on login response
+0a68eb6d97183e24d79a8d3d21897b754a77d67f ibmvnic: Unmap DMA login rsp buffer on send login fail
+32abdbbbb103502085478c04f5bc1ebdb32c84cd ibmvnic: Handle DMA unmapping of login buffs in release functions
+4d114aa15b95f5d11b40547183c7d8b030299a7a btrfs: don't stop integrity writeback too early
+00d506512c84436233cd017951ae632f5e95bafe btrfs: exit gracefully if reloc roots don't match
+09020c3167d524ec23872312b4b23962f68d3a7d btrfs: reject invalid reloc tree root keys with stack dump
+cba2e1ece707d0ccf20c351796f92b1b162579ba btrfs: set cache_block_group_error if we find an error
+c79c1253de294e8b994c6569e8ecc5ce25f1c379 Linux 5.15.127-rc1
 
---===============3401399602215431237==--
+--===============5063891562899047901==--
