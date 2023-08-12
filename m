@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 12 Aug 2023 01:54:59 -0000
-Message-Id: <169180529987.640.4602298695372827123@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 01:55:01 -0000
+Message-Id: <169180530133.715.9796923400934378210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/tags/nfs-for-3.10-4
-    old: 4d1ec45c4dff033979584059dd22c64c6e248315
+  - ref: refs/tags/nfs-for-3.11-1
+    old: d580b82cc555f7119d746e647d3d3986cc7a62af
     new: 0000000000000000000000000000000000000000
