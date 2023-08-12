@@ -1,64 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6166981872559526186=="
+Content-Type: multipart/mixed; boundary="===============2873093991525032986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 12 Aug 2023 21:41:38 -0000
-Message-Id: <169187649865.16870.16980890230565316159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 12 Aug 2023 21:42:48 -0000
+Message-Id: <169187656821.17361.8343163117002131474@gitolite.kernel.org>
 
---===============6166981872559526186==
+--===============2873093991525032986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ae545c3283dc673f7e748065efa46ba95f678ef2
-    new: a785fd28d31f76d50004712b6e0b409d5a8239d8
+    old: 35a7013deabdcde47e1a1eaf951ae943024b8501
+    new: bfdcaf8777326492ac4ab0a46c11049f05ee3161
     log: |
-         fc1f91b9231a28fba333f931a031bf776bc6ef0e btrfs: wait for actual caching progress during allocation
-         effa24f689ce0948f68c754991a445a8d697d3a8 btrfs: don't stop integrity writeback too early
-         5c25699871112853f231e52d51c576d5c759a020 btrfs: don't wait for writeback on clean pages in extent_write_cache_pages
-         12b2d64e591652a2d97dd3afa2b062ca7a4ba352 btrfs: properly clear end of the unreserved range in cow_file_range
-         773e722a98e25caf96f91aced7070c1858250ba2 btrfs: avoid race between qgroup tree creation and relocation
-         05d7ce504545f7874529701664c90814ca645c5d btrfs: exit gracefully if reloc roots don't match
-         6ebcd021c92b8e4b904552e4d87283032100796d btrfs: reject invalid reloc tree root keys with stack dump
-         92fb94b69c6accf1e49fff699640fa0ce03dc910 btrfs: set cache_block_group_error if we find an error
-         a785fd28d31f76d50004712b6e0b409d5a8239d8 Merge tag 'for-6.5-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+         bfdcaf8777326492ac4ab0a46c11049f05ee3161 drop btrfs-don-t-wait-for-writeback-on-clean-pages-in-extent_write_cache_pages.patch
          
 
---===============6166981872559526186==
+--===============2873093991525032986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691876497 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1691876496-4d5358a63d68fff8273fc141138d5d723261e243
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691876567 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1691876566-a4c2668a6643a11b4ee1fc2a2bfd327a1b9cad95
 
-ae545c3283dc673f7e748065efa46ba95f678ef2 a785fd28d31f76d50004712b6e0b409d5a8239d8 refs/heads/master
+35a7013deabdcde47e1a1eaf951ae943024b8501 bfdcaf8777326492ac4ab0a46c11049f05ee3161 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTX/JEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AWYQAIHQ/yiN4KSgFv5cwllP
-udlBt3jOjS6kuOKJNCeP4+uZzpR/6CPdXEPNq42uVT3pgy7U7XumFTXaSJoXSToh
-VJlndtITOTKCNDjMrQ2feMyMuRYM4H0B2PDkpOhHe7pF5uJFXs3fYeX+TWq1nOX/
-mAJFaszDQmiqfSlFw1kMGt8lj1rukf6CVTKsxNKT7/DPpbA6nbPzILi3gtYDIvjm
-kzum4Se26b+qHno8CKbCvMd5NkHVqWxvl/z1108y+SzmajZXVCpXhBhdlftj+fsn
-GKJQIQstqnM7zw5sNUR8Unq7mgXfcVdnX7GRhSfjPYhu8eBvbpuQKYtoku8IHgbd
-vqmX+H61hCBMNG9u/5YwSMo391PmPL0aXoJdWJdJdbib46NfvFvcGEmRjH3O14Ln
-diA9tqNyG4B2Ri7EvEbgLzSMGb33TrJHs74kESyfkIvT5yE260vyaicUgFoWY2kB
-RMbKsd2VSPRDpMX+qNS0eraBjzVSsZMTPDM3UhfCiXRlNud6R15O3gC8Oebe2Iqt
-QPXh1N5M8AJwFcMf/KN4RWFtKNVN7nhFQJ+Qz0mwAu88XAd5E0/hN6USTZ7XuXRc
-ivMhGaws5avwLoe+YYfSM5Dk9g65DoAq5LXGNrHdZoasNwPuK4FSgqutUAJ0zSXk
-v7HeSEVXx3D+nDeuHF05JT2p
-=XHRK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTX/NcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AD8P/0kmULQR8hXxXBRcdk/y
+OILruDNxPS5MfM/SGuUnmWRbm3gctXv33MbtfdUW+zXZr8DxBERlfNKKInD8MKN7
+qg62oX9tROLwtaewRQk+YzPSxvaFPylnMnwQVBUjmZh0XZfFydh+bvI4rArsMeYR
+/0SZedCg2klc4W8MnSHJwjD7Bh1AMd+L0uHwFPCjxUTMbQMk73fdU1OkY/sd0gEy
+EFFxJ/5CDXqfT9HKwYpHdwB0MwF2O8tRu3INDf8NH+gQa+siYVkA1VwDzj/OCC8i
+00SI9rq0dVVl6H1cmseFjRcPLKclR/EwaJeshungVogdgTmQfJOjbRu+zTtvp1jO
+/sAKUtXB+DwEj/nNcuyo58NBDzd14ww8KeprIlijaReW/nLDcqd/SQLpe3sVVsg7
+B0OGH9A1oYxbVjDcOfbbWCzXsigl+UpKx3Ntc3xBj9AtI6iaMDN0UHsPBr8h2S61
+Jk/S6JPQocXU5EwrWbXae5KFqjAYpW5+DERU8gR3lLslKG8bpAMuK/+T3R6m1UpU
+1yjiy7EYSNU/UNW43De7YnahiK/3+0abGJKNThz2zF6piEZmKOgbSSjlXrHXLtpR
+dQTYehoiVZVt1RRLN+M2HU1EG3HdDl/DpVrL3mm3oC4cc5l5mSMmGXrTyhLoYkp9
+ETUP9Q9WYXoDdXTelQPDWuK3
+=msrs
 -----END PGP SIGNATURE-----
 
---===============6166981872559526186==--
+--===============2873093991525032986==--
