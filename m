@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 12 Aug 2023 02:14:27 -0000
-Message-Id: <169180646712.21634.5937051679987713097@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 02:14:28 -0000
+Message-Id: <169180646843.21736.2475272298978294437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/tags/libata-5.6-2020-02-05
-    old: 558591f6ec6c8ca2dd79002a366ac425d74c7b42
+  - ref: refs/tags/libata-5.7-2020-04-09
+    old: 383873f5b32e5ba01ce213ca114be992b9ed38fc
     new: 0000000000000000000000000000000000000000
