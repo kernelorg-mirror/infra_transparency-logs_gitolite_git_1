@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 12 Aug 2023 10:03:37 -0000
-Message-Id: <169183461736.22788.9885105529784096564@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 10:04:34 -0000
+Message-Id: <169183467424.23205.6183058926208165002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/zynq/soc
+  - ref: refs/heads/vexpress/drivers
     old: 0000000000000000000000000000000000000000
-    new: 746db5d0b6d2a4bce0bc972bffd8428c606106cd
+    new: ebd4f6102fbc2c5a7560ad5256a71696ab136ce6
