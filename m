@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 12 Aug 2023 01:51:50 -0000
-Message-Id: <169180511078.24465.15917324137455194761@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 01:51:52 -0000
+Message-Id: <169180511224.24529.5044933991407736452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/tags/fscache-fixes-for-ceph
-    old: 8db93fec1486661ef04c7e827cfa9fc821613d7b
+  - ref: refs/tags/hwparam-20170420
+    old: 5bbc82e12b9de2f62521a336412c040bd73b852e
     new: 0000000000000000000000000000000000000000
