@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 12 Aug 2023 20:59:54 -0000
-Message-Id: <169187399418.16415.14220580149481072177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Sat, 12 Aug 2023 21:23:07 -0000
+Message-Id: <169187538793.1858.4096451891171002393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/heads/master
-    old: 7dc5417aa31b44ee8ac73a85918ba30ec08c2be1
-    new: 15a4bb3fc3e7fe9dfe58e4ed0edff42fa069ff04
-    log: |
-         15a4bb3fc3e7fe9dfe58e4ed0edff42fa069ff04 foo
-         
+  - ref: refs/tags/mvebu-arm-6.6-1
+    old: 0000000000000000000000000000000000000000
+    new: 0f9f83a0d6fc6b9c083a06df50d62becf97233a7
