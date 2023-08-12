@@ -1,42 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1409877351063439054=="
+Content-Type: multipart/mixed; boundary="===============2903057546180067121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sat, 12 Aug 2023 02:18:31 -0000
-Message-Id: <169180671111.25260.11736806026540369304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 12 Aug 2023 02:55:40 -0000
+Message-Id: <169180894060.19909.16866024961814860942@gitolite.kernel.org>
 
---===============1409877351063439054==
+--===============2903057546180067121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 09e254105d45aed6eeae7138070325fe28dbc417
-    new: 246e2cc22265e395e9e8880d957e99b66f5a2ac3
-    log: revlist-09e254105d45-246e2cc22265.txt
+  - ref: refs/heads/master
+    old: 190bf7b14b0cf3df19c059061be032bd8994a597
+    new: f8de32cc060ba3f63171aaa0e8764d22d8c37978
+    log: revlist-190bf7b14b0c-f8de32cc060b.txt
 
---===============1409877351063439054==
+--===============2903057546180067121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09e254105d45-246e2cc22265.txt
+Content-Disposition: attachment; filename=revlist-190bf7b14b0c-f8de32cc060b.txt
 
-ce0bc19e504276f80ba2c20da458ff507f666b52 ARM: dts: imx6ul: mba6ulx: Fix stmpe811 node warnings
-1d6500cd39f11de616540c13eb3dd08903380f59 ARM: dts: imx6ul: Fix nand-controller #size-cells
-db92a8d917c7d959584cc15f838a134c1b115915 ARM: dts: imx6qdl: mba6: Fix gpio-keys button node names
-74cec60c0e30b1d3184d2729457a8af0dd76d6a1 arm64: dts: imx8mq-librem5-devkit: Mark buck2 as always on
-60ac8a775a9147867a9d222d970ab2ca158dc23a arm64: dts: imx8mq-librem5-devkit: Drop power-supply
-95afa02c9e42cdbc2f91dc0f64e59ea10d710a4f arm64: defconfig: Enable Redpine 91X wlan driver
-a7b4c2bd82d3eea73305adb9b6a769daa99e5d21 Merge branch 'imx/drivers' into for-next
-a923a72139f4d586293509463ac0b23d2323f8fc Merge branch 'imx/soc' into for-next
-bd2239e649f2455b0051a1c68500ce0daa81b518 Merge branch 'imx/bindings' into for-next
-08c269f49c1f22701efe42e36655fe14f736c104 Merge branch 'imx/dt' into for-next
-40c874d21e47cb21973b3630b02606eff78d35a9 Merge branch 'imx/dt64' into for-next
-246e2cc22265e395e9e8880d957e99b66f5a2ac3 Merge branch 'imx/defconfig' into for-next
+186b169cf1e4be85aa212a893ea783a543400979 RDMA/umem: Set iova in ODP flow
+4fdfaef71fced490835145631a795497646f4555 IB/hfi1: Fix possible panic during hotplug remove
+f38963b9cd0645a336cf30c5da2e89e34e34fec3 hwmon: (pmbus/bel-pfe) Enable PMBUS_SKIP_STATUS_CHECK for pfe1100
+8e7b295da1ed051baedd068b7f785f5d959ef95d MAINTAINERS: Remove maintainer of HiSilicon RoCE
+fe9da61ffccad80ae79fadad836971acf0d465bd zonefs: fix synchronous direct writes to sequential files
+56b930dcd88c2adc261410501c402c790980bdb5 hwmon: (aquacomputer_d5next) Add selective 200ms delay after sending ctrl report
+5363fc488da579923edf6a2fdca3d3b651dd800b RDMA/bnxt_re: Properly order ib_device_unalloc() to avoid UAF
+5ac8480ae4d01f0ca5dfd561884424046df2478a RDMA/bnxt_re: Fix error handling in probe failure path
+64b632654b97319b253c2c902fe4c11349aaa70f RDMA/bnxt_re: Initialize dpi_tbl_lock mutex
+51e5e551af53259e0274b0cd4ff83d8351fb8c40 tpm: tpm_tis: Fix UPX-i11 DMI_MATCH condition
+6aaf663ee04a80b445f8f5abff53cb92cb583c88 tpm_tis: Opt-in interrupts
+5512c33c7b942033f772db56be46d5de9493deae Merge tag 'hwmon-for-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+0725a70411bd836231c3e78090ac47cac51246b1 Merge tag 'zonefs-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+9a20704fb40642d5b7d4f1db58f252f6aca563a9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+f8de32cc060ba3f63171aaa0e8764d22d8c37978 Merge tag 'tpmdd-v6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 
---===============1409877351063439054==--
+--===============2903057546180067121==--
