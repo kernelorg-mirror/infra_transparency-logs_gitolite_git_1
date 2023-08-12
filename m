@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 12 Aug 2023 02:13:37 -0000
-Message-Id: <169180641706.19198.3740056624243781895@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 02:13:38 -0000
+Message-Id: <169180641838.19258.3010935152279705624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/tags/io_uring-6.0-2022-09-02
-    old: 31116593e7ee2d0283624b1f2df59284ca8aa66d
+  - ref: refs/tags/io_uring-6.0-2022-09-09
+    old: b7e36bbadca78f9f0fa2f6088a9ab8f78c71f17b
     new: 0000000000000000000000000000000000000000
