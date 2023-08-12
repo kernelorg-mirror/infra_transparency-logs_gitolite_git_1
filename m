@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 12 Aug 2023 01:59:50 -0000
-Message-Id: <169180559050.15466.7738328726411527871@gitolite.kernel.org>
+Date: Sat, 12 Aug 2023 01:59:51 -0000
+Message-Id: <169180559196.15526.14303073214274916494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/tags/rxrpc-rewrite-20160304
-    old: 36dd3bbcc994393a7f1c8664e9ef1bb26b88df08
+  - ref: refs/tags/rxrpc-rewrite-20160613
+    old: b4ceec6a10c6aa7007a663d8eb76bcdda8711c5f
     new: 0000000000000000000000000000000000000000
