@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 13 Aug 2023 11:32:58 -0000
-Message-Id: <169192637812.15157.1861834014031148922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Sun, 13 Aug 2023 11:42:50 -0000
+Message-Id: <169192697075.23115.1143093236780360329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/main
-    old: 80c2c7b3e837d69669bc0106a7ba0908c10d5b95
-    new: 2f4503f94c5d81d1589842bfb457be466c8c670b
+  - ref: refs/heads/misc-next
+    old: 347457df0613a568658e0bb4101ab19a06ba15db
+    new: c9ceb0e15d92d0634600603b38965d9b6d986b6d
     log: |
-         2f4503f94c5d81d1589842bfb457be466c8c670b net: pcs: lynx: fix lynx_pcs_link_up_sgmii() not doing anything in fixed-link mode
+         c9ceb0e15d92d0634600603b38965d9b6d986b6d btrfs: fix infinite directory reads
          
