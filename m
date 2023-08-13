@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0493157583764644947=="
+Content-Type: multipart/mixed; boundary="===============6471512109663669146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 13 Aug 2023 21:17:08 -0000
-Message-Id: <169196142891.23438.14549344914085095697@gitolite.kernel.org>
+Date: Sun, 13 Aug 2023 21:17:11 -0000
+Message-Id: <169196143158.23509.4855881462569583357@gitolite.kernel.org>
 
---===============0493157583764644947==
+--===============6471512109663669146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 269ce7f841e27df87785fe325f85d3a638fff02e
-    new: c2d79804d11f0661ccff5d641b6549212f81c8f0
-    log: revlist-269ce7f841e2-c2d79804d11f.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 6df2121f499d98d38292223f92c9f57f70c59aea
+    new: 84b9d8b93009a14264e351f2ae6dd63d95dd6ceb
+    log: revlist-6df2121f499d-84b9d8b93009.txt
 
---===============0493157583764644947==
+--===============6471512109663669146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691961427 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691961430 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1691961424-d5cfe7fead03173b857ea00a48d6a94eb785e067
+nonce 1691961428-63961874af4fbaa7ce67b2886d030618dbb7713b
 
-269ce7f841e27df87785fe325f85d3a638fff02e c2d79804d11f0661ccff5d641b6549212f81c8f0 refs/heads/linux-4.14.y
+6df2121f499d98d38292223f92c9f57f70c59aea 84b9d8b93009a14264e351f2ae6dd63d95dd6ceb refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTZSFMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1KIP/RMhkeliuqgNTWCiHWB6
-WBjXDUoKfzg9izaBToFAKnDgxeEwTcnDjL6pPw/sF+z4uqKp7ZIhaaE0tIM4C4H1
-JhiaxvangKIR/K0wyGI+vHL7saIiMesCPVlIUcLc2+97T3CrKhC8pvLyyrvpqk4V
-yO8JrOGfA2wuU8SJFDcknnxgP2/I5e8JJt7SMlr/ZzN7lj3QhgSbTu3hYDpV2G4x
-QtKgitLgwpCfIObuGh1iHoCRwWNjsGOzlMYJdlD7G3DvSgriieXK/DEPNlQTHkO3
-Rtx7K9NoTSpQhYE6fcwoRTwwNb0AiXHJmQGr7GgezYB9ekeR2wWUfJ9+WGsuwmIo
-Jl0EpC4pzc+7AdIzULSGk4jOSNZQQoh7KUVlGZ5uxqjtBqJVMpsI3jRvc5i4IcQT
-++AcrZIQB1dGPgdFDnkMzsVKc/pLYnv5Ebol7tU8gREcW3ANJcNYRNpSJyTAITm+
-4ICQ+nfB3hO63ppzxZS37U65ozrwmvIYKj/hPBA7UBB7/YVcoEAS6cGUkSG6lwYX
-rfQEKvQQN5N/mT+MmLkAOFwOPbW/FjF+Q8lweBr6sfkj07b5YdVlU6HWX04ne5BF
-XuzwVals/NBL63vRryiiBJbNwmMheGvOJZwxVSsm7f2yD4asB230ifmXJQvoe7Gb
-IzAMFnXp52rejWgWUytPvZuZ
-=tUi+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTZSFYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nzEQAMOCrPj30t62nK2dg0b2
+F7AGhqJy4XXPYfDO5nMNlggjcd8zk/bYvPZn8wImC6nLyjdyKTOGQza8hZA9DKen
+3+2ZjhdGwXja0WLuu+MJ61Ugv/tFXIsoCp/PkILYIkN5yHTFMtCT5spLzrUu+1yl
+sq1hXdNfi1+2hBIq5xhKUG5oPNkS5yvW29zPMSwNBHxzprb7b9C4at1E1XHCZPzd
+p8MjSws7uYJ+yZlSK+O5XSMWKN8GbbiuIccJ/F6gE+hngpFBV6wXri5RGDriz/BY
+M33zC5ViXFFSfBpND9Nv117xosT98XPwTdq85Z+pfRmAzgS72WKbJ+5zdreOVnco
+H5BUQERGJyHtyLCE/vj5rMqyN1wZVlPX4Ds+xKeCUbUF91gSTN9Tik14uXSolP+e
+O6KbGTgtu4BIMnft6vsDMIdcc+km5rYaqrR9u2V2trF0e2nqctXygoMHVQiqxW5f
+mJFE+pBRZGO8vIbXDIRGhPq8SBMiOluEko0p2h0HCH1jE28XQNsYG374FRIwwDcW
+vdEcYnfDpmOpKxruBX/9SF7isR6uiAhLqP/TDQ+lEpPBFoXDbZXIKa4MhP322F08
++xMHWxD3Mva8Oj5pL4C6X0T/zs068LwERA0grsi9sPMf9RA7/saCe4OomGQMA5N3
+HiWxvffrnWb1F4EaMrE8lnPg
+=nDnB
 -----END PGP SIGNATURE-----
 
---===============0493157583764644947==
+--===============6471512109663669146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-269ce7f841e2-c2d79804d11f.txt
+Content-Disposition: attachment; filename=revlist-6df2121f499d-84b9d8b93009.txt
 
-0cd4f78001cb3f18b49c16d435cdbde425fb9b17 sparc: fix up arch_cpu_finalize_init() build breakage.
-f602ac161f68a7b4709ad4e6588d933c2774e4ad mmc: moxart: read scr register without changing byte order
-a3ee246528c9342065a18a33d8edf7a1fa497c38 ipv6: adjust ndisc_is_useropt() to also return true for PIO
-c02667985c74ec9ec56f55c599bee7dacc1ad809 dmaengine: pl330: Return DMA_PAUSED when transaction is paused
-dad6198f1fab55a8d712c1fcd7e6f1e3ec2933b1 radix tree test suite: fix incorrect allocation size for pthreads
-7106d89b75fdf732ed416506e0e07a7dfb280650 nilfs2: fix use-after-free of nilfs_root in dirtying inodes via iput
-e2fca3da99d6f9b9621255135bc209e90d1300f0 test_firmware: return ENOMEM instead of ENOSPC on failed memory allocation
-05b19b98f25627dc8181193a9660d00ea0da63b1 iio: cros_ec: Fix the allocation size for cros_ec_command
-dde6b3c98fc6ee0846e81dd209b19572458e86d7 usb-storage: alauda: Fix uninit-value in alauda_check_media()
-298a43f147c833ba1346dea3971c97096bcd7b31 usb: dwc3: Properly handle processing of pending events
-6494f54a8daf5a5ebec09a332aad5f4ca4ed96ec x86/mm: Fix VDSO and VVAR placement on 5-level paging machines
-26f40ae8a0b776576a8c07a40d0434caa405c59c x86: Move gds_ucode_mitigated() declaration to header
-57c712094ee56a9d2a51fbd323dac05868178bf3 drm/nouveau/disp: Revert a NULL check inside nouveau_connector_get_modes
-a6c24aeb5084cfacdabba863e1ac72bdc41b53c1 net/packet: annotate data-races around tp->status
-2675eac57e61a150242561d1415cb63901419e94 bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
-9b18dcfc0c96a0d0757e163a82298101ea770410 dccp: fix data-race around dp->dccps_mss_cache
-2aae6618cfe15ff83ef1c4e106e8eb6b7880b00b drivers: net: prevent tun_build_skb() to exceed the packet size limit
-498b74f52d5013f930770c59be40e03671f98c87 IB/hfi1: Fix possible panic during hotplug remove
-81ae93ab495f5711fe7842490f0be9e781b389ed btrfs: don't stop integrity writeback too early
-2cc7f3d646f1c075fea443424710140eda636f01 netfilter: nf_tables: report use refcount overflow
-2dc39bd5955f6cefca180c5d27c6fb699914deaf scsi: core: Fix legacy /proc parsing buffer overflow
-1b6fa0e5ac52f321b743f6fd62d82ed6312325ad scsi: storvsc: Fix handling of virtual Fibre Channel timeouts
-651855b4f4580285ff8bc3889f2e1d82c86b1911 scsi: 53c700: Check that command slot is not NULL
-a026a860be6a4892dbdd524ba39c96859fccfb9c scsi: snic: Fix possible memory leak if device_add() fails
-6380617acda305de3d4f7a11d367b21bf2f963dc scsi: core: Fix possible memory leak if device_add() fails
-ff3170cbf213d33ab03b9475a3eb6d32589981aa alpha: remove __init annotation from exported page_is_ram()
-c2d79804d11f0661ccff5d641b6549212f81c8f0 Linux 4.14.323-rc1
+88c3a04c2fa4180902656fa3c8ae1cb6ca6d720c sparc: fix up arch_cpu_finalize_init() build breakage.
+37d455ebae88713370908eb648bd2587c25a9b16 mmc: moxart: read scr register without changing byte order
+31fb4352541e5e7cb9eaa0f8fff28952c5271543 ipv6: adjust ndisc_is_useropt() to also return true for PIO
+6dc21b8bf6cbb1888fe56565854de02a86f35607 dmaengine: pl330: Return DMA_PAUSED when transaction is paused
+d5d2063ad600bc28e3314de15a862ce5ba00bef4 drm/nouveau/gr: enable memory loads on helper invocation on all channels
+a28b24e3fbc3e136ef1743f8da10b561886e86c4 radix tree test suite: fix incorrect allocation size for pthreads
+2239bda20418813be9395974af0f711d7b195929 nilfs2: fix use-after-free of nilfs_root in dirtying inodes via iput
+21c8a9822c28a6d598677db938e527012bea7b6a iio: cros_ec: Fix the allocation size for cros_ec_command
+c0ffd5483da227bc0822f08321316c643af9757d binder: fix memory leak in binder_init()
+5824857d14338741a542c79124543759861ea081 usb-storage: alauda: Fix uninit-value in alauda_check_media()
+0533f7d389bbcd40c49e5116d1c98817f76a7bde usb: dwc3: Properly handle processing of pending events
+7f3e0e851da756128acc68a143c631f2655dc39a x86/cpu/amd: Enable Zenbleed fix for AMD Custom APU 0405
+8905cd6286c3be28baeb8e5994f74530c0f40b03 x86/mm: Fix VDSO and VVAR placement on 5-level paging machines
+bc3e118a00d50f5b7d326e9b01bd3eb5a6e4131c x86: Move gds_ucode_mitigated() declaration to header
+876187c81d392066b231800a7e0b214ffcf21475 drm/nouveau/disp: Revert a NULL check inside nouveau_connector_get_modes
+8c4a03f28cddd083e81d5c8bdaa62d4f289905ec mISDN: Update parameter type of dsp_cmx_send()
+20c311a4d8e608400c73f3d2bfbb5abdb691de55 net/packet: annotate data-races around tp->status
+30a72e8b954af55ce61876129313520217c61eae bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
+454f352d6465705a13d4a9e0c0fb48936211b9ba dccp: fix data-race around dp->dccps_mss_cache
+279238ddaddb12f99ba2adfb269043347b12841f drivers: net: prevent tun_build_skb() to exceed the packet size limit
+372fb75dc9711e2de08113fb19d2cd769b24009b IB/hfi1: Fix possible panic during hotplug remove
+de47061a1c2d032f84857c40201944078716523c wifi: cfg80211: fix sband iftype data lookup for AP_VLAN
+4a28c2ccdc725793214ad217036355e722515198 ibmvnic: Handle DMA unmapping of login buffs in release functions
+2cb2572a687c1e325b653933b24ea28ba0a332b5 btrfs: don't stop integrity writeback too early
+1b59db451e27be88643454acf50676557ce46728 netfilter: nf_tables: bogus EBUSY when deleting flowtable after flush
+f317fdb5dc9c56aa3b5e08de86b1657d1f6ee509 netfilter: nf_tables: report use refcount overflow
+effc13143a12fd53688589b2bf2d32696f40beee scsi: core: Fix legacy /proc parsing buffer overflow
+caa2d3ba66f92c07677094136ec24d41fffb7910 scsi: storvsc: Fix handling of virtual Fibre Channel timeouts
+188cc177b3de5bfc8851d60dcdb9c450cd63bc9d scsi: 53c700: Check that command slot is not NULL
+169e096af8a3e59c215e07bc9167c13639288052 scsi: snic: Fix possible memory leak if device_add() fails
+a6630645052824f8bf2759c9450b770aab73c669 scsi: core: Fix possible memory leak if device_add() fails
+0c5c6320fe9dc1f272b067e09f1b58250fa6f681 alpha: remove __init annotation from exported page_is_ram()
+cf02bd6ef808208505f521c2a0b6d4d5e04177af sch_netem: fix issues in netem_change() vs get_dist_table()
+84b9d8b93009a14264e351f2ae6dd63d95dd6ceb Linux 4.19.292-rc1
 
---===============0493157583764644947==--
+--===============6471512109663669146==--
