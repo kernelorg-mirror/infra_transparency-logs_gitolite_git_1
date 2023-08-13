@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Sun, 13 Aug 2023 12:39:55 -0000
-Message-Id: <169193039523.31345.7970145231506247721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/qemu
+Date: Sun, 13 Aug 2023 12:50:14 -0000
+Message-Id: <169193101482.7680.9072914521390350904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/maz/qemu
+user: maz
 changes:
-  - ref: refs/tags/v6.5-rc5
+  - ref: refs/heads/b0b
     old: 0000000000000000000000000000000000000000
-    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+    new: 3257e4e765639dcf6f7472d6fb738883a68b684d
