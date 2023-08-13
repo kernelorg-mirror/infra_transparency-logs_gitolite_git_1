@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3691660170533293665=="
+Content-Type: multipart/mixed; boundary="===============5352059480658351081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 13 Aug 2023 20:10:23 -0000
-Message-Id: <169195742319.4863.9818991306037245079@gitolite.kernel.org>
+Date: Sun, 13 Aug 2023 20:10:28 -0000
+Message-Id: <169195742895.4989.15584134666746704121@gitolite.kernel.org>
 
---===============3691660170533293665==
+--===============5352059480658351081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+  - ref: refs/heads/char-misc-linus
+    old: 51a26bb02ae58c7db6b4156d7e1e39cd79008757
     new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
-    log: revlist-5d0c230f1de8-2ccdd1b13c59.txt
+    log: revlist-51a26bb02ae5-2ccdd1b13c59.txt
 
---===============3691660170533293665==
+--===============5352059480658351081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691957419 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691957428 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1691957419-278e949a556107cefa5841f3f459488bcfbe0a23
+nonce 1691957427-1a086ae9ca5c0a3840a0689c7b49e935e3b010a7
 
-5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 refs/heads/main
+51a26bb02ae58c7db6b4156d7e1e39cd79008757 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTZOKsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y+IP/2JVInNy9V7KJ1CLoPUP
-YFIw8ILfGRWg4iG06GEaVD1RAYrcCYZJeyAVTHfhAGTsWnHM3q6mpskI8il++7Mw
-m/YxWPgi+6vBW6VhopUkaEwKNLtvtCjxqWzbOp/BgIcjT/wdPE7RIVrBtOB1gHZY
-lUNeC21Yz+4Ll7OdzWF1J39mVcHT9KHdw2RqLPRt9tGL8xtQmIpH1ijawW6QPw0K
-ef5i1Fv9gf+1kDuuC3xVS6S06JSI4pdKRIFweTBPOiHXGPofPzlecZ1QETp8utkO
-9xg8lnnwGFFt4Aj7Z/dE/RyvpHGR8VS5oQIJjdlYuQHtLdAgvrtGXYWhA1IeKkj7
-lSzwjzs1ZrUZRVU82UxOhzPBW+zVppt1zhMai92AO/ohCfICdEVKrn6bJjAQiq0w
-YT3L/JKT31tnX8Ll22FJWnpzzeB7+/0efmUHzKLAcW6hhpO2bKvwpDgsgYPVe3Vo
-rCGnHrBZYF+OS7/ZZU+q2eFRlh/Qt/8iLbcSzvr7S8UByneQc/MwYvVPOafPn3AE
-QCpCYszABArRDb2Optx25ONnvnvQwqOzRftwO4TxPWBetrDOq02f8ahmm1wEID9p
-efifVrup8M+eE+K4FhEbEDp1tzyHYKRI4KeT9kgLf2+4X2qO7V8CDnkvdeB0dS6w
-wwm2SEkqzFSHKDs7cJ7K0VHY
-=cgJw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTZOLQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1yYQAKcLOIM69Cjsd22jd6NI
+4Tkc7g8vrkLxkrgVh5/j7HlmGgJgz7jWngYZ3kzFEC+VLDj0zH9IlFxz33uhEPWW
+5RaenkG8t0A8qi2v/8PeJtOTPfLPMpuvon5NWC1x4Jkags+d38v0BwU9fYVUMJC4
+NZcAm0LpEUgyFRbHKG+w2qzosjpw/3x2Bo/Cbej53D7kQ0wdyZ3xUSHShgdSJXAq
+EV9s9QSE4KVBO3pucNAe9fE7CBJJhLooD+5GvN4VPfYXvjm0LvddcLi9Xb8F2sYp
+3Dwbptwt041z3aVWP7+jTNPqXcxQkI9r3s8btOHpYXbc41jIlPK/ksS5hmCmDkSh
+xQc8M/65SOStpMIVINjbs8LtVplQx7R7i4rMPz8GlXqbXUcl/AakU0BGeae30/q8
+6zb5G2a6Q+Cx69fihTf58ZuQQhmkQWgRWmf/YOO5GYQOr1LG+7SvgxSm4pOcV/FR
+JfEu15o07XrKbYgRSe0EwmZ48yIWRglU/P7jm2lplI7vyaPGoCX0FJyWzqhy3Gqt
+jXwcFPOCpGQKbI5szMBRJJq/7P4JsFix3eiaRMVhxKuJcPT+FjDaFMzIREynxfbi
+5UdyFozrKnSv6ftjoOUReKWdiECBM2utmF3IBDXJTkBgrP1mqm499M69Xn2bDb7i
+GtqZIn+YyrLFuYVSROIvbcTO
+=W3w1
 -----END PGP SIGNATURE-----
 
---===============3691660170533293665==
+--===============5352059480658351081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d0c230f1de8-2ccdd1b13c59.txt
+Content-Disposition: attachment; filename=revlist-51a26bb02ae5-2ccdd1b13c59.txt
 
-9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
 a6fe043880820981f6e4918240f967ea79bb063e Drivers: hv: Change hv_free_hyperv_page() to take void * argument
 55e544e1a922d272b62ec576a3de92329f838ce9 x86/hyperv: Improve code for referencing hyperv_pcpu_input_arg
 d1478aea649e739a0a0e4890cd8b049ae5d08c13 memory: tegra: Add dummy implementation on Tegra194
 6e2acbfe59b83043bc7ae1bb39fac4fc9dcd5a18 clk: meson: change usleep_range() to udelay() for atomic context
 daf60d6cca26e50d65dac374db92e58de745ad26 exfat: use kvmalloc_array/kvfree instead of kmalloc_array/kfree
-d8630f050d3fd2079f8617dd6c00c6509109c755 interconnect: qcom: Add support for mask-based BCMs
-be02db24cf840bc0fdfbecc78ad803619dd143e6 interconnect: qcom: sm8450: add enable_mask for bcm nodes
-0dc82bd9e4627065dbc6ac8468296aa18f13c840 interconnect: qcom: sm8550: add enable_mask for bcm nodes
-3cb11fe244d516f757c1022cfa971528d525fe65 interconnect: qcom: sa8775p: add enable_mask for bcm nodes
 db66795f61354c373ecdadbdae1ed253a96c47cb arm64: dts: stratix10: fix incorrect I2C property for SCL signal
 b2ec116aad38aa9c8b67fad4314e50823adf6949 workqueue: Fix cpu_intensive_thresh_us name in help text
 8544cda94dae6be3f1359539079c68bb731428b1 mtd: spinand: toshiba: Fix ecc_get_status
@@ -83,12 +78,6 @@ d42334578eba1390859012ebb91e1e556d51db49 exfat: check if filename entries exceed
 ff84772fd45d486e4fc78c82e2f70ce5333543e6 exfat: release s_lock before calling dir_emit()
 d0ca3b92b7a6f42841ea9da8492aaf649db79780 mtd: rawnand: rockchip: fix oobfree offset and description
 ea690ad78dd611e3906df5b948a516000b05c1cb mtd: rawnand: rockchip: Align hwecc vs. raw page helper layouts
-6bc471b6c3aeaa7b95d1b86a1bb8d91a3c341fa5 iio: adc: ad7192: Fix ac excitation feature
-d47b9b84292706784482a661324bbc178153781f iio: light: bu27034: Fix scale format
-096649cd7cb0fc1c8f684829f816d938ad1eb808 iio: light: bu27008: Fix scale format
-95fb1e7b23bc82130016daefa02a87e83185ca95 iio: light: bu27008: Fix intensity data type
-a41e19cc0d6b6a445a4133170b90271e4a2553dc iio: adc: ina2xx: avoid NULL pointer dereference on OF device match
-48faabfb3634e519fc49ef01525448ad2ba96751 dt-bindings: iio: adi,ad74115: remove ref from -nanoamp
 3e7d3c5e13b05dda9db92d98803a626378e75438 arm64: dts: imx8mm-venice-gw7903: disable disp_blk_ctrl
 f7a0b57524cf811ac06257a5099f1b7c19ee7310 arm64: dts: imx8mm-venice-gw7904: disable disp_blk_ctrl
 dcb60f9c403e03133363563ac8ea5d8bba6c2be1 cpumask: eliminate kernel-doc warnings
@@ -112,7 +101,6 @@ e7dd44f4f3166db45248414f5df8f615392de47a clk: fixed-mmio: make COMMON_CLK_FIXED_
 d1ff11d7ad8704f8d615f6446041c221b2d2ec4d firmware: arm_scmi: Fix chan_free cleanup on SMC
 c718ca0e99401d80d2480c08e1b02cf5f7cd7033 KVM: arm64: Fix hardware enable/disable flows for pKVM
 733c758e509b86a5d38b9af927817258b88ededd KVM: arm64: Rephrase percpu enable/disable tracking in terms of hyp
-272ffb925e2020000863748867d91a2407d3e8e9 counter: Fix menuconfig "Counter support" submenu entries disappearance
 1b95e817916069ec45a7f259d088fd1c091a8cc6 nvme: fix possible hang when removing a controller during error recovery
 99dc264014d5aed66ee37ddf136a38b5a2b1b529 nvme-tcp: fix potential unbalanced freeze & unfreeze
 29b434d1e49252b3ad56ad3197e47fafff5356a1 nvme-rdma: fix potential unbalanced freeze & unfreeze
@@ -122,10 +110,6 @@ f6ad3c13f1b8c4e785cb7bd423887197142f47b0 ARM: dts: at91: sam9x60: fix the SOC de
 553a5c03e90a6087e88f8ff878335ef0621536fb x86/speculation: Add force option to GDS mitigation
 53cf5797f114ba2bd86d23a862302119848eff19 x86/speculation: Add Kconfig option for GDS
 81ac7e5d741742d650b4ed6186c4826c1a0631a7 KVM: Add GDS_NO support to KVM
-507397d19b5a296aa339f7a1bd16284f668a1906 iio: frequency: admv1013: propagate errors from regulator_get_voltage()
-b2a69969908fcaf68596dfc04369af0fe2e1d2f7 iio: core: Prevent invalid memory access when there is no parent
-09738ccbc4148c62d6c8c4644ff4a099d57f49ad iio: adc: meson: fix core clock enable/disable moment
-6811694eb2f6b7a4e97be2029edc7dd6a39460f8 iio: imu: lsm6dsx: Fix mount matrix retrieval
 010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
 d5ace2a776442d80674eff9ed42e737f7dd95056 x86/hyperv: Disable IBT when hypercall page lacks ENDBR instruction
 060f2b979c4e0e894c381c76a4dcad24376feddd x86/hyperv: fix a warning in mshyperv.h
@@ -134,7 +118,6 @@ ed0cf84e9cc42e6310961c87709621f1825c2bb8 vmbus_testing: fix wrong python syntax 
 92d39d018347ead1078dcba3cb1d8aeb9de79e04 dt-bindings: serial: atmel,at91-usart: update compatible for sam9x60
 421033deb91521aa6a9255e495cb106741a52275 wifi: mt76: mt7615: do not advertise 5 GHz on first phy of MT7615D (DBDC)
 a2777be03236c00466326acba8d39ac4f9c3e971 MAINTAINERS: Update mwifiex maintainer list
-aead78125a987f48944bff2001f61df72b95afc4 tools/counter: Makefile: Replace rmdir by rm to avoid make,clean failure
 9754353d0ab123d71bf572a483ecc8b330ef36a3 perf pmu arm64: Fix reading the PMU cpu slots in sysfs
 341e0e9f59e26676c88d0aa9a5a9b2d3c44bf21c perf callchain powerpc: Fix addr location init during arch_skip_callchain_idx function
 4c188fa183ebb45238ef16504c4c7606955cf9d4 arm64: dts: renesas: rzg2l: Update overfow/underflow IRQ names for MTU3 channels
@@ -223,7 +206,6 @@ ad64f5952ce3ea565c7f76ec37ab41df0dde773a cxl/memdev: Only show sanitize sysfs fi
 e68409db995380d1badacba41ff24996bd396171 net: sched: cls_u32: Fix match key mis-addressing
 56c6be35fcbed54279df0a2c9e60480a61841d6f mISDN: hfcpci: Fix potential deadlock on &hc->lock
 238353088e9b28d61f58994aa058d736fc306614 scripts/kallsyms: Fix build failure by setting errno before calling getline()
-8a4629055ef55177b5b63dab1ecce676bd8cccdd iio: cros_ec: Fix the allocation size for cros_ec_command
 238ec850b95a02dcdff3edc86781aa913549282f x86/srso: Fix return thunks in generated code
 0c02cc576eac161601927b41634f80bfd55bfa9e KVM: s390: fix sthyi error handling
 3bbbe97ad83db8d9df06daf027b0840188de625d x86/srso: Add a forgotten NOENDBR annotation
@@ -375,13 +357,7 @@ ef7c4d8a90c64bac294363c6f67eb98246a162a2 usb: typec: mux: intel: Add dependency 
 8e21a620c7e6e00347ade1a6ed4967b359eada5a usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
 a6ff6e7a9dd69364547751db0f626a10a6d628d2 usb-storage: alauda: Fix uninit-value in alauda_check_media()
 3ddaa6a274578e23745b7466346fc2650df8f959 usb: dwc3: Properly handle processing of pending events
-ec3041b30133f92cfbce783e02239aa0853f8ab3 Merge tag 'counter-fixes-for-6.5a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 596a5123cc782d458b057eb3837e66535cd0befa thunderbolt: Fix memory leak in tb_handle_dp_bandwidth_request()
-bb6578bab876f7fb138f5099f833a265b11a60d7 Merge tag 'counter-fixes-for-6.5b' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-63b93e70c862922fedb8d1045e89245bc984a898 Merge tag 'iio-fixes-for-6.5a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-adb9743d6a08778b78d62d16b4230346d3508986 binder: fix memory leak in binder_init()
-101bd907b4244a726980ee67f95ed9cafab6ff7a misc: rtsx: judge ASPM Mode to set PETXCFG Reg
-77107b08f0f29c6e9d02c2e4bfcd6e1e0c57bdd5 misc: tps6594-esm: Disable ESM for rev 1 PMIC
 b3d8aa84bbfe9b58ccc5332cacf8ea17200af310 rust: allocator: Prevent mis-aligned allocation
 1d24eb2d536ba27ef938a6563ac8bfb49c738cc1 rust: delete `ForeignOwnable::borrow_mut`
 b05544884300e98512964103b33f8f87650ce887 rust: fix bindgen build error with UBSAN_BOUNDS_STRICT
@@ -433,7 +409,6 @@ ff18f9ef30ee87740f741b964375d0cfb84e1ec2 mptcp: avoid bogus reset on fallback cl
 fc2ea6ab0a73b58328c61237017e28ba49b3a21e Merge branch 'mptcp-more-fixes-for-v6-5'
 a47e598fbd8617967e49d85c49c22f9fc642704c dccp: fix data-race around dp->dccps_mss_cache
 c9d26d8de10f7c4decd10b6e75f5593c11ff9dfc Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-51a26bb02ae58c7db6b4156d7e1e39cd79008757 Merge tag 'icc-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 947c2a83584d3093efea1edf52430db47f11080f Merge tag 'parisc-for-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 251a94f1f66e909d75a774ac474a63bd9bc38382 Merge tag 'powerpc-6.5-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 f6a691685962637e53371788fe2a72b171aedc68 Merge tag '6.5-rc4-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
@@ -703,4 +678,4 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
 
---===============3691660170533293665==--
+--===============5352059480658351081==--
