@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 13 Aug 2023 02:25:20 -0000
-Message-Id: <169189352071.28515.6662246064078598581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 13 Aug 2023 06:13:30 -0000
+Message-Id: <169190721050.30017.16047194913808964482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/20230811_ruanjinjie_sound_remove_redundant_of_match_ptr_macro
-    old: 0000000000000000000000000000000000000000
-    new: 891ce0dc07b7445ec1247112b9a3586f3dbce1ba
-  - ref: refs/heads/20230812_linus_walleij_asoc_rt_drop_unused_gpio_includes
-    old: 0000000000000000000000000000000000000000
-    new: 5f641fa7a2eeb2f0e7588b38c799be8bbf881133
-  - ref: refs/heads/fileiXA56b
-    old: 0000000000000000000000000000000000000000
-    new: 1f5f40a6f1357cdd913cadcf79866af6101ca087
-  - ref: refs/heads/filejDv6eI
-    old: 0000000000000000000000000000000000000000
-    new: 6542da61496989bdd513510405a96fa1b067c15e
+  - ref: refs/heads/sunxi/dt-for-6.6
+    old: 0801a3a9f35854c91f1f3ab8e879c3d14912d214
+    new: f05af44f691351bfd954f39ec376666dc5e1b869
+    log: |
+         f05af44f691351bfd954f39ec376666dc5e1b869 riscv: dts: allwinner: d1: Add CAN controller nodes
+         
+  - ref: refs/heads/sunxi/for-next
+    old: d82915563fee2180d0382e60d043017d169d7732
+    new: aa333f5e8461bae5e1a7888b0ca8672dccba3721
+    log: |
+         f05af44f691351bfd954f39ec376666dc5e1b869 riscv: dts: allwinner: d1: Add CAN controller nodes
+         aa333f5e8461bae5e1a7888b0ca8672dccba3721 Merge branch 'sunxi/dt-for-6.6' into sunxi/for-next
+         
