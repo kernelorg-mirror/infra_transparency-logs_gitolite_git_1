@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8095497506739315817=="
+Content-Type: multipart/mixed; boundary="===============4017138356241845784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 13 Aug 2023 06:35:41 -0000
-Message-Id: <169190854157.13764.11025327465467304276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 13 Aug 2023 06:36:21 -0000
+Message-Id: <169190858190.14100.9571706446681232098@gitolite.kernel.org>
 
---===============8095497506739315817==
+--===============4017138356241845784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
-    new: 2d297d20ace8c544bcc74a2ed5f3536add3a7a69
-    log: revlist-5d0c230f1de8-2d297d20ace8.txt
+  - ref: refs/heads/char-misc-next
+    old: fd06978b06a2ad99cb6d048617e50869d4081420
+    new: 5a652fe5e38d906621e9c54a7d14ca4e030ab4f6
+    log: |
+         1314e1220d7d31aa99ed551e42d76ba7be8e5bf4 misc: tps6594: Remove redundant dev_err_probe() for platform_get_irq_byname()
+         5a652fe5e38d906621e9c54a7d14ca4e030ab4f6 misc: microchip: pci1xxxx: Fix some NULL vs IS_ERR() bugs
+         
 
---===============8095497506739315817==
+--===============4017138356241845784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d0c230f1de8-2d297d20ace8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-35e0bf83f1854c22606c7ba00be66e3142d64d9c macsec: add functions to get macsec real netdevice and check offload
-cb5ebe4896f9d8338d595726fea939411a058335 net/mlx5e: Move MACsec flow steering operations to be used as core library
-5a58a5ff472cf1bee22bc2e652470dba37d809a9 net/mlx5: Remove dependency of macsec flow steering on ethernet
-d4ef9aa031c7a9160a078bb550467986d073cf82 net/mlx5e: Rename MACsec flow steering functions/parameters to suit core naming style
-e26051386a949847dbe5b13cf53ca6146f69fa27 net/mlx5e: Move MACsec flow steering and statistics database from ethernet to core
-8036c74fa30e84502d506d983369ac00a2c54b67 net/mlx5: Remove netdevice from MACsec steering
-94b1e80a2ec7ef357d7934da627a0ee8226515f8 net/mlx5: Maintain fs_id xarray per MACsec device inside macsec steering
-2080fe4a9b0d68acee03573335ed793979f8339c RDMA/mlx5: Implement MACsec gid addition and deletion
-161526299b4b08869b33ebb709a9a905ff8d3461 net/mlx5: Add MACsec priorities in RDMA namespaces
-99fa92c31806ace23968512c0c6a06e375ce0d51 IB/core: Reorder GID delete code for RoCE
-c6a5bf7a6d3cc0bbdbf1fd98a79f50d015c33378 net/mlx5: Configure MACsec steering for egress RoCEv2 traffic
-83eac028d768bd3da5924b97add7c7e2317afc61 net/mlx5: Configure MACsec steering for ingress RoCEv2 traffic
-17c5c415b9cbbc14d4488cc8107f9560229a9236 net/mlx5: Add RoCE MACsec steering infrastructure in core
-2d297d20ace8c544bcc74a2ed5f3536add3a7a69 RDMA/mlx5: Handles RoCE MACsec steering rules addition and deletion
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1691908578 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1691908578-a451197c4ad3e3bde391783db3bdd07ac36af0e9
 
---===============8095497506739315817==--
+fd06978b06a2ad99cb6d048617e50869d4081420 5a652fe5e38d906621e9c54a7d14ca4e030ab4f6 refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTYeeIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xL8P/RHlYetANf3tqI2X0emZ
+fS1pCOqIATZpGGX+yI0qANC0v91ucM+pJC42N4kPDo2J2EPcr+53gtCfU4Sig3QD
+VZe1293F7thpQCIVVE4OXlM4qdjeL3HojQxKDbkdZAi1vPwl7NjJcjz39fbZwGC2
+CYa1uYVOFOYlOMjoBJOL5NquPuvNiiYq4/e9Hw9wtrXx3k5aetSwlSwJYpD+Y6G3
++SFMJskzzHX0boMviEI5BgwdsZvYCIe/HDwBoxx1NPjyZFPQwuKxNVfICjlucQUY
+KE0QY2nj8FiN+8ByORH73+f3Kbuld+57rIwWJbLYClO0CsZY4wRhUt2zTsYdtNoa
+KY0qjUzF1ihulQ415XoJVhZJ9HIWsACxq4Pf48iN/TdwwEgAdJt2RkmUfy5k5Jxj
+A2nnTnWEHsuns0gv/DfYvjEZZo7fLSctwiOk8V3t1TlBOmBx+fNXr0pTg220RW+T
+bWCFj02BkPXtuOgtAwvpyIgFaKi+me6CvPrLtJ1PvHfuK2PXJKI4ZJW2JLqEiYFA
+X0CaBX0ziFRR3rHNw9HvC0/jP6Cj6s12v6uMVTkbDtzdWvB+Yn1/ATNVmCP4GKzb
+7DtyB2MtbIE5NIHO7oy8D3DDTJY+HSG5OXTXl4pq26ee5S8zFIW4aI3Zqjwvn6+Q
+40Kj1dx8CtbBMScVR/XSwqPL
+=Sy/G
+-----END PGP SIGNATURE-----
+
+--===============4017138356241845784==--
