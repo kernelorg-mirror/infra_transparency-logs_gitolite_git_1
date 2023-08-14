@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5995376325793337644=="
+Content-Type: multipart/mixed; boundary="===============1440862949420585200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 14 Aug 2023 00:07:44 -0000
-Message-Id: <169197166402.19230.12931363935857133439@gitolite.kernel.org>
+Date: Mon, 14 Aug 2023 00:08:12 -0000
+Message-Id: <169197169241.19516.4275689302545806320@gitolite.kernel.org>
 
---===============5995376325793337644==
+--===============1440862949420585200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 140fcaf7e6987ab9fda75c281c3a75384578ba9d
-    new: f5797323270df25ad9a2f3c40107d84bed1f164f
-    log: revlist-140fcaf7e698-f5797323270d.txt
+  - ref: refs/heads/topic-sunrpc-thread-scheduling
+    old: 1b8bd0b7000850b2d968065283673b9ec6c17fec
+    new: 4fa42add1a79f9dca369c873aaafb200f99852be
+    log: revlist-1b8bd0b70008-4fa42add1a79.txt
 
---===============5995376325793337644==
+--===============1440862949420585200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-140fcaf7e698-f5797323270d.txt
+Content-Disposition: attachment; filename=revlist-1b8bd0b70008-4fa42add1a79.txt
 
 9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
 d8630f050d3fd2079f8617dd6c00c6509109c755 interconnect: qcom: Add support for mask-based BCMs
@@ -463,5 +463,12 @@ e93c55ddfd42bfc8117e49ce2355a9852550bbe7 SUNRPC: remove timeout arg from svc_rec
 6da7757d2d176c331779daf461e252be89682661 SUNRPC: Deduplicate thread wake-up code
 45338daefb42461490c9e38ce874d1e50ff74ed1 SUNRPC: Count ingress RPC messages per svc_pool
 f5797323270df25ad9a2f3c40107d84bed1f164f SUNRPC: Clean up svc_set_num_threads
+b542de7f55e1c94c303e923d1b051b2e9d6bdea0 SUNRPC: make rqst_should_sleep() idempotent()
+cfa8af8dcea802917650685d7e3d9928633eb644 SUNRPC: Remove return value of svc_pool_wake_idle_thread()
+842d8c54e8bf7bf23e2ef085ef8298fb608847a1 SUNRPC: move all of xprt handling into svc_xprt_handle()
+c82c95937be6c471e5debdf448c015047efe49ff SUNRPC: rename and refactor svc_get_next_xprt()
+e3bd796527881554f2c1b7d7086d8fa45e18d48d SUNRPC: Clean up bc_svc_process()
+d40ece0ef566d445854d5a54500f301ad597070f SUNRPC: integrate back-channel processing with svc_recv()
+4fa42add1a79f9dca369c873aaafb200f99852be SUNRPC: change how svc threads are asked to exit.
 
---===============5995376325793337644==--
+--===============1440862949420585200==--
