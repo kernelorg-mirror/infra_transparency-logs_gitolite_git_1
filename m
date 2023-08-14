@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Mon, 14 Aug 2023 11:23:59 -0000
-Message-Id: <169201223930.15120.17300527539314289822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 14 Aug 2023 11:30:47 -0000
+Message-Id: <169201264717.20741.10304045242921913662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/socfpga_updates_for_v6.6
-    old: 2d864f53913f2aba9addd8a463a8ffc48e2bda03
-    new: 2d599bc43813cbcceeb6b0bfe864671ab517c207
-    log: |
-         2d599bc43813cbcceeb6b0bfe864671ab517c207 arm64: dts: agilex5: add initial support for Intel Agilex5 SoCFPGA
-         
+  - ref: refs/heads/kdevops
+    old: f0b802be20b20be688986c09b734b44e764ebb64
+    new: f8de32cc060ba3f63171aaa0e8764d22d8c37978
