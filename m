@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Mon, 14 Aug 2023 10:31:08 -0000
-Message-Id: <169200906807.9441.15750778821515371185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 14 Aug 2023 10:35:57 -0000
+Message-Id: <169200935792.12846.6225725686887372826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/md-next-20230814
-    old: 0000000000000000000000000000000000000000
-    new: 733fd910ffa5cdc26776c98cc4612b0ce3e2bbfd
+  - ref: refs/heads/master
+    old: 01576f703f820e54602dc11c7f0a1f37ee429740
+    new: d925b426da58fc4c5f8c0f8acab7e6e30611dee5
+    log: |
+         d925b426da58fc4c5f8c0f8acab7e6e30611dee5 proc.5: /proc/PID/status: Add Seccomp_filters entry
+         
