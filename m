@@ -1,47 +1,154 @@
-Content-Type: multipart/mixed; boundary="===============2371848106714926117=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
-Date: Mon, 14 Aug 2023 08:06:23 -0000
-Message-Id: <169200038371.17085.12370699241351303275@gitolite.kernel.org>
-
---===============2371848106714926117==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
+Date: Mon, 14 Aug 2023 08:26:15 -0000
+Message-Id: <169200157514.31769.10138600028157065456@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux-next
-user: mcgrof
+repo: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
+user: narmstrong
 changes:
-  - ref: refs/heads/large-block-20230806-nobdev-hacks
-    old: 54e4b3c6dfe0c315d2714c86e7bbfef3b04a9ab3
-    new: 1bbfc68d17806f44123a1ea283cf7c2f505533cb
-    log: revlist-54e4b3c6dfe0-1bbfc68d1780.txt
-
---===============2371848106714926117==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54e4b3c6dfe0-1bbfc68d1780.txt
-
-d59e0e9afb036d97dc05ce36b00a2204910b64b0 iomap: simplify index rounding
-9625a7f0d1942078bd37aec00798760662a7e72f mm/filemap.c: unconditionally round_down() index
-1620e92e09a1c466c34cddcc65ded533f7688497 mm/filemap.c: warn on unaligned folios on filemap_readahead()
-599a8d38fe2d7645a79bb95c71c11567c9266868 mm/filemap.c: fix last_idx used on filemap_readahead()
-e62b13f402b7939204136499e33a09a835f8e6ea filemap: fix index used on filemap_get_pages() if not in page cache
-b7fc6701d1b5ff5d56397c57ea29252b4a4e2a6c mm/readahead.c: use min order on ondemand_readahead()
-ae5ab921a075272a97e76862b844c8c96e5f6250 mm/readahead.c: adjust readahead window to account for min order
-e1f274491330efca0b074143822c7e846b0bcba0 mm/readahead.c: use 1UL instead of 1 on force_page_cache_ra()
-707aa4932328cbb3e25e506f9662932f74ed3790 mm/readahead.c: ensure index aligmnent on do_page_cache_ra()
-f4ed73e922ef2567fe53c8e010466ee6363af0ac mm/readahead.c: use minorder to get last index on do_page_cache_ra()
-e156acfa14c8ff8e94cb972b10276fdd8bc125f0 mm/readahead.c: ensure force_page_cache_ra() isn't called for nothing
-4b4919f2bfea81e1bb53cfe1f456a5553bc77212 filemap: fix last_index use on filemap_get_pages()
-ee6aa8cc28a367e33e5000a3254c118499d4b660 filemap/readahread: use a min order on do_sync_mmap_readahead()
-6d093b2baf11571811bf882d664dbf62d38cc758 filemap: verify folio index on do_async_mmap_readahead()
-da592ae83cfc26cfc9a899fa619772409130d832 filemap: clarify min order usage on filemap_fault()
-355fc0d4ba4feff1f37be6742abfdee994f15864 filemap: try to debug order 0 folio on filemap_fault()
-1bbfc68d17806f44123a1ea283cf7c2f505533cb memory: disable faulting around for higher min order for now
-
---===============2371848106714926117==--
+  - ref: refs/tags/v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
+  - ref: refs/tags/v6.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/tags/v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/tags/v6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
+  - ref: refs/tags/v6.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 52868a8b445605ea56831f92b5607ae3183f09bd
+  - ref: refs/tags/v6.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
+  - ref: refs/tags/v6.1
+    old: 0000000000000000000000000000000000000000
+    new: 7614896350aa20764c5eca527262d9eb0a57da63
+  - ref: refs/tags/v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0e492cebef25c13fc29b174f01b5178662f1652
+  - ref: refs/tags/v6.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0d8d9e948ba8d5e1a826935d8d1c4aace65dd185
+  - ref: refs/tags/v6.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0083e89728f57eae559c1ed1ac1e44487565feb1
+  - ref: refs/tags/v6.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cc17e0a6a1b0c4708af1f5d81edc87e2cb5ffbf8
+  - ref: refs/tags/v6.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 40747115a02c06d398d801301015db7ea182f7f0
+  - ref: refs/tags/v6.1-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 4446246354c3c11d4cbc8cf3515c92c3a880fc8e
+  - ref: refs/tags/v6.1-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1791be4df87a0d69008ba46c5a03be2e4cfbe3d5
+  - ref: refs/tags/v6.1-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 586cbada421761e98ada6f7de24426456352bfd6
+  - ref: refs/tags/v6.2
+    old: 0000000000000000000000000000000000000000
+    new: 32758e7a720e4752a824c6062e75f107314e5598
+  - ref: refs/tags/v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e05dec85e78317f251eddd27e0357b2253d9dfc4
+  - ref: refs/tags/v6.2-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e4ef62bcce9737cf3a2bb1b797b64dc25cbbfbb4
+  - ref: refs/tags/v6.2-rc3
+    old: 0000000000000000000000000000000000000000
+    new: d4245d7ef91d67fe3d21e2faab131fdeab636209
+  - ref: refs/tags/v6.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9b4ccd95c99918fe8ad32bc136fa36eab55af10b
+  - ref: refs/tags/v6.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4cc398054ac8efe0ff832c82c7caacbdd992312a
+  - ref: refs/tags/v6.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d68cd3a82e80628f13a69e51ce459de12870f5b9
+  - ref: refs/tags/v6.2-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53b3c6467004c627f42d96ef839b223a749bcdd9
+  - ref: refs/tags/v6.2-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 51c32cc368b00aae605286cad9150cefa0adbf2d
+  - ref: refs/tags/v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 00a2ff79c5cc8da6eeffd4a20dceee76221bcce8
+  - ref: refs/tags/v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0656701c5a27a5a8a3a38bc07d18f2e157e963d
+  - ref: refs/tags/v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 62f7115b1ddd72766123d3cdc6a0c4330da29f3b
+  - ref: refs/tags/v6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b04d78201ce644e5182e95f1d0bd131b35ec8816
+  - ref: refs/tags/v6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: bb81ed6862b864c9eb99447f04d49a84ecb647e5
+  - ref: refs/tags/v6.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 83af7b1468c0dca86b4dc9e43e73bfa4f38d9637
+  - ref: refs/tags/v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ab3affb8ed84f68638162fe7e6fd4055e15bff5b
+  - ref: refs/tags/v6.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1c8c28415e8743368a2b800520a6dd0b22ee6ec2
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 259be8eab12c4bc9a74f25859591d4d3ed3558ff
+  - ref: refs/tags/v6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 581fe2a4874338a1bfc599cae903a6101217b0a5
+  - ref: refs/tags/v6.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5f5c83f61976e2f8b5bcd3341c126436bd84baae
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/tags/v6.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/tags/v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/tags/v6.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
+  - ref: refs/tags/v6.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/tags/v6.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/tags/v6.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
