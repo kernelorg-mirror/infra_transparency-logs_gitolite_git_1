@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6377371361617554800=="
+Content-Type: multipart/mixed; boundary="===============3133125858551392748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 14 Aug 2023 20:57:57 -0000
-Message-Id: <169204667770.14882.9318881999918865300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Aug 2023 20:58:03 -0000
+Message-Id: <169204668394.15013.16022709005008967247@gitolite.kernel.org>
 
---===============6377371361617554800==
+--===============3133125858551392748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: ddaec4e44d4e2a556b51159d48788a85ff67179d
     new: 675b8e35b5cbf4aaa1339079f44b88b9f1bb2f1b
     log: |
@@ -25,28 +25,28 @@ changes:
          675b8e35b5cbf4aaa1339079f44b88b9f1bb2f1b spi: amd: fix Wvoid-pointer-to-enum-cast warning
          
 
---===============6377371361617554800==
+--===============3133125858551392748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1692046676 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1692046675-a49216a2b6da2dfa7633e453562c0dcf18b60ddd
+pusher C3F436CA30F5D8EB 1692046682 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1692046681-df15d9079c780e008ed5f5882c8fc44395892670
 
-ddaec4e44d4e2a556b51159d48788a85ff67179d 675b8e35b5cbf4aaa1339079f44b88b9f1bb2f1b refs/heads/for-6.6
+ddaec4e44d4e2a556b51159d48788a85ff67179d 675b8e35b5cbf4aaa1339079f44b88b9f1bb2f1b refs/heads/spi-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTalVQACgkQJNaLcl1U
-h9Dg9Qf/VVX+Tb0lihtOUBM/55s1brSVw6XnuWd3oddrf1Q5AFGXGv4v+VWZhDFI
-VK2FT52I7JtFyO6ObSUjlHXZXs7yBa+ihoZkUb83rMklgBcCB4wPl8mfDGlA37cq
-l9uhp8agzPXbUECycBqoSDRnyF8hHxaVQS0U1ay5EG45Rs6jvt+5JdZmkNhvemTN
-f/cMaaEA/QlqUVcbbtyfhmQYZaMF9jPgoEQN747EIHHrA+kxYkiccEEIRvISrrVX
-MGilzYF1rvZTG0kmTr7HIAzyULjeyJkH8bjMnTzOPrCq4nB57s+RHrliLWdDGd2N
-JQSHtyVM2zrXoWhk54DupKtmJGDUtg==
-=OZ8v
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTalVoACgkQJNaLcl1U
+h9CiFAf/QWE7KcvVoJis1XENKr1KmLx1c9H3qFYvqfsnJy3HNdh8ephZEqrXtSpK
+3V7Os08n5Ep5wPaPu7mG05hleLsYNIfyeSX5AHmFeBc5vN2w4wZ1V8PG1uIrkzqO
+i/dFcHdn+P3KW+/AGlXBfPTDt06NH31xrkbZQLDFaT5yTpBBQ9pA6+uvrgRAwZKn
+KO3Q4TZm9oiJZ1Kt3NApzI6/v3yMPHBAIblPBtrIzxtjeJQOrOAsPgK0BdX5Jm5J
+vU8hOIHnCOcyJH7q7nV9gDcSlYlQ4Ds9czhPTAVL7FPKmsPG995DFe/rlYkEaWgi
+56jKx2nQRiXRyLCzNgg/SNmusj+OzQ==
+=9bHV
 -----END PGP SIGNATURE-----
 
---===============6377371361617554800==--
+--===============3133125858551392748==--
