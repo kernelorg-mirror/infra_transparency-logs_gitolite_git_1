@@ -1,515 +1,391 @@
-Content-Type: multipart/mixed; boundary="===============3664481637539937633=="
+Content-Type: multipart/mixed; boundary="===============3548737041190818991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 14 Aug 2023 22:17:37 -0000
-Message-Id: <169205145793.10729.10989488908558640891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 14 Aug 2023 22:18:48 -0000
+Message-Id: <169205152857.11246.1425545505996832232@gitolite.kernel.org>
 
---===============3664481637539937633==
+--===============3548737041190818991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 81ab37820a04e8896b7c8cb3e173e04d0e151393
-    new: eac502461628e2e54be844a2f3e2d583dd273e17
-    log: revlist-81ab37820a04-eac502461628.txt
-  - ref: refs/heads/soc/dt
-    old: eeb751c41060182f42149ebbd2e73efc12dd1f33
-    new: 1298d0dd31b2d78b352ff59999a0057bd8c891f7
-    log: revlist-eeb751c41060-1298d0dd31b2.txt
+  - ref: refs/heads/kdevops
+    old: 9106536c1aa37bcf60202ad93bb8b94bcd29f3f0
+    new: 6a0f784e2a95b28ab2886a3dcda77796421ef09c
+    log: revlist-9106536c1aa3-6a0f784e2a95.txt
 
---===============3664481637539937633==
+--===============3548737041190818991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81ab37820a04-eac502461628.txt
+Content-Disposition: attachment; filename=revlist-9106536c1aa3-6a0f784e2a95.txt
 
-414772b8f7d7a9ccbfb5f0f3fd51bbfb8d54501a arm64: dts: ti: minor whitespace cleanup around '='
-48a498a269c60cd3ca3de87761a1016aa7de9593 arm64: dts: ti: add missing space before {
-ef6012f301f71fd8d8bc07dd9710f5e5de362cf5 riscv: dts: Enable device-tree overlay support for starfive devices
-a8cf500c42c751b992f5480c390d6ad2419472e0 arm64: dts: nuvoton: add missing cache properties
-1193001081e98d13c786fe0cae407cb747104cdc arm64: dts: lg: add missing cache properties
-2a7cc7bedb58d4eedc177e642efedc25d713445a arm64: dts: ti: Fix compatible of ti,*-ehrpwm-tbclk
-b239dd7f41e713ba297cc573303f567bca52e37c arm64: dts: imx8mq-librem5: Use 'vqmmc-supply'
-9a8d30b977f5cfee32d3bdc7e5fb9f59d3d39ce4 arm64: dts: imx8mm-venice-gw7901: add cpu-supply node for cpufreq
-18bbf7ac3fc722d605f97e716b370a750304269d arm64: dts: imx8mm-venice-gw7901: add SDR50/SDR104 SDIO support for wifi
-efdb4d2346a0d30bb62aff7e895e225daa8540b3 arm64: dts: imx8m{m,n}-venice-gw7902: add SDR50/SDR104 SDIO support for wifi
-0f8446f02b86167720bab09945f2980ab9c45c0d arm64: dts: imx8mm-venice-gw7904: enable UART1 hardware flow control
-531936b218d897ff5d9ca92af61de09d24175656 arm64: dts: imx8mp-venice-gw74xx: update to revB PCB
-26701ff10710270aff7a08d680632d1995e3c917 arm64: dts: freescale: fix imx8mm-venice-gw72xx-0x-imx219 overlay
-f75adaf6c8adf0c80442cc4663dafe88613c0938 ARM: dts: imx25/karo-tx25: Replace NO_PAD_CTL by explicit pad configuration
-1d6880ceef43b963bbf44d2f970410d90f41246c arm64: dts: imx8mn-beacon: Add HDMI video with sound
-9c9b11871bdaa29f9bf4dc4b6f819917d824836b arm64: dts: imx8mm-beacon: Change camera I2C address
-8ad7d14d99f306ef78e9b6d9376cc738bbc96068 arm64: dts: imx8mm-beacon: Add HDMI video with sound
-867b8557899e43b982af10c7c2c5407402431b1a arm64: dts: freescale: imx8mm-phyboard-polis: Add TPM node
-3d8f8cebde5af72e59ca1eb26e474ff2576798d3 arm64: dts: phycore-imx8mm: fix nor mtd partitions
-c933945fad116d062725b55c0de49867c431e1c0 arm64: dts: imx8mm-phyboard-polis: Set debug uart muxing to 0x140
-cd3b83270a9b08cffd3bcca47b08783c8be778a3 arm64: dts: imx8mm-phyboard-polis: Add i2c4 sda-/scl-gpios
-06b944f40a9bacae62c4514c0c3f77b5b59cefa0 arm64: dts: ls1028a: sl28: get MAC addresses from VPD
-2b1d5d054d29e08926f05cfa30e34d149644585e arm64: dts: imx8mn-evk: Pass GPIO_OPEN_DRAIN flag
-7f916a6fe8658d583d6e549429512ea857756795 arm64: dts: imx93: add thermal support
-fc94fbb9978d97412e584fa057ccd029c19dfb87 arm64: dts: imx93: add cma area for i.MX93 11x11 EVK
-48a3c682fe633a9073af468a8479eb9814f39394 arm64: dts: imx93: add cm33 node
-e1da729459e620bbfc3edaa778d65928e6de42e3 arm64: dts: imx93: enable CM33 for 11x11 EVK
-f1bcefdef15268482878ce39bc12de249f49426b arm64: dts: imx8dxl: remove "fsl,imx7ulp-lpuart" compatible for imx8dxl
-258bd863816814330f4c72dfc0b784f11d305932 arm64: dts: imx93: add "fsl,imx8ulp-lpuart" compatible for imx93
-ca788bb10a6c6ecf96551fb1a23f243161a3b62c arm64: dts: imx: minor whitespace cleanup around '='
-7271f14d2f8b79834707581af265459058a758a9 arm64: dts: imx8mm: split PCIe ranges
-b40b2dc6a1b801923f6cb01ff7c9ae6bd24e0af3 arm64: dts: freescale: add missing space before {
-ba345b77fae7054d0cbd033283c47033e45db6d8 arm64: dts: imx8mp: remove arm,primecell-periphid at etm nodes
-b7df89f1c9d1d18c113b0420dffe46491d399712 arm64: dts: imx8mm: add imx8mm-venice-gw73xx-0x-rpidsi overlay for display
-6b4da1354fd81adace0cda448c77d8f2a47d8474 arm64: dts: imx8mm: add imx8mm-venice-gw72xx-0x-rpidsi overlay for display
-055e38c7638873010e8a813dc742bd834f5777aa arm64: dts: imx8mp-phyboard-pollux-rdk: Fix led sub-node names
-88114e1080b54584307cb2766f2e7724fe913a63 arm64: dts: imx8qm: add cpu frequency table
-36e81d6a9029536ba3b551edf8836fa25eea3282 arm64: dts: imx8qm: add thermal zone and cooling map
-bce07345481cdd27f0818a00dce89f3a32386c04 arm64: dts: imx8qm-mek: delete A72 thermal zone
-99e5d6d2741e1dcfcb17fdd1730c99f3ea618f54 arm64: dts: imx8mm-evk: Add camera support
-e8abdd58a19885c5adb5759cbed939b34889f0e6 arm64: dts: imx8mn-evk: Add HDMI support
-5aafda608f7399fa64c520f0a184bd2226fe8db7 arm64: dts: imx8mn-evk: Add camera support
-ec20d468d05f4cd5a489d232f3d98745e11e948e ARM: dts: imx: Remove regulators from simple-bus
-0010947dbc5d972b31dc12011b90a33a70eb2868 dt-bindings: arm: add TQMa93xxLA SOM
-c982ecfa7992a7c2c9eb327b05b69e07bad3ab30 arm64: dts: freescale: add initial device tree for MBa93xxLA SBC board
-312ab094197d02c8a3d2d28671efb6510ff1a09e arm64: dts: imx8mp-phycore-som: Remove eth phy interrupt
-2d3779dd1e0c72ceb18ec1473435c26982371041 arm64: dts: imx8mp-phycore-som: Order properties alphabetically
-b34f66815461ebdef7de6620c2aab14b9e4d3d4a arm64: dts: imx8mp-phycore-som: Correct pad settings
-1a5a0343326191ad6a2c827b73cd4f666acc0e21 arm64: dts: imx8mp-phycore-som: Remove LDO2 and LDO4 pmic nodes
-c2d28a0c49cca1e9d371f2986b3a8ffc4ac2f9fb arm64: dts: imx8mp-phycore-som: Add regulator names
-6fe88df72efd9f0bac17cf8a0f6fcd0fcb5bc6d2 arm64: dts: imx8mp-phycore-som: Update regulator output voltages
-fa2a1ec50456cefc934ba54da56498ff3b4c2d04 arm64: dts: imx8mp-phyboard-pollux: Add missing usdhc clocks assignment
-bd348ca24d81cca2a27f8ffa12adc8f30f184275 dt-bindings: clock: Add StarFive JH7110 PLL clock generator
-c81f7845b2ce7a2ea1beb2ac4621b5d568d2b644 dt-bindings: soc: starfive: Add StarFive syscon module
-2110add84bc6e21a1bf55f2c9d1fc14d408ce2e0 dt-bindings: clock: jh7110-syscrg: Add PLL clock inputs
-14b14a57e642e0dab9be4e9d0866fb2c4332f7c5 dt-bindings: clock: Add StarFive JH7110 System-Top-Group clock and reset generator
-9b3938c0b81e79e1c0e1a3e95be3e12efd8c771b dt-bindings: clock: Add StarFive JH7110 Image-Signal-Process clock and reset generator
-a097a5ec14dff59568b1e6c8bd8cc37a21d8811f dt-bindings: clock: Add StarFive JH7110 Video-Output clock and reset generator
-66bd0770f3d53e0a99fafccc54054339b097e808 Merge tag 'clk-starfive-bindings' into riscv-dt-for-next
-43f09605d11e62d70a2979e85167bbc9d4b2617e riscv: dts: starfive: jh7110: Add DVP and HDMI TX pixel external clocks
-3d90131f2edb10c802e6741053e3b23b0950981c riscv: dts: starfive: jh7110: Add STGCRG/ISPCRG/VOUTCRG nodes
-3fcbcfc496f0cc08f9dc004a92915ce1cfb7ea95 riscv: dts: starfive: jh7110: Add syscon nodes
-3e6670a28b009cc381b40ee26a6f41509aca46eb riscv: dts: starfive: jh7110: Add PLL clocks source in SYSCRG node
-1ff166c97972598a9e8a692e46f38c7e98966c34 riscv: dts: starfive: jh7110: Add ethernet device nodes
-0104340a67b199ad979f2ddc89279e3eb29fdd70 riscv: dts: starfive: visionfive 2: Add configuration of gmac and phy
-65e4a0f33a5e125d90b1b69d56a9bbdd481e3fcf riscv: dts: starfive: jh7100: Add temperature sensor node and thermal-zones
-f2b539af5718bb63eb9fd913d9d4474bd1e55d07 riscv: dts: starfive: jh7110: Add temperature sensor node and thermal-zones
-38633443c61e8065e10e74f282eebc9de1250e05 ARM: dts: nxp: add missing space before {
-8cf71125e1509be9f678bed0a01a3ae388da3258 ARM: dts: imx7d-sdb: Pass the Ethernet aliases
-0d0e727f7e3d8eca00ff2823f161314e5a89707a ARM: dts: imx1-apf9328: correct ethernet reg addresses (split)
-461f1f67281c2847566f6e1767e0e03a92c64d17 ARM: dts: imx6qdl-mba6: Add missing supply regulator for lm75 and at24
-8717c76ff38d8a6fa99cce4cccf7892288108ec8 arm64: dts: ti: k3-j721e-som-p0: Remove Duplicated wkup_i2c0 node
-8d08d7aac7f620b5d298fad0ba0e6e431ea132a9 arm64: dts: ti: Use local header for SERDES MUX idle-state values
-5438d75fb9d7bb863ddc5ef28b242ca50c9879ff dt-bindings: ti-serdes-mux: Deprecate header with constants
-e1f7d17a734c5c617d05c3d188939d5032d3d5a2 dt-bindings: crypto: ti,sa2ul: make power-domains conditional
-b573bf35ef3f113c1717fa22cefdfdfbb83aec70 arm64: dts: ti: k3-am62-main: Remove power-domains from crypto node
-c2a10081c0335c9cd60a11d69562d06ccf0a0a02 riscv: dts: starfive: Add USB and PCIe PHY nodes for JH7110
-e126aa3abc4e2388f0e1b367f47b0a24780daa4e riscv: dts: starfive: Add USB dts node for JH7110
-74fb20c8f05df7a7ea5c98ca85a713758e0e59f6 riscv: dts: starfive: Add spi node and pins configuration
-ac73c09716c3d0da3f0606e282e99c2a8c0a9afc riscv: dts: starfive: jh7110: add dma controller node
-e7c304c0346d23f5813149bfc686fb68b1108bbe riscv: dts: starfive: jh7110: add the node and pins configuration for tdm
-d56b70c4e8f2a6b9eb39f6f209b2835717cd7f92 ARM: dts: imx6sx: Describe the default LCDIF1 parent
-238f918800448da30895ae3f71680b5f72bebbfb arm64: dts: imx8mq-librem5: set audio-1v8 always-on
-4cbd5065317425a188dd2016761084cf41a79490 arm64: dts: imx8mq-librem5-r4: Bump up proximity sensor's near level
-74e04a9f510c6f782284e77ee2a506c94a990602 arm64: dts: imx8mq-librem5: Mark tps65982 as wakeup source
-5296d8f4678bbe47c0bb38c2bf6e6e92eb68ebfa arm64: dts: imx8mq-librem5: Reduce usdhc2's post-power-on-delay-ms to 20ms
-8d58f4d27e59e9a7736d4c635a33fe552b3c81aa arm64: dts: imx8mq: Add coresight trace components
-0d03a557eb57016592944ea4ea8cc712501d36e4 ARM: dts: imx6: pfla02: Rely on PMIC reboot/reset handler
-aa4f48a4e06c6df218fdf9b69ef18bc2591d5953 ARM: dts: imx6: phycore: Rely on PMIC reboot/reset handler
-d4fac9c1008651104392fcf9691a8cf23eb1ff3e arm64: dts: imx8mn-var-som-symphony: update USB OTG for new board versions
-a9ba843233f2eb06f411ddbc13395828f4459ff6 arm64: dts: imx8mp: add imx8mp-venice-gw74xx-rpidsi overlay for display
-b9622a04de5fa63afd7e578bec1620fad132308a dt-bindings: arm: Add Gateworks i.MX8M Mini GW7905-0x board
-cce4d9f65b4101a700fc2db926ae796743f141b0 dt-bindings: arm: Add Gateworks i.MX8M Plus gw71xx-2x board
-1a1974d09353441c5f7c19ac2ef55cdef6ec41e2 dt-bindings: arm: Add Gateworks i.MX8M Plus gw72xx-2x board
-6b30c1c2f934cbea78cd7eeddcaa9785db2527ff dt-bindings: arm: Add Gateworks i.MX8M Plus gw73xx-2x board
-7e1894ebf9c26afaffec5b64306f584828297dd2 arm64: dts: freescale: Add imx8mm-venice-gw7905-0x
-2c00c0650edd9cb7506508af6a3c6d6220d7310a arm64: dts: freescale: Add imx8mp-venice-gw71xx-2x
-86c43ae03ab99b3c9685559262b264f9022c0c7b arm64: dts: freescale: Add imx8mp-venice-gw72xx-2x
-716ced308234defa494a94a7ef1ae66ccf484a1b arm64: dts: freescale: Add imx8mp-venice-gw73xx-2x
-d866771890bd15d3d91e531ba4f168df2b08646a ARM: dts: imx6qdl-tqma6x: Add missing vs-supply for lm75
-f6038de293f28503eccbfcfa84d39faf56d09150 arm64: dts: imx8qm: Fix VPU core alias name
-fb8f715e5c53901429505668e015edb468d97bcd arm64: dts: imx8qm: Fix VPU core alias name
-6b15a78f71dbcb61e6fea6fd445002aba2479c29 arm64: dts: imx8: conn: Fix reg order for USB3 controller
-074248a4e91908f6fba29308373dafb61c727086 arm64: dts: imx8mm-phycore: drop uncorrect vselect-en
-5b9435d646d1cbfc39dd8ca2f83ca109ea3f2bd2 arm64: dts: imx8ulp: add cm33 node
-97803407518dd58ab8038f94f8705f413ef53ff6 arm64: dts: imx8ulp: set default clock for SDHC
-a9624b4e7ea2fa4da6dc2bdfda8486ac9ab1f71a arm64: dts: imx8ulp: add thermal node
-db2c35aa68efba93333de3500c607382f0d0d679 arm64: dts: imx8ulp: add cpuidle node
-ef89fd56bdfcf5d8039bb64c76d2f8c9ac908ca7 arm64: dts: imx8ulp: add flexspi node
-d0da51bb9d8539bdb131c17114444aa9f58a209f arm64: dts: imx8ulp-evk: add reserved memory for cma
-014fbffa25a7729864ed59b085a6b340e13df475 arm64: dts: imx8ulp-evk: enable CM33 node
-3d25633036233da9e54c8dfc0652c8f9ca9d9e5f arm64: dts: imx8ulp-evk: add spi-nor device support
-7adf8410cb0f7f1559baa270c89c2e94b44888ab arm64: dts: imx8ulp-evk: add 100MHz/200MHz pinctrl setting for eMMC
-e434472606be62110c40af94cac49342dd9b1522 arm64: dts: imx8ulp-evk: enable lpi2c7 bus
-fc7ab8d97241c883429d6f32abe943cc75902051 arm64: dts: tqma8mqnl: Add vcc supply to i2c eeproms
-f43027ea80964dd384325ae8feae77fe302413db arm64: dts: freescale: Replace deprecated extcon-usb-gpio id-gpio/vbus-gpio properties
-cb5f8a17f171aba0344af9186900090b73c5a3eb ARM: dts: nxp/imx: Replace deprecated extcon-usb-gpio id-gpio/vbus-gpio properties
-20f648dc513568ca2385c2a1133c0ec5434bfda8 ARM: dts: imx53-qsb: Improve the parallel display description
-d75cea721899bbd66ef9a9b42f0a63c2ecbdad24 ARM: dts: imx6sx-nitrogen6sx: drop incorrect regulator clock-names
-d8065d8d74a62a7ae09400fa08e07d5963619453 ARM: dts: imx6ull-colibri: drop incorrect regulator regulator-type
-106e8447760c07fa49bd8d88d223b2e97232bb6d ARM: dts: imx28-m28evk: populate fixed regulators
-e3f25ce43aeb64c31cab43c84e9b4d6618912f3f ARM: dts: imx50-kobo-aura: switch to enable-gpios
-62bb689d0f13c47366818167b049f69dfdcb336d ARM: dts: imx23: drop incorrect reg in fixed regulators
-c65fee6cdfaca0accedfb45863c30c99e62badbc ARM: dts: imx25: drop incorrect reg in fixed regulators
-dc7b1fb470123fb73fa2135010e247f9a385ca46 ARM: dts: imx27: drop incorrect reg in fixed regulators
-29e0e9b4b2136be260ea2bed14aa71b99c97bd80 ARM: dts: imx28: drop incorrect reg in fixed regulators
-0bec3d7ecc7493b0e530f6f34539841ef6779006 arm64: dts: ti: k3-pinctrl: Introduce debounce select mux macros
-98f3b667e1de99dc670e12563eae03e15c668d95 arm64: dts: ti: k3-j721s2: Add support for CAN instances 3 and 5 in main domain
-99e7172db1ae018d865da34cf3efe32992333187 arm64: dts: ti: k3-j721s2-main: Add dts nodes for EHRPWMs
-f33f5e4c801b7f1838f05aae81eaed8189a1eac4 arm64: dts: ti: k3-j784s4-main: Add DT node for UFS
-5d55545cc2da8ad320b73705b26a5c0a837b20da arm64: dts: ti: k3-j784s4-evm: Add Support for UFS peripheral
-7815b2816d146f302f3884ee8e87c7b39fea1ecc arm64: dts: ti: k3-j721e: Add overlay to enable CPSW9G ports with GESI
-d6ffe1b4b8c1cdc0ae36b6bc65b11d336aecbb72 arm64: dts: ti: k3-j721s2-main: Add main CPSW2G devicetree node
-cac04e27f093c3cafdc10c03b6f50e1578ef8cbc arm64: dts: ti: k3-j721s2: Add overlay to enable main CPSW2G with GESI
-8384087a42232613e5741cccea699b508478c276 riscv: dts: starfive: Add QSPI controller node for StarFive JH7110 SoC
-ee1ada53846b6ff4154ac7a78b74a12cfd6a8639 dt-bindings: arm: ti: Add compatible for AM642-based TQMaX4XxL SOM family and carrier board
-4717a36f31ecc7c090ce4459a6ed220869d27eca arm64: dts: ti: Add TQ-Systems TQMa64XxL SoM and MBaX4XxL carrier board Device Trees
-5e52cf6bf3c7216de1ee4a74ee002cb99b3f6c11 arm64: dts: ti: k3-am64-tqma64xxl-mbax4xxl: add SD-card and WLAN overlays
-7a649518c13bc6cbbc83f27eda9d1b05b45fe3ac arm64: dts: ti: k3: Fixup remaining pin group node names for make dtbs checks
-108f61e03963a3a019486fd80cc84d5db5c204d0 arm64: dts: ti: k3-am62: Add MCU MCAN nodes
-7480cea33b4c36aeffe592eb6f151bc9974fee70 arm64: dts: ti: k3-am625-verdin: enable CAN_2
-5a5cf3bdda04fe72440aa837c9451410d62ffa2f arm64: dts: ti: k3-am62a7-sk: Enable dual role support for Type-C port
-b9d801dbb2d5cb796dce32ffcee63fba83f72841 arm64: dts: ti: k3-am62a: Remove syscon compatible from epwm_tbclk
-a57ba56bca42fa484bec916f7a88a3dc03d6cbdf arm64: dts: ti: k3-am64: Merge the two main_conf nodes
-f6a5b651144096bfccda41b62861a7dde87ec287 arm64: dts: ti: k3: Fix epwm_tbclk node name to generic name
-a1f62d114c8ce64d1273c308228b43de8bf45171 arm64: dts: ti: k3-j721s2-main: Add DSS node
-dfe5ccf2359f70d36bf7e64711a46fbff2126ca8 arm64: dts: ti: k3-am68-sk-base-board: Add HDMI support
-a70d179e6a420a1699ce61b82fb51f66663f4e5e arm64: dts: imx8dxl-evk: Remove 'fsl,spi-num-chipselects'
-aca26870217b14f6ccc5a4b5c9d16879756a5ed0 arm64: dts: imx8mm-phyboard-polis-rdk: Remove 'fsl,spi-num-chipselects'
-14735186723134cf89723799964ad1847032ec5f ARM: dts: imx6ul-geam: Remove invalid sgtl5000 property
-2be1a91668fad1807fccbecc343c2b49d66f68af ARM: dts: nxp: mxs: split interrupts per cells
-d54bcc3a3dc63bb2d8348c2e34e24bbb48fa1c22 ARM: dts: imx: Pass #sound-dai-cells to sgtl5000
-4b4c822e9dfb3bbd2a578fd9b12f84129d435900 ARM: dts: imx: Remove 'compatible' from the pfuze nodes
-fcf7ff67a2aa6d8055b9b815ad8a28a5231afa1e arm64: dts: ls1028a: add l1 and l2 cache info
-5b5e1cd017a52765532428f22233c68bdadcd93d dt-bindings: arm: fsl: add TQ-Systems LS1021A board
-23052b3be71a5eb2899d0aaabd9fabf0b2391a1a ARM: dts: ls1021a: add TQ-Systems MBLS102xA device tree
-d0586f4d1b1790a965dbf89b7c5cbe3d8502bba5 ARM: dts: ls1021a: add TQMLS1021A flash partition layout
-ea99c5bb7bc51751180f70822636b6a022bccafa ARM: dts: imx6q-cm-fx6: Remove invalid SPI flash entry
-e14f56a6e7226e931026fb204e172aec53015a0c ARM: dts: imx50-evk: Use generic node name for SPI NOR flash
-d18d74dece543588f4f6d5b24e341835df3095b9 ARM: dts: imx53-smd: Remove invalid SPI flash entry
-042932ba7e3ea35b06553ac36b7bb66f7999b494 ARM: dts: vfxxx: Pass 'mmc' as the esdhc node names
-dad2a2fb1bcfc1d1ec9ab1fb999d87689788bb28 ARM: dts: imx6q-prti6q: Fix the SDIO wifi node
-ebb8dbec1074fc97aca337f30d387d9e8df2f458 arm64: dts: imx: Pass a single BD71847 clock entry
-43df69fc076d783d0f2882d40967206df8ecb0b2 arm64: dts: imx8mm-emcon: Fix the regulator names
-874958916844d09f3844d58ebe52f2847963dfeb arm64: dts: freescale: verdin-imx8mp: dahlia: add sound card
-b8e4498ffe3ec62ca4486c4ed5c6bba4f594ccd5 arm64: dts: freescale: verdin-imx8mp: dev: add sound card
-a0592af49737dfadd0bfcd896dccd34403fdfdd2 arm64: dts: ti: k3-am62a7: Add MCU MCAN nodes
-f10f836ccfea21ae3ad3066eb9576625f1acdea2 arm64: dts: ti: k3-j784s4-evm: Correct Pin mux offset for ospi
-06c4e7aa4af0682910ea52d7c23d85f59ea7dcc6 arm64: dts: ti: k3-j721s2: correct pinmux offset for ospi
-6111ac92f93415eaa680e7ef43ee4fa78b1eb7f2 arm64: dts: ti: k3-am62: Enable AUDIO_REFCLKx
-0bf6d62cb5173d85113f4f759cad3191845e15fa arm64: dts: ti: verdin-am62: Set I2S_1 MCLK rate
-c90658201cbeb7aae072ab3da4e255f47d9e25b3 arm64: dts: ti: verdin-am62: dev: add sound card
-f5bf894c865b26ea8ec43186e87bb08d092b6fa1 arm64: dts: ti: verdin-am62: dahlia: add sound card
-7dafcfa79cc98222a37d9f182e5840b6719d92a5 riscv: dts: starfive: enable DCDC1&ALDO4 node in axp15060
-b127dbf9e1ebbfbcded4b339a5d37c066ef98c1c riscv: dts: starfive: Add mmc nodes on VisionFive 2 board
-e2c07765e179d0849326d4e1bd62ef8ba3d3cfd1 riscv: dts: starfive - Add crypto and DMA node for JH7110
-87ddf5b1096467d24584ea61de0580776722d961 riscv: dts: starfive - Add hwrng node for JH7110 SoC
-8be3ac2d8bd77bb9cb9ddbb7a545decf9f5e4181 arm64: dts: ti: k3-j784s4-evm: Correct Pin mux offset for ADC
-4f1e869915b7a8c48a0501ad0b102002013a7b7a dt-bindings: soc: ti: k3-ringacc: Describe cfg reg region
-702110c2be999c1ad354ca6e14e8583ebcea2462 arm64: dts: ti: k3: Add cfg reg region to ringacc node
-05a1f130101e7a49ff1e8734939facd43596ea26 arm64: dts: ti: k3-j784s4: Fix interrupt ranges for wkup & main gpio
-6fbd1310f99fc95d063b64d42addf701309663d6 arm64: dts: ti: k3-j721e: Enable SDHCI nodes at the board level
-013b7dd32c75ad3db218aa7a2d63f541304ac3b6 arm64: dts: ti: k3-j7200: Enable SDHCI nodes at the board level
-5f715be31638b62de560acab7fdc7ff3d9e01bf9 arm64: dts: ti: k3-j721s2: Enable SDHCI nodes at the board level
-46d0c519e44bf31f45dd0a62654c75cae76215b8 arm64: dts: ti: k3-am65: Enable OSPI nodes at the board level
-73676c480b7286cb528170de73a7c03e19a5ade2 arm64: dts: ti: k3-j721e: Enable OSPI nodes at the board level
-1a576c89168422b0658f7831d6e1bad63252eaea arm64: dts: ti: k3-j7200: Enable OSPI nodes at the board level
-cd9f6b324277d324ae056ffd8dda6287bcb649ab arm64: dts: ti: k3-am64: Enable OSPI nodes at the board level
-8757108b59e1490062d3c6a55ceccbafbee50e35 arm64: dts: ti: k3-j721e: Enable GPIO nodes at the board level
-578bf4d09ef5d6e6707682ef0ae9d954ef77b8fb arm64: dts: ti: k3-j721s2: Enable GPIO nodes at the board level
-d9fe476d39f62719adb805fc8c5668a3e21570d0 arm64: dts: ti: k3-j7200: Enable GPIO nodes at the board level
-a5a4cddad9ff71c55494328d0e39f051fe5905c2 arm64: dts: ti: k3-j721e: Enable TSCADC nodes at the board level
-1228242df12ec1b7cd099c8e57a35940f32b89c3 arm64: dts: ti: k3-am65: Enable TSCADC nodes at the board level
-bcd8a3f28ad6baec7f4d8cbb0fe7cbaf6e351567 arm64: dts: ti: k3-am64: Enable TSCADC nodes at the board level
-8ea3fc2bea6bccaa18e21febdcd311566a078612 arm64: dts: ti: k3-*: fix fss node dtbs check warnings
-35dba715971733d5fdfd98f4772ccc679d4989c2 arm64: dts: ti: k3-j721e: Enable C7x DSP nodes at the board level
-c23b203b929f22fb22f2b07c1e5d658a7d455263 arm64: dts: ti: k3-j784s4: Enable C7x DSP nodes at the board level
-00ae4c39cd16ef8b1662c5915dda08eb28eed762 arm64: dts: ti: k3-j721e: Enable C6x DSP nodes at the board level
-65344b9bed3a497b912ae840df001eeecf0bc711 arm64: dts: imx8mp-evk: Add HDMI support
-e4f7fbf7e84f6b528f0d4c03207c2e8c3ffe752f arm64: dts: imx8m-venice: Pass "brcm,bcm4329-fmac"
-8b200238fb99d84f3351b6446ef21f85269817eb arm64: dts: imx8mp-msc-sm2s-ep1: Remove invalid sgtl5000 property
-9e7bb0af7b6159ff2bb101b5823ffaa38a730ef5 arm64: dts: imx8mp-debix-model-a: Remove invalid rtc property
-574e4099d787c2eb41a43f14c453e422515bf658 arm64: dts: imx8mp-debix: remove unused fec pinctrl node
-21baf0b47f81ba14284a1ceab6f138c0dd902429 arm64: dts: freescale: Add DEBIX SOM A and SOM A I/O Board support
-2305c4bf6ac1509a11309c2b1ed038bdc25d0931 dt-bindings: arm: fsl: fix DEBIX binding
-8b7b6038059e87485d03f0c853db99042fcf6e97 dt-bindings: arm: Add Polyhex DEBIX SOM A based boards
-bdbae4c1b4648776a3a18a8e7394819d574e0f08 arm64: dts: imx8m-beacon-kit: Remove extra sound-sai entry
-e679132a317fc6d6c6247e5bbff434b04b2e789d ARM: dts: imx6dl-b1x5pv2: Fix simple-audio routing property
-252810133db7a7670b3ac954d22a39e07b4f23f1 arm64: dts: imx8mm-emcon: Remove iomuxc pinctrl-names
-461b487e6506c00966c54e3af4c5e71dd1f62735 arm64: dts: imx8mm-beacon-baseboard: Remove usbotg2 pinctrl-names
-73387da70f9c26b6fba4f62371d013cce14663d9 arm64: dts: ti: k3-am62x-sk-common: Update main-i2c1 frequency
-8ccc1073c7bb2ae9654529a75f85ef23b7215c9b arm64: dts: ti: k3-am62-main: Add node for DSS
-db6e8237cf5435e972ea47632e5d8ac3e356f210 arm64: dts: ti: k3-am62x-sk-common: Add HDMI support
-b50ccab9e07ca19d49a0d629dfbe184e6975be22 arm64: dts: ti: am62x-sk: Add overlay for HDMI audio
-1f7226a5e52cb8b90771cefc29077f9ce13a3c90 arm64: dts: ti: k3-am625-beagleplay: Add HDMI support
-3a4086985696295577c20ae558f99d974067e316 arm64: dts: ti: k3-j784s4: Add phase tags marking
-c74d8de338a553da7b0084bab2554b042375625e arm64: dts: ti: k3-j784s4-evm: Add phase tags marking
-68501d3cc16a7828b05ee24bdb037f697e207854 arm64: dts: ti: k3-am69-sk: Add phase tags marking
-b57fc5cbdbdfd04d44697800a9d59aeb3be2f273 dt-bindings: arm: ti: Add bindings for AM62P5 SoCs
-29075cc09f43a024d962da66d2e4f9eb577713d0 arm64: dts: ti: Introduce AM62P5 family of SoCs
-935c4047d42e53a06ec768ddc495a44f6869209c arm64: dts: ti: Add support for the AM62P5 Starter Kit
-ce0bc19e504276f80ba2c20da458ff507f666b52 ARM: dts: imx6ul: mba6ulx: Fix stmpe811 node warnings
-1d6500cd39f11de616540c13eb3dd08903380f59 ARM: dts: imx6ul: Fix nand-controller #size-cells
-db92a8d917c7d959584cc15f838a134c1b115915 ARM: dts: imx6qdl: mba6: Fix gpio-keys button node names
-74cec60c0e30b1d3184d2729457a8af0dd76d6a1 arm64: dts: imx8mq-librem5-devkit: Mark buck2 as always on
-60ac8a775a9147867a9d222d970ab2ca158dc23a arm64: dts: imx8mq-librem5-devkit: Drop power-supply
-f05af44f691351bfd954f39ec376666dc5e1b869 riscv: dts: allwinner: d1: Add CAN controller nodes
-f331eb1f5454123f3cec51c18a3d86c2a53bddb9 riscv: dts: starfive: jh7110: Fix GMAC configuration
-9e77200356badfda6cec99e37be55fa940f83c7d arm64: dts: ti: verdin-am62: Add DSI display support
-ba817911855ce2ac3fd2a618aced1ce937353abe Merge tag 'riscv-dt-for-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/dt
-d02dbab12b332a056d77e701f8962a0eafd25b41 Merge tag 'sunxi-dt-for-6.6-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
-1d9140d2af8bcbd0551d483d6b5b5d6154a122e7 Merge tag 'imx-bindings-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/dt
-a5c3378290dd8a3e352079b865cf45044fd54ef8 Merge tag 'imx-dt-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/dt
-f0df584ffad1fc24edc55e954a3abd42ea5a49c2 Merge tag 'imx-dt64-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/dt
-99355a235a4761a35f6a1463b816480662c2f67f Merge tag 'ti-k3-dt-for-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
-1298d0dd31b2d78b352ff59999a0057bd8c891f7 Merge tag 'dt64-cleanup-6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt into soc/dt
-5e4842cdabb086a66dad27212732e0333011fac0 Merge branch 'soc/dt' into for-next
-eac502461628e2e54be844a2f3e2d583dd273e17 soc: document merges
+9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
+d619f48e7d70919e97259900ca2d591d6165c65d ibmvmc: update ctime in conjunction with mtime on write
+a4440d741eb3d65edbcec13f2d8a0384548dd841 bfs: update ctime in addition to mtime when adding entries
+73e6730650791072681b527aa132a126ed3681b5 efivarfs: update ctime when mtime changes on a write
+fb91816e403ed10d7d630b11ae3c7516834d0cce exfat: ensure that ctime is updated whenever the mtime is
+46fc6b35a6743075f5903eda411e4e0f4f0df84b apparmor: update ctime whenever the mtime changes on an inode
+bc2390f2c8843f342ba72bea0ee549b0d6976463 cifs: update the ctime on a partial page write
+9b6304c1d53745c300b86f202d0dcff395e2d2db fs: add ctime accessors infrastructure
+0c4767923ed6964d279309744cdb248890e95ec2 fs: new helper: simple_rename_timestamp
+130f1eca981d96e11b79720dfc13d1522d399e51 btrfs: convert to simple_rename_timestamp
+e54c86fd48d0e9938d59a338a9f4811555fbf453 ubifs: convert to simple_rename_timestamp
+944d0d9def9de37f0209ff73f3d8daa1baccab67 shmem: convert to simple_rename_timestamp
+d06cdfddd1d1483c78b60c64d110ae2218b37a0c exfat: convert to simple_rename_timestamp
+487e34fc9fc1ce8e59cf8d4087c30106c1079b0c ntfs3: convert to simple_rename_timestamp
+298d35ef763de3393bd1f60d35ff4203cbb4f26a reiserfs: convert to simple_rename_timestamp
+3cc0cc635baeaf2e15a7a58354249345ba84c96e spufs: convert to ctime accessor functions
+8b70deb8ca901d45e2342d654c1e8d306f52e6cb fs/ecryptfs: Replace kmap() with kmap_local_page()
+c3c6833ea8114a18d5acf5f9a4d32f864103144c fs/ecryptfs: Use kmap_local_page() in ecryptfs_write()
+e2393b8f3987c5f29dca03aa71d0502f6d721c0d fs/ecryptfs: Use kmap_local_page() in copy_up_encrypted_with_header()
+ba38980add7ffc9e674ada5b4ded4e7d14e76581 reiserfs: Check the return value from __getblk()
+12ee4b66af34f8e72f3b2fd93a946a955efe7c86 splice: always fsnotify_access(in), fsnotify_modify(out) on success
+7f0f1ea069e52d5a16921abd59377a7da6c25149 splice: fsnotify_access(fd)/fsnotify_modify(fd) in vmsplice
+576d498e0ac5caff2d9f6312573ab54d98f12d32 splice: fsnotify_access(in), fsnotify_modify(out) on success in tee
+bccb5c397fbfe348e22c045f5e09c35780edb817 fcntl: Cast commands with int args explicitly
+ed5f17f66ef39273dcf83ca89b2f1d52a52b22a5 fs: Pass argument to fcntl_setlease as int
+515c5046650d8f56f93546d3867b64c1906162bc pipe: Pass argument of pipe_fcntl as int
+f4ae4081e5a871b4c4e2f802ccf73f8d69566073 dnotify: Pass argument of fcntl_dirnotify as int
+758b492047816a3158d027e9fca660bc5bcf20bf eventfd: prevent underflow for eventfd semaphores
+d8630f050d3fd2079f8617dd6c00c6509109c755 interconnect: qcom: Add support for mask-based BCMs
+be02db24cf840bc0fdfbecc78ad803619dd143e6 interconnect: qcom: sm8450: add enable_mask for bcm nodes
+0dc82bd9e4627065dbc6ac8468296aa18f13c840 interconnect: qcom: sm8550: add enable_mask for bcm nodes
+3cb11fe244d516f757c1022cfa971528d525fe65 interconnect: qcom: sa8775p: add enable_mask for bcm nodes
+06a0213977dc5f8345c1222183b8fafac1a8a524 Non-functional cleanup of a "__user * filename"
+95f8020459fd2f07ae6980d524c21d4d912fef59 s390: convert to ctime accessor functions
+278832b81c5354405ad4d4e1645a9039aff56ac7 binderfs: convert to ctime accessor functions
+24856a96cfbf1ebdc742b725a83d7729f2b6d236 infiniband: convert to ctime accessor functions
+41441cecd10f565d18668216dc46b634bcc2cada ibm: convert to ctime accessor functions
+c7603adcc6b1e8be32aed4ff95fe20806014ac34 usb: convert to ctime accessor functions
+4f87180060d88da888070029c5ed2fd0873eeef9 9p: convert to ctime accessor functions
+9689414767f2f7eda188957f4704ca9400fc4d5c adfs: convert to ctime accessor functions
+f873e9d6db14e47dcb026e5b0314a6fe4faa4ed8 affs: convert to ctime accessor functions
+b9170a28839a59fc1314a194712c06109e0ca0ab afs: convert to ctime accessor functions
+2276e5ba8567f683c49a36ba885d0fe6abe2b45e fs: convert to ctime accessor functions
+36aa5eae75fc61e443f3ffc18017bf7a682fe034 autofs: convert to ctime accessor functions
+0a8359482472cc85b4a61ac7ce20a28a11db3bec befs: convert to ctime accessor functions
+73d9b9d028176b448d3912c47db13b614fef4a65 bfs: convert to ctime accessor functions
+2a9462de4352d141ca17d7b872dee64d3ba8995f btrfs: convert to ctime accessor functions
+7795aef0819225db9aea918b7f7c47a854304d5e ceph: convert to ctime accessor functions
+ea9b53d4ae6619963f760bc5f3a1411b59a803f1 coda: convert to ctime accessor functions
+8e2dc788365cfdceda029b51f44aa52906392627 configfs: convert to ctime accessor functions
+1e018769388acacf3a04eabffbd71b66cc11052f cramfs: convert to ctime accessor functions
+0f7bda3fcd9cf204efa55d074fb6140c16d08545 debugfs: convert to ctime accessor functions
+2ca7b9cd760d2e3dec6e1808d56a8c21eec1e4fc devpts: convert to ctime accessor functions
+79d9ce76cc48e0634614e9846d0206156a362b9d ecryptfs: convert to ctime accessor functions
+2fa9a97512dae779003145b693e6726ed92240e3 efivarfs: convert to ctime accessor functions
+a68d1f51276d37d8d43408c75eedc8590775b16a efs: convert to ctime accessor functions
+7be935e18e2f93670cb3f1944c54c91302e4a1b8 erofs: convert to ctime accessor functions
+f29f190828238d377b2bbffb1ce7a83c45fb2dd4 exfat: convert to ctime accessor functions
+fc4eed640d8f124dfc47ead69232f570a310496a ext2: convert to ctime accessor functions
+49319832de90f1943264e5c573b072947af6ae26 selftests/nolibc: drop test chmod_net
+18e66ae67673f2c8df6f02428798b1355691f2a9 proc: use generic setattr() for /proc/$PID/net
+ccf61486fe1e1a48e18c638d1813cda77b3c0737 procfs: block chmod on /proc/thread-self/comm
+77b652535528770217186589d97261847f15f862 attr: block mode changes of symlinks
+6a8e1b3b709217dddb23502f1f592fc01086fd21 fs: Fix error checking for d_hash_and_lookup()
+6bc471b6c3aeaa7b95d1b86a1bb8d91a3c341fa5 iio: adc: ad7192: Fix ac excitation feature
+d47b9b84292706784482a661324bbc178153781f iio: light: bu27034: Fix scale format
+096649cd7cb0fc1c8f684829f816d938ad1eb808 iio: light: bu27008: Fix scale format
+95fb1e7b23bc82130016daefa02a87e83185ca95 iio: light: bu27008: Fix intensity data type
+a41e19cc0d6b6a445a4133170b90271e4a2553dc iio: adc: ina2xx: avoid NULL pointer dereference on OF device match
+48faabfb3634e519fc49ef01525448ad2ba96751 dt-bindings: iio: adi,ad74115: remove ref from -nanoamp
+272ffb925e2020000863748867d91a2407d3e8e9 counter: Fix menuconfig "Counter support" submenu entries disappearance
+1b95e817916069ec45a7f259d088fd1c091a8cc6 nvme: fix possible hang when removing a controller during error recovery
+99dc264014d5aed66ee37ddf136a38b5a2b1b529 nvme-tcp: fix potential unbalanced freeze & unfreeze
+29b434d1e49252b3ad56ad3197e47fafff5356a1 nvme-rdma: fix potential unbalanced freeze & unfreeze
+507397d19b5a296aa339f7a1bd16284f668a1906 iio: frequency: admv1013: propagate errors from regulator_get_voltage()
+b2a69969908fcaf68596dfc04369af0fe2e1d2f7 iio: core: Prevent invalid memory access when there is no parent
+09738ccbc4148c62d6c8c4644ff4a099d57f49ad iio: adc: meson: fix core clock enable/disable moment
+6811694eb2f6b7a4e97be2029edc7dd6a39460f8 iio: imu: lsm6dsx: Fix mount matrix retrieval
+1bc33893e79a79df93d44fbd25080dbf59410e87 ext4: convert to ctime accessor functions
+c62ebd3501cc2c78d4cc28a9b4cbdb17d199c6d6 f2fs: convert to ctime accessor functions
+ea60635ec1f456b4cf8ecf1ead2e203c9226e0d6 fat: convert to ctime accessor functions
+529d8a290ac92e0ea095e1edabbcad41c056a854 freevxfs: convert to ctime accessor functions
+ceb2d5e92f49c2497faea6a501262e8fe6d91f89 fuse: convert to ctime accessor functions
+8a8b8d91b1582f03b934dc3b9781f7ced4d27202 gfs2: convert to ctime accessor functions
+7305586a79284f86ee003ab0c03c31b59f87ebbb hfs: convert to ctime accessor functions
+101fa821ab7d1a1ae353da41f8a2455409e35e2d hfsplus: convert to ctime accessor functions
+66e79d8934ec77bc490d00533f53e36d029d30e1 hostfs: convert to ctime accessor functions
+3200d07d3367e7f320ed646f58b7191360050675 hpfs: convert to ctime accessor functions
+a72a7deab690f37b0856617af05024f64fec09dc hugetlbfs: convert to ctime accessor functions
+2f06e4ba90da172cf39f43a101f17e2903eb0f81 isofs: convert to ctime accessor functions
+d8b23c618c75c7f94e66e0c08ee4b902065ae1ab jffs2: convert to ctime accessor functions
+ad9dc5df36a2253868154a22650eac882c6faec4 jfs: convert to ctime accessor functions
+f7f438589f4686758ee1de99c7723919a2b05d70 kernfs: convert to ctime accessor functions
+55e04e9c926eb3b7f6fb6d86bdcb6ee3991c4e4a nfs: convert to ctime accessor functions
+38d721b13f861adc8aad447aa8b0952cd4a3000c nfsd: convert to ctime accessor functions
+e21d4f419402ce71f6ddd10449af85356293e788 nilfs2: convert to ctime accessor functions
+03870d277fea0efb33d5de792194589130c6a3cb ntfs: convert to ctime accessor functions
+3d65c46fbf6ad0e097f8ec0bc6c7674cce119fa2 ntfs3: convert to ctime accessor functions
+6861de979fa0aebe998c1606d70d01180dd29b3e ocfs2: convert to ctime accessor functions
+906effbf679fb6eb314a82a52d067815a59cf214 omfs: convert to ctime accessor functions
+1520a1520c61eb41ca27d4a852080c073f71bd49 openpromfs: convert to ctime accessor functions
+0971a799b156b1b4030d6563a9f4b784ae2f5c6d orangefs: convert to ctime accessor functions
+9aa7111523577e6cdbf9f8dbe68f51d95e616f48 overlayfs: convert to ctime accessor functions
+e9d7d3cb9fb3f142df574664507ac0ee4a26365a procfs: convert to ctime accessor functions
+a411ea5af7ec9603f47c6810de1ac032e538003e pstore: convert to ctime accessor functions
+bbe21298548d718fc76042409117ebb72a5965cc qnx4: convert to ctime accessor functions
+ade79b7cf677fefd57747dfaa4a55cdd0a31623f qnx6: convert to ctime accessor functions
+9f590685bc5aa7a8f6c1a9ff47bf4755546b1c2b ramfs: convert to ctime accessor functions
+ae834901ecc517cd943e172cb30b65fb79407b98 reiserfs: convert to ctime accessor functions
+a58451279c25fc7330156d5c2f01aa950ceef90e romfs: convert to ctime accessor functions
+9448765397b6e6522dff485f4b480b7ee020a536 smb: convert to ctime accessor functions
+280345d0d03bcdb9d30cb0df0c45409f813646d3 squashfs: convert to ctime accessor functions
+c801b09511976dcace6cd33360b5163fe6a23c2a sysv: convert to ctime accessor functions
+bb9c40e652624291c0239c71d7c4663d80523686 tracefs: convert to ctime accessor functions
+d07d3a7e9376133e1065cb29c764556a158f5bff ubifs: convert to ctime accessor functions
+59ad88f26e97331a8ab955349d0b1d89040b12fc udf: convert to ctime accessor functions
+6eeb017e4f7f3669c1846d76dd247726f85354cc ufs: convert to ctime accessor functions
+0593be0c8e60c05cc130db2f98281b0fe3379083 vboxsf: convert to ctime accessor functions
+a0a415e34b57368acd262e1172720252c028b936 xfs: convert to ctime accessor functions
+f74207d84dab31ed7e36f530281c556c9815cbc5 zonefs: convert to ctime accessor functions
+e359147f01606e17d74df96cfeb0027f540f5e97 linux: convert to ctime accessor functions
+783904f50a9c8264543c73521a20de7916e40be7 mqueue: convert to ctime accessor functions
+417d2b6b112dc031d7e00ccf42ec677fec1c2c39 bpf: convert to ctime accessor functions
+6528733416f13dd67eda1f34e74a2242af36d638 shmem: convert to ctime accessor functions
+bc734e8ec11305f164d1d540bc55cfbd41f28c05 sunrpc: convert to ctime accessor functions
+6ac5422617eda03b95c00367d0e59fcb4d7ca3cc apparmor: convert to ctime accessor functions
+428c33f2851e226673dc04f970cbcf5829100b3f security: convert to ctime accessor functions
+4c1698d3033d3935b2b4170270e1ef641ccda446 selinux: convert to ctime accessor functions
+13bc24457850583a2e7203ded05b7209ab4bc5ef fs: rename i_ctime field to __i_ctime
+d85f1b5bad5752831b11bdeb5a1c403075673c0d gfs2: fix timestamp handling on quota inodes
+aead78125a987f48944bff2001f61df72b95afc4 tools/counter: Makefile: Replace rmdir by rm to avoid make,clean failure
+edd6ebfc68a868311e33211ad419ad4631a85cd9 epoll: simplify ep_alloc()
+09da082b07bbae1c11d9560c8502800039aebcea fs: Add fchmodat2()
+78252deb023cf0879256fcfbafe37022c390762b arch: Register fchmodat2, usually as syscall 452
+4859c257d295949c23f4074850a8c2ec31357abb selftests: Add fchmodat2 selftest
+5daeb41a6fc9d0d81cb2291884b7410e062d8fa1 fchmodat2: add support for AT_EMPTY_PATH
+238353088e9b28d61f58994aa058d736fc306614 scripts/kallsyms: Fix build failure by setting errno before calling getline()
+8a4629055ef55177b5b63dab1ecce676bd8cccdd iio: cros_ec: Fix the allocation size for cros_ec_command
+186b169cf1e4be85aa212a893ea783a543400979 RDMA/umem: Set iova in ODP flow
+785c00993dc4c4bb2f7b0f3a3f29c03a6f7aab2e platform/x86/amd/pmf: Fix unsigned comparison with less than zero
+1cd0302be5645420f73090aee26fa787287e1096 ACPI: scan: Create platform device for CS35L56
+175544ad48cbf56affeef2a679c6a4d4fb1e2881 scsi: storvsc: Fix handling of virtual Fibre Channel timeouts
+5a43b07a87835660f91d88a4db11abfea8c523b7 scsi: fnic: Replace return codes in fnic_clean_pending_aborts()
+8366d1f1249a0d0bba41d0bd1298d63e5d34c7f7 scsi: 53c700: Check that command slot is not NULL
+9426d3cef5000824e5f24f80ed5f42fb935f2488 scsi: core: Fix legacy /proc parsing buffer overflow
+688b419c57c13637d95d7879e165fff3dec581eb nvme-pci: add NVME_QUIRK_BOGUS_NID for Samsung PM9B1 256G and 512G
+8d66ed1cb2af028b867c23318032e2cc50eea16f fs/ecryptfs: remove kernel-doc warnings
+583893a66d731f5da010a3fa38a0460e05f0149b thunderbolt: Fix Thunderbolt 3 display flickering issue on 2nd hot plug onwards
+5a78d5db9c90c9dc84212f40a5f2687b7cafc8ec gpio: sim: mark the GPIO chip as a one that can sleep
+4fdfaef71fced490835145631a795497646f4555 IB/hfi1: Fix possible panic during hotplug remove
+a592ab6171bd943ce3b988bd271c79fe275a7bec Merge tag 'nvme-6.5-2023-08-02' of git://git.infradead.org/nvme into block-6.5
+ccbe77f7e45dfb4420f7f531b650c00c6e9c7507 autofs: fix memory leak of waitqueues in autofs_catatonic_mode
+17fce12e7c0a53f0bed26af231a2a98a34d34c60 autofs: use wake_up() instead of wake_up_interruptible(()
+4270d2b4845e820b274702bfc2a7140f69e4d19d usb: typec: tcpm: Fix response to vsafe0V event
+5a5ccd61cfd76156cb3e0373c300c509d05448ce usb: typec: altmodes/displayport: Signal hpd when configuring pin assignment
+348359e7c232adc153ed7ec9a157f22d68d29860 usb: typec: nb7vpq904m: Add an error handling path in nb7vpq904m_probe()
+ef7c4d8a90c64bac294363c6f67eb98246a162a2 usb: typec: mux: intel: Add dependency on USB_COMMON
+65dadb2beeb7360232b09ebc4585b54475dfee06 USB: Gadget: core: Help prevent panic during UVC unconfigure
+8e21a620c7e6e00347ade1a6ed4967b359eada5a usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
+a6ff6e7a9dd69364547751db0f626a10a6d628d2 usb-storage: alauda: Fix uninit-value in alauda_check_media()
+3ddaa6a274578e23745b7466346fc2650df8f959 usb: dwc3: Properly handle processing of pending events
+ec3041b30133f92cfbce783e02239aa0853f8ab3 Merge tag 'counter-fixes-for-6.5a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
+596a5123cc782d458b057eb3837e66535cd0befa thunderbolt: Fix memory leak in tb_handle_dp_bandwidth_request()
+bb6578bab876f7fb138f5099f833a265b11a60d7 Merge tag 'counter-fixes-for-6.5b' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
+63b93e70c862922fedb8d1045e89245bc984a898 Merge tag 'iio-fixes-for-6.5a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+adb9743d6a08778b78d62d16b4230346d3508986 binder: fix memory leak in binder_init()
+101bd907b4244a726980ee67f95ed9cafab6ff7a misc: rtsx: judge ASPM Mode to set PETXCFG Reg
+77107b08f0f29c6e9d02c2e4bfcd6e1e0c57bdd5 misc: tps6594-esm: Disable ESM for rev 1 PMIC
+215baa741614ff0791d563347edf1a992589a240 file: mostly eliminate spurious relocking in __range_close
+4b5d1e47b69426c0f7491d97d73ad0152d02d437 zsmalloc: fix races between modifications of fullness and isolated
+f443fd5af5dbd531f880d3645d5dd36976cf087f crypto, cifs: fix error handling in extract_iter_to_sg()
+cac7ea57a06016e4914848b707477fb07ee4ae1c radix tree test suite: fix incorrect allocation size for pthreads
+f985fc322063c73916a0d5b6b3fcc6db2ba5792c mm/swapfile: fix wrong swap entry type for hwpoisoned swapcache page
+f29623e4a599c295cc8f518c8e4bb7848581a14d mm: memory-failure: fix potential unexpected return value from unpoison_memory()
+faeb2ff2c1c5cb60ce0da193580b256c941f99ca mm: memory-failure: avoid false hwpoison page mapped error info
+32c877191e022b55fe3a374f3d7e9fb5741c514d hugetlb: do not clear hugetlb dtor until allocating vmemmap
+65294de30cb8bc7659e445f7be2846af9ed35499 selftests: mm: ksm: fix incorrect evaluation of parameter
+493614da0d4e8d8bb37c3c558e0c01de20344cff mm: compaction: fix endless looping over same migrate block
+d1ef9dba07bf637995202d0efd29c2fea19e809c MAINTAINERS: add maple tree mailing list
+17457784004c84178798432a029ab20e14f728b1 fs/proc/kcore: reinstate bounce buffer for KCORE_TEXT regions
+fac2650276eced3c94bcdbc21d0e5be637c1e582 selftests: cgroup: fix test_kmem_basic false positives
+f8654743a0e6909dc634cbfad6db6816f10f3399 nilfs2: fix use-after-free of nilfs_root in dirtying inodes via iput
+5f1fc67f2cb8d3035d3acd273b48b97835af8afd mm/damon/core: initialize damo_filter->list from damos_new_filter()
+51a26bb02ae58c7db6b4156d7e1e39cd79008757 Merge tag 'icc-6.5-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
+71214379532794b5a05ea760524cdfb1c4ddbfcb selftests: fchmodat2: remove duplicate unneeded defines
+95848dcb9d676738411a8ff70a9704039f1b3982 zram: take device and not only bvec offset into account
+f38963b9cd0645a336cf30c5da2e89e34e34fec3 hwmon: (pmbus/bel-pfe) Enable PMBUS_SKIP_STATUS_CHECK for pfe1100
+df2f7cde73cb58c0e6a60f97d1cd6037138a45cd PM: hibernate: fix resume_store() return value when hibernation not available
+bee6cf1a80b54548a039e224c651bb15b644a480 x86/sev: Do not try to parse for the CC blob on non-AMD hardware
+5e720f8c8c9d959283c3908bbf32a91a01a86547 cpufreq: amd-pstate: fix global sysfs attribute type
+72dbde0f2afbe4af8e8595a89c650ae6b9d9c36f io_uring: correct check for O_TMPFILE
+04b5b5cb0136ce970333a9c6cec7e46adba1ea3a scsi: core: Fix possible memory leak if device_add() fails
+41320b18a0e0dfb236dba4edb9be12dba1878156 scsi: snic: Fix possible memory leak if device_add() fails
+b6d128f89a85771433a004e8656090ccbe1fb969 scsi: ufs: renesas: Fix private allocation
+8eebf0e84f0614cebc7347f7bbccba4056d77d42 scsi: lpfc: Remove reftag check in DIF paths
+dd64f80587190265ca8a0f4be6c64c2fda6d3ac2 scsi: qedi: Fix potential deadlock on &qedi_percpu->p_work_lock
+1516ee035df32115197cd93ae3619dba7b020986 scsi: qedi: Fix firmware halt over suspend and resume
+ef222f551e7c4e2008fc442ffc9edcd1a7fd8f63 scsi: qedf: Fix firmware halt over suspend and resume
+39163d5479285a36522b6e8f9cc568cc4987db08 x86/vdso: Choose the right GDT_ENTRY_CPUNODE for 32-bit getcpu() on 64-bit kernel
+f48585c468f51ac038c2cfaafcd4437bc3746bce Merge tag 'thunderbolt-for-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+00ae25c4cf374778a2f263dc3f7acaf4dbd09ad4 fs: use __fput_sync in close(2)
+8e7b295da1ed051baedd068b7f785f5d959ef95d MAINTAINERS: Remove maintainer of HiSilicon RoCE
+56675f8b9f9b15b024b8e3145fa289b004916ab7 io_uring/parisc: Adjust pgoff in io_uring mmap() for parisc
+7324f74d39531262b8e362f228b46512e6bee632 x86/linkage: Fix typo of BUILD_VDSO in asm/linkage.h
+d74f714896fd6268882789ba28e52c9145951403 block: get rid of unused plug->nowait flag
+7b3f28d32ef20a186f45237e5159d40beb2769a8 fs: unexport d_genocide
+4b2201dad26742c92decd920471b7185088624f5 fs: stop using bdev->bd_super in mark_buffer_write_io_error
+01efe93a5aa20a19b390426718dc214898a7c2ec ext4: don't use bdev->bd_super in __ext4_journal_get_write_access
+8887b94d93224e0ef7e1bc6369640e313b8b12f4 ocfs2: stop using bdev->bd_super for journal error logging
+6a3207395563f724d91231ec0aa7c4d95bf9591d fs, block: remove bdev->bd_super
+b3030e4f23441347cd5d18b2610fb299ed98d739 fs: remove silly warning from current_time
+0d72b92883c651a11059d93335f33d65c6eb653b fs: pass the request_mask to generic_fillattr
+541d4c798a598854fcce7326d947cbcbd35701d6 fs: drop the timespec64 arg from generic_update_time
+bb7cc0a62e47b5810ed2721fc7eaaf709e42b966 btrfs: have it use inode_update_timestamps
+c7e263ab45b95170fe7d4b818bab484268b7bba8 shmem: make shmem_inode_acct_block() return error
+71480663b751de1bdfafaa2f668ceabaea78b68b shmem: make shmem_get_inode() return ERR_PTR instead of NULL
+86be6b8bd834bece87e6adc5313cb41e1ba7fe81 quota: Check presence of quota operation structures instead of ->quota_read and ->quota_write callbacks
+eafc474e202978ac735c551d5ee1eb8c02e2be54 shmem: prepare shmem quota infrastructure
+e09764cff44b5d31c2ca5477444565e3080637d2 shmem: quota support
+de4c0e7ca8b526a82ff7e5ee5533787bb6d01724 shmem: Add default quota limit mount options
+509f006932de7556d48eaa7afcd02dcf1ca9a3e9 shmem: fix quota lock nesting in huge hole handling
+6faddda69f623d38bb097640689901a4b5ff881a libfs: Add directory operations for stable offsets
+23a31d87645c652734f89f477f69ddac9aa402cb shmem: Refactor shmem_symlink()
+a2e459555c5f9da3e619b7e47a63f98574dc75f1 shmem: stable directory offsets
+bbaef7973dd017954419718ab2df526ae1f66e93 libfs: Add a lock class for the offset map's xa_lock
+2be4f05af71bb2a9958c5680c19e5a489636ff42 libfs: Remove parent dentry locking in offset_iterate_dir()
+3c1b7528d8969a8e89c77cd5eb867503152547b1 shmem: move spinlock into shmem_recalc_inode() to fix quota support
+0200679fc7953177941e41c2a4241d0b6c2c5de8 tmpfs: verify {g,u}id mount options correctly
+5de75970c9fd7220e394b76e6d20fbafa1369b5a xattr: simple_xattr_set() return old_xattr to be freed
+e07c469e979c104464300aaa3b7923f929055cd0 tmpfs: track free_ispace instead of free_inodes
+6ccbd7fd474674654019a20177c943359469103a alpha: remove __init annotation from exported page_is_ram()
+2d331a6ac4815e2e2fe5f2d80d908566e57797cc ACPI: resource: revert "Remove "Zen" specific match and quirks"
+9728ac221160c5ea111879125a7694bb81364720 ACPI: resource: Always use MADT override IRQ settings for all legacy non i8042 IRQs
+c6a1fd910d1bf8a0e3db7aebb229e3c81bc305c4 ACPI: resource: Honor MADT INT_SRC_OVR settings for IRQ1 on AMD Zen
+5a66d59b5ff537ddae84a1f175c3f8eb1140a562 platform/x86: msi-ec: Fix the build
+af8a6d281bfb68023fb60f616ec87fe8a875875e platform/x86: ISST: Reduce noise for missing numa information in logs
+1b8b1aa90c9c0e825b181b98b8d9e249dc395470 x86/mm: Fix VDSO and VVAR placement on 5-level paging machines
+2bc057692599a5b3dc93d75a3dff34f72576355d block: don't make REQ_POLLED imply REQ_NOWAIT
+f099a108cabf72a1184b1e14e4a09f4ca3375750 blk-iocost: fix queue stats accounting
+fe9da61ffccad80ae79fadad836971acf0d465bd zonefs: fix synchronous direct writes to sequential files
+56b930dcd88c2adc261410501c402c790980bdb5 hwmon: (aquacomputer_d5next) Add selective 200ms delay after sending ctrl report
+dbbff489064d89391c4f0c7a73e77e61ce29fe96 xfs: reformat the xfs_fs_free prototype
+1aa2d074d4c777e2150382878d0a5611d829b380 xfs: remove a superfluous s_fs_info NULL check in xfs_fs_put_super
+2a9311adb87c98599989b80405fe2c60cd4075dd xfs: free the xfs_mount in ->kill_sb
+d3ef7e94ee36adc8f0006d253a9ad45793b874cd xfs: remove xfs_blkdev_put
+41233576e9a4515dc9b0bd1cbbb896b520a1f486 xfs: close the RT and log block devices in xfs_free_buftarg
+35a93b148b0363dca23c3db1cc9d48100eb8b276 xfs: close the external block devices in xfs_mount_free
+1a0a5dad67b60250dce151c9533ccbecdfd822d4 xfs: document the invalidate_bdev call in invalidate_bdev
+1489dffd51d7e4519855723b00516719d5aa3a6a ext4: close the external journal device in ->kill_sb
+c934dc927e8efa9e0dc3cba8787912d6c23d272f exfat: don't RCU-free the sbi
+4abc9a43d99ccab7bd71742b86d2f48d8be798c3 exfat: free the sbi and iocharset in ->kill_sb
+126dbf8a1b9cb2d764a314716a8ea98398a6fcb2 ntfs3: rename put_ntfs ntfs3_free_sbi
+5f0fb2210bb34ecd3f7bfde0d8f0068b79b2e094 ntfs3: don't call sync_blockdev in ntfs_put_super
+a4f64a300a299f884a1da55d99c97a87061201cd ntfs3: free the sbi in ->kill_sb
+aca740cecbe57b12bd9c1fc632092af5ebacda0c fs: open block device after superblock creation
+cf6da236c27a73ab91b657232cd3841aab27c37a fs: export setup_bdev_super
+c1e012ea9e835f81ac6062e8aa9e72940a671b95 nilfs2: use setup_bdev_super to de-duplicate the mount code
+4b41828be268544286794c18200e83861de3554e ext4: make the IS_EXT2_SB/IS_EXT3_SB checks more robust
+182ac87070e26d32a01445cec7ca7afa07411468 Documentation/hw-vuln: Unify filename specification in index
+0fddfe338210aa018137c03030c581f5ea4be282 driver core: cpu: Unify redundant silly stubs
+09f9f37c324d90102e8574856ab168c34de1916d Documentation/srso: Document IBPB aspect and fix formatting
+cbe8ded48b939b9d55d2c5589ab56caa7b530709 x86/srso: Fix build breakage with the LLVM linker
+4b4fb74b1aa1d39d62d7a4c2341f99076e97e20b vfs, security: Fix automount superblock LSM init problem, preventing NFS sb sharing
+2daf18a7884dc03d5164ab9c7dc3f2ea70638469 tmpfs,xattr: enable limited user extended attributes
+6524c798b727ffdb5c7eaed2f50e8e839997df8e driver core: cpu: Make cpu_show_not_affected() static
+9ed7cfdf38b8abc22e0bb3b5279b242d2f134b47 fs/buffer.c: disable per-CPU buffer_head cache for isolated CPUs
+b4704cb65f478b64ca55749c979e2cfca99abff2 docs: filesystems: idmappings: clarify from where idmappings are taken
+fc1f91b9231a28fba333f931a031bf776bc6ef0e btrfs: wait for actual caching progress during allocation
+56fec0051a69ace182ca3fba47be9c13038b4e3f ACPI: resource: Add IRQ override quirk for PCSpecialist Elimina Pro 16 M
+effa24f689ce0948f68c754991a445a8d697d3a8 btrfs: don't stop integrity writeback too early
+5c25699871112853f231e52d51c576d5c759a020 btrfs: don't wait for writeback on clean pages in extent_write_cache_pages
+12b2d64e591652a2d97dd3afa2b062ca7a4ba352 btrfs: properly clear end of the unreserved range in cow_file_range
+773e722a98e25caf96f91aced7070c1858250ba2 btrfs: avoid race between qgroup tree creation and relocation
+05d7ce504545f7874529701664c90814ca645c5d btrfs: exit gracefully if reloc roots don't match
+6ebcd021c92b8e4b904552e4d87283032100796d btrfs: reject invalid reloc tree root keys with stack dump
+92fb94b69c6accf1e49fff699640fa0ce03dc910 btrfs: set cache_block_group_error if we find an error
+a57c27c7ad85c420b7de44c6ee56692d51709dda x86/speculation: Add cpu_show_gds() prototype
+eb3515dc99c7c85f4170b50838136b2a193f8012 x86: Move gds_ucode_mitigated() declaration to header
+5363fc488da579923edf6a2fdca3d3b651dd800b RDMA/bnxt_re: Properly order ib_device_unalloc() to avoid UAF
+5ac8480ae4d01f0ca5dfd561884424046df2478a RDMA/bnxt_re: Fix error handling in probe failure path
+64b632654b97319b253c2c902fe4c11349aaa70f RDMA/bnxt_re: Initialize dpi_tbl_lock mutex
+3e797ad1c5df906994769f91fa45b8dfc5fd23fd fs: Fix one kernel-doc comment
+97ebfdb7ad089d5213f6c75fdc48173fe0f14439 ubifs: have ubifs_update_time use inode_update_timestamps
+93e6c30435443bad38414b745845fb1d3fa6963e fat: remove i_version handling from fat_update_time
+6f4aaee3faa84f00d38bfaba88a9f75d8c78e7e0 fat: make fat_update_time get its own timestamp
+51b0f3ebdbbf440b2d04f24cff2ad8b39d11842d xfs: have xfs_vn_update_time gets its own timestamp
+913e99287b98fd051ac1976140a2764a8ef9dfbf fs: drop the timespec64 argument from update_time
+ffb6cf19e06334062744b7e3493f71e500964f8e fs: add infrastructure for multigrain timestamps
+d48c3397291690c3576d6c983b0a86ecbc203cac tmpfs: add support for multigrain timestamps
+e44df2664746aed8b6dd5245eb711a0ce33c5cf5 xfs: switch to multigrain timestamps
+0269b585868e59b6a2ecc6ea685d39310e4fc18b ext4: switch to multigrain timestamps
+50e9ceef1d4f644ee0049e82e360058a64ec284c btrfs: convert to multigrain timestamps
+2ea6f68932f73a6a9d82160d3ad0a49a5a6bb183 fs: use the super_block as holder when mounting file systems
+9c09a7cf6220a11dac0f4845b7e8925706cdc458 fs: stop using get_super in fs_mark_dead
+7ecd0b6f510005e120f5bc198bacb5951814cf36 fs: export fs_holder_ops
+6f5fc7de98857c75dad05e9f3fe2e6f358d4583e ext4: drop s_umount over opening the log device
+8bed1783751fc8d0a5a263dcf87838a2fa570953 ext4: use fs_holder_ops for the log device
+8d945b595ed07db13fef1f3311ad456c97941930 xfs: drop s_umount over opening the log and RT devices
+8ffa54e3370c5a8b9538dbe4077fc9c4b5a08f45 xfs use fs_holder_ops for the log and RT devices
+e88e0d366f9cfbb810b0c8509dc5d130d5a53e02 tmpfs: trivial support for direct IO
+aa5b9178c01905d7691512b366cf2886dfe2680c mm: invalidation check mapping before folio_contains
+a7a7dabb5dd72d2875bc3ce56f94ea5ceb259d5b nvme: core: don't hold rcu read lock in nvme_ns_chr_uring_cmd_iopoll
+4778e1288447d9f90d87df07d195dc89e290d973 Merge branch 'pm-cpufreq'
+3477144c878a52fc3938a529186e81ea030e7779 driver core: cpu: Fix the fallback cpu_show_gds() name
+2e40ed24e1696e47e94e804d09ef88ecb6617201 Merge tag 'io_uring-6.5-2023-08-11' of git://git.kernel.dk/linux
+360e694282fce69608e2775bf843b2aafd19e4b4 Merge tag 'block-6.5-2023-08-11' of git://git.kernel.dk/linux
+9578b04c32397e664bd4643c8b7f525728df3028 Merge tag 'pm-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+29d99aae13cf2713b85bc26a37921e231676ba48 Merge tag 'acpi-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+33f83d13ded164cd49ce2a3bd2770115abc64e6f gpio: ws16c48: Fix off-by-one error in WS16C48 resource region extent
+6dbef74aeb090d6bee7d64ef3fa82ae6fa53f271 x86/cpu/amd: Enable Zenbleed fix for AMD Custom APU 0405
+190bf7b14b0cf3df19c059061be032bd8994a597 Merge tag 'mm-hotfixes-stable-2023-08-11-13-44' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+51e5e551af53259e0274b0cd4ff83d8351fb8c40 tpm: tpm_tis: Fix UPX-i11 DMI_MATCH condition
+6aaf663ee04a80b445f8f5abff53cb92cb583c88 tpm_tis: Opt-in interrupts
+5512c33c7b942033f772db56be46d5de9493deae Merge tag 'hwmon-for-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+0725a70411bd836231c3e78090ac47cac51246b1 Merge tag 'zonefs-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+9a20704fb40642d5b7d4f1db58f252f6aca563a9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+f8de32cc060ba3f63171aaa0e8764d22d8c37978 Merge tag 'tpmdd-v6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+f4b03218a3c4fc867d3a79c307404e7b2bd9ffd2 btrfs: always open the device read-only in btrfs_scan_one_device
+d060eeb7456f84abdd298a9b76e9dfad7ff08fe4 btrfs: call btrfs_close_devices from ->kill_sb
+3bf9e5ac38ab8135d808dc3de2f44e83036eb174 btrfs: split btrfs_fs_devices.opened
+39e7cfb39466313dd8470a1c0be104f9f6e9009c btrfs: open block devices after superblock creation
+a10f41b69a157f2660bfc5c4fe12d64ae069617a btrfs: use the super_block as holder when mounting file systems
+796e384eb46b3c157f1e57ce3a5ed4a3fe3f51a6 nbd: call blk_mark_disk_dead in nbd_clear_sock_ioctl
+de76e11e14ec9c1a731f51632e822b859eb736b5 block: simplify the disk_force_media_change interface
+9e6d6aa1f78903d0ca52022f26e4a761477bd79e floppy: call disk_force_media_change when changing the format
+5fd1953343b57db669f7e48a65effe5fc9f54d09 amiflop: don't call fsync_bdev in FDFMTBEG
+e17f60b168f183fce2f1bb9a61a1bb8e71656e28 dasd: also call __invalidate_device when setting the device offline
+62a9821b69b218be540b64021b534d47fd877af2 block: drop the "busy inodes on changed media" log message
+381f678306ceef1cefb39fb22f88e3b977b81403 block: consolidate __invalidate_device and fsync_bdev
+2b35d727a85fcb90280313e6190a1c50c8692e10 block: call into the file system for bdev_mark_dead
+efd9abfe80ae3f4f7ecbe8ab83b1cb80257caa54 block: call into the file system for ioctl BLKFLSBUF
+07b6179480054f16a602a95f9f70f1bd0a1fdf46 fs: remove get_super
+fc3b2b8e7199b371ed55b7d82ecf0a9d0e794274 fs: simplify invalidate_inodes
+18a27094eecd7a9b5ca160226c24c7866ffd5a4c super: remove get_tree_single_reconf()
+baa50b31ee36eaf34b61de25e9bded3f1dcfff8f fs: add vfs_cmd_create()
+285aa139997f0e7919b77a6ea9d3139312736abd fs: add vfs_cmd_reconfigure()
+cc65f694660bad5dd69e6b9e771f08009fa459a8 fs: add FSCONFIG_CMD_CREATE_EXCL
+272b86ba9d97518b3c14b97514b6544eef87e7a5 Merge tag 'x86_bugs_for_v6.5_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+43972cf2deb2f54a97530c82b88c555fd682428e Merge tag 'x86_urgent_for_v6.5_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+469a2f504188003d76718f99a4f5755c4d369b74 Merge tag 'usb-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+3feecb1b848359b152dd66b26c24c2454a64fc15 Merge tag 'char-misc-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+c8afaa1b0f8bc93d013ab2ea6b9649958af3f1d3 locking: remove spin_lock_prefetch
+ae545c3283dc673f7e748065efa46ba95f678ef2 Merge tag 'gpio-fixes-for-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+a785fd28d31f76d50004712b6e0b409d5a8239d8 Merge tag 'for-6.5-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+8e3938cff0191c810b2abd827313c090fe09d166 platform: mellanox: Fix order in exit flow
+3c91d7e8c64f75c63da3565d16d5780320bd5d76 platform: mellanox: mlx-platform: Fix signals polarity and latch mask
+9f8ccdb5088bd03062d9ad9c0f6abf600cbed8e8 platform: mellanox: mlx-platform: Modify graceful shutdown callback and power down mask
+d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register offset addresses
+2b6aa6610dc9690f79d305ca938abfb799a4f766 platform/x86: lenovo-ymc: Only bind on machines with a convertible DMI chassis-type
+16b8cac457c632162da0698b72009ccace425dea Merge branch 'vfs.tmpfs' into vfs.all
+5e05ccb74795ebc706b40cba01f6965296529ef9 Merge branch 'vfs.misc' into vfs.all
+632a62c1693fa03d912422d6ca2b3ec267c4b252 Merge branch 'fs.proc.uapi' into vfs.all
+78d28e08d78054d134b7b187551a07e6a2ea828a Merge branch 'vfs.fchmodat2' into vfs.all
+49faab8692461b121dfa23e8bba1d619fe035497 Merge branch 'vfs.super' into vfs.all
+24a62491bb899b1b2343e2ddf7e2a580241ea759 Merge branch 'vfs.autofs' into vfs.all
+7308e92756d5891d58e7bcae01a516514583921d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+3dcf1473c711be5536321fa4d465b9ed9e42a0ce Merge tag 'platform-drivers-x86-v6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
+4bc915abf7004d835ee4cbe7e684cabdaa75d3c6 sunrpc: set the bv_offset of first bvec in svc_tcp_sendmsg
+6a0f784e2a95b28ab2886a3dcda77796421ef09c Merge remote-tracking branch 'vfs/vfs.all' into integ
 
---===============3664481637539937633==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeb751c41060-1298d0dd31b2.txt
-
-414772b8f7d7a9ccbfb5f0f3fd51bbfb8d54501a arm64: dts: ti: minor whitespace cleanup around '='
-48a498a269c60cd3ca3de87761a1016aa7de9593 arm64: dts: ti: add missing space before {
-ef6012f301f71fd8d8bc07dd9710f5e5de362cf5 riscv: dts: Enable device-tree overlay support for starfive devices
-a8cf500c42c751b992f5480c390d6ad2419472e0 arm64: dts: nuvoton: add missing cache properties
-1193001081e98d13c786fe0cae407cb747104cdc arm64: dts: lg: add missing cache properties
-2a7cc7bedb58d4eedc177e642efedc25d713445a arm64: dts: ti: Fix compatible of ti,*-ehrpwm-tbclk
-b239dd7f41e713ba297cc573303f567bca52e37c arm64: dts: imx8mq-librem5: Use 'vqmmc-supply'
-9a8d30b977f5cfee32d3bdc7e5fb9f59d3d39ce4 arm64: dts: imx8mm-venice-gw7901: add cpu-supply node for cpufreq
-18bbf7ac3fc722d605f97e716b370a750304269d arm64: dts: imx8mm-venice-gw7901: add SDR50/SDR104 SDIO support for wifi
-efdb4d2346a0d30bb62aff7e895e225daa8540b3 arm64: dts: imx8m{m,n}-venice-gw7902: add SDR50/SDR104 SDIO support for wifi
-0f8446f02b86167720bab09945f2980ab9c45c0d arm64: dts: imx8mm-venice-gw7904: enable UART1 hardware flow control
-531936b218d897ff5d9ca92af61de09d24175656 arm64: dts: imx8mp-venice-gw74xx: update to revB PCB
-26701ff10710270aff7a08d680632d1995e3c917 arm64: dts: freescale: fix imx8mm-venice-gw72xx-0x-imx219 overlay
-f75adaf6c8adf0c80442cc4663dafe88613c0938 ARM: dts: imx25/karo-tx25: Replace NO_PAD_CTL by explicit pad configuration
-1d6880ceef43b963bbf44d2f970410d90f41246c arm64: dts: imx8mn-beacon: Add HDMI video with sound
-9c9b11871bdaa29f9bf4dc4b6f819917d824836b arm64: dts: imx8mm-beacon: Change camera I2C address
-8ad7d14d99f306ef78e9b6d9376cc738bbc96068 arm64: dts: imx8mm-beacon: Add HDMI video with sound
-867b8557899e43b982af10c7c2c5407402431b1a arm64: dts: freescale: imx8mm-phyboard-polis: Add TPM node
-3d8f8cebde5af72e59ca1eb26e474ff2576798d3 arm64: dts: phycore-imx8mm: fix nor mtd partitions
-c933945fad116d062725b55c0de49867c431e1c0 arm64: dts: imx8mm-phyboard-polis: Set debug uart muxing to 0x140
-cd3b83270a9b08cffd3bcca47b08783c8be778a3 arm64: dts: imx8mm-phyboard-polis: Add i2c4 sda-/scl-gpios
-06b944f40a9bacae62c4514c0c3f77b5b59cefa0 arm64: dts: ls1028a: sl28: get MAC addresses from VPD
-2b1d5d054d29e08926f05cfa30e34d149644585e arm64: dts: imx8mn-evk: Pass GPIO_OPEN_DRAIN flag
-7f916a6fe8658d583d6e549429512ea857756795 arm64: dts: imx93: add thermal support
-fc94fbb9978d97412e584fa057ccd029c19dfb87 arm64: dts: imx93: add cma area for i.MX93 11x11 EVK
-48a3c682fe633a9073af468a8479eb9814f39394 arm64: dts: imx93: add cm33 node
-e1da729459e620bbfc3edaa778d65928e6de42e3 arm64: dts: imx93: enable CM33 for 11x11 EVK
-f1bcefdef15268482878ce39bc12de249f49426b arm64: dts: imx8dxl: remove "fsl,imx7ulp-lpuart" compatible for imx8dxl
-258bd863816814330f4c72dfc0b784f11d305932 arm64: dts: imx93: add "fsl,imx8ulp-lpuart" compatible for imx93
-ca788bb10a6c6ecf96551fb1a23f243161a3b62c arm64: dts: imx: minor whitespace cleanup around '='
-7271f14d2f8b79834707581af265459058a758a9 arm64: dts: imx8mm: split PCIe ranges
-b40b2dc6a1b801923f6cb01ff7c9ae6bd24e0af3 arm64: dts: freescale: add missing space before {
-ba345b77fae7054d0cbd033283c47033e45db6d8 arm64: dts: imx8mp: remove arm,primecell-periphid at etm nodes
-b7df89f1c9d1d18c113b0420dffe46491d399712 arm64: dts: imx8mm: add imx8mm-venice-gw73xx-0x-rpidsi overlay for display
-6b4da1354fd81adace0cda448c77d8f2a47d8474 arm64: dts: imx8mm: add imx8mm-venice-gw72xx-0x-rpidsi overlay for display
-055e38c7638873010e8a813dc742bd834f5777aa arm64: dts: imx8mp-phyboard-pollux-rdk: Fix led sub-node names
-88114e1080b54584307cb2766f2e7724fe913a63 arm64: dts: imx8qm: add cpu frequency table
-36e81d6a9029536ba3b551edf8836fa25eea3282 arm64: dts: imx8qm: add thermal zone and cooling map
-bce07345481cdd27f0818a00dce89f3a32386c04 arm64: dts: imx8qm-mek: delete A72 thermal zone
-99e5d6d2741e1dcfcb17fdd1730c99f3ea618f54 arm64: dts: imx8mm-evk: Add camera support
-e8abdd58a19885c5adb5759cbed939b34889f0e6 arm64: dts: imx8mn-evk: Add HDMI support
-5aafda608f7399fa64c520f0a184bd2226fe8db7 arm64: dts: imx8mn-evk: Add camera support
-ec20d468d05f4cd5a489d232f3d98745e11e948e ARM: dts: imx: Remove regulators from simple-bus
-0010947dbc5d972b31dc12011b90a33a70eb2868 dt-bindings: arm: add TQMa93xxLA SOM
-c982ecfa7992a7c2c9eb327b05b69e07bad3ab30 arm64: dts: freescale: add initial device tree for MBa93xxLA SBC board
-312ab094197d02c8a3d2d28671efb6510ff1a09e arm64: dts: imx8mp-phycore-som: Remove eth phy interrupt
-2d3779dd1e0c72ceb18ec1473435c26982371041 arm64: dts: imx8mp-phycore-som: Order properties alphabetically
-b34f66815461ebdef7de6620c2aab14b9e4d3d4a arm64: dts: imx8mp-phycore-som: Correct pad settings
-1a5a0343326191ad6a2c827b73cd4f666acc0e21 arm64: dts: imx8mp-phycore-som: Remove LDO2 and LDO4 pmic nodes
-c2d28a0c49cca1e9d371f2986b3a8ffc4ac2f9fb arm64: dts: imx8mp-phycore-som: Add regulator names
-6fe88df72efd9f0bac17cf8a0f6fcd0fcb5bc6d2 arm64: dts: imx8mp-phycore-som: Update regulator output voltages
-fa2a1ec50456cefc934ba54da56498ff3b4c2d04 arm64: dts: imx8mp-phyboard-pollux: Add missing usdhc clocks assignment
-bd348ca24d81cca2a27f8ffa12adc8f30f184275 dt-bindings: clock: Add StarFive JH7110 PLL clock generator
-c81f7845b2ce7a2ea1beb2ac4621b5d568d2b644 dt-bindings: soc: starfive: Add StarFive syscon module
-2110add84bc6e21a1bf55f2c9d1fc14d408ce2e0 dt-bindings: clock: jh7110-syscrg: Add PLL clock inputs
-14b14a57e642e0dab9be4e9d0866fb2c4332f7c5 dt-bindings: clock: Add StarFive JH7110 System-Top-Group clock and reset generator
-9b3938c0b81e79e1c0e1a3e95be3e12efd8c771b dt-bindings: clock: Add StarFive JH7110 Image-Signal-Process clock and reset generator
-a097a5ec14dff59568b1e6c8bd8cc37a21d8811f dt-bindings: clock: Add StarFive JH7110 Video-Output clock and reset generator
-66bd0770f3d53e0a99fafccc54054339b097e808 Merge tag 'clk-starfive-bindings' into riscv-dt-for-next
-43f09605d11e62d70a2979e85167bbc9d4b2617e riscv: dts: starfive: jh7110: Add DVP and HDMI TX pixel external clocks
-3d90131f2edb10c802e6741053e3b23b0950981c riscv: dts: starfive: jh7110: Add STGCRG/ISPCRG/VOUTCRG nodes
-3fcbcfc496f0cc08f9dc004a92915ce1cfb7ea95 riscv: dts: starfive: jh7110: Add syscon nodes
-3e6670a28b009cc381b40ee26a6f41509aca46eb riscv: dts: starfive: jh7110: Add PLL clocks source in SYSCRG node
-1ff166c97972598a9e8a692e46f38c7e98966c34 riscv: dts: starfive: jh7110: Add ethernet device nodes
-0104340a67b199ad979f2ddc89279e3eb29fdd70 riscv: dts: starfive: visionfive 2: Add configuration of gmac and phy
-65e4a0f33a5e125d90b1b69d56a9bbdd481e3fcf riscv: dts: starfive: jh7100: Add temperature sensor node and thermal-zones
-f2b539af5718bb63eb9fd913d9d4474bd1e55d07 riscv: dts: starfive: jh7110: Add temperature sensor node and thermal-zones
-38633443c61e8065e10e74f282eebc9de1250e05 ARM: dts: nxp: add missing space before {
-8cf71125e1509be9f678bed0a01a3ae388da3258 ARM: dts: imx7d-sdb: Pass the Ethernet aliases
-0d0e727f7e3d8eca00ff2823f161314e5a89707a ARM: dts: imx1-apf9328: correct ethernet reg addresses (split)
-461f1f67281c2847566f6e1767e0e03a92c64d17 ARM: dts: imx6qdl-mba6: Add missing supply regulator for lm75 and at24
-8717c76ff38d8a6fa99cce4cccf7892288108ec8 arm64: dts: ti: k3-j721e-som-p0: Remove Duplicated wkup_i2c0 node
-8d08d7aac7f620b5d298fad0ba0e6e431ea132a9 arm64: dts: ti: Use local header for SERDES MUX idle-state values
-5438d75fb9d7bb863ddc5ef28b242ca50c9879ff dt-bindings: ti-serdes-mux: Deprecate header with constants
-e1f7d17a734c5c617d05c3d188939d5032d3d5a2 dt-bindings: crypto: ti,sa2ul: make power-domains conditional
-b573bf35ef3f113c1717fa22cefdfdfbb83aec70 arm64: dts: ti: k3-am62-main: Remove power-domains from crypto node
-c2a10081c0335c9cd60a11d69562d06ccf0a0a02 riscv: dts: starfive: Add USB and PCIe PHY nodes for JH7110
-e126aa3abc4e2388f0e1b367f47b0a24780daa4e riscv: dts: starfive: Add USB dts node for JH7110
-74fb20c8f05df7a7ea5c98ca85a713758e0e59f6 riscv: dts: starfive: Add spi node and pins configuration
-ac73c09716c3d0da3f0606e282e99c2a8c0a9afc riscv: dts: starfive: jh7110: add dma controller node
-e7c304c0346d23f5813149bfc686fb68b1108bbe riscv: dts: starfive: jh7110: add the node and pins configuration for tdm
-d56b70c4e8f2a6b9eb39f6f209b2835717cd7f92 ARM: dts: imx6sx: Describe the default LCDIF1 parent
-238f918800448da30895ae3f71680b5f72bebbfb arm64: dts: imx8mq-librem5: set audio-1v8 always-on
-4cbd5065317425a188dd2016761084cf41a79490 arm64: dts: imx8mq-librem5-r4: Bump up proximity sensor's near level
-74e04a9f510c6f782284e77ee2a506c94a990602 arm64: dts: imx8mq-librem5: Mark tps65982 as wakeup source
-5296d8f4678bbe47c0bb38c2bf6e6e92eb68ebfa arm64: dts: imx8mq-librem5: Reduce usdhc2's post-power-on-delay-ms to 20ms
-8d58f4d27e59e9a7736d4c635a33fe552b3c81aa arm64: dts: imx8mq: Add coresight trace components
-0d03a557eb57016592944ea4ea8cc712501d36e4 ARM: dts: imx6: pfla02: Rely on PMIC reboot/reset handler
-aa4f48a4e06c6df218fdf9b69ef18bc2591d5953 ARM: dts: imx6: phycore: Rely on PMIC reboot/reset handler
-d4fac9c1008651104392fcf9691a8cf23eb1ff3e arm64: dts: imx8mn-var-som-symphony: update USB OTG for new board versions
-a9ba843233f2eb06f411ddbc13395828f4459ff6 arm64: dts: imx8mp: add imx8mp-venice-gw74xx-rpidsi overlay for display
-b9622a04de5fa63afd7e578bec1620fad132308a dt-bindings: arm: Add Gateworks i.MX8M Mini GW7905-0x board
-cce4d9f65b4101a700fc2db926ae796743f141b0 dt-bindings: arm: Add Gateworks i.MX8M Plus gw71xx-2x board
-1a1974d09353441c5f7c19ac2ef55cdef6ec41e2 dt-bindings: arm: Add Gateworks i.MX8M Plus gw72xx-2x board
-6b30c1c2f934cbea78cd7eeddcaa9785db2527ff dt-bindings: arm: Add Gateworks i.MX8M Plus gw73xx-2x board
-7e1894ebf9c26afaffec5b64306f584828297dd2 arm64: dts: freescale: Add imx8mm-venice-gw7905-0x
-2c00c0650edd9cb7506508af6a3c6d6220d7310a arm64: dts: freescale: Add imx8mp-venice-gw71xx-2x
-86c43ae03ab99b3c9685559262b264f9022c0c7b arm64: dts: freescale: Add imx8mp-venice-gw72xx-2x
-716ced308234defa494a94a7ef1ae66ccf484a1b arm64: dts: freescale: Add imx8mp-venice-gw73xx-2x
-d866771890bd15d3d91e531ba4f168df2b08646a ARM: dts: imx6qdl-tqma6x: Add missing vs-supply for lm75
-f6038de293f28503eccbfcfa84d39faf56d09150 arm64: dts: imx8qm: Fix VPU core alias name
-fb8f715e5c53901429505668e015edb468d97bcd arm64: dts: imx8qm: Fix VPU core alias name
-6b15a78f71dbcb61e6fea6fd445002aba2479c29 arm64: dts: imx8: conn: Fix reg order for USB3 controller
-074248a4e91908f6fba29308373dafb61c727086 arm64: dts: imx8mm-phycore: drop uncorrect vselect-en
-5b9435d646d1cbfc39dd8ca2f83ca109ea3f2bd2 arm64: dts: imx8ulp: add cm33 node
-97803407518dd58ab8038f94f8705f413ef53ff6 arm64: dts: imx8ulp: set default clock for SDHC
-a9624b4e7ea2fa4da6dc2bdfda8486ac9ab1f71a arm64: dts: imx8ulp: add thermal node
-db2c35aa68efba93333de3500c607382f0d0d679 arm64: dts: imx8ulp: add cpuidle node
-ef89fd56bdfcf5d8039bb64c76d2f8c9ac908ca7 arm64: dts: imx8ulp: add flexspi node
-d0da51bb9d8539bdb131c17114444aa9f58a209f arm64: dts: imx8ulp-evk: add reserved memory for cma
-014fbffa25a7729864ed59b085a6b340e13df475 arm64: dts: imx8ulp-evk: enable CM33 node
-3d25633036233da9e54c8dfc0652c8f9ca9d9e5f arm64: dts: imx8ulp-evk: add spi-nor device support
-7adf8410cb0f7f1559baa270c89c2e94b44888ab arm64: dts: imx8ulp-evk: add 100MHz/200MHz pinctrl setting for eMMC
-e434472606be62110c40af94cac49342dd9b1522 arm64: dts: imx8ulp-evk: enable lpi2c7 bus
-fc7ab8d97241c883429d6f32abe943cc75902051 arm64: dts: tqma8mqnl: Add vcc supply to i2c eeproms
-f43027ea80964dd384325ae8feae77fe302413db arm64: dts: freescale: Replace deprecated extcon-usb-gpio id-gpio/vbus-gpio properties
-cb5f8a17f171aba0344af9186900090b73c5a3eb ARM: dts: nxp/imx: Replace deprecated extcon-usb-gpio id-gpio/vbus-gpio properties
-20f648dc513568ca2385c2a1133c0ec5434bfda8 ARM: dts: imx53-qsb: Improve the parallel display description
-d75cea721899bbd66ef9a9b42f0a63c2ecbdad24 ARM: dts: imx6sx-nitrogen6sx: drop incorrect regulator clock-names
-d8065d8d74a62a7ae09400fa08e07d5963619453 ARM: dts: imx6ull-colibri: drop incorrect regulator regulator-type
-106e8447760c07fa49bd8d88d223b2e97232bb6d ARM: dts: imx28-m28evk: populate fixed regulators
-e3f25ce43aeb64c31cab43c84e9b4d6618912f3f ARM: dts: imx50-kobo-aura: switch to enable-gpios
-62bb689d0f13c47366818167b049f69dfdcb336d ARM: dts: imx23: drop incorrect reg in fixed regulators
-c65fee6cdfaca0accedfb45863c30c99e62badbc ARM: dts: imx25: drop incorrect reg in fixed regulators
-dc7b1fb470123fb73fa2135010e247f9a385ca46 ARM: dts: imx27: drop incorrect reg in fixed regulators
-29e0e9b4b2136be260ea2bed14aa71b99c97bd80 ARM: dts: imx28: drop incorrect reg in fixed regulators
-0bec3d7ecc7493b0e530f6f34539841ef6779006 arm64: dts: ti: k3-pinctrl: Introduce debounce select mux macros
-98f3b667e1de99dc670e12563eae03e15c668d95 arm64: dts: ti: k3-j721s2: Add support for CAN instances 3 and 5 in main domain
-99e7172db1ae018d865da34cf3efe32992333187 arm64: dts: ti: k3-j721s2-main: Add dts nodes for EHRPWMs
-f33f5e4c801b7f1838f05aae81eaed8189a1eac4 arm64: dts: ti: k3-j784s4-main: Add DT node for UFS
-5d55545cc2da8ad320b73705b26a5c0a837b20da arm64: dts: ti: k3-j784s4-evm: Add Support for UFS peripheral
-7815b2816d146f302f3884ee8e87c7b39fea1ecc arm64: dts: ti: k3-j721e: Add overlay to enable CPSW9G ports with GESI
-d6ffe1b4b8c1cdc0ae36b6bc65b11d336aecbb72 arm64: dts: ti: k3-j721s2-main: Add main CPSW2G devicetree node
-cac04e27f093c3cafdc10c03b6f50e1578ef8cbc arm64: dts: ti: k3-j721s2: Add overlay to enable main CPSW2G with GESI
-8384087a42232613e5741cccea699b508478c276 riscv: dts: starfive: Add QSPI controller node for StarFive JH7110 SoC
-ee1ada53846b6ff4154ac7a78b74a12cfd6a8639 dt-bindings: arm: ti: Add compatible for AM642-based TQMaX4XxL SOM family and carrier board
-4717a36f31ecc7c090ce4459a6ed220869d27eca arm64: dts: ti: Add TQ-Systems TQMa64XxL SoM and MBaX4XxL carrier board Device Trees
-5e52cf6bf3c7216de1ee4a74ee002cb99b3f6c11 arm64: dts: ti: k3-am64-tqma64xxl-mbax4xxl: add SD-card and WLAN overlays
-7a649518c13bc6cbbc83f27eda9d1b05b45fe3ac arm64: dts: ti: k3: Fixup remaining pin group node names for make dtbs checks
-108f61e03963a3a019486fd80cc84d5db5c204d0 arm64: dts: ti: k3-am62: Add MCU MCAN nodes
-7480cea33b4c36aeffe592eb6f151bc9974fee70 arm64: dts: ti: k3-am625-verdin: enable CAN_2
-5a5cf3bdda04fe72440aa837c9451410d62ffa2f arm64: dts: ti: k3-am62a7-sk: Enable dual role support for Type-C port
-b9d801dbb2d5cb796dce32ffcee63fba83f72841 arm64: dts: ti: k3-am62a: Remove syscon compatible from epwm_tbclk
-a57ba56bca42fa484bec916f7a88a3dc03d6cbdf arm64: dts: ti: k3-am64: Merge the two main_conf nodes
-f6a5b651144096bfccda41b62861a7dde87ec287 arm64: dts: ti: k3: Fix epwm_tbclk node name to generic name
-a1f62d114c8ce64d1273c308228b43de8bf45171 arm64: dts: ti: k3-j721s2-main: Add DSS node
-dfe5ccf2359f70d36bf7e64711a46fbff2126ca8 arm64: dts: ti: k3-am68-sk-base-board: Add HDMI support
-a70d179e6a420a1699ce61b82fb51f66663f4e5e arm64: dts: imx8dxl-evk: Remove 'fsl,spi-num-chipselects'
-aca26870217b14f6ccc5a4b5c9d16879756a5ed0 arm64: dts: imx8mm-phyboard-polis-rdk: Remove 'fsl,spi-num-chipselects'
-14735186723134cf89723799964ad1847032ec5f ARM: dts: imx6ul-geam: Remove invalid sgtl5000 property
-2be1a91668fad1807fccbecc343c2b49d66f68af ARM: dts: nxp: mxs: split interrupts per cells
-d54bcc3a3dc63bb2d8348c2e34e24bbb48fa1c22 ARM: dts: imx: Pass #sound-dai-cells to sgtl5000
-4b4c822e9dfb3bbd2a578fd9b12f84129d435900 ARM: dts: imx: Remove 'compatible' from the pfuze nodes
-fcf7ff67a2aa6d8055b9b815ad8a28a5231afa1e arm64: dts: ls1028a: add l1 and l2 cache info
-5b5e1cd017a52765532428f22233c68bdadcd93d dt-bindings: arm: fsl: add TQ-Systems LS1021A board
-23052b3be71a5eb2899d0aaabd9fabf0b2391a1a ARM: dts: ls1021a: add TQ-Systems MBLS102xA device tree
-d0586f4d1b1790a965dbf89b7c5cbe3d8502bba5 ARM: dts: ls1021a: add TQMLS1021A flash partition layout
-ea99c5bb7bc51751180f70822636b6a022bccafa ARM: dts: imx6q-cm-fx6: Remove invalid SPI flash entry
-e14f56a6e7226e931026fb204e172aec53015a0c ARM: dts: imx50-evk: Use generic node name for SPI NOR flash
-d18d74dece543588f4f6d5b24e341835df3095b9 ARM: dts: imx53-smd: Remove invalid SPI flash entry
-042932ba7e3ea35b06553ac36b7bb66f7999b494 ARM: dts: vfxxx: Pass 'mmc' as the esdhc node names
-dad2a2fb1bcfc1d1ec9ab1fb999d87689788bb28 ARM: dts: imx6q-prti6q: Fix the SDIO wifi node
-ebb8dbec1074fc97aca337f30d387d9e8df2f458 arm64: dts: imx: Pass a single BD71847 clock entry
-43df69fc076d783d0f2882d40967206df8ecb0b2 arm64: dts: imx8mm-emcon: Fix the regulator names
-874958916844d09f3844d58ebe52f2847963dfeb arm64: dts: freescale: verdin-imx8mp: dahlia: add sound card
-b8e4498ffe3ec62ca4486c4ed5c6bba4f594ccd5 arm64: dts: freescale: verdin-imx8mp: dev: add sound card
-a0592af49737dfadd0bfcd896dccd34403fdfdd2 arm64: dts: ti: k3-am62a7: Add MCU MCAN nodes
-f10f836ccfea21ae3ad3066eb9576625f1acdea2 arm64: dts: ti: k3-j784s4-evm: Correct Pin mux offset for ospi
-06c4e7aa4af0682910ea52d7c23d85f59ea7dcc6 arm64: dts: ti: k3-j721s2: correct pinmux offset for ospi
-6111ac92f93415eaa680e7ef43ee4fa78b1eb7f2 arm64: dts: ti: k3-am62: Enable AUDIO_REFCLKx
-0bf6d62cb5173d85113f4f759cad3191845e15fa arm64: dts: ti: verdin-am62: Set I2S_1 MCLK rate
-c90658201cbeb7aae072ab3da4e255f47d9e25b3 arm64: dts: ti: verdin-am62: dev: add sound card
-f5bf894c865b26ea8ec43186e87bb08d092b6fa1 arm64: dts: ti: verdin-am62: dahlia: add sound card
-7dafcfa79cc98222a37d9f182e5840b6719d92a5 riscv: dts: starfive: enable DCDC1&ALDO4 node in axp15060
-b127dbf9e1ebbfbcded4b339a5d37c066ef98c1c riscv: dts: starfive: Add mmc nodes on VisionFive 2 board
-e2c07765e179d0849326d4e1bd62ef8ba3d3cfd1 riscv: dts: starfive - Add crypto and DMA node for JH7110
-87ddf5b1096467d24584ea61de0580776722d961 riscv: dts: starfive - Add hwrng node for JH7110 SoC
-8be3ac2d8bd77bb9cb9ddbb7a545decf9f5e4181 arm64: dts: ti: k3-j784s4-evm: Correct Pin mux offset for ADC
-4f1e869915b7a8c48a0501ad0b102002013a7b7a dt-bindings: soc: ti: k3-ringacc: Describe cfg reg region
-702110c2be999c1ad354ca6e14e8583ebcea2462 arm64: dts: ti: k3: Add cfg reg region to ringacc node
-05a1f130101e7a49ff1e8734939facd43596ea26 arm64: dts: ti: k3-j784s4: Fix interrupt ranges for wkup & main gpio
-6fbd1310f99fc95d063b64d42addf701309663d6 arm64: dts: ti: k3-j721e: Enable SDHCI nodes at the board level
-013b7dd32c75ad3db218aa7a2d63f541304ac3b6 arm64: dts: ti: k3-j7200: Enable SDHCI nodes at the board level
-5f715be31638b62de560acab7fdc7ff3d9e01bf9 arm64: dts: ti: k3-j721s2: Enable SDHCI nodes at the board level
-46d0c519e44bf31f45dd0a62654c75cae76215b8 arm64: dts: ti: k3-am65: Enable OSPI nodes at the board level
-73676c480b7286cb528170de73a7c03e19a5ade2 arm64: dts: ti: k3-j721e: Enable OSPI nodes at the board level
-1a576c89168422b0658f7831d6e1bad63252eaea arm64: dts: ti: k3-j7200: Enable OSPI nodes at the board level
-cd9f6b324277d324ae056ffd8dda6287bcb649ab arm64: dts: ti: k3-am64: Enable OSPI nodes at the board level
-8757108b59e1490062d3c6a55ceccbafbee50e35 arm64: dts: ti: k3-j721e: Enable GPIO nodes at the board level
-578bf4d09ef5d6e6707682ef0ae9d954ef77b8fb arm64: dts: ti: k3-j721s2: Enable GPIO nodes at the board level
-d9fe476d39f62719adb805fc8c5668a3e21570d0 arm64: dts: ti: k3-j7200: Enable GPIO nodes at the board level
-a5a4cddad9ff71c55494328d0e39f051fe5905c2 arm64: dts: ti: k3-j721e: Enable TSCADC nodes at the board level
-1228242df12ec1b7cd099c8e57a35940f32b89c3 arm64: dts: ti: k3-am65: Enable TSCADC nodes at the board level
-bcd8a3f28ad6baec7f4d8cbb0fe7cbaf6e351567 arm64: dts: ti: k3-am64: Enable TSCADC nodes at the board level
-8ea3fc2bea6bccaa18e21febdcd311566a078612 arm64: dts: ti: k3-*: fix fss node dtbs check warnings
-35dba715971733d5fdfd98f4772ccc679d4989c2 arm64: dts: ti: k3-j721e: Enable C7x DSP nodes at the board level
-c23b203b929f22fb22f2b07c1e5d658a7d455263 arm64: dts: ti: k3-j784s4: Enable C7x DSP nodes at the board level
-00ae4c39cd16ef8b1662c5915dda08eb28eed762 arm64: dts: ti: k3-j721e: Enable C6x DSP nodes at the board level
-65344b9bed3a497b912ae840df001eeecf0bc711 arm64: dts: imx8mp-evk: Add HDMI support
-e4f7fbf7e84f6b528f0d4c03207c2e8c3ffe752f arm64: dts: imx8m-venice: Pass "brcm,bcm4329-fmac"
-8b200238fb99d84f3351b6446ef21f85269817eb arm64: dts: imx8mp-msc-sm2s-ep1: Remove invalid sgtl5000 property
-9e7bb0af7b6159ff2bb101b5823ffaa38a730ef5 arm64: dts: imx8mp-debix-model-a: Remove invalid rtc property
-574e4099d787c2eb41a43f14c453e422515bf658 arm64: dts: imx8mp-debix: remove unused fec pinctrl node
-21baf0b47f81ba14284a1ceab6f138c0dd902429 arm64: dts: freescale: Add DEBIX SOM A and SOM A I/O Board support
-2305c4bf6ac1509a11309c2b1ed038bdc25d0931 dt-bindings: arm: fsl: fix DEBIX binding
-8b7b6038059e87485d03f0c853db99042fcf6e97 dt-bindings: arm: Add Polyhex DEBIX SOM A based boards
-bdbae4c1b4648776a3a18a8e7394819d574e0f08 arm64: dts: imx8m-beacon-kit: Remove extra sound-sai entry
-e679132a317fc6d6c6247e5bbff434b04b2e789d ARM: dts: imx6dl-b1x5pv2: Fix simple-audio routing property
-252810133db7a7670b3ac954d22a39e07b4f23f1 arm64: dts: imx8mm-emcon: Remove iomuxc pinctrl-names
-461b487e6506c00966c54e3af4c5e71dd1f62735 arm64: dts: imx8mm-beacon-baseboard: Remove usbotg2 pinctrl-names
-73387da70f9c26b6fba4f62371d013cce14663d9 arm64: dts: ti: k3-am62x-sk-common: Update main-i2c1 frequency
-8ccc1073c7bb2ae9654529a75f85ef23b7215c9b arm64: dts: ti: k3-am62-main: Add node for DSS
-db6e8237cf5435e972ea47632e5d8ac3e356f210 arm64: dts: ti: k3-am62x-sk-common: Add HDMI support
-b50ccab9e07ca19d49a0d629dfbe184e6975be22 arm64: dts: ti: am62x-sk: Add overlay for HDMI audio
-1f7226a5e52cb8b90771cefc29077f9ce13a3c90 arm64: dts: ti: k3-am625-beagleplay: Add HDMI support
-3a4086985696295577c20ae558f99d974067e316 arm64: dts: ti: k3-j784s4: Add phase tags marking
-c74d8de338a553da7b0084bab2554b042375625e arm64: dts: ti: k3-j784s4-evm: Add phase tags marking
-68501d3cc16a7828b05ee24bdb037f697e207854 arm64: dts: ti: k3-am69-sk: Add phase tags marking
-b57fc5cbdbdfd04d44697800a9d59aeb3be2f273 dt-bindings: arm: ti: Add bindings for AM62P5 SoCs
-29075cc09f43a024d962da66d2e4f9eb577713d0 arm64: dts: ti: Introduce AM62P5 family of SoCs
-935c4047d42e53a06ec768ddc495a44f6869209c arm64: dts: ti: Add support for the AM62P5 Starter Kit
-ce0bc19e504276f80ba2c20da458ff507f666b52 ARM: dts: imx6ul: mba6ulx: Fix stmpe811 node warnings
-1d6500cd39f11de616540c13eb3dd08903380f59 ARM: dts: imx6ul: Fix nand-controller #size-cells
-db92a8d917c7d959584cc15f838a134c1b115915 ARM: dts: imx6qdl: mba6: Fix gpio-keys button node names
-74cec60c0e30b1d3184d2729457a8af0dd76d6a1 arm64: dts: imx8mq-librem5-devkit: Mark buck2 as always on
-60ac8a775a9147867a9d222d970ab2ca158dc23a arm64: dts: imx8mq-librem5-devkit: Drop power-supply
-f05af44f691351bfd954f39ec376666dc5e1b869 riscv: dts: allwinner: d1: Add CAN controller nodes
-f331eb1f5454123f3cec51c18a3d86c2a53bddb9 riscv: dts: starfive: jh7110: Fix GMAC configuration
-9e77200356badfda6cec99e37be55fa940f83c7d arm64: dts: ti: verdin-am62: Add DSI display support
-ba817911855ce2ac3fd2a618aced1ce937353abe Merge tag 'riscv-dt-for-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/dt
-d02dbab12b332a056d77e701f8962a0eafd25b41 Merge tag 'sunxi-dt-for-6.6-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
-1d9140d2af8bcbd0551d483d6b5b5d6154a122e7 Merge tag 'imx-bindings-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/dt
-a5c3378290dd8a3e352079b865cf45044fd54ef8 Merge tag 'imx-dt-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/dt
-f0df584ffad1fc24edc55e954a3abd42ea5a49c2 Merge tag 'imx-dt64-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/dt
-99355a235a4761a35f6a1463b816480662c2f67f Merge tag 'ti-k3-dt-for-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
-1298d0dd31b2d78b352ff59999a0057bd8c891f7 Merge tag 'dt64-cleanup-6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt into soc/dt
-
---===============3664481637539937633==--
+--===============3548737041190818991==--
