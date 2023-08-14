@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 14 Aug 2023 09:44:57 -0000
-Message-Id: <169200629730.6751.1524651693345627129@gitolite.kernel.org>
+Date: Mon, 14 Aug 2023 09:46:11 -0000
+Message-Id: <169200637106.8912.9433099125468516054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,11 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: b3e5d5a861efe64189d01ab45a5adab81fe9af8c
-    new: f41511b034a5c5026fcb72da0ad467e10ab0e67d
+    old: f41511b034a5c5026fcb72da0ad467e10ab0e67d
+    new: 80ecf59d891b05ea43086a0b45aa5ffe8b92aca6
     log: |
-         9ac6678b95b0dd9458a7a6869f46e51cd55a1d84 HID: wacom: remove the battery when the EKR is off
-         2834e38048f1ef9bd7473fbc33e8266ad7a24fcb HID: wacom: remove unnecessary 'connected' variable from EKR
-         55ab9b2c42f4ce34264213b608889c9fcbdf392f HID: wacom: struct name cleanup
-         f41511b034a5c5026fcb72da0ad467e10ab0e67d Merge branch 'for-6.6/wacom' into for-next
+         cb818a047f2b95f3d9e08568ff7f8f513832ff2f HID: nvidia-shield: Remove led_classdev_unregister in thunderstrike_create
+         3ab196f882377ed5c2a946cf9f7ede8be4727f44 HID: nvidia-shield: Add battery support for Thunderstrike
+         77fe1fed4741b14ccf5abf19dc794cc5928c1ac8 HID: nvidia-shield: Update Thunderstrike LED instance name to use id
+         80ecf59d891b05ea43086a0b45aa5ffe8b92aca6 Merge branch 'for-6.6/nvidia' into for-next
          
-  - ref: refs/heads/for-6.6/nvidia
-    old: 0000000000000000000000000000000000000000
-    new: 77fe1fed4741b14ccf5abf19dc794cc5928c1ac8
-  - ref: refs/heads/for-6.6/wacom
-    old: 0000000000000000000000000000000000000000
-    new: 55ab9b2c42f4ce34264213b608889c9fcbdf392f
