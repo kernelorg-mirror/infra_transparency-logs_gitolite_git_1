@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 14 Aug 2023 16:27:39 -0000
-Message-Id: <169203045922.11080.14280903763189555199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 14 Aug 2023 16:32:11 -0000
+Message-Id: <169203073149.14393.5303502891962650189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/k3/drivers
-    old: 0000000000000000000000000000000000000000
-    new: 443012dd31e5939cb53bc9c5713d32d87321b0d8
+  - ref: refs/heads/kdevops
+    old: c0a71cf5cf930c1b8e3163b0d07a8b883ad977c0
+    new: 6f25d310323bd7d6b5443cb2bb7c1d81d87e76f6
+    log: |
+         6f25d310323bd7d6b5443cb2bb7c1d81d87e76f6 sunrpc: set the bv_offset of first bvec in svc_tcp_sendmsg
+         
