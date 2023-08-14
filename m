@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 14 Aug 2023 23:14:46 -0000
-Message-Id: <169205488645.19261.4976787245584360361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 14 Aug 2023 23:25:05 -0000
+Message-Id: <169205550525.27789.15749388930879240136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 1de748e6477be3ac4e34f276faa6710277a31d71
-    new: bcb2bc9dae1bbf6922f4169dcfa2676f5cc75a4e
+  - ref: refs/heads/for-next
+    old: c157fd88619946cd62af47c45214c479749dad8d
+    new: 23a1b46f15d57583927742738579363f179942b1
     log: |
-         ed7ca2d7713929bf9d011bf36c794837713cb25d foo
-         53f63d86f464ee29df02bab1ce283a7b28be5643 foo
-         bcb2bc9dae1bbf6922f4169dcfa2676f5cc75a4e foo
+         23a1b46f15d57583927742738579363f179942b1 iommufd/selftest: Make the mock iommu driver into a real driver
          
