@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 14 Aug 2023 16:43:59 -0000
-Message-Id: <169203143903.23663.9395858892460017318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 14 Aug 2023 16:44:15 -0000
+Message-Id: <169203145529.23827.5135965103813501158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/drivers/memory
-    old: 0000000000000000000000000000000000000000
-    new: 35bd78cf252245f11dd1c9d5f1b414c25e727b5a
+  - ref: refs/heads/for-next
+    old: 811915db674f8daf19bb4fcb67da9017235ce26d
+    new: 83a89c4b6ae93481d3f618aba6a29d89208d26ed
+    log: |
+         83a89c4b6ae93481d3f618aba6a29d89208d26ed selftests/bpf: Clean up fmod_ret in bench_rename test script
+         
