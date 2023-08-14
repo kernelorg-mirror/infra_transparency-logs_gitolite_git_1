@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3012419501466827064=="
+Content-Type: multipart/mixed; boundary="===============7805073226367029668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Aug 2023 11:33:09 -0000
-Message-Id: <169201278930.21630.14383391398171350080@gitolite.kernel.org>
+Date: Mon, 14 Aug 2023 11:33:39 -0000
+Message-Id: <169201281965.21886.17500620122911225731@gitolite.kernel.org>
 
---===============3012419501466827064==
+--===============7805073226367029668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: f84290f7d5265e88bf4145d5be1dbc8ea4a6b9cf
-    new: 442a3d4bbb94d7f6de9874a9ddc5af8fb7fd9df4
-    log: revlist-f84290f7d526-442a3d4bbb94.txt
+  - ref: refs/heads/m68k-queue
+    old: 429bf268138c067486b5ca914e2de6cc5ed43555
+    new: 4ae1cddfcc598dfba0db3a0c90d9c8205c767012
+    log: revlist-429bf268138c-4ae1cddfcc59.txt
 
---===============3012419501466827064==
+--===============7805073226367029668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f84290f7d526-442a3d4bbb94.txt
+Content-Disposition: attachment; filename=revlist-429bf268138c-4ae1cddfcc59.txt
 
 9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
 d8630f050d3fd2079f8617dd6c00c6509109c755 interconnect: qcom: Add support for mask-based BCMs
@@ -414,6 +414,8 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 3dcf1473c711be5536321fa4d465b9ed9e42a0ce Merge tag 'platform-drivers-x86-v6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
-442a3d4bbb94d7f6de9874a9ddc5af8fb7fd9df4 Merge tag 'v6.5-rc6'
+d494353ae37654cf1ddcfe850dd35e6cc4437e67 m68k: atari: usb: Add ISP1160 USB host controller support
+6219dd3e9fee15fa370f08fc0a194d7db1310e22 m68k: atari: Update Kconfig.bus help text
+4ae1cddfcc598dfba0db3a0c90d9c8205c767012 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3012419501466827064==--
+--===============7805073226367029668==--
