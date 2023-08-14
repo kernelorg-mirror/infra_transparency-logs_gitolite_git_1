@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4771550772628583886=="
+Content-Type: multipart/mixed; boundary="===============5235995133203352000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 14 Aug 2023 11:47:00 -0000
-Message-Id: <169201362064.780.13183689480501002391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 14 Aug 2023 11:47:26 -0000
+Message-Id: <169201364676.1002.6438407786318220827@gitolite.kernel.org>
 
---===============4771550772628583886==
+--===============5235995133203352000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
     log: revlist-52a93d39b17d-2ccdd1b13c59.txt
 
---===============4771550772628583886==
+--===============5235995133203352000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -415,4 +415,4 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
 
---===============4771550772628583886==--
+--===============5235995133203352000==--
