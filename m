@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0758168226276281484=="
+Content-Type: multipart/mixed; boundary="===============3385987030789090974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Aug 2023 00:32:50 -0000
-Message-Id: <169197317032.4365.6098129056319891892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Aug 2023 00:32:58 -0000
+Message-Id: <169197317842.4507.13173028707675016620@gitolite.kernel.org>
 
---===============0758168226276281484==
+--===============3385987030789090974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: c1f848f12103920ca165758aedb1c10904e193e1
     new: 37aba3190891d4de189bd5192ee95220e295f34d
     log: |
          37aba3190891d4de189bd5192ee95220e295f34d ASoC: rt1308-sdw: fix random louder sound
          
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 061599c8285848fe4ec64becb278dcdd60dd3369
     new: 85cc1ee9505e0b458254a54ca053dabf650fd266
     log: revlist-061599c82858-85cc1ee9505e.txt
 
---===============0758168226276281484==
+--===============3385987030789090974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1691973168 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1691973167-7593583aed7b609e472fa80b6604714c79efa834
+pusher Mark Brown <broonie@kernel.org> 1691973176 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1691973175-4879e52a218bd0d42d75d9badaf07a82ecf1238d
 
-c1f848f12103920ca165758aedb1c10904e193e1 37aba3190891d4de189bd5192ee95220e295f34d refs/heads/for-6.5
-061599c8285848fe4ec64becb278dcdd60dd3369 85cc1ee9505e0b458254a54ca053dabf650fd266 refs/heads/for-6.6
+c1f848f12103920ca165758aedb1c10904e193e1 37aba3190891d4de189bd5192ee95220e295f34d refs/heads/asoc-6.5
+061599c8285848fe4ec64becb278dcdd60dd3369 85cc1ee9505e0b458254a54ca053dabf650fd266 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTZdjATHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0ON9B/4lSpqlL9nbrJXQDhLMNE69IohnjwgR
-qleoi7VN9i1S3QCqHq+U4rGa0lDlvl2Yfk8EFYzwcN63fTDnBMWV26qqnirrZUkq
-0X5tyHLaa3asAayAqv8uuYl7OzVFjAHup5HVZAlVRgYrsligmBRo5lC9PQcOQVCz
-L8eCodaKMr5vl0nKddvLmxUUSgAtJSxvORfT5hMi9ZF71ACddmHJ0KvNuFKzrETM
-s2IOoAsO+/yfq16GyFsU8MO20McYB2HAkfRNAU0ralfAqsphCRgVh5HV+iqF47IW
-qqPRLwfiH3GLyjwjno94/4lsiBqLuMJ51fEwXp1L3V8xfrMDx5KsbAlr
-=tQML
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTZdjgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0MsrB/99Wjs+0wxAe4XZ099FFqn2+MZ7vEuO
+vlFVtYqrDu7eUc+UTAaoeToQlLho0frirBxPqu0jkBkPH+yJ1ezL4ysEA30aepL9
+aNF/2AWdLGkzsQSqHzmvf5eOlqjkZM1qSOxuHpgNwsGky1jXGpwLEh8V+78rxyjE
+J/SZXEMyLgVpusBPfUDItFsnMBH7ce35Vnm33h4DfQn8MXAJWPROC1Z7XbTj7HrQ
+wftOGW5ZaXlD+g9oIpLnViQS5BXUDR2HDHumH5QOejx+s6a1JuWXkeheYSIxUqLt
++R7SEkeh0Fn6/WkGxevlbiF4rYV2QzPDh06KH0F/VDF0b/XgwS4G6dB2
+=4s/y
 -----END PGP SIGNATURE-----
 
---===============0758168226276281484==
+--===============3385987030789090974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ b72a4dc2bede787221a4b1b2e3860f6725f109b5 ASoC: rt5660: Drop GPIO includes
 690f5c8d6a73189e09bc1b72e8e754d97ba98f8d sound: Remove redundant of_match_ptr() macro
 85cc1ee9505e0b458254a54ca053dabf650fd266 ASoC: rt: Drop unused GPIO includes
 
---===============0758168226276281484==--
+--===============3385987030789090974==--
