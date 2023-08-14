@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3266007526452646412=="
+Content-Type: multipart/mixed; boundary="===============6823046048782125132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Mon, 14 Aug 2023 10:08:28 -0000
-Message-Id: <169200770859.25135.12838246511489541731@gitolite.kernel.org>
+Date: Mon, 14 Aug 2023 10:08:48 -0000
+Message-Id: <169200772895.25307.2936914775468939513@gitolite.kernel.org>
 
---===============3266007526452646412==
+--===============6823046048782125132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 2deed4cda3b76bcb8be2533f5bd07803b1bfa452
     new: 72d00e560d10665e6139c9431956a87ded6e9880
     log: revlist-2deed4cda3b7-72d00e560d10.txt
 
---===============3266007526452646412==
+--===============6823046048782125132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b8a06b125c245eb946d88847e052294a85b206c3 clk: imx25: print silicon revision duri
 37cfd5e457cbdcd030f378127ff2d62776f641e7 clk: imx: pll14xx: align pdiv with reference manual
 72d00e560d10665e6139c9431956a87ded6e9880 clk: imx: pll14xx: dynamically configure PLL for 393216000/361267200Hz
 
---===============3266007526452646412==--
+--===============6823046048782125132==--
