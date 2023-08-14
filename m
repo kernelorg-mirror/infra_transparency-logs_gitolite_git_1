@@ -1,63 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3385987030789090974=="
+Content-Type: multipart/mixed; boundary="===============6141288784138705169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 14 Aug 2023 00:32:58 -0000
-Message-Id: <169197317842.4507.13173028707675016620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 14 Aug 2023 00:33:09 -0000
+Message-Id: <169197318926.4627.6456476909620389274@gitolite.kernel.org>
 
---===============3385987030789090974==
+--===============6141288784138705169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.5
-    old: c1f848f12103920ca165758aedb1c10904e193e1
-    new: 37aba3190891d4de189bd5192ee95220e295f34d
+  - ref: refs/heads/for-linus
+    old: 7c0f3e9439f64b511fd2505e1811a99701738448
+    new: e0179ef5b50680d5701ac28e6cf8933424649bc1
     log: |
          37aba3190891d4de189bd5192ee95220e295f34d ASoC: rt1308-sdw: fix random louder sound
+         e0179ef5b50680d5701ac28e6cf8933424649bc1 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
          
-  - ref: refs/heads/asoc-6.6
-    old: 061599c8285848fe4ec64becb278dcdd60dd3369
-    new: 85cc1ee9505e0b458254a54ca053dabf650fd266
-    log: revlist-061599c82858-85cc1ee9505e.txt
+  - ref: refs/heads/for-next
+    old: d0eeded0d3535a569c015cd4b370a7fedf8fb69e
+    new: b51f57bbf80f1c56f0bb9ae12b1e4fa6a4b3d054
+    log: revlist-d0eeded0d353-b51f57bbf80f.txt
 
---===============3385987030789090974==
+--===============6141288784138705169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d0eeded0d353-b51f57bbf80f.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1691973176 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1691973175-4879e52a218bd0d42d75d9badaf07a82ecf1238d
-
-c1f848f12103920ca165758aedb1c10904e193e1 37aba3190891d4de189bd5192ee95220e295f34d refs/heads/asoc-6.5
-061599c8285848fe4ec64becb278dcdd60dd3369 85cc1ee9505e0b458254a54ca053dabf650fd266 refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTZdjgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0MsrB/99Wjs+0wxAe4XZ099FFqn2+MZ7vEuO
-vlFVtYqrDu7eUc+UTAaoeToQlLho0frirBxPqu0jkBkPH+yJ1ezL4ysEA30aepL9
-aNF/2AWdLGkzsQSqHzmvf5eOlqjkZM1qSOxuHpgNwsGky1jXGpwLEh8V+78rxyjE
-J/SZXEMyLgVpusBPfUDItFsnMBH7ce35Vnm33h4DfQn8MXAJWPROC1Z7XbTj7HrQ
-wftOGW5ZaXlD+g9oIpLnViQS5BXUDR2HDHumH5QOejx+s6a1JuWXkeheYSIxUqLt
-+R7SEkeh0Fn6/WkGxevlbiF4rYV2QzPDh06KH0F/VDF0b/XgwS4G6dB2
-=4s/y
------END PGP SIGNATURE-----
-
---===============3385987030789090974==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-061599c82858-85cc1ee9505e.txt
-
+37aba3190891d4de189bd5192ee95220e295f34d ASoC: rt1308-sdw: fix random louder sound
 bb6979c5ac592e11b456da728f645c9bea965489 ASoC: q6dsp: Remove unused declaration
 8acf4de30668a5a1517f99f26df31d57593a548e ASoC: cygnus: Remove unused declarations
 67ed781228bdcca7a0d2058cf62d0c1860898330 ASoC: atmel: Remove redundant of_match_ptr()
@@ -81,5 +57,7 @@ b72a4dc2bede787221a4b1b2e3860f6725f109b5 ASoC: rt5660: Drop GPIO includes
 797df2a670c336500cdea482f404a24b45b28f45 ASoC: rt715: Drop GPIO includes
 690f5c8d6a73189e09bc1b72e8e754d97ba98f8d sound: Remove redundant of_match_ptr() macro
 85cc1ee9505e0b458254a54ca053dabf650fd266 ASoC: rt: Drop unused GPIO includes
+e0179ef5b50680d5701ac28e6cf8933424649bc1 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+b51f57bbf80f1c56f0bb9ae12b1e4fa6a4b3d054 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
---===============3385987030789090974==--
+--===============6141288784138705169==--
