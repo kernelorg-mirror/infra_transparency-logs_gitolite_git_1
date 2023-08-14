@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 14 Aug 2023 09:13:01 -0000
-Message-Id: <169200438179.1792.3037976920902864339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 14 Aug 2023 09:13:15 -0000
+Message-Id: <169200439553.1968.17076600878871216642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/x86/urgent
-    old: ba5ca5e5e6a1d55923e88b4a83da452166f5560e
-    new: f58d6fbcb7c848b7f2469be339bc571f2e9d245b
+  - ref: refs/heads/for-next
+    old: e72c6bb7fe1c3ddbb928c2da15750e01d53070b1
+    new: 74f975978e95abdb5c1ed304be2dc239b723d072
     log: |
-         f58d6fbcb7c848b7f2469be339bc571f2e9d245b x86/CPU/AMD: Fix the DIV(0) initial fix attempt
+         666cf30a589a00d89c3775e27a698a2370cbe3db HID: sensor-hub: Allow multi-function sensor devices
+         74f975978e95abdb5c1ed304be2dc239b723d072 Merge branch 'for-6.6/sensor-hub' into for-next
          
+  - ref: refs/heads/for-6.6/sensor-hub
+    old: 0000000000000000000000000000000000000000
+    new: 666cf30a589a00d89c3775e27a698a2370cbe3db
