@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7895165373051166250=="
+Content-Type: multipart/mixed; boundary="===============5995376325793337644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 14 Aug 2023 00:06:25 -0000
-Message-Id: <169197158522.17378.1463384981584192516@gitolite.kernel.org>
+Date: Mon, 14 Aug 2023 00:07:44 -0000
+Message-Id: <169197166402.19230.12931363935857133439@gitolite.kernel.org>
 
---===============7895165373051166250==
+--===============5995376325793337644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
-    new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
-    log: revlist-52a93d39b17d-2ccdd1b13c59.txt
+  - ref: refs/heads/nfsd-next
+    old: 140fcaf7e6987ab9fda75c281c3a75384578ba9d
+    new: f5797323270df25ad9a2f3c40107d84bed1f164f
+    log: revlist-140fcaf7e698-f5797323270d.txt
 
---===============7895165373051166250==
+--===============5995376325793337644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52a93d39b17d-2ccdd1b13c59.txt
+Content-Disposition: attachment; filename=revlist-140fcaf7e698-f5797323270d.txt
 
 9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
 d8630f050d3fd2079f8617dd6c00c6509109c755 interconnect: qcom: Add support for mask-based BCMs
@@ -414,5 +414,54 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 3dcf1473c711be5536321fa4d465b9ed9e42a0ce Merge tag 'platform-drivers-x86-v6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
+5f7777bafa09c6e90243731e25ee231d1f48f4cb locks: allow support for write delegation
+a3ee271b68fc57e074cc30dfea6f42d4f12b1198 NFSD: handle GETATTR conflict with write delegation
+83739d7c401dff625a8a1fb3a10eb0a04663e436 NFSD: Report zero space limit for write delegations
+833c97e1bd54397f52bcdf30eda18dafafd26644 NFSD: Enable write delegation support
+c852e94a6ed49272de2580dfe029e79a2fd392db SUNRPC: Remove RPCSEC_GSS_KRB5_ENCTYPES_DES
+b04f5aff03ef2889ddf7ec8260c10fac9c4241c5 SUNRPC: Remove Kunit tests for the DES3 encryption type
+27f660e62929a64c43f21fb68c0ea164df44fc18 SUNRPC: Remove DES and DES3 enctypes from the supported enctypes list
+8cff16432b6df3f0035bfe12e0ca424891bee71a SUNRPC: Remove code behind CONFIG_RPCSEC_GSS_KRB5_SIMPLIFIED
+6ed95b7cf78cb283982d3dd222aad1ecfe6643ae SUNRPC: Remove krb5_derive_key_v1()
+57dadeb350aa0c67b649119181ed0adc8c2dfa7b SUNRPC: Remove gss_import_v1_context()
+72c0e7b1f9ee72ed864384ce71b1908fb85c2006 SUNRPC: Remove CONFIG_RPCSEC_GSS_KRB5_CRYPTOSYSTEM
+2534bf3a98a4b954b607ad58d94da2b959728b3d SUNRPC: Remove the ->import_ctx method
+c851081e44df490371d02dc1a35f0e015e607548 SUNRPC: Remove net/sunrpc/auth_gss/gss_krb5_seqnum.c
+4719c411257b33f8fed04c35c6da3d195e97263b NFSD: Refactor nfsd_reply_cache_free_locked()
+b0acbfaf7ad98ff136534ff6e9c695462aad0d50 NFSD: Rename nfsd_reply_cache_alloc()
+12cb9e8e0f6a7efb0b15ec7eb6e7faf8d78ee5fe NFSD: Replace nfsd_prune_bucket()
+298df051b51b8cb99b9cbc5dbf76bf2b8ede4c36 NFSD: Refactor the duplicate reply cache shrinker
+e34369931a0b215ac305c207b83603c6168c25ec NFSD: Remove svc_rqst::rq_cacherep
+e946f7fbe7020f1edc2e3cc46e35b32e9fcc1cd2 NFSD: Rename struct svc_cacherep
+13fc7db2bfb4f9a3a64ca1b1b384fbf50ac96029 nfsd: add a MODULE_DESCRIPTION
+03eae33a9bac56f4c4c527f5093e2515b6c9e914 nfsd: handle failure to collect pre/post-op attrs more sanely
+89338da417622d9cb56df39ba844a83a267dfa0c nfsd: remove unsafe BUG_ON from set_change_info
+48d98d064f3c1ced9e023e2db3c2ea5c2decc323 nfsd: set missing after_change as before_change + 1
+ac896612fd9aac7a8a3bb6da022b25924d6ef5ee lockd: nlm_blocked list race fixes
+389370729b38c49f0524cf5d456705ab0a0a416c sunrpc: Remove unused extern declarations
+302055f01fe7570af9d46bd81ec6df2bcfaa8888 nfsd: inherit required unset default acls from effective set
+62c25ceb29a6d58f50c6ee8c918141c776f71806 SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
+4a1d8533f7152896c77c39dc8af5d308b5dd5a71 SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
+fd4ece8111f431ff241bffda7276d395a9a6ecec SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
+516fe70ef2b20b0a0b25782433ca499d7f1d5b1c SUNRPC: Revert e0a912e8ddba
+babc98d1a34b787026da8aa5ae81516b37752c25 SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
+ed7e7f749bdb108c9d8438bb7a36e22d6d526ebf exportfs: remove kernel-doc warnings in exportfs
+f01d390744d4b23f85c94bdfc9d8515f79bf7bdf fs: lockd: avoid possible wrong NULL parameter
+570415d7ac1b77cd0cbbe8740ecbc4e38c6e108e lockd: remove SIGKILL handling
+f06b4a40543c5d1f9ff5b2652e0ef6a11374ff8b nfsd: don't allow nfsd threads to be signalled.
+909d6d4510c31e2a82590017d92f781b40432078 nfsd: Simplify code around svc_exit_thread() call in nfsd()
+4b5773330f3adcb3707fed562d3cad7ab6116fc7 nfsd: separate nfsd_last_thread() from nfsd_put()
+d574202cb407322c9d7c68cc32030657803a23b2 SUNRPC: call svc_process() from svc_recv().
+d1b18b6d5a3180c23f77377563492234bb6b5acc SUNRPC: change svc_recv() to return void.
+e93c55ddfd42bfc8117e49ce2355a9852550bbe7 SUNRPC: remove timeout arg from svc_recv()
+2d09895f8fb8c4f0b70a9a54a71d39dd8b6e41f3 SUNRPC: change cache_head.flags bits to enum
+32525716ce4b8fd432b438135fde1281478f53fd SUNRPC: change svc_pool::sp_flags bits to enum
+04490565182fe6e96720762a098fd04fca31d0b9 SUNRPC: change svc_rqst::rq_flags bits to enum
+174ac880ee06a024e8c6bbd9f01da5e5ec5688c1 SUNRPC: change svc_xprt::xpt_flags bits to enum
+0609d8f4852a4d15eb51b7125b553d7376b7bb1e SUNRPC: Add enum svc_auth_status
+95ab4b8829bb66dee1fd85bd4015645564f592c7 SUNRPC: Move trace_svc_xprt_enqueue
+6da7757d2d176c331779daf461e252be89682661 SUNRPC: Deduplicate thread wake-up code
+45338daefb42461490c9e38ce874d1e50ff74ed1 SUNRPC: Count ingress RPC messages per svc_pool
+f5797323270df25ad9a2f3c40107d84bed1f164f SUNRPC: Clean up svc_set_num_threads
 
---===============7895165373051166250==--
+--===============5995376325793337644==--
