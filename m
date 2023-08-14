@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1451272951808351706=="
+Content-Type: multipart/mixed; boundary="===============4771176421336860961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 14 Aug 2023 20:23:13 -0000
-Message-Id: <169204459371.21855.15594081721653270542@gitolite.kernel.org>
+Date: Mon, 14 Aug 2023 20:23:20 -0000
+Message-Id: <169204460000.21939.12702779842671633838@gitolite.kernel.org>
 
---===============1451272951808351706==
+--===============4771176421336860961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: f48585c468f51ac038c2cfaafcd4437bc3746bce
-    new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
-    log: revlist-f48585c468f5-2ccdd1b13c59.txt
+  - ref: refs/heads/usb-next
+    old: 55c3e571d2a0aabef4f1354604443f1c415d2e85
+    new: bbb9e06d2c6435af9c62074ad7048910eeb2e7bc
+    log: revlist-55c3e571d2a0-bbb9e06d2c64.txt
 
---===============1451272951808351706==
+--===============4771176421336860961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692044593 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692044597 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1692044592-cd0cedfcacec4e1a15458e36cb9283c647170ba1
+nonce 1692044597-d92950c1edc3abfc89b9dd7caa0db9cde478399c
 
-f48585c468f51ac038c2cfaafcd4437bc3746bce 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 refs/heads/usb-linus
+55c3e571d2a0aabef4f1354604443f1c415d2e85 bbb9e06d2c6435af9c62074ad7048910eeb2e7bc refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTajTEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bMcP/2ph5oAtWKIjqkZpIiOv
-Tlj6BVgHBiyQ9oGvhOmuG2qqAuLghLHz9o5SQys8Pnxf2lo6AjOtg62FHeI8E3mV
-/MEDzss7+64tkpSaujlxxhPiNi0Dxq5hUADa4NNsauCwYY1wG8XPN/n/Z9qzng2f
-j44pxVrkPUq+Aq2gQ2w9BDT0fTmCbZt32QoDZnkpFfOELZOM2A3I8iofmFMvwjF0
-yltv+Qg2PQVYersS0cxP9MUneax9xnBXuzHuL82Wro0S9zrl9MWxSj/xCajnU0vh
-G/WHAaaligrBgS2txdpls1Ma5I+BGGFvfenqSllf0cidzE8dGb93ZHv213Y6qyag
-N4gGLors3wccjLMZ3rEsZLA9Cz/lqHKWfDWd1u2XVSjnWGKk9u6l+ggux2zIdpib
-fQwHWyK5lekxIj91OtjCoFm7FqsYCleFY9eI2jm5w8aR17Uj2sc0mBWOMc8TGm/m
-qFrLd1Y7LztIJJTrj1GpYWzTS8H65FGGCJnqlZEeQ84PomhK+k+FZvQmBFAjFSL1
-9GfxsFz1PcEfW4EOYb8yUvolxwW7FPV0qHtYMMwT/gvzoW/szSFuV45yvYxOFoPh
-BkiVGVpLJobuw0MRyNHAnAd3M8bu4G2+Cxb7LjGneSdw6VbNdNICLkfev2VwWyoc
-K5nyz/I0rrXfN1bAS198Ou53
-=DNwJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTajTUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FQkP/AkzJgFdRlbtdE+OOFNB
+Ma0IK1qPbEg/atdoncuT/lq0W0woHeNWuEqg1uy2Eib+zgvLy3LT9PvJB4xdBpTO
+4TeIyyIc0RiUPNA8FR3+lyP7y2aVd2Yq7bRpmFMxsv4A55X1W3JMgLYppqQdWT1K
+6Qy8A3p0qCeExzMMwpn/UhWoh/si1j4FvVcwvjAYr6eZ61+2SiP17GysWI2ZZOZt
+qFhg6Kw/sIyL8WauYjlAscfm6h9ldrDjI39oY922e8Hy3JZXxxdsuZl1DYFvIypd
+Do67GqC4Wf5aPVw/bwjc9SxfwicU6upLcyGdFfpJ2aMbqIbQJ7UvhUEr7TpsPLcL
+4HVYgu4jLyIEZgDKg9pBsTUX4kKDIM2D3JtWfc28946UFyWXvhe4rHXYdBd7zrdQ
+CCFc+ncrZsHPqQ2Fm0i9u8Bi6XZtK+dv6A49Nsn2W8NBYdE1peG7QOyHXR2nJCWd
+caXiCAAMrql7KR5Yvy5WHSBQJcJ3vM5bArJVGmmc0cnpPC5gCl0F8O8ouMwJ1k5W
+PGFgE1vtFWoANHVtpUgwi/xT1e5sL4V1ipNX7H/zZjUMrOH7Jk2BkxH8epQQyHWT
+i+JBo87DrfSoWM+yx6c24pz470tIuE+pVbaGQJF8xLsv8W1g3dNomUw+j6+CKHnB
+JZVnuliCJXgjTYHZ1171ijwo
+=QYCW
 -----END PGP SIGNATURE-----
 
---===============1451272951808351706==
+--===============4771176421336860961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f48585c468f5-2ccdd1b13c59.txt
+Content-Disposition: attachment; filename=revlist-55c3e571d2a0-bbb9e06d2c64.txt
 
 9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
 a6fe043880820981f6e4918240f967ea79bb063e Drivers: hv: Change hv_free_hyperv_page() to take void * argument
@@ -331,6 +331,7 @@ a2d9831dab3ea9e2f45f37956d32fbdde6dc7053 Merge branch 'mlx5-ipsec-fixes'
 e9d699af3f65d62cf195f0e7a039400093ab2af2 drm/bridge: it6505: Check power state with it6505->powered in IRQ handler
 1cb9e2ef66d53b020842b18762e30d0eb4384de8 drm/nouveau/gr: enable memory loads on helper invocation on all channels
 e4060dad253352382b20420d8ef98daab24dbc17 drm/nouveau/nvkm/dp: Add workaround to fix DP 1.3+ DPCD issues
+583893a66d731f5da010a3fa38a0460e05f0149b thunderbolt: Fix Thunderbolt 3 display flickering issue on 2nd hot plug onwards
 c2ff2b736c41cc63bb0aaec85cccfead9fbcfe92 parisc/mm: preallocate fixmap page tables at init
 ce9ff57d393db86a34ba3f817d7fb886b7c278dc parisc: pci-dma: remove unused and dead EISA code and comment
 2e1b1d7063a35ab6cf9984f9d5bc29829e1e8788 parport: gsc: remove DMA leftover code
@@ -366,7 +367,16 @@ a592ab6171bd943ce3b988bd271c79fe275a7bec Merge tag 'nvme-6.5-2023-08-02' of git:
 e58f30246c35c126c7571065b33bee4b3b1d2ef8 net: phy: at803x: fix the wol setting functions
 d7791cec2304aea22eb2ada944e4d467302f5bfe net: phy: at803x: remove set/get wol callbacks for AR8032
 1733d0be68ab1b89358a3b0471ef425fd61de7c5 Merge branch 'at803x-wol'
+4270d2b4845e820b274702bfc2a7140f69e4d19d usb: typec: tcpm: Fix response to vsafe0V event
+5a5ccd61cfd76156cb3e0373c300c509d05448ce usb: typec: altmodes/displayport: Signal hpd when configuring pin assignment
+348359e7c232adc153ed7ec9a157f22d68d29860 usb: typec: nb7vpq904m: Add an error handling path in nb7vpq904m_probe()
+ef7c4d8a90c64bac294363c6f67eb98246a162a2 usb: typec: mux: intel: Add dependency on USB_COMMON
+65dadb2beeb7360232b09ebc4585b54475dfee06 USB: Gadget: core: Help prevent panic during UVC unconfigure
+8e21a620c7e6e00347ade1a6ed4967b359eada5a usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
+a6ff6e7a9dd69364547751db0f626a10a6d628d2 usb-storage: alauda: Fix uninit-value in alauda_check_media()
+3ddaa6a274578e23745b7466346fc2650df8f959 usb: dwc3: Properly handle processing of pending events
 ec3041b30133f92cfbce783e02239aa0853f8ab3 Merge tag 'counter-fixes-for-6.5a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
+596a5123cc782d458b057eb3837e66535cd0befa thunderbolt: Fix memory leak in tb_handle_dp_bandwidth_request()
 bb6578bab876f7fb138f5099f833a265b11a60d7 Merge tag 'counter-fixes-for-6.5b' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 63b93e70c862922fedb8d1045e89245bc984a898 Merge tag 'iio-fixes-for-6.5a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 adb9743d6a08778b78d62d16b4230346d3508986 binder: fix memory leak in binder_init()
@@ -493,6 +503,7 @@ ef222f551e7c4e2008fc442ffc9edcd1a7fd8f63 scsi: qedf: Fix firmware halt over susp
 d14eea09edf427fa36bd446f4a3271f99164202f net: core: remove unnecessary frame_sz check in bpf_xdp_adjust_tail()
 2aa71b4b294ee2c3041d085404cea914be9b3225 net: marvell: prestera: fix handling IPv4 routes with nhid
 39163d5479285a36522b6e8f9cc568cc4987db08 x86/vdso: Choose the right GDT_ENTRY_CPUNODE for 32-bit getcpu() on 64-bit kernel
+f48585c468f51ac038c2cfaafcd4437bc3746bce Merge tag 'thunderbolt-for-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 d5712cd22b9cf109fded1b7f178f4c1888c8b84b drm/nouveau/disp: Revert a NULL check inside nouveau_connector_get_modes
 07d698324110339b420deebab7a7805815340b4f wifi: brcm80211: handle params_v1 allocation failure
 6a67fe45fe3fffb0721ba068e21103b94a1e57a0 MAINTAINERS: Update entry for rtl8187
@@ -691,5 +702,6 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 3dcf1473c711be5536321fa4d465b9ed9e42a0ce Merge tag 'platform-drivers-x86-v6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
+bbb9e06d2c6435af9c62074ad7048910eeb2e7bc Merge 6.5-rc6 into usb-next
 
---===============1451272951808351706==--
+--===============4771176421336860961==--
