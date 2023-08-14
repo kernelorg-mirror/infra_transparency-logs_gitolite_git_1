@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 14 Aug 2023 10:35:57 -0000
-Message-Id: <169200935792.12846.6225725686887372826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Mon, 14 Aug 2023 10:48:54 -0000
+Message-Id: <169201013439.21943.8118367262958176354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/master
-    old: 01576f703f820e54602dc11c7f0a1f37ee429740
-    new: d925b426da58fc4c5f8c0f8acab7e6e30611dee5
+  - ref: refs/heads/omap-for-v6.5/fixes
+    old: 27c146e3de9bb2ac31402660ccea43a374701e68
+    new: 7aff940ec88658f7fd21137cf515956a7deaaf54
     log: |
-         d925b426da58fc4c5f8c0f8acab7e6e30611dee5 proc.5: /proc/PID/status: Add Seccomp_filters entry
+         623cef652768860bd5f205fb7b741be278585fba ARM: dts: am335x-bone-common: Add GPIO PHY reset on revision C3 board
+         7aff940ec88658f7fd21137cf515956a7deaaf54 ARM: dts: am335x-bone-common: Add vcc-supply for on-board eeprom
          
