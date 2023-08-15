@@ -1,89 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============8532392020706516216=="
+Content-Type: multipart/mixed; boundary="===============4126560517380336413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 15 Aug 2023 17:02:32 -0000
-Message-Id: <169211895255.5528.4769834413119132495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 15 Aug 2023 17:09:34 -0000
+Message-Id: <169211937412.11003.16868303375888245485@gitolite.kernel.org>
 
---===============8532392020706516216==
+--===============4126560517380336413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/topic-sunrpc-thread-scheduling
-    old: 4fa42add1a79f9dca369c873aaafb200f99852be
-    new: de9d37dc7c0c85a1483cccae3c8b68a3010a4e14
-    log: revlist-4fa42add1a79-de9d37dc7c0c.txt
+  - ref: refs/heads/dev-queue
+    old: 98c590d396536f0e0f770d8b4d82522c934c1c7b
+    new: 361b86237e1afbf2c3be7cb604b6aac6f8b8c38c
+    log: revlist-98c590d39653-361b86237e1a.txt
 
---===============8532392020706516216==
+--===============4126560517380336413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fa42add1a79-de9d37dc7c0c.txt
+Content-Disposition: attachment; filename=revlist-98c590d39653-361b86237e1a.txt
 
-7f55e3c57a81fd6968a3ad79c5f3b8ba4f7af0f9 sunrpc: set the bv_offset of first bvec in svc_tcp_sendmsg
-2910c5203a9e49d390e515abbdf2849e9f2ddb4d locks: allow support for write delegation
-dbb11045a52ef26b3c16ee5b9e0fd83568db9236 NFSD: handle GETATTR conflict with write delegation
-cb3d338affed4899714c758aff8899cf18db5d28 NFSD: Report zero space limit for write delegations
-66ce3e3b98a7a9e970ea463a7f7dc0575c0a244b NFSD: Enable write delegation support
-fcd10cd69236c28755d59093211b1224c2afeb1e SUNRPC: Remove RPCSEC_GSS_KRB5_ENCTYPES_DES
-12a10b2eb9c4e12447f859c958f9c576452b06c0 SUNRPC: Remove Kunit tests for the DES3 encryption type
-def6e77e3fc2278c149c0f91cf6f82576f7aab15 SUNRPC: Remove DES and DES3 enctypes from the supported enctypes list
-82066d8b55324432c3c13bc0d2bdcad0b3a0733d SUNRPC: Remove code behind CONFIG_RPCSEC_GSS_KRB5_SIMPLIFIED
-671b9441d494579fc50fad3a78e759d91e67712f SUNRPC: Remove krb5_derive_key_v1()
-147418e63b43d768ad108e3ffeada4a95a9836a0 SUNRPC: Remove gss_import_v1_context()
-5e9b92200394d8790652a8fbab870abc1d7563ff SUNRPC: Remove CONFIG_RPCSEC_GSS_KRB5_CRYPTOSYSTEM
-191a9e93abe6e30279bf0c349e0bf82a601f2a1b SUNRPC: Remove the ->import_ctx method
-ad69715936dac2df540326918a2669aaf719ed10 SUNRPC: Remove net/sunrpc/auth_gss/gss_krb5_seqnum.c
-778e7f5e4dd3b106fc90c14b4a47670a1d76b300 NFSD: Refactor nfsd_reply_cache_free_locked()
-e980f82166a3f50352611a4bb69c3462be979198 NFSD: Rename nfsd_reply_cache_alloc()
-467ddd3cec4568e16c00d226b00bbba28610f80b NFSD: Replace nfsd_prune_bucket()
-aba710da0a7ff60e96ccbbebf663cf96122c22e6 NFSD: Refactor the duplicate reply cache shrinker
-f5508df68144558dbd42a6104e7f5da92a6b7881 NFSD: Remove svc_rqst::rq_cacherep
-82d4c41889962ad2093cfa66e0cae47c3166afc9 NFSD: Rename struct svc_cacherep
-5b3bebb42ea92fe51d6450c2e619bc17ab5b37f1 nfsd: add a MODULE_DESCRIPTION
-04b6960a4dcdf81f2290a2451c54d0e6d8720e1d nfsd: handle failure to collect pre/post-op attrs more sanely
-bed549ad1edd9e29bca0e68412c5e5299e9cd5a0 nfsd: remove unsafe BUG_ON from set_change_info
-3c666b3078fdd57feeec40b6d51a307053e0caf9 nfsd: set missing after_change as before_change + 1
-e8655cb548391663da07409fbdbc51677801f3e0 lockd: nlm_blocked list race fixes
-17916ea3ee670f79c7ab1594b7ace567b9878c77 sunrpc: Remove unused extern declarations
-a22fb7261631bf7fbd6000504cab02c1d16395c1 nfsd: inherit required unset default acls from effective set
-383bc8bbc3e61d185ff8082cad2da831f158be4a SUNRPC: Convert svc_tcp_sendmsg to use bio_vecs directly
-ebeeba35c3cbcd046c20b173cfc904abdea23a3c SUNRPC: Send RPC message on TCP with a single sock_sendmsg() call
-e1848554c2385976c69d7b4f71b0f6e9fe67ceb9 SUNRPC: Convert svc_udp_sendto() to use the per-socket bio_vec array
-5aa1f89eb2f82019d77a5c49675cfec5239cdd3b SUNRPC: Revert e0a912e8ddba
-0e3c5cc422d9584294b0e9c1a87bdfb6d7026e73 SUNRPC: Reduce thread wake-up rate when receiving large RPC messages
-250e26e5fa7b9e9104360ec7d953a2cdffe50089 exportfs: remove kernel-doc warnings in exportfs
-6a04e429b48e268ce1bc829a03caba3a757df2a0 fs: lockd: avoid possible wrong NULL parameter
-c65d4c8d88f0be1cbda69e9f7cf6c1368cb9223e lockd: remove SIGKILL handling
-c0ae4d3efe6d9b552242e988726a1ca1e8d7ca0f nfsd: don't allow nfsd threads to be signalled.
-cc07e56d966e1663127be4e90ea8675387bed816 nfsd: Simplify code around svc_exit_thread() call in nfsd()
-a696e2d60af033ea1f9f4664ef1a68f8d67e6e9c nfsd: separate nfsd_last_thread() from nfsd_put()
-66374aa5274a53d931853f5056b636c87bacc50f SUNRPC: call svc_process() from svc_recv().
-44b8bd51688758891192d2e3d757e3ebe3c22c4a SUNRPC: change svc_recv() to return void.
-45202231b6a4eb95fa95cf2e6d88bc865bc5988d SUNRPC: remove timeout arg from svc_recv()
-d575dc6ff72a6e8e95371cdeb0582e0f8a45e5da SUNRPC: change cache_head.flags bits to enum
-c604f8f44bd7c844923ef9b366b0342dcfebdc71 SUNRPC: change svc_pool::sp_flags bits to enum
-8ac8e44d70ee10a8249092b98318eab67255462c SUNRPC: change svc_rqst::rq_flags bits to enum
-5f3dae6685d5acca5fcf916b591c76342f2bf25f SUNRPC: change svc_xprt::xpt_flags bits to enum
-8521769e73d65bad1e64e7c30043a5f4bb5901dd SUNRPC: Add enum svc_auth_status
-eb3131b8832ae6635c845f7ea55bf664e3adfc6a SUNRPC: Move trace_svc_xprt_enqueue
-621dfa3cccf8e4156abb724dc1739d67cf5f031e SUNRPC: Deduplicate thread wake-up code
-9ce508ad94e56022344cdfd9651d14aa5edf579e SUNRPC: Count ingress RPC messages per svc_pool
-d4d5605bc4daff926d5affa288b70f150de42471 SUNRPC: Clean up svc_set_num_threads
-b152ba97bcd4cb4573f20562c86ee7678b85b879 SUNRPC: make rqst_should_sleep() idempotent()
-c012576e07f8394e2361ab0e457c7d5cd7e7c496 SUNRPC: Remove return value of svc_pool_wake_idle_thread()
-298a11acf8d4dbfc64e7a96999e71712540da3c4 SUNRPC: move all of xprt handling into svc_xprt_handle()
-975d9fe3fc07500a26221a9f69d7e5dee7efcf85 SUNRPC: rename and refactor svc_get_next_xprt()
-3c2cc8f06d18c454896f96c8acf432238f9b8cb8 SUNRPC: Clean up bc_svc_process()
-397bbf17504d6925401ffb0af99729ad09a5e876 SUNRPC: integrate back-channel processing with svc_recv()
-d41f3223d7e480d22e267f97f2ebacd21a3ef039 SUNRPC: change how svc threads are asked to exit.
-97f6def90b3986d704fd016d2fef3f9a551bf453 SUNRPC: add list of idle threads
-de9d37dc7c0c85a1483cccae3c8b68a3010a4e14 SUNRPC: discard SP_CONGESTED
+315236d7d808111a8294c113665386a796c2632c i40e: fix livelocks in i40e_reset_subtask()
+21226a2aaaaa2cc72bffdaf7d6e7adcf0a0eb014 ice: PTP: Clean up timestamp registers correctly
+6cb9c453437ecd683f2f1d8a0f866f0d95268bb8 ice: PTP: Rename macros used for PHY/QUAD port definitions
+249cf794955fee6b4dac17a3d37cd7e200b78299 ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+c905a6684f500b77463efdfdbe6a3f855724b6e8 ice: Auxbus devices & driver for E822 TS
+0992d4353cf77c770efed38c34e646c4567a2b44 ice: Use PTP auxbus for all PHYs restart in E822
+1faef54239c585bf0548d4326fd8c4d86c20c99e ice: PTP: add clock domain number to auxiliary interface
+b892766a4ac405b3218f7826b2c206e8ee7fad91 ice: Remove the FW shared parameters
+daebb262cc99c4cab01ed820c02249f2b902b355 ice: Remove redundant VSI configuration in eswitch setup
+4c48f2d4bfb0f67cd0e202cb0104293d783a9dfa i40e: Clear stats after deleting tc
+0427c1e08fd6fcff7957fcf6c76e3b4344ca6552 ice: drop two params from ice_aq_alloc_free_res()
+457b4cdedd631b2f5abfc4cead9be0f1e5609096 i40e: fix misleading debug logs
+246df500c3e2f71d49eb086043110679ef76dbde igc: Add support for multiple in-flight TX timestamps
+eb1f825231adc3938abdb326a373a4ca61f0b2e8 ice: use list_for_each_entry() helper
+7cf3500afb6547d7ebd6b99e95441b9f91049442 virtchnl: fix fake 1-elem arrays in structs allocated as `nents + 1` - 1
+70b3bd7d08babc689579b42b3911303523e211ad virtchnl: fix fake 1-elem arrays in structures allocated as `nents + 1`
+48fac5c7f71f0dcf113644635880926de994030e virtchnl: fix fake 1-elem arrays for structures allocated as `nents`
+3a777f9e9764211e530115a523e3b16b710f8650 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+0eea93f6550659202e8e1ebd279516a205fe14c1 iavf: fix FDIR rule fields masks validation
+07f8c624a58d61f46792397c1854707c03edb90a igc: Fix the typo in the PTM Control macro
+48e8607652510bfa2fa01d6c141032fd687f6c43 ice: remove FW logging code
+461eb5cb1f37a7eab7788b7116d6a68b510c0a4b ice: configure FW logging
+24d924549753d662d40406c4815ed6f1d4e4ff02 ice: enable FW logging
+170eed7ee58388d5189e4e53f136becab5be3b88 ice: add ability to read FW log data and configure the number of log buffers
+43da805d00d5d7ecf5fd8c3a91afff375899d0e3 ice: add documentation for FW logging
+cf2e115d704f1474f9fad1527404046c61319fcc ice: ice_aq_check_events: fix off-by-one check when filling buffer
+aaf944cea8b0db20ea0b9312f67814845a1d2754 ice: embed &ice_rq_event_info event into struct ice_aq_task
+6a268477d2f0365fc81ea0b58aeab94a5475536a ice: split ice_aq_wait_for_event() func into two
+6289dce8faa00ea3e09fda20c8f75ff3de78214d ice: Block switchdev mode when ADQ is active and vice versa
+25dc03f6455089d4de81bc47cd91e4e2b77dc54f ice: remove unused methods
+3754c879ff33db6762ee30df5ed594faad2796db ice: refactor ice_ddp to make functions static
+854b6dd65e03ae04ed18906a651c8be4c1f3522b ice: refactor ice_lib to make functions static
+b23ac0a298102eaecbdd8bcc893e8426ef1fabe9 ice: refactor ice_vf_lib to make functions static
+0c6d9b361453bc1b81676f4c4c2f671d07221394 ice: refactor ice_sched to make functions static
+399c60b98e49b5e556e2faab0f6de840afd32062 ice: refactor ice_ptp_hw to make functions static
+e2603e494913c0c4bac5ba58c7ee5e389925b153 ice: refactor ice_vsi_is_vlan_pruning_ena
+b2d0ee381a5f3fe44717c9f3c5261d9601665df4 ice: fix receive buffer size miscalculation
+d62bd7bf40e2ad768d7943ef5d5a781ac2f0d328 Revert "ice: Fix ice VF reset during iavf initialization"
+23642488abb59b16d757b10b2bb0ffa1dcebd69f ice: Fix NULL pointer deref during VF reset
+cd9ed29d7c74a4afcaf51cfabf2a3315a037c514 i40e: fix potential NULL pointer dereferencing of pf->vf i40e_sync_vsi_filters()
+1f1e989bb2b7f36126e51c22e138a385ce4ce754 i40e: fix potential memory leaks in i40e_remove()
+361b86237e1afbf2c3be7cb604b6aac6f8b8c38c igb: Avoid starting unnecessary workqueues
 
---===============8532392020706516216==--
+--===============4126560517380336413==--
