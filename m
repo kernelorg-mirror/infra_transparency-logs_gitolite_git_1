@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3404083088751434473=="
+Content-Type: multipart/mixed; boundary="===============8314705511467900903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 15 Aug 2023 19:18:25 -0000
-Message-Id: <169212710566.11042.3339108555260590912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 15 Aug 2023 19:24:00 -0000
+Message-Id: <169212744023.14730.8669285575317333369@gitolite.kernel.org>
 
---===============3404083088751434473==
+--===============8314705511467900903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: a2763c72b889f1e55b93a39757387bc1228d63cd
-    new: fbbafa887d8092ea0aa892cede9590e8207b0c1b
-    log: revlist-a2763c72b889-fbbafa887d80.txt
+  - ref: refs/heads/next
+    old: 3b4e3afb2032fdc86b585b0de34d226b9e87e445
+    new: c24a9bac900f5e234d62f6b91661cea19e706b7c
+    log: revlist-3b4e3afb2032-c24a9bac900f.txt
 
---===============3404083088751434473==
+--===============8314705511467900903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2763c72b889-fbbafa887d80.txt
+Content-Disposition: attachment; filename=revlist-3b4e3afb2032-c24a9bac900f.txt
 
-c281015fad0c60a53f67156bef6570eca0dc22bf perf bpf-filter: Fix sample flag check with ||
-c3146e0e539b0ebe9a4f80fd26f1e8136fd0d66f perf test: Add perf record sample filtering test
-2b777a9361086ae59d040e4d0418fed83c4e2d35 perf evsel: Remove duplicate check for `field` in evsel__intval()
-db748312d3bb484ae11964d8278aeeede2703317 perf scripts python: Support syscall name parsing on arm64
-a7e09a9f3a7f55edaa52fc48f0acd5591d5790d4 perf scripts python: Update audit-libs package name for python3
-b24b8a3c537eb5dd4f732b4a65bc769f681fc156 perf dlfilter: Add a test for resolve_address()
-15a3e497a2d6d03a3217358e5d304f087b54fe71 perf dlfilter: Initialize addr_location before passing it to thread__find_symbol_fb()
-872786700f05ac1f56c271363e134bd00ef022c9 perf dlfilter: Add al_cleanup()
-1f0d43ff3956655fd2ad1815179b55a51062b641 perf cs-etm: Don't duplicate FIELD_GET()
-b66b456f7471301aa6f19ef4de3eccf2b6a30e5f perf vendor events arm64: Update scale units and descriptions of common topdown metrics
-98a7dad9d4863375859695c9665e565a4be4d734 perf docs: Fix format of unordered lists
-07d54b495e07862dd4e3e747bf2c17b9022b4c23 perf parse-regs: Refactor arch register parsing functions
-ea390434b9c1e83063db0b4b9ff3f7b04dead9dc perf parse-regs: Introduce functions perf_arch_reg_{ip|sp}()
-0bd87f39e3e586d915105765038821d922b6c3a5 perf unwind: Use perf_arch_reg_{ip|sp}() to substitute macros
-a29ad0af371e684ecf1f6782980e608434a2a0b3 perf parse-regs: Remove unused macros PERF_REG_{IP|SP}
-d0bd8d5bd8541b95914728a6b9ac53d048b1efaf perf parse-regs: Remove PERF_REGS_{MAX|MASK} from common code
-95ced8cc6c79167affd467a1e17a1f4795e88f44 perf parse-regs: Move out arch specific header from util/perf_regs.h
-11d2fcd365d44a1eebb11ba9c18d66ab55a38e1a libperf: Implement riscv mmap support
-020ccb6eefbf863ca2501175062533b5a3d6c397 perf tests mmap-basic: Adapt for riscv
-4ec9c3da5bd6b1908c3b3f59eb974e6d2c9d9427 perf vendor events: Update the JSON/events descriptions for power10 platform
-ab9a6f78b1759f7170a4ac2e670a1c0ed73908ea perf vendor events: Drop some of the JSON/events for power10 platform
-c56448f1a7b3bf6193a061cc7c3fd4fdf81767ee perf vendor events: Drop STORES_PER_INST metric event for power10 platform
-f49527f93eec2516c6a17d8f2a22ae92b9ad3ec9 perf vendor events: Move JSON/events to appropriate files for power10 platform
-54432e5b651417c134966ba56414119346ce4063 perf vendor events: Update JSON/events for power10 platform
-8ad40d985401eb77a3c3de96a50137389399881d perf vendor events: Update metric event names for power10 platform
-fbbafa887d8092ea0aa892cede9590e8207b0c1b perf vendor events: Update metric events for power10 platform
+4460a7dc77d00340c59f7e4252c65efd5fbe877b KVM: arm64: Remove redundant kvm_set_pfn_accessed() from user_mem_abort()
+7ea75efbde7cfb2853c8903820ee7fe9ebd651b7 Merge branch kvm-arm64/6.6/misc into kvmarm-master/next
+44498db479f4727ed94af7583dae3abe2e967ea3 arm64: Add missing VA CMO encodings
+7fa0f8d23e4089dd6016e988ee574559470792bd arm64: Add missing ERX*_EL1 encodings
+8bfe9983f2ea8a39d770635cfca61f156833755e arm64: Add missing DC ZVA/GVA/GZVA encodings
+5a13cb809973d7ef08ca641f4e580d12a171f022 arm64: Add TLBI operation encodings
+2bda0844a0de31c13822edda05a49f22395dc634 arm64: Add AT operation encodings
+ea0184606dd765c6620d847781b884fbda29efff arm64: Add debug registers affected by HDFGxTR_EL2
+6412b9140de322870e0c27d8a691f1251617472d arm64: Add missing BRB/CFP/DVP/CPP instructions
+0526a1bb28989a6fcf088c8dedd01b7ec55cf7e7 arm64: Add HDFGRTR_EL2 and HDFGWTR_EL2 layouts
+fbf3e28f5e312caa6ba281cdb3e356cc81da034f arm64: Add feature detection for fine grained traps
+e1cf28b9d10e86871715c8de2be31697d345504b KVM: arm64: Correctly handle ACCDATA_EL1 traps
+1d46f8d902584cc87ccaa554e590c25eb7132662 KVM: arm64: Add missing HCR_EL2 trap bits
+3ee4047e6675e246db200883325e6dc1affea055 KVM: arm64: nv: Add FGT registers
+c43fb3e9bcb5129dc7ed71623f1869b279d78eee KVM: arm64: Restructure FGT register switching
+d15fe1b2d2cc0cbb91d7ed1b2875fea37bbe7de7 KVM: arm64: nv: Add trap forwarding infrastructure
+8ba7514feb68edd9df3d04e188fa9339b64e64ac KVM: arm64: nv: Add trap forwarding for HCR_EL2
+ae7cc5a45540c7e028653aac3b5e10321dc19b4f KVM: arm64: nv: Expose FEAT_EVT to nested guests
+573d73c5d00578f3a03a0d5a4bbc875d4ac355ee KVM: arm64: nv: Add trap forwarding for MDCR_EL2
+119ced6896dae52dce1a74da0c0017f665be83a0 KVM: arm64: nv: Add trap forwarding for CNTHCTL_EL2
+9652faff098f10c1a1af3e8139e15fc494f049fc KVM: arm64: nv: Add fine grained trap forwarding infrastructure
+26fd12775e121666a54a00051b832286f4bc6092 KVM: arm64: nv: Add trap forwarding for HFGxTR_EL2
+c545474dd19bc1a94da99bdbc00f4b7699d10573 KVM: arm64: nv: Add trap forwarding for HFGITR_EL2
+c13ba577b9466b99906c0d3585e260ac957d5cca KVM: arm64: nv: Add trap forwarding for HDFGxTR_EL2
+a1f91c0a47d74d4fad0505427238ec33338d009d KVM: arm64: nv: Add SVC trap forwarding
+8b531e44d5d4edcc8dc59227cc106bb9abcafa51 KVM: arm64: nv: Expand ERET trap forwarding to handle FGT
+c06ece92321730412bc0849a4159783ccd5e6001 KVM: arm64: nv: Add switching support for HFGxTR/HDFGxTR
+0e9ea553740b76403d37be1c9065bd5891da2707 KVM: arm64: nv: Expose FGT to nested guests
+ff501eaba27912c4d4abf4487a95db8517b1dc38 KVM: arm64: Move HCRX_EL2 switch to load/put on VHE systems
+b9e91764b6eee575f83497e2599bb153b30166c1 KVM: arm64: nv: Add support for HCRX_EL2
+c24a9bac900f5e234d62f6b91661cea19e706b7c Merge branch kvm-arm64/nv-trap-forwarding into kvmarm-master/next
 
---===============3404083088751434473==--
+--===============8314705511467900903==--
