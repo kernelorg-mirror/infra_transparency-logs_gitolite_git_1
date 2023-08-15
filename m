@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0450700016027360278=="
+Content-Type: multipart/mixed; boundary="===============2147533276642012877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 15 Aug 2023 19:16:53 -0000
-Message-Id: <169212701315.10154.14468821793773006409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 15 Aug 2023 19:16:59 -0000
+Message-Id: <169212701977.10296.12159308117437345919@gitolite.kernel.org>
 
---===============0450700016027360278==
+--===============2147533276642012877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 62cc82e6486b9b66b340bbf5fb38b0171fb56a7f
     new: 7f0315ded4d5543d51346b60c72c0393d8ba9785
     log: revlist-62cc82e6486b-7f0315ded4d5.txt
 
---===============0450700016027360278==
+--===============2147533276642012877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1692127011 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1692127011-1f940d000c1e63753d00b1a2a58f209cfadf5ce5
+pusher C3F436CA30F5D8EB 1692127017 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1692127017-36e9e0b91c77e4141b61c5c92a964fad2c8b8496
 
-62cc82e6486b9b66b340bbf5fb38b0171fb56a7f 7f0315ded4d5543d51346b60c72c0393d8ba9785 refs/heads/for-6.6
+62cc82e6486b9b66b340bbf5fb38b0171fb56a7f 7f0315ded4d5543d51346b60c72c0393d8ba9785 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTbzyMACgkQJNaLcl1U
-h9AXNwf/cWwkcDQNuWd0jmdyXuwpVyrbQhftCax47rpksYBSib7Nu1M/cresDwmn
-Lf3izQLEpEZA7LAVLl1F3TIzs0QY5qT+32keY4MrmwySL7UgpG08OFOEtaHqQbTV
-ovY0N0qIo53ZgPqS/lLOHZmPXGsZRIakNZ23LmKxxOlq/afa9cSUAw3LtWlblSp6
-4GTNyvJsEZJZfSbiHKCNRbturctn5GsHPZExLwtI2Chh3cl605d/ajnC3IHZQZAQ
-9LZfyQJ9OWSFWd172Px+yWcRf96boUlpdemZ2u41gJENMrWf3Nf1zPEq5cYvEm6T
-tF+2XsiA6aorYurDUeeP8lg9bzsP7w==
-=xdNs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTbzykACgkQJNaLcl1U
+h9D69Qf/e0f7Qh1LswVs3xlKB/MjZc8U68y90XpMFhYMtEDEhSUZXdi4elDwLDHU
+hgO9Aap3ieaZpUeWZmNJWf0hY9JlX1SQASItKSUzQgMaX1WE2FIsGI1lnHQqosYT
+1TryXC9wf0TIRiDL5tABNpPY9itxuerRpH0IRzYrPPK7bbnqEFfhRrwnDchAiFX9
+I0GDo3usn2WlMoZN3KFdjlLsfsmdRgEB+pwN1ZCf3lQSI9mQw0gIsaYkBRPfvKic
+fSG9N+pm24jAZhny7clPUUtZHJbKbGf3xkKjayOGyJ1L1Vr/4SpsCIta8P7dTTv3
+xclJGKfsxXOdaIe1rNMpxaDFHZHirA==
+=M00N
 -----END PGP SIGNATURE-----
 
---===============0450700016027360278==
+--===============2147533276642012877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ a942409c97ce12c2a4811b538568b1342d91e56c ASoC: SOF: Intel: Refactor code for HDA
 a90a7a001624072f47c55716f74c5bc127e17656 Use devm_kmemdup to replace devm_kmalloc + memcpy
 7f0315ded4d5543d51346b60c72c0393d8ba9785 ASoC: cs35l56: Don't patch firmware that is already
 
---===============0450700016027360278==--
+--===============2147533276642012877==--
