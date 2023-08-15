@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 15 Aug 2023 14:50:12 -0000
-Message-Id: <169211101279.6445.870736792685729442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 15 Aug 2023 15:04:02 -0000
+Message-Id: <169211184273.14508.12201782568012422650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 156fabc8bcc1d5555eba3713af551143229e4c69
-    new: a2763c72b889f1e55b93a39757387bc1228d63cd
+  - ref: refs/heads/main
+    old: 855067defa36b1f9effad8c219d9a85b655cf500
+    new: 8a519a572598b7c0c07b02f69bf5b4e8dd4b2d7d
     log: |
-         82d3488cf421e718efbf97b0c39b5153760bac73 perf bpf: Remove support for embedding clang for compiling BPF events (-e foo.c)
-         bfc00de00025d4827b7278d9afe37ee038c1afee perf parse-events: Remove BPF event support
-         42963c8bedeb864baf7ad65d9a106945784ae761 perf trace: Migrate BPF augmentation to use a skeleton
-         535ecc447a654d4ba75f5ad0a651c3324d9e2a45 perf bpf examples: With no BPF events remove examples
-         a2763c72b889f1e55b93a39757387bc1228d63cd perf trace: Tidy comments related to BPF + syscall augmentation
+         6c461e394d11a981c662cc16cebfb05b602e23ba net: macb: In ZynqMP resume always configure PS GTR for non-wakeup source
+         519b227904f0e70d4a1d6cf41daa5392715f2d2f octeon_ep: fix timeout value for waiting on mbox response
+         28458c80006bb4e993a09fc094094a8578cad292 octeon_ep: cancel tx_timeout_task later in remove sequence
+         607a7a45cdf38c1901e0d81e4e00a2a88786330a octeon_ep: cancel ctrl_mbox_task after intr_poll_task
+         758c91078165ae641b698750a72eafe7968b3756 octeon_ep: cancel queued works in probe error path
+         f6f978fc4d006c9d3fa6df9f172d4660139fd3dd Merge branch 'octeon_ep-fixes-for-error-and-remove-paths'
+         8a519a572598b7c0c07b02f69bf5b4e8dd4b2d7d net: veth: Page pool creation error handling for existing pools only
          
