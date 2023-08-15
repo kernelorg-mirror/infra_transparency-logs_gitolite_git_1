@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0484036244399444322=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 15 Aug 2023 23:18:37 -0000
-Message-Id: <169214151752.26163.3087083041337691660@gitolite.kernel.org>
-
---===============0484036244399444322==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 15 Aug 2023 23:29:31 -0000
+Message-Id: <169214217157.764.9563044843549921222@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/seen
-    old: 997ff44086873fc765a1d6831c0312b86a249f58
-    new: 1ea2790887c06267a25117250f849b3a7af1d307
-    log: revlist-997ff4408687-1ea2790887c0.txt
-
---===============0484036244399444322==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-997ff4408687-1ea2790887c0.txt
-
-d65a1fa6ac665473961004c6ba3b0c9d3dfd1666 Merge branch 'jc/rerere-cleanup' into jch
-7543162ffcc14751d5206484c5373774a399d54f Merge branch 'rj/status-bisect-while-rebase' into jch
-49e0b5db97061c78d07c0eb45df9a5e5a0ccd815 Merge branch 'la/trailer-cleanups' into jch
-644226b54f9b5bb5595e5af4eea9af664b7d0602 Merge branch 'ds/maintenance-schedule-fuzz' into jch
-f44c679ec6f02fc8ff62f7d4a14ae12e66b568fa Merge branch 'ja/worktree-orphan' into jch
-e4113da53baf9bcad7638a0918b50287e93116c4 Merge branch 'ob/t9001-indent-fix' into jch
-d0a1ab57c3d11208c01a6cbf49e12b20a147d267 Merge branch 'ds/scalar-updates' into jch
-c7250703054808b58837125eb5f27948fdebfb12 Merge branch 'js/doc-unit-tests' into seen
-7cc6bcdddae6ae728e523e8f5c06f29e3f08569c Merge branch 'cc/git-replay' into seen
-cbd161c3ce26103605daf168b7a09cfda9d79315 Merge branch 'ak/pretty-decorate-more' into seen
-b5913def897890d7a1855daeb3606394d6de102b Merge branch 'sl/sparse-check-attr' into seen
-d0b02576bb052cdcbd319e5df586ce55cbcddc81 Merge branch 'la/trailer-test-and-doc-updates' into seen
-1a0dbbd3b192a1bdec0700cc49bb59578ee8cf72 Merge branch 'ws/svn-with-new-readline' into seen
-e6fdaf4fcb54c53d3182c5cc08e60ee5e686b236 Merge branch 'ob/revert-of-revert-is-reapply' into seen
-ddfba7b38f590544183785e4e4e476769a42a4fc Merge branch 'ob/format-patch-description-file' into seen
-1ea2790887c06267a25117250f849b3a7af1d307 Merge branch 'jc/mv-d-to-d-error-message-fix' into seen
-
---===============0484036244399444322==--
+  - ref: refs/heads/rtc-next
+    old: 4f3688dca15053555ade31a785a9c75837a64fb8
+    new: d57d12db774820819d0e591548a56b5cfc95f82a
+    log: |
+         4d6af37cafad69ff93f62db80d5a3daa9ac3223f rtc: isl12022: remove wrong warning for low battery level
+         ffc005280a47030d16cbbf3105c75d3562dba5a8 dt-bindings: rtc: Move isil,isl12022 from trivial-rtc.yaml into own schema file
+         69b569c124ffa698de25d039018fe86313c46c84 dt-bindings: rtc: isl12022: add bindings for battery alarm trip levels
+         2caeb566baabb65add7d99ca6d8bfd566fe91582 rtc: isl12022: add support for trip level DT binding
+         eccebd813874b748ac4e79a9fe4c7290117ad3be rtc: isl12022: implement RTC_VL_READ ioctl
+         a11b6c460620f7fb5fae4c3aee5a5ba2e1e1129b rtc: isl12022: trigger battery level detection during probe
+         ab246c897be0bdf981f776399ca62b5ec4b8138f dt-bindings: rtc: isl12022: add #clock-cells property
+         d57d12db774820819d0e591548a56b5cfc95f82a rtc: isl12022: implement support for the #clock-cells DT property
+         
