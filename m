@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 15 Aug 2023 05:32:29 -0000
-Message-Id: <169207754936.7764.2694546064007420986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 15 Aug 2023 05:39:08 -0000
+Message-Id: <169207794882.13004.18083307221181207189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/gpu-v6.4
-    old: 0000000000000000000000000000000000000000
-    new: 1ccfcce101f9245607bd6aecbe8687efb0918c40
+  - ref: refs/heads/master
+    old: ccd9a8be2e42a337ad4da5d8a051e8293200a4f3
+    new: dda770407b817a7cfa72517905857f489cfc5e59
+    log: |
+         8ba651ed7fa1641f7c4941b79f2e3dd4ddb58aec bpf: Support default .validate() and .update() behavior for struct_ops links
+         bb48cf1679d294d4fd3bfaa88289ed9004cbb025 bpf: Document struct bpf_struct_ops fields
+         dda770407b817a7cfa72517905857f489cfc5e59 Merge branch 'Update and document struct_ops'
+         
