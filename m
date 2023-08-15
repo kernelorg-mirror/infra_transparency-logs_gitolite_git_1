@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5001300527909127815=="
+Content-Type: multipart/mixed; boundary="===============6177786288935997073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 15 Aug 2023 19:49:25 -0000
-Message-Id: <169212896566.709.7237711742720281185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 15 Aug 2023 19:49:45 -0000
+Message-Id: <169212898541.965.16508674336088141032@gitolite.kernel.org>
 
---===============5001300527909127815==
+--===============6177786288935997073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 6e7015b92e3886b980d465c8eb69f57b543b5991
     log: revlist-fbbafa887d80-6e7015b92e38.txt
 
---===============5001300527909127815==
+--===============6177786288935997073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ f847a13498c178aea50f83c1c5694aef38f9f2ed perf vendor events: Move JSON/events to
 4035138971021c0a16c4358768225c06f778e4cb perf vendor events: Update metric event names for power10 platform
 6e7015b92e3886b980d465c8eb69f57b543b5991 perf vendor events: Update metric events for power10 platform
 
---===============5001300527909127815==--
+--===============6177786288935997073==--
