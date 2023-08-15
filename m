@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1147352795197718421=="
+Content-Type: multipart/mixed; boundary="===============7543066367620563154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 15 Aug 2023 19:17:33 -0000
-Message-Id: <169212705345.10547.13491920851635724366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 15 Aug 2023 19:18:11 -0000
+Message-Id: <169212709193.10862.5175730035037329457@gitolite.kernel.org>
 
---===============1147352795197718421==
+--===============7543066367620563154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-linus
-    old: 159f07926201a7c20e4ff35425a4299dab773368
-    new: fb08cf7a49c74689c44503abf2da2a9a0958a6f5
-    log: |
-         fb08cf7a49c74689c44503abf2da2a9a0958a6f5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 8830cdc578a2c7c2462b80f7e9ca2104498e809e
-    new: 876e2fd555c7733e2bb3b540d72d8b4871dfbbd5
-    log: revlist-8830cdc578a2-876e2fd555c7.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: a2763c72b889f1e55b93a39757387bc1228d63cd
+    new: fbbafa887d8092ea0aa892cede9590e8207b0c1b
+    log: revlist-a2763c72b889-fbbafa887d80.txt
 
---===============1147352795197718421==
+--===============7543066367620563154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8830cdc578a2-876e2fd555c7.txt
+Content-Disposition: attachment; filename=revlist-a2763c72b889-fbbafa887d80.txt
 
-b0a4c7f5921d9c2998bdd767a93d995786d72adc ASoC: tas5805m: Use devm_kmemdup to replace devm_kmalloc + memcpy
-29681184da28babc990a66e197d27ab98f2027af ASoC: SOF: ipc3: Use devm_kmemdup to replace devm_kmalloc + memcpy
-f7f4a5ad8e11de4edb7b62d099f0501c8610c92b ASoC: dapm: Add a flag for not having widget name in kcontrol name
-56ce7b791b787e0aee19601e422f13a18d4eafe7 ASoC: SOF: topology: Add a token for dropping widget name in kcontrol name
-fc8b9d05a01f7cd98e0805aa773603b07515de06 ASoC: Intel: soc-acpi: Add entry for sof_es8336 in RPL match table.
-fbc82c016d96aa4a2d99587cae2b78d5c5a59ea7 ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in RPL match table
-fec75606f48f6c85eca8a9e868e41fb657abd1ca ASoC: Intel: soc-acpi: add support for Dell SKU0C87 devices
-f7555da71ef6eb9d289173d94ec2cc9d15061f33 ASoC: Intel: RPL: Add entry for HDMI-In capture support on non-I2S codec boards.
-c5556d8651b4c58e0d9894be5a0188c9c90ce899 ASoC: SOF: remove duplicate code due to merge
-a942409c97ce12c2a4811b538568b1342d91e56c ASoC: SOF: Intel: Refactor code for HDA stream creation
-62ddad4238a0250aa9cedade127c39aac9d26d45 ASoC: wm_adsp: Support powering-up DSP without trying to load firmware
-67bd793ba5e0984ecb7ee4407c2f79d159e305ff ASoC: cs35l56: Don't overwrite a patched firmware
-63e041027669473ab7474c195771bc86af9685a6 ASoC: Intel: RPL/MTL machine updates for 6.6
-6e9fd076e72a6c32fe79b1dfcff074823ff1a09a ASoC: SOF: topology: simplify kcontrol names with
-a90a7a001624072f47c55716f74c5bc127e17656 Use devm_kmemdup to replace devm_kmalloc + memcpy
-7f0315ded4d5543d51346b60c72c0393d8ba9785 ASoC: cs35l56: Don't patch firmware that is already
-fb08cf7a49c74689c44503abf2da2a9a0958a6f5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-876e2fd555c7733e2bb3b540d72d8b4871dfbbd5 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+c281015fad0c60a53f67156bef6570eca0dc22bf perf bpf-filter: Fix sample flag check with ||
+c3146e0e539b0ebe9a4f80fd26f1e8136fd0d66f perf test: Add perf record sample filtering test
+2b777a9361086ae59d040e4d0418fed83c4e2d35 perf evsel: Remove duplicate check for `field` in evsel__intval()
+db748312d3bb484ae11964d8278aeeede2703317 perf scripts python: Support syscall name parsing on arm64
+a7e09a9f3a7f55edaa52fc48f0acd5591d5790d4 perf scripts python: Update audit-libs package name for python3
+b24b8a3c537eb5dd4f732b4a65bc769f681fc156 perf dlfilter: Add a test for resolve_address()
+15a3e497a2d6d03a3217358e5d304f087b54fe71 perf dlfilter: Initialize addr_location before passing it to thread__find_symbol_fb()
+872786700f05ac1f56c271363e134bd00ef022c9 perf dlfilter: Add al_cleanup()
+1f0d43ff3956655fd2ad1815179b55a51062b641 perf cs-etm: Don't duplicate FIELD_GET()
+b66b456f7471301aa6f19ef4de3eccf2b6a30e5f perf vendor events arm64: Update scale units and descriptions of common topdown metrics
+98a7dad9d4863375859695c9665e565a4be4d734 perf docs: Fix format of unordered lists
+07d54b495e07862dd4e3e747bf2c17b9022b4c23 perf parse-regs: Refactor arch register parsing functions
+ea390434b9c1e83063db0b4b9ff3f7b04dead9dc perf parse-regs: Introduce functions perf_arch_reg_{ip|sp}()
+0bd87f39e3e586d915105765038821d922b6c3a5 perf unwind: Use perf_arch_reg_{ip|sp}() to substitute macros
+a29ad0af371e684ecf1f6782980e608434a2a0b3 perf parse-regs: Remove unused macros PERF_REG_{IP|SP}
+d0bd8d5bd8541b95914728a6b9ac53d048b1efaf perf parse-regs: Remove PERF_REGS_{MAX|MASK} from common code
+95ced8cc6c79167affd467a1e17a1f4795e88f44 perf parse-regs: Move out arch specific header from util/perf_regs.h
+11d2fcd365d44a1eebb11ba9c18d66ab55a38e1a libperf: Implement riscv mmap support
+020ccb6eefbf863ca2501175062533b5a3d6c397 perf tests mmap-basic: Adapt for riscv
+4ec9c3da5bd6b1908c3b3f59eb974e6d2c9d9427 perf vendor events: Update the JSON/events descriptions for power10 platform
+ab9a6f78b1759f7170a4ac2e670a1c0ed73908ea perf vendor events: Drop some of the JSON/events for power10 platform
+c56448f1a7b3bf6193a061cc7c3fd4fdf81767ee perf vendor events: Drop STORES_PER_INST metric event for power10 platform
+f49527f93eec2516c6a17d8f2a22ae92b9ad3ec9 perf vendor events: Move JSON/events to appropriate files for power10 platform
+54432e5b651417c134966ba56414119346ce4063 perf vendor events: Update JSON/events for power10 platform
+8ad40d985401eb77a3c3de96a50137389399881d perf vendor events: Update metric event names for power10 platform
+fbbafa887d8092ea0aa892cede9590e8207b0c1b perf vendor events: Update metric events for power10 platform
 
---===============1147352795197718421==--
+--===============7543066367620563154==--
