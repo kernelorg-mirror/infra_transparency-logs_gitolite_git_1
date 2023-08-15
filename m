@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============2147533276642012877=="
+Content-Type: multipart/mixed; boundary="===============1147352795197718421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 15 Aug 2023 19:16:59 -0000
-Message-Id: <169212701977.10296.12159308117437345919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 15 Aug 2023 19:17:33 -0000
+Message-Id: <169212705345.10547.13491920851635724366@gitolite.kernel.org>
 
---===============2147533276642012877==
+--===============1147352795197718421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: 62cc82e6486b9b66b340bbf5fb38b0171fb56a7f
-    new: 7f0315ded4d5543d51346b60c72c0393d8ba9785
-    log: revlist-62cc82e6486b-7f0315ded4d5.txt
+  - ref: refs/heads/for-linus
+    old: 159f07926201a7c20e4ff35425a4299dab773368
+    new: fb08cf7a49c74689c44503abf2da2a9a0958a6f5
+    log: |
+         fb08cf7a49c74689c44503abf2da2a9a0958a6f5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 8830cdc578a2c7c2462b80f7e9ca2104498e809e
+    new: 876e2fd555c7733e2bb3b540d72d8b4871dfbbd5
+    log: revlist-8830cdc578a2-876e2fd555c7.txt
 
---===============2147533276642012877==
+--===============1147352795197718421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1692127017 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1692127017-36e9e0b91c77e4141b61c5c92a964fad2c8b8496
-
-62cc82e6486b9b66b340bbf5fb38b0171fb56a7f 7f0315ded4d5543d51346b60c72c0393d8ba9785 refs/heads/asoc-6.6
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTbzykACgkQJNaLcl1U
-h9D69Qf/e0f7Qh1LswVs3xlKB/MjZc8U68y90XpMFhYMtEDEhSUZXdi4elDwLDHU
-hgO9Aap3ieaZpUeWZmNJWf0hY9JlX1SQASItKSUzQgMaX1WE2FIsGI1lnHQqosYT
-1TryXC9wf0TIRiDL5tABNpPY9itxuerRpH0IRzYrPPK7bbnqEFfhRrwnDchAiFX9
-I0GDo3usn2WlMoZN3KFdjlLsfsmdRgEB+pwN1ZCf3lQSI9mQw0gIsaYkBRPfvKic
-fSG9N+pm24jAZhny7clPUUtZHJbKbGf3xkKjayOGyJ1L1Vr/4SpsCIta8P7dTTv3
-xclJGKfsxXOdaIe1rNMpxaDFHZHirA==
-=M00N
------END PGP SIGNATURE-----
-
---===============2147533276642012877==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62cc82e6486b-7f0315ded4d5.txt
+Content-Disposition: attachment; filename=revlist-8830cdc578a2-876e2fd555c7.txt
 
 b0a4c7f5921d9c2998bdd767a93d995786d72adc ASoC: tas5805m: Use devm_kmemdup to replace devm_kmalloc + memcpy
 29681184da28babc990a66e197d27ab98f2027af ASoC: SOF: ipc3: Use devm_kmemdup to replace devm_kmalloc + memcpy
@@ -67,5 +48,7 @@ a942409c97ce12c2a4811b538568b1342d91e56c ASoC: SOF: Intel: Refactor code for HDA
 6e9fd076e72a6c32fe79b1dfcff074823ff1a09a ASoC: SOF: topology: simplify kcontrol names with
 a90a7a001624072f47c55716f74c5bc127e17656 Use devm_kmemdup to replace devm_kmalloc + memcpy
 7f0315ded4d5543d51346b60c72c0393d8ba9785 ASoC: cs35l56: Don't patch firmware that is already
+fb08cf7a49c74689c44503abf2da2a9a0958a6f5 Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+876e2fd555c7733e2bb3b540d72d8b4871dfbbd5 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
 
---===============2147533276642012877==--
+--===============1147352795197718421==--
