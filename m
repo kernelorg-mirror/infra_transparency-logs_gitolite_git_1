@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5066789915428225005=="
+Content-Type: multipart/mixed; boundary="===============8245508640528078141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 16 Aug 2023 13:14:43 -0000
-Message-Id: <169219168338.8808.3195507607432514497@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 13:18:37 -0000
+Message-Id: <169219191763.11911.1737591131548084848@gitolite.kernel.org>
 
---===============5066789915428225005==
+--===============8245508640528078141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,52 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 6099857b7d15f86281f8ededa28eb6652ece5d83
-    new: 7b1ea87cecbb780e59748071ad7383b40eef91fa
-    log: revlist-6099857b7d15-7b1ea87cecbb.txt
+  - ref: refs/heads/master
+    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
+    new: 4853c74bd7ab7fdb83f319bd9ace8a08c031e9b6
+    log: revlist-2ccdd1b13c59-4853c74bd7ab.txt
 
---===============5066789915428225005==
+--===============8245508640528078141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6099857b7d15-7b1ea87cecbb.txt
+Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-4853c74bd7ab.txt
 
-74135c568db851686bf957fc58cf606db8dadfd0 btrfs: scrub: avoid unnecessary extent tree search preparing stripes
-ae25150618fcf223c8aa2cf182c42ae6bc9ba233 btrfs: scrub: avoid unnecessary csum tree search preparing stripes
-81fd8269c535503f194a4061a3353671d404e2b0 btrfs: scrub: fix grouping of read IO
-a4242a1b942cf0ae91b244ae3eabe24dfe369d4c btrfs: scrub: don't go ordered workqueue for dev-replace
-bb83672bed54cd8b58a459d2b19d253fe9f44eb7 btrfs: scrub: move write back of repaired sectors to scrub_stripe_read_repair_worker()
-f7c52dc978953c491613ea2a29e730954ff064cf btrfs: move the cow_fixup earlier in writepages handling
-821b3e6c0d0a3ea500fe7a74b59134ae3816c985 btrfs: fix handling of errors from __extent_writepage_io
-4988e1a74179d3d5eba479df9ec3c40785584571 btrfs: stop submitting I/O after an error in extent_write_locked_range
-0f2894a5d88ea75afd9366a29fbf86ee01bde5a3 btrfs: fix a race in clearing the writeback bit for sub-page I/O
-703d446a55744c0673c8d3eb6891d329707617f4 btrfs: remove the call to btrfs_mark_ordered_io_finished in btrfs_writepage_fixup_worker
-e52e5141142165ad7b0d39591200924a6497d378 btrfs: lift the call to mapping_set_error out of cow_file_range
-90a22ee2161db88662aa0bf1aaa3beccdad1d985 btrfs: use nocow_end for the loop iteration in run_delalloc_cow
-7a2496eb2dd5fa317cb94adffdd7b691bf209da6 btrfs: clone relocation checksums in btrfs_alloc_ordered_extent
-94643ba49f48ae17f3f5896f1455988135f674e3 Merge branch 'misc-6.5' into next-fixes
-6bf7aa5f60000a2de1f61d0822fa8995e580e4a8 Merge branch 'misc-6.5' into for-next-current-v6.4-20230816
-d71bd87130aa6177d55ff83981932fa40ad35c2e Merge branch 'next-fixes' into for-next-next-v6.5-20230816
-a9b1683a9c57abdad8c5efdb8dec8fdcbbeb616d Merge branch 'misc-next' into for-next-next-v6.5-20230816
-40012b8e793c7a8e0c5f65f172d1c70945998504 Merge branch 'ext/hch/dep-writeback-fixes-v2' into for-next-next-v6.5-20230816
-dc659f03e640cd23932161722f9573b410368240 Merge branch 'ext/hch/dep-nocow-fix' into for-next-next-v6.5-20230816
-98ed7c696c31ccb7694f7de27f1ec3bb3477999a Merge branch 'for-next-current-v6.4-20230816' into for-next-20230816
-7b1ea87cecbb780e59748071ad7383b40eef91fa Merge branch 'for-next-next-v6.5-20230816' into for-next-20230816
+30c694fd4a99fbbc4115d180156ca01b60953371 regulator: da9063: better fix null deref with partial DT
+7cdf55462c5533a1c78ae13ab8563558e30e4130 regulator: qcom-rpmh: Fix LDO 12 regulator for PM8550
+55c91fedd03d7b9cf0c5199b2eb12b9b8e95281a virtio-mmio: don't break lifecycle of vm_dev
+9ad1a29cb0991e3145996cdce691525e8ac65db7 pds_vdpa: protect Makefile from unconfigured debugfs
+5ced58bfa132c8ba0f9c893eb621595a84cfee12 vhost-scsi: Fix alignment handling with windows
+c5ace19efb0ac884a9a417e2a1499ce9849bdaa5 vhost-scsi: Rename vhost_scsi_iov_to_sgl
+8d4bdf11f096e5b343ee0f9aaa8c262dc16d2e1e MAINTAINERS: add vhost-scsi entry and myself as a co-maintainer
+13f3efaca024e16ccfab0e8b2cf29d66489d8d54 virtio-pci: Fix legacy device flag setting error in probe
+79c8651587504ba263d2fd67fd4406240fb21f69 vdpa: Add features attr to vdpa_nl_policy for nlattr length check
+b3003e1b54e057f5f3124e437b80c3bef26ed3fe vdpa: Add queue index attr to vdpa_nl_policy for nlattr length check
+5d6ba607d6cb5c58a4ddf33381e18c83dbb4098f vdpa: Add max vqp attr to vdpa_nl_policy for nlattr length check
+f46c1e1620c6bbc9aad5693082efd1b80822e97c vdpa: Enable strict validation for netlinks ops
+7ca26efb09a1543fddb29308ea3b63b66cb5d3ee vduse: Use proper spinlock for IRQ injection
+df9557046440b0a62250fee3169a8f6a139f55a6 virtio-vdpa: Fix cpumask memory leak in virtio_vdpa_find_vqs()
+3fe024193340b225d1fd410d78c495434a9d68e0 vdpa/mlx5: Correct default number of queues when MQ is on
+9ee811009ad8f87982b69e61d07447d12233ad01 vdpa/mlx5: Fix mr->initialized semantics
+ad03a0f44cdb97b46e5c84ed353dac9b8ae2c276 vdpa/mlx5: Delete control vq iotlb in destroy_mr only when necessary
+810b0cc1c28a9b8d055dd8f7d85975e3cf9f4430 vdpa/mlx5: Fix crash on shutdown for when no ndev exists
+2c507ce90e02cd78d00fd4b0fe26c8641873c13f virtio-net: Zero max_tx_vq field for VIRTIO_NET_CTRL_MQ_HASH_CONFIG case
+0cd2c13b1c15dbbdf1e2ae5b7160537f97df06b5 pds_vdpa: reset to vdpa specified mac
+abdf31bd91120035172dc58e2e87064a72e9e087 pds_vdpa: always allow offering VIRTIO_NET_F_MAC
+ed88863040daad18d3f9b12f7c9c1c3da3731e1f pds_vdpa: clean and reset vqs entries
+c0a6c5cbf1a9e49357e942ed393da08a55808a49 pds_vdpa: alloc irq vectors on DRIVER_OK
+8efc365b20dc9a5b0c8fd0e8a195690bf21cd8be pds_vdpa: fix up debugfs feature bit printing
+f504e15b94eb4e5b47f8715da59c0207f68dffe1 virtio-mem: remove unsafe unplug in Big Block Mode (BBM)
+ddf409851461f515cc32974714b73efe2e012bde virtio-mem: convert most offline_and_remove_memory() errors to -EBUSY
+a31648fd4f96fbe0a4d0aeb16b57a2405c6943c0 virtio-mem: keep retrying on offline_and_remove_memory() errors in Sub Block Mode (SBM)
+f55484fd7be923b740e8e1fc304070ba53675cb4 virtio-mem: check if the config changed before fake offlining memory
+e8f5f849ffce24490eb9449e98312b66c0dba76f cifs: fix potential oops in cifs_oplock_break
+7a894c87374771f3cfb1b8e5453fbe03f1fb8135 parisc: Fix CONFIG_TLB_PTLOCK to work with lightweight spinlock checks
+69513dd669e243928f7450893190915a88f84a2b cifs: Release folio lock on fscache read hit.
+7b38f6ddc97bf572c3422d3175e8678dd95502fa smb3: display network namespace in debug information
+91aa6c412d7f85e48aead7b00a7d9e91f5cf5863 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+d4f8e13b0614dc237deefb4e270d6d0f060bed70 Merge tag 'regulator-fix-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+2d7b8c6b90e4054a35eb59cd6d7c66e903e8ae4b Merge tag '6.5-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+4853c74bd7ab7fdb83f319bd9ace8a08c031e9b6 Merge tag 'parisc-for-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============5066789915428225005==--
+--===============8245508640528078141==--
