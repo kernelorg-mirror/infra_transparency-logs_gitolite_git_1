@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Wed, 16 Aug 2023 07:59:14 -0000
-Message-Id: <169217275446.22299.16258732254100427801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 16 Aug 2023 08:11:42 -0000
+Message-Id: <169217350286.311.2470317226170250487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: f590814603bf2dd8620584b7d59ae94d7c186c69
-    new: 413f5c02929bb33042bbc4ee233166550a5fca70
+  - ref: refs/heads/vfs.super
+    old: cc65f694660bad5dd69e6b9e771f08009fa459a8
+    new: a3388adbff484ca0608adfb077eb3c0b996b9212
     log: |
-         584ed6d4afca4824f3bf18e588cc0cb555278bff soc: amlogic: Explicitly include correct DT includes
-         f2ed165619c16577c02b703a114a1f6b52026df4 firmware: meson_sm: fix to avoid potential NULL pointer dereference
-         3b289b89ddb599004cf6d2c2f6da68db5cb76ee3 Merge branch 'v6.6/arm-mach' into for-next
-         4b5159114cbcc8d36d107afac5447c0160c8d07a Merge branch 'v6.6/arm64-dt' into for-next
-         413f5c02929bb33042bbc4ee233166550a5fca70 Merge branch 'v6.6/drivers' into for-next
+         fbbc746c7c54a62edf18e4efa35b8cd533376a7a block: consolidate __invalidate_device and fsync_bdev
+         a000760f0f9cbee5b5c70a54cbd45a60f03a5afd block: call into the file system for bdev_mark_dead
+         a82a937ac1a384323be9e0ec866acda2d72fae98 block: call into the file system for ioctl BLKFLSBUF
+         4832895c75cb3e390be0c486cca6db76525bd246 fs: remove get_super
+         a3388adbff484ca0608adfb077eb3c0b996b9212 fs: simplify invalidate_inodes
          
