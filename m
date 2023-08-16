@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Aug 2023 07:45:34 -0000
-Message-Id: <169217193482.14222.2969999265242700457@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 07:58:42 -0000
+Message-Id: <169217272242.21978.3385698740998534574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 833fd800bf56b74d39d71d3f5936dffb3e0409c6
-    new: d80c3c9de067e08498d9bbfef7ab0b716fe4cc05
+  - ref: refs/heads/master
+    old: fe684acfdbda5916be9c0e6f9f3978f341499e14
+    new: 41a891f4791a5ef613d04c95d6cba63a1cb56024
     log: |
          77f67119004296a9b2503b377d610e08b08afc2a x86/cpu: Fix __x86_return_thunk symbol type
          af023ef335f13c8b579298fc432daeef609a9e60 x86/cpu: Fix up srso_safe_ret() and __x86_return_thunk()
@@ -25,4 +25,5 @@ changes:
          4854a36d877a3aef0afdd241cccb68c1825234d0 x86/cpu: Cleanup the untrain mess
          ad63073765fa394665bcb54660cc997f05b704d4 x86/cpu/kvm: Provide UNTRAIN_RET_VM
          d80c3c9de067e08498d9bbfef7ab0b716fe4cc05 x86/srso: Explain the untraining sequences a bit more
+         41a891f4791a5ef613d04c95d6cba63a1cb56024 Merge x86/urgent into tip/master
          
