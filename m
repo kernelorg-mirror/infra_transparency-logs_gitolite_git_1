@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 16 Aug 2023 05:57:42 -0000
-Message-Id: <169216546268.30674.7094420101227856246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 16 Aug 2023 05:59:08 -0000
+Message-Id: <169216554851.31296.16717453703784670142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: c23df8256b55297179aa7c0d874e8a82e1e443fd
-    new: 681352dc72c2dd4184e819ec88d1814232152d07
+  - ref: refs/heads/experimental
+    old: 2dd318025111217a71713b962b7e92532d87ba1e
+    new: 60f71d6614ddaecc595fa14de3ac131226393a61
     log: |
-         32562a44cac8283f404ff1a4cf68a511eb147f7e erofs: clean up redundant comment and adjust code alignment
-         17725f5fdab41166c388c0439d4b2785a8ac71f6 erofs: add necessary kmem_cache_create flags for erofs inode cache
-         681352dc72c2dd4184e819ec88d1814232152d07 erofs: remove redundant erofs_fs_type declaration in super.c
+         60f71d6614ddaecc595fa14de3ac131226393a61 AOSP: erofs-utils: add missing sbi argument to erofs_blknr in block list
          
