@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 16 Aug 2023 11:19:11 -0000
-Message-Id: <169218475132.20764.13324247870509738386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
+Date: Wed, 16 Aug 2023 11:20:32 -0000
+Message-Id: <169218483255.22973.12373308401832068945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/morse/linux
+user: morse
 changes:
-  - ref: refs/heads/main
-    old: 90bc21aaef4adaefceda2d385756138fc247c0c2
-    new: 7fd034bce6d276353a4e70c516789dfe6b2c32ae
+  - ref: refs/heads/mpam/snapshot/v6.5-rc1
+    old: 8a35b09275f16d009ed31e93b8b4b3004b04bceb
+    new: d2210e80c29bdd622cb88af630aa4de57a01181c
     log: |
-         7fd034bce6d276353a4e70c516789dfe6b2c32ae nfp: update maintainer
+         d2210e80c29bdd622cb88af630aa4de57a01181c fs/resctrl: Add cranky debug for reading CPU msr values
          
