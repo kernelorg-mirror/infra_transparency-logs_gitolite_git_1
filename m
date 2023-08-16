@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3014718302558953693=="
+Content-Type: multipart/mixed; boundary="===============2586212780206228206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 16 Aug 2023 16:15:12 -0000
-Message-Id: <169220251271.21005.6655008907869044158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 16 Aug 2023 16:15:19 -0000
+Message-Id: <169220251912.28206.17862519632207034336@gitolite.kernel.org>
 
---===============3014718302558953693==
+--===============2586212780206228206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/spi-6.5
     old: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
     new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
     log: revlist-52a93d39b17d-2ccdd1b13c59.txt
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: 373c36bf7914e3198ac2654dede499f340c52950
     new: 46f53bde6e69edf8a2e0943babb3f160b30ee436
     log: |
@@ -28,32 +28,32 @@ changes:
          46f53bde6e69edf8a2e0943babb3f160b30ee436 spi: rpc-if: switch to use devm_spi_alloc_host()
          
 
---===============3014718302558953693==
+--===============2586212780206228206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1692202511 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1692202510-b13edd6a5dd12a7dcb7848359299f5df07861a05
+pusher C3F436CA30F5D8EB 1692202517 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1692202516-d9d7204567e00b553767ebac40d69a2cf9b1f673
 
-52a93d39b17dc7eb98b6aa3edb93943248e03b2f 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 refs/heads/for-6.5
-373c36bf7914e3198ac2654dede499f340c52950 46f53bde6e69edf8a2e0943babb3f160b30ee436 refs/heads/for-6.6
+52a93d39b17dc7eb98b6aa3edb93943248e03b2f 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 refs/heads/spi-6.5
+373c36bf7914e3198ac2654dede499f340c52950 46f53bde6e69edf8a2e0943babb3f160b30ee436 refs/heads/spi-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTc9g8ACgkQJNaLcl1U
-h9DW7Af9GrAkjLlfY9M3ai6dtAXIoWF1c5SH8NUjOJNJYP/Z19aLUmu9RfnJ8BJp
-xfy8qo4uT6Vv3117mHM/oWU+KJJUa4VN9q2l3Kpv50C9tAsQKd9DPP437/duB9To
-dQ5cCc+mOy2PpS3yQZWeLKNPEl9f0DfOBk0VESBlwKRlk7P0LVnwHCDLpRAJhr0z
-G5dYUf5W0fqkGYOoBkE9aqQoGsDzFTwIeW6XSG3K5BpbOy2DFuliE8TmY4e8H17E
-x8MwN9V7bfNayh6fbrqbPV3r1SdB5wjNz/8rlCf9O5ZC+yl3KmXidCZnxNE98/Dj
-2QP5hXky6QdbV9wHh/HotvuJxbD16w==
-=t8GV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTc9hUACgkQJNaLcl1U
+h9DRKgf9FnSA8lxN1dA7YjTmxx6kHD/qs8Y3ZlFT1Qp5SiKVvdqUiBvFnVwvHz7j
+3BRV0qpViF93x2Ssn6hVOpz63ydLW5P1dIB0Oz2ctvIX22KowR1fOe/XLTcZVkC+
++MhrgOL1b0nKXTnRP6YCVGkwPvlpUiWhNK3wnKj8UdWOUr2Ux4NIbVQDQuGvaFlO
+ISpZDYIHOxWxgGCYbWJ+p7y6xJwd19bJOAFNiFeV/fdviCBXcbGi2Up4YqV3e6Fu
+60cFb+v5Z7LtmFvmxP4BB4CygbWn/DogXjtE/QGkNVsK7Bdf+L+rs+ZWH/hPdyKq
+g3jopgm4JOWO3ZUUJl8wsXiA0orA2Q==
+=tTWI
 -----END PGP SIGNATURE-----
 
---===============3014718302558953693==
+--===============2586212780206228206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -448,4 +448,4 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
 
---===============3014718302558953693==--
+--===============2586212780206228206==--
