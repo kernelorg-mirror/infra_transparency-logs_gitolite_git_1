@@ -1,20 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Aug 2023 16:14:25 -0000
-Message-Id: <169220246569.12311.4515699893105597464@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8511755358995097100=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 16 Aug 2023 16:14:55 -0000
+Message-Id: <169220249566.12575.3416852261816960527@gitolite.kernel.org>
+
+--===============8511755358995097100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.6
-    old: 373c36bf7914e3198ac2654dede499f340c52950
-    new: 46f53bde6e69edf8a2e0943babb3f160b30ee436
+  - ref: refs/heads/for-6.5
+    old: 0fc7769e54e747c8fd1b4899af2ac43cb68daa1c
+    new: 2d218b45848b92b03b220bf4d9bef29f058f866f
     log: |
-         ecd02b6dee29b3d3a180cfda39d989752d0e913a spi: dw-mmio: keep old name same as documentation
-         46f53bde6e69edf8a2e0943babb3f160b30ee436 spi: rpc-if: switch to use devm_spi_alloc_host()
+         2d218b45848b92b03b220bf4d9bef29f058f866f ASoC: SOF: ipc4-pcm: fix possible null pointer deference
          
+
+--===============8511755358995097100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1692202494 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1692202493-d4a3dd5d7a17abe2cd876538ff6787a935a5e2b0
+
+0fc7769e54e747c8fd1b4899af2ac43cb68daa1c 2d218b45848b92b03b220bf4d9bef29f058f866f refs/heads/for-6.5
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTc9f4ACgkQJNaLcl1U
+h9DbMwf/UVr2LFsugkIiVRkVumI8XwbzLhhvJtfD/R3jVWrIJR9M9xpb6VSFngTX
+ljSTSia1VhdwZP22Qf3LxoCQSjRlxyL9Wq5fY+WcuM/8/m6mgWmeHheklDFimRUp
+biyvvUTjw3ElkSxxg6u4jkyiBP6EF5AiUcyDRwOZd23zrpGaMMxZQmwFE8d2Q+An
+oFxWLe3vvRAwvVclZSBdF5BOB1ySzGsXdLogRHJR+s6S4dL0zvMibNHWqrVzKt7c
+NEmpJ6kjaFXgpEQMbbNQ20dD5xdzEZHAN7WWgrR9lbMjRQ5sSKq26ReAd0azUZSY
+EP0rd1mZWZNuWJ/vuF2Zoi9rLzf+Uw==
+=hR4b
+-----END PGP SIGNATURE-----
+
+--===============8511755358995097100==--
