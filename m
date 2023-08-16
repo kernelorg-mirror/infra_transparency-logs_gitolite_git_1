@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1117894898374772865=="
+Content-Type: multipart/mixed; boundary="===============4210315035316350053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Aug 2023 18:41:18 -0000
-Message-Id: <169221127879.31019.4773972028502324118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 16 Aug 2023 18:41:46 -0000
+Message-Id: <169221130647.31283.5472160443118108834@gitolite.kernel.org>
 
---===============1117894898374772865==
+--===============4210315035316350053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
+  - ref: refs/heads/for-6.6
     old: 7ac1102b227b36550452b663fd39ab1c09378a95
     new: 17b9f4387ebabb19b871bbe2d06562e48e4e7130
     log: revlist-7ac1102b227b-17b9f4387eba.txt
 
---===============1117894898374772865==
+--===============4210315035316350053==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1692211304 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1692211304-5d0a732a66707465d651ec41e4378f8a3b0cb3ec
+
+7ac1102b227b36550452b663fd39ab1c09378a95 17b9f4387ebabb19b871bbe2d06562e48e4e7130 refs/heads/for-6.6
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTdGGgACgkQJNaLcl1U
+h9Bgjgf+MawU3erOrHd5CvmwfDmBBnZLU1q1tlmIGieK9X5IRbI5VzWsxKezO/W5
+CBjuHXVqOMYbeZixmxG0z6e5rPSR6qqvzP8rT3BViZSzU82gpMQj8o3bliLyNox6
+itG7wi5R9o9WNN44OB/hERTJcfAlUIaeBstxF2XHdGc52WhnZBCEsHBXqBOYFBW3
+OanZxlRAPxu/5dTdn6Zr2uegXu8HrEpblMgAJD9kQc0RahvfVRdNbZ/1VAmDSJ3V
+sB5KWqbHiymSGRfxeAUztPRDl4Jj3QGd3IboMl+ok42EDfBAws5cUCO6h85i+nnj
+BPMdZJ7N/EZKbWcCB+jvT+t4odHvgA==
+=QspQ
+-----END PGP SIGNATURE-----
+
+--===============4210315035316350053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +63,4 @@ c91e67145bc6d03f94416f7fbe566c6f6751cd47 ASoC: samsung: midas_wm1811: parse audi
 2dc8c0366599cb4dfd939e6eafd94010f3aff233 ASoC: samsung: odroid: parse audio-routing
 17b9f4387ebabb19b871bbe2d06562e48e4e7130 ASoC: samsung: tm2_wm5110: parse audio-routing
 
---===============1117894898374772865==--
+--===============4210315035316350053==--
