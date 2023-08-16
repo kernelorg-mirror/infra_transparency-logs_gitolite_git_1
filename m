@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 16 Aug 2023 06:38:17 -0000
-Message-Id: <169216789763.28910.3840444776139403059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Aug 2023 06:43:21 -0000
+Message-Id: <169216820182.32370.14152941714775450539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 409896794380c1dc0d596bbb9255e583a94d9a00
-    new: 905240d169ebe4b879628b4a05316332803a3c3d
+  - ref: refs/heads/main
+    old: e56e220d73caf06e9e6f5553f414376b4af51c8a
+    new: 78c53eaae1e13d973098a968d3e3bdaaceef5aca
     log: |
-         905240d169ebe4b879628b4a05316332803a3c3d ALSA: hda: intel-dsp-cfg: Add Chromebook quirk to ADL/RPL
-         
-  - ref: refs/heads/master
-    old: 24f52a6914f8313e022c35904a7b776836742618
-    new: 2dfdf079dccc7ba980ffa9096d9dd7eb4e52bdbf
-    log: |
-         905240d169ebe4b879628b4a05316332803a3c3d ALSA: hda: intel-dsp-cfg: Add Chromebook quirk to ADL/RPL
-         2dfdf079dccc7ba980ffa9096d9dd7eb4e52bdbf Merge branch 'for-next'
+         f601899e432155c1c7d372a7924f1a2301ca64b4 net: fec: add XDP_TX feature support
+         af6f4791380c320802df2106e295efd29c5e8b16 net: fec: improve XDP_TX performance
+         78c53eaae1e13d973098a968d3e3bdaaceef5aca Merge branch 'fec-XDP_TX'
          
