@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0205851184234737948=="
+Content-Type: multipart/mixed; boundary="===============6562198687059596382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 16 Aug 2023 13:43:42 -0000
-Message-Id: <169219342263.30360.14421390518032130956@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 13:43:55 -0000
+Message-Id: <169219343563.30509.396722980565828693@gitolite.kernel.org>
 
---===============0205851184234737948==
+--===============6562198687059596382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: aead78125a987f48944bff2001f61df72b95afc4
     new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
     log: revlist-aead78125a98-2ccdd1b13c59.txt
 
---===============0205851184234737948==
+--===============6562198687059596382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
 
---===============0205851184234737948==--
+--===============6562198687059596382==--
