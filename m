@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 16 Aug 2023 06:32:47 -0000
-Message-Id: <169216756765.23907.3369546196173515896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 16 Aug 2023 06:36:19 -0000
+Message-Id: <169216777935.26807.11766808417441860470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 295c95aa7e0310ad8a89e98f1632d066e8526bb2
-    new: 18ddaeb03bdb65b84fece11a8cac5bf583ae1b91
+  - ref: refs/heads/for-next
+    old: ef4ba63f12b03532378395a8611f2f6e22ece67b
+    new: 409896794380c1dc0d596bbb9255e583a94d9a00
     log: |
-         18ddaeb03bdb65b84fece11a8cac5bf583ae1b91 RDMA/mlx4: Copy union directly
+         409896794380c1dc0d596bbb9255e583a94d9a00 ALSA: hda: cs35l41: Fix the loop check in cs35l41_add_dsd_properties
+         
+  - ref: refs/heads/master
+    old: 9c4808d769d7d771fa9514910f6fb978195c9c8d
+    new: 24f52a6914f8313e022c35904a7b776836742618
+    log: |
+         409896794380c1dc0d596bbb9255e583a94d9a00 ALSA: hda: cs35l41: Fix the loop check in cs35l41_add_dsd_properties
+         24f52a6914f8313e022c35904a7b776836742618 Merge branch 'for-next'
          
