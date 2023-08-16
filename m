@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3470172415179586404=="
+Content-Type: multipart/mixed; boundary="===============2827791425079986960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 16 Aug 2023 15:19:40 -0000
-Message-Id: <169219918042.3685.5249346812819658004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 16 Aug 2023 15:20:32 -0000
+Message-Id: <169219923296.5836.2561357275771258321@gitolite.kernel.org>
 
---===============3470172415179586404==
+--===============2827791425079986960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 5ceb8b5b7d8768e8cc4ab0a7858fa017f0189375
     log: revlist-55b290501928-5ceb8b5b7d87.txt
 
---===============3470172415179586404==
+--===============2827791425079986960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ e104df97b8dcfbab2e42de634b99bf03f0805d85 perf vendor events: Drop some of the JS
 edd65d2bc55fb84d7b80c2ffe3b74d9b11ac4e2f perf vendor events: Update metric event names for power10 platform
 5ceb8b5b7d8768e8cc4ab0a7858fa017f0189375 perf vendor events: Update metric events for power10 platform
 
---===============3470172415179586404==--
+--===============2827791425079986960==--
