@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/nolibc
-Date: Wed, 16 Aug 2023 08:22:59 -0000
-Message-Id: <169217417994.7958.5293739404259420886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
+Date: Wed, 16 Aug 2023 08:29:44 -0000
+Message-Id: <169217458446.11954.633267419463422371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wtarreau/nolibc
-user: wtarreau
+repo: pub/scm/linux/kernel/git/horms/ipvs
+user: horms
 changes:
-  - ref: refs/tags/20230816-for-6.6-3
-    old: 0000000000000000000000000000000000000000
-    new: fff000d65f33fbc0cf22e952943f14798cc29787
+  - ref: refs/heads/main
+    old: 8a519a572598b7c0c07b02f69bf5b4e8dd4b2d7d
+    new: e4dd0d3a2f64b8bd8029ec70f52bdbebd0644408
+    log: |
+         e4dd0d3a2f64b8bd8029ec70f52bdbebd0644408 net: fix the RTO timer retransmitting skb every 1ms if linear option is enabled
+         
