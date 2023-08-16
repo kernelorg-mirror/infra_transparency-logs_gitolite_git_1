@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 16 Aug 2023 05:59:08 -0000
-Message-Id: <169216554851.31296.16717453703784670142@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 06:02:09 -0000
+Message-Id: <169216572991.1922.244332208599676956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 2dd318025111217a71713b962b7e92532d87ba1e
-    new: 60f71d6614ddaecc595fa14de3ac131226393a61
+    old: 60f71d6614ddaecc595fa14de3ac131226393a61
+    new: 1e429b74bff825f61c5f99cbf3d41369df77a831
     log: |
-         60f71d6614ddaecc595fa14de3ac131226393a61 AOSP: erofs-utils: add missing sbi argument to erofs_blknr in block list
+         1e429b74bff825f61c5f99cbf3d41369df77a831 erofs-utils: lib: fix potential out-of-bound in xattr_entrylist()
          
