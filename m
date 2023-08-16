@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0277063082598326397=="
+Content-Type: multipart/mixed; boundary="===============3842816544511101504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 16 Aug 2023 15:21:49 -0000
-Message-Id: <169219930987.6357.2530506601510496841@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 15:22:23 -0000
+Message-Id: <169219934380.6637.10050831112831564928@gitolite.kernel.org>
 
---===============0277063082598326397==
+--===============3842816544511101504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8a519a572598b7c0c07b02f69bf5b4e8dd4b2d7d
-    new: de4c5efeeca7172306bdc2e3efc0c6c3953bb338
-    log: revlist-8a519a572598-de4c5efeeca7.txt
+  - ref: refs/heads/dev-queue
+    old: 8e5db4d73415c64d07aa7ca7743c4a2882c8979b
+    new: 1f78520212966ce123fc69817f8c0f4737b70047
+    log: revlist-8e5db4d73415-1f7852021296.txt
 
---===============0277063082598326397==
+--===============3842816544511101504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a519a572598-de4c5efeeca7.txt
+Content-Disposition: attachment; filename=revlist-8e5db4d73415-1f7852021296.txt
 
 dfa73c17d55b921e1d4e154976de35317e43a93a net: xfrm: Fix xfrm_address_filter OOB read
 75065a8929069bc93181848818e23f147a73f83a net: af_key: fix sadb_x_filter validation
@@ -55,5 +55,21 @@ a552bfa16bab4ce901ee721346a28c4e483f4066 net: openvswitch: reject negative ifind
 0b70f1950e79b37df5617c83ed1ad1a4cc7fc89c mailmap: add entries for Simon Horman
 b35c968363c036e93f95cb233182f2d1c44605c2 ipv6: fix indentation of a config attribute
 de4c5efeeca7172306bdc2e3efc0c6c3953bb338 Merge tag 'nf-23-08-16' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+78f18aab131e35dc6738ac96a320e7539137b308 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+7f33b6be6e56a9c93d8add3f99cfd66c2610545c igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+dceeb8693b6a5235b426eed43808dbba255b5399 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+ed402589814ba61b4bc1d09cf3d9b357b749a802 ice: avoid executing commands on other ports when driving sync
+eca8291bd144dbb2edecbdb50536461d3c15c4d1 i40e: fix livelocks in i40e_reset_subtask()
+a4d405f460b300d2bf421565bab2bf6dab3faa97 i40e: fix misleading debug logs
+717a296c8d08b38bb18bc49483a48affb8e11662 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+cfaa3d43eee13978747a92ef0a7c68b10f50de2d iavf: fix FDIR rule fields masks validation
+05ca1aa147796f87a2f064272a74bbb04646550d igc: Fix the typo in the PTM Control macro
+b5a39c2e8962b9f1344d246e50e65f272fc2b1e0 ice: Block switchdev mode when ADQ is active and vice versa
+79141a15cb62e2e31b646c0e20bd8c318269504c ice: fix receive buffer size miscalculation
+e102a2bd77acdae044829fe99c90252784f7d790 Revert "ice: Fix ice VF reset during iavf initialization"
+290fca1a3f6800a1d17d5f7aebd9482e52164ef2 ice: Fix NULL pointer deref during VF reset
+63b3bdc1c7c963855455a09a1082538bee819848 i40e: fix potential NULL pointer dereferencing of pf->vf i40e_sync_vsi_filters()
+3594fcc327960297280b97e6df22c47ae13628a9 i40e: fix potential memory leaks in i40e_remove()
+1f78520212966ce123fc69817f8c0f4737b70047 igb: Avoid starting unnecessary workqueues
 
---===============0277063082598326397==--
+--===============3842816544511101504==--
