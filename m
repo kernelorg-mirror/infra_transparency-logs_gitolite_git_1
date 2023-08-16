@@ -1,83 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============4184441705702194036=="
+Content-Type: multipart/mixed; boundary="===============6253407703186539588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 16 Aug 2023 20:08:43 -0000
-Message-Id: <169221652330.29362.5344657624684871029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 16 Aug 2023 20:19:18 -0000
+Message-Id: <169221715899.4072.5025442579219751252@gitolite.kernel.org>
 
---===============4184441705702194036==
+--===============6253407703186539588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/next
-    old: 538df5cf277f6d03b93daeac4d448cbb1a0ded19
-    new: 6eef21f63210264333a67ea2674d3e74ea6c60da
-    log: |
-         5f33a843de91f40ab2335e61d4373ace87301b07 upload-pack: fix exit code when denying fetch of unreachable object ID
-         95b6ae9d747ed52912dec95fe397b11f0a5383ec notes doc: split up run-on sentences
-         3a6e1ad80bdf5d09cb484e77cc4bfffdd9a15bdf notes doc: tidy up `--no-stripspace` paragraph
-         18c4aac0dd33eca76607b54d347932d6ec655056 show-ref doc: fix carets in monospace
-         c81f1a167659ce0634fdd1dcdb43c2697b546151 rev-list-options: fix typo in `--stdin` documentation
-         d0522d547d9a939371b836d0ee3fa2dde2ca5271 Merge branch 'ds/upload-pack-error-sequence-fix' into next
-         397c62dd359cd3f9801fd66ae488390a4531c6a6 Merge branch 'tl/notes-separator' into next
-         059ebeb48b442e68dba1ba2c6ead276229959825 Merge branch 'sa/doc-ls-remote' into next
-         6eef21f63210264333a67ea2674d3e74ea6c60da Merge branch 'ps/revision-stdin-with-options' into next
-         
-  - ref: refs/heads/seen
-    old: 1ea2790887c06267a25117250f849b3a7af1d307
-    new: 98c5e9ad9683328a3c3c2f0295e07092ee99b26e
-    log: revlist-1ea2790887c0-98c5e9ad9683.txt
+    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
+    new: ca92bb44f00a71338cc31f657b8bebcb5fa6aee5
+    log: revlist-2ccdd1b13c59-ca92bb44f00a.txt
 
---===============4184441705702194036==
+--===============6253407703186539588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ea2790887c0-98c5e9ad9683.txt
+Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-ca92bb44f00a.txt
 
-5f33a843de91f40ab2335e61d4373ace87301b07 upload-pack: fix exit code when denying fetch of unreachable object ID
-95b6ae9d747ed52912dec95fe397b11f0a5383ec notes doc: split up run-on sentences
-3a6e1ad80bdf5d09cb484e77cc4bfffdd9a15bdf notes doc: tidy up `--no-stripspace` paragraph
-18c4aac0dd33eca76607b54d347932d6ec655056 show-ref doc: fix carets in monospace
-c81f1a167659ce0634fdd1dcdb43c2697b546151 rev-list-options: fix typo in `--stdin` documentation
-d52704b1efffed3f991ee7f87c46cb0d7b325db0 Merge branch 'mh/credential-libsecret-attrs' into jch
-2d2b1a8b2431ce9dec1151ce6aac8aec8b781736 Merge branch 'mh/credential-erase-improvements-more' into jch
-ef00065dbb0f2a61ddb632a53e7a2a56f7766eef Merge branch 'jt/path-filter-fix' into jch
-2136bc4b4a10d82979940c4cf8ca6ba068230124 Merge branch 'rj/branch-in-use-error-message' into jch
-67a0685b297f3eac56103a7eae212fec6c43fd21 Merge branch 'ob/sequencer-rearrange-cleanup' into jch
-68d8ec7b3a01d7c8f60543fb198047d22f01251b Merge branch 'tb/repack-geometry-cleanup' into jch
-1e6c96dde42f9eb6bb343977406663bf951ae8f2 Merge branch 'ws/git-push-doc-grammofix' into jch
-be1f83831adbe4bd72684d3344c23e4e70f2c8b5 Merge branch 'ds/upload-pack-error-sequence-fix' into jch
-f41b23bd4957d827770a27ce1dfda33897b867a1 Merge branch 'mp/rebase-label-length-limit' into jch
-a96881a7afa0147d8a97dd36fe05e20808cb9d0e Merge branch 'ob/test-lib-rebase-fake-editor-updates' into jch
-cf610a7220a3ee2de03ee4eaefdf560beee5c0d4 Merge branch 'tb/commit-graph-verify-fix' into jch
-889ce9d95e2df4e419bdb07f405444147537c2a5 Merge branch 'tl/notes-separator' into jch
-fa1f26f99d7a10fbbc36dd0e8134a3e39bdb6f9d Merge branch 'sa/doc-ls-remote' into jch
-3272dc19b6f5a79001c69e03cfa31f95daf002c7 Merge branch 'ps/revision-stdin-with-options' into jch
-7c9b81ed114d3e82f54ec25c080b1e69e1b25875 ### match next
-4a02e4be2a77b659add4e8e8cc0cf43a7bf8a9fa Merge branch 'rs/parse-options-negation-help' into jch
-328bcb29108efcd60f7e2fc5b35d31be29f0fe5d Merge branch 'pw/rebase-i-after-failure' into jch
-213dd41424283fee57e8f9e78f9dac7136222b05 Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
-2090e672d1f207985d6c6c88c77d0c85d9e26885 Merge branch 'jc/rerere-cleanup' into jch
-880efca8cef25ff2088572cdcf6619106408d5c7 Merge branch 'rj/status-bisect-while-rebase' into jch
-3ed64168e64db2d2d0d68d7d272b5193ee2d20a1 Merge branch 'la/trailer-cleanups' into jch
-54f9e7c17ce53479324b70c8b5ee767f89bf459e Merge branch 'ds/maintenance-schedule-fuzz' into jch
-7522d0ad860f7a262355698d9e910d4a3d7ff52f Merge branch 'ja/worktree-orphan' into jch
-90738bd0697c69d2270c12d9d28cc6a671a7b871 Merge branch 'ob/t9001-indent-fix' into jch
-58b3304ac89fd32ee587b36ba4777481ceb444d3 Merge branch 'ds/scalar-updates' into jch
-8af29e28e16446cd4026eb400ef06af19fe1acd3 Merge branch 'js/doc-unit-tests' into seen
-c21f5ac4596cca8037e59ee7dac6dab9c26c79d0 Merge branch 'cc/git-replay' into seen
-d82ec517bd456f9d7089ae3979f5efda79b5c1fe Merge branch 'ak/pretty-decorate-more' into seen
-9edae5de572069ad95a2edd6461b82ef2cf504a7 Merge branch 'sl/sparse-check-attr' into seen
-871dd045072bb73ca82ca67bb554b5da8ac6083a Merge branch 'la/trailer-test-and-doc-updates' into seen
-cc87129a60efbaa870b86064fc937e8eb23d0f40 Merge branch 'ws/svn-with-new-readline' into seen
-59117d60d1447a38f01585554070d9e38011ecf0 Merge branch 'ob/revert-of-revert-is-reapply' into seen
-8760da187fe23d40e7c844d0d6646131cc88d37f Merge branch 'ob/format-patch-description-file' into seen
-98c5e9ad9683328a3c3c2f0295e07092ee99b26e Merge branch 'jc/mv-d-to-d-error-message-fix' into seen
+30c694fd4a99fbbc4115d180156ca01b60953371 regulator: da9063: better fix null deref with partial DT
+7cdf55462c5533a1c78ae13ab8563558e30e4130 regulator: qcom-rpmh: Fix LDO 12 regulator for PM8550
+55c91fedd03d7b9cf0c5199b2eb12b9b8e95281a virtio-mmio: don't break lifecycle of vm_dev
+9ad1a29cb0991e3145996cdce691525e8ac65db7 pds_vdpa: protect Makefile from unconfigured debugfs
+5ced58bfa132c8ba0f9c893eb621595a84cfee12 vhost-scsi: Fix alignment handling with windows
+c5ace19efb0ac884a9a417e2a1499ce9849bdaa5 vhost-scsi: Rename vhost_scsi_iov_to_sgl
+8d4bdf11f096e5b343ee0f9aaa8c262dc16d2e1e MAINTAINERS: add vhost-scsi entry and myself as a co-maintainer
+13f3efaca024e16ccfab0e8b2cf29d66489d8d54 virtio-pci: Fix legacy device flag setting error in probe
+79c8651587504ba263d2fd67fd4406240fb21f69 vdpa: Add features attr to vdpa_nl_policy for nlattr length check
+b3003e1b54e057f5f3124e437b80c3bef26ed3fe vdpa: Add queue index attr to vdpa_nl_policy for nlattr length check
+5d6ba607d6cb5c58a4ddf33381e18c83dbb4098f vdpa: Add max vqp attr to vdpa_nl_policy for nlattr length check
+f46c1e1620c6bbc9aad5693082efd1b80822e97c vdpa: Enable strict validation for netlinks ops
+7ca26efb09a1543fddb29308ea3b63b66cb5d3ee vduse: Use proper spinlock for IRQ injection
+df9557046440b0a62250fee3169a8f6a139f55a6 virtio-vdpa: Fix cpumask memory leak in virtio_vdpa_find_vqs()
+3fe024193340b225d1fd410d78c495434a9d68e0 vdpa/mlx5: Correct default number of queues when MQ is on
+9ee811009ad8f87982b69e61d07447d12233ad01 vdpa/mlx5: Fix mr->initialized semantics
+ad03a0f44cdb97b46e5c84ed353dac9b8ae2c276 vdpa/mlx5: Delete control vq iotlb in destroy_mr only when necessary
+810b0cc1c28a9b8d055dd8f7d85975e3cf9f4430 vdpa/mlx5: Fix crash on shutdown for when no ndev exists
+2c507ce90e02cd78d00fd4b0fe26c8641873c13f virtio-net: Zero max_tx_vq field for VIRTIO_NET_CTRL_MQ_HASH_CONFIG case
+0cd2c13b1c15dbbdf1e2ae5b7160537f97df06b5 pds_vdpa: reset to vdpa specified mac
+abdf31bd91120035172dc58e2e87064a72e9e087 pds_vdpa: always allow offering VIRTIO_NET_F_MAC
+ed88863040daad18d3f9b12f7c9c1c3da3731e1f pds_vdpa: clean and reset vqs entries
+c0a6c5cbf1a9e49357e942ed393da08a55808a49 pds_vdpa: alloc irq vectors on DRIVER_OK
+8efc365b20dc9a5b0c8fd0e8a195690bf21cd8be pds_vdpa: fix up debugfs feature bit printing
+f504e15b94eb4e5b47f8715da59c0207f68dffe1 virtio-mem: remove unsafe unplug in Big Block Mode (BBM)
+ddf409851461f515cc32974714b73efe2e012bde virtio-mem: convert most offline_and_remove_memory() errors to -EBUSY
+a31648fd4f96fbe0a4d0aeb16b57a2405c6943c0 virtio-mem: keep retrying on offline_and_remove_memory() errors in Sub Block Mode (SBM)
+f55484fd7be923b740e8e1fc304070ba53675cb4 virtio-mem: check if the config changed before fake offlining memory
+e8f5f849ffce24490eb9449e98312b66c0dba76f cifs: fix potential oops in cifs_oplock_break
+7a894c87374771f3cfb1b8e5453fbe03f1fb8135 parisc: Fix CONFIG_TLB_PTLOCK to work with lightweight spinlock checks
+69513dd669e243928f7450893190915a88f84a2b cifs: Release folio lock on fscache read hit.
+7b38f6ddc97bf572c3422d3175e8678dd95502fa smb3: display network namespace in debug information
+91aa6c412d7f85e48aead7b00a7d9e91f5cf5863 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+d4f8e13b0614dc237deefb4e270d6d0f060bed70 Merge tag 'regulator-fix-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+2d7b8c6b90e4054a35eb59cd6d7c66e903e8ae4b Merge tag '6.5-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+4853c74bd7ab7fdb83f319bd9ace8a08c031e9b6 Merge tag 'parisc-for-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+ca92bb44f00a71338cc31f657b8bebcb5fa6aee5 tpm_tis: Revert "tpm_tis: Disable interrupts on ThinkPad T490s"
 
---===============4184441705702194036==--
+--===============6253407703186539588==--
