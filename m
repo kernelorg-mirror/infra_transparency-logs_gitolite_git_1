@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 16 Aug 2023 19:50:03 -0000
-Message-Id: <169221540354.16144.9788799846450747121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 16 Aug 2023 19:51:26 -0000
+Message-Id: <169221548668.17051.2878597979222576537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-6.6/io_uring
-    old: b105517176320eedbab91fa2fa6f6d52c290d14b
-    new: ebdfefc09c6de7897962769bd3e63a2ff443ebf5
+  - ref: refs/heads/master
+    old: 5109ebb80dad5374132ad87fecf5892d36f2fded
+    new: ef6d9b23aa589073cff4371135d017724728ae9f
     log: |
-         ebdfefc09c6de7897962769bd3e63a2ff443ebf5 io_uring/sqpoll: fix io-wq affinity when IORING_SETUP_SQPOLL is used
+         f38a5adcbd53eee1b83b9439deb9b7d219c27319 dt-bindings: net: bluetooth: qualcomm: document WCN7850 chipset
+         08292727a9fcfbdb95bd4ee36ad4a958ec1f7e77 Bluetooth: qca: use switch case for soc type behavior
+         ef6d9b23aa589073cff4371135d017724728ae9f Bluetooth: qca: add support for WCN7850
          
