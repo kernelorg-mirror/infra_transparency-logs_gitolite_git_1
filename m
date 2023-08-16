@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3289526632465543975=="
+Content-Type: multipart/mixed; boundary="===============0962425362180608666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 16 Aug 2023 13:43:06 -0000
-Message-Id: <169219338645.30018.4027027003045286616@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 13:43:23 -0000
+Message-Id: <169219340327.30184.12605256092750845208@gitolite.kernel.org>
 
---===============3289526632465543975==
+--===============0962425362180608666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: 71ab2f343f1f968092c74dde93648f55ec3af117
-    new: 39266b642ccdc154b48eae11263920956fa0e89e
-    log: revlist-71ab2f343f1f-39266b642ccd.txt
+  - ref: refs/heads/master
+    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+    new: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
+    log: revlist-fdf0eaf11452-2ccdd1b13c59.txt
 
---===============3289526632465543975==
+--===============0962425362180608666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71ab2f343f1f-39266b642ccd.txt
+Content-Disposition: attachment; filename=revlist-fdf0eaf11452-2ccdd1b13c59.txt
 
+c900dc6858e87e2f2396954377ae956925b17135 vgacon: remove unused xpos from vgacon_set_cursor_size()
+93686f6b01df3e904569ee7265ee181d859b201d vgacon: let vgacon_doresize() return void
+1023ca1973c6253f7ba9024b2b0c27168f50ab3d vgacon: cache vc_cell_height in vgacon_cursor()
 4f2ba39a40480e6019133730f1741fdbb7137290 sticon: make sticon_set_def_font() void and remove op parameter
 933ab3a81cb73d08bc6b4eadeb3a98c9194abdf5 fbcon: remove unused display (p) from fbcon_redraw()
 298e082558d86aa904486d087ce45d35c1122f1e fbdev: kyro: make some const read-only arrays static and reduce type size
@@ -72,6 +75,7 @@ c718ca0e99401d80d2480c08e1b02cf5f7cd7033 KVM: arm64: Fix hardware enable/disable
 95ca6599a589ee84c69f02d0e1d928c8d1367fb1 btrfs: zoned: do not enable async discard
 690c8b804ad2eafbd35da5d3c95ad325ca7d5061 TIOCSTI: always enable for CAP_SYS_ADMIN
 8dbfc14fc736eb701089aff09645c3d4ad3decb1 btrfs: account block group tree when calculating global reserve size
+272ffb925e2020000863748867d91a2407d3e8e9 counter: Fix menuconfig "Counter support" submenu entries disappearance
 195ef75e19287b4bc413da3e3e3722b030ac881e Bluetooth: use RCU for hci_conn_params and iterate safely in hci_sync
 7f7cfcb6f0825652973b780f248603e23f16ee90 Bluetooth: hci_event: call disconnect callback before deleting conn
 d40ae85ee62e3666f45bc61864b22121346f88ef Bluetooth: ISO: fix iso_conn related locking and validity issues
@@ -1046,9 +1050,5 @@ d66a8aab7dc36c975bbaa6aa74cf7445878e7c69 platform: mellanox: Change register off
 3dcf1473c711be5536321fa4d465b9ed9e42a0ce Merge tag 'platform-drivers-x86-v6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 4c75bf7e4a0e5472bd8f0bf0a4a418ac717a9b70 Merge tag 'kbuild-fixes-v6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 2ccdd1b13c591d306f0401d98dedc4bdcd02b421 Linux 6.5-rc6
-7aadfd0eae311c542bccaf733f1312105a621a3e counter: Explicitly include correct DT includes
-83bc0982bf25edfcb261bebee51abc76ce8a975b counter: Declare counter_priv() to be const
-3a91388002afb03521b03c0cc1b7f371e3b1151a Documentation: ABI: sysfs-bus-counter: Fix indentation
-39266b642ccdc154b48eae11263920956fa0e89e counter: rz-mtu3-cnt: Reorder locking sequence for consistency
 
---===============3289526632465543975==--
+--===============0962425362180608666==--
