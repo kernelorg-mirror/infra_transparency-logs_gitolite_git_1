@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pchotard/sti
-Date: Wed, 16 Aug 2023 08:56:19 -0000
-Message-Id: <169217617976.328.10560758170479501814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 16 Aug 2023 08:56:40 -0000
+Message-Id: <169217620074.547.5718958828275140644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pchotard/sti
-user: pchotard
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/sti-next
-    old: f8483291e580a5787154f6aa89308c48b45e1b25
-    new: c262bc207f3410fa4ef45c7b78d1e62f8e7b5f5a
+  - ref: refs/heads/linux-5.10.y-cip
+    old: 260094841fe1a0a9e5ab7b9ae32450e8e4e0a4f4
+    new: c9b5a049d8ead0f771ee3424c42b20632ebc5b3b
     log: |
-         92b1a5060410d238cd01e952c4bdb6cbf68a6442 ARM: dts: st: stih407: drop max-duty-cycle
-         c83fbd4790916b6aac13efbe05ccbf20a14638b7 ARM: dts: st: correct serial alias in stih418-b2264.dts
-         3d94aef4f722a556f53d93c9a5c56214682f6e8a ARM: dts: st: move leds out of soc in stih418-b2264.dts
-         263f1322912f0f3b287c6c278cd93ef6e935b666 ARM: dts: st: correct led level in stih418-b2264.dts
-         b9b682bf665f3e1c7a2d1ee5cba20b7b3a4e516d dt-bindings: soc: sti: add STi platform syscon
-         c262bc207f3410fa4ef45c7b78d1e62f8e7b5f5a dt-bindings: arm: sti: add STi boards and remove stih415/stih416
+         c9b5a049d8ead0f771ee3424c42b20632ebc5b3b arm64: dts: renesas: rzg2l: Update overfow/underflow IRQ names for MTU3 channels
          
