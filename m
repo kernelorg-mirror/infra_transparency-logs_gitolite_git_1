@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 16 Aug 2023 21:46:47 -0000
-Message-Id: <169222240799.6073.14814966111367851770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 16 Aug 2023 21:48:36 -0000
+Message-Id: <169222251665.6794.9182016959804773997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/v6.6-rockchip-dts32-1
-    old: 0000000000000000000000000000000000000000
-    new: f9f9022b0185f229336b3bc0d078a4fc90b6fff9
+  - ref: refs/heads/master
+    old: 40061db0c2b79abf15a04d0a4779c0adeaf01796
+    new: c6736d8e3c0665cc48718099cb38866d60210b33
+    log: |
+         c6736d8e3c0665cc48718099cb38866d60210b33 scripts/sortman: Tighten regex
+         
