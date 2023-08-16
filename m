@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
-Date: Wed, 16 Aug 2023 11:20:32 -0000
-Message-Id: <169218483255.22973.12373308401832068945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Aug 2023 11:21:44 -0000
+Message-Id: <169218490497.23526.18042386571971508847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/morse/linux
-user: morse
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/mpam/snapshot/v6.5-rc1
-    old: 8a35b09275f16d009ed31e93b8b4b3004b04bceb
-    new: d2210e80c29bdd622cb88af630aa4de57a01181c
+  - ref: refs/heads/main
+    old: 7fd034bce6d276353a4e70c516789dfe6b2c32ae
+    new: ac8a52962164a50e693fa021d3564d7745b83a7f
     log: |
-         d2210e80c29bdd622cb88af630aa4de57a01181c fs/resctrl: Add cranky debug for reading CPU msr values
+         ac8a52962164a50e693fa021d3564d7745b83a7f net-memcg: Fix scope of sockmem pressure indicators
          
