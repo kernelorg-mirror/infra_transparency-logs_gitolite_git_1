@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 16 Aug 2023 11:21:44 -0000
-Message-Id: <169218490497.23526.18042386571971508847@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 11:22:34 -0000
+Message-Id: <169218495496.23872.17922659267726879737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 7fd034bce6d276353a4e70c516789dfe6b2c32ae
-    new: ac8a52962164a50e693fa021d3564d7745b83a7f
+    old: ac8a52962164a50e693fa021d3564d7745b83a7f
+    new: d147085183ea1b0efd2c18fca76e4dee873b1e4e
     log: |
-         ac8a52962164a50e693fa021d3564d7745b83a7f net-memcg: Fix scope of sockmem pressure indicators
+         d147085183ea1b0efd2c18fca76e4dee873b1e4e e1000e: Use PME poll to circumvent unreliable ACPI wake
          
