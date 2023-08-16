@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3896428788313347052=="
+Content-Type: multipart/mixed; boundary="===============1514563382970730264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 16 Aug 2023 15:25:24 -0000
-Message-Id: <169219952492.9363.15895119855841440697@gitolite.kernel.org>
+Date: Wed, 16 Aug 2023 15:26:06 -0000
+Message-Id: <169219956669.9706.6166788636653843829@gitolite.kernel.org>
 
---===============3896428788313347052==
+--===============1514563382970730264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 479b322ee6feaff612285a0e7f22c022e8cd84eb
-    new: 950fe35831af0c1f9d87d4105843c3b7f1fbf09b
-    log: revlist-479b322ee6fe-950fe35831af.txt
+  - ref: refs/heads/dev-queue
+    old: 0ad204c4acb8ba1ed99564b001609e62547bc79d
+    new: 2df3a4f28361c6c148507e194bd7867144b6ce48
+    log: revlist-0ad204c4acb8-2df3a4f28361.txt
 
---===============3896428788313347052==
+--===============1514563382970730264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-479b322ee6fe-950fe35831af.txt
+Content-Disposition: attachment; filename=revlist-0ad204c4acb8-2df3a4f28361.txt
 
 b608dd670bb69c89d5074685899d4c1089f57a16 net/mlx5: Consolidate devlink documentation in devlink/mlx5.rst
 3178308ad4ca38955cad684d235153d4939f1fcd net/mlx5e: Make tx_port_ts logic resilient to out-of-order CQEs
@@ -105,5 +105,73 @@ d147085183ea1b0efd2c18fca76e4dee873b1e4e e1000e: Use PME poll to circumvent unre
 3dec89b14d37ee635e772636dad3f09f78f1ab87 net/ipv6: Remove expired routes with a separated list of routes.
 a63e10da42e757408d98732aaf5cf84bfd3a8276 selftests: fib_tests: Add a test case for IPv6 garbage collection
 950fe35831af0c1f9d87d4105843c3b7f1fbf09b Merge branch 'ipv6-expired-routes'
+1a7a3369c63205c954df04bf6388d3a75cfb7b98 ice: avoid executing commands on other ports when driving sync
+ccbb7a2d4d60cd6387be16a08ae56ba1c61f2e47 ice: prefix clock timer command enumeration values with ICE_PTP
+ec5f95d809e9b074480d75825f83031f8539c94c ice: retry acquiring hardware semaphore during cross-timestamp request
+3b83d132151b1dad240e14cf50df4d5c2dd5680e ice: Support cross-timestamping for E823 devices
+d5db7031d799b56920ca4ac12e8520321c722dc4 ice: move E810T functions to before device agnostic ones
+d348822291777b961d813f16dedd9fd61c8e6a4a ice: introduce hw->phy_model for handling PTP PHY differences
+90595e7d6e82e90f388d791580f91656dd867be8 e1000e: Add support for the next LOM generation
+59d66b3a55b0d929b4edb7f52f880e804ba3172f igc: Decrease PTM short interval from 10 us to 1 us
+530626092bc7302705dd59db972f77d9f122a92f igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+9cd4e2b65017e43f8ac740b7518a6ed237e5013c igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+c612b9d48fee7e05f8123abbaa810ab684d75904 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+aeacaa86b84ee48bbb3f213a6471f99531213d89 i40e: fix livelocks in i40e_reset_subtask()
+0154152b29141d4ed4df44f01a12e0bafca698e7 ice: PTP: Clean up timestamp registers correctly
+ff65a18bd9ac6effcd39c06facdcfb0c04acec18 ice: PTP: Rename macros used for PHY/QUAD port definitions
+fcf0abd447e6360463264d97dfcb511e031996d3 ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+3ee7b651d7c719b5d8b91304a1d8091235d6f9ac ice: Auxbus devices & driver for E822 TS
+ee9c421487f963a9da728d96139d008079a07fd6 ice: Use PTP auxbus for all PHYs restart in E822
+d6a3221297144445af3934a437803a678ce081b5 ice: PTP: add clock domain number to auxiliary interface
+8aa03fac17f66fc5587828a0fabf470303215f73 ice: Remove the FW shared parameters
+89329c076461698e2bbaf68035f697b140433525 ice: Remove redundant VSI configuration in eswitch setup
+bdfd213bcd1a68c4f9713ec1708937ab67b69528 i40e: Clear stats after deleting tc
+80872818eff505c63f484754c037f31dd3158725 ice: drop two params from ice_aq_alloc_free_res()
+3a9cc155dcc3b3847a48c965ddcab0c068556180 i40e: fix misleading debug logs
+a9302b08209c44f8b3534d1814ed0ed79dafa8db igc: Add support for multiple in-flight TX timestamps
+c20c600711aa5a666af4f7c986f4be0045cf839d ice: use list_for_each_entry() helper
+d285677439a30070361f563ac93dbc4361ba2d1d virtchnl: fix fake 1-elem arrays in structs allocated as `nents + 1` - 1
+b2ec55e70eae7871eff456095aa06aa3cecdc5e3 virtchnl: fix fake 1-elem arrays in structures allocated as `nents + 1`
+04fd874a8e96d62d8bea9ddf1e1a651eeb7f1cf4 virtchnl: fix fake 1-elem arrays for structures allocated as `nents`
+0d6c6faf537260880146b22ccaf6bd925d507c1c iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+2a13a9ad841e6f7991410892dbdc30dd2328f98d iavf: fix FDIR rule fields masks validation
+c7ff5626445718c545a846ff049ffdef020759e8 igc: Fix the typo in the PTM Control macro
+bb6e640c0820e43b94253970123a4841b29e9187 ice: remove FW logging code
+eb276451f241f56b85fe5a2b00c83231aca40a4e ice: configure FW logging
+74438a446aaa6b6bdacf53f9fadeb678aa5af53b ice: enable FW logging
+1e62ff6f4432d84324c312d10bb94271ce99c8aa ice: add ability to read FW log data and configure the number of log buffers
+b0c0ba95545037c7e8f48fe89dbca25bff6dadde ice: add documentation for FW logging
+d48d0805f7acdb677cddab0750366d182f42711e ice: ice_aq_check_events: fix off-by-one check when filling buffer
+b5f1eb486e08057cc28b5f69b4ab888dd5197207 ice: embed &ice_rq_event_info event into struct ice_aq_task
+8ea924b293aaebe2018eb974c6779768b4831ed6 ice: split ice_aq_wait_for_event() func into two
+44e030c4d861cd6d4a24bba75328ae840c210518 ice: Block switchdev mode when ADQ is active and vice versa
+11692daec600251223c1a0d0912c20307660970f ice: remove unused methods
+3a13261d7f60569dfde6911beef4ce93911f3d18 ice: refactor ice_ddp to make functions static
+1b6d1254139ddd114ceb1cd9c48da40fd31be69b ice: refactor ice_lib to make functions static
+f6bf3834593d046adaf014f1043555c2204f64ee ice: refactor ice_vf_lib to make functions static
+705bcf1183d5128885ec09f8e81ee86b92e76c8f ice: refactor ice_sched to make functions static
+ed3506dd80888ef2b7c7bd852431ce9361f2acf3 ice: refactor ice_ptp_hw to make functions static
+b43a19c153b2ecb25603e6544ad8a9ee72939244 ice: refactor ice_vsi_is_vlan_pruning_ena
+083d41dda7937f0b6427358b56500982e01db015 ice: fix receive buffer size miscalculation
+d054da89a81c7dbc7da7f2f2ea3fed16c828ddc3 Revert "ice: Fix ice VF reset during iavf initialization"
+03a636d8d242a4c3d7d492a9e0adfd4f1279421d ice: Fix NULL pointer deref during VF reset
+48eed0dce92d22a84e5400464e05d3107beac6e1 i40e: fix potential NULL pointer dereferencing of pf->vf i40e_sync_vsi_filters()
+24291abb58308b3b79be26f986ef945753224fda i40e: fix potential memory leaks in i40e_remove()
+81bed5c89c75692651845fe62834e3100f675a73 igb: Avoid starting unnecessary workqueues
+51dc533cf34b38e18bc00f2b0941df4327ef8017 virtchnl: add virtchnl version 2 ops
+b23fbc349d4adc0ac145bf3f5ff142153f2a5c73 idpf: add module register and probe functionality
+b20784958d6ad487436d8110e21478eb8e2355f7 idpf: add controlq init and reset checks
+3f78a3eda6f00f73f170723a741617670cd35b5d idpf: add core init and interrupt request
+3e5e70f0b8471fdef30af6cb4f4ba3eb4a9b2190 idpf: add create vport and netdev configuration
+d2a0db6d4cb708633b8c1bacf3edf26490e72df2 idpf: add ptypes and MAC filter support
+1495e7d92cc0139354c9fb5f800563f3020b4d3d idpf: configure resources for TX queues
+dae4d5a38198e39dca472fbd13d1e3d86f779987 idpf: configure resources for RX queues
+bde837486c427749700b8abd94f19a2f37cd85d5 idpf: initialize interrupts and enable vport
+a37c75902dbe1fee84e247debe1338168e2e3bf4 idpf: add splitq start_xmit
+a601f7186b4ff10182793f50487005d04f6e9e22 idpf: add TX splitq napi poll support
+b8ac7f872dd5fce886f606d9942c33a4e47e2843 idpf: add RX splitq napi poll support
+87412661518fbaaf833f70559d5ddd06e4a0a9a2 idpf: add singleq start_xmit and napi poll
+04c6f42a7e982a4c2a3ed46c1a38f572ee7882cc idpf: add ethtool callbacks
+2df3a4f28361c6c148507e194bd7867144b6ce48 idpf: configure SRIOV and add other ndo_ops
 
---===============3896428788313347052==--
+--===============1514563382970730264==--
