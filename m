@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 17 Aug 2023 21:55:49 -0000
-Message-Id: <169230934931.15595.8364965217218842948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Aug 2023 21:59:18 -0000
+Message-Id: <169230955892.16911.2002074261192843777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-6.6
-    old: 82b90b6c5b38e457c7081d50dff11ecbafc1e61a
-    new: 78d44b824ed04dd1553c55c5b839c9a55cbcaf4e
-    log: |
-         78d44b824ed04dd1553c55c5b839c9a55cbcaf4e cgroup: Avoid -Wstringop-overflow warnings
-         
-  - ref: refs/heads/for-next
-    old: 82b90b6c5b38e457c7081d50dff11ecbafc1e61a
-    new: 78d44b824ed04dd1553c55c5b839c9a55cbcaf4e
-    log: |
-         78d44b824ed04dd1553c55c5b839c9a55cbcaf4e cgroup: Avoid -Wstringop-overflow warnings
-         
+  - ref: refs/tags/net-6.5-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 9daa8c1cf03a126b5c6bdc699e8feb95be126900
