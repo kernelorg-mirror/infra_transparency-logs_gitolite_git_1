@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 17 Aug 2023 21:28:10 -0000
-Message-Id: <169230769066.26625.8049097724721671545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 17 Aug 2023 21:35:55 -0000
+Message-Id: <169230815539.32634.10454116045142842109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 4853c74bd7ab7fdb83f319bd9ace8a08c031e9b6
-    new: 16931859a6500d360b90aeacab3b505a3560a3ed
+  - ref: refs/heads/perf-tools-next
+    old: 1836480429d173c01664a633b61e525b13d41a2a
+    new: 042c126a3e2c6bdc52682fa72794bcfe35b38018
     log: |
-         c96e2a695e00bca5487824d84b85aab6aa2c1891 sunrpc: set the bv_offset of first bvec in svc_tcp_sendmsg
-         16931859a6500d360b90aeacab3b505a3560a3ed Merge tag 'nfsd-6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         c3e1e8cf006bf8ed7e32b57ed00a1fe3ed2b1a08 perf arm64: Allow version comparisons of CPU IDs
+         81f7da549af472180ac2635b4b335a01fd8ee866 perf test: Add a test for the new Arm CPU ID comparison behavior
+         9d5da30e4ae9910ed5dd15636534a22a46f0066f perf jevents: Add a new expression builtin strcmp_cpuid_str()
+         d43f5491210197196458c1454f2be0eb66d3e4d1 perf vendor events arm64: Update stall_slot workaround for N2 r0p3
+         4473949074c35072f598bd525ae51d5455f05745 perf vendor events arm64: Update N2 and V2 metrics and events using Arm telemetry repo
+         ef23cb593304bde0cc046fd4cc83ae7ea2e24f16 perf top: Don't pass an ERR_PTR() directly to perf_session__delete()
+         abaf1e0355abb050f9c11d2d13a513caec80f7ad perf lock: Don't pass an ERR_PTR() directly to perf_session__delete()
+         1ce24329a46ec05ea9cb06778634ae7b725181aa perf trace: Use the augmented_raw_syscall BPF skel only for tracing syscalls
+         042c126a3e2c6bdc52682fa72794bcfe35b38018 perf trace: Use heuristic when deciding if a syscall tracepoint "const char *" field is really a string
          
