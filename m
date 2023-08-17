@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Thu, 17 Aug 2023 16:34:36 -0000
-Message-Id: <169229007657.3370.7332442774148317028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 17 Aug 2023 16:43:55 -0000
+Message-Id: <169229063569.11167.2154269058945882789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: djiang
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: feb72e9b20823419aaed57801018eeffc7be7e82
-    new: 08ca6906a4b7e48f8e93b7c1f49a742a415be6d5
+  - ref: refs/heads/for-next
+    old: 3172c8432af03e2b9b736babbc7a70a11b4893bc
+    new: f041bd4efadf3233a01cc99aefdc24b40e0a9723
     log: |
-         85ae42c72142346645e63c33835da947dfa008b3 nvdimm: Fix memleak of pmu attr_groups in unregister_nvdimm_pmu()
-         08ca6906a4b7e48f8e93b7c1f49a742a415be6d5 nvdimm: Fix dereference after free in register_nvdimm_pmu()
+         d2fa68e0b48e5890d4aba5330860ebb51e96404c gfs2: Fix logd wakeup in quotad
+         421832fe7c82f4c119aa46346fb2a1940420ca1b gfs2: journal flush threshold fixes and cleanup
+         2d031f6546b199e089c8b139868b1d466e3b1503 gfs2: Remove explicit SDF_ bit numbers
+         f041bd4efadf3233a01cc99aefdc24b40e0a9723 gfs2: prevent gfs2_logd from spinning
          
