@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 17 Aug 2023 21:36:06 -0000
-Message-Id: <169230816603.332.11412180936405010652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Aug 2023 21:37:11 -0000
+Message-Id: <169230823170.1151.10370905186168093600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 1836480429d173c01664a633b61e525b13d41a2a
-    new: 042c126a3e2c6bdc52682fa72794bcfe35b38018
+  - ref: refs/heads/main
+    old: e9bbd6016947c40728558b7b921c1e77e6193e8b
+    new: 820a38d8f2cb3a749ffb7bbde206acec9a387411
     log: |
-         c3e1e8cf006bf8ed7e32b57ed00a1fe3ed2b1a08 perf arm64: Allow version comparisons of CPU IDs
-         81f7da549af472180ac2635b4b335a01fd8ee866 perf test: Add a test for the new Arm CPU ID comparison behavior
-         9d5da30e4ae9910ed5dd15636534a22a46f0066f perf jevents: Add a new expression builtin strcmp_cpuid_str()
-         d43f5491210197196458c1454f2be0eb66d3e4d1 perf vendor events arm64: Update stall_slot workaround for N2 r0p3
-         4473949074c35072f598bd525ae51d5455f05745 perf vendor events arm64: Update N2 and V2 metrics and events using Arm telemetry repo
-         ef23cb593304bde0cc046fd4cc83ae7ea2e24f16 perf top: Don't pass an ERR_PTR() directly to perf_session__delete()
-         abaf1e0355abb050f9c11d2d13a513caec80f7ad perf lock: Don't pass an ERR_PTR() directly to perf_session__delete()
-         1ce24329a46ec05ea9cb06778634ae7b725181aa perf trace: Use the augmented_raw_syscall BPF skel only for tracing syscalls
-         042c126a3e2c6bdc52682fa72794bcfe35b38018 perf trace: Use heuristic when deciding if a syscall tracepoint "const char *" field is really a string
+         751969e5b1196821ef78f0aa664a8a97c92c9057 iavf: fix FDIR rule fields masks validation
+         2f2beb8874cb0844e84ad26e990f05f4f13ff63f i40e: fix misleading debug logs
+         820a38d8f2cb3a749ffb7bbde206acec9a387411 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
