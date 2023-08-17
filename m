@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2767230919651912269=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Aug 2023 18:51:38 -0000
-Message-Id: <169229829804.8051.17433503437936906701@gitolite.kernel.org>
-
---===============2767230919651912269==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Thu, 17 Aug 2023 18:51:43 -0000
+Message-Id: <169229830363.8181.1444959556930520462@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/dev-queue
-    old: 840a26e352a8a10025336c193191f9b1fb54a7dc
-    new: 52d0f297b37b44066ca22abdcc164766ea49ac18
-    log: revlist-840a26e352a8-52d0f297b37b.txt
-
---===============2767230919651912269==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-840a26e352a8-52d0f297b37b.txt
-
-234d8a3f3200e263347afeee064ba568e5ce7480 ice: Add E830 device IDs, MAC type and registers
-ac17456163cc62ca4c928ec2a87f91ac311e3e6c ice: Refactor finding advertised link speed
-6df88d11bdc18586229790029d5d6cd8df7a5db9 ice: Add 200G speed/phy type use
-5bc5ebb2f99040e1dab0ca26ec9de619ec85f2e2 ice: Add ice_get_link_status_datalen
-456920d495d74f958f26fb6058459b4252dad2d1 ice: Add support for E830 DDP package segment
-0449c6fedeb991182797dae6ba7c588bedb39b39 ice: Remove redundant zeroing of the fields.
-3f80f65dfb2bcdc262e76e1321e23d6959a07a5a ice: Enable support for E830 device IDs
-089d4f6dc6f8942acc875e0ea16c117fe11fc682 ice: remove ICE_F_PTP_EXTTS feature flag
-c964db3b06c4d2fc120e726ddc247d744069659c ice: fix pin assignment for E810-T without SMA control
-edeeea5f33c2c56dc1e955b9360bfe0b3428528f ice: don't enable PTP related capabilities on non-owner PFs
-46d6c58270ce3e4391fe5bc8d210b2ceebc96288 ice: check the netlist before enabling ICE_F_SMA_CTRL
-52d0f297b37b44066ca22abdcc164766ea49ac18 ice: check netlist before enabling ICE_F_GNSS
-
---===============2767230919651912269==--
+  - ref: refs/heads/testing
+    old: 015e2d9101d3713c7bee16dccad171df04a3bbd5
+    new: 9f70604b7fb853bc47af7a9a47441e8a9e8ca5a8
+    log: |
+         6a7017e9bc3ecf366ba90389bb70dd9c99ddabcf netfilter: ebtables: replace zero-length array members
+         b220da16774ff08e7c00681724b40b84e01c1c19 netfilter: ipset: refactor deprecated strncpy
+         7b34b7f6993553e7e22ae5b02088538875cb0a4a netfilter: nf_tables: refactor deprecated strncpy
+         2307a5606b6f522f3b81c7af252b03a6ee6c4874 netfilter: nf_tables: refactor deprecated strncpy
+         894cd23528b7ff8008cbcc12516a9bcd5ff6531b netfilter: nft_osf: refactor deprecated strncpy
+         150e958570b7c69d790889d073733cad8bf046db netfilter: nft_meta: refactor deprecated strncpy
+         4cc1106f054991b8bd40420c5a3018653954b8de netfilter: x_tables: refactor deprecated strncpy
+         9f70604b7fb853bc47af7a9a47441e8a9e8ca5a8 netfilter: xtables: refactor deprecated strncpy
+         
