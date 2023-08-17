@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0485763012923593956=="
+Content-Type: multipart/mixed; boundary="===============2322015443377701483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 17 Aug 2023 04:46:38 -0000
-Message-Id: <169224759816.25176.5823270653362869225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 17 Aug 2023 04:46:48 -0000
+Message-Id: <169224760840.25360.10092879103238900155@gitolite.kernel.org>
 
---===============0485763012923593956==
+--===============2322015443377701483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ef66bf8aeb91fd331cf8f5dca8f9d7bca9ab2849
     new: 47762f08697484cf0c2f2904b8c52375ed26c8cb
     log: revlist-ef66bf8aeb91-47762f086974.txt
-  - ref: refs/tags/next-20230517
-    old: d60dfd6a5d475a26dc243db970094d7996358fb3
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230817
     old: 0000000000000000000000000000000000000000
     new: b716f180b9b7f75df91b0875201d3ca94117880a
 
---===============0485763012923593956==
+--===============2322015443377701483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -684,4 +681,4 @@ e91737d636a461169453f62f0fc5461eff193ed1 Merge branch 'bitmap-for-next' of https
 ab182348905e3fd6d41d4c0f66366bb87d917f5d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 47762f08697484cf0c2f2904b8c52375ed26c8cb Add linux-next specific files for 20230817
 
---===============0485763012923593956==--
+--===============2322015443377701483==--
