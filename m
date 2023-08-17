@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 17 Aug 2023 13:49:52 -0000
-Message-Id: <169228019241.11794.11248847305287458556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 17 Aug 2023 13:53:41 -0000
+Message-Id: <169228042164.14838.5901493624035501014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/affs
-    old: dc88c2aa2890707adaa4ecac87cbc963b6b36ed5
-    new: 38d589e7d955ad75b2e055e699a7a53f728c90bb
-    log: |
-         98de34f520a2584afb48eda32e6a35c32917744c affs: remove writepage implementation
-         38d589e7d955ad75b2e055e699a7a53f728c90bb affs: rename local toupper() to fn() to avoid confusion
-         
+  - ref: refs/heads/20230817_linus_walleij_asoc_convert_remaining_realtek_codecs_to_gpio_descriptors
+    old: 0000000000000000000000000000000000000000
+    new: 21818c61770addbe56b992d94b4553841a286678
