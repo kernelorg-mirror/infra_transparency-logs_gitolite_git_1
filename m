@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4955405477217014159=="
+Content-Type: multipart/mixed; boundary="===============8481774012048474006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 17 Aug 2023 11:41:18 -0000
-Message-Id: <169227247898.15855.1779342597069475062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 17 Aug 2023 11:56:47 -0000
+Message-Id: <169227340751.26035.622790570369966120@gitolite.kernel.org>
 
---===============4955405477217014159==
+--===============8481774012048474006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/next-master
+  - ref: refs/heads/kdevops
     old: ef66bf8aeb91fd331cf8f5dca8f9d7bca9ab2849
     new: 47762f08697484cf0c2f2904b8c52375ed26c8cb
     log: revlist-ef66bf8aeb91-47762f086974.txt
 
---===============4955405477217014159==
+--===============8481774012048474006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -678,4 +678,4 @@ e91737d636a461169453f62f0fc5461eff193ed1 Merge branch 'bitmap-for-next' of https
 ab182348905e3fd6d41d4c0f66366bb87d917f5d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 47762f08697484cf0c2f2904b8c52375ed26c8cb Add linux-next specific files for 20230817
 
---===============4955405477217014159==--
+--===============8481774012048474006==--
