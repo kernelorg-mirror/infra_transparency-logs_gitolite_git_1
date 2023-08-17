@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 17 Aug 2023 10:30:51 -0000
-Message-Id: <169226825155.28640.9470569344147932006@gitolite.kernel.org>
+Date: Thu, 17 Aug 2023 10:31:04 -0000
+Message-Id: <169226826455.28786.5046635218869645746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: c9b5a049d8ead0f771ee3424c42b20632ebc5b3b
-    new: f8567732a40de26cd92366e14e0f9857935fd92d
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 0a940c1b3dc0b7b907d02c5d9fa674cec6d979fd
+    new: 7a63cd6687809418abe7cf98ec8d9ccd3423ed3a
     log: |
-         18fd80589c3617d0b3da6b79ac517773fcecc6fd arm64: dts: renesas: r9a07g044: Add Cortex-A55 PMU node
-         f8567732a40de26cd92366e14e0f9857935fd92d arm64: dts: renesas: r9a07g054: Add Cortex-A55 PMU node
+         2d117062db0f804fd1b5dec8295dc624face3de5 arm64: dts: renesas: r9a07g044: Add Cortex-A55 PMU node
+         7a63cd6687809418abe7cf98ec8d9ccd3423ed3a arm64: dts: renesas: r9a07g054: Add Cortex-A55 PMU node
          
