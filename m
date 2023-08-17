@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Aug 2023 21:37:11 -0000
-Message-Id: <169230823170.1151.10370905186168093600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 17 Aug 2023 21:39:02 -0000
+Message-Id: <169230834207.3055.3590374525140636612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: e9bbd6016947c40728558b7b921c1e77e6193e8b
-    new: 820a38d8f2cb3a749ffb7bbde206acec9a387411
+  - ref: refs/heads/asoc-6.6
+    old: 7eef29e9f0aa943c2fd21acbf293f9b7ecf67899
+    new: cfee987c92362331ea754c0fb092d5f37de0f2fb
     log: |
-         751969e5b1196821ef78f0aa664a8a97c92c9057 iavf: fix FDIR rule fields masks validation
-         2f2beb8874cb0844e84ad26e990f05f4f13ff63f i40e: fix misleading debug logs
-         820a38d8f2cb3a749ffb7bbde206acec9a387411 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         cfee987c92362331ea754c0fb092d5f37de0f2fb ASoC: Merge up fixes
          
