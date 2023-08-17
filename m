@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 17 Aug 2023 11:19:57 -0000
-Message-Id: <169227119737.31188.9998107311092207779@gitolite.kernel.org>
+Date: Thu, 17 Aug 2023 11:21:19 -0000
+Message-Id: <169227127942.959.16259013580670142923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: 2dd318025111217a71713b962b7e92532d87ba1e
-    new: 1e429b74bff825f61c5f99cbf3d41369df77a831
+  - ref: refs/heads/experimental
+    old: 1e429b74bff825f61c5f99cbf3d41369df77a831
+    new: ac3b2b1f5d03416dbea20c39f76b40a035800bdb
     log: |
-         60f71d6614ddaecc595fa14de3ac131226393a61 AOSP: erofs-utils: add missing sbi argument to erofs_blknr in block list
-         1e429b74bff825f61c5f99cbf3d41369df77a831 erofs-utils: lib: fix potential out-of-bound in xattr_entrylist()
+         ac20be2c0d08d7e61d64e854ebbe23250e9ad0d2 erofs-utils: lib: add match_base_prefix() helper
+         43d3a69ef7118dd9c5bec8e2f8c186f684eaed13 erofs-utils: add erofs_read_metadata() helper
+         ac3b2b1f5d03416dbea20c39f76b40a035800bdb erofs-utils: support long xattr name prefixes for erofsfuse
          
