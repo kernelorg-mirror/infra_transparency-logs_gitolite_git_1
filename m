@@ -1,60 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4169552328566721209=="
+Content-Type: multipart/mixed; boundary="===============5128746040160324400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 17 Aug 2023 02:01:52 -0000
-Message-Id: <169223771255.2423.14690040226561265730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 17 Aug 2023 03:17:05 -0000
+Message-Id: <169224222543.24838.18039639769064128507@gitolite.kernel.org>
 
---===============4169552328566721209==
+--===============5128746040160324400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/vfs.all
-    old: 24a62491bb899b1b2343e2ddf7e2a580241ea759
-    new: 6be51a71655da992dbedb084616c0c598fa7a4d8
-    log: revlist-24a62491bb89-6be51a71655d.txt
+  - ref: refs/heads/main
+    old: 950fe35831af0c1f9d87d4105843c3b7f1fbf09b
+    new: f54a2a132a9d76c0e31fd1d5f569e84682563e54
+    log: revlist-950fe35831af-f54a2a132a9d.txt
 
---===============4169552328566721209==
+--===============5128746040160324400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24a62491bb89-6be51a71655d.txt
+Content-Disposition: attachment; filename=revlist-950fe35831af-f54a2a132a9d.txt
 
-5d1f903f75a80daa4dfb3d84e114ec8ecbf29956 attr: block mode changes of symlinks
-0d5a4f8f775ff990142cdc810a84eae078589d27 fs: Fix error checking for d_hash_and_lookup()
-05f26f86f4a1f31d5ed2015ac1c89ea9da1d2bb7 epoll: simplify ep_alloc()
-ee042cdb9f0f8a802fc6497ca921e8863f090f6e fs/ecryptfs: remove kernel-doc warnings
-ed192c59f86910f089d061e635f6c1129bb14064 file: mostly eliminate spurious relocking in __range_close
-021a160abf62c19aff36c920566efb4f690e964a fs: use __fput_sync in close(2)
-4352b8cd66e22952210e8205312d2b9ecd70be54 fs: unexport d_genocide
-e062abaec65b970c4d7ecf26bc1558a1b6f92970 super: remove get_tree_single_reconf()
-dae8b08d5d83b7550917af06cfba76f0b908bf15 fs: add vfs_cmd_create()
-11a51d8c13a75f6b24cffeda8e5e11fc8a749f1e fs: add vfs_cmd_reconfigure()
-22ed7ecdaefe0cac0c6e6295e83048af60435b13 fs: add FSCONFIG_CMD_CREATE_EXCL
-f0659dd221f5d4ca5c1f15168d147f41301d9b79 vfs, security: Fix automount superblock LSM init problem, preventing NFS sb sharing
-66f2476990e16d1c24223bdbe8b91444b59c7693 fs/buffer.c: disable per-CPU buffer_head cache for isolated CPUs
-40cf8988a4857c3923d09038e041d7259432c161 docs: filesystems: idmappings: clarify from where idmappings are taken
-3ad5f49eedb7bc41d02f2079740f400b772a605e fs: Fix one kernel-doc comment
-f59c429c2b4903ae1470b010e111da6a119cbd1d vfs: fix up the assert in i_readcount_dec
-3b0086ced97f43a1eedb0d678b8992c30bfc99a2 init: Add support for rootwait timeout parameter
-21238b550dd6d51b1c92b2dd2572b5446ef71fe2 doc: idmappings: fix an error and rephrase a paragraph
-fbbc746c7c54a62edf18e4efa35b8cd533376a7a block: consolidate __invalidate_device and fsync_bdev
-a000760f0f9cbee5b5c70a54cbd45a60f03a5afd block: call into the file system for bdev_mark_dead
-a82a937ac1a384323be9e0ec866acda2d72fae98 block: call into the file system for ioctl BLKFLSBUF
-4832895c75cb3e390be0c486cca6db76525bd246 fs: remove get_super
-f3aeab61fb15edef1e81828da8dbf0814541e49b fs: simplify invalidate_inodes
-7f361cbce2ed8f6a832abd00663dfc3ddc590dd1 Merge branch 'vfs.tmpfs' into vfs.all
-2c60144548c0a4fd50a483251a01689823deaf38 Merge branch 'vfs.misc' into vfs.all
-39a15834336a80c33589700d156721296b9cfad3 Merge branch 'fs.proc.uapi' into vfs.all
-7dab070e6825f0d9b4a81d02aa7b988324756bdf Merge branch 'vfs.fchmodat2' into vfs.all
-4bcdb446f24b252e4dc201ec82e57973ab80e453 Merge branch 'vfs.super' into vfs.all
-2a86c0c2a9aff05bd7437adeb2fe1440318151e4 Merge branch 'vfs.autofs' into vfs.all
-6be51a71655da992dbedb084616c0c598fa7a4d8 Merge branch 'vfs.fs_context' into vfs.all
+01b8539655635288dcd46366806abfacbb9b1f6c bpf: Remove unused declaration bpf_link_new_file()
+6da4fea89d258ff4816e53345fcbc593104f98ec bpftool: fix perf help message
+8e50750f122e59ea4cab4b4f696ef22b391bedc9 libbpf: Set close-on-exec flag on gzopen
+811915db674f8daf19bb4fcb67da9017235ce26d selftests/bpf: Fix repeat option when kfunc_call verification fails
+83a89c4b6ae93481d3f618aba6a29d89208d26ed selftests/bpf: Clean up fmod_ret in bench_rename test script
+ccd9a8be2e42a337ad4da5d8a051e8293200a4f3 selftests/bpf: Add various more tcx test cases
+8ba651ed7fa1641f7c4941b79f2e3dd4ddb58aec bpf: Support default .validate() and .update() behavior for struct_ops links
+bb48cf1679d294d4fd3bfaa88289ed9004cbb025 bpf: Document struct bpf_struct_ops fields
+dda770407b817a7cfa72517905857f489cfc5e59 Merge branch 'Update and document struct_ops'
+8897562f67b3e61ad736cd5c9f307447d33280e4 net: Fix slab-out-of-bounds in inet[6]_steal_sock
+0aa35162d2a1ed7ae5303b8d91f7290d3b8b9219 bpf: Fix uninitialized symbol in bpf_perf_link_fill_kprobe()
+23cf7aa539dc26f45e42ef6303613f03f4ae2142 selftests/bpf: Add selftest for fill_link_info
+e16e6c6df475b10b1ed933a6827798312612358f bpftool: Implement link show support for tcx
+053bbf9bff58864be880d7e9a5af586793dbb7de bpftool: Implement link show support for xdp
+0dd061a6a115f25132989cbd591a25afb2dee086 bpf: Add update_socket_protocol hook
+97c9c652089b7081d5ed03b1dd0076c04ab12a4a selftests/bpf: Add two mptcp netns helpers
+207746550262e81b1e360d003a67f7ef7bacfbae selftests/bpf: Fix error checks of mptcp open_and_load
+ddba122428a75261fc4d3547f4e7e4aa6b67caef selftests/bpf: Add mptcpify test
+de40537364c34fd665a0f00d156d24c6c0e89a66 Merge branch 'bpf: Force to MPTCP'
+42b118c9f97f5e0431b6a364a789c212bed96652 Revert "net: ethernet: ti: am65-cpsw: add mqprio qdisc offload in channel mode"
+f54a2a132a9d76c0e31fd1d5f569e84682563e54 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============4169552328566721209==--
+--===============5128746040160324400==--
