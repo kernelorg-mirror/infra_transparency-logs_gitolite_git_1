@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 17 Aug 2023 15:49:52 -0000
-Message-Id: <169228739289.3010.16143656329253874746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 17 Aug 2023 15:53:17 -0000
+Message-Id: <169228759741.5949.17626859480011282170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 1836480429d173c01664a633b61e525b13d41a2a
-    new: 5ea1fd61d6d6c58a41f5f92af4459a3cc2a81fc0
+  - ref: refs/heads/next
+    old: 99df99bfa27d86b20673f53367b8194e8c35f53f
+    new: e173768a532645de75ae8ea82270976705320e8f
     log: |
-         f59e4a385b2ec36734c55a34d7509a13019d4861 perf arm64: Allow version comparisons of CPU IDs
-         aea6f4981c30de64763ee8c453277e41f751d550 perf test: Add a test for the new Arm CPU ID comparison behavior
-         efefb77a3fc65ad3c9dc89e4ef848b4f21b29b24 perf jevents: Add a new expression builtin strcmp_cpuid_str()
-         f27f9ca45cf3c089f0a787ade4c2d12ed2f4815b perf vendor events arm64: Update stall_slot workaround for N2 r0p3
-         c8e05220483259ebb102e29427ca440c63c4b543 perf vendor events arm64: Update N2 and V2 metrics and events using Arm telemetry repo
-         4c9aaf87aaa4a4044ef7f41a4e10b771dbf2dd74 perf top: Don't pass an ERR_PTR() directly to perf_session__delete()
-         82713b2b0fb8d88bf42ae792d807166ff50be723 perf lock: Don't pass an ERR_PTR() directly to perf_session__delete()
-         5ea1fd61d6d6c58a41f5f92af4459a3cc2a81fc0 perf trace: Use the augmented_raw_syscall BPF skel only for tracing syscalls
+         c96e2a695e00bca5487824d84b85aab6aa2c1891 sunrpc: set the bv_offset of first bvec in svc_tcp_sendmsg
+         16931859a6500d360b90aeacab3b505a3560a3ed Merge tag 'nfsd-6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         bff24699b94a34c5fcb8d3283794e7d39adb092c tpm_tis: Revert "tpm_tis: Disable interrupts on ThinkPad T490s"
+         105306f987b5e6f5f38aacf2be8458b7c2a237bb KEYS: DigitalSignature link restriction
+         e173768a532645de75ae8ea82270976705320e8f integrity: Enforce digitalSignature usage in the ima and evm keyrings
          
