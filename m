@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 17 Aug 2023 16:43:55 -0000
-Message-Id: <169229063569.11167.2154269058945882789@gitolite.kernel.org>
+Date: Thu, 17 Aug 2023 16:46:18 -0000
+Message-Id: <169229077872.13718.9962754478723203052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
   - ref: refs/heads/for-next
-    old: 3172c8432af03e2b9b736babbc7a70a11b4893bc
-    new: f041bd4efadf3233a01cc99aefdc24b40e0a9723
+    old: f041bd4efadf3233a01cc99aefdc24b40e0a9723
+    new: 584e70f20bd00109f1def3f777d6d6c78ca71b5a
     log: |
-         d2fa68e0b48e5890d4aba5330860ebb51e96404c gfs2: Fix logd wakeup in quotad
-         421832fe7c82f4c119aa46346fb2a1940420ca1b gfs2: journal flush threshold fixes and cleanup
-         2d031f6546b199e089c8b139868b1d466e3b1503 gfs2: Remove explicit SDF_ bit numbers
-         f041bd4efadf3233a01cc99aefdc24b40e0a9723 gfs2: prevent gfs2_logd from spinning
+         ac1a9ed1fa5862165e578ca5ebb9a0add8b8130a gfs2: Fix logd wakeup on I/O error
+         d8772bb008d04cebf7e02681865b7f32a0839fa6 gfs2: journal flush threshold fixes and cleanup
+         afa46f119fea12d574914943fbdd97fe319c2652 gfs2: Remove explicit SDF_ bit numbers
+         584e70f20bd00109f1def3f777d6d6c78ca71b5a gfs2: prevent gfs2_logd from spinning
          
