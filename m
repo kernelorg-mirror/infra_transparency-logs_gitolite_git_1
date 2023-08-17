@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 17 Aug 2023 09:34:33 -0000
-Message-Id: <169226487310.5219.16113616899677320656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 17 Aug 2023 09:51:47 -0000
+Message-Id: <169226590798.32748.17658530092688592665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: fe38a2d570df3ed868c255fdad16652886997a08
-    new: 4f6c9832613b421e56bad2f9e4e2767e43e1f97c
+  - ref: refs/heads/dev-test
+    old: 681352dc72c2dd4184e819ec88d1814232152d07
+    new: 80b45c60a9e7e5531caff1ad34c6ddca2b001ed0
     log: |
-         b683a3620748c0d058408d997f234293538b563a genpd: imx: relocate scu-pd under genpd
-         927b7d15dcf205cb3554cebf9acd255c432dd02f genpd: imx: scu-pd: enlarge PD range
-         a67d780720ff406943d56286bc06aa60c2b59d3a genpd: imx: scu-pd: add more PDs
-         309864dcf92b76fc601a579adf9eb389e4ca4c5c genpd: imx: scu-pd: do not power off console if no_console_suspend
-         ec8b5619750eaced14bfe38ec53f760d7cead19f genpd: imx: scu-pd: Suppress bind attrs
-         4f6c9832613b421e56bad2f9e4e2767e43e1f97c genpd: imx: scu-pd: initialize is_off according to HW state
+         0fe55a9055f0c9ad0f634b928af7cf94f4489e74 erofs: simplify z_erofs_read_fragment()
+         74c5187630e8628ad389c52070cfbaae6a8ff036 erofs: avoid obsolete {collector,collection} terms
+         3b815464a3094b1095a9f333e5c5fb5a6073d89c erofs: move preparation logic into z_erofs_pcluster_begin()
+         4d624469178b22573f45be2fea3df08eaadc3e06 erofs: tidy up z_erofs_do_read_page()
+         b276d190f18b7dd61e6770be308555a724eed8d9 erofs: drop z_erofs_page_mark_eio()
+         969353d0ecfa073fb9a8b2af91386d7b852eb2c2 erofs: get rid of fe->backmost for cache decompression
+         983fec1e96a8884dfb891a3ee081894efd00363d erofs: adapt folios for z_erofs_readahead()
+         80b45c60a9e7e5531caff1ad34c6ddca2b001ed0 erofs: adapt folios for z_erofs_read_folio()
          
