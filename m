@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1876880337901888196=="
+Content-Type: multipart/mixed; boundary="===============6087772632255021062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 17 Aug 2023 12:41:29 -0000
-Message-Id: <169227608972.27124.7041208091217675775@gitolite.kernel.org>
+Date: Thu, 17 Aug 2023 12:42:14 -0000
+Message-Id: <169227613429.27466.15115931112930054898@gitolite.kernel.org>
 
---===============1876880337901888196==
+--===============6087772632255021062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 6e6d847a8ce18ab2fbec4f579f682486a82d2c6b
-    new: 3c78dbf251350fdf3a9dab3b9c3391fb89df208d
-    log: revlist-6e6d847a8ce1-3c78dbf25135.txt
+  - ref: refs/heads/for-next
+    old: eac502461628e2e54be844a2f3e2d583dd273e17
+    new: 9ca4a7768615de369a2e720074722d9470ccc034
+    log: revlist-eac502461628-9ca4a7768615.txt
 
---===============1876880337901888196==
+--===============6087772632255021062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e6d847a8ce1-3c78dbf25135.txt
+Content-Disposition: attachment; filename=revlist-eac502461628-9ca4a7768615.txt
 
 34539b442b3bc7d5bf10164750302b60b91f18a7 bus: ti-sysc: Flush posted write on enable before reset
 8713c5e16698a5bda7f50e5c81799c419e0e2cb3 arm64: dts: qcom: sm8150: Fix OSM L3 interconnect cells
@@ -49,5 +49,6 @@ ebceec271e552a2b05e47d8ef0597052b1a39449 arm64: dts: rockchip: Fix Wifi/Bluetoot
 e7c12167a2948f4b638785e236a29e76208f8e83 Merge tag 'v6.5-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
 17fd01a243b4a45239e0e325ff18dd46b33a7661 Merge tag 'omap-for-v6.5/fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
 3c78dbf251350fdf3a9dab3b9c3391fb89df208d Merge tag 'qcom-arm64-fixes-for-6.5' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+9ca4a7768615de369a2e720074722d9470ccc034 Merge branch 'arm/fixes' into for-next
 
---===============1876880337901888196==--
+--===============6087772632255021062==--
