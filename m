@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 17 Aug 2023 19:44:02 -0000
-Message-Id: <169230144210.14601.17134366057180027931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 17 Aug 2023 19:44:51 -0000
+Message-Id: <169230149114.14959.4429813909118817048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/x86-efi-peheader-cleanup
-    old: ae3e507f4c513ced92a6249c3d430b35eeebc700
-    new: 7964a13e440b800cf995d2c337a3b64ff62f623a
+  - ref: refs/heads/master
+    old: f4aea37ee6cf6b6cb3f91e4d4c9f09611acfd610
+    new: 60731cab5891ad2be01f5fcdbf5908aff7df4fd1
     log: |
-         b421970f2a4b393ab88e77558b124b90b767e0c2 x86/boot: Derive file size from _edata symbol
-         b3ee0f94ec8a605dfba552bbea719ed2d5261c16 x86/build: Construct PE/COFF .text section from assembler
-         754179a1df22ded7969eb42b14ee85521bc78da1 x86/boot: Drop PE/COFF .reloc section
-         733920a4242e28578f719dab96ace0fce3af9fbe x86/boot: Split off PE/COFF .data section
-         656951b3b57fa604d36331c62ff9a30c13410ebd x86/boot: Increase section and file alignment to 4k/512
-         7964a13e440b800cf995d2c337a3b64ff62f623a x86/boot: Drop CRC-32 checksum and the build tool that generates it
+         31941ff3977c4764d7fcc6df20971f4ab601e38f monitor: Fix not printing latency information with -r
+         aed756136b7f87b3dda2ba99d8272734615e73a4 monitor: Detect LE-ACL connections
+         60731cab5891ad2be01f5fcdbf5908aff7df4fd1 iso-tester: Add test for bcast receiver defer setup
          
