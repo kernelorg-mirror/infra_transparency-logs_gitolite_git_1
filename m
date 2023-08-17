@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5391983758100910654=="
+Content-Type: multipart/mixed; boundary="===============3337103185654741094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 17 Aug 2023 12:26:14 -0000
-Message-Id: <169227517480.15540.16139319190496503645@gitolite.kernel.org>
+Date: Thu, 17 Aug 2023 12:26:30 -0000
+Message-Id: <169227519056.15708.7094698995712450179@gitolite.kernel.org>
 
---===============5391983758100910654==
+--===============3337103185654741094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 60842d4e1c0add5785794a23f643fad963a93d78
-    new: 0527a25699d6dfdc88dea9525bf85fd23a78a739
-    log: revlist-60842d4e1c0a-0527a25699d6.txt
-  - ref: refs/heads/vfio-ap
-    old: 0000000000000000000000000000000000000000
-    new: 0fc1ac4996e81fe04b09edc525852342ef894ee3
+  - ref: refs/heads/for-next
+    old: bff857f946b69d8fea61616dbdb5eb7221c147ec
+    new: 24639c0d40e8b1bfe4db4cdcadc5e57de2746f93
+    log: revlist-bff857f946b6-24639c0d40e8.txt
 
---===============5391983758100910654==
+--===============3337103185654741094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60842d4e1c0a-0527a25699d6.txt
+Content-Disposition: attachment; filename=revlist-bff857f946b6-24639c0d40e8.txt
 
 147a9dce8565f5596d77910f1338897d6af81cbd s390/vfio-ap: no need to check the 'E' and 'I' bits in APQSW after TAPQ
 0fce05b8f476c5af10a3f478ac5142099e05c89a s390/vfio-ap: clean up irq resources if possible
@@ -50,5 +47,7 @@ d88bd67c5225236e5ea85e3665e75e32c4000fe7 s390/pkey: fix PKEY_TYPE_EP11_AES handl
 f3d90785fd0b1be10d63653314537970b0336f10 s390/pkey: fix PKEY_TYPE_EP11_AES handling for sysfs attributes
 5b2e7b7e4cc3b42ba09dbbf1d4df695e38a64e7e s390/paes: fix PKEY_TYPE_EP11_AES handling for secure keyblobs
 0527a25699d6dfdc88dea9525bf85fd23a78a739 s390/airq: remove lsi_mask from airq_struct
+d538f118946fe6b2f67e989fc0aeb80bb77b86b4 Merge branch 'fixes' into for-next
+24639c0d40e8b1bfe4db4cdcadc5e57de2746f93 Merge branch 'features' into for-next
 
---===============5391983758100910654==--
+--===============3337103185654741094==--
