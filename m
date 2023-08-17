@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5652371069296502718=="
+Content-Type: multipart/mixed; boundary="===============1381723574151645832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 17 Aug 2023 07:30:53 -0000
-Message-Id: <169225745377.13609.10012222837044184880@gitolite.kernel.org>
+Date: Thu, 17 Aug 2023 07:31:16 -0000
+Message-Id: <169225747687.13824.12299935831236333975@gitolite.kernel.org>
 
---===============5652371069296502718==
+--===============1381723574151645832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: de40537364c34fd665a0f00d156d24c6c0e89a66
     new: f54a2a132a9d76c0e31fd1d5f569e84682563e54
     log: revlist-de40537364c3-f54a2a132a9d.txt
-  - ref: refs/tags/v6.5-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
-  - ref: refs/tags/v6.5-rc4
-    old: 0000000000000000000000000000000000000000
-    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
-  - ref: refs/tags/v6.5-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
 
---===============5652371069296502718==
+--===============1381723574151645832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -271,4 +262,4 @@ a63e10da42e757408d98732aaf5cf84bfd3a8276 selftests: fib_tests: Add a test case f
 42b118c9f97f5e0431b6a364a789c212bed96652 Revert "net: ethernet: ti: am65-cpsw: add mqprio qdisc offload in channel mode"
 f54a2a132a9d76c0e31fd1d5f569e84682563e54 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============5652371069296502718==--
+--===============1381723574151645832==--
