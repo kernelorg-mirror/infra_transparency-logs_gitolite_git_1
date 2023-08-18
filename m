@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 18 Aug 2023 07:09:58 -0000
-Message-Id: <169234259867.10609.10421096487156062257@gitolite.kernel.org>
+Date: Fri, 18 Aug 2023 07:10:55 -0000
+Message-Id: <169234265517.12620.16624733939409937422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: 01ed7f3535a2c59d27cb7e78cf62eb81d2bbf2ec
-    new: a707885aff6cfa4f2abcb33ca684044afe4e632c
+    old: a707885aff6cfa4f2abcb33ca684044afe4e632c
+    new: 828b871ac11a2a7d7c061e2a29a0f0a1225c694a
     log: |
-         a707885aff6cfa4f2abcb33ca684044afe4e632c ALSA: aoa: Fix typos in PCM fix patch
+         828b871ac11a2a7d7c061e2a29a0f0a1225c694a ALSA: Make SND_PCMTEST depend on DEBUG_FS
          
   - ref: refs/heads/master
-    old: 65f982cbc0ccdcdfde9a3ee72b2c476d92dff74d
-    new: 46c5337f31ec3665db0d823947fc8b11db6d02f2
+    old: 46c5337f31ec3665db0d823947fc8b11db6d02f2
+    new: 29c44c821097748777c91dedcc4e23351764ffb1
     log: |
-         a707885aff6cfa4f2abcb33ca684044afe4e632c ALSA: aoa: Fix typos in PCM fix patch
-         46c5337f31ec3665db0d823947fc8b11db6d02f2 Merge branch 'for-next'
+         828b871ac11a2a7d7c061e2a29a0f0a1225c694a ALSA: Make SND_PCMTEST depend on DEBUG_FS
+         29c44c821097748777c91dedcc4e23351764ffb1 Merge branch 'for-next'
          
