@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 18 Aug 2023 21:29:44 -0000
-Message-Id: <169239418467.9347.13438274814738068834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Fri, 18 Aug 2023 21:40:04 -0000
+Message-Id: <169239480420.19104.5307173607436990459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/dev-test
-    old: 0cc81b1ad51287847e494e055e5d3426f95e7921
-    new: 005abf9e5e0d4dcfce318ae5dbcac32b7bf6b647
+  - ref: refs/heads/md-next
+    old: cc22b5407e9ca76adb7efeed843146510b1b72a5
+    new: eb051b2d3118210b468870aedf21618d697f4f45
     log: |
-         726865e69aa39d113471066acfdf2be3bbd96d50 f2fs: doc: fix description of max_small_discards
-         005abf9e5e0d4dcfce318ae5dbcac32b7bf6b647 Revert "f2fs: do not issue small discard commands during checkpoint"
+         eb051b2d3118210b468870aedf21618d697f4f45 Merge tag 'md-next-20230817' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.6/block
          
