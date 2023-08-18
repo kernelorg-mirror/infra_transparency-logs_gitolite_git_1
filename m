@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 18 Aug 2023 08:19:36 -0000
-Message-Id: <169234677676.29407.3668860790261780513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 18 Aug 2023 08:24:20 -0000
+Message-Id: <169234706039.354.13759379325950173353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/vfs.super_wait
-    old: d7f66966f7859d7bb8d9ef0aa7aa8bc7819930a2
-    new: 44398d2425c32e35b21b6403b7ee83bb7c7c927b
+  - ref: refs/heads/features
+    old: 131c84f8172e86b532c2ea06564fb570f34f1e06
+    new: cba33db3fc4dbf2e54294b0e499d2335a3a00d78
+  - ref: refs/heads/for-next
+    old: d17e733e8480273ba43c11064e93ed37c90fcafc
+    new: ed33c7825b81a2178667c88892e832020678bebb
     log: |
-         62762afb34175a51ca9cfbf8ae79e71d30848c20 super: wait for nascent superblocks
-         c1d1959804b735c42925e403add90ef62b9669d8 super: wait until we passed kill super
-         44398d2425c32e35b21b6403b7ee83bb7c7c927b super: allow waiting without s_umount held
+         edc1b28f0b5839c76698c5fe4f9eb60def60cc2d Merge branch 'fixes' into for-next
+         ed33c7825b81a2178667c88892e832020678bebb Merge branch 'features' into for-next
          
