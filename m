@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 18 Aug 2023 08:18:21 -0000
-Message-Id: <169234670172.28901.6105430002895874976@gitolite.kernel.org>
+Date: Fri, 18 Aug 2023 08:19:36 -0000
+Message-Id: <169234677676.29407.3668860790261780513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/vfs.super_wait
-    old: a557fc228f1f01cd5f2f6bdb82ea3fc99dda1d45
-    new: d7f66966f7859d7bb8d9ef0aa7aa8bc7819930a2
+    old: d7f66966f7859d7bb8d9ef0aa7aa8bc7819930a2
+    new: 44398d2425c32e35b21b6403b7ee83bb7c7c927b
     log: |
-         49f5cff0953229cbe3fa8b1dd041691799350208 super: wait for nascent superblocks
-         0dff385d142e508ce2ad1bd71889986121e29c8c super: wait until we passed kill super
-         d7f66966f7859d7bb8d9ef0aa7aa8bc7819930a2 super: allow waiting without s_umount held
+         62762afb34175a51ca9cfbf8ae79e71d30848c20 super: wait for nascent superblocks
+         c1d1959804b735c42925e403add90ef62b9669d8 super: wait until we passed kill super
+         44398d2425c32e35b21b6403b7ee83bb7c7c927b super: allow waiting without s_umount held
          
