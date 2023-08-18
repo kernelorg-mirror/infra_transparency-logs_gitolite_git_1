@@ -1,24 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 18 Aug 2023 10:56:14 -0000
-Message-Id: <169235617495.30180.17226266234547772637@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0876821207094319199=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
+Date: Fri, 18 Aug 2023 11:05:09 -0000
+Message-Id: <169235670953.4248.12962825762688212816@gitolite.kernel.org>
+
+--===============0876821207094319199==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/horms/ipvs
+user: horms
 changes:
-  - ref: refs/heads/for_next
-    old: e9d69270eb3dc01a1e92f569b729ea40d642c8b3
-    new: 1f0085ddde5bf3291cef425def9511983495149d
-    log: |
-         2445a8a1922b46c56189203f7fdc1e1cb2a47cdd ext2: remove ext2_new_block()
-         b450159d0903b06ebea121a010ab9c424b67c408 ext2: introduce new flags argument for ext2_new_blocks()
-         83f99de1b7c0dcfa42b211e5e40334b7ad786b36 ext2: fix race between setxattr and write back
-         9bc6fc3304d89f19c028cb4a8d6af94f9e5faeb0 ext2: dump current reservation window info
-         2ebc736c8452f8ccf86f5398e8d8ceec283aa50d ext2: improve consistency of ext2_fsblk_t datatype usage
-         1f0085ddde5bf3291cef425def9511983495149d Pull ext2 xattr block overflow fix and ext2_fsblk_t cleanup.
-         
+  - ref: refs/heads/main
+    old: de4c5efeeca7172306bdc2e3efc0c6c3953bb338
+    new: 820a38d8f2cb3a749ffb7bbde206acec9a387411
+    log: revlist-de4c5efeeca7-820a38d8f2cb.txt
+
+--===============0876821207094319199==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-de4c5efeeca7-820a38d8f2cb.txt
+
+751969e5b1196821ef78f0aa664a8a97c92c9057 iavf: fix FDIR rule fields masks validation
+2f2beb8874cb0844e84ad26e990f05f4f13ff63f i40e: fix misleading debug logs
+34a79876d9f77e971115236bcf7b5d14a8ecf542 net/mlx5e: XDP, Fix fifo overrun on XDP_REDIRECT
+0fd23db0cc74cf6d28d26ce5e7802e982608d830 net/mlx5: Fix mlx5_cmd_update_root_ft() error flow
+23d775f12dcd23d052a4927195f15e970e27ab26 net: dsa: mv88e6xxx: Wait for EEPROM done before HW reset
+fa165e1949976704500a442faeef8d9596faee76 sfc: don't unregister flow_indr if it was never registered
+54c9016eb8eda55952a195b071359cd13f50ed9b sfc: don't fail probe if MAE/TC setup fails
+2d0c88e84e483982067a82073f6125490ddf3614 sock: Fix misuse of sk_under_memory_pressure()
+b616be6b97688f2f2bd7c4a47ab32f27f94fb2a9 net: do not allow gso_size to be set to GSO_BY_FRAGS
+2eb9625a3a32251ecea470cd576659a3a03b4e59 qede: fix firmware halt over suspend and resume
+43d00e102d9ecbe2635d7e3f2e14d2e90183d6af ice: Block switchdev mode when ADQ is active and vice versa
+e9bbd6016947c40728558b7b921c1e77e6193e8b Merge tag 'mlx5-fixes-2023-08-16' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+820a38d8f2cb3a749ffb7bbde206acec9a387411 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+
+--===============0876821207094319199==--
