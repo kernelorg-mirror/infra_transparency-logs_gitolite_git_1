@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 18 Aug 2023 17:48:38 -0000
-Message-Id: <169238091887.8911.16039925402034961406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 18 Aug 2023 17:49:00 -0000
+Message-Id: <169238094024.9129.11769991884947294148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: 1e429b74bff825f61c5f99cbf3d41369df77a831
-    new: ac3b2b1f5d03416dbea20c39f76b40a035800bdb
+  - ref: refs/heads/asoc-6.6
+    old: cfee987c92362331ea754c0fb092d5f37de0f2fb
+    new: 919a4a941863c539e982d34903e93d9777316f7d
     log: |
-         ac20be2c0d08d7e61d64e854ebbe23250e9ad0d2 erofs-utils: lib: add match_base_prefix() helper
-         43d3a69ef7118dd9c5bec8e2f8c186f684eaed13 erofs-utils: add erofs_read_metadata() helper
-         ac3b2b1f5d03416dbea20c39f76b40a035800bdb erofs-utils: support long xattr name prefixes for erofsfuse
+         aa98697c7dbd8dcb30841ca48456e7d534209d6d ASoC: rt5645: improve the depop sequences of CBJ detection
+         919a4a941863c539e982d34903e93d9777316f7d ASoC: amd: acp: Add kcontrols and widgets per-codec in common code
          
