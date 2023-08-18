@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6527698710762098884=="
+Content-Type: multipart/mixed; boundary="===============4177122048121883366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 18 Aug 2023 07:48:21 -0000
-Message-Id: <169234490141.6509.2996698143137606297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 18 Aug 2023 07:48:33 -0000
+Message-Id: <169234491369.6676.489297301768459688@gitolite.kernel.org>
 
---===============6527698710762098884==
+--===============4177122048121883366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 47762f08697484cf0c2f2904b8c52375ed26c8cb
     new: 7271b2a530428b879443b274c191b34536a4ea11
     log: revlist-47762f086974-7271b2a53042.txt
-  - ref: refs/heads/stable
-    old: 4853c74bd7ab7fdb83f319bd9ace8a08c031e9b6
-    new: 16931859a6500d360b90aeacab3b505a3560a3ed
-    log: |
-         c96e2a695e00bca5487824d84b85aab6aa2c1891 sunrpc: set the bv_offset of first bvec in svc_tcp_sendmsg
-         16931859a6500d360b90aeacab3b505a3560a3ed Merge tag 'nfsd-6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-         
-  - ref: refs/tags/next-20230518
-    old: 58263b6b90c10cee697ceed0ee26d8b67e1ffdd6
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230818
     old: 0000000000000000000000000000000000000000
     new: 1704e2d66cc4308cf5d466d578d7cd8c2bafe29b
 
---===============6527698710762098884==
+--===============4177122048121883366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1050,4 @@ e0af39e69c358ceb04ad90ba89f6c6216286199a Merge branch 'for-next/kspp' of git://g
 503a151ab4c5da5e29d3d228c9c29b19dc8a422c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 7271b2a530428b879443b274c191b34536a4ea11 Add linux-next specific files for 20230818
 
---===============6527698710762098884==--
+--===============4177122048121883366==--
