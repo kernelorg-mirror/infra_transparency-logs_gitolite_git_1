@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Fri, 18 Aug 2023 09:21:46 -0000
-Message-Id: <169235050665.11906.11649953931840015370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 18 Aug 2023 09:25:27 -0000
+Message-Id: <169235072714.14811.2354959493563651939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/nf-23-07-26
-    old: f6dc5688bfc747af1e910d217475efa4b3c6ab42
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mmc-v6.5-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 3a5962b003fa3c6e70aaa7733b49bf0ac4a64617
