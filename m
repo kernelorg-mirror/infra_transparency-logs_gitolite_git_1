@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 18 Aug 2023 08:24:20 -0000
-Message-Id: <169234706039.354.13759379325950173353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 18 Aug 2023 08:30:28 -0000
+Message-Id: <169234742810.6022.10495496585693921460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/features
-    old: 131c84f8172e86b532c2ea06564fb570f34f1e06
-    new: cba33db3fc4dbf2e54294b0e499d2335a3a00d78
-  - ref: refs/heads/for-next
-    old: d17e733e8480273ba43c11064e93ed37c90fcafc
-    new: ed33c7825b81a2178667c88892e832020678bebb
+  - ref: refs/heads/master
+    old: ac0ef4333e90941c9dbf589a2a0dfe923728c8fd
+    new: 9df342095e60c93067ddfa9a1ef19e4156ba2dfe
     log: |
-         edc1b28f0b5839c76698c5fe4f9eb60def60cc2d Merge branch 'fixes' into for-next
-         ed33c7825b81a2178667c88892e832020678bebb Merge branch 'features' into for-next
+         9df342095e60c93067ddfa9a1ef19e4156ba2dfe Fri Aug 18 08:28:27 AM UTC 2023
          
