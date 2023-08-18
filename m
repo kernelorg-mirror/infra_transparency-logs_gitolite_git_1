@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 18 Aug 2023 20:43:32 -0000
-Message-Id: <169239141240.7825.10459157119083807169@gitolite.kernel.org>
+Date: Fri, 18 Aug 2023 20:43:41 -0000
+Message-Id: <169239142163.7953.2266465218571033138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/ib-mfd-regulator-6.6
+  - ref: refs/tags/ib-mfd-regulator-v6.6
     old: 0000000000000000000000000000000000000000
-    new: c01467355f8eb126cab0ef28b66bb506fe6a2e21
+    new: 52f693adb951da47dc6c4cda33736603d1cc8aa0
