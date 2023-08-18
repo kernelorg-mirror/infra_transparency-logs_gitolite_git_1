@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-hw
-Date: Fri, 18 Aug 2023 07:39:22 -0000
-Message-Id: <169234436201.32245.3016912915769605409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 18 Aug 2023 07:44:52 -0000
+Message-Id: <169234469296.3545.8076613125489839193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/cs-hw
-user: maz
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/v3-dev
-    old: 9a6170355e5e08a4905f29c3be1eac65c3d2e5e1
-    new: f0c1200001bf7d919bc9bcdd732b5bedeca0a0b0
+  - ref: refs/heads/vfs.super_wait
+    old: 32fa790ce40b4c73b40079070061718e5540bfe9
+    new: b3b18f9805c406f24d40806d54a2d3094a39c4e4
     log: |
-         f9dcfe9471f858e8c3d879e307e0c6e46667a74e 1.2v power supply rework
-         025da396a8f0eb556323c5e4c1d32e53e9a3a6e0 Switch 4.7k resistors to Basic LCSC range
-         4f3760983d7ad3d520ab672a28ec677f4198f1ae Rename R{7,8} to R{5,6}
-         54f397ee5e7bd39eb307c3ba54255051017ce32c Change BSS138 for AO3400A
-         0b2a245c38840d9ab4cd5b3fc3fc278572589241 Pick Nexperia's version of 74AVC1T45 in JLCPCB's catalog
-         e70bbaa17b498e96fc657d5ebe25087debe26dcd Use Molex 105450-0101 for USB-C connector
-         f0c1200001bf7d919bc9bcdd732b5bedeca0a0b0 Use Molex 1050171001 for micro-USB connector
+         9cff69de2cb174274e4ffeea90652787fa4c1573 super: use locking helpers
+         0326f6a2030eb9d98da9e1a8296dc11de64b5ab8 super: make locking naming consistent
+         e54db70f7464ea24e023ce38b1fef641652d13e2 super: wait for nascent superblocks
+         6fd671ba6afd8f69005fff71a87c46eaaf0c6f80 super: wait until we passed kill super
+         b3b18f9805c406f24d40806d54a2d3094a39c4e4 super: allow waiting without s_umount held
          
