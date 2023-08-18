@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 18 Aug 2023 02:33:51 -0000
-Message-Id: <169232603153.1644.15940425095563916853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 18 Aug 2023 02:38:01 -0000
+Message-Id: <169232628136.6092.10591820743523361367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/qcom-arm64-defconfig-for-6.6
+  - ref: refs/tags/soc-fixes-6.5-3
     old: 0000000000000000000000000000000000000000
-    new: 893841af8cd5df27540625e165d3197334cf1df1
+    new: 93565d645dac1e821b439e6e7ba0ab24ce1cc1a6
