@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 18 Aug 2023 03:06:03 -0000
-Message-Id: <169232796350.26919.16249811505332802961@gitolite.kernel.org>
+Date: Fri, 18 Aug 2023 03:06:32 -0000
+Message-Id: <169232799258.27161.1258004496333480553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/kspp/memcpy/next-20210816/v2
-    old: 0f0894ea4d0761cc43917960b4878fa3d1ed7a5f
+  - ref: refs/heads/kspp/array-bounds/next-20210816/v1
+    old: b07d5e8190ca172b1ffddd1412b921296000b379
     new: 0000000000000000000000000000000000000000
