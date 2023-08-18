@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 18 Aug 2023 21:13:39 -0000
-Message-Id: <169239321940.31179.7308782344218139840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 18 Aug 2023 21:29:44 -0000
+Message-Id: <169239418467.9347.13438274814738068834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/x86-efi-peheader-cleanup
-    old: d1286d49b6ad4703f76265a2b4bdd952a6b6923d
-    new: 7adbbfc82e28c75fa5ae9217df351b921f2e0960
+  - ref: refs/heads/dev-test
+    old: 0cc81b1ad51287847e494e055e5d3426f95e7921
+    new: 005abf9e5e0d4dcfce318ae5dbcac32b7bf6b647
     log: |
-         06ebd9d11793e0165b482e1f4d8bde3908b9ed8a x86/boot: Increase section and file alignment to 4k/512
-         7adbbfc82e28c75fa5ae9217df351b921f2e0960 x86/boot: Drop CRC-32 checksum and the build tool that generates it
+         726865e69aa39d113471066acfdf2be3bbd96d50 f2fs: doc: fix description of max_small_discards
+         005abf9e5e0d4dcfce318ae5dbcac32b7bf6b647 Revert "f2fs: do not issue small discard commands during checkpoint"
          
