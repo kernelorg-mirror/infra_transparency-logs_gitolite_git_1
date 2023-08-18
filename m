@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Aug 2023 13:49:04 -0000
-Message-Id: <169236654408.26293.7191072774609165806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 18 Aug 2023 13:51:09 -0000
+Message-Id: <169236666908.29263.15323781612423874263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: c2e5f4fd1148727801a63d938cec210f16b48864
-    new: 5f6395fd06806a009b93436612768fe3777a154f
+  - ref: refs/heads/master
+    old: 7a74be1f97d9ad0a7989366bbfda6adeb419a9c2
+    new: f7d3f9cdd88c469838702ea21a7c43678be1e131
     log: |
-         6c9f86d3632c1abcbdaabeab1ee6d6de059b4ae7 arm64: insn: Add encoders for LDRSB/LDRSH/LDRSW
-         cc88f540da52d418ede80846c2fd771a4ef19227 bpf, arm64: Support sign-extension load instructions
-         bb0a1d6b49cb8293b09d290536315b4a134ef1e7 bpf, arm64: Support sign-extension mov instructions
-         1104247f3f97916f0afc29b73112c97affbfdbd2 bpf, arm64: Support unconditional bswap
-         c32b6ee514d26dc6c40c45984e534b2d87fba917 bpf, arm64: Support 32-bit offset jmp instruction
-         68b18191fe417459b4ebf4024cdf1b9d7b393de9 bpf, arm64: Support signed div/mod instructions
-         5f6395fd06806a009b93436612768fe3777a154f selftests/bpf: Enable cpu v4 tests for arm64
+         92e9af122f4a28ab73f5c2c5c0b79b72ae593971 Fixes for 6.4
+         9a9e6650e74b05d1aa745e548beed7f55d100ada Fixes for 6.1
+         cd92a0ddd69f9b2f9fcde0017127ad64cb410a70 Fixes for 5.15
+         c8201934ff9cb888657a8eb9d03b0af424ea47d2 Fixes for 5.10
+         7757452d579ab241cceff01ce7ee10b9e5aa1cdb Fixes for 5.4
+         f7d3f9cdd88c469838702ea21a7c43678be1e131 Fixes for 4.19
          
