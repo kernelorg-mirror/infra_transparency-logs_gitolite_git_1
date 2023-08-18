@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 18 Aug 2023 13:43:54 -0000
-Message-Id: <169236623424.22561.10956530445591546149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 18 Aug 2023 13:48:51 -0000
+Message-Id: <169236653143.26083.1369367223324904563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/v5.10.191-rt92-rc1
-    old: 0000000000000000000000000000000000000000
-    new: b1a0597f329bc4a25cf963e0bee084648b1a69ab
+  - ref: refs/heads/master
+    old: c2e5f4fd1148727801a63d938cec210f16b48864
+    new: 5f6395fd06806a009b93436612768fe3777a154f
+    log: |
+         6c9f86d3632c1abcbdaabeab1ee6d6de059b4ae7 arm64: insn: Add encoders for LDRSB/LDRSH/LDRSW
+         cc88f540da52d418ede80846c2fd771a4ef19227 bpf, arm64: Support sign-extension load instructions
+         bb0a1d6b49cb8293b09d290536315b4a134ef1e7 bpf, arm64: Support sign-extension mov instructions
+         1104247f3f97916f0afc29b73112c97affbfdbd2 bpf, arm64: Support unconditional bswap
+         c32b6ee514d26dc6c40c45984e534b2d87fba917 bpf, arm64: Support 32-bit offset jmp instruction
+         68b18191fe417459b4ebf4024cdf1b9d7b393de9 bpf, arm64: Support signed div/mod instructions
+         5f6395fd06806a009b93436612768fe3777a154f selftests/bpf: Enable cpu v4 tests for arm64
+         
