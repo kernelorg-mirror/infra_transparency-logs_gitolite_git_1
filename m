@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 18 Aug 2023 17:04:05 -0000
-Message-Id: <169237824508.7379.12513340755681785070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Fri, 18 Aug 2023 17:10:26 -0000
+Message-Id: <169237862617.14129.13459803957427162503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/v2_20230818_biju_das_jz_trivial_fixes_for_raa215300_driver
-    old: 8845252f6690e4fceca67f2bb7ee2920939d3ac5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 34393c367872a6ef5aaf36172d7238668db23ae4
+    new: 1956149dec0e8e8f533380337bc2d4f4ceb16b9a
+    log: |
+         df660f66ba5350c4cb8c6aa04e6eed909c929a46 pinctrl: baytrail: Make use of pm_ptr()
+         1956149dec0e8e8f533380337bc2d4f4ceb16b9a pinctrl: lynxpoint: Make use of pm_ptr()
+         
