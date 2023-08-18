@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 18 Aug 2023 18:03:52 -0000
-Message-Id: <169238183294.20175.15053750456214546674@gitolite.kernel.org>
+Date: Fri, 18 Aug 2023 18:04:58 -0000
+Message-Id: <169238189884.20681.8921659302163443946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,5 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/kspp
-    old: 5d207e83ca41206e75c2cd414d40b451ef04c259
-    new: a17766c324354e0025a8bb48ed21c7f5bf45a373
-    log: |
-         a4b35d4d05b9f2e84c1dd6301d3dca65719334ef integrity: Annotate struct ima_rule_opt_list with __counted_by
-         a17766c324354e0025a8bb48ed21c7f5bf45a373 tg3: Use slab_build_skb() when needed
-         
+    old: a17766c324354e0025a8bb48ed21c7f5bf45a373
+    new: a4b35d4d05b9f2e84c1dd6301d3dca65719334ef
