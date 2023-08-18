@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Fri, 18 Aug 2023 20:20:55 -0000
-Message-Id: <169239005548.24237.11505778371912492127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 18 Aug 2023 20:28:05 -0000
+Message-Id: <169239048578.28407.1908035175187788872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/stable-6.5
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 70d91dc9b2ac91327d0eefd86163abc3548effa6
+  - ref: refs/heads/for-next/pstore
+    old: 104fd0b5e948157f8e8ac88a20b46ba8641d4e95
+    new: af58740d8b06a6a97b7594235a1be11bd6aa37fa
     log: |
-         70d91dc9b2ac91327d0eefd86163abc3548effa6 selinux: set next pointer before attaching to list
+         af58740d8b06a6a97b7594235a1be11bd6aa37fa pstore: Fix kernel-doc warning
          
