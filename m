@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sat, 19 Aug 2023 17:00:19 -0000
-Message-Id: <169246441926.29308.14318666661549717909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 19 Aug 2023 17:26:36 -0000
+Message-Id: <169246599645.15857.18096798692313020478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 7a63cd6687809418abe7cf98ec8d9ccd3423ed3a
-    new: 3036850475e6eb310e30f4fad4d7b57b7db67368
+  - ref: refs/heads/master
+    old: 12e6ccedb311b32b16f767fdd606cc84630e45ae
+    new: 9e6c269de404bef2fb50b9407e988083a0805e3b
     log: |
-         11a7e408141ed2fca10a04539401a781c2ba6062 regulator: dt-bindings: Add Renesas RAA215300 PMIC bindings
-         6de61d7eb466af75f4b29f253e7a20fb24eef019 regulator: Add Renesas PMIC RAA215300 driver
-         2be25f3ec057d4ca39e145a1132d5c368c83cb9c regulator: raa215300: Add build dependency with COMMON_CLK
-         74451179750d254498dc4d8ee2c894d5ea6668de dt-bindings: rtc: isl1208: Convert to json-schema
-         94bd6d618eecb305d19be2966036ea8e6ee7f69b dt-bindings: rtc: isil,isl1208: Document clock and clock-names properties
-         db2b35d1b8cab80baf9604ebcefd83ccf1e0ff5d rtc: isl1208: Drop name variable
-         8cc8cd3984039663835d84c367f764b841378078 rtc: isl1208: Make similar I2C and DT-based matching table
-         67e812cdd140a1d890d925ca3cb181a41e9b7ccb rtc: isl1208: Drop enum isl1208_id and split isl1208_configs[]
-         c93fe4db02895d5caf1e6626776174964ed8770e rtc: isl1208: Add isl1208_set_xtoscb()
-         3036850475e6eb310e30f4fad4d7b57b7db67368 rtc: isl1208: Add support for the built-in RTC on the PMIC RAA215300
+         b610c4bbd153c2cde548db48559e170905d7c369 i2c: imx-lpi2c: return -EINVAL when i2c peripheral clk doesn't work
+         49d4db3953cb9004ff94efc0c176e026c820af5a i2c: designware: Correct length byte validation logic
+         69f035c480d76f12bf061148ccfd578e1099e5fc i2c: designware: Handle invalid SMBus block data response length value
+         b3497ef404dc3a8a7b8438a8950f46c4cd0e6ccf i2c: tegra: Fix failure during probe deferral cleanup
+         27ec43c77b5db780a56fc3a6d6de6bf2f74614f7 i2c: tegra: Fix i2c-tegra DMA config option processing
+         fff67c1b17ee093947bdcbac6f64d072e644159a i2c: hisi: Only handle the interrupt of the driver's transfer
+         0abbf0ac10eeede6e771a1a79342baf5e8466ee3 i2c: sun6i-p2wi: Fix an error message in probe()
+         7d711966f94c189f38d9e2df05152a2336352ab8 i2c: Update documentation to use .probe() again
+         4caf4cb1eaed469742ef719f2cc024b1ec3fa9e6 i2c: bcm-iproc: Fix bcm_iproc_i2c_isr deadlock issue
+         9e6c269de404bef2fb50b9407e988083a0805e3b Merge tag 'i2c-for-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
          
