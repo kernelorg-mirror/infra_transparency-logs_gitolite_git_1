@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 19 Aug 2023 02:37:32 -0000
-Message-Id: <169241265214.8798.15562464915232447327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 19 Aug 2023 02:39:55 -0000
+Message-Id: <169241279558.9790.10883542398156581726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 54b77242aac76979b8bbb832809b55736167bf5e
-    new: d62de8c1c711ec7eb77de40e99a37d7bb0784bb2
+  - ref: refs/heads/main
+    old: 76f33296d2e09f63118db78125c95ef56df438e9
+    new: 043d5f68d0ccdda91029b4b6dce7eeffdcfad281
     log: |
-         37c75860f5195b50e5635dafa037c0cb1535778a qqz.sty: Work around orphaned section heading
-         d62de8c1c711ec7eb77de40e99a37d7bb0784bb2 Use \raggedbottom for ebook-size builds
+         cba3f1786916063261e3e5ccbb803abc325b24ef dccp: annotate data-races in dccp_poll()
+         043d5f68d0ccdda91029b4b6dce7eeffdcfad281 ipvlan: Fix a reference count leak warning in ipvlan_ns_exit()
          
