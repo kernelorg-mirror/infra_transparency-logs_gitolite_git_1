@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 19 Aug 2023 07:20:25 -0000
-Message-Id: <169242962590.18486.3033063158743170868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 19 Aug 2023 07:25:13 -0000
+Message-Id: <169242991313.21846.16054916995195928838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: d4ddefee5160dc477d0e30c9d7a10ce8861c3007
-    new: 4e7ffde6984a7fa842489be7055570e5f5a4f0b5
+    old: 0f0f5a04e5061374be512032c7412b94cc2254ef
+    new: 3fa462c57d24e3c42c173e8b3dc89d37a45d341e
     log: |
-         4f3175979e62de3b929bfa54a0db4b87d36257a7 powerpc/rtas_flash: allow user copy to flash block cache objects
-         4e7ffde6984a7fa842489be7055570e5f5a4f0b5 Merge tag 'powerpc-6.5-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         3fa462c57d24e3c42c173e8b3dc89d37a45d341e Sat Aug 19 07:24:09 AM UTC 2023
          
