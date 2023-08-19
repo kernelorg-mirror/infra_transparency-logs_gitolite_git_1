@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 19 Aug 2023 01:30:41 -0000
-Message-Id: <169240864105.25098.5823890673234974404@gitolite.kernel.org>
+Date: Sat, 19 Aug 2023 01:48:54 -0000
+Message-Id: <169240973446.5243.11942499031879612871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 05f3d5bc23524bed6f043dfe6b44da687584f9fb
-    new: 2ebbc9752d06bb1d01201fe632cb6da033b0248d
+    old: 2ebbc9752d06bb1d01201fe632cb6da033b0248d
+    new: d44036cad31170da0cb9c728e80743f84267da6e
     log: |
-         2ebbc9752d06bb1d01201fe632cb6da033b0248d devlink: add missing unregister linecard notification
+         d44036cad31170da0cb9c728e80743f84267da6e net: dsa: felix: fix oversize frame dropping for always closed tc-taprio gates
          
