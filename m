@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 19 Aug 2023 11:41:46 -0000
-Message-Id: <169244530601.25433.11031666622838449330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sat, 19 Aug 2023 11:43:06 -0000
+Message-Id: <169244538619.25989.15369149062307432608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: e94b590abfff2cdbf0bdaa7d9904364c8d480af5
-    new: 2572ce62415cf3b632391091447252e2661ed520
+  - ref: refs/heads/wip/leon-for-next
+    old: 18ddaeb03bdb65b84fece11a8cac5bf583ae1b91
+    new: ed10435d35831478c2a93a238b62e6699bdf4834
     log: |
-         2572ce62415cf3b632391091447252e2661ed520 net: mdio: mdio-bitbang: Fix C45 read/write protocol
+         5f513c8b9740ea05a136219739a5358780c3cb5f RDMA/irdma: Add missing kernel-doc in irdma_setup_umode_qp()
+         c4bb187379ddc45affbb5d3f895bdcb9eadd77e6 RDMA/hns: Dump whole QP/CQ/MR resource in raw
+         5a87279591a15f952043209d17429fadab278d47 RDMA/hns: Support hns HW stats
+         d7cfbba90b8015bfd76b5da69ee5debbae8b7000 RDMA/erdma: Renaming variable names and field names of struct erdma_mem
+         7244b4aa4221d7b8d59b6ca5a97c7073b2802f10 RDMA/erdma: Refactor the storage structure of MTT entries
+         ed10435d35831478c2a93a238b62e6699bdf4834 RDMA/erdma: Implement hierarchical MTT
          
