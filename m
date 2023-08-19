@@ -1,28 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 19 Aug 2023 17:26:36 -0000
-Message-Id: <169246599645.15857.18096798692313020478@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5863579729514756251=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 19 Aug 2023 17:40:59 -0000
+Message-Id: <169246685925.27151.16733396080041098216@gitolite.kernel.org>
+
+--===============5863579729514756251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 12e6ccedb311b32b16f767fdd606cc84630e45ae
-    new: 9e6c269de404bef2fb50b9407e988083a0805e3b
+  - ref: refs/heads/driver-core-testing
+    old: f7bb242601deae2bb62db40ce4edea9a6193d0d2
+    new: 1b28cb81dab7c1eedc6034206f4e8d644046ad31
     log: |
-         b610c4bbd153c2cde548db48559e170905d7c369 i2c: imx-lpi2c: return -EINVAL when i2c peripheral clk doesn't work
-         49d4db3953cb9004ff94efc0c176e026c820af5a i2c: designware: Correct length byte validation logic
-         69f035c480d76f12bf061148ccfd578e1099e5fc i2c: designware: Handle invalid SMBus block data response length value
-         b3497ef404dc3a8a7b8438a8950f46c4cd0e6ccf i2c: tegra: Fix failure during probe deferral cleanup
-         27ec43c77b5db780a56fc3a6d6de6bf2f74614f7 i2c: tegra: Fix i2c-tegra DMA config option processing
-         fff67c1b17ee093947bdcbac6f64d072e644159a i2c: hisi: Only handle the interrupt of the driver's transfer
-         0abbf0ac10eeede6e771a1a79342baf5e8466ee3 i2c: sun6i-p2wi: Fix an error message in probe()
-         7d711966f94c189f38d9e2df05152a2336352ab8 i2c: Update documentation to use .probe() again
-         4caf4cb1eaed469742ef719f2cc024b1ec3fa9e6 i2c: bcm-iproc: Fix bcm_iproc_i2c_isr deadlock issue
-         9e6c269de404bef2fb50b9407e988083a0805e3b Merge tag 'i2c-for-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         4d0fe8c52bb3029d83e323c961221156ab98680b kobject: Add sanity check for kset->kobj.ktype in kset_register()
+         1b28cb81dab7c1eedc6034206f4e8d644046ad31 kobject: Remove redundant checks for whether ktype is NULL
          
+
+--===============5863579729514756251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692466856 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1692466855-41244b1d99af8264d3d1dc8d240cce3eb503f569
+
+f7bb242601deae2bb62db40ce4edea9a6193d0d2 1b28cb81dab7c1eedc6034206f4e8d644046ad31 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTg/qgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ia8P/1t7ZsuHvIg0100iiJir
+eCQwvUCX2mbtlczXq1bp94QcUvNBBaamfEGRkiEPYR1sFNy8W0RD5zcBgg6f0vp7
+vnGDe+tAXlUfE5RIxJUE3PuZBAWKm6ziJ0/pKFGI4mm5g43K85GouxYkBm30JUnc
+0yCv4APzgPOeKAUW3BcwVclN4nGT+3PZAn3/iDuXIuNHshag/F6cEFoKKbHpCo0X
+UC1lGnNrHMlTStTyyeW06YRoddJOGUAW7FxtsMJDOpnJYEacIJwkjYf9RQaKY5Jw
+bArPARoruoAHQ43QU/Segeg48n7uRIvmKlIpbuvB/THmK/Dgc/oidoA4Fas9v90i
+ViksuBbCyiP2kQbFw1VeUMqQKEzZU/J9EIMxN7JSVKzqeZu0rcVrgSooER6ry238
+eiioLWR2io0m2S1QLaOBIhftOub5B3YFGxUj/8b7Cmg4puXxljP1L0eT/RW2mUZH
+y61mO6l7kDqw6xAfZIwNAjoC40jGa0YshOUF4t6TUcXUzEsC0d6U6IPMQ5FU7eJd
+H4PpN4Mh9irfnJssrHMCP59S/g2Zf+WrVlC9UB6YuZStz0agFtP7+3hGggilzheL
+8dbxiqI9/ArekSrYLa6v90huN3ovxXVLqEs4s6rYhs7Y6xlgi+p1OTw7cuQXj7Y+
+C1n5yWG8VALXcLfRGR8ALn7/
+=ZjJA
+-----END PGP SIGNATURE-----
+
+--===============5863579729514756251==--
