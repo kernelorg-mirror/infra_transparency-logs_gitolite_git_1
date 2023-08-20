@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5680064951835836879=="
+Content-Type: multipart/mixed; boundary="===============6451454081449271859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 20 Aug 2023 18:20:08 -0000
-Message-Id: <169255560810.7926.8666516562849525151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 20 Aug 2023 18:20:25 -0000
+Message-Id: <169255562501.8099.8591214972986380368@gitolite.kernel.org>
 
---===============5680064951835836879==
+--===============6451454081449271859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 706a741595047797872e669b3101429ab8d378ef
     log: revlist-2ccdd1b13c59-706a74159504.txt
 
---===============5680064951835836879==
+--===============6451454081449271859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -298,4 +298,4 @@ ec27a636d7e1aa05e64ef0b1bd848f27f8105a39 Merge tag 'rust-fixes-6.5-rc7' of https
 b320441c04c9bea76cbee1196ae55c20288fd7a6 Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 706a741595047797872e669b3101429ab8d378ef Linux 6.5-rc7
 
---===============5680064951835836879==--
+--===============6451454081449271859==--
