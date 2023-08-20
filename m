@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3815449349584324147=="
+Content-Type: multipart/mixed; boundary="===============6589152664975388236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 20 Aug 2023 17:12:16 -0000
-Message-Id: <169255153612.20658.10468533540145819726@gitolite.kernel.org>
+Date: Sun, 20 Aug 2023 17:13:22 -0000
+Message-Id: <169255160208.21422.12183529158666790045@gitolite.kernel.org>
 
---===============3815449349584324147==
+--===============6589152664975388236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: e67d7f60d2382677c25de10b2e4d8d3717ace91f
     new: 642073c306e66daca108cb630d169129e50a6ba3
     log: revlist-e67d7f60d238-642073c306e6.txt
 
---===============3815449349584324147==
+--===============6589152664975388236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692551534 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692551601 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1692551534-6c9342d6edcbe15f47ed33ce6126345dfb53a41f
+nonce 1692551600-cacf4ec7c37c3d507973931d3fe12cce7aa61562
 
-e67d7f60d2382677c25de10b2e4d8d3717ace91f 642073c306e66daca108cb630d169129e50a6ba3 refs/heads/tty-next
+e67d7f60d2382677c25de10b2e4d8d3717ace91f 642073c306e66daca108cb630d169129e50a6ba3 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTiSW4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EfwQALdw3me7YcuTTIlPt+kt
-UY0S5EhA7UfeHDyPt8IxfEXyHyPJ40No38B7JsAPzoGt+M6L4hAchRzWGNnyoAaR
-LaHXnKIsYfJU08QI4zjaUPw4ogR6JRR9ijOF5BshzJRO/OyEM7k/Ol2oMaEvMnbp
-QHMB4ZQcIi/RDQs4DVOaVMhMF++ZcO1YmLKm1S9wt8Ij9nXNUkiNRxJNfEWXtSO9
-vVLwi3uHixvYswBzndmZ9RweHtosJMcFgSJiz+PxAAXEpj5DFdEjI4vQqHw/KxaB
-Djn+b1gJIhJchX7uUzVDEMp1+Zo2HWeGbmWJ6W+Zxi+t9941SI4xMcaXbzkOvC2G
-LUi1Uz7TpfDc1rSK5NyzmB3c8PUw/5w//MepG86PEs+hLNIMk9Op7yKFOLHVRvMp
-m5hpFN9erlOhaC8By4fjxPtf4uNAlTgydCHc+SYhMazG7MskOPU6lfeF+1eRo1Mm
-jOdbHcys2BuCsWsl61ilukFuOpi3sMHhVRk6+MTskpLuOgmkkpcpuRNg0gTbBDSo
-MRXdFexoF5kSa4hiqaRKBrmagiqx8gBBADvNc1OOJPaNTUnJ+vYx2Qoam6NjovDB
-3h/Y7DPgidLiPQbRief+HjNeqNYIB9xFlrjcYg3SYCDqcsTv3fMfSpbuWDupCdoO
-OD4J5xs/amMO9e4FIIW3VO2f
-=5f9X
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTiSbEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y64P/iHxdYpfFwvvdSYu1eh0
+u6US3SOq44FZm+NTSRb/h5U2PCiALhx5tdtD7/f7Gt0woiw7ORvmvTjxnlk/UJIu
+Zd0KchSsB8068TBKU9gg88/M+Vzwsx8dUB+LF5x1axyTQkhy4h8B24WaD8evR4fM
+Pd+M7ewux8es6zHr56GdKRMJkQveH1S/y8m53FMcBdlIZ6anzNVNvFyniIKQ3YPv
+G7l3EcImzL48avd+zbxMAaoyxvlrnW/re4b3ZlVES1ORCmNvQI3HG3YtzQwxspGy
+B1YwRypbzSHmXYrlqvZCEt1f2ADO7XObiyPhk2QquZVqayAQUzGvn4nSIRYN0XqU
+TjZL5QavgRAqpIWfN4QQ7gdoy2uq5gze02HuPQ1pC4hZkZMSRVlaDjYISP7ZA9e3
+YcIdT80q8BZ6GnRQfRegG4aB6gSKNDISSuVKcS0U3DsR3t91EV1JU8GNUrfw54Ub
+3WGiWXl/gMg7hWlbhdNIykc5uIPbzhnHr3N4cIZ1UQjscE6ACNQiotDHY1hlnv6m
+HKmXGFkjLmHwqCC3dw6s5Zicktlpx7IwDO+xkNxL2mJTkhKsT08RxE6fYP+oa74z
+u7RtY6+oAnopO/ZTH/1Kj8WOuvr96AwSkCqK/k0DZeGxE5QbLARRX1NpHhl0s+Ju
+FbWs3prT5LAUUyH58mi6KmyA
+=VMl0
 -----END PGP SIGNATURE-----
 
---===============3815449349584324147==
+--===============6589152664975388236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -974,4 +974,4 @@ ec27a636d7e1aa05e64ef0b1bd848f27f8105a39 Merge tag 'rust-fixes-6.5-rc7' of https
 b320441c04c9bea76cbee1196ae55c20288fd7a6 Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 642073c306e66daca108cb630d169129e50a6ba3 Merge commit b320441c04c9 ("Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty") into tty-next
 
---===============3815449349584324147==--
+--===============6589152664975388236==--
