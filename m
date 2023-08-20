@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 20 Aug 2023 14:15:51 -0000
-Message-Id: <169254095106.23593.15989470745144628627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 20 Aug 2023 14:18:05 -0000
+Message-Id: <169254108585.24464.15857568137819198793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: f866fbc842de5976e41ba874b76ce31710b634b5
-    new: 144e22e7569ad78f09f354016683776e0b75e573
+    old: 412a75dc612a15fc87a755b182bd36f747a70bf6
+    new: 0f158b32a9b146c9b86783efccfd9ed02c744623
     log: |
-         144e22e7569ad78f09f354016683776e0b75e573 selftests/net: Add log.txt and tools to .gitignore
+         0f158b32a9b146c9b86783efccfd9ed02c744623 net: selectively purge error queue in IP_RECVERR / IPV6_RECVERR
          
