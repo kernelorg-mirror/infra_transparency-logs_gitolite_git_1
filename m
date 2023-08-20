@@ -1,59 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2716094059138393138=="
+Content-Type: multipart/mixed; boundary="===============5052380198857331241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sun, 20 Aug 2023 05:28:49 -0000
-Message-Id: <169250932934.15399.10241583741590110253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sun, 20 Aug 2023 05:34:01 -0000
+Message-Id: <169250964158.19624.2571551757519514028@gitolite.kernel.org>
 
---===============2716094059138393138==
+--===============5052380198857331241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/next
-    old: 00c1cf4fe74f2ddb78eb24cb832b729034603801
-    new: d59a3bf2b42c9fa11de5aed24ddd6bdeaa595e5c
-    log: |
-         2bbeddee5d36dfa3fab16ccd0b78dcdcf66c3a99 fsck: use enum object_type for fsck_walk callback
-         beaa1d952b90523a167a5d3f24e0a8ce56a4afcd hashmap: use expected signatures for comparison functions
-         d59a3bf2b42c9fa11de5aed24ddd6bdeaa595e5c Merge branch 'jk/function-pointer-mismatches-fix' into next
-         
-  - ref: refs/heads/seen
-    old: 0502942893250cf0c741b429da00eed651855772
-    new: 5cd27b946eaf3671ede30db3d5b018215e269631
-    log: revlist-050294289325-5cd27b946eaf.txt
+  - ref: refs/heads/srso-fixes
+    old: 985764cc4811ffcce705c7b8bedafc5fb5bb18cf
+    new: bddb72c65a38a7cb46371c9e0824aaf04b2e6a6f
+    log: revlist-985764cc4811-bddb72c65a38.txt
 
---===============2716094059138393138==
+--===============5052380198857331241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-050294289325-5cd27b946eaf.txt
+Content-Disposition: attachment; filename=revlist-985764cc4811-bddb72c65a38.txt
 
-2bbeddee5d36dfa3fab16ccd0b78dcdcf66c3a99 fsck: use enum object_type for fsck_walk callback
-beaa1d952b90523a167a5d3f24e0a8ce56a4afcd hashmap: use expected signatures for comparison functions
-d90f6483adaefb5c13e220b47a03700a2beda832 Merge branch 'jk/function-pointer-mismatches-fix' into jch
-da730f9fc6b05a374884ae7fa399792f54ff140d ### match next
-165b31cb9f9995410e8f0ca7b54f684a25ff01c6 Merge branch 'sl/sparse-check-attr' into jch
-4dd8174305988e753acd25778073af93af7632eb Merge branch 'jc/mv-d-to-d-error-message-fix' into jch
-274675ffcac93970ac9eba2b631fac5ed92bb862 Merge branch 'pw/rebase-i-after-failure' into jch
-5e813e22c795cabb100ffaa04ed55ee2d91c36dd Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
-19a75f7f61f1e6abc3fdfcb77b96a78f781e4267 Merge branch 'jc/rerere-cleanup' into jch
-7afa28f484a749ec7b594dfd576f503dc27d35f8 Merge branch 'rj/status-bisect-while-rebase' into jch
-2d78740bd27dc508198b40b2d3d83286f71aaa4f Merge branch 'la/trailer-cleanups' into jch
-a069a8e6a6c0eb9d35631006f447745ad268bb5d Merge branch 'ds/scalar-updates' into jch
-dbbeaf9fe0cfa008c658f5f0452e7c2ed99d1e44 Merge branch 'jc/diff-exit-code-with-w-fixes' into seen
-06c36628e8dd97a149c0add39ec052d128359200 Merge branch 'js/doc-unit-tests' into seen
-c476b56286f75bc97b1b7c5f465a51e780bee823 Merge branch 'cc/git-replay' into seen
-95d25a00a90b67ede41d87e484484c1e4484e1f7 Merge branch 'ak/pretty-decorate-more' into seen
-e6efcb39f1bc4cf7664b7c85797b1b9333fa6267 Merge branch 'la/trailer-test-and-doc-updates' into seen
-9298fe2d66732793562d54ece9f550ee14a3dbce Merge branch 'ws/svn-with-new-readline' into seen
-fc2e0186ef8995321c2f3b619e15d28e9ae21ef4 Merge branch 'ob/revert-of-revert-is-reapply' into seen
-fc363ab75cfc314e0805108d451dba8af83b843a Merge branch 'ob/format-patch-description-file' into seen
-5cd27b946eaf3671ede30db3d5b018215e269631 Merge branch 'jc/update-index-show-index-version' into seen
+fc64c4e5749d10b398c86b60902d6f9394eb5012 x86/srso: Fix srso_show_state() side effect
+caf4d0a1233ccc1c33f4ff8d3fe302c9289f4bea x86/srso: Set CPUID feature bits independently of bug or mitigation status
+a4d62162bcb501e50b0bb19b748702aa12260615 KVM: x86: Support IBPB_BRTYPE and SBPB
+dff378e9a2d0ebed11401856d6bb79fbc9ed5d48 x86/srso: Fix SBPB enablement
+e942c93d3e07948218ea3eed3e2f8a41137515d4 x86/srso: Fix vulnerability reporting for missing microcode
+079e2f7deef009267b43a5041542f83f992deb19 x86/srso: Fix unret validation dependencies
+9228cc0df0ca09dbf3a4d2189dd87347a2f6f7c1 x86/alternatives: Remove faulty optimization
+ff5f289cb0a58fc9cb3a59e9306e9f2e190a9a08 x86/srso: Unexport untraining functions
+8b1e2e0fb0253f1081898a3f2bc9865228db3d02 x86/srso: Disentangle rethunk-dependent options
+29c6e8d61ae0fb20558a2d3081a9baa3265ec5eb x86/srso: Improve i-cache locality for alias mitigation
+846957e6d3dacf8796b51c526930fdec86e9639f x86/retpoline: Remove .text..__x86.return_thunk section
+09f161dd425f740a881573aba7a1924230b855cb x86/nospec: Refactor UNTRAIN_RET[_*]
+bddb72c65a38a7cb46371c9e0824aaf04b2e6a6f x86/calldepth: Rename __x86_return_skl() to call_depth_return_thunk()
 
---===============2716094059138393138==--
+--===============5052380198857331241==--
