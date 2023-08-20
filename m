@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5052380198857331241=="
+Content-Type: multipart/mixed; boundary="===============6096586617826270210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sun, 20 Aug 2023 05:34:01 -0000
-Message-Id: <169250964158.19624.2571551757519514028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 20 Aug 2023 06:31:51 -0000
+Message-Id: <169251311112.29070.15863771536760760270@gitolite.kernel.org>
 
---===============5052380198857331241==
+--===============6096586617826270210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/srso-fixes
-    old: 985764cc4811ffcce705c7b8bedafc5fb5bb18cf
-    new: bddb72c65a38a7cb46371c9e0824aaf04b2e6a6f
-    log: revlist-985764cc4811-bddb72c65a38.txt
+  - ref: refs/heads/master
+    old: 9e6c269de404bef2fb50b9407e988083a0805e3b
+    new: b320441c04c9bea76cbee1196ae55c20288fd7a6
+    log: revlist-9e6c269de404-b320441c04c9.txt
 
---===============5052380198857331241==
+--===============6096586617826270210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-985764cc4811-bddb72c65a38.txt
+Content-Disposition: attachment; filename=revlist-9e6c269de404-b320441c04c9.txt
 
-fc64c4e5749d10b398c86b60902d6f9394eb5012 x86/srso: Fix srso_show_state() side effect
-caf4d0a1233ccc1c33f4ff8d3fe302c9289f4bea x86/srso: Set CPUID feature bits independently of bug or mitigation status
-a4d62162bcb501e50b0bb19b748702aa12260615 KVM: x86: Support IBPB_BRTYPE and SBPB
-dff378e9a2d0ebed11401856d6bb79fbc9ed5d48 x86/srso: Fix SBPB enablement
-e942c93d3e07948218ea3eed3e2f8a41137515d4 x86/srso: Fix vulnerability reporting for missing microcode
-079e2f7deef009267b43a5041542f83f992deb19 x86/srso: Fix unret validation dependencies
-9228cc0df0ca09dbf3a4d2189dd87347a2f6f7c1 x86/alternatives: Remove faulty optimization
-ff5f289cb0a58fc9cb3a59e9306e9f2e190a9a08 x86/srso: Unexport untraining functions
-8b1e2e0fb0253f1081898a3f2bc9865228db3d02 x86/srso: Disentangle rethunk-dependent options
-29c6e8d61ae0fb20558a2d3081a9baa3265ec5eb x86/srso: Improve i-cache locality for alias mitigation
-846957e6d3dacf8796b51c526930fdec86e9639f x86/retpoline: Remove .text..__x86.return_thunk section
-09f161dd425f740a881573aba7a1924230b855cb x86/nospec: Refactor UNTRAIN_RET[_*]
-bddb72c65a38a7cb46371c9e0824aaf04b2e6a6f x86/calldepth: Rename __x86_return_skl() to call_depth_return_thunk()
+282069845af388b08d622ad192b831dcd0549c62 tty: serial: fsl_lpuart: Clear the error flags by writing 1 for lpuart32 platforms
+83c35180abfdfb22f3d7703b0c85ad2d442ed2c5 serial: core: Controller id cannot be negative
+d962de6ae51f9b76ad736220077cda83084090b1 serial: core: Fix serial core port id to not use port->line
+1ef2c2df11997b8135f34adcf2c200d3b4aacbe9 serial: core: Fix serial core controller port name to show controller id
+7d695d83767cdb4288b101affef6d1d1bcf44d31 serial: core: Fix serial_base_match() after fixing controller port name
+238500e2d67c0463ec83a43a083dc25db6520acd MAINTAINERS: Merge TTY layer and serial drivers
+6be1a8d50b381ca022a79e47f2dc0d3aa698af14 serial: core: Fix kmemleak issue for serial core device remove
+bbb4abb1bcfb5c25bc022ccecfea919286093b5d serial: 8250: Reinit port_id when adding back serial8250_isa_devs
+dfe2aeb226fd5e19b0ee795f4f6ed8bc494c1534 serial: 8250: Fix oops for port->pm on uart_change_pm()
+3f29d9ee323ae5cda59d144d1f8b0b10ea065be0 TIOCSTI: Document CAP_SYS_ADMIN behaviour in Kconfig
+a4a79e03bab57729bd8046d22bf3666912e586fb serial: core: Revert port_id use
+3fa7187eceee11998f756481e45ce8c4f9d9dc48 rust: macros: vtable: fix `HAS_*` redefinition (`gen_const_name`)
+3c4f8333b582487a2d1e02171f1465531cde53e3 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
+3d9e6f556e235ddcdc9f73600fdd46fe1736b090 serial: 8250: drop lockdep annotation from serial8250_clear_IER()
+04c7f60ca477ffbf7b7910320482335050f0d23a serial: core: Fix serial core port id, including multiport devices
+ec27a636d7e1aa05e64ef0b1bd848f27f8105a39 Merge tag 'rust-fixes-6.5-rc7' of https://github.com/Rust-for-Linux/linux
+b320441c04c9bea76cbee1196ae55c20288fd7a6 Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============5052380198857331241==--
+--===============6096586617826270210==--
