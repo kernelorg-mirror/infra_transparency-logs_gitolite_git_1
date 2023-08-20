@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 20 Aug 2023 17:19:33 -0000
-Message-Id: <169255197321.25376.4742108670552440800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Sun, 20 Aug 2023 17:34:25 -0000
+Message-Id: <169255286538.3077.15391340404959822715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/fs/fsverity/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 43bc9bd67ea20c5bebda5bce6e6478610b0c330b
-    new: 669a55560e4b8fad3598d544d062ab40fd860bcb
+  - ref: refs/heads/for-next
+    old: adcb53e3ee055d0f9f241fe84c72d339a6d72dad
+    new: 919dc320956ea353a7fb2d84265195ad5ef525ac
     log: |
-         669a55560e4b8fad3598d544d062ab40fd860bcb net: stmmac: Check more MAC HW features for XGMAC Core 3.20
+         919dc320956ea353a7fb2d84265195ad5ef525ac fsverity: skip PKCS#7 parser when keyring is empty
          
