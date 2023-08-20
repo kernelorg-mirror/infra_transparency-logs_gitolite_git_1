@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9148647711193487007=="
+Content-Type: multipart/mixed; boundary="===============8654238347882145686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 20 Aug 2023 14:06:21 -0000
-Message-Id: <169254038174.15223.10546401547059325822@gitolite.kernel.org>
+Date: Sun, 20 Aug 2023 14:06:30 -0000
+Message-Id: <169254039058.15367.6884941543677010446@gitolite.kernel.org>
 
---===============9148647711193487007==
+--===============8654238347882145686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+  - ref: refs/heads/tty-linus
+    old: 04c7f60ca477ffbf7b7910320482335050f0d23a
     new: b320441c04c9bea76cbee1196ae55c20288fd7a6
-    log: revlist-5d0c230f1de8-b320441c04c9.txt
+    log: revlist-04c7f60ca477-b320441c04c9.txt
 
---===============9148647711193487007==
+--===============8654238347882145686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692540376 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692540389 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1692540375-ca3e6f5626f7f0079489d4807ec38a49996411fa
+nonce 1692540388-26879f2afdac94b91452bb94de57ce4aa33b96f6
 
-5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 b320441c04c9bea76cbee1196ae55c20288fd7a6 refs/heads/main
+04c7f60ca477ffbf7b7910320482335050f0d23a b320441c04c9bea76cbee1196ae55c20288fd7a6 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTiHdgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nW4P/jRIl9cI+TWzKlp+NSty
-jNjYMmwlgOIrMQzsfBLgyYR2R5iq6sgN9Bk1LSK/JLX3HEgeMp9Ps3hxDvI/KHzJ
-8cH7q9KOPaxzMExlfgHJVB+j6gXc4Yt3Ty/Wm1jdYGP9cFmvaHKbcHzgRoh1T/+0
-OGbrp3+ODcYEdA3koNHuH53yBHc+X4ySB/zHgbSwUiDVSflSVpAnb0EVkYNP6yp9
-8wtFKCjEDpOxxdsTrZ3V38FVRXDQVkvif3DjtZVpLY7plsyf49wek/iSc77OnFGt
-x9Bnr2qjgeh10/FCSu3YwpOW+iBHGtuUbvP1PyrIPifi3oFbzvl3xkeZzT/4jYqW
-DxnG17LFJytlEyqN9kJnryb6IH5Ib4W9eP5rIkcbCtKQhwyotry3e4BlsKtRd9dv
-mnY9BQG6kzXNOy9Mn7TKnqXgbRhKNh5J63Oeoe+UIKv540uVPMKFoc/J1cKg0t/H
-q4/IekqcNGMpe7+DX/Ay5W+mp2oKDD5KwlvkHqCDde869/c/C4/z+uOLyMcpeKQU
-Ua7aSeYPXBSLXcjo1XVzIjspt6QBUOyj5y3zayfiI5p5Z4VqhT+4c2otMeukLBdZ
-95KuxRpEQF+SKmDaPyszukGL/wBSXocTYXSeNl4pAoziL2DAfm20F16jmfYXLooK
-A17rejoV2VEIr+LExHQraTF1
-=wR/C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTiHeUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fRUQAM/okdiHyKy0TOmoYrd1
+0MUUOr0d4jiTO+wBCZGppCQ24PkfGl19h14MM43Eknh3wiIW8OwGdFhIpSCbrrGc
+nQjmf+fSsQ3F34Qadl3h4hJWWRYYrkQwT9tykJJBa2MBBgYZD3Rn3I09hOFqPnnA
+lG/Z8JbO3SVOFB52c6ANIEyWeqF3OiuPKTKXMdg6FdUHOJQPJZ4dsAm2YLj8uunK
+GAnWGKi3FONeaGFnMlMqs4TWpI0eZYa2xWc8O5vzajIJa3sBq6V7FIxJdDQF67HZ
+lHpAhKbh75KdOGch4AXw5NrkNLosKYqKp48l/41+DzpWJGKqoyOCB+9lwO92N0Ja
+5kzy43YrXN4O7Dked2CiidbKvr2kJO4Q5WJQ0jabR4zGEgGaBiJqv0Dtaliu383V
+wlEJJZcyvyd0MCpqcmsrSqXWLw/k8zfioCiBpJyK5fztCO2eLSYPaEkJMY5Rw3qF
+Mc3rGJFbPnRs090B9nK7PWS9258TBZJMFvmhpfXR82ts649KXenQ4vMZadSbh8mS
+x/rW0imtwTHxJ82KTcY69iBGDsdoCMrErBhwGhz//jsBZX3/IZvQ/wlP+rF6r0bM
+eSoOf4LF2HSbuX+sIM7r4B3qgndCBrMp0jJKUFgRGS19Wbujz9MKBBCa8YbGHKdR
+QXP+OwFzDkmZtFTlS+ZUB4NI
+=HwSN
 -----END PGP SIGNATURE-----
 
---===============9148647711193487007==
+--===============8654238347882145686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d0c230f1de8-b320441c04c9.txt
+Content-Disposition: attachment; filename=revlist-04c7f60ca477-b320441c04c9.txt
 
 34539b442b3bc7d5bf10164750302b60b91f18a7 bus: ti-sysc: Flush posted write on enable before reset
 9b53a13422162feac7c7ee58e5bc0e0a80a41963 counter: Fix menuconfig "Counter support" submenu entries disappearance
@@ -308,10 +308,6 @@ c5ccff70501d92db445a135fa49cf9bc6b98c444 Merge branch 'net-sched-bind-logic-fixe
 46d14e17095237007b59f56aae2d81ae2dcb0f93 drm/i915/gvt: Fix bug in getting msg length in AUX CH registers handler
 34bc65d6d831200194c0b9a30fb8fe47faaf83d6 perf pmus: Create placholder regardless of scanning core_only
 07d2b820fd75b96f550c93503f19c8cfcbc577cf perf test parse-events: Test complex name has required event format
-282069845af388b08d622ad192b831dcd0549c62 tty: serial: fsl_lpuart: Clear the error flags by writing 1 for lpuart32 platforms
-83c35180abfdfb22f3d7703b0c85ad2d442ed2c5 serial: core: Controller id cannot be negative
-d962de6ae51f9b76ad736220077cda83084090b1 serial: core: Fix serial core port id to not use port->line
-1ef2c2df11997b8135f34adcf2c200d3b4aacbe9 serial: core: Fix serial core controller port name to show controller id
 13d2618b48f15966d1adfe1ff6a1985f5eef40ba bpf: sockmap: Remove preempt_disable in sock_map_sk_acquire
 94c43de73521d8ed7ebcfc6191d9dace1cbf7caa erofs: fix wrong primary bvec selection on deduplicated extents
 4da3c7183e186afe8196160f16d5a0248a24e45d erofs: drop unnecessary WARN_ON() in erofs_kill_sb()
@@ -374,7 +370,6 @@ c635ca45a7a2023904a1f851e99319af7b87017d net/mlx5: fs_core: Skip the FTs in the 
 a2d9831dab3ea9e2f45f37956d32fbdde6dc7053 Merge branch 'mlx5-ipsec-fixes'
 0f71c9caf26726efea674646f566984e735cc3b9 udp: Fix __ip_append_data()'s handling of MSG_SPLICE_PAGES
 534fc31d09b706a16d83533e16b5dc855caf7576 xen/netback: Fix buffer overrun triggered by unusual packet
-7d695d83767cdb4288b101affef6d1d1bcf44d31 serial: core: Fix serial_base_match() after fixing controller port name
 e9d699af3f65d62cf195f0e7a039400093ab2af2 drm/bridge: it6505: Check power state with it6505->powered in IRQ handler
 1cb9e2ef66d53b020842b18762e30d0eb4384de8 drm/nouveau/gr: enable memory loads on helper invocation on all channels
 e4060dad253352382b20420d8ef98daab24dbc17 drm/nouveau/nvkm/dp: Add workaround to fix DP 1.3+ DPCD issues
@@ -427,9 +422,6 @@ ef7c4d8a90c64bac294363c6f67eb98246a162a2 usb: typec: mux: intel: Add dependency 
 8e21a620c7e6e00347ade1a6ed4967b359eada5a usb: common: usb-conn-gpio: Prevent bailing out if initial role is none
 a6ff6e7a9dd69364547751db0f626a10a6d628d2 usb-storage: alauda: Fix uninit-value in alauda_check_media()
 3ddaa6a274578e23745b7466346fc2650df8f959 usb: dwc3: Properly handle processing of pending events
-238500e2d67c0463ec83a43a083dc25db6520acd MAINTAINERS: Merge TTY layer and serial drivers
-6be1a8d50b381ca022a79e47f2dc0d3aa698af14 serial: core: Fix kmemleak issue for serial core device remove
-bbb4abb1bcfb5c25bc022ccecfea919286093b5d serial: 8250: Reinit port_id when adding back serial8250_isa_devs
 ec3041b30133f92cfbce783e02239aa0853f8ab3 Merge tag 'counter-fixes-for-6.5a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 596a5123cc782d458b057eb3837e66535cd0befa thunderbolt: Fix memory leak in tb_handle_dp_bandwidth_request()
 bb6578bab876f7fb138f5099f833a265b11a60d7 Merge tag 'counter-fixes-for-6.5b' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
@@ -440,7 +432,6 @@ adb9743d6a08778b78d62d16b4230346d3508986 binder: fix memory leak in binder_init(
 b3d8aa84bbfe9b58ccc5332cacf8ea17200af310 rust: allocator: Prevent mis-aligned allocation
 1d24eb2d536ba27ef938a6563ac8bfb49c738cc1 rust: delete `ForeignOwnable::borrow_mut`
 b05544884300e98512964103b33f8f87650ce887 rust: fix bindgen build error with UBSAN_BOUNDS_STRICT
-dfe2aeb226fd5e19b0ee795f4f6ed8bc494c1534 serial: 8250: Fix oops for port->pm on uart_change_pm()
 045aecdfcb2e060db142d83a0f4082380c465d2c arm64/ptrace: Don't enable SVE when setting streaming SVE
 507ea5dd92d23fcf10e4d1a68a443c86a49753ed arm64/fpsimd: Sync FPSIMD state with SVE for SME only systems
 69af56ae56a48a2522aad906c4461c6c7c092737 arm64/fpsimd: Sync and zero pad FPSIMD state for streaming SVE
@@ -612,8 +603,6 @@ d83035433701919ac6db15f7737cbf554c36c1a6 mmc: wbsd: fix double mmc_free_host() i
 dce6d8f985fa1ef5c2af47f4f86ea65511b78656 mmc: sunplus: fix return value check of mmc_add_host()
 cf3f15b8c6601c1dc70f85949788ee993dd9a439 mmc: sunplus: Fix error handling in spmmc_drv_probe()
 2908042a37b56d6a9a595eca946e187e9d2df39a media: imx: imx7-media-csi: Fix applying format constraints
-3f29d9ee323ae5cda59d144d1f8b0b10ea065be0 TIOCSTI: Document CAP_SYS_ADMIN behaviour in Kconfig
-a4a79e03bab57729bd8046d22bf3666912e586fb serial: core: Revert port_id use
 43dae319b50fac075ad864f84501c703ef20eb2b drm/rockchip: Don't spam logs in atomic check
 24138933b97b055d486e8064b4a1721702442a9b netfilter: nf_tables: don't skip expired elements during walk
 6311071a056272e1e761de8d0305e87cc566f734 wifi: nl80211: fix integer overflow in nl80211_parse_mbssid_elems()
@@ -783,9 +772,6 @@ feb0eee9aa3c85aa15e3b60f82cb8d1fae28f2fe Merge tag 'parisc-for-6.5-rc6' of git:/
 3477144c878a52fc3938a529186e81ea030e7779 driver core: cpu: Fix the fallback cpu_show_gds() name
 2e40ed24e1696e47e94e804d09ef88ecb6617201 Merge tag 'io_uring-6.5-2023-08-11' of git://git.kernel.dk/linux
 360e694282fce69608e2775bf843b2aafd19e4b4 Merge tag 'block-6.5-2023-08-11' of git://git.kernel.dk/linux
-3c4f8333b582487a2d1e02171f1465531cde53e3 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
-3d9e6f556e235ddcdc9f73600fdd46fe1736b090 serial: 8250: drop lockdep annotation from serial8250_clear_IER()
-04c7f60ca477ffbf7b7910320482335050f0d23a serial: core: Fix serial core port id, including multiport devices
 9578b04c32397e664bd4643c8b7f525728df3028 Merge tag 'pm-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 29d99aae13cf2713b85bc26a37921e231676ba48 Merge tag 'acpi-6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 33f83d13ded164cd49ce2a3bd2770115abc64e6f gpio: ws16c48: Fix off-by-one error in WS16C48 resource region extent
@@ -973,4 +959,4 @@ b5cab28be6ccf08237078b675fc1d446679779ba Merge tag 'fbdev-for-6.5-rc7' of git://
 ec27a636d7e1aa05e64ef0b1bd848f27f8105a39 Merge tag 'rust-fixes-6.5-rc7' of https://github.com/Rust-for-Linux/linux
 b320441c04c9bea76cbee1196ae55c20288fd7a6 Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============9148647711193487007==--
+--===============8654238347882145686==--
