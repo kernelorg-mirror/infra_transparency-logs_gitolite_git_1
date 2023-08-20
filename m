@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 20 Aug 2023 12:42:44 -0000
-Message-Id: <169253536493.20604.129213207479926784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 20 Aug 2023 13:06:13 -0000
+Message-Id: <169253677358.4537.257580641028566446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/tpm_buf
-    old: 9370fea07103cfe4178ad0a99e1ac716db6c166c
-    new: 41f3c8f4cddeca3064c505af7ce508240ad23d65
+  - ref: refs/heads/master
+    old: b320441c04c9bea76cbee1196ae55c20288fd7a6
+    new: 706a741595047797872e669b3101429ab8d378ef
     log: |
-         41f3c8f4cddeca3064c505af7ce508240ad23d65 tpm: Detach tpm_buf_reset() from tpm_buf_init()
+         706a741595047797872e669b3101429ab8d378ef Linux 6.5-rc7
          
