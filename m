@@ -1,42 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7541870796213915453=="
+Content-Type: multipart/mixed; boundary="===============2716094059138393138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 20 Aug 2023 05:17:29 -0000
-Message-Id: <169250864966.8007.12798827825831710955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sun, 20 Aug 2023 05:28:49 -0000
+Message-Id: <169250932934.15399.10241583741590110253@gitolite.kernel.org>
 
---===============7541870796213915453==
+--===============2716094059138393138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/kbuild
-    old: 077af782e2c333f056cbd713f065bd0009a79a57
-    new: 750d3cd90deb7bd76232ab7e1ec3f6900b1e7adb
-    log: revlist-077af782e2c3-750d3cd90deb.txt
+  - ref: refs/heads/next
+    old: 00c1cf4fe74f2ddb78eb24cb832b729034603801
+    new: d59a3bf2b42c9fa11de5aed24ddd6bdeaa595e5c
+    log: |
+         2bbeddee5d36dfa3fab16ccd0b78dcdcf66c3a99 fsck: use enum object_type for fsck_walk callback
+         beaa1d952b90523a167a5d3f24e0a8ce56a4afcd hashmap: use expected signatures for comparison functions
+         d59a3bf2b42c9fa11de5aed24ddd6bdeaa595e5c Merge branch 'jk/function-pointer-mismatches-fix' into next
+         
+  - ref: refs/heads/seen
+    old: 0502942893250cf0c741b429da00eed651855772
+    new: 5cd27b946eaf3671ede30db3d5b018215e269631
+    log: revlist-050294289325-5cd27b946eaf.txt
 
---===============7541870796213915453==
+--===============2716094059138393138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-077af782e2c3-750d3cd90deb.txt
+Content-Disposition: attachment; filename=revlist-050294289325-5cd27b946eaf.txt
 
-e88ca24319e427a685a2e9e3a124ad5beca01158 kbuild: consolidate warning flags in scripts/Makefile.extrawarn
-2cd3271b7a310b1199aa36bfd536ca67d3c2d5f2 kbuild: avoid duplicate warning options
-6d4ab2e97dcfbcd748ae71761a9d8e5e41cc732c extrawarn: enable format and stringop overflow warnings in W=1
-26030cb984dd65e0cb2d0c2489d94941cf8897b4 extrawarn: move -Wrestrict into W=1 warnings
-afc721cff5761ac496c638dd13d33b20e03d072e MAINTAINERS: Add usr/ (initramfs generation) to KBUILD
-01726654157e84a623b4f9a4fca155abc3cca9cb kbuild: remove include/ksym from CLEAN_FILES
-9aa490b5586211b476aea2b00953f9cb7bee0613 sparc: replace #include <asm/export.h> with #include <linux/export.h>
-b84533f6e165a3404549ccddf1577140fd1d26d9 sparc: remove <asm/export.h>
-e562f58fe0ec5ab897ef20bc4db72aa3bd5c839e ia64: replace #include <asm/export.h> with #include <linux/export.h>
-269492df0c3c9de6c50b43b264a2009ab5d6f065 ia64: remove <asm/export.h>
-e7090e7ac562495cbf37b53f0dde43083e3641f2 alpha: replace #include <asm/export.h> with #include <linux/export.h>
-750d3cd90deb7bd76232ab7e1ec3f6900b1e7adb alpha: remove <asm/export.h>
+2bbeddee5d36dfa3fab16ccd0b78dcdcf66c3a99 fsck: use enum object_type for fsck_walk callback
+beaa1d952b90523a167a5d3f24e0a8ce56a4afcd hashmap: use expected signatures for comparison functions
+d90f6483adaefb5c13e220b47a03700a2beda832 Merge branch 'jk/function-pointer-mismatches-fix' into jch
+da730f9fc6b05a374884ae7fa399792f54ff140d ### match next
+165b31cb9f9995410e8f0ca7b54f684a25ff01c6 Merge branch 'sl/sparse-check-attr' into jch
+4dd8174305988e753acd25778073af93af7632eb Merge branch 'jc/mv-d-to-d-error-message-fix' into jch
+274675ffcac93970ac9eba2b631fac5ed92bb862 Merge branch 'pw/rebase-i-after-failure' into jch
+5e813e22c795cabb100ffaa04ed55ee2d91c36dd Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
+19a75f7f61f1e6abc3fdfcb77b96a78f781e4267 Merge branch 'jc/rerere-cleanup' into jch
+7afa28f484a749ec7b594dfd576f503dc27d35f8 Merge branch 'rj/status-bisect-while-rebase' into jch
+2d78740bd27dc508198b40b2d3d83286f71aaa4f Merge branch 'la/trailer-cleanups' into jch
+a069a8e6a6c0eb9d35631006f447745ad268bb5d Merge branch 'ds/scalar-updates' into jch
+dbbeaf9fe0cfa008c658f5f0452e7c2ed99d1e44 Merge branch 'jc/diff-exit-code-with-w-fixes' into seen
+06c36628e8dd97a149c0add39ec052d128359200 Merge branch 'js/doc-unit-tests' into seen
+c476b56286f75bc97b1b7c5f465a51e780bee823 Merge branch 'cc/git-replay' into seen
+95d25a00a90b67ede41d87e484484c1e4484e1f7 Merge branch 'ak/pretty-decorate-more' into seen
+e6efcb39f1bc4cf7664b7c85797b1b9333fa6267 Merge branch 'la/trailer-test-and-doc-updates' into seen
+9298fe2d66732793562d54ece9f550ee14a3dbce Merge branch 'ws/svn-with-new-readline' into seen
+fc2e0186ef8995321c2f3b619e15d28e9ae21ef4 Merge branch 'ob/revert-of-revert-is-reapply' into seen
+fc363ab75cfc314e0805108d451dba8af83b843a Merge branch 'ob/format-patch-description-file' into seen
+5cd27b946eaf3671ede30db3d5b018215e269631 Merge branch 'jc/update-index-show-index-version' into seen
 
---===============7541870796213915453==--
+--===============2716094059138393138==--
