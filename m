@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 21 Aug 2023 21:30:03 -0000
-Message-Id: <169265340350.21463.7639672224561406974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 21 Aug 2023 21:57:43 -0000
+Message-Id: <169265506386.8404.1898205624450022015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: af2010496de7bcb8980f5169d41725be99bfe7da
-    new: 569e93d374751c34df59f4a0f19688ce49c84c94
+  - ref: refs/heads/master
+    old: 0569afbbccd6de28d1bacd13471a679ad2674aa1
+    new: a04e93998bebba77ac799dd89c11042c25f2e2d2
     log: |
-         fb2bdd32b231b70e6a3f1054528692f604db25d8 remoteproc: stm32: fix incorrect optional pointers
-         18cf4fcd7bdc1864e75127f4fd15abc0bc76ec7f remoteproc: pru: add support for configuring GPMUX based on client setup
-         569e93d374751c34df59f4a0f19688ce49c84c94 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+         a04e93998bebba77ac799dd89c11042c25f2e2d2 scripts/sortman: Sort 'cat' before 'catatonic'
          
