@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3791045349395662979=="
+Content-Type: multipart/mixed; boundary="===============0019399632703696344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 21 Aug 2023 07:13:33 -0000
-Message-Id: <169260201339.24446.13758195353796233615@gitolite.kernel.org>
+Date: Mon, 21 Aug 2023 07:14:52 -0000
+Message-Id: <169260209284.24981.6981046034800426208@gitolite.kernel.org>
 
---===============3791045349395662979==
+--===============0019399632703696344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+  - ref: refs/heads/linux-next
+    old: c04e9894846c663f3278a414f34416e6e45bbe68
     new: 706a741595047797872e669b3101429ab8d378ef
-    log: revlist-fdf0eaf11452-706a74159504.txt
+    log: revlist-c04e9894846c-706a74159504.txt
 
---===============3791045349395662979==
+--===============0019399632703696344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf0eaf11452-706a74159504.txt
+Content-Disposition: attachment; filename=revlist-c04e9894846c-706a74159504.txt
 
+c21733754cd6ecbca346f2adf9b17d4cfa50504f platform/x86: huawei-wmi: Silence ambient light sensor
+55aab08f1856894d7d47d0ee23abbb4bc4854345 hwmon: (pmbus_core) Fix pmbus_is_enabled()
+0bd66784274a287beada2933c2c0fa3a0ddae0d7 hwmon: (pmbus_core) Fix NULL pointer dereference
 13e098b58b8ff6d17f98f459dcc23ff064818e80 Merge tag 'usb-serial-6.5-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-0d8f7cc8057890db08c54fe610d8a94af59da082 xenbus: check xen_domain in xenbus_probe_initcall
 c55afcbeaa7a6f4fffdbc999a9bf3f0b29a5186f usb: ohci-at91: Fix the unhandle interrupt when resume
 71c47ad8920ef19d6545202191252a50c03aca30 usb: typec: ucsi: move typec_set_mode(TYPEC_STATE_SAFE) to ucsi_unregister_partner()
 e835c0a4e23c38531dcee5ef77e8d1cf462658c7 usb: dwc3: don't reset device side if dwc3 was configured as host-only
@@ -91,7 +93,6 @@ a49441c9ab059ce47f97dc15fb82d4e7b7b2ef65 Merge branch 'net-fix-error-warning-by-
 e11ec2b868af2b351c6c1e2e50eb711cc5423a10 net: ipa: only reset hashed tables when supported
 1f9f4f4777e7958e5c1fbdfd9ddf4207dc00a40f tracing/probes: Fix to add NULL check for BTF APIs
 02ab7234fc69695736d60b34044fe591689ffadd selftests/ftrace: Fix to check fprobe event eneblement
-58f6259b7a08f8d47d4629609703d358b042f0fd xen/evtchn: Introduce new IOCTL to bind static evtchn
 d265ebe41c911314bd273c218a37088835959fa1 Revert "wifi: ath11k: Enable threaded NAPI"
 fd7f08d92fcd7cc3eca0dd6c853f722a4c6176df wifi: cfg80211: Fix return value in scan logic
 a1ce186db7f0e449f35d12fb55ae0da2a1b400e2 Revert "wifi: ath6k: silence false positive -Wno-dangling-pointer warning on GCC 12"
@@ -169,7 +170,6 @@ b84000f2274520f73ac9dc59fd9403260b61c4e7 hwmon: (pmbus_core) Fix Deadlock in pmb
 6c58c8816abb7b93b21fa3b1d0c1726402e5e568 net/sched: mqprio: Add length check for TCA_MQPRIO_{MAX/MIN}_RATE64
 25266128fe16d5632d43ada34c847d7b8daba539 virtio-net: fix race between set queues and probe
 ff0df20827f6ac32822f9855998c4db3e99af47c Merge tag 'nf-23-07-26' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-c04e9894846c663f3278a414f34416e6e45bbe68 xen: speed up grant-table reclaim
 8019a4ab3d80c7af391a646cccff953753fc025f ALSA: hda/realtek: Support ASUS G713PV laptop
 ac83631230f77dda94154ed0ebfd368fc81c70a3 staging: r8712: Fix memory leak in _r8712_init_xmit_priv()
 2dedcf414bb01b8d966eb445db1d181d92304fb2 drm/ttm: check null pointer before accessing when swapping
@@ -1051,4 +1051,4 @@ ec27a636d7e1aa05e64ef0b1bd848f27f8105a39 Merge tag 'rust-fixes-6.5-rc7' of https
 b320441c04c9bea76cbee1196ae55c20288fd7a6 Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 706a741595047797872e669b3101429ab8d378ef Linux 6.5-rc7
 
---===============3791045349395662979==--
+--===============0019399632703696344==--
