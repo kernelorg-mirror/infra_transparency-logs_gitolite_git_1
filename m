@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 21 Aug 2023 03:06:20 -0000
-Message-Id: <169258718098.3882.14791964663810496755@gitolite.kernel.org>
+Date: Mon, 21 Aug 2023 03:08:47 -0000
+Message-Id: <169258732740.6135.4740573032937843339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm_buf
-    old: 12e42a2e358733d1eb91136f784ecffab81bb84f
-    new: 6679eb16f05e8f116e5124201f36919f1a4a75ff
+    old: 6679eb16f05e8f116e5124201f36919f1a4a75ff
+    new: 73c5095299568301e0ac2eb9251597a92cbb74e7
     log: |
-         6139f4899266ddb5e1da1b445919cbc1497efbe8 tpm: Move buffer handling from static inlines to real functions
-         eae55771f1141a0a33891221f8672bf3c2d008d3 tpm: Store TPM buffer length
-         fcb8a1ba9532523cb0097213d809465650be41a8 tpm: Detach tpm_buf_reset() from tpm_buf_init()
-         d3a664917caa623c51a71520ca243da5d072f065 tpm: Support TPM2 sized buffers (TPM2B)
-         6679eb16f05e8f116e5124201f36919f1a4a75ff KEYS: trusted: tpm2: Use sized buffer in
+         bf12f430d294ea560b4e27c3eb4c9955481ca0b5 tpm: Move buffer handling from static inlines to real functions
+         b5d362de48589a4da5345fc804b0088671de2020 tpm: Store TPM buffer length
+         e3ecda38e92c16dd2c1c766dc8305fc9982a1e04 tpm: Detach tpm_buf_reset() from tpm_buf_init()
+         7d68958824165046f9681f42ceb046929169dfd7 tpm: Support TPM2 sized buffers (TPM2B)
+         73c5095299568301e0ac2eb9251597a92cbb74e7 KEYS: trusted: tpm2: Use sized buffer in
          
