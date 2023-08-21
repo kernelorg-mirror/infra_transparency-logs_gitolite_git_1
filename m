@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 21 Aug 2023 19:11:58 -0000
-Message-Id: <169264511817.16658.3882918279390486232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 21 Aug 2023 19:12:49 -0000
+Message-Id: <169264516906.17279.6629880237380397488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/pcie-rmw
-    old: a48c6af2d2a59872d631c8b1fed65fda70840e75
-    new: da54556695b9ab20cc696827247ffff02254b78d
+  - ref: refs/heads/bleeding-edge
+    old: ddf1c1634a56ef216625ac821011eb2299935b4f
+    new: d90abd2b74947e3bfe08c623e6916a75fec08f77
     log: |
-         ce7d88110b9ed5f33fe79ea6d4ed049fb0e57bce drm/amdgpu: Use RMW accessors for changing LNKCTL
-         7189576e8a829130192b33c5b64e8a475369c776 drm/radeon: Use RMW accessors for changing LNKCTL
-         30de872537bda526664d7a20b646adfb3e7ce6e6 net/mlx5: Use RMW accessors for changing LNKCTL
-         6c1b6bdb34aaf8f94f65a9cae1d63490320c11bc wifi: ath11k: Use RMW accessors for changing LNKCTL
-         f5a7ac118faf6d4f794975947b3300717eae8fc5 wifi: ath12k: Use RMW accessors for changing LNKCTL
-         f139492a09f15254fa261245cdbd65555cdf39e3 wifi: ath10k: Use RMW accessors for changing LNKCTL
-         7cd23f6c7252a84eb28370d7da4ae7da94947f2d PCI: Document the Capability accessor RMW improvements
-         da54556695b9ab20cc696827247ffff02254b78d net/mlx5: Convert PCI error values to generic errnos
+         ed9571647eff3dd7a53068f83338530959c7ace4 cpufreq: stats: Improve the performance of cpufreq_stats_create_table()
+         d51847acb018d83186e4af67bc93f9a00a8644f7 cpufreq: intel_pstate: set stale CPU frequency to minimum
+         d90abd2b74947e3bfe08c623e6916a75fec08f77 Merge branch 'pm-cpufreq' into bleeding-edge
          
