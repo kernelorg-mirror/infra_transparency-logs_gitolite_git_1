@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4515317116337524285=="
+Content-Type: multipart/mixed; boundary="===============1405623148016586686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 21 Aug 2023 14:18:55 -0000
-Message-Id: <169262753527.26178.6776312387641173038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Aug 2023 14:19:01 -0000
+Message-Id: <169262754144.26314.5680810138480741026@gitolite.kernel.org>
 
---===============4515317116337524285==
+--===============1405623148016586686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: 727d7c1c3695657873d62030b968ba97c8698c54
     new: 3a5e6e49855661ad39b8fbb1dbd041178af98e00
     log: |
@@ -30,28 +30,28 @@ changes:
          3a5e6e49855661ad39b8fbb1dbd041178af98e00 regulator: tps65086: Select dedicated regulator config for chip variant
          
 
---===============4515317116337524285==
+--===============1405623148016586686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1692627533 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1692627533-4855fbc23da8e34317a4c63ce99523e40163074c
+pusher C3F436CA30F5D8EB 1692627539 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1692627539-0f2f77100fc353dc72425d3f1401437ed8c5f135
 
-727d7c1c3695657873d62030b968ba97c8698c54 3a5e6e49855661ad39b8fbb1dbd041178af98e00 refs/heads/for-6.6
+727d7c1c3695657873d62030b968ba97c8698c54 3a5e6e49855661ad39b8fbb1dbd041178af98e00 refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTjck0ACgkQJNaLcl1U
-h9COrQf/ZKcxqDsFRgeaIegdawiefDfLJrlEti1Qj4AOr4KOSRa9TMGrf15gUBHU
-K/kY74iOpTFc8TDriD18Z4pPmjC7fvaNlQPX88v/vXvJmNYMgYOyEhvfLmvo9QLA
-Z9NFS5rZvL46mZ2SjX/CKieopTKNmoMgjc5eZUqkn3Arb1OPQwuZqSOiRBoD+P79
-mZMdBKRPsUVxHyvFfj5melZCnqS4D0fYGZhYYODUFLhw2TevXwADKdyEq1xplpfq
-2rb7arpUQDJ6THdF1pcPeRqXQ1mogXrmlOVlMZiPzbobANzsh6jszpgdMu5Kl8rO
-1M87fotUd1FWVDVw74pTDuvZ/5+0QQ==
-=IjwY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTjclMACgkQJNaLcl1U
+h9BnyQf/RAavhh7/fYvZSbVHdJVje6qadw5s4NtBjoIer0BTArL3TXgXsFStsTyo
+o/mo6ZDb4uQr5K6Gv3uuc1XS6BTwJDHDy1CWbTOH+yaIyH36GGkAHerd7VGNGCRN
+dUgkjPRVyaxmpklHJLIlJMxFZydjzpwAYCVrylqKn392+oIxls1cuy9y+w8VDIec
+zcoeF+qQoM5EY2pHYkF4iYSo1MvYgBuMUzC8jDs9OT6zML50JkgcUviln4225DRq
+NJqQinT4yNNxfXjgjGzdx80Z4d+IRX2XMWwSCZdx1mMmJovkfLacxx+vLnbhBh23
+SWtPz2h+CthpHk7Tna2gG9nSsG5Zhg==
+=XyVw
 -----END PGP SIGNATURE-----
 
---===============4515317116337524285==--
+--===============1405623148016586686==--
