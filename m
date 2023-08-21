@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Mon, 21 Aug 2023 19:55:47 -0000
-Message-Id: <169264774763.17203.7090393577121709936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 21 Aug 2023 19:58:16 -0000
+Message-Id: <169264789647.18172.2015580363825292302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/dev-test
-    old: 6ebf6f2967d0a5731af1767d5735f46e30fea0fc
-    new: f6c89aaeffe2ddd7b2088f038ea4c6891009d366
-    log: |
-         4338603fc4bd62c69580e4a6f5bb81de6c193bfb f2fs-tools: f2fs_io: no memcpy for mmap read
-         f6c89aaeffe2ddd7b2088f038ea4c6891009d366 f2fs_io: add do_clearflags to clear nocompress/compress flag
-         
+  - ref: refs/remotes/selinux/stable-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 70d91dc9b2ac91327d0eefd86163abc3548effa6
