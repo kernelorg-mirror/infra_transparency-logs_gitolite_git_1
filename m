@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 21 Aug 2023 16:19:10 -0000
-Message-Id: <169263475042.17447.18097299782975202957@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0957337943602172941=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 21 Aug 2023 16:23:11 -0000
+Message-Id: <169263499117.20547.1174970892263484744@gitolite.kernel.org>
+
+--===============0957337943602172941==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-andy
-    old: 87fffa030bc716c8914242e588c9b73b7715313d
-    new: 83f7586f3b365330765a24eb40f99a1c1a43d38e
+  - ref: refs/heads/master
+    old: 1165b72e9db93d1e1dcb611d45a18be589842959
+    new: 7c7c232d4f042455355c57778272005fc9ac2073
     log: |
-         2a6c0b4777ae51222b6d9d5d5687bd6cbf9ed4f8 pm: Introduce DEFINE_NOIRQ_DEV_PM_OPS() helper
-         e5f32bf0974f817790717839e4a53b16eedcb5a9 pinctrl: cherryview: Switch to use DEFINE_NOIRQ_DEV_PM_OPS() helper
-         f0d8d0eea5ed9854b4e4a8973ddced1a8e660a77 pinctrl: at91: Switch to use DEFINE_NOIRQ_DEV_PM_OPS() helper
-         c9008b71bed6a86079e0d5f9b0eca27f9eb1bbcd pinctrl: mvebu: Switch to use DEFINE_NOIRQ_DEV_PM_OPS() helper
-         727eb02eb753375e6e8b829a19839ddd1006bfad pinctrl: renesas: Switch to use DEFINE_NOIRQ_DEV_PM_OPS() helper
-         83f7586f3b365330765a24eb40f99a1c1a43d38e pinctrl: tegra: Switch to use DEFINE_NOIRQ_DEV_PM_OPS() helper
+         7c7c232d4f042455355c57778272005fc9ac2073 6.1-stable patches
          
+
+--===============0957337943602172941==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692634989 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1692634989-b2143970664a4cf4a9f7d9b0e165b11c139db490
+
+1165b72e9db93d1e1dcb611d45a18be589842959 7c7c232d4f042455355c57778272005fc9ac2073 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTjj24bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kJ4QANAtGsGVqJ6FB3I5w8Ba
+XkFHPeaFPVxZyAj1tivP+4Mj0A7so9nx9IyqHRHBFRfOF44jw9GX/NpGZv3norJ5
+OmBIqRacQxPdl6ME5aFTltByLSah543AEgtyQWiWV6KEtU2F40sQI7SYGfdy4Hts
++Aeipe4FihrLCNFY8LQHbWOBJacA+tFOp3KttUEPKtsw3m4Xnwl6jN6bmFkqO9rm
+AUdg0NvOgujFt1ZSs9GsWOmk8X8PVJp6oKovNhciIHAcIEvNRd3TOSG5trqeLqee
+REbvo1Laz1mS6Fu06OzftPURUg6Pr2VRxfdvK9aY4L0jwFAtNIOoUb3BWRKqyq+y
+l19iFDd+Mf8lxPiDSjsnwMxdgOQ38k9x1J24QMRUh+1wL7aETAqqLc2haasEK0ek
+0SoA8h+t3zh/AfW/9gje1RGS/LEPgYi7d4Q/3LqDfYHm4tnBCD30QLNYCPSYm7Km
+Ei7YCP5NLJoa3M2XaOC3viC6UJwULIdk+81mljqigvBkYRLKJlh/JwBVwxoUC+QB
+w7WZdMEec3oPPxmqxejowYAQI00vBD75/hqxBjrpHcpYwgQEaMQdkweiTQvFPKuA
+3XGFKLuaUlaKCrKFjoLqOWnRSfoKE5nY9c5TbJHnToxdHKRfBwjaZGOFiCxdVW5x
+qewtZthKEOeR5MPnQ6XvHfH5
+=00+3
+-----END PGP SIGNATURE-----
+
+--===============0957337943602172941==--
