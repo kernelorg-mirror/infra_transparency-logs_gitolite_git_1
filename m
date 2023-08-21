@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4901272154687728776=="
+Content-Type: multipart/mixed; boundary="===============0620760450087474506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 21 Aug 2023 22:55:25 -0000
-Message-Id: <169265852560.20527.9938993238166781430@gitolite.kernel.org>
+Date: Mon, 21 Aug 2023 22:55:31 -0000
+Message-Id: <169265853144.20679.11099899065444439618@gitolite.kernel.org>
 
---===============4901272154687728776==
+--===============0620760450087474506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: acfadf25a9ee65d4ff5fbcbd91c63dbae3fe52fb
     new: d56518380085d78f179cdc701d791ace4acb1d23
     log: revlist-acfadf25a9ee-d56518380085.txt
 
---===============4901272154687728776==
+--===============0620760450087474506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ d571efae0f1d3d3b6c3aa294889d47a39b4ab8a1 selftests/bpf: Add uprobe_multi pid fil
 8909a9392b4193f6d76dab9508c63c71458210df selftests/bpf: Add extra link to uprobe_multi tests
 d56518380085d78f179cdc701d791ace4acb1d23 Merge branch 'bpf-add-multi-uprobe-link'
 
---===============4901272154687728776==--
+--===============0620760450087474506==--
