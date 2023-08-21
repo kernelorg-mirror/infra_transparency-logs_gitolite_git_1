@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 21 Aug 2023 19:54:31 -0000
-Message-Id: <169264767112.15018.4376031880543376814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 21 Aug 2023 19:55:37 -0000
+Message-Id: <169264773782.17061.9388674641566150120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 0004eb06d5d9a2f27521d9ce3b206d6f3f82c61e
-    new: e93094977f08442d13d120a6154f8236dcc491dc
+  - ref: refs/heads/dev
+    old: 6ebf6f2967d0a5731af1767d5735f46e30fea0fc
+    new: f6c89aaeffe2ddd7b2088f038ea4c6891009d366
     log: |
-         dbe52200549bdc61fcd94c8c41d56c58d258ad7c vhci: Add function to pause processing input from vhci
-         bfcc3f7bf48fa3c1fdbd3ae9bf6ae671575a4f1c hciemu: Add hciemu_flush_client_events for ordering VHCI vs bthost
-         465108814db2b7ba3037a83cb91f7de1cc2f7366 sco-tester: add test for ACL disconnect before SCO established
-         70b4db6803b46d5f9ad08a3f72eef9186b25e50a iso-tester: add test for ACL disconnect before ISO created
-         e93094977f08442d13d120a6154f8236dcc491dc adapter: wait for kernel exp features in adapter initialization
+         4338603fc4bd62c69580e4a6f5bb81de6c193bfb f2fs-tools: f2fs_io: no memcpy for mmap read
+         f6c89aaeffe2ddd7b2088f038ea4c6891009d366 f2fs_io: add do_clearflags to clear nocompress/compress flag
          
