@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7863913374518700350=="
+Content-Type: multipart/mixed; boundary="===============6895900503861380960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 21 Aug 2023 22:27:35 -0000
-Message-Id: <169265685515.31056.8941225969803106130@gitolite.kernel.org>
+Date: Mon, 21 Aug 2023 22:27:49 -0000
+Message-Id: <169265686945.31209.16638311196293795453@gitolite.kernel.org>
 
---===============7863913374518700350==
+--===============6895900503861380960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,93 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa
-    new: a18e81d17a7e634420e589fa504e79e4893cde5e
-    log: revlist-6cae9a3910ac-a18e81d17a7e.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: b69ddc8731b3994505ebe80aaecda613f5d9b710
+    new: 333bbbf11e7a65e59bd75bd2495b52d99ec34f85
+    log: revlist-b69ddc8731b3-333bbbf11e7a.txt
 
---===============7863913374518700350==
+--===============6895900503861380960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1692656853 -0400
+pusher 75C5DE3D 1692656859 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1692656853-dd444656abd944b649b729e69a9ec588d5cd4f67
+nonce 1692656858-0f7074ec00c668900a3e39535806fa8ad3dd86d8
 
-6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa a18e81d17a7e634420e589fa504e79e4893cde5e refs/heads/queue
+b69ddc8731b3994505ebe80aaecda613f5d9b710 333bbbf11e7a65e59bd75bd2495b52d99ec34f85 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTj5NUACgkQ7ulgGnXF
-3j3XJxAAtpEei8eYXO9twYyC6POTEwtgHVn6UCoyAuYmWeUcz71odtESzjS7hMdl
-9ey/MKkWU4rnGx+yCb04CWhM+BTu/+KWb/TbzJNhoDuCCr7K3TswoNh8BdQhS7pF
-NtaqqkpsntkD+6rvjpGGWNiUXOqqQXuLTUnQ/YycQ/HyejgCsDjrGp86uDJIIAFY
-lNFCSweHJM/S9Z9Yzm6yT1gxjZY+jwGDrploVG3yNgVbBT0Fo2/vtxqXjjMJ+LH5
-Tf71V6nU5cnTEwKzZR42SBIbJgeb0FdUjUn8Gh1YNzlRFdd1bhxW7zN/G0IsXCuY
-ljG2GtjQrB32kbfOkunSJNnC6e7jB5jVc0HHzrif7jwrA8SYmcC+75C0RcWJu7+G
-eN2KsIVo/FofMPagtK69LNdSiL8DvNqt9vml+SlqWxqIzLPebQi8kpZxBWfTxwwC
-SSDDXFvQWNtDSgfZ4vbH8etv3R+OGWH5OAdgsjoybKwNaCIfUqdNsveV+0KminNM
-/LU7DFuyggB8u7be7xiXUs0DsfbJaJY80YnRbEzTYgoFN8/EMbWqC5W3F+2wzvSq
-k/FIbFoSkRInu4JQ+m30BE2ydjObbvLXb+YmpAXtHGJnhANQ04+fUiPjEPki81OD
-q50/CvgywZQA7yL8399WLardOMniQJjc7HxuHgd4qEIMWfg7wVM=
-=UIkP
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTj5NsACgkQ7ulgGnXF
+3j1V5A//c3ltilr6G3TfsDJR9mlndoby29ZnFtOF/Sri1vdo6GQaRyeigV9enB+O
+lqfRlNXuPnyysulGl021y8TwR97gtzUxmIVq2mmUmy1gfKylKVY0rESFrx9GfD7i
+mH65Sh5/nsaZMH7TfF/tBedibTDPGM9oCVoF8mhmRfKtwqwRmQrW2sInskKFK3pD
+IbWoH3sJMxNFI424lqVoVirugAgk74WUtPIyCRjIaHkhKor+q/Yq5kZg0USS/8YX
+9C6wECg+rRTITZwwV16dEYuG3e4kfvyTvs+42r6M81BNpKwINYvnxoW6cCw1CNbm
+RL4+KhVyc3W14RmQRhI32kK+ghbSMTxdcvUdd6SV51A1afINpFdxEQ70Jv9U2kdg
+/S1r50rTa6gzj3DwysC2acFtYAalF/fE/UpmhAzpiK7JDtNiiGqSRllXzDtZVFP6
+vYITVPL+cPVHowtxZ0KrwfW9Rr4Ut28RYebsH+DOuZANkLpURp013ya3OEtYkGWN
+PK/7QBm7okXtZpoegRdbLjOid5wWaRIlj5Xcbl/5yzfElYFv3rIRXuocFEdXijpg
+tjy2f8BkNrTnMdss32vDhGhnEfigoObHT/yzyeI9Vzdog1CGb1rqV5gS3l+dODaD
+dW1ix1z3vlNazhlTcH9ng+RlB5lGZ95WFVJQL1B2dlj37wBrGwQ=
+=rQ6T
 -----END PGP SIGNATURE-----
 
---===============7863913374518700350==
+--===============6895900503861380960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cae9a3910ac-a18e81d17a7e.txt
+Content-Disposition: attachment; filename=revlist-b69ddc8731b3-333bbbf11e7a.txt
 
-548fdf771b8e85e6f14fcebcf3443ea475444445 scsi: ufs: core: Export ufshcd_is_hba_active()
-21f04fb4e8ca4a6a88c76b1ddf9ea94e6c118005 scsi: ufs: ufs-qcom: Check host controller state
-c306f746fee55b07d92dc768f3167f5b27a677db scsi: ufs: core: Fix the build for gcc 9 and before
-01e747157b6143b62240cebcc4493f9eaad12a08 scsi: ufs: qcom: Make struct ufs_qcom_bw_table static const
-dded1dc31aa433ab4442dbe8e5a14d2a9a919bcd scsi: lpfc: Modify when a node should be put in device recovery mode during RSCN
-9134211f7bed218bc01940fc24ebe8b4bc02b69b scsi: mpi3mr: Invoke soft reset upon TSU or event ack time out
-6f81b1cfdf33533925dbbfab9923f67fb4a31858 scsi: mpi3mr: Update MPI Headers to version 3.00.28
-d9adb81e67e9be51990a14389cd1762086b44985 scsi: mpi3mr: Add support for more than 1MB I/O
-e7a8648e1ce2ddbc74ac69da83dcebbee0c7e1b8 scsi: mpi3mr: WRITE SAME implementation
-d9a5ab0ea98fdee77fcbfec27bb3976de9615377 scsi: mpi3mr: Enhance handling of devices removed after controller reset
-9a9068b2afa0b0bf559b66b374785d2fcb5b9b5e scsi: mpi3mr: Update driver version to 8.5.0.0.0
-9640d57d15611ab02be33e0db1639bcf3e2222c8 Merge patch series "mpi3mr: Few Enhancements and minor fixes"
-a18e81d17a7e634420e589fa504e79e4893cde5e scsi: ufs: ufs-pci: Add support for QEMU
+2fcd1e2b648fca02c6a1d623bbd9ca20d49cdafe scsi: libsas: Remove unused declarations
+a905b5cddcbd9c7d8323feda07012a3b2c8f8b97 scsi: core: Remove unused extern declarations
+e9b525b6ccbf00f38a44de43edb3a83463dde4e2 scsi: arcmsr: Add __init and __exit for arcmsr_module_{init,exit}()
+b68442ebda9c8aca1e1802c169354c8fb31686f1 scsi: ppa: Fix compilation with PPA_DEBUG=1
+68a4f84a17c1d83daf8c07446ca32f7958f49c04 scsi: ppa: Add a module parameter for the transfer mode
+71cc486335c41e4393143b925dd33b018d407af2 scsi: qlogicpti: Mark qlogicpti_info() static
+bfaa4a0ce1bbc1b2b67de7e4c2e1679495f7b905 scsi: gvp11: Remove unused gvp11_setup() function
+9a23ed57abbb458e532ae24b7ffdf821f85e1a5d scsi: isci: Return result of sas_register_ha()
+62ec2092095b678ff89ce4ba51c2938cd1e8e630 scsi: core: Use 32-bit hostnum in scsi_host_lookup()
+137523237172c78298bd5346c270aecded18630a scsi: ufs: core: Convert to dev_err_probe() in ufshcd_variant_hba_init()
+517f8eb3fa64c206985cf22899d1964626df4ddd scsi: ufs: host: Convert to dev_err_probe() in ufshcd_pltfrm_init()
+48e590218d1b2f472a3667e454bbe07ecaecb3f4 scsi: mvumi: Use pci_dev_id() to simplify the code
+a46421fdf7e9fb662becf88b002872cb491dbcaa scsi: megaraid_sas: Use pci_dev_id() to simplify the code
+bb1459cb84da009bb4c5faed4a2647ce3810bdca scsi: megaraid: Use pci_dev_id() to simplify the code
+72875018f638d02db09f74cbe181dc76a75bc970 scsi: libsas: Add return_fis_on_success to sas_ata_task
+54543295955164fd463b6fe9e0f4724199cfe62a scsi: pm80xx: Set RETFIS when requested by libsas
+5d344c5eb4158808ce82cacf8d5dae8339da84f2 scsi: pmcraid: Use pci_dev_id() to simplify the code
+1e4474c84554eb0f0936fff9f5ff6b95d9c69b44 scsi: qla2xxx: Remove unused declarations
+56a4d69a26c9bc77f4697692b6f7223e09f9de1a scsi: bfa: Replace one-element array with flexible-array member in struct fc_rscn_pl_s
+2d6f70fe175e342d29ee1103523551bb224981d4 scsi: elx: sli4: Remove code duplication
+1a1975551943f681772720f639ff42fbaa746212 scsi: fcoe: Fix potential deadlock on &fip->ctlr_lock
+04aff456af1833c62345a9551958993269eb88b1 scsi: pm8001: Remove unused declarations
+19d7102a953900560811498018bb2de4e27ee9d9 scsi: lpfc: Do not abuse UUID APIs and LPFC_COMPRESS_VMID_SIZE
+84c073fd89de22d5cb09edffb1f692a1964fd584 scsi: target: Fix write perf due to unneeded throttling
+efeda3bf912f269bcae16816683f432f58d68075 scsi: qla2xxx: Move resource to allow code reuse
+ae25f65a351ca9c650887c2b37319fa9a41ec258 scsi: qla2xxx: Allow 32-byte CDBs
+875386b98857822b77ac7f95bdf367b70af5b78c scsi: qla2xxx: Add Unsolicited LS Request and Response Support for NVMe
+6d0b65569c0a10b27c49bacd8d25bcd406003533 scsi: qla2xxx: Flush mailbox commands on chip reset
+e370b64c7db96384a0886a09a9d80406e4c663d7 scsi: qla2xxx: Fix firmware resource tracking
+cd248a95f86df2523056ef8ad895e8ee0c17be53 scsi: qla2xxx: Add logs for SFP temperature monitoring
+0ba0b018f94525a6b32f5930f980ce9b62b72e6f scsi: qla2xxx: Error code did not return to upper layer
+e9105c4b7a9208a21a9bda133707624f12ddabc2 scsi: qla2xxx: Remove unsupported ql2xenabledif option
+b496953dd0444001b12f425ea07d78c1f47e3193 scsi: qla2xxx: Fix smatch warn for qla_init_iocb_limit()
+641671d97b9199f1ba35ccc2222d4b189a6a5de5 Revert "scsi: qla2xxx: Fix buffer overrun"
+cc6e67e60fe749ee6aa1c92000c372e0e6ad7ae1 scsi: qla2xxx: Update version to 10.02.09.100-k
+b1bc4973177035bce5a5e0483abbbe12e6f9005b scsi: libsas: Delete sas_ha_struct.lldd_module
+c46a91709335ef8fccec082201e758531aee1c8f scsi: libsas: Delete enum sas_class
+2f4e20cd6ef8083f911e4f8bba3c0a99815b44f4 scsi: libsas: Delete enum sas_phy_type
+1136a0225d0582c4464fa37e3a91ed4b19b8745e scsi: libsas: Delete struct scsi_core
+31d9061b475c0b05b69126e6c2c063c98fa7bd8e scsi: libsas: Delete sas_ssp_task.retry_count
+ebf26e93cfece20765bc2a562f7adc4340b2e4cc scsi: libsas: Delete sas_ssp_task.enable_first_burst
+4dc051eb0c6b6c4580e5fc61f409bf711013bc35 scsi: libsas: Delete sas_ssp_task.task_prio
+7b964c4022852c02c0b586e786252b470e4bc479 scsi: libsas: Delete sas_ata_task.set_affil_pol
+44862dc2d2e7b26f6bf30da6bbed8586b48d4400 scsi: libsas: Delete sas_ata_task.stp_affil_pol
+86344494e3649a487650fb9ea535e29fc891ab95 scsi: libsas: Delete sas_ata_task.retry_count
+08f69c693a12351062354536ca58853d34a47f06 Merge patch series "Returning FIS on success for CDL"
+08dde65a5a8fbb6603b50e6be9ea4727ad807c36 Merge patch series "qla2xxx driver misc features"
+091462cb57e4ac146f134e258c4f764662ba3961 Merge patch series "libsas: Some tidy-up"
 
---===============7863913374518700350==--
+--===============6895900503861380960==--
