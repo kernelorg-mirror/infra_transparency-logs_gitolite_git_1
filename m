@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 21 Aug 2023 20:02:42 -0000
-Message-Id: <169264816249.21747.6638214640578363063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 21 Aug 2023 20:10:52 -0000
+Message-Id: <169264865289.29247.11130047506354912206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 79c83d75974c0d0126da9355e2ea30d58f588f6c
-    new: 36315cf76c4fe0b93eb2c1b0b13e9db87fb8ca03
+    old: f0835e7404b7f6fd825fc1ad7a174253a54234cf
+    new: 2434f59ffc728538541377547031935b1018aec8
     log: |
-         36315cf76c4fe0b93eb2c1b0b13e9db87fb8ca03 foo
+         2434f59ffc728538541377547031935b1018aec8 Bluetooth: hci_core: Fix missing instances using HCI_MAX_AD_LENGTH
          
