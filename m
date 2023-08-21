@@ -1,21 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 21 Aug 2023 22:25:26 -0000
-Message-Id: <169265672679.29736.12518790426349469094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 21 Aug 2023 22:25:59 -0000
+Message-Id: <169265675917.30030.5128250251202623590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 0a55264cf966fb95ebf9d03d9f81fa992f069312
-    new: 5bebd3e3a37dc00c6dbbcd0eb5cebd58e3f18f64
-    log: |
-         8f8500a247c91e0d263283879166fffbb3329584 bpf, cpumap: Use queue_rcu_work() to remove unnecessary rcu_barrier()
-         c2e42ddf26cad03ea92400c88b024e8ce1601dff bpf, cpumask: Clean up bpf_cpu_map_entry directly in cpu_map_free
-         5bebd3e3a37dc00c6dbbcd0eb5cebd58e3f18f64 Merge branch 'remove-unnecessary-synchronizations-in-cpumap'
-         
+  - ref: refs/heads/x86-efistub-cleanup
+    old: 5012d72264c4ce7befebb56a66e2cb5476875999
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v3
+    old: eaec9c308509865238a5accac4cfd6209bfc5872
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v4
+    old: 5233e0c5f7c9cd7a64b23e6e056cc0c7a6181807
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v5
+    old: 0e7e311730ff26b7ada60663e160c4bf835bf4a9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v6
+    old: 41cb3d187755ad70979688b30a1da90b70d51b20
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v6a
+    old: 4af4d438d28298382701023c1a659d8365a22f3f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v7
+    old: 0f67b339aae92feffbd01bdc8987f5298e969102
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86-efistub-cleanup-v8
+    old: 5793d445f74a41edc1859bd9a5e27d2d033ce022
+    new: 0000000000000000000000000000000000000000
