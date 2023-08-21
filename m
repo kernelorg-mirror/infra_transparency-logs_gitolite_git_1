@@ -1,94 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============6092748530174046807=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 21 Aug 2023 21:24:32 -0000
-Message-Id: <169265307233.16466.8153713546172331596@gitolite.kernel.org>
-
---===============6092748530174046807==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 21 Aug 2023 21:29:38 -0000
+Message-Id: <169265337830.19955.8792734683622882882@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 36315cf76c4fe0b93eb2c1b0b13e9db87fb8ca03
-    new: c263cffeaca4870176a04861b574a9b4aa926fea
-    log: revlist-36315cf76c4f-c263cffeaca4.txt
-
---===============6092748530174046807==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36315cf76c4f-c263cffeaca4.txt
-
-8658588e70aa913e6437e478c7424452e340db3c foo
-2337d35ac85e7780a627cb58946c77adc1bfe5bf foo
-cd4bf457b87614fb50de72b41091e7bf835585e1 foo
-813dfccd7496773ad3647e943b7385771e67f12f foo
-b615bcf1b9f28606e3df3116c8d205a67b696640 foo
-f650f6969293bf27125309aa2a12cade53573bf0 foo
-459d1d85509f82b1848ab1eca1d1768bff372ff7 foo
-448da19b1af56b4b2136f4459f668b2fabde0df7 foo
-e8437a46dd3b0991f173f98938a09ba08d9d3705 foo
-cb5ef51cce9a78fc1b20504e9e5ebc249f81aedc foo
-1587ab272efac633f64fc3b399825b2a7f2f1b83 foo
-a162b6c553ee08aa858871c8835767855451cf8b foo
-cc01178320c7601925db761a609ae753a055ed62 foo
-739d1b789f2a1486f776a4759ea5eee71af3cb53 foo
-15b4c39dae791f5461c0251fb745243c51baf718 foo
-1d899af52244569e6c06f98d718a7b74a7f660b1 foo
-cef95e25248431bc3e6074e10b527ffe5c856cf6 foo
-6b8c895300954cf57ee3e66dff21abdfee500434 foo
-421dc34d3ad66e6ff7eb2e8e261ac5c8f1538104 foo
-993bd70f660bd8142a804dd0f60b4bb86d547c8a foo
-a7d24d4c0cff60cec85239508e13b130a5fef86a foo
-dd27b4260531f1042b27aad7f366be6862f33634 foo
-2580b8fdcfb2bb0cb359f5a6e54936e50fab997e foo
-870baeb2faf51843f5d8b1d99682898c41dfacb4 foo
-8000d7226dc4451c961cb481a4823103c043a5c6 foo
-ad6caee39ede9b0ede45590e975c04a8e047398f foo
-2c56343e3301ed6cf2417245642038c8d8058fa0 foo
-3e94030d5d5db1c5a7bef70815268802725c961e foo
-44f84fb5772a5c0925b17e2a4349d10bda2329f5 foo
-392198d63e46bb2551b8037b9df3e850f957fb7e foo
-50a502335db80c60a1699892896f420e1d6ecbe2 foo
-0c11512d46e8bc09b52747f4d97e1ec7e9fb15d0 foo
-99ed4163aebb4ff86e9a4246900345cf79e3d30b foo
-53f41edd618391902d21b13e507bfbbeb4d0daea foo
-897d0b81cb9da4ec695f96493666388c039f3e2b foo
-9d2d82bb8b6cf2f59ee4be7a869f46d8db9c1684 foo
-417309e6e0276c6018d9fbe8685beb2efd177380 foo
-cab4e1cdb0796e1728ebb75be0cf7d567054206c foo
-c1cd3f25aaeec309f7c2262190c0ade188895960 foo
-3097d57187da9c1d20b68164bc4a71c007a9afbd foo
-4b3de0f4d5765ad94f149541f1131f4712b34893 foo
-0915b562d71c654df60220ce8cdafde85e12e78d foo
-d02ffa8ca0f055bbbe53f7c17d906f0775e85386 foo
-e1286b19496c6753fd652c16affd4eec74a7466a foo
-658eeea163d41eaa8ce5d903d894bbe3aaee3fb3 foo
-c2ca0511e550f15eeb41a7f6857415ef6c91b627 foo
-e6bcbbea466053f249586174c2db9fe2c6c8b9c0 foo
-60ac25baccbf5514b571f172ad814c8b8bd9bceb foo
-36f68a39ef17e7be7105af4f17de3889e74cc2af foo
-ff4d8ec9637c69650a06d0a4480418944aa30858 foo
-66f0bafa0c0b402e4536d6fa35d72acc7bf4d60c foo
-f467c53dd7f608538a7e28230f9d1a951fb0c99f foo
-c651ac392a6fafa6678b0702402426c115471d21 foo
-88a5978bd40f60a497e9b9bf393b9a1b01d5e291 foo
-3b2c1d2aead1d671f353dd1ffd50a1bc32d3e488 foo
-04fefdbf9279c39a4ee263b842e036a0756f6a46 foo
-b987f55cc108ba71575f2a4f1dfbf16a79c54886 foo
-1d5eee36cc31d19d5d89683e4d7368eedffa414a foo
-fa5982ed1963d49963113d0f06fbb163d98f6f9f foo
-e3c5af19c686c3dd4f141b895f38954fb4bc866f foo
-007ea25ca69d7286c7a8b813571f34714357e6c1 foo
-379acaf482bb2b1f5eaff41a0c6f5c5766e37c2e foo
-b3edecf687f5a9b2f468d4c1b50010b58ad66784 foo
-c263cffeaca4870176a04861b574a9b4aa926fea foo
-
---===============6092748530174046807==--
+  - ref: refs/heads/rproc-next
+    old: 49f80a7ab988de408518b935c1eab5953c63308e
+    new: 18cf4fcd7bdc1864e75127f4fd15abc0bc76ec7f
+    log: |
+         fb2bdd32b231b70e6a3f1054528692f604db25d8 remoteproc: stm32: fix incorrect optional pointers
+         18cf4fcd7bdc1864e75127f4fd15abc0bc76ec7f remoteproc: pru: add support for configuring GPMUX based on client setup
+         
