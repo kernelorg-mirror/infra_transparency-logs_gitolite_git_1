@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 21 Aug 2023 05:54:11 -0000
-Message-Id: <169259725180.28430.9860454685986679137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 21 Aug 2023 06:22:23 -0000
+Message-Id: <169259894387.17033.13909660780632195966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: a5a297918abba9e35b4b1683b14542d6b7f31ade
-    new: e576a9a8603f7c6f8fed5159e2fe33f6d67a49e7
+  - ref: refs/heads/master
+    old: c556d22f9b7af2eb0c57200ba945fbbcd3a64f96
+    new: 71f407a309edded28ea308595d02c1a00469f64c
     log: |
-         bbc2bf13886846cfaf8b13aac6e43afdbafa189c dt-bindings: opp: Convert ti-omap5-opp-supply to json schema
-         e576a9a8603f7c6f8fed5159e2fe33f6d67a49e7 dt-bindings: cpufreq: Convert ti-cpufreq to json schema
+         71f407a309edded28ea308595d02c1a00469f64c Mon Aug 21 06:21:14 AM UTC 2023
          
