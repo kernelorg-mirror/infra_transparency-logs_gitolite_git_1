@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5235016731719843133=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 21 Aug 2023 15:38:00 -0000
-Message-Id: <169263228005.20640.18074133715719682094@gitolite.kernel.org>
-
---===============5235016731719843133==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 21 Aug 2023 15:38:33 -0000
+Message-Id: <169263231314.20908.13809044420296312095@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 56e1db7e65bafa259c8c82b8ac9f10360fda4ef5
-    new: 05c85bb35bc32976176aa34e2ae633cfd8cda965
+  - ref: refs/heads/dev
+    old: e67f6bb8d8842974fe6d6228b3af3fdb7e1929df
+    new: 6e5dbf9c5d288884615321e1af93c3209e453aa7
     log: |
-         05c85bb35bc32976176aa34e2ae633cfd8cda965 6.1-stable patches
+         350d4a2890ee0025bbfb138e89bce8c393b70b8c erofs: add necessary kmem_cache_create flags for erofs inode cache
+         589d988995f381a589be0f7b709e6d0acaea44fd erofs: remove redundant erofs_fs_type declaration in super.c
+         efd709d75d6b4523399c3f30dec4214fe9847272 erofs: simplify z_erofs_read_fragment()
+         1f3123ef7c279620a5fbcc409b43b99da2de613a erofs: avoid obsolete {collector,collection} terms
+         b680e744730c86bac90752d025011bfa0840626a erofs: move preparation logic into z_erofs_pcluster_begin()
+         45d46f4877ff6245c890a2c5d0e61458e14488bc erofs: tidy up z_erofs_do_read_page()
+         d6ee98204ab0db72af6edf08f0010a365e9d6507 erofs: drop z_erofs_page_mark_eio()
+         46c6cf3d6f4d13fd8f8055ebbe9445a9b689e0b3 erofs: get rid of fe->backmost for cache decompression
+         831205ff852c744eed352a2e0a5e412c09c7b576 erofs: adapt folios for z_erofs_readahead()
+         bf6376cb523350b3e29ee710b1bbc65f87f22515 erofs: adapt folios for z_erofs_read_folio()
+         6e5dbf9c5d288884615321e1af93c3209e453aa7 erofs: don't warn dedupe and fragments features anymore
          
-
---===============5235016731719843133==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692632279 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1692632278-c52da15a588fee233b894cb06b39a64bace9a532
-
-56e1db7e65bafa259c8c82b8ac9f10360fda4ef5 05c85bb35bc32976176aa34e2ae633cfd8cda965 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTjhNcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+53kP/A73gSj3+Bz5q5jSQVJA
-ulHoBTBMIToJsWsaA9OhnWOv5WPgMD6raZR55a7l5JmwiJ3ccCSO7ow/3YyFF0qx
-ZCvTldBtgTPh8CZsNdlZZrmJju45UGSkIFlyTqs+SKTLpvZKRrdQ0EZDZpd5YZLq
-mi1fOB8XAqw0oIQ7+O3bFcgXH1Vn9e3SYDzHpSB+kX0QwCA+K4juKy0eN4jjdEg4
-0SAXM3ivrLnmXZMIOEEUWIM9qZaobQ6bjpmiHD4zCfjVT2VbbVrZMY+0Gy6ezQNO
-V4zqBXbB6q9ogJcNBo0IJri3BBge3TjxMs50i7A1vOmkGbaBwQFjuxPV/ozv208p
-FTdkvRJt6eKoIN8YHFfLRwgZ36JSCg/sVM92OCGMKDZCAVoyx+F3GGSKWylHpA3E
-lpEk6S2E8V1zIe/c8NfOirblytirsVJ2BcbPlS4vVeMX9/hyMvQ65Z8Hu0O9pQK0
-2rd+UzpQFb5R6MfNzxKLb5oinUejxTKYb3U4Yx5jqi0cwfEdippHwVkGLZSz3c21
-tsoEHLub9a/Cl9j9PVVglcicqHihrpgs+OtBUp0EiZE3xrLdq0ZGij5dDOTALnh8
-DLUPmnHE7pMc0xhKNUvmWGl+/mwmZDqxooO2r9sH1UY7NCewFdntDwQxTLgvsGuc
-iH6D8AsFWjg/tWVP+HeicZjo
-=fs8y
------END PGP SIGNATURE-----
-
---===============5235016731719843133==--
+  - ref: refs/heads/dev-test
+    old: e67f6bb8d8842974fe6d6228b3af3fdb7e1929df
+    new: 6e5dbf9c5d288884615321e1af93c3209e453aa7
+    log: |
+         350d4a2890ee0025bbfb138e89bce8c393b70b8c erofs: add necessary kmem_cache_create flags for erofs inode cache
+         589d988995f381a589be0f7b709e6d0acaea44fd erofs: remove redundant erofs_fs_type declaration in super.c
+         efd709d75d6b4523399c3f30dec4214fe9847272 erofs: simplify z_erofs_read_fragment()
+         1f3123ef7c279620a5fbcc409b43b99da2de613a erofs: avoid obsolete {collector,collection} terms
+         b680e744730c86bac90752d025011bfa0840626a erofs: move preparation logic into z_erofs_pcluster_begin()
+         45d46f4877ff6245c890a2c5d0e61458e14488bc erofs: tidy up z_erofs_do_read_page()
+         d6ee98204ab0db72af6edf08f0010a365e9d6507 erofs: drop z_erofs_page_mark_eio()
+         46c6cf3d6f4d13fd8f8055ebbe9445a9b689e0b3 erofs: get rid of fe->backmost for cache decompression
+         831205ff852c744eed352a2e0a5e412c09c7b576 erofs: adapt folios for z_erofs_readahead()
+         bf6376cb523350b3e29ee710b1bbc65f87f22515 erofs: adapt folios for z_erofs_read_folio()
+         6e5dbf9c5d288884615321e1af93c3209e453aa7 erofs: don't warn dedupe and fragments features anymore
+         
