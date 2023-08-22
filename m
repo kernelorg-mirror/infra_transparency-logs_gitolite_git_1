@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0023382735517875983=="
+Content-Type: multipart/mixed; boundary="===============4075974033427334269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 22 Aug 2023 12:46:27 -0000
-Message-Id: <169270838785.32571.14913474209419452289@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 12:48:21 -0000
+Message-Id: <169270850150.926.8518676941505635966@gitolite.kernel.org>
 
---===============0023382735517875983==
+--===============4075974033427334269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f23643306430f86e2f413ee2b986e0773e79da31
-    new: 09867af36969067d89c96ab1452656977f30e22a
+    old: 09867af36969067d89c96ab1452656977f30e22a
+    new: 0c2dfb3ea6e92e8179efb44652442f4b87557ed6
     log: |
-         23e60c8daf5ec2ab1b731310761b668745fcf6ed usb: typec: tcpci: clear the fault status bit
-         f72ae60881ff685004d7de7152517607fcd9968f usb: cdc-acm: move ldisc dcd notification outside of acm's read lock
-         8d1de0ebce71feb0961458dee7695f1f25767a92 usb: dwc3: remove unnecessary platform_set_drvdata()
-         ae257611573cde279d31be3961a59e255f567fb0 usb: gadget: function: Remove unused declarations
-         0bd9e0219bf0764149eb83826c774162c09e74de usb: typec: altmodes/displayport: add support for embedded DP cases
-         4b3cd783808bb327d931bbb1324d6c367443b721 usb: typec: qcom-pmic-typec: register drm_bridge
-         09867af36969067d89c96ab1452656977f30e22a USB: cdc-acm: support flushing write buffers (TCOFLUSH)
+         2ccbe85456b367d24d53f6ff9f5b2cafd0b54877 USB: dwc2: hande irq on dead controller correctly
+         7f93e683bc0667a6b5e0da4b49fa07938a9ccad4 usb: gadget: udc-xilinx: fix restricted __le16 degrades to integer warning
+         0411fa8a5f655ebc0753e718fdfe68bc66a756f0 usb: gadget: udc-xilinx: fix cast from restricted __le16 warning
+         52ecf812de2548ea0704e67f99cea1d0f3b8b173 usb: gadget: udc-xilinx: fix incorrect type in assignment warning
+         592d7a4663d2f23eda360048e7a35149cc3aa8d5 usb: dwc3: exynos: Add support for Exynos850 variant
+         0c2dfb3ea6e92e8179efb44652442f4b87557ed6 dt-bindings: usb: samsung,exynos-dwc3: Add Exynos850 support
          
 
---===============0023382735517875983==
+--===============4075974033427334269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692708386 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692708500 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1692708386-7f395ca85c574c05d92f750b1f86840c8d07b613
+nonce 1692708499-05eca785bf895fb367b2286f09aaa338b7526ca5
 
-f23643306430f86e2f413ee2b986e0773e79da31 09867af36969067d89c96ab1452656977f30e22a refs/heads/usb-testing
+09867af36969067d89c96ab1452656977f30e22a 0c2dfb3ea6e92e8179efb44652442f4b87557ed6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkriIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4pwP/2dr+J8HYARwFlif0Fju
-g5GvI0ZUaoby4d+IzmOKo2K9bV/sj23swvgTHLMTUOLMdpTB+dnpGsV4UrDsFAmj
-G2GlBYhajOk+SdDKNyHEZ4FSaaY2F+SzbpT1oSMXPDDuLru4yRWymlpjJaTCd7rg
-fA/fkHs0SafIZOTH3aHUwqAOK910bWa4X7XmIQS4gn45y+bNTJVxjCX4yJZKt5Nd
-V5NFQqFeTS5X3PkVtThC9R6wpEsfU7BIIG2B17kcQzJOTWBiSXaoFb1fyhhnKsH3
-93V2MzJamskPFUsmY2MNmE2onRQhg7PxMBxW4FAWctZcNxVyJeIgRYILKhfpTkBM
-CjLcjr6t/giNJHq65dfb8ATt0lb86RMrM4UFgMKbbuGXcbw271lR5dN+mI6KMbf7
-Wi1OBouDo93JLtuogjHk4hJ6B9qzlMFc8kCqMrDNTQBjcIVZUF0ZVTbUFbtPpKLO
-aq4R2dM6PV/ERYxzUe2onVJcmy0oJG/6IFMbqmBNGEvnKxVjTMc1COMql6X67Dr6
-M2+H05MVyuviFBTigELU60/lW6UezP2++Dgu0C/ePL/CLtDEeB0sKJI81uHv37Jv
-D0r6Z6+f4YybiFglELD283su91QcrKS8pkhCkEBa3Kn7GgI1e0byd7WSzAdDjAqv
-k2FYIL+Y5ejA8OChiv7WH8J2
-=+vFZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkrpQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+070QAKSTIGSvYAHzxegcxy+u
+XYV7zrsh4CxOC3b8AoXf0w8q2j0CrFT6+RbnG7jDo6iunGFMFSIrlWyVc0W8J7o9
+WLkfAjrsnzokileakf7ohl2dI6JGWMKWx/O7x5FEEq3XliXlDFPu/JC17rTOBrI7
+vmBx/c1/yNolobC11cCLtPxBk90QFM5HrQXvJ+Ho2eSL9u35B1747zvm4GCoJciP
+6QJIzYkw4SSScnmtJmQGd1c2c/ORXTtf0Mc3jz2VxFMu1UA3YuYGMcMsGqo9DDUt
+9M6A6yF7E8qdibnFRudRBDCfOOvV3g39AbNKYNCYv8LD0/B+GPBfDK+FkxSoKGnp
+gj17G7DM3HKt4pPgvfxPf1KnHEKTjyH1Ad3MkN5/jxFB8Z65wSNlFpDQwSoy4mF6
+GJ+51gswNgZuoRy/L7gNYon4dEDOrn+i+URkI4jNUI19Uw/KGLjsGdQ03yEujinn
+f7PHZZi35QJ6SDGfrJP8p1qy9wCqdBQ+jZQ/6UeSjJxGp7VHjT+BCafNwupHF5o9
+I3aehTYv/vxvtqB85D2fONXfrD4ihz5iryc4CUQ+C7y1oYPDPXzQfLuBE5yNgvBf
+kw22S8wPEJnG+WdGgEuj1KKnAU+SpFYlP6NOjah0nUdbcPjvDVKguvGHxm1NJEPy
+mVDt9+abConQDg/8g2hIClyR
+=MVa7
 -----END PGP SIGNATURE-----
 
---===============0023382735517875983==--
+--===============4075974033427334269==--
