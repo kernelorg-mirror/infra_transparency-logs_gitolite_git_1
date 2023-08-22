@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4923565777216652715=="
+Content-Type: multipart/mixed; boundary="===============4364362048064859442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 22 Aug 2023 07:22:04 -0000
-Message-Id: <169268892429.8687.5350215858708491742@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 07:22:27 -0000
+Message-Id: <169268894757.8905.9771685357739325851@gitolite.kernel.org>
 
---===============4923565777216652715==
+--===============4364362048064859442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa
-    new: a18e81d17a7e634420e589fa504e79e4893cde5e
-    log: revlist-6cae9a3910ac-a18e81d17a7e.txt
+  - ref: refs/heads/for-next
+    old: 7da4622a53eaaf9321b3cecfb60fc9b1ae8cc24e
+    new: 84a9515cb7912c6b17281e7708c81bdd72adc101
+    log: revlist-7da4622a53ea-84a9515cb791.txt
 
---===============4923565777216652715==
+--===============4364362048064859442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cae9a3910ac-a18e81d17a7e.txt
+Content-Disposition: attachment; filename=revlist-7da4622a53ea-84a9515cb791.txt
 
 548fdf771b8e85e6f14fcebcf3443ea475444445 scsi: ufs: core: Export ufshcd_is_hba_active()
 21f04fb4e8ca4a6a88c76b1ddf9ea94e6c118005 scsi: ufs: ufs-qcom: Check host controller state
@@ -39,5 +39,9 @@ d9a5ab0ea98fdee77fcbfec27bb3976de9615377 scsi: mpi3mr: Enhance handling of devic
 9a9068b2afa0b0bf559b66b374785d2fcb5b9b5e scsi: mpi3mr: Update driver version to 8.5.0.0.0
 9640d57d15611ab02be33e0db1639bcf3e2222c8 Merge patch series "mpi3mr: Few Enhancements and minor fixes"
 a18e81d17a7e634420e589fa504e79e4893cde5e scsi: ufs: ufs-pci: Add support for QEMU
+d0c89af3130eb4ff962266bb7597690a696f1cbc scsi: ufs: mcq: Fix the search/wrap around logic
+c422fbd5cb58c9a078172ae1e9750971b738a197 scsi: ufs: ufs-qcom: Clear qunipro_g4_sel for HW major version > 5
+a50de749755e8af5185e54136a5ff6d98ce61e69 Merge branch 'fixes' into for-next
+84a9515cb7912c6b17281e7708c81bdd72adc101 Merge branch 'misc' into for-next
 
---===============4923565777216652715==--
+--===============4364362048064859442==--
