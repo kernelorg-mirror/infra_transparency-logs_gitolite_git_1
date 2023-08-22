@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0111682949800806001=="
+Content-Type: multipart/mixed; boundary="===============0048487205716852499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 22 Aug 2023 12:43:26 -0000
-Message-Id: <169270820694.29692.9176156845201836487@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 12:44:45 -0000
+Message-Id: <169270828536.30274.10513135590628354297@gitolite.kernel.org>
 
---===============0111682949800806001==
+--===============0048487205716852499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 7ccecc84efa6308c245cb9708b33b8bf3e1d9e19
-    new: 26f4f8358d89c0d9972a30abdb3f3a425ef49e38
+  - ref: refs/heads/usb-testing
+    old: 26f4f8358d89c0d9972a30abdb3f3a425ef49e38
+    new: f23643306430f86e2f413ee2b986e0773e79da31
     log: |
-         8d4ff1351801bd646c9fed7aedb9705250f2c87b dt-bindings: usb: samsung,exynos-dwc3: fix order of clocks on Exynos5433
-         26f4f8358d89c0d9972a30abdb3f3a425ef49e38 dt-bindings: usb: samsung,exynos-dwc3: Fix Exynos5433 compatible
+         1fa206bb764f37d2ab4bf671e483153ef0659b34 usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
+         20deab8bfc936063385fdce19287f1f630cb2f4b usb: core: Use module_led_trigger macro to simplify the code
+         f23643306430f86e2f413ee2b986e0773e79da31 usb: typec: bus: verify partner exists in typec_altmode_attention
          
 
---===============0111682949800806001==
+--===============0048487205716852499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692708206 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692708284 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1692708205-4ab03c1fa344ea3cc9d47bd1e09f2d43ebbaedbb
+nonce 1692708283-05d720336310e059eec9e04fe426e0f0149ad74f
 
-7ccecc84efa6308c245cb9708b33b8bf3e1d9e19 26f4f8358d89c0d9972a30abdb3f3a425ef49e38 refs/heads/usb-next
+26f4f8358d89c0d9972a30abdb3f3a425ef49e38 f23643306430f86e2f413ee2b986e0773e79da31 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkrW4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7GgP9jzj+XBpGv9Cu7/Dutp6
-CA3eBbttM8wPHJWXnDzgO0w+DViV8MKlKy5NHrPdg/5Tv/UyO8jVyvvdsqFluAwY
-wM3M603PkVJZBwW1SMdWQr/9KR5wqzfdzxmyDK3jASO4yrsYXX87+iwWJIQ20F1F
-Vavpd5XXW3USvU/wsc1EgFpECfcG9SzOju9YYZMYTXVI5xTPRgffVGNQxSvwxiW0
-F1gmljcGG2NikaGWfhqQr4M99oroy78aWmE1rkD1DjiZomMT9mm7nhNilD5zXn30
-cRIkt+R33nGBQdGtZgeSKRmMjnDjLwTbp3tJm47URjD2RmdROB22v4upsF5pqPwy
-RR/5E2GJOmvBVyPK+fRsAQ4F2vZaSIAo6iXK3fi/zx8BvE+2CU8h0OGuSeEN/dBW
-DpkhF6n5mmnwq0CiuU8DWfjAU3J3lO1krKVKswzs9Y1C4SPcjH2AeholJdjtW+1F
-3HQTi/0uk3e1ObWUzD4f4YywoaiP5cxvwKVMMB+TwFVXxpzO/FAw6Z2QTT7XsvLA
-SUeUhKLZZTt+HJQZLHUz1H6zGRoDaX/qvSPWZYD8fswimaasRWLQz0EFub0rQKV+
-oXkrc91Bpt6g4R9f0xP1n3oLu8eC+Aqh4o+No/g/NSNmRrbXqz/0draZe30Cy/FB
-u2gAwPKuMoDf0Fea1G8Y8Xc=
-=drqd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkrbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cBYP/jiLjpxmvH9wXDxmkt6B
+FdFbRnef3dU8rhOSmvMPLQahjiUksCTBcnGvdXi7zDvhyKsuGeZ/VoLBksPp1Ddf
+dw3Sniw4kjcwKVkZteHr0zCSBWriC++aOtg3w0JrVHfLaMr6f/rztX6sE0a+PhNN
+57IVR92HeLreTxfpulvuHPRDKcC388FPuQ5AmVzAKx8V4XIFHTLRLa6uigU9KaiN
+hX+gC7fT6/hRcstLb7lBH8W/zrS1TeaWIWU/99xhQlG41TYXUgQMZdrX3q387D1v
+1q83g9k0kAKwyulvYCRDpSlUR+jD1DvjMskgjEafXzen3IvKEssOOyHJ5UVn1Vfq
+4z3ofZgCpXrXwrWirxD8Tp8FzWHFvyFqJniI98GZh66PcAB7lsqJKS0429F9f7o3
+fbK0ZituvvC3iRZ37029WA/yLyyGzLzc8VBVC9NqzGYkuD/86E/8Y+2fOUMkbP96
+hDiH5CM3MDIHGYAPzk/t1szcxF/BNPmnjy0oDsxJfEJ/wqH2v3U4BUmTzvpvZ/A4
+9NAP3VeDtx4PYzGDZm9dy1BZpQa18XA2A028UfbgDajnvSDvNkKn94yz7LlgyPio
+dZOg8nLXWG4UQnOpaYhSZkzFoStvN720aSDvdPn7RFKZuEZ+XB4RoCTKUPkzOC1U
+5S2P7H0lI4xWzsAfRu/2Sjrv
+=3TzS
 -----END PGP SIGNATURE-----
 
---===============0111682949800806001==--
+--===============0048487205716852499==--
