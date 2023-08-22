@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 22 Aug 2023 15:50:03 -0000
-Message-Id: <169271940339.7567.18078014479204920326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 22 Aug 2023 15:50:26 -0000
+Message-Id: <169271942645.7797.4433133305656170999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-6.6/block
-    old: 851e06297f20bbd85c93bbf09469f2150d1db218
-    new: 7222657e51b5626d10154b3e48ad441c33b5da96
+  - ref: refs/heads/tpm_buf
+    old: 0cc7499219745d3654fee78abcfb1ccf0051738b
+    new: 75adb5919dd9107d532ef369492f1ee9714f20ee
     log: |
-         e1dd7bc93029024af5688253b0c05181d6e01f8e blk-mq: fix tags leak when shrink nr_hw_queues
-         2bc4d7a355a4d617452eaf1b21d6d261194b3667 blk-mq: delete redundant tagset map update when fallback
-         7222657e51b5626d10154b3e48ad441c33b5da96 blk-mq: prealloc tags when increase tagset nr_hw_queues
-         
-  - ref: refs/heads/for-next
-    old: c8cf0a99e7d8b4612fd543fb39c30e49d6c74582
-    new: 7661e416518f262e53797817020497b35c7a2ca9
-    log: |
-         e1dd7bc93029024af5688253b0c05181d6e01f8e blk-mq: fix tags leak when shrink nr_hw_queues
-         2bc4d7a355a4d617452eaf1b21d6d261194b3667 blk-mq: delete redundant tagset map update when fallback
-         7222657e51b5626d10154b3e48ad441c33b5da96 blk-mq: prealloc tags when increase tagset nr_hw_queues
-         7661e416518f262e53797817020497b35c7a2ca9 Merge branch 'for-6.6/block' into for-next
+         d8a4c2271821f80e56fac34e28bced7e89fd53c1 Revert "selftests: error out if kernel header files are not yet built"
+         a38e2510aba8708a1b191f4446ec783970a56cf1 tpm_crb: further scope AMD fTPM hwrng check
+         253e0a88fc7cb5e881799c253bb7a011d3bf3779 tpm: Move buffer handling from static inlines to real functions
+         36ecc747c6051313897ec40dd8b88ff1bf5e1445 tpm: Store TPM buffer length
+         bdb4159d0dda03b5943ec43b6ccf3ad3498d0cae tpm: Detach tpm_buf_reset() from tpm_buf_init()
+         89baa34dfe2d65f92e19bb77aae859525eebf887 tpm: Support TPM2 sized buffers (TPM2B)
+         8ac09e8a9160ad8b7baf43d127424d70adec420f KEYS: trusted: tpm2: Use struct tpm_buf for sized buffers
+         75adb5919dd9107d532ef369492f1ee9714f20ee tpm: Add tpm_buf_read_*()
          
