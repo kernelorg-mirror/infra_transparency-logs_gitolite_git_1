@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 22 Aug 2023 18:48:26 -0000
-Message-Id: <169273010695.10343.8887986843322032012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 22 Aug 2023 18:49:21 -0000
+Message-Id: <169273016174.10763.14686909363698081859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dm-6.5-vdo
-    old: de26c2b89107f61ac5e2f4adaf3ea2857d31722b
-    new: 1b656e4da993f9926698aa369eb63c21d875edd5
+  - ref: refs/heads/master
+    old: 71f407a309edded28ea308595d02c1a00469f64c
+    new: c6eda1209b6db290e28af14cc1f585c596e4489d
     log: |
-         1b656e4da993f9926698aa369eb63c21d875edd5 vdo io factory: fixes for block core holders changes
+         c6eda1209b6db290e28af14cc1f585c596e4489d Tue Aug 22 06:48:07 PM UTC 2023
          
