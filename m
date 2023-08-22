@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1346124032441342285=="
+Content-Type: multipart/mixed; boundary="===============4781827251670428260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 22 Aug 2023 13:31:30 -0000
-Message-Id: <169271109093.1009.12746639155557203889@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 13:31:59 -0000
+Message-Id: <169271111989.1324.17317654565136875268@gitolite.kernel.org>
 
---===============1346124032441342285==
+--===============4781827251670428260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: b4a778303ea0fcabcaff974721477a5743e1f8ec
-    new: 42a569cd0d774fd575395a84481f87a1aaa530df
+    old: 42a569cd0d774fd575395a84481f87a1aaa530df
+    new: 4b91dcc2f601cc2098b5fead71344704ddcff8b7
     log: |
-         42a569cd0d774fd575395a84481f87a1aaa530df serial: 8250_bcm7271: improve bcm7271 8250 port
+         e327fdc262345ca37b358a51ff0c0046ab1b8d15 Documentation: devices.txt: Remove ttyIOC*
+         27681960f05515555441d7bf58d565cbc68137f3 Documentation: devices.txt: Remove ttySIOC*
+         4b91dcc2f601cc2098b5fead71344704ddcff8b7 Documentation: devices.txt: Fix minors for ttyCPM*
          
 
---===============1346124032441342285==
+--===============4781827251670428260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692711089 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692711118 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1692711089-7bec5c1e3857f7a5fcb3c1a3eef8858ef2d4dab7
+nonce 1692711118-b70feda85104db93d714cef9fe0ae95fc5225880
 
-b4a778303ea0fcabcaff974721477a5743e1f8ec 42a569cd0d774fd575395a84481f87a1aaa530df refs/heads/tty-testing
+42a569cd0d774fd575395a84481f87a1aaa530df 4b91dcc2f601cc2098b5fead71344704ddcff8b7 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkuLEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n70QALfM35ytkRt4bCybTCHj
-hNqXfOk67WdtyraAV1eF/gDuu/vM5UGX9J4dA+JfmrvkenmbYNqylmUUDe5Yu0PA
-JBVR25hNzQsVAxoUyZZD4XHIUxPR6GLmBQ4iBD4kqKc+BBdfE/Z9YYV8wk8dk2k7
-iOlealDL3cNKamiw9tBpR/uwB9QSGCUe09Fns+xF24SXP5eAGULVRbN97bqg0a6O
-EydItsiutMa/Mp4mfMvYacRqyHJe8N+a+dA3JmYHpIsPaOWWmFxbbRGsRY4KXD1K
-4DkH51zcJzJsGZz5XCRNV7L4DZprj2L6pGlpOkG07DcqpN4c0rRuXSFuMC85Xycl
-NS+t1kmRwxDyvKgVP+YRMnC7L90CUkPz+ukz84tLTG0LxCVPktiVXrGlJw0mVthT
-Dnfc++T/wvBZAS6XmbQ1HUHkHdB3p01ay9qYZjcUFKN9HJ3JxHG5vVSO6D84pewN
-H0NKZm/LgdyQUgDqOswOIkeiGkleIah2/CDrsldz+JzKIHCBU3+IqQIauOzc8X5L
-hMIKw8TpeDaxbejTlfds8Gp+Dagw55+i53Hx3xES9HK6Quqaxdzl/JjwrafaeBwL
-9OJlScq8ozlHhxby2tWuQr5BSukaPdL0+y597eTbbpQO3siFVPU3RjKf22A3q9AU
-T6EWvn6nqfFMmX0gRLKdKKMD
-=2jZ1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkuM4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+StMP/j+TSOZHTsYVZ+KV0Kqz
+sUeh38t3pHd9pZexJM53mVj+FYFaNthOWWHpmw8Phe49RXp8nsiBZJzQ2E8HNejI
+DavxexjwF0VNDCEpa4/w0PFkDpL+ckHhQpZgSnqJc9Nxb5HEQn1WTxKy59cKwEkQ
+D3K7upb7s3r/JJRE2YnqkJxLYdAzWa0GXDYVDWv4K2XnUc0ZVtYk44X+WDEGvPtp
+bcFPnT+4mzwXdBVCzVdqh0ehdsGlOdiqcIW6zf+SrCvIh48u6kSxicb6fOs9cFKl
+F0c19ZwyDnKVIUFp4+l+ngWTedU3CIpKu3ORDGHCB2l78xBEuCv/fJwSA0q7rot1
+JRV/aVA8xZtd3pMCI9028L+tb7VLq/BDPSQKJ5g9hLjLwJnFV0L9OoEGlB184Bxn
++w6VL5pnn9OxXbzDjRB67lsO2kISwMtZblHtkHR5gvH/qVgKAUV6iQdBRL6fh4k1
+bsBDc8BsbsEH6Cs7dQ4e2OeM039qVHU9FCNHQFfta82cOV2wR/DVOzK9caC0VP42
+Z5xzCdQVS4Z8s7uGeLyllcg/etcF/eLfYptOJIVcFNf1GsD1cL2/i9HSLNzehkQg
+6p2/2AtEUncNw33a5eyKBpy0BQnLamTlmhtj76JXEUM4cWpUwqzP/wVCU8LBzFXI
+lnU4WczwX70NGlueION2sQHL
+=mWFB
 -----END PGP SIGNATURE-----
 
---===============1346124032441342285==--
+--===============4781827251670428260==--
