@@ -1,40 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4830247452371405113=="
+Content-Type: multipart/mixed; boundary="===============6064622848990442513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 22 Aug 2023 15:44:03 -0000
-Message-Id: <169271904353.2017.8723294851549132297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 22 Aug 2023 15:45:36 -0000
+Message-Id: <169271913672.4279.6269944534870011663@gitolite.kernel.org>
 
---===============4830247452371405113==
+--===============6064622848990442513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 65d5db29196216e3b4cfda5ee83ab9ede5cb2c5a
-    new: 58a8d2edd57b35307d81ec6c304697707e6067c1
-    log: revlist-65d5db291962-58a8d2edd57b.txt
+  - ref: refs/heads/driver-core-testing
+    old: 1b28cb81dab7c1eedc6034206f4e8d644046ad31
+    new: 29c8ab79e91d35b93cfab87bf67a11516f7b2051
+    log: |
+         d21fdd07cea418c0d98c8a15fc95b8b8970801e7 driver core: Return proper error code when dev_set_name() fails
+         29c8ab79e91d35b93cfab87bf67a11516f7b2051 driver core: Call in reversed order in device_platform_notify_remove()
+         
 
---===============4830247452371405113==
+--===============6064622848990442513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65d5db291962-58a8d2edd57b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-83a0943b1870944612a8aa0049f910826ebfd4f7 perf trace: Use the augmented_raw_syscall BPF skel only for tracing syscalls
-64917f4df048a0649ea7901c2321f020e71e6f24 perf trace: Use heuristic when deciding if a syscall tracepoint "const char *" field is really a string
-7298e876075eea8d2e782bf846ab0b4721afac92 perf jevents: Raise exception for no definition of a arch std event
-b8af10062df3c23fe002c3f187389bb263b3eb20 perf vendor events arm64: Remove L1D_CACHE_LMISS from AmpereOne list
-47715f2b624d7c7f6fca96b1863db45b67f6710e perf vendor events arm64: AmpereOne: Mark affected STALL_* events impacted by errata
-705ed549148fad1bea526a9102fa202905bdc86f perf vendor events arm64: Add AmpereOne metrics
-a50b8db3ea358b01f3c83e1e1c063e75352dcb3b perf vendor events arm64: AmpereOne: Remove unsupported events
-262b54b6c9396823ab06df46a1be475c44b28b5f perf bpf augmented_raw_syscalls: Add an assert to make sure sizeof(saddr) is a power of two.
-7d9642311b6d9d319a6948581244561d2a0890a1 perf bpf augmented_raw_syscalls: Add an assert to make sure sizeof(augmented_arg->value) is a power of two.
-58a8d2edd57b35307d81ec6c304697707e6067c1 perf stat-display: Check if snprintf()'s fmt argument is NULL
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692719135 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1692719135-715a2800636063c15f85147c8dc0b7b36b3ba53d
 
---===============4830247452371405113==--
+1b28cb81dab7c1eedc6034206f4e8d644046ad31 29c8ab79e91d35b93cfab87bf67a11516f7b2051 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTk2B8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+on8P/1osNEIlrjif0mnhtQuE
+/xp/PNylMJqnfuozzUAE+EzP2BW6MGzx1Uf//5xJwENj776efK2SJm5Waq+seozy
+Cez97NXMbUd5frXl2iHSxNyHR1NwWV3uG+Y4MaJfym1JmqCplSn9FSNVUynYkuDJ
+r/pLYjnm5f1Rpr5FDaicFjio3SoGlB7wmpqrxF+aKrMgqScHqypU401CS2fXGF6x
+apja0GLFCTWVPBNLZvznCXxLpfElQPe4a+sbkqM+Rfio9ip1eju+QL5Dn2hFgs/v
+Prvm1v1YqlKL9X3sJXIHb+OtoqqQgV9kM0hqCG3CUFBhGLVwYGu2yltQJUVhNpSw
+ZuccEqBRd3CqqpKgSU6s59gCQ2Qy/Eo8lH5ufRt5koAnsEPTHN4guo/xNXzznhJR
+DE77UCPZfKJXEB1LvLZW5eSW1jbEgRXqkVsiYS5irw6le7byEnN7Hy6jwmji2XcC
+1VQXCGJPRs2p4VXbBYVdGu50RfpspwrVWLLAPnmmnnwlaNjNtKLms0WodEZz/MNd
+mpuq80f5hPp4Gi4AdoWORRbGauAgGiCGJ+dtQHnRoVJDTBXg+hvMEQ+Bp+fh8GAc
+twGoOUsi8rpQ+7pril3NgWn1dl8r1Vay+sS3CyyZ6UQdvBm6zYKMDmc/Ood7x6sc
+bSW/xN1bqsP4wvaOIvHxZjma
+=hVDq
+-----END PGP SIGNATURE-----
+
+--===============6064622848990442513==--
