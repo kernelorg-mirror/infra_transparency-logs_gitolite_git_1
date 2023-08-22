@@ -1,42 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4904104266673024088=="
+Content-Type: multipart/mixed; boundary="===============1703984290880474893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 22 Aug 2023 07:15:50 -0000
-Message-Id: <169268855062.4475.4530068959371436812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 22 Aug 2023 07:17:01 -0000
+Message-Id: <169268862137.4996.8909760696658200599@gitolite.kernel.org>
 
---===============4904104266673024088==
+--===============1703984290880474893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dm-6.5-vdo
-    old: a006a78a7f1925d0e899ffe8ac1ec0a143388157
-    new: bdd25d299a97a4551e1a90a832dae7d72d38c443
-    log: revlist-a006a78a7f19-bdd25d299a97.txt
+  - ref: refs/heads/next-test
+    old: 0f71dcfb4aef6043da6cc509e7a7f6a3ae87c12d
+    new: 18e9506562a0e93e7542cf44fc7d107b7aad9610
+    log: |
+         cb35ed169144884f4e2bafc9d1528aebe5dfd3ce powerpc/powernv: fix debugfs_create_dir() error checking
+         1ab749d886cc50c95c94e466d1f78063ef2e7f44 powerpc/64e: Fix circular dependency with CONFIG_SMP disabled
+         9e97423a08a98830a6c89fa2a49f8956b64c23e6 powerpc/85xx: Mark some functions static and add missing includes to fix no previous prototype error
+         da2e1aa1fe9a7bc086914c77ec4ac758329c7fac powerpc/powermac: Fix unused function warning
+         aa0f9c53e5deacd70dc6901625dc69dc54b7d39e powerpc/powernv: Fix fortify source warnings in opal-prd.c
+         18e9506562a0e93e7542cf44fc7d107b7aad9610 powerpc/powernv: Use struct opal_prd_msg in more places
+         
 
---===============4904104266673024088==
+--===============1703984290880474893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a006a78a7f19-bdd25d299a97.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0dbb6ede27efdac0d675b636d19d745cdbfb27c4 dm vdo: add "funnel-" filename prefix to funnel-queue based sources
-f7b48d5affaee3ab55469d617c600b9b65969339 dm vdo: fix style nits and missing braces in wait-queue
-ea094ddf4d068432341392dc05531c20b11ce09e Documentation: improve vdo-design.rst
-4c88daf52152a9ac70f57a201c34b377025efb0e vdo hash map: share code between int_map and pointer_map
-4977e4b694f4c208b66e85bb2269d130eea43cb3 vdo hash map: eliminate indirect function calls for ptr_key
-203941e66e591044e6083e7de07e7940bd92faa2 vdo hash map: remove unused 'initial_load' arg from vdo_hash_map_create
-0d7eddc90d89c31143bb56fcb42d99e66708cf2e vdo hash map: call vdo_hash_map_create instead of vdo_make_int_map
-f9289b3ec6e111dd79fb6b4e906b40d88f372be2 vdo hash map: call vdo_hash_map_free instead of vdo_free_int_map
-8004bd7114ca91dc272971d69d8d91c67de9fcae vdo hash map: call vdo_hash_map_get instead of vdo_int_map_get
-5fd8a1ef29842aa4fe8a268c7a5ee65412a22df2 vdo hash map: call vdo_hash_map_put instead of vdo_int_map_put
-d5181f05e701321929feb3294d8c547bd439eb63 vdo hash map: call vdo_hash_map_remove instead of vdo_int_map_remove
-bdd25d299a97a4551e1a90a832dae7d72d38c443 vdo: remove int-map.h since all callers have been converted
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1692688610 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1692688609-8e5f15e7bb0fa58c7e94ca5392795df2c043b2d1
 
---===============4904104266673024088==--
+0f71dcfb4aef6043da6cc509e7a7f6a3ae87c12d 18e9506562a0e93e7542cf44fc7d107b7aad9610 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmTkYOITHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgNW7D/ioUgtzW5N49paNRpGRhEBnp6r32SPR
+yP+fpHMD8wHY2DFX0Ak9Y1kc6o1ciVZXXuUmXpQix6sTcd01ey4vGkTU/k2ZgST7
+oYcNtDvjLlt2cU9Q5f2N9HKNA+lxgAKr235k0Bnpxxn0IlpC0UAERUAnYz1Y0z5Z
+lsVATkQMDs5WXb9YVu3khbyenFReeAvJlwCtSLPjSaDAPYfZn2s8w+BnEgSnPTr8
+HLQUpbKfnGSu4yA8t06c6jVnnJQ5z8LPAD1dkhiawJveMD5cceX/6/2lvTR5tlbg
+y+DISVRxK+ZqD8K/3ok+1tYI48+Ts8lZGtgc54ghFboFPs6zpzaqJRWPPKSPWo6D
+YZGw8bgab+gh870ha8HpMDUy/FKEgjKLxzCdJWgQWSsuBnB3op3n6YrCmI8dsN9Q
+UfprB8VZkaAkrKdmuwwx2EXA5N5AyaZav49CcMcDzXYzmnauaFTnwO3o3r6QmF1l
+WOf5R0YTcmnA9g8mZXobdAt/u5aXeDub956s2CFReo3SOdeFioqYn9yDU4sFAfI+
+TSVamlVdfjIVIRuvMb3BaSfENF5AEVsyhb3MuUiySopD2JVOYoo/9Dh36tnlznnU
+sdlDYMXYLhD6TjDl1+yDrim7gJ5fj9S8r39usUMpt93cu5ZLjlkRyy4ZPVAoFAap
+s6xV1fxPLyDN
+=BSoF
+-----END PGP SIGNATURE-----
+
+--===============1703984290880474893==--
