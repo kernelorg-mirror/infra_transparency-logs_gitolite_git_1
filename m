@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 22 Aug 2023 01:45:22 -0000
-Message-Id: <169266872248.22849.11452830637209621872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 22 Aug 2023 01:48:04 -0000
+Message-Id: <169266888412.23890.12406591977155359274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/dm-6.5-vdo
+  - ref: refs/heads/qcom/dt64
     old: 0000000000000000000000000000000000000000
-    new: a006a78a7f1925d0e899ffe8ac1ec0a143388157
+    new: 110e70fccce4f22b53986ae797d665ffb1950aa6
