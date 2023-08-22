@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 22 Aug 2023 15:53:56 -0000
-Message-Id: <169271963633.9196.12442460284516170364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 22 Aug 2023 15:54:19 -0000
+Message-Id: <169271965967.9416.6689163463384315558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/next
-    old: 218a2680624cba1611e3dfc7d9b646d240e5f855
-    new: b1a62d41bdc1d15b0641759717e8c3651f0a810c
+  - ref: refs/heads/review-hans
+    old: d304c635fec6f8c778aa94e31546a83d8bd2f449
+    new: 5befd4773c352da28c3c009c4df26b6f46f990b8
     log: |
-         cceb64e335ae90a09922bd7207f64ff4d1762d80 tpm_crb: Fix an error handling path in crb_acpi_add()
-         b1a62d41bdc1d15b0641759717e8c3651f0a810c tpm: Don't make vendor check required for probe
+         5befd4773c352da28c3c009c4df26b6f46f990b8 platform/x86: p2sb: Make the Kconfig symbol hidden
          
