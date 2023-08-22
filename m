@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5546451686057403760=="
+Content-Type: multipart/mixed; boundary="===============8027135843972564536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 22 Aug 2023 18:12:47 -0000
-Message-Id: <169272796715.17020.848349061084454330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 22 Aug 2023 18:13:21 -0000
+Message-Id: <169272800189.17292.1738035081715210017@gitolite.kernel.org>
 
---===============5546451686057403760==
+--===============8027135843972564536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 53663f4103ff6738e4697004d6f84864d052333d
     log: revlist-374a7f47bf40-53663f4103ff.txt
 
---===============5546451686057403760==
+--===============8027135843972564536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -636,4 +636,4 @@ f7757129e3dea336c407551c98f50057c22bb266 Merge tag 'v6.5-p3' of git://git.kernel
 e4311f7c0508d6d0d1176a0d7b7ef3ab4a24be1e Merge tag 'selinux-pr-20230821' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 53663f4103ff6738e4697004d6f84864d052333d Merge tag 'nfs-for-6.5-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============5546451686057403760==--
+--===============8027135843972564536==--
