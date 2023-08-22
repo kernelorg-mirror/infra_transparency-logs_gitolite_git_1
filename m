@@ -1,41 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0908506532793615253=="
+Content-Type: multipart/mixed; boundary="===============1465806489949128675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 22 Aug 2023 08:00:14 -0000
-Message-Id: <169269121457.3930.6682105234873621462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 22 Aug 2023 08:00:31 -0000
+Message-Id: <169269123126.4125.12469289305995643798@gitolite.kernel.org>
 
---===============0908506532793615253==
+--===============1465806489949128675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 47d9bb711707d15b19fad18c8e2b4b027a264a3a
     new: 28c736b0e92e11bfe2b9997688213dc43cb22182
     log: revlist-47d9bb711707-28c736b0e92e.txt
-  - ref: refs/heads/stable
-    old: 706a741595047797872e669b3101429ab8d378ef
-    new: f7757129e3dea336c407551c98f50057c22bb266
-    log: |
-         83874b8e97f895e62d9ab03223318176d5e78203 Revert "crypto: caam - adjust RNG timing to support more devices"
-         080aa61e370b9c5cafe71cacadbfe0e72db4d6df crypto: fix uninit-value in af_alg_free_resources
-         4542057e18caebe5ebaee28f0438878098674504 mm: avoid 'might_sleep()' in get_mmap_lock_carefully()
-         f7757129e3dea336c407551c98f50057c22bb266 Merge tag 'v6.5-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         
-  - ref: refs/tags/next-20230522
-    old: 33c58f9a03aff8485cc5adcd832e08e161a3960b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230822
     old: 0000000000000000000000000000000000000000
     new: 39c2dd83ffe9e2e3e61ec8725b4116eb1681e5eb
 
---===============0908506532793615253==
+--===============1465806489949128675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1066,4 +1054,4 @@ b107cae638499d88caed9dda090c470eadc1cdbd Merge branch 'for-next/kspp' of git://g
 1100989d8f95afb170fda2f9ea0a87ebc1676d93 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 28c736b0e92e11bfe2b9997688213dc43cb22182 Add linux-next specific files for 20230822
 
---===============0908506532793615253==--
+--===============1465806489949128675==--
