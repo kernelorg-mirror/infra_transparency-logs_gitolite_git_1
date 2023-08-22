@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 22 Aug 2023 01:17:09 -0000
-Message-Id: <169266702925.925.7616199049921793245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Tue, 22 Aug 2023 01:19:24 -0000
+Message-Id: <169266716455.1893.1822183195905428955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/omap/drivers
-    old: 0000000000000000000000000000000000000000
-    new: de44bf2f7683347f75690ef6cf61a1d5ba8f0891
+  - ref: refs/heads/hyperv-next
+    old: 4754ec7f202003ef3a307bc59779efdd312a876e
+    new: 78e04bbff849b51b56f5925b1945db2c6e128b61
+    log: |
+         78e04bbff849b51b56f5925b1945db2c6e128b61 Drivers: hv: vmbus: Don't dereference ACPI root object handle
+         
