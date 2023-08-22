@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4075974033427334269=="
+Content-Type: multipart/mixed; boundary="===============1010338309481524699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 22 Aug 2023 12:48:21 -0000
-Message-Id: <169270850150.926.8518676941505635966@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 12:48:50 -0000
+Message-Id: <169270853071.1233.10311422679676292035@gitolite.kernel.org>
 
---===============4075974033427334269==
+--===============1010338309481524699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 09867af36969067d89c96ab1452656977f30e22a
-    new: 0c2dfb3ea6e92e8179efb44652442f4b87557ed6
+    old: 0c2dfb3ea6e92e8179efb44652442f4b87557ed6
+    new: 333ab99eab3c6aa7941b898ced3cd754abd20b63
     log: |
-         2ccbe85456b367d24d53f6ff9f5b2cafd0b54877 USB: dwc2: hande irq on dead controller correctly
-         7f93e683bc0667a6b5e0da4b49fa07938a9ccad4 usb: gadget: udc-xilinx: fix restricted __le16 degrades to integer warning
-         0411fa8a5f655ebc0753e718fdfe68bc66a756f0 usb: gadget: udc-xilinx: fix cast from restricted __le16 warning
-         52ecf812de2548ea0704e67f99cea1d0f3b8b173 usb: gadget: udc-xilinx: fix incorrect type in assignment warning
-         592d7a4663d2f23eda360048e7a35149cc3aa8d5 usb: dwc3: exynos: Add support for Exynos850 variant
-         0c2dfb3ea6e92e8179efb44652442f4b87557ed6 dt-bindings: usb: samsung,exynos-dwc3: Add Exynos850 support
+         98102ae1549e3af33359ec3a8e57adafa57b1b01 usb: gadget: use working speed to calcaulate network bitrate and qlen
+         8165763f82bd87d742b91ffef2874e7c8d1f6d2b usb: gadget: add a inline function gether_bitrate()
+         3c5b006f3ee800b4bd9ed37b3a8f271b8560126e usb: gadget: f_uvc: change endpoint allocation in uvc_function_bind()
+         46decc82ffd54212cc2c600031daec6e835a6503 usb: gadget: unconditionally allocate hs/ss descriptor in bind operation
+         4dfdd90b85f811fc2cbae0d5f87a8d3e9bee9b17 usb: gadget: config: remove max speed check in usb_assign_descriptors()
+         dc2e6960a0a951c26c9644913db830f7a69bda89 usb: gadget: composite: cleanup function config_ep_by_speed_and_alt()
+         333ab99eab3c6aa7941b898ced3cd754abd20b63 usb: gadget: remove max support speed info in bind operation
          
 
---===============4075974033427334269==
+--===============1010338309481524699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692708500 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692708529 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1692708499-05eca785bf895fb367b2286f09aaa338b7526ca5
+nonce 1692708528-a605d7541160b9470a437d845ea5aac61faca7e2
 
-09867af36969067d89c96ab1452656977f30e22a 0c2dfb3ea6e92e8179efb44652442f4b87557ed6 refs/heads/usb-testing
+0c2dfb3ea6e92e8179efb44652442f4b87557ed6 333ab99eab3c6aa7941b898ced3cd754abd20b63 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkrpQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+070QAKSTIGSvYAHzxegcxy+u
-XYV7zrsh4CxOC3b8AoXf0w8q2j0CrFT6+RbnG7jDo6iunGFMFSIrlWyVc0W8J7o9
-WLkfAjrsnzokileakf7ohl2dI6JGWMKWx/O7x5FEEq3XliXlDFPu/JC17rTOBrI7
-vmBx/c1/yNolobC11cCLtPxBk90QFM5HrQXvJ+Ho2eSL9u35B1747zvm4GCoJciP
-6QJIzYkw4SSScnmtJmQGd1c2c/ORXTtf0Mc3jz2VxFMu1UA3YuYGMcMsGqo9DDUt
-9M6A6yF7E8qdibnFRudRBDCfOOvV3g39AbNKYNCYv8LD0/B+GPBfDK+FkxSoKGnp
-gj17G7DM3HKt4pPgvfxPf1KnHEKTjyH1Ad3MkN5/jxFB8Z65wSNlFpDQwSoy4mF6
-GJ+51gswNgZuoRy/L7gNYon4dEDOrn+i+URkI4jNUI19Uw/KGLjsGdQ03yEujinn
-f7PHZZi35QJ6SDGfrJP8p1qy9wCqdBQ+jZQ/6UeSjJxGp7VHjT+BCafNwupHF5o9
-I3aehTYv/vxvtqB85D2fONXfrD4ihz5iryc4CUQ+C7y1oYPDPXzQfLuBE5yNgvBf
-kw22S8wPEJnG+WdGgEuj1KKnAU+SpFYlP6NOjah0nUdbcPjvDVKguvGHxm1NJEPy
-mVDt9+abConQDg/8g2hIClyR
-=MVa7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTkrrEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+drMP/154HNAZpFq+T0N+jnYb
+uginkCnq47rGFQ3usZ+2DOkqfGp3Jey/wRG58gUGwLP719RHoAllsOXZPn5b7AGq
+cZLnkmStudDZW7bzCenJSzJlEZZVrOmPGbLbmPKa1iPmDzxk79UI4lprd2z70akJ
+lpLQ2gl5dzuSZraDsD8fg7Tk86FIcuiJsAKh48uvST7spXOaKaKMkejgPWm4O0EL
+heWQkEe1Jx1lkdaEjH3j4+xfVHd1F0ZaNx/y5lU3AodamUY5QoyzQE6qT5hZgCrS
+TPFCIp7yl5sZ9YApp77VGNV+mT0tgPZP7M+c+2JM7AEbe7HdEYRte+YY8nS28co6
+kkJbmY0vAPuUb91vf6iexE2ojP0J842iBLFAg2a7TWlPl9SjBNLyh9LMKWreOW4R
+yIGAOP3IG0FU8RHHGHnvsnftrjerKdN1zAYX4zIvN6yoPh1rrXWnyVDJNMmaYLzc
+JkDorJ+VnZzqGA0olBujBhSvAMMUUe8Z/qdkHI5PpOEx00z/JZStGzkExfJsfl8K
+U606BBkrlUEUIh86Bnl0NSATBB6NdwY+w4jACBDkNppVFk9uNcZ9EA39MEobcdpa
+E6mOULp20zvjla1Jn6WOwbsfmwSdLBMqsoQJZue5CZjMtHkats/Yv2nCdKD7qZjq
+hKHygnR+qVfn4PA/KspFM4Yy
+=CjfD
 -----END PGP SIGNATURE-----
 
---===============4075974033427334269==--
+--===============1010338309481524699==--
