@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rui/linux
-Date: Tue, 22 Aug 2023 07:19:49 -0000
-Message-Id: <169268878906.6198.3084659086699193394@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4923565777216652715=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 22 Aug 2023 07:22:04 -0000
+Message-Id: <169268892429.8687.5350215858708491742@gitolite.kernel.org>
+
+--===============4923565777216652715==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rui/linux
-user: rui
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/upstream-for-pvh
-    old: d8772168691b2c723955f566a1211fba9afd19e5
-    new: 6ddfcfe936c7ac41c223b35e0bde93783409a4cb
-    log: |
-         2325ce421b2c02c27f780137cf82ba00c71390c4 xen/pci: Add xen_reset_device function
-         64cd1635a0c13a4fb8ca39a5a7aef75c943a81bf xen/pvh: Map pirq for passthrough device on PVH dom0
-         f0d1d9fa3f5b61b7df3b6c9ed3f3164b5de07967 xen/pvh: Setup gsi for passthrough device on PVH dom0
-         c69b94ee7d7a618babe4bacd0e129234cc9db259 xen/privcmd: Add new syscall to get gsi from irq
-         4600b18f18bb049068c980d1b5cec3ae0f8e7731 xen/grants: update initialization order of xen grant table
-         b834b60de57194a232ec09433c67abda482e180b drm/amdgpu: set passthrough mode for xen pvh/hvm
-         ea3f0ead629c80326ed983b5a65caf8c1127bc85 drm/amdgpu: Workaround for Rebar cap on PVH dom0
-         6ddfcfe936c7ac41c223b35e0bde93783409a4cb drivers/pci: Workaround for restore Rebar state
-         
+  - ref: refs/heads/misc
+    old: 6cae9a3910ac1b5daf5ac3db9576b78cc4eff5aa
+    new: a18e81d17a7e634420e589fa504e79e4893cde5e
+    log: revlist-6cae9a3910ac-a18e81d17a7e.txt
+
+--===============4923565777216652715==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6cae9a3910ac-a18e81d17a7e.txt
+
+548fdf771b8e85e6f14fcebcf3443ea475444445 scsi: ufs: core: Export ufshcd_is_hba_active()
+21f04fb4e8ca4a6a88c76b1ddf9ea94e6c118005 scsi: ufs: ufs-qcom: Check host controller state
+c306f746fee55b07d92dc768f3167f5b27a677db scsi: ufs: core: Fix the build for gcc 9 and before
+01e747157b6143b62240cebcc4493f9eaad12a08 scsi: ufs: qcom: Make struct ufs_qcom_bw_table static const
+dded1dc31aa433ab4442dbe8e5a14d2a9a919bcd scsi: lpfc: Modify when a node should be put in device recovery mode during RSCN
+9134211f7bed218bc01940fc24ebe8b4bc02b69b scsi: mpi3mr: Invoke soft reset upon TSU or event ack time out
+6f81b1cfdf33533925dbbfab9923f67fb4a31858 scsi: mpi3mr: Update MPI Headers to version 3.00.28
+d9adb81e67e9be51990a14389cd1762086b44985 scsi: mpi3mr: Add support for more than 1MB I/O
+e7a8648e1ce2ddbc74ac69da83dcebbee0c7e1b8 scsi: mpi3mr: WRITE SAME implementation
+d9a5ab0ea98fdee77fcbfec27bb3976de9615377 scsi: mpi3mr: Enhance handling of devices removed after controller reset
+9a9068b2afa0b0bf559b66b374785d2fcb5b9b5e scsi: mpi3mr: Update driver version to 8.5.0.0.0
+9640d57d15611ab02be33e0db1639bcf3e2222c8 Merge patch series "mpi3mr: Few Enhancements and minor fixes"
+a18e81d17a7e634420e589fa504e79e4893cde5e scsi: ufs: ufs-pci: Add support for QEMU
+
+--===============4923565777216652715==--
