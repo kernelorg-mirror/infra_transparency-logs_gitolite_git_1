@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 22 Aug 2023 09:13:42 -0000
-Message-Id: <169269562280.24276.13320067067805195107@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 09:13:51 -0000
+Message-Id: <169269563196.24431.18315947568061328580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 3f478be99828a4eace22e2119de09833c4199bdd
+  - ref: refs/heads/for-next
+    old: bd964ab4f21f2af920e5042e0c700a61d1ab302c
     new: e930d97f6d3ea4f43cb2c465d02e834d675c5274
     log: |
          1fdd729019f96d0a6b532be1a8bf7735c59305d8 kbuild: remove include/ksym from CLEAN_FILES
