@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Tue, 22 Aug 2023 19:49:45 -0000
-Message-Id: <169273378516.22533.8491936704239963368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 22 Aug 2023 19:57:41 -0000
+Message-Id: <169273426117.28568.4001977151751731447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/icc-next
-    old: 3a60e2a1c8a6eaa38336d798c23ab6dcb61b5cc2
-    new: 6ac3f01201fa1c453fc8a8ce5a7208da9cca254d
+  - ref: refs/heads/master
+    old: fb30159426439bfe9a1435c0555f67201198988c
+    new: 87680ac7979177a34ca39b5a35a2ed94209cd20f
     log: |
-         86b5488121db563b33684f56aafa62156f764be3 debugfs: Add write support to debugfs_create_str()
-         1d13d3b745377f49090882e0482e8786e719a6a4 interconnect: Reintroduce icc_get()
-         770c69f037c18cfaa37c3d6c6ef8bd257635513f interconnect: Add debugfs test client
-         6ac3f01201fa1c453fc8a8ce5a7208da9cca254d Merge branch 'icc-debugfs' into icc-next
+         6785b2edf48c6b1c3ea61fe3b0d2e02b8fbf90c0 bpf: Fix check_func_arg_reg_off bug for graph root/node
+         fbc5bc4c8e6ca6f5720798c96107307906dc49c0 selftests/bpf: Add test for bpf_obj_drop with bad reg->off
+         87680ac7979177a34ca39b5a35a2ed94209cd20f Merge branch 'fix-for-check_func_arg_reg_off'
          
