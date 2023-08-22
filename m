@@ -1,27 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Tue, 22 Aug 2023 15:37:11 -0000
-Message-Id: <169271863133.29125.11666379049226384891@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4283086052093014686=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 22 Aug 2023 15:42:59 -0000
+Message-Id: <169271897989.1573.14739445287257064404@gitolite.kernel.org>
+
+--===============4283086052093014686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/topic/fprobe-event-ext
-    old: 3fafdc987815170c6aadff9e90884194b8311199
-    new: c2d161da2abede46eeaaa5e0f1e6a79a830a6939
-    log: |
-         f582ce836488146899fc096c9f4b22fde8f67ecc tracing/probes: Support BTF argument on module functions
-         a086004b3381b73599e9b937424d9a6f7aa9f328 tracing/probes: Move finding func-proto API and getting func-param API to trace_btf
-         2dd9740e5b20270c3d24ea295ab413d581a1205e tracing/probes: Add a function to search a member of a struct/union
-         2f5a054e66449af399a65542a637d633a9e00e66 tracing/probes: Support BTF based data structure field access
-         6d1bd1f03370a580b450a78ad327f022959df93a tracing/probes: Support BTF field access from $retval
-         e5d3c66e493f810763f199790299ac2dc545eaef tracing/probes: Add string type check with BTF
-         4f848d85ecc3240912f60a08d69881cf441c9e13 tracing/fprobe-event: Assume fprobe is a return event by $retval
-         2b0d4dd90e000e4802c1c10018ebd1cf04f7278f selftests/ftrace: Add BTF fields access testcases
-         c2d161da2abede46eeaaa5e0f1e6a79a830a6939 Documentation: tracing: Update fprobe event example with BTF field
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 65d5db29196216e3b4cfda5ee83ab9ede5cb2c5a
+    new: 58a8d2edd57b35307d81ec6c304697707e6067c1
+    log: revlist-65d5db291962-58a8d2edd57b.txt
+
+--===============4283086052093014686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-65d5db291962-58a8d2edd57b.txt
+
+83a0943b1870944612a8aa0049f910826ebfd4f7 perf trace: Use the augmented_raw_syscall BPF skel only for tracing syscalls
+64917f4df048a0649ea7901c2321f020e71e6f24 perf trace: Use heuristic when deciding if a syscall tracepoint "const char *" field is really a string
+7298e876075eea8d2e782bf846ab0b4721afac92 perf jevents: Raise exception for no definition of a arch std event
+b8af10062df3c23fe002c3f187389bb263b3eb20 perf vendor events arm64: Remove L1D_CACHE_LMISS from AmpereOne list
+47715f2b624d7c7f6fca96b1863db45b67f6710e perf vendor events arm64: AmpereOne: Mark affected STALL_* events impacted by errata
+705ed549148fad1bea526a9102fa202905bdc86f perf vendor events arm64: Add AmpereOne metrics
+a50b8db3ea358b01f3c83e1e1c063e75352dcb3b perf vendor events arm64: AmpereOne: Remove unsupported events
+262b54b6c9396823ab06df46a1be475c44b28b5f perf bpf augmented_raw_syscalls: Add an assert to make sure sizeof(saddr) is a power of two.
+7d9642311b6d9d319a6948581244561d2a0890a1 perf bpf augmented_raw_syscalls: Add an assert to make sure sizeof(augmented_arg->value) is a power of two.
+58a8d2edd57b35307d81ec6c304697707e6067c1 perf stat-display: Check if snprintf()'s fmt argument is NULL
+
+--===============4283086052093014686==--
