@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 22 Aug 2023 19:37:16 -0000
-Message-Id: <169273303623.13656.9917075815900182040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 22 Aug 2023 19:37:59 -0000
+Message-Id: <169273307951.15001.13484834758364088870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: c6eda1209b6db290e28af14cc1f585c596e4489d
-    new: c62a1e1b2dcb3e28e9e2812d36ae23d2b9c2c0db
+  - ref: refs/heads/bleeding-edge
+    old: 2f876b2b4c8ba2357fb7be4416ca2d5f0b7a7f4f
+    new: 570e71cc1adcc99ed411f97ae662cef86af94a89
     log: |
-         c62a1e1b2dcb3e28e9e2812d36ae23d2b9c2c0db Tue Aug 22 07:36:11 PM UTC 2023
+         5f55836ab41671e005038255fdd60482718d2ca2 PM: QoS: Add check to make sure CPU latency is non-negative
+         570e71cc1adcc99ed411f97ae662cef86af94a89 Merge branch 'pm-qos' into bleeding-edge
          
