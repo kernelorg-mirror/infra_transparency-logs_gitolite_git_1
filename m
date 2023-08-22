@@ -1,29 +1,64 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 22 Aug 2023 16:32:39 -0000
-Message-Id: <169272195905.5888.9652627423757928727@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7081308859125099399=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 22 Aug 2023 16:33:05 -0000
+Message-Id: <169272198541.6135.10837216302347835233@gitolite.kernel.org>
+
+--===============7081308859125099399==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: d989e498295b204d60f3d4c9863afdce4cf60605
-    new: f0051d152729c6870a63a50b17c37177f3d65529
+    old: 1f8fe29394408d9a17bc494d660737531edc3fb0
+    new: 1690a28dff8b9598d1938e2f0d7dc771bd3f60a7
     log: |
-         f0051d152729c6870a63a50b17c37177f3d65529 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         1690a28dff8b9598d1938e2f0d7dc771bd3f60a7 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
          
   - ref: refs/heads/for-next
-    old: d0557612e887c5bfabd964a08fff0843155c688f
-    new: 92a88a0f853da76006d1d45f3fcaf18da325c446
-    log: |
-         2796a01cdf2c639e605088c53a1ac36923ade93c regulator: aw37503: add regulator driver for Awinic AW37503
-         86a1b61a0c7316febecd03d47eaf893eb5a57659 regulator: dt-bindings: Add Awinic AW37503
-         31eedc155cc70ad9acad9b841bd8a508d08932e9 regulator: aw37503: add regulator driver for Awinic
-         f0051d152729c6870a63a50b17c37177f3d65529 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
-         92a88a0f853da76006d1d45f3fcaf18da325c446 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
-         
+    old: 52d3c16f130eb4e631fbb6bbba64392314195421
+    new: 27c418ed9b71e84474e8b18d85dadd71305cd427
+    log: revlist-52d3c16f130e-27c418ed9b71.txt
+
+--===============7081308859125099399==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-52d3c16f130e-27c418ed9b71.txt
+
+246f74bb11e7df33946443a21c03463937867a09 spi: bcm-qspi: Simplify logic by using devm_platform_ioremap_resource_byname()
+08e6c5038fee470d9f240c12dcf69927e204a56b spi: orion: switch to use modern name
+f9977bb164a26d3bec31cdaf04865accf97e4353 spi: mchp-pci1xxxx: switch to use modern name
+cc64ab491b4236cbeb8aabf2cd41db4499a0745b spi: pic32-sqi: switch to use modern name
+0273727c3bae812e12d9bc32830af9d7b3767d3b spi: pic32: switch to use modern name
+c97a43a54600fd977acf654802ccf3c94f5f592a spi: spl022: switch to use modern name
+71345830575984c01c4c2b655ef3a7877100fba3 spi: ppc4xx: switch to use modern name
+60ba4431c8e8c137f92d050b9f0bfc8e8c26a364 spi: pxa2xx: switch to use modern name
+8d3ad99ad8f7370a0f9c8bdb741747fdd70e4e49 spi: spi-qcom-qspi: switch to use modern name
+597442ff4f6226206b7cc28b86eb2be0ae9c6418 spi: qup: switch to use modern name
+e6302d00d985d49f891d4b007afdae824d873edf spi: rb4xx: switch to use modern name
+c84036243c6bc0e1b5846e379f5d4b3e4658688e spi: realtek-rtl: switch to use devm_spi_alloc_host()
+7d5db7251997da069ca22c837a53ca8a84b4036e spi: rockchip-sfc: switch to use modern name
+1a3ccff3bc39acc04e69e3a65833d474471598ec spi: rockchip: switch to use modern name
+1405efe76f2a242832a53b56deda15f17d51219b spi: rspi: switch to use spi_alloc_host()
+6536da62e4378caafa309ae372ca88f065f3e47c spi: rzv2m-csi: switch to use devm_spi_alloc_host()
+f4bc49eda254c6f49c6679149d31e93271d6ee74 spi: s3c64xx: switch to use modern name
+82a779231805c388e09921f4a28d9daebf95aeda spi: sc18is602: switch to use modern name
+0c8e5afc879f5b693dd2db68a7db3ffb3dc6823b spi: sh-hspi: switch to use modern name
+1cb3ebc417fe6cc5bea1b37682c0e860ea9ffb2d spi: sh-msiof: switch to use modern name
+91a940bb1075337184c3aa537c6e5b9429380400 spi: sh-sci: switch to use modern name
+0ec6a15091a17dc5af7a4b23a2d02e554cbe3549 spi: sh: switch to use modern name
+8d9ae783fb706ae98db18d050201d96a9634bd45 spi: sifive: switch to use modern name
+557efcf4c64f27f1b69af464246bf90b4d52e5be spi: spi-sn-f-ospi: switch to use modern name
+1c351c236ac58e7e0ac3b5e1fe50be532bc937c4 spi: switch to use modern name (part4)
+60ea3db33fbddf559e18567ca8897f6bb9f25290 spi: at91-usart: Use PTR_ERR_OR_ZERO() to simplify code
+1690a28dff8b9598d1938e2f0d7dc771bd3f60a7 Merge remote-tracking branch 'spi/for-6.4' into spi-linus
+27c418ed9b71e84474e8b18d85dadd71305cd427 Merge remote-tracking branch 'spi/for-6.6' into spi-next
+
+--===============7081308859125099399==--
