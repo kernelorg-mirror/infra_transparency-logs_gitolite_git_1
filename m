@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 22 Aug 2023 16:45:31 -0000
-Message-Id: <169272273154.16710.14807710979959010776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 22 Aug 2023 16:46:56 -0000
+Message-Id: <169272281675.17281.7757758044800202848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev
-    old: 1cc178e9a20997e3a36ae1ff40800b49525eb3ff
-    new: 75dad3f2a55749a252ffae4622caa3423c6dfe1f
+  - ref: refs/heads/master
+    old: d56518380085d78f179cdc701d791ace4acb1d23
+    new: fb30159426439bfe9a1435c0555f67201198988c
     log: |
-         953de431aaaf71ca54fed25796f8c633278496f2 locktorture: Add new module parameters to lock_torture_print_module_parms()
-         44704dc302e36251692ead269f046845705124d7 locktorture: Add call_rcu_chains module parameter
-         1e1ed741806e17e64eb30c9c68c6f4d6f09e1874 doc: Catch-up update for locktorture module parameters
-         3ca6f945fe79cc7cccfbbe33201a553c8c1a0327 fixup! locktorture: Add call_rcu_chains module parameter
-         75dad3f2a55749a252ffae4622caa3423c6dfe1f locktorture: Rename readers_bind/writers_bind to bind_readers/bind_writers
+         ab6c637ad0276e42f8acabcbc64932a6d346dab3 bpf: Fix a bpf_kptr_xchg() issue with local kptr
+         fb30159426439bfe9a1435c0555f67201198988c selftests/bpf: Add a failure test for bpf_kptr_xchg() with local kptr
          
