@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6259674117815368370=="
+Content-Type: multipart/mixed; boundary="===============8105808556702119455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 22 Aug 2023 17:44:20 -0000
-Message-Id: <169272626011.26971.11792679628798098937@gitolite.kernel.org>
+Date: Tue, 22 Aug 2023 17:44:27 -0000
+Message-Id: <169272626753.27077.16452698206438979906@gitolite.kernel.org>
 
---===============6259674117815368370==
+--===============8105808556702119455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 7ceb60ece8567e58b7e04965b3a434a0ed606053
     new: ae23f14141d9174d9c8daff65ee84603a3feb6ba
     log: revlist-7ceb60ece856-ae23f14141d9.txt
 
---===============6259674117815368370==
+--===============8105808556702119455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ dfb9758a4af19b5d04fe943c56651675038f29aa Merge branch 'dt/linus' into dt/next
 fab610be30dbaa4ef5dcfabe4dc498c557a1b7ad of: Refactor node and property manipulation function locking
 ae23f14141d9174d9c8daff65ee84603a3feb6ba dt-bindings: display: msm/dp: restrict opp-table to objects
 
---===============6259674117815368370==--
+--===============8105808556702119455==--
