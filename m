@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 23 Aug 2023 22:50:13 -0000
-Message-Id: <169283101367.4088.3951640271585540427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 23 Aug 2023 22:53:27 -0000
+Message-Id: <169283120738.5252.5731663212277696004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: c01cf4552c12ae0b56cb3cfdbe3e9ce67b695716
-    new: 8b2f002edeb3c06dfc64dc2a913d112bb4124579
+  - ref: refs/heads/for-6.6
+    old: 0e1bd497ca372031b5aa37fdffc5cf6d3a796343
+    new: e885ea30e2b7102fdd826e9d50d1db63aaf8f8bc
     log: |
-         35c706f3986d3813e9ce55bc214858be6ac419e3 client: Add agent auto argument support
-         d49ea14f70dac31365e2bbf84d065a7ed7222cad shared/bap: Add support for BAP broadcast sink
-         c7850975b0d01e2ed646bee759bbf0499de6c70c bap: Add support for BAP broadcast sink
-         9966e0f8f6d8a04373ed832e8d2b40f491949539 media: Add broadcast sink media endpoint
-         34d546038ab17a0a7caa6aa9e181c6f8b0ebcc7a transport: Update transport properties for a broadcast stream
-         0a824ce8f6f695963aaeb525b1b55dca72d9cd82 client/player: Remove Broadcast parameter
-         8d0d62659c06cb421b39b7928b4d56f052a874e5 adapter: Fix UUID name advertised for bcast source
-         8b2f002edeb3c06dfc64dc2a913d112bb4124579 isotest: Add defer setup support for Broadcast Receiver
+         5d69ac60c2f15ea3d171680c04593efcbc5edac0 ARM: Remove <asm/ide.h>
+         5b22f904266a93dec87eabb24816343aa96d501a parisc: Remove <asm/ide.h>
+         d143de46acd3a9ae9fc4a6c0f974d86d5840aece powerpc: Remove <asm/ide.h>
+         c67cb79f34a88f6a99113ad0a285df69b1850c8a sparc: Remove <asm/ide.h>
+         ed042f93095e28fad725586ca826162baba22ed8 m68k: Remove <asm/ide.h>
+         7e64129c06047f5192b81e3ed1cac6d8149325c0 asm-generic: Remove ide_iops.h
+         70fe3aa90eec4c64e13ec3860506a496e16176ca ata: pata_buddha: Remove #include <asm/ide.h>
+         94279fad55bcd453bc81dc92cd75b775910e3a86 ata: pata_falcon: Remove #include <asm/ide.h>
+         e885ea30e2b7102fdd826e9d50d1db63aaf8f8bc ata: pata_gayle: Remove #include <asm/ide.h>
          
