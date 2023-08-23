@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 23 Aug 2023 07:03:11 -0000
-Message-Id: <169277419136.30545.4665767349621812130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 23 Aug 2023 07:07:36 -0000
+Message-Id: <169277445681.2678.5561954316361318024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/usb-next
-    old: 974e2f6a0554685493cc44406bc7d8ba0a3b0e33
-    new: 873854c02364ebb991fc06f7148c14dfb5419e1b
+  - ref: refs/heads/mips-next
+    old: ed07f6c26f9c18e5122ecba0526923ba32a7a6f7
+    new: d913ff561140dd89104dcb01846d789835a5cdc3
     log: |
-         873854c02364ebb991fc06f7148c14dfb5419e1b USB: serial: option: add Quectel EM05G variant (0x030e)
+         971fe5095f78b6475c88270aa4b6ee77a791cf25 MIPS: VDSO: Conditionally export __vdso_gettimeofday()
+         d913ff561140dd89104dcb01846d789835a5cdc3 arch/mips/configs/*_defconfig cleanup
          
