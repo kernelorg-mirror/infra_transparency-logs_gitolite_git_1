@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Wed, 23 Aug 2023 10:06:43 -0000
-Message-Id: <169278520325.18353.10177854879968450716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Aug 2023 10:46:08 -0000
+Message-Id: <169278756899.15168.18258780006536369693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: 9099bcaf81210a6d885c6acb250617b3e4bde52a
-    new: 7c6a9117f6f3facf77a0ef7e31c4cd6418cf8c2a
+  - ref: refs/heads/main
+    old: 2e0c8ee2b56ffaf4ceac934d75f131a9c9becf72
+    new: e3b3a87967cef1fa157d93fd726960b1b812401d
     log: |
-         7c6a9117f6f3facf77a0ef7e31c4cd6418cf8c2a damo_show: Add --sort_regions_dsc option for descending sorting
+         e3b3a87967cef1fa157d93fd726960b1b812401d bnxt: use the NAPI skb allocation cache
          
