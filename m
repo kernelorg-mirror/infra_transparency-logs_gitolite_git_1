@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1201255946501530380=="
+Content-Type: multipart/mixed; boundary="===============2904176846529823554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 23 Aug 2023 15:05:54 -0000
-Message-Id: <169280315456.9188.2512771569186372273@gitolite.kernel.org>
+Date: Wed, 23 Aug 2023 15:06:30 -0000
+Message-Id: <169280319044.9496.3228667447583058611@gitolite.kernel.org>
 
---===============1201255946501530380==
+--===============2904176846529823554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6dc5774deefe38d9ab385a5dafbe6614ae63d166
-    new: bfedba3b2c7793ce127680bc8f70711e05ec7a17
-    log: revlist-6dc5774deefe-bfedba3b2c77.txt
+  - ref: refs/heads/dev-queue
+    old: be1343c9dd944250e98ede9ad557edf2c98529ee
+    new: b65f370c61d16ecca5ade8ab0378e4dfa6d49070
+    log: revlist-be1343c9dd94-b65f370c61d1.txt
 
---===============1201255946501530380==
+--===============2904176846529823554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dc5774deefe-bfedba3b2c77.txt
+Content-Disposition: attachment; filename=revlist-be1343c9dd94-b65f370c61d1.txt
 
 10083aef784031fa9f06c19a1b182e6fad5338d9 ice: fix receive buffer size miscalculation
 0ecff05e6c59dd82dbcb9706db911f7fd9f40fb8 Revert "ice: Fix ice VF reset during iavf initialization"
@@ -40,5 +40,17 @@ de43975721b97283d5f17eea4228faddf08f2681 igc: Fix the typo in the PTM Control ma
 da71714e359b64bd7aab3bd56ec53f307f058133 net/sched: fix a qdisc modification with ambiguous command request
 9525a3c38accd2e186f52443e35e633e296cc7f5 i40e: fix potential NULL pointer dereferencing of pf->vf i40e_sync_vsi_filters()
 bfedba3b2c7793ce127680bc8f70711e05ec7a17 ibmveth: Use dcbf rather than dcbfl
+6643ee80a81414bb4a6843eb3ea754f3963e709d igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+039eebc28a5d036c96f22a614db7230b20364702 igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+cdfd4b55756a014e18f0ca330350de2b0df24c2a igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+01840b64f3cfae3189af1e1322e3bd0cdc696a3b ice: avoid executing commands on other ports when driving sync
+d0c6e8ced6ba09762689c457dc83ab5f151479f2 i40e: fix livelocks in i40e_reset_subtask()
+f14840210fc1f029e461063874e62fbc05e43c59 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+2cf2438077aa0835fa254a56b9f829d009d52ae1 i40e: fix potential memory leaks in i40e_remove()
+79d073f757307fc4bfcb529ecab56457c108870a i40e: fix 32bit FW gtime wrapping issue
+59b8ee3efafc72b7378900498b271ff0927fb08b igc: Expose tx-usecs coalesce setting to user
+c1f0339778647d66b47cb9f07136f529ff2d401d igc: Modify the tx-usecs coalesce setting
+e88e737d850a32602ddca625a400f2c9e7453e5b iavf: Fix promiscuous mode configuration flow messages
+b65f370c61d16ecca5ade8ab0378e4dfa6d49070 igb: set max size RX buffer when store bad packet is enabled
 
---===============1201255946501530380==--
+--===============2904176846529823554==--
