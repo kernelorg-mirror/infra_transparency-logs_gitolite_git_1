@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8711652764253594215=="
+Content-Type: multipart/mixed; boundary="===============8282667927281903747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 23 Aug 2023 15:53:45 -0000
-Message-Id: <169280602575.15883.4033594442825750505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 23 Aug 2023 15:57:32 -0000
+Message-Id: <169280625202.20690.12594429513255827093@gitolite.kernel.org>
 
---===============8711652764253594215==
+--===============8282667927281903747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 778796428997e472e9a80f6b639bac13088d6d2d
-    new: 37f6329bf15b1ab9c32a64347d93b1951daa5d0b
+  - ref: refs/heads/dev
+    old: 4e81269b705cec7865b90e6d5365cc31f1b424f5
+    new: 91b1ad0815fbb1095c8b9e8a2bf4201186afe304
+    log: revlist-4e81269b705c-91b1ad0815fb.txt
+  - ref: refs/heads/dev-test
+    old: 916af7f09f881259182cea2a8219321603e76a4d
+    new: 91b1ad0815fbb1095c8b9e8a2bf4201186afe304
     log: |
-         37f6329bf15b1ab9c32a64347d93b1951daa5d0b Notes added by 'git notes add'
+         5ec693ca70dd88db20094cab9aa045852363b93f erofs: don't warn dedupe and fragments features anymore
+         91b1ad0815fbb1095c8b9e8a2bf4201186afe304 erofs: release ztailpacking pclusters properly
          
 
---===============8711652764253594215==
+--===============8282667927281903747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4e81269b705c-91b1ad0815fb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692806024 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1692806024-25f85dd0c1a446840f251d78a15882e7cc719b52
+e3157bb55d3ed81ab3e21d1e2a07527d674556b4 erofs: refine warning messages for zdata I/Os
+428f27cc8d3202ebbc5013fe53e8596949955d85 erofs: clean up redundant comment and adjust code alignment
+8ec9a25258244c4b3955ad052cd4c74ccf3d5d6a erofs: add necessary kmem_cache_create flags for erofs inode cache
+d442495c9676b6587f0058c5843b2d053dd1765b erofs: remove redundant erofs_fs_type declaration in super.c
+8b00be163f7b57cbf957b3d27b5a7ca1e2495cfa erofs: simplify z_erofs_read_fragment()
+dcba1b232e26ebadbd215728199455d38a59253e erofs: avoid obsolete {collector,collection} terms
+aeebae9d77217709f8ae3edb0cd7858ec8c7a9d6 erofs: move preparation logic into z_erofs_pcluster_begin()
+e4c1cf523d820730a86cae2c6d55924833b6f7ac erofs: tidy up z_erofs_do_read_page()
+9a05c6a8bc26138d34e87b39e6a815603bc2a66c erofs: drop z_erofs_page_mark_eio()
+06ec03660d819fdb88692d62a86464daf6ddb0a5 erofs: get rid of fe->backmost for cache decompression
+491b1105a8e25d9d26ea321839e057a752e31383 erofs: adapt folios for z_erofs_readahead()
+c33ad3b2b7100ac944aad38d3ebc89cb5f654e94 erofs: adapt folios for z_erofs_read_folio()
+5ec693ca70dd88db20094cab9aa045852363b93f erofs: don't warn dedupe and fragments features anymore
+91b1ad0815fbb1095c8b9e8a2bf4201186afe304 erofs: release ztailpacking pclusters properly
 
-778796428997e472e9a80f6b639bac13088d6d2d 37f6329bf15b1ab9c32a64347d93b1951daa5d0b refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTmK4gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/EEQAKwxdyjZmN4HkOAvZJ+x
-MyP4I/bT1vAxDkH0OEtKK7fe0p77z+X1T7w58SGfoUCedJAZCGZetf7yOWfH2DBE
-wIQ5S1sBZf6lBHk9EqO38LNiJDC0lyT0+m1TTXH1fZwiVVD4BBabxFiqwAhGriBc
-mJtSoyr5GHhrbfHEibxx+FLx7EPr4Syw24hXdLt8nqIPE2nl3bb99tTbIXaaf0kN
-w8uiEkNy4hE0cnzfP1RRIgV+cFhVOf2SVE/xjdrPtRnCB/GiLFYhrRlDbxWGw+vg
-UBMJ5kFsacvLkuMI2mdQ5PeWDl2O0W3pozoHTvfmcLNnVYcnOqvH92Yd5AAvC8K3
-D/Oq1bkFKUGg3fkIsTbthvDkobYPnee/p5EI3AraZRk9VANwWp7Iw8htDvK0Q7x2
-Da+GzrxdzB1zjh2z4KvvqgG9eEtGJf800eZsihsjsKxniiJco0oLM6JtqytpkzM8
-FQ1LjQeGRFCRfbcE7Q2BEKaaCCGgQJlzDWqbcmIcBxDmoQGxfcXKWT1X0aANL/US
-zvGM6uET4nawEBLRsyVPoK9qblWRo7AlQQ0JaNgRyFNILvXrzmSian1fk+DLPG+X
-EeisBhf/vH2skaMUuiKMULu+9izuqJDm2sDofhxCkVB64mJfnpKV/GIgHN8yMVkf
-i3ZRR2oNqpnGQD7YibWYQ3gL
-=2P+N
------END PGP SIGNATURE-----
-
---===============8711652764253594215==--
+--===============8282667927281903747==--
