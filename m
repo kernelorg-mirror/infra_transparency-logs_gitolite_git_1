@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============4193245660840014926=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Aug 2023 01:36:22 -0000
-Message-Id: <169275458290.21802.13842017875562592065@gitolite.kernel.org>
+Date: Wed, 23 Aug 2023 01:51:13 -0000
+Message-Id: <169275547373.827.1969648041352545940@gitolite.kernel.org>
+
+--===============4193245660840014926==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,18 +16,26 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 9817363372567e2669d7c128f41ef9dcef3e8e53
-    new: 978f41751aa0cec9623d3cb26e44b7f58bef0df7
-    log: |
-         c5b4297dee9110b63f2c8202e4876bdcad43d4c4 mptcp: refactor push_pending logic
-         ebc1e08f01ebedbf962e6417bbf6952bd4ca2142 mptcp: drop last_snd and MPTCP_RESET_SCHEDULER
-         740ebe35bd3f5c4ff8ec60e5e521e47ea8f5492c mptcp: add struct mptcp_sched_ops
-         e3b2870b6d220d1cbd2d52d7acc9f0de9fdfeccf mptcp: add a new sysctl scheduler
-         1730b2b2c5a5a886007b247366aebe0976dc8881 mptcp: add sched in mptcp_sock
-         fce68b03086fd00eb5a8ba4744f36f0d007d0f9d mptcp: add scheduled in mptcp_subflow_context
-         07336a87fe871518a7b3508e29a21ca1735b3edc mptcp: add scheduler wrappers
-         0fa1b3783a17d75a4aa1651a18ede041ffca5750 mptcp: use get_send wrapper
-         ee2708aedad00544d38dba6df88efeb4a330bd66 mptcp: use get_retrans wrapper
-         ed1ad86b8527f8f864df3c182adbfcd12a445de6 mptcp: register default scheduler
-         978f41751aa0cec9623d3cb26e44b7f58bef0df7 Merge branch 'mptcp-prepare-mptcp-packet-scheduler-for-bpf-extension'
-         
+    old: 978f41751aa0cec9623d3cb26e44b7f58bef0df7
+    new: 6176b8c4a19e150c4176b1ed93174e2f5965c4b5
+    log: revlist-978f41751aa0-6176b8c4a19e.txt
+
+--===============4193245660840014926==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-978f41751aa0-6176b8c4a19e.txt
+
+a7ed3465daa240bdf01a5420f64336fee879c09d netfilter: ebtables: fix fortify warnings in size_entry_mwt()
+a2f02c9920b2cc3c6cc1f2c2aee37354e6edd801 netfilter: ebtables: replace zero-length array members
+e53314034b2374cfe9a426a5edab51e30cfe8f02 netfilter: ipset: refactor deprecated strncpy
+6cdd75a4a66b7c9b2a2667d87619816d6e744d0e netfilter: nf_tables: refactor deprecated strncpy
+7457af8bf9948aeb31de21e4be3bc1fef2730958 netfilter: nf_tables: refactor deprecated strncpy
+6d87a4eae89e2ae015b40fd0adc90e9a7dc9fccb netfilter: nft_osf: refactor deprecated strncpy
+ad156c23d65c1f44f8b4616c2a7505832e323069 netfilter: nft_meta: refactor deprecated strncpy
+06f7d3c3f82c3a53de32a2c0c08e96c0d9ef69ec netfilter: x_tables: refactor deprecated strncpy
+aa222dd190d69ca8e0e2b990ec171c67a74d5383 netfilter: xtables: refactor deprecated strncpy
+169384fbe8513185499bcbb817d198e6a63eb37e netfilter: nf_tables: allow loop termination for pending fatal signal
+6176b8c4a19e150c4176b1ed93174e2f5965c4b5 Merge tag 'nf-next-23-08-22' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+
+--===============4193245660840014926==--
