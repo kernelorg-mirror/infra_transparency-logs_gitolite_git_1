@@ -1,39 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 23 Aug 2023 05:09:43 -0000
-Message-Id: <169276738359.14435.13095959030553448754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 23 Aug 2023 05:44:18 -0000
+Message-Id: <169276945868.6914.11871025836766398238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master-pending
-    old: b1b3e9b8b3be6f28b886eaef91894f114b97f738
-    new: 22381ef618b2033251f7154a21692b03ba90ae57
+  - ref: refs/heads/hyperv-next
+    old: bb9b0e46b84c19d3dd7d453a2da71a0fdc172b31
+    new: 86e619c922e616d8780833562a14a5bda329f0c3
     log: |
-         75f29955052fc4f7cc4c2e959271dfbe09fe76b6 wifi: ath5k: fix WARNING opportunity for swap.
-         c1aab09d2d8954089bcd3dcc7afaa8c108fad7f0 wifi: ath11k: simplify the code with module_platform_driver
-         6b693821ba3ae1326aa6bf958c99db7d57896bf2 wifi: ath11k: fix Wvoid-pointer-to-enum-cast warning
-         0aae51703fc22ea762d67dc16afe5cda867a7bb8 wifi: ath10k: fix Wvoid-pointer-to-enum-cast warning
-         be0bbe6829e4e416891a392d094aa084e40ce793 wifi: ath11k: Remove unused declarations
-         bbfe613a480fc3c56b6076fdd25f57f45002bdf5 wifi: ath: remove unused-but-set parameter
-         22381ef618b2033251f7154a21692b03ba90ae57 Merge branch 'pending' into master-pending
+         f0a3d1de89876f4ca54fccb4103b504d50a8347f x86/hyperv: Add missing 'inline' to hv_snp_boot_ap() stub
+         86e619c922e616d8780833562a14a5bda329f0c3 x86/hyperv: Fix undefined reference to isolation_type_en_snp without CONFIG_HYPERV
          
-  - ref: refs/heads/pending
-    old: 212796e28fe44c0a4956c797d8b685b905784cd6
-    new: bbfe613a480fc3c56b6076fdd25f57f45002bdf5
-    log: |
-         75f29955052fc4f7cc4c2e959271dfbe09fe76b6 wifi: ath5k: fix WARNING opportunity for swap.
-         c1aab09d2d8954089bcd3dcc7afaa8c108fad7f0 wifi: ath11k: simplify the code with module_platform_driver
-         6b693821ba3ae1326aa6bf958c99db7d57896bf2 wifi: ath11k: fix Wvoid-pointer-to-enum-cast warning
-         0aae51703fc22ea762d67dc16afe5cda867a7bb8 wifi: ath10k: fix Wvoid-pointer-to-enum-cast warning
-         be0bbe6829e4e416891a392d094aa084e40ce793 wifi: ath11k: Remove unused declarations
-         bbfe613a480fc3c56b6076fdd25f57f45002bdf5 wifi: ath: remove unused-but-set parameter
-         
-  - ref: refs/tags/ath-pending-202308230507
-    old: 0000000000000000000000000000000000000000
-    new: 22381ef618b2033251f7154a21692b03ba90ae57
