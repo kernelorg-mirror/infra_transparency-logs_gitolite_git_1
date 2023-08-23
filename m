@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Wed, 23 Aug 2023 14:20:04 -0000
-Message-Id: <169280040420.8786.10181055862435559672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 23 Aug 2023 14:30:05 -0000
+Message-Id: <169280100545.15585.10115882806323940638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/b4/dma_iommu
-    old: 79fd2814e624dd32795ae8fad9304cc2591e4f16
-    new: dbaa0265129b05dab98085a5dca03f761e5cca87
+  - ref: refs/heads/master
+    old: b311162c37a2867873e1222ce6b5f38c88be4d80
+    new: 4a0c766c69ddfe5231d65f2676e97333ba89ab2b
     log: |
-         b2aab2ebe399b871f5c8732bd5b6ee4ec268f21d iommu/dma: Allow a single FQ in addition to per-CPU FQs
-         dbaa0265129b05dab98085a5dca03f761e5cca87 iommu/dma: Use a large flush queue and timeout for shadow_on_flush
+         21540653a3189fb49b2e11d53fefa262756f79ef Add RISC-V 64 support
+         4a0c766c69ddfe5231d65f2676e97333ba89ab2b Merge branch 'master' of https://github.com/michalbiesek/fio
          
