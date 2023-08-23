@@ -1,55 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6993314333087667028=="
+Content-Type: multipart/mixed; boundary="===============5832770715454597467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 23 Aug 2023 12:43:56 -0000
-Message-Id: <169279463654.2396.3530648212263952217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 23 Aug 2023 12:45:03 -0000
+Message-Id: <169279470381.4443.3065068743034725412@gitolite.kernel.org>
 
---===============6993314333087667028==
+--===============5832770715454597467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 8bbc7435283a539c670fbebb8838040bec9cb214
-    new: 0045287656f229e035cf86696c3b780ae5b9309d
-    log: |
-         ac4534ce1a7cfe7996d4ac5c6e2ec3da845e9457 PM: hibernate: Fix block device handling in test_resume mode
-         e8f7db4aa54aa7628d91209f67597830647e8584 Merge branches 'pm-cpufreq', 'pm-sleep', 'pm-qos' and 'pm-core' into linux-next
-         e76f1fef0ffede1783d4d1f6f3248807e41b066d Merge branches 'thermal-core' and 'thermal-intel' into linux-next
-         0045287656f229e035cf86696c3b780ae5b9309d Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: 85ad73d0eb5866c72af45341e30533e3066b3d9c
-    new: e76f1fef0ffede1783d4d1f6f3248807e41b066d
-    log: revlist-85ad73d0eb58-e76f1fef0ffe.txt
-  - ref: refs/heads/testing
-    old: 85ad73d0eb5866c72af45341e30533e3066b3d9c
-    new: e76f1fef0ffede1783d4d1f6f3248807e41b066d
-    log: revlist-85ad73d0eb58-e76f1fef0ffe.txt
+  - ref: refs/heads/features
+    old: cfd012107f11ec4af010f11eca341edc831abf6c
+    new: dedf98dd1cfb61cfc74be9248b90a49b42c6dead
+    log: revlist-cfd012107f11-dedf98dd1cfb.txt
 
---===============6993314333087667028==
+--===============5832770715454597467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85ad73d0eb58-e76f1fef0ffe.txt
+Content-Disposition: attachment; filename=revlist-cfd012107f11-dedf98dd1cfb.txt
 
-f96801f0cfcefc0a16b146596577c53c75ee9773 thermal/of: Fix potential uninitialized value access
-e26a99dd1522caefcde023aabc0f79d7e6a016bf PM: runtime: Remove unsued extern declaration of pm_runtime_update_max_time_suspended()
-5f55836ab41671e005038255fdd60482718d2ca2 PM: QoS: Add check to make sure CPU latency is non-negative
-1a6e1004f3225bebbe27e1575c22484a56e96f56 thermal: intel: int340x: simplify the code with module_platform_driver()
-10bb4e4ab7dd3898f413b5b4a3b81f6e9b1f6bf5 PM: sleep: Add helpers to allow a device to remain powered-on
-ee188ee6ed3821ec20c1d3e8b7aacd844924b10b thermal: intel: intel_soc_dts_iosf: Remove redundant check
-a436ae9434ec491eefb4ed4c77bdb9c762925976 cpufreq: Use clamp() helper macro to improve the code readability
-8d6e5e8268e89979d86501dbb8385ce2e6154de1 cpufreq: amd-pstate-ut: Remove module parameter access
-60dd283804479c4a52f995b713f448e2cd65b8c8 cpufreq: amd-pstate-ut: Fix kernel panic when loading the driver
-ac4534ce1a7cfe7996d4ac5c6e2ec3da845e9457 PM: hibernate: Fix block device handling in test_resume mode
-e8f7db4aa54aa7628d91209f67597830647e8584 Merge branches 'pm-cpufreq', 'pm-sleep', 'pm-qos' and 'pm-core' into linux-next
-e76f1fef0ffede1783d4d1f6f3248807e41b066d Merge branches 'thermal-core' and 'thermal-intel' into linux-next
+680b7ddd7e2ab7638d431722432f6d02d75dade1 s390/vfio-ap: no need to check the 'E' and 'I' bits in APQSW after TAPQ
+7aa7b2a80cb70d528785f06a54d6c8148826006d s390/vfio-ap: clean up irq resources if possible
+411b0109daa52d1cc5be39635631e22a5590c5d8 s390/vfio-ap: wait for response code 05 to clear on queue reset
+c51f8c6bb5c8a4878310d55e3a0b91747954b43d s390/vfio-ap: allow deconfigured queue to be passed through to a guest
+dd174833e44e7717f88f0925b1f78e9ba1d2626e s390/vfio-ap: remove upper limit on wait for queue reset to complete
+62aab082e9993163731656ce270cd3c1d29079af s390/vfio-ap: store entire AP queue status word with the queue object
+9261f0438835a97254590046e1be83733cca440f s390/vfio-ap: use work struct to verify queue reset
+e1f17f8ea93d8fc9d6d0562d38bb0a5fb3e8355e s390/vfio-ap: handle queue state change in progress on reset
+7847a19b5b6265f11e71c8499a3b608edac7f398 s390/vfio-ap: check for TAPQ response codes 0x35 and 0x36
+cf3fa16a6fd49216ae83502e61bea0d8322b51eb s390/uv: export uv_pin_shared for direct usage
+fb5040ef7f707525d0681cf6bfe424ccd1aadab7 KVM: s390: export kvm_s390_pv*_is_protected functions
+f88fb1335733029b4630fb93cfaad349a81e57b2 s390/vfio-ap: make sure nib is shared
+6daf5a682463c6c44538995c72bde2be992dc8e0 Merge branch 'vfio-ap' into features
+dedf98dd1cfb61cfc74be9248b90a49b42c6dead s390/pci: use builtin_misc_device macro to simplify the code
 
---===============6993314333087667028==--
+--===============5832770715454597467==--
