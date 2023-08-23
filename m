@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4193245660840014926=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Aug 2023 01:51:13 -0000
-Message-Id: <169275547373.827.1969648041352545940@gitolite.kernel.org>
-
---===============4193245660840014926==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 23 Aug 2023 01:55:39 -0000
+Message-Id: <169275573936.4161.6621835250504773601@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: 978f41751aa0cec9623d3cb26e44b7f58bef0df7
-    new: 6176b8c4a19e150c4176b1ed93174e2f5965c4b5
-    log: revlist-978f41751aa0-6176b8c4a19e.txt
-
---===============4193245660840014926==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-978f41751aa0-6176b8c4a19e.txt
-
-a7ed3465daa240bdf01a5420f64336fee879c09d netfilter: ebtables: fix fortify warnings in size_entry_mwt()
-a2f02c9920b2cc3c6cc1f2c2aee37354e6edd801 netfilter: ebtables: replace zero-length array members
-e53314034b2374cfe9a426a5edab51e30cfe8f02 netfilter: ipset: refactor deprecated strncpy
-6cdd75a4a66b7c9b2a2667d87619816d6e744d0e netfilter: nf_tables: refactor deprecated strncpy
-7457af8bf9948aeb31de21e4be3bc1fef2730958 netfilter: nf_tables: refactor deprecated strncpy
-6d87a4eae89e2ae015b40fd0adc90e9a7dc9fccb netfilter: nft_osf: refactor deprecated strncpy
-ad156c23d65c1f44f8b4616c2a7505832e323069 netfilter: nft_meta: refactor deprecated strncpy
-06f7d3c3f82c3a53de32a2c0c08e96c0d9ef69ec netfilter: x_tables: refactor deprecated strncpy
-aa222dd190d69ca8e0e2b990ec171c67a74d5383 netfilter: xtables: refactor deprecated strncpy
-169384fbe8513185499bcbb817d198e6a63eb37e netfilter: nf_tables: allow loop termination for pending fatal signal
-6176b8c4a19e150c4176b1ed93174e2f5965c4b5 Merge tag 'nf-next-23-08-22' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-
---===============4193245660840014926==--
+  - ref: refs/heads/seen
+    old: 45044cb72d75a6c0d106ebfb65891ef06919122b
+    new: 14e395333fe25e0e4cdb321d7bd46fc373119bf5
+    log: |
+         f3d33f8cfeac8a2a00b4f87eec48dbca1d3080e0 transfer.unpackLimit: fetch/receive.unpackLimit takes precedence
+         273c5435b94d0a81bc1830b9d457c475e7fdf339 Merge branch 'ts/unpacklimit-config-fix' into jch
+         038b4bac4094bea2884fbd8551b1cb14ee61118a Merge branch 'js/doc-unit-tests' into seen
+         b435c6727b5b5828ec2d9c57387d7590af3b0bf7 Merge branch 'la/trailer-test-and-doc-updates' into seen
+         c61ec2d42431957c6192f213d41b14d3fc533afb Merge branch 'ws/svn-with-new-readline' into seen
+         9f4a80357b0256a367a83a6ae1fcef36fcfb6aec Merge branch 'ob/send-email-interactive-failure' into seen
+         d10ba5e6a3b86e4d620355a181553d26e9c4bc9d Merge branch 'jc/update-index-show-index-version' into seen
+         14e395333fe25e0e4cdb321d7bd46fc373119bf5 Merge branch 'cc/git-replay' into seen
+         
