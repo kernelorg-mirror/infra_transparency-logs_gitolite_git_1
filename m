@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8888976200320619128=="
+Content-Type: multipart/mixed; boundary="===============3666586097285227635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 23 Aug 2023 23:14:16 -0000
-Message-Id: <169283245665.21101.9114375768701451810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Aug 2023 23:14:57 -0000
+Message-Id: <169283249789.21402.14174797872469180008@gitolite.kernel.org>
 
---===============8888976200320619128==
+--===============3666586097285227635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/regulator-6.5
     old: e4eea71222725b7366d61ce7a9ce35202d8a6dfa
     new: 706a741595047797872e669b3101429ab8d378ef
     log: revlist-e4eea7122272-706a74159504.txt
 
---===============8888976200320619128==
+--===============3666586097285227635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -298,4 +298,4 @@ ec27a636d7e1aa05e64ef0b1bd848f27f8105a39 Merge tag 'rust-fixes-6.5-rc7' of https
 b320441c04c9bea76cbee1196ae55c20288fd7a6 Merge tag 'tty-6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 706a741595047797872e669b3101429ab8d378ef Linux 6.5-rc7
 
---===============8888976200320619128==--
+--===============3666586097285227635==--
