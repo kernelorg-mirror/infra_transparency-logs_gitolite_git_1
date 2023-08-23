@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 23 Aug 2023 23:49:36 -0000
-Message-Id: <169283457622.13870.6061712725578100719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 23 Aug 2023 23:56:14 -0000
+Message-Id: <169283497455.19451.7963748726500350537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 1098ecdb96b292414e5471262e2b4af5cf377c0c
-    new: feed554a67ab7a602cd26cf6a4c44093dd54d4b9
+  - ref: refs/heads/for-next
+    old: 31776fe0c5f89703e66e21fbd18269e746843cee
+    new: 3b11b60d7ec5eed03c60dfa5c7e7868ca3fb187a
     log: |
-         5cef82c572a5ada4a7566cfaf51aa4ca3c2e151e Bluetooth: btusb: Fix quirks table naming
-         feed554a67ab7a602cd26cf6a4c44093dd54d4b9 Bluetooth: btusb: Do not call kfree_skb() under spin_lock_irqsave()
+         3b11b60d7ec5eed03c60dfa5c7e7868ca3fb187a lib/Kconfig.debug: Restrict DEBUG_INFO_SPLIT for RISC-V
          
