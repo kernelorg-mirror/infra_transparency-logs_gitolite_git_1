@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 23 Aug 2023 22:27:42 -0000
-Message-Id: <169282966229.18667.8561508933068030860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 23 Aug 2023 22:33:26 -0000
+Message-Id: <169283000639.22426.11781807139541622383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/vga
-    old: 26ee65c73b293574aed45b9e95ee2b102c94c071
-    new: 71e9b1f831cd7ee3860a5a5a252cb45bf0146854
+  - ref: refs/heads/for-next
+    old: 8a757010644f24974f4750783a6a35ee6fcd644c
+    new: 330c15bebcb43ca7de6f6616204a5b6e386ae36d
     log: |
-         04c1c3c4e62a22b424c07d8b03ca6f6aac2dfa7f PCI/VGA: Correct vga_str_to_iostate() io_state parameter type
-         60b4925d1aeaf0c46e540949c50818b9be2c896a PCI/VGA: Correct vga_update_device_decodes() parameter type
-         b421364a905e05d62f889786d25954c5a4128c80 PCI/VGA: Simplify vga_arbiter_notify_clients()
-         4582db1d0a41ed07de140a8bfe8e802749579563 PCI/VGA: Simplify vga_client_register()
-         0215845348fd09a0125da3d9d1a1e2476b49cd70 PCI/VGA: Replace full MIT license text with SPDX identifier
-         71e9b1f831cd7ee3860a5a5a252cb45bf0146854 PCI/VGA: Fix typos
+         c02d35d89b317994bd713ba82e160c5e7f22d9c8 btrfs: zoned: skip splitting and logical rewriting on pre-alloc write
+         836f2a433abef114a4de4ec22d5c39472759004f Merge branch 'misc-6.5' into for-next-current-v6.4-20230824
+         4e94fed9d38325e9bb53593b62b1ba067d750800 Merge branch 'next-fixes' into for-next-next-v6.5-20230824
+         68a8c3db902a5c271c1d82d63597f7ffa5433927 Merge branch 'misc-next' into for-next-next-v6.5-20230824
+         c37a3b09d603f22d8a8fd425dfcd635232b5ff16 Merge branch 'ext/hch/dep-writeback-fixes-v2' into for-next-next-v6.5-20230824
+         982bd683fecdad27d9e9cc4c0934358e92fab16e Merge branch 'ext/hch/nocow-fixes-rest' into for-next-next-v6.5-20230824
+         3db0ac6cd6c8e37f0289e5fe46ee66c2689a512e Merge branch 'for-next-current-v6.4-20230824' into for-next-20230824
+         330c15bebcb43ca7de6f6616204a5b6e386ae36d Merge branch 'for-next-next-v6.5-20230824' into for-next-20230824
          
