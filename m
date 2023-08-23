@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5098852090088828703=="
+Content-Type: multipart/mixed; boundary="===============4223892473746136505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 23 Aug 2023 16:24:55 -0000
-Message-Id: <169280789537.11227.8135357346427111436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Aug 2023 16:25:02 -0000
+Message-Id: <169280790257.11834.12885101360619576711@gitolite.kernel.org>
 
---===============5098852090088828703==
+--===============4223892473746136505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.5
+  - ref: refs/heads/asoc-6.5
     old: 3b1f08833c45d0167741e4097b0150e7cf086102
     new: 1613781d7e8a93618ff3a6b37f81f06769b53717
     log: |
          1613781d7e8a93618ff3a6b37f81f06769b53717 ASoC: cs35l41: Correct amp_gain_tlv values
          
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 220adc0fda6bbc274fff5825e2fd7d3dcd719e5c
     new: 014ee0692f29da8b08fed5da0fa14e04698a50f7
     log: |
@@ -38,29 +38,29 @@ changes:
          014ee0692f29da8b08fed5da0fa14e04698a50f7 ASoC: nau8821: Improve AMIC recording performance.
          
 
---===============5098852090088828703==
+--===============4223892473746136505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1692807893 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1692807892-31e31ead51604bea6a9cf95ddebbcd2e3030e8a3
+pusher C3F436CA30F5D8EB 1692807900 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1692807899-4b5ed127772f297b32c475083d7440bde02f3e8c
 
-3b1f08833c45d0167741e4097b0150e7cf086102 1613781d7e8a93618ff3a6b37f81f06769b53717 refs/heads/for-6.5
-220adc0fda6bbc274fff5825e2fd7d3dcd719e5c 014ee0692f29da8b08fed5da0fa14e04698a50f7 refs/heads/for-6.6
+3b1f08833c45d0167741e4097b0150e7cf086102 1613781d7e8a93618ff3a6b37f81f06769b53717 refs/heads/asoc-6.5
+220adc0fda6bbc274fff5825e2fd7d3dcd719e5c 014ee0692f29da8b08fed5da0fa14e04698a50f7 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTmMtUACgkQJNaLcl1U
-h9BNugf+KhmtTHbs1A2COytu0P7tSWawLZpUGCiGmU4p32351hHiX1fzHH1vkvjw
-GxfUk+HTYe0lbAQ/jDRbTJoseJ+yIRQBG6Dkiz4QY5Ny1syPvoeFqUb7qcKhaocE
-etpl/8GUQYj55LT+5fjTKGxmQ3eYKs51rnnwgiOblig1MHwq1GqH3ftu8QVUVp7h
-eRaJufG63TBi47TxiNfTUerfdKkFUmEXVfiLO8Tj7nsPcfTUxb4e9HNASKEQgkX5
-cSeTbnMCBHQuMAtXSJ2/osW9tncaU6zRovpKjIMdfphWbermptSt7jhpUmWlMcpf
-TWWbDg6d8hPLBZyukYBzfq2ISJwGrg==
-=eL9g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTmMtwACgkQJNaLcl1U
+h9BeQwgAhhDdL77WYnegjV1EU+EYx2pbVR2Z/Q0oKf1pRNy+d1gJSvMH0NqT9w3Q
+L7KLAHOJCHtECMKwJdnf/XQuUGzDVleBM4J2q3vwE4dIZ8KhWlSklMxFEHt5hKEc
+4er0MjEGLeyAUjPb3hqD5ttKIEmL1OlKCZog6Bu9qX8q1ygzHkP1Bhj7z2tkJMBC
+pzyyQzifj6e4pZnbXqIs6EYfGPtIvEYLhLr2NM6YH5mqD5WjLY1pkKR7XRxYO8Wr
+nfSstO4eSgmVMsBEQNeZxcRTWk5b7ijZ01yb5MDS2Ck5YLlJfzsB6tmBF5NoC9vY
+l27iWxMj6rLF5IzS+Rbi+3mDc9K9gA==
+=FGHD
 -----END PGP SIGNATURE-----
 
---===============5098852090088828703==--
+--===============4223892473746136505==--
