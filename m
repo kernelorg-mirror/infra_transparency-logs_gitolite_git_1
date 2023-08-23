@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 23 Aug 2023 22:55:51 -0000
-Message-Id: <169283135168.7858.4405341289446501743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 23 Aug 2023 23:10:06 -0000
+Message-Id: <169283220681.19127.8739620411383143449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/next
-    old: 13eb52f6293dbda02890698d92f3d9913d8d5aeb
-    new: 9b1db732866bee060b9bca9493e5ebf5e8874c48
+  - ref: refs/heads/for-6.6
+    old: e885ea30e2b7102fdd826e9d50d1db63aaf8f8bc
+    new: 252a0935ff2da38ce3d37df3b4186f2dd6521027
+    log: |
+         751441675579e9c397737ff2ebee4877725d1674 asm-generic: Remove ide_iops.h
+         cdaf83c6734737dcb1a80d510e0d05103794edcb ata: pata_buddha: Remove #include <asm/ide.h>
+         b17d429be9d813b678a9c3b9aae4d51c7e7b120c ata: pata_falcon: Remove #include <asm/ide.h>
+         4263cde524583cf38020a8ed0303b277fca31f66 ata: pata_gayle: Remove #include <asm/ide.h>
+         252a0935ff2da38ce3d37df3b4186f2dd6521027 m68k: Remove <asm/ide.h>
+         
