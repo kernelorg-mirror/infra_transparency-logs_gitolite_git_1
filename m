@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 23 Aug 2023 12:45:21 -0000
-Message-Id: <169279472104.4741.8361014787122509765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 23 Aug 2023 12:55:10 -0000
+Message-Id: <169279531098.11416.4363640396535841164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 48c9fdfa55dd417ba8e6db69057776f15b18f48c
-    new: 020ca957a616e454dba7c2a3c1610e8de29bed6b
-    log: |
-         6daf5a682463c6c44538995c72bde2be992dc8e0 Merge branch 'vfio-ap' into features
-         dedf98dd1cfb61cfc74be9248b90a49b42c6dead s390/pci: use builtin_misc_device macro to simplify the code
-         e53ec9133c563e7da9e304beafcd69168bea445e Merge branch 'fixes' into for-next
-         020ca957a616e454dba7c2a3c1610e8de29bed6b Merge branch 'features' into for-next
-         
+  - ref: refs/heads/20230822_kuninori_morimoto_gx_asoc_rsnd_tidyup_adg
+    old: 0000000000000000000000000000000000000000
+    new: 4acdf9aedd5624aae9335d70a9324d5aaec4034d
