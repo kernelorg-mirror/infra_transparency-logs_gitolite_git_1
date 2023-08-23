@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Aug 2023 10:46:08 -0000
-Message-Id: <169278756899.15168.18258780006536369693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Aug 2023 10:48:16 -0000
+Message-Id: <169278769689.15998.7852688275283825181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 2e0c8ee2b56ffaf4ceac934d75f131a9c9becf72
-    new: e3b3a87967cef1fa157d93fd726960b1b812401d
+    old: da71714e359b64bd7aab3bd56ec53f307f058133
+    new: 9525a3c38accd2e186f52443e35e633e296cc7f5
     log: |
-         e3b3a87967cef1fa157d93fd726960b1b812401d bnxt: use the NAPI skb allocation cache
+         9525a3c38accd2e186f52443e35e633e296cc7f5 i40e: fix potential NULL pointer dereferencing of pf->vf i40e_sync_vsi_filters()
          
