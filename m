@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============7957343959294064269=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 23 Aug 2023 13:17:31 -0000
-Message-Id: <169279665179.27542.14172267888829739505@gitolite.kernel.org>
-
---===============7957343959294064269==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 23 Aug 2023 13:17:53 -0000
+Message-Id: <169279667306.27763.7721245397089547777@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,30 +12,19 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9213fbc5b80811d05f21d285abf84b7fe77da7bf
-    new: dc2117f092a9900a4411e08a66a053bb1aac611d
-    log: revlist-9213fbc5b808-dc2117f092a9.txt
-
---===============7957343959294064269==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9213fbc5b808-dc2117f092a9.txt
-
-1cbc11aaa01f80577b67ae02c73ee781112125fd NFSv4: Fix dropped lock for racing OPEN and delegation return
-be2fd1560eb57b7298aa3c258ddcca0d53ecdea3 NFS: Fix a use after free in nfs_direct_join_group()
-f0362a253606e2031f8d61c74195d4d6556e12a4 mm,ima,kexec,of: use memblock_free_late from ima_free_kexec_buffer
-70d91dc9b2ac91327d0eefd86163abc3548effa6 selinux: set next pointer before attaching to list
-c3dd7de2a3137d84161dcfb522c19f8b2884e502 NFS: Fix sysfs server name memory leak
-4e3733fd2b0f677faae21cf838a43faf317986d3 NFSv4.2: fix error handling in nfs42_proc_getxattr
-f4e89f1a6dab4c063fc1e823cc9dddc408ff40cf NFSv4: fix out path in __nfs4_get_acl_uncached
-895cedc1791916e8a98864f12b656702fad0bb67 xprtrdma: Remap Receive buffers after a reconnect
-0aeae3788e28f64ccb95405d4dc8cd80637ffaea of: unittest: Fix EXPECT for parse_phandle_with_args_map() test
-914d9d831e6126a6e7a92e27fcfaa250671be42c of: dynamic: Refactor action prints to not use "%pOF" inside devtree_lock
-7882541ca06d51a6c12d687827176c16d5e05f65 of/platform: increase refcount of fwnode
-e4311f7c0508d6d0d1176a0d7b7ef3ab4a24be1e Merge tag 'selinux-pr-20230821' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-53663f4103ff6738e4697004d6f84864d052333d Merge tag 'nfs-for-6.5-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-89bf6209cad66214d3774dac86b6bbf2aec6a30d Merge tag 'devicetree-fixes-for-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-dc2117f092a9900a4411e08a66a053bb1aac611d Merge branch 'linus'
-
---===============7957343959294064269==--
+    old: dc2117f092a9900a4411e08a66a053bb1aac611d
+    new: b489deeb1fa49868f7ed539f6ec7c47b1cc6fcd8
+    log: |
+         a2610a6f0f7f77b2af4e4697dc98069f2410918c Merge branch into tip/master: 'x86/merge'
+         8ce89374fee53d659cc43b4d5f78dc1ef055a271 Merge branch into tip/master: 'core/entry'
+         a73aefe008b63bfaf0904927094ae4ee62a5e609 Merge branch into tip/master: 'irq/core'
+         c9ee5651124518fb9e88b73aee828f32e8731192 Merge branch into tip/master: 'locking/core'
+         c90c700a92218cc6be2176d498ceb2e54dc9f4a6 Merge branch into tip/master: 'perf/core'
+         4b46b40a40213475f55df48de526596eab5c1304 Merge branch into tip/master: 'ras/core'
+         70d2f74d2db615603140c53c4d69cafd4e773693 Merge branch into tip/master: 'sched/core'
+         35dd89d1fc17a3e4213656378e972af0b9c1384c Merge branch into tip/master: 'smp/core'
+         81c44825161de4368ffa20077df63df9b1c00432 Merge branch into tip/master: 'x86/boot'
+         4ed210e67a5b00ec845aae1d3e572256fc32ca64 Merge branch into tip/master: 'x86/core'
+         b5bbedf1df8e31c2fdbbcb5514bb6c9ece36d127 Merge branch into tip/master: 'x86/misc'
+         b489deeb1fa49868f7ed539f6ec7c47b1cc6fcd8 Merge branch into tip/master: 'x86/sev'
+         
