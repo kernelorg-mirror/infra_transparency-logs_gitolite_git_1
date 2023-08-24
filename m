@@ -1,44 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3870825696876950974=="
+Content-Type: multipart/mixed; boundary="===============5200931752396546144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 24 Aug 2023 20:44:29 -0000
-Message-Id: <169290986993.7084.2156656017859712507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 24 Aug 2023 20:46:10 -0000
+Message-Id: <169290997014.9389.16780461942293881014@gitolite.kernel.org>
 
---===============3870825696876950974==
+--===============5200931752396546144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/misc
-    old: cec66f297455c3bedfd236e5f3d9cb9aad909dc3
-    new: 65d45213a2bcdfbf8bb286ffa88e85dbbce02522
-    log: revlist-cec66f297455-65d45213a2bc.txt
+  - ref: refs/heads/master
+    old: 83148744b2a4f7c3f1cc5cde34573c6a62f9148d
+    new: 956bc0d3f29c498a1ae5e1b31a30ee56f1cf0f62
+    log: revlist-83148744b2a4-956bc0d3f29c.txt
 
---===============3870825696876950974==
+--===============5200931752396546144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cec66f297455-65d45213a2bc.txt
+Content-Disposition: attachment; filename=revlist-83148744b2a4-956bc0d3f29c.txt
 
-0e8207f54cf5902367080a0e648d3adae6c019a1 PCI/P2PDMA: Use pci_dev_id() to simplify the code
-87382eaddeed3d32afc9e4524f9488eb1bc999c2 PCI/sysfs: Move declarations to linux/pci.h
-ea91512ded9963d8ca98eab67d7d182a989813d9 PCI: Remove unused function declarations
-39018e4d3b88371aa218fe024040e3949d4e70fb PCI: mvebu: Remove unused busn member
-0e4084b0fb854b6e10a0508b8c23dec65d34e725 PCI: Unexport pcie_port_bus_type
-f4ec53a0e00ca733d2eae1fa3214639343a1d576 PCI: Remove unnecessary initializations
-3af58c348da6c036515324a7b1f82793101c332e PCI: Fix printk field formatting
-e5b96f0ec9eecfa51f0ed6e2a68e08547e192b82 PCI: Use consistent put_user() pointer types
-eb551e5df6174febfcb3a44856d26e5e757aa38d PCI/AER: Simplify AER_RECOVER_RING_SIZE definition
-058310fc6647a73f61f1b6b95afc131558607c6b PCI: Simplify pci_pio_to_address()
-247fe3c9f6c831142df0f943130b0dfd69cc2d4f PCI: Simplify pci_dev_driver()
-5b229a5226e88b1cee41ebe21724002c7fd707a1 PCI: Fix pci_bus_resetable(), pci_slot_resetable() name typos
-be32b45bd546f3dd5135a04bc22c7b9d6c6e95bb PCI: Fix typos in docs and comments
-65d45213a2bcdfbf8bb286ffa88e85dbbce02522 PCI: Fix code formatting inconsistencies
+bb6261638516630468825216e2f19e11cd0e4b64 Merge branch into tip/master: 'x86/urgent'
+a58b2ea4f40e90f194bbcaa543afedf1f5d5baeb Merge branch into tip/master: 'x86/merge'
+5e859f172e985ad7dde1f82606aaaa9a0c76e86f Merge branch into tip/master: 'core/entry'
+1044b0c838c7497a751bdfc5623e76b76bd5ae25 Merge branch into tip/master: 'irq/core'
+a22b75974d0455f6913845bafe44affeb3ddca65 Merge branch into tip/master: 'locking/core'
+980d871e9352cc660b4e4ec299cb9505c71e5012 Merge branch into tip/master: 'perf/core'
+e6812949768ab97afecbcd9d509b252220ee3913 Merge branch into tip/master: 'ras/core'
+aa58d5e6cfb9729fa7bca4055ed2e42663f35e45 Merge branch into tip/master: 'sched/core'
+38ce28662872239ce26ddf3810b96b940ae7f23d Merge branch into tip/master: 'smp/core'
+93748c1955ca5ebfd47d19e88c114e659562f20b Merge branch into tip/master: 'x86/boot'
+dc5d25c01d0982095b412983518a1f71f1e7106c Merge branch into tip/master: 'x86/cleanups'
+7795a90ef4ba1d5c2ce52aa665d2a0e327e17517 Merge branch into tip/master: 'x86/core'
+a56f31e6c3237ab065e6e2abf2bb32470eee373c Merge branch into tip/master: 'x86/misc'
+956bc0d3f29c498a1ae5e1b31a30ee56f1cf0f62 Merge branch into tip/master: 'x86/sev'
 
---===============3870825696876950974==--
+--===============5200931752396546144==--
