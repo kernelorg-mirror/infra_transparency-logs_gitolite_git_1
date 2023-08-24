@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Thu, 24 Aug 2023 10:37:42 -0000
-Message-Id: <169287346292.16895.1450223710934164956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Aug 2023 10:46:36 -0000
+Message-Id: <169287399646.23321.1061535485238660593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/0.58
-    old: 4f0da0f256b64adb2d66d752f4e1863e3b53e923
-    new: 41e5099d8e06d8b4d2a1d1fb1da02d63b7fd6567
+  - ref: refs/tags/net-6.5-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 36d899c915611a91405a5dda52c55224e4362c60
