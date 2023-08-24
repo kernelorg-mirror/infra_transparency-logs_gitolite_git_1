@@ -1,73 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5657398204291987788=="
+Content-Type: multipart/mixed; boundary="===============0300101944821720350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 24 Aug 2023 06:59:32 -0000
-Message-Id: <169286037284.5511.54597061988110506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 24 Aug 2023 06:59:41 -0000
+Message-Id: <169286038129.5612.4614336033106451558@gitolite.kernel.org>
 
---===============5657398204291987788==
+--===============0300101944821720350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 656ae4f48a6f7110f58fc1bbcc7eab04ba19f802
-    new: aee17df05ea3771cb74662430dc98e69b72ab9f3
-    log: revlist-656ae4f48a6f-aee17df05ea3.txt
+  - ref: refs/heads/driver-core-next
+    old: 1b28cb81dab7c1eedc6034206f4e8d644046ad31
+    new: 29c8ab79e91d35b93cfab87bf67a11516f7b2051
+    log: |
+         d21fdd07cea418c0d98c8a15fc95b8b8970801e7 driver core: Return proper error code when dev_set_name() fails
+         29c8ab79e91d35b93cfab87bf67a11516f7b2051 driver core: Call in reversed order in device_platform_notify_remove()
+         
 
---===============5657398204291987788==
+--===============0300101944821720350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692860372 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1692860371-ce6c130d7bb6aa3ce389998daaec7bd8c21243fa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692860380 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1692860380-59f27dae344117fe27369ef989906f553da0ae57
 
-656ae4f48a6f7110f58fc1bbcc7eab04ba19f802 aee17df05ea3771cb74662430dc98e69b72ab9f3 refs/heads/staging-next
+1b28cb81dab7c1eedc6034206f4e8d644046ad31 29c8ab79e91d35b93cfab87bf67a11516f7b2051 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTm/9QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fd4P/3ZoaAb25fbBYtM2CMZO
-QrvM/qN7fxl33EoB8EdhCz6QrvnW2ZFVzX0A0+IUwSz4X/ehXIo+naCXBMGaIvX0
-haAtBSTax73SUFY1BzeNZhs41JPpXwnsDRhfSDhVRXR9ADv0nKdZe4oUotVCXuWI
-dyoZTBwwCYVaX/uSjutibA5JKEZ+c4sSqQ+LH7lt2plu5zaZjiZnb1JTbpfpcjj+
-z8lepnBVjI2fT/Rm82eOZBjA9FNkNh47ZQYzU9FURO/blMOiyQWsoEbF0woD6MjN
-m7N2fCciInadEPgfEp1p0kWR51TB9CAbhy7nqnMVE6hF2bKIWJlOzIkOizKuOIWU
-1Gp7W831NMM5LE6e32Y5vGyCGFRo1Sq4CsmlJuozNZHLdDFJ6DTA7WCmq82TS8ti
-6gcDTqQe3dqrSyncVrC74SFdx1nhpU2y9qtHJR3Pc7NYs2J819lJCFdxLw+TXqAS
-7Ieogk+EOkqFWrhF2cd0VBZ/e2VWZiTlMGxA8RaxQJkllVNt1B6skhbMSC7dK2y1
-+ph14SbcpcTM15LjugEIXsAsA7svwNHx6Eo1XNaAC2Wf/xQnCKQY291/D2/TtRZQ
-SicqTxChBgV6l/HkJ435TWZC3/6j8wl8FYs65A+TnAE4Y77aBuo1fV6hsvGb3dFg
-wyjKz/bq6AW4TSRLgtOIrQYz
-=bOY6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTm/9wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yUsQAK7RL84BB8w8ZBk8dPGl
+6+TQTDBgwfkXzHAtkFVhy9xg+oQe4dcg+6vdl9EuAY2tmUZh9V1ZVfE/Mf89UaxM
+o8Mz84HVI8D8ux6xB/ZXD3KVAHtHonUObDaFefZpO2v9MhivaMnttmBiB/9FAf54
+HVXmussDsDatkFFuFmOneBIRvlChfAuKsgXY+feH6aLSI3d1KkOF6k36tTN2ztaO
+XCUUuurnXJmch62CnFaTmvPNI7lCaqodMW5bA5Nbig8jHVP+Xb3dOxo6lcYFrImE
+HwDAyP1Mw+3J2KZKUxI5qr6GsKb3pthu6q33F3bfI6oGN0RYg3uVLJ/aOWWrpSZs
+xnJUtxpJgpLMpw8vxFhJuTbWJdFCvLExk9RmUyVMWKUmcBe6GFsiwuMQTRrRcXm/
+KJ1rVIkht124AqwVMSH3C1Hj00JXhTuhOL2whY797KEMqD3U1VaeBEZkMPKGhGIz
+U3JsvlKoDN4RlWKbpOBE1R2+fhiD4t5VbCsjTZw6RO910Juh1SitYq4pJjDkvZi7
+TzuYQtJMSesFHf6f/zzxBnAfQ08UDL2FWVJwcWFRC4UV5af+sd71oVlEn9JZERjR
+4Ir66/AuWyd/A287BremBIYuy78y7ZFmlI9yh4GyfafwAYAkNqsgBf75EHtqn9dP
+vSS0mMnRbQ/vE4Yy8LvC8oTl
+=EahU
 -----END PGP SIGNATURE-----
 
---===============5657398204291987788==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-656ae4f48a6f-aee17df05ea3.txt
-
-6a8326494551cc634fc191f9db83deca389209ed staging: vt6655: Change camel case variables to snake case
-2b632f7f4aedeeae18614a1c3eb7dfb59cad990c staging: rtl8192e: Remove unsupported mode IW_MODE_MASTER
-da1e39683a9d6a3a03598601b49d483852ca15bd staging: rtl8192e: Remove unused function rtllib_start_master_bss()
-31a14cba17532a85f0aedcb38dfc5f15f235fee9 staging: rtl8192e: Remove unsupported mode IW_MODE_REPEAT
-42f9bcfc71e8e7535631ac2fcb8a69700e9b3296 staging: rtl8192e: Remove unsupported mode IW_MODE_MESH
-722de0e6670d303b9844102dc998b1691cbfc26b staging: vt6655: replace camel case by snake case
-be6cded374cc8afa364a362f05d427d3729c9d43 staging: rtl8723bs: Use helpers to check broadcast and multicast Ether addresses
-03d593732dbc51d76a15c0b8e1f07af9b027ff1e staging: vme_user: fix check blank lines not necessary
-1bff15cd9f12e9d713dfd07b73540e04cb29fa3a staging: vme_user: fix check lines should not end with a '('
-72eb8304b283dde4e6d9c223662cba447b17ce2f staging: sm750fb: fix sii164InitChip function name
-f6f0d97b2cbffa9dd7908faa516f3bdf56c8de2b staging: greybus: fix alignment of open parenthesis
-aee17df05ea3771cb74662430dc98e69b72ab9f3 staging: rtl8192e: Annotate struct rtllib_txb with __counted_by
-
---===============5657398204291987788==--
+--===============0300101944821720350==--
