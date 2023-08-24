@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5703113810229016717=="
+Content-Type: multipart/mixed; boundary="===============6882150808801068135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 24 Aug 2023 13:22:01 -0000
-Message-Id: <169288332157.6234.12609213787863439997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 24 Aug 2023 13:22:10 -0000
+Message-Id: <169288333010.6335.7023201642086314270@gitolite.kernel.org>
 
---===============5703113810229016717==
+--===============6882150808801068135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 9e1f16939b3ea08e6685ecd1f6d9fe5d8c7c7a48
     log: revlist-58a8d2edd57b-9e1f16939b3e.txt
 
---===============5703113810229016717==
+--===============6882150808801068135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ da6a5afda54d478980fb82c45390f4a4c4cfa431 perf pmu: Avoid passing format list to 
 838a8c5f40dd272f0b684cde6bf681c5a4d33c0d perf pmu: Pass PMU rather than aliases and format
 9e1f16939b3ea08e6685ecd1f6d9fe5d8c7c7a48 perf build: Allow customization of clang options for BPF target
 
---===============5703113810229016717==--
+--===============6882150808801068135==--
