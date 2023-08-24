@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 24 Aug 2023 12:43:52 -0000
-Message-Id: <169288103297.10145.18236233624523770100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Thu, 24 Aug 2023 12:46:59 -0000
+Message-Id: <169288121900.12962.2737882157673950531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/kdevops
-    old: 89bf6209cad66214d3774dac86b6bbf2aec6a30d
-    new: 081b0d4bef5d70d7aa4a4b62dfc3a1eba4a56e3c
+  - ref: refs/heads/b4/dma_iommu
+    old: 31f5661a7c5cb8aebd27df080e173c2f518c07cc
+    new: a81813466b634ccba0ff6fc8df575e0ef2dbd51f
     log: |
-         453b014e2c294abf762d3bce12e91ce4b34055e6 ACPI: resource: Fix IRQ override quirk for PCSpecialist Elimina Pro 16 M
-         db35610a181c18f7a521a2e157f7acdef7ce425f platform/x86: lenovo-ymc: Add Lenovo Yoga 7 14ACN6 to ec_trigger_quirk_dmi_table
-         a260f7d726fde52c0278bd3fa085a758639bcee2 platform/x86: ideapad-laptop: Add support for new hotkeys found on ThinkBook 14s Yoga ITL
-         0848cab765c634597636810bf76d0934003cce28 platform/mellanox: Fix mlxbf-tmfifo not handling all virtio CONSOLE notifications
-         a5e505a99ca748583dbe558b691be1b26f05d678 Merge tag 'platform-drivers-x86-v6.5-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         93f5de5f648d2b1ce3540a4ac71756d4a852dc23 Merge tag 'acpi-6.5-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-         081b0d4bef5d70d7aa4a4b62dfc3a1eba4a56e3c nfsd: add capability info to nfsd_write tracepoints
+         bd82dcc96f7f0057f69dbd29a92c0adef4ffecd2 iommu/dma: Allow a single FQ in addition to per-CPU FQs
+         a81813466b634ccba0ff6fc8df575e0ef2dbd51f iommu/dma: Use a large flush queue and timeout for shadow_on_flush
          
