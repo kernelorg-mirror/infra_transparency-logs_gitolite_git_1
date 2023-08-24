@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2111791152192358738=="
+Content-Type: multipart/mixed; boundary="===============4322824110620642757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 24 Aug 2023 05:01:30 -0000
-Message-Id: <169285329077.18603.2457087430233586916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 24 Aug 2023 05:01:40 -0000
+Message-Id: <169285330053.18741.203517139582515432@gitolite.kernel.org>
 
---===============2111791152192358738==
+--===============4322824110620642757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: e3f80d3eae76c3557b3c9b5938ad01c0e6cf25ec
     new: 2b3bd393093b04d4882152398019cbb96b0440ff
     log: revlist-e3f80d3eae76-2b3bd393093b.txt
-  - ref: refs/heads/stable
-    old: 89bf6209cad66214d3774dac86b6bbf2aec6a30d
-    new: 93f5de5f648d2b1ce3540a4ac71756d4a852dc23
-    log: |
-         453b014e2c294abf762d3bce12e91ce4b34055e6 ACPI: resource: Fix IRQ override quirk for PCSpecialist Elimina Pro 16 M
-         db35610a181c18f7a521a2e157f7acdef7ce425f platform/x86: lenovo-ymc: Add Lenovo Yoga 7 14ACN6 to ec_trigger_quirk_dmi_table
-         a260f7d726fde52c0278bd3fa085a758639bcee2 platform/x86: ideapad-laptop: Add support for new hotkeys found on ThinkBook 14s Yoga ITL
-         0848cab765c634597636810bf76d0934003cce28 platform/mellanox: Fix mlxbf-tmfifo not handling all virtio CONSOLE notifications
-         a5e505a99ca748583dbe558b691be1b26f05d678 Merge tag 'platform-drivers-x86-v6.5-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         93f5de5f648d2b1ce3540a4ac71756d4a852dc23 Merge tag 'acpi-6.5-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-         
-  - ref: refs/tags/next-20230524
-    old: 51338f951a8ae381e82d99d08c42e88243a79229
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230824
     old: 0000000000000000000000000000000000000000
     new: d9ccb7d98858cf580abdd9501a44d58965410bf1
 
---===============2111791152192358738==
+--===============4322824110620642757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -790,4 +776,4 @@ f681f7d6c986d34b8c1d670a7c44662d2402d26f Merge branch 'for-next/kspp' of git://g
 bd89b6744cd2b418f06f6169c664fc60ff04a089 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 2b3bd393093b04d4882152398019cbb96b0440ff Add linux-next specific files for 20230824
 
---===============2111791152192358738==--
+--===============4322824110620642757==--
