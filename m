@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Thu, 24 Aug 2023 11:37:47 -0000
-Message-Id: <169287706749.28162.18194585135766921305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 24 Aug 2023 11:52:56 -0000
+Message-Id: <169287797648.6056.14933524553991657780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: c058ff20f4e007dca718bc2efbf7c8b83e25d57c
-    new: 7bed4cc727b37066157468b7658fca9fff25307f
-    log: |
-         43324ccb97fc5b5bc7b9b35c407fb092783ae887 fstests: add appropriate checks for fs features for some tests
-         94d7df4c6295a70f69111b000f71cec0f01d6ac6 common/attr: fix the _require_acl test
-         10cb2688e8f34f924051dada415e8d4dacf3bfb3 generic/513: limit to filesystems that support capabilities
-         7bed4cc727b37066157468b7658fca9fff25307f generic/578: only run on filesystems that support FIEMAP
-         
+  - ref: refs/tags/sound-6.5
+    old: 0000000000000000000000000000000000000000
+    new: 57876fce7f2c556371be2ba9fd91e25b278bb1e2
