@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1678894424624933128=="
+Content-Type: multipart/mixed; boundary="===============6100196417550126823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 24 Aug 2023 22:42:47 -0000
-Message-Id: <169291696767.30113.10774256531990139810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Aug 2023 22:42:55 -0000
+Message-Id: <169291697595.30224.2488546419185909093@gitolite.kernel.org>
 
---===============1678894424624933128==
+--===============6100196417550126823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: ed7c6a2ba6a682f191f289de01e8eb0a1366c3eb
     new: 21cc7f816c670423a9dae06ad7de5fbc40da97c7
     log: |
          21cc7f816c670423a9dae06ad7de5fbc40da97c7 regulator: aw37503: Switch back to use struct i2c_driver's .probe()
          
 
---===============1678894424624933128==
+--===============6100196417550126823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1692916966 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1692916965-648cbb955539fcb05db8e7de1bf8eebcf97ab039
+pusher Mark Brown <broonie@kernel.org> 1692916974 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1692916973-cb07dff6294d9083b785e97ddc202d57f107372c
 
-ed7c6a2ba6a682f191f289de01e8eb0a1366c3eb 21cc7f816c670423a9dae06ad7de5fbc40da97c7 refs/heads/for-6.6
+ed7c6a2ba6a682f191f289de01e8eb0a1366c3eb 21cc7f816c670423a9dae06ad7de5fbc40da97c7 refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTn3OYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0CsSB/0XbaiikYWiazSKO3atbhpvjVMCS3Hc
-lo60sd7yK67IkuaRZ/0g69pO8UoMO+9vzdgSg0XHLMQn6tE+FfXZ9jzPlkNrxXTs
-GoiCHzBa4Ni3m15LKBARIbrLJX1jFIR74vP+/+TYT/S6c2LtzxJYZisjKdP7U4uX
-3Xb1Dj6aEd5+ErQE5kKWe+2wMHUYKS3gXYnlu55mSuWJlNsVi3qm1E5+0rZkXX1x
-i/VhyLQ2w6yv9Zqm9c4/exFr4U+HJrtdA7LVTk7l4VEAGpJop+gVXWuUgPLBb15d
-V3F8hWGiLt31loVYncLNkQzwMjrXJXIznLQtqIuxEWrLKVBJCwpbOO8j
-=ub/u
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmTn3O4THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Gc2B/4iwKS5f9BWy84S6DaH20QYPm7PpilB
+tyocTPM8Str+mYrAiVSIPbi4/Vi5VsZZmWpjbyd0XkcbhaTCaZxgvNz+X6U0x+r7
+f2816983jUneSU6f/3Kk5pBA1CBdCzjO0rXGS1KehozK8rlORF9rDxVx4epjkXOq
+E9b4UAbPZyLdLIrMdIuLkRYybBOixLb/pA0Kk/FfDQ1+VkL6DCq9NaXvRwoViVyf
+U6rAAR70WLKQLcD7gnaB/nvjUJH9ciwKmmWdAEGaOHVk4kIw5HL01Y6ndfSbpvlX
+j63Wq5mVmLvD6UaSDspQ6jeu3uXSZYUKn/pzf7I96hi9Nnfv6oHXAuUm
+=8yXd
 -----END PGP SIGNATURE-----
 
---===============1678894424624933128==--
+--===============6100196417550126823==--
