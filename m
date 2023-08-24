@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 23 Aug 2023 23:56:14 -0000
-Message-Id: <169283497455.19451.7963748726500350537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 24 Aug 2023 00:10:23 -0000
+Message-Id: <169283582335.30532.8397187885991496671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 31776fe0c5f89703e66e21fbd18269e746843cee
-    new: 3b11b60d7ec5eed03c60dfa5c7e7868ca3fb187a
+  - ref: refs/heads/master
+    old: f586a77030b38f1b7258aaea44d0ab52b1963859
+    new: 068ca522d5a563ac4ecc48c2c7c390102537fefd
     log: |
-         3b11b60d7ec5eed03c60dfa5c7e7868ca3fb187a lib/Kconfig.debug: Restrict DEBUG_INFO_SPLIT for RISC-V
+         068ca522d5a563ac4ecc48c2c7c390102537fefd libbpf: Add bpf_object__unpin()
          
