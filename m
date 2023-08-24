@@ -1,53 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============9137353621748074691=="
+Content-Type: multipart/mixed; boundary="===============2527972084776159026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 24 Aug 2023 23:17:02 -0000
-Message-Id: <169291902214.23208.11658992134513445460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Thu, 24 Aug 2023 23:18:48 -0000
+Message-Id: <169291912899.23895.10354094104549379560@gitolite.kernel.org>
 
---===============9137353621748074691==
+--===============2527972084776159026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/srso-fixes
-    old: 90a6acef867bf1d91c0420a416d69ff5fd487f1c
-    new: c8a6f5e4e62300d30c829af28789a958e10277ba
-    log: revlist-90a6acef867b-c8a6f5e4e623.txt
+  - ref: refs/heads/master
+    old: 706a741595047797872e669b3101429ab8d378ef
+    new: c1950a111dd87604009496e06033ee248c676424
+    log: revlist-706a74159504-c1950a111dd8.txt
+  - ref: refs/tags/xfs-6.6-merge-1
+    old: 0000000000000000000000000000000000000000
+    new: f223fe89d97f7432bb5ad8205403556d671e9246
+  - ref: refs/heads/fix-fsmap-6.6
+    old: 0000000000000000000000000000000000000000
+    new: dbfab1bf99f1614193e0fa3de22963b29e85d57f
+  - ref: refs/tags/fix-fsmap-6.6_2023-08-24
+    old: 0000000000000000000000000000000000000000
+    new: 8960e7e8b05ade21733f05df186374f9def3474d
+  - ref: refs/heads/fix-percpu-lists-6.6
+    old: 0000000000000000000000000000000000000000
+    new: b8f9ddaf963256b3339a4de993f9827a56813f45
+  - ref: refs/tags/fix-percpu-lists-6.6_2023-08-24
+    old: 0000000000000000000000000000000000000000
+    new: 078f46769d63f6c4fbe3694f87a2f1efe7f20ad5
+  - ref: refs/heads/fix-ro-mounts-6.6
+    old: 0000000000000000000000000000000000000000
+    new: cae19dfa3e6a52cb13f880f32c0cb8d85e9377d0
+  - ref: refs/tags/fix-ro-mounts-6.6_2023-08-24
+    old: 0000000000000000000000000000000000000000
+    new: ae14eef78c43f8d4d636de15df9119e21f448a52
 
---===============9137353621748074691==
+--===============2527972084776159026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90a6acef867b-c8a6f5e4e623.txt
+Content-Disposition: attachment; filename=revlist-706a74159504-c1950a111dd8.txt
 
-40b2e6af3a94d2c6eb9a3afaa63f34ee910a17d0 x86/srso: Fix srso_show_state() side effect
-f90527afa07624ba5912f0f3fec626e40cde0f24 x86/srso: Set CPUID feature bits independently of bug or mitigation status
-3e293282e96b9fe1835c8bd22d1aaac07d9628e7 x86/srso: Don't probe microcode in a guest
-79d5f5914fb42c2c62418ffbcd78f138645ded21 KVM: x86: Add IBPB_BRTYPE support
-a4ab1e7fe50096d50fde33e739ed2da40b41ea6a KVM: x86: Add SBPB support
-d025b558e451325db3a2c76f3daafe26a0928789 x86/srso: Fix SBPB enablement for spec_rstack_overflow=off
-d04e617b39eefdb0221857d53858579acdc3f580 x86/srso: Fix SBPB enablement for (possible) future fixed HW
-0f8b03be6b785efdc4a3d37feca0b25ef850e011 x86/srso: Print actual mitigation if requested mitigation isn't possible
-1f2f2257abc4047c707d0b8dbbd8e796730597f6 x86/srso: Print mitigation for retbleed IBPB case
-65556eeb1bf7cb9bd7db8662ef115dd73191db84 x86/srso: Fix vulnerability reporting for missing microcode
-6d3818c914d04684ec9a01397b0ef229c93d5fdf x86/srso: Fix unret validation dependencies
-ca76a2e94217d6fc8e007d2ca79fee219f3168f8 x86/alternatives: Remove faulty optimization
-4f975cf178ab641d3720362f244694408d85ecca x86/srso: Improve i-cache locality for alias mitigation
-94caf421d80924666be921e387851665054ba9b7 x86/srso: Unexport untraining functions
-ec18b04787fc21874303f29746a49847751eddd6 x86/srso: Remove 'pred_cmd' label
-858e6f4ef71cd531e64db2903d8ac4763bec0af4 x86/bugs: Remove default case for fully switched enums
-c64b84b6df4e82423abe2441a1a088a8c7f1ae14 x86/srso: Move retbleed IBPB check into existing 'has_microcode' code block
-9b671422643939792afe05c625e93ef40d9b57b5 x86/srso: Remove redundant X86_FEATURE_ENTRY_IBPB check
-20377aee28715a70ab6ca4dd187460ca7f56ac86 x86/srso: Disentangle rethunk-dependent options
-1ae65b98ddc256ebc446768d9d0c461675dd0437 x86/rethunk: Use SYM_CODE_START[_LOCAL]_NOALIGN macros
-34947acf1c8a1be2d3ba9a4d0dd8a3001ae3c0db x86/retpoline: Remove .text..__x86.return_thunk section
-d9ad341e6ce84ccdbd3924615f4a47b3d7b19942 x86/nospec: Refactor UNTRAIN_RET[_*]
-c8a6f5e4e62300d30c829af28789a958e10277ba x86/calldepth: Rename __x86_return_skl() to call_depth_return_thunk()
+19e13b0a6d080e65dd6d75cda63cb2f2f1605f89 docs: add maintainer entry profile for XFS
+d554046e981ad466917c52e822d20c1475d27e0d MAINTAINERS: drop me as XFS maintainer
+d6532904a10290b94d2375ff438313e0fb9fc9f8 MAINTAINERS: add Chandan Babu as XFS release manager
+86a464179cef7185ad9e540d51063e7f196e55ba xfs: cull repair code that will never get used
+e06ef14b9f8eb5edab8c466680818d436eefdff0 xfs: move the post-repair block reaping code to a separate file
+8e54e06b5c7dd44b5d52581ef60a94b178aa878f xfs: only invalidate blocks if we're going to free them
+a55e07308831b500d9f093d3c23bffb4180b12af xfs: only allow reaping of per-AG blocks in xrep_reap_extents
+5fee784ed08572732ad02af6fb0e6ef7b9c99320 xfs: use deferred frees to reap old btree blocks
+77a1396f9ff112d71460edc43d74a019ba420979 xfs: rearrange xrep_reap_block to make future code flow easier
+9ed851f695c71d325758f8c18e265da9316afd26 xfs: allow scanning ranges of the buffer cache for live buffers
+1c7ce115e521060819f6e9b6b6eb26ae0aee6596 xfs: reap large AG metadata extents when possible
+3934e8ebb7cc6e5f1ade35d586ed3eb79b88eb95 xfs: create a big array data structure
+014ad53732d2bac34d21a251f3622a4da516e21b xfs: use per-AG bitmaps to reap unused AG metadata blocks during repair
+232ea052775f9d3f32c0275610f2638b97641c2a xfs: enable sorting of xfile-backed arrays
+c390c6450318345b3caa1996a4ef1367477a5aa8 xfs: convert xfarray insertion sort to heapsort using scratchpad memory
+137db333b29186ad085d593c8a702e9f0e9c43f4 xfs: teach xfile to pass back direct-map pages to caller
+e5b46c75892ecd83b49beea08b234a4e496534f8 xfs: speed up xfarray sort by sorting xfile page contents directly
+cf36f4f64c2d4e928b6fdfff06d8e21561e3e32f xfs: cache pages used for xfarray quicksort convergence
+a76dba3b248cb0c2b93d66f463d5ca3cf7037d28 xfs: create scaffolding for creating debugfs entries
+764018caa99f7629cefc92257a26b83289a674f3 xfs: improve xfarray quicksort pivot
+d7a74cad8f45133935c59ed0adf949f85238624b xfs: track usage statistics of online fsck
+17308539507c710682409d429746695c74c51336 xfs: get our own reference to inodes that we want to scrub
+294012fb070e33fb4a0aace7ac8d26357b705cf4 xfs: wrap ilock/iunlock operations on sc->ip
+b7d47a77b90498a76969bf729b296e14f139737f xfs: move the realtime summary file scrubber to a separate source file
+d65eb8a63350d9344611567607d3b59dccb7e76e xfs: always rescan allegedly healthy per-ag metadata after repair
+526aab5f5790e257cbdff1d1be89353257a3e451 xfs: implement online scrubbing of rtsummary info
+8336a64eb75cba4cc4749d9c4770fef53afdc1ad xfs: don't complain about unfixed metadata when repairs were injected
+d728f4e3b21e74910e370b09bab54629eb66badb xfs: allow the user to cancel repairs before we start writing
+9ce7f9b225b6052bfe50ebf255978a1806ab0472 xfs: clear pagf_agflreset when repairing the AGFL
+5c83df2e54b6af870e3e02ccd2a8ecd54e36668c xfs: allow userspace to rebuild metadata structures
+a634c0a60b9c7942630b4f68b0af55c62d74b8fc xfs: fix agf_fllast when repairing an empty AGFL
+0d2966345364ff1de74020ff280970a43e9849cc xfs: hide xfs_inode_is_allocated in scrub common code
+369c001b7a2501326a172e0afcc30572f32018c1 xfs: rewrite xchk_inode_is_allocated to work properly
+65092ca1402cb7d640c6f65d3c19eb02bf08ead1 xfs: simplify returns in xchk_bmap
+e27a1369a9c1907086e6bf8735504a88394074c9 xfs: don't check reflink iflag state when checking cow fork
+3eef00105a42268b6c3091ba7ad8588f81305be7 Merge tag 'maintainer-transition-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+81fbc5f9308033ea9a2b22d80ad6431a1ef224ff Merge tag 'repair-reap-fixes-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+d668fc1fdad11ce0cd74808062aa3fb9b4348d80 Merge tag 'big-array-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+889b09b3d00cea78d3330022a39fdccbb6067a3b Merge tag 'scrub-usage-stats-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+df7833234b66271961aa1cc06d599eb85534a214 Merge tag 'scrub-rtsummary-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+7857acd8773e74124a0e1bb8791e6f69d9b7f6f0 Merge tag 'repair-tweaks-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+5221002c054376fcf2f0cea1d13f00291a90222e Merge tag 'repair-force-rebuild-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+939c9de87fc3488e49efec8b72dc3ec62ad66ef7 Merge tag 'repair-agfl-fixes-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+220c8d57f55fcd73191ed06710fcf9bfc801ff8e Merge tag 'scrub-bmap-fixes-6.6_2023-08-10' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-mergeA
+2c234a22866e4f322ca578397ad381f02a95001a xfs: fix dqiterate thinko
+c1950a111dd87604009496e06033ee248c676424 fs/xfs: Fix typos in comments
 
---===============9137353621748074691==--
+--===============2527972084776159026==--
