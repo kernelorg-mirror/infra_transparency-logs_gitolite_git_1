@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4857609068099040625=="
+Content-Type: multipart/mixed; boundary="===============5133652981279088172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 24 Aug 2023 14:12:41 -0000
-Message-Id: <169288636143.10774.4235127045403473493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 24 Aug 2023 14:13:06 -0000
+Message-Id: <169288638609.11087.5924349369762387200@gitolite.kernel.org>
 
---===============4857609068099040625==
+--===============5133652981279088172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 6a14198a18e8484dc42b96f113771481b0318a4b
     log: revlist-9e1f16939b3e-6a14198a18e8.txt
 
---===============4857609068099040625==
+--===============5133652981279088172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e6ff1eed3584362dcf5ffb6b9daf497183b4d3a8 perf pmu: Lazily add JSON events
 f85d120c46e7e31e0516b15a9a11f6721150eb3b perf jevents: Sort strings in the big C string to reduce faults
 6a14198a18e8484dc42b96f113771481b0318a4b perf jevents: Don't append Unit to desc
 
---===============4857609068099040625==--
+--===============5133652981279088172==--
