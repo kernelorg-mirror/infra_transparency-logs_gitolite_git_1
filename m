@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 24 Aug 2023 20:15:35 -0000
-Message-Id: <169290813524.19869.4386876656353224517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 24 Aug 2023 20:38:07 -0000
+Message-Id: <169290948781.3067.8744005686158991153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: b01ea80e1cefa75247baa47e3033da142b4e5fa2
-    new: 6093ea76c32c3bd3a73a396923199f4a45895598
+  - ref: refs/heads/pcie-rmw
+    old: da54556695b9ab20cc696827247ffff02254b78d
+    new: 633c9d0ac586cc8018f7276f5759c249130b02b1
     log: |
-         6093ea76c32c3bd3a73a396923199f4a45895598 foo
+         633c9d0ac586cc8018f7276f5759c249130b02b1 PCI: Simplify pcie_capability_clear_and_set_word() control flow
          
