@@ -1,48 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============5133652981279088172=="
+Content-Type: multipart/mixed; boundary="===============7751386286854335649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 24 Aug 2023 14:13:06 -0000
-Message-Id: <169288638609.11087.5924349369762387200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 24 Aug 2023 14:14:50 -0000
+Message-Id: <169288649068.11762.16772043352437761779@gitolite.kernel.org>
 
---===============5133652981279088172==
+--===============7751386286854335649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 9e1f16939b3ea08e6685ecd1f6d9fe5d8c7c7a48
-    new: 6a14198a18e8484dc42b96f113771481b0318a4b
-    log: revlist-9e1f16939b3e-6a14198a18e8.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 802aacbbffe2512dce9f8f33ad99d01cfec435de
+    new: c079d0dd788ad4fe887ee6349fe89d23d72f7696
+    log: revlist-802aacbbffe2-c079d0dd788a.txt
 
---===============5133652981279088172==
+--===============7751386286854335649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e1f16939b3e-6a14198a18e8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-50402641216292db807d286c44e6426cc3fcbf1e perf pmu: Make the loading of formats lazy
-c3245d2093c16c60bddc2ec5e945354ffe16bb95 perf pmu: Abstract alias/event struct
-4000519eb0c665947c9cb581b7fb8fdd89e92f4c perf pmu-events: Add extra underscore to function names
-2e255b4f9f41f137d9e3dc4fae3603a9c2c3dd28 perf jevents: Group events by PMU
-9d31cb9395447a62a00402be549f7a55a738d874 perf parse-events: Improve error message for double setting
-c4ac7f7542e7bc958453f8fdcb528348308539dc perf s390 s390_cpumcfdg_dump: Don't scan all PMUs
-e3edd6cf6399f17114081d0e20f31ddadafb70b5 perf pmu-events: Reduce processed events by passing PMU
-3d5045492ab209163714c70aa48e4ab6275ecca4 perf pmu-events: Add pmu_events_table__find_event()
-edb217ff14fb98c74373f65f8ac08b9bfe26e344 perf pmu: Parse sysfs events directly from a file
-f26d22f1bac8d57a1bfbea0513285d9347fde95d perf pmu: Prefer passing pmu to aliases list
-f63a536f03a2f64fa9a75369e2d006d77f90c156 perf pmu: Merge JSON events with sysfs at load time
-7c52f10c0d4d8db86ef94b40446efbe291d067dc perf pmu: Cache JSON events table
-e6ff1eed3584362dcf5ffb6b9daf497183b4d3a8 perf pmu: Lazily add JSON events
-88ed91848db2f631403f61987c1093b18042a8d0 perf pmu: Scan type early to fail an invalid PMU quickly
-7b723dbb96e85a63a8f01e2b3fdfb76aa5d418a8 perf pmu: Be lazy about loading event info files from sysfs
-8d4b6d37ea7862d230ad2e1bd4c7d2ff5e9acd53 perf pmu: Lazily load sysfs aliases
-f85d120c46e7e31e0516b15a9a11f6721150eb3b perf jevents: Sort strings in the big C string to reduce faults
-6a14198a18e8484dc42b96f113771481b0318a4b perf jevents: Don't append Unit to desc
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692886489 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1692886488-8b0cb9364dc9fec815033e9a92726db69d1713a3
 
---===============5133652981279088172==--
+802aacbbffe2512dce9f8f33ad99d01cfec435de c079d0dd788ad4fe887ee6349fe89d23d72f7696 refs/heads/linux-6.1.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTnZdkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tBMQAKWTenpe7mvDDn8z3fuR
+QJerbI1EvU2k0s4NqgpbI+hIp7vYxX+XiiiYnBy4VYx+hTpsfvGUcysiDpGGCTb/
+wwb6lDyfqLVC1zkt0wNZ6KAX1Zoos1AvWKYduTBgnPi5chx9ZcU1WAT6t/WjQPR0
+ppmgtLtpbWGscjuvF8dtEzeBNto+MmyVLx1hlvh6PfRWnwKF2O9rQOz1IMIZ/XGm
+hYygL3pCpRClgP3BGvRb68OnW7ArTlZ9mtjMuxyAkYVhydg9i1Adv//37/tVfhq2
+cuiWNoO8In+uZHh2JGVMG9Pv1+35HX/oo/vBpSmQec7n5SzxHXR93Z5HmeyYQ70Y
+2gxUedBsLqjI4wRKiZeKoKh0YbeHSZkhxSbkftFqap8f5pAdG3qvwG7ms6iBOEX0
+Y37g3BtMPE0YOaAX3tCDL17DsgGgt3YXEyJbjPNHfL37fxyPFYgleINFkMMrXxox
+7RBspsCoez7TpkVxw3s6XGGvuDKFm8rtuSfUpwcRcxsJ8yvXnE5cgXuQ3PEbs9b9
+MqRnwFf0Q3ox6aHA+KeUZdujIJJvfsACyok+vGaw7h5k+iQ3m26Qx6tTp/XcwpFT
+r8H7RXRmdLd7XJ+jUwQ7SLgbK/v2r2+9qmbpdBgAYcNo8Cd4gtIvTFeob0uIQLt5
+HM97jB/BinP/d9IRe+payRsw
+=2GLO
+-----END PGP SIGNATURE-----
+
+--===============7751386286854335649==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-802aacbbffe2-c079d0dd788a.txt
+
+4ac807fd4b53f56440ec48cf455ea5e3c418e9c3 x86/cpu: Fix __x86_return_thunk symbol type
+bc9b05dd6919f543f5bbf79f89bec82777277873 x86/cpu: Fix up srso_safe_ret() and __x86_return_thunk()
+89e22e7f547c72fdb707e1e8819cc5f0b10053aa x86/alternative: Make custom return thunk unconditional
+6b55f7718c41785a1e14a3782c1083c5f2c4d756 x86/cpu: Clean up SRSO return thunk mess
+0367c9012bbb7521542e9f22ddba0c08eae057a4 x86/cpu: Rename original retbleed methods
+d74f5114cb6a634221e990070d603a552ef40e98 x86/cpu: Rename srso_(.*)_alias to srso_alias_\1
+a9f2145e36078e0e382cd6704974cd9bd85e48c7 x86/cpu: Cleanup the untrain mess
+a9e00dc4f9940fbcd826ee490e32d0093cdecd29 x86/srso: Explain the untraining sequences a bit more
+92c8c2085fe96d0ff6b292b79588bb23309490f3 x86/static_call: Fix __static_call_fixup()
+631fe9cb52484e4a9bc8aa8122d17aff6b03a5f6 x86/retpoline: Don't clobber RFLAGS during srso_safe_ret()
+c9427ca6ad25b29d78ca28368c0a17cc1acadc8d x86/CPU/AMD: Fix the DIV(0) initial fix attempt
+a04dbefe3629f3d020846d019f9d653caac16533 x86/srso: Disable the mitigation on unaffected configurations
+0879c11a360b1e4fe0ae458f959f285d6811b971 x86/retpoline,kprobes: Fix position of thunk sections with CONFIG_LTO_CLANG
+e7da893b725f073ec14ba06ea59cd969332154f4 objtool/x86: Fixup frame-pointer vs rethunk
+03d69184154fad71e3b281a8f312211d42629c15 x86/srso: Correct the mitigation status when SMT is disabled
+c079d0dd788ad4fe887ee6349fe89d23d72f7696 Linux 6.1.48-rc1
+
+--===============7751386286854335649==--
