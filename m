@@ -1,88 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============2972303814385881416=="
+Content-Type: multipart/mixed; boundary="===============5657398204291987788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 24 Aug 2023 06:59:12 -0000
-Message-Id: <169286035273.5280.11368679447968005361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 24 Aug 2023 06:59:32 -0000
+Message-Id: <169286037284.5511.54597061988110506@gitolite.kernel.org>
 
---===============2972303814385881416==
+--===============5657398204291987788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 26f4f8358d89c0d9972a30abdb3f3a425ef49e38
-    new: 78e0ea4277546debf7e96797ac3b768539cc44f6
-    log: revlist-26f4f8358d89-78e0ea427754.txt
+  - ref: refs/heads/staging-next
+    old: 656ae4f48a6f7110f58fc1bbcc7eab04ba19f802
+    new: aee17df05ea3771cb74662430dc98e69b72ab9f3
+    log: revlist-656ae4f48a6f-aee17df05ea3.txt
 
---===============2972303814385881416==
+--===============5657398204291987788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692860352 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1692860351-657136f11398c98b5bdb968a12a289f441e895dc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692860372 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1692860371-ce6c130d7bb6aa3ce389998daaec7bd8c21243fa
 
-26f4f8358d89c0d9972a30abdb3f3a425ef49e38 78e0ea4277546debf7e96797ac3b768539cc44f6 refs/heads/usb-next
+656ae4f48a6f7110f58fc1bbcc7eab04ba19f802 aee17df05ea3771cb74662430dc98e69b72ab9f3 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTm/8AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zFwP/1b9Ek9wwbRLAjI8yhb+
-3IzYI8x+PlSDto4FfyJ81fnZCtVBB+VVZ0mqsXxKOVPrzYaY+LI5A+dH8lp0GSjn
-DwwQ9c084HveVrvsoXoaxGJsC8C6U8wM2iss0fryy4gAKhFbG1vurtVjzG1JnyDG
-m2ojAzvexs2z3QDWdtFuA9gIur9GnfotBrfXLB8vhB8jQ2ftlt/+H6jFQAZWB1vF
-s8JdeH+OwkEyM/gNk9VXAlPjgh8wK9/A/QZdc66M/WSWTSOFag6wzw7dkrzxVozX
-KFfg4XjcorqRDsZ6EdrGvYTuDHawW8zqyd19M8ZKwDDYaDWH4xD+GxCpfjDkKNG6
-+/ds/P4rOGhCcVQH61x0nIs34qd1uAiN0IWbecu2B1E/IuB9FI+VuP45UZF3Y7CG
-2af3nySSQwYRkPEHkY7/04gsZPgfN4tf/teSU2oPtXAa9ortq4eM1xThmSGrRdAc
-gmxdjD1F77FnabpyztzD2S03hAByTnr+68Ax0UA5erJ06OXZbjnooGqtAU+1DdBr
-ufo0Q00+6DN6fX0SuRGrs2GLZaZYlGsuHGeOdO6E/0a4HjEfYLnhhvB5WeeVIM2x
-fW1MkMZ0opiUeAa/R/OhSx4nRHrL8cZ5IRmF6UQWJ/pUz0h4pgD/0tlp7em/KZB1
-QymZZbAGXCxR2o7rgOYDukze
-=lr0d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTm/9QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fd4P/3ZoaAb25fbBYtM2CMZO
+QrvM/qN7fxl33EoB8EdhCz6QrvnW2ZFVzX0A0+IUwSz4X/ehXIo+naCXBMGaIvX0
+haAtBSTax73SUFY1BzeNZhs41JPpXwnsDRhfSDhVRXR9ADv0nKdZe4oUotVCXuWI
+dyoZTBwwCYVaX/uSjutibA5JKEZ+c4sSqQ+LH7lt2plu5zaZjiZnb1JTbpfpcjj+
+z8lepnBVjI2fT/Rm82eOZBjA9FNkNh47ZQYzU9FURO/blMOiyQWsoEbF0woD6MjN
+m7N2fCciInadEPgfEp1p0kWR51TB9CAbhy7nqnMVE6hF2bKIWJlOzIkOizKuOIWU
+1Gp7W831NMM5LE6e32Y5vGyCGFRo1Sq4CsmlJuozNZHLdDFJ6DTA7WCmq82TS8ti
+6gcDTqQe3dqrSyncVrC74SFdx1nhpU2y9qtHJR3Pc7NYs2J819lJCFdxLw+TXqAS
+7Ieogk+EOkqFWrhF2cd0VBZ/e2VWZiTlMGxA8RaxQJkllVNt1B6skhbMSC7dK2y1
++ph14SbcpcTM15LjugEIXsAsA7svwNHx6Eo1XNaAC2Wf/xQnCKQY291/D2/TtRZQ
+SicqTxChBgV6l/HkJ435TWZC3/6j8wl8FYs65A+TnAE4Y77aBuo1fV6hsvGb3dFg
+wyjKz/bq6AW4TSRLgtOIrQYz
+=bOY6
 -----END PGP SIGNATURE-----
 
---===============2972303814385881416==
+--===============5657398204291987788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26f4f8358d89-78e0ea427754.txt
+Content-Disposition: attachment; filename=revlist-656ae4f48a6f-aee17df05ea3.txt
 
-1fa206bb764f37d2ab4bf671e483153ef0659b34 usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
-20deab8bfc936063385fdce19287f1f630cb2f4b usb: core: Use module_led_trigger macro to simplify the code
-f23643306430f86e2f413ee2b986e0773e79da31 usb: typec: bus: verify partner exists in typec_altmode_attention
-23e60c8daf5ec2ab1b731310761b668745fcf6ed usb: typec: tcpci: clear the fault status bit
-f72ae60881ff685004d7de7152517607fcd9968f usb: cdc-acm: move ldisc dcd notification outside of acm's read lock
-8d1de0ebce71feb0961458dee7695f1f25767a92 usb: dwc3: remove unnecessary platform_set_drvdata()
-ae257611573cde279d31be3961a59e255f567fb0 usb: gadget: function: Remove unused declarations
-0bd9e0219bf0764149eb83826c774162c09e74de usb: typec: altmodes/displayport: add support for embedded DP cases
-4b3cd783808bb327d931bbb1324d6c367443b721 usb: typec: qcom-pmic-typec: register drm_bridge
-09867af36969067d89c96ab1452656977f30e22a USB: cdc-acm: support flushing write buffers (TCOFLUSH)
-2ccbe85456b367d24d53f6ff9f5b2cafd0b54877 USB: dwc2: hande irq on dead controller correctly
-7f93e683bc0667a6b5e0da4b49fa07938a9ccad4 usb: gadget: udc-xilinx: fix restricted __le16 degrades to integer warning
-0411fa8a5f655ebc0753e718fdfe68bc66a756f0 usb: gadget: udc-xilinx: fix cast from restricted __le16 warning
-52ecf812de2548ea0704e67f99cea1d0f3b8b173 usb: gadget: udc-xilinx: fix incorrect type in assignment warning
-592d7a4663d2f23eda360048e7a35149cc3aa8d5 usb: dwc3: exynos: Add support for Exynos850 variant
-0c2dfb3ea6e92e8179efb44652442f4b87557ed6 dt-bindings: usb: samsung,exynos-dwc3: Add Exynos850 support
-98102ae1549e3af33359ec3a8e57adafa57b1b01 usb: gadget: use working speed to calcaulate network bitrate and qlen
-8165763f82bd87d742b91ffef2874e7c8d1f6d2b usb: gadget: add a inline function gether_bitrate()
-3c5b006f3ee800b4bd9ed37b3a8f271b8560126e usb: gadget: f_uvc: change endpoint allocation in uvc_function_bind()
-46decc82ffd54212cc2c600031daec6e835a6503 usb: gadget: unconditionally allocate hs/ss descriptor in bind operation
-4dfdd90b85f811fc2cbae0d5f87a8d3e9bee9b17 usb: gadget: config: remove max speed check in usb_assign_descriptors()
-dc2e6960a0a951c26c9644913db830f7a69bda89 usb: gadget: composite: cleanup function config_ep_by_speed_and_alt()
-333ab99eab3c6aa7941b898ced3cd754abd20b63 usb: gadget: remove max support speed info in bind operation
-e16d5f1447e0fae6cbcd1d430b20f87b65f25307 usb: dwc2: add pci_device_id driver_data parse support
-c97cd0b4b54eb42aed7f6c3c295a2d137f6d2416 usb: typec: tcpm: set initial svdm version based on pd revision
-2d6d80127006ae3da26b1f21a65eccf957f2d1e5 usb: typec: tcpm: reset counter when enter into unattached state after try role
-78e0ea4277546debf7e96797ac3b768539cc44f6 tcpm: Avoid soft reset when partner does not support get_status
+6a8326494551cc634fc191f9db83deca389209ed staging: vt6655: Change camel case variables to snake case
+2b632f7f4aedeeae18614a1c3eb7dfb59cad990c staging: rtl8192e: Remove unsupported mode IW_MODE_MASTER
+da1e39683a9d6a3a03598601b49d483852ca15bd staging: rtl8192e: Remove unused function rtllib_start_master_bss()
+31a14cba17532a85f0aedcb38dfc5f15f235fee9 staging: rtl8192e: Remove unsupported mode IW_MODE_REPEAT
+42f9bcfc71e8e7535631ac2fcb8a69700e9b3296 staging: rtl8192e: Remove unsupported mode IW_MODE_MESH
+722de0e6670d303b9844102dc998b1691cbfc26b staging: vt6655: replace camel case by snake case
+be6cded374cc8afa364a362f05d427d3729c9d43 staging: rtl8723bs: Use helpers to check broadcast and multicast Ether addresses
+03d593732dbc51d76a15c0b8e1f07af9b027ff1e staging: vme_user: fix check blank lines not necessary
+1bff15cd9f12e9d713dfd07b73540e04cb29fa3a staging: vme_user: fix check lines should not end with a '('
+72eb8304b283dde4e6d9c223662cba447b17ce2f staging: sm750fb: fix sii164InitChip function name
+f6f0d97b2cbffa9dd7908faa516f3bdf56c8de2b staging: greybus: fix alignment of open parenthesis
+aee17df05ea3771cb74662430dc98e69b72ab9f3 staging: rtl8192e: Annotate struct rtllib_txb with __counted_by
 
---===============2972303814385881416==--
+--===============5657398204291987788==--
