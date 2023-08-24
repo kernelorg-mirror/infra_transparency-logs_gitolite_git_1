@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 24 Aug 2023 06:27:51 -0000
-Message-Id: <169285847186.15664.11087098608594288451@gitolite.kernel.org>
+Date: Thu, 24 Aug 2023 06:28:14 -0000
+Message-Id: <169285849410.15891.1342742125349923662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,19 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b489deeb1fa49868f7ed539f6ec7c47b1cc6fcd8
-    new: 4a74f7e4edcc0130132ddec1d8a4cd5c128aac48
+    old: 4a74f7e4edcc0130132ddec1d8a4cd5c128aac48
+    new: 99e88c6febc107bdaa212d610078890a8a903b36
     log: |
-         453b014e2c294abf762d3bce12e91ce4b34055e6 ACPI: resource: Fix IRQ override quirk for PCSpecialist Elimina Pro 16 M
-         db35610a181c18f7a521a2e157f7acdef7ce425f platform/x86: lenovo-ymc: Add Lenovo Yoga 7 14ACN6 to ec_trigger_quirk_dmi_table
-         a260f7d726fde52c0278bd3fa085a758639bcee2 platform/x86: ideapad-laptop: Add support for new hotkeys found on ThinkBook 14s Yoga ITL
-         0848cab765c634597636810bf76d0934003cce28 platform/mellanox: Fix mlxbf-tmfifo not handling all virtio CONSOLE notifications
-         a5e505a99ca748583dbe558b691be1b26f05d678 Merge tag 'platform-drivers-x86-v6.5-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         93f5de5f648d2b1ce3540a4ac71756d4a852dc23 Merge tag 'acpi-6.5-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-         4a74f7e4edcc0130132ddec1d8a4cd5c128aac48 Merge branch 'linus'
+         13f77eb1bc19c45cd8cf36ed6f3f28c2e7a31eca Merge branch into tip/master: 'x86/merge'
+         58c4ac77644c16d7d6559f64bb1f963a0b750aa9 Merge branch into tip/master: 'core/entry'
+         34b10f68e9cf7bfb5def1226cd404c7cfe688315 Merge branch into tip/master: 'irq/core'
+         89f910fa8d566853d1a9115701fc4d6a757690d2 Merge branch into tip/master: 'locking/core'
+         9adee43dc87715302151f7cd17a710873e73b6fe Merge branch into tip/master: 'perf/core'
+         0a3edaa652088ad0a743c707e628c121a6c204bc Merge branch into tip/master: 'ras/core'
+         8f662ab8e60ee7b04a92bae0712a350c385bbc35 Merge branch into tip/master: 'sched/core'
+         35ab3802fde3c1fb7f54adf1ed180e878272cb6d Merge branch into tip/master: 'smp/core'
+         7b8ce2c442066c1ec050f66705e87d958a17b478 Merge branch into tip/master: 'x86/boot'
+         788787e1e75a6cf6ab062dbab10c7c944cf0d4f0 Merge branch into tip/master: 'x86/core'
+         ca28f5f48e61a4228f95d23d317ecc990dddd690 Merge branch into tip/master: 'x86/misc'
+         99e88c6febc107bdaa212d610078890a8a903b36 Merge branch into tip/master: 'x86/sev'
          
