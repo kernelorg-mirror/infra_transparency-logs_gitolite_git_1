@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 24 Aug 2023 17:52:28 -0000
-Message-Id: <169289954808.10331.15639991930221722235@gitolite.kernel.org>
+Date: Thu, 24 Aug 2023 17:54:15 -0000
+Message-Id: <169289965534.11024.3570662020797714142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: ac3b2b1f5d03416dbea20c39f76b40a035800bdb
-    new: 88a43ec74514b311773c3a0824e0344c2687c593
+  - ref: refs/heads/experimental
+    old: 88a43ec74514b311773c3a0824e0344c2687c593
+    new: 058a6493b839a5d1ee2b04919450465fc9d22ea0
     log: |
-         3721377e8cb6f4e02d3a25e7c313467120f85f22 erofs-utils: fix overriding of i_rdev for special device
-         7e0029e5c8897b3d1c2735f7f1083f2524d20093 erofs-utils: lib: read i_ino in erofs_read_inode_from_disk()
-         0111d59cfcaeea694371d5489ce2a8f0ab942381 erofs-utils: lib: keep self maintained devname
-         88a43ec74514b311773c3a0824e0344c2687c593 erofs-utils: sbi->devs should be cleared after freed
+         3d8b8d456f505b4d369ab397235f67dbdac12a38 erofs-utils: lib: fix dirent type of whiteout in tarerofs
+         058a6493b839a5d1ee2b04919450465fc9d22ea0 erofs-utils: lib: keep erofs_init_devices in sync with kernel
          
