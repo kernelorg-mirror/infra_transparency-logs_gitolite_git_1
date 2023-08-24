@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 24 Aug 2023 23:21:46 -0000
-Message-Id: <169291930692.26627.13413128705426269344@gitolite.kernel.org>
+Date: Thu, 24 Aug 2023 23:21:58 -0000
+Message-Id: <169291931822.26787.12463806977105802574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/for-next
     old: 252a0935ff2da38ce3d37df3b4186f2dd6521027
     new: 8566572bf3b4d6e416a4bf2110dbb4817d11ba59
     log: |
