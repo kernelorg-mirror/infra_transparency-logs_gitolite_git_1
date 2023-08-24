@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 24 Aug 2023 22:43:14 -0000
-Message-Id: <169291699480.30443.6061673885119111435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 24 Aug 2023 22:43:26 -0000
+Message-Id: <169291700651.30565.4227481446115082079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 487f7e93e349e6cae53645e32e287d009c58dc9f
-    new: 06b0a4a133af707f7765ebdd9522af2e9c5aedbb
+    old: 88a1aec4c640df73e7b0e5d50d2c6698c7ac407f
+    new: 2fe1bbec231a477a84bad5f24fe62b3e10728240
     log: |
-         06b0a4a133af707f7765ebdd9522af2e9c5aedbb Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
+         2fe1bbec231a477a84bad5f24fe62b3e10728240 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 3598f779cf639885b34a9504a0c6bc655d239dba
-    new: ff2ef72b755c685d8b3dd1db127e7b4309882d76
+    old: d7a3bd68c5bd15914e99875d4e922f9930c40b84
+    new: 240c64bd132b4b8addd453dd7afb1e649a209026
     log: |
-         8886e1b03669c498f7a24bc5e483f46db5e81f82 ASoC: codecs: Fix error code in aw88261_i2c_probe()
-         199cd64140f222c66b68ebe288a3fcd0570e2e41 ASoC: soc-core.c: Do not error if a DAI link component is not found
-         06b0a4a133af707f7765ebdd9522af2e9c5aedbb Merge remote-tracking branch 'asoc/for-6.4' into asoc-linus
-         ff2ef72b755c685d8b3dd1db127e7b4309882d76 Merge remote-tracking branch 'asoc/for-6.6' into asoc-next
+         21cc7f816c670423a9dae06ad7de5fbc40da97c7 regulator: aw37503: Switch back to use struct i2c_driver's .probe()
+         2fe1bbec231a477a84bad5f24fe62b3e10728240 Merge remote-tracking branch 'regulator/for-6.4' into regulator-linus
+         240c64bd132b4b8addd453dd7afb1e649a209026 Merge remote-tracking branch 'regulator/for-6.6' into regulator-next
          
