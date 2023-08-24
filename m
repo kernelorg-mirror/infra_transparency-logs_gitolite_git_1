@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0300101944821720350=="
+Content-Type: multipart/mixed; boundary="===============2667561191685901366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 24 Aug 2023 06:59:41 -0000
-Message-Id: <169286038129.5612.4614336033106451558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 24 Aug 2023 06:59:51 -0000
+Message-Id: <169286039199.5758.4312857372894905545@gitolite.kernel.org>
 
---===============0300101944821720350==
+--===============2667561191685901366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 1b28cb81dab7c1eedc6034206f4e8d644046ad31
-    new: 29c8ab79e91d35b93cfab87bf67a11516f7b2051
+  - ref: refs/heads/main
+    old: c4125bf88341056a2051c6c083a7f69661733fc6
+    new: 8da1985ff75226fd758ef379f9dd98986c811704
     log: |
-         d21fdd07cea418c0d98c8a15fc95b8b8970801e7 driver core: Return proper error code when dev_set_name() fails
-         29c8ab79e91d35b93cfab87bf67a11516f7b2051 driver core: Call in reversed order in device_platform_notify_remove()
+         8da1985ff75226fd758ef379f9dd98986c811704 wifi: mac80211: Do not include crypto/algapi.h
          
 
---===============0300101944821720350==
+--===============2667561191685901366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1692860380 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1692860380-59f27dae344117fe27369ef989906f553da0ae57
+pusher 7BF9099A 1692860361 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1692860360-a046dde8f327fa086fe1e33c95dcce9b6606b830
 
-1b28cb81dab7c1eedc6034206f4e8d644046ad31 29c8ab79e91d35b93cfab87bf67a11516f7b2051 refs/heads/driver-core-next
+c4125bf88341056a2051c6c083a7f69661733fc6 8da1985ff75226fd758ef379f9dd98986c811704 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTm/9wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yUsQAK7RL84BB8w8ZBk8dPGl
-6+TQTDBgwfkXzHAtkFVhy9xg+oQe4dcg+6vdl9EuAY2tmUZh9V1ZVfE/Mf89UaxM
-o8Mz84HVI8D8ux6xB/ZXD3KVAHtHonUObDaFefZpO2v9MhivaMnttmBiB/9FAf54
-HVXmussDsDatkFFuFmOneBIRvlChfAuKsgXY+feH6aLSI3d1KkOF6k36tTN2ztaO
-XCUUuurnXJmch62CnFaTmvPNI7lCaqodMW5bA5Nbig8jHVP+Xb3dOxo6lcYFrImE
-HwDAyP1Mw+3J2KZKUxI5qr6GsKb3pthu6q33F3bfI6oGN0RYg3uVLJ/aOWWrpSZs
-xnJUtxpJgpLMpw8vxFhJuTbWJdFCvLExk9RmUyVMWKUmcBe6GFsiwuMQTRrRcXm/
-KJ1rVIkht124AqwVMSH3C1Hj00JXhTuhOL2whY797KEMqD3U1VaeBEZkMPKGhGIz
-U3JsvlKoDN4RlWKbpOBE1R2+fhiD4t5VbCsjTZw6RO910Juh1SitYq4pJjDkvZi7
-TzuYQtJMSesFHf6f/zzxBnAfQ08UDL2FWVJwcWFRC4UV5af+sd71oVlEn9JZERjR
-4Ir66/AuWyd/A287BremBIYuy78y7ZFmlI9yh4GyfafwAYAkNqsgBf75EHtqn9dP
-vSS0mMnRbQ/vE4Yy8LvC8oTl
-=EahU
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmTm/8kACgkQ10qiO8sP
+aAAzvw/+LsNHj82HJhHL9SbK2tx44frjPS6/B/OPPrDQMbG9i1kK07J8nAryhHeZ
+TGluZJuqw17x3EP6OTHPg/sXJTmOMM5SPATof9bNZvu1TKfHZmBErGXjiCmPmGyc
+m5/jhYG5jER3x4lFFpnmS8itCcibM3VziDptsVVXZoYsOpdV5ITwqfEtEIPFQuUM
+sBcxmRiUA/eyziHns8ynNLRGqIeQvEYe81lql8yv70H4MH7UdUWPBIDkroL1Qrno
+HbbsjAZd03XFSI6CkKgHqC8u93n6nbDqPYo5/l7Mp7JwAv/tLwfIi3+dQiibJAP8
+OD3L/dbsbLftNvF1N+vQVb0iEdcF68cWNzoqE83nIy9JYUDtwhE2Fo5757QMOGky
+/CuzB/+Fvwvecby+nA8zACe6trM0d3YA8LB4SX3j4G+2x4Jrsj1ub/WlEoZ3vYy8
+8pou8RlK2NRdmQNON1bxrFhbHkvQAiScgqr/zJrFixvS0+nwNSarxWHYIVVMo+6A
+cuQBYbdRwe+j5rCUJNYJSo2L56pDd7rPVwFzKebqEQaQEzGHC8f8KRYA0NuWuynC
+m529DyqMd+EXnMjPo/TgOjvteBb/TXTF3Piqremoc1Ogaha5xzgRFl7PMK7hM712
+xARQLOt+XnYDZSQCbWNJYgml3ersgLxslZE/lYEMrYnQrh9jDVk=
+=yxTq
 -----END PGP SIGNATURE-----
 
---===============0300101944821720350==--
+--===============2667561191685901366==--
