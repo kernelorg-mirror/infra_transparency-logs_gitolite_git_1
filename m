@@ -1,57 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============7663081768571749529=="
+Content-Type: multipart/mixed; boundary="===============6728313982188824283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 24 Aug 2023 23:26:51 -0000
-Message-Id: <169291961155.30281.6225324617728648947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 24 Aug 2023 23:37:21 -0000
+Message-Id: <169292024195.5954.1220121283543271464@gitolite.kernel.org>
 
---===============7663081768571749529==
+--===============6728313982188824283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 6093ea76c32c3bd3a73a396923199f4a45895598
-    new: f6342fe2baf7c0f51bdfd8fe204378ed481d3a95
-    log: revlist-6093ea76c32c-f6342fe2baf7.txt
+  - ref: refs/heads/dev-queue
+    old: 66c72017414f089676ad63697f3c24892f6f8a0f
+    new: 938672aefaeb88c4e3b6d8bc04ff97900e0809dd
+    log: revlist-66c72017414f-938672aefaeb.txt
 
---===============7663081768571749529==
+--===============6728313982188824283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6093ea76c32c-f6342fe2baf7.txt
+Content-Disposition: attachment; filename=revlist-66c72017414f-938672aefaeb.txt
 
-ada26f720dda2dc5ec0f16e7f4820057ac3ade3c foo
-60527f806c732454586240d07750259d0fbd1e44 foo
-f73da89ab616580b66fe37d441b940dc0a2cfe45 foo
-053546024dd69894953cd8bd7d4072457b757dfd foo
-d2107306e10d5e94333e3f039e776d424e601b2e foo
-bb5c741b3e3f6155779dbf264f497825d255eb98 foo
-74dee52a0b133ed132434a15f6c8fca2e2ecf5ec foo
-78e3441c4a794f4922a15bcd6f27ead65c0727a9 foo
-2ccdad9dba1997f7e8c6f0f2570efdbd57cf082f foo
-30025ef60a4cee8b86e0fb33b1e50923082e975b foo
-607aefa89f4d10fcbfb22cc17b26399e0799701a foo
-1d5a940274f4e57cae8a2a010528caf2ba4f606a foo
-de45f9a655ad92a79b46fa84bd7db01f1518d5a6 foo
-88be8fa54067a041ad189598376f1784231d49d9 foo
-6f02cf76905845413a3cd01aa54224df7813ab18 foo
-67110be3861798927d396a9ea755d9a6f47943f5 foo
-308bb27bb19b70d3c0800b34e108668036f1cc9e foo
-c67b4de658738f11573a795b90ea0c5f2cf49dd7 foo
-b15f9127c0d9e0236cc872ec7d1d04add1b0ab17 foo
-c20a21697966b77bdaa4a317d42df97d07b3aa96 foo
-06863c3e85cd5d9016fa51bd2c864146ffda27bb foo
-02968872ef041f307afa600ebf55fae137ec6ddc foo
-44dae7d1bc4dc0dc96829b11d7fed9ebb3aae59a foo
-470a33e5d528be42cb67a8370dbd00376af8aa3e foo
-7150585214caa8cdc5cc62af90c184a18679ad85 foo
-daa0d7d5d18fc6f21f1a6848c8a4dcbc6c14b2d8 foo
-f6342fe2baf7c0f51bdfd8fe204378ed481d3a95 foo
+b7becb268eac2b28154ee8041ceb561f7ce6faec ice: Support cross-timestamping for E823 devices
+2f97268c0a690a11f8994ea49d63a15cfe74d42a ice: introduce hw->phy_model for handling PTP PHY differences
+0648291491a1b6b60883cc59861bd107a4d8251e e1000e: Add support for the next LOM generation
+2dd58d11230cf9ebf0cc3acb209ce2ba153a9ed4 igc: Decrease PTM short interval from 10 us to 1 us
+611b10dc28f7d8cd4aeb61ab8bc1b4f0b5fe6fcd igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+7b9333bcceb4bc32df10f4a27b9a56633411fe62 igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+5741b4f98e0498e669b57383df895be02ed8b805 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+54980ae7a540f83c765ef932d3c4aeb93c834072 i40e: fix livelocks in i40e_reset_subtask()
+8b3a2c358aa41343a636a120406e06a0008848c7 ice: PTP: Clean up timestamp registers correctly
+293332265cf06615c80cfadbbfdc84c481f25237 ice: PTP: Rename macros used for PHY/QUAD port definitions
+144873d75741552d62a67c5595bb3518a9d77948 ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+c606c95230024ca51bd108d59408a920dbd9cdc4 ice: Auxbus devices & driver for E822 TS
+f8725b23f2f15d56008bbc2f7ea9363c293c90bb ice: Use PTP auxbus for all PHYs restart in E822
+269fc1f18401fafeeda73c56702ee2cf04c1c29b ice: PTP: add clock domain number to auxiliary interface
+18ca4f6dd31a496f01e57444f744cfcf9e2c6716 ice: Remove the FW shared parameters
+7be9298c4f6fb31b22c5fe9e480e39a9cd87149d igc: Add support for multiple in-flight TX timestamps
+7c15ff8e29b21d44fd40a736fd40a8e278748494 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+01d2c0479e11f90409a1eec9b241b64700562fc8 i40e: fix potential memory leaks in i40e_remove()
+47be35fd581ab8d527f1cee1461fa1e7b7ec8d66 ice: remove ICE_F_PTP_EXTTS feature flag
+64e89a5a83d83e78c1c082cb5eb2e6062f45e4e6 ice: fix pin assignment for E810-T without SMA control
+29957f714dabd94f8d5d05dc0a9f263173c827ca ice: don't enable PTP related capabilities on non-owner PFs
+33d850bd26ab24122142c01f4c4f1f065e2f9869 ice: check the netlist before enabling ICE_F_SMA_CTRL
+15994a16eb06bb715fbd5fdcad7835935b5aef5e ice: check netlist before enabling ICE_F_GNSS
+483eab7675537a69a9df8a29f341dcdabb095125 i40e: fix 32bit FW gtime wrapping issue
+b5b0ff75b0057214a491fc38e166974c26e89a44 i40e: add tracepoints for nvmupdate troubleshooting
+0721ee8f40cee1d721914a77aeff1670d186d7c8 ice: remove unused ice_flow_entry fields
+e986efa488fb3f465d6e248238cebef0d26a16d1 iavf: Fix promiscuous mode configuration flow messages
+0c602e34f362f10f1fb3a33f8c8a56496896dfe1 igb: set max size RX buffer when store bad packet is enabled
+d92e158f4ad36e07837aeec97251572c27171b96 ethernet/intel: Use list_for_each_entry() helper
+3d7c2af96cd81f4761d5197268eac445263d4026 ixgbe: fix timestamp configuration code
+22859c618a278938f88f128176705246c3c2d60b ice: remove FW logging code
+453f69acf7b70618d39ed39c7e7b06a5d3044cde ice: configure FW logging
+c107bfe5fa534abdc1387a530b1cfcdf732b77c5 ice: enable FW logging
+86f11743d2c0b15ffe6743d86d0b5d72d0a4c045 ice: add ability to read FW log data and configure the number of log buffers
+938672aefaeb88c4e3b6d8bc04ff97900e0809dd ice: add documentation for FW logging
 
---===============7663081768571749529==--
+--===============6728313982188824283==--
