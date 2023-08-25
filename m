@@ -1,32 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 25 Aug 2023 07:41:08 -0000
-Message-Id: <169294926818.5109.11323983237724776582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 25 Aug 2023 07:50:14 -0000
+Message-Id: <169294981492.11556.2571996481451430235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/ath-next
-    old: afb522b36e76acaa9f8fc06d0a9742d841c47c16
-    new: 4c2964ef553b9c7c4ae1803158386a8b169f8f4e
+  - ref: refs/heads/for-linus
+    old: a4a6eed851bb661477654d772807d0e5aee5629c
+    new: 37e44d60cb875862930359e16a1f4764cedb342b
     log: |
-         1e4134610d93271535ecf900a676e1f094e9944c wifi: ath9k: use IS_ERR() with debugfs_create_dir()
-         2f5124e86ae74b7ba24c9ae2644107b750cbf38f wifi: ath12k: add check max message length while scanning with extraie
-         0e5b1b46925b005bd4f701a116d06a561c7262e8 wifi: ath12k: Remove unused declarations
-         4c2964ef553b9c7c4ae1803158386a8b169f8f4e wifi: ath: Use is_multicast_ether_addr() to check multicast Ether address
+         c008323fe361bd62a43d9fb29737dacd5c067fb7 ASoC: amd: yc: Fix a non-functional mic on Lenovo 82SJ
+         37e44d60cb875862930359e16a1f4764cedb342b Merge tag 'asoc-fix-v6.5-rc7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
          
-  - ref: refs/heads/ath-qca
-    old: 41c16c0259ed11d34f0d40b9f203f81d8bcceb07
-    new: d9c1b9b16a88f0ded1850c4ac8b9dd9bd69827bc
+  - ref: refs/heads/for-next
+    old: e240cff9e6e9bada3ced7e088de1d6f8088c2c3a
+    new: c99c26b16c1544534ebd6a5f27a034f3e44d2597
     log: |
-         1e4134610d93271535ecf900a676e1f094e9944c wifi: ath9k: use IS_ERR() with debugfs_create_dir()
-         2f5124e86ae74b7ba24c9ae2644107b750cbf38f wifi: ath12k: add check max message length while scanning with extraie
-         0e5b1b46925b005bd4f701a116d06a561c7262e8 wifi: ath12k: Remove unused declarations
-         4c2964ef553b9c7c4ae1803158386a8b169f8f4e wifi: ath: Use is_multicast_ether_addr() to check multicast Ether address
-         d9c1b9b16a88f0ded1850c4ac8b9dd9bd69827bc Merge branch 'ath-next' into ath-qca
+         ed81cb9e05170646650359d729fb7e7afa4cb2ac ALSA: hda/tas2781: Switch back to use struct i2c_driver's .probe()
+         c99c26b16c1544534ebd6a5f27a034f3e44d2597 ALSA: hda/realtek: Add quirk for mute LEDs on HP ENVY x360 15-eu0xxx
+         
+  - ref: refs/heads/master
+    old: 03b0563c2f351fd59fbf9733bede3f693e5d2675
+    new: c5baafafd8411c19e27c6a2c7237538a34b8ca31
+    log: |
+         c008323fe361bd62a43d9fb29737dacd5c067fb7 ASoC: amd: yc: Fix a non-functional mic on Lenovo 82SJ
+         37e44d60cb875862930359e16a1f4764cedb342b Merge tag 'asoc-fix-v6.5-rc7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+         00a466ed37a40c88a8046005a463b325e816c250 Merge branch 'for-linus'
+         ed81cb9e05170646650359d729fb7e7afa4cb2ac ALSA: hda/tas2781: Switch back to use struct i2c_driver's .probe()
+         c99c26b16c1544534ebd6a5f27a034f3e44d2597 ALSA: hda/realtek: Add quirk for mute LEDs on HP ENVY x360 15-eu0xxx
+         c5baafafd8411c19e27c6a2c7237538a34b8ca31 Merge branch 'for-next'
          
