@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6814148582309309527=="
+Content-Type: multipart/mixed; boundary="===============1209034971428018277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 25 Aug 2023 01:11:08 -0000
-Message-Id: <169292586801.13635.8016696655094864191@gitolite.kernel.org>
+Date: Fri, 25 Aug 2023 01:11:20 -0000
+Message-Id: <169292588095.13808.4352775915308297631@gitolite.kernel.org>
 
---===============6814148582309309527==
+--===============1209034971428018277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 5cd1be949929dc202e17f7dde7092e7ae15b787e
-    new: afffa67c0cc1bf5e217421748f11dfcf5e796fca
-    log: revlist-5cd1be949929-afffa67c0cc1.txt
+  - ref: refs/heads/6.6/scsi-queue
+    old: a18e81d17a7e634420e589fa504e79e4893cde5e
+    new: 1451455e6ffb62ff421ebc9d6da4552b02474b3a
+    log: revlist-a18e81d17a7e-1451455e6ffb.txt
 
---===============6814148582309309527==
+--===============1209034971428018277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1692925855 -0400
+pusher 75C5DE3D 1692925871 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1692925855-cff4b4202ce358a67f75ddc8ab7ab00c318b17bb
+nonce 1692925870-4f4b8043d6df782ea89e36dc7853fb4d48f68221
 
-5cd1be949929dc202e17f7dde7092e7ae15b787e afffa67c0cc1bf5e217421748f11dfcf5e796fca refs/tags/mkp-scsi-queue
+a18e81d17a7e634420e589fa504e79e4893cde5e 1451455e6ffb62ff421ebc9d6da4552b02474b3a refs/heads/6.6/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTn/58ACgkQ7ulgGnXF
-3j1zfBAAtKVpsNlprD9gtAkoOgC7O5qrpvdi7mPX7E4t5N9qSeBxr8O5mo4tIL/8
-JG+JxG9CMmnvFBqiBxPXz84dD+E73nGlmY0E//oVYDjhtdaymXkV1328Zf4uAel7
-80g4YwlO6cqp61Dsh4RJUYEMEy4bi1RfN3wtyz3W+RyZhp0A997z2SVxcAo6dnRo
-/Nl1CdRompCxmyg6PKaObIJPeW5V6qjgWdRsmWP2Jh+bC8RNHQkupHo+/dLdVKM7
-rRLQlDd/itFyZZk956R15MXYX/kZc320kXCmzpQetwKzUc02UgeRZhHn3c+EtHo8
-roNAAcLYMFhXvjaiLie3FZqOMTo943t/pIZkZ5mdV+9d76S5KsV19QfA+No9owCl
-hMzXtMa8b61wKK4oPg4Kh+kQdfK0ZPRjxJ0nRoGXVZv+KTik3iH0kaKEjQegZoLg
-cqSGbFbr19G2mB0kOZ6vswTf8LajCUr8kBwwXlSj+9wsHm6cJXjDMw9Vteeks2+I
-YwywEQYmes7lub5yH9q6oa24UF4ezPZ0dYXci+s3c5sXTO0+ZvnXnSMsV8Cy7Uvc
-wAvCZoeyBHfKgwhNuHR6aoRuNMCzeXBjosT+6FxX5tCXrJ4ZNZB4D4PQBHMXk/zw
-qA3fEqgtl3Hmgy+d19HjFIuMB1rpQdU0imvhQFisC1S3ItiqAR8=
-=q5Ig
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTn/68ACgkQ7ulgGnXF
+3j3gmRAAiOVuq6Y5uKqEOcRwpqfVBR31dzxvpq3aCuFUegI0XFIeRKmbSF3s7dBw
+iFNsocCQXNijjtVcBDYtnijZPTZMmon8sbCLRvk8qthXPTin4yZgJUyA/1db8GVn
+yROkjUisJ3RISXR6q6Rnahlu4rfQ6hNYWt20ToaGprFh1I+38U5BT8piapKWx9wj
+8YSlqT+A/44e564VWoujuPSonR/gvISfm+U1cC6iW3nOa8737kxsaKLCe88TPJQ1
+VOxl2DklRKWYxprK0uHQ9chXp61l+rVBtQfK7MXRyepLPznRHXUJgh1H1CPRDCD7
+7uYLeltd4SwBQ9ZTClU0hn+3++3tbqMtL0Bgm2YWkngqvA/uXfEDx2ikrVXSF9ji
+1vuih3ony/zSeumKNm5xLhQPM9wLo7OoUlm7cCyQYmBGe+toDbEfy3GvI0Fj3P0U
+2GO8GAGypaOtY8xVwitdEW+6gVRN7Rn00F+nNt2ZAXgXR5St76NBeYT2VAPcuZRv
+A+/3JXqB+NGFZ/ebx4Jz57tQLBVTR7c9y1kj3i16AojX7Dvh4GhteFd2/yXjcA6P
+XpKNA2IKI/pFnV/s33mBNWHUdvYToOusc4XO96phRyp3YBaF1/19evTKU/K1L12V
+ILEpZfmOi3dYnC4Fth8EBMfmRz26Nd4/isdhJP9eA5ZTsPy7qQI=
+=S0w6
 -----END PGP SIGNATURE-----
 
---===============6814148582309309527==
+--===============1209034971428018277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cd1be949929-afffa67c0cc1.txt
+Content-Disposition: attachment; filename=revlist-a18e81d17a7e-1451455e6ffb.txt
 
 2fcd1e2b648fca02c6a1d623bbd9ca20d49cdafe scsi: libsas: Remove unused declarations
 a905b5cddcbd9c7d8323feda07012a3b2c8f8b97 scsi: core: Remove unused extern declarations
@@ -93,4 +93,4 @@ ebf26e93cfece20765bc2a562f7adc4340b2e4cc scsi: libsas: Delete sas_ssp_task.enabl
 ef5d681b4d8c51f0cdf3807d532b9521aab11c0b Merge patch series "Returning FIS on success for CDL"
 1451455e6ffb62ff421ebc9d6da4552b02474b3a Merge patch series "libsas: Some tidy-up"
 
---===============6814148582309309527==--
+--===============1209034971428018277==--
