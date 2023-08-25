@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 25 Aug 2023 18:26:38 -0000
-Message-Id: <169298799896.3645.8753519254338561138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 25 Aug 2023 18:42:12 -0000
+Message-Id: <169298893206.15165.11704142668450053866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/todo
-    old: 4661cb80f1c7072411fdd2c5fb32e6f787248960
-    new: 5fe49c18f18bac4372b270032c30400fdf163aa7
+  - ref: refs/heads/master
+    old: 8b68f32397fa75042320065289247e4c8a72ca4f
+    new: 6eebdd14dd7352fcea0f40e301af4b64f65bdc36
     log: |
-         5fe49c18f18bac4372b270032c30400fdf163aa7 What's cooking (2023/08 #07)
+         6eebdd14dd7352fcea0f40e301af4b64f65bdc36 foo
          
