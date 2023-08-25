@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1655630520724311333=="
+Content-Type: multipart/mixed; boundary="===============0653831989450156240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 25 Aug 2023 21:49:15 -0000
-Message-Id: <169300015581.20096.17669801885951717491@gitolite.kernel.org>
+Date: Fri, 25 Aug 2023 21:49:29 -0000
+Message-Id: <169300016948.20267.13775114821374780026@gitolite.kernel.org>
 
---===============1655630520724311333==
+--===============0653831989450156240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 428dc073ee568f51b8ee6f7fcd3d800cf2de4fd7
-    new: 6820eaf5e74c4fefdc124b37ccd170fc5d6257c0
-    log: revlist-428dc073ee56-6820eaf5e74c.txt
+  - ref: refs/heads/6.6/scsi-staging
+    old: 749652a1dee649c797a1493991429f0e230f8c64
+    new: 15924b0503630016dee4dbb945a8df4df659070b
+    log: revlist-749652a1dee6-15924b050363.txt
 
---===============1655630520724311333==
+--===============0653831989450156240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1693000145 -0400
+pusher 75C5DE3D 1693000159 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1693000144-c913f786ddf51d2fcfb1e224e61680d0e89ff3d9
+nonce 1693000159-912e5ccf484cea2743190905b58ae20fbe12f4a3
 
-428dc073ee568f51b8ee6f7fcd3d800cf2de4fd7 6820eaf5e74c4fefdc124b37ccd170fc5d6257c0 refs/tags/mkp-scsi-staging
+749652a1dee649c797a1493991429f0e230f8c64 15924b0503630016dee4dbb945a8df4df659070b refs/heads/6.6/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTpIdEACgkQ7ulgGnXF
-3j1pVxAAhptqnQPbqIj1Il20s1SRU1Q8cCuyyib8A2mAAQtKenLm8BDYKUxMLQjw
-b8r4t5YQBiJoQulqQf5Ewiwplnw+ee8Mv6N1cdEjO0e97FOLAkLhlvgCAToZX5dp
-7zvpJgIChCm/GQDr2DGSVazDkHmEbVxn4AxG3n2XW9RhVVGyPmgCwOQS4w3gWufv
-Ry4jsO4umvIOX+PLcqMOhNEEsjSQVvqmi5ZZsuKiYO2S112dvs6NQzFFwL5ansgp
-EKnlypoc5rEaWDUclbwPYgv3nMitjEdABXQZ1ySN3j34KwmSrQjqk3nTI5+vUxVj
-aYKZygKqDseZ5BpIkqAcW4u7UD5fAPbLqEp1h205NP2RSaGoFb5pNonkmj5Y8vzR
-qmb74pj9H+m4oKOhEV44w8nYJcOH/wUnlEf2Tcp9tT6Ao/fvvVLTZNRRtTEUItsU
-fzGu/Fn82OYixXrciYg0kgtLGrpNwEO8E0TdhRtt+yqYqRQhMsqWqkWmTUvEjET/
-+x/uHVLAa8iUC1SkQRh643n9SiTdtcAb7xk2kDfhm+RI3EixRMIApLzw2X4sk3S3
-5QYzfch3wTVvaawmDj6owJTDRGApm1t6YerP1SAySNxbaol4aLnBt786MBPEnm2s
-GLhSjweK775Isv/mZebegJAgvduKHElnflClqYwrVmwAKeQLdtM=
-=eLgV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTpId8ACgkQ7ulgGnXF
+3j2CeBAAqK8PKXw9cb4auHLK5VzeCEO8T8JiRz3nOFP9e7fG/EAYtuQ5qGHToXm4
+gMLz7CjHoUmOowcQlooQ+Wr3sgQKufaDSap11lFiGSQFytS/7s45YhGOMmY2PmS4
+2kfYxFiDpIh/5wleIXn41vveDZxBv9u7Bg1owqLcd+dxiNQ8hN21B0LVCAC368+r
+v9OSgpngDOtrnowW5zxZsTLoveU+G/CyxSmv7638X0u29kuHREjsB3zvm+78YS6y
+p95P6nhC5OWN9Koj5mgww4tYz9GROut/6cThBgJ6jvmlOiMKWFtS5YvTRU0hRHn5
+hPJLNoXFIV1k7cStDkmwGNKqaAaMJv1z9gblqSC27XVRN9aU3Mx+W2Tb8tThRFQP
+xAuBIdd0m4CkHc0mAsc1jipy0+ELCITk/UhHdwyabsrDN+Rb82z+4LMCQH5Wm/79
+4jQ8LwkmDSeOnUpQQKl1RynZub7Xk0j+4amaxWn/vOyg1sMy13NKT38YTh+qY8r7
+cH6EQ7JUZ+ucBhctV3DxlQ1SB0X7WQ+2y8jPDx9sB54TA/syC5SuhyzhXkUHn3kq
+Dj6QTE9Jk5dkeB12My3ArEeO0l+ofaucloljlUj0Jx11SxeT8vkKQKmtXvaFu7e8
+ea9DBKuIM+r4S/IhVj9LaX7yRVajXgqEEveUXm4zXPhHVxSMoT4=
+=UjML
 -----END PGP SIGNATURE-----
 
---===============1655630520724311333==
+--===============0653831989450156240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-428dc073ee56-6820eaf5e74c.txt
+Content-Disposition: attachment; filename=revlist-749652a1dee6-15924b050363.txt
 
 efeda3bf912f269bcae16816683f432f58d68075 scsi: qla2xxx: Move resource to allow code reuse
 ae25f65a351ca9c650887c2b37319fa9a41ec258 scsi: qla2xxx: Allow 32-byte CDBs
@@ -72,4 +72,4 @@ cc6e67e60fe749ee6aa1c92000c372e0e6ad7ae1 scsi: qla2xxx: Update version to 10.02.
 530e86c745ae3342b1df5e8f38529b9f8a6cac17 Merge patch series "qla2xxx driver misc features"
 15924b0503630016dee4dbb945a8df4df659070b scsi: fnic: Replace sgreset tag with max_tag_id
 
---===============1655630520724311333==--
+--===============0653831989450156240==--
