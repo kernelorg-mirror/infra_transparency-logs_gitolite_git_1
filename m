@@ -1,70 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8759023510318079960=="
+Content-Type: multipart/mixed; boundary="===============1356519885354231657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 25 Aug 2023 10:16:54 -0000
-Message-Id: <169295861431.2928.8482819861137329897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 25 Aug 2023 10:16:58 -0000
+Message-Id: <169295861809.3048.11318602711218382821@gitolite.kernel.org>
 
---===============8759023510318079960==
+--===============1356519885354231657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 215eb118b9bcaf610dddd44a1f75197f3d61d43c
-    new: 2139b565a22034a8a3aa48e8e2ff2a2465678b9b
-    log: revlist-215eb118b9bc-2139b565a220.txt
+  - ref: refs/heads/main
+    old: e8afebbf434b7d7aede0122032ece40ae671bb44
+    new: 4dddbad8907bc2ecda6e3714de3ea0a27b90a7d3
+    log: revlist-e8afebbf434b-4dddbad8907b.txt
 
---===============8759023510318079960==
+--===============1356519885354231657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-215eb118b9bc-2139b565a220.txt
+Content-Disposition: attachment; filename=revlist-e8afebbf434b-4dddbad8907b.txt
 
-3b816601e279756e781e6c4d9b3f3bd21a72ac67 nfsd: Fix race to FREE_STATEID and cl_revoked
-b71645d6af10196c46cbe3732de2ea7d36b3ff6d tracing: Fix cpu buffers unavailable due to 'record_disabled' missed
-5450be6befc63670f2c05aa6773a8e437b39a3fe selftests/ftrace: Add a basic testcase for snapshot
-ddeea494a16f32522bce16ee65f191d05d4b8282 tracing/synthetic: Use union instead of casts
-887f92e09ef34a949745ad26ce82be69e2dabcf6 tracing/synthetic: Skip first entry for stack traces
-c4d6b5438116c184027b2e911c0f2c7c406fb47c tracing/synthetic: Allocate one additional element for size
-eecb91b9f98d6427d4af5fdb8f108f52572a39e7 tracing: Fix memleak due to race between current_tracer and trace
-715dc9a1f0c8ae0bbd4e5b37f9a165ea39e47fe9 spi: stm32: fix accidential revert to byte-sized transfer splitting
-627d05a41ca1fbb9d390f9513af262f001f261f7 spi: spi-cadence: Fix data corruption issues in slave mode
-c2489bb7e6be2e8cdced12c16c42fa128403ac03 tracing: Introduce pipe_cpumask to avoid race on trace_pipes
-e332938e6fc8117fb9bb1374339cea879b3972d9 samples: ftrace: Replace bti assembly with hint for older compiler
-e7f2e65699e2290fd547ec12a17008764e5d9620 media: vcodec: Fix potential array out-of-bounds in encoder queue_setup
-8073a98e95323abdea5491533bf5cb51e0ba18d9 NFSD: Fix a thinko introduced by recent trace point changes
-0de5ec446310ddc2fc8d446c9bcd69313e0ce9d2 Merge tag 'spi-fix-v6.5-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-f8d6ff449094b4b5eff40d4af08e47c520b78bc5 Merge tag 'nfsd-6.5-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-14ddccc8a647f0e6b268858c4fe2804ae42aabb0 Merge tag 'media/v6.5-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-4f9e7fabf8643003afefc172e62dd276686f016e Merge tag 'trace-v6.5-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-c17312ac07853597500572e91a0469169f73058f x86/srso: Fix srso_show_state() side effect
-6a22cc6cfedcf7c4aa63230568a028a0fdd83e67 x86/srso: Set CPUID feature bits independently of bug or mitigation status
-3f267f825c98e3b3db0194645ac68ea154eac19d x86/srso: Don't probe microcode in a guest
-85e22808baacb80d17c5d3179be9aa4121638c1e x86/srso: Fix SBPB enablement for spec_rstack_overflow=off
-71278e8405530b12feb55dc3ef71ed045056950c x86/srso: Fix SBPB enablement for (possible) future fixed HW
-60b65d71d58153e1d3a2a87052c7b3e252008b91 x86/srso: Print actual mitigation if requested mitigation isn't possible
-ff32aa3d112156877c2ebc931099cda1c973fa6a x86/srso: Print mitigation for retbleed IBPB case
-b3be1397be0340b2c30b2dcd7339dbfaa5563e2b x86/srso: Fix vulnerability reporting for missing microcode
-a31dddd6a76dcfb65940d1c3252df771f850e547 x86/srso: Fix unret validation dependencies
-4f643529501794ef9baabfe65612da8a2a8eff5b x86/alternatives: Remove faulty optimization
-3033c66da13ca363ad2f10dcd858c994e2f4bd00 x86/srso: Improve i-cache locality for alias mitigation
-c55f644e022eb9ddc199bcca6d945d820bce4c06 x86/srso: Unexport untraining functions
-2685c96f0cd51e56a1bad4d08d41eddf8f0f5890 x86/srso: Remove 'pred_cmd' label
-e1894bd679d20539119ab3b1b61f44e8ac722ba8 x86/bugs: Remove default case for fully switched enums
-a542794756c50e0b339a751635cdbbd5893f2b4e x86/srso: Move retbleed IBPB check into existing 'has_microcode' code block
-071fcf6c28adcee293addd7258097949b8b54819 x86/srso: Remove redundant X86_FEATURE_ENTRY_IBPB check
-6f72cbba797955f87200941c72131c840f005c64 x86/srso: Disentangle rethunk-dependent options
-03edd09ff88a4ecb6fd5b8c7999e62bf475b4e22 x86/rethunk: Use SYM_CODE_START[_LOCAL]_NOALIGN macros
-dc184c7c1fe9670148fd74d9d5d7cf8894a65e64 x86/retpoline: Remove .text..__x86.return_thunk section
-e94280f458d27cf0ef1afc29557e841f03ec7476 x86/nospec: Refactor UNTRAIN_RET[_*]
-8e6dc5f993a23b40dac1f26abab6a980913c1d24 x86/calldepth: Rename __x86_return_skl() to call_depth_return_thunk()
-1ba1a01858cfac8b232d675b00952db02afeacc9 Merge branch 'linus'
-2139b565a22034a8a3aa48e8e2ff2a2465678b9b Merge branch into tip/master: 'x86/bugs'
+f708ed71775d2216d829fe6e00f1b4c6b38bc03c wifi: ath5k: Remove redundant dev_err()
+b674fb513e2e7a514fcde287c0f73915d393fdb6 wifi: ath9k: fix races between ath9k_wmi_cmd and ath9k_wmi_ctrl_rx
+454994cfa9e4c18b6df9f78b60db8eadc20a6c25 wifi: ath9k: protect WMI command response buffer replacement with a lock
+6edb4ba6fb5b946d112259f54f4657f82eb71e89 wifi: ath9k: fix parameter check in ath9k_init_debug()
+8b804643f42db68a1b7c56dc90a2fe5da6e5cf83 wifi: ath9k: consistently use kstrtoX_from_user() functions
+b2fd72aafb13118503df6798b18ed28f83dda2c2 wifi: ath9k: Remove unnecessary ternary operators
+383e1b6a90c33f6e48dd39691e8b9000145247b6 wifi: ath9k: Remove unused declarations
+400ece6c7f346b0a30867bd00b03b5b2563d4357 wifi: ath11k: Don't drop tx_status when peer cannot be found
+29d15589f084d71a4ea8c544039c5839db0236e2 wifi: ath11k: Cleanup mac80211 references on failure during tx_complete
+9476cda44c136089f14f8951ae5197d63e91735c wifi: ath11k: Consistently use ath11k_vif_to_arvif()
+3ced39049d4d87231c3ddabfb335fe78a99591c2 wifi: ath10k: Fix a few spelling errors
+d68a283bfc39aeed2a51c67804e014bf4b35c7e1 wifi: ath11k: Fix a few spelling errors
+4f1dbb4904c3d06b0f0d5f2dda8ccff839110726 wifi: ath12k: Fix a few spelling errors
+749a660b39030bfbacc366cd8670df2ee0e878b2 wifi: ath11k: simplify the code with module_platform_driver
+6763ef191d672ff3c2db0622652d49b0c0a60c4a wifi: ath11k: fix Wvoid-pointer-to-enum-cast warning
+de43b07db2a1af0d11ed167bb028f1038ae04086 wifi: ath10k: fix Wvoid-pointer-to-enum-cast warning
+adb0b206709f4f2f1256a1ea20619ab98e99f2e7 wifi: ath11k: Remove unused declarations
+3b86f86d0f163454c4043a629f0ba95641d371bc wifi: ath: remove unused-but-set parameter
+e10ec6ea612ca54e3266996875b0742619dac20f wifi: ath5k: ath5k_hw_get_median_noise_floor(): use swap()
+afb522b36e76acaa9f8fc06d0a9742d841c47c16 wifi: ath12k: Fix memory leak in rx_desc and tx_desc
+1e4134610d93271535ecf900a676e1f094e9944c wifi: ath9k: use IS_ERR() with debugfs_create_dir()
+2f5124e86ae74b7ba24c9ae2644107b750cbf38f wifi: ath12k: add check max message length while scanning with extraie
+0e5b1b46925b005bd4f701a116d06a561c7262e8 wifi: ath12k: Remove unused declarations
+4c2964ef553b9c7c4ae1803158386a8b169f8f4e wifi: ath: Use is_multicast_ether_addr() to check multicast Ether address
+4dddbad8907bc2ecda6e3714de3ea0a27b90a7d3 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
 
---===============8759023510318079960==--
+--===============1356519885354231657==--
