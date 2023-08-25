@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 25 Aug 2023 18:42:20 -0000
-Message-Id: <169298894042.15317.16563465027397004731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 25 Aug 2023 18:46:23 -0000
+Message-Id: <169298918388.18453.4160322306047294201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/controller/qcom
-    old: b9cbc06049cb6b7a322d708c2098195fb9fdcc4c
-    new: d60379d65d2b908818d99541753d74f99645da51
+  - ref: refs/heads/master
+    old: 6eebdd14dd7352fcea0f40e301af4b64f65bdc36
+    new: 78fed8acfb74a2d97b7a798aba96db2a813c0ccd
     log: |
-         9169e03946b9e45cae4773e997231db0d0f162cf dt-bindings: PCI: qcom: Add sa8775p compatible
-         d60379d65d2b908818d99541753d74f99645da51 PCI: qcom: Add support for sa8775p SoC
+         78fed8acfb74a2d97b7a798aba96db2a813c0ccd foo
          
