@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 25 Aug 2023 18:22:12 -0000
-Message-Id: <169298773240.32726.10523558386412535008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 25 Aug 2023 18:26:38 -0000
+Message-Id: <169298799896.3645.8753519254338561138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: a04e93998bebba77ac799dd89c11042c25f2e2d2
-    new: 8f6f4e46ded4fc86b20719dbefcd0e936200626b
+  - ref: refs/heads/todo
+    old: 4661cb80f1c7072411fdd2c5fb32e6f787248960
+    new: 5fe49c18f18bac4372b270032c30400fdf163aa7
     log: |
-         8f6f4e46ded4fc86b20719dbefcd0e936200626b close.2: Warn more clearly about the risks of close(2) and record locks
+         5fe49c18f18bac4372b270032c30400fdf163aa7 What's cooking (2023/08 #07)
          
