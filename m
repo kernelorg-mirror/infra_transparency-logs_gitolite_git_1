@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 25 Aug 2023 17:30:21 -0000
-Message-Id: <169298462146.26951.8705810718790009585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 25 Aug 2023 17:31:14 -0000
+Message-Id: <169298467404.27354.348069357540549478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: f6c89aaeffe2ddd7b2088f038ea4c6891009d366
-    new: b15b6cc56ac7764be17acbdbf96448f388992adc
+    old: 091a4dfbb1d32b06c031edbfe2a44af100c4604f
+    new: 3b7166121402a5062d18dcf4e3bce083fb9e4201
     log: |
-         b15b6cc56ac7764be17acbdbf96448f388992adc f2fs-tools: convert to lseek() and kill lseek64
+         3b7166121402a5062d18dcf4e3bce083fb9e4201 f2fs: use finish zone command when closing a zone
          
