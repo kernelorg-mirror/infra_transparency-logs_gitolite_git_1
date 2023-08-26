@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6783242775326369248=="
+Content-Type: multipart/mixed; boundary="===============8153376437618783098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 26 Aug 2023 18:47:15 -0000
-Message-Id: <169307563566.13484.11680522080145555166@gitolite.kernel.org>
+Date: Sat, 26 Aug 2023 18:47:34 -0000
+Message-Id: <169307565461.13675.15067974855813097245@gitolite.kernel.org>
 
---===============6783242775326369248==
+--===============8153376437618783098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: dc31bfce9af67d4ed9213b3ead867cb81bc399a8
-    new: 31d60a53c76e2afca765e3e320f5ef402fb0e3b4
-    log: revlist-dc31bfce9af6-31d60a53c76e.txt
+    old: 31d60a53c76e2afca765e3e320f5ef402fb0e3b4
+    new: c43963bb847e50d32e48a348036afd1198ca08bb
+    log: revlist-31d60a53c76e-c43963bb847e.txt
 
---===============6783242775326369248==
+--===============8153376437618783098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc31bfce9af6-31d60a53c76e.txt
+Content-Disposition: attachment; filename=revlist-31d60a53c76e-c43963bb847e.txt
 
-b8e2771b7f880a0b899b380ef15476160c693b59 LoongArch: Remove redundant "source drivers/firmware/Kconfig"
-3f301dc292eb122eff61b8b2906e519154b0327f LoongArch: Replace -ffreestanding with finer-grained -fno-builtin's
-347aa8dec220c7692981e1a175391ea7620abfeb LoongArch: Remove unneeded #include <asm/export.h>
-55b46ff9396caca6ebb73a1d5a00f6f8698391cc LoongArch: Replace #include <asm/export.h> with #include <linux/export.h>
-a746ceb1f32cc375e983c4bc40378a72ff26c766 LoongArch: Remove <asm/export.h>
-6933c11fb501a40681d43336b3e0eee9df2abee0 LoongArch: Do not kill the task in die() if notify_die() returns NOTIFY_STOP
-a038ae7148469ab6cf4afadb155a15d9554a0b59 LoongArch: Return earlier in die() if notify_die() returns NOTIFY_STOP
-8879515e1219857df1f142e23840b91a37cbde88 LoongArch: Add identifier names to arguments of die() declaration
-c337c849ab528241897ddfb6f334912ead0bfd66 LoongArch: Put the body of play_dead() into arch_cpu_idle_dead()
-656f9aec07dba7c61d469727494a5d1b18d0bef4 LoongArch: Ensure FP/SIMD registers in the core dump file is up to date
-9730870b484e9de852b51df08a8b357b1129489e LoongArch: Fix hw_breakpoint_control() for watchpoints
-9f5deb551655a4cff04b21ecffdcdab75112da3a genirq: Fix software resend lockup and nested resend
-c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-3b35375f19fe87b5d8822ce01f917095d575ee28 Merge tag 'irq-urgent-2023-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-28f20a19294da7df158dfca259d0e2b5866baaf9 Merge tag 'x86-urgent-2023-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-31d60a53c76e2afca765e3e320f5ef402fb0e3b4 Merge branch 'linus'
+1ef5e74b9a3b45fd5e610ccbbcddef208e4a8798 Merge branch into tip/master: 'x86/merge'
+ecedda1acb95447c63f1c88874c3b39f9f684c62 Merge branch into tip/master: 'core/entry'
+8c0e605dcb8fe88ed5a9a3d00e419de621af2c3b Merge branch into tip/master: 'irq/core'
+4efa638156e6655dd45c649195ddc1e01599962f Merge branch into tip/master: 'locking/core'
+e4dbab01f818bdda175f1712b4a166b28da965d3 Merge branch into tip/master: 'perf/core'
+5d5001e6045781130b1600a1e1f4d24a57232c74 Merge branch into tip/master: 'ras/core'
+c0e880b670086db7c1dfb0871d6f453ce403fe01 Merge branch into tip/master: 'sched/core'
+89c72e52e72dc07c4231c9960e93ee90341b4433 Merge branch into tip/master: 'smp/core'
+11b563092c0738ae9f65fa363be23567cb6830ef Merge branch into tip/master: 'x86/boot'
+666cfc4d3d3cdb494ce578447128bc5d230df8ab Merge branch into tip/master: 'x86/bugs'
+0e4610dcdaf19f57ee204be2f6d384d1ff6c00bb Merge branch into tip/master: 'x86/cleanups'
+e6999741446f006b157129336c3ad0b1ecaa06b2 Merge branch into tip/master: 'x86/core'
+bece7a880832bf339fa06f0265d18369c90a2b2d Merge branch into tip/master: 'x86/microcode'
+d143f492daa05907f8e3a113b965467246f70c8b Merge branch into tip/master: 'x86/misc'
+c43963bb847e50d32e48a348036afd1198ca08bb Merge branch into tip/master: 'x86/sev'
 
---===============6783242775326369248==--
+--===============8153376437618783098==--
