@@ -1,47 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0184150607545809807=="
+Content-Type: multipart/mixed; boundary="===============0956552525959528699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 26 Aug 2023 01:54:09 -0000
-Message-Id: <169301484967.2585.18279543984484011876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 26 Aug 2023 01:57:47 -0000
+Message-Id: <169301506768.5520.7868577979261352206@gitolite.kernel.org>
 
---===============0184150607545809807==
+--===============0956552525959528699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/damon/next
-    old: b7e00357c3f52922882ebdbc7e0cd4ab3580fd1f
-    new: 9ad163d06f08a43378df4aacdb2feecb233d7e3e
-    log: revlist-b7e00357c3f5-9ad163d06f08.txt
+  - ref: refs/heads/main
+    old: 215eb9f962091ebaab96be2c18cf5d0f5174a4d6
+    new: a02430c06f56931675f19a914b11a960607b2505
+    log: revlist-215eb9f96209-a02430c06f56.txt
 
---===============0184150607545809807==
+--===============0956552525959528699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7e00357c3f5-9ad163d06f08.txt
+Content-Disposition: attachment; filename=revlist-215eb9f96209-a02430c06f56.txt
 
-d8f2c1e250d9b91469b2804470440b4cf726a362 Docs/admin-guide/mm/damon/usage: fixup missed :ref: keyword
-eac45c4616a79e6cb6445c136acd1de15180d6d1 include/linux/damon.h: add more comments for nr_accesses
-040b2d1471f43144543eb84806383105bda9367c include/linux/damon.h: remove duplicated comment for watermarks-based deactivation
-6d32456eba6a3ddc1fe269e9f38ffa93eb0736a2 mm/damon: remove 'struct target *' parameter from damon_aggregated tracepoint
-01c512ba12af30539cbf5c028b92d7215e55470a mm/damon: add a tracepoint for damos apply target regions
-7ffb8c123bd774dbc4fcd4a3127c3a2609a0e190 mm/damon/core: use number of passed access sampling as a timer
-244f8c31cc17159e8e02ab0eebce075e04ba2fe2 ==== accesses_bp ====
-3a6a77fab5db33c69794fae42b2956a4ba83dc4e mm/damon: introduce moving_accesses_bp
-96dcfa3ad4b3e86300afb6797a5963bc154a6b34 include/linux/damon.h: add comments for moving_accesses_bp
-bbf17cbf779bf3c18d8af73f40b168325835f256 mm/damon/core: Implement moving_nr_accesses update function
-21c9f0d5dd28de1aca313bd5c462e27867d08c75 mm/damon/paddr: use damon_record_access_to_region()
-2945fc13441a0bf0c3bf4ad0d66268c7b92fe314 mm/damon/vaddr: use damon_record_access_to_region()
-d72a1feef7b50dc2f943c0b638986c2457ac316c mm/damon/sysfs-schemes: expose moving_accesses_bp via tried_region directory
-294e389c6c4d9a8c38e177d08ed0e4745e9a9b68 ==== DAMOS: adopt moving accesses bp ====
-0949f9317f2fa57ada06215b99a7efc07503b5bc ==== misc ====
-6eb2cf0b8e272a2f16a48602677af3b5220b3af2 mm/damon/sysfs: add __counted_by() annotation
-9ad163d06f08a43378df4aacdb2feecb233d7e3e samples: add DAMON sample kernel modules
+70934c7c99ad01778eef83e898df4c624e52492f net: phylink: add phylink_limit_mac_speed()
+e80af2acdef73d90ce56d6849d96f2a5862cec2c net: stmmac: convert plat->phylink_node to fwnode
+1a37c1c198320cce184b70772f78368aba0dec57 net: stmmac: clean up passing fwnode to phylink
+2b070cdd3afd53518e04d2813bb9df5ad93505f7 net: stmmac: use "mdio_bus_data" local variable
+a4ac612bd345d676f2d70125a729df2861f91c1d net: stmmac: use phylink_limit_mac_speed()
+d42ca04e044891c9cf2e5a8dbcef85dd57f94827 net: stmmac: provide stmmac_mac_phylink_get_caps()
+f1dae3d222c63b605d75d338a34e975c8a018640 net: stmmac: move gmac4 specific phylink capabilities to gmac4
+bedf9b81233dc3c7f70c65cd5370de883199e3f6 net: stmmac: move xgmac specific phylink caps to dwxgmac2 core
+64961f1b8ca1c6f515478887db70cd0e88f47af4 net: stmmac: move priv->phylink_config.mac_managed_pm
+76649fc93f097785e9b173950d0fbb1d7a9c4a76 net: stmmac: convert half-duplex support to positive logic
+f5e17b471fa88e1e6b430c5df383a04c8caf3707 Merge branch 'stmmac-cleanups'
+a02430c06f56931675f19a914b11a960607b2505 tools: ynl-gen: fix uAPI generation after tempfile changes
 
---===============0184150607545809807==--
+--===============0956552525959528699==--
