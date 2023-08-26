@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 26 Aug 2023 16:40:43 -0000
-Message-Id: <169306804327.18880.288556477141083529@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6711315096099984496=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 26 Aug 2023 16:48:12 -0000
+Message-Id: <169306849212.23123.600397177895168526@gitolite.kernel.org>
+
+--===============6711315096099984496==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/controller/qcom-edma
-    old: bcf054a26edc6cbe6d6b3af6570e4e3e2afc81ad
-    new: fa1d4fa4402418ba127f431f21b25b4f4f9797ee
+  - ref: refs/heads/master
+    old: ca9e5d49051397971abbe91332a2de30c52ed4d1
+    new: 4626c6cbf57bdf3ec3d148f7e0c0e9e2288b7d23
     log: |
-         748a6edb375a02c24a5300d1c4046efbaa2129a2 PCI: epf-mhi: Make use of the alignment restriction from EPF core
-         7731566bdff0dd452adcaed013ea78b36522b8c1 PCI: qcom-ep: Add eDMA support
-         7a9daae7583c4efb0ccf4ea238a1b6e89e6366ac PCI: epf-mhi: Add eDMA support
-         e0b304352f1104fc89becf44834a03843a8b4a57 PCI: epf-mhi: Add support for SM8450
-         bbb81c26d34c8a00243158de72134ef71d88dd07 PCI: epf-mhi: Use iATU for small transfers
-         fa1d4fa4402418ba127f431f21b25b4f4f9797ee PCI: endpoint: Add kernel-doc for pci_epc_mem_init() API
+         4626c6cbf57bdf3ec3d148f7e0c0e9e2288b7d23 5.15-stable patches
          
+
+--===============6711315096099984496==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693068490 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1693068489-9755f0bd2a17c3176bab3f2dcc110a0cde14e2c7
+
+ca9e5d49051397971abbe91332a2de30c52ed4d1 4626c6cbf57bdf3ec3d148f7e0c0e9e2288b7d23 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTqLMobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GSwP/0X/L9H2COk+1CIPk7Oq
+RcBcsAwVokxgCznIuoeG4vcyODAUxcG0CmtjgtSIPsop5tg5n151FWRhOWQPaQWe
+mkv6UwyqdabRkT9aXBt8guENut1uLw43hXOnnjigG70q/FYU3mJttJ/WfbQuiEX5
+1v05t9WtVI5/o0ZepIPgU751W6j1eC0wlBP9z8qwC9ZKO5O0sbJfIgvGTNnonSVZ
+fT6/ql2/Xa6xIM2vO5YhSzAZftpDEYt6lAfTvBMiMMnVVo1hgf63p10/ex6eNmM+
+/5UJF/vKkLTuuYxmQvOrXp2LHF+B1mKiMgQX5wU3olcHuI1zbx+ugEUL17Itazdj
+NesKntbVG54TWFbMtn5GNuyqlzsXPqE7M/+adxt7+/I+2+jsi0M0JOoTHvwFL/Or
+9wvd7c+bGhgmW74780iebDmHn3g74mMW7fEWRoK6hLtw9X/aLEhp0q9Ix7VQLOnc
+uaHWabQ1nVu+m4S0Vb6W+NdlxZs3hENmmJDMZ8+xQntim0SDEwgt/gm1D0mOd4+L
+HPQ0E9HCK2RcAadD87xR35ZIMzkx1i73SRME5Eb1vwaOG2RlQol0kNUWTYnOSfu2
+R4lGvYe/4oKg52Pq8HhR5f2Xv0BzgLrY4irp3BQfbNugwHmlTfgOsAjUl38Zfakd
+EKjW0y+dt7ezGQvCnbyJAiw9
+=EnjZ
+-----END PGP SIGNATURE-----
+
+--===============6711315096099984496==--
