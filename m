@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2947899301593645004=="
+Content-Type: multipart/mixed; boundary="===============1096763101711143913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Sat, 26 Aug 2023 20:52:30 -0000
-Message-Id: <169308315042.7786.3884583021196384250@gitolite.kernel.org>
+Date: Sat, 26 Aug 2023 20:52:53 -0000
+Message-Id: <169308317392.7984.9036741346564471223@gitolite.kernel.org>
 
---===============2947899301593645004==
+--===============1096763101711143913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/uml/linux
 user: rw
 changes:
-  - ref: refs/heads/next
-    old: 6032aca0deb9c138df122192f8ef02de1fdccf25
+  - ref: refs/heads/master
+    old: f06885b3f3e3884f98351d7b72a4fc8400911cde
     new: 974b808d85abbc03c3914af63d60d5816aabf2ca
-    log: revlist-6032aca0deb9-974b808d85ab.txt
+    log: revlist-f06885b3f3e3-974b808d85ab.txt
 
---===============2947899301593645004==
+--===============1096763101711143913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6032aca0deb9-974b808d85ab.txt
+Content-Disposition: attachment; filename=revlist-f06885b3f3e3-974b808d85ab.txt
 
 7ebd00a5a20c48e6020d49a3b2afb3cdfd2da8b7 Revert "bridge: Add extack warning when enabling STP in netns."
 ac528649f7c63bc233cc0d33cff11f767cc666e3 Merge branch 'net-support-stp-on-bridge-in-non-root-netns'
@@ -1051,4 +1051,4 @@ ab7ca2eb63a2168619f7595622fe29967ed0959b um: fix 3 instances of -Wmissing-protot
 32280e83b555d692e8c7b96563b0ee2037585712 um: Refactor deprecated strncpy to memcpy
 974b808d85abbc03c3914af63d60d5816aabf2ca um: virt-pci: fix missing declaration warning
 
---===============2947899301593645004==--
+--===============1096763101711143913==--
