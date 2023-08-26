@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1381575424574149130=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 26 Aug 2023 13:32:20 -0000
-Message-Id: <169305674097.10383.1561067413961009695@gitolite.kernel.org>
-
---===============1381575424574149130==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 26 Aug 2023 13:51:19 -0000
+Message-Id: <169305787946.25076.3552309683090927419@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 1236e397af4eeae1592673738462fc67e190934d
-    new: e090cbe44a80805f6b7de4ca3582fcb24c69a6f2
+    old: e090cbe44a80805f6b7de4ca3582fcb24c69a6f2
+    new: 38b0126e871a43942f89c1bf89768ca774577709
     log: |
-         e090cbe44a80805f6b7de4ca3582fcb24c69a6f2 5.10-stable patches
+         cbdd3809b497dc2ffe3a9a83c2f17ee23ca6f066 Fixes for 6.4
+         1f366c3abb7e0b0c0518964042b53a0e4926fc39 Fixes for 6.1
+         6d5bdbfb9eb21d75debcfae5db4a48aacb7b06b6 Fixes for 5.15
+         6ee82bd69537c4beb9631735da3701f23977bbae Fixes for 5.10
+         70e48ba5ff07095bf0fcc03c91c53cb7e80c1be2 Fixes for 5.4
+         30be7aa8403d8af9758f7b256213f64fba5880a0 Fixes for 4.19
+         38b0126e871a43942f89c1bf89768ca774577709 Fixes for 4.14
          
-
---===============1381575424574149130==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693056739 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1693056739-0df4613b7fe198388fdc13d6adf397d2904145ec
-
-1236e397af4eeae1592673738462fc67e190934d e090cbe44a80805f6b7de4ca3582fcb24c69a6f2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTp/uMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UwIP/3hLfZHAQ8N1JxyEu01G
-xTLLBRLbWKGabj3VYNVqlA+ny8wpr3nC5kIlFyhOS6gKw9EsjeF30FMVkqbhl+HR
-40/zgL1MohWRp3nvr4oNQybibzF2ti1LIpIQHS2xNh1ign8R7uLFnaclj02sjztA
-ltGeuQp1smM4NrLyz1vAB3JxEpQKhlOg1WbF9Nt2P4K3zAkdefUDw+9gUUeNDk53
-gy4+XEQV+ezvuHkQSJIWslf6LSxpcSyYVw3L7Ky/HwHV5LGG3y3sKF+a6EPVLLNR
-GiitPK1sxWJMuIbx4ieXwWqbwK6bxRyHoKUmGybLeNnzBo8RBxZp03Zcfx0gc0v2
-GKM2J63xxjkdzUK/Xza4gPr4CAfQ8bLJ1AaYhzRAL59AEk/ziL/07z0smEKbcQgb
-h2lUWfOLhPSe6EbEnND8+j7H7/zcspn+0Mit700NKFDaZ1UiURJg+8EUFh5Swxqw
-Ja6rV/lEt3t2F2tasxn/HsunoTqAehe7dSRO2FHkZ1m7Fgrpla/A9g5f5Rqi0PUZ
-ezz379Cf1gUFaoRQIU+6aTxuLx1VCyt8Sb/FNhfKCdetEhjX/pSgcyfpHQxpd1fF
-49BSsgzjToesXnzAuUzDp3bx/4MARBOqebdKAnqxDRoM/Nugquog3NuMOht7Oxur
-34L7bm+6LVfffAbv9cfuWchB
-=TlT5
------END PGP SIGNATURE-----
-
---===============1381575424574149130==--
