@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5495863467119806864=="
+Content-Type: multipart/mixed; boundary="===============0471057241004265411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 26 Aug 2023 01:36:19 -0000
-Message-Id: <169301377922.21734.4883563600625240879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 26 Aug 2023 01:36:56 -0000
+Message-Id: <169301381681.22263.8288241140336748507@gitolite.kernel.org>
 
---===============5495863467119806864==
+--===============0471057241004265411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: c96b84e89f8a82ca1193dcd4ff77f97323a250a7
     log: revlist-f208b2c6f984-c96b84e89f8a.txt
 
---===============5495863467119806864==
+--===============0471057241004265411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ fd36ca012e0c14f1437f774565db5df66cb85af9 libperf: Add perf_record_header_attr_id
 ee6906d247f1793bdfccf1b4e40981865eec025b perf tools: Convert to perf_record_header_attr_id()
 c96b84e89f8a82ca1193dcd4ff77f97323a250a7 libperf: Get rid of attr.id field
 
---===============5495863467119806864==--
+--===============0471057241004265411==--
