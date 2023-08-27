@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 27 Aug 2023 13:33:25 -0000
-Message-Id: <169314320547.29422.2986862041179242869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 27 Aug 2023 14:05:53 -0000
+Message-Id: <169314515328.20797.8334290077056502550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/v2023.08.27
-    old: 0000000000000000000000000000000000000000
-    new: c2da565fb80502ccaa3574ad43b51ba6099c9e9f
+  - ref: refs/heads/master
+    old: 8f6f4e46ded4fc86b20719dbefcd0e936200626b
+    new: c988f384ed64ed419fed9796ada0671e6f090899
+    log: |
+         c988f384ed64ed419fed9796ada0671e6f090899 *.mk: Use $(foreach ..., $(eval ...) to reduce repetition
+         
