@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0511904407868295318=="
+Content-Type: multipart/mixed; boundary="===============4526666578718956364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 27 Aug 2023 14:40:34 -0000
-Message-Id: <169314723421.14429.11061587140518620051@gitolite.kernel.org>
+Date: Sun, 27 Aug 2023 14:40:58 -0000
+Message-Id: <169314725835.14669.10940792821824039764@gitolite.kernel.org>
 
---===============0511904407868295318==
+--===============4526666578718956364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: ec0ded2e02822ee6a7acb655d186af91854112cb
     new: aa05346dad4b37d068cf9144f0a1236757816886
     log: revlist-ec0ded2e0282-aa05346dad4b.txt
 
---===============0511904407868295318==
+--===============4526666578718956364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -950,4 +950,4 @@ c1e0230eeaab26984f6e5c5575486e96a63e2e48 net: ti: icss-iep: Add IEP driver
 443a2367ba3c96e0f35ce801bcdfb2ce91f5038c net: ti: icssg-prueth: am65x SR2.0 add 10M full duplex support
 aa05346dad4b37d068cf9144f0a1236757816886 Merge branch 'iep-drver-timestamping-support'
 
---===============0511904407868295318==--
+--===============4526666578718956364==--
