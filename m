@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4181180428745229765=="
+Content-Type: multipart/mixed; boundary="===============7423127033726772044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 27 Aug 2023 13:31:40 -0000
-Message-Id: <169314310043.28666.3029268817752888638@gitolite.kernel.org>
+Date: Sun, 27 Aug 2023 13:32:51 -0000
+Message-Id: <169314317170.29164.2988202649941131800@gitolite.kernel.org>
 
---===============4181180428745229765==
+--===============7423127033726772044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,30 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 8de535c53887bb49adae74a1b2e83e77d7e8457d
-    new: 0ca1d4fbb2e9a492968f2951df101f24477f7991
-    log: revlist-8de535c53887-0ca1d4fbb2e9.txt
+  - ref: refs/heads/for-next
+    old: 0ca1d4fbb2e9a492968f2951df101f24477f7991
+    new: fd94fc408b3ee0b3e9f05b9327a67736980af442
+    log: revlist-0ca1d4fbb2e9-fd94fc408b3e.txt
 
---===============4181180428745229765==
+--===============7423127033726772044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8de535c53887-0ca1d4fbb2e9.txt
+Content-Disposition: attachment; filename=revlist-0ca1d4fbb2e9-fd94fc408b3e.txt
 
-32201166fb096fb5606799c591775bd6c07fc7fa fstests: install soak_duration.awk
-e573069170b6928e4fc68b5d4074d1a6b2681736 btrfs/294: reject zoned devices for now
-d74975e2c2847587a4f346be1ba2a2d9e24502a8 btrfs: add a test case to make sure scrub can repair parity corruption
-625b651b30601f67a7d109d5bc661f2c8b9e63bc generic: add a test for device removal with dirty data
-b716634e75d275c31dbf8f489e89fb92a4667a90 generic: add a test for device removal without dirty data
-03d27d8025697c987896d91ec0af8a41a5986412 xfs/122: adjust test for flexarray conversions in 6.5
-3f86deef7cbd1cf9e4fe6cafc9fb535d038ce010 fstests: add smoketest group
-24cfe625794ea0c807d0739291f0a9ce7ddd5a2b btrfs/276: make test accurate regarding number of expected extents
-d39fb9a81d76305ab1b3c0c3a042e767a7c1bf89 check: generate gcov code coverage reports at the end of each section
-a0c36009103b8addf50a860a60028227723f26ca fstests: add helper to canonicalize devices used to enable persistent disks
-d542fbc4ccef64887c5750a500b00318ffc3a7ff generic/642: fix SOAK_DURATION usage in generic/642
-0ca1d4fbb2e9a492968f2951df101f24477f7991 xfs: skip fragmentation tests when alwayscow mode is enabled, part 2
+4a78fc26ab16e4fce6f4bc0e8293c70551942792 btrfs/213: fix failure due to misspelled function name
+857c18868a0e34ca140e3162bccc44024c649e12 t_ofd_locks: fix stalled semaphore handling
+ae154c192b954f9bfacf2704a2f546149cd52c4e t_ofd_locks: fix sem initialization sequence
+d9b0c584e25b6ce34a3e5a0abe0ba65f52eb48d7 fsx: tidy options usage and format
+6d63f23987a629b4f7dd6e57e5b67ba37a3b742e check: fix parsing expunge file with comments
+9caf3ee07d0d0071e70f5bde28e6cd32bbc0e266 generic/{175,297,298}: fix use of uninitialized var
+515adab889b9b0945b3b67de97cbb61cdb803783 common/rc: drop 'fsck -f' parameter from _repair_test_fs
+697988c94e870a2e9be9b0827078e718ae20995f btrfs/220: do not run async discard test on zoned device
+eccdeae8fc417ecb369b822a8182fd5eeab751e1 fstests: Verify dir permissions when creating a stub subvolume
+778364fffb3502ac010f9ff89afc880a8a6a7239 common/rc: introduce _random_file() helper
+4dd2822ae01a6521226f0fc761007cbc8536b12c fstests/btrfs: use _random_file() helper
+a0c6958c0e36a1481cd751c828ab1aa15de6b934 btrfs/004: use shuf to shuffle the file lines
+79d409ce9e394ea9e5e1954052426f8334d3d5f6 fstests: fsstress: wait interrupted aio to finish
+fd94fc408b3ee0b3e9f05b9327a67736980af442 generic/471: Remove this broken case
 
---===============4181180428745229765==--
+--===============7423127033726772044==--
