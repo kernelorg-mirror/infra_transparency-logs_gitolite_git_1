@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 28 Aug 2023 17:17:15 -0000
-Message-Id: <169324303516.6548.8618283627470572630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 28 Aug 2023 17:17:35 -0000
+Message-Id: <169324305571.6734.14652564538982239089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/dev
-    old: 091a4dfbb1d32b06c031edbfe2a44af100c4604f
-    new: 3b7166121402a5062d18dcf4e3bce083fb9e4201
+  - ref: refs/heads/next
+    old: 17ce5f6b81cc122f3b00f9b51f1b274db77d31a8
+    new: 169c0f23caccdce069ede45196b3d17a26ddaeab
     log: |
-         3b7166121402a5062d18dcf4e3bce083fb9e4201 f2fs: use finish zone command when closing a zone
+         169c0f23caccdce069ede45196b3d17a26ddaeab KVM: arm64: Properly return allocated EL2 VA from hyp_alloc_private_va_range()
          
