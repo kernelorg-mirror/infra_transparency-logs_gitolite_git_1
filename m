@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 28 Aug 2023 12:27:53 -0000
-Message-Id: <169322567363.21947.2325206987963468154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 28 Aug 2023 12:35:52 -0000
+Message-Id: <169322615229.28019.12917032474305357277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/for-6.5-rc6-tag
-    old: 399516b91b6cdd80bc527c2353a3a2db8ddd77aa
+  - ref: refs/tags/v6.4/vfs.acl
+    old: a6e9d4cf7554e583c0fffc80107b84e24dd35577
     new: 0000000000000000000000000000000000000000
