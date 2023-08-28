@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0232945487780360909=="
+Content-Type: multipart/mixed; boundary="===============0587385122221242305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 28 Aug 2023 03:57:33 -0000
-Message-Id: <169319505327.16901.5012966211667001718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 28 Aug 2023 03:57:51 -0000
+Message-Id: <169319507133.17093.16243310830772623344@gitolite.kernel.org>
 
---===============0232945487780360909==
+--===============0587385122221242305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 2dde18cd1d8fac735875f2e4987f11817cc0bc2c
     log: revlist-706a74159504-2dde18cd1d8f.txt
 
---===============0232945487780360909==
+--===============0587385122221242305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -218,4 +218,4 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2dde18cd1d8fac735875f2e4987f11817cc0bc2c Linux 6.5
 
---===============0232945487780360909==--
+--===============0587385122221242305==--
