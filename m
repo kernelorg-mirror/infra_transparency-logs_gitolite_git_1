@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Mon, 28 Aug 2023 11:21:14 -0000
-Message-Id: <169322167406.6321.6561669334835116985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 28 Aug 2023 11:24:02 -0000
+Message-Id: <169322184248.7347.3634183396498872108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/next
-    old: a14198dfe990d58474cea64dab8b95b810a68b70
-    new: b691118f2c44d16b84fc65b8147b33620eb18cac
+  - ref: refs/heads/vfs.super.fixes
+    old: fa6df96c85174e4f57c7b53bbda4012031f6f87c
+    new: 2c6f940dddfd4c7e0a5842d77de5cd23108c8ac3
     log: |
-         8b94da92559f7e403dc7ab81937cc50f949ee2fd x86/efistub: Fix PCI ROM preservation in mixed mode
-         b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
+         3abf6b02fa6c1a6fff4c08a382290b955c43668f super: ensure valid info
+         2c6f940dddfd4c7e0a5842d77de5cd23108c8ac3 Small follow-up fixes for this cycle
          
