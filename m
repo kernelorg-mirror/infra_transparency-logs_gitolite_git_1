@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 28 Aug 2023 12:24:22 -0000
-Message-Id: <169322546264.18734.11367423491703376071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 28 Aug 2023 12:26:20 -0000
+Message-Id: <169322558076.21069.17940725318676268583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/x86_microcode_for_v6.6_rc1
+  - ref: refs/heads/for-6.6
     old: 0000000000000000000000000000000000000000
-    new: 2bab7aecf8052343c1032505a50493a3a0a52e17
+    new: c02d35d89b317994bd713ba82e160c5e7f22d9c8
