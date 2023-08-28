@@ -1,76 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============8017331018312529573=="
+Content-Type: multipart/mixed; boundary="===============8514132014477382006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 28 Aug 2023 06:41:04 -0000
-Message-Id: <169320486431.7324.12401654353215104655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 28 Aug 2023 06:43:49 -0000
+Message-Id: <169320502930.8349.5548414998074090638@gitolite.kernel.org>
 
---===============8017331018312529573==
+--===============8514132014477382006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: db726a2f3b4bc0cbf8e6cfd529d2d8eabb587d70
-    new: ebf05c7dc92c11b0355aaa0e94064beadaa4b05c
-    log: revlist-db726a2f3b4b-ebf05c7dc92c.txt
+  - ref: refs/heads/master
+    old: f96a063a150ada8b2f329bd0aedb8a1cf9c1edac
+    new: 75adfb57cf38813935d79b6e17f9705632703ff7
+    log: |
+         8b79a581a6fad244bf055c7a12ab9ff72770f0eb 4.14-stable patches
+         c870dd9b60fc08b817abaa2bba0be256ef63564b 4.19-stable patches
+         a6305ba026c5d3d1e3214bb76ef76454446ee77f 5.4-stable patches
+         e532c03a4ed9eb83b50a04fa7ba09a661c7d79c9 5.10-stable patches
+         cc7a529043060729fa7d66bf78d0c762d90e84fc 5.15-stable patches
+         b5a17eef30fb4995d602e747efb9ae43ab16404f 6.1-stable patches
+         4b74f3dae280c58a6ebe90f33e202ae416e3d662 6.4-stable patches
+         75adfb57cf38813935d79b6e17f9705632703ff7 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         
 
---===============8017331018312529573==
+--===============8514132014477382006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693204863 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1693204863-e6e9f4ab1846c487ffd2feb83beea2216319bdfb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693205028 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1693205027-c9bf5e0a26a6ae02a53992b79c5caa83c3cf4c95
 
-db726a2f3b4bc0cbf8e6cfd529d2d8eabb587d70 ebf05c7dc92c11b0355aaa0e94064beadaa4b05c refs/heads/tty-next
+f96a063a150ada8b2f329bd0aedb8a1cf9c1edac 75adfb57cf38813935d79b6e17f9705632703ff7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTsQX8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qkcQAI0lxGRt2pGeQHQXg19o
-VMiIa6kpj1Fpx7j0+FdXns6j4rC6px8rA8eTuaEPYUCeK0AoQnJ8NaKgPfI/djQ5
-O760LzJ+J2zH9rKaiHMG+YGEynOGKDoipvMkHA4I9biAeimBlRAFNC6nfh3w10F5
-rve+41M9Jta5a+HSuLJQe/DGWMABUpOjj4qwoGYBem/aNoehvHgz157695yUY4tK
-VExpXeNoZWaG0pOpX4oO/BaeJ/e0O/2aM0gC8nQ3shAEV7CR3pmKOtd4nw6A4qXx
-fecKwIm/Lg3MlaOVVfwHAzBWetYCUQPjss9qun0TFWg4b4FGFOoJb9/D9wchooD8
-nQtmZOocdwFNfBxVruX9PniNc2gY8SZf8B6yF4pKoMC9zeP2sal87WjYk3jwx9fq
-RmIYSBqcvMqzwn2M7IKDtgBBpeaCSkTsUJbvAYLBnKUG5QRG9WdFmZmzGsFlLdFl
-tSO9lSaFg+1qTo26JUD4GRGJbnkP/1J4mPa/+RHLFko0vHG1/+S/7BTB799W+uAr
-fSnxaVZRoWhs8VC39HQ45I4cNbwOlZqvLBGup9ErRUd+8dftwB+/AySaM2BwucsV
-nmcD9uYW7P3vohe5IFp3zQDlvGLLCNABUpSXI/D27HOZINEn+zSv5DdpfwM3suMK
-CBJDxPxKPFRiA0f4Z6bhcrN/
-=l+6J
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTsQiQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YsIP/AsJ1Mn1p61rYOkfzGeu
+BUIYPIZAWRzFMl0wbpXvnXa5SbM8l2OGJzmxtq41perl8PzW5n/Fgbss40bybIEC
+2KWIr2PM7rrycaS6RdRJEqMwIQyFcxBM7oC4pn00K1hYbIM3vKoPp/PYKuwBhzEB
+SSnd+3KG8XSnyQi5Dp59FaqTExHWxhtpLLyF6YA+f6Vxl8pT4ynNOt9QzKu50gEr
+cJmku4nNDenl2WFBNk9z1MrIADH/Y4zDADd2UfgM1wQ8G8dpyMJrONsasDwhD3Nm
+h9QvofJqMeWhtccIR0EUAysTE38OQVpXivTvPzVYqrWY9Xka6tz8JU1zC1bLYsBw
+7A+bW40Dl+o5buB43lbZzqJCzq/X+49dWfFUglBOsQwiQeVp4Wp5Ld+Qh5iw48Ga
+flojuoj6KA9LQWUzz3z/EI/w0Hg/0ckCuXyJZ7iZHXXXiXwfgSLFm59PibDryDXH
+xa/vviB+DItiQi1JWpsKp+F9oInC3gpOObyRfesw9gRLheO5+oOvt4m9VydVyy7z
+01O56gbx/7GT/EyTwPfXliU9PW+THEEHEZeahhQB8kUh+wKMA5cq9UY233zExSJe
+NQZ5uWZ9F4e3R6ZsyxOaG18+oPnmD9HYfeyGlGk5+7Ftvag1AX+ls3A4J4OXCsqc
+ovbeqt6Z5xVLlBLlJqxP/+fQ
+=k1fM
 -----END PGP SIGNATURE-----
 
---===============8017331018312529573==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db726a2f3b4b-ebf05c7dc92c.txt
-
-0d029ab8a05b5a21af9425c02816f5d6de054b7e tty: n_tty: make flow of n_tty_receive_buf_common() a bool
-d414034ec901c3821f17bd44b8eaaa5820253417 tty: n_tty: use output character directly
-68d90d5f7b68652287fbcbcfe245c2c8b667d021 tty: n_tty: use 'num' for writes' counts
-73276e3a1097ff58d9d167fc9a593cc249d1fd6f tty: n_tty: use time_is_before_jiffies() in n_tty_receive_overrun()
-c3b2b26f6eaad5d48fe6dd2d9bada07b193bdb61 tty: n_tty: make n_tty_data::num_overrun unsigned
-819287f0f335cf74d6486eb7f3d465b9668bc9d8 tty: n_tty: use MASK() for masking out size bits
-102dc8aac8d04be7ec6ee030962f7a40dc6d9731 tty: n_tty: move canon handling to a separate function
-008304079da79ab8dd122fe9e581494d10c0a3cc tty: n_tty: move newline handling to a separate function
-046b44ab0f5a87ba5788606155c5a6761169616a tty: n_tty: remove unsigned char casts from character constants
-d88c3c2675f9d41c15297fa001e79812f4dcc9dd tty: n_tty: simplify chars_in_buffer()
-b9b96b2089e9563a77a69e0fcfbedc5285ce890c tty: n_tty: use u8 for chars and flags
-e30364c70895c1ba90b28b85a82aa0d98aab8c81 tty: n_tty: unify counts to size_t
-2aa91851ffa7cdfc0a63330d273115d38324b585 tty: n_tty: extract ECHO_OP processing to a separate function
-a84853c5954fe2c1b97db2f005ae156dc29ae233 tty: n_tty: deduplicate copy code in n_tty_receive_buf_real_raw()
-ebf05c7dc92c11b0355aaa0e94064beadaa4b05c tty: shrink the size of struct tty_struct by 40 bytes
-
---===============8017331018312529573==--
+--===============8514132014477382006==--
