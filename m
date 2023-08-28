@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4525501756377894735=="
+Content-Type: multipart/mixed; boundary="===============3715435788804882464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Mon, 28 Aug 2023 20:10:19 -0000
-Message-Id: <169325341944.3685.5325376747976428255@gitolite.kernel.org>
+Date: Mon, 28 Aug 2023 20:10:53 -0000
+Message-Id: <169325345350.3966.11395342764562352847@gitolite.kernel.org>
 
---===============4525501756377894735==
+--===============3715435788804882464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ericvh/v9fs
 user: ericvh
 changes:
-  - ref: refs/heads/ericvh/for-next
+  - ref: refs/heads/main
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 2dde18cd1d8fac735875f2e4987f11817cc0bc2c
     log: revlist-06c2afb862f9-2dde18cd1d8f.txt
 
---===============4525501756377894735==
+--===============3715435788804882464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2dde18cd1d8fac735875f2e4987f11817cc0bc2c Linux 6.5
 
---===============4525501756377894735==--
+--===============3715435788804882464==--
