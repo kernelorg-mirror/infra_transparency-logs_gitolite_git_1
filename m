@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5854737729239754316=="
+Content-Type: multipart/mixed; boundary="===============1438428754401964410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 28 Aug 2023 09:47:03 -0000
-Message-Id: <169321602310.27683.5414186338602249126@gitolite.kernel.org>
+Date: Mon, 28 Aug 2023 09:47:27 -0000
+Message-Id: <169321604775.27890.944074988327534101@gitolite.kernel.org>
 
---===============5854737729239754316==
+--===============1438428754401964410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-linus
-    old: 922a9bd138101e3e5718f0f4d40dba68ef89bb43
-    new: eb1e6ccdcf785e633863c5c7cec32d6c1e7b09dd
-    log: |
-         e346f9dd4cc24761c2939f46416719487480dd5c m68k: defconfig: Update defconfigs for v6.5-rc1
-         7547cbe20ee80d24f3e182b4dcd3e05c473fb10b m68k: Replace #include <asm/export.h> with #include <linux/export.h>
-         6831a8a3bd76adb7f7c91006a8ce8b3b67a666cc m68k: Remove <asm/export.h>
-         668a920208fffaf5308aabd304f7568d6815169b m68k: Define __div64_32() to avoid a warning
-         1a48e2ccd4385caa9ad9659ac8f9d75affacc9da m68k: Add memcmp() declaration
-         eb1e6ccdcf785e633863c5c7cec32d6c1e7b09dd zorro: Include zorro.h in names.c
-         
-  - ref: refs/heads/master
-    old: f67d72a895ff9eb298110d1f29b8a718b6a1cc60
-    new: f4875d9457d7b2ea30ef54737e67ba66dc6e6542
-    log: revlist-f67d72a895ff-f4875d9457d7.txt
+  - ref: refs/heads/m68k-queue
+    old: c9467484b4f8c73542b0f61f84f626b76ffdd8d6
+    new: c6798fa4b5b57663d9f79b654fabc8ce1ca00a48
+    log: revlist-c9467484b4f8-c6798fa4b5b5.txt
 
---===============5854737729239754316==
+--===============1438428754401964410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f67d72a895ff-f4875d9457d7.txt
+Content-Disposition: attachment; filename=revlist-c9467484b4f8-c6798fa4b5b5.txt
 
 1cbc11aaa01f80577b67ae02c73ee781112125fd NFSv4: Fix dropped lock for racing OPEN and delegation return
 c6a953cce8d0438391e6da48c8d0793d3fbfcfa6 batman-adv: Trigger events for auto adjusted MTU
@@ -228,6 +217,13 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 28f20a19294da7df158dfca259d0e2b5866baaf9 Merge tag 'x86-urgent-2023-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2dde18cd1d8fac735875f2e4987f11817cc0bc2c Linux 6.5
-f4875d9457d7b2ea30ef54737e67ba66dc6e6542 Merge tag 'v6.5'
+b057247b1b9515e704f4ec97265a48c3881d99e1 m68k: Replace #include <asm/export.h> with #include <linux/export.h>
+3ac9e43ad4635590ae7af1a6afc792c98fddf0a8 m68k: Remove <asm/export.h>
+ca47f60fe86c61afd0df5d8ff0c41e4cf4653f03 m68k: Define __div64_32() to avoid a warning
+eb521f51d9c8b26db71163efdee5528e22870303 m68k: Add memcmp() declaration
+e79253202b2dbc27a0944f3b399d45ab9008d287 zorro: Include zorro.h in names.c
+a6213d6d1d833c59bd2ed792a2c292c79cd59053 m68k: atari: usb: Add ISP1160 USB host controller support
+805d12c8e21d82ff94916148834b04327458b04c m68k: atari: Update Kconfig.bus help text
+c6798fa4b5b57663d9f79b654fabc8ce1ca00a48 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5854737729239754316==--
+--===============1438428754401964410==--
