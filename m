@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6919381682336453861=="
+Content-Type: multipart/mixed; boundary="===============4748513202249963927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 28 Aug 2023 03:42:23 -0000
-Message-Id: <169319414314.6779.2320039461628099078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/linux
+Date: Mon, 28 Aug 2023 03:42:27 -0000
+Message-Id: <169319414787.6860.2098510293002201557@gitolite.kernel.org>
 
---===============6919381682336453861==
+--===============4748513202249963927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
+repo: pub/scm/fs/fscrypt/linux
 user: ebiggers
 changes:
-  - ref: refs/tags/fsverity-for-linus
-    old: adcd0bbb34c501cefb26f60b376b4b68becadeb3
-    new: 994864bb8d88f801cec192f29afdb396ce96a625
-    log: revlist-adcd0bbb34c5-994864bb8d88.txt
+  - ref: refs/tags/fscrypt-for-linus
+    old: dc1eaeaf791634fb513f6875159305261786f88b
+    new: c857d724981b272fda08db41e1c3078b8432f758
+    log: revlist-dc1eaeaf7916-c857d724981b.txt
 
---===============6919381682336453861==
+--===============4748513202249963927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adcd0bbb34c5-994864bb8d88.txt
+Content-Disposition: attachment; filename=revlist-dc1eaeaf7916-c857d724981b.txt
 
+20fbe6291e54739beb905e0b7fc45ba534cf644d watchdog: loongson1_wdt: Add DT support
+a0d261ccd7eeb93accb4784e153315814a7656aa watchdog: Convert GPL 2.0 notice to SPDX identifier
+8d2e149ed61f5c0a49c36a81a09ff5808f4f17ad watchdog: ibmasr: Replace GPL license notice with SPDX identifier
 6cf2cc304fd9c37ea1a09b5c10279074e940f5f1 watchdog: ziirave_wdt: Switch i2c driver back to use .probe()
 be0d0ab1c704c8f93ee6c6d4b13a1e54ae927e3a dt-bindings: watchdog: xlnx,versal-wwdt: Add versal watchdog
 12984cea1b8c54104f8ac7f5609dfcc0752ad741 watchdog: xilinx_wwdt: Add Versal window watchdog support
@@ -1046,9 +1049,6 @@ a9943ad3dddb04763e73649ade8ed726a17b5ec3 Merge tag 'irq_urgent_for_v6.5_rc1' of 
 f71f64210d698f603ab119740d1656f7bdfd3171 Merge tag 'dma-mapping-6.5-2023-07-09' of git://git.infradead.org/users/hch/dma-mapping
 c192ac7357683f78c2e6d6e75adfcc29deb8c4ae MAINTAINERS 2: Electric Boogaloo
 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 Linux 6.5-rc1
-5d37a1198068b099de47073411efc087d1b555ca fsverity: explicitly check that there is no algorithm 0
-e77000ccc531088c486fe5fbd13416fd5e3d2714 fsverity: simplify handling of errors during initcall
-456ae5fe9b448f44ebe98b391a3bae9c75df465e fsverity: move sysctl registration out of signature.c
-919dc320956ea353a7fb2d84265195ad5ef525ac fsverity: skip PKCS#7 parser when keyring is empty
+324718ddddc40905f0216062dfbb977809184c06 fscrypt: improve the "Encryption modes and usage" section
 
---===============6919381682336453861==--
+--===============4748513202249963927==--
