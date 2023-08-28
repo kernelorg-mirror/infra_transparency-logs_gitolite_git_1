@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6702051740259503930=="
+Content-Type: multipart/mixed; boundary="===============4040628616110809621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 28 Aug 2023 09:28:49 -0000
-Message-Id: <169321492990.31607.13318919449416955214@gitolite.kernel.org>
+Date: Mon, 28 Aug 2023 09:29:07 -0000
+Message-Id: <169321494758.31796.8082268460795651521@gitolite.kernel.org>
 
---===============6702051740259503930==
+--===============4040628616110809621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: aa05346dad4b37d068cf9144f0a1236757816886
     new: 8be6f88b9d3fe1f6724daec4a70d6023742c9df7
     log: revlist-aa05346dad4b-8be6f88b9d3f.txt
 
---===============6702051740259503930==
+--===============4040628616110809621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ b9a341123937799157aa415cf3a60eb7f57d634f Merge branch 'octeontx2-af-misc-mac-blo
 bf68583624c56bab26b4394fb4721461ded62f94 selftests: bonding: create directly devices in the target namespaces
 8be6f88b9d3fe1f6724daec4a70d6023742c9df7 inet: fix IP_TRANSPARENT error handling
 
---===============6702051740259503930==--
+--===============4040628616110809621==--
