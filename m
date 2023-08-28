@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 28 Aug 2023 12:14:12 -0000
-Message-Id: <169322485216.11908.4073464196083176759@gitolite.kernel.org>
+Date: Mon, 28 Aug 2023 12:24:22 -0000
+Message-Id: <169322546264.18734.11367423491703376071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: bp
 changes:
-  - ref: refs/tags/smp-core-2023-08-28
+  - ref: refs/tags/x86_microcode_for_v6.6_rc1
     old: 0000000000000000000000000000000000000000
-    new: b4ad26ec6d4a90fe3db6d3956f52eff1a98d7c87
+    new: 2bab7aecf8052343c1032505a50493a3a0a52e17
