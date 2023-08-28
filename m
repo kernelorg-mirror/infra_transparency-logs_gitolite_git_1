@@ -1,68 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2406786054297514297=="
+Content-Type: multipart/mixed; boundary="===============5854737729239754316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 28 Aug 2023 09:39:52 -0000
-Message-Id: <169321559291.23381.18020472126112531387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 28 Aug 2023 09:47:03 -0000
+Message-Id: <169321602310.27683.5414186338602249126@gitolite.kernel.org>
 
---===============2406786054297514297==
+--===============5854737729239754316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/for-kbuild-bot/current-stable
-    old: c328ba8602906864849212de9927db3542a6d9f1
-    new: 4d3a09f18aff8a151dc585e0b94cb72daa81984e
-    log: revlist-c328ba860290-4d3a09f18aff.txt
-  - ref: refs/heads/for-kbuild-bot/prepare-release
-    old: c328ba8602906864849212de9927db3542a6d9f1
-    new: 4d3a09f18aff8a151dc585e0b94cb72daa81984e
-    log: revlist-c328ba860290-4d3a09f18aff.txt
-  - ref: refs/heads/linux-6.5.y-rt-rebase
-    old: c328ba8602906864849212de9927db3542a6d9f1
-    new: 4d3a09f18aff8a151dc585e0b94cb72daa81984e
-    log: revlist-c328ba860290-4d3a09f18aff.txt
+  - ref: refs/heads/for-linus
+    old: 922a9bd138101e3e5718f0f4d40dba68ef89bb43
+    new: eb1e6ccdcf785e633863c5c7cec32d6c1e7b09dd
+    log: |
+         e346f9dd4cc24761c2939f46416719487480dd5c m68k: defconfig: Update defconfigs for v6.5-rc1
+         7547cbe20ee80d24f3e182b4dcd3e05c473fb10b m68k: Replace #include <asm/export.h> with #include <linux/export.h>
+         6831a8a3bd76adb7f7c91006a8ce8b3b67a666cc m68k: Remove <asm/export.h>
+         668a920208fffaf5308aabd304f7568d6815169b m68k: Define __div64_32() to avoid a warning
+         1a48e2ccd4385caa9ad9659ac8f9d75affacc9da m68k: Add memcmp() declaration
+         eb1e6ccdcf785e633863c5c7cec32d6c1e7b09dd zorro: Include zorro.h in names.c
+         
+  - ref: refs/heads/master
+    old: f67d72a895ff9eb298110d1f29b8a718b6a1cc60
+    new: f4875d9457d7b2ea30ef54737e67ba66dc6e6542
+    log: revlist-f67d72a895ff-f4875d9457d7.txt
 
---===============2406786054297514297==
+--===============5854737729239754316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1693215562 +0200
-pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1693215561-065a731999e88900a337ad1bdc2c61373080de0e
-
-c328ba8602906864849212de9927db3542a6d9f1 4d3a09f18aff8a151dc585e0b94cb72daa81984e refs/heads/for-kbuild-bot/current-stable
-c328ba8602906864849212de9927db3542a6d9f1 4d3a09f18aff8a151dc585e0b94cb72daa81984e refs/heads/for-kbuild-bot/prepare-release
-c328ba8602906864849212de9927db3542a6d9f1 4d3a09f18aff8a151dc585e0b94cb72daa81984e refs/heads/linux-6.5.y-rt-rebase
------BEGIN PGP SIGNATURE-----
-
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmTsa0oWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W2gEC/0YLz3kakWd12h08Igyl3GuaIjL
-Pi0iZtVmWQD1BHj+fNLQsgwvA2yHvpYXim9XwKCJ0Sg+GPB2nuq87lBhjvdeR7qy
-oiERO2zhzCucMw5PzBz+Oj/+rsTLZ4i9nngwjZ1x7udDnI22nsy/NljqOYJrTRoc
-PY88VxdNK7nFmh+1gaEUgsohMEA8kMBlFRYfIXKQCS4YOshG+BQhe2IBVHeun6Su
-ulVyeexj2ebDw+mnpnKzMSXzI4z97N37pZxW2RSS5L4liImG5PwaGM0Gx9H8iaIk
-iz1vVb7iXH6N3kvuDc+mpl6wTLSrvCaLze/AKaV/BMGdOmshW/lVUwQ9jFrWsNPN
-VvXrlO3q/rTDmmhATI2wLRzkFQBFkRRnmBV1O2mnpOZM4BMDEH4MRtA9t3irJKll
-NzYN1RdQapTM8ZmaFzbD/Hn1EY5B2qxEcVZta/My9bUo6FZZEBYbh4J6Y8kGqt2N
-QM0aFRAsweJEZBZ5lTgw315xoB5AI1D/uA8Ps+E=
-=USkv
------END PGP SIGNATURE-----
-
---===============2406786054297514297==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c328ba860290-4d3a09f18aff.txt
+Content-Disposition: attachment; filename=revlist-f67d72a895ff-f4875d9457d7.txt
 
 1cbc11aaa01f80577b67ae02c73ee781112125fd NFSv4: Fix dropped lock for racing OPEN and delegation return
 c6a953cce8d0438391e6da48c8d0793d3fbfcfa6 batman-adv: Trigger events for auto adjusted MTU
@@ -255,92 +228,6 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 28f20a19294da7df158dfca259d0e2b5866baaf9 Merge tag 'x86-urgent-2023-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2dde18cd1d8fac735875f2e4987f11817cc0bc2c Linux 6.5
-fb82132e4f49d1678bad1f0807a89d4bd594f5d8 kernel/fork: beware of __put_task_struct calling context
-eafd72c5f36a828bcaf935c71def5e4138ac8f71 sched: avoid false lockdep splat in put_task_struct()
-120682420051070d4b632f48a827f288bc8f82c2 sched: Constrain locks in sched_submit_work()
-6836c9d0a33a70db0bf384cb39fdecd3817c1bf2 locking/rtmutex: Avoid unconditional slowpath for DEBUG_RT_MUTEXES
-367c5d57fcce58fc7f1c2d7e6f3594954b1b54a8 sched: Extract __schedule_loop()
-f529e983fc25372347fb6d517ae2486fd8f21298 sched: Provide rt_mutex specific scheduler helpers
-9a55f101992d14c1d8296d6d70d18f06fc651306 locking/rtmutex: Use rt_mutex specific scheduler helpers
-62dd89a89921d0e7e310a12462b1e54842e6e645 locking/rtmutex: Add a lockdep assert to catch potential nested blocking
-db15c4a627261ea395291ca7aff83ef69cc99db6 signal: Add proper comment about the preempt-disable in ptrace_stop().
-2f6b926311213a0a7b8553a356c49c744ee88507 signal: Don't disable preemption in ptrace_stop() on PREEMPT_RT.
-a5e0f9cddf0e996c5c781dadecb67133c286be3e seqlock: Do the lockdep annotation before locking in do_write_seqcount_begin_nested()
-2fe2d50fbb1b2d89eae19b22254cc30280a0c70f mm/page_alloc: Use write_seqlock_irqsave() instead write_seqlock() + local_irq_save().
-cd9c3afeac1275f755e292b68a50d282f0648695 net: Avoid the IPI to free the
-bcd688390ce8d46d1054dbec807afe9a0e50810a x86: Allow to enable RT
-34d1b40336baf697d9405086725c02c749d8776b x86: Enable RT also on 32bit
-1491021c81c5f5d925372b82614ae3b0e7595b91 sched/rt: Don't try push tasks if there are none.
-82696a391bb7c231f8449b9ec72c4a3794207e7b x86/microcode: Remove microcode_mutex.
-45626fe288ee919db3a480b1c48c2a0008054eae ASoC: mediatek: mt8186: Remove unused mutex.
-37e2638cdde8b360fb4a4cb0b7b88f38108bd939 softirq: Use a dedicated thread for timer wakeups.
-a391995d4521006afdb5f8ac3b0f3e726dbee0c0 rcutorture: Also force sched priority to timersd on boosting test.
-916eb3e119964001a1c1e87bae1b22a58bb4f088 tick: Fix timer storm since introduction of timersd
-27cb394423773422ed8d0283a1b1163f6e10e3f5 softirq: Wake ktimers thread also in softirq.
-b2a90a3b0aab52bd2d105f84e3ee6ae2a4c5da35 zram: Replace bit spinlocks with spinlock_t for PREEMPT_RT.
-77352265081e16446a454e59aab17d270a1a9e2e preempt: Put preempt_enable() within an instrumentation*() section.
-ffa355c8ec628f908fe62978a5d1195af7019664 sched/core: Provide a method to check if a task is PI-boosted.
-0171c1a346f77f2d37a1cea42bcb021f068f3208 softirq: Add function to preempt serving softirqs.
-31343c9db2e9dbea3e5f09867915d384370c23dc time: Allow to preempt after a callback.
-9b511cad88c22af7fb912bc12863d4fb2f8b5c60 kdb: do not assume write() callback available
-9253f82d3e578d1391cb848289bb7dbe61616f6f printk: Add NMI check to console_flush_on_panic() and console_unblank()
-5c93559cf7f8057deab2fbd8901e47f2f69755d1 printk: Consolidate console deferred printing
-afbdab0245ac9923cfb489ac6c832f965b76aad5 printk: Add per-console suspended state
-25f4cd871d7fcccc83fed43e4667f501da64e3c6 printk: Add non-BKL console basic infrastructure
-1120443bb4b3a0251791d4b30470a42cf962fc27 printk: nobkl: Add acquire/release logic
-6c6a910869b88aeb105580f0a8b47ee6644aaf2a printk: nobkl: Add buffer management
-81ec16264b029d3ededd1e5df326ccee13dbbb28 printk: nobkl: Add sequence handling
-3db9030e5e58c45e3002ef193258cbed1ace6cb8 printk: nobkl: Add print state functions
-966aed8800f0737348b47353a423468e0dab47e9 printk: nobkl: Add emit function and callback functions for atomic printing
-3e7f673db3a1096d749025d4b0e273f71b2e2fc0 printk: nobkl: Introduce printer threads
-70862039fc94fdcd72fb8ebe76089b3c501a993d printk: nobkl: Add printer thread wakeups
-93894617a76f48ba4bbad42282cf9cc51d9fed6a printk: nobkl: Add write context storage for atomic writes
-61c38c5cf41ff9006fc1ba624a076d42d9bb11ee printk: nobkl: Provide functions for atomic write enforcement
-4bbc1d75fb60a90684242853e3fbf5e51fa4dd3d printk: nobkl: Stop threads on shutdown/reboot
-ca6820a118ba52566319225f37e6bfa5d6eb9f73 tty: tty_io: Show non-BKL consoles as active
-254decdec07c8c4e7ea6cd792f90f7464c0676de proc: consoles: Add support for non-BKL consoles
-fcf683d3299e9f9eab838d3dd5309f524b90d21f kernel/panic: Add atomic write enforcement to warn/panic
-53c304fe97e92b97034cd443c5a226c6d679da50 rcu: Add atomic write enforcement for rcu stalls
-181877892d2bc0770de1ce99ffc7b402d5f9ccbc printk: Perform atomic flush in console_flush_on_panic()
-6ee34d5ea44ebf9566717c36d615d97020b44bd1 printk: only disable if actually unregistered
-216b37361fd40f259285270247b9c4ff432b09b2 printk: Add threaded printing support for BKL consoles.
-19e790927051661c04e5992e438bb5ce32d91ef4 printk: replace local_irq_save with local_lock for safe mode
-bbed94a61d7be55a64c9d87e0c5d55faef924f57 serial: 8250: implement non-BKL console
-fa68a61f08c4531bf75c11d561388342a1026a48 printk: Check only for migration in printk_deferred_*().
-52f6690924d54bad4a6176678dacfaaf98c75a82 drm/i915: Use preempt_disable/enable_rt() where recommended
-23ec9df1b1f206657a7ec119a6cae7f121b109d7 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
-7e0aa71f87d4d9acbbbba71795be21b594358abf drm/i915: Don't check for atomic context on PREEMPT_RT
-e7f5c4cd96c1ac29314b2bf22c9bed571a3de535 drm/i915: Disable tracing points on PREEMPT_RT
-acfa2b8c0b59f86c8ed528eda4aab18b653feff3 drm/i915: skip DRM_I915_LOW_LEVEL_TRACEPOINTS with NOTRACE
-37cb005743548241e3378ff711fe4d04812597be drm/i915/gt: Queue and wait for the irq_work item.
-cffd438912bb2b10cb644a250cfa66fd607d335c drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
-dfb4e54fbb7af64d4fd40570eafde3536abfed69 drm/i915: Drop the irqs_disabled() check
-f8e9a6b6b76240139d14990aaf4151eab980b644 drm/i915: Do not disable preemption for resets
-4c8d14e9019f148ce71d7eaf4799d31a45cda289 Revert "drm/i915: Depend on !PREEMPT_RT."
-2e995aa5f0fccc961b39b56a9bafbbf621086b75 sched: Add support for lazy preemption
-07449a648412d7e12026459bbc78af544fef7ce0 x86/entry: Use should_resched() in idtentry_exit_cond_resched()
-5bbd022e2aace072977c7dd17b83cea34a7fa9e6 x86: Support for lazy preemption
-b12fcd9407e810a49a6e11afd651851ea11422bf entry: Fix the preempt lazy fallout
-d34062761d346821ee102c60d0c0fc56f8c4f629 arm: Add support for lazy preemption
-b999b8ad434f3def5da0e01187e4deb4a6abbf37 powerpc: Add support for lazy preemption
-00127f6070471ff7344acba6b5352eb8180f85b1 arch/arm64: Add lazy preempt support
-14374e2ca658766b2b53144284d3eb9aa00a49be arm: Disable jump-label on PREEMPT_RT.
-0302f38f798718a4623c07a88e303adfc0ebc527 ARM: enable irq in translation/section permission fault handlers
-7572b6f4b7abf968ca85d6f3dd02ee3cf7f434ec tty/serial/omap: Make the locking RT aware
-a9b4b5675e051f418ae126ebc8200ef19676a2a8 tty/serial/pl011: Make the locking work on RT
-db9b0389983b9292123f775868f2afd30964dfad ARM: vfp: Provide vfp_lock() for VFP locking.
-93c9d547f28cd86c4dc0a6ce67b359779216b644 ARM: vfp: Use vfp_lock() in vfp_sync_hwstate().
-111102ad3bacde85a9f55e41a5adf5c179da4ddd ARM: vfp: Use vfp_lock() in vfp_entry().
-c3f2283a55fee1c4e2ac6a12371077bbddce28da ARM: Allow to enable RT
-be22bf7bfa364aa8285f34f68543f4d8ffbc7941 ARM64: Allow to enable RT
-28f37828c5d7e454cc80778a626ea651673704a9 powerpc: traps: Use PREEMPT_RT
-acfcdc31d3e40ecf97d98af2f9739b739cbc3134 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
-012980d08d2617f32bff8227143e277f82f9fdee powerpc/imc-pmu: Use the correct spinlock initializer.
-2b1c76e4a884fa3f06b24619f818393d7996a04c powerpc/pseries: Select the generic memory allocator.
-b0385bc56036e4ca77aa8b73535e607bf1d6a099 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
-fafae4e9d44eb153555501d9ac74f2211fcd9059 powerpc/stackprotector: work around stack-guard init from atomic
-6193b0ffea3476c4f797ef67c2d23c0f91c3ae95 POWERPC: Allow to enable RT
-c6a53747a08d873c3015aa4cfe7c95f9d0190768 sysfs: Add /sys/kernel/realtime entry
-4d3a09f18aff8a151dc585e0b94cb72daa81984e Add localversion for -RT release
+f4875d9457d7b2ea30ef54737e67ba66dc6e6542 Merge tag 'v6.5'
 
---===============2406786054297514297==--
+--===============5854737729239754316==--
