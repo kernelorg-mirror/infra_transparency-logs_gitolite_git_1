@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 28 Aug 2023 08:49:32 -0000
-Message-Id: <169321257225.2279.18396540287119142880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 28 Aug 2023 09:01:54 -0000
+Message-Id: <169321331436.11489.16020264084050130094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/review-hans
-    old: 4dbd6e61adc7e52dd1c9165f0ccaa90806611e40
-    new: ecaa1867b5243cf99e6ce9b46e372a66bd7cbfa2
+  - ref: refs/heads/main
+    old: bb5ed01cd2428cd25b1c88a3a9cba87055eb289f
+    new: 72dd7e427e16fca901daaa399e4b0893c3bb85c0
     log: |
-         5ee473bbf43086f23eb2cd1b5a50498438e296a6 platform/x86/amd/pmc: Fix build error with randconfig
-         ecaa1867b5243cf99e6ce9b46e372a66bd7cbfa2 platform/x86: ideapad-laptop: Add support for keyboard backlights using KBLC ACPI symbol
+         72dd7e427e16fca901daaa399e4b0893c3bb85c0 dt-bindings: net: dsa: marvell: fix wrong model in compatibility list
          
