@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 28 Aug 2023 20:31:23 -0000
-Message-Id: <169325468374.17845.11633375738227884029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 28 Aug 2023 20:32:53 -0000
+Message-Id: <169325477318.18437.10200886678717956221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/flex-array-transformations-6.6-rc1
+  - ref: refs/tags/locking-core-2023-08-28
     old: 0000000000000000000000000000000000000000
-    new: c51298524b10a745585e872f9e685bac8d4870b3
+    new: f5284e92e9fa1c99dedd995d6461610bc856ff96
