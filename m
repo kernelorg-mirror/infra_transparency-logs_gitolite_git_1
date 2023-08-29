@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4823343185674436643=="
+Content-Type: multipart/mixed; boundary="===============4519691740251028543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 29 Aug 2023 17:16:18 -0000
-Message-Id: <169332937816.2176.11963080891281295239@gitolite.kernel.org>
+Date: Tue, 29 Aug 2023 17:16:52 -0000
+Message-Id: <169332941239.2468.1075514923760653773@gitolite.kernel.org>
 
---===============4823343185674436643==
+--===============4519691740251028543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b5cc3833f13ace75e26e3f7b51cd7b6da5e9cf17
-    new: 90ca51e8c654699b672ba61aeaa418dfb3252e5e
-    log: revlist-b5cc3833f13a-90ca51e8c654.txt
+  - ref: refs/heads/dev-queue
+    old: c5ce744d9bee75de0a36d188ca5365f28b515f10
+    new: e974c49318bcbfb4d5619bf675287d9039d9f26c
+    log: revlist-c5ce744d9bee-e974c49318bc.txt
 
---===============4823343185674436643==
+--===============4519691740251028543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5cc3833f13a-90ca51e8c654.txt
+Content-Disposition: attachment; filename=revlist-c5ce744d9bee-e974c49318bc.txt
 
 84a58e60038fa0366006977dba85eae16b2e3d78 net/mlx5: Dynamic cyclecounter shift calculation for PTP free running clock
 a4f39c9f14a634e4cd35fcd338c239d11fcc73fc net: handle ARPHRD_PPP in dev_is_mac_header_xmit()
@@ -53,5 +53,14 @@ bb5ed01cd2428cd25b1c88a3a9cba87055eb289f igb: set max size RX buffer when store 
 977ad86c2a1bcaf58f01ab98df5cc145083c489c dccp: Fix out of bounds access in DCCP error handler
 ec1b90886f3cd7e90d4c0381dffb418e2d3a1473 ethernet: tg3: remove unreachable code
 90ca51e8c654699b672ba61aeaa418dfb3252e5e r8169: fix ASPM-related issues on a number of systems with NIC version from RTL8168h
+744744e7fcd6b392bfb2e41109d4c5cb306c77f4 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+fb88a6d9f9025b395b4152fc879094bfe7b3c4f3 igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+a80b6a5ec0b48abe4f8f882032c60ec6972f95d8 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+6707fcac88733b1952e00db9d0b1241c62d302f9 i40e: fix livelocks in i40e_reset_subtask()
+40a2870f345a845cc2f225997b4431f48a4271cd iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+2d70a651309999165515187b9064322358bf4aa8 i40e: fix potential memory leaks in i40e_remove()
+a8350478eaf6a808f291276325ddacffd64921a2 i40e: fix 32bit FW gtime wrapping issue
+7ec07434b4a1f834d4187b0a6f296548890a7254 iavf: Fix promiscuous mode configuration flow messages
+e974c49318bcbfb4d5619bf675287d9039d9f26c ixgbe: fix timestamp configuration code
 
---===============4823343185674436643==--
+--===============4519691740251028543==--
