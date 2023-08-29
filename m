@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4193965062844587066=="
+Content-Type: multipart/mixed; boundary="===============8770771717232374703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 29 Aug 2023 09:33:45 -0000
-Message-Id: <169330162534.4433.10960249111141769382@gitolite.kernel.org>
+Date: Tue, 29 Aug 2023 09:39:08 -0000
+Message-Id: <169330194895.18550.4895140462981132122@gitolite.kernel.org>
 
---===============4193965062844587066==
+--===============8770771717232374703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,32 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 66489e5487b7157c457d84ed23cd6306e811df07
+  - ref: refs/heads/slab/for-linus
+    old: 0000000000000000000000000000000000000000
     new: 3d053e8060430b86bad0854b7c7f03f15be3a7e5
-    log: |
-         3d053e8060430b86bad0854b7c7f03f15be3a7e5 Merge branch 'slab/for-6.6/random_kmalloc' into slab/for-next
-         
 
---===============4193965062844587066==
+--===============8770771717232374703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1693301621 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1693301944 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1693301620-6c25e2d430d30426214eaeb7ce4833e9cda61c3b
+nonce 1693301944-912f26338fa07e3459ca90b48500432babfaa020
 
-66489e5487b7157c457d84ed23cd6306e811df07 3d053e8060430b86bad0854b7c7f03f15be3a7e5 refs/heads/for-next
+0000000000000000000000000000000000000000 3d053e8060430b86bad0854b7c7f03f15be3a7e5 refs/heads/slab/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmTtu3UACgkQu+CwddJF
-iJoHhggAl9b6ofewCkSKp7LRkfZs5pccX0CiCPkp2VTNNTXEaPcDfCZNvxcjpEBy
-hY/GYZvIo8C4Z9XdFPJDaCcRRFPI/MzFfsc1LLOLmtJx7zyWMyFCbbJs9YZsx2nB
-58I6n2qK2XqafPtxm5+KkbJJADr97agzkXzjklfCedfN5s4lMn5VKEvSzBaCxWKY
-6rR7pPDu1lQWCC4dFisCdKnrEsRMrw8vzYljIpcVQkN4HHSIj5FSOAH79DwuaQkz
-ycZHpFz1SM0kpgkRkOg+fWfgD9kNAmPKAjrXUcBqGGRc6s0Tk31D5iwKYoZebYy4
-R0wcuvTuQphHWG5OEw7gb2d0HO6hlA==
-=/Rb9
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmTtvLgACgkQu+CwddJF
+iJowpggAoFjyrjG0FiWJqnPn4WIX9NXfespuBr3ypBph8HV0qYiY71/S7f/O8FW7
+mRrWz9Z4ETIi0xTndTEFxj7PqBzzUG/Q3sml3wmM36859lUatpZj0qnjXjX7SPgm
+aVGlol+aDPl+kcl8CSCxwTbY+6Tg7im97HdHdeHCzzPlZnu9cxfRLvi27cjp5TxF
+aPyRJbzCymvlvxB3Fo7cvC+GFGgaoTdrzSLFjy8ELfWdDH6Ez6Hzpglvc7MRk+TT
+E3wYJBgG7J9cz075N7n9nkMKzQODPnmDOovc3o6DG3WFej83MtpZns821KOdbw6T
+2rC+qhimLDPgSVH727nWl2Lidx3kUw==
+=3tGF
 -----END PGP SIGNATURE-----
 
---===============4193965062844587066==--
+--===============8770771717232374703==--
