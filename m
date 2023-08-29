@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Tue, 29 Aug 2023 20:08:36 -0000
-Message-Id: <169333971635.31920.12076356963544873275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 29 Aug 2023 20:10:51 -0000
+Message-Id: <169333985198.2083.1051761110767030019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: 2729665ab5e287c0389c2b927e5408b373855d50
-    new: afce8e8bfb2337ba098868055ef591dd93eceea1
-    log: |
-         afce8e8bfb2337ba098868055ef591dd93eceea1 generic/*: add a check for security attrs
-         
+  - ref: refs/tags/test.1693339847.x86_mm_for_6.6
+    old: 0000000000000000000000000000000000000000
+    new: fa6de61af42c6bbaff48f07b306ffe3c7345a672
