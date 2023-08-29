@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 29 Aug 2023 11:27:49 -0000
-Message-Id: <169330846976.6257.2988982844088057299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 29 Aug 2023 11:28:26 -0000
+Message-Id: <169330850636.6554.13395467573602661445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: becc678d19b66f4d5929297987a2758a04685267
-    new: 659dfe6435b77a075d9896ff34250bcaab55d75b
+  - ref: refs/heads/master
+    old: 333bd846c40198ceeaf8299d810b49a908c40035
+    new: a350da35cbafb7611fa33e750c8ca4d4239b1f61
     log: |
-         a33f8f1abd1df344798188807de4b4397d7484d3 amdgpu: update DMCUB to 0.0.181.0 for various AMDGPU ASICs
-         659dfe6435b77a075d9896ff34250bcaab55d75b Merge tag 'amd-2023-08-25' of https://gitlab.freedesktop.org/drm/firmware
+         a350da35cbafb7611fa33e750c8ca4d4239b1f61 man.7: Replace page with `so` of groff_man(7)
          
