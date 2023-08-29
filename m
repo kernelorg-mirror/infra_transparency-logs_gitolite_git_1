@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 29 Aug 2023 13:05:51 -0000
-Message-Id: <169331435161.13258.236700651419718839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 29 Aug 2023 13:18:34 -0000
+Message-Id: <169331511415.22570.17465692470514292344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 3ddf370943d62e3bfa4ddcc9c2ab34f61d1df47f
-    new: 7d8b7810f6a13b4165bfc9a8b6dee5f31f1fbd92
+  - ref: refs/heads/vfs.super
+    old: dc3216b1416056b04712e53431f6e9aefdc83177
+    new: a91589157e4582182d48a5b7451c4303add26a69
     log: |
-         7d8b7810f6a13b4165bfc9a8b6dee5f31f1fbd92 Tue Aug 29 01:02:22 PM UTC 2023
+         b85ee296f59b0a8e739f10ab9005b7c1fe1aad23 fs: export vfs_super_s_dev_{set,test} helpers
+         a91589157e4582182d48a5b7451c4303add26a69 mtd: key superblock by device number
          
