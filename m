@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 29 Aug 2023 14:16:38 -0000
-Message-Id: <169331859842.729.5130308472272909072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 29 Aug 2023 14:29:50 -0000
+Message-Id: <169331939000.8592.6398644579668980922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-linus
-    old: d81c203e61780f3635e5eddd03f00d8bdcd7c3df
-    new: 358040e3807754944dbddf948a23c6d914297ed7
-    log: |
-         358040e3807754944dbddf948a23c6d914297ed7 ALSA: pcm: Fix missing fixup call in compat hw_refine ioctl
-         
   - ref: refs/heads/master
-    old: db08d13685c47b0b22d176ca18ae65f3b5ef2ee7
-    new: bb3e487fa2d370837c0205e5a482165874345838
+    old: d62de8c1c711ec7eb77de40e99a37d7bb0784bb2
+    new: c9250f8d67fe9cdbaf6c25c27a395df48116a041
     log: |
-         358040e3807754944dbddf948a23c6d914297ed7 ALSA: pcm: Fix missing fixup call in compat hw_refine ioctl
-         bb3e487fa2d370837c0205e5a482165874345838 Merge branch 'for-linus'
+         7a7c2b45c4461266e097a04fa43017f6b0497994 defer/rcuusage: Remove redundant question from answer
+         c9250f8d67fe9cdbaf6c25c27a395df48116a041 Update plot of RCU-test-ratio as of v6.5
          
