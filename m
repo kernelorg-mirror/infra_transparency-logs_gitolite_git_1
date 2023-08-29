@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 29 Aug 2023 10:10:18 -0000
-Message-Id: <169330381853.14567.7834153746792530139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 29 Aug 2023 10:14:08 -0000
+Message-Id: <169330404898.15972.14759274803326933554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/tags/parisc-for-6.6-rc1
+  - ref: refs/heads/pcc_type4
     old: 0000000000000000000000000000000000000000
-    new: 090403c2d6d09992d53f99d260eeae300d4d9c0f
+    new: f26b0285b5d99cee1e33f556033c46abd5cdfe3c
