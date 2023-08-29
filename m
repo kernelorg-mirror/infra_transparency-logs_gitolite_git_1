@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Tue, 29 Aug 2023 17:20:32 -0000
-Message-Id: <169332963286.5658.1966669984367822238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 29 Aug 2023 17:20:45 -0000
+Message-Id: <169332964545.5843.11483766878456757918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/stable-6.6
     old: 0000000000000000000000000000000000000000
-    new: b1a0f64cc65ea2ebfaae9e0ce623e993a7d24257
-  - ref: refs/tags/audit-pr-20230829
+    new: 1df83cbf23a27174aee6ea5e52462f03f7e48a10
+  - ref: refs/tags/selinux-pr-20230829
     old: 0000000000000000000000000000000000000000
-    new: 826a77f714cdd951edb447a5998b537d9299a259
+    new: 34463c91f2ce189e8cb4e747004b68c47c61062a
