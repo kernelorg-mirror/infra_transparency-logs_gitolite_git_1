@@ -1,19 +1,103 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 29 Aug 2023 19:39:07 -0000
-Message-Id: <169333794723.9892.7869130379889671192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Tue, 29 Aug 2023 19:42:24 -0000
+Message-Id: <169333814438.12722.2505966673680853434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/dm-6.5-vdo
-    old: 9efebd95b37c398a0319d5ef5a753ea4797b6a41
-    new: 33c863d26565c718e5444bd2944ebe605e509588
-    log: |
-         33c863d26565c718e5444bd2944ebe605e509588 dm vdo wait-queue: add proper namespace to interface
-         
+  - ref: refs/tags/iomap-6.4-merge-1
+    old: 0000000000000000000000000000000000000000
+    new: 060246ef3e486150415191e61925cefd0ca4a276
+  - ref: refs/tags/iomap-6.5-fixes-1
+    old: 0000000000000000000000000000000000000000
+    new: cdd360be9483762ba63a1c84515d16b4cc054039
+  - ref: refs/tags/iomap-6.5-merge-1
+    old: 0000000000000000000000000000000000000000
+    new: b18b4d6210ae404bac7f8e65361f2a63423f44a5
+  - ref: refs/tags/modules-6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f3551e63223447903ff07440908482014d68c87d
+  - ref: refs/tags/v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/tags/v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/tags/v6.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
+  - ref: refs/tags/v6.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/tags/v6.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/tags/v6.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
+  - ref: refs/tags/v6.5-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
+  - ref: refs/tags/vfs-6.6-merge-2
+    old: 0000000000000000000000000000000000000000
+    new: 06a04a6f7687bb4a3b9a62c4ee96e9f0fa62abf3
+  - ref: refs/tags/xfs-6.3-fixes-1
+    old: 0000000000000000000000000000000000000000
+    new: 5928a43fd3b06b614b8ec8478104f0c4d62dc371
+  - ref: refs/tags/xfs-6.3-fixes-2
+    old: 0000000000000000000000000000000000000000
+    new: 5375e112a18132e86f6dbec8fb3c8f569cd136e2
+  - ref: refs/tags/xfs-6.3-fixes-3
+    old: 0000000000000000000000000000000000000000
+    new: 3d5c7834b51d741c0436aa44ecd41e0ff90288c6
+  - ref: refs/tags/xfs-6.3-fixes-4
+    old: 0000000000000000000000000000000000000000
+    new: 2d4e6ed688eedabb56ed4b5f7155621ddad3eb17
+  - ref: refs/tags/xfs-6.3-fixes-5
+    old: 0000000000000000000000000000000000000000
+    new: 618f9ceecb9e005f4f4ebd1d89191a2bbda53f38
+  - ref: refs/tags/xfs-6.3-fixes-6
+    old: 0000000000000000000000000000000000000000
+    new: 6939660d2ab7c07e970e7ef832e779909ce18409
+  - ref: refs/tags/xfs-6.3-fixes-7
+    old: 0000000000000000000000000000000000000000
+    new: 816eb9efaa2eab4e16f5c03a169ed2590a5aa85f
+  - ref: refs/tags/xfs-6.4-merge-1
+    old: 0000000000000000000000000000000000000000
+    new: 7c003f88a4fbb71118d43c910be0b08424184665
+  - ref: refs/tags/xfs-6.4-rc1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 759e7ee7c63b2b1fcd69e3ce19aa911a5954d9b3
+  - ref: refs/tags/xfs-6.4-rc5-fixes
+    old: 0000000000000000000000000000000000000000
+    new: fac336d739dc8cdad1f19fcdbff934e48a02e322
+  - ref: refs/tags/xfs-6.5-fixes-1
+    old: 0000000000000000000000000000000000000000
+    new: c4cd7b4b88fabec8a4f2a3d1f123fea87e9d4804
+  - ref: refs/tags/xfs-6.5-merge-1
+    old: 0000000000000000000000000000000000000000
+    new: c29684e99d937ce5c6cdfda040989e11dd636d60
+  - ref: refs/tags/xfs-6.5-merge-2
+    old: 0000000000000000000000000000000000000000
+    new: e8858bfbee1f1170e2a5ef041efc6e825d8127be
+  - ref: refs/tags/xfs-6.5-merge-3
+    old: 0000000000000000000000000000000000000000
+    new: ba19493c99b3e65b9ed644f207d11d0769011f14
+  - ref: refs/tags/xfs-6.5-merge-4
+    old: 0000000000000000000000000000000000000000
+    new: 015211fa324f87eae7d0ec42c6e3320695e659dc
+  - ref: refs/tags/xfs-6.5-merge-5
+    old: 0000000000000000000000000000000000000000
+    new: 1838b78eca10d4d84eec54c88bad6a4a052a4554
+  - ref: refs/tags/xfs-6.5-merge-6
+    old: 0000000000000000000000000000000000000000
+    new: 406a23102bcb9084dc7875a60b1e8e6ecdf48ba3
