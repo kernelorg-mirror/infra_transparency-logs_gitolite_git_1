@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 29 Aug 2023 09:03:32 -0000
-Message-Id: <169329981281.15023.8940629107909373862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-hw
+Date: Tue, 29 Aug 2023 09:26:57 -0000
+Message-Id: <169330121776.32629.9949512959559874038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/maz/cs-hw
+user: maz
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: bc5bfb684baaedd158bfd50eb858e369d2fd9914
-    new: 08101c95a0b8e69a2c410e7f2f5da0dede0d2302
+  - ref: refs/heads/v3-dev
+    old: b67df324733a54dc88cc6e82ac2db65271963514
+    new: eac86b8e5a84ab29438023b488938d2962b83e2e
     log: |
-         08101c95a0b8e69a2c410e7f2f5da0dede0d2302 cpufreq: tegra194: fix warning due to missing opp_put
+         eac86b8e5a84ab29438023b488938d2962b83e2e Sync with schematics
          
