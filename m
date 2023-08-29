@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4456951163528328470=="
+Content-Type: multipart/mixed; boundary="===============3467665988920810694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Tue, 29 Aug 2023 15:59:18 -0000
-Message-Id: <169332475816.9374.7001232521483157768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 29 Aug 2023 15:59:22 -0000
+Message-Id: <169332476256.9464.13887165653294042453@gitolite.kernel.org>
 
---===============4456951163528328470==
+--===============3467665988920810694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 120548d8a2810ceb860fa6ae016d02fce47c6a93
-    new: 94e5ef9b157c6c3779352a8d4121542f71de52a1
-    log: revlist-120548d8a281-94e5ef9b157c.txt
+    old: 6562f24b062008390199f85e60824e48e2da821e
+    new: 50a510a78287c15cee644f345ef8bac8977986a7
+    log: revlist-6562f24b0620-50a510a78287.txt
 
---===============4456951163528328470==
+--===============3467665988920810694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-120548d8a281-94e5ef9b157c.txt
+Content-Disposition: attachment; filename=revlist-6562f24b0620-50a510a78287.txt
 
 dddfa05eb58076ad60f9a66e7155a5b3502b2dd5 Revert "um: Use swap() to make code cleaner"
 253e5df8b8f0145adb090f57c6f4e6efa52d738e tmpfs: fix Documentation of noswap and huge mount options
@@ -1049,6 +1049,6 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 28f20a19294da7df158dfca259d0e2b5866baaf9 Merge tag 'x86-urgent-2023-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2dde18cd1d8fac735875f2e4987f11817cc0bc2c Linux 6.5
-94e5ef9b157c6c3779352a8d4121542f71de52a1 audit: add a Linux Audit specific README.md and SECURITY.md
+50a510a78287c15cee644f345ef8bac8977986a7 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============4456951163528328470==--
+--===============3467665988920810694==--
