@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8320224853130140899=="
+Content-Type: multipart/mixed; boundary="===============9167791817522413349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 29 Aug 2023 17:27:23 -0000
-Message-Id: <169333004397.9870.8685358269246135997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 29 Aug 2023 17:27:59 -0000
+Message-Id: <169333007967.10218.9583657078089282018@gitolite.kernel.org>
 
---===============8320224853130140899==
+--===============9167791817522413349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: d2045f87154bf67a50ebefe28d2ca0e1e3f8eef1
     log: revlist-eeb6b12992c4-d2045f87154b.txt
 
---===============8320224853130140899==
+--===============9167791817522413349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ c091c78b73c82f1e2811ab19b8e287ddc7807651 libperf: Get rid of attr.id field
 a84260e314029e6dc9904fd6eabf8d9fd7965351 perf test stat_bpf_counters_cgrp: Enhance perf stat cgroup BPF counter test
 d2045f87154bf67a50ebefe28d2ca0e1e3f8eef1 perf jevents: Use "default_core" for events with no Unit
 
---===============8320224853130140899==--
+--===============9167791817522413349==--
