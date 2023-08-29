@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 29 Aug 2023 03:09:34 -0000
-Message-Id: <169327857409.19398.17920644469771019259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 29 Aug 2023 03:29:02 -0000
+Message-Id: <169327974281.352.7051951274314224883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: 2de6d2b42c466eaf493a7bb35ce5ff7a0e0c5844
-    new: 3ddf370943d62e3bfa4ddcc9c2ab34f61d1df47f
-    log: |
-         3ddf370943d62e3bfa4ddcc9c2ab34f61d1df47f Tue Aug 29 03:05:55 AM UTC 2023
-         
+  - ref: refs/heads/jitalloc/v2.4
+    old: 0000000000000000000000000000000000000000
+    new: 09357063ca81293addb3df0a8ac319291c2361f2
