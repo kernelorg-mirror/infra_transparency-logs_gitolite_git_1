@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 29 Aug 2023 14:29:50 -0000
-Message-Id: <169331939000.8592.6398644579668980922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 29 Aug 2023 14:45:27 -0000
+Message-Id: <169332032737.21816.6761057568124791016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: d62de8c1c711ec7eb77de40e99a37d7bb0784bb2
-    new: c9250f8d67fe9cdbaf6c25c27a395df48116a041
+  - ref: refs/heads/main
+    old: 659dfe6435b77a075d9896ff34250bcaab55d75b
+    new: 8e1fe1bd719622ecfa9e8749f6936ab89cb88f3f
     log: |
-         7a7c2b45c4461266e097a04fa43017f6b0497994 defer/rcuusage: Remove redundant question from answer
-         c9250f8d67fe9cdbaf6c25c27a395df48116a041 Update plot of RCU-test-ratio as of v6.5
+         49f9e3479fb564ab96ebbfef327743b0ec2a7620 i915: Update MTL DMC to v2.16
+         8e1fe1bd719622ecfa9e8749f6936ab89cb88f3f Merge branch 'dmc-mtl_2.16' of git://anongit.freedesktop.org/drm/drm-firmware
          
