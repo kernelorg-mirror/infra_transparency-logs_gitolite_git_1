@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 29 Aug 2023 08:38:39 -0000
-Message-Id: <169329831936.30571.4602536206464888911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 29 Aug 2023 09:03:32 -0000
+Message-Id: <169329981281.15023.8940629107909373862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: ee0086c365c19587d9db0c26075bec4950b059f5
-    new: bd3c799ef3c4d6886b5b11972d52cd5a49c89d2c
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: bc5bfb684baaedd158bfd50eb858e369d2fd9914
+    new: 08101c95a0b8e69a2c410e7f2f5da0dede0d2302
     log: |
-         5fe661541c3d6c3282332bc1ee920b65486d3a10 scripts/sortman: Treat [_-] as a space
-         bd3c799ef3c4d6886b5b11972d52cd5a49c89d2c strcpy.3, strncat.3, string_copying.7: tfix
+         08101c95a0b8e69a2c410e7f2f5da0dede0d2302 cpufreq: tegra194: fix warning due to missing opp_put
          
