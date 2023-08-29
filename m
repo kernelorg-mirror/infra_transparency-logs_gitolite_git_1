@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7251912492570977123=="
+Content-Type: multipart/mixed; boundary="===============0895271177698002826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 29 Aug 2023 13:39:49 -0000
-Message-Id: <169331638968.5574.5291046688405469334@gitolite.kernel.org>
+Date: Tue, 29 Aug 2023 13:39:58 -0000
+Message-Id: <169331639829.5726.8078471471856561803@gitolite.kernel.org>
 
---===============7251912492570977123==
+--===============0895271177698002826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: bda09c0e14a42d82a179b694f8ae047da8ba1683
     new: c6cc1d041e6886c9ac3533b5db270bece911a963
     log: revlist-bda09c0e14a4-c6cc1d041e68.txt
 
---===============7251912492570977123==
+--===============0895271177698002826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ ef714c4890c86f2dda5ea3e4a1409c74f0d98a61 kbuild: support modules_sign for extern
 dcc535361f35fa710d6f7bbe6d70f3658d1d34e4 modpost: Skip .llvm.call-graph-profile section check
 c6cc1d041e6886c9ac3533b5db270bece911a963 Documentation/llvm: refresh docs
 
---===============7251912492570977123==--
+--===============0895271177698002826==--
