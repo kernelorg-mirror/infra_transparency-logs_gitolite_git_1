@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Aug 2023 08:08:57 -0000
-Message-Id: <169338293771.10789.7145493505242075808@gitolite.kernel.org>
+Date: Wed, 30 Aug 2023 08:11:27 -0000
+Message-Id: <169338308766.13360.4404162646492896221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: ae29ffcfd2afa196c7ce7a461e737d2208598417
-    new: 039f727bf7b8fed0a478b41d66a65d3ed61d3505
+  - ref: refs/heads/x86/urgent
+    old: 2c66ca3949dc701da7f4c9407f2140ae425683a5
+    new: e8f13e061d75ed0eeaaf599532a6b197f195d5f3
     log: |
-         0d6b35283bcf1a379cf20066544af8e6a6b16b46 sched/core: Report correct state for TASK_IDLE | TASK_FREEZABLE
-         039f727bf7b8fed0a478b41d66a65d3ed61d3505 Merge branch into tip/master: 'sched/urgent'
+         e8f13e061d75ed0eeaaf599532a6b197f195d5f3 x86/audit: Fix -Wmissing-variable-declarations warning for ia32_xyz_class
          
