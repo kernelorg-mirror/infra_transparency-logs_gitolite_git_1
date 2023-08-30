@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Aug 2023 08:11:32 -0000
-Message-Id: <169338309280.13488.11262129658763996474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 30 Aug 2023 08:30:29 -0000
+Message-Id: <169338422962.26566.15725477057044968891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 039f727bf7b8fed0a478b41d66a65d3ed61d3505
-    new: 9609d8b2ce2cfe632477314d670164f0110257f6
+  - ref: refs/heads/controller/vmd
+    old: f73eedc90bf73d48e8368e6b0b4ad76a7fffaef7
+    new: 1bae18a3eeee2652f346efbdf41a53c8743a3a9c
     log: |
-         e8f13e061d75ed0eeaaf599532a6b197f195d5f3 x86/audit: Fix -Wmissing-variable-declarations warning for ia32_xyz_class
-         9609d8b2ce2cfe632477314d670164f0110257f6 Merge branch into tip/master: 'x86/urgent'
+         1bae18a3eeee2652f346efbdf41a53c8743a3a9c PCI: vmd: Fix inconsistent indentation in vmd_resume()
          
