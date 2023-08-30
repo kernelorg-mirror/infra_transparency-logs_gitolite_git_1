@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 30 Aug 2023 11:50:57 -0000
-Message-Id: <169339625757.26483.12310841618208816146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 30 Aug 2023 11:51:33 -0000
+Message-Id: <169339629302.26783.4271836532265421490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/x86_sgx_for_v5.11
-    old: 0189873fdea9ac5d995e9f1c0616fb7a2d0cb6e0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/x86_urgent_for_5.8_rc3
-    old: 2b0ed5e00c9fa0550b926e1d865f0fa936759b8f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kbuild
+    old: c6cc1d041e6886c9ac3533b5db270bece911a963
+    new: 22db19d4dbe8c534948d1e752198d74286635ec0
+    log: |
+         61fe1c78fb238f5235e6b2f052a52ef0cd420ff0 kconfig: add warn-unknown-symbols sanity check
+         22db19d4dbe8c534948d1e752198d74286635ec0 kbuild: dummy-tools: make MPROFILE_KERNEL checks work on BE
+         
