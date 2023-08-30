@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3192952054839026564=="
+Content-Type: multipart/mixed; boundary="===============4445017388238291992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 30 Aug 2023 17:57:26 -0000
-Message-Id: <169341824603.28202.11944862126294473845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 30 Aug 2023 17:57:37 -0000
+Message-Id: <169341825740.28362.7789460077625325277@gitolite.kernel.org>
 
---===============3192952054839026564==
+--===============4445017388238291992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -29,7 +29,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
 
---===============3192952054839026564==
+--===============4445017388238291992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1060,4 @@ c1b7fcf3f6d94c2c3528bf77054bf174a5ef63d7 Merge tag 'for-6.6/io_uring-2023-08-28'
 1a35914f738c564060a14388f52a06669b09e0b3 Merge tag 'integrity-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 872459663c52f5e8a28c0cb6df08b77d6c24ab46 Merge tag 'Smack-for-6.6' of https://github.com/cschaufler/smack-next
 
---===============3192952054839026564==--
+--===============4445017388238291992==--
