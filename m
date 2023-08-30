@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 30 Aug 2023 04:43:47 -0000
-Message-Id: <169337062707.24453.10823166564786480553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Wed, 30 Aug 2023 05:18:58 -0000
+Message-Id: <169337273820.17313.2259700235418189013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/for-next
-    old: 1d91b05d4baefe2f970575e41b25fde2cdd332f9
-    new: 9fa9a5f2714d2db3d994fb930e60697c2679a831
+  - ref: refs/tags/ovl-update-6.6
+    old: 0000000000000000000000000000000000000000
+    new: 300db22556b32d1ff233a0889854e7ed6b9204a5
