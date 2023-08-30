@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 30 Aug 2023 11:43:35 -0000
-Message-Id: <169339581565.20617.5049414662611837755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 30 Aug 2023 11:50:57 -0000
+Message-Id: <169339625757.26483.12310841618208816146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/for-next
-    old: d81c203e61780f3635e5eddd03f00d8bdcd7c3df
-    new: 358040e3807754944dbddf948a23c6d914297ed7
-    log: |
-         358040e3807754944dbddf948a23c6d914297ed7 ALSA: pcm: Fix missing fixup call in compat hw_refine ioctl
-         
+  - ref: refs/tags/x86_sgx_for_v5.11
+    old: 0189873fdea9ac5d995e9f1c0616fb7a2d0cb6e0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/x86_urgent_for_5.8_rc3
+    old: 2b0ed5e00c9fa0550b926e1d865f0fa936759b8f
+    new: 0000000000000000000000000000000000000000
