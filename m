@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 30 Aug 2023 17:58:48 -0000
-Message-Id: <169341832871.28983.4044308212646714757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Wed, 30 Aug 2023 18:03:28 -0000
+Message-Id: <169341860809.666.1905846917319691569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 8e1fe1bd719622ecfa9e8749f6936ab89cb88f3f
-    new: 5ebb5914a3b95be1dab4f058d073bd75afcdd0f2
+  - ref: refs/heads/master
+    old: afce8e8bfb2337ba098868055ef591dd93eceea1
+    new: a9f39e29efdcf47c14aeede6472933621ccd1332
     log: |
-         27fb2f63684944a6ed5a7e5356471968bb2b282d check_whence: reformat using python black
-         c442a5002c8311dc512a844e6c0335270db1e5f3 Add pre-commit hooks and codespell template
-         5e2367f8ea5e91d68d564d721c57e8aa0d5c7d9e Wire up pre-commit to `make check`
-         408eb34a782bae08f48eac22f5d76026ae725146 Rewrite README in markdown
-         5ebb5914a3b95be1dab4f058d073bd75afcdd0f2 Merge branch 'mlimonci/update-ci' into 'main'
+         576e51c89c29e3054e764206b8a66f546252f23d fstests: add appropriate checks for fs features for some tests
+         6465ba21d16660b84e4f53d05171ef28a3d828ac common/attr: fix the _require_acl test
+         9073bb9b4065271c1f44ec09c101da462ad10990 generic/578: add a check to ensure that fiemap is supported
+         a9f39e29efdcf47c14aeede6472933621ccd1332 generic/*: add a check for security attrs
          
