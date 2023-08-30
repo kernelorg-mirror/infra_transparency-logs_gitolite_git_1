@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Wed, 30 Aug 2023 23:44:12 -0000
-Message-Id: <169343905273.22462.1204961394468188800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Wed, 30 Aug 2023 23:45:59 -0000
+Message-Id: <169343915947.24840.16305585325702272724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dennis/percpu
-user: dennis
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/tags/percpu-for-6.6
+  - ref: refs/tags/test.1693439158.x86_shstk_for_6.6-rc1
     old: 0000000000000000000000000000000000000000
-    new: d2c5e56398253aa92a597a7963aeb8275c81c9b0
+    new: d873a099269bf649d66047a15ab6c84fa55bcb45
