@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 30 Aug 2023 08:30:29 -0000
-Message-Id: <169338422962.26566.15725477057044968891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 30 Aug 2023 08:44:41 -0000
+Message-Id: <169338508187.3687.9994346884617712544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/controller/vmd
-    old: f73eedc90bf73d48e8368e6b0b4ad76a7fffaef7
-    new: 1bae18a3eeee2652f346efbdf41a53c8743a3a9c
+  - ref: refs/heads/main
+    old: bd6c11bc43c496cddfc6cf603b5d45365606dbd5
+    new: e4da8c78973c1e307c0431e0b99a969ffb8aa3f1
     log: |
-         1bae18a3eeee2652f346efbdf41a53c8743a3a9c PCI: vmd: Fix inconsistent indentation in vmd_resume()
+         e4da8c78973c1e307c0431e0b99a969ffb8aa3f1 net: ipv4, ipv6: fix IPSTATS_MIB_OUTOCTETS increment duplicated
          
