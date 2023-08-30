@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7422897225462220437=="
+Content-Type: multipart/mixed; boundary="===============4484584005561197282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Wed, 30 Aug 2023 19:56:14 -0000
-Message-Id: <169342537479.18335.12811146765405606800@gitolite.kernel.org>
+Date: Wed, 30 Aug 2023 19:57:42 -0000
+Message-Id: <169342546212.18884.9970632542901025254@gitolite.kernel.org>
 
---===============7422897225462220437==
+--===============4484584005561197282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dm-cryptsetup
     old: dad9774deaf1cf8e8f7483310dfb2690310193d2
-    new: 53ea7f624fb91074c2f9458832ed74975ee5d64c
-    log: revlist-dad9774deaf1-53ea7f624fb9.txt
+    new: de894ce31b9c12c347866a3514902ef5df74fbe0
+    log: revlist-dad9774deaf1-de894ce31b9c.txt
 
---===============7422897225462220437==
+--===============4484584005561197282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dad9774deaf1-53ea7f624fb9.txt
+Content-Disposition: attachment; filename=revlist-dad9774deaf1-de894ce31b9c.txt
 
-bb3be388537b85b567dd614b492d66f383bc8273 sh: convert pte_free_tlb() to use ptdescs
-b3311d707c8f1c1d3b0e45f5c4785e9ca3d723a1 sparc64: convert various functions to use ptdescs
-222107e1601f6de9c662784929c0f819cc01fa21 sparc: convert pgtable_pte_page_{ctor, dtor}() to ptdesc equivalents
-da9aefca789d753071e3f36fa940da329c11f7f8 um: convert {pmd, pte}_free_tlb() to use ptdescs
-9a4bbd8d975e01a777005e00c0e26d72bb6cc15a mm: remove pgtable_{pmd, pte}_page_{ctor, dtor}() wrappers
-708879a1b44216f6c12a3d61328c5259078fc1b1 selftests/mm: fix uffd-stress help information
-99f34659e78b9b781a3248e0b080b4dfca4957e2 selftests: memfd: error out test process when child test fails
 202e14222fadb246dfdf182e67de1518e86a1e20 memfd: do not -EACCES old memfd_create() users with vm.memfd_noexec=2
 434ed3350f57c03a9654fe0619755cc137a58935 memfd: improve userspace warnings for missing exec-related flags
 9876cfe8ec1cb3c88de31f4d58d57b0e7e22bcc4 memfd: replace ratcheting feature from vm.memfd_noexec with hierarchy
@@ -1050,5 +1043,12 @@ ca96b162bfd21a5d55e3cd6099e4ee357a0eeb68 x86: bring back rep movsq for user acce
 1500e7e0726e963f64b9785a0cb0a820b2587bad Merge tag 'for_v6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 38663034491d00652ac599fa48866bcf2ebd7bc1 Merge tag 'fsnotify_for_v6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 53ea7f624fb91074c2f9458832ed74975ee5d64c Merge tag 'xfs-6.6-merge-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+4ca398e2a9ff1e3695f97d8ac89967aaf87ea856 usb-storage: remove UNUSUAL_VENDOR_INTF macro
+47c74a7fd363272f0c090779389dd0a8569b19ec usb-storage: change USUAL_DEV macro so it can be ignored
+1cbb8a99226211687d006e50409a96fdec3d5bb2 usb-storage: do not include unusual uas in unusual_devs.h
+b30ac3a1de9116af4c8012285d4edc9b44490cff usb-storage: prepare function to store u64 fflags pointer to array
+5cd5c12f6581edbb8920c9fd77ff4551e1d218be usb-storage: make internal quirks flags 64bit
+fb0d21c0550b9c7e786a658649f4b7f21a8a0a4b usb-storage: Use driver_info as pointer for 64bit flags on 32bit systems.
+de894ce31b9c12c347866a3514902ef5df74fbe0 WIP: OPAL disks - allow to pass through command on USB mass storage.
 
---===============7422897225462220437==--
+--===============4484584005561197282==--
