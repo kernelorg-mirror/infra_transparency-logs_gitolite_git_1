@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 30 Aug 2023 07:53:52 -0000
-Message-Id: <169338203259.31532.8372032251000235677@gitolite.kernel.org>
+Date: Wed, 30 Aug 2023 08:01:53 -0000
+Message-Id: <169338251388.5314.14498046067680990159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 2d71a90f7e0fa3cd348602a36f6eb1237ab7cebb
-    new: be4033d36070e44fba766a21ef2d0c24fa04c377
+    old: be4033d36070e44fba766a21ef2d0c24fa04c377
+    new: 35d2b7ffffc1d9b3dc6c761010aa3338da49165b
     log: |
-         be4033d36070e44fba766a21ef2d0c24fa04c377 docs/bpf: Add description for CO-RE relocations
+         35d2b7ffffc1d9b3dc6c761010aa3338da49165b bpf, sockmap: Fix preempt_rt splat when using raw_spin_lock_t
          
