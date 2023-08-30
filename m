@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2028183161220799671=="
+Content-Type: multipart/mixed; boundary="===============2689126041018190182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 30 Aug 2023 06:33:58 -0000
-Message-Id: <169337723850.5685.15622033343440874276@gitolite.kernel.org>
+Date: Wed, 30 Aug 2023 06:34:22 -0000
+Message-Id: <169337726258.5882.9599957142790555256@gitolite.kernel.org>
 
---===============2028183161220799671==
+--===============2689126041018190182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8be6f88b9d3fe1f6724daec4a70d6023742c9df7
     new: bd6c11bc43c496cddfc6cf603b5d45365606dbd5
     log: revlist-8be6f88b9d3f-bd6c11bc43c4.txt
-  - ref: refs/tags/v6.5
-    old: 0000000000000000000000000000000000000000
-    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
-  - ref: refs/tags/v6.5-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
-  - ref: refs/tags/v6.5-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
 
---===============2028183161220799671==
+--===============2689126041018190182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1051,4 @@ f97e18a3f2fb78a4ed0d25e427535d9f853b9e9e Merge tag 'gpio-updates-for-v6.6' of gi
 68cf01760bc0891074e813b9bb06d2696cac1c01 Merge tag 'v6.6-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 bd6c11bc43c496cddfc6cf603b5d45365606dbd5 Merge tag 'net-next-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============2028183161220799671==--
+--===============2689126041018190182==--
