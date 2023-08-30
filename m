@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 30 Aug 2023 11:32:21 -0000
-Message-Id: <169339514183.12040.1175149782103550917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 30 Aug 2023 11:37:20 -0000
+Message-Id: <169339544006.16009.4116194814485598611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/vfs.super
-    old: dc3216b1416056b04712e53431f6e9aefdc83177
-    new: 7d7132102a7f735bd78ac04d130a57f39b8912c9
-    log: |
-         336d7ff72cceb00f370300363904b78530f5baec fs: export sget_dev()
-         7d7132102a7f735bd78ac04d130a57f39b8912c9 mtd: key superblock by device number
-         
+  - ref: refs/tags/sound-6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f66931e98ed4ffb4d5e3ea96637c46d99400bd5f
