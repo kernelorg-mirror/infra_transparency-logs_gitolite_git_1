@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Wed, 30 Aug 2023 20:07:30 -0000
-Message-Id: <169342605083.27210.17626444476364641847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 30 Aug 2023 20:09:04 -0000
+Message-Id: <169342614451.27976.14167750301469968267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mbroz/linux
-user: mbroz
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/dm-cryptsetup
-    old: de894ce31b9c12c347866a3514902ef5df74fbe0
-    new: ba712b07255bf426886e1e052ca36791e081feaa
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 3d63ae82aa1256580778e9aed9df5a2bd0a25a1d
+    new: 240acee9e12e29a3b044b208a3b7e27ee57956a2
     log: |
-         5e7b137f1827967eef09aeb581ae4aced34f30fc usb-storage: remove UNUSUAL_VENDOR_INTF macro
-         b6fe02b66a72035baf158fe2a5a0d7b3a51ce257 usb-storage: change USUAL_DEV macro so it can be ignored
-         b0efe2770192c9d262daa0de4a08076bd3503c90 usb-storage: do not include unusual UAS in unusual_devs.h
-         41ac0d7d2f72af7f76aeb5857db000fcffcbbc27 usb-storage: prepare function to store u64 quirks pointer to array
-         415b072d122a619d08596c33407d511e642837d4 usb-storage: make internal quirks flags 64bit
-         cab53aa52c1df79b141bf4b6f1fda1afbef444c1 usb-storage: use driver_info as pointer for 64bit flags on 32bit systems.
-         ba712b07255bf426886e1e052ca36791e081feaa WIP: OPAL disks - allow to pass through command on USB mass storage.
+         ec1b3bda8bdcdbeb0d749ec44c14dee674cf88b4 perf pmu: Avoid uninitialized use of alias->str
+         169146a4a46c8661978998e212343d46ccdcdead perf parse-events: Minor help message improvements
+         15a761e049c028b29715b414e32f7a656d823708 perf parse-events: Make common term list to strbuf helper
+         0b9c2979f17432686035303d1749dde2fa634a4e perf pmu: Remove str from perf_pmu_alias
+         4f8c90dddf172a410895fe42956d74d9eca59b54 perf metric: Add #num_cpus_online literal
+         21f4a715ce500478e0e0658a0bb3a7601189f439 perf dlfilter: Avoid leak in v0 API test use of resolve_address()
+         240acee9e12e29a3b044b208a3b7e27ee57956a2 perf vendor events intel: Fix modifier in tma_info_system_mem_parallel_reads for skylake
          
