@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6860959793813553180=="
+Content-Type: multipart/mixed; boundary="===============0880913485280013939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 31 Aug 2023 18:52:00 -0000
-Message-Id: <169350792086.2106.14597293792365440065@gitolite.kernel.org>
+Date: Thu, 31 Aug 2023 18:56:23 -0000
+Message-Id: <169350818352.5317.14626090977038736383@gitolite.kernel.org>
 
---===============6860959793813553180==
+--===============0880913485280013939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 72fd97181b57378491748f70885ab5df9628ac83
-    new: 6e617670bfda6ae56d99bdb8e9dcb30ad23c824e
-    log: revlist-72fd97181b57-6e617670bfda.txt
+  - ref: refs/heads/x86/merge
+    old: 2427a7a74ebcc3f782f207f8c14226e2b9664fec
+    new: 1218fa83211a040d86baf166bf831cbb686f837d
+    log: revlist-2427a7a74ebc-1218fa83211a.txt
 
---===============6860959793813553180==
+--===============0880913485280013939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72fd97181b57-6e617670bfda.txt
+Content-Disposition: attachment; filename=revlist-2427a7a74ebc-1218fa83211a.txt
 
-17a7ca35890b411414a71fbeef13cb65fe9511df gpiolib: rename the gpio_device notifier
 e82bbd6761f7e313141c4033ebb79e3d397b6a9c gpio: cdev: open-code to_gpio_chardev_data()
 a067419ba77da830939852758702388f0fba09a1 gpiolib: add a second blocking notifier to struct gpio_device
 d2e2586a3292e05d4872e9111e8b005bc4ff4d09 gpio: cdev: wake up chardev poll() on device unbind
@@ -1048,7 +1047,8 @@ c1b7fcf3f6d94c2c3528bf77054bf174a5ef63d7 Merge tag 'for-6.6/io_uring-2023-08-28'
 ca96b162bfd21a5d55e3cd6099e4ee357a0eeb68 x86: bring back rep movsq for user access on CPUs without ERMS
 9855922705630a63a6f27621fab1a248dfb5bfc0 Merge tag 'x86_mm_for_6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 87fa732dc5ff9ea6a2e75b630f7931899e845eb1 Merge tag 'x86-core-2023-08-30-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1fe428d3692fb10a0e8d85fafe719b154e43ad4e x86/shstk: Change order of __user in type
 1687d8aca5488674686eb46bf49d1d908b2672a1 Merge tag 'x86_apic_for_6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6e617670bfda6ae56d99bdb8e9dcb30ad23c824e Merge branch 'linus'
+1218fa83211a040d86baf166bf831cbb686f837d Merge branch 'x86/shstk' into x86/merge, to ease integration testing
 
---===============6860959793813553180==--
+--===============0880913485280013939==--
