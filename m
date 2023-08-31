@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8279527483838742511=="
+Content-Type: multipart/mixed; boundary="===============4546397586323446770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 31 Aug 2023 01:46:10 -0000
-Message-Id: <169344637084.20712.5806447563887975148@gitolite.kernel.org>
+Date: Thu, 31 Aug 2023 01:46:27 -0000
+Message-Id: <169344638743.20881.16044419346384173594@gitolite.kernel.org>
 
---===============8279527483838742511==
+--===============4546397586323446770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,93 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 1451455e6ffb62ff421ebc9d6da4552b02474b3a
-    new: 15924b0503630016dee4dbb945a8df4df659070b
-    log: revlist-1451455e6ffb-15924b050363.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 6820eaf5e74c4fefdc124b37ccd170fc5d6257c0
+    new: fe646b2bcb706bff0fc18690a965eb6f56e5c379
+    log: revlist-6820eaf5e74c-fe646b2bcb70.txt
 
---===============8279527483838742511==
+--===============4546397586323446770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1693446369 -0400
+pusher 75C5DE3D 1693446374 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1693446369-ac5d12cfa0b28f0c88992f29c029309a527a572a
+nonce 1693446374-058383cd8ada93c01ed7986c31bcef8b127b055b
 
-1451455e6ffb62ff421ebc9d6da4552b02474b3a 15924b0503630016dee4dbb945a8df4df659070b refs/heads/queue
+6820eaf5e74c4fefdc124b37ccd170fc5d6257c0 fe646b2bcb706bff0fc18690a965eb6f56e5c379 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTv8OEACgkQ7ulgGnXF
-3j3Axw/+KJnyL0xAYXZBIgfRDgg258PuK8f8f4heYBVD7GvNLC8h7q9njn9Hz85Y
-V8ntQO1PbgXJQlrjGz4NWFL3igKjOr/gR83jwIGtzRC+pGLJMFx3JWmRUKb4rmYT
-mLBGoCrP2ybXNxjj+KBkvHYoJ5qfXSDr40ylg8EX/f29vxluWKQUz0RIBMVK8+rc
-6ecpSlz8/pJXHPKTuOSiRJELWzM+UxWnzpviJw+k5xBeCfATTX4ZmppTVytToLxk
-HDUDerk/S4N/KwikiMoPIK1TsKxHH2Paz2Qbi29zY4ZFaRStAJxMn7zRQjZW+Ber
-O1QupcTDqmSPVfrGHtGgc6ymvpiL+O2SiVtQ2JVPELdlXKZYzqYSujdIoqSfn2Ft
-h2Bay7EztaeJUUUTEJLiTeB9E+884uxkQQw+YzE2b+kR3YBLFYkt1kaanNMDQkxx
-XtJ5mPFiNCwz0hjaEisUIU1ecNEDPOC8vF/BEbGU2z1mqDipnEOxt6ZoQEPox2mi
-rIXlqBbF9TqvdRTDaL0SE1FByxWxWwNNrXrnNXGVTWL9bkbIRmeAGl5cx+IDY+JQ
-NbPAkE+KOthoWuHnZoT4MZ7AdBYYhEw1JHXUgG0wLDXcTBp4DCtseG8Ro9r7J3sL
-QOoWClDH9RnSMi/uic63xXT0RKOJkVCCxORz8CXY4TkKYDO16V4=
-=pO6d
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTv8OcACgkQ7ulgGnXF
+3j078g//bvD4syCoudjWfLPbjdEya8MVaN3D5FGNkMIRp8rp5Pho/Fcxg8skV6NX
+g1QLUl5/Iltdu0jmrukBLV1xzmqtabkeeIN/s/3iVXBp0KjWXrpUXSdOhLaPJoHZ
+HvIZZW3i1nwZhksUkBv0AoIr9gG2V1wD8ederCFVTGLE6ae395Vt4hEwuZ8le4fj
+nNlDOtmY6HMtTjV10dIBVT5KKc46eDmiJGl5NL/BIb0QOhQOweYGI5ilQ3xrQz5b
+y7SNCLqVingfVgVfpX7TF85BB7DleiJWtOWbIJAkJJ6LoECr/ksCwhFWyulUMWKc
+lwiFa+zI07b9NQlOZ8sBccyyxy4UqbM0HOae2RRBaDjC+82+4CxaqSKxL077aAjw
+nt+pX61J/Ok8FduaatyuIaW40qckGcAu50HF8FGnRohPdbgfptmEYS6j/tG3XWCQ
+Ia9WUPxBxFYYbNDRqXNVtLKwStXGnUOc3VcGji73RXcrxVf19sGNxopeBOuZTZa9
+NhslKlP1ZSoUJYtagrpLwMirDgLRaPEJPuXsBciT1iCvIWO3X+viNVCGo2GgMwOA
+dJmWgKDMNZSsecxm6kCOlfMYq0edv+lgHU0XYoxs6RRcE3j8H4PXoQhgeCFs//F1
+32PvDfwmKRNqhVgK1JVi0WFU2TCGvzKJUhoHgDo5ZCrN/Lwlvxs=
+=eXoy
 -----END PGP SIGNATURE-----
 
---===============8279527483838742511==
+--===============4546397586323446770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1451455e6ffb-15924b050363.txt
+Content-Disposition: attachment; filename=revlist-6820eaf5e74c-fe646b2bcb70.txt
 
-efeda3bf912f269bcae16816683f432f58d68075 scsi: qla2xxx: Move resource to allow code reuse
-ae25f65a351ca9c650887c2b37319fa9a41ec258 scsi: qla2xxx: Allow 32-byte CDBs
-875386b98857822b77ac7f95bdf367b70af5b78c scsi: qla2xxx: Add Unsolicited LS Request and Response Support for NVMe
-6d0b65569c0a10b27c49bacd8d25bcd406003533 scsi: qla2xxx: Flush mailbox commands on chip reset
-e370b64c7db96384a0886a09a9d80406e4c663d7 scsi: qla2xxx: Fix firmware resource tracking
-cd248a95f86df2523056ef8ad895e8ee0c17be53 scsi: qla2xxx: Add logs for SFP temperature monitoring
-0ba0b018f94525a6b32f5930f980ce9b62b72e6f scsi: qla2xxx: Error code did not return to upper layer
-e9105c4b7a9208a21a9bda133707624f12ddabc2 scsi: qla2xxx: Remove unsupported ql2xenabledif option
-b496953dd0444001b12f425ea07d78c1f47e3193 scsi: qla2xxx: Fix smatch warn for qla_init_iocb_limit()
-641671d97b9199f1ba35ccc2222d4b189a6a5de5 Revert "scsi: qla2xxx: Fix buffer overrun"
-cc6e67e60fe749ee6aa1c92000c372e0e6ad7ae1 scsi: qla2xxx: Update version to 10.02.09.100-k
-73c7881b50667f4f8322c6e1bb51624f0f4085a8 scsi: xen-scsifront: shost_priv() can never return NULL
-11443b539e9ea6c1a4564d100cba02cc2e162f68 scsi: qedf: Remove unused declaration
-e1a87e29fbc8ff3507e16df312d52190efa5963d scsi: qedi: Remove unused declarations
-79519528a180c64a90863db2ce70887de6c49d16 scsi: core: Improve type safety of scsi_rescan_device()
-90f359c1aa4ace0fb5f03796a7ee97c2ad2e42cc scsi: core: Report error list information in debugfs
-9604eea5bd3ae1fa3c098294f4fc29ad687141ea scsi: st: Add third party poweron reset handling
-efcf965a127823f63a70ec52f2c4bec3d722b6b5 scsi: sd: Remove the number of forward declarations
-153c45dd63ef33ffb3d78307db5aa6131b2fdefc scsi: smartpqi: Add abort handler
-43cf3a6eab58b80515fd80b9026e5392d0f83aed scsi: smartpqi: Rename MACRO to clarify purpose
-e9c39117b448938e8750a77a661b56a59b28dde8 scsi: smartpqi: Rename pciinfo to pci_info
-dad662c9fe50088d4d42dd7321d7e92a9663c681 scsi: smartpqi: Simplify lun_number assignment
-276395d024cc1bd39edafc97b1e6a48e61dc057a scsi: smartpqi: Enhance shutdown notification
-72b737fa73bf6c5c9b702a7ed51ecdccfc99c0d8 scsi: smartpqi: Enhance controller offline notification
-e1b919494aa9520c62742b1c59181476520c7863 scsi: smartpqi: Enhance error messages
-08b7ad50c8bc497efeb33b97cfba15a23c053a5c scsi: smartpqi: Change driver version to 2.1.24-046
-749652a1dee649c797a1493991429f0e230f8c64 Merge patch series "smartpqi updates"
-27177862de9676c8c35b86bf89c38864fbe5ed71 scsi: qla2xxx: Fix nvme_fc_rcv_ls_req() undefined error
-659d36cc732a7de8c6ca2ae347db1a5401a1b93c scsi: qla2xxx: Remove unused variables in qla24xx_build_scsi_type_6_iocbs()
-530e86c745ae3342b1df5e8f38529b9f8a6cac17 Merge patch series "qla2xxx driver misc features"
-15924b0503630016dee4dbb945a8df4df659070b scsi: fnic: Replace sgreset tag with max_tag_id
+0e881c0a4b6146b7e856735226208f48251facd8 scsi: lpfc: Fix a possible data race in lpfc_unregister_fcf_rescan()
+134f66959cd0bc90a745f2eed4c10a0519d455c4 scsi: qla2xxx: Silence a static checker warning
+e579b007eff3ff8d29d59d16214cd85fb9e573f7 scsi: qla2xxx: Fix error code in qla2x00_start_sp()
+b34c7dcaf311521f6a0edaffc157d115d386ed9c scsi: fnic: Use vmalloc_array() and vcalloc()
+04d91b783acf910ceda2af31fe969e4eb572110b scsi: qla2xxx: Use vmalloc_array() and vcalloc()
+23815df5af5790c6e99b6bb1ffd39d509d0a7bdb scsi: scsi_debug: Remove dead code
+ef470b862dc7e5e169167301b9862bed54d7f969 scsi: ufs: core: Update contact email for monitor sysfs nodes
+89f7ef7f2b23b2a7b8ce346c23161916eae5b15c scsi: ufs: ufs-mediatek: Add dependency for RESET_CONTROLLER
+47699a2b63caaa0de4841d4402627c2fdf3452a6 scsi: aacraid: Avoid -Warray-bounds warning
+24befa92ed47ed2af25868412a1275602ca8f4ea scsi: ufs: core: Add support for qTimestamp attribute
+f79846ca2f04c9744627c24034d675c88f0da3a0 scsi: sd_zbc: Set zone limits before revalidating zones
+d226b0a2b683e27fce060669dc7cb8d6917b785a scsi: nvme: zns: Set zone limits before revalidating zones
+a442b899fe17118e672647f664bf7f1dd5d7fcb0 scsi: block: nullblk: Set zone limits before revalidating zones
+a3d96ed21507e8d70ddab6c7abc93d5e56aaeeb0 scsi: block: virtio_blk: Set zone limits before revalidating zones
+03e51c4a74b91b0b1a9ca091029b0b58f014be81 scsi: block: Improve checks in blk_revalidate_disk_zones()
+a97ccaa4f04396c594c25877fd2b78cc5baea4ed Merge patch series "Improve checks in blk_revalidate_disk_zones()"
+e96277a570cda96f1363a051b6a1a321f2ec2d35 Merge branch '6.5/scsi-staging' into 6.5/scsi-fixes
+f4d1a8e011909fee24643f84bd1196e1366c26f2 scsi: storvsc: Handle SRB status value 0x30
+80b6051085c5fedcb1dfd7b2562a63a83655c4d8 scsi: sg: Fix checking return value of blk_get_queue()
+010c1e1c5741365dbbf44a5a5bb9f30192875c4c scsi: storvsc: Limit max_sectors for virtual Fibre Channel devices
+e65851989001c0c9ba9177564b13b38201c0854c scsi: zfcp: Defer fc_rport blocking until after ADISC response
+d4e0265345778c623d1fe619075b677731847c34 scsi: pm80xx: Fix error return code in pm8001_pci_probe()
+175544ad48cbf56affeef2a679c6a4d4fb1e2881 scsi: storvsc: Fix handling of virtual Fibre Channel timeouts
+5a43b07a87835660f91d88a4db11abfea8c523b7 scsi: fnic: Replace return codes in fnic_clean_pending_aborts()
+8366d1f1249a0d0bba41d0bd1298d63e5d34c7f7 scsi: 53c700: Check that command slot is not NULL
+9426d3cef5000824e5f24f80ed5f42fb935f2488 scsi: core: Fix legacy /proc parsing buffer overflow
+04b5b5cb0136ce970333a9c6cec7e46adba1ea3a scsi: core: Fix possible memory leak if device_add() fails
+41320b18a0e0dfb236dba4edb9be12dba1878156 scsi: snic: Fix possible memory leak if device_add() fails
+b6d128f89a85771433a004e8656090ccbe1fb969 scsi: ufs: renesas: Fix private allocation
+8eebf0e84f0614cebc7347f7bbccba4056d77d42 scsi: lpfc: Remove reftag check in DIF paths
+dd64f80587190265ca8a0f4be6c64c2fda6d3ac2 scsi: qedi: Fix potential deadlock on &qedi_percpu->p_work_lock
+1516ee035df32115197cd93ae3619dba7b020986 scsi: qedi: Fix firmware halt over suspend and resume
+ef222f551e7c4e2008fc442ffc9edcd1a7fd8f63 scsi: qedf: Fix firmware halt over suspend and resume
+d0c89af3130eb4ff962266bb7597690a696f1cbc scsi: ufs: mcq: Fix the search/wrap around logic
+c422fbd5cb58c9a078172ae1e9750971b738a197 scsi: ufs: ufs-qcom: Clear qunipro_g4_sel for HW major version > 5
+60c5fd2e8f3c42a5abc565ba9876ead1da5ad2b7 scsi: core: raid_class: Remove raid_component_add()
+1bd3a76880b2bce017987cf53780b372cf59528e scsi: snic: Fix double free in snic_tgt_create()
+812fe6420a6e789db68f18cdb25c5c89f4561334 scsi: storvsc: Handle additional SRB status values
+58330d6a0b4637eed6730042b36b7fc5cdc19a90 Merge branch '6.5/scsi-fixes' into 6.6/scsi-staging
+7a5dee9b72e9aafaa684dea8bf55aac91997b319 scsi: qla2xxx: Fix spelling mistake "tranport" -> "transport"
+e7cf3a35b38ef3c8ee74e6cfe1fd6a62c7f34a02 scsi: fnic: Remove unused functions fnic_scsi_host_start/end_tag()
+d4781807f0505526e293802d8509f31c4dfb8f54 scsi: qla2xxx: Fix unused variable warning in qla2xxx_process_purls_pkt()
+d0bac0ec89d66f656f77443c8000fa6c36139b66 scsi: ufs: Fix the build for the old ARM OABI
+be946e31bcf2b1c01f1af443c238bc15fe9f6294 scsi: libsas: Simplify sas_queue_reset() and remove unused code
+4ca10f3e31745d35249a727ecd108eb58f0a8c5e scsi: mpt3sas: Perform additional retries if doorbell read returns 0
+0854065092a7a49a88bb592473abafb0cecd9f1c scsi: mpt3sas: Remove volatile qualifier
+c91e585cfb3dd7d076e9ba0967908fc504d32def scsi: ufs: core: Add advanced RPMB support where UFSHCI 4.0 does not support EHS length in UTRD
+9f6fec65661381e301ae0f9ee8b4c12b0214a579 scsi: ufs: core: No need to update UPIU.header.flags and lun in advanced RPMB handler
 
---===============8279527483838742511==--
+--===============4546397586323446770==--
