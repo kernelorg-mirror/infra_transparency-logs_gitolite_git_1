@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============6485085974510336420=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 31 Aug 2023 20:31:17 -0000
-Message-Id: <169351387749.10406.18264058553921816971@gitolite.kernel.org>
-
---===============6485085974510336420==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 31 Aug 2023 20:37:02 -0000
+Message-Id: <169351422297.14222.1783000548860411573@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 69d6feed1d08beca3199a783071104daa5545fbf
-    new: 816f754258979875cba1c48d6dfb8f5a141c51d1
+  - ref: refs/heads/for-next
+    old: 927c6c8aa27c284a799b8c18784e37d3373af908
+    new: b1bef1388c427cdad7331a9c8eb4ebbbe5b954b0
     log: |
-         816f754258979875cba1c48d6dfb8f5a141c51d1 Add C3EAC3DE9321D59B (Ahmad Fatoum)
+         b137b9d60b8add5620a06c687a71ce18776730b0 parisc: drivers: Fix sparse warning
+         b1bef1388c427cdad7331a9c8eb4ebbbe5b954b0 parisc: irq: Make irq_stack_union static to avoid sparse warning
          
-
---===============6485085974510336420==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1693513876 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1693513876-b30c449e29e03a3c7f82c4d08fb17d9e2c6601da
-
-69d6feed1d08beca3199a783071104daa5545fbf 816f754258979875cba1c48d6dfb8f5a141c51d1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZPD4lAAKCRC2xBzjVmSZ
-bHSeAP4g9zophP8qhrwJ38xLMn2K10izZ+DDlS/uVMYJm706MQD+J6WjLk+tuD60
-s+aeqPtqaQW6OS8ponQ8yOSQeOBPgw0=
-=HJLf
------END PGP SIGNATURE-----
-
---===============6485085974510336420==--
