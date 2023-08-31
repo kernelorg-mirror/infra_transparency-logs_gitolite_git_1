@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2040312252535820383=="
+Content-Type: multipart/mixed; boundary="===============1306433118335612105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 31 Aug 2023 12:07:20 -0000
-Message-Id: <169348364089.31766.8059834071788210620@gitolite.kernel.org>
+Date: Thu, 31 Aug 2023 12:08:23 -0000
+Message-Id: <169348370396.503.14722207838880074722@gitolite.kernel.org>
 
---===============2040312252535820383==
+--===============1306433118335612105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,50 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/powerpc-6.6-1
-    old: 0e60447b175abee31582550c0276d87253142346
-    new: 03359d166a283644f965304d8cee91b9dc913de8
-    log: |
-         85a616416e9e01db0bfa92f26457e92642e2236b macintosh/ams: linux/platform_device.h is needed
-         
+  - ref: refs/tags/v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
+  - ref: refs/tags/v6.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/tags/v6.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
+  - ref: refs/tags/v6.5-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
 
---===============2040312252535820383==
+--===============1306433118335612105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1693483638 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1693483701 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1693483638-334650bf7847e3e08f6d8c6c9f9ef670adcc9154
+nonce 1693483700-95cdfb27b75e79905556d29f37f714b99c30dfa1
 
-0e60447b175abee31582550c0276d87253142346 03359d166a283644f965304d8cee91b9dc913de8 refs/tags/powerpc-6.6-1
+0000000000000000000000000000000000000000 52e12027d50affbf60c6c9c64db8017391b0c22e refs/tags/v6.5
+0000000000000000000000000000000000000000 a2d347d8f5a92014f809bd13e0639ef7a13e8dba refs/tags/v6.5-rc5
+0000000000000000000000000000000000000000 e42df5dc5f39a088f3611d9f09619f53dd6d3a5d refs/tags/v6.5-rc6
+0000000000000000000000000000000000000000 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76 refs/tags/v6.5-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmTwgnYTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgOtvEACzIty0VWi6P2QOf4RR4KqFuMcbqsP5
-PzPcFEQ5V9za9YLFD3g2p05GQf79PQgt49g/0MSgKv4mXgyv3yE2tkMkbcHjpRL7
-7Y8gCrnwYP48DKyaTE8KXyPgSEYoZvTv+btWnhUl95/xvbgQQJ6BIATOiPmhYiZb
-a7aLggAFLQ0ysgnd0fRPw7Xv8jG+8kE86YDIvRxc4JJXyPWqhe4E93zGdOPNDkgw
-OTZsVDKqtxHDqyTmx3zEgkZk3bH+fFX7B01b1I1fbZkhoyMROElzC2id8++1NwWB
-nbAb2cy283Mxc1ICWthEsdJ8dGe0cvoNnw4/7cd1kS91CTHg66SY2EIS73cflOVq
-EDADSsc3XKbfdH74r/YY2Q+Zq2sjZkIJXweYu+XRLO3qK7aDpNbthwws+imYKixP
-ZUcZjpiuZmEbMcVPEQAKoNgYtUrOni4TECeWZiSjwUgl4S+b8g3wWLKKKkTtYbeV
-yU7fIImq3XZIM9yEw9YUm01eBc5mUh2Grr+ZzG+F169kskvSaGv3fvvHYGbbfAk8
-ErC5nSr8KXy8a2oupjzwkNJAYlDKlpOGEi4PmbW5rhco/ZRw0+s6wEasWmk5mUvN
-SMKsa6m/ZsGqKiwu/RQRFG2LyO5PGRVQrpifwRkYEwESDA54t0rkcp5YcQ1/ERqv
-u99zEYrOXEmIew==
-=fQHV
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmTwgrUTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgLu5D/0VAMBF4kmKiqZzfKZXkdBSy092Tx48
+RgsS/e+nL1uRlp5DVztGO+IiZx0yOdn0rYDSkoFcnw7vUwzb8DEEt7b6C2GPnIVg
+45zkSzOyi85fzBrv7n1GCijzNJEEvxzchSzeNYi02GpsElj56qvdrr71wL8vChgC
+uZnt7inpzobIrWGoLEPwafIap1/8X4Tb2AZAoipeE3XYITqYHkNdsS0NThi2b2mj
+MUUgp3Vis4M28apqMWIeJWnzp5Cwy4dSfXFJug/FNMjQPD2Ajh+zRafBTAGZbVUz
+xaqFUxyBpLsc0bwUwme74NoIKnFsMlWKit5yVNFmc3L4g0PCfZQxkl6riCSQyZem
+GXY78xtIFTg7MrQcJqT26FAzx5TaunG/TYG5Ro1akJJFJ93ER6kBleF9Hfb4tAMP
+8J/wmrmK/B25GKXnieKX65vRrE/SzQm90e0mQOc1+KCipnz3AylLxxJZIRijCax1
+nBk+1BuOVaCZXhRXtZI66Vzzo5mNHat5Yj9NzexfIUTyJtc3sfQ1dv5uRNXSjGuK
+araTeozfyIJflZ4bweEfaF9OPKcoB/PKeibqR347Hcm6XyxsG8bVZ8ubE7bNj3QA
+keDpzE16v9w+oUq4D9IOM/cnr9cD/UHBuf3RlL21FFBNQtBFr6eJiXMl07+d0Ur/
+GF0MN79HQmAtTg==
+=5LUc
 -----END PGP SIGNATURE-----
 
---===============2040312252535820383==--
+--===============1306433118335612105==--
