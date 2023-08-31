@@ -1,27 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 31 Aug 2023 14:14:22 -0000
-Message-Id: <169349126202.27175.4774877229329135192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Thu, 31 Aug 2023 14:16:41 -0000
+Message-Id: <169349140181.29708.17481200823401103587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/for-next
-    old: 7e25dba5c78ce28d7733cf299881b55130cfb80c
-    new: cf66b9ed26c19d21d8a26a297b7f8e2f9e1d7806
-    log: |
-         697a5194ff39e5bed471a6b1c2fa2dadf99480cd gfs2: Set qd_sync_gen in do_sync
-         53052985298d9ef44077e7b903b4f0d41f35c5a3 gfs2: use constant for array size
-         ead1fa934f1d1b81919ba2bd72fc97bd9936d53a gfs2: Remove quota allocation info from quota file
-         cfff7cd0cb2c7d42a176eb21259d29b96ac55792 gfs2: introduce qd_bh_get_or_undo
-         ff241900888af35c206a7966b649ac7ecf9e1fe1 gfs2: Simplify qd2offset
-         ff69ccf787058b51b677f23e9d71b7ba0d97ffef gfs2: simplify slot_get
-         3ee4153feafbe9bf34a55bc303361370635cfb89 gfs2: Remove useless assignment
-         b0e8d02118de444459a1c1dc7e61c0dfc01487ec gfs2: check for no eligible quota changes
-         cf66b9ed26c19d21d8a26a297b7f8e2f9e1d7806 gfs2: change qd_slot_count to qd_slot_ref
-         
+  - ref: refs/tags/dlm-6.6
+    old: 0000000000000000000000000000000000000000
+    new: 63fcd6c42283617ef91237091e0e4102b136e01b
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9632302b68e03c8579120884b22c4e4dc2340e43
+  - ref: refs/tags/v6.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f83424364efcdbca8f4d98f9b1825a1e0fc19d91
+  - ref: refs/tags/v6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e5d5c8081911f12c6ed83560224f67c60794b9fe
+  - ref: refs/tags/v6.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/tags/v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
