@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4546397586323446770=="
+Content-Type: multipart/mixed; boundary="===============3493539271774350445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 31 Aug 2023 01:46:27 -0000
-Message-Id: <169344638743.20881.16044419346384173594@gitolite.kernel.org>
+Date: Thu, 31 Aug 2023 01:46:40 -0000
+Message-Id: <169344640036.21065.970675811251207421@gitolite.kernel.org>
 
---===============4546397586323446770==
+--===============3493539271774350445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 6820eaf5e74c4fefdc124b37ccd170fc5d6257c0
-    new: fe646b2bcb706bff0fc18690a965eb6f56e5c379
-    log: revlist-6820eaf5e74c-fe646b2bcb70.txt
+  - ref: refs/heads/6.6/scsi-staging
+    old: 15924b0503630016dee4dbb945a8df4df659070b
+    new: 9f6fec65661381e301ae0f9ee8b4c12b0214a579
+    log: revlist-15924b050363-9f6fec656613.txt
 
---===============4546397586323446770==
+--===============3493539271774350445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1693446374 -0400
+pusher 75C5DE3D 1693446390 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1693446374-058383cd8ada93c01ed7986c31bcef8b127b055b
+nonce 1693446390-989c68dcf1f489e8045ed472e2dd16606a0ce8fb
 
-6820eaf5e74c4fefdc124b37ccd170fc5d6257c0 fe646b2bcb706bff0fc18690a965eb6f56e5c379 refs/tags/mkp-scsi-staging
+15924b0503630016dee4dbb945a8df4df659070b 9f6fec65661381e301ae0f9ee8b4c12b0214a579 refs/heads/6.6/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTv8OcACgkQ7ulgGnXF
-3j078g//bvD4syCoudjWfLPbjdEya8MVaN3D5FGNkMIRp8rp5Pho/Fcxg8skV6NX
-g1QLUl5/Iltdu0jmrukBLV1xzmqtabkeeIN/s/3iVXBp0KjWXrpUXSdOhLaPJoHZ
-HvIZZW3i1nwZhksUkBv0AoIr9gG2V1wD8ederCFVTGLE6ae395Vt4hEwuZ8le4fj
-nNlDOtmY6HMtTjV10dIBVT5KKc46eDmiJGl5NL/BIb0QOhQOweYGI5ilQ3xrQz5b
-y7SNCLqVingfVgVfpX7TF85BB7DleiJWtOWbIJAkJJ6LoECr/ksCwhFWyulUMWKc
-lwiFa+zI07b9NQlOZ8sBccyyxy4UqbM0HOae2RRBaDjC+82+4CxaqSKxL077aAjw
-nt+pX61J/Ok8FduaatyuIaW40qckGcAu50HF8FGnRohPdbgfptmEYS6j/tG3XWCQ
-Ia9WUPxBxFYYbNDRqXNVtLKwStXGnUOc3VcGji73RXcrxVf19sGNxopeBOuZTZa9
-NhslKlP1ZSoUJYtagrpLwMirDgLRaPEJPuXsBciT1iCvIWO3X+viNVCGo2GgMwOA
-dJmWgKDMNZSsecxm6kCOlfMYq0edv+lgHU0XYoxs6RRcE3j8H4PXoQhgeCFs//F1
-32PvDfwmKRNqhVgK1JVi0WFU2TCGvzKJUhoHgDo5ZCrN/Lwlvxs=
-=eXoy
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmTv8PYACgkQ7ulgGnXF
+3j0PZA//fCgMDsyyIIv5R2iVR469NzLtYCtclHPKfL2tgSzZoHJDKzVedmWumfWo
+jXkQv9qdoBflDkiTJSQ5FGIS18FzU/MPLBrIx6DqdRJKW0XpaD2NtH/lwir5/LGJ
+FfJHtJSJwDxsy0jZeTxSAF1oMdpUUvJWd9enbnMCjrAn2ytZ+hn2Lm9FnrQETdXc
+PFQ7LgU0y5oKBn/9taPaIsX6FiRF4+AslImIbaTY30gkky9OYBuC9jdK1Fkf0FE4
+GhXK0Zk+s6UPYIR94sapyxzwRU5v8sP/66C/CyZSxiYOX0/nSCW3bJ5FiC8GIkp6
+Iq/dujBgoo0flZyKN4swYx3vR8IdpC6G3kdROpsBCodaYCwCoyK0GAfGlalp4Fkq
+f73aVn6FUY9LA8UBhI1H15p6V4S5KcWQQDn9xLgcgFdXMSyQkmnnfWSNpelcUzOA
+z27qTxu+pjGkdvYvDQqGAQpsyHkKM7qfQnpbpP5OfPUT3s4+SHa/Sow8Dj+ppqrh
+gFdddKizPx2f77uTbTV1QBzWpj1/2/+ZUZtgMyK8rQBTuYMpdT76wipSZDCbdbY0
+S6SbavLsiEvQZUOmAZ6hylTBDEf2j5/APqwTkEiPGltAL2zm2GVAhl8xv9uEb4k3
+Nc9Jklly4kjv4ypHLrg29UMH1Uaf6pTBYwN3ruocsLI/vGWycyQ=
+=ZkdP
 -----END PGP SIGNATURE-----
 
---===============4546397586323446770==
+--===============3493539271774350445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6820eaf5e74c-fe646b2bcb70.txt
+Content-Disposition: attachment; filename=revlist-15924b050363-9f6fec656613.txt
 
 0e881c0a4b6146b7e856735226208f48251facd8 scsi: lpfc: Fix a possible data race in lpfc_unregister_fcf_rescan()
 134f66959cd0bc90a745f2eed4c10a0519d455c4 scsi: qla2xxx: Silence a static checker warning
@@ -105,4 +105,4 @@ be946e31bcf2b1c01f1af443c238bc15fe9f6294 scsi: libsas: Simplify sas_queue_reset(
 c91e585cfb3dd7d076e9ba0967908fc504d32def scsi: ufs: core: Add advanced RPMB support where UFSHCI 4.0 does not support EHS length in UTRD
 9f6fec65661381e301ae0f9ee8b4c12b0214a579 scsi: ufs: core: No need to update UPIU.header.flags and lun in advanced RPMB handler
 
---===============4546397586323446770==--
+--===============3493539271774350445==--
