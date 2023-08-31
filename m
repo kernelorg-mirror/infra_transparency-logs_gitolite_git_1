@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3509679665466402672=="
+Content-Type: multipart/mixed; boundary="===============1658268206814415361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 31 Aug 2023 11:08:38 -0000
-Message-Id: <169348011854.21350.7030328014557527789@gitolite.kernel.org>
+Message-Id: <169348011874.21397.1439717578541440437@gitolite.kernel.org>
 
---===============3509679665466402672==
+--===============1658268206814415361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,24 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: a2943d2d9a00ae7c5c1fde2b2e7e9cdb47e7db05
-    new: 1767553758a66ae5cc765f89bc22c22273b382a4
-    log: |
-         5354317bdb078d69e914659e64833995e3b42204 ACPI: thermal: Drop nocrt parameter
-         5a26594456182af5c5a86426bf2a7ebf809eb372 module: Expose module_init_layout_section()
-         062b9c78c992b2bf33acee94f28a9fdabb08696a arm64: module-plts: inline linux/moduleloader.h
-         679669da0a290acb96f43caf3a064f03d188f3eb arm64: module: Use module_init_layout_section() to spot init sections
-         160e06b3bf1d1a80532bac445d4c2428d214fe30 ARM: module: Use module_init_layout_section() to spot init sections
-         ae0719bb3c40a864aa21ebcb55901c58a638fa2b lockdep: fix static memory detection even more
-         fa980acdd2d1a74da587e2ae9a3e1e2cbf330225 parisc: Cleanup mmap implementation regarding color alignment
-         178e28d87f6b871f4776070549940d2edf70534b parisc: sys_parisc: parisc_personality() is called from asm code
-         c6d3c78741bc88b2da3c4214f313babf8ad0fd9e io_uring/parisc: Adjust pgoff in io_uring mmap() for parisc
-         786b6ec3c87613eeac973a47de1bd532a1a659d7 kallsyms: Fix kallsyms_selftest failure
-         1767553758a66ae5cc765f89bc22c22273b382a4 Linux 6.1.51-rc1
-         
+  - ref: refs/heads/linux-5.10.y
+    old: 4566606fe3a43e819e0a5e00eb47deccdf5427eb
+    new: e25611a229ff9e907889923c2702d817003bc228
+    log: revlist-4566606fe3a4-e25611a229ff.txt
 
---===============3509679665466402672==
+--===============1658268206814415361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,23 +32,42 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693480117 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1693480113-5e667e09370e48e6c2603c0a81991e5279475e7d
 
-a2943d2d9a00ae7c5c1fde2b2e7e9cdb47e7db05 1767553758a66ae5cc765f89bc22c22273b382a4 refs/heads/linux-6.1.y
+4566606fe3a43e819e0a5e00eb47deccdf5427eb e25611a229ff9e907889923c2702d817003bc228 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTwdLUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P4EQAIgVEmMsVykqJzl0Rnn+
-k5Exqbis+QfttD4QjLWbVNh3SxJpa/jhFkts1WpTkGZrJ4Mjj6RMnebmBTe6K310
-uy98nkp98gNBJu7stVQA+JGNXSZAj2b9UhDrGWTPlEn2j8Nws6VAC09VIXB7QmjJ
-gRJJ0dJUO5njtqYHRkVg6+h1JJROri4qUQotgvlvqo+8xpi9MqBYDTE7rrZlKEtg
-UcNoonVCkgUp9hOSk/9UmNkgpLGLriELFNdkI15kQhjvDdLO8dnoS0QpO5UeFt/a
-kgoC2FcCkOrrolXlHssFXa3plm8Jv2crYy1FHdjfoTqRS2TLp7Y52R4JgCU0vad1
-h/1zMoYtuSoQZTgH+E0mXWjZDZ1HXiak/hcTkD3q8B+ZUWLoDTsW2Gu+UTiwgpio
-JrpH9HTnoLIWVLIH19EPd+yMoTBwQqXLAwSZcOlpgN2ORAPunrETHdV9IRy6Bh5r
-/VmlFSQ+ClxCvIrqkBwO5POjn/g+A3Gio+HlIYfh/sACt6PfF+aDD1cU1RY2Qwa5
-oRL4dKmi8TA6tl4vXuzK01+3HJlA3L9zZmmCGE/A3kvNQMjgRuaajldlZdCEviZj
-yLCR8kokOYXxqgah5jJHjIDtY9ogbIeJSVcFDKrvfXBp1IA4+H0NrPona8WKBoUg
-Z5ia2+xgsltMg2l2Dm6PLxoz
-=ZjOR
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ocwP/3jwYL4qXpDrRlro+DpK
+hKMMvl7S2T3pzFT5H2xIACORAsEzFs1drKFociPu4c/1ViP6EDYgeOwiTnD16ubi
+bCLHC+P848tUXHaCBUnBVkrMVpryEcoVgLPTHl/8ax7d87sfaLfzP+t7BBBUgDvE
+h6bvmAqmrVNLH3AAx9SI1C0xqmwrly2scKmoneKmzjyJOPLZfPpiRClkvtQsTt+E
+hz2GPB2npu2MkPGR88iwrje4Oz82pqW8onfO18QkQoCVJPx4O7/QGd9OIS91z8DN
+awG0oI0Efe9+fkSMwWoWoqhxx8WUi/d4RpFVSQ2mjhYza6ZiUkR7PsPDLiyYndDh
+g1bHcGY9htrIdwwRdzihn2HJwnxEF6oJZYBtXk6YIUOXj0EF0du0qeYWawIikXlL
+GU2OGNZH7ET9qBcpf3ZwFoNgdNrwojTfi3StbJRqq133E2tZStkrq6yj3sAlEE11
++x57C/JmYH54TK9Our3TH9l7ZF4QaUMA+cwBH12ZaaUqg8PRnlrmqtgooF1YYn68
+XvlU73nyf5jXqZ8lSrG89Ffl0+/zG6sSKpEjhHuH1871zbtv32gFddy6u2QgdPZf
+Dob97RUDBNDPtBu9QPJsCL9KWsxBtJ6kliKew6CHfmSL0e3a/3hBZKAL8nFQ29zU
+Mmgxlxa0HTvaxFv/a2knqbUg
+=UIIs
 -----END PGP SIGNATURE-----
 
---===============3509679665466402672==--
+--===============1658268206814415361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4566606fe3a4-e25611a229ff.txt
+
+de984e661ee80ec924d66cd555f5e82ea06b3d90 module: Expose module_init_layout_section()
+a5a7ba834396c54baafef334cbf86009725a51b7 arm64: module-plts: inline linux/moduleloader.h
+151611a91bdc24564db53131df46cbbc148e99e8 arm64: module: Use module_init_layout_section() to spot init sections
+dd9a72d77d30f5cefb4eb1c1957fee033eef71da ARM: module: Use module_init_layout_section() to spot init sections
+465d487cbe1925cfdee720deacf410dd54d58f3c mhi: pci_generic: Fix implicit conversion warning
+bcb3c08ee2c625893bee4ab07b5250d9189de3d8 Revert "drm/amdgpu: install stub fence into potential unused fence pointers"
+29d11c08ab0fad6e846f5d1d219a37cdeaa0dc15 Revert "MIPS: Alchemy: fix dbdma2"
+b9c71997924490a7dadb0f63a5a506a458bad73b rcu: Prevent expedited GP from enabling tick on offline CPU
+b822e1f31d25e1cdf5d133d99f98492602aebca2 rcu-tasks: Fix IPI failure handling in trc_wait_for_one_reader
+a52f00fd8d9d2922610a9afb1cc1883871389483 rcu-tasks: Wait for trc_read_check_handler() IPIs
+6c3463d61e73f1b2d6af8a5b34c7559c15eb0981 rcu-tasks: Add trc_inspect_reader() checks for exiting critical section
+e25611a229ff9e907889923c2702d817003bc228 Linux 5.10.194-rc1
+
+--===============1658268206814415361==--
