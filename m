@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============1072635665588965383=="
+Content-Type: multipart/mixed; boundary="===============5944538720666634696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 31 Aug 2023 07:19:28 -0000
-Message-Id: <169346636802.2338.9481107897228933276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 31 Aug 2023 07:20:11 -0000
+Message-Id: <169346641148.4271.11764734844677246932@gitolite.kernel.org>
 
---===============1072635665588965383==
+--===============5944538720666634696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: c8d1d7de8ad3e4b074c804b04c15b170883d20fa
-    new: ad729f43655a634680d506a4cdb0e00b6028e129
-    log: |
-         ad729f43655a634680d506a4cdb0e00b6028e129 6.5-stable patches
-         
+  - ref: refs/heads/for-next
+    old: a5554064723a4046b63693a69379eac19b0ae4ce
+    new: 1e4e7c306d52a6b2f59b0e739420248cf44e440e
+    log: revlist-a5554064723a-1e4e7c306d52.txt
 
---===============1072635665588965383==
+--===============5944538720666634696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a5554064723a-1e4e7c306d52.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693466367 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1693466366-f86b9b92c6581a5367b06601671072998e31ef66
+6b289a3ffa562070556ca66b766a88b1563d7759 riscv: remove redundant mv instructions
+3ed8513cae19c01bac4466d24a497a7fd6e2cf56 riscv: enable DEBUG_FORCE_FUNCTION_ALIGN_64B
+82dfb5fde6d104799866658f4ca55262dbb7ae0c Merge patch series "riscv: kprobes: simulate some instructions"
+9389e6715f16a8de7aeeb0b2fd50f13e5a8938ef Merge patch series "support allocating crashkernel above 4G explicitly on riscv"
+665c51f644433f4f976ffc13e14523aaceacf9fe riscv: mm: use bitmap_zero() API
+dd7664d67b478afeb79a89e4586c2cd7707d17d6 riscv: Mark KASAN tmp* page tables variables as static
+9bdd924803787ceeb10f1ea399e91d75fb05d3a7 riscv: Move create_tmp_mapping() to init sections
+7f7d3ea6eb000bd329a6f2fe3f1c7596c4e783e1 Merge patch series "riscv: KCFI support"
+150e3c92a1455cc3971be1f5962f35c32ab3deee Merge patch series "riscv: support ELF format binaries in nommu mode"
+4e90d0522a688371402ced1d1958ee7381b81f05 riscv: support PREEMPT_DYNAMIC with static keys
+52b77c2806fe97a1166944f4b8bf77153ff27435 Merge patch series "riscv: Reduce ARCH_KMALLOC_MINALIGN to 8"
+94f00388c2a4623700f030e90161744f4bdb8225 Merge patch series "RISC-V: mm: Make SV48 the default address space"
+89775a27ff6d0396b44de0d6f44dcbc25221fdda lib/Kconfig.debug: Restrict DEBUG_INFO_SPLIT for RISC-V
+1085c573b5ab1ed0efbc29ca80043ea6de1f97e4 Merge patch series "RISC-V: Probe for misaligned access speed"
+68cb5d1bb94d060b2baf50b6a4234cfab20cbb88 Merge patch series "riscv: dma-mapping: unify support for cache flushes"
+442ff09b5708707d8d53c86bc2d784d6998a5389 Merge patch series "Add non-coherent DMA support for AX45MP"
+d77303a57c9544512f0361e6dfbbb77927d624f1 riscv: signal: fix sigaltstack frame size checking
+1e4e7c306d52a6b2f59b0e739420248cf44e440e Merge patch "RISC-V: Add ptrace support for vectors"
 
-c8d1d7de8ad3e4b074c804b04c15b170883d20fa ad729f43655a634680d506a4cdb0e00b6028e129 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTwPv8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9oAP/2Mc6hxMBuTlbNxDhyUj
-TW/767wZHwaZK5r9ZHxzmhY4k6UdDN8NbqvP7T+2o0n9OjZ0zYnMszXXBvOz96tU
-PpJhOP3lEa6d+YD0C06k6uiEF0G1QrYnYEzfJ9jCXNmSLNoO2IS3g768ybWaexc8
-MMdmmaIlKgkX2qDTFshwhcEuTnPcRtZF6KpumLM/jAWKs8bk7iX6M3fYjriTK7kf
-srYrDi4aw5EQEp3YZG+4clkuxr7jvz6Dd1o9LGwPKCXIx9FBhCydcockVwCKV5yh
-uoGEXuIN+9+LTicg7YGZQ/q2sgjdsOHd6ai9xLGdJ1EF5iv4/Zjy2Bskd29l4vsA
-Xklxi5d84Y+KHB5HN8vdlUSHyo6QGcbBtWN8/fjtsX6PQzGlp8onzG9tN8NixJca
-tcTpJvKBBa12WKrnz0qAkunSTf7Mno25s4H/WA8k3uhuZfG+HnYpweM2aHsDqkkK
-ueSQ66FNU039sfTVmjybuYt9d9xd+p5Dqd50A7/tJUSxEyH5M6/K0jk7L21XhJUC
-+ga8Ntz7tbDiFD8b2hS9K71tEVypLApZZ10/7aNVyB2QAKq2kCI5OW/AX8RakVHP
-mCW139YWWCjRfet7/1tJhOzmHoH/TcRbbkO9dVJZxSgl6wWrCAra9gTTSocmW2GX
-3DBnPLVL5/ANvDxXwC7q0C2F
-=kPc9
------END PGP SIGNATURE-----
-
---===============1072635665588965383==--
+--===============5944538720666634696==--
