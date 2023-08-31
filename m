@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0344882954752235142=="
+Content-Type: multipart/mixed; boundary="===============8787053216505616572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 31 Aug 2023 02:08:24 -0000
-Message-Id: <169344770423.4592.4799651252887490183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 31 Aug 2023 02:08:34 -0000
+Message-Id: <169344771478.4726.12603010071462855007@gitolite.kernel.org>
 
---===============0344882954752235142==
+--===============8787053216505616572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: bdc60129915fb4ff7832f4833512779c6a94eb5f
     log: revlist-240acee9e12e-bdc60129915f.txt
 
---===============0344882954752235142==
+--===============8787053216505616572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ f0005f1732245533f0bfa5bad4803c30a0e9f4e0 perf metric: Add #num_cpus_online liter
 45210e1ada6d7889e573e993b66ed0e958aaa8ec perf dlfilter: Avoid leak in v0 API test use of resolve_address()
 bdc60129915fb4ff7832f4833512779c6a94eb5f perf vendor events intel: Fix modifier in tma_info_system_mem_parallel_reads for skylake
 
---===============0344882954752235142==--
+--===============8787053216505616572==--
