@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1729855829403752936=="
+Content-Type: multipart/mixed; boundary="===============7387705962999581246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 31 Aug 2023 17:22:09 -0000
-Message-Id: <169350252905.2244.8976129152646216185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 31 Aug 2023 17:22:17 -0000
+Message-Id: <169350253736.2378.15542660786255237573@gitolite.kernel.org>
 
---===============1729855829403752936==
+--===============7387705962999581246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ecb2691f7dd90350c3b6c8e72a895bb83e52a915
-    new: 7d2815790bef46805277ee5f0f8368719373844e
+  - ref: refs/heads/linux-4.19.y
+    old: 633535b7dfa957d38956a45e0804058d1b204750
+    new: cb2cdf2272086683c41f5bb61390600f01227b6e
     log: |
-         7d2815790bef46805277ee5f0f8368719373844e 4.19-stable patches
+         fb1ea694e2f067e2768571a3dc4c17ac04bc1acd Revert "MIPS: Alchemy: fix dbdma2"
+         28fb7927bcc7180bacda0ffe6ac236577bebb274 Revert "ARM: ep93xx: fix missing-prototype warnings"
+         cb2cdf2272086683c41f5bb61390600f01227b6e Linux 4.19.294-rc2
          
 
---===============1729855829403752936==
+--===============7387705962999581246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693502528 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1693502527-98ca1279c34830c0e5fef551f3e15be07b39f8e6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693502536 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1693502535-40277fd3d55da18aa7033f5c83c5aeea298cb133
 
-ecb2691f7dd90350c3b6c8e72a895bb83e52a915 7d2815790bef46805277ee5f0f8368719373844e refs/heads/master
+633535b7dfa957d38956a45e0804058d1b204750 cb2cdf2272086683c41f5bb61390600f01227b6e refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTwzEAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xFUP/1M7qGdzclkTcmkHgIg6
-10XyrCH36QveLU+DYZb+57zeqPKroKcQERjjdgo4ufu0hKLCF6Xz7+95L2nYi/Jd
-PurROHeln043FfNnng6HVnltDAicECQEDM6g5wewPCFhN0W4FGefZsGd82/hsCr4
-PohNaDqxo4ccF9DAIaLTzHlkCZwv6HZ/OJsT0Inn0M1mmaatHYxPVBvKqzmjV7Qb
-VXmcSVNJlADS8gQU42X6qvgcpKTLqSY63y+Xr0iVJdlmSiaw6ulyF5QOQeAoO4ph
-7f//dFeEJJVjkK1lsRK5rtDGYpUOABvfB74szdBi+f2CfCDDRBVN3MKh7+4fKWm4
-dGXeFGn+kPTccKFn8zoAJ3uTFs6QIblINeTzkJAb8Z4pe5e5geCi9RVVTZMvAnJ5
-P/dEiHSmyf6mFa5boV4xhSdXw9q+4IwhQp2mwxXxm0Tag99Xmaen3NM4b9DAc1XH
-EhocVuS2eCjibPljTz0yOWZ8mLZUv6SgJvyR/zijoNhKjTGkv4QyGsECKyUdR/X3
-ALXphimJ9cGDvi67bGhsO99fFbjGk+4fLjXAKNaqvdQTHlatvMMsDdtcDlRVR5MX
-O7jfOTBVhvffIxp0KdC+Ji957tmKHnYRvN/gQIHMJy4WQ1vByY9eQfG/zUt8vb5g
-NlLf6bc9gNTD7auhRxAkCnyF
-=cyc/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTwzEgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xvoQAKYiabXylRGvAs+oTKkv
+L4M0KjuFHwveSKqUhy1sIfIkhajgaiAEr+ByxUNvy9CPKoLHNJvSoQDAbDLddSuy
+TIRXUihvhl4k8Sj+MEfdlEm4nYfl7r97LP8H9SCArvDV41b1xT7F2vI3Z9rcfCrQ
+9Yi5k8nGIm8lwOfpPjuXrH2it8WSpKm8AXmRw/taLrbXu1f7NjG0wMlKfY82iOfR
+xUnT/krnbXqhvGi+hUfuZScfEvYbDMOWYv/EilmTePR1xSW0DPQjU/FtnfhGhMwZ
+2MVDt92S1OEsqYpJi0Nmv7/jslOzEEDq9Wd8JLgkSGOIjn4MhLLcYwFMzro6AE5z
+NSNx0sFawnXfjwREBxhAm+8/VFjh0tz9p9B0PIL/prnMYMsjCBdP6dezpYwDdqrJ
+L9erOxBO0iiTw3M/SGkRuyOyxERSm3Whibl/If0eQPIR799gXGFlC1wZqzwdXGKF
+lL3pLli6gBOKJfnEnmbzfMmYXHYlOdR/A7QD9bqYqMFAX4njJ4eUwN3uLuQD906c
+qHWFtryDPrIaAeD6pAdFiacW4Ce0AXWQYhz672oJWDfIx+W76U0LLcKr4FUYmVBN
+dxw0qhWomllTetbuM9kD2A1mWruVYehIqksRm6/0OGcVFwYyLLv81b3HTrjTCXjg
+q+U6OKQzDeipLj7vv3QYCbPw
+=NVyw
 -----END PGP SIGNATURE-----
 
---===============1729855829403752936==--
+--===============7387705962999581246==--
