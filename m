@@ -1,77 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6353477816548638786=="
+Content-Type: multipart/mixed; boundary="===============7698277796015246846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 01 Sep 2023 20:49:04 -0000
-Message-Id: <169360134466.32401.8345646593811632164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 01 Sep 2023 20:49:30 -0000
+Message-Id: <169360137015.32638.15821432421483696569@gitolite.kernel.org>
 
---===============6353477816548638786==
+--===============7698277796015246846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: aee17df05ea3771cb74662430dc98e69b72ab9f3
-    new: b84acc11b1c9552c9ca3a099b1610a6018619332
-    log: revlist-aee17df05ea3-b84acc11b1c9.txt
+  - ref: refs/heads/class_cleanup
+    old: 9ef883ab22b88732219a6e5a21025f1f9074b9a2
+    new: 0369c2c28bd9ed58213cb17e03113a165b384780
+    log: revlist-9ef883ab22b8-0369c2c28bd9.txt
 
---===============6353477816548638786==
+--===============7698277796015246846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601343 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1693601342-2b91a1a73d7f84c7da2ebd3e0240ba4fe2da2afc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601367 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1693601366-0dcb29d186610549e01dc81f7dc7a1f383a517a7
 
-aee17df05ea3771cb74662430dc98e69b72ab9f3 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/staging-testing
+9ef883ab22b88732219a6e5a21025f1f9074b9a2 0369c2c28bd9ed58213cb17e03113a165b384780 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTj8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6TcQAJ1dWopA5JVf1+TjqcwV
-jDoFTCk4OM16rBdb7Y6OXkhzC/lUuNXqqnERCkU4B4oCrBMek8rCe77KbZuZNdYW
-+0l2XHIDng5+KB3+joNI2sbPLBIXY2NfJSEYFEw5ThlzEaeBJPAkhZc4XY4WQ+Ww
-uQroGiAxmi9UX4kjXI76drdjncHsRexze8ULlv9LmjDnjC914UtQMZy037DtdBFx
-dJXsxGvpW/R0RpiYNMh6EqxXjtBtg+SaX5y8Hpn6tvf3Hv16UGNRjZWIoqsTG2gQ
-iK0k7q5DKryY8gK1QDFz79BwoY8mYUM5HjmBfALVJ/N9lVhy7zmFFxT5oEqUvQuY
-07NFhzJfO313lR2yUpEtnjYQKOufVGDxad9nG5fxbSVF/x44uHuA+pMtMxhCd/AB
-4+oSCH4249fow0bQiJ8DR5uIdFBK1WuPOMlZYP3ZBVy/8ETtp24ViOpZhXx7yqpM
-Y1O+MKs1XjGD0V5kFEHkw17wbJ2CJ2NqZsK4t67e39n5vP1hOvo3VaHmXWzSZiP9
-QYRBfA3ofGfjp5R0yiUtSAXGXqa6zYbolI31NRWkw4IBNx9+SFYScj4VHoPZBgKk
-eCCb0OdxINI1AI9vqH9sXK49v/mei4D1RvLQnHLeQHvOB6g65RB9nUfcSGAYTHA2
-UMU3jNrT+BQsWQoPUHvmBhX2
-=Zagg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTlcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VZQP/RN7G5Ad4QNQnxD6pGRa
+yK2j4t/6oiXDX5fps9f6HimH2e0fNNBe/h5xcpVLXWAe9xKVBt5FAUK5hutjEe9V
+kz8ETEbu5fUWNgA1BDQRozApr3aGfKJ6E9QxXPmGCnM9/HkcBFYbYSl34myOtozv
+YbEu2SgiTcptTMY+G7YDPEETgYQDButQ6Vkf332MlF5qvQM8QD7lSKlu7jPbaIiq
+AUrWszOkEZJk9N8yoDJEzhk30IkAruvXq4AmC39JiWqaDRQPv8KfeANm9lKC/m4s
+l10p4IWnxqhy30Xn/1l5FYFdmK30ITKsT2jXrXySYFWZ9hGri+kNAVBY9mD7yHxl
+4Si/jaNe29UXpb4durJo5pTRzJI/vHwacW98VnFHDeAEe+mwUIfG2eTXujpXQldw
+zaEB9JXAd49nAtuLoxuV9MrbeM6bfqmrTaW3c9xkCppW8C2bw+7KBewZ9AhYIJIl
+i1hRbLA0JN3C9AgjnUExH3T6/aQbTxKV0U40YRQ8OJzG9/fTYOyP4WMlVsYkZvf5
+1wcBkpPmSkSXoVxXEI7NKBrW3HTh5EswfsK/bJskIWX0e0WOgeaBSdHdSu3WYVAR
+WL8oB5Ov4DJyWAk9BjGIEfaDqOkKDEC/nmgalXOY3hjOGcFGFrpasYCBzpuA5xro
+cKnRbILWzejY0KT3JWkKDiN0
+=nqcU
 -----END PGP SIGNATURE-----
 
---===============6353477816548638786==
+--===============7698277796015246846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aee17df05ea3-b84acc11b1c9.txt
+Content-Disposition: attachment; filename=revlist-9ef883ab22b8-0369c2c28bd9.txt
 
-fcdc6d7699f5650018b91374d7121e4df11f39a1 dt-bindings: nvmem: sec-qfprom: Add bindings for secure qfprom
-c471245bd9f25152e398fb49f65cf6e1ed7febbd nvmem: sec-qfprom: Add Qualcomm secure QFPROM support
-1006ebe9f1b5dad6b9e8b34ca9b982cc8c16ccee nvmem: u-boot-env:: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
-f4d1d17e1d81096b43dd7d4ccab05494a44d7089 nvmem: core: Create all cells before adding the nvmem device
-81e1d9a39569d315f747c2af19ce502cd08645ed nvmem: core: Return NULL when no nvmem layout is found
-b97400912a08dae6c1c1779a05157f2ab0180f4f nvmem: core: Do not open-code existing functions
-eb176cb46191f20314878222d8186106e23cb711 nvmem: core: Notify when a new layout is registered
-862c74a56d56a31cb75a15bdd1b6c82e752d4c51 dt-bindings: cpufreq: qcom-hw: add a 4th frequency domain
-5f19d0969a9a29cff7fbbb0f758c9246e3f6beaf cpufreq: qcom-cpufreq-hw: add support for 4 freq domains
-0848cab765c634597636810bf76d0934003cce28 platform/mellanox: Fix mlxbf-tmfifo not handling all virtio CONSOLE notifications
-b0c7f1d9d742911dd22703bf8b25ea85ae2363dd Merge remote-tracking branch 'pdx86/fixes' into pdx86/for-next
-92c2fb8fa56c46d534feea2073e55ecc61fa5089 platform/x86/amd/pmc: Move PMC driver to separate directory
-7e38a7422f128e7d7ba24b444e957d585dbb272f mlxbf-bootctl: Support sysfs entries for MFG fields
-4d54f55a4db34fa8fad104a20c64ec9cb2408e10 platform: mellanox: Add new attributes
-55e31928f30eae90cbd26cbffaa1208c69397e1f platform: mellanox: Add field upgrade capability register
 59b96ea4c220f41837b183697def20aa9ec89857 platform: mellanox: Modify reset causes description
 0d228ff9c1c73dffa94cb785e308ca7d649aa25e platform: mellanox: mlx-platform: Modify health and power hotplug action
 7d3d0fe4e96df4e0812f5054ed36af466f547cdb platform: mellanox: mlx-platform: Add reset cause attribute
@@ -1081,5 +1066,20 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 28a4f91f5f251689c69155bc6a0b1afc9916c874 Merge tag 'driver-core-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+48d12306d0172fa51715b0ace2a047a11524a3ac accel: make accel_class a static const structure
+6fbb31934b6584c25be051cd6bc754f2b4f08de6 coda: psdev: make coda_psdev_class a static const structure
+cdfb8ff0d24facdf131372b1a78dada35074f039 cuse: make cuse_class a static const structure
+804f4ab50f3ad79a459f859ec403f1439ed60fa8 pstore: pmsg: make pmsg_class a static const structure
+40e3797c969ec77413698f170dd166ab014639db netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+f20afd28cc8224da7452bb418c4d569f51bc270d PM: wakeup: make wakeup_class a static const structure
+8a32d054f630758376989abebc152e2540eda6a4 PM / devfreq: make all 'class' structures const
+02e4030b56ced758d6fc70cb9f5ff1597a80c378 dca: make dca_class a static const structure
+26c10628bbaa1957438c9977f00cd407c87e912f gnss: make gnss_class a static const structure
+e3949b0b2584fa0b3a360e17d29b519d8af20017 extcon: make extcon_class a static const structure
+8642223ddb2b6eee0b017437dd8a0e9ab4915100 infiniband: make all 'class' structures const
+db75e69b74aeac041aec9a5cd3a1081270bf8d7e i2c: dev: make i2c_dev_class a static const structure
+6a3f5b0409164a41c1aec2e73f004fd74d873d8c leds: make leds_class a static const structure
+231dd1c7608e3aee4441e69796e95c4106299a51 misc: c2port: core: make c2port_class a static const structure
+0369c2c28bd9ed58213cb17e03113a165b384780 rapidio: make all 'class' structures const
 
---===============6353477816548638786==--
+--===============7698277796015246846==--
