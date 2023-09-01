@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0534123710660182044=="
+Content-Type: multipart/mixed; boundary="===============0215848189117512238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 01 Sep 2023 20:48:12 -0000
-Message-Id: <169360129267.31390.4641435707769796464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 01 Sep 2023 20:48:27 -0000
+Message-Id: <169360130725.31558.9484538383100241385@gitolite.kernel.org>
 
---===============0534123710660182044==
+--===============0215848189117512238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 6872106171072b7b12e839b7bdb5ddb7c2dff36e
-    new: 6ea38d07ff8eee63eeac366a331010e3eebf5e48
-    log: revlist-687210617107-6ea38d07ff8e.txt
+  - ref: refs/heads/main
+    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
+    new: b84acc11b1c9552c9ca3a099b1610a6018619332
+    log: revlist-2ccdd1b13c59-b84acc11b1c9.txt
 
---===============0534123710660182044==
+--===============0215848189117512238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601290 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1693601289-77b12ad67bee2712280511285d09836cc198b904
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601305 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1693601305-7a13c768ea73ae8e80983863a89ab0a11b77cd20
 
-6872106171072b7b12e839b7bdb5ddb7c2dff36e 6ea38d07ff8eee63eeac366a331010e3eebf5e48 refs/heads/bus_cleanup
+2ccdd1b13c591d306f0401d98dedc4bdcd02b421 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTgobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jzwP/Ahs2GeR35uFwCdP9pRv
-13omEmFnHwhcgYrclfIZHTqWeRDY6R2TtiKENSHtUM1JzzcdbFnnQtu/2rNQlx7/
-4cd8MrROLqTTDrBkgEX76jHTd/Ys+tAA+o3f7Kf4/hfhAdokg8C2oXa7p2vq/9mG
-Ml/Xfn60iipw1ksDs5FmO4ooKlo5lF09m1nfDTPldE1fsMEowD1esVup4wcwOejV
-a8RjG7NbTH0N6FxGof+dvbvvuFGW6Dfg1xBk7iJVFO+O2ilPSPPCHb0b2K5U/diF
-AoYhIIP3kpDd6Xo7fmlSM9U5yyWwx0PtcV6zz6edTLIw1odnDqlkTWweFfmW9PfC
-OBl9S43kfycRSZDpafIRzfMfpNsG6fyKoS8Y+kK3dwM9JLjIqjRHUC6Kx2BEoGOu
-hFd3oMP0iNiGIkDbW7Wo5QJFyfUEeBmcAat1HE8yV7WQGOD7RDV2bZB3pfYlHSSt
-os3m4EbclbBr+QivgRitADh7NaU9+MSq9tfcEXaSG5qbWJKtDy3DeKkCMxi52j8n
-1Mgq5KEmV22HscUbGK8GLBzZVVbTTHpcDvtbI5Tr3aYX21ZL+iyN/Qr/Huxi/8cp
-0LzkFSW4YYedGyixMxb8ZlDxkwGV9K56qxvX7is/W97gWkfIfUl1Dj58cKZHFya0
-09m5t/NtC0rIiHDNutuxOZbK
-=ICit
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyThkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+60IP/2tOIna1YTKuHyKL+qph
+W4zBHcxfvviZOnt3hKLH/lKhEFmXw25eUHrZtgLhalIYxS2dPj/oYzVVvYqTtnHL
+PZWpS39QnT1ztFmnNi4YpUI4WooEVINOLlajwS26IE0b5/YxHVCv/sXSNGVX+FcR
+S0vVBCKaMtM+Uft64HWcSLQqUM++GqHF7CF+qLCpw/vmDhMHpeB3eIT6A+LUMxJv
+24WaJOs03gb2DE7o2P/1tliHE3hS//EGqxbJ/HSLamz/LmFsO32fuAr04DBsIksb
+jQsJZ8sD8n3Z1DKkXjT0TOXkXL3KqdcPoPPoc7QfJFHxikyMyY2colfMSoZzd+O0
+x8zW2kpc4ehbmG/Oiv2VhjjOJ2Oet77KA0yuG+NtLa/ln15u9Z5kuwH7Cu4dk5Gv
+0UN+KUBbUSJEGvoui6MgtCuwyJCgp9hVXPJiWysGFWoepc/SWy404aEIe+Uj3PY5
+EA3H9GY8wgySSzmxtRjKQBuMZ+JkKQUsECDrRm1s8YcypmOOkrA5MWnh/qglpxbo
+njF9eZtxHx6e31d7fUS+Sy9d1ypRZmYsGXOFJCs0t2e+u1Sn20zSyqBCCLk10CJt
+eUWw80RQovwc5OHa2X2QspxFS3X8CZAlWprnuFVxLBwFxE4iOxkBD66qJ8r0jl4j
+47j2hd6ermr/BpWQYdtlzrPp
+=6upF
 -----END PGP SIGNATURE-----
 
---===============0534123710660182044==
+--===============0215848189117512238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-687210617107-6ea38d07ff8e.txt
+Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-b84acc11b1c9.txt
 
+fcdc6d7699f5650018b91374d7121e4df11f39a1 dt-bindings: nvmem: sec-qfprom: Add bindings for secure qfprom
 c471245bd9f25152e398fb49f65cf6e1ed7febbd nvmem: sec-qfprom: Add Qualcomm secure QFPROM support
 1006ebe9f1b5dad6b9e8b34ca9b982cc8c16ccee nvmem: u-boot-env:: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
 f4d1d17e1d81096b43dd7d4ccab05494a44d7089 nvmem: core: Create all cells before adding the nvmem device
@@ -1080,6 +1081,5 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 28a4f91f5f251689c69155bc6a0b1afc9916c874 Merge tag 'driver-core-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-6ea38d07ff8eee63eeac366a331010e3eebf5e48 FIXME: driver core: platform: make platform_bus_type constant
 
---===============0534123710660182044==--
+--===============0215848189117512238==--
