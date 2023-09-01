@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2283460998203957818=="
+Content-Type: multipart/mixed; boundary="===============5657726790060198821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 01 Sep 2023 18:32:13 -0000
-Message-Id: <169359313353.23524.12479636908875250940@gitolite.kernel.org>
+Date: Fri, 01 Sep 2023 18:32:47 -0000
+Message-Id: <169359316723.23810.1091786544133736127@gitolite.kernel.org>
 
---===============2283460998203957818==
+--===============5657726790060198821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bd6c11bc43c496cddfc6cf603b5d45365606dbd5
-    new: ae074e2b2fd410bf54d56509a7e48fb83873af3b
-    log: revlist-bd6c11bc43c4-ae074e2b2fd4.txt
+  - ref: refs/heads/dev-queue
+    old: 8983daa3e4ff444cd2c070217adfa0fd9a94a47c
+    new: 9a2ffe4a64166a0ca40785472f932989e8d8b72e
+    log: revlist-8983daa3e4ff-9a2ffe4a6416.txt
 
---===============2283460998203957818==
+--===============5657726790060198821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd6c11bc43c4-ae074e2b2fd4.txt
+Content-Disposition: attachment; filename=revlist-8983daa3e4ff-9a2ffe4a6416.txt
 
 32337c0a28242f725c2c499c15100d67a4133050 bpf: Prevent inlining of bpf_fentry_test7()
 6a8faf10709161e7138202a8cf052b070971239f bpftool: Fix build warnings with -Wtype-limits
@@ -70,5 +70,16 @@ f2e977f36cc7b2554ed519f779c9c18d77fc22d7 Merge branch 'net-data-race-annotations
 8ae9efb859c05a54ac92b3336c6ca0597c9c8cdb selftests: fib_tests: Add multipath list receive tests
 d8a30706fea64330ae7333f77945ba040b075717 Merge branch 'dst-hint-multipath'
 ae074e2b2fd410bf54d56509a7e48fb83873af3b sfc: check for zero length in EF10 RX prefix
+fdc34876541fd76835f9f0bace1132202e1fc58d igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+09f64c7141466c17e73a463913d5bf90164143ce igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+6d3a4622a02ad4a2c06705f0d3e77866860c5242 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
+3783848bf008958d7396f49e080cb33b528df5f2 i40e: fix livelocks in i40e_reset_subtask()
+b0a6115b0714f10fb4204cf62932e39134c19164 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+d091034d3c17b07c0637a359c666ff5a3d5f480d i40e: fix potential memory leaks in i40e_remove()
+33d8917faf2089aee1e8e566d64a95c498ae9583 i40e: fix 32bit FW gtime wrapping issue
+37a6dbbf724fd433bc96ea8e6b9dce05d5aefb71 iavf: Fix promiscuous mode configuration flow messages
+c95fe55086420df4dc3d02aedaacfed6d7ae78bc ixgbe: fix timestamp configuration code
+95f5dd0b1d8c847dde616e3670f56289bc517385 igb: clean up in all error paths when enabling SR-IOV
+9a2ffe4a64166a0ca40785472f932989e8d8b72e igb: disable virtualization features on 82580
 
---===============2283460998203957818==--
+--===============5657726790060198821==--
