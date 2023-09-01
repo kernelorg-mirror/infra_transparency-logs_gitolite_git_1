@@ -1,53 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2263571272934408330=="
+Content-Type: multipart/mixed; boundary="===============4642726824631069970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 01 Sep 2023 15:01:27 -0000
-Message-Id: <169358048729.24183.11361569453889415739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Fri, 01 Sep 2023 15:08:39 -0000
+Message-Id: <169358091915.29663.11489426767150002379@gitolite.kernel.org>
 
---===============2263571272934408330==
+--===============4642726824631069970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/tags/staging-6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e8812213953224dfc2be70e261b6d5c3e80d6b06
+  - ref: refs/heads/topic/fprobe-ftrace-regs
+    old: 3e19267900fde2f1dd059f5847ab3637ba66ea12
+    new: 398bcb2fcb442bac23d5e514b6144ef4c32d74e8
+    log: revlist-3e19267900fd-398bcb2fcb44.txt
 
---===============2263571272934408330==
+--===============4642726824631069970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3e19267900fd-398bcb2fcb44.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693580486 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1693580485-8619cd3407a19b97ea00fa74cee3db86d1c1b2ff
+5541909895ff5cd9ccad96e62e7861492cd3db0e Documentation: probes: Add a new ret_ip callback parameter
+8d2742813e6551924b57fe7ae858696df63dac0e fprobe: Use fprobe_regs in fprobe entry handler
+a728d2ad49f0421c42660171d353e3edcf78e529 tracing: Expose ftrace_regs regardless of CONFIG_FUNCTION_TRACER
+e86cf59b1f5e0e053bc45e73a72f11a73874ed83 fprobe: rethook: Use ftrace_regs in fprobe exit handler and rethook
+6c9c3975af9e5f480a83ae0ea23b6686b1f65e1d ftrace: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
+f46ebcecaeac80fdad925801c65c0b677fa22558 tracing: Add ftrace_fill_perf_regs() for perf event
+4071ad14566e458dccb54ddd93213bde3696d928 tracing/fprobe: Enable fprobe events with CONFIG_DYNAMIC_FTRACE_WITH_ARGS
+ad665ee3e5da490827078acbdbfbde992fbce50a bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
+2f68668a0630373bfe171f6be0f32a56557e6a71 Documentations: probes: Update fprobe document to use ftrace_regs
+398bcb2fcb442bac23d5e514b6144ef4c32d74e8 Documentation: tracing: Add a note about argument and retval access
 
-0000000000000000000000000000000000000000 e8812213953224dfc2be70e261b6d5c3e80d6b06 refs/tags/staging-6.6-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTx/MYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jeoQAJsmCC982IeG+zzI/Fcw
-L9fOiM+3JaUghz/ss/27gh6gpzuXMHHLvSmSbypzfp8FcYBI5/kYraL9d7jeQCHz
-rfWTZQOduR9JiW6Yo/3acUO5d1Bo2M7ieTYxZcJM6WIecAiS8WnHQeSQP2DhpvJL
-tYJQQ1IqgGYL6Wex6MWnXM6+FvyraR2NV1PFzcKSRfksy0r+9Sp47jPNHLvDVnad
-JfzA+FO0qLx6bPDBPO3iWbrHaQ/U5q8CcgPhJqDYoIiv/bhgk92LCtAdoinCej8E
-gqajPlR6hjDkPDwTTmAGmZMnbzhx3MtZiPb3aSPGFD/uBg8u0BuNOJdh3A2mqgs6
-KCjhzkXa8MiLISG9qmdukakH3lQUcIExlo1wOb5b2CdJxxft2+QNwlkjSSYI/Dl3
-UIxRfbHD3LKKJ+xYxSQ3gFt04Z2XHaFLP8kJ6A/h38tkg901T1eFvvRYndnnLi5p
-xkygablqBauvBc3UrrUCa6RpIaZnmaS60bf3rx6RPK7dPJNEDr8trkqDIJqQUPit
-/qG/S3Y+/gpd8Fy7IpoFt2C1JW5lBK60SdO5gv610PGzjGc174Lpbr9aMwUqWuVN
-zH4cgcrYC6TH7sc/zfdxTa0dT8Ju0CPTZlOatBNh6n2BBYKn/OWuDKvd/IImTgYm
-LJPgTL2yVrDAndZZEWME9wSl
-=Cx6Y
------END PGP SIGNATURE-----
-
---===============2263571272934408330==--
+--===============4642726824631069970==--
