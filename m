@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 01 Sep 2023 17:58:22 -0000
-Message-Id: <169359110248.30301.5332386268238925558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 01 Sep 2023 18:06:19 -0000
+Message-Id: <169359157919.4155.6566202954975178117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/experimental
-    old: fad422e785b261142d7c6dd4cc264b7f17728ccc
-    new: 9776675eef7706d8f9240b50844b023ff32c49d0
-    log: |
-         088b5f9b446f1ce4ae37d89077e5e3ebdf54c1c6 erofs-utils: lib: fix `last_mapped_block` in erofs_bflush()
-         9776675eef7706d8f9240b50844b023ff32c49d0 erofs-utils: bail out properly if erofs_iget_from_path(root) fails
-         
+  - ref: refs/tags/test.1693591563.x86_urgent_for_6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: df6f5c4685e858c0c98f8a3bc04f11b8de202fb0
