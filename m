@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-Date: Fri, 01 Sep 2023 20:05:33 -0000
-Message-Id: <169359873306.29333.7118703648818998009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 01 Sep 2023 20:06:20 -0000
+Message-Id: <169359878035.29710.723814108098166246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-user: sforshee
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0a0d330729a663cede00251c41f80da2d1ed951e
-    new: dbe97015b36b19a25d2bc9c7f91710fa9e000609
+  - ref: refs/heads/for-next
+    old: 9a1d204f5c5738ce873a8e7cdbc5114f6878a1c6
+    new: 44c28940e24b405846d8712f5fe5eae53cb9acee
     log: |
-         dbe97015b36b19a25d2bc9c7f91710fa9e000609 Notes added by 'git notes add'
+         9300f00439743c4a34d735e1a27118eb68a1504e RISC-V: Add ptrace support for vectors
+         44c28940e24b405846d8712f5fe5eae53cb9acee Merge patch "RISC-V: Add ptrace support for vectors"
          
