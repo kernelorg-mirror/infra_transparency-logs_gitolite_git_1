@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0664816466108753696=="
+Content-Type: multipart/mixed; boundary="===============0316293616039764563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 01 Sep 2023 20:43:22 -0000
-Message-Id: <169360100212.24857.14913651707566131545@gitolite.kernel.org>
+Date: Fri, 01 Sep 2023 20:43:27 -0000
+Message-Id: <169360100763.24940.3708511841568989909@gitolite.kernel.org>
 
---===============0664816466108753696==
+--===============0316293616039764563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,55 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
+  - ref: refs/heads/char-misc-next
+    old: 704e2c6107f1a5353a1038bac137dda0df2a6dd0
     new: b84acc11b1c9552c9ca3a099b1610a6018619332
-    log: revlist-2ccdd1b13c59-b84acc11b1c9.txt
+    log: revlist-704e2c6107f1-b84acc11b1c9.txt
 
---===============0664816466108753696==
+--===============0316293616039764563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601001 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601006 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1693601000-f61bf31e84f843a927609f8042fa00c9ce1d8c93
+nonce 1693601005-ba059b425a6d16552bf24481ad1644f9d972bab7
 
-2ccdd1b13c591d306f0401d98dedc4bdcd02b421 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/char-misc-linus
+704e2c6107f1a5353a1038bac137dda0df2a6dd0 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTOkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sMQP/2lQD1pOIKpLa5Nj+4yv
-m1GovLi6vvdu/P4Gd8PytQmd/7JshnpeifRorPjNP5fGuRSNeMtP70u8OakpmvGU
-wrx0CQ41X34ZCzpv5K7vvLNKn0AePO9VVL25MDEo3Qiot0PeK7fJnaip3J3/72hB
-aXxNawgE7SntVfv58bDVXDo3DcYI81Zniwv9tJZ+iOyxInAWrYMl46KCSsUCbx7v
-e4YWSUc10PyNcQzejUlhdF0JfjS3xkSxKoPyPUQ7CuLh0XiY3tKsdcgG5Lj+FVNG
-Yn4NeZUbFmpb/bXfQu/C0jIjrY6QM6esUd/6k2+IKDEAAB+5xJ/n8H9Qjg4e2ZPd
-btSMJyIUyoWBKaBHsz57FvKJvlTIXN67zi0JIE3bkg2F5QufqKAR1mDFUCzSjNct
-WEVCqcU17eEpou4htG3LDEmVdVgWkDt6Vr3KQWuiWpkJ0in0oOmjcLD50HzWR43i
-PSbkHZpqNJz/EAwjuinhpwKM33opJJ/CkxnCq6iDH7LczFKzQKn2JJzRMvoaNQsU
-EqjtN+cjM9nEJNJqHv1vtCp7O5KOGseEavrGYfJd33HKA3h/6SJgrenkJVcbqR0N
-9vVrMkBuH4BTR8W4VzCxDMOiYL2JyUkz/qt6SN8Aj0SUP0wU0+q9CElZWQqWsKES
-xjZ58DP1eyfhxMH6zaOzhkqN
-=jlyq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTO4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xf8QAKZ1PmF3fFM0Qb6VnSFm
+h1bps5ImT1w5A7c5MxoVXQOfynTMox+xcozP7CiuFnHytusTI+RYWC7hFI88kyMI
+ro6GXjDOyseXsE851pqgmcU+Zh7AVfb/cwos68p90SfFrL1NekDIoaHNY8GYjg/L
+DZ3zrB70s20yXiL0yhDBxCLAmGYV081j2sJJY28mFc5VfJeXOgGPSRw0tASkTySa
+7i7IKs5+YqTfsMGgwyMRaxj9AWdMtWVUUuX6sFIzO0WHG1WwqWDdvLsRYhiOYX74
+3WNEEjPcP5+J/yzzSX+W/zhqZ6+RIk24lrjJh0qCJ96orMiDbcNKAySC2GjBDSJ7
+P1Ta94jfnTM5FKJca5S6NFK2ws2sCCNtiy5YgxFdRWk5MogkqX2OU0Cr4SKW/fOe
+iMfFfEErNAjuh3JJEYCOeBtgtXgGvfRy6HD1RkJeEY/XWaxD0/Kfh4N1H8NOuyYS
+8P6jhxEnoremHMp3f1RNsgh5kqEEH0vhuhm8dMq2y2RWB06Y3nRpnJGZt18LxoRT
+v2qYjNYw9GJZ3vV1/weNelDA1TkXtoTUJawALEFIPvI3QVXyvMdaKjSTIMuuWoT4
+wU06SYcqhPkc7aMPTu9oKFJFgbwBjmjnVrDrrIqLPEOp087w8ckBvtEK5m2jCqBW
+9DhvAUgNOOTRhZX7nx7++8jE
+=x8tZ
 -----END PGP SIGNATURE-----
 
---===============0664816466108753696==
+--===============0316293616039764563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-b84acc11b1c9.txt
+Content-Disposition: attachment; filename=revlist-704e2c6107f1-b84acc11b1c9.txt
 
-fcdc6d7699f5650018b91374d7121e4df11f39a1 dt-bindings: nvmem: sec-qfprom: Add bindings for secure qfprom
-c471245bd9f25152e398fb49f65cf6e1ed7febbd nvmem: sec-qfprom: Add Qualcomm secure QFPROM support
-1006ebe9f1b5dad6b9e8b34ca9b982cc8c16ccee nvmem: u-boot-env:: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
-f4d1d17e1d81096b43dd7d4ccab05494a44d7089 nvmem: core: Create all cells before adding the nvmem device
-81e1d9a39569d315f747c2af19ce502cd08645ed nvmem: core: Return NULL when no nvmem layout is found
-b97400912a08dae6c1c1779a05157f2ab0180f4f nvmem: core: Do not open-code existing functions
-eb176cb46191f20314878222d8186106e23cb711 nvmem: core: Notify when a new layout is registered
+6763ef191d672ff3c2db0622652d49b0c0a60c4a wifi: ath11k: fix Wvoid-pointer-to-enum-cast warning
+de43b07db2a1af0d11ed167bb028f1038ae04086 wifi: ath10k: fix Wvoid-pointer-to-enum-cast warning
+adb0b206709f4f2f1256a1ea20619ab98e99f2e7 wifi: ath11k: Remove unused declarations
+3b86f86d0f163454c4043a629f0ba95641d371bc wifi: ath: remove unused-but-set parameter
+5e1be4cdc98c989d5387ce94ff15b5ad06a5b681 netfilter: nf_tables: fix out of memory error handling
+8e51830e29e12670b4c10df070a4ea4c9593e961 netfilter: nf_tables: defer gc run if previous batch is still pending
+e10ec6ea612ca54e3266996875b0742619dac20f wifi: ath5k: ath5k_hw_get_median_noise_floor(): use swap()
+afb522b36e76acaa9f8fc06d0a9742d841c47c16 wifi: ath12k: Fix memory leak in rx_desc and tx_desc
 862c74a56d56a31cb75a15bdd1b6c82e752d4c51 dt-bindings: cpufreq: qcom-hw: add a 4th frequency domain
 5f19d0969a9a29cff7fbbb0f758c9246e3f6beaf cpufreq: qcom-cpufreq-hw: add support for 4 freq domains
 0848cab765c634597636810bf76d0934003cce28 platform/mellanox: Fix mlxbf-tmfifo not handling all virtio CONSOLE notifications
@@ -216,7 +217,6 @@ e78bd50b4078b3b2d9f85d97796b7c271e7860ca PCI: Add PCIE_PME_TO_L2_TIMEOUT_US L2 r
 9fda4d09905db9ecae17ad741924a7530aa3c96e PCI: layerscape: Add power management support for ls1028a
 a11937b3cff5449871f428e46e202481dc61a9de mmc: sdhci-of-dwcmshc: Add error handling in dwcmshc_resume
 48fe8fadbe5e03edfd83315c331b171a9ae245a4 mmc: sdhci-of-dwcmshc: Add runtime PM operations
-704e2c6107f1a5353a1038bac137dda0df2a6dd0 Merge tag 'icc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 c008323fe361bd62a43d9fb29737dacd5c067fb7 ASoC: amd: yc: Fix a non-functional mic on Lenovo 82SJ
 cdf4100eaa1f4107fcf7c95b5eccca96cca6c777 drm/gpuva_mgr: remove unused prev pointer in __drm_gpuva_sm_map()
 feea65a338e52297b68ceb688eaf0ffc50310a83 powerpc/powernv: Fix fortify source warnings in opal-prd.c
@@ -1082,4 +1082,4 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 
---===============0664816466108753696==--
+--===============0316293616039764563==--
