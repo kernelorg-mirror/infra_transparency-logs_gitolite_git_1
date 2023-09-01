@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 01 Sep 2023 00:44:56 -0000
-Message-Id: <169352909625.32709.17704905364281011150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
+Date: Fri, 01 Sep 2023 00:46:44 -0000
+Message-Id: <169352920477.2775.6914415734334893133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/mcgrof/linux-next
+user: mcgrof
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: bdc60129915fb4ff7832f4833512779c6a94eb5f
-    new: 64199ae4b8a36038dd5b69904a29bd48ef11ca8b
+  - ref: refs/heads/large-block-nobdev-20230829-minorder
+    old: 3e8e92455244dfc94fd82141bd7feac3b016996c
+    new: 88c641112f1d0c16f05cd00a240467262cd951e2
     log: |
-         478c3f5dcd8ca7eb1ef0c7a7022cca80b528325c perf list: Don't print Unit for "default_core"
-         58d3a4cea4a45414a21a712078d95b39dcdda10d perf parse-events: Name the two term enums
-         64199ae4b8a36038dd5b69904a29bd48ef11ca8b perf parse-events: Fix propagation of term's no_value when cloning
+         c39c6e06405ffd6a23b163033ec707b7c043bc78 mm/truncate.c: fix truncate_inode_pages_range()
+         5eeb3afd642fef40cdcc2141051ddc8b44bc8589 mm/filemap.c: fix filemap_get_pages() last_index computation
+         32e7a473f88c9a124b497e69abd60d51b74ba427 mm/readahead.c: round down readahead sizes
+         4218b066fcefd574d8c8f714059026b133a2d4dc page-cache: folio order allocation is at least min_order
+         88c641112f1d0c16f05cd00a240467262cd951e2 mm/truncate.c: replace min order alignment check
          
