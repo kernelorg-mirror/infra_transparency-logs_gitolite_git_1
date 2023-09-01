@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5759186556755520666=="
+Content-Type: multipart/mixed; boundary="===============5509604808233170597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 01 Sep 2023 20:48:53 -0000
-Message-Id: <169360133353.32191.13662435975271519811@gitolite.kernel.org>
+Date: Fri, 01 Sep 2023 20:48:59 -0000
+Message-Id: <169360133907.32316.15791899535737434200@gitolite.kernel.org>
 
---===============5759186556755520666==
+--===============5509604808233170597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+  - ref: refs/heads/staging-next
+    old: aee17df05ea3771cb74662430dc98e69b72ab9f3
     new: b84acc11b1c9552c9ca3a099b1610a6018619332
-    log: revlist-5d0c230f1de8-b84acc11b1c9.txt
+    log: revlist-aee17df05ea3-b84acc11b1c9.txt
 
---===============5759186556755520666==
+--===============5509604808233170597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601332 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601338 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1693601332-56e7dbda7dd745d0a8584271da7301df9d108253
+nonce 1693601336-023753c5005f5b50f597b2572449745c77ceec35
 
-5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/staging-linus
+aee17df05ea3771cb74662430dc98e69b72ab9f3 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTjQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6MMQAIbGtmwIhnNNJf6rDNUo
-jKUE2w4PVTvkpl1dzrO50ORMtuBYMEfAjs6dQxchh7NGbVwRuyAviK6vJoS2kbtV
-rAOnMbozDHSJeinqhHwUxkz5vsETLtzHBGkLXfDvo5NtmWHl8MP2gbPKvlh9XJK8
-jzA7azjMPXSbJsCRprxoiA47AaPYqhXImK4EG+uwhhknJX4dFssT8BOE8F1H+yWq
-fRFE1jIpJ1YGBElov8FaPzfhVx29udpECyibEX9RsQh2GDtz9wIC9X1QPaQ3lj58
-FYoE4wt12NiojOlWyZBigyJrnv33U/m6kbG5qm+vTSdT6HUc8OEjg/qvS1a6oJxw
-rUemy3S9cX1YLtu8tGSKj2NB0THiOLGJZo2AxVWGO20nhGV0Rk0yONrigELOw3Tk
-ZHmwjteJ2Sx8b8td55WiudYMElWOjipPxbXunr6JPjp6TMsH08C3DCATuB7kcafJ
-6aQ4ufDQM19as/2QrBYSBVgPMpXiCH5BhnvrbPETIARAq+Nn3cjAuCL53wLMBGAk
-ETvfycPwrViJ9rCm5m9tnHCzwprIz5hdsmgJP0u40/fI9LL2uz7kowKdddMdniGf
-KU6SJVnr7ff70SRLljlGQ7/JPVpMJxn+Dq8SQJobEmrAVZ+nQXR0U+Vafqu51byn
-PhgmwglNzYJ7RXBsErWAuI2C
-=qcj1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTjobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0ZkP/3ftPSXZxdKK0sWsDMIu
+hVpvZ7NdikYV/uTDeYU+UT0Vq/tVjDS6QBMWwKAOWEJlSW+bqhMnsLzdWgXBkmEy
+c95wC/cBGKMc6BYB+/WiveF9Lnw37Hzm/cOo6BqCfU+WTGBfvQvakubeEEEh7GuT
+C0RTiUUHE9yyNYPilb/usHXSkLwV9E3PiyHh+0M97PDtxjAG1tTJYlsQSfnqS4Lz
+nsoph6wKTp4ZzL1p1QximQ+DdEm518qrV5+IpiiB44wRjPFjik+E0mDuHvSbrLgR
+2DnB9ylvJfCIFZiLvjSUUiDqesrujsQ9ZjmUAD8kE/CXPzqGfSZwKGjOdxSfaZao
+nrD7kmo1EdMa0kRAqX6j409r/OIcufaKbMb/qEmOWOQ4N0FhQKVfCiLU9AK1+6xm
+Cmj/X44Vi6LeL7FehJ4c3qJEA+PDGQb4tN7WnQlU30m9lAPZ9uxTkNcShuf3AjOj
+Udan2h/0wLnJZl/h9j4Zz3nIgvS3T7t3caLFAK5LyxXETPcIGwFj2tcvKUX0JNH1
+MpzIQKfNeQ2eH8Xl+NlJyigW5TtDFQ+VrnQORQxvdsW24bMhvGG9dUx6Gbd0Zwzr
+djONPinChAtj+iiMgipxE0UpWT209IkrGzGlVLe6qL02KHxqPfRlV5PEfGyWF4Oa
+ABav1i+A+MauQiKQnz+uXdso
+=VNbm
 -----END PGP SIGNATURE-----
 
---===============5759186556755520666==
+--===============5509604808233170597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d0c230f1de8-b84acc11b1c9.txt
+Content-Disposition: attachment; filename=revlist-aee17df05ea3-b84acc11b1c9.txt
 
 fcdc6d7699f5650018b91374d7121e4df11f39a1 dt-bindings: nvmem: sec-qfprom: Add bindings for secure qfprom
 c471245bd9f25152e398fb49f65cf6e1ed7febbd nvmem: sec-qfprom: Add Qualcomm secure QFPROM support
@@ -1082,4 +1082,4 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 
---===============5759186556755520666==--
+--===============5509604808233170597==--
