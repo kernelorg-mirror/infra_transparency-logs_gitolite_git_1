@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 01 Sep 2023 18:12:18 -0000
-Message-Id: <169359193830.9345.3567804294449858481@gitolite.kernel.org>
+Date: Fri, 01 Sep 2023 18:13:44 -0000
+Message-Id: <169359202416.9962.6496693643643736354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daveh/devel
 user: daveh
 changes:
-  - ref: refs/tags/test.1693591937.x86_urgent_for_6.6-rc1
+  - ref: refs/tags/test.1693592023.x86_urgent_for_6.6-rc1
     old: 0000000000000000000000000000000000000000
-    new: eba0ae23d378dc6cf203bada19e7233b0e8324a1
+    new: c44563e16fafa100f652e9704a7071c5b093d595
