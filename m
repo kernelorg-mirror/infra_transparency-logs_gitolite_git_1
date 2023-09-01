@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1602483009034516135=="
+Content-Type: multipart/mixed; boundary="===============3193835676591215544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 01 Sep 2023 15:57:47 -0000
-Message-Id: <169358386753.1563.9718612234666618434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 01 Sep 2023 15:57:50 -0000
+Message-Id: <169358387095.1651.17526565363300767437@gitolite.kernel.org>
 
---===============1602483009034516135==
+--===============3193835676591215544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: e0152e7481c6c63764d6ea8ee41af5cf9dfac5e9
     log: revlist-ef21fa7c198e-e0152e7481c6.txt
 
---===============1602483009034516135==
+--===============3193835676591215544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f35d1706159e015848ec7421e91b44b614c02dc2 Merge tag 'nfsd-6.6' of git://git.kerne
 a031eba2956863457b2680453ca45515a1605a47 Merge tag 'csky-for-linus-6.6-2' of https://github.com/c-sky/csky-linux
 e0152e7481c6c63764d6ea8ee41af5cf9dfac5e9 Merge tag 'riscv-for-linus-6.6-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============1602483009034516135==--
+--===============3193835676591215544==--
