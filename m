@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 01 Sep 2023 15:10:33 -0000
-Message-Id: <169358103363.32096.5604719173735703376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 01 Sep 2023 15:11:40 -0000
+Message-Id: <169358110072.32561.6957487024633428179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/kunit
-    old: 25e324bc9cf2ee956eec1db384c39c1a17b7c44a
-    new: dce19a3fede254fd11e0013f1c6fe3bfc37a4d73
-    log: |
-         dce19a3fede254fd11e0013f1c6fe3bfc37a4d73 kunit: test: Make filter strings in executor_test writable
-         
+  - ref: refs/heads/platform_data_rm
+    old: 0000000000000000000000000000000000000000
+    new: 2dd854656b185196bf71387a9e6c322ab6456728
