@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5509604808233170597=="
+Content-Type: multipart/mixed; boundary="===============6353477816548638786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 01 Sep 2023 20:48:59 -0000
-Message-Id: <169360133907.32316.15791899535737434200@gitolite.kernel.org>
+Date: Fri, 01 Sep 2023 20:49:04 -0000
+Message-Id: <169360134466.32401.8345646593811632164@gitolite.kernel.org>
 
---===============5509604808233170597==
+--===============6353477816548638786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: aee17df05ea3771cb74662430dc98e69b72ab9f3
     new: b84acc11b1c9552c9ca3a099b1610a6018619332
     log: revlist-aee17df05ea3-b84acc11b1c9.txt
 
---===============5509604808233170597==
+--===============6353477816548638786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601338 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601343 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1693601336-023753c5005f5b50f597b2572449745c77ceec35
+nonce 1693601342-2b91a1a73d7f84c7da2ebd3e0240ba4fe2da2afc
 
-aee17df05ea3771cb74662430dc98e69b72ab9f3 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/staging-next
+aee17df05ea3771cb74662430dc98e69b72ab9f3 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTjobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0ZkP/3ftPSXZxdKK0sWsDMIu
-hVpvZ7NdikYV/uTDeYU+UT0Vq/tVjDS6QBMWwKAOWEJlSW+bqhMnsLzdWgXBkmEy
-c95wC/cBGKMc6BYB+/WiveF9Lnw37Hzm/cOo6BqCfU+WTGBfvQvakubeEEEh7GuT
-C0RTiUUHE9yyNYPilb/usHXSkLwV9E3PiyHh+0M97PDtxjAG1tTJYlsQSfnqS4Lz
-nsoph6wKTp4ZzL1p1QximQ+DdEm518qrV5+IpiiB44wRjPFjik+E0mDuHvSbrLgR
-2DnB9ylvJfCIFZiLvjSUUiDqesrujsQ9ZjmUAD8kE/CXPzqGfSZwKGjOdxSfaZao
-nrD7kmo1EdMa0kRAqX6j409r/OIcufaKbMb/qEmOWOQ4N0FhQKVfCiLU9AK1+6xm
-Cmj/X44Vi6LeL7FehJ4c3qJEA+PDGQb4tN7WnQlU30m9lAPZ9uxTkNcShuf3AjOj
-Udan2h/0wLnJZl/h9j4Zz3nIgvS3T7t3caLFAK5LyxXETPcIGwFj2tcvKUX0JNH1
-MpzIQKfNeQ2eH8Xl+NlJyigW5TtDFQ+VrnQORQxvdsW24bMhvGG9dUx6Gbd0Zwzr
-djONPinChAtj+iiMgipxE0UpWT209IkrGzGlVLe6qL02KHxqPfRlV5PEfGyWF4Oa
-ABav1i+A+MauQiKQnz+uXdso
-=VNbm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6TcQAJ1dWopA5JVf1+TjqcwV
+jDoFTCk4OM16rBdb7Y6OXkhzC/lUuNXqqnERCkU4B4oCrBMek8rCe77KbZuZNdYW
++0l2XHIDng5+KB3+joNI2sbPLBIXY2NfJSEYFEw5ThlzEaeBJPAkhZc4XY4WQ+Ww
+uQroGiAxmi9UX4kjXI76drdjncHsRexze8ULlv9LmjDnjC914UtQMZy037DtdBFx
+dJXsxGvpW/R0RpiYNMh6EqxXjtBtg+SaX5y8Hpn6tvf3Hv16UGNRjZWIoqsTG2gQ
+iK0k7q5DKryY8gK1QDFz79BwoY8mYUM5HjmBfALVJ/N9lVhy7zmFFxT5oEqUvQuY
+07NFhzJfO313lR2yUpEtnjYQKOufVGDxad9nG5fxbSVF/x44uHuA+pMtMxhCd/AB
+4+oSCH4249fow0bQiJ8DR5uIdFBK1WuPOMlZYP3ZBVy/8ETtp24ViOpZhXx7yqpM
+Y1O+MKs1XjGD0V5kFEHkw17wbJ2CJ2NqZsK4t67e39n5vP1hOvo3VaHmXWzSZiP9
+QYRBfA3ofGfjp5R0yiUtSAXGXqa6zYbolI31NRWkw4IBNx9+SFYScj4VHoPZBgKk
+eCCb0OdxINI1AI9vqH9sXK49v/mei4D1RvLQnHLeQHvOB6g65RB9nUfcSGAYTHA2
+UMU3jNrT+BQsWQoPUHvmBhX2
+=Zagg
 -----END PGP SIGNATURE-----
 
---===============5509604808233170597==
+--===============6353477816548638786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 
---===============5509604808233170597==--
+--===============6353477816548638786==--
