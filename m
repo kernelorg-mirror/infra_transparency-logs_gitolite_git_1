@@ -1,64 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============0424644545306236725=="
+Content-Type: multipart/mixed; boundary="===============3479341811226328307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 01 Sep 2023 20:48:35 -0000
-Message-Id: <169360131536.31844.4680487765171672319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 01 Sep 2023 20:48:44 -0000
+Message-Id: <169360132468.32021.5556163969915974902@gitolite.kernel.org>
 
---===============0424644545306236725==
+--===============3479341811226328307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 895ed7eb263d7ce2d2592fdd3e211464a556084a
+  - ref: refs/heads/main
+    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
     new: b84acc11b1c9552c9ca3a099b1610a6018619332
-    log: revlist-895ed7eb263d-b84acc11b1c9.txt
+    log: revlist-5d0c230f1de8-b84acc11b1c9.txt
 
---===============0424644545306236725==
+--===============3479341811226328307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601314 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1693601313-ef88332491d83b072fa122234d3038ef213d0287
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601318 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1693601318-17243e96103377353d1b607125d73f2f3e1027e7
 
-895ed7eb263d7ce2d2592fdd3e211464a556084a b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/usb-next
+5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTiIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D+EP/RKsHLQBOsz2lPDIKciz
-5nE+ZHThdT8m7JPRt0KnMH5cS+13CUiiSLVTiD1juR/hktf6OSUm2oFA42hN9qSM
-wfDam0Ri2b7swZitUSljYg6YvwEzMqCCKVFP35xPAIGI1z/SGXBrRwwzd5Ztr/Rr
-1ZllBA4LU7y/5Nghym8+3crsnDIg8TnFTbSE6KKiXSQHMYcZwUt0jE9XcyM9qH/8
-QS0ljUebI8pWY/FydM3PeaVeRWvJJicjgGGZvOJzVG31wUP90Y0bY+IHcsW9b7dU
-GQuZMLfn9+OaPpuxcVdAL8SaD7+mFSxPmY24flW8XvP0zBZyAkNb7LAFkmv/Ty7W
-jxWONg7W0rORVpSJy5+PEt7fGOg3T7T5YK32BZUKRojMj6MTVYQLzLy8VtTBB8e+
-bqDwX5E30pQGYERmJGpFPbmltp75wHcAauCStOW0N/bcWM+fJfw4PSFw5GUnPXiA
-UbQbv1yaMJepw3EPxr8d/OAUw4s3YqpDLbS7dqm47X4Siq+yH+aRMewuI4Vd25f3
-j/KHs2KMD8PPz53dRxllCv1iK8p6KVSDDeIw9HJuSdyeniN0AOOTKnCEKsR+PZln
-uOaZzbIDcvwvm0n41cR2pKZWWmAUplbP7UESYOJcOtKyyOK89o097VPZyUqijh+b
-HzCReyW4qFsg/Cx+fCWroGwe
-=3zq0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyTiYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pcUP/R0gCc7QWUvrydMKp/fn
+RZIpk9PWHlCrbGSwUVXgBPmZhQyy1kGz5z6SlG7k0S+SU6ukYn0l4ojLwzIJVJfI
+oC9L1DZSLRX5o+nYeso+N6NxDmHF5/BH/VMyD8gZCADpI0gzR/1FojVNs7yMwDXQ
+xKezj7vagOsDqpY1/TWE8V2o5lqrHAT2O9YX78LUICju8ycLWdyDzTDkHMlSLqVI
+kzDCFX3bDNhFQPw65EPZpO4Qu8+DH8Kh+4UnzdzzYZ1IrgDOnEay5XtZrlQpwSPf
+DPh5iXJ2nelXiMk4JZi0Dr00X+M8MUAXiEk7H2/VzD+pm3TWbZc0xZ0t5nRUjNkM
+IBmM4vW96xl+Cif8cIIIFuedqu+YdpRvnukne3r4mT/te2hz9dcX7yiDwjxY6vMT
+GsY5ifjqilv0C92goFSA3Ha9bYrDeplemmDmlJZnpHfxf0WTyUMg7CGlbJu942bb
+0vIW0d4wb3eL+sej+BLmQv+j6D1hJIZxOuDYaeEZRSGirzTFsPhPku4+11ZCrlsQ
+oLi6vUEZUBvpa2VFMrIT0tE4WHcNjfQaB2+dQUdhihPvLRLv3/qJjHRPBPTWAzDS
+9/5m5N85ZvTCQYXCOED/0j4QxPrb7u7ZhfC/GStEvpNPWSukMrbxqwOJnxO2Hcxt
+ir/Kq7x6vpdcc8u5VA3ayGCR
+=TA+/
 -----END PGP SIGNATURE-----
 
---===============0424644545306236725==
+--===============3479341811226328307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-895ed7eb263d-b84acc11b1c9.txt
+Content-Disposition: attachment; filename=revlist-5d0c230f1de8-b84acc11b1c9.txt
 
-23b7b491983f9678b3c6d99dca91f981d49c9d2a nvmem: Kconfig: Fix typo "drive" -> "driver"
-9579064cfb1bcf8756c8ffb19eb1193c80ec1af2 dt-bindings: nvmem: Add compatible for QCM2290
 fcdc6d7699f5650018b91374d7121e4df11f39a1 dt-bindings: nvmem: sec-qfprom: Add bindings for secure qfprom
 c471245bd9f25152e398fb49f65cf6e1ed7febbd nvmem: sec-qfprom: Add Qualcomm secure QFPROM support
 1006ebe9f1b5dad6b9e8b34ca9b982cc8c16ccee nvmem: u-boot-env:: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
@@ -614,6 +612,7 @@ d945ef3627e4cc9b7b1b548bcc7541fffc43eb10 ALSA: emu10k1: de-duplicate audigy-mixe
 13890a6a87475f2437f90ac65d32d665bb49b19d ALSA: emu10k1: more documentation updates
 0982e519df6a3fa2dd6858217547460238e47e70 ALSA: emu10k1: add separate documentation for E-MU cards
 358ad816e52d4253b38c2f312e6b1cbd89e0dbf7 parisc: led: Reduce CPU overhead for disk & lan LED computation
+aad6ad1b780aea3928437ffd23cc8b3e42b7ac8a platform/chrome: cros_ec_typec: Configure Retimer cable type
 4dbd6e61adc7e52dd1c9165f0ccaa90806611e40 platform/x86/amd/pmf: Fix a missing cleanup path
 4d2b748305e96fb76202a0d1072a285b1500bff3 x86/microcode: Remove remaining references to CONFIG_MICROCODE_AMD
 656f9aec07dba7c61d469727494a5d1b18d0bef4 LoongArch: Ensure FP/SIMD registers in the core dump file is up to date
@@ -670,6 +669,7 @@ e30364c70895c1ba90b28b85a82aa0d98aab8c81 tty: n_tty: unify counts to size_t
 2aa91851ffa7cdfc0a63330d273115d38324b585 tty: n_tty: extract ECHO_OP processing to a separate function
 a84853c5954fe2c1b97db2f005ae156dc29ae233 tty: n_tty: deduplicate copy code in n_tty_receive_buf_real_raw()
 ebf05c7dc92c11b0355aaa0e94064beadaa4b05c tty: shrink the size of struct tty_struct by 40 bytes
+895ed7eb263d7ce2d2592fdd3e211464a556084a Merge tag 'usb-serial-6.6-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 4db89524b084f712a887256391fc19d9f66c8e55 parisc: led: Fix LAN receive and transmit LEDs
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 ee5c807137ce283acebd83297f8855428cdd839a ext4: ext4_get_{dev}_journal return proper error value
@@ -1082,4 +1082,4 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 
---===============0424644545306236725==--
+--===============3479341811226328307==--
