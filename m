@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1177960193157130293=="
+Content-Type: multipart/mixed; boundary="===============0406202619911554465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 01 Sep 2023 20:53:49 -0000
-Message-Id: <169360162957.3998.7280870970659491621@gitolite.kernel.org>
+Date: Fri, 01 Sep 2023 20:53:55 -0000
+Message-Id: <169360163508.4097.17431611150152674177@gitolite.kernel.org>
 
---===============1177960193157130293==
+--===============0406202619911554465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,63 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: b320441c04c9bea76cbee1196ae55c20288fd7a6
+  - ref: refs/heads/tty-next
+    old: ebf05c7dc92c11b0355aaa0e94064beadaa4b05c
     new: b84acc11b1c9552c9ca3a099b1610a6018619332
-    log: revlist-b320441c04c9-b84acc11b1c9.txt
+    log: revlist-ebf05c7dc92c-b84acc11b1c9.txt
 
---===============1177960193157130293==
+--===============0406202619911554465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601628 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693601634 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1693601628-94e49bbd6280c412138afff9df51af5cd53aafef
+nonce 1693601632-a601f98bafa0052970618217458003242d535855
 
-b320441c04c9bea76cbee1196ae55c20288fd7a6 b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/tty-linus
+ebf05c7dc92c11b0355aaa0e94064beadaa4b05c b84acc11b1c9552c9ca3a099b1610a6018619332 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyT1wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nDMQAItjDVeyOtmykvukEIbS
-MPLi0KjT5XYiL0Dqsu+9OfMj+KIjHETQFBmgvCrUH8MAzYNj096lfF6ZWqHVOvPJ
-iGo3UCNBm5mc/F9lvkLYti4nzfFVKUAq2VniYditHebHz536D2MzDEyDO7EJO+A2
-Z/RPQgD5SfdEpqRLm8pA61dKwLZvfMz2UkTvAfcVN0ucHXbL6UDu/q7UDL8hkMXN
-0SOs3nA/vaiKcTGtAopUa0Twoft9OifKMEn1bD6gyL5SCHRLBvpyfzeIy8I0hEEP
-Rn39wPNDInChUS+LCnrcrMcA2rn/2qjI+FEf8mDj4N0wWtiBS52Cq3NaS3H1GUPp
-PxSZNMOaTbJqtT4KUkmfGRRl79ePsMCeMVCWjBAZVnHcVAILkekthgwmIDQaE4y9
-pIewC4/h2HXni/SYvQpez1Qs66Xomz53aoc4W1BPt+KPRzPCEMB0A0qrJ8KIVCIV
-fvoujJGSX+CrTqn+60CWjeiuovLEjRqsix8g/q1O0Gu1MSIbd8qfA1K1qm2e6oOj
-RKUMVD09YH1jDRk5HbG8jqYrKbSX19JLowE8c6cZ8pVUkuLwsg5RGcjQKCD6l9GU
-1KLuxmdGPOJ9MifoIJoV/UW86zmVUcFBFtP3nmNXClDBCMEKj/qHEX1+Y1jjcK89
-eop+KRaDYDtuDKfuKAtA6504
-=pZg3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTyT2IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u4MQAMHwQPudS60jk4C9Wy2/
+J2uzUCZ2pVQNE9nuwenmiSYkzBhu80LiyZOHa46uJoItC+zR56J/42FzADqzhZpi
+JFUStN5WhS24Y27G3jE1rkUYjLbI8dWy/jtIW+Umt+qpAvfdw3plSnYpZWK3kYL5
+pA2jzBFgnlvjkQ0M49GR5JpxFn+87Bx8OXeu1y08KAe439QS3AX2dcplFW1DGxtC
+X741ckNYosw+pK3cr8BYTgvXt6Gm8HnfJfUq3sZXyxbE4EszFP6vZMqxsdzNZWXW
+vjJjwpBsxjAZeHVH+haGKJFFyeR1DEk75z0Ff5GnOt5/bxDY9/8tfBb25LwvsJ9O
+lDK0u4TCKCN7kbTSPRxoC2ML4kipUKj+1+/5k7lY9hvwC4pMuFqfUARat+fX2PO2
+soetEM2ZC6TE/DC69aUz9G5IXcx8e2c56g4EOSfdNyFepqHmluGJHI60AGCqtoc8
+wAQ4yY+WKrkgdwQygQIWdib3dpBsv/tvQ3IV7AfLavTumYKf5FURVJcbekCkqFHK
+JXxA/Tt4vByuqVmQOWHoJXlD+qKEqeK1T5xP8q427d8ZEf8kjtWlIEXPRSTTSOmu
+ovqf59M2lmoTcH0plHHJw6jFGYzhJudTVY7uAPzQKSXu4jgDoHP/5L2zkVnQB2ZW
+y0b3PcBycvcwwh3v/V4fv90n
+=miCN
 -----END PGP SIGNATURE-----
 
---===============1177960193157130293==
+--===============0406202619911554465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b320441c04c9-b84acc11b1c9.txt
+Content-Disposition: attachment; filename=revlist-ebf05c7dc92c-b84acc11b1c9.txt
 
+afb522b36e76acaa9f8fc06d0a9742d841c47c16 wifi: ath12k: Fix memory leak in rx_desc and tx_desc
+d63a42257065a5f8b992c9a687015822a6ae3c2e dt-bindings: nvmem: fixed-cell: add compatible for MAC cells
+9ccfcbeb8f32ff89e99b36cb9cdebaa0d1b44ed1 nvmem: sunxi_sid: Convert to devm_platform_ioremap_resource()
+cfadd0e7d9225566f320bc4dc716682be910be6c nvmem: brcm_nvram: Use devm_platform_get_and_ioremap_resource()
+0b49178e2b6b4aac3c7fa3ce8d8c02208a13b988 nvmem: lpc18xx_otp: Convert to devm_platform_ioremap_resource()
+0a223a097709b99a0ba738d6be5b4f52c04ffb64 nvmem: meson-mx-efuse: Convert to devm_platform_ioremap_resource()
+94904db28db49ac8fbb2a273d25156db26a3a985 nvmem: rockchip-efuse: Use devm_platform_get_and_ioremap_resource()
+0a4a8c0d238fec1fa4b85591524ef42ad261cb97 nvmem: stm32-romem: Use devm_platform_get_and_ioremap_resource()
+0bc0d6dc2a9a05ae6729b4622f09782d9f230815 nvmem: qfprom: do some cleanup
+6ac41c556e22a0d7d267c9b9d48681d73af4b368 nvmem: uniphier: Use devm_platform_get_and_ioremap_resource()
+0abd6406624cffb9cf011ea41447b0c9f6a48e5f dt-bindings: nvmem: qfprom: Add compatible for MSM8226
+aa1ed6047107355d8fe297022e6ca1fa04872ecf dt-bindings: nvmem: Add t1023-sfp efuse support
+0861110bb421daa9b709a20d4fae6921390a9454 nvmem: add new NXP QorIQ eFuse driver
+9bf75da0e2613d64c3d5e965d49fb80820d367cf nvmem: Explicitly include correct DT includes
+23b7b491983f9678b3c6d99dca91f981d49c9d2a nvmem: Kconfig: Fix typo "drive" -> "driver"
+9579064cfb1bcf8756c8ffb19eb1193c80ec1af2 dt-bindings: nvmem: Add compatible for QCM2290
 fcdc6d7699f5650018b91374d7121e4df11f39a1 dt-bindings: nvmem: sec-qfprom: Add bindings for secure qfprom
 c471245bd9f25152e398fb49f65cf6e1ed7febbd nvmem: sec-qfprom: Add Qualcomm secure QFPROM support
 1006ebe9f1b5dad6b9e8b34ca9b982cc8c16ccee nvmem: u-boot-env:: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
@@ -653,22 +669,6 @@ df3f93596c8ffb97482bb6d90f4933d7417605aa parisc: lba: Convert LBA PCI bus driver
 ac65d9c90e4cccab2c939b2648e015c93ba3711b parisc: wax: Initialize wax driver via arch_initcall()
 ff0e833e98ee382e718a0a8a9433a3568fede4ab parisc: asp: Initialize asp driver via arch_initcall()
 d75ef5994db384856f1590ecac2ad38ebcde1a4a parisc: lasi: Initialize LASI driver via arch_initcall()
-db726a2f3b4bc0cbf8e6cfd529d2d8eabb587d70 Revert "tty: serial: meson: Add a earlycon for the T7 SoC"
-0d029ab8a05b5a21af9425c02816f5d6de054b7e tty: n_tty: make flow of n_tty_receive_buf_common() a bool
-d414034ec901c3821f17bd44b8eaaa5820253417 tty: n_tty: use output character directly
-68d90d5f7b68652287fbcbcfe245c2c8b667d021 tty: n_tty: use 'num' for writes' counts
-73276e3a1097ff58d9d167fc9a593cc249d1fd6f tty: n_tty: use time_is_before_jiffies() in n_tty_receive_overrun()
-c3b2b26f6eaad5d48fe6dd2d9bada07b193bdb61 tty: n_tty: make n_tty_data::num_overrun unsigned
-819287f0f335cf74d6486eb7f3d465b9668bc9d8 tty: n_tty: use MASK() for masking out size bits
-102dc8aac8d04be7ec6ee030962f7a40dc6d9731 tty: n_tty: move canon handling to a separate function
-008304079da79ab8dd122fe9e581494d10c0a3cc tty: n_tty: move newline handling to a separate function
-046b44ab0f5a87ba5788606155c5a6761169616a tty: n_tty: remove unsigned char casts from character constants
-d88c3c2675f9d41c15297fa001e79812f4dcc9dd tty: n_tty: simplify chars_in_buffer()
-b9b96b2089e9563a77a69e0fcfbedc5285ce890c tty: n_tty: use u8 for chars and flags
-e30364c70895c1ba90b28b85a82aa0d98aab8c81 tty: n_tty: unify counts to size_t
-2aa91851ffa7cdfc0a63330d273115d38324b585 tty: n_tty: extract ECHO_OP processing to a separate function
-a84853c5954fe2c1b97db2f005ae156dc29ae233 tty: n_tty: deduplicate copy code in n_tty_receive_buf_real_raw()
-ebf05c7dc92c11b0355aaa0e94064beadaa4b05c tty: shrink the size of struct tty_struct by 40 bytes
 895ed7eb263d7ce2d2592fdd3e211464a556084a Merge tag 'usb-serial-6.6-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 4db89524b084f712a887256391fc19d9f66c8e55 parisc: led: Fix LAN receive and transmit LEDs
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -1082,4 +1082,4 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 1c9f8dff62d85ce00b0e99f774a84bd783af7cac Merge tag 'char-misc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 
---===============1177960193157130293==--
+--===============0406202619911554465==--
