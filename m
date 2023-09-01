@@ -1,40 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4642726824631069970=="
+Content-Type: multipart/mixed; boundary="===============2398125770590504476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Fri, 01 Sep 2023 15:08:39 -0000
-Message-Id: <169358091915.29663.11489426767150002379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 01 Sep 2023 15:09:43 -0000
+Message-Id: <169358098367.30133.6527086901516941762@gitolite.kernel.org>
 
---===============4642726824631069970==
+--===============2398125770590504476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/topic/fprobe-ftrace-regs
-    old: 3e19267900fde2f1dd059f5847ab3637ba66ea12
-    new: 398bcb2fcb442bac23d5e514b6144ef4c32d74e8
-    log: revlist-3e19267900fd-398bcb2fcb44.txt
+  - ref: refs/tags/tty-6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f8f83591fa9c0a0b207bc24c3f1ecb2cb1285155
 
---===============4642726824631069970==
+--===============2398125770590504476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e19267900fd-398bcb2fcb44.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5541909895ff5cd9ccad96e62e7861492cd3db0e Documentation: probes: Add a new ret_ip callback parameter
-8d2742813e6551924b57fe7ae858696df63dac0e fprobe: Use fprobe_regs in fprobe entry handler
-a728d2ad49f0421c42660171d353e3edcf78e529 tracing: Expose ftrace_regs regardless of CONFIG_FUNCTION_TRACER
-e86cf59b1f5e0e053bc45e73a72f11a73874ed83 fprobe: rethook: Use ftrace_regs in fprobe exit handler and rethook
-6c9c3975af9e5f480a83ae0ea23b6686b1f65e1d ftrace: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
-f46ebcecaeac80fdad925801c65c0b677fa22558 tracing: Add ftrace_fill_perf_regs() for perf event
-4071ad14566e458dccb54ddd93213bde3696d928 tracing/fprobe: Enable fprobe events with CONFIG_DYNAMIC_FTRACE_WITH_ARGS
-ad665ee3e5da490827078acbdbfbde992fbce50a bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
-2f68668a0630373bfe171f6be0f32a56557e6a71 Documentations: probes: Update fprobe document to use ftrace_regs
-398bcb2fcb442bac23d5e514b6144ef4c32d74e8 Documentation: tracing: Add a note about argument and retval access
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693580982 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1693580981-790bcc95b420f1b767beb01c973616004ae50b20
 
---===============4642726824631069970==--
+0000000000000000000000000000000000000000 f8f83591fa9c0a0b207bc24c3f1ecb2cb1285155 refs/tags/tty-6.6-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTx/rYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QDAQAMJ2yKE9OzqSyIwsEvmj
+nokia92eBxJc+kz4ltx4JOJa7m07yKz0xmEZBy8fUm17v5csMlW4fm4MMpzedffW
+0euHFB+j89eW1AsVty2aUBbbH8Xv0lyc+XQAQ4/a/u+71b2NLRiZyUxXxfk4xD7o
+QdRHCJPBtLqAoN+OuIFs/D/ajHOOSqzqAnAozLRnMm3VnTI5O106gE2wSbmAtWU2
+A9ftUClzGS6H3bN3h4ztZVN+AzAcaJ9y01nMLKVMUyMT4Jalk1eFOpMXleuqN8Q/
+MrP5XHnYOG2WJo1TZONbmDjHMT6xsWz2Q4IZw8tRYHAeOmR7u0QEnjCr3kXFNGuY
+IW92BPDNu8wTJL8WBr6/RNwr1eCGbrX2Kd7JsFiKN7dREOuAWZIDAZOjZainUgg9
+kPI0V0nK0uRLPk6zgSD3DQuSsygRZx5te92q+Zn/rP8cExnbgh/qH0On8/8x4eC5
+hjVSkeRv/IgsEm/jGGt72Lqwzg/ceqBtJEYYb6ODzr6oqd/QxQyChRKeF+JUArqr
+W/Bpr6vArdTi/uxzaxG1y9OdaY54Yu527dRh68AAcHX20AMKWJHL5c+seFT2nEVU
+U4gKiul2Ljfk3++nD+WK68EMxwe8CdPxRhPL0nnKtrv4/sFCIwoTLyL/sMDcsKb0
+C3b5Ur8xVYPeMnY9di0ShE3g
+=9vOg
+-----END PGP SIGNATURE-----
+
+--===============2398125770590504476==--
