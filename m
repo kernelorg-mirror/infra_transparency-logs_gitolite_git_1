@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5533880572789706438=="
+Content-Type: multipart/mixed; boundary="===============8200308382681131462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 01 Sep 2023 15:22:18 -0000
-Message-Id: <169358173846.7683.14909141305143742625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 01 Sep 2023 15:27:31 -0000
+Message-Id: <169358205138.11199.5589525477508198568@gitolite.kernel.org>
 
---===============5533880572789706438==
+--===============8200308382681131462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 99d99825fc075fd24b60cc9cf0fb1e20b9c16b0f
     new: e0152e7481c6c63764d6ea8ee41af5cf9dfac5e9
     log: revlist-99d99825fc07-e0152e7481c6.txt
 
---===============5533880572789706438==
+--===============8200308382681131462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -89,4 +89,4 @@ dd7664d67b478afeb79a89e4586c2cd7707d17d6 riscv: Mark KASAN tmp* page tables vari
 a031eba2956863457b2680453ca45515a1605a47 Merge tag 'csky-for-linus-6.6-2' of https://github.com/c-sky/csky-linux
 e0152e7481c6c63764d6ea8ee41af5cf9dfac5e9 Merge tag 'riscv-for-linus-6.6-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============5533880572789706438==--
+--===============8200308382681131462==--
