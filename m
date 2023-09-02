@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6365156303347641032=="
+Content-Type: multipart/mixed; boundary="===============1946526052402256637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 02 Sep 2023 09:50:49 -0000
-Message-Id: <169364824932.8355.9457242338561054906@gitolite.kernel.org>
+Date: Sat, 02 Sep 2023 09:52:30 -0000
+Message-Id: <169364835021.9046.15914733687661299136@gitolite.kernel.org>
 
---===============6365156303347641032==
+--===============1946526052402256637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: fe99d6fe7d33b52b51d92ada3b6eff1eb30cd5f2
-    new: db21d061f85e0579936c283cc36786201a48da75
-    log: revlist-fe99d6fe7d33-db21d061f85e.txt
+  - ref: refs/heads/x86/merge
+    old: cc852156ee7cbd4c83dfd64e9b800f7932f867d0
+    new: 2fcbb03847d89155d7b33d75ffee3a6bc5c51c97
+    log: revlist-cc852156ee7c-2fcbb03847d8.txt
 
---===============6365156303347641032==
+--===============1946526052402256637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe99d6fe7d33-db21d061f85e.txt
+Content-Disposition: attachment; filename=revlist-cc852156ee7c-2fcbb03847d8.txt
 
-fe14cbc604af78348b5790832a5455541d572704 tty: synclink_gt: convert CALC_REGADDR() macro to an inline
-6340b02cc75020e0c3e47e988a9c5ea806e85a48 tty: synclink_gt: drop global slgt_driver_name array
-e33ec544baa85b447b9decbe39cdc642c1366380 tty: synclink_gt: define global strings as const strings
 833c31d244597d9521e199f16d6eb169ea517733 tty: synclink_gt: drop info messages from init/exit functions
 0e0a0380fd40d7230b6ca2c67810017ab03a1d0a tty: synclink_gt: use PCI_VDEVICE
 fe61b57fc0f27a7df81a1a355defb8ddcb9731cb tty: synclink_gt: make default_params const
@@ -984,6 +981,7 @@ d2f0ef1cbf37e396ef9c57a30c004ebe65cdbca9 SUNRPC: Clean up svc_set_num_threads
 899525e892dd165d2bb2e41f9f9d9d82574b31b5 SUNRPC: Remove unused declaration rpc_modcount()
 b38a6023da6a12b561f0421c6a5a1f7624a1529c Documentation: Add missing documentation for EXPORT_OP flags
 ba22e81872c1232ea4ba421251d8109a5ed68c52 crypto: powerpc/chacha20,poly1305-p10 - Add dependency on VSX
+e8f13e061d75ed0eeaaf599532a6b197f195d5f3 x86/audit: Fix -Wmissing-variable-declarations warning for ia32_xyz_class
 5195c35ac4f09bc45bde23b98d74c4f5d62bea65 csky: Fixup compile error
 06469a8dc37598176937dac1f6ca41e8f0db2b81 platform/x86: mlx-platform: Add dependency on PCI to Kconfig
 acce85a7dd28eac3858d44230f4c65985d0f271c platform/x86: asus-wmi: corrections to egpu safety check
@@ -1019,8 +1017,11 @@ d4de578ae8499dbb2418e658c2fa4ff97772cb44 Merge branch 'for-6.6/wacom' into for-l
 69881be3d9a00cca770886af40913cfc5274b2d0 fs: export sget_dev()
 ec952aa253c0f49a70d9de7b44b5f5c93e2dfe54 mtd: key superblock by device number
 5069ba84b5e67873a2dfa4bf73a24506950fa1bf NFS: switch back to using kill_anon_super
+c9f4c45c8ec3f07f4f083f9750032a1ec3eab6b2 x86/speculation: Mark all Skylake CPUs as vulnerable to GDS
+d87e89c2735772fbed933be0d19e032c1910a51f x86/irq/i8259: Fix kernel-doc annotation warning
 1520081a785a7d1609541b53a3d0f6494f829cc2 fbdev/core: Use list_for_each_entry() helper
 bfac19e239a7d3e98946fa7df362fcbfd40da4cf fbdev: mx3fb: Remove the driver
+18032b47adf1db7b7f5fb2d1344e65aafe6417df x86/fpu/xstate: Fix PKRU covert channel
 f441ff73f1ec568acef03f0ce4d5088c7e65c106 powerpc: Fix pud_mkwrite() definition after pte_mkwrite() API changes
 e7e9423db459423d3dcb367217553ad9ededadc9 Merge tag 'v6.6-vfs.super.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 659b3613fc635fb1813fb3006680876b24d86919 Merge tag 'dlm-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
@@ -1049,6 +1050,5 @@ e987af4546ac5de50e514182c1d0ca33843fa665 Merge tag 'percpu-for-6.6' of git://git
 bd30fe6a7d9b72e73c5ac9109cbc3066dde08034 Merge tag 'wq-for-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 34232fcfe9a383bea802af682baae5c99f22376c Merge tag 'trace-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2fcbb03847d89155d7b33d75ffee3a6bc5c51c97 Merge tag 'x86-urgent-2023-09-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-db21d061f85e0579936c283cc36786201a48da75 Merge branch 'linus'
 
---===============6365156303347641032==--
+--===============1946526052402256637==--
