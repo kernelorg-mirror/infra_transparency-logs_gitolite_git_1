@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7640811224850790019=="
+Content-Type: multipart/mixed; boundary="===============4351780393321713296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 02 Sep 2023 07:39:35 -0000
-Message-Id: <169364037523.26257.6429891136096611788@gitolite.kernel.org>
+Date: Sat, 02 Sep 2023 07:39:59 -0000
+Message-Id: <169364039939.26504.18017501486992285329@gitolite.kernel.org>
 
---===============7640811224850790019==
+--===============4351780393321713296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e03843a0f0bceb7ecff78584b242aad94fc0c64f
-    new: 15924b0503630016dee4dbb945a8df4df659070b
-    log: revlist-e03843a0f0bc-15924b050363.txt
+  - ref: refs/heads/for-next
+    old: 8bfe8fedf4947d6643b2bd68fda115a676b68e80
+    new: 1540a5c0c05f3a1c8eae23de74a4842d20bc65ba
+    log: revlist-8bfe8fedf494-1540a5c0c05f.txt
 
---===============7640811224850790019==
+--===============4351780393321713296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e03843a0f0bc-15924b050363.txt
+Content-Disposition: attachment; filename=revlist-8bfe8fedf494-1540a5c0c05f.txt
 
 efeda3bf912f269bcae16816683f432f58d68075 scsi: qla2xxx: Move resource to allow code reuse
 ae25f65a351ca9c650887c2b37319fa9a41ec258 scsi: qla2xxx: Allow 32-byte CDBs
@@ -57,5 +57,6 @@ e1b919494aa9520c62742b1c59181476520c7863 scsi: smartpqi: Enhance error messages
 659d36cc732a7de8c6ca2ae347db1a5401a1b93c scsi: qla2xxx: Remove unused variables in qla24xx_build_scsi_type_6_iocbs()
 530e86c745ae3342b1df5e8f38529b9f8a6cac17 Merge patch series "qla2xxx driver misc features"
 15924b0503630016dee4dbb945a8df4df659070b scsi: fnic: Replace sgreset tag with max_tag_id
+1540a5c0c05f3a1c8eae23de74a4842d20bc65ba Merge branch 'misc' into for-next
 
---===============7640811224850790019==--
+--===============4351780393321713296==--
