@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8405669688185600189=="
+Content-Type: multipart/mixed; boundary="===============7329669394168704728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 02 Sep 2023 07:21:55 -0000
-Message-Id: <169363931546.16490.277080492604223154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 02 Sep 2023 07:22:04 -0000
+Message-Id: <169363932433.16647.14368083057135057799@gitolite.kernel.org>
 
---===============8405669688185600189==
+--===============7329669394168704728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.14.325
-    old: 0000000000000000000000000000000000000000
-    new: 089445a62b915c418659f2bbdeb230fcaf2bbd32
+  - ref: refs/heads/linux-4.14.y
+    old: 836d42d04f5d8d38fe2f21ed9ec50413f1421185
+    new: d6c4816748dd21e69b7dd79faf282a57d0378680
+    log: |
+         c69a3469ea8ac29f9c041d1c5ed6d564e5352544 Revert "MIPS: Alchemy: fix dbdma2"
+         16d803ca4d10933a50c53feb82175058b49175f7 Revert "ARM: ep93xx: fix missing-prototype warnings"
+         d6c4816748dd21e69b7dd79faf282a57d0378680 Linux 4.14.325
+         
 
---===============8405669688185600189==
+--===============7329669394168704728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693639314 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1693639313-cc351c53456a88f7d3c08e68124ab14661286424
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693639323 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1693639321-69e4ab474357b2e87376e89438efefc0c2db5fbb
 
-0000000000000000000000000000000000000000 089445a62b915c418659f2bbdeb230fcaf2bbd32 refs/tags/v4.14.325
+836d42d04f5d8d38fe2f21ed9ec50413f1421185 d6c4816748dd21e69b7dd79faf282a57d0378680 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTy4pIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XxcQAM3Exba9p/wgN3cP8arp
-PguDkRci0P5Nr3Uk+ZvfIegoYYFWUnle0EHWdYtdBgjqQ5dvM+KBUobcQUyE/YAk
-YHulkLUpM0On2hH9aqTJUrsExqYAxYpKjhS/S9Q6P0sSQ9yXLjF2DFj6yX3YwhtJ
-bEAWw+xGWes6719rjLtpdveIxw3fZpY7F76fxuWvR3v+lZRO2qJa6OcAe8fST8Br
-bClqMMLYic8EZjDcSUpZbDWpIxfb0T+teRuH9k1uCwBvOeP/bZ4CpPOETRFvh4+V
-W2xwFi3MV+ITPMdGRBBHOvvaCyw+Xb5nz0jOGtl81iX0agZ9XFqM5VREHuCp8bUO
-WPJifZcs03I1OIGGgEB5upzCVXqZPRX00d6k3MZknV+Dcbspf7i7BKvIX6OiCRwF
-1k5I0fsRcEiMRS3koMytYHgDWZ9FS5Rdlnd1pvg6ZhnPssb1IRF/gvPOCapH1CeB
-wUMpxOgdLaDv+ooJZqylG5ZNBQwp2OcsGETjmVu2Cz3MOYenYUflYbwd4BYZC/qw
-eyxMXLGGOpSFO5K1J98CUYRcW//Bvx4GGT3+IgUTq2aWbFTcS8qw9ph0ARLmTQ2M
-MX+/39RT+ZPs5BZNRc7DQ1zFlh/qHkAYLANiT5ZDg4mWmcpnk723v+BanLEz4l3a
-L+ne6S7pPy9LdLhx0lTepOpv
-=1MnM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTy4psbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UnMQAJdWy8H/GurRdkHn+9wP
+jny9JrVSPRHl+YP5uJQCPYd8fQiH+Ej/IgKyE7neNBw9e61unCe57psQjm2ospTo
+RiMN4f/lCa1tf9UIhz/EqRk1SgpnE6wwdzd3BIgrrazNUyqwr7ihm1MsgHZdkcEO
+iWyb7nEC00tvYa2dcZ0UXINN3ibXDRu5zeifoPAGjBoDMV6pTGIF6qvq4E2U7aO5
+UWH2o5Fo6CyEVqnmrEOFkl+rMvroXzJSGBpLRQX5IsnQkNS3VUhvRg/RIsjAyKPs
+Y8giiSXAK4Fan7bSHyxwAFrIIlgW1iJeJcHnBVlSvPsJjE0ZYJCfdLFOghIkUR7T
+6c5e5/RBvCCaXOrxembKHtsRd7A0TH7HwHuzMPHbgaixjKBt4E6KYsf0ixGRy8oJ
+/IlvQJjCHHb8H9Vk0UUQL2UXvugPrdMEZ79YylgqMqit0x/XYQGqVERlKY5fJeAU
+GDmQVuSK7tRSxl5SHBRph9fbig2yLLJ1UO2W4uMVnKyQA5A8cDIl3z1qCA7bsPCc
+yJB3RsHemBXVpLDRtQ4raqG6aioBtLzWkhg5kmyl4YPVWEU9ekQ6vzN/XhzupCSB
+/Q6GttA51Wbo2JscS+gzi0eIGtheGpUdeJx3w+i1npNgS+8OCRI7j6QTK4W48LbX
+mp2gw8hWoHthBMKBKqmfSIIg
+=4AYS
 -----END PGP SIGNATURE-----
 
---===============8405669688185600189==--
+--===============7329669394168704728==--
