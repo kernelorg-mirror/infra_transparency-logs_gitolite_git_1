@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sat, 02 Sep 2023 14:26:18 -0000
-Message-Id: <169366477841.16493.8258110551375687126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 02 Sep 2023 14:28:29 -0000
+Message-Id: <169366490924.17405.7980481262201771690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/linux-debug-webinar
-    old: f08ffb51a516cccea27b4b64b8cdabf24887f721
-    new: a33e3d78005fa3a4ea126800bb8b11f4e63261bf
+  - ref: refs/heads/master
+    old: adf00e1a1184367ae29fcb26378ff58a83ce460e
+    new: ff8b57b2cc3ea003bf93d72b24d05ad8b910b087
     log: |
-         a33e3d78005fa3a4ea126800bb8b11f4e63261bf DEMO: ipi storm kernel module
+         ff8b57b2cc3ea003bf93d72b24d05ad8b910b087 Sat Sep  2 02:21:03 PM UTC 2023
          
