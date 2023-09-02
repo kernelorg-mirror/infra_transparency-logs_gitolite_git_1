@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3679055273394118042=="
+Content-Type: multipart/mixed; boundary="===============0444049839460179295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 02 Sep 2023 13:22:41 -0000
-Message-Id: <169366096115.1470.12046225437153433441@gitolite.kernel.org>
+Date: Sat, 02 Sep 2023 13:22:44 -0000
+Message-Id: <169366096454.1586.890799361335232481@gitolite.kernel.org>
 
---===============3679055273394118042==
+--===============0444049839460179295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: b84acc11b1c9552c9ca3a099b1610a6018619332
     new: 0468be89b3fa5b9249cee1097f1d50314950a2df
     log: revlist-b84acc11b1c9-0468be89b3fa.txt
 
---===============3679055273394118042==
+--===============0444049839460179295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693660960 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693660963 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1693660960-633b10c0cac5dbd1b35c9fcc2ada5e7363aeb597
+nonce 1693660963-2d802fc1d03f972242ad172a504b09afd3d5e1ef
 
-b84acc11b1c9552c9ca3a099b1610a6018619332 0468be89b3fa5b9249cee1097f1d50314950a2df refs/heads/staging-next
+b84acc11b1c9552c9ca3a099b1610a6018619332 0468be89b3fa5b9249cee1097f1d50314950a2df refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTzNyAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eeoP/3+0ll0ndc1tbafOqzgA
-iB920GqGtluNyHRef9bGHYTxAH/XHTiTgnn+IQ/Mlhv3CzW36fVSSSSyqoL6GLyB
-EPiUdny94BAzYQG16uT5bDC9xU5WHdqryF/BazW7I/Qc3HTWo9XjlX/g1ViQv0GF
-vofBhpsWL/cuTWb4SJWSBv7smDz8N9Z8+/TYkWTQIsS1Hh0CD1gGTrlkX4P9kZKZ
-d6BqF3qN3mAEqkvCuKXwYUBBjRNf0R3UpM/41pTujy9dVVkCoakCbZ1/SxzOSNjU
-I7Yzag+JLLiR0ZuWhfUEA+U6gt4PtHZ4TakL2Ls3/60Z6Or/TCAA3pkIFpD3SCMq
-89Ss9BVwisR/Ep9spV13MxqN3TO8bnUtoCuHlDjIOVJ5xwVbx+3HWGGj+vGRM31o
-9g+UwXWlX2qudKb8oOPvgtqV6uY9lPGhB6SaUNh7bOmkoF3ZKV3yjAeU6Qr5TE7T
-0NIu81cacJjFmYrOULjScfRragSv5K4Wf7p3m97uEoSr+OKe5FpM9673NCLaP41n
-5JoYSoqTym0gMI64aONigHPS1E4RzbXY/dpAEFwQvD6Scm1HNOcPBGngUrlRTLh8
-rX2PZEQJnk5trNQhKYgDeCAfjjfj4ofPCzZoO/D3ofAXkg7OJ3jQ2HTrYtvPGJyC
-bBarbaN/HNHIrG88gz8E+ca2
-=bCiR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTzNyMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/5MP/1fn8qYWsIkNLP3G5Ulp
+Vi7Yx8Iy7l3hWvedCbABsg/+DcKsJhejfEUUeRq+IO3jQ0LMNcEM9HOsZKO0thzI
+hCjLJDK+xr6Bb2sOdhrPzBOFSSAOISqecL9Wb6/FqAzbXGVnjLynPAGQJ1n6em+C
+07x+5qEhkHXMVejSnXUs5Mezbj3H5SiKZPLABnKmedgkfCjiUzJLvUpGjE5N5jM4
+nIPeLIsZCBH621T5cHrORStkrzgD7twPAqxIPyHepnD1Gn0P8R+UvTSPrkrHwh/U
+1WoUWOGAh+vRl/98h/uy6gnCoVE5r54gHRMXsLyro9D3AfhXksgYfOmogNfI2PlF
+ppnvvLxxln/vYIajRb8gLh9P79MNQ1R0gqZampx1Lj4cdLBE6yFgcGb9EJfThucw
+QPwluZsgK7i18fcKl+vgghM5KJRIys4qnNVgmuJ4cctaBYBkjG0S+Se7wbiSrlq2
+RT6GSdEKLFOw6xTGHPX5aZp/5vt2WX1miOuP1WsJZa3EwZtIBXoTs/crLJmy4AlZ
+yj3pP3WOrbs+RasFxGmzl5bl6cVuI60vC7M9JGhzYNdHqsq4T/K5NAcbZVxjfu+U
+M8BUpRu48tTSV5Ss13PSDy/ozJR+UMQGq4uHoaJ/PeZt2+SJRe9TzA3tM7WqjT5j
+vDbmVA1SrdO0chdJsWUS3vM+
+=XgBx
 -----END PGP SIGNATURE-----
 
---===============3679055273394118042==
+--===============0444049839460179295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -739,4 +739,4 @@ bd30fe6a7d9b72e73c5ac9109cbc3066dde08034 Merge tag 'wq-for-6.6' of git://git.ker
 f7e97ce26972ae7be8bbbae8d819ff311d4c5900 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 0468be89b3fa5b9249cee1097f1d50314950a2df Merge tag 'iommu-updates-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 
---===============3679055273394118042==--
+--===============0444049839460179295==--
