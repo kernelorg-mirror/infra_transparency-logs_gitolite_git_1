@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1311708812765911295=="
+Content-Type: multipart/mixed; boundary="===============8215748867276504637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 02 Sep 2023 11:28:53 -0000
-Message-Id: <169365413302.14085.7889107124340347689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sat, 02 Sep 2023 11:29:02 -0000
+Message-Id: <169365414280.14225.8241065469921147186@gitolite.kernel.org>
 
---===============1311708812765911295==
+--===============8215748867276504637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 9ea150a8d073c2f2987d7e9ea4c35856449c9cb2
     log: revlist-53663f4103ff-9ea150a8d073.txt
 
---===============1311708812765911295==
+--===============8215748867276504637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -245,4 +245,4 @@ bdc60129915fb4ff7832f4833512779c6a94eb5f perf vendor events intel: Fix modifier 
 64199ae4b8a36038dd5b69904a29bd48ef11ca8b perf parse-events: Fix propagation of term's no_value when cloning
 9ea150a8d073c2f2987d7e9ea4c35856449c9cb2 perf parse-events: Fixes relating to no_value terms
 
---===============1311708812765911295==--
+--===============8215748867276504637==--
