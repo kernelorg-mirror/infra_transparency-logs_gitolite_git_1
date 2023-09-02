@@ -1,53 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============0957798303654156686=="
+Content-Type: multipart/mixed; boundary="===============5317075972307389736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 02 Sep 2023 07:17:35 -0000
-Message-Id: <169363905587.9535.13752628767994755894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 02 Sep 2023 07:17:44 -0000
+Message-Id: <169363906460.9678.180783066183290537@gitolite.kernel.org>
 
---===============0957798303654156686==
+--===============5317075972307389736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.130
-    old: 0000000000000000000000000000000000000000
-    new: 2b1e1de4ccaf65547e71a109e55e0c904adca44e
+  - ref: refs/heads/linux-5.15.y
+    old: 9e43368a3393dd40002cecb63e13af285be270fc
+    new: 8f790700c974345ab78054e109beddd84539f319
+    log: |
+         758e3d0cb753576b192962f2e832364247488092 ACPI: thermal: Drop nocrt parameter
+         363bbb5008e5ff0b8fb5fe79061c0fbdd13731f6 module: Expose module_init_layout_section()
+         f8a74159d11627194e66e78d82f2f14975172212 arm64: module-plts: inline linux/moduleloader.h
+         4a8976052acded3ce09e804f65121b47e120a149 arm64: module: Use module_init_layout_section() to spot init sections
+         7aec063d6029b743ae34b53d940320ae592f32e9 ARM: module: Use module_init_layout_section() to spot init sections
+         a0249d365ac8b57d94ed998f6f57e09bf2381877 rcu: Prevent expedited GP from enabling tick on offline CPU
+         da22db901cc1188c69fa1e6ccfa16f29ee69380d rcu-tasks: Fix IPI failure handling in trc_wait_for_one_reader
+         8046fb611f707a3518831a0c186fbb67574970a0 rcu-tasks: Wait for trc_read_check_handler() IPIs
+         69347c3340711f7c52c63a4245f83b3335485e60 rcu-tasks: Add trc_inspect_reader() checks for exiting critical section
+         8f790700c974345ab78054e109beddd84539f319 Linux 5.15.130
+         
 
---===============0957798303654156686==
+--===============5317075972307389736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693639055 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1693639054-6d42fdb1fca8361325512a191a06cd1447566265
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693639063 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1693639062-d06735c46c45a19ffa5a9084c7986bf2ec31da27
 
-0000000000000000000000000000000000000000 2b1e1de4ccaf65547e71a109e55e0c904adca44e refs/tags/v5.15.130
+9e43368a3393dd40002cecb63e13af285be270fc 8f790700c974345ab78054e109beddd84539f319 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTy4Y8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rdAP/0s/o6zx5UIZhKLti1Ed
-8IYWF2ac4DTnO4WVvnEmW27/6MDoRIvCfJSpo5uXBj+YgBiPIZ8x4TFtOX/QOPtI
-u1dwe0KQrTuFKvoEapMc7TD916iBim15BLuR9lMmiOp3j4iu+TPsV2S/WE9q8a0x
-mzP++tL63iu0uBf52Jc2SjUmUL/I3d7H8ecN5l5GlUck62yNRGu0jBvozBFzr0U1
-dJVmLjuDOcTcmSIAk+bD108dI9u8W3l0dbFFy7iShRDeVdVcP7mRw+vjSUEyIEol
-AuD4MPD1Zst4MLCrb4ksgbMLVdgPqXTTatwwLiXOKS9gnjm/6VkdjUlpqWBjxxPe
-/KNg7m8rR8lpu+03PIm/1kNlDPrTyDQwY23T8Jg4qVTOc5VqAULuMxoA+xTs5yV6
-JdtMZGStZMMMTZHUbJrB8ayRszTU2+JqxJoxKee3fJr85QfSfE/Y47SXlzTEB8Yb
-8Fb8G1UX5/XJ4ZSMCGNFXX+U5PuA8YTGC3fgdggLNBtC2/mRCz5IptE6n4PxFt0E
-sEBZnHt9uPZZfKXvHHnG7aelFjS62idyNzQSHiUDFvekq9eA8YX3HBq1OziQmWFf
-XU5lucO13R3jknEWTfoHJHLk6YkL8jvjDt8Hcgu8HUoLkoynscXLZjISweE01/Kn
-7GSXXTRwpqiejSfLUg8jRvht
-=0zvG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmTy4ZcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SngQAJNgwpkp7ES2Ynp1q3Te
+5lkATnf7yNDnFgkOK8xl7qns3ig+X3hgYmOSlYLCw7wlkyncfrmNfA8/i+vvfjCe
+HxAlBfd76c5ptTbOUCJpAbd0aBopes3r5ZrtBLNL/Df7UtqkTYkHglSlYGMzB9hZ
+8b/EmkSkat4WJCcEvGL9YZZqvcDg0THc+3aDRnj3tFZyJ9FPyV4hmCDUqToIkdSp
+PtiNMDEoxAw6mPKZR5lP9Nxj/pJZ0hRTK9DLzgr/JCjsL0MYQezUzmdVaqPIf9Hj
+ACTHHrMtxQ1S2U+tiTPBzAWd5pUsEx0lxMqeleJ4KDZ4Kjcob2MxlnQH5a3O3gb/
+JDYHCMc713L11QuHODtzEbOLgR3coBmRqv9my+vrzEa+Rr6/DDKKjsIg8yCbnWff
+gV2RhvQOJK4PfDe9ABaNvYcpXfQlOYagyed2F4t7AC5F0YiJ6p0ahhNzcIabIVCH
+eycFbzos66LMiPR8pWP/w0ClN/FPVeBMpm6/nylGIfCe58z9SDPAJIJQ9ZDuMgLw
+pXm7G0Sgamn0nm33+sEmXarKbKjKaS6csCjQibRZDvWUeeCXq8VUtHpx8bUvpOer
+DgEJUH+aSvWaeqdvYvTmCVNnDTcXCyu39PKY4xFRCUJpDzY4kNXeOzz7GmYZlJRT
+DSwGYvDlEsdjUT2T8A0Jjobq
+=SFPy
 -----END PGP SIGNATURE-----
 
---===============0957798303654156686==--
+--===============5317075972307389736==--
