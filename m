@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7643966587524599645=="
+Content-Type: multipart/mixed; boundary="===============4693139937627667931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 03 Sep 2023 05:13:13 -0000
-Message-Id: <169371799377.12732.7523035873242381314@gitolite.kernel.org>
+Date: Sun, 03 Sep 2023 05:30:59 -0000
+Message-Id: <169371905955.25545.4254025248447043545@gitolite.kernel.org>
 
---===============7643966587524599645==
+--===============4693139937627667931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,45 @@ repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
   - ref: refs/heads/damon/next
-    old: 4ba230feaa426b75abf23d2124595b9ff4010dd5
-    new: f06bc11a65076c08b7170d82d1aeabe87a6abef4
-    log: revlist-4ba230feaa42-f06bc11a6507.txt
+    old: f06bc11a65076c08b7170d82d1aeabe87a6abef4
+    new: e1db5d2eaef76016de130bc937daf90e17e093b4
+    log: revlist-f06bc11a6507-e1db5d2eaef7.txt
 
---===============7643966587524599645==
+--===============4693139937627667931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ba230feaa42-f06bc11a6507.txt
+Content-Disposition: attachment; filename=revlist-f06bc11a6507-e1db5d2eaef7.txt
 
-ecae900f7a0a59416fbc1f0742dfc5c510a8b80a Docs/admin-guide/mm/damon/usage: place debugfs usage at the bottom
-907bdcca66a9b3da44f4e3c3a7976903b070d9bd Docs/admin-guide/mm/damon/usage: move debugfs intro to the bottom of the section
-bfd3c9b9e65906aa32001b356f54033c8833b1a1 Docs/mm/damon/design: explicitly introduce ``nr_accesses``
-915460b3f6ac58842a582fe7e1b7bd35e289592a Docs/admin-guide/mm/damon/usage: explain the format of damon_aggregate tracepoint
-5d11fa312df6e0bd315680d1e42a75d1ae521b65 Docs/mm/damon/design: add a section for kdamond and DAMON context
-ebd5e60ab9b42f89fdf79bb751663cbcb0dbfdec Docs/admin-guide/mm/damon/usage: link design doc for details of kdamond and context
-9ef6345a372691354d7cb6adef11d764ef5a60c4 mm/damon/core: fix a comment about damon_set_attrs() call timings
-5b1f30a6a9d4211652ebd60dad7f5eae4d31610e mm/damon/core: add more comments for nr_accesses
-c0547311072423632a3eac216cc25ea41e08a7b8 mm/damon/core: remove duplicated comment for watermarks-based deactivation
-2043943d4ece857b8619b39cbc8ae3ec3abda4fa mm/damon/core: remove 'struct target *' parameter from damon_aggregated tracepoint
-a73cc293e6c2c691a351b3df8d174d9ed35cecfc mm/damon/core: use number of passed access sampling as a timer
-913f362bb4fce54844062e5672adf5aef2f3f732 mm/damon/core: add a tracepoint for damos apply target regions
-bab494cbaccddfd978f66fef871faaeb141de7d3 Docs/admin-guide/mm/damon/usage: document damos_before_apply tracepoint
-e09a9f03cb64f1f747cd7be773bf17b86a251707 ==== accesses_bp ====
-d04604c012e68b2ae4a399d668951b48046752ac mm/damon/core: define and use a dedicated function for region access rate update
-b35e12a4d81a702db858081021abda45447e2d2e mm/damon/vaddr: call damon_update_region_access_rate() always
-06f7cb376da8b433fb216629c6048b9a037910b6 mm/damon/core: implement a pseudo-moving sum function
-33c8ee518d91534a226ec7449467b26c19933c0b mm/damon/core-test: add a unit test for damon_moving_sum()
-2797d5a934a9770f0d51b520ebcfb369258b2b30 mm/damon/core: introduce moving_accesses_bp
-980da5075a8d8cb9b0640f81565897d00c347dfb mm/damon/core: use pseudo-moving sum for moving_accesses_bp update function
-2aa1f9819400df8643f780f7f3c2234e941d55a0 mm/damon/core: mark damon_moving_sum() as static
-b24a4386f39210e66ee0f39ea99994290c6fcb46 ==== DAMOS: adopt moving accesses bp ====
-59122e968b2e0c6a1a2d5446fd195c15a649654a mm/damon/core: make DAMOS uses moving_accesses_bp instead of nr_accesses
-ee6f0a0171aa29d1fd4ffb21c16b93737e7a85d4 mm/damon/core: implement scheme-specific apply interval
-40a36422f13a8bf8fe0c53a8232cfd5e24f36b22 Docs/mm/damon/design: document DAMOS apply interval
-f13792ac15bc5a87756dc8a5544339868e48000d mm/damon/sysfs-schemes: support DAMOS apply interval
-de73e1b9cad3d04ddcbdbcb89302c8670be77432 Docs/admin-guide/mm/damon/usage: update for DAMOS apply intervals
-99af88fd50889ce13c10188d47de41a1374bbff9 Docs/ABI/damon: update for DAMOS apply intervals
-bd804ca27e29e16dd977c229c818665b3b963bb2 mm/damon/sysfs-schemes: expose moving_accesses_bp via tried_regions/<N>/nr_accesses
-6abc623de51814b0ac9c8ccb62f3ae643e7e560a mm/damon/core: expose moving_accesses_bp from damos_before_apply tracepoint
-c0018c19acc882cfe8b366f2fd05f1c1153c2a92 mm/damon/core: Add moving_accesses_bp debug code
-51a602c7a9845eb85bade2937cf43045433cf252 ==== misc ====
-d598c0a869eabc368235e5c19d079abe17ad9b56 mm/damon/sysfs: add __counted_by() annotation
-30547fb4f12b5602c9b8aec6bbcc6fb9f61dbcb5 samples: add DAMON sample kernel modules
-f06bc11a65076c08b7170d82d1aeabe87a6abef4 mm/damon/core: add todo for DAMOS interval validation
+e49a37e779580cf7c9e007b60e0da4ce4896ec05 Docs/admin-guide/mm/damon/usage: link design doc for details of kdamond and context
+abdc8401db30a73106c88e3d5ad9a33ccd61d400 mm/damon/core: fix a comment about damon_set_attrs() call timings
+21f2f133793ded9c0af3418c2e6a2fcfca26344b mm/damon/core: add more comments for nr_accesses
+a9e57ce20c12617b70f16d852b4f2406dd8cf6a8 mm/damon/core: remove duplicated comment for watermarks-based deactivation
+d5ec86c6fd714bdc577a8b9142f1cc15cc217f0a mm/damon/core: remove 'struct target *' parameter from damon_aggregated tracepoint
+405c3e0ea41b01d914526db4ad65c233fa9921fd mm/damon/core: use number of passed access sampling as a timer
+de7e2c871cbf7f703d5fed3883dc13b189fa192a mm/damon/core: add a tracepoint for damos apply target regions
+6d9722c1e86be5d84a8dd61b99acd9293c259212 Docs/admin-guide/mm/damon/usage: document damos_before_apply tracepoint
+98a4d66154b2f7db32a9b673e6375b050ce0aeb1 ==== accesses_bp ====
+bd33e2508520e5fc7bf67bb56525f54dfd3d1d72 mm/damon/core: define and use a dedicated function for region access rate update
+c6f3548f695642444607a37387b921cdd1baf5e5 mm/damon/vaddr: call damon_update_region_access_rate() always
+405e28dd1987f0b0d072276813229fc4b697dc62 mm/damon/core: implement a pseudo-moving sum function
+9cfefba44ffec3c244baffb701b50937fd009c85 mm/damon/core-test: add a unit test for damon_moving_sum()
+2993e6d004e00dc282e3ecdd8601139cb032c6c2 mm/damon/core: introduce moving_accesses_bp
+6fcdce8c51318e9feda7be9ce72cea64adda7989 mm/damon/core: use pseudo-moving sum for moving_accesses_bp update function
+fc10e50930806d5bd7fae2711ef170e3dc758e16 mm/damon/core: mark damon_moving_sum() as static
+b0db9a3687f0d57b648898da42e091f149584d04 ==== DAMOS: adopt moving accesses bp ====
+51b6cd3508d0b11f36d8349b386afb9cce779c8b mm/damon/core: make DAMOS uses moving_accesses_bp instead of nr_accesses
+98691935a0716cfddcc271322c58ad643fcdf12b mm/damon/core: implement scheme-specific apply interval
+74b7e030bf372e92a8836fc57701263842885215 Docs/mm/damon/design: document DAMOS apply interval
+26e58107ff44e62d774b3b26295cc0748a508a68 mm/damon/sysfs-schemes: support DAMOS apply interval
+55e5ddf1287305a5ac604e3b8b2ee21c0c65f1e0 Docs/admin-guide/mm/damon/usage: update for DAMOS apply intervals
+d34e87f93cd6ea24cb369499ed858dbe38245673 Docs/ABI/damon: update for DAMOS apply intervals
+319a102cae2efa5a58272c71ec38ee74c1c2ef30 mm/damon/sysfs-schemes: expose moving_accesses_bp via tried_regions/<N>/nr_accesses
+c0fb4efbd06052cce9dc69c2d915750978901616 mm/damon/core: expose moving_accesses_bp from damos_before_apply tracepoint
+cca4d430a0a619081cac776f967f7c03460efdde mm/damon/core: Add moving_accesses_bp debug code
+792f3c79c712d00b4b2b73f3dc5bb3958697ab8a ==== misc ====
+b0df215fb1a050f72dfca23e266b888923171076 mm/damon/sysfs: add __counted_by() annotation
+dc7ada355bf2a8051fdb6bd45b81794190cd47f8 samples: add DAMON sample kernel modules
+e1db5d2eaef76016de130bc937daf90e17e093b4 mm/damon/core: add todo for DAMOS interval validation
 
---===============7643966587524599645==--
+--===============4693139937627667931==--
