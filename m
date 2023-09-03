@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 03 Sep 2023 10:20:04 -0000
-Message-Id: <169373640414.21746.548882011677343562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 03 Sep 2023 10:32:44 -0000
+Message-Id: <169373716402.29491.11169045068209103651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/loongarch-6.6
+  - ref: refs/heads/dev.2023.08.24a
     old: 0000000000000000000000000000000000000000
-    new: 5a9feed9db9682c4df1b39277df6839f9c6f0930
+    new: ed763051f63059bdb6d728c0890993eab8833feb
