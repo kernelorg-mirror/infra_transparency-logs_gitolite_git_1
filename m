@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1653974543774464628=="
+Content-Type: multipart/mixed; boundary="===============6214618089787765949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 03 Sep 2023 11:05:31 -0000
-Message-Id: <169373913166.21318.191834060969059418@gitolite.kernel.org>
+Date: Sun, 03 Sep 2023 11:33:10 -0000
+Message-Id: <169374079018.8505.11982937248699675366@gitolite.kernel.org>
 
---===============1653974543774464628==
+--===============6214618089787765949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: cbe6a5129bc75aa8479bfd6b91c2e375d712ef2c
-    new: 81d095d782af5df3e31ca68fd35060afbee137f8
-    log: revlist-cbe6a5129bc7-81d095d782af.txt
+  - ref: refs/heads/fixes-togreg
+    old: 34477b2d710ad203eb67103806970b2c21e718ec
+    new: 523268c1a8ac58f09bc58d7c9b857230f3574cb5
+    log: revlist-34477b2d710a-523268c1a8ac.txt
 
---===============1653974543774464628==
+--===============6214618089787765949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbe6a5129bc7-81d095d782af.txt
+Content-Disposition: attachment; filename=revlist-34477b2d710a-523268c1a8ac.txt
 
+af0ead42f69389cd4ed68e1a4c6cde45c0adb35c riscv: Add CFI error handling
+a72ab0361110db51488c670863551eb01428470e riscv/purgatory: Disable CFI
+74f8fc31feb4b756814ec0720f48ccdc1175f774 riscv: Allow CONFIG_CFI_CLANG to be selected
+b922bf04d2c1355633bdefbc2ed5fba1f0d4df07 binfmt_elf_fdpic: support 64-bit systems
+9549fb354ef1a451ceddfa404ae3e943c5c803d0 riscv: support the elf-fdpic binfmt loader
+2926715163cfacea481d218f9151d091f5c0c27a riscv: allow kmalloc() caches aligned to the smallest value
+f51f7a0fc2f4a6cd786327f485e5aba4c9006866 riscv: enable DMA_BOUNCE_UNALIGNED_KMALLOC for !dma_coherent
+fdebffeba8b877368ddcc139c26278c1c97931a4 BackMerge tag 'v6.5-rc7' into drm-next
+b37c60d23df71ae6c09856cab4b853aea11f0615 MAINTAINERS: pps: Update pps-gpio bindings location
+93f5de5f648d2b1ce3540a4ac71756d4a852dc23 Merge tag 'acpi-6.5-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+add2cc6b6515f78d3a150f1fbbaf12c28c4bb20a RISC-V: mm: Restrict address space for sv39,sv48,sv57
+4d0c04eac0c2d4e0100bbc67cc2fb48c3a53d8c8 RISC-V: mm: Add tests for RISC-V mm
+26eee2bfc477c536d65380cd82f458c91d29317a RISC-V: mm: Update pgtable comment documentation
+7998abe69d3c4cd611d586384fa33f561c1bd61e RISC-V: mm: Document mmap changes
+04c1c3c4e62a22b424c07d8b03ca6f6aac2dfa7f PCI/VGA: Correct vga_str_to_iostate() io_state parameter type
+60b4925d1aeaf0c46e540949c50818b9be2c896a PCI/VGA: Correct vga_update_device_decodes() parameter type
+b421364a905e05d62f889786d25954c5a4128c80 PCI/VGA: Simplify vga_arbiter_notify_clients()
+4582db1d0a41ed07de140a8bfe8e802749579563 PCI/VGA: Simplify vga_client_register()
+0215845348fd09a0125da3d9d1a1e2476b49cd70 PCI/VGA: Replace full MIT license text with SPDX identifier
+f6d6c11f417a50caca9d30d63f0f85c311c09869 clk: lmk04832: Set missing parent_names for output clocks
+e63227c83cff755c4d3b326d317d2e88451a637f clk: lmk04832: Don't disable vco clock on probe fail
+6aa8dc690d99f7aa7fc41f5606c7ee9ad481ad0b clk: lmk04832: Support using PLL1_LD as SPI readback pin
+068ca522d5a563ac4ecc48c2c7c390102537fefd libbpf: Add bpf_object__unpin()
+38f88732b2928a831d794737b499c6db8da9b9ac Merge tag 'drm-msm-next-2023-08-20' of https://gitlab.freedesktop.org/drm/msm into drm-next
+6cdcc65fdb0bc59bfca75d0b6fdc54d6ca347ddf drm/nouveau: sched: avoid job races between entities
+c6b9075cfbd624f2b33bd6fd388dc6f0b7027472 drm/nouveau: uvmm: fix unset region pointer on remap
+443f9e0b1ab5e3b95abf8606097d13e30e2f2413 drm/nouveau: uapi: don't pass NO_PREFETCH flag implicitly
+500d45100aa8546a000eef85bba8c2abc7b36e92 of: unittest: Check tree matches original after reverting a changeset
+a9515ff4fb142b690a0d2b58782b15903b990dba of: overlay: Call of_changeset_init() early
+6becf8f845ae1f0b1cfed395bbeccbd23654162d of: unittest: Fix overlay type in apply/revert check
+8f50c20118ec55b0dd1273b6e789de146d08e579 of: unittest: Restore indentation in overlay_bad_add_dup_prop test
+35df904df899dba916ceb5248d815bfe71e9367d of: unittest: Improve messages and comments in apply/revert checks
+b7a46e7b44115e186a68a7d95bef5e7d72826304 of: unittest: Merge of_unittest_apply{,_revert}_overlay_check()
+0676aeeca537740a03ecdb8b699b37e98ec60289 of: unittest: Cleanup partially-applied overlays
+ee32072fd12561b6f5fdf96fef7cf6acc323b564 of: unittest: Add separators to of_unittest_overlay_high_level()
+eb38b9529aefa344cbfde25a274c2b6f2931648b of: overlay: unittest: Add test for unresolved symbol
+121b83eaddde76cf5c49f9b4bd5b1b67c77b1c88 of: unittest-data: Convert remaining overlay DTS files to sugar syntax
+517dba9711f9c872d5c607d6ac69b90947e0d8be of: unittest-data: Fix whitespace - blank lines
+367dcb487695e1f219ccac09abf0d7a94bff3355 of: unittest-data: Fix whitespace - indentation
+58ec916803cd8d3732f21c828f0cc8a103e47cb4 of: unittest-data: Fix whitespace - angular brackets
 664c84c26d7a77d4b19813831466d67253f2326e net: dm9051: Use PTR_ERR_OR_ZERO() to simplify code
 e83fabb797b98a9ead4b5bb50c85fb499966ad7e net: fec: add exception tracing for XDP
 cfb5677de5babe3664356155a391e2ff781c9ee1 net: ethernet: mtk_eth_soc: fix register definitions for MT7988
@@ -65,6 +105,7 @@ e78bd50b4078b3b2d9f85d97796b7c271e7860ca PCI: Add PCIE_PME_TO_L2_TIMEOUT_US L2 r
 9fda4d09905db9ecae17ad741924a7530aa3c96e PCI: layerscape: Add power management support for ls1028a
 a11937b3cff5449871f428e46e202481dc61a9de mmc: sdhci-of-dwcmshc: Add error handling in dwcmshc_resume
 48fe8fadbe5e03edfd83315c331b171a9ae245a4 mmc: sdhci-of-dwcmshc: Add runtime PM operations
+704e2c6107f1a5353a1038bac137dda0df2a6dd0 Merge tag 'icc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 c008323fe361bd62a43d9fb29737dacd5c067fb7 ASoC: amd: yc: Fix a non-functional mic on Lenovo 82SJ
 cdf4100eaa1f4107fcf7c95b5eccca96cca6c777 drm/gpuva_mgr: remove unused prev pointer in __drm_gpuva_sm_map()
 feea65a338e52297b68ceb688eaf0ffc50310a83 powerpc/powernv: Fix fortify source warnings in opal-prd.c
@@ -1003,52 +1044,11 @@ e021c5f1f612536c2eb9d46206b786c76a01c8e5 Merge tag 'trace-v6.6-2' of git://git.k
 b70100f2e62aeec2087d7690e41f7d6afd445f5a Merge tag 'probes-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 b89b029377c8c441649c7a6be908386e74ea9420 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 92901222f83d988617aee37680cb29e1a743b5e4 Merge tag 'f2fs-for-6-6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-7f50026f9998e609b72ba34c9b223dba75074483 iio: adc: mt6577_auxadc: Use devm_clk_get_enabled() helper function
-1586325705c391f53bcbdc791110d6bd6d6a4b91 iio: adc: spear_adc: Use device managed function
-7291b7ac4478e9851e2dcb9f0417c62d74dec2e0 iio: adc: spear_adc: Use dev_err_probe()
-1854b2ec0435cc305284b60bf69c14aed930f7c2 iio: adc: mt6577_auxadc: Simplify with dev_err_probe()
-513f5771d95aceb95ee84809f570bbc022baedef iio: adc: mt6577_auxadc: Simplify with device managed function
-c4c24aa0e77d5f119cb4b223582dcd37934d0356 staging: iio: Use devm_clk_get_enabled() helper function
-ea5b37d7efa2429e1ee64b5e6587c82428e526f7 dt-bindings: iio: adc: mcp3911: add support for the whole MCP39xx family
-9b5bbfe4ac02b18c512c4d81418bdf8867ce24e0 iio: adc: mcp3911: make use of dev_err_probe()
-c9134a785ebbfb455faca0c5347a111f66207e46 iio: adc: mcp3911: simplify usage of spi->dev
-a853fb2d332f2b61ffed21327327840574bb1dde iio: adc: mcp3911: fix indentation
-963636e3311a47575352fbf09605be7915fc954d iio: adc: mcp3911: avoid ambiguity parameters in macros
-a3c92b627a9fa54ec9de69d04568a380dd40165c iio: adc: mcp3911: add support for the whole MCP39xx family
-1bc523d52bea7110038fbd3410d20a73ca4a9a2e dt-bindings: iio: adc: Add TI TWL603X GPADC
-e0df9a147e07e99a56b0ea5f244a60463a5daf5e iio: frequency: adf4350: Use device managed functions and fix power down issue.
-85cbe3eaa3f1ab98a80c8dd38576f5b136d2041e iio: adc: at91_adc: Use devm_request_irq() helper function
-9488847d46542dccaac0a669bf690fbf8b12505c iio: adc: at91_adc: Use devm_clk_get_enabled() helper function
-876aaed44a697cba35b1bad07dce77614b25f164 iio: adc: at91_adc: Simplify with dev_err_probe()
-ea221a9a117344e4f4e84c119f27a6d6c5ffaa7b iio: accel: mma8452: Convert enum->pointer for data in the ID table
-8d150a9bbbf2b6d3f918395722729842235c20b3 iio: accel: mma8452: Sort match tables
-99c6c2c6ae389aa5872fa554ddf2d7b60621e440 iio: chemical: vz89x: Convert enum->pointer for data in the match tables
-12a4d42b6ae025a56e536c19ee5f56d7665ab021 iio: chemical: atlas-sensor: Convert enum->pointer for data in the match tables
-d11fb9763b2c586f2c97a00ca51ff507d4959ef8 iio: chemical: atlas-ezo-sensor: Simplify probe()
-fe10dbbf4f82720e1dea21813cb829d5ee1c421b iio: proximity: sx9310: Convert enum->pointer for match data table
-eb17cacce1a7de283c573097f32f45dba4dcb44c iio: dac: ti-dac5571: Use i2c_get_match_data()
-28e94b47a0031a45547642bb7486e4648d423557 iio: dac: ti-dac5571: Sort match tables
-53af6deec881bbbd7ef2c4b9f47203476800afc9 iio: magnetometer: yamaha-yas530: Use i2c_get_match_data()
-add45f7e0a7969a107ad18b57dde6e08445e45a5 iio: adc: max1363: Use i2c_get_match_data()
-e2f4a71540c062c314813f9c6c43ee1655572dd8 iio: accel: bma180: Convert enum->pointer for data in the match table
-a74303156a36727d310b8701a4155c1490cfb60c iio: mlx90614: Use i2c_get_match_data()
-30582ab5e8d1cde9ae2a91ba52c5fe45b1f4b1a3 iio: magnetometer: ak8975: Convert enum->pointer for data in the match tables
-77fdf945850221d7b0e8dc2eee19e222f34a244b iio: magnetometer: ak8975: Sort ID and ACPI tables
-f035848f208c3cbe797941018af12e054d95f0a6 dt-bindings: iio: magnetometer: asahi-kasei,ak8975: Drop deprecated enums
-cb139eb02e28a7a1568a6f24ecd4a630f107e31c iio: amplifiers: hmc425a: Add Support HMC540S 4-bit Attenuator
-028da62377c156e7cd19e75bfedd3cefca6eecf7 dt-bindings: iio: hmc425a: add entry for HMC540S
-1e8afe36e014836ea1c22d9f3c9a0338c0b3f1a4 iio: chemical: sgp30: Convert enum->pointer for data in the match tables
-5a867e9632d4579fdce58521064422257cedd174 iio: potentiometer: ds1803: Convert enum->pointer for data in the ID table
-8763c87bd80e8550597a53a3fb2ed23d7480634a iio: potentiometer: ad5110: Use i2c_get_match_data()
-beaac80ef8242a62c8b1761fb45e6fe0eef080d2 iio: light: opt4001: Use i2c_get_match_data()
-2c2bc801c39a045fc7c05e24bf44f3d52410635f iio: temperature: tmp117: Convert enum->pointer for data in the match tables
-58d7a469fe94bbbbd142682819d420cfca649c42 iio: Remove unused declarations
-155bad58351c03f079dd3f1e9a92fa183676da60 iio: accel: kionix-kx022a: Use correct header(s) instead of string_helpers.h
-f3cf70e0d2dc79ab059475c1cfdbbfe70397506d iio: accel: msa311: Use correct header(s) instead of string_helpers.h
-f0a9b1ac6c27df36b3631a3a7e29a054cd292f12 iio: dac: stm32-dac: Use correct header(s) instead of string_helpers.h
-2ad3777af255948f2ea613091e53c4ccb08dc6a1 iio: Add IIO_DELTA_ANGL channel type
-4342d804f05b963962c13784da67d75d48f06185 iio: Add IIO_DELTA_VELOCITY channel type
-d442388981afe528ad10265652a8b91e8646e1d5 iio: imu: adis16475.c: Add delta angle and delta velocity channels
-81d095d782af5df3e31ca68fd35060afbee137f8 iio: adc: stm32-adc: harden against NULL pointer deref in stm32_adc_probe()
+6e3150f301f5fb4710ebbfcb72f53e82e824e306 iio: dac: ad3552r: Correct device IDs
+c63a52cde4da30257d41e9ca29d174de0ff070ed iio: pressure: bmp280: Fix NULL pointer exception
+40cc3d58e3d84bad1bd147ae5026317627f4b407 iio: admv1013: add mixer_vgate corner cases
+8f0908ed3213b0a95b3e489967f5961c2038f0a7 dt-bindings: iio: rohm,bu27010: add missing vdd-supply to example
+08c8d40f57868bf442278651d286d07c4a6b5445 iio: irsd200: fix -Warray-bounds bug in irsd200_trigger_handler
+523268c1a8ac58f09bc58d7c9b857230f3574cb5 iio: cros_ec: fix an use-after-free in cros_ec_sensors_push_data()
 
---===============1653974543774464628==--
+--===============6214618089787765949==--
