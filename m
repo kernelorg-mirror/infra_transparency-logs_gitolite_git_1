@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0062373119453436826=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 03 Sep 2023 08:45:19 -0000
-Message-Id: <169373071951.4550.2129617562534982634@gitolite.kernel.org>
-
---===============0062373119453436826==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/nolibc
+Date: Sun, 03 Sep 2023 09:58:52 -0000
+Message-Id: <169373513286.4836.2658658249550688187@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wtarreau/nolibc
+user: wtarreau
 changes:
-  - ref: refs/heads/master
-    old: 168287c41dc14c8b80e7b28db35ed3024b5c2348
-    new: c47f27cfd300da62f0d4137b6f91235dd7a6c270
+  - ref: refs/heads/next
+    old: b0ba2ab9fc9b93e1583f4c0d7804c7e86efc9dcc
+    new: f7a6e4791e3d685eddca29b5d16d183ee0407caa
     log: |
-         c47f27cfd300da62f0d4137b6f91235dd7a6c270 5.10-stable patches
+         958c6d361ab4fe433217873d18e0c40b7021d858 tools/nolibc: x86-64: Use `rep movsb` for `memcpy()` and `memmove()`
+         9df1b46d5f415f4e29a1f6bd2629c7b6cbbffa65 tools/nolibc: x86-64: Use `rep stosb` for `memset()`
+         fafb3a6c05f3787499d280e671928b2524bdc0b6 tools/nolibc: string: Remove the `_nolibc_memcpy_down()` function
+         f7a6e4791e3d685eddca29b5d16d183ee0407caa tools/nolibc: string: Remove the `_nolibc_memcpy_up()` function
          
-
---===============0062373119453436826==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693730718 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1693730717-27d6d29c4049667740667b70384330010f255828
-
-168287c41dc14c8b80e7b28db35ed3024b5c2348 c47f27cfd300da62f0d4137b6f91235dd7a6c270 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT0R54bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yEAP/jcMoEb1UzUiiMiLccN7
-iTKTBl0nudZ6c972D2PNI/7DFhWCR4DeEOLLnV7FT759v1eD5k+7xRLLQnueWb64
-F4WSNKCaALijvdxGGn/PnK1fuamSWBEmA7DtnJjZpyiPTRUS81DwHY115u2WLpk4
-1wRXCXgstpVzn5aKz/F9xkzoKoZcF7PnQvAcoiizBUetKRSd0E7w2jkiM2pa2/dD
-MrQ6VtnnjgNxlaUVByp3oN9G6HFQiwvU38bErlRFQxIvap/zjQrHGUb5pqN6w/vt
-AEhVpgklNchwamURVOv4+i8du/llemChs9TlQsX6Au7b4FrH4ts1J9NTlBhKwjo/
-P6pk8pdQSsgi2usT/fGlnVogwAU1lrOyj4xXkwvPQ4Mr/kO/7Pja1nDs5R7fMpyJ
-6SEQkuC6t02l+VMPBvNtbjw4VFhFPKVrg9xWTtsrKyEmow+MQu7i3iDr2VY35a+4
-XUaXxWQdh+D24IIGj3BHpsISEaz/RYFPUSf539USdWwedAz0wzrKT4rX3HLt2fc+
-H7a9bJ3WAMSqw6otB4SnNv255QPXe28jVc1M3/82W0baN7/mQwcppGQB1bZbx8Sc
-0z72EcMati1w1BAnvqzYerh+L7w587d865/G8iTKSAoyrsSrO3mih1ETHsp3zsX8
-gvd5rmwpTre5NF0Qg3r5YVMe
-=pS4R
------END PGP SIGNATURE-----
-
---===============0062373119453436826==--
