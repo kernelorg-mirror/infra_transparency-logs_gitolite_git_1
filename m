@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 03 Sep 2023 15:16:00 -0000
-Message-Id: <169375416053.10439.15219650301418819249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 03 Sep 2023 15:18:37 -0000
+Message-Id: <169375431768.11442.15485333349715068949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: ff8b57b2cc3ea003bf93d72b24d05ad8b910b087
-    new: d7f04fbef2a634d128bd94350201672e1b56bbf2
-    log: |
-         d7f04fbef2a634d128bd94350201672e1b56bbf2 Sun Sep  3 03:10:47 PM UTC 2023
-         
+  - ref: refs/tags/v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
