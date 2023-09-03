@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Sun, 03 Sep 2023 19:00:09 -0000
-Message-Id: <169376760938.11935.6899386582430556966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
+Date: Sun, 03 Sep 2023 19:16:02 -0000
+Message-Id: <169376856257.23955.6376692695792951320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/uml/linux
-user: rw
+repo: pub/scm/linux/kernel/git/mcgrof/linux-next
+user: mcgrof
 changes:
-  - ref: refs/tags/uml-for-linus-6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a7cac22bebd8b936d50db5d92769619d9e7aa74e
+  - ref: refs/heads/large-block-20230902
+    old: ca6b03684cb85070a02094adb67382479427abbc
+    new: 9eba1aa872ed38abfa4d2d29b69d8ac6ddcdcb75
+    log: |
+         9eba1aa872ed38abfa4d2d29b69d8ac6ddcdcb75 bdev: simplify coexistance
+         
