@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4534291163949843806=="
+Content-Type: multipart/mixed; boundary="===============1454711442502263170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 04 Sep 2023 06:57:56 -0000
-Message-Id: <169381067681.19619.16262079696650370408@gitolite.kernel.org>
+Date: Mon, 04 Sep 2023 06:57:57 -0000
+Message-Id: <169381067714.19646.10995937795543854505@gitolite.kernel.org>
 
---===============4534291163949843806==
+--===============1454711442502263170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: c2cbfe5f51227dfe6ef7be013f0d56a32c040faa
-    new: 927c927745d45541461ffa49fbf71ec207a4525f
-    log: revlist-c2cbfe5f5122-927c927745d4.txt
+  - ref: refs/heads/linux-6.4.y
+    old: babc8be398c3a0701e52582f93bfba946e9e5f8e
+    new: fbceb100cffc4e3825d721ad3270332a60ca0555
+    log: revlist-babc8be398c3-fbceb100cffc.txt
 
---===============4534291163949843806==
+--===============1454711442502263170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,62 +32,63 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693810675 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1693810675-e72bdcadcb3965085e528b1303e91cbad6630d71
 
-c2cbfe5f51227dfe6ef7be013f0d56a32c040faa 927c927745d45541461ffa49fbf71ec207a4525f refs/heads/linux-6.1.y
+babc8be398c3a0701e52582f93bfba946e9e5f8e fbceb100cffc4e3825d721ad3270332a60ca0555 refs/heads/linux-6.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT1f/MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j/wQALTgS3VrvwU4SQCel7EV
-b/p+Tnu3YmOsPQ+PL4YJuxYdbB3Lpei/ZcsHNhOCJd/YN6Xefp9vADY3VkSRQZrW
-79MIq3iT+r+yh5/PUaNEqD4JJFEDrOlx3jGQr2x5DUNbise4gCewOc127PEiYbyY
-UtjkFt9ElHhGCv27fe2i/DSdyFS6rC8nGMJZ+HnGaAfpI2xiBSxr/9gXK/VtPPt9
-Ne7djqtWCECq9Rp/5yPgf8g3QBb4IPs2vBN/JQs9hog9X5e1Ej13cy4d+2uYEQu4
-Fpu4jPMAl5i+xf6zcZspdLe2pMV/pBeF/cvllQ/LTFrbhW4J64Qd+1Wlh2cvcg9D
-GmbiryDQ0aKS8fkQmeLf1FDaURNrAOBCqorgYXzsBYJx3lU0IYv8NDUl5DxWCati
-rbZzm1oE/CmeV+4qIGn4801fhYCVxXDYh8N0h9hL1agrfb38qZ1ginTdYKJofoe9
-1UZhBlJWtDmNTx3qdAgMn+GZrkoCH4ceJ+13jDxBUqcjmXbRqrE8R66/8wKer3CH
-UKJ32a42ZcHLb216Ev70htls/qdNGgCDSo3YcmHS8ndnj6IGus4C21xHMXbKv20w
-cPtZjgWtBU5sJV5GsQjgtoncMRbp6HOWSMESg885jTE7KrluCOomUwJtF5FeP3JO
-pgNQIy037HIfSHnIv1n9t01Y
-=Q0gj
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kLMQAIMCWrzN2E70aynL8aVq
+MAObf1PAzxNLtqyOwmcjqbjn1kgj/T0kX1LhEkquTBqIiwIpjk2D+UBrTRSYej85
+P442ScsEX7/FtL2gwRont1DvlUyLXDThEyvThGybK4zrZZ0zCIXcpOaWveBKO+o8
+Iz5khrGseGbXgfba9KDNGK/JxgXJp0sg51EhiJLqDftlx1wyJ8bcIINbJylP5nPZ
+tjugQZM5PitUlB0U27eyRORwcw0SIkSlQlEMegcave8WFxUVZvEU4GpGrg0Z8gSN
+mqYmXgYsYVPU/RMbSd4U11hcp4clhpdiJ5RixODsbe3FKamZCIOVhOsIRVLgWi0l
+jx5rC58VyrzmZcLvl1mUmH2+Q1nlIGHSx/tor1ptEBQaGd52APgkI5byLJ5cwSZP
+UwU4GRIYd2rE1goPPxSIsFXqKOKElWF9Ae80Q5fDdQW2Eg3svLueFOnmlxCCky8L
+JSuNLwPhFeo9W+Fs6kBwkiN3AZooezfiVZUaf7bD4G83GEjCGKtdopLPcyYJE/U4
+2IdO050O8xAnjaHGHYuuiZ8+slRrYATdEF5BxdbDpBsp+6jUur0JRg1u8IxXoWd1
+xi2r5eV6iG3yRLBpgYqlCWtXm5X9WscFx8ZjHHiqhbYD617YpGS8pr8YB3gpaVdE
+cfvO+/9zdjlfsyeYTx7ssYLP
+=5Obz
 -----END PGP SIGNATURE-----
 
---===============4534291163949843806==
+--===============1454711442502263170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2cbfe5f5122-927c927745d4.txt
+Content-Disposition: attachment; filename=revlist-babc8be398c3-fbceb100cffc.txt
 
-693eb26e2f7ee1219dceffae10492f48a34abc7d erofs: ensure that the post-EOF tails are all zeroed
-5c6980c0a61fd308b07d7ae60bbcddb569719278 ksmbd: fix wrong DataOffset validation of create context
-85af401d2a23c7d096ca79a0276afa851e027b4d ksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()
-7bab17897de7c7e40425805ccc778eb5a1ef4df8 ksmbd: replace one-element array with flex-array member in struct smb2_ea_info
-5283a8a7c40fb17ba63271b46ddf423d4ae756b2 ksmbd: reduce descriptor size if remaining bytes is less than request size
-a69a2334d0fc119841776baeb2fea3100965bb8f ARM: pxa: remove use of symbol_get()
-27c1bf2ca0f5eb2baaa1ebea98f8bbeb9537b062 mmc: au1xmmc: force non-modular build and remove symbol_get usage
-cdb929d636e97015013ca88bb7e9142cf653745f net: enetc: use EXPORT_SYMBOL_GPL for enetc_phc_index
-6829128a2b9b27439f8269d72efc3041b6a5ecf3 rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
-54f4288343937f087e1c1df1594df8c291186cb5 modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
-94e02d290f95f836f4cb424ab151742319295909 USB: serial: option: add Quectel EM05G variant (0x030e)
-96e743585892deec9cc57efe73ef2b59a4ea9276 USB: serial: option: add FOXCONN T99W368/T99W373 product
-145a5c34716cb5c39399dad357b17ef7bade37f5 ALSA: usb-audio: Fix init call orders for UAC1
-d6d185dfae2d9cf777cbf6f34c8dd8728ed08c71 usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
-70085fe03ea5083b63bce81c9fafd9c39e344500 usb: chipidea: imx: improve logic if samsung,picophy-* parameter is 0
-871af38cb97eb5362e5c3ae6cefbbe11f54a79ea HID: wacom: remove the battery when the EKR is off
-0172a80f6e6374d785226977ed745cb99dcb2365 staging: rtl8712: fix race condition
-5c2f2a10e9caff757a17c9ac05940e2f541aacc1 Bluetooth: btsdio: fix use after free bug in btsdio_remove due to race condition
-6afa4f94b4c6b798afd909ef9b8e9fb136ffa9ab wifi: mt76: mt7921: do not support one stream on secondary antenna only
-ede582778d5dc714af2d98207b690b07165a832d wifi: mt76: mt7921: fix skb leak by txs missing in AMSDU
-0c4142ad210d5de9a47377daa9f42357750b438f serial: qcom-geni: fix opp vote on shutdown
-90f63ada3179055fea4cafc82347faa0b9330277 serial: sc16is7xx: fix broken port 0 uart init
-8b265fcff6895cabbdc02b6d410559828d2dfd4c serial: sc16is7xx: fix bug when first setting GPIO direction
-720a62bebb959458ef37d27cd854cd91395051e8 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
-567016343d6d20fedff185ae845e2d6991af2b3c fsi: master-ast-cf: Add MODULE_FIRMWARE macro
-0f6555c096e2050c1385a58e7f5977d1eb3639ee tcpm: Avoid soft reset when partner does not support get_status
-78f1cdb0b04dc5b8e01c73cfb405de2c54d07987 dt-bindings: sc16is7xx: Add property to change GPIO function
-bc1ac87378a5eed06872a0a005445e7e752129cb nilfs2: fix general protection fault in nilfs_lookup_dirty_data_buffers()
-d2cba7eb7dacfa2c79b1997613cb0bfcbcbd9e0f nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
-c850898da8b1357741b26227fbcd1fe179a5d7b0 usb: typec: tcpci: clear the fault status bit
-5a62af174031ab7a905c9e942ef9ee57894c1fcc pinctrl: amd: Don't show `Invalid config param` errors
-927c927745d45541461ffa49fbf71ec207a4525f Linux 6.1.52-rc1
+d6cde4927da14c5891771117dfeb122a79a7b9ce erofs: ensure that the post-EOF tails are all zeroed
+52ba749bb1179392a430b84465842e73b71caae1 ksmbd: fix wrong DataOffset validation of create context
+0e8b4dc1cbfd9240f58c48a3a1d1f1587598b894 ksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()
+b62ba0f7d17fa066343ba0c1deceb54c1f167739 ksmbd: replace one-element array with flex-array member in struct smb2_ea_info
+39d8675fe07f5caebd1e2e3e4ec7c88c5fff72d7 ksmbd: reduce descriptor size if remaining bytes is less than request size
+a870a744e8a4f2180a03e390509b1da15bb1085e ARM: pxa: remove use of symbol_get()
+0006f04e748346e48eb729b91aa905fa70289d2a mmc: au1xmmc: force non-modular build and remove symbol_get usage
+773e1cb5347abb83eb417ebe047839bcdbcbf921 net: enetc: use EXPORT_SYMBOL_GPL for enetc_phc_index
+10817ee14ba68b51587e2ecaf7650716884e3c5d rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
+cee86b6b197f83e0e1027139e6c1ae1c18e1180e modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
+a4887bb45bfd8320095721d29a0d2ebbb2e5ee1a USB: serial: option: add Quectel EM05G variant (0x030e)
+8fabe24066b255f927412c831977a1aef056b5b0 USB: serial: option: add FOXCONN T99W368/T99W373 product
+15a62c453ee57ccbd2d1a345cb8f3e9d00c6716a ALSA: usb-audio: Fix init call orders for UAC1
+08a387da2d45c64b58139cd5fae6c84c8f7b090d usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
+9b1f71f938ec301e7fc9434d06121d514ea5a572 usb: chipidea: imx: improve logic if samsung,picophy-* parameter is 0
+b00e7047b01fc422fd7e7788fc11efc1f449456c HID: wacom: remove the battery when the EKR is off
+384bc5428a19bc048d770e79bc9e403d7bcf7f09 staging: rtl8712: fix race condition
+95fdf6bcafff1e2b8c5430d3fcb2064cf2362f17 wifi: mt76: mt7921: do not support one stream on secondary antenna only
+5eee3e5d033ba80e57ab20b04c1f3eb077e95689 wifi: mt76: mt7921: fix skb leak by txs missing in AMSDU
+429c69b90828d2fc0910fe37b8d06f2c63e2baf2 wifi: rtw88: usb: kill and free rx urbs on probe failure
+63c99fd733fdae2d7cc2a1f85bccf458e5b09c70 wifi: ath11k: Don't drop tx_status when peer cannot be found
+4a74233e34cc89f2ebb2b72a62b7c5cc91dc8829 wifi: ath11k: Cleanup mac80211 references on failure during tx_complete
+b26feadbffcdd6bcc4c40e54cdee31dc6782d5eb serial: qcom-geni: fix opp vote on shutdown
+1f305f1c721525e41ff77dac89d7fc11441f27b5 serial: sc16is7xx: fix broken port 0 uart init
+b0e290b00225785f2d00e7dda18b4aa489ba09f9 serial: sc16is7xx: fix bug when first setting GPIO direction
+8c9038e23eac07580a84dc867d416e1992734d12 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
+3b614b0797ae7fc12f9222f57c5c8bc05f7d7c90 fsi: master-ast-cf: Add MODULE_FIRMWARE macro
+db72b570f3379cc0880ae6681324fc6f07b31e44 tcpm: Avoid soft reset when partner does not support get_status
+bc5bc010639304e730fe1d13f640f31d49821610 dt-bindings: sc16is7xx: Add property to change GPIO function
+b8ec1d0a5edd5b456e958e798c3494e581338aee nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
+e599aad8d6f9e546d98dd16553b32d9ebb6b7c53 usb: typec: tcpci: clear the fault status bit
+483c82ce2c4593f39b4d12bf7e71ef13ab7c47f1 pinctrl: amd: Don't show `Invalid config param` errors
+fbceb100cffc4e3825d721ad3270332a60ca0555 Linux 6.4.15-rc1
 
---===============4534291163949843806==--
+--===============1454711442502263170==--
