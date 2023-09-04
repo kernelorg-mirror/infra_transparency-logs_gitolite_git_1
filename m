@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0042274923304206824=="
+Content-Type: multipart/mixed; boundary="===============0817226879023055346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 04 Sep 2023 18:29:45 -0000
-Message-Id: <169385218504.21263.963192015186444118@gitolite.kernel.org>
+Date: Mon, 04 Sep 2023 18:29:46 -0000
+Message-Id: <169385218645.21374.8996381982884297382@gitolite.kernel.org>
 
---===============0042274923304206824==
+--===============0817226879023055346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,64 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 530503262cfd8dc02ad8dff52be0642a585e729f
-    new: a61cb1b1779c0acef8240b885be002f429e1e7ef
-    log: revlist-530503262cfd-a61cb1b1779c.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 24e31ba5afd8cf4793e05aa3f37ec494f28e6974
+    new: 802daade7a99a032c6d19549161a53677b65e139
+    log: revlist-24e31ba5afd8-802daade7a99.txt
 
---===============0042274923304206824==
+--===============0817226879023055346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693852184 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693852185 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1693852183-2d2cdccb540fc2400f1376a1636b745f401fd645
+nonce 1693852184-b5d168042638787496b6b01fec1b49914872520b
 
-530503262cfd8dc02ad8dff52be0642a585e729f a61cb1b1779c0acef8240b885be002f429e1e7ef refs/heads/linux-4.19.y
+24e31ba5afd8cf4793e05aa3f37ec494f28e6974 802daade7a99a032c6d19549161a53677b65e139 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2IhgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1wgQAJ9KOE2Xa31aK9KNU5Hr
-NguRRxWCuszSehqkjer/aHZx+D9/1/g6UldR3eVs1S2rOq7kbsnKX0QgqQgy51vL
-Y/TWTXRnGvbKSEIjsYkGkjhL81MnyEU7CwhAsdshCMXnQ0qoikJ+CWTPWxokdBT6
-mED0XKQcp04OL9U5t5cgmdEauikNxKHwOX/T1nFq3wJeDIRZeNqCDwzxUSrysXhQ
-JreO1QHIhybhvvh5hgT98TU0VugF31MR158qno12j9+BxiDPr1hZL/z9sbIHa2h4
-X7SIDHJLpLgmNCooQExO83GA7xjmWa5Wcqh1Z2uNVYD3LFFSEAv2OxW8n8H8/37B
-u8JqIhV2GQRiVuu4tAil9BhFr9tHbS3Nnfm6RIe/dSjgUAPYVSUr+Y1dBQ8+sr6M
-yag9BPbayeHIvKyFgXW2OT8fv2Bb4wRRSX2obxmOg1qmEtOKqYO//36nvKM23EzO
-sU47ik4QruhJzUouxCH8Cs1y+8pjZnWMOyKCMmZkRIhO6ckO6yngHTTa48M70+aD
-ufphjkKXOk8KVuVn8AwtxhECclKmxaZcMaXI29K4+F0CFsJJEy58OSMZWrxitSlI
-W3AWBQUsp085JeqSmcOZWBpsW7kpS799ZwTw+WOc011Zm9WORiVNPoZgtKzQgSUZ
-Js8aJvzq8pPlglHHaZenazyR
-=Q0A5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2IhkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UFkQAJqD6cz2O3MaQlmlxIUc
+XzBepWYPgQjDkXBnrIPepM8U7D8iwL6y3IHeOhjcwxTrUa6qj8cxsWjkAuDKKbNU
+jYMppsdMeZA68b2ca2Gbsn23Ilw+BIYYOd//P/602xUshAkZ8T86eLFgbxOZT0+L
+Sc/EOMrXfmdgSdsD7cTFV5ApVwNw909aObx4PbaELOu60NqBDt1gMa3ikZycDJuC
+1BWfZ+FZyKSND0huL1M4Ov0M0TsRMmfeIQRtZq4D/CBVX6tO2th7s3gbjnZQtYNf
+Llldhxvy46xUnS9SRkTQvvwD4h6lzkYjfWNG8c+yRVD/raRWfgIdHGhPmtL666xk
+7/fbMWS0/zmcbMhRN2mTj4NozwoRqczYtwYHrU2L02h99MdV9Z4STHzCZ8KVNnHD
+TbsvstPisHs+8OgsMq/f/1hysiEEbcPjlGUXn5UB2b+5b1HO4uvDXQEJJqfTo8yi
+kebcn6BOQ7mqz700vKcjxrhq5VMtIRFLCHzYLj6utbhBidZXFVnMJvTKHKDMtGse
+RobF0WgzdD5KVBcN76jA34rjoEjAmepfzD5rULpCwaNydQrROr8rZ10VEa7z3Qdj
++7wDycWmEdukGDadgu81J0X3ZR0b/6mKZoYMgwKXlkZB6mIaILzdGaS/iV2RArNs
+w3nk24R40f0ctcrRuhN0pbyG
+=LvAJ
 -----END PGP SIGNATURE-----
 
---===============0042274923304206824==
+--===============0817226879023055346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-530503262cfd-a61cb1b1779c.txt
+Content-Disposition: attachment; filename=revlist-24e31ba5afd8-802daade7a99.txt
 
-b9ff905f661619a66b61f5ea7f02ca09e57633fb erofs: ensure that the post-EOF tails are all zeroed
-dbe0af33eebabacd7d90dc50238cd614271b890d ARM: pxa: remove use of symbol_get()
-89e34fac87862b7033bd3a23e01dab75932e55f8 mmc: au1xmmc: force non-modular build and remove symbol_get usage
-0debbdb2ee376c20ad4d8f2973b78eda85290b3c rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
-e1a8ce4a07aeebbc2379675f2d672fdc0f05661f modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
-f70c07d2f64b5298c9d0ae8c1554ce4cfdbea97f USB: serial: option: add Quectel EM05G variant (0x030e)
-d5789a9014ec7e21cdcfd9d2acfc0c85c616d976 USB: serial: option: add FOXCONN T99W368/T99W373 product
-15f16793106a1593123e974ca7ac514e65a21f23 HID: wacom: remove the battery when the EKR is off
-4f9d63f9080403a9ce3f609c77e5a537b4265f1d Bluetooth: btsdio: fix use after free bug in btsdio_remove due to race condition
-9f1ac29c5c88a2927a41267048ec2f97543ff936 serial: sc16is7xx: fix bug when first setting GPIO direction
-16d0a2557b75275e5eafbdf9dabf04afb719fa71 fsi: master-ast-cf: Add MODULE_FIRMWARE macro
-f7ff7a8ed2f964949380745e3e6ba73366af3046 nilfs2: fix general protection fault in nilfs_lookup_dirty_data_buffers()
-82073bf7972878a88a9fac5be6c0a884915fb921 nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
-12ef8819d658a9eef62e6459ecf41f39f5926210 pinctrl: amd: Don't show `Invalid config param` errors
-a61cb1b1779c0acef8240b885be002f429e1e7ef Linux 4.19.295-rc1
+7050268ae343b1266b46319100e05c88beb0ac21 erofs: ensure that the post-EOF tails are all zeroed
+06daec8e6c496c6d27aba6a1bdc4ffe618966836 ARM: pxa: remove use of symbol_get()
+fc9cd89052c63b06bb2cebd7119a6f2343ef3300 mmc: au1xmmc: force non-modular build and remove symbol_get usage
+0c1df6fd4f4e745327190c0cf14341f18d8e85dd net: enetc: use EXPORT_SYMBOL_GPL for enetc_phc_index
+81dbb233e54a773ac5aa39cfdf9dec4cc565b740 rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
+97e90564f6b0c616a2d80e983677bf5e9fc9b24e modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
+44aee2d0b8851fd7695b78e5fc0531adfe781ef1 USB: serial: option: add Quectel EM05G variant (0x030e)
+831bbf6f75c8a191dd0536e000c1d5cb659d8b7d USB: serial: option: add FOXCONN T99W368/T99W373 product
+a347b9c64d14e6cdde5e46fec461517fb40c180e HID: wacom: remove the battery when the EKR is off
+3b39a964689b023e77f5f55f51b8d99577bff25c staging: rtl8712: fix race condition
+c9bf8f084f427987d2f19bbcf80587f55f0ad9ee Bluetooth: btsdio: fix use after free bug in btsdio_remove due to race condition
+b15fbe58d9b58a27be34c7d3184486e091ad1845 serial: sc16is7xx: fix bug when first setting GPIO direction
+e3d2c18858b4dd7446b9115e599bfda210a73fca firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
+c7dc03b235e45ff69da990aa294147e82cb772cb fsi: master-ast-cf: Add MODULE_FIRMWARE macro
+886d516c33a1f20de6b5b1a6f67de81388ea5196 nilfs2: fix general protection fault in nilfs_lookup_dirty_data_buffers()
+8565d7106de9c7ae6f00d013975ec76cc40b2583 nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
+3d3118b95ec8887d18f409164ed8f9c543df1a5b pinctrl: amd: Don't show `Invalid config param` errors
+802daade7a99a032c6d19549161a53677b65e139 Linux 5.4.257-rc1
 
---===============0042274923304206824==--
+--===============0817226879023055346==--
