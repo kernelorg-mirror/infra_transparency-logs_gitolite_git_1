@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5147268367063472996=="
+Content-Type: multipart/mixed; boundary="===============1633432264756685660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 04 Sep 2023 19:02:17 -0000
-Message-Id: <169385413716.15783.13673990029392889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Mon, 04 Sep 2023 19:02:20 -0000
+Message-Id: <169385414077.15876.2849681878020749462@gitolite.kernel.org>
 
---===============5147268367063472996==
+--===============1633432264756685660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
@@ -21,37 +21,37 @@ changes:
     new: 7a1415eebeece5a27fb40c0242b171c104ad5727
     log: revlist-0468be89b3fa-7a1415eebeec.txt
 
---===============5147268367063472996==
+--===============1633432264756685660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693854134 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1693854134-d69b8b4c625057231fde38355b0633c7467d3bc6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693854138 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1693854137-7e512ba146766f4f44680b1f84640f4d91097c05
 
 0468be89b3fa5b9249cee1097f1d50314950a2df 7a1415eebeece5a27fb40c0242b171c104ad5727 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2KbYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ALAQAIzW3AGLHfopkOHvxOgV
-dha7qP7R4mLnQMbbuyNed4UNqpzcNyb1OwpcYqwyJOJG4LreZopmVLEysJXNWtf6
-kOk7YH78BHrvrPFP9LBhwZNWXWdrZZaiRXK7EGe4yUFsoEC2vNuEGIkWbG4L4wNS
-o0tnG0iyqFhk5NuW6U9NQoPRUUo7heRmHdPeRxBwfrclmNvb5r879sf81M1oUf/I
-XnmKOdjQvVCVlWJe+vf/wVmmnQGQHJiHD5zfHMHGRw58BXC3r26c7JLMSmAQIhSz
-y7T/rBnVMLoubwIMgqtJK4dEQqNY5nhYzrZ3Lu9JriLnkcIgUg+0RmLY+tVBpF+Q
-C2ERVFnkPwZKdr0gFCqnOufWnJtGkmWQIr6akEKhmzy+iXNvhpMh/oJi8zj/E4LH
-DcVBjxrmre5I6B0ui3uf7/FkypXErabEJI4MS+gRQKTEQfqsHBJEMuMGon5J7g42
-cosXUx1Y1jwKvG8OupaLUmKwMdUzSYX3dlhkMLy8H5qiyWzX2lm/lHixXHQzxJUJ
-hMJlYs1Rp8aY+F9yOnaQVcdMBTQ9cvxrc7/s7Caxc4NqcAbdH6nzBh9LALSTF+Mm
-NsC+fPj/ibaXE5ZjmmgDe2Yn0omTEAOYuhxKjl8BKmG0cgbbl8U62z9XdKy1l2iP
-40nTG/Q6wcoIFeGK3FVw+BfU
-=lSEr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2KbobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rX8P/ib9NGBsrL6zegMHChFB
+7mufTa7sZiEy6MIY/V5nKQlSf+R+c+isCVYTyJ0hpx0jl5MUlXY3UZGclZOAhmE6
+k4oDUwWGofHhBMKOCH7w760CUiQxDLKVdJekEYqcJ/74DDprDiwZnKuu1QX+/sPC
+P+4RVNLojaZ5db2IAbZW7M+DJbhHbDa99wWUirRU/JXLK/XFY85C5XleUA1XX7er
+eryW//A2zzCUbw0sLw2qoyJRspeloV1eUbrQEW7ml4TtNTbbFe9rtfReO64vLwTV
+vQuQOnOpiFTsLSo9FH8Cx3EiQEIiRY0Sw8VkZcz+z/tYeAhmGblKEb3PgIH3aY3J
+i9SzMcJFUbhOeg/cZFJxFbAmaqYwPPg3VTu/XuzKA4Dxo9ndpFA3tawaLKGRi0Je
+o+JUZ+Otj3hDmIiJ6LlFvv4TdbLPdIZt9m7XUr9fUCXCjmKZ/0KVC5AjcrX5MsR3
+MKP6Q7jRfuFLG4a2+YKz22g+VoM00j8pGPAAKOGd5IazKQpjdhLNpIAUlfTkDdtY
+XZtgv/IOiO6wSFBnKv7xvpwDouY2EY4l12ZenmtBPvyXKt26zvOWH7iwbsA3uGbZ
+ziduA5QUjQLSiAP1lOELSfgU5R1bgarGnb/NxZVtGEWl30oJ0K9MwHDt++OnMymq
+8WCwhH23L/DnbkF3f6y3UCYG
+=6ORh
 -----END PGP SIGNATURE-----
 
---===============5147268367063472996==
+--===============1633432264756685660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -568,4 +568,4 @@ e4f1b8202fb59c56a3de7642d50326923670513f Merge tag 'for_linus' of git://git.kern
 68d76d4e7e506664ffb7b28805469ed73044368f Merge tag 'uml-for-linus-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 7a1415eebeece5a27fb40c0242b171c104ad5727 Merge tag 'm68knommu-for-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 
---===============5147268367063472996==--
+--===============1633432264756685660==--
