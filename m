@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2764108407095721791=="
+Content-Type: multipart/mixed; boundary="===============3803755202851535220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 04 Sep 2023 09:12:57 -0000
-Message-Id: <169381877798.22914.5980771370395389375@gitolite.kernel.org>
+Date: Mon, 04 Sep 2023 09:15:44 -0000
+Message-Id: <169381894447.25707.15326288390065438161@gitolite.kernel.org>
 
---===============2764108407095721791==
+--===============3803755202851535220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 1d7546042f8fdc4bc39ab91ec966203e2d64f8bd
-    new: 29aa98d0fe013e2ab62aae4266231b7fb05d47a2
-    log: revlist-1d7546042f8f-29aa98d0fe01.txt
+  - ref: refs/heads/for-next
+    old: bdf2236ba9f2c642ee18192f34a5431ce5fe6407
+    new: bd0ffb67f8d3ec8d3b78dbf049f294db532e0b56
+    log: revlist-bdf2236ba9f2-bd0ffb67f8d3.txt
+  - ref: refs/heads/for-6.6/upstream-fixes
+    old: 0000000000000000000000000000000000000000
+    new: e1cd4004cde7c9b694bbdd8def0e02288ee58c74
 
---===============2764108407095721791==
+--===============3803755202851535220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d7546042f8f-29aa98d0fe01.txt
+Content-Disposition: attachment; filename=revlist-bdf2236ba9f2-bd0ffb67f8d3.txt
 
+7d3d0fe4e96df4e0812f5054ed36af466f547cdb platform: mellanox: mlx-platform: Add reset cause attribute
+3d0593c6336cbc6d1b77473e9512cdf0353a4644 platform: mellanox: mlx-platform: add support for additional CPLD
 75e09ab42066b93ec30ba1a9d5d252e40916320a platform: mellanox: mlx-platform: Modify power off callback
 da9a7f6ef0abcff12d2fc0381d7c0a7ac2c96c6d platform: mellanox: Cosmetic changes
 b411dc55a735337a9d7c7dad605bad79e7266104 platform: mellanox: mlx-platform: Add reset callback
@@ -178,9 +183,6 @@ c040c7488b6a89c98dd0f6dd5f001101413779e2 powerpc/pseries: Move VPHN constants in
 1aa000667669fa855853decbb1c69e974d8ff716 powerpc: Don't include lppaca.h in paca.h
 eac030b22ea12cdfcbb2e941c21c03964403c63f powerpc/pseries: Rework lppaca_shared_proc() to avoid DEBUG_PREEMPT
 9f6708a668186dc5b38532fc1d1ff2f5311722d6 Merge tag 'mlx5-updates-2023-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-dd613a4e45f8d35f49a63a2064e5308fa5619e29 HID: uclogic: Correct devm device reference for hidinput input_dev name
-4794394635293a3e74591351fff469cea7ad15a2 HID: multitouch: Correct devm device reference for hidinput input_dev name
-197d3143520fec9fde89aebabc9f0d7464f08e50 HID: nvidia-shield: Reference hid_device devm allocation of input_dev name
 bfe2e8f569073e7297ad19932b980964105bb777 selftests: add OFD lock tests
 bd4c4680c039fa9defddcff0ef354c147f7868b3 fs/locks: Fix typo
 74f6f5912693ce454384eaeec48705646a21c74f locks: fix KASAN: use-after-free in trace_event_raw_event_filelock_lock
@@ -413,7 +415,6 @@ a4f39c9f14a634e4cd35fcd338c239d11fcc73fc net: handle ARPHRD_PPP in dev_is_mac_he
 37e44d60cb875862930359e16a1f4764cedb342b Merge tag 'asoc-fix-v6.5-rc7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 ed81cb9e05170646650359d729fb7e7afa4cb2ac ALSA: hda/tas2781: Switch back to use struct i2c_driver's .probe()
 c99c26b16c1544534ebd6a5f27a034f3e44d2597 ALSA: hda/realtek: Add quirk for mute LEDs on HP ENVY x360 15-eu0xxx
-60165ab774cb0c509680a73cf826d0e158454653 HID: logitech-hidpp: rework one more time the retries attempts
 0aacec49c29e7c5b1487e859b0c0a42388c34092 ice: avoid executing commands on other ports when driving sync
 9540329452b737340960b4273600e61a6a236a78 net: fec: add statistics for XDP_TX
 49fa4b0d06705a24a81bb8be6eb175059b77f0a7 octeontx2-pf: fix page_pool creation fail for rings > 32k
@@ -1050,5 +1051,7 @@ e925992671907314b7db6793a28eb39b36bc21a4 Merge tag 'staging-6.6-rc1' of git://gi
 b84acc11b1c9552c9ca3a099b1610a6018619332 Merge tag 'fbdev-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 307d59039fb26212a84a9aa6a134a7d2bdea34ca Merge tag 'media/v6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 29aa98d0fe013e2ab62aae4266231b7fb05d47a2 Merge tag 'for-linus-2023083101' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
+bd0ffb67f8d3ec8d3b78dbf049f294db532e0b56 Merge branch 'for-6.6/upstream-fixes' into for-next
 
---===============2764108407095721791==--
+--===============3803755202851535220==--
