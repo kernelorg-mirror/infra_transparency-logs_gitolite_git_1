@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2329648473022239646=="
+Content-Type: multipart/mixed; boundary="===============3222402338274254494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 04 Sep 2023 18:51:19 -0000
-Message-Id: <169385347927.6827.7799776796015492246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 04 Sep 2023 18:51:26 -0000
+Message-Id: <169385348628.6936.1982623456559093699@gitolite.kernel.org>
 
---===============2329648473022239646==
+--===============3222402338274254494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: 60ea3db33fbddf559e18567ca8897f6bb9f25290
     new: 578464679f33cde8331507c78f7b302299df7783
     log: revlist-60ea3db33fbd-578464679f33.txt
 
---===============2329648473022239646==
+--===============3222402338274254494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1693853477 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1693853476-027a94473e2dd6b7627ca96867be31096dc0912a
+pusher C3F436CA30F5D8EB 1693853484 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1693853483-618bf4736a0d87fbd32fab080988195888b6e193
 
-60ea3db33fbddf559e18567ca8897f6bb9f25290 578464679f33cde8331507c78f7b302299df7783 refs/heads/for-6.6
+60ea3db33fbddf559e18567ca8897f6bb9f25290 578464679f33cde8331507c78f7b302299df7783 refs/heads/spi-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT2JyUACgkQJNaLcl1U
-h9B99Qf/ck52So/YgRlO5E2RPRKKKgnwDBNc/JommA2PiSep259DEkbllFIOoT7o
-YUwzd3t642hWjdzEjlRsbYtPSeCqfL6R97y2z2VvXjBfvT9KnCNU4LmuChPvgX1c
-Dm2xhf4Wr7cdOP35HGoGCh48Baz6tYSLdjcCCRpR33z4gcb+cxGp9MZ2rKrQazrC
-yhet84FnXwjObsmKn16lhsqp6M2yNekJQK6zxubbK6jIpXUeN9vCg0ycmLwlvDwl
-UzKpioEHNp9zHl/XmFD8+l3Y6xqPiO5rho7dB+96mJmmdY4vLuK5est4Vm2Bm0ry
-HJdRPPE/5W+Cwr8apvAyMquDG910JA==
-=KsEj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT2JywACgkQJNaLcl1U
+h9DPVgf9GMX49f1FKWoo9mCuUEhU1F6bkgKQEgx6ftK4u1mE7q2N+ACsAxvGlSOB
+LAYKJqvQ+Jzm3F0rN7HxR+kRgaUBQAj3Pr6y+OGWo4/ZHfMWHNgmm+tyz1tWz0XU
+ZWx/HJHFXBTa/EUj2HPv+qJQBIheINl5OkYV6TZco3ulNMj/d3F2tfBSTAorlGcD
+iuybHY2WZJA/ywgY6EBBNTTkMEBn/9AVKhCFtBvIX6xW0UFAsh952Dt+pox1gl65
+6EuUvcl5oI4L5o2afsrneNktq3ZgaJ/evyc1ak/AgAXEEY0uA6qswtvTzPwj5UE8
+IIOQB33EGTw0knxEz0l0+Fbg0cXfVA==
+=rlH2
 -----END PGP SIGNATURE-----
 
---===============2329648473022239646==
+--===============3222402338274254494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -517,4 +517,4 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 1f11f4202caf5710204d334fe63392052783876d spi: sun6i: fix race between DMA RX transfer completion and RX FIFO drain
 578464679f33cde8331507c78f7b302299df7783 spi: sun6i: fix RX data corruption in DMA mode
 
---===============2329648473022239646==--
+--===============3222402338274254494==--
