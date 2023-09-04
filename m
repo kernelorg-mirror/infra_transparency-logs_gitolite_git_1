@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 04 Sep 2023 07:38:12 -0000
-Message-Id: <169381309225.18511.8962904781055464880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 04 Sep 2023 07:40:00 -0000
+Message-Id: <169381320024.19258.17712279936757051186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 0c1cfb11a2fea65daa8bc3d3d7c558332dced5ac
-    new: 3698a75f5a98d0a6599e2878ab25d30a82dd836a
+  - ref: refs/heads/master
+    old: 009bc5532c2d1ab1614635eb68cd0a7d4a55b1be
+    new: eb18ffdc5e5e675d8ded9dfd4ca219ff21ef4994
+    log: |
+         eb18ffdc5e5e675d8ded9dfd4ca219ff21ef4994 Mon Sep  4 07:36:35 AM UTC 2023
+         
