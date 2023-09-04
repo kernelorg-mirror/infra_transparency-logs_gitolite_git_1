@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3108876679855090417=="
+Content-Type: multipart/mixed; boundary="===============2327227930316853507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 04 Sep 2023 06:58:28 -0000
-Message-Id: <169381070834.20409.4610437693522519672@gitolite.kernel.org>
+Message-Id: <169381070885.20463.10041810404167810451@gitolite.kernel.org>
 
---===============3108876679855090417==
+--===============2327227930316853507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 927c927745d45541461ffa49fbf71ec207a4525f
-    new: 652995c5153b4cd24238c240f723afee17f8ce7e
-    log: revlist-927c927745d4-652995c5153b.txt
+  - ref: refs/heads/linux-6.5.y
+    old: 20673f37429a7f896e14da3fb07117c7a883a185
+    new: d76c9708a95644dd5635a1f2fe872a0da6d7aba4
+    log: revlist-20673f37429a-d76c9708a956.txt
 
---===============3108876679855090417==
+--===============2327227930316853507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,62 +32,65 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693810707 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1693810707-f5a2c875dcb3d18695ed764ca7d92ba6a7e45b34
 
-927c927745d45541461ffa49fbf71ec207a4525f 652995c5153b4cd24238c240f723afee17f8ce7e refs/heads/linux-6.1.y
+20673f37429a7f896e14da3fb07117c7a883a185 d76c9708a95644dd5635a1f2fe872a0da6d7aba4 refs/heads/linux-6.5.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT1gBMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w+MQAJLpoZmuhbTNeLgx8m/q
-KtnZNmwfm/7mUexaDuZGwrit9paSTtD1WwjUbmAOKBm1w7zG9AsSbbRmF5tFJykz
-UoKNjNK5UKsGjMv7ORqvzTRspzE5lEvPkwJ27bGqEpyagoXfEeycy/zmI1cS6IAf
-FqaDI4cQYupmfHYkDy8/8pJULMH8qKPFYP6kdUxzZQn4FAp7jGzh9Z0UiDbZnO+q
-cpwaw2X2IZ6Boxmj21Bz+sFEcibTXXsdPpRxE2+0QbeQ2jxrwcNMh7nfM20wANDe
-bOHeJ4O/CJwfC/1Eu9JAKz7Zf7eFlKshPWxq8g9POmxXFKHE0eUE6faFs4iGGyg8
-XcuJLeC1wTk2VRwCZE4UY4mKaoW559zed/sKyXpIc9drYyfyVO+qYcbrIGQv+1iP
-tB5CUxtcSpXJNpfb06ejVBe/xzu9i/qRlWNOBY3zza84fWmmwHSx+tNI7l3epyuo
-u4kcSu6ITYTWkS8tX5e49hNrdKkgyvlygLM6UwfBA65t50hLk2hUwBgVGmZl2x4r
-9Tn2eThpu2+8J+0S9sv8h+GmJxCXHv2bCP2hyn7BbQ7rA2n23HKNC2PzlNVc3MdD
-gwYn9i+Uduj63aKnZ3nb/lJdWZrm9hSpudsCII/j73fHOpWqXU/UIcHJfOD47RL8
-lhja3fuFcL1ucXzmORBVbG2/
-=Errj
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HRYQAL0WrjwJUNuxdJWT3OUN
+wr4U2VbAMIG0HiHvhSpsndXwZkdZU/7JqilTdxHDWVllUtSh5/bp+0y94mYf1EBc
+UT7RrU0PMp4vUAMh1QaVJ9OK2tubSNtLIxQeuqKFAZsIt+ClUFyZIanTgtrg88Zi
+N3D29i+zmgWhNevHxCy/kZDzwGG0mF7MTo4tFLtsIcyW1of/Stm6SFNgmvwdW7Sd
+2Q6+Jz3KbxJzf4By6NvZjwYq4QCJPxaq6X8XUHoAxY9ort/+Aonv4kyRPtcO9iXN
+rYkdfoQ7yX6AWBgADOcO3euNQdYKuBEGAeUiE99C4aA7XC+t6x49onZ92sCebVuM
+euXAqXEPKf0g4zDg8dmu+P4/m2Bxl9vBbQYU/s1MJHscorJ7E7TogPW8PEMHdR3P
+cssrrIyINoJpTd4d8ZnuBPLNGtdhQFb/+lyeI4UpDjYwRQcvJLHh/BiwvtDwKYFn
+99AlQzxzEs74jRrsFv8ImQ0w13ZOiC8tMl4XL7q6ncR0qaruqlB5TnNrqUplykdn
+OC1LJQHDihFCEsi4ypQwiyHGhqsBbBn4kBKsMZ5JbLaAdna3BeSkKXYc4Rjx4kD+
+mopZFZjUUrbZ+v1UQQV5oLnHaSiNlFTba6P1USFSn+rjiVAgz46A7sBYYesLJx0w
+66poM7L0l2tvxHOWyOP26H71
+=hpIS
 -----END PGP SIGNATURE-----
 
---===============3108876679855090417==
+--===============2327227930316853507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-927c927745d4-652995c5153b.txt
+Content-Disposition: attachment; filename=revlist-20673f37429a-d76c9708a956.txt
 
-214ea247eb55c844e83c70eed3c718c0c801bb58 erofs: ensure that the post-EOF tails are all zeroed
-0d9fe5031c5038d3403bba228f497df8301dae0a ksmbd: fix wrong DataOffset validation of create context
-97d05f422e5c48778c21fd6e99640744afaead15 ksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()
-f89f17bfa536a97fbc830424b9ff640f3dcd2dae ksmbd: replace one-element array with flex-array member in struct smb2_ea_info
-22d3e7950e09767fed0650f97e01d54b547d82d7 ksmbd: reduce descriptor size if remaining bytes is less than request size
-7f0e68a92b526bdbd9b27116d678ae21d53fd344 ARM: pxa: remove use of symbol_get()
-73f7562a8d5c2c7c5104ffd9e10b9df6103b8c29 mmc: au1xmmc: force non-modular build and remove symbol_get usage
-7d29349c3393a8533e61aed1bb0d9d59c7471fd8 net: enetc: use EXPORT_SYMBOL_GPL for enetc_phc_index
-295a64db35000970304316b60a1c3e2d40fc8fda rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
-3e8158dcf6447d91ff2a4de7c45dad880306bfd8 modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
-4cb3648e0333e6208940be84248b7b796e43bb71 USB: serial: option: add Quectel EM05G variant (0x030e)
-fa991559faab6dff5c0c1c7f7faed1c350e47b9d USB: serial: option: add FOXCONN T99W368/T99W373 product
-4a89d22996017f1b756c4986656b4a827181dae8 ALSA: usb-audio: Fix init call orders for UAC1
-542b05f86852a6e93c2e907e62da4cd4cc1c2baf usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
-eee008b88705fa956c5759ac950d33c7620ca13a usb: chipidea: imx: improve logic if samsung,picophy-* parameter is 0
-ab0542c113e1aa54df5f5c34d11fe9c03ed8cfca HID: wacom: remove the battery when the EKR is off
-92cac451c672c63a5373c7bf8f6bbf9e099bd030 staging: rtl8712: fix race condition
-abe7ae0cfb961609515df1cb12f73639599c9b79 Bluetooth: btsdio: fix use after free bug in btsdio_remove due to race condition
-556419291ef6ea8e882c1a0ea0f58c2a24dd75a1 wifi: mt76: mt7921: do not support one stream on secondary antenna only
-1d611e959d8e525555f86dc18b5727ff34e233cb wifi: mt76: mt7921: fix skb leak by txs missing in AMSDU
-225ce800a036baafc0b17c4c13b20650bf05013d serial: qcom-geni: fix opp vote on shutdown
-190799bf8bd1c3a1e1c18c50630b5cccf86e7b0b serial: sc16is7xx: fix broken port 0 uart init
-2275e54a732dd89efddf1252c86280a427648082 serial: sc16is7xx: fix bug when first setting GPIO direction
-6bc7f6dbf86a1a11672e163b7974e981eeab5d87 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
-bb779b7950c60a45b609c1e732103c131ee234b4 fsi: master-ast-cf: Add MODULE_FIRMWARE macro
-50cdd3b6b051ae3b6af4e403d6d9d29080a4d116 tcpm: Avoid soft reset when partner does not support get_status
-db5b3e2474271b158a1d36bbfa7a64b689d6fc45 dt-bindings: sc16is7xx: Add property to change GPIO function
-5864feb716bf3659dd382f28aa73f6103134aed1 nilfs2: fix general protection fault in nilfs_lookup_dirty_data_buffers()
-0dd645e063317e154a035853ddc63d6b11117feb nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
-f2cc7600ee75fc1d903d754d780e08e76923890c usb: typec: tcpci: clear the fault status bit
-2b54cad549f9e832f7deed3cdf85e373f1067cf7 pinctrl: amd: Don't show `Invalid config param` errors
-652995c5153b4cd24238c240f723afee17f8ce7e Linux 6.1.52-rc1
+45107b6516ee2386dbf4a77099ac2830c166b9e1 drm/amdgpu: correct vmhub index in GMC v10/11
+3ae560c02d9839db47469f25737ab712e2bd0199 erofs: ensure that the post-EOF tails are all zeroed
+7dafa20f8bb7da410fbffcd05084e4e5642e287f ksmbd: fix wrong DataOffset validation of create context
+ada5029939565a8be991846c8ea948c18ce5f7ad ksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()
+70d6600bcf63d97c4226204fa4778030f4220a95 ksmbd: replace one-element array with flex-array member in struct smb2_ea_info
+0449a301b2a73c81939ac81f8165e4fe5a19a8f2 ksmbd: reduce descriptor size if remaining bytes is less than request size
+5faadf43f8dfcd218497b7b9ab1c8f77655d39f6 ARM: pxa: remove use of symbol_get()
+c69202adf0b5b81c90bd45c212913e4dac7ed4a0 mmc: au1xmmc: force non-modular build and remove symbol_get usage
+cff0c52f7c7444e318f61ccd27ada191144a0966 net: enetc: use EXPORT_SYMBOL_GPL for enetc_phc_index
+d7b3e81bb4950eeb865c8b4b3c88a146581a91cf rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
+7e9abd80b0eef303303e996dda948e34f6d2c78f modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
+aaccae2dafd823efdb9dcaae5c0d48219c06a947 USB: serial: option: add Quectel EM05G variant (0x030e)
+120fe0089762ab52a328ddfb9a4e8d15dbe92645 USB: serial: option: add FOXCONN T99W368/T99W373 product
+08133f0038346dedf15914683f7d28ee6aae99c4 ALSA: usb-audio: Fix init call orders for UAC1
+e9bf47aa71c0d06a4dd6991d1dba17890afd2520 usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
+e29206deda2677e82efbe8b691ebf13cbbe65448 usb: chipidea: imx: improve logic if samsung,picophy-* parameter is 0
+6a4385bbcb0550b325289c1add41603b01b99774 HID: wacom: remove the battery when the EKR is off
+5465c7962a150fd287abf58eeca30fb1ded7f015 staging: rtl8712: fix race condition
+b8af6270ed902cd4aef3587f8d2a35b4d21108fa wifi: mt76: mt7921: do not support one stream on secondary antenna only
+b80d87a6bbb2008f2652dec10713dc8f3bc311e1 wifi: mt76: mt7921: fix skb leak by txs missing in AMSDU
+e18bdfd21fb92dd918b471569675a1ed0acba2ef wifi: rtw88: usb: kill and free rx urbs on probe failure
+9cdc86cb35b1b9c1e359124e0212d3183846f588 wifi: ath11k: Don't drop tx_status when peer cannot be found
+89370c797fc340c789d45766d5606e79914f414d wifi: ath11k: Cleanup mac80211 references on failure during tx_complete
+78abb1546fb6974a926703600781c761b69c5574 serial: qcom-geni: fix opp vote on shutdown
+f9b7c4878664c11532371eb8df94b78281c0dbe7 serial: sc16is7xx: fix broken port 0 uart init
+2e2613cabed5a6975ddd37bae0120ed23a18bcf2 serial: sc16is7xx: fix bug when first setting GPIO direction
+44f2904d197c3d0140fd87c348d4bd46580d672b firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
+d39d1a9dafa3ca6ab6ca93abc76400ddfbf98dc2 fsi: master-ast-cf: Add MODULE_FIRMWARE macro
+23da8ed2b61d9387b05a1bb2ea673c32c4dcd49b tcpm: Avoid soft reset when partner does not support get_status
+918ef6adaa2ac44802fbae46f8bbd3411ce13ac9 dt-bindings: sc16is7xx: Add property to change GPIO function
+53930f2177c47496f8585ece31c565b9830516c9 tracing: Zero the pipe cpumask on alloc to avoid spurious -EBUSY
+54064eace34fa166008b5666ab49d1c1ee0625b5 nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
+e009cecd91a4a76bb8097145eb0b464e1e77702e usb: typec: tcpci: clear the fault status bit
+51f432b567aae2e7816847d11ea03e7aff1393ec pinctrl: amd: Don't show `Invalid config param` errors
+d76c9708a95644dd5635a1f2fe872a0da6d7aba4 Linux 6.5.2-rc1
 
---===============3108876679855090417==--
+--===============2327227930316853507==--
