@@ -1,96 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============8769711379478745729=="
+Content-Type: multipart/mixed; boundary="===============3186564020512043244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 04 Sep 2023 18:29:52 -0000
-Message-Id: <169385219241.21740.11378627578657391195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 04 Sep 2023 18:37:16 -0000
+Message-Id: <169385263699.28155.2162140501874847866@gitolite.kernel.org>
 
---===============8769711379478745729==
+--===============3186564020512043244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linux-6.5.y
-    old: d76c9708a95644dd5635a1f2fe872a0da6d7aba4
-    new: 3b1345379dfa8756bebb7a0a5dcb41cf9e0ba98e
-    log: revlist-d76c9708a956-3b1345379dfa.txt
+  - ref: refs/heads/master
+    old: 708283abf896dd4853e673cc8cba70acaf9bf4ea
+    new: 7a1415eebeece5a27fb40c0242b171c104ad5727
+    log: revlist-708283abf896-7a1415eebeec.txt
 
---===============8769711379478745729==
+--===============3186564020512043244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-708283abf896-7a1415eebeec.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693852191 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1693852190-671f618d87ea2b2a1016e9c7596583df662d14ff
+a959dbd98d1aeb51dec1cc7e5ada5d84ce16cbbc tomoyo: add format attributes to functions
+7b9ef666f27afde43c047de2be2985b68ad9febe tomoyo: refactor deprecated strncpy
+4f74fb30ea21d8b2d515f5929d2b46ad6834edba hv_balloon: Update the balloon driver to use the SBRM API
+254a8ed6aab39c869d99da97f25035ed15756337 tomoyo: remove unused function declaration
+f5ff432d96e17a8fdb1962b73cea3823ebd701e8 um: Remove strlcpy usage
+db4bfcba7bb8d10f00bba2a3da6b9a9c2a1d7b71 um: Fix hostaudio build errors
+8ad50582210c2aa6777bf58252ade9af7ea554b5 m68k/pci: Drop useless pcibios_setup()
+cf18ecd34f71dfd2815046d4c0d7b6439bb0cbde m68k: coldfire: dma_timer: ERROR: "foo __init bar" should be "foo __init bar"
+d6e2d652443751e290b2edb70173ec3c22f78fbe x86/hyperv: Add sev-snp enlightened guest static key
+8387ce06d70bbbb97a0c168a52b68268ae0da075 x86/hyperv: Set Virtual Trust Level in VMBus init message
+b13103559dddbc64330c2e63ebf7342e70fbab4e x86/hyperv: Mark Hyper-V vp assist page unencrypted in SEV-SNP enlightened guest
+193061ea0a50c13f72b907e6fa7befa6e15a4302 drivers: hv: Mark percpu hvcall input arg page unencrypted in SEV-SNP enlightened guest
+48b1f68372ca93ff67812d99c8d7351aaee62a2a x86/hyperv: Use vmmcall to implement Hyper-V hypercall in sev-snp enlightened guest
+45f46b1ac95ea34cc6e81739a64cb6bec28f1185 clocksource: hyper-v: Mark hyperv tsc page unencrypted in sev-snp enlightened guest
+44676bb9d566ce2bfbd132f9745eb7eb2d784476 x86/hyperv: Add smp support for SEV-SNP guest
+4754ec7f202003ef3a307bc59779efdd312a876e x86/hyperv: Add hyperv-specific handling for VMMCALL under SEV-ES
+78e04bbff849b51b56f5925b1945db2c6e128b61 Drivers: hv: vmbus: Don't dereference ACPI root object handle
+bb9b0e46b84c19d3dd7d453a2da71a0fdc172b31 hv: hyperv.h: Replace one-element array with flexible-array member
+f0a3d1de89876f4ca54fccb4103b504d50a8347f x86/hyperv: Add missing 'inline' to hv_snp_boot_ap() stub
+86e619c922e616d8780833562a14a5bda329f0c3 x86/hyperv: Fix undefined reference to isolation_type_en_snp without CONFIG_HYPERV
+08e9d12077fcc7c4c4579d7dcd8093b59b01369e x86/hyperv: Add hv_isolation_type_tdx() to detect TDX guests
+d6e0228d265f29348a01780ff306321c399d8b95 x86/hyperv: Support hypercalls for fully enlightened TDX guests
+68f2f2bc163d4427b04f0fb6421f091f948175fe Drivers: hv: vmbus: Support fully enlightened TDX guests
+0719881bf891cc72bf4375a9f4849d52772c80c6 x86/hyperv: Fix serial console interrupts for fully enlightened TDX guests
+cceb4e0810b61c7f5837c17e966b9b718dd62d22 Drivers: hv: vmbus: Support >64 VPs for a fully enlightened TDX/SNP VM
+d3a9d7e49d15316f68f4347f48adcd1665834980 x86/hyperv: Introduce a global variable hyperv_paravisor_present
+23378295042a4bcaeec350733a4771678e7a1f3a Drivers: hv: vmbus: Bring the post_msg_page back for TDX VMs with the paravisor
+b9b4fe3a72b60c8d74a9ffb61aa778f04eaddd87 x86/hyperv: Use TDX GHCI to access some MSRs in a TDX VM with the paravisor
+e3131f1c81448a87e08dffd21867312a5ce563d9 x86/hyperv: Remove hv_isolation_type_en_snp
+a67f6b60d6ed953d5b23a22f26fc916aab630aaa x86/hyperv: Move the code in ivm.c around to avoid unnecessary ifdef's
+284930a0146ade1ce0250a1d3bae7a675af4bb3b x86/hyperv: Remove duplicate include
+11ae290ee6b824607cf5a837d1e893442ed0ba88 um: Remove unsued extern declaration ldt_host_info()
+760ee8f83825f6b6ee711bb50b61a2e9a89209a0 asm-generic: current: Don't include thread-info.h if building asm
+ff3f78607998274460f1742a7dfd853c6124d34a um: Use the x86 checksum implementation on 32-bit
+d32df1080f0199f3570a541fcfcf9b5974b771db um: Hard-code the result of 'uname -s'
+8f85f93bfd2d490251143577bd43b01b40acb8d7 um: use obj-y to descend into arch/um/*/
+e30955d029a8834c93c9bd0226fa6c1dfc59c812 um: vector: refactor deprecated strncpy
+b10eee784c767975d345540e5569bdad31b9aec3 uml: audio: fix -Wmissing-variable-declarations
+4b038701e3dd02091e1086bdd89e31e16ceb8e04 um: port_kern: fix -Wmissing-variable-declarations
+ab7ca2eb63a2168619f7595622fe29967ed0959b um: fix 3 instances of -Wmissing-prototypes
+32280e83b555d692e8c7b96563b0ee2037585712 um: Refactor deprecated strncpy to memcpy
+974b808d85abbc03c3914af63d60d5816aabf2ca um: virt-pci: fix missing declaration warning
+c1081002bfeeba54204d37000a8c43b2015b6eda vdpa/mlx5: Remove unused function declarations
+8b59b4da9b56ce2ec2dc7dc3ae544405553c2de0 vdpa: add VHOST_BACKEND_F_ENABLE_AFTER_DRIVER_OK flag
+9f09fd6171fe8badef7875ab1642e67360bc5483 vdpa: accept VHOST_BACKEND_F_ENABLE_AFTER_DRIVER_OK backend feature
+b63e5c70c39349ea5b9e7dbb604551902fc753fc vdpa: add get_backend_features vdpa operation
+2c9c63711607e3742029f433f130320a9fd7a6a0 vdpa_sim: offer VHOST_BACKEND_F_ENABLE_AFTER_DRIVER_OK
+610c708bf872fa575f33f74a1650a7011055b7aa virtio_ring: check use_dma_api before unmap desc for indirect
+0e27fa6ddeb0e070398692e369ce52fa91f9442d virtio_ring: put mapping error check in vring_map_one_sg
+8daafe9ebbd21a54bf91f9ff81decf215c203edd virtio_ring: introduce virtqueue_set_dma_premapped()
+d7344a2f71e38eb04fc16e3fef4f0580f42cbbd5 virtio_ring: support add premapped buf
+2df64759071bdca2a12edb9af4f071e4419ad745 virtio_ring: introduce virtqueue_dma_dev()
+b319940f83c21bb4c1fabffe68a862be879a6193 virtio_ring: skip unmap for premapped
+4d09f24080dd301083a70d5a2c25fb59b149fec1 virtio_ring: correct the expression of the description of virtqueue_resize()
+ad48d53b5b3fbcc10ea89070709724ad589e9223 virtio_ring: separate the logic of reset/enable from virtqueue_resize
+ba3e0c47c070c4cf010be9fb1e4eb669c744af11 virtio_ring: introduce virtqueue_reset()
+b6253b4e21939f1bb54e8fdb84c23af9c3fb834a virtio_ring: introduce dma map api for virtqueue
+8bd2f71054bd0bc997833e9825143672eb7e2801 virtio_ring: introduce dma sync api for virtqueue
+295525e29a5b5694a6e96864f0c1365f79639863 virtio_net: merge dma operations when filling mergeable buffers
+ae15aceaa98ad9499763923f7890e345d9f46b60 virtio_vdpa: build affinity masks conditionally
+1acfe2c1225899eab5ab724c91b7e1eb2881b9ab virtio_ring: fix avail_wrap_counter in virtqueue_add_packed
+5c5e0e81202667f9c052edb99699818363b19129 Merge tag 'tomoyo-pr-20230903' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
+e4f1b8202fb59c56a3de7642d50326923670513f Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+0b90c5637dfea8a08f87db5dd16000eb679013a3 Merge tag 'hyperv-next-signed-20230902' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+68d76d4e7e506664ffb7b28805469ed73044368f Merge tag 'uml-for-linus-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
+7a1415eebeece5a27fb40c0242b171c104ad5727 Merge tag 'm68knommu-for-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 
-d76c9708a95644dd5635a1f2fe872a0da6d7aba4 3b1345379dfa8756bebb7a0a5dcb41cf9e0ba98e refs/heads/linux-6.5.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2Ih8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+25IQAKDv1KrDgZt+jKWeO1gs
-k3FmrAA7bMyYyNwbUodCfkLir3DXH92eiYhE3ZEKMuU/B1xLps9XQ/+8b7VOWmqi
-JKxmlgohZSgziYlQV9zHIw8AkmSw7KE9I47BZVwU+fg6h/1Q5n9DIna7i3+m46vR
-1jyu0boLB2SEQpJydpcv574uZxFPcv1XXK608N8aCFIMCp9YL3jeTg6FjqSOEEtj
-V8/OKxTbnPopyGAuISCsjbmj+68I33uZ6YYUdBkTyguhxA46qx6b88kqRJJJtGVo
-P5M/2PgvnAx66ql9ZzqlzUuyd/lYeRxW8FY+fAq6oP3jzMopaxbYuj2ud386asm1
-UAdOQqc2/d//1QFyMdY4JHORofKv4NtCdpii5lGFJpxa1ZUF5mCYIF7+0O1lXyXS
-VBux/MwH2uRHNZ/A/JdtcxVk/M2OJiSebOsK2eXnP3d0V1KwogVIUM2JGbPBwMXJ
-zpNMSSL72uwMF7rw6obdWJrFtQvS/DxhlQ34EEzpdAplm9/OfNPoD6OLGS0gI3fa
-EfJp+adEqVM95r54nCcrStvLsOmHNHvZoSUVoVRD1UKe8dMBZtcr+WZuMNUIeftn
-HzXkrszXt/GHWgTtFGfXS2QSMd6oWpKER2XEAbDsyu4B1U9n15F+4vDuU4D7JLmw
-u2t6dIWsTKTdik72QopXsk4m
-=SSUV
------END PGP SIGNATURE-----
-
---===============8769711379478745729==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d76c9708a956-3b1345379dfa.txt
-
-4e1217ba99945ceb10c322e44e21070ac5c9c4bd drm/amdgpu: correct vmhub index in GMC v10/11
-bbc9392cb8b3bc6029a87b34aa3a0c4bfe28a468 erofs: ensure that the post-EOF tails are all zeroed
-4f0b9e59912b0a4618b1a7dc966d9ac94ba6c90a ksmbd: fix wrong DataOffset validation of create context
-39ee7bc2198286a99d8df36d76e2b3f9d875b47a ksmbd: fix slub overflow in ksmbd_decode_ntlmssp_auth_blob()
-0ca48c9d2dc231f5b33a6181cec396b02bf50e2f ksmbd: replace one-element array with flex-array member in struct smb2_ea_info
-1aa4acea4e3705d532613790c837c2d7b93e692d ksmbd: reduce descriptor size if remaining bytes is less than request size
-c748ef808c404f395e3e845c767710838e2b8da7 ARM: pxa: remove use of symbol_get()
-552b409a175bd3f4eb85285cf0b70e9265311b8f mmc: au1xmmc: force non-modular build and remove symbol_get usage
-e2b20313d9dc49b0cfae1ff4c0f50e0ef858dd94 net: enetc: use EXPORT_SYMBOL_GPL for enetc_phc_index
-442ce5bc6384a085890783688ee917cad69e4774 rtc: ds1685: use EXPORT_SYMBOL_GPL for ds1685_rtc_poweroff
-2b4dc7d8ec8bb7c145c676505821a79cee57e68e modules: only allow symbol_get of EXPORT_SYMBOL_GPL modules
-bc3c010f889b8f04f842dbf805d0856f7d5584c2 USB: serial: option: add Quectel EM05G variant (0x030e)
-135918f1d3ba3c5a6bceaf943611ce9c033d8dfb USB: serial: option: add FOXCONN T99W368/T99W373 product
-91c5ce703cbb0a0560f830722336b6c9d9176d45 ALSA: usb-audio: Fix init call orders for UAC1
-6ce43bdc257ef004563940a46ef57822ad3b4ae2 usb: dwc3: meson-g12a: do post init to fix broken usb after resumption
-f67e2d21232caf96834e67b9a97bfbf592a8e4c6 usb: chipidea: imx: improve logic if samsung,picophy-* parameter is 0
-2bd5e2bc446180d46e681d1a571d5d76b956592e HID: wacom: remove the battery when the EKR is off
-33f8dc88ede07ff0455e6128a20d56e329695038 staging: rtl8712: fix race condition
-292d337963e35ca5bd2e0e2d4f0a76841366e90a wifi: mt76: mt7921: do not support one stream on secondary antenna only
-90cfae3a81711d003789905a4a1db2cecc427222 wifi: mt76: mt7921: fix skb leak by txs missing in AMSDU
-05e93144d5c382592482ef8c4c67d729f6f6c220 wifi: rtw88: usb: kill and free rx urbs on probe failure
-fe07e81f9f6f7bb2030415e81e7b24df568b9d34 wifi: ath11k: Don't drop tx_status when peer cannot be found
-79b115af70ab73aeec42eba536e455e4fecce597 wifi: ath11k: Cleanup mac80211 references on failure during tx_complete
-0dab504f1fa2fbb390c2ad4731d7c1308ad08674 serial: qcom-geni: fix opp vote on shutdown
-44158ebda8506673f89baa61245cd659a2101066 serial: sc16is7xx: fix broken port 0 uart init
-b60a80c48b27827b785867149127de7199517baa serial: sc16is7xx: fix bug when first setting GPIO direction
-599b92b0cd86f99fb5f16c6d4c270db881ac2fe6 firmware: stratix10-svc: Fix an NULL vs IS_ERR() bug in probe
-9cf730c700b7ac69692243eb511229dda0b6f3f2 fsi: master-ast-cf: Add MODULE_FIRMWARE macro
-1a0e4d6b4f2879a9401fc9b82acd91c830990947 tcpm: Avoid soft reset when partner does not support get_status
-2ba6232c220651ed266799da10da66b1fab6569b dt-bindings: sc16is7xx: Add property to change GPIO function
-8c521d755af946c68a72f5b5d0c2de3b160c15d2 tracing: Zero the pipe cpumask on alloc to avoid spurious -EBUSY
-e2b67065b61790f7dec08f8ad195bc76b9228804 nilfs2: fix WARNING in mark_buffer_dirty due to discarded buffer reuse
-ea8df3ffc887aa3667c614818d634cf6a3d6b448 usb: typec: tcpci: clear the fault status bit
-6fee28f0a617c0359e6789713f75fe80a69ea337 pinctrl: amd: Don't show `Invalid config param` errors
-3b1345379dfa8756bebb7a0a5dcb41cf9e0ba98e Linux 6.5.2-rc1
-
---===============8769711379478745729==--
+--===============3186564020512043244==--
