@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 04 Sep 2023 09:59:27 -0000
-Message-Id: <169382156728.4656.15162475247728891878@gitolite.kernel.org>
+Date: Mon, 04 Sep 2023 10:00:29 -0000
+Message-Id: <169382162935.6860.13616286090454406238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: ee8ab74aa0c248138c14f74cc6a636e0191c410b
-    new: 5245008738029135af52a2048d9fe9c4dd9be698
+    old: 5245008738029135af52a2048d9fe9c4dd9be698
+    new: 718e6b51298e0f254baca0d40ab52a00e004e014
     log: |
-         5245008738029135af52a2048d9fe9c4dd9be698 docs: netdev: update the netdev infra URLs
+         718e6b51298e0f254baca0d40ab52a00e004e014 af_unix: Fix msg_controllen test in scm_pidfd_recv() for MSG_CMSG_COMPAT.
          
