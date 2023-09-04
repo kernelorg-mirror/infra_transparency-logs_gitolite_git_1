@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0737248637863520925=="
+Content-Type: multipart/mixed; boundary="===============5514431852141133653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 04 Sep 2023 18:57:01 -0000
-Message-Id: <169385382184.10793.181506014775112879@gitolite.kernel.org>
+Date: Mon, 04 Sep 2023 18:57:26 -0000
+Message-Id: <169385384647.10990.1358273513806578894@gitolite.kernel.org>
 
---===============0737248637863520925==
+--===============5514431852141133653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/counter-current
     old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
     new: 2dde18cd1d8fac735875f2e4987f11817cc0bc2c
     log: revlist-2ccdd1b13c59-2dde18cd1d8f.txt
 
---===============0737248637863520925==
+--===============5514431852141133653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -489,4 +489,4 @@ c313761337fb8fa7fc44296f0e10844505916208 Merge tag 'loongarch-fixes-6.5-2' of gi
 85eb043618bb17124050197d71c453d4a1f556e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2dde18cd1d8fac735875f2e4987f11817cc0bc2c Linux 6.5
 
---===============0737248637863520925==--
+--===============5514431852141133653==--
