@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2999031163319017835=="
+Content-Type: multipart/mixed; boundary="===============2213309161120045158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
 Date: Mon, 04 Sep 2023 19:02:24 -0000
-Message-Id: <169385414444.16023.1810179312938069466@gitolite.kernel.org>
+Message-Id: <169385414487.16055.10853222373065206159@gitolite.kernel.org>
 
---===============2999031163319017835==
+--===============2213309161120045158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
+  - ref: refs/heads/tty-next
     old: 0468be89b3fa5b9249cee1097f1d50314950a2df
     new: 7a1415eebeece5a27fb40c0242b171c104ad5727
     log: revlist-0468be89b3fa-7a1415eebeec.txt
 
---===============2999031163319017835==
+--===============2213309161120045158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693854143 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1693854143-e0e4855cf64de0c7b782a1dfe67197f9d6d0ceed
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693854144 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1693854143-88587b3eb9c4d315b73595d28847bbef602c4721
 
-0468be89b3fa5b9249cee1097f1d50314950a2df 7a1415eebeece5a27fb40c0242b171c104ad5727 refs/heads/spdx-linus
+0468be89b3fa5b9249cee1097f1d50314950a2df 7a1415eebeece5a27fb40c0242b171c104ad5727 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2Kb8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P5oQAJCGKK8Rs0zsC8mCc84l
-lMAdJueW7ia+iFyG1y2hyk8wMSqZP/LTa8rQsUfjgf/Tgi/CFJMP/Ohh9xpnudLT
-RO9aghf3Qo1YZipcWrU2AtspwNgjf/IV2K0f+pqiKMBIMznMiL9M8San4r3x6dfN
-FjgEIojyisz5yXs5XUAvtutNlmNLFrwmD6yvaN6sB2OwAfq1ptnpiLZpBidF+fJC
-FCcgV7SSdPQDdAaFVgqZdTMg99K0nFWC4IXOYkFH16Nr4hJ9ImWfZO7qcE2S1/OC
-CXIBFjBNaT+Ku20F8SAP7Qx+31fczMJ4C7cTFUAV3WG62mtnp1+ufj/2JMT+IDwR
-KIH+FmNn8w9ocgQ01Tu0OFQ9mg+D3fljmWPeP5Km0RZGE21+PoGnr3OwLsavjWmA
-hcaNUzrqChdWKhiu2lo8ZSdKZqLYvpHR/9wUzyw9/fCNqDu5vemFaZPjTX+2yUN0
-uxipQhPaXZuyGYtBwTaWC0QnL8HHpETuvSI8DytKCyIawbdtG5w+fU1KfQnPpPm5
-pBwiA43gT5jhcyJmc0GgRGAVRTQyYTz96+sEG1hCzrjlI7M4wAVWNvQtm3h7gt3n
-MsqtrW4crB24lkzn1gxvtQEL8qIpYIh+vbDnLZnBSS8YA8KcX28AN8io0UitL5Wa
-4MdW7mYOCpFHzwCihete0I5/
-=HoJ9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT2KcAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zKAQAI88ziVMLzAjNxK/MZgA
+19gKct/hwB+QTs/kHwIYkivP9xAtrP6f6GoCxUua8rZORDAhKahNt0QTV3/Qqa7x
+AukyXYRiFWWV92Z1abhQppVf2b5cyMRNydqaCmdwIyC4XBueBL9pBVdrYnssY6mC
+8kG3iVi3hzikxPF0XMVah/WzG/KIRdx9jflmLDE3rFYPDUVWL9YzzAt/2HAozea9
+R+hzW6pAodIwCU/MtXEZM4QYZ70KZPCbw7Qi5eEkL+L0LUcZVBEZQ42K/2jI4ri6
+c0TxlHZLCnxhRGnneJEf+KquZlJ1CNnebhRFGkiOP9SMYivQ8RYUQ98mhDzG53fu
+WdQWqFt6apPRjbBkMprV3MObn/wlXZbpz13c9J8aa2oP5mdo9rIBBjQv6KJhekbg
+VZI+M2AiOgnSL0Hc6UP9Gl6RRRcV2BOkAGuifp2+tA7B83/tRR8QX8hZnWO48qVa
+A5Ta5yhN53FQWbpxaVxh6uofGCnQZLmzk3rK7rK8hy+H+4wK9xUC1AlqS42r7hdP
+d+JFh21UuKJnqL4suO33MYWWX5IKQdtPA3AWn6rrZk9TMsX3pomS/IP2KmW3IR5A
+QluluSOzfCHc9z+8bf02gJjcKsNUy2Mz4wFnp1lzVbWkp7A1RJYdMH1XeDlBqdFo
+7QD7lMFUgPlzn6+GgRFo2pl8
+=0Q46
 -----END PGP SIGNATURE-----
 
---===============2999031163319017835==
+--===============2213309161120045158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -568,4 +568,4 @@ e4f1b8202fb59c56a3de7642d50326923670513f Merge tag 'for_linus' of git://git.kern
 68d76d4e7e506664ffb7b28805469ed73044368f Merge tag 'uml-for-linus-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 7a1415eebeece5a27fb40c0242b171c104ad5727 Merge tag 'm68knommu-for-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 
---===============2999031163319017835==--
+--===============2213309161120045158==--
