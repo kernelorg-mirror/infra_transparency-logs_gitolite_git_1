@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 05 Sep 2023 19:06:03 -0000
-Message-Id: <169394076347.21031.6240907656429406779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 05 Sep 2023 19:29:47 -0000
+Message-Id: <169394218768.6841.3365287585108980903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 8bc5d86b0fff47595e5fc35960c92db8d8775e97
-    new: 1eb7389fd645fdd4baba1f33fcae440ff921355f
+  - ref: refs/heads/kdevops
+    old: 26c03afdf1227da34d05a1097fa6d9b61553d7d2
+    new: 142d82f66c23d42af7851af7dab02fb798865077
     log: |
-         1eb7389fd645fdd4baba1f33fcae440ff921355f foo
+         142d82f66c23d42af7851af7dab02fb798865077 EXPERIMENTAL: crank up the coarseness when no one is watching
          
