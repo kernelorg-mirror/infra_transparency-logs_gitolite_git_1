@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 05 Sep 2023 03:15:19 -0000
-Message-Id: <169388371902.27354.5819458323275965159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 05 Sep 2023 03:21:52 -0000
+Message-Id: <169388411227.31255.249971957930009937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/tags/damon/next-2023-09-05-03-15-on-v6.5.0-rc4-mm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: 890da8b5336d2b0779145d3f06eb3a5ec6ee9ae7
+  - ref: refs/heads/master
+    old: 3b743fc1a1d6bab9cefc764f00a50b77c877ec1f
+    new: 73e85097f2bc3e95275a905bfca00bb3c8166ce1
+    log: |
+         73e85097f2bc3e95275a905bfca00bb3c8166ce1 build: Fix symbol visibility
+         
