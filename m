@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 05 Sep 2023 18:49:32 -0000
-Message-Id: <169393977274.8490.1306414141135166197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Tue, 05 Sep 2023 18:53:44 -0000
+Message-Id: <169394002426.11654.11446335721948303009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: d06b912df5abbf1cc046389c36726edd28b373d3
-    new: 2e47711d4d81d2a86751dc0403895b1d1554182c
-    log: |
-         94ea14917ff99cffb2fb23b6a3867fc4b16b1b8d lib/uuid.h: Add UUID(s)
-         5c788b73b8a5819ca2e7c6b5374807f6af1c5576 src/shared/micp.c: To implement MICP profile MICS service
-         2e47711d4d81d2a86751dc0403895b1d1554182c micp: Add MICP plugin
-         
+  - ref: refs/tags/mm-everything-2023-09-05-18-10
+    old: 0000000000000000000000000000000000000000
+    new: eec338b5e4832869c664843cb28f05717602a1b1
+  - ref: refs/tags/mm-everything-2023-09-05-18-50
+    old: 0000000000000000000000000000000000000000
+    new: f166f2f6803d03708bd7707f747edde30d958102
+  - ref: refs/tags/mm-hotfixes-stable-2023-09-05-11-51
+    old: 0000000000000000000000000000000000000000
+    new: eb0503d2737f24fcebf740a6120439c21c98e3b7
