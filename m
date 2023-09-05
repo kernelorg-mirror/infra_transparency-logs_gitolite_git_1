@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7864515963589050895=="
+Content-Type: multipart/mixed; boundary="===============7356866550867313029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Sep 2023 10:14:56 -0000
-Message-Id: <169390889694.18680.14045467686466656780@gitolite.kernel.org>
+Date: Tue, 05 Sep 2023 10:15:17 -0000
+Message-Id: <169390891717.20553.5222939625183970822@gitolite.kernel.org>
 
---===============7864515963589050895==
+--===============7356866550867313029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: fe646b2bcb706bff0fc18690a965eb6f56e5c379
-    new: 7027bd22e4f2a44ed504f8d5cb5dfa1159e9f687
+  - ref: refs/heads/6.6/scsi-staging
+    old: 9f6fec65661381e301ae0f9ee8b4c12b0214a579
+    new: d32533d30e2119b0c0aa17596734f1f842f750df
     log: |
          0b0747d507bffb827e40fc0f9fb5883fffc23477 scsi: megaraid_sas: Fix deadlock on firmware crashdump
          31a0865bf593e59c4433a3624b4c87c40049ed9a scsi: ppa: Fix accidentally reversed conditions for 16-bit and 32-bit EPP
@@ -31,33 +31,33 @@ changes:
          d32533d30e2119b0c0aa17596734f1f842f750df scsi: ufs: core: Poll HCS.UCRDY before issuing a UIC command
          
 
---===============7864515963589050895==
+--===============7356866550867313029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1693908879 -0400
+pusher 75C5DE3D 1693908900 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1693908878-08e4afc6bb91ee6301b11cf0f1397726c74fbf2a
+nonce 1693908900-c66c5d73c64519152b4736624f286f552f808a6b
 
-fe646b2bcb706bff0fc18690a965eb6f56e5c379 7027bd22e4f2a44ed504f8d5cb5dfa1159e9f687 refs/tags/mkp-scsi-staging
+9f6fec65661381e301ae0f9ee8b4c12b0214a579 d32533d30e2119b0c0aa17596734f1f842f750df refs/heads/6.6/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmT2/5AACgkQ7ulgGnXF
-3j0TCw//Xn6UMsMSo72ttzzOzkTItr6c0ajy3e12NkMciHWiaTcWuyoIBibus7/W
-Fx/kcU+7Y6SVS/TZxKELTVVpBsGgAy6S1dWpwRUz15kH01q3ygO5OC7fybe0hJ7A
-j3F5EvWlril8DBH1k96Ig5kQ3BZbvtrMHHMo6Yv4ALH2NUf69cUJ327Z9Ok3k37Z
-AmDb0P+QZ9bqyyUVMkeosAQOHzTKStRf7g/BVcJGK6XgXVsYNfq02XdAeukmnXYB
-m20K0SxONcniDsOlYSSBFUpToeWnpdHa5dR9JMX10ZYeFLNIcrCdyhAy7owivWel
-CapFKRN++DWw2wDW+/Rel06mUBOAMSA2v/ufxAja2Zgf4K3XngxeQk4VHPdPsjfn
-f/BTOQBBR21ozIj7n0cjhtJHMTJrE6V7ze8n7cirBIOjS1pc2Oz8eCOseYjeK2O1
-YRd0Gp1o6Kjn3y5Pg5TMPgLnGfa5lk8djPjaOTGCFbmzjA5iGz4iIsVUg1At4I6J
-DKFj5TTbG/M/9Sn+CaNuzP54gyQWmsFPYWiKY7zT37t0jkpoWSl6c7zxhXf4AbgM
-OSONrHuHZD/cdnc5dNcuLVUe/DSI3Wio98V3NMWpzVMFXXmIwW05IzUfOBrzewqx
-3cDoc9qN8p8kGNgE43rvEtY1xkg83P4nl/MXrKaJtx8imVcrwFw=
-=Tdnw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmT2/6YACgkQ7ulgGnXF
+3j1ddg/9HGEkUsxjsMB9xHajSYTu+bAucmvBhVE1GPVy1ZapCEb7emM/HVfeCeT/
+V8xeADwMt4FfHIpp//nFDHaPTH2AlWmUXDJpc842pwi9+F3jxAfcHYzHSeufiro6
+pSlYou4mKfijdMnmvDSIiXDMPF1ln7QFLcVm2/LZJeFTkUtKcyuTqztf+LLwSEfY
+z68M6gl6bTQDXzFiz5AMNjmwsDQ3Qt7NXb5KV9B1D/p6pJV9cam1hXiAZjIeM0lq
+Xbai5Iz1aSdGN2h2enSoxcvZwZef3NkuUZIyAkleNtTGwtQt7XVmqU0ktaDnU8oa
+3E/ZiPHn7HpSj237C6JUbmHTclvvMO/DqxW2/1KzhfjnoFqY8Lp5SfN2GZnAXvMa
+QA9xDbNJpJZVgLizfdLvogtbkvDLehjWZg4PIAauH2J9eIoo1XwaX3yJW2UZiIkc
+2iPWDCHX4A/9zneNOUr+6Yg8B3GF/i3bJyDXWQ+sutaHNDkOpX/AV741BBo/0hpn
+AAfsh36moaNxKvvy2G/KQNvB4+WpaQA4jXA8PdhPYWlzVet6jv1BzIudHdOMZHhc
+2jazz+0ackQ4tXPh71ExOmNRnq+3bAROnbMbGkRHeTKJ8RnoVWqvxrFhA9roicuu
+e/eYT+0YjRSobrR3BpQt/gvzUSQzkDJZB2WA/3gQlH0WeLg8sCQ=
+=e7an
 -----END PGP SIGNATURE-----
 
---===============7864515963589050895==--
+--===============7356866550867313029==--
