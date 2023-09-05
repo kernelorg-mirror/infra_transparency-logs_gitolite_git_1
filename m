@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9103089619266413392=="
+Content-Type: multipart/mixed; boundary="===============1325084139169769032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 05 Sep 2023 10:18:00 -0000
-Message-Id: <169390908062.22715.15702592342234645942@gitolite.kernel.org>
+Date: Tue, 05 Sep 2023 10:18:04 -0000
+Message-Id: <169390908425.22787.14483360973016504985@gitolite.kernel.org>
 
---===============9103089619266413392==
+--===============1325084139169769032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: 7a1415eebeece5a27fb40c0242b171c104ad5727
     new: 3f86ed6ec0b390c033eae7f9c487a3fea268e027
     log: revlist-7a1415eebeec-3f86ed6ec0b3.txt
 
---===============9103089619266413392==
+--===============1325084139169769032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693909079 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693909083 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1693909079-18adf69f333c20ce67a9f9cbcab75ca9743919d3
+nonce 1693909083-f91d04612a0eb11bdf0f638e52278eb4bce560b0
 
-7a1415eebeece5a27fb40c0242b171c104ad5727 3f86ed6ec0b390c033eae7f9c487a3fea268e027 refs/heads/main
+7a1415eebeece5a27fb40c0242b171c104ad5727 3f86ed6ec0b390c033eae7f9c487a3fea268e027 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT3AFcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GNIQAL07LqA53RKQX4k4tDjl
-Dsj/0B/Xg5aj5Jh2+lbHbaqZR1uh+VJ+D8PcxZD/BdeoSHRZIdd5Srk8s50Ew3hA
-cMD4/ii4eJw5S60xEqvvUwBVGPOIy10tNMIBJobAodg/0PU59laa+sXAWlnJJwSg
-G6uMfjkAN+uKRpNPsSxgT9mC0ZlXSBkp8aP+P/CaF+oCj01SN3mi4foknr15N1Af
-cTW3LcWUqjr50k0czyCeijKfFwW1UHhnqFKefEN395Ldk7OwhUOi5WKV1WBXVyki
-l9s1bI357moa/qf7oLhTv4LpKef/QqBOyp61leBc2OoCf4AG36dzvulAlLehraWI
-VRe+eWKfSnjfscSKr3vqk2CjgnmWs6QWxfz0iTaIRlsGxd2kdeTFx7YQWpvmmZE6
-lCUifNS+QtrHDNHZNTY8L+WhBuxkNJUT7JxjSFn19JNXlTl1LNn2BFUpsuSmV7Uy
-+WxeV1Z+6sknl39fTWKv6EUjTBkeB0bMt/mnKr1JByEq+bRUUBvLRgUcQRDoCrS4
-GK1ynnMXzuNQybwbR8nOK9NQtvFn67ByEMviC7IqPfUr32Rx1+H8+CcquoTMgAdd
-eusMZ2HidzskQM5sbm5aZg7bVzG4ig00BqOqw6D7HFAfogdnVhDpA4jOB9/WDhIA
-AOU+lmDoufkwV/3jk3K+PUp7
-=1PjX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT3AFsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1owQALzjAcN1DgkZETJ2PGI/
+9oaw0SpHiMVoagk4d9YBNOaIfW1T0Qz2jaFckk1TiN1+c314gIec0NNIe6wm9TgY
+qVdYMhEWwVSdSt0C8egEY8plWSVKwYA1jMMKJaeHjUC6gFYjiL4251pUCmkUr/+C
+yE7fuqm+O+VsIiKfxjkske1slcUkw8R3Cvy9b0H3tGG3dtB2l3lR49SZmBm18aAq
+JwsA6rkZ8JCuyaEeArjCU8jms8t3cBc/osrU4Z0dx6PqZDBlz3hnxa8ItpSRiW/Y
+JHOM8pKyE1Wh84JE1uMBmSKMxcfzE/NQOHprb/KFnjzX+f0vFTghaUxmDBzyCGTB
+GRJUYpsy7lcObZktdO2Ai8hPrg+OT8PSNsrvjSzQTsgQPV+3V2MM7YdkA99I362e
+nsZy0bH3Y7mu5Db/rJJ2newfneRdgRKLMs3aT8RWREjFOf3AJI0Je/IEKi3AXLzP
+V1YRVQaotAJXxpRAU/RbndrtSqW2RHWnMbBxk8z5NkfLY91mD3T+P9YcJWw3zLB7
+8vMBmoUMvqsaAVpLkuBovdqS9zibSIKVRIGcKIc+grOO+c1sUe123f4u/Ofc56th
+baUgOoTzB9nGj9ZziOOTNi7pfK85slj7iYUTEEXygMT84+stc9GTxSIpBrS+Q+PP
+L77ZyecEr0htyfUNqV4ihD36
+=n4jT
 -----END PGP SIGNATURE-----
 
---===============9103089619266413392==
+--===============1325084139169769032==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -367,4 +367,4 @@ e3a6fa001dbbf36833159baffc584d1aaa4b11e3 Merge tag 'hwlock-v6.6' of git://git.ke
 ea4f9c37f75271d8256a326c938c95733e1fec35 Merge tag 'pm-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3f86ed6ec0b390c033eae7f9c487a3fea268e027 Merge tag 'arc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 
---===============9103089619266413392==--
+--===============1325084139169769032==--
