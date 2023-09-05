@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 05 Sep 2023 16:50:45 -0000
-Message-Id: <169393264503.20692.12712759418812802633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 05 Sep 2023 16:56:17 -0000
+Message-Id: <169393297787.24233.6938748178375029216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: c3b704d4a4a265660e665df51b129e8425216ed1
-    new: 29fe7a1b62717d58f033009874554d99d71f7d37
+  - ref: refs/heads/master
+    old: 7bb01cf3955de71133388d06966c8b875337a1bb
+    new: 3f62bfd47a6204c15c551757721cc935983eb063
     log: |
-         29fe7a1b62717d58f033009874554d99d71f7d37 octeontx2-af: Fix truncation of smq in CN10K NIX AQ enqueue mbox handler
+         3f62bfd47a6204c15c551757721cc935983eb063 Use margins/indents for twocolumn as defined in book class
          
