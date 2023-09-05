@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2079932155410758238=="
+Content-Type: multipart/mixed; boundary="===============3004917127157996675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 05 Sep 2023 19:47:33 -0000
-Message-Id: <169394325382.21497.10179993120097635353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 05 Sep 2023 19:47:47 -0000
+Message-Id: <169394326708.21669.5321310903711568336@gitolite.kernel.org>
 
---===============2079932155410758238==
+--===============3004917127157996675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7733171926cc336ddf0c8f847eefaff569dbff86
     log: revlist-872459663c52-7733171926cc.txt
 
---===============2079932155410758238==
+--===============3004917127157996675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of 
 3c5c9b7cfd7d2a2b1e32c2284c82164c1aaa919f Merge tag 'mm-hotfixes-stable-2023-09-05-11-51' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 7733171926cc336ddf0c8f847eefaff569dbff86 Merge tag 'mailbox-v6.6' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 
---===============2079932155410758238==--
+--===============3004917127157996675==--
