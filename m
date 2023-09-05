@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2065127226120318789=="
+Content-Type: multipart/mixed; boundary="===============4087704678363678130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 05 Sep 2023 17:48:35 -0000
-Message-Id: <169393611526.29664.597989371374689448@gitolite.kernel.org>
+Date: Tue, 05 Sep 2023 18:09:03 -0000
+Message-Id: <169393734360.12297.11350500951780855375@gitolite.kernel.org>
 
---===============2065127226120318789==
+--===============4087704678363678130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 2f2beb8874cb0844e84ad26e990f05f4f13ff63f
-    new: f244d4a9f393fa24f5771080804ca16fd8cca492
-    log: revlist-2f2beb8874cb-f244d4a9f393.txt
+  - ref: refs/heads/1GbE
+    old: bee54b8472893f1428d12ec967fade37db216983
+    new: 6319685bdc8ad5310890add907b7c42f89302886
+    log: revlist-bee54b847289-6319685bdc8a.txt
 
---===============2065127226120318789==
+--===============4087704678363678130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f2beb8874cb-f244d4a9f393.txt
+Content-Disposition: attachment; filename=revlist-bee54b847289-6319685bdc8a.txt
 
+23299bba08dfb7037877edcc430c907f0522c856 hwmon: (nct6775) Change labels for nct6799
 b3af14c4c2841343584b61c49b0cfb8808764239 hwmon: Remove smm665 driver
 3b7f4bde06daaff391a374fc27c8163b2847de34 hwmon: (nct6775) Increase and reorder ALARM/BEEP bits
 49ffb5eefebccf498fb2a45b46ff58d0b255bf97 hwmon: (oxp-sensors) Move board detection to the init function
@@ -233,9 +234,7 @@ d56518380085d78f179cdc701d791ace4acb1d23 Merge branch 'bpf-add-multi-uprobe-link
 31eedc155cc70ad9acad9b841bd8a508d08932e9 regulator: aw37503: add regulator driver for Awinic
 1c351c236ac58e7e0ac3b5e1fe50be532bc937c4 spi: switch to use modern name (part4)
 e332938e6fc8117fb9bb1374339cea879b3972d9 samples: ftrace: Replace bti assembly with hint for older compiler
-be809424659c2844a2d7ab653aacca4898538023 selftests: bonding: do not set port down before adding to bond
 90308679c297ffcbb317c715ef434e9fb3c881dc net: pcs: lynxi: implement pcs_disable op
-99b415fe8986803ba0eaf6b8897b16edc8fe7ec2 tg3: Use slab_build_skb() when needed
 442466e04f5f1b4616d3f023ff19166b82e19989 xen/xenbus: Avoid a lockdep warning when adding a watch
 9ce4ed5b4db13633f9934a4eac02c4cde04d5c63 gpiolib: provide and use gpiod_line_state_notify()
 5ad1ab30ac0809d2963ddcf39ac34317a24a2f17 drm/display/dp: Fix the DP DSC Receiver cap size
@@ -1048,7 +1047,8 @@ b192812905e4b134f7b7994b079eb647e9d2d37e af_unix: Fix data race around sk->sk_er
 d3287e4038ca4f81e02067ab72d087af7224c68b Revert "net: macsec: preserve ingress frame ordering"
 c3b704d4a4a265660e665df51b129e8425216ed1 igmp: limit igmpv3_newpack() packet size to IP_MAX_MTU
 29fe7a1b62717d58f033009874554d99d71f7d37 octeontx2-af: Fix truncation of smq in CN10K NIX AQ enqueue mbox handler
-7b76a3ff9dd16599c55d956a61fc65549173160e i40e: fix potential memory leaks in i40e_remove()
-f244d4a9f393fa24f5771080804ca16fd8cca492 iavf: Fix promiscuous mode configuration flow messages
+5aa48279712e1f134aac908acde4df798955a955 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
+8360717524a24a421c36ef8eb512406dbd42160a igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
+6319685bdc8ad5310890add907b7c42f89302886 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
 
---===============2065127226120318789==--
+--===============4087704678363678130==--
