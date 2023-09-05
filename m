@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5707983105511793822=="
+Content-Type: multipart/mixed; boundary="===============7783116358759506623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 05 Sep 2023 11:36:20 -0000
-Message-Id: <169391378005.17218.16916618288794233793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Tue, 05 Sep 2023 11:42:13 -0000
+Message-Id: <169391413344.22291.9666611172312881603@gitolite.kernel.org>
 
---===============5707983105511793822==
+--===============7783116358759506623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/next-master
-    old: a47fc304d2b678db1a5d760a7d644dac9b067752
-    new: c50216cfa084d5eb67dc10e646a3283da1595bb6
-    log: revlist-a47fc304d2b6-c50216cfa084.txt
+  - ref: refs/heads/has_ioport_v6_usb
+    old: d85976c7136c1136ba339d985a190333e2552ac8
+    new: b6611ce518273ce615faa222f751df8b42a0f508
+    log: revlist-d85976c7136c-b6611ce51827.txt
 
---===============5707983105511793822==
+--===============7783116358759506623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a47fc304d2b6-c50216cfa084.txt
+Content-Disposition: attachment; filename=revlist-d85976c7136c-b6611ce51827.txt
 
 07b4c950f27bef0362dc6ad7ee713aab61d58149 Input: goodix - add support for ACPI ID GDX9110
 3e00123a13d824d63072b1824c9da59cd78356d9 printk: export symbols for debug modules
@@ -653,5 +653,27 @@ d28251ec001b4177f568d4c464bc9a5e7d0fb971 Merge branch 'next' of git://git.kernel
 d79328a1ed301bec2eed86fb4bbdadb43463dcda Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux.git
 cc653119f1576f88d28d305a354dc2ba7c6aa2c2 Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
 c50216cfa084d5eb67dc10e646a3283da1595bb6 Add linux-next specific files for 20230905
+26b198fc45da73b07c7d30d0fc3c36ad23602913 iomap: handle HAS_IOPORT dependencies
+010ee5b73621370222c6dffaab935b0488c598cb kgdb: add HAS_IOPORT dependency
+1fc19b96b8a054f6c4f0726e32a93e30416ef4f9 Bluetooth: add HAS_IOPORT dependencies
+9d64186859de5d78c30c1bef228a9eeb33a17b16 ata: add HAS_IOPORT dependencies
+82dfb1178c785abd6f098df0f55e7dd2e370e2ae char: ipmi: handle HAS_IOPORT dependencies
+d6fd00e2522d4f8bd8187ce957331b58dc9b047c char: tpm: handle HAS_IOPORT dependencies
+9031193643bb77b76cd9b8564729a01bc0fae947 /dev/port: don't compile file operations without CONFIG_DEVPORT
+913881897c1c69b5392369824dcb5cb120959252 drm: handle HAS_IOPORT dependencies
+395d7340c0c86ff203d51e5ab17f98c90d9cdf29 hwmon: add HAS_IOPORT dependencies
+e2ba4446a073673251300862f71e53788893cbf4 i2c: add HAS_IOPORT dependencies
+64c2f576b640edbcf1de21daf87c4a8657615239 net: handle HAS_IOPORT dependencies
+9b31131573f38c03ce895c46954a3a11eac65fea platform: add HAS_IOPORT dependencies
+043e4ddb16fb128eedb5d4fb915706f295b04efe pnp: add HAS_IOPORT dependencies
+f27aff1a832c4fbba3b3df85ca98fef43364054c tty: serial: handle HAS_IOPORT dependencies
+d8a57f1f0c407266e4bc39f95e0ab59726360e0a usb: pci-quirks: group AMD specific quirk code together
+18c7c95b06042b50e10e79e77c91cb59d8b32491 usb: pci-quirks: handle HAS_IOPORT dependency for AMD quirk
+b6bde3c37b89bdacfeab032449924aa5a41348ef usb: pci-quirks: handle HAS_IOPORT dependency for UHCI handoff
+8e2a98cb0b4159d714d948898959ac2b9c372ea9 vgacon: add HAS_IOPORT dependencies
+8bb34751a72467695fed9259c2e2285315d07a1f fbdev: add HAS_IOPORT dependencies
+3ef927dab3cb16a2942daeda9db303295de6bf44 video: Handle HAS_IOPORT dependencies
+7e939423f5b474a94ea7d5e0d604203236ff44b1 watchdog: add HAS_IOPORT dependencies
+b6611ce518273ce615faa222f751df8b42a0f508 asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
 
---===============5707983105511793822==--
+--===============7783116358759506623==--
