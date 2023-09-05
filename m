@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1325084139169769032=="
+Content-Type: multipart/mixed; boundary="===============6482274836665153421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 05 Sep 2023 10:18:04 -0000
-Message-Id: <169390908425.22787.14483360973016504985@gitolite.kernel.org>
+Date: Tue, 05 Sep 2023 10:18:07 -0000
+Message-Id: <169390908793.22887.11335100817032772456@gitolite.kernel.org>
 
---===============1325084139169769032==
+--===============6482274836665153421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 7a1415eebeece5a27fb40c0242b171c104ad5727
     new: 3f86ed6ec0b390c033eae7f9c487a3fea268e027
     log: revlist-7a1415eebeec-3f86ed6ec0b3.txt
 
---===============1325084139169769032==
+--===============6482274836665153421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693909083 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693909086 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1693909083-f91d04612a0eb11bdf0f638e52278eb4bce560b0
+nonce 1693909086-373a888315125fb99e2efef9b4e97cd8379f0cd9
 
-7a1415eebeece5a27fb40c0242b171c104ad5727 3f86ed6ec0b390c033eae7f9c487a3fea268e027 refs/heads/driver-core-linus
+7a1415eebeece5a27fb40c0242b171c104ad5727 3f86ed6ec0b390c033eae7f9c487a3fea268e027 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT3AFsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1owQALzjAcN1DgkZETJ2PGI/
-9oaw0SpHiMVoagk4d9YBNOaIfW1T0Qz2jaFckk1TiN1+c314gIec0NNIe6wm9TgY
-qVdYMhEWwVSdSt0C8egEY8plWSVKwYA1jMMKJaeHjUC6gFYjiL4251pUCmkUr/+C
-yE7fuqm+O+VsIiKfxjkske1slcUkw8R3Cvy9b0H3tGG3dtB2l3lR49SZmBm18aAq
-JwsA6rkZ8JCuyaEeArjCU8jms8t3cBc/osrU4Z0dx6PqZDBlz3hnxa8ItpSRiW/Y
-JHOM8pKyE1Wh84JE1uMBmSKMxcfzE/NQOHprb/KFnjzX+f0vFTghaUxmDBzyCGTB
-GRJUYpsy7lcObZktdO2Ai8hPrg+OT8PSNsrvjSzQTsgQPV+3V2MM7YdkA99I362e
-nsZy0bH3Y7mu5Db/rJJ2newfneRdgRKLMs3aT8RWREjFOf3AJI0Je/IEKi3AXLzP
-V1YRVQaotAJXxpRAU/RbndrtSqW2RHWnMbBxk8z5NkfLY91mD3T+P9YcJWw3zLB7
-8vMBmoUMvqsaAVpLkuBovdqS9zibSIKVRIGcKIc+grOO+c1sUe123f4u/Ofc56th
-baUgOoTzB9nGj9ZziOOTNi7pfK85slj7iYUTEEXygMT84+stc9GTxSIpBrS+Q+PP
-L77ZyecEr0htyfUNqV4ihD36
-=n4jT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT3AF4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ky0P/0nAWJxpliDxFKxgS567
+9duY4jTnyhyRLUrPAJz0efoeYN+AwGPSRbSnd7cepn5hyiQx1HsZmZScjwXe89ib
+NdIVd30WQtsOLDkcmJZIkC9IDO2d5ctVJq08ZBj91i3IPKqIbt5R9TA/9Wooj6BO
+LB/vxD355go5udPSSfY/KVclqnbdjKJDzUXZvETM3uhHSInV1sR0i+dfsYoAHHba
+o+ZVE+zrenvrVf/B2RldTJ7QuNN1yzFsVs930mfQItqfvqy0kq/D8O3ROm+jGOG9
+oYzsW2Y7UGeEDwDN9B4VRpB8ThjPTVzJbF1pHtivk6EnWZ07bzEwRRU4HCsQiaTP
+Cjc6xnJhqljASn96x4hQlNqotrdZmZ7gml2fSTfw/9GcCdrrwv9k7WAwyxeLDRRQ
+mzTOLN790vndn5EW2NJikhKnmE81dz7LUXkM9lATSfn/WssoBP22I93qBsHFTLab
+ybUHM3kpbfIhg+Uxr0k4zg3YcnLFY+jVPunly2H9/68AExJ+a67iIC7cM2asiv83
+lMLUkpClnm5Eo+dSmn1wuDRXN9NBP82B5sfJueiT25aY1714jpv8m+Dsfz8/etoG
+IlfK4hiQI1r7kPjuyVtRpm0vkzzAezeNKRqCQijf1lSaYOi01Ohe7f/I2IS8Y8F9
+Muzf4d0Ek9o/yBpipvtVovxv
+=MB8T
 -----END PGP SIGNATURE-----
 
---===============1325084139169769032==
+--===============6482274836665153421==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -367,4 +367,4 @@ e3a6fa001dbbf36833159baffc584d1aaa4b11e3 Merge tag 'hwlock-v6.6' of git://git.ke
 ea4f9c37f75271d8256a326c938c95733e1fec35 Merge tag 'pm-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3f86ed6ec0b390c033eae7f9c487a3fea268e027 Merge tag 'arc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 
---===============1325084139169769032==--
+--===============6482274836665153421==--
