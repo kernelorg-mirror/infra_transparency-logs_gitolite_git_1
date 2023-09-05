@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 05 Sep 2023 01:58:53 -0000
-Message-Id: <169387913307.2056.12388169889686420634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Tue, 05 Sep 2023 01:59:32 -0000
+Message-Id: <169387917241.2393.17826258692578406505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: 13ccc7e161409f78aedad7b10fe3cbf5fd3e4a66
-    new: 1ae027bc7baa69816b8de7ec10ab711952221c45
+  - ref: refs/heads/main
+    old: ad8bf9f9aa39625d732b7db16badecc0842750e2
+    new: d774337275666e013a5930aebace1c6f76e343b1
     log: |
-         4c0f1e41ef4bc4fd31e5b7a7ce5a4ecb974a8a17 foo
-         e82ad50dbbe40d82d9200bbafaa4b3cbc993df23 foo
-         1ae027bc7baa69816b8de7ec10ab711952221c45 foo
+         d774337275666e013a5930aebace1c6f76e343b1 dtc: fix missing string in usage_opts_help
+         
+  - ref: refs/heads/master
+    old: ad8bf9f9aa39625d732b7db16badecc0842750e2
+    new: d774337275666e013a5930aebace1c6f76e343b1
+    log: |
+         d774337275666e013a5930aebace1c6f76e343b1 dtc: fix missing string in usage_opts_help
          
