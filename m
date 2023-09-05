@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3735813330357549100=="
+Content-Type: multipart/mixed; boundary="===============4238505611480178154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 05 Sep 2023 10:31:33 -0000
-Message-Id: <169390989368.3036.8085736916228405554@gitolite.kernel.org>
+Date: Tue, 05 Sep 2023 10:39:28 -0000
+Message-Id: <169391036898.8761.15584966312494337805@gitolite.kernel.org>
 
---===============3735813330357549100==
+--===============4238505611480178154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 0369c2c28bd9ed58213cb17e03113a165b384780
-    new: 0eec75fa755381e44ee37e85a2327cdde5bd6391
-    log: revlist-0369c2c28bd9-0eec75fa7553.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 868bc4ac8686c4118c66bd6926b777ded345309e
+    new: 18b797ca05eafff15ebb1474eb747644d5652b33
+    log: revlist-868bc4ac8686-18b797ca05ea.txt
 
---===============3735813330357549100==
+--===============4238505611480178154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693909891 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1693910366 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1693909890-dbb69e468dcfdf54348a39718c5d9368e944099c
+nonce 1693910365-7f4a0fab8dfc1c5b900461a88bff897b7aae27ca
 
-0369c2c28bd9ed58213cb17e03113a165b384780 0eec75fa755381e44ee37e85a2327cdde5bd6391 refs/heads/class_cleanup
+868bc4ac8686c4118c66bd6926b777ded345309e 18b797ca05eafff15ebb1474eb747644d5652b33 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT3A4MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fPUP/RzivVEsrxpuA/q1s3O8
-6KtwD0AhzNMOL+m0tc5dv3YHW9SdZPTKZGQFAI4h8J1Y5smbjrmlWQazBFRc2SdM
-4JF1PnCo4Shf0beCHgX3WiInh3sH+ewgpsrPChBm/2oeLPEV0uF9nCZktRt8O4a2
-4LRne7IvTTvDV/bil01X5ybidijeijPa+m0J7crviAQDh0eBIZ1DR+vcHsa9ka5J
-WnqSc7CA6M9gnUYQF9vWZEg+yYXHJYRNuV6/1cXNIxjSWUADEhYjiX9RruVqyogF
-7dgl8+guSnVCsFL4T8HtAN53lildo6un3wp4dKNDkiWc6NISiI9JfSMy6dJW0VWU
-/S8Tv9T+9eEYLS5qaiH0Au1nKtjy8OGc2AgQsBBPJihtlvgD5vCiUoeTqYFjfnzT
-8FfxTvgJ0La4C2Mb3ZxOO9McCkb9yldw/ZY9tOAANduVkjpPeUB254F5pFNGbGzU
-6kAzUd5VPVelgtjrGHOu3xoCVbCPNghT6sBAP6dkLCWkF8e5EOlxcA8ygcYR9ey8
-bSSg0c/4tR37+xeCL8jp+KwhSekmdIsqQhbkKlIxydsSGpWQ5ndhu6jUAk36Ya9B
-8pECx7V7MGlKhFarzZ6kFRZRMAsjrxFP1tLPGdO4WQa7w21vTiYU7o3+oKJ6vIPR
-pzrAKK50XyXZ64jJMFLPBcsg
-=PUVE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT3BV4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B1UP/A+7LegjFLReASH7oK2B
+XY9k4oCfCnLltMWUxml1R42es8TElCk25lm/4WI2MnQOiW5t252cvc4z6MgdDwfW
+gyMH4o7X2zHasHWyDJy74hIR+PREgB9BeX3hBxryudZvTSxlR12bMkcMkkQFzHJh
+3hrYFALffhok8fn4meavVXiDA+YsisjqDdbabqC60Lo7anycew+TnOc3wBwpryTo
+8ZlXaT3PNv6d22ZzadmYHZkmzUDez1zmO5jW/PoQlli8kiV7JdaPcl8Bs4PYHwxA
+/0iYRiM9YIlnraHkF6TutkrwgadQ6uelqIvrynbqWdfJmqvgUodtQ/VVcCf/mTzi
+7BIxKVuSkn8AmTg3oOkbEbOV+ljkfJjCJNXA/ona4wTkr4+YSJu1cXlANBbxYuJ0
+HN4h0g9fazjgCKLWYSo1n/evnl1BH97vtif/F7EmNMOpm9Rk2nw89O12UNxlNQO0
+kBXgLZjGmqg/WJ6aaXpL7u+51HE4GK9aSg+gNuCTV910hPBcXBFb5f5aX9y2Xq4D
+qVWWk+Re5VUJDx6kKR/ik/QDHDZR3E8g6mo+n6Si+VMQVOPmVmXbwCdjlnTg2jwN
+gK9/jQXRXl6XTea0DWdN6sc18g8aiV2X1X78jkmVEsC/lQBFUEr7Z7xbmcXCqO2Q
+7vvEEl+CSHo05mXhQpOkF95y
+=uMdW
 -----END PGP SIGNATURE-----
 
---===============3735813330357549100==
+--===============4238505611480178154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0369c2c28bd9-0eec75fa7553.txt
+Content-Disposition: attachment; filename=revlist-868bc4ac8686-18b797ca05ea.txt
 
+c8a039436525072af7e77f540d21f0d312fc7c38 leds: ns2: Slightly simplify a memory allocation
+02a3fa1edeb4fa7bac2cc7f604adf23e34cb2e40 dt-bindings: leds: Convert Panasonic AN30259A to DT schema
+05a576059ac23355a86e4be058cb43997d83c7fd leds: flash: leds-qcom-flash: Declare the driver as a module
+7c47381c8664d55861036d1d858daf5e9d5d67b8 leds: flash: leds-qcom-flash: Turn off LED before setting flash current
+546924102de8327a5b2095d2134faed6de971476 leds: flash: leds-qcom-flash: Put child node if registration failed
+841165267827955bb3295b066cb6a906ba9265c0 leds: qcom-lpg: Drop assignment to struct pwmchip::base
 a6de66607a19095a1bc74aaefff44c9a5ca11da0 mtd: rawnand: qcom: Use the BIT() macro
 428771b61afdea898abd8724777cc36912566017 mtd: rawnand: qcom: Use u8 instead of uint8_t
 062d8acb1941d4555efbccf0e54214b2f85c02d3 mtd: rawnand: qcom: Fix alignment with open parenthesis
@@ -1068,18 +1074,12 @@ e3a6fa001dbbf36833159baffc584d1aaa4b11e3 Merge tag 'hwlock-v6.6' of git://git.ke
 0ca4080a884329759a08c76f0aeabe3d24350c62 Merge tag 'thermal-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 ea4f9c37f75271d8256a326c938c95733e1fec35 Merge tag 'pm-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3f86ed6ec0b390c033eae7f9c487a3fea268e027 Merge tag 'arc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-8da75d3f76c5560afafb8d0ad4e3c90004cd8eb4 accel: make accel_class a static const structure
-e12c9f20fdf6b7390814ff81c1deb74b4267ea09 coda: psdev: make coda_psdev_class a static const structure
-ffdb7263152fb8fbf7b53514fa027fb7cf5ab593 cuse: make cuse_class a static const structure
-29430082d359407352a6e6e8b6f5216fe30e431c pstore: pmsg: make pmsg_class a static const structure
-ebc120be6278a669763db5c31845a5385c93e265 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-70b017b06767b1c65c005fb3ba9bff8507edfe54 PM: wakeup: make wakeup_class a static const structure
-a75738609f9e14cdfc5fac5103cf6105837ddf1e PM / devfreq: make all 'class' structures const
-ed8c39aab412022387ab6aa570ef220bd8dc675f dca: make dca_class a static const structure
-fdd37014088b611fd318f4ba2e94dfbea858d0a2 gnss: make gnss_class a static const structure
-776a7b7bf0e60b3f5c8597a2a16e9a74e431770b extcon: make extcon_class a static const structure
-2d80131d7cf93165f9d9fe06737861e2f64972ba i2c: dev: make i2c_dev_class a static const structure
-230746f09bf070999929b59aab36d493142f48e1 misc: c2port: core: make c2port_class a static const structure
-0eec75fa755381e44ee37e85a2327cdde5bd6391 rapidio: make all 'class' structures const
+7241180dc0f7620a26fb19b897b6a7fcd7d176a8 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+ee24a9cf38040c9212209e50446112878fa1f2f4 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+3a3f59dbadf263e3721bbafc3caace11a2c1a1c9 soundwire: sysfs: have the driver core handle the creation of the device groups
+c4765d11ea101ca226401e7b3acd0a89822213e2 soundwire: sysfs: remove sdw_slave_sysfs_init()
+44d260f52898148a4c7c461d940220f3c88229f7 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+8b99fadd96832fb9fc4c374ba37e685162d9f3a3 driver core: remove devm_device_add_groups()
+18b797ca05eafff15ebb1474eb747644d5652b33 sysfs: do not create empty directories if no attributes are present
 
---===============3735813330357549100==--
+--===============4238505611480178154==--
