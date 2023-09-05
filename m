@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2180729316470229117=="
+Content-Type: multipart/mixed; boundary="===============7534034840725617682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 05 Sep 2023 21:41:03 -0000
-Message-Id: <169395006379.9055.1877099223670653276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 Sep 2023 21:41:10 -0000
+Message-Id: <169395007000.9158.14101716878546056817@gitolite.kernel.org>
 
---===============2180729316470229117==
+--===============7534034840725617682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: c69290557c7571dff3d995fa27619b965915e8a1
     new: ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec
     log: |
          ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec regulator: tps6594-regulator: Fix random kernel crash
          
 
---===============2180729316470229117==
+--===============7534034840725617682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1693950062 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1693950061-3910ce23e2074942e7ecd5a5ba1b4b3f6b4d778f
+pusher C3F436CA30F5D8EB 1693950068 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1693950068-4ef44f1e3f6b4ed9ff5241fb2bfa027e8c771577
 
-c69290557c7571dff3d995fa27619b965915e8a1 ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec refs/heads/for-6.6
+c69290557c7571dff3d995fa27619b965915e8a1 ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec refs/heads/regulator-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT3oG4ACgkQJNaLcl1U
-h9AvgggAgNRrHQKZS/KoqWy3o6vhBcWhrdgzOuWO9lL6KQuTgj7yrHNLtc6nzmb9
-QoK3vCxNaNufZtlbRzKbdFljD9jSbeaqYrExKkfJmVJ/xqhJede5btKwj1txd35Y
-Pzs+I9ey8epmPlhNFS/pqhksK3DG43VoOR8YwZAmR68cDo0SBbhtXzTgzOWoIXcz
-X5sH1HQIFitBMizTRWgLkVlGCn24fRj5wHte5pvusTXTrmJlcLsRyhjnMFZSAvpC
-hk5YaSjrm1KYyhYwO1q+a/t+ZoQqR3u1oks0sKFaEqwgkAQMMhekePc6Y9nwdkP1
-YAg3JZtOz3TteTUf8u2rS+2GRoxirA==
-=SOT4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT3oHQACgkQJNaLcl1U
+h9ATLgf/Su3Aajj+N7O55SxO6SY/DWgUDzIc2ZVZwG5akdD/po+oXqa5Y7iDPVw+
+oXcB9dbh0k4szuheBBCT8Fp88z1WMsLtyxRYh6StLKs+MG7Qgoex7P6i175LtRR1
+ernQKLCITES3qzddQY1AOAxeXerEnso3mYh6uAi2BfRjwf9U+56d/Kt7ipEbsZX4
+oR5tFAb9eZKMmaX6O9aSNvByyaHdIYruVXjccD1iRMrlBVEM8CcfN096nvz9GxZT
+ghEKDgW28WB+IO+ExzvpXZDGuPOSJWLTqFfdGjm17zd+G9m/BFgFchKUoxpK1bXj
+WlnKW8b1mSTlIp69xv1mG/mKZlkyjA==
+=3dgf
 -----END PGP SIGNATURE-----
 
---===============2180729316470229117==--
+--===============7534034840725617682==--
