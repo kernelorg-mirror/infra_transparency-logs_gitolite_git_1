@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0451155204567262469=="
+Content-Type: multipart/mixed; boundary="===============6964153447210929276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 05 Sep 2023 09:22:07 -0000
-Message-Id: <169390572768.31515.10715870987345277839@gitolite.kernel.org>
+Date: Tue, 05 Sep 2023 09:37:51 -0000
+Message-Id: <169390667192.10790.2382645311218415625@gitolite.kernel.org>
 
---===============0451155204567262469==
+--===============6964153447210929276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: f3ec2b5d879ef5bbcb24678914641343cb6399a2
     new: d3287e4038ca4f81e02067ab72d087af7224c68b
     log: revlist-f3ec2b5d879e-d3287e4038ca.txt
 
---===============0451155204567262469==
+--===============6964153447210929276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b192812905e4b134f7b7994b079eb647e9d2d37e af_unix: Fix data race around sk->sk_er
 6ad40b36cd3b04209e2d6c89d252c873d8082a59 kcm: Destroy mutex in kcm_exit_net()
 d3287e4038ca4f81e02067ab72d087af7224c68b Revert "net: macsec: preserve ingress frame ordering"
 
---===============0451155204567262469==--
+--===============6964153447210929276==--
