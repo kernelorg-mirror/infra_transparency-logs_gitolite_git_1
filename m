@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 05 Sep 2023 00:50:01 -0000
-Message-Id: <169387500164.11759.13256397847271798739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 05 Sep 2023 01:06:47 -0000
+Message-Id: <169387600742.28353.4364803138641998744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: a7fcd35dc14765a9c445019b913cb2a5210c933a
-    new: 3b75d7d2e3237513720a75db739f70e246ea701a
-    log: |
-         3b75d7d2e3237513720a75db739f70e246ea701a Tue Sep  5 12:46:46 AM UTC 2023
-         
+  - ref: refs/heads/fscrypt-pending
+    old: 0000000000000000000000000000000000000000
+    new: 20c67a16485a67964a81911d5c56bdac4383acc4
