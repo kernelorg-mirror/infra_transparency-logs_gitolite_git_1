@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 05 Sep 2023 14:55:16 -0000
-Message-Id: <169392571678.31891.6575358764616531653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 05 Sep 2023 14:56:21 -0000
+Message-Id: <169392578103.32344.3188337271581703922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 1ae027bc7baa69816b8de7ec10ab711952221c45
-    new: c67f22bd87a13217e4f0ff70ae8d359f521b727f
+  - ref: refs/heads/tmp.perf-tools
+    old: 9ea150a8d073c2f2987d7e9ea4c35856449c9cb2
+    new: 45fc4628c15ab2cb7b2f53354b21db63f0a41f81
     log: |
-         c67f22bd87a13217e4f0ff70ae8d359f521b727f foo
+         45fc4628c15ab2cb7b2f53354b21db63f0a41f81 perf parse-events: Fix driver config term
          
