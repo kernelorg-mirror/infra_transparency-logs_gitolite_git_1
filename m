@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7723382608114335533=="
+Content-Type: multipart/mixed; boundary="===============6762490416501324492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 06 Sep 2023 23:20:31 -0000
-Message-Id: <169404243157.25238.17321412668844862423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 06 Sep 2023 23:20:43 -0000
+Message-Id: <169404244321.25391.13289705870291165834@gitolite.kernel.org>
 
---===============7723382608114335533==
+--===============6762490416501324492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7ba2090ca64ea1aa435744884124387db1fac70f
     log: revlist-7733171926cc-7ba2090ca64e.txt
 
---===============7723382608114335533==
+--===============6762490416501324492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -322,4 +322,4 @@ c9ff3c65c26b8f89c6b925ce257fac348559d484 gfs2: use constant for array size
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 
---===============7723382608114335533==--
+--===============6762490416501324492==--
