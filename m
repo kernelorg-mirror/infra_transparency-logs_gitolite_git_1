@@ -1,44 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3414798392147620507=="
+Content-Type: multipart/mixed; boundary="===============1705771450404617806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 06 Sep 2023 12:08:07 -0000
-Message-Id: <169400208785.8462.2489466323719994664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 06 Sep 2023 12:57:32 -0000
+Message-Id: <169400505210.10772.8269885877344612209@gitolite.kernel.org>
 
---===============3414798392147620507==
+--===============1705771450404617806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 58f7d1bf36cb697e7cab922b71d04f7d925e3b1f
-    new: 09ffd7fb38ffdf82d678f31aa0cdf232090410d5
-    log: revlist-58f7d1bf36cb-09ffd7fb38ff.txt
+  - ref: refs/heads/for-next
+    old: 9e28649688166610bbd3d122ef3ed3490b20042d
+    new: 7a88bc875b7b61aac697245fe7c2192c428ff77c
+    log: revlist-9e2864968816-7a88bc875b7b.txt
 
---===============3414798392147620507==
+--===============1705771450404617806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58f7d1bf36cb-09ffd7fb38ff.txt
+Content-Disposition: attachment; filename=revlist-9e2864968816-7a88bc875b7b.txt
 
-a7399305db4cb1dc2e27862064d1d7bd12101245 dt-bindings: display: bridge: Document RZ/G2L MIPI DSI TX bindings
-e5078588df89dd7983663a224e6065c2a96f9af4 dt-bindings: display: bridge: renesas,rzg2l-mipi-dsi: Document RZ/V2L support
-43654a6ff7e8fa7972c612f54a067b16259323bd drm: rcar-du: Add RZ/G2L DSI driver
-2f1111f7ad652e16299fbe5325c383ca9cc0170c drm: rcar-du: Fix Kconfig dependency between DRM and RZG2L_MIPI_DSI
-537f8589a3c218393954971cf38a4d9fce44c51b drm: rcar-du: rzg2l_mipi_dsi: Enhance device lanes check
-d22ba3fa55a226ee0e19b868d4575932d50b9217 arm64: dts: renesas: r9a07g044: Add fcpvd node
-ad4086fe0eb8043bd0e43004892af4a05afbf13b arm64: dts: renesas: r9a07g044: Add vspd node
-f054b9ce265c427aafb7741d712e1b24671aeb3a arm64: dts: renesas: r9a07g044: Add DSI node
-46aa692b243839fc82a5b7e1fe53999a5049812e arm64: dts: renesas: r9a07g054: Add fcpvd node
-92301f8ed2645fa31d06c8036a738c1086bd6243 arm64: dts: renesas: r9a07g054: Add vspd node
-909c138c9e2d644733c1e913ac228331560ccc20 arm64: dts: renesas: r9a07g054: Add DSI node
-baf549abbcb72fd2b86895328a3249e228b930e0 arm64: dts: renesas: rzg2l-smarc: Link DSI with ADV7535
-ea13c0f552b6c64cfcb72c21150dd647b96bbe39 arm64: dts: renesas: rzg2lc-smarc: Link DSI with ADV7535
-09ffd7fb38ffdf82d678f31aa0cdf232090410d5 arm64: defconfig: Enable Renesas RZ/G2L MIPI DSI driver
+1245a70831b9af6874a02372168643bb733f4826 riscv: Improve flush_tlb()
+9d6fb1015281dc6396acecd372852dde9cadda3a riscv: Improve flush_tlb_range() for hugetlb pages
+cfe5187b7e936e6719f93e2a92c4d3ed1f7c9a7b riscv: Make __flush_tlb_range() loop over pte instead of flushing the whole tlb
+bbc9ad35b51b42a8f99963393f4b4ca5cff99918 riscv: Improve flush_tlb_kernel_range()
+84fe419dc7578b03e721b9bd6eb07947db70fd0e riscv: Introduce virtual kernel mapping KASLR
+54a519e6aff9a6bc8922149e94f89c4bf4e3e8fb riscv: Dump out kernel offset information on panic
+6b56beb5f6940f0b77cb520263651328a8378efa arm64: libstub: Move KASLR handling functions to kaslr.c
+3c35d1a03c8b864f08088d51e121aa7c0067b146 libstub: Fix compilation warning for rv32
+b7ac4b8ee73d4fec0998664c9dd61f089d481044 riscv: libstub: Implement KASLR by using generic functions
+efa3a995b550c1e9f520d26b412e8653b65a683c Merge patch series "bpf, riscv: use BPF prog pack allocator in BPF JIT"
+2254a7fdb83a27e85ec0cd770d75cebd99ed4fe5 Merge patch series "riscv: tlb flush improvements"
+7a88bc875b7b61aac697245fe7c2192c428ff77c Merge patch series "riscv: Introduce KASLR"
 
---===============3414798392147620507==--
+--===============1705771450404617806==--
