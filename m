@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5332972549763747213=="
+Content-Type: multipart/mixed; boundary="===============3513900397247539706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Sep 2023 15:21:02 -0000
-Message-Id: <169401366261.19769.13874684888101202551@gitolite.kernel.org>
+Date: Wed, 06 Sep 2023 15:21:37 -0000
+Message-Id: <169401369710.20042.17459779325499557120@gitolite.kernel.org>
 
---===============5332972549763747213==
+--===============3513900397247539706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 29fe7a1b62717d58f033009874554d99d71f7d37
-    new: 1a961e74d5abbea049588a3d74b759955b4ed9d5
-    log: revlist-29fe7a1b6271-1a961e74d5ab.txt
+  - ref: refs/heads/dev-queue
+    old: c9bcab726798c0cd4805df009eff471e56c0af86
+    new: b73504b4521335a74697e222bc0029ca1937d304
+    log: revlist-c9bcab726798-b73504b45213.txt
 
---===============5332972549763747213==
+--===============3513900397247539706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29fe7a1b6271-1a961e74d5ab.txt
+Content-Disposition: attachment; filename=revlist-c9bcab726798-b73504b45213.txt
 
 5aa48279712e1f134aac908acde4df798955a955 igc: Change IGC_MIN to allow set rx/tx value between 64 and 80
 8360717524a24a421c36ef8eb512406dbd42160a igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
@@ -40,5 +40,13 @@ ca7cfd73d02397099e10bf4a76ad6f53b2c27f71 Merge branch '1GbE' of git://git.kernel
 180a7419fe4adc8d9c8e0ef0fd17bcdd0cf78acd net: dsa: sja1105: complete tc-cbs offload support on SJA1110
 f8fdd54ee6a135dbe3bb482d817ecf1ab65c53db Merge branch 'sja1105-fixes'
 1a961e74d5abbea049588a3d74b759955b4ed9d5 net: phylink: fix sphinx complaint about invalid literal
+a77ac02aabc96cfe45cf46c20a938c84c760f227 i40e: fix livelocks in i40e_reset_subtask()
+8c551b59998bdf9f70bf486845659d7f586e3a5f iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+216aa0ac03c8bf5ebdaff38728754e678d840ac3 i40e: fix potential memory leaks in i40e_remove()
+8a1d78891f1d04f37038b23b2796f653d155dc7b i40e: fix 32bit FW gtime wrapping issue
+3c4490cb8e2cf7b3895432ee7d8c82da15a5a26a iavf: Fix promiscuous mode configuration flow messages
+4836ae389a24b4d705d31185141ed579e731b8b7 ixgbe: fix timestamp configuration code
+f464b5d944553c55f77e63fb30bcc9e89f6f3707 igb: clean up in all error paths when enabling SR-IOV
+b73504b4521335a74697e222bc0029ca1937d304 ice: Fix call trace when rebuild fails
 
---===============5332972549763747213==--
+--===============3513900397247539706==--
