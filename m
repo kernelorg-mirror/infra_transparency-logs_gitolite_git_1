@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6748119914918581989=="
+Content-Type: multipart/mixed; boundary="===============7547465153232266195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 06 Sep 2023 14:56:23 -0000
-Message-Id: <169401218342.1197.3426289879652570892@gitolite.kernel.org>
+Date: Wed, 06 Sep 2023 14:58:00 -0000
+Message-Id: <169401228001.1942.10081061607065460166@gitolite.kernel.org>
 
---===============6748119914918581989==
+--===============7547465153232266195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 68800bf8cd1a5e392089f10c58730a4e6a82e41d
-    new: 6026085c45a0af3be0258e2f6834c0d17033e19d
-    log: revlist-68800bf8cd1a-6026085c45a0.txt
+  - ref: refs/tags/loongarch-6.6
+    old: fa8506617c2448e7f572f04bd51606fa51e51826
+    new: cd84fa802c18468cd4f5e4177f15256af7d30320
+    log: revlist-fa8506617c24-cd84fa802c18.txt
 
---===============6748119914918581989==
+--===============7547465153232266195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68800bf8cd1a-6026085c45a0.txt
+Content-Disposition: attachment; filename=revlist-fa8506617c24-cd84fa802c18.txt
 
 8ff81bb24f68f747ab2f738c3d493b9c2cad52bf LoongArch: Drop unused parse_r and parse_v macros
 303be4b33562a5b689261ced1616bf16ad49efa7 LoongArch: mm: Add p?d_leaf() definitions
@@ -52,4 +52,4 @@ fb6d5c1d99ab6958c5e284f7aa5f0cc553f0268c kasan: Add (pmd|pud)_init for LoongArch
 5aa4ac64e6add3e40d5049e31275b2822daf885d LoongArch: Add KASAN (Kernel Address Sanitizer) support
 6026085c45a0af3be0258e2f6834c0d17033e19d LoongArch: Update Loongson-3 default config file
 
---===============6748119914918581989==--
+--===============7547465153232266195==--
