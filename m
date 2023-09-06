@@ -1,51 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2911255583032354877=="
+Content-Type: multipart/mixed; boundary="===============3414798392147620507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 06 Sep 2023 11:54:10 -0000
-Message-Id: <169400125015.29704.14565023538072151510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 06 Sep 2023 12:08:07 -0000
+Message-Id: <169400208785.8462.2489466323719994664@gitolite.kernel.org>
 
---===============2911255583032354877==
+--===============3414798392147620507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/dev
-    old: 0668f3b3dcc16239445be1f100563eb4735f3db0
-    new: 76debdb7f9dc6358cbb96f9a89e336a53cb389f3
-    log: revlist-0668f3b3dcc1-76debdb7f9dc.txt
-  - ref: refs/heads/dev.2023.09.05b
-    old: 0000000000000000000000000000000000000000
-    new: 70c49b2cbd4d4612d11dd9f61e93a7f6ab827711
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 58f7d1bf36cb697e7cab922b71d04f7d925e3b1f
+    new: 09ffd7fb38ffdf82d678f31aa0cdf232090410d5
+    log: revlist-58f7d1bf36cb-09ffd7fb38ff.txt
 
---===============2911255583032354877==
+--===============3414798392147620507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0668f3b3dcc1-76debdb7f9dc.txt
+Content-Disposition: attachment; filename=revlist-58f7d1bf36cb-09ffd7fb38ff.txt
 
-eb71f09723df8564bdce5ad66e1e2354d6f11384 Fix srcu_struct node grpmask overflow on 64-bit systems
-7aec6516af7570ed565f8bc9218e8d0c15ee937e EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-b6cf2cbff3d2b0cbc6a7375acd3d782a39ea40c9 EXP rcutorture: Test NMI diagnostics
-382981d90d0ed5f8a3224620d679d5b38bbba0aa EXP qspinlock: Diagnostics for excessive lock-drop wait loop time
-88843ddc3f01d407a26bdb828e5ac16d50152a1d EXP qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-baf58e13c32ba674a60b78dc83d9207988b7eeb0 EXP x86/nmi: Add a set_nmi_torture() function to control NMI testing
-7360867120a6ee1256c66cbecd7373e5d51402e7 EXP qspinlock: debugging
-4cbb6ba5f55bde69aeafbc844cd9859a02097ccb EXP locktorture: Add RCU CPU stall-warning notifier stub
-bd176827e40b54f22c1106b93164cca3afca97bb EXP qspinlock: Add spinlock_dump() to dump lock state
-bdf8fbdd3e7662243aa8e83243177de0b4301c7d EXP locktorture: invoke spinlock_dump() to dump lock state
-65647933357c4233b32c0c0575cb5249639aa3e0 locktorture: Add indication of task write-holding lock
-8b0dacc2d4eab07eaa963564e1ed4cdf40d39158 EXP qspinlock: Dump full qnode structure
-63a98cd6c8a7628d7b2372f83f44090cabfbaa9c locktorture: Dump CPUs running writer tasks when RCU stalls
-e6369ea1eef61d5c59039e210fb34ff2e8dc3cfe locktorture: Prevent spinloop from escaping lock-held diagnostics
-c311a090e4f09743af0d924d715253c9b9f86eb4 EXP sched: Export dump_cpu_task() to GPL modules for locktorture
-9fb90b4b93c39f97ea8005e201c68d1b3ef3eeac doc: Update /proc/cmdline documentation to include boot config
-947ba47b803a0ac8f3c5f1b8e0a12beccab94df4 fs/proc: Add boot loader arguments as comment to /proc/bootconfig
-76debdb7f9dc6358cbb96f9a89e336a53cb389f3 doc: Add /proc/bootconfig to proc.rst
+a7399305db4cb1dc2e27862064d1d7bd12101245 dt-bindings: display: bridge: Document RZ/G2L MIPI DSI TX bindings
+e5078588df89dd7983663a224e6065c2a96f9af4 dt-bindings: display: bridge: renesas,rzg2l-mipi-dsi: Document RZ/V2L support
+43654a6ff7e8fa7972c612f54a067b16259323bd drm: rcar-du: Add RZ/G2L DSI driver
+2f1111f7ad652e16299fbe5325c383ca9cc0170c drm: rcar-du: Fix Kconfig dependency between DRM and RZG2L_MIPI_DSI
+537f8589a3c218393954971cf38a4d9fce44c51b drm: rcar-du: rzg2l_mipi_dsi: Enhance device lanes check
+d22ba3fa55a226ee0e19b868d4575932d50b9217 arm64: dts: renesas: r9a07g044: Add fcpvd node
+ad4086fe0eb8043bd0e43004892af4a05afbf13b arm64: dts: renesas: r9a07g044: Add vspd node
+f054b9ce265c427aafb7741d712e1b24671aeb3a arm64: dts: renesas: r9a07g044: Add DSI node
+46aa692b243839fc82a5b7e1fe53999a5049812e arm64: dts: renesas: r9a07g054: Add fcpvd node
+92301f8ed2645fa31d06c8036a738c1086bd6243 arm64: dts: renesas: r9a07g054: Add vspd node
+909c138c9e2d644733c1e913ac228331560ccc20 arm64: dts: renesas: r9a07g054: Add DSI node
+baf549abbcb72fd2b86895328a3249e228b930e0 arm64: dts: renesas: rzg2l-smarc: Link DSI with ADV7535
+ea13c0f552b6c64cfcb72c21150dd647b96bbe39 arm64: dts: renesas: rzg2lc-smarc: Link DSI with ADV7535
+09ffd7fb38ffdf82d678f31aa0cdf232090410d5 arm64: defconfig: Enable Renesas RZ/G2L MIPI DSI driver
 
---===============2911255583032354877==--
+--===============3414798392147620507==--
