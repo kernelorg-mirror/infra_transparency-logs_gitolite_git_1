@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7256901664497477852=="
+Content-Type: multipart/mixed; boundary="===============6482129359097493192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 06 Sep 2023 16:58:14 -0000
-Message-Id: <169401949451.24433.10032226182697891790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 06 Sep 2023 16:58:25 -0000
+Message-Id: <169401950501.24552.17838171500138472667@gitolite.kernel.org>
 
---===============7256901664497477852==
+--===============6482129359097493192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 3f70c4c99287b0de033e1c153f659be479905067
     log: revlist-45fc4628c15a-3f70c4c99287.txt
 
---===============7256901664497477852==
+--===============6482129359097493192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ d6f23dd0c8fee1aa923bb9fd3c59e111f73a1fb3 perf kwork: Add `root` parameter to wor
 00168b46b2e815b96c048ceeba3dc98c59db0014 perf kwork top: Add BPF-based statistics on hardirq event support
 3f70c4c99287b0de033e1c153f659be479905067 perf kwork top: Add BPF-based statistics on softirq event support
 
---===============7256901664497477852==--
+--===============6482129359097493192==--
