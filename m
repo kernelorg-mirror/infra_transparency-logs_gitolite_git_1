@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8454528320143612358=="
+Content-Type: multipart/mixed; boundary="===============7516878301531565439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/linux-firmware
-Date: Wed, 06 Sep 2023 12:57:43 -0000
-Message-Id: <169400506342.10924.7837847682780526249@gitolite.kernel.org>
+Date: Wed, 06 Sep 2023 12:57:57 -0000
+Message-Id: <169400507781.11058.17408673992448247344@gitolite.kernel.org>
 
---===============8454528320143612358==
+--===============7516878301531565439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/linux-firmware
 user: srini
 changes:
-  - ref: refs/heads/sc8280xp-audio-fw-fixes
-    old: a8b2a94c58f5cd9dc93b56dbdce83c867ea1e916
-    new: 7d94e0fa84701f0c01877c21cf4857f94fd367ab
-    log: revlist-a8b2a94c58f5-7d94e0fa8470.txt
+  - ref: refs/heads/main
+    old: c7824580d310809b55f95626b4b46954911be820
+    new: 20d250e3e9093486a5b70daa942ffbaa3bade901
+    log: revlist-c7824580d310-20d250e3e909.txt
 
---===============8454528320143612358==
+--===============7516878301531565439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8b2a94c58f5-7d94e0fa8470.txt
+Content-Disposition: attachment; filename=revlist-c7824580d310-20d250e3e909.txt
 
 d6d655ade8fed37b93631ef17e406afc4fff5f21 amdgpu: add initial GC 11.0.3 firmware
 b1a7d7624fd227ebbc46a04a34fdcd08795ee69c amdgpu: add initial PSP 13.0.10 firmware
@@ -107,6 +107,5 @@ e805619f932249b74494906d5b41de0e73ad6013 WHENCE: Don't compress qcom json files
 a0142c57045701b7557c3060af5c4246c420e4d8 ath10k/WCN3990: move wlanmdsp to qcom/sdm845
 fe85b0c786b30dc4fd4e5178d26c0e4bf5170194 Merge branch 'qcom' into 'main'
 20d250e3e9093486a5b70daa942ffbaa3bade901 Merge branch 'mlimonci/make-dist' into 'main'
-7d94e0fa84701f0c01877c21cf4857f94fd367ab linux-firmware: add link to sc8280xp audioreach firmware
 
---===============8454528320143612358==--
+--===============7516878301531565439==--
