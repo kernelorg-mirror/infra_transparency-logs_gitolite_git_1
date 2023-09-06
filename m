@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7732542937845905323=="
+Content-Type: multipart/mixed; boundary="===============0545954015989510741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 06 Sep 2023 20:49:19 -0000
-Message-Id: <169403335919.9477.18067206849055612902@gitolite.kernel.org>
+Date: Wed, 06 Sep 2023 20:49:22 -0000
+Message-Id: <169403336255.9569.1349197973358979483@gitolite.kernel.org>
 
---===============7732542937845905323==
+--===============0545954015989510741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 3f86ed6ec0b390c033eae7f9c487a3fea268e027
     new: 7ba2090ca64ea1aa435744884124387db1fac70f
     log: revlist-3f86ed6ec0b3-7ba2090ca64e.txt
 
---===============7732542937845905323==
+--===============0545954015989510741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694033358 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694033361 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1694033358-8ae28be07a966cae51fb97e15b6bef798fc2f1a6
+nonce 1694033361-c60b2e9d7a4abdd79bc8a058ca85bad35acc20e4
 
-3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/char-misc-next
+3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT45c4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q7MQALNCO0v7x+SkugsfsxNt
-CAjKnYdcRTuPvWH80jsZ/LNuANXZVyqBOiCI3XfuR4diKKD5Le96zzzejuIijf27
-ZK+ep4p3NI3BjMaT9h23JmidjM9oZhdkQYqxHLm5AhCPB7nEWmxEJzPNh2c77jyE
-Cigv6gR/miDd8cvcieSEEy8JIiXtjz4k0CTXwbFMIWl+R9/07iR0vPI20LJfLZWG
-QqFhg4yCwfNzCtCUm7dye7EreU6KlR80wyCktnCdyQdMJ1N2VMH+uvsp7Oqx9ERc
-pBBj6Mr1OeBARmID7tu+Nj3JfxvAM+GSl5SxtVeRb5YrSpOV9TdNXQggejxZHlA4
-RqLOvWw/WRNaW0akIrXnU5NWknxYolMDtSnBSF7iUi2QPHk6e9cBqplmhgmxdMWw
-j41KlDaVgzH2jg6Q97sBKJXFTVEl9Kfue5c+zsoPewCgYnTHzT1IMjme2m1pTsb9
-TXyueughVfPiSi3XSkZ4ZvTSNeDdWW+YXadagS3RdqfuRd33vjIvEBOXYMazc98N
-QeIYqjXu0BpZfxr+K9d/Vj/sDtmJWnpeiREZlwOJ+8AaL4Y4guP7/cC89CtILWSm
-pmWvvi5JgDI14CRn5OEZ+4gZCiF8jlf71xswD6t3dUyfypeFDE51FulUk5Y3UT/s
-aLZzeykln7U+aPlvSBgswdSj
-=jgwt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT45dEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mbEP/3qkNfjigqIMx3yOYkWL
++DnzaKtupzlgo8fdCe+viWZZWdslCMdSj2XnLYw42XR6PDBy35xAPlnmOz9e8jMu
+QOjanTQu3LDlPSvOom1SgkNeCwscacVepREM9apFBpy3HfKrQ0ChmAqXDnecD26u
+L1cnoEvHkwCX8YvUc9sUJW8s03xWRvoO+R5hgEorWb51FbEpUKUrIwvxqV0x2YzA
+BWjAaQodMQbFfwlrzrwvq4Lq4oGXc3fmHJ/aX/kBjQH0QPC1psKd3XbsbDJ5gcYI
+cWTymaJhTErv9qjMHgzC63bUOc6sgar/EZGP3FLPQlDZOJQCBfbT8YofL2ts07xk
+gt+jmqP8ZKvDsT1YNpHpvQn/B4r5BAxwzEIRUpKbu42MxKdXZiW0jkkKMi49NxZ6
+2dEp5Rjj4WhiGRFT7J1mCkBoelZWLfgBpdW2gdSvG82cRU+U/kR1hrnLk3hMm8rp
+jwBFCwKNm1C2sSSx9bxxvmmY4cpK5K2Gr2bZEGjuQT5D60+1viN09cyAK4GEJskt
+vIsd9cCzkuQNL0PRVvvEEHpnLWqgTHouSiFbq+r0/njHRaATYca42mAZwY7ozyO/
+UcMT1AuVj8rvoemjROiahevhtEAZAVQt3fApjTiusg/CCRjgYpjJioVVfPA1/3c6
+sQ3r8E1vty0MKX5dMLxILHL7
+=dgmF
 -----END PGP SIGNATURE-----
 
---===============7732542937845905323==
+--===============0545954015989510741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of 
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 
---===============7732542937845905323==--
+--===============0545954015989510741==--
