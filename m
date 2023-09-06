@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 06 Sep 2023 03:51:39 -0000
-Message-Id: <169397229969.22535.11898215289496255668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Wed, 06 Sep 2023 03:57:34 -0000
+Message-Id: <169397265464.26246.5562253822928147047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: 863f0868c31f5bad1d2d58ec983486c493664dbd
-    new: 0beaf24caa6cf22b099a8b65ef16f2850e7960fd
+  - ref: refs/heads/next
+    old: a97f61a943be933e50b64a016e996ddfd3c9a9ce
+    new: 7effadb227668178e2220365f1e84c1b369d2855
     log: |
-         0beaf24caa6cf22b099a8b65ef16f2850e7960fd Wed Sep  6 03:48:29 AM UTC 2023
+         48b774c4fe40b387cae52e23e1959806eb596a82 damo_show: Add colorset in region box description
+         7effadb227668178e2220365f1e84c1b369d2855 damo_heats: Add an option to skip stdout heatmap colorset example
          
