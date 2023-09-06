@@ -1,27 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 06 Sep 2023 02:41:16 -0000
-Message-Id: <169396807658.4942.10807256761661637911@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6650093840113921118=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 06 Sep 2023 02:54:53 -0000
+Message-Id: <169396889371.12954.7548790701274726072@gitolite.kernel.org>
+
+--===============6650093840113921118==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 44c28940e24b405846d8712f5fe5eae53cb9acee
-    new: 9e28649688166610bbd3d122ef3ed3490b20042d
-    log: |
-         063119d90a06e6b93769bb1872ac55962d761c19 bpf: make bpf_prog_pack allocator portable
-         fb81d562ed1f69a2708cdcc3664f3df7b5d9c079 riscv: extend patch_text_nosync() for multiple pages
-         f071fe652d739a4e836351de36026e3f2483c879 riscv: implement a memset like function for text
-         19ea9d201008163e60622be610d68bfaf7baf3e5 bpf, riscv: use prog pack allocator in the BPF JIT
-         0db851561a0784abf2bdd593b13fed38e70137d3 Merge patch series "bpf, riscv: use BPF prog pack allocator in BPF JIT"
-         5bf68a586ff447b65b8043308915d9b10df8a166 riscv: Kconfig: Select DMA_DIRECT_REMAP only if MMU is enabled
-         6fd57a7392334b92acc6ac4b0403bc5a067d29d4 riscv: Kconfig.errata: Drop dependency for MMU in ERRATA_ANDES_CMO config
-         005846ea72654b3989b024de44e25fb18d235360 riscv: Kconfig.errata: Add dependency for RISCV_SBI in ERRATA_ANDES config
-         9e28649688166610bbd3d122ef3ed3490b20042d soc: renesas: Kconfig: For ARCH_R9A07G043 select the required configs if dependencies are met
-         
+    old: 9e28649688166610bbd3d122ef3ed3490b20042d
+    new: 7a88bc875b7b61aac697245fe7c2192c428ff77c
+    log: revlist-9e2864968816-7a88bc875b7b.txt
+
+--===============6650093840113921118==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9e2864968816-7a88bc875b7b.txt
+
+1245a70831b9af6874a02372168643bb733f4826 riscv: Improve flush_tlb()
+9d6fb1015281dc6396acecd372852dde9cadda3a riscv: Improve flush_tlb_range() for hugetlb pages
+cfe5187b7e936e6719f93e2a92c4d3ed1f7c9a7b riscv: Make __flush_tlb_range() loop over pte instead of flushing the whole tlb
+bbc9ad35b51b42a8f99963393f4b4ca5cff99918 riscv: Improve flush_tlb_kernel_range()
+84fe419dc7578b03e721b9bd6eb07947db70fd0e riscv: Introduce virtual kernel mapping KASLR
+54a519e6aff9a6bc8922149e94f89c4bf4e3e8fb riscv: Dump out kernel offset information on panic
+6b56beb5f6940f0b77cb520263651328a8378efa arm64: libstub: Move KASLR handling functions to kaslr.c
+3c35d1a03c8b864f08088d51e121aa7c0067b146 libstub: Fix compilation warning for rv32
+b7ac4b8ee73d4fec0998664c9dd61f089d481044 riscv: libstub: Implement KASLR by using generic functions
+efa3a995b550c1e9f520d26b412e8653b65a683c Merge patch series "bpf, riscv: use BPF prog pack allocator in BPF JIT"
+2254a7fdb83a27e85ec0cd770d75cebd99ed4fe5 Merge patch series "riscv: tlb flush improvements"
+7a88bc875b7b61aac697245fe7c2192c428ff77c Merge patch series "riscv: Introduce KASLR"
+
+--===============6650093840113921118==--
