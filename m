@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0835944338819379239=="
+Content-Type: multipart/mixed; boundary="===============8578514614957876206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
 Date: Wed, 06 Sep 2023 20:49:54 -0000
-Message-Id: <169403339411.10163.545057910982803796@gitolite.kernel.org>
+Message-Id: <169403339483.10216.7096923641755764677@gitolite.kernel.org>
 
---===============0835944338819379239==
+--===============8578514614957876206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/driver-core-next
     old: 3f86ed6ec0b390c033eae7f9c487a3fea268e027
     new: 7ba2090ca64ea1aa435744884124387db1fac70f
     log: revlist-3f86ed6ec0b3-7ba2090ca64e.txt
 
---===============0835944338819379239==
+--===============8578514614957876206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694033393 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1694033393-5374c5a5f97533ad15889bce3561e05f60239748
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694033394 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1694033393-f3479426b0f9df896fa64978c627ddc5e8fea6e9
 
-3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/usb-testing
+3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT45fEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FD4P/AxiE6KJE+RynojYlfBJ
-jbt+3r0fnRtI4lBvtHx9bpEkf5WRrwqFl4ZhRr7baUbRpji2nj9aLhpV81YDgnaO
-omOVoKZNPcEASN0Uk984+iiaBgaE+Pdl+26O3y8QC/hJehwkSaOcD2eJzzzzhy2t
-rn5wIasMRYZhTCJU4/WdaGUtwIqcn6speYMjHoKN5F0X+ikzklQCvchVj+T3Q2bc
-ufIT5puBRrGm8PLA9d/2avVs+jErXnm6IC85eqkypr5WWoTIg+uZf4JbB9i9l3U7
-818eIn9j5nS5V0Dg/waEQneXUNW7WniqnIWyny8Chl/Ml5PmoVEuC/FUfu3afrSc
-KMn7nsQxYI4+LfffcZ/kvjYrGMoB3xNgcO3+cj61/mIoE3JNZGp9lDNh3xpen/Bw
-0hKukb52bDVhILLGTFmpy5L7kvng7mNS6+LYqQykfWCqHcy0un4qMgBIA0xxxev/
-evrd16BaVcvJK3ygxcie6Hu5X9G60LdWxce89YnRY+LIINUSlbgWxv2+nVYYKWxW
-NgvcM9MbONiUNyDJjXLZ9ivLzOzZ0f9+cWSLczb80yb8eFQ+hqh0rY9YI9NXVxMh
-5LN2NEgoZFQTjemXgfO5MHypjvF3R9Is+eJS61Au/LwOkpstSfUCQCXrucwfxn3p
-8AqT2q2yEZ5JpJRxCnfTh0DK
-=uQ5U
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT45fIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NqEP/jr6uhdxd35TNXmkJoFX
+XC+CD29caWpDBQj/MsrEvG0W7pjJXm6QfuzySaFy7OneWaBGSJTQW56vdLA68QTd
+8byLI2njA2AgXMCoQQsdkyEOgb9B91AM3J5YIhwv5SlkzsaEHN1baFnCy5quGag8
+3OF/wkqOWYL9MmijlsHXi8kc7jUB9m9HCj2z2aiqSz/oQ9doYd6uN6gxuufnwYFF
+3ASzxh9XcF74Ga0LLdKxmHWbhTggCQV1bV9WRP7OzOVF85UZiKJSWFb4JqUAAziB
+byS+hSXgsQfM6AEpIeiltQ/k/jPR9WWGRTn7boxNkZGHi85zeKmVa/X5HNklr+E8
+33YILtz3o898Tl8m5JkCNmlPBKVq0+iZZRZP5o6ro19kbty22Ydsv0HexyPIjojs
+vQfJG2eoZQsi65DiD5SnanQP750AAOjvOoyW/gbftlY3oh8PyAsErCGxNzfh4omr
+yBel/sfTEqe+56kpigDFjg7HEHTFrj9QJzYdBziTGLOuGHsFZcqjAlKhUvC06olQ
+Rj5qxKpXnUU1a3nJG9w4BPYcu8SozSSt8kAoa+29E/7wM8WOCHHdyEWDNVoUGPJJ
+OErI8KbziLHUzMN2ojADNUN6DAY4WWzKJ82jmjsYPuaGVbWWC/oeo2zIHNjwKbGQ
+X5ioTSnsKMO67YumEaPuvFBJ
+=ecmi
 -----END PGP SIGNATURE-----
 
---===============0835944338819379239==
+--===============8578514614957876206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of 
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 
---===============0835944338819379239==--
+--===============8578514614957876206==--
