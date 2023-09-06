@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8578514614957876206=="
+Content-Type: multipart/mixed; boundary="===============2598693678609758767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 06 Sep 2023 20:49:54 -0000
-Message-Id: <169403339483.10216.7096923641755764677@gitolite.kernel.org>
+Date: Wed, 06 Sep 2023 20:49:57 -0000
+Message-Id: <169403339797.10306.11492237784649893826@gitolite.kernel.org>
 
---===============8578514614957876206==
+--===============2598693678609758767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 3f86ed6ec0b390c033eae7f9c487a3fea268e027
     new: 7ba2090ca64ea1aa435744884124387db1fac70f
     log: revlist-3f86ed6ec0b3-7ba2090ca64e.txt
 
---===============8578514614957876206==
+--===============2598693678609758767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694033394 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694033397 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694033393-f3479426b0f9df896fa64978c627ddc5e8fea6e9
+nonce 1694033396-76e5a80815429f8428fd26d9c2d5333a33008484
 
-3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/driver-core-next
+3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT45fIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NqEP/jr6uhdxd35TNXmkJoFX
-XC+CD29caWpDBQj/MsrEvG0W7pjJXm6QfuzySaFy7OneWaBGSJTQW56vdLA68QTd
-8byLI2njA2AgXMCoQQsdkyEOgb9B91AM3J5YIhwv5SlkzsaEHN1baFnCy5quGag8
-3OF/wkqOWYL9MmijlsHXi8kc7jUB9m9HCj2z2aiqSz/oQ9doYd6uN6gxuufnwYFF
-3ASzxh9XcF74Ga0LLdKxmHWbhTggCQV1bV9WRP7OzOVF85UZiKJSWFb4JqUAAziB
-byS+hSXgsQfM6AEpIeiltQ/k/jPR9WWGRTn7boxNkZGHi85zeKmVa/X5HNklr+E8
-33YILtz3o898Tl8m5JkCNmlPBKVq0+iZZRZP5o6ro19kbty22Ydsv0HexyPIjojs
-vQfJG2eoZQsi65DiD5SnanQP750AAOjvOoyW/gbftlY3oh8PyAsErCGxNzfh4omr
-yBel/sfTEqe+56kpigDFjg7HEHTFrj9QJzYdBziTGLOuGHsFZcqjAlKhUvC06olQ
-Rj5qxKpXnUU1a3nJG9w4BPYcu8SozSSt8kAoa+29E/7wM8WOCHHdyEWDNVoUGPJJ
-OErI8KbziLHUzMN2ojADNUN6DAY4WWzKJ82jmjsYPuaGVbWWC/oeo2zIHNjwKbGQ
-X5ioTSnsKMO67YumEaPuvFBJ
-=ecmi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT45fUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9cwP/0c5Zrw8+nKPQ9GGLlNi
+dGYEFZchV3AxKKNMwtbg8vsTFoA7XH6x6Sj1FIlCko4htYRD+l3qDTVqTi71vqiK
+cB5w7Ga/YDQ/+W+TsYYCGLSxEXQKnoDfjNAN1LMf8RAEauLPQTMglZwdsYQ+ECV/
+vFsqatRChAYCdSpbRtEu3tRk2ZPT23vmSCcFNvCaQjVgeeo0okOhw5/cXl6voU0n
+K22DNEdZZKNy5IvY05f8aMS4hnE6vMwNhMr3j0zM4yI4CzyMnetowPqnOuhIPv2n
+KzeFfzQ1lwx0NbK409GvTtKyZU7VjOhiBURtNhI9Zs5Rq140EKl1tEk6rRHslP8Z
+V6bz5zgjjX77Z5HnZY6qaz+JJ8keyKrXz5TAmX3WmhWZ2FcGHAC9ZabKtgCar9s5
+3FAIg1FTknjpgvxTlILKwyaNytnccnJVcW4uviNCWQ13ucpFBhniE71haC5XScn5
+UwEn95nyiFCbPm1+Gc3mZdEPLrYO1DHUggJIqpjN96K/k55wVWEwt1YHNnDFt9v/
+3SrKbMxAFOKlsTR0O1DHR2dFcZwG2gJakgQi69w7ZUSfR1DKBSH+1mXdp8Nnprqq
+RZDzM3ZVs0Ww2pCT8wjNB85fr+Lg0DQpWSKpfuqn2RBOAinhAWKJ0496JSe0Mgtm
+HcFxn1MImGzjqcmBAiyHUIHt
+=+Lxe
 -----END PGP SIGNATURE-----
 
---===============8578514614957876206==
+--===============2598693678609758767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of 
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 
---===============8578514614957876206==--
+--===============2598693678609758767==--
