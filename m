@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 06 Sep 2023 21:57:16 -0000
-Message-Id: <169403743694.28687.6110271236576100948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 06 Sep 2023 21:57:20 -0000
+Message-Id: <169403744078.28778.16479338656815447041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: f30c0d9d3e56bff2f41e8c3d01f7add49630f5bb
-    new: fdd63de4ead5495c9789050ce02db9ea517f38df
+  - ref: refs/heads/x86/urgent
+    old: 659df86a7b2fe98feb5f4ec880e694caaebd27ae
+    new: 3d7d72a34e05b23e21bafc8bfb861e73c86b31f3
     log: |
-         fdd63de4ead5495c9789050ce02db9ea517f38df *.mk: tfix
+         3d7d72a34e05b23e21bafc8bfb861e73c86b31f3 x86/sgx: Break up long non-preemptible delays in sgx_vepc_release()
          
