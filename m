@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7358526626632570358=="
+Content-Type: multipart/mixed; boundary="===============1717998138630964634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 06 Sep 2023 01:56:24 -0000
-Message-Id: <169396538415.3950.16194728038284587243@gitolite.kernel.org>
+Date: Wed, 06 Sep 2023 01:56:34 -0000
+Message-Id: <169396539422.4082.15482670787564496662@gitolite.kernel.org>
 
---===============7358526626632570358==
+--===============1717998138630964634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: a3b7039bb2b22fcd2ad20d59c00ed4e606ce3754
     new: 65d6e954e37872fd9afb5ef3fc0481bb3c2f20f4
     log: revlist-a3b7039bb2b2-65d6e954e378.txt
 
---===============7358526626632570358==
+--===============1717998138630964634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of 
 9e310ea5c8f6f20c1b2ac50736bcd3e189931610 Merge tag 'fuse-update-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 65d6e954e37872fd9afb5ef3fc0481bb3c2f20f4 Merge tag 'gfs2-v6.5-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 
---===============7358526626632570358==--
+--===============1717998138630964634==--
