@@ -1,19 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 06 Sep 2023 17:20:12 -0000
-Message-Id: <169402081266.9597.1761939615894083341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 06 Sep 2023 17:36:32 -0000
+Message-Id: <169402179226.20123.8408872003015511327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/for-linus
-    old: 26641b3f22abe3f03bd8e078c116cc98de740f43
-    new: 8ec9c1d5d0a5a4744516adb483b97a238892f9d5
-    log: |
-         8ec9c1d5d0a5a4744516adb483b97a238892f9d5 PCI: Free released resource after coalescing
-         
+  - ref: refs/tags/landlock-6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4af79f8cc404f052406dfd8dbc682de6ceeafbde
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: be10b9a5f6c20252039731efda7f268e57fb5dd3
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/tags/v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/tags/v6.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
+  - ref: refs/tags/v6.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/tags/v6.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/tags/v6.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
