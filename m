@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 06 Sep 2023 17:07:44 -0000
-Message-Id: <169402006448.32417.3975549917807564124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 06 Sep 2023 17:20:12 -0000
+Message-Id: <169402081266.9597.1761939615894083341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 07933ef8a6068f2b609b6bf28c2204ee48a5dda4
-    new: e7329a5be479452162ea89c013f7c8a1f0a597ff
+  - ref: refs/heads/for-linus
+    old: 26641b3f22abe3f03bd8e078c116cc98de740f43
+    new: 8ec9c1d5d0a5a4744516adb483b97a238892f9d5
     log: |
-         e7329a5be479452162ea89c013f7c8a1f0a597ff Merge branch 'thermal-core' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: ea4f9c37f75271d8256a326c938c95733e1fec35
-    new: e7329a5be479452162ea89c013f7c8a1f0a597ff
-    log: |
-         9ffa7b92bc768609243d79fb0c0125b9704c7061 thermal: core: Clean up headers of thermal zone registration functions
-         d332db8fc1a2dfb4738281b1d6d4ed20115dd9d3 thermal: core: Add function for registering tripless thermal zones
-         cbcd51e822bf51dfc7715f474c24fbca0ed23fce thermal: Use thermal_tripless_zone_device_register()
-         edd220b33f479cf9dcda0bfefb2cb8c5902e9885 thermal: core: Drop thermal_zone_device_register()
-         e7329a5be479452162ea89c013f7c8a1f0a597ff Merge branch 'thermal-core' into linux-next
+         8ec9c1d5d0a5a4744516adb483b97a238892f9d5 PCI: Free released resource after coalescing
          
