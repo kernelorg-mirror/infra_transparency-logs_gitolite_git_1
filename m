@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8698509825324888749=="
+Content-Type: multipart/mixed; boundary="===============5517976636941051844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
-Date: Thu, 07 Sep 2023 19:59:37 -0000
-Message-Id: <169411677799.1719.7985195223897824985@gitolite.kernel.org>
+Date: Thu, 07 Sep 2023 20:00:17 -0000
+Message-Id: <169411681730.3709.3954852813910922662@gitolite.kernel.org>
 
---===============8698509825324888749==
+--===============5517976636941051844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rw/ubifs
 user: rw
 changes:
-  - ref: refs/heads/next
-    old: b5fda08ef213352ac2df7447611eb4d383cce929
+  - ref: refs/heads/master
+    old: 3676f32a98cd6ed4481c21bceb8b4829d4b6d1cf
     new: 017c73a34a661a861712f7cc1393a123e5b2208c
-    log: revlist-b5fda08ef213-017c73a34a66.txt
+    log: revlist-3676f32a98cd-017c73a34a66.txt
 
---===============8698509825324888749==
+--===============5517976636941051844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5fda08ef213-017c73a34a66.txt
+Content-Disposition: attachment; filename=revlist-3676f32a98cd-017c73a34a66.txt
 
 29d26f1215de14721188988a59b1426abb85b7be mm: remove ARCH_IMPLEMENTS_FLUSH_DCACHE_FOLIO
 bcc6cc832573a99d1f935c89a28e2c71fd1aaf0c mm: add default definition of set_ptes()
@@ -1051,4 +1051,4 @@ ac2224a467b499730057525924f6be3f4fdb0da5 Merge tag 'mips_6.6' of git://git.kerne
 4a0fc73da97efd23a383ca839e6fe86410268f6b Merge tag 's390-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 017c73a34a661a861712f7cc1393a123e5b2208c ubi: Refuse attaching if mtd's erasesize is 0
 
---===============8698509825324888749==--
+--===============5517976636941051844==--
