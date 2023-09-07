@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8826566879587374414=="
+Content-Type: multipart/mixed; boundary="===============8352923660044996145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 07 Sep 2023 09:42:08 -0000
-Message-Id: <169407972810.4706.4634031210097694623@gitolite.kernel.org>
+Date: Thu, 07 Sep 2023 09:42:11 -0000
+Message-Id: <169407973132.4819.10353156974680516771@gitolite.kernel.org>
 
---===============8826566879587374414==
+--===============8352923660044996145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 3f86ed6ec0b390c033eae7f9c487a3fea268e027
     new: 7ba2090ca64ea1aa435744884124387db1fac70f
     log: revlist-3f86ed6ec0b3-7ba2090ca64e.txt
 
---===============8826566879587374414==
+--===============8352923660044996145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694079727 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694079730 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1694079726-dc3b3ade51ad929588faf4cd09c66f54df7e5e33
+nonce 1694079730-74471cf8c3af4fa1a2ebff401e86472386c7d09b
 
-3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/staging-next
+3f86ed6ec0b390c033eae7f9c487a3fea268e027 7ba2090ca64ea1aa435744884124387db1fac70f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT5mu8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2dMQAKMGD/OqUNHaR1EbMI69
-77fBWKTeVLCJD9KZg1zlXagLGnQ/4cIn5ZzIBZHfgJwah9VZWz7agZhuTiIvTJQ4
-LrbcMVxKxmCuQ59iCBZEeaL5YAm4NRfdR0eiXihVF5xpvArB4w6mrCturjWozbOD
-Yosw3i+229JVImk7/VrtVP7myFyRfua5gS/ZxwHDgbq9BK+ow/qhRFZpyI0gpmvY
-VD1gdwoAPV0B5FhIFyebJwMx5U21YojBvgzFYOsPp6MEgEE/sVZKnSpgDxvY/WES
-s+kE0ba1ouRvMMCeHj/gFabtPiybX1F/2VcCYw/zhEc8wp4cEMN8hj4uXAy9Eb+q
-G0kTlBfNztxDGAQpeXLT+ELMcOUC/cvhvMp++47oqGU4dsjvLy1WnKMiqG/i+PgW
-iUaqn5UTrzzGSz/Umck2TJ0XtFsK+TG0uObprateYtplhDSl7bOHmpBKKPBZG+Cg
-xYLnUxNJCMtQ/ZpEC7uM6CO++POlfnKLuJBPQnxqNQAdUzC/4ZCe60Jg03A7dXlK
-h48UF0ShdJ0cc6HplE6GMJe9qMbrRrJetmu4UARDGupkfnb/u4xIVN+0imbXwezp
-eINVXLvkv8txMZ7/C14KolqzjFLxRhS0f9+3RntExlUPPY+sPf0ogpBft43brUKd
-zHYqrby1mLiBScZRBpJMHqXw
-=SESb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT5mvIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AeQP/RjNKtBSg6UR+GmB0g5Z
+iQDe+Q6Bo0YvMXjRwaejxailTbFsjDOpmX9D5oopXZYLtmBLHmb01KIVq/7w7Skc
+No6264L7LBG7hUtOwaIUJWdCUO28BPYVpVivCJp8NYdopAtNwhge0TncnFLJwwC0
+WNT0voaTPFOnkEbZkyqxzt1r0uVYyi7qNxf0b0BX2pNeF6qQhmGvcXjefsgghjuk
+yXJ9ff2jLEURn/5XPqCoy6lM28vq9mU2OcnTQKsQ3LMJFGze2BJ0FuRTGQ2MWxoD
+AJEdr1Cor+UVMLemeOhNpV477eskMm6msYic5bvlyXIRXXZ2VxOJjIv1oJ++zaA0
+CayAOmE+RulAXpfRkW0fVjVFrvygcm1iFuwlXgcf0B9/nFNJPBnHsS+dx6juHr3S
+NVgzeK4xAyiOUFZb8Vs5lMIImavj/iXkzYCX2O8CWBgdZcwUAsxdTQBubzVRDCTi
+vJLGHtL5LbkyTCNMElM4m2T9mgMD1DO4i1lE53wJ2R29cEtndRCKQCHwijVEl2Dq
+AtUcSzERl38b8eIpEahYEjgI0WhuLfi4ie4TF3QUHXfWCpXwIzESf/6Xn6t9BadC
+0iRVZYpITDeLNygoFcF7O96ras/Z1sd82KfJnlKlFFkOC4yimH2zmhXMDlJHm82+
+LUC06nK72EBxUi0zkZ+VyCXV
+=MJkF
 -----END PGP SIGNATURE-----
 
---===============8826566879587374414==
+--===============8352923660044996145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of 
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 
---===============8826566879587374414==--
+--===============8352923660044996145==--
