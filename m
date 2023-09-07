@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/sbc
-Date: Thu, 07 Sep 2023 17:14:15 -0000
-Message-Id: <169410685583.13567.4963331652510455342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 07 Sep 2023 17:15:33 -0000
+Message-Id: <169410693352.15742.14779646782187773240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/sbc
-user: holtmann
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 4a62b40604a56fb270aa35b68e9918caf8fe3115
-    new: e099c6cd43f717d22f4bda56dd2865304fac0480
-    log: |
-         15a2b5b6177f7ea5a5a802d9d1de4a283520f883 sbc: Use SPDX-License-Identifier instead of license boilerplate
-         e099c6cd43f717d22f4bda56dd2865304fac0480 src: Use SPDX-License-Identifier instead of license boilerplate
-         
+  - ref: refs/tags/devicetree-fixes-for-6.6-1
+    old: 7e87592ccc04556ea66b8a7b85f63ab774641c2b
+    new: 9f89ac22907e2ccac7e1e5f1623d1a98a3ae7bd8
