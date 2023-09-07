@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 07 Sep 2023 21:59:27 -0000
-Message-Id: <169412396798.23286.12364526092269770534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 07 Sep 2023 22:09:46 -0000
+Message-Id: <169412458631.31562.8447515763381088540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/tags/net-6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 7d3cb775883baa7e11df3528421e74db35f50c1b
+  - ref: refs/heads/main
+    old: 1403a54032fd0ea599c6006ff16e3a7b8f127d10
+    new: 50ab5f1222ceb8c4475c6c135295cce1409885c5
+    log: |
+         50ab5f1222ceb8c4475c6c135295cce1409885c5 lsm: add a LSM specific README.md and SECURITY.md
+         
