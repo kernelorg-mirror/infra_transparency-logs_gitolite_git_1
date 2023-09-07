@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 07 Sep 2023 04:03:53 -0000
-Message-Id: <169405943365.5534.717428392870148226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Thu, 07 Sep 2023 04:12:33 -0000
+Message-Id: <169405995317.13075.17849729001763077373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/experimental
-    old: e5e44418d0ec14dd028881e5557aa6f119b698d3
-    new: 884866ca07817e97c59605a2fa858a0b732d3f3c
+  - ref: refs/heads/loongarch-next
+    old: 6026085c45a0af3be0258e2f6834c0d17033e19d
+    new: 671eae93ae2090d2df01d810d354cab05f6bed8b
     log: |
-         884866ca07817e97c59605a2fa858a0b732d3f3c erofs-utils: lib: fix an overflow issue of unmapped extents
+         671eae93ae2090d2df01d810d354cab05f6bed8b LoongArch: Update Loongson-3 default config file
          
