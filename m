@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 07 Sep 2023 12:28:01 -0000
-Message-Id: <169408968190.31265.11318085662398690070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Thu, 07 Sep 2023 12:33:21 -0000
+Message-Id: <169409000187.2563.8575349408013811255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/spi-fix-v6.6-merge-window
-    old: 0000000000000000000000000000000000000000
-    new: d94493270c62e55a73ad5ff0034a146684efe24c
+  - ref: refs/heads/for-6.6-fixup
+    old: 3c31041e37324e143bee98604bb31481e905b4b3
+    new: 4952801fc6adb5b50b8ec2bcc5aeef92fcce8730
+    log: |
+         4952801fc6adb5b50b8ec2bcc5aeef92fcce8730 Revert "printk: export symbols for debug modules"
+         
