@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Thu, 07 Sep 2023 20:34:26 -0000
-Message-Id: <169411886646.26380.15488349427560442620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 07 Sep 2023 21:01:44 -0000
+Message-Id: <169412050489.14536.15498502028413649148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/rtc-6.6
-    old: 0000000000000000000000000000000000000000
-    new: 770c08a9643857cada931a4f6fcee67d8d2b62bb
+  - ref: refs/heads/master
+    old: 32f1d5bea98f1a7fcc322d98b9ab378803adca1d
+    new: cc49bd1be19fef9eb3fa4808d44faa0cd0bd557a
+    log: |
+         cc49bd1be19fef9eb3fa4808d44faa0cd0bd557a Thu Sep  7 09:00:07 PM UTC 2023
+         
