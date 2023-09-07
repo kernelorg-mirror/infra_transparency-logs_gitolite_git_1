@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 07 Sep 2023 16:04:38 -0000
-Message-Id: <169410267809.26586.1824094715965649706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 07 Sep 2023 16:05:30 -0000
+Message-Id: <169410273015.28581.10909001557965926957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/b4/vfs-ntfs3-kill_sb
-    old: 0000000000000000000000000000000000000000
-    new: dddaaa39dd8a45083b77fdc14eb82d0dcc158f6e
+  - ref: refs/heads/tmp.perf-tools-next
+    old: cdd06dc23e51e19a8671c7d82be7a1d23f04c023
+    new: 4d81943df7e2021c6669e68df753cd165f86bbae
+    log: |
+         bd78f49288e68e218627630e4b4d7fbaeffcdef5 perf lock contention: Add --lock-cgroup option
+         d604486997ca75a8932544897567c68c4277ef8b perf lock contention: Add -G/--cgroup-filter option
+         4d81943df7e2021c6669e68df753cd165f86bbae perf test shell lock_contention: Add cgroup aggregation and filter tests
+         
