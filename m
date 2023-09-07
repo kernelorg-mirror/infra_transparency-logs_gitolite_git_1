@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Thu, 07 Sep 2023 12:18:33 -0000
-Message-Id: <169408911307.24656.14771592743852323139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 07 Sep 2023 12:23:56 -0000
+Message-Id: <169408943655.28165.15235366439114785599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-6.6-fixup
-    old: 0000000000000000000000000000000000000000
-    new: 3c31041e37324e143bee98604bb31481e905b4b3
+  - ref: refs/heads/kdevops
+    old: 7ba2090ca64ea1aa435744884124387db1fac70f
+    new: 5838421f56cb25fca77cf5f2504493b703063c07
+    log: |
+         5838421f56cb25fca77cf5f2504493b703063c07 DEBUG: set the QUERIED flag on all directories when allocating
+         
