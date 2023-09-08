@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3465923435496473599=="
+Content-Type: multipart/mixed; boundary="===============0437332355202126553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Sep 2023 14:11:41 -0000
-Message-Id: <169418230175.30233.12090760092331318967@gitolite.kernel.org>
+Date: Fri, 08 Sep 2023 14:12:25 -0000
+Message-Id: <169418234520.30593.17929804980284331602@gitolite.kernel.org>
 
---===============3465923435496473599==
+--===============0437332355202126553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,51 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bd6c11bc43c496cddfc6cf603b5d45365606dbd5
-    new: 73be7fb14e83d24383f840a22f24d3ed222ca319
-    log: revlist-bd6c11bc43c4-73be7fb14e83.txt
+  - ref: refs/heads/dev-queue
+    old: 2f37edb8a6ac91e79c8f4e55553d34ee4f89d4a7
+    new: 7b33a9c2a04ebea45e27396d8c43e38004ca54af
+    log: revlist-2f37edb8a6ac-7b33a9c2a04e.txt
 
---===============3465923435496473599==
+--===============0437332355202126553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd6c11bc43c4-73be7fb14e83.txt
+Content-Disposition: attachment; filename=revlist-2f37edb8a6ac-7b33a9c2a04e.txt
 
-abd4fc775857cda97cde08d500a60b00617b8168 ceph: prevent snapshot creation in encrypted locked directories
-230bd8b98ddfae3b7093671d4973236dc724d0bb ceph: update documentation regarding snapshot naming limitations
-e3dfcab2080dc1f9a4b09cc1327361bc2845bfcd ceph: drop messages from MDS when unmounting
-1464de9f813e35559ff049f1f1f20f1e2a31d6b8 ceph: wait for OSD requests' callbacks to finish when unmounting
-295fc4aa7de4b72cfd764b75a238f79b9433e3ec ceph: fix updating i_truncate_pagecache_size for fscrypt
-d9ae977d2d5635bde4fe75657417f5cffb14c954 ceph: switch ceph_lookup/atomic_open() to use new fscrypt helper
-e6a28d6303a987a922b9107321d87592b2e6da77 libceph: do not include crypto/algapi.h
-4774faf854f53461fd22daa73f3881fe11b6b755 PCI: dwc: Implement generic suspend/resume functionality
-9fda4d09905db9ecae17ad741924a7530aa3c96e PCI: layerscape: Add power management support for ls1028a
-704e2c6107f1a5353a1038bac137dda0df2a6dd0 Merge tag 'icc-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-cdf4100eaa1f4107fcf7c95b5eccca96cca6c777 drm/gpuva_mgr: remove unused prev pointer in __drm_gpuva_sm_map()
-feea65a338e52297b68ceb688eaf0ffc50310a83 powerpc/powernv: Fix fortify source warnings in opal-prd.c
-22b165617b779418166319a19fd926a9c6feb9a3 powerpc/powernv: Use struct opal_prd_msg in more places
-fabdb27da78afb93b0a83c0579025cb8d05c0d2d powerpc: Drop zalloc_maybe_bootmem()
-fe32945203ffc8d6fed815f7ed7729219f8b0ab6 cxl: Drop unused detach_spa()
-c040c7488b6a89c98dd0f6dd5f001101413779e2 powerpc/pseries: Move VPHN constants into vphn.h
-9a6c05fe9a998386a61b5e70ce07d31ec47a01a0 powerpc/pseries: Move hcall_vphn() prototype into vphn.h
-1aa000667669fa855853decbb1c69e974d8ff716 powerpc: Don't include lppaca.h in paca.h
-eac030b22ea12cdfcbb2e941c21c03964403c63f powerpc/pseries: Rework lppaca_shared_proc() to avoid DEBUG_PREEMPT
-dd613a4e45f8d35f49a63a2064e5308fa5619e29 HID: uclogic: Correct devm device reference for hidinput input_dev name
-4794394635293a3e74591351fff469cea7ad15a2 HID: multitouch: Correct devm device reference for hidinput input_dev name
-197d3143520fec9fde89aebabc9f0d7464f08e50 HID: nvidia-shield: Reference hid_device devm allocation of input_dev name
-8eb8c2735306526929141052c82bd118a7a2119b PCI: brcmstb: Assert PERST# on BCM2711
-6dac1507a654f897ae98d7ec1a12b712c3ec4d47 PCI: brcmstb: Remove stale comment
-4569820881c6eb0e273d7f584ee511b825b98601 dt-bindings: Drop remaining unneeded quotes
-80f1c3c76dbc8dfa0b843daed87a6b071547307e dt-bindings: yamllint: Enable quoted string check
-7839d566c653bc5a6c858a70c66e2e123cad0b0b dt-bindings: ufs: qcom: Add reg-names property for ICE
-a11eaed308efc7a80688c56533491376a1136f97 dt-bindings: ufs: qcom: Add sm6115 binding
-e95094d05d94728e350b2afe4574869cb309dd2f dt-bindings: ufs: qcom: Add ICE to sm8450 example
-911325d2324e320456351ea5d165f31aa3b222d1 dt-bindings: crypto: ice: Document sm8450 inline crypto engine
-2b59332ead54870ed0f1a8b122a1d640a4865fdc ASoC: cs42l43: Use new-style PM runtime macros
-45b4878b0330e255059135dfab4e01d12feb5580 ASoC: audio-graph-card.c: move audio_graph_parse_of()
-e87cf8a28e7592bd19064e8181324ae26bc02932 SUNRPC: clean up integer overflow check
-08be82ba0cffdfa15ce2e2c312cb704823971862 NFS: Move common includes outside ifdef
 96562c45af5c31b89a197af28f79bfa838fb8391 NFSv4/pnfs: minor fix for cleanup path in nfs4_get_device_info
 a841c9cb9b04b05525f0928633e84e95921ab298 filemap: Fix errors in file.c
 08b45fcb2d4675f6182fe0edc0d8b1fe604051fa nfs/blocklayout: Use the passed in gfp flags
@@ -1050,5 +1016,39 @@ ff6e6ded54725cd01623b9a1a86b74a523198733 Merge tag 'rtc-6.6' of git://git.kernel
 8d844b351824d622fa28bb0cd7a8fecf9aae05ed Merge tag 'pwm/for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
 2ab35ce202f8ba56d4b0930985426214341638a7 Merge tag 'devicetree-fixes-for-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 73be7fb14e83d24383f840a22f24d3ed222ca319 Merge tag 'net-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+dce4c84c55255dc5cc5a90588922c3197f8a3acc ice: prefix clock timer command enumeration values with ICE_PTP
+3cfe9cd157887c76eba3973fa39d03ca8bb80fc8 ice: retry acquiring hardware semaphore during cross-timestamp request
+6bae90c2c346209a6c4ea3167eabece97215db99 ice: Support cross-timestamping for E823 devices
+23718eaa1fa21c068a6070b461c75e75c09f73a7 ice: introduce hw->phy_model for handling PTP PHY differences
+5d23f5df7c2eee5c990c1212875ef89cd0b64de2 i40e: fix livelocks in i40e_reset_subtask()
+516a9ccdf870f20d81d687059b1afa3b750d6651 ice: PTP: Clean up timestamp registers correctly
+9a85273f8d962b85b55661770d0e32360d2c0b3c ice: PTP: Rename macros used for PHY/QUAD port definitions
+49b98f4bef66ba73cf16e571cc1ee3f3b8adebc4 ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+500ffca0d6a2be2a312458efae8f99f611ece719 ice: Auxbus devices & driver for E822 TS
+c285186479b23dccb6ebbc2d084b9b4972877b29 ice: Use PTP auxbus for all PHYs restart in E822
+bec1b2cc72122430e0d9324099829565e5df91af ice: PTP: add clock domain number to auxiliary interface
+71dae7d79bb14e0cacf36de3d927a7eedc21f319 ice: Remove the FW shared parameters
+5d87dc9b765c708b31e1a2fcb18fb218481ad649 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+40787c9469dc421abc363a73c8d2411c095c0388 i40e: fix potential memory leaks in i40e_remove()
+37a5c04c31f97a373f586f7ef54d4c046d0dd18e ice: remove ICE_F_PTP_EXTTS feature flag
+b9d065aed598239489ac596e2b6420a9881ff364 ice: fix pin assignment for E810-T without SMA control
+f59ef7f2a351d0e5569770c4dc7e931bb5dd448f ice: don't enable PTP related capabilities on non-owner PFs
+78eabeb0b540502cbc8749268ce4e6c8c77d4142 ice: check the netlist before enabling ICE_F_SMA_CTRL
+f3ce8753a7fbbbb1d27879c5429458866db2c5e9 ice: check netlist before enabling ICE_F_GNSS
+f1903019a0925e1973eed187cd437b4eccb73c9a i40e: fix 32bit FW gtime wrapping issue
+2307293f655ba416e51eaa7b4e68d7f1ed84e6cf i40e: add tracepoints for nvmupdate troubleshooting
+93577f73e96d425244bd39862a1c5a34afba0eae ice: remove unused ice_flow_entry fields
+9fd6de349a673aefad478d85be2fd2e43aa503f0 iavf: Fix promiscuous mode configuration flow messages
+1e4fdff47d97d59bed03d128b04925dba300fc59 ethernet/intel: Use list_for_each_entry() helper
+d6c83974be583626d2634264b2d38abb0adaf950 ixgbe: fix timestamp configuration code
+8f088d131ee59f9c29c4819ccae150cef6fe59a8 ice: remove FW logging code
+15464207480910d85ef1f801a432a38e85612984 ice: configure FW logging
+cb5efe829ce870109519c8e4cc2012fe7abb4a66 ice: enable FW logging
+030f7abd9972a70c53849948569c23257e04aa52 ice: add ability to read FW log data and configure the number of log buffers
+eaf30c1c7d47d2713aa7837f90574d4faa26c1c9 ice: add documentation for FW logging
+8401a49e2315cff60737ff1cb9e70066c46811a5 igb: clean up in all error paths when enabling SR-IOV
+13b2fc1a6b8c72321c51aacc6ef17986557e4073 iavf: remove "inline" functions from iavf_txrx.c
+4c631a036b300e73ecb8aff3481eec12f6752bf6 ice: add drop rule matching on not active lport
+7b33a9c2a04ebea45e27396d8c43e38004ca54af ice: Fix call trace when rebuild fails
 
---===============3465923435496473599==--
+--===============0437332355202126553==--
