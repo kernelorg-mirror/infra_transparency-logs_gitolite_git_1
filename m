@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 08 Sep 2023 21:37:08 -0000
-Message-Id: <169420902858.29682.13646962256771320924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 08 Sep 2023 21:37:54 -0000
+Message-Id: <169420907451.31214.1582472057818909866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: c79d76301e4f4eec6788ff1b0ea3116c9f68ebc0
-    new: baa904ce323cb0dcf637afa7b1a9203dd59c8da2
+  - ref: refs/heads/seen
+    old: 60d3dc0b6012f9433b040975b99a8638e5dc66a2
+    new: 8854cd0f85925837bc9f3ab755ce8f8d16b141ca
     log: |
-         8974e2c0a9edbb6a412451ea0dd1a8890cf2f2d1 Fixes for 6.5
-         5c2ed31398a3b534265af5a36cc74607db119435 Fixes for 6.4
-         5c58364d5fd497290c012fcebbe6c41760729518 Fixes for 6.1
-         304469cba3b954784594857507dc9f20ab6b8e9a Fixes for 5.15
-         f0eea37f6ea3dd0e4eeab38f46d709c5e330b96f Fixes for 5.10
-         803b39e009db1247341d60f3786ad3d794178955 Fixes for 5.4
-         fb3ff32bf931d2905ae210b05e7cf0259e630591 Fixes for 4.19
-         baa904ce323cb0dcf637afa7b1a9203dd59c8da2 Fixes for 4.14
+         fcce01bc1980b3c65d45ac71846fe54a3b005579 hex-ll: split out functionality from hex
+         95a369d02bc6f935c9f326c7ac101a18385dc1e2 wrapper: remove dependency to Git-specific internal file
+         534852886568d66e15b69b51fd37c3e03391c2df config: correct bad boolean env value error message
+         b5a8945c5c703c9c1f0692fd681d4496dd37fa2d parse: create new library for parsing strings and env values
+         ccaa32fd318ba95fe5bb466573cec824356a2d4d git-std-lib: introduce git standard library
+         c2a0c3f88202d334deef2dc3dcd92a3f6cafe36b git-std-lib: add test file to call git-std-lib.a functions
+         87ea7b14b8565dad92cfadfee41ec874481a6bd0 Merge branch 'cw/git-std-lib' into seen
+         4f73685343dbe141b1e05dca08a7a3af5ca64c11 Merge branch 'js/doc-unit-tests-with-cmake' into seen
+         8854cd0f85925837bc9f3ab755ce8f8d16b141ca Merge branch 'js/config-parse' into seen
          
