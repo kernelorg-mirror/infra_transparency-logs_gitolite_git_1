@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 08 Sep 2023 21:38:09 -0000
-Message-Id: <169420908947.31440.11593245751852429076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 08 Sep 2023 21:38:10 -0000
+Message-Id: <169420909023.31491.14397042674845895642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/todo
-    old: 05c5b73108a8212ac96a5c82241afbdd4caae6f0
-    new: 4d456c54bf1852e825d56e627a8ffd672ce5da9d
+  - ref: refs/heads/kdevops
+    old: 2dde18cd1d8fac735875f2e4987f11817cc0bc2c
+    new: e84395d87bf1e6ccab36b7277dd5b6f293e7dee0
     log: |
-         4d456c54bf1852e825d56e627a8ffd672ce5da9d What's cooking (2023/09 #03)
+         e84395d87bf1e6ccab36b7277dd5b6f293e7dee0 xfs: report XFS's i_version value in getattr
          
