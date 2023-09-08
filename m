@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 08 Sep 2023 22:51:22 -0000
-Message-Id: <169421348215.19427.11422677090671010947@gitolite.kernel.org>
+Date: Fri, 08 Sep 2023 22:51:48 -0000
+Message-Id: <169421350849.19668.1677560553808956155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 97588df87b56e27fd2b5d928d61c7a53e38afbb0
-    new: 9f002a72ab70533ba5f89480783e226db5aacc7a
+  - ref: refs/heads/locking/core
+    old: f66c538098b61e2eb596bb88fae90dbd2cebb378
+    new: d65ba325c00409f9e30d4eac3e440eba165b10f6
     log: |
-         9f002a72ab70533ba5f89480783e226db5aacc7a perf/core: Bail out early if the request AUX area is out of bound
+         d65ba325c00409f9e30d4eac3e440eba165b10f6 cleanup: Make no_free_ptr() __must_check
          
