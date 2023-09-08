@@ -1,52 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7112091260626956739=="
+Content-Type: multipart/mixed; boundary="===============6494127825581060420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 08 Sep 2023 05:23:46 -0000
-Message-Id: <169415062652.25130.8977144710436770552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 08 Sep 2023 06:24:13 -0000
+Message-Id: <169415425329.3013.8696371507517641252@gitolite.kernel.org>
 
---===============7112091260626956739==
+--===============6494127825581060420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/damon/next
-    old: 1173fb73bf412e5fb6c48eb930ffca5700bdabe6
-    new: 4043dd1c02d0ebf7d65ac1b43b08128321b6cefe
-    log: revlist-1173fb73bf41-4043dd1c02d0.txt
+  - ref: refs/heads/seen
+    old: 264b5b803ec4f447462ec5c39c6ef1c65ceabde2
+    new: c18acc7d292579974485e2db553eb64ffa7a3293
+    log: revlist-264b5b803ec4-c18acc7d2925.txt
 
---===============7112091260626956739==
+--===============6494127825581060420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1173fb73bf41-4043dd1c02d0.txt
+Content-Disposition: attachment; filename=revlist-264b5b803ec4-c18acc7d2925.txt
 
-bb249a91d93092da9ed4353d39011c73d0518f5a mm/damon/core: define and use a dedicated function for region access rate update
-8125b28f7dc50ab15e7ea6757f33cd86c3b4ae2c mm/damon/vaddr: call damon_update_region_access_rate() always
-ddea14c0e41751f2ee91474cbce27c745d63ba24 mm/damon/core: implement a pseudo-moving sum function
-a39cf1a8fa8478f88bcc1c9976877abc5b0da22e mm/damon/core-test: add a unit test for damon_moving_sum()
-08d531cdee0945da64e00be2b58862e5ec2d96aa mm/damon/core: introduce nr_accesses_bp
-d6b558ac2d0faadbda5e7c3fce626d0d26bf0453 mm/damon/core: use pseudo-moving sum for nr_accesses_bp
-f9464c65881634d26d787b22989ba020ced49b3f mm/damon/core: skip updating nr_accesses_bp for each aggregation interval
-60bc61a579d8d22d1c4cf70f91ccdc5d1c0bab44 mm/damon/core: mark damon_moving_sum() as a static function
-7d3110ea3302263bdf604aa99e0e25823b3678b7 ==== DAMOS: adopt moving accesses bp ====
-75a31f89a2ca88dcf105ea7ac275888b92bafa22 mm/damon/core: make DAMOS uses nr_accesses_bp instead of nr_accesses
-fdf09c111badcde1e88f1077d93c4081af8b86ba mm/damon/core: implement scheme-specific apply interval
-a0578b041f2cd1294f43437ad32c3416e8f94d46 Docs/mm/damon/design: document DAMOS apply interval
-981b73b20d4ca277cfda4dc9450b8b8053faa121 mm/damon/sysfs-schemes: support DAMOS apply interval
-050238d089c6398eea97e3e638e60266f7524059 Docs/admin-guide/mm/damon/usage: update for DAMOS apply intervals
-efeff96a9d878bed890e2c9facb76213ceaad349 Docs/ABI/damon: update for DAMOS apply intervals
-731560950c778d9e27578628497f4eb990a76c7e mm/damon/sysfs-schemes: expose nr_accesses_bp via tried_regions/<N>/nr_accesses
-51d1475e877c0f3bd2d50fea6d184bf4d82ac46e mm/damon/core: expose moving_accesses_bp from damos_before_apply tracepoint
-3ff79e5dc1d667163f0bbd9685f799cc4f0e07fd mm/damon/core: Add nr_accesses_bp debug code
-0ed957c2a3789b8c78378f49209943cf94f50dac ==== misc ====
-12ef3d35c7b3461320c88aaeeaf5c0613e083697 mm/damon/sysfs: add __counted_by() annotation
-e950d3bb0c00257d21dfb27bdccd9051c6b59fbf samples: add DAMON sample kernel modules
-4043dd1c02d0ebf7d65ac1b43b08128321b6cefe mm/damon/core: add todo for DAMOS interval validation
+84e53330f0433b35057ff70dd856494f9970dda9 trailer tests: make test cases self-contained
+e670ba2500f1c4c815d7d4e5cde241325b242b8d trailer test description: this tests --where=after, not --where=before
+73574f21b4f638cdfef7c9766ddf0aff4990ca8f trailer: add tests to check defaulting behavior with --no-* flags
+f659c56a8c43ce3d6e44c926ef2eb3883a4809e0 trailer doc: narrow down scope of --where and related flags
+467bb1b97ad9181cc22dbebeb0efffada3e6b523 trailer: trailer location is a place, not an action
+b674f25b81b7d6cb1136a5a47d917b0d289e8d26 trailer --no-divider help: describe usual "---" meaning
+8c7d4acb075e0bcb8976d1802abc30a0fba52895 trailer --parse help: expose aliased options
+a6c72e7046cce70384eb54764c43e78dd4a1bfec trailer --only-input: prefer "configuration variables" over "rules"
+cb088cbe0f8589938d345b7e2524c2345fbb0166 trailer --parse docs: add explanation for its usefulness
+289a0b244722b69c25ec872a14518acd85f54e75 trailer --unfold help: prefer "reformat" over "join"
+db97296122b8cfb14cd166124d3e933df64c9a78 trailer doc: emphasize the effect of configuration variables
+ab76661f221807b0c8d71ed7acb259575205f4e9 trailer doc: separator within key suppresses default separator
+6ccbc6679426e39720278aedbb8e415dac8db79b trailer doc: <token> is a <key> or <keyAlias>, not both
+5143da3573d1307c3e45c4652a6514c43d6fff2d Merge branch 'la/trailer-test-and-doc-updates' into jch
+ab6c0c8fbd40b33e6e4d27336778dca351b11889 Merge branch 'js/doc-unit-tests' into seen
+8b7f619095d6fa5648aab9ac1863773110c1fb04 Merge branch 'jc/update-index-show-index-version' into seen
+6ef533d77d818c684865f8ebacb898e9a484020b Merge branch 'cc/git-replay' into seen
+93b37a2f4945020512cbf6af37dcb599b58dd579 Merge branch 'js/config-parse' into seen
+c18acc7d292579974485e2db553eb64ffa7a3293 Merge branch 'js/doc-unit-tests-with-cmake' into seen
 
---===============7112091260626956739==--
+--===============6494127825581060420==--
