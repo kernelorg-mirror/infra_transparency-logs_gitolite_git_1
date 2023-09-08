@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2116201798781815056=="
+Content-Type: multipart/mixed; boundary="===============7136058372040622963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 08 Sep 2023 14:03:14 -0000
-Message-Id: <169418179491.22609.16895381999512004172@gitolite.kernel.org>
+Date: Fri, 08 Sep 2023 14:03:51 -0000
+Message-Id: <169418183150.22897.7986283829800550838@gitolite.kernel.org>
 
---===============2116201798781815056==
+--===============7136058372040622963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 1a961e74d5abbea049588a3d74b759955b4ed9d5
-    new: ac28b1ec6135649b5d78b028e47264cb3ebca5ea
-    log: revlist-1a961e74d5ab-ac28b1ec6135.txt
+  - ref: refs/heads/dev-queue
+    old: b73504b4521335a74697e222bc0029ca1937d304
+    new: 44ee88cc1e5f18ecd1b5327ceb95f68b90ef6d6d
+    log: revlist-b73504b45213-44ee88cc1e5f.txt
 
---===============2116201798781815056==
+--===============7136058372040622963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a961e74d5ab-ac28b1ec6135.txt
+Content-Disposition: attachment; filename=revlist-b73504b45213-44ee88cc1e5f.txt
 
-60b4925d1aeaf0c46e540949c50818b9be2c896a PCI/VGA: Correct vga_update_device_decodes() parameter type
-b421364a905e05d62f889786d25954c5a4128c80 PCI/VGA: Simplify vga_arbiter_notify_clients()
-4582db1d0a41ed07de140a8bfe8e802749579563 PCI/VGA: Simplify vga_client_register()
-0215845348fd09a0125da3d9d1a1e2476b49cd70 PCI/VGA: Replace full MIT license text with SPDX identifier
-5d69ac60c2f15ea3d171680c04593efcbc5edac0 ARM: Remove <asm/ide.h>
-5b22f904266a93dec87eabb24816343aa96d501a parisc: Remove <asm/ide.h>
-d143de46acd3a9ae9fc4a6c0f974d86d5840aece powerpc: Remove <asm/ide.h>
-c67cb79f34a88f6a99113ad0a285df69b1850c8a sparc: Remove <asm/ide.h>
 f6d6c11f417a50caca9d30d63f0f85c311c09869 clk: lmk04832: Set missing parent_names for output clocks
 e63227c83cff755c4d3b326d317d2e88451a637f clk: lmk04832: Don't disable vco clock on probe fail
 6aa8dc690d99f7aa7fc41f5606c7ee9ad481ad0b clk: lmk04832: Support using PLL1_LD as SPI readback pin
@@ -1050,5 +1042,13 @@ ff6e6ded54725cd01623b9a1a86b74a523198733 Merge tag 'rtc-6.6' of git://git.kernel
 2ab35ce202f8ba56d4b0930985426214341638a7 Merge tag 'devicetree-fixes-for-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 73be7fb14e83d24383f840a22f24d3ed222ca319 Merge tag 'net-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 ac28b1ec6135649b5d78b028e47264cb3ebca5ea net: ipv4: fix one memleak in __inet_del_ifa()
+d00973cfb0a711c78c1267d6fea7ba1bf79ffb6a i40e: fix livelocks in i40e_reset_subtask()
+30277542d25b7655e32d0d5b50f8317fbcb476db iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+4e31f87c2d3c1923cb0819b8704a338cfb93538a i40e: fix potential memory leaks in i40e_remove()
+91f1a7b110658bdd5fcb5bac89a0847d6be2222b i40e: fix 32bit FW gtime wrapping issue
+ee9f772c0dc235f3f5f9d84c4f88e5151ae4f8d3 iavf: Fix promiscuous mode configuration flow messages
+da81074dc0ebc4b84f1519db59dff38667885101 ixgbe: fix timestamp configuration code
+d22e606987507d425decdd0e8f33f047e3c33aaa igb: clean up in all error paths when enabling SR-IOV
+44ee88cc1e5f18ecd1b5327ceb95f68b90ef6d6d ice: Fix call trace when rebuild fails
 
---===============2116201798781815056==--
+--===============7136058372040622963==--
