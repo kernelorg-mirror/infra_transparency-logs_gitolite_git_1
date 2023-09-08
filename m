@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8688417052235278080=="
+Content-Type: multipart/mixed; boundary="===============1183245657197435901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 08 Sep 2023 18:27:43 -0000
-Message-Id: <169419766337.21956.9209359339321949149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 08 Sep 2023 18:27:52 -0000
+Message-Id: <169419767208.22096.18319043495684533909@gitolite.kernel.org>
 
---===============8688417052235278080==
+--===============1183245657197435901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: c6a906cce61a8015b622707f9c12003f90673399
     log: revlist-aa4497d0fe54-c6a906cce61a.txt
 
---===============8688417052235278080==
+--===============1183245657197435901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e7ddd00eb3752b109e24eee19cb6b7421059d4db riscv: Kconfig: Select DMA_DIRECT_REMAP
 2f73b35d79d06f5354c859c31e5946391efc45c8 riscv: Kconfig.errata: Add dependency for RISCV_SBI in ERRATA_ANDES config
 c6a906cce61a8015b622707f9c12003f90673399 soc: renesas: Kconfig: For ARCH_R9A07G043 select the required configs if dependencies are met
 
---===============8688417052235278080==--
+--===============1183245657197435901==--
