@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8958019436584866581=="
+Content-Type: multipart/mixed; boundary="===============2537687856164689059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 08 Sep 2023 16:35:56 -0000
-Message-Id: <169419095638.5435.6311553685692155495@gitolite.kernel.org>
+Date: Fri, 08 Sep 2023 16:36:27 -0000
+Message-Id: <169419098763.5721.2328255432509966000@gitolite.kernel.org>
 
---===============8958019436584866581==
+--===============2537687856164689059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 7537bc318bbd933197c46b31de5ff8af11650b8e
-    new: fcbfe8ef9e5991d301b58dc547e63b92e924ff8c
-    log: revlist-7537bc318bbd-fcbfe8ef9e59.txt
+  - ref: refs/heads/main
+    old: 7ba2090ca64ea1aa435744884124387db1fac70f
+    new: a48fa7efaf1161c1c898931fe4c7f0070964233a
+    log: revlist-7ba2090ca64e-a48fa7efaf11.txt
 
---===============8958019436584866581==
+--===============2537687856164689059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694190953 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694190986 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694190952-4e3552816d387457df69fd8506f0ad268ff612b6
+nonce 1694190985-03aea5593f9dcf60efe70030804ac50ed5ac4c0e
 
-7537bc318bbd933197c46b31de5ff8af11650b8e fcbfe8ef9e5991d301b58dc547e63b92e924ff8c refs/heads/driver-core-testing
+7ba2090ca64ea1aa435744884124387db1fac70f a48fa7efaf1161c1c898931fe4c7f0070964233a refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT7TWkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DdQP/06+l9XJIaD0wDoaefL3
-/e8ZiVKs5rUodpIVe8zvPzXPN5nwyJ3WRLodg3jqkhtOEbXSP6NE72INh7JWLTsq
-QQe3KkYo6+qqb9fOqPiOf/Zh4j/uLq3jJVgzNEC77erbQDxswqcHUflSEEU5/fqF
-8JZXw3ADaNJ4dUB3NEzHCFOGYujiqY17p/tXUfTrewNmL2qwzBfJGi+KaotpAFov
-AGVUa3WhN92TcYLlhCHKsqEoc+MsCMRejh5232BLeIRBdf9iFyjfvPptDjccS1TS
-ykdrbGMzZXn7dxBjTwfyprzbTBCt2gAqv98zMhmBiC1IocmZqgnZvzglQcM41q9v
-n+2Xd3/pVs7kzYaQFa0vaMOkJJ4nLuyHgWCSzvKuOZW37oAOHc+4bJslYLEKiH+z
-9jOwlnQ45K4v3mYaPgvEW90wo7F19lYzqKUFgZfd8qEGBb9KpH0oWSw7TQejrN7j
-NAri2NffJJ6nSVOB9nlZAIfczHPSYmTmkj7Djm/fKTVk8bsZq17UWlHA4sRwbZxk
-SjXbHEEQlruRAkQ8WgMYzyX4NtoyfMQbRFrAXUWAUx77TYDzJJyzLfP1KWby9r7L
-0ij/+EiL6974QPDvYDj1e4f8RrZAMoYOAR+s6dR6HnoqTv4pKBnMvmSuRr3dYjH8
-wpqJCYN9uPR1jZq/gpLm8Igj
-=Br/w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT7TYobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ERkP/0W+AtgH1d4FfYDbT+J3
+ACY1SgaoTFO2ye17CzrCmiZlPctgoNswflzKwZ0nn0iLHItSuYejfgcT/rS9RW/d
+IC9i1sy6LUD00SvhCfn5lrCyMeMN3BtyCbCT5jJpPfUU3OF2G44DzXKjhGHe/Xni
+iGWzsSdUPbtRZODg0Hv9+qZud8zUr+6cca02IWd0EFUJWmBw0hDJKZV2I3KyHRqN
+rmwaIWF/BDveg1USQO65c4y0dpycGU18FaotgAxvxOgUkQBbYZJr1Txl9gONkJlJ
+eTcP+y/RT5CO5+OnBD+OXVZzzdGhpDK2oGxKcl2WkBQLfopd4IA3t/2b2iUSB/DJ
+0b78PxRYxG1C3JN/02Rs7gX0VEyH+M7BJ09sYoz0hsh0CKUpVWiKSTDHZqYcE0xE
+cfgTMThfIzQC6lOHmhajpvVEAyhzKYIB5ro7uEcaTnyEnjva/TfkO9W+cW1qktl5
+5dYoSYGRK/fSJEMOliCwasLRO9p08iJmk0aa9PMQEitu3pOzdvxI1+p22XLPuSjX
+SC0V85Gci2aH7Sm+Sj17TDpCR7f2mSw3u3HfAyR4NMYTxwhJb/H/EptaJRClg3A8
+CHaL94Ilu2tMMDI10/6m3304OItA+JNyVgXkIpPWTds464xcIon28fzI9rzSYCjT
+j58rU1HLGCHrNAK+406bG/EO
+=A/17
 -----END PGP SIGNATURE-----
 
---===============8958019436584866581==
+--===============2537687856164689059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7537bc318bbd-fcbfe8ef9e59.txt
+Content-Disposition: attachment; filename=revlist-7ba2090ca64e-a48fa7efaf11.txt
 
 ea55d5a2cf7c507a9ac03b41716bf1877edad153 KVM: arm64: Delete pointless switch statement in kvm_reset_vcpu()
 c8a67729b8a36a5f4857de645ee9808fc99d8618 KVM: arm64: Remove pointless check for changed init target
@@ -678,6 +678,5 @@ ff6e6ded54725cd01623b9a1a86b74a523198733 Merge tag 'rtc-6.6' of git://git.kernel
 2ab35ce202f8ba56d4b0930985426214341638a7 Merge tag 'devicetree-fixes-for-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 73be7fb14e83d24383f840a22f24d3ed222ca319 Merge tag 'net-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 a48fa7efaf1161c1c898931fe4c7f0070964233a Merge tag 'drm-next-2023-09-08' of git://anongit.freedesktop.org/drm/drm
-fcbfe8ef9e5991d301b58dc547e63b92e924ff8c media: dvb: symbol fixup for dvb_attach()
 
---===============8958019436584866581==--
+--===============2537687856164689059==--
