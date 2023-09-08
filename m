@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4010122748150086626=="
+Content-Type: multipart/mixed; boundary="===============2311760468943415281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 08 Sep 2023 12:15:33 -0000
-Message-Id: <169417533348.10937.18344797328170656208@gitolite.kernel.org>
+Date: Fri, 08 Sep 2023 12:15:45 -0000
+Message-Id: <169417534597.11117.16868019787237735389@gitolite.kernel.org>
 
---===============4010122748150086626==
+--===============2311760468943415281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,427 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/next-pending-fixes
-    old: 4945171c168f291e31b55acfd30748af9a38e5a1
-    new: 9fc05fa98a113fe105271eacfb97c33027fcd4a3
-    log: revlist-4945171c168f-9fc05fa98a11.txt
+  - ref: refs/heads/next-master
+    old: cd04b2fab5ee58862674e9bab3cbc8e9a8576845
+    new: af3c30d33476bc2694b0d699173544b07f7ae7de
+    log: revlist-cd04b2fab5ee-af3c30d33476.txt
 
---===============4010122748150086626==
+--===============2311760468943415281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4945171c168f-9fc05fa98a11.txt
+Content-Disposition: attachment; filename=revlist-cd04b2fab5ee-af3c30d33476.txt
 
-ea55d5a2cf7c507a9ac03b41716bf1877edad153 KVM: arm64: Delete pointless switch statement in kvm_reset_vcpu()
-c8a67729b8a36a5f4857de645ee9808fc99d8618 KVM: arm64: Remove pointless check for changed init target
-ef98406036769107d5c49a519b31c940910b98d3 KVM: arm64: Replace vCPU target with a configuration flag
-5346f7e13e5eb134920a14504b6900c6168dd16e KVM: arm64: Always return generic v8 as the preferred target
-657c45b303f87d77eb4ef49e9452f1c5d1fc363c MIPS: Explicitly include correct DT includes
-a79a404e6c2241ebc528b9ebf4c0832457b498c3 MIPS: Fix CONFIG_CPU_DADDI_WORKAROUNDS `modules_install' regression
-4fe4a6374c4db9ae2b849b61e84b58685dca565a MIPS: Only fiddle with CHECKFLAGS if `need-compiler'
-0859bdf1ace659e8981a82956920573c1f8203da Revert MIPS: Loongson: Fix build error when make modules_install
-31f077c374a8e7cf1960560c0c5e4065048557c0 rtc: pcf2127: improve rtc_read_time() performance
-720fb4b83b565c7ae31059620e960ecbf5dc73a3 rtc: pcf2127: improve timestamp reading performance
-3d740c647ff8b77b2a560ebd95ac746c46f49ed4 rtc: pcf2127: lower message severity if setting time fails
-0476b6c8e8b1a6dfa3a259bc7e3c135145532c71 rtc: pcf2127: remove superfluous comments
-fd28ceb4603f9541dcb4ed12b1365cff5af38203 rtc: pcf2127: add variant-specific configuration structure
-6211acee8edf4af61f7745a92c4b4cb05a4340f9 rtc: pcf2127: adapt for time/date registers at any offset
-7c6f0db41ab5fbd7ee3a2f9880ac23509a5d55d1 rtc: pcf2127: adapt for alarm registers at any offset
-6b57ec29e3fc31d43e672f6fede5d4a76140308b rtc: pcf2127: adapt for WD registers at any offset
-fc16599e0153e91ba12d856e40f6fc56906077f1 rtc: pcf2127: adapt for CLKOUT register at any offset
-420cc9e850dbc8e6ea7dd1e53d62d64cd8766354 rtc: pcf2127: add support for multiple TS functions
-afc505bf9039caf5a377d8b9705ef42f6d4ac7d4 rtc: pcf2127: add support for PCF2131 RTC
-e1849b8fcdfaa71f2e8f9376c9568877ff2bf52b rtc: pcf2127: add support for PCF2131 interrupts on output INT_A
-3d715ebaf006bd5a495e9a717cf0fc5c260ee738 rtc: pcf2127: adapt time/date registers write sequence for PCF2131
-adb9675d74e403537150f025ed2b7a2e1ed0a7b4 rtc: pcf2127: support generic watchdog timing configuration
-081602a1d85b1fd7ad9ea298cffb4e5ad5296952 rtc: pcf2127: add flag for watchdog register value read support
-e9a5a1b418dd9a82d1de71e82ec64ad195b5300a rtc: pcf2127: add UIE support for PCF2131
-2080e08460c41c6d432575132868fdf076768c92 dt-bindings: rtc: pcf2127: add PCF2131
-f69cb2d6034ddf8dae6848d29b9d4efba8cd4df9 rtc: stm32: use the proper register sequence to read date/time
-1c18b8ec52396af6a6e20cd3450dc9bff0781ab8 rtc: stm32: don't stop time counter if not needed
-2487925731b75961cf4b7d1d0d28d204b63787b9 rtc: stm32: improve rtc precision
-95f7679c3ab2d032d935692426b6d9f7e681fd60 rtc: stm32: don't print an error on probe deferral
-fb9a7e5360dc8089097337a9685f6fed350a310f rtc: stm32: change PM callbacks to "_noirq()"
-46828a5f89044b8e057f6bbb50ae2bac926a0fa2 rtc: stm32: fix issues of stm32_rtc_valid_alrm function
-650915ecd8f8cbb58e1ef55430f9e15ae03fd7d8 rtc: stm32: fix unnecessary parentheses
-b7f73b6e921b457a222e86cf53fe3950c6b5aed5 rtc: isl1208: Simplify probe()
-68c624f860b30408afde81a91b4c9df3e915ed85 rtc: pcf85063: Simplify probe()
-5789837c782771eadc9be47487067399609832e7 rtc: pcf85063: Drop enum pcf85063_type and split pcf85063_cfg[]
-766c3f8a092b4d42abd68ee0338349838430a5ee rtc: bq4802: add sparc dependency
-3c87b351809f220294aec3c0df7b078ff5c5b15b rtc: rv3028: Add support for "aux-voltage-chargeable" property
-574ca75f8d2935053872aa1b15d8ba24bfb5e51c i3c: Explicitly include correct DT includes
-48144c2890503b919bc8ee128b63e37008d69250 rtc: Explicitly include correct DT includes
-58f3e83260a78cfd5648efa5448b237b9c230fc0 rtc: isl12026: Drop "_new" from probe callback name
-1ba11daef0a9b062e40b5393d285c82ab6483730 KVM: arm64: Use the known cpu id instead of smp_processor_id()
-e21f3905f98ff1f72b06614440c2be93fda58b44 KVM: arm64: Drop HCR_VIRT_EXCP_MASK
-0723807978b14837262671d30b5cc8b1b5268281 MIPS: Fixup explicit DT include clean-up
-e1a7566d0955cc5357903c04030aac05ced95939 MIPS: More explicit DT include clean-ups
-ef8365dfaa53c11722904dd590154f981d735754 MIPS: loongson32: Remove regs-clk.h
-20463908951be777b3300c1a3a845877266f8fee MIPS: loongson32: Remove regs-rtc.h
-f11a9967413281b49690d864795e7c5f8f8e4fda MIPS: Loongson64: Fix more __iomem attributes
-319d1a957cbe67bda6473e117fc6f1961467345e Merge branch kvm-arm64/6.6/generic-vcpu into kvmarm-master/next
-b265ee7bae1192ecc55ecaf7e63c8ed84cc2f509 KVM: SEV: move set_dr_intercepts/clr_dr_intercepts from the header
-29de732cc95cb5219d8c2bd145cb7293cb572fc3 KVM: SEV: Move SEV's GP_VECTOR intercept setup to SEV
-f8d808ed1ba0019997f18ff2be0cf85e33a31022 KVM: SVM: Rewrite sev_es_prepare_switch_to_guest()'s comment about swap types
-2837dd00f8fc69111cd6b1dc8481d2fb490d11c9 KVM: SEV-ES: explicitly disable debug
-c2690b5f01948dfec19d50086312848c0b5b02b0 KVM: SVM/SEV/SEV-ES: Rework intercepts
-d1f85fbe836e61ed330a242f927a98abd98929cc KVM: SEV: Enable data breakpoints in SEV-ES
-90cbf6d914ad7856ca1145dee02babb9eab7bec1 KVM: SEV-ES: Eliminate #DB intercept when DebugSwap enabled
-389fbbec261b2842fd0e34b26a2b288b122cc406 KVM: SVM: Don't defer NMI unblocking until next exit for SEV-ES guests
-a6bb5709029756a6151afed0eec26ba2bfabed51 KVM: SVM: Don't try to pointlessly single-step SEV-ES guests for NMI window
-1d6664fadda3e028b8220ba1ba487a928e801825 KVM: x86: Use sysfs_emit() instead of sprintf()
-0d033770d43a7aa36025bcef9a60da7fb750f735 KVM: x86: Fix KVM_CAP_SYNC_REGS's sync_regs() TOCTOU issues
-ae895cbe613a5b193f3953c90c075306bfa4d30b KVM: selftests: Extend x86's sync_regs_test to check for CR4 races
-60c4063b475215321fc63ab253c9a840bb664f35 KVM: selftests: Extend x86's sync_regs_test to check for event vector races
-0de704d2d6c82c7498fa1b8df66903f8139e3de2 KVM: selftests: Extend x86's sync_regs_test to check for exception races
-b859b018aadfd05f0526533fd1bcf04024d01917 KVM: selftests: use unified time type for comparison
-7e4966e6e13d0dad5eae934aff8b875a2aa8f469 KVM: selftests: Remove superfluous variable assignment
-6d85f51a1f08411617d0bfe12c537ed6eba7f0f4 KVM: selftests: Rename the ASSERT_EQ macro
-b145c58d95fff280c2726d0024005ae0a4ec378d KVM: selftests: Make TEST_ASSERT_EQ() output look like normal TEST_ASSERT()
-6783ca4105a75d1ba4f89b13cef1bc1f677c41e5 KVM: selftests: Add a shameful hack to preserve/clobber GPRs across ucall
-a1c1b55e116c14de4f8a78286b502101f2a1620c KVM: selftests: Add strnlen() to the string overrides
-e5119382499cefc839097dcc78f27ab00131e7ad KVM: selftests: Add guest_snprintf() to KVM selftests
-215a681710a554b224d743e4a9cd68965889713c KVM: selftests: Add additional pages to the guest to accommodate ucall
-57e5c1fef5ecc7c346ff971817ba6985643e0a24 KVM: selftests: Add string formatting options to ucall
-289c2b4db8f336b96d918eb0c548382aee71ed79 KVM: selftests: Add formatted guest assert support in ucall framework
-b35f4c73d389d3b04e5edf3d1fd041ed3070228b KVM: selftests: Add arch ucall.h and inline simple arch hooks
-edb5b700f9f8a21e57aef14cf795fb958cc38628 KVM: selftests: Add #define of expected KVM exit reason for ucall
-5d1d46f9d56fb567718175cb0cb7a084d444a9d4 KVM: selftests: Add a selftest for guest prints and formatted asserts
-db44e1c871bcf6228b9447aada421088e036692a KVM: selftests: Convert aarch_timer to printf style GUEST_ASSERT
-bac9aeecc387a1436567b6e74f8257f7e8c4d194 KVM: selftests: Convert debug-exceptions to printf style GUEST_ASSERT
-af5b41b97f1cc9d766f700197955965872aba4a3 KVM: selftests: Convert ARM's hypercalls test to printf style GUEST_ASSERT
-df27f6b45454c02919b84dfe3ffad3f665108d23 KVM: selftests: Convert ARM's page fault test to printf style GUEST_ASSERT
-d0ad3bacc523cd780d573c890ebf3b14cec5df22 KVM: selftests: Convert ARM's vGIC IRQ test to printf style GUEST_ASSERT
-c55a475d5fc42931992b667aa16bed2db6058d06 KVM: selftests: Convert the memslot performance test to printf guest asserts
-428c76c769fa652e2186de464c74e34daede489f KVM: selftests: Convert s390's memop test to printf style GUEST_ASSERT
-5f82bbab84adcb8990f17503393628a210086b2c KVM: selftests: Convert s390's tprot test to printf style GUEST_ASSERT
-9291c9cef5b52b64a20f92ea63341d903f0ae328 KVM: selftests: Convert set_memory_region_test to printf-based GUEST_ASSERT
-3d9bd831175e898284eb92dadac7049cd055bad6 KVM: selftests: Convert steal_time test to printf style GUEST_ASSERT
-06b651d250e5eea0a1c1fd31fbbc0e0b27f66592 KVM: selftests: Convert x86's CPUID test to printf style GUEST_ASSERT
-82cb0ed66d4e5207c53b31a29d9f71af83190ee6 KVM: selftests: Convert the Hyper-V extended hypercalls test to printf asserts
-8d1d3ce604e54c43228439291db53543da156110 KVM: selftests: Convert the Hyper-V feature test to printf style GUEST_ASSERT
-bf6c760b9df39ebc83245b37ef09ee390ba05e9f KVM: selftests: Convert x86's KVM paravirt test to printf style GUEST_ASSERT
-0f52e4aaa61400ce68e122b678811777734421ff KVM: selftests: Convert the MONITOR/MWAIT test to use printf guest asserts
-b13a307ce3c6435c288017d7edf1c6e2827470dc KVM: selftests: Convert x86's nested exceptions test to printf guest asserts
-40b319d6b4e109d5e94ac1054d5147624e79088f KVM: selftests: Convert x86's set BSP ID test to printf style guest asserts
-a925f799428168e1a849509c0f425673b62e53ad KVM: selftests: Convert the nSVM software interrupt test to printf guest asserts
-847ae0795514a15f2845584870750aac4fc5aaee KVM: selftests: Convert x86's TSC MSRs test to use printf guest asserts
-417bfd0c820f17f40572aca37e5134ed329b791f KVM: selftests: Convert the x86 userspace I/O test to printf guest assert
-30a6e0b4553dbf2d935d26945788d37ddb234fa7 KVM: selftests: Convert VMX's PMU capabilities test to printf guest asserts
-4e15c38a1aca477d7f99b66b745e811bc95f9420 KVM: selftests: Convert x86's XCR0 test to use printf-based guest asserts
-7ce7f8e754186f71ba7daffbc99543961a613bba KVM: selftests: Rip out old, param-based guest assert macros
-6f321017c84b33a69f6ac131f6c91d1e8a5ff585 KVM: selftests: Print out guest RIP on unhandled exception
-a05c4c2bd8b59e291cc9d68b79d6b45a34bcb54e KVM: selftests: Use GUEST_FAIL() in ARM's arch timer helpers
-7f717f54845c518a64fe5464d855ddeca272483a KVM: x86: Remove x86_emulate_ops::guest_has_long_mode
-af8e2ccfa6f101f505add076c1a4d56c718e0d50 KVM: x86: Advertise host CPUID 0x80000005 in KVM_GET_SUPPORTED_CPUID
-a2fd5d02bad6d63daaaf4a8bb19c2400387aca61 KVM: x86: Snapshot host's MSR_IA32_ARCH_CAPABILITIES
-550ba57faa04042956079b8d09ec0f83bef8817f KVM: VMX: Drop unnecessary vmx_fb_clear_ctrl_available "cache"
-775bc098657b4996c8537d0eaf9c20138428b699 KVM: VMX: Drop manual TLB flush when migrating vmcs.APIC_ACCESS_ADDR
-d518f8cc10af7a1265595fccf553a3a5f7121e4f KVM: SVM: Fix dead KVM_BUG() code in LBR MSR virtualization
-41dfb5f13ed9101b217e7085e5b5fb07d705e27f KVM: SVM: Clean up handling of LBR virtualization enabled
-a85cd52d720588b0060a0ebac5c7f497ad6bcd86 KVM: SVM: Use svm_get_lbr_vmcb() helper to handle writes to DEBUGCTL
-0033fa35491680bce65ff78fb41445f472aa5baa KVM: x86/pmu: Use enums instead of hardcoded magic for arch event indices
-bc9658999b3e44cbad964fe9fbab5a25bd4f5ed3 KVM: x86/pmu: Simplify intel_hw_event_available()
-6d88d0ee5de142921598e5c0041792bbd860913d KVM: x86/pmu: Require nr fixed_pmc_events to match nr max fixed counters
-6de2ccc169683bf81feba163834dae7cdebdd826 KVM: x86/pmu: Move .hw_event_available() check out of PMC filter helper
-41e90a69a49be2e3467e811ae8fdc17456af1b02 KVM: x86: Retry APIC optimized map recalc if vCPU is added/enabled
-b23c83ad2c638420ec0608a9de354507c41bec29 x86/reboot: VMCLEAR active VMCSes before emergency reboot
-5e408396c60cd0f0b53a43713016b6d6af8d69e0 x86/reboot: Harden virtualization hooks for emergency reboot
-119b5cb4ffd0166f3e98e9ee042f5046f7744f28 x86/reboot: KVM: Handle VMXOFF in KVM's reboot callback
-baeb4de7ad12b700a91f2a7be8e1c0389a5c8fd4 x86/reboot: KVM: Disable SVM during reboot via virt/KVM reboot callback
-ad93c1a7c0102c93e92bf0c06412a1f588e015ab x86/reboot: Assert that IRQs are disabled when turning off virtualization
-edc8deb087d884bac2f7013f0c23af73042b23a7 x86/reboot: Hoist "disable virt" helpers above "emergency reboot" path
-59765db5fc82726b32876b794667e2c6936a98ab x86/reboot: Disable virtualization during reboot iff callback is registered
-261cd5ed934e6923187cf1c9eaa6cb63f2b81212 x86/reboot: Expose VMCS crash hooks if and only if KVM_{INTEL,AMD} is enabled
-b6a6af0d19cea17a3c1e34f81f0d521775f94ab5 x86/virt: KVM: Open code cpu_has_vmx() in KVM VMX
-22e420e127399f2e75c8efddff763e92247f3da7 x86/virt: KVM: Move VMXOFF helpers into KVM VMX
-554856b69e3d1faae6f056f75ed6262b5eb01546 KVM: SVM: Make KVM_AMD depend on CPU_SUP_AMD or CPU_SUP_HYGON
-5df8ecfe3632d5879d1f154f7aa8de441b5d1c89 x86/virt: Drop unnecessary check on extended CPUID level in cpu_has_svm()
-85fd29dd5fe459b732e46c7a9782fc403c5604ed x86/virt: KVM: Open code cpu_has_svm() into kvm_is_svm_supported()
-c4db4f20f3bf619bacd3d705bf427016453eedb1 KVM: SVM: Check that the current CPU supports SVM in kvm_is_svm_supported()
-f9a8866040fcf8672f20c67e07e67ba5a00caba4 KVM: VMX: Ensure CPU is stable when probing basic VMX support
-76ab8161083bfd0ae4de9b93e68d639da6e1c726 x86/virt: KVM: Move "disable SVM" helper into KVM SVM
-6ae44e012f4c35fb67bc61bd0bf1b3c5f504d931 KVM: x86: Force kvm_rebooting=true during emergency reboot/crash
-2e6b9bd49b702c4a52278e35202354b709021116 KVM: SVM: Use "standard" stgi() helper when disabling SVM
-a788fbb763b5001f67f2ecdf207a357f9b12838f KVM: VMX: Skip VMCLEAR logic during emergency reboots if CR4.VMXE=0
-99b668545356115e11a6cca519361c8cfd02569e KVM: x86: Advertise AMX-COMPLEX CPUID to userspace
-7cafe9b8e22bb3d77f130c461aedf6868c4aaf58 KVM: nSVM: Check instead of asserting on nested TSC scaling support
-0c94e2468491cbf0754f49a5136ab51294a96b69 KVM: nSVM: Load L1's TSC multiplier based on L1 state, not L2 state
-c0dc39bd2c584879748dfd1321f8541d1cbeb9b8 KVM: nSVM: Use the "outer" helper for writing multiplier to MSR_AMD64_TSC_RATIO
-229725acfaea0dd81f245aec40986dc766de40fa KVM: SVM: Clean up preemption toggling related to MSR_AMD64_TSC_RATIO
-2d63699099ac1fad13a0dbf8538faf4127c062e8 KVM: x86: Always write vCPU's current TSC offset/ratio in vendor hooks
-223f93d4d88aedc02bdcc92b3734e76f707812f3 KVM: nSVM: Skip writes to MSR_AMD64_TSC_RATIO if guest state isn't loaded
-e98b1085be795354073debd371e2889bea4902b9 RISC-V: KVM: Factor-out ONE_REG related code to its own source file
-613029442a4b837d3f8ce8ab08064f095ecdbdb6 RISC-V: KVM: Extend ONE_REG to enable/disable multiple ISA extensions
-41716861e4251b202809fc57deaed3881934e062 RISC-V: KVM: Allow Zba and Zbs extensions for Guest/VM
-043cba064ecd2c3ccaf575c15caf6dd829c64e7b RISC-V: KVM: Allow Zicntr, Zicsr, Zifencei, and Zihpm for Guest/VM
-d2064d4a6e3a565879da196947fb35cc7b1f3256 RISC-V: KVM: Sort ISA extensions alphabetically in ONE_REG interface
-2776421e6839b67c34261861b169b7ee737b4c00 RISC-V: KVM: provide UAPI for host SATP mode
-2a88f38cd58d026c0e13f4aaa495965d4e9626b9 RISC-V: KVM: return ENOENT in *_one_reg() when reg is unknown
-a044ef71043ebc23903f657fd51b10783d34918b RISC-V: KVM: use ENOENT in *_one_reg() when extension is unavailable
-e29f57911d61bcbbe442c72933c606225d3d4d68 RISC-V: KVM: do not EOPNOTSUPP in set_one_reg() zicbo(m|z)
-432a8b35cc23d3af9c60e9c0d191d7ff737afbdc RISC-V: KVM: do not EOPNOTSUPP in set KVM_REG_RISCV_TIMER_REG
-d57304bbfb742bf744d2cd4dc3a08ce3fbfba787 RISC-V: KVM: use EBUSY when !vcpu->arch.ran_atleast_once
-bea8d23713a2b2dc07ae9d7325b1269dff8c8a1f RISC-V: KVM: avoid EBUSY when writing same ISA val
-63bd660657efade03270c8cc7e3d9b6993350e56 RISC-V: KVM: avoid EBUSY when writing the same machine ID val
-1099c80906d358db542c64aba370291ae4b932b7 RISC-V: KVM: avoid EBUSY when writing the same isa_ext val
-1deaf754f5310e348e6386e75b7f16a0089fa3b7 RISC-V: KVM: Improve vector save/restore errors
-e47f3c2843c2c23467f9447ed977dfccbe13a6f7 docs: kvm: riscv: document EBUSY in KVM_SET_ONE_REG
-630b4cee9c378e2dbb56ed84f71fc2fac50b716e RISC-V: KVM: Improve vector save/restore functions
-dfaf20af7649c82b0c53103e3bd9f3e6c3751c9d KVM: arm64: selftests: Replace str_with_index with strdup_printf
-2653860812949d485e18414b72fa542c84763f71 KVM: arm64: selftests: Drop SVE cap check in print_reg
-c2b5aa7aebbae018edd988e9815087abf72e526b KVM: arm64: selftests: Remove print_reg's dependency on vcpu_config
-9177b715cdccdfd6711511440cf43b8be6e28c6c KVM: arm64: selftests: Rename vcpu_config and add to kvm_util.h
-0ace6bda5701a38211ac21d45d4683721758e844 KVM: arm64: selftests: Delete core_reg_fixup
-4460a7dc77d00340c59f7e4252c65efd5fbe877b KVM: arm64: Remove redundant kvm_set_pfn_accessed() from user_mem_abort()
-17da79e009c376523ab977a351a2a69bad8e847b KVM: arm64: selftests: Split get-reg-list test code
-be4c58060c3efd1f8dff59e59ff8e69d08f00560 KVM: arm64: selftests: Finish generalizing get-reg-list
-90a6bcbc542d0d61f50eeb85952e4fc49dbf3841 KVM: arm64: selftests: Move reject_set check logic to a function
-e85660338f2b1f20981f2a343a33db75255942a7 KVM: arm64: selftests: Move finalize_vcpu back to run_test
-c47467712e8be10805aed4db5626a39aedc784bb KVM: selftests: Only do get/set tests on present blessed list
-cbc0daa67c62bcfeb45cccfc821216549566fb40 KVM: selftests: Add skip_set facility to get_reg_list test
-031f9efafc08d68b1b672e83ee73f6ea5c69c2ef KVM: riscv: Add KVM_GET_REG_LIST API support
-477069398ed6e0498ee243e799cb6c68baf6ccb8 KVM: riscv: selftests: Add get-reg-list test
-a69c610e13e2b2de8a1ed2683f13e21b3200bd7a rtc: stm32: remove incorrect #ifdef check
-df9c16b5ccc8e4aab5e492b5f110167c75c74b0a rtc: sunplus: Clean up redundant dev_err_probe()
-cbf871e6d8ce23dd4d458d8b7ab9d4a267e7bc03 i3c/master: cmd_v1: Fix the exit criteria for the daa procedure
-4f3688dca15053555ade31a785a9c75837a64fb8 rtc: remove redundant of_match_ptr()
-300098637900f7ff99cafed2be7221407b82df83 i3c: master: svc: Do not check for 0 return after calling platform_get_irq()
-122b159d9f1374a7252c927df2b2a575f77de85b mips: remove unneeded #include <asm/export.h>
-9259e15b3f27fa5cc5999db554bce713f32769c3 mips: replace #include <asm/export.h> with #include <linux/export.h>
-0eefa56435299fb867fe6975cdf9c908b9c2ff8f mips: remove <asm/export.h>
-ed07f6c26f9c18e5122ecba0526923ba32a7a6f7 Mips: loongson3_defconfig: Enable ast drm driver by default
-a6b33d009fc1fe80c935f18b714b36c81e1f1400 KVM: arm64: Remove unused declarations
-4d6af37cafad69ff93f62db80d5a3daa9ac3223f rtc: isl12022: remove wrong warning for low battery level
-ffc005280a47030d16cbbf3105c75d3562dba5a8 dt-bindings: rtc: Move isil,isl12022 from trivial-rtc.yaml into own schema file
-69b569c124ffa698de25d039018fe86313c46c84 dt-bindings: rtc: isl12022: add bindings for battery alarm trip levels
-2caeb566baabb65add7d99ca6d8bfd566fe91582 rtc: isl12022: add support for trip level DT binding
-eccebd813874b748ac4e79a9fe4c7290117ad3be rtc: isl12022: implement RTC_VL_READ ioctl
-a11b6c460620f7fb5fae4c3aee5a5ba2e1e1129b rtc: isl12022: trigger battery level detection during probe
-ab246c897be0bdf981f776399ca62b5ec4b8138f dt-bindings: rtc: isl12022: add #clock-cells property
-d57d12db774820819d0e591548a56b5cfc95f82a rtc: isl12022: implement support for the #clock-cells DT property
-737055e11729836fc3d7b26220affad30b4736ec rtc: ds1307: fix Wvoid-pointer-to-enum-cast warning
-fbbeae0af551b8e5fba6ba128d2190c2a29dce90 rtc: rv8803: fix Wvoid-pointer-to-enum-cast warning
-4ebbd463050d14989b4dd2de52deb0779969af41 rtc: jz4740: fix Wvoid-pointer-to-enum-cast warning
-e5aabfbc09ca2037e299e0c2c41235922c39b840 rtc: rs5c372: fix Wvoid-pointer-to-enum-cast warning
-2cf2a1acc6ebdffc6363de9156db8737f33c1803 rtc: stm32: Use NOIRQ_SYSTEM_SLEEP_PM_OPS()
-d890cfc25fe9421ffdff3a9ea678172addb36762 rtc: ds2404: Convert to GPIO descriptors
-4e5eb7ef73c4c45e2e621eb51a76565153b63afe rtc: pcf2127: fix error code in pcf2127_enable_ts()
-e4163fc59d088caf3250cc9c9862239a954d85b5 rtc: pcf2127: add error checking when disabling POR0
-58dffa96e62ccf30ecba718f124ce822ddc1150a rtc: pcf2127: remove unused function argument
-ed17a2bcbb75505bb979e3e8ecb6c5fb2518bf3b rtc: da9063: Mark the alarm IRQ as a wake IRQ
-0197a7cb44872e49919b0068a512aaf4e06f1850 dt-bindings: rtc: at91rm9200: add sam9x7 compatible
-4d349a5793f7a42da27ea56d9f6e2f9488d44e0d rtc: omap: Do not check for 0 return after calling platform_get_irq()
-dac7837848485bf1d0bd3aa56923f8bf5075682f rtc: tps65910: Remove redundant dev_warn() and do not check for 0 return after calling platform_get_irq()
-a1342c8027288e345cc5fd16c6800f9d4eb788ed KVM: Rename kvm_arch_flush_remote_tlb() to kvm_arch_flush_remote_tlbs()
-cfb0c08e80120928dda1e951718be135abd49bae KVM: Declare kvm_arch_flush_remote_tlbs() globally
-32121c813818a87ba7565b3afce93a9cc3610a22 KVM: arm64: Use kvm_arch_flush_remote_tlbs()
-eddd21481011008792f4e647a5244f6e15970abc KVM: Remove CONFIG_HAVE_KVM_ARCH_TLB_FLUSH_ALL
-d4788996051e3c07fadc6d9b214073fcf78810a8 KVM: Allow range-based TLB invalidation from common code
-619b5072443c05cf18c31b2c0320cdb42396d411 KVM: Move kvm_arch_flush_remote_tlbs_memslot() to common code
-360839027a6e4c022e8cbaa373dd747185f1e0a5 arm64: tlb: Refactor the core flush algorithm of __flush_tlb_range
-4d73a9c13aaa78b149ac04b02f0ee7973f233bfa arm64: tlb: Implement __flush_s2_tlb_range_op()
-6354d15052ec88273c24beae4c99e31c3d3889b6 KVM: arm64: Implement __kvm_tlb_flush_vmid_range()
-117940aa6e5f8308f1529e1313660980f1dae771 KVM: arm64: Define kvm_tlb_flush_vmid_range()
-c42b6f0b1cde4dd19e6b5dd052e67b87cc331b01 KVM: arm64: Implement kvm_arch_flush_remote_tlbs_range()
-3756b6f2bb3a242fef0867b39a23607f5aeca138 KVM: arm64: Flush only the memslot after write-protect
-defc8cc7abf0fcee8d73e440ee02827348d060e0 KVM: arm64: Invalidate the table entries upon a range
-7657ea920c54218f123ddc1b572821695b669c13 KVM: arm64: Use TLBI range-based instructions for unmap
-21f74a51373791732baa0d672a604afa76d5718d arm64: Add missing VA CMO encodings
-464f2164da7e4cb50faec9d56226b22c9b36cdda arm64: Add missing ERX*_EL1 encodings
-6ddea24dfd59f0fc78a87df54d428e3a6cf3e11f arm64: Add missing DC ZVA/GVA/GZVA encodings
-fb1926cccd70a5032448968dfd639187cd894cb7 arm64: Add TLBI operation encodings
-2b97411fef8ff9dafc862971f08382f780dc5357 arm64: Add AT operation encodings
-57596c8f991c9aace47d75b31249b8ec36b3b899 arm64: Add debug registers affected by HDFGxTR_EL2
-2b062ed483ebd625b6c6054b9d29d600bd755a86 arm64: Add missing BRB/CFP/DVP/CPP instructions
-cc24f656f7cf834f384a43fc6fe68ec62730743d arm64: Add HDFGRTR_EL2 and HDFGWTR_EL2 layouts
-b206a708cbfb352f2191089678ab595d24563011 arm64: Add feature detection for fine grained traps
-484f86824a3d94c6d9412618dd70b1d5923fff6f KVM: arm64: Correctly handle ACCDATA_EL1 traps
-3ea84b4fe446319625be64945793b8540ca15f84 KVM: arm64: Add missing HCR_EL2 trap bits
-50d2fe4648c50e7d33fa576f6b078f22ad973670 KVM: arm64: nv: Add FGT registers
-e930694e6145eb210c9931914a7801cc61016a82 KVM: arm64: Restructure FGT register switching
-e58ec47bf68d2bcaaa97d80cc13aca4bc4abe07b KVM: arm64: nv: Add trap forwarding infrastructure
-d0fc0a2519a6dd906aac448e742958d30b5787ac KVM: arm64: nv: Add trap forwarding for HCR_EL2
-a0b70fb00db83e678f92b8aed0a9a9e4ffcffb82 KVM: arm64: nv: Expose FEAT_EVT to nested guests
-cb31632c44529048c052a2961b3adf62a2c89b17 KVM: arm64: nv: Add trap forwarding for MDCR_EL2
-e880bd3363237ed8abbe623d1b49d59d5f6fe0d1 KVM: arm64: nv: Add trap forwarding for CNTHCTL_EL2
-15b4d82d69d7b0e5833b7a023dff3d7bbae5ccfc KVM: arm64: nv: Add fine grained trap forwarding infrastructure
-5a24ea7869857251a83da1512209f76003bc09db KVM: arm64: nv: Add trap forwarding for HFGxTR_EL2
-039f9f12de5fc761d2b32fa072071533aa8cbb3b KVM: arm64: nv: Add trap forwarding for HFGITR_EL2
-d0be0b2ede13247c53745d50e2a5993f2b27c802 KVM: arm64: nv: Add trap forwarding for HDFGxTR_EL2
-a77b31dce4375be15014b10e8f94a149592ea6b6 KVM: arm64: nv: Add SVC trap forwarding
-ea3b27d8dea081f1693b310322ae71fa75d1875b KVM: arm64: nv: Expand ERET trap forwarding to handle FGT
-d4d2dacc7cddc37aaa7c6eed8665d533d1037e1e KVM: arm64: nv: Add switching support for HFGxTR/HDFGxTR
-0a5d28433ad94cc38ecb3dbb5138b8ae30ffb98a KVM: arm64: nv: Expose FGT to nested guests
-a63cf31139b7f41d468dc8ef63dbf6bae213d960 KVM: arm64: Move HCRX_EL2 switch to load/put on VHE systems
-03fb54d0aa73cc14e51f6611eb3289e4fec15184 KVM: arm64: nv: Add support for HCRX_EL2
-60046980bf60ed8846113b484d666a5fdf413be4 KVM: arm64: nv: Select XARRAY_MULTI to fix build error
-3e1efe2b67d3d38116ec010968dbcd89d29e4561 KVM: Wrap kvm_{gfn,hva}_range.pte in a per-action union
-765da7fe0e76ed41eea9514433f4ca8cdb5312b1 KVM: x86: Remove break statements that will never be executed
-7b0151caf73a656b75b550e361648430233455a0 KVM: x86: Remove WARN sanity check on hypervisor timer vs. UNINITIALIZED vCPU
-4c08e737f056fec930b416a2bd37ed266d724f95 KVM: SVM: Take and hold ir_list_lock when updating vCPU's Physical ID entry
-f3cebc75e7425d6949d726bb8e937095b0aef025 KVM: SVM: Set target pCPU during IRTE update if target vCPU is running
-7d18eef13622d84af93086ae79f081692516ba85 KVM: VMX: Rename vmx_get_max_tdp_level() to vmx_get_max_ept_level()
-392a53246257a9f89ef421b60af62056ce374285 x86: kvm: x86: Remove unnecessary initial values of variables
-f67063414c0e83bb4a9e12358cc179af53c2a8bb KVM: SVM: correct the size of spec_ctrl field in VMCB save area
-42764413d19585caff1321823b376c0bd0a597af KVM: x86: Add a framework for enabling KVM-governed x86 features
-ccf31d6e6cc53e50cc42845061174082fd229c79 KVM: x86/mmu: Use KVM-governed feature framework to track "GBPAGES enabled"
-1143c0b85c07fc45daf1c33b26ba9320becd6748 KVM: VMX: Recompute "XSAVES enabled" only after CPUID update
-0497d2ac9b26d015cfafc4655ad9308c30a61810 KVM: VMX: Check KVM CPU caps, not just VMX MSR support, for XSAVE enabling
-662f6815786efc9a60ee374142b3fd70db4637be KVM: VMX: Rename XSAVES control to follow KVM's preferred "ENABLE_XYZ"
-fe60e8f65f79138ffdcc8a9155036cc35f6079ac KVM: x86: Use KVM-governed feature framework to track "XSAVES enabled"
-1c18efdaa3148605071ae8b3551ee86c95c8807b KVM: nVMX: Use KVM-governed feature framework to track "nested VMX enabled"
-7a6a6a3bf5d8c32a91d8fabb0e2d31f3bd23a412 KVM: nSVM: Use KVM-governed feature framework to track "NRIPS enabled"
-4365a45571c791a2fbeb81cf27738960c5456f57 KVM: nSVM: Use KVM-governed feature framework to track "TSC scaling enabled"
-4d2a1560ffc29525493829ee31dc069c00c52c69 KVM: nSVM: Use KVM-governed feature framework to track "vVM{SAVE,LOAD} enabled"
-e183d17ac362655e5ef061760245b4402b9c04f8 KVM: nSVM: Use KVM-governed feature framework to track "LBRv enabled"
-59d67fc1f0dbb5ee8841d62140efe0fdc4fbabf5 KVM: nSVM: Use KVM-governed feature framework to track "Pause Filter enabled"
-b89456aee78d22b20c6c83c4d75af7985ae5be8d KVM: nSVM: Use KVM-governed feature framework to track "vGIF enabled"
-ee785c870d6f80380be6549772137a41c527d0ba KVM: nSVM: Use KVM-governed feature framework to track "vNMI enabled"
-9717efbe5ba3f52d4b3cc637c7f7f6149ea264bb KVM: x86: Disallow guest CPUID lookups when IRQs are disabled
-1f8403953f05af591ab72cf749b9b9b837ea9595 KVM: Remove unused kvm_device_{get,put}() declarations
-458933d33af2cb3663bd8c0080c1efd1f9483db4 KVM: Remove unused kvm_make_cpus_request_mask() declaration
-cf6d80c0eb95900e19e1ad54c686a1877dda4276 KVM: selftests: Add x86 properties for Intel PMU in processor.h
-c853be2265ccd497ff17b878962a2dbcb4873abf KVM: selftests: Drop the return of remove_event()
-de527b1daf69a41a265f48ad7bb9207ca7b7d29b KVM: selftests: Introduce "struct __kvm_pmu_event_filter" to manipulate filter
-86ab6af8b96a6a6c8f86f1b0ea1dd386f43930db KVM: selftests: Add test cases for unsupported PMU event filter input values
-d4e36166820a089f6300dc59dbb641e8c150bec1 KVM: selftests: Test if event filter meets expectations on fixed counters
-740d087e7fff2a68fb1c7f01efb239e45f217485 KVM: selftests: Test gp event filters don't affect fixed event filters
-ec3eb9ed6081bea8ebf603ff545dba127071b928 KVM: arm64: PMU: Disallow vPMU on non-uniform PMUVer
-335ca49ff31f145c0f08540614062197a334e064 KVM: arm64: PMU: Avoid inappropriate use of host's PMUVer
-8c694f557fd80ca9815ddb1cf5de10d8bf168110 KVM: arm64: PMU: Don't advertise the STALL_SLOT event
-64b81000b60b70f10a5834023fe100902d9f7a57 KVM: arm64: PMU: Don't advertise STALL_SLOT_{FRONTEND,BACKEND}
-b1f778a223a2a8ad6262e5233cfc3483bcf6e213 KVM: arm64: pmu: Resync EL0 state on counter rotation
-971fe5095f78b6475c88270aa4b6ee77a791cf25 MIPS: VDSO: Conditionally export __vdso_gettimeofday()
-d913ff561140dd89104dcb01846d789835a5cdc3 arch/mips/configs/*_defconfig cleanup
-9b80b9676be901eb980c48543a19d7026d2f84b8 KVM: arm64: pmu: Guard PMU emulation definitions with CONFIG_KVM
-c948a0a2f5dc729411a6cfbe0348c0aac5d8a07a KVM: arm64: nv: Add trap description for SPSR_EL2 and ELR_EL2
-f1187ef24eb8f36e8ad8106d22615ceddeea6097 KVM: SVM: Get source vCPUs from source VM for SEV-ES intrahost migration
-1952e74da96fb3e48b72a2d0ece78c688a5848c1 KVM: SVM: Skip VMSA init in sev_es_init_vmcb() if pointer is NULL
-cb49631ad111570f1bad37702c11c2ae07fa2e3c KVM: SVM: Don't inject #UD if KVM attempts to skip SEV guest insn
-80d0f521d59e08eeaa0bc5d624da139448fb99b8 KVM: SVM: Require nrips support for SEV guests (and beyond)
-5002b112a5ad23579b7c3a36c9748740bcdfc88e KVM: selftests: Reload "good" vCPU state if vCPU hits shutdown
-02dc2543e3795867260826983bf3f20b282c8fc3 KVM: selftests: Explicit set #UD when *potentially* injecting exception
-c92b922a8c526e1bb11945a703cba9f85976de7e KVM: x86: Update MAINTAINTERS to include selftests
-9ca0c1a1265c03d54f1c71005ea0375f9bccabee KVM: VMX: Delete ancient pr_warn() about KVM_SET_TSS_ADDR not being set
-f156a7d13fc35d0078cd644b8cf0a6f97cbbe2e2 KVM: arm64: Remove size-order align in the nVHE hyp private VA range
-45cc2a7de905a1f3bb38fb7d6f68a204c71630be MAINTAINERS: remove obsolete pattern in RTC SUBSYSTEM section
-f45d32d2cd183c09b6c9aa8689a91d6f2760b557 rtc: isl1208: Fix incorrect logic in isl1208_set_xtoscb()
-781589e40ac5f929f58824c15448e1ba49c3ac32 rtc: Add support for limited alarm timer offsets
-00c3092d881bc9d63dc36eecd140cdb38962c7ec rtc: cros-ec: Detect and report supported alarm window size
-2546e7083f2ea96bdd6157961dc2748d65a9e487 rtc: cmos: Report supported alarm limit to rtc infrastructure
-3637bbdc8a446b8edb369383d2abc816c96ee864 rtc: tps6586x: Report maximum alarm limit to rtc core
-46b79ac0b463e155b098805ff66f1f22ff249b45 rtc: ds1305: Report maximum alarm limit to rtc core
-2b0386d578836b9cd5d2e63cff38b7229c319e4a rtc: rzn1: Report maximum alarm limit to rtc core
-eeeb77716f5f7c03d157980c7ad3af037c61c8ae rtc: pcf2127: remove useless check
-a5aeccabb53673331f78a97ce492ce6d01f1e036 dt-bindings: rtc: Add ST M48T86
-6ec3f5ec2eecabab065a39f5e04562c8c3c81ece rtc: m48t86: add DT support for m48t86
-1e786b03705938870dafb629f2248f88d507a0ff rtc: pcf85363: Allow to wake up system without IRQ
-7130856f56054a031c492d37896cbcbfd04a61b5 rtc: twl: add NVRAM support
-5496eac6ad7428fa06811a8c34b3a15beb93b86d i3c: master: svc: Describe member 'saved_regs'
-32e6b31a6a80ba9493fad802d68d41f4d63230cc dt-bindings: i3c: Fix description for assigned-address
-c6a7550458922181bb922863d5f5feaf3c453fe5 i3c: master: Fix SETDASA process
-687eb3c42f4ad81e7c947c50e2d865f692064291 xtensa: PMU: fix base address for the newer hardware
-e7513eccb7d7f82e28f4730210b42da71edaa6a6 MIPS: TXx9: Do PCI error checks on own line
-c1907626dddc0e1c9aaea6af6c2ae49c861177ce Merge branch kvm-arm64/nv-trap-forwarding into kvmarm-master/next
-d58335d10fd7617addb48b3c4f06c373c2f76529 Merge branch kvm-arm64/tlbi-range into kvmarm-master/next
-50a40ff7d311da4c28e7f9d5e9113b4fab3b7b8e Merge branch kvm-arm64/6.6/pmu-fixes into kvmarm-master/next
-1f66f1246bfa08aaf13db897736de49cbeaf72a1 Merge branch kvm-arm64/6.6/misc into kvmarm-master/next
-ede6d0b2031e045f0a0e4515e4567828d87fd3ef Merge tag 'kvm-x86-selftests-immutable-6.6' into next
-16631c42e6ff4f5acf30998fda6c2ea09d1adbfe KVM: s390: interrupt: Fix single-stepping into interrupt handlers
-74a439ef7b67d89d29ec7485c3aeca20a64449c5 KVM: s390: interrupt: Fix single-stepping into program interrupt handlers
-ba853a4e1c7addc631df55535bf0b04c62dc79d8 KVM: s390: interrupt: Fix single-stepping kernel-emulated instructions
-1ad1fa820e6424ae75d3d9f59774e40c9c7ec1e5 KVM: s390: interrupt: Fix single-stepping userspace-emulated instructions
-fdbeb55ebdf1d83e610303f7e5c50a4d6904b7fa KVM: s390: interrupt: Fix single-stepping keyless mode exits
-642dbc0312d67781dabf97a70b43810165f21527 KVM: s390: selftests: Add selftest for single-stepping
-5d0545abee3a39e2946e6587475504f3ebab3ae3 Merge remote-tracking branch 'vfio-ap' into next
-b1e428615f154c87a94267b67e819644b50948f8 KVM: s390: pv: relax WARN_ONCE condition for destroy fast
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
-19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
-899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
-03ce34cf8f50e4c62f9a4b62caffdba1165ca977 xtensa: add XIP-aware MTD support
-50011c2a245792993f2756e5b5b571512bfa409e KVM: VMX: Refresh available regs and IDT vectoring info before NMI handling
-67ce50ce01d8abfa36612bcef9ec56e37b9fc247 s390/monreader: fix virtual vs physical address confusion
-789dd8cb1eb1503c8167bf2ffc88f74a70245044 s390/dcssblk: fix lockdep warning
-7b03942ff33c3b242eb4b52d83dac8fa106c063c s390/vmem: fix virtual vs physical address confusion
-b6f10e2f66e43b903b1f37b643d353fe364190cd s390: remove "noexec" option
-c0f1d478121131c2a97cab24148bf7ebb7ed3434 s390/mm: simplify kernel mapping setup
-3eeb07788ff05b30e2ddad39561d53495563e63a s390/amode31: change type of __samode31, __eamode31, etc
-a6e49f10f4411ec87f16ccb1b0ce5ea7e4a04a95 s390/mm: improve description of mapping permissions of prefix pages
-c22a4c8aaf60780ce21fb2b5c8019e12457ee949 s390/set_memory: generate all set_memory() functions
-850612c8e4fb048905af597cbd25dfbb40d9ffdf s390/set_memory: add __set_memory() variant
-a7eb28801b692df2496e21ff9af6ab0dc1969133 s390/mm: use __set_memory() variants where useful
-acf00b5ef9f83069ddbea274ab32931f8573e98b s390/airq: remove lsi_mask from airq_struct
-e0fb12c673e53d2a103b9e0abc92204de0fc325d Merge tag 'kvmarm-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-0d15bf966d7d47ba9630c4fc6e04860449cc2aab Merge tag 'kvm-x86-generic-6.6' of https://github.com/kvm-x86/linux into HEAD
-1814db83c049f3ab3e9a185b57a82f0ab53e58d3 Merge tag 'kvm-x86-selftests-6.6' of https://github.com/kvm-x86/linux into HEAD
-69fd3876a4648499dbda4707fac646dc9c69fb0a Merge tag 'kvm-s390-next-6.6-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-e43ae8b689f0e6864e0a478477995a887301644b Merge tag 'kvm-riscv-6.6-1' of https://github.com/kvm-riscv/linux into HEAD
-8783790a5e77f5fde8dd267d154089c37955d5e3 Merge tag 'kvm-x86-pmu-6.6' of https://github.com/kvm-x86/linux into HEAD
-755e732dde236c664673966c817d811db7ce1960 Merge tag 'kvm-x86-vmx-6.6' of https://github.com/kvm-x86/linux into HEAD
-bd7fe98b353b7e52b3db239d86cbe04234097a20 Merge tag 'kvm-x86-svm-6.6' of https://github.com/kvm-x86/linux into HEAD
-6d5e3c318a33edb1f9176964c4ed7f076fc4248c Merge tag 'kvm-x86-misc-6.6' of https://github.com/kvm-x86/linux into HEAD
-91303f800e76517d1e96d47dec290c5d5dbf1230 KVM: x86/mmu: Move the lockdep_assert of mmu_lock to inside clear_dirty_pt_masked()
-d09f711233a43869725abc44102117d2a8fae6fe KVM: x86/mmu: Guard against collision with KVM-defined PFERR_IMPLICIT_ACCESS
-a98b889492a61a0220f26d8692ec744f1830a172 KVM: x86/mmu: Delete pgprintk() and all its usage
-350c49fdea222193e886ddfa8cc55989853a05f5 KVM: x86/mmu: Delete rmap_printk() and all its usage
-c4f92cfe021d9263a554f8adcd7c49ef52e485bb KVM: x86/mmu: Delete the "dbg" module param
-242a6dd8daddbc718a3ad585ce4dce042c13e208 KVM: x86/mmu: Avoid pointer arithmetic when iterating over SPTEs
-58da926caad9c6ecba70202a3775f2fd9b476cfc KVM: x86/mmu: Cleanup sanity check of SPTEs at SP free
-0fe6370eb3d5603e2e41bfca00043ed8b8f90cfb KVM: x86/mmu: Rename MMU_WARN_ON() to KVM_MMU_WARN_ON()
-20ba462dfda6a95cb3bfb5577da813acf3dc4b40 KVM: x86/mmu: Convert "runtime" WARN_ON() assertions to WARN_ON_ONCE()
-72e2fb24a0b0528bcc16a8f6ad2cf336ac361525 KVM: x86/mmu: Bug the VM if a vCPU ends up in long mode without PAE enabled
-870d4d4ed82779e717ec7fb0f9b64f43bd7a736b KVM: x86/mmu: Replace MMU_DEBUG with proper KVM_PROVE_MMU Kconfig
-3328dfe0eac38df388a0cded8e3f3cd307ca0be3 KVM: x86/mmu: Use BUILD_BUG_ON_INVALID() for KVM_MMU_WARN_ON() stub
-069f30c619792d5202d72fecd842cacbee260561 KVM: x86/mmu: Plumb "struct kvm" all the way to pte_list_remove()
-52e322eda3d475614210efbc0f2793a1da9d367a KVM: x86/mmu: BUG() in rmap helpers iff CONFIG_BUG_ON_DATA_CORRUPTION=y
-f046923af79158361295ed4f0a588c80b9fdcc1d drm/i915/gvt: Verify pfn is "valid" before dereferencing "struct page"
-1e557c1cd0549b30fa4bc3e9aa46c5eeadaa63f5 drm/i915/gvt: remove interface intel_gvt_is_valid_gfn
-adc7b226b7d675d011fe86447a5a36b932f1b061 drm/i915/gvt: Verify hugepages are contiguous in physical address space
-a15e61f3371b35b7db2d7890fdc68e5f7678e49f drm/i915/gvt: Don't try to unpin an empty page range
-708e49583d7da863898b25dafe4bcd799c414278 drm/i915/gvt: Put the page reference obtained by KVM's gfn_to_pfn()
-96b138cd23e978cd0975d1f4d5709dae2e061fd1 drm/i915/gvt: Explicitly check that vGPU is attached before shadowing
-241f0aadb8577dd17fa521bf19ba7ae85dc33d41 drm/i915/gvt: Error out on an attempt to shadowing an unknown GTT entry type
-ba193f62c075768b475efbaec32481a20869813f drm/i915/gvt: Don't rely on KVM's gfn_to_pfn() to query possible 2M GTT
-16735297fdce2c7952dbe23288aad0d327fc444b drm/i915/gvt: Use an "unsigned long" to iterate over memslot gfns
-a90c367e5af63880008e21dd199dac839e0e9e0f drm/i915/gvt: Drop unused helper intel_vgpu_reset_gtt()
-3cca6b262876d30aae423431e8392d8b97b044fd drm/i915/gvt: Protect gfn hash table with vgpu_lock
-db0d70e61082a71e32147733ac082030cdbff0af KVM: x86/mmu: Move kvm_arch_flush_shadow_{all,memslot}() to mmu.c
-eeb87272a364311dbfe1b10dd896c3e09a02cd03 KVM: x86/mmu: Don't rely on page-track mechanism to flush on memslot change
-932844462ae310493d0d21b1c5d7464d59702b4d KVM: x86/mmu: Don't bounce through page-track mechanism for guest PTEs
-b271e17defb07560399734c7aefbdd0fc961c601 KVM: drm/i915/gvt: Drop @vcpu from KVM's ->track_write() hook
-c70934e0ab2d2c4bb16bf70c3e3db8c064a1761b KVM: x86: Reject memslot MOVE operations if KVMGT is attached
-2ee05a4c275a54d9b64599bcbf7117a9490c9e43 drm/i915/gvt: Don't bother removing write-protection on to-be-deleted slot
-b83ab124ded3c17f911668522a2e916ca8d3c523 KVM: x86: Add a new page-track hook to handle memslot deletion
-c15fcf12ffb37be314752202fb02cf16138e66fb drm/i915/gvt: switch from ->track_flush_slot() to ->track_remove_region()
-d104d5bbbc2de62fafe0e391dbc7b1e99a58722e KVM: x86: Remove the unused page-track hook track_flush_slot()
-58ea7cf700cae441fd41d17e6f8092a4f9e2e32b KVM: x86/mmu: Move KVM-only page-track declarations to internal header
-e998fb1a30131fdc7c734bc7422000b41146b631 KVM: x86/mmu: Use page-track notifiers iff there are external users
-338068b5bec4dfa11cf50eb8c1839d1e27749395 KVM: x86/mmu: Drop infrastructure for multiple page-track modes
-7b574863e71833b5a4907245c1d95e76d507b984 KVM: x86/mmu: Rename page-track APIs to reflect the new reality
-e18c5429e0c4bf7b550211245dcbfc61e71a7e6f KVM: x86/mmu: Assert that correct locks are held for page write-tracking
-427c76aed29ec12a57f11546a5036df3cc52855e KVM: x86/mmu: Bug the VM if write-tracking is used but not enabled
-96316a06700fc93140e7492c9e994045680f7272 KVM: x86/mmu: Drop @slot param from exported/external page-track APIs
-f22b1e8500b449fabc33ca271cd8e91749fa63b4 KVM: x86/mmu: Handle KVM bookkeeping in page-track APIs, not callers
-09c8726ffa4a8309af7653988694b6cae6abf723 drm/i915/gvt: Drop final dependencies on KVM internal details
-c5f2d5645f9b7c12c9546ced9ec1f1a558870747 KVM: x86/mmu: Add helper to convert root hpa to shadow page
-c30e000e690af74f61a161fa60be140f23948cb1 KVM: x86/mmu: Harden new PGD against roots without shadow pages
-2c6d4c27b92d729a2831df2a873ba6b5f682f435 KVM: x86/mmu: Harden TDP MMU iteration against root w/o shadow page
-b5b359ac30d458cb3e2a7fb953adeec78fae4e35 KVM: x86/mmu: Disallow guest from using !visible slots for page tables
-0e3223d8d00ac05849661f1b8b476d3caca251cf KVM: x86/mmu: Use dummy root, backed by zero page, for !visible guest roots
-d10f3780bc2f80744d291e118c0c8bade54ed3b8 KVM: x86/mmu: Include mmu.h in spte.h
-d011151616e73de20c139580b73fa4c7042bd861 Merge branch 'kvm-x86-mmu-6.6' into HEAD
 6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
-08d90f46c7ddff0cbd3fefbddf1d2bd53ce4b477 s390/mm: fix MAX_DMA_ADDRESS physical vs virtual confusion
-6252f47b78031979ad919f971dc8468b893488bd s390/zcrypt: don't leak memory if dev_set_name() fails
-f59ec04d382d2f2528f439947e215a52703e0094 s390/zcrypt: utilize dev_set_name() ability to use a formatted string
-06fc3b0d2251b550f530a1c42e0f9c5d022476dd s390/vmem: do not silently ignore mapping limit
-6e13d6528be2f7e801af63c8153b87293f25d736 i3c: master: svc: fix probe failure when no i3c device exist
-348c11a7d71b0b216f28ea077137e2351ab0dea8 rtc: stop warning for invalid alarms when the alarm is disabled
-94ec1f06d02350860e0579b8058f1ef87506f697 rtc: sun6i: remove unnecessary message
-8805baceb0aa24757916300667940f12aa002dab rtc: twl: remove unnecessary messages
-d844c64bbc86682f4ac3e92627b8e3b57ddfad6a rtc: wm8350: remove unnecessary messages
-ce413486c9a0d735d86cc7d88660abeac99c2501 dt-bindings: rtc: ds3231: Remove text binding
 f7c4e3e5d4f6609b4725a97451948ca2e425379a xfrm: interface: use DEV_STATS_INC()
 fd94d9dadee58e09b49075240fe83423eb1dcd36 netfilter: nftables: exthdr: fix 4-byte stack OOB write
 f4f8a7803119005e87b716874bec07c751efafec netfilter: nfnetlink_osf: avoid OOB read
@@ -447,6 +38,18 @@ ab41a97474c00ceab1b8f44ac78a51079130466a arm64/sysreg: Fix broken strncpy() -> s
 cfff2a7794d23b03a3ddedd318bf1df1876c598f ASoC: amd: yc: Fix a non-functional mic on Lenovo 82TL
 f16d411c290bd33b2a9d081406dffd124712483b Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 08c6d8bae48c2c28f7017d7b61b5d5a1518ceb39 net: phy: Provide Module 4 KSZ9477 errata (DS80000754C)
+671eae93ae2090d2df01d810d354cab05f6bed8b LoongArch: Update Loongson-3 default config file
+feeec636b6b1cf3e6129e645411751b205c44976 smb3: add trace point for queryfs (statfs)
+6a50d71d0ffff6791737eb502b27f74fb87d0cae smb3: allow controlling maximum number of cached directories
+30bded94dcef8d329eb2575665518aadf90ca344 cifs: update internal module version number for cifs.ko
+3f091387a39795812aab4303949bbc9baa22c077 parisc: shmparam.h: Document aliasing requirements of PA-RISC
+70bd68d5b61a63f87b5e986d9100c8ce46c5df4d parisc: Prepare for Block-TLB support on 32-bit kernel
+eda205211a522312b667d5bd25d58bee8504c09e parisc: BTLB: Clear possibly existing BTLB entries
+510610f96d65277940a02f47d7bc7a06c8a2ab7a parisc: BTLB: Add BTLB insert and purge firmware function wrappers
+4695e45ec0cd4d422694b69e9f39c742bb1f35fc parisc: BTLB: _edata symbol has to be page aligned for BTLB support
+3756597a684da9fbf966f91ed351033ac1a0f55f parisc: firmware: Simplify calling non-PA20 functions
+e5ef93d02d6c9cc3a14e7348481c9e41a528caa1 parisc: BTLB: Initialize BTLB tables at CPU startup
+d20b484c674d2eae816978a98fa38b4054aeca3b drm/drm_exec: Work around a WW mutex lockdep oddity
 e43252db7e207a2e194e6a4883a43a31a776a968 ALSA: hda/realtek - ALC287 I2S speaker platform support
 61a1deacc3d4fd3d57d7fda4d935f7f7503e8440 net: hns3: fix tx timeout issue
 dd2bbc2ef69a920d93801321b0b01ac6c4e5cacd net: hns3: Support query tx timeout threshold by debugfs
@@ -458,7 +61,10 @@ fa5564945f7d15ae2390b00c08b6abaef0165cda net: hns3: fix invalid mutex between tc
 35494b0d61e44b517178aa1c6f5a69168b086940 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
 8bd795fedb8450ecbef18eeadbd23ed8fc7630f5 arm64: csum: Fix OoB access in IP checksum code for negative lengths
 7153a404fb70d21097af3169354e1e5fda3fbb02 Merge tag 'nf-23-09-06' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+fd416616d0995f4947dd0a7a8c2ac4d9f916a9d0 firewire: allow deactivating the IEEE1394 menuconfig section at once
 ecc8b4d0b6e19031733f28537971f8c5088dada2 Merge tag 'asoc-fix-v6.6-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+4952801fc6adb5b50b8ec2bcc5aeef92fcce8730 Revert "printk: export symbols for debug modules"
+189f53ec666838729ab29a220ca4c1e1f1359f95 Merge branch 'for-6.6-fixup' into for-next
 dcbad727513d277144aee482b2ffbcd2255c37aa drm/radeon: make fence wait in suballocator uninterrruptable
 9013c51c630ac5a046aa2d51d67e966b6185f1cd vfs: mostly undo glibc turning 'fstat()' into 'fstatat(AT_EMPTY_PATH)'
 78a06688a4d40d9bb6138e2b9ad3353d7bf0157a ntfs3: drop inode references in ntfs_put_super()
@@ -467,7 +73,11 @@ ac2224a467b499730057525924f6be3f4fdb0da5 Merge tag 'mips_6.6' of git://git.kerne
 4a0fc73da97efd23a383ca839e6fe86410268f6b Merge tag 's390-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 6afcf0fb92701487421aa73c692855aa70fbc796 Revert "net: team: do not use dynamic lockdep key"
 1b36955cc048c8ff6ba448dbf4be0e52f59f2963 net: enetc: distinguish error from valid pointers in enetc_fixup_clear_rss_rfs()
+017c73a34a661a861712f7cc1393a123e5b2208c ubi: Refuse attaching if mtd's erasesize is 0
+d9809d242ff501734e716634e0b3f3e0dce823ec Merge tag 'drm-misc-next-fixes-2023-09-01' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 0c02183427b4d2002992f26d4917c1263c5d4a7f Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+bf4f15b69b9af8e5d6aaeb82cb392850fd4bcd0e gfs2: Simplify function gfs2_upgrade_iopen_glock
+2f06468197b14d138aab05b0d7e9857120d3bc1c gfs2: Remove freeze_go_demote_ok
 32904dec06adf350e04c2b2e6e6dbb321d852c6f Merge tag 'spi-fix-v6.6-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d9b9ea589b47ba603acf18bbbbb44b1a662c61f5 Merge tag 'regulator-fix-v6.6-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 e59a698b2d89b95471769c901d12392134c56eab Merge tag 'i3c/for-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -492,5 +102,90 @@ a346b9f312bb857e75c1f013daf8b4102c7e95b0 Merge branch 'riscv-dt-fixes' of git://
 e3aacb36b63231a6594175c4e0e99847690a2b9c Merge branch 'perf-tools' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 71903ab810e4c2cc6e208768f4bb8d573315b4f4 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
 9fc05fa98a113fe105271eacfb97c33027fcd4a3 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
+82be50ea82c3c3e41bb71bc198b0532799b0ce01 Merge branch 'mm-stable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+953b746acfaf4897371b719653c13bbe9b64eb84 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+0daca80fd855cab7cd9a7a4a7d3c1e402c970954 Merge branch 'for-next' of git://git.infradead.org/users/hch/dma-mapping.git
+60b6b15c0d7bcebe1e098f76a846e40229f58848 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
+6e8aa7a8bc975e86248992d8b998c3c9e303306d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux.git
+80299469fb560f495dfa62edc44eb149c8d0d45b Merge branch 'asahi-soc/for-next' of https://github.com/AsahiLinux/linux.git
+51017ae6987787bf96ce79922b0fa9c6940ae3a3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc.git
+3db360ba4d9bccf28b80f48af1469402d89eb1bd Merge branch 'at91-next' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
+a1a3d058a5613902bed975524224b36bcbb87ce5 Merge branch 'next' of https://github.com/Broadcom/stblinux.git
+26b6afcb47c4ab1527a7fc9fded6e12e360b930d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux.git
+9f3811893f067948724e62f950ff6af8de41cfd3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux.git
+97cf7185bbda47c622824edefe5232ee4069c56e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu.git
+dc66e80da5ae179a0382b9cb03e87463bbf022b6 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap.git
+c22ce37f2d4a0d8a865a26e2ed64eab75519f21f Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux.git
+23ff059fc441d44b51f31a9c2f5b3f6cae068b74 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git
+1246f50b26d139b88e17b95c4d20eaa143623227 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip.git
+95992f74ef7798b04f84cec2ea7f610dc78d75f8 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git
+44283a64e2f3f616b36e2dc08b22d341bcdc7098 Merge branch 'for-linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux.git
+6a919a59a46d30e77377351dafdb7d44a3facf48 Merge branch 'stm32-next' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32.git
+cee0cdf84e7028f86a554066a7cc1bc00b61f2c0 Merge branch 'sunxi/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux.git
+31cf7e6ce434f14552c4cac6acd6f7f64b34c164 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git
+0dda7835bbd1617a94a409d92927e3d6503c2459 Merge branch 'ti-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux.git
+8066673dfa4c99e1c3dc2f3e91543626de6830d2 Merge branch 'loongarch-next' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson.git
+5d6d7de02abd4fe0396069aa93c5603bd6ef388e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux.git
+accaf42c46af1ed46646a341f11d93d184232e6d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
+54259bd39001db09ebe605714a354025e401120e Merge branch 'riscv-soc-for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
+f2b6a3ca3dc509c0d86af5d6dbe0455a47ac62e5 Merge branch 'afs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs.git
+f17bb31b5bc800a20ecd0e01028af36b52e78eca Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+d29c6a90fd17283cef9a84eaf485a1ae18633c83 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
+1aaf99de2dbac156965707d74316b40c69113232 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git
+6ed16bcc69f2f6a8d0c46ff157baef90759ce946 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
+d7f951b60af3ede497b67cd6cf529aed0c08505a Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
+37aacfc4aa828904600a43815a89574647f558f8 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
+7c2d710655529e01c992b504213d100efb319566 Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
+c3b8d90dcc074ca47eccd213fecde0bbe670b942 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
+f2f95ee07cdeca50af3a708bd0585b210787a977 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
+7866e97d13b1bcc50fa83bfb11942a9290d6ee69 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+e60186e22513f3b836b00aaeb8b31f883dd38f6e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+4cc36bc0cf52a99b1ef250842235df28c6749dfc Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux.git
+8dd1d55fd62632ef62c2eb7af303abd4d2752e60 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid.git
+52a71f391f8b378a88b03b4cd10b1f33a587eff0 Merge branch 'i2c/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux.git
+576e7da46d367b6954f9b38d45ea9aab9373b917 Merge branch 'master' of git://linuxtv.org/mchehab/media-next.git
+6b82ab4c1e7120e01bda64f8bd82a7702aafa022 Merge branch 'linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm.git
+67dbcc0c3b04384f13af2d7522640af5cee195cb Merge branch 'cpufreq/arm/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm.git
+f0474f7d7985a48129fe01728c921bf8f7a36033 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next.git
+2c4e50ed70042d418b5eed29d094d5e69b2e456c Merge branch 'drm-next' of git://git.freedesktop.org/git/drm/drm.git
+cbd5f2bc90218407d3881cd437c0f237f31f63c6 Merge branch 'topic/drm-ci' of git://git.freedesktop.org/git/drm/drm.git
+0a7ac9a0eb0467ce59aefabcc0c22861ac8edc56 Merge branch 'for-linux-next' of git://anongit.freedesktop.org/drm/drm-misc
+6ebf0f9d5e556426732fe6367b847c1760efd620 Merge branch 'drm-next' of https://gitlab.freedesktop.org/agd5f/linux
+c112a881354a36745d7b54906a8996ee3a424ece Merge branch 'for-linux-next' of git://anongit.freedesktop.org/drm-intel
+1a077fe2a3aafa8f731a39f9b3c106dde4efbed4 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+31e315d05563dd58a4247ac57e9dc35f47375b80 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394.git
+0af64d2f3731297ed5cc4e0e023ce8206134921c Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
+c1356c49851b71d2378face0490caf14b8fe4e60 Merge branch 'for-next' of git://git.kernel.dk/linux-block.git
+622a093a3ef705c36ef94f1c1d67d8db474e53fb Merge branch 'pcmcia-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brodo/linux.git
+e6d17b4f122eb5ebefa57f3de609989b99564e04 Merge branch 'apparmor-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
+40409cdd7777e0e8057f9e8dbb8f6bdbeb0a3ec8 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
+af75b7f097ea1aacad033185a3a96a11b3b60bac Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt.git
+959d584936d7e450f7acb4b520af1d87078dce06 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
+abb7c531f47a899c1aa291dc8c62930cd211cb2a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace.git
+e0ea179d536e97aa0d6f5ae4ca20ff5aa13aab05 Merge branch 'rcu/next' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu.git
+d37cf59ac757d51b2e7cef8871e7e66df72b602a Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git
+59a5e1582dce4acfe64b428bdbfeb7d666d8a9d4 Merge branch 'linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip.git
+82038aabd318c127fa44c9c8d0ea40aa171fc34d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu.git
+10a1c7d4c2bc60795c833757d4fb6fe507928277 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq.git
+3f0968bf2314675b4f8904f67661861f23281fae Merge branch 'habanalabs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux.git
+012d8a242b55d65d05de493facffab8f4fc97b12 Merge branch 'counter-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
+d2909316963fa1c00caf61f92c4306c5b5ea945a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi.git
+8ce951fc4497d18988023d082771739549e30de5 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
+4b192cee798e9f15a02285fb572bc51b8bcad12e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux.git
+753232b1bd3df996d221ef0df506f41360fc6c7d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl.git
+3925720412db0c2a112a6fbc2cc19378ac788a88 Merge branch 'renesas-pinctrl' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers.git
+abd4a70e0690dab81d6b8edd2ea8a1d592cf398c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm.git
+95f4826a541875ab094334bacd2ad61d417e9169 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace.git
+a100ca715912f94451b36932cfd0744d200f97e1 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+cf397b1c74101ef347e3f7cc28d3aead02edb918 Merge branch 'kunit' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+8a76676505168a1775b7fcd510e8e40b2f5dc4ed Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+6094d19d79e4f465fb6153e1b82aa5be44e0a8a7 Merge branch 'ntb-next' of https://github.com/jonmason/ntb.git
+e74ceef64f28c901ce53aa740c1148585b652ee7 Merge branch 'main' of git://git.infradead.org/users/willy/xarray.git
+e49830589a39484e492fca4f4bb112af6e3d4bd9 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git
+cfb316dd033ac25846b680aa4fb872b85993241f Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
+d0b22948e1f3e95e60a8bbc401fddfedbe4685e6 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/krisman/unicode.git
+723c30261451ddc30c2cff6e199e5c509e828948 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux.git
+c633978145e42efcebe9bcf54e76add200cf669d Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
+af3c30d33476bc2694b0d699173544b07f7ae7de Add linux-next specific files for 20230908
 
---===============4010122748150086626==--
+--===============2311760468943415281==--
