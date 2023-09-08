@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7151051541437272128=="
+Content-Type: multipart/mixed; boundary="===============5571250930154245012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 08 Sep 2023 16:36:31 -0000
-Message-Id: <169419099163.5838.15308693810293503443@gitolite.kernel.org>
+Date: Fri, 08 Sep 2023 16:36:34 -0000
+Message-Id: <169419099488.5913.16550715701254472783@gitolite.kernel.org>
 
---===============7151051541437272128==
+--===============5571250930154245012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 7ba2090ca64ea1aa435744884124387db1fac70f
     new: a48fa7efaf1161c1c898931fe4c7f0070964233a
     log: revlist-7ba2090ca64e-a48fa7efaf11.txt
 
---===============7151051541437272128==
+--===============5571250930154245012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694190991 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694190994 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694190990-c22004612761d844437e40ce1b9631bee926ffa4
+nonce 1694190993-e5bee5e3027ce5d9d3058ceccdb191ea04b83bef
 
-7ba2090ca64ea1aa435744884124387db1fac70f a48fa7efaf1161c1c898931fe4c7f0070964233a refs/heads/driver-core-linus
+7ba2090ca64ea1aa435744884124387db1fac70f a48fa7efaf1161c1c898931fe4c7f0070964233a refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT7TY8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SvcP/33QqVfSoCq2ogLYuUCp
-8pqzmrRyD4uEQyKulo6xMQYiGiMxflmPybp4VDlptYpTrlgylu5QJCYuBU42UVNj
-s9ydg7BUOPUmQIwgtl96BKAUviQ7Kuq2dGPo4iYQ0cxpsPlM79xDbAkzqK3VEseO
-lkMIk3zLvZfyMZpiIqmPCLGhEXdOysGRus5heOtH9YmJEx59H3eSdKVo0DtNbGGV
-9nCIltMHf/xEQORcLw6kxbT1heW7qiHw7E91lcYmDYnBlM+mFZ8MBowbUZs0yBla
-2dbWRJ2I6Q3Wx2JTcjUdJqtQ34P4FVjt04ZzVDmIdbatVcbMYzjxRgSPmZYUiL5g
-O8tqx44udT5/ViwQ5GJVtpXE7B+S4bTU6PStmLE7iA9aPcGM9bmt0APkZhIfWgBX
-oaT9ZSfspttdPeOeD0akd+1g/6MjBiItw2o/8QPndQS889ZRgqSfL1u1XT5tyfYt
-oM0VEXqiMCFUZDrDeN6zd1M6iBQEiKKEsBbLZX8PtrmpXVrqqh4yG2jy4mCjmMgr
-A4vEyF0Yv3onkVFJBA4sLVFF1Qb3AODiCceWsJNlxEfEKnJ+NMvlTXGAPa/LNawq
-AOxupeKuM9CNC/Q3gsmNlw2xUi4KSWhZoJAU+EPu3QEyv355TKfEttijkW0dtFus
-zE19q1blxPMXQmbE7+8aZbLi
-=/Kp/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT7TZIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6/QQAL6w9LMrt5SFM/EA0COc
+4AJGYeZh3B6gVJb8Z3Js+tHjAuzKxdj5YKEA2gNtqINCoO/Lu+bVH9VXPo+SUnfy
+lm4vx/3mn4vrlBLDgTEGyNzf1HbQAsb35ZCpRVk45/j3iH5BVdlj/iqtNwZ4CRcf
+/Y5nni7bKxfRpS1gLcvmwxgDuyGjipj1v94zYJMCx4KZBEPHNtL4gw+8Ck/e0Wx5
+kcW0y3TrBqqQd0HZCCpHTPL62otwTMjZZbYp38E8fiEhjIO0Ht/do5Ot0vyrMI8W
+ULPB/jL1nHcmoA5GAsx+K8jJMTjV9OkI6LbBIntz6NgLc+y8TfrA1527W66lYYGK
+q5x48wInynlZRS7oivNRoo6scIbChbB7jLcV+0d1Uei8qdXhZ292EPPgHZf5qCwc
+Wo8aN+T1/6FaDs4f1EBogZilmVHKLfIXx30kDiZLe+Rdxy62m7OepWxXGBqij2Qr
+QdvsD5tHWCImL3vzUQBcDP/mp2iaqJ+GkBATKqEqsCjyXbDpEfBBgM736dkYdU7/
+8jZ7EJS3WsPh9T1HQqcmVRKeXvS7ieU4XyydCNF80JbX9cKpyZP38HI+861lgVsu
+L4DiEndm2W33tm+GrKIMLpcByaGo0ElY4B16Ju/ltv5NsSgCxZSWWNBfI55S0mX+
+J5Bm3A5TKIZP8Uq7HjqEYmrO
+=d6to
 -----END PGP SIGNATURE-----
 
---===============7151051541437272128==
+--===============5571250930154245012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -679,4 +679,4 @@ ff6e6ded54725cd01623b9a1a86b74a523198733 Merge tag 'rtc-6.6' of git://git.kernel
 73be7fb14e83d24383f840a22f24d3ed222ca319 Merge tag 'net-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 a48fa7efaf1161c1c898931fe4c7f0070964233a Merge tag 'drm-next-2023-09-08' of git://anongit.freedesktop.org/drm/drm
 
---===============7151051541437272128==--
+--===============5571250930154245012==--
