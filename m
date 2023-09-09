@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5187205511910605938=="
+Content-Type: multipart/mixed; boundary="===============1550394588222466198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sat, 09 Sep 2023 22:21:52 -0000
-Message-Id: <169429811266.17053.183820645205908030@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 22:21:55 -0000
+Message-Id: <169429811582.17135.10131675840468138586@gitolite.kernel.org>
 
---===============5187205511910605938==
+--===============1550394588222466198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 7ba2090ca64ea1aa435744884124387db1fac70f
     new: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
     log: revlist-7ba2090ca64e-6b8bb5b8d9b3.txt
 
---===============5187205511910605938==
+--===============1550394588222466198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694298108 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694298115 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1694298108-20168a7eab3bbea4a9eff3c568fdff541a8ee3e8
+nonce 1694298114-4bbbf67bbbbbf5db03b7494de9df4e7881c96779
 
-7ba2090ca64ea1aa435744884124387db1fac70f 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 refs/heads/main
+7ba2090ca64ea1aa435744884124387db1fac70f 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT87/wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dD4P/2Vq+WjZv385K9GTdIPT
-SQ9UnCti0Q/2Pq0xu2UPZiY63nQtRBuXlFaJE3gsVXC+CCdxDNhMfHQzuW4S1Tbm
-8zBI7fjHCQExOsU0ftrQZAAf3013guX0x9nLEYzl9h9G/E4R5deuH9sNaJiIunnj
-uHIjtvMOL2GOGWkDmFlNxGmLra7cySr6bov6jThLbNdfJb6E4kS6+I/CV+oyvemO
-zEidg9JYaplViFOWD+76hDlp2f7iC0ZFtnOPj0vhBhTbHAUiBcHvu4KtcQ4HVLcG
-EBtbu1e+C/YPoVPtrg55uAVNwJEmkh8ty2AIvW+Tq6Yw0xfWjaYBHSDRiZqGPOFJ
-hy8ZUix2tmgFxm9eK0/jpBwp7Gx6FeKRHA3xlBbavTktjmKlyWq70ItqidTfASd4
-7sT0BCxIC532J+pntSfOb2AbJGD6ysCNckTe1A4e9F2yqHFy/Dzj8+xnb+QGojSS
-CizzMHNLnj7W76lqB0IJ8bJOc54XSdGnljCMELxFskhZYc1JZdCoyNJpwIyJNP7x
-b2QfHHkpfw2jtszmwguRfm8Ke8G/ZpJ1PjT2EIh+hm/bw3U+ZNZJbkCzRxE5i6nv
-0MVYY7kvodNvS8r4Gffe07fvMONfz7cj7QUruN3bK0wgWGIZW6G62g3arhwxDPpo
-qz0HvLfrd2ucx9LFnhZ1sMfX
-=Y4fV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT88AMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nugP/ji0aPGH6Bp19pV6JGoQ
+Lm9bSTlF32qnwZK98lsixyKdlVGyl6GLcz5GvMhucxGnRkdTlFMUnPQBiJfD5C8v
+gC3YVtgjRaPoaM20JE0+2+pO5+kOv4IdqI4pr7K0yaHPGQDIrbhkpvU9bDbZV34+
+V92dmUKnf43In92grujfAOBwFMdwp1NpwW+ZgC1+ZHERgY68R8mmE2cPNNlaQiCU
+t/wXHLTeLsPNFe5VOTNIkqUf46co45II0SuqCD+Gz/JLTo912wD/7UegIWP1whSg
+2oWDN5Y8RWBDE0DjICEF9h67SOd1MiqB4fzVYgepKxwbqABZunpstkY5EOdEy5JH
+iVVGPk4a0E69EJDlF0Pg3/r3TXDJcLWad6TLNkjSgtilOFsY46hEQc3pgCxTex5E
+OcFK+hYzfH99MWxWvRCwJqYq8PSE1/F56l7VO+vY5lRsV+LIoZhMD0F/rZXRJJSE
+6cKgwWhZLjVSPqK2XHFBPw6uHcH8li2+52mut/W+8kpjyBQSPnnPJ/abUPMp1xrx
+WNbeKWTfZnA+i7IKoLdvOQgX64h6vprcam9DJSBnqdU1HbKwpChkKATy2i1KygOQ
+I5iduCNy92PbVDcxKGY1i09SjCjxodfxNqUzxB8Vs+X1oChxPJCFjZ+Tc0XwQr3N
+K9YTuIwrY2e527fIxBFcd7EF
+=ulTM
 -----END PGP SIGNATURE-----
 
---===============5187205511910605938==
+--===============1550394588222466198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -869,4 +869,4 @@ fb60211f377b69acffead3147578f86d0092a7a5 sh: boards: Fix CEU buffer size passed 
 1b37a0a2d46f0c5fa5eee170ddeeb83342faa117 Merge tag 'riscv-for-linus-6.6-mw2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 Merge tag 'sh-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 
---===============5187205511910605938==--
+--===============1550394588222466198==--
