@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3238137113698765791=="
+Content-Type: multipart/mixed; boundary="===============6015767101833635016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 09 Sep 2023 07:16:32 -0000
-Message-Id: <169424379276.25674.9642439734252178517@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 08:04:51 -0000
+Message-Id: <169424669129.25652.3414889425141043136@gitolite.kernel.org>
 
---===============3238137113698765791==
+--===============6015767101833635016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: a48fa7efaf1161c1c898931fe4c7f0070964233a
-    new: 86495af1171e1feec79faa9b64c05c89f46e41d1
-    log: |
-         86495af1171e1feec79faa9b64c05c89f46e41d1 media: dvb: symbol fixup for dvb_attach()
-         
+  - ref: refs/tags/driver-core-6.6-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 447f1b380db3b99c52a025d24ebe56d69283a811
 
---===============3238137113698765791==
+--===============6015767101833635016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694243791 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694246685 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694243789-9ddf2a64cc1905003cfd552350939cd8e57c3958
+nonce 1694246684-f1475a0ac47376a72ef132dba0fd47252ab32af2
 
-a48fa7efaf1161c1c898931fe4c7f0070964233a 86495af1171e1feec79faa9b64c05c89f46e41d1 refs/heads/driver-core-linus
+0000000000000000000000000000000000000000 447f1b380db3b99c52a025d24ebe56d69283a811 refs/tags/driver-core-6.6-rc1-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT8G88bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dWEP/2PXTSX3PhwGltPZYi5w
-aIWa0W4fCIMH212VKtXvhakMIBc5ONb48VC6ekf/3rKm39lLlzD2M7F5K309ZO+V
-laQuitPWEYn88qNNNMeD3UgNq/0v+wj8NOcy7UXeYfpwadc4xy7/N0sYneAWOhvw
-zzUeM07gQaYu6G3OzNwLxq8Q84RpTz1iwUpZYMlGtGOEz0E87V6m5tG+9joxNyd7
-St+GyxhQ0slIYKud5NIO8rI6y8+wtscLA+s0C4gjj0dEV9HW6l9UH5OPq3g9LJ3h
-dHtqYUoyFn2I4dPxNUOoAKw914enbpp6wJnWHTZx9YnpM9calnwRg7aHEKRtu+Op
-t5CqYuOXjrQCMBWi484OJbJW0/XY3qiNzCpGyZdqWJaGFUYhlZu95DHhQTw5bFrU
-YgRCudlE+RPwqVLkjvR8nQ8xBDzXUKonz1PxeKfOhGDaLVUxJsFEs2htEkBdN1Jx
-RlU+PQqFHhDVA2VnsSKecuf10MSMhwgy+IykIODcGRzpR7fgfxh+oYmYKrE2Npav
-xDtUUuw0pet6SeejLKNJWiDf0lPC3jsiefEA4EZTDMIfX4EddCCY8tcw6G6DY87z
-dYDxNMkcPZc3Rc3iSJUpaRElbT/zvrQoMw8c/QDfxi+nRV7G/lHWAs4SOMZbi2RC
-kx1UgaqJJ8T8uR3LezBbNIZD
-=bG6q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT8Jx0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z6cP/jfTUYDRPczQr8Xihn4e
+J4dYA2scsSQjD3HtlqifIaKAXbvAjCMwLvhz/RmZkBT4VTWeoF4yHGrSZ2boqpPo
+D+m1W/G+QKwNr+yDdms30/ypnj2+Ad/xqO8xnWsdvcYrNTaLIgAcFTJJJenS+/oI
+rtTyv9gY9VMkiPc2Qj35v9uQEVJ+CJAdIUtVitFiVOzjHOM4QjGB4DqWoefu3zj0
+5N217W2m3A2WucllitN0UO/QercT7F7mKV9tP2HGgOI/ga9IGQRxeAu5vV2jf5iL
+AE65q2nb4zD6ka9vw6J/nDzCW39KTREE92xht/PkLJTgXCReikStIEA6eSeZ6OhQ
+H9K8JPSzXrnBtzMFRdDcRNcVOwxwxb4osTxXxgrTSq5f31RishR5mv5sdEy6+pLo
+ZLP/tXeaZHuxJJYpKBABuc3FKFdNpXnWjJYU+GVmsB6Geng8ZMUjtzRY5zOaPMmZ
+EzfVP2MJQXHJgAAi8MGddzwcfwLczmfqaz2FCUjzBTrMac+uoGaNbPpT41AKhsPT
+qLcF9js+ILg/znc3WHuw3vOkIbdhBRYG7Bws4hTCoUI+YSq2ybheJpP5xlzSc7dS
+yHFSj3R8138qAB8h3fVUfKaWdUQb4DqFdrI3q1XptqcUU+nWTmfcliPLqH45Ge07
+ZKcprNLhHCagXwztQvkd9Kjx
+=iTnX
 -----END PGP SIGNATURE-----
 
---===============3238137113698765791==--
+--===============6015767101833635016==--
