@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7804426160645085265=="
+Content-Type: multipart/mixed; boundary="===============5542382606950267876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 09 Sep 2023 17:04:41 -0000
-Message-Id: <169427908148.11444.11108340678825311743@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 17:04:51 -0000
+Message-Id: <169427909125.11597.12093988559617874556@gitolite.kernel.org>
 
---===============7804426160645085265==
+--===============5542382606950267876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 65d6e954e37872fd9afb5ef3fc0481bb3c2f20f4
     new: 6099776f9f268e61fe5ecd721f994a8cfce5306f
     log: revlist-65d6e954e378-6099776f9f26.txt
 
---===============7804426160645085265==
+--===============5542382606950267876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -910,4 +910,4 @@ fd88c59e7929ee1a155988e87df27686aa1de967 Merge tag 'pm-6.6-rc1-3' of git://git.k
 3095dd99dd759a5cab8bb81674bc133b1365fb6b Merge tag 'xarray-6.6' of git://git.infradead.org/users/willy/xarray
 6099776f9f268e61fe5ecd721f994a8cfce5306f Merge tag '6.6-rc-ksmbd' of git://git.samba.org/ksmbd
 
---===============7804426160645085265==--
+--===============5542382606950267876==--
