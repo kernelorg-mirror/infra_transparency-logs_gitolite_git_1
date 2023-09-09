@@ -1,27 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6633842433852934985=="
+Content-Type: multipart/mixed; boundary="===============8579642324350709905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 09 Sep 2023 21:35:58 -0000
-Message-Id: <169429535879.14012.1121051383571944970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 09 Sep 2023 21:35:59 -0000
+Message-Id: <169429535922.14044.9547605181395505887@gitolite.kernel.org>
 
---===============6633842433852934985==
+--===============8579642324350709905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
+  - ref: refs/heads/usb-testing
     old: 7ba2090ca64ea1aa435744884124387db1fac70f
     new: 2a5a4326e58339a26cd1510259e7310b8c0980ff
     log: revlist-7ba2090ca64e-2a5a4326e583.txt
 
---===============6633842433852934985==
+--===============8579642324350709905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -29,29 +29,29 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694295358 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1694295357-67c68dcd9b1ecb82fbe769f155d7bb2c50b7a0ae
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1694295358-907e938afeca0e0b4f9d798a762b3193b9b6b1d3
 
-7ba2090ca64ea1aa435744884124387db1fac70f 2a5a4326e58339a26cd1510259e7310b8c0980ff refs/heads/tty-linus
+7ba2090ca64ea1aa435744884124387db1fac70f 2a5a4326e58339a26cd1510259e7310b8c0980ff refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT85T4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OPMQAMee2n+ZNtgGriYTT2gG
-g3SHQTh4bAhbZmPtAq4gcqeHkrpQwMw0guWMjxs/QGBJzCLkbGPBTH4oND0BzHoF
-4gACvl0N/Ee4E3gnIjSfB9j0sGFGLbg/rnLEy2U8Wr8oYRHPcilqxyx4I/GybkKa
-Zug69c8MNCTySkcHO2TtQRdXc5SkhvX9ciu2ETZQP6xAAxdcd01SdoXoFMJnsLUq
-Q25ENvUjOOqmr2cGlB/S+cWshkpO1nMf84zDbBlgzpQ2GBc3CrwvIy42yaJBnsrp
-KlT9Bb5XmziP62COByxnXoJ7PztsuLxKJyXSXVxsKAnVtagPmVtKQu4fb2cqDVvP
-tOxzjp0rdIKkaf46etG7D+xWSTZf0YdhW2QVo0YwQ1YDqbZNoK5XYeVNGPupU4rs
-2fgDfXd7pGSuRWHf5l6N/bY1VftSoqkg2fTscJ4Tku0XnFZ+vDb9AuQnBPMd02Wo
-qghibMYEQsUk0DABg7zRJ2ZpyFQ29guVzIrLVnumwSYBhUoHb82KZlwTbsHUWWTo
-dib9qCvoduH4GvPcN5jZYVx0Muar41KypGprhUdnbAWUTAcmJh1mPSgBt/9lCKBA
-Vu7E8z++L/roXD9UHpRlx/W58h5mESdheHsDdLqvnE9CNA4BoEFEIS0CVrxWQkkU
-+iNhI7aaF4JOU3xOXVc6/8aD
-=xsg/
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5K4P/i4clLVQ/D4XZHuTtUdh
+mbGirxUTW8PSUx31I7YgNe3cgqn7D+1h0BtqcAaOsuwScG4OOYX8MU/rsxmDN2gp
+ekmfBVcPOtE2MhDnY4g/Eo0o6gWKI5vcdkdiriGjklV9uB1y+90NEdBbPDd9Zseg
+B23QWpHB4V3NWA4x3ym5y26I6WoMXCbLLeqE+g8vr2acG/Vmt6qTgIIoGGM8utOD
+wZeQj5g1ySsrvia8Z1p1VaC3Anx4U1ssBmSsR7MfaGP0UxTpqu3GqDROPTbsBOu3
+ctUQBXz3jljiGF90zQsfRSAa6oqxzEBQzoYVJbjLAFGLhwQulPlHyTGkgLJ3hYt4
+NXrfJqAz9MowEKO4leQG+PTNt9h33suQdAhPdfC7J4l9/xKDPdcQ4uuHRX7HuOod
+Nod1RDeF6SlcHw58IGC8SrBeQmJ9tm6j2zuk9aONavMF29d+V+S8/vyFY8QMPgPk
+csHyxj5sOYBqS2dOEWCvOCmJzV3QuGa8iMqYo1UkedfoBYdpBtX994rygyZyIWU1
+ASWNYfmIraA2j5nd0E9D9AYBJb1m1/8TmktPEb2lmbRtvFkRmXm3m/lRGubyl6BK
+6DvHwJp3b8FnVkA6Ng3f43PhOVOem3eAqPTZQr8i+bdFkagXpnsz6GJsEhAogVty
+mZCgQGgz1/PQI/b65JR0WCb0
+=3jSK
 -----END PGP SIGNATURE-----
 
---===============6633842433852934985==
+--===============8579642324350709905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -834,4 +834,4 @@ fa9d4bf5b738a7fa852bbeabfd8889b127ca3193 Merge tag 'ntb-6.6' of https://github.c
 6b41fb277ed41a73608328431f2e76e68c3bca37 Merge tag 'driver-core-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 2a5a4326e58339a26cd1510259e7310b8c0980ff Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============6633842433852934985==--
+--===============8579642324350709905==--
