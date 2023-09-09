@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0947082392225723803=="
+Content-Type: multipart/mixed; boundary="===============4281510093703922061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 09 Sep 2023 22:20:46 -0000
-Message-Id: <169429804629.15968.4496061192706752475@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 22:20:49 -0000
+Message-Id: <169429804927.16037.10775759712374405084@gitolite.kernel.org>
 
---===============0947082392225723803==
+--===============4281510093703922061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 2a5a4326e58339a26cd1510259e7310b8c0980ff
     new: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
     log: revlist-2a5a4326e583-6b8bb5b8d9b3.txt
 
---===============0947082392225723803==
+--===============4281510093703922061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694298045 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694298048 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1694298045-817d3047646d8c849353c52dfd6e76688bc9a20d
+nonce 1694298048-54c58f982fcf29274bad51f8f875162078390d18
 
-2a5a4326e58339a26cd1510259e7310b8c0980ff 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 refs/heads/usb-next
+2a5a4326e58339a26cd1510259e7310b8c0980ff 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT8770bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jFAQAJPySVwwJkBqjmQEB4gU
-nx9xV5G4mK41Va4ayIXAXDLvyZH+MnL8GY/XETJK0rXowoRX35dpV23Kq3ay8IoY
-yDXXSlVso2liIhoLSHRvd2d7gcnub8XB86xE/oTYBE6gzKQ3rh+Evt4ns6zisKR/
-pVWkVMn8mb04Tuftt1YGlhTaSaDecUUJvPYBz6vgTVGWcHe/lM/H65/Cl/zcScjI
-jKAGCJmkxNd/YskIR0GOwiPBkxDSJTJRBcWV9IysGW7mXw+vxPX2RgnYXHBzs8DY
-XFFi3myJfULwampNmYU0pxdp8POcoKKyJaD7X1xz+gBCluau9XhQoBezzuSuq1E1
-tODI+I4OZTBdK/qPA4yU8ZWtvkV1padDEhLVe/ZpykMiCNjXKw5DHclsi/Xhwfl5
-BxqACvYOQq9GFjTM+E0ZP+KLff8g7TW61a5oK671XEidns9/XA+mi1el6pT7Qqf/
-AbUufKxlNSf0gHq2lnPUhwI6jAd1gvpbQRfxKc+9KtOGO5NYc3q/kOtu8lgrO7RK
-lTPf8/69z0BuL5xmo8BNmcWX0I1ypq1mX++++tT+vEroyr7WarwHAn5mc8F3X5TH
-jeIZYjMZ36/lfYx9qs6mDQ0/MFY4BnMAv+PhshASCQfVDYC4f4N3b6K6VhdkvYdp
-jGgv36GLSS5VXdpHjJmyJxhl
-=a1cE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT878AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ow4P+wd+JKpFdgtT8fFfO9dI
+lTHLVgpCqaebYzR2mIUiodTtTi/ak2pi3plp6UKPFh55xy7OmV4FUlkii00fx6fX
+uoZye89D+06fmg/5fFlQMDB4cEWM7GnHU1ANAZxKa2epYV9SXw96V8ZPcnzjpoUC
+DrLSvXLDqhaTB6v4cvX3PvWrhSIFZtbO3qsJrhiCThRAdJZC6ZAsIX2NsTfEB/ir
+wD2O9iRwj9R7fBIOksiV2yPw/768WvMd1JC+ld/0zmva97hoTMV5giH8s8QcBm1r
+/tn9cu8FZsC69X3keZXIWxQIhk0f8mqvh5YRS+gQJYg8Xz4wNMbmP36NGGXbngbO
+/gteY5OfWrW1ZRm0fxPpkqeN60BLwirygIMw6CaUz1zTEYHgvHv/W1D4sDqGMMHR
+6h5bE6AtaCf7Zj/ZtL+HNjg0eL2AX60kmKe174oefg8l9G55nXce31LcrFDajg/L
+OYiu0A0zpNq72APfiIddBoNXWrNpGPzzA2eE7XNnKMovj+8EEU1qiSS4dIDGq/uo
+cHJ2Ymx/1RJOlRDLyGvKUrl+vdwLpR8rUVfplLK6+z+ZWy6KK+kDvRcCQqmYR5Iv
+ICbslfL/Isa4pLLx4wq5dWR3Ntowe5Q6yb2vLXiWgvrPC9P3lH7CLfbCZiJ4kwHu
+pspJmZl/5jWYZaHB6FAA92WL
+=Yv9Z
 -----END PGP SIGNATURE-----
 
---===============0947082392225723803==
+--===============4281510093703922061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -93,4 +93,4 @@ fb60211f377b69acffead3147578f86d0092a7a5 sh: boards: Fix CEU buffer size passed 
 1b37a0a2d46f0c5fa5eee170ddeeb83342faa117 Merge tag 'riscv-for-linus-6.6-mw2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 Merge tag 'sh-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 
---===============0947082392225723803==--
+--===============4281510093703922061==--
