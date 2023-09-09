@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3123674153822974786=="
+Content-Type: multipart/mixed; boundary="===============0095873811850841292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 09 Sep 2023 21:34:32 -0000
-Message-Id: <169429527212.11483.18336981993100453028@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 21:34:35 -0000
+Message-Id: <169429527520.11567.10099958002396143381@gitolite.kernel.org>
 
---===============3123674153822974786==
+--===============0095873811850841292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 6099776f9f268e61fe5ecd721f994a8cfce5306f
     new: 2a5a4326e58339a26cd1510259e7310b8c0980ff
     log: revlist-6099776f9f26-2a5a4326e583.txt
 
---===============3123674153822974786==
+--===============0095873811850841292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694295271 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694295274 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1694295271-3db7911991329635661b9597b0ea753d1354eb57
+nonce 1694295274-368b2c9df627df2efa9bc1d63803a6fa0bddbdfc
 
-6099776f9f268e61fe5ecd721f994a8cfce5306f 2a5a4326e58339a26cd1510259e7310b8c0980ff refs/heads/char-misc-next
+6099776f9f268e61fe5ecd721f994a8cfce5306f 2a5a4326e58339a26cd1510259e7310b8c0980ff refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT85OcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MiMP+wQLizjkgwMF1pze9PTx
-eXeraWfOyutFhDVx0o1gwPlR7VlpakcF3ZZGTh4lDreDlwyMhsS5W+JZJ47r+O/u
-KM2Mavc7kh8TW2kJGCrai5BPH+gKmW3YBFaP8QnDKOrYfPaCLPLZfHihE3uTj0do
-msVhI4eW4VoZ80HQ+bXCtjnQnbCmF9Q0KIYQE6ovdcKDFLefbpuQtioG1abG69Kn
-hVmzceXlExa1fL72AajeyqFtKl6d6cE3ET+7RurIMFg0VjKwpfrXNHfic5mxYbhh
-a7J9cH113j29Q7nQXVVHWxxBAzlOEEZD2s1KlSi4ZDJ6k9cvGYph5N6JG2wSpOOj
-Zdk/gu/3yhOCa4kJpyhCJou/6O8t/t6bbC1mos8WRAfX1y7ixBqOId3RvR9HElCM
-CkwhXYdvBSOdwLs+SzpAyo5WPhRa8DeUj6KMB8y184QO6r1H2AfGetF/OwfT+UG9
-DFTzfmMG1zi2Sev1HY/Z6sGhb/6dkC4HiRvG6aIpFsHXys526binzi4meH5mJoAe
-4qx2u7dq6NymMo9Z3diegXiolk0BtCuAuoUalviHssZKIoGMHhureE8DViatyw1d
-Wfj5Jg8QNrmCBxKJQKKP02BdRAjjh8Tos2k0PrW4FGKAV9pjgon9IEL+cKZ+EdGw
-ois5BojnUcVO38eAecBSziR4
-=hWNn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT85OobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FtIP/RLhMz/URopZiR5/npMg
+TIhXjh8baah8Yn9VtMr+ZiV4jGp7CCEQbQc9ttKM6NkqbrqvuJiNTfBorRgoUyxR
+8cMUvoZ5rWMO9jmvrvpBJuEoa8229P/gQdhjnVrr+9nrAOAh6DL3orFHAj/aMQcB
+TiCaF8kSClGPe4lFO/9LlQz4gQnciLmsMwFsCUo7WJR1yec2AydEcVzADMPl1xry
+xvtrCvFgGY9UL7OC7CoEsUGpolZvVM7q02Hy2aj6hcbf1ZiIBh2h+vQMI/qMpok9
+ltSY94hrG+v9cN7XIgRtrWWr7kYu+gsaialmN+v8U0KdpMRGnaVgbpdEeDkRoiaQ
+Ow+4kfgyGSZxcfNf0dGCgg/E/Jyp8m+NOKmp4cWYCbpxt2AmhiAf4vKA139HH4Np
+sd9fTS8etuwe6LHh5ahUKwiebDxHy5l6vXmZvd2YX/xKFlJ9WQrmVhBXkHE18Lb8
+/uVCiyysKJHc73P6eaGzMmvoORgYlbClcD/N6F6gX7j8kVQZvHs0XHEo5P23+7K+
+VEzoTXHSj8qmseYzkxZx9HKZAL2CT4a+wIaEAvStYs3gLE6s6ihr3m398awRxoTQ
+wEpFXOIV0PRZbT63F7cliU0N6/qxvLzL1XcsSJ3+Ypo3AK87h5sIEy+gRgiNa1uF
+UKe/Ge/wssuKx0J3kmIN4Nta
+=3M+3
 -----END PGP SIGNATURE-----
 
---===============3123674153822974786==
+--===============0095873811850841292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -120,4 +120,4 @@ fa9d4bf5b738a7fa852bbeabfd8889b127ca3193 Merge tag 'ntb-6.6' of https://github.c
 6b41fb277ed41a73608328431f2e76e68c3bca37 Merge tag 'driver-core-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 2a5a4326e58339a26cd1510259e7310b8c0980ff Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============3123674153822974786==--
+--===============0095873811850841292==--
