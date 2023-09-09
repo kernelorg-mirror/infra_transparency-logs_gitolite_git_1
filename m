@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 08 Sep 2023 23:53:19 -0000
-Message-Id: <169421719930.31874.17185615740783923741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 09 Sep 2023 00:06:16 -0000
+Message-Id: <169421797640.8907.17095738074512260155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: ac28b1ec6135649b5d78b028e47264cb3ebca5ea
-    new: 7182e56411b9a8b76797ed7b6095fc84be76dfb0
+    old: 52f8e1648394b0220b07502d7c500ba100a54b7b
+    new: ebc8484d0e6da9e6c9e8cfa1f40bf94e9c6fc512
     log: |
-         41bc46c12a8053a1b3279a379bd6b5e87b045b85 bpf: Add override check to kprobe multi link attach
-         7182e56411b9a8b76797ed7b6095fc84be76dfb0 selftests/bpf: Add kprobe_multi override test
+         dbbe15859b14d7c4f313dda78fc078e33cb47b11 Merge branch 'selftests/bpf: Optimize kallsyms cache'
+         ebc8484d0e6da9e6c9e8cfa1f40bf94e9c6fc512 bpftool: Fix -Wcast-qual warning
          
