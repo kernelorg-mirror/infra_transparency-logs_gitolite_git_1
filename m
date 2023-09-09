@@ -1,28 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sat, 09 Sep 2023 11:35:50 -0000
-Message-Id: <169425935097.29024.14636989206930605560@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0017330594995071441=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 09 Sep 2023 11:45:24 -0000
+Message-Id: <169425992438.4613.14583740054210169408@gitolite.kernel.org>
+
+--===============0017330594995071441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kdevops
-    old: 6099776f9f268e61fe5ecd721f994a8cfce5306f
-    new: 0c6515ed14f37e7bb453067ca48cc887e1a516d8
+  - ref: refs/heads/master
+    old: baa904ce323cb0dcf637afa7b1a9203dd59c8da2
+    new: ddba3d5b46d5510021292586ee06b86242b6d976
     log: |
-         577c6c2c738bdfabf0effe959cc7813bc624841f SUNRPC: export nfsd4_op_name utility routine
-         e1fff421c4477346f756dc033e2173c733b5d68b SUNRPC: export svc_proc_name utility routine
-         bf72b14502f332f4ed3b3933d772f17cdf346331 Documentation: netlink: add a YAML spec for nfsd_server
-         8d404b91bdbdd651095b66a1931f09289bc3d622 NFSD: introduce netlink rpc_status stubs
-         1d1a7a769466aac807091b96844ba6ef9b1e08a3 NFSD: add rpc_status netlink support
-         f5cb94f57acb0e595eb8c3d113827fea9874d872 fs: have setattr_copy handle multigrain timestamps appropriately
-         c257669831cf61d0da17415c50453e96b7433329 fs: initialize inode->__i_ctime to the epoch
-         1210336e68bdd028f247ba1b460fe1100f19ea0c fs: don't update the atime if existing atime is newer than "now"
-         564fef9a477b1fd8bf5ef4c2a752b525406fae0d fs: fix regression querying for ACL on fs's that don't support them
-         0c6515ed14f37e7bb453067ca48cc887e1a516d8 nfsd: fix change_info in NFSv4 RENAME replies
+         fcb27d226bd4a32e6eb6c4b269612452cddb49ca 4.14-stable patches
+         7240e976d5ca0b2eccc7a11d5359388098248553 4.19-stable patches
+         ddba3d5b46d5510021292586ee06b86242b6d976 5.4-stable patches
          
+
+--===============0017330594995071441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694259922 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1694259922-abd05c43e97f4cc3ec2d40aa4315c5c49408f836
+
+baa904ce323cb0dcf637afa7b1a9203dd59c8da2 ddba3d5b46d5510021292586ee06b86242b6d976 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT8WtIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o9AQALLHP5jeE+nbiO1YP7gU
++XgzBFxm+HutVBUZ/tKwhB6cPXzMItO81KKPuKLupJFAsl3Wb5MQO1uEFY7exnCm
+ArxviSkpKmSMpV8ejjZYMfOTBVsc7hlHsUvOA4Cb3n8Fn2DetJBzV5+e+9ju9OC/
+VXCqYNFxRH1HulTY7ByEXNaZmMG8GlDHlJ0PuJXMyKzTQlqx9YI7OOQw/MLRTCPn
+vChXigpyOAp8DYRx/As3/5rsm3q61m18LLguFF2f9kxMTeKQDSDG3OWvEToUVqmD
+Fue5mbSCmL9Ekr6TQ6f8kwsHez/H5uHD0Q7nutF3nmktrN70DvCKTu9n0XOdSsQw
+aB8Hjw/vvNCKShsaTaphUGUa6eWOY0Chvw65hxeIhwxck/rtoSsh7naG+e96Pj0u
+P6DoXpxtkr4YnfQG1ZK3adrlSqODHwvuPKQkf2c2BOYEQvy+iMwCNou8xpW8Vy/o
+kWMWnGceQdGMiTc4KDTIrNfbVa4FarzwAeRNKir7IglD7XHUZZ5lnaYCgNEw7LNK
+gKckD3vAW0OM+EgnabExZZ5VvVl6fJFK3HJBFSCBvMO4J8FgeHVjOU0V6JkLVMZN
+OFpiCpPlnenOfCQ5LsJWI81vjpKmVH34L8Jh598Fk4225uaq8ZRfv5GjorT5iW+7
+70pTASu0JxowLi96Hb1Ktc3T
+=cTSq
+-----END PGP SIGNATURE-----
+
+--===============0017330594995071441==--
