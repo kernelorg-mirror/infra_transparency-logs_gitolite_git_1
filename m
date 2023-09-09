@@ -1,56 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============9140426155460391049=="
+Content-Type: multipart/mixed; boundary="===============6810703276335121545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 09 Sep 2023 22:18:18 -0000
-Message-Id: <169429789872.12814.5761062649997590864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 09 Sep 2023 22:20:03 -0000
+Message-Id: <169429800384.14997.8876461374961139003@gitolite.kernel.org>
 
---===============9140426155460391049==
+--===============6810703276335121545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 1558de2f544c811805949a07cfdce487c7638123
-    new: f7da2ab03a1ed9336e868eceabac57ba62d59c3e
-    log: |
-         f7da2ab03a1ed9336e868eceabac57ba62d59c3e fix up dccp patch for 4.19 and 4.14
-         
+  - ref: refs/heads/main
+    old: 2a5a4326e58339a26cd1510259e7310b8c0980ff
+    new: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
+    log: revlist-2a5a4326e583-6b8bb5b8d9b3.txt
 
---===============9140426155460391049==
+--===============6810703276335121545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694297895 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1694297894-738277d7edbb029e38992e78f9c04862658728b4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694298001 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1694298001-6bbb79163ddc519d3d87bb4a25cd055f85b7a081
 
-1558de2f544c811805949a07cfdce487c7638123 f7da2ab03a1ed9336e868eceabac57ba62d59c3e refs/heads/master
+2a5a4326e58339a26cd1510259e7310b8c0980ff 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT87ycbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xe4QALTaxFk3aMdf/8t2skxW
-sv4xIj39SdVcIUif7x8P5B5w3iPCO18u1N10UqkYE3fBe1KIzHSWVye6XhVEXav4
-denovUaXUSP74g1ksotKyNT3PbWIDNbtcmOjiVok7Mrz9bm9EgJLdB1E6xDSf2O8
-AIJJDnz9x8WGTKYPD2/DG06bvcaQCuFAYz8wo8P17byE9AdH64uuZIHYWuYdBku5
-mYUjd0iUIPwZhRL2w9ypu9Tn3e2y7uYn7TVHYwji8zUdzHcozCvS6D4eMc7cvngp
-zwCCJkUC7l09r5YxRZ1UzJ0pYrgED6x0oblXoc/dA18wKxAiPddEJ9UYPT01FRFW
-GAEOMZECYkcyB3NMJOxE6SKNj09bLkE18+mVpSB4i818r5sCmdiMUj62e6uY2nEj
-wpN67gqgtIH0M5aATHtE2BhnOT/kvP1igOWTl1jpyBuWHAhuka8b3LW8ZU305y4C
-Lwa4v/JiIpA5Zk5F3CDCGOC2/jkilXpG3r3DOnt8boU1KCHkwsd3IPdUIQH2uglO
-YJpQoHXE+p6mMv/UnYWi5USA/LcfVcxcz7MZ0L53vRi0N0GsTKRumgAd0/A2jufP
-r/S1yWIKwRaVyiFXOaZQbLpyPhs+9OTugWsAZyJYeN0IRWGQZd1gSDZ+mjeeXCsi
-3BPdB4XjkeOaYfYyuvBA578Z
-=Hass
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT875EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HvIQAKUgyPro95DbJsBQbkVE
+Ynh7g2q9n3SJSTargkR1qy+/z+K8a8Ph2bXlOt2Jtf8kVxLWLEm+jSDOnmdgdMjh
+RfCovTAMWilTIruf+qekeaqFv3vE4l5ijaGuZAZR1VSR96nlxI5riJr3PedD6AkZ
+P2GyMDxtKFIq/NilbG7AiZH9GJJvWhuUfLQ32sIRy84Fst15tZG9ImqEDinyttBO
+bJSTCceIweMHooHy4UEJHHnN6OMNL9mHR/cDz2Pp8NF5GA2cFneC/a/xnoXCuHbv
+aROAM/yRsdpJAOzMxyGjZmsYO3jxlkVHJaZ28u1dSktxVqBYEY5zK2Xx2tGi6svL
+ykwxFuDvXykxdfJXn8iIFnQl3chetKpBN1eII7EgWhW4mcktKKiJ/RCwxi37XvVD
+tVph914KlV4SoZvMG9xsiU1y0jBz/xXCpNNU24nlS8zhlrJSdKXOIyZZfceQhX+z
+E31LlPVr9Snjqn8CIcooxQgm6/Z/opswDlHaDwfsIMK4MgmpBDnVKhepm3o+ghQT
+XqfGVBPvLJqrr96ZQqB8nspRdllp9OAHaoSpyjReaRCzc6jkwXJUOSoY68dKIWWU
+9l8zQKPE5c8UI1MiE68yknEpSVDaOyFkJz/4NTtC89bNKV/oNUr3TwtAmNznUMXf
+JvZhbajnJzlXRNdS0OKQSVWx
+=Jhbu
 -----END PGP SIGNATURE-----
 
---===============9140426155460391049==--
+--===============6810703276335121545==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2a5a4326e583-6b8bb5b8d9b3.txt
+
+584ea6564bcaead223840cdafe84e4947ba85509 RISC-V: Probe for unaligned access speed
+f2d14bc4e437b8ed21e6890ae047a6ec47c030d9 RISC-V: alternative: Remove feature_probe_func
+eb746180132a555da8cfb02d98cb6d0a9d58e870 riscv: dma-mapping: only invalidate after DMA, not flush
+482069ebdc1d61fba14527055894b9f4f0ced08c riscv: dma-mapping: skip invalidation before bidirectional DMA
+935730160738a478dbf4b61cf0cfc29c1442fb4e riscv: dma-mapping: switch over to generic implementation
+d6ca3a56f4f3e1d408397f1e309f7c57a6d01c38 riscv: asm: vendorid_list: Add Andes Technology to the vendors list
+e021ae7f5145d46ab64cb058cbffda31059f37e5 riscv: errata: Add Andes alternative ports
+b79f300c1fd4bd83b1f827c7a0e043fca7aad73c riscv: mm: dma-noncoherent: nonstandard cache operations support
+3e7bf4685e42786dc10a57512c8a767947f25c10 dt-bindings: cache: andestech,ax45mp-cache: Add DT binding documentation for L2 cache controller
+d34599bcd2e4e93a28d5904bf94bc7dafc511f04 cache: Add L2 cache management for Andes AX45MP RISC-V core
+484861e09f3ed8fb2e1de290d9e33fee3611b9fc soc: renesas: Kconfig: Select the required configs for RZ/Five SoC
+9300f00439743c4a34d735e1a27118eb68a1504e RISC-V: Add ptrace support for vectors
+84fe419dc7578b03e721b9bd6eb07947db70fd0e riscv: Introduce virtual kernel mapping KASLR
+54a519e6aff9a6bc8922149e94f89c4bf4e3e8fb riscv: Dump out kernel offset information on panic
+6b56beb5f6940f0b77cb520263651328a8378efa arm64: libstub: Move KASLR handling functions to kaslr.c
+3c35d1a03c8b864f08088d51e121aa7c0067b146 libstub: Fix compilation warning for rv32
+b7ac4b8ee73d4fec0998664c9dd61f089d481044 riscv: libstub: Implement KASLR by using generic functions
+20e490adea279d49d57b800475938f5b67926d98 bpf: make bpf_prog_pack allocator portable
+9721873c3c023254f04138bbb21d539b4f0f0ad6 riscv: extend patch_text_nosync() for multiple pages
+cad539baa48ff257b598000a90db2b7edd4b2dd5 riscv: implement a memset like function for text
+48a8f78c50bd6f7f08fd40daa62252fd043f2f18 bpf, riscv: use prog pack allocator in the BPF JIT
+580253b518e6be80b1ecc5e418068388fd4dd4d5 Merge patch series "RISC-V: Probe for misaligned access speed"
+7f215d003f31d56b458c7c3c8c7185a1697f5076 Merge patch series "riscv: dma-mapping: unify support for cache flushes"
+c23be918c5d0f860971cf824de772714b4c771ea Merge patch series "Add non-coherent DMA support for AX45MP"
+f0936363547948e0c2b757aff52f6ee29396651d Merge patch "RISC-V: Add ptrace support for vectors"
+f57805555834494e8cad729d01d86ba326d64959 Merge patch series "riscv: Introduce KASLR"
+77eea559bae925e3cd3c5193efcd37675ec227df Merge patch series "bpf, riscv: use BPF prog pack allocator in BPF JIT"
+e7ddd00eb3752b109e24eee19cb6b7421059d4db riscv: Kconfig: Select DMA_DIRECT_REMAP only if MMU is enabled
+54adc24c9a8f6e602f7e9d716107814d10281f8d riscv: Kconfig.errata: Drop dependency for MMU in ERRATA_ANDES_CMO config
+2f73b35d79d06f5354c859c31e5946391efc45c8 riscv: Kconfig.errata: Add dependency for RISCV_SBI in ERRATA_ANDES config
+c6a906cce61a8015b622707f9c12003f90673399 soc: renesas: Kconfig: For ARCH_R9A07G043 select the required configs if dependencies are met
+fb60211f377b69acffead3147578f86d0092a7a5 sh: boards: Fix CEU buffer size passed to dma_declare_coherent_memory()
+246f80a0b17f8f582b2c0996db02998239057c65 sh: push-switch: Reorder cleanup operations to avoid use-after-free bug
+1b37a0a2d46f0c5fa5eee170ddeeb83342faa117 Merge tag 'riscv-for-linus-6.6-mw2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 Merge tag 'sh-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
+
+--===============6810703276335121545==--
