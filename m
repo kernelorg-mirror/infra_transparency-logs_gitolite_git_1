@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6536846478398001110=="
+Content-Type: multipart/mixed; boundary="===============6774398265338717338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 09 Sep 2023 21:08:24 -0000
-Message-Id: <169429370477.25426.16257493483938414667@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 21:08:27 -0000
+Message-Id: <169429370791.25503.14990327502269530535@gitolite.kernel.org>
 
---===============6536846478398001110==
+--===============6774398265338717338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 86495af1171e1feec79faa9b64c05c89f46e41d1
+  - ref: refs/heads/driver-core-next
+    old: a48fa7efaf1161c1c898931fe4c7f0070964233a
     new: 2a5a4326e58339a26cd1510259e7310b8c0980ff
-    log: revlist-86495af1171e-2a5a4326e583.txt
+    log: revlist-a48fa7efaf11-2a5a4326e583.txt
 
---===============6536846478398001110==
+--===============6774398265338717338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694293704 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694293707 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694293702-a116099cfbd7799fccadf5f3c3aa5ddc1ad0cfa3
+nonce 1694293706-6aa168beb0e4d3ff4ec48b1b75d462eb649ae2e8
 
-86495af1171e1feec79faa9b64c05c89f46e41d1 2a5a4326e58339a26cd1510259e7310b8c0980ff refs/heads/driver-core-linus
+a48fa7efaf1161c1c898931fe4c7f0070964233a 2a5a4326e58339a26cd1510259e7310b8c0980ff refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT83sgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eTYQAJVFsmscuRzVDHPl1hL9
-+ZYV00if1MlZ9R+RZMv41OVGqMOm4DdrRYKl7+/oMiQU0HKnwTgwAQOThcRBUQks
-LHW/fFw9Lckxb3zFB8J6kHQHkCPIyrr09O3qep/HW9Bzpgvi2DjWx3mXc1SSZ4m9
-jE11NcfRnHN3TFzV8yRUWQAlo2zbWpfXlZR8eqxWnc9EsPbyDA8ZrqYvwbQDcTIb
-YKcMZdZ76TLM2FR/tzpDsSnSD7WNw41Lfa2bsDRIKIIONBP4VueINicmjO0cRCyL
-bEY7bFkL2XvmUWZj8gA3xdJ0umSyYTfb0R+WNsOu/PfT3OOdRBSDkEJjuAXPULaF
-egGdIC9N9Vsv0d0UoTA1G/hcOtiGkbkQ+I/Ny+ARapSUVa6QMQ9UjBEUrz2Z+5k0
-AgjY+bEimoD9cnj4agOrZ+phgQm/LOMoIg8hNHprmdJQvm/hjPMaDCsBO7m8siu2
-+yfnTsNh5SK7B3cy9fRYuXfOGvSUmkHWNyGU8j7gbGQTlU5c5q0nWiQbl6VjYRKp
-24b1t+stMu8z39hc8bYmQIxhXVNm9EaEnFoa+7HvL7VGStAcFywC4Do1py+nl8he
-BPRYIjFb3LZnp4KRykp7WExYQVmIVgUJCoiBBupNRDtkNk0hQR/H1ubANRU6UnJL
-rIycUPFwZX+q5JxFjnkR6VUx
-=t8hi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT83ssbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BioP/3S4OgzDQcKxy3hK6T4r
+oQuT6RUzB5SJtpDQswlLlu5yKeTnqGsQsYhq/HBSOT5Pnrd+AKnZpNoFlVtnuFQ3
+BSlHnXmJfM1z2kfAm7nEhrXltSnkaXS63o7Y5ng2mXTiZs6whKsVK9IZN1UrZ0GZ
+QCR13Ll6UuB6YkQ+8/qk7YghBca+i48IwUjjRNLAM0K9jGQnTEso2eq9CqUn3JUD
+vb67fyXvV0g8+lhomcRlAIr4HbZknT+aIbTRxWcRb8MYLb3w8PNrY2A7a0g/XdJ+
+bwnVWzWo616M7jv+7XuZ2h4cy8J8xGWYkpCRB4TPIF3PsLw7k9sQHiZwF82SROVY
+uQ5yfG3nmEUMv0mspVVlhYiqs/oYeeLYcG7VTeWJEGoIkcATvcVKFHopiWCSUsh/
+PAcjFnFAcGja6raDlmY/DwhweYbna2dxfd8H8rzZtsPDVCqyEVWLjsyJuEctbh7K
+obIuAlXjN88S7jzhIZjDXsm446RkFLuOOWCBiPOasxEY2y8v/CidFX9gN7j7zqqV
+cl9q1JAbr8N0bAl/aF+bRq2b0GpQcOT633bWe/Hlk1xf7rYxU6ySEAJ5r00w4ltu
+SbTOyQk6wN/sBME+nT2tt2c9CCLdi/7L7eYbHX4jY8Q5Ly+W/oGFiZeEsB+s/fld
+ywkjh4PSGyCa5pYxpmwzo+Di
+=CUA/
 -----END PGP SIGNATURE-----
 
---===============6536846478398001110==
+--===============6774398265338717338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86495af1171e-2a5a4326e583.txt
+Content-Disposition: attachment; filename=revlist-a48fa7efaf11-2a5a4326e583.txt
 
 cbc02854331edc6dc22d8b77b6e22e38ebc7dd51 XArray: Do not return sibling entries from xa_load()
 246c713a3655c840337c4b24d3838558673c0d6b landlock: Annotate struct landlock_rule with __counted_by
@@ -206,10 +206,11 @@ fd88c59e7929ee1a155988e87df27686aa1de967 Merge tag 'pm-6.6-rc1-3' of git://git.k
 7402e635edb9b430125017d2489974c9a10b069c Merge tag 'block-6.6-2023-09-08' of git://git.kernel.dk/linux
 3095dd99dd759a5cab8bb81674bc133b1365fb6b Merge tag 'xarray-6.6' of git://git.infradead.org/users/willy/xarray
 6099776f9f268e61fe5ecd721f994a8cfce5306f Merge tag '6.6-rc-ksmbd' of git://git.samba.org/ksmbd
+86495af1171e1feec79faa9b64c05c89f46e41d1 media: dvb: symbol fixup for dvb_attach()
 fa9d4bf5b738a7fa852bbeabfd8889b127ca3193 Merge tag 'ntb-6.6' of https://github.com/jonmason/ntb
 060249b5d3447a84c91f22276d3fec723363319d Merge tag 'pci-v6.6-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 474197a4f7921a97aa1aabc6f759823a024ff25f Merge tag 'dma-mapping-6.6-2023-09-09' of git://git.infradead.org/users/hch/dma-mapping
 6b41fb277ed41a73608328431f2e76e68c3bca37 Merge tag 'driver-core-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 2a5a4326e58339a26cd1510259e7310b8c0980ff Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============6536846478398001110==--
+--===============6774398265338717338==--
