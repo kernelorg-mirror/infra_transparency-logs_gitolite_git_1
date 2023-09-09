@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3472013020348087950=="
+Content-Type: multipart/mixed; boundary="===============0591696179774466164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 09 Sep 2023 12:57:09 -0000
-Message-Id: <169426422920.26036.13098390301257077308@gitolite.kernel.org>
+Date: Sat, 09 Sep 2023 13:00:06 -0000
+Message-Id: <169426440601.28955.10582387120344655397@gitolite.kernel.org>
 
---===============3472013020348087950==
+--===============0591696179774466164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 457cd2c0d9f73944902a75fe8cd161da5b7f7835
-    new: ce6ca81d5100ce30050535ef8b8e794b499079f9
+    old: ce6ca81d5100ce30050535ef8b8e794b499079f9
+    new: 69f785ac933dec20d5d584a52015e6fd3093316d
     log: |
-         ce6ca81d5100ce30050535ef8b8e794b499079f9 6.5-stable patches
+         69f785ac933dec20d5d584a52015e6fd3093316d fix up queue-4.19/ipmi_si-fix-a-memleak-in-try_smi_init.patch
          
 
---===============3472013020348087950==
+--===============0591696179774466164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694264228 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694264405 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1694264227-06e19a1216a6e6fe3e8bf3c1e4eaea28b73b2bda
+nonce 1694264404-31a63867a9473e5d8701b2000ea889a96b922b79
 
-457cd2c0d9f73944902a75fe8cd161da5b7f7835 ce6ca81d5100ce30050535ef8b8e794b499079f9 refs/heads/master
+ce6ca81d5100ce30050535ef8b8e794b499079f9 69f785ac933dec20d5d584a52015e6fd3093316d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT8a6QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TUQP/3u0xtD/Hej2dFgztL4V
-xIsbVWqQrQSTdQ64v4lUb0BdGUO/offRgSBWv4AhkF/D4ZXnZasKVfIOXQUeil0n
-MUrJiYpc1SSlbaXrQLAZWonQBldJlCIKB8mxZ8vuw1NjVaudptlebmoYODfAKV9y
-LTYzwOFwFol0E7Q832ubyEhfmXwxzgMgQTXzMOFI6yTEwa3EaEm/WUrN64hMFkjc
-Qf1yNwPNeqQuLJuDjVKATpcbKXFgLcbx9hWVyhknm9AS5ssuGaPqe9FqBg2R/5tK
-q3r2DzFSxL9FTCPg+BkR7UTQWYJFEfD5UtsB7CiuOdg5f+kX+derQXP+0AASauxi
-2NQ0B80AzwIEK57GxP9lWDSF8og+3fycTzZ8FNwV77LnCJKCStVkK21xfIskaULo
-uzRA0wct+v8yrg3+dp3QzOpDCjmhBthZKHm3L1Wz/tsSmBXJ6HR6R2KYq5GFFZFl
-vI3zSWQBhEHLMUWLGEaFQPUbDIqdt156n2/HrYTIhpLYyEfQqM/RwCwy/5O6EclV
-akpUQ4IacUjIZWnoHQgUsPfrfeI2AUoEjUU12CUMPmKUc7AZUtCvAxaw+TN54FfG
-1k6c9YdGWXtw4HS2crH5Wa2NmPaXksNdV2vbCpweAXbjpeL+LxYj1oo4DbTsZKvR
-KHe0XFs6Y8jEFu2nY0tUOmiV
-=W8YU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT8bFUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HjMP/3hK71F/DgQtM8YvQ6H7
+zE0rW35F5PPaT0C8GgKQwULh4J0w3VxCiHk2ByQXwIZ3DgtcaaC8a/RmjXSEY2AZ
+hnQ/cTe6Vxi5iWTGPJHVijLN2vhqctVQ57FnzuqgFfsmfVWlFIH4V+okv+Q9k9IG
+D15GzfcbGXSfSfarNXSsfiHT6U1bayde52JXV1vOFr1TgyjJKAOiH89KtMhFfDkz
+0rg89SWk674GVt0BgefYCGNdieNrK92wFMuE2oW1rl1iGpojSRq/Y59w/eLAZuSR
+/HoGkirevnyFNeSxJkZbR1rPA27FXIs7OZG78sNz2fSVO2qrX5DtdcorY7dBNIMe
+wiW6JaZYAWMRlgEQU5SCwzkcM6dZssOLRWYgo5a5BEmztGjrypZP8Mjp4tq3XPXX
+U4vmNrbax3mRfxe4OFAGN1Sxd4wwqyarZVJ8DvS+9jEuju18QXim6z61lIW7aM5L
+axExvBcBno0qEjxdRmn/HNPrU0OQQ1JHLp1/KQkUW3g6I4y30F+rx/G5y/RTDlDe
+4UngwIlq7XL0JY+lTTRuiljHxTkXy0HaUY2hHZmZ2NYc7z7YugT67nZe/D6RCTL5
+nqqtno83IQJl/8h0oMooyNXt0vUaICfFUDRtU4xlOokXJfdKp5T1op1jQ4s21ETB
+7cdFdVKkKg8rMeGR3SfCccN1
+=8Qgu
 -----END PGP SIGNATURE-----
 
---===============3472013020348087950==--
+--===============0591696179774466164==--
