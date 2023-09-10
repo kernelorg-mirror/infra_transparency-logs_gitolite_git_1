@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 10 Sep 2023 18:52:35 -0000
-Message-Id: <169437195517.9300.3785334039072367944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 10 Sep 2023 18:54:22 -0000
+Message-Id: <169437206242.9982.3341513455579341478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/kvm-arm64/sgi-by-affinity
-    old: 0243099b2aed6ab0dcd7b82848624abf3a8bc6e4
-    new: 7a0e56270f4e6c4992b28d4d58a29f8c656381f2
+  - ref: refs/heads/master
+    old: 7df74fcace2e2506d83d357127adcb116d097b19
+    new: 28a2f4353bef055a743bb97b69e2d003f769580b
     log: |
-         7a0e56270f4e6c4992b28d4d58a29f8c656381f2 vcpu_id hacks
+         28a2f4353bef055a743bb97b69e2d003f769580b Sun Sep 10 06:53:09 PM UTC 2023
          
