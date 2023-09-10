@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3788527737967625462=="
+Content-Type: multipart/mixed; boundary="===============1151834499264358680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 10 Sep 2023 11:29:41 -0000
-Message-Id: <169434538192.12170.5015987543933858061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 10 Sep 2023 11:29:43 -0000
+Message-Id: <169434538303.12236.14958178403478819084@gitolite.kernel.org>
 
---===============3788527737967625462==
+--===============1151834499264358680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a3c57ab79a06e333a869ae340420cb3c6f5921d3
+  - ref: refs/heads/tty-linus
+    old: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
     new: 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f
-    log: revlist-a3c57ab79a06-535a265d7f0d.txt
+    log: revlist-6b8bb5b8d9b3-535a265d7f0d.txt
 
---===============3788527737967625462==
+--===============1151834499264358680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694345381 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1694345380-c5bbe03e9d0484a52bac7af228aa23b51e37c1ba
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694345382 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1694345381-73cc278b99701cd50cd809dced5519bdc44d0af6
 
-a3c57ab79a06e333a869ae340420cb3c6f5921d3 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f refs/heads/char-misc-linus
+6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT9qKUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W1oP/15KRoPJUPEVIL+7a5cA
-OrW7ei0XDRSHBTBJjJnYEd7+r9MvWqOxWh/y82gTE6qkYVGAZ6+gDrzlI+gvODsb
-/ZzPRr8pqQFV+tpB+EasDktrmrrhJXzrPBXrKlJ1BIxbVvVP6Gpz0fYyxriZ9u3o
-2U84FmO4Yeh9jOp9RdwiY15MHoq9keIeVqPQSzwSuUkxqQKDpsiGByppAeYdnRMs
-ISvvYls0o9ZWS5XOckXzzNbAthlOrfqI1eLU1dik1/84NQs5//I8b9zfkn9iUP/T
-3MorfykcqJPorIi4ZY+Nhr9KqfeAUTrY5fwKZlJ3w9WvINz0GYXixW5Au5Euk10f
-98b7vegLtYjyUrzIa8+1oyoG2IA9dfkb1/JcCYECXGW/GlavVSv6azYSh7rkJOIE
-xE94znxa8FenDT5e9iN11cEHqmGSnFcn25JNZyYUIvgP5T48rlKIeR40qLa0eUGz
-Sc7XzaYJJzh3eOyVhf7XvGfe664F0u797FPRhA8Nl0/66AaECKW4Y9VxZ89KodZT
-fWjfNHp2RP8Hk4vVPaMZ8Iv0YtPDsbFqnbLjhGIUVjKCXew9Bb+EWmLf0kqOVKTG
-7rU/y4dx5+BmXFplVwDx4O37kbl77aR2dk2I9/uzXDfG5/KT8ySfNHiiZUOWaHxM
-YDWdNnUzgo4vnSZHnOCuDOiR
-=SB7e
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT9qKYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gygP/3n1VIavjB39ELP7Zvtk
+3XoZSG8bD25D4LW5uHQDSolBc5SCVGQJjj/6S75O68ttrcv+z6MBQWDv6bbp6sgU
+aLqNAoGHNCtIrAsm09kSaOelXXRWCPMwspU8og0JbUhhxHhmRL6gonstgHFQBizv
+rBk4YzEr762Zq/pkeO9/wHpFDqmzwAUPdRzYVGRDm4v1XHa3n2INI1EdO7zh/WbV
+oIh/pJ4MzbnqbZmIvglMaK0d/ZtW7OG3Q9X7GaHqyeBxujW2MBVYtOB6gQHzDBuw
+0zdU4N3QF4FMzJHCZqt4KTrzdvPNZqSW+hBX8xiKqV8iz9le0PFrj6a8ZKsPGVCv
+UD6Ki78gOH8sziPgOdaWonlOtpnStdrlPfM7Rwn1FO1UaeiGQ/2ejXn/w0K4Lli5
+j1fDoDbK1GEBBGqhe/93EvoyS2BIx4QI4Av/uYsESlmt4lX6DyV8IRm/ocbzC24o
+WLSDZfIy9PsoHCiC0JqRDlje6JTFj8hFpkkVz750MX5XmVnTuBYMC1OqrAhceY8i
+PSvv81hdAlt2Dj1so770txkShLjHklqryVoHy++edcJUWt+uRXTXhwvWT8x5Kg0e
+Yo5saKILXjUfiqg2xRdIrH1bH6Y2zARyxd2Zq0QXiilLZBqce0dR5IdzBV+k3zLz
+bZnt+bAH10c5tE3otM42OkQQ
+=+mNf
 -----END PGP SIGNATURE-----
 
---===============3788527737967625462==
+--===============1151834499264358680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3c57ab79a06-535a265d7f0d.txt
+Content-Disposition: attachment; filename=revlist-6b8bb5b8d9b3-535a265d7f0d.txt
 
 3f6a74bd628278e6eab4220449702a388aea7595 perf evsel: Free evsel->filter on the destructor
 04cb4fc4d40a5bf1f9d116bc77e69791451f9fcc perf thread: Allow tools to register a thread->priv destructor
@@ -284,7 +284,10 @@ feeec636b6b1cf3e6129e645411751b205c44976 smb3: add trace point for queryfs (stat
 30bded94dcef8d329eb2575665518aadf90ca344 cifs: update internal module version number for cifs.ko
 702c390bc8cc84a486e677dfd76c3917cd244d30 smb3: fix minor typo in SMB2_GLOBAL_CAP_LARGE_MTU
 5d153cd128251aaedc8e9657f0a949ec94952055 spnego: add missing OID to oid registry
+f741bd7178c95abd7aeac5a9d933ee542f9a5509 iov_iter: Fix iov_iter_extract_pages() with zero-sized entries
+2d71340ff1d41a5b9fc1b30ded12d638b2e2ae96 iov_iter: Kunit tests for copying to/from an iterator
+a3c57ab79a06e333a869ae340420cb3c6f5921d3 iov_iter: Kunit tests for page extraction
 fd3a5940e66d059d375bdb9e2d7d06c56f630d7e Merge tag '6.6-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f Merge tag 'perf-tools-for-v6.6-1-2023-09-05' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============3788527737967625462==--
+--===============1151834499264358680==--
