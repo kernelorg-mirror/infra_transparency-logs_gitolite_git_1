@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3474651895784832460=="
+Content-Type: multipart/mixed; boundary="===============5256707217898101299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 10 Sep 2023 11:18:32 -0000
-Message-Id: <169434471231.4678.17301542888131507648@gitolite.kernel.org>
+Date: Sun, 10 Sep 2023 11:18:37 -0000
+Message-Id: <169434471700.4783.52116987745201438@gitolite.kernel.org>
 
---===============3474651895784832460==
+--===============5256707217898101299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
     new: 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f
     log: revlist-6b8bb5b8d9b3-535a265d7f0d.txt
 
---===============3474651895784832460==
+--===============5256707217898101299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694344708 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694344716 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1694344707-b7952900799d8af7b710b4b252dcc097029aa829
+nonce 1694344715-f1a7e08357de2fe85fa10dd30315be4221ebe8fd
 
-6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f refs/heads/tty-next
+6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT9pgQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZdYP/0kKsBjhJEq9dJFso3CE
-LAvkSFSgS5FKg8WJgkyhzjXTgVVQAPErbvxY6cPHrS3RMszW1fdv/ZX0lBitEMN+
-ILDUehCUZyH++7i0usXz+PDRpBWaLF0J2HbcaBLYWcQUn+h5WNmL7wd6cBhvCLHC
-/19ZEkxLmIEay1WagbhcQLyN7OY9MK0K+uZWJmn4/Oar1YNUTQodDCAI8kkAjVwn
-TqibwcSuTcDhR7CcllVFagwcC4wNofUNWIv0HN5ZjQ/Yl1c4syZ5xx+f1ZinF+fX
-1E6pt61UZ1IAcbaR+5byBGC/7nlKantSXSoBurhpiHAfWqRXZe0ABfRfM7pHhanc
-APjkO7s0u8grg1PyKBO698BgnQlKbYrbx2CHa3FECTbu19VcgVDKcniol7DLcRxp
-dtLF/EwsyUQ9VgYqh8nFBCD3Bjy9YF7kwj4HNkeZZfhuacFUwtuxf3ukWdmjyjzP
-WzOLK2EvdOPAuOrQQfPbtkV9MPVhBfrKbgAIpLmP+HJCsuVICG3yrPSpsNWup/vZ
-fijY3ifMye0bBn9ikTolcgfBDut55o7CYQ8yw8+DY78MdEwy5GiEda9+v6lOsbrZ
-07ShwggBUMSVfYr4x+POpwclRVNdnT349hRiiCkt76Of5kUOkZH7i93wHi0TnjsV
-UdUu33fWQMjw0bDpajum3NmW
-=U1kh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT9pgwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G4UP/1//qjpPG9+eblPLRHGA
+hM/IkK2CdXgII3tvWnOHH0t+no0Qk3ZBxIHKndlZMc+Kj3Dn1wrAOdEOkVH2pQ2H
+gZO4NRLfaGn4wRXzAXplQqzMEAWoqKCc8CAkNzf9h090JvmX55XQtnaNpEN2TWG6
+7avlAKjGcgjp8mWezgD/2XKpFePtF5CMVX0CjJGNNnYxZ1VeHhJe6A4dhU983pSy
+XLakmULfGKWwyB8wMmBmuJSjqfayuHdd8u2udH4amGTsmNHSp6jT5pMyNZKY514i
+gb3QgnT0ewqfF71BcVPQind04L+63u2OBsObDTKuuSZjCnj6BwHnT4KA3lruS16T
+eGfT15qKDITxQdGgsD1lRPPshY8SS6miI+9+D5u4EvENVA9MSYdgeeDY1v1ANIIa
+HeSksCFnsUTQqMxVrl0p++J629MrqGS0o8jmyexlIoDGEeAP8hzRHAoHEA3J2X+v
+0HyBnjDf25uCvaIfwCr62VgMpvzPSYw7E+pCeNijpCtAkEWDR5pf443erBzlqonY
+AvH800+Fkucp+AGa/3Il5oIv0PZZhUPipisuKzrRrm5WERfIjWDjpUm9mHQcbdy0
+IFbDV+SoISrd84YuqAOyyU1RBfZRbl7141LR21pbTrawng6Za7udBNMMUGCYEfBH
+TzQaWIphM+2By3qhWHBbceFH
+=jj4D
 -----END PGP SIGNATURE-----
 
---===============3474651895784832460==
+--===============5256707217898101299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -290,4 +290,4 @@ a3c57ab79a06e333a869ae340420cb3c6f5921d3 iov_iter: Kunit tests for page extracti
 fd3a5940e66d059d375bdb9e2d7d06c56f630d7e Merge tag '6.6-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f Merge tag 'perf-tools-for-v6.6-1-2023-09-05' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============3474651895784832460==--
+--===============5256707217898101299==--
