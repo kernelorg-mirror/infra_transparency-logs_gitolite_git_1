@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1764679135104685430=="
+Content-Type: multipart/mixed; boundary="===============5836516388366927966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Sun, 10 Sep 2023 08:01:00 -0000
-Message-Id: <169433286027.11524.8395380858763781063@gitolite.kernel.org>
+Date: Sun, 10 Sep 2023 08:01:32 -0000
+Message-Id: <169433289223.11772.8980079889084992243@gitolite.kernel.org>
 
---===============1764679135104685430==
+--===============5836516388366927966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 01c2180b7099aac7902472a2204562397592782f
+  - ref: refs/heads/thermal/linux-next
+    old: 1ef5a9f61457b921158ef03f3a2b3e789b41be9f
     new: edd220b33f479cf9dcda0bfefb2cb8c5902e9885
-    log: revlist-01c2180b7099-edd220b33f47.txt
+    log: revlist-1ef5a9f61457-edd220b33f47.txt
 
---===============1764679135104685430==
+--===============5836516388366927966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01c2180b7099-edd220b33f47.txt
+Content-Disposition: attachment; filename=revlist-1ef5a9f61457-edd220b33f47.txt
 
 8b94da92559f7e403dc7ab81937cc50f949ee2fd x86/efistub: Fix PCI ROM preservation in mixed mode
 4774faf854f53461fd22daa73f3881fe11b6b755 PCI: dwc: Implement generic suspend/resume functionality
@@ -1051,4 +1051,4 @@ d332db8fc1a2dfb4738281b1d6d4ed20115dd9d3 thermal: core: Add function for registe
 cbcd51e822bf51dfc7715f474c24fbca0ed23fce thermal: Use thermal_tripless_zone_device_register()
 edd220b33f479cf9dcda0bfefb2cb8c5902e9885 thermal: core: Drop thermal_zone_device_register()
 
---===============1764679135104685430==--
+--===============5836516388366927966==--
