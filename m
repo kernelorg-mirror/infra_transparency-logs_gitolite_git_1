@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0384828737222924667=="
+Content-Type: multipart/mixed; boundary="===============8639970933802580114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 10 Sep 2023 11:29:50 -0000
-Message-Id: <169434539010.12503.8482947998674494748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 10 Sep 2023 11:29:51 -0000
+Message-Id: <169434539155.12596.12748326135927571149@gitolite.kernel.org>
 
---===============0384828737222924667==
+--===============8639970933802580114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
+  - ref: refs/heads/char-misc-testing
+    old: a3c57ab79a06e333a869ae340420cb3c6f5921d3
     new: 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f
-    log: revlist-6b8bb5b8d9b3-535a265d7f0d.txt
+    log: revlist-a3c57ab79a06-535a265d7f0d.txt
 
---===============0384828737222924667==
+--===============8639970933802580114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694345389 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1694345388-f6552c1afa4e433fb786b1ee83fcbb3cea24019a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694345390 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1694345390-3f40e83e122630bf6509206f371b5d2e69852f91
 
-6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f refs/heads/usb-testing
+a3c57ab79a06e333a869ae340420cb3c6f5921d3 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT9qK0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IeIP/AyDaVzhLK7qcmoTgW8r
-Q1yMBOy2UPGPW5Wsg6rzFs2CxlUVxj7Fh9L44gWogseSrMSJBmhZQgiY8mPCMajc
-4qaJ5oSxONNeC3xnNUET/BizjLsOtoRb1x45Up7tyUG4mk/Ih5zzD2cUOpG6awUB
-AkWC+4OJw9jaCS30BAowRTa8CBMgzAvG5GOOLYC3NspFdxW1tDtF2/RDEL+sqHZY
-XSXM0bhjz/9AGyOB4B+q2v3GVe+00t2aS4t0C7sVUMSn0s1H4cXs+7uPyAOG8Ysy
-Gbh3DFsGx/WhRpTZHlu9NxHSwXs5jHhrLBZq5aKCQSVRgptDLFe0aQ3C91bhhHPr
-c7f9nLQthWkUYf7FIw8w9C2P5QrlEluMOwhNhqrdAgpYXuTo5VpKBsJU3VJTalR4
-8Swbj2pzJmXr+fqoZxAqjzlxm50qIflDOAfymbvMhASooiAZA1hFYR+HjYPPWwir
-Ce5c0KCxuhdZnuu2DSAjQPeOSn3X2ZYMsnH1mADZMnH2ESiooTH4+N6kskzfXjxY
-MtC213/M+91csTnfDQ099MO2U3MPtnXEp458n1KM2l+zUgdT2DGqse66lZjLEeKl
-YnquR6u2k2yiQ7/K3NBRGUx/5rH3sjYjWMOxXr7DxUzyE1MKe0NvwkxkyCDOZI7C
-gKQfXx3YCUdilXN/ZZHH//gm
-=p+oF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT9qK4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iQAP/itI1ST4+qxgibxA5C7b
+132EmFa8mtsw4QMogJWd8VEwNO5nRj6+9Vud9QaS2OzFR5sGmiNsXCYXJlSB98Yx
+GkxoeXoQAubapLqbibB0XJkGJgl6aH3dwTFP3iyOu44jsc5AJH7KiXSy5cMJS7N6
+QyzRnQ7jrI2i4ub4xWe7mDNgLHzOuXk6TaxXhjZmR4c2W3KwUfcplYc6LV9x0jMq
+47IQIYGHkVb1OE5EWeSk+h3o+BHYlutSN0C+hwrIIPCE8yCQ+qlJOO3I4VFKy+xN
+8ZGWu68Kn85Of/z6Jnz3ktORsTrOQg/Hw1QCBVEoFyFXHZKlbU167ECPmad0U4iE
+fmSiODCFes2y3KOynIzo7TuNSndN/GiL9TXCay1JE/ySU5j0zGwvDN27ZtW3wfJ3
+hoiFnlIEVJfT9rPeMDwYbLj/mWqj35wrrersl0RiwXBf0UQ5QHzhnsB+tbBXSM+p
+x4mfXDzspaD6LOp3aUPHgUDnA2RVtvi/Bd9YBOlNUMqdQjZ+4cqrLKeyfqiljjvv
+bwR7R/3/rR4XBIAerDblBPxmMBKgShpHZPPNowx1TfFMiZ6X74UGSJjwl0urLbuz
+RNlKOAKIuAgOgjrLWU3xwQRjS8E2dMHwroRbbg9ov3XMdDWVhPdq781KMOO/QFCQ
+/vKw6Id3Xk9xxm2D35R4gPGZ
+=I33o
 -----END PGP SIGNATURE-----
 
---===============0384828737222924667==
+--===============8639970933802580114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b8bb5b8d9b3-535a265d7f0d.txt
+Content-Disposition: attachment; filename=revlist-a3c57ab79a06-535a265d7f0d.txt
 
 3f6a74bd628278e6eab4220449702a388aea7595 perf evsel: Free evsel->filter on the destructor
 04cb4fc4d40a5bf1f9d116bc77e69791451f9fcc perf thread: Allow tools to register a thread->priv destructor
@@ -284,10 +284,7 @@ feeec636b6b1cf3e6129e645411751b205c44976 smb3: add trace point for queryfs (stat
 30bded94dcef8d329eb2575665518aadf90ca344 cifs: update internal module version number for cifs.ko
 702c390bc8cc84a486e677dfd76c3917cd244d30 smb3: fix minor typo in SMB2_GLOBAL_CAP_LARGE_MTU
 5d153cd128251aaedc8e9657f0a949ec94952055 spnego: add missing OID to oid registry
-f741bd7178c95abd7aeac5a9d933ee542f9a5509 iov_iter: Fix iov_iter_extract_pages() with zero-sized entries
-2d71340ff1d41a5b9fc1b30ded12d638b2e2ae96 iov_iter: Kunit tests for copying to/from an iterator
-a3c57ab79a06e333a869ae340420cb3c6f5921d3 iov_iter: Kunit tests for page extraction
 fd3a5940e66d059d375bdb9e2d7d06c56f630d7e Merge tag '6.6-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f Merge tag 'perf-tools-for-v6.6-1-2023-09-05' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============0384828737222924667==--
+--===============8639970933802580114==--
