@@ -1,31 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============0011047205555224373=="
+Content-Type: multipart/mixed; boundary="===============9024315149140597629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 15:06:23 -0000
-Message-Id: <169444478319.18636.14682549353801895681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 11 Sep 2023 15:06:33 -0000
+Message-Id: <169444479312.18769.10264728681617491548@gitolite.kernel.org>
 
---===============0011047205555224373==
+--===============9024315149140597629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: 11b0b802f8e38d48ca74d520028add81263f003e
+  - ref: refs/heads/for-6.6
+    old: cfff2a7794d23b03a3ddedd318bf1df1876c598f
     new: e616a916fe8431ebd5eb3cf4ac224d143c57083c
-    log: revlist-11b0b802f8e3-e616a916fe84.txt
+    log: revlist-cfff2a7794d2-e616a916fe84.txt
 
---===============0011047205555224373==
+--===============9024315149140597629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11b0b802f8e3-e616a916fe84.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1694444791 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1694444790-5a984666ba92466799f882fbce704e07425cb54e
+
+cfff2a7794d23b03a3ddedd318bf1df1876c598f e616a916fe8431ebd5eb3cf4ac224d143c57083c refs/heads/for-6.6
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/LPcTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0FrtB/97zvjZxID+hdJBNmrEle1QBBaUirzC
+NOWn2PaOdg/lFQhWVNTDqK0ExG/TO1X5HiOldKSBeDHhOzOw99k/k5th7j5JC/tG
+5FWRQGAXQCSzczZg7GCBAJJUfq/XtUqizEGrnI9+KCxmWp1I0KKveVyVD/hAm5Bh
+TB0/01mZfq48ODi5Kkqrezn3DdUYR5BIpht3g9bt226u7++XY0/WSykoDGYpXY4B
+UUEsXi8Wew4boHYnHSCY8Mf4upUhm52ijNMdL58tXWGEA7aNksjrkGeW/H1LoxRj
+nPth6gyvKYITeCRWrBWwV7CHcTLtwggTMMyB2yfLSZGOyem5Je3DTV/S
+=S7RH
+-----END PGP SIGNATURE-----
+
+--===============9024315149140597629==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cfff2a7794d2-e616a916fe84.txt
+
+1ad1fa820e6424ae75d3d9f59774e40c9c7ec1e5 KVM: s390: interrupt: Fix single-stepping userspace-emulated instructions
+fdbeb55ebdf1d83e610303f7e5c50a4d6904b7fa KVM: s390: interrupt: Fix single-stepping keyless mode exits
+642dbc0312d67781dabf97a70b43810165f21527 KVM: s390: selftests: Add selftest for single-stepping
+5d0545abee3a39e2946e6587475504f3ebab3ae3 Merge remote-tracking branch 'vfio-ap' into next
+8be6f88b9d3fe1f6724daec4a70d6023742c9df7 inet: fix IP_TRANSPARENT error handling
+b1e428615f154c87a94267b67e819644b50948f8 KVM: s390: pv: relax WARN_ONCE condition for destroy fast
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
+19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
+899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
+02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
 8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
 8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
 de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
@@ -139,11 +175,6 @@ c873512ef3a39cc1a605b7a5ff2ad0a33d619aa8 Merge git://git.kernel.org/pub/scm/linu
 345a5c4a0b635fa3fc658e6e0cd7fd2217c667cd super: move lockdep assert
 dc3216b1416056b04712e53431f6e9aefdc83177 super: ensure valid info
 3d053e8060430b86bad0854b7c7f03f15be3a7e5 Merge branch 'slab/for-6.6/random_kmalloc' into slab/for-next
-bfd73b601ac880d7cfbafbb770c3d6195e73add3 ASoC: cs35l45: Add support for Chip ID 0x35A460
-a47f7bf97c9836ff312b421fe392f13401c60c7b ASoC: cs35l45: Fix "Dead assigment" warning
-e041b85006f40a4f9799c385ec1a7fb8bdb0c228 ASoC: cs35l45: Rename DACPCM1 Source control
-9e07f8bfd959d2d09823430eab35d12182446dcf ASoC: cs42l43: Fix missing error code in cs42l43_codec_probe()
-b5f3cec3159dd28563e5a88096769f7b77272790 ASoC: dt-bindings: fsl_easrc: Add support for imx8mp-easrc
 823de40c94d680ec8d57a660ac96a653acadb0a5 PCI: qcom-ep: Treat unknown IRQ events as an error
 e590ad240ff0d4924ad5b0648634d391fbb2e40f dt-bindings: PCI: qcom: ep: Add interconnects path
 f73016b63b09edec8adf7e182600c52465c56ee7 fuse: conditionally fill kstat in fuse_do_statx()
@@ -234,7 +265,6 @@ bd6c11bc43c496cddfc6cf603b5d45365606dbd5 Merge tag 'net-next-6.6' of git://git.k
 468e28d4ac72869ed6c7cd7c7632008597949bd3 Merge tag 'v6.6-vfs.super.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ae89408341f59e39d3b7d9e0d58905722136a176 sched/core: Add kernel-doc for set_cpus_allowed_ptr()
 c958ca2013e28e7573ad95c028198cb67c1352dd sched/fair: Make update_entity_lag() static
-06afec5c988acb2c4f566eac2f6ec53d30d3a1b5 ASoC: cs35l56: Waiting for firmware to boot must be tolerant of I/O errors
 48d25d382643a9d8867f8eb13af231268ab10db5 Merge tag 'parisc-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 eaf9f4649cf03ba3442712497a30686380ba7c23 Merge tag 'csky-for-linus-6.6' of https://github.com/c-sky/csky-linux
 9d6b14cd1e993d2ff98df0cef6d935ce6fd4dbec Merge tag 'flex-array-transformations-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
@@ -740,9 +770,6 @@ ade32bd8a738d7497ffe9743c46728db26740f78 af_unix: Fix data-race around unix_tot_
 afe8764f76346ba838d4f162883e23d2fcfaa90e af_unix: Fix data-races around sk->sk_shutdown.
 b192812905e4b134f7b7994b079eb647e9d2d37e af_unix: Fix data race around sk->sk_err.
 2861f09c11122127ac2fadc85c735844b7bb6d49 Merge branch 'af_unix-data-races'
-c87906a7d56e1f26320a6c8f6d8306656e78b353 MAINTAINERS: Update the MAINTAINERS enties for TEXAS INSTRUMENTS ASoC DRIVERS
-d1cf5d30b43f1a331032ebf3e11d9e366ab0f885 ASoC: amd: yc: Add DMI entries to support Victus by HP Gaming Laptop 15-fb0xxx (8A3E)
-5366a64033ef46d7fc36db097d4bde12af22c405 ASoC: rt5645: NULL pointer access when removing jack
 171f8a49f212e87a8b04087568e1b3d132e36a18 spi: sun6i: reduce DMA RX transfer width to single byte
 1f11f4202caf5710204d334fe63392052783876d spi: sun6i: fix race between DMA RX transfer completion and RX FIFO drain
 3f874c9b2aae8e30463efc1872bea4baa9ed25dc x86/smp: Don't send INIT to non-present and non-booted CPUs
@@ -836,7 +863,6 @@ e9803aac5097ac74186b074d3176318fd10ec98c mailbox: Explicitly include correct DT 
 a493208079e299aefdc15169dc80e3da3ebb718a mailbox: qcom-ipcc: fix incorrect num_chans counting
 7b7e3ed78ef78f7e6a4d4f4a4973f6a5d22123ec MAINTAINERS: Update gfs2 mailing list
 2938fd750e8b73a6dac4d9339fb6f7f1cd624a2d MAINTAINERS: Update dlm mailing list
-739c031110da9ba966b0189fa25a2a1c0d42263c ASoC: Intel: avs: Provide support for fallback topology
 c3b704d4a4a265660e665df51b129e8425216ed1 igmp: limit igmpv3_newpack() packet size to IP_MAX_MTU
 29fe7a1b62717d58f033009874554d99d71f7d37 octeontx2-af: Fix truncation of smq in CN10K NIX AQ enqueue mbox handler
 a3b7039bb2b22fcd2ad20d59c00ed4e606ce3754 kconfig: fix possible buffer overflow
@@ -947,7 +973,6 @@ fdc04cc2d5fd0bb9c17f36d0a895cf3e151109e6 netfilter: nf_tables: uapi: Describe NF
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 8ec9c1d5d0a5a4744516adb483b97a238892f9d5 PCI: Free released resource after coalescing
 ab41a97474c00ceab1b8f44ac78a51079130466a arm64/sysreg: Fix broken strncpy() -> strscpy() conversion
-cfff2a7794d23b03a3ddedd318bf1df1876c598f ASoC: amd: yc: Fix a non-functional mic on Lenovo 82TL
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 081690e941188acfad41b8dbde2112029a2aa206 powercap: intel_rapl: Fix invalid setting of Power Limit 4
 65e710899fd19f435f40268f3a92dfaa11f14470 x86/build: Fix linker fill bytes quirk/incompatibility for ld.lld
@@ -1051,4 +1076,4 @@ d7e47e32192bb88f5b2dc8e655fa587ecf9d71e0 ASoC: wm8960: Fix error handling in pro
 396b907919e028d89bac912e49de014485deb8dc ASoC: soc-pcm: Shrink stack frame for __soc_pcm_hw_params
 e616a916fe8431ebd5eb3cf4ac224d143c57083c Add DMI ID for MSI Bravo 15 B7ED
 
---===============0011047205555224373==--
+--===============9024315149140597629==--
