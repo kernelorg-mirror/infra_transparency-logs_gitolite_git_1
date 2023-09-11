@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8920977329182991279=="
+Content-Type: multipart/mixed; boundary="===============5352850089721279559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 11 Sep 2023 08:49:31 -0000
-Message-Id: <169442217167.11372.16546973275840002869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 11 Sep 2023 08:49:47 -0000
+Message-Id: <169442218798.11544.12920255299745529248@gitolite.kernel.org>
 
---===============8920977329182991279==
+--===============5352850089721279559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/gnss
-user: johan
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/gnss-next
-    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+  - ref: refs/heads/master
+    old: fe15c26ee26efa11741a7b632e9f23b01aca4cc6
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-fdf0eaf11452-0bb80ecc33a8.txt
+    log: revlist-fe15c26ee26e-0bb80ecc33a8.txt
 
---===============8920977329182991279==
+--===============5352850089721279559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf0eaf11452-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-fe15c26ee26e-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============8920977329182991279==--
+--===============5352850089721279559==--
