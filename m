@@ -1,57 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3610210512873892720=="
+Content-Type: multipart/mixed; boundary="===============1188686600898532455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 11 Sep 2023 15:07:05 -0000
-Message-Id: <169444482569.19376.7548816504273795405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 11 Sep 2023 15:07:23 -0000
+Message-Id: <169444484370.20528.1915989299422978896@gitolite.kernel.org>
 
---===============3610210512873892720==
+--===============1188686600898532455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
-    new: 8e38d81b2257ff59fc6d7426a76d11ae3c0446cd
-    log: revlist-52a93d39b17d-8e38d81b2257.txt
+    old: 41f02a383ac652f1a0b5538c5901b7ec93e37290
+    new: 9b8c7c71b88266bdf13f9f3001990126625bfb10
+    log: |
+         9b8c7c71b88266bdf13f9f3001990126625bfb10 Merge remote-tracking branch 'regulator/for-6.5' into regulator-linus
+         
   - ref: refs/heads/for-next
-    old: 26fc7cfa30d6e1d0e5a0e6fd0022de8720a58e30
-    new: ae65fa7f434d30c8dc5aba8853be279e2e6dcfcf
-    log: revlist-26fc7cfa30d6-ae65fa7f434d.txt
+    old: 41f02a383ac652f1a0b5538c5901b7ec93e37290
+    new: eea68fc9092dcde8da2ecbc61a50bce376361af4
+    log: revlist-41f02a383ac6-eea68fc9092d.txt
 
---===============3610210512873892720==
+--===============1188686600898532455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52a93d39b17d-8e38d81b2257.txt
+Content-Disposition: attachment; filename=revlist-41f02a383ac6-eea68fc9092d.txt
 
-1425bdd7ef88631d0623ce3d0b8c89d8a65815d2 regmap: Revert "add 64-bit mode support" and Co.
-039fd2e4134b7b880ba83f40a136df440047594a regmap: cache: Revert "Add 64-bit mode support"
-875403a7b524e9523e49dd32662adbc3e48cc12a regmap: mmio: Remove unused 64-bit support code
-47ee108a113c72ec8ceee2c7af52c19ed72e6ad7 regmap: Provide user selectable option to enable regmap
-78908f45ccf1dc2f4d5fb395c460fdbbf7e9ac3a regmap: Let users check if a register is cached
-d881ee5a872fd539a8c693e4c8656b9343c9aae0 regmap: Provide test for regcache_reg_present()
-99aae70551f99536936438bbcfc562df69eeb79c ALSA: hda: Use regcache_reg_cached() rather than open coding
-ee43f5bb23340c27603c3ad8ef94f677ad7cb9ad regmap: Reject fast_io regmap configurations with RBTREE and MAPLE caches
-b0393e1fe40e962574613a5cdc4a470d6c1de023 regmap: maple: Use alloc_flags for memory allocations
-0c8b0bf42c8cef56f7cd9cd876fbb7ece9217064 regmap: rbtree: Use alloc_flags for memory allocations
-e02a4ccbeced64aa10f4e99683c721ec43e993c1 regmap: Remove dynamic allocation warnings for rbtree and maple
-9c214af0bd0f43df214470a35bc38dd5602b666f regmap: Merge up fixes from mainline
-ffb57ee9c0e2a9aae89016ee7b793a666c6aa4a5 regmap: Fix the type used for a bitmap pointer
-5d481ddb6a731281238b6a064c719a91f0234b0c regmap: Merge up fixes from Linus' tree
-8e38d81b2257ff59fc6d7426a76d11ae3c0446cd Merge remote-tracking branch 'regmap/for-6.5' into regmap-linus
-
---===============3610210512873892720==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26fc7cfa30d6-ae65fa7f434d.txt
-
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
+19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
@@ -251,7 +233,6 @@ bf26f1b4e0918f017775edfeacf6d867204b680b ksmbd: Fix one kernel-doc comment
 0119c894ab0dc468bcb03f28063239c0a4cf970f drm: Add initial ci/ subdirectory
 ad6bfe1b66a5c146ec236847eca7af4c8806d666 drm: ci: docs: fix build warning - add missing escape
 1f464cb4a7febcc8b5ad325f3f9a83c8d4e4c199 cpufreq: Avoid printing kernel addresses in cpufreq_resume()
-c69290557c7571dff3d995fa27619b965915e8a1 regulator: tps6287x: Fix n_voltages
 61bfbf7951ba561dcbdd5357702d3cbc2d447812 cpufreq: Fix the race condition while updating the transition_task of policy
 916f13884042f615cfbfc0b42cc68dadee826f2a cpufreq: governor: Free dbs_data directly when gov->init() fails
 68cf01760bc0891074e813b9bb06d2696cac1c01 Merge tag 'v6.6-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
@@ -900,7 +881,6 @@ cbcd51e822bf51dfc7715f474c24fbca0ed23fce thermal: Use thermal_tripless_zone_devi
 edd220b33f479cf9dcda0bfefb2cb8c5902e9885 thermal: core: Drop thermal_zone_device_register()
 9e310ea5c8f6f20c1b2ac50736bcd3e189931610 Merge tag 'fuse-update-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 6f7f984fa85b305799076a1bcec941b9377587de perf/x86/uncore: Correct the number of CHAs on EMR
-ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec regulator: tps6594-regulator: Fix random kernel crash
 65d6e954e37872fd9afb5ef3fc0481bb3c2f20f4 Merge tag 'gfs2-v6.5-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 44ade291b77c1cff25f253782c486c0c1e7296eb media: dt-bindings: Merge OV5695 into OV5693 binding
 274e480982e6d1239be6a236bb457aa95460e1f1 media: dt-bindings: Convert Omnivision OV7251 to DT schema
@@ -1074,7 +1054,7 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-8e38d81b2257ff59fc6d7426a76d11ae3c0446cd Merge remote-tracking branch 'regmap/for-6.5' into regmap-linus
-ae65fa7f434d30c8dc5aba8853be279e2e6dcfcf Merge branch 'regmap-linus' into regmap-next
+9b8c7c71b88266bdf13f9f3001990126625bfb10 Merge remote-tracking branch 'regulator/for-6.5' into regulator-linus
+eea68fc9092dcde8da2ecbc61a50bce376361af4 Merge branch 'regulator-linus' into regulator-next
 
---===============3610210512873892720==--
+--===============1188686600898532455==--
