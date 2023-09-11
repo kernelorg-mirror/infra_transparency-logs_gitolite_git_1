@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2343035737651128549=="
+Content-Type: multipart/mixed; boundary="===============2032959821911757965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 11 Sep 2023 11:45:25 -0000
-Message-Id: <169443272566.30333.9058695460357048359@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 11:45:29 -0000
+Message-Id: <169443272946.30450.16662263090574272658@gitolite.kernel.org>
 
---===============2343035737651128549==
+--===============2032959821911757965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: 535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-535a265d7f0d-0bb80ecc33a8.txt
 
---===============2343035737651128549==
+--===============2032959821911757965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694432723 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694432727 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1694432724-5df9822c527b8b094f1a790dfe7b0729d86b62d0
+nonce 1694432728-885a5685b37cab72ce1c7afcf7379a881fd94b30
 
-535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/tty-next
+535a265d7f0dd50d8c3a4f8b4f3a452d56bd160f 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT+/dMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++awP/26EbweIF9U+pmL5qZPc
-ty5wWE+Q+c6YaLh2YQQ5SIahP0jyw+3uW2Vdra/EIdN8oNmAv62RJAslt/lBbW3h
-YsQ/1YhgJdBSYpthLUodKKO9q98HuJT/L5aRIiUD2UBDxkelysezxzBSJoSJ6gl7
-Nh2ZaUOraKdJJwJJqWaY7hAHJOqTI7a3hUgiOtE6ebKcY3yzdDGWdo8tPuX2U9T9
-Qain3KkIuvm5YvGYXbwogIX/Zjf9Zecuvmhg6wDycoWqTft32PLzhimA7ueDwPSa
-DqjTn/M5eIZkIYo/+gr5KumlUE63gHvqLkrAHpPV9S+CV+u6Y/Q7Wxx3p4CqlB+n
-aYX4FdPt+JlMbiIvqhzBk09OzybBxIb3yZ1YJCte1w1SjpydNoSsUf0RQVVamLtH
-FVQslrky9y3KUzLPUXUuixyDNLb6W9YNF+uaKSZ157yRJQSORibJtw/gcFxbon+l
-QH/jFBbMHjfhfcMGroAZ9XjSx+SgFULHmLN6tcq7aG1pJbIhvbLrzTJR2s8Qw0P8
-Ly8dlR9oJF57jaId9f6aAwxAR2b/3ga7MTb23nNx4BH0tEVE+tfPjuQeY/lEWZcG
-ry4Lx4D859D/P/TpB1PFTyXEQIvJP9egfw6qIK5vC9EMuOHFK8J76HWtE1cUWGvt
-vwDhqVDVr37M3hwPiXNtjejg
-=dh+4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT+/dcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e24QAMQiVXVy/hRVYdXS0DH6
+MSdWxCuYjn8w+zwH1SfSysZaVXWiCDGch3HshenjuW5xZSsw4Oi9y8FR887OjUdv
+GNkY1C/oYdeM6lKATMZcDv242TwK6vSQOTGsqUrAPG+gHnKQ5mc0Y5GwclNizmRw
+Jfd8Sze/0Iwuo3PEF8z0mDbQ1MhEIdacXchyd+lVBwSE1eHSBcB+5lS4Hsft/AHZ
++mv4d3SogHWy7HKytDJ0biOwXGxxZ+9bQvi0cEqLeMFT1GViuJCJAoWwvmxX/zIz
+j1WlMfqyX5goTVazIbcxY3Ckk1GUdlzDtuqu2nqD07gHWoFsDbyRb1E5w/hxjGT4
+2PAjQ3fu3JPdRI8s27B6YKRwm3Dg6jIj9lY1Lz60qZCDLdPrGpis63QnYR9DodZh
+HX2oZcmXjuo7Y02bKjCWdJvk8wonbQ0dQTsaY/vxf5qxh55t5n/yujWu3heEkKYT
+eN1lbSJrudIHJFIxXeJ0fNvcbsxsVQveTygnJOV2uWsSxQmUZee1pa6CxDXWRCo6
+SZk8WAicYANnCTar5giPezuxQofrVyD1QBB/5lnDsxx1QAKfnO+WOBg0f1CuEKoG
+k8jjm5z2AnTP5vu00WaqpgqAsF24ln1YE0UPmjTFfX0CZrTroxJw+sMwoZYpwhMh
+Ivhm5Eh4g8tAiSnUBP37UEHm
+=RzFI
 -----END PGP SIGNATURE-----
 
---===============2343035737651128549==
+--===============2032959821911757965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============2343035737651128549==--
+--===============2032959821911757965==--
