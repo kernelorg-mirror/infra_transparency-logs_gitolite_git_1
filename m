@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5275865822865928701=="
+Content-Type: multipart/mixed; boundary="===============4101025292129682025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 11 Sep 2023 21:51:18 -0000
-Message-Id: <169446907866.21333.6915909680639336689@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 21:51:33 -0000
+Message-Id: <169446909395.21492.10789428438429284852@gitolite.kernel.org>
 
---===============5275865822865928701==
+--===============4101025292129682025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 8f7f35e5aa6f2182eabcfa3abef4d898a48e9aa8
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-8f7f35e5aa6f-0bb80ecc33a8.txt
+  - ref: refs/heads/master
+    old: 1037d6ec29cdfaaec5277c194b0278eb0a30c3f8
+    new: ba46245183940de39e42c8456b85ceaf3519b764
+    log: revlist-1037d6ec29cd-ba4624518394.txt
 
---===============5275865822865928701==
+--===============4101025292129682025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f7f35e5aa6f-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-1037d6ec29cd-ba4624518394.txt
 
-fad84e39f116035ae8d550c6020107b8ac113b45 ARC: boot log: eliminate struct cpuinfo_arc #4: boot log per ISA
 cfca4b5abe0cc13f9d9f45f760efd8260e31200f ARC: entry: use gp to cache task pointer (vs. r25)
 d1d1569e89e9cc5c07a389ac859bd045b906923c ARC: kernel stack: INIT_THREAD need not setup @init_stack in @ksp
 b060b7d0c105d495eb9338a3f6c7bc0c09830a2c ARC: __switch_to: asm with dwarf ops (vs. inline asm)
@@ -1050,5 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+ba46245183940de39e42c8456b85ceaf3519b764 KEYS: trusted: tee: Refactor register SHM usage
 
---===============5275865822865928701==--
+--===============4101025292129682025==--
