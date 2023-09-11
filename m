@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6375459358294144427=="
+Content-Type: multipart/mixed; boundary="===============9195580086579139626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 11 Sep 2023 06:53:44 -0000
-Message-Id: <169441522474.19477.8853501595790749694@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 06:53:53 -0000
+Message-Id: <169441523322.19583.8596254791237755803@gitolite.kernel.org>
 
---===============6375459358294144427==
+--===============9195580086579139626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: f5acc36b0714b7b8510a8b436087d33a65cb05f4
+  - ref: refs/heads/for-rc
+    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-f5acc36b0714-0bb80ecc33a8.txt
+    log: revlist-2ccdd1b13c59-0bb80ecc33a8.txt
 
---===============6375459358294144427==
+--===============9195580086579139626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5acc36b0714-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============6375459358294144427==--
+--===============9195580086579139626==--
