@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1155019231520858939=="
+Content-Type: multipart/mixed; boundary="===============6774196081960853501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 11 Sep 2023 11:44:30 -0000
-Message-Id: <169443267017.27796.4912278536317847626@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 11:44:34 -0000
+Message-Id: <169443267431.27867.15666172545721792012@gitolite.kernel.org>
 
---===============1155019231520858939==
+--===============6774196081960853501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-6b8bb5b8d9b3-0bb80ecc33a8.txt
 
---===============1155019231520858939==
+--===============6774196081960853501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694432668 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694432672 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694432668-83a067e94a952916722a8b72e3fb65ecee238a5b
+nonce 1694432672-6ea4ab1cc250a2ba10e56392def98536d86467f7
 
-6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/driver-core-next
+6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT+/ZwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+trEP/3u6bkuiiKP/Y+8Seag5
-cndrHnkpi6FfzpV9epWaaGGZPHQoMI0QV5HEnHGrRJLD8X7MehpF1sjpGi2E/dus
-W3t588uynq32Dr863qM8d6QQ3dAKRTT8ps1TWtd2pSTps9yzVu8ac8LHc4fBwz4+
-MM/2DDxvoTbDAPwRLtKdrJgHSLAVlIbsu9g/N9OrxP4z4chVAfO2vPZiXWBiuVHF
-/wIzPuxcBMtHu6pT+JyrSB+N1gFCqI3Fo7ESzY9yduunvGjKkNyOZhSPqGICF7//
-VHukD2N6biaZPZV14n+zY0NBiF5rJxk/Mj3Y+r+8SyadGStTUs+QLseoSitaP4zQ
-3LDn4VMiaiYl22PBwgua5Et3MDcK2o7z0gqOfKPAKpnjKCddwcVUCype3GoVb7bx
-KMHKaHdzW0R2hEma6QJRojrGBPaafBP3QGV4vXTOm5Bo9Zm5ShTBoD4AZEq9tRkC
-vz7TPCoAjUuM40XoT7bJAWNf+DZbBK1l82Tn8yaiCSaAjhIsQ/2tLiTgx2/6LslT
-w6tgO2vktrsUo+Fsz1mPnYKQdJVR7RmfaWi6omo/nFSOSY+RIdhg1qbbfqOKn5hP
-vZsgVZDi8sU1h0GRv6O9LdO/YIwSWieVVZ3SGLPfIl+nX8qGjHracX5+pUiOgn1m
-5S119K6aHmnREcx0LICAlDPK
-=AHEn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmT+/aAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ir0QANNtvMNUWw8SCLlSBi8l
+CiS+TloBNMre0PyWv3CIxY0to8MaZ+gH3Mf7ZYZoTdCJANOM/cRwV3uGiqkuaKFl
+ibv+6IrDAQzm8fJLsFgqxoA7hBOZh+rILPNKmGp9Mq86A4QBb3u6GlseOtW//ohA
+jHZsYtCq8a3Z4zOXSTwRnSUNhuWaiD1UrzbuktNxFeVR1WXS70+SkqjGBimE9g0c
+F2Kr8IWYvR47ZQa1aMdcKihojWdH+xdW2gEp21ViuKAi8og17VijWiH+hgbzsvx0
+9qCSzMA/eR4ok11CKAbYFqi+yCV5d1xYAoy27OPMKyGaINtblctp24vsBL/9zMWR
+Ud5LxFBVN/HG7gs50Q7N0AX6zs+bGWOK85TBj31vutRDQkACMqBS0FA6RRxU+KiY
+dpXVwizOBSxNZ76LySWcwA8tli+QM/3Alc1/wvfgLL6FmL1qohfGSYLu0BZLok1u
+iylCklGVpSkQ+QxjveA54R+jhYhiAuX6TBShKxVZ7Bomj6Anbe5huZfjCRMOAPQj
+MCMndF3sYtroRw4i2FKCVsVC6TCjyIIfHYOZ910BdBSUH3WkGZufkVq5DOH2YEuM
+mAzzGBjs5umDXtHezp8J/SF489lwW6yI7hFd8AR4h4sj6cFR5iop7301Q5EC3n7q
+zduaz+Q+sw2w84QZccQluw1/
+=OC4v
 -----END PGP SIGNATURE-----
 
---===============1155019231520858939==
+--===============6774196081960853501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -301,4 +301,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============1155019231520858939==--
+--===============6774196081960853501==--
