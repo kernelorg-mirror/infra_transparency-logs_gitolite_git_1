@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1004669907329290703=="
+Content-Type: multipart/mixed; boundary="===============2338389697024150654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 11 Sep 2023 18:02:24 -0000
-Message-Id: <169445534486.8416.12385287045541275636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Sep 2023 18:02:32 -0000
+Message-Id: <169445535223.8556.15320657545451719115@gitolite.kernel.org>
 
---===============1004669907329290703==
+--===============2338389697024150654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regmap-6.6
     old: 5d481ddb6a731281238b6a064c719a91f0234b0c
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-5d481ddb6a73-0bb80ecc33a8.txt
-  - ref: refs/heads/for-6.7
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/regmap-6.7
+    old: 0000000000000000000000000000000000000000
     new: d3601857e14de6369f00ae19564f1d817d175d19
-    log: |
-         d3601857e14de6369f00ae19564f1d817d175d19 regmap: debugfs: Fix a erroneous check after snprintf()
-         
 
---===============1004669907329290703==
+--===============2338389697024150654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694455343 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1694455342-ab4a2529005b469ce6947026aec0f26c4a216df8
+pusher Mark Brown <broonie@kernel.org> 1694455350 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694455349-57d14a7fb561ad7868990e2211b41f7bdb591d6f
 
-5d481ddb6a731281238b6a064c719a91f0234b0c 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/for-6.6
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d d3601857e14de6369f00ae19564f1d817d175d19 refs/heads/for-6.7
+5d481ddb6a731281238b6a064c719a91f0234b0c 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/regmap-6.6
+0000000000000000000000000000000000000000 d3601857e14de6369f00ae19564f1d817d175d19 refs/heads/regmap-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/Vi8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GMOB/9/dZnB8MR0YMtsMOGCQFVwXD8/76Y7
-uSGD++r/SYRF0fVjU4f/tRmdD/qauKjrf90rFHDnWKg28jMRCVKYniGY5q7BLfDR
-AqHtN8zQrl7DkUpVlwhY6ubx8L31/w/jwM2X38+2dWmKBTQSd2+50O1CWljBopSe
-vOWVXMUpwlPD89ozZB7x3idYtjaf0kT1YWUOYpRfefu9ELYD3GnzNJ/b5nqbllAx
-upx+FD5WQeqjEkPXEIGNfu1CPDLxFfSWdvjmRHXg4wTSoVJ7zLC0eWVt0kVyzLzF
-xclUk+m+lEa/RTkmaM3ctmn7D/AbmZxUhdIM3W1g7+ltJBNYhajuByDu
-=qBAh
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/VjYTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0KLrB/0WJGkh197GdoJiFDmoY9r4d9rJiDdR
+tqgETuaRvl7fyKGZhEWFV/TvoSUElrI2m3dG1D7hvdxxhmEp/RTti3BokexIJaaE
+n50no6clRLsqNp20IWk+4E37kU8MWViA71xPqIbrLN/vyd1Wf8dzBe7QpRhtH5WF
+lvGYuiGavNSmRmmKSyaBcGDVz6wb7kJEeeyu4xkt4HV81NwPDOZsymfXFGDlBn/a
+6Jyl+8iwUs6aiLnirA343Bdwkrz4dNV/ExcPvJmTX4qmJx6cNjAB+6A4aWBGm57C
+HkJphOD23RyK4Tl138dykdLkhotWpWKWoW1ZSavj6FGEiIETIICAKkDL
+=ckY8
 -----END PGP SIGNATURE-----
 
---===============1004669907329290703==
+--===============2338389697024150654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1080,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============1004669907329290703==--
+--===============2338389697024150654==--
