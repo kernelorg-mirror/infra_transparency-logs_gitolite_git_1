@@ -1,36 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1734669800776863473=="
+Content-Type: multipart/mixed; boundary="===============6018618273127687159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 11 Sep 2023 06:03:49 -0000
-Message-Id: <169441222940.11587.8188995297669979425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 11 Sep 2023 06:07:24 -0000
+Message-Id: <169441244478.17846.7776251223554426641@gitolite.kernel.org>
 
---===============1734669800776863473==
+--===============6018618273127687159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
+    old: 52a93d39b17dc7eb98b6aa3edb93943248e03b2f
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-2ccdd1b13c59-0bb80ecc33a8.txt
-  - ref: refs/heads/for-linus
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-06c2afb862f9-0bb80ecc33a8.txt
+    log: revlist-52a93d39b17d-0bb80ecc33a8.txt
   - ref: refs/heads/master
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-06c2afb862f9-0bb80ecc33a8.txt
   - ref: refs/heads/next
-    old: 72f5801a4e2b7122ed8ff5672ea965a0b3458e6b
+    old: 8c4c9a9ae5aff2125ea44f0b26f9e3701d56d6db
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-72f5801a4e2b-0bb80ecc33a8.txt
+    log: revlist-8c4c9a9ae5af-0bb80ecc33a8.txt
   - ref: refs/tags/v6.6-rc1
     old: 0000000000000000000000000000000000000000
     new: 5c850e5ef01aae373c022d83be4bafcff54373e5
@@ -56,11 +52,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
 
---===============1734669800776863473==
+--===============6018618273127687159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-52a93d39b17d-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1087,7 +1083,7 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============1734669800776863473==
+--===============6018618273127687159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2118,11 +2114,11 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============1734669800776863473==
+--===============6018618273127687159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72f5801a4e2b-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-8c4c9a9ae5af-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -3149,4 +3145,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============1734669800776863473==--
+--===============6018618273127687159==--
