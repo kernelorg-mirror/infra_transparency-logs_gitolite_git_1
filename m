@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0348863477150211270=="
+Content-Type: multipart/mixed; boundary="===============3226755438091618114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 11 Sep 2023 14:41:31 -0000
-Message-Id: <169444329167.1094.4322519356505815241@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 14:42:42 -0000
+Message-Id: <169444336211.1631.278760616957393641@gitolite.kernel.org>
 
---===============0348863477150211270==
+--===============3226755438091618114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-keystone-dts-next
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+  - ref: refs/heads/ti-dts-stage
+    old: ac9a78681b921877518763ba0e89202254349d1b
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-06c2afb862f9-0bb80ecc33a8.txt
+    log: revlist-ac9a78681b92-0bb80ecc33a8.txt
 
---===============0348863477150211270==
+--===============3226755438091618114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06c2afb862f9-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-ac9a78681b92-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============0348863477150211270==--
+--===============3226755438091618114==--
