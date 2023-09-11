@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2180982387718940461=="
+Content-Type: multipart/mixed; boundary="===============0014806626387624796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 11 Sep 2023 14:21:14 -0000
-Message-Id: <169444207409.16854.7254076970969335433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 11 Sep 2023 14:21:42 -0000
+Message-Id: <169444210231.17051.7931542500759677215@gitolite.kernel.org>
 
---===============2180982387718940461==
+--===============0014806626387624796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: fb7e600df0a006f3661eddb424cd92bae26df350
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-fb7e600df0a0-0bb80ecc33a8.txt
+  - ref: refs/heads/master
+    old: f4875d9457d7b2ea30ef54737e67ba66dc6e6542
+    new: 524810b47c7c2ec8157caa58cc7a8fda7fe9bf18
+    log: revlist-f4875d9457d7-524810b47c7c.txt
 
---===============2180982387718940461==
+--===============0014806626387624796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb7e600df0a0-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-f4875d9457d7-524810b47c7c.txt
 
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
@@ -1050,5 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+524810b47c7c2ec8157caa58cc7a8fda7fe9bf18 Merge tag 'v6.6-rc1'
 
---===============2180982387718940461==--
+--===============0014806626387624796==--
