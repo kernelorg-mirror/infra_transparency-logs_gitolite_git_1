@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0116522566123488104=="
+Content-Type: multipart/mixed; boundary="===============2685107900841180875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 11 Sep 2023 12:24:26 -0000
-Message-Id: <169443506671.26448.7548611770025748575@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 12:24:49 -0000
+Message-Id: <169443508952.26706.10253798370960830950@gitolite.kernel.org>
 
---===============0116522566123488104==
+--===============2685107900841180875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 08e3979a78878f8514a2b3e826eb22609232b421
-    new: 1eca18d69419dafde85f1255c5979532b41415f7
-    log: revlist-08e3979a7887-1eca18d69419.txt
-  - ref: refs/heads/renesas-drivers-for-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 35166594384e397fd68b5d127bf0f3cdecc84fe3
-  - ref: refs/heads/renesas-dts-for-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: c588e1c9846b32182fd5a0ceb637b983810e7100
-  - ref: refs/tags/renesas-devel-2023-09-11-v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d03a6d508c6e40b8e3e85bb9a0c3b0ad586467c0
-  - ref: refs/tags/renesas-next-2023-09-11-v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: c20b117d536876506aec1adfecac6c42388f9d68
-  - ref: refs/tags/v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+  - ref: refs/heads/next
+    old: 13512fa6af4abcdd8645daabd4ad22576694c7a5
+    new: f1f80f16cf65fdebcb57c299435019a932d50a6a
+    log: revlist-13512fa6af4a-f1f80f16cf65.txt
 
---===============0116522566123488104==
+--===============2685107900841180875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08e3979a7887-1eca18d69419.txt
+Content-Disposition: attachment; filename=revlist-13512fa6af4a-f1f80f16cf65.txt
 
+b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
+6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
 422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 f1424755db913c5971686537381588261cdfd1ee powerpc/mm/book3s64: Fix build error with SPARSEMEM disabled
@@ -1063,7 +1050,5 @@ ed5290f235863d63b46bc36900113a0da0a362c8 ARM: dts: renesas: ape6evm: Drop bogus 
 183a709d3719e5c9919a6f12c86c0a3e088b712d arm64: dts: renesas: r8a779f0: Add PCIe Host and Endpoint nodes
 c588e1c9846b32182fd5a0ceb637b983810e7100 arm64: dts: renesas: r8a779f0: spider: Enable PCIe Host ch0
 f1f80f16cf65fdebcb57c299435019a932d50a6a Merge branches 'renesas-drivers-for-v6.7' and 'renesas-dts-for-v6.7' into renesas-next
-401c0878ab496cb1842f29a4073772b73bdbf037 Merge tag 'v6.6-rc1' into renesas-devel
-1eca18d69419dafde85f1255c5979532b41415f7 Merge branch 'renesas-next' into renesas-devel
 
---===============0116522566123488104==--
+--===============2685107900841180875==--
