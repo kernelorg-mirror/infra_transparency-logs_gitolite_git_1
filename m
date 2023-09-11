@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2793470783491961318=="
+Content-Type: multipart/mixed; boundary="===============5719255955290267697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 11 Sep 2023 18:02:42 -0000
-Message-Id: <169445536269.8665.7963543928922332664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Sep 2023 18:02:49 -0000
+Message-Id: <169445536994.8816.14097104912450525172@gitolite.kernel.org>
 
---===============2793470783491961318==
+--===============5719255955290267697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regulator-6.6
     old: ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec
     new: 6223e073db78458f8846c380ccd224a7a73a3867
     log: revlist-ca0e36e3e39a-6223e073db78.txt
+  - ref: refs/heads/regulator-6.7
+    old: 0000000000000000000000000000000000000000
+    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
 
---===============2793470783491961318==
+--===============5719255955290267697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694455361 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1694455360-c94c2b556b90486602058f0f9112acde59a561d7
+pusher Mark Brown <broonie@kernel.org> 1694455368 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694455367-be40c2f9f459f403df6c0ddfaf61cc3008799192
 
-ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec 6223e073db78458f8846c380ccd224a7a73a3867 refs/heads/for-6.6
+ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec 6223e073db78458f8846c380ccd224a7a73a3867 refs/heads/regulator-6.6
+0000000000000000000000000000000000000000 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/regulator-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/VkETHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0A6KB/9Xsr9wy4KAwMf1znsH9GAsC16UmfJo
-gcUn8dGBJmrgT6kJF4qLbHGBTfEgJqH6kCXUeHb5FXcjpDBNEiiSbaJUNIAriSwu
-yh6Nt9W+tyan607ajY6z+Y4GIJ0L6V+XaViD168bs75mQ4of+D7p+gtQr3CwepJ8
-R5ad4LcpYa7ZL3Z7dZxQmR+zfulQ43sYmI3hmLVBBUN3FE8vD43+df9MkYaJyBRS
-QOnxxNTILLvfe9wXn83AmaLPisu3H73QgiMV4UwkSTRkorB0FUxz3OM300XfZ1ng
-3NcE8GhLHJazEYiN4JT4ZBAnI7m+d0MobgN/S4NQJt5Al80vWprnnIWA
-=iGaS
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/VkgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0J2eCACBRbNYpqw/O5TrWQ74QLxCfankMwbC
+yQ0DSJGu9qewdlw8gfY2ojW3bdmQXMpqqxk4qRP3zKc1QbHOQ+eQL9WDwJSWLtEM
+HB9/cEZ2rmKcFhUVAfWnNkspS1nwcSEWl4xov57X+wtZ6f/gzSOGGm6sA5oMrz0F
+AAoUmsuWA9gQRWhd+sms/Nau59HgYuUYlSQRusl73mKBr21Wcq3Rcr6SdRGQsEzY
+krxmw+nvRmugpjIEtavPVKn54lCXybRhxubsYQLCZ4XlMtE8OMtDH7k3ilZBDPFl
+hOca/zOzSOsHbp5y41H9Wes67KMf8HJhfRFwnONyq+jeEoN1g/7/ae1Z
+=MyYw
 -----END PGP SIGNATURE-----
 
---===============2793470783491961318==
+--===============5719255955290267697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1080,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 6223e073db78458f8846c380ccd224a7a73a3867 regulator: Fix voltage range selection
 
---===============2793470783491961318==--
+--===============5719255955290267697==--
