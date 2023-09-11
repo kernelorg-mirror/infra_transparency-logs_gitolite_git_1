@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============9024315149140597629=="
+Content-Type: multipart/mixed; boundary="===============6848628335062850536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 11 Sep 2023 15:06:33 -0000
-Message-Id: <169444479312.18769.10264728681617491548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Sep 2023 15:06:40 -0000
+Message-Id: <169444480021.18873.10742932708257120658@gitolite.kernel.org>
 
---===============9024315149140597629==
+--===============6848628335062850536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: cfff2a7794d23b03a3ddedd318bf1df1876c598f
     new: e616a916fe8431ebd5eb3cf4ac224d143c57083c
     log: revlist-cfff2a7794d2-e616a916fe84.txt
+  - ref: refs/heads/asoc-6.7
+    old: 0000000000000000000000000000000000000000
+    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
 
---===============9024315149140597629==
+--===============6848628335062850536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694444791 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1694444790-5a984666ba92466799f882fbce704e07425cb54e
+pusher Mark Brown <broonie@kernel.org> 1694444798 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694444797-bf1f1a8b61efa4dffb474664cf83ef2913fc3652
 
-cfff2a7794d23b03a3ddedd318bf1df1876c598f e616a916fe8431ebd5eb3cf4ac224d143c57083c refs/heads/for-6.6
+cfff2a7794d23b03a3ddedd318bf1df1876c598f e616a916fe8431ebd5eb3cf4ac224d143c57083c refs/heads/asoc-6.6
+0000000000000000000000000000000000000000 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/LPcTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0FrtB/97zvjZxID+hdJBNmrEle1QBBaUirzC
-NOWn2PaOdg/lFQhWVNTDqK0ExG/TO1X5HiOldKSBeDHhOzOw99k/k5th7j5JC/tG
-5FWRQGAXQCSzczZg7GCBAJJUfq/XtUqizEGrnI9+KCxmWp1I0KKveVyVD/hAm5Bh
-TB0/01mZfq48ODi5Kkqrezn3DdUYR5BIpht3g9bt226u7++XY0/WSykoDGYpXY4B
-UUEsXi8Wew4boHYnHSCY8Mf4upUhm52ijNMdL58tXWGEA7aNksjrkGeW/H1LoxRj
-nPth6gyvKYITeCRWrBWwV7CHcTLtwggTMMyB2yfLSZGOyem5Je3DTV/S
-=S7RH
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/LP4THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BKZB/0Sp5YmRdd9e4Yzas5W1po5LcoDh5OA
+4UlcTvnmHnVBVvyS+T08k4WYlimlsRSbRBd8avxWpNyYp9MgAp4lqfDAzJsd/7tN
+3kjw6xORVEjEy1JXtRmy5jXvTWTZognMWd1u/vWWeyd4CUWZALsDKKMC6w/QzcD8
+6M+yU9BzS7n5kEsVW5Kdu+IzXKK/MUdCMFstrpQo8pNKeJNp34ix0artEzDPGWQB
+2IliHez4l9/R+kgk6R608PrWPwp9Y6wRTr8IcK8l3Pb8fF563V1KE+Pg4bMrAbrL
+ZFE+HYI5f2g6jQDIsO85lVHb17/Nc/26oxQVtF06hNauhMJNE8piPJJq
+=jJdS
 -----END PGP SIGNATURE-----
 
---===============9024315149140597629==
+--===============6848628335062850536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1080,4 @@ d7e47e32192bb88f5b2dc8e655fa587ecf9d71e0 ASoC: wm8960: Fix error handling in pro
 396b907919e028d89bac912e49de014485deb8dc ASoC: soc-pcm: Shrink stack frame for __soc_pcm_hw_params
 e616a916fe8431ebd5eb3cf4ac224d143c57083c Add DMI ID for MSI Bravo 15 B7ED
 
---===============9024315149140597629==--
+--===============6848628335062850536==--
