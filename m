@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 11 Sep 2023 20:14:18 -0000
-Message-Id: <169446325852.11470.12662974734870154444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 11 Sep 2023 20:15:37 -0000
+Message-Id: <169446333716.13675.963919559676326012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/next
-    old: 9396cb2bade7df94ec3a195acef2981855f119ce
-    new: 7fd525f67cf5176340421f598bfaef65ecd0b8c8
+  - ref: refs/heads/fixes
+    old: dc77721ea4aa1e8937e2436f230b5a69065cc508
+    new: 779873ec81306d2c40c459fa7c91a5d40655510d
     log: |
-         a1f71f85d02e5725642abd5e827ad0471ef9c46b hns3: add support dump registers for hns3 driver
-         7fd525f67cf5176340421f598bfaef65ecd0b8c8 rxclass: fix a bug in rmgr when searching for empty slot
+         779873ec81306d2c40c459fa7c91a5d40655510d power: supply: mt6370: Fix missing error code in mt6370_chg_toggle_cfo()
          
