@@ -1,61 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============6848628335062850536=="
+Content-Type: multipart/mixed; boundary="===============2792814510648359517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 Sep 2023 15:06:40 -0000
-Message-Id: <169444480021.18873.10742932708257120658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 11 Sep 2023 15:06:50 -0000
+Message-Id: <169444481099.19050.600644134682887305@gitolite.kernel.org>
 
---===============6848628335062850536==
+--===============2792814510648359517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
-    old: cfff2a7794d23b03a3ddedd318bf1df1876c598f
+  - ref: refs/heads/for-linus
+    old: d9a1beeb90438bb09d26d0473eaaa39a157d7c49
     new: e616a916fe8431ebd5eb3cf4ac224d143c57083c
-    log: revlist-cfff2a7794d2-e616a916fe84.txt
-  - ref: refs/heads/asoc-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    log: revlist-d9a1beeb9043-e616a916fe84.txt
+  - ref: refs/heads/for-next
+    old: d9a1beeb90438bb09d26d0473eaaa39a157d7c49
+    new: e616a916fe8431ebd5eb3cf4ac224d143c57083c
+    log: revlist-d9a1beeb9043-e616a916fe84.txt
 
---===============6848628335062850536==
+--===============2792814510648359517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d9a1beeb9043-e616a916fe84.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694444798 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1694444797-bf1f1a8b61efa4dffb474664cf83ef2913fc3652
-
-cfff2a7794d23b03a3ddedd318bf1df1876c598f e616a916fe8431ebd5eb3cf4ac224d143c57083c refs/heads/asoc-6.6
-0000000000000000000000000000000000000000 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/LP4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0BKZB/0Sp5YmRdd9e4Yzas5W1po5LcoDh5OA
-4UlcTvnmHnVBVvyS+T08k4WYlimlsRSbRBd8avxWpNyYp9MgAp4lqfDAzJsd/7tN
-3kjw6xORVEjEy1JXtRmy5jXvTWTZognMWd1u/vWWeyd4CUWZALsDKKMC6w/QzcD8
-6M+yU9BzS7n5kEsVW5Kdu+IzXKK/MUdCMFstrpQo8pNKeJNp34ix0artEzDPGWQB
-2IliHez4l9/R+kgk6R608PrWPwp9Y6wRTr8IcK8l3Pb8fF563V1KE+Pg4bMrAbrL
-ZFE+HYI5f2g6jQDIsO85lVHb17/Nc/26oxQVtF06hNauhMJNE8piPJJq
-=jJdS
------END PGP SIGNATURE-----
-
---===============6848628335062850536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfff2a7794d2-e616a916fe84.txt
-
-1ad1fa820e6424ae75d3d9f59774e40c9c7ec1e5 KVM: s390: interrupt: Fix single-stepping userspace-emulated instructions
 fdbeb55ebdf1d83e610303f7e5c50a4d6904b7fa KVM: s390: interrupt: Fix single-stepping keyless mode exits
 642dbc0312d67781dabf97a70b43810165f21527 KVM: s390: selftests: Add selftest for single-stepping
 5d0545abee3a39e2946e6587475504f3ebab3ae3 Merge remote-tracking branch 'vfio-ap' into next
@@ -977,6 +951,7 @@ fdc04cc2d5fd0bb9c17f36d0a895cf3e151109e6 netfilter: nf_tables: uapi: Describe NF
 744a759492b5c57ff24a6e8aabe47b17ad8ee964 Merge tag 'input-for-v6.6-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 8ec9c1d5d0a5a4744516adb483b97a238892f9d5 PCI: Free released resource after coalescing
 ab41a97474c00ceab1b8f44ac78a51079130466a arm64/sysreg: Fix broken strncpy() -> strscpy() conversion
+cfff2a7794d23b03a3ddedd318bf1df1876c598f ASoC: amd: yc: Fix a non-functional mic on Lenovo 82TL
 7ba2090ca64ea1aa435744884124387db1fac70f Merge tag 'ceph-for-6.6-rc1' of https://github.com/ceph/ceph-client
 081690e941188acfad41b8dbde2112029a2aa206 powercap: intel_rapl: Fix invalid setting of Power Limit 4
 65e710899fd19f435f40268f3a92dfaa11f14470 x86/build: Fix linker fill bytes quirk/incompatibility for ld.lld
@@ -1080,4 +1055,4 @@ d7e47e32192bb88f5b2dc8e655fa587ecf9d71e0 ASoC: wm8960: Fix error handling in pro
 396b907919e028d89bac912e49de014485deb8dc ASoC: soc-pcm: Shrink stack frame for __soc_pcm_hw_params
 e616a916fe8431ebd5eb3cf4ac224d143c57083c Add DMI ID for MSI Bravo 15 B7ED
 
---===============6848628335062850536==--
+--===============2792814510648359517==--
