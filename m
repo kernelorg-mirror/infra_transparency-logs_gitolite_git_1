@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2356529569433172883=="
+Content-Type: multipart/mixed; boundary="===============3346440035133352082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 11 Sep 2023 15:30:54 -0000
-Message-Id: <169444625472.6150.16421005675423544231@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 15:31:28 -0000
+Message-Id: <169444628801.6403.1938210499809250781@gitolite.kernel.org>
 
---===============2356529569433172883==
+--===============3346440035133352082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ac28b1ec6135649b5d78b028e47264cb3ebca5ea
-    new: 5a124b1fd3e6cb15a943f0cdfe96aa8f6d3d2f39
-    log: revlist-ac28b1ec6135-5a124b1fd3e6.txt
+  - ref: refs/heads/dev-queue
+    old: 3b63a1ebcd3d65f2ac10efa5e225cfebd68e4484
+    new: 669570077818086511b2907278ad8157b58522b7
+    log: revlist-3b63a1ebcd3d-669570077818.txt
 
---===============2356529569433172883==
+--===============3346440035133352082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac28b1ec6135-5a124b1fd3e6.txt
+Content-Disposition: attachment; filename=revlist-3b63a1ebcd3d-669570077818.txt
 
 ced33ca07d8d99435ca3320c740ea947843005ca selftests/net: Improve bind_bhash.sh to accommodate predictable network interface names
 e73d1ab6cd7e7190bd891e521d270cd26ad8e40d net: bcmasp: add missing of_node_put
@@ -50,5 +50,13 @@ a7b8d60b37237680009dd0b025fe8c067aba0ee3 r8152: check budget for r8152_poll()
 c821a88bd720b0046433173185fd841a100d44ad kcm: Fix memory leak in error path of kcm_sendmsg()
 e10a35abb3da12b812cfb6fc6137926a0c81e39a net: ethernet: mtk_eth_soc: fix uninitialized variable
 5a124b1fd3e6cb15a943f0cdfe96aa8f6d3d2f39 net: ethernet: mtk_eth_soc: fix pse_port configuration for MT7988
+0a572e810defb14aa097acfb69405930eb2790b4 i40e: fix livelocks in i40e_reset_subtask()
+487d743d669b110095bc3671ac99716ef57f9db3 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+8f7fa4f0e9d8d95eb47d7e033f6916a374fa1f75 i40e: fix 32bit FW gtime wrapping issue
+64220fde681673f46892f3d9762e998b29fd175a iavf: Fix promiscuous mode configuration flow messages
+5b697cca7cbadbb3cda66737dd7518516e5b635b ixgbe: fix timestamp configuration code
+55a9932cd62203e9a3c27f0cbca81976162cddbc igb: clean up in all error paths when enabling SR-IOV
+85309d46f2d6a82635d9d4f7850cd74aee39e52b igc: Fix infinite initialization loop with early XDP redirect
+669570077818086511b2907278ad8157b58522b7 i40e: Fix VF VLAN offloading when port VLAN is configured
 
---===============2356529569433172883==--
+--===============3346440035133352082==--
