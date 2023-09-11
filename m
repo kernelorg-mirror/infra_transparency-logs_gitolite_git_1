@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5555781561516555153=="
+Content-Type: multipart/mixed; boundary="===============1168989912730418364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 11 Sep 2023 11:17:41 -0000
-Message-Id: <169443106198.7082.17614946912519328969@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 11:19:19 -0000
+Message-Id: <169443115919.7830.18233420943063459266@gitolite.kernel.org>
 
---===============5555781561516555153==
+--===============1168989912730418364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/qcom-pinctrl
-    old: 2422f74eb9dc99097c9537c30ef50f88a0b54acb
+  - ref: refs/heads/for-next
+    old: f418e00ab4338216ad6dd9caff7e6e759151b77c
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-2422f74eb9dc-0bb80ecc33a8.txt
+    log: revlist-f418e00ab433-0bb80ecc33a8.txt
 
---===============5555781561516555153==
+--===============1168989912730418364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1694431060 +0200
+pusher krzk@kernel.org 1694431157 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1694431059-d4e872393d70e5a03aea173926df969281d04370
+nonce 1694431156-240367e2ba82077983c7a7c54a1914db0592b8d3
 
-2422f74eb9dc99097c9537c30ef50f88a0b54acb 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/next/qcom-pinctrl
+f418e00ab4338216ad6dd9caff7e6e759151b77c 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+91QQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17tVD/9EWzydBeBAA33FZaF5OBNIJe8QF1KWzOfu
-wttkHSujnWgSKo4RLXAKLzWQB0hEc7d3mnv/s10cKGRFneTmRPsKnX2bJyxDQ6/Z
-H38nb+iEoDxequk0EWhd8wzXjdWKHkOJ16Hd/L/yQt9P21M4PbCTIxCdCLAuxZZo
-xpmQe/nfyJVMCaEcWmd1mKnk/2xu9HvoEku7BeKEPlZa6FD6CiwStHGTlVlwb4mV
-DXXKLxosUp2+bXhCTfFrzF1eO89IYVaEAH16RSCqxnZ8ZgRJ6/T3mR+9AivYDwko
-buO9qTaC5BeRS8nvYMoaANciI8uAUWOM1fwU1Z7BXDPkOH1W4hISvbZaCfydlZ/c
-onf5wRHdZq5LsBeOMtmI2TJMKB+2tG4+VffrCIks0np6gu+u0ULgdW6r0XQWOxuE
-BAeiBBM70Ee8AuS2FjC/bT+pNzVp97iYCjUaco/XLCtBQjR1uqF+TK03cZMSCmAX
-dAdR1NTSwjFwaB0oR09sTd8I39Re+gjwixQzdMOwDHd+9+VnmZw0B8vFpDTp+WQQ
-Ct9VMw7adYW/UZ9z6wK+q1WULr97JFTeMxy5WbQy/ky02hg6rnwTkW9KeZV4hYWe
-BLkvJDdqdxnCuJ9MhGRLROAbKWMnP1mohOXeuTKDXknD2ur/idPe98w4Sj+nSw4J
-pAWkuO0yDQ==
-=2gLp
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+97UQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+8ZD/9dQpiy+mWpUaCwq+Y5J0zL+v/HsiDKhYls
+jnKL7PgIxgJgNVSL2RymDelJ7mIXNfr6Hp2K8NTtia28dcLP8oDmTvb/SNeLnayt
+ckmosP+YqDe6Uv6pTKpJ51YeM02uHHgg5TZ/gX7ggedL4h2yRh0LEVGrBczP1yro
+IfqjJcTA/VsnqRkbiVY/uc7hx0mY9ylKXmm4qAdIHCI+BWh0qbZxdeA5pjvAYMSC
+DgljzP//pbToXUOMPtBdmcgPoF00UnnANsCxHyrmdpg4wvpfEeGnzSj59wUwfK5Q
+JOjA6u8d7hdo5Wo7mqUJDWV4MxbdahCo/sVsGM2dAveGdO+SdOEH3EzI+ijnrcj9
+UGdnLxjTq7o1prj/mtp2HQkQKxjFn+H+aY0hd1tY8yeM9P6Mt9oGjS+rw/U4zKhY
+2RyahT9Al7H8YN9sVALCdBAnCPv8fFEK/qZyUgXOP13K4pV7Kks2t+40lsfMSBTe
+Azn/dQzryF40tx6daWpWEaylYlTEfijYrwXRaZgAOzI1voCXOkaEtjVzOA+fbmZ2
+PyR5NJoWgaDrOnfZia1SMXgdkGHiJt1lQ7AbcPG9LkNAGqGh35czEBFk2NAJuL1K
+rvWj4xmZc9jk/nB6d93ox7D+6NPSVMRxIOilfWml7BGOytcQWFqii/SV79HO0bpH
+81nccMHsIQ==
+=2DYJ
 -----END PGP SIGNATURE-----
 
---===============5555781561516555153==
+--===============1168989912730418364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2422f74eb9dc-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-f418e00ab433-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1082,4 +1082,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============5555781561516555153==--
+--===============1168989912730418364==--
