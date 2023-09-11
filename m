@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 12:51:45 -0000
-Message-Id: <169443670529.15048.13402494750315755078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bristot/linux
+Date: Mon, 11 Sep 2023 12:58:12 -0000
+Message-Id: <169443709274.18900.644662987551525762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bristot/linux
+user: bristot
 changes:
-  - ref: refs/heads/fileOWDFdV
+  - ref: refs/heads/test
     old: 0000000000000000000000000000000000000000
-    new: 6223e073db78458f8846c380ccd224a7a73a3867
+    new: 0e1eec03fb9817aa51b0d7f2afff9f8e10041955
