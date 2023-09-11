@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8854749840051281970=="
+Content-Type: multipart/mixed; boundary="===============9177407287115611137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 11 Sep 2023 09:44:59 -0000
-Message-Id: <169442549931.2521.9581602619601344121@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 09:45:39 -0000
+Message-Id: <169442553936.4474.12814765226730565103@gitolite.kernel.org>
 
---===============8854749840051281970==
+--===============9177407287115611137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,40 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
-  - ref: refs/heads/for-next
-    old: 413f5c02929bb33042bbc4ee233166550a5fca70
-    new: 585b6776f382e898604da0f2bad73ca7792b78f6
-    log: revlist-413f5c02929b-585b6776f382.txt
+  - ref: refs/heads/v6.7/drivers
+    old: 393208ab59a24eb1fc2e81b4c3657e6274338bd5
+    new: 0d423c4a78984dd02f6596d6fd9dd40446eec517
+    log: revlist-393208ab59a2-0d423c4a7898.txt
 
---===============8854749840051281970==
+--===============9177407287115611137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-413f5c02929b-585b6776f382.txt
+Content-Disposition: attachment; filename=revlist-393208ab59a2-0d423c4a7898.txt
 
+19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
+899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
+02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
+8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
+8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
+de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
+b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
+6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
+422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+f1424755db913c5971686537381588261cdfd1ee powerpc/mm/book3s64: Fix build error with SPARSEMEM disabled
+4c33bf147249ebbf3dded016996a8a24c5737254 powerpc/mm/book3s64: Use 256M as the upper limit with coherent device memory attached
+ab574d1629552b6831cd91b926b38092c15d6142 ALSA: usb-audio: Don't try to submit URBs after disconnection
+692f5510159c79bfa312a4e27a15e266232bfb4c Merge tag 'asoc-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+54a3f6e89fbbf12e1e3539a4f977a7536029d780 Merge tag 'nand/for-6.6' into mtd/next
+11b0b802f8e38d48ca74d520028add81263f003e ASoC: codecs: wcd93xx: fix object added to multiple drivers
+8d2a0cdf52299d1f83a7707c5ca6b0c811339aba ASoC: dwc: i2s: Fix unused functions
+d81c203e61780f3635e5eddd03f00d8bdcd7c3df Merge tag 'asoc-fix-v6.5-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+56e65312830ec45e3ccbc929de6f5b86bc301546 devlink: push object register/unregister notifications into separate helpers
+eec1e5ea1d715ce2df8dcdf3dac7112df77a6e17 devlink: push port related code into separate file
+2b4d8bb0888930b4a26cd46ec067753228877488 devlink: push shared buffer related code into separate file
+2475ed158c478c624d8fbc8d639d344a960c1ad8 devlink: move and rename devlink_dpipe_send_and_alloc_skb() helper
 a9fd44b15fc5625ee0a38661e773444f6bf31b3d devlink: push dpipe related code into separate file
 a9f960074ecd9db292744db2491a0cbbd354e24b devlink: push resource related code into separate file
 830c41e1e987d9745a01b06c5f86434df8bd5f58 devlink: push param related code into separate file
@@ -1026,29 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-61373cc074128c40d53857803371c4a9384d4200 arm64: dts: meson: add audio playback to p200
-2b2827a19024abcf879c18053ae3f2fc23891ad4 arm64: dts: meson: add audio playback to p201
-cfae4eadb7cd44cb5f17285e18477bed4ae5f03c arm64: dts: meson: add audio playback to u200
-8a63d22183d0d96d742e34730430cc1f286c7092 arm64: dts: Add watchdog node for Amlogic-T7 SoCs
-dc8bc779feb5e855421215384f23de90a4fcd622 arm64: dts: meson: add IR controller for Meson-S4 SoC
-7124c482dd6f939cd608d97664b04666f7cdaa2a arm64: dts: meson: a1: reorder includes to keep them sorted
-37cc8d01260ee71439ec17fa52bc72f0139d6983 arm64: dts: meson: a1: remove extra empty line before reset node
-bea51840f66df74a454ccb47a23faf826b214347 arm64: dts: meson: a1: remove the unnecessary 'okay' status pwrc value
-90da39d5429d4c65d110e6506c3ed9bf281bb838 arm64: dts: meson: a1: reorder gpio_intc node definition
-af07cc67f1a5c30373971f02f239a34fac626e74 arm64: dts: meson: a1: introduce PLL and Peripherals clk controllers
-d3261b54364858e9b410cdf0b9016abfaacd380a arm64: dts: meson: a1: support USB controller in OTG mode
-28b2f803401b759dd84e2c067a3b7022347b30b1 arm64: dts: meson: a1: enable efuse controller and setup its clk
-8a398729c9b3de40cd820169f3eb09f0a005ec16 arm64: dts: meson: a1: introduce SPI Flash Controller
-dba516fa1981250ab2e27535926532564f658bb1 arm64: dts: meson: a1: introduce UART_AO mux definitions
-4d860a98bcf39e946e3419f3d42120374590080f arm64: dts: meson: a1: add eMMC controller and its pins
-92a24ceb69dd88bfe11177eb6e4a39f433a569e0 arm64: dts: meson: a1: add saradc definition
-2466460a9c431fdc0fbe33b7f118bb20dd77e2e7 arm64: dts: meson: a1: add hw rng node
-4cc74a6ba19e83c3d4e16a51de7533d25ed2a00c arm64: dts: meson: a1: add ao secure node
-f031c3739081f92bbf841064e4547900c5c98d97 arm64: dts: introduce Amlogic AD402 reference board based on A113L SoC
-ec5e354f5d6755bcfd014c974aff11a024999c67 dt-bindings: arm: amlogic: add Amlogic AD402 bindings
-7ca2ef33179f4e1887727c1b5fac39721db8050e arm64: dts: amlogic: meson-axg: Meson NAND node
-c92997482e70c67ce7b9b32344fe85c4b0cb701d arm64: dts: meson-g12: Fix clock order for amlogic,axg-tdm-iface devices
-a42b8f639298c57f119c6d5f55a0c0c87259096a arm64: dts: meson-g12: Fix compatible for amlogic,g12a-tdmin
-585b6776f382e898604da0f2bad73ca7792b78f6 Merge branch 'v6.7/arm64-dt' into for-next
+0d423c4a78984dd02f6596d6fd9dd40446eec517 drivers: meson: sm: correct meson_sm_* API retval handling
 
---===============8854749840051281970==--
+--===============9177407287115611137==--
