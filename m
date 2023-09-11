@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6249859405184966457=="
+Content-Type: multipart/mixed; boundary="===============1713503621043208149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 11 Sep 2023 04:02:46 -0000
-Message-Id: <169440496649.21042.14159436120721134518@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 04:02:55 -0000
+Message-Id: <169440497522.21147.3571097333986695622@gitolite.kernel.org>
 
---===============6249859405184966457==
+--===============1713503621043208149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 0820debb7d489e9eb1f68b7bb69e6ae210699b3f
+  - ref: refs/heads/for-firmware-kernelci
+    old: 0979e7e3cfd7b479c34dc0f7217beb0c30f8028a
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-0820debb7d48-0bb80ecc33a8.txt
-  - ref: refs/heads/for-next
-    old: 0820debb7d489e9eb1f68b7bb69e6ae210699b3f
+    log: revlist-0979e7e3cfd7-0bb80ecc33a8.txt
+  - ref: refs/heads/for-firmware-next
+    old: 0979e7e3cfd7b479c34dc0f7217beb0c30f8028a
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-0820debb7d48-0bb80ecc33a8.txt
+    log: revlist-0979e7e3cfd7-0bb80ecc33a8.txt
 
---===============6249859405184966457==
+--===============1713503621043208149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0820debb7d48-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-0979e7e3cfd7-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1055,4 +1055,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============6249859405184966457==--
+--===============1713503621043208149==--
