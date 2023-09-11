@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 19:32:13 -0000
-Message-Id: <169446073395.11998.3062295278034952610@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 19:32:29 -0000
+Message-Id: <169446074959.12166.11683115083306869356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/mfd-wcd934x-maple
-    old: a93ce1c37698e6446457f6217c6b35e0b855c220
-    new: bee1ef19c93d943a44a78295d3197064d00d2dfe
+  - ref: refs/heads/thermal-sun8i-registration
+    old: a0e9c2b5896962f863730aba38a9cb3bce6597e0
+    new: 99846b06986c4742c6b0b47a35441e12a8233daf
     log: |
-         6042a343fc4f5dff15e01effb55a28d8c7a74a82 # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
-         bee1ef19c93d943a44a78295d3197064d00d2dfe mfd: wcd934x: Update to use maple tree register cache
+         d216644df5ca5413007ca6e795dfb6549a9bc8db ignored header
+         99846b06986c4742c6b0b47a35441e12a8233daf thermal/drivers/sun8i: Don't fail probe due to zone registration failure
          
