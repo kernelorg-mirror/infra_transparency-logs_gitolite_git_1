@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0399346912487496715=="
+Content-Type: multipart/mixed; boundary="===============5621244166602549046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 11 Sep 2023 11:17:05 -0000
-Message-Id: <169443102563.6115.6329659871657285267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 11 Sep 2023 11:17:10 -0000
+Message-Id: <169443103055.6224.6426145386996086840@gitolite.kernel.org>
 
---===============0399346912487496715==
+--===============5621244166602549046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
+  - ref: refs/heads/for-next
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-06c2afb862f9-0bb80ecc33a8.txt
 
---===============0399346912487496715==
+--===============5621244166602549046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1694431024 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1694431023-95deaefbcdd1aca5c13ebfc50a1fa922038dd892
+pusher krzk@kernel.org 1694431028 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1694431028-71ee74be03abe837adf79cca0200720c2c3f79ee
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/pinctrl-next
+06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+9zAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10fWD/9POAQYFyk6yBvDJ/HrOTAcmQlxgoDXFYQ3
-GK4HNUQPENSjSum6abNr/KkkQ8326FZ4pqXyk26rOKz6NxXeQu02+aPRCqox1HLL
-KZoFhfEPRZx2BLd37SwOUsj20MkoPvoqe5IAkIml5AzsdXejC/+3o53jAKTdV+DV
-E+q2sq5WZLHlNP5IElmTnPt/wdYOUT69Ej0lZv6g7m18dEK4tYNfdJ9cN5qX5tcE
-3yDd4ojeB6xKlpGrCBSBL6C6HZbHGAycT4hPL23RWpX5ME0BLmtJjlKYSK6CXELX
-s8tPfMizVWUuUzY/1vRhA2zDmqb573+v89FITojZ5aJzAQswipt07ilAfU3xZFba
-vvui9wFBhgR8CUDMDM3rbzsWT/o2N31BnI0QXqduOHpaylQUsu0IZ6TBqXqLDLod
-uJuVJrGQyLeB7Nfj4JMR/eZb/yD9844Zrqohq2u62oArCjmrftuUdEPAdXApbmmw
-KBtJc6eFZLPHABuPEl1/pb9VDO9oUf6vAnp0kY96dFYEjG+KuJRth+wBJYnXsXcA
-ceA90KH8Z+kAG0dmninViZRhCDHoaD4B4R/fI30u5aGSJWuwS+etGHkhBz/PsN58
-gd/bHFFrwcVpTSGEkXUjH/bIuau/PbYmnkM3ngkY9XRNZo5+2WYCGYQc5LJ0a/5M
-mEXY9jFGug==
-=/SJL
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+9zQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD172vD/4gZWzYRed+BaH7mdXW2OewHlFGFBExP91l
+OA1cl/ywzD6XHk71dVB6MTQayQN+YlWyvfKGhK09TCys0DooGdvlATjOzuIjTnN9
+onsARS6jqDScNOPOArTFhNt8kOhLqWaaUHrCntkXLHiS06dj1jOmdTrLXIcIiSQO
+/LQVjBHMX3woOYYKMAiBgBjfb5vTAbRX90PTnW85Jck9dwP25MzSpDj8xbRuCTQt
+/EJKxOczVdPoSnBVBYQXI5NUfPhFTjXY9jKHr0zmQvvh/d34+LPv29qCMv1kzGiH
+DTls1IVQNYldpBEpMHa+ui2gi3EL1uKnEQpYikWupXMby7R3hXBEqi/uox8J7FRL
+Tz+u1t+WPt/apAqKzybCvEoBgO7OExKEzrOzHiM6xVOfZ9QLR3w6ZyWWwWsjCLDN
+C/iB2nE7ndiRZAm+PDIz7E1a+6p+TwoEp36A2G8vR10iGRNt6bOn9RsTF5krRf2c
+sYGSKMdCsdtzoDO6ZtgLYm7aHaTQqWMd5RwOQTQIGfEZx4OAdyPKMN2aKWjKfP8n
+KXHYRDnlhtryS5XjzxDeHlLjsA5o9eU0BKa8/idgiLqRSH0VFxO9In/eHfqVp+jI
+B40VYBZMfzOIoIY3Yb+GBoalqirwwTG5kbvUTr/CQq58dSmNO1kYzFzAKcX0xffg
++ACPPyFoqQ==
+=7HtU
 -----END PGP SIGNATURE-----
 
---===============0399346912487496715==
+--===============5621244166602549046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============0399346912487496715==--
+--===============5621244166602549046==--
