@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 11 Sep 2023 19:53:29 -0000
-Message-Id: <169446200938.28377.4080339813313703002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
+Date: Mon, 11 Sep 2023 19:56:43 -0000
+Message-Id: <169446220336.31205.2948818865444635021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/misc
+user: pabeni
 changes:
-  - ref: refs/heads/kdevops
-    old: 862cbc694d8caa4330f45d723b2bd568ea514543
-    new: 9a7e618d0e24368af4013ad6cb974bf2f8bb1477
+  - ref: refs/heads/main
+    old: fd1f7f3ccb911ec882fc2c1fca3dbdab922973a6
+    new: a453c8d64d5f1c7b40e71d978c15860e0e4f24d8
     log: |
-         9a7e618d0e24368af4013ad6cb974bf2f8bb1477 fs: add a new SB_I_NOUMASK flag
+         a453c8d64d5f1c7b40e71d978c15860e0e4f24d8 web: net-next is open (for v6.7-next)
          
