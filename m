@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7883181571219186161=="
+Content-Type: multipart/mixed; boundary="===============5494503805967595436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 11 Sep 2023 07:02:48 -0000
-Message-Id: <169441576816.26720.12241554608771563920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 11 Sep 2023 07:03:27 -0000
+Message-Id: <169441580720.27006.8954551098453373221@gitolite.kernel.org>
 
---===============7883181571219186161==
+--===============5494503805967595436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-2dde18cd1d8f-0bb80ecc33a8.txt
 
---===============7883181571219186161==
+--===============5494503805967595436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============7883181571219186161==--
+--===============5494503805967595436==--
