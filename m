@@ -1,26 +1,64 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 11 Sep 2023 11:29:29 -0000
-Message-Id: <169443176976.14866.16814846771822949668@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3712930593943999666=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 11 Sep 2023 11:32:59 -0000
+Message-Id: <169443197986.17821.10911352475643327420@gitolite.kernel.org>
+
+--===============3712930593943999666==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/platform-drivers-x86-android-tablets
-    old: 17345ec18e21d3b0914ca194bd38f4b34d80435b
-    new: 9578db7939fcfa0bdfa6ab767fd0386adf2302eb
+  - ref: refs/heads/next/defconfig
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: 471eed5ad217fc8e83089e708d5cf5a1d0b205f7
     log: |
-         5fb36a8c87d9e99a88d6e9128f1f9ec62f8545f1 gpiolib: acpi: Check if a GPIO is listed in ignore_interrupt earlier
-         6cc64f6173751d212c9833bde39e856b4f585a3e gpiolib: acpi: Add a ignore interrupt quirk for Peaq C1010
-         1fc95b025f1873ea701655d30c5b8bb9f97d7d28 platform/x86: x86-android-tablets: Remove invalid_aei_gpiochip from Peaq C1010
-         56e1f53b58fd13e642a9665eb014860f31f5fc1d platform/x86: x86-android-tablets: Remove invalid_aei_gpiochip support
-         8b57d33a6fdbb53d03da762b31e65a1027f74caf platform/x86: x86-android-tablets: Create a platform_device from module_init()
-         4014ae236b1d490f5db798d159a03470aec71a40 platform/x86: x86-android-tablets: Stop using gpiolib private APIs
-         61226c1cfaf87d8ace76148f6fea42e3d1989373 platform/x86: x86-android-tablets: Use platform-device as gpio-keys parent
-         9578db7939fcfa0bdfa6ab767fd0386adf2302eb platform/x86: x86-android-tablets: Drop "linux,power-supply-name" from lenovo_yt3_bq25892_0_props[]
+         471eed5ad217fc8e83089e708d5cf5a1d0b205f7 arm64: defconfig: enable syscon-poweroff driver
          
+  - ref: refs/heads/next/dt64
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: f2951ee8f7bcdb3844ffe6e54b0601ad8fa58640
+    log: |
+         2f911ca41e519dc5986f9483d3e15df4802b64f5 arm64: dts: exynos: Enable USB in Exynos850
+         f2951ee8f7bcdb3844ffe6e54b0601ad8fa58640 arm64: dts: exynos: Enable USB support on E850-96 board
+         
+
+--===============3712930593943999666==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1694431978 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1694431977-3f4abe45c4c92bfd17564d2d27deef9f7e0a5d05
+
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d 471eed5ad217fc8e83089e708d5cf5a1d0b205f7 refs/heads/next/defconfig
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d f2951ee8f7bcdb3844ffe6e54b0601ad8fa58640 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT++uoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yx+D/9apTEfsKnf++OYSGpyaWKtxqXEaRTDQJvq
+5e468h6wGPcvEcF9EFWlk0TANNvWdM0vzY58duHuw0G9hMSesu5BIKhM/wNVrNty
+izJksJfHriDc6sT33LVtpiCXzlu/1xJf+cxoUpL3Dmq/AYNvV7R7jYT4wPMB19lY
+jlmrd6itpH53iGw8FidMwGPm5Dloa+bPYW6IWa6vzjY++QCY5TC2ZW8hMgfvPXrO
+n4/dkv+xLRFc5wEyCozvmFspmeHK2zCaGHR0WGi16Rpug3+MetIuL2tip99me7aO
+3Te2dDH0SixPJAKBy2VrIXDX4C4aBV5r71WFcbbWeQ+Qw3gUP/b03vl2V3RYREWV
+aUzLOH6tlR/B/HjpqkP/J5N1aP5R/rr+GCKi8HMyESRcNb010J9FNMM1PsKF2YG8
+r/aLDEwMmSYnhDsOquaWrLl8o9bOrT2dZUMJnfeC0WNiyc59LXOf9rc5cFykKMVW
+3/P6JYtze7NJWCdtXX+N+rylhQ8oLZOSG3dwJJC4Rd91GA5VJpozEH1uvbfa/8Jj
+8Yr/H9yL3FEOch5en2f0Zg1tre1TMVynYTFzDlsf44bTuB+Ab9iemIJNdlIhQMB8
+zK+OqPcGlANhgJuZ5J6U93Y0CN1upW3EpnV6y+1Znpver9WjKo/3Dxt+kuV8Qjf4
+T8ePT1gRjw==
+=DXoM
+-----END PGP SIGNATURE-----
+
+--===============3712930593943999666==--
