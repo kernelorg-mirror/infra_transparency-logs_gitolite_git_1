@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5114973687329429369=="
+Content-Type: multipart/mixed; boundary="===============5705004923355006631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Mon, 11 Sep 2023 10:53:56 -0000
-Message-Id: <169442963699.20185.4336379600533414051@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 10:54:01 -0000
+Message-Id: <169442964110.20301.16590431046603404139@gitolite.kernel.org>
 
---===============5114973687329429369==
+--===============5705004923355006631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-06c2afb862f9-0bb80ecc33a8.txt
 
---===============5114973687329429369==
+--===============5705004923355006631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============5114973687329429369==--
+--===============5705004923355006631==--
