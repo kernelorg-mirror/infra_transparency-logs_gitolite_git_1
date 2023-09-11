@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 11 Sep 2023 00:37:02 -0000
-Message-Id: <169439262235.30208.4746694177631343800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 11 Sep 2023 00:37:45 -0000
+Message-Id: <169439266586.31662.10955237430581886397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 8cdee5d0d62c5fd6163e882bd4c239b32a57b0bb
-    new: f41e61d0ed4b1d97293e9dada15372113dad1a3e
+  - ref: refs/heads/imx8mp-audio-dt
+    old: 3b576e66a7c406147ef4ed6e0b967449538a595b
+    new: 756d651925b85697bed8f242109e92c899e9d2cf
     log: |
-         f41e61d0ed4b1d97293e9dada15372113dad1a3e foo
+         ee84bab36810c0c4c9fa5b187957f6a182b843f4 ASoC: dt-bindings: fsl_easrc: Add support for imx8mp-easrc
+         d73afa19f610c2e06a41f8f7e31dd757121eb036 arm64: dts: imx8mp: Add easrc node
+         756d651925b85697bed8f242109e92c899e9d2cf arm64: dts: imx8mp: Add micfil node
          
