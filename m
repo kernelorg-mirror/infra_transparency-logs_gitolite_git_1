@@ -1,35 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5244523776983449873=="
+Content-Type: multipart/mixed; boundary="===============5997459489986323163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 11 Sep 2023 12:25:17 -0000
-Message-Id: <169443511785.28621.8585068482338812264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Mon, 11 Sep 2023 12:25:32 -0000
+Message-Id: <169443513205.28776.15689082005284767314@gitolite.kernel.org>
 
---===============5244523776983449873==
+--===============5997459489986323163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/next
-    old: 98ac9e4fc07f101c435f1ab6b395b6245b096a68
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-98ac9e4fc07f-0bb80ecc33a8.txt
-  - ref: refs/tags/v6.6-rc1
+  - ref: refs/heads/renesas-clk
+    old: 708cb698ffa219567dd5837aefae7a99fbb28b77
+    new: f3ea14c6a243d927c172caf123e9d2ce803fdafc
+    log: revlist-708cb698ffa2-f3ea14c6a243.txt
+  - ref: refs/heads/renesas-pinctrl-for-v6.7
     old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+    new: 21c11421db1fdd5ed7c8ea7048178b365185cd3a
 
---===============5244523776983449873==
+--===============5997459489986323163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98ac9e4fc07f-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-708cb698ffa2-f3ea14c6a243.txt
 
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
@@ -1053,5 +1052,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+f3ea14c6a243d927c172caf123e9d2ce803fdafc clk: renesas: r9a06g032: Use for_each_compatible_node()
 
---===============5244523776983449873==--
+--===============5997459489986323163==--
