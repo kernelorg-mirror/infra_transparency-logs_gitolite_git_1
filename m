@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
-Date: Mon, 11 Sep 2023 19:56:43 -0000
-Message-Id: <169446220336.31205.2948818865444635021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 11 Sep 2023 20:05:26 -0000
+Message-Id: <169446272667.5286.8958340376995068257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/misc
-user: pabeni
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: fd1f7f3ccb911ec882fc2c1fca3dbdab922973a6
-    new: a453c8d64d5f1c7b40e71d978c15860e0e4f24d8
+    old: 0c20b0c917c4fa67ffac5abfd6deab8a2fc78938
+    new: 7dfa3949d38d154766ac30c3ba85e2e2003800ed
     log: |
-         a453c8d64d5f1c7b40e71d978c15860e0e4f24d8 web: net-next is open (for v6.7-next)
+         7dfa3949d38d154766ac30c3ba85e2e2003800ed lsm: add a LSM specific README.md and SECURITY.md
          
