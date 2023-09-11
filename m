@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6844670252967832216=="
+Content-Type: multipart/mixed; boundary="===============4475156257942979904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 00:38:12 -0000
-Message-Id: <169439269210.31927.12435969222505608583@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 00:38:31 -0000
+Message-Id: <169439271191.32154.12395542912599465374@gitolite.kernel.org>
 
---===============6844670252967832216==
+--===============4475156257942979904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/mfd-wcd934x-maple
-    old: 8dbbb58d369a3af6b26737589a4104260f83683e
-    new: a93ce1c37698e6446457f6217c6b35e0b855c220
-    log: revlist-8dbbb58d369a-a93ce1c37698.txt
+  - ref: refs/heads/thermal-sun8i-registration
+    old: 6f9bf123ed6e7b2a6fe054ba7f528d7b8b74f243
+    new: a0e9c2b5896962f863730aba38a9cb3bce6597e0
+    log: revlist-6f9bf123ed6e-a0e9c2b58969.txt
 
---===============6844670252967832216==
+--===============4475156257942979904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dbbb58d369a-a93ce1c37698.txt
+Content-Disposition: attachment; filename=revlist-6f9bf123ed6e-a0e9c2b58969.txt
 
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
@@ -1048,7 +1048,7 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-9c697cec9381a8eff3bc1b0f5aeb3deb4c5dd08c # Lines starting with # will be removed from the cover letter. You can # use them to add notes or reminders to yourself. If you want to use # markdown headers in your cover letter, start the line with ">#".
-a93ce1c37698e6446457f6217c6b35e0b855c220 mfd: wcd934x: Update to use maple tree register cache
+96f275a8cd730c0ed4637c43dd7ce1bed5ae0b85 ignored header
+a0e9c2b5896962f863730aba38a9cb3bce6597e0 thermal/drivers/sun8i: Don't fail probe due to zone registration failure
 
---===============6844670252967832216==--
+--===============4475156257942979904==--
