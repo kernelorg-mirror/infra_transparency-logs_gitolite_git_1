@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0993977453354849515=="
+Content-Type: multipart/mixed; boundary="===============7916493604264347956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 11 Sep 2023 09:34:15 -0000
-Message-Id: <169442485599.12077.13243162711960434766@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 09:34:21 -0000
+Message-Id: <169442486169.12179.16825294120472077105@gitolite.kernel.org>
 
---===============0993977453354849515==
+--===============7916493604264347956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: c74a13e1369e69ce7cdbe440269e3f03cb8c94ff
-    new: c3638b851bc1ca0022dca9d6ca4beaa6ef03a216
-    log: revlist-c74a13e1369e-c3638b851bc1.txt
+  - ref: refs/heads/for-next/vexpress/fixes
+    old: 268670c4c69d35226b1bc6412cf21f72b7fbe0d3
+    new: 2326b2f5bfe9d711e7bcf3f7436735bade3beaff
+    log: revlist-268670c4c69d-2326b2f5bfe9.txt
 
---===============0993977453354849515==
+--===============7916493604264347956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c74a13e1369e-c3638b851bc1.txt
+Content-Disposition: attachment; filename=revlist-268670c4c69d-2326b2f5bfe9.txt
 
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
@@ -1049,6 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-c3638b851bc1ca0022dca9d6ca4beaa6ef03a216 firmware: arm_scmi: Fixup perf power-cost/microwatt support
+2326b2f5bfe9d711e7bcf3f7436735bade3beaff power: vexpress: Fix -Wvoid-pointer-to-enum-cast warning
 
---===============0993977453354849515==--
+--===============7916493604264347956==--
