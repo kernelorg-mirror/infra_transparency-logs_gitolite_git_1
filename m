@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1524388454853979504=="
+Content-Type: multipart/mixed; boundary="===============7942322243687668062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 11 Sep 2023 11:16:59 -0000
-Message-Id: <169443101910.5958.5934111290154627062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 11 Sep 2023 11:17:04 -0000
+Message-Id: <169443102474.6046.1866395026431877265@gitolite.kernel.org>
 
---===============1524388454853979504==
+--===============7942322243687668062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/fixes
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-06c2afb862f9-0bb80ecc33a8.txt
 
---===============1524388454853979504==
+--===============7942322243687668062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1694431017 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1694431016-cd8b68ee2d33070aa1ddf93cc114f399a14cb928
+pusher krzk@kernel.org 1694431023 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1694431022-bf141defcab07aebaae60803971cbf3e3c2a3205
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/for-next
+06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+9ykQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16+RD/9Myaq03wqLS89mIXPe6bB6wjdwX3efEHx/
-CwKthfi97seoWy5osHN2IcToe4NRerMBhtqNtAswx2Drmcl3gDSGXqQMcZD6QYjJ
-BoXIOoCkg8OGu/T+Pr6NWOzIHDdmfm7mHvVKBGKzkuVABYyXPfBMzpneklvxg9io
-XTqXkk+fMJjdomYU29XZF0hec/BJwXByZ3q+O/etUlfnlGDUTuKcgh5pmcLkV6ih
-8s23Wcg75t1cWnWCHtKOiF1x2F5BL67JJjqO6vYD7khXJAf3pJJCHdxxn52I2jyu
-xcWx8GQMacw+yJeBSr899FJGGc1p07Od07sWSIpcQTpKhRPCH4WaypSoO8OaAEBB
-n2mKNxDWzfKHGe4yc+vPbDXI29HzylQmnzLgacRSrJIzhqIAsNUed0Dej6XrtsLr
-BLQDWZA3mZxvluQZ3SM8AugjeTsalnCv/ywE5cDg5gWItbkElf1ajSF5L0qqzbJj
-ebrIo38REr2HJa+KHGg/Xx1Ovy0TetNGi4JVLpfnwkcIM3fTnJrxbnTeIbIVjt0O
-O5uJ3MOOdWbwNrBvcw0et07//ihrXNFXx8ejOsZzqE3FXeeXxpf/YM9jGb9vot0d
-aLeFdw7YGily9nTIAUX9qqriUhXvZNRoH7wShv52I0xH1hn296QIDq70tVdHXDZY
-PrBs53fTyQ==
-=jrMY
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+9y8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17xgD/9pm9hcIoQy4h/Y3/ErJf0uPjkDRWVICRBZ
+coy9Que3Hox0S8ZShsxX5mD9TenuKLmD6BE3Itl9IUCy+iZvHFGsCUoAkfXwjRoJ
+Rl13cEa+zqiFvwScgw1fmJtOP+Mb5rpsmI45Rfhq5FtVMdwEcwz+cR6FZwvPPMrt
+j7oXy6y6jnpGR9PAfuGWnFovdQjxugyAEprlhhpBtrFXqjptI3h8ZAjZAPGLMPbi
+0LRCcYS0rH8B2HY7hn/IacBHc+RZJKqIEh0ozsZJki5DvLI90iVSjOgFmasR50qp
+PY9UTsELHR5cWr+42AcDZoNrNOVw5kotaV6j+xHTwdfG3M8Us/caS7dLW9JTMQLs
+SZo/KwNbvF+WD8KqLxvPTjkHnp/7Qq/kL1ETfuZP0+eiyKfqfFkeTOic/jmlK4fK
+iF8/VirjcMsDd6ghrPWwh3P9RLv6KqZE/bgEpRMoJGDOkXjrYb8pa5Jp8hhePgrb
+Q/AC/7KI9GxsakBlJuWPyAt5QeXRYV9+0ydWmhD3HwljpHMRStW3rfQpvUhvO8U5
+1s/hoE/01Sag5bVR8EZQMixchg2bIciJSQr/zY1Q3HN0O3I1/BIYfJ4FgYxL1Ol5
+FCYOSO3yEUwCo2jYAYUrchM3K3ft8kFBAqzvT5HRbas8vNZaecHyrUh4AAYQ2DQY
+mojLrZcZPg==
+=MSOR
 -----END PGP SIGNATURE-----
 
---===============1524388454853979504==
+--===============7942322243687668062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============1524388454853979504==--
+--===============7942322243687668062==--
