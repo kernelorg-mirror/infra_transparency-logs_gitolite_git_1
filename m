@@ -1,31 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============4341953457966211939=="
+Content-Type: multipart/mixed; boundary="===============1004669907329290703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 18:01:42 -0000
-Message-Id: <169445530288.6929.13767228112452354426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 11 Sep 2023 18:02:24 -0000
+Message-Id: <169445534486.8416.12385287045541275636@gitolite.kernel.org>
 
---===============4341953457966211939==
+--===============1004669907329290703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.6
-    old: b96c22476ff4bc3459933f87ba52cbb7910ffc6b
-    new: 6223e073db78458f8846c380ccd224a7a73a3867
-    log: revlist-b96c22476ff4-6223e073db78.txt
+  - ref: refs/heads/for-6.6
+    old: 5d481ddb6a731281238b6a064c719a91f0234b0c
+    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    log: revlist-5d481ddb6a73-0bb80ecc33a8.txt
+  - ref: refs/heads/for-6.7
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: d3601857e14de6369f00ae19564f1d817d175d19
+    log: |
+         d3601857e14de6369f00ae19564f1d817d175d19 regmap: debugfs: Fix a erroneous check after snprintf()
+         
 
---===============4341953457966211939==
+--===============1004669907329290703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b96c22476ff4-6223e073db78.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1694455343 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1694455342-ab4a2529005b469ce6947026aec0f26c4a216df8
+
+5d481ddb6a731281238b6a064c719a91f0234b0c 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/for-6.6
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d d3601857e14de6369f00ae19564f1d817d175d19 refs/heads/for-6.7
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/Vi8THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0GMOB/9/dZnB8MR0YMtsMOGCQFVwXD8/76Y7
+uSGD++r/SYRF0fVjU4f/tRmdD/qauKjrf90rFHDnWKg28jMRCVKYniGY5q7BLfDR
+AqHtN8zQrl7DkUpVlwhY6ubx8L31/w/jwM2X38+2dWmKBTQSd2+50O1CWljBopSe
+vOWVXMUpwlPD89ozZB7x3idYtjaf0kT1YWUOYpRfefu9ELYD3GnzNJ/b5nqbllAx
+upx+FD5WQeqjEkPXEIGNfu1CPDLxFfSWdvjmRHXg4wTSoVJ7zLC0eWVt0kVyzLzF
+xclUk+m+lEa/RTkmaM3ctmn7D/AbmZxUhdIM3W1g7+ltJBNYhajuByDu
+=qBAh
+-----END PGP SIGNATURE-----
+
+--===============1004669907329290703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5d481ddb6a73-0bb80ecc33a8.txt
+
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
@@ -1049,6 +1082,5 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-6223e073db78458f8846c380ccd224a7a73a3867 regulator: Fix voltage range selection
 
---===============4341953457966211939==--
+--===============1004669907329290703==--
