@@ -1,27 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 11 Sep 2023 09:08:05 -0000
-Message-Id: <169442328570.26090.10453508247942540129@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4085560654295824681=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 11 Sep 2023 09:17:27 -0000
+Message-Id: <169442384709.460.675532682043907363@gitolite.kernel.org>
+
+--===============4085560654295824681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 5c87a7c2e75d5c77f931fb7d06cbb071d76ce10e
-    new: 016bea5a65610853e9670e14cf411ffa92046aed
-    log: |
-         618a88b51e8fd3489033517db9987a6231a8f1fe tests: (test_mkfds) monitor stdin by default
-         0fec4965f6c0f95b56df8ae67a77a1bdc4dda8a1 tests: (lsfd) avoid race conditions (part 1)
-         c699c6e6925999f936acabaf493e80b85fd14558 tests: (lsfd::mkfds-unix-dgram) don't depend on the number of whitespaces in the output
-         0bb1e4fbb10444d5ec8a207d1b930383fb1b9c86 tests: make ts_skip_capability accepts the output of older version of getpcaps
-         637646d27c37a27890db586ad18ca84bb08cfd23 tests: (lsfd::column-xmode) do rm -f the file for testing before making it
-         a5882d40dca60c05848d9228b600d078780795f1 tests: (lsfd::filter-floating-point-nums) use --raw output to make the case more robust
-         03aecb0901cb9993a80c54f0a8ac82d88a92b38c add missing lsclocks to .gitignore
-         10b53107b9ab03a96557a375d4e5920abb1cbb12 Merge branch 'gitignore-lsclocks' of https://github.com/bcarnes/util-linux
-         016bea5a65610853e9670e14cf411ffa92046aed Merge branch 'lsfd--fix-the-way-to-stop-mkfds-1' of https://github.com/masatake/util-linux
-         
+  - ref: refs/heads/gpio/for-next
+    old: 52cad1fe82a3af8f445510de41209ab50ec85ac7
+    new: b32415652a4d250c51c1f1cc59a02c58e7141417
+    log: revlist-52cad1fe82a3-b32415652a4d.txt
+
+--===============4085560654295824681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-52cad1fe82a3-b32415652a4d.txt
+
+8d5e2db297d1430ec8efbdf6bff53cc52ef11f52 gpio: mockup: fix kerneldoc
+ce9bcbc23ba6c30d783f3d22a0503c0b880406cf gpio: mockup: remove unused field
+9790222d2881b98a6301d0fc8b0db0afad64ba3e gpio: mockup: deprecate the old testing module
+33f909fdd151affe93941d4433b9ca62c3a1a8c5 gpio: mockup: simplify code by using cleanup helpers
+ed9e8d136f6d3d3265ee91bebf6fc934d5ba5a96 gpio: mockup: don't access internal GPIOLIB structures
+f42dafe3da0cd887c9d2aaa59576f2a92ee4d876 gpiolib: unexport gpiod_set_transitory()
+7e12c495a36c3f7bf265db80238f89a72171f381 gpio: of: correct notifier return codes
+8de54392b849a612f337044d81d9859ee95ab871 gpiolib: remove stray newline in gpio/driver.h
+37d42ab3924919652858f836a80ab49ec7d11f1e gpiolib: remove unnecessary extern specifiers from the driver header
+f8681c23678528e4eb79d86be7a6fb59bb26a274 gpio: xgene-sb: don't include gpiolib.h
+ee27ed13dc9eb70e3f1cda6640ff996020a7c14d gpio: dwapb: don't include gpiolib.h
+f4e840238c4c956fec196894d3d853f4e5abe509 gpio: mb86s7x: don't include gpiolib.h
+b32415652a4d250c51c1f1cc59a02c58e7141417 gpio: eic-sprd: use atomic notifiers to notify all chips about irqs
+
+--===============4085560654295824681==--
