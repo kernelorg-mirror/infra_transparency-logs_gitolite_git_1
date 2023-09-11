@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4683030375540895044=="
+Content-Type: multipart/mixed; boundary="===============5375748635154593042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 11 Sep 2023 00:23:40 -0000
-Message-Id: <169439182029.19335.15909117821352621774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Sep 2023 00:23:49 -0000
+Message-Id: <169439182995.19489.12256966186915793531@gitolite.kernel.org>
 
---===============4683030375540895044==
+--===============5375748635154593042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/spi-6.6
     old: 578464679f33cde8331507c78f7b302299df7783
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-578464679f33-0bb80ecc33a8.txt
 
---===============4683030375540895044==
+--===============5375748635154593042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============4683030375540895044==--
+--===============5375748635154593042==--
