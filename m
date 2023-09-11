@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 11 Sep 2023 19:48:48 -0000
-Message-Id: <169446172836.24828.12803444549341671598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 11 Sep 2023 19:50:03 -0000
+Message-Id: <169446180353.26959.3234583407229723458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 7182e56411b9a8b76797ed7b6095fc84be76dfb0
-    new: 9458964a6da621873a92f7cf03242c020799ecd3
+  - ref: refs/heads/io_uring-mshot-read
+    old: 78ffd0a8da0be81aa6d1f30c7fb16aa3074415fb
+    new: ea6b8257197fa730f4c526dd498f09c322532070
     log: |
-         d52b59315bf5e86e83c00bfae47cedd388dad6a8 bpf: Adjust size_index according to the value of KMALLOC_MIN_SIZE
-         b1d53958b69312e43c118d4093d8f93d3f6f80af bpf: Don't prefill for unused bpf_mem_cache
-         c930472552022bd09aab3cd946ba3f243070d5c7 bpf: Ensure unit_size is matched with slab cache object size
-         f0a42ab5890f749626b35f9fddd8d0704fc89524 selftests/bpf: Test all valid alloc sizes for bpf mem allocator
-         9458964a6da621873a92f7cf03242c020799ecd3 Merge branch 'fix-the-unmatched-unit_size-of-bpf_mem_cache'
+         c707be99002e254da824d97aba69888eec5a5013 io_uring/rw: split io_read() into a helper
+         5d95222f0baff82a3c7e57d1690971b33f0dd4a0 io_uring/rw: don't gate whether we can poll on opcode type
+         ea6b8257197fa730f4c526dd498f09c322532070 io_uring/rw: add support for IORING_OP_READ_MULTISHOT
          
