@@ -1,31 +1,115 @@
-Content-Type: multipart/mixed; boundary="===============8821957679210887307=="
+Content-Type: multipart/mixed; boundary="===============5380203482938597758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 11 Sep 2023 17:14:32 -0000
-Message-Id: <169445247208.17265.12411020130629516055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 11 Sep 2023 17:30:22 -0000
+Message-Id: <169445342255.29165.2002950416411819422@gitolite.kernel.org>
 
---===============8821957679210887307==
+--===============5380203482938597758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/nfsd4-encoder-overhaul
-    old: a27935803f87870b8466831c2b9a49e47541d1bb
-    new: 733b61dfbc0f2436d3d0c35c4cd65a358999e94a
-    log: revlist-a27935803f87-733b61dfbc0f.txt
+  - ref: refs/heads/nolibc
+    old: 556fb7131e03b0283672fb40f6dc2d151752aaa7
+    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    log: revlist-556fb7131e03-0bb80ecc33a8.txt
 
---===============8821957679210887307==
+--===============5380203482938597758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a27935803f87-733b61dfbc0f.txt
+Content-Disposition: attachment; filename=revlist-556fb7131e03-0bb80ecc33a8.txt
 
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
+19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
+899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
+02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
+8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
+8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
+de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
+b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
+6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
+422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+f1424755db913c5971686537381588261cdfd1ee powerpc/mm/book3s64: Fix build error with SPARSEMEM disabled
+4c33bf147249ebbf3dded016996a8a24c5737254 powerpc/mm/book3s64: Use 256M as the upper limit with coherent device memory attached
+ab574d1629552b6831cd91b926b38092c15d6142 ALSA: usb-audio: Don't try to submit URBs after disconnection
+692f5510159c79bfa312a4e27a15e266232bfb4c Merge tag 'asoc-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+54a3f6e89fbbf12e1e3539a4f977a7536029d780 Merge tag 'nand/for-6.6' into mtd/next
+11b0b802f8e38d48ca74d520028add81263f003e ASoC: codecs: wcd93xx: fix object added to multiple drivers
+8d2a0cdf52299d1f83a7707c5ca6b0c811339aba ASoC: dwc: i2s: Fix unused functions
+d81c203e61780f3635e5eddd03f00d8bdcd7c3df Merge tag 'asoc-fix-v6.5-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+56e65312830ec45e3ccbc929de6f5b86bc301546 devlink: push object register/unregister notifications into separate helpers
+eec1e5ea1d715ce2df8dcdf3dac7112df77a6e17 devlink: push port related code into separate file
+2b4d8bb0888930b4a26cd46ec067753228877488 devlink: push shared buffer related code into separate file
+2475ed158c478c624d8fbc8d639d344a960c1ad8 devlink: move and rename devlink_dpipe_send_and_alloc_skb() helper
+a9fd44b15fc5625ee0a38661e773444f6bf31b3d devlink: push dpipe related code into separate file
+a9f960074ecd9db292744db2491a0cbbd354e24b devlink: push resource related code into separate file
+830c41e1e987d9745a01b06c5f86434df8bd5f58 devlink: push param related code into separate file
+1aa47ca1f52ee4ef5f553e7ee8fb6749b6c96b9f devlink: push region related code into separate file
+85facf94fd804ef557d5d844b5253859adef10d5 devlink: use tracepoint_enabled() helper
+4bbdec80ff270a69b6b61644c597ad6657f2a58b devlink: push trap related code into separate file
+7cc7194e85ca01185f9d123e68189ef0a40f0c6a devlink: push rate related code into separate file
+9edbe6f36c5f86776cc1c6ba0f546a4aefe2767f devlink: push linecard related code into separate file
+890c556674377c0abba4ab91ff6f1962175d578c devlink: move tracepoint definitions into core.c
+29a390d17748d93f9e6bc6fb0e09d89571aa25f6 devlink: move small_ops definition into netlink.c
+71179ac5c21185171556bc438d5f22d566948d7f devlink: move devlink_notify_register/unregister() to dev.c
+4b151e75aa5e8583a67328e02566c577c992d9a1 Merge branch 'devlink-finish-file-split-and-get-retire-leftover-c'
+5a7319b967b66969e3fff7b91bdfbcd9acd969ac of: unittest: Fix of_unittest_pci_node() kconfig dependencies
+c7e151a7100eb298bb03c83c1a7372112fce2571 dt-bindings: thermal: lmh: update maintainer address
+789e527adfc335681ea4c3e347e8b500753d4fde parisc: led: Rewrite LED/LCD driver to utilizize Linux LED subsystem
+e0701e7b9fb741d92b5f888cdf2caa0afdff7209 parisc: chassis: Do not overwrite string on LCD display
+84ab1277ce5a90a8d1f377707d662ac43cc0918a Merge tag 'v6.6-vfs.fs_context' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+77e0ddf097d6d4ceaf898e088b133b99e0a97fa0 parisc: ccio-dma: Create private runway procfs root entry
+615e95831ec3d428cc554ac12e9439e2d66038d3 Merge tag 'v6.6-vfs.ctime' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+ecd7db20474c3859d4d01f34aaabf41bd28c7d84 Merge tag 'v6.6-vfs.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+de16588a7737b12e63ec646d72b45befb2b1f8f7 Merge tag 'v6.6-vfs.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+511fb5bafed197ff76d9adf5448de67f1d0558ae Merge tag 'v6.6-vfs.super' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+475d4df82719225510625b4263baa1105665f4b3 Merge tag 'v6.6-vfs.fchmodat2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+c89388469197735cb47aaa2c12d942d0fb2860c0 riscv: Explicitly include correct DT includes
+263291fa44ff0909b5b7c43ff40babc1c43362f2 sparc: Explicitly include correct DT includes
+6303d0693f7d6c44bb6eb0b29c906ee28156dd28 clocksource: Explicitly include correct DT includes
+408d80889305c9c50ae5d88f9e705d56fc867d13 EDAC: Explicitly include correct DT includes
+32bc7297d855608fcb13af62a95739a079b4f8e2 hte: Explicitly include correct DT includes
+233d687d1b78080ee79f67356327e0e0e50ef6f5 macintosh: Explicitly include correct DT includes
+9ac21f40c7e2524e4bc0774e7e2255e0cbe161df mux: Explicitly include correct DT includes
+878f27741f7eb8bb918ce82934d27fe7765abc82 sbus: Explicitly include correct DT includes
+6f75dff10f43435bd57c9662d1a81cd75d468bde parport: Explicitly include correct DT includes
+077ca0408c5e8f4409693a97b1f8dd3672ce32fd lib/genalloc: Explicitly include correct DT includes
+ae36453a4bc446b2cda9857d109feec26c1bdfc4 tpm: Explicitly include correct DT includes
+86cdae14a58a877ee1ec79d39b1331bc98dace58 ipmi: Explicitly include correct DT includes
+2e0afa7e78c45a889954a7923642f013d6329d3a Merge tag 'v6.6-vfs.autofs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+090a7f1009b8447565a03b649189e6ff83e8e5e7 docs/mm: remove references to hmm_mirror ops and clean typos
+ac6804fbf425a161840c0c99737cb87ff88692a6 Documentation: serial-console: Fix literal block marker
+b4a04f92a4fd029f4a4cd7a47583f3f1bb562cd4 Merge tag 'v6.6-fs.proc.uapi' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+8d58ce1b1e0ba343586db2e4f6eac5410661b8ba input: docs: pxrc: remove reference to phoenix-sim
+c63594f2d66690805eb78b75e4b8e8dc9f2672bf Docu: genericirq.rst: fix irq-example
+f20ae9cf5b0743e70ed460ae52f976a8488a8c79 Merge tag 'filelock-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
+dd2c0198a8365dcc3bb6aed22313d56088e3af55 Merge tag 'erofs-for-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+6016fc9162245c5b109305841f76cca59c20a273 Merge tag 'iomap-6.6-merge-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+cc0a38d0f638dc1229ffffa9016044202efddca0 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+3bb156a55668800b368856818807677eac207c75 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+f678c890c684373a387b0d73cd4d51edbf329c27 Merge tag 'affs-for-6.6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+547635c6ac47c7556d6954935b189defe90422f7 Merge tag 'for-6.6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+5b07aaca1809f459d74589c38b20f87da554027f Merge tag 'pstore-v6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+b03a4342142be0c608061a91fa52ec21f6853152 Merge tag 'seccomp-v6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+72f93a3136ee18fd59fa6579f84c07e93424681e r8152: add vendor/device ID pair for D-Link DUB-E250
+a014c35556b9045ece8426df2b38eb3c5e1c1aa0 net: stmmac: clarify difference between "interface" and "phy_interface"
+042bf24ac98702e0b240034f6a8b219104095b06 net: ethernet: mtk_wed: add some more info in wed_txinfo_show handler
+6c9cfb853063f317b2953c5e852b6bac1eb0cade net: ethernet: mtk_wed: minor change in wed_{tx,rx}info_show
+727dbda16b83600379061c4ca8270ef3e2f51922 Merge tag 'hardening-v6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+68cadad11fe2ddd126b37a8fba3726be7fa0f5c6 Merge tag 'rcu.2023.08.21a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+6ae0c157658b26e78eb30b50939ce3dfb794d21f Merge tag 'scftorture.2023.08.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+b324696dce7a5b1be11c16cbba6ac6643dadd364 Merge tag 'csd-lock.2023.07.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+b98af53cb07a69a08ffd8cca29a449f1e7de4837 Merge tag 'clocksource.2023.08.15a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+6bfce7759c46132154301a742b54a64ff97b498c Merge tag 'core-entry-2023-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dd3f0fe5010c2d85801a9c005b9c673908adf36f Merge tag 'irq-core-2023-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a568d217f3d44b1b46756ab560221a823c37f2a1 dt-bindings: vendor-prefixes: document Saef Technology
 52810f62601b3b4b0d310e66bd11458047fee25f dt-bindings: display: panel: mipi-dbi-spi: add Saef SF-TC154B
@@ -966,89 +1050,5 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-23ad06f5d9235b5d993f170173aaca2ae8f628b6 NFSD: Add simple u32, u64, and bool encoders
-3c8e7be8f723ab367948657da26321e95e714d79 NFSD: Rename nfsd4_encode_bitmap()
-c507bb284fcdc65d8a5a38376b1f2dd49e37fbda NFSD: Clean up nfsd4_encode_setattr()
-27054b5e760dd1c67d027e3f512481f008795096 NFSD: Add struct nfsd4_fattr_args
-f3bcee0653006e92d4a988a1ab3b058b5784dff7 NFSD: Add nfsd4_encode_fattr4__true()
-0eaa4371454eaa0c861b6d03f89467bb45a2ced3 NFSD: Add nfsd4_encode_fattr4__false()
-28ee7a0b31d385d6e6c4a36c258bfd7ee37515f8 NFSD: Add nfsd4_encode_fattr4_supported_attrs()
-cad6346ed3330bb0f40d2318f03f7b79af52a2f6 NFSD: Add nfsd4_encode_fattr4_type()
-8b0d3056cc5f2e7fdeb210a7ff5ff1df11c8ecd9 NFSD: Add nfsd4_encode_fattr4_fh_expire_type()
-47b66512ddafcacf50b6ca42d533f1f7e02b49e3 NFSD: Add nfsd4_encode_fattr4_change()
-16ca29046976b0a66c191a507f36cde830ba82ad NFSD: Add nfsd4_encode_fattr4_size()
-643356eb567ad10a74c30c7c3a223d114a5c40ab NFSD: Add nfsd4_encode_fattr4_fsid()
-8a1eca03f497f790d1651b1f48ca0a0dba666a26 NFSD: Add nfsd4_encode_fattr4_lease_time()
-4a133a2de3b3c05d0eafcdb2b3aa4d866b0586c9 NFSD: Add nfsd4_encode_fattr4_rdattr_error()
-4fa0b67a5700d1d9c2f4070b2ff9049291fad4e4 NFSD: Add nfsd4_encode_fattr4_aclsupport()
-2953d1e88f1546f8423ac1e8e6fb2014219d1d32 NFSD: Add nfsd4_encode_nfsace4()
-5ead30c0ea13940f1b1d379fac8ce628701484c2 NFSD: Add nfsd4_encode_fattr4_acl()
-78062e0e94530781fa84af64466a231ec19c63bf NFSD: Add nfsd4_encode_fattr4_filehandle()
-81f89539a8e9d17c2317a26a989721fccf6db1a7 NFSD: Add nfsd4_encode_fattr4_fileid()
-898d8a1cae3e2a8fa036eaeaa823ac426ca9f75c NFSD: Add nfsd4_encode_fattr4_files_avail()
-ff2a305fb1204c09c084b807792f0b401e0fc23a NFSD: Add nfsd4_encode_fattr4_files_free()
-25341a8e8608115a7603b09915e11723f0a53257 NFSD: Add nfsd4_encode_fattr4_files_total()
-82789815b47774b666ce1a641cbffa74c37007f4 NFSD: Add nfsd4_encode_fattr4_fs_locations()
-513287a90532bc9587373826cf8d8ace49ddd3e5 NFSD: Add nfsd4_encode_fattr4_maxfilesize()
-827a7ccebb145a157f694a07b90374251c9821b6 NFSD: Add nfsd4_encode_fattr4_maxlink()
-b8be54fb13f742ff1f26a878170aa0b37988a686 NFSD: Add nfsd4_encode_fattr4_maxname()
-d1dffec07a63524edc25ea037a93c9ee13e42004 NFSD: Add nfsd4_encode_fattr4_maxread()
-d17175e4a97fa711382f7782f034b9bc2278ce4c NFSD: Add nfsd4_encode_fattr4_maxwrite()
-b65b615c02df4e056ae1b80338dede1388f0beee NFSD: Add nfsd4_encode_fattr4_mode()
-3552f5e7c655b24c88ad1e4937e527c8c3e264fa NFSD: Add nfsd4_encode_fattr4_numlinks()
-bc6fc4e610a075b6463587028ce69f318e011b52 NFSD: Add nfsd4_encode_fattr4_owner()
-cfec579ae30d9371914a41cc4668dddb90af9532 NFSD: Add nfsd4_encode_fattr4_owner_group()
-94441264d3de8d57337139a2526f6df50e5acceb NFSD: Add nfsd4_encode_fattr4_rawdev()
-9fede46acb9ba97c9a368d3812a0f9fc85641a06 NFSD: Add nfsd4_encode_fattr4_space_avail()
-ceed096a02eb315f6e7da30334392a8749bd5023 NFSD: Add nfsd4_encode_fattr4_space_free()
-3f2506e5537d530a60ae78bd88a8e9ab316e0cf8 NFSD: Add nfsd4_encode_fattr4_space_total()
-c7c4774dd3fad583776bd838741c66b93550933c NFSD: Add nfsd4_encode_fattr4_space_used()
-0f6ca2dbe3436873723b48070e7143d5dd93190a NFSD: Add nfsd4_encode_fattr4_time_access()
-99657766ec97f6a811df9c7636ef23ed1165a2e3 NFSD: Add nfsd4_encode_fattr4_time_create()
-46d369734246b8f1bf67295e3852a33d7c6aef8b NFSD: Add nfsd4_encode_fattr4_time_delta()
-640578ee966614d1c813eecb65e17a027e87baf2 NFSD: Add nfsd4_encode_fattr4_time_metadata()
-73be7565d0c09de883d6b5fad744f96f0a191e10 NFSD: Add nfsd4_encode_fattr4_time_modify()
-c8ec23c18445b743a91b586901c3753c0b8d0536 NFSD: Add nfsd4_encode_fattr4_mounted_on_fileid()
-042a32581ad064a90dffa52cb0337f1890bae7a7 NFSD: Add nfsd4_encode_fattr4_fs_layout_types()
-648d8a31ccd933fa3b9031664badd34165e9c019 NFSD: Add nfsd4_encode_fattr4_layout_types()
-2610144e3be0f672b16059fc0eeb9f1e743396d5 NFSD: Add nfsd4_encode_fattr4_layout_blksize()
-b5808ad127a7f09ef63f68456245044f157749d3 NFSD: Add nfsd4_encode_fattr4_suppattr_exclcreat()
-b77acffdcdea54f5f1342fdddbcab937a2d2b88e NFSD: Add nfsd4_encode_fattr4_sec_label()
-63796ea4c2242edbb39cb5e8dd52cfa110cade80 NFSD: Add nfsd4_encode_fattr4_xattr_support()
-79a514ff4a87bf92be48b7f391132e04f656e276 NFSD: Copy FATTR4 bit number definitions from RFCs
-dacdf58ce68c2c7befdfae1b7ac0157fa0fbde42 NFSD: Use a bitmask loop to encode FATTR4 results
-5bec756b94cc042a6fe775a361b856151a08bbf7 NFSD: Rename nfsd4_encode_fattr()
-7efef231a8df41ec1bf6ad560366e6db392676ec NFSD: Add nfsd4_encode_count4()
-802831dfec9efabe7c3a3495a1a855f96686b8e5 NFSD: Clean up nfsd4_encode_stateid()
-02002910644b640795fb97fa8d3932b8f3bac593 NFSD: Make @lgp parameter of ->encode_layoutget a const pointer
-be9bd3b3ef1a397e6ec6e69477dbbea9a8c37290 NFSD: Clean up nfsd4_encode_layoutget()
-850248ae19792caf73a1fcd8e38f543ab738e45e NFSD: Clean up nfsd4_encode_layoutcommit()
-e1eebd8e8c49dda3e9add97c6a5650d9f5e96e2f NFSD: Clean up nfsd4_encode_layoutreturn()
-b18021f961a1d73ad0baeedea09c571bb7161172 NFSD: Make @gdev parameter of ->encode_getdeviceinfo a const pointer
-70f8233fa102daaac8f0ba82c0cef677d8e20d7d NFSD: Clean up nfsd4_encode_getdeviceinfo()
-6d6f37eea7ed9415d3d99b70f5f2f36c6d98b0d6 NFSD: Add nfsd4_encode_lock_owner4()
-ff251100759c22dd74a1dcc2a8c58eaa3c11d623 NFSD: Refactor nfsd4_encode_lock_denied()
-a479a9ffff44451d4cef43a7e0ff89b2d93652ac NFSD: Add nfsd4_encode_open_read_delegation4()
-c96f1f24896828345cd07c70fceab8d6249eda4e NFSD: Add nfsd4_encode_open_write_delegation4()
-36bbba91a0f65a5f38ff75beb6e467407201f027 NFSD: Add nfsd4_encode_open_none_delegation4()
-091bf1db6f68abd033661132ad0c675255a119b5 NFSD: Add nfsd4_encode_open_delegation4()
-03811c466e7d6fbf84b8d3d2002be0958a094712 NFSD: Clean up nfsd4_encode_open()
-f81cc11b3e901914e2a9526c52e3da920cb8cedc NFSD: Add a utility function for encoding sessionid4 objects
-d69729fab6f63cb60021c3b5185d3be10ce37b4b NFSD: Add nfsd4_encode_channel_attr4()
-b483d6c39ad6d98eae69ef2a95049aa3220476db NFSD: Restructure nfsd4_encode_create_session()
-1e50c2c89fe045627d24a1a1573eae1e3d2e6d1c NFSD: Clean up nfsd4_encode_sequence()
-21526b2dfa89adefee464737c5bc2b0fa80176ee NFSD: Rename nfsd4_encode_dirent()
-586cbf6aa2a68e4e1dbf23272d2e9619854096c0 NFSD: Clean up nfsd4_encode_rdattr_error()
-905ceb0399214de5e0a0230191e8e65aca287c04 NFSD: Add an nfsd4_encode_nfs_cookie4() helper
-5fe92318e77362521b757ed9906ad2bd0462d43e NFSD: Clean up nfsd4_encode_entry4()
-6efe9552642c183c49c9e7252a88a81591172b0e NFSD: Clean up nfsd4_encode_readdir()
-1d2830db20044225ef9e03537bd03c71e9ca66e9 NFSD: Clean up nfsd4_encode_access()
-2885f1443ead1a5bdd3032fe6112a87cf4c4e15a NFSD: Clean up nfsd4_do_encode_secinfo()
-983f9f4856a9bca98a30cae771950547e9eb0cb3 NFSD: Clean up nfsd4_encode_exchange_id()
-9de4f4e90ab93c9c92795312ae69c0f9be339925 NFSD: Clean up nfsd4_encode_test_stateid()
-83857dea7805f4d0bfc1012cc49159df2b2a79ad NFSD: Clean up nfsd4_encode_copy()
-21911d9869a81f3d03c9fc6b3f76984f67d943a2 NFSD: Clean up nfsd4_encode_copy_notify()
-93d000b3bc54975690ab2966961637d9089dc1c2 NFSD: Clean up nfsd4_encode_offset_status()
-733b61dfbc0f2436d3d0c35c4cd65a358999e94a NFSD: Clean up nfsd4_encode_seek()
 
---===============8821957679210887307==--
+--===============5380203482938597758==--
