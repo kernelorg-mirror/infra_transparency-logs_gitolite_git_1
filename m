@@ -1,60 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2338389697024150654=="
+Content-Type: multipart/mixed; boundary="===============2793470783491961318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 Sep 2023 18:02:32 -0000
-Message-Id: <169445535223.8556.15320657545451719115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 11 Sep 2023 18:02:42 -0000
+Message-Id: <169445536269.8665.7963543928922332664@gitolite.kernel.org>
 
---===============2338389697024150654==
+--===============2793470783491961318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.6
-    old: 5d481ddb6a731281238b6a064c719a91f0234b0c
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-5d481ddb6a73-0bb80ecc33a8.txt
-  - ref: refs/heads/regmap-6.7
-    old: 0000000000000000000000000000000000000000
-    new: d3601857e14de6369f00ae19564f1d817d175d19
+  - ref: refs/heads/for-6.6
+    old: ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec
+    new: 6223e073db78458f8846c380ccd224a7a73a3867
+    log: revlist-ca0e36e3e39a-6223e073db78.txt
 
---===============2338389697024150654==
+--===============2793470783491961318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694455350 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1694455349-57d14a7fb561ad7868990e2211b41f7bdb591d6f
+pusher Mark Brown <broonie@kernel.org> 1694455361 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1694455360-c94c2b556b90486602058f0f9112acde59a561d7
 
-5d481ddb6a731281238b6a064c719a91f0234b0c 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/regmap-6.6
-0000000000000000000000000000000000000000 d3601857e14de6369f00ae19564f1d817d175d19 refs/heads/regmap-6.7
+ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec 6223e073db78458f8846c380ccd224a7a73a3867 refs/heads/for-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/VjYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0KLrB/0WJGkh197GdoJiFDmoY9r4d9rJiDdR
-tqgETuaRvl7fyKGZhEWFV/TvoSUElrI2m3dG1D7hvdxxhmEp/RTti3BokexIJaaE
-n50no6clRLsqNp20IWk+4E37kU8MWViA71xPqIbrLN/vyd1Wf8dzBe7QpRhtH5WF
-lvGYuiGavNSmRmmKSyaBcGDVz6wb7kJEeeyu4xkt4HV81NwPDOZsymfXFGDlBn/a
-6Jyl+8iwUs6aiLnirA343Bdwkrz4dNV/ExcPvJmTX4qmJx6cNjAB+6A4aWBGm57C
-HkJphOD23RyK4Tl138dykdLkhotWpWKWoW1ZSavj6FGEiIETIICAKkDL
-=ckY8
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmT/VkETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0A6KB/9Xsr9wy4KAwMf1znsH9GAsC16UmfJo
+gcUn8dGBJmrgT6kJF4qLbHGBTfEgJqH6kCXUeHb5FXcjpDBNEiiSbaJUNIAriSwu
+yh6Nt9W+tyan607ajY6z+Y4GIJ0L6V+XaViD168bs75mQ4of+D7p+gtQr3CwepJ8
+R5ad4LcpYa7ZL3Z7dZxQmR+zfulQ43sYmI3hmLVBBUN3FE8vD43+df9MkYaJyBRS
+QOnxxNTILLvfe9wXn83AmaLPisu3H73QgiMV4UwkSTRkorB0FUxz3OM300XfZ1ng
+3NcE8GhLHJazEYiN4JT4ZBAnI7m+d0MobgN/S4NQJt5Al80vWprnnIWA
+=iGaS
 -----END PGP SIGNATURE-----
 
---===============2338389697024150654==
+--===============2793470783491961318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d481ddb6a73-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-ca0e36e3e39a-6223e073db78.txt
 
+b1e428615f154c87a94267b67e819644b50948f8 KVM: s390: pv: relax WARN_ONCE condition for destroy fast
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
@@ -256,7 +253,6 @@ bf26f1b4e0918f017775edfeacf6d867204b680b ksmbd: Fix one kernel-doc comment
 0119c894ab0dc468bcb03f28063239c0a4cf970f drm: Add initial ci/ subdirectory
 ad6bfe1b66a5c146ec236847eca7af4c8806d666 drm: ci: docs: fix build warning - add missing escape
 1f464cb4a7febcc8b5ad325f3f9a83c8d4e4c199 cpufreq: Avoid printing kernel addresses in cpufreq_resume()
-c69290557c7571dff3d995fa27619b965915e8a1 regulator: tps6287x: Fix n_voltages
 61bfbf7951ba561dcbdd5357702d3cbc2d447812 cpufreq: Fix the race condition while updating the transition_task of policy
 916f13884042f615cfbfc0b42cc68dadee826f2a cpufreq: governor: Free dbs_data directly when gov->init() fails
 68cf01760bc0891074e813b9bb06d2696cac1c01 Merge tag 'v6.6-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
@@ -905,7 +901,6 @@ cbcd51e822bf51dfc7715f474c24fbca0ed23fce thermal: Use thermal_tripless_zone_devi
 edd220b33f479cf9dcda0bfefb2cb8c5902e9885 thermal: core: Drop thermal_zone_device_register()
 9e310ea5c8f6f20c1b2ac50736bcd3e189931610 Merge tag 'fuse-update-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 6f7f984fa85b305799076a1bcec941b9377587de perf/x86/uncore: Correct the number of CHAs on EMR
-ca0e36e3e39a4e8b5a4b647dff8c5938ca6ccbec regulator: tps6594-regulator: Fix random kernel crash
 65d6e954e37872fd9afb5ef3fc0481bb3c2f20f4 Merge tag 'gfs2-v6.5-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 44ade291b77c1cff25f253782c486c0c1e7296eb media: dt-bindings: Merge OV5695 into OV5693 binding
 274e480982e6d1239be6a236bb457aa95460e1f1 media: dt-bindings: Convert Omnivision OV7251 to DT schema
@@ -1079,5 +1074,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+6223e073db78458f8846c380ccd224a7a73a3867 regulator: Fix voltage range selection
 
---===============2338389697024150654==--
+--===============2793470783491961318==--
