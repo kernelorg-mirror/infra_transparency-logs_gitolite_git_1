@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5483892091426589330=="
+Content-Type: multipart/mixed; boundary="===============3990542104090612403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 19:06:40 -0000
-Message-Id: <169445920021.23858.7761015222500552515@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 19:07:00 -0000
+Message-Id: <169445922089.24266.11263232403463546673@gitolite.kernel.org>
 
---===============5483892091426589330==
+--===============3990542104090612403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,54 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 9c7f389dda37751f044a6aa0f334163112766c45
-    new: 5886243daf585a7ed8f45646340af1ee602e1edd
-    log: revlist-9c7f389dda37-5886243daf58.txt
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: 9a8bd0a300195fa4c6e60ed53a54abb4706928b1
+    new: 5bcaf19227c97d84ca46af37b59e63a4020f0253
+    log: revlist-9a8bd0a30019-5bcaf19227c9.txt
 
---===============5483892091426589330==
+--===============3990542104090612403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c7f389dda37-5886243daf58.txt
+Content-Disposition: attachment; filename=revlist-9a8bd0a30019-5bcaf19227c9.txt
 
+899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
+02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
+8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
+8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
+de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
+b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
+6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
+422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+f1424755db913c5971686537381588261cdfd1ee powerpc/mm/book3s64: Fix build error with SPARSEMEM disabled
+4c33bf147249ebbf3dded016996a8a24c5737254 powerpc/mm/book3s64: Use 256M as the upper limit with coherent device memory attached
+ab574d1629552b6831cd91b926b38092c15d6142 ALSA: usb-audio: Don't try to submit URBs after disconnection
+692f5510159c79bfa312a4e27a15e266232bfb4c Merge tag 'asoc-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+54a3f6e89fbbf12e1e3539a4f977a7536029d780 Merge tag 'nand/for-6.6' into mtd/next
+11b0b802f8e38d48ca74d520028add81263f003e ASoC: codecs: wcd93xx: fix object added to multiple drivers
+8d2a0cdf52299d1f83a7707c5ca6b0c811339aba ASoC: dwc: i2s: Fix unused functions
+d81c203e61780f3635e5eddd03f00d8bdcd7c3df Merge tag 'asoc-fix-v6.5-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+56e65312830ec45e3ccbc929de6f5b86bc301546 devlink: push object register/unregister notifications into separate helpers
+eec1e5ea1d715ce2df8dcdf3dac7112df77a6e17 devlink: push port related code into separate file
+2b4d8bb0888930b4a26cd46ec067753228877488 devlink: push shared buffer related code into separate file
+2475ed158c478c624d8fbc8d639d344a960c1ad8 devlink: move and rename devlink_dpipe_send_and_alloc_skb() helper
+a9fd44b15fc5625ee0a38661e773444f6bf31b3d devlink: push dpipe related code into separate file
+a9f960074ecd9db292744db2491a0cbbd354e24b devlink: push resource related code into separate file
+830c41e1e987d9745a01b06c5f86434df8bd5f58 devlink: push param related code into separate file
+1aa47ca1f52ee4ef5f553e7ee8fb6749b6c96b9f devlink: push region related code into separate file
+85facf94fd804ef557d5d844b5253859adef10d5 devlink: use tracepoint_enabled() helper
+4bbdec80ff270a69b6b61644c597ad6657f2a58b devlink: push trap related code into separate file
+7cc7194e85ca01185f9d123e68189ef0a40f0c6a devlink: push rate related code into separate file
+9edbe6f36c5f86776cc1c6ba0f546a4aefe2767f devlink: push linecard related code into separate file
+890c556674377c0abba4ab91ff6f1962175d578c devlink: move tracepoint definitions into core.c
+29a390d17748d93f9e6bc6fb0e09d89571aa25f6 devlink: move small_ops definition into netlink.c
+71179ac5c21185171556bc438d5f22d566948d7f devlink: move devlink_notify_register/unregister() to dev.c
+4b151e75aa5e8583a67328e02566c577c992d9a1 Merge branch 'devlink-finish-file-split-and-get-retire-leftover-c'
+5a7319b967b66969e3fff7b91bdfbcd9acd969ac of: unittest: Fix of_unittest_pci_node() kconfig dependencies
+c7e151a7100eb298bb03c83c1a7372112fce2571 dt-bindings: thermal: lmh: update maintainer address
+789e527adfc335681ea4c3e347e8b500753d4fde parisc: led: Rewrite LED/LCD driver to utilizize Linux LED subsystem
 e0701e7b9fb741d92b5f888cdf2caa0afdff7209 parisc: chassis: Do not overwrite string on LCD display
 84ab1277ce5a90a8d1f377707d662ac43cc0918a Merge tag 'v6.6-vfs.fs_context' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 77e0ddf097d6d4ceaf898e088b133b99e0a97fa0 parisc: ccio-dma: Create private runway procfs root entry
@@ -1011,44 +1048,7 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-e848f598a6939e78e6598c7bf7125b21fe9d0ebe arm64/gcs: Provide support for GCS in userspace
-89baf2d79b50e389d407e23ca3bf53a3d590d21a arm64/mm: Restructure arch_validate_flags() for extensibility
-4ef60af7c17feaca6737bc059138680f0c67db76 prctl: arch-agnostic prctl for shadow stack
-5f3b45e8e036793b0c2018a1cbebe04cb12b9972 mman: Add map_shadow_stack() flags
-b3b64c33402445cb4a6694c54121d5cba176212a arm64: Document boot requirements for Guarded Control Stacks
-3cb7c6918230945f53896b80625918a928edda7a arm64/gcs: Document the ABI for Guarded Control Stacks
-c6f1873e89b33ed89a38b523404ca16d445f5f12 arm64/sysreg: Add new system registers for GCS
-282b2aaa987bf99a839446a2bcc09a3e1754943c arm64/sysreg: Add definitions for architected GCS caps
-b2ff998901ea31d5229a6287edc040b076482acb arm64/gcs: Add manual encodings of GCS instructions
-8ce2e23210b0f628b0aa8a072efd1dd1213dd415 arm64/gcs: Provide copy_to_user_gcs()
-8c64ce389eaebb91efb641616fe6e57f8c60425b arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-f697f10b79ec375d454482587b9c886089dfc625 arm64/mm: Allocate PIE slots for EL0 guarded control stack
-2212a68d2fcd896f1625647fe77b0f74933c1211 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-2fdf33836fd9a39909aaf579438ed9b0886b0464 arm64/mm: Map pages for guarded control stack
-01cce2966233d76d661f817a074d826fb5462841 KVM: arm64: Manage GCS registers for guests
-94d86b58af1f937d30ab7fee85fc08764a8072c6 arm64/gcs: Allow GCS usage at EL0 and EL1
-777da81d961829651e76b51a95e66f313868b7e4 arm64/idreg: Add overrride for GCS
-5ad3085b22d616c0f736a1b26102b5f766e5a22d arm64/hwcap: Add hwcap for GCS
-f59627fe7beb4bb0b3d9d267b4e17cf76c87d986 arm64/traps: Handle GCS exceptions
-e16e34ee7fcc1d33ddd3952ec0509dddbb102adf arm64/mm: Handle GCS data aborts
-b9f7f7111e6d819d3067074b18e79e5378eb565d arm64/gcs: Context switch GCS state for EL0
-e758e36c89ff1547459a3aecd318c29f25a62d69 arm64/gcs: Allocate a new GCS for threads with GCS enabled
-9b3587cd0e344bebe8ac23477964f0625327ee62 arm64/gcs: Implement shadow stack prctl() interface
-21d72b8bd77f499b2d293febab37b9dbae5e46d4 arm64/mm: Implement map_shadow_stack()
-6449b3d0c2ae74fcdd1690942cef4ca4d09c9fd1 arm64/signal: Set up and restore the GCS context for signal handlers
-57116aa0a873ee9259239d935797284ca79472ed arm64/signal: Expose GCS state in signal frames
-6247550dde06cd29a9b1b814bf64d0c9600ced08 arm64/ptrace: Expose GCS via ptrace and core files
-b4c3e4a86ecd4d96f389cf2e724d46af4454dd12 arm64: Add Kconfig for Guarded Control Stack (GCS)
-bae74522808af37026b8c9fa7960bb60d89e8cda kselftest/arm64: Verify the GCS hwcap
-b35cc8b472e8abfd9ac7b13161f367e3c329e1f7 kselftest/arm64: Add GCS as a detected feature in the signal tests
-1b51c87060fe76536c332a8653a0a78e965044d7 kselftest/arm64: Add framework support for GCS to signal handling tests
-f3a3948705c5f8ec9b1f91b510fc506197cbfbec kselftest/arm64: Allow signals tests to specify an expected si_code
-60ae98933bbd6683021e8561a973585a3525c2b2 kselftest/arm64: Always run signals tests with GCS enabled
-b8b7ce145d5575b3a5a50f0e71e2409ef999c605 kselftest/arm64: Add very basic GCS test program
-a9e7eb54dda7c618b12f20a29e12b502239fe319 kselftest/arm64: Add a GCS test program built with the system libc
-44ac685485a9615e983295045579660dd98ab774 kselftest/arm64: Add test coverage for GCS mode locking
-c96fd1cac606860c002e7a536c8c933f4dbd2b86 selftests/arm64: Add GCS signal tests
-b29ad5079f15080ebaf4ba09de3d2bf1ea417d62 kselftest/arm64: Add a GCS stress test
-5886243daf585a7ed8f45646340af1ee602e1edd kselftest/arm64: Enable GCS for the FP stress tests
+4f9724f30c968cfde18d33033a5596eedbb64aba EDITME: cover title for arm64-sve-trap-mitigation
+5bcaf19227c97d84ca46af37b59e63a4020f0253 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
 
---===============5483892091426589330==--
+--===============3990542104090612403==--
