@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 21:43:35 -0000
-Message-Id: <169446861501.15039.10632446643307926814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 11 Sep 2023 21:44:56 -0000
+Message-Id: <169446869604.15586.13062943870797310877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/spi-6.7
-    old: 7a461f80afa38ef41eac9172f02b0dee6036a437
-    new: fd811b62939f6d374546cfc25bbccb697a95519a
+  - ref: refs/heads/read-mshot
+    old: acdcc0b676727a9bb084827f22fbacab8bbfadb4
+    new: 1134b91cc23d6c1467ecb8dde6cda747016995e6
     log: |
-         fd811b62939f6d374546cfc25bbccb697a95519a spi: Use devm_clk_get_*() helper function to
+         273f14a39f8ccb94ab93e8b3d1bb8843ebfa7164 Add io_uring_prep_read_multishot() helper
+         1134b91cc23d6c1467ecb8dde6cda747016995e6 test/read-mshot: return T_EXIT_SKIPPED if read mshot isn't supported
          
