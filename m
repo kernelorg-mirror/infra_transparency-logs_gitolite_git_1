@@ -1,65 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3723605686242589003=="
+Content-Type: multipart/mixed; boundary="===============4685167533669538021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 11 Sep 2023 07:46:29 -0000
-Message-Id: <169441838964.29862.1847269265552681120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 11 Sep 2023 07:46:53 -0000
+Message-Id: <169441841310.30080.1755782671799278742@gitolite.kernel.org>
 
---===============3723605686242589003==
+--===============4685167533669538021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+  - ref: refs/heads/for-next
+    old: 7a736a6b2c9b03520df046a92785405052b255dc
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-06c2afb862f9-0bb80ecc33a8.txt
-  - ref: refs/tags/v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+    log: revlist-7a736a6b2c9b-0bb80ecc33a8.txt
 
---===============3723605686242589003==
+--===============4685167533669538021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1694418387 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1694418387-e091060375b30db41983c0b510adde634ceb34e4
+pusher krzk@kernel.org 1694418411 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1694418410-f8f0bc548a056a57f9d788d191bcaa4a672df2cd
 
-06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/master
-0000000000000000000000000000000000000000 5c850e5ef01aae373c022d83be4bafcff54373e5 refs/tags/v6.6-rc1
+7a736a6b2c9b03520df046a92785405052b255dc 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+xdMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15lxEACUjeRNdtKPXn1LOSSLReBt/hIX6s7A/u7v
-DcNtEjiZO+QSsSINrkN4AekAr5R7lLNO6x66e4/4FHo1MGKDr7on8MKOqyBzf3eb
-HLjQaUFnEHdX2i9A3XA4leOt4Fex//NG4NZp0/aCPTXhZnqAR38xo87/aVmOZlsj
-FookrdiPrBRVw4vGZxM1pFGZnPrPvdyb3xrB4N6JUwontaDoFX0b6ATbrwTRUQZN
-c7BUPppYdddcyFyThFcc52Io3VWE/YeYHd+TwKnYtmXWX9Bu0S7II7NVJrURZ9Km
-db9LI9HK1LdY428JgRF0HQNnpWV6HlzXc13iaElyotWIlzWFvGvD37qpVS5/921c
-Q9cvh2Us25biPwcXppMJtwZ/IA6sK4gBky2G+M6a8o3ivj+VPBPTeNxyjpMkiXee
-4++77DcgDx8DriWZkgOpJGTjtMu0QntEEpCIHJIDT8qeGLGgeMsAGDdnkKdMsnd1
-0BpsCF03B/ZTHGbonVpFA78o8UzLo94Ic1Cf3Zq9MiSjBv87Ox3h7okIIKVohWmc
-nalSH56mWs1d0LZsXprQd73S+e7vgdie7w6TMe4OGM+uuMaG7IFDc4pdJU5AcC/J
-IzppRqTtt3hoRUXJpdbORrQ4EQ8azCEjL4Y3OYPUSpooVxabAwkHPN5w7lHyHYn4
-U9x55l9PbA==
-=GsL1
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmT+xesQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xXYD/9NsJZj3WepzqK8Kv0ldZG71UvtN0uLO03q
+wHShpvb4Y9JZQ7UdLsqBhKhmGKzNT4VDwFyUtIrl1+2v8ecyamyvDKVG9C47m4fy
+Jbrk+dfj/dxF8BHrQ6BkBOw8PI3K49AMUUqPIaPT9ydunvRFxWf50Qm5v9a/9WPD
+c2XeynRRgYug1+CbxLWVPVty8MRYg3SB/Trr5/Hg8P5Atax+59U/RHOEWYw69rFy
+d92D9ZHDhYBSTUXvLKN4901L8VWTtBxbewLvpdumPJptEqlPnc7Xo3jMcrikm3hS
+ZXpuV4ME7LBl+yKJnN6cHp2AAH4xH5z9NYIOUWUrPryQibOlyLUZbwxQx0JgXr3D
+q32n6tR4Ph2HZpCu/cl99GSDMwjL15Q2TVEAW3gqCGjDeuxFYaZDe1i+ARbpAPXr
+XPwvuEJ22y8lKf+BHKyKVatqKv+cvWp1g13r8NZJ3Bakn43F/TOLTbQw1vF/DHFP
+D5JlqrLzIXjiKS9DEIbZQUCoxhPnsXJWA8Yzt6NhADeQ8RMZXLihP9r1PqXyyWCo
+M44/XLmWS2MQ5HUvwopxQ/NvrgxJdogr2Xtr5JQiTG+F1cmMiGg5AWRI8GoG5Dhr
+I5sqfg8P33+rZ4T3Q8YivH6CGCC4LP9WGXBqxzpcg6E8S7gZo3At35YKsdYzczZt
+Cp25ObfuMA==
+=uGQv
 -----END PGP SIGNATURE-----
 
---===============3723605686242589003==
+--===============4685167533669538021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06c2afb862f9-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-7a736a6b2c9b-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1086,4 +1082,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============3723605686242589003==--
+--===============4685167533669538021==--
