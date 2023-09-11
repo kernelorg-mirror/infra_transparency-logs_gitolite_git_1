@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3990542104090612403=="
+Content-Type: multipart/mixed; boundary="===============6943771683912295944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Sep 2023 19:07:00 -0000
-Message-Id: <169445922089.24266.11263232403463546673@gitolite.kernel.org>
+Date: Mon, 11 Sep 2023 19:07:14 -0000
+Message-Id: <169445923482.24554.9951592693899246981@gitolite.kernel.org>
 
---===============3990542104090612403==
+--===============6943771683912295944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-trap-mitigation
-    old: 9a8bd0a300195fa4c6e60ed53a54abb4706928b1
-    new: 5bcaf19227c97d84ca46af37b59e63a4020f0253
-    log: revlist-9a8bd0a30019-5bcaf19227c9.txt
+  - ref: refs/heads/arm64-test-ptrace-regs
+    old: 920a6309638a0c606364678cdda696487940451c
+    new: 7fe8a68d192f4cfe8836835c25c1444c482a3656
+    log: revlist-920a6309638a-7fe8a68d192f.txt
 
---===============3990542104090612403==
+--===============6943771683912295944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a8bd0a30019-5bcaf19227c9.txt
+Content-Disposition: attachment; filename=revlist-920a6309638a-7fe8a68d192f.txt
 
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
@@ -1048,7 +1048,7 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-4f9724f30c968cfde18d33033a5596eedbb64aba EDITME: cover title for arm64-sve-trap-mitigation
-5bcaf19227c97d84ca46af37b59e63a4020f0253 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
+2f8cb66ae7bb5a975ad91d6b691353fc002610a7 EDITME: cover title for arm64-test-ptrace-regs
+7fe8a68d192f4cfe8836835c25c1444c482a3656 kselftest/arm64: Test that ptrace takes effect in the target process
 
---===============3990542104090612403==--
+--===============6943771683912295944==--
