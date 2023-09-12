@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Sep 2023 18:52:46 -0000
-Message-Id: <169454476630.26918.3291714660609823873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 12 Sep 2023 18:52:54 -0000
+Message-Id: <169454477439.27022.9729933838410290922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: a5f8f078f67a91191cbf677989702caa0ab6e646
-    new: a84e361e58ccd294b7e68355ecc6c6d1ef212874
+    old: 94530a5290decc538d3a67edec4638e2e1eaeeb6
+    new: 451e85e29c9d6f20639d4cfcff4b9dea280178cc
     log: |
-         b399dc73f012e463dad38410c147467a292ba4bb ASoC: rsnd: remove unneeded of_node_put()
-         a84e361e58ccd294b7e68355ecc6c6d1ef212874 ASoC: Merge up fixes
+         dd35a4debcf917f069e83f60b6ac84b5cad6e5e3 regulator: rk808: Drop useless headers
+         451e85e29c9d6f20639d4cfcff4b9dea280178cc Merge remote-tracking branch 'regulator/for-6.7' into regulator-next
          
