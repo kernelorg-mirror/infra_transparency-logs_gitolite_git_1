@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 12 Sep 2023 23:14:38 -0000
-Message-Id: <169456047875.28941.12124377807510007041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 12 Sep 2023 23:24:19 -0000
+Message-Id: <169456105954.3280.13936555962911395378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/daveh/devel
 user: daveh
 changes:
-  - ref: refs/heads/x86/mm
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 8f1004679987302b155f14b966ca6d4335814fcb
+  - ref: refs/heads/testme
+    old: d6cb0f01644c5cd2bc51b88df933e07849cfaa76
+    new: 082c23c035f058d078d4a1d66966452e21e235ee
     log: |
-         8f012db27c9516be1a7aca93ea4a6ca9c75056c9 x86/numa: Introduce numa_fill_memblks()
-         8f1004679987302b155f14b966ca6d4335814fcb ACPI/NUMA: Apply SRAT proximity domain to entire CFMWS window
+         34c5797381120a163a0994503935ec4156a1615c x86/tdx: Remove new added __tdx_hypercall_ret() function calls
+         082c23c035f058d078d4a1d66966452e21e235ee x86/tdx: Remove new added uses of 'struct tdx_hypercall_args'
          
