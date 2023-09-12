@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 12 Sep 2023 22:07:30 -0000
-Message-Id: <169455645079.13660.4284751987682639753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 12 Sep 2023 22:09:46 -0000
+Message-Id: <169455658623.14619.9643743474685148712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3eeb42da395776ed2efe566e3cea018f2364ef86
-    new: cdcecec03d306b9c92cb323fdcaa8b7444e6f93c
+  - ref: refs/heads/main
+    old: cd8bae85815416d19f46e3828d457442f77de292
+    new: 8fc8911b66962c6ff4345e7000930a4bcc54ae5a
     log: |
-         cdcecec03d306b9c92cb323fdcaa8b7444e6f93c igc: Expose tx-usecs coalesce setting to user
+         b49d252216e4f9e3030865b79d5ca16f050e4a19 tcp: no longer release socket ownership in tcp_release_cb()
+         11445469dec803730ac7f78a5ad2a5ed131fa941 net: sock_release_ownership() cleanup
+         4505dc2a522826975167823f64f0896bac1323fb net: call prot->release_cb() when processing backlog
+         133c4c0d37175f510a10fa9bed51e223936073fc tcp: defer regular ACK while processing socket backlog
+         8fc8911b66962c6ff4345e7000930a4bcc54ae5a Merge branch 'tcp-backlog-processing-optims'
          
