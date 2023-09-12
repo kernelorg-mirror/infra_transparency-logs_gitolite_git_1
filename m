@@ -1,32 +1,44 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Sep 2023 00:01:43 -0000
-Message-Id: <169447690376.19199.8742026250585484179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 12 Sep 2023 00:26:53 -0000
+Message-Id: <169447841399.4935.6158130287563674761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/for-linus
-    old: e616a916fe8431ebd5eb3cf4ac224d143c57083c
-    new: 7e6096634c66ad889ecbce759a47ddd308ade85f
+  - ref: refs/heads/clk-fixes
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: 83df5bf010eb5ccc11ce95f2d076515ec216c99c
     log: |
-         f101583fa9f8c3f372d4feb61d67da0ccbf4d9a5 ASoC: soc-utils: Export snd_soc_dai_is_dummy() symbol
-         e765886249c533e1bb5cbc3cd741bad677417312 ASoC: tegra: Fix redundant PLLA and PLLA_OUT0 updates
-         2f9426905a63be7ccf8cd10109caf1848aa0993a ASoC: fsl: imx-pcm-rpmsg: Add SNDRV_PCM_INFO_BATCH flag
-         7e6096634c66ad889ecbce759a47ddd308ade85f Fix redundant PLLA update
+         1aa2a9f27627447da247997c34c71af9402fa237 dt-bindings: clock: versaclock3: Add description for #clock-cells property
+         576418e3417267e93ffee09c46f56434108c4548 clk: vc3: Fix 64 by 64 division
+         6dcf03bcac31dec528867180f96580652fc3ac5b clk: vc3: Fix output clock mapping
+         eec11486d191c6247e6ffdc898bc31da3cfadcce clk: vc3: Make vc3_clk_mux enum values based on vc3_clk enum values
+         b7b20cfe6f849c2682c5f7d3f50ede6321a5d04c clk: sprd: Fix thm_parents incorrect configuration
+         f03a562450eef35b785a814005ed164a89dfb2db clk: si521xx: Use REGCACHE_FLAT instead of NONE
+         83df5bf010eb5ccc11ce95f2d076515ec216c99c clk: si521xx: Fix regmap write accessor
          
-  - ref: refs/heads/for-next
-    old: 0a0c55037e699b0ff6240d24a7e1c85d1b45215a
-    new: dbc5c85d1a3eb999feed383b85bd0e09a2215a56
+  - ref: refs/heads/clk-next
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: 3b8ca9c179128f5834e2dd89cc7193c6c28bac66
     log: |
-         f101583fa9f8c3f372d4feb61d67da0ccbf4d9a5 ASoC: soc-utils: Export snd_soc_dai_is_dummy() symbol
-         e765886249c533e1bb5cbc3cd741bad677417312 ASoC: tegra: Fix redundant PLLA and PLLA_OUT0 updates
-         2f9426905a63be7ccf8cd10109caf1848aa0993a ASoC: fsl: imx-pcm-rpmsg: Add SNDRV_PCM_INFO_BATCH flag
-         7e6096634c66ad889ecbce759a47ddd308ade85f Fix redundant PLLA update
-         dbc5c85d1a3eb999feed383b85bd0e09a2215a56 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         f2af7cb8ac0f825b415b4846a526bddba68807b1 clk: asm9620: Remove 'hw' local variable that isn't checked
+         14aaccbd34e93c0bbaaf475d174ece170f10f694 clk: gate: fix comment typo and grammar
+         e1680254f005a5dbc9281ab50c1ed660b43d8473 Merge branch 'clk-cleanup' into clk-next
+         1aa2a9f27627447da247997c34c71af9402fa237 dt-bindings: clock: versaclock3: Add description for #clock-cells property
+         576418e3417267e93ffee09c46f56434108c4548 clk: vc3: Fix 64 by 64 division
+         6dcf03bcac31dec528867180f96580652fc3ac5b clk: vc3: Fix output clock mapping
+         eec11486d191c6247e6ffdc898bc31da3cfadcce clk: vc3: Make vc3_clk_mux enum values based on vc3_clk enum values
+         b7b20cfe6f849c2682c5f7d3f50ede6321a5d04c clk: sprd: Fix thm_parents incorrect configuration
+         f03a562450eef35b785a814005ed164a89dfb2db clk: si521xx: Use REGCACHE_FLAT instead of NONE
+         83df5bf010eb5ccc11ce95f2d076515ec216c99c clk: si521xx: Fix regmap write accessor
+         3b8ca9c179128f5834e2dd89cc7193c6c28bac66 Merge branch 'clk-fixes' into clk-next
          
+  - ref: refs/heads/clk-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 14aaccbd34e93c0bbaaf475d174ece170f10f694
