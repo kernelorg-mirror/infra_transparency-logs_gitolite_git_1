@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Tue, 12 Sep 2023 20:14:39 -0000
-Message-Id: <169454967922.26610.12940696884909055931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 12 Sep 2023 20:17:23 -0000
+Message-Id: <169454984312.29287.17568974321442174381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: b972b8ce386c29bcbcd45029a617db3db9e5b6ca
-    new: fbde2418c84e57723ae1698acfe5932a11f4d611
+  - ref: refs/heads/master
+    old: 4eb94a7793074f799b1f558471019e9a21fa9546
+    new: a8f12572860ad8ba659d96eee9cf09e181f6ebcc
     log: |
-         fbde2418c84e57723ae1698acfe5932a11f4d611 Add SPDX license identifiers
+         a8f12572860ad8ba659d96eee9cf09e181f6ebcc bpf: Fix a erroneous check after snprintf()
          
