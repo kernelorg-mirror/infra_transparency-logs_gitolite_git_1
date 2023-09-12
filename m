@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4527040867844508288=="
+Content-Type: multipart/mixed; boundary="===============1602080778627794537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 12 Sep 2023 16:11:06 -0000
-Message-Id: <169453506661.4716.4336181079686374005@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 16:12:19 -0000
+Message-Id: <169453513919.5195.11119603063213952606@gitolite.kernel.org>
 
---===============4527040867844508288==
+--===============1602080778627794537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: a3ce3ff28385c7c0f8503e83f5d42d2083e16390
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-a3ce3ff28385-0bb80ecc33a8.txt
+  - ref: refs/heads/riscv-dt-fixes
+    old: 602afaaa6ef91e35fd0910737928ad30d1deb9d6
+    new: 3e8bd1ba29f5e64c7ff2cb29f737f8510db1092f
+    log: revlist-602afaaa6ef9-3e8bd1ba29f5.txt
 
---===============4527040867844508288==
+--===============1602080778627794537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3ce3ff28385-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-602afaaa6ef9-3e8bd1ba29f5.txt
 
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
@@ -1050,5 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+3e8bd1ba29f5e64c7ff2cb29f737f8510db1092f riscv: dts: starfive: fix NOR flash reserved-data partition size
 
---===============4527040867844508288==--
+--===============1602080778627794537==--
