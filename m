@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 12 Sep 2023 07:24:38 -0000
-Message-Id: <169450347849.21232.16936366783040745538@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 07:25:00 -0000
+Message-Id: <169450350014.21464.1733083425945951282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,14 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 89f298943113450f47049dba05e8a6ace9371ec8
-    new: f97e479da5e2cda953fee49a3f2af0038ae0b2ab
+    old: f97e479da5e2cda953fee49a3f2af0038ae0b2ab
+    new: f4245833f91ce183a8dc43ef8adebaf333b272be
     log: |
-         950ecdc672aec9cd29036b2e2535b07c103af494 perf/x86/intel: Fix broken fixed event constraints extension
-         ffbe4ab0beda55b5c467aa3d95ca14db75a84717 perf/x86/intel: Extend the ref-cycles event to GP counters
-         f97e479da5e2cda953fee49a3f2af0038ae0b2ab Merge branch into tip/master: 'perf/core'
+         c385fe604de7c0696227cc9702673f1f95cbab52 Merge branch into tip/master: 'objtool/urgent'
+         259604113eec3ac3a70cf853986c772e922228b8 Merge branch into tip/master: 'sched/urgent'
+         c808c6835ad7c819ad6e5d2eb891bcfa70a4bb2f Merge branch into tip/master: 'x86/urgent'
+         e3efe9d2d87bfd4bb4b33fe342cab4a3700cb49b Merge branch into tip/master: 'perf/core'
+         465c6797287b91a52dd1fffb35cedccdb0cafc1d Merge branch into tip/master: 'x86/asm'
+         40f03efd91600d69f2c39489a36d1b441b7c7bec Merge branch into tip/master: 'x86/bugs'
+         f4245833f91ce183a8dc43ef8adebaf333b272be Merge branch into tip/master: 'x86/tdx'
          
