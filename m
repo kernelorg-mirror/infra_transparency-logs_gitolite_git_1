@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 12 Sep 2023 07:47:43 -0000
-Message-Id: <169450486308.6562.15610149850761853911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 12 Sep 2023 07:55:07 -0000
+Message-Id: <169450530712.12391.1979184660097833974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 88d31f836b41091dfd9f32c3675e0b225758f993
-    new: 0e2421f56e04b33643b9b3e4e25bcc9314cc5120
+  - ref: refs/heads/main
+    old: 5a124b1fd3e6cb15a943f0cdfe96aa8f6d3d2f39
+    new: cfaa80c91f6f99b9342b6557f0f0e1143e434066
     log: |
-         45c16f41be4e68a239ebd5ab3f1c33b4a9564981 pinctrl: da9062: add missing include
-         32bd20a472eb38dd17b263ac77622d510a832dd9 gpiolib: make gpiochip_get_desc() public
-         0e2421f56e04b33643b9b3e4e25bcc9314cc5120 pinctrl: da9062: don't include private GPIOLIB header
+         cfaa80c91f6f99b9342b6557f0f0e1143e434066 net/tls: do not free tls_rec on async operation in bpf_exec_tx_verdict()
          
