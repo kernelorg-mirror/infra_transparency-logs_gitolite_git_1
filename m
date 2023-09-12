@@ -1,21 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 12 Sep 2023 08:27:22 -0000
-Message-Id: <169450724265.3067.8869384305460077470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 12 Sep 2023 08:52:51 -0000
+Message-Id: <169450877193.21289.15124407235267134031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: 73be7fb14e83d24383f840a22f24d3ed222ca319
-    new: be3af13fc1b5918ab5308eff4d470696325e2d57
+  - ref: refs/heads/for-linus
+    old: 60edec9beffebd01a49c005221230f3a61fe6587
+    new: 22eefaeab03fe968ab7786fb3d5c5abd203a8bab
     log: |
-         0caab0a46d066f068952776cba64158c25be70d4 dt-bindings: net: Add compatible for AM64x in ICSSG
-         b256e13378a90c6465bbab1dcaf8c2847357538d net: ti: icssg-prueth: Add AM64x icssg support
-         be3af13fc1b5918ab5308eff4d470696325e2d57 Merge branch 'add-support-for-icssg-on-am64x-evm'
+         22eefaeab03fe968ab7786fb3d5c5abd203a8bab ALSA: seq: Avoid delivery of events for disabled UMP groups
+         
+  - ref: refs/heads/for-next
+    old: 60edec9beffebd01a49c005221230f3a61fe6587
+    new: 22eefaeab03fe968ab7786fb3d5c5abd203a8bab
+    log: |
+         22eefaeab03fe968ab7786fb3d5c5abd203a8bab ALSA: seq: Avoid delivery of events for disabled UMP groups
+         
+  - ref: refs/heads/master
+    old: d7be1d40ab601d0faf974740728177403ed4f1d2
+    new: 97d9d647183c7802712004073482ab2cd371197a
+    log: |
+         22eefaeab03fe968ab7786fb3d5c5abd203a8bab ALSA: seq: Avoid delivery of events for disabled UMP groups
+         97d9d647183c7802712004073482ab2cd371197a Merge branch 'for-linus'
          
