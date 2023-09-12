@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4280735849319912746=="
+Content-Type: multipart/mixed; boundary="===============1527160491635480269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Sep 2023 22:05:29 -0000
-Message-Id: <169455632932.11489.4646416545812645601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Sep 2023 22:05:36 -0000
+Message-Id: <169455633610.11593.931617020990881151@gitolite.kernel.org>
 
---===============4280735849319912746==
+--===============1527160491635480269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 1263cc0f414d212129c0f1289b49b7df77f92084
     new: ec83a0b39a20d0d9617fa61ff2883404f0f90504
     log: |
@@ -30,28 +30,28 @@ changes:
          ec83a0b39a20d0d9617fa61ff2883404f0f90504 ASoC: rt5640: Fix various IRQ handling issues
          
 
---===============4280735849319912746==
+--===============1527160491635480269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1694556327 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1694556327-036728e305424ff6c05a24804dc564c3b3cba344
+pusher C3F436CA30F5D8EB 1694556334 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694556333-32111d953357478dd09372d99af9ff4b4f5157b3
 
-1263cc0f414d212129c0f1289b49b7df77f92084 ec83a0b39a20d0d9617fa61ff2883404f0f90504 refs/heads/for-6.6
+1263cc0f414d212129c0f1289b49b7df77f92084 ec83a0b39a20d0d9617fa61ff2883404f0f90504 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUA4KcACgkQJNaLcl1U
-h9Bkhgf7Bt41QhnKkqBHFXBLE3DPwkQrtSSA1baBp3JW3SnfjoUby59TfM1WZA7X
-R7LvfE88FmGAnkTb/8zt6Jp7dLcJu8SihTKJ0w5Bo35K1Pmda1pUtsKtBOoNSBPU
-qQ1nJMsEzUk6jL85H3BUoRt/upoOAermvPun3/uw4BVLeYyWap+P/XSooU1w/+Nm
-kdbxc997BiSAYGQnqaq59wMyNZeSZ9VXgUol/dbpVMBhp0JCGVt05oYsLX9gPBRc
-3UvO5RSBUxO/pCx+ct9A/ZNFGCA8NuJaO83ZB8/pAUZixv7tzOJSY+LP/E0XOhb6
-TKu7F5PiQpXm0N33gXaeK94j9x4Epg==
-=j2Zg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUA4K4ACgkQJNaLcl1U
+h9C0YAf/cRXO5W7Cyq01Mtan30eWYhCeymgnbJ++VvOHM9y3BxzkR86p7B8vG9zd
+mZAcumt9IjIunXZpxfXW0w/6aTbdaZ/TF8ccA0l0ehvPr9vHmWpyobHomdaHUBaV
+t7vAluazSBkf1tTRgfBAkOSvy/wSLnJn8dIhDJydZihG2n47fBuaGERr4im2qjzx
+D9CYZhw3s7a81t78be44deZ2RnOLPvMvsoWtNjzgBgw5Dgt4sV2zfkM8Q3/ZW3SU
+2dNBQwQ95FQMJ2OmGU9dDMqso1vlk7YFob7hpOxvYJfmN1WL3mMM8868IPGV992/
+aMWsbiMM1TVUOh24SGskeBxmqekx4Q==
+=jDgo
 -----END PGP SIGNATURE-----
 
---===============4280735849319912746==--
+--===============1527160491635480269==--
