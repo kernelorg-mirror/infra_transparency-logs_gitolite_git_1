@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 12 Sep 2023 19:50:03 -0000
-Message-Id: <169454820350.8504.7959054949992261055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 12 Sep 2023 19:57:48 -0000
+Message-Id: <169454866834.12860.6295822970919713148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/io_uring-mshot-read
-    old: 722475d09929b497f1543e69145856779ef088c8
-    new: f5808a142646fc9650e581c5994dc9d809d827d0
+  - ref: refs/heads/next
+    old: 4779d5dff1edf431bc26262db4342d73b10f0088
+    new: 0f20e617746221161b80f3d25608ffaea6e9aa96
     log: |
-         fd4648410a0f9e98341f43187f1a51f3ff2728b1 io_uring/rw: split io_read() into a helper
-         96fc4449c66b928e872b7421e0a81401342f9f28 io_uring/rw: mark readv/writev as vectored in the opcode definition
-         f5808a142646fc9650e581c5994dc9d809d827d0 io_uring/rw: add support for IORING_OP_READ_MULTISHOT
+         ba46245183940de39e42c8456b85ceaf3519b764 KEYS: trusted: tee: Refactor register SHM usage
+         b36de3bb8dfe3c3b42087d057301befcc3092e11 integrity: powerpc: Do not select CA_MACHINE_KEYRING
+         0f20e617746221161b80f3d25608ffaea6e9aa96 tpm: Fix typo in tpmrm class definition
          
