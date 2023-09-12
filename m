@@ -1,52 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1727736406567007637=="
+Content-Type: multipart/mixed; boundary="===============8722665325443595397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 12 Sep 2023 22:35:01 -0000
-Message-Id: <169455810177.32178.7788433600944340566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 12 Sep 2023 23:05:03 -0000
+Message-Id: <169455990354.21902.18189355624296869127@gitolite.kernel.org>
 
---===============1727736406567007637==
+--===============8722665325443595397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/for-next
-    old: 6c61d4695a9b63b0aa2a550c2cd620f0ce221e20
-    new: fa2259a59966c005c8ffe6983a1996fb41218e42
-    log: revlist-6c61d4695a9b-fa2259a59966.txt
+  - ref: refs/heads/testme
+    old: cf05421db541a74651a18152bc26ff05975c6d6d
+    new: d6cb0f01644c5cd2bc51b88df933e07849cfaa76
+    log: revlist-cf05421db541-d6cb0f01644c.txt
 
---===============1727736406567007637==
+--===============8722665325443595397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c61d4695a9b-fa2259a59966.txt
+Content-Disposition: attachment; filename=revlist-cf05421db541-d6cb0f01644c.txt
 
-dd82e2d26b2a860675405e680a9f1b4b782b1acf ata: ahci: print the lpm policy on boot
-18d0fadd1e115711a3405881f94cb1ca0839a086 ata: libata-core: Fix ata_port_request_pm() locking
-4b09dadd96155edfa35732b0bb8b6b187de0e53a ata: libata-core: Fix port and device removal
-99626085d036ec321403f8f08decab79707a56f0 ata: libata-scsi: link ata port and scsi device
-1eed3791824ccb9210f28081c884c58671351d21 ata: libata-scsi: Disable scsi device manage_start_stop
-88dc891839a735b32007fc0199092a7139bd366c ata: libata-scsi: Fix delayed scsi_rescan_device() execution
-fd46044dcc815952c6976950be22f2e81bbc7b19 ata: libata-core: Do not register PM operations for SAS ports
-67dae12eb407d810f634e075b049531cb03ccf22 scsi: sd: Do not issue commands to suspended disks on remove
-03574ef72bffd58e938f11d7b997f01e49d4e690 ata: libata-core: Fix compilation warning in ata_dev_config_ncq()
-d18499d09208225279bd0629ad695927ddf89f5e ata: libata-eh: Fix compilation warning in ata_eh_link_report()
-e4a9325e1c6d17331e7e48afb00ffbad6f9bb32a scsi: Remove scsi device no_start_on_resume flag
-4d7c14a34f004f6545f6c829ef6a228bdddf6761 ata: libata-scsi: Cleanup ata_scsi_start_stop_xlat()
-8058e62be0bb3285f6f0657b2743397622937256 ata: libata-core: Synchronize ata_port_detach() with hotplug
-03c069b116139d2683dd13ff9057df80921d0ac6 ata: libata-core: Detach a port devices on shutdown
-9ec36b620d087ad873f876201ed6a2746f87bbc3 ata: libata-core: Remove ata_port_suspend_async()
-6d54ab2938a935cce5bc6a0f5f1c9543ff418b37 ata: libata-core: Remove ata_port_resume_async()
-929bf504498e53b6765e2e3857aba8b5941ae51d ata: libata-core: skip poweroff for devices that are runtime suspended
-8aa2d196fae7d4ae88aab436fda765f7f2763132 ata: libata-core: Do not resume ports that have been runtime suspended
-b5280196b307c003bfb7291133f3630b356e90ae ata: libata-sata: Improve ata_sas_slave_configure()
-398563160051fdc05291570c9ae5149fa02a78cc ata: libata-eh: Improve reset error messages
-0f583d23adcfc7df88c8710ee4d7125c869d1281 ata: libata-eh: Reduce "disable device" message verbosity
-fa2259a59966c005c8ffe6983a1996fb41218e42 ata: libata: Cleanup inline DMA helper functions
+019b383d1132e4051de0d2e43254454b86538cf4 x86/tdx: Retry partially-completed page conversion hypercalls
+5d092b66119d774853cc9308522620299048a662 x86/tdx: Zero out the missing RSI in TDX_HYPERCALL macro
+03a423d40cb30e0e1cb77a801acb56ddb0bf6f5e x86/tdx: Skip saving output regs when SEAMCALL fails with VMFailInvalid
+f0024dbfc48d8814d915eb5bd5253496b9b8a6df x86/tdx: Make macros of TDCALLs consistent with the spec
+5efb96289e581c187af1bc288ce5d26ed6181749 x86/tdx: Rename __tdx_module_call() to __tdcall()
+57a420bb8186d1d0178b857e5dd5026093641654 x86/tdx: Pass TDCALL/SEAMCALL input/output registers via a structure
+12f34ed8622aafd3bbd9d8aa4550dcb7016ea1e6 x86/tdx: Extend TDX_MODULE_CALL to support more TDCALL/SEAMCALL leafs
+f9ea69e6406abf2145aba7987e7b81ea1b4ea356 x86/tdx: Make TDX_HYPERCALL asm similar to TDX_MODULE_CALL
+062ddc36b159630ee7db9b4adc0882e44ddac635 x86/tdx: Reimplement __tdx_hypercall() using TDX_MODULE_CALL asm
+8cb19d6ef21bbf7e109336f895574ed2a267ea08 x86/tdx: Remove 'struct tdx_hypercall_args'
+7aeb2aca7ace02d6f4f9f8cd44bf26dc44b2feb0 x86/virt/tdx: Wire up basic SEAMCALL functions
+d6cb0f01644c5cd2bc51b88df933e07849cfaa76 x86/virt/tdx: Make TDX_MODULE_CALL handle SEAMCALL #UD and #GP
 
---===============1727736406567007637==--
+--===============8722665325443595397==--
