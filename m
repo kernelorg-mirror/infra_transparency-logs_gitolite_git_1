@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5262151247575503256=="
+Content-Type: multipart/mixed; boundary="===============8214262174309755551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 12 Sep 2023 02:58:30 -0000
-Message-Id: <169448751014.22676.11879120653366522629@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 02:58:40 -0000
+Message-Id: <169448752020.22781.17127015997485353159@gitolite.kernel.org>
 
---===============5262151247575503256==
+--===============8214262174309755551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/kbuild
     old: 6099776f9f268e61fe5ecd721f994a8cfce5306f
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-6099776f9f26-0bb80ecc33a8.txt
 
---===============5262151247575503256==
+--===============8214262174309755551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -367,4 +367,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============5262151247575503256==--
+--===============8214262174309755551==--
