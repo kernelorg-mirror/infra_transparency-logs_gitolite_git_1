@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 12 Sep 2023 16:24:29 -0000
-Message-Id: <169453586926.13516.18054550645498878931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Tue, 12 Sep 2023 16:28:26 -0000
+Message-Id: <169453610625.16503.7409638574932269700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/todo
-    old: 4d456c54bf1852e825d56e627a8ffd672ce5da9d
-    new: 4d69cf7a58775e64bef1e56a8e3441fae4bd417d
+  - ref: refs/heads/for-next
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: a7d79bcc8364483b0d39c944d72b425cf06eccc5
     log: |
-         2a393571e576ebac27852cc637080df9812b75d1 Meta/V: give summary hash at the end
-         4d69cf7a58775e64bef1e56a8e3441fae4bd417d What's cooking (2023/09 #04)
+         f28992902b17245af042913d6cfd6a1cc100bcaf power: supply: bq256xx: Use i2c_get_match_data()
+         02e673e59c3d374924422f74fb229ae4ee6715fc power: supply: bq256xx: Some cleanups
+         a7d79bcc8364483b0d39c944d72b425cf06eccc5 power: supply: sbs-battery: Make similar OF and ID table
          
