@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5044846269866966611=="
+Content-Type: multipart/mixed; boundary="===============3126276002372052611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 12 Sep 2023 19:31:59 -0000
-Message-Id: <169454711941.24254.7058518710460234858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 12 Sep 2023 19:32:09 -0000
+Message-Id: <169454712967.24483.17806481217455257288@gitolite.kernel.org>
 
---===============5044846269866966611==
+--===============3126276002372052611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 9bfaacf378d1e60d67d625543ba5fccae432f4d0
     log: revlist-4d81943df7e2-9bfaacf378d1.txt
 
---===============5044846269866966611==
+--===============3126276002372052611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f44e4e8add8f973bd7cc57467a1e0f5bbda915dd perf lock contention: Add -G/--cgroup-f
 3c9b222e08dcded92efebc95927b9c3d96c72e1a perf util: Add a function for replacing characters in a string
 9bfaacf378d1e60d67d625543ba5fccae432f4d0 perf test: Add a test for strcmp_cpuid_str() expression
 
---===============5044846269866966611==--
+--===============3126276002372052611==--
