@@ -1,52 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0945439040373423979=="
+Content-Type: multipart/mixed; boundary="===============1205899044162822425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Sep 2023 14:50:37 -0000
-Message-Id: <169453023717.9416.9066516860967991057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Tue, 12 Sep 2023 14:55:32 -0000
+Message-Id: <169453053252.12789.18054834811889826968@gitolite.kernel.org>
 
---===============0945439040373423979==
+--===============1205899044162822425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 0ed30d3fe2c771e12961f97d951cbd3f31a067aa
-    new: 2b3357dc415b331c53adc499eda140b12e99afb9
-    log: |
-         9ff143aaabba989f275612de0d83cf9d39274828 ASoC: dt-bindings: qcom,lpass-tx-macro: Add SM6115
-         510c46884299cf8da8e9d7db27572eafa9a0c567 ASoC: codecs: lpass-tx-macro: Add SM6115 support
-         2b3357dc415b331c53adc499eda140b12e99afb9 SM6115 TX Macro
-         
+  - ref: refs/heads/rpi/v6.5/imx219/next
+    old: 421556a641ae934a1d067e955184f92806c5b174
+    new: c7f7ad28250e6bfcaf3894741666a1ac3cd589d7
+    log: revlist-421556a641ae-c7f7ad28250e.txt
 
---===============0945439040373423979==
+--===============1205899044162822425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-421556a641ae-c7f7ad28250e.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694530235 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1694530235-6db7debd04ebea0b9ba7d360515f545344451e7f
+570ff0fd10ec6c5bb801b178d5cd5ba816fffc99 media: i2c: imx219: Fix crop rectangle setting when changing format
+f9ea069837faa80ad3a7b215b2bd8ddf60d54f36 media: i2c: imx219: Perform a full mode set unconditionally
+e5a2ae7436c0bd91e1e31281acbe40bc6995d161 media: i2c: imx219: Convert to CCI register access helpers
+7c65d19f022b6336ff14ef853dbf3af0f5ca5cdf media: i2c: imx219: Drop unused macros
+7a3916f338016817b79e198c7bcec88f4b3bf007 media: i2c: imx219: Replace register addresses with macros
+866c5281afb8a23c2a49a93e6d6ce9618a99ba34 media: i2c: imx219: Drop IMX219_REG_CSI_LANE_MODE from common regs array
+7b18eaad175646c5cb5d9e65c1bf0330844d3c67 media: i2c: imx219: Fix test pattern window for 640x480 mode
+79a8fc77d832718a0da65e6d95859d360b1a9803 media: i2c: imx219: Set mode registers programmatically
+2f1f52d9fa6e6d190cb3f4043e7ec143ad73e4da media: i2c: imx219: Merge format and binning setting functions
+3817d0fb4ef07ce75d4f8852b5e69a7454d99b70 media: i2c: imx219: Initialize ycbcr_enc
+326709839db7bef036a09d705a3e55f235181ab1 media: i2c: imx219: Use active crop rectangle to configure registers
+b8d585a2fd2e189503f24e3366cb8a6f60964c1c media: i2c: imx219: Infer binning settings from format and crop
+cd92bee6c40a108311cb82a36bcad5798bedcf6e media: i2c: imx219: Access height from active format in imx219_set_ctrl
+5325a799a346e7affdfb8ea094d23d227a6225b1 media: i2c: imx219: Don't store the current mode in the imx219 structure
+cb6e482d6b92b2a5920860227cc24428f20a99cb media: i2c: imx219: Drop IMX219_VTS_* macros
+0ad9522e3d24a5262ecf68c77cfeb47863e66f07 media: i2c: imx219: Group functions by purpose
+cddfdbba3e219c4ef5461b48cc701ea0ba6ece11 media: i2c: imx219: Drop system suspend/resume operations
+186787123b3b13fb13e66596c6849936e5e1dbff media: i2c: imx219: Implement .init_cfg() using .set_fmt()
+30f8526b4b8b617081ddf75255f43c74d437a1f2 media: i2c: imx219: Calculate crop rectangle dynamically
+3c09ca8a8ced3cfbac94ddf07e1f68feb6115290 media: i2c: imx219: Name all subdev state variables 'state'
+c7f7ad28250e6bfcaf3894741666a1ac3cd589d7 media: i2c: imx219: Move variables to inner scope
 
-0ed30d3fe2c771e12961f97d951cbd3f31a067aa 2b3357dc415b331c53adc499eda140b12e99afb9 refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUAersTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0C45B/9/uk+9OxaVNRItcl0L+EzE6ZS+hoPy
-uppk+XhGk/cJaFEXKGpcl2ZWLeAE1IgxFzm4m2D5Vj1H68cK4+3l6vVgCpyCEm7p
-76vfDieLOTrnf/jrMRtZhyHbKc0nBrGZUs34m+idMi0Pe22+AG+AucIg7hxKbjNA
-KnM8oRngXAHtE8W2/B5yC0Mqp4jlkl7mYBATjFLaVhdj2WBYgKui21yXqqtKq2Cu
-tPoBGCs81Ml4aBubjIbinb7jSwMCPpRxM50SqwXddtkmxno2SV6K2SzD3dqiD6KO
-fTWe+l0BdrGtfKIbtca/Y3QVI26z0Yuw1PWuD/mrjIiQ5ASCXwdItlgC
-=HiGm
------END PGP SIGNATURE-----
-
---===============0945439040373423979==--
+--===============1205899044162822425==--
