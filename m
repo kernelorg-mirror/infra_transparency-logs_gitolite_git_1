@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7783844941668684317=="
+Content-Type: multipart/mixed; boundary="===============9072852183678686914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Sep 2023 17:37:30 -0000
-Message-Id: <169454025032.4631.12828953901623715000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 12 Sep 2023 17:37:55 -0000
+Message-Id: <169454027533.4919.12812208054122294515@gitolite.kernel.org>
 
---===============7783844941668684317==
+--===============9072852183678686914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
   - ref: refs/heads/for-6.7
-    old: 2b3357dc415b331c53adc499eda140b12e99afb9
-    new: b399dc73f012e463dad38410c147467a292ba4bb
+    old: ab6fa92531abfcc1f50062e867fe7d001b293f82
+    new: dd35a4debcf917f069e83f60b6ac84b5cad6e5e3
     log: |
-         b399dc73f012e463dad38410c147467a292ba4bb ASoC: rsnd: remove unneeded of_node_put()
+         dd35a4debcf917f069e83f60b6ac84b5cad6e5e3 regulator: rk808: Drop useless headers
          
 
---===============7783844941668684317==
+--===============9072852183678686914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1694540248 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1694540248-7bc39875dcd179d26c2a369730e5731b504b7b2f
+pusher Mark Brown <broonie@kernel.org> 1694540273 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1694540273-00046ea0108356a596b4b5f9034847ecbdf8a9d4
 
-2b3357dc415b331c53adc499eda140b12e99afb9 b399dc73f012e463dad38410c147467a292ba4bb refs/heads/for-6.7
+ab6fa92531abfcc1f50062e867fe7d001b293f82 dd35a4debcf917f069e83f60b6ac84b5cad6e5e3 refs/heads/for-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUAodgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0AfBB/9joMs4XSZvecujTPHeWpwUSRcotlr9
-dWQK0I0duwRtMs4QyDtyOMMU657+GH1c2m6wS5fqmG8OXIdoPgqt8iZwgaHHh2sC
-nMykYfUyU4BvH2MBWUu1nzefB6TRRc4lBng1/C/m0MREZegbklQuseTXGWE9tNlL
-E73WK3s/+LTgdsyGX0EjTcVMt/q7lEp2w++MRLdoPO5LEfs7EutpcRjAtFhFw4SL
-t3dReUAsbRrS6bcFvNo71EjVN8YeZeZhFQtYS4pL8wJCWuGGchKD+Q+AeX8jKs51
-tXhrrxzEOUDfXolqNzdi2sFZaFbLV4XuW1LxMJ6hv3EynYQwHlypDnca
-=sIXq
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUAofETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Dy6B/0T3ZZu4y4d1iEQJkNT2Ok8jCFnPuYT
+RrPC+PixpWbPqNFEehTWqZwE+BrExM9Y1H1hLfIOVHe7Jp/16tvijVKEneJJbjb3
+iS5K9daII/X90TcUsZWofiWK4kr5M2Piv2NY2TwBw76h9BzblRM3dnNd6oQ7Sx6h
+DErh9XNWO1RbzRczjMLhXfwNYLD/jOlryVBv12Ezsn/vRSBFBijwqMRqisXXh+Qt
+fFrJQa2fN32oc6VxbBS0pTDnT2vLpiU3ObXGyKzGyZHaHvroYYH+PUqUNv54XMq4
+Vo+a1lNu//4hU0K8WqRhcSnL2gkGk3iAJYkxfFpV3sw7z/xLfNJyWz67
+=nkyH
 -----END PGP SIGNATURE-----
 
---===============7783844941668684317==--
+--===============9072852183678686914==--
