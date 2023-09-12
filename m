@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3266027726275858989=="
+Content-Type: multipart/mixed; boundary="===============4265780806689940880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 12 Sep 2023 09:17:36 -0000
-Message-Id: <169451025615.7365.8060779509330783482@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 09:17:54 -0000
+Message-Id: <169451027445.7541.14862908919086156262@gitolite.kernel.org>
 
---===============3266027726275858989==
+--===============4265780806689940880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: cd04b554c075db0e7b119774fd0e985ffc97058d
     new: 22da192f43f7d302d02644efa192ba5a05d935c9
     log: revlist-cd04b554c075-22da192f43f7.txt
 
---===============3266027726275858989==
+--===============4265780806689940880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ dcc3ac1381eff05e4ab546a42798dd6837b295a7 iio: accel: adxl345: Simplify adxl345_r
 c377e2febd91e21782f9106e663937f0629f39f1 iio: dac: mcp4725: Add dac_reg_offset to struct mcp4725_chip_info
 22da192f43f7d302d02644efa192ba5a05d935c9 iio: pressure: ms5637: Use i2c_get_match_data()
 
---===============3266027726275858989==--
+--===============4265780806689940880==--
