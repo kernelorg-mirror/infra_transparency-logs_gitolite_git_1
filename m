@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 12 Sep 2023 15:57:13 -0000
-Message-Id: <169453423366.25620.8640438380130868346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 12 Sep 2023 15:59:14 -0000
+Message-Id: <169453435480.26402.15078321511148908126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: 9e6ca8d0d62302a0667b3a048674de79b7eb2da2
-    new: 92eac7e4bf14d97c07632596554fb686338cf323
+    old: 5a124b1fd3e6cb15a943f0cdfe96aa8f6d3d2f39
+    new: 7a6102aa6df0d5d032b4cbc51935d1d4cda17254
     log: |
-         92eac7e4bf14d97c07632596554fb686338cf323 vdpa: consume device_features parameter
-         
-  - ref: refs/heads/master
-    old: 9e6ca8d0d62302a0667b3a048674de79b7eb2da2
-    new: 92eac7e4bf14d97c07632596554fb686338cf323
-    log: |
-         92eac7e4bf14d97c07632596554fb686338cf323 vdpa: consume device_features parameter
+         cfaa80c91f6f99b9342b6557f0f0e1143e434066 net/tls: do not free tls_rec on async operation in bpf_exec_tx_verdict()
+         403f0e771457e2b8811dc280719d11b9bacf10f4 net: macb: fix sleep inside spinlock
+         7a6102aa6df0d5d032b4cbc51935d1d4cda17254 veth: Update XDP feature set when bringing up device
          
