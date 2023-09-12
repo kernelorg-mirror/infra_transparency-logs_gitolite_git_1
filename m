@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3966370561607936067=="
+Content-Type: multipart/mixed; boundary="===============1727736406567007637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 12 Sep 2023 22:34:52 -0000
-Message-Id: <169455809232.31583.8878074176198959425@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 22:35:01 -0000
+Message-Id: <169455810177.32178.7788433600944340566@gitolite.kernel.org>
 
---===============3966370561607936067==
+--===============1727736406567007637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/for-next
     old: 6c61d4695a9b63b0aa2a550c2cd620f0ce221e20
     new: fa2259a59966c005c8ffe6983a1996fb41218e42
     log: revlist-6c61d4695a9b-fa2259a59966.txt
 
---===============3966370561607936067==
+--===============1727736406567007637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ b5280196b307c003bfb7291133f3630b356e90ae ata: libata-sata: Improve ata_sas_slave
 0f583d23adcfc7df88c8710ee4d7125c869d1281 ata: libata-eh: Reduce "disable device" message verbosity
 fa2259a59966c005c8ffe6983a1996fb41218e42 ata: libata: Cleanup inline DMA helper functions
 
---===============3966370561607936067==--
+--===============1727736406567007637==--
