@@ -1,45 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6120646876715153721=="
+Content-Type: multipart/mixed; boundary="===============0487703674018770084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Tue, 12 Sep 2023 07:28:13 -0000
-Message-Id: <169450369354.24262.8403469576640167374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 12 Sep 2023 07:30:23 -0000
+Message-Id: <169450382327.26727.8776875834404629923@gitolite.kernel.org>
 
---===============6120646876715153721==
+--===============0487703674018770084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: a86308c98d33e921eb133f47faedf1d9e62f2e77
-    new: e17ccef351b424b11ddccc9d228d02a025f9639a
-    log: revlist-a86308c98d33-e17ccef351b4.txt
+  - ref: refs/heads/gpio/for-next
+    old: b32415652a4d250c51c1f1cc59a02c58e7141417
+    new: 88d31f836b41091dfd9f32c3675e0b225758f993
+    log: revlist-b32415652a4d-88d31f836b41.txt
 
---===============6120646876715153721==
+--===============0487703674018770084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a86308c98d33-e17ccef351b4.txt
+Content-Disposition: attachment; filename=revlist-b32415652a4d-88d31f836b41.txt
 
-8105f53edfe4625f42477f2f7ca3339450227b8a xfsprogs: don't allow udisks to automount XFS filesystems with no prompt
-0aac3b2b043a050c917d4b2e2124679eee650fae overflow: Add struct_size_t() helper
-95957f34cea3e69089c35c27a77d81acd55e5023 xfs: fix ag count overflow during growfs
-d03a3c4b235c6ecdda9b27d5f31115ad710b5912 xfs: remove redundant initializations of pointers drop_leaf and save_leaf
-ef16737e44b9274fddcc736ec2da5c07d5c4f703 xfs: use deferred frees for btree block freeing
-01f05365c9456a598164a7d49eabcac22500fa1f xfs: pass alloc flags through to xfs_extent_busy_flush()
-4127f5dc0488840bd2ab5188b400d21cef22435e xfs: don't block in busy flushing when freeing extents
-5835a5620a0294f1bd164d897d15f65607ee6291 xfs: journal geometry is not properly bounds checked
-6ac452dcdd3ebefa34b0601ab5d231339afec8ad xfs: AGF length has never been bounds checked
-d096b26c33a858ad88db98306057da67e6d18611 xfs: fix bounds check in xfs_defer_agfl_block()
-05dcea079c30819909d513b488659a5fe2e876a2 xfs: fix xfs_btree_query_range callers to initialize btree rec fully
-98572f41fbdf26a63f262be775dce1ade0b91520 xfs: AGI length should be bounds checked
-deccac70bd6e2c839c4bb9c6ee0a7241a50d3e42 xfs: convert flex-array declarations in struct xfs_attrlist*
-39e9f4c2937a881293a1c5554a96197340a31879 xfs: convert flex-array declarations in xfs attr leaf blocks
-e17ccef351b424b11ddccc9d228d02a025f9639a xfs: convert flex-array declarations in xfs attr shortform objects
+5fb36a8c87d9e99a88d6e9128f1f9ec62f8545f1 gpiolib: acpi: Check if a GPIO is listed in ignore_interrupt earlier
+6cc64f6173751d212c9833bde39e856b4f585a3e gpiolib: acpi: Add a ignore interrupt quirk for Peaq C1010
+1fc95b025f1873ea701655d30c5b8bb9f97d7d28 platform/x86: x86-android-tablets: Remove invalid_aei_gpiochip from Peaq C1010
+56e1f53b58fd13e642a9665eb014860f31f5fc1d platform/x86: x86-android-tablets: Remove invalid_aei_gpiochip support
+8b57d33a6fdbb53d03da762b31e65a1027f74caf platform/x86: x86-android-tablets: Create a platform_device from module_init()
+4014ae236b1d490f5db798d159a03470aec71a40 platform/x86: x86-android-tablets: Stop using gpiolib private APIs
+61226c1cfaf87d8ace76148f6fea42e3d1989373 platform/x86: x86-android-tablets: Use platform-device as gpio-keys parent
+9578db7939fcfa0bdfa6ab767fd0386adf2302eb platform/x86: x86-android-tablets: Drop "linux,power-supply-name" from lenovo_yt3_bq25892_0_props[]
+9a249ec89a5e562f8436ba0edfe7322a22e65b11 Merge tag 'platform-drivers-x86-ib-x86-android-tablets-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into gpio/for-next
+88d31f836b41091dfd9f32c3675e0b225758f993 gpio: sim: don't fiddle with GPIOLIB private members
 
---===============6120646876715153721==--
+--===============0487703674018770084==--
