@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 12 Sep 2023 02:00:46 -0000
-Message-Id: <169448404619.13766.10343949345664766853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 12 Sep 2023 02:06:33 -0000
+Message-Id: <169448439384.17436.13190409551502300702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/damon/next
-    old: 24692f9e7e7e57c8d41172c678816fe576484bc8
-    new: aa2ceac7b1444ad44efc3b6a806ce1c03f9c3b7e
+  - ref: refs/heads/trace/urgent
+    old: 595efe1079cd38a5b7d2762bf6d3bd94105bae0f
+    new: fc52a64416b010c8324e2cb50070faae868521c1
     log: |
-         aa2ceac7b1444ad44efc3b6a806ce1c03f9c3b7e mm/damon/core: get indices for trace_damos_before_apply() only when needed
+         fc52a64416b010c8324e2cb50070faae868521c1 tracing/synthetic: Fix order of struct trace_dynamic_info
          
