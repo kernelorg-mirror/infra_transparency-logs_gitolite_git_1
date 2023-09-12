@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0917865894394935787=="
+Content-Type: multipart/mixed; boundary="===============1736231894857200876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 12 Sep 2023 20:49:48 -0000
-Message-Id: <169455178802.19688.7182362623592085168@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 20:49:56 -0000
+Message-Id: <169455179641.19808.2509914115290618858@gitolite.kernel.org>
 
---===============0917865894394935787==
+--===============1736231894857200876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 708283abf896dd4853e673cc8cba70acaf9bf4ea
-    new: 3669558bdf354cd352be955ef2764cde6a9bf5ec
-    log: revlist-708283abf896-3669558bdf35.txt
+  - ref: refs/heads/dev-test
+    old: 1323a36e78f6fdf355c2ead2edc7cdbb7c47e2df
+    new: 943f7c6f987f4a2bd081e76cf68d4c089dc66c65
+    log: revlist-1323a36e78f6-943f7c6f987f.txt
 
---===============0917865894394935787==
+--===============1736231894857200876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-708283abf896-3669558bdf35.txt
+Content-Disposition: attachment; filename=revlist-1323a36e78f6-943f7c6f987f.txt
 
-64917f4df048a0649ea7901c2321f020e71e6f24 perf trace: Use heuristic when deciding if a syscall tracepoint "const char *" field is really a string
-2ccfad1c2be781f3695f213de740a26d3e6913a3 Merge tags 'ib-mfd-pinctrl-soundwire-v6.6' and 'ib-mfd-regulator-v6.6' into ibs-for-mfd-merged
-8325ec08d67d8f669c32137a5ab2724f0a76de77 mfd: ipaq-micro: Use %*ph for printing hexdump of a small buffer
-87bcc53d214ab280ec887c41ddd2139efd821159 dt-bindings: mfd: Add compatible for pm7550ba
-c5773e5da68c877e8b529989eae90e64d01c5b8c dt-bindings: mfd: Add compatible for pmx75
-d085c27aa62999e2fe054707ab9da2af65d22b2f mfd: rk808: Make MFD_RK8XX tristate
-8e950a60680f3695d98fed5f7add85f493a1420e mfd: atmel-hlcdc: Convert to devm_platform_ioremap_resource()
 41b2e61ae63ee10961be52b15588e4acf073d35d mfd: omap-usb-tll: Convert to devm_platform_ioremap_resource()
 07141cfedfe7fbbf2a32b6bb73f53cdc15dcc588 mfd: ti_am335x_tscadc: Use devm_platform_get_and_ioremap_resource()
 fed64817f0c76b3f47c92d25250f366e5ca09904 mfd: exynos-lpass: Convert to devm_platform_ioremap_resource()
@@ -1050,5 +1043,12 @@ fb52c87a06324e3a9223bf7bb3b087557524f96e Merge tag 'linux-kselftest-kunit-6.6-rc
 a747acc0b752f6c3911be539a2d3ca42b4424844 Merge tag 'linux-kselftest-next-6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2c758cef66865310b59959679dbd5d450174d15d Merge tag 'platform-drivers-x86-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 3669558bdf354cd352be955ef2764cde6a9bf5ec Merge tag 'for-6.6-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+c5d3f9b7649abb20aa5ab3ebff9421a171eaeb22 f2fs: compress: fix deadloop in f2fs_write_cache_pages()
+b0327c84e91a0f4f0abced8cb83ec86a7083f086 f2fs: compress: fix to avoid use-after-free on dic
+2aaea533bf063ed3b442df5fe5f6abfc538054c9 f2fs: compress: do sanity check on cluster when CONFIG_F2FS_CHECK_FS is on
+7e1b150fece033703a824df1bbc03df091ea53cc f2fs: compress: fix to avoid redundant compress extension
+f803982190f0265fd36cf84670aa6daefc2b0768 f2fs: split initial and dynamic conditions for extent_cache
+a4639380bbe66172df329f8b54aa7d2e943f0f64 f2fs: fix to drop meta_inode's page cache in f2fs_put_super()
+943f7c6f987f4a2bd081e76cf68d4c089dc66c65 f2fs: compress: fix to avoid fragment w/ OPU during f2fs_ioc_compress_file()
 
---===============0917865894394935787==--
+--===============1736231894857200876==--
