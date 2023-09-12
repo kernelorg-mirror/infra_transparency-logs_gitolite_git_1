@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 12 Sep 2023 16:30:34 -0000
-Message-Id: <169453623400.19018.7427980278490487965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 12 Sep 2023 16:35:39 -0000
+Message-Id: <169453653910.22488.8757994278427527797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/read-mshot
-    old: 3bfc4ebcb0f9b1b3b5135bfbc9acb4e4264303e8
-    new: 4e2d2cf2eb1d1c5d7f89ad7e3e0f5cee81a1d9ab
+  - ref: refs/heads/fixes
+    old: e0152e7481c6c63764d6ea8ee41af5cf9dfac5e9
+    new: a7af3877be592ac09ec871145d0c577ab47981ea
     log: |
-         4e2d2cf2eb1d1c5d7f89ad7e3e0f5cee81a1d9ab test/read-mshot: add test cases for overflow handling
+         c9e138bfe1aa247da08529761df041b3861f17a4 riscv: kexec: Align the kexeced kernel entry
+         a7af3877be592ac09ec871145d0c577ab47981ea riscv: errata: fix T-Head dcache.cva encoding
          
