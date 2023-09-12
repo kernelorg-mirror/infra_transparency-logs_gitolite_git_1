@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 12 Sep 2023 13:32:32 -0000
-Message-Id: <169452555230.15331.10816374031564090743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 12 Sep 2023 13:34:46 -0000
+Message-Id: <169452568631.16190.14059136949000290622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 2553b5424d7e06bf1b2c43f1ad5bc01e4d314bc8
-    new: bc0cdaf85b24962165dc21c0fc8ecd81ac0eda6e
-    log: |
-         0bd0230922fcbe462322850782bbf8e56be1f4a5 nfsd: Handle EOPENSTALE correctly in the filecache
-         bc0cdaf85b24962165dc21c0fc8ecd81ac0eda6e nfsd: Don't reset the write verifier on a commit EAGAIN
-         
+  - ref: refs/heads/filei4z3aR
+    old: 0000000000000000000000000000000000000000
+    new: b399dc73f012e463dad38410c147467a292ba4bb
+  - ref: refs/heads/filein6MPm
+    old: 0000000000000000000000000000000000000000
+    new: dd35a4debcf917f069e83f60b6ac84b5cad6e5e3
