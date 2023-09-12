@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 12 Sep 2023 20:20:32 -0000
-Message-Id: <169455003209.32188.7753965855062755224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 12 Sep 2023 20:35:20 -0000
+Message-Id: <169455092017.9850.12264192746559152697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: d128860dbb29cafc3c65ca2d22082745a32829dd
-    new: 214bfd267f4929722b374b43fda456c21cd6f016
+    old: 76143190d3c2dd69bd6eac6ca0c1ddbf27735b4d
+    new: 516b42315011a3d31d47d3282a253e49aec272f0
     log: |
-         214bfd267f4929722b374b43fda456c21cd6f016 bpf, cgroup: fix multiple kernel-doc warnings
+         516b42315011a3d31d47d3282a253e49aec272f0 Tue Sep 12 08:33:53 PM UTC 2023
          
