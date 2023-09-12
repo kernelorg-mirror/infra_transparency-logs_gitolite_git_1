@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 12 Sep 2023 19:58:23 -0000
-Message-Id: <169454870367.13243.5208782487259823855@gitolite.kernel.org>
+Date: Tue, 12 Sep 2023 19:58:53 -0000
+Message-Id: <169454873363.13496.656984033903102290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: ba46245183940de39e42c8456b85ceaf3519b764
-    new: 0f20e617746221161b80f3d25608ffaea6e9aa96
+    old: 0f20e617746221161b80f3d25608ffaea6e9aa96
+    new: 377d6151ca9cdce652beb909a1b3445ac2414336
     log: |
-         b36de3bb8dfe3c3b42087d057301befcc3092e11 integrity: powerpc: Do not select CA_MACHINE_KEYRING
-         0f20e617746221161b80f3d25608ffaea6e9aa96 tpm: Fix typo in tpmrm class definition
+         efb8ed56cdef723b3a19e24471881e86f011c167 tpm: Fix typo in tpmrm class definition
+         aa27c56238266614e5a7fb1ecddd4d85b8ff938d KEYS: trusted: tee: Refactor register SHM usage
+         377d6151ca9cdce652beb909a1b3445ac2414336 integrity: powerpc: Do not select CA_MACHINE_KEYRING
          
