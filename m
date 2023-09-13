@@ -1,64 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============3174597754099119492=="
+Content-Type: multipart/mixed; boundary="===============7763611315044608986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 13 Sep 2023 10:35:50 -0000
-Message-Id: <169460135094.6490.14029299155432416479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 13 Sep 2023 10:46:04 -0000
+Message-Id: <169460196486.14658.15631734585559057268@gitolite.kernel.org>
 
---===============3174597754099119492==
+--===============7763611315044608986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/main
-    old: 22446b7ee2bb44fe7a61d8eda6d83bdc726bbbd9
-    new: b13b6bbfbb627884f18982600f7b5a5200652531
+  - ref: refs/heads/devel
+    old: acf4884a571709cad99f98aabe08b7cacd62dc80
+    new: f3244b6551288a2cf060008df98773b6de001201
     log: |
-         5add321c329b1746589b51359259666ca3dbe219 wifi: cfg80211: remove scan_width support
-         2400dfe23fa91612c18c6c8d8a5b8164ff98836c wifi: mac80211: remove shifted rate support
-         e04b1973e2ab1e58a79156317b0dc25f848efdc5 wifi: lib80211: remove unused variables iv32 and iv16
-         0cfaec25995ad3be316631b945be7ced81daa4e7 wifi: nl80211: fixes to FILS discovery updates
-         3b1c256eb4aedfc71dd97d5951ccff824b41d628 wifi: mac80211: fixes in FILS discovery updates
-         66f85d57b7109baf8a7d5ee04049ac9412611d35 wifi: cfg80211: modify prototype for change_beacon
-         b2d431d43c8a3e61a384e0b7b3c9d595ea77895d wifi: nl80211: additions to NL80211_CMD_SET_BEACON
-         6bc5ddb2fd0653a3e66a8e41fa4c20eced13e4d8 wifi: mac80211: additions to change_beacon()
-         13ba6794d29ee273c26f26b6c7892797ac9957ae wifi: cfg80211: allow reg update by driver even if wiphy->regd is set
-         b13b6bbfbb627884f18982600f7b5a5200652531 wifi: cfg80211: call reg_call_notifier on beacon hints
+         89670ec0c91a88d6c3894fbc6d0fffe6e988e1dc pinctrl: qcom: msm8996: Add MPM pin mappings
+         bd1b24686bbdd3a5417e5475bc0204d179bedce5 pinctrl: qcom: sm6115: Add MPM pin mappings
+         9395f831ace53b984c92352b1d2ad0dc9971209e pinctrl: qcom: sm6125: Add MPM pin mappings
+         68a2f05fec4939922aef6710d55c14398a5825f3 pinctrl: qcom: sdm660: Add MPM pin mappings
+         71567fbd1d33ecda0d75463397c9f3c76065dbbd pinctrl: cy8c95x0: Simplify probe()
+         70a3894c0aa0c45cc3cd1200fac4ec6408753913 pinctrl: sx150x: Simplify probe()
+         c9336ebe87e77f92ed04a86c0131a0310d0e200d pinctrl: pinmux: Remove duplicate error message in pin_request()
+         f3244b6551288a2cf060008df98773b6de001201 pinctrl: nuvoton: Fix up Kconfig deps
          
+  - ref: refs/heads/fixes
+    old: 00078e834e110a29cecd22ac5fbc49acbc839c44
+    new: 64061b67335e958e6328bcb5bb2b5490d57f3f59
+    log: |
+         87d315a34133edcb29c4cadbf196ec6c30dfd47b pinctrl: nuvoton: wpcm450: fix out of bounds write
+         8406d6b5916663b4edc604b3effbf4935b61c2da pinctrl: starfive: jh7110: Fix failure to set irq after CONFIG_PM is enabled
+         64061b67335e958e6328bcb5bb2b5490d57f3f59 pinctrl: starfive: jh7110: Add system pm ops to save and restore context
+         
+  - ref: refs/heads/for-next
+    old: 2eb6e8b8bcf54bea9429e52b46db2b71b65e6d14
+    new: 020e9c593a0d3c3c41fbf537ce3cfd7793430981
+    log: revlist-2eb6e8b8bcf5-020e9c593a0d.txt
+  - ref: refs/heads/b4/novoton-kconfig
+    old: 0000000000000000000000000000000000000000
+    new: 6ddefcd670ca6445caeacf29908e4666f55595bf
 
---===============3174597754099119492==
+--===============7763611315044608986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2eb6e8b8bcf5-020e9c593a0d.txt
 
-certificate version 0.1
-pusher 7BF9099A 1694601323 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1694601323-a37aeb01ac4705ed84435193d3084b362dadbe20
+87d315a34133edcb29c4cadbf196ec6c30dfd47b pinctrl: nuvoton: wpcm450: fix out of bounds write
+89670ec0c91a88d6c3894fbc6d0fffe6e988e1dc pinctrl: qcom: msm8996: Add MPM pin mappings
+bd1b24686bbdd3a5417e5475bc0204d179bedce5 pinctrl: qcom: sm6115: Add MPM pin mappings
+9395f831ace53b984c92352b1d2ad0dc9971209e pinctrl: qcom: sm6125: Add MPM pin mappings
+68a2f05fec4939922aef6710d55c14398a5825f3 pinctrl: qcom: sdm660: Add MPM pin mappings
+71567fbd1d33ecda0d75463397c9f3c76065dbbd pinctrl: cy8c95x0: Simplify probe()
+8406d6b5916663b4edc604b3effbf4935b61c2da pinctrl: starfive: jh7110: Fix failure to set irq after CONFIG_PM is enabled
+64061b67335e958e6328bcb5bb2b5490d57f3f59 pinctrl: starfive: jh7110: Add system pm ops to save and restore context
+70a3894c0aa0c45cc3cd1200fac4ec6408753913 pinctrl: sx150x: Simplify probe()
+c9336ebe87e77f92ed04a86c0131a0310d0e200d pinctrl: pinmux: Remove duplicate error message in pin_request()
+f3244b6551288a2cf060008df98773b6de001201 pinctrl: nuvoton: Fix up Kconfig deps
+020e9c593a0d3c3c41fbf537ce3cfd7793430981 Merge branch 'devel' into for-next
 
-22446b7ee2bb44fe7a61d8eda6d83bdc726bbbd9 b13b6bbfbb627884f18982600f7b5a5200652531 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUBkGsACgkQ10qiO8sP
-aABGYA/+IP/s8vt9V4uR1Xs6owOHu8pGkt8q9heXg41/baFpzVu3VhjXCXTi6mXd
-XcGtrYdQ4crxUKkmHn+DtVAX8oVcTmLR3MtObJ7CUS/245DYVi3u+9Ab5ICNje4D
-HirXqLxc7mPTvXwi4ngTKQgdh/ClfM9OZb7RFdXZvq1IQJ8ZlB3jEs9jn/r/wNnY
-Sg8bInyRGtfdn5pRJjCzep8VkO/tr8OpnFeNcVeXKCM+EzgXV1a5GsYB8IQLAEBv
-iMwdynXYARTLaI/Jubb+m/K5diL2KQazvvYq1DBkDbVexzQBLqwDdvSIpY3SljH1
-wn60BVtCcnhu9VmXwH3sKD7SO9ZeNKhhU2BYkZScW24/4ceD2RHedXeGpjPLYqZn
-Ep6Vrea/v1DYw5wzAhAFVQGO0nuoSVGzeINRTq0fI0t6KhZ82ZMndg+yvwHS4oCy
-ln4kv+YTjoUGhUaPoiBVhGsjwhvFl/zQbiOyC9PBSwPyNKHFmnTc15nEtFCvo/De
-7pA3xTbMsWaSvDboqQ5+c/CMqu7N95E1m8Num5JRSYHNuylXzytwKODO3so2ZRqC
-sU3YIcfXAQ+ZnJJKXodUz0y3zXbZcHhX1axvsfDe5UEHz8lJCGYS69T1CZ26Ch14
-0f49ijThEuLuKgyhFOo65aiKPBkF2VOMzVRu2lJsrGYZlHWvKqU=
-=meXQ
------END PGP SIGNATURE-----
-
---===============3174597754099119492==--
+--===============7763611315044608986==--
