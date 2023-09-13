@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 13 Sep 2023 16:48:58 -0000
-Message-Id: <169462373834.24309.8290392482310436307@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 16:50:05 -0000
+Message-Id: <169462380557.26422.3186279746991166040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
 user: frederic
 changes:
-  - ref: refs/heads/rcu/torture
+  - ref: refs/heads/rcu/docs
     old: 0000000000000000000000000000000000000000
-    new: 8d86d4452a4cf36af59b79c3f646f5b7ebb823b1
+    new: 082acfe39cb0090e97bf27057d0efdf1e89abbef
