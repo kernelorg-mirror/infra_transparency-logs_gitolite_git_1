@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5862686074123447743=="
+Content-Type: multipart/mixed; boundary="===============4495211152901497784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 13 Sep 2023 08:02:51 -0000
-Message-Id: <169459217140.4464.9055563958923910399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 13 Sep 2023 08:03:14 -0000
+Message-Id: <169459219455.4697.8855876650203234800@gitolite.kernel.org>
 
---===============5862686074123447743==
+--===============4495211152901497784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 37c20b2effe987b806c8de6d12978e4ffeff026f
-    new: d1383077c225ceb87ac7a3b56b2c505193f77ed7
+  - ref: refs/heads/master
+    old: 5101c4c3a98b50789487201408dd4e68242086b9
+    new: 0e97d4f6e5d70e8e9c6fbfc1567b96ae4d3e8926
     log: |
-         d1383077c225ceb87ac7a3b56b2c505193f77ed7 wifi: cfg80211: add missing kernel-doc for cqm_rssi_work
+         0e97d4f6e5d70e8e9c6fbfc1567b96ae4d3e8926 drop 6.4 from active kernel version
          
 
---===============5862686074123447743==
+--===============4495211152901497784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1694592150 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1694592150-9cd064dd1b41e4ad9f365ed52730d4b184e0457a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694592193 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1694592192-aae24150c93da897e915c8116e4a2a546c3d7970
 
-37c20b2effe987b806c8de6d12978e4ffeff026f d1383077c225ceb87ac7a3b56b2c505193f77ed7 refs/heads/main
+5101c4c3a98b50789487201408dd4e68242086b9 0e97d4f6e5d70e8e9c6fbfc1567b96ae4d3e8926 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUBbJYACgkQ10qiO8sP
-aAA//RAAi6qVTkkZbXkyHAR6hLFxHVmBtIbpLCGi7a4pRM2xE005+3s2cCHIhdk1
-lG2GoQCM++LtGm1QnRCQa6BpkT9F/VBm1s5/dL9ucQd0VXszNGm1rwHCeRY4luI7
-0nBQrlW/o3OIo6W7Mq4G0CpXefO5hY5XpV+s8h841gmDKqFqL+/k03FWSb3d5owd
-jUdn9zJErzVN/Vyng8qNMbWUtBLiVEtHWM46P+AJlVUGGVzj+Q88NU5YOjSApoFA
-WGdxG1ka/OrXCMTkxBQAbtz0WfQFhggzJLzIMx8QiLlOxB6L8Nd91WYBn9SxPrZJ
-WZ6hwQPxI9qid+7Y8XcfyDV7Z4tKxBlcAjkYg1yad4E+bcghQFjlyvP0THHPiCe3
-IC+zO6Qcp4a/C3P7Lyf+NsfJRbhMsVh4ymOAfKlCHCVlJC4M+BZTnyfz5S2fSBiC
-S/+qlswe0ZrxUxhMu5Rbh+NEDFDtn28NfZxzrqjAr+mriondA/6jc7SNJJ6Gkcwd
-8xmiYPmc2XQjYT4I0lrv3v4RPj/o29gxrNKFEADQfyTSdx0V1nfbEU0J6U2M5yGH
-WJCS+Cjqu8gF3SW4EYVzIuFWM4/Kv9FGlC1A/K+NNWrHLHZkMzZlWJQAgruHFMyb
-kSmDj2mrzdODAZ6+p4bl1l3sX9anrV6fJURqDikMozUk1ePTPYg=
-=YUHX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUBbMEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xz4P/RMHo5rlJrbGVimGHohB
+/cSR861T4psjA98XGTRBrBY8LEtSwxPowNquEiJ+N9tzGJ7K8eIl69FwiNj57+zI
+qf/SJTx2a63QbTo1YV5snnZuxlRT89GIReNC0DIDn6u4Pew7P0KfKAXbS+T3YQxT
+mv1rFZn3MnV9aBUfUrprc3iltWGH5sW8G/kA4/E1OAgpSDM1fVCSgMQk8130EI/W
+epB+EeoQcbEOUI0Ji9Y641HFpdReQHIq6HLb8QLuevbqr6iGx3ya67G1UVc7QgSk
+R/+xgbxNREUQOWr/az3R7TQug+dNf+Sp7plXpIn8JJMVbNYpFQ/YgBGzn9PcpA+7
+LkqLXrI4vMU6bTQdsjAp8Qr4Ds32+zfrPV1rlz24NZ7ecg7Ehxz0qajkxjR2B1k4
+jQ0QlhIsawSNxUfLdJtid3rpkTCsEgYEQXrNK1sKaqBxiVLwvAyl9kHM0yug70Jy
+AHMJtqfVnfs/IA31TVzkqrv1gDFj+M6kDzOtnpkMcSqxFXwNfs+4jjyfe3Un/59k
+ywHUjHi36+reEn/muyrmfamwIm/1Mha92FlwoaigRk+ap/9DFy1WUUYaDU/FX6dE
+D5L2tamgjSyaVYyIWa20x6MLzR/qrjSwTXR/FTHm80fgL3hoCnbVBHVHDlNxBR1h
+yc5KRJxXyYNv+cynxjlxNgzB
+=SITM
 -----END PGP SIGNATURE-----
 
---===============5862686074123447743==--
+--===============4495211152901497784==--
