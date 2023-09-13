@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2877136799844077726=="
+Content-Type: multipart/mixed; boundary="===============4992425700252134402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 13 Sep 2023 07:31:24 -0000
-Message-Id: <169459028433.6206.8967627443011072455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 13 Sep 2023 07:36:02 -0000
+Message-Id: <169459056263.9493.7067851212164890753@gitolite.kernel.org>
 
---===============2877136799844077726==
+--===============4992425700252134402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 56b1a12b3a3a13277efe94f3238b7d43ae01b319
-    new: e17daa632a40c5b5fa98a52b348e248200308e16
+  - ref: refs/heads/main
+    old: 2cf254c1e24fa8f01f42f5a8c77617e56bf50b86
+    new: 8c73d5248dcf112611654bcd32352dc330b02397
     log: |
-         e17daa632a40c5b5fa98a52b348e248200308e16 6.5-stable patches
+         8c73d5248dcf112611654bcd32352dc330b02397 wifi: cfg80211: fix kernel-doc for wiphy_delayed_work_flush()
          
 
---===============2877136799844077726==
+--===============4992425700252134402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694590282 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1694590282-abd88312d5356e444a32091ec1a4a0ab82361b05
+pusher 7BF9099A 1694590540 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1694590540-16444e64bbd0e39f6b8a02c2f868d4819d470a73
 
-56b1a12b3a3a13277efe94f3238b7d43ae01b319 e17daa632a40c5b5fa98a52b348e248200308e16 refs/heads/master
+2cf254c1e24fa8f01f42f5a8c77617e56bf50b86 8c73d5248dcf112611654bcd32352dc330b02397 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUBZUobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PWAQAJSiAdoK+AQ07p9Nhn61
-6x46ZdfNAtG8/Y34GAHG2r+qK+j/LJTWpqWSL+inM3iHDYXLUWE6ixw3PLBP1UPm
-c/dMGwMgI2rIAPOe1hYQMeYWna7gxj+A0x0PRpEBgnQKHDR+8A2cp5fnWO2KHFbf
-5U5LS/zEOrPLdw0kBNEsdImhAs5sWiTzOxqXl1KzaiQPDqObN8roO61+8TPoinYk
-tX/vDQPCUgMLuFtjj6QGu9URLWkojSO7Ru7UloWvejrElNfHkNtz1Nw7Oy4dPkQE
-vh5uKlnPSFydqfWeS9zRg0wjOGM5A1CHCq4jCwLrW8waP2grPn5UNf7N9w5fPBym
-6SCKtR4AKp+ptpIuBlOI95DywxMwoX3iAcRAi+u+tHvZ2p5KykNgmQIWeOB6kUYj
-O1F9dIh01XS867sXUICvk2mhrh+L/bo2m08EtU3tNqnZhMqc79gb4bMKedaVHnJ7
-741uamk/JfgL6cZmV84pVPQTMoEHriQGz5UJ+vmU5Se8LmIqAraXcKDaqk/amNqn
-BlQ/H12m43EoNqZT0fAT8bZ3mMYAehNjvmIbQC4RQ19zjNKcQd5mNSgyz6wJwiYC
-Ng6nFpQh/za/uLqsNSehmPme1cqQV9PvIXXsXvpETWetnhWGIpqDWWdtvdV6StBs
-oIr/hkBE3zptGl0nveolrb4Y
-=ozD/
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUBZkwACgkQ10qiO8sP
+aACE6Q//R9FeRGVXIQO6dt6TVs1p6Eq4MXF6jnItCxHQi7zBeLqKPo5vAIj8PfVY
+cE9Y/ldnvHQ4yUbeVz82Eoh+wZAg+URDD5y9Rrrmk/QY6z3Ypjwp3mCtV/ZhlFJ6
+K9C4wGu9Xc9s1df4HAfFXaxKQPVsz8I17xSevyDIO25LICZFhZ8n0FCoQviOWzTo
+hIml9cFwBzqWrZWQOFip0hUqQWUmStJC9tgoehUQL1EAQWsX+J2LRiSDcSMzZW6S
+3dOUufjZ/hiQgNyJ2j4KVgFyb/RwrONf5EKmxOmQDI0hB1Seje9E6yFsN5EJgbZs
+1vOnCWEzlPN9PFzH1blyEPE1mE4uGgRLPabXZG/0FjFAAFTGrFDFweSewqTV3y7E
+HivMgFq11KXYNdlfLz7oGWMsC/kBnURIjU23oBc/DjyFTAbDr01WORCHy1VKeEic
+/tc/YoxQq8mPBJsdjdnOjfXfOMKeEsqjmR+dDbtwAXU7kbVv2XYKvYMdcou+CeN8
+hXupL8rP4hrE8ZspienHkfSmA36HcTKJqgwK22GmDxnrMkXRUvE0OWmlpucg5r1F
+NRMyMbVwqCxbuhW3YYU2VzXeUlf08v5SauzkETJCRJFv9yw60Ao3vysO6s9d/qVv
+f1xJOrIWM5KBpLZTMzhTFr6pWvoGhnGGZvnlsrjuG2mH0mXaMBI=
+=zrtq
 -----END PGP SIGNATURE-----
 
---===============2877136799844077726==--
+--===============4992425700252134402==--
