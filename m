@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 13 Sep 2023 19:11:56 -0000
-Message-Id: <169463231655.2280.9009246612015829462@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 19:14:46 -0000
+Message-Id: <169463248699.3641.10227759220068992666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: ec7608204faf009fded0efd03c821ba3600ea8b4
-    new: 00be24c416e4844b7c2967ff1aadb57d9c85e50f
+  - ref: refs/heads/testing
+    old: e670bfe2736d3bd4436d160d37544e029f2aa813
+    new: 9dc03309fe9ba9f9b26a37b2dd4fa2d5111a1ccf
     log: |
-         00be24c416e4844b7c2967ff1aadb57d9c85e50f iio: light: vcnl4000: Don't power on/off chip in config
+         9dc03309fe9ba9f9b26a37b2dd4fa2d5111a1ccf iio: ad4310: Replace devm_clk_register() with devm_clk_hw_register()
          
