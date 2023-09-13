@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8277125000964839038=="
+Content-Type: multipart/mixed; boundary="===============8211405231644684585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 13 Sep 2023 22:49:18 -0000
-Message-Id: <169464535881.32088.4013341913269276342@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 22:51:23 -0000
+Message-Id: <169464548386.2233.7369838286901515707@gitolite.kernel.org>
 
---===============8277125000964839038==
+--===============8211405231644684585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,35 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/endpoint
-    old: 6f6a75878e649a78fb4e19bf49e798a8f6e02f26
-    new: 3731355b37a3bd6658808d5c24323b88a0c4d392
-    log: revlist-6f6a75878e64-3731355b37a3.txt
+  - ref: refs/heads/controller/rcar
+    old: 7af65c1120567de8624e021d798438252cbde876
+    new: 3c4a9e4ca63faac15aa1c654698a30b5b7f01657
+    log: revlist-7af65c112056-3c4a9e4ca63f.txt
 
---===============8277125000964839038==
+--===============8211405231644684585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f6a75878e64-3731355b37a3.txt
+Content-Disposition: attachment; filename=revlist-7af65c112056-3c4a9e4ca63f.txt
 
-19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
-899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
-02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
-b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
-8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
-8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
-de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
-b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
-6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
-422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-f1424755db913c5971686537381588261cdfd1ee powerpc/mm/book3s64: Fix build error with SPARSEMEM disabled
-4c33bf147249ebbf3dded016996a8a24c5737254 powerpc/mm/book3s64: Use 256M as the upper limit with coherent device memory attached
-ab574d1629552b6831cd91b926b38092c15d6142 ALSA: usb-audio: Don't try to submit URBs after disconnection
-692f5510159c79bfa312a4e27a15e266232bfb4c Merge tag 'asoc-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-54a3f6e89fbbf12e1e3539a4f977a7536029d780 Merge tag 'nand/for-6.6' into mtd/next
-11b0b802f8e38d48ca74d520028add81263f003e ASoC: codecs: wcd93xx: fix object added to multiple drivers
-8d2a0cdf52299d1f83a7707c5ca6b0c811339aba ASoC: dwc: i2s: Fix unused functions
 d81c203e61780f3635e5eddd03f00d8bdcd7c3df Merge tag 'asoc-fix-v6.5-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 56e65312830ec45e3ccbc929de6f5b86bc301546 devlink: push object register/unregister notifications into separate helpers
 eec1e5ea1d715ce2df8dcdf3dac7112df77a6e17 devlink: push port related code into separate file
@@ -1049,6 +1031,24 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-3731355b37a3bd6658808d5c24323b88a0c4d392 PCI: endpoint: Use IS_ERR_OR_NULL() helper function
+44938b13046b09601ae16a483748e94723ad842a PCI: Add INTx Mechanism Messages macros
+4758bef61cc26f1b6f17e1c751ebd7a3948bba3f PCI: dwc: Change arguments of dw_pcie_prog_outbound_atu()
+5d0e51f85b237ce414376c41143c9dbae6dc6598 PCI: dwc: Add outbound MSG TLPs support
+eb185e1e628adede9ff2fd67e25677bb7d1e9e93 PCI: designware-ep: Add INTx IRQs support
+5dcc1c69f62bf446806c2502ded064d5fc62665e PCI: dwc: endpoint: Add multiple PFs support for dbi2
+d26a3b49d61d3f02ca741d15f83ff683098d3c5e PCI: dwc: Add dw_pcie_link_set_max_link_width()
+f98f4acb9684b4d60f9beca00c043650fa407f7e PCI: dwc: Add missing PCI_EXP_LNKCAP_MLW handling
+162b49cbfcf809cc579768785a881e5704cfd53d PCI: tegra194: Drop PCI_EXP_LNKSTA_NLW setting
+eba0b45b54ab8428787e9747e9e5105f6f145272 PCI: dwc: Add EDMA_UNROLL capability flag
+bcbcd6934b59148e54bcacfefefb2831a29f0f65 PCI: dwc: Expose dw_pcie_ep_exit() to module
+583cb2dccff53a96925aa6a191c70a93019dc6c3 PCI: dwc: Expose dw_pcie_write_dbi2() to module
+b23be5b62897eddffda66afe3964cf8a21bf0a5f PCI: dwc: endpoint: Introduce .pre_init() and .deinit()
+ea8b6705077af39a9aeb55b45fabcf3c81357249 dt-bindings: PCI: dwc: Update maxItems of reg and reg-names
+2d0384a5cfdc77aa951f4130c9a46606082fa773 dt-bindings: PCI: renesas: Add R-Car Gen4 PCIe Host
+d9e4adf267f69f177a9474eaeac1e0dad4d8e5e5 dt-bindings: PCI: renesas: Add R-Car Gen4 PCIe Endpoint
+49d5ccf107f47547c1208fa0247faf607e60635a PCI: rcar-gen4: Add R-Car Gen4 PCIe Host support
+55db2c035ca57da0a3b295d9bccb059582fe6457 PCI: rcar-gen4-ep: Add R-Car Gen4 PCIe Endpoint support
+80a64f1ffc56f68febf03ac72ed73fddf8f424be MAINTAINERS: Update PCI DRIVER FOR RENESAS R-CAR for R-Car Gen4
+3c4a9e4ca63faac15aa1c654698a30b5b7f01657 misc: pci_endpoint_test: Add Device ID for R-Car S4-8 PCIe controller
 
---===============8277125000964839038==--
+--===============8211405231644684585==--
