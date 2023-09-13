@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4660899722667184722=="
+Content-Type: multipart/mixed; boundary="===============8801045425649897841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 13 Sep 2023 21:08:05 -0000
-Message-Id: <169463928584.23083.5594201577898720388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Wed, 13 Sep 2023 21:08:16 -0000
+Message-Id: <169463929634.23226.8910794540258740443@gitolite.kernel.org>
 
---===============4660899722667184722==
+--===============8801045425649897841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: c2122b687c212a28d237fb672cc979247bd94449
     log: revlist-45fc4628c15a-c2122b687c21.txt
 
---===============4660899722667184722==
+--===============8801045425649897841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed 
 15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
 c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
 
---===============4660899722667184722==--
+--===============8801045425649897841==--
