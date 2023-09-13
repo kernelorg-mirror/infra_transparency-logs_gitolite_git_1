@@ -1,49 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============7760530780975514599=="
+Content-Type: multipart/mixed; boundary="===============6849263200167072233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 Sep 2023 15:26:01 -0000
-Message-Id: <169461876143.19569.603393554884278798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 13 Sep 2023 15:29:51 -0000
+Message-Id: <169461899157.20992.7448583013817156467@gitolite.kernel.org>
 
---===============7760530780975514599==
+--===============6849263200167072233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: cdcecec03d306b9c92cb323fdcaa8b7444e6f93c
-    new: 017e6157933a83f4b7676bd80a83e5a1b6ba9dfd
-    log: revlist-cdcecec03d30-017e6157933a.txt
+  - ref: refs/heads/main
+    old: 8fc8911b66962c6ff4345e7000930a4bcc54ae5a
+    new: ca5ab9638e925613f73b575041801a7b2fd26bd4
+    log: revlist-8fc8911b6696-ca5ab9638e92.txt
 
---===============7760530780975514599==
+--===============6849263200167072233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdcecec03d30-017e6157933a.txt
+Content-Disposition: attachment; filename=revlist-8fc8911b6696-ca5ab9638e92.txt
 
-c6d277064b1da7f9015b575a562734de87a7e463 tcp: Factorise sk_family-independent comparison in inet_bind2_bucket_match(_addr_any).
-aa99e5f87bd54db55dd37cb130bd5eb55933027f tcp: Fix bind() regression for v4-mapped-v6 wildcard address.
-c48ef9c4aed3632566b57ba66cec6ec78624d4cb tcp: Fix bind() regression for v4-mapped-v6 non-wildcard address.
-0071d15517b4a3d265abc00395beb1138e7236c7 selftest: tcp: Fix address length in bind_wildcard.c.
-2895d879dd41a588d80acde1aa832deb38d67823 selftest: tcp: Move expected_errno into each test case in bind_wildcard.c.
-8637d8e8b653f4c8b6fd277b434b118f844d1d77 selftest: tcp: Add v4-mapped-v6 cases in bind_wildcard.c.
-ab6c4ec8742a653b1ba06215d9bccb31c4d87d0f Merge branch 'tcp-bind-fixes'
-3c44191dd76cf9c0cc49adaf34384cbd42ef8ad2 ixgbe: fix timestamp configuration code
-bc6ed2fa24b14e40e1005488bbe11268ce7108fa igb: clean up in all error paths when enabling SR-IOV
-c98593303cf5ceeaa3d4307796d2a6d2e6e301ee i40e: fix livelocks in i40e_reset_subtask()
-96ca18dbf67244c8818477955f198090dfbe1130 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
-ae494b682fa726c3699d3e86fe2ed59000fa9a29 i40e: fix 32bit FW gtime wrapping issue
-6191a117145518e3b8e11ddbdcad412d38a3956c iavf: Fix promiscuous mode configuration flow messages
-559a395013a901f4b0b788b19f6224268eaa8c64 igc: Fix infinite initialization loop with early XDP redirect
-192bb775cb0c1134e0219e70f782de32595f3e97 i40e: Fix VF VLAN offloading when port VLAN is configured
-f2a24ecac0c324c8c406c5c32024a26eb62a0962 iavf: add iavf_schedule_aq_request() helper
-78a5326e3901ecf5d51231aafc4d8eb8d0319c56 iavf: schedule a request immediately after add/delete vlan
-6567d815babf175bbd385ed21e79615cb3f0129c i40e: fix potential memory leaks in i40e_remove()
-017e6157933a83f4b7676bd80a83e5a1b6ba9dfd igc: Expose tx-usecs coalesce setting to user
+ac28b1ec6135649b5d78b028e47264cb3ebca5ea net: ipv4: fix one memleak in __inet_del_ifa()
+ced33ca07d8d99435ca3320c740ea947843005ca selftests/net: Improve bind_bhash.sh to accommodate predictable network interface names
+e73d1ab6cd7e7190bd891e521d270cd26ad8e40d net: bcmasp: add missing of_node_put
+281f65d29d6da1a9b6907fb0b145aaf34f4e4822 net: microchip: vcap api: Fix possible memory leak for vcap_dup_rule()
+88e69af061f2e061a68751ef9cad47a674527a1b octeontx2-pf: Fix page pool cache index corruption.
+6912e724832c47bb381eb1bd1e483ec8df0d0f0f net/smc: bugfix for smcr v2 server connect success statistic
+f5146e3ef0a9eea405874b36178c19a4863b8989 net/smc: use smc_lgr_list.lock to protect smc_lgr_list.list iterate in smcr_port_add
+6eadb0b3d085ccbed224599d131425611506c018 Merge branch 'smc-r-fixes'
+fa60b8163816f194786f3ee334c9a458da7699c6 net: stmmac: fix handling of zero coalescing tx-usecs
+9b90aca97f6d5255ca41e716720d138b878cd034 net: ethernet: bcmasp: fix possible OOB write in bcmasp_netfilt_get_all_active()
+51fe0a470543f345e3c62b6798929de3ddcedc1d net: ethernet: mvpp2_main: fix possible OOB write in mvpp2_ethtool_get_rxnfc()
+e4c79810755f66c9a933ca810da2724133b1165a net: ethernet: mtk_eth_soc: fix possible NULL pointer dereference in mtk_hwlro_get_fdir_all()
+0b9c3914ad92e6ac69368a87c82796c4611b7758 Merge branch 'rule_buf-OOB'
+484b4833c604c0adcf19eac1ca14b60b757355b5 hsr: Fix uninit-value access in fill_frame_info()
+32530dba1bd48da4437d18d9a8dbc9d2826938a6 net:ethernet:adi:adin1110: Fix forwarding offload
+02c652f5465011126152bbd93b6a582a1d0c32f1 net: dsa: sja1105: hide all multicast addresses from "bridge fdb show"
+c956798062b5a308db96e75157747291197f0378 net: dsa: sja1105: propagate exact error code from sja1105_dynamic_config_poll_valid()
+7cef293b9a634a05fcce9e1df4aee3aeed023345 net: dsa: sja1105: fix multicast forwarding working only for last added mdb entry
+ea32690daf4fa525dc5a4d164bd00ed8c756e1c6 net: dsa: sja1105: serialize sja1105_port_mcast_flood() with other FDB accesses
+86899e9e1e29e854b5f6dcc24ba4f75f792c89aa net: dsa: sja1105: block FDB accesses that are concurrent with a switch reset
+904de9858eb4b48a217bb6e26f43c37d4c52ff36 Merge branch 'sha1105-regressions'
+a7b8d60b37237680009dd0b025fe8c067aba0ee3 r8152: check budget for r8152_poll()
+c821a88bd720b0046433173185fd841a100d44ad kcm: Fix memory leak in error path of kcm_sendmsg()
+e10a35abb3da12b812cfb6fc6137926a0c81e39a net: ethernet: mtk_eth_soc: fix uninitialized variable
+5a124b1fd3e6cb15a943f0cdfe96aa8f6d3d2f39 net: ethernet: mtk_eth_soc: fix pse_port configuration for MT7988
+5ca636d927a106780451d957734f02589b972e2b i40e: fix potential memory leaks in i40e_remove()
+221465de6bd8090ab61267f019866e8d2dd4ea3d iavf: Fix promiscuous mode configuration flow messages
+7e6cadf51a55e3834db4516b1027894b257a1d39 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+9cc91173cf1b050562244b98af154cef8b9b1096 net: hinic: Use devm_kasprintf()
+a4a09ac64ef211bbcd82b5ff433814746d96605c MAINTAINERS: update tg3 maintainer list
+70ad43333cbeaaa173cce9825f3afa63ba7ce88d selftests/tc-testing: cls_fw: add tests for classid
+7c339083616ce803fce1bfe322bf2e20d8d84ab0 selftests/tc-testing: cls_route: add tests for classid
+e2f2fb3c352da855da2b9e1b2fd43a07cc1cd009 selftests/tc-testing: cls_u32: add tests for classid
+ef765c25875941564edf447302ff339363441e58 net/sched: cls_route: make netlink errors meaningful
+ca5ab9638e925613f73b575041801a7b2fd26bd4 Merge branch 'selftests-classid'
 
---===============7760530780975514599==--
+--===============6849263200167072233==--
