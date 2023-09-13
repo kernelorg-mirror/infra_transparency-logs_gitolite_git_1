@@ -1,78 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0656305249518577198=="
+Content-Type: multipart/mixed; boundary="===============7219131420385986447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 13 Sep 2023 08:36:03 -0000
-Message-Id: <169459416384.3094.14817781703089072481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 13 Sep 2023 08:41:02 -0000
+Message-Id: <169459446258.7827.16723897933006125264@gitolite.kernel.org>
 
---===============0656305249518577198==
+--===============7219131420385986447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/staging-testing
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 4c5ba1d7a93e098aececbf93afbdd7add98ec6f3
-    log: revlist-0bb80ecc33a8-4c5ba1d7a93e.txt
+  - ref: refs/heads/main
+    old: 8c73d5248dcf112611654bcd32352dc330b02397
+    new: 22446b7ee2bb44fe7a61d8eda6d83bdc726bbbd9
+    log: |
+         22446b7ee2bb44fe7a61d8eda6d83bdc726bbbd9 wifi: wext: avoid extra calls to strlen() in ieee80211_bss()
+         
 
---===============0656305249518577198==
+--===============7219131420385986447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694594162 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1694594161-4cc6c78ac564c63f110133e460ddd5ae129c6f02
+pusher 7BF9099A 1694594438 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1694594438-22ba950f10bf2b84fbfb2d1b46a803f3169b2420
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d 4c5ba1d7a93e098aececbf93afbdd7add98ec6f3 refs/heads/staging-testing
+8c73d5248dcf112611654bcd32352dc330b02397 22446b7ee2bb44fe7a61d8eda6d83bdc726bbbd9 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUBdHIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YicP/jRhGzhAODjt2dhNDaBL
-lctyMvhq+tvm9NEVw2r/TKKksHErlQ2i6GflxdS+2bmvxkTazexE2pQ4p7p4DLPE
-1Iw+f9vf1EsQh9hQDi4uGAHn7boUoVaUTdBQbJbv+T/bEGA/NbGaAWHiSw14oSOH
-CoDCfuToJpim4qT1MBplUQbUZcvJRVdGuW7RGYnjFDUxJmoG67CExwF2pfdTaF8j
-ydqrkiKWaH4ViHcEWqcu9zltfx1PHdOacZPF08egubpQx44MnmnSBa8x7l28z/7R
-fB6S2P/gztpiQVIe+N9OxapI0DcOpK2qj9HaJxz9n6XLrnlWsEm0DZQdChowPUC4
-sPyCfwK1PHdFzTH2Bgf1/lXnUtUJCiCbRDZz/V0hjbmfQge97+CSi9zXEd5KQIUy
-5khCgvDYiee1AqNKv6Z6OMGoxbgTjWrW0lJ75SOONbH5dQigHwybGCszll/KgsYk
-J+HNIF/bHti4uEST9IukSJFU8KEBPn3YzOAW6vukl+UCDqnVH87T1awIHo1GSUcS
-Iadc9Pn1d+hAVO8e3H0lt4Zpy/SvOLKx1uwQwHvDDSxnM6QUhj5xTWP9c+UU/lNu
-adZOEg/mndPZAIfrM2CXWOAVfl1N4Hip1KR9ETzuULELt+UBHr8S4MhZMxAVe/3i
-Ndp8+TKKnSh4LYDZ7B0TFx4q
-=Cy+j
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUBdYYACgkQ10qiO8sP
+aAD2dQ/9GdIuhDC7+gh5kBmWnx+NEFae25M7sqDDyWVJMeSww31iiomcHlmGCh5b
+334SMDOCUEYibhr0vad0c43afE4pY7HeMbN9vZLOoFTGr9qsO19qI2PLdf0peFAD
+eKnuLYYo1X46F/qd+xXM3wNjJC+7rYLrgwuVnxrTlj+U7P52l8S6p+1589/u4y3m
+jefBsOCFwk7VtQAepVzBS/6KZb9LBNXvrdrUZz0tv0e529HXxjndIskylgxUM0gl
+uIohdG8/JjRJlaJPU1O2nCPAVqGSlE5fSI4A0McRI8eEr7Dz+woJ5D55ZK8aREzD
+mDXmODYpX8re9JLdt1VfcZj6eM/fIOeZr6IbhV8FWKcZRkYvMGYViCVUG/8yAFQI
+XZfQMZj/gF149D01hGIpuzWN0kqizs4/qyvu8AnZU1QLX/eHxdDpz7MRrLVItxbW
+naH7d/Vo6tz50faX88vfSFOrzy2de+6FgE/d77kpDUzSxUlSNHMAarPH+d8Mf1zE
+VIOoEn/fn57eymRH2eaTH0ur3fPjY3cb95fRf/FDJkjCusfxu4PxQLewTVY6eg0m
+PuwFDt/6cIYrROZ4iWeTx6yGNh6a/e+ZWzoNWm/wdwdgWDHkULREEWb9heOKiCId
+5JQ0Q9jYC2Xp6fbDv1ybk5+ahZOyRrEw6zb8cQzEarbE80pmRjs=
+=LCIM
 -----END PGP SIGNATURE-----
 
---===============0656305249518577198==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-4c5ba1d7a93e.txt
-
-0114d2209e88a0b82445c39d7ff88c20402162dd Staging: rtl8192e: Rename variable pRxTs in function rx_ts_delete_ba()
-568fb23971046ce10b8d7cff265f661f6ce199de Staging: rtl8192e: Rename variable pTS in function rtllib_rx_ADDBAReq()
-88bb0f442c7f8ac361eb83a7619e2de047054e67 Staging: rtl8192e: Rename variable pRxTs in function rtllib_rx_DELBA()
-50174d91b2fce3ca05c77ac87f800e6bd8338bd4 Staging: rtl8192e: Rename variable pRxTs in function rtllib_ts_init_del_ba()
-acb0068f5526b1753870b56125f99343b1dae626 Staging: rtl8192e: Rename variable pRxTs in function rtllib_rx_ba_inact_timeout()
-9ec52579dcb94a818374c9384316545cd0f00a2c Staging: rtl8192e: Rename variable pRxTs in function RxPktPendingTimeout()
-065680fcc6a4f26d3f84f22b3f58cb87a32b4b5a Staging: rtl8192e: Rename variable pTS in function ResetRxTsEntry()
-88e5925126fdcd79160b28319e96e57da9da8de2 Staging: rtl8192e: Rename variable pRxTS in function TSInitialize()
-12123d88b78bb3b7646f9dd3d88aab840ba4e396 Staging: rtl8192e: Rename variable tmp in function GetTs()
-acbc42e16ecd6702dba2fdb8ada224effffde160 Staging: rtl8192e: Rename variable pRxTS in function RemoveTsEntry()
-097df81e30749db1346af1c25fd75edadf019012 Staging: rtl8192e: Rename variable pTS in function prototype rtllib_FlushRxTsPendingPkts()
-b4a08d2ee13d9469b484ab2c4cfdd094eab7909c Staging: rtl8192e: Rename variable pTS in function AddReorderEntry()
-90b35a758cc0e666a451004c158ff69ec2c7e49d Staging: rtl8192e: Rename variable pTS in function rtllib_FlushRxTsPendingPkts()
-959e4565b603195e49882c961604564ecad69535 Staging: rtl8192e: Rename variable pTS in function RxReorderIndicatePacket()
-eb49f4371ba9e87afb7cc52813f33455d4f8ded5 Staging: rtl8192e: Rename variable pRxTS in function rtllib_rx_check_duplicate()
-18c258e42b5059ffb1c97b18ce7ea517bc901019 Staging: rtl8192e: Rename variable pTS in function rtllib_rx_InfraAdhoc()
-4c5ba1d7a93e098aececbf93afbdd7add98ec6f3 staging: vme_user: Use list_for_each_entry() helper
-
---===============0656305249518577198==--
+--===============7219131420385986447==--
