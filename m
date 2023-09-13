@@ -1,44 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3592357644204094829=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 13 Sep 2023 15:17:28 -0000
-Message-Id: <169461824823.4297.7109355458546866063@gitolite.kernel.org>
-
---===============3592357644204094829==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 13 Sep 2023 15:25:27 -0000
+Message-Id: <169461872735.19261.11321692176550154455@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 98ee1708ccc7301dbbfaafec75350f88527046a1
-    new: a5c27b692c5c4b597619a2aaafa285da808ecf69
-    log: revlist-98ee1708ccc7-a5c27b692c5c.txt
-
---===============3592357644204094829==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98ee1708ccc7-a5c27b692c5c.txt
-
-791f7fc3b2880974aa9529caf6104290c92829d5 i2c: Add i2c_get_match_data()
-af4c8a8f4d57c664bc444968596b905af6e32ea6 regulator: raa215300: Update help description
-2e62d2c2bd470c508d61caccc509f0880c8c7683 regulator: raa215300: Change the scope of the variables {clkin_name, xin_name}
-1b9fec9dbc6ac736f82f42879a44d33db20854e9 regulator: raa215300: Fix resource leak in case of error
-3f27229115ed12c01994fbff2fd7ca47fd24e36c regulator: raa215300: Add const definition
-5602d351e21bf2c7d01d3f6d0d252bea469d75e1 regulator: raa215300: Change rate from 32000->32768
-33699a77fbb36b1fb2f12412a2cfc8330b256709 regulator: raa215300: Add missing blank space
-46ec7da764185d5078cf7678123e3f1b4babc8f8 rtc: isl1208: Simplify probe()
-eb502144a9f5a777880f53800d1b0a8b45f2f84a rtc: isl1208: Fix incorrect logic in isl1208_set_xtoscb()
-174a25f6ae8a376baee92ecbf48ac993a2994ee6 arm64: defconfig: Enable PMIC RAA215300 and RTC ISL 1208 configs
-9e0169b29c428f3811b886e59f0a335a2d5a1502 arm64: dts: renesas: rzg2l: Fix txdv-skew-psec typos
-f1fa3a8582fcdf02755bd849be8ae9c7a2f92d7c arm64: dts: renesas: rzg2l-smarc-som: Enable PMIC and built-in RTC
-beb866959ed850d89aa8b74d2bb02e3065de988a arm64: dts: renesas: rzg2lc-smarc-som: Add PHY interrupt support for ETH0
-a5c27b692c5c4b597619a2aaafa285da808ecf69 arm64: dts: renesas: rzg2lc-smarc-som: Enable PMIC and built-in RTC
-
---===============3592357644204094829==--
+  - ref: refs/heads/main
+    old: 8cdd9f1aaedf823006449faa4e540026c692ac43
+    new: bc6ed2fa24b14e40e1005488bbe11268ce7108fa
+    log: |
+         c6d277064b1da7f9015b575a562734de87a7e463 tcp: Factorise sk_family-independent comparison in inet_bind2_bucket_match(_addr_any).
+         aa99e5f87bd54db55dd37cb130bd5eb55933027f tcp: Fix bind() regression for v4-mapped-v6 wildcard address.
+         c48ef9c4aed3632566b57ba66cec6ec78624d4cb tcp: Fix bind() regression for v4-mapped-v6 non-wildcard address.
+         0071d15517b4a3d265abc00395beb1138e7236c7 selftest: tcp: Fix address length in bind_wildcard.c.
+         2895d879dd41a588d80acde1aa832deb38d67823 selftest: tcp: Move expected_errno into each test case in bind_wildcard.c.
+         8637d8e8b653f4c8b6fd277b434b118f844d1d77 selftest: tcp: Add v4-mapped-v6 cases in bind_wildcard.c.
+         ab6c4ec8742a653b1ba06215d9bccb31c4d87d0f Merge branch 'tcp-bind-fixes'
+         3c44191dd76cf9c0cc49adaf34384cbd42ef8ad2 ixgbe: fix timestamp configuration code
+         bc6ed2fa24b14e40e1005488bbe11268ce7108fa igb: clean up in all error paths when enabling SR-IOV
+         
