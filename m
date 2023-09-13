@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2075475018513917474=="
+Content-Type: multipart/mixed; boundary="===============4912899741956051533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 13 Sep 2023 22:46:41 -0000
-Message-Id: <169464520198.30997.4205285421933731848@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 22:48:23 -0000
+Message-Id: <169464530347.31674.15572486318551728914@gitolite.kernel.org>
 
---===============2075475018513917474==
+--===============4912899741956051533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/controller/cadence
-    old: aced10296aec3de21c711c061a49408f17790587
-    new: 77e50a40c63ee4f509f363442b862fb2f10afbc8
-    log: revlist-aced10296aec-77e50a40c63e.txt
+  - ref: refs/heads/controller/vmd
+    old: 1bae18a3eeee2652f346efbdf41a53c8743a3a9c
+    new: 951545a8fd06935c58ae6e9284394dc7155bef64
+    log: revlist-1bae18a3eeee-951545a8fd06.txt
 
---===============2075475018513917474==
+--===============4912899741956051533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aced10296aec-77e50a40c63e.txt
+Content-Disposition: attachment; filename=revlist-1bae18a3eeee-951545a8fd06.txt
 
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
@@ -1049,6 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-77e50a40c63ee4f509f363442b862fb2f10afbc8 PCI: cadence: Drop unused member from struct cdns_plat_pcie
+951545a8fd06935c58ae6e9284394dc7155bef64 PCI: vmd: Fix inconsistent indentation in vmd_resume()
 
---===============2075475018513917474==--
+--===============4912899741956051533==--
