@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6849263200167072233=="
+Content-Type: multipart/mixed; boundary="===============9075219041123300344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 Sep 2023 15:29:51 -0000
-Message-Id: <169461899157.20992.7448583013817156467@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 15:35:52 -0000
+Message-Id: <169461935275.26460.8701242988820919987@gitolite.kernel.org>
 
---===============6849263200167072233==
+--===============9075219041123300344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8fc8911b66962c6ff4345e7000930a4bcc54ae5a
-    new: ca5ab9638e925613f73b575041801a7b2fd26bd4
-    log: revlist-8fc8911b6696-ca5ab9638e92.txt
+  - ref: refs/heads/dev-queue
+    old: 19b09124e99cb947a4bcb06ed00c942204f87800
+    new: 51f20ca710cda900b258b2ce035f8590889afc2d
+    log: revlist-19b09124e99c-51f20ca710cd.txt
 
---===============6849263200167072233==
+--===============9075219041123300344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fc8911b6696-ca5ab9638e92.txt
+Content-Disposition: attachment; filename=revlist-19b09124e99c-51f20ca710cd.txt
 
 ac28b1ec6135649b5d78b028e47264cb3ebca5ea net: ipv4: fix one memleak in __inet_del_ifa()
 ced33ca07d8d99435ca3320c740ea947843005ca selftests/net: Improve bind_bhash.sh to accommodate predictable network interface names
@@ -61,5 +61,45 @@ a4a09ac64ef211bbcd82b5ff433814746d96605c MAINTAINERS: update tg3 maintainer list
 e2f2fb3c352da855da2b9e1b2fd43a07cc1cd009 selftests/tc-testing: cls_u32: add tests for classid
 ef765c25875941564edf447302ff339363441e58 net/sched: cls_route: make netlink errors meaningful
 ca5ab9638e925613f73b575041801a7b2fd26bd4 Merge branch 'selftests-classid'
+f059fb28a9f15c79ef30a2341dbe582d7776143b ice: prefix clock timer command enumeration values with ICE_PTP
+503caf82227c67eaad6023ac2b52429c2fdffe2f ice: retry acquiring hardware semaphore during cross-timestamp request
+cfb52762ed91994480d0aceaabafc9487704d382 ice: Support cross-timestamping for E823 devices
+8c4a92bb1275d21eb83e2bc2a8220ee8948da632 ice: introduce hw->phy_model for handling PTP PHY differences
+36e60f47c4e1852eb24f8b5ca5c86cbe69e7c121 i40e: fix livelocks in i40e_reset_subtask()
+a099304078ebef8e7e5ca4a34250ca12d89f2fbe ice: PTP: Clean up timestamp registers correctly
+1039597c1fd6db2c04cb49b998b5f0daa773e153 ice: PTP: Rename macros used for PHY/QUAD port definitions
+c248117cbb6edef925abcf5de003f08348e094a7 ice: PTP: move quad value check inside ice_fill_phy_msg_e822
+6432715f0747c3ea7b8dd4f1c85e5b5216adac54 ice: Auxbus devices & driver for E822 TS
+4c5a9c0f42a5bbe85e0e235a6ef2315d45432e70 ice: Use PTP auxbus for all PHYs restart in E822
+deb89866e89f2ba833be18117eb08983f0efabe4 ice: PTP: add clock domain number to auxiliary interface
+c9a85c8b7060cc05e8050af64af69b482814bfbe ice: Remove the FW shared parameters
+cb2081fec0fb2968c07fb2037d88f6d797ddbfb7 iavf: do no process adminq tasks when __IAVF_IN_REMOVE_TASK is set
+5993a0a1a8eac155fb3626ab93fbbf42c32db36e ice: remove ICE_F_PTP_EXTTS feature flag
+6d7e5a42ed7d14559030595dadfb90ddfb6ca779 ice: fix pin assignment for E810-T without SMA control
+6ea76a55efc7260f411b80c271a0421d8e964c1d ice: don't enable PTP related capabilities on non-owner PFs
+9fd68dc1e8d607b24a2c853f889a178c50454f02 ice: check the netlist before enabling ICE_F_SMA_CTRL
+337a22352181ea30ef5e1993e4e0cbf00b41724b ice: check netlist before enabling ICE_F_GNSS
+9bf3a8b3b3c80bfd97b9a33e501a3ff40368c141 i40e: fix 32bit FW gtime wrapping issue
+8dffcb08e473cdbaadf7d44cfd61cb57d50779a9 i40e: add tracepoints for nvmupdate troubleshooting
+85138edeccd97813c375dcf94dd55717568c963d ice: remove unused ice_flow_entry fields
+fd57731bcb1d0d55a0060ce59e4d464d5c04bd9f ethernet/intel: Use list_for_each_entry() helper
+13ef30d48406ab3360b65b126758bf3c90ae8522 ixgbe: fix timestamp configuration code
+b9e5c591435edebc2cb20b319a5497e7cf9cc4b3 ice: remove FW logging code
+acad2067213b82d2333f0bf6fb0afe456557c26e ice: configure FW logging
+4144f7869ea80212b4d72d8e1f823da4b4748ca8 ice: enable FW logging
+4fcbcb00f189f41007c0811a4192752ac0ae4e4f ice: add ability to read FW log data and configure the number of log buffers
+7e5aeaa7a560b89e9bbfbb91056a335c8ac4f561 ice: add documentation for FW logging
+498486d4813288fc9e64bcda96db04386ace5259 igb: clean up in all error paths when enabling SR-IOV
+38f704ccc381f5c1fc4fec7e79cd8d87bc7707a0 iavf: remove "inline" functions from iavf_txrx.c
+7da2bf803b349fb231092e5b8685d0ccd60c5601 ice: add drop rule matching on not active lport
+d48a6b9de7ef36940db78979d5d3da02bf5fbc23 igc: Fix infinite initialization loop with early XDP redirect
+059e4854e725f02ed832caff8347096a71082a5e i40e: Fix VF VLAN offloading when port VLAN is configured
+659718ba2be8a5b9f3b6ec6a2d786053ace26929 virtchnl: Add CRC stripping capability
+f6ecf9a3991dbb546b38e1b4a3db5f826b672efa ice: Support FCS/CRC strip disable for VF
+5e1307f76049d43a501686b288310ec0f136974b ice: Check CRC strip requirement for VLAN strip
+0f2e3bf01ae5cb022aee7245ef39643a9190bab5 iavf: Add ability to turn off CRC stripping for VF
+095215c6a6edc47d0976062af3b582d471020ac1 iavf: add iavf_schedule_aq_request() helper
+34a1116a7ff57cf07b7cbf812004c5a467968262 iavf: schedule a request immediately after add/delete vlan
+51f20ca710cda900b258b2ce035f8590889afc2d igc: Expose tx-usecs coalesce setting to user
 
---===============6849263200167072233==--
+--===============9075219041123300344==--
