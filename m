@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
-Date: Wed, 13 Sep 2023 21:54:38 -0000
-Message-Id: <169464207847.24311.18176982788021635008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 13 Sep 2023 22:03:58 -0000
+Message-Id: <169464263877.30907.4561710646107812151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux-next
-user: mcgrof
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/large-block-20230913
-    old: 6b097d8fb00f8328c32eb5d9d13b6e9235152dcd
-    new: c51b71768a3eceba4b664a7d7e6484d9fccec187
+  - ref: refs/heads/locking/core
+    old: 85be6d842447067ce76047a14d4258c96fd33b7b
+    new: e35a6cf1cc343d720ad235f678f1cd2a9876b777
     log: |
-         c51b71768a3eceba4b664a7d7e6484d9fccec187 bpf: Skip unit_size checking for global per-cpu allocator
+         e35a6cf1cc343d720ad235f678f1cd2a9876b777 futex: Use a folio instead of a page
          
