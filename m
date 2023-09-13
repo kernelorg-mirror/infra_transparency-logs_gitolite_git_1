@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1178563165284448801=="
+Content-Type: multipart/mixed; boundary="===============0628542589491113953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 13 Sep 2023 17:47:50 -0000
-Message-Id: <169462727073.3984.8360342693155089825@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 17:47:58 -0000
+Message-Id: <169462727803.4076.8796974373399441281@gitolite.kernel.org>
 
---===============1178563165284448801==
+--===============0628542589491113953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
+  - ref: refs/heads/for-next
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: d1a8ac11ee72c192611b0cae98ad6304314f9ae7
     log: revlist-0bb80ecc33a8-d1a8ac11ee72.txt
 
---===============1178563165284448801==
+--===============0628542589491113953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ c01fb97cf2b55b155ee99c1ad51672f80042a922 remoteproc: mediatek: Setup MT8195 SCP 
 b0cdc6a4df7a8e0bcddd7a302229a6ae9a3e044e remoteproc: mediatek: Report watchdog crash to all cores
 d1a8ac11ee72c192611b0cae98ad6304314f9ae7 remoteproc: mediatek: Refine ipi handler error message
 
---===============1178563165284448801==--
+--===============0628542589491113953==--
