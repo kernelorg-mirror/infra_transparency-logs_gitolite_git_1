@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 13 Sep 2023 02:13:42 -0000
-Message-Id: <169457122239.1842.193560132766046489@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 02:16:08 -0000
+Message-Id: <169457136877.4441.13819412883343862964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,16 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 11f5bec458464b3c82f06749341788512b8e7f7c
-    new: c690c4c96e170484cd818f27809de68164128026
+    old: c690c4c96e170484cd818f27809de68164128026
+    new: 885722877038f1862b5e0b8bd31db6ffca66ee1a
     log: |
-         e756cfde0d41330a0f38c589fb11593eddbbbaf7 erofs-utils: fsck: fix support for 16k block size
-         3c85ae795d1e1c093bf4ff27fdeb480b65a378c6 erofs-utils: lib: make erofs_get_unhashed_chunk() global
-         867a2ab1e85b50ba9924235dffe17a23e7865274 erofs-utils: lib: add erofs_read_xattrs_from_disk() helper
-         11005dc5a1d3d130ca7101b96065646e87396515 erofs-utils: lib: add erofs_insert_ihash() helper
-         3e1f74526d06c99706e5af464a1293db3e6bfffa erofs-utils: lib: add erofs_rebuild_get_dentry() helper
-         0c3a6291f13326199c70c9c529954fb4bb6faac3 erofs-utils: lib: add erofs_rebuild_load_tree() helper
-         5f51006aba770e96818e50c8d2c93578a93a1343 erofs-utils: mkfs: introduce rebuild mode
-         c690c4c96e170484cd818f27809de68164128026 erofs-utils: mkfs: add `--ovlfs-strip` option
+         255011240819a14c289c18615d86c92481f9674d erofs-utils: fsck: fix support for 16k block size
+         2bb98abc996af4fef5e344571aca9b448409fd5d erofs-utils: lib: add list_splice_tail() helper
+         84e333924578f141701f1470f28d914ecb62485c erofs-utils: lib: make erofs_get_unhashed_chunk() global
+         b4fb64916d39c7cda0995f3833687d678e180b45 erofs-utils: lib: add erofs_read_xattrs_from_disk() helper
+         2d3219128406f363e5477c99a2257c909edd99f0 erofs-utils: lib: add erofs_insert_ihash() helper
+         9162ed14a9292b250e3576381e13fe4f50c38f56 erofs-utils: lib: add erofs_rebuild_get_dentry() helper
+         2c95abf46dd0f8f170aa210644736a8d8fe22bd3 erofs-utils: lib: add erofs_rebuild_load_tree() helper
+         30ff8063701aad0443c7a6c4fe24d958ab5c4efd erofs-utils: mkfs: introduce rebuild mode
+         885722877038f1862b5e0b8bd31db6ffca66ee1a erofs-utils: mkfs: add `--ovlfs-strip` option
          
