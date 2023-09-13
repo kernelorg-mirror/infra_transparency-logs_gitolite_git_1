@@ -1,27 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 13 Sep 2023 10:49:21 -0000
-Message-Id: <169460216198.15977.883710208201501361@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6790902832222067245=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 13 Sep 2023 11:10:01 -0000
+Message-Id: <169460340113.30874.16916550248281160784@gitolite.kernel.org>
+
+--===============6790902832222067245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/experimental
-    old: 1835e398ea5b7b1c5f7f9bfcb42a2b3081bb28f7
-    new: 73c9be17a362c17f17014991a6fdc2fcaf7a131a
-    log: |
-         a60ac91eb3100c55c41173156bccda5f962ccf6e erofs-utils: lib: refactor extended attribute name prefixes
-         108dc5cf0f7ac7b65b293fbab7088d96688474e9 erofs-utils: lib: add list_splice_tail() helper
-         317d3a1f79e09732751eed6beea345c74e72b27a erofs-utils: lib: make erofs_get_unhashed_chunk() global
-         87461b1142c381cdf9208470e776421da0d1c5ef erofs-utils: lib: add erofs_read_xattrs_from_disk() helper
-         a793a7ce9d476fc4979f0b74725d871b7fd5b821 erofs-utils: lib: add erofs_insert_ihash() helper
-         8d0eae245fb8769b4df011d31dc4903f134a0373 erofs-utils: lib: add erofs_rebuild_get_dentry() helper
-         d4b0264cea27e2ea90b5ff2bdc00dc0c1076b6cb erofs-utils: lib: add erofs_rebuild_load_tree() helper
-         9f5209a769749ee59df8a259001ce850b668dc94 erofs-utils: mkfs: introduce rebuild mode
-         73c9be17a362c17f17014991a6fdc2fcaf7a131a erofs-utils: mkfs: add `--ovlfs-strip` option
-         
+  - ref: refs/heads/master
+    old: a747acc0b752f6c3911be539a2d3ca42b4424844
+    new: 3669558bdf354cd352be955ef2764cde6a9bf5ec
+    log: revlist-a747acc0b752-3669558bdf35.txt
+
+--===============6790902832222067245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a747acc0b752-3669558bdf35.txt
+
+2d6cd791e63ec0c68ae95ecd55dc6c50ac7829cf btrfs: fix race between finishing block group creation and its item update
+ee34a82e890a7babb5585daf1a6dd7d4d1cf142a btrfs: release path before inode lookup during the ino lookup ioctl
+77d20c685b6baeb942606a93ed861c191381b73e btrfs: do not block starts waiting on previous transaction commit
+e110f8911ddb93e6f55da14ccbbe705397b30d0b btrfs: fix lockdep splat and potential deadlock after failure running delayed items
+4ca8e03cf2bfaeef7c85939fa1ea0c749cd116ab btrfs: check for BTRFS_FS_ERROR in pending ordered assert
+5e0e879926c1ce7e1f5e0dfaacaf2d105f7d8a05 btrfs: fix a compilation error if DEBUG is defined in btree_dirty_folio
+91bfe3104b8db0310f76f2dcb6aacef24c889366 btrfs: improve error message after failure to add delayed dir index item
+2c58c3931ede7cd08cbecf1f1a4acaf0a04a41a9 btrfs: remove BUG() after failure to insert delayed dir index item
+a57c2d4e46f519b24558ae0752c17eec416ac72a btrfs: assert delayed node locked when removing delayed item
+5facccc9402301d67d48bef06159b91f7e41efc0 MAINTAINERS: remove links to obsolete btrfs.wiki.kernel.org
+78034cbece79c2d730ad0770b3b7f23eedbbecf5 platform/mellanox: mlxbf-tmfifo: Drop the Rx packet if no more descriptors
+fc4c655821546239abb3cf4274d66b9747aa87dd platform/mellanox: mlxbf-tmfifo: Drop jumbo frames
+80ccd40568bcd3655b0fd0be1e9b3379fd6e1056 platform/mellanox: mlxbf-pmc: Fix potential buffer overflows
+0f5969452e162efc50bdc98968fb62b424a9874b platform/mellanox: mlxbf-pmc: Fix reading of unprogrammed events
+c2dffda1d8f7511505bbbf16ba282f2079b30089 platform/mellanox: mlxbf-bootctl: add NET dependency into Kconfig
+0a138f1670bd1af13ba6949c48ea86ddd4bf557e platform/mellanox: NVSW_SN2201 should depend on ACPI
+4106a70ddad57ee6d8f98b81d6f036740c72762b platform/x86: asus-wmi: Support 2023 ROG X16 tablet mode
+2c758cef66865310b59959679dbd5d450174d15d Merge tag 'platform-drivers-x86-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+3669558bdf354cd352be955ef2764cde6a9bf5ec Merge tag 'for-6.6-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+
+--===============6790902832222067245==--
