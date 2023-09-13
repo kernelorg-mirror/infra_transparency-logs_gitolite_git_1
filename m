@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4912899741956051533=="
+Content-Type: multipart/mixed; boundary="===============8277125000964839038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 13 Sep 2023 22:48:23 -0000
-Message-Id: <169464530347.31674.15572486318551728914@gitolite.kernel.org>
+Date: Wed, 13 Sep 2023 22:49:18 -0000
+Message-Id: <169464535881.32088.4013341913269276342@gitolite.kernel.org>
 
---===============4912899741956051533==
+--===============8277125000964839038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/controller/vmd
-    old: 1bae18a3eeee2652f346efbdf41a53c8743a3a9c
-    new: 951545a8fd06935c58ae6e9284394dc7155bef64
-    log: revlist-1bae18a3eeee-951545a8fd06.txt
+  - ref: refs/heads/endpoint
+    old: 6f6a75878e649a78fb4e19bf49e798a8f6e02f26
+    new: 3731355b37a3bd6658808d5c24323b88a0c4d392
+    log: revlist-6f6a75878e64-3731355b37a3.txt
 
---===============4912899741956051533==
+--===============8277125000964839038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bae18a3eeee-951545a8fd06.txt
+Content-Disposition: attachment; filename=revlist-6f6a75878e64-3731355b37a3.txt
 
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
@@ -1049,6 +1049,6 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-951545a8fd06935c58ae6e9284394dc7155bef64 PCI: vmd: Fix inconsistent indentation in vmd_resume()
+3731355b37a3bd6658808d5c24323b88a0c4d392 PCI: endpoint: Use IS_ERR_OR_NULL() helper function
 
---===============4912899741956051533==--
+--===============8277125000964839038==--
