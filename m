@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2229488732169997852=="
+Content-Type: multipart/mixed; boundary="===============4705575682622056001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 14 Sep 2023 16:08:42 -0000
-Message-Id: <169470772276.27719.9029062389362986558@gitolite.kernel.org>
+Date: Thu, 14 Sep 2023 16:13:15 -0000
+Message-Id: <169470799526.31053.4470369019229890112@gitolite.kernel.org>
 
---===============2229488732169997852==
+--===============4705575682622056001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/niks/linux
 user: niks
 changes:
-  - ref: refs/heads/b4/viommu-deferred-flush
-    old: 4c3ab11785872552710cff88e33e0c719b2e50ad
-    new: 672b93149b4998a1c1a9bde3bcc98057e9e4fd16
-    log: revlist-4c3ab1178587-672b93149b49.txt
+  - ref: refs/heads/b4/dma_iommu
+    old: a66b2f72bcd37079e026f2525e26272a64f84d93
+    new: c9911c0c3f4a0d88b283562e04fda42a9a9e8e53
+    log: revlist-a66b2f72bcd3-c9911c0c3f4a.txt
 
---===============2229488732169997852==
+--===============4705575682622056001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c3ab1178587-672b93149b49.txt
+Content-Disposition: attachment; filename=revlist-a66b2f72bcd3-c9911c0c3f4a.txt
 
+de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
+b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
 6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
 422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -1041,14 +1043,12 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-2799e7950e9544eff66ea29692256af68530eef0 iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
-53ac8af758f85fad78853aa7f3c9b58993020a75 s390/pci: prepare is_passed_through() for dma-iommu
-4fd25e8fed19a89a4b8be18f2e1268a5595684b8 s390/pci: Use dma-iommu layer
-ae9d287651b44f64884880b7b60c1f60d16736f5 iommu/s390: Disable deferred flush for ISM devices
-133b4e4b041ff924a32158b97cc8fc21887bdba7 iommu/dma: Allow a single FQ in addition to per-CPU FQs
-445586aa9c87ea3f1f0326b74f5a1f8177848f07 iommu/dma: Use a large flush queue and timeout for shadow_on_flush
-a70fe852d0b3444aec3e33ad5a552fd7ae347ccc iommu/virtio: Enable IOMMU_CAP_DERRED_FLUSH
-8e93bc2dc5a7d6d2216782e0856182047aec6e77 iommu/virtio: Make use of ops->iotlb_sync_map
-672b93149b4998a1c1a9bde3bcc98057e9e4fd16 iommu/virtio: Add ops->flush_iotlb_all and enable deferred flush
+bdd550f9f04587c1799ac5e93cbad0f2b1377025 iommu/dma: s390 DMA API conversion and optimized IOTLB flushing
+f4e1b8220cda184cc1b4e1512323e691f245f014 iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
+c688beda226cce0cec496f692209c75b0464a689 s390/pci: prepare is_passed_through() for dma-iommu
+744df9370cdf875339c4be7b28174c1ff87dcb59 s390/pci: Use dma-iommu layer
+0aaa7eb452fa4f3c754618adeb5bab33c1d1a8aa iommu/s390: Disable deferred flush for ISM devices
+fe2785bef2ddf11c0d9b099c9800f96b9c0572a9 iommu/dma: Allow a single FQ in addition to per-CPU FQs
+c9911c0c3f4a0d88b283562e04fda42a9a9e8e53 iommu/dma: Use a large flush queue and timeout for shadow_on_flush
 
---===============2229488732169997852==--
+--===============4705575682622056001==--
