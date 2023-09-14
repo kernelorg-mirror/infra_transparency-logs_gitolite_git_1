@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 14 Sep 2023 18:59:20 -0000
-Message-Id: <169471796041.22949.1506182723203734819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 14 Sep 2023 19:32:25 -0000
+Message-Id: <169471994538.14942.284026215810879993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 8ebde9103978d08918ae8bc7950a6c918b8d2efe
-    new: f123e9b551156647ecd25089ca05bbfa0bed7ce6
+  - ref: refs/heads/drivers-for-6.7
+    old: e9104e73d4fc8a023608be9c18ee1b897d0ccb14
+    new: bc7fbb5ea701b22c09c0fa5acbc122207283366a
     log: |
-         f123e9b551156647ecd25089ca05bbfa0bed7ce6 Thu Sep 14 06:57:33 PM UTC 2023
+         2758ac3a11d78af56e6969af04dec611806a62de firmware: qcom-scm: drop unneeded 'extern' specifiers
+         bc7fbb5ea701b22c09c0fa5acbc122207283366a firmware: qcom-scm: order includes alphabetically
          
+  - ref: refs/heads/arm64-fixes-for-6.6
+    old: 0000000000000000000000000000000000000000
+    new: f822899c28572a854f2c746da5ed707d752458ab
