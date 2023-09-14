@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6663807489918042093=="
+Content-Type: multipart/mixed; boundary="===============2877241072002648831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Thu, 14 Sep 2023 16:04:38 -0000
-Message-Id: <169470747809.23292.3051282979842208998@gitolite.kernel.org>
+Date: Thu, 14 Sep 2023 16:05:50 -0000
+Message-Id: <169470755053.25379.3756245785583514163@gitolite.kernel.org>
 
---===============6663807489918042093==
+--===============2877241072002648831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/iwl-next
+  - ref: refs/heads/main
     old: 457391b0380335d5e9a5babdec90ac53928b23b4
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-457391b03803-0bb80ecc33a8.txt
 
---===============6663807489918042093==
+--===============2877241072002648831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============6663807489918042093==--
+--===============2877241072002648831==--
