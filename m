@@ -1,57 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3688035044294607607=="
+Content-Type: multipart/mixed; boundary="===============1161272222775507484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 14 Sep 2023 16:40:32 -0000
-Message-Id: <169470963267.20081.7435323102413862552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 14 Sep 2023 16:40:39 -0000
+Message-Id: <169470963984.20202.6244959499718472837@gitolite.kernel.org>
 
---===============3688035044294607607==
+--===============1161272222775507484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/arm64/cpucap/cleanup
-    old: 753fa7de8f298cc742513685d8ca5955bc331b91
-    new: f18c17118a776a4fe1509f9f8ef624245725008f
-    log: revlist-753fa7de8f29-f18c17118a77.txt
+  - ref: refs/heads/controller/rcar
+    old: 3c4a9e4ca63faac15aa1c654698a30b5b7f01657
+    new: 5cf68730a04ead0f48518a0b9777dfe30741f0d4
+    log: revlist-3c4a9e4ca63f-5cf68730a04e.txt
 
---===============3688035044294607607==
+--===============1161272222775507484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-753fa7de8f29-f18c17118a77.txt
+Content-Disposition: attachment; filename=revlist-3c4a9e4ca63f-5cf68730a04e.txt
 
-0eb8b96365c9eb6982119b39c21feb521fa710c1 arm64: cpucaps: factor out cpucap definitions
-7fb7a1aa6bae55709514410a53ab3502bcab6773 arm64: cpucaps: add cpucap_is_possible()
-198475885560b6db2218bb905ff9ac21f0ac455c arm64: add cpus_have_final_boot_cap()
-7c2475cacced7f6a13f6fde788a14c3903faba88 WIP: arm64: avoid cpus_have_const_cap() for ARM64_{SVE,SME,SME2,FA64}
-c27878af758d88f390c1c2874a08039172396728 WIP: arm64: avoid cpus_have_const_cap() for ARM64_UNMAP_KERNEL_AT_EL0
-308bc18b8074cb814d442d15e3958f1c84b4cc18 arm64: avoid cpus_have_const_cap() for ARM64_WORKAROUND_CAVIUM_23154
-aa449c1b24da4a9120ccf58f64cb6613e0264bbb arm64: avoid cpus_have_const_cap() for ARM64_HAS_PAN
-12f5a1d7a57a860265b101a6cb3509fc01be1e75 arm64: avoid cpus_have_const_cap() for ARM64_HAS_CACHE_DIC
-7f37b384460ce91b990503b3ea21e30ee57ba56d arm64: avoid cpus_have_const_cap() for ARM64_HAS_RNG
-3dc465453eb614f4b7d3330d6c299df1ef2853d7 arm64: avoid cpus_have_const_cap() for ARM64_HAS_WFXT
-fc124f252e605f9465b22baeae34cc5d30de669a arm64: avoid cpus_have_const_cap() for ARM64_SSBS
-fbcc4f22009e62594116fb15a7d7c18eda760fe1 arm64: avoid cpus_have_const_cap() for ARM64_WORKAROUND_1742098
-f5dd74948e13c7e6428d6aa986bc517588518f67 arm64: avoid cpus_have_const_cap() for ARM64_WORKAROUND_NVIDIA_CARMEL_CNP
-0ef1cfb9502e7f5d30597d0f7179dea0bb252732 arm64: avoid cpus_have_const_cap() for ARM64_SPECTRE_V2
-81a03941218c1fd3c000b8ce24dccca36fcb659b arm64: avoid cpus_have_const_cap() for ARM64_WORKAROUND_843419
-630ab18b498cfca76eaedbc1dc989f6518ee63ff arm64: avoid cpus_have_const_cap() for ARM64_WORKAROUND_2645198
-696ade5d708171760e1dd7920ec8a64c987251d7 arm64: avoid cpus_have_const_cap() for ARM64_WORKAROUND_1542419
-eaf018f24f24e0232dc07338417f131575efad8f arm64: avoid cpus_have_const_cap() for ARM64_HAS_EPAN
-3154221eab06c8eb84f64533450893bd2a48058b arm64: avoid cpus_have_const_cap() for ARM64_HAS_DIT
-e06d0f288f75961350104aa6569759d6fc25bd44 arm64: avoid cpus_have_const_cap() for ARM64_HAS_ARMv8_4_TTL
-a30d55c8da163e7137b7fabc4fdd1e82edfce20e arm64: avoid cpus_have_const_cap() for ARM64_HAS_TLB_RANGE
-b7a247fc46d86e19093b8e6bfd985b0454b18df6 arm64: avoid cpus_have_const_cap() for ARM64_HAS_BTI
-628bfbb637e14c0e7014a7e82d13b0fc319beb11 arm64: avoid cpus_have_const_cap() for ARM64_HAS_GIC_PRIO_MASKING
-96c0131d2eae12e7f51e0742d9f7d8b5629631b5 arm64: avoid cpus_have_const_cap() for ARM64_HAS_CNP
-74f4c58d58e3ac6375d5a64faed539240b6ee473 arm64: avoid cpus_have_const_cap() for ARM64_HAS_{ADDRESS,GENERIC}_AUTH
-5c0c1e9d3033425d2cc8e7073a1be6d7a065a50d WIP: arm64: avoid cpus_have_const_cap() for ARM64_MTE
-f18c17118a776a4fe1509f9f8ef624245725008f WIP: arm64: remove cpus_have_const_cap()
+7fb0bbb5e7823000691f5f36f1dd2e4465f2cb3a PCI: Add Message Routing and INTx Mechanism Message code macros
+ba54df9c30853457d07c7a2e7e4085acaf05a226 PCI: dwc: Collect dw_pcie_prog_outbound_atu() args into a struct
+4ab38a1b2200b1d17bf8c4d98b4eb85190dfc7d7 PCI: dwc: Add outbound MSG TLPs support
+cb769135fcded519bc5b8e96dfd518466e8cd3e3 PCI: designware-ep: Add INTx IRQs support
+1cb7516457f869edd4fbae4be5bae9fad3fd680e PCI: dwc: endpoint: Add multiple PFs support for dbi2
+c3a31c4518445db5cd214cfba5c82347740206b9 PCI: dwc: Add dw_pcie_link_set_max_link_width()
+1c8867e0ab550ce3a7df3a0427380c6337466370 PCI: dwc: Add missing PCI_EXP_LNKCAP_MLW handling
+0d6d591e4de1b2ffdbf7a3aa2489750bf44c0c53 PCI: tegra194: Drop PCI_EXP_LNKCAP_MLW setting
+570ea2df1740a4845e029f309b73a14d4df84d8d PCI: dwc: Add EDMA_UNROLL capability flag
+7843722996c221d48acfcc595bcc68cb5d4fe9dc PCI: dwc: Expose dw_pcie_ep_exit() to module
+a6ac2d16c6e784b60c1953e24bb3ee85e50429b0 PCI: dwc: Expose dw_pcie_write_dbi2() to module
+d71599ebdd13d090349b321a467c7287ec00693a PCI: dwc: endpoint: Introduce .pre_init() and .deinit()
+a6485b7a3683b4813e479819aa9205b9a545bba9 dt-bindings: PCI: dwc: Update maxItems of reg and reg-names
+310931b107c1c22c08e172af849531c8fc91d04b dt-bindings: PCI: renesas: Add R-Car Gen4 PCIe Host
+5cf291f1bd68b9b336d62d03c7f7318449861250 dt-bindings: PCI: renesas: Add R-Car Gen4 PCIe Endpoint
+4e80782f272848ffd24b20ec0745b6731aace34f PCI: rcar-gen4: Add R-Car Gen4 PCIe Host support
+25bdb1484b717fa59be4448b6ee0ff8f76759ce1 PCI: rcar-gen4-ep: Add R-Car Gen4 PCIe Endpoint support
+f5ec478ebc3178f854085aa1cc3eaee6a8efbe7c MAINTAINERS: Update PCI DRIVER FOR RENESAS R-CAR for R-Car Gen4
+5cf68730a04ead0f48518a0b9777dfe30741f0d4 misc: pci_endpoint_test: Add Device ID for R-Car S4-8 PCIe controller
 
---===============3688035044294607607==--
+--===============1161272222775507484==--
