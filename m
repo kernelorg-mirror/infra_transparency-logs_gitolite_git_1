@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1796775053579183658=="
+Content-Type: multipart/mixed; boundary="===============6638021436591306690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Thu, 14 Sep 2023 17:36:10 -0000
-Message-Id: <169471297094.27767.296404982664167197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 14 Sep 2023 17:39:35 -0000
+Message-Id: <169471317543.30358.8299463235203844696@gitolite.kernel.org>
 
---===============1796775053579183658==
+--===============6638021436591306690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-06c2afb862f9-0bb80ecc33a8.txt
+  - ref: refs/heads/fixes
+    old: 6ccbd7fd474674654019a20177c943359469103a
+    new: 552c5013f2bc648611395ea80df6250aa4fe28f6
+    log: revlist-6ccbd7fd4746-552c5013f2bc.txt
 
---===============1796775053579183658==
+--===============6638021436591306690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06c2afb862f9-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-6ccbd7fd4746-552c5013f2bc.txt
 
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
-19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
@@ -1050,5 +1048,7 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+c86e9ae5e3ad82969fe395414d1d9f173f8e9fd4 kbuild: fix kernel-devel RPM package and linux-headers Deb package
+552c5013f2bc648611395ea80df6250aa4fe28f6 kbuild: avoid long argument lists in make modules_install
 
---===============1796775053579183658==--
+--===============6638021436591306690==--
