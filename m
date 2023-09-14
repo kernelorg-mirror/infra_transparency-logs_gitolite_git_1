@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3456337129808863376=="
+Content-Type: multipart/mixed; boundary="===============0887008538706834550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Sep 2023 01:42:39 -0000
-Message-Id: <169465575952.1643.167241026209427135@gitolite.kernel.org>
+Date: Thu, 14 Sep 2023 01:42:54 -0000
+Message-Id: <169465577478.1807.1744178176895413107@gitolite.kernel.org>
 
---===============3456337129808863376==
+--===============0887008538706834550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 9f6fec65661381e301ae0f9ee8b4c12b0214a579
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-9f6fec656613-0bb80ecc33a8.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 7027bd22e4f2a44ed504f8d5cb5dfa1159e9f687
+    new: 5b8c35d8a325e66c22189f51d111e85389843658
+    log: revlist-7027bd22e4f2-5b8c35d8a325.txt
 
---===============3456337129808863376==
+--===============0887008538706834550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1694655757 -0400
+pusher 75C5DE3D 1694655763 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1694655756-bf2e7c585173feca7db48c7c260030a7c5366ba4
+nonce 1694655763-3218389da39f9b48c3c4099d808f5afb2f54bbdf
 
-9f6fec65661381e301ae0f9ee8b4c12b0214a579 0bb80ecc33a8fb5a682236443c1e740d5c917d1d refs/heads/queue
+7027bd22e4f2a44ed504f8d5cb5dfa1159e9f687 5b8c35d8a325e66c22189f51d111e85389843658 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUCZQ0ACgkQ7ulgGnXF
-3j2xYQ//a5BDUZMWZAofflsOVWqRqNiHPLJNeNYLA8g8Pgn9d8JRAD2maGbK11KT
-nj9lsW4n5/gzJJz3Mmg9NyQg6adyjetuti0Tp2AOahaoAr2H2mFxL5TQBMGlUD5B
-0xY9tRdSuxshN1hkqtgEkhHkbpFydJhe3/baaOH/kRUQB9nij9B/jjunevBEKIGJ
-Z0NUGaMEWguHL+pfnfp/m3jRvuJaADJXDDqVKh3Fi2LUWNKVn8NQKgCT1Fdq6rxK
-Sxy/m5l8i+KjRqvevMd/CzoKkBXtavnJuC4u2DLS3TqkrZo/ZSpuwJRc5RYpMUw5
-GNNJoU2z2TtcQ7iZwU+jPXX+2jAxNFDFhexauRS4mdIFBabbNpi4xaURSFYIn6Qy
-eoTIAiEokHVAjg6190c3NsDPvdTBF78fc6UyPVmCuTogW33yvaUMYP96DPMi6mQo
-ubYk0ZSbqKSoncaL1h/GhmYV8WXLC7cfMUjVADT6BQ2ccDfL0Qh1CFaHPbCYJCmz
-G89R2x0WvghPlW7lsF6k3xm/jRzobv/+TqJ9V2zGhb9OJpk+QmiPfjMx0CcZ6nw9
-x+1IJg2LTVV3EDCP1K4ygKV7fOCQF4WTcKqy/2uKCjjX9haACud6c5VP3TmiShxP
-RRFH2QRjPnN5DFa+Ef7Cv59CE7QFoaVuXJgRwVvtOHddhK/gg+M=
-=32XY
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUCZRMACgkQ7ulgGnXF
+3j07mA/9E8/tv87MV6RNxv9F7v4YVzy9XlagF8VX1Q3yxV33jvUKtFzvUX5emXgy
+YinwEtdyg/30hOmJkeywkMTBOfGBLsSg+l0zspBcXRNynknIYcdzkP4U6m7pOWCY
+xFc8nX01z29c4iCCC4DUx2lKXoQo1QW8QfNpP5oRFyVVLB6NalRq78xLRU+tQmiV
+Vy5Rt70l0br2SRd/YR3Wmshlu4lSxsUqVLOHqPpzwjqPhV9ibCCtaKFCk9B7K+St
+PjMl9s5jJo4HXT+bnJK4HVTGp2/acxjoZ8EqoiJ48GCJjgi/RVzB3Lu1pGoa645B
+tzHCpwM41SIU0oS08aBfSUVx1iYoGsngkgAfUkn00sTctUK61F8i96BMyyHoA1le
+8MEjnTP2GU73SRLNQd4nv6MAgLAPuf1RbE8gumSsnxtXlF7hnWKdAaIdHWvmpqpL
+532uCLAuNfmsLJSmptR1E+ox26B23DNbFu+JKoc0wLO4ZqqmoiQ9RU6DZDlgQsG1
+GV+lD/fLikC00m+PYXBnsA0/K4VVB0EBe7mLjrR93SF2bzOHd0cJoIHfJ7YQODqn
+1VVDClH/NlpUW1JghCTTDTeonORsF3u1v78ak+kaNvO8a5ktQP5gvnqMU26C4ZNN
+c03DwsbRzmsEKjtJUsBiXWmAdatSwsHLwNDVLqfXYknaarjlfTo=
+=DGTb
 -----END PGP SIGNATURE-----
 
---===============3456337129808863376==
+--===============0887008538706834550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f6fec656613-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-7027bd22e4f2-5b8c35d8a325.txt
 
-bf68583624c56bab26b4394fb4721461ded62f94 selftests: bonding: create directly devices in the target namespaces
-16631c42e6ff4f5acf30998fda6c2ea09d1adbfe KVM: s390: interrupt: Fix single-stepping into interrupt handlers
-74a439ef7b67d89d29ec7485c3aeca20a64449c5 KVM: s390: interrupt: Fix single-stepping into program interrupt handlers
-ba853a4e1c7addc631df55535bf0b04c62dc79d8 KVM: s390: interrupt: Fix single-stepping kernel-emulated instructions
-1ad1fa820e6424ae75d3d9f59774e40c9c7ec1e5 KVM: s390: interrupt: Fix single-stepping userspace-emulated instructions
-fdbeb55ebdf1d83e610303f7e5c50a4d6904b7fa KVM: s390: interrupt: Fix single-stepping keyless mode exits
-642dbc0312d67781dabf97a70b43810165f21527 KVM: s390: selftests: Add selftest for single-stepping
-5d0545abee3a39e2946e6587475504f3ebab3ae3 Merge remote-tracking branch 'vfio-ap' into next
-8be6f88b9d3fe1f6724daec4a70d6023742c9df7 inet: fix IP_TRANSPARENT error handling
-b1e428615f154c87a94267b67e819644b50948f8 KVM: s390: pv: relax WARN_ONCE condition for destroy fast
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
-19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
-899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
-02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
-b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
-8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
 8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
 de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
 b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
@@ -1080,5 +1064,21 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+ccc3e1363069c5955045824bb0e63c51d8873e25 scsi: ufs: core: Include the SCSI ID in UFS command tracing output
+5532f24951503b55b91c4efc1d0f1e7a9e0ec567 scsi: esas2r: Use FIELD_GET() to extract PCIe capability fields
+dc1d7b363301eb454e1ee5916cb946f5396fd0c7 scsi: qla2xxx: Use FIELD_GET() to extract PCIe capability fields
+2c99e3d7d2cba9dc478c050b506c9482aaa08f32 scsi: ufs: core: Do not look for unsupported vdd-hba-max-microamp
+d10b11dcb08f064aae5357578246588f08d3d127 scsi: libsas: Move local functions declarations to sas_internal.h
+9b52c1c6cafd7ebec34f1d2e5e3cdb1a0dffe81b scsi: libsas: Declare sas_set_phy_speed() static
+1345a7d909a3c2bcb588667c676a44cb6176b64a scsi: libsas: Declare sas_discover_end_dev() static
+b0597fd5a953833399bbb6be55337dd655060143 scsi: imm: Add a module parameter for the transfer mode
+07d2290fe80dc9b1b0d066dc2027b84770144e49 scsi: ufs: qcom: Update MAX_CORE_CLK_1US_CYCLES for UFS V4 and above
+b4e13e1ae95e7d9ad3dd2e1ca98cd1328d913fb8 scsi: ufs: qcom: Add multiple frequency support for MAX_CORE_CLK_1US_CYCLES
+a53dfc008353b6e1cb6a5d961f1679fb863ab6a1 scsi: ufs: qcom: Add support to configure PA_VS_CORE_CLK_40NS_CYCLES
+3091181beeefc37dd44b1a0f95015f4367b26a54 scsi: ufs: qcom: Align programing of unipro clk attributes
+fd915c67cdd53e201b28b30f8a78e5c85fb97864 scsi: ufs: qcom: Configure SYS1CLK_1US_REG for UFS V4 and above
+fc88ca19ad0989dc0e4d4b126d5d0ba91f6cb616 scsi: ufs: qcom: Update PHY settings only when scaling to higher gears
+5a738cfe49b2cc0896353c0b33dc5cc81316aabe scsi: ufs: qcom: Rename "hs_gear" to "phy_gear"
+17d11949827375d74bdf5df18c3f5813ee7d5933 Merge patch series "scsi: ufs: qcom: Align programming sequence as per HW spec"
 
---===============3456337129808863376==--
+--===============0887008538706834550==--
