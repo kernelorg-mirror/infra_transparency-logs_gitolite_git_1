@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Thu, 14 Sep 2023 17:11:34 -0000
-Message-Id: <169471149417.10277.9515106125059467536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Thu, 14 Sep 2023 17:12:42 -0000
+Message-Id: <169471156202.11004.5536779115369829724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 94e5ef9b157c6c3779352a8d4121542f71de52a1
-    new: 6a35be2f462b5c9d99a6dce26e1a7696adb8c2b3
+    old: 50a510a78287c15cee644f345ef8bac8977986a7
+    new: ad240e9211e33e9c7c8aa3c48d762453d027d46b
     log: |
-         6a35be2f462b5c9d99a6dce26e1a7696adb8c2b3 audit: add a Linux Audit specific README.md and SECURITY.md
+         ad240e9211e33e9c7c8aa3c48d762453d027d46b selinux: add a SELinux specific README.md and SECURITY.md
          
