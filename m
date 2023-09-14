@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5224079179031413666=="
+Content-Type: multipart/mixed; boundary="===============3241916678129679566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Sep 2023 01:42:14 -0000
-Message-Id: <169465573444.1199.752703397600979845@gitolite.kernel.org>
+Date: Thu, 14 Sep 2023 01:42:28 -0000
+Message-Id: <169465574869.1460.2216297905919127086@gitolite.kernel.org>
 
---===============5224079179031413666==
+--===============3241916678129679566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,73 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 812fe6420a6e789db68f18cdb25c5c89f4561334
-    new: dae40be7a1a72474e225795c0d6f43a4ac596a3f
-    log: revlist-812fe6420a6e-dae40be7a1a7.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: c491b30fe359e86c61556f7d90707b48e0015d05
+    new: 048a27a05b4626c3dd17e8fd1d45367cac72091b
+    log: revlist-c491b30fe359-048a27a05b46.txt
 
---===============5224079179031413666==
+--===============3241916678129679566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1694655732 -0400
+pusher 75C5DE3D 1694655738 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1694655731-a7f6104795f49408608dc492dd7aa4966351a612
+nonce 1694655738-9e1b0bff11d41f258db8a824856c4a46ff1c028f
 
-812fe6420a6e789db68f18cdb25c5c89f4561334 dae40be7a1a72474e225795c0d6f43a4ac596a3f refs/heads/fixes
+c491b30fe359e86c61556f7d90707b48e0015d05 048a27a05b4626c3dd17e8fd1d45367cac72091b refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUCZPQACgkQ7ulgGnXF
-3j103g//fatahLrVunzkDnD6pZf/bCfvZk9KPyRJyb+RudTzjRVpueNHp1VDUFzk
-ie1oZNmjEjNSKkgS08nIYFrpYYC0kmIt8ObY62g5QKZ+5r0UR8fpxgF3aw+FrEdH
-u3LbVypY/eiA1ENPBZ5f4Tyj5xokOA8DIjOIXpP/+AbMXRR41qZ7m12AndkB2zh7
-+N6OYMFvpCvapHDBW9veEN1fcnhzprrt1ubkvQ1IrTcbxbIOh0QL0ZbWBMEjEZZF
-dij6dPNNKB/Fef38FbPtIDtLbnhmBG3jlaLhrmT/EPDAlsu90jzZVwmjrJPvjYvZ
-iepvxqBYj+HbkKEhBK30yobnknDNz4nFPBnvhs7ghrnTBlPFIhP/eNSxsGPFUet3
-WXItwbjZ77aSsYCtzNQ0xcfL/qUsba9+7M5C4ASLSR60r3VLBRYxl/FpymgG5Eqt
-jMbpQymG648kGgnktbg6rx1yFjEy6lvE5l11T72/D40yrFVBcpBNfgHUYArNESJo
-egJWBoyMJEX43cpehu2UP1FX4DtZ9VpljJEf6VVsU/Zu+3WbLN1tMoDAS96Efojm
-RE8xnl8Tql/PvXvRp9eiHmQJgE/G3/wpSPByDdEiX1Q0UHgS5ZoG7nT13PZx9Mti
-y1HMvUqDdBrfkqbnyod4Xx+9fg3eryZJRcxWL4lPvAln/N61R90=
-=wZGK
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUCZPoACgkQ7ulgGnXF
+3j2tjA//SqI+AQ8qN9G2oawQAmV0x1EGf+PRDoZnCsh549khpl5YF5DHFihxsv2l
+fhE2bq/irbbXy/t+gU5HRmKy6/STOCDF5XnXPym+GlSFaF8rzutjbOMvN7Xa1weU
+w5eO8PMUWEapitHgg2zGJbfZAjv3kLTfjt0WBklyjFhsmg42ssSkrRnBFYBuSpEN
+ZZ+tgi3k3UjXXHUp+SyexYw248EEdwh3wVs2PaPhvLjiTXRpefZD0gk8iXO3oQ46
+Vd0DfhRg3EmloHZ3os7hdGGs+GjGHkrRtbpoIhR8JnK7+AN6EOpo0QT5J+MtEAFF
+8NXcFAhKbTCJNn4SAWcU02xUM+usCY8JgPPJCn6U7nTbAADH29UE7e11KMKKK2Dm
+KiPPbvzAF0Joa6bsLAKhOHS39ze954TeX21rIjxBTxAmPYUMeMiPXvtDYXJMAYVs
+ibhEQ6pzvY4VnVi/SmfNXm5oaqWyFy34izPxBedQCKi9YzuzjGqQ6nV2ZrSIOMNd
+xR0rhRRtDzSrtHtHH+rSp1LEj1ky+9qxkbDdfg5SWoGjEiiv1DemnSZ35/AEYi4y
+W5G4c7xmPzdAX3yAeFITyhLIwFEqJxGv5CputUYegMwkrunmKafuv+GXjhkVmvsd
+wTBWcptKmNfLaVGMyajWYrsSKj7zFCbHRhAf+t3qFR/xX8hhhHY=
+=lBmO
 -----END PGP SIGNATURE-----
 
---===============5224079179031413666==
+--===============3241916678129679566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-812fe6420a6e-dae40be7a1a7.txt
+Content-Disposition: attachment; filename=revlist-c491b30fe359-048a27a05b46.txt
 
+bf68583624c56bab26b4394fb4721461ded62f94 selftests: bonding: create directly devices in the target namespaces
+16631c42e6ff4f5acf30998fda6c2ea09d1adbfe KVM: s390: interrupt: Fix single-stepping into interrupt handlers
+74a439ef7b67d89d29ec7485c3aeca20a64449c5 KVM: s390: interrupt: Fix single-stepping into program interrupt handlers
+ba853a4e1c7addc631df55535bf0b04c62dc79d8 KVM: s390: interrupt: Fix single-stepping kernel-emulated instructions
+1ad1fa820e6424ae75d3d9f59774e40c9c7ec1e5 KVM: s390: interrupt: Fix single-stepping userspace-emulated instructions
+fdbeb55ebdf1d83e610303f7e5c50a4d6904b7fa KVM: s390: interrupt: Fix single-stepping keyless mode exits
+642dbc0312d67781dabf97a70b43810165f21527 KVM: s390: selftests: Add selftest for single-stepping
+5d0545abee3a39e2946e6587475504f3ebab3ae3 Merge remote-tracking branch 'vfio-ap' into next
+8be6f88b9d3fe1f6724daec4a70d6023742c9df7 inet: fix IP_TRANSPARENT error handling
+b1e428615f154c87a94267b67e819644b50948f8 KVM: s390: pv: relax WARN_ONCE condition for destroy fast
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
+19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
+899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
+02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
+8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
+8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
+de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
+b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
+6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
+422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+f1424755db913c5971686537381588261cdfd1ee powerpc/mm/book3s64: Fix build error with SPARSEMEM disabled
+4c33bf147249ebbf3dded016996a8a24c5737254 powerpc/mm/book3s64: Use 256M as the upper limit with coherent device memory attached
+ab574d1629552b6831cd91b926b38092c15d6142 ALSA: usb-audio: Don't try to submit URBs after disconnection
+692f5510159c79bfa312a4e27a15e266232bfb4c Merge tag 'asoc-v6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+54a3f6e89fbbf12e1e3539a4f977a7536029d780 Merge tag 'nand/for-6.6' into mtd/next
 11b0b802f8e38d48ca74d520028add81263f003e ASoC: codecs: wcd93xx: fix object added to multiple drivers
 8d2a0cdf52299d1f83a7707c5ca6b0c811339aba ASoC: dwc: i2s: Fix unused functions
 d81c203e61780f3635e5eddd03f00d8bdcd7c3df Merge tag 'asoc-fix-v6.5-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -413,21 +440,11 @@ a1c19328a160c80251868dbd80066dce23d07995 Merge tag 'soc-arm-6.6' of git://git.ke
 0e72db77672ff4758a31fb5259c754a7bb229751 Merge tag 'soc-dt-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 8f447694c23a432b2e9cfe67fb2651f8f6655bfd Merge tag 'devicetree-for-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 ef2a0b7cdbc5b84f7b3f6573b7687e72bede0964 Merge tag 'devicetree-header-cleanups-for-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-58330d6a0b4637eed6730042b36b7fc5cdc19a90 Merge branch '6.5/scsi-fixes' into 6.6/scsi-staging
-7a5dee9b72e9aafaa684dea8bf55aac91997b319 scsi: qla2xxx: Fix spelling mistake "tranport" -> "transport"
-e7cf3a35b38ef3c8ee74e6cfe1fd6a62c7f34a02 scsi: fnic: Remove unused functions fnic_scsi_host_start/end_tag()
-d4781807f0505526e293802d8509f31c4dfb8f54 scsi: qla2xxx: Fix unused variable warning in qla2xxx_process_purls_pkt()
-d0bac0ec89d66f656f77443c8000fa6c36139b66 scsi: ufs: Fix the build for the old ARM OABI
 5146e1f589ccb04cf987b45296aa27f90a2407dc Merge tag 'timers-v6.6-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
-be946e31bcf2b1c01f1af443c238bc15fe9f6294 scsi: libsas: Simplify sas_queue_reset() and remove unused code
 b5947239bfa666afd05ce0fc02b9c41ec8209e88 net: stmmac: failure to probe without MAC interface specified
 8b72d2a1c6cc148320a93d029eb3a7e721f951f6 NFC: nxp: add NXP1002
 ee940b57a92965b76e05075e0a20f7d16a1cf976 doc/netlink: Fix missing classic_netlink doc reference
 4e60de1e4769066aa9956c83545c8fa21847f326 Merge tag 'nf-23-08-31' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-4ca10f3e31745d35249a727ecd108eb58f0a8c5e scsi: mpt3sas: Perform additional retries if doorbell read returns 0
-0854065092a7a49a88bb592473abafb0cecd9f1c scsi: mpt3sas: Remove volatile qualifier
-c91e585cfb3dd7d076e9ba0967908fc504d32def scsi: ufs: core: Add advanced RPMB support where UFSHCI 4.0 does not support EHS length in UTRD
-9f6fec65661381e301ae0f9ee8b4c12b0214a579 scsi: ufs: core: No need to update UPIU.header.flags and lun in advanced RPMB handler
 196e355877a767674ea9c35af1686e642294885a perf pmu: Avoid uninitialized use of alias->str
 6beb6cfddff98cb53e01c0bebb0da8030506fb76 perf parse-events: Minor help message improvements
 7a6e91644708d514082a00fce3cd509960935fb8 perf parse-events: Make common term list to strbuf helper
@@ -790,15 +807,6 @@ b1757fa30ef14f254f4719bf6f7d54a4c8207216 ALSA: usb-audio: Fix potential memory l
 6ad40b36cd3b04209e2d6c89d252c873d8082a59 kcm: Destroy mutex in kcm_exit_net()
 86496fd4a2fabb7c978fdaca2d4b718207a96d36 ALSA: seq: Fix snd_seq_expand_var_event() call to user-space
 d3287e4038ca4f81e02067ab72d087af7224c68b Revert "net: macsec: preserve ingress frame ordering"
-0b0747d507bffb827e40fc0f9fb5883fffc23477 scsi: megaraid_sas: Fix deadlock on firmware crashdump
-31a0865bf593e59c4433a3624b4c87c40049ed9a scsi: ppa: Fix accidentally reversed conditions for 16-bit and 32-bit EPP
-0be7592885d7b4c20595c388adc13930b653b847 scsi: qla2xxx: Correct endianness for rqstlen and rsplen
-59f10a05b5c7b675256a66e3161741239889ff80 scsi: qla2xxx: Use raw_smp_processor_id() instead of smp_processor_id()
-d0b0822e32dbae80bbcb3cc86f34d28539d913df scsi: qla2xxx: Fix NULL vs IS_ERR() bug for debugfs_create_dir()
-5c584fe6098ae1727650acbabdef0669cefec7be scsi: target: Replace strlcpy() with strscpy()
-7df0b2605489bef3f4223ad66f1f9bb8d50d4cd2 scsi: qedf: Add synchronization between I/O completions and abort
-2d3f59cf868b4a2dd678a96cd49bdd91411bd59f scsi: ufs: core: Move __ufshcd_send_uic_cmd() outside host_lock
-d32533d30e2119b0c0aa17596734f1f842f750df scsi: ufs: core: Poll HCS.UCRDY before issuing a UIC command
 45fc4628c15ab2cb7b2f53354b21db63f0a41f81 perf parse-events: Fix driver config term
 5f02d16868b9d738d70656d074518cac760d39ab gfs2: increase usage of folio_next_index() helper
 111c7d27a1b7954954afde46f9db01d5ad24b316 gfs2: Use mapping->gfp_mask for metadata inodes
@@ -1072,13 +1080,5 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-4f6cee60453dbb06292907943a185247ef17d584 Merge branch '6.6/scsi-staging' into 6.6/scsi-fixes
-71996bb835aed58c7ec4967be1d05190a27339ec scsi: pm80xx: Use phy-specific SAS address when sending PHY_START command
-c13e7331745852d0dd7c35eabbe181cbd5b01172 scsi: pm80xx: Avoid leaking tags when processing OPC_INB_SET_CONTROLLER_CONFIG command
-c91774818b041ed290df29fb1dc0725be9b12e83 scsi: pm8001: Setup IRQs on resume
-d14e3e553e05cb763964c991fe6acb0a6a1c6f9c scsi: target: core: Fix target_cmd_counter leak
-7dcc683db3639eadd11bf0d59a09088a43de5e22 scsi: lpfc: Fix the NULL vs IS_ERR() bug for debugfs_create_file()
-9c3034968ed0feeaf72e5b549b19c7767a1a04f2 scsi: lpfc: Early return after marking final NLP_DROPPED flag in dev_loss_tmo
-dae40be7a1a72474e225795c0d6f43a4ac596a3f scsi: lpfc: Prevent use-after-free during rmmod with mapped NVMe rports
 
---===============5224079179031413666==--
+--===============3241916678129679566==--
