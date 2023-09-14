@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 14 Sep 2023 14:33:53 -0000
-Message-Id: <169470203378.21573.11733667369959551532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 14 Sep 2023 14:35:05 -0000
+Message-Id: <169470210500.23661.3195456384177132136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/for-linus
-    old: ef3e1b8a31f3579b7dae2077f501974aca3beb74
-    new: fac58baf8fcfcd7481e8f6d60206ce2a47c1476c
+  - ref: refs/heads/fixes
+    old: 3c3c188cff9fa140d515036b278d479d273773bb
+    new: 049639d6ee3aba0875aea542f4a58202b8734f2a
     log: |
-         fac58baf8fcfcd7481e8f6d60206ce2a47c1476c ASoC: imx-rpmsg: Set ignore_pmdown_time for dai_link
-         
-  - ref: refs/heads/for-next
-    old: 0b0ba2eed44197786b7e9e832acc55e159582e80
-    new: b7c53e82862bf6825446dbc6ea94ee61d2b15bbb
-    log: |
-         fac58baf8fcfcd7481e8f6d60206ce2a47c1476c ASoC: imx-rpmsg: Set ignore_pmdown_time for dai_link
-         b7c53e82862bf6825446dbc6ea94ee61d2b15bbb Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         d2b5a92c16c30c2b2c4e4071349940d8c8813041 misc: rtsx: Fix an error access Page fault
+         aea2a9a54b4f117a852a7cee29cb22ebe91ab32a mmc: sdhci-sprd: Fix error code in sdhci_sprd_tuning()
+         049639d6ee3aba0875aea542f4a58202b8734f2a mmc: core: Fix error propagation for some ioctl commands
          
