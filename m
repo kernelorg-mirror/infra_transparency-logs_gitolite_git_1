@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2877241072002648831=="
+Content-Type: multipart/mixed; boundary="===============2229488732169997852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Thu, 14 Sep 2023 16:05:50 -0000
-Message-Id: <169470755053.25379.3756245785583514163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Thu, 14 Sep 2023 16:08:42 -0000
+Message-Id: <169470772276.27719.9029062389362986558@gitolite.kernel.org>
 
---===============2877241072002648831==
+--===============2229488732169997852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/linux
-user: tnguy
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/main
-    old: 457391b0380335d5e9a5babdec90ac53928b23b4
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-457391b03803-0bb80ecc33a8.txt
+  - ref: refs/heads/b4/viommu-deferred-flush
+    old: 4c3ab11785872552710cff88e33e0c719b2e50ad
+    new: 672b93149b4998a1c1a9bde3bcc98057e9e4fd16
+    log: revlist-4c3ab1178587-672b93149b49.txt
 
---===============2877241072002648831==
+--===============2229488732169997852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-457391b03803-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-4c3ab1178587-672b93149b49.txt
 
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
-19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
-899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
-02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
-b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
-8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
-8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
-de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
-b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
 6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
 422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -1050,5 +1041,14 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+2799e7950e9544eff66ea29692256af68530eef0 iommu: Allow .iotlb_sync_map to fail and handle s390's -ENOMEM return
+53ac8af758f85fad78853aa7f3c9b58993020a75 s390/pci: prepare is_passed_through() for dma-iommu
+4fd25e8fed19a89a4b8be18f2e1268a5595684b8 s390/pci: Use dma-iommu layer
+ae9d287651b44f64884880b7b60c1f60d16736f5 iommu/s390: Disable deferred flush for ISM devices
+133b4e4b041ff924a32158b97cc8fc21887bdba7 iommu/dma: Allow a single FQ in addition to per-CPU FQs
+445586aa9c87ea3f1f0326b74f5a1f8177848f07 iommu/dma: Use a large flush queue and timeout for shadow_on_flush
+a70fe852d0b3444aec3e33ad5a552fd7ae347ccc iommu/virtio: Enable IOMMU_CAP_DERRED_FLUSH
+8e93bc2dc5a7d6d2216782e0856182047aec6e77 iommu/virtio: Make use of ops->iotlb_sync_map
+672b93149b4998a1c1a9bde3bcc98057e9e4fd16 iommu/virtio: Add ops->flush_iotlb_all and enable deferred flush
 
---===============2877241072002648831==--
+--===============2229488732169997852==--
