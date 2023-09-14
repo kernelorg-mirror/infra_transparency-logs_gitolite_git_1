@@ -1,99 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============1294044501476470150=="
+Content-Type: multipart/mixed; boundary="===============7994582361455464796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Thu, 14 Sep 2023 23:26:24 -0000
-Message-Id: <169473398434.22758.6660008916558729997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Thu, 14 Sep 2023 23:49:16 -0000
+Message-Id: <169473535624.6112.7907618063034226131@gitolite.kernel.org>
 
---===============1294044501476470150==
+--===============7994582361455464796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/dev
-    old: b016ebb300e514bc46151f8fc006caae141a8bde
-    new: 7fda67e8c3ab6069f75888f67958a6d30454a9f6
-    log: |
-         1bb0763f1eb7dd015989fdc77dea17a349df2ea9 jbd2: Fix memory leak in journal_init_common()
-         45e4ab320c9b5fa67b1fc3b6a9b381cfcc0c8488 ext4: move setting of trimmed bit into ext4_try_to_trim_range()
-         5229a658f6453362fbb9da6bf96872ef25a7097e ext4: do not let fstrim block system suspend
-         7fda67e8c3ab6069f75888f67958a6d30454a9f6 ext4: fix rec_len verify error
-         
-  - ref: refs/heads/origin
-    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
-    new: 768d612f79822d30a1e7d132a4d4b05337ce42ec
-    log: revlist-6eaae1980760-768d612f7982.txt
+  - ref: refs/heads/x86/topology
+    old: 6ac41b98af51777a598ba96cb59530c82738a422
+    new: 68e2a6fab985dc1ed5e9e7e2b0a8998ef2951772
+    log: revlist-6ac41b98af51-68e2a6fab985.txt
 
---===============1294044501476470150==
+--===============7994582361455464796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eaae1980760-768d612f7982.txt
+Content-Disposition: attachment; filename=revlist-6ac41b98af51-68e2a6fab985.txt
 
-43bbddc067883d94de7a43d5756a295439fbe37d ext4: add two helper functions extent_logical_end() and pa_logical_end()
-bc056e7163ac7db945366de219745cf94f32a3e6 ext4: fix BUG in ext4_mb_new_inode_pa() due to overflow
-bedc5d34632c21b5adb8ca7143d4c1f794507e4c ext4: avoid overlapping preallocations due to overflow
-1d40165047456923fa4343d519353d9440cd68df fs: jbd2: fix an incorrect warn log
-98175720c9ed3bac857b0364321517cc2d695a3f ext4: remove pointless sb_rdonly() checks from freezing code
-d5d020b3294b69eaf3b8985e7a37ba237849c390 ext4: use sb_rdonly() helper for checking read-only flag
-eb8ab4443aec5ffe923a471b337568a8158cd32b ext4: make ext4_forced_shutdown() take struct super_block
-22b8d707b07e6e06f50fe1d9ca8756e1f894eb0d ext4: make 'abort' mount option handling standard
-95257987a6387f02970eda707e55a06cce734e18 ext4: drop EXT4_MF_FS_ABORTED flag
-e0e985f3f8941438a66ab8abb94cb011b9fb39a7 ext4: avoid starting transaction on read-only fs in ext4_quota_off()
-e7fc2b31e04c46c9e2098bba710c9951c6b968af ext4: warn on read-only filesystem in ext4_journal_check_start()
-ffb6844e28ef6b9d76bee378774d7afbc3db6da9 ext4: drop read-only check in ext4_init_inode_table()
-f1128084b40e520bea8bb32b3ff4d03745ab7e64 ext4: drop read-only check in ext4_write_inode()
-889860e452d7436ca72018b8a03cbd89c38d6384 ext4: drop read-only check from ext4_force_commit()
-1e1566b9c85fbd6150657ea17f50fd42b9166d31 ext4: replace read-only check for shutdown check in mmp code
-304749c0d5e216479ea4d553ad04ba1390d5c707 ext4: replace CR_FAST macro with inline function for readability
-a9ce5993a0f5c0887c8a1b4ffa3b8046fbcfdc93 ext4: correct grp validation in ext4_mb_good_group
-60c672b7f2d1e5dd1774f2399b355c9314e709f8 ext4: avoid potential data overflow in next_linear_group
-919eb90cec4049cecf4a9f996afb0f14e3864fca ext4: return found group directly in ext4_mb_choose_next_group_p2_aligned
-bb60caa2db6697c20a0842b5b3c192aa1800da1a ext4: use is_power_of_2 helper in ext4_mb_regular_allocator
-ad635507b5b22d59457b6db6d8a0e4ddf7ad2b4c ext4: remove unnecessary return for void function
-de8bf0e5ee7482585450357c6d4eddec8efc5cb7 ext4: replace the traditional ternary conditional operator with with max()/min()
-f6c72fef1272e65eff8d5ecef8c744686f6b7745 ext4: remove unused ext4_{set}/{clear}_bit_atomic
-b50675a4a6a69110c0c2baadebd2075d3b31b25c ext4: return found group directly in ext4_mb_choose_next_group_goal_fast
-bcb123ac9b9887478da4185b55dfbf1a72550848 ext4: return found group directly in ext4_mb_choose_next_group_best_avail
-4eea9fbed950f240bf6e627e1c784b8d54c54988 ext4: correct some stale comment of criteria
-373ac521799d9e97061515aca6ec6621789036bb jbd2: fix checkpoint cleanup performance regression
-590a809ff743e7bd890ba5fb36bc38e20a36de53 jbd2: check 'jh->b_transaction' before removing it from checkpoint
-5f02a30eac5cc1c081cbdb42d19fd0ded00b0618 jbd2: remove unused function '__cp_buffer_busy'
-7ca4b085f430f3774c3838b3da569ceccd6a0177 ext4: fix memory leaks in ext4_fname_{setup_filename,prepare_lookup}
-e15e117bbbe18258a5ad506bbf6c58ff129c9576 jbd2: remove unused t_handle_lock
-772c9f691dcf3a487f29ddb90a5a15c78d7328e1 ext4: don't use CR_BEST_AVAIL_LEN for non-regular files
-29a511e49f33426c8d24700db4842234a84678b2 jbd2: move load_superblock() dependent functions
-c30713084ba5b6fa343129613ec349ea91f0c458 jbd2: move load_superblock() into journal_init_common()
-9600f3e5cfd0360b10c271149032c77917baedc5 jbd2: don't load superblock in jbd2_journal_check_used_features()
-e4adf8b837087b5bb57fff6827e10ec877a50f64 jbd2: checking valid features early in journal_get_superblock()
-18dad509e7bd3189ac1e7f7904faf1561a908871 jbd2: open code jbd2_verify_csum_type() helper
-054d9c8fef14d476f1a9c6434de86813c5990052 jbd2: cleanup load_superblock()
-0dbc759ae9971568af24def1b01d5b1aa87bd546 jbd2: add fast_commit space check
-49887e47a5262cc7b87d547de57a21a072c6ea5e jbd2: cleanup journal_init_common()
-d9a45496019a73c240bd22912ae18a04b8496364 jbd2: drop useless error tag in jbd2_journal_wipe()
-8e6cf5fbb7b47d337998faab3fcacdceaa547ead jbd2: jbd2_journal_init_{dev,inode} return proper error return value
-bc74e6a38d16d745a9bc28a7e343494019066492 ext4: cleanup ext4_get_dev_journal() and ext4_get_journal()
-ee5c807137ce283acebd83297f8855428cdd839a ext4: ext4_get_{dev}_journal return proper error value
-2dfba3bb40ad8536b9fa802364f2d40da31aa88e jbd2: correct the end of the journal recovery scan range
-1524773425ae8113b0b782886366e68656b34e53 ext4: fix unttached inode after power cut with orphan file feature enabled
-89cadf6e22a958014d09c901caf0cd2105780dbe ext4: change the type of blocksize in ext4_mb_init_cache()
-79ebf48c44b5ba05a98af23f8830883daf36f4d3 ext4: use sbi instead of EXT4_SB(sb) in ext4_mb_new_blocks_simple()
-a50bda147421e24c1a5d47ddcc0675360b7cb3ac ext4: mballoc: avoid garbage value from err
-b6c7d6dc8aebc04cefd342d6cccd24932be37d12 ext4: remove unused function declaration
-68228da51c9a436872a4ef4b5a7692e29f7e5bc7 ext4: add correct group descriptors and reserved GDT blocks to system zone
-194505b55dd7899da114a4d47825204eefc0fff5 ext4: drop dio overwrite only flag and associated warning
-ff0722de896eb278fca193888d22278c28f2782c ext4: add periodic superblock update check
-bb15cea20f211e110150e528fca806f38d5789e0 ext4: rename s_error_work to s_sb_upd_work
-03de20bed203b0819225d4de98353c1f8755a1dd ext4: do not mark inode dirty every time when appending using delalloc
-0f6bc57971c63f7352c3564d19a5dc707fe8332a ext4: use LIST_HEAD() to initialize the list_head in mballoc.c
-8216776ccff6fcd40e3fdaa109aa4150ebe760b3 ext4: reject casefold inode flag without casefold feature
-b81427939590450172716093dafdda8ef52e020f ext4: remove redundant checks of s_encoding
-af494af38580a35b92f921639a60630a2307bcc2 libfs: remove redundant checks of s_encoding
-768d612f79822d30a1e7d132a4d4b05337ce42ec ext4: fix slab-use-after-free in ext4_es_insert_extent()
+f0bd09f95311301ce3c3b1ff3f3be2929e46b504 x86/cpu/hygon: Fix the CPU topology evaluation for real
+dcca122531469b872496964f674e25b937d67d5d cpu/SMT: Make SMT control more robust against enumeration failures
+01ecffe3a38b163a16e8a8a08c6b9f09a8776be9 x86/apic: Fake primary thread mask for XEN/PV
+d90287f40833971f1022e08dd019889f934b39a4 x86/cpu: Encapsulate topology information in cpuinfo_x86
+406878e889c6a1efde38c8d5dba5dbe736b3bd78 x86/cpu: Move phys_proc_id into topology info
+9847aa628de0f9372e89d42b5048d655107f90ca x86/cpu: Move cpu_die_id into topology info
+6daf446270337792a07c95302940f4e6450f4a77 scsi: lpfc: Use topology_core_id()
+43f542a06ae2e0b0d0630f4a8041773f56adb23a hwmon: (fam15h_power) Use topology_core_id()
+f0745a516717783a55a69c64cd0ed954b70f0e9f x86/cpu: Move cpu_core_id into topology info
+609179e7122993f44dbff6175d30321d9a80e374 x86/cpu: Move cu_id into topology info
+ce660de290140deb104c98259cb3c8d235a2f837 x86/cpu: Remove pointless evaluation of x86_coreid_bits
+bd55eab97ba360b5bcaef757514df2f5e4d41355 x86/cpu: Move logical package and die IDs into topology info
+50717f1a1b6fa525f0c511b01dae28b031c40bf1 x86/cpu: Move cpu_l[l2]c_id into topology info
+b7c052951e493744cfef01dfb11e0114a76f92f6 x86/apic: Use BAD_APICID consistently
+f3241568641f91f06feeb50a65107c1b74edad70 x86/apic: Use u32 for APIC IDs in global data
+f2169240d477004ddf69cb632fe353288dd86fe2 x86/apic: Use u32 for check_apicid_used()
+414be7fede6b82d34670978b6cb5214cd82d883f x86/apic: Use u32 for cpu_present_to_apicid()
+c0cd83c648646df605f8e735246647f63f0a6c65 x86/apic: Use u32 for phys_pkg_id()
+6ab35ee0f7d0759a2de7624733c367be31406549 x86/apic: Use u32 for [gs]et_apic_id()
+b1cc51fb85dd4176dcded6b2dea79eff04ad246d x86/apic: Use u32 for wakeup_secondary_cpu[_64]()
+2394739c78cd31bad04ebc0bc3c8cb4634c51835 x86/cpu/topology: Cure the abuse of cpuinfo for persisting logical ids
+01e49914de3ba6f40147d293be3858f4a380932a x86/cpu: Provide debug interface
+41b3d6312732b003c183f900b4a1a02b52a6e7f9 x86/cpu: Provide cpuid_read() et al.
+5ddd0ec6fca9f660b47c33ca3e40d254226bffe5 x86/cpu: Provide cpu_init/parse_topology()
+6b5a7431758ead45b4cbb9979b82d314d25fdd62 x86/cpu: Add legacy topology parser
+1ed99fd13291f8cfddcf64c70a32bfc80c868412 x86/cpu: Use common topology code for Centaur and Zhaoxin
+6ab6915d2edc23ba1f697661a8124c5e4f81cd95 x86/cpu: Move __max_die_per_package to common.c
+73d2346e89cd812878ab1011f1b7022ab0b72f75 x86/cpu: Provide a sane leaf 0xb/0x1f parser
+af28f563700544f4288933ee55f92b4aeaf6e9cb x86/cpu: Use common topology code for Intel
+e2c43991d13783be44bb356b197b5e4c3416ba21 x86/cpu/amd: Provide a separate accessor for Node ID
+1c838fbfb3a3aecd130db9c71fddea2b57c06c5c x86/cpu: Provide an AMD/HYGON specific topology parser
+f4e4b8b3f5e12263f198610086dc8775d3c13ec1 x86/smpboot: Teach it about topo.amd_node_id
+2cfba6122a5c3b8212c33f475b708a57e5a3c8f1 x86/cpu: Use common topology code for AMD
+830382524841bf2510c4437e146e29e0c2c8d8f6 x86/cpu: Use common topology code for HYGON
+e8f3353413e4b27d74166193266a0737fa428a68 x86/mm/numa: Use core domain size on AMD
+413a6b8a717ce3e1147bd6212c1a56b5c5e942de x86/cpu: Make topology_amd_node_id() use the actual node info
+520a9ad51eba3786ff2de3a42125dd16667ce6fb x86/cpu: Remove topology.c
+85a860657f5fe9d277640c62f04a21babf9d13ff x86/cpu: Remove x86_coreid_bits
+2b896c7202f5bf8ee0e4deccc99f89d2eb52fbc9 x86/apic: Remove unused phys_pkg_id() callback
+e38c67d5144a754cc5ef42f2c279af906d757380 x86/xen/smp_pv: Remove cpudata fiddling
+68e2a6fab985dc1ed5e9e7e2b0a8998ef2951772 x86/apic/uv: Remove the private leaf 0xb parser
 
---===============1294044501476470150==--
+--===============7994582361455464796==--
