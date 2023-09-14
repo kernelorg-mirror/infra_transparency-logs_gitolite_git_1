@@ -1,46 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1663913254841927496=="
+Content-Type: multipart/mixed; boundary="===============8208902929657443772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 14 Sep 2023 02:56:17 -0000
-Message-Id: <169466017732.22782.406877643793852680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Thu, 14 Sep 2023 04:46:14 -0000
+Message-Id: <169466677426.5485.7053965963575184506@gitolite.kernel.org>
 
---===============1663913254841927496==
+--===============8208902929657443772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/experimental
-    old: c78656ddcb158c3afa5f3535dc6d7c7d0bd2a73e
-    new: 43e2e9226685674d82a5d9b3ccf277eb4a9ab6a3
-    log: revlist-c78656ddcb15-43e2e9226685.txt
+  - ref: refs/heads/next
+    old: f45ee29d984e1d21464c2ae685dc8e0047a7b493
+    new: c166174c0239c3f66ffd5e9f932c4803ac6cf6b2
+    log: revlist-f45ee29d984e-c166174c0239.txt
 
---===============1663913254841927496==
+--===============8208902929657443772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c78656ddcb15-43e2e9226685.txt
+Content-Disposition: attachment; filename=revlist-f45ee29d984e-c166174c0239.txt
 
-6ca0450f3a93ba7338f2928f50c97282ce3218c2 erofs-utils: fsck: Fix potential memory leak in error path
-d069bab62e265a4731f761d8b7b2658466449589 erofs-utils: lib: Remove redundant line to get padding
-8bd9ce65a0a5440af820554041229b9204828258 erofs-utils: lib: Fix memory leak if __erofs_battach() fails
-7e9566a31ff99174af35883a05a6d9868a65bb48 erofs-utils: lib: Check for error from z_erofs_pack_file_from_fd()
-b2c3125884c77f0aeb9c4a70b85cd95cec3a43ba erofs-utils: lib: Fix the memory leak in error path
-18cee8aa48ac15902a8e9d693e6b8afd8baf22f1 erofs-utils: lib: Remove redundant assignment
-fdded5b7a810f53b2ea43f0cf3de54802184f0d9 erofs-utils: lib: tar: Initialize the variable to avoid using garbage value
-5df285cf405d7a0c9774fd47af104c81921c7bd8 erofs-utils: lib: refactor extended attribute name prefixes
-1250e7c08bd6942c7774938ea96a9f1ede6dfbe7 erofs-utils: lib: add list_splice_tail() helper
-3129d9e390a92e7a10b784cfbf7796248fbdcf30 erofs-utils: lib: make erofs_get_unhashed_chunk() global
-301d4a27b85569067bc4bfa70df6e990d4cad1bd erofs-utils: lib: add erofs_read_xattrs_from_disk() helper
-a10ba362d2c33c9e150626bcfbd2d0a622a13724 erofs-utils: lib: add erofs_insert_ihash() helper
-46db6621a33d4864933a4c0e7706105392e542ea erofs-utils: lib: add erofs_rebuild_get_dentry() helper
-47130ef59beedceec4da2d4287dedb576bde546d erofs-utils: lib: add erofs_rebuild_load_tree() helper
-a8934bf7ca2af3ce868e528b049c739f498545de erofs-utils: mkfs: introduce rebuild mode
-43e2e9226685674d82a5d9b3ccf277eb4a9ab6a3 erofs-utils: mkfs: add `--ovlfs-strip` option
+7b8f29f0426d05365c97d3b9266d04811d1ad9d3 _damon_sysfs: Allow enabling two or more kdamonds
+6ddf4febe58921d8a994e2b4bec8ecf759e88f99 USAGE: Mention perf as an optional prerequisite
+7cc75717798361a107e82e222768ad6bed3b2d37 USAGE: Explain `damo stop` return value
+07a6a53421150a20c1b008a9b3327f6186d468b9 USAGE: Further document `damo show`
+05b2f008b560f0b674b66643f9d80e1d1fe7d23a USAGE: Document 'damo status'
+64b8140b567f39ba8e56a9a6bd1e9308059b6c65 USAGE: Add simple target argument section
+a215b2d00af9dd1da398ecce180a0f41125d181a USAGE: Update 'damo record' section
+5652dc8686b34efef215dcb57462d4ad32d9b4f6 README: Update schemes example to use start instead
+45aa8584af53e6a394d1a76be6c9093754d36a37 RADME: Wordsmith DAMOS one-line specification deprecation message
+9c629da934e5afd0481f75baab6de1b09a8e65df USAGE: Update hierarchy of 'damo report' section
+162cbed9b312eb601237a3bb02225f9ff4973699 USAGE: Add documents for version and fmt_json commands
+c166174c0239c3f66ffd5e9f932c4803ac6cf6b2 USAGE: Rename 'damo schemes' section to better align with new frame
 
---===============1663913254841927496==--
+--===============8208902929657443772==--
