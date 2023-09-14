@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 14 Sep 2023 17:15:39 -0000
-Message-Id: <169471173967.13758.2983876862822006200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Thu, 14 Sep 2023 17:16:50 -0000
+Message-Id: <169471181085.14272.3140485010620643532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/md-fixes
-    old: df203da47f4428bc286fc99318936416253a321c
-    new: c8870379a21fbd9ad14ca36204ccfbe9d25def43
+  - ref: refs/heads/rproc-next
+    old: d1a8ac11ee72c192611b0cae98ad6304314f9ae7
+    new: 9af45bbdcbbbb411b6b7440220593a46282fd64b
     log: |
-         c8870379a21fbd9ad14ca36204ccfbe9d25def43 md: Put the right device in md_seq_next
+         9af45bbdcbbbb411b6b7440220593a46282fd64b remoteproc: zynqmp: fix TCM carveouts in lockstep mode
          
