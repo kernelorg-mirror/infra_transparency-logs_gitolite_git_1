@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4613401669366851708=="
+Content-Type: multipart/mixed; boundary="===============3723839778609879697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 14 Sep 2023 11:18:59 -0000
-Message-Id: <169469033901.10739.1637677974936901079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 14 Sep 2023 11:19:07 -0000
+Message-Id: <169469034752.10852.13514969579373772054@gitolite.kernel.org>
 
---===============4613401669366851708==
+--===============3723839778609879697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: cf0ba445f5e4dd74c1e9d7a83ca721ba69204a11
     new: ef3e1b8a31f3579b7dae2077f501974aca3beb74
     log: |
@@ -27,7 +27,7 @@ changes:
          781118bc2fc1026c8285f83ea7ecab07071a09c4 ASoC: wm_adsp: Fix missing locking in wm_adsp_[read|write]_ctl()
          ef3e1b8a31f3579b7dae2077f501974aca3beb74 ASoC: cs42l42: Fix handling of hard reset
          
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 8885ab34201c5c34a82539ba2753e8e743b38f38
     new: cfaa4c32ccd3a4cb1140416a9ab51904e938d767
     log: |
@@ -39,29 +39,29 @@ changes:
          cfaa4c32ccd3a4cb1140416a9ab51904e938d767 ASoC: amd: acp: Fix -Wmissing-prototypes warning
          
 
---===============4613401669366851708==
+--===============3723839778609879697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1694690336 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1694690336-e57e3cd75219622d02d9b632690f8f0666ad4410
+pusher C3F436CA30F5D8EB 1694690345 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694690345-07dc5116c1ccd373457f96146aba0d3de295cf8c
 
-cf0ba445f5e4dd74c1e9d7a83ca721ba69204a11 ef3e1b8a31f3579b7dae2077f501974aca3beb74 refs/heads/for-6.6
-8885ab34201c5c34a82539ba2753e8e743b38f38 cfaa4c32ccd3a4cb1140416a9ab51904e938d767 refs/heads/for-6.7
+cf0ba445f5e4dd74c1e9d7a83ca721ba69204a11 ef3e1b8a31f3579b7dae2077f501974aca3beb74 refs/heads/asoc-6.6
+8885ab34201c5c34a82539ba2753e8e743b38f38 cfaa4c32ccd3a4cb1140416a9ab51904e938d767 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUC7CEACgkQJNaLcl1U
-h9CGDQf/XB1ec20qxmgvG4QVKGT2AqMYCFNyolODfo5rx/O+lcXBooe+ibO2bjU4
-50ylnPuCUXv+iXQVUOj7RkfKkxvxfOJLv9qUYsNFFXVfTftjixcM0W9mfYd6j82o
-7HIHfbTlyBnbvqPu+oysmGudRePHaJCKrTHbrRPcRL8YBJr50hcCGldtVqWBZCr3
-yqJ8qy2+KmjcaGTdFbGlZnO0/nI9CdPHgxlBCpvBdtj+KDN92I9Ka9WCA0r1dABZ
-slaHwKL9lakGqfQOVw8z4b0Hhde2YrFZlf6bMm9hff8Apk1Yyz5ijAYnzHa+ymdJ
-roPnwV22YpwtofBPMqRQ/lXmbWieVQ==
-=FryL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUC7CkACgkQJNaLcl1U
+h9D5EAf9H1QYXP9y1Nc2DStzDHDGVd3m34CXRMoSITH/xjFWfP3PfAVHLLHv7wQ1
+j3Rg0Lr5U5eAvBggcXuzrTjjJDR23fP8YhlmlCk7VYm4gzeUNupiiTsvPc9TnKA+
+MMg96hU5HpRjWpMl0FEP6VbKD7CqP5z2hTHmYUPgj3RMUSIgcvKuS5g6LjEbM8p0
+7yUwwr8dtLAyMhd4IGgLrTVRzrvbfMvCz6ke9LXY1dyDnk9cM+GX3Sh4Lh0SmMOu
+5vnPz1uQ8ammbch/ydlM2C4hfKoJ1j1H0RczPMmvnVaBYVx6ieKS492US5qQmpWm
+w1k5brUaU1E+MSPBOrgDMrSGe+/SCA==
+=8lef
 -----END PGP SIGNATURE-----
 
---===============4613401669366851708==--
+--===============3723839778609879697==--
