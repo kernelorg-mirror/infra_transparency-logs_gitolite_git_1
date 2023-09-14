@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8283043667275246418=="
+Content-Type: multipart/mixed; boundary="===============7374478958605302719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 14 Sep 2023 16:14:48 -0000
-Message-Id: <169470808849.32011.17102172675032061185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 14 Sep 2023 16:14:57 -0000
+Message-Id: <169470809771.32117.5309292866182364093@gitolite.kernel.org>
 
---===============8283043667275246418==
+--===============7374478958605302719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 19d8ab40f89b027b69ade062c5eb4f677a80a95d
     log: revlist-45fc4628c15a-19d8ab40f89b.txt
 
---===============8283043667275246418==
+--===============7374478958605302719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f0f4cd1003a03b0ae86be8c9ec8e88b0df384001 perf pmu: Add YYDEBUG
 0c4ded92280b932cf510298957a62cc3dcbfbffc perf test lock_contention.sh: Skip test if the number of CPUs is low
 19d8ab40f89b027b69ade062c5eb4f677a80a95d perf test stat+shadow_stat.sh: Add threshold for rounding errors
 
---===============8283043667275246418==--
+--===============7374478958605302719==--
