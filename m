@@ -1,50 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8677063059123989884=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 15 Sep 2023 18:22:15 -0000
-Message-Id: <169480213583.27475.7947631106944965730@gitolite.kernel.org>
-
---===============8677063059123989884==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 15 Sep 2023 18:27:08 -0000
+Message-Id: <169480242846.30794.6382878601156544794@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/spi-6.7
-    old: fd811b62939f6d374546cfc25bbccb697a95519a
-    new: b0ef97ac89a794ae786eb1ff1cd2b07e9d9ab3c4
+  - ref: refs/heads/thermal
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: fb2c10245f201278804a6f28e196e95436059d6d
     log: |
-         b0ef97ac89a794ae786eb1ff1cd2b07e9d9ab3c4 spi: dt-bindings: arm,pl022: Move child node properties to separate schema
+         8a81cf96f5510aaf9a65d103f7405079a7b0fcc5 thermal/of: add missing of_node_put()
+         ebc7abb35b258152d4a424f89d7c03db1d7ce61c thermal: Constify the trip argument of the .get_trend() zone callback
+         fb2c10245f201278804a6f28e196e95436059d6d thermal: core: Fix disabled trip point check in handle_thermal_trip()
          
-
---===============8677063059123989884==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1694802134 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1694802133-6fc4c2a99a3ff0746f53bd9da6497e4a17236f39
-
-fd811b62939f6d374546cfc25bbccb697a95519a b0ef97ac89a794ae786eb1ff1cd2b07e9d9ab3c4 refs/heads/spi-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUEoNYACgkQJNaLcl1U
-h9COEAf7BHBHt5cV5jmropBFSbV5mLZHWJy3foZbKzhHnaJQo0avErAC7EGmw4Eh
-5bYzzUBYenqV0wgem+blwTRAUeIBw0gFCChfg+OZKMDKhgKRsjQg7+NGC2qHOQuE
-ah4a0dczGuGpUNrtpLq/iFSPHsHbFqXMgkSoWbcrEKaZQf3EfxjdkvdMvcLtp0FG
-51GG5rYqEcbtVGRdy/xfqkgHs7RShyrEY3jHBNosYSdza29mMKSf6e/ZEasMsVLL
-1ecQ4XJYCqH3Sv8ZyP4Z3M/dRF/Vn5h+NRzyhlNIHCzWijSZoYiueB/7BiOZZ7AR
-lyCK2csAdbDjxqsZdz0cYJgrvVsL0g==
-=TPPF
------END PGP SIGNATURE-----
-
---===============8677063059123989884==--
+  - ref: refs/tags/thermal-6.6-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9d319d92c33d2cb709802a4ca40ddc7e28d0ecfe
