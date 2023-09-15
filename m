@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 15 Sep 2023 14:46:28 -0000
-Message-Id: <169478918882.30194.3744420353425574618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 15 Sep 2023 15:02:15 -0000
+Message-Id: <169479013528.8356.9131781618917167935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: df3f51f6ca53e525420cd4cf4c7d9f5cabe9a29e
-    new: 785f3bb19d40050d0f40c07cbe6345e361acdcae
+  - ref: refs/heads/experimental
+    old: dd40232ee06023e372834b2ec2a8f4c734b2a36c
+    new: 4382af4f042a1214d49fb2c7fb874ad87262493f
     log: |
-         c7e1b42dec6e14cea397362f5ef2c8837786598b dm persistent data: Introduce extent allocator
-         c106fffda30ad07afad055600ca0e96881161774 dm space map: Add sm_disk_new_block_in_range method
-         785f3bb19d40050d0f40c07cbe6345e361acdcae dm thin: Use the extent allocator for data blocks
+         4382af4f042a1214d49fb2c7fb874ad87262493f erofs-utils: mkfs: support flatdev for multi-blob images
          
