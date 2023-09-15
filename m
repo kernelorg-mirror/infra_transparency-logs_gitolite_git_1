@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 15 Sep 2023 15:11:20 -0000
-Message-Id: <169479068015.16066.11277647465672184843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 15 Sep 2023 15:18:14 -0000
+Message-Id: <169479109474.20465.14506313990855618236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/riscv-for-linus-6.6-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2a22191c9d3cc336274cdde2fc67b4d4ebb50703
+  - ref: refs/heads/sched/core
+    old: c0490bc9bb62d9376f3dd4ec28e03ca0fef97152
+    new: 4ff34ad3d39377d9f6953f3606ccf611ce636767
+    log: |
+         4ff34ad3d39377d9f6953f3606ccf611ce636767 sched/core: Use do-while instead of for loop in set_nr_if_polling()
+         
