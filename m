@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 15 Sep 2023 02:38:15 -0000
-Message-Id: <169474549540.4749.6226258128161021826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 15 Sep 2023 03:31:52 -0000
+Message-Id: <169474871264.10149.8709892931793224825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-6.6-fixes
-    old: a034e2776a545d3441da49e0e509143b09dfd4cb
-    new: e3da4c401f2d088cf049769eb1e39c299867ee9d
+  - ref: refs/heads/dm-6.7
+    old: edcabec81f12dfc9b86b05084bba3232efdc5e4e
+    new: 805d736ee48c10d8770f998127887795ffb0106f
     log: |
-         e3da4c401f2d088cf049769eb1e39c299867ee9d ata: pata_parport: Fix code style issues
+         064fc5e0e09b49033693b07003c142d0be27a009 dm persistent data: Introduce extent allocator
+         b67fc7e21a243bea0bc0526c3d2719aff7df0ffe dm space map: Add sm_disk_new_block_in_range method
+         805d736ee48c10d8770f998127887795ffb0106f dm thin: Use the extent allocator
          
