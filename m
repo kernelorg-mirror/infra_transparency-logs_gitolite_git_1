@@ -1,29 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 15 Sep 2023 09:28:36 -0000
-Message-Id: <169477011638.8922.17084260712028707934@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6413395887118985842=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 15 Sep 2023 09:34:15 -0000
+Message-Id: <169477045545.12638.17150364735784842369@gitolite.kernel.org>
+
+--===============6413395887118985842==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 7e478d9ce41d4e7c5138d4838b377e8891c8de31
-    new: ee94060c7d088dca2245d248b5b03a6dd4fdb4fb
-    log: |
-         5f51c5d0e905608ba7be126737f7c84a793ae1aa x86/efi: Drop EFI stub .bss from .data section
-         7e50262229faad0c7b8c54477cd1c883f31cc4a7 x86/efi: Disregard setup header of loaded image
-         bfab35f552ab3dd6d017165bf9de1d1d20f198cc x86/efi: Drop alignment flags from PE section headers
-         768171d7ebbce005210e1cf8456f043304805c15 x86/boot: Remove the 'bugger off' message
-         8eace5b3555606e684739bef5bcdfcfe68235257 x86/boot: Omit compression buffer from PE/COFF image memory footprint
-         7448e8e5d15a3c4df649bf6d6d460f78396f7e1e x86/boot: Drop redundant code setting the root device
-         b618d31f112bea3d2daea19190d63e567f32a4db x86/boot: Drop references to startup_64
-         988b52b207a9fe74c3699bda8c2256714926b94b x86/boot: Define setup size in linker script
-         d14b79ee68488f8b41df61a111d36bdc627e5984 Merge branch into tip/master: 'x86/boot'
-         cccd32816506cbac3a4c65d9dff51b3125ef1a03 panic: Reenable preemption in WARN slowpath
-         ee94060c7d088dca2245d248b5b03a6dd4fdb4fb Merge branch into tip/master: 'core/urgent'
-         
+  - ref: refs/heads/main
+    old: f2fa1c812c91e99d0317d1fc7d845e1e05f39716
+    new: e73d5fb75d67538b13fe04d14a55f32ea4efe227
+    log: revlist-f2fa1c812c91-e73d5fb75d67.txt
+
+--===============6413395887118985842==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f2fa1c812c91-e73d5fb75d67.txt
+
+b0adfba7ee770fef20b1b6d86706c28f7fccfb07 ipv6: lockless IPV6_UNICAST_HOPS implementation
+d986f52124e062753e33b6fe303be5904a997eac ipv6: lockless IPV6_MULTICAST_LOOP implementation
+2da23eb07c91241d962f3ff05565065484cd8929 ipv6: lockless IPV6_MULTICAST_HOPS implementation
+15f926c4457aa65b1ac83bda1bbdcaad3f48e4e7 ipv6: lockless IPV6_MTU implementation
+273784d3c5741522199011772651dbb50db8c810 ipv6: lockless IPV6_MINHOPCOUNT implementation
+dcae74622c051b219ee628669a31716473efda2c ipv6: lockless IPV6_RECVERR_RFC4884 implementation
+6559c0ff3bc27d7e4d447d31c1d7e8eae0e959f5 ipv6: lockless IPV6_MULTICAST_ALL implementation
+5121516b0c4736b7977d977b239e36d23ec64401 ipv6: lockless IPV6_AUTOFLOWLABEL implementation
+1086ca7cce292bb498d7f8f85f4593c9ef4902b7 ipv6: lockless IPV6_DONTFRAG implementation
+3fa29971c69519629370b119b0b618ee88ade6b9 ipv6: lockless IPV6_RECVERR implemetation
+3cccda8db2cf2f2a224d55d5b6e2251d478c58ca ipv6: move np->repflow to atomic flags
+83cd5eb654b320c1972254f243531f3f3cebcccf ipv6: lockless IPV6_ROUTER_ALERT_ISOLATE implementation
+6b724bc4300b431443f3b99520994a5aece347cd ipv6: lockless IPV6_MTU_DISCOVER implementation
+859f8b265fc2a11af0fb0c52b4087e0409250592 ipv6: lockless IPV6_FLOWINFO_SEND implementation
+e73d5fb75d67538b13fe04d14a55f32ea4efe227 Merge branch 'ipv6-data-races'
+
+--===============6413395887118985842==--
