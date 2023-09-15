@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 Sep 2023 12:27:38 -0000
-Message-Id: <169478085891.26050.71807115917511661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 15 Sep 2023 12:45:24 -0000
+Message-Id: <169478192480.7736.12380306636532131095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/20230915_yung_chuan_liao_asoc_intel_sof_sdw_remove_large_global_cpus_array
-    old: 0000000000000000000000000000000000000000
-    new: 7a35d05f1e7687bbb57b97efe6d0af560826507e
+  - ref: refs/heads/main
+    old: 75ad80ed88a182ab2ad5513e448cf07b403af5c3
+    new: e0b65f9b81fef180cf5f103adecbe5505c961153
+    log: |
+         e0b65f9b81fef180cf5f103adecbe5505c961153 net: thunderbolt: Fix TCPv6 GSO checksum calculation
+         
