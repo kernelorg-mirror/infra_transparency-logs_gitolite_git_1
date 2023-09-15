@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 Sep 2023 12:16:02 -0000
-Message-Id: <169478016280.17924.9565588222714340234@gitolite.kernel.org>
+Date: Fri, 15 Sep 2023 12:16:35 -0000
+Message-Id: <169478019537.18197.8718008341964696514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/file4KJxxQ
-    old: 642d1de63cea161c629afd2e82d9db5a1582ffea
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.6
+    old: fac58baf8fcfcd7481e8f6d60206ce2a47c1476c
+    new: bb0216d4db9ecaa51af45d8504757becbe5c050d
+    log: |
+         6ba59c008f08e84b3c87be10f3391c9735e4f833 ASoC: SOF: ipc4-topology: fix wrong sizeof argument
+         bb0216d4db9ecaa51af45d8504757becbe5c050d ASoC: SOF: sof-audio: Fix DSP core put imbalance on widget setup failure
+         
