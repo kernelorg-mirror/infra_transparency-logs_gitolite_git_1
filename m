@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 15 Sep 2023 03:32:05 -0000
-Message-Id: <169474872516.10325.12953732786438834375@gitolite.kernel.org>
+Date: Fri, 15 Sep 2023 03:43:27 -0000
+Message-Id: <169474940705.18763.11128444614056566529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: edcabec81f12dfc9b86b05084bba3232efdc5e4e
-    new: 805d736ee48c10d8770f998127887795ffb0106f
+    old: 805d736ee48c10d8770f998127887795ffb0106f
+    new: df3f51f6ca53e525420cd4cf4c7d9f5cabe9a29e
     log: |
-         064fc5e0e09b49033693b07003c142d0be27a009 dm persistent data: Introduce extent allocator
-         b67fc7e21a243bea0bc0526c3d2719aff7df0ffe dm space map: Add sm_disk_new_block_in_range method
-         805d736ee48c10d8770f998127887795ffb0106f dm thin: Use the extent allocator
+         b97bcee4b9999c9f5aadc06317ade18c5cbe37f6 dm persistent data: Introduce extent allocator
+         3b1142a2a78d9d8a6e4a2e749c013fcb213a4d81 dm space map: Add sm_disk_new_block_in_range method
+         df3f51f6ca53e525420cd4cf4c7d9f5cabe9a29e dm thin: Use the extent allocator
          
