@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 15 Sep 2023 17:44:37 -0000
-Message-Id: <169479987716.31634.14669459496312102385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 15 Sep 2023 18:00:47 -0000
+Message-Id: <169480084762.11520.17245791395112453126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: da85f88aecf79245ddd8959a0293e979c1597511
-    new: 3d4134e4a20f26f865d62104672e9da696446834
+    old: 5c04433daf9ed8b28d4900112be1fd19e1786b25
+    new: d609f3d228a8efe991f44f11f24146e2a5209755
     log: |
-         3d4134e4a20f26f865d62104672e9da696446834 foo
+         d609f3d228a8efe991f44f11f24146e2a5209755 xsk: add multi-buffer support for sockets sharing umem
          
