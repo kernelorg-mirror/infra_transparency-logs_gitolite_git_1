@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 15 Sep 2023 16:03:58 -0000
-Message-Id: <169479383813.21402.9410583777406641785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 15 Sep 2023 16:05:40 -0000
+Message-Id: <169479394071.23645.4032704691595042168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/tags/linux-kselftest-fixes-6.6-rc2
+  - ref: refs/heads/ath12k-split-phy
     old: 0000000000000000000000000000000000000000
-    new: 88e382ba41181430d76ed7c7784dc0bc6bc31f3e
+    new: 3248e08fa43d2fdd134583e25f5d317a623f91e3
