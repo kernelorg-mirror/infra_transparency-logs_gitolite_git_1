@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9075193901800591131=="
+Content-Type: multipart/mixed; boundary="===============1044703854158939157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Sep 2023 23:04:03 -0000
-Message-Id: <169481904356.4171.2077676982345354507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Sep 2023 23:04:10 -0000
+Message-Id: <169481905028.4284.13248841643549220658@gitolite.kernel.org>
 
---===============9075193901800591131==
+--===============1044703854158939157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: b19a5733de255cabba5feecabf6e900638b582d1
     new: 31bb7bd9ffee50d09ec931998b823a86132ab807
     log: |
@@ -24,37 +24,37 @@ changes:
          e0f96246c4402514acda040be19ee24c1619e01a ASoC: SOF: Intel: MTL: Reduce the DSP init timeout
          31bb7bd9ffee50d09ec931998b823a86132ab807 ASoC: SOF: core: Only call sof_ops_free() on remove if the probe was successful
          
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 642d1de63cea161c629afd2e82d9db5a1582ffea
     new: 33f9b528de0aa485a9b99a26cdf2e846ad9e6fd9
     log: revlist-642d1de63cea-33f9b528de0a.txt
 
---===============9075193901800591131==
+--===============1044703854158939157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1694819041 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1694819041-608b36dd30a32e9a326c0be073ff22ad82146c88
+pusher C3F436CA30F5D8EB 1694819048 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694819047-2d8112c81420e629cdee4f392d63be97d6896fb5
 
-b19a5733de255cabba5feecabf6e900638b582d1 31bb7bd9ffee50d09ec931998b823a86132ab807 refs/heads/for-6.6
-642d1de63cea161c629afd2e82d9db5a1582ffea 33f9b528de0aa485a9b99a26cdf2e846ad9e6fd9 refs/heads/for-6.7
+b19a5733de255cabba5feecabf6e900638b582d1 31bb7bd9ffee50d09ec931998b823a86132ab807 refs/heads/asoc-6.6
+642d1de63cea161c629afd2e82d9db5a1582ffea 33f9b528de0aa485a9b99a26cdf2e846ad9e6fd9 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUE4uEACgkQJNaLcl1U
-h9BR9Qf/UlVRUrhsIGBDjR/zEibXJQteRzRqKfIFbYMYx+TUcmpf8ufic18Sycz+
-gwHHpwkJCW0FAaVI/OgVIqU1gssknDbq1KLDaK5bvs+J5BVin+1lC8SZ91y7UHM9
-G6xbHsC3TZ/2S24Qi+Dlda7Rv39g8zeeqLnROXHGKNXgOJ/Vw6OgNVh+L5oUVEMl
-2zuHTC6UthvyjCxVmP2cNWi7BgW7hsFnxdWgPMHxFj4E6JL/1HPMokewPMJ3yO9E
-UgNULcJrm54VKnyJgqdVPbV8txVnRbHzM5l/LGvDgZCVqMvoemOcP7KlU2UZPqEp
-3PBlJ7PXQyddKuHAJVKGSuL7aRCODQ==
-=FagB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUE4ugACgkQJNaLcl1U
+h9AGsAf+PF8YJqqi8xdbNv5Vhe1Qv5/3awtmZhFrEr+rkTdpIMFZj/w6ChRjcTog
+q9rXcF2w/moQHvBYVA7V4xQcf0FTIBd2mB++88Rg4iNGSgc4RiGQVyNUwsdVairB
+cYJA+eYQ8/OZizh+v9jl4Gl7J8f366hqfYspxRoIgkiTEgNETN83A38Yfy4/DGhM
+BusnO1P1XqaW0lUF5Fug5mcElH3HOcD4+CMQcJvptyoDuwgozJ+gxwaJEImEQDY1
+agUL9/uaVH8w3zsLUymRa6IVdu+5iD+N8zEtmHxPLwqm/131TZ1p1iTCGMSClGvH
+GpiXKQp2FaDTzlw4co3tnthUIhQ0Wg==
+=GqrW
 -----END PGP SIGNATURE-----
 
---===============9075193901800591131==
+--===============1044703854158939157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ b1ad9437edd7f145fda807efb604ad84348170af ASoC: SOF: ipc4/Intel: Implement split 
 e81a600d42bba96f737ec66c467de3376e00f9ff ASoC: intel: sof_sdw: Remove large global CPUs array
 33f9b528de0aa485a9b99a26cdf2e846ad9e6fd9 ASoC: SOF: ipc4: Fixup dailink format based on copier
 
---===============9075193901800591131==--
+--===============1044703854158939157==--
