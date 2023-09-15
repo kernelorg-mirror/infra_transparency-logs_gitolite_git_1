@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 15 Sep 2023 19:00:21 -0000
-Message-Id: <169480442107.23053.3800024760359761809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 15 Sep 2023 19:11:43 -0000
+Message-Id: <169480510381.31566.4105399307725974826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 865eb991c63ec7ceef4efbb5e124c396029acbc6
-    new: c3d3bae14df6d4f0546f90b041f0a42290562e87
+  - ref: refs/heads/master
+    old: 57eb5e1c5c57972c95e8efab6bc81b87161b0b07
+    new: c0bb9fb0e52a64601d38b3739b729d9138d4c8a1
     log: |
-         c6faee649d893575f471a0eac3a819ac86fc90de NFSD: introduce netlink stubs
-         c3d3bae14df6d4f0546f90b041f0a42290562e87 NFSD: add rpc_status netlink support
+         8f908db77782630c45ba29dac35c434b5ce0b730 bpf: Fix BTF_ID symbol generation collision
+         c0bb9fb0e52a64601d38b3739b729d9138d4c8a1 bpf: Fix BTF_ID symbol generation collision in tools/
          
