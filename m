@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 Sep 2023 18:03:34 -0000
-Message-Id: <169480101424.12757.11029666143024082087@gitolite.kernel.org>
+Date: Fri, 15 Sep 2023 18:03:42 -0000
+Message-Id: <169480102213.12850.12904950841925686491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20230914_rf_asoc_cs35l56_define_and_export_i2c_spi_pm_ops_only_if_needed
-    old: 01e76ee227564008d71ddce6e43132b36d2d2252
+  - ref: refs/heads/20230915_peter_ujfalusi_asoc_sof_ipc4_intel_implement_split_fw_library_loading
+    old: 5a8a9d70ecac3acbd49e70ad8f85153c0315643e
     new: 0000000000000000000000000000000000000000
