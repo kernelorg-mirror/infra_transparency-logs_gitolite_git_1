@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3318160092128718580=="
+Content-Type: multipart/mixed; boundary="===============8731300393079179604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Sep 2023 16:12:56 -0000
-Message-Id: <169479437612.29473.10392524122883837215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Sep 2023 16:13:02 -0000
+Message-Id: <169479438215.29607.4457278440092478647@gitolite.kernel.org>
 
---===============3318160092128718580==
+--===============8731300393079179604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: bb0216d4db9ecaa51af45d8504757becbe5c050d
     new: b19a5733de255cabba5feecabf6e900638b582d1
     log: |
@@ -24,28 +24,28 @@ changes:
          b19a5733de255cabba5feecabf6e900638b582d1 ASoC: imx-audmix: Fix return error with devm_clk_get()
          
 
---===============3318160092128718580==
+--===============8731300393079179604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1694794374 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1694794374-cd9688af9c8ee3fb4765d4e9802fd4ead8f047cf
+pusher C3F436CA30F5D8EB 1694794380 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1694794380-c9191af41942750e50785707674fc041781ae755
 
-bb0216d4db9ecaa51af45d8504757becbe5c050d b19a5733de255cabba5feecabf6e900638b582d1 refs/heads/for-6.6
+bb0216d4db9ecaa51af45d8504757becbe5c050d b19a5733de255cabba5feecabf6e900638b582d1 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUEgoYACgkQJNaLcl1U
-h9DuJAf/ZiyPP62Il5HhE5jpROgErOp2LDlCEVl6++kN4IrU9rrvHhXC6jHtY2fQ
-AzO6DXwOaDMFzJ/xFsxJw334ZxVQxysbNU8Pm58X9ARYEAt/QylotKD3b2RPMZRt
-tFRQM4xvXZcjaMBj7HvcqQkO39wqtCHcW/Mv8t855Cmnv7P4VCqHaFuecTGiHovf
-p2eGF92ZOUS5GwBjj3USJqSbx1sQVgeeBdpCG0h2ZDMhdOCQaeNWV6jTQ2yD+RPt
-whfHXKNgm6l5GjFEvHKGVMfMkBGki+akO2xXIaiPRcV3liBf4M+hgBh78jg8Rd38
-/PLTWj53Z4nRtikwe+9/RqKR/zuIww==
-=yqU8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUEgowACgkQJNaLcl1U
+h9CAwQf/ZAaqVexSKRDcPFQCpVD5B069KOUBMtgSgpIJ63Chud+yU+F7LvUzl5AK
+0cPEBube2gWgHBPtBYWLlRYt6e0aNcA3kDorjGJp2CULS4nOz6/p94L+lFwp1HSd
+s46Zm05FARdIhFhOns5SPbG+RiKuuPa9tGXt/Vnop7jmDRtUTlt4KelN3fHMhuMh
+iYmv7JUhMHI1fs1RVjn1IpsV6aHqbJ78fIOHvr2JrKBYIu5pAffuTSOwtjLd2S2P
+V+oAPlJIfoOt8vtXM6vlkLXt2IR4isW9ebOure2kTDq8aOr8zOUfP0n9PyoBf/iz
+3iJMaiXFdI0NAWeSBxlodeAXFncugQ==
+=WTy3
 -----END PGP SIGNATURE-----
 
---===============3318160092128718580==--
+--===============8731300393079179604==--
