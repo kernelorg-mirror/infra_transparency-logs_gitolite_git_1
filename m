@@ -1,41 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7945449147120443873=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Fri, 15 Sep 2023 11:53:08 -0000
-Message-Id: <169477878838.32227.2604637180577979345@gitolite.kernel.org>
-
---===============7945449147120443873==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 15 Sep 2023 11:55:59 -0000
+Message-Id: <169477895989.2637.6878954031401880111@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/jitalloc/v2.4
-    old: 9cf6b3942f8f31235a0d96f3ef26992b02cd07a6
-    new: 8d3e77dc8e980d26d8847e292e82d6443e7a6aac
-    log: revlist-9cf6b3942f8f-8d3e77dc8e98.txt
-
---===============7945449147120443873==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cf6b3942f8f-8d3e77dc8e98.txt
-
-dc12b6aac2ac3c67931111ab9c46620d2b361e53 mm/execmem, arch: convert simple overrides of module_alloc to execmem
-40656960fa9e97e074babe058d967bda8ebf6a40 mm/execmem, arch: convert remaining overrides of module_alloc to execmem
-1c5769a4205dca5de889cd7baf45709c49534cf4 modules, execmem: drop module_alloc
-c4d2c491920017192f8af2ea67a0eb1a23506138 mm/execmem: introduce execmem_data_alloc()
-bb539fdde2e22c264b2af03ee18a3489bee928a8 arm64, execmem: extend execmem_params for generated code allocations
-47e395ce8ffd6e024de60843b6e757f343e477d2 riscv: extend execmem_params for generated code allocations
-15f443c7d67c15f2b4be006dda04bc3908e63d92 powerpc: extend execmem_params for kprobes allocations
-e0aaa7c1b5f5daa54ab76cafab8118fa46e51929 arch: make execmem setup available regardless of CONFIG_MODULES
-8fe5669d3d35115253872a1db7c7c8ac63249517 x86/ftrace: enable dynamic ftrace without CONFIG_MODULES
-ad9f0c6ef23bc9c34c658269794fae0391beb7e5 kprobes: remove dependency on CONFIG_MODULES
-8d3e77dc8e980d26d8847e292e82d6443e7a6aac bpf: remove CONFIG_BPF_JIT dependency on CONFIG_MODULES of
-
---===============7945449147120443873==--
+  - ref: refs/heads/sched/core
+    old: 4de7b17fd05d03fa919e8c47fc66122bd24d7b6c
+    new: 6d08ad2166f7770341ea56afad45fa41cd16ae62
+    log: |
+         b1f099b1cf51d553c510c6c8141c27d9ba7ea1fe numa: Generalize numa_map_to_online_node()
+         d1db9fb432d50b0eecdfdd85d17cc15a59cc093b sched/fair: Fix open-coded numa_nearest_node()
+         617f2c38cb5ce60226042081c09e2ee3a90d03f8 sched/topology: Fix sched_numa_find_nth_cpu() in CPU-less case
+         8ab63d418d4339d996f80d02a00dbce0aa3ff972 sched/topology: Fix sched_numa_find_nth_cpu() in non-NUMA case
+         9ecea9ae4d3127a09fb5dfcea87f248937a39ff5 sched/topology: Handle NUMA_NO_NODE in sched_numa_find_nth_cpu()
+         6d08ad2166f7770341ea56afad45fa41cd16ae62 sched/topology: Fix sched_numa_find_nth_cpu() comment
+         
