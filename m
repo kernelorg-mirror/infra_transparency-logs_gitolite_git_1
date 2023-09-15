@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 15 Sep 2023 23:33:25 -0000
-Message-Id: <169482080572.25914.3384245092890654828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 15 Sep 2023 23:38:49 -0000
+Message-Id: <169482112996.30778.369166033969339818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/todo
-    old: 4d69cf7a58775e64bef1e56a8e3441fae4bd417d
-    new: e9a185d825c60f4de000025ee6bf3fc487c44bf5
+  - ref: refs/heads/master
+    old: 8d983f6e0e8723348c169d9e9a64020d0099733a
+    new: a4b645b0384b7aceae05e01aefee3786ed4fe0b8
     log: |
-         e9a185d825c60f4de000025ee6bf3fc487c44bf5 What's cooking (2023/09 #05)
+         a4b645b0384b7aceae05e01aefee3786ed4fe0b8 Fri Sep 15 11:37:07 PM UTC 2023
          
