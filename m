@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sat, 16 Sep 2023 06:28:09 -0000
-Message-Id: <169484568910.797.7696986620330443664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 16 Sep 2023 06:29:01 -0000
+Message-Id: <169484574165.1216.3323560658253793451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/perf-tools
-    old: c2122b687c212a28d237fb672cc979247bd94449
-    new: dd1ddd13a30e3d53d9e0c49908e69af0d38f442e
+  - ref: refs/heads/perf-tools-next
+    old: 19d8ab40f89b027b69ade062c5eb4f677a80a95d
+    new: 79df8365e37d38a84d9a15cc2f6386f5587e211a
     log: |
-         a01fb0d3c391da63a68e35544f65b0db2e393749 perf bpf-prologue: Remove unused file
-         3b87b6d7279caedad5686dd3c3f474c82265e042 perf trace: Avoid compile error wrt redefining bool
-         89f492007445ccb909d4df0c5a3528f8e7bffd61 perf jevents metric: Fix type of strcmp_cpuid_str
-         927265904c8f779cd8f183c8c337d28a864eaf96 perf pmu: Ensure all alias variables are initialized
-         dd1ddd13a30e3d53d9e0c49908e69af0d38f442e perf jevent: fix core dump on software events on s390
+         21ce931e55c19c1f74378b4836d9dae631da0e62 perf symbol: Avoid an undefined behavior warning
+         3d0f5f456a5786573ba6a3358178c8db580e4b85 perf pmu: Move pmu__find_core_pmu() to pmus.c
+         105e5b433e5c743bcdb4956b00b772dfddbee455 perf pmus: Simplify perf_pmus__find_core_pmu()
+         70360fad919b06100748764eb82fa399a9f37e1c perf pmu: Remove unused function
+         486021e04b24f8dffe54ec282ce5d4cc3e71133f perf annotate: Add more x86 mov instruction cases
+         79df8365e37d38a84d9a15cc2f6386f5587e211a perf kwork: Fix spelling mistake "COMMMAND" -> "COMMAND"
          
