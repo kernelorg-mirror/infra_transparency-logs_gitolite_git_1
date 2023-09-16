@@ -1,32 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 16 Sep 2023 06:08:33 -0000
-Message-Id: <169484451373.19991.13286976484958204402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sat, 16 Sep 2023 06:28:09 -0000
+Message-Id: <169484568910.797.7696986620330443664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/for-linus
-    old: 322e0c500073ac4b2f74d8c850c0aeee81be8df3
-    new: b2ce0027d7b2905495021c5208f92043eb493146
+  - ref: refs/heads/perf-tools
+    old: c2122b687c212a28d237fb672cc979247bd94449
+    new: dd1ddd13a30e3d53d9e0c49908e69af0d38f442e
     log: |
-         b2ce0027d7b2905495021c5208f92043eb493146 ALSA: rawmidi: Fix NULL dereference at proc read
-         
-  - ref: refs/heads/for-next
-    old: 322e0c500073ac4b2f74d8c850c0aeee81be8df3
-    new: b2ce0027d7b2905495021c5208f92043eb493146
-    log: |
-         b2ce0027d7b2905495021c5208f92043eb493146 ALSA: rawmidi: Fix NULL dereference at proc read
-         
-  - ref: refs/heads/master
-    old: 1a6ffd132e807128553ff3483f6578f415f7b2c6
-    new: 8467023cee2f191d8e4a320ca2dd35f2a39959eb
-    log: |
-         b2ce0027d7b2905495021c5208f92043eb493146 ALSA: rawmidi: Fix NULL dereference at proc read
-         8467023cee2f191d8e4a320ca2dd35f2a39959eb Merge branch 'for-linus'
+         a01fb0d3c391da63a68e35544f65b0db2e393749 perf bpf-prologue: Remove unused file
+         3b87b6d7279caedad5686dd3c3f474c82265e042 perf trace: Avoid compile error wrt redefining bool
+         89f492007445ccb909d4df0c5a3528f8e7bffd61 perf jevents metric: Fix type of strcmp_cpuid_str
+         927265904c8f779cd8f183c8c337d28a864eaf96 perf pmu: Ensure all alias variables are initialized
+         dd1ddd13a30e3d53d9e0c49908e69af0d38f442e perf jevent: fix core dump on software events on s390
          
