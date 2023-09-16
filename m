@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 16 Sep 2023 09:02:07 -0000
-Message-Id: <169485492729.14006.11721161824994715798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 16 Sep 2023 09:09:58 -0000
+Message-Id: <169485539837.19718.9620231140200306975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: d8a46fe59626cf619035a8d9d8a0a9ae072a551f
-    new: fbd25e0572973e27dbadeec565cd46e8da9619d5
+  - ref: refs/heads/main
+    old: 4fa5ce3e3a10da4ecc438a548fc701dec5f28758
+    new: 41862d12e77f78b4ecb59b028bf44de92991bda2
     log: |
-         32e4fa37fa667fdf53499b9de92737dc75199d8e cpu/hotplug: Remove unused cpuhp_state CPUHP_AP_X86_VDSO_VMA_ONLINE
-         fbd25e0572973e27dbadeec565cd46e8da9619d5 Merge branch into tip/master: 'smp/core'
+         41862d12e77f78b4ecb59b028bf44de92991bda2 net: use indirect call helpers for sk->sk_prot->release_cb()
          
