@@ -1,28 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 16 Sep 2023 00:18:55 -0000
-Message-Id: <169482353567.27004.16203271435208499042@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6996722759078088381=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 16 Sep 2023 00:28:13 -0000
+Message-Id: <169482409348.1073.13308953501403981693@gitolite.kernel.org>
+
+--===============6996722759078088381==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 9b2b86332a9b9932d9022a0c004251d5d6437020
-    new: c4ab64e6da42030c866f0589d1bfc13a037432dd
-    log: |
-         471f3d4ee4a6db5c8621bb1c186a1d20a0639630 arm32, bpf: add support for 32-bit offset jmp instruction
-         f9e6981b1f1ce5e954e4e9b82e6d3e564d4a3254 arm32, bpf: add support for sign-extension load instruction
-         fc832653fa0dba174bf8fee9db85f3f9d1450b8a arm32, bpf: add support for sign-extension mov instruction
-         1cfb7eaebeac9270fcb527f47bbdea34ca3cd5b2 arm32, bpf: add support for unconditional bswap instruction
-         5097faa559a6097de436bdff4027d036b5493d1a arm32, bpf: add support for 32-bit signed division
-         71086041c2ba04aa436a4b2283c708345e72a0bb arm32, bpf: add support for 64 bit division instruction
-         59ff6d63b7307be4dbfbecceea9aedca047c7ffe selftest, bpf: enable cpu v4 tests for arm32
-         daabb2b098e04753fa3d1b1feed13e5a61bef61c bpf/tests: add tests for cpuv4 instructions
-         9b31b4f1d4ae30627e9a75967e974c766f80e92f MAINTAINERS: Add myself for ARM32 BPF JIT maintainer.
-         c4ab64e6da42030c866f0589d1bfc13a037432dd Merge branch 'arm32-bpf-add-support-for-cpuv4-insns'
-         
+  - ref: refs/heads/seen
+    old: 43f0f0c53ac6a92276d2ad26944838dc3c268f4d
+    new: 6d285c8164679a50c3118e38cdedd55bafa5234c
+    log: revlist-43f0f0c53ac6-6d285c816467.txt
+
+--===============6996722759078088381==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-43f0f0c53ac6-6d285c816467.txt
+
+161c35f93b9a742b5ec5c69eaea4e39db7343d19 Merge branch 'js/diff-cached-fsmonitor-fix' into jc/diff-cached-fsmonitor-fix
+c33fa871a5c89091cfc89fd7b6ef504d2d48bef2 cache: add fake_lstat()
+9510fe8940d48fdacabea543c83b9f74181bd077 Merge branch 'jc/fake-lstat' into jc/diff-cached-fsmonitor-fix
+811c9c210265a16514fd1b5a513d4b028d711410 diff-lib: fix check_removed() when fsmonitor is active
+ad98030344f9d291f3d330dc9a38e52ac77cdad3 Merge branch 'js/doc-unit-tests' into seen
+46127f0639418c493761f3f5adb9f8a8bbaae3a2 Merge branch 'cc/git-replay' into seen
+dc118a1324f487a3ca9e049c92401ea9b70d9ea8 Merge branch 'cw/git-std-lib' into seen
+57a5d65df2b6876f0d27e516f088496ce4d88f4d Merge branch 'js/doc-unit-tests-with-cmake' into seen
+494c5c8a717320dcef0bb3eb1413d32d900b6bc1 Merge branch 'js/config-parse' into seen
+7c450fa1c1797503df815a540797ee64e65da3b3 Merge branch 'so/diff-merges-d' into seen
+a61803a1f15c77975c2f806c5873150af295a28f Merge branch 'kh/range-diff-notes' into seen
+4dbb259441c45d41fbdc722244ee083d596a7164 Merge branch 'jk/redact-h2h3-headers-fix' into seen
+d4b8a0cefcc96d8c90ad9237aff32612d645906a Merge branch 'kn/rev-list-ignore-missing-links' into seen
+0046d21e9e009937aead625793c82090a44f3a43 Merge branch 'eg/config-type-path-docfix' into seen
+bb8fde520673a32c59ea6557025c6f0a5ef6e5c8 Merge branch 'ch/clean-docfix' into seen
+63943effa3de42aeaa8ef4efb1328566b532cdd6 Merge branch 'jc/fake-lstat' into seen
+6d285c8164679a50c3118e38cdedd55bafa5234c Merge branch 'jc/diff-cached-fsmonitor-fix' into seen
+
+--===============6996722759078088381==--
