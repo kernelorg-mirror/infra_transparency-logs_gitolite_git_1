@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5684567342161215664=="
+Content-Type: multipart/mixed; boundary="===============0686209911915713305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 16 Sep 2023 15:40:26 -0000
-Message-Id: <169487882642.27952.16385658621234529039@gitolite.kernel.org>
+Date: Sat, 16 Sep 2023 15:40:28 -0000
+Message-Id: <169487882894.28061.10989723448858375987@gitolite.kernel.org>
 
---===============5684567342161215664==
+--===============0686209911915713305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/microchip-dt64
-    old: 7dd900ea0e1b9a2000270c9c0f4deab0cfa359b1
+  - ref: refs/heads/microchip-dt64-fixes
+    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-7dd900ea0e1b-0bb80ecc33a8.txt
+    log: revlist-06c2afb862f9-0bb80ecc33a8.txt
 
---===============5684567342161215664==
+--===============0686209911915713305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7dd900ea0e1b-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-06c2afb862f9-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============5684567342161215664==--
+--===============0686209911915713305==--
