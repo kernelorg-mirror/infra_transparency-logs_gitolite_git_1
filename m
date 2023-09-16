@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2685498265854906550=="
+Content-Type: multipart/mixed; boundary="===============6323310674022053663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 16 Sep 2023 16:43:05 -0000
-Message-Id: <169488258579.7261.2038987198789640131@gitolite.kernel.org>
+Date: Sat, 16 Sep 2023 16:43:21 -0000
+Message-Id: <169488260188.7436.5865303349261174717@gitolite.kernel.org>
 
---===============2685498265854906550==
+--===============6323310674022053663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c4ab64e6da42030c866f0589d1bfc13a037432dd
     new: ec6f1b4db95b7eedb3fe85f4f14e08fa0e9281c3
     log: revlist-c4ab64e6da42-ec6f1b4db95b.txt
 
---===============2685498265854906550==
+--===============6323310674022053663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ d6ea06803212d992cbab24466f491ee0178bf9e0 selftests/bpf: Add BPF assertion macros
 d2a93715bfb0655a63bb1687f43f48eb2e61717b selftests/bpf: Add tests for BPF exceptions
 ec6f1b4db95b7eedb3fe85f4f14e08fa0e9281c3 Merge branch 'exceptions-1-2'
 
---===============2685498265854906550==--
+--===============6323310674022053663==--
