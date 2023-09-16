@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 16 Sep 2023 06:29:01 -0000
-Message-Id: <169484574165.1216.3323560658253793451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Sat, 16 Sep 2023 07:23:30 -0000
+Message-Id: <169484901020.8272.9525396273458037072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 19d8ab40f89b027b69ade062c5eb4f677a80a95d
-    new: 79df8365e37d38a84d9a15cc2f6386f5587e211a
+  - ref: refs/heads/master
+    old: ff1017600943a9c0da82a82d4e26202f1f068f8f
+    new: 318e65b2184a5105f1b17de53a25d85715d7ca7c
     log: |
-         21ce931e55c19c1f74378b4836d9dae631da0e62 perf symbol: Avoid an undefined behavior warning
-         3d0f5f456a5786573ba6a3358178c8db580e4b85 perf pmu: Move pmu__find_core_pmu() to pmus.c
-         105e5b433e5c743bcdb4956b00b772dfddbee455 perf pmus: Simplify perf_pmus__find_core_pmu()
-         70360fad919b06100748764eb82fa399a9f37e1c perf pmu: Remove unused function
-         486021e04b24f8dffe54ec282ce5d4cc3e71133f perf annotate: Add more x86 mov instruction cases
-         79df8365e37d38a84d9a15cc2f6386f5587e211a perf kwork: Fix spelling mistake "COMMMAND" -> "COMMAND"
+         a0a6f80ee0ada1b74b087483fbca32ef8849d6b5 build: Enable building with sanitizers
+         5fe678ff9a72d5ab9f714d7596c648a738cdcb7a build: Make sure --disable-optimization works
+         318e65b2184a5105f1b17de53a25d85715d7ca7c build: Support building with clang
          
