@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6608470469094087871=="
+Content-Type: multipart/mixed; boundary="===============1524632170834239482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 16 Sep 2023 15:40:21 -0000
-Message-Id: <169487882122.27812.13390970365518357713@gitolite.kernel.org>
+Date: Sat, 16 Sep 2023 15:40:23 -0000
+Message-Id: <169487882387.27885.11673802867136477108@gitolite.kernel.org>
 
---===============6608470469094087871==
+--===============1524632170834239482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip-fixes
+  - ref: refs/heads/microchip-defconfig
     old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-06c2afb862f9-0bb80ecc33a8.txt
 
---===============6608470469094087871==
+--===============1524632170834239482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============6608470469094087871==--
+--===============1524632170834239482==--
