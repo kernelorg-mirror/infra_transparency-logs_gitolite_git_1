@@ -1,46 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1747839150566455562=="
+Content-Type: multipart/mixed; boundary="===============0902206475492502665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 16 Sep 2023 11:02:42 -0000
-Message-Id: <169486216291.18440.1603446160686560054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 16 Sep 2023 11:29:53 -0000
+Message-Id: <169486379372.5121.6407347647455336300@gitolite.kernel.org>
 
---===============1747839150566455562==
+--===============0902206475492502665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2fa6175d8b2088345caae07151fa87b94e0986e8
-    new: b6a7eeb44a6a8b1ea2dea78b5de448d86eb0bd96
-    log: revlist-2fa6175d8b20-b6a7eeb44a6a.txt
+  - ref: refs/heads/master
+    old: 593f309fae0aa7cfc5dee8e9644a1ebfdeb9bbd0
+    new: c0a1262611b584dbe8653f8424f2bf9313e318f5
+    log: |
+         79dd5662843fbf59ad8a7ebebc8e9f619c4a8a02 6.1-stable patches
+         c0a1262611b584dbe8653f8424f2bf9313e318f5 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         
 
---===============1747839150566455562==
+--===============0902206475492502665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fa6175d8b20-b6a7eeb44a6a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0d7502a9b4a7b7e99dea1dc90c2de6c31d015e26 virtchnl: add virtchnl version 2 ops
-e850efed5e152e6bdd367d5b82019f21298c0653 idpf: add module register and probe functionality
-8077c727561aace410a67c82d6f058c9bc544b8f idpf: add controlq init and reset checks
-4930fbf419a72d7477426fd883bfc37e20a61a6e idpf: add core init and interrupt request
-0fe45467a1041ea3657a7fa3a791c84c104fbd34 idpf: add create vport and netdev configuration
-ce1b75d0635ce6daf7c1c3c75ea2f0da61e065b0 idpf: add ptypes and MAC filter support
-1c325aac10a82f11410da8a2bf35e3e410a42751 idpf: configure resources for TX queues
-95af467d9a4e3be0204a51e640509a701bbe4581 idpf: configure resources for RX queues
-d4d5587182664b0c4ab6d3556ce881cb975507c2 idpf: initialize interrupts and enable vport
-6818c4d5b3c2e9dd5d7316792f88d371d07d0ebf idpf: add splitq start_xmit
-c2d548cad1508d334517bcbd7cd5c915cc831fc0 idpf: add TX splitq napi poll support
-3a8845af66edb340ba9210bb8a0da040c7d6e590 idpf: add RX splitq napi poll support
-a5ab9ee0df0be82aefb099d29b707d2b106e1c87 idpf: add singleq start_xmit and napi poll
-02cbfba1add5bd9088c7d14c6b93b77a6ea8f3bb idpf: add ethtool callbacks
-a251eee62133774cf35ff829041377e721ef9c8c idpf: add SRIOV support and other ndo_ops
-b6a7eeb44a6a8b1ea2dea78b5de448d86eb0bd96 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694863792 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1694863791-7da05eeab695519669d3d3b50e7341e7a04981d6
 
---===============1747839150566455562==--
+593f309fae0aa7cfc5dee8e9644a1ebfdeb9bbd0 c0a1262611b584dbe8653f8424f2bf9313e318f5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUFkbAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uOsQALmYAJyYuZq05S5zxSy7
+3RtsuMXqVAamUWet/pE9VPJ6K5lSKP44X6w8CjeB9sBCUyCCmyOPE6Ys3R+D0ta9
+bawzPq4icdwKX13t0Tz7oXSzYj3h7G0r/xSeYYhHhaIKs4cLAZ7wFEtJkKRu2O6K
+I3h4KHKJ9Ur0JxQmGzVg4QL477RvFfQG7leLELMA03L+cRtx3FH70sopul9pWdGF
+misoKkZJcubxtMu3Cm3Pon7VE6NogjJ6BIZc5C1mrDSUEDTUljahAl3DsGBZBNjw
+PGrTWyEpT0US+mhkFx/hIFVExajpPfX5a7xH3hHBVs3+coEGzEo8RP18a3Pp0g6T
+jxECbNnbYidsoayLZSHtSrS2H64lWRr77BjV8KtfZAy/a+eyDiwzGxcIpJnSadQJ
+yW2UI0yJuDOOmlH7+4o4rYOP2xP8v3Ey6quUdTDg24zRLb/CGKjdisrXudyoWrqI
+t+FJWcHWbI04GBCqiBxpO3eYAIoOm70ISbEnXjlblkGhqACZMNvOZCC5sQQxIw/a
+UupNaSoHsShnxlLSoZpwmYMLEQwnWTzzHyBQ5aO7aK1elVC7AnTXIBpZlntgipSZ
+9B5D1FoWAyqCYlo8zuuDQNB+TuR1b/NuwWpYFXBUsOqRnZ1bWzo86PxS3MyK+FYu
+ymymyS/nQ/QtBWRD0X529upg
+=wey+
+-----END PGP SIGNATURE-----
+
+--===============0902206475492502665==--
