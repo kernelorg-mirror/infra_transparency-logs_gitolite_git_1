@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Sat, 16 Sep 2023 12:15:33 -0000
-Message-Id: <169486653395.8358.6308031467574513282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Sat, 16 Sep 2023 12:18:09 -0000
+Message-Id: <169486668960.9323.17521884506718139225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
-  - ref: refs/tags/ata-6.6-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 98be60bcfa6736e0eedd06ccc5846852379274b4
+  - ref: refs/heads/master
+    old: 318e65b2184a5105f1b17de53a25d85715d7ca7c
+    new: 53964711baee916ae163e64d5229e3822935e100
+    log: |
+         2f52723554f187a3b72c38b9900320207175456e build: Enable building with sanitizers
+         1a6cbdfa30da24de385ab4fba322055a21647189 build: Make sure --disable-optimization works
+         53964711baee916ae163e64d5229e3822935e100 build: Support building with clang
+         
