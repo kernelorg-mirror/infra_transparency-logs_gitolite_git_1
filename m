@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Sat, 16 Sep 2023 19:00:08 -0000
-Message-Id: <169489080805.8664.18267678136972773998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 16 Sep 2023 20:15:45 -0000
+Message-Id: <169489534522.30541.14668946303884670987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/color-opt
-    old: a10237e5343d6f5fd4fb59e2afab198618b7ecf8
-    new: bd0b896c9fed3ed1a5d68c0bd6d902169cba5cb1
-    log: |
-         bd0b896c9fed3ed1a5d68c0bd6d902169cba5cb1 github: add contributing page
-         
+  - ref: refs/heads/renesas/cleanup/remove_ar7
+    old: 0000000000000000000000000000000000000000
+    new: e87e3ea749f408518f5d5de414ed22d354385cbf
