@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4823165575691124562=="
+Content-Type: multipart/mixed; boundary="===============2670693560894619305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 17 Sep 2023 06:15:17 -0000
-Message-Id: <169493131740.8880.937175192460569172@gitolite.kernel.org>
+Date: Sun, 17 Sep 2023 06:15:21 -0000
+Message-Id: <169493132137.8979.16717514909788268506@gitolite.kernel.org>
 
---===============4823165575691124562==
+--===============2670693560894619305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: f0b0d403eabbe135d8dbb40ad5e41018947d336c
     log: revlist-0bb80ecc33a8-f0b0d403eabb.txt
 
---===============4823165575691124562==
+--===============2670693560894619305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931316 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931320 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694931316-7258c93374a07ae98e70584b857f1b2a3cc1490a
+nonce 1694931320-dfdf68123f25888cd87aceb47b00a8b75a3821b9
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/driver-core-next
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmXQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qIMQAIsLFRnTVyPx0SxG37ZF
-nJmCwMUJQE0cthE9JO+B9rV99D07vPQrvLQZ1AlFeAQmX8S/UnfS01AAlQysuNzO
-U0Zgnn1x/YP4q0fCB3U584jLeQJGdflWS5tapCRa6LLnFmhG5W40mYBH1IiJQNIf
-YFCf0vtKxl/OucZZBaT2w4XqD7eyb44p444VS/E2vu9Kmg3idfJ7UYIB1fH89gMq
-sAkP1+hjTLDc9oNVyvJJlnkv6M6po1jeIgqFl4JDwoG52tAFuczxFlnWlRU3+waI
-+se6OGluazv8x93e0ZraAfB4KrLPHAJiFgkfXCOKPh8kfBnX9ityJQeO0gg4Pjvx
-PLPaNxioX3aYL4iVP83tUu7vHMRCqPMHf/+xnV+RIUKdWuvl7TqQ/FYlxZsgfgna
-Xg4kib8GK1O8iJUBQfOnhMfqemzF//bTRXlBj0oWLKxq3E9+ie4LbkYWKZVNGXSK
-kUS4cCtDToqK+NLvNbwtfYheM10JSZgU72h5riphIElOUs3VU0S5EL592GIJselC
-VbBpSYak9IqeP6L72MbTkRSVIPddvJIta1/uygsH4LDERhY/M/kN4cF55rzkpSzq
-emFnfsrheKGGobm+CGw/iWCuAgj4FrTbTkp5S3tMq/hb3nTbnhF4Tk3JBWEbxAA0
-MWD86VExvGWhn0DO90uyDBD9
-=C2/z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmXgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ekgP/3/uLXy25JCsyhAv00x9
+ciSUzzofV2blNgvLyZCioIYMjcD1gQi+R1ZP0Cub2LLtLGKidcw6QYvUfL+2CLMg
+t9FanuC5mXoyJSGxppFVp9ju15YH8dt+dRpw2YreIun25/7OJySZMEec21gdubs2
+mf1+9JxNkzgJx7GZg1QORwR1bud2lbfS9YWqygPJvoCoVQYmsY7zVZ1Z2aAAggbd
+aUkRrYTusCeot/3xGi1D2XlVwJJi8Kkf/C0e/fUU2Vh1LipD2WULS+te1yJq9mHU
+boxLjAm3/mVVd12qzaQ+OTJXooUeTP0CFakAW0TNY2ytmlmmpIGtOuxcbdU8XHJb
+ixlJiLq4KJw0cGZy5s+HzTJMjWcp84+6j5d5R7sve6FHAXokjKWaX8SrBnwmFgB4
+RrZsuroA5EXUkziqklYiL6SP3ZZdePXOAiy+HOvjwQKW8ks0DCFbZYTpo4Q3PVRB
+zfDKZTnL0p/P8MAAoOa17t1tUN0UNa3Rs7xBd9GRb9lSw2txqs5xhHLRCU/c3WJs
+zhlGSJfxl8S3pH7ba69d/G1S8gOeVy9Kwe8tbp/SAs0XEEZcT5CKvCGIJQlooSlw
+UeItfakDSylMV2Ey3g2ndq0M+ovyz70v9vIuf9HjWeyQGWIR+FmvErpyB8fUoteT
+cl6/l71vLonlS0efmafGcadp
+=Cnbo
 -----END PGP SIGNATURE-----
 
---===============4823165575691124562==
+--===============2670693560894619305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -298,4 +298,4 @@ ad8a69f361b9b9a0272ed66f04e6060b736d2788 Merge tag 'scsi-fixes' of git://git.ker
 3cec50490969afd4a76ccee441f747d869ccff77 vm: fix move_vma() memory accounting being off
 f0b0d403eabbe135d8dbb40ad5e41018947d336c Merge tag 'kbuild-fixes-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============4823165575691124562==--
+--===============2670693560894619305==--
