@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0377404910420788072=="
+Content-Type: multipart/mixed; boundary="===============3466575104958875330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 17 Sep 2023 06:14:17 -0000
-Message-Id: <169493125741.6146.16202971142546182745@gitolite.kernel.org>
+Date: Sun, 17 Sep 2023 06:14:21 -0000
+Message-Id: <169493126163.6243.16810631119056991510@gitolite.kernel.org>
 
---===============0377404910420788072==
+--===============3466575104958875330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 98a15816636044f25be4644db2a3e09fad68aaf7
+  - ref: refs/heads/char-misc-next
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: f0b0d403eabbe135d8dbb40ad5e41018947d336c
-    log: revlist-98a158166360-f0b0d403eabb.txt
+    log: revlist-0bb80ecc33a8-f0b0d403eabb.txt
 
---===============0377404910420788072==
+--===============3466575104958875330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931256 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931261 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1694931254-48ebd4d1aa07ae6721cc326bf3c84d8e32f68b0a
+nonce 1694931260-052eb1f18187620abc8231fcfc2c1b63ed37d5ac
 
-98a15816636044f25be4644db2a3e09fad68aaf7 f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/char-misc-linus
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmTgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jtMQAKVeKRJbkzYI30wwyt2+
-WrffavaATKpbxofELP868QvIDiKF4fuenj91JTCnVssa7+QBVl8A2mUdquuS4DId
-7NvLCsg0q9Y7K3RhI4wVf6RMzpkbf/ai5IEP4bt4ijuZYh1ur9aWqSUV3mlzmj3y
-L7/HIuCbM/9XPlV0X5GMN5OwHSF52NkQzqRhDQViPw6TFzV+tW9TbRNlZqMNJ44X
-8rBouliyZCPjJXJyNDSGfkc8k9nQtOK5P13ZCxAWEzyXPjJpUTcAzGoEhq9k2WIU
-Rdbbd78isfy7CG0TZe2t1PFvzw/KbI1SRq7qA32zs5ahYwHPoSKLDpwq5BqTITx0
-8T/QLxgnkR38kpEW/GT8nhUUOTcXvrhaTaRsFT51HVZCLBa0J7hS+Qs3rS/FBnw8
-J4p8hBIaFq1Z61WJeOAHDU1KDY5f9GGnki5TqhDK5v/Hg7ffT+duqv6IXI3m2Zm5
-JNrI5JgpkcJklp/Y5s8YomO1H5qFWrs8pn6+Ou3vRFqcTTbZtdja4Lrhm/ETao7B
-F9REoj9pdntovB7CMR86fQfBa0SbON6ONB8aQamWJxNZbHjSiTDVCpxhppBb8y1Y
-q7IStwS8rwek/BOVsuEuLEXdDtuSDjSkGyKddjveN7vloN2a63a3uIpwRMbDfJDN
-APt/U9IyFiMrwnxGbMjXv0wl
-=XZ63
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmT0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OEsQALwP9ZJw97XH8WkD5OuZ
+GxTtwe1i2ybN6mNbicGwBd+rWidXP9AiQJP94c6UpaaY/xhiLcr90faS1TO2WBa6
+Nkq2n+VsIwJNkyTM0iU11wIK+gqw6DeVDKr5hmPQ29q0UpMhrArsWfAICE1QFKLl
+NHaApc2QtxNb2OW1NOJWQ+qyV/KlEEACYt/lNHrSssh0vjd8YNEK1IqurRwDXrKu
+wM6KTWwS/0zPGVDZVF6mvQdXxstNbifpkckCARI6Ri4iMf4hCdlQr/OZBUNOXpIn
+EEgQEZayZoP5i8NMf0ySGQff5/v1d/5DQOO0w5eTzYbnjnIBu6JwRHbocj4GZbyD
+URKI4eKyiRu3s3iCjefkIFCMc2VSKgQxnPJdS8jT5vTrG9Qbx25gX25nztfzex8I
+f0xkJenw/CSH5g0De/x3ZgyF/Xaf66/XwY+oBv0Yhd7vBliOLcmINW9sCuUn6YVD
+knuUp9YJoYSeRjbQ7h6D9I0Qj1CyyZ+/yKJ1LqGh3nzjiblwaj1MQuuPipP7Bkcp
+yDQlTcXJe/tqdxWmgbBli9939Uh6Nrr1Y2ZyfnBF5ZFAj29gfSCC3DoZWvgV8/uU
+UQLNub90Bv16MIF7EmFRjCYI3eK/nuBUObD3LJBxqTN8AqOQOGs7WCJYF03X1Uoz
+WFLApxeXAJcVvUFsHsnwlX9M
+=AyL9
 -----END PGP SIGNATURE-----
 
---===============0377404910420788072==
+--===============3466575104958875330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98a158166360-f0b0d403eabb.txt
+Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-f0b0d403eabb.txt
 
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
 71be868472dc5beb82feb4da2d3eb9cba785d660 nvme: host: hwmon: constify pointers to hwmon_channel_info
@@ -203,6 +203,7 @@ cfaa80c91f6f99b9342b6557f0f0e1143e434066 net/tls: do not free tls_rec on async o
 7c95ec3b59479bb24093918bbfc801c9f31826f2 drm/i915: Only check eDP HPD when AUX CH is shared
 403f0e771457e2b8811dc280719d11b9bacf10f4 net: macb: fix sleep inside spinlock
 88956eabfdea7d01d550535af120d4ef265b1d02 NFSD: fix possible oops when nfsd/pool_stats is closed.
+98a15816636044f25be4644db2a3e09fad68aaf7 Revert "comedi: add HAS_IOPORT dependencies"
 fd6f7ad2fd4d53fa14f4fd190f9b05d043973892 driver core: return an error when dev_set_name() hasn't happened
 c8414dab164a74bd3bb859a2d836cb537d6b9298 eventfs: Fix the NULL pointer dereference bug in eventfs_remove_rec()
 7a6102aa6df0d5d032b4cbc51935d1d4cda17254 veth: Update XDP feature set when bringing up device
@@ -297,4 +298,4 @@ ad8a69f361b9b9a0272ed66f04e6060b736d2788 Merge tag 'scsi-fixes' of git://git.ker
 3cec50490969afd4a76ccee441f747d869ccff77 vm: fix move_vma() memory accounting being off
 f0b0d403eabbe135d8dbb40ad5e41018947d336c Merge tag 'kbuild-fixes-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============0377404910420788072==--
+--===============3466575104958875330==--
