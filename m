@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 17 Sep 2023 18:08:11 -0000
-Message-Id: <169497409128.17025.6814272376559323699@gitolite.kernel.org>
+Date: Sun, 17 Sep 2023 18:08:16 -0000
+Message-Id: <169497409654.17157.16952570471369902994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/boot
-    old: 7448e8e5d15a3c4df649bf6d6d460f78396f7e1e
-    new: 3e3eabe26dc88692d34cf76ca0e0dd331481cc15
+  - ref: refs/heads/master
+    old: 673946d86ec0b4dfd58930a6ad04c5d675a61856
+    new: ba9db5f5ea25176943767461b7da83ea130bdf7d
     log: |
          b618d31f112bea3d2daea19190d63e567f32a4db x86/boot: Drop references to startup_64
          2e765c02dcbfc2a8a4527c621a84b9502f6b9bd2 x86/boot: Grab kernel_info offset from zoffset header directly
@@ -24,4 +24,5 @@ changes:
          fa5750521e0a4efbc1af05223da9c4bbd6c21c83 x86/boot: Drop PE/COFF .reloc section
          34951f3c28bdf6481d949a20413b2ce7693687b2 x86/boot: Split off PE/COFF .data section
          3e3eabe26dc88692d34cf76ca0e0dd331481cc15 x86/boot: Increase section and file alignment to 4k/512
+         ba9db5f5ea25176943767461b7da83ea130bdf7d Merge branch into tip/master: 'x86/boot'
          
