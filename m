@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
-Date: Sun, 17 Sep 2023 21:40:27 -0000
-Message-Id: <169498682763.9985.3021528571821866385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 17 Sep 2023 21:42:35 -0000
+Message-Id: <169498695590.10864.2933245526085104946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/cs-sw
-user: maz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: c70e00cf01acf689557700b1ad0fc6de52c3f6d7
-    new: 2832c7fe0018341f5fddee7740522d648170e60f
+    old: e789286468a9ea7acb5aae09a11bdfc7d46874ec
+    new: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
     log: |
-         2832c7fe0018341f5fddee7740522d648170e60f Document serial carrying USB-C port on most devices
+         ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
          
+  - ref: refs/tags/v6.6-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b9435475cc9bfb60f0327686d1183f498f3d51c1
