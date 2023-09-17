@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4944678101507041019=="
+Content-Type: multipart/mixed; boundary="===============1774638150132246178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 17 Sep 2023 06:15:06 -0000
-Message-Id: <169493130605.8648.10870169163569991276@gitolite.kernel.org>
+Date: Sun, 17 Sep 2023 06:15:13 -0000
+Message-Id: <169493131330.8797.8246830774503820112@gitolite.kernel.org>
 
---===============4944678101507041019==
+--===============1774638150132246178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/driver-core-linus
+    old: 139e08188babf7a4c5f0df54b605105852fc347a
     new: f0b0d403eabbe135d8dbb40ad5e41018947d336c
-    log: revlist-0bb80ecc33a8-f0b0d403eabb.txt
+    log: revlist-139e08188bab-f0b0d403eabb.txt
 
---===============4944678101507041019==
+--===============1774638150132246178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931302 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931312 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1694931301-c1f6e116738854405789b7c66b6d6715eeab1b55
+nonce 1694931310-186488f007768fef567e6fe68b0b1f90f80fd1cc
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/main
+139e08188babf7a4c5f0df54b605105852fc347a f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2pgP/j0OtqP5HvogvoLhql2A
-PqmA3FC0+UJ89YqgNt2b2oLgoKlLdiP/9/u+svp29TjJp9vYRhKEDXB/seupWObV
-RosQOEbmB0Wxzkj+C4eocqHo2d7XgAl3g0m/PbMsr2EMQCoc+yXHwvhvc4qqyYQz
-1K+AI3MA0gkzlUTHeWchoPl7mKstwR66uhAF+SS/weNN9IorCxUgzlwMdGy+bzuf
-tTUOogJvvphPISs7FWM1soecIMZ5sWLhOTUTCwvjQPi5zW1e1prDnnXMdiEoosn/
-Oed/T7jX4xn9URv3sf4gsfdpX5t9zEBtvjCqkl4Zs/hENAJV8+FbGPTOurdoVnDr
-CQWfRsROHlNPiRb7xMdBPxHFELwzmVZWEmw/Xan1owi4jWi3L+3oeL4pTliuIEBh
-ZhHRnb7EmHByBwOLmih7COTPXUvCuynkNVvhgdTgbgG7+k0clsWanw9Wf+1hdJLk
-ItiaiRXYU0MaQYin73oRyodOk9pwg40pp8JXVukzDyYVPXoqlXR+w3rdvaPNgaE4
-degKzwO8voQ4QFn0NP1uo1anMMd5X/arlGMibh2gvJKH3/FC6aobiD3Ro4rDHBv0
-uLKA21qKsO8w+hNI5ntYlIN0hsfLCo9Q1f9tHK6LuNFYC+ap+M8HDkGDt8hMRBc0
-ntTf6OpjvpGITvIlmnuCO1Zg
-=Zauv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmXAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VSIP/jXiCB+ijESkQD/wRLiO
+XrJ/ySvW/vCjVieRWW/NFelQoGf44Tqqw5R9J5a5iFpS12t/UP14LhhKQUsaBRHs
+snIRYZKOAbjhtCfZhbaoSW9keXcpg1B2F970fSn9akP9TbAew97L8G8di/s5wN/m
+R8VvgKGOVuDySylxOZySyQOJryJBjhB2S3o4k/luSPC5vpFbJuskzPqNQW12cWC4
+inmUux5CkAlZQNheJEhs/dat7BnGUzIvZUNBUF1rd8RVqpSuM2XOihxp7LQS2CYZ
+yns8HqH5VvGWzgHNHGeCoYXuRAyFvzeT1waFxFdL/wSOFLeBL4uRV1Lr/C2UcSDL
+HGLAAILWH5VPHHsL3wPmayKYOnN97YIv1gP1MABPiv8afUxEr/8+dbQtHkrvQRFK
+2q6onWFQWaqYKJz/MlXBiVK5JYgDbcnQ4PCZABynequd7zQ6Fs6+i9mIZu5vHyFG
+SBc5DCZRX2NSy+gfBkQzsdFInXydWVKKqlcml35E81mdfO2sxvkq0dJARKYxkgzq
+zznhuh4bUDSaxSSFrdel2TcckFMGsPhe9U90pOznqOkThwOxsFQ297/wHPLnVszN
+sQaUuECMyPZvXiydIWn9FVaboopx1G0VenNWr9wSMp928YOK6uMd2BCncOxfNGEC
+6Qz1JuDeazV/rF+aLIY5yFm/
+=t5S+
 -----END PGP SIGNATURE-----
 
---===============4944678101507041019==
+--===============1774638150132246178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-f0b0d403eabb.txt
+Content-Disposition: attachment; filename=revlist-139e08188bab-f0b0d403eabb.txt
 
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
 71be868472dc5beb82feb4da2d3eb9cba785d660 nvme: host: hwmon: constify pointers to hwmon_channel_info
@@ -204,7 +204,6 @@ cfaa80c91f6f99b9342b6557f0f0e1143e434066 net/tls: do not free tls_rec on async o
 403f0e771457e2b8811dc280719d11b9bacf10f4 net: macb: fix sleep inside spinlock
 88956eabfdea7d01d550535af120d4ef265b1d02 NFSD: fix possible oops when nfsd/pool_stats is closed.
 98a15816636044f25be4644db2a3e09fad68aaf7 Revert "comedi: add HAS_IOPORT dependencies"
-fd6f7ad2fd4d53fa14f4fd190f9b05d043973892 driver core: return an error when dev_set_name() hasn't happened
 c8414dab164a74bd3bb859a2d836cb537d6b9298 eventfs: Fix the NULL pointer dereference bug in eventfs_remove_rec()
 7a6102aa6df0d5d032b4cbc51935d1d4cda17254 veth: Update XDP feature set when bringing up device
 7e021da80f48582171029714f8a487347f29dddb selftests: tracing: Fix to unmount tracefs for recovering environment
@@ -228,7 +227,6 @@ c48ef9c4aed3632566b57ba66cec6ec78624d4cb tcp: Fix bind() regression for v4-mappe
 2895d879dd41a588d80acde1aa832deb38d67823 selftest: tcp: Move expected_errno into each test case in bind_wildcard.c.
 8637d8e8b653f4c8b6fd277b434b118f844d1d77 selftest: tcp: Add v4-mapped-v6 cases in bind_wildcard.c.
 ab6c4ec8742a653b1ba06215d9bccb31c4d87d0f Merge branch 'tcp-bind-fixes'
-139e08188babf7a4c5f0df54b605105852fc347a Documentation: embargoed-hardware-issues.rst: Add myself for RISC-V
 3a7d263aea9d505e6272a913d6cfece00b800b4d w1: ds2482: Switch back to use struct i2c_driver's .probe()
 5eb1e6e459cfa025f79c43014f66ff62a55542f1 i2c: Drop legacy callback .probe_new()
 24dc13f94367edb314b13923818d98dd565edc44 i2c: Make I2C_ATR invisible
@@ -298,4 +296,4 @@ ad8a69f361b9b9a0272ed66f04e6060b736d2788 Merge tag 'scsi-fixes' of git://git.ker
 3cec50490969afd4a76ccee441f747d869ccff77 vm: fix move_vma() memory accounting being off
 f0b0d403eabbe135d8dbb40ad5e41018947d336c Merge tag 'kbuild-fixes-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============4944678101507041019==--
+--===============1774638150132246178==--
