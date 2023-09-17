@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 17 Sep 2023 22:36:49 -0000
-Message-Id: <169499020990.16215.4421405184473098433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sun, 17 Sep 2023 22:50:52 -0000
+Message-Id: <169499105297.27303.14244848302994818114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: e8efc7d438ee47b2ec7e0a66daae3dc0e868d733
-    new: b434ed24e9576260a62be1b302328f77081fd7fb
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 79df8365e37d38a84d9a15cc2f6386f5587e211a
+    new: a132b784db68b543fd2745973cd8b5edf8e9bde4
     log: |
-         b434ed24e9576260a62be1b302328f77081fd7fb Sun Sep 17 10:35:43 PM UTC 2023
+         a132b784db68b543fd2745973cd8b5edf8e9bde4 perf test: Fix test-record-dummy-C0 failure for supported PERF_FORMAT_LOST feature kernel
          
