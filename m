@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6137833902257338296=="
+Content-Type: multipart/mixed; boundary="===============3808127502554563915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 17 Sep 2023 07:50:50 -0000
-Message-Id: <169493705084.14029.399654149778126838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 17 Sep 2023 07:52:48 -0000
+Message-Id: <169493716833.14811.1928231871709690582@gitolite.kernel.org>
 
---===============6137833902257338296==
+--===============3808127502554563915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f6a84458df63d2146ab3267709997cdbb5837e18
-    new: f216d1230a1cdd753b2fed2d2dbbb432f476c5a9
-    log: revlist-f6a84458df63-f216d1230a1c.txt
+  - ref: refs/heads/staging-testing
+    old: dbe2fdafcc4649bf658bd157ddd416eb9e8567f7
+    new: 144100013266354b21220aa4e26d60de19bfc02b
+    log: |
+         144100013266354b21220aa4e26d60de19bfc02b staging: vt6655: Type encoding info dropped from array name "byVT3253B0_"
+         
 
---===============6137833902257338296==
+--===============3808127502554563915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6a84458df63-f216d1230a1c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9e149dad726b08307c3e353bf33faffdcd7ddd48 Merge branch into tip/master: 'core/urgent'
-91b60229c348c3e7fbdfc140a0ad5cdf582f8287 Merge branch into tip/master: 'objtool/urgent'
-8210efbb3ce0aeacdf4e743adb067e5826010691 Merge branch into tip/master: 'sched/urgent'
-8e9829096799283bd36efcd5906bbbd4a00a148f Merge branch into tip/master: 'x86/urgent'
-594a75282000e9f655a1762ec686f2f1c6a50b39 Merge branch into tip/master: 'locking/core'
-abc33fdbdbc418be7f948baf8a4061289b1b937b Merge branch into tip/master: 'perf/core'
-98dc52e22f73655d162281d567bc7d0dcc6ec6b4 Merge branch into tip/master: 'sched/core'
-89fa958ba7df69a16571adddf5ba4659177f9539 Merge branch into tip/master: 'smp/core'
-8a7ed23a001009bd202663187d1d45c43cd54f8a Merge branch into tip/master: 'x86/asm'
-55d600799a719b738e3381d6d63122c46e96e2b1 Merge branch into tip/master: 'x86/boot'
-bcfa9b831e61da54fe99b8fc4bd1bda36970b7f8 Merge branch into tip/master: 'x86/bugs'
-baaaa4dcf7f2fac491f9427e9714c6a28bc0f1b2 Merge branch into tip/master: 'x86/entry'
-daecbdc78a42d40f7bf23b94bf108fd2d6906e31 Merge branch into tip/master: 'x86/mm'
-f216d1230a1cdd753b2fed2d2dbbb432f476c5a9 Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694937165 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1694937166-3c46825a38512014fde8e214c8256a4e9ea6b1d3
 
---===============6137833902257338296==--
+dbe2fdafcc4649bf658bd157ddd416eb9e8567f7 144100013266354b21220aa4e26d60de19bfc02b refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGsE0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DqwQANIi190ohUAaDquPg7T2
+oCDbLtrWGQTUMupk/lzwxQ4Sr0DT1Jo580S2umooD7U7ECh3dS53hMclANbuoZEL
+jWokJbEA8j0z7fWtpNGAm1LVP5JngYb1yFboUnUWkkOx0rYkLWv/VU57RAdFxZhT
+ew5UCTuOyQq6TU8H5xZ4HzNySJOpu+kEDUBElwaHCqTU5DozvPaJCmGlsrtu6Bjd
+SDYJx7ZK4awRjNULw0y+Mn/+mW0lgiz2nyXHS5XVAUL8Adz2sl/42m13LJvEDtb4
+PhlhghH+Q0ZvUotEqYMAz0yAsG0jetsdGvemtat+JDiWRG60XmVGyZgHLQ843Hrc
+NUNqEcFn5phy6jXsnxJ60Hn1NCCtgR4oq2144gVSCnFlm2QVzklPLDdzP4nVKdCz
+AE+8tNo2pO+rgo+XjmupYJNhDZJslee0LzdPEfVGkkVHeGxOk54Iem1N7U+HqXAl
+4Al+pkfc6i/4TQEwvBRziy3e/J0E7Z4zRDqrBxA9sQmd6gAz19RsVl57U7nwRXl7
+CR1QTzW2j/2LzTd7YxF6hye6Hcdq+va0cWZXPapdtzR5SkW0VyNXbEtOGeZCfZ62
+N/abbflEQz2S5O4E3ObqeGaKWhLfROpCtljwU32CZGnoN+WCiw4Dwbw6hE6widET
+CY9sPN7K+YUR2Sp7h3WLXczS
+=Kn1C
+-----END PGP SIGNATURE-----
+
+--===============3808127502554563915==--
