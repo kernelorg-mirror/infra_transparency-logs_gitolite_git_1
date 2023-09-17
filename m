@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5830162631595158649=="
+Content-Type: multipart/mixed; boundary="===============8209119820052160847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 17 Sep 2023 06:14:48 -0000
-Message-Id: <169493128812.6610.17206737312022941042@gitolite.kernel.org>
+Date: Sun, 17 Sep 2023 06:14:55 -0000
+Message-Id: <169493129547.6717.16383256993463758156@gitolite.kernel.org>
 
---===============5830162631595158649==
+--===============8209119820052160847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/usb-linus
+    old: f26a679ed799deef9e2934a6b60b8f38bdbf4921
     new: f0b0d403eabbe135d8dbb40ad5e41018947d336c
-    log: revlist-0bb80ecc33a8-f0b0d403eabb.txt
+    log: revlist-f26a679ed799-f0b0d403eabb.txt
 
---===============5830162631595158649==
+--===============8209119820052160847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931284 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1694931294 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1694931284-9bd3a3c807da2f680cb97d2c72972a6b1556b209
+nonce 1694931292-eb987f372d9c6dbeaba39b7fa6872acbce45ccfd
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/main
+f26a679ed799deef9e2934a6b60b8f38bdbf4921 f0b0d403eabbe135d8dbb40ad5e41018947d336c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmVQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R+MP/Rk9pvGXxi9o7m8Y4zMW
-Bltaair+AHW5hX/BmF5k9g5c4Z0qve9XMPkF3tuN3NHJ7P8ICpYrCRJ3FXHlGIJv
-pZ78ThvSeDzkzsE3h9e/PLvkh4MOU7as6R7vMi/PZyu72fbdjIkaemjj9ft6RhOR
-AheH8fORnATbB8aKN1WvklYH7ZqdM00TV7YnTuL/oAF+nl2svQv1HgBuBYY2pA7F
-ZsCk/6SAuonCPtqb3UBh1mMPt7+rLoSV/MmGk0hQpzsBWFjT9pXUN2fE/ULE8ZGV
-hLh0MCOPrB5/o2aCZWmDC4hvM+wf0rjEnKcVZBruvEcTSkeO2DAQA07GZtbOOtV+
-5WFcm2K73BwDrzeJ8h/Y5aCSGqU9QQhexmNGTnk6frBjzS1jfz9zdhGcdiWUwum8
-Y6vt2zd1iFaBGImeAP2K2W355GBrNR3QDsjiKqXPzgg5yWfGKJUs53yVQUCnploR
-EPXrCvQnSmXcDX3GRR+9sT5u6JJ9hie6+CRZssAYJBocIOlKyccWJnI7r5Mienkq
-AM/VRmT8gZwSZDEv4h7r2DsaDNnOFR3vL5rAAg4Fqczw89CQzi1ITv3OQq11Y6eT
-qP0NjPURFX4drXRY5Dw7peFxwy4CdtdRwuIhG4wyCMwoAM4Yb3FW/0w7D5n4SmLA
-RyT+QhBc3Sdym+1SVN1kYYjp
-=5L/a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUGmV4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A5oP/0J34YoM1K5ZW8xxGM9T
+CX/uUWJ8pUm7Wkt0nRx5q22wCQUOKvqDP3KyYAyoVf3R2uffNE+3f6jURvW3VTsD
+NXeCJ3gns4aP0++ym/JoDYfPyesk66hSXz2DXpvjdHKdb9SkbZDQjrwKdb0ZLYvJ
+r1URTL1WLVfOFU/rLxwQ+nO9C5XWofKVkMLBWm6sxvdf6hUzHL/irGk4/0UPwSqg
+NwPbFflrqJo3MDnsRRfzJL9bOkYYEz46zQipSOuQC+0/w4igqvpiJ1/Bm324O0Bd
+JKBx4wRS93/kGAJO1qvHz8xeXeNal1oGDjIg0KFUJyL4lh0ROSeCurw+cS+APiMn
+Jg6p/gD98iClCHiH4z8XJSvFTLIoTxuD+DTVOADmpiRsXxctqbk6+/f6FIqOgtal
+jT2rzSs6oMrq+baFV7l+gFwL/F3F8op65QR4UcAq9R3hkpFtob5D06XvkABgccwW
+pvowV5+iUtyqK1TzD3HqkcfftrvHx9wegXsUjyTg/gYJxaWcTNY/iMTMPEBMbJ1P
+TPkriH0otE7Q+PfltAUqrWHhCDdvqT7NDAGldkHHq8aFHnXP4yPV6Pgd4ajDN4S5
++GNem6FHISSbS9HYkivczWC/72HK1uF2DVWEFxSFb/xnV7vvqlpgRVUxB/M7l5CF
+6o7zTQUhM0dT2XuksXKVuOzm
+=1m4P
 -----END PGP SIGNATURE-----
 
---===============5830162631595158649==
+--===============8209119820052160847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-f0b0d403eabb.txt
+Content-Disposition: attachment; filename=revlist-f26a679ed799-f0b0d403eabb.txt
 
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
 71be868472dc5beb82feb4da2d3eb9cba785d660 nvme: host: hwmon: constify pointers to hwmon_channel_info
@@ -165,7 +165,6 @@ fc4c655821546239abb3cf4274d66b9747aa87dd platform/mellanox: mlxbf-tmfifo: Drop j
 c2dffda1d8f7511505bbbf16ba282f2079b30089 platform/mellanox: mlxbf-bootctl: add NET dependency into Kconfig
 0a138f1670bd1af13ba6949c48ea86ddd4bf557e platform/mellanox: NVSW_SN2201 should depend on ACPI
 4106a70ddad57ee6d8f98b81d6f036740c72762b platform/x86: asus-wmi: Support 2023 ROG X16 tablet mode
-f26a679ed799deef9e2934a6b60b8f38bdbf4921 usb: typec: ucsi: Fix NULL pointer dereference
 afaf2b38025ab327c85e218f36d1819e777d4d45 Merge tag 'drm-misc-next-fixes-2023-09-11' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 8a81cf96f5510aaf9a65d103f7405079a7b0fcc5 thermal/of: add missing of_node_put()
 ebc7abb35b258152d4a424f89d7c03db1d7ce61c thermal: Constify the trip argument of the .get_trend() zone callback
@@ -298,4 +297,4 @@ ad8a69f361b9b9a0272ed66f04e6060b736d2788 Merge tag 'scsi-fixes' of git://git.ker
 3cec50490969afd4a76ccee441f747d869ccff77 vm: fix move_vma() memory accounting being off
 f0b0d403eabbe135d8dbb40ad5e41018947d336c Merge tag 'kbuild-fixes-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============5830162631595158649==--
+--===============8209119820052160847==--
