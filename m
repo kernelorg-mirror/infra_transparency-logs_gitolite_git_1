@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sun, 17 Sep 2023 22:58:03 -0000
-Message-Id: <169499148353.31567.12685412055563732543@gitolite.kernel.org>
+Date: Sun, 17 Sep 2023 22:58:11 -0000
+Message-Id: <169499149114.31684.8348957013441047251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: dd1ddd13a30e3d53d9e0c49908e69af0d38f442e
     new: e47749f1796d1df39a7eaae95f2784aaa43df57d
     log: |
