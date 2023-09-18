@@ -1,37 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 18 Sep 2023 20:32:41 -0000
-Message-Id: <169506916185.3621.13038669485150405380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 18 Sep 2023 20:45:01 -0000
+Message-Id: <169506990156.12504.17331125009440354721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/for-6.7
-    old: d24f05987ce8bf61e62d86fedbe47523dc5c3393
-    new: 105f3fe9188b37752c25d154870ceca352c9213f
+  - ref: refs/heads/testme
+    old: 81d861d56c7d7c97709027a47b8d2be6fc016154
+    new: 32e56199aa49bc7afff757e538d7a28b0555e590
     log: |
-         6fcdb0183bf024a70abccb0439321c25891c708d cgroup/cpuset: Fix load balance state in update_partition_sd_lb()
-         0c7f293efc87a06b51db9aa65256f8cb0a5a0a21 cgroup/cpuset: Add cpuset.cpus.exclusive.effective for v2
-         e2ffe502ba4505ee9c7b432980c702b7801a37f3 cgroup/cpuset: Add cpuset.cpus.exclusive for v2
-         181c8e091aae11b0b7efba49b34adfe3c89ce648 cgroup/cpuset: Introduce remote partition
-         4a74e418881f26cdeae1011453acd66cedc8ad2c cgroup/cpuset: Check partition conflict with housekeeping setup
-         efdf7532bd3d302a96436beee153364f26a1ddae cgroup/cpuset: Documentation update for partition
-         105f3fe9188b37752c25d154870ceca352c9213f cgroup/cpuset: Extend test_cpuset_prs.sh to test remote partition
-         
-  - ref: refs/heads/for-next
-    old: d24f05987ce8bf61e62d86fedbe47523dc5c3393
-    new: 105f3fe9188b37752c25d154870ceca352c9213f
-    log: |
-         6fcdb0183bf024a70abccb0439321c25891c708d cgroup/cpuset: Fix load balance state in update_partition_sd_lb()
-         0c7f293efc87a06b51db9aa65256f8cb0a5a0a21 cgroup/cpuset: Add cpuset.cpus.exclusive.effective for v2
-         e2ffe502ba4505ee9c7b432980c702b7801a37f3 cgroup/cpuset: Add cpuset.cpus.exclusive for v2
-         181c8e091aae11b0b7efba49b34adfe3c89ce648 cgroup/cpuset: Introduce remote partition
-         4a74e418881f26cdeae1011453acd66cedc8ad2c cgroup/cpuset: Check partition conflict with housekeeping setup
-         efdf7532bd3d302a96436beee153364f26a1ddae cgroup/cpuset: Documentation update for partition
-         105f3fe9188b37752c25d154870ceca352c9213f cgroup/cpuset: Extend test_cpuset_prs.sh to test remote partition
+         10f4c9b9a33b7df000f74fa0d896351fb1a61e6a x86/asm: Fix build of UML with KASAN
+         3a05a9508077226923fda0974a3498b4c0b8e237 x86/shstk: Handle vfork clone failure correctly
+         83fe50b9a12ee846948fe8d8959f18e4bf23d60e x86/shstk: Remove useless clone error handling
+         32e56199aa49bc7afff757e538d7a28b0555e590 x86/shstk: Add warning for shadow stack double unmap
          
