@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 18 Sep 2023 14:16:51 -0000
-Message-Id: <169504661138.17881.2217180473895753189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 18 Sep 2023 14:17:00 -0000
+Message-Id: <169504662054.18013.4950371628924710711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: rpeterso
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 279df8139187e11d98606368592d9732b92746e0
-    new: b22fe1cf34779dc8bf7938664f22a517ba1f07c3
-    log: |
-         b22fe1cf34779dc8bf7938664f22a517ba1f07c3 gfs2: Fix quota=quiet oversight
-         
+  - ref: refs/tags/for-netdev
+    old: eee18cbddf25315bf312386944954e0363ee98cd
+    new: 0000000000000000000000000000000000000000
