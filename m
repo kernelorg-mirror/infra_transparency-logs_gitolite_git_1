@@ -1,91 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============0523674341985352879=="
+Content-Type: multipart/mixed; boundary="===============8558384538681912751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 18 Sep 2023 05:47:17 -0000
-Message-Id: <169501603780.12031.5385104574173903495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 18 Sep 2023 05:47:23 -0000
+Message-Id: <169501604318.12126.1775050033921280438@gitolite.kernel.org>
 
---===============0523674341985352879==
+--===============8558384538681912751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: f0b0d403eabbe135d8dbb40ad5e41018947d336c
-    new: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    log: revlist-f0b0d403eabb-ce9ecca0238b.txt
+  - ref: refs/heads/staging-next
+    old: 4c5ba1d7a93e098aececbf93afbdd7add98ec6f3
+    new: a7705e54e1c895713a09e17bdcfaf507f80de3a0
+    log: revlist-4c5ba1d7a93e-a7705e54e1c8.txt
 
---===============0523674341985352879==
+--===============8558384538681912751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695016037 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1695016036-8a8bdba38c8d4c476a21ecf5599338d9d52ed7ac
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695016042 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1695016042-d7fd8187e2a405c3462a77fe92481d7876be09e4
 
-f0b0d403eabbe135d8dbb40ad5e41018947d336c ce9ecca0238b140b88f43859b211c9fdfd8e5b70 refs/heads/usb-testing
+4c5ba1d7a93e098aececbf93afbdd7add98ec6f3 a7705e54e1c895713a09e17bdcfaf507f80de3a0 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUH5GUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j4IQANJ/bNWLLiAZ+1/Z8Xvh
-G5P18mv0fyeP5qXga5ZCHuEGbJrrY+pe/BhjOsQWKgIcFBh/KxWBwryOGDLuah9l
-RaTJudmjKORsqVGa6d+a+Lem2WLlL9u11+lbp2e7LWWAR9WPOd6fm1A7+0sf1fiU
-n+0OjCbCM/gZzPmhuMsI1DtN7UUYolOW2AmwixQkm2z5g+leOkVVnyAZbf1U4vni
-kPm//93DLDHbasfZzDHjlNecNaIM6r5+6L07E65GC30U5QOlp3R5yUGQ2fgJSgRW
-Os3OeKMBrCAUhML2F7/iO02KKBCTxu1gWaKGGQy+jnnWtSM5akvArtB47DeBcSCk
-eIcDFjWFaA9Nm9Z1CUWFJ47d/VtpR9zvypP7r4W2H9PODLyTHJVU5ep5xV/nmN7c
-5uuOYM3ue79IrigiO00iEXX4USgZejPJfBLOkj7YHPf35z+pGYxXGIdj1yXKFAi/
-11+5ctBIeFtV7qNAxXe7R/ghIICGjXAWPovJm+EdfpeAz3X4pm3NMreazSS3R75j
-OaWe2nbePDwLpvfQMQ3zYpc+/BsyHbZkWN2QAE2T9IxcpJaKWblUIRwm6o+4Q7gS
-3g1iM2sySX5l9oXrYoBBCAnwaHAJ4rvtwLiaiq8Scz976hHzmYpUOkPexH+8BhaD
-iNIDvJk+/Lg+aSihQ6QznhMf
-=uJQ3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUH5GobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XisP/3mI6DmOAhl9RsjSA08h
+vBLOt5ejDX1JIK3NkNq7mJOQb8hYNIGOPC/Owtr/Oi1PJYBUudpZAs8Z6AfOGN3W
+A/IfvYGF2WvXUT1JdAE8N0Gi5j1Xo85LbpfyMjyqw4NeqL482VEjwBSsY8E+bjQO
+nh/+3tS1fF4oHdhdd85c0Ud0nSsm2BzMK3crMmLNDMlTAV6oYK34nQHH7TN3UUZJ
+CXMtQdEPDx4qtgrrTZWvsHMY8+1vXIuqJhVHdhAMAkTCqyvkFhxzyA0rvId/l1Dq
+7EdPNuBnbFxqm29mNwiQ23rRINt6rIReYX2tOD8fR62qPbSvcydP8MjdJCU2wOML
+EP/A7g4O3LClBipkimHYXB7ZHoIz/6IFpJmcrUsqwNiLrHkGfxZbD84rrrJuse7J
+4HtS801rnhfoXMBYGlz/6vkjEmGAqnovIfV5Gvlr0voNZYwNu5sosPsX/Gswbz4Q
+47QvMHOu6p0MTm1DcMl8bz+jT4bTxBp7oTn0nMgqr8Srb7vFsUpVQHsK7wDfSjux
+7LY3bE7T8zNiPOso6s8LpuMH642IyY2gtNB+GysxoADFIBAWpPML003SmggFJWXC
+sq7AmqpfqMjxTwOM58ByodatY96IxWfvCkROdYYicSBtB/Mble3b8jj2jWY3G+n2
+NRgPBusMxNrn0H4w8Kfya0xt
+=wlka
 -----END PGP SIGNATURE-----
 
---===============0523674341985352879==
+--===============8558384538681912751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0b0d403eabb-ce9ecca0238b.txt
+Content-Disposition: attachment; filename=revlist-4c5ba1d7a93e-a7705e54e1c8.txt
 
-f8858d96061f5942216c6abb0194c3ea7b78e1e8 sched/fair: Optimize should_we_balance() for large SMT systems
-f94cf2206b066bd6d761d3347fd35f77b828c376 buffer: Make bh_offset() work for compound pages
-147d4a092e9a726ce706dbf0d329d2b96a025459 jbd2: Remove page size assumptions
-5290e88ba2c742ca77c5f5b690e5af549cfd8591 x86/platform/uv: Use alternate source for socket to node data
-72178d5d1a38dd185d1db15f177f2d122ef10d9b objtool: Fix _THIS_IP_ detection for cold functions
-25e73b7e3f72a25aa30cbb2eecb49036e0acf066 x86/ibt: Suppress spurious ENDBR
-7575e5a35267983dcbeb1e0d3a49d21ae3cf0b82 x86/ibt: Avoid duplicate ENDBR in __put_user_nocheck*()
-05d0f8f55ad60854cb706798da94276a33590445 smb3: move server check earlier when setting channel sequence number
-450e749707bc1755f22b505d9cd942d4869dc535 sched/fair: Fix SMT4 group_smt_balance handling
-108af4b4bd3813610701379a58538e3339b162e4 x86/sched: Restore the SD_ASYM_PACKING flag in the DIE domain
-e4e14095cc68a2efefba6f77d95efe1137e751d4 ksmbd: remove unneeded mark_inode_dirty in set_info_sec()
-59d8d24f4610333560cf2e8fe3f44cafe30322eb ksmbd: fix passing freed memory 'aux_payload_buf'
-1bb0763f1eb7dd015989fdc77dea17a349df2ea9 jbd2: Fix memory leak in journal_init_common()
-45e4ab320c9b5fa67b1fc3b6a9b381cfcc0c8488 ext4: move setting of trimmed bit into ext4_try_to_trim_range()
-5229a658f6453362fbb9da6bf96872ef25a7097e ext4: do not let fstrim block system suspend
-7fda67e8c3ab6069f75888f67958a6d30454a9f6 ext4: fix rec_len verify error
-ebc3d4e44a7e05457825e03d0560153687265523 smb3: correct places where ENOTSUPP is used instead of preferred EOPNOTSUPP
-2c75426c1fea591bb338ba072068f83d2f6be088 smb3: fix some minor typos and repeated words
-cccd32816506cbac3a4c65d9dff51b3125ef1a03 panic: Reenable preemption in WARN slowpath
-f530ee95b72e77b09c141c4b1a4b94d1199ffbd9 x86/boot/compressed: Reserve more memory for page tables
-75b2f7e4c9e0fd750a5a27ca9736d1daa7a3762a x86/purgatory: Remove LTO flags
-3fde3003cab845c124253c0a42eb0cf70220c5da Merge tag 'ext4_for_linus-6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-39e0c8afdce04157ce229c3d4aa21f80356e88c1 Merge tag '6.6-rc1-ksmbd' of git://git.samba.org/ksmbd
-45c3c627222f061a12e2f40612b80c17e915faf8 Merge tag '6.6-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-42aadec8c739727fce8e2c1ee71e72cb0f82ed3f stat: remove no-longer-used helper macros
-99a73f9e8d65600fda224647c8520e184db8506c Merge tag 'core-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e54ca3c81f2d81e4de3339873256e568f60ce076 Merge tag 'objtool-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
+b50d2a8c86bd5b2b0d6cd3926114c80862bc4c85 staging: rtl8192e: Remove unsupported mode IW_MODE_ADHOC
+19444ae97eedc786ce7ff60b205b1bbb2608541f staging: rtl8192e: Remove useless equation in debug output
+95862d083b08eaed4fb88da11494d4ae4acc447b staging: rtl8192e: Use standard ieee80211 function in rtllib_rx_mgt()
+dabd8585db95fa4c95d894ff2924e9bb4f1f308b staging: rtl8192e: Use standard function in rtllib_process_probe_response()
+a00e00a20e5732811715fa78f3092fc7340301da staging: rtl8192e: Use standard function in rtllib_rx_check_duplicate()
+f59edab87e33b4863c3f19437d93671c74cbf06b staging: rtl8192e: Use standard function in softmac_mgmt_xmit()
+0b20155f60159f7c20ab9d1b005c1d98a15c81cf staging: rtl8192e: Replace rtl92e_disable_irq with rtl92e_irq_disable
+6c8bc47b67b862edb58b649611efef437c7ddb0a staging: rtl8192e: Replace rtl92e_enable_irq with rtl92e_irq_enable
+58806573a76b0e55fb0b5b8c323a948fb1540fd7 staging: rtl8192e: Remove rtllib_get_payload()
+2af6ed8d4ff1abf3137cba531ebb294c71692596 staging: rtl8192e: Replace struct rtllib_hdr_1addr with ieee80211_hdr
+5db7df8e5f5600830d9f394cfbb41b5c6046952e staging: rtl8192e: Replace struct rtllib_hdr_3addr in rtllib_rx.c
+e96d150d0de0bef651f93f1bcc275aa483b53da4 staging: rtl8192e: Replace struct rtllib_hdr_3addr in rtl819x_BAProc.c
+ab4265999a6cf05db42fa674e3dd32e1f07e7ff5 staging: rtl8192e: Replace struct rtllib_hdr_3addr in rtllib_softmac.c
+a8550ee79026925c627df5ca6228eaeade36af76 staging: rtl8192e: Replace struct rtllib_hdr_3addr in r8192E_dev.c
+71ddc43ed7c712b386adeb3a16a616fa3a9e52c8 staging: rtl8192e: Replace struct rtllib_hdr_3addr in structs of rtllib.h
+1ba92da4c1fe14e776c1363a0b7ecf4e1ab35cbc staging: rtl8192e: Remove unused struct rtllib_hdr and two enums
+4db8b4dd7b6f5fd69a6f89d2d915ad42735c0310 staging: rtl8192e: Replace struct rtllib_hdr_4addr in rtllib_crypt*.c
+7e2ee215d133acca6d10c0e8d1c2920163c1db79 staging: rtl8192e: Remove struct rtllib_hdr_4addr
+cefacff12095c19938a07a0514d65e0c41767b08 staging: rtl8192e: Remove struct rtllib_hdr_3addrqos
+56724b747af70fc179a9f72cdda777186e6f69c8 staging: rtl8192e: Remove struct rtllib_hdr_4addrqos
+03622cc95b16860484a76cb28856c0f8d50896cd staging: rtl8192e: Remove struct rtllib_pspoll_hdr
+c2f7ab521e981416d6c7aa63e0926f61563c8587 staging: rtl8192e: Replace management subframe types with IEEE80211_STYPE_*
+87f8e11d5147992fe0b8c232e656be96f778408e staging: rtl8192e: Replace control subframe types with IEEE80211_STYPE_*
+3f48cad5497a54830f9ce8666c1b7907041c25fc staging: rtl8192e: Replace usage of RTLLIB_FCTL_DSTODS with function
+8e050848c7840f4553df3bbaf90510eeed8cb1dc staging: rtl8192e: Replace frame control constants with IEEE80211_FCTL_*
+b25f7cb305b9bc6576edd3e4e256b16ce420be09 staging: vme_user: fix check alignment of open parenthesis in vme_fake.c
+f6a90f103fb91c18720f8df33e92e6860db51afc staging: vme_user: fix check lines not ending with '(' in vme_fake.c
+571fa9b51375eee059846c780dce05f04528b065 staging: vme_user: fix check unnecessary blank lines in vme_fake.c
+3abba9a46c9d18b00e9aa52610ee5b07dfcd85e4 staging: vme_user: fix check unnecessary space after a cast in vme_fake.c
+7bebd832177670e6cce1783cf144f989cd3cf4b5 staging: octeon: remove typedef in enum cvmx_spi_mode_t
+a13f7e45823cd29af716ed6be1f53a344e0b9268 staging: octeon: remove typedef in enum cvmx_helper_interface_mode_t
+28fae776c69bdac005fa77a7e0daa64725d0f4f8 staging: octeon: remove typedef in enum cvmx_pow_wait_t
+8d26aa90458f82b952dcaa64e7c4afed9c862d68 staging: octeon: remove typedef in struct cvmx_pko_lock_t
+4fffe4733cfb08a4c08eca722a8eb819b842c043 staging: octeon: remove typedef in enum cvmx_pko_status_t
+b33a296d831189d8a8eedee360e889509b9c81e6 staging: octeon: remove typedef in structs cvmx_pip_port_status_t and cvmx_pko_port_status_t
+dbe2fdafcc4649bf658bd157ddd416eb9e8567f7 staging: vme_user: Remove unused (commented) code causing unnecessary checkpatch warning
+144100013266354b21220aa4e26d60de19bfc02b staging: vt6655: Type encoding info dropped from array name "byVT3253B0_"
+c887e0830b3af7d3d64a3d2ae3eccc2c8fcd99a8 staging: vme_user: Remove spurious newlines between define statements
+a7705e54e1c895713a09e17bdcfaf507f80de3a0 staging: vme_user: Fix various comment formatting issues including comment content
 
---===============0523674341985352879==--
+--===============8558384538681912751==--
