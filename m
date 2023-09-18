@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5600472147127430968=="
+Content-Type: multipart/mixed; boundary="===============5051313636871253095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 18 Sep 2023 08:04:01 -0000
-Message-Id: <169502424102.15849.10614870588677938867@gitolite.kernel.org>
+Date: Mon, 18 Sep 2023 08:05:54 -0000
+Message-Id: <169502435401.18191.6766590764052235557@gitolite.kernel.org>
 
---===============5600472147127430968==
+--===============5051313636871253095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: f93b75eb193434a3891c22be76a867f75738c366
-    new: a4a992eef36b779b11353bcd1d033be6625e0dd3
+  - ref: refs/heads/tty-linus
+    old: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
+    new: cce7fc8b29961b64fadb1ce398dc5ff32a79643b
     log: |
-         d5d70324efff0016ad1628be47b044248b855269 tty: serial: linflexuart: Fix to check return value of platform_get_irq() in linflex_probe()
-         b17f443a1cf292f89912be90184ecbfa89fe695a docs: ABI: sysfs-tty: close times are in centiseconds
-         4f0b2e31a67008f4dfacfd5631bd5fb17cf94de8 serial: sc16is7xx: improve comments about variants
-         a4a992eef36b779b11353bcd1d033be6625e0dd3 serial: imx: Simplify compatibility handling
+         cce7fc8b29961b64fadb1ce398dc5ff32a79643b serial: 8250_port: Check IRQ data before use
          
 
---===============5600472147127430968==
+--===============5051313636871253095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695024237 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695024350 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1695024236-e15d7b6c016964762e1c5c7ab86f2d4a201fd010
+nonce 1695024349-a2c871cdb6c8128c429276396cfb3f3f5efe6adc
 
-f93b75eb193434a3891c22be76a867f75738c366 a4a992eef36b779b11353bcd1d033be6625e0dd3 refs/heads/tty-testing
+ce9ecca0238b140b88f43859b211c9fdfd8e5b70 cce7fc8b29961b64fadb1ce398dc5ff32a79643b refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUIBG0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aNwP/RMtFq3SojM878dpsLd9
-PuIc2NrpOEN+RMAbb7G1vXgorlV0Ga4M6M+ff2NyNt6EOjWYawkWDXilANCpxIQa
-6iyXPZOm73ntKmio12qEa3GCdZ2qmFk8NXX9syjX653Tuz96vR8SeHhcjFpiyeKZ
-CyJ0epUwK7wBjlWRCxX/hC7lgN3jJfcBFGVCr/zBTa4dFKxxZVJ8qe3nR91pelUy
-zlQFevj6l09gahFxK8Pl55EiRhMerHwtwig0zUc/4jFsALsvRFyd2Zt9TS1Mkyg5
-7xIqtTod4gCoJua4Hc9EWKD4uYpAQFReb71nzseL2HYnJjrbmSuvKtF/p6imRrDa
-oigsBVD0YoeMjUndPaNMGkz2TzTRG6m4l1/HlzComq4aSf7tjLL/3bKQ3PDPoZx0
-Q0pqmM0Ml7lHWDS1nCfa8Xr2X6s+FT0OPGiWVkIDBsR5voGMXi4kA5Rz03TsTags
-+Y8oI0VpXiCYLfVyv8I+Hh6tn5dBM3ftti+Gpk2w+3a16QhByfYoYlvjvDhGlvdD
-snZQ/oWXrbmqTnPOhrA9t6V/61Xm2KjfmgME2Eh5+tvqSFCX03ajbu+2r2/pxtS+
-hzZ98c9W281qiySL4rG86aX/WAbpafuRALw0nK88TOc5VGzXHwL5eenhP9HsQHzy
-SHpA9v/MgHPnOD8xseFdJasv
-=8oLK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUIBN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w8MQANPriX52G3YpzWPHWaph
+z5y2itI2wQY2RQxC3hAyvQBuxwGdq2ZDjDz4N+dG8VGs0Syl32C/+1UvBW6ORco4
+Du+FXCxi2fdg380+6qaGMctKv8jbQaCNVyvQVNaCGlLAqgxQgA+32rpsNPdcZPnJ
+XESghtuTOH3pp56KUa/Lsdsvi4oWp86DfLRAK13n3OHwPUJ6b+ARwBr7k3HHDS0x
+qQLtZuXm2Kwo0olIm5S/1trtGX7JbUf276XTrbvXgNGVqggL6AxroT4Y0I57iI5d
+APszz06be4dPy04neg9p94PaqI0liIKfhCOdoOQbuvYJJXRQ12oE9KcMb7Apz5YS
+88U9NjPyasrsgN+0lqNjk06jMF1StKM/KWY1ZzgbQEEuFxzH1gxppigjdrzFEb2/
+jibarKjOaG4hG/BXJCIZioaEnfXPd52Cdkw6nRPReiTzuv701uuYVZsRq/uf4aWv
+WCyZZmOBl/pYD/YQel6LffGyEaHxNlcPGHGHhsJrjc9l9bAEa5f6prw5vbEK5CBy
+f1P1AEugOvF971+upCXSpAKqM3aYsKJGmbjHA9R5f0PJ+athzAxMmv77lA+lWmIb
+b9AlnMDRzCoCugNnXG7297L3THjCoXuYyp3lM7htiUMAHhLXvlOePo4LmJrIiWxi
+ZeyEYIUsn+mXMWigXs6N1SPp
+=W5/4
 -----END PGP SIGNATURE-----
 
---===============5600472147127430968==--
+--===============5051313636871253095==--
