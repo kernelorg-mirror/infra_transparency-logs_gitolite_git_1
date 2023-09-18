@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8027181897614204160=="
+Content-Type: multipart/mixed; boundary="===============1591149778545121056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 18 Sep 2023 18:53:18 -0000
-Message-Id: <169506319809.27747.1375132319547049354@gitolite.kernel.org>
+Date: Mon, 18 Sep 2023 18:53:23 -0000
+Message-Id: <169506320309.27865.14611460076620335611@gitolite.kernel.org>
 
---===============8027181897614204160==
+--===============1591149778545121056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: 91aa6c412d7f85e48aead7b00a7d9e91f5cf5863
-    new: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    log: revlist-91aa6c412d7f-ce9ecca0238b.txt
-  - ref: refs/heads/for-6.6-fixes
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 96796025f400e9b8f763d25c98af9b0f026a5ead
     new: dd64c873ed11cdae340be06dcd2364870fd3e4fc
-  - ref: refs/heads/test-merge-for-6.6
-    old: 0000000000000000000000000000000000000000
-    new: 3e968baabb6b8ce80761ec3d65ddfe4e864f16b7
+    log: revlist-96796025f400-dd64c873ed11.txt
 
---===============8027181897614204160==
+--===============1591149778545121056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91aa6c412d7f-ce9ecca0238b.txt
+Content-Disposition: attachment; filename=revlist-96796025f400-dd64c873ed11.txt
 
-c743b4259c3af2c0637c307f08a062d25fa3c99f SUNRPC: remove timeout arg from svc_recv()
-ba4bba6c97d40fa9f2aa25a34f6e9717a468c8f3 SUNRPC: change cache_head.flags bits to enum
 3275694adf0f89e1cdcacfee16103be6643c2a0c SUNRPC: change svc_pool::sp_flags bits to enum
 a6b4ec39036fd78b95205eef3be121454b7d2973 SUNRPC: change svc_rqst::rq_flags bits to enum
 d75e490f35601aae12c7284d3c22684c65fb8354 SUNRPC: change svc_xprt::xpt_flags bits to enum
@@ -1056,5 +1048,7 @@ e54ca3c81f2d81e4de3339873256e568f60ce076 Merge tag 'objtool-urgent-2023-09-17' o
 e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
+a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
+dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
 
---===============8027181897614204160==--
+--===============1591149778545121056==--
