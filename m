@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 18 Sep 2023 15:45:37 -0000
-Message-Id: <169505193772.20064.12907385388745587701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 18 Sep 2023 15:46:45 -0000
+Message-Id: <169505200576.20554.14159053095687895478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-linus
-    old: 9855d60cfc720ff32355484c119acafd3c4dc806
-    new: 5f66db08cbd3ca471c66bacb0282902c79db9274
+  - ref: refs/heads/next
+    old: a77baa82522051b2ba5ff0586dfc7d35f581c408
+    new: 87ab156b7bb2a117a79692a96239c667f5b4f08e
     log: |
-         5f66db08cbd3ca471c66bacb0282902c79db9274 spi: imx: Take in account bits per word instead of assuming 8-bits
-         
-  - ref: refs/heads/for-next
-    old: a4d5ecf462e977338ba9250eeee6be8506b60091
-    new: baaa2957b0c6feb4ff7806b5d8e0039bd80acbdf
-    log: |
-         5f66db08cbd3ca471c66bacb0282902c79db9274 spi: imx: Take in account bits per word instead of assuming 8-bits
-         9386c958beb77aee0d95d5fd0c79babd06a86c7d spi: Drop warning from spi_stop_queue()
-         21f252cd29f08892d48739fd7513ad79c1cff96a spi: bcm2835: reduce the abuse of the GPIO API
-         baaa2957b0c6feb4ff7806b5d8e0039bd80acbdf Merge remote-tracking branch 'spi/for-6.7' into spi-next
+         8fef79887b98cbbb3d3d064de1bd4995be997aed Merge branch 'pci/controller/cadence'
+         2fd3aa476f93df2325c6618124defd6ba363a94e Merge branch 'pci/controller/vmd'
+         87ab156b7bb2a117a79692a96239c667f5b4f08e Merge branch 'pci/endpoint'
          
