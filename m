@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 18 Sep 2023 09:28:51 -0000
-Message-Id: <169502933190.14288.8030544978143690106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 18 Sep 2023 09:35:14 -0000
+Message-Id: <169502971481.19823.1324944590901700049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 74818fd88a1f0260798f06ba8edab626415c4a99
-    new: 0b0cdfe905dd2c7d9380282b833ed19696838a40
+  - ref: refs/heads/riscv-soc-for-next
+    old: 78a03b9f8e6b317f7c65738a3fc60e1e85106a64
+    new: abc91aaa1937faaea3b385745956f3aeaae0b605
     log: |
-         2681f560da427fe8bb2ccf5b49c81f356add46f1 lscpu: Use 4K buffer size instead of BUFSIZ
-         0b0cdfe905dd2c7d9380282b833ed19696838a40 Merge branch 'kraj/lscpu' of https://github.com/kraj/util-linux
+         abc91aaa1937faaea3b385745956f3aeaae0b605 soc: sifive: replace SOC_FOO with ARCH_FOO
          
