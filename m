@@ -1,51 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3682495254066435189=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 18 Sep 2023 15:45:15 -0000
-Message-Id: <169505191542.19856.4092699111525534111@gitolite.kernel.org>
-
---===============3682495254066435189==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 18 Sep 2023 15:45:37 -0000
+Message-Id: <169505193772.20064.12907385388745587701@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.7
-    old: b0ef97ac89a794ae786eb1ff1cd2b07e9d9ab3c4
-    new: 21f252cd29f08892d48739fd7513ad79c1cff96a
+  - ref: refs/heads/for-linus
+    old: 9855d60cfc720ff32355484c119acafd3c4dc806
+    new: 5f66db08cbd3ca471c66bacb0282902c79db9274
     log: |
+         5f66db08cbd3ca471c66bacb0282902c79db9274 spi: imx: Take in account bits per word instead of assuming 8-bits
+         
+  - ref: refs/heads/for-next
+    old: a4d5ecf462e977338ba9250eeee6be8506b60091
+    new: baaa2957b0c6feb4ff7806b5d8e0039bd80acbdf
+    log: |
+         5f66db08cbd3ca471c66bacb0282902c79db9274 spi: imx: Take in account bits per word instead of assuming 8-bits
          9386c958beb77aee0d95d5fd0c79babd06a86c7d spi: Drop warning from spi_stop_queue()
          21f252cd29f08892d48739fd7513ad79c1cff96a spi: bcm2835: reduce the abuse of the GPIO API
+         baaa2957b0c6feb4ff7806b5d8e0039bd80acbdf Merge remote-tracking branch 'spi/for-6.7' into spi-next
          
-
---===============3682495254066435189==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1695051913 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1695051913-254787fcdd31d15cd09ac04076396dd2e6f1353d
-
-b0ef97ac89a794ae786eb1ff1cd2b07e9d9ab3c4 21f252cd29f08892d48739fd7513ad79c1cff96a refs/heads/spi-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUIcIkACgkQJNaLcl1U
-h9Ax2Af/RIqJVQ9IiWuginJkAQcWKTZHrlrdR/Cyn0XMicaUa9mtFFakXYnTQSH9
-XHELNHDOOS/R28Jl9Qptn5Wf5CWrJimjahzqrOCJFwv/AOy+BgOl2u48q0SkI9cT
-ghrzCl7v6qUjp9AFAVpwpDCnNaC27gi9pT4svRpF0w7wty46VxBSNFl+B92J9xlz
-DDy2u+cRj13AuAlMKcZRBaVUnpMYd06Ny8SDBrFqxbqLhQYsxHLDo5Gyk5o7TylV
-VIc1JUEW1j+nq98QHSg89kB1FO8Wi7rh+RJdiQJv0lLngvVc+s+Dm+RC4loGEItT
-nmZTq0hMs8XezDL2ZfxrlYHHnnI6BQ==
-=SFpP
------END PGP SIGNATURE-----
-
---===============3682495254066435189==--
