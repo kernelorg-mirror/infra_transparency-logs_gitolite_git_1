@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0666934098518728923=="
+Content-Type: multipart/mixed; boundary="===============9026682992297010675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 18 Sep 2023 08:14:24 -0000
-Message-Id: <169502486400.24177.9933994673659347425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 18 Sep 2023 08:16:50 -0000
+Message-Id: <169502501068.26779.7039589915812104286@gitolite.kernel.org>
 
---===============0666934098518728923==
+--===============9026682992297010675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/tty-testing
-    old: a4a992eef36b779b11353bcd1d033be6625e0dd3
-    new: 1c7af0561925f4091b65ecdf696572c193adcad7
+  - ref: refs/heads/main
+    old: 9c386911b16d4bf2f24e55ed42bfa397073b4b84
+    new: ddd7f45c899f7524bdbe6a32fe4906cde8b07b9b
     log: |
-         1c7af0561925f4091b65ecdf696572c193adcad7 tty: tty_jobctrl: fix pid memleak in disassociate_ctty()
+         ddd7f45c899f7524bdbe6a32fe4906cde8b07b9b wifi: cfg80211: save power spectral density(psd) of regulatory rule
          
 
---===============0666934098518728923==
+--===============9026682992297010675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695024861 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1695024860-06e7b19880e1196bfa2013b030e506429b1a7584
+pusher 7BF9099A 1695024987 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1695024987-0d35441e3a71003d930f45f6178071c4dc9f49b7
 
-a4a992eef36b779b11353bcd1d033be6625e0dd3 1c7af0561925f4091b65ecdf696572c193adcad7 refs/heads/tty-testing
+9c386911b16d4bf2f24e55ed42bfa397073b4b84 ddd7f45c899f7524bdbe6a32fe4906cde8b07b9b refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUIBt0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gjsQAIW/+v+NCEnSXdH3prO4
-1EGq8U8LlD4o1zQywjLXlgRBoRZD0wj67lXcB0jQ1FQXm4hXbXpOKyvkstfQ6Qir
-GE9Fxo4SPbrFvaoXzzpdl2lVIfjevRhlbHQVogohg2nujznJDZvs8PcXqgmRARQi
-qYwue2e4nDyZ4ICvb81FWzeXMxJDJiAoRod02+G4DUnsDpeFCEkMW5e9lPuKigJd
-jfNBbo0m3DkzWgM6dWM3HhaRq5ycJzI6MGufboBXqagc7y2VZLFySgwtGhVLrNiw
-NklO7RD5JYvZrNhV46wrT85f4GcGK+ieGt8P2VMWTm0ePbSN5rV6OfI3YOfqte5N
-QBVOt6wjaYtB/9JJYBNwuiTgkwn32yJbw74+CbM/ysnuRbLbQu5aWigKd46sCQN6
-hP266ZzsuLdI3/Sbe4QPRlJ5AMj2KDblUxBBi5eou2AutE4/5hjK++ODrTpSp5xg
-SzUJxijPdXjI+uejIVoJjWLZSQNlxYOsN4fgAa56q/6lG+vyra9DIQOKl2zeJMgW
-wYx7WdKSun0qeTK6SC/mNQujuFZJmqtsarUrdIPq0CCyxtuBvYs0Ffa9Fv0dOCEW
-MogpF39pEVoES+nQA0s5vh6euYCC9GQ89RiswHi2PhEwi+Phfwo7+6GpsMKmAHcU
-2cMHxp0wOUYpIf3Qh0PC2jO2
-=IV7k
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUIB1sACgkQ10qiO8sP
+aAC3OA/8C446QTAj4pZadYX4BYZfI4vS75skx8EiaMO2LQR2lYL5xiik1/ZBfgyx
+Jwjf/4v6eVSuMoaRRk6F4Tlq5TOaUHlzrhN7h4nxyIT/8YyFa8+ZMSP9svvWaJtY
+lQYq+KA8oahnf1Y4KUt8GMmstddGw9TTGimAeGYiaSW3Nmxiqiu3yQC4Wpuj6tZk
+6vti3uPham5coIW8/w9cLasGFutzsCZidEtch67mtoiT1oyhFEr/gBKwPzPCyfcY
+ZND/o4qYECO4SvN8G8roJzFNAVqqiTNyKpLHKf8XpQ8x+xklgRkANKPULvYM4Oe3
+O12FvoCh/JCJ3QbyzivkzNmG1N07Ua/q60joX/QJTSLGmucfRzV24YIy4bZJ+P3R
+cdsWoWXxRDtbP3cr5PP5t7Y/xcOsNPKUII4jigOxTIuxiAi6gGpvE0W7EF7bkLy3
+kZPeLUIp1uHpM6Oex0r+mFOsotAhBsSdnPBKeSOaO/5NcdF8wpYHzUw9n2+7B1jj
+MKwvEIY7MIhD/qngkkFn8glE/v9zyb3ho6de3hoNYkBCX/mUP5PUFeR/he4XT2hn
+wO154OwQfjh9ovDtwxFsxcxOzMaPvXarFkKhl9UjBQg6WXywp1e4vcnHgMySpuUd
+85NqMvwq/1hxAFQvh3v6S4WvX7ncUQPpyugAPykwPWhayWL8GXg=
+=aWWO
 -----END PGP SIGNATURE-----
 
---===============0666934098518728923==--
+--===============9026682992297010675==--
