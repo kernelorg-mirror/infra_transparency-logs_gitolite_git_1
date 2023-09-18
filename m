@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 18 Sep 2023 17:26:52 -0000
-Message-Id: <169505801245.29693.16923736675716914946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 18 Sep 2023 17:30:24 -0000
+Message-Id: <169505822452.32721.3452848053655437569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 24cf07447b5ee4e5afc2954944668d42b7bbaf77
-    new: 451a8b748ff614ba9094102d58a48ba30899f6e7
+  - ref: refs/heads/x86/urgent
+    old: 34cf99c250d5cd2530b93a57b0de31d3aaf8685b
+    new: 10f4c9b9a33b7df000f74fa0d896351fb1a61e6a
     log: |
-         fc42535b0868b99bd8f5cb3e856cfbefcc0a8d0d foo
-         451a8b748ff614ba9094102d58a48ba30899f6e7 foo
+         10f4c9b9a33b7df000f74fa0d896351fb1a61e6a x86/asm: Fix build of UML with KASAN
          
