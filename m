@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 18 Sep 2023 08:39:54 -0000
-Message-Id: <169502639445.10834.6310241293023249154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 18 Sep 2023 08:53:00 -0000
+Message-Id: <169502718037.20308.12821386416151326087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: 2506a91734754de690869824fb0d1ac592ec1266
-    new: 0201409079b975e46cc40e8bdff4bd61329ee10f
+  - ref: refs/heads/wip/leon-for-rc
+    old: c489800e0d48097fc6afebd862c6afa039110a36
+    new: 18126c767658ae8a831257c6cb7776c5ba5e7249
     log: |
-         0201409079b975e46cc40e8bdff4bd61329ee10f net: spider_net: Use size_add() in call to struct_size()
+         6b5f0749ce48c13d7f53b27c39d00bba46e1fd1c RDMA/erdma: Fix error code in erdma_create_scatter_mtt()
+         b2abdffb505f7e1bef1a769ba7cbdc819a6fe623 RDMA/erdma: Fix NULL pointer access in regmr_cmd
+         18126c767658ae8a831257c6cb7776c5ba5e7249 RDMA/cma: Fix truncation compilation warning in make_cma_ports
          
