@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8254266639821140160=="
+Content-Type: multipart/mixed; boundary="===============2146797285462092053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 18 Sep 2023 16:07:32 -0000
-Message-Id: <169505325277.4167.16506854500070392242@gitolite.kernel.org>
+Date: Mon, 18 Sep 2023 16:08:07 -0000
+Message-Id: <169505328739.4537.2425608917144644131@gitolite.kernel.org>
 
---===============8254266639821140160==
+--===============2146797285462092053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 615efed8b63f60ddd69c0b8f32f7783859034fc2
-    new: 6dab9dd6490791b8038b0622827ecd418439c1a3
-    log: revlist-615efed8b63f-6dab9dd64907.txt
+  - ref: refs/heads/dev-queue
+    old: d16a8470209f401880ae678be4f3f68347a37fa9
+    new: 2df82e675e5353fe831133a52f2811a013ed0422
+    log: revlist-d16a8470209f-2df82e675e53.txt
 
---===============8254266639821140160==
+--===============2146797285462092053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-615efed8b63f-6dab9dd64907.txt
+Content-Disposition: attachment; filename=revlist-d16a8470209f-2df82e675e53.txt
 
 41bc46c12a8053a1b3279a379bd6b5e87b045b85 bpf: Add override check to kprobe multi link attach
 7182e56411b9a8b76797ed7b6095fc84be76dfb0 selftests/bpf: Add kprobe_multi override test
@@ -82,5 +82,11 @@ f6909dc1c1f4452879278128012da6c76bc186a5 mptcp: rename timer related helper to l
 1943f2b0ac5a9fde718c18c1f4ab8332c8b5cd60 MAINTAINERS: Update link for linux-ax25.org
 71273c46a34823e54af7828df67e5983ba85d6c2 ax25: Kconfig: Update link for linux-ax25.org
 6dab9dd6490791b8038b0622827ecd418439c1a3 Merge branch 'ax25-project-links'
+222fc3c7e5ec39f5a07563ff2f841d7779e03c31 i40e: fix livelocks in i40e_reset_subtask()
+a25916d56e93bfcf70af325bc27fd9836feefbd0 i40e: fix 32bit FW gtime wrapping issue
+64bf470a5dfdc71c508261eeb0cabc66abcc6634 iavf: Fix promiscuous mode configuration flow messages
+28fa60da1097dd1b7e89a44519c76792fe6e7f08 i40e: fix potential memory leaks in i40e_remove()
+202a18176138de169b9c92233c8c337b935522b8 igc: Expose tx-usecs coalesce setting to user
+2df82e675e5353fe831133a52f2811a013ed0422 ice: don't stop netdev tx queues when setting up XSK socket
 
---===============8254266639821140160==--
+--===============2146797285462092053==--
