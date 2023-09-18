@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Mon, 18 Sep 2023 06:59:42 -0000
-Message-Id: <169502038243.31705.4299588529531940807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 18 Sep 2023 07:11:19 -0000
+Message-Id: <169502107996.9756.1094116317708588322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/urgent
-    old: 560f54eaa44ce3059defe2b613f04cfe4f8de6b3
-    new: 52c34f16245f6e12c6880e7aeaf14e410f7047b6
+  - ref: refs/heads/for_next
+    old: d3cc1b0be258191d6360c82ea158c2972f8d3991
+    new: d1d3fcb324eceee7c4bf34b0ac89942ee16e3b74
     log: |
-         52c34f16245f6e12c6880e7aeaf14e410f7047b6 efi/unaccepted: Make sure unaccepted table is mapped in crashkernel case
+         d1d3fcb324eceee7c4bf34b0ac89942ee16e3b74 udf: Annotate struct udf_bitmap with __counted_by
          
