@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6657700120590291183=="
+Content-Type: multipart/mixed; boundary="===============6145370280460157906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 18 Sep 2023 07:25:14 -0000
-Message-Id: <169502191463.20485.7395790143485169143@gitolite.kernel.org>
+Date: Mon, 18 Sep 2023 07:25:35 -0000
+Message-Id: <169502193554.20706.13346914427733291920@gitolite.kernel.org>
 
---===============6657700120590291183==
+--===============6145370280460157906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 9983b669b4efa6f77f4d7547b5794ca55e12a9bd
-    new: 33e70736f9fe5224a7a4bdb835477043172c9d4c
-    log: revlist-9983b669b4ef-33e70736f9fe.txt
+  - ref: refs/heads/class_cleanup
+    old: c27d96a2b642fd02ef7b08427b0499c244638bd6
+    new: dd7fd6eb71176c0e0166c778c143bf2c87d63e65
+    log: revlist-c27d96a2b642-dd7fd6eb7117.txt
 
---===============6657700120590291183==
+--===============6145370280460157906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695021911 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695021932 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1695021910-9323835ed235fd5d91035458049cb939c0d1947d
+nonce 1695021931-b32c6992be80d621fe34ab24122f4861f333a172
 
-9983b669b4efa6f77f4d7547b5794ca55e12a9bd 33e70736f9fe5224a7a4bdb835477043172c9d4c refs/heads/bus_cleanup
+c27d96a2b642fd02ef7b08427b0499c244638bd6 dd7fd6eb71176c0e0166c778c143bf2c87d63e65 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUH+1cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a8UQAM/YHi1X2uRNSG9AH2gs
-tw8ejhcoMoOZsWF19a6VenPwJKjB7H497mcdZh6KaKMM4uZg8gb7EbEFttteLusi
-4zsTWnYIFc7dpJMGc/n0G5vOGI2XMB6l0f6v9S/GJkG2ok+k+n6/M950Uh9hHaov
-RufRHMOI5DyCO/EWcK2xqiX42lamqfLdYSk6eCctRtA5CnttAfFLHFC3qoHXlR1Z
-Deh/xAURwdLzvDwU/ZA/Y6VauquZEmGLWnYDPHAr/sHc5r7oV/zZYp8RLth86hqg
-ksi7rMfn/zKDMeMU4i8NDc90Uf+4ZFcaBJfWTvg7ITLGCqgVApd62JAbsCerk971
-8KlNQvIc9FbrpYBHzPvDygbsBcwVwcRYR/AuA+O1XTd9B7u9MTBpE9fP27abjlLL
-P1eNQgvT7F8ydOI/0Wf8XutbjvNPuI8EDXwaJgSWEc3EEZbz9Z7EUuy+c90Muad9
-Gn0ASh4bg9qOuwqnMF2IXzGzgeAq9vQ55bQ+0BIvZAU7+Kzv+yKuV2QL3jx5RKdk
-m/Pef5hN3WJD8VoWAUEVGN6rAkaZSkL0sFsljkxrFoC7EGhzpMb9tw3u9rQ4Rgue
-wOFAN3AN8OqIGeT+VlCss9HDkWe303K1D/nt3vZ1EOuQZNe+0GO4jspy4UUUSnn4
-2ydhN42lUpohqgVqp+TJBlxZ
-=GbR3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUH+2wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EBEP/1W3tyAKuxlZcHfvVbQt
+5gE+VeX3sQoHi7iiAdNvKdR+eB2OHHgzd8KUhX+mJ/lwkifGN/WuOrX1GTBf0doo
+4demsMHDqyP19Yq0WqTaj8fec9nwVa1/an7NhcHSwi5Vek3XoTeadeyftlCE7QC6
++FA5plWBkriwno8ZRWKSow56Jd7PWQ2bu96tZPGL6dLtBN+cmGKPn3lK6Eqh7dEw
+0Z9nPzHZkcF7xsCxJLuW9SjcpMtRcWc1dOd2FZrXiZJ72/iw7TAiO2ith1o8l+WW
+ZohjyMRJaQGYjloYyRkdEurYd+jSWXAclSJZ638GmuSc1goZtqs/2VaSKd9FziN+
+kNJ6seSt/vLEGZE5oeJPrr2Yp1KwMK3iu8wm2FyTiWugs8uJwe6A1V3Fknq/1n0P
+B3jqgMwy7hCi7ysatcmXPjnPYDFHVmrga9GSDe27MchmmIQ9rdnqAao4tVPgmrbp
+CEERZ7gyC2vpigAGKZj+cax8DvdTMbK72089wtHQtJsKN5uqTVuwYoPOlje4l7D2
+dAEdhUSmW7PxiluvFv5YWZCaVt26DQwVNLyHdxeFx+7YGiqxtnEyUdNh/1ZT1fkB
+1upBbQjxEqWxLxeBJr3VX7PM22Ezy6CEHgW8RrM1QpFUCWeJ13WVbeRTmmggDjth
+iI0TKHzKM1raRyGtJ7S6yJPE
+=63QK
 -----END PGP SIGNATURE-----
 
---===============6657700120590291183==
+--===============6145370280460157906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9983b669b4ef-33e70736f9fe.txt
+Content-Disposition: attachment; filename=revlist-c27d96a2b642-dd7fd6eb7117.txt
 
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
 71be868472dc5beb82feb4da2d3eb9cba785d660 nvme: host: hwmon: constify pointers to hwmon_channel_info
@@ -327,6 +327,18 @@ e54ca3c81f2d81e4de3339873256e568f60ce076 Merge tag 'objtool-urgent-2023-09-17' o
 e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
-33e70736f9fe5224a7a4bdb835477043172c9d4c FIXME: driver core: platform: make platform_bus_type constant
+56da6d28bfea82f3dd8db94f20a81305506cf2cb accel: make accel_class a static const structure
+32aadd7042582e0ab07ae0252c69ff6e311f995b coda: psdev: make coda_psdev_class a static const structure
+296a5d9cec12b6d04e3a4bc960f0a86a9dbaf7b3 cuse: make cuse_class a static const structure
+10a5151abbf00fc6d9869253e654fda48715b44e pstore: pmsg: make pmsg_class a static const structure
+d0388f65655cefd416580e7628271679a399348f netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+a31d0cc3226dd4e3853be5a05cd29c8813b1c89e PM: wakeup: make wakeup_class a static const structure
+9d464e9c1cdab1396831671cd71e88b1fa25f0ea PM / devfreq: make all 'class' structures const
+b3ca0ef77d7b817545f9292b6fcdee5d90fffaf2 dca: make dca_class a static const structure
+37a73d113ab23a6b81d67081f9db1383306d96e9 gnss: make gnss_class a static const structure
+94427322bff9ecd7be92e1dde4a73c15e8eeb198 extcon: make extcon_class a static const structure
+2534f835e4882b11a83158a4a4d72afb76be873c i2c: dev: make i2c_dev_class a static const structure
+35a7918b75ad67f50536c0a4f43886f3903d84ed misc: c2port: core: make c2port_class a static const structure
+dd7fd6eb71176c0e0166c778c143bf2c87d63e65 rapidio: make all 'class' structures const
 
---===============6657700120590291183==--
+--===============6145370280460157906==--
