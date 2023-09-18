@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2043541317422088753=="
+Content-Type: multipart/mixed; boundary="===============6936745271481804528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 18 Sep 2023 02:06:09 -0000
-Message-Id: <169500276947.10299.16930461210895850733@gitolite.kernel.org>
+Date: Mon, 18 Sep 2023 02:06:39 -0000
+Message-Id: <169500279991.10546.3080242778722650223@gitolite.kernel.org>
 
---===============2043541317422088753==
+--===============6936745271481804528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/fixes
+    old: 552c5013f2bc648611395ea80df6250aa4fe28f6
     new: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    log: revlist-0bb80ecc33a8-ce9ecca0238b.txt
+    log: revlist-552c5013f2bc-ce9ecca0238b.txt
 
---===============2043541317422088753==
+--===============6936745271481804528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-ce9ecca0238b.txt
+Content-Disposition: attachment; filename=revlist-552c5013f2bc-ce9ecca0238b.txt
 
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
 71be868472dc5beb82feb4da2d3eb9cba785d660 nvme: host: hwmon: constify pointers to hwmon_channel_info
@@ -246,8 +246,6 @@ f6007dce0cd35d634d9be91ef3515a6385dcee16 dm: fix a race condition in retrieve_de
 c21a8027ad8a68c340d0d58bf1cc61dcb0bc4d2f io_uring/net: fix iter retargeting for selected buf
 9fdfb15a3dbf818e06be514f4abbfc071004cbe7 Merge tag 'net-6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c8870379a21fbd9ad14ca36204ccfbe9d25def43 md: Put the right device in md_seq_next
-c86e9ae5e3ad82969fe395414d1d9f173f8e9fd4 kbuild: fix kernel-devel RPM package and linux-headers Deb package
-552c5013f2bc648611395ea80df6250aa4fe28f6 kbuild: avoid long argument lists in make modules_install
 29ee7a4a571d93b13432ea1eb5db8e99877c8f6a Merge tag 'md-fixes-20230914' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.6
 fb2c10245f201278804a6f28e196e95436059d6d thermal: core: Fix disabled trip point check in handle_thermal_trip()
 6cc834ba62998c65c42d0c63499bdd35067151ec nvme: avoid bogus CRTO values
@@ -297,4 +295,4 @@ e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of 
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
 
---===============2043541317422088753==--
+--===============6936745271481804528==--
