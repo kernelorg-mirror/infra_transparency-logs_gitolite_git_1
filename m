@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3713350535108211870=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 18 Sep 2023 07:38:18 -0000
-Message-Id: <169502269805.30077.8544996025256531789@gitolite.kernel.org>
-
---===============3713350535108211870==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 18 Sep 2023 07:39:08 -0000
+Message-Id: <169502274854.30441.11875057730071603706@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 6e48ebffc2db5419b3a51cfc509bde442252b356
-    new: 2c3dfba4cf84ac4f306cc6653b37b6dd6859ae9d
+  - ref: refs/heads/master
+    old: 9ffe36b0c4435bd35b8a4f5308c832a0487f400b
+    new: ded8d97d42c2bfc31d0a516e6db6af7b7bafbf46
     log: |
-         2c3dfba4cf84ac4f306cc6653b37b6dd6859ae9d rfkill: sync before userspace visibility/changes
+         16f65300a4e44b56bfea8eefd578825e856385df Merge branch into tip/master: 'x86/urgent'
+         07b551754c768c09ff8daafd56069369bfb45a06 Merge branch into tip/master: 'locking/core'
+         3885584744ec556ae94f25e7d3e607f753388f13 Merge branch into tip/master: 'perf/core'
+         ca000983b59f83765c06e0fa0d70c71f368b434e Merge branch into tip/master: 'sched/core'
+         89ece43f88da964fe2fb790f60971a5ec7cf5538 Merge branch into tip/master: 'smp/core'
+         2c40419e185b1d0a95102cda1cea21865e696bf7 Merge branch into tip/master: 'x86/asm'
+         38883406cc6044ef5daa17adbc6f7a409ea42429 Merge branch into tip/master: 'x86/boot'
+         38edfcbf974b4d9675f6bc13d6e6e98b7e1a2a7e Merge branch into tip/master: 'x86/bugs'
+         27def0bfb38788c719f94828879a6273095ca727 Merge branch into tip/master: 'x86/entry'
+         246335981165c455e4125144015d34f96cfcec9d Merge branch into tip/master: 'x86/mm'
+         d75c1bb74301b8f1a205a9145e619d451537c6af Merge branch into tip/master: 'x86/platform'
+         ded8d97d42c2bfc31d0a516e6db6af7b7bafbf46 Merge branch into tip/master: 'x86/tdx'
          
-
---===============3713350535108211870==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1695022677 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1695022676-b4ebaa57ed9382cac5dbc9c4b2ea567d5acf420f
-
-6e48ebffc2db5419b3a51cfc509bde442252b356 2c3dfba4cf84ac4f306cc6653b37b6dd6859ae9d refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUH/lUACgkQ10qiO8sP
-aACNqA/8CfjhXozIrg83AWZ0dPSb3NRF95cz3owmaOxQqqCxWLZLBIduoTOuybNR
-rvlxv+FEo6Z2DVgG3jmV0MfcgVfQy40wYD7v0HWa3bXEJjSHZlu1B11qDRLeTxlp
-9arlyAuzLNJgIZw+jeoEODZ+6Fh+aKT2kHzMSvrsABQWVP73B1bNjD+dz9VV4qNY
-qFn5o+BXOMwGWrow4VrSoBOmgFxTBTk1zqphOK3yqFhb3pNeJ1Eg4P/jl1PdEXHq
-r+DwROsKTdyrFFu30ib+kQYySPPX/SftsmjAg6qkzD4fG+mYKZMA6NKUmfcY5j0m
-bp8sm3pkOz9mMtJERomdr1oc2rp/UB+tmMPJGQkSR8l0JEh+vHS/xH9metso0Z5/
-P4MxrOyeeIce5XyEsDhrQUqIf034oAUUp54JBlpuqh4FHjJ5CSZ7fzG5FZu1gi+l
-bxMdhjJ4opAmGctgsCfbtxjuYCT1YBmO95mIcvshVAo7L6HrvdV/VT4BprUNO+FW
-E7Dbeiw9mqAcca3N2inTKlHpBua0JYgGDdR4kDEbJxJW4OkrCoRE/LbFQSVC0Kek
-Sc7rkuhSbxx66DA56pbfSgF3r2Ao3R0VtY0qnlKIJuBSAbxc5GhTSv0e1NajzMTx
-5gCz4jAiG8Umbz4fvbLmkkHqspR0GM6/GNe708S0LLZB9bIL6Pg=
-=KRap
------END PGP SIGNATURE-----
-
---===============3713350535108211870==--
