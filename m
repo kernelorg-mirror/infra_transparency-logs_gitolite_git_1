@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 18 Sep 2023 17:30:29 -0000
-Message-Id: <169505822998.400.15328922822351530719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 18 Sep 2023 17:37:30 -0000
+Message-Id: <169505865095.5929.4457340792870332771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 61857b1ebc0ec71937de47d04db8991085d55d5c
-    new: 7f5c68da56fcc5b302c21533562a1b0ff7aba199
+  - ref: refs/heads/fixes
+    old: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
+    new: 8ed99af4a266a3492d773b5d85c3f8e9f81254b6
     log: |
-         10f4c9b9a33b7df000f74fa0d896351fb1a61e6a x86/asm: Fix build of UML with KASAN
-         7f5c68da56fcc5b302c21533562a1b0ff7aba199 Merge branch into tip/master: 'x86/urgent'
+         8ed99af4a266a3492d773b5d85c3f8e9f81254b6 selftests/user_events: Fix to unmount tracefs when test created mount
          
