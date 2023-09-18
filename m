@@ -1,22 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 18 Sep 2023 15:50:10 -0000
-Message-Id: <169505221089.23527.12256169257920995834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 18 Sep 2023 15:50:59 -0000
+Message-Id: <169505225919.23935.11504715166807580668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/arm64/cpucap/cleanup
-    old: 3ccf204448cdb4841047eeedba741f5a23d742c8
-    new: 1cfe68b9123b087bf5ec3275f9576a9bad00e748
+  - ref: refs/heads/for-next
+    old: b2ce0027d7b2905495021c5208f92043eb493146
+    new: 2144833e7b41459fa2d52bb0676f0ab4920cf32c
     log: |
-         2c635070cff33c7c4f65da3b797cb55cc01c12d9 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_2645198
-         87611b4398aaa6d6eab6b5d3b91686a625ed763c arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_CAVIUM_23154
-         50a9410ce4daa29879395d03f56a93b601accf0b arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_NVIDIA_CARMEL_CNP
-         1cfe68b9123b087bf5ec3275f9576a9bad00e748 arm64: Remove cpus_have_const_cap()
+         bc83058f598757a908b30f8f536338cb1478ab5b ALSA: scarlett2: Default mixer driver to enabled
+         d98cc489029dba4d99714c2e8ec4f5ba249f6851 ALSA: scarlett2: Move USB IDs out from device_info struct
+         b9a98cdd3ac7b80d8ea0f6acd81c88ad3d8bcb4a ALSA: scarlett2: Add support for Clarett 8Pre USB
+         6e743781d62e28f5fa095e5f31f878819622c143 ALSA: scarlett2: Add correct product series name to messages
+         6f03b446cbaeb3187b1df1e7e8b13c6340cd6c68 ALSA: hda: cs35l56: Add support for speaker id
+         2144833e7b41459fa2d52bb0676f0ab4920cf32c ALSA: hda: cirrus_scodec: Add KUnit test
+         
+  - ref: refs/heads/master
+    old: 8467023cee2f191d8e4a320ca2dd35f2a39959eb
+    new: e3059a3efde7ebcb7959a0ef39131db539c30826
+    log: |
+         bc83058f598757a908b30f8f536338cb1478ab5b ALSA: scarlett2: Default mixer driver to enabled
+         d98cc489029dba4d99714c2e8ec4f5ba249f6851 ALSA: scarlett2: Move USB IDs out from device_info struct
+         b9a98cdd3ac7b80d8ea0f6acd81c88ad3d8bcb4a ALSA: scarlett2: Add support for Clarett 8Pre USB
+         6e743781d62e28f5fa095e5f31f878819622c143 ALSA: scarlett2: Add correct product series name to messages
+         6f03b446cbaeb3187b1df1e7e8b13c6340cd6c68 ALSA: hda: cs35l56: Add support for speaker id
+         2144833e7b41459fa2d52bb0676f0ab4920cf32c ALSA: hda: cirrus_scodec: Add KUnit test
+         e3059a3efde7ebcb7959a0ef39131db539c30826 Merge branch 'for-next'
          
