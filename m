@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6886420835212886347=="
+Content-Type: multipart/mixed; boundary="===============0684831807591472982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 18 Sep 2023 05:48:38 -0000
-Message-Id: <169501611846.12853.10413864016892130677@gitolite.kernel.org>
+Date: Mon, 18 Sep 2023 05:48:42 -0000
+Message-Id: <169501612289.12923.14020912590568036557@gitolite.kernel.org>
 
---===============6886420835212886347==
+--===============0684831807591472982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
     log: revlist-0bb80ecc33a8-ce9ecca0238b.txt
 
---===============6886420835212886347==
+--===============0684831807591472982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695016117 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695016122 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1695016117-d50d9195e82667f37e616e6b1cce50438ff37baa
+nonce 1695016121-5aa868c164c2dad4e5e11d755bfe0cc485038f8e
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d ce9ecca0238b140b88f43859b211c9fdfd8e5b70 refs/heads/tty-next
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d ce9ecca0238b140b88f43859b211c9fdfd8e5b70 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUH5LUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dlYP/iSwzxnTthwFbAIo+kXE
-sV4dX+U2ooeO1W6S8LbJpy0DPL4c/h+hYmDcELcP1I4eDZFuD5kSpgWoF25mejHk
-w53zrjd6/8UBxg7jBtXd+vHmzYaG9i0vVRjNpYYn93nsZE/tnANiLA+EwDu5vDjL
-i+NvpUYY/zCdx4loCR+ibmdIZrgkP2w1M521bnYXbaXvYnSTamNeZgz7WFgiaOZY
-84vTTNKRt6wMuVRu5kYUuLkmlnA0BppKmRxPVZrj+mVVfIFuZIedEzX6UQwCALWP
-UaUM5hbntJXKd55m/Jne3o6OZAGCD5iuoJWlXimNjxpUYeasoJ3iSdd3fq5OqDUQ
-VxghT91xCbQGGK32YZ8wwrEfmYYKIdhf7JJqZEAmPKKdSeNWQhpePpGk+YL6fmu/
-qVwuyRe5HzSCBJWGwmzaBVUrm1LZc0dH7Ets6jKSi/nU8LWfAH2Ym8+khH6ARWT4
-IREcTxDLwrPA1ShhhUL/J6MRZSdv0kJX2hFhpD8GuVwIgo4fBta7T1mhm+CKTjX9
-Ts0Qp1/35J8nqggevaU6iQWGuf1p9XRv3l9WBxBE68m7T0DtC98jyc+1d8wfg4Dc
-hb5WxfRkAqn1w5YjuWHjj8/CsASbHgEywMOav6ugEhnwu9irKzqNJZCgKJxaoFTF
-VdIjB5NdCCfh1DXGsY0EGYsC
-=lXol
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUH5LobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9GgP/Av/H9/3ybQX/DySpodu
+RO27q7iV4W+9BBi5qMT5gku8QvqlkiywKLhB3CPal+XglSRqwPAq7fmsfNxiNsgA
+wzeWFsrabjM+1J+pD4+v4ztaPmjjlHY6mlw2U44F+Xc1hhLto6I15H6PmxX18xCU
+kZgNobuLZPPaQMfY5CBDp02ZLThN7NTEE0VBLawwhEG69I4lS/BZn2+E/YDO3QxR
+cUkQvWkE9Rui5n8YWXQS/I3hBig335t31raD69jAYH13AMF3P+H7up6UWh4D2b+C
+dp34sTWQ3Zl/gVRZ0j8BQ69e2lj+ldOYppJT+Tm+PHbVpzbZ5VUb9kP0zdhFY7Ak
+LCKniyDoZtTnDm9zsJmXE/RyD55WjFksfocpeZwCQI5CqMmcf0OOS6Jjp8V9olm0
+K6eo3ep+vx5SZceDkx0aBJLhYWDTzhPsrybl578YNDgapBz3A76FOtKQLfPv4T/k
+guxa+NKnChRixspu2L2JKJ1yho6axE+WXhYFDUdSCn/DAyk3/LDn72F+RAtY1QYO
+7UfwT0QgfFyOyTkoMpAf6rlKtVHFfc4iQ0DnTY8hG767nem42XZ+AaCxdPea0zXZ
+nbdlLT7nBg6yUdz63GRYFnvNKpgxBU++3jA/lO0FjxhFnZ11VX40en1PsCq7ROIP
+y6Cs9ob0OFTNtrmCnFW0+UNh
+=EEIm
 -----END PGP SIGNATURE-----
 
---===============6886420835212886347==
+--===============0684831807591472982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -328,4 +328,4 @@ e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of 
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
 
---===============6886420835212886347==--
+--===============0684831807591472982==--
