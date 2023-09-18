@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 18 Sep 2023 06:10:44 -0000
-Message-Id: <169501744407.30709.10016195921415840788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 18 Sep 2023 06:10:50 -0000
+Message-Id: <169501745011.30813.17889101752279868949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: 3780bb29311eccb7a1c9641032a112eed237f7e3
-    new: 6af289746a636f71f4c0535a9801774118486c7a
+  - ref: refs/heads/for-rc
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: e57b0eef66849732e4ec28277f70e56220c53477
     log: |
-         6af289746a636f71f4c0535a9801774118486c7a dccp: fix dccp_v4_err()/dccp_v6_err() again
+         3ec648c631d27a61d8069f610251d9a752cfc6bd IB: Use capital "OR" for multiple licenses in SPDX
+         e57b0eef66849732e4ec28277f70e56220c53477 RDMA/core: Fix repeated words in comments
          
