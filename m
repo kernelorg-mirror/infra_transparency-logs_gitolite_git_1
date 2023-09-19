@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5420996695924475440=="
+Content-Type: multipart/mixed; boundary="===============7451605199363143552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 19 Sep 2023 13:25:21 -0000
-Message-Id: <169512992140.3051.15861450429348263471@gitolite.kernel.org>
+Date: Tue, 19 Sep 2023 13:25:29 -0000
+Message-Id: <169512992949.3181.12583785906842606464@gitolite.kernel.org>
 
---===============5420996695924475440==
+--===============7451605199363143552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: 06fc3b0d2251b550f530a1c42e0f9c5d022476dd
-    new: 99441a38c391b1115e405d1f47ede237fca37f1b
-    log: revlist-06fc3b0d2251-99441a38c391.txt
+    new: a8dbae76e7bc7d2294bb5d19ba81b0ef15d2d8ed
+    log: revlist-06fc3b0d2251-a8dbae76e7bc.txt
 
---===============5420996695924475440==
+--===============7451605199363143552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06fc3b0d2251-99441a38c391.txt
+Content-Disposition: attachment; filename=revlist-06fc3b0d2251-a8dbae76e7bc.txt
 
-d2f0ef1cbf37e396ef9c57a30c004ebe65cdbca9 SUNRPC: Clean up svc_set_num_threads
-6859d1f2902c600f6b1c587c91408a91e05cdc02 SUNRPC: make rqst_should_sleep() idempotent()
-2a4557452aacf9e7168cb83bc102467094ff9391 SUNRPC: Remove return value of svc_pool_wake_idle_thread()
-6372e2ee629894433fe6107d7048536a3280a284 NFSD: da_addr_body field missing in some GETDEVICEINFO replies
 07dc19dbd1d194397d7ae1c4781e203f8419b3c6 SUNRPC: Remove unused declarations
 899525e892dd165d2bb2e41f9f9d9d82574b31b5 SUNRPC: Remove unused declaration rpc_modcount()
 b38a6023da6a12b561f0421c6a5a1f7624a1529c Documentation: Add missing documentation for EXPORT_OP flags
@@ -1026,6 +1022,8 @@ e54ca3c81f2d81e4de3339873256e568f60ce076 Merge tag 'objtool-urgent-2023-09-17' o
 e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
+8d533cac92181cc1b1e451f6b22311ad1881618b s390: update defconfigs
+5c95bf274665cc9f5126e4a48a9da51114f7afd2 s390/cert_store: fix string length handling
 f3cfb875d0fd5f4af40cbb992f436ad396f69a71 s390/zcrypt: update list of EP11 operation modes
 4a1725281fc5b0009944b1c0e1d2c1dc311a09ec s390/smp,mcck: fix early IPI handling
 496bb034f4ff4866452ced7fdfaa4a0736230bdf s390/smp: disallow CPU hotplug of CPU 0
@@ -1050,5 +1048,7 @@ cce2c8606f8ed3b0285842f4ad21e906d511dba1 s390/ctlreg: allow to call system_ctl_s
 da290f4382eb98e152af59e416a08d43a5c31157 s390/irq: use CR0 defines to define CR0_IRQ_SUBCLASS_MASK
 9c66cc5609b13899ef7d143f51c59bdcfd63484d s390/ctlreg: add control register bits
 99441a38c391b1115e405d1f47ede237fca37f1b s390: use control register bit defines
+992d3e1dec765fdb41c2f2a6eb68ddc911ae8d8e Merge branch 'fixes' into for-next
+a8dbae76e7bc7d2294bb5d19ba81b0ef15d2d8ed Merge branch 'features' into for-next
 
---===============5420996695924475440==--
+--===============7451605199363143552==--
