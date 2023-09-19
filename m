@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 19 Sep 2023 08:23:46 -0000
-Message-Id: <169511182669.7222.15281086036387543444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 19 Sep 2023 08:33:15 -0000
+Message-Id: <169511239562.13878.15005300874866133739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 81760bedc65194ff38e1e4faefd5f9f0c95c19a4
-    new: 20a02837fb5e162764828f6ec1b1f75a5de3fca4
+  - ref: refs/heads/main
+    old: 6dab9dd6490791b8038b0622827ecd418439c1a3
+    new: 8070274b472e2e9f5f67a990f5e697634c415708
     log: |
-         20a02837fb5e162764828f6ec1b1f75a5de3fca4 RDMA/rtrs: Require holding rcu_read_lock explicitly
+         8070274b472e2e9f5f67a990f5e697634c415708 net: stmmac: fix incorrect rxq|txq_stats reference
          
