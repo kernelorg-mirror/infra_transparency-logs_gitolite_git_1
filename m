@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Sep 2023 10:17:56 -0000
-Message-Id: <169511867654.8374.4362169473703225010@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4533079343911734122=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 19 Sep 2023 10:20:51 -0000
+Message-Id: <169511885124.11092.12518667871466513429@gitolite.kernel.org>
+
+--===============4533079343911734122==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8070274b472e2e9f5f67a990f5e697634c415708
-    new: 5f8621c16ceda6dd93a8fd6938f7682fb78e6604
+  - ref: refs/heads/master
+    old: 3998de9d0756aa1455e2ddfa029176f1703d22ac
+    new: 68041f060bd85f1f16835a794b093aeb5099ed65
     log: |
-         bd3caddf299a640efb66c6022efed7fe744db626 net: hns3: add cmdq check for vf periodic service task
-         f9f651261130cdcb7adc9a3e365b356bc2749ab3 net: hns3: fix GRE checksum offload issue
-         f2ed304922a55690529bcca59678dd92d7466ce8 net: hns3: only enable unicast promisc when mac table full
-         1a7be66e4685b8541546222c305cce9710718a88 net: hns3: fix fail to delete tc flower rules during reset issue
-         0770063096d5da4a8e467b6e73c1646a75589628 net: hns3: add 5ms delay before clear firmware reset irq source
-         5f8621c16ceda6dd93a8fd6938f7682fb78e6604 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
+         68041f060bd85f1f16835a794b093aeb5099ed65 Linux 5.10.195
          
+
+--===============4533079343911734122==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695118850 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1695118849-4a7937430552bda90f7b3ff12d4bc8d58af33961
+
+3998de9d0756aa1455e2ddfa029176f1703d22ac 68041f060bd85f1f16835a794b093aeb5099ed65 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUJdgIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iVMQAID7Ol17Bw/1vcsJ77Xs
+dhsIPb35lsMzakO7gy68B9c7EjZPCOMo15FVhrYOpeSmqdZ86UBiGbO/8zo+GIIs
+8j/IgsiSag6+qlN3B44TMzsWc5fNu1GZ1lkIkpqi1bP6NVuXqlqS+QKox5DfQrfT
+4qnPFJwY9AbluoeBAwqAvuZaPleM4jv7nCuQfxUylkhegSpiWtZcGU4KfV56IS8v
+7EuG5kbpKuCm+q4LwZH8y21vVQiMTYecHfdnLzXyYrxWZRYcDuwsvPgnGfvah7zx
+yXfTLubDveDcRTXWPbZt0JKrvHqkYYRKoJb/ScX4iNORXxEUne1MWuRE/jVIy9oa
+fEe83g4b+BZ++aTBVuSuGzqrezzbsNw49z8fezEphczzoLENCXCS1ZSqXdt+e4rk
+ieba5yasDD2N/3wlgHJiBR6QmUHY5Kx9THpuOtCpWJoUMw3+AFNe+2SD1daEb5eN
+eAbzsPvR/oMVu4eeFwqOZSmDyXXbACk6DwKSP3ExzXDm5sKjssP9idSP8fJiDH5Q
+lk6n3N20LiTKbmwjwS3dUaCUo3qOUgNMHfJhvnSUBg0Hn3Ousx9yUDwr73K1Yi3c
+cRiwBBG7Xa3CmSKxuxifetkbZfTJLn9q9XoEm93aIsDtw+lNaDWeIS+2AM6B+lff
+O+G9nINSx5on5ts7IFs/abnc
+=iZkm
+-----END PGP SIGNATURE-----
+
+--===============4533079343911734122==--
