@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 19 Sep 2023 16:58:55 -0000
-Message-Id: <169514273583.28951.13594977714995062628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 19 Sep 2023 16:59:17 -0000
+Message-Id: <169514275732.29169.13894241259370363714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 41f1563413854c4631ceced5a56698c43dcbc43c
-    new: 1d7432bff075b639e4abdfe7b92659ec45b4e51a
+  - ref: refs/heads/for-linus
+    old: 5f66db08cbd3ca471c66bacb0282902c79db9274
+    new: 4221a2bec2189275f3f49492a73221498ae6d131
     log: |
-         842a62a75e709b3efb5020a25a225fa51748c5f9 ASoC: hdac_hda: add HDA patch loader support
-         1d7432bff075b639e4abdfe7b92659ec45b4e51a Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
+         4221a2bec2189275f3f49492a73221498ae6d131 spi: Merge up old fix
+         
+  - ref: refs/heads/for-next
+    old: baaa2957b0c6feb4ff7806b5d8e0039bd80acbdf
+    new: 3cd4dcf730c7665c8ddfeeb58bc706f67e182208
+    log: |
+         1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
+         4221a2bec2189275f3f49492a73221498ae6d131 spi: Merge up old fix
+         3cd4dcf730c7665c8ddfeeb58bc706f67e182208 Merge remote-tracking branch 'spi/for-6.7' into spi-next
          
