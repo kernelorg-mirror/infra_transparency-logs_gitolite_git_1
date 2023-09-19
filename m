@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 19 Sep 2023 14:19:07 -0000
-Message-Id: <169513314744.8711.10548114987397046951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 19 Sep 2023 14:22:05 -0000
+Message-Id: <169513332556.11460.2417845083447964772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/urgent
-    old: 52c34f16245f6e12c6880e7aeaf14e410f7047b6
-    new: 755c5c46b996b0e8583329b8c30e95823e0f551a
+  - ref: refs/heads/for-next
+    old: bff63aa59a95732f61357f20c61aee284cfb9a20
+    new: c2fc7a131e512a56fbedf7865086d6f6746d5a29
     log: |
-         755c5c46b996b0e8583329b8c30e95823e0f551a efi/unaccepted: Make sure unaccepted table is mapped in crashkernel case
+         c2fc7a131e512a56fbedf7865086d6f6746d5a29 parisc: Fix crash with nr_cpus=1 option
          
