@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 19 Sep 2023 09:31:00 -0000
-Message-Id: <169511586094.24604.3239882492735702617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 19 Sep 2023 09:33:04 -0000
+Message-Id: <169511598425.25419.3319438094183040635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 20a02837fb5e162764828f6ec1b1f75a5de3fca4
-    new: c5930a1aa08aafe6ffe15b5d28fe875f88f6ac86
+  - ref: refs/heads/master
+    old: 5bfdb4fbf348f9e1935a6e9c64e7f60cb913fb21
+    new: aec42f36237b09e42eac39f6c74305aec02b4694
     log: |
-         c5930a1aa08aafe6ffe15b5d28fe875f88f6ac86 RDMA/rtrs: Fix the problem of variable not initialized fully
+         aec42f36237b09e42eac39f6c74305aec02b4694 bpf: Remove unused variables.
          
