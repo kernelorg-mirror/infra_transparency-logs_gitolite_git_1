@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 19 Sep 2023 13:26:22 -0000
-Message-Id: <169512998201.3564.5222305566420838221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 19 Sep 2023 13:54:30 -0000
+Message-Id: <169513167094.22840.17639982482162826351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/spi-6.6
-    old: 5f66db08cbd3ca471c66bacb0282902c79db9274
-    new: 4221a2bec2189275f3f49492a73221498ae6d131
+  - ref: refs/heads/kdevops
+    old: c4645ef3d95dc93625ce1bca717965b25b8e3d6c
+    new: 2a0bf0dfef5cbfd85f9b0749e71cceb7bf35054f
     log: |
-         1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
-         4221a2bec2189275f3f49492a73221498ae6d131 spi: Merge up old fix
+         0b4cbb6924ecf459c12b2b5ff4370ae29a276fee nfs: decrement nrequests counter before releasing the req
+         2a0bf0dfef5cbfd85f9b0749e71cceb7bf35054f fs: add bounds checking when updating ctime
          
