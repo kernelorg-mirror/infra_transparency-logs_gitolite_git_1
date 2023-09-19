@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
-Date: Tue, 19 Sep 2023 06:31:16 -0000
-Message-Id: <169510507663.23081.1664392481023997141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 19 Sep 2023 07:33:39 -0000
+Message-Id: <169510881901.2696.2565833943251904095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next-history
-user: sfr
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: ec4bc4615ba2b73deb7406560b67b5fe01fc787b
-    new: 29e400e3ea486bf942b214769fc9778098114113
+  - ref: refs/heads/for-next
+    old: e57b0eef66849732e4ec28277f70e56220c53477
+    new: 4ececeb839868ad235515f5bb332530f2ac11253
     log: |
-         29e400e3ea486bf942b214769fc9778098114113 Add linux-next specific files for 20230919
-         
-  - ref: refs/tags/next-20230919
-    old: d0cfc43173de1a537009cdaa84ab1cbdf214d4ce
-    new: 1d3e6aa5eefdeb716ed8cc3032e6fd562a4b89df
-    log: |
-         29e400e3ea486bf942b214769fc9778098114113 Add linux-next specific files for 20230919
+         4ececeb839868ad235515f5bb332530f2ac11253 IB/hfi1: Remove open coded reference to skb frag offset
          
