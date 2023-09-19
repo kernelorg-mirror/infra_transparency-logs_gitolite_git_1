@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 19 Sep 2023 00:40:46 -0000
-Message-Id: <169508404649.23173.6642888791022571323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 19 Sep 2023 01:09:45 -0000
+Message-Id: <169508578545.14933.14233762400126985387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/dev-test
-    old: 75a5221630fe5aa3fedba7a06be618db0f79ba1e
-    new: f939aeea7ab7d96cd321e7ac107f5a070836b66f
+  - ref: refs/heads/rproc-next
+    old: 9af45bbdcbbbb411b6b7440220593a46282fd64b
+    new: 796a35f19400bab757b4325e05ec4333d27028fa
     log: |
-         f939aeea7ab7d96cd321e7ac107f5a070836b66f erofs: allow empty device tags in flatdev mode
-         
-  - ref: refs/heads/fixes
-    old: 75a5221630fe5aa3fedba7a06be618db0f79ba1e
-    new: f939aeea7ab7d96cd321e7ac107f5a070836b66f
-    log: |
-         f939aeea7ab7d96cd321e7ac107f5a070836b66f erofs: allow empty device tags in flatdev mode
+         796a35f19400bab757b4325e05ec4333d27028fa arm64: dts: mediatek: Update the node name of SCP rpmsg subnode
          
