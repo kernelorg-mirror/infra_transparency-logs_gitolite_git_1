@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0836886610000561087=="
+Content-Type: multipart/mixed; boundary="===============5420996695924475440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 19 Sep 2023 13:25:15 -0000
-Message-Id: <169512991574.2934.16996262614213117221@gitolite.kernel.org>
+Date: Tue, 19 Sep 2023 13:25:21 -0000
+Message-Id: <169512992140.3051.15861450429348263471@gitolite.kernel.org>
 
---===============0836886610000561087==
+--===============5420996695924475440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: e5b7ca09e9aa4d483ab84c5f2ba88f0cc7c66540
-    new: 5c95bf274665cc9f5126e4a48a9da51114f7afd2
-    log: revlist-e5b7ca09e9aa-5c95bf274665.txt
+  - ref: refs/heads/features
+    old: 06fc3b0d2251b550f530a1c42e0f9c5d022476dd
+    new: 99441a38c391b1115e405d1f47ede237fca37f1b
+    log: revlist-06fc3b0d2251-99441a38c391.txt
 
---===============0836886610000561087==
+--===============5420996695924475440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5b7ca09e9aa-5c95bf274665.txt
+Content-Disposition: attachment; filename=revlist-06fc3b0d2251-99441a38c391.txt
 
-3275694adf0f89e1cdcacfee16103be6643c2a0c SUNRPC: change svc_pool::sp_flags bits to enum
-a6b4ec39036fd78b95205eef3be121454b7d2973 SUNRPC: change svc_rqst::rq_flags bits to enum
-d75e490f35601aae12c7284d3c22684c65fb8354 SUNRPC: change svc_xprt::xpt_flags bits to enum
-78c542f916bccafffef4f3bec9bc60d7cda548f5 SUNRPC: Add enum svc_auth_status
-82e5d82a45741839bd9dcb6636cfcf67747a5af5 SUNRPC: Move trace_svc_xprt_enqueue
-850bac3ae4a636e9e6bb8de62fe697ac171cb221 SUNRPC: Deduplicate thread wake-up code
-f208e9508ace01864f2b37a45d07cda0641ff3ea SUNRPC: Count ingress RPC messages per svc_pool
 d2f0ef1cbf37e396ef9c57a30c004ebe65cdbca9 SUNRPC: Clean up svc_set_num_threads
 6859d1f2902c600f6b1c587c91408a91e05cdc02 SUNRPC: make rqst_should_sleep() idempotent()
 2a4557452aacf9e7168cb83bc102467094ff9391 SUNRPC: Remove return value of svc_pool_wake_idle_thread()
@@ -58,17 +51,6 @@ be4033d36070e44fba766a21ef2d0c24fa04c377 docs/bpf: Add description for CO-RE rel
 0d6b35283bcf1a379cf20066544af8e6a6b16b46 sched/core: Report correct state for TASK_IDLE | TASK_FREEZABLE
 e8f13e061d75ed0eeaaf599532a6b197f195d5f3 x86/audit: Fix -Wmissing-variable-declarations warning for ia32_xyz_class
 e4da8c78973c1e307c0431e0b99a969ffb8aa3f1 net: ipv4, ipv6: fix IPSTATS_MIB_OUTOCTETS increment duplicated
-67ce50ce01d8abfa36612bcef9ec56e37b9fc247 s390/monreader: fix virtual vs physical address confusion
-789dd8cb1eb1503c8167bf2ffc88f74a70245044 s390/dcssblk: fix lockdep warning
-7b03942ff33c3b242eb4b52d83dac8fa106c063c s390/vmem: fix virtual vs physical address confusion
-b6f10e2f66e43b903b1f37b643d353fe364190cd s390: remove "noexec" option
-c0f1d478121131c2a97cab24148bf7ebb7ed3434 s390/mm: simplify kernel mapping setup
-3eeb07788ff05b30e2ddad39561d53495563e63a s390/amode31: change type of __samode31, __eamode31, etc
-a6e49f10f4411ec87f16ccb1b0ce5ea7e4a04a95 s390/mm: improve description of mapping permissions of prefix pages
-c22a4c8aaf60780ce21fb2b5c8019e12457ee949 s390/set_memory: generate all set_memory() functions
-850612c8e4fb048905af597cbd25dfbb40d9ffdf s390/set_memory: add __set_memory() variant
-a7eb28801b692df2496e21ff9af6ab0dc1969133 s390/mm: use __set_memory() variants where useful
-acf00b5ef9f83069ddbea274ab32931f8573e98b s390/airq: remove lsi_mask from airq_struct
 fb5a4315591dae307a65fc246ca80b5159d296e1 dma-debug: don't call __dma_entry_alloc_check_leak() under free_entries_lock
 9d1785590bbbb69833eae50c136267fce824515d Merge tag 'md-next-20230814-resend' into loongarch-next
 cd59cdefc2f101bfc99ee5bd38512ebba7b75471 rbd: use list_for_each_entry() helper
@@ -617,10 +599,6 @@ cf60ce92358da29f3b1e24005f7b748584b82753 of: overlay: Fix of_overlay_fdt_apply p
 2562d67b1bdf91c7395b0225d60fdeb26b4bc5a0 revert "memfd: improve userspace warnings for missing exec-related flags".
 d256d1cd8da1cbc4615de69df71c87ce623fec2f mm: memory-failure: use rcu lock instead of tasklist_lock when collect_procs()
 f4b4f3ec1a310c3de9797271a9c06b7499470d69 sparc64: add missing initialization of folio in tlb_batch_add()
-08d90f46c7ddff0cbd3fefbddf1d2bd53ce4b477 s390/mm: fix MAX_DMA_ADDRESS physical vs virtual confusion
-6252f47b78031979ad919f971dc8468b893488bd s390/zcrypt: don't leak memory if dev_set_name() fails
-f59ec04d382d2f2528f439947e215a52703e0094 s390/zcrypt: utilize dev_set_name() ability to use a formatted string
-06fc3b0d2251b550f530a1c42e0f9c5d022476dd s390/vmem: do not silently ignore mapping limit
 6155a3b88573757de2649197af30f0e71a12aafe Merge tag 'tpmdd-v6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 2810c1e99867a811e631dd24e63e6c1e3b78a59d kunit: Fix wild-memory-access bug in kunit_free_suite_set()
 4b00920da1dd2bbb33baeb2e7b9808af4c68de97 kunit: Fix the wrong err path and add goto labels in kunit_filter_suites()
@@ -1048,7 +1026,29 @@ e54ca3c81f2d81e4de3339873256e568f60ce076 Merge tag 'objtool-urgent-2023-09-17' o
 e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
-8d533cac92181cc1b1e451f6b22311ad1881618b s390: update defconfigs
-5c95bf274665cc9f5126e4a48a9da51114f7afd2 s390/cert_store: fix string length handling
+f3cfb875d0fd5f4af40cbb992f436ad396f69a71 s390/zcrypt: update list of EP11 operation modes
+4a1725281fc5b0009944b1c0e1d2c1dc311a09ec s390/smp,mcck: fix early IPI handling
+496bb034f4ff4866452ced7fdfaa4a0736230bdf s390/smp: disallow CPU hotplug of CPU 0
+3570ee046c46b5dc3d077e3e60616b141a221027 s390/smp: keep the original lowcore for CPU 0
+aa36d433b79657c1fed31ff5ae2bbd6f7bc123aa s390/setup: use strlcat() instead of strcat()
+0c4d01f3952911b766e6394e0053146c24c98357 s390/ctlreg: move control register code to separate file
+ebe1cd530fb2f6450656758bd904cfb5767f8d33 s390/ctlreg: rename ctl_reg.h to ctlreg.h
+a74e4fc168d284e1e4e7296f8cf4b884035ebd45 s390/ctlreg: cleanup inline assemblies
+8d5e98f8d6b11dd0e61323ece3b7ccceea55c281 s390/ctlreg: add local and system prefix to some functions
+dfa33ce1245a4b88402947fa0a847e179044d2fc s390/ctlreg: add local_ctl_load() and local_ctl_store()
+2372d391421350e318c98844d21ab9ad16e3eac0 s390/ctlreg: use local_ctl_load() and local_ctl_store() where possible
+80725978260ff823e1c442e75d66cf1b61684bba s390/ctlreg: change parameters of __local_ctl_load() and __local_ctl_store()
+4b440e01da51da0cc651c06a036b8914b7b61ccf s390/kprobes,ptrace: open code struct per_reg
+ecc53818f60447177e24ea11b7f136c405150976 s390/ctlreg: add type checking to __local_ctl_load() and __local_ctl_store()
+527618abb92793b9d4dba548d55822dcebd95317 s390/ctlreg: add struct ctlreg
+d11d5c8c8426a4abdcb2252999f1b57e3aa79e5b s390/ctltreg: make initialization of control register save area explicit
+cce2c8606f8ed3b0285842f4ad21e906d511dba1 s390/ctlreg: allow to call system_ctl_set/clear_bit() early
+103dde702d698c2e17529550650407a386711cdf s390/early: use system_ctl_set_bit() instead of local_ctl_set_bit()
+305a5551af34e1848d80e095c23e94c985cc4ebc s390/ctlreg: add system_ctl_load()
+0b6529e3dc1c60565f10ccf40533b127ab3262a1 s390/setup: make use of system_ctl_load()
+4f4cee9619edc877e8da913193968497e4e42cee s390/ctlreg: add missing defines
+da290f4382eb98e152af59e416a08d43a5c31157 s390/irq: use CR0 defines to define CR0_IRQ_SUBCLASS_MASK
+9c66cc5609b13899ef7d143f51c59bdcfd63484d s390/ctlreg: add control register bits
+99441a38c391b1115e405d1f47ede237fca37f1b s390: use control register bit defines
 
---===============0836886610000561087==--
+--===============5420996695924475440==--
