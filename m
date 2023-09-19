@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6595402881334897773=="
+Content-Type: multipart/mixed; boundary="===============8349882512480625583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 19 Sep 2023 09:11:03 -0000
-Message-Id: <169511466305.10541.10570222128563069268@gitolite.kernel.org>
+Date: Tue, 19 Sep 2023 09:11:19 -0000
+Message-Id: <169511467981.10721.17804613845305512407@gitolite.kernel.org>
 
---===============6595402881334897773==
+--===============8349882512480625583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c720bf3a88f9c4b466e8a56c8a69aec8e15f2e95
     new: 5bfdb4fbf348f9e1935a6e9c64e7f60cb913fb21
     log: revlist-c720bf3a88f9-5bfdb4fbf348.txt
 
---===============6595402881334897773==
+--===============8349882512480625583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -813,4 +813,4 @@ a5ea26536e89d04485aa9e1c8f60ba11dfc5469e Merge branch 'stmmac-devvm_stmmac_probe
 7d3460632da2c2ad5c5708db82a0b72e2b66396c bpf: Fix bpf_throw warning on 32-bit arch
 5bfdb4fbf348f9e1935a6e9c64e7f60cb913fb21 bpf: Disable exceptions when CONFIG_UNWINDER_FRAME_POINTER=y
 
---===============6595402881334897773==--
+--===============8349882512480625583==--
