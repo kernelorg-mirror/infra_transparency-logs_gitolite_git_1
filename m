@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 19 Sep 2023 16:51:11 -0000
-Message-Id: <169514227143.24317.16429291159248500456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 19 Sep 2023 16:57:55 -0000
+Message-Id: <169514267521.28304.1906274200848538676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 773dbc2debe9d4260e7f273bfe515c3cc50f63b2
-    new: 916d0a77a518da1e9bc0e6f880980567c263217d
-    log: |
-         916d0a77a518da1e9bc0e6f880980567c263217d foo
-         
+  - ref: refs/heads/filelcHtAu
+    old: 842a62a75e709b3efb5020a25a225fa51748c5f9
+    new: 0000000000000000000000000000000000000000
