@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1329910091777982147=="
+Content-Type: multipart/mixed; boundary="===============0641160093643185024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 19 Sep 2023 06:26:52 -0000
-Message-Id: <169510481290.19241.5860006158481577742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 19 Sep 2023 06:27:08 -0000
+Message-Id: <169510482845.19453.6979064492702921848@gitolite.kernel.org>
 
---===============1329910091777982147==
+--===============0641160093643185024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 7fc7222d9680366edeecc219c21ca96310bdbc10
     new: ec4bc4615ba2b73deb7406560b67b5fe01fc787b
     log: revlist-7fc7222d9680-ec4bc4615ba2.txt
-  - ref: refs/heads/stable
-    old: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    new: 2cf0f715623872823a72e451243bbf555d10d032
-    log: revlist-ce9ecca0238b-2cf0f7156238.txt
-  - ref: refs/tags/next-20230619
-    old: fa162203a722d6ad4359275de0963b0827de98cd
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230919
     old: 0000000000000000000000000000000000000000
     new: d0cfc43173de1a537009cdaa84ab1cbdf214d4ce
 
---===============1329910091777982147==
+--===============0641160093643185024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,29 +1054,4 @@ ae7d5d95a33db299cddeda396078b3d4b32dbe73 Revert "bpf: remove CONFIG_BPF_JIT depe
 221a3ad580452e367b9cc7bd99b308fb20be8fac Revert "powerpc: extend execmem_params for kprobes allocations"
 ec4bc4615ba2b73deb7406560b67b5fe01fc787b Add linux-next specific files for 20230919
 
---===============1329910091777982147==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce9ecca0238b-2cf0f7156238.txt
-
-954998b60caa8f2a3bf3abe490de6f08d283687a NFS: Fix error handling for O_DIRECT write scheduling
-7c6339322ce0c6128acbe36aacc1eeb986dd7bf1 NFS: Fix O_DIRECT locking issues
-8982f7aff39fb526aba4441fff2525fcedd5e1a3 NFS: More O_DIRECT accounting fixes for error paths
-b193a78ddb5ee7dba074d3f28dc050069ba083c0 NFS: Use the correct commit info in nfs_join_page_group()
-b11243f720ee5f9376861099019c8542969b6318 NFS: More fixes for nfs_direct_write_reschedule_io()
-dd7d7ee3ba2a70d12d02defb478790cf57d5b87b NFS/pNFS: Report EINVAL errors from connect() to the server
-611fa42dfa9d2f3918ac5f4dd5705dfad81b323d SUNRPC: Mark the cred for revalidation if the server rejects it
-e86fcf0820d914389b46658a5a7e8969c3af2d53 Revert "SUNRPC: Fail faster on bad verifier"
-806a3bc421a115fbb287c1efce63a48c54ee804b NFSv4.1: fix pnfs MDS=DS session trunking
-4506f23e117161a20104c8fa04f33e1ca63c26af NFSv4.1: fix zero value filehandle in post open getattr
-c656a4d5484ad99e97de549a9affc12a91d94963 Revert "SUNRPC: clean up integer overflow check"
-993b5662f302628db4eb358d69b2720c88cbfaf0 SUNRPC: Silence compiler complaints about tautological comparisons
-52954b750958dcab9e44935f0c32643279091c85 gfs2: Fix another freeze/thaw hang
-62862485a4c3a52029fc30f4bdde9af04afdafc9 gfs2: fix glock shrinker ref issues
-fb95d536080e6c1db099f0023f59cd55adcc5d87 gfs2: Fix quota=quiet oversight
-a49d273e579615ed63d0347f94075dd22b9458a3 Merge tag 'gfs2-v6.6-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-df1c357f25d808e30b216188330e708e09e1a412 netfs: Only call folio_start_fscache() one time for each folio
-2cf0f715623872823a72e451243bbf555d10d032 Merge tag 'nfs-for-6.6-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-
---===============1329910091777982147==--
+--===============0641160093643185024==--
