@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0561634160030317110=="
+Content-Type: multipart/mixed; boundary="===============0836886610000561087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 19 Sep 2023 13:23:56 -0000
-Message-Id: <169512983657.661.12014526086496323329@gitolite.kernel.org>
+Date: Tue, 19 Sep 2023 13:25:15 -0000
+Message-Id: <169512991574.2934.16996262614213117221@gitolite.kernel.org>
 
---===============0561634160030317110==
+--===============0836886610000561087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: e5b7ca09e9aa4d483ab84c5f2ba88f0cc7c66540
-    new: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    log: revlist-e5b7ca09e9aa-ce9ecca0238b.txt
+    new: 5c95bf274665cc9f5126e4a48a9da51114f7afd2
+    log: revlist-e5b7ca09e9aa-5c95bf274665.txt
 
---===============0561634160030317110==
+--===============0836886610000561087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5b7ca09e9aa-ce9ecca0238b.txt
+Content-Disposition: attachment; filename=revlist-e5b7ca09e9aa-5c95bf274665.txt
 
-c743b4259c3af2c0637c307f08a062d25fa3c99f SUNRPC: remove timeout arg from svc_recv()
-ba4bba6c97d40fa9f2aa25a34f6e9717a468c8f3 SUNRPC: change cache_head.flags bits to enum
 3275694adf0f89e1cdcacfee16103be6643c2a0c SUNRPC: change svc_pool::sp_flags bits to enum
 a6b4ec39036fd78b95205eef3be121454b7d2973 SUNRPC: change svc_rqst::rq_flags bits to enum
 d75e490f35601aae12c7284d3c22684c65fb8354 SUNRPC: change svc_xprt::xpt_flags bits to enum
@@ -1050,5 +1048,7 @@ e54ca3c81f2d81e4de3339873256e568f60ce076 Merge tag 'objtool-urgent-2023-09-17' o
 e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
+8d533cac92181cc1b1e451f6b22311ad1881618b s390: update defconfigs
+5c95bf274665cc9f5126e4a48a9da51114f7afd2 s390/cert_store: fix string length handling
 
---===============0561634160030317110==--
+--===============0836886610000561087==--
