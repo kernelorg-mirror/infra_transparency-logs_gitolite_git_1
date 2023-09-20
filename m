@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 20 Sep 2023 17:36:09 -0000
-Message-Id: <169523136986.25283.8764515380015784660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Wed, 20 Sep 2023 17:47:43 -0000
+Message-Id: <169523206370.1695.14460494185170387069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: 4bb66bc4bd6442d40ef4093f829d8945cb37b870
-    new: 1bf49db03f74a9218af7c765176955540cbd7aae
+  - ref: refs/heads/main
+    old: 946753a4459bd035132a27bb2eb87529c1979b90
+    new: e8a3fca81cd4b8fee14cfb14a5ce9c1b3b63e797
     log: |
-         1bf49db03f74a9218af7c765176955540cbd7aae Wed Sep 20 05:34:55 PM UTC 2023
+         4d80122ae82aea86cb740b5202f6c3fde6183538 bridge: fix potential snprintf overflow
+         e8a3fca81cd4b8fee14cfb14a5ce9c1b3b63e797 ila: fix potential snprintf buffer overflow
          
