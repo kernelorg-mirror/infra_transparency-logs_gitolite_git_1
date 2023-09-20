@@ -1,98 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============4505866270132199879=="
+Content-Type: multipart/mixed; boundary="===============5868974219199901957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 20 Sep 2023 08:48:21 -0000
-Message-Id: <169519970100.589.10950305093875871959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Wed, 20 Sep 2023 08:50:48 -0000
+Message-Id: <169519984841.1994.1475685868898275476@gitolite.kernel.org>
 
---===============4505866270132199879==
+--===============5868974219199901957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: ggreenman
 changes:
-  - ref: refs/heads/xfrm-next
-    old: 14849fb3a59bffec89844b1abaef751f70e9d5f6
-    new: 544c33f4f78a95e95b8f6e19e537db079d51a540
-    log: revlist-14849fb3a59b-544c33f4f78a.txt
+  - ref: refs/heads/pending
+    old: 6603af2c5e526dddbbc8cb85ce92ab2de5c1860d
+    new: 3d8497a3e16f4fd55a8732ab71b01f0feb9c4d89
+    log: revlist-6603af2c5e52-3d8497a3e16f.txt
 
---===============4505866270132199879==
+--===============5868974219199901957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14849fb3a59b-544c33f4f78a.txt
+Content-Disposition: attachment; filename=revlist-6603af2c5e52-3d8497a3e16f.txt
 
-3c000faaaa65038b06261df1d3223b42f699e957 net: ethernet: 8390: Convert to platform remove callback returning void
-d8c6b3fc918dd7b93c66e49ff8640746b84fbfe9 net: ethernet: actions: Convert to platform remove callback returning void
-a0fbde8f647b14d744cd2c5ec26862beb56a4344 net: ethernet: aeroflex: Convert to platform remove callback returning void
-9f07797c332e62f83072ca7abcde99fefc4d6e2e net: ethernet: allwinner: Convert to platform remove callback returning void
-d0b0245b84c98dc1894bc6b1553ca08da655266b net: ethernet: altera: Convert to platform remove callback returning void
-9ecae52f7db455d9c8cfafb48e2ef19ff2fbe906 net: ethernet: amd: Convert to platform remove callback returning void
-61471264c01887711923e7e310826e6037c4a431 net: ethernet: apm: Convert to platform remove callback returning void
-e5d0a380b2b470cee8c9af59a3dca2e2d9646b36 net: ethernet: apple: Convert to platform remove callback returning void
-de0afa130ed614745747407b66d11d3e6ab6871f net: ethernet: arc: Convert to platform remove callback returning void
-c6e817838902f554dedbf426377778ee56f006b2 net: ethernet: atheros: Convert to platform remove callback returning void
-d4295df3e0431eec484a63d26690a22c3dc5e0d2 net: ethernet: broadcom: Convert to platform remove callback returning void
-6b5940402f9c9c58136d2d4879f2b67f804943dc net: ethernet: cadence: Convert to platform remove callback returning void
-ca76b17922e67f07ed72dba200241c45c8a85ec6 net: ethernet: calxeda: Convert to platform remove callback returning void
-de413f46a56e7e4d2d53384bb8afb1680bf98661 net: ethernet: cavium: Convert to platform remove callback returning void
-8ca0ae6a2ec74852482c05e993870a3dad0fa4ac net: ethernet: cirrus: Convert to platform remove callback returning void
-1f69574b5cba7a7495541b58aa798f4952fe62dd net: ethernet: cortina: Convert to platform remove callback returning void
-ffb928290ba5d9d1b2a9768306dc3f9d2bb93717 net: ethernet: davicom: Convert to platform remove callback returning void
-5db6c1fed1f9475726271c7e2459e26383c07689 net: ethernet: dnet: Convert to platform remove callback returning void
-d2e6c2ea996e9da8df65ba68d50d8c0ea38373e4 net: ethernet: engleder: Convert to platform remove callback returning void
-4cc08098d1970815e84629c271c21bd915f092db net: ethernet: ethoc: Convert to platform remove callback returning void
-dc715af33b42f5a99c49d8aef9ea75cf8d71e570 net: ethernet: faraday: Convert to platform remove callback returning void
-e5835a0a51196f899eda2badad15469c2904aed1 net: ethernet: hisilicon: Convert to platform remove callback returning void
-e5a6d397ca2e4b19c04790babf1643c5476a66d2 net: ethernet: i825xx: Convert to platform remove callback returning void
-ac35a3c4c8da0b931888cd9a82721a413215adba net: ethernet: ibm: Convert to platform remove callback returning void
-551598a120d1445ebc7a54f4ca75e609773f5e6a net: ethernet: korina: Convert to platform remove callback returning void
-e791aa06a2dd07f25560c36d1846c5b665ae0745 net: ethernet: lantiq_etop: Convert to platform remove callback returning void
-adbb270655a1a17058d2ab42cda59cf52772169d net: ethernet: lantiq_xrx200: Convert to platform remove callback returning void
-36b80b8353afecec8167d1c440df0f1f0f384d1e net: ethernet: litex: Convert to platform remove callback returning void
-fee02f498c9a0d4ac92fc3188b680f475dd1a362 net: ethernet: marvell: Convert to platform remove callback returning void
-5b6ce1734d9d90e9fcde58ba3ace57c742de4db2 net: ethernet: mediatek: Convert to platform remove callback returning void
-e184700959ecebf56c84ba94e29f369050c3e5d5 net: ethernet: mellanox: Convert to platform remove callback returning void
-bae04ae2be07a714c9f37f92f4119578b68ec3aa net: ethernet: micrel: Convert to platform remove callback returning void
-5253ae3a6223be467461d183c3836b6eb3e22258 net: ethernet: microchip: Convert to platform remove callback returning void
-253f9c47273d71391225131b9f5c12d469de7549 net: ethernet: moxa:: Convert to platform remove callback returning void
-0eaca7a9e9d68783f91c8b72e02690d65e144172 net: ethernet: mscc: Convert to platform remove callback returning void
-9f0243d9bcc4e61b2de84c20b8ace17f2ed7a130 net: ethernet: natsemi: Convert to platform remove callback returning void
-b83fb509c758de30aa34bc1ffd716279b6578cad net: ethernet: natsemi: Convert to platform remove callback returning void
-0f09f4e7d40113a2bb4812d4700ead0e69e37894 net: ethernet: ni: Convert to platform remove callback returning void
-241882d79f998f0ac6749a5a62682e883faf88ff net: ethernet: nxp: Convert to platform remove callback returning void
-5180236592b9c692ff0c5c2d59b63227f78c7011 net: ethernet: qualcomm: Convert to platform remove callback returning void
-0b4f04e2f60b435ff2457620551957418ac1ee0f net: ethernet: renesas: Convert to platform remove callback returning void
-6e8b0ef7b389cb0dad357b725bdc79d43da0f2bf net: ethernet: samsung: Convert to platform remove callback returning void
-02c74030beff381ea2c942c1d3bbef70d6fbbe53 net: ethernet: seeq: Convert to platform remove callback returning void
-506a327ceaaa6cd627bfb0c96a1890ed05d10224 net: ethernet: sgi: Convert to platform remove callback returning void
-e8e2c863f941e8f34fee2a11fd9d152a35d3ccdd net: ethernet: smsc: Convert to platform remove callback returning void
-d3cd32451c7ea7f9b6b98152fd34f239fc144423 net: ethernet: socionext: Convert to platform remove callback returning void
-8f4e45a0135ea957af374b00cc30ef52bd93f85f net: ethernet: sun: Convert to platform remove callback returning void
-ede778ed3ea9c567d818f8543b057a4744bf2dd1 net: ethernet: sunplus: Convert to platform remove callback returning void
-231ea972ccaf5b4e8909232ac539cb44441f186f net: ethernet: ti: Convert to platform remove callback returning void
-2f961952e19e0d92756584d8cefeedc5d67aa84f net: ethernet: tundra: Convert to platform remove callback returning void
-70680f17828048ddcf293de729970973cd3831ab net: ethernet: via: Convert to platform remove callback returning void
-46b5668494d0d1fb0c08546a81e5d0ab8e6084d5 net: ethernet: wiznet: Convert to platform remove callback returning void
-2e0ec0afa9025abaff214e1023fb11742e7a5cc8 net: ethernet: xilinx: Convert to platform remove callback returning void
-d74a5c154b6fab303023e46e7cc1b14c3f3cabd9 net: ethernet: xscale: Convert to platform remove callback returning void
-6f0b985d3545e1b1fe58318ef09808ae7aa0c470 Merge branch 'net-platform-remove-void'
-f6630cae97d94efc23add3f17bc8940277db1ae2 RDMA/mlx5: Send events from IB driver about device affiliation state
-f249bc8595cca0bc4d1de3cf613278106c8221dd net/mlx5: Register mlx5e priv to devcom in MPV mode
-8ad51bf43225585e93b245c0670163fd85b3ed5a net/mlx5: Store devcom pointer inside IPsec RoCE
-92e274e6eb3b69d82aaa11d82a546aa483aa69bc net/mlx5: Add alias flow table bits
-4ac46401cb2af59bae029cde0ed22ab61b773edd net/mlx5: Implement alias object allow and create functions
-4039d738064c5ac18ccd36b58bc65d8115ea7c91 net/mlx5: Add create alias flow table function to ipsec roce
-43a5beb990c4cccbba0a7fd8afd3f1695646f899 net/mlx5: Configure IPsec steering for egress RoCEv2 MPV traffic
-5d5f5529768cf01cb5b635c9ca2a7d79f1d82c81 net/mlx5: Configure IPsec steering for ingress RoCEv2 MPV traffic
-5df1c766aa7208a35c58b725efbfb20a583fadbd net/mlx5: Handle IPsec steering upon master unbind/bind
-31957f5be7a854f65cd0c242cce800205d28d4fc net/mlx5e: Allow IPsec soft/hard limits in bytes
-73e251cc225eb1256676b2b5da466c57ce0b1622 net/mlx5e: Honor user choice of IPsec replay window size
-7d290ceec8852ccde973ca2e383f943b87f74b16 workqueue: Removed double allocation of wq_update_pod_attrs_buf
-544c33f4f78a95e95b8f6e19e537db079d51a540 net/mlx5e: Ensure that IPsec sequence packet number starts from 1
+ddd7f45c899f7524bdbe6a32fe4906cde8b07b9b wifi: cfg80211: save power spectral density(psd) of regulatory rule
+b7bcea9c27b3d87b54075735c870500123582145 wifi: cw1200: Avoid processing an invalid TIM IE
+74b45618f5342ce519ec39659b217a22570420dd wifi: rtw89: 52c: rfk: refine MCC channel info notification
+c83ff9a3a2ca1146dae0fdcb2e518ea83fc0e42d wifi: rtw89: rfk: disable driver tracking during MCC
+6e9d6f8254ee4fd737b954a3d9cf70360d211dbf wifi: rtw89: 52c: rfk: disable DPK during MCC
+31e415e3d08a3fe2cde555333a4ca3da6f483ef9 wifi: rtw89: mcc: update role bitmap when changed
+5f69aabab12603201bb5101ad195160ce7e779b0 wifi: rtw89: mcc: track beacon offset and update when needed
+15fe9b731953ace45e3edb3fdd3c3fc0c9250d22 wifi: rtw89: mcc: deal with P2P PS change
+9ecb40ef5281eeb5eb06ca6b428f4142987ce0cb wifi: rtw89: mcc: deal with BT slot change
+97211e02631312f10b33d2b1e2ee37a3ab0813ef wifi: rtw89: mcc: deal with beacon NoA if GO exists
+a1cb73f2953904139cb04cbb530c8ef41e540808 wifi: rtw89: add to query RX descriptor format v2
+6f09ff0a0927b464256f6e6b3fcd289c66bff6c6 wifi: rtw89: add to fill TX descriptor for firmware command v2
+d542ee748ec3bb56ff87159dc4a745b98c2c8576 wifi: rtw89: add to fill TX descriptor v2
+c8b9a49f7a3dc2eafe61f8d4bd7924b328e1a260 wifi: rtw89: add chip_info::txwd_info size to generalize TX WD submit
+651298138e42555be2824ae8a9f69db8a2185537 wifi: rtw89: consolidate registers of mac port to struct
+7c8a55dd265b2801e5d133435edb4422d5ff6ab8 wifi: rtw89: add mac_gen pointer to access mac port registers
+c35642806830e8667d4f3ff5eab99afbc8c88094 wifi: rtl8xxxu: Add a description about the device ID 0x7392:0xb722
+f00928012886a07ca6817ea70eb4856ce280ce05 wifi: wlcore: Convert to platform remove callback returning void
+43ef01920556d52f404172d09115adf3f4b266e8 wifi: mac80211: use bandwidth indication element for CSA
+2dde4da246b28c740315ece803bb5bec72bf1110 wifi: mac80211: update the rx_chains after set_antenna()
+e5001a762a4afc384fc17d8bed3930ce6e9d5154 wifi: mac80211: don't connect to an AP while it's in a CSA process
+858921bd28604d0993d843ed0cc24bc0bc2dc753 wifi: mac80211: relax RCU check in for_each_vif_active_link()
+73c3e04985f40bfea1fd6d28b24973643644c620 wifi: mac80211: allow for_each_sta_active_link() under RCU
+8b1e45c8bab8f1ebb105ae1df15ebb69c76de4bb wifi: cfg80211: reg: describe return values in kernel-doc
+79307c34172382adab666e7bec27cd1bc97681bf wifi: mac80211: describe return values in kernel-doc
+7f5951a8e327526c9f19c19cb938ceadad6f9199 wifi: mac80211_hwsim: move kernel-doc description
+7a593e3aff6c264371f57be6c7261e278a3ef07a wifi: cfg80211: Fix 6GHz scan configuration
+e5dcba6ec22a29714055eb65a1cf717e2b5be152 wifi: mac80211: work around Cisco AP 9115 VHT MPDU length
+ae2a8d7d932e4652a11355301b725d11a958652a wifi: mac80211: Notify the low level driver on change in MLO valid links
+a51c82a5210cb2f742d821672b1906474a4b29c3 wifi: mac80211_hwsim: Handle BSS_CHANGED_VALID_LINKS
+f3b2ae55499a59de034c83d834475bc95330ed33 wifi: mac80211: add support for parsing TID to Link mapping element
+f9dd5e3927ca4b6296de6091afd40261ccd879d3 wifi: mac80211: support handling of advertised TID-to-link mapping
+ab325c67a04df9859bb21a20941e7272c8b530a1 wifi: mac80211: support antenna control in injection
+5b39b3215ef82f6e1fbe7c233f13b63ed7cdba07 wifi: cfg80211: report per-link errors during association
+30b6b0397d93f48e016e217929e2e99a1e51dfce wifi: mac80211: report per-link error during association
+fb742890263014581fdab5dc57adda4316103ed4 wifi: mac80211: reject MLO channel configuration if not supported
+04ea071780ec339c8bf863c03bfc841fd1ba303d wifi: iwlwifi: mvm: support set_antenna()
+38e0d52e69cc2f6397694da8acc266d8aea7dd23 wifi: iwlwifi: mvm: iterate active links for STA queues
+d43dea33e0008d1b288b2e1ea2e240d4142b4663 wifi: iwlwifi: mvm: handle link-STA allocation in restart
+c89b29f5d5c4d9835f56842ddc1ca7073a8917f9 wifi: iwlwifi: implement enable/disable for China 2022 regulatory
+0096e0f09216d69581439b1a2e5830ac035fc6bc wifi: iwlwifi: pcie: (re-)assign BAR0 on driver bind
+c303bea76bbf20f45f7a9268cd7dceb224d30141 wifi: iwlwifi: mvm: add support for new wowlan_info_notif
+a7c750e596d962eff5293667f5d797e24d12e348 wifi: iwlwifi: fail NIC access fast on dead NIC
+22d5d99df7e95cac1ee02d397dbf14f1400a0e23 wifi: iwlwifi: mvm: make pldr_sync AX210 specific
+85b7bb528f84c7d0f25906c37e6bbb96674040a1 wifi: iwlwifi: mvm: refactor TX rate handling
+025e79c24bb364282140ec4c56f3c716e6b5b071 wifi: iwlwifi: mvm: support injection antenna control
+981ffa45071c87d6d82462dd1040a479f4b1021b wifi: iwlwifi: mvm: check for iwl_mvm_mld_update_sta() errors
+c713ef7490984cfa7907fd40a166c66b8c1287da wifi: iwlwifi: add mapping of a periphery register crf for WH RF
+5d65e728df189e9373c15314583366f0bc3736b1 wifi: iwlwifi: mvm: update station's MFP flag after association
+2e8055d4f39638f1f443d2889b1caf2017e7f55c wifi: iwlwifi: pcie: propagate iwl_pcie_gen2_apm_init() error
+496c0ef334efa1fcb48e2fcc8b3ec8522e7a1582 wifi: iwlwifi: skip opmode start retries on dead transport
+fa36dd0bdaa5473a623ebbe97990d4bf8fcee9dd wifi: iwlwifi: fix opmode start/stop race
+6f88a81b16f07919d48549eded4d9ead2d6e0ad5 wifi: iwlwifi: pcie: clean up WFPM control bits
+a65dfbf95d00ae92718322fce86b28c990ed8f84 wifi: iwlwifi: mvm: fix removing pasn station for responder
+7ca53823fbf58f945d643acdbe6aaab18c928d09 wifi: iwlwifi: mvm: offload IGTK in AP if BIGTK is supported
+8b1cceb1702df41b14f5a842363ae16c0d50ae53 wifi: iwlwifi: mvm: use correct sta ID for IGTK/BIGTK
+3d8497a3e16f4fd55a8732ab71b01f0feb9c4d89 wifi: iwlwifi: bump FW API to 84 for AX/BZ/SC devices
 
---===============4505866270132199879==--
+--===============5868974219199901957==--
