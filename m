@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 20 Sep 2023 05:52:19 -0000
-Message-Id: <169518913938.1608.14033439577824285855@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 05:52:33 -0000
+Message-Id: <169518915308.1774.17401949120215089600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
   - ref: refs/notes/signatures/tar
-    old: f130d65614b18016b7e6f60e4a698b4b133e8a8e
-    new: 73b38919a5e8cfe717b8b18cea678ee629df15af
+    old: 73b38919a5e8cfe717b8b18cea678ee629df15af
+    new: 8ea3af054af8d743f006efa5f44692fdf9e61d58
     log: |
-         73b38919a5e8cfe717b8b18cea678ee629df15af Notes added by 'git notes add'
+         8ea3af054af8d743f006efa5f44692fdf9e61d58 Notes added by 'git notes add'
          
