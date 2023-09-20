@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2049228879258653268=="
+Content-Type: multipart/mixed; boundary="===============0882874096840662928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 20 Sep 2023 03:54:01 -0000
-Message-Id: <169518204168.3001.4369340845924800169@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 03:54:03 -0000
+Message-Id: <169518204382.3077.16437322350698106574@gitolite.kernel.org>
 
---===============2049228879258653268==
+--===============0882874096840662928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-defconfig-for-6.7
-    old: 2f98ed431b77cbaefd75f9690a671c5fe3c9c479
-    new: b46d856cb9b3bd2fef54cc8caec8595a232a23b6
-    log: |
-         b46d856cb9b3bd2fef54cc8caec8595a232a23b6 arm64: defconfig: Enable M31 USB phy driver
-         
-  - ref: refs/heads/arm64-fixes-for-6.6
-    old: f822899c28572a854f2c746da5ed707d752458ab
-    new: 725f593692ceedeab639b661298955b6f9ba8ec3
-    log: |
-         2ca3e844e3f978c0dbc95072dbf379abfc4a27db arm64: dts: qcom: apq8096-db820c: fix missing clock populate
-         725f593692ceedeab639b661298955b6f9ba8ec3 arm64: dts: qcom: msm8996-xiaomi: fix missing clock populate
-         
-  - ref: refs/heads/arm64-for-6.7
-    old: b3dea914127e9065df003002ed13a2ef40d19877
-    new: 815ea491460766dbd4b39a3c9904b44b5880c41c
-    log: revlist-b3dea914127e-815ea4914607.txt
-  - ref: refs/heads/clk-for-6.7
-    old: 07c34b37bd955bb62486da1326569ad855f50c69
-    new: f7b7d30158cff246667273bd2a62fc93ee0725d2
-    log: |
-         ccd8ab030643040600a663edde56b434b6f4fb6c clk: qcom: ipq5332: Drop set rate parent from gpll0 dependent clocks
-         4afda5f6bcdf673ef2556fcfa458daf3a5a648d8 clk: qcom: gcc-msm8996: Remove RPM bus clocks
-         f7b7d30158cff246667273bd2a62fc93ee0725d2 clk: qcom: clk-rcg2: Fix clock rate overflow for high parent frequencies
-         
-  - ref: refs/heads/drivers-for-6.7
-    old: 5692aeea5bcb9331e956628c3bc8fc9afcc9765d
-    new: eb3da369ccd07c0e3d65cd9cd31ca44f9f709673
-    log: |
-         8e2506d0123149a7b7846fbabbf4295b6005faf4 dt-bindings: cache: qcom,llcc: Add LLCC compatible for QDU1000/QRU1000
-         16fa93112f26a7a151f3d86a2a9223c564f6e3bf soc: qcom: llcc: Refactor llcc driver to support multiple configuration
-         54e1f99d91405417b3ddb6050cfba82733c3aa41 nvmem: core: Add stub for nvmem_cell_read_u8
-         a78502a4b2201235d93b04ac2902e01e32588bd5 soc: qcom: Add LLCC support for multi channel DDR
-         0bc76be64e80b15b975345b6957a87a1893c34f2 soc: qcom: llcc: Updating the macro name
-         db1e57928766966cd542e59789125968ac29b9da soc: qcom: llcc: Add QDU1000 and QRU1000 LLCC support
-         eb3da369ccd07c0e3d65cd9cd31ca44f9f709673 dt-bindings: firmware: document Qualcomm SM7150 SCM
-         
-  - ref: refs/heads/dts-for-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 340ed74de508e5d79599b67553ee1e8e8239e0d1
+  - ref: refs/heads/for-next
+    old: 28f392b0d5b87ce35d346f661b014ee19c44a155
+    new: f42752ca324dc2fd94bc338521b1f03d7d453d60
+    log: revlist-28f392b0d5b8-f42752ca324d.txt
 
---===============2049228879258653268==
+--===============0882874096840662928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3dea914127e-815ea4914607.txt
+Content-Disposition: attachment; filename=revlist-28f392b0d5b8-f42752ca324d.txt
 
 1ff6569b0ffe7a2e311104cb3cd841983e484ac9 arm64: dts: qcom: sa8775p-ride: Describe sgmii_phy0 irq
 454557d0032d088b4f467f0c541f98edb01fe431 arm64: dts: qcom: sa8775p-ride: Describe sgmii_phy1 irq
@@ -86,6 +50,7 @@ ec053ec90c245a4efc8dda87d9207de0adf0040e arm64: dts: qcom: pm6150: Add resin and
 ed92c9c8964c713bbdd610cf616cd10a5b4b9045 arm64: dts: qcom: sdm845-tama: Add GPIO line names for TLMM
 cb1e322cb3f126f19859627a6aeae928caf1f26a arm64: dts: qcom: sdm845-tama: Add GPIO line names for PMIC GPIOs
 714a1cf29d7015f87df28333d8f702e8398aa176 arm64: dts: qcom: sdm845-tama: Add camera GPIO regulators
+bb56cff4ac0347fe5adb57659ceab338da7f8559 ARM: dts: qcom-sdx55: switch PCIe QMP PHY to new style of bindings
 c1efa960114f743924b884da098298512a7e9983 arm64: dts: qcom: sm8350: fix pinctrl for UART18
 2037fefcdea0252b45f9003659f8b0431054c417 arm64: dts: qcom: sm8350-hdk: add missing PMICs
 4e4c45f90ee313a4b475591a3109ff5314127f40 arm64: dts: qcom: sm8350-hdk: add pmr735a regulators
@@ -98,27 +63,42 @@ da3620d7c7d78a375b21ccf046b6617598b7c824 arm64: dts: qcom: sdm845-mtp: enable PC
 27da4fd325c371e1ddbb4fc46629e2caf8f73f07 arm64: dts: qcom: msm8939-longcheer-l9100: Add initial device tree
 50888774b5dcf6cf9c1943ccdbc8f9694b9e0c50 arm64: dts: qcom: sc8180x: drop incorrect cell-index from SPMI
 e34d0497f3c4d1e71063c38e1d8b1d182277f17a arm64: dts: qcom: sm7225-fp4: Revert "arm64: dts: qcom: sm7225-fairphone-fp4: Add AW8695 haptics"
+340ed74de508e5d79599b67553ee1e8e8239e0d1 ARM: dts: qcom: drop incorrect cell-index from SPMI
+8e2506d0123149a7b7846fbabbf4295b6005faf4 dt-bindings: cache: qcom,llcc: Add LLCC compatible for QDU1000/QRU1000
+16fa93112f26a7a151f3d86a2a9223c564f6e3bf soc: qcom: llcc: Refactor llcc driver to support multiple configuration
+54e1f99d91405417b3ddb6050cfba82733c3aa41 nvmem: core: Add stub for nvmem_cell_read_u8
+a78502a4b2201235d93b04ac2902e01e32588bd5 soc: qcom: Add LLCC support for multi channel DDR
+0bc76be64e80b15b975345b6957a87a1893c34f2 soc: qcom: llcc: Updating the macro name
+db1e57928766966cd542e59789125968ac29b9da soc: qcom: llcc: Add QDU1000 and QRU1000 LLCC support
 bfb9614015f5c605ea5335f4128179af247a06e4 arm64: dts: qcom: ipq5332: Add USB related nodes
 2d81a19ada7867cce950e68001de8abb1cb173ed arm64: dts: qcom: ipq5332: Enable USB
+b46d856cb9b3bd2fef54cc8caec8595a232a23b6 arm64: defconfig: Enable M31 USB phy driver
+ccd8ab030643040600a663edde56b434b6f4fb6c clk: qcom: ipq5332: Drop set rate parent from gpll0 dependent clocks
+4afda5f6bcdf673ef2556fcfa458daf3a5a648d8 clk: qcom: gcc-msm8996: Remove RPM bus clocks
 e96c4d53d45e1ef0bcd40f2acfc30dfdea4b9131 arm64: dts: qcom: split pmr735d into 2
-922c031eb2b4897cc01f4159f7325a2dcd8d6c7e arm64: dts: qcom: msm8916-samsung-j5-common: Add accelerometer
-8a781d04e580705d36f7db07f5c80e748100b69d arm64: dts: qcom: ipq8074: Fix hwlock index for SMEM
-d08afd80158399a081b478a19902364e3dd0f84c arm64: dts: qcom: ipq5332: Fix hwlock index for SMEM
-95d97b111e1e184b0c8656137033ed64f2cf21e4 arm64: dts: qcom: ipq6018: Fix hwlock index for SMEM
-5fe8508e2bc8eb4208b0434b6c1ca306c1519ade arm64: dts: qcom: ipq9574: Fix hwlock index for SMEM
-72fc3d58b87b0d622039c6299b89024fbb7b420f arm64: dts: qcom: ipq6018: Fix tcsr_mutex register size
-11bdfe69fb40ca6afdf6bd82946b8197fd7f6c70 arm64: dts: qcom: sm6125-sprout: drop incorrect UFS phy max current
-08231f1fe620465890554b107032be330d1c66c7 arm64: dts: qcom: sm6125-sprout: correct UFS pad supply
-69a9275aeb9adeb223884c9754a8269fe33b0b88 arm64: dts: qcom: sm6115-pro1x: correct UFS pad supply
-131b820c8dedf9516b39f74d82a43c5a0a858583 arm64: dts: qcom: sm6115p-j606f: correct UFS pad supply
-6dd6ba6cb3a75fd45e4a48502c184a9659728136 arm64: dts: qcom: apq8096-db820c: correct UFS pad supply
-dfee6788a02c44bbe82a02c58db846ea6edfc630 arm64: dts: qcom: msm8996-oneplus: correct UFS pad supply
-38f6ac152fa641dc4a92a9d5f563ed2794f45b12 arm64: dts: qcom: msm8996-gemini: correct UFS pad supply
-304e5c53649f79418cb0e2c5e738a4e1f61729b8 arm64: dts: qcom: msm8998-pro1: correct UFS pad supply
-e699305f858e1e18c90001065e156dd9d4646dcc arm64: dts: qcom: msm8998-mtp: correct UFS pad supply
-39a123c50f12589949c8ec8b824bb61b94175cc0 arm64: dts: qcom: msm8998-oneplus: correct UFS pad supply
-c50e34f09a437623fc98b5545b7a097cc9ca53dc arm64: dts: qcom: msm8998-sagit: correct UFS pad supply
-a46e3a82aeb0282f80d6b512f8670da4ed12b973 arm64: dts: qcom: sm4250-billie2: correct UFS pad supply
-815ea491460766dbd4b39a3c9904b44b5880c41c arm64: dts: qcom: sdx75-idp: align RPMh regulator nodes with bindings
+f7b7d30158cff246667273bd2a62fc93ee0725d2 clk: qcom: clk-rcg2: Fix clock rate overflow for high parent frequencies
+2ca3e844e3f978c0dbc95072dbf379abfc4a27db arm64: dts: qcom: apq8096-db820c: fix missing clock populate
+725f593692ceedeab639b661298955b6f9ba8ec3 arm64: dts: qcom: msm8996-xiaomi: fix missing clock populate
+732c92d5bfdc8d9dad07e29dbf805419f5759d2e arm64: dts: qcom: msm8916-samsung-j5-common: Add accelerometer
+66dc74d92a7f6a6bad148be55d032eae3ce9d64b arm64: dts: qcom: ipq8074: Fix hwlock index for SMEM
+af1ab212fafe70b6cccaedec12b273227bcdec39 arm64: dts: qcom: ipq5332: Fix hwlock index for SMEM
+bde9f671978c2c48cd236e75a33728cb4b157245 arm64: dts: qcom: ipq6018: Fix hwlock index for SMEM
+38629e4783c30db337fd81d9d476a4f144b15173 arm64: dts: qcom: ipq9574: Fix hwlock index for SMEM
+22d19cf346180b6470fee8c2dc336fd5532614ed arm64: dts: qcom: ipq6018: Fix tcsr_mutex register size
+8a30db4bcd07c54c68d14c601de17a942c7ebe14 arm64: dts: qcom: sm6125-sprout: drop incorrect UFS phy max current
+cf662d4de18602dfea4a88f50329f9032d7173ba arm64: dts: qcom: sm6125-sprout: correct UFS pad supply
+50aae5c9dc955260bf55b65db0da88c7de38b911 arm64: dts: qcom: sm6115-pro1x: correct UFS pad supply
+a1b0bdc02eb2a753edda96238654bc876499ce8e arm64: dts: qcom: sm6115p-j606f: correct UFS pad supply
+cda965bc05128aaa58826d93af92f2bb186c0015 arm64: dts: qcom: apq8096-db820c: correct UFS pad supply
+9a605fe8bcd7a7c8e5d3908d108e19d7c6524eb5 arm64: dts: qcom: msm8996-oneplus: correct UFS pad supply
+55d6053cf47c36a85e8582fcb32fca70095f7582 arm64: dts: qcom: msm8996-gemini: correct UFS pad supply
+28bf7723eb640703e1fba98b2213aab07cbe20fe arm64: dts: qcom: msm8998-pro1: correct UFS pad supply
+2d9579a8eeedc59bf6b1d508cd427af6a10fd8dd arm64: dts: qcom: msm8998-mtp: correct UFS pad supply
+6bc38d8b00b43c17c08ddef162b4da0d1f241993 arm64: dts: qcom: msm8998-oneplus: correct UFS pad supply
+8e86ebb191e19ff5e3ebc89c74db03c0da11d196 arm64: dts: qcom: msm8998-sagit: correct UFS pad supply
+4d43dcf6e25019cfafe5b20a586bb5e80bf11938 arm64: dts: qcom: sm4250-billie2: correct UFS pad supply
+1b4dbe92d0ab0138d93b66f3a3ccfffcb01197f5 arm64: dts: qcom: sdx75-idp: align RPMh regulator nodes with bindings
+eb3da369ccd07c0e3d65cd9cd31ca44f9f709673 dt-bindings: firmware: document Qualcomm SM7150 SCM
+f42752ca324dc2fd94bc338521b1f03d7d453d60 Merge branches 'arm64-defconfig-for-6.7', 'arm64-fixes-for-6.6', 'arm64-for-6.7', 'clk-for-6.7', 'drivers-for-6.7' and 'dts-for-6.7' into for-next
 
---===============2049228879258653268==--
+--===============0882874096840662928==--
