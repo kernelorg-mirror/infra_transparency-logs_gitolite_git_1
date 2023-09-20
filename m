@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8912295263727821699=="
+Content-Type: multipart/mixed; boundary="===============4397502305966594411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 20 Sep 2023 10:52:29 -0000
-Message-Id: <169520714959.9791.8417240753511876657@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 10:53:06 -0000
+Message-Id: <169520718670.10120.4873462366253525485@gitolite.kernel.org>
 
---===============8912295263727821699==
+--===============4397502305966594411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: a94fd40a18ae76ba76dbaa8eca0e3c46aa1142c1
     new: 3a69ab875233734bc434402379100272cd70bde2
     log: revlist-a94fd40a18ae-3a69ab875233.txt
 
---===============8912295263727821699==
+--===============4397502305966594411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a76c22e22cb7aecc22051f0bfe36eb50189738fe Merge branch 'mdio-platform-remove-void
 529cdfd5e3a69bdc095ce3d535cadf897b787610 ionic: expand the descriptor bufs array
 3a69ab875233734bc434402379100272cd70bde2 Merge branch 'ionic-better-tx-sg=handling'
 
---===============8912295263727821699==--
+--===============4397502305966594411==--
