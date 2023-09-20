@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 20 Sep 2023 11:36:12 -0000
-Message-Id: <169520977280.32676.15538916863598901732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 20 Sep 2023 11:46:50 -0000
+Message-Id: <169521041071.6054.2227200264066581449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/experimental
-    old: 72dc1b19a8415d441e4dc8fa0a2b8c0c35bc6f22
-    new: 4fe36e57f20649f07fbd9e94dcb5f53a68a3f985
+  - ref: refs/heads/main
+    old: c3f35ff06e54daf452ac49a4381cf2643c934866
+    new: 2495ccfc52069ecec46031587c94b03ae66ed5d2
     log: |
-         376fb2dbe66da82687c287b06ea04553d026644a erofs-utils: lib: introduce diskbuf
-         b097208781ecda1e382c8e0f47c5c07413c51676 erofs-utils: mkfs: pop up most recently used dentries for tarerofs
-         e3dfe4b8db26522004b6ba526cd0eae8622ced1a erofs-utils: mkfs: support tgz streams for tarerofs
-         c60712e595273bb3035d1789a3b8c2a8f8130cb1 erofs-utils: lib: Restore memory address before free()
-         c58fa46e949f419fdb02669c1e0f4e2665042173 erofs-utils: mkfs: support exporting GNU tar archive labels
-         4fe36e57f20649f07fbd9e94dcb5f53a68a3f985 erofs-utils: lib: fix --force-{g,u}id support for tarerofs
+         8f08e3b51f25f585dc62f8e7aadc6095e06417cc zboot: enable arm64 kexec_load for zboot image
+         2495ccfc52069ecec46031587c94b03ae66ed5d2 zboot: add loongarch kexec_load support
+         
+  - ref: refs/heads/master
+    old: c3f35ff06e54daf452ac49a4381cf2643c934866
+    new: 2495ccfc52069ecec46031587c94b03ae66ed5d2
+    log: |
+         8f08e3b51f25f585dc62f8e7aadc6095e06417cc zboot: enable arm64 kexec_load for zboot image
+         2495ccfc52069ecec46031587c94b03ae66ed5d2 zboot: add loongarch kexec_load support
          
