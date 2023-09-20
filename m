@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 20 Sep 2023 17:23:38 -0000
-Message-Id: <169523061814.15819.9467193757488443964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 20 Sep 2023 17:28:40 -0000
+Message-Id: <169523092050.19230.5850497874608974534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/kdevops
-    old: 4b6753502dc42e648ade1de1ec2381a149833ecd
-    new: 0cc6e9f3a0d41faf5943bfef4568d84b0e8f23ac
+  - ref: refs/heads/experimental
+    old: 1e79e9aa8533d20f4196478d1e4148bbab46aa6d
+    new: f62f0f0a7b7f6c9148fc15e15791816ff3e436cf
     log: |
-         0cc6e9f3a0d41faf5943bfef4568d84b0e8f23ac nfs: decrement nrequests counter before releasing the req
+         f62f0f0a7b7f6c9148fc15e15791816ff3e436cf erofs-utils: release 1.7
          
