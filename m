@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 20 Sep 2023 06:34:23 -0000
-Message-Id: <169519166323.27619.2216573715010160070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Wed, 20 Sep 2023 06:34:32 -0000
+Message-Id: <169519167242.27744.6461615825231810319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 11667224ce96849d50cb9050ba7d54fa67d050e7
-    new: 8c43ee23262cbf639e224d2d728d0e25c4ddd04c
-    log: |
-         8c43ee23262cbf639e224d2d728d0e25c4ddd04c Notes added by 'git notes add'
-         
+  - ref: refs/tags/loongarch-fixes-6.6-1
+    old: 0000000000000000000000000000000000000000
+    new: 40f5c95deb2e698a6065101cc01874bef7db8573
