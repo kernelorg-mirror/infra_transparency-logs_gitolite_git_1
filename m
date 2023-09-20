@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6198542834206195107=="
+Content-Type: multipart/mixed; boundary="===============1385420384756290735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 20 Sep 2023 17:53:25 -0000
-Message-Id: <169523240545.5971.13438596211361607990@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 17:53:33 -0000
+Message-Id: <169523241370.6117.7366718652361018515@gitolite.kernel.org>
 
---===============6198542834206195107==
+--===============1385420384756290735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.7
+  - ref: refs/heads/for-next
     old: 526abb2e9c152c30d398d46e48fe8176640192c2
     new: 59c044989d628655b76307ebdbf97b2929da7490
     log: revlist-526abb2e9c15-59c044989d62.txt
 
---===============6198542834206195107==
+--===============1385420384756290735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -300,4 +300,4 @@ ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
 026e4728c276cdf3ec618a71a38181864596027b dm thin: Use the extent allocator for data blocks
 59c044989d628655b76307ebdbf97b2929da7490 dm: shortcut the calls to linear_map and stripe_map
 
---===============6198542834206195107==--
+--===============1385420384756290735==--
