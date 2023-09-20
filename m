@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 20 Sep 2023 10:51:28 -0000
-Message-Id: <169520708889.9257.7814729205942413728@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 10:52:28 -0000
+Message-Id: <169520714803.9690.11642261995293565086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 3a69ab875233734bc434402379100272cd70bde2
-    new: ccd663caffc7b5158a0a841b70618d9e87da531c
+    old: ccd663caffc7b5158a0a841b70618d9e87da531c
+    new: 6c0da8406382d39ec06ad54b0d4935bd7d63612c
     log: |
-         ccd663caffc7b5158a0a841b70618d9e87da531c net: dsa: mv88e6xxx: make const read-only array lanes static
+         6c0da8406382d39ec06ad54b0d4935bd7d63612c wifi: cfg80211: make read-only array centers_80mhz static const
          
