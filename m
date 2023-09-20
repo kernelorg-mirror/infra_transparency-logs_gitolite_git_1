@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 20 Sep 2023 04:01:38 -0000
-Message-Id: <169518249814.9167.1119408418925895844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 20 Sep 2023 05:05:44 -0000
+Message-Id: <169518634469.23629.4594359202159377229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/experimental
-    old: 795e425c4510b4fae26a94fbdb0b0572fce84ae5
-    new: f8140acc8aa92c1ac7d630a0cb3f7bf225819435
+  - ref: refs/notes/signatures/tar
+    old: 65f5b7db77ad7e2b071136381cd80f88695815ae
+    new: 4f8772ba14028cc2940a6f8f6d2c8456af320329
     log: |
-         f8140acc8aa92c1ac7d630a0cb3f7bf225819435 erofs-utils: mkfs: support exporting GNU tar archive labels
+         4f8772ba14028cc2940a6f8f6d2c8456af320329 Notes added by 'git notes add'
          
