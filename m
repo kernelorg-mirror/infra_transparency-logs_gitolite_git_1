@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 20 Sep 2023 07:33:56 -0000
-Message-Id: <169519523679.28782.8262224437977102534@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3100944351737426372=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 20 Sep 2023 07:36:45 -0000
+Message-Id: <169519540586.30083.10739569105227382189@gitolite.kernel.org>
+
+--===============3100944351737426372==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/locking/core
-    old: a432b7c0cf420dbf2448c6bda6a6697afbb153d5
-    new: fbeb558b0dd0d6348e0872bbbbe96e30c65867b7
+  - ref: refs/heads/master
+    old: 30dae170aadfa58d3795c55d28aefbbb87d3072c
+    new: b3edd155300bc95687d5c94e1fe5009119e00f56
     log: |
-         28bc55f654de49f6122c7475b01b5d5ef4bdf0d4 sched: Constrain locks in sched_submit_work()
-         af9f006393b53409be0ca83ae234bef840cdef4a locking/rtmutex: Avoid unconditional slowpath for DEBUG_RT_MUTEXES
-         de1474b46d889ee0367f6e71d9adfeb0711e4a8d sched: Extract __schedule_loop()
-         6b596e62ed9f90c4a97e68ae1f7b1af5beeb3c05 sched: Provide rt_mutex specific scheduler helpers
-         d14f9e930b9073de264c106bf04968286ef9b3a4 locking/rtmutex: Use rt_mutex specific scheduler helpers
-         45f67f30a22f264bc7a0a61255c2ee1a838e9403 locking/rtmutex: Add a lockdep assert to catch potential nested blocking
-         fbeb558b0dd0d6348e0872bbbbe96e30c65867b7 futex/pi: Fix recursive rt_mutex waiter state
+         b3edd155300bc95687d5c94e1fe5009119e00f56 fix up media-dvb-usb-v2-af9035-fix-null-ptr-deref-in-af9035.patch
          
+
+--===============3100944351737426372==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695195401 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1695195400-615ca48f94874b91d47a2d0e27387385fa6d137f
+
+30dae170aadfa58d3795c55d28aefbbb87d3072c b3edd155300bc95687d5c94e1fe5009119e00f56 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUKoQkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+180P/jTC6nPN9wXxf0Z2gHmi
+aRxdB0JCNR97oO0HltzaiuX+1m4aX5Ut6B5ukjw8EYi8CSYtH/hQZjUFg2fx/str
+AymlN5rlnaqLwcoeU4q8c4zn/epKRe2hN7JnnjuJEW60evONDL/rgRvG0TFUFK4L
+EftI1Hr3ItwI4DGcjazxhusBSu6NLIPfJQ28NR7pWbApncuA1EayxCbcAAE6JvbC
+ibtJCR2n3hjZTQWKSK3r8YJ/wpt1C2OjZ2rJ+WWZLCZC9B6xu5X9neLvpJiXjw34
+fzijDcrZc9LRFMS4CN23FsM3YDrZPLGVAGEyaLHXvNdgJF/pM7XlbTQcMg/ntTZi
+ps3LDJ2VHgQM/FF9G51A3A4qQCfSlASphC8QIfKRpxSz6MM5PdPyK/nrHGf1gwed
+mGYpvzYhe0ASlFMZ+aQCl9wcY2uIhXt+yu3SzLLRKs+htV6J+NI/M/E38BcQHgiF
+iIJ2CsHB3hOCDJJs4eDV5c8hOjCi8cd55PmEFmWaPSlnw0CqozYgYiMzwn44XDDP
+bwz8C82MPqskLQhPAeVHRGMQmrXWpex3dlDVVitEnVubzq6D7RGvdqkiTKC+cxfd
+D6tJ4E5D6hxIas668PMNI0VPTBw4vSc+k7b2jsfX/gTT/cZ+inRgSpUHSqF2ftaP
+uo43IpEvk0uQKRUuMxIGcjjq
+=Xq4Q
+-----END PGP SIGNATURE-----
+
+--===============3100944351737426372==--
