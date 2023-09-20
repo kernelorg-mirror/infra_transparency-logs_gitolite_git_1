@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7752688666625811617=="
+Content-Type: multipart/mixed; boundary="===============4155251687166817645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 20 Sep 2023 15:28:52 -0000
-Message-Id: <169522373275.26703.13040880485818304566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 20 Sep 2023 15:29:18 -0000
+Message-Id: <169522375872.26920.15102831822719433923@gitolite.kernel.org>
 
---===============7752688666625811617==
+--===============4155251687166817645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b9435475cc9bfb60f0327686d1183f498f3d51c1
 
---===============7752688666625811617==
+--===============4155251687166817645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -285,4 +285,4 @@ a49d273e579615ed63d0347f94075dd22b9458a3 Merge tag 'gfs2-v6.6-rc1-fixes' of git:
 df1c357f25d808e30b216188330e708e09e1a412 netfs: Only call folio_start_fscache() one time for each folio
 2cf0f715623872823a72e451243bbf555d10d032 Merge tag 'nfs-for-6.6-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============7752688666625811617==--
+--===============4155251687166817645==--
