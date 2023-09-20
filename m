@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 20 Sep 2023 16:58:26 -0000
-Message-Id: <169522910613.28679.472554111531154063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 20 Sep 2023 17:03:42 -0000
+Message-Id: <169522942206.32332.12937324206832045961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/rcu/torture-init-stress-ng
-    old: 4f03b55fdfd27ff8d29899abd91c5d6f149ac4ba
-    new: 8ef14e77183cc58e07bf8a7159f399963c5e0594
-    log: |
-         8ef14e77183cc58e07bf8a7159f399963c5e0594 BROKEN: pass stress-ng from command line, see note in init.c
-         
+  - ref: refs/tags/for-6.6-rc2-tag
+    old: 0000000000000000000000000000000000000000
+    new: 201c53f7bdddb9e47ef23dcb023e5082f7160f8f
