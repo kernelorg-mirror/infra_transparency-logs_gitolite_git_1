@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7125155667423687869=="
+Content-Type: multipart/mixed; boundary="===============6198542834206195107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 20 Sep 2023 17:52:43 -0000
-Message-Id: <169523236394.5679.3919441887665437342@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 17:53:25 -0000
+Message-Id: <169523240545.5971.13438596211361607990@gitolite.kernel.org>
 
---===============7125155667423687869==
+--===============6198542834206195107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.6
-    old: a9ce385344f916cd1c36a33905e564f5581beae9
-    new: 9850ccd5dd88075b2b7fd28d96299d5535f58cc5
-    log: revlist-a9ce385344f9-9850ccd5dd88.txt
+  - ref: refs/heads/dm-6.7
+    old: 526abb2e9c152c30d398d46e48fe8176640192c2
+    new: 59c044989d628655b76307ebdbf97b2929da7490
+    log: revlist-526abb2e9c15-59c044989d62.txt
 
---===============7125155667423687869==
+--===============6198542834206195107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9ce385344f9-9850ccd5dd88.txt
+Content-Disposition: attachment; filename=revlist-526abb2e9c15-59c044989d62.txt
 
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
 71be868472dc5beb82feb4da2d3eb9cba785d660 nvme: host: hwmon: constify pointers to hwmon_channel_info
@@ -295,5 +295,9 @@ e5a710d13247975444c9a18e28413e566c334271 Merge tag 'sched-urgent-2023-09-17' of 
 e789286468a9ea7acb5aae09a11bdfc7d46874ec Merge tag 'x86-urgent-2023-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
 9850ccd5dd88075b2b7fd28d96299d5535f58cc5 dm zoned: free dmz->ddev array in dmz_put_zoned_devices
+7c81e8ebe11011c4747d4de9ca365d7cc6290ef8 dm persistent data: Introduce extent allocator
+79ed1afeb03a9caedb6160e087b2584ba725553b dm space map: Add sm_disk_new_block_in_range method
+026e4728c276cdf3ec618a71a38181864596027b dm thin: Use the extent allocator for data blocks
+59c044989d628655b76307ebdbf97b2929da7490 dm: shortcut the calls to linear_map and stripe_map
 
---===============7125155667423687869==--
+--===============6198542834206195107==--
