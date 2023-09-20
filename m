@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6246593317410509955=="
+Content-Type: multipart/mixed; boundary="===============8000845786497784957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 20 Sep 2023 02:09:41 -0000
-Message-Id: <169517578185.24480.12462902226666733438@gitolite.kernel.org>
+Date: Wed, 20 Sep 2023 02:09:43 -0000
+Message-Id: <169517578381.24587.5248712402998869086@gitolite.kernel.org>
 
---===============6246593317410509955==
+--===============8000845786497784957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.7
-    old: 3f93d119c9d6e1744d55cd48af764160a1a3aca3
-    new: b3dea914127e9065df003002ed13a2ef40d19877
-    log: revlist-3f93d119c9d6-b3dea914127e.txt
+  - ref: refs/heads/for-next
+    old: 0b5f291a5b903274bd27695491c90d8ac1e4de92
+    new: 28f392b0d5b87ce35d346f661b014ee19c44a155
+    log: revlist-0b5f291a5b90-28f392b0d5b8.txt
 
---===============6246593317410509955==
+--===============8000845786497784957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f93d119c9d6-b3dea914127e.txt
+Content-Disposition: attachment; filename=revlist-0b5f291a5b90-28f392b0d5b8.txt
 
 973c015facabcbd320063648010942c51992c1a1 arm64: dts: qcom: qrb2210-rb1: Swap UART index
 31bee70793b67f4b428825434542afc72ddb2b3b arm64: dts: qcom: qrb2210-rb1: Fix regulators
@@ -45,5 +45,6 @@ c627d7337aae4d83b4db621fdb9e8f638056dcee arm64: dts: qcom: qrb5165-rb5: Switch o
 d342e1c993bd7589cad9d2da099c6a9c652ecb9f arm64: dts: qcom: qrb5165-rb5: add onboard USB-C redriver
 96387ee7534dc449be35a9bb98b7668da2bed545 arm64: dts: qcom: qrb5165-rb5: enable displayport controller
 b3dea914127e9065df003002ed13a2ef40d19877 arm64: dts: qcom: qrb5165-rb5: enable DP altmode
+28f392b0d5b87ce35d346f661b014ee19c44a155 Merge branches 'arm64-defconfig-for-6.7', 'arm64-fixes-for-6.6', 'arm64-for-6.7', 'clk-for-6.7' and 'drivers-for-6.7' into for-next
 
---===============6246593317410509955==--
+--===============8000845786497784957==--
