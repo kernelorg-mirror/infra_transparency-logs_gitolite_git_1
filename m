@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6648730372890529004=="
+Content-Type: multipart/mixed; boundary="===============2076629861290214245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 21 Sep 2023 16:35:43 -0000
-Message-Id: <169531414300.27111.12260700280371495142@gitolite.kernel.org>
+Date: Thu, 21 Sep 2023 16:36:17 -0000
+Message-Id: <169531417724.27447.10643692743226671820@gitolite.kernel.org>
 
---===============6648730372890529004==
+--===============2076629861290214245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
+  - ref: refs/heads/for-next
     old: 648fd8c96d3f77910812e3b3cb02045ee4a50ccf
     new: 6cb9c8637c672584d4915559001020237840acba
     log: revlist-648fd8c96d3f-6cb9c8637c67.txt
 
---===============6648730372890529004==
+--===============2076629861290214245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ d5e2c23366d8fb86d06a7d8eb949f0dffc41b50c platform/surface: hotplug: Convert to p
 e621198016e99cddc097d32cd3b56b15cee27d91 platform/x86: think-lmi: Replace kstrdup() + strreplace() with kstrdup_and_replace()
 6cb9c8637c672584d4915559001020237840acba platform/x86: think-lmi: Use strreplace() to replace a character by nul
 
---===============6648730372890529004==--
+--===============2076629861290214245==--
