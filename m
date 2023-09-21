@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Thu, 21 Sep 2023 15:05:28 -0000
-Message-Id: <169530872899.23788.12741464555100617596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 21 Sep 2023 15:08:18 -0000
+Message-Id: <169530889892.26295.7917623914965976241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: 0da08e3142c8260e98a68a15fdd4acb83d1f3581
-    new: 5834f8e72b1bac16d660a7792284786660ecbcae
+  - ref: refs/heads/rcu/torture-init-stress-ng
+    old: a76eafbb4493455264ea0df1ebac4f64abf2f951
+    new: 1fd35fb7a52464116daadf2c98fb12dda8c019c9
     log: |
-         98a0465531a5982dd897fd81222a5d3465999951 printk: fix illegal pbufs access for !CONFIG_PRINTK
-         5834f8e72b1bac16d660a7792284786660ecbcae Merge branch 'rework/nbcon-base' into for-next
+         1fd35fb7a52464116daadf2c98fb12dda8c019c9 Enable gcov only on kernel/rcu
          
