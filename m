@@ -1,47 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0299629277238404120=="
+Content-Type: multipart/mixed; boundary="===============7486550655847099675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 21 Sep 2023 08:02:37 -0000
-Message-Id: <169528335710.18586.1202251199430526277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 21 Sep 2023 08:11:12 -0000
+Message-Id: <169528387280.26233.15023130950010704734@gitolite.kernel.org>
 
---===============0299629277238404120==
+--===============7486550655847099675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/next
-    old: ae3a94e4adee4429f364a0761233a928c865f3f8
-    new: 8de685b63a687bcbe0f0db939db05f9c2341592f
-    log: revlist-ae3a94e4adee-8de685b63a68.txt
+  - ref: refs/heads/habanalabs-next
+    old: c313fc57eaefbeca50a51d5d2554264297d98526
+    new: 4800b41c97b9247aa650be6df8488e5cf6005d5f
+    log: revlist-c313fc57eaef-4800b41c97b9.txt
 
---===============0299629277238404120==
+--===============7486550655847099675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae3a94e4adee-8de685b63a68.txt
+Content-Disposition: attachment; filename=revlist-c313fc57eaef-4800b41c97b9.txt
 
-d149718ea22c8e53a7a7dd6ac8034ee9be7784ce pmdomain: Prepare to move Kconfig files into the pmdomain subsystem
-4db570466cddfdf3ccbbc6d180d059551ff93e68 pmdomain: actions: Move Kconfig file to the pmdomain subsystem
-2dfb28355dd352dcee0053095f3faa7cebe3151e pmdomain: amlogic: Move Kconfig options to the pmdomain subsystem
-1bfadf2edd653af321af17e1cfac4fb28c3f790d pmdomain: apple: Move Kconfig option to the pmdomain subsystem
-c067e7ffb31f270163b9f11da83a86ab660ee783 pmdomain: bcm: Move Kconfig options to the pmdomain subsystem
-62415a1f07572b5ee72728bfad9e629bbf817cd2 pmdomain: imx: Move Kconfig options to the pmdomain subsystem
-504ed8e9a63e5bcb4c01d1a826cef771ce0ed90a pmdomain: mediatek: Move Kconfig options to the pmdomain subsystem
-4513acf8f02ecd59e71ca951c2b915f0d8c89293 pmdomain: qcom: Move Kconfig options to the pmdomain subsystem
-b7b47d66ea3289f90665a6b96e724229f6a1d866 pmdomain: renesas: Move Kconfig options to the pmdomain subsystem
-567c45126d24883223104c3e013a3b1c26312798 pmdomain: rockchip: Move Kconfig option to the pmdomain subsystem
-c215d6d382034fae93ae48f3bd40554970b2e090 pmdomain: samsung: Move Kconfig option to the pmdomain subsystem
-051655580f82fef547b09c4feae9e0e0bab78826 pmdomain: st: Add a Kconfig option for the ux500 power domain
-af31cb8cb7b0e82665640642b2499f89cf4fb35d pmdomain: starfive: Move Kconfig file to the pmdomain subsystem
-660a531f6beb3c692cd94f7abab5b79fdf796a11 pmdomain: sunxi: Move Kconfig option to the pmdomain subsystem
-9fb632a01069373bcaab423fba1db0014e83faaa pmdomain: tegra: Move Kconfig option to the pmdomain subsystem
-10c02f02718e9cb5ffa699902bcf36db854afd40 pmdomain: ti: Move and add Kconfig options to the pmdomain subsystem
-8de685b63a687bcbe0f0db939db05f9c2341592f pmdomain: xilinx: Move Kconfig option to the pmdomain subsystem
+c4a767f9cabe4b8068442e4bb98e31abceccc59f accel/habanalabs: tiny refactor of hl_map_dmabuf()
+378b32f922d422f51873c9e26ac71c8f8204a1d2 accel/habanalabs: fix bug in timestamp interrupt handling
+a39475ed426d10d0ae952c7df39bed2c538182db accel/habanalabs: optimize timestamp registration handler
+968fd9d1771df5c7985cb015fae5ee14d5fe63ed accel/habanalabs: split user interrupts pending list
+9eb285b2efe55825c608556794c4085e647a5fc7 accel/habanalabs: fix SG table creation for dma-buf mapping
+c53f032aea7be178affe3369f60ddf95adb6afe8 accel/habanalabs: set hl_dmabuf_priv.device_address only when needed
+eb69b61b66767a67d14447545508a578d500a67b accel/habanalabs: add missing offset handling for dma-buf
+17251d855b8b695c2f846994e58def6a93a7074c accel/habanalabs: add debug prints to dump content of SG table for dma-buf
+2981c3db6899635fba582f2932b8b9441afa58c3 accel/habanalabs: add fw status SHUTDOWN_PREP
+8cd3a9e4e6d88a2d64d9eef614b95fed61dc41a5 accel/habanalabs: extend preboot timeout when preboot might take longer
+2cf37bc77a1837a233dcd2b6cfeb529a66c6c31a accel/habanalabs: update boot status print
+d75cf104c4083f666ab2c5bcdbc41cfe369abbf6 accel/habanalabs: remove unused asic functions
+861cd86caf6d06685cccb1a232607c063d3e0fec accel/habanalabs: add traces for dma mappings
+4800b41c97b9247aa650be6df8488e5cf6005d5f accel/habanalabs: trace dma map sgtable
 
---===============0299629277238404120==--
+--===============7486550655847099675==--
