@@ -1,22 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7763551704345080758=="
+Content-Type: multipart/mixed; boundary="===============3857159898416943264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 21 Sep 2023 16:29:43 -0000
-Message-Id: <169531378371.21536.4701854634366322994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 21 Sep 2023 16:29:56 -0000
+Message-Id: <169531379654.21664.10146762633952468969@gitolite.kernel.org>
 
---===============7763551704345080758==
+--===============3857159898416943264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.6
+  - ref: refs/heads/for-linus
     old: 31bb7bd9ffee50d09ec931998b823a86132ab807
     new: 95bfb16d66cc078aa93d06863354970f615565d1
     log: |
@@ -28,42 +27,23 @@ changes:
          41bae58df411f9accf01ea660730649b2fab1dab ASoC: simple-card: fixup asoc_simple_probe() error handling
          95bfb16d66cc078aa93d06863354970f615565d1 ASoC: Intel: soc-acpi: Adding Es83x6 codec entry and
          
-  - ref: refs/heads/asoc-6.7
-    old: 842a62a75e709b3efb5020a25a225fa51748c5f9
-    new: 2f3fb85b258334a4247af5c92b4a21480ca5634e
-    log: revlist-842a62a75e70-2f3fb85b2583.txt
+  - ref: refs/heads/for-next
+    old: 1d7432bff075b639e4abdfe7b92659ec45b4e51a
+    new: 73db09c9734f53f600e43d9867d35e2b40a927d0
+    log: revlist-1d7432bff075-73db09c9734f.txt
 
---===============7763551704345080758==
+--===============3857159898416943264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1d7432bff075-73db09c9734f.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1695313781 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1695313780-15357ab9aa3092f5fee536df9656c6dd90ac751a
-
-31bb7bd9ffee50d09ec931998b823a86132ab807 95bfb16d66cc078aa93d06863354970f615565d1 refs/heads/asoc-6.6
-842a62a75e709b3efb5020a25a225fa51748c5f9 2f3fb85b258334a4247af5c92b4a21480ca5634e refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUMb3UACgkQJNaLcl1U
-h9DdOAf+KnI6zhEqVjeW8Xqiy6TZTMQTjwgK7ylYPhMRdCVKBliTSwHbx1pAehTe
-KdBv6UJbqyZTQJQIJxfL3JqTA5o63359sgC0A5ALlWFdd8ugwqLsLYwtgRd6+kiE
-AyqD6klQMYGwuFGF05coLw9kMZ3YL0/Mem98tNv0tcDkH5UVlJoU5vW9OyMgzBy8
-1Wq943UUJ9o1EBHQGO5HJVbrnFlELrroMcmszVa14MOSG0I39IzSj6CFllqJlwB8
-J0LOGtvURKaLAfPUsXFEzzg5PxipFZghREG7itzrw5idkOZsYgPyPKLUayQ8o4kW
-O5tcQYBlB0fgGcXQbI0Rhr/912pjJQ==
-=cPDY
------END PGP SIGNATURE-----
-
---===============7763551704345080758==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-842a62a75e70-2f3fb85b2583.txt
-
+381ddcd5875e496f2eae06bb65853271b7150fee ASoC: Intel: soc-acpi: Add entry for sof_es8336 in MTL match table.
+d1f67278d4b2de3bf544ea9bcd9f64d03584df87 ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in MTL match table
+b399f9706a1cbae42731cc420a46cfb9c3c6b10f ASoC: Intel: soc-acpi: fix Dell SKU 0B34
+fb0b8d299781be8d46b3612aa96cef28da0d93f4 ASoC: Intel: sof_sdw: add support for SKU 0B14
+69cf63b6560205a390a736b88d112374655adb28 ASoC: simple-card-utils: fixup simple_util_startup() error handling
+41bae58df411f9accf01ea660730649b2fab1dab ASoC: simple-card: fixup asoc_simple_probe() error handling
 06d94b43fc39af16d3d74a93d27ee92902b56bc6 ASoC: intel: sof_sdw: Add CS42L43 CODEC support
 05fe62842804d644d986cb248ca871335b2628af ASoC: Intel: soc-acpi-intel-mtl-match: add acpi match table for cdb35l56-eight-c
 58bb5081cba130f12c26d8e4d5e9416a0272f07e ASoC: SOF: Xtensa: dump ar registers to restore call stack
@@ -97,6 +77,8 @@ cc676c0df591a81de662bb28a705fe6ed1331024 ASoC: intel: Add CS42L43 sdw machine dr
 16bb22098f0a44fed8192c4b16fede95876fdc19 ASoC: SOF: ipc4-control: Support for Switch and Enum
 03db12ef1cbc3ad86aaaf3a5e9203a936dba52b8 ASoC: SOF: ipc4/Intel: Support for firmware exception
 667f45ca80cbf344695cf3a58eeb2191e6724de6 Minor default jack pop performance updates
+95bfb16d66cc078aa93d06863354970f615565d1 ASoC: Intel: soc-acpi: Adding Es83x6 codec entry and
 2f3fb85b258334a4247af5c92b4a21480ca5634e ASoC: hdac_hda: fix HDA patch loader support
+73db09c9734f53f600e43d9867d35e2b40a927d0 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
 
---===============7763551704345080758==--
+--===============3857159898416943264==--
