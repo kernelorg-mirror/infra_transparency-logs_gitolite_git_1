@@ -1,52 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============4232800689985595100=="
+Content-Type: multipart/mixed; boundary="===============0177122349768912337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 21 Sep 2023 11:02:23 -0000
-Message-Id: <169529414387.5041.5802583703644829371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 21 Sep 2023 11:05:30 -0000
+Message-Id: <169529433065.7812.9399573385672633230@gitolite.kernel.org>
 
---===============4232800689985595100==
+--===============0177122349768912337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 4800b41c97b9247aa650be6df8488e5cf6005d5f
-    new: 4ae8d0adde8cc5fe042339b798e97edac963bf39
-    log: revlist-4800b41c97b9-4ae8d0adde8c.txt
+  - ref: refs/heads/origin-master
+    old: 2cf0f715623872823a72e451243bbf555d10d032
+    new: 42dc814987c1feb6410904e58cfd4c36c4146150
+    log: revlist-2cf0f7156238-42dc814987c1.txt
 
---===============4232800689985595100==
+--===============0177122349768912337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4800b41c97b9-4ae8d0adde8c.txt
+Content-Disposition: attachment; filename=revlist-2cf0f7156238-42dc814987c1.txt
 
-4c418b1d6a4c06cd42e702b0b3e68df2ab9d5fa7 accel/habanalabs: add tsc clock sampling to clock sync info
-33c612a1a1c28a797911391f6f3d1b2fe0ce951f accel/habanalabs/gaudi2: print power-mode changes
-01bd224c232a3fc5048e2dd0e0515c5a8e51a648 accel/habanalabs/gaudi2: handle eq health heartbeat check
-c58eac5ddae8b84b2473f69284954b7bfead918d accel/habanalabs/gaudi2: add eq health check using irq
-610ca5de547cddcbbc1c23a2abf4bf256f831be8 accel/habanalabs: prevent sending heartbeat before events are enabled
-f5804ecd98cc1654867ff424194ed2611500f737 accel/habanalabs: always pass exported size to alloc_sgt_from_device_pages()
-c2dc80625dbed43de0777d113442c367609a103b accel/habanalabs: use exported size from dma_buf and not from phys_pg_pack
-80785123a2489d45156856e7a50a1eca678cbcc5 accel/habanalabs: export dma-buf only if size/offset multiples of PAGE_SIZE
-21bd256f7f03ff7ed367261296e997aebbd8a151 accel/habanalabs: tiny refactor of hl_map_dmabuf()
-1bfe9b9e1bec8ce2e84e371b9cbf7af5950283e1 accel/habanalabs: fix bug in timestamp interrupt handling
-21ce7a7dcedbc32fb9f7bd6c6a485bb45a5070f8 accel/habanalabs: optimize timestamp registration handler
-6208e6d6788bf4703869d8e5a958d999bc840ef4 accel/habanalabs: split user interrupts pending list
-a1521b4ebf1c75c7d12adc160cec8c7820ed70c7 accel/habanalabs: fix SG table creation for dma-buf mapping
-be4d7780be6d646e324fc913f4cd9fdf7f412a6a accel/habanalabs: set hl_dmabuf_priv.device_address only when needed
-5efc1b3076de1716bcf66128f503fec974e7571c accel/habanalabs: add missing offset handling for dma-buf
-fd8c9f8080ca35aee987384c3dbc5c68f9700b0c accel/habanalabs: add debug prints to dump content of SG table for dma-buf
-63632c22c581168fbe56ee9c26043dfdc00e315a accel/habanalabs: add fw status SHUTDOWN_PREP
-632a8d1abf96f02af4dace6c84cd700fedabd9c4 accel/habanalabs: extend preboot timeout when preboot might take longer
-7f9043265216c87c4a6c56f2628d9281bbd3d2ee accel/habanalabs: update boot status print
-604393d3dbfb294a3915898996d573f973400be0 accel/habanalabs: remove unused asic functions
-4fe4ebae327c338273a5f4a46140949cd32443c8 accel/habanalabs: add traces for dma mappings
-4ae8d0adde8cc5fe042339b798e97edac963bf39 accel/habanalabs: trace dma map sgtable
+1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
+18495676f7886e105133f1dc06c1d5e8d5436f32 spi: nxp-fspi: reset the FLSHxCR1 registers
+6de8a70c84ee0586fdde4e671626b9caca6aed74 spi: stm32: add a delay before SPI disable
+6223e073db78458f8846c380ccd224a7a73a3867 regulator: Fix voltage range selection
+9855d60cfc720ff32355484c119acafd3c4dc806 spi: intel-pci: Add support for Granite Rapids SPI serial flash
+06ed09351b67eb1114ae106a87a0ee3ea9adb3db btrfs: convert btrfs_read_merkle_tree_page() to use a folio
+9af86694fd5d387992699ec99007ed374966ce9a btrfs: file_remove_privs needs an exclusive lock in direct io write
+b595d25996329427b2c09d4b90395a165fb3ef8e btrfs: don't clear uptodate on write errors
+f6c8a312ef0175ea67a1ace29e1d1e5d470ea45a media: pci: ivsc: Select build dependencies
+86e16b87afac20779da1228d690a95c54d7e2ad0 media: v4l: Use correct dependency for camera sensor drivers
+41425941dfcf47cc6df8e500af6ff16a7be6539f media: via: Use correct dependency for camera sensor drivers
+357950361cbc6d54fb68ed878265c647384684ae btrfs: set last dir index to the current last index when opening dir
+e60aa5da14d01fed8411202dbe4adf6c44bd2a57 btrfs: refresh dir last index during a rewinddir(3) call
+8e7f82deb0c0386a03b62e30082574347f8b57d5 btrfs: fix race between reading a directory and adding entries to it
+c42d116ccb72b6a33728e2b4b76ab175197ffb07 media: ivsc: Depend on VIDEO_DEV
+e784e78efba87571bcfaab09e8bd81a77c8feaa1 media: i2c: max9286: Remove an incorrect fwnode_handle_put() call
+5cb218ffc54f1865edbe0c2a5ac4e906753817fb media: i2c: imx219: Fix a typo referring to a wrong variable
+bb2d01127f5d8e5034daa60a08e68f719ad71ec2 media: i2c: imx219: Fix crop rectangle setting when changing format
+faece4ad72b06308101d7f9cacaf8dd6df4fdc1f media: i2c: imx219: Perform a full mode set unconditionally
+12d21fc2ba88e3bb41167afb5c6c0e961f2ab0c9 media: i2c: rdacm21: Remove an incorrect fwnode_handle_put() call
+861ab817b5ebe5e34bfbf01943b86ded6bba97b3 media: bt8xx: bttv_risc_packed(): remove field checks
+41ebaa5e0eebea4c3bac96b72f9f8ae0d77c0bdb media: uvcvideo: Fix OOB read
+735de5caf79e06cc9fb96b1b4f4974674ae3e917 media: vb2: frame_vector.c: replace WARN_ONCE with a comment
+5f66db08cbd3ca471c66bacb0282902c79db9274 spi: imx: Take in account bits per word instead of assuming 8-bits
+263cb0cc5abac7c22a6c0dfa7e50e89d8e6c6900 media: imx-mipi-csis: Remove an incorrect fwnode_handle_put() call
+4221a2bec2189275f3f49492a73221498ae6d131 spi: Merge up old fix
+1c0a21da7a1c648c327cf7cdf16feceb087892e6 Merge tag 'regulator-fix-v6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+5d2f53532ecc6ff063bc0dc1826fdadcbd8878a6 Merge tag 'spi-fix-v6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+a229cf67ab851a6e92395f37ed141d065176575a Merge tag 'for-6.6-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+42dc814987c1feb6410904e58cfd4c36c4146150 Merge tag 'media/v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============4232800689985595100==--
+--===============0177122349768912337==--
