@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4141231170151421109=="
+Content-Type: multipart/mixed; boundary="===============3696789450837903708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 21 Sep 2023 16:00:51 -0000
-Message-Id: <169531205166.1048.8994246620010719424@gitolite.kernel.org>
+Date: Thu, 21 Sep 2023 16:00:59 -0000
+Message-Id: <169531205959.1209.5028437196606426854@gitolite.kernel.org>
 
---===============4141231170151421109==
+--===============3696789450837903708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,51 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo
-    old: f32e659d20d873c35fe723c01a4ee67c114de12b
-    new: 069c266f4844aa2e0bc4c48bacf7e04c8a251017
-    log: revlist-f32e659d20d8-069c266f4844.txt
+  - ref: refs/heads/dm-vdo-wip
+    old: fc20d4e5f876048eca1bbebeff41d72f1491c222
+    new: 3faeac9daaee41eb28e2724e4c8ab847432ee89a
+    log: revlist-fc20d4e5f876-3faeac9daaee.txt
 
---===============4141231170151421109==
+--===============3696789450837903708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f32e659d20d8-069c266f4844.txt
+Content-Disposition: attachment; filename=revlist-fc20d4e5f876-3faeac9daaee.txt
 
-acf00b5ef9f83069ddbea274ab32931f8573e98b s390/airq: remove lsi_mask from airq_struct
-fb5a4315591dae307a65fc246ca80b5159d296e1 dma-debug: don't call __dma_entry_alloc_check_leak() under free_entries_lock
-9d1785590bbbb69833eae50c136267fce824515d Merge tag 'md-next-20230814-resend' into loongarch-next
-cd59cdefc2f101bfc99ee5bd38512ebba7b75471 rbd: use list_for_each_entry() helper
-5195c35ac4f09bc45bde23b98d74c4f5d62bea65 csky: Fixup compile error
-96c1fa04f089a7e977a44e4e8fdc92e81be20bef tick/rcu: Fix false positive "softirq work is pending" messages
-2b8272ff4a70b866106ae13c36be7ecbef5d5da2 cpu/hotplug: Prevent self deadlock on CPU hot-unplug
-2dcdf8c18d5c1835571bfa40f40ac134c8a1f0f5 dma-contiguous: fix the Kconfig entry for CONFIG_DMA_NUMA_CMA
-06469a8dc37598176937dac1f6ca41e8f0db2b81 platform/x86: mlx-platform: Add dependency on PCI to Kconfig
-acce85a7dd28eac3858d44230f4c65985d0f271c platform/x86: asus-wmi: corrections to egpu safety check
-b3773b19d43f4e22d0c819a7514341b26e8fb4a8 SMB3: rename macro CIFS_SERVER_IS_CHAN to avoid confusion
-9e74938954749ecc3e0da63d0e211238ad4b2425 fs/smb: Remove unicode 'lower' tables
-089f7f591348ca3325639f541fa4f78d9540dab5 fs/smb: Swing unicode common code from smb->NLS
-de54845290cee3f65dcd03b35a2bd7f2f7aed2ac fs/smb/client: Use common code in client
-f3a9b3758e0b6d40183929aba599a7da52313a3e fs/jfs: Use common ucs2 upper case table
-aee1720eeb87a3adc242eb07e5d4f7ba3eb8c736 bpf, docs: Move linux-notes.rst to root bpf docs tree
-deb88407254621bf926658cff49a7ba01b59dec6 bpf, docs: Add abi.rst document to standardization subdirectory
-7d35eb1a184a3f0759ad9e9cde4669b5c55b2063 bpf, docs: s/eBPF/BPF in standards documents
-f67b55b6588bcf9316a1e6e8d529100a5aa3ebe6 NFS: Guard against READDIR loop when entry names exceed MAXNAMELEN
-5690eed941ab7e33c3c3d6b850100cabf740f075 NFSv4.2: fix handling of COPY ERR_OFFLOAD_NO_REQ
-3ea67c4f462e1eab16ced755816143cbd1ebfc7d Merge tag 'audit-pr-20230829' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-5eefc5307c983b59344a4cb89009819f580c84fa drm/i915: mark requests for GuC virtual engines to avoid use-after-free
-28427f368f0e08d504ed06e74bc7cc79d6d06511 netfilter: nft_exthdr: Fix non-linear header modification
-e99476497687ef9e850748fe6d232264f30bc8f9 netfilter: xt_sctp: validate the flag_info count
-69c5d284f67089b4750d28ff6ac6f52ec224b330 netfilter: xt_u32: validate user space input
-1dbae189873066e817fe94b4e4ac7c8c42b51d77 Merge tag 'selinux-pr-20230829' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-bd6fc5da4c51107e1e0cec4a3a07963d1dae2c84 io_uring: Don't set affinity on a dying sqpoll thread
-1086eeac9c333b6db6c98594f02996c8261c60c5 Merge tag 'lsm-pr-20230829' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-ef100397fac3e2e403d5d510e66f36e242654073 blk-throttle: print signed value 'carryover_bytes/ios' for user
-bb8d5587bdc3ab211e1eae2eeb966f7a7d1f9c0b blk-throttle: fix wrong comparation while 'carryover_ios/bytes' is negative
-e8368b57c006dc0e02dcd8a9dc9f2060ff5476fe blk-throttle: use calculate_io/bytes_allowed() for throtl_trim_slice()
-eead0056648cef49d7b15c07ae612fa217083165 blk-throttle: consider 'carryover_ios/bytes' in throtl_trim_slice()
-1a35914f738c564060a14388f52a06669b09e0b3 Merge tag 'integrity-v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-872459663c52f5e8a28c0cb6df08b77d6c24ab46 Merge tag 'Smack-for-6.6' of https://github.com/cschaufler/smack-next
 ca96b162bfd21a5d55e3cd6099e4ee357a0eeb68 x86: bring back rep movsq for user access on CPUs without ERMS
 2a2015495142ee0a35711b5dcf7b215c31489f27 selftests/landlock: Fix a resource leak
 9855922705630a63a6f27621fab1a248dfb5bfc0 Merge tag 'x86_mm_for_6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1016,39 @@ f99dde94bec69be9f3ca23f3ffbd487e5226557f dm vdo: add sysfs support for setting v
 4e97c3055a8364bc49b7855d62f446d116eddca6 dm vdo: add debugging support
 70ff7c46232daed483d6b4b37e04bd003f166f38 dm vdo: add the top-level DM target
 069c266f4844aa2e0bc4c48bacf7e04c8a251017 dm vdo: enable configuration and building of dm-vdo
+22f3cd99709393edd567b5315c60e8fb459304d5 dm vdo: add "funnel-" filename prefix to funnel-queue based sources
+5c9b07debf214564b935ca50c4dea3405629d8a1 dm vdo wait-queue: fix style nits and missing braces
+9d329bd9bbf39257edb476e88a0154a37b9e1ed0 dm vdo hash-map: share code between int_map and pointer_map
+175844e2f0a53b8a1ba6e9de6231e696afa0844c dm vdo hash-map: eliminate indirect function calls for ptr_key
+4d9361abe95ba177e20a4b1a2a78ce69238508f2 dm vdo hash-map: remove unused 'initial_load' arg from vdo_hash_map_create
+a79abfd31be2cacbf75442cb9e73aa3b3dbe411b dm vdo hash-map: call vdo_hash_map_create instead of vdo_make_int_map
+d12f997e344a560469195c887567a958f5bd8cb5 dm vdo hash-map: call vdo_hash_map_free instead of vdo_free_int_map
+126755adba5cd755762cbe7e467307920105c53e dm vdo hash-map: call vdo_hash_map_get instead of vdo_int_map_get
+9f2d9131999480c776b68caa69c519dee2fd5150 dm vdo hash-map: call vdo_hash_map_put instead of vdo_int_map_put
+bf93ce3a90e3567ddc90e9abe3acf56863f8a5e4 dm vdo hash-map: call vdo_hash_map_remove instead of vdo_int_map_remove
+8c39ae05e6f3a16d53ac5d42e3e3bb45a9992207 dm vdo: remove int-map.h since all callers have been converted
+ceefdf5305955e874c5cc7d8a18b5c0d1165c3e5 dm vdo: use BUILD_BUG_ON instead of STATIC_ASSERT
+1325c84b4865eb41fef9a7a10793efc24747989c dm vdo memory-alloc: remove UDS_ALLOCATE_NOWAIT macro
+eee533204a8bda33f9cb1f3614d1fc6f47466c35 dm vdo memory-alloc: rename UDS_FORGET to uds_forget
+ce43a9af9183da84de3c75e8fc99e3357f057484 dm vdo memory-alloc: rename UDS_FREE to uds_free
+1888dd5f000a4925479fa14a9815d4315182101f dm vdo memory-alloc: rename UDS_ALLOCATE to uds_allocate
+3c98434b00f6e3dec121ece64c2858887b45de9d dm vdo memory-alloc: rename UDS_ALLOCATE_EXTENDED to uds_allocate_extended
+ee38e2f9dd2e4c34a12cf8a7d911c518e54dbec9 dm vdo memory-alloc: rename uds_free_memory to uds_free
+f11f6f1f92027cba2a4e765637c84caf3dae29e8 dm vdo memory-alloc: cleanup flow of memory-alloc.h and style nits
+c539f2a4ebd02058b06c859a4dec1aef17e029af dm vdo memory-alloc: mark branch unlikely() in uds_allocate_memory()
+9588325280c9b1fa2a0c03a67b587622db0bf976 dm vdo io-submitter: remove get_bio_sector
+95ac448e665ff57f86637ddc8125e56987f303ea dm vdo io-submitter: remove needless casts and excess newlines
+f08d4ed841d1a5490fd412f82f230d34df45f6df dm vdo io-submitter: rename to vdo_submit_metadata_vio
+5d673cc390da0bb8b88f87b5fda7c4328a0593c4 dm vdo io-submitter: rename to vdo_submit_flush_vio
+8820741c7fd0a07f725878700b1af91b6afa80e2 dm vdo io-submitter: rename to vdo_submit_data_vio
+c67db8170dbe81e8b9588f85cffd83f2c8f4824b dm vdo io-submitter: rename to submit_vio and submit_data_vio
+beb9c593e5ce3b269293b1d7d93cdd72a3a9ea6f dm vdo: cleanup excess newlines and style nits in vdo.[ch]
+c154fa00a481facc694156d7c0945a32e6a2a742 dm vdo: cleanup excess newlines and style nits in block-map.[ch]
+cf6734d47e5b6f5c4ba7fda2d993e295652c5b2f dm vdo wait-queue: add proper namespace to interface
+678a5dc2b07d83b5bb300d1cce08dcc2aba971a4 dm vdo wait-queue: remove unused debug function vdo_waitq_get_next_waiter
+27b9d566412e2c181c892fa411f553342c0d9e8a dm vdo slab-depot: fix whitespace nits and missing braces
+291550dbdd1f2cb3885ba2714f89b15a28ac0655 dm vdo wait-queue: optimize vdo_waitq_dequeue_matching_waiters
+b0fe2b92f609b3ebdde75995f9ccdb10a2a6e375 dm vdo block-map: optimize enter_zone_read_only_mode
+3faeac9daaee41eb28e2724e4c8ab847432ee89a dm vdo wait-queue: rename to vdo_waitq_dequeue_waiter
 
---===============4141231170151421109==--
+--===============3696789450837903708==--
