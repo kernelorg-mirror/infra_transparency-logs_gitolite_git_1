@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 21 Sep 2023 18:40:00 -0000
-Message-Id: <169532160004.4128.10985208454599955371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 21 Sep 2023 18:48:45 -0000
+Message-Id: <169532212541.10495.8581404908704721925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/for-next
-    old: 73db09c9734f53f600e43d9867d35e2b40a927d0
-    new: fe207d3e9fa133f35588d4275edf66ba2dcb2945
+  - ref: refs/heads/perf-tools-next
+    old: a132b784db68b543fd2745973cd8b5edf8e9bde4
+    new: e49be27e18c59639be28cd0d766caf594fe2b77f
     log: |
-         0339eadb871ab1ebf249932fecb75ab13cc3c565 ASoC: dt-bindings: Add Richtek rtq9128 audio amplifier
-         736064c64cf3fc51c6090884a9f4efe047f9f616 ASoC: codecs: Add Richtek rtq9128 audio amplifier support
-         00a6d389b82477548e54d4813d504c2a7317ef7c ASoC: Add rtq9128 audio amplifier
-         fe207d3e9fa133f35588d4275edf66ba2dcb2945 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         3ecf87b2d8ffabb88d1e3901d7a429fd1ecbfc6c perf kwork top: Simplify bool conversion
+         727e43143737431fa973a0051e9cf644e3f110fe perf version: Add status of bpf skeletons
+         9925495d96efc14d885ba66c5696f664fe0e663c perf build: Default BUILD_BPF_SKEL, warn/disable for missing deps
+         c67c631d52f017c2c4795e024ea6aaf3a092ce9e perf test: Update build test for changed BPF skeleton defaults
+         c2ac838ef734cb0ff351820b77acc6fd3b6634fb perf test: Ensure EXTRA_TESTS is covered in build test
+         b4f48f34f9c195e8e82b31ecd8202445962c734b perf test: Detect off-cpu support from build options
+         ede72dca45b1893f3e9236b6ad6c4e790db232f6 perf parse-events: Fix tracepoint name memory leak
+         e49be27e18c59639be28cd0d766caf594fe2b77f perf jevents: fix no member named 'entries' issue
          
