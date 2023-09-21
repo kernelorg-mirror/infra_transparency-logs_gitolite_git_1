@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3710818157643797017=="
+Content-Type: multipart/mixed; boundary="===============1870646761791273708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 21 Sep 2023 07:33:51 -0000
-Message-Id: <169528163134.26010.617802565164903556@gitolite.kernel.org>
+Date: Thu, 21 Sep 2023 07:34:00 -0000
+Message-Id: <169528164008.26144.5056087539187401770@gitolite.kernel.org>
 
---===============3710818157643797017==
+--===============1870646761791273708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: aec42f36237b09e42eac39f6c74305aec02b4694
     new: b3af9c0e89ca721dfed95401c88c8c6e8067b558
     log: revlist-aec42f36237b-b3af9c0e89ca.txt
 
---===============3710818157643797017==
+--===============1870646761791273708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -153,4 +153,4 @@ ccd663caffc7b5158a0a841b70618d9e87da531c net: dsa: mv88e6xxx: make const read-on
 6c0da8406382d39ec06ad54b0d4935bd7d63612c wifi: cfg80211: make read-only array centers_80mhz static const
 b3af9c0e89ca721dfed95401c88c8c6e8067b558 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============3710818157643797017==--
+--===============1870646761791273708==--
