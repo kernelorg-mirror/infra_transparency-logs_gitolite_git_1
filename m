@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5396534404801669743=="
+Content-Type: multipart/mixed; boundary="===============2514816034729384496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 21 Sep 2023 21:17:48 -0000
-Message-Id: <169533106847.22185.12259767604090087770@gitolite.kernel.org>
+Date: Thu, 21 Sep 2023 21:17:56 -0000
+Message-Id: <169533107648.22292.3834229496788788374@gitolite.kernel.org>
 
---===============5396534404801669743==
+--===============2514816034729384496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f30e5323a188cfc2d74b04f222cea0dbe9ffd6e6
     new: e9cbc89067cce78211c8629c78e931c0fe64e29d
     log: revlist-f30e5323a188-e9cbc89067cc.txt
 
---===============5396534404801669743==
+--===============2514816034729384496==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -427,4 +427,4 @@ b5cbe7c00aa0f7a81ec40c007f81a3e9c84581e3 Merge tag 'v6.6-rc3.vfs.ctime.revert' o
 27bbf45eae9ca98877a2d52a92a188147cd61b07 Merge tag 'net-6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e9cbc89067cce78211c8629c78e931c0fe64e29d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5396534404801669743==--
+--===============2514816034729384496==--
