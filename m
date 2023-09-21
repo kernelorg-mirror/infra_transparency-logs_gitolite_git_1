@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3703232414444036450=="
+Content-Type: multipart/mixed; boundary="===============5124392403318851952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 21 Sep 2023 13:45:58 -0000
-Message-Id: <169530395843.30541.870537184370731963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 21 Sep 2023 13:48:48 -0000
+Message-Id: <169530412854.31606.12590648643439307873@gitolite.kernel.org>
 
---===============3703232414444036450==
+--===============5124392403318851952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/testing
-    old: 93b9845bb2531911ad28c05e730023577fb8d6b3
-    new: ecf4392600dd86fce54445b67a0e2995bf96ba51
-    log: revlist-93b9845bb253-ecf4392600dd.txt
+  - ref: refs/heads/for-next/scmi/updates
+    old: 141b4fa0362569138653cf0165d92d48576db3fa
+    new: 6874f1497adf6b7d9b33f9c891a7baee45481948
+    log: revlist-141b4fa03625-6874f1497adf.txt
 
---===============3703232414444036450==
+--===============5124392403318851952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93b9845bb253-ecf4392600dd.txt
+Content-Disposition: attachment; filename=revlist-141b4fa03625-6874f1497adf.txt
 
-f1d95df0f31048f1c59092648997686e3f7d9478 net: rds: Fix possible NULL-pointer dereference
-4e4b1798cc90e376b8b61d0098b4093898a32227 vxlan: Add missing entries to vxlan_get_size()
-c9bd26513b3a11b3adb3c2ed8a31a01a87173ff1 netfilter: nf_tables: disable toggling dormant table state more than once
-cf5000a7787cbc10341091d37245a42c119d26c5 netfilter: nf_tables: fix memleak when more than 255 elements expired
-7433b6d2afd512d04398c73aa984d1e285be125b netfilter: ipset: Fix race between IPSET_CMD_CREATE and IPSET_CMD_SWAP
-22b6e7f3d6d51ff2716480f3d8f3098d90d69165 net: hinic: Fix warning-hinic_set_vlan_fliter() warn: variable dereferenced before check 'hwdev'
-4a0f07d71b0483cc08c03cefa7c85749e187c214 net/handshake: Fix memory leak in __sock_create() and sock_alloc_file()
-6f411fb5ca9419090bee6a0a46425e0a5060b734 net: ena: Flush XDP packets on error.
-edc0140cc3b7b91874ebe70eb7d2a851e8817ccc bnxt_en: Flush XDP for bnxt_poll_nitroa0()'s NAPI
-70b2b6892645e58ed6f051dad7f8d1083f0ad553 octeontx2-pf: Do xdp_do_flush() after redirects.
-49dcffef85ccb3022b932ca545069aa4f9fbc11c Merge branch 'add-missing-xdp_do_flush-invocations'
-1703b2e0de653b459ca6230be32ce7f2ea0ae7ee igc: Expose tx-usecs coalesce setting to user
-fc21f08375dbf654bd1fda748261955de580ac14 sfc: handle error pointers returned by rhashtable_lookup_get_insert_fast()
-ecf4392600dd86fce54445b67a0e2995bf96ba51 Merge tag 'nf-23-09-20' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+a57f42ebc8f29e4f3011b488a38a3d5bbeb46b56 firmware: arm_scmi: Extend perf protocol ops to get number of domains
+175a2d680704805872d4cd5afc803725c5259cae firmware: arm_scmi: Extend perf protocol ops to get information of a domain
+45d64b0084088127ef7f6a9d1bb83990f1e1f083 cpufreq: scmi: Prepare to move OF parsing of domain-id to cpufreq
+33ab6465f8f481396464b58083db719fa56df843 firmware: arm_scmi: Align perf ops to use domain-id as in-parameter
+4708dc69441875b945ffd54c53bc02ef5756ee14 firmware: arm_scmi: Drop redundant ->device_domain_id() from perf ops
+7cbbca8d042a78f97dcdacc063fb86bd43e4353a cpufreq: scmi: Avoid one OF parsing in scmi_get_sharing_cpus()
+22c363f87d40a1a6f73c028efdcf830e95371dcd dt-bindings: arm: cpus: Add a power-domain-name for a performance-domain
+e8302dea0664d5a6630975b61ae927da588f509d dt-bindings: firmware: arm,scmi: Extend bindings for protocol@13
+7203bb0a29abbce4a3cf320b91b8add55f3ebbcd dt-bindings: power: Clarify performance capabilities of power-domains
+082e81ca94be8d6579bc7312d645f162e34ef425 cpufreq: scmi: Add support to parse domain-id using #power-domain-cells
+37c8ab72bea20163813d6905e62dbef68d3d0a66 PM: domains: Allow genpd providers to manage OPP tables directly by its FW
+4eb02f43d7296f4b9942ed6620967d18bf44ad50 pmdomain: arm: Add the SCMI performance domain
+6874f1497adf6b7d9b33f9c891a7baee45481948 firmware: arm_scmi: Move power-domain driver to the pmdomain dir
 
---===============3703232414444036450==--
+--===============5124392403318851952==--
