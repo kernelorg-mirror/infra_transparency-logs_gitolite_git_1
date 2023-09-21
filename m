@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6438050419115028400=="
+Content-Type: multipart/mixed; boundary="===============2869453350537052219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Thu, 21 Sep 2023 10:25:19 -0000
-Message-Id: <169529191999.10527.13190856574668176530@gitolite.kernel.org>
+Date: Thu, 21 Sep 2023 10:25:30 -0000
+Message-Id: <169529193031.10679.5858077300435084624@gitolite.kernel.org>
 
---===============6438050419115028400==
+--===============2869453350537052219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 72d00e560d10665e6139c9431956a87ded6e9880
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     log: revlist-72d00e560d10-0bb80ecc33a8.txt
 
---===============6438050419115028400==
+--===============2869453350537052219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============6438050419115028400==--
+--===============2869453350537052219==--
