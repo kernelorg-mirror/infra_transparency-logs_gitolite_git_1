@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6655867226677342641=="
+Content-Type: multipart/mixed; boundary="===============7763551704345080758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 21 Sep 2023 16:29:36 -0000
-Message-Id: <169531377661.21392.1168319996843623804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Sep 2023 16:29:43 -0000
+Message-Id: <169531378371.21536.4701854634366322994@gitolite.kernel.org>
 
---===============6655867226677342641==
+--===============7763551704345080758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 31bb7bd9ffee50d09ec931998b823a86132ab807
     new: 95bfb16d66cc078aa93d06863354970f615565d1
     log: |
@@ -28,37 +28,37 @@ changes:
          41bae58df411f9accf01ea660730649b2fab1dab ASoC: simple-card: fixup asoc_simple_probe() error handling
          95bfb16d66cc078aa93d06863354970f615565d1 ASoC: Intel: soc-acpi: Adding Es83x6 codec entry and
          
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 842a62a75e709b3efb5020a25a225fa51748c5f9
     new: 2f3fb85b258334a4247af5c92b4a21480ca5634e
     log: revlist-842a62a75e70-2f3fb85b2583.txt
 
---===============6655867226677342641==
+--===============7763551704345080758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1695313774 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1695313773-31b404c5a5c4be9768d777947db9f4fef9d78857
+pusher C3F436CA30F5D8EB 1695313781 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1695313780-15357ab9aa3092f5fee536df9656c6dd90ac751a
 
-31bb7bd9ffee50d09ec931998b823a86132ab807 95bfb16d66cc078aa93d06863354970f615565d1 refs/heads/for-6.6
-842a62a75e709b3efb5020a25a225fa51748c5f9 2f3fb85b258334a4247af5c92b4a21480ca5634e refs/heads/for-6.7
+31bb7bd9ffee50d09ec931998b823a86132ab807 95bfb16d66cc078aa93d06863354970f615565d1 refs/heads/asoc-6.6
+842a62a75e709b3efb5020a25a225fa51748c5f9 2f3fb85b258334a4247af5c92b4a21480ca5634e refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUMb24ACgkQJNaLcl1U
-h9A+Ygf+LRaXC1nBpkMhuYUc0g9H4GPYE6o8pt2eTmso6GrTa0LzD/AVHrVNDZVs
-k3Wc0bsC5mb2Oi3Ep/rokU5Zf6IKyIMa/Z85SOr/DYCMdUkOy1Inm2zA9AJ8U31a
-uo43gxNnLXJItNNMLuDVkKtnrZrYMzHCelu08SyOr+HWYLh38jFA/B4dKzoGmbAx
-k55dlnFjexgUdr7dfUpwAPVgJXvY55hVVCWuUlflvEglWzCrqQYTHgBh/K1bdDqJ
-4+ZMNIITuCd8zsfWsl0rrzSoWsb+bcoepWc1nsv7IE7fjJhgbDw0wI64WNKYC9Ou
-65oTRwoPCfaIT5SkfnjWkHRB/TcQ2g==
-=3qSv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUMb3UACgkQJNaLcl1U
+h9DdOAf+KnI6zhEqVjeW8Xqiy6TZTMQTjwgK7ylYPhMRdCVKBliTSwHbx1pAehTe
+KdBv6UJbqyZTQJQIJxfL3JqTA5o63359sgC0A5ALlWFdd8ugwqLsLYwtgRd6+kiE
+AyqD6klQMYGwuFGF05coLw9kMZ3YL0/Mem98tNv0tcDkH5UVlJoU5vW9OyMgzBy8
+1Wq943UUJ9o1EBHQGO5HJVbrnFlELrroMcmszVa14MOSG0I39IzSj6CFllqJlwB8
+J0LOGtvURKaLAfPUsXFEzzg5PxipFZghREG7itzrw5idkOZsYgPyPKLUayQ8o4kW
+O5tcQYBlB0fgGcXQbI0Rhr/912pjJQ==
+=cPDY
 -----END PGP SIGNATURE-----
 
---===============6655867226677342641==
+--===============7763551704345080758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -99,4 +99,4 @@ cc676c0df591a81de662bb28a705fe6ed1331024 ASoC: intel: Add CS42L43 sdw machine dr
 667f45ca80cbf344695cf3a58eeb2191e6724de6 Minor default jack pop performance updates
 2f3fb85b258334a4247af5c92b4a21480ca5634e ASoC: hdac_hda: fix HDA patch loader support
 
---===============6655867226677342641==--
+--===============7763551704345080758==--
