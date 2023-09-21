@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Thu, 21 Sep 2023 14:42:10 -0000
-Message-Id: <169530733021.6857.9550027076831506375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 21 Sep 2023 14:45:58 -0000
+Message-Id: <169530755874.10019.7938608100788972343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/next
-    old: 05733bd60f7aa4f260a2837574555bbd3b847cca
-    new: 56156a76e765d32009fee058697c591194d0829f
+  - ref: refs/heads/master
+    old: b3af9c0e89ca721dfed95401c88c8c6e8067b558
+    new: f30e5323a188cfc2d74b04f222cea0dbe9ffd6e6
     log: |
-         2d6064e96631668077504d535ad6bc8c6011a960 dt-bindings: phy: st: convert phy-stih407-usb to DT schema
-         1852dfaacd3f4358bbfca134b63a02bbb30c1136 dt-bindings: phy: qcom,m31: Add IPQ5018 compatible
-         68320e35f8cb1987b4ad34347fc7033832da99e3 phy: qcom-m31: Add compatible, phy init sequence for IPQ5018
-         77fee21e3cc0e24c7e60e554cc069cb3572b4011 dt-bindings: phy: Add compatible for Mediatek MT8188
-         c20b59b2996c89c4f072c3312e6210528a298330 dt-bindings: phy: qcom,snps-eusb2-repeater: Add magic tuning overrides
-         4ba2e52718c0ce4ece6a269bec84319c355c030f phy: qualcomm: phy-qcom-eusb2-repeater: Use regmap_fields
-         99a517a582fc1272d1d3cf3b9e671a14d7db77b8 phy: qualcomm: phy-qcom-eusb2-repeater: Zero out untouched tuning regs
-         56156a76e765d32009fee058697c591194d0829f phy: qualcomm: phy-qcom-eusb2-repeater: Add tuning overrides
+         0df7cd3c13e44d01f9f28e29cbce74e2931b00fe vsock/virtio/vhost: read data from non-linear skb
+         64c99d2d6adac80cb17669736e32bdb331d68193 vsock/virtio: support to send non-linear skb
+         4b0bf10eb077cb43c09746251ef3608d62c45667 vsock/virtio: non-linear skb handling for tap
+         581512a6dc939ef122e49336626ae159f3b8a345 vsock/virtio: MSG_ZEROCOPY flag support
+         71b263e79370348349553ecdf46f4a69eb436dc7 Merge branch 'vsock-virtio-vhost-msg_zerocopy-preparations'
+         f20161cf51657bf4c85380c0c1c80188a74f168d netdev: Remove unneeded semicolon
+         f30e5323a188cfc2d74b04f222cea0dbe9ffd6e6 net: dsa: sja1105: make read-only const arrays static
          
