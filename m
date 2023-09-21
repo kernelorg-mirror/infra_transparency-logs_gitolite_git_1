@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 21 Sep 2023 06:56:24 -0000
-Message-Id: <169527938428.18381.9345534464355929591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 21 Sep 2023 07:05:15 -0000
+Message-Id: <169527991587.5396.3753783905100683281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 068bdad6b07f0ea5410ca631f55f1a2c03f2525f
-    new: e737388376bf52cdb6109db19092fdaab5055f82
+  - ref: refs/heads/objtool/core
+    old: fef44ebaf61b57a71ab818058926a3f9a0ac81e6
+    new: 0ca0043d89930cb162070598e7e4a9ed3fe57795
     log: |
-         e737388376bf52cdb6109db19092fdaab5055f82 Notes added by 'git notes add'
+         0ca0043d89930cb162070598e7e4a9ed3fe57795 x86/speculation, objtool: Use absolute relocations for annotations
          
