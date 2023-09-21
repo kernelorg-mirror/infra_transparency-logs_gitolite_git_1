@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 21 Sep 2023 17:58:36 -0000
-Message-Id: <169531911627.25066.4754932494115586753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 21 Sep 2023 18:07:31 -0000
+Message-Id: <169531965164.13319.5181265490188908441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: a132b784db68b543fd2745973cd8b5edf8e9bde4
-    new: e49be27e18c59639be28cd0d766caf594fe2b77f
+  - ref: refs/heads/rcu/torture-init-stress-ng
+    old: 8ccccc9511e229ad1e65006ceb0cabda0a44fde4
+    new: 488cd5ae5d0e0cfece04e26f03c629846144b13d
     log: |
-         3ecf87b2d8ffabb88d1e3901d7a429fd1ecbfc6c perf kwork top: Simplify bool conversion
-         727e43143737431fa973a0051e9cf644e3f110fe perf version: Add status of bpf skeletons
-         9925495d96efc14d885ba66c5696f664fe0e663c perf build: Default BUILD_BPF_SKEL, warn/disable for missing deps
-         c67c631d52f017c2c4795e024ea6aaf3a092ce9e perf test: Update build test for changed BPF skeleton defaults
-         c2ac838ef734cb0ff351820b77acc6fd3b6634fb perf test: Ensure EXTRA_TESTS is covered in build test
-         b4f48f34f9c195e8e82b31ecd8202445962c734b perf test: Detect off-cpu support from build options
-         ede72dca45b1893f3e9236b6ad6c4e790db232f6 perf parse-events: Fix tracepoint name memory leak
-         e49be27e18c59639be28cd0d766caf594fe2b77f perf jevents: fix no member named 'entries' issue
+         488cd5ae5d0e0cfece04e26f03c629846144b13d  gcov: add gcov files for stock config 1 hour run
          
