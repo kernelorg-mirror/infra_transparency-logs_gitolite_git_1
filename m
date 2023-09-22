@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 22 Sep 2023 08:54:21 -0000
-Message-Id: <169537286191.13174.7763305595204915397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 22 Sep 2023 09:03:48 -0000
+Message-Id: <169537342888.19781.12781125718016785012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 19d3751ac5dcec305396036381677008dfb485d3
-    new: 82eaed9d4c5cc7bad322dd1e26b2f7bb238a5911
+  - ref: refs/heads/stm32-next
+    old: ed6936be72be221448158e8b82600d19ebe4b7f8
+    new: b79b114365dd7a3714335230e80d455abc67036c
     log: |
-         4a41a57dd39d2012b890cb06c4d336967d29a1f6 pem: Remove unneeded HAVE_CONFIG_H guard
-         82eaed9d4c5cc7bad322dd1e26b2f7bb238a5911 sysctl: Use the include guard instead of pragma once
+         b79b114365dd7a3714335230e80d455abc67036c ARM: dts: stm32: add HASH on stm32mp131
          
