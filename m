@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1952912422848258271=="
+Content-Type: multipart/mixed; boundary="===============1782510870942960978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 22 Sep 2023 17:16:48 -0000
-Message-Id: <169540300878.10315.11049720868557323402@gitolite.kernel.org>
+Date: Fri, 22 Sep 2023 17:17:47 -0000
+Message-Id: <169540306714.10761.9135176382984161678@gitolite.kernel.org>
 
---===============1952912422848258271==
+--===============1782510870942960978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 6cd59324c69a8d30956c70a870dcd0cb14977914
-    new: 8e2f391eccb76816f01d3a3ceb837d79ef171111
-    log: revlist-6cd59324c69a-8e2f391eccb7.txt
+  - ref: refs/heads/for-next/kspp
+    old: ef1f96016465b31be9864da7c821207cd936e415
+    new: f6a3658a9dc72bd8bc250d39ac10263c34a6aecd
+    log: revlist-ef1f96016465-f6a3658a9dc7.txt
 
---===============1952912422848258271==
+--===============1782510870942960978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cd59324c69a-8e2f391eccb7.txt
+Content-Disposition: attachment; filename=revlist-ef1f96016465-f6a3658a9dc7.txt
 
 5c8796f4f2e30f5adffea9d407abe45817cc9f24 dmaengine: apple-admac: Annotate struct admac_data with __counted_by
 9191993912dc7c7e3e4011573453f45685334728 dmaengine: at_hdmac: Annotate struct at_desc with __counted_by
@@ -48,5 +48,6 @@ eb83cf3b657b30064eef32615d20d228e45152d2 dmaengine: tegra: Annotate struct tegra
 4dccb001f80763237a931e4d45f3080ceb471d44 dmaengine: uniphier-xdmac: Annotate struct uniphier_xdmac_device with __counted_by
 fb0702aa1b91925582d8bfceeae9865f2b064956 dmaengine: usb-dmac: Annotate struct usb_dmac_desc with __counted_by
 8e2f391eccb76816f01d3a3ceb837d79ef171111 dmaengine: ep93xx_dma: Annotate struct ep93xx_dma_engine with __counted_by
+f6a3658a9dc72bd8bc250d39ac10263c34a6aecd Merge branches 'for-next/hardening' and 'for-linus/hardening' into for-next/kspp
 
---===============1952912422848258271==--
+--===============1782510870942960978==--
