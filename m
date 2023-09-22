@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 22 Sep 2023 07:19:31 -0000
-Message-Id: <169536717100.8965.8656092229698162257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 22 Sep 2023 07:26:52 -0000
+Message-Id: <169536761297.14797.1635598611539551674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/main
-    old: 27bbf45eae9ca98877a2d52a92a188147cd61b07
-    new: a59addacf899b1b21a7b7449a1c52c98704c2472
+  - ref: refs/heads/stm32-next
+    old: c848f884d1b4d858dff03269265a3300f542011c
+    new: 74649c9895037eae02ecbe1c5d49c09529664769
     log: |
-         a59addacf899b1b21a7b7449a1c52c98704c2472 drivers/net: process the result of hdlc_open() and add call of hdlc_close() in uhdlc_close()
+         873863dd13ffc58a8671d48798f1b2e6901dca59 arm64: dts: st: add sdmmc1 node in stm32mp251 SoC file
+         7db55ad3a64a46bfcdb6f902090f844654d60dfe arm64: dts: st: add sdmmc1 pins for stm32mp25
+         74649c9895037eae02ecbe1c5d49c09529664769 arm64: dts: st: add SD-card support on STM32MP257F-EV1 board
          
