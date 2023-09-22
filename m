@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1320019694283843400=="
+Content-Type: multipart/mixed; boundary="===============3693563082074568446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 22 Sep 2023 12:11:02 -0000
-Message-Id: <169538466215.11181.16894725399459315072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 22 Sep 2023 12:27:10 -0000
+Message-Id: <169538563033.21634.5878056765331119412@gitolite.kernel.org>
 
---===============1320019694283843400==
+--===============3693563082074568446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/origin-master
-    old: 42dc814987c1feb6410904e58cfd4c36c4146150
-    new: 27bbf45eae9ca98877a2d52a92a188147cd61b07
-    log: revlist-42dc814987c1-27bbf45eae9c.txt
+  - ref: refs/heads/kdevops
+    old: 81cd878b491c59ba5c290cbd2d9ed3cf7c2bc5ad
+    new: b7a91d971cae5c2a25878b00ccf6e6739d9ddec6
+    log: revlist-81cd878b491c-b7a91d971cae.txt
 
---===============1320019694283843400==
+--===============3693563082074568446==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-42dc814987c1-27bbf45eae9c.txt
+Content-Disposition: attachment; filename=revlist-81cd878b491c-b7a91d971cae.txt
 
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
 96b33300fba880ec0eafcf3d82486f3463b4b6da netfilter: nft_set_rbtree: use read spinlock to avoid datapath contention
@@ -222,5 +222,16 @@ fb8b1b93eed0f5ddb2f9903c2de2d9de8b372e8f Merge tag 'fixes-2023-09-21' of git://g
 7bdfc1af0a5af34b3c9620a2023d2ea00fd77b57 Merge tag 'powerpc-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 b5cbe7c00aa0f7a81ec40c007f81a3e9c84581e3 Merge tag 'v6.6-rc3.vfs.ctime.revert' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 27bbf45eae9ca98877a2d52a92a188147cd61b07 Merge tag 'net-6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+f8f2d6d669b91ea98ec8f182c22e06d3d0663e15 overlayfs: set ctime when setting mtime and atime
+dbc10bddbaf478c6540841d1c417c3eb03b7798e fs: multigrain timestamps (redux)
+4fc4cc7af007778c4a0ccb2df609b21a2ce6dcd7 fs: add infrastructure for multigrain timestamps
+26149beb2512d725b7314700ea42a49a0b98a0cc fs: optimize away some fine-grained updates
+2123fb3b0fe3aa04452a7d4fc288fad9dedac16a fs: have setattr_copy handle multigrain timestamps appropriately
+ac2bd5f458ce3fd0b86c27c408f999bb13e52b73 fs: add timestamp_truncate_to_gran helper
+bb8425828af80a30926b903cf7082c2dbaa52f83 xfs: switch to multigrain timestamps
+e4dcd2ab52a7d226c50b4459553d111bd9a47f36 Merge branch 'trond/testing'
+21f82d89e19a56e83f9fcca8b8da463ba9c413df Merge branch 'mrchuck/nfsd-next'
+4d9ca8491f0a64a53e91ef3df978a1172bc22abf Merge branch 'ctime'
+b7a91d971cae5c2a25878b00ccf6e6739d9ddec6 nfs: decrement nrequests counter before releasing the req
 
---===============1320019694283843400==--
+--===============3693563082074568446==--
