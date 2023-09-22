@@ -1,54 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0200267980591460856=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 22 Sep 2023 06:57:17 -0000
-Message-Id: <169536583795.25008.7521834466702913556@gitolite.kernel.org>
-
---===============0200267980591460856==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 22 Sep 2023 06:57:50 -0000
+Message-Id: <169536587024.25308.14025850033212560573@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 70ff246387ee0b2f0ef4fa3a88d3123ce67297d0
-    new: 3cf4b36b634fe3ef7620ad688d369a45a605fe7b
+  - ref: refs/heads/master
+    old: 96c6ffc69c32620172dfa4104fa33433099e419a
+    new: a67d1c8da2dc6874e466e4d3705eb20c7f797b26
     log: |
-         8d1390cb442cb94d44bb7867f40865f658d1bca0 mm/slub: simplify the last resort slab order calculation
-         c3e7ba7ca1027fb89d3a6deaf840b833691e41d6 mm/slub: remove min_objects loop from calculate_order()
-         d8fa84dcc0553e1ca9cef31a27f0a46101e6cb1d mm/slub: attempt to find layouts up to 1/2 waste in calculate_order()
-         7abe7ed1e2a308b9a254dc6c46d448490a7d1a1c mm/slub: refactor calculate_order() and calc_slab_order()
-         3cf4b36b634fe3ef7620ad688d369a45a605fe7b Merge branch 'slab/for-6.7/orders-cleanup' into slab/for-next
+         4923954bbc4a760e0b2210e0cb5733726ac2e2e9 futex: Clarify FUTEX2 flags
+         d6d08d24790e82c69a46ef78ae44fe1b1ed30775 futex: Extend the FUTEX2 flags
+         5694289ce183bc3336407a78c8c722a0b9208f9b futex: Flag conversion
+         698eb826383616ce0e817d2384da6413d1439fb6 futex: Validate futex value against futex size
+         9f6c532f59b20580acf8ede9409c9b8dce6e74e1 futex: Add sys_futex_wake()
+         43adf844951084c266f172561f84c5f8120dd60b futex: FLAGS_STRICT
+         cb8c4312afca1b2dc64107e7e7cea81911055612 futex: Add sys_futex_wait()
+         3b63a55f498b763aba0886b244df613587a73c46 futex: Propagate flags into get_futex_key()
+         27b88f3519e72d71c8cead6b835a26c171109c9b futex: Add flags2 argument to futex_requeue()
+         0f4b5f972216782a4acb1ae00dcb55173847c2ff futex: Add sys_futex_requeue()
+         a67d1c8da2dc6874e466e4d3705eb20c7f797b26 Merge branch into tip/master: 'locking/core'
          
-
---===============0200267980591460856==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1695365834 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1695365834-03200339da8f3606ff39c56d4ac4246126967cf9
-
-70ff246387ee0b2f0ef4fa3a88d3123ce67297d0 3cf4b36b634fe3ef7620ad688d369a45a605fe7b refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmUNOsoACgkQu+CwddJF
-iJquRAgAjfRnUY5W9AamZrf9X90hhER4xhTAWTZoxFxfFRs/OBJAbvRVPAQiqOjf
-5n2pOyDVmOU6vVWVuDOcbnyizPKn77wYb/W20BWhhkzq0wOT5XO/eBrUzXhIPUh/
-N9l0y4I9rdtsbnJxPIzAnq60DwBIoxtd+v3CaigAMfBdE5sctd+q5faInguk1h5K
-38Sb6Ubn3jNpm/c0MXbcp7i/kw3DzaZQUeghXQoumKJYvzggvW5zBm6NEOcQZziR
-IYgO3mGf4AI8RKzx/KHaoSv6aBwoB/rP7YzsLx5OTpk68qvVX24WhhkbbJHLZ0oj
-v0a+XjMl8i86VUtqOfaEUgSmc43wjg==
-=E3eU
------END PGP SIGNATURE-----
-
---===============0200267980591460856==--
