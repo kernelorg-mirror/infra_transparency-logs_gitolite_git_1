@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Fri, 22 Sep 2023 21:37:21 -0000
-Message-Id: <169541864174.7267.15190293441902236017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 22 Sep 2023 21:47:33 -0000
+Message-Id: <169541925326.15016.535538803971114810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/md-next
-    old: e887544d7620f1d3cef017e45df7bc625182caff
-    new: 2ba70b8d2990157e3926de7c2160e35ba2998b95
+  - ref: refs/heads/master
+    old: ac0691c75ab78cd240630c184ffbf09433de2d2e
+    new: 831916fb93d4b99bd5f18b8530708b88d901a522
     log: |
-         08528ea63e8c22be433e34bedf0fa03cb3a823cd md: factor out helpers to grab and put 'active_io'
-         2ba70b8d2990157e3926de7c2160e35ba2998b95 md: fix potential hang for mddev_suspend()
+         7257cee65269a066c242f4863b456275cb0218b5 libbpf: Resolve symbol conflicts at the same offset for uprobe
+         bb7fa09399b937cdc4432ac99f9748f5a7f69389 libbpf: Support symbol versioning for uprobe
+         7089f85a9eb943716052bb91bd65ce939976ebfa selftests/bpf: Add tests for symbol versioning for uprobe
+         831916fb93d4b99bd5f18b8530708b88d901a522 Merge branch 'libbpf: Support symbol versioning for uprobe'
          
