@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895413029738633421=="
+Content-Type: multipart/mixed; boundary="===============2898740087919692854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 22 Sep 2023 02:24:39 -0000
-Message-Id: <169534947943.21738.18369517697828395267@gitolite.kernel.org>
+Date: Fri, 22 Sep 2023 02:24:52 -0000
+Message-Id: <169534949274.21928.8825325365257986418@gitolite.kernel.org>
 
---===============5895413029738633421==
+--===============2898740087919692854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5b8c35d8a325e66c22189f51d111e85389843658
-    new: 9c40eee6bf05f968222e5435c265f23e5556ee7b
-    log: revlist-5b8c35d8a325-9c40eee6bf05.txt
+  - ref: refs/heads/6.7/scsi-staging
+    old: 17d11949827375d74bdf5df18c3f5813ee7d5933
+    new: 8b57f75cf96f6ac3bf80d8c82421397a1737a26f
+    log: revlist-17d119498273-8b57f75cf96f.txt
 
---===============5895413029738633421==
+--===============2898740087919692854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1695349468 -0400
+pusher 75C5DE3D 1695349482 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1695349468-92dedc1849c0b32cadeedcd131f75b3e77782ef7
+nonce 1695349482-6f62ae8e49fd7b5fe6a8107f28dfc7a021aa4bd0
 
-5b8c35d8a325e66c22189f51d111e85389843658 9c40eee6bf05f968222e5435c265f23e5556ee7b refs/tags/mkp-scsi-staging
+17d11949827375d74bdf5df18c3f5813ee7d5933 8b57f75cf96f6ac3bf80d8c82421397a1737a26f refs/heads/6.7/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUM+twACgkQ7ulgGnXF
-3j0GPg/+PbX0GLAID2A58r4fh5Ck8/awu5VhkVBQ3NtncmQ9mNaHtoSJj4cq+i4w
-kEfgWBsjZddwXYhvTsZNcGdAcNxV7DSC2Pk010Fz7ApvWeOsMD5QxJRUDuxlfoy3
-NzTCKj2Moo69f1/FVQzG7S3DSqOPjVgWXuoQFj+CQccB2H7SzLmEMdeKe3OsJ5Ju
-KfTAbx/5Xqty61zOP9i+njCn1UY/xVrDJOG9ET/MG4GAj6xwa+iV8Yvbyi8ARBX1
-N9Y6HyisTQn/DolZbzmQyp10gtKfnDgAoaTbp1t9Nbmi7CIqDFfKDQC5O5aXIfZl
-O0dRY65YUeP34iNeSmRn6RW0hBqFRv5aW80taLmV86jWmPMnZpNKeyxfFzoajc+u
-zdGYnPWecKB9W/89GoPYNQawEcBcmRIYHbSwnOHP7sF4KMOG6APb/QVi0BOE9Pdc
-F4WP271XaM7eCUohsZOEJugz91OYJk4Fnu7ZY8Y3uX7gtA2nT6bMC3CzsGbMedxk
-zsi3zVDf+q0XBONFKfzL6NI4ptpIfpOvF6IWQx9JB9L9N/unlTEZ0bkwgC8UO3kL
-OwPdn/ZvXsEFFTHCixKmnY7T4RFQ4Xz7d0ZAXLjEIi7DOrqsjYu/i7QOPB170Hns
-I1/GBaGO64bTL7NSK/vUi4IOItgt+kjLaLqTGHETG79/LTnaNqs=
-=5/kL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUM+uoACgkQ7ulgGnXF
+3j0deA/+NmYX+pSz91mbTuCv8OrRPe+/9ap+4/wwlpL7d5tqcy1fD7ZJQ0ufogkQ
+3Gr+t2RVGH6TpepiGCbDaGYv8boPbtub9QlSncJpHg7qbdRKOTqutvhwsF289FeZ
+HRzfEXSnuzHYJsOgrUi2KT1ZM0bl1xmxVqcG8TFjwk+ToSPZVLvmCbc02vlKZCRm
+rVbcuF3ycCfRCo1XaIxO0RRjPCnXgup/2BbEvhRo9ioQCtRy8qzboCsCGVyUMQvF
+g4mW2YRBLWNIRu5FFFLNHA92uJoBL/TkIW4TZQWGy/9I6PFpboHke4E9/Sj4F3+i
+9n9ahRMCaWLtITTVokOh5tUd3dcMHNKfYwa0a+44NNBRmnW/UUtoEOgoIKQLMxwc
+Sj6d3vvGHkv4dqJYgrCdmM6pitEDtQQinY8yylJ/L3BrXEhTHKSlctcCpeCpbdDJ
+ltXP2r+Y7S1I5DnhCIlYhMhpK569Sj8P2aa7Hlx2gubMWt4lmahTS5pq/xzlcZPe
+FjZZgeGW1FUQKt+i+fDewXeJqFwZ9WQsHPkkLJKbxX8mOMj9EJ851TJgbDECcw+h
+QRqR7h6Wy8mwUS2w4P5HYZEvxLIIElA2Bh+PdQW5qSrYbcEgJC+IKeZ8JIUnY/SL
+1b/4i7JHMnSIXfnDwqv+n/zH8eJFCtbLLai2BUvuoP/gUaMqD3E=
+=QBov
 -----END PGP SIGNATURE-----
 
---===============5895413029738633421==
+--===============2898740087919692854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b8c35d8a325-9c40eee6bf05.txt
+Content-Disposition: attachment; filename=revlist-17d119498273-8b57f75cf96f.txt
 
 0b0747d507bffb827e40fc0f9fb5883fffc23477 scsi: megaraid_sas: Fix deadlock on firmware crashdump
 31a0865bf593e59c4433a3624b4c87c40049ed9a scsi: ppa: Fix accidentally reversed conditions for 16-bit and 32-bit EPP
@@ -101,4 +101,4 @@ eb85f1d76aac7c0d0f3487aa31b9b88c0ca81929 scsi: ibmvfc: Add protocol field to ibm
 1202706a28e816b2c05d436601bcbc8c99bde372 Merge patch series "ibmvfc: fixes and generic prep work for NVMeoF support"
 8b57f75cf96f6ac3bf80d8c82421397a1737a26f scsi: target: Remove the references to http://www.linux-iscsi.org/
 
---===============5895413029738633421==--
+--===============2898740087919692854==--
