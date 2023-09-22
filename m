@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 22 Sep 2023 15:50:03 -0000
-Message-Id: <169539780368.10129.4264237941240984857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 22 Sep 2023 15:51:04 -0000
+Message-Id: <169539786449.10932.611315328206288581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: f44995eeeea6410037acf2896086d77fd9c370c7
-    new: 8cb348f1e2115b0cc44fe8add1bb19f5b86ea9f8
+  - ref: refs/heads/contrib
+    old: 0956f390a8a8599c865ea5ea876ee8ce65a83e6c
+    new: 5b98e0e7a5eec220d4a00a5ed318b37582908eac
     log: |
-         b8643d682669994b3f57c3440df3d4f9cb735f35 blk-mq: account active requests when get driver tag
-         48554df6bf2b1e83f70749bf4b4d7914f8b3c01d blk-mq: remove RQF_MQ_INFLIGHT
-         434097ee375fff36bc5037524609ffd6199f11da blk-mq: support batched queue_rqs() on shared tags queue
-         217b613a53d3a430aa2e5d1523819dc271f02ff0 blk-mq: update driver tags request table when start request
-         d78bfa1346ab1fe04d20aa45a0678d1fc866f37c block/null_blk: add queue_rqs() support
-         8cb348f1e2115b0cc44fe8add1bb19f5b86ea9f8 Merge branch 'for-6.7/block' into for-next
+         07578b9550962103de4a98cb3d7157757b693b81 sigevent.3type, system_data_types.7: Move sigevent to its own page
+         b23ecebe37ab48f121d813355b701b8b3967c81a sigevent.3type, sigval.3type, system_data_types.7: Move sigval to sigevent.3type
+         75c79c38aae402052f8c8252a2238e5620673225 sigevent.3type, sigevent.7: Merge sigevent(7) into sigevent(3type)
+         5b98e0e7a5eec220d4a00a5ed318b37582908eac man*/: Update references to sigevent(7 => 3type)
          
-  - ref: refs/heads/for-6.7/block
-    old: 0000000000000000000000000000000000000000
-    new: d78bfa1346ab1fe04d20aa45a0678d1fc866f37c
