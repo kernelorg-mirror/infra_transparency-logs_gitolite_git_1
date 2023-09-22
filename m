@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 22 Sep 2023 21:03:42 -0000
-Message-Id: <169541662262.14381.12376562793288334624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 22 Sep 2023 21:37:08 -0000
+Message-Id: <169541862899.6782.9122258534674706115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/for-next
-    old: e23abf87c90a3deb48ff62deb905a704993303cb
-    new: 4fe874d67e45828f4cec366b54ebc875fc64394f
+  - ref: refs/heads/fixes
+    old: 18f35dc9314db89e2d215951e5afa3e636b72baf
+    new: c66650d29764e228eba40b7a59fdb70fa6567daa
     log: |
-         c40897f4730f4f9a37f3155e3e0452e1c8da37b4 spi: mchp-pci1xxxx: Annotate struct pci1xxxx_spi with __counted_by
-         4fe874d67e45828f4cec366b54ebc875fc64394f Merge remote-tracking branch 'spi/for-6.7' into spi-next
+         a76b62518eb30ef59158fa777ab2e2a23e1334f9 cxl/port: Fix cxl_test register enumeration regression
+         c66650d29764e228eba40b7a59fdb70fa6567daa cxl/acpi: Annotate struct cxl_cxims_data with __counted_by
          
