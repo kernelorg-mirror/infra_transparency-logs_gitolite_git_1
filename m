@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 22 Sep 2023 19:27:55 -0000
-Message-Id: <169541087550.9704.17168120781227323692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 22 Sep 2023 19:28:05 -0000
+Message-Id: <169541088508.9855.2516647995713297765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 95bfb16d66cc078aa93d06863354970f615565d1
-    new: e52dca7216cfeae76a99908a2eea6e850d3f918f
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: 7a795ac8d49e2433e1b97caf5e99129daf8e1b08
     log: |
-         e52dca7216cfeae76a99908a2eea6e850d3f918f ASoC: soc-generic-dmaengine-pcm: Fix function name in comment
+         7a795ac8d49e2433e1b97caf5e99129daf8e1b08 regmap: rbtree: Fix wrong register marked as in-cache when creating new node
          
   - ref: refs/heads/for-next
-    old: fe207d3e9fa133f35588d4275edf66ba2dcb2945
-    new: bb594b80a6087219a59b63e73cd13ca36aa18f34
+    old: d3601857e14de6369f00ae19564f1d817d175d19
+    new: 596210de90a96283f92be12377ef64ebaf820cea
     log: |
-         e52dca7216cfeae76a99908a2eea6e850d3f918f ASoC: soc-generic-dmaengine-pcm: Fix function name in comment
-         39fce972fd7259395663586e59388d702afec30e ASoC: dt-bindings: tfa9879: Convert to dtschema
-         bb594b80a6087219a59b63e73cd13ca36aa18f34 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         7a795ac8d49e2433e1b97caf5e99129daf8e1b08 regmap: rbtree: Fix wrong register marked as in-cache when creating new node
+         596210de90a96283f92be12377ef64ebaf820cea Merge remote-tracking branch 'regmap/for-6.7' into regmap-next
          
