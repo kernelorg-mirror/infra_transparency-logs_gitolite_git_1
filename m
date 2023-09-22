@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2898740087919692854=="
+Content-Type: multipart/mixed; boundary="===============2925386066317979310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 22 Sep 2023 02:24:52 -0000
-Message-Id: <169534949274.21928.8825325365257986418@gitolite.kernel.org>
+Date: Fri, 22 Sep 2023 02:24:57 -0000
+Message-Id: <169534949726.22005.8243934114822691503@gitolite.kernel.org>
 
---===============2898740087919692854==
+--===============2925386066317979310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/6.7/scsi-staging
+  - ref: refs/heads/staging
     old: 17d11949827375d74bdf5df18c3f5813ee7d5933
     new: 8b57f75cf96f6ac3bf80d8c82421397a1737a26f
     log: revlist-17d119498273-8b57f75cf96f.txt
 
---===============2898740087919692854==
+--===============2925386066317979310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1695349482 -0400
+pusher 75C5DE3D 1695349495 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1695349482-6f62ae8e49fd7b5fe6a8107f28dfc7a021aa4bd0
+nonce 1695349495-9bdc50354329169f3b2a2015a77ce0723bfcc0c0
 
-17d11949827375d74bdf5df18c3f5813ee7d5933 8b57f75cf96f6ac3bf80d8c82421397a1737a26f refs/heads/6.7/scsi-staging
+17d11949827375d74bdf5df18c3f5813ee7d5933 8b57f75cf96f6ac3bf80d8c82421397a1737a26f refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUM+uoACgkQ7ulgGnXF
-3j0deA/+NmYX+pSz91mbTuCv8OrRPe+/9ap+4/wwlpL7d5tqcy1fD7ZJQ0ufogkQ
-3Gr+t2RVGH6TpepiGCbDaGYv8boPbtub9QlSncJpHg7qbdRKOTqutvhwsF289FeZ
-HRzfEXSnuzHYJsOgrUi2KT1ZM0bl1xmxVqcG8TFjwk+ToSPZVLvmCbc02vlKZCRm
-rVbcuF3ycCfRCo1XaIxO0RRjPCnXgup/2BbEvhRo9ioQCtRy8qzboCsCGVyUMQvF
-g4mW2YRBLWNIRu5FFFLNHA92uJoBL/TkIW4TZQWGy/9I6PFpboHke4E9/Sj4F3+i
-9n9ahRMCaWLtITTVokOh5tUd3dcMHNKfYwa0a+44NNBRmnW/UUtoEOgoIKQLMxwc
-Sj6d3vvGHkv4dqJYgrCdmM6pitEDtQQinY8yylJ/L3BrXEhTHKSlctcCpeCpbdDJ
-ltXP2r+Y7S1I5DnhCIlYhMhpK569Sj8P2aa7Hlx2gubMWt4lmahTS5pq/xzlcZPe
-FjZZgeGW1FUQKt+i+fDewXeJqFwZ9WQsHPkkLJKbxX8mOMj9EJ851TJgbDECcw+h
-QRqR7h6Wy8mwUS2w4P5HYZEvxLIIElA2Bh+PdQW5qSrYbcEgJC+IKeZ8JIUnY/SL
-1b/4i7JHMnSIXfnDwqv+n/zH8eJFCtbLLai2BUvuoP/gUaMqD3E=
-=QBov
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUM+vcACgkQ7ulgGnXF
+3j37wg/+NvDnOm9oVvv5zdZrajB6Zh7Ic4Epwir/jfqGiZZ5UxpzipGTVjqZ9QO5
+c3ZJc17IgLS0SQuRvvBci6ju5YIy4EthzgaWqIa3xWs9gncHAXXvEmODxPUfwym/
+KZxqExVC2YeuikPsTf24ITLQHOIi3IwAeiS0CZtOgTnEAp285jTsLEMII3SCocKL
+smbz0Sp6iN5dBb4Aj4adSDEDQ1UKNuGmSueryEaJSTEsTer8hwJ8hMTKMcjfjrM2
+H3sKGHetbu0yMtnBeJFH8BTS3XY5+ClK/kuwrROWlC3+XK44qj3DnMk/t7z3Vdh/
+28Vgkyp5QXMwUAb0tQvZk4Pbna03A8/gDKa8V1ISRl3mPQDLmkhyMwy1Wgq9qnGc
+mKjUYP2o7YW1wH4bqfZJ3wLOVmelUR5JqhQArRLTTdUszR6De3U2yqKOS4d0SFAl
+vA2JUjLBEvz56MLSHgvnkziUcC28reVXcHafC68I7ms3Y5cUAHrdw7rxew1BmHHH
+KVB1D5rlJ9dghMi291kQ7st4ZmYnUyk5Oqza3jfYW7hhkcGn78fdC30iO/PDNJmI
+Bc1JJnOSVjbyW412E84hzhi+LnXeFRU4i4JM/LxLEbgsrk3bvet+J1MCH0HD+wcG
+fy+meCmoBEZhgM3J4z5NH9O180rZsLS/HvLJ2G7gis2XwxHT58U=
+=iqM0
 -----END PGP SIGNATURE-----
 
---===============2898740087919692854==
+--===============2925386066317979310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ eb85f1d76aac7c0d0f3487aa31b9b88c0ca81929 scsi: ibmvfc: Add protocol field to ibm
 1202706a28e816b2c05d436601bcbc8c99bde372 Merge patch series "ibmvfc: fixes and generic prep work for NVMeoF support"
 8b57f75cf96f6ac3bf80d8c82421397a1737a26f scsi: target: Remove the references to http://www.linux-iscsi.org/
 
---===============2898740087919692854==--
+--===============2925386066317979310==--
