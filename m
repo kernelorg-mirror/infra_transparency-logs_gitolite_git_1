@@ -1,24 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 22 Sep 2023 07:55:43 -0000
-Message-Id: <169536934372.3979.3493757548807276951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 22 Sep 2023 08:05:54 -0000
+Message-Id: <169536995446.10882.1803365148638477190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dt-conversion
-    old: f4be2533265ddaf1a5329722e7e9312ade433b13
-    new: 1f31cd6fc24d68eb3b8bd170ed759bca742a8f39
+  - ref: refs/heads/locking/core
+    old: 0f4b5f972216782a4acb1ae00dcb55173847c2ff
+    new: cfa92b6d52071aaa8f27d21affdcb14e7448fbc1
     log: |
-         4591a4fd966d06b3e4ae6f05b3818ec88f9a2810 riscv: dts: microchip: convert isa detection to new properties
-         2bf8af768603627e62955681fdeb6f1b1604d36d riscv: dts: sifive: convert isa detection to new properties
-         9b39053eec1524fdfff75bfdbfa2274e3c0a1710 riscv: dts: starfive: convert isa detection to new properties
-         0e6afc967de6d041acb186e9750eb9f3a78cf5d5 riscv: dts: renesas: convert isa detection to new properties
-         11dc4c3ea58014d6e722e0bda9507e73a7602df1 riscv: dts: allwinner: convert isa detection to new properties
-         1f31cd6fc24d68eb3b8bd170ed759bca742a8f39 riscv: dts: thead: convert isa detection to new properties
+         4812c54dc0498c4b757cbc7f41c1999b5a1c9f67 locking/ww_mutex/test: Use prng instead of rng to avoid hangs at bootup
+         bccdd808902f8c677317cec47c306e42b93b849e locking/ww_mutex/test: Fix potential workqueue corruption
+         cfa92b6d52071aaa8f27d21affdcb14e7448fbc1 locking/ww_mutex/test: Make sure we bail out instead of livelock
+         
+  - ref: refs/heads/sched/core
+    old: 1632d47fae2f2d229dd432854c4443ebb0bb27a4
+    new: 8bf0cdfac7f8aa3fa6151b5c5f5eebdb44a64e89
+    log: |
+         8bf0cdfac7f8aa3fa6151b5c5f5eebdb44a64e89 <linux/list.h>: Introduce the list_for_each_reverse() method
+         
+  - ref: refs/heads/x86/asm
+    old: 7c097ca50d2ba7f7989f01175f366151256bfa10
+    new: ad424743256b0119bd60a9248db4df5d998000a4
+    log: |
+         ad424743256b0119bd60a9248db4df5d998000a4 x86/bitops: Remove unused __sw_hweight64() assembly implementation on x86-32
+         
+  - ref: refs/heads/x86/mm
+    old: 8f1004679987302b155f14b966ca6d4335814fcb
+    new: d73a105586434ca919a1a487a467e5664f9300c4
+    log: |
+         d73a105586434ca919a1a487a467e5664f9300c4 x86/mm: Move arch_memory_failure() and arch_is_platform_page() definitions from <asm/processor.h> to <asm/pgtable.h>
          
