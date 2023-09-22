@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3347968716633883938=="
+Content-Type: multipart/mixed; boundary="===============5845463100452131651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 22 Sep 2023 21:03:08 -0000
-Message-Id: <169541658862.14057.2800009931505927253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 22 Sep 2023 21:03:16 -0000
+Message-Id: <169541659620.14189.17461783951434279144@gitolite.kernel.org>
 
---===============3347968716633883938==
+--===============5845463100452131651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/spi-6.7
     old: 21f252cd29f08892d48739fd7513ad79c1cff96a
     new: c40897f4730f4f9a37f3155e3e0452e1c8da37b4
     log: |
          c40897f4730f4f9a37f3155e3e0452e1c8da37b4 spi: mchp-pci1xxxx: Annotate struct pci1xxxx_spi with __counted_by
          
 
---===============3347968716633883938==
+--===============5845463100452131651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1695416587 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1695416586-5dd3f14e8bdbc5debe55609b2314c799fdd8529b
+pusher C3F436CA30F5D8EB 1695416594 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1695416593-fb34b74e9827f5b60f2365e691300a35d3eac432
 
-21f252cd29f08892d48739fd7513ad79c1cff96a c40897f4730f4f9a37f3155e3e0452e1c8da37b4 refs/heads/for-6.7
+21f252cd29f08892d48739fd7513ad79c1cff96a c40897f4730f4f9a37f3155e3e0452e1c8da37b4 refs/heads/spi-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUOAQsACgkQJNaLcl1U
-h9CI1Qf+I/jJmhEvW1+9owh6Rp4oQHBrEM3kbXXMWLP3uMvtG+4Gvm6L1CHzWup1
-UTQr81/9uFYPZlBt4in1RD3uMAeGvxhiU0Gk4W0FpvdVH2CYbkAJ//sa6Fz9VpGl
-EzkwseEQrOEFTnRPE1YN1MORsueAT4U3/0WUGxFslYnxEh40DHnl9pZ4QcZDYAWy
-B0jud2aXQTJLzOmW87mIopYGwLlrpcFHZKmpXmIHFMSeuNIzLKqXh44/bBGnL17J
-5XoFCA8YiLBekW6g6/k7ZluMIfAnGIn+RVtZ5gGEdQG0/8WxMar7ZiUpEJM27Yvp
-w+EzU3ygINHFsVtk0eQdIItSYKfzCA==
-=j2Qn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUOARIACgkQJNaLcl1U
+h9DXmgf9FS0v9kyRcR68UClvOc+IEx2YxDQ62FwMvD+1+oyfPMxVdbN5XGhDrdae
+FiWgbp50zQmExmAMUMvtHLhqDEwu9pf/RQxbFI/GRj7WaV6OA9IC0ib0r93w2M1x
+USZN0hW0wAwMD9fQyqzAPy11ARK2nA39zt4l+BYuWDNvspDA/kKczwCXZ0k+8ifr
+ysD3Qv6E+eWRvv5HaWvhL8g8Qqx4X2E7xT6KKKoxOtwQvNX8pdYoB16erAxOwBcX
+dZxkToplm2n2zOkhnszKBmkq1VSXMAg5uClfnQK376AYGgAWG6Zdg/aPZ6OkzVwH
+dkDQEfAQilmEwy3KS7XroesJw6faKg==
+=zReI
 -----END PGP SIGNATURE-----
 
---===============3347968716633883938==--
+--===============5845463100452131651==--
