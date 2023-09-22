@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 22 Sep 2023 22:26:58 -0000
-Message-Id: <169542161895.11948.17539290489692643053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 22 Sep 2023 22:54:13 -0000
+Message-Id: <169542325302.30855.15263831575937211787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
   - ref: refs/heads/for-next
-    old: a644f6edc3abb6bce5e43e20f498208f783c7329
-    new: 5a4e1fbde4b9c55dcb83a84c9494a1d8f4b0a167
+    old: a6c6a5fe2a08172c2e045588531f0e05a6c296cf
+    new: de1ca06bc0364a58ba0889d97a7a094d87dd5477
     log: |
-         6e6891ccf0c7e70f13bc1d5ce5a7edee2b5de045 regulator: mc13xxx: Annotate struct mc13xxx_regulator_priv with __counted_by
-         5a4e1fbde4b9c55dcb83a84c9494a1d8f4b0a167 Merge remote-tracking branch 'regulator/for-6.7' into regulator-next
+         7daa3bd4b0b4de1446cd4e6a66bba022101ae9ee power: supply: axp20x_ac_power: Annotate struct axp20x_ac_power with __counted_by
+         de1ca06bc0364a58ba0889d97a7a094d87dd5477 power: supply: axp20x_usb_power: Annotate struct axp20x_usb_power with __counted_by
          
