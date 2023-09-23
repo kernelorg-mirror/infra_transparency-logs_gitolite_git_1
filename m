@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 23 Sep 2023 18:52:28 -0000
-Message-Id: <169549514842.9649.12896942584603746138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sat, 23 Sep 2023 18:53:50 -0000
+Message-Id: <169549523046.10206.12032059553781547889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: e34872523ca56b6a3ed7a5b06febdc66b4f16e3c
-    new: c1a8d1d0edb71dec15c9649cb56866c71c1ecd9e
+  - ref: refs/heads/wip/leon-for-rc
+    old: a83c69278975227b689b4a016d1fc8e4820756e9
+    new: d7f393430a17c2bfcdf805462a5aa80be4285b27
     log: |
-         c1a8d1d0edb71dec15c9649cb56866c71c1ecd9e fbdev: atyfb: only use ioremap_uc() on i386 and ia64
+         d7f393430a17c2bfcdf805462a5aa80be4285b27 IB/mlx4: Fix the size of a buffer in add_port_entries()
          
