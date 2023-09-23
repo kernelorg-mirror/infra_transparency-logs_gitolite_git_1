@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8760869144433100106=="
+Content-Type: multipart/mixed; boundary="===============4287092511831769945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 23 Sep 2023 08:29:29 -0000
-Message-Id: <169545776995.23361.6360386812558095058@gitolite.kernel.org>
+Date: Sat, 23 Sep 2023 08:32:55 -0000
+Message-Id: <169545797577.26284.8765093226150116910@gitolite.kernel.org>
 
---===============8760869144433100106==
+--===============4287092511831769945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6760150c665c1e96410a4a3e52ca24bc7d2df63b
-    new: d3f1ed38f3b59e426e4a8942e011bc650a199a7b
+    old: d3f1ed38f3b59e426e4a8942e011bc650a199a7b
+    new: 641c3c0e6220b7587324ff7ded98d6e64893d726
     log: |
-         d3f1ed38f3b59e426e4a8942e011bc650a199a7b drop a bunch of patches
+         86a12715520b4d6c0c50eb16cb02d7f97b8a175a fix up queue-5.4/drm-mediatek-fix-potential-memory-leak-if-vmap-fail.patch
+         641c3c0e6220b7587324ff7ded98d6e64893d726 drop queue-4.19/pci-dwc-provide-deinit-callback-for-i.mx.patch
          
 
---===============8760869144433100106==
+--===============4287092511831769945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695457769 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695457974 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1695457768-e6cf74eca995d800fa9d1458ea0ab35d5a456477
+nonce 1695457974-a2b18b30e1dadd8beeb804ebee0eebf6356a011e
 
-6760150c665c1e96410a4a3e52ca24bc7d2df63b d3f1ed38f3b59e426e4a8942e011bc650a199a7b refs/heads/master
+d3f1ed38f3b59e426e4a8942e011bc650a199a7b 641c3c0e6220b7587324ff7ded98d6e64893d726 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUOoekbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LV0P/2wR+s0AhvIJu+nmGObn
-zfJugQHNSBpljpXoYqfas20eF+KvYws3HEyrE9A9Rsh34JyWrUzBsOOimYo9oPi5
-a4BfeJqQhZ4W/A/a/E0KfCS6n0Q+b8i26sLOtbz7esjBkbpUOf9BEKCkoCC1Qlxe
-rmALziRo6u0znimaB//PZzjZYiZSN2HjIGJWUBu/s5T6g/JkvI6RYuitqOFwqqGN
-u+a5Rc9cVlLpqQs1Kjja++Rd7/RHY5JM8mszRW31x+p38yshkVjxBn/Qd7tMfgiX
-YqtKJMhoMkDgZN3DmSUMPfgjhqm6OjG45dvihJ2nM2nkxr/6ZXOKb0Vowye/XFtR
-81jQs8rVu9TUcAiVsBp9eACm3D63CWsoISUBBnWPvHLALw9Squ6r1/RPHD7NaMpF
-JkXVtR3UzwW1XgIy2WDM7UjMK4tRgTZTb4rSDutaE825qyAtpPDpnSuS3ASONIhB
-ZClLbP7+qcU3NhP7YoslJKqt5Zmmni3f8m5mf0J46U8mGXYm1wAeQmlb5exn0b+d
-rb7/yEKro3kz6DX08p+poFP6dqwYtpbTtpQUmuoxL7GRi38M7eco6IwmZ/PYcLnl
-DjOOUdP9fPqy+XoYz+ayKPs2a47TKFCpBLzp/7tjrZ/V5O90Km1qn3D344RwL/Mh
-hHa30LCxYgOqBf2rPzkl/dRr
-=EMYG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUOorYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZMsP/idycYOslqae7RreJhQ1
+mQsd7Z6rHzgGbgaXQS/ln8VlzihThIt6USBEPXk7rEWrUoZfI0dVb/l6G/8iWY5u
+0c9oli8tgNcqnheXw2pXs6TA/HtBlobjbHKktmpTzWef8iI0ema1q0d1tTfidDKd
+c026dwDuHkcoBi0WcdtumarxRWTc73i3o0bOf23uKN06735SMHwrZyhFXXKPSBGL
+v6dc8GA2G3D114Vuv6fxznD8CsDc9cGRUN+6HGDWPkqL69FvvpA/6K3vwy76hJCN
+RWOeTiOewofAawIGSXkQwsLECjoKiIAD/ewSqEj1ljQqKmSpDDU1nmXQyK8sbSqb
+fE1hgoE4LvumEGcuGdo9OI7rxR9fGuA1vxKOn1V/McPvROngg+4j0Kx73RTu86Ok
+TRLbWAJtEnqDDTmoezJIF94hvwBGXueQBupDK/yyc06N6h4MtbWTKnymxPxfxllj
+ctmTx+7csL1DYCM0IgaqOna3TukxZDN6WtHSWSXYKGE3+JDOgkky+spyj8VAlO5c
+/vnJGJjPIot9brs5qpWnLpjZRE7xSG6N91QZqyzwjbO9ErNhn/hPG9J2/fkCvi9F
+coD8HYBfIty+gRIlLAtluAIg0y7Wm0YUEnrvy6mcSzEe4Sc/wLZJ1FgqocbNiyza
+tU0MoWRLJN50//PePcBXG0om
+=euVF
 -----END PGP SIGNATURE-----
 
---===============8760869144433100106==--
+--===============4287092511831769945==--
