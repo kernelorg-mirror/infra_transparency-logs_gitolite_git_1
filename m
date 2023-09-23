@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1260831985089733160=="
+Content-Type: multipart/mixed; boundary="===============6932887854669765529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 23 Sep 2023 12:39:48 -0000
-Message-Id: <169547278851.881.12541462935968718242@gitolite.kernel.org>
+Date: Sat, 23 Sep 2023 12:47:48 -0000
+Message-Id: <169547326862.7091.6703304318080087446@gitolite.kernel.org>
 
---===============1260831985089733160==
+--===============6932887854669765529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,80 @@ repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
   - ref: refs/heads/nfsd-next
-    old: fe551a34be88fa74b4f3b9bca96e33eb080c548b
-    new: 5af9adf993048174f16e7012bf77a333192b9f1d
-    log: revlist-fe551a34be88-5af9adf99304.txt
+    old: 5af9adf993048174f16e7012bf77a333192b9f1d
+    new: dc3bc4295f70e31e21d9e56da17ad010a1b5745a
+    log: revlist-5af9adf99304-dc3bc4295f70.txt
 
---===============1260831985089733160==
+--===============6932887854669765529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe551a34be88-5af9adf99304.txt
+Content-Disposition: attachment; filename=revlist-5af9adf99304-dc3bc4295f70.txt
 
-7de6a9e18ca5889b8bf585d8a4461edad2ea2d07 NFSD: handle GETATTR conflict with write delegation
-e88c19bd6b9cd3ec6109a75f99614d9423d2ad19 NFSD: introduce netlink stubs
-67f812b0149892b60467f94e9f9d2ed3ea08bca7 NFSD: add rpc_status netlink support
-989dab5af594a3cd1ee98b580c48a0e48fa279f1 nfs: fix the typo of rfc number about xattr in NFSv4
-654032c2cf9043d1a13eaa2e381f1eb335c35be3 SUNRPC: Remove BUG_ON call sites
-bf4e6c05a293380aae05db629dfec6f3294b826d NFSD: Add simple u32, u64, and bool encoders
-2b1387043d00505d29aa89957abf04dc19257c31 NFSD: Rename nfsd4_encode_bitmap()
-064fb2b1d53b5d0ece2e5a1fafbe4c5f5dcd73f4 NFSD: Clean up nfsd4_encode_setattr()
-ffdd7a684aad670ccb5e0b0ff1d2188e6ad5bcba NFSD: Add struct nfsd4_fattr_args
-4326978b4f895254bdd064723da27f25deb2a21a NFSD: Add nfsd4_encode_fattr4__true()
-32ca4453c256a2310c3ae22a93be351210f299d6 NFSD: Add nfsd4_encode_fattr4__false()
-f92cf97f9d046e2ef83114673e84b6156a301630 NFSD: Add nfsd4_encode_fattr4_supported_attrs()
-293cc7a4d07d9751bec850da0f9266d53978c58c NFSD: Add nfsd4_encode_fattr4_type()
-088a63d3d31b9f5f9c7aeb6489127d70e89fe886 NFSD: Add nfsd4_encode_fattr4_fh_expire_type()
-df037d2bb19fd8f1b3c74a04f1b2f619a0330ae9 NFSD: Add nfsd4_encode_fattr4_change()
-3bc870b6420b0c6d6a0c0aace98fb8090c31dcf9 NFSD: Add nfsd4_encode_fattr4_size()
-8067f2daf69ed23220dd31473731d6cf11d34632 NFSD: Add nfsd4_encode_fattr4_fsid()
-ff00ca239e4908e4b46f48d661960c6f0f88bd00 NFSD: Add nfsd4_encode_fattr4_lease_time()
-f5bdd3348e5deeda72aed41421df0ad764adf489 NFSD: Add nfsd4_encode_fattr4_rdattr_error()
-39d79f933305d071f34eb00fbc893e4cfbf03ccb NFSD: Add nfsd4_encode_fattr4_aclsupport()
-340eeac4c1478d7f838ae88eac6bb4d19a5878e4 NFSD: Add nfsd4_encode_nfsace4()
-5761d6b0583f07e5489721d0cf11b60cdd19f257 NFSD: Add nfsd4_encode_fattr4_acl()
-431c93564b64ddbb840d731e2b494c93907cdffa NFSD: Add nfsd4_encode_fattr4_filehandle()
-57bc1234e1f565ee18ad19a4330a8ddbe69a598f NFSD: Add nfsd4_encode_fattr4_fileid()
-b22c69bbc1fa4a990ab63300e90c3c4f076acf57 NFSD: Add nfsd4_encode_fattr4_files_avail()
-34f7dc9bfeaf1c7f65f406e9ea18e1577dc463e6 NFSD: Add nfsd4_encode_fattr4_files_free()
-60b3c3ad4496c14abc1e5ef5b95392fa96fb316a NFSD: Add nfsd4_encode_fattr4_files_total()
-d3d90ef3ea1dbc0fd9285aae85f34f44c121ab9d NFSD: Add nfsd4_encode_fattr4_fs_locations()
-8fb30c51c2c885958fe5fd9794e70a2da5616dda NFSD: Add nfsd4_encode_fattr4_maxfilesize()
-f541bdb3920f781145459093b222ea172b6c5b7a NFSD: Add nfsd4_encode_fattr4_maxlink()
-864f981c68aa5e391e3311e65f213cc5284dfe6b NFSD: Add nfsd4_encode_fattr4_maxname()
-9e2ce06258142ae6ce4b8f830ecd5439c797bbae NFSD: Add nfsd4_encode_fattr4_maxread()
-42e7dff04912f8ed26fcfe7f26e16396a2fc5599 NFSD: Add nfsd4_encode_fattr4_maxwrite()
-905907aef5ba427165abdd8df85a6387d04ed2d1 NFSD: Add nfsd4_encode_fattr4_mode()
-cd693ace00886908cacf4ff040c5cfa17733e278 NFSD: Add nfsd4_encode_fattr4_numlinks()
-9b8fc569ee6c2c2eba8226d346396aa04fb4d0ed NFSD: Add nfsd4_encode_fattr4_owner()
-b5fdc89df7080195e2ffc76e084c34d5de297295 NFSD: Add nfsd4_encode_fattr4_owner_group()
-60dc2a51e710527d1dbd4c6a3877237e67f74011 NFSD: Add nfsd4_encode_fattr4_rawdev()
-62b8d8ca4229d84cbf86f847deb36e81d805f29b NFSD: Add nfsd4_encode_fattr4_space_avail()
-2b48e11defd877e37c0bb0c31c17c3194dc551c6 NFSD: Add nfsd4_encode_fattr4_space_free()
-ccefcc917db23a095ebef1de06ace8ca9aad9011 NFSD: Add nfsd4_encode_fattr4_space_total()
-1b2c583846c264244a5d985707c469d2a4949180 NFSD: Add nfsd4_encode_fattr4_space_used()
-6ff27b738ba52fdcdd4fcfdce1ecea34302449cf NFSD: Add nfsd4_encode_fattr4_time_access()
-9bcce20c6196b91c62150ac6b5cacc968999f3d0 NFSD: Add nfsd4_encode_fattr4_time_create()
-7e45215f953be815e16886109451cebc166679bd NFSD: Add nfsd4_encode_fattr4_time_delta()
-82334954e2af28da793b83b328313b123690fa0e NFSD: Add nfsd4_encode_fattr4_time_metadata()
-b1348570eec42a0b3d9f2882ec6d6c350889f7ba NFSD: Add nfsd4_encode_fattr4_time_modify()
-d8a6ad0bc8294527521ce15f7884417064fd6c93 NFSD: Add nfsd4_encode_fattr4_mounted_on_fileid()
-7724038662ec39a325a41ec810c63e3a77f827a7 NFSD: Add nfsd4_encode_fattr4_fs_layout_types()
-5e14726055e8ee1ea48da4af99d2dcfe87f5158c NFSD: Add nfsd4_encode_fattr4_layout_types()
-d933a778fe6b2b718d69af340ce94dd90782a184 NFSD: Add nfsd4_encode_fattr4_layout_blksize()
-f011cdb6f4f5f57c53bc63a7f6a23623e5c5e8ca NFSD: Add nfsd4_encode_fattr4_suppattr_exclcreat()
-a62220bee07995d8ad6bbff91bd86f1d351d2aa2 NFSD: Add nfsd4_encode_fattr4_sec_label()
-62ec0b81f80d720fb9815e52828d6c730a2ab13f NFSD: Add nfsd4_encode_fattr4_xattr_support()
-2b6f13f7d438a4928d7330ecaf87c97c94ee82df NFSD: Copy FATTR4 bit number definitions from RFCs
-819bb774eb88d03b0eeda7aa25a4b61e54474dab NFSD: Use a bitmask loop to encode FATTR4 results
-5af9adf993048174f16e7012bf77a333192b9f1d NFSD: Rename nfsd4_encode_fattr()
+8dc9e02aed76918ff6cacf4825ff987ebd95af2b lib: add light-weight queuing mechanism.
+b159240f2725a10b6d3a66c6217ac6b496967f89 SUNRPC: rename some functions from rqst_ to svc_thread_
+6a7bc1d35203c1b0591276988d4bcdb1f3d14dce SUNRPC: only have one thread waking up at a time
+3c660439a95a3c99c300f1106e115afd94b9935e SUNRPC: use lwq for sp_sockets - renamed to sp_xprts
+793364070836c29fcfb1227eb59d5e0632ca0c52 SUNRPC: change sp_nrthreads to atomic_t
+f078a2e459f78dd4ab73870f793879f19a8eb5fa SUNRPC: discard sp_lock
+865314204d4573df17bccc84552dfafb8e52a421 SUNRPC: change the back-channel queue to lwq
+21e5d51b9493d8a7a29f80368f175c7390b1d1bf NFSD: add support for CB_GETATTR callback
+a528f82a39c6de2d8e18cd72535c0eddcac0edbe NFSD: handle GETATTR conflict with write delegation
+c7561942630ab48f088f4b396d05ee21d8dada9a NFSD: introduce netlink stubs
+f10979f93631308c930165509c1c1443a2a36c4b NFSD: add rpc_status netlink support
+b95af713de74f68f72b7c0c59a01fba3fcdd5876 nfs: fix the typo of rfc number about xattr in NFSv4
+961c81ffd98c786fcdadfdd83d5061586e330793 SUNRPC: Remove BUG_ON call sites
+1d9527277ef8bc5f6ac948e7cf2a16282e302a15 NFSD: Add simple u32, u64, and bool encoders
+81b622a6753622c157ab66efc59461ca96506c30 NFSD: Rename nfsd4_encode_bitmap()
+24e94de31f4e8ae8dea27ca8e33279e6e4dbfb38 NFSD: Clean up nfsd4_encode_setattr()
+9d86f3d5d21185bb05a3c663649c1fdae0cfb76f NFSD: Add struct nfsd4_fattr_args
+308e2dcb32646940ae6df2071f0f64d879a73b68 NFSD: Add nfsd4_encode_fattr4__true()
+6cd14baea6cd4161e89ffb0b8e5a7709e5f9002e NFSD: Add nfsd4_encode_fattr4__false()
+aa678bc5c302cc512a2215a1c99fa24723ad9659 NFSD: Add nfsd4_encode_fattr4_supported_attrs()
+d6f486bc7c6bd6e8915c5868af9ff6b791504a1e NFSD: Add nfsd4_encode_fattr4_type()
+d6064cbf9870be5188bd569f161feb51b332e09f NFSD: Add nfsd4_encode_fattr4_fh_expire_type()
+0ea42489eea2fc5c1013626f848c3d63e2d5b158 NFSD: Add nfsd4_encode_fattr4_change()
+0738ef15186839f60e5c74201d5e2c2b13a1d241 NFSD: Add nfsd4_encode_fattr4_size()
+f95ec63f4ecc607447cea79edcfccfc50dad0c6e NFSD: Add nfsd4_encode_fattr4_fsid()
+de0366cbc09e04518593d14167050c9bba6e5f6a NFSD: Add nfsd4_encode_fattr4_lease_time()
+f487d34e4638fe58bd6be7e06e77ac2535b3a290 NFSD: Add nfsd4_encode_fattr4_rdattr_error()
+df51a78185cc9c1f3f8ecba0e8c14179be95cbed NFSD: Add nfsd4_encode_fattr4_aclsupport()
+c0cb47d7d523297a75e5289c5714fc328d7d33de NFSD: Add nfsd4_encode_nfsace4()
+4c222ac58db07e54482184d10d9088e1b4c3330c NFSD: Add nfsd4_encode_fattr4_acl()
+522ef1c17849d6d0cf8c0eca8d0d3a1c4736481e NFSD: Add nfsd4_encode_fattr4_filehandle()
+549a91e35913f6c9b187133816685547a9ec829c NFSD: Add nfsd4_encode_fattr4_fileid()
+b9ffad98ae824cc268a9c2e25ffe68ad3edf22b6 NFSD: Add nfsd4_encode_fattr4_files_avail()
+40e201abcce6fa768bc660873d4b96dad9766722 NFSD: Add nfsd4_encode_fattr4_files_free()
+28c61cda1064213276dbec9ebfbf6944bbad8caf NFSD: Add nfsd4_encode_fattr4_files_total()
+6c87c5c5844720fa0ab41a5ed7830ca456aa3c62 NFSD: Add nfsd4_encode_fattr4_fs_locations()
+0c82c6183e14e9998785dc0b5e4c5282ce62f5ae NFSD: Add nfsd4_encode_fattr4_maxfilesize()
+b7c08d3f701a38ba280c7ea8a18aa6f71763dfbb NFSD: Add nfsd4_encode_fattr4_maxlink()
+e017e0bcbcb75ac9a32a7e245cd1876a77f9f442 NFSD: Add nfsd4_encode_fattr4_maxname()
+22a25f564c3ac5e0f04b5d43e1ce4875fcd87bf6 NFSD: Add nfsd4_encode_fattr4_maxread()
+9ee027b7f92c8a9241aa41a431b1ce410f321ab7 NFSD: Add nfsd4_encode_fattr4_maxwrite()
+3612bad0e1a73cb9e69812cffc25275abb8c1f29 NFSD: Add nfsd4_encode_fattr4_mode()
+29f42e13e749ea2c6c729ed983dd0f31a12b015f NFSD: Add nfsd4_encode_fattr4_numlinks()
+678997868e5079f33de4dbe2f1775c94b7905c4b NFSD: Add nfsd4_encode_fattr4_owner()
+ec31a158966d85a17b1e4b99f0955f68e3387a1a NFSD: Add nfsd4_encode_fattr4_owner_group()
+6479aad792ddc98523a256733c887777dd451938 NFSD: Add nfsd4_encode_fattr4_rawdev()
+b7547ce878dfc1c64d8e84b99f69c63fd9a56d7c NFSD: Add nfsd4_encode_fattr4_space_avail()
+a6a285b05d8a52866ed9800b33f6521aa37448df NFSD: Add nfsd4_encode_fattr4_space_free()
+db41446ab167e51aab1c84435b8c870914b5ff3f NFSD: Add nfsd4_encode_fattr4_space_total()
+cf62a9adc1ea297da0a23c3179d9c36533f656fc NFSD: Add nfsd4_encode_fattr4_space_used()
+4febaaaefaf9423062ba6999ba398aba1d5d36f7 NFSD: Add nfsd4_encode_fattr4_time_access()
+b8fe3f4d9931565d80cfff8b9c47c89183c9ec26 NFSD: Add nfsd4_encode_fattr4_time_create()
+0da4287c17d22738f696959402ffb836dece33f3 NFSD: Add nfsd4_encode_fattr4_time_delta()
+2b7a1529595579f60a848fc625b0abf6b416aa35 NFSD: Add nfsd4_encode_fattr4_time_metadata()
+9adb762f1bf80f8df9aed9bb6498a921289b8e82 NFSD: Add nfsd4_encode_fattr4_time_modify()
+3cf33fc83b66a4bd22208586d9ed6057aee75ea5 NFSD: Add nfsd4_encode_fattr4_mounted_on_fileid()
+cdd440359f8fa6f0c706a6e9d71ac48fb33f1ff5 NFSD: Add nfsd4_encode_fattr4_fs_layout_types()
+7389c9594ac030ff6a3943a16db8bb39c780d045 NFSD: Add nfsd4_encode_fattr4_layout_types()
+fae75e4315183b8f5018837db17501ea25fcdad4 NFSD: Add nfsd4_encode_fattr4_layout_blksize()
+4b091e8c499223ed1e0b04155053b84cc8f7c5dd NFSD: Add nfsd4_encode_fattr4_suppattr_exclcreat()
+a5182a024548d1044cf1a7375179f602fc72e195 NFSD: Add nfsd4_encode_fattr4_sec_label()
+ac646f3695df40c7b92c771e56d601311031ea83 NFSD: Add nfsd4_encode_fattr4_xattr_support()
+ed1f5a8effb7ee4705599bfef93cb9b392b2956d NFSD: Copy FATTR4 bit number definitions from RFCs
+93db1a2f62ae892589ecfc086dd15427090b82f2 NFSD: Use a bitmask loop to encode FATTR4 results
+dc3bc4295f70e31e21d9e56da17ad010a1b5745a NFSD: Rename nfsd4_encode_fattr()
 
---===============1260831985089733160==--
+--===============6932887854669765529==--
