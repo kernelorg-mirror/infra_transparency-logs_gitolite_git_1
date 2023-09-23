@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 23 Sep 2023 18:48:55 -0000
-Message-Id: <169549493554.6575.13541000398700305956@gitolite.kernel.org>
+Date: Sat, 23 Sep 2023 18:49:18 -0000
+Message-Id: <169549495889.6803.11923246277625603034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 58c49c097fbf5ad77fd367ad500339c36d284c23
-    new: cb7ab7854bc70942abed62d19d8c16d0064bf7dc
+  - ref: refs/heads/for-rc
+    old: 18126c767658ae8a831257c6cb7776c5ba5e7249
+    new: a83c69278975227b689b4a016d1fc8e4820756e9
     log: |
-         f0cc82ca116f5b710bc298ea9bbbdb05bae01f5c RDMA/irdma: Replace deprecated strncpy
-         c2d0c5b28a77d549ea52c70cb828e3ae29dda24d IB/hfi1: Replace deprecated strncpy
-         cb7ab7854bc70942abed62d19d8c16d0064bf7dc IB/qib: Replace deprecated strncpy
+         9fc5f9a92fe6897dbed7b9295b234cb7e3cc9d11 RDMA/bnxt_re: Fix the handling of control path response data
+         a83c69278975227b689b4a016d1fc8e4820756e9 RDMA/bnxt_re: Decrement resource stats correctly
          
