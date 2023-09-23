@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5635164609959924681=="
+Content-Type: multipart/mixed; boundary="===============8760869144433100106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 23 Sep 2023 08:24:28 -0000
-Message-Id: <169545746894.19984.12102824403557340283@gitolite.kernel.org>
+Date: Sat, 23 Sep 2023 08:29:29 -0000
+Message-Id: <169545776995.23361.6360386812558095058@gitolite.kernel.org>
 
---===============5635164609959924681==
+--===============8760869144433100106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2c00f57ff8131c4613cc47b62416656ce850534f
-    new: 6760150c665c1e96410a4a3e52ca24bc7d2df63b
+    old: 6760150c665c1e96410a4a3e52ca24bc7d2df63b
+    new: d3f1ed38f3b59e426e4a8942e011bc650a199a7b
     log: |
-         6760150c665c1e96410a4a3e52ca24bc7d2df63b drop queue-5.10/asoc-intel-sof_sdw-update-bt-offload-config-for-soun.patch
+         d3f1ed38f3b59e426e4a8942e011bc650a199a7b drop a bunch of patches
          
 
---===============5635164609959924681==
+--===============8760869144433100106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695457468 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695457769 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1695457467-b035f70e557d5b6d6318b2c5141573a411c2954b
+nonce 1695457768-e6cf74eca995d800fa9d1458ea0ab35d5a456477
 
-2c00f57ff8131c4613cc47b62416656ce850534f 6760150c665c1e96410a4a3e52ca24bc7d2df63b refs/heads/master
+6760150c665c1e96410a4a3e52ca24bc7d2df63b d3f1ed38f3b59e426e4a8942e011bc650a199a7b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUOoLwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hBYP/0A8UBzPBd+nlQ9ZUQo8
-ISI00On4tTgYchsTm2RAsNH+WyfWJDutpan9oajHnSfZ8TKQGxACfBw/yIg9NMvn
-6ICuiYhqp+OSsMJAq59/yKQabdqi8Xdy1T9cdSTuwA/fRVwp2Oev2RBLPNrC3zC/
-G17Wv/h8AG37EQ9n9UkiRXsBnGArccsoTvp4tAI9Yr+bmJ4fr6Psa5oWK7PjObf5
-IAu95mkVbukhNqtHtM3kXlimxoGhlnmglh/ToS1QzAWJB/qxYYFQkKgsOCnMgRUp
-5ZkuSZ458RF//jww0uvXWXEE2I6z9K2oPmSJo+rzRwBxw7v4f563+f09zBcwrBQ+
-LewAVrbacYLtasTJsp9iQRLGfsupImXMJUIY+ZxAGrEEVtpLzt4CSCP96quD+kP1
-FFJWc2i5xEvUBn5L7b6cY2dqZ6qvDug84tYCuh/kIcPkftkntUZvf3n0efl/52Ae
-A6IVlXYLpwGnCfIinBWU1wo2OK78BjtVDmPgPxf6EerDHsZS7njW+W+pX1urjHqg
-Tbl1BQBEHr0pTSOSjw+Wgrn2eGO91Phr+W1DwsfSbIwvkV3GOhZEsb1BG9x6x+t9
-74KXDR2VEzohdFZGWV+8oXYUQ9L4qW095QR+176THh2NYw7lvVoCyyLFp775tHzB
-ENgoD8Crv87HjKsiZTNq1yCw
-=Umc8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUOoekbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LV0P/2wR+s0AhvIJu+nmGObn
+zfJugQHNSBpljpXoYqfas20eF+KvYws3HEyrE9A9Rsh34JyWrUzBsOOimYo9oPi5
+a4BfeJqQhZ4W/A/a/E0KfCS6n0Q+b8i26sLOtbz7esjBkbpUOf9BEKCkoCC1Qlxe
+rmALziRo6u0znimaB//PZzjZYiZSN2HjIGJWUBu/s5T6g/JkvI6RYuitqOFwqqGN
+u+a5Rc9cVlLpqQs1Kjja++Rd7/RHY5JM8mszRW31x+p38yshkVjxBn/Qd7tMfgiX
+YqtKJMhoMkDgZN3DmSUMPfgjhqm6OjG45dvihJ2nM2nkxr/6ZXOKb0Vowye/XFtR
+81jQs8rVu9TUcAiVsBp9eACm3D63CWsoISUBBnWPvHLALw9Squ6r1/RPHD7NaMpF
+JkXVtR3UzwW1XgIy2WDM7UjMK4tRgTZTb4rSDutaE825qyAtpPDpnSuS3ASONIhB
+ZClLbP7+qcU3NhP7YoslJKqt5Zmmni3f8m5mf0J46U8mGXYm1wAeQmlb5exn0b+d
+rb7/yEKro3kz6DX08p+poFP6dqwYtpbTtpQUmuoxL7GRi38M7eco6IwmZ/PYcLnl
+DjOOUdP9fPqy+XoYz+ayKPs2a47TKFCpBLzp/7tjrZ/V5O90Km1qn3D344RwL/Mh
+hHa30LCxYgOqBf2rPzkl/dRr
+=EMYG
 -----END PGP SIGNATURE-----
 
---===============5635164609959924681==--
+--===============8760869144433100106==--
