@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 24 Sep 2023 16:55:38 -0000
-Message-Id: <169557453845.6733.745783824207994976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 24 Sep 2023 18:18:00 -0000
+Message-Id: <169557948071.529.14663922312004678247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/next
-    old: 526e837ea4ca148fc704962489275e5ab91d8226
-    new: b9f1f1698b4c9b6cfdadada8e11f2f414540b748
+  - ref: refs/heads/testing
+    old: 431dffc1df07b93ce9be26d264b7946cd65cb949
+    new: 5e99f692d4e32e3250ab18d511894ca797407aec
     log: |
-         b9f1f1698b4c9b6cfdadada8e11f2f414540b748 damo_show: Fix typo on _damo_fmt_str.format_time_ns() call
+         efea15e3c65d96bac17a4d8104e3fff7c07cc910 iio: adc: MCP3564: fix the static checker warning
+         c78a96ab0f52a12b344882241019dd9070aa988c staging: iio: resolver: ad2s1210: fix ad2s1210_show_fault
+         5e99f692d4e32e3250ab18d511894ca797407aec staging: iio: resolver: ad2s1210: fix not restoring sample gpio in channel read
          
