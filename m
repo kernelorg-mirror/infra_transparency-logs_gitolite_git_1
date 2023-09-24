@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 24 Sep 2023 16:04:22 -0000
-Message-Id: <169557146203.688.5082407556980264451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 24 Sep 2023 16:34:34 -0000
+Message-Id: <169557327427.22257.219690452572671646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: b4f44b7a4973df819fabdc5cf5050b11617b2559
-    new: 5880d52c9646561edc5ba3ff8ec285df75ee370d
+  - ref: refs/heads/fixes-togreg
+    old: 00be24c416e4844b7c2967ff1aadb57d9c85e50f
+    new: 9352321402f490b2162263c6b6fa7be43ea6e5ca
     log: |
-         5880d52c9646561edc5ba3ff8ec285df75ee370d datastruct: Self-review, part 2 of 2
+         9352321402f490b2162263c6b6fa7be43ea6e5ca iio: adc: ad7192: Correct reference voltage
          
