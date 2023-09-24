@@ -1,86 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3538762852702791760=="
+Content-Type: multipart/mixed; boundary="===============5420751589496229981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Sun, 24 Sep 2023 19:08:47 -0000
-Message-Id: <169558252780.4852.2453786921419033254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 24 Sep 2023 19:14:09 -0000
+Message-Id: <169558284955.8729.323573161050019780@gitolite.kernel.org>
 
---===============3538762852702791760==
+--===============5420751589496229981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: d896029c9726830232899944d1927847cfc6a2d1
-    log: |
-         0b137caaaab462debb1cd342cdc0df307e301bfc arm64: dts: bitmain: lowercase unit addresses
-         33d6227fcd1a8b68bf8d5e68f69a931dc87eac81 ARM: dts: omap3-devkit8000: correct ethernet reg addresses (split)
-         05521ef09891dfd0e0dbc0b37fcca0f15174e60e arm64: dts: apm: add missing space before {
-         f673ab0ceb8dc8ccd291db9bbc200dbd8cd399f4 ARM: dts: mediatek: add missing space before {
-         a9c740c57f977deb41bc53c02d0dae3d0e2f191a arm64: dts: mediatek: add missing space before {
-         96ba96612d85766b20d2e3e4445c96875351eb7b ARM: dts: mediatek: minor whitespace cleanup around '='
-         73f20a373811b303fc5bd8f3d5a4c5c1582f1ba2 ARM: dts: nuvoton: add missing space before {
-         aee69e4538e137313831bdb05512686d4f950378 arm64: dts: mediatek: minor whitespace cleanup around '='
-         12ca3ca8cf06d803b3690ef523ccf5ffd0b23a71 arm64: dts: marvell: minor whitespace cleanup around '='
-         d896029c9726830232899944d1927847cfc6a2d1 Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 73f20a373811b303fc5bd8f3d5a4c5c1582f1ba2
-    log: |
-         33d6227fcd1a8b68bf8d5e68f69a931dc87eac81 ARM: dts: omap3-devkit8000: correct ethernet reg addresses (split)
-         f673ab0ceb8dc8ccd291db9bbc200dbd8cd399f4 ARM: dts: mediatek: add missing space before {
-         96ba96612d85766b20d2e3e4445c96875351eb7b ARM: dts: mediatek: minor whitespace cleanup around '='
-         73f20a373811b303fc5bd8f3d5a4c5c1582f1ba2 ARM: dts: nuvoton: add missing space before {
-         
-  - ref: refs/heads/next/dt64
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 12ca3ca8cf06d803b3690ef523ccf5ffd0b23a71
-    log: |
-         0b137caaaab462debb1cd342cdc0df307e301bfc arm64: dts: bitmain: lowercase unit addresses
-         05521ef09891dfd0e0dbc0b37fcca0f15174e60e arm64: dts: apm: add missing space before {
-         a9c740c57f977deb41bc53c02d0dae3d0e2f191a arm64: dts: mediatek: add missing space before {
-         aee69e4538e137313831bdb05512686d4f950378 arm64: dts: mediatek: minor whitespace cleanup around '='
-         12ca3ca8cf06d803b3690ef523ccf5ffd0b23a71 arm64: dts: marvell: minor whitespace cleanup around '='
-         
+  - ref: refs/heads/next
+    old: b9f1f1698b4c9b6cfdadada8e11f2f414540b748
+    new: 53c27483b8941dc5ec5ad20ab243360619200694
+    log: revlist-b9f1f1698b4c-53c27483b894.txt
 
---===============3538762852702791760==
+--===============5420751589496229981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b9f1f1698b4c-53c27483b894.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1695582523 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1695582522-aaa33157a4d9eb5441d5e232fb8ff8b2e5ed4153
+22cc479ae1d64705af7ec6f4eb66c8c61737dbfc damo_show: Split format_pr()'s internal formatting out
+b0e2d64bec6f3e0b470617a266a01e0f7a894632 tests/unit/test_damo_show: Test 'format_template()'
+8a08d61782b7b7b2aa365acc0f97221416b25ee2 _damon_sysfs: Fix wrong DAMOS tried regions size file name
+4aae8a1cbc6d9816e1723546ed931d3501694337 _damon_sysfs: Fix wrong DAMOS apply interval feature check logic
+fb7fc80bb0b55af5d944add8a1b56d790759a8fc _damon_result: Rename perf_event_damos_applied to perf_event_damos_before_apply
+d5814668d847b48bd227ed301b1c63ac14123028 damo_record: Rename --schemes_applied to --schemes_target_regions
+a2c766f6661f42f0d96fac15c069067f0bdb2ebd _damon_result: Place parse_damos_appled_perf_script_fields() before be used
+ba40607e0e6a2804f7ae7daa8d8014d9110a7e59 _damon_result: Rename parse_damos_applied_* to parse_damos_before_apply_*
+ee45843ff5b6447f0b0c969f5cea3db40b2309be _damon_result: Place parse_damon_aggregated_perf_script_fields() before being called
+f4d17f218451f3580ab1ba444cc83604ae645a84 _damon_result: Move perf script line examples to real parser functions
+53c27483b8941dc5ec5ad20ab243360619200694 _damon_result: Remove unnecessary indentation of parser_perf_script_line()
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d d896029c9726830232899944d1927847cfc6a2d1 refs/heads/for-next
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d 73f20a373811b303fc5bd8f3d5a4c5c1582f1ba2 refs/heads/next/dt
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d 12ca3ca8cf06d803b3690ef523ccf5ffd0b23a71 refs/heads/next/dt64
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUQiTsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zRjD/0TRY38hiFENQ8fvE5AFhVf1CcMY1SCxfRL
-xNd4Yjvkh8v5Qs1oJvpwUtgw1DAmS4laS21S0XtorsXwKtv0Fjtm/yg5sYYRYHNC
-SiYxGQravX+/sgpk+APRnyWw4L//jn0jnr3IuKDSKyEBlmgPSDzwWU0KTEIv1zCy
-Ufbk9qxiMrFxvcOHWWi+PlEtTcquHkefY/ClfRp4gANp/iTU4kPfij/b3PAYs+0i
-LVm38dQBG4q3b/utZ7a3hzfI5VUCi9RPmj0ojR1q51lHY5QANPdmHqQq6N638Q9Z
-+JJunMCA3TjhLEfZxyu2A+VbkybdDTqP1mm0CWUPxYinzlsiXj4H7gH82dOi510y
-sRTV3ekE2mVG1esuHYDFBLrT8o/1aKdPN87UJFNbmnWNRXJiotAuFq9rbm456S5X
-1qlAueAVd3Ukz0x1fWppOiVKqbWeMplhvFUknYuZAbWP0QvZEkj0nZGaIPcFlsN9
-oR4cc2p0ZJ9+5NJlXpvM1ey5SxihOORTE4+5+adv6+D9aOhYWF+OjMM1UFXp6nOT
-s5QVxx/zbifUYqWeovk26vaz3Akqd0cFVCEXq/0370P2Bt9cX7X//0TjZOgOO3Gu
-BKkIy4AsMiTyynJovYyG5ljmr+53chLOqqVbwWPEfgDd3rRO5IKzqdZ4axrDybyR
-tWZXv2ydwg==
-=LGuS
------END PGP SIGNATURE-----
-
---===============3538762852702791760==--
+--===============5420751589496229981==--
