@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5420751589496229981=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 24 Sep 2023 19:14:09 -0000
-Message-Id: <169558284955.8729.323573161050019780@gitolite.kernel.org>
-
---===============5420751589496229981==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 24 Sep 2023 19:29:04 -0000
+Message-Id: <169558374405.18948.5970878921262154711@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: b9f1f1698b4c9b6cfdadada8e11f2f414540b748
-    new: 53c27483b8941dc5ec5ad20ab243360619200694
-    log: revlist-b9f1f1698b4c-53c27483b894.txt
-
---===============5420751589496229981==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9f1f1698b4c-53c27483b894.txt
-
-22cc479ae1d64705af7ec6f4eb66c8c61737dbfc damo_show: Split format_pr()'s internal formatting out
-b0e2d64bec6f3e0b470617a266a01e0f7a894632 tests/unit/test_damo_show: Test 'format_template()'
-8a08d61782b7b7b2aa365acc0f97221416b25ee2 _damon_sysfs: Fix wrong DAMOS tried regions size file name
-4aae8a1cbc6d9816e1723546ed931d3501694337 _damon_sysfs: Fix wrong DAMOS apply interval feature check logic
-fb7fc80bb0b55af5d944add8a1b56d790759a8fc _damon_result: Rename perf_event_damos_applied to perf_event_damos_before_apply
-d5814668d847b48bd227ed301b1c63ac14123028 damo_record: Rename --schemes_applied to --schemes_target_regions
-a2c766f6661f42f0d96fac15c069067f0bdb2ebd _damon_result: Place parse_damos_appled_perf_script_fields() before be used
-ba40607e0e6a2804f7ae7daa8d8014d9110a7e59 _damon_result: Rename parse_damos_applied_* to parse_damos_before_apply_*
-ee45843ff5b6447f0b0c969f5cea3db40b2309be _damon_result: Place parse_damon_aggregated_perf_script_fields() before being called
-f4d17f218451f3580ab1ba444cc83604ae645a84 _damon_result: Move perf script line examples to real parser functions
-53c27483b8941dc5ec5ad20ab243360619200694 _damon_result: Remove unnecessary indentation of parser_perf_script_line()
-
---===============5420751589496229981==--
+  - ref: refs/heads/master
+    old: d23049039d1354f6c765e33c4d8a78954e4f6251
+    new: f3b4e9e95eb488d23f6e33c7e29cad3404de6470
+    log: |
+         d43213b3c1f99075fba2829091a26f08fbbc6fea Fixes for 6.5
+         3d09f72973b97a2bc45748454fa771eec97e1b12 Fixes for 6.1
+         2053b7f646138cbe6cb534d6c54fb7b0a718b127 Fixes for 5.15
+         f5727dd12061423497800336b264a763f506f03e Fixes for 5.10
+         5685195141997b93cb43ecd5dea974a83344469c Fixes for 5.4
+         395df30209849945610009b7407b5cfac913a074 Fixes for 4.19
+         f3b4e9e95eb488d23f6e33c7e29cad3404de6470 Fixes for 4.14
+         
