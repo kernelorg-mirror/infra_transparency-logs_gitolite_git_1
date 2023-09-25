@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 25 Sep 2023 09:44:05 -0000
-Message-Id: <169563504598.15827.2133250944845751904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bristot/linux
+Date: Mon, 25 Sep 2023 09:46:07 -0000
+Message-Id: <169563516715.18284.2566101778783752335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/bristot/linux
+user: bristot
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 6465e260f48790807eef06b583b38ca9789b6072
-    new: ef8f8f04a0b25e8f294b24350e8463a8d6a9ba0b
-    log: |
-         ef8f8f04a0b25e8f294b24350e8463a8d6a9ba0b MIPS: Alchemy: only build mmc support helpers if au1xmmc is enabled
-         
+  - ref: refs/tags/rtla-v6.6-fixes
+    old: baeefe53085cf627c4f1a5a57a7a0ebb39ff10dc
+    new: 6a0df51b5c0a075a553a5ad73b1fd421f559eb6b
