@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2453826374980768142=="
+Content-Type: multipart/mixed; boundary="===============5553592872924531254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 25 Sep 2023 09:25:11 -0000
-Message-Id: <169563391176.21198.17732707630449526061@gitolite.kernel.org>
+Date: Mon, 25 Sep 2023 09:25:34 -0000
+Message-Id: <169563393425.21419.17944819484404020385@gitolite.kernel.org>
 
---===============2453826374980768142==
+--===============5553592872924531254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: e7513eccb7d7f82e28f4730210b42da71edaa6a6
+  - ref: refs/heads/mips-fixes
+    old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     new: 6465e260f48790807eef06b583b38ca9789b6072
-    log: revlist-e7513eccb7d7-6465e260f487.txt
+    log: revlist-6eaae1980760-6465e260f487.txt
 
---===============2453826374980768142==
+--===============5553592872924531254==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e7513eccb7d7-6465e260f487.txt
+Content-Disposition: attachment; filename=revlist-6eaae1980760-6465e260f487.txt
 
 7a8817f2c96e98d5e65a59e34ba9ea1ff6ed23bc mm: memory-failure: add PageOffline() check
 6885938c349c14b277305cd1129e7eb14f3e2c55 mm/hwpoison: rename hwp_walk* to hwpoison_walk*
@@ -1051,4 +1051,4 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
 
---===============2453826374980768142==--
+--===============5553592872924531254==--
