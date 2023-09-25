@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3149274255004599117=="
+Content-Type: multipart/mixed; boundary="===============2979432450084282507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 25 Sep 2023 13:21:13 -0000
-Message-Id: <169564807325.15763.16573281463263976520@gitolite.kernel.org>
+Date: Mon, 25 Sep 2023 13:22:08 -0000
+Message-Id: <169564812842.16181.16266475419373098965@gitolite.kernel.org>
 
---===============3149274255004599117==
+--===============2979432450084282507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: dc3bc4295f70e31e21d9e56da17ad010a1b5745a
-    new: ea3f13fb3e6611436ea62275aa6fc3e93d137979
-    log: revlist-dc3bc4295f70-ea3f13fb3e66.txt
+  - ref: refs/heads/nfsd4-encoder-overhaul
+    old: b7febc71bed65f443438d2d9faa05c4fbbba5993
+    new: be862864ea8566c98f439bb2300094c229f4f17d
+    log: revlist-b7febc71bed6-be862864ea85.txt
 
---===============3149274255004599117==
+--===============2979432450084282507==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dc3bc4295f70-ea3f13fb3e66.txt
+Content-Disposition: attachment; filename=revlist-b7febc71bed6-be862864ea85.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -525,5 +525,37 @@ e696b832956523ac645db45d36f1f7a0d6635f7e NFSD: Add nfsd4_encode_fattr4_sec_label
 bdf67d06fb221511e1c031f27c3bed0a40b42e3b NFSD: Use a bitmask loop to encode FATTR4 results
 1f3320fa3c91a9705c2f01da900581136e2b8fca NFSD: Rename nfsd4_encode_fattr()
 ea3f13fb3e6611436ea62275aa6fc3e93d137979 NFSD: simplify error paths in nfsd_svc()
+5ad7a19b1a0c630b453ce7d0b7a4189db2c4c0cb NFSD: Add nfsd4_encode_count4()
+d711f9994054a858c38ad0527589a46756ea0a1d NFSD: Clean up nfsd4_encode_stateid()
+98b0d4571f3205ae2e749e2bfffb534e8ed345f1 NFSD: Make @lgp parameter of ->encode_layoutget a const pointer
+3bd75f7c49cf850d19df9bb0b60fcfa417445953 NFSD: Clean up nfsd4_encode_layoutget()
+313fd7c47445fa96f077b8fc77f299d3a84863d4 NFSD: Clean up nfsd4_encode_layoutcommit()
+6e6200e5f37cdb9590e089ce9234caa7e6a4caa4 NFSD: Clean up nfsd4_encode_layoutreturn()
+5809b588d34be7779ee28bd1cff89ae311e57850 NFSD: Make @gdev parameter of ->encode_getdeviceinfo a const pointer
+ca67b4a92cf76c8a62c3720efcd45d2110857fbc NFSD: Clean up nfsd4_encode_getdeviceinfo()
+6802000fc2e473b76b31664d9b633e85daceae27 NFSD: Add nfsd4_encode_lock_owner4()
+61e86ab31805682fdfa0ddec4a1e15b6d8608867 NFSD: Refactor nfsd4_encode_lock_denied()
+9aee01a1b4eda4216b2a3900e9db714e4d820ea7 NFSD: Add nfsd4_encode_open_read_delegation4()
+4233c17940d67de29befc8786779625d9966d736 NFSD: Add nfsd4_encode_open_write_delegation4()
+736f1d0c89e603f52e44d418531ccbf7d79e5f7d NFSD: Add nfsd4_encode_open_none_delegation4()
+dc6e0ef3d55a66ad40fafd6d4a650aca5abde0fc NFSD: Add nfsd4_encode_open_delegation4()
+778732c38c3e6da26c2aff4065018ebc26a38376 NFSD: Clean up nfsd4_encode_open()
+ae444543b0fa3acc5d63766f6e778a44eea379db NFSD: Add a utility function for encoding sessionid4 objects
+d4166dd882d6a6006143951bdaeec82fc8d0d2ce NFSD: Add nfsd4_encode_channel_attr4()
+1358973470b4c9cc5dfb9bc34c06b705522aa1fd NFSD: Restructure nfsd4_encode_create_session()
+50779acde2930b737500d9fb384ffc5d4d1d4d86 NFSD: Clean up nfsd4_encode_sequence()
+3954bfccdeb34d6ca5a211543be9b2be181f0378 NFSD: Rename nfsd4_encode_dirent()
+afb7957401c3973c873c0a210397bfe87f9769d2 NFSD: Clean up nfsd4_encode_rdattr_error()
+a0e8afee1e0ffc10d8e5732eb56aa2be5fd4e545 NFSD: Add an nfsd4_encode_nfs_cookie4() helper
+9b77626a5c89a988c0a5cda10885837a386e71db NFSD: Clean up nfsd4_encode_entry4()
+4ba06d511f26e7b0e528cda58afefaa73210590f NFSD: Clean up nfsd4_encode_readdir()
+0be900139002f8c89a152f9692fff227c34ac92a NFSD: Clean up nfsd4_encode_access()
+b95689aa5fb90152b0e8bbe5915bc2502b95b7e1 NFSD: Clean up nfsd4_do_encode_secinfo()
+4d1f4390375b54d3383f77e16b2bf661343f011c NFSD: Clean up nfsd4_encode_exchange_id()
+c308a7f374d9090e6bd3606d50bbd764c16d19a1 NFSD: Clean up nfsd4_encode_test_stateid()
+b471bf769e06e7b82075001f7d83b5f097133ed7 NFSD: Clean up nfsd4_encode_copy()
+a21a7feeac781aa615eeccb37e3b6c585ff313d4 NFSD: Clean up nfsd4_encode_copy_notify()
+3565afe9dfc153380695b4998779018a5f6f47e4 NFSD: Clean up nfsd4_encode_offset_status()
+be862864ea8566c98f439bb2300094c229f4f17d NFSD: Clean up nfsd4_encode_seek()
 
---===============3149274255004599117==--
+--===============2979432450084282507==--
