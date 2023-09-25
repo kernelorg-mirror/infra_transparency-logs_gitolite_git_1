@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3933015660972266567=="
+Content-Type: multipart/mixed; boundary="===============3134042237005544113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 25 Sep 2023 08:32:15 -0000
-Message-Id: <169563073587.12082.15055388782419000233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 25 Sep 2023 08:40:16 -0000
+Message-Id: <169563121608.19496.6920015536218283156@gitolite.kernel.org>
 
---===============3933015660972266567==
+--===============3134042237005544113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fe3d2aba2ca99151d3a1233d3b75add0f559e0eb
-    new: 5da24426ea5f6b66c98f74193d0bbd9d63ae3db8
-    log: revlist-fe3d2aba2ca9-5da24426ea5f.txt
-  - ref: refs/heads/next
-    old: 9be37ec25181d9cb019a0ccedc287da689a74c16
-    new: dbff263ccfbe181dbe3585637c56ffcd7ee4a4f4
-    log: revlist-9be37ec25181-dbff263ccfbe.txt
-  - ref: refs/heads/renesas-dts-for-v6.7
-    old: c588e1c9846b32182fd5a0ceb637b983810e7100
-    new: d70be079c3cf34bd91e1c8f7b4bc760356c9150c
-    log: |
-         7801764bb8ff68d9ca3dc6967d4642e205a22a0f ARM: dts: renesas: Remove unused LBSC nodes from board DTS
-         175f1971164a6f8f351907ea9fadb38d8406ffc8 ARM: dts: renesas: r7s72100: Add BSC node
-         f7287f78d5b3650092507e38429219a5d2cb8489 ARM: dts: renesas: r8a7779: Add LBSC node
-         990da779a43aa678045bdb23f937e219e3ebc480 ARM: dts: renesas: r8a7792: Add LBSC node
-         dcd96d036db2563314f86f47a27b7dea8d508cfd ARM: dts: renesas: marzen: Move Ethernet node to LBSC
-         d6c2de6b151069ebc3d24c226e482b10981ead92 ARM: dts: renesas: blanche: Move Ethernet node to LBSC
-         86b37eb01684db8f425108dd82c0781bf9812390 ARM: dts: renesas: wheat: Move Ethernet node to LBSC
-         30e0a8cf886cb459dc8a895ba9a4fb5132b41499 ARM: dts: renesas: genmai: Add FLASH nodes
-         98537eb77d3ef185a4b1b4004da75301038cf76b ARM: dts: renesas: rskrza1: Add FLASH nodes
-         d70be079c3cf34bd91e1c8f7b4bc760356c9150c arm64: dts: renesas: ulcb/kf: Use multi Component sound
-         
-  - ref: refs/heads/renesas-arm-soc-for-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 719efe2c63b1240ceefc232b57ebc6e69ab647d5
-  - ref: refs/tags/renesas-devel-2023-09-25-v6.6-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4dcc151272daa163134ad8d2c5a25f88331e344
-  - ref: refs/tags/renesas-next-2023-09-25-v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e130f587bd300de94ea72907bbe5ae68f847c761
-  - ref: refs/tags/v6.6-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
+  - ref: refs/heads/main
+    old: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
+    new: 6465e260f48790807eef06b583b38ca9789b6072
+    log: revlist-ce9ecca0238b-6465e260f487.txt
 
---===============3933015660972266567==
+--===============3134042237005544113==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695631215 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1695631214-cf6a43bd7f12808a319e0dc8839780e595cfc648
+
+ce9ecca0238b140b88f43859b211c9fdfd8e5b70 6465e260f48790807eef06b583b38ca9789b6072 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmURR28bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V4oQAJh0okq2j7K/k3Yg0NyR
+htfjKz8U6NgohyjFNDcs5r8UbbNe6lskzwALOJczuU87y+0tZxmzCTu3LPP4fvDL
+aY9kZgQ7eXAOVWd6HGgIM2Vc9aMh8Z0EpQ5nSMr7ZNh2E4kd1Ubd0DHUpzO07oO0
+fr5MXaBXVKjdWCkX7Z2GDpQxskRtEZUUqEy3l5KM7scuxbfmCZXhrv7gUt/RNae6
+QSlY7TaxTzwMmSRtc1uw8J8bIcI95uBZcOPvni3DmFm95XYrzs1VcmbpGJb3UQbd
+rJYWsY1BWYUz5Yv/Ec8LG3x01Alud8UOvT0vzIH0M7ont6iLZypDWcK/s3vKXpR9
+yCxW8kZGH4N91trMQplT9Q8SnJFBaPL1uQ3iJj0uS8MmW0YrSIebEUPrNNdfZRFo
+x6jGNnQLXC6ouX+KimYdJ23o3FatEWWo3wx858dKgJBN2mhXo0gZECdO6UXnJW/d
+rPW1CaoMs5uNQbny9cs5fsG+v4n3qkqO+Ba2EPFwB8AMLy7NKFgTpDshGVnD9j+V
+iIIPvqtkm1NZbzZFE8+T4VrDw7iFFHcQBMkeMqP7BBY8v4kC6nQc6tTy6HwfWV8H
+xH7WtF0ZUTFKHTL+r+WhaHAhnLjcoQ1XL0Fkyj9e07jpuH854KCejMJtH7bHaRBK
+Zw+9EjMbppMIizPumLA2zgkg
+=HxXf
+-----END PGP SIGNATURE-----
+
+--===============3134042237005544113==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe3d2aba2ca9-5da24426ea5f.txt
+Content-Disposition: attachment; filename=revlist-ce9ecca0238b-6465e260f487.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -472,43 +472,5 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 5edc6bb321d970c77d666a6cf8eeb060f2d18116 Merge tag 'trace-v6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
-7801764bb8ff68d9ca3dc6967d4642e205a22a0f ARM: dts: renesas: Remove unused LBSC nodes from board DTS
-175f1971164a6f8f351907ea9fadb38d8406ffc8 ARM: dts: renesas: r7s72100: Add BSC node
-f7287f78d5b3650092507e38429219a5d2cb8489 ARM: dts: renesas: r8a7779: Add LBSC node
-990da779a43aa678045bdb23f937e219e3ebc480 ARM: dts: renesas: r8a7792: Add LBSC node
-dcd96d036db2563314f86f47a27b7dea8d508cfd ARM: dts: renesas: marzen: Move Ethernet node to LBSC
-d6c2de6b151069ebc3d24c226e482b10981ead92 ARM: dts: renesas: blanche: Move Ethernet node to LBSC
-86b37eb01684db8f425108dd82c0781bf9812390 ARM: dts: renesas: wheat: Move Ethernet node to LBSC
-30e0a8cf886cb459dc8a895ba9a4fb5132b41499 ARM: dts: renesas: genmai: Add FLASH nodes
-98537eb77d3ef185a4b1b4004da75301038cf76b ARM: dts: renesas: rskrza1: Add FLASH nodes
-d70be079c3cf34bd91e1c8f7b4bc760356c9150c arm64: dts: renesas: ulcb/kf: Use multi Component sound
-6b16953bec40e6fce853d2a69b8e738d61896568 ARM: shmobile: rcar-gen2: Remove unneeded once handling
-9e4cb5d2709a51bbedfd37ebdda9cb83d8e8a29e ARM: shmobile: rcar-gen2: Reserve boot area when SMP is enabled
-6d9542fc61241990ffc27a8eaec40e550fe36e3f ARM: shmobile: r8a7779: Reserve boot area when SMP is enabled
-719efe2c63b1240ceefc232b57ebc6e69ab647d5 ARM: shmobile: sh73a0: Reserve boot area when SMP is enabled
-dbff263ccfbe181dbe3585637c56ffcd7ee4a4f4 Merge branches 'renesas-arm-soc-for-v6.7' and 'renesas-dts-for-v6.7' into renesas-next
-5da24426ea5f6b66c98f74193d0bbd9d63ae3db8 Merge branch 'renesas-next', tag 'v6.6-rc3' into renesas-devel
 
---===============3933015660972266567==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9be37ec25181-dbff263ccfbe.txt
-
-7801764bb8ff68d9ca3dc6967d4642e205a22a0f ARM: dts: renesas: Remove unused LBSC nodes from board DTS
-175f1971164a6f8f351907ea9fadb38d8406ffc8 ARM: dts: renesas: r7s72100: Add BSC node
-f7287f78d5b3650092507e38429219a5d2cb8489 ARM: dts: renesas: r8a7779: Add LBSC node
-990da779a43aa678045bdb23f937e219e3ebc480 ARM: dts: renesas: r8a7792: Add LBSC node
-dcd96d036db2563314f86f47a27b7dea8d508cfd ARM: dts: renesas: marzen: Move Ethernet node to LBSC
-d6c2de6b151069ebc3d24c226e482b10981ead92 ARM: dts: renesas: blanche: Move Ethernet node to LBSC
-86b37eb01684db8f425108dd82c0781bf9812390 ARM: dts: renesas: wheat: Move Ethernet node to LBSC
-30e0a8cf886cb459dc8a895ba9a4fb5132b41499 ARM: dts: renesas: genmai: Add FLASH nodes
-98537eb77d3ef185a4b1b4004da75301038cf76b ARM: dts: renesas: rskrza1: Add FLASH nodes
-d70be079c3cf34bd91e1c8f7b4bc760356c9150c arm64: dts: renesas: ulcb/kf: Use multi Component sound
-6b16953bec40e6fce853d2a69b8e738d61896568 ARM: shmobile: rcar-gen2: Remove unneeded once handling
-9e4cb5d2709a51bbedfd37ebdda9cb83d8e8a29e ARM: shmobile: rcar-gen2: Reserve boot area when SMP is enabled
-6d9542fc61241990ffc27a8eaec40e550fe36e3f ARM: shmobile: r8a7779: Reserve boot area when SMP is enabled
-719efe2c63b1240ceefc232b57ebc6e69ab647d5 ARM: shmobile: sh73a0: Reserve boot area when SMP is enabled
-dbff263ccfbe181dbe3585637c56ffcd7ee4a4f4 Merge branches 'renesas-arm-soc-for-v6.7' and 'renesas-dts-for-v6.7' into renesas-next
-
---===============3933015660972266567==--
+--===============3134042237005544113==--
