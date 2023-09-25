@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2342671440751924146=="
+Content-Type: multipart/mixed; boundary="===============4274315958066827283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 25 Sep 2023 06:50:28 -0000
-Message-Id: <169562462854.32410.3815262002559927258@gitolite.kernel.org>
+Date: Mon, 25 Sep 2023 06:57:14 -0000
+Message-Id: <169562503419.4099.11046996688282873977@gitolite.kernel.org>
 
---===============2342671440751924146==
+--===============4274315958066827283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    new: 6465e260f48790807eef06b583b38ca9789b6072
-    log: revlist-ce9ecca0238b-6465e260f487.txt
+  - ref: refs/heads/for-6.6-fixes
+    old: 626fbb66d6961a3f318535f7722617a6ab576bab
+    new: 3ef600923521616ebe192c893468ad0424de2afb
+    log: revlist-626fbb66d696-3ef600923521.txt
 
---===============2342671440751924146==
+--===============4274315958066827283==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ce9ecca0238b-6465e260f487.txt
+Content-Disposition: attachment; filename=revlist-626fbb66d696-3ef600923521.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -441,5 +441,7 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 5edc6bb321d970c77d666a6cf8eeb060f2d18116 Merge tag 'trace-v6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
+52bb69be6790bafbbbf57b714445704e82d4a97a dt-bindings: ata: pata-common: Add missing additionalProperties on child nodes
+3ef600923521616ebe192c893468ad0424de2afb ata: libata-scsi: ignore reserved bits for REPORT SUPPORTED OPERATION CODES
 
---===============2342671440751924146==--
+--===============4274315958066827283==--
