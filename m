@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8645603100120638831=="
+Content-Type: multipart/mixed; boundary="===============0205909905040069579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 Sep 2023 11:39:22 -0000
-Message-Id: <169564196253.3104.253144567363265936@gitolite.kernel.org>
+Date: Mon, 25 Sep 2023 11:41:41 -0000
+Message-Id: <169564210170.5588.5469403405534850499@gitolite.kernel.org>
 
---===============8645603100120638831==
+--===============0205909905040069579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 05fc134d69e71e274dc60a97c7dc655bb5a8073b
-    new: 0c316da2164c5980ad4b3da5d8efbb6019b5b18c
-    log: |
-         0c316da2164c5980ad4b3da5d8efbb6019b5b18c m68k: Replace GPL 2.0+ README.legal boilerplate with SPDX
-         
-  - ref: refs/heads/for-v6.7
-    old: 05fc134d69e71e274dc60a97c7dc655bb5a8073b
-    new: 0c316da2164c5980ad4b3da5d8efbb6019b5b18c
-    log: |
-         0c316da2164c5980ad4b3da5d8efbb6019b5b18c m68k: Replace GPL 2.0+ README.legal boilerplate with SPDX
-         
-  - ref: refs/heads/master
-    old: 647e24211c8b205cf2bca94be8291856732e8e74
-    new: 62722428143388e4ebec8ab2a847c19cfb3ad22e
-    log: revlist-647e24211c8b-627224281433.txt
+  - ref: refs/heads/m68k-queue
+    old: 1564e6b6d85cfc515b6dce13600ad59b5101bad7
+    new: 2febd5c7c8a92987a34783a3e9e09f0a647b6207
+    log: revlist-1564e6b6d85c-2febd5c7c8a9.txt
 
---===============8645603100120638831==
+--===============0205909905040069579==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-647e24211c8b-627224281433.txt
+Content-Disposition: attachment; filename=revlist-1564e6b6d85c-2febd5c7c8a9.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -453,7 +441,68 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 5edc6bb321d970c77d666a6cf8eeb060f2d18116 Merge tag 'trace-v6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
-1515c30907271436348516a1e9d014bdf29f7604 m68k: Replace GPL 2.0+ README.legal boilerplate with SPDX
-62722428143388e4ebec8ab2a847c19cfb3ad22e Merge tag 'v6.6-rc3'
+c72e3c63d368c7f9be550fed4c17da828ddaeb6d m68k: math-emu: Fix incorrect file reference in fp_log.c
+6ae66d5d79a0e00dcda8346adcddb1f863a2c894 m68k: math-emu: Sanitize include guards
+80de39070f8e24998f84b1108c7f3f65311c98e9 m68k: math-emu: Make multi_arith.h self-contained
+e6b85fdcef92c6c56192343932df4400f7c4db84 m68k: math-emu: Replace external declarations by header inclusion
+d18359f9b2694f423965b53ef2c0c3a8582a6603 m68k: math-emu: Reformat function and variable headers
+90e7091356d6424930dacd452295a3f9a80e471e m68k: math-emu: Add missing prototypes
+b106c93040f64ac17e387370eb35403f903075e0 m68k: emu: Replace strlcpy() with strscpy()
+7ad6c0273ca28bddf13ac5fa47e78fa433050792 m68k: kernel: Add missing asmlinkage to do_notify_resume()
+d3b99a2d1127666cc7d9dad058ac09f6cc055ebe m68k: kernel: Include <linux/cpu.h> for trap_init()
+8c84efae6e404c035b54bf302c40c4a64b445a64 m68k: kernel: Make bad_super_trap() static
+2d273d379e403a7fb84c748bf47377a69a0c6703 m68k: kernel: Add and use <asm/syscalls.h>
+e9512495f02d4ce8753ede3d82292c35d3e309a1 m68k: kernel: Add and use "ints.h"
+7c120598e8dcf5574223cc6e6849bed6f36be0ab m68k: kernel: Add and use "process.h"
+2365ce9f83ac87f5f4da4dc295413f5141b0b77c m68k: kernel: Add and use "ptrace.h"
+0126d327382e56a1a11a47754db01649631f673d m68k: kernel: Add and use "signal.h"
+ff713686dddecc0806cb82c9d85daa4998899318 m68k: kernel: Add and use "traps.h"
+8744f06c5bf6eb93b34d9a5b652f73571337801e m68k: kernel: Add and use "vectors.h"
+df3ffcaabfc038b31a4548efb7f4bf23428d34e5 m68k: mm: Include <asm/hwtest.h> for hwreg_()
+30cd0e67d337d71f26e74e830a46a34cb81ecffb m68k: mm: Move paging_init() to common <asm/pgtable.h>
+2806a3e393d4c366959aafe2a1a1fa153454eeba m68k: mm: Add and use "fault.h"
+a5ab12389c4bbf1425f47258d4b34d521f3787bf m68k: emu: Remove unused vsnprintf() return value in nfprint()
+42f8fb6631f5daea674e25b3e5f07b463f026be0 m68k: emu: Mark version[] __maybe_unused
+70cf9574dd946bf33fc253a4c77d4c4e30270dc4 m68k: amiga: pcmcia: Replace set but not used variable by READ_ONCE()
+f6696810cf273511de37fdb5015a67a5911635e7 m68k: amiga: Add and use "amiga.h"
+db7dbc0c841720d75afba1d130f263d2af509643 m68k: atari: Document data parameter of stdma_try_lock()
+30128dadd9135d1102500c09f088acceec3b03ec m68k: atari: Make ikbd_reset() static
+ba6534bc77a34c3cf161fe6b4ad9cc097639099b m68k: atari: Make atari_platform_init() static
+b391af9d671e6748ec7d829b0bb6ef6bbd641772 m68k: atari: Make atari_stram_map_pages() static
+f3126e3e216740ee1c4e33885dbc21d0f9d7d186 m68k: atari: Add and use "atari.h"
+ce6f08a3ea91f6a0fe623a7d3d8feeb17db044f0 m68k: apollo: Remove unused debug console functions
+db4cab878d7dd113c4e7bc8cd0ed51cb37469ed4 m68k: apollo: Make local reset, serial, and irq functions static
+62c549fdd3e87f7f575fcb5f15e0895e0e8c9ab3 m68k: apollo: Replace set but not used variable by READ_ONCE()
+22b5cd9e08f87478c001e13d8664fb13a9c7ac0a m68k: apollo: Add and use "apollo.h"
+b0998a2633423e433d87997439fdbbcdda4cc9fb m68k: bvme6000: Make bvme6000_abort_int() static
+e86f575ff624215e937493db249d7fef35e677f6 m68k: hp300: Include "time.h" for hp300_sched_init()
+35e98a1eb18ce66a681a158a3c901f9a81a0506b m68k: mac: Remove unused sine_data[]
+9581fa260a0af84f25a1150122632776d9e55b9c m68k: mac: Remove unused yday in unmktime()
+3ed72f3951f994ffa25f155b54d31c4de1887474 m68k: mac: Make mac_platform_init() static
+da800076bc809f4331ecb052d28a679cfac482e9 m68k: mac: Add and use "mac.h"
+04eb2fb38215705ae10694f6b894b8f460b1fd0c m68k: mvme147: Make mvme147_init_IRQ() static
+06decc6d5f67980eb55a484771d02b2b9c3b6cdb m68k: mvme16x: Remove unused sink in mvme16x_cons_write()
+04b670dbdbb7d9c255d7667354120c5e7b5de744 m68k: mvme16x: Add and use "mvme16x.h"
+11eef87209c40082cf14d7367892388c16b629e9 m68k: q40: Add and use "q40.h"
+874f4d62cda4ecfc6e1dc7cb0bd7515a81fd4d70 m68k: sun3/3x: Include <asm/config.h> for config_sun3*()
+9a75ec1394da24505c9345d0ebc458de1be6baf7 m68k: sun3: Improve Sun3/3x DVMA abstraction in <asm/dvma.h>
+a7fbc72d9ad73fde15c7d1e0f40a1916f8e17484 m68k: sun3: Fix context restore in flush_tlb_range()
+021d490bf2fc37eacab274adbb49c2db9fc8f144 m68k: sun3: Fix signature of sun3_get_model()
+c5154304c7dcbdbc80e0a6e9df8b1b078c0eaae2 m68k: sun3: Add missing asmlinkage to sun3_init()
+921a1855a015d668eca6484cae45569b3c59ba33 m68k: sun3: Remove unused orig_baddr in free_baddr()
+821a17f18eb28761c8da787b1a6db5bb46f38e16 m68k: sun3: Remove unused start_page in sun3_bootmem_alloc()
+fa203fcdfd7d47c43b604a09eade8a99f614267e m68k: sun3: Remove unused vsprintf() return value in prom_printf()
+e31b64e23fab50fcb03601d48548ca09c3b5bc84 m68k: sun3: Annotate prom_printf() with __printf()
+1fed4854ec6f627f94ac2e3eeb691a79a143eb0d m68k: sun3: Make print_pte() static
+7b920df450bf8b94cf59f95167ea2320784a1a29 m68k: sun3: Make sun3_platform_init() static
+0f25c9459f93f05d4064258017881dff4b7f3134 m68k: sun3x: Fix signature of sun3_leds()
+a8b1f37540f868819b967b5980b11608fabd99ef m68k: sun3x: Do not mark dvma_map_iommu() inline
+87b8bb863f42a098432c9acf4860ed3fc42e698d m68k: sun3x: Make sun3x_halt() static
+7b91dcbbc67bd7eb9995f32fd21fc18014a0d5f9 m68k: sun3x: Make dvma_print() static
+afe3e7c74c046ed9a926372c76033c5d5c471fe7 m68k: sun3/3x: Add and use "sun3.h"
+dcafe55278a7a50865e3f9bc43ddde2b118e75a7 m68k: Replace GPL 2.0+ README.legal boilerplate with SPDX
+4aca045a464dca7d3b45708223aaf8f714959f52 m68k: atari: usb: Add ISP1160 USB host controller support
+4491b85a05a603b2f6b412b1e352524e988df013 m68k: atari: Update Kconfig.bus help text
+2febd5c7c8a92987a34783a3e9e09f0a647b6207 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8645603100120638831==--
+--===============0205909905040069579==--
