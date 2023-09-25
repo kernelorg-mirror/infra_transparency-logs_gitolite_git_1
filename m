@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7463633424681790353=="
+Content-Type: multipart/mixed; boundary="===============5025547974436363387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 25 Sep 2023 23:23:11 -0000
-Message-Id: <169568419119.14136.6139993445193838743@gitolite.kernel.org>
+Date: Mon, 25 Sep 2023 23:23:13 -0000
+Message-Id: <169568419307.14202.4094601505500312801@gitolite.kernel.org>
 
---===============7463633424681790353==
+--===============5025547974436363387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 831916fb93d4b99bd5f18b8530708b88d901a522
     new: e0fa6523e02ab31a27daf52e58a0d95fd52d5300
     log: revlist-831916fb93d4-e0fa6523e02a.txt
 
---===============7463633424681790353==
+--===============5025547974436363387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ ae769390377adaec2798bd1a69171f00d0a25be0 libbpf: Add ring__map_fd
 cb3d7dd2d0dbe92ff3ebdd87fefc254f1c89aeeb selftests/bpf: Add tests for ring__consume
 e0fa6523e02ab31a27daf52e58a0d95fd52d5300 Merge branch 'add libbpf getters for individual ringbuffers'
 
---===============7463633424681790353==--
+--===============5025547974436363387==--
