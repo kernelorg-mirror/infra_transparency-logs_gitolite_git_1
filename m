@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6608736137305258671=="
+Content-Type: multipart/mixed; boundary="===============3149274255004599117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 25 Sep 2023 13:20:54 -0000
-Message-Id: <169564805442.15560.12161356459995437849@gitolite.kernel.org>
+Date: Mon, 25 Sep 2023 13:21:13 -0000
+Message-Id: <169564807325.15763.16573281463263976520@gitolite.kernel.org>
 
---===============6608736137305258671==
+--===============3149274255004599117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: ce9ecca0238b140b88f43859b211c9fdfd8e5b70
-    new: 6465e260f48790807eef06b583b38ca9789b6072
-    log: revlist-ce9ecca0238b-6465e260f487.txt
+  - ref: refs/heads/nfsd-next
+    old: dc3bc4295f70e31e21d9e56da17ad010a1b5745a
+    new: ea3f13fb3e6611436ea62275aa6fc3e93d137979
+    log: revlist-dc3bc4295f70-ea3f13fb3e66.txt
 
---===============6608736137305258671==
+--===============3149274255004599117==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ce9ecca0238b-6465e260f487.txt
+Content-Disposition: attachment; filename=revlist-dc3bc4295f70-ea3f13fb3e66.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -441,5 +441,89 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 5edc6bb321d970c77d666a6cf8eeb060f2d18116 Merge tag 'trace-v6.6-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
+68ac173633bc12add961e691ad41624b1d5c51a7 NFSD: initialize copy->cp_clp early in nfsd4_copy for use by trace point
+7f81888b2e756f311d4f63ec183baa54fabb7fd5 NFSD: add trace points to track server copy progress
+e68bb032b9dca907bb38e4189dfe676138fde1f1 nfsd: Handle EOPENSTALE correctly in the filecache
+f54a6b02a13e8b3e53ad9cda63b56cd8c81673d7 nfsd: Don't reset the write verifier on a commit EAGAIN
+c203c67a8c5ff665fb097d9d67aabfabfceeaadc lockd: introduce safe async lock op
+c9c9604188afff693af627e7111e6202ebb8aaea lockd: don't call vfs_lock_file() for pending requests
+4803e6ee474db2309de3292339e3f8ad4e930d26 lockd: fix race in async lock request handling
+091c337444e2ecf39f84d724ef7747894cda4419 lockd: add doc to enable EXPORT_OP_ASYNC_LOCK
+2034ae5c702cfcec65d9254db6643674869f0e43 SUNRPC: move all of xprt handling into svc_xprt_handle()
+9ae72411797fa950ae146ae9b0f502f790d4a97d SUNRPC: rename and refactor svc_get_next_xprt()
+a3189a7dabf88e5fd347333c02d9ac3a93e7c019 SUNRPC: Clean up bc_svc_process()
+01425345d882552816cd2cc62f6d9dc1e6696939 SUNRPC: integrate back-channel processing with svc_recv()
+ae270dac694dab6b94e18a98292e66e65bb00f1b SUNRPC: change how svc threads are asked to exit.
+b0ad8696b7151fce371456628ef47c5b64ae10e3 SUNRPC: add list of idle threads
+6b5f808c6653ae59842fbc1bd8840daa086282c2 SUNRPC: discard SP_CONGESTED
+9dcd74ffa3b36afc55dec1facde887bd236db931 llist: add interface to check if a node is on a list.
+a5c37959d2692a8fa001bdfbfdc64ca91d643a07 SUNRPC: change service idle list to be an llist
+c71f87ccb149c6e5a402d06d0df965219a3f9ace llist: add llist_del_first_this()
+16c486356b1a91c32d913d0b3588115e760603d2 lib: add light-weight queuing mechanism.
+8a4545a363585cbd067bb9f068c68b93d961fa42 SUNRPC: rename some functions from rqst_ to svc_thread_
+f72f18a16393e629748bd1b31997a14723d668f2 SUNRPC: only have one thread waking up at a time
+1b2492de011cf8e3a663bb9f996a01494b53ce70 SUNRPC: use lwq for sp_sockets - renamed to sp_xprts
+eff9625d3bfaeeef568ce47ed4a43ab5b0f9c340 SUNRPC: change sp_nrthreads to atomic_t
+8d76ea0328836e501f4f1d717475c56436519eb4 SUNRPC: discard sp_lock
+b7417a8fc5706acbc5d7e1046fd845825811e887 SUNRPC: change the back-channel queue to lwq
+b67bc3b896e28f5eb0859a24b520ff72dfc2ed3e NFSD: add support for CB_GETATTR callback
+2aef2663003ca9e9098ad37890e7c36abd931e7c NFSD: handle GETATTR conflict with write delegation
+1ce6af920bfdc777fdf490e5255fc9936876742d NFSD: introduce netlink stubs
+b759ee00811de1aeb8fd8ecdba9a0ccd3c6743f4 NFSD: add rpc_status netlink support
+fb977b8b15d15599b3022eb14eb3b47a25e9ed2a nfs: fix the typo of rfc number about xattr in NFSv4
+42a83dc3e6d1be12727fe6839481012ce4e371c0 SUNRPC: Remove BUG_ON call sites
+de7cfe1557abee48bb99937e3b2d16fc0322a8ef NFSD: Add simple u32, u64, and bool encoders
+17f92b6998c78716d723f611020389e5e47a03b1 NFSD: Rename nfsd4_encode_bitmap()
+f0c486a383c953a2f9bbedd5e33768226a8572c4 NFSD: Clean up nfsd4_encode_setattr()
+19dcb339198ac4cb28487f1c4e977f7029debab4 NFSD: Add struct nfsd4_fattr_args
+a7171f22eee8afc13cddaf82c44b37646bacc4eb NFSD: Add nfsd4_encode_fattr4__true()
+c00bea16355ec64b7c623ed52441cba0d59abf9a NFSD: Add nfsd4_encode_fattr4__false()
+a25c91f641e1dd83e73321c471cf01ed7752d3af NFSD: Add nfsd4_encode_fattr4_supported_attrs()
+21cf51d42d9da62e92dd26b747a78f56e78b48bd NFSD: Add nfsd4_encode_fattr4_type()
+d90590826db88ad9a556d0a0eff8d094d3e452a9 NFSD: Add nfsd4_encode_fattr4_fh_expire_type()
+aae157ca03c83629c48dc58b81e046f71ac5904e NFSD: Add nfsd4_encode_fattr4_change()
+146eba418220aed75b6d353e6fa685af7e82c0b7 NFSD: Add nfsd4_encode_fattr4_size()
+580dc421a1b5369bf3185f2bdf72a6cc459b388b NFSD: Add nfsd4_encode_fattr4_fsid()
+38cdb429b129139efacfe384a1a86f370c218a99 NFSD: Add nfsd4_encode_fattr4_lease_time()
+6a4163b7658f79432d456146e3dc274372f299d0 NFSD: Add nfsd4_encode_fattr4_rdattr_error()
+5ac5f9fb92ac960b5e3619981189a2ded1d57216 NFSD: Add nfsd4_encode_fattr4_aclsupport()
+62a548f26d21e38389d7421cd47a26908ec75448 NFSD: Add nfsd4_encode_nfsace4()
+266089af2cc7f1ffe4e1b7b97a40edc3a2eb7da7 NFSD: Add nfsd4_encode_fattr4_acl()
+29a2e85bddd24e9c9a7c079db690062a2d82774b NFSD: Add nfsd4_encode_fattr4_filehandle()
+8fc0de18527d80e5efa11b440a5e05eff00c2ac0 NFSD: Add nfsd4_encode_fattr4_fileid()
+3e9aec6150a4c05ed87b574bdd69bf249986268d NFSD: Add nfsd4_encode_fattr4_files_avail()
+f908c718ed707070d67567d23d63bf357de3eae8 NFSD: Add nfsd4_encode_fattr4_files_free()
+ecd4d5e9e22e1e373d390dbee5c5a9ac73c655da NFSD: Add nfsd4_encode_fattr4_files_total()
+02a031dff7128aa3d33800dc6866c8a6ade7104d NFSD: Add nfsd4_encode_fattr4_fs_locations()
+3500fea276dc7a63548d920765e4a4b972969db5 NFSD: Add nfsd4_encode_fattr4_maxfilesize()
+806ab827aec44cc7c69c6931ef81d59da0aeeb64 NFSD: Add nfsd4_encode_fattr4_maxlink()
+c18990d811b749d184326a8940c29c5b074aa4ef NFSD: Add nfsd4_encode_fattr4_maxname()
+f4b8f3b0f88b8840e429fff5fcd7133977789bb7 NFSD: Add nfsd4_encode_fattr4_maxread()
+8a33424699204a5e9048642b7a77b1d0210dab18 NFSD: Add nfsd4_encode_fattr4_maxwrite()
+b8b927fc96a633326ddfc29275c7e1ab794358da NFSD: Add nfsd4_encode_fattr4_mode()
+11a6a4812cb3216bd1dde5228a37f2d81b2ecf5e NFSD: Add nfsd4_encode_fattr4_numlinks()
+6eb62f18296faa95d358bcf816e98a571b7982b9 NFSD: Add nfsd4_encode_fattr4_owner()
+42b072e31d291108c515d176348dc8ef367879d8 NFSD: Add nfsd4_encode_fattr4_owner_group()
+85aed9b671817be7cd3031c045a1ec7abd891680 NFSD: Add nfsd4_encode_fattr4_rawdev()
+f31c009bc2473f5e04f72de1550278013e9c86d6 NFSD: Add nfsd4_encode_fattr4_space_avail()
+42ee375deb00b72694a2aeb5e07e32fb0dcda9ea NFSD: Add nfsd4_encode_fattr4_space_free()
+d9e5d9b9abf86d74807dd805fe067256b1f097a8 NFSD: Add nfsd4_encode_fattr4_space_total()
+2346c6740fb7954bbb67d7bf7c9f5e68a7b10145 NFSD: Add nfsd4_encode_fattr4_space_used()
+32fda9366b0cb3a19114415819c41d9838d7623e NFSD: Add nfsd4_encode_fattr4_time_access()
+42bdcce039a5e2db7e1a5517c8a2d5fd634c8884 NFSD: Add nfsd4_encode_fattr4_time_create()
+4802ab40763692183f3cb03dd40e2b37ddc6e022 NFSD: Add nfsd4_encode_fattr4_time_delta()
+e123908c336fc1cd3b4dab6a569d196c4d30bb4a NFSD: Add nfsd4_encode_fattr4_time_metadata()
+515b45a8b30e4c2ee389915c30cbbab0d6231526 NFSD: Add nfsd4_encode_fattr4_time_modify()
+bbcec9f31460e7ebcdd8929397d9a2ea2b1d2719 NFSD: Add nfsd4_encode_fattr4_mounted_on_fileid()
+55eb301e43c16228028715923472017ec2652af2 NFSD: Add nfsd4_encode_fattr4_fs_layout_types()
+635a7dbb1862b4f861857585660e6e6c0d227161 NFSD: Add nfsd4_encode_fattr4_layout_types()
+c2d8049c16f54cf0191726fb8b8bb7a9d7ce1e88 NFSD: Add nfsd4_encode_fattr4_layout_blksize()
+e9382474bf27cc16b9ddfbff2847c7e98a7f5a73 NFSD: Add nfsd4_encode_fattr4_suppattr_exclcreat()
+e696b832956523ac645db45d36f1f7a0d6635f7e NFSD: Add nfsd4_encode_fattr4_sec_label()
+1df9c7be760eb30a0dceefb24da311416b4665f3 NFSD: Add nfsd4_encode_fattr4_xattr_support()
+1ae9ddc36d6c03924789781fee806f938d2bd9eb NFSD: Copy FATTR4 bit number definitions from RFCs
+bdf67d06fb221511e1c031f27c3bed0a40b42e3b NFSD: Use a bitmask loop to encode FATTR4 results
+1f3320fa3c91a9705c2f01da900581136e2b8fca NFSD: Rename nfsd4_encode_fattr()
+ea3f13fb3e6611436ea62275aa6fc3e93d137979 NFSD: simplify error paths in nfsd_svc()
 
---===============6608736137305258671==--
+--===============3149274255004599117==--
