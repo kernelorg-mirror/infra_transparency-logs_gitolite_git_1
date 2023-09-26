@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4127422870903085455=="
+Content-Type: multipart/mixed; boundary="===============0007546119108997609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 26 Sep 2023 01:58:15 -0000
-Message-Id: <169569349500.1886.6298453817723886512@gitolite.kernel.org>
+Date: Tue, 26 Sep 2023 01:58:21 -0000
+Message-Id: <169569350160.1995.13210455786705595540@gitolite.kernel.org>
 
---===============4127422870903085455==
+--===============0007546119108997609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/mips-next
-    old: ad4fddef5f2345aa9214e979febe2f47639c10d9
+  - ref: refs/heads/mips-fixes
+    old: ac3b57adf87ad9bac7e33ca26bbbb13fae1ed62b
     new: 6465e260f48790807eef06b583b38ca9789b6072
-    log: revlist-ad4fddef5f23-6465e260f487.txt
+    log: revlist-ac3b57adf87a-6465e260f487.txt
 
---===============4127422870903085455==
+--===============0007546119108997609==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ad4fddef5f23-6465e260f487.txt
+Content-Disposition: attachment; filename=revlist-ac3b57adf87a-6465e260f487.txt
 
 7a8817f2c96e98d5e65a59e34ba9ea1ff6ed23bc mm: memory-failure: add PageOffline() check
 6885938c349c14b277305cd1129e7eb14f3e2c55 mm/hwpoison: rename hwp_walk* to hwpoison_walk*
@@ -1051,4 +1051,4 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
 
---===============4127422870903085455==--
+--===============0007546119108997609==--
