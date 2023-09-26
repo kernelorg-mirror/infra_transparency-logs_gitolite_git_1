@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4472440730665098469=="
+Content-Type: multipart/mixed; boundary="===============7882636155720367735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 26 Sep 2023 20:36:07 -0000
-Message-Id: <169576056775.5111.9209888031754203361@gitolite.kernel.org>
+Date: Tue, 26 Sep 2023 20:37:59 -0000
+Message-Id: <169576067999.7242.1884416363612099784@gitolite.kernel.org>
 
---===============4472440730665098469==
+--===============7882636155720367735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 3c78dbf251350fdf3a9dab3b9c3391fb89df208d
+  - ref: refs/heads/for-next
+    old: 42ed07054d7596db5b1d5a01b1ffc087829d84dd
     new: aab8130550da9ce9f3f367d2a7b0f624ac68cf5b
-    log: revlist-3c78dbf25135-aab8130550da.txt
+    log: revlist-42ed07054d75-aab8130550da.txt
 
---===============4472440730665098469==
+--===============7882636155720367735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c78dbf25135-aab8130550da.txt
+Content-Disposition: attachment; filename=revlist-42ed07054d75-aab8130550da.txt
 
+9edbe6f36c5f86776cc1c6ba0f546a4aefe2767f devlink: push linecard related code into separate file
+890c556674377c0abba4ab91ff6f1962175d578c devlink: move tracepoint definitions into core.c
+29a390d17748d93f9e6bc6fb0e09d89571aa25f6 devlink: move small_ops definition into netlink.c
+71179ac5c21185171556bc438d5f22d566948d7f devlink: move devlink_notify_register/unregister() to dev.c
+4b151e75aa5e8583a67328e02566c577c992d9a1 Merge branch 'devlink-finish-file-split-and-get-retire-leftover-c'
 5a7319b967b66969e3fff7b91bdfbcd9acd969ac of: unittest: Fix of_unittest_pci_node() kconfig dependencies
 c7e151a7100eb298bb03c83c1a7372112fce2571 dt-bindings: thermal: lmh: update maintainer address
 789e527adfc335681ea4c3e347e8b500753d4fde parisc: led: Rewrite LED/LCD driver to utilizize Linux LED subsystem
@@ -209,11 +214,6 @@ c958ca2013e28e7573ad95c028198cb67c1352dd sched/fair: Make update_entity_lag() st
 eaf9f4649cf03ba3442712497a30686380ba7c23 Merge tag 'csky-for-linus-6.6' of https://github.com/c-sky/csky-linux
 9d6b14cd1e993d2ff98df0cef6d935ce6fd4dbec Merge tag 'flex-array-transformations-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 fe48ba7daefe75bbbefa2426deddc05f2d530d2d workqueue: fix data race with the pwq->stats[] increment
-c888d347acc989ef93e3caf25945ecc2ffc525e9 Merge tag 'socfpga_update_for_v6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into soc/arm
-6e73bd23a1cdcf1416ebd57ff673b5f601963ed2 ARM: davinci: Drop unused includes
-09959520d2b0853a16962d245acfdc995d1b0da9 bus: fsl-mc: Use common ranges functions
-79f74d4c83fb9e1a144443c7513d23ee8c3b1619 ARM: dts: use capital "OR" for multiple licenses in SPDX
-05c618f39089d977b0c3dc1105cb6cd5fc53cd01 arm64: dts: use capital "OR" for multiple licenses in SPDX
 651a00bc56403161351090a9d7ddbd7095975324 Merge tag 'slab-for-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 b96a3e9142fdf346b05b20e867b4f0dfca119e96 Merge tag 'mm-stable-2023-08-28-18-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 f16ff1cafbf1e65cc706af912df90bcc15d39a6c SUNRPC: Fix the recent bv_offset fix
@@ -1051,4 +1051,4 @@ e99e2e8d1b12d7b4ef0637e87081b59a9f75b2e0 Merge tag 'omap-for-v6.6/fixes-signed' 
 82bc4a73e712568238a99da7455782ea1ace112e arm64: defconfig: remove CONFIG_COMMON_CLK_NPCM8XX=y
 aab8130550da9ce9f3f367d2a7b0f624ac68cf5b Merge tag 'riscv-dt-fixes-for-v6.6-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
 
---===============4472440730665098469==--
+--===============7882636155720367735==--
