@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7185109498113690716=="
+Content-Type: multipart/mixed; boundary="===============2672643034620251825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 26 Sep 2023 15:02:18 -0000
-Message-Id: <169574053890.18036.17074732529597175632@gitolite.kernel.org>
+Date: Tue, 26 Sep 2023 15:02:42 -0000
+Message-Id: <169574056231.18243.8369176693961627028@gitolite.kernel.org>
 
---===============7185109498113690716==
+--===============2672643034620251825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 049639d6ee3aba0875aea542f4a58202b8734f2a
-    new: c7bb120c1c66672b657e95d0942c989b8275aeb3
-    log: revlist-049639d6ee3a-c7bb120c1c66.txt
+  - ref: refs/heads/next
+    old: ca53cc22f099702a5365fe0ee6ec0683b80078c9
+    new: 40f59f212fc8e01f0d2c28ac80eef72073d02657
+    log: revlist-ca53cc22f099-40f59f212fc8.txt
 
---===============7185109498113690716==
+--===============2672643034620251825==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-049639d6ee3a-c7bb120c1c66.txt
+Content-Disposition: attachment; filename=revlist-ca53cc22f099-40f59f212fc8.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
@@ -716,6 +716,21 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 1202d617e3d04c8d27a14ef30784a698c48170b3 mmc: sdhci-pci-gli: fix LPM negotiation so x86/S0ix SoCs can suspend
 168054ca5cf783e07518681fad0904de8dcc6b17 mmc: sdhci-sprd: Fix error code in sdhci_sprd_tuning()
 f19c5a73e6f78d69efce66cfdce31148c76a61a6 mmc: core: Fix error propagation for some ioctl commands
+a5b5006edc6273c278930f0ee92773c13abd660e dt-bindings: mmc: sdhci-msm: allow flexible order of optional clocks
+541a95e64d7606ead18a4e8aa78c753a2494cae0 mmc: sdhci-esdhc-imx: optimize the manual tuing logic to get the best timing
+bbe6dc429bf52b0062c2a9b39f850cfd317289a7 mmc: host: Kconfig: Make MMC_SDHI_INTERNAL_DMAC config option dependant on ARCH_RENESAS
+134d3cfbb8658eb9600a6db689d0b47d24d96fbe mmc: atmel-mci: add missing of_node_put
+6f39adf955d8767c78fba94cf9abe989e0d1e111 mmc: atmel-mci: Add description for struct member
+3b7eee6aae0b3212183fa63a4ae7887924218987 dt-bindings: mmc: renesas,sdhi: Document RZ/G3S support
+d7133797e9e1b72fd89237f68cb36d745599ed86 mmc: sdhci-pci-gli: A workaround to allow GL9750 to enter ASPM L1.2
+6e058038cd2aaffed74a2041f02f81f0f4ffca56 mmc: Merge branch fixes into next
+0b71cc5e5120cca5de1a9edf0cbdff5f61eee7aa mmc: core: Allow dynamical updates of the number of requests for hsq
+59328c9aeb485dd724ad7612358e2664255a0d28 mmc: hsq: Improve random I/O write performance for 4k buffers
+0f1ae2ff10464ebd4b6970420c11db18a53c19a2 dt-bindings: mmc: starfive: Remove properties from required
+9d42bd19a98bd36267c6ed7a57ad0d054a6c42cf mmc: starfive: Change tuning implementation
 c7bb120c1c66672b657e95d0942c989b8275aeb3 mmc: mtk-sd: Use readl_poll_timeout_atomic in msdc_reset_hw
+76b0fd1fae732d236dd58a90e4fa871a5214c3ba memstick: jmb38x_ms: Annotate struct jmb38x_ms with __counted_by
+298df10391f4256a5a93e2a95c6d5ee92c1a817b MAINTAINERS: aspeed: Update Andrew's email address
+40f59f212fc8e01f0d2c28ac80eef72073d02657 mmc: Merge branch fixes into next
 
---===============7185109498113690716==--
+--===============2672643034620251825==--
