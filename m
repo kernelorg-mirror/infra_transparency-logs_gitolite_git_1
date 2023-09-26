@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Tue, 26 Sep 2023 09:24:53 -0000
-Message-Id: <169572029388.25814.9023963877008311591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 26 Sep 2023 09:28:55 -0000
+Message-Id: <169572053593.28868.7546277768039473019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/rcu/fixes
-    old: d9a86ba6bf6efef277203ef337e3bb719b0d48fb
-    new: d8d5b7bf6f2105883bbd91bbd4d5b67e4e3dff71
+  - ref: refs/heads/for-rc
+    old: a83c69278975227b689b4a016d1fc8e4820756e9
+    new: d7f393430a17c2bfcdf805462a5aa80be4285b27
     log: |
-         d8d5b7bf6f2105883bbd91bbd4d5b67e4e3dff71 srcu: Fix srcu_struct node grpmask overflow on 64-bit systems
+         d7f393430a17c2bfcdf805462a5aa80be4285b27 IB/mlx4: Fix the size of a buffer in add_port_entries()
          
