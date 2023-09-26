@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 26 Sep 2023 09:47:22 -0000
-Message-Id: <169572164207.25428.11507115833052089669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 26 Sep 2023 09:50:03 -0000
+Message-Id: <169572180352.27468.8359251418194334719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/rdma-rc
-    old: 0d056ff7a9e51d0054e5128e88b46a329cfa96ca
-    new: e710c390a8f860d3d466db669c576640aa39503c
+  - ref: refs/heads/for-next
+    old: 622047ab0e0d7dea3660d4d8792ee0f199e2b669
+    new: 6ed50b760bec8b00116063d9b8c891a929ac74ad
     log: |
-         d7f393430a17c2bfcdf805462a5aa80be4285b27 IB/mlx4: Fix the size of a buffer in add_port_entries()
-         4f14c6c0213e1def48f0f887d35f44095416c67d RDMA/mlx5: Fix assigning access flags to cache mkeys
-         2fad8f06a582cd431d398a0b3f9be21d069603ab RDMA/mlx5: Fix mutex unlocking on error flow for steering anchor creation
-         dab994bcc609a172bfdab15a0d4cb7e50e8b5458 RDMA/mlx5: Fix NULL string error
-         374012b0045780b7ad498be62e85153009bb7fe9 RDMA/mlx5: Fix mkey cache possible deadlock on cleanup
-         e710c390a8f860d3d466db669c576640aa39503c Revert "RDMA/rxe: Add workqueue support for rxe tasks"
+         61f8c9c0b48632ea1f14519dfae9176ffbf65050 io_uring: add support for vectored futex waits
+         0f69e1fd990df91262cf71765768cea5e69350e2 Merge branch 'for-6.7/block' into for-next
+         6ed50b760bec8b00116063d9b8c891a929ac74ad Merge branch 'io_uring-futex' into for-next
+         
+  - ref: refs/heads/io_uring-futex
+    old: 69dc228f81258bd9fac0c5d14f7bd415eea5c82f
+    new: 61f8c9c0b48632ea1f14519dfae9176ffbf65050
+    log: |
+         61f8c9c0b48632ea1f14519dfae9176ffbf65050 io_uring: add support for vectored futex waits
          
