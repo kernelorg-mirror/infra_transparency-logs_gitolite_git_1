@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2770066152655358419=="
+Content-Type: multipart/mixed; boundary="===============6314319209975974632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 26 Sep 2023 12:58:16 -0000
-Message-Id: <169573309615.23722.3572167719342690840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 26 Sep 2023 12:58:22 -0000
+Message-Id: <169573310260.23839.9808397738390559718@gitolite.kernel.org>
 
---===============2770066152655358419==
+--===============6314319209975974632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/regulator-6.7
     old: 6e6891ccf0c7e70f13bc1d5ce5a7edee2b5de045
     new: 4a710a0b0c68d4bf48ed70083e5a28984e5994c2
     log: revlist-6e6891ccf0c7-4a710a0b0c68.txt
 
---===============2770066152655358419==
+--===============6314319209975974632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1695733094 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1695733093-ad6bdffa5f9406972c20715eea8a88a78b0e1885
+pusher Mark Brown <broonie@kernel.org> 1695733101 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1695733100-16f6d7b717981e5b98056e2bbddf5f8b92147eeb
 
-6e6891ccf0c7e70f13bc1d5ce5a7edee2b5de045 4a710a0b0c68d4bf48ed70083e5a28984e5994c2 refs/heads/for-6.7
+6e6891ccf0c7e70f13bc1d5ce5a7edee2b5de045 4a710a0b0c68d4bf48ed70083e5a28984e5994c2 refs/heads/regulator-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUS1WYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0OBpB/9jd914JRUH7x4e5lEqesSC4o99pmKT
-3z7x7UWTE/5Axr5IBl5xB7odWgBa1xTc0ilqPdxC8rIZbaWOoQXrO5x7KiDgH+1Q
-J5CD7bWAHVYIcVG1b2AGb0KleER5+bmIoc6DgKI0RMZUOh/6ssKdKe7hyaiTcz3h
-eBcd8Qq3cCPR02uArxJCf87bNR1//RCt/ulFpoffUwrPqQ243hfFjPX7Dez3Z3e9
-EHvUpGXhMBs58jw2gdK3dCV9NpTk/QRZ8kRSokxnS16a5h1rZOb+pHCJLLv1J0Zf
-whQpdX6QHzmaB8cX73xVxY2gGkRaEvjsBrQ6NMMM3rmCyMD3kgtIedWE
-=4+yL
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUS1W0THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0IABB/4yTYDOLDB9MJFycCEkXK69qpGwJcNv
+PCV21mwNHSd07nRtD496yfTuul41MOrI07oOK8gR7AphYOL7sF334S2vy/urUIZ5
+AdjAhwuBPHXCHx6BtYmzjpiNigtPsq7MYmS+orlf+ETkgH+s0uGWkS1SgP7lh4q6
+LO4xm2OOiUe0UI8qapPhb5FUrYnRimPzBjYc0bPQmoxLmMrAyEh0SH7ShAxDF8Si
+RrwBc5qk6E9fRG9sG696yufwHTlnMSHfEseQTt7vRB/rkhszpeBbm8Ifxa7hWRdq
+y9cImIp3To6M2VA7i13Qs/u9rlzRnifNlKXwi2P0BfOvo/g3+Re8sjOw
+=9d3d
 -----END PGP SIGNATURE-----
 
---===============2770066152655358419==
+--===============6314319209975974632==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -742,4 +742,4 @@ cf08fa74c716cf20e5038d1e7dbbd7dba1b76062 regulator: mt6358: Add output voltage f
 66af368359816d62cf91ed1b02fe99f9a4015f3a regulator: dt-bindings: Add missing unevaluatedProperties on child node schemas
 4a710a0b0c68d4bf48ed70083e5a28984e5994c2 regulator: mt6358: Remove bogus regulators and
 
---===============2770066152655358419==--
+--===============6314319209975974632==--
