@@ -1,51 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 26 Sep 2023 06:50:03 -0000
-Message-Id: <169571100375.19781.9199375036175827254@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2034733856624475053=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 26 Sep 2023 07:14:48 -0000
+Message-Id: <169571248837.13589.5738045754206800186@gitolite.kernel.org>
+
+--===============2034733856624475053==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/block-6.6
-    old: e599ed7866cd804ca15de7a92f7f629944cc278d
-    new: a578a25339aca38e23bb5af6e3fc6c2c51f0215c
+  - ref: refs/heads/main
+    old: 61304336c67358d49a989e5e0060d8c99bad6ca8
+    new: aaba3cd33fc9593a858beeee419c0e6671ee9551
     log: |
-         a578a25339aca38e23bb5af6e3fc6c2c51f0215c block: fix kernel-doc for disk_force_media_change()
+         334bf33eec5701a1e4e967bcb7cc8611a998334b wifi: cfg80211: avoid leaking stack data into trace
+         aaba3cd33fc9593a858beeee419c0e6671ee9551 wifi: mac80211: Create resources for disabled links
          
-  - ref: refs/heads/for-6.7/block
-    old: d78bfa1346ab1fe04d20aa45a0678d1fc866f37c
-    new: aa511ff8218b3fb328181fbaac48aa5e9c5c6d93
-    log: |
-         e850d9a52f4cd31521c80a7ea9718b69129af4d5 badblocks: add more helper structure and routines in badblocks.h
-         c3c6a86e9efc5da5964260c322fe07feca6df782 badblocks: add helper routines for badblock ranges handling
-         1726c774678331b4af5e78db87e10ff5da448456 badblocks: improve badblocks_set() for multiple ranges handling
-         db448eb6862979aad2468ecf957a20ef98b82f29 badblocks: improve badblocks_clear() for multiple ranges handling
-         3ea3354cb9f03e34ee3fab98f127ab8da4131eee badblocks: improve badblocks_check() for multiple ranges handling
-         aa511ff8218b3fb328181fbaac48aa5e9c5c6d93 badblocks: switch to the improved badblock handling code
-         
-  - ref: refs/heads/for-next
-    old: 8cb348f1e2115b0cc44fe8add1bb19f5b86ea9f8
-    new: 622047ab0e0d7dea3660d4d8792ee0f199e2b669
-    log: |
-         c1aa7c58b1081ef0a9f8bc4acb2f242748d329aa io_uring: add support for vectored futex waits
-         b68d9901ccd2d4c8aaf16d41700140ebae6370f0 Merge branch 'io_uring-futex' into for-next
-         06d442f397489163015fdd3c7cd76cf521b6c607 Merge branch 'for-6.7/block' into for-next
-         e850d9a52f4cd31521c80a7ea9718b69129af4d5 badblocks: add more helper structure and routines in badblocks.h
-         c3c6a86e9efc5da5964260c322fe07feca6df782 badblocks: add helper routines for badblock ranges handling
-         1726c774678331b4af5e78db87e10ff5da448456 badblocks: improve badblocks_set() for multiple ranges handling
-         db448eb6862979aad2468ecf957a20ef98b82f29 badblocks: improve badblocks_clear() for multiple ranges handling
-         3ea3354cb9f03e34ee3fab98f127ab8da4131eee badblocks: improve badblocks_check() for multiple ranges handling
-         aa511ff8218b3fb328181fbaac48aa5e9c5c6d93 badblocks: switch to the improved badblock handling code
-         622047ab0e0d7dea3660d4d8792ee0f199e2b669 Merge branch 'for-6.7/block' into for-next
-         
-  - ref: refs/heads/io_uring-futex
-    old: 88f3ee98cf0716fd07dc25835d4ff28c9e0dd0d0
-    new: c1aa7c58b1081ef0a9f8bc4acb2f242748d329aa
-    log: |
-         c1aa7c58b1081ef0a9f8bc4acb2f242748d329aa io_uring: add support for vectored futex waits
-         
+
+--===============2034733856624475053==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1695712447 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1695712447-747ae33e91b0aa158692edf44e5c15c01d59ea40
+
+61304336c67358d49a989e5e0060d8c99bad6ca8 aaba3cd33fc9593a858beeee419c0e6671ee9551 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUShMAACgkQ10qiO8sP
+aAAbLA/+LYfmzOASjyZrXs8TSLj6W/SuE4IDcz9EfUTz3w5J29h9VRYxtiKC0G9f
+FFYGULO68i2e+MZeaB+E81cmf3KbQo0lsKgcMZ0sd2dRx2XZQQWHNKzSUdqMb8Oa
+YMJ5jHVrmUhjyFdtd8p6SAGYIcK4p6AjT2N4/cwoJcExB14lpcVGs5FS7LU3dzaw
+a2RWwldvEue8YBMBSnY6CH9JOITZ/9EOCWmpELMgxwSpwiZVElb6cQJXIn9akHu1
+nR4tlDa8aW8jaFlDoNV6WOwohLUeNZ1F8ZgXt4Z4mAiA84QZubGw/Sn8MuEzqZkN
+OArYusRHVaQfLZaXUJTNOeJPMsK9fddB3rpNsdMQPlanyWMWLvsrQRQ4kX4GdPko
+siVqaguwoktlo5GvL9sQvuOOO1tBLDrd+xAob/3VROv4saJgMN3c51xsHyjMC269
+5mycgGlsf6zWhpBATYXZkLp/eFU2cUPPxG+JKicKsQied7AQ04vuNuce0vBZfiH/
+jI0U3Ya8TYYjU9F5prPredh2mD5HGNjdS4qIbG8FJKLV1MviGqIYe7rd9/PqUF57
+fRUJViruKG/JVhgnXmrtQjD171rHqMPZHMe7vOPHnBK6V9E0SNJ6DY8Sv6LIQI/Z
+8WSVFjiC2QVNmGgyYAIAARQECWqhKvopc2gaRYwE9BWdN8z0Ywk=
+=NA2k
+-----END PGP SIGNATURE-----
+
+--===============2034733856624475053==--
