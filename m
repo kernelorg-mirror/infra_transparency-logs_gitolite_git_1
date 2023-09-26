@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 26 Sep 2023 15:14:54 -0000
-Message-Id: <169574129402.27689.4910532176200923879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 26 Sep 2023 15:18:56 -0000
+Message-Id: <169574153651.30850.17570646064923205516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/linux-kselftest-fixes-6.6-rc4
+  - ref: refs/heads/v2_20230926_kuninori_morimoto_gx_asoc_convert_asoc_xxx_to_snd_soc_xxx
     old: 0000000000000000000000000000000000000000
-    new: 50e214283c7bfc58f43deb18b8426a582ecc589d
+    new: ad484cc98f2c7ee8e22f63691562a7abae5a9832
