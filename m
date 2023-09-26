@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 26 Sep 2023 23:37:51 -0000
-Message-Id: <169577147167.9371.10778701049989012814@gitolite.kernel.org>
+Date: Tue, 26 Sep 2023 23:50:41 -0000
+Message-Id: <169577224178.18849.8699089050909008116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/contrib
-    old: 1ef767757271a493fb2f3fce11e395efa38f5bc3
-    new: c6435e2cfcb4fa9100b6dc4e9aa9217210a19a7d
+    old: c6435e2cfcb4fa9100b6dc4e9aa9217210a19a7d
+    new: dca9cf8e2db9c017058b0f03045e222e85b6c3a1
     log: |
-         7f87f250eca768547ae2419ee34c58cf4c2c0ff7 system_data_types.7: Clarify si_addr field.
-         c6435e2cfcb4fa9100b6dc4e9aa9217210a19a7d tmpfs.5: Extend with new noswap documentation
+         d03a4bccc576d3d6674068cd3ec07c1e94e8e885 smartpqi.4: Update copyright, email addresses, and URLs
+         dca9cf8e2db9c017058b0f03045e222e85b6c3a1 smartpqi.4: Update module parameter descriptions
          
