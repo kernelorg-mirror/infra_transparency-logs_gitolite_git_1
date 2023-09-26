@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1509363391653143462=="
+Content-Type: multipart/mixed; boundary="===============2004653013075514535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 26 Sep 2023 09:46:59 -0000
-Message-Id: <169572161932.25163.13134836633278705246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 26 Sep 2023 09:47:16 -0000
+Message-Id: <169572163666.25327.10026249033125642218@gitolite.kernel.org>
 
---===============1509363391653143462==
+--===============2004653013075514535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6465e260f48790807eef06b583b38ca9789b6072
     log: revlist-ce9ecca0238b-6465e260f487.txt
 
---===============1509363391653143462==
+--===============2004653013075514535==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -442,4 +442,4 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
 
---===============1509363391653143462==--
+--===============2004653013075514535==--
