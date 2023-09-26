@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 26 Sep 2023 15:50:05 -0000
-Message-Id: <169574340586.22413.17524491672752804253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 26 Sep 2023 16:04:43 -0000
+Message-Id: <169574428371.30809.201888933221295937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: a142e0df6c1483a76d92ff7f9d8c07242af9910e
-    new: 996ac91f54844e63ef43092472fc1f7610567b67
+  - ref: refs/heads/review-andy
+    old: 2d325e54d9e2e4ae247c9fd03f810208ce958c51
+    new: b0d75943cbbba29ad31a9e0cd13ea277ee70c336
     log: |
-         996ac91f54844e63ef43092472fc1f7610567b67 t/zbd: set mq-deadline scheduler to device-mapper destination devices
+         b0d75943cbbba29ad31a9e0cd13ea277ee70c336 pinctrl: intel: Simplify code with cleanup helpers
          
