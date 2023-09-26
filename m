@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 25 Sep 2023 23:50:24 -0000
-Message-Id: <169568582458.2780.13580205052318545675@gitolite.kernel.org>
+Date: Tue, 26 Sep 2023 00:13:25 -0000
+Message-Id: <169568720591.18604.5969251735063701950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/contrib
-    old: af205afd3b987010326f46238192b8b765ae5686
-    new: 1f0f451c78fd3d949038ec696771374588546b99
+    old: 1f0f451c78fd3d949038ec696771374588546b99
+    new: b9c495bcaf7c90afce45ce1594396a850f79d34e
     log: |
-         1f0f451c78fd3d949038ec696771374588546b99 ioctl_userfaultfd.2: Describe missing UFFDIO_API feature flags
+         b9c495bcaf7c90afce45ce1594396a850f79d34e system_data_types.7: clarify si_addr field.
          
