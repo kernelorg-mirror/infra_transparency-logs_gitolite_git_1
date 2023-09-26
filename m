@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1031521468520190119=="
+Content-Type: multipart/mixed; boundary="===============1227302908542630264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 26 Sep 2023 01:57:34 -0000
-Message-Id: <169569345455.1490.2569507417448741142@gitolite.kernel.org>
+Date: Tue, 26 Sep 2023 01:57:57 -0000
+Message-Id: <169569347785.1679.8275364113128168658@gitolite.kernel.org>
 
---===============1031521468520190119==
+--===============1227302908542630264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
+  - ref: refs/heads/loongarch-fixes
     old: e74a6b7f3744d122ff4544f19393dfab167166ec
     new: 6465e260f48790807eef06b583b38ca9789b6072
     log: revlist-e74a6b7f3744-6465e260f487.txt
 
---===============1031521468520190119==
+--===============1227302908542630264==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -433,4 +433,4 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
 
---===============1031521468520190119==--
+--===============1227302908542630264==--
