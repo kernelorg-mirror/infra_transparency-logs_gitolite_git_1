@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 26 Sep 2023 19:17:08 -0000
-Message-Id: <169575582833.13218.9673195146374450301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 26 Sep 2023 19:22:53 -0000
+Message-Id: <169575617323.16907.7003856257825888905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: b0d75943cbbba29ad31a9e0cd13ea277ee70c336
-    new: 9419ae7e40d392994ee9fa8a37409296be872a62
+  - ref: refs/heads/master
+    old: cac405a3bfa21a6e17089ae2f355f34594bfb543
+    new: 0e945134b680040b8613e962f586d91b6d40292d
     log: |
-         9419ae7e40d392994ee9fa8a37409296be872a62 pinctrl: intel: Simplify code with cleanup helpers
+         a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
+         dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
+         0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
          
