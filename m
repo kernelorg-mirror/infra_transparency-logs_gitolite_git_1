@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1507933895125975563=="
+Content-Type: multipart/mixed; boundary="===============8133748055567695780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Sep 2023 19:32:44 -0000
-Message-Id: <169584316483.23756.12986039085368992068@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 19:32:58 -0000
+Message-Id: <169584317804.23879.5832594962909130874@gitolite.kernel.org>
 
---===============1507933895125975563==
+--===============8133748055567695780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0671b351dc9aaced7d7a0b03b4b65c20b62ff2da
-    new: 67d360f1592237ea490077749c4a78232d5a0ee6
-    log: revlist-0671b351dc9a-67d360f15922.txt
+  - ref: refs/heads/6.7/scsi-queue
+    old: 17d11949827375d74bdf5df18c3f5813ee7d5933
+    new: f3f50c78649cb167b5b1c567090d89824da84b2b
+    log: revlist-17d119498273-f3f50c78649c.txt
 
---===============1507933895125975563==
+--===============8133748055567695780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1695843154 -0400
+pusher 75C5DE3D 1695843167 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1695843154-2f567b99e1578808df3d4cced190866f47c67a97
+nonce 1695843167-93ef5e35ed52adabbc4c47c1dd8b3255c24dc53d
 
-0671b351dc9aaced7d7a0b03b4b65c20b62ff2da 67d360f1592237ea490077749c4a78232d5a0ee6 refs/tags/mkp-scsi-queue
+17d11949827375d74bdf5df18c3f5813ee7d5933 f3f50c78649cb167b5b1c567090d89824da84b2b refs/heads/6.7/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUUg1IACgkQ7ulgGnXF
-3j0wnBAAuSPU74v1jhWXptFC/+jLmU6nhM0zNK4F4jjvlraODiXfS0SZpYlKEGbK
-D4x6XaZg7lkKeKzz3dhhdIaE5z0nHAeveRW4/WQBTFgF9YBAC6JLxQHvz4CAQ0hA
-ylPsuXLSXhuY3rY9Mvj7TZNMnCzr/tyr/YBMNG0ZwO6S7R+dTDSa5Dgrex21asUN
-YEiD0rC/oZOYFpv7AhEtVjS4W1WlnfYs1Fjl8d4zIsmdhNdpy9ioVnbxsz6jNfaW
-cJAFPW7g22FLp2WgggeWX2AsDfSaSUqMtOJl7BdEjFTVrzZ111DuKCmEO6531NZ4
-+PAMBdNoUCo9f9gcKN6HZ/g4/qEJm8TH7dPpHpmqBORfYvspEw3VhKIAsYGEzc+g
-p8gACBDxtQld/OHuLoaZDSE1r6vAINAdwVYtSAv4GCwD5CkiOf9e0ScJGD3mokp6
-6/xCBV4jVyAAsiwi3C8fp7LmcHZGM4JblsCithPKul8fJCOXcSVd1LG6fyJU1/hO
-XyJbRzKTe4VYP7QBe84pV1Kw21vHo3Bf+cK1pXrRL+/WAlZZIE/p0oIqa2ynsdXn
-mHqXt4bkYluX80Q3iD8v1rH0squYIorOWuQzjvIBr7lJEOA+uGrkg3aLMSd7Kk7+
-n0jALK1SebNMpaiVkIjVVQVVaiDuSPX++myQhaJwoXpzs0+CXPM=
-=93dW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUUg18ACgkQ7ulgGnXF
+3j1B3BAAiCP2Z7u6MLw/BXedvUQ9OK7d8weE5Vy8fyvJfSL7c/qGv3lGqLnJA+N/
+H2VHphUPU1kKN0msAFkONiyUloZrmiOTjA46Ki0nMsqmwCtlLjF/nrc1/Bfui1pz
+aWTvQiOazvAE9I7zDYLDHbaR8rd79CuDxAEErIpIYogoMYP07jnzBS63UfAD33r7
+dg7U4MyG3ABIq1IeGqy+Na3agwnANtqldpEy3wVsoiRyM3HlGq7UHlFHTELXFJOq
+u0qKH9wGgjMeG4smiQQXfCLg0BVXcB9coSio+sqn2MH5BvWuA2G8LqP0VvCZxxex
+Y8AeLkJGPP1tCA1JDde305M2dWRtkuU/SPcKBVH+Vt6QH1PWROQhe42r1p56NL0O
+VI1yR3gP92eAtwnpdSIBypJeVVC6g5u/Qid+oF6DZ7ka5HFGtWp0bpg6LFOtJkDv
+4JSixCUKqdW48nXEKAEH0fC8jxHQTY/TrfRsRzysQgHH2lv/dMvtsUeVYzgwUPFN
+hZrc926bpzZfk+XxFCiMPMqHZeregtpmAtpd2PyJZQNeq+pbNj/z3xbsrHx4E66l
+cGoHb7gpfL5VQLQTbruF3ogWo4nff1eBflhpxeJv4+zBTg3A34KalAD6uqY8gvbV
+boHi79qufNXnsE510/O7lVEqdW4gVVIABVa1PMrGM2TpFQnz86Y=
+=chFU
 -----END PGP SIGNATURE-----
 
---===============1507933895125975563==
+--===============8133748055567695780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0671b351dc9a-67d360f15922.txt
+Content-Disposition: attachment; filename=revlist-17d119498273-f3f50c78649c.txt
 
 0b0747d507bffb827e40fc0f9fb5883fffc23477 scsi: megaraid_sas: Fix deadlock on firmware crashdump
 31a0865bf593e59c4433a3624b4c87c40049ed9a scsi: ppa: Fix accidentally reversed conditions for 16-bit and 32-bit EPP
@@ -89,4 +89,4 @@ fe15880f317348ba9e81c46f270d1c1ee0002e8e Merge patch series "scsi: pm8001: Bug f
 63f0733d07ce60252e885602b39571ade0441015 scsi: hisi_sas: Allocate DFX memory during dump trigger
 f3f50c78649cb167b5b1c567090d89824da84b2b scsi: target: Remove the references to http://www.linux-iscsi.org/
 
---===============1507933895125975563==--
+--===============8133748055567695780==--
