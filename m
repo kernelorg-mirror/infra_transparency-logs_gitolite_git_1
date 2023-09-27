@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0403090258842502239=="
+Content-Type: multipart/mixed; boundary="===============2154533048538341039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Sep 2023 19:33:17 -0000
-Message-Id: <169584319761.24165.2200515499496545762@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 19:33:32 -0000
+Message-Id: <169584321253.24368.10006042963492703596@gitolite.kernel.org>
 
---===============0403090258842502239==
+--===============2154533048538341039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 9c40eee6bf05f968222e5435c265f23e5556ee7b
-    new: b4017a48953a64c32d95f7aa43988aca553f49ce
+  - ref: refs/heads/6.7/scsi-staging
+    old: 8b57f75cf96f6ac3bf80d8c82421397a1737a26f
+    new: 5ef104b749e8a9d47b0d93329e0445acff961972
     log: |
          f3f50c78649cb167b5b1c567090d89824da84b2b scsi: target: Remove the references to http://www.linux-iscsi.org/
          cdaaff61d3bfd61aa3966eb1624e66c4152e6d1d scsi: ufs: core: Remove request tag range checks
@@ -30,33 +30,33 @@ changes:
          5ef104b749e8a9d47b0d93329e0445acff961972 scsi: fnic: Clean up some inconsistent indenting
          
 
---===============0403090258842502239==
+--===============2154533048538341039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1695843186 -0400
+pusher 75C5DE3D 1695843202 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1695843186-3028370ff6fe10a31c81f64e157adcce8c2e250f
+nonce 1695843200-37668536e0c19e19bf402928ef5fcfb56b090e3d
 
-9c40eee6bf05f968222e5435c265f23e5556ee7b b4017a48953a64c32d95f7aa43988aca553f49ce refs/tags/mkp-scsi-staging
+8b57f75cf96f6ac3bf80d8c82421397a1737a26f 5ef104b749e8a9d47b0d93329e0445acff961972 refs/heads/6.7/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUUg3IACgkQ7ulgGnXF
-3j1+GQ/+MoPRc5FXnCW7Y0KZhBvQZwyN0D8AgZoVFKoF0DruntRd/IYQG7emz9HX
-ZJPGf/AXDK36nnSF/NRFtDt5nbqUFu37ckAVKymMbmjsT7ELVf5BGmu9tMMu9Oii
-ujp1vTsFB+jYHga8a9p7l33GM+XiZ1hRCtXH5Tazn8WcoN0dnmMatwqFVGTNsR1I
-DhrkwL9fD/twd9GZlW7H0M8IVseea+UnZVlgVAg9GNigJCh0AzR7xa09ILZuEwoL
-px4yES+OYo/E//xklTd4hn1Jbr8Rzb96K1O+pc60cA3OXTSbcItcK2Cyn2Yi3jW1
-Y365Z8tuEnyO9wTi0JmtwFanZseqmAEjoGpxnmIahTl4XErcVdrMCuo3DadDBwCL
-97fEgzptPqnyD3ywcRBU3MhDJulk7v7zi07G1kPL0YZcsaYjpexXrc+bLeNBKV31
-mGDzTV6HgHkxPHz9wqaT5Cvu4Dvp97lk1ayCUHR1aXDa9OpUo9AkTUPPzxb77IP8
-TtFqYg/bYQrgtL2a9tzP/gVKW8W+gijrz92zx1ihbDW/3qCfOFnVkIXoxJQoRsJM
-0v6djhSA5valykSnTPP3FJIuENbow5MKfrLi6zuOYkWGCNONzzsrjHH8jGv+7qYU
-Ps4d/FLewEnhp208jnPyde9h+lhm5IjXT5QOspImoXuozYPQ+Y4=
-=pwyD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUUg4IACgkQ7ulgGnXF
+3j3oqg//YJSbKdTikNXkgKOgJ5mbYdOYcZl8QkyLZhjji53XopAB28DkcCM7a3aU
+1pGq6TuR05nd98pRiWyiwhzj33U2J0fC5xjcRddeuaVEHeEiX4yrDyFQlsFCCgA7
+vK8G2dky7BFmyRpPOa86+Gxc43kdi2n9jYb6OTDAtAZ5JZo0qMKww6LJ6Bw2klWG
+cHWo8Ga/UQd3fsllLrhXbESzgOdWiSd4iYkrGwgNibYAI5bqYzHaHx13E2a8IerX
+7o4QDYftlVXr30bfwOQIY/LI2KlZqwbl+ojRvfFtuhvzWCf2sY7C0HTwuKblP8zr
+BTSMhfd1oTZBtGgN5PLGn8ig2HcEvdc5iLFkmj4e2p+KMTPbfMXXK5/fbY7b8uDL
+g9/gTnXRHUw5NA0cRBsQcixngRj7Nur8dD3T3YNMQfjuPgWUH+qe/RmWPzw6+eXX
+0qiAQt/+zKoVd2cupKubhjgUsR2Bx1A3nd/mXLmmmmb+kJvSq8mKA7bC4JMxRofv
+oa8o3N0wRv5ytBqp6S4OeM3J9XIuF7fbe1MrClfc6WGA6dqtGqUDUgEFiD5QGkuN
+8W4B59TVXrXCMAAgFNIiWetY0SDRoBnah9iDDnwa0LmnDhLAkRJUaHBFy0CXmMd6
+XsdTHEF7CTemSiBsyPp29FLFgnmBLDEqVAqUTyAykEGbdyUBvYQ=
+=KtDL
 -----END PGP SIGNATURE-----
 
---===============0403090258842502239==--
+--===============2154533048538341039==--
