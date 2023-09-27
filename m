@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7248962564338525222=="
+Content-Type: multipart/mixed; boundary="===============7636080493269605422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 27 Sep 2023 08:22:34 -0000
-Message-Id: <169580295481.16216.1858026560006057207@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 08:22:51 -0000
+Message-Id: <169580297161.16401.1545742707062251665@gitolite.kernel.org>
 
---===============7248962564338525222==
+--===============7636080493269605422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 6465e260f48790807eef06b583b38ca9789b6072
-    new: eeb1bdee2c666af5703946f01c620ece0370865f
-    log: revlist-6465e260f487-eeb1bdee2c66.txt
+    new: e78076122083896ee9c5199c53f1f0b7c410ceef
+    log: revlist-6465e260f487-e78076122083.txt
 
---===============7248962564338525222==
+--===============7636080493269605422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6465e260f487-eeb1bdee2c66.txt
+Content-Disposition: attachment; filename=revlist-6465e260f487-e78076122083.txt
 
 2251588143f65636cf3f3f12beb009084fa2d5d7 reiserfs: Replace 1-element array with C99 style flex-array
 a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
@@ -64,6 +64,10 @@ b4c639f699349880b7918b861e1bd360442ec450 btrfs: initialize start_slot in btrfs_l
 50768a425b46ad7d98f6d88c22d41aa026c463cf Merge tag 'linux-kselftest-fixes-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 cac405a3bfa21a6e17089ae2f355f34594bfb543 Merge tag 'for-6.6-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+1943feecf80e73ecc03ce40271f29c6cea142bac LoongArch: numa: Fix high_memory calculation
+2761498876adebff77a43574639005b29e912c43 LoongArch: Define relocation types for ABI v2.10
+c1c2ce2d3bf903c50f3da7346d394127ffcc93ac LoongArch: Add support for 32_PCREL relocation type
+b1dc55a3d6a86cc2c1ae664ad7280bff4c0fc28f LoongArch: Add support for 64_PCREL relocation type
 5ed75e9efe21a5aca9e119f3188a5edc0bb0f885 LoongArch: KVM: Add kvm related header files
 8d26698f64258953e4656d0ab09c503e9c83f228 LoongArch: KVM: Implement kvm module related interface
 446282603bc25cf0116f639453c3438869a10741 LoongArch: KVM: Implement kvm hardware enable, disable interface
@@ -89,5 +93,6 @@ f1a7e0d6bbade94b7250a282ca9f4e004a738d41 LoongArch: KVM: Implement kvm mmu opera
 c92042967c27c83a606edc5296361c00baa47799 LoongArch: KVM: Enable kvm config and add the makefile
 319bb6ae8c90d17608d9b78a66d9d4b105a70091 LoongArch: KVM: Supplement kvm document about LoongArch-specific part
 eeb1bdee2c666af5703946f01c620ece0370865f LoongArch: KVM: Add maintainers for LoongArch KVM
+e78076122083896ee9c5199c53f1f0b7c410ceef Merge commit 'loongarch-kvm' into loongarch-fixes
 
---===============7248962564338525222==--
+--===============7636080493269605422==--
