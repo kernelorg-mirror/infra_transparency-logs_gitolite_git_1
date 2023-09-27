@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6027076114284425146=="
+Content-Type: multipart/mixed; boundary="===============5265473095381155915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 27 Sep 2023 07:25:41 -0000
-Message-Id: <169579954119.7134.11443258418466865939@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 07:26:09 -0000
+Message-Id: <169579956938.7392.4791998655766244385@gitolite.kernel.org>
 
---===============6027076114284425146==
+--===============5265473095381155915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8212499474cc7fcb40b0741a14536ae33b6289d0
-    new: 9aef22a76a11e0f649021c121b1ab6c84a891af6
-    log: revlist-8212499474cc-9aef22a76a11.txt
+    old: 9aef22a76a11e0f649021c121b1ab6c84a891af6
+    new: e0626761c5234ec9aeafc9a4077ca5f8b88c5d8c
+    log: revlist-9aef22a76a11-e0626761c523.txt
 
---===============6027076114284425146==
+--===============5265473095381155915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8212499474cc-9aef22a76a11.txt
+Content-Disposition: attachment; filename=revlist-9aef22a76a11-e0626761c523.txt
 
-2251588143f65636cf3f3f12beb009084fa2d5d7 reiserfs: Replace 1-element array with C99 style flex-array
-a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
-f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
-417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
-678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
-15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
-c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
-4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
-33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
-d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
-eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
-e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
-8ed99af4a266a3492d773b5d85c3f8e9f81254b6 selftests/user_events: Fix to unmount tracefs when test created mount
-a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
-dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
-8287474aa5ffb41df52552c4ae4748e791d2faf2 direct_write_fallback(): on error revert the ->ki_pos update from buffered write
-db7fcc884d8a1e8265a87306e728c3d3239b0ca2 aio: Annotate struct kioctx_table with __counted_by
-be049c3a088d512187407b7fd036cecfab46d565 fs-writeback: do not requeue a clean inode having skipped pages
-ae81711c1edd769b7d9952dde40a579dceca4815 fs/pipe: remove duplicate "offset" initializer
-2ba0dd6562f2c42ef1ae61145bdfc882fc7a6f79 porting: document new block device opening order
-060e6c7d179ed2f2088a23ceedf60d63320e9311 porting: document superblock as block device holder
-2ed45c0f1879079b30248568c515cf60fc668d8a btrfs: fix race when refilling delayed refs block reserve
-a7ddeeb079505961355cf0106154da0110f1fdff btrfs: prevent transaction block reserve underflow when starting transaction
-1bf76df3fee56d6637718e267f7c34ed70d0c7dc btrfs: return -EUCLEAN for delayed tree ref with a ref count not equals to 1
-d2f79e6385b0fcb1a38368e17d4721b8cd72af9f btrfs: remove redundant BUG_ON() from __btrfs_inc_extent_ref()
-8ec0a4a5774ab3f91c356c71f24dfba615bee860 btrfs: log message if extent item not found when running delayed extent op
-58bfe2ccec5f9f137b41dd38f335290dcc13cd5c btrfs: properly report 0 avail for very full file systems
-74ee79142c0a344d4eae2eb7012ebc4e82254109 btrfs: reset destination buffer when read_extent_buffer() gets invalid range
-20218dfbaa31b8d3ef842fafcc7eb4c6aa03f80a btrfs: make sure to initialize start and len in find_free_dev_extent
-b4c639f699349880b7918b861e1bd360442ec450 btrfs: initialize start_slot in btrfs_log_prealloc_extents
-2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
-493c71926c20309226b6d73f6b661a9813de5f0b ntfs3: put resources during ntfs_fill_super()
-03dbab3bba5f009d053635c729d1244f2c8bad38 overlayfs: set ctime when setting mtime and atime
-5c519bc075b3306a5b6a6d5f1e22f37357e936d9 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-84422aee15b9c6fd75ea01a7eedaad1aa0ec9081 Merge tag 'v6.6-rc4.vfs.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-50768a425b46ad7d98f6d88c22d41aa026c463cf Merge tag 'linux-kselftest-fixes-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-cac405a3bfa21a6e17089ae2f355f34594bfb543 Merge tag 'for-6.6-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-9aef22a76a11e0f649021c121b1ab6c84a891af6 Merge branch 'linus'
+e05b73284c80ffbc8bbd06df53913602eff8ba2a Merge branch into tip/master: 'perf/urgent'
+faa7ea540882f0719098164ae573f712ce9338fa Merge branch into tip/master: 'x86/urgent'
+0f0bf593ca4bde0e574b3296b78497eaa282e091 Merge branch into tip/master: 'core/core'
+2e7fd62f1e8296552e3e5a174e2d60ed700ab582 Merge branch into tip/master: 'locking/core'
+c45c2c34976523a63b776648ec026c5d9a589bd5 Merge branch into tip/master: 'objtool/core'
+fd7f8127682b5f291e06da629126e0653dc20a87 Merge branch into tip/master: 'perf/core'
+0d258f59af5a7de0a6ea0eeb3a379f7e8c52ddae Merge branch into tip/master: 'sched/core'
+43cedd89c75dd25bfaf4e3f9d2e747dd4e8ece86 Merge branch into tip/master: 'smp/core'
+57bfa82a606ae7c76a5a56fd44f6812658939ab7 Merge branch into tip/master: 'x86/apic'
+bc1cc0ad21a3fc15f468c489db211a92f00f1380 Merge branch into tip/master: 'x86/asm'
+c0feabbac5bd6070ce642e92453d8c25aa6b7665 Merge branch into tip/master: 'x86/boot'
+6fa37585f026195ae57314042e96b1c2197cc57e Merge branch into tip/master: 'x86/bugs'
+ab978df8b290f68792f3c87469b0f11be2d45a91 Merge branch into tip/master: 'x86/cpu'
+978b4db7bda625967d4a2a182598f074500be588 Merge branch into tip/master: 'x86/entry'
+2a448b4da0788259cd6e5332345ea05962db64ab Merge branch into tip/master: 'x86/mm'
+24498ba6da16e975af07e9500e7169d9ea31ad59 Merge branch into tip/master: 'x86/platform'
+e0626761c5234ec9aeafc9a4077ca5f8b88c5d8c Merge branch into tip/master: 'x86/tdx'
 
---===============6027076114284425146==--
+--===============5265473095381155915==--
