@@ -1,55 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0069203936246814443=="
+Content-Type: multipart/mixed; boundary="===============5432860963253738329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 27 Sep 2023 08:49:45 -0000
-Message-Id: <169580458571.4339.9109498062443173467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 27 Sep 2023 08:49:54 -0000
+Message-Id: <169580459454.4447.10084779483744658713@gitolite.kernel.org>
 
---===============0069203936246814443==
+--===============5432860963253738329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: af08458988cb5dd4b4ff87cfb9da81c6d2c8ef7a
-    new: ad484cc98f2c7ee8e22f63691562a7abae5a9832
+  - ref: refs/heads/for-6.6
+    old: 7e37c851374eca2d1f6128de03195c9f7b4baaf2
+    new: 6e800968f6a715c0661716d2ec5e1f56ed9f9c08
     log: |
-         4c1a094692cbafbd163229e353a2a7150f09665c ASoC: amd: convert not to use asoc_xxx()
-         de9e70137f006855a540f510a2c7dfb8850bedb7 ASoC: mediatek: convert not to use asoc_xxx()
-         1a543d2a1cdbe2aae039a9b7f5ab6d0cbddebf95 ASoC: starfive: convert not to use asoc_xxx()
-         a2c1125e5b99cd9722d7ee320756bba948855e1e ASoC: intel: convert not to use asoc_xxx()
-         4d5f41191ca83fa4bf6120c5cbcd085aa2aeec0e ASoC: sof: convert not to use asoc_xxx()
-         ad484cc98f2c7ee8e22f63691562a7abae5a9832 ASoC: remove asoc_xxx() compatible macro
+         8adb4e647a83cb5928c05dae95b010224aea0705 regulator/core: regulator_register: set device->class earlier
+         6e800968f6a715c0661716d2ec5e1f56ed9f9c08 regulator/core: Revert "fix kobject release warning and memory leak in regulator_register()"
          
 
---===============0069203936246814443==
+--===============5432860963253738329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1695804583 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1695804583-b0d59ef7da7e8f995780d49df19e4c761b95d4f3
+pusher Mark Brown <broonie@kernel.org> 1695804592 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1695804592-c7cc28e7f6cb7a4ea7c455f716760af45fa3fd1d
 
-af08458988cb5dd4b4ff87cfb9da81c6d2c8ef7a ad484cc98f2c7ee8e22f63691562a7abae5a9832 refs/heads/asoc-6.7
+7e37c851374eca2d1f6128de03195c9f7b4baaf2 6e800968f6a715c0661716d2ec5e1f56ed9f9c08 refs/heads/for-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUT7KcTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0L9rB/0cF+fM/eNiEcizR9dgnh1pvuTxY8Tj
-7MpDFLx8Vhfvb5UUviPZ84N/rjePRz0SorAPS/3SRjfxBliWMih8/M07u5JbqnMW
-99zlWcmUsojmt4VV6tCz/pfLtctAh/yw5lHx1q2RSOf1EJjg1vi804fYlb/DGPEi
-IgmbSVq5fp6Ba1rQ9Kt3WC+kq4x7vaGb4qWaU2n5/N4VToMrFpUQkcsvZluvaMpc
-r6JgIkkoGZlIwQQRYKiDx3T+u5PpW8FJDpy0DN6LE7cKQfUVvqK0UvQkjvK3RySQ
-8Cwn8phVM+BordUCqDf+2TBrTVakomEdMxmfLsAYVu39DNWHW6SgmyJ+
-=4A32
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUT7LATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0PxYB/4uRyAVKNjbYCt5ngYVGsEeiI5jYlny
+jFFlo1oGC4hUzlainNx284DG5x9r5wrxqRk5m6l2R6Aq8PvcnWXJLP6ev+PfiaCw
+l/8+WA6B6rf26IxeUJsQ5vp+AbhJ5YbKocIf248+Ju4p9w/3Ijsdd2Df6Cyuznes
+5JxShrLMPUjMi6IKJSIbOavSyi+LBI2ixQjHy6VM0c31u5/q+Ayp5u4FOaVbSwa0
+fD/rvrl710z3f/cEPAmEZQEYXeYxlhdUR1EN7lDazrgB2pEUFM3agf9HlqOKB+kw
+oFOTEmhgOx8CnsRzEV49fbjTWMRpVRQ5E3CxWvy08KEMTuu34fzNegr5
+=/xbU
 -----END PGP SIGNATURE-----
 
---===============0069203936246814443==--
+--===============5432860963253738329==--
