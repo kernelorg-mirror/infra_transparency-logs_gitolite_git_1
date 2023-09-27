@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 27 Sep 2023 11:12:08 -0000
-Message-Id: <169581312897.29479.18029513506215504444@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 11:23:34 -0000
+Message-Id: <169581381429.4890.2691438366967414749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 8de685b63a687bcbe0f0db939db05f9c2341592f
-    new: 330f43ca86aedb01525ee555f7e05f72882e0fd6
+  - ref: refs/heads/genpd_dt
+    old: 54f1618b951fde7803bf5cbdc17412c5165c26fe
+    new: 0cd3f86ad558d3f585634e211c6fccbe786cbc28
     log: |
-         330f43ca86aedb01525ee555f7e05f72882e0fd6 pmdomain: renesas: rmobile-sysc: fix -Wvoid-pointer-to-enum-cast warning
+         0cd3f86ad558d3f585634e211c6fccbe786cbc28 dt-bindings: power: qcom,rpmpd: Add SM7150
          
