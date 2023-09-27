@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 27 Sep 2023 09:00:02 -0000
-Message-Id: <169580520236.13057.12768757273346820953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 27 Sep 2023 09:01:57 -0000
+Message-Id: <169580531751.14783.6829747859230983327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: aa01dd7bc100af0bd230fc498d4a5750d0be73b2
-    new: 3b6a5a689da2d3dbab479ead07b65e21ef8ec003
+  - ref: refs/heads/master
+    old: a52ea90864830fd672e653d81f50aae867bc538a
+    new: 0e8f533ed045af0008c36ee3fa1cf6376497234c
     log: |
-         3b6a5a689da2d3dbab479ead07b65e21ef8ec003 cpufreq: pmac32: Use of_property_read_reg() to parse "reg"
+         0e8f533ed045af0008c36ee3fa1cf6376497234c Release 0.59
          
