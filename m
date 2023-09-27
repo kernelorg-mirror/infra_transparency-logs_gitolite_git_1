@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5424289049997185083=="
+Content-Type: multipart/mixed; boundary="===============7053573570455484470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 27 Sep 2023 09:08:39 -0000
-Message-Id: <169580571934.20900.16544818665083739867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 27 Sep 2023 09:08:43 -0000
+Message-Id: <169580572347.21025.4507344579668416505@gitolite.kernel.org>
 
---===============5424289049997185083==
+--===============7053573570455484470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/loongarch-next
-    old: bbc59a57dd1ccffc4b8131ae0d455430e78d3581
-    new: 17dcae78a04e02a3c4b5b1e59766b1cb8894bdc7
-    log: revlist-bbc59a57dd1c-17dcae78a04e.txt
+  - ref: refs/heads/for-next
+    old: aab8130550da9ce9f3f367d2a7b0f624ac68cf5b
+    new: a16d7a3d4624c3a75b5423194cdd3110b19afea7
+    log: revlist-aab8130550da-a16d7a3d4624.txt
 
---===============5424289049997185083==
+--===============7053573570455484470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbc59a57dd1c-17dcae78a04e.txt
+Content-Disposition: attachment; filename=revlist-aab8130550da-a16d7a3d4624.txt
 
-3bc53a424e47424771a3b8fab1f393b4214939cb LoongArch: KVM: Add kvm related header files
-32744cd0453ca24d8e62c9f5a4363442496ac8c6 LoongArch: KVM: Implement kvm module related interface
-e80e395a4571ff48651e4d43af727bab6be86120 LoongArch: KVM: Implement kvm hardware enable, disable interface
-1b69762adef37fb56a5d168d2bfcf827f2926db9 LoongArch: KVM: Implement VM related functions
-4bb2ed31f0140e64040383cc2b2f90b588b3b4b3 LoongArch: KVM: Add vcpu related header files
-85b386e7e2140ecdfed1a84e9de2634d32bfd986 LoongArch: KVM: Implement basic vcpu interfaces
-a2171bf7b70107521c822034d005c3f5e7913333 LoongArch: KVM: Implement basic vcpu ioctl interfaces
-12b30e8b9dfc6069d868fab35a44fbfbabd06113 LoongArch: KVM: Implement fpu operations for vcpu
-b6624d6f03bf6175ca549290f2c7076aabb00871 LoongArch: KVM: Implement vcpu interrupt operations
-63f9b37bc1ac165845643125a8862ef0ac5e95be LoongArch: KVM: Implement vcpu load and vcpu put operations
-9a62df60a25f1a63e47ed26d7707b02ff338e663 LoongArch: KVM: Implement misc vcpu related interfaces
-c828d416cfb1968801d83400533184a0771ab55a LoongArch: KVM: Implement vcpu timer operations
-9d987382f29a4f2a3b22391175b4577ac1d9e1d4 LoongArch: KVM: Implement virtual machine tlb operations
-0bbfe0785cbf11ef4fe434959373bf6cddcda189 LoongArch: KVM: Implement kvm mmu operations
-fa552701e293ca7efe7c3434872e8074b39f6ce9 LoongArch: KVM: Implement handle csr exception
-a7020b7c0eb4d64630c9ca9aa934456c0b9dd637 LoongArch: KVM: Implement handle iocsr exception
-61afea13d70c714726922c8e9bf36d1ff2bff0dd LoongArch: KVM: Implement handle idle exception
-c1fa8a359ab1a5f361d679978fbff4bf4d9c6c77 LoongArch: KVM: Implement handle gspr exception
-bf6c24eb8aefe05967fc1237043921a6de2eccff LoongArch: KVM: Implement handle mmio exception
-8c1edc0ad6e4bf1405518b1a6b031f839f88fd5f LoongArch: KVM: Implement handle fpu exception
-24f3f7c105a607dff712c0bb25dd735804a35df0 LoongArch: KVM: Implement kvm exception vectors
-2805492fcf040f5d1656904cd3d1dd95ef60e34b LoongArch: KVM: Implement vcpu world switch
-a31f4fd998f322277ce5efff6e31157eb3039c7e LoongArch: KVM: Enable kvm config and add the makefile
-77960b96c561aa66429b32beecc200dba2d11083 LoongArch: KVM: Supplement kvm document about LoongArch-specific part
-01b00d7bcf936a9618ae5867899aa53619972bb4 LoongArch: KVM: Add maintainers for LoongArch KVM
-17dcae78a04e02a3c4b5b1e59766b1cb8894bdc7 Merge branch 'loongarch-kvm' into loongarch-next
+59a98f4f1e10902f94610d4cf99de86322016464 ARM: uniphier: fix cache kernel-doc warnings
+3c50ffba8835fae43e7aeec19e372c87d9cbc2f1 Merge tag 'omap-for-v6.6/fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
+48519d648b1a98367f1a19ef210de8c815ad1dbb Merge tag 'imx-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+7d3e4e9d3bde9c8bd8914d47ddaa90e0d0ffbcab arm64: defconfig: remove CONFIG_COMMON_CLK_NPCM8XX=y
+c374e875aa124b9da81325187b01a873ea8944f8 Merge tag 'riscv-dt-fixes-for-v6.6-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+68bb0c78d3e451a7289d32d733bcd396b5da4a55 Merge tag 'optee-for-for-v6.6' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
+8e4a28f9796114ee83a20223a319436d4a100bfa soc: loongson: loongson_pm2: Add dependency for INPUT
+380054cb050b071f37ab9ac9823b785c29db0c13 dt-bindings: soc: loongson,ls2k-pmc: Use fallbacks for ls2k-pmc compatible
+e26e788a2a0be414397ced9cc8e462e6baa497c6 soc: loongson: loongson_pm2: Drop useless of_device_id compatible
+8c4102f20a968ef466ed6b63930a546f57966ca1 dt-bindings: soc: loongson,ls2k-pmc: Allow syscon-reboot/syscon-poweroff as child
+a2fd542287d02d35d61839a09d4b18ccc4b2ff0e soc: loongson: loongson_pm2: Populate children syscon nodes
+daacef89cd1bb7e345539db10e979e1b78451591 soc: loongson: loongson2_guts: Convert to devm_platform_ioremap_resource()
+a776cc49718cc5230aa83a0389002ed92bfc76d7 soc: loongson: loongson2_guts: Remove unneeded semicolon
+a16d7a3d4624c3a75b5423194cdd3110b19afea7 Merge tag 'aspeed-6.6-maintainers' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into arm/fixes
 
---===============5424289049997185083==--
+--===============7053573570455484470==--
