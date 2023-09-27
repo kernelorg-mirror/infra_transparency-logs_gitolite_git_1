@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 27 Sep 2023 12:18:40 -0000
-Message-Id: <169581712042.13797.9427671576137942516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 27 Sep 2023 12:31:22 -0000
+Message-Id: <169581788239.23215.8132308639940783550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/review-andy
-    old: 9419ae7e40d392994ee9fa8a37409296be872a62
-    new: cec422ab8c1ef320cba23b7dbf9ea5364b9c8207
+  - ref: refs/tags/scsi-fixes
+    old: c7e8f02d60bc320d37e83eb9486112945cb4e2e0
+    new: e50274ae1f595157250732a3169be32304812711
     log: |
-         cec422ab8c1ef320cba23b7dbf9ea5364b9c8207 pinctrl: denverton: Enable platform device in the absence of ACPI enumeration
+         2132df16f53b4f01ab25f5d404f36a22244ae342 scsi: core: ata: Do no try to probe for CDL on old drives
          
