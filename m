@@ -1,26 +1,73 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 27 Sep 2023 13:20:44 -0000
-Message-Id: <169582084496.29109.16036598304370076986@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7011134831615770034=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 27 Sep 2023 13:22:33 -0000
+Message-Id: <169582095393.29820.2358935068714988620@gitolite.kernel.org>
+
+--===============7011134831615770034==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/b4/vfs-super-freeze
-    old: 34eca9d99a13f2f023e0d023ee31c529b363ee98
-    new: 3a0770c8dd853f4df084271d94fb6a879512a8bb
-    log: |
-         da1c77a4e5a95b619f68480ac24185ccf85e847b Implement freeze and thaw as holder operations
-         f9a98cb8d7e0d2831f4e730a0632f021523c788c bdev: rename freeze and thaw helpers
-         01a9df4b502d087e9f6ccd9b087aac82d77acc61 bdev: add freeze and thaw holder operations
-         aab5bc56b808bc25966f31b5b344deb581c95555 bdev: implement freeze and thaw holder operations
-         c5601331a738f54191b2ff08b3e04ddf87472960 fs: remove get_active_super()
-         20615a36e130a966530dcda2b4102fa5cba917ee super: remove bd_fsfreeze_{mutex,sb}
-         2d0986b3d540db8d65e66e9cadd420277c811d91 fs: remove unused helper
-         3a0770c8dd853f4df084271d94fb6a879512a8bb porting: document block device freeze and thaw changes
-         
+  - ref: refs/heads/amtime
+    old: c1d93f01490d83ff5a9c4b0e04b16ae4c1c98d57
+    new: 2feb6ff8737c861308a1c9e231ca9615bb9420ac
+    log: revlist-c1d93f01490d-2feb6ff8737c.txt
+
+--===============7011134831615770034==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c1d93f01490d-2feb6ff8737c.txt
+
+2251588143f65636cf3f3f12beb009084fa2d5d7 reiserfs: Replace 1-element array with C99 style flex-array
+a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
+f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
+417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
+678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
+15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
+c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
+4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
+33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
+d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
+eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
+e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
+8ed99af4a266a3492d773b5d85c3f8e9f81254b6 selftests/user_events: Fix to unmount tracefs when test created mount
+a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
+dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
+8287474aa5ffb41df52552c4ae4748e791d2faf2 direct_write_fallback(): on error revert the ->ki_pos update from buffered write
+db7fcc884d8a1e8265a87306e728c3d3239b0ca2 aio: Annotate struct kioctx_table with __counted_by
+be049c3a088d512187407b7fd036cecfab46d565 fs-writeback: do not requeue a clean inode having skipped pages
+ae81711c1edd769b7d9952dde40a579dceca4815 fs/pipe: remove duplicate "offset" initializer
+2ba0dd6562f2c42ef1ae61145bdfc882fc7a6f79 porting: document new block device opening order
+060e6c7d179ed2f2088a23ceedf60d63320e9311 porting: document superblock as block device holder
+2ed45c0f1879079b30248568c515cf60fc668d8a btrfs: fix race when refilling delayed refs block reserve
+a7ddeeb079505961355cf0106154da0110f1fdff btrfs: prevent transaction block reserve underflow when starting transaction
+1bf76df3fee56d6637718e267f7c34ed70d0c7dc btrfs: return -EUCLEAN for delayed tree ref with a ref count not equals to 1
+d2f79e6385b0fcb1a38368e17d4721b8cd72af9f btrfs: remove redundant BUG_ON() from __btrfs_inc_extent_ref()
+8ec0a4a5774ab3f91c356c71f24dfba615bee860 btrfs: log message if extent item not found when running delayed extent op
+58bfe2ccec5f9f137b41dd38f335290dcc13cd5c btrfs: properly report 0 avail for very full file systems
+74ee79142c0a344d4eae2eb7012ebc4e82254109 btrfs: reset destination buffer when read_extent_buffer() gets invalid range
+20218dfbaa31b8d3ef842fafcc7eb4c6aa03f80a btrfs: make sure to initialize start and len in find_free_dev_extent
+b4c639f699349880b7918b861e1bd360442ec450 btrfs: initialize start_slot in btrfs_log_prealloc_extents
+2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
+493c71926c20309226b6d73f6b661a9813de5f0b ntfs3: put resources during ntfs_fill_super()
+03dbab3bba5f009d053635c729d1244f2c8bad38 overlayfs: set ctime when setting mtime and atime
+5c519bc075b3306a5b6a6d5f1e22f37357e936d9 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+84422aee15b9c6fd75ea01a7eedaad1aa0ec9081 Merge tag 'v6.6-rc4.vfs.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+50768a425b46ad7d98f6d88c22d41aa026c463cf Merge tag 'linux-kselftest-fixes-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+cac405a3bfa21a6e17089ae2f355f34594bfb543 Merge tag 'for-6.6-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+76a5070c3a85903462c14afbfe4457c2505174b3 cocci: coccinelle scripts for ctime conversion
+1476b346eadd114033d42f51c6bb79c44d48a760 fs: new atime and mtime accessor methods
+5ed02402dec8ef488aaacfac644e803dd98f3d1c fs: convert a bunch of filesystems to simple_inode_init_ts
+a417a22c9d6d8b5185b4c24db88d00e013c6163c fs: rename i_atime and i_mtime fields to __i_atime and __i_mtime
+2feb6ff8737c861308a1c9e231ca9615bb9420ac fs: JUMBO patch
+
+--===============7011134831615770034==--
