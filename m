@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6679448245342794699=="
+Content-Type: multipart/mixed; boundary="===============5270286124220144651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 27 Sep 2023 09:48:11 -0000
-Message-Id: <169580809192.31584.11116851398285673121@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 09:57:44 -0000
+Message-Id: <169580866417.5983.9795657563208362453@gitolite.kernel.org>
 
---===============6679448245342794699==
+--===============5270286124220144651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: aaba3cd33fc9593a858beeee419c0e6671ee9551
-    new: 22061bfc57fe08c77141dc876b4af75603c4d61d
-    log: |
-         22061bfc57fe08c77141dc876b4af75603c4d61d wifi: iwlwifi: mvm: Fix incorrect usage of scan API
-         
+  - ref: refs/tags/wireless-2023-09-27
+    old: 0000000000000000000000000000000000000000
+    new: 3c820687588e0a0f6c5cb3dd157262c469d346b8
 
---===============6679448245342794699==
+--===============5270286124220144651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1695808066 +0200
+pusher 7BF9099A 1695808641 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1695808066-c0659255f371b33929eaaa252fdd83e8db7f9054
+nonce 1695808640-bef7b428cbe0e077a6e35f79ffa0157d8a3352ff
 
-aaba3cd33fc9593a858beeee419c0e6671ee9551 22061bfc57fe08c77141dc876b4af75603c4d61d refs/heads/main
+0000000000000000000000000000000000000000 3c820687588e0a0f6c5cb3dd157262c469d346b8 refs/tags/wireless-2023-09-27
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUT+kIACgkQ10qiO8sP
-aADqzA/9HeM6lHoxJkrkZFF49/ikO2qcVwepe9W6yRj2wtpZ2ITWZyQMqqdXdido
-IWvTOD2ch1LsK7vi2Dvodk8vGq71YI9RDIW0i2pV9fCR54Q1GqQBe4KKL9EKmVkT
-+LfCKd9feTqkBKNKvFteoiWA8eC+9hGhWr4+xESDNm4pU13Y4+ZiH0ODi57EHl40
-J0OdPKP1S6lQpjQzP75MFw9OMDjIpPavkzOjvHQmhKJcZUXVUn1nlHwXcQXqX31q
-gzguOM3uOSZ5c9ituMaERM9m8K5/W/gQy4GJXYfHG0bP3D9BmpF9H87xL1RSfDWC
-en3rxNkWn2faMSiBposhf+Uj9HvG6c8HdD7VZ7SAimEdXLYrwhGEPVPpjAgCvPVR
-hG3TVYLPtZ+xgUOt7475jQK+nmsbiqW1v5n28k7s456W7g76vRfiDz8MkkBdG/8q
-LXF7/t2EyNL91qTPZWLjo0Yap/m9XkiO32pXR5atb4UK9txzqZpGwtTwLjAEDNvp
-Ml5+Ty6u1g7aTjPV/UixNVpL48t0SP1rV5WHPR2Ws9HF1RaFgbrTioEYlYU4BK9J
-XNReIg82Dzqx4fe8TyNyRzCyEHL+DlnsLmTuRhZEAfKc4TdSa1IOl0/43Hzr1d3D
-KmCLGCwJuFBrCMC0JusItOPdXv4C1bk0ftG5QRA+GG+EJFWiqk0=
-=5eTK
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUT/IEACgkQ10qiO8sP
+aADHGA//XM0AYHb6hWMQ8qm4ueuiGYe5Y6q1iXfs4rCDzEb1A/oeMty3mjx84vis
+s9m6SifkX0mWtScH8GwGSZwHXiXFzLKiuMXURtp0KNIHKgeiZnjYcN5sVuTvglxa
+Sssj5PkE3xicSLXTTwGWzSCcCyWKNfaoEQSyrpwQQu2j1McQ4M5dreemdl6/I5AW
+RJeWiyKn/A/geMLxddZL2V9K84z+Gzst4nW4/z/RQ7WjTK4jWuGJRe9/e1D59zsT
+VJC2u8+e9XfSO+3VdlWeYQKzXQEPntdHog7y8hFAwH/ydPdJf6ZvASm+nE886e1p
+++W7bGI+sfeE4hWN/eObONkCrnbUH1WVkJc4oNwAgVKdFWyBzwNJT5eKWzeYCKP7
+UtGWX9SzC3mRDhnnbEliVbxZ3w8h67sqWIAXMcCIdr8W930VPZiehQl9q/rM3K6d
+MwafnZXstWCW4HB7TqAfXitg6c+G/+TcvAVHVAh+rIZyT7uDRqLMN01ZkjGXZXAs
+ZygqzNsHHoUXilTOk0jWU1JIpaDXPT4iVza9UfRHSXEA/9nEBFjtpYiLdABs3UeO
+8qvRm7CjpjcXFVGsDtZmiGWfbO82mh5AcyRZeSmzm/VjsZv2hs/fE//ooUOo6pAN
+HU1YoPAtO9xivIKo/UU4SpHGRBiA8w6ivDhPRD8MgAIk8SJnIig=
+=9RAW
 -----END PGP SIGNATURE-----
 
---===============6679448245342794699==--
+--===============5270286124220144651==--
