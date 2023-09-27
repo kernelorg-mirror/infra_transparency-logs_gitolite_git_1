@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 27 Sep 2023 08:50:19 -0000
-Message-Id: <169580461957.6406.17829531475663757514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 27 Sep 2023 08:50:27 -0000
+Message-Id: <169580462769.6513.9357223703876155167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: af08458988cb5dd4b4ff87cfb9da81c6d2c8ef7a
-    new: ad484cc98f2c7ee8e22f63691562a7abae5a9832
+  - ref: refs/heads/for-linus
+    old: 7e37c851374eca2d1f6128de03195c9f7b4baaf2
+    new: 6e800968f6a715c0661716d2ec5e1f56ed9f9c08
     log: |
-         4c1a094692cbafbd163229e353a2a7150f09665c ASoC: amd: convert not to use asoc_xxx()
-         de9e70137f006855a540f510a2c7dfb8850bedb7 ASoC: mediatek: convert not to use asoc_xxx()
-         1a543d2a1cdbe2aae039a9b7f5ab6d0cbddebf95 ASoC: starfive: convert not to use asoc_xxx()
-         a2c1125e5b99cd9722d7ee320756bba948855e1e ASoC: intel: convert not to use asoc_xxx()
-         4d5f41191ca83fa4bf6120c5cbcd085aa2aeec0e ASoC: sof: convert not to use asoc_xxx()
-         ad484cc98f2c7ee8e22f63691562a7abae5a9832 ASoC: remove asoc_xxx() compatible macro
+         8adb4e647a83cb5928c05dae95b010224aea0705 regulator/core: regulator_register: set device->class earlier
+         6e800968f6a715c0661716d2ec5e1f56ed9f9c08 regulator/core: Revert "fix kobject release warning and memory leak in regulator_register()"
+         
+  - ref: refs/heads/for-next
+    old: 0833c7741d403ae2efb836c888fd2f62b9196042
+    new: f0a3201f8ed230cb7a2ad4c89f4d6d6402c98815
+    log: |
+         8adb4e647a83cb5928c05dae95b010224aea0705 regulator/core: regulator_register: set device->class earlier
+         6e800968f6a715c0661716d2ec5e1f56ed9f9c08 regulator/core: Revert "fix kobject release warning and memory leak in regulator_register()"
+         f0a3201f8ed230cb7a2ad4c89f4d6d6402c98815 Merge remote-tracking branch 'regulator/for-6.7' into regulator-next
          
