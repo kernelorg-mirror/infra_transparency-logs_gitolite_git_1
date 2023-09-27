@@ -1,70 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============5194438390285062135=="
+Content-Type: multipart/mixed; boundary="===============6654272436004981645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 27 Sep 2023 14:09:58 -0000
-Message-Id: <169582379877.32562.7116202005321439439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 27 Sep 2023 14:13:26 -0000
+Message-Id: <169582400690.3198.13628690353714831999@gitolite.kernel.org>
 
---===============5194438390285062135==
+--===============6654272436004981645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dm-vdo
-    old: 069c266f4844aa2e0bc4c48bacf7e04c8a251017
-    new: d8d00bd5558e65451b766530f8f59d8f749f12a5
-    log: revlist-069c266f4844-d8d00bd5558e.txt
+  - ref: refs/heads/bleeding-edge
+    old: 0b334e02fdc2ca86498f87bd3deb568002de027f
+    new: a2577d67cb05d6553674e7ddda362d22096a955b
+    log: |
+         0d9741abd1c583e7bedb178358a9abd0981f49ba ACPI: thermal: Fix a small leak in acpi_thermal_add()
+         b10e19270b51ce2e5a5820f5d2391b15ad4a78e4 Merge branch 'acpi-thermal' into linux-next
+         a2577d67cb05d6553674e7ddda362d22096a955b Merge branch 'pm-sleep' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: d1fc594eb43504f1f681fece657ad7a6fba8f000
+    new: a2577d67cb05d6553674e7ddda362d22096a955b
+    log: |
+         8d74f1da776da9b0306630b13a3025214fa44618 PM: sleep: Fix symbol export for _SIMPLE_ variants of _PM_OPS()
+         d08970df1980476f27936e24d452550f3e9e92e1 PM: hibernate: Clean up sync_read handling in snapshot_write_next()
+         7bf770f74e850c0b8d21ac143b3b2bc18813a6eb PM: hibernate: fix the kerneldoc comment for swsusp_check() and swsusp_close()
+         0d9741abd1c583e7bedb178358a9abd0981f49ba ACPI: thermal: Fix a small leak in acpi_thermal_add()
+         b10e19270b51ce2e5a5820f5d2391b15ad4a78e4 Merge branch 'acpi-thermal' into linux-next
+         a2577d67cb05d6553674e7ddda362d22096a955b Merge branch 'pm-sleep' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 6e220720365264d94eccc7916ef936d8d39e3040
+    new: a2577d67cb05d6553674e7ddda362d22096a955b
+    log: revlist-6e2207203652-a2577d67cb05.txt
 
---===============5194438390285062135==
+--===============6654272436004981645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-069c266f4844-d8d00bd5558e.txt
+Content-Disposition: attachment; filename=revlist-6e2207203652-a2577d67cb05.txt
 
-3110b72d9cca5cb93375740735a37a8cfb14449b dm: shortcut the calls to linear_map and stripe_map
-2c3bff3bf5c5674727367ac853e8090826cee492 dm: add documentation for dm-vdo target
-9db380f87f7ec6d2071741ee2f0801707c096b81 dm vdo: add the MurmurHash3 fast hashing algorithm
-8dc7a115830fa1396b7761cfcc4f7a21d0f6afea dm vdo: add memory allocation utilities
-6a863af92ab69f87eae243e11b08a06f116e1c9e dm vdo: add basic logging and support utilities
-bece4680f7cbffa704785d7bb34f097ef10ef764 dm vdo: add type declarations, constants, and simple data structures
-836a0cf47b826cf7a9b5a2c6ebc491c226a24692 dm vdo: add thread and synchronization utilities
-3d1f1a7df2d0d6ce92b64fc15536b3dec736eea1 dm vdo: add specialized request queueing functionality
-3f69bab30c7577e8331a157ef4577836ea3f0ef9 dm vdo: add basic hash map data structures
-6c8985184408df9ab3f4572e1dd91260a10efcef dm vdo: add deduplication configuration structures
-7750879b1486d67b01f2efdb2e6f9237bf272192 dm vdo: add deduplication index storage interface
-8ca11f1344bd4f809b05fbd152187862749beaf5 dm vdo: implement the delta index
-92633cc48c3a873ba39cbed32e9cace5a2a76ce2 dm vdo: implement the volume index
-7296a28adb4a699f2afc1d7988fb9cc6f9d6c451 dm vdo: implement the open chapter and chapter indexes
-95f9056d9e9989fc2a3f9cb92b1dc4495ed0e9f0 dm vdo: implement the chapter volume store
-fc9ab84011f2588092128d1582208a5481b78e70 dm vdo: implement top-level deduplication index
-7a0585b8d37376cf6af91b9b21cd13c92d96e321 dm vdo: implement external deduplication index interface
-2718705329880c66dea26abdfc7ebf0c2ad98973 dm vdo: add administrative state and action manager
-cf3c5a1f1b8f81049825733be5c2421e492ad7d3 dm vdo: add vio, the request object for vdo metadata
-a186d5c699f659a4e183d171267c46630a257fe2 dm vdo: add data_vio, the request object which services incoming bios
-c947dcf831aad5b4a2b9a41fbf6dc037e98ccc65 dm vdo: add flush support
-7feca71e74c75d77c42ca70227aba7c5084d146f dm vdo: add the io_submitter
-ad968ec0951d081ac817deda9fceef22a30ca2e5 dm vdo: add hash locks and hash zones
-6bfb3a419b2d5d75041429bcd09a919a5cde900c dm vdo: add use of the deduplication index in hash zones
-7a864d89f25a0938afe1967baeb10da8c4ed75aa dm vdo: add the compressed block bin packer
-0cdfd559050f5b5d4042097fad258e07da944ce6 dm vdo: add slab structure, slab journal and reference counters
-8fc5002ff067ba715fb7070de043ab19a355fbf6 dm vdo: add the slab summary
-a649e6b92b8dbb2f352079d823eabd81dd6596a8 dm vdo: add the block allocators and physical zones
-5b4f55e2c6905d2eedbd9ce67779aa97f390036e dm vdo: add the slab depot
-a27c85b895fc6b3ee8f270f3caaa0df51f7dc472 dm vdo: add the block map
-a72785261bd6ae20b5d98a4fe0092f1b9ac3d54a dm vdo: implement the vdo block map page cache
-4bc95ef8fc0dd8d9369f3ddfbb112a7cd482a414 dm vdo: add the vdo recovery journal
-70b3c9116e307ba4ae62236035b6c7d4bd800fbe dm vdo: add repair of damanged vdo volumes
-5a3c40e8b0e48d0cb65dc80dae65f4922d45dc64 dm vdo: add the vdo structure itself
-9dc256bdb883216150f302b323bd62839489465e dm vdo: add the on-disk formats and marshalling of vdo structures
-d463fb8ed81ff48d06aa2a3e306e2d72beee3a82 dm vdo: add statistics reporting
-587ee7a5d2563f57a407530bd634427f74519b38 dm vdo: add sysfs support for setting vdo params and reading stats
-6c37d5b7f02ee8fd79456fd6d28ab2994229b8ee dm vdo: add debugging support
-0a20cb9a10ee41c7f74db9d8098ba3ca7a628c0c dm vdo: add the top-level DM target
-d8d00bd5558e65451b766530f8f59d8f749f12a5 dm vdo: enable configuration and building of dm-vdo
+950210887670cbb7d2eb9af6fb743b70f1a1ebdc thermal: core: Drop trips_disabled bitmask
+f4dcf06bc6e0161920b700ba3966411d716a321b ACPI: video: Fix NULL pointer dereference in acpi_video_bus_add()
+4be32333d941a53dcfb48e342c808c63a3b25576 ACPI: thermal: Simplify initialization of critical and hot trips
+b09872a652d386207600fcd001077251c0eae15a ACPI: thermal: Fold acpi_thermal_get_info() into its caller
+f04256a8f7de2c13619b636cec1109e596804229 ACPI: thermal: Determine the number of trip points earlier
+06a5f76ee104c17022425ade32b970c1d7793e01 ACPI: thermal: Create and populate trip points table earlier
+30f04c7535e464f1824edb02e736a50be018777b ACPI: thermal: Simplify critical and hot trips representation
+64c512edf97735ecd882b532a5c5351edde39676 ACPI: thermal: Untangle initialization and updates of the passive trip
+cdfe09df04a0706f3926c0643ba2218fae04003b ACPI: thermal: Untangle initialization and updates of active trips
+4175a24f01eb4bfde7d57a9a3ea254649f440034 ACPI: thermal: Drop redundant trip point flags
+058f5e407deb8d21b0a04e50e8efbd25b1fcbd1b ACPI: thermal: Drop valid flag from struct acpi_thermal_trip
+a15ffa783ea4210877886c59566a0d20f6b2bc09 thermal: trip: Drop redundant trips check from for_each_thermal_trip()
+f0a87d1dc382b680a7a1a0005606e14de42e8df4 Merge branches 'acpi-apei', 'acpi-osl', 'acpi-osi' and 'acpi-ec' into linux-next
+46883d28e518f3906a0c136781560115eed5fc02 Merge branch 'acpi-thermal' into linux-next
+920f2a3d892daed807e5afc3dde3fb8ead1201d4 Merge branches 'pm-sleep' and 'pm-tools' into linux-next
+4bab557af027e60c0e2b606153e54cb7ec58aa18 Merge branch 'acpi-video-fix' into linux-next
+d1fc594eb43504f1f681fece657ad7a6fba8f000 Merge branch 'thermal-core' into linux-next
+8d74f1da776da9b0306630b13a3025214fa44618 PM: sleep: Fix symbol export for _SIMPLE_ variants of _PM_OPS()
+d08970df1980476f27936e24d452550f3e9e92e1 PM: hibernate: Clean up sync_read handling in snapshot_write_next()
+7bf770f74e850c0b8d21ac143b3b2bc18813a6eb PM: hibernate: fix the kerneldoc comment for swsusp_check() and swsusp_close()
+0d9741abd1c583e7bedb178358a9abd0981f49ba ACPI: thermal: Fix a small leak in acpi_thermal_add()
+b10e19270b51ce2e5a5820f5d2391b15ad4a78e4 Merge branch 'acpi-thermal' into linux-next
+a2577d67cb05d6553674e7ddda362d22096a955b Merge branch 'pm-sleep' into linux-next
 
---===============5194438390285062135==--
+--===============6654272436004981645==--
