@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3135796523213892334=="
+Content-Type: multipart/mixed; boundary="===============8263555513839259766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 27 Sep 2023 09:02:29 -0000
-Message-Id: <169580534950.15155.17020183667656129674@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 09:03:34 -0000
+Message-Id: <169580541444.15620.14092142926272301414@gitolite.kernel.org>
 
---===============3135796523213892334==
+--===============8263555513839259766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.6-fixes
     old: 8b010acb3154b669e52f0eef4a6d925e3cc1db2f
     new: 59c71548cf1090bf42e0b0d1bc375d83d6efed3a
     log: revlist-8b010acb3154-59c71548cf10.txt
 
---===============3135796523213892334==
+--===============8263555513839259766==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -690,4 +690,4 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 537c013b140d373d1ffe6290b841dc00e67effaa xfs: fix reloading entire unlinked bucket lists
 59c71548cf1090bf42e0b0d1bc375d83d6efed3a Merge tag 'fix-fix-iunlink-6.6_2023-09-25' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-fixesB
 
---===============3135796523213892334==--
+--===============8263555513839259766==--
