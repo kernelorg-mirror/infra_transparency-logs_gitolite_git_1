@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7561635417207143533=="
+Content-Type: multipart/mixed; boundary="===============2975919414554210607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 27 Sep 2023 03:50:30 -0000
-Message-Id: <169578663071.11498.5172190680812636893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 27 Sep 2023 03:50:40 -0000
+Message-Id: <169578664067.11640.12176098069937479341@gitolite.kernel.org>
 
---===============7561635417207143533==
+--===============2975919414554210607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4ae73bba62a367f2314f6ce69e3085a941983d8b
     new: 18030226a48de1fbfabf4ae16aaa2695a484254f
     log: revlist-4ae73bba62a3-18030226a48d.txt
-  - ref: refs/heads/pending-fixes
-    old: a427b9ee9815a9d07e1d182ddc994caa06042786
-    new: 07ffb99534cc6df026681df85ee321d91995a73e
-    log: revlist-a427b9ee9815-07ffb99534cc.txt
-  - ref: refs/heads/stable
-    old: 6465e260f48790807eef06b583b38ca9789b6072
-    new: 0e945134b680040b8613e962f586d91b6d40292d
-    log: revlist-6465e260f487-0e945134b680.txt
-  - ref: refs/tags/next-20230627
-    old: 83312401410853c5ecd4e8ebd2aa9020c84a3dea
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230927
     old: 0000000000000000000000000000000000000000
     new: f7e2dadbec8e0ea5986f601602dfe7c6c637a102
 
---===============7561635417207143533==
+--===============2975919414554210607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1018,149 +1007,4 @@ cf8382a61a0aede61079cd75609fc5a75dc3630c Merge branch 'bitmap-for-next' of https
 918f48e6fa137546f769415c9d31582f8facb992 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 18030226a48de1fbfabf4ae16aaa2695a484254f Add linux-next specific files for 20230927
 
---===============7561635417207143533==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a427b9ee9815-07ffb99534cc.txt
-
-2251588143f65636cf3f3f12beb009084fa2d5d7 reiserfs: Replace 1-element array with C99 style flex-array
-069969d6c5264d2348fd6cf0cedc00fd87ff3cee tee: Remove unused declarations
-5f8456b1faefb06fcf6028dced9f37aa880c779d arm64: dts: mediatek: Fix "mediatek,merge-mute" and "mediatek,merge-fifo-en" types
-840844c262398a90caf02d174c340dec9e29cf69 soc: loongson: loongson2_guts: Convert to devm_platform_ioremap_resource()
-e756ce123c9ab44d757e6212484b4cfaf00af8ef soc: loongson: loongson2_guts: Remove unneeded semicolon
-b8c94cc666422f828efa62b4fc271b94bf4af3c3 Merge tag 'optee-for-for-v6.6' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
-9a7c9c7e34acb7234fc0b43105292c8b9e2ac835 soc: loongson: loongson2_pm: Add dependency for INPUT
-8e5f17483ab404ea929f487eae092ec0b4708496 dt-bindings: soc: loongson,ls2k-pmc: Use fallbacks for ls2k-pmc compatible
-59598d7ba6a8204a0ea7ba21f4d8ea86ed72d928 soc: loongson: loongson2_pm: Drop useless of_device_id compatible
-019d79fe6c3d8b07228ad65cc6cb520b1b6c72bd dt-bindings: soc: loongson,ls2k-pmc: Allow syscon-reboot/syscon-poweroff as child
-4e7b558e320a8526c3845be4d360ebe8fcd30b4d soc: loongson: loongson2_pm: Populate children syscon nodes
-a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
-dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
-e527adfb9b7d9d05a4577c116519e59a2bda4b05 firmware: imx-dsp: Fix an error handling path in imx_dsp_setup_channels()
-8287474aa5ffb41df52552c4ae4748e791d2faf2 direct_write_fallback(): on error revert the ->ki_pos update from buffered write
-db7fcc884d8a1e8265a87306e728c3d3239b0ca2 aio: Annotate struct kioctx_table with __counted_by
-be049c3a088d512187407b7fd036cecfab46d565 fs-writeback: do not requeue a clean inode having skipped pages
-ae81711c1edd769b7d9952dde40a579dceca4815 fs/pipe: remove duplicate "offset" initializer
-2ba0dd6562f2c42ef1ae61145bdfc882fc7a6f79 porting: document new block device opening order
-060e6c7d179ed2f2088a23ceedf60d63320e9311 porting: document superblock as block device holder
-997a3e24dcc12b079eb7d545982d03657c17d526 arm64: dts: freescale: tqma9352: Fix gpio hog
-d7f393430a17c2bfcdf805462a5aa80be4285b27 IB/mlx4: Fix the size of a buffer in add_port_entries()
-b739681b3f8b2a7a684a71ddd048b9b6b5400011 arm64: dts: imx8mp: Fix SDMA2/3 clocks
-161af16c18f3e10d81870328928e5fff3a7d47bb arm64: dts: imx8mp-beacon-kit: Fix audio_pll2 clock
-9d1e8275a28f51599d754ce661c91e0a689c0234 soc: imx8m: Enable OCOTP clock for imx8mm before reading registers
-efa97aed071e0607b15ee08ddb1b7d775b664352 arm64: dts: imx8mm-evk: Fix hdmi@3d node
-f09752eaf0e8f8befc26b44c4d3e15633e56d16a arm64: dts: imx: Add imx8mm-prt8mm.dtb to build
-2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
-5c8a033f5674ae62d5aa2ebbdb9980b89380c34f dt-bindings: ASoC: rockchip: Add compatible for RK3128 spdif
-197c53c8ecb34f2cd5922f4bdcffa8f701a134eb ASoC: fsl_sai: Don't disable bitclock for i.MX8MP
-3b4e5194138b4576e7b703edcd85ffe8783df798 dt-bindings: spi: fsl-imx-cspi: Document missing entries
-493c71926c20309226b6d73f6b661a9813de5f0b ntfs3: put resources during ntfs_fill_super()
-03dbab3bba5f009d053635c729d1244f2c8bad38 overlayfs: set ctime when setting mtime and atime
-334bf33eec5701a1e4e967bcb7cc8611a998334b wifi: cfg80211: avoid leaking stack data into trace
-aaba3cd33fc9593a858beeee419c0e6671ee9551 wifi: mac80211: Create resources for disabled links
-2b21207afd06714986a3d22442ed4860ba4f9ced ASoC: fsl-asoc-card: use integer type for fll_id and pll_id
-534c673b4e0277cd5925ebe89bd2689373352921 MAINTAINERS: aspeed: Update git tree URL
-9c888dbf2164e320e63f3ebfd85a99486bee9c3a MAINTAINERS: aspeed: Update Andrew's email address
-1bbac8d6af085408885675c1e29b2581250be124 dt-bindings: mmc: sdhci-msm: correct minimum number of clocks
-32a9cdb8869dc111a0c96cf8e1762be9684af15b mmc: core: sdio: hold retuning if sdio in 1-bit mode
-1202d617e3d04c8d27a14ef30784a698c48170b3 mmc: sdhci-pci-gli: fix LPM negotiation so x86/S0ix SoCs can suspend
-168054ca5cf783e07518681fad0904de8dcc6b17 mmc: sdhci-sprd: Fix error code in sdhci_sprd_tuning()
-f19c5a73e6f78d69efce66cfdce31148c76a61a6 mmc: core: Fix error propagation for some ioctl commands
-c7bb120c1c66672b657e95d0942c989b8275aeb3 mmc: mtk-sd: Use readl_poll_timeout_atomic in msdc_reset_hw
-5c519bc075b3306a5b6a6d5f1e22f37357e936d9 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-84422aee15b9c6fd75ea01a7eedaad1aa0ec9081 Merge tag 'v6.6-rc4.vfs.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-50768a425b46ad7d98f6d88c22d41aa026c463cf Merge tag 'linux-kselftest-fixes-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-cac405a3bfa21a6e17089ae2f355f34594bfb543 Merge tag 'for-6.6-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-b0ed7eeee0ee13a7c8a0a90fec2ea98619fb0766 Merge tag 'imx-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-894a88a03bb2f728f3f7d9095d83aafa78a20fa7 Merge tag 'aspeed-6.6-maintainers' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into arm/fixes
-e99e2e8d1b12d7b4ef0637e87081b59a9f75b2e0 Merge tag 'omap-for-v6.6/fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
-361be2db8e8d22f4a8440cb4e9fa764ca21c7636 ARM: uniphier: fix cache kernel-doc warnings
-82bc4a73e712568238a99da7455782ea1ace112e arm64: defconfig: remove CONFIG_COMMON_CLK_NPCM8XX=y
-aab8130550da9ce9f3f367d2a7b0f624ac68cf5b Merge tag 'riscv-dt-fixes-for-v6.6-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
-f5354336d914c51506f7e953a1ba0c8607195124 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-2cc8bec9ac8d3880fb8dfda1d6f6e66329c0bc0b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-29e500b19f08bb6ef7dfe3bfce92a20059ac3a22 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-f6401f0e0009caf47101b62cbfe1e659d3e6df24 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-b39a9fe593653ffbc18277ec4cb531b791f5f991 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-a6048ae6f4cd5b7e91124a407db5e39d05853920 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-9889c40d64946ce6b84098a2ac128043260e0932 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-488f5a7bfcaaabbae1610a15348e1e58a4cb8839 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-193123af3b21078cf93c6cfedfc7ae61b965b603 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-16ec0bf6789a170d8b887ee1a206fd26e47f0d7c Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-e6a480cc0da7a052d2567a6e4f620f72b62f3d10 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-6852e0c7c1a8a6ec44bc5e0b5cd95816b29bec16 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-00f1f0fa9ce2ba5a90eb98e75f36e23fcfb323ad Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-131a8fe9e62a1f7a6556945ca0e71d68f1044bd1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-090adbf88048b7a430da203e24c829637e5277ac Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-2f13a96de8be9d38474c3120d755b2737a455e3a Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-1e9fbbba3777ebc315754052d23ac9cc130c7125 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-4675814bc6a015439266bfc36ea16aab2a4f6892 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-07fd678c04087f53a9c5f75f39c09914eb2e5df2 Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-f668ab85f4efde24a49ec6db3084f84c24c05267 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-6809a2c6d32a9ecd53fc8c1f01e728276a14d17a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
-bde1c5d219aa36d9f14b8e96f257c082afdfd80f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-a195da2d0cbc6fed81ac8e13bb1cb1e4f59d43d8 Merge branch 'for-linus' of git://github.com/awilliam/linux-vfio.git
-c0ab7c0645b22d212be5eb2f8382f37b1ca0039c Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-ee653185fd03ca5017f7d4f912f8018d73001fbb Merge branch 'mips-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux.git
-6dc4b91f3824204570defecb79c719db3e11258d Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
-9bc7bbd490837649981b849bfaff94ee3e0ec95c Merge branch 'libnvdimm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm.git
-3725e5d5bb56f66dd9ccf6249c9afe18e4852464 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-8aaee8015ee5c6c22b1972fb3572f05eb5e31b9c Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-3a4c2b77edf87e9a1d08fb7268a00c16cfd7296c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-5a1706def98d8706818ea6aec37cc46d6e9360db Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-d696e673fbcda449ec6855196425d82410a39fbf Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-64af693a464ed984b003d8ecd322174b445f5c99 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-7117c7156ad0ddb685d51844e019cf795050bcd2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
-0955805c4ef9fa7fe9c1b1b417e5453f489e6e19 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-e9a2764dc6b53093be0cfe691afb970d7a1af2d2 Merge branch 'irq/irqchip-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms.git
-9a0b8a563b8425bc0c94837a4b6c5115c7d45a0c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-07ffb99534cc6df026681df85ee321d91995a73e Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============7561635417207143533==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6465e260f487-0e945134b680.txt
-
-2251588143f65636cf3f3f12beb009084fa2d5d7 reiserfs: Replace 1-element array with C99 style flex-array
-a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
-f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
-417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
-678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
-15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
-c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
-4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
-33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
-d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
-eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
-e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
-8ed99af4a266a3492d773b5d85c3f8e9f81254b6 selftests/user_events: Fix to unmount tracefs when test created mount
-a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
-dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
-8287474aa5ffb41df52552c4ae4748e791d2faf2 direct_write_fallback(): on error revert the ->ki_pos update from buffered write
-db7fcc884d8a1e8265a87306e728c3d3239b0ca2 aio: Annotate struct kioctx_table with __counted_by
-be049c3a088d512187407b7fd036cecfab46d565 fs-writeback: do not requeue a clean inode having skipped pages
-ae81711c1edd769b7d9952dde40a579dceca4815 fs/pipe: remove duplicate "offset" initializer
-2ba0dd6562f2c42ef1ae61145bdfc882fc7a6f79 porting: document new block device opening order
-060e6c7d179ed2f2088a23ceedf60d63320e9311 porting: document superblock as block device holder
-2ed45c0f1879079b30248568c515cf60fc668d8a btrfs: fix race when refilling delayed refs block reserve
-a7ddeeb079505961355cf0106154da0110f1fdff btrfs: prevent transaction block reserve underflow when starting transaction
-1bf76df3fee56d6637718e267f7c34ed70d0c7dc btrfs: return -EUCLEAN for delayed tree ref with a ref count not equals to 1
-d2f79e6385b0fcb1a38368e17d4721b8cd72af9f btrfs: remove redundant BUG_ON() from __btrfs_inc_extent_ref()
-8ec0a4a5774ab3f91c356c71f24dfba615bee860 btrfs: log message if extent item not found when running delayed extent op
-58bfe2ccec5f9f137b41dd38f335290dcc13cd5c btrfs: properly report 0 avail for very full file systems
-74ee79142c0a344d4eae2eb7012ebc4e82254109 btrfs: reset destination buffer when read_extent_buffer() gets invalid range
-20218dfbaa31b8d3ef842fafcc7eb4c6aa03f80a btrfs: make sure to initialize start and len in find_free_dev_extent
-b4c639f699349880b7918b861e1bd360442ec450 btrfs: initialize start_slot in btrfs_log_prealloc_extents
-2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
-493c71926c20309226b6d73f6b661a9813de5f0b ntfs3: put resources during ntfs_fill_super()
-03dbab3bba5f009d053635c729d1244f2c8bad38 overlayfs: set ctime when setting mtime and atime
-5c519bc075b3306a5b6a6d5f1e22f37357e936d9 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-84422aee15b9c6fd75ea01a7eedaad1aa0ec9081 Merge tag 'v6.6-rc4.vfs.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-50768a425b46ad7d98f6d88c22d41aa026c463cf Merge tag 'linux-kselftest-fixes-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-cac405a3bfa21a6e17089ae2f355f34594bfb543 Merge tag 'for-6.6-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-
---===============7561635417207143533==--
+--===============2975919414554210607==--
