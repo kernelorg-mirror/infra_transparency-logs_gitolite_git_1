@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0362509502859830605=="
+Content-Type: multipart/mixed; boundary="===============5194438390285062135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 27 Sep 2023 14:07:21 -0000
-Message-Id: <169582364132.30612.16606370592089901079@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 14:09:58 -0000
+Message-Id: <169582379877.32562.7116202005321439439@gitolite.kernel.org>
 
---===============0362509502859830605==
+--===============5194438390285062135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo-wip
-    old: 3faeac9daaee41eb28e2724e4c8ab847432ee89a
-    new: a6f3ae72357eb8c4d7636253806c0180d07ba87f
-    log: revlist-3faeac9daaee-a6f3ae72357e.txt
+  - ref: refs/heads/dm-vdo
+    old: 069c266f4844aa2e0bc4c48bacf7e04c8a251017
+    new: d8d00bd5558e65451b766530f8f59d8f749f12a5
+    log: revlist-069c266f4844-d8d00bd5558e.txt
 
---===============0362509502859830605==
+--===============5194438390285062135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3faeac9daaee-a6f3ae72357e.txt
+Content-Disposition: attachment; filename=revlist-069c266f4844-d8d00bd5558e.txt
 
 3110b72d9cca5cb93375740735a37a8cfb14449b dm: shortcut the calls to linear_map and stripe_map
 2c3bff3bf5c5674727367ac853e8090826cee492 dm: add documentation for dm-vdo target
@@ -66,39 +66,5 @@ d463fb8ed81ff48d06aa2a3e306e2d72beee3a82 dm vdo: add statistics reporting
 6c37d5b7f02ee8fd79456fd6d28ab2994229b8ee dm vdo: add debugging support
 0a20cb9a10ee41c7f74db9d8098ba3ca7a628c0c dm vdo: add the top-level DM target
 d8d00bd5558e65451b766530f8f59d8f749f12a5 dm vdo: enable configuration and building of dm-vdo
-b759d26ea15a4d0356739c436ac436654d6bb9ca dm vdo: add "funnel-" filename prefix to funnel-queue based sources
-e8e40303ccb33fc3185185c8b603c069a7303860 dm vdo wait-queue: fix style nits and missing braces
-3a81673bec2d3620756905924032554cd116d188 dm vdo hash-map: share code between int_map and pointer_map
-02943365c107cd986bd181ca536f62a8ec550e75 dm vdo hash-map: eliminate indirect function calls for ptr_key
-416b6fb819ec7944bd1671fee778b776c422a552 dm vdo hash-map: remove unused 'initial_load' arg from vdo_hash_map_create
-5a5a02b62ff58fb175d7e6f983a2ace363b3a507 dm vdo hash-map: call vdo_hash_map_create instead of vdo_make_int_map
-20009511d7828c595a3d58dec481be921e426b26 dm vdo hash-map: call vdo_hash_map_free instead of vdo_free_int_map
-08b50dbda6b2fcebc0f6e5d6912db9eddfabc56d dm vdo hash-map: call vdo_hash_map_get instead of vdo_int_map_get
-a288ffbee59dcee8b387b383d324c8fc7e21ca64 dm vdo hash-map: call vdo_hash_map_put instead of vdo_int_map_put
-296076d21767dc1ce5dff32f52b7de1075874d8f dm vdo hash-map: call vdo_hash_map_remove instead of vdo_int_map_remove
-acf12bcba0492f767c12bde3dd66aee8eaf258b5 dm vdo: remove int-map.h since all callers have been converted
-952bc1e780f9cf5501d38bfd958a5c15b701ccf5 dm vdo: use BUILD_BUG_ON instead of STATIC_ASSERT
-97d9071bc99174db3b184db61144a7d726c8d379 dm vdo memory-alloc: remove UDS_ALLOCATE_NOWAIT macro
-69957f9c200461e0ffcbba157182eb75f7828981 dm vdo memory-alloc: rename UDS_FORGET to uds_forget
-c65e18c81316ea99e02d7f764dea8d7179240b47 dm vdo memory-alloc: rename UDS_FREE to uds_free
-447e15ddbedc703a706a0d9d854d80aed6894021 dm vdo memory-alloc: rename UDS_ALLOCATE to uds_allocate
-7b60bb054006a87cafbdd50ec63681a8254911a6 dm vdo memory-alloc: rename UDS_ALLOCATE_EXTENDED to uds_allocate_extended
-01279b81bc0f1810855423130f1aebac2808ddb0 dm vdo memory-alloc: rename uds_free_memory to uds_free
-f26d0da5da300fffb12c4f81548fd72ba587ae2f dm vdo memory-alloc: cleanup flow of memory-alloc.h and style nits
-f97e4e04c42a248f9c1defb91f52ea364d5dd123 dm vdo memory-alloc: mark branch unlikely() in uds_allocate_memory()
-ecbd9ad8b5916425aac9a9f022109aebffad0747 dm vdo io-submitter: remove get_bio_sector
-63e46c70e575b43ac9c8fd63bbd9f87b5e51ea93 dm vdo io-submitter: remove needless casts and excess newlines
-796f5dc081b3270ded77ae36f2552e24e0397d69 dm vdo io-submitter: rename to vdo_submit_metadata_vio
-21a386cfd0dd73da747aa9be1968a6e5de9ffcb6 dm vdo io-submitter: rename to vdo_submit_flush_vio
-fab442d26976146b4316a53513354955c57321c9 dm vdo io-submitter: rename to vdo_submit_data_vio
-c66e12d7a940b71de722b26a03f2d1f4c99875c0 dm vdo io-submitter: rename to submit_vio and submit_data_vio
-69bdbeee567d29f11b4dce4736a5ee2566db6391 dm vdo: cleanup excess newlines and style nits in vdo.[ch]
-34aac2522f91c2293d7edf2dfed9c8de7a00ae34 dm vdo: cleanup excess newlines and style nits in block-map.[ch]
-b3dcd6571a68615006610cc645085e5797f75f8c dm vdo wait-queue: add proper namespace to interface
-2e5345a98ba0d08765ed0cc465c004483b2babcb dm vdo wait-queue: remove unused debug function vdo_waitq_get_next_waiter
-1e293333155f763f15062783a80427cff19e2ffb dm vdo slab-depot: fix whitespace nits and missing braces
-1b7865876915295ea408e9451f5a3d10ef1f2dad dm vdo wait-queue: optimize vdo_waitq_dequeue_matching_waiters
-3994632c88fce61786e34f9fd2a48c9fba13117e dm vdo block-map: optimize enter_zone_read_only_mode
-a6f3ae72357eb8c4d7636253806c0180d07ba87f dm vdo wait-queue: rename to vdo_waitq_dequeue_waiter
 
---===============0362509502859830605==--
+--===============5194438390285062135==--
