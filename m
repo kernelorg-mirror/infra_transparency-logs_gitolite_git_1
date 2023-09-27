@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 27 Sep 2023 12:31:22 -0000
-Message-Id: <169581788239.23215.8132308639940783550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 27 Sep 2023 12:33:45 -0000
+Message-Id: <169581802543.24185.18394790816781327955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: c7e8f02d60bc320d37e83eb9486112945cb4e2e0
-    new: e50274ae1f595157250732a3169be32304812711
+  - ref: refs/heads/contrib
+    old: dca9cf8e2db9c017058b0f03045e222e85b6c3a1
+    new: e66a881b0ca33c32dd42065e3ce4409c77db39d3
     log: |
-         2132df16f53b4f01ab25f5d404f36a22244ae342 scsi: core: ata: Do no try to probe for CDL on old drives
+         e66a881b0ca33c32dd42065e3ce4409c77db39d3 printf.3: Fix reference to CAVEATS (previously NOTES)
          
