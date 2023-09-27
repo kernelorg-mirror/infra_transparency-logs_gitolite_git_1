@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6576340826642058124=="
+Content-Type: multipart/mixed; boundary="===============1401130334276002155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 27 Sep 2023 06:56:12 -0000
-Message-Id: <169579777285.17210.8895068331476301469@gitolite.kernel.org>
+Date: Wed, 27 Sep 2023 06:56:36 -0000
+Message-Id: <169579779623.17459.5193379011498366846@gitolite.kernel.org>
 
---===============6576340826642058124==
+--===============1401130334276002155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 16567117aa0c8eea7ed4c2daee92f02952550d17
-    new: aa01dd7bc100af0bd230fc498d4a5750d0be73b2
-    log: revlist-16567117aa0c-aa01dd7bc100.txt
+  - ref: refs/heads/opp/linux-next
+    old: e576a9a8603f7c6f8fed5159e2fe33f6d67a49e7
+    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    log: revlist-e576a9a8603f-0bb80ecc33a8.txt
 
---===============6576340826642058124==
+--===============1401130334276002155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16567117aa0c-aa01dd7bc100.txt
+Content-Disposition: attachment; filename=revlist-e576a9a8603f-0bb80ecc33a8.txt
 
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
 899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
 02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
 8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
 8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
+de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
 b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
 6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
@@ -1048,7 +1050,5 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-bae8222a6c291dbe58c908dab5c2abd3a75d0d63 cpufreq: tegra194: fix warning due to missing opp_put
-aa01dd7bc100af0bd230fc498d4a5750d0be73b2 cpufreq: Add QCM6490 to cpufreq-dt-platdev blocklist
 
---===============6576340826642058124==--
+--===============1401130334276002155==--
