@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 28 Sep 2023 19:59:07 -0000
-Message-Id: <169593114774.24450.7992593154179834481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 28 Sep 2023 20:00:16 -0000
+Message-Id: <169593121687.26544.3274009964932285744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 4815c92480d0e58d6bfe743dc97010d2b5bfcbd7
-    new: a5e73fc1afddbbda62a86eff0016c57a80c8df2e
+  - ref: refs/heads/for-next
+    old: 44a7f34dd8ef9b8dbcceab33ee2d2841bf38d60d
+    new: 482b9626b95c4f8e5f7f3a9054b496eec4edc8fe
     log: |
-         6260ecd04594360ae2af104fb2641317728a66e4 irqdomain: Annotate struct irq_domain with __counted_by
-         a5e73fc1afddbbda62a86eff0016c57a80c8df2e Merge branch into tip/master: 'irq/core'
+         482b9626b95c4f8e5f7f3a9054b496eec4edc8fe dt-bindings: display: panel: one file of all simple LVDS panels with dual ports
          
