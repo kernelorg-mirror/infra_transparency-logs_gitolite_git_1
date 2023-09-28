@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1149814512794253248=="
+Content-Type: multipart/mixed; boundary="===============4561444784067195582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 28 Sep 2023 04:46:31 -0000
-Message-Id: <169587639181.896.16810204479524700988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 28 Sep 2023 04:46:40 -0000
+Message-Id: <169587640081.1063.9374774173521799243@gitolite.kernel.org>
 
---===============1149814512794253248==
+--===============4561444784067195582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 18030226a48de1fbfabf4ae16aaa2695a484254f
     new: 719136e5c24768ebdf80b9daa53facebbdd377c3
     log: revlist-18030226a48d-719136e5c247.txt
-  - ref: refs/heads/stable
-    old: 0e945134b680040b8613e962f586d91b6d40292d
-    new: 633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7
-    log: |
-         5a59f2ff30ae27bb5c3c1aa5d9e11d4d9fc003a5 vfio/pds: Add missing PCI_IOV depends
-         27004f89b0a2479eceb77885337c2a7b0fdafbc4 vfio/pds: Use proper PF device access helper
-         2132df16f53b4f01ab25f5d404f36a22244ae342 scsi: core: ata: Do no try to probe for CDL on old drives
-         c777b11d34e0f47dbbc4b018ef65ad030f2b283a vfio/mdev: Fix a null-ptr-deref bug for mdev_unregister_parent()
-         b6cd17050bc0817c79924f23716198b2e935556e Merge tag 'vfio-v6.6-rc4' of https://github.com/awilliam/linux-vfio
-         633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-         
-  - ref: refs/tags/next-20230628
-    old: 1c4b4c6608e4c6dfad3090c38ef6a95a22d913c6
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20230928
     old: 0000000000000000000000000000000000000000
     new: 1e3f6d5f031a3030bdd3f157ba01cd64a64f639e
 
---===============1149814512794253248==
+--===============4561444784067195582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -803,4 +789,4 @@ d1c30a09f0292f06f27dfc12f2f8a0de28c8ae93 Merge branch 'bitmap-for-next' of https
 4eb19dc027e58deb44822b039b666009f0701b0d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 719136e5c24768ebdf80b9daa53facebbdd377c3 Add linux-next specific files for 20230928
 
---===============1149814512794253248==--
+--===============4561444784067195582==--
