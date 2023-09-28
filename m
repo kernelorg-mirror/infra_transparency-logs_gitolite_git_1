@@ -1,115 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 28 Sep 2023 07:46:59 -0000
-Message-Id: <169588721980.31466.13851733007773479957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 28 Sep 2023 07:50:03 -0000
+Message-Id: <169588740301.743.15098668911291842960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/amlogic/drivers
-    old: f2ed165619c16577c02b703a114a1f6b52026df4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/dt
-    old: cf4befdc463a32cb4a74ed4ca3ba60964e24f7b5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/soc
-    old: b5bd2ccac2d5b2830c1d59e759e5e35e50639b99
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/aspeed/dt
-    old: 32b7343226e622e36c7b241f3c6513f396a5a185
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/dt
-    old: 2ad41a9872096bf429e9806de01cd6eb50f3af03
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/soc
-    old: 96a49448c4777940b16eecdfc61f935fa380d864
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/genpd
-    old: 7ed363cd8d0a3e4fbe3c37b7458420f82ef9a106
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/firmware/scmi
-    old: 31c7c1397a33d4c7ad1e06aa6ea9fc6148554b29
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisi/dt
-    old: dc8cbdd9c68d1e840aec926bee714c38f5e315a5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisi/dt32
-    old: e0d64db2a8c298990f3c1436b3ffd45e73c6dcb1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisi/soc
-    old: e06b83d8a44ea54fb401690329a130b89b8b7819
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/juno/dt
-    old: cc958441ed412f74049c0c00c97f1310d941f9ff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/microchip/dt
-    old: 7dd900ea0e1b9a2000270c9c0f4deab0cfa359b1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/dt
-    old: 5821d766932cc816518bdc5304b4fe4e99f65aaf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/dt-bindings
-    old: c5a5583ecfa02a858983a0cad710201fe0eea03f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/maintainers
-    old: fda31904ffbc7231898198333804fa551b681387
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/soc
-    old: 2c32e600a068b44433e7b453121ef65f4b4210cf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/arm
-    old: bfb345a7bdc186ebbf2b9c53215f0f7b9bdba9fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/defconfig
-    old: 0bfe5475f6b9fc766aa1fabb0a90c88b882c2f70
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt
-    old: 406b5af40ed367eefcdb27440ea98f02c1d1ef0d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/reset/cleanups
-    old: 417a3a5ae44a14b4eeb3df514b2c006b19771f82
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/drivers
-    old: eecff3319287179032600eeec5fa357a53ae0fe1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt
-    old: 57f706bf73079379a9e9f5490c94c2473077bb2e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt64
-    old: d157d43754582f3981b7eefc691abc4d865430e1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/drivers
-    old: 09959520d2b0853a16962d245acfdc995d1b0da9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/drivers
-    old: 23e9bf8e78ba2ed32e9bf5a37c5074b9dfc29110
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt
-    old: 0801a3a9f35854c91f1f3ab8e879c3d14912d214
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/drivers
-    old: 10f975f8b0e8e563bf1e5c2f5e4ebada29fa7edc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt
-    old: c9a706ab227ef59cc49923358513251ca4965563
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt-bindings
-    old: 72738fdeccd172210539a786e23b09b67565d509
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt64
-    old: d7fb6468ec9f18db52ef3c84eb44a9025021c830
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/vexpress/drivers
-    old: ebd4f6102fbc2c5a7560ad5256a71696ab136ce6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zynq/dt
-    old: cf0e27cd011775f63001e1e925969106c9464fca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zynq/soc
-    old: 746db5d0b6d2a4bce0bc972bffd8428c606106cd
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: cac405a3bfa21a6e17089ae2f355f34594bfb543
+    new: 633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7
+    log: |
+         a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
+         dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
+         5a59f2ff30ae27bb5c3c1aa5d9e11d4d9fc003a5 vfio/pds: Add missing PCI_IOV depends
+         27004f89b0a2479eceb77885337c2a7b0fdafbc4 vfio/pds: Use proper PF device access helper
+         2132df16f53b4f01ab25f5d404f36a22244ae342 scsi: core: ata: Do no try to probe for CDL on old drives
+         c777b11d34e0f47dbbc4b018ef65ad030f2b283a vfio/mdev: Fix a null-ptr-deref bug for mdev_unregister_parent()
+         0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+         b6cd17050bc0817c79924f23716198b2e935556e Merge tag 'vfio-v6.6-rc4' of https://github.com/awilliam/linux-vfio
+         633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+         
