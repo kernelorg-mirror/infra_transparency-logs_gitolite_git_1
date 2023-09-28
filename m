@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7643377290930411604=="
+Content-Type: multipart/mixed; boundary="===============3804678861962761196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 28 Sep 2023 10:43:34 -0000
-Message-Id: <169589781429.11406.6373340222874494219@gitolite.kernel.org>
+Date: Thu, 28 Sep 2023 10:43:48 -0000
+Message-Id: <169589782842.11567.5837989515528143248@gitolite.kernel.org>
 
---===============7643377290930411604==
+--===============3804678861962761196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: b3af9c0e89ca721dfed95401c88c8c6e8067b558
-    new: c1fec890458ad101ddbbc52cdd29f7bba6aa2b10
-    log: revlist-b3af9c0e89ca-c1fec890458a.txt
+  - ref: refs/heads/testing
+    old: a3e954546ee465bd14fafb4c7d57b7aebe1faf5e
+    new: 4440d1e0154fc8097878109211d59f6dee613c70
+    log: revlist-a3e954546ee4-4440d1e0154f.txt
 
---===============7643377290930411604==
+--===============3804678861962761196==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b3af9c0e89ca-c1fec890458a.txt
+Content-Disposition: attachment; filename=revlist-a3e954546ee4-4440d1e0154f.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
@@ -445,5 +445,10 @@ ac9b8293096465914c1a0b778e759333ceac5cd1 selftests/tc-testing: implement tdc par
 d3fc4eea9742b89ba9b1609463cf62bba4b9be82 selftests/tc-testing: update tdc documentation
 f940d704d87a8056e7639461f4ecda7bc2e7bd03 Merge branch 'selftests-tc-testing-parallel-tdc'
 c1fec890458ad101ddbbc52cdd29f7bba6aa2b10 ethernet/intel: Use list_for_each_entry() helper
+11796a9272ffaea23aaef6364368de1523c396b9 netfilter: nf_nat: undo erroneous tcp edemux lookup after port clash
+5efb96a0403853213d54bb35a61fa0f95254c15f selftests: netfilter: test nat source port clash resolution interaction with tcp early demux
+18ae718b2a43c253e4ce9fa0e1e97d490804250c netfilter: nf_tables: missing extended netlink error in lookup functions
+43376226f86776936223e465e1e779f09088da43 netfilter: nf_tables: Utilize NLA_POLICY_NESTED_ARRAY
+4440d1e0154fc8097878109211d59f6dee613c70 netfilter: uapi: change netfilter hook verdict code definition from macro to enum
 
---===============7643377290930411604==--
+--===============3804678861962761196==--
