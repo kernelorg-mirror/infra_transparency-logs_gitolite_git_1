@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 28 Sep 2023 11:58:35 -0000
-Message-Id: <169590231565.32132.2283425499060598233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 28 Sep 2023 11:59:10 -0000
+Message-Id: <169590235029.32398.10657122565840468883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/amtime
-    old: b668bc1e30aaea58d2ae114de62891a1dc6d80e2
-    new: 51cf8a50298b308d4275cd26fb5ac8bdec66b90c
+  - ref: refs/heads/master
+    old: 9b0c0e5da473e099e88d43c0fae1d639ebf9699d
+    new: 23bf62411aec784013c08a83db7e8e296055fa02
     log: |
-         51cf8a50298b308d4275cd26fb5ac8bdec66b90c fs: move i_generation into new hole created after timestamp conversion
+         1b7ee3814c103ad53b9335bad869c03871713b67 Fixes for 6.5
+         23bf62411aec784013c08a83db7e8e296055fa02 Fixes for 5.10
          
