@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 28 Sep 2023 14:28:33 -0000
-Message-Id: <169591131392.11713.15029766505857891880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 28 Sep 2023 14:30:36 -0000
+Message-Id: <169591143617.14164.7677967434435425392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 19f5eef8bf732406415b44783ea623e3a31c34c9
-    new: 7c7dd1d64910d07ab36b858d53d00e89b6d918d6
+  - ref: refs/heads/kdevops
+    old: fd50c1dabb3361b04dd9947164677c6ded1fc5ab
+    new: bcf9c04310aa5e42592265af6137989ffff7497c
     log: |
-         057708a9ca5930d4d9a456c29010f4f90ae760b7 pktgen: Automate flag enumeration for unknown flag handling
-         7c7dd1d64910d07ab36b858d53d00e89b6d918d6 pktgen: Introducing 'SHARED' flag for testing with non-shared skb
+         c41710951115c195d1dc42141b6d18a5df7f479b fs: switch timespec64 fields in inode to discrete integers
+         bcf9c04310aa5e42592265af6137989ffff7497c fs: move i_generation into new hole created after timestamp conversion
          
