@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 28 Sep 2023 05:07:57 -0000
-Message-Id: <169587767740.16060.5992312670245645902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Thu, 28 Sep 2023 05:08:14 -0000
+Message-Id: <169587769498.16278.1168654995109270899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ece74786446964c85c1d03cf3d8980ddbce9b5a9
-    new: ee33a0ef8468063b34eed4330b0023c1a8d62f8f
+  - ref: refs/heads/tmp.perf-tools
+    old: e47749f1796d1df39a7eaae95f2784aaa43df57d
+    new: e1340e6b416ba711ddb599ec8510f8f8da3c57c1
     log: |
-         0e501a65d35bf72414379fed0e31a0b6b81ab57d perf record: Fix BTF type checks in the off-cpu profiling
-         2879ff36f5ed80deec5f9d82a7a4107f2347630e perf pmu: "Compat" supports regular expression matching identifiers
-         54409997d4b99ab63616bd431cf6244d58f8a597 perf metric: "Compat" supports regular expression matching identifiers
-         e3e42e23c0c6e791a00eb8331dc948f316e6de1f perf jevents: Support EventidCode and NodeType
-         3bb59e759cbb357f8fb46cc5a48d2b0da09b37c4 perf test: Make matching_pmu effective
-         7fded33c6971b6c8e87cbbf48e74536aacca2991 perf test: Add pmu-event test for "Compat" and new event_field.
-         0b4de7bdf46c521518e38579d0ab5600a6949bec perf jevents: Add support for Arm CMN PMU aliasing
-         4f3ee7d1d5ced888e603c7fbe48e3468320745c1 perf vendor events: Add JSON metrics for Arm CMN
-         ee33a0ef8468063b34eed4330b0023c1a8d62f8f perf test: Fix parse-events tests to skip parametrized events
+         48a3adcf47888019f953c57a7290036744635912 perf pmu: Fix perf stat output with correct scale and unit
+         e1340e6b416ba711ddb599ec8510f8f8da3c57c1 perf pmus: Make PMU alias name loading lazy
          
