@@ -1,94 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============7144742337631237220=="
+Content-Type: multipart/mixed; boundary="===============6348250007952022570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 28 Sep 2023 14:12:28 -0000
-Message-Id: <169591034839.1009.13053467322063581430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 28 Sep 2023 14:14:42 -0000
+Message-Id: <169591048277.1917.17738209923156778834@gitolite.kernel.org>
 
---===============7144742337631237220==
+--===============6348250007952022570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/kdevops
-    old: 620745868f56645001a2f4a44fc92c28a93fb1c6
-    new: fd50c1dabb3361b04dd9947164677c6ded1fc5ab
-    log: revlist-620745868f56-fd50c1dabb33.txt
+  - ref: refs/heads/nfsd-next
+    old: ea3f13fb3e6611436ea62275aa6fc3e93d137979
+    new: a18c6aa5da1a9498fae245c18cb0ea60dd5353c7
+    log: revlist-ea3f13fb3e66-a18c6aa5da1a.txt
 
---===============7144742337631237220==
+--===============6348250007952022570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-620745868f56-fd50c1dabb33.txt
+Content-Disposition: attachment; filename=revlist-ea3f13fb3e66-a18c6aa5da1a.txt
 
-ffd6b29314398bec726be8d68b1876c9b8ec09ba fs/btrfs: convert to new inode {a,m}time accessors
-8fe15ce1d3b83024003e3928eb632be4ccd3fac4 fs/ceph: convert to new inode {a,m}time accessors
-7a4ea718073821bf7008302c78ca621c3362e1fa fs/coda: convert to new inode {a,m}time accessors
-a486b11639cb5164a3ae2975b00480e4d83453ef fs/configfs: convert to new inode {a,m}time accessors
-375e8d152f2752ba8a5683822f8feba1db580162 fs/cramfs: convert to new inode {a,m}time accessors
-009fa9c4f3ba369dcfd4f8b617d1f82afaeefd9f fs/debugfs: convert to new inode {a,m}time accessors
-cb4b25e7ec8d584b9a0677db5ff5cd24e0f1e567 fs/devpts: convert to new inode {a,m}time accessors
-6ecf6e3fd58b4225744c8ab5cb20926fd5758ba1 fs/efivarfs: convert to new inode {a,m}time accessors
-92a200e3b0ada77b71024cb9f1d457a03ea3f304 fs/efs: convert to new inode {a,m}time accessors
-8e78b74c8efb812a37c4f0d36387a0928e36d7d9 fs/erofs: convert to new inode {a,m}time accessors
-db2581424d094e49da140953edf191a5e12f1e9b fs/exfat: convert to new inode {a,m}time accessors
-5db6cecc0930ce7debe62e620ffe6e96255074f6 fs/ext2: convert to new inode {a,m}time accessors
-03757e59f4d5af1797d757aac7802f81a5082fb8 fs/ext4: convert to new inode {a,m}time accessors
-67d9127bd51a4e6687d1aacc38347825e891e13d fs/f2fs: convert to new inode {a,m}time accessors
-be3eec86b5d519074cd839366bb1d713c5b01917 fs/fat: convert to new inode {a,m}time accessors
-4804a29c057eaebf65fc4c81f5b5ae161e0d2a87 fs/freevxfs: convert to new inode {a,m}time accessors
-13128b92bf3e55d53f827fe0a12610f2a7c19b11 fs/fuse: convert to new inode {a,m}time accessors
-94d702fb3f604884b75d096586fc51527e1bdd7e fs/gfs2: convert to new inode {a,m}time accessors
-84cdaa9a28d9f19ef840a136aed143c7eb02db69 fs/hfs: convert to new inode {a,m}time accessors
-5d9a840a78fcf350a8aeb6cb3a27c4b207dc5077 fs/hfsplus: convert to new inode {a,m}time accessors
-389e51f0e906a3467bf68a547579969473a7e8b0 fs/hostfs: convert to new inode {a,m}time accessors
-21b6fa077dd2708a6d1ba212a2493b6fc8ae4ed7 fs/hpfs: convert to new inode {a,m}time accessors
-196198c032b0d8ce6457ba57b9dbfade2a6d7d16 fs/hugetlbfs: convert to new inode {a,m}time accessors
-e56f692e1e31a34c4c04759d920b57532a1faf21 fs/isofs: convert to new inode {a,m}time accessors
-d2465be86e5dd79c546f36b4414ed44e196577de fs/jffs2: convert to new inode {a,m}time accessors
-ee890e5d8093cbba3cbc47d06eb87822af984719 fs/jfs: convert to new inode {a,m}time accessors
-4bc6bc45a72bf53c9433ffb80652624a3f6225a6 fs/kernfs: convert to new inode {a,m}time accessors
-48e997848d416b5b22868283224d992a08ed8522 fs/minix: convert to new inode {a,m}time accessors
-b73c4dfb8ecc4507b735fe379828b3fe4fe28123 fs/nfs: convert to new inode {a,m}time accessors
-7569e63b909096300a186025a55d58c91a8f5d2b fs/nfsd: convert to new inode {a,m}time accessors
-5bfeab986123aaf613e539ae0acd1ea01f55f8b5 fs/nilfs2: convert to new inode {a,m}time accessors
-0f84d8395359ddd24228351bb4ce2fb0146193cd fs/ntfs: convert to new inode {a,m}time accessors
-41e29e3f72b7bed70ef410e92fffd849ec90f187 fs/ntfs3: convert to new inode {a,m}time accessors
-8106b5663efd60fd6878a5a4bc2fd1c73c8f727f fs/ocfs2: convert to new inode {a,m}time accessors
-9058cd0dada89de4666bf13b57fb6b6b79f60ec3 fs/omfs: convert to new inode {a,m}time accessors
-3817893f28b8a982f36f33ff8c3a0602dcedcada fs/openpromfs: convert to new inode {a,m}time accessors
-d2f0ad3a828193bca447671c6a7cf93eec1ae2c4 fs/orangefs: convert to new inode {a,m}time accessors
-9f2173784ed70660da9cf2dcbfb44b73f0a47eaf fs/overlayfs: convert to new inode {a,m}time accessors
-0042ea020377a4e029129337b01757af3862f634 fs/proc: convert to new inode {a,m}time accessors
-24ce780de8ff7be4bc3c260f0e0c94a2155d09fd fs/pstore: convert to new inode {a,m}time accessors
-55cd18c9ef2eff496ac014d0db584a35fff91afc fs/qnx4: convert to new inode {a,m}time accessors
-8d5e41990d08b6e7be62c29d8ef74ddd18f1ba79 fs/qnx6: convert to new inode {a,m}time accessors
-376e3746e21488c2fd4884d0de43af953323a93b fs/ramfs: convert to new inode {a,m}time accessors
-f60724bce0977ff0e00adfb95f62b19337dc02cb fs/reiserfs: convert to new inode {a,m}time accessors
-22f7b7a340f440c0674302a9ae3ff498e008b517 fs/romfs: convert to new inode {a,m}time accessors
-a72573b2cca11344ff4573c85bb7c33aac5d8afd fs/smb/client: convert to new inode {a,m}time accessors
-314c6f5855a5010646bf734cdbde8f4e332293db fs/smb/server: convert to new inode {a,m}time accessors
-f894f077f732fbee2ce237ab795fd87de1decc6d fs/squashfs: convert to new inode {a,m}time accessors
-24809a7424656f95543c6cdbb295ba3caf26cff3 fs/sysv: convert to new inode {a,m}time accessors
-9c9695fe8be6c1760bd85091f3470630cbd1417b fs/tracefs: convert to new inode {a,m}time accessors
-28bf08f19b7fd1b39f4412bf63ca9055fe3f9b39 fs/ubifs: convert to new inode {a,m}time accessors
-3d7113cef577466f18741925bc219c7dd88c70c7 fs/udf: convert to new inode {a,m}time accessors
-2e3e8ff2b16d937685e64d5333bf16529a8e0e37 fs/ufs: convert to new inode {a,m}time accessors
-b8dbba5ed04d4c2dcb0b1dea83bf8c1b07b0bd6f fs/vboxsf: convert to new inode {a,m}time accessors
-fbc3432b8f88e8544cbb4796482be7f59b6f7cde fs/xfs: convert to new inode {a,m}time accessors
-ca9880d8ab6bd35e548df69c0ad6a1f38b748e63 fs/zonefs: convert to new inode {a,m}time accessors
-4509668dea8bfa25b6b47ce7c8d877636e08da53 ipc: convert to new inode {a,m}time accessors
-1a4e7a27d926c01c68bac92a5d63dfc5d4f4e8e0 kernel/bpf: convert to new inode {a,m}time accessors
-ed6f97076a24c64f11d3ce346bc2a6d5a6dcf134 mm: convert to new inode {a,m}time accessors
-c902b692d3c398cfe1e50c1c946c03c543053ac6 net/sunrpc: convert to new inode {a,m}time accessors
-842ef6356f018798fe5f3591d9e304273e7965f3 security/apparmor: convert to new inode {a,m}time accessors
-48f7326886663d5955c4e4630f1f4a7c7b2901a8 security/selinux: convert to new inode {a,m}time accessors
-5feacc04e6f8285cd1b6fa9d9cced8584d43b816 security: convert to new inode {a,m}time accessors
-fd50c1dabb3361b04dd9947164677c6ded1fc5ab fs: rename i_atime and i_mtime fields to __i_atime and __i_mtime
+c891d3c1c9e1306f6848065da5fed2e8ba1af84d lib: add light-weight queuing mechanism.
+c6480a3fbed264731946dac84fa887e28a5432c2 SUNRPC: rename some functions from rqst_ to svc_thread_
+c1640bbded514db1ff6a8e960d9cb1cdfe60adaa SUNRPC: only have one thread waking up at a time
+5c07a226163a24caa9405f9b732c37a1b670c410 SUNRPC: use lwq for sp_sockets - renamed to sp_xprts
+b6d203c515e53051d30aba64d5e63616d19cd746 SUNRPC: change sp_nrthreads to atomic_t
+c9a9d44ff9518b40a16523f9d347865df5be54a1 SUNRPC: discard sp_lock
+e7ac602d6e39422d6defc170ef9307eb73ef395f SUNRPC: change the back-channel queue to lwq
+27d22c18d4b1b2238d8857ad4b8b95765197019e NFSD: add support for CB_GETATTR callback
+e554e8fbfefd6cba704a74edce89c71cd349571d NFSD: handle GETATTR conflict with write delegation
+fac1059d0a7a7a3e286294dc5028737d032edb74 NFSD: introduce netlink stubs
+1ccfd31faa900e631aa584b8bf9ca4b8cbab80db NFSD: add rpc_status netlink support
+8736f3aa0b5b5da0d7f12cf88d32d567f2625d55 nfs: fix the typo of rfc number about xattr in NFSv4
+f50209d22e9ad930242d8392330548c93082cf66 SUNRPC: Remove BUG_ON call sites
+aa8d045f13ea40e908e1be02c6ddc9e1c39d8b27 NFSD: Add simple u32, u64, and bool encoders
+8ce122a2847238c81b5498108bbf5484f4fdeea4 NFSD: Rename nfsd4_encode_bitmap()
+8105384c2cb5fa47a3049b284436727228e27e7c NFSD: Clean up nfsd4_encode_setattr()
+b3269d1a80c6609a78cb8c4a7a6b40cf150c1fd4 NFSD: Add struct nfsd4_fattr_args
+6c4b70351d4e8422acc55536cc837628cfe473db NFSD: Add nfsd4_encode_fattr4__true()
+6b1766675d65c98daf0358d82a6c1b644244f5a7 NFSD: Add nfsd4_encode_fattr4__false()
+d1c17eb7eace5f35d7cf17da9b21fd4976115a3d NFSD: Add nfsd4_encode_fattr4_supported_attrs()
+9c17c23ddce8f230ec394261af1e50eb91908ebb NFSD: Add nfsd4_encode_fattr4_type()
+edbba3ba2374ca39c2fb25c750f1f41e392bd2f4 NFSD: Add nfsd4_encode_fattr4_fh_expire_type()
+a0db36fbb3a9190545e9cecc32860fc4d668ad0c NFSD: Add nfsd4_encode_fattr4_change()
+ab1cd22a2829024d5d07ebbc86d94818ccc282c6 NFSD: Add nfsd4_encode_fattr4_size()
+c28d20a105551c6107ec0731c7aba4af08df41c5 NFSD: Add nfsd4_encode_fattr4_fsid()
+cee97b67c4a41f661f3c3744a30cf477be801c42 NFSD: Add nfsd4_encode_fattr4_lease_time()
+3707ba1c66655589bf186056c0ba360c8444160d NFSD: Add nfsd4_encode_fattr4_rdattr_error()
+9471a2ad246da4d43550d1a3218262efa59c31d6 NFSD: Add nfsd4_encode_fattr4_aclsupport()
+bc019f99b9396bc2d07024c049ffd771a44dfd3d NFSD: Add nfsd4_encode_nfsace4()
+220daa151e75e2d138c02e2f46c42c35bc78ef88 NFSD: Add nfsd4_encode_fattr4_acl()
+44f60d77bc355926ad0553f2104a1d730cdd3632 NFSD: Add nfsd4_encode_fattr4_filehandle()
+a89c9d05a94642042c7f00617ca3d7ffcbfcedf2 NFSD: Add nfsd4_encode_fattr4_fileid()
+7e7f66862081cad6f878e37ef6df0fd395003d55 NFSD: Add nfsd4_encode_fattr4_files_avail()
+6a5ec85aae6a2eb7cd93584865ef2ea5931cbbd2 NFSD: Add nfsd4_encode_fattr4_files_free()
+a79adad9e52945c79d2f88a1390e6eed9726cc76 NFSD: Add nfsd4_encode_fattr4_files_total()
+b3c63a5a8c08429c19c988d85917b9159f577595 NFSD: Add nfsd4_encode_fattr4_fs_locations()
+04340ea41b7712464e73fffca26eaada210d6046 NFSD: Add nfsd4_encode_fattr4_maxfilesize()
+9a490820e149a363bf99b33f775aa3604e366781 NFSD: Add nfsd4_encode_fattr4_maxlink()
+1654cc32dd03e6c2768da87294555e66d45c8ca6 NFSD: Add nfsd4_encode_fattr4_maxname()
+c96aee054a3331b444dd8f6404fc75a6c11a62d3 NFSD: Add nfsd4_encode_fattr4_maxread()
+d09cf2461c66312ea880a55f81a2b2fece48db33 NFSD: Add nfsd4_encode_fattr4_maxwrite()
+1e611c81c671c2fd4b03afaffef30a899f18e53f NFSD: Add nfsd4_encode_fattr4_mode()
+8c0e9c9644f385cb36f4fd13e4eef5374a4e9b6c NFSD: Add nfsd4_encode_fattr4_numlinks()
+8ed9ba5d7ba2c26369c91092ed121b9994634837 NFSD: Add nfsd4_encode_fattr4_owner()
+5dafc45ed5b4a417ad207745442d7478619b79cf NFSD: Add nfsd4_encode_fattr4_owner_group()
+08c3f2c048735af3eea895bd73b42d9a3c73ace1 NFSD: Add nfsd4_encode_fattr4_rawdev()
+0d6c32d307b2d4d0a1692631b043b411888fecaf NFSD: Add nfsd4_encode_fattr4_space_avail()
+2397d9366fb0977de63e0c985fc047296af451d2 NFSD: Add nfsd4_encode_fattr4_space_free()
+91f959029e79debceb537f9a6688c51ea80357de NFSD: Add nfsd4_encode_fattr4_space_total()
+fe154f3220fb65f27ce3124c7fc5f335fd36495b NFSD: Add nfsd4_encode_fattr4_space_used()
+adb08d65fcb4027aecbbe2fc62d73f30c1d86f40 NFSD: Add nfsd4_encode_fattr4_time_access()
+6fc3fee7cdefd37321a97fb3f3e55c98491f7d08 NFSD: Add nfsd4_encode_fattr4_time_create()
+07e863d4036fa5da3f466846ca67749890f3c358 NFSD: Add nfsd4_encode_fattr4_time_delta()
+e67c1e5a0b738a1c688a9c136c5566021b5b23a4 NFSD: Add nfsd4_encode_fattr4_time_metadata()
+514cf11835f080be09d2cb0912631c3afc86d9a3 NFSD: Add nfsd4_encode_fattr4_time_modify()
+01464c352e01dd9759c6e8c430a53700fe2afd1e NFSD: Add nfsd4_encode_fattr4_mounted_on_fileid()
+d318a1edcbdd95eb1fdfb4aa8a93bfd35c69ccb0 NFSD: Add nfsd4_encode_fattr4_fs_layout_types()
+a154306dcf5f79b03cb8583f93b30474ef879a87 NFSD: Add nfsd4_encode_fattr4_layout_types()
+81af5da86543f99b0fc7fbd3093fef2fe57c3a35 NFSD: Add nfsd4_encode_fattr4_layout_blksize()
+58369792c1cfef4c8a1f61463555121c6040258f NFSD: Add nfsd4_encode_fattr4_suppattr_exclcreat()
+d9e48c25c6ac4608adaf8459474be22158cbef9b NFSD: Add nfsd4_encode_fattr4_sec_label()
+91523f7d42155ddbb291776980980ded4536c9a9 NFSD: Add nfsd4_encode_fattr4_xattr_support()
+7b3228ae51f2cb5601f4ea859189430ae80207d4 NFSD: Copy FATTR4 bit number definitions from RFCs
+331c51ab993bb84a2a10f747ecfae4d1a740fe9a NFSD: Use a bitmask loop to encode FATTR4 results
+a2549da451d3312fac355812b13f7d7d6648da36 NFSD: Rename nfsd4_encode_fattr()
+416d7a07554133b689d6f796f07fbf23675568e6 NFSD: simplify error paths in nfsd_svc()
+e59aec358b40e453a2def4f017a96bc0fbc867e1 NFSD: Clean up errors in stats.c
+04db339e2584bc7d54e31869f7572439f73cdec9 nfsd: Clean up errors in nfs4state.c
+a18c6aa5da1a9498fae245c18cb0ea60dd5353c7 nfsd: Clean up errors in nfs3proc.c
 
---===============7144742337631237220==--
+--===============6348250007952022570==--
