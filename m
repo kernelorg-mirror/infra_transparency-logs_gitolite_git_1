@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6832191033934942113=="
+Content-Type: multipart/mixed; boundary="===============6914436880192876858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Thu, 28 Sep 2023 13:26:37 -0000
-Message-Id: <169590759764.32175.13839519670732862409@gitolite.kernel.org>
+Date: Thu, 28 Sep 2023 13:26:49 -0000
+Message-Id: <169590760945.32308.18103416316894905906@gitolite.kernel.org>
 
---===============6832191033934942113==
+--===============6914436880192876858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fpga/linux-fpga
 user: yilunxu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/fixes
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: 6465e260f48790807eef06b583b38ca9789b6072
     log: revlist-0bb80ecc33a8-6465e260f487.txt
 
---===============6832191033934942113==
+--===============6914436880192876858==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -712,4 +712,4 @@ eb72d5207008db54c659fd34f341672decc306ae mfd: cs42l43: Use correct macro for new
 8a511e7efc5a72173f64d191f01cda236d54e27a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 6465e260f48790807eef06b583b38ca9789b6072 Linux 6.6-rc3
 
---===============6832191033934942113==--
+--===============6914436880192876858==--
