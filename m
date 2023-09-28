@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 28 Sep 2023 11:59:10 -0000
-Message-Id: <169590235029.32398.10657122565840468883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 28 Sep 2023 12:05:44 -0000
+Message-Id: <169590274438.5648.638716861338603550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 9b0c0e5da473e099e88d43c0fae1d639ebf9699d
-    new: 23bf62411aec784013c08a83db7e8e296055fa02
+  - ref: refs/heads/main
+    old: a59addacf899b1b21a7b7449a1c52c98704c2472
+    new: c070e51db5e2a98d3aef7c324b15209ba47f3dca
     log: |
-         1b7ee3814c103ad53b9335bad869c03871713b67 Fixes for 6.5
-         23bf62411aec784013c08a83db7e8e296055fa02 Fixes for 5.10
+         c070e51db5e2a98d3aef7c324b15209ba47f3dca ice: always add legacy 32byte RXDID in supported_rxdids
          
