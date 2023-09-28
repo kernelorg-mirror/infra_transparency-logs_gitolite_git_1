@@ -1,108 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============4714728983104301421=="
+Content-Type: multipart/mixed; boundary="===============0387864857108313069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 28 Sep 2023 15:10:35 -0000
-Message-Id: <169591383563.12392.5139870936043523498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 28 Sep 2023 15:13:33 -0000
+Message-Id: <169591401320.13808.2734079432737157440@gitolite.kernel.org>
 
---===============4714728983104301421==
+--===============0387864857108313069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/amtime
-    old: edf7ec5667f22cff49bf3051bb19679b9f82f2ab
-    new: de529b74f8644c6548504a6069cb22a83c2a60e4
-    log: revlist-edf7ec5667f2-de529b74f864.txt
+  - ref: refs/heads/master
+    old: 6465e260f48790807eef06b583b38ca9789b6072
+    new: 633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7
+    log: revlist-6465e260f487-633b47cb009d.txt
 
---===============4714728983104301421==
+--===============0387864857108313069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edf7ec5667f2-de529b74f864.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e6223c949707e311a4d522f995ddb5085339b0a8 drivers/platform/x86: convert to new inode {a,m}time accessors
-318aa4810184f90baba15abd0cb0953fc091ea0c drivers/tty: convert to new inode {a,m}time accessors
-9efcb92de10a86ccd2ad246af57cb49acadf5b32 drivers/usb/core: convert to new inode {a,m}time accessors
-9dd7d293ce008e33423942b18535ae71ce5487f3 drivers/usb/gadget/function: convert to new inode {a,m}time accessors
-052eb80d291160362e0db5719274a225fa983255 drivers/usb/gadget/legacy: convert to new inode {a,m}time accessors
-606bfabba3645f3548eef6fcf97b780034eaa314 fs/9p: convert to new inode {a,m}time accessors
-9bedeb41738fe9cf35643cba73e084c587dace31 fs/adfs: convert to new inode {a,m}time accessors
-2f8d80492ac2e1a9c645a1ae6cec857350a1d119 fs/affs: convert to new inode {a,m}time accessors
-24d3cc9c17a35e5931cf35c3f458d5b218136665 fs/afs: convert to new inode {a,m}time accessors
-adc8df380f886af2edc1bb19f926c7c3c713d162 fs/autofs: convert to new inode {a,m}time accessors
-ca5f90d86d8cc79eac842f2203dae6255ea3603d fs/befs: convert to new inode {a,m}time accessors
-7bf21c31fe18837dc17eb02043644f85825bb049 fs/bfs: convert to new inode {a,m}time accessors
-b454357361556f4c63360e9ad15409e68de4a3e0 fs/btrfs: convert to new inode {a,m}time accessors
-f68deabee18d407fab89a426ddfa30e33ffcc828 fs/ceph: convert to new inode {a,m}time accessors
-7dd92dbc9d69e843ff9efe038661af8ceb0d96b5 fs/coda: convert to new inode {a,m}time accessors
-f7ae2c38cff069726be8ca7df028d64e88d13e1f fs/configfs: convert to new inode {a,m}time accessors
-0d6b85899ba09132b86d89611a805a088f0a28ba fs/cramfs: convert to new inode {a,m}time accessors
-34c58f8ba5a61e4cfe836b7c51ba5069b66fbe08 fs/debugfs: convert to new inode {a,m}time accessors
-61431057689d85e52dcf7da93303abc1907de989 fs/devpts: convert to new inode {a,m}time accessors
-8b58d7f29c979afb9bfbcd4407d8edbfcb80a2e8 fs/efivarfs: convert to new inode {a,m}time accessors
-8831a9f91f83cb58ba4c120feb12053fb7495350 fs/efs: convert to new inode {a,m}time accessors
-bbfc6610ccec85fd5d27659d061c376e6bf12718 fs/erofs: convert to new inode {a,m}time accessors
-aa539c778adb52b61ea059a5fda31688458c8ef0 fs/exfat: convert to new inode {a,m}time accessors
-c1311ce242ba5a6c41325cff82686b7540f8d6d7 fs/ext2: convert to new inode {a,m}time accessors
-1e69c58f843b5ab8b120353cbe920ceeb55f4397 fs/ext4: convert to new inode {a,m}time accessors
-a6f2f18949d00d925b482629d281910b819bf2c6 fs/f2fs: convert to new inode {a,m}time accessors
-8261413200e974f90134af2cb2214da6dd1f6b7c fs/fat: convert to new inode {a,m}time accessors
-7bcbbc9297db37826f7a609435e1d0c81aa82b7d fs/freevxfs: convert to new inode {a,m}time accessors
-eae0fbdf2d3e4425e86448480978ccbb831827bb fs/fuse: convert to new inode {a,m}time accessors
-70ba2b021cbebdd9d6d994a0907ed3597edee445 fs/gfs2: convert to new inode {a,m}time accessors
-6b5cc1cb5515b35a0477696931b9984c3854596b fs/hfs: convert to new inode {a,m}time accessors
-3856cb0d5fd0a5866f797d8466a6a30fd3fb773a fs/hfsplus: convert to new inode {a,m}time accessors
-7ed69e1c5b98b73345e2b9faa8f8fac437abecac fs/hostfs: convert to new inode {a,m}time accessors
-baeb4eb96e7c1fd7a2764a3ad0c357a29b5f5e00 fs/hpfs: convert to new inode {a,m}time accessors
-660e5fd7ecf3f8e1e2ff77bcd8d4587f1bff0526 fs/hugetlbfs: convert to new inode {a,m}time accessors
-eafa87859ce1bf08f4f5976cf3ec44b6a426794e fs/isofs: convert to new inode {a,m}time accessors
-c4f5359e9d0f1cbd3a4a746fa4e69f0ed23af101 fs/jffs2: convert to new inode {a,m}time accessors
-877d8d3c5b654fe33b300392072afa84a598907c fs/jfs: convert to new inode {a,m}time accessors
-e5a7bacc3b5fa3dc8fb8687ebeb1e5e4fa8275a7 fs/kernfs: convert to new inode {a,m}time accessors
-ccd7bc3b624b2b631bce8de44ba9a50c1ee26425 fs/minix: convert to new inode {a,m}time accessors
-a4430e4009e668bf33c0eef8b78dc28655878887 fs/nfs: convert to new inode {a,m}time accessors
-8216b03ab1c9721b6ccf7bfdd6f4e201a4390fe4 fs/nfsd: convert to new inode {a,m}time accessors
-ef44683e21b243ea9eac7a050e2607d49f062ac3 fs/nilfs2: convert to new inode {a,m}time accessors
-004bbd2afafea874776766c86dc75f2702bd2887 fs/ntfs: convert to new inode {a,m}time accessors
-0826b4b6b99e7c8199dae3a59e73afe1ff76cd7d fs/ntfs3: convert to new inode {a,m}time accessors
-c30ad7c306bc808d006374b308b88ac3800b6c8d fs/ocfs2: convert to new inode {a,m}time accessors
-05f21855de245a47e6af7b962da999400bfca738 fs/omfs: convert to new inode {a,m}time accessors
-703c088fc3c5e18c44071e05494d3362f1e7a19d fs/openpromfs: convert to new inode {a,m}time accessors
-6f1ab437a1943194da33a7a88ad602a7f28f0938 fs/orangefs: convert to new inode {a,m}time accessors
-226183b55ef66c5e8bd87e60280636e271a96177 fs/overlayfs: convert to new inode {a,m}time accessors
-d72eaf50a69ef775a471cbb908501f556c03ee56 fs/proc: convert to new inode {a,m}time accessors
-0927c3b5f2f37968198d6a3954e3f386c7810ca6 fs/pstore: convert to new inode {a,m}time accessors
-21d78ae1e96103d1af91de8698055010025685b8 fs/qnx4: convert to new inode {a,m}time accessors
-774616a171007fe2c5cb73c9cab719bd5fb44e19 fs/qnx6: convert to new inode {a,m}time accessors
-07c7c3fb711a311d1d97278607f38f8d41260fb4 fs/ramfs: convert to new inode {a,m}time accessors
-456bc2b3820e5cec230da53b38780afab8a575a1 fs/reiserfs: convert to new inode {a,m}time accessors
-1a3f1a05e43bc961976f488805381f049e7f5671 fs/romfs: convert to new inode {a,m}time accessors
-0c2d3e75e130b3f9625bc5f4fb4b00f574f6ead9 fs/smb/client: convert to new inode {a,m}time accessors
-ff78d652b76d557842321da56f734c666b589700 fs/smb/server: convert to new inode {a,m}time accessors
-a4fab45abe2a766f86a665f70012416afa656db7 fs/squashfs: convert to new inode {a,m}time accessors
-fdf3d8dc718e93cc4c1b5614c26495357136735b fs/sysv: convert to new inode {a,m}time accessors
-68a738a4948a8249b6dd34a087e25af86060eaa6 fs/tracefs: convert to new inode {a,m}time accessors
-2d76bda3de9a3dbc4b41aeea827a6676722112f2 fs/ubifs: convert to new inode {a,m}time accessors
-bafc8c4d4054387f61150daee57645fd5f99eb1d fs/udf: convert to new inode {a,m}time accessors
-6513ec1d8d70ac0369b78abebdf55de592b3c932 fs/ufs: convert to new inode {a,m}time accessors
-a5880138ee2ede8ad81738c5ddde17fd4f65fdf4 fs/vboxsf: convert to new inode {a,m}time accessors
-53f473fedf57b48b42820857a013f71efe35d236 fs/xfs: convert to new inode {a,m}time accessors
-399b73613626da1e05332ea3fff68532c080b101 fs/zonefs: convert to new inode {a,m}time accessors
-357256fe0b47bb9b2d9b3d2e8178915f3e99120a ipc: convert to new inode {a,m}time accessors
-3b893d6aae5d58828d7d784718f7128032b72a0d kernel/bpf: convert to new inode {a,m}time accessors
-75684c2e15618380531bf3037cd110b8a1e6ad60 mm: convert to new inode {a,m}time accessors
-790ba47c099415c9938d14b6e113b566dd818e19 net/sunrpc: convert to new inode {a,m}time accessors
-f622ec2ce0b4f4022205e81bb38558b237e5bd38 security/apparmor: convert to new inode {a,m}time accessors
-4a82458eb242cda8dfad10ec20a80a2cce1dca3e security/selinux: convert to new inode {a,m}time accessors
-6d4caaf7c1d199ea5f61182c0a376147945dff8d security: convert to new inode {a,m}time accessors
-71fb3a517ef310e4179b2c97308906a24365de9b fs: rename i_atime and i_mtime fields to __i_atime and __i_mtime
-357a2d005cb74b8ee20425e7982bbe9c8db317f4 fs: switch timespec64 fields in inode to discrete integers
-de529b74f8644c6548504a6069cb22a83c2a60e4 fs: move i_generation into new hole created after timestamp conversion
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1695914011 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1695914010-a74965240cc8805dd5a41e2d2706e42aa926a0a5
 
---===============4714728983104301421==--
+6465e260f48790807eef06b583b38ca9789b6072 633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUVmBsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hzMP/3PhkQ184KMVr6bHliDl
+G8Mtl8SY522eCwx5qP9U/2HvHD44IMSeRwOjoKHytDOF4UanbbowxhPvHCC8sgq1
+7GeTy6YyB7pP5xXZLjfa06DWsWn5Q+P2E2jkOY82BhhmCAbV0yzjC9MMl2npElUT
+kThhtkr43m04YTAKRopRAZauFVS6HIyvna6E3ZUpLgq+N39sVADywFQ0Fp59d90j
+Ukt4I3LzABtnOa5GQwEimNXSG197VEu/SBPij1N9+n1v7SCEGD0sWAE4knnF13pp
+RFHA1FzKg+0lB8tbXdrf4lqOzZnEePmVaKIBUW78psLS7NpfKcFCYBWuWv1JuhJM
+QilPUbDF1vkLzwzWRURiecbJ/67r3lNZxiKeVetjWcjD9n5EThGHifBHZ72ubyxs
+9DPw0teOhSwDzZjHGAwl9Wi/Y542Uz0zMhmGQQMsqgrtJElK4XR+QKX05rcLHJy4
+mwOOmtzVfpGAjP6jPRH8ZOohzXUfVzfPYBGH5shsNWkCUSV3hYfuQ9BkgyDEYTRm
+3vLsklg1cuVCvPPexie+3/XwF3ry5TNoi9zZdmXPwhnC/EBzWz5sFrB6suJt5Sxm
+6EahhC8EwHbRLUtDHBws4q58M8rmBR6/c1nvWwFUdvUSP0LXpHxEkVBe+lf0p5II
+ubZmvR+k8VcA63eIptrOhcqd
+=kXP0
+-----END PGP SIGNATURE-----
+
+--===============0387864857108313069==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6465e260f487-633b47cb009d.txt
+
+2251588143f65636cf3f3f12beb009084fa2d5d7 reiserfs: Replace 1-element array with C99 style flex-array
+a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
+f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
+417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
+678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
+15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
+c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
+4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
+33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
+d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
+eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
+e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
+8ed99af4a266a3492d773b5d85c3f8e9f81254b6 selftests/user_events: Fix to unmount tracefs when test created mount
+a6828214480e2f00a8a7e64c7a55fc42b0f54e1c workqueue: Removed double allocation of wq_update_pod_attrs_buf
+dd64c873ed11cdae340be06dcd2364870fd3e4fc workqueue: Fix missed pwq_release_worker creation in wq_cpu_intensive_thresh_init()
+5a59f2ff30ae27bb5c3c1aa5d9e11d4d9fc003a5 vfio/pds: Add missing PCI_IOV depends
+27004f89b0a2479eceb77885337c2a7b0fdafbc4 vfio/pds: Use proper PF device access helper
+8287474aa5ffb41df52552c4ae4748e791d2faf2 direct_write_fallback(): on error revert the ->ki_pos update from buffered write
+db7fcc884d8a1e8265a87306e728c3d3239b0ca2 aio: Annotate struct kioctx_table with __counted_by
+be049c3a088d512187407b7fd036cecfab46d565 fs-writeback: do not requeue a clean inode having skipped pages
+ae81711c1edd769b7d9952dde40a579dceca4815 fs/pipe: remove duplicate "offset" initializer
+2ba0dd6562f2c42ef1ae61145bdfc882fc7a6f79 porting: document new block device opening order
+060e6c7d179ed2f2088a23ceedf60d63320e9311 porting: document superblock as block device holder
+2ed45c0f1879079b30248568c515cf60fc668d8a btrfs: fix race when refilling delayed refs block reserve
+a7ddeeb079505961355cf0106154da0110f1fdff btrfs: prevent transaction block reserve underflow when starting transaction
+1bf76df3fee56d6637718e267f7c34ed70d0c7dc btrfs: return -EUCLEAN for delayed tree ref with a ref count not equals to 1
+d2f79e6385b0fcb1a38368e17d4721b8cd72af9f btrfs: remove redundant BUG_ON() from __btrfs_inc_extent_ref()
+8ec0a4a5774ab3f91c356c71f24dfba615bee860 btrfs: log message if extent item not found when running delayed extent op
+58bfe2ccec5f9f137b41dd38f335290dcc13cd5c btrfs: properly report 0 avail for very full file systems
+74ee79142c0a344d4eae2eb7012ebc4e82254109 btrfs: reset destination buffer when read_extent_buffer() gets invalid range
+20218dfbaa31b8d3ef842fafcc7eb4c6aa03f80a btrfs: make sure to initialize start and len in find_free_dev_extent
+b4c639f699349880b7918b861e1bd360442ec450 btrfs: initialize start_slot in btrfs_log_prealloc_extents
+2132df16f53b4f01ab25f5d404f36a22244ae342 scsi: core: ata: Do no try to probe for CDL on old drives
+c777b11d34e0f47dbbc4b018ef65ad030f2b283a vfio/mdev: Fix a null-ptr-deref bug for mdev_unregister_parent()
+2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
+493c71926c20309226b6d73f6b661a9813de5f0b ntfs3: put resources during ntfs_fill_super()
+03dbab3bba5f009d053635c729d1244f2c8bad38 overlayfs: set ctime when setting mtime and atime
+5c519bc075b3306a5b6a6d5f1e22f37357e936d9 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+84422aee15b9c6fd75ea01a7eedaad1aa0ec9081 Merge tag 'v6.6-rc4.vfs.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+50768a425b46ad7d98f6d88c22d41aa026c463cf Merge tag 'linux-kselftest-fixes-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+cac405a3bfa21a6e17089ae2f355f34594bfb543 Merge tag 'for-6.6-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+0e945134b680040b8613e962f586d91b6d40292d Merge tag 'wq-for-6.6-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+b6cd17050bc0817c79924f23716198b2e935556e Merge tag 'vfio-v6.6-rc4' of https://github.com/awilliam/linux-vfio
+633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+
+--===============0387864857108313069==--
