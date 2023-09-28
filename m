@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 28 Sep 2023 18:03:10 -0000
-Message-Id: <169592419027.7174.11376693716247344005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 28 Sep 2023 18:09:10 -0000
+Message-Id: <169592455066.12143.15939508487257219762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dev-queue
-    old: 275b3c7e280dd8e273148a4eadc60cb9382c30f8
-    new: 489b02a1446cb2340bde7b82a84c3cb8d4a71478
+  - ref: refs/heads/misc
+    old: 860b9bed26cb6239ffd00a6b866fc8248c692db3
+    new: 583d5b4deaa766fbfa12f19e32d361d23ad0eb7a
+    log: |
+         583d5b4deaa766fbfa12f19e32d361d23ad0eb7a PCI: Make pci_assign_unassigned_resources() non-init
+         
