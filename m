@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8900335274105733236=="
+Content-Type: multipart/mixed; boundary="===============4647347014919948987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 28 Sep 2023 14:50:00 -0000
-Message-Id: <169591260050.27875.12370758805045087717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 28 Sep 2023 14:51:07 -0000
+Message-Id: <169591266721.29905.14780447438966357491@gitolite.kernel.org>
 
---===============8900335274105733236==
+--===============4647347014919948987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 6d925797304e345e397bc24e62a334b41503fb1d
-    new: 37b4346ed8681660ae60de4facc3d499d8e5cf2a
-    log: revlist-6d925797304e-37b4346ed868.txt
+  - ref: refs/heads/for-next
+    old: 852845abdc4d846f766b2c936955c42c82ca1a19
+    new: c1deb2f5bdf5b9bb709ac3786c5efe84ad9214dc
+    log: revlist-852845abdc4d-c1deb2f5bdf5.txt
 
---===============8900335274105733236==
+--===============4647347014919948987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1695912600 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1695912598-732b2f0956d33bf3e4041c79abae2dca171b9cb1
-
-6d925797304e345e397bc24e62a334b41503fb1d 37b4346ed8681660ae60de4facc3d499d8e5cf2a refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUVkpgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LggB/4iJ0Iej4JfV3Ry/tQg9Ptful4jhEyn
-zFmSw/BHxkjsBFjN78DU87jDK2MCAxF6zaaoFDd/FawbLnBcS6quCa5BXGX3TWKZ
-62DE2QQqEvkhiNaa8P99x9pb1W4woRaVJv7j0RLHGAeqoUny+IoArixvTrvZlQKQ
-+4LmGQayFt4407UO6Fy5haGDwHDcNSnCY1cZgS4zcyTHTfUQ6quM04AmqRMCtV5f
-U9278tj3HYWJJ0i53qSxCyQBEvoAeM4gMsMUW/QOa2uCZUkA4PQ6+yxQXnyoxhsa
-4rEe1zTMeuZo3n67sTW51HfnKOGCIxQskLBm93b6UB971q+JufP6SKXi
-=WdYi
------END PGP SIGNATURE-----
-
---===============8900335274105733236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d925797304e-37b4346ed868.txt
+Content-Disposition: attachment; filename=revlist-852845abdc4d-c1deb2f5bdf5.txt
 
 bf38a0be7c57e43303600b5afc9b740882b3ed87 ASoC: dt-bindings: rtq9128: Add TDM input source slect property
 d9ef56d94fac52f7e06c0ba5a28075456eff405c ASoC: codecs: rtq9128: Add TDM input source select
@@ -66,5 +41,6 @@ f83287a72551833a6fe2fc96f334b26e6eba77e8 ASoC: codecs: Modify the transmission m
 4717636f3fc257f2d35acbf5b5c21d0831d701da ASoC: codecs: Add aw87390 amplifier driver
 54ac512048c98b720a8fbf5899308788dff8def0 ASoC: codecs: rtq9128: Add TDM input source select
 37b4346ed8681660ae60de4facc3d499d8e5cf2a ASoC: codecs: Add aw87390 amplifier driver
+c1deb2f5bdf5b9bb709ac3786c5efe84ad9214dc Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
 
---===============8900335274105733236==--
+--===============4647347014919948987==--
