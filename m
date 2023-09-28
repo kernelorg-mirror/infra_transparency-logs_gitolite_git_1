@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 28 Sep 2023 11:39:14 -0000
-Message-Id: <169590115412.19176.295262837212994032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 28 Sep 2023 11:58:35 -0000
+Message-Id: <169590231565.32132.2283425499060598233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/v6_20230928_wangweidong_a_asoc_codecs_add_aw87390_amplifier_driver
-    old: 0000000000000000000000000000000000000000
-    new: 4717636f3fc257f2d35acbf5b5c21d0831d701da
+  - ref: refs/heads/amtime
+    old: b668bc1e30aaea58d2ae114de62891a1dc6d80e2
+    new: 51cf8a50298b308d4275cd26fb5ac8bdec66b90c
+    log: |
+         51cf8a50298b308d4275cd26fb5ac8bdec66b90c fs: move i_generation into new hole created after timestamp conversion
+         
