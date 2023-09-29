@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 29 Sep 2023 18:44:56 -0000
-Message-Id: <169601309638.19647.512149411546875740@gitolite.kernel.org>
+Date: Fri, 29 Sep 2023 18:45:20 -0000
+Message-Id: <169601312065.21484.5440735801718359106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/hardening
-    old: 598b1b1c8f35ec4f7e112464b3bd11007b0c3052
-    new: ff25207495a2d8d7a54c25e3f5688bc02015f301
+    old: ff25207495a2d8d7a54c25e3f5688bc02015f301
+    new: fd94c38f84410d58931e1d3bc620810b669b4290
     log: |
-         ff25207495a2d8d7a54c25e3f5688bc02015f301 cpufreq: Replace deprecated strncpy() with strscpy()
+         fd94c38f84410d58931e1d3bc620810b669b4290 cpuidle: dt: refactor deprecated strncpy
          
