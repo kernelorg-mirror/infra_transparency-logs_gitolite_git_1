@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3573840714833961554=="
+Content-Type: multipart/mixed; boundary="===============6375482048328048928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 29 Sep 2023 21:48:56 -0000
-Message-Id: <169602413668.23716.17799276641057159499@gitolite.kernel.org>
+Date: Fri, 29 Sep 2023 21:49:22 -0000
+Message-Id: <169602416201.23985.7122233007693687827@gitolite.kernel.org>
 
---===============3573840714833961554==
+--===============6375482048328048928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: 69cee158c9b00b181b11ec5f37e374780bb6079a
     new: ca64d881f78b75377b23e944f1a842a227f265ec
     log: revlist-69cee158c9b0-ca64d881f78b.txt
 
---===============3573840714833961554==
+--===============6375482048328048928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ b1416f69a1e90c0daf5a471790870bea8d46990e drm/virtio: Annotate struct virtio_gpu_
 9cb37de2473c60b7cfe1e6ad393ad4a43040307e isdn: replace deprecated strncpy with strscpy
 ca64d881f78b75377b23e944f1a842a227f265ec isdn: kcapi: replace deprecated strncpy with strscpy_pad
 
---===============3573840714833961554==--
+--===============6375482048328048928==--
