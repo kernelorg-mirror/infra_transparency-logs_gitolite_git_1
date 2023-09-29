@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 29 Sep 2023 14:10:37 -0000
-Message-Id: <169599663731.5057.1497062275334067976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 29 Sep 2023 14:11:41 -0000
+Message-Id: <169599670132.5487.6002382939063140366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/input-maple
+  - ref: refs/tags/sent/20230929-gpio-fx16408-476b144746bc-v1
     old: 0000000000000000000000000000000000000000
-    new: a931318ab139fb2632f48be4da57f809f3d1367f
+    new: 8d3f43666fa2ae15a04deadfe3521c575ef17ecf
