@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2564488639196118634=="
+Content-Type: multipart/mixed; boundary="===============9003493999055422730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 29 Sep 2023 23:44:36 -0000
-Message-Id: <169603107659.10055.901177741813415697@gitolite.kernel.org>
+Date: Fri, 29 Sep 2023 23:44:57 -0000
+Message-Id: <169603109774.10241.4044430492278718230@gitolite.kernel.org>
 
---===============2564488639196118634==
+--===============9003493999055422730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: ca64d881f78b75377b23e944f1a842a227f265ec
     new: 441533fa1b35d6a074f0961f08ad9b122f5223a6
     log: revlist-ca64d881f78b-441533fa1b35.txt
 
---===============2564488639196118634==
+--===============9003493999055422730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ d1c06c963e8ce2a37dce03cd4c99d6472345411e drm/vmwgfx: Annotate struct vmw_surface
 69372fbde22982aa474a2d8926748d1c63acf7b9 isdn: replace deprecated strncpy with strscpy
 441533fa1b35d6a074f0961f08ad9b122f5223a6 isdn: kcapi: replace deprecated strncpy with strscpy_pad
 
---===============2564488639196118634==--
+--===============9003493999055422730==--
