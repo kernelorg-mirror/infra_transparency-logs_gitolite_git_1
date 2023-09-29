@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 29 Sep 2023 09:00:04 -0000
-Message-Id: <169597800446.27404.10311987915112054448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 29 Sep 2023 09:17:30 -0000
+Message-Id: <169597905045.7361.13829930260946830758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: c52b640214d77375876cb7b7824bbe9f28c24d4a
-    new: ee73a9fae540adbb432bd2854a82409515c7c892
-    log: |
-         ee73a9fae540adbb432bd2854a82409515c7c892 nvmem: add explicit config option to read old syntax fixed OF cells
-         
+  - ref: refs/heads/filez80L8q
+    old: 967dad97757057dcd72ec27cdb3c14c1774f606c
+    new: 0000000000000000000000000000000000000000
