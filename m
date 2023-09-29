@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 29 Sep 2023 05:59:44 -0000
-Message-Id: <169596718408.28348.3802788894623710591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 29 Sep 2023 06:04:53 -0000
+Message-Id: <169596749375.31837.2487751668670695532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/master
-    old: 3a69ab875233734bc434402379100272cd70bde2
-    new: 5fa4704d14b29ca59e80212e0a067b0c83b42d42
+  - ref: refs/heads/at91-dt
+    old: 4d25c04fc1fe1d9fd8b0a657f79805e152b09e5b
+    new: d85c4229e9256a482b700d713e133ca2f27560fc
     log: |
-         5fa4704d14b29ca59e80212e0a067b0c83b42d42 xfrm: Remove unused function declarations
+         949652c6bbf43e2a31e1a1b9b988d6bed0fca452 dt-bindings: ARM: at91: Document Microchip SAMA5D29 Curiosity
+         d85c4229e9256a482b700d713e133ca2f27560fc ARM: dts: at91: sama5d29_curiosity: Add device tree for sama5d29_curiosity board
          
