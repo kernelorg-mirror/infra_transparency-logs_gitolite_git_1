@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 29 Sep 2023 18:55:41 -0000
-Message-Id: <169601374133.28664.12243026089826073785@gitolite.kernel.org>
+Date: Fri, 29 Sep 2023 19:00:44 -0000
+Message-Id: <169601404419.32160.5176283666426913314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/hardening
-    old: f2c087967067c86e5d73a89918c56ae4a73cdbdf
-    new: dac4b0b1185833edd8253383d28baaee9320c496
+    old: dac4b0b1185833edd8253383d28baaee9320c496
+    new: 81f4864ad1701425dc88fcf4db2002d006512e0c
     log: |
-         820bc8993fa3d94e03c089d4bc81d72b2749de1a hwmon: (ibmpowernv) refactor deprecated strncpy
-         dac4b0b1185833edd8253383d28baaee9320c496 hwmon: (asus_wmi_sensors) refactor deprecated strncpy
+         ed273f696b40e728b42784339fc10603e3d39ba5 hwmon: (ibmpowernv) Replace deprecated strncpy() with memcpy()
+         b855c8ef413a26e381cbd79ed93d1e6a368fd069 hwmon: (asus_wmi_sensors) Replace deprecated strncpy() with strscpy()
+         81f4864ad1701425dc88fcf4db2002d006512e0c EDAC/mc_sysfs: Replace deprecated strncpy() with memcpy()
          
