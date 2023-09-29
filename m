@@ -1,41 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4811701383131078547=="
+Content-Type: multipart/mixed; boundary="===============4322168254313655918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 29 Sep 2023 06:50:03 -0000
-Message-Id: <169597020366.528.2520336613971258576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 29 Sep 2023 07:35:46 -0000
+Message-Id: <169597294680.32279.3923374009499115917@gitolite.kernel.org>
 
---===============4811701383131078547==
+--===============4322168254313655918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 633b47cb009d09dc8f4ba9cdb3a0ca138809c7c7
-    new: 9ed22ae6be817d7a3f5c15ca22cbc9d3963b481d
-    log: revlist-633b47cb009d-9ed22ae6be81.txt
+  - ref: refs/heads/slab/for-linus
+    old: 3d053e8060430b86bad0854b7c7f03f15be3a7e5
+    new: 8446a4deb6b6bc998f1d8d2a85d1a0c64b9e3a71
+    log: |
+         46a9ea6681907a3be6b6b0d43776dccc62cad6cf mm/slab_common: fix slab_caches list corruption after kmem_cache_destroy()
+         8446a4deb6b6bc998f1d8d2a85d1a0c64b9e3a71 slab: kmalloc_size_roundup() must not return 0 for non-zero size
+         
 
---===============4811701383131078547==
+--===============4322168254313655918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-633b47cb009d-9ed22ae6be81.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f6267c81dbd9c66e5d7dfd65e5a849f688c877b8 spi: cs42l43: Remove spurious pm_runtime_disable
-ef8f8f04a0b25e8f294b24350e8463a8d6a9ba0b MIPS: Alchemy: only build mmc support helpers if au1xmmc is enabled
-3b4e5194138b4576e7b703edcd85ffe8783df798 dt-bindings: spi: fsl-imx-cspi: Document missing entries
-1943feecf80e73ecc03ce40271f29c6cea142bac LoongArch: numa: Fix high_memory calculation
-2761498876adebff77a43574639005b29e912c43 LoongArch: Define relocation types for ABI v2.10
-c1c2ce2d3bf903c50f3da7346d394127ffcc93ac LoongArch: Add support for 32_PCREL relocation type
-b1dc55a3d6a86cc2c1ae664ad7280bff4c0fc28f LoongArch: Add support for 64_PCREL relocation type
-1a8196a93e493c0a50b800cb09cef60b124eee15 spi: spi-gxp: BUG: Correct spi write return value
-52a6d9b53ea1dd0d20a65532dfb0ab02b1cb452c Merge tag 'mips-fixes_6.6_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-5d959343ae487157a2ef2993794e1359a82a5b15 Merge tag 'loongarch-fixes-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-9ed22ae6be817d7a3f5c15ca22cbc9d3963b481d Merge tag 'spi-fix-v6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1695972942 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1695972942-37a3538e2baf67d48b0f5e1cf028e61c59e00b15
 
---===============4811701383131078547==--
+3d053e8060430b86bad0854b7c7f03f15be3a7e5 8446a4deb6b6bc998f1d8d2a85d1a0c64b9e3a71 refs/heads/slab/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmUWfk4ACgkQu+CwddJF
+iJoOdwf/dPgZTxFiZjAnT4WAkfmmyW9P0Wjw/B6dqaGxQDTUnEhhF1PmE/BmasRs
+Fa3njyH7zSB6wkW2CgGJT6kdSN6Y7CrSLb4bCpCKegFUrq9JAZXzIW//3nyQtmSO
+IMltH2JwEyHURCjvGzOCT6/xbYus5qVnGMF7QStGEPvED1w8Ucfh+V8rtUkeZFXr
+5axlH5qyizTLTiclgEFa+E/XTbDs9NcTJZpjkCpRhu2E3R+c5g5QtOw6vWlEP3Vo
+FamA9EWUosjCnVrL0ZkEaI6599wANdK1Xm8KMVqYoPI4+4TYBK1r2vSduZKqee+h
+xz0ysuaWAEyeh58+9jlOzrH8SWpcNw==
+=zAjz
+-----END PGP SIGNATURE-----
+
+--===============4322168254313655918==--
