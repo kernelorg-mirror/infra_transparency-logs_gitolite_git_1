@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 29 Sep 2023 19:23:12 -0000
-Message-Id: <169601539239.15871.17150252882480704794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 29 Sep 2023 19:29:51 -0000
+Message-Id: <169601579118.19800.474577975673815882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 1eb1f6b6c911438474370e394126ebdc767aa1b6
-    new: f8ead26ffdee2f4a42ea4c5f3261d07fa6b58cc3
+  - ref: refs/heads/at91-dt
+    old: 2bb496015fff960e5a3bd36452b9ababcaec0a39
+    new: 3cec9514911c4400a4b4ab778b9e92b60a14c677
     log: |
-         4d8e2b2fb0cfebd6b516bf14bdfb16f54a368268 nfs41: Annotate struct nfs4_file_layout_dsaddr with __counted_by
-         f8ead26ffdee2f4a42ea4c5f3261d07fa6b58cc3 NFS/flexfiles: Annotate struct nfs4_ff_layout_segment with __counted_by
+         3cec9514911c4400a4b4ab778b9e92b60a14c677 ARM: dts: at91: sam9x60_curiosity: Add mandatory dt property for RTT
          
