@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 29 Sep 2023 18:22:45 -0000
-Message-Id: <169601176503.23321.5914768594934214360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 29 Sep 2023 18:32:34 -0000
+Message-Id: <169601235482.10434.4718336748759080220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 20e820f184b73ce8d2c1b4231e6886cf468f30a3
-    new: a81af28f2df82ebca4de2c9d655b57a488642d92
+  - ref: refs/heads/for-next/hardening
+    old: 4cb2e89fea5fe4238c554fcb62afed5231e1d020
+    new: d4e178fe19c9f2b4bf1c09000c6369e6437614c9
     log: |
-         a400ac1156608d34563ae49ad5f27f068ac5d4a0 Notes removed by 'git notes remove'
-         a81af28f2df82ebca4de2c9d655b57a488642d92 Notes added by 'git notes add'
+         d77008421afda6208b1256c9b218457acd174ca6 groups: Convert group_info.usage to refcount_t
+         d4e178fe19c9f2b4bf1c09000c6369e6437614c9 um,ethertap: refactor deprecated strncpy
          
