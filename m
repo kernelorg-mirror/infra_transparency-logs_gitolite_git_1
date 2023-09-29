@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 29 Sep 2023 20:47:52 -0000
-Message-Id: <169602047237.12312.9976795490315871112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 29 Sep 2023 20:50:51 -0000
+Message-Id: <169602065196.15030.7451242431161916204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-linus
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 6a878a54d0053ef21f3b829dc267487c2302b012
+  - ref: refs/heads/fixes-base
+    old: dae40be7a1a72474e225795c0d6f43a4ac596a3f
+    new: 2132df16f53b4f01ab25f5d404f36a22244ae342
     log: |
-         6a878a54d0053ef21f3b829dc267487c2302b012 PCI: qcom: Fix IPQ8074 enumeration
+         2132df16f53b4f01ab25f5d404f36a22244ae342 scsi: core: ata: Do no try to probe for CDL on old drives
          
