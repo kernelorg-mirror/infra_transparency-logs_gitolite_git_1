@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 29 Sep 2023 14:20:30 -0000
-Message-Id: <169599723035.12050.3558565843726453917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 29 Sep 2023 14:25:26 -0000
+Message-Id: <169599752610.15333.5133067972898935069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/v31
+  - ref: refs/heads/mfd-rk88x-maple
     old: 0000000000000000000000000000000000000000
-    new: b69678fee51d2ddc0897358b8ba0c63bbbd12bc0
+    new: 83404af27aec24f50a1bfc109c524f6451c121a6
