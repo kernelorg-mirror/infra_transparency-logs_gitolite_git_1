@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 29 Sep 2023 19:17:43 -0000
-Message-Id: <169601506377.12298.160051315476922089@gitolite.kernel.org>
+Date: Fri, 29 Sep 2023 19:21:08 -0000
+Message-Id: <169601526842.15087.16163608298849849471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,17 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/hardening
-    old: 13f1a60fe04f67e7d9317158c263687bb75ee38d
-    new: 7a709daf5d40cfcd33bd326fc5f43b50031e31aa
+    old: 7a709daf5d40cfcd33bd326fc5f43b50031e31aa
+    new: 1eb1f6b6c911438474370e394126ebdc767aa1b6
     log: |
-         7c993785ae63987b9c50e8f44136d0c4686f264b ocfs2: Annotate struct ocfs2_slot_info with __counted_by
-         b25373dde858955cc9b8ed7043be0640640ebae9 ceph: Annotate struct ceph_osd_request with __counted_by
-         45faff97751a87ae8e7ee2cc1afdb1fd293c9bad afs: Annotate struct afs_permits with __counted_by
-         7a709daf5d40cfcd33bd326fc5f43b50031e31aa afs: Annotate struct afs_addr_list with __counted_by
+         a5683963b3f54b49a673e4a4fd9eda44693eebcc usb: Annotate struct urb_priv with __counted_by
+         84657a30a0c94966d1dfb3636eac43b04047cc44 usb: gadget: f_fs: Annotate struct ffs_buffer with __counted_by
+         cfe2af2d553fa030b3619ef9b10051e09a94d40e usb: gadget: f_midi: Annotate struct f_midi with __counted_by
+         f246956ca8f3afd67bf12fb351558b1256d84bcd drbd: Annotate struct fifo_buffer with __counted_by
+         9add7681e09b0a2b77c7ff045e70ae97627a5efa md/md-linear: Annotate struct linear_conf with __counted_by
+         588cd9b208626b2ae82cb1d382a3eaffb8ad06bb dm raid: Annotate struct raid_set with __counted_by
+         6797f1750c3cf08418a2f0da3b7bfa44b94a0d28 dm crypt: Annotate struct crypt_config with __counted_by
+         052b7cba53b4185f53e4715ee5be3163d04493ca dm: Annotate struct stripe_c with __counted_by
+         e9d842d479acdd47ee76db905d98535b30db429d dm: Annotate struct dm_stat with __counted_by
+         1eb1f6b6c911438474370e394126ebdc767aa1b6 dm: Annotate struct dm_bio_prison with __counted_by
          
