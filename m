@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 30 Sep 2023 17:16:10 -0000
-Message-Id: <169609417022.28253.7364662071119811897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Sat, 30 Sep 2023 17:18:09 -0000
+Message-Id: <169609428994.29044.16421928496461638731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/master
-    old: 830380e3178a103d4401689021eadddadbb93d6d
-    new: cefc06e4de1477dbdc3cb2a91d4b1873b7797a5c
+  - ref: refs/heads/kvm-arm64/misc
+    old: 909b583f81b5bb5a398d4580543f59b908a86ccc
+    new: bf92834e6f6e75db5241717019d309252796ed3d
     log: |
-         f5d19bbdb5289de632cf4ac8ace809c4648389ea dt-bindings: i2c: mxs: Pass ref and 'unevaluatedProperties: false'
-         b13e59e74ff71a1004e0508107e91e9a84fd7388 i2c: mux: Avoid potential false error message in i2c_mux_add_adapter
-         92e73d807b68b2214fcafca4e130b5300a9d4b3c i2c: npcm7xx: Fix callback completion ordering
-         cefc06e4de1477dbdc3cb2a91d4b1873b7797a5c Merge tag 'i2c-for-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         c04bf723ccd639250fa680a0fb4e1ac15bb84c3b KVM: arm64: Do not transfer page refcount for THP adjustment
+         bf92834e6f6e75db5241717019d309252796ed3d KVM: arm64: Use folio for THP adjustment
          
