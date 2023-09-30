@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 30 Sep 2023 19:32:16 -0000
-Message-Id: <169610233639.27486.15818074252918474438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 30 Sep 2023 19:34:31 -0000
+Message-Id: <169610247182.28405.957649530787884894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/next
-    old: 0a2dc989511e2010bc214a13ed8b99d5d460d0b6
-    new: 2ecb06fea7496678742dbde068aea18cd052fdf7
-    log: |
-         2ecb06fea7496678742dbde068aea18cd052fdf7 tests/schemes/test/test_filters(): Check if swap configured
-         
+  - ref: refs/tags/block-5.8-2020-06-26
+    old: 87a53f1649851782ea0868dbb3bafb006f78653a
+    new: 0000000000000000000000000000000000000000
