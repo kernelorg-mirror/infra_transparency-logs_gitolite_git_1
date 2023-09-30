@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 30 Sep 2023 22:00:34 -0000
-Message-Id: <169611123429.4272.17530195105606059928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Sat, 30 Sep 2023 22:25:38 -0000
+Message-Id: <169611273820.22053.5612443571526900140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/damon/next
-    old: 941973bbec90e7905c5aa1645dd9b796a873c23d
-    new: ee9e834252d5110f424abdef73f776cd4dc5ceae
+  - ref: refs/heads/master
+    old: c972684e1ac7c1818c0ecf98be0fdc5f3e38d122
+    new: 66f47343d99d1967ee0e4262a78ed4125643819b
     log: |
-         d3dfc5443e1f05dd03955ba5fe214812d0219395 mm/damon/sysfs-schemes: update tried regions for only one apply interval
-         77ace1c27b5f7beccee4475206bd1354ed570baa mm/damon/sysfs: support DAMOS apply interval larger than aggregation interval
-         ff3d1bf4122213fbcae73b075149e7cc3f5c0f34 fixup HEAD^^
-         ee9e834252d5110f424abdef73f776cd4dc5ceae fixup HEAD^^
+         71c125193f9ca7ce9c9e6a98dc4859ff23e5e786 wiphy: Remove unused wiphy_get_permanent_address()
+         6e5df64f6d57b49a3f371368228076322f1fa060 wiphy: Remove unused wiphy_can_offchannel_tx()
+         66f47343d99d1967ee0e4262a78ed4125643819b wiphy: Remove unused wiphy_supports_adhoc_rsn()
          
