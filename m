@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sat, 30 Sep 2023 18:09:21 -0000
-Message-Id: <169609736152.817.628125751829754341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 30 Sep 2023 18:11:02 -0000
+Message-Id: <169609746281.3154.9078268545044858701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: cd4abfb1b71e8e86d2fb51febb05b695129dca30
-    new: 7ed16da7c7686249eec598d18d05399a8af91797
+  - ref: refs/heads/master
+    old: cefc06e4de1477dbdc3cb2a91d4b1873b7797a5c
+    new: 3b517966c5616ac011081153482a5ba0e91b17ff
     log: |
-         5a6e594fc60703d4589a9148bbf6e0136f40a605 KVM: arm64: Always invalidate TLB for stage-2 permission faults
-         7ed16da7c7686249eec598d18d05399a8af91797 Merge branch kvm-arm64/misc into kvmarm/next
+         a6a241764f69c62d23fc6960920cc662ae4069e9 swiotlb: use the calculated number of areas
+         381c043233e66b1c160ef235675e65cf6c580e92 iomap: add a workaround for racy i_size updates on block devices
+         2d5780bbef8dbe6375d481cbea212606a80e4453 swiotlb: fix the check whether a device has used software IO TLB
+         684f7e6d28e8087502fc8efdb6c9fe82400479dd iomap: Spelling s/preceeding/preceding/g
+         25d48d570eeda62cf71e5b9cdad76a37b833f408 Merge tag 'iomap-6.6-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+         3b517966c5616ac011081153482a5ba0e91b17ff Merge tag 'dma-mapping-6.6-2023-09-30' of git://git.infradead.org/users/hch/dma-mapping
          
