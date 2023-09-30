@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 30 Sep 2023 15:08:18 -0000
-Message-Id: <169608649859.499.6252093956897964224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 30 Sep 2023 16:19:56 -0000
+Message-Id: <169609079678.18610.14013301145342888554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/testing
-    old: 80636e18e2d0cb17aca8d7f30c8ab31072811f9e
-    new: 1749bed75189f1b370ffb1d50b51d066c34a3f4f
-    log: |
-         1749bed75189f1b370ffb1d50b51d066c34a3f4f staging: iio: resolver: ad2s1210: read excitation frequency from control register
-         
+  - ref: refs/tags/nfsd-6.6-2
+    old: 0000000000000000000000000000000000000000
+    new: 0dc24d11a326b1117b54c5481c51374947ba0cf4
