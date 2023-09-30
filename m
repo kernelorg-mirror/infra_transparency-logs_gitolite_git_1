@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 30 Sep 2023 19:18:44 -0000
-Message-Id: <169610152424.17936.16883373443436790898@gitolite.kernel.org>
+Date: Sat, 30 Sep 2023 19:26:49 -0000
+Message-Id: <169610200908.23864.9357586077814949251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/fixes
-    old: 488ef44c068e79752dba8eda0b75f524f111a695
-    new: 8894b432548851f705f72ff135d3dcbd442a18d1
+  - ref: refs/heads/for-next
+    old: 43ee22422db545800b8bf2c24ef53d040372fc7a
+    new: 0ce51459c8353b2b18ad3a430dbebf29af8b579c
     log: |
-         383eba9f9a7f4cd639d367ea5daa6df2be392c54 power: supply: qcom_battmgr: fix battery_id type
-         8894b432548851f705f72ff135d3dcbd442a18d1 power: supply: qcom_battmgr: fix enable request endianness
+         8f8e9b7388514d937843337140f18ceb0f3da6eb power: supply: mm8013: Fix an error checking issue in mm8013_checkdevice()
+         15a4e422f3c9b041261b6810c90ce09d4ebe2a14 dt-bindings: power: supply: sbs-manager: Add missing unevaluatedProperties on child node schemas
+         0ce51459c8353b2b18ad3a430dbebf29af8b579c power: supply: core: remove opencoded string_lower()
          
