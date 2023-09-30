@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8722738544321007022=="
+Content-Type: multipart/mixed; boundary="===============5886097981231205175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 30 Sep 2023 03:30:47 -0000
-Message-Id: <169604464775.9143.6901920090508820510@gitolite.kernel.org>
+Date: Sat, 30 Sep 2023 03:30:53 -0000
+Message-Id: <169604465324.9249.4999607060278709409@gitolite.kernel.org>
 
---===============8722738544321007022==
+--===============5886097981231205175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 0bab1ae68ce54a5efa7cf5cfe04450b2004fc8c4
     new: 417ec11b75d7906b38e055275e39369426679665
     log: revlist-0bab1ae68ce5-417ec11b75d7.txt
 
---===============8722738544321007022==
+--===============5886097981231205175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -143,4 +143,4 @@ fd7ed73780acfe0c0fe17d4803b1f7d5f52e8e33 LoongArch: KVM: Implement kvm exception
 ec3684ae5bc6eccc13d5bbc27ebcffbe5a69b84f LoongArch: KVM: Supplement kvm document about LoongArch-specific part
 417ec11b75d7906b38e055275e39369426679665 LoongArch: KVM: Add maintainers for LoongArch KVM
 
---===============8722738544321007022==--
+--===============5886097981231205175==--
