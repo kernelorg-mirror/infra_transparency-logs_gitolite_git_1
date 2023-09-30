@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 30 Sep 2023 21:24:53 -0000
-Message-Id: <169610909395.10266.16319094711219669043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Sat, 30 Sep 2023 21:58:37 -0000
+Message-Id: <169611111749.1901.7358472633359070975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/tags/soc-fixes-6.6
-    old: 0000000000000000000000000000000000000000
-    new: 056d38017a938e68e2b700fc5899e42dab129c77
+  - ref: refs/heads/master
+    old: 22dfd1eaf75ef9a0394829e5053ee45f5e122c24
+    new: 970cc4c54ffcc9afcb868120991bd9bd21a01555
+    log: |
+         970cc4c54ffcc9afcb868120991bd9bd21a01555 bluez5: Remove unused functions
+         
