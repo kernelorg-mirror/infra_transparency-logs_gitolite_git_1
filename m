@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 30 Sep 2023 17:00:41 -0000
-Message-Id: <169609324137.16424.18129158185099331269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 30 Sep 2023 17:01:30 -0000
+Message-Id: <169609329075.16847.14953749428626483783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: 1749bed75189f1b370ffb1d50b51d066c34a3f4f
-    new: d590bdb7b45eaac38063d32d00db94c7803339ef
+  - ref: refs/heads/master
+    old: 9f3ebbef746f89f860a90ced99a359202ea86fde
+    new: 830380e3178a103d4401689021eadddadbb93d6d
     log: |
-         6a2a74ce1d5dcccae80324e352355860a5af3903 iio: imu: adis16475: Add buffer padding after temp channel
-         11daa8dee023d514d30e48c6f23357f0b7bd96e9 MAINTAINERS: fix Analog Devices website link
-         d34f45bd512af5208a905aab7847e084de719789 dt-bindings: iio: imu: mpu6050: Add level shifter
-         6e5223633b28f1f43b42eb382058f0fa161204c5 iio: imu: mpu6050: add level shifter flag
-         01dbb082a7163f62b01e256c042480a0a188e379 iio: improve doc for available_scan_mask
-         254623e956701f195f43d758d27e9552ce089195 dt-bindings: Add ROHM BM1390 pressure sensor
-         64ff576802ef54a195ac264f6023b40b8ceddb42 iio: pressure: Support ROHM BU1390
-         d590bdb7b45eaac38063d32d00db94c7803339ef MAINTAINERS: Add ROHM BM1390
+         c5cc3ca707bc916a3f326364751a41f25040aef3 powerpc/stacktrace: Fix arch_stack_walk_reliable()
+         58b33e78a31782ffe25d404d5eba9a45fe636e27 selftests/powerpc: Fix emit_tests to work with run_kselftest.sh
+         f4dcf06bc6e0161920b700ba3966411d716a321b ACPI: video: Fix NULL pointer dereference in acpi_video_bus_add()
+         0d32a6bbb8e7bf503855f2990f1ccce0922db87b NFSD: Fix zero NFSv4 READ results when RQ_SPLICE_OK is not set
+         e6e43b8aa7cd3c3af686caf0c2e11819a886d705 fs/smb/client: Reset password pointer to NULL
+         ba77f7a63f4e4d4ffa5ad8c6665a104822992538 Merge tag '6.6-rc3-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
+         ae213639983a5406849d62d33257dfc076bc48a7 Merge tag 'nfsd-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         1c9d83122196ac649dee1da5f48f16462ba5385f Merge tag 'powerpc-6.6-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         830380e3178a103d4401689021eadddadbb93d6d Merge tag 'acpi-6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
          
