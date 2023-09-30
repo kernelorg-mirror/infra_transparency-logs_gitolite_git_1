@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 30 Sep 2023 14:48:53 -0000
-Message-Id: <169608533372.18261.4635337045770862369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 30 Sep 2023 14:53:00 -0000
+Message-Id: <169608558028.21360.7265353510648769468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/v6.6-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
+  - ref: refs/heads/testing
+    old: 68d319571b8fee7b4135b118ad4733b4469ccaf0
+    new: 569dc8054e702f504bd8d07e2c4e315b2097d746
+    log: |
+         b3689e14415a874630f0894d8c3ac7ea01603d57 staging: iio: resolver: ad2s1210: use regmap for config registers
+         569dc8054e702f504bd8d07e2c4e315b2097d746 staging: iio: resolver: ad2s1210: add debugfs reg access
+         
