@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 30 Sep 2023 14:53:56 -0000
-Message-Id: <169608563602.21737.10868980721855247971@gitolite.kernel.org>
+Date: Sat, 30 Sep 2023 15:06:13 -0000
+Message-Id: <169608637346.30818.13164850914976832306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 569dc8054e702f504bd8d07e2c4e315b2097d746
-    new: 8ab5bf1a2264e380635913bc9ac72d1ab55088c0
+    old: 8ab5bf1a2264e380635913bc9ac72d1ab55088c0
+    new: 80636e18e2d0cb17aca8d7f30c8ab31072811f9e
     log: |
-         8ab5bf1a2264e380635913bc9ac72d1ab55088c0 staging: iio: resolver: ad2s1210: remove config attribute
+         0d03d0e6584655a002c4e3aaae657b35f0900921 staging: iio: resolver: ad2s1210: rework gpios
+         80636e18e2d0cb17aca8d7f30c8ab31072811f9e staging: iio: resolver: ad2s1210: refactor setting excitation frequency
          
