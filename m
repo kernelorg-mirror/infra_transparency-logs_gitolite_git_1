@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 01 Oct 2023 13:00:40 -0000
-Message-Id: <169616524026.12573.3279304472989208349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Sun, 01 Oct 2023 13:02:34 -0000
+Message-Id: <169616535434.13335.12714745547085880299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/main
-    old: d87c59f2b00d03fa1c30ca72ed73e8ec17d3b601
-    new: f77e9f13ba090d922fdd3f6e3485fc32010284db
+  - ref: refs/heads/topic/meson-subproject-support
+    old: fb9166604ecfdfee74fb14149098974822da727d
+    new: 036ed5f3d84a08e175d954b0a8387238ec8ec7e8
     log: |
-         f77e9f13ba090d922fdd3f6e3485fc32010284db net: ethernet: xilinx: Drop kernel doc comment about return value
+         c01f3112758f62da4a2d17487d2f96698a605cda meson: subproject support
+         036ed5f3d84a08e175d954b0a8387238ec8ec7e8 bump release version up to 2.6.1
          
