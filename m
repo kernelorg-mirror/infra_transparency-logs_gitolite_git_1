@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
-Date: Sun, 01 Oct 2023 13:38:24 -0000
-Message-Id: <169616750489.7642.11969581368863723848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
+Date: Sun, 01 Oct 2023 13:42:24 -0000
+Message-Id: <169616774468.10691.6419727633164068006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinawa
+repo: pub/scm/libs/ieee1394/libhinoko
 user: takaswie
 changes:
   - ref: refs/heads/topic/meson-subproject-support
-    old: 1f224a9b7e6ca96dbe71a0cc4a5d7928450a6c16
-    new: d3d71b0f135d05d6febe611bd994cb1b02625c09
+    old: 000ddeb7d2493f8a47a8e164593c6be606db9012
+    new: c3e43ed9da274efc3e26656d8f0c2fef43f7b258
     log: |
-         4704ee2df6417a5fdbc72e565969a9c99ef6ffa3 meson: subproject support
-         d3d71b0f135d05d6febe611bd994cb1b02625c09 bump release version up to 2.6.1
+         10bd410272278f704cdf02fb4f92773fe728bf48 meson: subproject support
+         c3e43ed9da274efc3e26656d8f0c2fef43f7b258 ci: utilize meson subproject to satisfy dependency on libhinawa
          
