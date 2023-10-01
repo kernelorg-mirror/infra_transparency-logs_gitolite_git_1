@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6653669891351543885=="
+Content-Type: multipart/mixed; boundary="===============4190313587211212874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 01 Oct 2023 22:57:50 -0000
-Message-Id: <169620107048.18676.729220894799847941@gitolite.kernel.org>
+Date: Sun, 01 Oct 2023 23:02:03 -0000
+Message-Id: <169620132397.21872.9143307648279310757@gitolite.kernel.org>
 
---===============6653669891351543885==
+--===============4190313587211212874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,35 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 2ccdd1b13c591d306f0401d98dedc4bdcd02b421
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-2ccdd1b13c59-0bb80ecc33a8.txt
-  - ref: refs/tags/v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
-  - ref: refs/heads/v6.7-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-  - ref: refs/heads/v6.7-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: 9b201229814fd8d77cc069962b43c4f451592217
+  - ref: refs/heads/for-next
+    old: 6d1fa88088880e482d7a83243337f326dd4fe6f7
+    new: 7753d6158b4ef91df47b5a24b7c65634b60c9973
+    log: revlist-6d1fa8808888-7753d6158b4e.txt
 
---===============6653669891351543885==
+--===============4190313587211212874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ccdd1b13c59-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-6d1fa8808888-7753d6158b4e.txt
 
-59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
-19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
-899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
-02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
-b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
-8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
-8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
-de0e85b29edfc68046d587c7d67bbd2bdc31b73f cpufreq: tegra194: remove opp table in exit hook
-b691118f2c44d16b84fc65b8147b33620eb18cac Merge remote-tracking branch 'linux-efi/urgent' into efi/next
 6e2f78c8b01345e785806352dec4f44d8d992f7e Merge tag 'cpufreq-arm-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 2114d59672abe42ca5e9415c83e292a2915c4dd0 Merge branch 'pm-cpufreq'
 422ec6fe2704593c87c14a8ef296d92f6b368c53 Merge tag 'opp-updates-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -1059,5 +1041,14 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
+b0d587be2407ae7319098339034296370a851939 dt-bindings: pwm: rockchip: Document rv1126-pwm
+32cd0ebf1f7961ef049cf9e286568f8e2dfbb88b ARM: dts: rockchip: rv1126: Add pwm2m0 pins
+8625206d7c3811dfdaef1df9a0bd134f17098b5f ARM: dts: rockchip: rv1126: Add pwm2 node
+19d79ef9faad6cc15315c3bb0d5fc3594c869d71 ARM: dts: rockchip: rv1126: Add pwm11m0 pins
+8cc85fa1b7640a5de02a3697aaaef4491cf8dba3 ARM: dts: rockchip: rv1126: Add pwm11 node
+9b201229814fd8d77cc069962b43c4f451592217 ARM: dts: rv1126: Enable pwm fan for edgeble-neu2
+20bd1191830478cfdc9be766a735923c5fbe5350 soc/rockchip: io-domain: Convert to platform remove callback returning void
+90e7eeaae21bf99af4174fefbb64525a8044fe20 Merge branch 'v6.7-armsoc/drivers' into for-next
+7753d6158b4ef91df47b5a24b7c65634b60c9973 Merge branch 'v6.7-armsoc/dts32' into for-next
 
---===============6653669891351543885==--
+--===============4190313587211212874==--
