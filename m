@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1002180832356548312=="
+Content-Type: multipart/mixed; boundary="===============2783287881027641900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 02 Oct 2023 06:24:41 -0000
-Message-Id: <169622788176.21340.6752164087671073445@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 06:24:49 -0000
+Message-Id: <169622788948.21468.16441850812460992067@gitolite.kernel.org>
 
---===============1002180832356548312==
+--===============2783287881027641900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6465e260f48790807eef06b583b38ca9789b6072
+  - ref: refs/heads/char-misc-linus
+    old: 0e4cac557531a4c93de108d9ff11329fcad482ff
     new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
-    log: revlist-6465e260f487-8a749fd1a872.txt
+    log: revlist-0e4cac557531-8a749fd1a872.txt
 
---===============1002180832356548312==
+--===============2783287881027641900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696227882 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696227890 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1696227879-341fd24af0ea72802fa6259b7f9bff98723991cf
+nonce 1696227886-aced13af500ce4a5f530a516617cdb35aac14dbe
 
-6465e260f48790807eef06b583b38ca9789b6072 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa refs/heads/main
+0e4cac557531a4c93de108d9ff11329fcad482ff 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUaYiobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++CkP/3WGaYqAnUaS3TyC+9da
-aLXPmDSxswP1hAuwFanC/Z2IFSQZHPSyfuxF5mo10iMJBc0rtEbo0GeQxjhlnyHp
-b465EV49+5KrnEBgHnOD2QlfiTFIhXLAF38vnycxUc3QGpNR++DX1oRTtngQxO2V
-q14Pz0P0QTySvlYMxEsVTd0ODxi4Xtirv00qsWW1VBQaMtKeksZZEIUUYEP1if1P
-RqeC/Ie4EYLLYskOosKb81/q5RZmQ7yArUH2QsiKZSag0XdcXuY9f/2Ghf3U+yVO
-3CoonPInA1NPddYgh5uIZuoKhQhjS3N14KCtK6fPBcg0iCoihF0JmptOSrntLJ6x
-daxH9/48aVPB8WI183o0pce95xhhi5eARBRBkMTfayL9NB0Jbs/LBbB8yxJaKKS7
-LuVsshx6ptvxekJD1I5To1/k6IkeWTpqIBSeBDao6wH4z9cvf8l/7gbyauEsL2EA
-DzQKchpDJrgHSGytzxTBfuQZ0kkLhFo1KGXVV0k1Ur5mrLbMkMtMPajut/Y7G6CM
-nxFeEe3L/G5GrFel/oqUI3LHTqxXDZFiV/NmF259PIne1rcsEBAm1jLiXcU3ZQIC
-90Bw2Nj2WQTRvbrTdK4rEBAuexRZxkW9WDhQEXTYdnKUSDqPyOnZ7Xb7KLd8g/A4
-dxtJqM6ajID7ESy0lbEQNZjY
-=l2IB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUaYjIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KvsP/0tYiuQtm8LcNzwp8sZ+
+kKOtD2w5HHG3ET0bLTQCxJQObjBVInE/mj7PonIu2mdy75h1Le50e4fIPYX5huFO
+0QjhWfge2OnYHJJnxVFoYfNKSLeKCqF1chi/e8e9k4p1FKxNHyP6dtT74utLSNV8
+5zIZNX82E+wtcc9h//VbL4juCZt7RWA9qTvC3j0KUqcC9Jn9SKXq7zcYMHSHGz0R
+7hOlUQ290Pa167nLryahq/lQKk+LDgRZ/sVOsvr/aIKmYC8jZSFgCivxxmG/vEj2
+dLaP5CG1InoNVC2xx5YRwj2uE7nAUC3QLxW1HhBJBiHuiUYmj2lC6cdUYenFGY3p
+QGOvys+qoNbcOFFNN2j3DqA5VQzkOfh95sG9nlLLoda1PmPNBlgiuIo6xAAx4/dp
+UxWP2j66N/W2DwTDTjA6l9iOAjeOzgtkGyhWajTqW2ChaKGnoqKt4eD3gFMX3wU0
+22jbfj2YuscljjMNFQQ+lf4QMmrDpOxBc7Tzmb8QNJS+fsQJmZrTihPvlNkkRGOn
+cv5fBXg7/evtatgzP43gGN0ywNrsvNI4qAvsGjXQLMC0LC/XL/EMyZXyZCOJeKIS
+P64r9UpBricaC609dKTyz8MF85IKwdYLDiTbP5Z8c4orA4hYB0HarDNc1hp99GFX
+YiODQ64WZLL7wsOvV/2ZhA2G
+=rU6/
 -----END PGP SIGNATURE-----
 
---===============1002180832356548312==
+--===============2783287881027641900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6465e260f487-8a749fd1a872.txt
+Content-Disposition: attachment; filename=revlist-0e4cac557531-8a749fd1a872.txt
 
 d929b2b7464f95ec01e47f560b1e687482ba8929 bus: ti-sysc: Use fsleep() instead of usleep_range() in sysc_reset()
 11729caa520950e17cd81bc43ffc477c46cf791e bus: ti-sysc: Fix missing AM35xx SoC matching
@@ -171,7 +171,6 @@ b13e59e74ff71a1004e0508107e91e9a84fd7388 i2c: mux: Avoid potential false error m
 fbf5892df21a8ccfcb2fda0fd65bc3169c89ed28 kbuild: Use CRC32 and a 1MiB dictionary for XZ compressed modules
 28d49e171676afb7df7f47798391364af9abed7f Documentation: kbuild: explain handling optional dependencies
 753a4d531bc518633ea88ac0ed02b25a16823d51 ata: libata-sata: increase PMP SRST timeout to 10s
-0e4cac557531a4c93de108d9ff11329fcad482ff misc: rtsx: Fix some platforms can not boot and move the l1ss judgment to probe
 599522d9d2e19d6240e4312577f1c5f3ffca22f6 perf/x86/amd: Do not WARN() on every IRQ
 2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
 ef8f8f04a0b25e8f294b24350e8463a8d6a9ba0b MIPS: Alchemy: only build mmc support helpers if au1xmmc is enabled
@@ -311,4 +310,4 @@ d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-0
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
 
---===============1002180832356548312==--
+--===============2783287881027641900==--
