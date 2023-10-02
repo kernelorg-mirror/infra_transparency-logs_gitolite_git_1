@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5506748285503302889=="
+Content-Type: multipart/mixed; boundary="===============6905626131832473609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 02 Oct 2023 11:59:29 -0000
-Message-Id: <169624796970.31732.11567597595174282862@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 12:04:37 -0000
+Message-Id: <169624827713.2919.12487565833656661917@gitolite.kernel.org>
 
---===============5506748285503302889==
+--===============6905626131832473609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a60359ea32251399c00d934981f5a6fa25ec917f
-    new: 6c29de68fb2955463d6b4115364ca78fcb0275bd
-    log: revlist-a60359ea3225-6c29de68fb29.txt
+  - ref: refs/heads/usb-linus
+    old: f74a7afc224acd5e922c7a2e52244d891bbe44ee
+    new: 8bea147dfdf823eaa8d3baeccc7aeb041b41944b
+    log: |
+         8bea147dfdf823eaa8d3baeccc7aeb041b41944b usb: dwc3: Soft reset phy on probe for host
+         
 
---===============5506748285503302889==
+--===============6905626131832473609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696247965 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696248273 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1696247965-e8fd5b265e095856cc09a10f30d5138ba0d8256c
+nonce 1696248273-2260312dc4a0d3b1f75933352f5f5db619bbe03a
 
-a60359ea32251399c00d934981f5a6fa25ec917f 6c29de68fb2955463d6b4115364ca78fcb0275bd refs/heads/usb-testing
+f74a7afc224acd5e922c7a2e52244d891bbe44ee 8bea147dfdf823eaa8d3baeccc7aeb041b41944b refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUasJ0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MU8P/1mfKSYdn3roTD8QCy88
-Oz1LWwQTeT5xvBCHMeaowO43wIERp27ZaElXnAhsIUkdTe4IwY0cD/QVdz6dflvq
-bJfiQRE6lON1OsuTJhZKYfurMOV/HXXgJ8egKENggsgtX4Kt8raBxyIL0lyBZw0c
-+Xy3FxAAG+V2xhoecFu1vqfAJ3pYR5gPVKbKBs9H5yLSyHf9vhAqtR3K8BuNvX9w
-ZsEQzdZzz5l1yuPsdQRj2sYyF+F8X59PCmbIH1M6xGjQSBiIFFz4bE1hIaGUuSOM
-GbVoXw+55mYehiXNQNzOlOn8RqL+sET93RBxw12f6XY35Ky/LzXNPjmoP7JBcZlh
-yOF69QYuKETizjWQ6eNK5ePafhO8rwgLghIKResAD8pbgo6UZ2rUGXXJxuy3GayJ
-vCcHuxQINc5V2QByVq0Sw0X5xS5vXQAfh5l3DTQ2vtX+VmqJg8yHFGLrpgM0jyDS
-z0vdfFo+qtXqE1E0VqAhuKDrVdVC+y1qOiosDh7Uy5DpLgnQdVtpfSd6N6syVL6w
-c5uKHZlZnNmzsnR1JxJs7izy4dJB9m0etj9XgC9G04AAVcQ/EsqhitqjrcPOKZ/b
-KGqeeuWVDBJRlfZSIM6qVIEyPqH0OKse8piQgGOcV2eJgeD9b5UjXOnDZj1hLPhF
-G+ZdsB3MU74bWKOFJ/X9JhkU
-=RJmB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUasdEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uz0P/jjPKu95mHSjxvSkMHjw
+5pQPz05mIGNzzognNF7KWJqDVnNG70cZo23OkfppnVEcy/cdvjeyvOlX5dPlZGe+
+kbULFI099dCswa2Lgbxv/NlZl0WBeUax/1xjQocE2WoO0vV7b+IHIvfUC7sb0Upc
++TAktyApKKITyZs7e37PchxwI9PoidSJXvoeJL/5uiupfd3wMO5tQnaH0towqLCs
+ylEhgQeKomW7FQUl2aa3IIaR0UvbvF2lSR3eWXiY/BXYr6ajgZmN3H5GUMe/uT/7
+mMsCYF9+SMbkv8rcT7dL0Qe9cNMWbrHrkdPuvsa1mWwsjJViimE3h86f1DZ0vwW/
+4NyjyjLB/nz7/9drVAnd1ar6w3K2K9vmsi1jPUj55KgN889iPX3WLhewWoP6+79/
+XiyCt1jW+pLaXlLSeWxRTLrO11mXSVc/jMFCH+5JS4/JvKEB0NooCVrXQsF5cImG
+EvjUNPBUdtU6J+KQ1h1qCSVoTnXeXX3dBme8Dx1i+gJmyIhCTvz7K6wBNwsBrs7w
+Hw8UmXM/U/q9U3j5c5EvLuAjym+ioCd2MhI/UNvz1Bta0tv0xuMTc2FcLYMgqwm4
+e3D0i+8uaawUO9lGxUvUwW7VTkME9Yw0N672VuKosacJbNRHQaoXU413dFJJczk/
+ZsZ9J2LGlFgQqeO9RPsdJ4lV
+=6xe3
 -----END PGP SIGNATURE-----
 
---===============5506748285503302889==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a60359ea3225-6c29de68fb29.txt
-
-ef307bc6ef04e8c1ea843231db58e3afaafa9fa6 usb: dwc2: fix possible NULL pointer dereference caused by driver concurrency
-0ea39e030a80be2b1b5f98d6b330a8b97dcf3342 usb: gadget: udc: Handle gadget_connect failure during bind operation
-3a63f86c6a6cb0601f0563a81574745da2979e3b usb: gadget: uvc: stop pump thread on video disable
-52a39f2cf62bb5430ad1f54cd522dbfdab1d71ba usb: gadget: uvc: cleanup request when not in correct state
-bb00788bd62778ef80a97d67a0e3c569ac6be06f usb: gadget: uvc: rework pump worker to avoid while loop
-a17fae8fc38e91026f116a85c5068668fbf9848a usb: typec: Add Displayport Alternate Mode 2.1 Support
-c365b1e1f40499472433cc8fca3d0ea280ead52a usb: typec: Add Active or Passive cable defination to cable discover mode VDO
-f9ee6043283a78c84adf6ef3cef7a085eee4130f usb: pd: Add helper macro to get Type C cable speed
-70ca6c7312c5ec5bd8a3656c9df8b2c90d04bdc5 platform/chrome: cros_ec_typec: Add Displayport Alternatemode 2.1 Support
-6c29de68fb2955463d6b4115364ca78fcb0275bd usb: typec: intel_pmc_mux: Configure Displayport Alternate mode 2.1
-
---===============5506748285503302889==--
+--===============6905626131832473609==--
