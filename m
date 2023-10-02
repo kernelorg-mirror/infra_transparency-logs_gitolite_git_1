@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3917178193760778104=="
+Content-Type: multipart/mixed; boundary="===============2039159549258873867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 02 Oct 2023 09:12:55 -0000
-Message-Id: <169623797540.15012.8379387252717983264@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 09:13:06 -0000
+Message-Id: <169623798661.15176.4391881980019674571@gitolite.kernel.org>
 
---===============3917178193760778104==
+--===============2039159549258873867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: 6465e260f48790807eef06b583b38ca9789b6072
     new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
     log: revlist-6465e260f487-8a749fd1a872.txt
 
---===============3917178193760778104==
+--===============2039159549258873867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -280,4 +280,4 @@ d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-0
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
 
---===============3917178193760778104==--
+--===============2039159549258873867==--
