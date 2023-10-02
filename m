@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
-Date: Mon, 02 Oct 2023 23:17:56 -0000
-Message-Id: <169628867624.19607.16796471698572036165@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 23:18:04 -0000
+Message-Id: <169628868434.19745.7049635123511586969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/libs/ieee1394/libhinoko
 user: takaswie
 changes:
   - ref: refs/heads/topic/meson-subproject-support
-    old: 0000000000000000000000000000000000000000
-    new: 1c8dd173d43facde17ba57c4efb93175eff9ddaa
+    old: 1c8dd173d43facde17ba57c4efb93175eff9ddaa
+    new: 0000000000000000000000000000000000000000
