@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1788798795560199419=="
+Content-Type: multipart/mixed; boundary="===============1927838165306782147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 02 Oct 2023 19:46:53 -0000
-Message-Id: <169627601366.32060.6329386629505671376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 02 Oct 2023 19:47:13 -0000
+Message-Id: <169627603321.32269.9298302781398085504@gitolite.kernel.org>
 
---===============1788798795560199419==
+--===============1927838165306782147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
+  - ref: refs/heads/master
     old: fdf0eaf11452d72945af31804e2a1048ee1b574c
     new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
     log: revlist-fdf0eaf11452-8a749fd1a872.txt
 
---===============1788798795560199419==
+--===============1927838165306782147==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-0
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
 
---===============1788798795560199419==--
+--===============1927838165306782147==--
