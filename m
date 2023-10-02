@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 02 Oct 2023 07:01:42 -0000
-Message-Id: <169623010262.17657.12932454742962547471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 02 Oct 2023 07:04:06 -0000
+Message-Id: <169623024635.18627.4927322311458819740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 929266f846b3a75578f427dbf6c26babc51405e9
-    new: 90307906b16a6033907ceb48bf0ec2f2928f8348
+  - ref: refs/heads/main
+    old: 6ccf50d4d4741e064ba35511a95402c63bbe21a8
+    new: 6a70e5cbedaf8ad10528ac9ac114f3ec20f422df
     log: |
-         d0f3a19a990a8fde6a7730255af74ef8d70c3761 arm64: dts: Add pinctrl node for Amlogic T7 SoCs
-         3f0b916f3a7eaa8aab6f6ab465a4f5342b5253c7 arm64: dts: meson: g12: name spdifout consistently
-         1e3dbe8006247386592a2fdce3a52cca15625997 arm64: dts: meson-s4: add hwrng node
-         90307906b16a6033907ceb48bf0ec2f2928f8348 Merge branch 'v6.7/arm64-dt' into for-next
+         6a70e5cbedaf8ad10528ac9ac114f3ec20f422df sky2: Make sure there is at least one frag_addr available
          
