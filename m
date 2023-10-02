@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7500843845428772774=="
+Content-Type: multipart/mixed; boundary="===============5944069932145369569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Oct 2023 14:47:58 -0000
-Message-Id: <169625807860.25687.10550882666837585434@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 14:48:19 -0000
+Message-Id: <169625809942.25881.5785901237866898088@gitolite.kernel.org>
 
---===============7500843845428772774==
+--===============5944069932145369569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 6be9bc52f3693f342a219878e413bf2d647dd3f1
-    new: 2ec4f70814417d664d9e7fc4919f5a734a5919cd
-    log: revlist-6be9bc52f369-2ec4f7081441.txt
+  - ref: refs/heads/nfsd4-encoder-overhaul
+    old: 46bc43745863d5c66300bab9a3698fa1934571ef
+    new: 2feca95c2cdd369793f2f29a95b26f910a97dba7
+    log: revlist-46bc43745863-2feca95c2cdd.txt
 
---===============7500843845428772774==
+--===============5944069932145369569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6be9bc52f369-2ec4f7081441.txt
+Content-Disposition: attachment; filename=revlist-46bc43745863-2feca95c2cdd.txt
 
 d929b2b7464f95ec01e47f560b1e687482ba8929 bus: ti-sysc: Use fsleep() instead of usleep_range() in sysc_reset()
 11729caa520950e17cd81bc43ffc477c46cf791e bus: ti-sysc: Fix missing AM35xx SoC matching
@@ -383,5 +383,22 @@ dd421b518101c2d32f359c8d52c7b0b7ed557bf3 nfsd: Clean up errors in nfs4state.c
 a84971e1a31b4c0967ff3d67035867036bc5b696 nfsd: Clean up errors in nfs3proc.c
 0eff53a63ede77deac0f3f5af4b83a014e46f4a1 NFSD: Rewrite synopsis of nfsd_percpu_counters_init()
 2ec4f70814417d664d9e7fc4919f5a734a5919cd NFSD: Fix frame size warning in svc_export_parse()
+5ae61426ed20313e762f1e6d4dceb736bf12d82e NFSD: Add a utility function for encoding sessionid4 objects
+00f2dec41504d0c7f7ec7dd179bd6a8e47277d48 NFSD: Add nfsd4_encode_channel_attr4()
+485aa26ec8bdbf5b0a45dfc427896d9a020b4d1d NFSD: Restructure nfsd4_encode_create_session()
+5f7cc00b759aba5cab8bbbb8997bcdb30b19ebc0 NFSD: Clean up nfsd4_encode_sequence()
+6cd2d9c53f305bcf3ebb776828811fd8b3eefc51 NFSD: Rename nfsd4_encode_dirent()
+740cb7f0293fbae04e9229a88b3540c2be84f85c NFSD: Clean up nfsd4_encode_rdattr_error()
+019e411ca20e8fbd0de6548a58b736f96ecb78f7 NFSD: Add an nfsd4_encode_nfs_cookie4() helper
+77d2ef5f53e1c6fa0078ba986900dea5a1167f26 NFSD: Clean up nfsd4_encode_entry4()
+420109dde83abee3819bae03d9f9d25966afdeb0 NFSD: Clean up nfsd4_encode_readdir()
+7717fae80a9dad386b7ac4889e23d679946b771f NFSD: Clean up nfsd4_encode_access()
+02242d39d6a752e1e486e6c433797258f24227d2 NFSD: Clean up nfsd4_do_encode_secinfo()
+104d05783adf238e51679ab2a631f249225a82ae NFSD: Clean up nfsd4_encode_exchange_id()
+53ce1b3024ed7a84c6e28759c4ec4ffae89ac892 NFSD: Clean up nfsd4_encode_test_stateid()
+216a1f2a5b632cd16c6afe39dc0ac3a831b890a5 NFSD: Clean up nfsd4_encode_copy()
+46e9c8dcb60feddc9688e657a0225eb795c8c00f NFSD: Clean up nfsd4_encode_copy_notify()
+3aa69ded41f7da6914b9b985a6e413d84d7e3ad4 NFSD: Clean up nfsd4_encode_offset_status()
+2feca95c2cdd369793f2f29a95b26f910a97dba7 NFSD: Clean up nfsd4_encode_seek()
 
---===============7500843845428772774==--
+--===============5944069932145369569==--
