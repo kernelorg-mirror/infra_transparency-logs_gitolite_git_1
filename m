@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6339241745673643597=="
+Content-Type: multipart/mixed; boundary="===============1801799305365968065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 02 Oct 2023 09:56:08 -0000
-Message-Id: <169624056877.8076.11692059289463610860@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 09:56:49 -0000
+Message-Id: <169624060910.8401.17806439972366301385@gitolite.kernel.org>
 
---===============6339241745673643597==
+--===============1801799305365968065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.7/orders-cleanup
-    old: 7abe7ed1e2a308b9a254dc6c46d448490a7d1a1c
+  - ref: refs/heads/slab/for-next
+    old: 3cf4b36b634fe3ef7620ad688d369a45a605fe7b
     new: 90f055df112162fd9e093c16be1c21f38c35b907
-    log: revlist-7abe7ed1e2a3-90f055df1121.txt
+    log: revlist-3cf4b36b634f-90f055df1121.txt
 
---===============6339241745673643597==
+--===============1801799305365968065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1696240563 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1696240605 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1696240563-a13d15080021d1b9b6c33387cb2d5a9fa1564ec0
+nonce 1696240605-5c764c2bb7e8780068e57078111433316e738a6c
 
-7abe7ed1e2a308b9a254dc6c46d448490a7d1a1c 90f055df112162fd9e093c16be1c21f38c35b907 refs/heads/slab/for-6.7/orders-cleanup
+3cf4b36b634fe3ef7620ad688d369a45a605fe7b 90f055df112162fd9e093c16be1c21f38c35b907 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmUak7MACgkQu+CwddJF
-iJq0Cwf/dIii0++uKZGRVNytJr8G/OYONPORKLOCwMeG+fq0cub0Lysd5kesLKH8
-CJZyW0JFr8YmNjGrYkqVIKPtEJ6b3WbUFPwZC3JQ2SzuEui0HT8I5Q2UL10f8348
-BQnXw24/+gHje5huHMPoPIkj0rpkwkV4G43T9EIOrrbRjRXcw62ltZDepnf1/82k
-VLKMw/j2SbnGGd5fiTKENTwtbpoI2ZdsKPwYiX8RyEvScgQnm1UvX3iS8qbr49ml
-Hy4VUoMFTR32yvmAAFAxmBqEtpWN3d+J+1O9eI2zx8K8Rz1gdt1EmcPgsb6IXRQz
-yR20K4VwR9rmG1B6Z9dan1RlINH02w==
-=AJka
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmUak90ACgkQu+CwddJF
+iJpwRwgAhWOOY0aR7ENymJaY/v7Ia8D2z1LW3WckIgHp+F7JdKfXhT0apjb3SclE
+5RFadO36OHIvWDmFfT/xUtB93J4ycnvdjRPl5y3YvO++7xCPod+UgtQsULz9LEwx
+0kVIPo5A2TnEV05UINrGzkfYouGleYce+dIkoTjwoMZq+IBmmqYfVyCpONvsfsW+
+OBRYot0a5NPK+3A6X74JxwwSV4Uw/swYfyAYWdyvbhJUGPaVPrlZcwWCXQiBekvK
+bA5wHivR2I88LXcEsGveC4NCgMjp5WWUzIt3eCeuvUA6xcIFnvYXILJddix7CZhm
+LS3uOud9k/YOKGn1wMY3mVUWJ8Yn9w==
+=3wd7
 -----END PGP SIGNATURE-----
 
---===============6339241745673643597==
+--===============1801799305365968065==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7abe7ed1e2a3-90f055df1121.txt
+Content-Disposition: attachment; filename=revlist-3cf4b36b634f-90f055df1121.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
@@ -181,7 +181,6 @@ c3638b851bc1ca0022dca9d6ca4beaa6ef03a216 firmware: arm_scmi: Fixup perf power-co
 e10a35abb3da12b812cfb6fc6137926a0c81e39a net: ethernet: mtk_eth_soc: fix uninitialized variable
 5a124b1fd3e6cb15a943f0cdfe96aa8f6d3d2f39 net: ethernet: mtk_eth_soc: fix pse_port configuration for MT7988
 dc77721ea4aa1e8937e2436f230b5a69065cc508 power: supply: ab8500: Set typing and props
-46a9ea6681907a3be6b6b0d43776dccc62cad6cf mm/slab_common: fix slab_caches list corruption after kmem_cache_destroy()
 78034cbece79c2d730ad0770b3b7f23eedbbecf5 platform/mellanox: mlxbf-tmfifo: Drop the Rx packet if no more descriptors
 fc4c655821546239abb3cf4274d66b9747aa87dd platform/mellanox: mlxbf-tmfifo: Drop jumbo frames
 80ccd40568bcd3655b0fd0be1e9b3379fd6e1056 platform/mellanox: mlxbf-pmc: Fix potential buffer overflows
@@ -723,7 +722,6 @@ be049c3a088d512187407b7fd036cecfab46d565 fs-writeback: do not requeue a clean in
 ae81711c1edd769b7d9952dde40a579dceca4815 fs/pipe: remove duplicate "offset" initializer
 2ba0dd6562f2c42ef1ae61145bdfc882fc7a6f79 porting: document new block device opening order
 060e6c7d179ed2f2088a23ceedf60d63320e9311 porting: document superblock as block device holder
-8446a4deb6b6bc998f1d8d2a85d1a0c64b9e3a71 slab: kmalloc_size_roundup() must not return 0 for non-zero size
 0eb0e272e4bba794d7bf679780bf8336799e7cc0 Merge tag 'asoc-fix-v6.6-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 099f0af9d98231bb74956ce92508e87cbcb896be drm/meson: fix memory leak on ->hpd_notify callback
 f17cc0f11fa18c06b4938c20f0244620199af0b0 drm/i915/gt: Prevent error pointer dereference
@@ -995,4 +993,4 @@ c7355d755698a01ff4187a0d2f6ad21ba233dc21 mm/slub: simplify the last resort slab 
 5886fc82b6e3166dd1ba876809888fc39028d626 mm/slub: attempt to find layouts up to 1/2 waste in calculate_order()
 90f055df112162fd9e093c16be1c21f38c35b907 mm/slub: refactor calculate_order() and calc_slab_order()
 
---===============6339241745673643597==--
+--===============1801799305365968065==--
