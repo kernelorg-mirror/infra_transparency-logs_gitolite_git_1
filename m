@@ -1,95 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5755058886971072796=="
+Content-Type: multipart/mixed; boundary="===============5607340232580761122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 02 Oct 2023 16:04:44 -0000
-Message-Id: <169626268401.17161.8640896723283665955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 02 Oct 2023 16:08:41 -0000
+Message-Id: <169626292182.1948.18218177049965932038@gitolite.kernel.org>
 
---===============5755058886971072796==
+--===============5607340232580761122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: b2bbf3465ae436ac9d3867f699bfd54a6e3f8aa6
-    new: 48d33e0df7175b69a683cece4408dc61d3daf8dc
-    log: revlist-b2bbf3465ae4-48d33e0df717.txt
+  - ref: refs/heads/dev-queue
+    old: 401338ca092cb4e42bc0b150aa1a5e04b5a3616b
+    new: 4a117c392e3d724be1fc4e1bb9c2bf188b7d1bb4
+    log: revlist-401338ca092c-4a117c392e3d.txt
 
---===============5755058886971072796==
+--===============5607340232580761122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2bbf3465ae4-48d33e0df717.txt
+Content-Disposition: attachment; filename=revlist-401338ca092c-4a117c392e3d.txt
 
-8c08b31599aeb2c46145a5ace86eba2c4ccd27dc ARM: OMAP2+: Fix -Warray-bounds warning in _pwrdm_state_switch()
-1bc92f60f5e05b19603821bbb561a8c18ec6a4c5 backlight/gpio_backlight: Compare against struct fb_info.device
-76797546b0efeade968ac797191f87c5746ac82d backlight/bd6107: Compare against struct fb_info.device
-0339a4f7f496fba5885d0ab43e539b2ea397ef22 backlight/lv5207lp: Compare against struct fb_info.device
-4814f10e7b75d178e73204615b9328f22ba84c9d ntb: Drop packets when qp link is down
-8c6482b22087e30ec6d4cff06a79344da4d47d28 ntb: Clean up tx tail index on link down
-72c19bcb152ebbf2aeabef044871a456ef79af2c ntb: Fix calculation ntb_transport_tx_free_entry()
-e389e2a8fe9c8a046d9c7815a429a2d957b1d706 Revert "PCI: Mark NVIDIA T4 GPUs to avoid bus reset"
-92b5318dc39bc6ba70d9d12d866b1bfd22e7c3b4 procfs: block chmod on /proc/thread-self/comm
-c537ca4fc4b08159f5edb6f3db5cb3c1dbbf134e parisc: Fix /proc/cpuinfo output for lscpu
-abd3882060cc00f4f072c6d0724813d3312302fa dccp: Fix out of bounds access in DCCP error handler
-5e226f1638f98c2f37827e8be83de7ff27af2a38 pstore/ram: Check start of empty przs during init
-55ced52651db94d6b9283a26c3c0047a22fa68de scsi: qla2xxx: fix inconsistent TMF timeout
-472858b505feb6c20243f0d0f2a199f2b0308830 fbdev/ep93xx-fb: Do not assign to struct fb_info.dev
-1a9cd95779664781aea1ae6f1b1a9c3a94f759a0 drm/ast: Fix DRAM init on AST2200
-0dccfaa8e4e309ba0fe2496495c14a60c0045978 parisc: led: Fix LAN receive and transmit LEDs
-f67620c6f98a7638d688b90c44430a1b0fb93290 parisc: led: Reduce CPU overhead for disk & lan LED computation
-78d139ad4e4b91fba351f21583a0aa25925a0c59 NFSv4/pnfs: minor fix for cleanup path in nfs4_get_device_info
-71ff45517e78de18b6b03bae2a7ced622bcc38a2 watchdog: intel-mid_wdt: add MODULE_ALIAS() to allow auto-load
-dc646f8a6b92b741c527b102fe34224df0cc5ec5 net: read sk->sk_family once in sk_mc_loop()
-993f3eb91a185d89c6b167b3f4686c93e56f2917 igb: disable virtualization features on 82580
-12d7028a8e7f089a1a8bfc1d0d082fc94adc1a84 af_unix: Fix data-races around user->unix_inflight.
-62b0f647262dfebf7d5dd34f2ca59844af93615c af_unix: Fix data-race around unix_tot_inflight.
-dddff424a9c6c73e6539d8e0e0e0a1349f660d69 af_unix: Fix data race around sk->sk_err.
-f86742e885abcd6cb790a31506d096acf9829e37 net: sched: sch_qfq: Fix UAF in qfq_dequeue()
-eb0954682c9ff16ea7cf295b1f419e53dd56e5ec igbvf: Change IGBVF_MIN to allow set rx/tx value between 64 and 80
-6137a496a79984e8c54f6d5b37e296c64a7f34c4 igb: Change IGB_MIN to allow set rx/tx value between 64 and 80
-3cac52c1454c384a3311385bfb2305b942eafcdb parisc: Drop loops_per_jiffy from per_cpu struct
-0ae968098e2892229244e1c338dd3977fa87b919 autofs: fix memory leak of waitqueues in autofs_catatonic_mode
-efac095ebad0b015a76590507ab13247cafdc6aa wifi: ath9k: fix printk specifier
-29a5780fb65386ba6b45daf5093ee4454bb6c789 wifi: mwifiex: fix fortify warning
-c8a73430870aa05e4b8c2ecd3bc3fa021e5bbe54 crypto: lib/mpi - avoid null pointer deref in mpi_cmp_ui()
-6a69b72dbfa7dd28daa1371aa14265fa5c8a8267 alx: fix OOB-read compiler warning
-90411f418155a8f446d4fe0b55fe75a8dc82df14 md: raid1: fix potential OOB in raid1_remove_disk()
-e91829c866ffc2926a92c7bffa95c9b00015bacc ext2: fix datatype of block number in ext2_xattr_set2()
-ec48f97aa176b45d47ac771ecc9ffc49fdffdf17 fs/jfs: prevent double-free in dbUnmount() after failed jfs_remount()
-e3ff6ddcbe909bfbf30fb5b93cc1541103c27f86 jfs: fix invalid free of JFS_IP(ipimap)->i_imap in diUnmount
-8e352b063862fe8ecc2ac9374957754d11b01151 powerpc/pseries: fix possible memory leak in ibmebus_bus_init()
-5f529dfab5b294da824b5d2ea98cf184bf3d57f3 media: dw2102: Fix null-ptr-deref in dw2102_i2c_transfer()
-5727e31e50e0b1bc15e1d4ec6e04fa846768e5a7 media: af9005: Fix null-ptr-deref in af9005_i2c_xfer
-f86533aee405fe76229b03f3d3de55cfd847eab2 media: anysee: fix null-ptr-deref in anysee_master_xfer
-76e09d04f87ebf264428408f029f8cfb40a22166 media: az6007: Fix null-ptr-deref in az6007_i2c_xfer()
-a24de3efc5a6680d12aa26a06e13a9f3802ccbab iio: core: Use min() instead of min_t() to make code more robust
-fb558964810c8b8ee02d8531bbce903ed4a66dad media: tuners: qt1010: replace BUG_ON with a regular error
-b0130e1962ba7322248b5331ad552fcbc3e2c9cf media: pci: cx23885: replace BUG with error return
-1b8200eb38cca380b122b4e6386f1861ca5e8579 usb: gadget: fsl_qe_udc: validate endpoint index for ch9 udc
-76f62c2f9f71e6045bfb3209c8620228d2928b03 scsi: target: iscsi: Fix buffer overflow in lio_target_nacl_info_show()
-f48bb5d05404b46e4fbc65db79724c4058b598f0 serial: cpm_uart: Avoid suspicious locking
-fba837d0acea3a6004d6f100dc16b0126f95bdfa kobject: Add sanity check for kset->kobj.ktype in kset_register()
-44975762706bc3a3ecaafa3f19672be852c92a4a md/raid1: fix error: ISO C90 forbids mixed declarations
-2bad81502a4cd8b18b008d1dce424c3494aca14a attr: block mode changes of symlinks
-226e49ad93af3456404658f9754647aeb21269cb nfsd: fix change_info in NFSv4 RENAME replies
-9c184b0c95bd8920f2460f18d4d22637245efb47 mtd: rawnand: brcmnand: Fix potential out-of-bounds access in oob write
-fd781c8e32c862f186cd634a519e779a54ff9654 net/sched: cls_fw: No longer copy tcf_result on update to avoid use-after-free
-b37a37394b5e9717e0b6b33432c476e7ca211c82 igb: Avoid starting unnecessary workqueues
-a9b52296cc07abbc8323600980c2359e7379d8b0 ipvs: fix racy memcpy in proc_do_sync_threshold
-556e3e70211762a34660e59b07d2133b0aa5da09 serial: sc16is7xx: fix bug when first setting GPIO direction
-67c786df30255e5d38e62852bcfd434168ed1e6e udf: merge bh free
-ec78ef3924bf1cbceac4b5d262205322445a6f16 udf: Handle error when adding extent to a file
-696a4882ba4137f707432ea6cf635ee1ff177ff0 regmap: rbtree: Use alloc_flags for memory allocations
-e3957e011a37e1c906005d489375e325023bd198 NFSD: da_addr_body field missing in some GETDEVICEINFO replies
-8fe7d78e58612360f3137efc798ea4df86a80ab9 media: dib7000p: Fix potential division by zero
-591fecf7111a41856395475e0f8964193be39b42 ACPICA: Add AML_NO_OPERAND_RESOLVE flag to Timer
-6c2d178d89931c6133b9904694e9995bceb5a4fd media: dvb-usb-v2: af9035: Fix null-ptr-deref in af9035_i2c_master_xfer
-48d33e0df7175b69a683cece4408dc61d3daf8dc btrfs: fix lockdep splat and potential deadlock after failure running delayed items
+7a0bbc004ecc0f0fbcc5eeaa8c0f7d7e2eefae10 ice: fix linking when CONFIG_PTP_1588_CLOCK=n
+f3e0a2a976d11f8e5e00d7e32562bda6e92cbcd4 idpf: fix building without IPv4
+46ec1ab1247622cbe236e514a4d146ab70e94343 i40e: Remove back pointer from i40e_hw structure
+b74c3149c5b685a7dbeff186d5768178bc7fbb1a i40e: Move I40E_MASK macro to i40e_register.h
+3512f64c03092115d506aae8cf9936c2cee28925 i40e: Refactor I40E_MDIO_CLAUSE* macros
+5ff2350095d09ead2255035eb6d513b0adc59f94 virtchnl: Add header dependencies
+9fac34c26a158b4eedd3f0f2240459664d0436f2 i40e: Simplify memory allocation functions
+b9836e8c0c6ac60b7d862e6d4035452da533cc3f i40e: Move memory allocation structures to i40e_alloc.h
+adaed27b843b906e4e0f37c6304f9eff24d9ec6f i40e: Split i40e_osdep.h
+973681bb4def4afcbf71e3bb67944720ddb3008a i40e: Remove circular header dependencies and fix headers
+4448fa595c513edb4e97bba0f798095b15793e45 i40e: Move DDP specific macros and structures to i40e_ddp.c
+8ed18487b395ee068603e18b359ad0e03542463b i40e: fix livelocks in i40e_reset_subtask()
+75246e90930dff8c05e84fe7da4d8ffd36fc3e81 i40e: fix 32bit FW gtime wrapping issue
+2e7c2de3942e40b5d007bbb28280efc31c52a0ac i40e: add tracepoints for nvmupdate troubleshooting
+7b455fad303c3b127f83f522f83934805191eec7 ice: remove unused ice_flow_entry fields
+718f7c69cf4b6bd093fb4df2c5a80f81567f98d4 ice: remove FW logging code
+2d6d0fd140e5ce6ac0a3f9562e754b1c429616d4 ice: configure FW logging
+478b60bdc418c7c44e84a3e1131d30a087295fbd ice: enable FW logging
+c8a6c4d35f08202fcb8bbfd33cb1dd162caae886 ice: add ability to read FW log data and configure the number of log buffers
+344fcb1f599f03dd1a7758fe4b91581c03e4e2b7 ice: add documentation for FW logging
+fd18d97b4a94a2f96446b142ec3a8f7df443e500 iavf: remove "inline" functions from iavf_txrx.c
+a043b9f53e4d8a9ec268c01602be5084c58799ab ice: add drop rule matching on not active lport
+037cc665abbb0108b3aea1e3914dde153666188c ice: don't stop netdev tx queues when setting up XSK socket
+0c5bd7cf82765c7de29e40d87998c9216b447a32 i40e: Add rx_missed_errors for buffer exhaustion
+30b37f831b316c37853d5a71a80889ad7df470b7 ice: Add support for packet mirroring using hardware in switchdev mode
+522b05c8664e918ac18e1279ae01a5a7e7ad58ee ice: store VF's pci_dev ptr in ice_vf
+38b10336c6cdc1c5b44abc82d3b69df439c69c74 ice: block default rule setting on LAG interface
+edf599c062d10e461973a04ae3e60416edb0613d ice: always add legacy 32byte RXDID in supported_rxdids
+3d32239dad7c9abb85415011461a58d24f5180b4 ice: make ice_get_pf_c827_idx static
+4e4fd5521a13bad0a32771b2a0e538a11426955b ice: cleanup ice_find_netlist_node
+dba10d1e993f871377165be01158bec705f17287 igc: Simplify setting flags in the TX data descriptor
+f52731ded39107a7fdfc3566e6121219f1200f00 igc: Add support for PTP .getcyclesx64()
+80717f1b8bf193aa5c8f21c76a9da523fb510b67 idpf: set scheduling mode for completion queue
+4a117c392e3d724be1fc4e1bb9c2bf188b7d1bb4 iavf: Avoid a memory allocation in iavf_print_link_message()
 
---===============5755058886971072796==--
+--===============5607340232580761122==--
