@@ -1,39 +1,64 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 02 Oct 2023 14:12:24 -0000
-Message-Id: <169625594405.32057.29329336956296590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 02 Oct 2023 14:13:57 -0000
+Message-Id: <169625603710.32693.2369008794022642487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: d8cce0d5ba4a3157a7a549b9623d1ffc5820ef92
-    new: 82e83cb51c87b5bf3ab83f7c7b150c19400056c2
+  - ref: refs/heads/main
+    old: 05d3cb91963d860bc1c5aa14c8af14e693f3b2c2
+    new: cfe257e10e438c870dc3d2b716786c1a68f207fc
     log: |
-         7b7a224b1ba1703583b25a3641ad9798f34d832a firmware: ti_sci: Mark driver as non removable
-         f34b902c5ba67841902cd7f0e24e64bb82f69cb4 soc/ti: k3-ringacc: Convert to platform remove callback returning void
-         3af4ec7c7dd39a2c4618f6536b2e7b73a19be169 soc/ti: knav_dma: Convert to platform remove callback returning void
-         af97160a0c5f1908c6f2830023fb93baac4451d3 soc/ti: knav_qmss_queue: Convert to platform remove callback returning void
-         9eb950e9fffc5337bfe1798cf89ce4d97a4f1221 soc/ti: pm33xx: Convert to platform remove callback returning void
-         d183b20d340b7c098f44cb5c02f4ced01cfd0b16 soc/ti: pruss: Convert to platform remove callback returning void
-         ba03aab9bfb4c9d456419da3891375d45c6bfe15 soc/ti: smartreflex: Convert to platform remove callback returning void
-         82e83cb51c87b5bf3ab83f7c7b150c19400056c2 soc/ti: wkup_m3_ipc: Convert to platform remove callback returning void
+         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
          
-  - ref: refs/heads/ti-next
-    old: d8cce0d5ba4a3157a7a549b9623d1ffc5820ef92
-    new: 82e83cb51c87b5bf3ab83f7c7b150c19400056c2
+  - ref: refs/heads/master
+    old: 05d3cb91963d860bc1c5aa14c8af14e693f3b2c2
+    new: cfe257e10e438c870dc3d2b716786c1a68f207fc
     log: |
-         7b7a224b1ba1703583b25a3641ad9798f34d832a firmware: ti_sci: Mark driver as non removable
-         f34b902c5ba67841902cd7f0e24e64bb82f69cb4 soc/ti: k3-ringacc: Convert to platform remove callback returning void
-         3af4ec7c7dd39a2c4618f6536b2e7b73a19be169 soc/ti: knav_dma: Convert to platform remove callback returning void
-         af97160a0c5f1908c6f2830023fb93baac4451d3 soc/ti: knav_qmss_queue: Convert to platform remove callback returning void
-         9eb950e9fffc5337bfe1798cf89ce4d97a4f1221 soc/ti: pm33xx: Convert to platform remove callback returning void
-         d183b20d340b7c098f44cb5c02f4ced01cfd0b16 soc/ti: pruss: Convert to platform remove callback returning void
-         ba03aab9bfb4c9d456419da3891375d45c6bfe15 soc/ti: smartreflex: Convert to platform remove callback returning void
-         82e83cb51c87b5bf3ab83f7c7b150c19400056c2 soc/ti: wkup_m3_ipc: Convert to platform remove callback returning void
+         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
          
+  - ref: refs/heads/plain-warning
+    old: 8002050b09bcc072a1cd822f352bbb8f5c4da277
+    new: d2904cd0b4dde2a523a9919183f1812480bd2848
+    log: |
+         05d3cb91963d860bc1c5aa14c8af14e693f3b2c2 CI: fix annocheck and csmock runners
+         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
+         41711f74cf9073cd5b05226d9d67c93e88074002 plain: Print warning if using default cipher ahd hash options.
+         b0d00bbe9d659ae0e3411d68b087c0d937f825ab plain: Set default cipher to aes-xts-plain64 and hash to sha256.
+         d7b56cf026c79f51e5751e89eae1d189763c57f8 tests: Avoid new plain type warnings if missing options.
+         d2904cd0b4dde2a523a9919183f1812480bd2848 plain: Add note to man page about cipher options.
+         
+  - ref: refs/merge-requests/543/head
+    old: 8002050b09bcc072a1cd822f352bbb8f5c4da277
+    new: d2904cd0b4dde2a523a9919183f1812480bd2848
+    log: |
+         05d3cb91963d860bc1c5aa14c8af14e693f3b2c2 CI: fix annocheck and csmock runners
+         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
+         41711f74cf9073cd5b05226d9d67c93e88074002 plain: Print warning if using default cipher ahd hash options.
+         b0d00bbe9d659ae0e3411d68b087c0d937f825ab plain: Set default cipher to aes-xts-plain64 and hash to sha256.
+         d7b56cf026c79f51e5751e89eae1d189763c57f8 tests: Avoid new plain type warnings if missing options.
+         d2904cd0b4dde2a523a9919183f1812480bd2848 plain: Add note to man page about cipher options.
+         
+  - ref: refs/merge-requests/543/merge
+    old: 489dad49d3ff085389e6d85d417d94f2e48a5e56
+    new: b9c1fcb50d72b9d45b2f36ccc57ba875f844c840
+    log: |
+         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
+         41711f74cf9073cd5b05226d9d67c93e88074002 plain: Print warning if using default cipher ahd hash options.
+         b0d00bbe9d659ae0e3411d68b087c0d937f825ab plain: Set default cipher to aes-xts-plain64 and hash to sha256.
+         d7b56cf026c79f51e5751e89eae1d189763c57f8 tests: Avoid new plain type warnings if missing options.
+         d2904cd0b4dde2a523a9919183f1812480bd2848 plain: Add note to man page about cipher options.
+         b9c1fcb50d72b9d45b2f36ccc57ba875f844c840 Merge branch 'plain-warning' into 'main'
+         
+  - ref: refs/merge-requests/544/head
+    old: 0000000000000000000000000000000000000000
+    new: cfe257e10e438c870dc3d2b716786c1a68f207fc
+  - ref: refs/merge-requests/544/merge
+    old: 0000000000000000000000000000000000000000
+    new: 70a746fff4f372e3c56237bb12129a124c789df7
