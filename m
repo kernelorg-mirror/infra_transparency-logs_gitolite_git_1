@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4025635262832112219=="
+Content-Type: multipart/mixed; boundary="===============4329078849708017197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Oct 2023 18:50:29 -0000
-Message-Id: <169627262914.23118.15922740191154043877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Oct 2023 18:50:35 -0000
+Message-Id: <169627263572.23222.5244416601940314940@gitolite.kernel.org>
 
---===============4025635262832112219==
+--===============4329078849708017197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 892fbdb203945d887ad2a109a3700b091a8e3b97
     new: 1948fa64727685ac3f6584755212e2e738b6b051
     log: |
@@ -24,28 +24,28 @@ changes:
          1948fa64727685ac3f6584755212e2e738b6b051 ASoC: amd: yc: Fix non-functional mic on Lenovo 82YM
          
 
---===============4025635262832112219==
+--===============4329078849708017197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1696272627 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1696272626-2ab21cc218a38ce4f9123191a84f16b3464922de
+pusher C3F436CA30F5D8EB 1696272633 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1696272633-21b2f2d9f4964b5ea952c9697d4c957a4a6c878a
 
-892fbdb203945d887ad2a109a3700b091a8e3b97 1948fa64727685ac3f6584755212e2e738b6b051 refs/heads/for-6.6
+892fbdb203945d887ad2a109a3700b091a8e3b97 1948fa64727685ac3f6584755212e2e738b6b051 refs/heads/asoc-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUbEPMACgkQJNaLcl1U
-h9BThQf+NztL3SOCrrQjz/TX7ku0a+ZhxUz4VmsCu0YUiMYmXUDSMwLFfnwaEmzW
-yGRAyd60zvJGVuxFFqOFO9LcldewEPNWG67CgH1PP0IKbw2theQEhN4hGsxg+vDK
-xAB7qd2TSITHm7ZKvFJGGJgkJa+9fkv7pKRi93sjSacVMc15l1JarfxTHWcxqsPO
-c5Cib6Irq0Bm5r8JTwcMBmlDOk2DREuRAvf26qwPwmjz0VKikyItMnyX8r4pcA1D
-aD5vrbpe/EY+SSc8DP44xJswSzhkmXx8J+TNkVq5oiq5e9KyeTX6KWDJ7STYPAcc
-9pw9dzOrtJRpf2Mg+IBRoGrWLKnuag==
-=4Gkf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUbEPkACgkQJNaLcl1U
+h9Ak/Af+MZcDa/czd/cZAQwVRgVZEee43QkVXSMuwGf0Dt0i+klqaZ81BZr+OS/N
+A+xgHW4O5I+78w9KWJBEyipvOzLLC5oKfWhu+ea69yEtCCQOOIlwlpyPazmdo9lh
+XLL9NvIxHmtQl6Aq8RRVRK0fLg4hEnxqb5MbUtkr8EtGdrHgm7rvBZPbnEHH1ZtR
+EP5ahFPBODz107Ar79qfhT+5oCc+kFjz0F+5t59T2y9HOiwubt5RCnUoLhEHQUGh
+3gEkfb6ra58AgqFsjBm44/SVZiCHS8OMnr1K0QlLHX8Em1AbpKnX96DIKlW9+Nrh
+4fOFrVG3PdnJPaSg3Y8NFbfHCY3jIA==
+=kFGq
 -----END PGP SIGNATURE-----
 
---===============4025635262832112219==--
+--===============4329078849708017197==--
