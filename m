@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3084787864221737621=="
+Content-Type: multipart/mixed; boundary="===============7936730329240103882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 02 Oct 2023 06:18:37 -0000
-Message-Id: <169622751735.14746.4348675406764956022@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 06:18:46 -0000
+Message-Id: <169622752681.14888.3249856196166343980@gitolite.kernel.org>
 
---===============3084787864221737621==
+--===============7936730329240103882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 29346e217b8ab8a52889b88f00b268278d6b7668
-    new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
-    log: revlist-29346e217b8a-8a749fd1a872.txt
+  - ref: refs/heads/tty-next
+    old: c980248179d655d33af47f0b0bec1ce8660994c6
+    new: 45a1c8dfa28a0b8b6954d5905bee04877d2ad548
+    log: revlist-c980248179d6-45a1c8dfa28a.txt
 
---===============3084787864221737621==
+--===============7936730329240103882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696227517 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696227524 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1696227515-2c78851635a62001f70e19563df368a7fa791e05
+nonce 1696227522-9d28b5459bf452ec98be4f6a78903cfd82b7d19c
 
-29346e217b8ab8a52889b88f00b268278d6b7668 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa refs/heads/tty-linus
+c980248179d655d33af47f0b0bec1ce8660994c6 45a1c8dfa28a0b8b6954d5905bee04877d2ad548 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUaYL0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w0EQAKJYUGL9WTJbIsBVXL0C
-llJTn8si/a3iTrLJNJYuaWxnG0Lvp5I+t8XjraoBpEVJ1Q1GeKmDLfXQRrsNAj0z
-iQkdOsRfdOT8IcmG62tn8VM5KoF1/54bkh2AMws00RWhT3/+TrrO4qf32yojo6pB
-nuAZFcxrC1RmYcjaihD+C3CE4bKEYkslih9TrgKauxL9B4bU7F3hqo6Q08FxMoPf
-lS1CBBFQlXGEVcJJCt6VhYS4V41DoqQ2ZBB4o7CP1NmcryTDfFkk8+13CNIVpeMF
-2QBDNQsyHkCEsq3eFY4Xwv8ksD2oBnLDqra9bdnywwsUvR/hZqL5lTbQysSxv2Hs
-ynvUUU4LwowEMUOoPX3re8ffnqNY/qi4VvHmNN8bZwq+utmyfMzJdsS1VLIkIgWN
-CWUZX9MpLXMls+UAjSKKN8H+gR35KoVhFIy9dH1jErBvKW3wItngVdlFo+ICGlxQ
-XCGOh1qFv3VkEqBANMF7pHaGf/1/y2QkRvuwcnDGaJdR0ITngMpPwm6ktdJK+E5i
-TFmuRsTaESs5pXY0iNCEryl9Q5h3q3fY78IRPs2LmOS/NYogrRDLivlOF/pNu9F+
-G9ToqIVN/H6bcwTexITw5/eJQ8yjLCsd35GZAvoS8jYubWewkp3BUjg7USI+6Sgt
-zCiOVN06wAX+Fi5OthOGR6HM
-=u8m0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUaYMQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NwcP/0oR5PUfQN9z6rCiAd7T
+7dqI35Yg4Svbtf6tb1pdDIntNiEuttaDakrvkCSLLlkUWXvEMKLbXkevfsS7jCrn
+8QqxlxEBjrZcuRw/DiUEh43wwPZLy7kDbH/A3aSrsuNo7egGIOPI3sbggMaaUJRp
+yJN/WGI30fhPzpfA/17xX3SxGs+LFcuMtj0mlFTwBt9XSlj+t9YOOKpfEyIdSpTD
+O4sM9jK3rBlz45ugzK2V1XdWYlsJHmQOu/yvLqJeZHdz41sawzFOIVa09PwUnyFV
+nWhIYCmmQ+TmCKYP105ERZcTYID54oK3UmmHY5yFdrO5+VI0+/rAaVybfJpoenFE
+Mkv7i0pV68nie4APFrLEgXOr9wORmHNnDNbzOBKwDI0mHSovQU0w/kjugV4tUbI1
+iJloF/e86XxyPserkMLijCJf1NE1rdhfIrqnBRvmC8I8QZ3p1m0Tz/7pWR95JswT
+td/PpkUhojk2ZmRbfeU0baClpXsvWz9ZLdRPK2UvvkqgqkbkhPJhU3vOqjncfK9r
+KRvDn2ytvDL8RoosKk0xA6RUXr+JEOWBgnckkxzmotIRWpxOC9/DvEcnRbMDUOL5
+N5n1jlPgo3KeOaHK+iFT+LQb4D9lW1SBpo2RaV1Knt/TZYwPg1W0jgNw0BhA27Jv
+ayfCWvXSUHTENmaHSrFscPND
+=NvKL
 -----END PGP SIGNATURE-----
 
---===============3084787864221737621==
+--===============7936730329240103882==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-29346e217b8a-8a749fd1a872.txt
+Content-Disposition: attachment; filename=revlist-c980248179d6-45a1c8dfa28a.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -314,6 +314,8 @@ fbd825fcd7dd4c11d4c48c3d0adc248a4a0ce90b net: hsr: Add __packed to struct hsr_su
 d53f23fe164c24335d001cf725599a95e6fdf92d selftests: hsr: Reorder the testsuite.
 b0e9c3b5fdafbe60e7a82be69439f95e06a4de39 selftests: hsr: Extend the testsuite to also cover HSRv1.
 af21b94b91b941fb25341785758af91823a0716f Merge branch 'hsr-supervisor-frames'
+cce7fc8b29961b64fadb1ce398dc5ff32a79643b serial: 8250_port: Check IRQ data before use
+29346e217b8ab8a52889b88f00b268278d6b7668 Revert "tty: n_gsm: fix UAF in gsm_cleanup_mux"
 bb6c4507fe825f1b4904fc3ffd329ab196c5e645 drm: fix up fbdev Kconfig defaults
 215b215d1e9278765c32af29515e8cdf679d47a3 MAINTAINERS: Use wildcard pattern for ARM PMU headers
 ea852c17f5382a0a52041cfbd9a4451ae0fa1a38 tsnep: Fix NAPI scheduling
@@ -723,5 +725,6 @@ ec8c298121e3616f8013d3cf1db9c7169c9b0b2d Merge tag 'x86-urgent-2023-10-01' of gi
 d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-01-08-34' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
+45a1c8dfa28a0b8b6954d5905bee04877d2ad548 Merge 6.6-rc4 into tty-next
 
---===============3084787864221737621==--
+--===============7936730329240103882==--
