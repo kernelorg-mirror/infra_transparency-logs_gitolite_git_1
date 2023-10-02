@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8099111245303759330=="
+Content-Type: multipart/mixed; boundary="===============4287342243582838166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 02 Oct 2023 03:10:04 -0000
-Message-Id: <169621620404.10958.7243141996497470028@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 03:10:21 -0000
+Message-Id: <169621622186.11175.9779209829842290696@gitolite.kernel.org>
 
---===============8099111245303759330==
+--===============4287342243582838166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 6465e260f48790807eef06b583b38ca9789b6072
+  - ref: refs/heads/fixes
+    old: 2d7d1bc119a4d7f54cfe0b1be480c34e8c712d06
     new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
-    log: revlist-6465e260f487-8a749fd1a872.txt
+    log: revlist-2d7d1bc119a4-8a749fd1a872.txt
 
---===============8099111245303759330==
+--===============4287342243582838166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6465e260f487-8a749fd1a872.txt
+Content-Disposition: attachment; filename=revlist-2d7d1bc119a4-8a749fd1a872.txt
 
 d929b2b7464f95ec01e47f560b1e687482ba8929 bus: ti-sysc: Use fsleep() instead of usleep_range() in sysc_reset()
 11729caa520950e17cd81bc43ffc477c46cf791e bus: ti-sysc: Fix missing AM35xx SoC matching
@@ -137,8 +137,6 @@ b13e59e74ff71a1004e0508107e91e9a84fd7388 i2c: mux: Avoid potential false error m
 9c1b2429c18424759818e16e0767361a535529a8 accel/ivpu: Add Arrow Lake pci id
 52bb69be6790bafbbbf57b714445704e82d4a97a dt-bindings: ata: pata-common: Add missing additionalProperties on child nodes
 3ef600923521616ebe192c893468ad0424de2afb ata: libata-scsi: ignore reserved bits for REPORT SUPPORTED OPERATION CODES
-fbf5892df21a8ccfcb2fda0fd65bc3169c89ed28 kbuild: Use CRC32 and a 1MiB dictionary for XZ compressed modules
-28d49e171676afb7df7f47798391364af9abed7f Documentation: kbuild: explain handling optional dependencies
 753a4d531bc518633ea88ac0ed02b25a16823d51 ata: libata-sata: increase PMP SRST timeout to 10s
 0e4cac557531a4c93de108d9ff11329fcad482ff misc: rtsx: Fix some platforms can not boot and move the l1ss judgment to probe
 599522d9d2e19d6240e4312577f1c5f3ffca22f6 perf/x86/amd: Do not WARN() on every IRQ
@@ -266,10 +264,6 @@ cefc06e4de1477dbdc3cb2a91d4b1873b7797a5c Merge tag 'i2c-for-6.6-rc4' of git://gi
 2598bd3ca8dcf5bbca1161ee5b271b432398da37 eventfs: Test for dentries array allocated in eventfs_release()
 3b347e403210c63d0ba01adf7530da08bc2929f9 Merge tag 'trace-v6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e402b08634b398e9feb94902c7adcf05bb8ba47d Merge tag 'soc-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-cbc3d00cf88fda95dbcafee3b38655b7a8f2650a modpost: add missing else to the "of" check
-15e86643d5b6df08ebd65c7b5aa607fd2ed2d9d1 vmlinux.lds.h: remove unused CPU_KEEP and CPU_DISCARD macros
-f177cd0c15fcc7bdbb68d8d1a3166dead95314c8 modpost: Don't let "driver"s reference .exit.*
-2d7d1bc119a4d7f54cfe0b1be480c34e8c712d06 kbuild: remove stale code for 'source' symlink in packaging scripts
 3a38c57a87aeb5c6d71a1b6dd572569112dbce38 Merge tag 'perf-urgent-2023-10-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c5ecffe6d3e438dd7094ac37461e77960269aff0 Merge tag 'sched-urgent-2023-10-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 373ceff28e7883e02ecf18d3e179d09bfcdab663 Merge tag 'timers-urgent-2023-10-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -280,4 +274,4 @@ d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-0
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
 
---===============8099111245303759330==--
+--===============4287342243582838166==--
