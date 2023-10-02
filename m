@@ -1,64 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Mon, 02 Oct 2023 14:13:57 -0000
-Message-Id: <169625603710.32693.2369008794022642487@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0035861993229809206=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 02 Oct 2023 14:17:37 -0000
+Message-Id: <169625625715.3378.15426103544070573982@gitolite.kernel.org>
+
+--===============0035861993229809206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 05d3cb91963d860bc1c5aa14c8af14e693f3b2c2
-    new: cfe257e10e438c870dc3d2b716786c1a68f207fc
+  - ref: refs/heads/usb-linus
+    old: 8bea147dfdf823eaa8d3baeccc7aeb041b41944b
+    new: a00e197daec52bcd955e118f5f57d706da5bfe50
     log: |
-         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
+         9f35d612da5592f1bf1cae44ec1e023df37bea12 usb: cdns3: Modify the return value of cdns_set_active () to void when CONFIG_PM_SLEEP is disabled
+         3061b6491f491197a35e14e49f805d661b02acd4 usb: gadget: udc-xilinx: replace memcpy with memcpy_toio
+         e59e38158c61162f2e8beb4620df21a1585117df usb: misc: onboard_hub: add support for Microchip USB2412 USB 2.0 hub
+         a00e197daec52bcd955e118f5f57d706da5bfe50 usb: typec: ucsi: Clear EVENT_PENDING bit if ucsi_send_command fails
          
-  - ref: refs/heads/master
-    old: 05d3cb91963d860bc1c5aa14c8af14e693f3b2c2
-    new: cfe257e10e438c870dc3d2b716786c1a68f207fc
-    log: |
-         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
-         
-  - ref: refs/heads/plain-warning
-    old: 8002050b09bcc072a1cd822f352bbb8f5c4da277
-    new: d2904cd0b4dde2a523a9919183f1812480bd2848
-    log: |
-         05d3cb91963d860bc1c5aa14c8af14e693f3b2c2 CI: fix annocheck and csmock runners
-         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
-         41711f74cf9073cd5b05226d9d67c93e88074002 plain: Print warning if using default cipher ahd hash options.
-         b0d00bbe9d659ae0e3411d68b087c0d937f825ab plain: Set default cipher to aes-xts-plain64 and hash to sha256.
-         d7b56cf026c79f51e5751e89eae1d189763c57f8 tests: Avoid new plain type warnings if missing options.
-         d2904cd0b4dde2a523a9919183f1812480bd2848 plain: Add note to man page about cipher options.
-         
-  - ref: refs/merge-requests/543/head
-    old: 8002050b09bcc072a1cd822f352bbb8f5c4da277
-    new: d2904cd0b4dde2a523a9919183f1812480bd2848
-    log: |
-         05d3cb91963d860bc1c5aa14c8af14e693f3b2c2 CI: fix annocheck and csmock runners
-         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
-         41711f74cf9073cd5b05226d9d67c93e88074002 plain: Print warning if using default cipher ahd hash options.
-         b0d00bbe9d659ae0e3411d68b087c0d937f825ab plain: Set default cipher to aes-xts-plain64 and hash to sha256.
-         d7b56cf026c79f51e5751e89eae1d189763c57f8 tests: Avoid new plain type warnings if missing options.
-         d2904cd0b4dde2a523a9919183f1812480bd2848 plain: Add note to man page about cipher options.
-         
-  - ref: refs/merge-requests/543/merge
-    old: 489dad49d3ff085389e6d85d417d94f2e48a5e56
-    new: b9c1fcb50d72b9d45b2f36ccc57ba875f844c840
-    log: |
-         cfe257e10e438c870dc3d2b716786c1a68f207fc Fix devel/debug leftover in LUKS2 api test.
-         41711f74cf9073cd5b05226d9d67c93e88074002 plain: Print warning if using default cipher ahd hash options.
-         b0d00bbe9d659ae0e3411d68b087c0d937f825ab plain: Set default cipher to aes-xts-plain64 and hash to sha256.
-         d7b56cf026c79f51e5751e89eae1d189763c57f8 tests: Avoid new plain type warnings if missing options.
-         d2904cd0b4dde2a523a9919183f1812480bd2848 plain: Add note to man page about cipher options.
-         b9c1fcb50d72b9d45b2f36ccc57ba875f844c840 Merge branch 'plain-warning' into 'main'
-         
-  - ref: refs/merge-requests/544/head
-    old: 0000000000000000000000000000000000000000
-    new: cfe257e10e438c870dc3d2b716786c1a68f207fc
-  - ref: refs/merge-requests/544/merge
-    old: 0000000000000000000000000000000000000000
-    new: 70a746fff4f372e3c56237bb12129a124c789df7
+
+--===============0035861993229809206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696256254 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1696256253-ca1ab0fd5284b24c95f23fbfa1d0c5bed209b91c
+
+8bea147dfdf823eaa8d3baeccc7aeb041b41944b a00e197daec52bcd955e118f5f57d706da5bfe50 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUa0P4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NVQP/2bnjXi/9nU3rx8XVIqj
+IaVBrporFctzL00OKZllnzm7fHZ1SmS7Og49zcvDZSLigmzLT6+FC6SwAv+wdsqr
+pK7pBvmq78UgIrH7h7TzZ0QGkjpRiteprRbadMcWjX42odTWk91mcrGQAx0OzJvR
+6FgnGu5HzfT1I95RIt9XG9TsPwWwTBjHQZbI27mCFGfawW2tPJGAzp4tP+3Lqlce
+06+1BhsPr2Xi3zVlsDUePM1uY2cCPeQ1lEs8Kt8IsfyvR/tH8pfM+IHXrs5t4F87
+CgdPD0rK92rgbYp1V+izxtOJ74SfFqOALvd9mULsVaTTRwRAWfiCPyMmZl2wkuwp
+SDxtg/ezvGmZ28L3o2TT5tONgd1FaXaEHi9coOu1ZiE+etRqby1A2EIISHV0NSjW
+Pm0CWq+l1bnWuwk7w0M/ghVfiKEfYQ7yqwjKwynuc9MBQLPTrbLF59blfTBBbxA7
+9RIl3qdaf7uuSnhsKtGsU29gtJbjflpxfJDugVeUJteX/rL54RQUfKPCeky9ie3g
+G3fTZpo3lf4MQkHmNiMHc8XLEht/O/GXkcTDGp7CrmmFKs/+MCD2TtjsZS/AQY+t
+ib9qZcHiSUgtcXLrpAQw9OPW0hfC49lFrdT+TYxqxFag6FshR/FJzl5UwJHIh2HE
+bkK2YNwQOfaKNYkG5lz58BC9
+=QKgC
+-----END PGP SIGNATURE-----
+
+--===============0035861993229809206==--
