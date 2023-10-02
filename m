@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7301993181953982150=="
+Content-Type: multipart/mixed; boundary="===============5161234768359430400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 02 Oct 2023 02:02:48 -0000
-Message-Id: <169621216825.26185.10462838583375181789@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 02:02:59 -0000
+Message-Id: <169621217982.26345.16128751313219302131@gitolite.kernel.org>
 
---===============7301993181953982150==
+--===============5161234768359430400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 417ec11b75d7906b38e055275e39369426679665
     new: 2c10cda4b777be4be9d9e69e4f70c818dbb15e21
     log: revlist-417ec11b75d7-2c10cda4b777.txt
 
---===============7301993181953982150==
+--===============5161234768359430400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -159,4 +159,4 @@ c1fc48aad14dbe7654f5986afb906332b528d54b LoongArch: KVM: Enable kvm config and a
 6f0257a03212d4f66954ce14402adb5c68fed075 LoongArch: KVM: Supplement kvm document about LoongArch-specific part
 2c10cda4b777be4be9d9e69e4f70c818dbb15e21 LoongArch: KVM: Add maintainers for LoongArch KVM
 
---===============7301993181953982150==--
+--===============5161234768359430400==--
