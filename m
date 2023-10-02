@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3845436499854020740=="
+Content-Type: multipart/mixed; boundary="===============2230559294727172685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 02 Oct 2023 15:37:26 -0000
-Message-Id: <169626104629.30541.13618833138018050582@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 15:37:59 -0000
+Message-Id: <169626107904.30958.3777292087792422040@gitolite.kernel.org>
 
---===============3845436499854020740==
+--===============2230559294727172685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c070e51db5e2a98d3aef7c324b15209ba47f3dca
-    new: 6a70e5cbedaf8ad10528ac9ac114f3ec20f422df
-    log: revlist-c070e51db5e2-6a70e5cbedaf.txt
+  - ref: refs/heads/dev-queue
+    old: 45f71c4e41e1c7c757ae65b34884d65ea968dbc8
+    new: 9e8622c29420f8067533e6d2c83c898da168103d
+    log: revlist-45f71c4e41e1-9e8622c29420.txt
 
---===============3845436499854020740==
+--===============2230559294727172685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c070e51db5e2-6a70e5cbedaf.txt
+Content-Disposition: attachment; filename=revlist-45f71c4e41e1-9e8622c29420.txt
 
 cbaabbcdcbd355f0a1ccc09a925575c51c270750 Bluetooth: Delete unused hci_req_prepare_suspend() declaration
 187f8b648cc16f07c66ab1d89d961bdcff779bf7 Bluetooth: btusb: add shutdown function for QCA6174
@@ -45,5 +45,10 @@ c889a99a21bf124c3db08d09df919f0eccc5ea4c net: prevent address rewrite in kernel_
 caa0578c1d487d39e4bb947a1b4965417053b409 ptp: ocp: Fix error handling in ptp_ocp_device_init
 6ccf50d4d4741e064ba35511a95402c63bbe21a8 net: dsa: mv88e6xxx: Avoid EEPROM timeout when EEPROM is absent
 6a70e5cbedaf8ad10528ac9ac114f3ec20f422df sky2: Make sure there is at least one frag_addr available
+723400662d46cbfdbc5e7571d6604656d304cb43 i40e: fix livelocks in i40e_reset_subtask()
+5440f66fb21692975230cefb571fda70fe7d6ff3 i40e: fix 32bit FW gtime wrapping issue
+e61d08199566f290d4f9209e4ff67d40ada4cdf3 iavf: Fix promiscuous mode configuration flow messages
+154090bf3e7c07ee0595d607b067639398a41dfe ice: don't stop netdev tx queues when setting up XSK socket
+9e8622c29420f8067533e6d2c83c898da168103d ice: block default rule setting on LAG interface
 
---===============3845436499854020740==--
+--===============2230559294727172685==--
