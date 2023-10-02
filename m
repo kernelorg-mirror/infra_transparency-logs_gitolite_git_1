@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3782721746196152045=="
+Content-Type: multipart/mixed; boundary="===============3917178193760778104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 02 Oct 2023 09:12:46 -0000
-Message-Id: <169623796620.14910.17349432164733010626@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 09:12:55 -0000
+Message-Id: <169623797540.15012.8379387252717983264@gitolite.kernel.org>
 
---===============3782721746196152045==
+--===============3917178193760778104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: ef8f8f04a0b25e8f294b24350e8463a8d6a9ba0b
+  - ref: refs/heads/master
+    old: 6465e260f48790807eef06b583b38ca9789b6072
     new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
-    log: revlist-ef8f8f04a0b2-8a749fd1a872.txt
+    log: revlist-6465e260f487-8a749fd1a872.txt
 
---===============3782721746196152045==
+--===============3917178193760778104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef8f8f04a0b2-8a749fd1a872.txt
+Content-Disposition: attachment; filename=revlist-6465e260f487-8a749fd1a872.txt
 
 d929b2b7464f95ec01e47f560b1e687482ba8929 bus: ti-sysc: Use fsleep() instead of usleep_range() in sysc_reset()
 11729caa520950e17cd81bc43ffc477c46cf791e bus: ti-sysc: Fix missing AM35xx SoC matching
@@ -143,6 +143,7 @@ fbf5892df21a8ccfcb2fda0fd65bc3169c89ed28 kbuild: Use CRC32 and a 1MiB dictionary
 0e4cac557531a4c93de108d9ff11329fcad482ff misc: rtsx: Fix some platforms can not boot and move the l1ss judgment to probe
 599522d9d2e19d6240e4312577f1c5f3ffca22f6 perf/x86/amd: Do not WARN() on every IRQ
 2d1b3bbc3dd56fc8364350eb93e5d67a05cb2c23 ovl: disable IOCB_DIO_CALLER_COMP
+ef8f8f04a0b25e8f294b24350e8463a8d6a9ba0b MIPS: Alchemy: only build mmc support helpers if au1xmmc is enabled
 f4dcf06bc6e0161920b700ba3966411d716a321b ACPI: video: Fix NULL pointer dereference in acpi_video_bus_add()
 3b4e5194138b4576e7b703edcd85ffe8783df798 dt-bindings: spi: fsl-imx-cspi: Document missing entries
 493c71926c20309226b6d73f6b661a9813de5f0b ntfs3: put resources during ntfs_fill_super()
@@ -279,4 +280,4 @@ d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-0
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
 
---===============3782721746196152045==--
+--===============3917178193760778104==--
