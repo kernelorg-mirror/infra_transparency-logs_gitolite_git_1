@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Oct 2023 18:50:49 -0000
-Message-Id: <169627264941.23363.3332997303998162485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 02 Oct 2023 18:58:12 -0000
+Message-Id: <169627309245.27550.17990782799146266341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-linus
-    old: 892fbdb203945d887ad2a109a3700b091a8e3b97
-    new: 1948fa64727685ac3f6584755212e2e738b6b051
+  - ref: refs/heads/sched/core
+    old: 83494dc51033506eb60c5e11a335461b2dc42111
+    new: d844fe65f0957024c3e1b0bf2a0615246184d9bc
     log: |
-         e930bea4124b8a4a47ba4092d99da30099b9242d ASoC: tlv320adc3xxx: BUG: Correct micbias setting
-         1948fa64727685ac3f6584755212e2e738b6b051 ASoC: amd: yc: Fix non-functional mic on Lenovo 82YM
+         d844fe65f0957024c3e1b0bf2a0615246184d9bc sched/headers: Move 'struct sched_param' out of uapi, to work around glibc/musl breakage
          
-  - ref: refs/heads/for-next
-    old: 861dfda58d3ff35dd72658a3e6957ed00f0ea9c9
-    new: 02844b9f199118b73a4d694da38b67a335f18e82
+  - ref: refs/heads/x86/mm
+    old: fbf6449f84bf5e4ad09f2c09ee70ed7d629b5ff6
+    new: cb17fd1dcdaea8f6508844c690b3ffd5da484800
     log: |
-         e930bea4124b8a4a47ba4092d99da30099b9242d ASoC: tlv320adc3xxx: BUG: Correct micbias setting
-         1948fa64727685ac3f6584755212e2e738b6b051 ASoC: amd: yc: Fix non-functional mic on Lenovo 82YM
-         02844b9f199118b73a4d694da38b67a335f18e82 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         cb17fd1dcdaea8f6508844c690b3ffd5da484800 x86/mce: Set PG_hwpoison page flag to avoid the capture kernel panic
          
