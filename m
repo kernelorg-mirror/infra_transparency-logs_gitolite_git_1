@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7916020432788510924=="
+Content-Type: multipart/mixed; boundary="===============3641599457012030356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Oct 2023 19:36:47 -0000
-Message-Id: <169627540728.23655.8513809676783508241@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 19:36:58 -0000
+Message-Id: <169627541874.23993.13437900717165863388@gitolite.kernel.org>
 
---===============7916020432788510924==
+--===============3641599457012030356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 62722428143388e4ebec8ab2a847c19cfb3ad22e
-    new: 5407714636c7d937170adee37cc634725ccc7cda
-    log: revlist-627224281433-5407714636c7.txt
+  - ref: refs/heads/m68k-queue
+    old: 2febd5c7c8a92987a34783a3e9e09f0a647b6207
+    new: d1c60914f126340bda0181c175df2f6d04c19e30
+    log: revlist-2febd5c7c8a9-d1c60914f126.txt
 
---===============7916020432788510924==
+--===============3641599457012030356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-627224281433-5407714636c7.txt
+Content-Disposition: attachment; filename=revlist-2febd5c7c8a9-d1c60914f126.txt
 
 d929b2b7464f95ec01e47f560b1e687482ba8929 bus: ti-sysc: Use fsleep() instead of usleep_range() in sysc_reset()
 11729caa520950e17cd81bc43ffc477c46cf791e bus: ti-sysc: Fix missing AM35xx SoC matching
@@ -279,6 +279,68 @@ ec8c298121e3616f8013d3cf1db9c7169c9b0b2d Merge tag 'x86-urgent-2023-10-01' of gi
 d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-01-08-34' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
-5407714636c7d937170adee37cc634725ccc7cda Merge tag 'v6.6-rc4'
+735953f095daade3cf7e30db1d0136907f4157d4 m68k: math-emu: Fix incorrect file reference in fp_log.c
+46aa1b07e80cc9ab58415d922fbc5869d1833e82 m68k: math-emu: Sanitize include guards
+5824d75a60861c3edc9dd84cdb7f124cbac7e8fb m68k: math-emu: Make multi_arith.h self-contained
+5b7333b671928aab3b2f9e62acc16d087dd42ed5 m68k: math-emu: Replace external declarations by header inclusion
+0bf7674c75db3c86ebdb20c742a4175557349aab m68k: math-emu: Reformat function and variable headers
+989957279640c63a36621496b9935fcfacf914b0 m68k: math-emu: Add missing prototypes
+afb99fc46c7d980de5ee9c6cabb9178bfd388675 m68k: emu: Replace strlcpy() with strscpy()
+458be46b9ee0793fe33300597bf256aa7fb89520 m68k: kernel: Add missing asmlinkage to do_notify_resume()
+6b085af61b15a207369c50483f332fa782dd7410 m68k: kernel: Include <linux/cpu.h> for trap_init()
+ce91b04190decddac83077aec2c1805772fba6f6 m68k: kernel: Make bad_super_trap() static
+8ca0a108a08fb5becae1bd0cd99b835c119054c0 m68k: kernel: Add and use <asm/syscalls.h>
+3ffa0b7232019110773ad5d714004a53ca5a9f99 m68k: kernel: Add and use "ints.h"
+1f74a626b10558dc532b87a5df24fb2780f1ea55 m68k: kernel: Add and use "process.h"
+07b39c7a4c45947506bc2022e09de1a3cf682b0e m68k: kernel: Add and use "ptrace.h"
+c28f4c5d03d7a22d79f439f178ce4d3b2f044382 m68k: kernel: Add and use "signal.h"
+2bac9d26671f2700cf7d44a2c214d65b24b16297 m68k: kernel: Add and use "traps.h"
+4f5b599fc5c268c6d924a7ad17d373b610e10265 m68k: kernel: Add and use "vectors.h"
+f037b2da9b09003b0b3bf76215c102f1e92b3d2e m68k: mm: Include <asm/hwtest.h> for hwreg_()
+aa01d168e2036be66b154185b8a66621cb671540 m68k: mm: Move paging_init() to common <asm/pgtable.h>
+a8dc41f76f31a94a883ef3a970b7b6fd53cf1587 m68k: mm: Add and use "fault.h"
+87a16dfed16ebf7082b277f7b5c6982fd9e69aac m68k: emu: Remove unused vsnprintf() return value in nfprint()
+21ee04bf7ed41447ead3c465657b00ae94d58bfb m68k: emu: Mark version[] __maybe_unused
+b09251686a3db6f7ade7e84b0e23a0bbc8dd0f29 m68k: amiga: pcmcia: Replace set but not used variable by READ_ONCE()
+f585928ff525a48db8aafc515dbd267a2ad76cfb m68k: amiga: Add and use "amiga.h"
+f7f47e90e9c530650023795daedb383248b2d76d m68k: atari: Document data parameter of stdma_try_lock()
+6148e867b8a070164aebceb945e32b8af9239ad7 m68k: atari: Make ikbd_reset() static
+5e312d40c09c78f6f76192fafa558ad076ee6784 m68k: atari: Make atari_platform_init() static
+1b7d3ccfd79d80207e02f02bbf839247a6c49e25 m68k: atari: Make atari_stram_map_pages() static
+668ab97d03f52930d907923674b43e23b062c4bf m68k: atari: Add and use "atari.h"
+c29fd01ee0b938ee3fa4cbd65259744d37f36d78 m68k: apollo: Remove unused debug console functions
+37eb1c2a994f3b1f31ad13617f9bca6469e2b674 m68k: apollo: Make local reset, serial, and irq functions static
+c20b9883f050fd0e1534565a32e1b41c3c79287d m68k: apollo: Replace set but not used variable by READ_ONCE()
+de2cae46f42de441b9176c8e6b9e5d5edc762da6 m68k: apollo: Add and use "apollo.h"
+218c4cf16ae907f23f8484f2ff4cd806dd284174 m68k: bvme6000: Make bvme6000_abort_int() static
+d87d99f2a45abab6cb3bb69d374090043498427c m68k: hp300: Include "time.h" for hp300_sched_init()
+770fc0317e7311938b6cf155fa94734277129eed m68k: mac: Remove unused sine_data[]
+d0969a72ff4fc9ac0c853debbadb772b2e99f7dc m68k: mac: Remove unused yday in unmktime()
+e4f48f2df6fc61dc9aeef5b24a71f78be3fe2684 m68k: mac: Make mac_platform_init() static
+4fb457e7ed34090b73f27efe48666db33ef17517 m68k: mac: Add and use "mac.h"
+1d65ae4146a16c25d422454b569b99f5bca7259c m68k: mvme147: Make mvme147_init_IRQ() static
+7ecaf0adaaa4fac41a76aab841ebd369c15fe8f4 m68k: mvme16x: Remove unused sink in mvme16x_cons_write()
+01e1134f5999d4b92bc9cab9a15dde6c49dfb13d m68k: mvme16x: Add and use "mvme16x.h"
+8d79df6c76a4765a1f05d9f69de48553f3d6b382 m68k: q40: Add and use "q40.h"
+b9c1651f26a1c75e200fdd15e788660cd2b16ad2 m68k: sun3/3x: Include <asm/config.h> for config_sun3*()
+7675f44e29cad50b23400f45b588f47a463e0a67 m68k: sun3: Improve Sun3/3x DVMA abstraction in <asm/dvma.h>
+7e8d7f3a7c32adf13cf788d02588e2015346d60d m68k: sun3: Fix context restore in flush_tlb_range()
+eab3d3b64a0793819341cf5637213a4ba3c7c823 m68k: sun3: Fix signature of sun3_get_model()
+f699ad080579814b3da2e90731635f5c3221f1ee m68k: sun3: Add missing asmlinkage to sun3_init()
+52bc930921932cbe34895664be2d9eb991876198 m68k: sun3: Remove unused orig_baddr in free_baddr()
+349551454d40f2da4d0bddad312f04386c717148 m68k: sun3: Remove unused start_page in sun3_bootmem_alloc()
+ea1e7a9d9a507e85c70b8ec930b83907fc382560 m68k: sun3: Remove unused vsprintf() return value in prom_printf()
+7ad736c8609af6dcfe0be2e7f55328abe510fc03 m68k: sun3: Annotate prom_printf() with __printf()
+07dd1fb3a72535b928a61b38c07c91a6435d9ed9 m68k: sun3: Make print_pte() static
+951772aa55dac07388f351da1607701b16c7dbe6 m68k: sun3: Make sun3_platform_init() static
+0a72c2f48b1f9a3555fab410b2d0369b2107aa55 m68k: sun3x: Fix signature of sun3_leds()
+b99b6477f7a106e53d51602c7ff7ebfe8032b706 m68k: sun3x: Do not mark dvma_map_iommu() inline
+412453578d51312735ad0b5e69ce02b82f61d624 m68k: sun3x: Make sun3x_halt() static
+93192da98ffcdb690150de7cabf61c36e915e350 m68k: sun3x: Make dvma_print() static
+acdf0ae1c46f48820efff5865566d8c9be67e9bc m68k: sun3/3x: Add and use "sun3.h"
+237578cfa3b41d8fb1400db394a9e19562747206 m68k: Replace GPL 2.0+ README.legal boilerplate with SPDX
+cf111d1593343857fde09ecf458990c0a7a926c8 m68k: atari: usb: Add ISP1160 USB host controller support
+0d141140e5db1116efc80a5d62b933089e8f50d4 m68k: atari: Update Kconfig.bus help text
+d1c60914f126340bda0181c175df2f6d04c19e30 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7916020432788510924==--
+--===============3641599457012030356==--
