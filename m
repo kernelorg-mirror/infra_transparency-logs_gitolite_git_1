@@ -1,58 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6853843588377328881=="
+Content-Type: multipart/mixed; boundary="===============2475741587116145948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 02 Oct 2023 11:15:36 -0000
-Message-Id: <169624533649.1207.15665543131660169669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 02 Oct 2023 11:17:17 -0000
+Message-Id: <169624543724.1947.13512029389505040996@gitolite.kernel.org>
 
---===============6853843588377328881==
+--===============2475741587116145948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 5d164a022b99f29bfa04c725fba00cab97d6b640
-    new: fc5bf78b1ae0e30b91c3102b207866c8b9981099
+  - ref: refs/heads/usb-linus
+    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
+    new: 57e50f4bad02823fb19609e7a2150d8d866db91b
     log: |
-         bd2767ec3df2775bc336f441f9068a989ccb919d coresight: Fix run time warnings while reusing ETR buffer
-         e5028011885a85032aa3c1b7e3e493bcdacb4a0a coresight: tmc-etr: Disable warnings for allocation failures
-         fc5bf78b1ae0e30b91c3102b207866c8b9981099 Merge tag 'coresight-fixes-v6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
+         582620d9f6b352552bc9a3316fe2b1c3acd8742d thunderbolt: Workaround an IOMMU fault on certain systems with Intel Maple Ridge
+         a9fdf5f933a6f2b358fad0194b1287b67f6704b1 thunderbolt: Check that lane 1 is in CL0 before enabling lane bonding
+         e19f714ea63f861d95d3d92d45d5fd5ca2e05c8c thunderbolt: Correct TMU mode initialization from hardware
+         308092d080852f8997126e5b3507536162416f4a thunderbolt: Restart XDomain discovery handshake after failure
+         57e50f4bad02823fb19609e7a2150d8d866db91b Merge tag 'thunderbolt-for-v6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
          
 
---===============6853843588377328881==
+--===============2475741587116145948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696245334 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1696245332-85479d0476954cb8fe6221474db69e05880b55f8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696245434 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1696245432-b4662b5034d35d2996fd6188e43b388a48443ec2
 
-5d164a022b99f29bfa04c725fba00cab97d6b640 fc5bf78b1ae0e30b91c3102b207866c8b9981099 refs/heads/char-misc-linus
+8a749fd1a8720d4619c91c8b6e7528c0a355c0aa 57e50f4bad02823fb19609e7a2150d8d866db91b refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUaplYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qh8QAMtuhss++VXM98nJWFQa
-lr2+I1AIc/8Gp2+kO1q9d9INX5P3Teq45mo2FecNevbq7Y+i/p4J720QCP1q83Ec
-WBBE0u+t51/+eh47UC2JmLPfBFBAUTrZE7METgzRKYmA4+MleBicuTc7Bk7oZVDH
-0sKmq3p8+9d8OLHm35WH+8iIAM3FG19sEK+hKTM//heXF9uHRqswO16zVcmlkwNn
-briTnHu+vNEYv/dwk66kXyW38rIyT/BwvZprsa7L+GFRtFSfmgxQ8vWBm362DOM8
-us+u123Xp66xd8ct3El8TS7vKzDyGc4pojgLsBihpxrbqp9CfQLU7ETGy6Ostb5Z
-uxlnAZOrv1D7lg/sK1+SyZ8DknHrmD8Lu+TJ7dRMVnbdNXcBQfNr6tf3tg012KAI
-Y2bE8Rg1BaGEFQgEn5QambG/NNz1HE+7SSf+QlewaOIfCN3vdysY97c07a9R1Sb3
-CibqiM617Ygjix1mB347T8Ph8HnA/dtb3rxJbi5o3xFOkFvuyauhvX62bMbs6ycv
-KcGh4nbVUsOG8n7KOTcOfDsK/Kwrf5KM/VPAy6UrArLj+JNA+EEieAvo0F8O662M
-/nnQNqGy0CAY2n2fEZQz0NLtRIkAgCJc08LSjXUN//umkHEfK0bTvzMXX8IgTyTK
-1RaklbACeouOPv7ofEFpPvU3
-=nnNv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUaprobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rqQQAMOlBIgP8dQDautredW+
+Yu/qTXJRrq7IMonOFbaStMiG3n5kUWX5g3LdH32Lvy6xOIdnaMoHdxSD0XvMjCTP
+wp6tVmsSuluuhxmX9zSdDAoO0wOq75eQfI4/c648OxYHOFQ9NdxX4FpSk567r1gB
+HsF4dDtLVbfDaCHQqTziaIj2k5s1Xt/tBUtTL0sa4r6LeAodJ1AgwTzFDX8S4iDN
+d2Ejo+JdKZ2SeMy7roL96vq0t/XgBZ3DgdVgOxWnsyJnxxuHcD/wNMjUPcesaKMa
+jPGpDb48cV35ToypmxYSQwKjXLGQoVHKMr5X7bSmg7wDiPasiZk1OVveKkrgX/Hb
+XTzO40w18ZdG6Weo9smv+6FWdgZLmHyqmLf5eXnFdeDiVK8AGrwisECyeXXiLvW7
+vtf0ImeD8pAKDHoxvFGFg6H3tcU/C/eR+ZBRcOUEimtjC7SPAHtvhmcjgApp4x+J
+xw4pX5ny8Dc4tvhWFzl7GCd+GSO02kzqIrE/kkr0jxbCod/wXUER26rKoSTdK4KC
+TArRO+EmNECiGVSZfbjG3K+oEIfb4u8vxLu/cixc0xiCPOsFsoaX6RCWhoKbUweX
+ImiSYa09q5EMwWfwLtTL6H2mmz23mZKUlXza5ZjrGsqlEEv1i5NZ/+mGHqLjap9U
+p0u0gJbLNy3gdLfaQ5AWojPf
+=FAPY
 -----END PGP SIGNATURE-----
 
---===============6853843588377328881==--
+--===============2475741587116145948==--
