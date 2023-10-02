@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0035861993229809206=="
+Content-Type: multipart/mixed; boundary="===============8098757434612457662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 02 Oct 2023 14:17:37 -0000
-Message-Id: <169625625715.3378.15426103544070573982@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 14:20:02 -0000
+Message-Id: <169625640263.4868.5248870597310362329@gitolite.kernel.org>
 
---===============0035861993229809206==
+--===============8098757434612457662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 8bea147dfdf823eaa8d3baeccc7aeb041b41944b
-    new: a00e197daec52bcd955e118f5f57d706da5bfe50
+  - ref: refs/heads/usb-testing
+    old: eb9c996f0110de117bf4d4e2ba837790a17d9ed2
+    new: 358ad297e379ff548247e3e24c6619559942bfdd
     log: |
-         9f35d612da5592f1bf1cae44ec1e023df37bea12 usb: cdns3: Modify the return value of cdns_set_active () to void when CONFIG_PM_SLEEP is disabled
-         3061b6491f491197a35e14e49f805d661b02acd4 usb: gadget: udc-xilinx: replace memcpy with memcpy_toio
-         e59e38158c61162f2e8beb4620df21a1585117df usb: misc: onboard_hub: add support for Microchip USB2412 USB 2.0 hub
-         a00e197daec52bcd955e118f5f57d706da5bfe50 usb: typec: ucsi: Clear EVENT_PENDING bit if ucsi_send_command fails
+         80920e21269265fd6fc5abf825af77ea2d100c8a usbmon: Use list_for_each_entry() helper
+         7ca9f9ba8aa7380dee5dd8346b57bbaf198b075a usb: pci-quirks: group AMD specific quirk code together
+         52e24f8c0a102ac76649c6b71224fadcc82bd5da usb: pci-quirks: handle HAS_IOPORT dependency for AMD quirk
+         358ad297e379ff548247e3e24c6619559942bfdd usb: pci-quirks: handle HAS_IOPORT dependency for UHCI handoff
          
 
---===============0035861993229809206==
+--===============8098757434612457662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696256254 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696256399 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1696256253-ca1ab0fd5284b24c95f23fbfa1d0c5bed209b91c
+nonce 1696256399-d16ba9051da300e0a86c296a29ad3cd71fae2500
 
-8bea147dfdf823eaa8d3baeccc7aeb041b41944b a00e197daec52bcd955e118f5f57d706da5bfe50 refs/heads/usb-linus
+eb9c996f0110de117bf4d4e2ba837790a17d9ed2 358ad297e379ff548247e3e24c6619559942bfdd refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUa0P4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NVQP/2bnjXi/9nU3rx8XVIqj
-IaVBrporFctzL00OKZllnzm7fHZ1SmS7Og49zcvDZSLigmzLT6+FC6SwAv+wdsqr
-pK7pBvmq78UgIrH7h7TzZ0QGkjpRiteprRbadMcWjX42odTWk91mcrGQAx0OzJvR
-6FgnGu5HzfT1I95RIt9XG9TsPwWwTBjHQZbI27mCFGfawW2tPJGAzp4tP+3Lqlce
-06+1BhsPr2Xi3zVlsDUePM1uY2cCPeQ1lEs8Kt8IsfyvR/tH8pfM+IHXrs5t4F87
-CgdPD0rK92rgbYp1V+izxtOJ74SfFqOALvd9mULsVaTTRwRAWfiCPyMmZl2wkuwp
-SDxtg/ezvGmZ28L3o2TT5tONgd1FaXaEHi9coOu1ZiE+etRqby1A2EIISHV0NSjW
-Pm0CWq+l1bnWuwk7w0M/ghVfiKEfYQ7yqwjKwynuc9MBQLPTrbLF59blfTBBbxA7
-9RIl3qdaf7uuSnhsKtGsU29gtJbjflpxfJDugVeUJteX/rL54RQUfKPCeky9ie3g
-G3fTZpo3lf4MQkHmNiMHc8XLEht/O/GXkcTDGp7CrmmFKs/+MCD2TtjsZS/AQY+t
-ib9qZcHiSUgtcXLrpAQw9OPW0hfC49lFrdT+TYxqxFag6FshR/FJzl5UwJHIh2HE
-bkK2YNwQOfaKNYkG5lz58BC9
-=QKgC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUa0Y8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5aAP/AjQiM2KD1ISj8n9hJIz
+73rCirjxtFKnApxDeIjnFpwJMdmFkN2zuze+WuQf7rnkoU5/rPbXPqgA9EEFsL6v
+BfBewwXbYILKzauUjV/5aYicPVr3HZU2cpwhYgnhevAFTW9Eto4A6KSi+m13oL92
+citg5gMc9KW1gFwb73kHbBDyo/vByYPFrD6QHBpmwKGpzccJcJsXnXef+vWCsyND
+39bx3HFUxQJaKwhzczbM3E/w80gY8OHgp/Jntxg9JoQ8s/2VQ5aW781ML2Vs6UD3
+/1drafYzPAyselMZR3V1Yn8Oq94h5Ae9i0dhek6/eFEciACLVxrWkYBlKjKgQCDc
+9NYbJonmfiVytLdoOLD7bj1QWL3/v/ZtjQpcZhnhRh8ImLfrFCiorvYX/UjGQSTU
+E62v4u9c9ZicOv8KD6ZGLwA49z50CYltJnI7/x5Bt2xwguhErmwUrTkAWLTwLJhj
+Vgv4ITwSvleJi/VCAZoxbo+hG5CDc4ZnxerZtpHRUA9ioRRCPvgTSER1Mr+zG17F
+9v71MYRdHemwK14QgsVwsA5Jyu5cRBIv1GjQu9HZ4rSrl9iBQa2cKyFtWtuSs1qC
+ikhAOZN3uYbzkhd2CNxmlSicjTEZlum8chMsmRtRCE4+Y3AHre1HK5rywEk4wrsT
+FfCJADcn8NtnQQvbh9QeAaGI
+=8A69
 -----END PGP SIGNATURE-----
 
---===============0035861993229809206==--
+--===============8098757434612457662==--
