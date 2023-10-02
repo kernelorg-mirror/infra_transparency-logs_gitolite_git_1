@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0409568444687677733=="
+Content-Type: multipart/mixed; boundary="===============1722076592642266946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 02 Oct 2023 14:33:13 -0000
-Message-Id: <169625719343.13839.18425623190050533313@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 14:34:12 -0000
+Message-Id: <169625725250.14257.13685273652902465879@gitolite.kernel.org>
 
---===============0409568444687677733==
+--===============1722076592642266946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 358ad297e379ff548247e3e24c6619559942bfdd
-    new: b447e9efe50a1d64070c4f3ec1b1ee1882ee9c7a
+  - ref: refs/heads/usb-linus
+    old: a00e197daec52bcd955e118f5f57d706da5bfe50
+    new: cf97c5e0f7dda2edc15ecd96775fe6c355823784
     log: |
-         0e650c94a422be51b1dbe3cb4598ab247adabb29 dt-bindings: usb: ci-hdrc-usb2: Allow "fsl,imx27-usb" to be passed alone
-         ba6b83a910b6d8a9379bda55cbf06cb945473a96 usb: xhci-mtk: add a bandwidth budget table
-         5c954e030f55b40b0b538c66d1a49a91b727f4dc usb: xhci-mtk: improve split scheduling by separate IN/OUT budget
-         dbc1defec1aa7d8d80da3ea9e3ddafbcfca8f822 usb:typec:tcpm:support double Rp to Vbus cable as sink
-         bb9f10ff6709e15fb935c954f1fb715ac1f970e7 dt-bindings: usb: add device for Genesys Logic hub gl3510
-         b447e9efe50a1d64070c4f3ec1b1ee1882ee9c7a usb: misc: onboard_usb_hub: add Genesys Logic gl3510 hub support
+         41a43013d2366db5b88b42bbcd8e8f040b6ccf21 usb: xhci: xhci-ring: Use sysdev for mapping bounce buffer
+         d7cdfc319b2bcf6899ab0a05eec0958bc802a9a1 xhci: track port suspend state correctly in unsuccessful resume cases
+         15f3ef070933817fac2bcbdb9c85bff9e54e9f80 xhci: Clear EHB bit only at end of interrupt handler
+         cf97c5e0f7dda2edc15ecd96775fe6c355823784 xhci: Preserve RsvdP bits in ERSTBA register correctly
          
 
---===============0409568444687677733==
+--===============1722076592642266946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696257190 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696257249 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1696257190-a0e1e02e9dc7a67844144072756cc01d278c6388
+nonce 1696257248-baa9b11d5481740b8972fc26b37f444d9a46169f
 
-358ad297e379ff548247e3e24c6619559942bfdd b447e9efe50a1d64070c4f3ec1b1ee1882ee9c7a refs/heads/usb-testing
+a00e197daec52bcd955e118f5f57d706da5bfe50 cf97c5e0f7dda2edc15ecd96775fe6c355823784 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUa1KYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dPMQAJ1NgqdsVtSHKqHoZ1PM
-quQ93jdPTdF0FLDMv0QAG0o0vky9sj6SnvVvRnJ6oBAdpGTtfh4LNWACik9MJDh/
-CtlG/se8mrhAi3K7TuudUHJ+wDOGzQkZ7wQ69IXH6McahHhfy21ZjcwQXisqKbj1
-U9+bSFS1enhfsUy3LbgPiLRJ78vJPYaZDsw+tzULT5Y7gp2/zM4YiFzdQrt1LU6g
-gapVb5qWxdqo8XsN7WWSBgoZqA1UzBPnuhbM8swoK0gMSjqNKyvzV/MGlWAUyxoD
-7tQpWECH52kj2xwkoVhTeYm9W9T0/eMRafGNX2ZGkkxd67eALv/c+iWEbfeJgTz+
-vEzE7zItIacKrH1aLqTQCbwuu9IpBEQsd6aN8j8CFgz7OM2MF7qLHklWMqYY5TWb
-s7isZFEQ/Q2or/2Q2yXlgyHuVMjdQx/JqU0KIoxE6oYn/Rt0eD1IWF/1/VkA2NYb
-EDzPb44pSthSkMigfzoIU6us7YaVTRZeiw0x+q+V8YQOTn6ZEcSEC0ws6/FUhr68
-61bdumxgK0s1uH/CY+oPvtXaDeyZAfsFib8MeImsMerVd4IKH+TuT+HEMBwXEgaA
-9pJBpDJyY4Z+ivNE5DgpcscuWEePFTz7IazAp7ExqK3MOfgWfUfy/t51Fv14KzwQ
-SODWH9xHhgl+k0KHxVTn2kkY
-=uH5M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUa1OEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q94QAJZhLDSy6OfgJgCju6gL
+7zHcDLA13atPfpEmcf170I0i1aea5jTxlTMsvehjus8kt0vkWbeCW8+JYG4OAuTv
+2incLg+hEJPhLGakWaUVKw9BkXxQUeExgpNNkUlrtBX5Fri6Ow4x75qEz2Jdh7BK
+NhomcMcbDytBLW3vmDJWhewXOibTaKg2h5H8U9OeCz5PTeY454JY9U1llqqSBwze
+6DKJnsuSRCfXPx3ARAQfWKEOGP8Fw4t+tVl8ObNJNYWgPiDih2AbBr+KmEp8u6DU
+eliUg6q3juydgSZN1H/hiOaxp8KlF7GsV9IXoaC8QJv9sBiuEnN8R07UTaH30Dqz
+3qAlHFRTaC8B+KOrMRa3H+fVmpDp6U34rPa1uPjuWIJ7ZZLd+gnYu2u4vPWEO3xa
+SiVwaiBqXwow2MlCZmMyXqqq/6IMIb/3muId1FUkNyxHsTDMmtNQBsWzsEMB95nC
+xnMyHuvpBZaFuIm/HiBQF0/yFeCFTQqGNTYYREM9/LHGjxPGxl2Vr/G2bFwqbRW+
+f5D6hYZ87I+oy3oDyms8HmDOJK6SURIN6tL8StRis6eDGN2zxwZ/C93+Q15YCvyM
+oGIaOQUlwOfOSLzHI5ShfbI0I+uHsry6frhLX16c2csjbEboZ1hFh7KOo4GjbwYL
+e0vg8/KRmJdnkin95P3o4NiL
+=ygMy
 -----END PGP SIGNATURE-----
 
---===============0409568444687677733==--
+--===============1722076592642266946==--
