@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 02 Oct 2023 14:40:05 -0000
-Message-Id: <169625760576.20856.8530282245383212741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Oct 2023 14:42:12 -0000
+Message-Id: <169625773225.21648.6159854581837414936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: c95b52caacc8ef5c1235fb3754186e981b109bdb
-    new: 6f9cdcfcc7598c7d7b19c4a5120a251a80dab183
+  - ref: refs/heads/irq/maintainers
+    old: 58965a768fa55f72c8821b6187b378d4966d0579
+    new: 50edf4f694d57b1392dba80791863fc26f8c3444
     log: |
-         6f9cdcfcc7598c7d7b19c4a5120a251a80dab183 iolog: don't truncate time values
+         439265894aa15f32b458912e3e81ca5913ffdf5c MAINTAINERS: Add myself as the ARM GIC maintainer
+         50edf4f694d57b1392dba80791863fc26f8c3444 MAINTAINERS: Remove myself from the general IRQ subsystem maintenance
          
