@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4394861099647208832=="
+Content-Type: multipart/mixed; boundary="===============2302088992516898904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 02 Oct 2023 15:41:27 -0000
-Message-Id: <169626128783.1885.5877276553844659853@gitolite.kernel.org>
+Date: Mon, 02 Oct 2023 15:47:30 -0000
+Message-Id: <169626165086.5752.4284485708456920234@gitolite.kernel.org>
 
---===============4394861099647208832==
+--===============2302088992516898904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 7c7dd1d64910d07ab36b858d53d00e89b6d918d6
-    new: 436e5f758d6fbc2c5903d59f2cf9bb753ec77d9e
-    log: revlist-7c7dd1d64910-436e5f758d6f.txt
+  - ref: refs/heads/dev-queue
+    old: 16d68c3b24386ec40de86dde4645b0d19e5c0140
+    new: 401338ca092cb4e42bc0b150aa1a5e04b5a3616b
+    log: revlist-16d68c3b2438-401338ca092c.txt
 
---===============4394861099647208832==
+--===============2302088992516898904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c7dd1d64910-436e5f758d6f.txt
+Content-Disposition: attachment; filename=revlist-16d68c3b2438-401338ca092c.txt
 
 d938a8cca88a5f02f523f95fe3d2d1214f4b4a8d ice: Auxbus devices & driver for E822 TS
 af3c5c8748e6d286d4f2dd9800f9d27f29b8e2ef ice: Use PTP auxbus for all PHYs restart in E822
@@ -71,5 +71,39 @@ c755655c3d8b2a4afe9610ec58a41c08d62c8ec0 mlxsw: reg: Limit MTBR register payload
 7afc79e20e22dc3ca552a75665b51b5a93e29632 mlxsw: core: Extend allowed list of external cooling devices for thermal zone binding
 1f73286371c27cca0fd0094962e480e2b9ef3809 mlxsw: i2c: Utilize standard macros for dividing buffer into chunks
 436e5f758d6fbc2c5903d59f2cf9bb753ec77d9e Merge branch 'mlxsw-next'
+5172da5410884ebfbd7b5919887704069e30cca8 ice: fix linking when CONFIG_PTP_1588_CLOCK=n
+8166a65539201663ee4360d379cfa246ed554fd6 idpf: fix undefined reference to tcp_gro_complete() when !CONFIG_INET
+632f20baba8f7027f0cc39ea4d96d54efac2070a i40e: Remove back pointer from i40e_hw structure
+891d6d3c0ea30c4e9d96bb1b5324b746c1a03439 i40e: Move I40E_MASK macro to i40e_register.h
+86402eb974cf3bcc672db83656ea37de0ea3cf29 i40e: Refactor I40E_MDIO_CLAUSE* macros
+187fcb670e64fc1a91cb24269859a34a40a1837f virtchnl: Add header dependencies
+18bb8a425e2f6f6f2a06b3dc21283df9bad46a38 i40e: Simplify memory allocation functions
+b0f1aecc484678594b212359e6cec2f39b589e56 i40e: Move memory allocation structures to i40e_alloc.h
+0782039249ce390d3cd50a983a68e539c9d31f8e i40e: Split i40e_osdep.h
+0bffdcd60fb0d57bf97b082c7bd1b5fb95bf409c i40e: Remove circular header dependencies and fix headers
+994677494765db96d3b8119f38be5d9f736b4243 i40e: Move DDP specific macros and structures to i40e_ddp.c
+715769d62256c6d2a7b25e033b2b4bb48012bdd2 i40e: fix livelocks in i40e_reset_subtask()
+335f52740c6ed085a3be8eeeea44a8a0817153af i40e: fix 32bit FW gtime wrapping issue
+bf88994896fcc37c3eadc8a10662cd81cfa3bf72 i40e: add tracepoints for nvmupdate troubleshooting
+034d1de80cfda51d54ebb5f7432fb70a148f2ae3 ice: remove unused ice_flow_entry fields
+137bd8f3279453f997d89225934cbe6d142cd144 ice: remove FW logging code
+cb53ea2b988b86e63943cba6794e698c36370d4b ice: configure FW logging
+04057668a4d756368692162427c0dbdb760212d9 ice: enable FW logging
+9848b2ccc2504f8ec625e17085d55fcb1eca3f5f ice: add ability to read FW log data and configure the number of log buffers
+70cbf653b4e18c2defc34ecf85088c9307378d81 ice: add documentation for FW logging
+a11511bfbc260ef22b1aa3baf7fa9928ceb12c06 iavf: remove "inline" functions from iavf_txrx.c
+c91130578f79ad4fbd461d99064104ea1dd1102a ice: add drop rule matching on not active lport
+e019ec29b7346040b7b5be7aae2732548401693f ice: don't stop netdev tx queues when setting up XSK socket
+bdac0af28023fbbbdf181f6ac08e9e85d31577cf i40e: Add rx_missed_errors for buffer exhaustion
+a66b602d0858bf46c9d9f97beb9481b7dbb6250c ice: Add support for packet mirroring using hardware in switchdev mode
+85f29c6087537803b1c25e15fccd139c59ce13c6 ice: store VF's pci_dev ptr in ice_vf
+05d6c0f073167c4a801387432339e2cd85010c5d ice: block default rule setting on LAG interface
+48692bf2165dac55a0d6ed0d2978593816a4c9da ice: always add legacy 32byte RXDID in supported_rxdids
+c191bb75196c64cca4c6f448ac0c02b64b4ae48a ice: make ice_get_pf_c827_idx static
+bb12ce418eb3deeeb7919b933e4768326600169e ice: cleanup ice_find_netlist_node
+6341f23605c295a39719ea2fa7effd3a6f821427 igc: Simplify setting flags in the TX data descriptor
+01b0de28f4bea0a019bb3342cd3b5e5dbdc5b634 igc: Add support for PTP .getcyclesx64()
+30dfb23df2f5861be632b79c36fcc6e8a84c06a6 idpf: set scheduling mode for completion queue
+401338ca092cb4e42bc0b150aa1a5e04b5a3616b iavf: Avoid a memory allocation in iavf_print_link_message()
 
---===============4394861099647208832==--
+--===============2302088992516898904==--
