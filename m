@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Tue, 03 Oct 2023 15:53:41 -0000
-Message-Id: <169634842151.5271.6370447475930125323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 03 Oct 2023 16:07:06 -0000
+Message-Id: <169634922611.14746.10706513804920407467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/md-fixes
-    old: a578a25339aca38e23bb5af6e3fc6c2c51f0215c
-    new: 2fd7b0f6d5ad655b1d947d3acdd82f687c31465e
+  - ref: refs/heads/vfs.misc
+    old: b7dccc11ceadfc7d2fc93e087a8020e85c78cd83
+    new: 165bb7140aa4946f52a399f1c14e06881586e27c
     log: |
-         2fd7b0f6d5ad655b1d947d3acdd82f687c31465e md/raid5: release batch_last before waiting for another stripe_head
+         73ad639ef18af15b83e4f8b38cc7dee0de2c7c76 file: convert to SLAB_TYPESAFE_BY_RCU
+         165bb7140aa4946f52a399f1c14e06881586e27c vfs: fix readahead(2) on block devices
          
