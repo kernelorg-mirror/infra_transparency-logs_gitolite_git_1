@@ -1,61 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4021953495722327511=="
+Content-Type: multipart/mixed; boundary="===============4656286599065765638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 03 Oct 2023 14:51:03 -0000
-Message-Id: <169634466330.26437.15046076839150440087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 03 Oct 2023 15:02:10 -0000
+Message-Id: <169634533033.1067.15527460560952118923@gitolite.kernel.org>
 
---===============4021953495722327511==
+--===============4656286599065765638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master-pending
-    old: 2b51b76a974aa20dc899859793e630a53c9cc21f
-    new: e1db862834ce08cb1e24d62f71e6dcb8cb8fdaac
-    log: revlist-2b51b76a974a-e1db862834ce.txt
-  - ref: refs/heads/pending
-    old: 367f538a7fd06ce060128afa6847333f669e879a
-    new: 32f051e5fc8d1462db0efa3a883b6283e2c9c630
-    log: |
-         322a487c53f84e4586f5bbed33bd373e25abfe42 wifi: ath10k: simplify ath10k_peer_create()
-         5a7bc53e999ffa207255c2b09c065d4463a3437c wifi: ath12k: add configure country code for WCN7850
-         036876af1b05c1c859e4d29891dc8e09c728e7f8 wifi: ath12k: add 11d scan offload support
-         5b67d323595e1f80d45a9f901aa5511ce41fb877 wifi: ath12k: avoid firmware crash when reg set for WCN7850
-         3ab5367c39cc0efed3a68cde2f7a210fa4932704 wifi: ath12k: store and send country code to firmware after recovery
-         f7f27c1a46841a7d974cdfb950637a20b6f63e7a wifi: ath12k: read country code from SMBIOS for WCN7850
-         e9f9b473b39d339c6ce9d6157f089eb98662f111 wifi: ath11k: fix CAC running state during virtual interface start
-         6eacc3b5a70ab3f92f9410839870edbb21c9d051 wifi: ath11k: fix Tx power value during active CAC
-         32f051e5fc8d1462db0efa3a883b6283e2c9c630 wifi: ath10k: mac: enable WIPHY_FLAG_CHANNEL_CHANGE_ON_BEACON on ath10k
-         
-  - ref: refs/tags/ath-pending-202310031449
-    old: 0000000000000000000000000000000000000000
-    new: e1db862834ce08cb1e24d62f71e6dcb8cb8fdaac
+  - ref: refs/heads/for-next/ffa/updates
+    old: 02c1e2f8c40575d195ff824977b5fc331797d88f
+    new: d4ac1eb0a5ee1051b2ded9676201743388272898
+    log: revlist-02c1e2f8c405-d4ac1eb0a5ee.txt
 
---===============4021953495722327511==
+--===============4656286599065765638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b51b76a974a-e1db862834ce.txt
+Content-Disposition: attachment; filename=revlist-02c1e2f8c405-d4ac1eb0a5ee.txt
 
-322a487c53f84e4586f5bbed33bd373e25abfe42 wifi: ath10k: simplify ath10k_peer_create()
-9d65aa8dd18a67eee690933d1312b176916b3dd5 Merge branch 'ath-next'
-410c9e486c1a1f8a90c0d704f90b001c187c8b2a Merge remote-tracking branch 'mhi/mhi-next'
-41f9827213b3975005d88c9fef5393d053017a15 Add localversion-wireless-testing-ath
-140accd3f29eee6507f8a51bc38e85c119aedf14 Revert "PCI: Release resource invalidated by coalescing"
-5a7bc53e999ffa207255c2b09c065d4463a3437c wifi: ath12k: add configure country code for WCN7850
-036876af1b05c1c859e4d29891dc8e09c728e7f8 wifi: ath12k: add 11d scan offload support
-5b67d323595e1f80d45a9f901aa5511ce41fb877 wifi: ath12k: avoid firmware crash when reg set for WCN7850
-3ab5367c39cc0efed3a68cde2f7a210fa4932704 wifi: ath12k: store and send country code to firmware after recovery
-f7f27c1a46841a7d974cdfb950637a20b6f63e7a wifi: ath12k: read country code from SMBIOS for WCN7850
-e9f9b473b39d339c6ce9d6157f089eb98662f111 wifi: ath11k: fix CAC running state during virtual interface start
-6eacc3b5a70ab3f92f9410839870edbb21c9d051 wifi: ath11k: fix Tx power value during active CAC
-32f051e5fc8d1462db0efa3a883b6283e2c9c630 wifi: ath10k: mac: enable WIPHY_FLAG_CHANNEL_CHANGE_ON_BEACON on ath10k
-e1db862834ce08cb1e24d62f71e6dcb8cb8fdaac Merge branch 'pending' into master-pending
+909f399cccdbf1274f5e8cd95337702895cf46b2 firmware: arm_ffa: Update the FF-A command list with v1.1 additions
+56aad034fd083f1f72013a7cc32869cd0b745483 firmware: arm_ffa: Implement notification bitmap create and destroy interfaces
+128b160d679256cb2f8a8e1eb6da8724a00e0e0f firmware: arm_ffa: Implement the notification bind and unbind interface
+7d3aca4603f138cffb2a495bd980648476119be3 firmware: arm_ffa: Implement the FFA_RUN interface
+a047cb3c56293481eff78c3efdff1db109ffefd4 firmware: arm_ffa: Implement the FFA_NOTIFICATION_SET interface
+89ebdfb70ed6c5535c10f8a52456d09de362df52 firmware: arm_ffa: Implement the FFA_NOTIFICATION_GET interface
+afec58a4e11a4103d0e780d00d7e7e49fe806f1f firmware: arm_ffa: Implement the NOTIFICATION_INFO_GET interface
+99bcae9f2b0c0359c08b3c8ec0e24a5c69667ae2 firmware: arm_ffa: Initial support for scheduler receiver interrupt
+c9d21ea97aae5797c0c135409ff79c895c1aca5e firmware: arm_ffa: Add schedule receiver callback mechanism
+93040d860161aad333d48732c41bb5eaf80f8e1c firmware: arm_ffa: Add interfaces to request notification callbacks
+26d61153e1adf10c8e36d94bff38cf141575c779 firmware: arm_ffa: Add interface to send a notification to a given partition
+9107d12f8ddb4f84a3332d547bd3648ab24edd67 firmware: arm_ffa: Add notification handling mechanism
+516801cd87c99b12203654173e6226f4431a9f2f firmware: arm_ffa: Simplify the computation of transmit and fragment length
+3dab1017d5433aae0c49cedac392786c1d6691bd KVM: arm64: FFA: Remove access of endpoint memory access descriptor array
+2a9f7955c4ef52086a1368a1326a9ee4f606db30 firmware: arm_ffa: Switch to using ffa_mem_desc_offset() accessor
+752f8b957d939fdd55cb15d2f515a9bdba6ba51e firmware: arm_ffa: Update memory descriptor to support v1.1 format
+d4ac1eb0a5ee1051b2ded9676201743388272898 firmware: arm_ffa: Upgrade the driver version to v1.1
 
---===============4021953495722327511==--
+--===============4656286599065765638==--
