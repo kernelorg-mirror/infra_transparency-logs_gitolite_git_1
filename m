@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 03 Oct 2023 12:51:17 -0000
-Message-Id: <169633747708.4158.15262226843060553740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Oct 2023 12:57:16 -0000
+Message-Id: <169633783646.7810.14994339536049557966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: e50274ae1f595157250732a3169be32304812711
-    new: c52d5e9725ba35d8c531ff117e19617c999363d0
+  - ref: refs/heads/master
+    old: dd061a8cde5acd346c9d94c271604069b242f521
+    new: 86e0173ddddd6a91e40e21fadc31c3c3df4ee639
     log: |
-         a154f5f643c6ecddd44847217a7a3845b4350003 scsi: target: core: Fix deadlock due to recursive locking
-         514f0c400bde6b62405467daaf2a0a86bcf7794b scsi: fnic: Fix sg_reset success path
-         b481f644d9174670b385c3a699617052cd2a79d3 scsi: zfcp: Fix a double put in zfcp_port_enqueue()
+         2f2fc17bab0011430ceb6f2dc1959e7d1f981444 sched/eevdf: Also update slice on placement
+         650cad561cce04b62a8c8e0446b685ef171bc3bb sched/eevdf: Fix avg_vruntime()
+         561c58efd2394d76a32254d91e4b1de8ecdeb5c8 sched/fair: Fix pick_eevdf()
+         86e0173ddddd6a91e40e21fadc31c3c3df4ee639 Merge branch into tip/master: 'sched/urgent'
          
