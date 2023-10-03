@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8550110332779047666=="
+Content-Type: multipart/mixed; boundary="===============2300464954965625188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 03 Oct 2023 06:08:45 -0000
-Message-Id: <169631332598.23960.10681149537045360220@gitolite.kernel.org>
+Date: Tue, 03 Oct 2023 06:12:05 -0000
+Message-Id: <169631352598.26750.2992155083781749268@gitolite.kernel.org>
 
---===============8550110332779047666==
+--===============2300464954965625188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 562fc2b011e213b5a127cda523110f0698770606
-    log: revlist-0bb80ecc33a8-562fc2b011e2.txt
+  - ref: refs/heads/ti-next
+    old: 82e83cb51c87b5bf3ab83f7c7b150c19400056c2
+    new: 3eaab2f9d8806e6c62a76b590d1250e3bfb20086
+    log: revlist-82e83cb51c87-3eaab2f9d880.txt
 
---===============8550110332779047666==
+--===============2300464954965625188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-562fc2b011e2.txt
+Content-Disposition: attachment; filename=revlist-82e83cb51c87-3eaab2f9d880.txt
 
 7c3bc1952dd2b02983c06632b2d342823e9d6b96 arm64: dts: ti: verdin-am62: add iw416 based bluetooth
 87e437a0fb6cbecbabff293061793b32e3bcd3b1 arm64: dts: ti: k3-am625: Add boot phase tags marking
@@ -54,5 +54,6 @@ ee89d4e60ba7f9fa91fa73e1af3e2c1461700449 arm64: dts: ti: k3-am69-sk: Add DDR car
 97bc20997109590bb17f96f00dbde15cfda9a4b0 arm64: dts: ti: Add USB Type C swap defines for J721S2 SoC
 70beb4c1ab8613356ea3d6ae9f7e8a143e1474f0 arm64: dts: ti: k3-am68-sk: Add DT node for PCIe
 562fc2b011e213b5a127cda523110f0698770606 arm64: dts: ti: k3-am68-sk: Add DT node for USB
+3eaab2f9d8806e6c62a76b590d1250e3bfb20086 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============8550110332779047666==--
+--===============2300464954965625188==--
