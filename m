@@ -1,43 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5278082519625505573=="
+Content-Type: multipart/mixed; boundary="===============5716530382505961236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 03 Oct 2023 19:32:04 -0000
-Message-Id: <169636152436.32298.17805459385316761971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Oct 2023 19:34:03 -0000
+Message-Id: <169636164385.643.3691115156655082287@gitolite.kernel.org>
 
---===============5278082519625505573==
+--===============5716530382505961236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5e62ed3b1c8a397185af53d6b94f04b9ff21ec7d
-    new: cbf3a2cb156a2c911d8f38d8247814b4c07f49a2
-    log: revlist-5e62ed3b1c8a-cbf3a2cb156a.txt
+    old: eece8a191c24cc623dbe99b17249a5dd4c29e38c
+    new: 5e16cbb20a6cc292a0a521bbc18c85c2f5d538f4
+    log: revlist-eece8a191c24-5e16cbb20a6c.txt
 
---===============5278082519625505573==
+--===============5716530382505961236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e62ed3b1c8a-cbf3a2cb156a.txt
+Content-Disposition: attachment; filename=revlist-eece8a191c24-5e16cbb20a6c.txt
 
-7e37c851374eca2d1f6128de03195c9f7b4baaf2 regulator: mt6358: split ops for buck and linear range LDO regulators
-7a795ac8d49e2433e1b97caf5e99129daf8e1b08 regmap: rbtree: Fix wrong register marked as in-cache when creating new node
-8adb4e647a83cb5928c05dae95b010224aea0705 regulator/core: regulator_register: set device->class earlier
-6e800968f6a715c0661716d2ec5e1f56ed9f9c08 regulator/core: Revert "fix kobject release warning and memory leak in regulator_register()"
-5623ecfcbec165f040a23248d39680f0cc5c0854 SUNRPC: Fail quickly when server does not recognize TLS
-ed1cc05aa1f7fe8197d300e914afc28ab9818f89 NFSv4: Fix a nfs4_state_manager() race
-956fd46f97d238032cb5fa4771cdaccc6e760f9a NFSv4: Fix a state manager thread deadlock regression
-a275ab62606bcd894ddff09460f7d253828313dc Revert "SUNRPC dont update timeout value on connection reset"
-26e8bfa30dac2ccd29dd25f391dfc73475c33329 SUNRPC/TLS: Lock the lower_xprt during the tls handshake
-dd1b2026323a2d075ac553cecfd7a0c23c456c59 nfs: decrement nrequests counter before releasing the req
-cdcb5d194f192ed07f4e4bb85b866cdc8f420ee6 Merge tag 'regmap-fix-v6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-7cccbeca90151fcd5d1afa8b22c2e2832bc5f197 Merge tag 'regulator-fix-v6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-cbf3a2cb156a2c911d8f38d8247814b4c07f49a2 Merge tag 'nfs-for-6.6-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
+2869663348e1a427e7eb4e0b260fc36b3ae1f9c5 Merge branch into tip/master: 'irq/urgent'
+2b9a18b23ce12dce72dd2454c3d9d7eeff4e9856 Merge branch into tip/master: 'sched/urgent'
+e702fa6e46f31ed788310bd0e3f774708e00798b Merge branch into tip/master: 'core/core'
+fb742a1fb71325972f9622d180f2db92f1ec84e8 Merge branch into tip/master: 'irq/core'
+a9cadc39c349afa862ac6ba366dc825f3eed9d9f Merge branch into tip/master: 'locking/core'
+4895ee83b3cc76986c284594d12408c2abf45247 Merge branch into tip/master: 'objtool/core'
+8f7702eb5346cd1a300a3fb5f521b790be71c2d2 Merge branch into tip/master: 'perf/core'
+df6fdbf0964ff7a3db697692c62929278532665f Merge branch into tip/master: 'sched/core'
+ac788c33eb04724c4b57f4c911ba48d4bcf813d6 Merge branch into tip/master: 'smp/core'
+d6a451e974268e5f626687d59627ae93e802a9c8 Merge branch into tip/master: 'timers/core'
+c932a21dba7b6afd9120bb41b8cf4c7e17a26e23 Merge branch into tip/master: 'x86/apic'
+167f749d8cfb12f3087cff1e77b8c45c777a2e9c Merge branch into tip/master: 'x86/asm'
+73a3d766725284434186deb876d42e2e57473dca Merge branch into tip/master: 'x86/boot'
+adbaa43c03a3932002cf99e15dcbd1351997506a Merge branch into tip/master: 'x86/bugs'
+0ceae9f16662ff2faaef15719f2f7d68255e3cd7 Merge branch into tip/master: 'x86/cpu'
+951d12902043c1af8ea1a3e65e5766f4e1c653ff Merge branch into tip/master: 'x86/entry'
+9df326547379e5e05d875f5d00037cd6d68ada3b Merge branch into tip/master: 'x86/headers'
+5812deb38824f31fa95efe2b8729b695ac80618b Merge branch into tip/master: 'x86/mm'
+2b00a94a2de8c07e8f149df9da3cabd96f008674 Merge branch into tip/master: 'x86/platform'
+5e16cbb20a6cc292a0a521bbc18c85c2f5d538f4 Merge branch into tip/master: 'x86/tdx'
 
---===============5278082519625505573==--
+--===============5716530382505961236==--
