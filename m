@@ -1,20 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Oct 2023 19:28:14 -0000
-Message-Id: <169636129420.29286.7732823843746840174@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5278082519625505573=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 03 Oct 2023 19:32:04 -0000
+Message-Id: <169636152436.32298.17805459385316761971@gitolite.kernel.org>
+
+--===============5278082519625505573==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 1952e4c173731b26da90f39437accd7ff4cf1fe4
-    new: eece8a191c24cc623dbe99b17249a5dd4c29e38c
-    log: |
-         d4d6596b43868a1e05fe5b047e73c3aff96444c6 sched/headers: Remove duplicate header inclusions
-         eece8a191c24cc623dbe99b17249a5dd4c29e38c Merge branch into tip/master: 'sched/core'
-         
+    old: 5e62ed3b1c8a397185af53d6b94f04b9ff21ec7d
+    new: cbf3a2cb156a2c911d8f38d8247814b4c07f49a2
+    log: revlist-5e62ed3b1c8a-cbf3a2cb156a.txt
+
+--===============5278082519625505573==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5e62ed3b1c8a-cbf3a2cb156a.txt
+
+7e37c851374eca2d1f6128de03195c9f7b4baaf2 regulator: mt6358: split ops for buck and linear range LDO regulators
+7a795ac8d49e2433e1b97caf5e99129daf8e1b08 regmap: rbtree: Fix wrong register marked as in-cache when creating new node
+8adb4e647a83cb5928c05dae95b010224aea0705 regulator/core: regulator_register: set device->class earlier
+6e800968f6a715c0661716d2ec5e1f56ed9f9c08 regulator/core: Revert "fix kobject release warning and memory leak in regulator_register()"
+5623ecfcbec165f040a23248d39680f0cc5c0854 SUNRPC: Fail quickly when server does not recognize TLS
+ed1cc05aa1f7fe8197d300e914afc28ab9818f89 NFSv4: Fix a nfs4_state_manager() race
+956fd46f97d238032cb5fa4771cdaccc6e760f9a NFSv4: Fix a state manager thread deadlock regression
+a275ab62606bcd894ddff09460f7d253828313dc Revert "SUNRPC dont update timeout value on connection reset"
+26e8bfa30dac2ccd29dd25f391dfc73475c33329 SUNRPC/TLS: Lock the lower_xprt during the tls handshake
+dd1b2026323a2d075ac553cecfd7a0c23c456c59 nfs: decrement nrequests counter before releasing the req
+cdcb5d194f192ed07f4e4bb85b866cdc8f420ee6 Merge tag 'regmap-fix-v6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+7cccbeca90151fcd5d1afa8b22c2e2832bc5f197 Merge tag 'regulator-fix-v6.6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+cbf3a2cb156a2c911d8f38d8247814b4c07f49a2 Merge tag 'nfs-for-6.6-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
+
+--===============5278082519625505573==--
