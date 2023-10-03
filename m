@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 03 Oct 2023 17:01:39 -0000
-Message-Id: <169635249907.21304.10524799478393236771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 03 Oct 2023 17:04:43 -0000
+Message-Id: <169635268344.22506.11630442227551368444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: d70e44fef8621aeae895e1cbc62059df9e31836b
-    new: cffdc28aa2e2b0071bb614a982b0bddc7a0eeb59
+  - ref: refs/heads/enumeration
+    old: 83c088148c8e5c439eec6c7651692f797547e1a8
+    new: 8624ebc300b2418b498cb85463682afc9bde5d54
     log: |
-         32f6776f0083b65a606b542942eef61a0b7f13bf Bluetooth: hci_sync: always check if connection is alive before deleting
-         8e437e71f361195157ec4149eaf06679a85bf188 Bluetooth: ISO: Allow binding a bcast listener to 0 bises
-         cffdc28aa2e2b0071bb614a982b0bddc7a0eeb59 Bluetooth: ISO: Match QoS adv handle with BIG handle
+         8624ebc300b2418b498cb85463682afc9bde5d54 PCI/ACPI: Use acpi_evaluate_dsm_typed()
          
