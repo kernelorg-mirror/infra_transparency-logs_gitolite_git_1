@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Oct 2023 15:35:02 -0000
-Message-Id: <169634730219.24457.10161860867853138557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 03 Oct 2023 15:53:41 -0000
+Message-Id: <169634842151.5271.6370447475930125323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/main
-    old: 8957261cd8149ed9d0738c01c0320bcbff989407
-    new: dfc7f7a988dad34c3bf4c053124fb26aa6c5f916
+  - ref: refs/heads/md-fixes
+    old: a578a25339aca38e23bb5af6e3fc6c2c51f0215c
+    new: 2fd7b0f6d5ad655b1d947d3acdd82f687c31465e
     log: |
-         dfc7f7a988dad34c3bf4c053124fb26aa6c5f916 net: nfc: llcp: Add lock when modifying device list
+         2fd7b0f6d5ad655b1d947d3acdd82f687c31465e md/raid5: release batch_last before waiting for another stripe_head
          
