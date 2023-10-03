@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 03 Oct 2023 16:33:09 -0000
-Message-Id: <169635078933.32735.1233629274783399741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Tue, 03 Oct 2023 16:45:54 -0000
+Message-Id: <169635155471.10810.18082266387620204821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: 66f47343d99d1967ee0e4262a78ed4125643819b
-    new: 0cb3e4af30d360fee2f041411f89591d68c6e4d5
+  - ref: refs/heads/main
+    old: 2ebb47efcda0c1b3e3c58b0ee37e0e2ea2225e15
+    new: 7ef5ec6a2ab66c5afcf8fbc3dcef38b5bf58cbd6
     log: |
-         0cb3e4af30d360fee2f041411f89591d68c6e4d5 station: check disabled band configuration in station_init
+         7ef5ec6a2ab66c5afcf8fbc3dcef38b5bf58cbd6 rteval: Update version to v3.7
          
