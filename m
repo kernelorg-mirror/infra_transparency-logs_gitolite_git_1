@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 03 Oct 2023 21:07:51 -0000
-Message-Id: <169636727180.4662.1276345260294110127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 03 Oct 2023 21:48:26 -0000
+Message-Id: <169636970636.32466.18320600487347226958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 9d140885e35dac6dff2c56eccacc13f4fc96188a
-    new: 19c1c9916dbf9b05157a0c4970f61f952c0cb86a
+  - ref: refs/heads/dev
+    old: ee742b92d38a22630f3aa71b7af2ea206add296e
+    new: 4d2115e8919760c690e30f48cae2f017c1581546
     log: |
-         19c1c9916dbf9b05157a0c4970f61f952c0cb86a selinux: simplify avtab_insert_node() prototype
+         4d2115e8919760c690e30f48cae2f017c1581546 doc: Clarify RCU Tasks reader/updater checklist
          
