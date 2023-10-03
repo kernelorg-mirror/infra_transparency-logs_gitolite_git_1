@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 03 Oct 2023 16:07:06 -0000
-Message-Id: <169634922611.14746.10706513804920407467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 03 Oct 2023 16:19:29 -0000
+Message-Id: <169634996959.23367.16169195989080983145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/vfs.misc
-    old: b7dccc11ceadfc7d2fc93e087a8020e85c78cd83
-    new: 165bb7140aa4946f52a399f1c14e06881586e27c
+  - ref: refs/heads/master
+    old: 740b2eee442178b9885c3c9eb2747e785659e7f0
+    new: ff0beb4f7e4510f4583f0dc7137d7c0d0ef95cd8
     log: |
-         73ad639ef18af15b83e4f8b38cc7dee0de2c7c76 file: convert to SLAB_TYPESAFE_BY_RCU
-         165bb7140aa4946f52a399f1c14e06881586e27c vfs: fix readahead(2) on block devices
+         f1a8b18408e479b75ee5d7f27adf43ad53503c64 Fixes for 6.5
+         6b0482c4f0807a4e8cad86801879244ea13cbf01 Fixes for 6.1
+         f37a7b37f008ece3bf2a9795bc4170a760034468 Fixes for 5.15
+         4dceccec3d8fa814148aed246317326366cde2c9 Fixes for 5.10
+         cb5a0a34786cbb8a5b063c334d29421eba5e0f72 Fixes for 5.4
+         ff0beb4f7e4510f4583f0dc7137d7c0d0ef95cd8 Fixes for 4.19
          
