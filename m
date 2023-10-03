@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 03 Oct 2023 01:50:03 -0000
-Message-Id: <169629780337.3991.11472663400851151938@gitolite.kernel.org>
+Date: Tue, 03 Oct 2023 02:50:04 -0000
+Message-Id: <169630140427.14055.9988587825760049915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,24 +11,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/for-6.7/io_uring
-    old: f31ecf671ddc498f20219453395794ff2383e06b
-    new: 922a2c78f13611e2c08fc48f615c0cd367dcb6da
+  - ref: refs/heads/for-6.7/block
+    old: 03f7b57a5942055ace7ff42c599803461dd20852
+    new: 114b0ff62a6510eb218660cb4925b4c4a01cdd84
     log: |
-         528ce6781726e022bc5dc84034360e6e8f1b89bd io_uring: retain top 8bits of uring_cmd flags for kernel internal use
-         93b8cc60c37b9d17732b7a297e5dca29b50a990d io_uring: cancelable uring_cmd
-         922a2c78f13611e2c08fc48f615c0cd367dcb6da io_uring/rsrc: cleanup io_pin_pages()
+         114b0ff62a6510eb218660cb4925b4c4a01cdd84 cdrom: Remove now superfluous sentinel element from ctl_table array
          
   - ref: refs/heads/for-next
-    old: c2e8af9028049dd9768d0d91ee5894224dd34670
-    new: fba8bdd6fffd76fad84614f6349abf9e19b736bc
+    old: fba8bdd6fffd76fad84614f6349abf9e19b736bc
+    new: 37a145afbf01a62849e2103d8e2b286a531d104e
     log: |
-         922a2c78f13611e2c08fc48f615c0cd367dcb6da io_uring/rsrc: cleanup io_pin_pages()
-         fba8bdd6fffd76fad84614f6349abf9e19b736bc Merge branch 'for-6.7/io_uring' into for-next
+         114b0ff62a6510eb218660cb4925b4c4a01cdd84 cdrom: Remove now superfluous sentinel element from ctl_table array
+         37a145afbf01a62849e2103d8e2b286a531d104e Merge branch 'for-6.7/block' into for-next
          
   - ref: refs/heads/io_uring-6.6
-    old: a52d4f657568d6458e873f74a9602e022afe666f
-    new: fec71e7fd15945e6f0941f7f08d12161d660be9c
+    old: fec71e7fd15945e6f0941f7f08d12161d660be9c
+    new: 163521f069460f99363c46259ac909f5ed0f67ab
     log: |
-         fec71e7fd15945e6f0941f7f08d12161d660be9c io_uring/kbuf: don't allow registered buffer rings on highmem pages
+         163521f069460f99363c46259ac909f5ed0f67ab io_uring: ensure io_lockdep_assert_cq_locked() handles disabled rings
          
