@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8270242835050996236=="
+Content-Type: multipart/mixed; boundary="===============6582381782743739269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Oct 2023 14:32:30 -0000
-Message-Id: <169634355075.12077.3747920396102044746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Oct 2023 14:32:37 -0000
+Message-Id: <169634355746.12179.2632952653503161065@gitolite.kernel.org>
 
---===============8270242835050996236==
+--===============6582381782743739269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 736b884a7b68c4eeb66dbf75b97c8ec9b9eeff7f
     new: 4c9d0d6f63c72cf121d15ab81ab9e1cdf50ec02c
     log: |
@@ -25,28 +25,28 @@ changes:
          4c9d0d6f63c72cf121d15ab81ab9e1cdf50ec02c Remove reset GPIO for AW88261
          
 
---===============8270242835050996236==
+--===============6582381782743739269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1696343549 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1696343548-ee671e9fd36d044ad1d6ad9701e5aeaaebc1a0cb
+pusher C3F436CA30F5D8EB 1696343556 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1696343555-abd62791ee4febd24fe29d1a759410b06c42e4cf
 
-736b884a7b68c4eeb66dbf75b97c8ec9b9eeff7f 4c9d0d6f63c72cf121d15ab81ab9e1cdf50ec02c refs/heads/for-6.7
+736b884a7b68c4eeb66dbf75b97c8ec9b9eeff7f 4c9d0d6f63c72cf121d15ab81ab9e1cdf50ec02c refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUcJf0ACgkQJNaLcl1U
-h9C8TQf9FWn0Z9QmchnTAmb0fe15Kjq/TpukG873Xw7V451YvANUPlw6epJAdo9o
-0vANTpOWi24O+irW9no2mR3I/iJtPwET613X8qXcZFS3C4R+q48i5ICyGHYGUoKM
-FD5Xc7qoSzaLRQur6qKZs+f2Wr44KU+Tllj6b0gqYTCSeTimk/1H/gxOzoRa+11y
-0qtAt68sPxTV58bhoEdKwX5FVoITfDDNilpKdRura2hHrQOzJ0BlLM2GvybWwkX3
-7YK3HCARIjk/l591AalF9q9O507TYNqaG5wj/XRCp7whYb+Ef3IHTkOXjvCzkktl
-rkDHS5I76RB5RXjBHe3CGF+0YV6HdQ==
-=7dfk
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUcJgQACgkQJNaLcl1U
+h9A0NAf/RzRdRXEA9xL3JhfDJ3jsnQiKq6Arkr7HyC8hDcyPWKgTqwItqLsMwDvf
+9SaByLIhS1d8fFhhC5VZc8YVHr/ZlO3LGwTVYXvI54Rxy2OeBY98mNNdWOrZ7MhE
+93w+5AYXy2qZ7JvGpNkcGke2lYjZKhJNP6fe6Ddpl1kE6bUCVPxG0d0AkK2kO+6Z
+P8IbHHFJP+VcHXQrGdYZeytyaC6yY5XXhYDNEjJCe6YH5rmMyGFnklhWOf5cVJmj
+XHRqr6Eii0L5hNBDhMi9CuM9X+MJvpy1shQU1SgniLx3yKkDHcQtM0SmH6h7EqDz
+KAgfTdFUv2ASNeuAt7s1KpUm52GNJg==
+=YjmQ
 -----END PGP SIGNATURE-----
 
---===============8270242835050996236==--
+--===============6582381782743739269==--
