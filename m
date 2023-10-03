@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2328460546016956476=="
+Content-Type: multipart/mixed; boundary="===============8884578718648310079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 03 Oct 2023 01:05:42 -0000
-Message-Id: <169629514215.2988.12497850034778462873@gitolite.kernel.org>
+Date: Tue, 03 Oct 2023 01:05:44 -0000
+Message-Id: <169629514412.3098.12851073496577953948@gitolite.kernel.org>
 
---===============2328460546016956476==
+--===============8884578718648310079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/drivers-for-6.7
-    old: 3337a6fea25370d3d244ec6bb38c71ee86fcf837
-    new: c0989f7d1264b2b1885345a28a32fd5e1e61f9c7
-    log: revlist-3337a6fea253-c0989f7d1264.txt
+  - ref: refs/heads/for-next
+    old: 4b9e79bf480770216d598ed9383c675d50b0ae92
+    new: 870b5222204243ee6dbeada9ad1b90cda9ecb4da
+    log: revlist-4b9e79bf4807-870b52222042.txt
 
---===============2328460546016956476==
+--===============8884578718648310079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3337a6fea253-c0989f7d1264.txt
+Content-Disposition: attachment; filename=revlist-4b9e79bf4807-870b52222042.txt
 
 dd714c568ed4e6f79017be45077de71e9908af03 soc: qcom: icc-bwmon: Convert to platform remove callback returning void
 d85a9d18a58156fc8b5ab185e00e078adaaeefde soc: qcom: llcc-qcom: Convert to platform remove callback returning void
@@ -38,5 +38,6 @@ a47ff90bf2f93ce4ca99858948a74a0c10a2bc45 soc: qcom: qcom_stats: Convert to platf
 1cd966c2dc19654ed08c843e5c933db8c1349636 soc: qcom: smp2p: Convert to platform remove callback returning void
 bdd7cc62cf69fe989557445d65d6c8cb2f956518 soc: qcom: smsm: Convert to platform remove callback returning void
 c0989f7d1264b2b1885345a28a32fd5e1e61f9c7 soc: qcom: socinfo: Convert to platform remove callback returning void
+870b5222204243ee6dbeada9ad1b90cda9ecb4da Merge branches 'arm64-defconfig-for-6.7', 'arm64-fixes-for-6.6', 'arm64-for-6.7', 'clk-for-6.7', 'drivers-for-6.7' and 'dts-for-6.7' into for-next
 
---===============2328460546016956476==--
+--===============8884578718648310079==--
