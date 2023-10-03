@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 03 Oct 2023 18:50:03 -0000
-Message-Id: <169635900387.2543.1881225668533392041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 03 Oct 2023 18:55:55 -0000
+Message-Id: <169635935502.6185.15922468672560272230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/block-6.6
-    old: a578a25339aca38e23bb5af6e3fc6c2c51f0215c
-    new: e680a14aec194dfd48e0235dcea656fb32fae75f
+  - ref: refs/heads/bleeding-edge
+    old: 3ca88c5faa6af45fe63169cf198a69a841445914
+    new: ed6792f62df39cc0f9076117170c0e81176b7c7c
     log: |
-         2fd7b0f6d5ad655b1d947d3acdd82f687c31465e md/raid5: release batch_last before waiting for another stripe_head
-         e680a14aec194dfd48e0235dcea656fb32fae75f Merge tag 'md-fixes-20231003' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.6
+         35a341c9b25da6a479bd8013bcb11a680a7233e3 ACPI: video: Add acpi_backlight=vendor quirk for Toshiba Portégé R100
+         57ae575ae864c2534faadd4492bbfe67ffc87e64 Merge branch 'acpi-video' into bleeding-edge
+         1dd72ce0c125110033e65051c9f8b2676e425cfd ACPI: thermal: Fix up function header formatting in two places
+         ed6792f62df39cc0f9076117170c0e81176b7c7c Merge branch 'acpi-thermal' into bleeding-edge
          
