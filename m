@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 03 Oct 2023 23:53:42 -0000
-Message-Id: <169637722263.24590.2932713172564413950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 03 Oct 2023 23:55:41 -0000
+Message-Id: <169637734194.26927.5823033752010590393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: cba58fcbc4ab75d8814ec43db32d4830670526f8
-    new: 692c013e8f37d8fd761adca46fcdb24f5bff497b
+  - ref: refs/heads/damon/next
+    old: 616134a963c1c74588d6d03dfe6aee7f42a4a815
+    new: f696877e91673464eddbd2c6e3a889f50f76d255
     log: |
-         692c013e8f37d8fd761adca46fcdb24f5bff497b accessibility: speakup: refactor deprecated strncpy
+         f696877e91673464eddbd2c6e3a889f50f76d255 Revert "mm/damon/sysfs-schemes: update tried regions for only one apply interval"
          
