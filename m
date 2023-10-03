@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0189997389464795871=="
+Content-Type: multipart/mixed; boundary="===============7282841994000364483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 03 Oct 2023 06:23:53 -0000
-Message-Id: <169631423316.1619.10017359431011037478@gitolite.kernel.org>
+Date: Tue, 03 Oct 2023 06:25:41 -0000
+Message-Id: <169631434169.3852.6361582516175657152@gitolite.kernel.org>
 
---===============0189997389464795871==
+--===============7282841994000364483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/next/defconfig
-    old: dc836afd2be7618d8c849fd93bd3e15513289b70
-    new: 0264be0ac4069530a6fd10dc22f40d3bae343b24
+    old: 0264be0ac4069530a6fd10dc22f40d3bae343b24
+    new: 966e2ec6ef3fa786defe07ebca6795f284dde5b0
     log: |
-         0fe4f414c7c8ff8559206b0b6d7724cacb6f2463 ARM: s5pv210_defconfig: enable IIO required by MAX17040
-         0264be0ac4069530a6fd10dc22f40d3bae343b24 ARM: multi_v7_defconfig: make Exynos related PHYs modules
+         de1f6a85398e6bff2e6dfa326531daf6358b64dc ARM: multi_v7_defconfig: add AHCI_DWC driver
+         966e2ec6ef3fa786defe07ebca6795f284dde5b0 ARM: exynos_defconfig: replace SATA_AHCI_PLATFORM with AHCI_DWC driver
          
 
---===============0189997389464795871==
+--===============7282841994000364483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1696314228 +0200
+pusher krzk@kernel.org 1696314340 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1696314226-887647e8c0c032412eeaa1823fb118c83d1c0c17
+nonce 1696314338-b41ea864444b97fd02358e5338f1f81e2e3b627b
 
-dc836afd2be7618d8c849fd93bd3e15513289b70 0264be0ac4069530a6fd10dc22f40d3bae343b24 refs/heads/next/defconfig
+0264be0ac4069530a6fd10dc22f40d3bae343b24 966e2ec6ef3fa786defe07ebca6795f284dde5b0 refs/heads/next/defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUbs3QQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1x1EEACIQHhQvoDyi+yE5kDnmVViTehDBw5ESeRd
-e6h83zIGukgi5tV4pkgcFAuLpiSqjUruo6TZR5ELn7fSjWpjfiOX7MCPB5RQyNqk
-xM+3WSzLk3y0QD0XbqNSudO+D6EW0MsLds7sh0Q5os7WVxxKkiUs7ipurq1tCkCB
-SFZG7gt6fBZsSkcQItLMk91lIRruRorXcaQUKsXbNnskT8hsbff4stlVnA4NCkLV
-w0ZdOqxtZmTfcdBs7x6+kUiNO917ALXkus8hqf3OjkJQsmLqqKZnaqi2FMg/iQ1O
-YHtpRO8fzjV29O+JsOp4vUGjU5XQlwNsENgayTtW5Yyr/6kHtgWNqj+/HsaYtZTO
-f9sSbHElvJYKkKOznCDF+RyUJH0cz+fjElfENdRg+NXenfDGzJpDL5jb7YT9XZs0
-slsBmHabYC9s3idDxVg5OiQVyJGHJ99HRnVgvGixHLXWBySWjoXWgIRg9RZbBJav
-tlT/jq5ckQtanM4rEtSvat6ryxgpPC761X6ppFDHJRAOjzL0cDvPZDjIOzEqXynE
-2f4t2yxhfaSUXTfkzKio8fMuBfoO/NhwRgsAOqMuzynBYGbBAfOJUdd9MOpqKXLA
-wgWLLCUlycQ/VjZGx7CagajmrNI2gYcEjJlU+jSIRtiL0lCTxsN7jrNdnDLrxKBq
-lm84sxxQ1Q==
-=H5Qy
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUbs+QQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12o9D/4i1UspADvm3kFvGjBSdq7zLzY/yAfauFEM
+NJh1OCufkcA70NNp5lE1aHakovO6lBNzfXBFVD8tX+g604/hofJIELdmcKRgFCDy
+FnfSxHWZn/+xuV+sgcgSpoq2ENh8c7S1eQ112F5TbbDI+OiZonG5z0DSSIyp8IKX
+yF7pxIAvvs3/oBnKOlArAHkmid9q+i2SVPyYxY9tGFC2TJjc0eu53p3d/9yPc6Ym
+/ZvigNaDpjrAvqUZQTPmQYF51qmLHpYnJG7vkPTlic9MUz/QWs9DHh0Mkv7mmchC
+dj9myFS0JeqTelzmagy8QMICHbgDFBxBIO4d957BGM70GdK4syz/ZMQZr/eqQiSS
+ZcjAHaJB6xIBpvWe1fIJztTFpL6Jq6sREABFQqqQZmJ65b3HBIH/HjwGGnMOOflz
+5NnTABn/+/96HRRmf503xIqCMihQF5wx4c2ac4D/Ro2ifeR5JXCMB7JRi9UyaygH
+mHw9t0NpN9kYBoh2xU0r+J9T5R0YD52kIlwwhZCrJ58wf4ZOKF7U7Rl46XOMedhL
+hUpvG0DTwZ/P97i5HugTV4GAtJSzQfK4QNZ42cdE5+GEpIBbCjULqcMHoRCNTqLg
+x0U33n0eirMSUwTueSBl79TN++En6aZuB7CVXkPsxVU1opXYoH14nt9s1wLglTZ7
+tJmyfKK/dw==
+=PF+S
 -----END PGP SIGNATURE-----
 
---===============0189997389464795871==--
+--===============7282841994000364483==--
