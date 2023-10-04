@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 04 Oct 2023 02:49:33 -0000
-Message-Id: <169638777392.25108.861553116052066570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 04 Oct 2023 03:43:38 -0000
+Message-Id: <169639101860.31227.15794589072041757159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/for-next/execve
-    old: 35bcdcf3d50c7dfa0a22d1ba86ddacad31b9ac3d
-    new: 553e41d1bc95a09e32b6beb0a2b1c20dc4ea9b19
+  - ref: refs/heads/for-kernelci
+    old: 7396a5b980fdeb2cb97136db45405b4fb5d21dfc
+    new: 2f3dd39e2b492bec366487a2c9bcbdbd7792f77c
     log: |
-         d5ca24f639588811af57ceac513183fa2004bd3a binfmt_elf: Use elf_load() for library
-         f9c0a39d95301a36baacfd3495374c6128d662fa binfmt_elf: Only report padzero() errors when PROT_WRITE
-         2632bb84d1d53cfd6cf65261064273ded4f759d5 mm: Remove unused vm_brk()
-         553e41d1bc95a09e32b6beb0a2b1c20dc4ea9b19 binfmt_elf_fdpic: clean up debug warnings
+         a88f6ef679579256ec9561fb1359332df5eaa94d platform/chrome: cros_ec_typec: Use semi-colons instead of commas
+         2b055bf8ac8492111a62177764e54e0d2614c6b8 platform/chrome: cros_ec_typec: Use dev_err_probe() more
+         14e7c01cc3494b75c3ff1d099a2f5f76b1fcb01d platform/chrome: cros_typec_vdm: Mark port_amode_ops const
+         2f3dd39e2b492bec366487a2c9bcbdbd7792f77c platform/chrome: cros_ec_proto: Mark outdata as const
          
