@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 04 Oct 2023 19:12:27 -0000
-Message-Id: <169644674749.24988.11522445338370632880@gitolite.kernel.org>
+Date: Wed, 04 Oct 2023 19:14:44 -0000
+Message-Id: <169644688431.25914.3134302171881113530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-6.6/upstream-fixes
-    old: 36067c828067ad20dde07d3d859f03824b92064f
-    new: 287f69f3f9939741b5ffa72844f575966cebfd0e
+    old: 287f69f3f9939741b5ffa72844f575966cebfd0e
+    new: 7a3cfa15d944d2a8e5b6be2f3dd6cd50e5b1febd
     log: |
-         287f69f3f9939741b5ffa72844f575966cebfd0e HID: sony: remove duplicate NULL check before calling usb_free_urb()
+         7a3cfa15d944d2a8e5b6be2f3dd6cd50e5b1febd HID: intel-ish-hid: ipc: Disable and reenable ACPI GPE bit
          
   - ref: refs/heads/for-next
-    old: ab5167793cef1ddd45ebb4ee70997868162310ac
-    new: bc1d710015c42ec217b502172addd067dcf5b612
+    old: bc1d710015c42ec217b502172addd067dcf5b612
+    new: 1e160415043dd50bf6e821cfd70afe2a708d0bbc
     log: |
-         287f69f3f9939741b5ffa72844f575966cebfd0e HID: sony: remove duplicate NULL check before calling usb_free_urb()
-         bc1d710015c42ec217b502172addd067dcf5b612 Merge branch 'for-6.6/upstream-fixes' into for-next
+         7a3cfa15d944d2a8e5b6be2f3dd6cd50e5b1febd HID: intel-ish-hid: ipc: Disable and reenable ACPI GPE bit
+         1e160415043dd50bf6e821cfd70afe2a708d0bbc Merge branch 'for-6.6/upstream-fixes' into for-next
          
