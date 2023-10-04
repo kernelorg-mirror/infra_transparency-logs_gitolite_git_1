@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 04 Oct 2023 15:40:51 -0000
-Message-Id: <169643405130.25886.12828429970823284844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 04 Oct 2023 15:40:57 -0000
+Message-Id: <169643405784.25978.1104762641242132424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/rcu/fixes
-    old: d8d5b7bf6f2105883bbd91bbd4d5b67e4e3dff71
-    new: c964c1f5ee96e1460606d44f80a47bdacd8fe568
+  - ref: refs/heads/locking/core
+    old: 8788c6c2feb3600ba1a2f84ac5d258af4a284cea
+    new: 5e0eb67974e88dbaded765278a3ffe7af33e3b22
     log: |
-         5f98fd034ca6fd1ab8c91a3488968a0e9caaabf6 rcu: kmemleak: Ignore kmemleak false positives when RCU-freeing objects
-         7df2a2a024145d0dcc1e51dc378c527000b35b07 rcu: Use rcu_segcblist_segempty() instead of open coding it
-         358662a9616c5078dc4d389d6bceeb5974f4aa97 rcu: Assume IRQS disabled from rcu_report_dead()
-         c964c1f5ee96e1460606d44f80a47bdacd8fe568 rcu: Assume rcu_report_dead() is always called locally
+         5e0eb67974e88dbaded765278a3ffe7af33e3b22 locking/local, arch: Rewrite local_add_unless() as a static inline function
+         
+  - ref: refs/heads/sched/core
+    old: bdf85bec2b1ea852daf415cf6f1c9ef7d584c8c5
+    new: 238437d88cea4bfcbc0e7c5031e873dec15d3e93
+    log: |
+         aaa3e6678978b5e2b5c6e80e439fc4db9bbdb375 x86/speculation: Add __update_spec_ctrl() helper
+         8c7a9b1bb45060b6e67456c3cf28475f6e0bd65d x86/idle: Disable IBRS when CPU is offline to improve single-threaded performance
+         1fe96fb4d0f2df207c906a7b1bba70154900ebd1 intel_idle: Use __update_spec_ctrl() in intel_idle_ibrs()
+         238437d88cea4bfcbc0e7c5031e873dec15d3e93 intel_idle: Add ibrs_off module parameter to force-disable IBRS
          
