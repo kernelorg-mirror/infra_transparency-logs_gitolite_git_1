@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 04 Oct 2023 23:38:49 -0000
-Message-Id: <169646272977.24822.17398517608810596829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 04 Oct 2023 23:53:47 -0000
+Message-Id: <169646362768.2402.10552508145589478828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: f253711c0e46cffe68a7c2361580b458520c121e
-    new: 90af8029ba8e346dc8009b39426157e57d5d7b5e
+  - ref: refs/heads/dev-test
+    old: 4ed33e69e136e7b295ff69449853beac605e8502
+    new: d7e9a9037de27b642d5a3edef7c69e2a2b460287
     log: |
-         ad91f362898c41a1532a9ea78f0fe5e078dc37a6 main: Fix reading of CSIS.Rank config field
-         90af8029ba8e346dc8009b39426157e57d5d7b5e shared/csip: Fix return of Rank attribute
+         d7e9a9037de27b642d5a3edef7c69e2a2b460287 f2fs: Support Block Size == Page Size
          
