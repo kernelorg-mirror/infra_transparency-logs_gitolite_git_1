@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 04 Oct 2023 22:33:08 -0000
-Message-Id: <169645878879.8513.2017041193325001432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Oct 2023 22:37:02 -0000
+Message-Id: <169645902297.11683.1857514598456569136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: 5508446281b6f27ae678fb050d3ddf103c41e015
-    new: d0d17c9d854db49505761a992d617e608d6d79eb
+  - ref: refs/heads/main
+    old: c56e67f3ff3df91dd2f72a2c75682681e7db102b
+    new: 4720852ed9afb1c5ab84e96135cb5b73d5afde6f
     log: |
-         767881c470b3140c33795031c4e4d65572731c1c pmdomain: imx: scu-pd: correct DMA2 channel
-         d0d17c9d854db49505761a992d617e608d6d79eb pmdomain: Merge branch fixes into next
+         059217c18be6757b95bfd77ba53fb50b48b8a816 tcp: fix quick-ack counting to count actual ACKs of new data
+         4720852ed9afb1c5ab84e96135cb5b73d5afde6f tcp: fix delayed ACKs for MSS boundary condition
          
