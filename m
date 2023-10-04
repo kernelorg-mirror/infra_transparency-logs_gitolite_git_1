@@ -1,56 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0599810998082345353=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 04 Oct 2023 15:47:44 -0000
-Message-Id: <169643446431.30346.4598438118072155824@gitolite.kernel.org>
-
---===============0599810998082345353==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
+Date: Wed, 04 Oct 2023 15:54:32 -0000
+Message-Id: <169643487287.2011.14868182141188786760@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
+user: bigeasy
 changes:
-  - ref: refs/heads/master
-    old: 9560863b613ca9016542c7daaabbb76688fac531
-    new: 0cc99e1c45229aade0637c32dbcc70569869b560
+  - ref: refs/heads/linux-6.6.y-rt
+    old: 0d23d841e90743bd8735ffd98d482b0e49ac899f
+    new: 400db4a2dd90a78ced9f344e897a67ee4296bbf7
     log: |
-         0cc99e1c45229aade0637c32dbcc70569869b560 6.5-stable patches
+         6677a2a0ca80cead2328aeb6769566dee8a3c49c srcu: Use try-lock lockdep annotation for NMI-safe access.
+         711b6250084b02e7402cb9621e5a877fdfd4ffa3 drm/i915/guc: Consider also RCU depth in busy loop.
+         da042bbb7a3ffcb2d18fc69e01f8a2f1ff0f0aab printk: Update the printk series.
+         400db4a2dd90a78ced9f344e897a67ee4296bbf7 v6.6-rc4-rt7
          
-
---===============0599810998082345353==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696434463 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1696434462-0ed55993bad2b48e093dc8f14d5b3a27dc742ecc
-
-9560863b613ca9016542c7daaabbb76688fac531 0cc99e1c45229aade0637c32dbcc70569869b560 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUdiR8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LT0P/3gjsblrUBwHIRxe90lG
-/P+1arBDPBs44UdEcoIT3hGnhNtAL7K78Sy6ZpCIu0W//X+NN+k2zGO1EENnM1Uj
-aB/Shzrj7FfWPqSI8i6/mxULvJ9G1NgL5J0hxvtDgoVdpjJz69h7kqjilRRBleOe
-t6pneXwi3afuYSpPXfDvdZHVHO/ExvY3bcjC5xWjEzghDPCKcW+R7EvxEhThRf5K
-BW6sPs60U3s+xLOXVBb9Y84DtTZAMmQAcn1xii0RpNO4eE7I8T5Y5b6QoqTrbx1c
-DH4rplsmUCWzN5clkZGDaY0LB1dk60k3a69dfiy3dGHjq3YcKmIa2BJ6GxwXLag9
-CzeOl3xkD+YogvMiFTS+uzUvvO1ht+ghqOZxXLrOOIli2nwMACbIVelCaeLTMrNo
-rfZJjqOUFpQ9QKxjXQeb4+bFVyqo4UXH9Xrp5Gb/1gBK8ldT4E8SaZ1nBUGqZQrs
-B+BezPG7cHGQ7JGNuINdmdF7P+9RzjvQDPD1XFU/EoLtPn+lRSPcEwbRccUnQ7lz
-PE/kfu/V3xgHsdLXjKJo8C2JbbVTlONuXVfyTpG8yXu75YOEmokMHag2ZO7xzF8L
-+fkGTfriV4s0FGM4WZ9zX1j77n13vnF4lFbNYBwZadrgSA/Uyug7XWNJ7/qlCzNl
-vQ8qmLBMrvqoLY9B77QRZteR
-=/NAO
------END PGP SIGNATURE-----
-
---===============0599810998082345353==--
+  - ref: refs/heads/linux-6.6.y-rt-patches
+    old: 4421eb0f549d15e496fef20bd1ca685ac916a961
+    new: 1ca016bcea4a31c94a83671b9e4abe98ae9d7d81
+    log: |
+         1ca016bcea4a31c94a83671b9e4abe98ae9d7d81 [ANNOUNCE] v6.6-rc4-rt7
+         
+  - ref: refs/tags/v6.6-rc4-rt7
+    old: 0000000000000000000000000000000000000000
+    new: 2541c1ebdc69a0d81a3d7641a285b19b20946657
+  - ref: refs/tags/v6.6-rc4-rt7-patches
+    old: 0000000000000000000000000000000000000000
+    new: 5942a486e4443c38bce7215c3225e50a76717e89
+  - ref: refs/tags/v6.6-rc4-rt7-rebase
+    old: 0000000000000000000000000000000000000000
+    new: d5536a08d49b88c1bd97600b6ee38591e8bda037
