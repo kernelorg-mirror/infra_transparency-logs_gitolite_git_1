@@ -1,84 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============2740479990741198670=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 04 Oct 2023 20:17:39 -0000
-Message-Id: <169645065920.7429.3866706052918981588@gitolite.kernel.org>
-
---===============2740479990741198670==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Wed, 04 Oct 2023 20:20:18 -0000
+Message-Id: <169645081894.10029.5174807053304940557@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: ea3c127be12a46ebd2e613db8b63a6f7976bc118
-    new: c7ba6dd03341db01980f3a2d75779cff18e75af0
-    log: revlist-ea3c127be12a-c7ba6dd03341.txt
-
---===============2740479990741198670==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea3c127be12a-c7ba6dd03341.txt
-
-899e095c9ac93cb4f64ce6057aff088f02f00f4a foo
-60a985a0bd8fc7ae29f4a896180eb69d1546fa2a foo
-a91ab13df470c3b96e62493f7af5df7cf8a9568b foo
-ff149ba7f9d8ea53a7d21a59f9cb66788b7dec86 foo
-1a1d0a0fda4ec46c6ee748e53f9544f9eeb82c8e foo
-2b2e9d853bca488c4154215ba7fcfa4b3851ec2b foo
-9140ef684c03911f34e4ecb4311696ff03161e98 foo
-32b1d363d1a806e6fca1c001df1ba14dfa49a0a4 foo
-24bfc43d3dc88641547c9e1647cb54b291326719 foo
-013dda4bf8d7931b69c4eff0d3ba26724eb6ac35 foo
-dea5c4bbd32f827b6a789e768f51c7e62dffbf17 foo
-3f327a9d28a21076faf015bac54f60bb5443330c foo
-f730e20c1d8a9404007a6d92baf3078b7c7fb4c4 foo
-b6f93d5d3da32c22d52b2a71e48885b2f234838b foo
-274c4ed38a04940ee8309049bf0d51f6f75c43b1 foo
-a70f6db79c7aed99ed4a99048c141d666dde395d foo
-790a39559fd71cabf538c504f1c3f3239d84d979 foo
-e62229e3bd7b6d9a4d9501ba94a99a8bdc5f8928 foo
-25c42cd0e853a7b4c4995b74a9a8516c1d38b5fe foo
-050daadf6af29d79d04accd11a78f951feff01f3 foo
-e8dfb0f6b525be304c9351ae6a6aca6d3ab10e51 foo
-31e2c013bfe6785de0d32405bac680b62a9d8e45 foo
-b719a47576414b12b72ff3356f7734443f41e8c1 foo
-ddf1309a7cb726169dc2e2b6276e33f82afc11ca foo
-c1a0d2f60f23fad6bbb9512572e08d52b9d4e81e foo
-277f6bc354270db52b636cc624775e581448c5c8 foo
-ccc632495cb8594972277503b495768bc21da3c5 foo
-89a237b1fdb083a78bc2ac18d0d4283e2a4b7294 foo
-e0adb86ce1a418aff3f4d5c26f719b13490afa92 foo
-d86f67dfb69e588e234de7a626e4290f5ad3576b foo
-39df14dc2ce7559dea350c72211c8eb380058a2b foo
-5d67401d3ab1457d352943e52ec30f9b0e014a96 foo
-f10494fe79a7e812ccd89c6690585c6d188c6b8f foo
-245287351c01fd6274952b9868f082e69032ee57 foo
-7147157cd95a81894cdd71c6fc4ba15a9fe99eec foo
-3c216f0fc2004473cfeda1c264e907af2eb72851 foo
-e6655b4a76d3dba4e422f19e2c767fdc77f427fb foo
-9d2e52a6d14664d0efcdcbffafcc2c7f893c7537 foo
-ab3ae14262cbacc0d45c29635bc0fcd36f91df8a foo
-66c7301fcf842c93aa814049cc60c4524de57d67 foo
-4b65f89ffde703c0d755e6ad51ae492436bcb98a foo
-460562a52b0de7fdac897140dadca59802775317 foo
-d222453b56db553cfc5ca92436bbf38552b9c1aa foo
-2636275121380551eb2359b4b6e39a7cab2c7a82 foo
-5642ae912afb714ea65b87eac2ccecbcecf619cb foo
-1e2f4f3d698b8faf5764b76dd3400a526539add1 foo
-0f095f4c4cf0ef4db7c28c7b5ae36ba26f466534 foo
-5450e0bbd13e02592a9100646e21708b3fd941f1 foo
-0c944352dfde48befa28d6aad60aaef569e66a17 foo
-0e49f8ffbbc259acaa16ad90e1d5d7cc5a6262b1 foo
-012c3250f07ebb94a11c69a33c40ecd3c5ad3625 foo
-583e20c22e65339330dcb25ef05415695cfedaed foo
-bc1dab9b71fde4cfadb02f98f2380b6d42215252 foo
-c7ba6dd03341db01980f3a2d75779cff18e75af0 foo
-
---===============2740479990741198670==--
+  - ref: refs/heads/next
+    old: 41e845628511878d6e89e2a9249c095e72aab7eb
+    new: e508560672890b2873c89258b88fade1356392ce
+    log: |
+         e508560672890b2873c89258b88fade1356392ce lsm: fix a spelling mistake
+         
