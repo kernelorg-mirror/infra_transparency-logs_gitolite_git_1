@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Oct 2023 07:27:02 -0000
-Message-Id: <169640442245.27483.12552026977051904206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 04 Oct 2023 07:34:35 -0000
+Message-Id: <169640487531.31742.12755384198489748355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: a0c55bba0d0d0b5591083f65f830940d8ae63f31
-    new: 7aed44babc7f97e82b38e9a68515e699692cc100
+  - ref: refs/heads/x86/mm
+    old: 802e87cc464613441f9098ebf940b1895fe3f5e5
+    new: c9babd5d95abf3fae6e798605ce5cac98e08daf9
     log: |
-         7aed44babc7f97e82b38e9a68515e699692cc100 vringh: don't use vringh_kiov_advance() in vringh_iov_xfer()
+         c9babd5d95abf3fae6e798605ce5cac98e08daf9 x86/tdx: Replace deprecated strncpy() with strtomem_pad()
          
