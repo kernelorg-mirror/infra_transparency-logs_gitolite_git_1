@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 04 Oct 2023 19:00:40 -0000
-Message-Id: <169644604056.15859.6310451072669124927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 04 Oct 2023 19:02:02 -0000
+Message-Id: <169644612245.16452.764491021893911860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: cf671db2087498875ebd933bb954eb18ccd1c30e
-    new: 823e57bf938a322f6f4278fe36b66c8eaf3ab884
+    old: 82b9b5893cfd99873bb4e5f98bc4e098782efc49
+    new: 68203923dbea9cdbcc82f46abbcac9f59c6d663c
     log: |
-         c98a0a83dccd19283da34a298876d26c7f06750f ASoC: cs35l56: Initialise a variable to silence possible static analysis error
-         823e57bf938a322f6f4278fe36b66c8eaf3ab884 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         46a0a2c96f0f47628190f122c2e3d879e590bcbe HID: lenovo: Detect quirk-free fw on cptkbd and stop applying workaround
+         68203923dbea9cdbcc82f46abbcac9f59c6d663c Merge branch 'for-6.7/lenovo' into for-next
          
+  - ref: refs/heads/for-6.7/lenovo
+    old: 0000000000000000000000000000000000000000
+    new: 46a0a2c96f0f47628190f122c2e3d879e590bcbe
