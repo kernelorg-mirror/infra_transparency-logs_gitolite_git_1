@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 04 Oct 2023 19:02:02 -0000
-Message-Id: <169644612245.16452.764491021893911860@gitolite.kernel.org>
+Date: Wed, 04 Oct 2023 19:03:58 -0000
+Message-Id: <169644623846.17217.6299187436376768205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: 82b9b5893cfd99873bb4e5f98bc4e098782efc49
-    new: 68203923dbea9cdbcc82f46abbcac9f59c6d663c
+  - ref: refs/heads/for-6.6/upstream-fixes
+    old: ba0e0e24c7f5f58559974dbe733361d07d6e5243
+    new: 36067c828067ad20dde07d3d859f03824b92064f
     log: |
-         46a0a2c96f0f47628190f122c2e3d879e590bcbe HID: lenovo: Detect quirk-free fw on cptkbd and stop applying workaround
-         68203923dbea9cdbcc82f46abbcac9f59c6d663c Merge branch 'for-6.7/lenovo' into for-next
+         36067c828067ad20dde07d3d859f03824b92064f HID: nintendo: reinitialize USB Pro Controller after resuming from suspend
          
-  - ref: refs/heads/for-6.7/lenovo
-    old: 0000000000000000000000000000000000000000
-    new: 46a0a2c96f0f47628190f122c2e3d879e590bcbe
+  - ref: refs/heads/for-next
+    old: 68203923dbea9cdbcc82f46abbcac9f59c6d663c
+    new: a2b3c2a66d86acabdb68ad1f27478f37e766c0b6
+    log: |
+         36067c828067ad20dde07d3d859f03824b92064f HID: nintendo: reinitialize USB Pro Controller after resuming from suspend
+         a2b3c2a66d86acabdb68ad1f27478f37e766c0b6 Merge branch 'for-6.6/upstream-fixes' into for-next
+         
