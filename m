@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 04 Oct 2023 19:07:21 -0000
-Message-Id: <169644644175.20989.16741538123807560201@gitolite.kernel.org>
+Date: Wed, 04 Oct 2023 19:12:27 -0000
+Message-Id: <169644674749.24988.11522445338370632880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: a2b3c2a66d86acabdb68ad1f27478f37e766c0b6
-    new: ab5167793cef1ddd45ebb4ee70997868162310ac
+  - ref: refs/heads/for-6.6/upstream-fixes
+    old: 36067c828067ad20dde07d3d859f03824b92064f
+    new: 287f69f3f9939741b5ffa72844f575966cebfd0e
     log: |
-         928276075f169d36f34e751ea5c81dd24d3a6823 HID: nintendo: cleanup LED code
-         ab5167793cef1ddd45ebb4ee70997868162310ac Merge branch 'for-6.7/nintendo' into for-next
+         287f69f3f9939741b5ffa72844f575966cebfd0e HID: sony: remove duplicate NULL check before calling usb_free_urb()
          
-  - ref: refs/heads/for-6.7/nintendo
-    old: 0000000000000000000000000000000000000000
-    new: 928276075f169d36f34e751ea5c81dd24d3a6823
+  - ref: refs/heads/for-next
+    old: ab5167793cef1ddd45ebb4ee70997868162310ac
+    new: bc1d710015c42ec217b502172addd067dcf5b612
+    log: |
+         287f69f3f9939741b5ffa72844f575966cebfd0e HID: sony: remove duplicate NULL check before calling usb_free_urb()
+         bc1d710015c42ec217b502172addd067dcf5b612 Merge branch 'for-6.6/upstream-fixes' into for-next
+         
