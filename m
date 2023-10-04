@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 04 Oct 2023 12:40:06 -0000
-Message-Id: <169642320673.22268.3751513929021363160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Wed, 04 Oct 2023 12:53:32 -0000
+Message-Id: <169642401223.30716.15348011652700630096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/main
-    old: 8e57de05f36dc07812f24ea7143df38e857ade64
-    new: 5105ff4b9f43ba08d0a22260d670120e53c4b667
+  - ref: refs/heads/clk/imx
+    old: 0a22b3a6f446223aff5bcdcc06003ef6e412bfd8
+    new: 2838820800dcaa60f32bef715c7e2e87e049aebc
     log: |
-         cef80743ca63491ff5a07976e45ef9be2fcc41f7 Add new Makefile target to build a deb and rpm package
-         ce33c671b4d0f0f414ec0a2ab8b8d83a94b17fb4 Build debian and fedora images
-         5105ff4b9f43ba08d0a22260d670120e53c4b667 Merge branch 'mlimonci/upstream-packaging' into 'main'
+         ab2c30f6bbe34dbf13ff2cc0cf7bc237de2df013 clk: imx: imx8dxl-rsrc: keep sorted in the ascending order
+         15cee75dacb82ade710d61bfd536011933ef9bf2 clk: imx: imx8qxp: Fix elcdif_pll clock
+         8568b3c499268456b76cdc2e9e1b9d86d8b08837 clk: imx: imx8qxp: correct the enet clocks for i.MX8DXL
+         4fcb51fb0e3084ee81edaf8aea98ac01e456a871 clk: imx: imx8qm-rsrc: drop VPU_UART/VPUCORE
+         a699148b8704aa11600321b9f6b6b21f09418c42 clk: imx8: remove MLB support
+         eaefd1cf36a6507ff7dd2d30f68201de259eec63 clk: imx: scu: ignore clks not owned by Cortex-A partition
+         2838820800dcaa60f32bef715c7e2e87e049aebc clk: imx: imx8qm/qxp: add more resources to whitelist
          
