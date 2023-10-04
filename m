@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 04 Oct 2023 12:11:41 -0000
-Message-Id: <169642150170.32309.14724304015281890912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 04 Oct 2023 12:20:06 -0000
+Message-Id: <169642200628.6818.8961446587749695944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: dfc7f7a988dad34c3bf4c053124fb26aa6c5f916
-    new: 51e7a66666e0ca9642c59464ef8359f0ac604d41
+    old: 2316c3d085a01e63767284d3e4bd7cf33ec16d3d
+    new: 8e57de05f36dc07812f24ea7143df38e857ade64
     log: |
-         a0c55bba0d0d0b5591083f65f830940d8ae63f31 rswitch: Fix PHY station management clock setting
-         7aed44babc7f97e82b38e9a68515e699692cc100 vringh: don't use vringh_kiov_advance() in vringh_iov_xfer()
-         37d4f55567982e445f86dc0ff4ecfa72921abfe8 net: ethernet: ti: am65-cpsw: Fix error code in am65_cpsw_nuss_init_tx_chns()
-         a325f174d70828f62872847b703206566dcdb64c net: ti: icssg-prueth: Fix signedness bug in prueth_init_tx_chns()
-         f9a1d3216a4942cfe00bc424b80b2b80e8ee05c1 dmaengine: ti: k3-udma-glue: clean up k3_udma_glue_tx_get_irq() return
-         51e7a66666e0ca9642c59464ef8359f0ac604d41 ibmveth: Remove condition to recompute TCP header checksum.
+         18b60f44e61c72eb5a5a36dc8e0381c77ba670b3 i915: Update MTL DMC to v2.17
+         58b8d3f36a900b1a2d5b7c74f9a385ce95763bc2 Merge branch 'dmc-mtl_2.17' of git://anongit.freedesktop.org/drm/drm-firmware into dmc-mtl
+         8e57de05f36dc07812f24ea7143df38e857ade64 Merge branch 'dmc-mtl' into 'main'
          
