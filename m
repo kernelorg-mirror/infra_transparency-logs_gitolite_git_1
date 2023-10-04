@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
-Date: Wed, 04 Oct 2023 16:14:21 -0000
-Message-Id: <169643606170.17513.3236032547838752392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
+Date: Wed, 04 Oct 2023 16:16:54 -0000
+Message-Id: <169643621412.20036.11661098337767496882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mel/linux
-user: mel
+repo: pub/scm/linux/kernel/git/maz/cs-sw
+user: maz
 changes:
-  - ref: refs/heads/users/mgorman/SLE15-SP3-RT/for-next
-    old: 73ea4ec9b83c26ab6a43580f14666201cc54429e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 270c2310ae99d1dda01daa454517559073fb7e22
+    new: 30b4ec23fe7ba7eb64416a08d58dd87bfc537670
+    log: |
+         30b4ec23fe7ba7eb64416a08d58dd87bfc537670 Tell cmake where to find the SDK
+         
