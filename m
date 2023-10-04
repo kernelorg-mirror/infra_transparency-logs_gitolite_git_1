@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 04 Oct 2023 19:18:38 -0000
-Message-Id: <169644711874.29155.14384940888693502634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Oct 2023 19:22:03 -0000
+Message-Id: <169644732395.31996.12482683845640095753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: a1b682feb7bf0dceb3a69d3d91666364450df3e4
-    new: eccf294b0dd224b25868ef19a26eba96c410a4c4
+  - ref: refs/heads/main
+    old: 00f3696f7555d0890ae07b635e6ccbf39fd2eb3a
+    new: d5a590b1b614d99a147cb3ec71954d96ef1a0834
     log: |
-         e3c2d2d144c082dd71596953193adf9891491f42 hid: cp2112: Fix duplicate workqueue initialization
-         eccf294b0dd224b25868ef19a26eba96c410a4c4 Merge branch 'for-6.7/cp2112' into for-next
+         d5a590b1b614d99a147cb3ec71954d96ef1a0834 net: dsa: mt753x: remove mt753x_phylink_pcs_link_up()
          
-  - ref: refs/heads/for-6.7/cp2112
-    old: 0000000000000000000000000000000000000000
-    new: e3c2d2d144c082dd71596953193adf9891491f42
