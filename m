@@ -1,63 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============5502303568571549092=="
+Content-Type: multipart/mixed; boundary="===============3165025613471223139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Oct 2023 18:35:00 -0000
-Message-Id: <169644450042.26457.15648190341100180671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 04 Oct 2023 18:36:31 -0000
+Message-Id: <169644459168.28618.15613109995193797993@gitolite.kernel.org>
 
---===============5502303568571549092==
+--===============3165025613471223139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 1eb3dee16a52b1a40a0cccbe79f87b453ddbc1a8
-    new: 72897b29599934753d67932fccdde4c61d03b6db
-    log: revlist-1eb3dee16a52-72897b295999.txt
+  - ref: refs/heads/bleeding-edge
+    old: 57ecdfe1a18d82998d66297800d217bfe1124824
+    new: e1bea091618ce125071620368209c03bde20773f
+    log: |
+         fa0072d58224347b7cf0979248118df6cb5bc053 Merge branches 'acpica', 'acpi-tables', 'acpi-soc' and 'acpi-misc' into linux-next
+         20024534f3510a4ab12c09b3f6969509e1d7ae9b Merge branches 'acpi-utils', 'acpi-video', 'acpi-osl' and 'acpi-prm' into linux-next
+         59aa50534113b264119f882a9371e812b76f162a Merge branches 'acpi-property' and 'pnp' into linux-next
+         e1bea091618ce125071620368209c03bde20773f Merge branch 'acpi-thermal' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 9b7758dec57ddcff690c146435946ee1a56b36aa
+    new: e1bea091618ce125071620368209c03bde20773f
+    log: revlist-9b7758dec57d-e1bea091618c.txt
+  - ref: refs/heads/testing
+    old: 9b7758dec57ddcff690c146435946ee1a56b36aa
+    new: e1bea091618ce125071620368209c03bde20773f
+    log: revlist-9b7758dec57d-e1bea091618c.txt
 
---===============5502303568571549092==
-Content-Type: text/plain; charset="us-ascii"
+--===============3165025613471223139==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1eb3dee16a52-72897b295999.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-9b7758dec57d-e1bea091618c.txt
 
-195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
-84727c5727fed0ea8b0bf5ef0cbffdb0cabb2539 MAINTAINERS: wifi: remove generic wiki links from drivers
-0b9480da79e070481bd4c352ad555abf9ec7598f MAINTAINERS: wifi: rtlwifi: remove git tree
-42c5f0e20ec9b0371fbdc6de69a73a932d72a0ef MAINTAINERS: wifi: rtl8xxxu: remove git tree
-b8c713c13482a37e55379b54e9d4535d50bc0577 MAINTAINERS: wifi: wl12xx: remove git tree
-d253fb3705b37fd4afd05eb615310be4e9c3042b MAINTAINERS: wifi: hostap: remove maintainer and web page
-af5ff4b789956e9ef43e0bb80429f24ec44b2063 MAINTAINERS: wifi: ath12k: add wiki link
-eec679e4ac5f47507774956fb3479c206e761af7 wifi: mwifiex: Fix tlv_buf_left calculation
-c7847241de28c718285d0e1bd97d1061a4a806c8 wifi: mwifiex: Replace one-element array with flexible-array member in struct mwifiex_ie_types_rxba_sync
-d5a93b7d2877aae4ba7590ad6cb65f8d33079489 wifi: mwifiex: Sanity check tlv_len and tlv_bitmap_len
-234249d88b091d006b82f8d570343aae5f383736 wifi: cfg80211/mac80211: hold link BSSes when assoc fails for MLO connection
-5112fa502708aaaf80acb78273fc8625f221eb11 wifi: cfg80211: validate AP phy operation before starting it
-2d4caa1dbe915654d0e8845758d9c96e721377a8 iwlwifi: mvm: handle PS changes in vif_cfg_changed
-424c82e8ad56756bb98b08268ffcf68d12d183eb wifi: iwlwifi: dbg_ini: fix structure packing
-e8fbe99e87877f0412655f40d7c45bf8471470ac wifi: iwlwifi: Ensure ack flag is properly cleared.
-8ba438ef3cacc4808a63ed0ce24d4f0942cfe55d wifi: iwlwifi: mvm: Fix a memory corruption issue
-37c20b2effe987b806c8de6d12978e4ffeff026f wifi: cfg80211: fix cqm_config access race
-d1383077c225ceb87ac7a3b56b2c505193f77ed7 wifi: cfg80211: add missing kernel-doc for cqm_rssi_work
-6e48ebffc2db5419b3a51cfc509bde442252b356 wifi: mac80211: fix mesh id corruption on 32 bit systems
-2c3dfba4cf84ac4f306cc6653b37b6dd6859ae9d rfkill: sync before userspace visibility/changes
-2e1b3ae3e1f2cf5a3c9c05d5f961d7d4257b489f wifi: rtw88: rtw8723d: Fix MAC address offset in EEPROM
-aef7a0300047e7b4707ea0411dc9597cba108fc8 wifi: mwifiex: Fix oob check condition in mwifiex_process_rx_packet
-4fed494abcd4fde5c24de19160e93814f912fdb3 wifi: brcmfmac: Replace 1-element arrays with flexible arrays
-684e45e120b82deccaf8b85633905304a3bbf56d wifi: mt76: mt76x02: fix MT76x0 external LNA gain handling
-31db78a4923ef5e2008f2eed321811ca79e7f71b wifi: mac80211: fix potential key use-after-free
-d097ae01ebd48adc028aebcf760117a5317975dc wifi: mac80211: fix potential key leak
-0914468adf92296c4cba8a2134e06e3dea150f2e wifi: cfg80211: Fix 6GHz scan configuration
-084cf2aeca97566db4fa15d55653c1cba2db83ed wifi: mac80211: work around Cisco AP 9115 VHT MPDU length
-61304336c67358d49a989e5e0060d8c99bad6ca8 wifi: mac80211: allow transmitting EAPOL frames with tainted key
-334bf33eec5701a1e4e967bcb7cc8611a998334b wifi: cfg80211: avoid leaking stack data into trace
-aaba3cd33fc9593a858beeee419c0e6671ee9551 wifi: mac80211: Create resources for disabled links
-22061bfc57fe08c77141dc876b4af75603c4d61d wifi: iwlwifi: mvm: Fix incorrect usage of scan API
-72897b29599934753d67932fccdde4c61d03b6db Merge tag 'wireless-2023-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+bda3df10fb1ee9902df718f38349199e44fea3d0 ACPI: LPSS: drop BayTrail and Lynxpoint pinctrl HIDs
+9fbdc0504244a3c958a0ef4f0ff7016072553f71 ACPI: PCI: Switch to use acpi_evaluate_dsm_typed()
+553921875ff7bcd5f33eb08afb67fba4e864f646 ACPI: x86: s2idle: Switch to use acpi_evaluate_dsm_typed()
+046ece773cc77ef5d2a1431b188ac3d0840ed150 ACPI: property: Allow _DSD buffer data only for byte accessors
+43451c4bf9b049e67c48e74a31edd8eced27d8ea ACPI: property: Document the _DSD data buffer GUID
+178e1ea6a68f12967ee0e9afc4d79a2939acd43c ACPICA: Add defines for CDAT SSLBIS
+92002fb39e8e4a199231c1c842b07dbbd806ba75 ACPI: OSL: Fix up white space in parameter lists
+9d4e27dd88275a8e2a14521b63792f33edca5758 ACPI: OSL: Remove redundant parentheses in return statements
+a1da3b78c08357f67adecf3b2e2be7d13aaccca7 ACPI: OSL: Add empty lines after local variable declarations
+35a341c9b25da6a479bd8013bcb11a680a7233e3 ACPI: video: Add acpi_backlight=vendor quirk for Toshiba Portégé R100
+1dd72ce0c125110033e65051c9f8b2676e425cfd ACPI: thermal: Fix up function header formatting in two places
+6c766f7aacc0fa5b461ca3d8067c9065a6a53ef4 ACPI: utils: Fix up white space in a few places
+6b54bdd1685a3e81dd062b6886e8e729e5b2a8ee ACPI: utils: Remove redundant braces around individual statement
+a83c68a3bf7c418c9a46693c63c638852b0c1f4e ACPI: FPDT: properly handle invalid FPDT subtables
+eeb6d1d6f4ec0e304608f72c3ead584bbb155714 PNP: Clean up coding style in pnp.h
+2e89345764c6a87c778e776c0590bda07425f251 ACPI: PRM: Annotate struct prm_module_info with __counted_by
+fa0072d58224347b7cf0979248118df6cb5bc053 Merge branches 'acpica', 'acpi-tables', 'acpi-soc' and 'acpi-misc' into linux-next
+20024534f3510a4ab12c09b3f6969509e1d7ae9b Merge branches 'acpi-utils', 'acpi-video', 'acpi-osl' and 'acpi-prm' into linux-next
+59aa50534113b264119f882a9371e812b76f162a Merge branches 'acpi-property' and 'pnp' into linux-next
+e1bea091618ce125071620368209c03bde20773f Merge branch 'acpi-thermal' into linux-next
 
---===============5502303568571549092==--
+--===============3165025613471223139==--
