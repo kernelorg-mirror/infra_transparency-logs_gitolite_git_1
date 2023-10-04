@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 04 Oct 2023 12:10:09 -0000
-Message-Id: <169642140940.31699.4837134846155216566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 04 Oct 2023 12:11:41 -0000
+Message-Id: <169642150170.32309.14724304015281890912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
   - ref: refs/heads/main
-    old: 312b5d8adfae54f6cbbfe5b1c26699b497ffb710
-    new: 2316c3d085a01e63767284d3e4bd7cf33ec16d3d
+    old: dfc7f7a988dad34c3bf4c053124fb26aa6c5f916
+    new: 51e7a66666e0ca9642c59464ef8359f0ac604d41
     log: |
-         957828e17afc80e68b7a5f675347fd10cdbb7d0e linux-firmware: Update firmware file for Intel Bluetooth 9260
-         717c1a5ddb996f0030e6aff8e0afdf5fddaac8e7 linux-firmware: Update firmware file for Intel Bluetooth 9560
-         a3e18affc47f10bf2b8f0126bd650fc721ce4082 linux-firmware: Update firmware file for Intel Bluetooth AX210
-         3fed6fb8713c583993ab2862d802e76f08b6a97b linux-firmware: Update firmware file for Intel Bluetooth AX211
-         3ce0e06b5f8d2ac1bbeccc8f6b5a6c501e54b42b linux-firmware: Update firmware file for Intel Bluetooth AX211
-         8c1e8c66ad58a5e0b9e5ee68e10cdeb112d73fbb linux-firmware: Update firmware file for Intel Bluetooth AX201
-         bbf9419146d164dac9c03c3acd66445dfaf48fa3 linux-firmware: Update firmware file for Intel Bluetooth AX201
-         ab0c0a78363252c9bd9e4a36e7258bb09f7df697 linux-firmware: Add firmware file for Intel Bluetooth AX211
-         2316c3d085a01e63767284d3e4bd7cf33ec16d3d Merge branch 'intel-bt-20231004' into 'main'
+         a0c55bba0d0d0b5591083f65f830940d8ae63f31 rswitch: Fix PHY station management clock setting
+         7aed44babc7f97e82b38e9a68515e699692cc100 vringh: don't use vringh_kiov_advance() in vringh_iov_xfer()
+         37d4f55567982e445f86dc0ff4ecfa72921abfe8 net: ethernet: ti: am65-cpsw: Fix error code in am65_cpsw_nuss_init_tx_chns()
+         a325f174d70828f62872847b703206566dcdb64c net: ti: icssg-prueth: Fix signedness bug in prueth_init_tx_chns()
+         f9a1d3216a4942cfe00bc424b80b2b80e8ee05c1 dmaengine: ti: k3-udma-glue: clean up k3_udma_glue_tx_get_irq() return
+         51e7a66666e0ca9642c59464ef8359f0ac604d41 ibmveth: Remove condition to recompute TCP header checksum.
          
