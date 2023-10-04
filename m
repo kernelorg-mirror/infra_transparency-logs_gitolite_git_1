@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6027253862422038430=="
+Content-Type: multipart/mixed; boundary="===============1380338414803039297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 04 Oct 2023 17:51:36 -0000
-Message-Id: <169644189617.27629.14662781465812861266@gitolite.kernel.org>
+Date: Wed, 04 Oct 2023 17:51:55 -0000
+Message-Id: <169644191587.27832.4008313614955749334@gitolite.kernel.org>
 
---===============6027253862422038430==
+--===============1380338414803039297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,113 +16,135 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 457f4058c8d966d7f8dbd77e5848599345d2fa05
-    new: a70e2840d2494de2e794b720b7164f3d26624c5c
-    log: revlist-457f4058c8d9-a70e2840d249.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 603b267f776136198e2480d78ea6c41f4278ac9b
+    new: 7cd8e365240341a6b471b7867c7f687a442aa0b5
+    log: revlist-603b267f7761-7cd8e3652403.txt
 
---===============6027253862422038430==
+--===============1380338414803039297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696441894 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696441913 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1696441893-c0fdac1b629e32d74b12b01b331a8c7bb644ecaf
+nonce 1696441912-29953ffdd082176c61b6ae2c1873d5bb2bb8e0ee
 
-457f4058c8d966d7f8dbd77e5848599345d2fa05 a70e2840d2494de2e794b720b7164f3d26624c5c refs/heads/linux-4.19.y
+603b267f776136198e2480d78ea6c41f4278ac9b 7cd8e365240341a6b471b7867c7f687a442aa0b5 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUdpiYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5lgQAJrJuy3osL24PLUc0bga
-PFUip5IaT14AJ0+uU0G2SWTF02F+u272INwKM2+ph6ETiYMWYOAab2fjz2luqmwG
-Z8cZcP/eHpa6F4GhGLxbMTFmo4WZ7NWeJCT9UkUXWqJiYZ+pl5o8yztMv12TSIzQ
-SgML4LmEytyYF8pIWCnzxnJYxmaXle7NlH2WQw01pfhwCxwmZra8RAH/FineYvhH
-Q9sK7rbGJAH9bcTTz9hiNbjZowgsqFfM3F2e6bnllkOaVEz7wEVoj4fjhCohIhdT
-oLdNhusECS4vg2ttzF/QIe31D1YQc1evaeKjfL4Hl5AQuUZEgCX+QnbEu2+2tY8O
-x3wc4XOSvBtY5Wal3udUkV/X3xExj4fOpQQB31/uRvzb7qbGehN+W0ACCzDk23fM
-9e2Qbc3v3ckkYpEy7ooVFWJRPbh95cXDFm+fsqSD1B4nzNCUhm3jD2HDh4AxVl42
-8MYiDb+NWprroDlV2NkiFqVEyjdq50CYka7+PF2SJAzAbhNviNLyKFC4kgxY2lns
-WStSxhSm9sVUoYADzVMW8QFrS8Cq5ZUhWG3JbsIqsF4Zt1YP1LGEDV/vK5xNvlUN
-gAeYZd90YfACNaZWLep3KZlCG5EwmWYno6XZBqFt+TElZVe/lLNGOTnjx+m+5xJf
-+BetX1W7jBzCu4BUXcemV5Rp
-=oBKM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUdpjkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PI4QALBR6tXFXB0YzDyXjGCL
+s9wWveWUQelISDL4SfVaCewWp5EV90kvtWN4I8byPtGa+edXIPxLM0u2Fklf61nu
+kOZdX4H28y929EzlTYD45xEmfpHCa2iTFN93XWZU0dGSo0+58OTvrHFkuGGojvTZ
+DLOajMSgR/2X0gpm5aCKrHYmnbioK69d3yDDC6PnlbyA9h8U0O8fy7Spj3xDcFU0
+/vVREtSPPROVkBH+wnEiAIRzXl2+FCo2sEj7GrN+/QrejBdm9NRwfONZTn/M3VT5
+P0BerPuGrVQIW7WGM+e8MyeY4QbZxWjrm61bxQU40W7Hcm1zDgby+SoBFtGUqPau
+KurD0loUvOBtwgy1LWbgCkvS/SvfTY+Cb3wj9RGEOsNZfs7xaXGOxuqidsm/ILTA
+ztcjLoXwy0EJu9uP0hgBkUNsGIPzEduUgDuuxcnutxN/FOx0jEhQPR9EXbo6JJnd
+fjWfwq2eIT4e//+D8vaYHbQ66XKXbVxZ/NbOllb2UJckNJPWYB9iNgKDwDw5etBy
+9khTo/XbX7xGCGhcHoif0yW+FTOG827GMTo/nwykLTkJK/GJdBdbGbch/gvnTb1S
+fcvHW8HxYi06QtwveWM+Gkhxe7INvC5ZgWLCHGNpHCM1OPDzEQb8MQ2JhPHLT6Oo
+4CQjJzy/QCLwMPEs3pK2ASgZ
+=PUAY
 -----END PGP SIGNATURE-----
 
---===============6027253862422038430==
+--===============1380338414803039297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-457f4058c8d9-a70e2840d249.txt
+Content-Disposition: attachment; filename=revlist-603b267f7761-7cd8e3652403.txt
 
-9d34f3a3d8fbf3dd16affb4e57987624ed2c5065 NFS/pNFS: Report EINVAL errors from connect() to the server
-54288cb4927e6eaeb61dff055b08cc5ae62822de ata: ahci: Drop pointless VPRINTK() calls and convert the remaining ones
-f8a784255cdb8e5ef20f5818b9659dcfb17ac054 ata: libahci: clear pending interrupt status
-94550a20c53b2facb3bca51366527994ef476856 netfilter: nf_tables: disallow element removal on anonymous sets
-2b5d4e84982a862e2807d61b10600b8fd707a900 selftests/tls: Add {} to avoid static checker warning
-0b6413793f4bd4d97eb85999c23179e78dd45860 selftests: tls: swap the TX and RX sockets in some tests
-ed521b276adb7267e5fe41f36d63f1e9b024aa01 ipv4: fix null-deref in ipv4_link_failure
-0a8e4bd20944e8093fdd77eb8fbf2591da5d9672 powerpc/perf/hv-24x7: Update domain value check
-d327c521acc91470e0e16b5ffab2d764d42e3739 net: hns3: add 5ms delay before clear firmware reset irq source
-eba6cb6dd95803030ed6e5acc0ed1bc37e2f60b1 net: add atomic_long_t to net_device_stats fields
-f47d0043c7d4ea1c0929c5c11c89692090c32a59 net: bridge: use DEV_STATS_INC()
-e80d982f9fc6ca5c28ca4d93f370d2347ea17da7 team: fix null-ptr-deref when team device type is changed
-a273e01962289ff9aa623bf2ba90084514f529b4 gpio: tb10x: Fix an error handling path in tb10x_gpio_probe()
-235a3d9201636d840fdc4465049360c02c78bfda i2c: mux: demux-pinctrl: check the return value of devm_kstrdup()
-2e0282cd9d7ec55a2de98cdc1a0638778c1b782a Input: i8042 - add quirk for TUXEDO Gemini 17 Gen1/Clevo PD70PN
-4886b54ccb7a5f5ca82bc7cbd836cb9c1ccbb469 scsi: qla2xxx: Add protection mask module parameters
-f105b488ecebca8b4763b11277eecfbedf8da329 scsi: qla2xxx: Remove unsupported ql2xenabledif option
-79f9cb9b75b14025306e6c2be1da7ca7b33283e5 usb: typec: Group all TCPCI/TCPM code together
-9330c0175bd453b3c2bacfec3bca5709d1c05ca6 usb: typec: tcpm: Refactor tcpm_handle_vdm_request payload handling
-a68c8c116337495035b60d4abbd2cf3491484882 usb: typec: tcpm: Refactor tcpm_handle_vdm_request
-b33ed4b243762f6ab478fdf36f2c4890a016527d usb: typec: bus: verify partner exists in typec_altmode_attention
-dc2f999253d96d93a599ef9bd838d328aff45152 scsi: megaraid_sas: Load balance completions across all MSI-X
-0875f6f90c1f9f8552f416fb7cbf366564ecf27a scsi: megaraid_sas: Fix deadlock on firmware crashdump
-4a3a6557580f1b7a18ab3abeb33f45012746388c ext4: remove the 'group' parameter of ext4_trim_extent
-d0e15e93962ba114be42d6def1ad9ab93c59ea2b ext4: add new helper interface ext4_try_to_trim_range()
-c8d17b83df213682cbaf995cca73bf1ae098d939 ext4: scope ret locally in ext4_try_to_trim_range()
-ec309070fbc1e87bd2ca450f6d04e935734cbcab ext4: change s_last_trim_minblks type to unsigned long
-5f2fe7f5819915dbebe6b6ead195656729575d60 ext4: mark group as trimmed only if it was fully scanned
-3704e6e85e8cfecd54d3f39e51993addf64797c4 ext4: replace the traditional ternary conditional operator with with max()/min()
-0db98be9d19334619bd3a6fa97bfed549a1371d1 ext4: move setting of trimmed bit into ext4_try_to_trim_range()
-9a9be0248794aa46f8ceb4d7553c960b1174f842 ext4: do not let fstrim block system suspend
-1c82294a6dd3874b3ce9475260b0192ba98b036c MIPS: Alchemy: only build mmc support helpers if au1xmmc is enabled
-2b269fe729ee86b7d10a432920c0943c5738859e clk: tegra: fix error return case for recalc_rate
-3a4cacb664d81e79b9eb1e0ceceb981c82d60679 ARM: dts: ti: omap: motorola-mapphone: Fix abe_clkctrl warning on boot
-a9a6bf57cb1112f6e0061b0eb3b6c74c101a2669 gpio: pmic-eic-sprd: Add can_sleep flag for PMIC EIC chip
-f009324e1c9dc55d771f8418f68f8383a308120e parisc: sba: Fix compile warning wrt list of SBA devices
-6e6b2c6b370cbeed1234e57f1d8c6e8e2ac1eb3a parisc: iosapic.c: Fix sparse warnings
-e940271e5f5b0051ad65dd8f2078476d250d3cc7 parisc: drivers: Fix sparse warning
-660eda5570b77923791893e779f50e78ce93793f parisc: irq: Make irq_stack_union static to avoid sparse warning
-e689b46dcc1638bfc86294ca56944fc7cb353dc1 selftests/ftrace: Correctly enable event in instance-event.tc
-5a6cdcdde85bf0ef5cb3a22a1780b9957b1d6cda ring-buffer: Avoid softlockup in ring_buffer_resize()
-956edd9969af4e8943c952314d744d9f9ce2fd50 ata: libata-eh: do not clear ATA_PFLAG_EH_PENDING in ata_eh_reset()
-dc122502bab4b53a9c1326d29824bf3e731872cb bpf: Clarify error expectations from bpf_clone_redirect
-1bcdace925387eea937d761b4621e36879b21416 fbdev/sh7760fb: Depend on FB=y
-dcabe935efa12717150b52da60974ca8abc2dd4b nvme-pci: do not set the NUMA node of device if it has none
-4d4371618d84f2e85aa3eea821527fa3de644863 watchdog: iTCO_wdt: No need to stop the timer in probe
-21b9b2f558d4bc2dd134d29e108ee52e0588b86a watchdog: iTCO_wdt: Set NO_REBOOT if the watchdog is not already running
-0ac3994cf3012e00fe3d7fbe246f711de55bb143 net: Fix unwanted sign extension in netdev_stats_to_stats64()
-830023cd835ff2d2e61fe8d170506b7ee52ff55a usb: typec: wcove: Use LE to CPU conversion when accessing msg->header
-e0e7cb1f349350f9f5acbcaf293deeb6baf6157f usb: typec: tcpm: usb: typec: tcpm: Fix a signedness bug in tcpm_fw_get_caps()
-536c47c7172d081f37968084a0897485b662846d scsi: megaraid_sas: Enable msix_load_balance for Invader and later controllers
-a35715c2f7ed1240e0f852ed6d86da771e9e86ca Smack:- Use overlay inode label in smack_inode_copy_up()
-4b90fdd5b067de2632b749d790da013541141fd8 smack: Retrieve transmuting information in smack_inode_getsecurity()
-8ba4c3cf641624d684e6da42d510eb2c8d56aaa6 smack: Record transmuting in smk_transmuted
-d4227231dcab974e2df7db2bca0917469db14be7 serial: 8250_port: Check IRQ data before use
-14a35c39ff8fef1aa72fda264b99b658541b4b31 nilfs2: fix potential use after free in nilfs_gccache_submit_read_data()
-ebd21003519387ad12a8c36fc8d53b5e0a7e493b ALSA: hda: Disable power save for solving pop issue on Lenovo ThinkCentre M70q
-401950df5b200c5d8377f5429b5fa291ac5e56f8 ata: libata-scsi: ignore reserved bits for REPORT SUPPORTED OPERATION CODES
-3f87b04680420450f87e8f13d33064483d3eb183 i2c: i801: unregister tco_pdev in i801_probe() error path
-389662f2f07d9b8ab8bb601e721ad147dc36ea47 btrfs: properly report 0 avail for very full file systems
-c6c0c3b99108b14efc7536ac3901d4143d843cf1 net: thunderbolt: Fix TCPv6 GSO checksum calculation
-9c0dab016ea3fdd14b952599292c305cb5c9ee42 ata: libata-core: Fix ata_port_request_pm() locking
-06a799b440f653c7abbb21222083cd5bd58fdaa7 ata: libata-core: Fix port and device removal
-bcdfb776dfdbf046b1b60ca7c5a7335fc939e7ee ata: libata-core: Do not register PM operations for SAS ports
-88259fa0695c18eafe7207477d46a7bf5c02636e ata: libata-sata: increase PMP SRST timeout to 10s
-592d8becde87c08319f50f692e834ffcc7b1d42d fs: binfmt_elf_efpic: fix personality for ELF-FDPIC
-a70e2840d2494de2e794b720b7164f3d26624c5c Linux 4.19.296-rc1
+9fe6cfce355df02aa6c0f6a668b77e44aa5950f5 NFS/pNFS: Report EINVAL errors from connect() to the server
+dd264e57a4e939b30a130d393e3f55100287b47e SUNRPC: Mark the cred for revalidation if the server rejects it
+31d77c9fffeb5a13d56e58f65468b0a65a759677 tracing: Increase trace array ref count on enable and filter files
+46eaeb52bfdd6cf5ee3fbddb22da8bcbf9fb488d ata: libahci: clear pending interrupt status
+43359a9540612aca1a3acfb7e7cb8277fa563236 ext4: remove the 'group' parameter of ext4_trim_extent
+da2292557785c970d08373c187df75cea74fe9c6 ext4: add new helper interface ext4_try_to_trim_range()
+00d31106686018186bb3ca368fdeea2ec7c18b46 ext4: scope ret locally in ext4_try_to_trim_range()
+aa390c5c7a6098ca009384ce83fc58878e1c97ad ext4: change s_last_trim_minblks type to unsigned long
+5268180cffb1963fc8d24660acb6c5f8c2bd6a7d ext4: mark group as trimmed only if it was fully scanned
+d7815f7448c3dcc6224be9fb16d6bf159b74b735 ext4: replace the traditional ternary conditional operator with with max()/min()
+788a458610d247058c699eaac431365bd29ae0a7 ext4: move setting of trimmed bit into ext4_try_to_trim_range()
+8022d03f9e851a0a091dced23e31bcf0efde5c05 ext4: do not let fstrim block system suspend
+7c461be5ee954ae5e6319a88ef0afe0b19bbbbd8 ASoC: meson: spdifin: start hw on dai probe
+3245ef4cc7a9894637a3857e7303f3be74092b77 netfilter: nf_tables: disallow element removal on anonymous sets
+e635b8d400a4121bd8186e63a4d8e5dddea9cba3 bpf: Avoid deadlock when using queue and stack maps from NMI
+9fd0d88ebc028303eb07545c77e671691afc09ce selftests/tls: Add {} to avoid static checker warning
+dac44472a17433f21e9ec3ad7d5e32013c2898d8 selftests: tls: swap the TX and RX sockets in some tests
+e1e0928e67fe64bb327255762d7ee1da4ecf1fcd ASoC: imx-audmix: Fix return error with devm_clk_get()
+7c2dfd316a0b4d9f0aeeb04674bc741e8f4d529f i40e: Fix for persistent lldp support
+2e6e913fc775b83a3c33f2e6872b24c619cbd5f4 i40e: Remove scheduling while atomic possibility
+4e6582297df9c002737cfc316639381ad71b23b9 i40e: Fix warning message and call stack during rmmod i40e driver
+292e5abbafc94316329c98b97f7a2fe29772fa6e i40e: Fix VF VLAN offloading when port VLAN is configured
+7a2eee78ff2b8a70d3190e0048d4241ecb8f9645 ipv4: fix null-deref in ipv4_link_failure
+0acccf93799f30eee88ca87ce941e1b80b8ca1c4 powerpc/perf/hv-24x7: Update domain value check
+55deed15b56c0714f5d8ea14e90508c2ed90d1e0 dccp: fix dccp_v4_err()/dccp_v6_err() again
+398848013852c5a64970bb51ce8e6fd2741b7b75 net: hns3: add 5ms delay before clear firmware reset irq source
+086a70972687259e8e198dceb69d42c1a22df77a net: bridge: use DEV_STATS_INC()
+4334bf84706b07285bb13a226c4747ae4520b5f5 team: fix null-ptr-deref when team device type is changed
+2e6aa66a6a9c98905a8de79e730826c36155b794 net: rds: Fix possible NULL-pointer dereference
+ab1ddc651b93d192dc3d4717d6f5cb33b1638d77 netfilter: ipset: Fix race between IPSET_CMD_CREATE and IPSET_CMD_SWAP
+948f0bebfd4a4a6b048152730b4e724e5591cde6 gpio: tb10x: Fix an error handling path in tb10x_gpio_probe()
+236de0f15d864495e207d394020982cb803e71ac i2c: mux: demux-pinctrl: check the return value of devm_kstrdup()
+9b4e3dfdfd46d3d10b5232ab14703308ce2627aa Input: i8042 - add quirk for TUXEDO Gemini 17 Gen1/Clevo PD70PN
+005f2e23381e707755e83f44e4a2e56cdfa42bdf scsi: qla2xxx: Fix update_fcport for current_topology
+a3abe6c4b78ed552b74cdf14185b140cdc12b3aa scsi: qla2xxx: Fix deletion race condition
+dccf8286d92598099cda0f74ab396936632a31f5 perf jevents: Switch build to use jevents.py
+bab4ebbb53bd2dd70607a9809ed8b7e125c5bf66 perf build: Update build rule for generated files
+e1298b14f3ca8b7c02a9a82bd8666dd3ccf5cbd0 clk: imx: clk-pll14xx: Make two variables static
+f13d8efecd3db3c9461874a5ef264cf446f67034 clk: imx: pll14xx: Add new frequency entries for pll1443x table
+bcce4f26f17c19ae8a5a8430d975ea478b6bb25b clk: imx: pll14xx: dynamically configure PLL for 393216000/361267200Hz
+aebcc2a83496cb6d8a37558402e830409d3b2122 drm/amd/display: Reinstate LFC optimization
+6151808dfdbd74b8ba14605af007594707913c76 drm/amd/display: Fix LFC multiplier changing erratically
+55a3b79a1eedba3cdf7e8f9d3a36239555a9793e drm/amd/display: prevent potential division by zero errors
+d1a20f23b9466bb5f172238c428e94da0fa319f1 ata: move EXPORT_SYMBOL_GPL()s close to exported code
+5c91b4549379c09ec78a4dbb55f610b694376c47 ata: libata: disallow dev-initiated LPM transitions to unsupported states
+6873f5ae5e78cbf7d23465da7dc97127a0c1dfba MIPS: Alchemy: only build mmc support helpers if au1xmmc is enabled
+5877c4c9ed1c3d01b7021cd20724847ac2bb639d clk: tegra: fix error return case for recalc_rate
+c408f5f0825d56afa9fa9c21ec86b5e510caebce ARM: dts: ti: omap: motorola-mapphone: Fix abe_clkctrl warning on boot
+101f4727920cea3182790b726d339ffff6c2f896 bus: ti-sysc: Fix SYSC_QUIRK_SWSUP_SIDLE_ACT handling for uart wake-up
+05094d916164d0310ba6e40906f79f32624c5ae6 xtensa: add default definition for XCHAL_HAVE_DIV32
+5dc59d6b9ea5d162f7f316a49bb9b46bf912a33e xtensa: iss/network: make functions static
+d3ebcb796785ecc3d538a9e7e0c1f995ffae6596 xtensa: boot: don't add include-dirs
+08b9b535bf7abcec8a0386c45da60fb110153937 xtensa: boot/lib: fix function prototypes
+c4bb39a2cfa26fff8e296018a188c4e923e9748d gpio: pmic-eic-sprd: Add can_sleep flag for PMIC EIC chip
+09a3da254be94e08e48ebb75b17355c594a4c662 parisc: sba: Fix compile warning wrt list of SBA devices
+b1cf92e8803c754323c9f550deb2753b4155fd6e parisc: iosapic.c: Fix sparse warnings
+d741b49f688d0e83940662f9d11dfb101a2cf3c7 parisc: drivers: Fix sparse warning
+0e1cb215f9c032b4f4b29b95830227dcd0c08078 parisc: irq: Make irq_stack_union static to avoid sparse warning
+1697f5886a4b24a24eecda094a39206bf6dcca6a selftests/ftrace: Correctly enable event in instance-event.tc
+211e36158fcf1c87d0c62de9b51ef4138335570e ring-buffer: Avoid softlockup in ring_buffer_resize()
+5fa87e7cdf8a1645e64625b438aeaa266d7e8956 ata: libata-eh: do not clear ATA_PFLAG_EH_PENDING in ata_eh_reset()
+755c9cf8d5aa69024dbb118befc6d4420f7f557b spi: nxp-fspi: reset the FLSHxCR1 registers
+c1b73924bbe47a7fce6dc6a93089fbf4a6f6a0f1 bpf: Clarify error expectations from bpf_clone_redirect
+3f838a5d24a494e610ba225b13cc771c461e9411 powerpc/watchpoints: Annotate atomic context in more places
+17bb51c3e0a50fb93499c9673a3a7f8430d3f201 ncsi: Propagate carrier gain/loss events to the NCSI controller
+ae7ee7d07611d4b1abede9ec8211849d9642ab35 fbdev/sh7760fb: Depend on FB=y
+0400b692aed43eca4de24d1c41c31377f6921852 nvme-pci: do not set the NUMA node of device if it has none
+e303c17c6eb6b4db250ed9abf9e980efb21d37e6 watchdog: iTCO_wdt: No need to stop the timer in probe
+fcf9d31aa020375bcb23c6b2389dbc03792706a5 watchdog: iTCO_wdt: Set NO_REBOOT if the watchdog is not already running
+acdee3968605c8009256bcb65ab27eb2a3d2b5e7 i40e: improve locking of mac_filter_hash
+e0a1df169e8c1c67b1fab392f81251bafad14a5b i40e: always propagate error value in i40e_set_vsi_promisc()
+8ce9790e6892ab0ee457c9af2acfad0e454a5c6b i40e: fix return of uninitialized aq_ret in i40e_set_vsi_promisc
+5c600d308c998f8f9c3fd9c9db00cf4a35e01f38 smack: Record transmuting in smk_transmuted
+0e05177e51ffb017e25b862a02f2b14d998b3d48 smack: Retrieve transmuting information in smack_inode_getsecurity()
+f9ddfcae08709e661c2d745f8d1b294ee817549c Smack:- Use overlay inode label in smack_inode_copy_up()
+8bea4aeac9c239bc661b275ee966d94a0afd781b serial: 8250_port: Check IRQ data before use
+64ff409ff767a9caf3f62b236976735f91026a1e nilfs2: fix potential use after free in nilfs_gccache_submit_read_data()
+361d4b1fdfab6c030255676c9673c9f4da82af08 ALSA: hda: Disable power save for solving pop issue on Lenovo ThinkCentre M70q
+3a9a3e4b398f8e265baee4c8475f2eb98f7d62d3 ata: libata-scsi: ignore reserved bits for REPORT SUPPORTED OPERATION CODES
+e394ee7510639079c1bf5220aa1da2788670f548 i2c: i801: unregister tco_pdev in i801_probe() error path
+720170b23d6c34f4f84e30b35a38a89288568c40 ring-buffer: Update "shortest_full" in polling
+a2da5c80ea47063ad15b39a38ab4ec6305461386 btrfs: properly report 0 avail for very full file systems
+4e4465b08c00591b541264d1c0fe599c1e4085b0 net: thunderbolt: Fix TCPv6 GSO checksum calculation
+315e564a1a5b3c2a22cf506866733cc30a5e47cd ata: libata-core: Fix ata_port_request_pm() locking
+3124e729025c675a7bab8d783f0d6a1ded411d68 ata: libata-core: Fix port and device removal
+4bde32a399dc2c83557bf6690190f84fe93dee75 ata: libata-core: Do not register PM operations for SAS ports
+fd5923caf4d0d8a968a0af9ac922913f504d9254 ata: libata-sata: increase PMP SRST timeout to 10s
+19ee9b01f8023d108052df914343f25133acad40 fs: binfmt_elf_efpic: fix personality for ELF-FDPIC
+7cd8e365240341a6b471b7867c7f687a442aa0b5 Linux 5.4.258-rc1
 
---===============6027253862422038430==--
+--===============1380338414803039297==--
