@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 04 Oct 2023 18:41:22 -0000
-Message-Id: <169644488223.895.7531658866069548395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Oct 2023 18:41:31 -0000
+Message-Id: <169644489192.1055.14521536974396722839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 808d15ebffdcee5e418a210815e57e6128e0f803
-    new: a29f3e6957914dc564c723a8fc405cd99e407fd2
+  - ref: refs/heads/main
+    old: 72897b29599934753d67932fccdde4c61d03b6db
+    new: 0add5c597f3253a9c6108a0a81d57f44ab0d9d30
     log: |
-         a29f3e6957914dc564c723a8fc405cd99e407fd2 bindings: rust: rename {event,settings}_clone to try_clone
+         0add5c597f3253a9c6108a0a81d57f44ab0d9d30 ipv4: Set offload_failed flag in fibmatch results
          
