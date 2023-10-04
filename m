@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 04 Oct 2023 09:49:17 -0000
-Message-Id: <169641295727.12662.4506114394331765681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 04 Oct 2023 09:57:25 -0000
+Message-Id: <169641344551.18565.16242232072393670352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 10843681c9af391f0cedc44d13f7588ea3ed7f1f
-    new: 045623266d26e95334c1459a62c1763b4aa248de
+  - ref: refs/heads/fixes
+    old: bc3b6f59463ba9f4367a80331213db491766b5a1
+    new: cbf92564100cf26000ef0af5e0f4e85ed0a13f4b
     log: |
-         6bc6f7d9d7ac3cdbe9e8b0495538b4a0cc11f032 x86/sev: Use the GHCB protocol when available for SNP CPUID requests
-         62d5e970d022ef4bde18948dd67247c3194384c1 x86/sev: Change npages to unsigned long in snp_accept_memory()
-         045623266d26e95334c1459a62c1763b4aa248de Merge x86/urgent into tip/master
+         528ab3e605cabf2f9c9bd5944d3bfe15f6e94f81 platform/x86: think-lmi: Fix reference leak
+         981368e1440b76f68b1ac8f5fb14e739f80ecc4e platform/x86: hp-bioscfg: Fix reference leak
+         2545deba314eec91dc5ca1a954fe97f91ef1cf07 platform/x86/intel/ifs: release cpus_read_lock()
+         cbf92564100cf26000ef0af5e0f4e85ed0a13f4b platform/mellanox: tmfifo: fix kernel-doc warnings
          
