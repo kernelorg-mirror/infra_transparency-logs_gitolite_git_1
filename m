@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 04 Oct 2023 18:54:56 -0000
-Message-Id: <169644569686.10043.366938898274387146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 04 Oct 2023 18:56:32 -0000
+Message-Id: <169644579251.12230.5198410888274450699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-6.7
-    old: 9b81d3a5be05d350ac93d99762c7ee91fe29b4cb
-    new: 46c521bac592251229acdd2cd67976a7b1f88bed
+  - ref: refs/heads/wip/leon-for-next
+    old: 16419098e8b301417173d8d2cbfa94a56ac9900b
+    new: 0aa44595d61ca9e61239f321fec799518884feb3
     log: |
-         46c521bac592251229acdd2cd67976a7b1f88bed cgroup/cpuset: Enable invalid to valid local partition transition
-         
-  - ref: refs/heads/for-next
-    old: 9b81d3a5be05d350ac93d99762c7ee91fe29b4cb
-    new: 46c521bac592251229acdd2cd67976a7b1f88bed
-    log: |
-         46c521bac592251229acdd2cd67976a7b1f88bed cgroup/cpuset: Enable invalid to valid local partition transition
+         0aa44595d61ca9e61239f321fec799518884feb3 RDMA/core: Fix a couple of obvious typos in comments
          
