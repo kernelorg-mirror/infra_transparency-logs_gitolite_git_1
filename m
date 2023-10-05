@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2934006195735164408=="
+Content-Type: multipart/mixed; boundary="===============6239038449938139928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 05 Oct 2023 03:43:24 -0000
-Message-Id: <169647740482.8654.7509501580799187186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 05 Oct 2023 03:43:52 -0000
+Message-Id: <169647743262.8941.839764378719736780@gitolite.kernel.org>
 
---===============2934006195735164408==
+--===============6239038449938139928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 33b64befb1a28bca3f5a9ed9807d2f87e976c63a
     new: 7d730f1bf6f39ece2d9f3ae682f12e5b593d534d
     log: revlist-33b64befb1a2-7d730f1bf6f3.txt
-  - ref: refs/heads/stable
-    old: cbf3a2cb156a2c911d8f38d8247814b4c07f49a2
-    new: ba7d997a2a29ee3fa766fee912c65796e0c21903
-    log: |
-         6f874fa021dfc7bf37f4f37da3a5aaa41fe9c39c selftests: Fix wrong TARGET in kselftest top level Makefile
-         ba7d997a2a29ee3fa766fee912c65796e0c21903 Merge tag 'linux-kselftest-fixes-6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         
-  - ref: refs/tags/next-20230705
-    old: 5165c344d626a94519eb300219ff21199a904e67
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231005
     old: 0000000000000000000000000000000000000000
     new: 464c2730b4b49ff14dd6922fb5533d22296c593c
 
---===============2934006195735164408==
+--===============6239038449938139928==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1064,4 +1054,4 @@ cf10b86c9096df9fd9b424c08fcdb2e56e5b9a5e Merge branch 'for-next/kspp' of git://g
 5ba733573f152ade28c129ff3ee0ec2414c67944 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 7d730f1bf6f39ece2d9f3ae682f12e5b593d534d Add linux-next specific files for 20231005
 
---===============2934006195735164408==--
+--===============6239038449938139928==--
