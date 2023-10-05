@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5286500110664424522=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 05 Oct 2023 10:48:39 -0000
-Message-Id: <169650291912.3497.725113654875222999@gitolite.kernel.org>
-
---===============5286500110664424522==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 05 Oct 2023 10:51:11 -0000
+Message-Id: <169650307121.6041.11406474336768581724@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 53604854c6f00ce1db4393499125aff94e3d9bbd
-    new: 1aa3aaf8953c84bad398adf6c3cabc9d6685bf7d
+  - ref: refs/heads/for-6.6/upstream-fixes
+    old: 7e51d8bcd21fd8d67019abf6791e3ff85fb57419
+    new: b009aa38a380becd98cc4e01c9b7626a11cb4905
     log: |
-         1aa3aaf8953c84bad398adf6c3cabc9d6685bf7d binder: fix memory leaks of spam and pending work
+         1437e4547edf41689d7135faaca4222ef0081bc1 HID: multitouch: Add required quirk for Synaptics 0xcd7e device
+         b07b6b27a50e3a740c9aa6260ee4bb3ab29515ab HID: nvidia-shield: Fix a missing led_classdev_unregister() in the probe error handling path
+         aa80f391e97a3fa5ca6bd822047950aa0584f6bf HID: nvidia-shield: Fix some missing function calls() in the probe error handling path
+         95ea4d9fd385fe335b989f22d409df079a042b7a HID: nintendo: reinitialize USB Pro Controller after resuming from suspend
+         b328dd02e19cb9d3b35de4322f5363516a20ac8c HID: sony: remove duplicate NULL check before calling usb_free_urb()
+         8f02139ad9a7e6e5c05712f8c1501eebed8eacfd HID: intel-ish-hid: ipc: Disable and reenable ACPI GPE bit
+         b009aa38a380becd98cc4e01c9b7626a11cb4905 HID: Add quirk to ignore the touchscreen battery on HP ENVY 15-eu0556ng
          
-
---===============5286500110664424522==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696502915 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1696502915-4f1a192fa556019f6d49449a781f245cb6a82cbc
-
-53604854c6f00ce1db4393499125aff94e3d9bbd 1aa3aaf8953c84bad398adf6c3cabc9d6685bf7d refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUelIMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IecP/RXXpZrUucVfjsoDNShm
-slQf/+IWElEb6FEKAIapX8I1icUFY9u4lrwZMpHGErPyWUUyvKhBuZtn19F5J7Oo
-sq/13NZfG8w0X2N1X5Syd5bA4G2/Ljou3b0Md4xkPNdcy5zWoEjd4ZG0FIocUY1Y
-JgjyxffyKT3JcWuhZeAguo3bUvXnw+Z99Yg9QjxHp9INRUC/Cth5IEBtmDZ7TJ9M
-5Aqlz+tmXrn81IB9RX9uGpiSq4UbLYzKh+wBNoOzBBCqq8AxPY/KRqeuNZbO/hz1
-0jdB/ERNK0JNVFCNTfEKXzD2GXfea8HShbnFdOnFnlSPM7TtnQIxvwGcyyCuVKZr
-dFhgBnXK7v5JZLG/W2XHsJcZl83wGWNfv4WUeANdBlcsilYidhSNN+DjQNDMZL5/
-ct+u9hnpEQFAJIMkUHco8IiX/v2cs/7aZ6NCVzMIuVRD8J31OJ3MvHDUtjh6qpRv
-ID7D55ossO6y6gJ113+C8T8Kp7fFI1/Is5WKfz5wQUYqRIUS2M+GfJuUxEkos/zS
-4QEHdmfjhOJQ2KoLf8otndeqSw6HxLn5H6ee8rRBbEHklMsGTP7sN/FFS9tYDRXz
-rkBKIWupQ4EYqZI2GWtcnFOHgrrTyYtnfIeCt1aDuO/jD/2iFuLdwFIrBdvOQ8Dv
-vjVCKqRfQHV6Qlt0er6eHAat
-=rqr0
------END PGP SIGNATURE-----
-
---===============5286500110664424522==--
+  - ref: refs/heads/for-linus
+    old: 7e51d8bcd21fd8d67019abf6791e3ff85fb57419
+    new: 29aa98d0fe013e2ab62aae4266231b7fb05d47a2
