@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6093235634633804818=="
+Content-Type: multipart/mixed; boundary="===============5819646686609377471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 05 Oct 2023 09:28:52 -0000
-Message-Id: <169649813275.28770.11158921748427233485@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 09:31:41 -0000
+Message-Id: <169649830193.31466.1718497205057515647@gitolite.kernel.org>
 
---===============6093235634633804818==
+--===============5819646686609377471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,60 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 78510a4db873bea115ccfb88a9493c1465105733
-    new: 056c70638b24612cf13cf2b9db95db40f761f68a
-    log: |
-         bcdf91c9f9077d24153258faa4942512a340d399 eeprom: idt_89hpesx: replace open-coded kmemdup_nul
-         0113a99b8a75f307439c2950cec5b5dab818f35c eeprom: Remove deprecated legacy eeprom driver
-         4d08c3d12b61022501989f9f071514d2d6f77c47 misc: st_core: Do not call kfree_skb() under spin_lock_irqsave()
-         aee9bf99069d52eca646c88081e974fb9fe045ff misc: rtsx: Use pci_disable/enable_link_state()
-         04d696e7e44928d34752e0108e813595aadf00d8 misc: bcm-vk: Annotate struct bcm_vk_wkent with __counted_by
-         69d02dd37e74f92535a788a9a60cbf98c62caf8b mei: fix doc typos
-         056c70638b24612cf13cf2b9db95db40f761f68a ibmvmc: replace deprecated strncpy with strscpy
-         
+    old: 056c70638b24612cf13cf2b9db95db40f761f68a
+    new: 93af26a7d96d66f31effdfc416f184e6a05b2762
+    log: revlist-056c70638b24-93af26a7d96d.txt
 
---===============6093235634633804818==
+--===============5819646686609377471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696498130 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696498299 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1696498130-aa486c2b7d6ca273f4e94c4ebd87cec5dd8a096f
+nonce 1696498299-b5befa37054b67d37f4b1f3ef8c9896d58187e3b
 
-78510a4db873bea115ccfb88a9493c1465105733 056c70638b24612cf13cf2b9db95db40f761f68a refs/heads/char-misc-testing
+056c70638b24612cf13cf2b9db95db40f761f68a 93af26a7d96d66f31effdfc416f184e6a05b2762 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUegdIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AEoQAKHkXjHEhHfOqptSITBJ
-Bol84OzxaXGAgjACk6dgay1X7ejTaHrrg4TCbsdy2bQQZEpjrz/AKiaExPUaybUW
-IRvKcZ9G1hJNNrzJ6JQXm7Dj+pfdm15tOCqCY3qehFtF4DiOURWHzuIeHonPu7Cu
-XTVjcs5NFDQfT1l5AzhWH6eNGwZ07oyFlYOqlKYH/QQ5BUCD+zMLlgGZJs5j5ZDB
-r3yBld4V8pL2k62eLsPeUuPV+i/YR57pUroqP57WhbeLcc/gi5SaaFwpUHT3odeY
-7qdxTD5rQTUXJPEwHXRMCLbfT1lEJv5tF7QGH5MzPBXwPS/D/SAB1uUvA1iXM0j4
-GaL9xm+hGQn1j+ZGRctKquRhYtRSAS6jPHG5KiI/N6gyEJqCI60xISK5It4CLOlU
-Wogzbc+1tVe9L+kXM8SxgeDn+ZIgcSnqYKT/X1YVOtGyho6lKqLqePtGZmha68Gb
-Hjz1n0xCFkjund0wRjcEWYRODmso9zmhqS+JDUTN2Hp4sygYloguig5IrrAhIV7O
-rHd0T/n/5V18Oh5sXGQWFalnUgry6vn0zADG2AMV9VRLPOT2aAQ880RM2VpxtFJP
-rwcYhZVFogm2Zbutp0dg2lrbOHmEJ6QC0DwjqcbfZw1QFtS6kI72xqCWbsyxhBSm
-inn0tpCVFOc7tlDgUU/RUFMI
-=L/nw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUegnsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xvgQAKw8ncMM6zkoh1QO43Qz
+BzUvl8KLuRu15BiK1MOoWI7NKJkK1DE+4+shzOuNz7ta7DNed9auUjEkY/+fZYAP
+BF6QwrjhPPtuULgeZFeUqLjEWLbdz4mjuvtARk9UDr2Q7lkxKDzA+E+hDIJ5JM9h
+1DLE+sTSWvy/MiOwOlqa8tAQMC+5hiVjW/DDPxGZzB46lGs1oE2wjMiyYOzd6orN
+NPp2LfZfdSngDr/sq3pbJD+um9ur1paCqvDp9pl9oehlnGZV9yIlSoADWZg2N9MQ
+3iWl9sNonpZgYXpR70UYkOWBxcQMweuSdm1/0E/6mI6A6RWjG+9wgg/lL8IvwYGY
+9kzEdnL6GgsMoEKWiZ5n0k25DpUWBo05vvrolIh7OzuPWfpMI0etXrgz0rgb4A35
+MZZ7IWHwYylgIKQ9XXl4nYmI9uWl+w93g+U2Y4OAU42ojPaW0a77/MruTh+DI2hc
+5owyq+lc3kS8gvqJuSwdHOxD5T8+POvca5JmerOVovwSIHDHoE7TmNyZRs/rsQl6
+L2F7UKm5WPymWfv50Ih2aUgbqC1ycf+uSR48L64aukG66J6R7vm/VTWHZMLI2Lq2
+Qmqfthnyn4YXPzF1Tz7Y/P5N1izBFyZLAPZPHwPbNMMk0rYIaud4xhnY39xLf5zX
+GzGB/y0ENFqSnC6M406vzsue
+=Vi0k
 -----END PGP SIGNATURE-----
 
---===============6093235634633804818==--
+--===============5819646686609377471==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-056c70638b24-93af26a7d96d.txt
+
+d7ed54ce320568e9032a2b7b434daab515842e63 drivers: misc: ti-st: replace deprecated strncpy with strscpy
+24aeb00c97a14c50e7a06aeb9b4ff34a2ea0f5c4 comedi: Correct dependencies for COMEDI_NI_PCIDIO
+96c4cc03b1f52e1a13cbbd4ad6a490a122bf9095 comedi: comedi_8254: Use a call-back function for register access
+abb67c31808088f82499d9aa8bd02ee1497a733a comedi: comedi_8254: Replace comedi_8254_init() and comedi_8254_mm_init()
+60483f430b4620e1d6848c58d856ec5b06a30cc4 comedi: comedi_8254: Conditionally remove I/O port support
+ee547ab577a6bae54348d1b14149d52ef643a881 comedi: 8255_pci: Conditionally remove devices that use port I/O
+6375fd6d8be2ebada1c76749d662e84d4962b64a comedi: comedi_8255: Rework subdevice initialization functions
+4770455fc90066adfa548811995a226dde92cf7f comedi: comedi_8255: Conditionally remove I/O port support
+9252debe68da5d67b8eb448cb2d3093e0f36b686 comedi: ni_labpc_common: Conditionally remove I/O port support
+55c9a29243106d157b6c5158204cb7ddca7f86f0 comedi: ni_mio_common: Conditionally use I/O port or MMIO
+b6aaab2c6fa7f1705d369ff4a3c662ca03e62fd2 comedi: amplc_dio200_pci: Conditionally remove devices that use port I/O
+42ffd8bc9adb9cde81ca2a87d0eea0d33d802ad2 comedi: amplc_dio200_common: Refactor register access functions
+c48b1b01793c9e1c91a3c08d6ce78b0cf13a86c0 comedi: amplc_dio200_common: Conditionally remove I/O port support
+958b3e1f65c554ee96422307bdd4d37e0500acff comedi: add HAS_IOPORT dependencies again
+93af26a7d96d66f31effdfc416f184e6a05b2762 comedi: Annotate struct comedi_lrange with __counted_by
+
+--===============5819646686609377471==--
