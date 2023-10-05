@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4862330201978320541=="
+Content-Type: multipart/mixed; boundary="===============1062289852011685658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 05 Oct 2023 14:27:50 -0000
-Message-Id: <169651607064.32181.7002826899207001873@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 14:28:39 -0000
+Message-Id: <169651611923.32540.16400720390197979223@gitolite.kernel.org>
 
---===============4862330201978320541==
+--===============1062289852011685658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-drivers
+  - ref: refs/heads/edac-for-next
     old: ce53ad81ed36c24aff075f94474adecfabfcf239
     new: 0fd934580ea3ea91052b999ff75017c3f08b9783
     log: revlist-ce53ad81ed36-0fd934580ea3.txt
 
---===============4862330201978320541==
+--===============1062289852011685658==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git:
 82bcca7b7fed9f3a6917401e366ac657ee96aae4 dt-bindings: memory-controllers: Add support for Xilinx Versal EDAC for DDRMC
 0fd934580ea3ea91052b999ff75017c3f08b9783 EDAC/versal: Add a Xilinx Versal memory controller driver
 
---===============4862330201978320541==--
+--===============1062289852011685658==--
