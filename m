@@ -1,42 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============4518585772677389224=="
+Content-Type: multipart/mixed; boundary="===============6761641614116249640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 05 Oct 2023 12:49:12 -0000
-Message-Id: <169651015241.26073.17856973136425111044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 05 Oct 2023 12:57:48 -0000
+Message-Id: <169651066826.32245.4126706591987746218@gitolite.kernel.org>
 
---===============4518585772677389224==
+--===============6761641614116249640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: cec422ab8c1ef320cba23b7dbf9ea5364b9c8207
-    new: f2bbe6f1f446b4c13466ebe7a2bf268bdbe0496b
-    log: revlist-cec422ab8c1e-f2bbe6f1f446.txt
+  - ref: refs/heads/ffa_v1.1_notif
+    old: c93b0c7f81f29ea23ae731ce06b3007ceea921a6
+    new: f93097ab6fc9a02879b8148e1cc0a0e69611efd8
+    log: revlist-c93b0c7f81f2-f93097ab6fc9.txt
 
---===============4518585772677389224==
+--===============6761641614116249640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cec422ab8c1e-f2bbe6f1f446.txt
+Content-Disposition: attachment; filename=revlist-c93b0c7f81f2-f93097ab6fc9.txt
 
-3cd39bc3b11b8d34b7d7c961a35fdfd18b0ebf75 kernel.h: Move ARRAY_SIZE() to a separate header
-82cc14c9930c7613da2fcb41a8d4f90c8b4cb048 pinctrl: Replace kernel.h by what is actually being used
-8fd516168df19af5d32d5c7dc824605b4fb0bc72 pinctrl: baytrail: drop runtime PM support
-f29047a09b5ed3265a5af68626e40ff772e5e07e pinctrl: intel: Replace kernel.h by what is actually being used
-67c9e830d0c4e481ebc41d32b8e83bb27689747f pinctrl: lynxpoint: drop runtime PM support
-1209d59070b577c6319f4aef322093a434544c7e pinctrl: intel: refine intel_config_set_pull() function
-a8c199a2ad067eb23fb2b97f9985398dc809316b Merge patch series "Drop runtime PM support for Baytrail and Lynxpoint pinctrl"
-a4877a858e80a559b6c0de81bd81d0037dbce5b6 pinctrl: baytrail: Replace kernel.h by what is actually being used
-315ef5fcd2d980d00ce452ae429e9301086653b5 pinctrl: cherryview: Replace kernel.h by what is actually being used
-1cb71a63f62263b6d5ca5c9f57bb0ac5f5610825 pinctrl: lynxpoint: Replace kernel.h by what is actually being used
-068866fb5c903a58b8ac341ef763f468d98a013d pinctrl: merrifield: Replace kernel.h by what is actually being used
-f2bbe6f1f446b4c13466ebe7a2bf268bdbe0496b pinctrl: moorefield: Replace kernel.h by what is actually being used
+69a4fe091b668678f1e23e2ad52103eba6e847d7 firmware: arm_ffa: Allow the FF-A drivers to use 32bit mode of messaging
+158965c3543f9fc4105bb0227be088b2fd260284 firmware: arm_ffa: Add FF-A v1.1 support(notification + new memory descriptor format)
+3203092d52af3cf28bd10dd7a73fff430ee90c9f firmware: arm_ffa: Update the FF-A command list with v1.1 additions
+e14d6e6c8ff960a0b8326090b9416b44bb0c6d7c firmware: arm_ffa: Implement notification bitmap create and destroy interfaces
+5f88ece014658d1b064bb04443ea95c7d208d4c2 firmware: arm_ffa: Implement the notification bind and unbind interface
+b4920c56462a89fbba2c89c5be16c236193dd88b firmware: arm_ffa: Implement the FFA_RUN interface
+839e2a951489588e321f4f057f52ea190b709ef9 firmware: arm_ffa: Implement the FFA_NOTIFICATION_SET interface
+3fbd654215628530d751032388793cb9e9f39f41 firmware: arm_ffa: Implement the FFA_NOTIFICATION_GET interface
+5967fc75e62b594d3048589977bebf1949b31528 firmware: arm_ffa: Implement the NOTIFICATION_INFO_GET interface
+97e7ec42850b0c127986f6d0fd4f015a7a2c7d3b firmware: arm_ffa: Initial support for scheduler receiver interrupt
+c4dce3a181ec8e7e508df63f16796150d175294e firmware: arm_ffa: Add schedule receiver callback mechanism
+251157e3b26266fa90744905e4c88d5f92fce7af firmware: arm_ffa: Add interfaces to request notification callbacks
+7794b4bf0d7a91d9a318df6cce2c6fe64a1c21a5 firmware: arm_ffa: Add interface to send a notification to a given partition
+e733111b095ef0adb4e1ed4b144dfa234daa0b89 firmware: arm_ffa: Add notification handling mechanism
+b18ef45197dbf2987a2f59d3a67fa9dfac2f7359 firmware: arm_ffa: Simplify the computation of transmit and fragment length
+1ba06b08445c8058120636f092c307bf5293a57e KVM: arm64: FFA: Remove access of endpoint memory access descriptor array
+1ae766adace236ba50530b17dbb7543b75b9e8e2 firmware: arm_ffa: Switch to using ffa_mem_desc_offset() accessor
+c4883033a87d678eda6bdefc1a8274665db56813 firmware: arm_ffa: Update memory descriptor to support v1.1 format
+f93097ab6fc9a02879b8148e1cc0a0e69611efd8 firmware: arm_ffa: Upgrade the driver version to v1.1
 
---===============4518585772677389224==--
+--===============6761641614116249640==--
