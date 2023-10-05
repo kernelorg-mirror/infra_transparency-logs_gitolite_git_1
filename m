@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4461090556707719552=="
+Content-Type: multipart/mixed; boundary="===============8287957615878115705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 05 Oct 2023 19:50:04 -0000
-Message-Id: <169653540484.7609.17438992180884728274@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 19:50:14 -0000
+Message-Id: <169653541447.7771.1849227422420708710@gitolite.kernel.org>
 
---===============4461090556707719552==
+--===============8287957615878115705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,46 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 84059a0ef5c6bea71b4f8f87de61d6218c4ddc9c
-    new: bf176313c62ec4f97daa893888aa4fde86749cb2
-    log: revlist-84059a0ef5c6-bf176313c62e.txt
+  - ref: refs/heads/main
+    old: c35e927cbe09d38b2d72183bb215901183927c68
+    new: 93e7eca853ca0087b129433630ddd89288d2b8b4
+    log: revlist-c35e927cbe09-93e7eca853ca.txt
+  - ref: refs/heads/master
+    old: c35e927cbe09d38b2d72183bb215901183927c68
+    new: 93e7eca853ca0087b129433630ddd89288d2b8b4
+    log: revlist-c35e927cbe09-93e7eca853ca.txt
 
---===============4461090556707719552==
+--===============8287957615878115705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1696535399 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1696535408 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1696535396-dca329215363042912c6418605e76784521be7c0
+nonce 1696535408-31bdb913c2b25d865e7fff469d12fe3cfbd36e8a
 
-84059a0ef5c6bea71b4f8f87de61d6218c4ddc9c bf176313c62ec4f97daa893888aa4fde86749cb2 refs/heads/testing
+c35e927cbe09d38b2d72183bb215901183927c68 93e7eca853ca0087b129433630ddd89288d2b8b4 refs/heads/main
+c35e927cbe09d38b2d72183bb215901183927c68 93e7eca853ca0087b129433630ddd89288d2b8b4 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmUfE2cTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6CTWB/9q32SoV6GAWHTmx5KfH4FrvYxBCrBP
-c+xzr0Z6efvDrMmj9iw6qrSzy0NGuI6vbzUHO3bxRkotpyyFL6R9tZEaHjt5Lx08
-G/t04x5t+kwYR6n8zWJLdXzMxKV+GL34Hmn5a4mPl3vITGfj+478mlpaUNGDCLSK
-k0kKuyB4qFJ9IvUOd1NdVyhvhJFG7XxezSyw3QunkysM8ON8T4jCIu5Hn6IjyNQ5
-vUn+tfxb8+6I7wgCdxLV3dRDDw+XAOTJFqTCIil3EtdJ+1BxL2qw94drCPcXY+Fb
-sBxeG8JHCCmI3ml7+2QJ/2SIy6bm8C5bTPoY1H91yFXspW0p9FuqI7be
-=0dzN
+iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmUfE3ATHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRC+UBxKKooE6J3gB/9Vh6eOTFrxpkbiYhZRd2JVKa4pWp7Y
+WyCBu9/+n9VNTMD2aVaPX+sFFB6DVvNZEdSaDDpgfPZ1IdsrYXfQvp2gmBp1EUHl
+/zXpLhYOGvCXRZ7npeVnBi2JvKRzjS4XPY+PTLLlTMbKCyHhj9IhMnIhJEbkfRlo
+mbBtqiCoTZ6nJfI/2C2lj94Q9IngZoVZblx+K4mHtrwuvZUeY2ZrXWHC/MY90FbV
+m+5+oR+b9RcU2bJm8RHEWqtpoW1H8CU6AfXoCjDK7RMfubT/cns1L5CGDNNE1FbP
+W/sqyKBcouSfmD++KbRpFtlmFyeiFSo8i0Z3QNMOua8olJ8xGBlx6Ihl
+=a3BJ
 -----END PGP SIGNATURE-----
 
---===============4461090556707719552==
+--===============8287957615878115705==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-84059a0ef5c6-bf176313c62e.txt
+Content-Disposition: attachment; filename=revlist-c35e927cbe09-93e7eca853ca.txt
 
-2f73b35d79d06f5354c859c31e5946391efc45c8 riscv: Kconfig.errata: Add dependency for RISCV_SBI in ERRATA_ANDES config
-c6a906cce61a8015b622707f9c12003f90673399 soc: renesas: Kconfig: For ARCH_R9A07G043 select the required configs if dependencies are met
-d0a45eeb5806b4daab5811432e7dbae062035dbb Merge tag 'landlock-6.6-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 01a46efcd8f4af44691d7273edf0c5c07dc9b619 Merge tag 'printk-for-6.6-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 12952b6bbd36b372345f179f1a85576c5924d425 Merge tag 'loongarch-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 ca9c7abf9502e108fae0e34181e01b1a20bc439f Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
@@ -939,6 +941,10 @@ c1fec890458ad101ddbbc52cdd29f7bba6aa2b10 ethernet/intel: Use list_for_each_entry
 19f5eef8bf732406415b44783ea623e3a31c34c9 MAINTAINERS: Add an obsolete entry for LL TEMAC driver
 057708a9ca5930d4d9a456c29010f4f90ae760b7 pktgen: Automate flag enumeration for unknown flag handling
 7c7dd1d64910d07ab36b858d53d00e89b6d918d6 pktgen: Introducing 'SHARED' flag for testing with non-shared skb
+e27c3295114bb6a6dc6d58a38f8503c0ea97aa6b netfilter: nf_nat: undo erroneous tcp edemux lookup after port clash
+117e149e26d193467a3a136aa4393d32a3e7046f selftests: netfilter: test nat source port clash resolution interaction with tcp early demux
+aee1f692bfeda9e5c3a40cbc165d80de0ffb0879 netfilter: nf_tables: missing extended netlink error in lookup functions
+013714bf3e125a218bb02c938ff6df348dda743e netfilter: nf_tables: Utilize NLA_POLICY_NESTED_ARRAY
 236f3873b517acfaf949c23bb2d5dec13bfd2da2 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 5033f58d5feed1040eebeadb0c5efc95b8bf5720 net: constify sk_dst_get() and __sk_dst_get() argument
 f68a181fcd3b6a22236794813d5c9e5a62efd2b4 tcp: constify tcp_rto_min() and tcp_rto_min_us() argument
@@ -1034,46 +1040,45 @@ e268b972270567e0414836919c5b9f8bc01651a4 ice: make use of DEFINE_FLEX() in ice_s
 92425d08a60814b4a2e91626f1e24e4fd5fd5c7e Documentation: dpll: Fix code blocks
 c8afdc01832943fab030103bd027ce021d26ddcf Documentation: dpll: wrap DPLL_CMD_PIN_GET output in a code block
 8989682a1cb600bac1149ed17b1ce929ab472e79 Merge branch 'documentation-fixes-for-dpll-subsystem'
+5337d294973331660e84e41836a54014de22e5b0 i40e: Add rx_missed_errors for buffer exhaustion
+70dc7ab7645a438600e05a0196dbaf251e7f7062 iavf: remove "inline" functions from iavf_txrx.c
 473267a4911f2469722c74ca58087d951072f72a net: add sysctl to disable rfc4862 5.5.3e lifetime handling
-e36c56bf77d53f649de7d6bfc6d87539ea4b7549 can: sja1000: Fix comment
-107e6f6fe6f38577baecf0e01f517c8607a3a625 can: etas_es58x: rework the version check logic to silence -Wformat-truncation
-4f8005092cafc194ba6a8e5f39626ba0b9f08271 can: etas_es58x: add missing a blank line after declaration
-2806d74deb42f7a253a40d032153c628f37c19ce Merge patch series "can: etas_es58x: clean-up of new GCC W=1 and old checkpatch warnings"
-dd8bb80308c474ea0e7ddb244962cb2d7001bae2 can: raw: Remove NULL check before dev_{put, hold}
-3b9333493b5fa69f2dce8eb96bbef32df1b65c4a can: peak_pci: replace deprecated strncpy with strscpy
-fe5c9940dfd8ba0c73672dddb30acd1b7a11d4c7 can: dev: can_restart(): don't crash kernel if carrier is OK
-6841cab8c4504835e4011689cbdb3351dec693fd can: dev: can_restart(): fix race condition between controller restart and netif_carrier_on()
-8f3ec204d340af183fb2bb21b8e797ac2ed012b2 can: dev: can_restart(): reverse logic to remove need for goto
-f0e0c809c0be05fe865b9ac128ef3ee35c276021 can: dev: can_restart(): move debug message and stats after successful restart
-6411959c10fe917288cbb1038886999148560057 can: dev: can_put_echo_skb(): don't crash kernel if can_priv::echo_skb is accessed out of bounds
-2f0382a7590ed65ef6a4336aace0f30814e24dc1 Merge patch series "can: dev: fix can_restart() and replace BUG_ON() by error handling"
-9beebc2b5d0038a65977a7a14909598c64ce070f can: dev: add can_state_get_by_berr_counter() to return the CAN state based on the current error counters
-e26ccc4658c10fc949e475238f94a20b19e96b56 can: at91_can: use a consistent indention
-18c98714748364354701c18e93b60f6550171014 can: at91_can: at91_irq_tx(): remove one level of indention
-bd7854e83900b0f4c1ec5ddc91c447509f23b160 can: at91_can: BR register: convert to FIELD_PREP()
-abe1348753b3e062da7e0bfee1da0eef9dffe336 can: at91_can: ECR register: convert to FIELD_GET()
-53558ac133c0a8d4fd4c81d6c7885dacd3cca557 can: at91_can: MMR registers: convert to FIELD_PREP()
-90aa9a250cf2def73e890177867155f6ce956912 can: at91_can: MID registers: convert access to FIELD_PREP(), FIELD_GET()
-bdfff1433cd6e2f47155f7bf205bcee32001a075 can: at91_can: MSR Register: convert to FIELD_PREP()
-5e9c5bcc017d24fe0e990aa793086d4eb175079c can: at91_can: MCR Register: convert to FIELD_PREP()
-63446dc70316e104d8454d4a2143a652d2d47a99 can: at91_can: add more register definitions
-2b08e5217a1d151bd8901ad2b7de220227e04b0d can: at91_can: at91_setup_mailboxes(): update comments
-2f1a01a82fca5fa734dbe653cce54463f61f0299 can: at91_can: rename struct at91_priv::{tx_next,tx_echo} to {tx_head,tx_tail}
-ccd7cd07051fbd50bbbc6a55547d965c3392f318 can: at91_can: at91_set_bittiming(): demote register output to debug level
-8227088cb3c2afb58a45a946d92f6bf93d04d6de can: at91_can: at91_chip_start(): don't disable IRQs twice
-99f4ff41bbb0a22b3c4bf800b060833255f6ae2a can: at91_can: at91_open(): forward request_irq()'s return value in case or an error
-3ecc09856afb83a02c4079db595f9dcc8122b3be can: at91_can: add CAN transceiver support
-864c6f07d3c4a4ed40fca932d9aec17607c6cc96 can: at91_can: at91_poll_err(): fold in at91_poll_err_frame()
-aa3f5d935cbb302dce89e8f278f6e8a3e2ecea18 can: at91_can: at91_poll_err(): increase stats even if no quota left or OOM
-d3f4cf05402b06631f282e23dcba85daed732e38 can: at91_can: at91_irq_err_frame(): call directly from IRQ handler
-e0c9db91d60ba44705a7f333cbed2be8b32b293c can: at91_can: at91_irq_err_frame(): move next to at91_irq_err()
-efad777c3e97472fbd6aa4e5db11dcb3ef3eae90 can: at91_can: at91_irq_err(): rename to at91_irq_err_line()
-910f179aa0de17bab654291548aec378f74db293 can: at91_can: at91_irq_err_line(): make use of can_state_get_by_berr_counter()
-f13e86993d85ac98b12159ca9e31dc0357e5a926 can: at91_can: at91_irq_err_line(): take reg_sr into account for bus off
-9df2faf947bc4e7a48dbd7768ccb95337bb12c44 can: at91_can: at91_irq_err_line(): make use of can_change_state() and can_bus_off()
-3db6154e44dba8626cd6e31e15bd29d1c3861ca8 can: at91_can: at91_irq_err_line(): send error counters with state change
-dd94a2f1f2f848a2534c4b0115db752a55b7eb03 can: at91_can: at91_alloc_can_err_skb() introduce new function
-137f59d5dab4bd55ab3d40080de18bf641bdc26a can: at91_can: switch to rx-offload implementation
-bf176313c62ec4f97daa893888aa4fde86749cb2 Merge patch series "can: at91: add can_state_get_by_berr_counter() helper, cleanup and convert to rx_offload"
+20f7cce7cf18020cd2b052a6441a7d1623f0e352 MAINTAINERS: adjust header file entry in DPLL SUBSYSTEM
+754fbf604ff6aa10a68a2dbf292da3e4cbc52c2e bnxt_en: Update firmware interface to 1.10.2.171
+6ad71984aa6bb29813c80a7d5c4993966553a431 bnxt_en: Enhance hwmon temperature reporting
+a47f3b3992aa7666227e2e48d45fd6b8bc8053be bnxt_en: Move hwmon functions into a dedicated file
+847da8b1178c9a3ccfc86e72a5a0433509e32802 bnxt_en: Modify the driver to use hwmon_device_register_with_info
+cd13244f19eb4cf6f6fd4150fa7d05f435a78d0f bnxt_en: Expose threshold temperatures through hwmon
+3d9cf962067bef73757f987e3b30928b036499d8 bnxt_en: Use non-standard attribute to expose shutdown temperature
+a19b4801457b0806c0153dc344f548c6f8615896 bnxt_en: Event handler for Thermal event
+e76d44fe722761f5480b908e38c5ce1a2c2cb6d6 bnxt_en: Support QOS and TPID settings for the SRIOV VLAN
+cbdbf0aa41ba696269ca41def7aa5fc54ede5dca bnxt_en: Update VNIC resource calculation for VFs
+20767b235da13cd2905afbec37e6019c13456360 Merge branch 'bnxt_en-hwmon-SRIOV'
+91e43ca0090b5fd59302c3d150835299785f30ea ice: fix linking when CONFIG_PTP_1588_CLOCK=n
+ca6f5c2f94aa40028b3173967d3e5cb3a68aaa74 dt-bindings: net: fec: Add imx8dxl description
+c27153682eac34e04f5346dd554ad74a78d84c0e Revert "bnxt_en: Support QOS and TPID settings for the SRIOV VLAN"
+00f3696f7555d0890ae07b635e6ccbf39fd2eb3a net: appletalk: remove cops support
+d5a590b1b614d99a147cb3ec71954d96ef1a0834 net: dsa: mt753x: remove mt753x_phylink_pcs_link_up()
+24a0fbf48cbecc6fd8cc13eecdf70e8373933314 ptp: ocp: fix error code in probe()
+2b464cc2fd57c5a0250ae2f31505ac8e26e9748c sctp: Spelling s/preceeding/preceding/g
+07cf7974a2236a66f989869c301aa0220f33905c Merge tag 'nf-next-23-09-28' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+3bbae5f1c651f55046fc2a889d144a148b25192e chelsio/l2t: Annotate struct l2t_data with __counted_by
+c3db467b08224bfc58e65f56b895d3d32615a8f7 cxgb4: Annotate struct clip_tbl with __counted_by
+157c56a4fedecb0f91a96a138a5cd8954d00541f cxgb4: Annotate struct cxgb4_tc_u32_table with __counted_by
+ceba9725fb4554c3cd07d055332272208b8a052f cxgb4: Annotate struct sched_table with __counted_by
+1508cb7e07520d34b5f45992bbd172dd5728cbc7 cxgb4: Annotate struct smt_data with __counted_by
+f8e5b778623767463ec62c81cf5a357b2f1d3315 Merge branch 'chelsio-annotate-structs-with-__counted_by'
+2cf51f931797d9a47e75d999d0993a68cbd2a560 r8152: break the loop when the budget is exhausted
+788d30daa8f97f06166b6a63f0e51f2a4c2f036a r8152: use napi_gro_frags
+78cac6f17133d503add9005e891e15637b2a1012 Merge branch 'r8152-modify-rx_bottom'
+26cc115d590c70e66d8399f39e4d9973d26439bc ptp: Fix type of mode parameter in ptp_ocp_dpll_mode_get()
+f4ecb3d44a117b16029485325bda1bc98c26de36 mlx5: Fix type of mode parameter in mlx5_dpll_device_mode_get()
+b4ac75a3bb5cdf5c8bfac3f0a92db53091faba35 Merge branch 'fix-a-couple-recent-instances-of-wincompatible-function-pointer-types-strict-from-mode_get-implementations'
+397f70e3be01e2a62d08a12fa135d0f13fea9fb8 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+d86e5fbd4c965fdda72f99ccd54a1031ea4df51d net: skb_queue_purge_reason() optimizations
+0629f22ec130940c9c8a15fa9a4994996816d474 ynl: netdev: drop unnecessary enum-as-flags
+a50660173c7329c5d2ce1780a0f712a7f584d378 tools: ynl: don't regen on every make
+e2ca31cee9095244885f2cd0df602a5eef11c826 tools: ynl: use uAPI include magic for samples
+93e7eca853ca0087b129433630ddd89288d2b8b4 Merge branch 'ynl-makefile-cleanup'
 
---===============4461090556707719552==--
+--===============8287957615878115705==--
