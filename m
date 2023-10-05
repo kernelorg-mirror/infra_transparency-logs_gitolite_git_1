@@ -1,58 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7602508062477944875=="
+Content-Type: multipart/mixed; boundary="===============0840272728129699984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 05 Oct 2023 13:48:21 -0000
-Message-Id: <169651370157.4131.4276455793410203209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 05 Oct 2023 13:52:27 -0000
+Message-Id: <169651394726.7181.3905711853836657761@gitolite.kernel.org>
 
---===============7602508062477944875==
+--===============0840272728129699984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 275e01599d9b47b04e91458a74589ae56d8ea7be
-    new: 5b26c815ca2f90528fff10eed3604c7f87950f61
-    log: |
-         9817ac8bd82218ee0b0ad2b683073bb0bde0e50b staging: fieldbus: make controller_class constant
-         e196cae2bc482fea60de68a42a1d64cec179ec3b staging: vme_user: make vme_user_sysfs_class constant
-         5b26c815ca2f90528fff10eed3604c7f87950f61 staging: pi433: make pi433_class constant
-         
+  - ref: refs/heads/testing
+    old: a533eeaef80e879b3ad1937eee7a43d1f9961c5d
+    new: d27425d5d8b1cd930a31b92fb426cdbcbf876b10
+    log: revlist-a533eeaef80e-d27425d5d8b1.txt
 
---===============7602508062477944875==
+--===============0840272728129699984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a533eeaef80e-d27425d5d8b1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696513697 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1696513697-1bf5496a2f6f8b8f21c01f2ee3833381d5f73f57
+168115f989311867b48292f4f056eb2f96cef67b staging: iio: resolver: ad2s1210: rework gpios
+de69623c7cc7b960ee5bec134707bf6567199fc9 staging: iio: resolver: ad2s1210: refactor setting excitation frequency
+500d7640f63d557c397f74b7d5bf8c81377b50b3 staging: iio: resolver: ad2s1210: read excitation frequency from control register
+d2d1ecc67c48caf479319c4e1ab3d7896f826429 iio: imu: adis16475: Add buffer padding after temp channel
+67142d6f1e2fd97c035a42612b5b28809dc5f6ea MAINTAINERS: fix Analog Devices website link
+14114c8a747e12c169550d1806f8f87345480448 dt-bindings: iio: imu: mpu6050: Add level shifter
+c48fb9f956081d663bc8cfe3df32c59d2e869bea iio: imu: mpu6050: add level shifter flag
+8a76356e7db02ec7b1913db06605e70294d94672 iio: improve doc for available_scan_mask
+62593189b66ac6b5b69d2cf5b90728cc65a8fd68 dt-bindings: Add ROHM BM1390 pressure sensor
+81ca5979b6ed9a2b49cf9e253a494e0777b0edf9 iio: pressure: Support ROHM BU1390
+3b4e0e9677551806766a1ffd19a4a365c10f43d9 MAINTAINERS: Add ROHM BM1390
+874bbd1219c70b0d14881214c9768a0e4598fad5 iio: adc: ad7192: Use bitfield access macros
+e49075c7e9420b11b8e1aa8434e8790282df4a39 iio: adc: ad7192: Improve f_order computation
+a68ad2062fb2fb227a022b0392398bb53fd75012 dt-bindings: iio: Add KX132ACR-LBZ accelerometer
+1c8af63782583ee9d3a95e971a26570ae3f25af6 iio: kx022a: Support ROHM KX132ACR-LBZ
+d27425d5d8b1cd930a31b92fb426cdbcbf876b10 iio: adc: meson: improve error logging at probe stage
 
-275e01599d9b47b04e91458a74589ae56d8ea7be 5b26c815ca2f90528fff10eed3604c7f87950f61 refs/heads/class_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUevqEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VwMP/jPdSL4BeiA6xuvV468a
-2/Uw9s9Y5GG9SeKJeqMk5/xICuLlUMRWdFjxrXDywpcL1Hy2SrpxE75pa81jV0nZ
-WHWN7s5Hcgcj588N/IF6qMRu2KK2GH5Dxr3C5vHLYjqrjeRapI/9Bbv7ONU3Hm9m
-uW3LqweH89maAg022+zSGtRJQgq6Pa738ToORJE78jfCSjsQwJR2VFyqQwMSEZMM
-5OrC47eHsymVI10oSFz1NIWv2PyJhDaDcThhH108d+a4UkLc9gbWCD7ViTvcQu9z
-FGI9sOT7/9AypYXCdFWTptIhxAS9D6GR/FclsCfRr8ZX2FOezbqWq8ngYAU9fS8I
-DVn2qx+W9uBTSsuuOcACCoWCc2I0me2nvlZDSHErSvpouL8aGTDWxMlng9cQYoBt
-z8UmMHIPYvM0HB6Vt7v6TaZRx9dM7H6dUijqkobatzn/ATi6huuFQzZx+HPV8Xze
-mwigMMk3Q7T0RoNSrRJM/XpcwgQbZuQ4V7gH2CoFLE9yHmmAqoTkYIfgIKYgvamY
-Pd1Rd+yz2WPis0dnpOKZ7Cuy7OOaTLPSzojqkCiKMvm8c2en8T3URwO/OV2/Yoiv
-LJB54MSJRH/DkjiNY6ggbyPgmz1f85+JNHc9W67cNpIKl67qcPQuAuXA7Ol9g0pa
-LgsCuoHnBoazY8dM9fxLlf3Z
-=5+Le
------END PGP SIGNATURE-----
-
---===============7602508062477944875==--
+--===============0840272728129699984==--
