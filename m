@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5984449097545964629=="
+Content-Type: multipart/mixed; boundary="===============4518585772677389224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 05 Oct 2023 12:49:06 -0000
-Message-Id: <169651014697.25995.149514486862997337@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 12:49:12 -0000
+Message-Id: <169651015241.26073.17856973136425111044@gitolite.kernel.org>
 
---===============5984449097545964629==
+--===============4518585772677389224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: cec422ab8c1ef320cba23b7dbf9ea5364b9c8207
     new: f2bbe6f1f446b4c13466ebe7a2bf268bdbe0496b
     log: revlist-cec422ab8c1e-f2bbe6f1f446.txt
 
---===============5984449097545964629==
+--===============4518585772677389224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a4877a858e80a559b6c0de81bd81d0037dbce5b6 pinctrl: baytrail: Replace kernel.h by 
 068866fb5c903a58b8ac341ef763f468d98a013d pinctrl: merrifield: Replace kernel.h by what is actually being used
 f2bbe6f1f446b4c13466ebe7a2bf268bdbe0496b pinctrl: moorefield: Replace kernel.h by what is actually being used
 
---===============5984449097545964629==--
+--===============4518585772677389224==--
