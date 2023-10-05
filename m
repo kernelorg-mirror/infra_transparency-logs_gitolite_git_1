@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7179859908157499627=="
+Content-Type: multipart/mixed; boundary="===============2022358456743056218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 05 Oct 2023 15:52:10 -0000
-Message-Id: <169652113031.30565.4225090226144638915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 05 Oct 2023 15:52:14 -0000
+Message-Id: <169652113467.30686.16130296554389317738@gitolite.kernel.org>
 
---===============7179859908157499627==
+--===============2022358456743056218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 685f192b3a0a80af8000cb90692bd4ef7bc6f7f9
-    new: ed84d55d5115455d17fa93f63dbf89697a309d6e
-    log: revlist-685f192b3a0a-ed84d55d5115.txt
+  - ref: refs/heads/for-mfd-next
+    old: 36270a2599628fbd8052b3d9241f4a4b02faea7c
+    new: 89c8e0520d2df61e78d4201b5514e8877de9f1a5
+    log: revlist-36270a259962-89c8e0520d2d.txt
 
---===============7179859908157499627==
+--===============2022358456743056218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-685f192b3a0a-ed84d55d5115.txt
+Content-Disposition: attachment; filename=revlist-36270a259962-89c8e0520d2d.txt
 
-1025d4c1837eb457f9d599611096bf3a4d954333 leds: pwm: Don't disable the PWM when the LED should be off
-5272d74b29929c8395720a7e35971a4f0fb6783d leds: trigger: ledtrig-cpu:: Fix 'output may be truncated' issue for 'cpu'
-821d3ff4b4e2c689576a623348555114e3f2f1c2 leds: lp3952: Replace deprecated strncpy with strscpy
-734adca71b2ccc6df12c244037e0b284aab7cf58 leds: pca955x: Convert enum->pointer for data in the match tables
-e1f9ce22d669bc53210d1c1017f96eeef067b034 leds: pca955x: Cleanup OF/ID table terminators
-4aa583f1a6b85c88e3278d2461797d592ac61fcc dt-bindings: leds: Mention GPIO triggers
-1222f5dbc7723cc78741343da2e414b80de83c8f leds: triggers: gpio: Rewrite to use trigger-sources
-c2b7575239f5d0925035f3fc3bb155d176abee80 leds: lm3601x: Convert to use maple tree register cache
-2aedfe62b4151b0abe35bf022edf18f84817afcd leds: aw200xx: Convert to use maple tree register cache
-c2ecac98222a23ad8209a71ad5c1e32a8be46392 leds: lm392x: Convert to use maple tree register cache
-2997d69d888d6ee7114a89d066889a016448422a leds: lp3952: Convert to use maple tree register cache
-ed84d55d5115455d17fa93f63dbf89697a309d6e leds: tca6507: Don't use fixed GPIO base
+20890756e8753844de76afdf757cb74c6bab3e8b mfd: dln2: Fix double put in dln2_probe
+cf71329eb3a37f90c8ddec0651dc7b3fa76036c1 dt-bindings: mfd: x-powers,axp152: Make interrupt optional for more chips
+c7d1263be9396582f86024dc33f336d974496b83 dt-bindings: mfd: Add missing unevaluatedProperties on child node schemas
+be05b4a42901fc3bee6f84719178508f8cd82b9c mfd: lpc_ich: Make struct lpc_ich_priv use enum for chipset member
+a7c5e755ef3d14fcf201660531261ab650812baf mfd: lpc_ich: Convert gpio_version to be enum
+123a58d7c429d30f6e0e615b20c1b74e1e1e6616 mfd: lpc_ich: Move APL GPIO resources to a custom structure
+032d77aada6e56f8232d836a006b541045297d82 mfd: lpc_ich: Add a platform device for pinctrl Denverton
+9e2a2fd1ca0555bd0c278cd4061cc4bd9c8d0f7f dt-bindings: mfd: mt6397: Split out compatible for MediaTek MT6366 PMIC
+5f0c4e32e8da434a83dd74a08e477c11e7efc6f7 mfd: db8500-prcmu: Replace deprecated strncpy with strscpy
+aa732bb3da329abc28b4eee89efd974acb5b8c36 mfd: tps65086: Convert to use maple tree register cache
+21a3beab2dbf6c0f3fdc45a14dfffbe2d1c53e79 mfd: tps65090: Convert to use maple tree register cache
+d252f0f6c8df10559cca85bc8824e9b7c45c1c51 mfd: tps65128: Convert to use maple tree register cache
+0c16d3d6b758aca06c7c550cc43b8a0368525bba mfd: tps6586x: Convert to use maple tree register cache
+f77a3bcff35c1c8bccb347f2f7cf3e25af782984 mfd: tps65910: Convert to use maple tree register cache
+6e554a744ff576223275fbedafccf9d88581b1fd mfd: tps65912: Convert to use maple tree register cache
+680d253c3ba0674b8da269e5c51e6caaa623cad5 mfd: twl: Convert to use maple tree register cache
+2341a4f343e90f3fcc49ff3a49610d251b4c2532 mfd: rk8xx: Convert to use maple tree register cache
+ae1fbe1b021a3075020856b2717fd971a72f9429 mfd: intel-lpss: Add Intel Lunar Lake-M PCI IDs
+d940a9c2e9320ac9cebcdf93087df850b377b6a8 dt-bindings: mfd: qcom,spmi-pmic: Drop unused labels from examples
+966f92187485bf43edd76b7c53781cafa20cf808 mfd: max77620: Convert to use maple tree register cache
+ce828b9f04ba338ed3a1fb8d5137a0a66973b479 mfd: max77686: Convert to use maple tree register cache
+58704298aa29615108e2dd33f88b31ae38609096 mfd: max8907: Convert to use maple tree register cache
+89c8e0520d2df61e78d4201b5514e8877de9f1a5 mfd: intel-m10-bmc: Change contact for ABI docs
 
---===============7179859908157499627==--
+--===============2022358456743056218==--
