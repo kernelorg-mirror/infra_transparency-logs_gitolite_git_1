@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Oct 2023 17:38:58 -0000
-Message-Id: <169652753872.10303.16309888443055049213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 05 Oct 2023 17:49:22 -0000
+Message-Id: <169652816296.17052.9034355562330996399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/dev-queue
-    old: e5f05748736738b1a64dbb58c99d9735afa91276
-    new: b15f685c36b9fc3c05edd52e30ea66479e2bf193
+  - ref: refs/heads/master
+    old: a29f3e6957914dc564c723a8fc405cd99e407fd2
+    new: e7b02c2259d97c77107c77b68e3bc1664e6703c1
     log: |
-         2c9e3c126f01509dac7d577e48182eb63f667593 ice: block default rule setting on LAG interface
-         0651c3c52b2b311943743fded92c464f74e6d58e ice: fix over-shifted variable
-         1fba67372f533fcb16bf4e8d774d23f34428f004 igc: Fix ambiguity in the ethtool advertising
-         4d6ce3645dca27fdf3ef26a927db551bcb1e60fe ice: Fix safe mode when DDP is missing
-         c15d66a832f0daf5b95b4316d9942a5c18c4ea87 igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
-         b15f685c36b9fc3c05edd52e30ea66479e2bf193 ice: reset first in crash dump kernels
+         e7b02c2259d97c77107c77b68e3bc1664e6703c1 bindings: rust: libgpiod: release 0.2.0
          
