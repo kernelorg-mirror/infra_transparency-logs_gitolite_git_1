@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2394364227262997775=="
+Content-Type: multipart/mixed; boundary="===============5295091114102442916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 05 Oct 2023 09:19:18 -0000
-Message-Id: <169649755842.22267.15177554596628028582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 05 Oct 2023 09:21:05 -0000
+Message-Id: <169649766579.24539.8065674339225833564@gitolite.kernel.org>
 
---===============2394364227262997775==
+--===============5295091114102442916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 243e1b776f613501cd8de4e56c2eb415c942bb04
-    new: a083c755e136844a934bc9b4416cd23b5c19c617
+  - ref: refs/heads/char-misc-linus
+    old: 39fef15b5f2db46619393f9fd20fdd26a2ff49ef
+    new: 53604854c6f00ce1db4393499125aff94e3d9bbd
     log: |
-         a083c755e136844a934bc9b4416cd23b5c19c617 devres: rename the first parameter of devm_add_action(_or_reset)
+         53604854c6f00ce1db4393499125aff94e3d9bbd firmware_loader: Update contact emails for ABI docs
          
 
---===============2394364227262997775==
+--===============5295091114102442916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696497556 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1696497555-4d71cd79a00aeaff2ff7ed58172f951fcdac2f5a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696497663 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1696497663-ef33f10df137c51559de89a2aedc745e77206180
 
-243e1b776f613501cd8de4e56c2eb415c942bb04 a083c755e136844a934bc9b4416cd23b5c19c617 refs/heads/driver-core-testing
+39fef15b5f2db46619393f9fd20fdd26a2ff49ef 53604854c6f00ce1db4393499125aff94e3d9bbd refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUef5QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zwsP/RYfAsOP9rFEPutTPmvg
-+/c2PV2YYZ22ba+5MF+dsJuNHhjfOIrRbK6Fvl+FPN5Wzxpz+9S8I+1kdrfDmpSA
-25g/nphULFakEFjShDnUYZsBh+kYOvgfx3X74KjwHiQ20wuJx/L8RzeiOQVxCEsD
-OpQ2Vra2839/fVaRpqSVbNeM1bz7EJr53nk8hsNDkaJPULj0gXQwp+x6WP1g+wwX
-1q4Gg0heNvx2mQ9bUisp2/Emqw3YbRgv2z25qts3M2teftgL7E4loM6bTq4ptT5j
-Xraq+fazmxLtF1o1U+jVnGczQsZDJHmEGLK7aS6+lVk0WWkOPM0GLz6YXd6LNfAR
-+CA6OWOOY+qQ5MB4LxAdNjz6xqvUE1YVJFDDzeCqNJ2Dzz2eJxwJ0FUhkG7ZCMxr
-FvVyVDKIqkkzwlF1YnHwi6HLT/DlaDht/8nBT0EHbXRmvLjmAZmELqwe/cc0DmmA
-2wQqg8tQH4LoYOrSImeK6wlpnhEWXO/JL7DNCWV6bDv+x3PLKafCQpUiYHFrrJPL
-zx2Zlg1hwFId0Z1KYftZlsN8ei96k+dED0aRFLGvFRyI2y6AysK+qI38tUtWOaLp
-i0kU1IcpGcBhKk8mdevtKgMWcYjsS8PnV71T+SaEziihs+fURsmh8ArThud5f1cP
-akJKkSjlxeEbBHRerJCX5ffQ
-=ePm0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUef/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3t0P/RH6T85JRpI6o8OTwVRr
+NOABap+ERID1Nlpfd8+LAPDe6AL34FTlhD7tjjQzYoVHA5+o7HApfGDqXsF7eKkz
+EN+/yXOj2xIbrFfJmIcpqe9GCARjus8H52h1z9UPvYgclVmvQ/p8yes7ExstZdtI
+hYxzdEk0B20xly734tDsN9d5GJU4O75brW3uNeX+DA00mJEo3YXhrH6kwpFEF/DA
+Q0JwAvIWCUCkcQRjhpPdLLM6JpnIa53HqJARkzpuUVzGuCDA+mR4Lhf/7TU2n5um
+TCPH0CZeaynwcQ/H4bilTJ/ShSSL6x8V223XL6OK3y4m3Ll+yW+kQd39hEapfSx8
+gXnFllMl1FPr1GkOvLFZbSWmyKkDhWKmuQT4SwVUCfmYMRwq/5k+r8yT8/5gG0PJ
+S3/7JUp321r7a5QDIhccZed8+MrOfC7820V/0Zdgi15WVc94CyIuHgbmjEpgitxQ
+rU+l8/3y1ZqCLyzTekWxlSI5QQtkpY/wq6kX1BJtSlQnHqNI3PB6DfRAOAk8SZYV
+1hMCUau0RIa9jwYSyhZBWfR4A1QAJXH2vSJt/TJXBjdgo1quKgyQD4Asq8RtL04i
++o0ygNTuF+ZmV3E1xosvK2IKzi6t1Frb/nKHq1cYmB1+NFjHSfkQ2Y65OrBmclOC
+1Tj0uJzIPoEQjDsAJrLAyd9M
+=qGfs
 -----END PGP SIGNATURE-----
 
---===============2394364227262997775==--
+--===============5295091114102442916==--
