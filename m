@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6335567762936870576=="
+Content-Type: multipart/mixed; boundary="===============4722899815750958614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Thu, 05 Oct 2023 19:05:57 -0000
-Message-Id: <169653275771.7514.17960924834796342063@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 19:07:10 -0000
+Message-Id: <169653283074.8225.14461754979422035319@gitolite.kernel.org>
 
---===============6335567762936870576==
+--===============4722899815750958614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 3006adf3be79cde4d14b1800b963b82b6e5572e0
-    new: f291209eca5eba0b4704fa0832af57b12dbc1a02
-    log: revlist-3006adf3be79-f291209eca5e.txt
+  - ref: refs/heads/opal-test
+    old: 8935a9b47f30e9af5eab5bc129f7b608da795ba9
+    new: 2efd22761bbf1f92c23eb573ab65172942bb9bfd
+    log: revlist-8935a9b47f30-2efd22761bbf.txt
 
---===============6335567762936870576==
+--===============4722899815750958614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3006adf3be79-f291209eca5e.txt
+Content-Disposition: attachment; filename=revlist-8935a9b47f30-2efd22761bbf.txt
 
 195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
 84727c5727fed0ea8b0bf5ef0cbffdb0cabb2539 MAINTAINERS: wifi: remove generic wiki links from drivers
@@ -147,5 +147,12 @@ bc622f16c18dd5ef72a8b598b1d9e77bbe0c11d3 Merge tag 'mfd-fixes-6.6' of git://git.
 e90822d7ce017ee11aedf424c8abf38b07c802f0 Merge tag 'leds-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 cb84fb87f325ecd46be586b62623db5b2c0a792e Merge tag 'integrity-v6.6-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 f291209eca5eba0b4704fa0832af57b12dbc1a02 Merge tag 'net-6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+50e0b80503e18489556317b3d98708732b1c8098 block: Fix regression in sed-opal for a saved key.
+4932ba5b76dbcf966b0305fb8391b59a8f6805ea usb-storage: remove UNUSUAL_VENDOR_INTF macro
+54dd47f5a70196e951f57049b0da48a1e95a779e usb-storage: make internal quirks flags 64bit
+91bfaee816fd2a0f13562d48511710e6d9515a70 usb-storage: use fflags index only in usb-storage driver
+43c36be074bbc2cf4637c7553b02c37b6394c8ea usb-storage,uas: use host helper to generate driver info
+96927b07235df7ed331694066577b7621d272b73 usb-storage,uas,scsi: allow to pass through security commands (OPAL)
+2efd22761bbf1f92c23eb573ab65172942bb9bfd usb-storage,uas: Disable security commands (OPAL) for RT9210 chip family
 
---===============6335567762936870576==--
+--===============4722899815750958614==--
