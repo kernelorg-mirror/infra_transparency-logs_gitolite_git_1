@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0675092038861491415=="
+Content-Type: multipart/mixed; boundary="===============2479820407045761248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Oct 2023 08:52:31 -0000
-Message-Id: <169649595100.3316.3835573491785932507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 05 Oct 2023 08:54:17 -0000
+Message-Id: <169649605714.4031.11801568042862771539@gitolite.kernel.org>
 
---===============0675092038861491415==
+--===============2479820407045761248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 1f8cdb257b11fa09661935fc4e15e2c7208fd8e3
-    new: a9e6eb39ac118fc8c8779c15afa02c58ce252682
-    log: revlist-1f8cdb257b11-a9e6eb39ac11.txt
+  - ref: refs/heads/usb-testing
+    old: 12c66bf0ec473d8819c83fa7e8f2e6c08a054965
+    new: 1053c4a4b8fcbd28386e80347e7c82d4d617e352
+    log: |
+         e0fa80bbede825f470869f41b132daff99f33a1c Revert "usb: gadget: uvc: rework pump worker to avoid while loop"
+         dddc00f255415b826190cfbaa5d6dbc87cd9ded1 Revert "usb: gadget: uvc: cleanup request when not in correct state"
+         1053c4a4b8fcbd28386e80347e7c82d4d617e352 Revert "usb: gadget: uvc: stop pump thread on video disable"
+         
 
---===============0675092038861491415==
+--===============2479820407045761248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f8cdb257b11-a9e6eb39ac11.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-529bd2e1df5e8a5c7ae0d6a15eeb112b6f997298 Merge branch into tip/master: 'irq/urgent'
-6470ad754fd92c550d8fcf34784d2c545d31428c Merge branch into tip/master: 'sched/urgent'
-3195732891a62a40468ab400ed7967c9b649fc61 Merge branch into tip/master: 'x86/urgent'
-37153c47c36cca0b319f176a6c5cd4409ef04e02 Merge branch into tip/master: 'core/core'
-8f6bc457155edaed22da6664a9eb64f60ba2ea1e Merge branch into tip/master: 'irq/core'
-07884c62e4709ebfe3e66162faf7787eec5b964f Merge branch into tip/master: 'locking/core'
-74797c223214178ed0db19638d8a18995d796120 Merge branch into tip/master: 'objtool/core'
-234cd4df24b1c9f6ab52839a6024321d68fad361 Merge branch into tip/master: 'perf/core'
-99c17a7b56971693cc289fc1c5ea575facd4ca1a Merge branch into tip/master: 'sched/core'
-d33b8dd152ca32c263dc252e1fd9c35df0da9cd9 Merge branch into tip/master: 'smp/core'
-1c0f7f08bc3047df4d35cbc64190636f56a6459c Merge branch into tip/master: 'timers/core'
-7ba56bd43412fe84b17113f048f06c865c848b0d Merge branch into tip/master: 'x86/apic'
-590ff8f5b8a2d9bd6d6814f55b733774f84045d0 Merge branch into tip/master: 'x86/asm'
-9aeaf824913b7b48b31e6987d3d075197b9d0f69 Merge branch into tip/master: 'x86/boot'
-8f8a986bd27920aebbc7627953d169c6b36b3574 Merge branch into tip/master: 'x86/bugs'
-cd7e50bac5666d6528dec08776609041ba0eac5c Merge branch into tip/master: 'x86/cpu'
-a6e0267286d668a25cbeb40a7adfabe49ce68488 Merge branch into tip/master: 'x86/entry'
-fb1d68cc61ebd5927f34ee6c4dbbaf0ca5700095 Merge branch into tip/master: 'x86/fpu'
-ea6a8a4bf62521dc7ee994762824a77227b8f809 Merge branch into tip/master: 'x86/headers'
-69fbcd056951b6a9c7b09b6664811c35110e25ff Merge branch into tip/master: 'x86/mm'
-1f0b6615031acd69a258b6bc6184bf7f492caf02 Merge branch into tip/master: 'x86/percpu'
-1a5046caf74e814a7d90db503289284f1ca7b9f5 Merge branch into tip/master: 'x86/platform'
-a9e6eb39ac118fc8c8779c15afa02c58ce252682 Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696496055 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1696496055-e2e7519b7ad5bd45f35ae1494135632eaba9960f
 
---===============0675092038861491415==--
+12c66bf0ec473d8819c83fa7e8f2e6c08a054965 1053c4a4b8fcbd28386e80347e7c82d4d617e352 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeebcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6QP/RDCRugvBiqJcQ7iXyn9
+Wl9Y2EmJEiQMG33DtNGMdp+QWqejcfTqx3J0yT6ARu9/DT5+rQ0Jer2DN4sv3nF1
+xx9XUgbNa5s/WstumBO/IEzEDSWuR8FqbLTACegiL3bRZdYzb1za+9WXgSufuZ5d
+uYEBF38k+dT93/gBvY2jKLfHvdPB3sAXhuE8bghpWppea3QPt95+aevaQDp9Ka/j
+/iHPTr9D8WjR3HvKkQ3ORnSemF918BHAPWb3pLwBkp/U/wyMsZFAohS1pYN9+fl6
+U5YxJCgBf+G66ttQ9v9honR8c7d4/G6Itl8yUSkmGgX2haugslCc5dFpiOiL+SiA
+ZOz2loDf8bJTN7nDEA5IQieYYSj9g9xO0nK2mk4sIHUJaGDlJv3otTFG5wAvYrLw
+oiS8xdEO0HQr0xt6aqDpMUkdNtG+PPl1usxmSWkn8YFO5TMdd9iReYDSFSLObxt0
+ft/KQmd5836ygoctS7OEfhpGj5l689zV7VtiZsw/Yp6a2kgvJT5+QxWLDprRxBJT
+jbDgPeexhxn0TyiH5nSnAyYHvmGy7EmMexbCNZkTjTBPvdYJXZMTgLwgRq44HJIW
+0RCkmfdsol/BZiPszl7TjYSFSYFi+njfkl8NAwDxxP2g5ZMI98l69YEWIcZ+Tv9W
+SeJE+Eta1D/oOA+lls57Mf0c
+=Hhlo
+-----END PGP SIGNATURE-----
+
+--===============2479820407045761248==--
