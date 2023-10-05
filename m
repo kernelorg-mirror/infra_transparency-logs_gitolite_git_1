@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 05 Oct 2023 00:00:16 -0000
-Message-Id: <169646401681.7897.6192485908784300552@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 00:23:42 -0000
+Message-Id: <169646542292.23357.17232039294064508021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f8e5b778623767463ec62c81cf5a357b2f1d3315
-    new: 78cac6f17133d503add9005e891e15637b2a1012
+    old: 78cac6f17133d503add9005e891e15637b2a1012
+    new: b4ac75a3bb5cdf5c8bfac3f0a92db53091faba35
     log: |
-         2cf51f931797d9a47e75d999d0993a68cbd2a560 r8152: break the loop when the budget is exhausted
-         788d30daa8f97f06166b6a63f0e51f2a4c2f036a r8152: use napi_gro_frags
-         78cac6f17133d503add9005e891e15637b2a1012 Merge branch 'r8152-modify-rx_bottom'
+         26cc115d590c70e66d8399f39e4d9973d26439bc ptp: Fix type of mode parameter in ptp_ocp_dpll_mode_get()
+         f4ecb3d44a117b16029485325bda1bc98c26de36 mlx5: Fix type of mode parameter in mlx5_dpll_device_mode_get()
+         b4ac75a3bb5cdf5c8bfac3f0a92db53091faba35 Merge branch 'fix-a-couple-recent-instances-of-wincompatible-function-pointer-types-strict-from-mode_get-implementations'
          
