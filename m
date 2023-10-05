@@ -1,45 +1,154 @@
-Content-Type: multipart/mixed; boundary="===============0999158987375330156=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 05 Oct 2023 15:15:51 -0000
-Message-Id: <169651895126.3919.9966293790081646245@gitolite.kernel.org>
-
---===============0999158987375330156==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 05 Oct 2023 15:15:56 -0000
+Message-Id: <169651895662.4048.3138941613506750203@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 562fc2b011e213b5a127cda523110f0698770606
-    new: 067878e6cd25e071106eb7998165dd3cb46ff2ce
-    log: revlist-562fc2b011e2-067878e6cd25.txt
-
---===============0999158987375330156==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-562fc2b011e2-067878e6cd25.txt
-
-a716abbaa145d30653cee2f2644f9bd721117150 arm64: dts: ti: k3-am64: Add GPIO expander on I2C0
-33269ac0b768b07da017df173d52952625c57870 arm64: dts: ti: k3-am625-beagleplay: Fix typo in ramoops reg
-0997638a7580fc53e2162a480c8be521196f1319 arm64: dts: ti: k3-j721e-mcu-wakeup: Add MCU domain ESM instance
-1b70e86cb8506f358437ce9dccab8b9746c61e5d arm64: dts: ti: k3-j721s2-mcu: Add MCU R5F cluster nodes
-9a7b145b0ecdc7db7f06eb7edb1c2ed5e8f9a3b7 arm64: dts: ti: k3-j721s2-main: Add MAIN R5F remote processsor nodes
-fad9312e432db993ea47947db53dde85462967c1 arm64: dts: ti: k3-j721s2-main: Add C7x remote processsor nodes
-3328b0419815bcc0c6d93c66f9c11eefca42a59b arm64: dts: ti: k3-j721s2-som-p0: Add DDR carveout memory nodes for R5F
-35fa951c89f6abcb74f73643940b2656c0921353 arm64: dts: ti: k3-j721s2-som-p0: Add DDR carveout memory nodes for C71x DSPs
-641d62f2012d99a7dc739bb1bd5718e149fd80ed arm64: dts: ti: k3-am68-sk-som: Add DDR carveout memory nodes for R5F
-89e788b71b96f07be99b21107167c4f185b96405 arm64: dts: ti: k3-am68-sk-som: Add DDR carveout memory nodes for C71x DSP
-567f75ab67d0d1b5ef4a2ca9d28f23e0876e1d61 arm64: dts: ti: k3-am69-sk: Add DDR carveout memory nodes for R5F
-c2e7258dbd451fff84fac2375aaec2f56f57f0b3 arm64: dts: ti: k3-am69-sk: Add DDR carveout memory nodes for C71x DSP
-b024d1a853b7bc8e2e01aa9a219d81a9df1a2ceb arm64: dts: ti: Add USB Type C swap defines for J721S2 SoC
-73e8ec1b2d101fb030f6906c9d2799bea80e3804 arm64: dts: ti: k3-am68-sk: Add DT node for PCIe
-067878e6cd25e071106eb7998165dd3cb46ff2ce arm64: dts: ti: k3-am68-sk: Add DT node for USB
-
---===============0999158987375330156==--
+  - ref: refs/tags/net-5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a5eed745c966c31895689f57c3b6b8cb73d7f52e
+  - ref: refs/tags/net-5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: e6a9e3fe2a8fa7b7a3b6259a5883d32a92f59278
+  - ref: refs/tags/net-5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4fcd27755722483e38f4c4a2b0ad1f15b29e7d2b
+  - ref: refs/tags/net-5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 59ecbe92433a2bbb9168e356be21a80c9f640c19
+  - ref: refs/tags/net-5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b9e325b5fce8318b937aad558ead22f7c67c9c8c
+  - ref: refs/tags/net-5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0770feb0faa97d3af6a4e084e55022452a671f31
+  - ref: refs/tags/net-5.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 512493799255579024b01f05f10665c17a97dc63
+  - ref: refs/tags/net-5.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 66ba6a82d17b1544322190b2265e7d40a71e594a
+  - ref: refs/tags/net-5.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f4880079cdbeebf5e46ff470be93e76ba1ed562e
+  - ref: refs/tags/net-5.17-final
+    old: 0000000000000000000000000000000000000000
+    new: f946cce6d9b2a2da362a29105622b03764ce7fba
+  - ref: refs/tags/net-5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e55e8e14c9b79de0629a76e55d888a02d12db443
+  - ref: refs/tags/net-5.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 226b8113a712ef8f01d7316e7aea184d33c3c187
+  - ref: refs/tags/net-5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 336858262cdef2a66751f019e4c6f1e44cf6b417
+  - ref: refs/tags/net-5.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: f18c9767452ed47ff182261d9e4c4ffa36c540a0
+  - ref: refs/tags/net-5.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 330bbaa458c74faefc89cedf0764ac5f7f12e0a1
+  - ref: refs/tags/net-5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a8959a45d4c53ddc2a7ad68ded6145d6e5bff534
+  - ref: refs/tags/net-5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 344c735d1af3e52645159e244b8430ace0f09cdc
+  - ref: refs/tags/net-5.19-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 4a08090979c1508734fcfb6df5f61933fb922ab5
+  - ref: refs/tags/net-5.19-rc2-2
+    old: 0000000000000000000000000000000000000000
+    new: 06a10bd01343f03580578e6b33840e2de66e2680
+  - ref: refs/tags/net-5.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 55dea78d63534593a01cd2744bad2e4058a3988b
+  - ref: refs/tags/net-5.19-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5a69b0158672473048f4337aa46588768b74f755
+  - ref: refs/tags/net-5.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: d5966626d8d9e113a63d144ff5043b6d064720f8
+  - ref: refs/tags/net-6.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ec0efe68ebe16808e9abe07ab963a91ca2fd2468
+  - ref: refs/tags/net-6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 2568cd0372a5e157c03ee0934cf3b1113f602111
+  - ref: refs/tags/net-6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 286b3f8aec8bdcc7113b748d4c45df1c90c7ced6
+  - ref: refs/tags/net-6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6a22830dad7078834742f5057ac9b6994f11388b
+  - ref: refs/tags/net-6.1-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 5b43873811a1b6224e9d942cefccb6d0cd96df9d
+  - ref: refs/tags/net-6.1-rc9
+    old: 0000000000000000000000000000000000000000
+    new: df70090d83035239168e4a167773f492bcad4817
+  - ref: refs/tags/net-6.2-final
+    old: 0000000000000000000000000000000000000000
+    new: 23aaa640a31ad2c3d4de3ce168a616f0c9884172
+  - ref: refs/tags/net-6.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4cbacd75ffa7fd9dd2dec8af8ae180d1554c79e1
+  - ref: refs/tags/net-6.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: fb9eb090c788547779159614eb06ff7cab92998a
+  - ref: refs/tags/net-6.2-rc5-2
+    old: 0000000000000000000000000000000000000000
+    new: 6cab9c3d633c90a77b1377babdffedfcc247e34e
+  - ref: refs/tags/net-6.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 62fe31384b99f05d89a4204bda5b3932d285c80f
+  - ref: refs/tags/net-6.2-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 2415ca3db646af210fb60d40b90500dad2a9723f
+  - ref: refs/tags/net-6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c32d48eded4d68ee5074cd86a3a0a0ce9507ea67
+  - ref: refs/tags/net-6.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 3b71e2d49e3a8cc00a9163ef10149f466b0a44ca
+  - ref: refs/tags/net-6.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 30f898def4ff48cd5e5c1cab1cc0da790f06f4cd
+  - ref: refs/tags/net-6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 1fd7fe008177701d4ae6951e7f0315415a2d2539
+  - ref: refs/tags/net-6.3-rc6-2
+    old: 0000000000000000000000000000000000000000
+    new: 334d095ca053bbbf5827ecc619170c0617bc2755
+  - ref: refs/tags/net-6.3-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 3e18fd3d967cacad0aadd1e523e2c150c5f364dc
+  - ref: refs/tags/net-6.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ee72cb61522aef2379f4fc6edb7765c963e4a48c
+  - ref: refs/tags/net-6.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 578dff82757290452333b5bbdb4dd07215c34cab
+  - ref: refs/tags/net-6.4-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 99ee45e96f38366eac8ed16680d170625922fd83
+  - ref: refs/tags/net-6.4-rc8
+    old: 0000000000000000000000000000000000000000
+    new: f328737533759f23293201a1d9d6152bbf542a40
+  - ref: refs/tags/net-6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8ed60b692485d878aaf34d68bdf0c03065d5071f
+  - ref: refs/tags/net-6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 30606fbd83c90c3ae0630bb0c2ffcdd41f6f1a57
+  - ref: refs/tags/net-6.6-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 84d756959e98e3ec037d793329be17fbd450cc1e
