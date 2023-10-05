@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1522633528068797535=="
+Content-Type: multipart/mixed; boundary="===============6852739490348010177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 05 Oct 2023 11:52:54 -0000
-Message-Id: <169650677443.18295.5257243290929497994@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 11:53:16 -0000
+Message-Id: <169650679659.18527.755062318525799571@gitolite.kernel.org>
 
---===============1522633528068797535==
+--===============6852739490348010177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 33e70736f9fe5224a7a4bdb835477043172c9d4c
-    new: 1d4dd1e6ac6b57603ccf92dcd3ffae5d6d5dbaf4
-    log: revlist-33e70736f9fe-1d4dd1e6ac6b.txt
+  - ref: refs/heads/class_cleanup
+    old: dd7fd6eb71176c0e0166c778c143bf2c87d63e65
+    new: 5e7555de24e2a157c30c4863bf5bfa56be516010
+    log: revlist-dd7fd6eb7117-5e7555de24e2.txt
 
---===============1522633528068797535==
+--===============6852739490348010177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696506770 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696506793 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1696506768-159275947d79e01989663c250638cd5054bad381
+nonce 1696506792-9224d1ff996bb8966ec9c100c00357ca2cf650a2
 
-33e70736f9fe5224a7a4bdb835477043172c9d4c 1d4dd1e6ac6b57603ccf92dcd3ffae5d6d5dbaf4 refs/heads/bus_cleanup
+dd7fd6eb71176c0e0166c778c143bf2c87d63e65 5e7555de24e2a157c30c4863bf5bfa56be516010 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeo5IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RVUP/Aj1TSv460OUq/h9H8Ej
-Z64V4Je3JV+dQ1UCV7qHWZgxi75OHHPFAGDK6KLlLpWi4gGLJfvXWd75mUilNxQM
-2yInKTP79G6mNA3gCos69oK0XlK117wGueLRfTR3A4vANoYHkHpUfQGKFbjj0u3O
-kLky2gHQwlVwoDqi0XwikKt+rlv3oFDDABBPbQzO7XheAeQdZwYOhvwVGeVJLlzX
-0wpgTNqypBwN11k2RtflI7BPaj8qDvU4hu70hxQexsKsbCa9/6yjaL826LCDfP2F
-Nc05kZi6TUXtf8aHnMsxLB5wNrQD+OArzI015kFZc+JU5qxoD0FKdZ0GKD29EBIb
-kfrS2RhtpJVcujf/rPJrro+DxuS0+wDb7QL4wduDRCAekZ49S91NGikyaYVTIO8X
-cK8BkBHNQwO2w5kCXAhVEIvNMfgs7PNxEP0p1W9lXfD++xsOSFBsvoDkjb9tZPXs
-ZmMl/+4JXmilhsqFvEvxz+rilVhIFA/3T2+xAH9iYo/bL0QEM91MOYC+rEW5r/fb
-PjlInkXNEEZg2UCnyaPUuORJQiGGCm1mlYDKQaTEqqkF1mImJ3LQRbyk608+N+Yi
-Ek1zNKaaH1OMR5L0IldeYk5+705O+GgRjmy0arJMvwCyBmVxTB8Mmy0xEa/uKIFj
-JQ0s6IwuPqKSbcHzV4AjEBVb
-=cKy5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeo6kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XSYQANb/UQEeEoDSu4jVcyiR
+DX+qjvVizVpF7C+m63cU13T4t/UxH9nffQv/fKT6X/NNOYGnd+bUC1aKGBWARZov
+0Te2NwNYT1QaXF6/FMfobuwqn5ymxWKF3MITKIBxghbI2BcmI7LhBxfWQH2Ks5tH
+x4CRdlAkXhPTmVdgCzEE1dIObKaYH0SbqOExQrVCzAvdgB2QqAlDkC09YBZ486PY
+WfCcjCtpHyRCt5CcdnxHBMSdKB0ByFRw8weRWPIi3WHHOkhcZOsb031KGemEtS5E
+qHyYvdojZ1XGje+mwOKygNt3KNsNCph4Sm8A9/oKaMCuJ2PNVtP+IODpcPc+OpGe
+qdhXhk0yaDmsJj0Bp5BDlDRJqPbtO+9voc9+J/d9lAT4QgzvNwCdmK3KCy+ZwGT5
+a9a2LXBLnQ5yS6/X9DrcQtdgKtdiZrEDJT2KJAq3xuUB/J6sE87E9lfCt5vDuJ+k
+ASgRU/KU9wQaVMBZTPavfu4nUB2625vF+z6uEuodhN6voIQZrg2sJ+V/n4kxNsFo
+ZLmctDMhhmm+fvPfwPlPadVjqwOw9wMhrXU4qrUMJjGSnBVLj4jzhtocusrehv0u
+nvcmiBatSWU9eg3cVkOBwIM9yWstgaWB2peAAipTZiaPQqKQx4pUJsUAify56m59
+iMZJf+HzDyKvzNPiBpQAIpkx
+=aZUV
 -----END PGP SIGNATURE-----
 
---===============1522633528068797535==
+--===============6852739490348010177==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-33e70736f9fe-1d4dd1e6ac6b.txt
+Content-Disposition: attachment; filename=revlist-dd7fd6eb7117-5e7555de24e2.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 f15f29fd4779be8a418b66e9d52979bb6d6c2325 netfilter: nf_tables: disallow rule removal from chain binding
@@ -725,6 +725,18 @@ ec8c298121e3616f8013d3cf1db9c7169c9b0b2d Merge tag 'x86-urgent-2023-10-01' of gi
 d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-01-08-34' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
-1d4dd1e6ac6b57603ccf92dcd3ffae5d6d5dbaf4 FIXME: driver core: platform: make platform_bus_type constant
+71040ae62332f85bc28545f85307fd7bc2c4ea97 accel: make accel_class a static const structure
+a28557c807bafda172ab95a9c32b911666aee611 coda: psdev: make coda_psdev_class a static const structure
+db77cc293635dc93ca7345e5871805dcc0fb9b86 cuse: make cuse_class a static const structure
+9495e901d23b1073352d3b0f4f6920c9732fe514 pstore: pmsg: make pmsg_class a static const structure
+c956b4f17f62df56987d1fd1488cbc31b2105923 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+74f8d62338afa34b98246df019340a9676cc6833 PM: wakeup: make wakeup_class a static const structure
+822a6e9d77d8701f89c470c28e02af2e1c8b1a22 PM / devfreq: make all 'class' structures const
+ba429f0e4b2c9a96f8e5c6cd65fdda2a36dca7b1 dca: make dca_class a static const structure
+47ebe865fa17d348e912899f376d5797ab84747c gnss: make gnss_class a static const structure
+5b47f845c4e2d3f88c1bf9e3f7b88fe489aa9709 extcon: make extcon_class a static const structure
+636c274793da27181a1e32f05909f2fb9cbae682 i2c: dev: make i2c_dev_class a static const structure
+94bf6115165be437743dea3d7d31319ddf9f0f41 misc: c2port: core: make c2port_class a static const structure
+5e7555de24e2a157c30c4863bf5bfa56be516010 rapidio: make all 'class' structures const
 
---===============1522633528068797535==--
+--===============6852739490348010177==--
