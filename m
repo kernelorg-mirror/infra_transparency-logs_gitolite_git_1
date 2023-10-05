@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0597675240567923689=="
+Content-Type: multipart/mixed; boundary="===============6371792791340123891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 05 Oct 2023 11:51:21 -0000
-Message-Id: <169650668166.17617.9590011241646550844@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 11:52:13 -0000
+Message-Id: <169650673329.18006.8619551110306631596@gitolite.kernel.org>
 
---===============0597675240567923689==
+--===============6371792791340123891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 1b057bd800c3ea0c926191d7950cd2365eddc9bb
-    new: 4f01342464a8a99bf0cbb45a3ce4cf44a8baa1c5
+    old: 4f01342464a8a99bf0cbb45a3ce4cf44a8baa1c5
+    new: d712d205210c494c29f33dc1d1f2ce4d7448faa9
     log: |
-         4f01342464a8a99bf0cbb45a3ce4cf44a8baa1c5 Documentation: stable: clarify patch series prerequisites
+         d712d205210c494c29f33dc1d1f2ce4d7448faa9 rapidio: make all 'class' structures const
          
 
---===============0597675240567923689==
+--===============6371792791340123891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696506680 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696506729 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1696506679-594df42c07cc0e10cf792135ba6656af2c3fd311
+nonce 1696506728-7fb902d6f6659957bb4bf9781c30c7c0e61870b9
 
-1b057bd800c3ea0c926191d7950cd2365eddc9bb 4f01342464a8a99bf0cbb45a3ce4cf44a8baa1c5 refs/heads/char-misc-testing
+4f01342464a8a99bf0cbb45a3ce4cf44a8baa1c5 d712d205210c494c29f33dc1d1f2ce4d7448faa9 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeozgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B/0QAMnDTUcLMIyLZlfjr7MB
-gz/zZanPreUWiBL8eFWZDt5P3m3NAK9YDZOxB6g6Y/vUMUohA5+SJU1d424FT9Op
-HH0mudaJQZ7MkGuXG2k4zG9qS8svd+CQsako4cVHFitUtVGUVHu2IpgrcUCotQXK
-Qn2Z19Fusu63f2SGmr97e0qL47WxmzFhFyctIYPndCHK0XaQ3yaxHAQ/WJ8PTwnG
-Ch5ojcZv6oaqO7gtccGdHtlqlkFC/HelOqoTIkpUe8LY6sb+KOGTCLydzAlnc9mU
-+qI18fwKX75CLu31FzuQYdXzncKmyLg6fF2kbHwOxWAQUiqSNJ+liOhkGStNe8PN
-F+Pd9mVIRys8HBi57jFVTvgyw93H5Gy2vth/DFbPbGWagI0qwgR2nbaF9/z+hCr/
-DFNoeu7XeTN1+Itc2JQA4ekYWvNKFN3thVzi5wgjWjzy4ZO4HdrxZZHjN0Uz+DRu
-Y7JDdCMgdBeSjTtpPmG9YIiHcy2JBD2mMT8xpQQKI0g+lF31dVrfsLR6G2PjSqoM
-e7HYsjgfeM5OtWC2Z/rBbvjqnJ2mV4pcY1wp21GS3mgl5jfhMjMK7roJRQfeTYdj
-ASQ+XOR4MlqE8vdLUzwbhnnbEXvV0xgKSg8YAx041HLtvugV8htncqRloShAMpHW
-Z/S5tVtKYAECb9VUfrGxeFPk
-=g2xg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeo2kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0gUP/Rn5a/GnShvXHYLE0yF2
+Y5+7DPe0G5ATn6X+HmEe/L6ACY1I2AVu6+thWGqnr/yAPnEyF6wyNAR8R06tbG1V
+5zeVdiKrwvd0HFdUx9S0icWWuNCyJVPyHMfk2RLdfUUzuC6v/Yr905O/ae4lopAA
+1W7QkRglfgnambwUT1vRuVSSaFJROpU824W8SX7Wuar76O0vcwtbQBxQI/3mh4W2
+qDJGq8dpd3umgUpUU4FreupI3m/Pg+jOO1/kGvltExUmizvnwP2hV8g5PZtRVW0w
+4ljrlnRXOhENMHWRLqwlz1lBS5YGlP6UCmpDZy3RtSrjJD8gGDRCdkA7ta/ZOZFU
+aCNJN/vbY1pToUbzwD/nAdmp3B6sWD92TY0dKMeBAqrsgjZiMmuflhP72CQnh4h7
+vD9AoNddR17CsR4LTac266B5YZMtzQfmGxB14SeQwLZdgV2o4X7zxaH4dKbDmw2b
+IeRjde6WhUAao24Qhm/7hwR6/5q52iQomyZ9MOwI/YaQK35nCBdvuQ3EdSYrXW4R
+aUWTq6D7fVWNDdDY+3ZMrN6KyHYSiHzLqksEHQY5Ihx1ZuYo9PSWTQrk/N9DViWG
++7TUN11lsPyTkBDRQq1rrYTanS+duZPHTA1M1SyOCqziP7RssP3QnKS3Gj3A6j+0
+noWsFftCm31+QwH39cTi4usr
+=p0Qf
 -----END PGP SIGNATURE-----
 
---===============0597675240567923689==--
+--===============6371792791340123891==--
