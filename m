@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1333070151063562228=="
+Content-Type: multipart/mixed; boundary="===============6124767292836104095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 05 Oct 2023 14:56:49 -0000
-Message-Id: <169651780943.21237.13929551873133531156@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 14:57:17 -0000
+Message-Id: <169651783731.21492.12400005523917966681@gitolite.kernel.org>
 
---===============1333070151063562228==
+--===============6124767292836104095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 23e9b28f51eb808a735e3de469227a02077567e7
-    new: 5e6dfb18b778b1fd1bb659b45c579f862fffc76b
-    log: revlist-23e9b28f51eb-5e6dfb18b778.txt
+  - ref: refs/heads/nfsd4-encoder-overhaul
+    old: aac30869b4e22f4ee890de60f8013aceed93eef3
+    new: ab94986c5bacf1652c8f5281d0962d435475d394
+    log: revlist-aac30869b4e2-ab94986c5bac.txt
 
---===============1333070151063562228==
+--===============6124767292836104095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23e9b28f51eb-5e6dfb18b778.txt
+Content-Disposition: attachment; filename=revlist-aac30869b4e2-ab94986c5bac.txt
 
 7fb6e4344a64574332172b416ebe4d53f2d5fd7f tools: ynl: Add source files for nfsd netlink protocol
 6d598e6b048d609f51766d1203eabf672eb21679 nfs: fix the typo of rfc number about xattr in NFSv4
@@ -106,5 +106,18 @@ c6427bdaa70e62b43d3f4d84b1fc91f770e18ac5 nfsd: Clean up errors in nfs4state.c
 550261548c73e2d856219f75197dee7bfdd6fb39 nfsd: Clean up errors in nfs3proc.c
 339c11c1f9fa4f180228ce8a51e12d70d65e276a NFSD: Rewrite synopsis of nfsd_percpu_counters_init()
 5e6dfb18b778b1fd1bb659b45c579f862fffc76b NFSD: Fix frame size warning in svc_export_parse()
+b9bc6f830b31f588607638e1b2721e76a13ed8ec NFSD: Rename nfsd4_encode_dirent()
+10af4fd359d4666068854fa3722b91a759c017a0 NFSD: Clean up nfsd4_encode_rdattr_error()
+f9737457b68456f1f2f8da9d66fdd3662e490cdf NFSD: Add an nfsd4_encode_nfs_cookie4() helper
+b26cb19e7c1e8d5170ffc7fed207c18d7962487a NFSD: Clean up nfsd4_encode_entry4()
+6702534fbf599d0bd58809f451082065bf76674e NFSD: Clean up nfsd4_encode_readdir()
+5f5de283b0270c6eff3b4dbfaa797d7400de62d1 NFSD: Clean up nfsd4_encode_access()
+79f894b4fe2e108b6cb1194afe4fd941e29ac8cb NFSD: Clean up nfsd4_do_encode_secinfo()
+9addb3290f6919d224537a937d068d311db75c89 NFSD: Clean up nfsd4_encode_exchange_id()
+c76d6f0140e485d8ff176f4cac076ad9cefaca54 NFSD: Clean up nfsd4_encode_test_stateid()
+ce4198f7a2e963342d54f04c07b819aebacd5c86 NFSD: Clean up nfsd4_encode_copy()
+667feefb28bd0a008d5848cbcf970388a4f4385c NFSD: Clean up nfsd4_encode_copy_notify()
+3ac5f15cb89178ceda33343441a4d38a801c263e NFSD: Clean up nfsd4_encode_offset_status()
+ab94986c5bacf1652c8f5281d0962d435475d394 NFSD: Clean up nfsd4_encode_seek()
 
---===============1333070151063562228==--
+--===============6124767292836104095==--
