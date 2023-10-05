@@ -1,34 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 05 Oct 2023 14:50:03 -0000
-Message-Id: <169651740345.16779.12265548179058998544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Thu, 05 Oct 2023 14:54:22 -0000
+Message-Id: <169651766270.18770.14488070672167681815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/for-6.7/io_uring
-    old: 922a2c78f13611e2c08fc48f615c0cd367dcb6da
-    new: b3a4dbc89d4021b3f90ff6a13537111a004f9d07
+  - ref: refs/heads/core
+    old: ccb76c5751634541bfd2222374f46e1dea83d525
+    new: b85b4f30846bb169c114e99ceee17cc119f02a4b
     log: |
-         ab69838e7c75b0edb699c1a8f42752b30333c46f io_uring/kbuf: Fix check of BID wrapping in provided buffers
-         f74c746e476b9dad51448b9a9421aae72b60e25f io_uring/kbuf: Allow the full buffer id space for provided buffers
-         b3a4dbc89d4021b3f90ff6a13537111a004f9d07 io_uring/kbuf: Use slab for struct io_buffer objects
+         0f6a90436a5771fc9f6ca0d1e64f7549219e6c3c iommu: Do not use IOMMU_DOMAIN_DMA if CONFIG_IOMMU_DMA is not enabled
+         b85b4f30846bb169c114e99ceee17cc119f02a4b iommu: Fix return code in iommu_group_alloc_default_domain()
          
-  - ref: refs/heads/for-next
-    old: 6f0566f375ea6c2a1682b7fc262670a5768c1feb
-    new: 32462f30d324da20fd1921f03f4fede0cbca74cb
+  - ref: refs/heads/next
+    old: 8e5ab3f54a1061c2be3e1fbcda01fbe604c3450e
+    new: ed1abc0d175e8b3fec4d15fd47c3992229a51209
     log: |
-         d323c1a9477a82843795f10fb23f1634cea44007 partitions/ibm: Remove unnecessary memset
-         f5f43aae6f336ae436759144a31879375e65ed28 partitions/ibm: Replace strncpy() and improve readability
-         a31281acc4a4e051a0bf2f1d3556ba4deea4d2a0 partitions/ibm: Introduce defines for magic string length values
-         0a9b647205916f66d406e60b3e1ddf8bee07c034 Merge branch 'for-6.7/block' into for-next
-         ab69838e7c75b0edb699c1a8f42752b30333c46f io_uring/kbuf: Fix check of BID wrapping in provided buffers
-         f74c746e476b9dad51448b9a9421aae72b60e25f io_uring/kbuf: Allow the full buffer id space for provided buffers
-         b3a4dbc89d4021b3f90ff6a13537111a004f9d07 io_uring/kbuf: Use slab for struct io_buffer objects
-         32462f30d324da20fd1921f03f4fede0cbca74cb Merge branch 'for-6.7/io_uring' into for-next
+         0f6a90436a5771fc9f6ca0d1e64f7549219e6c3c iommu: Do not use IOMMU_DOMAIN_DMA if CONFIG_IOMMU_DMA is not enabled
+         92bce97f0c341d3037b0f364b6839483f6a41cae s390/pci: Fix reset of IOMMU software counters
+         b85b4f30846bb169c114e99ceee17cc119f02a4b iommu: Fix return code in iommu_group_alloc_default_domain()
+         ed1abc0d175e8b3fec4d15fd47c3992229a51209 Merge branches 'iommu/fixes', 'arm/tegra', 's390', 'x86/amd' and 'core' into next
+         
+  - ref: refs/heads/s390
+    old: 9f5b681e2a3f7d5bab02e68f3e68a50b23968c7c
+    new: 92bce97f0c341d3037b0f364b6839483f6a41cae
+    log: |
+         92bce97f0c341d3037b0f364b6839483f6a41cae s390/pci: Fix reset of IOMMU software counters
          
