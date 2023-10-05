@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 05 Oct 2023 06:31:07 -0000
-Message-Id: <169648746786.30724.18428040573622478288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 05 Oct 2023 06:42:22 -0000
+Message-Id: <169648814233.6719.8639351959298871361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/testing
-    old: 1d495f1c896cfa8c78e7a858119e2fbfcbd0925e
-    new: 2b3eb68d8d79faf1e07820272e48376e5ea60228
+  - ref: refs/heads/gpio/for-current
+    old: fdf957514cdbaef2d58c06473c032d9335a494eb
+    new: f9315f17bf778cb8079a29639419fcc8a41a3c84
     log: |
-         c2d5f3ff372ebdf53c782d2e54bfa14cc00e8185 xfrm: Use the XFRM_GRO to indicate a GRO call on input
-         289b5997feae31178040961ebb9acc132b26dd29 xfrm: Support GRO for IPv4 ESP in UDP encapsulation
-         2b3eb68d8d79faf1e07820272e48376e5ea60228 xfrm: Support GRO for IPv6 ESP in UDP encapsulation
+         f9315f17bf778cb8079a29639419fcc8a41a3c84 gpio: aspeed: fix the GPIO number passed to pinctrl_gpio_set_config()
          
