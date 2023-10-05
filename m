@@ -1,47 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7997369583079629130=="
+Content-Type: multipart/mixed; boundary="===============8525379945216730408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 05 Oct 2023 20:03:52 -0000
-Message-Id: <169653623262.15677.3844642543180445130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 05 Oct 2023 20:03:57 -0000
+Message-Id: <169653623787.15778.3784145187333659818@gitolite.kernel.org>
 
---===============7997369583079629130==
+--===============8525379945216730408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/at91
-    old: 4733a29d8b7eae57f42de5539aa46c7c0abbeb24
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: a9e6eb39ac118fc8c8779c15afa02c58ce252682
+    new: cec9599012b0a553e98ec9bccb1043da5bb596ef
+    log: revlist-a9e6eb39ac11-cec9599012b0.txt
 
---===============7997369583079629130==
+--===============8525379945216730408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a9e6eb39ac11-cec9599012b0.txt
 
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1696536229 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1696536229-39a68f4a1f6fbbddf8ae00f31cb0bf8780b984b8
+905ce1cc95180546098f5c616201757fb4d45abf Merge branch into tip/master: 'irq/urgent'
+147e79b4fec13da638626966e427391c81a63298 Merge branch into tip/master: 'sched/urgent'
+95af785f2b5d8dfbb91cdcf6ff0bb5a27b6ba7ea Merge branch into tip/master: 'x86/urgent'
+b0fc3f337c007f848ad0e40051a1adeb5b63a1ae Merge branch into tip/master: 'core/core'
+7c335f929fe1f2116821de2df0dd6178f495cda5 Merge branch into tip/master: 'irq/core'
+45633e13328fe1ce43649ea0c5d84914f7be02a2 Merge branch into tip/master: 'locking/core'
+c58b7692327bee97f947bc14fffa1c2e604b97ff Merge branch into tip/master: 'objtool/core'
+496198f892bc0192a4af9cc4f45624f05a85cb33 Merge branch into tip/master: 'perf/core'
+37c4bf24aa94b8ab5437eb7ecabf96b24a87670a Merge branch into tip/master: 'sched/core'
+5619d0894aa20e8bf2940a63c646994b0b5c1e59 Merge branch into tip/master: 'smp/core'
+93819e62485112c893acd1efc734c875d152edc1 Merge branch into tip/master: 'timers/core'
+cd33a3f45d94c13d4f35104481511404978243e6 Merge branch into tip/master: 'x86/apic'
+45f78981ad4823db61c031ede166403ce9e7ed5b Merge branch into tip/master: 'x86/asm'
+574a26d0e911a60f48e3a2354694eba218c25918 Merge branch into tip/master: 'x86/boot'
+d9d5ab2b58b70c62239fd8123aab268d35a8449c Merge branch into tip/master: 'x86/bugs'
+0591e06baf1bfc18c073a51d8e04b7e849f57f55 Merge branch into tip/master: 'x86/cpu'
+5aeae295926c2c34edf694932c018cf5de974598 Merge branch into tip/master: 'x86/entry'
+01470ace9b9adddf67b0a1eef4fcb7db8364613b Merge branch into tip/master: 'x86/fpu'
+9fc0132604d1905caa857667a64fbc791ca88f54 Merge branch into tip/master: 'x86/headers'
+94b8c6e094a315aeb0b70858bdd084c47bdbf180 Merge branch into tip/master: 'x86/mm'
+62ac9abdeab9d5396e907ea040e026caa8c1a217 Merge branch into tip/master: 'x86/percpu'
+061df3367734702a96d7193b8285ba6e7e889dbc Merge branch into tip/master: 'x86/platform'
+cec9599012b0a553e98ec9bccb1043da5bb596ef Merge branch into tip/master: 'x86/tdx'
 
-4733a29d8b7eae57f42de5539aa46c7c0abbeb24 0000000000000000000000000000000000000000 refs/heads/at91
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEDs2BvajyNKlf9TJQvlAcSiqKBOgFAmUfFqUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRC+UBxKKooE6IAoB/474OK2YRJBkWVPhB7gIbvcovRu5t9u
-aZRihbdTldF/+4fOUyVTkb/UEx342whco+eLvCuWifUEZSHWr9st1Mi/YAZQpY1L
-3+t6lGqM3shzxtdAJUwhNplLYMQ1A0+nrTcXJl8hQZTMTxiQ7/AoStEf2eItQw3l
-HsC7nhnzPeTuWKqYi/CIySgm/IK3dYnrE34OXTSsZkqTs8x9HNkdT5/cTNcEjGv8
-kysDsIr0BSQhY5Gok6C08wdkz7q0gN9d9waWH9iNcA9WslTVQihOxRDQROv2pFKC
-Z91X0A5rshW+nu4qcll+Rnq/hDY21Yg5BRwP9Ndl64Fr2chAzEk8tvUG
-=rxl3
------END PGP SIGNATURE-----
-
---===============7997369583079629130==--
+--===============8525379945216730408==--
