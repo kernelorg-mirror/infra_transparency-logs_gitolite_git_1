@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0417091733960878311=="
+Content-Type: multipart/mixed; boundary="===============1858703010858389325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 05 Oct 2023 05:50:51 -0000
-Message-Id: <169648505104.2645.14647644841755242064@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 05:51:25 -0000
+Message-Id: <169648508597.2893.65066878214410955@gitolite.kernel.org>
 
---===============0417091733960878311==
+--===============1858703010858389325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.6-fixes
     old: 59c71548cf1090bf42e0b0d1bc375d83d6efed3a
     new: 4e69f490d211ce4e11db60c05c0fcd0ac2f8e61e
     log: revlist-59c71548cf10-4e69f490d211.txt
 
---===============0417091733960878311==
+--===============1858703010858389325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git:
 e78a40b851712b422d7d4ae345f25511d47a9a38 xfs: abort fstrim if kernel is suspending
 4e69f490d211ce4e11db60c05c0fcd0ac2f8e61e Merge tag 'xfs-fstrim-busy-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-6.6-fixesC
 
---===============0417091733960878311==--
+--===============1858703010858389325==--
