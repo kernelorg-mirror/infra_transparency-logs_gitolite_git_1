@@ -1,64 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4083727034734536954=="
+Content-Type: multipart/mixed; boundary="===============3502473308830429627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 05 Oct 2023 07:37:19 -0000
-Message-Id: <169649143937.13141.9053487123984072621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 05 Oct 2023 07:41:56 -0000
+Message-Id: <169649171658.17234.5285045401048707296@gitolite.kernel.org>
 
---===============4083727034734536954==
+--===============3502473308830429627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 03cf2af41b37daa96635a31a012b86d0053e0670
-    new: 12c66bf0ec473d8819c83fa7e8f2e6c08a054965
+  - ref: refs/heads/tty-testing
+    old: 0d447e927ee86e9ff89010085a47a275c2bb5594
+    new: 7cda0b9eb6eb9e761f452e2ef4e81eca20b19938
     log: |
-         1cf56299f9bc7d4b8e1e39af08f01d6380e28173 USB: dma: remove unused function prototype
-         44ceac8c92daa2e08ba402c6609293cef2969093 docs: driver-api: usb: update dma info
-         af313201946a7e64f6985711136ef02f9113a8fc dt-bindings: usb: gpio-sbu-mux: Add an entry for CBDTU02043
-         de2eb28cdb76df9ce7587e1c6552b169069af4bb usb: gadget: f_uac2: allow changing terminal types through configfs
-         e24bc293a6a6d29a2df235056094574ba37acc04 usb: dwc3: document gfladj_refclk_lpm_sel field
-         65682407f8f4b9c583f672746980ec7ec6aaef4d dt-bindings: soc: qcom: qcom,pmic-glink: add a gpio used to determine the Type-C port plug orientation
-         c6165ed2f425c273244191930a47c8be23bc51bd usb: ucsi: glink: use the connector orientation GPIO to provide switch events
-         8cda5bf9c10f8bba3b9117a493836d29f1a95834 arm64: dts: qcom: sm8550-mtp: add orientation gpio
-         12c66bf0ec473d8819c83fa7e8f2e6c08a054965 arm64: dts: qcom: sm8550-qrd: add orientation gpio
+         b9cbe7e8f27b4e4ab38db5ba5634d12f86574ca7 serial: 8250: Check for valid console index
+         8700a7ea5519fb0b3bad2362adfeac358c2119ce serial: 8250_omap: Drop pm_runtime_irq_safe()
+         7cda0b9eb6eb9e761f452e2ef4e81eca20b19938 serial: core: Simplify uart_get_rs485_mode()
          
 
---===============4083727034734536954==
+--===============3502473308830429627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696491437 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1696491436-079c164f4f108cec3eeeaad9f7c6461f364a16cf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696491714 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1696491714-f5fc3129cc187ae6ce6952fe9253205b7846b76d
 
-03cf2af41b37daa96635a31a012b86d0053e0670 12c66bf0ec473d8819c83fa7e8f2e6c08a054965 refs/heads/usb-testing
+0d447e927ee86e9ff89010085a47a275c2bb5594 7cda0b9eb6eb9e761f452e2ef4e81eca20b19938 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeZ60bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+12oQAMAeTcyxATeDPAvS3w7K
-+LiJWxLm88zsMhoUK4E3FVPD3E0yyaEdRoxcgXxvuDNIjexG+l/oI87pJpFDphXJ
-8GpoQGRl9aEfH7/J4wBDbOdHGMdwUYbxfL2StdL54+JJulNthjvtcQTalaPQE9er
-EXgEe8DGzGfuaaCy2onMoReBVyQMF7bItHkK1+a0Uu0tLA2og1w/wGNTpTg19OIL
-P2jrCJjdGx9JF86Ua2rWOysS9Hmc9wA0omSlUWdCLdL/06NUfMyVlFJtB2uR/9EO
-iwFPe6YJDdMVNcPETze7JDt2T6mxC1GnBXAJPrAyASoGDjQMX32xTnY0j5LTMn1q
-VmokdpcuwytFuFEetx59iCr1oZCuTEHJqoq9SPYk0xI9ZmAOkOca72ZaqrQROviI
-YsFRO0l6AvdOYAwB3K4hxj04CktTL5rjdCCu43aqe0v+O1ipqnazlW72aF+VYihZ
-CZdh9EjaUZ0vvn+Bt8dq9LnfZ4P6gfuyAr8QjQgT1/0nKNIGJNNev2z6oUkVCmxt
-KTHKT1hwYmRjW5vOhlhTdhy+9vVMYL2O+e0jKN4ZGWeO8OGRCeIypJkguEI3rfHw
-ieCmieddC+HGGcIh9UAl7BZl+iU5IsJHntmqn8VTofFzG96Sr1tjsuRiI6YUG2Fk
-QhifjkF48y+j0ANEzE1Lvll1
-=oM4h
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUeaMIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y4wQAM70ntuPjP5UotPabu3R
+7NickxvHSU5+pW1B3WSG0BZKGMMlQ5qXBXRSLAbQxNJH9nhBbXmURqi9Ax7tFiGO
+v0WTm6m57Y7Unq2NzNkeyoFMFblg0oLSWIPcJygqNJiP7ms8ghGAm9G6n/CaVc8V
+2jVsWNBTzANJT2hccXBOHBDUsGx/wevjvoAWBrL41maDFE8M0Npa10DmLaaFlGky
+EtZYRfrPgSFlavWhLOcgzGzKhuxjT5ODUArozuZDsj5eMz5UMHYNsUNia9hrN1C+
+/8MLlP40G0DNQK1mLiIDHU0HJIkMYZdyE0KzPbE1qoj19W8DISGCxiBRyh4U3Vto
+LIaomrt5Z6FAdlHaFNBJBzKqpdK1cJW77cZmEdNP9ZTPadN3AnNT3VwQ3NszOJ/h
+Fa3Vcz6yRXz5w2LM/SaBd8UIx+ZVmpe4N/L+iBkonAXB3KeoP2gscNJPtlrJnwlh
+FGb2hN30vt91Q45amyVe99egZq9lwZmKthQ91KM0S3RLD05TPt19u5kMNZSPH4dB
+/5iTYIk+ZLbzwF/dy+I/+uhaAmeMYFfRMMeAO8wxEZ62UKRcnnT1hoxbnBry7T6O
+VgNcWQSDr9LkG/cW9TpVGd90DTWDY4SfX36Y7n4Sscfla5LM5+oL9z8MyS1LvSBY
+M6vpZa24XIw7hL0QTWXnEw6v
+=oMpK
 -----END PGP SIGNATURE-----
 
---===============4083727034734536954==--
+--===============3502473308830429627==--
