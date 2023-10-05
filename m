@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2895401790661570785=="
+Content-Type: multipart/mixed; boundary="===============5823190009855179174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Thu, 05 Oct 2023 12:05:39 -0000
-Message-Id: <169650753909.27829.18015205202355430004@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 12:07:02 -0000
+Message-Id: <169650762246.28552.4643526635718243574@gitolite.kernel.org>
 
---===============2895401790661570785==
+--===============5823190009855179174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: ce36c8b149873b50f2a4b9818eb3dcdd74ddd5a3
-    new: 3006adf3be79cde4d14b1800b963b82b6e5572e0
-    log: revlist-ce36c8b14987-3006adf3be79.txt
+  - ref: refs/heads/opal-test
+    old: 004e5d72ee9aa72e780bafb984c67fa9e94c4ada
+    new: 8935a9b47f30e9af5eab5bc129f7b608da795ba9
+    log: revlist-004e5d72ee9a-8935a9b47f30.txt
 
---===============2895401790661570785==
+--===============5823190009855179174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce36c8b14987-3006adf3be79.txt
+Content-Disposition: attachment; filename=revlist-004e5d72ee9a-8935a9b47f30.txt
 
 02d89917ef68acbe65c7cc2323f1db4429879878 rtla/timerlat_aa: Zero thread sum after every sample analysis
 6c73daf26420b97fb8b4a620e4ffee5c1f9d44d1 rtla/timerlat_aa: Fix negative IRQ delay
@@ -51,5 +51,12 @@ cdcb5d194f192ed07f4e4bb85b866cdc8f420ee6 Merge tag 'regmap-fix-v6.6-rc4' of git:
 cbf3a2cb156a2c911d8f38d8247814b4c07f49a2 Merge tag 'nfs-for-6.6-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
 ba7d997a2a29ee3fa766fee912c65796e0c21903 Merge tag 'linux-kselftest-fixes-6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 3006adf3be79cde4d14b1800b963b82b6e5572e0 Merge tag 'rtla-v6.6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bristot/linux
+18b0060d5bedfd2e8871c932e1acb8fa11b7a14b block: Fix regression in sed-opal for a saved key.
+b0635886d8ed41414d6a31075c0888c53014d03a usb-storage: remove UNUSUAL_VENDOR_INTF macro
+1d90ccd0f5523585528c08ae6d3278b03d9eaaf5 usb-storage: make internal quirks flags 64bit
+619678b5b3947b8391bfd3f9dc1392582915a481 usb-storage: use fflags index only in usb-storage driver
+369143dbdedc7e16ddbeecfe95ad6579d805e8a2 usb-storage,uas: use host helper to generate driver info
+435dd9e34e3b8c79c8b362c7b47e96f84bbd30ba usb-storage,uas,scsi: allow to pass through security commands (OPAL)
+8935a9b47f30e9af5eab5bc129f7b608da795ba9 usb-storage,uas: Disable security commands (OPAL) for RT9210 chip family
 
---===============2895401790661570785==--
+--===============5823190009855179174==--
