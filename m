@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4579251809032390558=="
+Content-Type: multipart/mixed; boundary="===============4390057126493194688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 05 Oct 2023 15:41:22 -0000
-Message-Id: <169652048281.23311.15007751340503463715@gitolite.kernel.org>
+Date: Thu, 05 Oct 2023 15:44:59 -0000
+Message-Id: <169652069951.24650.3204163013524727542@gitolite.kernel.org>
 
---===============4579251809032390558==
+--===============4390057126493194688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/ffa_v1.1_notif
-    old: ef2fa267dc1bc3a04aad47fe502204a90ed82950
-    new: 8b08e0320efaab2f9021afd38feef464e0a05da2
-    log: revlist-ef2fa267dc1b-8b08e0320efa.txt
+  - ref: refs/heads/for-linux-next
+    old: 05f3d080cad50f9ecc9e8dfff3d8a618908f2d57
+    new: 3d77cb787ca417e6402d44d0b31bdacb36096138
+    log: revlist-05f3d080cad5-3d77cb787ca4.txt
 
---===============4579251809032390558==
+--===============4390057126493194688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef2fa267dc1b-8b08e0320efa.txt
+Content-Disposition: attachment; filename=revlist-05f3d080cad5-3d77cb787ca4.txt
 
-e181521e19abd7e5fe8f75988ea73ceed8cbf4c3 firmware: arm_ffa: Add FF-A v1.1 support(notification + new memory descriptor format)
-143a3dd7592bc1e48e444ac684cece1c163d394b firmware: arm_ffa: Update the FF-A command list with v1.1 additions
-8df0c764ae29ec9f841be0b060389bd329335ba8 firmware: arm_ffa: Implement notification bitmap create and destroy interfaces
-b1321b72baca7dbe4feab9c732ae175191a17b8d firmware: arm_ffa: Implement the notification bind and unbind interface
-81802c3a147456b6dfa505d2bbfba908ed137039 firmware: arm_ffa: Implement the FFA_RUN interface
-92b19b92296f3cf2ea2d69b1c573d3836b20114a firmware: arm_ffa: Implement the FFA_NOTIFICATION_SET interface
-7e4b17b804700d21ebd879cf0b84339248f365af firmware: arm_ffa: Implement the FFA_NOTIFICATION_GET interface
-9a0c595516ffeb109bd85fb47b5876b20b81b922 firmware: arm_ffa: Implement the NOTIFICATION_INFO_GET interface
-5312022687344f7b42c839fbfc198ca043aad42e firmware: arm_ffa: Initial support for scheduler receiver interrupt
-66cda57b1c061afd8a8af4cc40c4ddc2b18fd05f firmware: arm_ffa: Add schedule receiver callback mechanism
-c6cc888af115f27783f516d8eb05cc2519b2694f firmware: arm_ffa: Add interfaces to request notification callbacks
-4bac1a2c61f244953980ffc4be2ba436bc1a9588 firmware: arm_ffa: Add interface to send a notification to a given partition
-f93bdc35bae46da6357e344e2fb6caeb47296e60 firmware: arm_ffa: Add notification handling mechanism
-a437eb154fd225fa4e092bcfc11eef2bd12a37d7 firmware: arm_ffa: Simplify the computation of transmit and fragment length
-b407e02a18200891732a2d0df26677b4473a90c5 KVM: arm64: FFA: Remove access of endpoint memory access descriptor array
-8a55cc5b1daac83e68cfaade637dc46da99726f5 firmware: arm_ffa: Switch to using ffa_mem_desc_offset() accessor
-fd92c5cd3c43c461ed3d20a406484a8b6631802f firmware: arm_ffa: Update memory descriptor to support v1.1 format
-8b08e0320efaab2f9021afd38feef464e0a05da2 firmware: arm_ffa: Upgrade the driver version to v1.1
+02d89917ef68acbe65c7cc2323f1db4429879878 rtla/timerlat_aa: Zero thread sum after every sample analysis
+6c73daf26420b97fb8b4a620e4ffee5c1f9d44d1 rtla/timerlat_aa: Fix negative IRQ delay
+301deca09b254965661d3e971f1a60ac2ce41f5f rtla/timerlat_aa: Fix previous IRQ delay for IRQs that happens after thread sample
+e8c44d3b713b96cda055a23b21e8c4f931dd159f rtla/timerlat: Do not stop user-space if a cpu is offline
+81ec384b80ffbda752c230778d39ea620c7e3bcf rtla: fix a example in rtla-timerlat-hist.rst
+6f874fa021dfc7bf37f4f37da3a5aaa41fe9c39c selftests: Fix wrong TARGET in kselftest top level Makefile
+ba7d997a2a29ee3fa766fee912c65796e0c21903 Merge tag 'linux-kselftest-fixes-6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+3006adf3be79cde4d14b1800b963b82b6e5572e0 Merge tag 'rtla-v6.6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bristot/linux
+576df30cec66c0335d561965b146aca9de073d41 firmware: arm_ffa: Allow the FF-A drivers to use 32bit mode of messaging
+f81e624670e51f355b7b94a0041c2959be06d841 firmware: arm_ffa: Update the FF-A command list with v1.1 additions
+073d63e31b54462661be01f7009285e876241bc9 firmware: arm_ffa: Implement notification bitmap create and destroy interfaces
+e89285e22097c3371b4029ffd81455f787538464 firmware: arm_ffa: Implement the notification bind and unbind interface
+b43bc481920d36c7341fd70f02b613136ad01d85 firmware: arm_ffa: Implement the FFA_RUN interface
+6117fe34e56c10db9c6f3b3a72f6724aaf305151 firmware: arm_ffa: Implement the FFA_NOTIFICATION_SET interface
+b62795d3f67be7e5e8f1d7a2fb56d29277d26af4 firmware: arm_ffa: Implement the FFA_NOTIFICATION_GET interface
+81bf2f9047f794dea101b7d8e9301ff38a89718d firmware: arm_ffa: Implement the NOTIFICATION_INFO_GET interface
+76b7b8968c981f1158501748718bef3bfa2a82fc firmware: arm_ffa: Initial support for scheduler receiver interrupt
+42f642f17b69feb8fddf2dbf92339a08eb53d2d2 firmware: arm_ffa: Add schedule receiver callback mechanism
+3368da4fd6bf8b2a2384a53bf1b19339b539c522 firmware: arm_ffa: Add interfaces to request notification callbacks
+9ee49172b73b9133271b02d7a8b44574f6a6c40c firmware: arm_ffa: Add interface to send a notification to a given partition
+f37ccd431b0aec529449f1c58b3257b9c4f64a49 firmware: arm_ffa: Add notification handling mechanism
+6c3daf59a6145dd10e820576cfc5d44ec39b3f65 firmware: arm_ffa: Simplify the computation of transmit and fragment length
+b4dac70d2e4855abb5d38095477854271c01e823 KVM: arm64: FFA: Remove access of endpoint memory access descriptor array
+c3b4a5da9900c8808429cd2f4ca09edadad56a35 firmware: arm_ffa: Switch to using ffa_mem_desc_offset() accessor
+0624de756f756b4e898db1f16775b61fb7e4832c firmware: arm_ffa: Update memory descriptor to support v1.1 format
+69519bc3f46118be8900b4cbefd21e3b6c4102c9 firmware: arm_ffa: Upgrade the driver version to v1.1
+3d77cb787ca417e6402d44d0b31bdacb36096138 Merge branches 'for-next/scmi/updates', 'for-next/ffa/updates', 'for-next/vexpress/updates' and 'for-next/pcc/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============4579251809032390558==--
+--===============4390057126493194688==--
