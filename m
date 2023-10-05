@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 05 Oct 2023 16:06:28 -0000
-Message-Id: <169652198801.7978.14187064547717872044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 Oct 2023 16:11:41 -0000
+Message-Id: <169652230173.12686.17555828144361771572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/vfs.misc.backing_file
-    old: 0000000000000000000000000000000000000000
-    new: 25559e32c86d9c454bb411b5387a9e006e4f3158
+  - ref: refs/heads/main
+    old: fcdfc462881d8acf9db77f483b2c821e286ca97b
+    new: 566aeed6871ac2189b5bfe03e1a5b3b7be5eca38
+    log: |
+         566aeed6871ac2189b5bfe03e1a5b3b7be5eca38 net: lan743x: also select PHYLIB
+         
