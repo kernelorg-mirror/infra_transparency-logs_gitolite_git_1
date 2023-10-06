@@ -1,76 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============7790703018472632756=="
+Content-Type: multipart/mixed; boundary="===============4409911705407185376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 06 Oct 2023 06:59:57 -0000
-Message-Id: <169657559729.7824.16480625120743741619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 06 Oct 2023 07:00:20 -0000
+Message-Id: <169657562049.9709.7640492983780978053@gitolite.kernel.org>
 
---===============7790703018472632756==
+--===============4409911705407185376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
-    new: eb7581deb4c2eef77f6368e1891e123b69349bb0
-    log: revlist-8a749fd1a872-eb7581deb4c2.txt
+  - ref: refs/heads/usb-next
+    old: 03cf2af41b37daa96635a31a012b86d0053e0670
+    new: 1053c4a4b8fcbd28386e80347e7c82d4d617e352
+    log: revlist-03cf2af41b37-1053c4a4b8fc.txt
 
---===============7790703018472632756==
+--===============4409911705407185376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696575596 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1696575596-bbca355098e8f93ea9e648ebb7a14b0d89ee1d1e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696575619 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1696575619-9a2e94453a376a76a9850728575ca0358bf2a4d6
 
-8a749fd1a8720d4619c91c8b6e7528c0a355c0aa eb7581deb4c2eef77f6368e1891e123b69349bb0 refs/heads/driver-core-next
+03cf2af41b37daa96635a31a012b86d0053e0670 1053c4a4b8fcbd28386e80347e7c82d4d617e352 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUfsGwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kXsQAJE8iWG3RSQVKuXArvrJ
-kGRz22oqgxPhC9L97b2ukyfIwtORFbXMp/9/CEZhRrQfc7nXAOfFJOOAIeGKP06O
-xGUQHfxWdSw6+Ypequz9iCEFFSQMM1L5hTwCqICY7XPPCb0gyWabHB3kLxcQCpQo
-QTia2wlvM4dOCgkbiWMnHxi2oGbSgOUJpQ9cxibGUqbEgULtCrc90Vu3bRZpqMqO
-YNCyNbtFnPuBghbXtYHLHV85bXyH5nQJDvFrWMdWT83jJB/v1mUVhsIwMpNF2B5Q
-w0/gnM9HanIoBgNUx8OpLWsahhrnU5kg+FfYdmLWK6QoaWpDZ53+wZcQf5Eg7Anv
-NhcBJSG+Pnmix/CnX9vEtWz14E/d4V2cVtHJLIismhg9Cm9URb6+PExgGjugDF1r
-nIyFMhEk15IKEJPAf8hAqFcLg7Dm7k8VU4VO1mCqEhVEEBZ8zgzKykHklXCTlxJn
-X5eS6JJrGrqm/zy8WzwUjJzwFCf4UT+bE093NdIjHAVTeuJOonaUhIjWcBSr0x7O
-xEPiaAMIwJCXQcOdPXJC6r6g5ouLWpSxo95Ne1YixGufJVLAM0SziINHfavgaAup
-d4GBs9rh4Rg88zCyZjE+7uBY+WWXqMcdxNLe9KHktPd7ZgyvY3mh50QivksTgOeM
-Fref5gE5gzjzUQ89kWhdugcE
-=s/nZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUfsIMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l9IP/1SdCLeFgoNTURqAHDnm
+XXtVcLjpx5HbULE0unz/oACAyg8taU1+5C97i9OpeE5GaU4Yv3Eil5jxOCbRRN3w
+Q4KBz1/z+XO7wdApLMWJydKDGfv7kNRaYtOQfhM6yqi8dA16DuU4Csj2Roo8lUXd
+6G0ilg1cz/rdt+s1+v+EwmZG2wDG/etY7ZGrc8uknFutZ/8aTkrTPRZCPE/cBbRW
+IaK3Y+xuGJ+0BhrT3ks3qep7lq21rq8+fQqHvquyDeTu3aqNZCzdncmkAsNQLSyQ
+l8adGg26HMwCsLs8TP1uATT2904ozLnlliFxd5UoGk6d7j6FvxiJH+DUkMh1Nm0M
+UIenQn4FQ5NaDLgYScD93PdPLaObueA1r/1v0C5c7ocevnkoEEt9aAJwpYxKOxy9
+HtzHy+ZVN+lqjhhOgw3hu7o7ZHmrtCs3cKAredcRvOGyywXj1IG/sKjiDGzNDSuI
+hmD02QTCazXkyIg5fRzEWUcrar+It55YYNwc26Te4WAVCCxl9usWZXzy3GHFuU+S
+dNwS1/1DZCGoIEhRpoOw91PhislrN8dRwI76dt4qGfGLeiOFuHAOJtlbXCELh4Fr
+wnboazdqWhSARGjDutIdU1ryBZA3HUpGVeWDh7y1A28Kd2c1wwCbUFYL/wd6nUu/
+VBdYt8PkO43KrOOcLamRg4Zt
+=+Ao5
 -----END PGP SIGNATURE-----
 
---===============7790703018472632756==
+--===============4409911705407185376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a749fd1a872-eb7581deb4c2.txt
+Content-Disposition: attachment; filename=revlist-03cf2af41b37-1053c4a4b8fc.txt
 
-aab8aa0d35fc59e81c367cf34f990aaf48d24419 driver core: platform: Drop redundant check in platform_device_add()
-a549e3aac29cde86c1ade76909df759918c11653 driver core: platform: Refactor error path in a couple places
-6136597c8feae2cfefd80973b966c092c4ab42d9 driver core: platform: Use temporary variable in platform_device_add()
-243e1b776f613501cd8de4e56c2eb415c942bb04 driver core: platform: Unify the firmware node type check
-a083c755e136844a934bc9b4416cd23b5c19c617 devres: rename the first parameter of devm_add_action(_or_reset)
-7523d330aac7190f738998a52df8d5aa14293280 device property: Clarify usage scope of some struct fwnode_handle members
-f1ac370cdda304d2fed44455ae685c7ee9539c0a driver core: Add missing parameter description to __fwnode_link_add()
-98ad1dd06a02096fff6c65703a85b9f3c3de1a7d drivers: base: test: Make property entry API test modular
-1dc05a274a7b13fd61b6c43f0136153752e6f731 device property: Replace custom implementation of COUNT_ARGS()
-7360a48bd0f5e62b2d00c387d5d3f2821eb290ce debugfs: Fix __rcu type comparison warning
-0fedefd4c4e33dd24f726b13b5d7c143e2b483be kernfs: sysfs: support custom llseek method for sysfs entries
-24de09c16f974dce70e2c56e3a4325117221ed12 PCI: Implement custom llseek for sysfs resource entries
-441f0dd8fa035a2c7cfe972047bb905d3be05c1b resource: Reuse for_each_resource() macro
-10dabdf45ed34caaaad97978306fe6e9ee7581d9 resource: Unify next_resource() and next_resource_skip_children()
-eb7581deb4c2eef77f6368e1891e123b69349bb0 resource: Constify resource crosscheck APIs
+1cf56299f9bc7d4b8e1e39af08f01d6380e28173 USB: dma: remove unused function prototype
+44ceac8c92daa2e08ba402c6609293cef2969093 docs: driver-api: usb: update dma info
+af313201946a7e64f6985711136ef02f9113a8fc dt-bindings: usb: gpio-sbu-mux: Add an entry for CBDTU02043
+de2eb28cdb76df9ce7587e1c6552b169069af4bb usb: gadget: f_uac2: allow changing terminal types through configfs
+e24bc293a6a6d29a2df235056094574ba37acc04 usb: dwc3: document gfladj_refclk_lpm_sel field
+65682407f8f4b9c583f672746980ec7ec6aaef4d dt-bindings: soc: qcom: qcom,pmic-glink: add a gpio used to determine the Type-C port plug orientation
+c6165ed2f425c273244191930a47c8be23bc51bd usb: ucsi: glink: use the connector orientation GPIO to provide switch events
+8cda5bf9c10f8bba3b9117a493836d29f1a95834 arm64: dts: qcom: sm8550-mtp: add orientation gpio
+12c66bf0ec473d8819c83fa7e8f2e6c08a054965 arm64: dts: qcom: sm8550-qrd: add orientation gpio
+e0fa80bbede825f470869f41b132daff99f33a1c Revert "usb: gadget: uvc: rework pump worker to avoid while loop"
+dddc00f255415b826190cfbaa5d6dbc87cd9ded1 Revert "usb: gadget: uvc: cleanup request when not in correct state"
+1053c4a4b8fcbd28386e80347e7c82d4d617e352 Revert "usb: gadget: uvc: stop pump thread on video disable"
 
---===============7790703018472632756==--
+--===============4409911705407185376==--
