@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 06 Oct 2023 23:09:52 -0000
-Message-Id: <169663379228.24064.5846172654816398526@gitolite.kernel.org>
+Date: Fri, 06 Oct 2023 23:12:30 -0000
+Message-Id: <169663395054.26934.13551976015136220788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 656c29f18ca83991f5f3053da21014dc1fac782f
-    new: 1d99b7e950352ee4e8f786e0d13ceb31c078e98a
-    log: |
-         3da5d2de92387a8322965c7fb1365f7cae690e5a MAINTAINERS: update the dm-devel mailing list
-         f1445032173d4a49eb8b4a0808db499966897d9a dm: shortcut the calls to linear_map and stripe_map
-         6d2c14104e928f8efeeabe792095714db44588dc dm persistent data: Introduce extent allocator
-         14aac827c23e1709ca1344fbac544e01f726ca70 dm space map: Add sm_disk_new_block_in_range method
-         1d99b7e950352ee4e8f786e0d13ceb31c078e98a dm thin: Use the extent allocator for data blocks
-         
+  - ref: refs/tags/for-6.6/dm-fixes-2
+    old: 0000000000000000000000000000000000000000
+    new: 65fa3668e5bd6ecf5e451d6acbcab1ba6a8d0523
+  - ref: refs/tags/v6.6-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
+  - ref: refs/tags/v6.6-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 657c707d1c69d838dfc6e35dd528f161503e46de
