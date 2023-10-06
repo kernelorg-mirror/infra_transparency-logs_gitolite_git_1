@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 06 Oct 2023 14:44:55 -0000
-Message-Id: <169660349560.15077.6403866782730939154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 06 Oct 2023 14:45:33 -0000
+Message-Id: <169660353351.17032.7566403194106629278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/fileBwtyfW
+  - ref: refs/tags/pci-v6.6-fixes-2
     old: 0000000000000000000000000000000000000000
-    new: df22568ad8ed317db95acc11e1c08bae7a0fba5d
+    new: ed70e52ee6102d468309090c9c3f900207fe70c6
