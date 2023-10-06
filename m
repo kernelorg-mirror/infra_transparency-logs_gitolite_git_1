@@ -1,121 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 06 Oct 2023 20:37:13 -0000
-Message-Id: <169662463349.10391.5274572433351339106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 06 Oct 2023 20:41:07 -0000
+Message-Id: <169662486742.14431.9613212524106037398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/broadcom/drivers
-    old: 57e493aff59529b0ed503ec1540e6125c84f9053
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/dt
-    old: 2900083269f7c0f0ff430bffc6ced2038aed9b6b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/dt64
-    old: a3660e59a9e49c4c1b8042185e7d39ec4a70f287
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/soc
-    old: 91b631c25f6a21fe70f3fbc5c54aa05e617279bd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/memory
-    old: 35bd78cf252245f11dd1c9d5f1b414c25e727b5a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt/cleanup-2
-    old: 1193001081e98d13c786fe0cae407cb747104cdc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisi/drivers
-    old: b51022b416f5be113cd5345a2cab287d78e6b74c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/defconfig
-    old: 95afa02c9e42cdbc2f91dc0f64e59ea10d710a4f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/drivers
-    old: c081197a33a2813881b534c44666024c97fb025d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt
-    old: db92a8d917c7d959584cc15f838a134c1b115915
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt-bindings
-    old: 8b7b6038059e87485d03f0c853db99042fcf6e97
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/soc
-    old: 66ba9c05fc51d3357298dccf718ee83469978da8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/ixm/dt
-    old: 60ac8a775a9147867a9d222d970ab2ca158dc23a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/defconfig
-    old: d5c988b43746de250bed33c17116e879f032ff12
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/drivers
-    old: 443012dd31e5939cb53bc9c5713d32d87321b0d8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/dt
-    old: 9e77200356badfda6cec99e37be55fa940f83c7d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/keystone/soc
-    old: d33dbddf43a055f69bda7f3488bb1e136d1b6bbc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt
-    old: afc19882dfc89211cf188284c78ff79a08b23802
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt64
-    old: 58fe732052196777112fdba536fb9db5cdd42ec6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/soc
-    old: 693d28730db31cbd6f57ab7591950ca734a7bf1d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/drivers
-    old: de44bf2f7683347f75690ef6cf61a1d5ba8f0891
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/oxnas-final
-    old: b1627ad5f457c8cea08bb2ab6b24d1c0381fbe30
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/defconfig
-    old: 7f0c87348fb52d575295d16d4656ecd4c00bad87
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/drivers
-    old: b4f63bbff96e4510676b1e78b00d14baaee9ad29
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt
-    old: 3cfa5569cedf1e5d125b62e690c1915d6b757a47
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt64
-    old: 110e70fccce4f22b53986ae797d665ffb1950aa6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt64-2
-    old: c2951581e69c8fef39120068d1ef5b1974d54ff1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/dt
-    old: f331eb1f5454123f3cec51c18a3d86c2a53bddb9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/dt-2
-    old: a3ce3ff28385c7c0f8503e83f5d42d2083e16390
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/defconfig
-    old: 5eaeb85ccae878e5800a207da7baeb5d9d1dd2fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/drivers
-    old: 6f6878ec6faf16a5f36761c93da6ea9cf09adb33
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt32
-    old: 1bf0dcb1e2a987a9281ae91f94e10c0de52c4952
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt64
-    old: a721e28dfad2dec895a5aada85fb0fac0223e2d2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/socfpga/dt
-    old: 2d599bc43813cbcceeb6b0bfe864671ab517c207
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/stm32/dt
-    old: 4c757f6b8026f7d65bbcd2b821651848a074a12b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt-2
-    old: f05af44f691351bfd954f39ec376666dc5e1b869
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/hardening
+    old: e909028ba701bb3ef883d621e79f6d853412507b
+    new: 6b607a3a311a5d8832006e09884b1b7621ceeddf
+    log: |
+         1a38cf8d8ae7b1b96ba513e9902e438f7d1c03d1 virt: acrn: Annotate struct vm_memory_region_batch with __counted_by
+         bbf75528039aa5b0f9a2758ff149243a35376920 KVM: Annotate struct kvm_irq_routing_table with __counted_by
+         839c5ee04f306be6c4171459bb3e1740fc8bb9e5 irqchip/imx-intmux: Annotate struct intmux_data with __counted_by
+         aa0a14629c2d109837d289708983ee7e42b37459 drivers: thermal: tsens: Annotate struct tsens_priv with __counted_by
+         6b607a3a311a5d8832006e09884b1b7621ceeddf mailbox: zynqmp: Annotate struct zynqmp_ipi_pdata with __counted_by
+         
