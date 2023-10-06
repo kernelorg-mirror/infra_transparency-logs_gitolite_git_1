@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 06 Oct 2023 09:46:53 -0000
-Message-Id: <169658561314.13604.15625576750738710135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 Oct 2023 09:49:00 -0000
+Message-Id: <169658574023.14432.4261146592626528568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-6.6-fixes
-    old: 49728bdc702391902a473b9393f1620eea32acb0
-    new: 7a7e91bb3f52be9aa202f55de757b76464a4bcf1
+  - ref: refs/heads/main
+    old: 4514aa9f56fd7acf9e4f247bd38c0642e55109f7
+    new: cf9ecad9772554a5b78c4f31b098ed680bc5251e
     log: |
-         6f323a68e4c93c7941e428b6fabf5cc80e1006c4 ata: pata_parport: fix pata_parport_devchk
-         b50ec70a3de4f35078f625ff7a66d510b268cca0 ata: pata_parport: implement set_devctl
-         60bcbb5ae2dd9baaf26dc49679824d24c2c30232 ata: pata_parport: add custom version of wait_after_reset
-         7a7e91bb3f52be9aa202f55de757b76464a4bcf1 ata: pata_parport: fit3: implement IDE command set registers
+         178e9bf9b57d7671e94d39848a8ed090fe9ee431 nfp: nsp: Annotate struct nfp_eth_table with __counted_by
+         eaede99c3aeb38613c40a150f676f772faf2b42b netlink: Annotate struct netlink_policy_dump_state with __counted_by
+         cf9ecad9772554a5b78c4f31b098ed680bc5251e nexthop: Annotate struct nh_notifier_grp_info with __counted_by
          
