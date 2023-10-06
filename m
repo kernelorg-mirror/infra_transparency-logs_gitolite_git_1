@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0947787112716637171=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 06 Oct 2023 11:19:35 -0000
-Message-Id: <169659117579.17665.7761370007245007054@gitolite.kernel.org>
-
---===============0947787112716637171==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
+Date: Fri, 06 Oct 2023 11:20:43 -0000
+Message-Id: <169659124303.22107.3571422844161322469@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mbroz/linux
+user: mbroz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 6cb7b31dc65f71cbe99627eb835ef74b9c51dfd4
-    new: 1367e194704d2b956c346f6c9f484da9bf9f3f0d
+  - ref: refs/heads/opal-test
+    old: db593dcf41dace1e382a7257174c05b792356f08
+    new: 7abffb7ad5910e9b2cd575e66d469f9c57d19f69
     log: |
-         1367e194704d2b956c346f6c9f484da9bf9f3f0d Notes added by 'git notes add'
+         45daff066486bb91682b05da2ebaf902d0807350 block: Fix regression in sed-opal for a saved key.
+         5d3308bdb67f8af85fa072de65483470d2b6a7f5 usb-storage: remove UNUSUAL_VENDOR_INTF macro
+         72b37e4b952038cfaca5d30f45508706841bb912 usb-storage: make internal quirks flags 64bit
+         48d468fb83c7abacdb93df55681f2ff19947fe23 usb-storage: use fflags index only in usb-storage driver
+         45b95d510625eeff113c6be86d7d4397239e056b usb-storage,uas: use host helper to generate driver info
+         64858f200f4cd4b10cc9af6f5fac0c0cfcc9d572 usb-storage,uas,scsi: allow to pass through security commands (OPAL)
+         7abffb7ad5910e9b2cd575e66d469f9c57d19f69 usb-storage,uas: Disable security commands (OPAL) for RT9210 chip family
          
-
---===============0947787112716637171==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696591174 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1696591173-80010e58893e9a110f23d4116011f2b20dcb58e2
-
-6cb7b31dc65f71cbe99627eb835ef74b9c51dfd4 1367e194704d2b956c346f6c9f484da9bf9f3f0d refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUf7UcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j+AP/RHz2RCKVtv5ziZwDl1W
-AMUVgYXs9og5qXmPO5a86seZwyt7moe8DK4yoPqbMEFtW7R4lJl0RVGSYQycGZUU
-QvofMUx/bJYIuNqCfe1Yvip548FNLFDfcUqml8F5vX0xpBeXLTDSKyz9hiMllM5l
-X8TzQVnvKyYZPw9GVuFBKxAw944psanmYHjvJly86OrUhmAmp6zbYvB/e9kqeTbQ
-bzS35eftwOJfm5xe2vdV45IUPiF2kHEWcufWDltmgS9uGKQgFw1yQBAW2eGh5RFK
-fKAkOypXhR2qjdZW79wfWXnicg/QMy1d6nBz/6WwWGf/Ox5oUfP7E1WAfi1f0JI9
-P1qS2DxBHDivMEuNGYSruLod3HYm4d+O99z0swwvO1qqXsMxOpEtTmm5WHdC49MB
-QpJzq6WbpgXwRd/EBe099pnhhwXjmmIHnsZA6YBIjr4pYX/6nuzVtrzKFEVGKhfE
-G7bdnr+IPAtFyyTwiysjg7ENrKHZzt/y/a5Dx3QyWtGYijDNDRkp6zTkc4GUXZNF
-5pFiEmJ+IBl1aAKIVa4sJaAz0zRNsn7aAlUSv9o+l8b2AebUk7wazSunKEYX3s08
-8sAUw8+8uPj6EWl0MI/RZVqWgOAn8hS7RDrvpPh+q0u0qcL+L2wMI3oeZLH98Tt+
-GoU9iy7s1VWPPU977qADrVu/
-=8DYR
------END PGP SIGNATURE-----
-
---===============0947787112716637171==--
