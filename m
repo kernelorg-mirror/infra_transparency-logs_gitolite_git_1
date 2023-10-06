@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 06 Oct 2023 21:52:03 -0000
-Message-Id: <169662912330.454.849225475173553942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 06 Oct 2023 21:58:58 -0000
+Message-Id: <169662953856.4583.12936312016182211770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-queue
-    old: 2b3c3183a7dc248470d397213cc4ff20807b7aca
-    new: e1126dcf9f6bd3ca5e88c55e08ca72ff7315ca50
+  - ref: refs/heads/arm64-2023-dpisa
+    old: da70e5964a30639363aa4c2b30e8e435fb0c8d8c
+    new: 932f4be649668fdab7880ab891c8b9ebc86d9a6e
     log: |
-         4f74ca34b8e366fa94c87d9583f5b07689312df1 i40e: sync next_to_clean and next_to_process for programming status desc
-         1116c783bb4bfd524d7d45f8dec788d9f28c646b i40e: prevent crash on probe if hw registers have invalid values
-         72cbc4252cb53d72c02bda1f5ce646830580973a ixgbe: fix crash with empty VF macvlan list
-         037b647f31a2905a86242db3cd532bda2e819046 idpf: cancel mailbox work in error path
-         e14e61890ad287030c68af3f36edb836916e2d80 igb: Fix an end of loop test
-         e1126dcf9f6bd3ca5e88c55e08ca72ff7315ca50 ixgbe: fix end of loop test in ixgbe_set_vf_macvlan()
+         b78d8c24b8b74d5370e95d639b7845c56c2b013e arm64/cpufeature: Hook new identification registers up to cpufeature
+         1e62924ef12e2e13758f45f5d5ba08eb9e2d9ab6 arm64/fpsimd: Enable host kernel access to FPMR
+         bbf4e60d40e436936554bad8a3781cbffdb65e0a arm64/fpsimd: Support FEAT_FPMR
+         d84c702645aac412ca5c8bd74654dde5527cf755 KVM: arm64: Add newly allocated ID registers to register descriptions
+         7b6bda23313cc382dc975e48df7b9fd0b9d439e5 KVM: arm64: Support FEAT_FPMR for guests
+         1eaee11d6c2da8259c78beacd6c034df521f3556 arm64/hwcap: Define hwcaps for 2023 DPISA features
+         932f4be649668fdab7880ab891c8b9ebc86d9a6e kselftest/arm64: Add 2023 DPISA hwcap test coverage (FIXME - INST ENC)
          
