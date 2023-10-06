@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3488552512511750071=="
+Content-Type: multipart/mixed; boundary="===============0951340789122438877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 06 Oct 2023 09:02:15 -0000
-Message-Id: <169658293526.31130.6285105214035407567@gitolite.kernel.org>
+Date: Fri, 06 Oct 2023 09:03:00 -0000
+Message-Id: <169658298021.31471.7410817558121738572@gitolite.kernel.org>
 
---===============3488552512511750071==
+--===============0951340789122438877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fast_track
-    old: 23970a1c9475b305770fd37bebfec7a10f263787
-    new: 869b6ea1609f655a43251bf41757aa44e5350a8f
-    log: revlist-23970a1c9475-869b6ea1609f.txt
+  - ref: refs/heads/for_next
+    old: bceef326bc87781abb5139898d5f2807881194d9
+    new: 236a8af4baf657ec33ec891a00546a9afef68333
+    log: revlist-bceef326bc87-236a8af4baf6.txt
 
---===============3488552512511750071==
+--===============0951340789122438877==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-23970a1c9475-869b6ea1609f.txt
+Content-Disposition: attachment; filename=revlist-bceef326bc87-236a8af4baf6.txt
 
-e14dd076964ef11e9d6e3b06a2f1c6bb7d034133 LoongArch: Add basic KGDB & KDB support
 b72961f847c0f0df113ae2d6ac9fd6b1e6bdeaf2 LoongArch: Provide kaslr_offset() to get kernel offset
 2363088eba2ecccfb643725e4864af73c4226a04 LoongArch: Allow building with kcov coverage
 ec9fee79d48f2f05cb1b95dc901071aa3670f228 kfence: Defer the assignment of the local variable addr
@@ -1050,5 +1049,6 @@ d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-0
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
 869b6ea1609f655a43251bf41757aa44e5350a8f quota: Fix slow quotaoff
+236a8af4baf657ec33ec891a00546a9afef68333 Pull slow quota off fix.
 
---===============3488552512511750071==--
+--===============0951340789122438877==--
