@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 06 Oct 2023 08:57:45 -0000
-Message-Id: <169658266583.27785.10679875445984929262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 06 Oct 2023 09:02:10 -0000
+Message-Id: <169658293048.31022.15257873350773260390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/arm64/suspend-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: aa5ed26567cb7aa3f1f298288457453d8d576c90
+  - ref: refs/heads/ffa_v1.1_notif
+    old: 8b08e0320efaab2f9021afd38feef464e0a05da2
+    new: afbdfdff93b811b3f34c85b9ced6681951857317
+    log: |
+         2a6d25cc5dde805dc054388eb6557a726a1ebaee firmware: arm_ffa: Update memory descriptor to support v1.1 format
+         afbdfdff93b811b3f34c85b9ced6681951857317 firmware: arm_ffa: Upgrade the driver version to v1.1
+         
