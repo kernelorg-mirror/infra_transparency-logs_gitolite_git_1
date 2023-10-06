@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8479110437476471482=="
+Content-Type: multipart/mixed; boundary="===============1623947412982802567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Oct 2023 17:44:35 -0000
-Message-Id: <169661427541.15596.9819578663219134092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 06 Oct 2023 17:44:42 -0000
+Message-Id: <169661428208.15684.15314215233778681494@gitolite.kernel.org>
 
---===============8479110437476471482==
+--===============1623947412982802567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 4b226f15421d160cc07ff497179547f5590ce758
     new: 85a6af284d1c720d78683b550bb5d32bc84e3cfc
     log: |
@@ -30,28 +30,28 @@ changes:
          85a6af284d1c720d78683b550bb5d32bc84e3cfc ASoC: SOF: ipc4: Take priority into cosideration when
          
 
---===============8479110437476471482==
+--===============1623947412982802567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1696614273 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1696614273-954995684e90e8b52d0dbad87b667cbcfebef496
+pusher C3F436CA30F5D8EB 1696614280 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1696614279-7029b4db36472dd6e2ba8c77df34c27010b9ec9a
 
-4b226f15421d160cc07ff497179547f5590ce758 85a6af284d1c720d78683b550bb5d32bc84e3cfc refs/heads/for-6.7
+4b226f15421d160cc07ff497179547f5590ce758 85a6af284d1c720d78683b550bb5d32bc84e3cfc refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUgR4EACgkQJNaLcl1U
-h9BYoAf/b89uZj6UQrngZQq/ACoZkV3BVDrgcaa2MYWpfuPApX8qNqZCluC1D1Gf
-c2Xq4MoQfB5pVeTt6oVETQjCIh2pnydKRBPwLK1H+sEBbMpVhGmoOuBKuIH4tpUH
-cRE7DoPRkAbGfVQukWZgwLTbrBx1y70OwEfPZHf9Rc/ECWf48jurltmbb7Owjgi6
-sOT+7mEJUguxsvnc15PKtKrgwAQRxY1VGZJPronxJortSXUzBgX9hkSWTjN0ozy+
-eznFcPVyyHoWwUEATwFmOQ9RgWHr3Y/7FvnNPwTTr95fNPFEvyV0dlLe7xabwOxa
-0qFs/DCi9T7QR7ZHHcumuhIOrwaSaA==
-=lCXi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUgR4gACgkQJNaLcl1U
+h9AiJAf/RmsIF6zpmjDpC4inDumJ5fYBkLsCnigGQF08RUQQxHK3z6lj/f53rKlk
+ggAnneFNRgn2wDRAjNYiL5+UrzwTbOH2Lzx4So/V8BODHWa47CcGKPrBEHJJBGaH
+hAsDylVeoKTGDryniOsOg0RmkvTGypAhtsBdf7hNJmYwMJaNrnBAPWJxfqqBih6G
+zjZ9kESKd7eoZp0cnZXdtdfO8UzLxrP4ght/26qmVpTXBwX38q+jV083WxRnWrbe
+BTW0R1J3dwck//07a8ojFr39B6fmnhCeKUF27g2SeI7SpnMUeyOHUKJEt/gZhNEG
++6Y6Lwoc0DEJoDFEGNzqc0dFFAWIzw==
+=VGvH
 -----END PGP SIGNATURE-----
 
---===============8479110437476471482==--
+--===============1623947412982802567==--
