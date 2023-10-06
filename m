@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8211819676745750364=="
+Content-Type: multipart/mixed; boundary="===============7183247219774687422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 06 Oct 2023 17:48:04 -0000
-Message-Id: <169661448436.18868.5344887657080621868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Fri, 06 Oct 2023 17:51:06 -0000
+Message-Id: <169661466613.21589.18311467264534858677@gitolite.kernel.org>
 
---===============8211819676745750364==
+--===============7183247219774687422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 7de25c855b63453826ef678420831f98331d85fd
-    new: af95dc6fdc25e616051d0234aad638e15c02ec8f
-    log: revlist-7de25c855b63-af95dc6fdc25.txt
+  - ref: refs/heads/dev
+    old: b15b6cc56ac7764be17acbdbf96448f388992adc
+    new: 4d811ae0c1f1cb49b388addd56b71cbd44e2e53c
+    log: revlist-b15b6cc56ac7-4d811ae0c1f1.txt
 
---===============8211819676745750364==
+--===============7183247219774687422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7de25c855b63-af95dc6fdc25.txt
+Content-Disposition: attachment; filename=revlist-b15b6cc56ac7-4d811ae0c1f1.txt
 
-6a878a54d0053ef21f3b829dc267487c2302b012 PCI: qcom: Fix IPQ8074 enumeration
-33efa29e825636a06d5711c9dfccf92726d2fc81 PCI: of_property: Handle interrupt parsing failures
-f69977404700a3d33b1c4b492c2a44f17cb07af5 PCI: of: Destroy changeset when adding PCI device node fails
-c82458101d5490230d735caecce14c9c27b1010c PCI/PM: Mark devices disconnected if upstream PCIe link is down on resume
-528ab3e605cabf2f9c9bd5944d3bfe15f6e94f81 platform/x86: think-lmi: Fix reference leak
-981368e1440b76f68b1ac8f5fb14e739f80ecc4e platform/x86: hp-bioscfg: Fix reference leak
-2545deba314eec91dc5ca1a954fe97f91ef1cf07 platform/x86/intel/ifs: release cpus_read_lock()
-cbf92564100cf26000ef0af5e0f4e85ed0a13f4b platform/mellanox: tmfifo: fix kernel-doc warnings
-34c271e778c1d8589ee9c833eee5ecb6fbb03149 platform/x86: touchscreen_dmi: Add info for the BUSH Bush Windows tablet
-aa7dcba3bae6869122828b144a3cfd231718089d platform/x86: touchscreen_dmi: Add info for the Positivo C4128B
-5b44abbc39ca15df80d0da4756078c98c831090f platform/x86: hp-wmi:: Mark driver struct with __refdata to prevent section mismatch warning
-a5e0a4b11c4adbe6ab2c0aa6c8b1d59d0fccf56a Merge tag 'platform-drivers-x86-v6.6-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-af95dc6fdc25e616051d0234aad638e15c02ec8f Merge tag 'pci-v6.6-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+84a218572118382f73997c6411ff80c98d3f6f94 fsck.f2fs: use clearer info message for -a option
+5b20e61663f9a0d0bddf18aa6b730bf4ec5319e3 fsck.f2fs: use INFO_MSG() to print i_gc_failure reset info
+30825b3813510ed8669e6be6ca791174785f47d7 f2fs-tools: Define constants in terms of BLKSIZE
+b1aeb99ec014d38af45a88bc0058d4312d0f9af4 f2fs-tools: Refactor Orphan Block struct
+32f5a37782d95990f82a3699447f1518ab034abe f2fs-tools: Refactor f2fs_node struct and friends
+bb051c7b1634d49d3b00d4b2c96042c3d71e6db7 f2fs-tools: Refactor SIT/NAT block structs
+ef47782c0af69e021e71d7875bcaa1397869c319 f2fs-tools: Refactor Summary block struct and friends
+c404632d82b5b855cd8cb8f797ad61b1e5848f8f f2fs-tools: Refactor f2fs_dentry_block struct
+50fd00b168d76eb26933faa427f167103c35aded f2fs-tools: Support different block sizes
+2835107ae3908576b41ff5f6a4e63ba7ec9a6246 f2fs-tools: do not support user-space cache
+16a1226ddd5dfe1e8465f55447193c21fbb79c95 f2fs-tools: avoid build warning
+7dbf0cf9ec518e27f2a6a045621febe88e0b3028 f2fs-tools: use 'IS_CUR_SEGNO()' to check if it is current segment
+91a95e9d90edf436c4346ecf1c893363e1feb573 f2fs-tools: skip not matched segment when finding free block
+220d716f9b3ef579153816990f8498c3eeb2aa19 f2fs-tools: cache free segments count to improve perfmance
+0baf928aa1ec9adcd6a34bcc8cdd968db70a4c98 f2fs_io: add fadvise support
+4d811ae0c1f1cb49b388addd56b71cbd44e2e53c f2fs-tools: make checked node progress correct
 
---===============8211819676745750364==--
+--===============7183247219774687422==--
