@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 06 Oct 2023 22:14:20 -0000
-Message-Id: <169663046055.16091.10177626037650179285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 06 Oct 2023 22:18:19 -0000
+Message-Id: <169663069959.19100.3020999310621514463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/vga
-    old: e34f04ba8f1a3b8cfc6815d74a68c147338c3b50
-    new: a9edacdf4d325d826f766b60e2399e63547abdab
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 7f5444ac36b1c590634ea16e0e238df7bb198440
+    new: 0cfad4391930b89c236deb65be98133b1ef6678b
     log: |
-         7e845ecb2fbfa1bf800e703df29ee2e06592c2a0 PCI: Add pci_is_vga() helper
-         655e6fe178960c50bfbb0bfe3c4a12c82b1ad918 PCI/VGA: Use pci_is_vga() to identify VGA devices
-         91bd51114ad7deaa0a19b29fffbddc59df9f1b9d PCI/VGA: Select VGA devices earlier
-         810306b1aed15936f9211c57467f4757a7797f09 PCI/sysfs: Enable 'boot_vga' attribute via pci_is_vga()
-         af8c7f2b46550b2d0b757dfbb79b5ea55bce45cd drm/virtio: Use pci_is_vga() to identify VGA devices
-         a9edacdf4d325d826f766b60e2399e63547abdab drm/qxl: Use pci_is_vga() to identify VGA devices
+         d344a92cb69e9f582fe17ac4a537cc4592251e02 perf beauty socket/prctl_option: Cope with extended regexp complaint by grep
+         a2b6a9ba5199f3beaff45b6666000dc0dcc9045c perf tests make: Remove the last egrep call, use 'grep -E' instead
+         3b6878d976514201be022c45f576087c8c84f169 tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
+         0cfad4391930b89c236deb65be98133b1ef6678b perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
          
