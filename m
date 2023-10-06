@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 06 Oct 2023 14:14:07 -0000
-Message-Id: <169660164779.24221.12128882000895591499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 06 Oct 2023 14:20:04 -0000
+Message-Id: <169660200402.29454.2829469956791438110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-next
-    old: b009aa38a380becd98cc4e01c9b7626a11cb4905
-    new: dac501397b9d81e4782232c39f94f4307b137452
+  - ref: refs/heads/sophgo
+    old: a4bbe6e3d9f623d78de5aacb99ee6faff55316b4
+    new: 0edd1de88d35ca48d3d6f4ef87cf633e5cd13681
     log: |
-         9af867c05b5d9f54f190743a1c761d70038c83b3 HID: i2c-hid: fix handling of unpopulated devices
-         dac501397b9d81e4782232c39f94f4307b137452 HID: logitech-hidpp: Fix kernel crash on receiver USB disconnect
+         101276d77e84e06f10870bd01db39af846aca4a8 dt-bindings: interrupt-controller: Add SOPHGO CV1800B plic
+         a3a24243b83bfb0d904989329f7e46c29271823a dt-bindings: timer: Add SOPHGO CV1800B clint
+         533874200f8c19ab885349ac20641ef9fddc60c5 dt-bindings: riscv: Add Milk-V Duo board compatibles
+         4e31e0e618452dce141d39f98374d250db34d8f4 riscv: dts: sophgo: add initial CV1800B SoC device tree
+         0edd1de88d35ca48d3d6f4ef87cf633e5cd13681 riscv: dts: sophgo: add Milk-V Duo board device tree
          
