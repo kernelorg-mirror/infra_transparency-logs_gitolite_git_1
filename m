@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6124046953273456263=="
+Content-Type: multipart/mixed; boundary="===============5917360820588499390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Fri, 06 Oct 2023 09:04:50 -0000
-Message-Id: <169658309084.32331.13478767194729560685@gitolite.kernel.org>
+Date: Fri, 06 Oct 2023 09:08:11 -0000
+Message-Id: <169658329192.4066.16983839630117507770@gitolite.kernel.org>
 
---===============6124046953273456263==
+--===============5917360820588499390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: f291209eca5eba0b4704fa0832af57b12dbc1a02
-    new: b78b18fb8ee19f7a05f20c3abc865b3bfe182884
-    log: revlist-f291209eca5e-b78b18fb8ee1.txt
+  - ref: refs/heads/opal-test
+    old: 2efd22761bbf1f92c23eb573ab65172942bb9bfd
+    new: c38b84ae81e0eefc7ba448faabf57022d2c33546
+    log: revlist-2efd22761bbf-c38b84ae81e0.txt
 
---===============6124046953273456263==
+--===============5917360820588499390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f291209eca5e-b78b18fb8ee1.txt
+Content-Disposition: attachment; filename=revlist-2efd22761bbf-c38b84ae81e0.txt
 
 e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
 75a5221630fe5aa3fedba7a06be618db0f79ba1e erofs: fix memory leak of LZMA global compressed deduplication
@@ -44,5 +44,12 @@ b328dd02e19cb9d3b35de4322f5363516a20ac8c HID: sony: remove duplicate NULL check 
 b009aa38a380becd98cc4e01c9b7626a11cb4905 HID: Add quirk to ignore the touchscreen battery on HP ENVY 15-eu0556ng
 19fbf677b2530740d71d4fb64ab2de0dbdc31111 Merge tag 'for-linus-2023100502' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 b78b18fb8ee19f7a05f20c3abc865b3bfe182884 Merge tag 'erofs-for-6.6-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+df978f14373bc7c20af6bf412f4e09cb3289bf2b block: Fix regression in sed-opal for a saved key.
+35763586a0788b0293bc4b7db82738ae1b8d9371 usb-storage: remove UNUSUAL_VENDOR_INTF macro
+efdd685d60dcfd9c21ba7be12299b8839e608f40 usb-storage: make internal quirks flags 64bit
+8e1a1ac863af67f38507f2cfc7028d7d8936581d usb-storage: use fflags index only in usb-storage driver
+ec58845fda92eab9e40cde632708be9ba46f0b32 usb-storage,uas: use host helper to generate driver info
+e13a9017c7a1ded87ddc5b2420eb3b98ab29ec47 usb-storage,uas,scsi: allow to pass through security commands (OPAL)
+c38b84ae81e0eefc7ba448faabf57022d2c33546 usb-storage,uas: Disable security commands (OPAL) for RT9210 chip family
 
---===============6124046953273456263==--
+--===============5917360820588499390==--
