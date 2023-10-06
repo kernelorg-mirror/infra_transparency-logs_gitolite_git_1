@@ -1,47 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0139753170144631817=="
+Content-Type: multipart/mixed; boundary="===============3087971502501811461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 06 Oct 2023 19:51:18 -0000
-Message-Id: <169662187878.10197.17446869668454879954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Fri, 06 Oct 2023 19:52:47 -0000
+Message-Id: <169662196730.10808.17119896541954002488@gitolite.kernel.org>
 
---===============0139753170144631817==
+--===============3087971502501811461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/sched/eevdf
-    old: 4aad483898d508f6dd4225a6aa829a05d7adca9a
-    new: 031a4274b6a51b62d5ef2be57dd3e2f4cca6e4ef
-    log: revlist-4aad483898d5-031a4274b6a5.txt
+  - ref: refs/heads/main
+    old: d39db4a7d179deaaec6515b6cc5cc3834e65ef09
+    new: 653f932177b142d93c28dc85daca331eede61436
+    log: revlist-d39db4a7d179-653f932177b1.txt
 
---===============0139753170144631817==
+--===============3087971502501811461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4aad483898d5-031a4274b6a5.txt
+Content-Disposition: attachment; filename=revlist-d39db4a7d179-653f932177b1.txt
 
-d4d6596b43868a1e05fe5b047e73c3aff96444c6 sched/headers: Remove duplicate header inclusions
-7d420bf7561655284fa1b54de7d59e901a5979ae Merge branch 'sched/urgent' into sched/core, to pick up fixes and refresh the branch
-bdf85bec2b1ea852daf415cf6f1c9ef7d584c8c5 sched/core: Update stale comment in try_to_wake_up()
-aaa3e6678978b5e2b5c6e80e439fc4db9bbdb375 x86/speculation: Add __update_spec_ctrl() helper
-8c7a9b1bb45060b6e67456c3cf28475f6e0bd65d x86/idle: Disable IBRS when CPU is offline to improve single-threaded performance
-1fe96fb4d0f2df207c906a7b1bba70154900ebd1 intel_idle: Use __update_spec_ctrl() in intel_idle_ibrs()
-238437d88cea4bfcbc0e7c5031e873dec15d3e93 intel_idle: Add ibrs_off module parameter to force-disable IBRS
-9b46f1abc6d4e855ebd91b011aa3b49042bad7e4 sched/debug: Print 'tgid' in sched_show_task()
-9e0bc36ab07c550d791bf17feeb479f1dfc42d89 cpufreq: schedutil: Update next_freq when cpufreq_limits change
-66801e1417ec517a7dbf290e402ddb60a805523a sched/eevdf: Fix min_deadline heap integrity
-09672eb8b52896862eb83b435da67b55ad305de0 sched/eevdf: Fix pick_eevdf()
-9d41a7baa7d8695ce60ebd441cf132e5df30c74c Merge branch 'tip/sched/core'
-f90c29fb9ff165786bc916610363c54bd72ad88e sched/eevdf: Remove min_vruntime_copy
-56de589e57cfb015c7af0b3e177055531d3d2167 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
-b11dea109a74592378192644df8e7e236c2ed91a sched/eevdf: Allow shorter slices to wakeup-preempt
-344944e06f11da25b49328825ed15fedd63036d3 sched/eevdf: Revenge of the Sith^WSleeper
-031a4274b6a51b62d5ef2be57dd3e2f4cca6e4ef sched/eevdf: Disable entity_eligible()
+33019acfaa13efc64ad0aed553785750aa03cbf8 rt-tests: cyclictest: Remove warnings due different signedness in comparison
+9c4e0e97566e0ba3ca2eb93dff1600857f561cea rt-tests: cyclictest: Suppress unused parameters warning
+90259ce7b25a429d9787544988e6d882803348e9 rt-tests: ssdd: Suppress unused parameters warning
+95a56cf36c240d528d55a2ed0b4c29fe1d666373 rt-tests: queuelat: Suppress unused parameters warning
+617c511b68b2159b0ac6375a356d0566350150f0 rt-tests: cyclicdeadline: Suppress unused parameter warning
+df772e170b8b82c4fce3c80c3be6a2a03b24371d rt-tests: svsematest: Suppress unused paramters warning
+09c7a043f26da1d814211dc18f8396d76f9c6794 rt-tests: pip_stress: Removed unused parameter
+33a898a8b31c4bc41406599d72e8f76b47c7438d rt-tests: sigwaittest: Fix some warnings
+57733950f167ba800c5795e116670d0e1f6a8fd6 rt-tests: rt-migrate-test: Fix some warnings
+4999c175b7390dd38cbda65131d6639ab8b464b7 rt-tests: signaltest Fix unused parameter warning
+10a0bcd971594947f454f13f553025ad4739abd8 rt-tests: cyclicdeadline: Fix comparison of different signedness
+99bf8d92b3a12d5b8d322cddcdb2dc0f4b22ef18 rt-tests: cyclictest: Fix comparison of different signedness
+fd47894cdff00e3da75f8e8bc077858a27b888fe rt-tests: rt-utils: Suppress warnings about fallthrough
+a9454e313929ad3f9ae4284fa24aa0b1579eafba rt-tests: rt-numa: Fix comparison of different signedness
+419f86cd4941cf15287e67d534fd04f99b512611 rt-tests: pi_stress: Fix various warnings
+0825359053d30c53358d1dab37cfe7222bcc424b rt-tests: pmqtest: Fix various warnings
+653f932177b142d93c28dc85daca331eede61436 rt-tests: ptsematest: Fix unused paramter warnings
 
---===============0139753170144631817==--
+--===============3087971502501811461==--
