@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7275166768476808823=="
+Content-Type: multipart/mixed; boundary="===============3596714252464362453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 06 Oct 2023 12:35:30 -0000
-Message-Id: <169659573040.9566.9190668183159699034@gitolite.kernel.org>
+Date: Fri, 06 Oct 2023 12:37:16 -0000
+Message-Id: <169659583618.10552.14301820422677466662@gitolite.kernel.org>
 
---===============7275166768476808823==
+--===============3596714252464362453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,27 +17,27 @@ user: ij
 git_push_cert_status: E
 changes:
   - ref: refs/tags/platform-drivers-x86-ib-int3472-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 74564b10473c793132ae94f8dc53aa8e6cd1b869
+    old: 74564b10473c793132ae94f8dc53aa8e6cd1b869
+    new: 0000000000000000000000000000000000000000
 
---===============7275166768476808823==
+--===============3596714252464362453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1696595726 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1696595833 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1696595725-44b950a3a6b6b517123b7bab1c4601a2f2caa843
+nonce 1696595833-00df8bb351790e210ab1d96a18fe0669696f87fb
 
-0000000000000000000000000000000000000000 74564b10473c793132ae94f8dc53aa8e6cd1b869 refs/tags/platform-drivers-x86-ib-int3472-v6.7
+74564b10473c793132ae94f8dc53aa8e6cd1b869 0000000000000000000000000000000000000000 refs/tags/platform-drivers-x86-ib-int3472-v6.7
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZR//DQAKCRBZrE9hU+XO
-MeV8AP9dS2JwgYCngLVZrDd9jOB4gWObwBENU+uS48Dp4GdJTgD/e7ElRnpCjBQ8
-G77jtlIx/lmtrQV5LmuCNjb6l1EFVAg=
-=VMX0
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZR//dwAKCRBZrE9hU+XO
+MfhbAQCUMj/E0kgK7Guc+PacOXMw+8uy0smADxyZe5/24fMIcwEA/s43j2D2EmNY
+9en+22hsW3BniuWIR8ULBUmpa2zKSwM=
+=04ak
 -----END PGP SIGNATURE-----
 
---===============7275166768476808823==--
+--===============3596714252464362453==--
