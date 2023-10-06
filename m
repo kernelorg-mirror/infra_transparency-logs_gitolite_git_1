@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2895989744726498353=="
+Content-Type: multipart/mixed; boundary="===============4187829777759250291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 06 Oct 2023 13:57:08 -0000
-Message-Id: <169660062886.11570.1277706334838011574@gitolite.kernel.org>
+Date: Fri, 06 Oct 2023 14:00:23 -0000
+Message-Id: <169660082345.14388.5197111530798431094@gitolite.kernel.org>
 
---===============2895989744726498353==
+--===============4187829777759250291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/class_cleanup
-    old: ddb57e2bebda0a96ea3563520e43546c20467fec
-    new: 25b940cdaf1c4c0517ffb71ae6c97be50dcf4c6c
+    old: 25b940cdaf1c4c0517ffb71ae6c97be50dcf4c6c
+    new: 3ce780c734a89d4cfe17ecd06efbdeee818d3646
     log: |
-         25b940cdaf1c4c0517ffb71ae6c97be50dcf4c6c accel/habanalabs: make hl_class constant
+         e12255f711acc9c112856bd27fb0bd93496837bf spi: spidev: make spidev_class constant
+         3ce780c734a89d4cfe17ecd06efbdeee818d3646 tee: make tee_class constant
          
 
---===============2895989744726498353==
+--===============4187829777759250291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696600623 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696600821 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1696600623-d2637d4e9467365ec509f4a850b2ce81ee27e31a
+nonce 1696600820-2d3571cb02368bdfe1672601d586961b8d087a79
 
-ddb57e2bebda0a96ea3563520e43546c20467fec 25b940cdaf1c4c0517ffb71ae6c97be50dcf4c6c refs/heads/class_cleanup
+25b940cdaf1c4c0517ffb71ae6c97be50dcf4c6c 3ce780c734a89d4cfe17ecd06efbdeee818d3646 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUgEi8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UcwQAKEQAzryyhHO3HODxB80
-vJEU4PqOptA1QSDjziMZpu9kZWoMhr9qNvfOGBhTRZUkSGYSDN9emBr8YzZLUYdk
-8K3CdyFi6jWh29oGOYC7G0s7pwHCIWGuZ3zLAJH2bQHC81YvLHDRk/n7g7P7rUy1
-BpO6bkXU30UQrb8CDe1n+4HaiYRLTW4y6USTgwwTC7ibDqwgQOWaYwlEkD4XWEhy
-8OxB5OQgoahKI74sURld3etF+j+hIFTOnKXjMe4/hnDyxTgZqV6ySTM3ZBjqB3sa
-xdjwSFaB5P/B9SCL2YNhnCYZwMBcKQqgRA6N9ykv+d4lieqnjlr1N3hr37M46Lg9
-h08W94ZDUfwCtvCnXFnAprUch4vx+X3b4F0VEaI0DxONM0B4rLBzUz81wLeC71yx
-bC4gyqlDWdGauFw1gxQpB8rlja0QAqaA0M5aS7TPu/ceqYhDFaQw5RL2g42+g3Xc
-o38Pq08yXa4rHnZVF0IWG9mXKfCdqcljYXV5xD2QjTXMF9+aoc+oEnC7RC7aOIXO
-oyQo2GcFqwfIwyk8vMVAA8Xxqo/pl4wfRax4YeSfQqTUpHeF8FEOuj23tqJlQX7r
-gCZxvJW0+RntPwvhX3MJvsraIAV4FYKBbc7B43sQWmwEfOWlPE9pjWX2GzDBQtXa
-kE3n8P/4kcW0+VCqHZJK87GO
-=tT/Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUgEvUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XtsP/1igt+nusPqYBCbdddEy
+JIIM1Ud9/0Pf3jI/6NN43QiNLwSnM+JI71vPc/hT8udJXkcgEEBSyYwvOPji7+A4
+QcIXUMT7Igbvmb/eU/oNudhUD5NHo6wQbfTOQDCZRbLcd9UokzKrEo8F8m//wrfl
+FQyr6nGO1DO/BAS/RL9DKNBcSx8XEBt6v08aLQPrvrrR0tzJQ7H5N2otVw7Xr/IP
+tJyEfJB3K/1cMRNd+MyziwOzwydyRjMVt1sLIWdrsZsKfwe6CYjtUfYIFMU7TrAk
+/Nw6FVPj2pAVuECuCHuoVqirJSrd2AfeXVzr6QooauKPL/rAH7g1Iao/ZWXKi6Yw
+QhlFuYpESKoWcHVLrKVFL4Ydy/c0Fg3Yq3rqpbamg/lGMaaWeSj4f4kydfvsnZqu
+jRcWNw4bwqjbp9K5OUNu8KIB04SA5JbyRl1hf8fPGKN9M5YXlUDrVbr3JBs2q6Sw
+xZSNTTRFWMNzXaTs2UnpX7VlTlNbiXPWcWU41kxWEkTPfanKApfWJKNCG7iFYqho
+tyvRBfv3dh8qtXJ+gvrIuLQaMZuQ4xy5DeIKqZ3td85cWqfshQPxulH0gn/VNQ2F
+zz3RKHEf4zwyDIzo2qr3woFF3hyU4Wda22kAWyxJNcaAWeY6Z2Xs/+CQmuuuRbfo
+W10raWSi0nSSSrVy6smwB+n8
+=4ShX
 -----END PGP SIGNATURE-----
 
---===============2895989744726498353==--
+--===============4187829777759250291==--
