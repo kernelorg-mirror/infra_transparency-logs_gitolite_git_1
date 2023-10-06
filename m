@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7708848965629778961=="
+Content-Type: multipart/mixed; boundary="===============4109352428816386325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 06 Oct 2023 11:56:46 -0000
-Message-Id: <169659340675.14137.17867268568872612253@gitolite.kernel.org>
+Date: Fri, 06 Oct 2023 11:57:51 -0000
+Message-Id: <169659347135.14590.16490774252542040008@gitolite.kernel.org>
 
---===============7708848965629778961==
+--===============4109352428816386325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,48 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: f790ffa1828555a9ba4728034a44574afa29831f
-    new: b09731bd5a141eee7da70b97de46a9d04acd5449
+    old: b09731bd5a141eee7da70b97de46a9d04acd5449
+    new: 06726ae3ad3451d3d4498e8807b600b5fd8938dd
     log: |
-         669216528852c99d32be9e894120d25b48b71a52 ARM: multi_v7_defconfig: add drivers for S5C73M3 & S5K6A3 camera sensors
-         b09731bd5a141eee7da70b97de46a9d04acd5449 Merge branch 'next/defconfig' into for-next
+         438fb575463fc490e6200e5e28d02159492a97f8 ARM: exynos_defconfig: add driver for ISL29018
+         06726ae3ad3451d3d4498e8807b600b5fd8938dd Merge branch 'next/defconfig' into for-next
          
   - ref: refs/heads/next/defconfig
-    old: c2a5b4597ab821a379cd84e385c9202ffed4c038
-    new: 669216528852c99d32be9e894120d25b48b71a52
+    old: 669216528852c99d32be9e894120d25b48b71a52
+    new: 438fb575463fc490e6200e5e28d02159492a97f8
     log: |
-         669216528852c99d32be9e894120d25b48b71a52 ARM: multi_v7_defconfig: add drivers for S5C73M3 & S5K6A3 camera sensors
+         438fb575463fc490e6200e5e28d02159492a97f8 ARM: exynos_defconfig: add driver for ISL29018
          
 
---===============7708848965629778961==
+--===============4109352428816386325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1696593402 +0200
+pusher krzk@kernel.org 1696593469 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1696593402-4407e0da9d8e6409d275dac667e9049e3bb37237
+nonce 1696593469-fc3c57d18e50817e5e34540812a29cbe2c7f6558
 
-f790ffa1828555a9ba4728034a44574afa29831f b09731bd5a141eee7da70b97de46a9d04acd5449 refs/heads/for-next
-c2a5b4597ab821a379cd84e385c9202ffed4c038 669216528852c99d32be9e894120d25b48b71a52 refs/heads/next/defconfig
+b09731bd5a141eee7da70b97de46a9d04acd5449 06726ae3ad3451d3d4498e8807b600b5fd8938dd refs/heads/for-next
+669216528852c99d32be9e894120d25b48b71a52 438fb575463fc490e6200e5e28d02159492a97f8 refs/heads/next/defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUf9foQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16JyD/9N/foiPJjeSkKbU6cX82W1k+gWLtQRIukT
-QLlPK9eeZAb0EAYinRj+adOtgjSlkNmYqCTBEiEiWl7lVWXl+vWm/qhXGoOeJlNr
-z92Gq8KeesOBNn2iExyBFpMXeTldWzbYfYL793zsmcoL6XOwb1YjuLiBiBXuxMsc
-a+eqJuOpEa8Y/a8kpObBJxk1NfolKARQGNQ+YprME+jc3dj0eQnY0dh/pE3q2lQc
-BQVLJt7iOfc2tRgGEWoOprSt5JWBFaVVpPhYGB3ZV6g3Ry4j7DkvhNa1GUAHwYSY
-2pF45wN5C/acqavUe2W267X/pCyOqpMOxUVhsqjp1/jHpkusnbTwsoEVLa7833X6
-ft3oONMockMwBlcxWLOwbSDoo1PtMtHJxwV0JAiT5cxoC6tvASf42kInarPXbLld
-X4eYJaZMjHDlfrpK2Wg27JHGUVOPr1jB82cCE5Kskw6x89X8iew9640SVea1v1uW
-X0Z2QSsa7aq5nLOfA+lW0VURsXRLjP241cjYU6OHnxIJFd+S6Shx8Y7Dx3OtWO4F
-FHajG4Qm2RarpI0ddKQkpEkByDUCh/SM/ZQFWOf9PbWAXBTOnqkDJe4Lp7CND8fE
-rh0g6oY54fewIKhkGQURgVm+xMi45Nif+oMSuCYq4L9L/aP9wmINsY6Tc2IQh7CA
-0BAdi4U2GA==
-=R3kN
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUf9j0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xUxD/wJiNPUyYajFEzSRbFtUcGqsYl5Sz4L/3MQ
+HfsniYaqxyjWA/r7ZmjB/kYau3V+OtA9v1mlIBU1NEMVYBkiKe37wLxXxQS7S4hs
+JbrW9WWr6DgAsT5UAIWJU56ZggO+iD8LBwnwLZi5Imrhw4I1JqE5ZtuB961yhzra
+yWWhJCpZuiXfnEisHDlafwEKPtnqa/a7VFnIiLK8oQ1Adfrzq9K6fq+MX7RZnPK6
+IXX+2hEZ+56IQd0uNKDinVCpYpwXVE5Dsnk6QDxI69AZwg/CNoIaIsWh46eXyfq8
+cbwSl2lziwDPyEMQl6HYSsg8qTo6Hb+8IBJrr7RXbHUi8YMJu3CmJiEjJH6JM7kl
+EEVz5wCwZrquDVsFk7d3IUPf1B/UM9P3Y3jA/rSYAhmd8XV6x2wQ2DsAD9AFtUpi
+l18sWjC0YPBs93xbYW6JPZvS1JbQH61IV68Zj6z8I7QC2DIC59GnXKlgQfv9hkol
+tCTa0eEEytm1zGf2PDEHadnxLhC4LBjVbQPRZ6SnlKL8PmeknP5GqC+RRVhysdOJ
+PNf7vQ0+7NVYGf8p7X0iKMGV1dTu2OWc4XpxmtzA++t8XHVBGvUmIYs5qA5DfUhB
+YAJ6crBRBsEw4VldRC641yv61sqQcUjoPvhyTqv/hiLDS5P2FHFPd4/6hjNh2DAm
+2J+5l5aQrQ==
+=O5Al
 -----END PGP SIGNATURE-----
 
---===============7708848965629778961==--
+--===============4109352428816386325==--
