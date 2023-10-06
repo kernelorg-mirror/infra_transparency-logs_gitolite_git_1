@@ -1,53 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6173606039637747283=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 06 Oct 2023 09:23:05 -0000
-Message-Id: <169658418560.14350.4552562306233194314@gitolite.kernel.org>
-
---===============6173606039637747283==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 06 Oct 2023 09:23:54 -0000
+Message-Id: <169658423483.14691.15638252719244120935@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-next
-    old: 49d371ab9d2c850867332b469fa6b3a2d5cf338c
-    new: 8df012a7f513141412b3c35af204ccdb810fcc81
+  - ref: refs/heads/ti-k3-dts-next
+    old: 067878e6cd25e071106eb7998165dd3cb46ff2ce
+    new: 69c570ebc3964534c19dc4438d3b96f55d489fc3
     log: |
-         da4082841ccf022beae73e63d3f476f59777172b platform/x86: ISST: Use fuse enabled mask instead of allowed levels
-         a22d36eb5b150913325640cb793e13e08d1bd715 platform/x86: ISST: Allow level 0 to be not present
-         7525cea3ef9384054a30f25ebb501234befecdcb platform/x86: intel_speed_select_if: Remove hardcoded map size
-         23f392ea6d1916f68be8067e2a038ef9a746a94b platform/x86: intel_speed_select_if: Use devm_ioremap_resource
-         8874e414fe78718d0f2861fe511cecbd1cd73f4d platform/x86/intel/tpmi: Add defines to get version information
-         07510a59b316445311775ee53adf10448140607a platform/x86: ISST: Ignore minor version change
-         4b0d9c8f8f55562ed5346723e66eec64f22887f4 platform/x86/intel-uncore-freq: Ignore minor version change
-         8df012a7f513141412b3c35af204ccdb810fcc81 platform/x86/intel/tpmi: Add debugfs support for read/write blocked
+         8e4e717be847913517977d9689ab88f1b86d71d8 arm64: dts: ti: k3-am64-tqma64xxl: add supply regulator for I2C devices
+         ec30a50c72bdaa6007c999846675241b44b233d0 arm64: dts: ti: k3-am64-tqma64xxl-mbax4xxl: add muxing for GPIOs on pin headers
+         92039884c9b57d14601c6e0e913b184dd2bff75c arm64: dts: ti: k3-am64-tqma64xxl-mbax4xxl: add chassis-type
+         06a0d54202e0de04e62c1991d39d6c7595f0d88a arm64: dts: ti: k3-am64-tqma64xxl-mbax4xxl: update gpio-led configuration
+         1d181c96ef3b6f9b29474fb18eb9f426bb6b16ac arm64: dts: ti: k3-am62a-main: Add nodes for McASP
+         770480e7eb729d49f2a10530d628e9778c1b3bd8 arm64: dts: ti: k3-am62a7-sk: Split vcc_3v3 regulators
+         63e5aa69b821472a3203a29e17c025329c1b151f arm64: dts: ti: k3-am62a7-sk: Drop i2c-1 to 100Khz
+         3a8222080334fd0ffec9a6a563304f77571a1853 arm64: dts: ti: k3-am62a7-sk: Add support for TPS6593 PMIC
+         4a2c5dddf9e9049bfb3dde18657ee349131b0def arm64: dts: ti: k3-am62a7-sk: Enable audio on AM62A
+         69c570ebc3964534c19dc4438d3b96f55d489fc3 arm64: dts: ti: Fix HDMI Audio overlay in Makefile
          
-
---===============6173606039637747283==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1696584179 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1696584179-e296c0f6d35c48cc658a76e8aadfdc6f3615a10c
-
-49d371ab9d2c850867332b469fa6b3a2d5cf338c 8df012a7f513141412b3c35af204ccdb810fcc81 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZR/R9AAKCRBZrE9hU+XO
-McLNAQDkUedZcnyeylNJwyrCNoUeZ3Ab1c+ElS+4KDmExCd9CwD/VTJqUtFyT4aS
-QCkzi8LN6gZMmQn4My8BGwv4Hr8bkAM=
-=4oVo
------END PGP SIGNATURE-----
-
---===============6173606039637747283==--
