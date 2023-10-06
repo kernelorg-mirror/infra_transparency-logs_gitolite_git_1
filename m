@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 06 Oct 2023 20:27:50 -0000
-Message-Id: <169662407019.3150.7061205244544425297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 06 Oct 2023 20:28:14 -0000
+Message-Id: <169662409452.3390.1986040909412048271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: cfa36f889f232eb32e15b4ea6a688a5c5a9d19e9
-    new: 63eed8dcdf493782689c4e61f825b9ed8a262c8f
+  - ref: refs/heads/asm-generic
+    old: ccab211af3c2b90ed792eb5f33707d2f0d59fe50
+    new: 2fd0ebad27bcd4c8fc61c61a98d4283c47054bcf
     log: |
-         63eed8dcdf493782689c4e61f825b9ed8a262c8f media: allegro: Annotate struct mcu_msg_push_buffers_internal with __counted_by
+         2fd0ebad27bcd4c8fc61c61a98d4283c47054bcf arch: Reserve map_shadow_stack() syscall number for all architectures
+         
+  - ref: refs/heads/master
+    old: ccab211af3c2b90ed792eb5f33707d2f0d59fe50
+    new: 2fd0ebad27bcd4c8fc61c61a98d4283c47054bcf
+    log: |
+         2fd0ebad27bcd4c8fc61c61a98d4283c47054bcf arch: Reserve map_shadow_stack() syscall number for all architectures
          
