@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2727948413737041479=="
+Content-Type: multipart/mixed; boundary="===============8043997750470460264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 07 Oct 2023 11:49:22 -0000
-Message-Id: <169667936223.29953.18213517516885020158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 07 Oct 2023 11:53:53 -0000
+Message-Id: <169667963313.777.2960176814358621545@gitolite.kernel.org>
 
---===============2727948413737041479==
+--===============8043997750470460264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 475c097448f7c1f1ec29d174d914c6067cc6354f
-    new: 9c4670610e96f0c4f6567b521972cc740d3996c2
-    log: |
-         9c4670610e96f0c4f6567b521972cc740d3996c2 6.1-stable patches
-         
+  - ref: refs/heads/irq/irqchip-fixes
+    old: 9b8df572ba3f4e544366196820a719a40774433e
+    new: b673fe1a6229a49be5394f4e539055d9ce685615
+    log: revlist-9b8df572ba3f-b673fe1a6229.txt
 
---===============2727948413737041479==
+--===============8043997750470460264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9b8df572ba3f-b673fe1a6229.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696679361 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1696679360-30271723a5291b267fa62903d2ffccfe7cc9c246
+db712c0089bd8e9e47c286ed772d86fb187d0854 dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/G2UL SoC
+977f7c2b275667777cd42ab0e61461617b652b05 dt-bindings: interrupt-controller: renesas,irqc: Add r8a779f0 support
+5e5c636c69bdba04033161bbb111fbb6f1f6661e dt-bindings: interrupt-controller: arm,gic-v3: Add dma-noncoherent property
+9585a495ac936049dba141e8f9d99159ca06d46a irqchip/gic-v3-its: Split allocation from initialisation of its_node
+3a0fff0fb6a3861fa05416f21858cf0c75cbf944 irqchip/gic-v3: Enable non-coherent redistributors/ITSes DT probing
+e13cd66bd821be417c498a34928652db4ac6b436 irqchip/riscv-intc: Mark all INTC nodes as initialized
+8554cba1d6dbd3c74e0549e28ddbaccbb1d6b30a irqchip/stm32-exti: add missing DT IRQ flag translation
+8a4f44f3e9b05c38606b2ae02f933d6b64a340dd irqchip/renesas-rzg2l: Convert to irq_data_get_irq_chip_data()
+c1097091b72255b2f9373260579133c5ce134dd1 MAINTAINERS: Add myself as the ARM GIC maintainer
+b673fe1a6229a49be5394f4e539055d9ce685615 MAINTAINERS: Remove myself from the general IRQ subsystem maintenance
 
-475c097448f7c1f1ec29d174d914c6067cc6354f 9c4670610e96f0c4f6567b521972cc740d3996c2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUhRcEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++zsP/1Ebnif2gctKDJwDAkVD
-E1O1Lp2xcxX3XwCBl219uIrgrGsgcT2bDrHd9yVduHUoSL+9ra6BA80GRsXNNpSH
-hfVf2iQBleHBWNX3ZfTn1XHR5FMq2R3Et1IY3F4UYJZ9CbqAsswRLsh8njEo94tE
-EVuC5t3zcg07PQnY8rX/T5cHfvFa68+/0zFlafJ38UOX1h9m7vFUXU2lA11vuaVj
-1mAWorMJ0uK9J6XDCpw6CFUhvWuBfTFCSulC+uveRPeLZ/8BuMbFPUcXtxvq88lf
-c1CEEalsu8ophHYWjYgUjUaS5QJIesJ/IAOHuod6Kuzfa6L9O/TfVpindoUooVB6
-lhMtewlx1JznTCIhf9AR4JGgVaLF6hIRQ78N0zdThpwQ0WgaFzMnx8dHTpEaGYdR
-Y10n/Bn862jRn1nnMPBAC+iAgvlvArLH63P+EJmIYSoquCzyzX5KOJzhDv/6DR2G
-DXpGc/Fn9FPU6yP85DI3rMlfTWQUzPcWx7GtBgk4l6a4vQIE1s2k+p/8Qx8xN4AH
-vNjd9TzBbfCMKSbs4BQmnlvj9SQvAoZlJa55HCrDDUSoyIYUJ8eT6Wobnfbjlvci
-0/ftTBqtrCh4oBCVzFB2PihljmHacsSsyLAW3e+PVA30O+DpsvTfbGZCUVU+v8+Z
-zgWmyg4FcW7lkC1TVtLvc2S5
-=0Cp2
------END PGP SIGNATURE-----
-
---===============2727948413737041479==--
+--===============8043997750470460264==--
