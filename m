@@ -1,40 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8043997750470460264=="
+Content-Type: multipart/mixed; boundary="===============6639617148023732124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 07 Oct 2023 11:53:53 -0000
-Message-Id: <169667963313.777.2960176814358621545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 07 Oct 2023 11:55:35 -0000
+Message-Id: <169667973569.3125.983430961456885271@gitolite.kernel.org>
 
---===============8043997750470460264==
+--===============6639617148023732124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/irqchip-fixes
-    old: 9b8df572ba3f4e544366196820a719a40774433e
-    new: b673fe1a6229a49be5394f4e539055d9ce685615
-    log: revlist-9b8df572ba3f-b673fe1a6229.txt
+  - ref: refs/heads/master
+    old: 9c4670610e96f0c4f6567b521972cc740d3996c2
+    new: b9e860197c07f0e94ed6fa0a353c557b4d484355
+    log: |
+         b9e860197c07f0e94ed6fa0a353c557b4d484355 4.14-stable patches
+         
 
---===============8043997750470460264==
+--===============6639617148023732124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b8df572ba3f-b673fe1a6229.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-db712c0089bd8e9e47c286ed772d86fb187d0854 dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/G2UL SoC
-977f7c2b275667777cd42ab0e61461617b652b05 dt-bindings: interrupt-controller: renesas,irqc: Add r8a779f0 support
-5e5c636c69bdba04033161bbb111fbb6f1f6661e dt-bindings: interrupt-controller: arm,gic-v3: Add dma-noncoherent property
-9585a495ac936049dba141e8f9d99159ca06d46a irqchip/gic-v3-its: Split allocation from initialisation of its_node
-3a0fff0fb6a3861fa05416f21858cf0c75cbf944 irqchip/gic-v3: Enable non-coherent redistributors/ITSes DT probing
-e13cd66bd821be417c498a34928652db4ac6b436 irqchip/riscv-intc: Mark all INTC nodes as initialized
-8554cba1d6dbd3c74e0549e28ddbaccbb1d6b30a irqchip/stm32-exti: add missing DT IRQ flag translation
-8a4f44f3e9b05c38606b2ae02f933d6b64a340dd irqchip/renesas-rzg2l: Convert to irq_data_get_irq_chip_data()
-c1097091b72255b2f9373260579133c5ce134dd1 MAINTAINERS: Add myself as the ARM GIC maintainer
-b673fe1a6229a49be5394f4e539055d9ce685615 MAINTAINERS: Remove myself from the general IRQ subsystem maintenance
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696679734 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1696679733-8d600e92c3550996e85007996175fd77095cfe4f
 
---===============8043997750470460264==--
+9c4670610e96f0c4f6567b521972cc740d3996c2 b9e860197c07f0e94ed6fa0a353c557b4d484355 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUhRzYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pIcQAIEjdZkTqvXS5g295iHY
+jKUw7aBP09XYcUtNSVjP0HVH5BBn8n5GnQLcNASUlWiznd3l5ir+Wk0Ej/TcvUAz
+BNNUFiiI2ESWE0ZvWTAVf0mqsFv5LrFCVz3wB/DvKeO6/w+0JL67ze8Egu2fHWij
+kirjQj293Dxjs7TWwexrujjyFZ7SnsnPSwH2GM7WcWB4ZrzVy4Xp8Zrj5SJteICQ
++CiqOxT/7oLyC0HZk1HL9nR/9KwpLCXT8SwIfNZAuj4q4p0p9RLVcX60NA6DTPqF
+CdJgeYKKzABfPAPyhNuwZ343+tEXjVJcOFyWnhG36D9gVQXg62A8Q/Ze/Bnxpb+n
+1w88uhXwKzFCVYdrGqfxcKTDDAkxC7+7wYpO07TQadVrmXfMlJClsXm/YcDq5JIH
+1fS/vJq940t0DmvMWL4IjCflPqOOcClT/VrNDa/S57ZRofM1JySHOEehKm8WbT7R
+2AWryCeVyAq0pyOgvbWCJJ6z4H3MPIpUz0mqAQakbGutxzj0aECGYsH5Ic+cZ10d
+10bcH4ITxFeX1KJu4dWL8BnMbLai2GLiHIytFxwPJU7oqBIux89V7uUMlyQ3eSoE
+lN8GIPW9ZeV5nvkucjSr4l+mMlVKvoIdMhNV4y0WreKt9pSD3YU76yRNxJsrRW1P
+TNFyzca4csYoAxJ/IAPLqhX1
+=+c4K
+-----END PGP SIGNATURE-----
+
+--===============6639617148023732124==--
