@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6613070664120448276=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 07 Oct 2023 09:56:56 -0000
-Message-Id: <169667261600.11815.16251466429187583696@gitolite.kernel.org>
-
---===============6613070664120448276==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 07 Oct 2023 10:17:16 -0000
+Message-Id: <169667383664.26406.15092820149444153563@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 1bc15a373489944bfb0598e2711552a47b6d77f8
-    new: 776b65bc0509e0432b18e35ade96d530f56e20ef
+  - ref: refs/heads/sophgo
+    old: 0edd1de88d35ca48d3d6f4ef87cf633e5cd13681
+    new: 6ab1617f2856f821467ef3f00b7249093b9ebd04
     log: |
-         776b65bc0509e0432b18e35ade96d530f56e20ef 6.5-stable patches
+         967a94a92aaaaf2d85179e1b7c7b1f0fd6bff7ac riscv: dts: add initial Sophgo SG2042 SoC device tree
+         9439a0e8b6bb83e46e8d30d2cf00558ffd1ee41e riscv: dts: sophgo: add Milk-V Pioneer board device tree
+         c32ab7bd6191d64998dced3ba567b8737d217861 riscv: defconfig: enable SOPHGO SoC
+         205fb9bffb3f36798a96dfd48fa786d67d3927b7 dt-bindings: interrupt-controller: Add SOPHGO CV1800B plic
+         53ebffb186c9005251cc9c224aabf17c7b1ef11e dt-bindings: timer: Add SOPHGO CV1800B clint
+         30d7926df69f6561effb4d63811900a0d4591395 dt-bindings: riscv: Add Milk-V Duo board compatibles
+         a475ee0c830580e1c2923aad5c19812b492f13d2 riscv: dts: sophgo: add initial CV1800B SoC device tree
+         6ab1617f2856f821467ef3f00b7249093b9ebd04 riscv: dts: sophgo: add Milk-V Duo board device tree
          
-
---===============6613070664120448276==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696672614 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1696672613-ece4971d4bdbdc8f3f283634fa3fa0f837c94ae6
-
-1bc15a373489944bfb0598e2711552a47b6d77f8 776b65bc0509e0432b18e35ade96d530f56e20ef refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUhK2YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HgsP/2pTq4ihL9AapfnjTcKC
-GbdVwDnl96RodiOwgHpCAcMBdSZ1egKnodwGnM6V81UhH28qk5JXNt9infMZyqoX
-fjz6a0gts8Jprz1IBIgNLS7eezKc7Wj12yCscYa+ZotZdazj0Ts6zG7O/3O8axIk
-YnJhVVQaJX8a/snUzuavwEE2cVIyftgJUuTZe+wBwKGaul8tE79bv2u47mS0UwHx
-vs/4E1J6Iorcr62L+YehoW5ofE198Dx5FR9GzsCIar3m89w1uahL7KQ+uPrdZ71M
-W1PBzuEDhSKfgTxgXiimKOS1EZzsShUeLggptvaV4kvtIbPIbJUOZjNPpjRkCOmR
-js0mW6s9qWBYuHkJP+DqErlIDfndVrSjTfpQklHMl+1La57LnbedbEUqZCuKEIJf
-eGCz6QfrwJV2wsTXvwUYBmwAvu1NuHEYxbgQ/DarPhQfW70QrTLOvFjIAvnC1KFc
-d0BJmkpNf7uBByGWr+UylaSe6PgOVzd8QKpzt5Cv68gVZ4J4XyDYsNesNnBMet9v
-y8BsjVUZwktfLONxmI/1/I9RpIeoyJG1Xh8+qhj9b23pWkQv2/KlwcI+1bTxzdVo
-Bg3VCu1cE32a2jVNWfMiQKWB+jdK6xezn1cWPIqfChbY+0leaFZFZPyR3dRW7U8z
-B5eeWRB8M7R7hDEzB1rM2Nz7
-=Tqwa
------END PGP SIGNATURE-----
-
---===============6613070664120448276==--
