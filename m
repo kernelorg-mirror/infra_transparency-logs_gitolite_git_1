@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 06 Oct 2023 23:57:43 -0000
-Message-Id: <169663666306.26006.11306375525847065721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 07 Oct 2023 00:04:28 -0000
+Message-Id: <169663706857.30105.3311129076725999404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 3ea9f1c28432e1e2e2d1028b26c9cea5b099ec2f
-    new: 5e61e774a39d376478c4801fc5686f42727ef720
+  - ref: refs/heads/main
+    old: a1fb841f9d189d257814562dacb3d65667f2a9c3
+    new: 48533eca606efcf63ef4080ded5618e0b17ee3d7
     log: |
-         5e61e774a39d376478c4801fc5686f42727ef720 Fri Oct  6 11:56:28 PM UTC 2023
+         48533eca606efcf63ef4080ded5618e0b17ee3d7 net: sock_dequeue_err_skb() optimization
          
