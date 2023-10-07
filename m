@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8022320467690872015=="
+Content-Type: multipart/mixed; boundary="===============1966093788771254248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 07 Oct 2023 09:35:50 -0000
-Message-Id: <169667135021.15237.9513699520001424075@gitolite.kernel.org>
+Date: Sat, 07 Oct 2023 09:36:13 -0000
+Message-Id: <169667137359.15466.3582855193438484374@gitolite.kernel.org>
 
---===============8022320467690872015==
+--===============1966093788771254248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,38 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d650336f01e3c37288f0e9db38ad9e342d15db61
-    new: 94130e86f62845b29a53b6ad478da71bfef61a8d
-    log: revlist-d650336f01e3-94130e86f628.txt
+    old: 94130e86f62845b29a53b6ad478da71bfef61a8d
+    new: 0096e9705d3a3fd2dd867a16d44dfa357d18a7cc
+    log: revlist-94130e86f628-0096e9705d3a.txt
 
---===============8022320467690872015==
+--===============1966093788771254248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d650336f01e3-94130e86f628.txt
+Content-Disposition: attachment; filename=revlist-94130e86f628-0096e9705d3a.txt
 
-f8024f1f36a30a082b0457d5779c8847cea57f57 io_uring/kbuf: don't allow registered buffer rings on highmem pages
-1658633c04653578429ff5dfc62fdc159203a8f2 io_uring: ensure io_lockdep_assert_cq_locked() handles disabled rings
-2fd7b0f6d5ad655b1d947d3acdd82f687c31465e md/raid5: release batch_last before waiting for another stripe_head
-223ef474316466e9f61f6e0064f3a6fe4923a2c5 io_uring: don't allow IORING_SETUP_NO_MMAP rings on highmem pages
-e680a14aec194dfd48e0235dcea656fb32fae75f Merge tag 'md-fixes-20231003' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.6
-07a1141ff170ff5d4f9c4fbb0453727ab48096e5 nbd: don't call blk_mark_disk_dead nbd_clear_sock_ioctl
-b21f18ef964b2c71aa0b451df6d17b7bcad8280d PM: hibernate: Fix copying the zero bitmap to safe pages
-0f8baa3c9802fbfe313c901e1598397b61b91ada io-wq: fully initialize wqe before calling cpuhp_state_add_instance_nocalls()
-a88c38694714f70b2bc72f33ca125bf06c0f62f2 Merge tag 'io_uring-6.6-2023-10-06' of git://git.kernel.dk/linux
-fc5b94f1cb405c7129a337db6ae7db3b1e325c48 Merge tag 'block-6.6-2023-10-06' of git://git.kernel.dk/linux
-82714078aee4ccbd6ee7579d5a21f8a72155d0fb Merge tag 'pm-6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-8db30574db25fa20cdcfa03e374edc3f8b8dc301 Merge branch 'sched/urgent' into sched/core, to pick up fixes and refresh the branch
-ea41bb514fe286bf50498b3c6d7f7a5dc2b6c5e0 sched/core: Update stale comment in try_to_wake_up()
-e3e3bab1844d448a239cd57ebf618839e26b4157 x86/speculation: Add __update_spec_ctrl() helper
-2743fe89d4d41616ffbe1e7e96e443ae7a4b1cc6 x86/idle: Disable IBRS when CPU is offline to improve single-threaded performance
-7506203089dceb1d9e1f35d37ad2e46d44798a6d intel_idle: Use __update_spec_ctrl() in intel_idle_ibrs()
-aa1567a7e6440b8c3af4b0d8a8219d8fc5028c5f intel_idle: Add ibrs_off module parameter to force-disable IBRS
-bc87127a45928de5fdf0ec39d7a86e1edd0e179e sched/debug: Print 'tgid' in sched_show_task()
-859ecc2e011665e99c473738ce7cbdc2f91a9cfc Merge branch 'linus'
-94130e86f62845b29a53b6ad478da71bfef61a8d Merge branch into tip/master: 'sched/core'
+d4c455e3604a7a91062e219fb879ce28263a9ce0 Merge branch into tip/master: 'irq/urgent'
+04ed550ee95dc76050c2ddefcb07730d2e87cf79 Merge branch into tip/master: 'sched/urgent'
+9661976e3329299bdb27c02c5b5bb6bb96f49db8 Merge branch into tip/master: 'x86/urgent'
+28a1108699a937098036a31ddb835d42057225ad Merge branch into tip/master: 'core/core'
+2f4d247451378969b828dc006b116319b8bf70d0 Merge branch into tip/master: 'irq/core'
+94a1b24629ec23c58749e0785a86f762d6c51311 Merge branch into tip/master: 'locking/core'
+b07fd65511197de35f91fcbebd90da0b17443313 Merge branch into tip/master: 'objtool/core'
+e3d9ccede2ffa6d73b96535b0751d7dbd54680d3 Merge branch into tip/master: 'perf/core'
+cd495ef7183f6ded02feb62f6f6c94e43cd67bb2 Merge branch into tip/master: 'sched/core'
+bf3b5f153f321af1d6e5bcb833c56c5a67dc7f40 Merge branch into tip/master: 'smp/core'
+ec8d2644d69677326bed00189ce85d50ce4af2f4 Merge branch into tip/master: 'timers/core'
+0b455759c03dd281af3d21be7d210bf4c00fa5ec Merge branch into tip/master: 'x86/apic'
+3e48497845d2659b2504bfeb44ceea4e5e09a068 Merge branch into tip/master: 'x86/asm'
+3e5a8db110487fbac84fede6e199b41c0fdf856d Merge branch into tip/master: 'x86/boot'
+3ffa198d09ca31b08296ca33726c5b3fbb26512e Merge branch into tip/master: 'x86/bugs'
+781572af752b871d301b5e01e2cb6c3b30e4661c Merge branch into tip/master: 'x86/cpu'
+9aa9556ae21dafe2e0af744d7b940b11d51ab26a Merge branch into tip/master: 'x86/entry'
+961e7ed555bb7899eb7f3f586a0a87dbd47c0ad5 Merge branch into tip/master: 'x86/fpu'
+d829ef9905eb3f3c077672f496ae77aa0fdae80b Merge branch into tip/master: 'x86/headers'
+594979937523695a012cb3fc0215f03ed2546417 Merge branch into tip/master: 'x86/mm'
+8507bec0f792b912fb5e2328797e9a5070440bd3 Merge branch into tip/master: 'x86/percpu'
+0e5164e1d2115b4496dfa39ff595d4dc147d5163 Merge branch into tip/master: 'x86/platform'
+0096e9705d3a3fd2dd867a16d44dfa357d18a7cc Merge branch into tip/master: 'x86/tdx'
 
---===============8022320467690872015==--
+--===============1966093788771254248==--
