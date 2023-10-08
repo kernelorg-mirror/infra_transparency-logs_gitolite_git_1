@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4558107296094079645=="
+Content-Type: multipart/mixed; boundary="===============0912540807268008830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 08 Oct 2023 05:50:56 -0000
-Message-Id: <169674425665.18214.17158498290750292030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 08 Oct 2023 06:56:25 -0000
+Message-Id: <169674818551.31135.4973487192629828476@gitolite.kernel.org>
 
---===============4558107296094079645==
+--===============0912540807268008830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 1053c4a4b8fcbd28386e80347e7c82d4d617e352
-    new: f49449fbc21e7e9550a5203902d69c8ae7dfd918
+  - ref: refs/heads/master
+    old: 04ea72b25b57e98068119583aaf059b08750d5dd
+    new: 656a07da8938e8353d244dcbe5cd6b86e308645c
     log: |
-         97475763484245916735a1aa9a3310a01d46b008 USB: usbip: fix stub_dev hub disconnect
-         b8aaf639b403f01d132c9ac1e906c45debfb0218 usbip: Use platform_device_register_full()
-         0f5aa1b01263b8b621bc4f031a1f2983ef8517b7 usb: usbtest: fix a type promotion bug
-         f49449fbc21e7e9550a5203902d69c8ae7dfd918 usb: gadget: u_ether: Replace netif_stop_queue with netif_device_detach
+         656a07da8938e8353d244dcbe5cd6b86e308645c 6.1-stable patches
          
 
---===============4558107296094079645==
+--===============0912540807268008830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696744253 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1696744253-84bd8fb3f64cec5be1844aaab8f01fd667b0eca4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696748184 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1696748183-1d6a31e6d36008ec71fde2a13f3601710b58eec2
 
-1053c4a4b8fcbd28386e80347e7c82d4d617e352 f49449fbc21e7e9550a5203902d69c8ae7dfd918 refs/heads/usb-testing
+04ea72b25b57e98068119583aaf059b08750d5dd 656a07da8938e8353d244dcbe5cd6b86e308645c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUiQz4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7dsQAMAM3yePOpHtFTwv4WaP
-opZLP6V1ZnerLMXULvDB708SkcWoOvfTxZkCzG8D6VfxVSqlOMtC00TM3u4Ta6NP
-IrvkWeWFKLE7eqKxI/8A2uS5QQqR6hIhIqvCSo8J0SPNVbyb3ovBDEOv39qNZUwT
-02c2HpySDTnMlr0/xiHG7+XUOO89U+N4cl4MaFNxLuuZVqAi14WHVJoDKQMVyiUi
-aHFTn1C51h4WSZle6Z12pjlbccBEU6qfn03TaieMG0XWe17IQ2tg/s+YA9GErv/4
-7YPgOmsvAir3ylYV1MWo/cqIEGSSmpWLhA8h6TTZXC6/Jtxob6WRY40JigMpSFny
-N7hJXWpqGGQ512lcwhzscoslVeGr9d2v+jnIWBh2p+9n0wg1jjOwjDMTGwqBuTXE
-/B/tEsPmT4ge+Bgs7xUujUZs6bdtD3bZS9FqhFEy9tKgLwYLLOYLUT/ENKdC05Gx
-+USlsc4Ul/slMH7rwERDCXrYcJBv9puJ/tBmY/ATWMnF4p6r5udorKifomfNIsKa
-3mNP8ZIsLbMP5sxdk/JFlvuf3nGXc3YXPyzE1npjXtPTT0BP3m1oPWTefLrRw2xs
-90CJhiyCMptcvCsmeX8c46uvEzMH9R1uAVFHDi33cw6v3IZ8vExJKlbidxyotkyp
-y5zjJ02a2MF8TKIEI7iY8eGX
-=/lPI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUiUpgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fjAQAJ/zFhU8pGEVzAAXguww
+TZMI9BeLnMNtzrv8DIq7Au8hmrX87VHvsosYzR8pw/4x2XFlDXHUAaRgVPexzBER
+yYiG0H4QyvnYisbpe6yKwv/yCS3sW8xsR+tuH96cjELEUuYMZXl/HAjVSxqErpAu
+4MzsXKysDnHWn5u+IqIGjhc3elqIojfq1dfUJhws5J3rH51+FvNGV36Sbkc4ptcR
+gsh4WZq2a+M7L3tBEU8nPScijVRaq2CdXSL3IroAqmGbBdKph1jV2sJbCFQ4cs2c
+04eiJ5TMudkOmylQqe/gSVMP/KydGJClUCB9qdiN6YKFPbVykufEoeREeGhaY1/p
+GEyS7V/HdK9RzuB5JXqLXvQa/kBxXd+mGGN9RCfH54kaxlBO2jRjcx1hQrJf11zq
+zkEW7GZBnAD+Z4mDXeuph9pIFYeTmHLWpLY4EH95qFwLYq5IPkq48pGyhTrdj1wV
+PRLYonf++EwEs3d/dz/hpNP8i5ZSChFM7mksbw4WcsX7o9MK9PsOXLqwlv8FtCTQ
+H+KdFyOiDHmtWj6CYSPn4qRg+P29khGq+naM5gecNsLaBnoh4JOUEIMh8q4g4L1R
+CtQ5fF88tQeu+CSM2OneIaoRiG09qVNgxJRCiqdgGVVKJbG9kb+T8EXT20e8/jec
+3l2v+XP1x/0eJihUOnzu87bP
+=JvPb
 -----END PGP SIGNATURE-----
 
---===============4558107296094079645==--
+--===============0912540807268008830==--
