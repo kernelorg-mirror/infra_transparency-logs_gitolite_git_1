@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5817565618187297551=="
+Content-Type: multipart/mixed; boundary="===============2664650990052094062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Sun, 08 Oct 2023 11:37:34 -0000
-Message-Id: <169676505417.17288.15703935891739582395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 08 Oct 2023 12:42:39 -0000
+Message-Id: <169676895931.30051.13022429608192601655@gitolite.kernel.org>
 
---===============5817565618187297551==
+--===============2664650990052094062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/for-next
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 4e1e21117e7e1275477ba80e634c769a511249bd
-    log: |
-         4e1e21117e7e1275477ba80e634c769a511249bd pinctrl: samsung: Annotate struct exynos_muxed_weint_data with __counted_by
-         
+  - ref: refs/heads/master
+    old: 2848174358e542de0ad18c42cd79f7208ae93711
+    new: 2fddeb5c79ff16bf37e1f1d809bd94b360c27801
+    log: revlist-2848174358e5-2fddeb5c79ff.txt
 
---===============5817565618187297551==
+--===============2664650990052094062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2848174358e5-2fddeb5c79ff.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1696765052 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1696765052-4f42db7d5b01179c5733059841c3c72f54d4e789
+2da0d2692c94d656585c1d81dc9e043a1a0384f1 fstests: use btrfs check repair for repairing btrfs filesystems
+8abf8a203a9e09838e6b4cc9e51680aa82d930e9 fstests: btrfs/261 fix failure if /var/lib/btrfs isn't writable
+d79d44afac69bd9507f9c5ccd99e48224a0dbdaa xfs/270: actually test file readability
+5267463070c58e3202f75d6146bf8f5287a84cef xfs/270: actually test log recovery with unknown rocompat features
+6f5c1dcbb72390c226214787a79d340e392bcc58 overlay: add test for persistent unique fsid
+1348ed0e256a21a81cbee6b8c93f10b5273cc118 fstests: btrfs/185 update for single device pseudo device-scan
+f738aca836ad4f6b96673831f28613d8105b5fba tools/mvtest: ensure testcase is executable (755)
+566fc79138eff6bc4bda5d63962bbcb1e366e684 common/rc: make _get_max_file_size find file size on mount point
+79650397e1d1884a981de33464bddd055d7c1143 fstests: btrfs add more tests into the scrub group
+f4c7dbbb4f166996d8fefdebbceacd2f7d359dee btrfs/076: support smaller extent size limit
+27f1089cf2e3512ed9a9654fb599a6c93cb5fd6d btrfs/076: use _fixed_by_kernel_commit to tell the fixing kernel commit
+b1ad2f63105e5ed943801fd848f73380b24c9c77 btrfs: add missing commit ids for a few tests using _fixed_by_kernel_commit
+823613d666481fb0d4bd3611b14ef484664b4a88 overlay: add test for rename of lower symlink with NOATIME attr
+e3121832fc2ba3447662ad8821c99c548aa53de9 btrfs: add missing _fixed_by_kernel_commit for a few tests
+150670eb921647fb02b4faea0d45c394ffe8aef8 btrfs/239: call fsync to create tree-log dedicated block group for zoned mode
+68b958f5dc4ab13cfd86f7fb82621f9f022b7626 generic: test new directory entries are returned after rewinding directory
+d6ac854df754c4fc62062a01457d6d91aa7e2a3a btrfs/259: fix output's wrong word
+70ff4b82ea80d1f1fecb1fe3e3894323e575cd1d btrfs: use full subcommand name at _btrfs_get_subvolid()
+2fddeb5c79ff16bf37e1f1d809bd94b360c27801 btrfs/287: filter snapshot IDs to avoid failures when using some features
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d 4e1e21117e7e1275477ba80e634c769a511249bd refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUilHwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14JDD/4w5h4wlp2bPQUwUjoqHCLn8q3FbgDRaZpf
-Vfs/mg+HWjPNKqJM6qFqaMIkXN1staKw2fqxZuwjMOmVbnJm7oTBNzl58zjzO6un
-W13Gayx6NrfuImvsBHGRwNavBuzKEsVquOC7ARm8667dd0LkEpVKYH6Rl4fd0+a6
-A8j/zAdfXdKFw2l+PnILtIgC4b3YuSjjkSt04opg7AvyNWTve0fvn2DZOwY1VcQN
-7RL7LwS38k8vJ0+MFQty8tx7MqQTVDP52dZ6TFz3IdFRBnbG+311fkspNcVHfUHl
-heHfSAmci/N6Gvgrg4eqIYQN5xqn2qxyZ0ZWhEMIWBJcAbBWF/cAABXYIkAbpsY5
-Xso7qAZ9PY/rMeVU2XpF+wIpxVkALyowHBM2vspnpG9EdXq82r2tIsmcQACuj8gy
-TWEb9uyYaeTwfiEI4WH3XOGSHz8Q+a+FcAufbQoiEHk5ruxuetcL5wHEsMecXpuI
-NnZoRglK7tAUQlGgF1m+kyNAZChNoySb0ZUEag1uzKycEumlSZnj7aTBVR7NE4wZ
-W4VbigZCPkzREp+ithnpXDltab59ORcVWWU+KOj2Rz1x4ZRUywvm4M7XOipqalDK
-LiGlsG58eIkDAChekawcgh2/Aufkmu5cIV0HatqiD9MAO+R2hkLig0y7erDqPBne
-NfZB3+qfgw==
-=qNTu
------END PGP SIGNATURE-----
-
---===============5817565618187297551==--
+--===============2664650990052094062==--
