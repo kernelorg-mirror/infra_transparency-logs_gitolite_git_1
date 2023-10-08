@@ -1,49 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8263310833369730949=="
+Content-Type: multipart/mixed; boundary="===============5266678832213023335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 08 Oct 2023 19:19:04 -0000
-Message-Id: <169679274457.17827.8881082393718751138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 08 Oct 2023 19:44:29 -0000
+Message-Id: <169679426910.3456.14958601243020087330@gitolite.kernel.org>
 
---===============8263310833369730949==
+--===============5266678832213023335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 6c2a29f7c23be45d9a199854ef2227441b7afc34
-    new: bcaed6a1579cce73422e35ba278ea1696768d83f
-    log: revlist-6c2a29f7c23b-bcaed6a1579c.txt
+  - ref: refs/heads/master
+    old: daa27ed58eb21dfc7e65e4e7c9ae0e939e187cc9
+    new: 069b0fb0d47ae67ead19a0e0fc71ddf0bd7eba66
+    log: |
+         61bbd7b2ebc999e8639073a235515930ff415df7 5.15-stable patches
+         ccc902e32775e45a2f42c08bdfe828a6a5279c44 6.1-stable patches
+         069b0fb0d47ae67ead19a0e0fc71ddf0bd7eba66 6.5-stable patches
+         
 
---===============8263310833369730949==
+--===============5266678832213023335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c2a29f7c23b-bcaed6a1579c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-19df89dd523cf7389d10dda112f647fe16f00f4e _damon: Update features merged time comments
-40bdca164091319d80455f01b279a355f48e8a7e tests/schemes/test: Make sysfs wmarks test more free from race
-5cf82b54622285ab6bbe51c55d8c4ade1100cfb9 _damon/initialize(): Skip supported feature updates
-9e5b67c4b1980032a1ef074691c140ec8f3ef79a tests/schemes/test/test_wmarks: Remove free mem ratio requirement
-26da7f2d54a4e12c8daa61ac239bdd42549765cd tests/schemes/test/test_wmarks: Print more status
-79a7b6873992a9d125f9f3e3acda629d80b0000c tests/schemes/test: Remove unused function, enssure_free_mem_ratio
-a666905b6aa74d28e8004075a9bd8436aeb21ccc tests/schemes/test: Update cgroupv2 directory to Ubuntu 22.04 default
-b929c27f25536ec0e68ee60ca0fd4e38c017fbc6 _damon_result: Remove record output file type
-2d28f47314cd66fc4b4c20a714b39e994d95e129 _damon_result: Implement a function for non-in-place update file function
-4e5f92b0d70db60b9b93e2165c3820c1d111c116 _damon_result: Let update_records_file() to use rewrite_record_file()
-21b538cb5b3d453fd44ef5add46213222c11e027 damo_convert_record_format: Support separate output file
-142841860c54c87392a7fac02a304a823398c385 damo_converted_record_format: Use parse_binary_format_record() directly
-a86884e9848570f6d22dce22cb7086f4b7455ac6 tests/report/damon.data: Change format to json.compressed
-0c30ecbd94d698a76bfd2e2e7c3cbffc0aa4f243 _damon_result/parse_record_file(): Drop support of records file
-ed77c8bcad28093c9ef161d574df86327b43ada9 _damon_result: Remove unused function, 'write_binary()'
-468480c1ad755dc2273c81a8439b83b3efd8d0ef _damon_result: Move record binary handling code to _damo_deprecated
-5152083c1a8d87ca4ff0a1af3df53c110d59bf4e README: Update deprecation status of record binary format
-6e858e3d957a38ca88e14b57c91379ec75e9c30a TODO: Update
-bcaed6a1579cce73422e35ba278ea1696768d83f release_note: Update
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696794268 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1696794267-703d405f328ef00de56703f602ca4a301f4d2b6c
 
---===============8263310833369730949==--
+daa27ed58eb21dfc7e65e4e7c9ae0e939e187cc9 069b0fb0d47ae67ead19a0e0fc71ddf0bd7eba66 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUjBpwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B3cP/3fQr+zaLYJPo10/5FYP
+DYLNpIdK0bzm4JugdyB+4ojuJe/GP0M7Km+3FBjKBXZUL0mWm31avxEJdbo3W0iZ
+hoJ1BRt2bmRClWEkUD2oX42Tk8SUjDLnag3YZuNKsQ34f46OfQUmpy2nsKsCsXf5
+1bN2kL9cBHyFVGEclakunpgw5SfENY/KJ4mCqOkrUssJ7y1TkzxGCECtte03SC7i
+MbYneoYQar8Ftoa9LqoOXmsMYQ7mvqdAIdXPOO8dVjVK5BcuHJbBQ03QnBrU35+y
+9OT0jOQLXpsbGgz29R7JDVj1cPFNCyxFU3wjoIrrFVRRFq8rNwYZw7vFkHzL2UH3
+Ku+evzkhseiQBkDeZcssrqWKmjBjZY9LdhJFu02Kfz/PewgNw/MNoHPNGx7EkIwB
+JfCFxtuI3Vngnu15cMfmLhbM2m/yIds9M5RkqUY3YeFOaWWQlKnNDGDt47hPVLv+
+XPJkSnQB6xaiaienFmtJhFpzcsZj97o1tZsOKwmCsB+K7c9uQbEF+kN5EdoH1GDV
+cJuEKcGrMcdzpxurHn2Z7bt5Tg9jwtNbSTLUFGYD7jNuo3ZzxOfreIr5QD3Qk7LS
+lCo8B2kL/9esv/hcROqvC6eX02BVaaLS2UojFYLwjaIlr3454q2UBlVjeFNlxDBy
++eyd/J+vimXHmZ3F5Wz3xL4Y
+=neDs
+-----END PGP SIGNATURE-----
+
+--===============5266678832213023335==--
