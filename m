@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 08 Oct 2023 01:43:13 -0000
-Message-Id: <169672939336.4655.10508961419617807662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 08 Oct 2023 01:50:10 -0000
+Message-Id: <169672981011.10258.6145173578401978043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 11d4cd47baef973c79098c79e02f6e4e0b0d94b8
-    new: 30491f988212747ab0244d7db076fa1a1cead5e4
+  - ref: refs/heads/damon/next
+    old: 2f69d719ee3ea549d56d0ffd08e9ffac92fd1d86
+    new: b51b81a2d623ddeda365270f24748bea23a93a2f
     log: |
-         5062b4b24489a3db3c2d9cf65e8ac975cad2c858 push_master: Remove
-         30491f988212747ab0244d7db076fa1a1cead5e4 push_stables: Remove
+         df04ac383dec4adc36df1ff5f77a55e65263ffd0 mm/damon/sysfs-schemes: do not update tried regions more than one iteration
+         8a198cce537de4f58f1cd791cd05347320a025b3 mm/damon/sysfs: avoid empty scheme tried regions for large apply interval
+         b51b81a2d623ddeda365270f24748bea23a93a2f Docs/admin-guide/mm/damon/usage: update for tried regions update time interval
          
