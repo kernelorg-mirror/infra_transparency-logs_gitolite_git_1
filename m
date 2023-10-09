@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8669273625976288422=="
+Content-Type: multipart/mixed; boundary="===============7926792579314139602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Oct 2023 11:14:49 -0000
-Message-Id: <169685008908.22091.3087721366799067983@gitolite.kernel.org>
+Date: Mon, 09 Oct 2023 11:14:53 -0000
+Message-Id: <169685009389.22197.4286589976843621386@gitolite.kernel.org>
 
---===============8669273625976288422==
+--===============7926792579314139602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 1a051bf4cbecc259e98082a7132b3dac871a8d25
-    new: 7a83d7318ee1ca071ec5ceeabd2aae410fdfb7fb
-    log: revlist-1a051bf4cbec-7a83d7318ee1.txt
+  - ref: refs/heads/m68k-queue
+    old: c220dbbe615ef15d6dd0994a933f112534cf90d4
+    new: 3741febcb3b1bf592d14b970f235bb04abb5eb24
+    log: revlist-c220dbbe615e-3741febcb3b1.txt
 
---===============8669273625976288422==
+--===============7926792579314139602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a051bf4cbec-7a83d7318ee1.txt
+Content-Disposition: attachment; filename=revlist-c220dbbe615e-3741febcb3b1.txt
 
 e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
 195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
@@ -325,6 +325,72 @@ b9ddbb0cde2adcedda26045cc58f31316a492215 Merge tag 'parisc-for-6.6-rc5' of git:/
 f707e40d0b513fde7e1b1aebe625907f20c9df76 Merge tag 'sched-urgent-2023-10-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 37faf07bf90ace7c8e34c6b825dcfbb587d2e701 Merge tag '6.6-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 94f6f0550c625fab1f373bb86a6669b45e9748b3 Linux 6.6-rc5
-7a83d7318ee1ca071ec5ceeabd2aae410fdfb7fb Merge tag 'v6.6-rc5'
+e67569ef1d79135985e56b22b1a8f1e6d78361f5 m68k: math-emu: Fix incorrect file reference in fp_log.c
+96953fa998b0063efc1b1396c7dfb6e82a8aaac3 m68k: math-emu: Sanitize include guards
+0524efca98955fe30cec439b44bf7b1a22a024ba m68k: math-emu: Make multi_arith.h self-contained
+42a3d292ed18a23993dd9e0d8071259369c48840 m68k: math-emu: Replace external declarations by header inclusion
+44f30632abc16bd1f31432061a43cbda1aa9f5f4 m68k: math-emu: Reformat function and variable headers
+01a755648b4d3369c3259778658953c1b58116af m68k: math-emu: Add missing prototypes
+a2c6ee06ee038d3c1a80966b4392fc625edd6ede m68k: emu: Replace strlcpy() with strscpy()
+9ec9fe0d234c71266bdaf0e6412ed1958a7d5df7 m68k: kernel: Add missing asmlinkage to do_notify_resume()
+ae287c1f67603dd7b92439280db111636f1c0667 m68k: kernel: Include <linux/cpu.h> for trap_init()
+3325904bfb57aa8830565725abbd574f0d62cec3 m68k: kernel: Make bad_super_trap() static
+b97a0b65c892aacd5ca5ac57b844e67ce3d090fc m68k: kernel: Add and use <asm/syscalls.h>
+99664676b404b70cf8528ca9d6795aa60c94088f m68k: kernel: Add and use "ints.h"
+f1ed12ccc15b274e359791375da54e2791e13ede m68k: kernel: Add and use "process.h"
+c50336af55693173150f2cb6495599a00cba06f6 m68k: kernel: Add and use "ptrace.h"
+cd390e08c0b59ede449f4a7d000777e49f4eb733 m68k: kernel: Add and use "signal.h"
+f7393d2f3eebd0dae3145a004aa11f6307b37790 m68k: kernel: Add and use "traps.h"
+0cd57c5d5b37a92fc7d912d85a447639d296d9b0 m68k: kernel: Add and use "vectors.h"
+54c28c82006d1ed4a3a60e75e9c788ed55fce4f0 m68k: mm: Include <asm/hwtest.h> for hwreg_()
+730bb6ea4804b459c17f5adab024d5b34fc15bbb m68k: mm: Move paging_init() to common <asm/pgtable.h>
+b1a83bbaa8df02e50080454dab41b8dc758e4c0a m68k: mm: Add and use "fault.h"
+190d6dbaf3a5d8685ae95c0004f13964e0434f23 m68k: emu: Remove unused vsnprintf() return value in nfprint()
+8e51ffd8003ca9d42c2027b3d7701ec81247dd07 m68k: emu: Mark version[] __maybe_unused
+0a4badb9d3c83d5b8c70b85eca3d68a19b61f4a6 m68k: amiga: pcmcia: Replace set but not used variable by READ_ONCE()
+c02e6cc0223535c2ecfc28c16a61b0765104d0ad m68k: amiga: Add and use "amiga.h"
+096536920d8b3b09d99c23c9d4a0b5c73f852d46 m68k: atari: Document data parameter of stdma_try_lock()
+1225867c7f076311bb2418459729b0ced940cb96 m68k: atari: Make ikbd_reset() static
+b015d48ef25ca4bdfa3e3519361516519be57a8a m68k: atari: Make atari_platform_init() static
+06563f92352b467bbe6381bbb35d298c636bb55a m68k: atari: Make atari_stram_map_pages() static
+956f492f53f7ecd029dfd942456466dbb46c935e m68k: atari: Add and use "atari.h"
+bc2de35555da05e71ba12ac6404bbc11fed06e7c m68k: apollo: Remove unused debug console functions
+30feebdeb60e819cfe12e2b752caf655c51cb81f m68k: apollo: Make local reset, serial, and irq functions static
+87feac6fb94471078a7b48bd387b8a466b1058a5 m68k: apollo: Replace set but not used variable by READ_ONCE()
+90bbbbc6ddc683ff3d32d23640cbeb0cc1c954b3 m68k: apollo: Add and use "apollo.h"
+cab21b68deddb43d572bcd01dbe82294fdc14e48 m68k: bvme6000: Make bvme6000_abort_int() static
+7533786a8855bcf0eab635a1a500e6d53fa72e2a m68k: hp300: Include "time.h" for hp300_sched_init()
+0b97105762ea31ae8956ceb96da3db119ef5a262 m68k: mac: Remove unused sine_data[]
+7c198f90351f8915954eb76a59bc6223a9fa2db5 m68k: mac: Remove unused yday in unmktime()
+d6c19467fbc35a0164b6acdec1c942745fbf463c m68k: mac: Make mac_platform_init() static
+7dfb47492060fcba35ee685ade0fbaf9ad698b1c m68k: mac: Add and use "mac.h"
+c03c5e669d23b30fc9ea0b9d6f4fbd1d03327e4b m68k: mvme147: Make mvme147_init_IRQ() static
+67515b3e52a36fd157f0f5b0dcd82e2e6e11e9c8 m68k: mvme16x: Remove unused sink in mvme16x_cons_write()
+58949edf7584ee40403207382a311523a76e14ad m68k: mvme16x: Add and use "mvme16x.h"
+d1f5245b8e700eadad7f43b6807cae1d8495989a m68k: q40: Add and use "q40.h"
+7f4c587fac05bc0faef50fa42bd6a719516354b6 m68k: sun3/3x: Include <asm/config.h> for config_sun3*()
+93a19423b91a19e073cf96af0e542fdb43406be4 m68k: sun3: Improve Sun3/3x DVMA abstraction in <asm/dvma.h>
+dfea5f83fbc283e5754a77a8b1121eac3fce4130 m68k: sun3: Fix context restore in flush_tlb_range()
+78d06867f7c21e74942462b56a80d7c796ef6ce9 m68k: sun3: Fix signature of sun3_get_model()
+95741160be01af4349e7ffe54c625c55b838de76 m68k: sun3: Add missing asmlinkage to sun3_init()
+d2e082c562281612eb7f7627bb1c3202b922f344 m68k: sun3: Remove unused orig_baddr in free_baddr()
+2b5746971b22b55b8bfadbba35e56097048f63c3 m68k: sun3: Remove unused start_page in sun3_bootmem_alloc()
+9853de19d1b86131c1b8e05bf6f2151586ffd7eb m68k: sun3: Remove unused vsprintf() return value in prom_printf()
+c2574ed6a28451b1b7ae8444f1df1964dbbe19f3 m68k: sun3: Annotate prom_printf() with __printf()
+cd3ae59dcd05d0a6b7a64011d4b106ea9af9c007 m68k: sun3: Make print_pte() static
+812aa5132cc0332b09cf7e799df4c59a0a33e9f9 m68k: sun3: Make sun3_platform_init() static
+80ce36e059ce86a2351e381ccbd4688406ed3c07 m68k: sun3x: Fix signature of sun3_leds()
+6a333b1e0486adf9e8b2a78c9e776b0b6721cce5 m68k: sun3x: Do not mark dvma_map_iommu() inline
+8d7a5bddc62beb024f1126fb87c6a45ad4f926b9 m68k: sun3x: Make sun3x_halt() static
+c869e84f1abe74a838a206d439c0474a9fa9dc9b m68k: sun3x: Make dvma_print() static
+c55fba5573dd7b942d9e14e63952ffd6aefb19cf m68k: sun3/3x: Add and use "sun3.h"
+362d6770e346ea465908972acf6e97f4a86d0020 m68k: Replace GPL 2.0+ README.legal boilerplate with SPDX
+e784f9e36894eefcc7a9541e9575bcdb5e755670 m68k: Use kernel's generic libgcc functions
+e0ce838a09c31a93972118544ad330409901d678 m68k: Add missing types to asm/irq.h
+9c13a655d22cd9e6c5133022528e9439c5f1ef0a m68k: sun3: Change led_pattern[] to unsigned char
+d13eb506a6a9691df018dccb78c669500eb1b8b3 m68k: io: Mark mmio read addresses as const
+2d67c1a19d84d0a1a0b34d3aa6ada7ef699fb0ea m68k: atari: usb: Add ISP1160 USB host controller support
+88849a7c1d60d95e44b5bdfe391c60241a2ef8b2 m68k: atari: Update Kconfig.bus help text
+3741febcb3b1bf592d14b970f235bb04abb5eb24 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8669273625976288422==--
+--===============7926792579314139602==--
