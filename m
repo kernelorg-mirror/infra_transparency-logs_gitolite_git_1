@@ -1,70 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3316103111239749769=="
+Content-Type: multipart/mixed; boundary="===============5575152584408904828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 09 Oct 2023 10:08:48 -0000
-Message-Id: <169684612845.2184.14088046728625049389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Mon, 09 Oct 2023 10:11:44 -0000
+Message-Id: <169684630434.4863.15758587500029612191@gitolite.kernel.org>
 
---===============3316103111239749769==
+--===============5575152584408904828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-next
-    old: 8df012a7f513141412b3c35af204ccdb810fcc81
-    new: 378f2b618fedc9e2f57755438e8f080fde3ccc90
-    log: revlist-8df012a7f513-378f2b618fed.txt
+  - ref: refs/heads/fixes
+    old: ac06a8400561f2e4f204e88c130970fb1b9f470c
+    new: 5579b93524ab2d360e2250bdd12ba32635a4300b
+    log: |
+         4b4a30ea14d144d60d1a114499f1dfe47486bf73 tools/nolibc: i386: Fix a stack misalign bug on _start
+         5579b93524ab2d360e2250bdd12ba32635a4300b MAINTAINERS: nolibc: update tree location
+         
+  - ref: refs/heads/next
+    old: 361fbc295e965a3c7f606d281e6107e098d33730
+    new: d423dcd4ac21041618ab83455c09440d76dbc099
+    log: revlist-361fbc295e96-d423dcd4ac21.txt
 
---===============3316103111239749769==
+--===============5575152584408904828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-361fbc295e96-d423dcd4ac21.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1696846120 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1696846123-e8de316268db49c5581a7fbe2af8a8e6db59c45e
+5579b93524ab2d360e2250bdd12ba32635a4300b MAINTAINERS: nolibc: update tree location
+29a5cecfb88d3a2aac4b5589e5d01f2ed2ad3fea tools/nolibc: add stdarg.h header
+363b28102cf9d6863851c1afdd198b96223f3c8e selftests/nolibc: use -nostdinc for nolibc-test
+1cef6fa67288079bcd6825a0a9676b426737dd16 tools/nolibc: x86-64: Use `rep movsb` for `memcpy()` and `memmove()`
+d1a5893a3191021685a2383fa4daef8bc0134a8a tools/nolibc: x86-64: Use `rep stosb` for `memset()`
+d385ba5c7d81c24624a50e4c5c9768a7e1742f11 tools/nolibc: string: Remove the `_nolibc_memcpy_down()` function
+709e1475ee93896a95fdbba6770dc6b42f90e0fe tools/nolibc: string: Remove the `_nolibc_memcpy_up()` function
+a7dc33294271824e9de18082c58541b153070e28 selftests/nolibc: libc-test: avoid -Wstringop-overflow warnings
+fdaa5901424cb4480c11ebeffdaf94632c46c553 selftests/nolibc: don't embed initramfs into kernel image
+cc01920974ad0d08c75d510dd2fe5e25a6ab3923 selftests/nolibc: allow building i386 with multiarch compiler
+3ba3935d35b39436acdc506399aa4b10c13ff7b1 tools/nolibc: avoid unused parameter warnings for ENOSYS fallbacks
+ca0ff85d37e7afa54cf343d7893ae05e7a40a649 tools/nolibc: don't define new syscall number
+02fb7cc927219b8a344e037dabd1d757578068bf tools/nolibc: automatically detect necessity to use pselect6
+49d64e7490625974e4ee235100ff88e0fc6b48a3 tools/nolibc: drop test for getauxval(AT_PAGESZ)
+d423dcd4ac21041618ab83455c09440d76dbc099 tools/nolibc: add support for constructors and destructors
 
-8df012a7f513141412b3c35af204ccdb810fcc81 378f2b618fedc9e2f57755438e8f080fde3ccc90 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZSPRLAAKCRBZrE9hU+XO
-Md4hAP9iFSeJymKSLUlYuhNIeD9PNEhvJcj6km9Zz5AUXOrNPQD/buniCT9mQLw+
-s+aYv5fg+UJ74LNuzNB/9nB14ZFSWwI=
-=WZJS
------END PGP SIGNATURE-----
-
---===============3316103111239749769==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8df012a7f513-378f2b618fed.txt
-
-cdb1013808bed0c0c392b44ed4eed6c7743028c3 platform/x86/amd/pmc: Add PMFW command id to support S2D force flush
-97a5e801b3045c1e800f76bc0fb544972538089d platform/x86/intel/ifs: Store IFS generation number
-a138ac2656d1329c3994a227769b7ba3926818a7 platform/x86/intel/ifs: Refactor image loading code
-07f47c01b3bc2a42c4d4da35831edab10aa60449 platform/x86/intel/ifs: Gen2 scan image loading
-72b96ee29ed6f7670bbb180ba694816e33d361d1 platform/x86/intel/ifs: Gen2 Scan test support
-25a76dbb36dd58ad4df7f6a4dc43061a10b0d817 platform/x86/intel/ifs: Validate image size
-60d2e1b37d530d6b1f8b7773cebaf8bbc1536b28 platform/x86/intel/ifs: Metadata validation for start_chunk
-e6483a0b59026ded36a6f5eba1425a6b0965984a platform/x86/intel/ifs: Add new CPU support
-b9aa9e4c8b4e52b6f2f5986b27e97f4b6163f0bf platform/x86/intel/ifs: Add new error code
-06d65b2bc532fc9af1c55aa7a18cfd237ce46588 platform/x86/intel/ifs: ARRAY BIST for Sierra Forest
-23516fba866c49397594832d407459f30fe3ed60 platform/x86: int3472: Add new skl_int3472_fill_gpiod_lookup() helper
-5cad12851b16ae6bda685d4fc44eff2b1e273c4e platform/x86: int3472: Add new skl_int3472_gpiod_get_from_temp_lookup() helper
-53c5f7f6e7930ff057cefe4960f5bbf29023e5a9 platform/x86: int3472: Stop using gpiod_toggle_active_low()
-5ccf9873ab2bcb7c480bc2ccea55ec235d9db175 platform/x86: int3472: Switch to devm_get_gpiod()
-a41357adbf03d3e51d3f3853f06a2a8dd756765e Merge branch 'pdx86/platform-drivers-x86-int3472' into review-ilpo
-7ec4cd3c1a12dc08c60d5e376c2c05aae23f1e41 platform: mellanox: Fix a resource leak in an error handling path in probing flow
-b26bcdd5f03e0b9fdd5dd8567b620538c5058c54 platform: mellanox: Rename some init()/exit() functions for consistent naming
-8634c1114b94049b48805b412b28160cb25a3198 platform: mellanox: Fix misspelling error in routine name
-378f2b618fedc9e2f57755438e8f080fde3ccc90 Merge branch 'pdx86/platform-drivers-x86-mellanox-init' into review-ilpo
-
---===============3316103111239749769==--
+--===============5575152584408904828==--
