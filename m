@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7646763092411815650=="
+Content-Type: multipart/mixed; boundary="===============8014269005589282529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 Oct 2023 10:32:41 -0000
-Message-Id: <169684756112.23045.17784629357432360834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 09 Oct 2023 10:37:52 -0000
+Message-Id: <169684787265.27781.477881233544144651@gitolite.kernel.org>
 
---===============7646763092411815650==
+--===============8014269005589282529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 6a9239f092316d79ad307bb9d3f640fb7915c39f
-    new: cefc68f44ceeae2465c944cc967682daf9b96fef
+  - ref: refs/heads/pinctrl-next
+    old: 4e1e21117e7e1275477ba80e634c769a511249bd
+    new: 8aec97decfd0f444a69a765b2f00d64b42752824
     log: |
-         cefc68f44ceeae2465c944cc967682daf9b96fef 6.5-stable patches
+         2aca5c591ef4ecc4bcb9be3c9a9360d3d5238866 pinctrl: samsung: defer pinctrl_enable
+         bf128c1f0fe1fd4801fb84660c324095990c533a pinctrl: samsung: use add_pin_ranges method to add pinctrl ranges
+         deb79167e1dadc0ac0a9e3aa67130e60c5d011ef pinctrl: samsung: choose GPIO numberspace base dynamically
+         8aec97decfd0f444a69a765b2f00d64b42752824 pinctrl: samsung: do not offset pinctrl numberspaces
          
 
---===============7646763092411815650==
+--===============8014269005589282529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696847560 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1696847559-af7b9fd9a162db09f124db45e9313079f9e637d5
+pusher krzk@kernel.org 1696847868 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1696847867-1c305b0f0260b38f0dc9225319ecd82dfaccaa0b
 
-6a9239f092316d79ad307bb9d3f640fb7915c39f cefc68f44ceeae2465c944cc967682daf9b96fef refs/heads/master
+4e1e21117e7e1275477ba80e634c769a511249bd 8aec97decfd0f444a69a765b2f00d64b42752824 refs/heads/pinctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUj1sgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W4gQALY+3JvuzDfW742vNu6d
-6Yrt4dgnNl7GTfoppunlZQlGNewBmAqhM5b5FpQg2t36vNaHrKp/CSN8AaX99XYp
-DtlGEdi/Yv8OhsfyAT+vHKgovMuKD3h/uIxNeB5SonE/JFHE7U8Jc8jVTeFkMz/A
-TDVe+rtyxcHTOoi6q9PkLKZvH6zxalaBGTXMzCA70iwBVYMMpcbHoR8tt4Lk8dst
-w6rYT7R+jOvzpSO02QS9eaMdtBrZJekhES2HirM14fT5Js9gEmHyg6BozcTJZ7uq
-feGdMI9kwrY/FmEjlXBW+FAjNTDa9e7EJXpPrVjT2gEAyFj6jwYwDhU1YQRWJkXV
-VRHtZjgKiNAmPUSbuFzllwcMu+Y78sNY0iYrXwfDLX3/CHRLBevxwxHKQC9aZtDK
-WfziSDt8QSOGiLVwADACYa5h6swkPiRb/euYqR/dloObUTxC8bgNlMXFeNbzYCi9
-nVrMO5UPX4hRyWoi9zjGmgFQ4l/8HRKR/8EHX8xI6ER0q1RxYEYsBmyWGk9ItEv/
-0PvBg3hY81gCKQ7PED1pAjtL4TXu5Oxkpue/AqNsbUsqhci33gFqhlNv/YRP3ntC
-s1ynnBeotT8RqGkkTcLcXUuZ31jOTzatSIXTYhxHih2FPCqYRe3G05A8X+n5xsc4
-Gcb/uxP7kU3ygGlTZGUV4zXe
-=ddWS
+iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUj1/wQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1w1JD/dwxl7qjNAIGz2CUhBBOSnvGreCWSUoaqeg
+Rv7MZ9k5Hx3ooM32rEwWjv86XUqpbA8fCQEBuC65M9sr7SoLUO/OHcW5eZH/9UTw
+Y3bsMrUwRJvdyKUKUjeTyvzh8B/HLt27S9iqGapwGIwnODCkHGxxNQh8CDO8Hb5i
+9vccAM4G+FGRFdtkBfLFBGImnkT/xmZYj5TpS199nZNhTCxi5qaahfTpBioXDzhY
+cY894fw0BrJHs5xktLrw2w9paYYYV2lF0Yq70yzLHTpoei7M0mVmkAyKFsorqtSg
+nGfVA9H5ToUvYtFpx+F8VN14t+i3Kba2J8aRaBiE3/V0xNKXbcoXHX9xOqtCZ37v
+svxoIjX6jjci3q3fD07CRJiuA1guuT36MburSgmgT7N7cl5uuEkyyLlEYgwZFFfZ
+HKganrcDnuMU/ygg1iZbT7LAlD5aFLiZet92+1jeY+rYnJG+LXRzRbEgNhVa4vGR
+CutYQke04210rE8A/ZBNzmhYdbV92zEcwJiHhMRYFqUT/2h66IEQ9Px5wKtw4GWQ
+I8PpPkhomPRCujO9Wzg42hK2zYw7C9F2FjMAjOq16y/V8iUm0sOuCGhbrKMkFHCF
+BYDDmQVgbbOFZM9hcpq3ZvDTJ8CnBYlHUvbIby93FZMRdXmgDe7Le4dGYQFsIeuJ
+oibK/oOO
+=jcNg
 -----END PGP SIGNATURE-----
 
---===============7646763092411815650==--
+--===============8014269005589282529==--
