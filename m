@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Oct 2023 17:40:17 -0000
-Message-Id: <169687321745.555.10205589567540681863@gitolite.kernel.org>
+Date: Mon, 09 Oct 2023 17:40:25 -0000
+Message-Id: <169687322596.676.9375326207644974894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20231003_krzysztof_kozlowski_asoc_codecs_fix_widget_name_comparisons
-    old: c29e5263d32a6d0ec094d425ae7fef3fa8d4da1c
+  - ref: refs/heads/v2_20230929_linus_walleij_convert_rockchip_asoc_drivers_to_gpio_descriptors
+    old: 329b017ccdf80cdcc3550f6caecbf2bc80a67432
     new: 0000000000000000000000000000000000000000
