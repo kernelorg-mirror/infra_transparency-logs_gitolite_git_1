@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2481983594887042000=="
+Content-Type: multipart/mixed; boundary="===============5087283287223148699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 Oct 2023 18:39:09 -0000
-Message-Id: <169687674960.11444.7434834379378040435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 09 Oct 2023 18:41:56 -0000
+Message-Id: <169687691681.14017.1134058404868203932@gitolite.kernel.org>
 
---===============2481983594887042000==
+--===============5087283287223148699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 9a8b20596cd2f50fae7aa388fb49af86d59d864a
-    new: cb3bd57fbe8d395e17032285c56f991ba8cc2df6
-    log: |
-         cb3bd57fbe8d395e17032285c56f991ba8cc2df6 4.19-stable patches
-         
+  - ref: refs/heads/riscv-dt-for-next
+    old: af571133f7ae028ec9b5fdab78f483af13bf28d3
+    new: 1ce3a95701a54657bc88040aaccfabfb883c8221
+    log: revlist-af571133f7ae-1ce3a95701a5.txt
 
---===============2481983594887042000==
+--===============5087283287223148699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-af571133f7ae-1ce3a95701a5.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696876748 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1696876747-27e4e41e8b2fb8d2e10acdb7baa77ca3124637ca
+d0366abc9de5ba41225a71d37036206149319223 riscv: Add SOPHGO SOC family Kconfig support
+07f9b764062904f0c0fd6e54e58535f34ac3ac6f dt-bindings: vendor-prefixes: add milkv/sophgo
+1589534b1951c1e38694355324b9364098d79146 dt-bindings: riscv: add sophgo sg2042 bindings
+b965d9a965943e5c07bdda0734aaeecca9ab86b3 dt-bindings: riscv: Add T-HEAD C920 compatibles
+d975794dddd2ec44f142302c7fd3b86eebec0bee dt-bindings: interrupt-controller: Add Sophgo SG2042 PLIC
+4734449f73115c33733b136e225657107c03faf5 dt-bindings: timer: Add Sophgo sg2042 CLINT timer
+942e02e150721413b43068a8073819ad2b7d6314 dt-bindings: interrupt-controller: Add Sophgo sg2042 CLINT mswi
+967a94a92aaaaf2d85179e1b7c7b1f0fd6bff7ac riscv: dts: add initial Sophgo SG2042 SoC device tree
+9439a0e8b6bb83e46e8d30d2cf00558ffd1ee41e riscv: dts: sophgo: add Milk-V Pioneer board device tree
+c32ab7bd6191d64998dced3ba567b8737d217861 riscv: defconfig: enable SOPHGO SoC
+975f0a640ceb41581c4974ed6f368c39478a3bd3 dt-bindings: interrupt-controller: Add SOPHGO CV1800B plic
+332ba4f78a6d8e823517377f4917bc248e6a3042 dt-bindings: timer: Add SOPHGO CV1800B clint
+32ecb28b8e60f75e45790fd9948470a911b0ef7d dt-bindings: riscv: Add Milk-V Duo board compatibles
+c3dffa879ccad5f0b08deedc2c428f4f7ae7f8e6 riscv: dts: sophgo: add initial CV1800B SoC device tree
+27df2ed3b145080b3c9c21420e797cc35099b154 riscv: dts: sophgo: add Milk-V Duo board device tree
+1ce3a95701a54657bc88040aaccfabfb883c8221 Merge initial Sophgo patches into riscv-dt-for-next
 
-9a8b20596cd2f50fae7aa388fb49af86d59d864a cb3bd57fbe8d395e17032285c56f991ba8cc2df6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUkSMwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZV0P+wdPneC2qO7RbXHaGWS8
-nBE1tvX0b80yR6rr+RJG0mg3+mSFcJW3rQ0WFy/FD77myuvk/olx4yMBLls68iGZ
-0d6TribQzdVhEQg6S8AH4ppVKwhkvbe9lWNQwG3prggj/oQv9I44tV3z5kPRiHQp
-WpCPu5wHyzecF8pv3e0SpsAAYIHJpjZ4x2zQF0aUkAMoZzj2TrAwW4kOx1tDucva
-eGe2qY7OX6jnoZVYMWytVzlpOXt57z5LpCEsDR7IGkIZOSHXEJZdb+f+vnQ1yFLm
-5Lp0Kjnd827SRJ5GTPQqT7Rjqbz0IB10pobxeSi0+/uz/VRx22VYB1VL0M22SBCI
-tfPXeaBe9vWNd2xvMRmLX9RDBYIYYYwp0t2yOyAW7FuSAh3mTka1URvpuWDuAZAk
-mm0ggEndiiSwdexj4+1MTvI+5Ilu3nmHrm5teU9DMYyxTas75NhRPB9lvU4cRmWM
-91t1JFDpSAd/BL2E7UnUfYs8DRx0j2hzALvQKhmTHIwjkHg6kgca5zT5gGAmvP01
-fxLoEdXsBd/1c+Ggld9yx1/fThxlfGZ1FvjsBjQH8zr12B+9ypaM8r8LfcatTDx6
-Ra8HurdJt8SwRi/OblHpaSm8Pw+Q/JGWFkCSlVl46W5+/ZefxfbabnQp+le2N0IT
-wmOmiDJb1TBl9RlVjjH8cC72
-=NLpT
------END PGP SIGNATURE-----
-
---===============2481983594887042000==--
+--===============5087283287223148699==--
