@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Oct 2023 22:14:44 -0000
-Message-Id: <169688968487.5878.396093329420637859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 09 Oct 2023 22:18:02 -0000
+Message-Id: <169688988294.8715.11269917037513999322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: eac584bb27e6d7d48ed5f6f1e98ecbe6417e59c1
-    new: a7ec043e601d1dca69ac827f51dbe1dbaa1e89aa
+  - ref: refs/heads/master
+    old: 3ef20de6b2a89a5341b42a33586c437c6e7eb09f
+    new: 99976bf519f2488c08bd438e4df94650ff988079
     log: |
-         a7ec043e601d1dca69ac827f51dbe1dbaa1e89aa ASoC: DT matching and header cleanups
+         99976bf519f2488c08bd438e4df94650ff988079 Bluetooth: msft: __hci_cmd_sync() doesn't return NULL
          
