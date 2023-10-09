@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0676215424133136037=="
+Content-Type: multipart/mixed; boundary="===============6212968204866013101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 09 Oct 2023 05:15:07 -0000
-Message-Id: <169682850759.25537.841436483830497194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 09 Oct 2023 05:15:21 -0000
+Message-Id: <169682852163.25736.8597150463254591911@gitolite.kernel.org>
 
---===============0676215424133136037==
+--===============6212968204866013101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 94f6f0550c625fab1f373bb86a6669b45e9748b3
     log: revlist-8a749fd1a872-94f6f0550c62.txt
 
---===============0676215424133136037==
+--===============6212968204866013101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -326,4 +326,4 @@ f707e40d0b513fde7e1b1aebe625907f20c9df76 Merge tag 'sched-urgent-2023-10-08' of 
 37faf07bf90ace7c8e34c6b825dcfbb587d2e701 Merge tag '6.6-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 94f6f0550c625fab1f373bb86a6669b45e9748b3 Linux 6.6-rc5
 
---===============0676215424133136037==--
+--===============6212968204866013101==--
