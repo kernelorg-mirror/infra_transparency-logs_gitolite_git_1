@@ -1,73 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7964894547223907174=="
+Content-Type: multipart/mixed; boundary="===============6879637749502553179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Oct 2023 18:36:00 -0000
-Message-Id: <169687656020.8914.5406821386308832828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 09 Oct 2023 18:39:01 -0000
+Message-Id: <169687674117.11335.15179566327553162477@gitolite.kernel.org>
 
---===============7964894547223907174==
+--===============6879637749502553179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 1426b9ba7c453755d182ebf7e7f2367ba249dcf4
-    new: cc660a4a8ea8d360706db9ca9ed08ac95c906ea5
-    log: revlist-1426b9ba7c45-cc660a4a8ea8.txt
-  - ref: refs/heads/for-next
-    old: 497ddda3f8c3821c32df41209459e8554ca52cf0
-    new: bca10eb3259313cea2fc32c42b7c2c1c1ad8d4f6
-    log: revlist-497ddda3f8c3-bca10eb32593.txt
+  - ref: refs/heads/master
+    old: ae9773a896aea55eefdeeac6a76e4cad643f2251
+    new: 9a8b20596cd2f50fae7aa388fb49af86d59d864a
+    log: |
+         9a8b20596cd2f50fae7aa388fb49af86d59d864a 4.14-stable patches
+         
 
---===============7964894547223907174==
+--===============6879637749502553179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1426b9ba7c45-cc660a4a8ea8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-76aca10ccb7c23a7b7a0d56e0bfde2c8cdddfe24 ASoC: soc-dapm: Add helper for comparing widget name
-c29e5263d32a6d0ec094d425ae7fef3fa8d4da1c ASoC: codecs: wsa-macro: handle component name prefix
-bfbc79de60c53e5fed505390440b87ef59ee268c ASoC: codecs: wcd938x: drop bogus bind error handling
-fa2f8a991ba4aa733ac1c3b1be0c86148aa4c52c ASoC: codecs: wcd938x: fix unbind tear down order
-da29b94ed3547cee9d510d02eca4009f2de476cf ASoC: codecs: wcd938x: fix resource leaks on bind errors
-69a026a2357ee69983690d07976de44ef26ee38a ASoC: codecs: wcd938x: fix regulator leaks on probe errors
-3ebebb2c1eca92a15107b2d7aeff34196fd9e217 ASoC: codecs: wcd938x: fix runtime PM imbalance on remove
-f0dfdcbe706462495d47982eecd13a61aabd644d ASoC: codecs: wcd938x-sdw: fix use after free on driver unbind
-c5c0383082eace13da2ffceeea154db2780165e7 ASoC: codecs: wcd938x-sdw: fix runtime PM imbalance on probe errors
-af5fd122d7bd739a2b66405f6e8ab92557279325 ASoC: cs35l56: Fix illegal use of init_completion()
-aa6464edbd51af4a2f8db43df866a7642b244b5f ASoC: pxa: fix a memory leak in probe()
-e182212185bbda3440644f732f17a825fa4be456 ASoC: codecs: wcd938x: fix probe and bind error
-cc660a4a8ea8d360706db9ca9ed08ac95c906ea5 ASoC: codecs: fix widget name comparisons
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696876740 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1696876739-d302cfe7abd4a2fedc48c7d2e96c213541af481b
 
---===============7964894547223907174==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-497ddda3f8c3-bca10eb32593.txt
+ae9773a896aea55eefdeeac6a76e4cad643f2251 9a8b20596cd2f50fae7aa388fb49af86d59d864a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-76aca10ccb7c23a7b7a0d56e0bfde2c8cdddfe24 ASoC: soc-dapm: Add helper for comparing widget name
-c29e5263d32a6d0ec094d425ae7fef3fa8d4da1c ASoC: codecs: wsa-macro: handle component name prefix
-bfbc79de60c53e5fed505390440b87ef59ee268c ASoC: codecs: wcd938x: drop bogus bind error handling
-fa2f8a991ba4aa733ac1c3b1be0c86148aa4c52c ASoC: codecs: wcd938x: fix unbind tear down order
-da29b94ed3547cee9d510d02eca4009f2de476cf ASoC: codecs: wcd938x: fix resource leaks on bind errors
-69a026a2357ee69983690d07976de44ef26ee38a ASoC: codecs: wcd938x: fix regulator leaks on probe errors
-3ebebb2c1eca92a15107b2d7aeff34196fd9e217 ASoC: codecs: wcd938x: fix runtime PM imbalance on remove
-f0dfdcbe706462495d47982eecd13a61aabd644d ASoC: codecs: wcd938x-sdw: fix use after free on driver unbind
-c5c0383082eace13da2ffceeea154db2780165e7 ASoC: codecs: wcd938x-sdw: fix runtime PM imbalance on probe errors
-af5fd122d7bd739a2b66405f6e8ab92557279325 ASoC: cs35l56: Fix illegal use of init_completion()
-aa6464edbd51af4a2f8db43df866a7642b244b5f ASoC: pxa: fix a memory leak in probe()
-15b26d8165b39a07f038fb4d2b67a04c50463eb9 ASoC: rockchip: Convert RK3288 HDMI to GPIO descriptors
-3116dc2e16542d56bd173e90ce1893bed697a830 ASoC: rockchip: Drop includes from RK3399
-7214141067922836b48157e8266335096a0ea4ea ASoC: rockchip: Drop includes from Rockchip MAX98090
-329b017ccdf80cdcc3550f6caecbf2bc80a67432 ASoC: rockchip: Drop includes from Rockchip RT5645
-e182212185bbda3440644f732f17a825fa4be456 ASoC: codecs: wcd938x: fix probe and bind error
-cc660a4a8ea8d360706db9ca9ed08ac95c906ea5 ASoC: codecs: fix widget name comparisons
-fee44f43b235b8290629bcf077dc6ca13d06c753 Convert Rockchip ASoC drivers to GPIO descriptors
-bca10eb3259313cea2fc32c42b7c2c1c1ad8d4f6 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUkSMQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MgsQAKClzn2MyYZR+HX4f+U1
+qj0hYynUwk2sEvAaP8xWdkyud1HZa04v15bA0q0jZkLQgm5vA455wvO3xsBOfehW
+1McvbelPlwTlFjGczR/y2nswc8qxabV17z9at91E1ZAOo743fkhzqJXiBDe3JkK1
+h50a/V6lvwm96AGvQb4TKUC4ZqpGEJ5MZn4AWU79Iaipvo6nBkLLzyRr4Eh0JACo
+zRHHmHbpWYWZ7JWLu3Qwaa2z+cOtd+WKfq+yK3wLhu3F6WlWjErr54BvofCC9hlU
+dmcUQ4zJJzZ+lZUT3ob1hst8FCuI+CcFPRsfhT3a84KduYJ1MprCnmX4qSvCIVu1
+6dIZEMczHQN/n0Qp16s5InmINIL5hOm/KrCDCatNn1Ow0QNfL5cevx5P/kWWjhNP
+cUllrd3VhRd9YIAPfdoQLt8cwZxRGdz/JLc0tA+JrVeh+4XJ7vqWYxNJjurvrrM/
+99wfsk0vYuA9DY1rym5dSZhOQCcE+nhVQE1FJeav7tKCin992SLfk2PAKZHyu6L1
+6+8Ah0/22YPB6uWs7yW79IvM5dBEgdG6k9H1Dx/whFozl/kp9Us7/WL+1xRJzoJA
+R9POTnAlg4Pq/bsZ+beKLUTth6Ya0rlWPFYCQ3F1QF5aYiO5QIi4Xhhy/dZ9b/Rg
+qBKj5efM1YVaVGFvs0C6LFVJ
+=7bKF
+-----END PGP SIGNATURE-----
 
---===============7964894547223907174==--
+--===============6879637749502553179==--
