@@ -1,60 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2908017911217007493=="
+Content-Type: multipart/mixed; boundary="===============5976983249842330396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Oct 2023 12:23:01 -0000
-Message-Id: <169685418163.8044.5472753544197579214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 09 Oct 2023 12:32:49 -0000
+Message-Id: <169685476951.14694.17048122751201035796@gitolite.kernel.org>
 
---===============2908017911217007493==
+--===============5976983249842330396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 68cbb8de0a19562ff4ccdeab897f37336f87a5f4
-    new: 09d74a0042bd13a2e9415d12c0d751215e85906f
-    log: revlist-68cbb8de0a19-09d74a0042bd.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 0cfad4391930b89c236deb65be98133b1ef6678b
+    new: ce331fd3638e41994f73d0cb69830530a17fbd0a
+    log: revlist-0cfad4391930-ce331fd3638e.txt
 
---===============2908017911217007493==
+--===============5976983249842330396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68cbb8de0a19-09d74a0042bd.txt
+Content-Disposition: attachment; filename=revlist-0cfad4391930-ce331fd3638e.txt
 
-3f320038de388fac90a402625cabd613c2797557 x86/microcode/32: Move early loading after paging enable
-b6bedf0825b8a74edef6fa7100cb078e879bbce7 x86/boot/32: Disable stackprotector and tracing for mk_early_pgtbl_32()
-b06a37b1970f580c05b79465b37913093b62ce0d x86/microcode/intel: Rip out mixed stepping support for Intel CPUs
-6a92484124b21e24aaa04be33fc4938f42d56733 x86/microcode/intel: Simplify scan_microcode()
-6dea0b60b5b3f7d810877d1d0ccf3778bb142d00 x86/microcode/intel: Simplify and rename generic_load_microcode()
-5017d6d28ad46c2ff677d5bea13f4358082cd86f x86/microcode/intel: Cleanup code further
-34825609b868a5201f4dedd0b2abbef2e60d7ae4 x86/microcode/intel: Simplify early loading
-ed1a85d984ac1543349da617dce65f4190839f9f x86/microcode/intel: Save the microcode only after a successful late-load
-2ef5bac8c869ac24f51c94df1ae6d23c7679d905 x86/microcode/intel: Switch to kvmalloc()
-1542922ce22a1da1a8b70b1d6e79cc92d229f061 x86/microcode/intel: Unify microcode apply() functions
-38ab73d770143460b1b85d01ead39cd6eeb857c8 x86/microcode/intel: Rework intel_cpu_collect_info()
-ac39a61afe4f452fa9dab568b810f6c410554242 x86/microcode/intel: Reuse intel_cpu_collect_info()
-24e6c7324d24b63eac8818cb2f0e8fdffe828715 x86/microcode/intel: Rework intel_find_matching_signature()
-034eaca8e03547ebff0b3974b88d2b772d858533 x86/microcode: Remove pointless apply() invocation
-f4a21dcbdbfaaa6841d528e5124c581e90c945fe x86/microcode: Get rid of the schedule work indirection
-75d0be07daa201cd283e00d09eb27b30c0b0261e x86/microcode: Clean up mc_cpu_down_prep()
-10adb827276a944adf06e56b84f45d6ff9ebdd7a x86/microcode: Handle "nosmt" correctly
-f696f2fbae3dd52a4e79f0a02b8cb31fe0dc69ce x86/microcode: Clarify the late load logic
-89d6d026e43bd8b093f6238b569a0efc9485d19f x86/microcode: Sanitize __wait_for_cpus()
-fc27389d6e72cf75f04a49afe851165210f8e9f3 x86/microcode: Add per CPU result state
-537929fe93b931a13ab1830a9c9f27a95634c797 x86/microcode: Add per CPU control field
-54f1ae8f731a733f45711b71117452c098e73dc4 x86/microcode: Provide new control functions
-0eccca7cbc7ff614cb57ba26a8704e842c242c38 x86/microcode: Replace the all-in-one rendevous handler
-0d834131052b702d74ed93c86678f76cc5ad6a62 x86/microcode: Rendezvous and load in NMI
-f89dd8edd20034c5cc7a3fdf734b3e3c3d808c73 x86/microcode: Protect against instrumentation
-27b28750429ed5ab9c41955976a44c05bd029cfb x86/apic: Provide apic_force_nmi_on_cpu()
-c4228017e7ff3d9b6a774a23fefba85402f161a8 x86/microcode: Handle "offline" CPUs correctly
-bbaea0e7fc4322ce997d6bc218ce3f2df5c64bb8 x86/microcode: Prepare for minimal revision check
-9975802d3f7426abc32fd9ac0924a639d11a7c4f x86/microcode/intel: Add a minimum required revision for late loading
-09d74a0042bd13a2e9415d12c0d751215e85906f Merge x86/microcode into tip/master
+be7a4caa7c45bd4b0a39cdb260905b52a87c8688 perf hisi-ptt: Fix memory leak in lseek failure handling
+0ddce121b038c553d6ec103f3b9fc399f99945e9 perf test: Avoid system wide when not privileged
+26a5262d30e1452071bcfe86725f2fe4e164db04 tools/perf: Add text_end to "struct dso" to save .text section size
+6be5d82862ee9b4e517dcfdfb064c2d671dbd45a tools/perf: Add "is_kmod" to struct dso to check if it is kernel module
+8f5b62a100cb235ad7708af991b5b5899fb42778 tools/perf/tests: Fix object code reading to skip address that falls out of text section
+d7c9ae8d5d1be0c4156d1e20e4369a77b711a4cc tools/perf: Update call stack check in builtin-lock.c
+ab3b6206fe3a5fab689ac4cf09ae8b6b222fd310 perf symbols: Add 'intel_idle_ibrs' to the list of idle symbols
+f4e129bda9027f50db9f8a6af9e7ac3daa3537bd perf build: Add missing comment about NO_LIBTRACEEVENT=1
+b40da6ce12839235f61df147135b282879003d1d perf beauty socket/prctl_option: Cope with extended regexp complaint by grep
+04b6f467d0dd3b2bc382dded053947d2b14390b4 perf tests make: Remove the last egrep call, use 'grep -E' instead
+4cfe22e3190ba15feb91915a37bbf5cbb514be48 tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
+ce331fd3638e41994f73d0cb69830530a17fbd0a perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
 
---===============2908017911217007493==--
+--===============5976983249842330396==--
