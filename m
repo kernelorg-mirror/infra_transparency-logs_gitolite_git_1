@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3453750603145484242=="
+Content-Type: multipart/mixed; boundary="===============6369202763380678863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 09 Oct 2023 14:40:47 -0000
-Message-Id: <169686244770.19235.2213980904474349181@gitolite.kernel.org>
+Date: Mon, 09 Oct 2023 14:41:20 -0000
+Message-Id: <169686248009.19503.1053938647976309736@gitolite.kernel.org>
 
---===============3453750603145484242==
+--===============6369202763380678863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 5e6dfb18b778b1fd1bb659b45c579f862fffc76b
-    new: e5bea7fc3664aec22cb77493e85bd232ffd6742a
-    log: revlist-5e6dfb18b778-e5bea7fc3664.txt
+  - ref: refs/heads/nfsd4-encoder-overhaul
+    old: ab94986c5bacf1652c8f5281d0962d435475d394
+    new: 31fc00f936dfba8b17469265bfad3b22b70f82fe
+    log: revlist-ab94986c5bac-31fc00f936df.txt
 
---===============3453750603145484242==
+--===============6369202763380678863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e6dfb18b778-e5bea7fc3664.txt
+Content-Disposition: attachment; filename=revlist-ab94986c5bac-31fc00f936df.txt
 
 e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
 195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
@@ -434,5 +434,18 @@ f427369dac807d4e726b29570efce71dd7e1a4a8 nfsd: Clean up errors in nfs4state.c
 1048d6e86034c81c24dddf46ed5b2fb505ade271 nfsd: Clean up errors in nfs3proc.c
 0d96aabde7672c2da96712a32f2b84e830a2ec74 NFSD: Rewrite synopsis of nfsd_percpu_counters_init()
 e5bea7fc3664aec22cb77493e85bd232ffd6742a NFSD: Fix frame size warning in svc_export_parse()
+f4f14e2178a8bb980b012392cfafb6c3e64402db NFSD: Rename nfsd4_encode_dirent()
+d82f60431308cd6b8b57546d432638c57faa15b5 NFSD: Clean up nfsd4_encode_rdattr_error()
+8e6fe3d6bdc5afe210bc13f37519ee0443a12315 NFSD: Add an nfsd4_encode_nfs_cookie4() helper
+be9a5257542711a773ad18fd85a5a72ecb3d74a9 NFSD: Clean up nfsd4_encode_entry4()
+4fb0fa7326123b2362c09efcfea37d33043abc3b NFSD: Clean up nfsd4_encode_readdir()
+3b401a649ce9c81ec3ec751cfe5a2ce0af2567b9 NFSD: Clean up nfsd4_encode_access()
+39b886399b7fc68025ab93865cacbd445bae6485 NFSD: Clean up nfsd4_do_encode_secinfo()
+dc40d113fbef922b2e3848ed2b7e00e6b1cb95d1 NFSD: Clean up nfsd4_encode_exchange_id()
+7ccd902fbdcb40716fac1b437bbb314e3504f073 NFSD: Clean up nfsd4_encode_test_stateid()
+eab3605cb0285f7ba3f382cba898d26164526eb6 NFSD: Clean up nfsd4_encode_copy()
+0c77a3627756d38003aa015657b618cb7ff673e0 NFSD: Clean up nfsd4_encode_copy_notify()
+99c32fba331d5284080e38edd99b0ac3d381e2af NFSD: Clean up nfsd4_encode_offset_status()
+31fc00f936dfba8b17469265bfad3b22b70f82fe NFSD: Clean up nfsd4_encode_seek()
 
---===============3453750603145484242==--
+--===============6369202763380678863==--
