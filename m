@@ -1,59 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============0047623678907525347=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 09 Oct 2023 10:38:01 -0000
-Message-Id: <169684788173.27933.17952363800527306602@gitolite.kernel.org>
-
---===============0047623678907525347==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 09 Oct 2023 10:40:41 -0000
+Message-Id: <169684804129.30442.7228643361314372252@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: 4e1e21117e7e1275477ba80e634c769a511249bd
-    new: 8aec97decfd0f444a69a765b2f00d64b42752824
+  - ref: refs/heads/master-pending
+    old: 6ec983ead692fa633b58da341a1aa8661edcc87e
+    new: 3fe1816f0d7bcbef6caff58479fb6bf964202b6a
     log: |
-         2aca5c591ef4ecc4bcb9be3c9a9360d3d5238866 pinctrl: samsung: defer pinctrl_enable
-         bf128c1f0fe1fd4801fb84660c324095990c533a pinctrl: samsung: use add_pin_ranges method to add pinctrl ranges
-         deb79167e1dadc0ac0a9e3aa67130e60c5d011ef pinctrl: samsung: choose GPIO numberspace base dynamically
-         8aec97decfd0f444a69a765b2f00d64b42752824 pinctrl: samsung: do not offset pinctrl numberspaces
+         3647c9595142b76573bc826964c14fa408d3278d wifi: ath11k: qmi: refactor ath11k_qmi_m3_load()
+         686a884364f029485e45474e8a9b623ea87f74b2 wifi: ath11k: add firmware-2.bin support
+         1788a012f03033ecb0b716067055c92a5904d832 wifi: ath12k: configure RDDM size to MHI for device recovery
+         e4b35d0e4caaf9dc4b1c5adbe256babd3b624588 wifi: ath12k: add ath12k_qmi_free_resource() for recovery
+         c6be0d0f0720232bb96e5c45bde51d9da4eb6024 wifi: ath12k: fix invalid m3 buffer address
+         4b2448d5d5095bdddb4e35ba2ccff51a2a139a09 wifi: ath11k: debugfs: fix truncation for pdev
+         3fe1816f0d7bcbef6caff58479fb6bf964202b6a Merge branch 'pending' into master-pending
          
-
---===============0047623678907525347==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1696847880 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1696847879-02a4cdf470fda425b3001f5e44a4f407db70f5e3
-
-4e1e21117e7e1275477ba80e634c769a511249bd 8aec97decfd0f444a69a765b2f00d64b42752824 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmUj2AgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19tVD/4nfnfEc5gnZy5qctkZy9lkB6jugVRwKhST
-pQutiTipDiYhOM2EDgyaKX5s/LC8near4p4ZvKM7OROZNvePiDfWnWwfv+buMdX/
-CRpX7WwmCiZxVgqIb1uV5xv5uafBLpevkuHtNtSV+aijLKhcHrOM1U/MEtGUaOG0
-3mF9Rsnl6QnRpJex5kU7bb5dsr579z6PRdmXlzNPLYb15CNTXtISEIDMy1cOMwoL
-7AnFF8inUWgOZ8evgnn4hfDc0SgZCljNh+hNtwIgVD6oowVoHUhCg6U3usfTWx7o
-eNSarB4dDvKm47sIdk9cBo2hft1LrlVj9G494Un+2Y7vxWUyOJYOlpyGKhHyntOM
-cuDUKr5eOlAYsRea6aSxeyUvCexvZiHwo2u1EAEePxRoYKdbVFNo8kF2bJOi8LAs
-osja9FQfikru+EulkU+mJVnyrMh9qS4lhXs4661jRl6xN3CWhAGjbS6kxgdqy5on
-xEFusE3BH/flZ74PorSoqo8RUeR95XgWIBHiAYY5iQ4cT4CVzK2xgLGOZp8qv/wg
-v5T9ks8B1BmcV9qxzwpxFzEDFnEEvRVq43Hjp1DdSbTPzi1V4yoiYQPBh7dvhMbn
-E+ZNzEyzk35cPtvAPvb4t1cl/DwvP870wmy30lKAk1wbVeQ1p8Ye4zZect0WpYfT
-+iMkw5iPpw==
-=pfmn
------END PGP SIGNATURE-----
-
---===============0047623678907525347==--
+  - ref: refs/heads/pending
+    old: 4c1c4065e9e891db0d622368b3a0823b96c71569
+    new: 4b2448d5d5095bdddb4e35ba2ccff51a2a139a09
+    log: |
+         3647c9595142b76573bc826964c14fa408d3278d wifi: ath11k: qmi: refactor ath11k_qmi_m3_load()
+         686a884364f029485e45474e8a9b623ea87f74b2 wifi: ath11k: add firmware-2.bin support
+         1788a012f03033ecb0b716067055c92a5904d832 wifi: ath12k: configure RDDM size to MHI for device recovery
+         e4b35d0e4caaf9dc4b1c5adbe256babd3b624588 wifi: ath12k: add ath12k_qmi_free_resource() for recovery
+         c6be0d0f0720232bb96e5c45bde51d9da4eb6024 wifi: ath12k: fix invalid m3 buffer address
+         4b2448d5d5095bdddb4e35ba2ccff51a2a139a09 wifi: ath11k: debugfs: fix truncation for pdev
+         
+  - ref: refs/tags/ath-pending-202310091038
+    old: 0000000000000000000000000000000000000000
+    new: 3fe1816f0d7bcbef6caff58479fb6bf964202b6a
