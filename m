@@ -1,16 +1,70 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 09 Oct 2023 09:53:01 -0000
-Message-Id: <169684518140.23006.1263942070861342955@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3316103111239749769=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 09 Oct 2023 10:08:48 -0000
+Message-Id: <169684612845.2184.14088046728625049389@gitolite.kernel.org>
+
+--===============3316103111239749769==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/v6.6-rc5
-    old: 0000000000000000000000000000000000000000
-    new: e6ec05aacec40cf517511763a28ff627157d131d
+  - ref: refs/heads/for-next
+    old: 8df012a7f513141412b3c35af204ccdb810fcc81
+    new: 378f2b618fedc9e2f57755438e8f080fde3ccc90
+    log: revlist-8df012a7f513-378f2b618fed.txt
+
+--===============3316103111239749769==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1696846120 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1696846123-e8de316268db49c5581a7fbe2af8a8e6db59c45e
+
+8df012a7f513141412b3c35af204ccdb810fcc81 378f2b618fedc9e2f57755438e8f080fde3ccc90 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZSPRLAAKCRBZrE9hU+XO
+Md4hAP9iFSeJymKSLUlYuhNIeD9PNEhvJcj6km9Zz5AUXOrNPQD/buniCT9mQLw+
+s+aYv5fg+UJ74LNuzNB/9nB14ZFSWwI=
+=WZJS
+-----END PGP SIGNATURE-----
+
+--===============3316103111239749769==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8df012a7f513-378f2b618fed.txt
+
+cdb1013808bed0c0c392b44ed4eed6c7743028c3 platform/x86/amd/pmc: Add PMFW command id to support S2D force flush
+97a5e801b3045c1e800f76bc0fb544972538089d platform/x86/intel/ifs: Store IFS generation number
+a138ac2656d1329c3994a227769b7ba3926818a7 platform/x86/intel/ifs: Refactor image loading code
+07f47c01b3bc2a42c4d4da35831edab10aa60449 platform/x86/intel/ifs: Gen2 scan image loading
+72b96ee29ed6f7670bbb180ba694816e33d361d1 platform/x86/intel/ifs: Gen2 Scan test support
+25a76dbb36dd58ad4df7f6a4dc43061a10b0d817 platform/x86/intel/ifs: Validate image size
+60d2e1b37d530d6b1f8b7773cebaf8bbc1536b28 platform/x86/intel/ifs: Metadata validation for start_chunk
+e6483a0b59026ded36a6f5eba1425a6b0965984a platform/x86/intel/ifs: Add new CPU support
+b9aa9e4c8b4e52b6f2f5986b27e97f4b6163f0bf platform/x86/intel/ifs: Add new error code
+06d65b2bc532fc9af1c55aa7a18cfd237ce46588 platform/x86/intel/ifs: ARRAY BIST for Sierra Forest
+23516fba866c49397594832d407459f30fe3ed60 platform/x86: int3472: Add new skl_int3472_fill_gpiod_lookup() helper
+5cad12851b16ae6bda685d4fc44eff2b1e273c4e platform/x86: int3472: Add new skl_int3472_gpiod_get_from_temp_lookup() helper
+53c5f7f6e7930ff057cefe4960f5bbf29023e5a9 platform/x86: int3472: Stop using gpiod_toggle_active_low()
+5ccf9873ab2bcb7c480bc2ccea55ec235d9db175 platform/x86: int3472: Switch to devm_get_gpiod()
+a41357adbf03d3e51d3f3853f06a2a8dd756765e Merge branch 'pdx86/platform-drivers-x86-int3472' into review-ilpo
+7ec4cd3c1a12dc08c60d5e376c2c05aae23f1e41 platform: mellanox: Fix a resource leak in an error handling path in probing flow
+b26bcdd5f03e0b9fdd5dd8567b620538c5058c54 platform: mellanox: Rename some init()/exit() functions for consistent naming
+8634c1114b94049b48805b412b28160cb25a3198 platform: mellanox: Fix misspelling error in routine name
+378f2b618fedc9e2f57755438e8f080fde3ccc90 Merge branch 'pdx86/platform-drivers-x86-mellanox-init' into review-ilpo
+
+--===============3316103111239749769==--
