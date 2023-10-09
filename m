@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6369202763380678863=="
+Content-Type: multipart/mixed; boundary="===============6275496506568352661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 09 Oct 2023 14:41:20 -0000
-Message-Id: <169686248009.19503.1053938647976309736@gitolite.kernel.org>
+Date: Mon, 09 Oct 2023 14:42:04 -0000
+Message-Id: <169686252424.19848.356042876280612169@gitolite.kernel.org>
 
---===============6369202763380678863==
+--===============6275496506568352661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd4-encoder-overhaul
-    old: ab94986c5bacf1652c8f5281d0962d435475d394
-    new: 31fc00f936dfba8b17469265bfad3b22b70f82fe
-    log: revlist-ab94986c5bac-31fc00f936df.txt
+  - ref: refs/heads/svcrdma-next
+    old: d7b2ca1bf772879d8c8dae8186b804caf34c0955
+    new: 2dee7499526ced819711f108ead87a89cdf083dc
+    log: revlist-d7b2ca1bf772-2dee7499526c.txt
 
---===============6369202763380678863==
+--===============6275496506568352661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab94986c5bac-31fc00f936df.txt
+Content-Disposition: attachment; filename=revlist-d7b2ca1bf772-2dee7499526c.txt
 
 e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
 195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
@@ -434,18 +434,48 @@ f427369dac807d4e726b29570efce71dd7e1a4a8 nfsd: Clean up errors in nfs4state.c
 1048d6e86034c81c24dddf46ed5b2fb505ade271 nfsd: Clean up errors in nfs3proc.c
 0d96aabde7672c2da96712a32f2b84e830a2ec74 NFSD: Rewrite synopsis of nfsd_percpu_counters_init()
 e5bea7fc3664aec22cb77493e85bd232ffd6742a NFSD: Fix frame size warning in svc_export_parse()
-f4f14e2178a8bb980b012392cfafb6c3e64402db NFSD: Rename nfsd4_encode_dirent()
-d82f60431308cd6b8b57546d432638c57faa15b5 NFSD: Clean up nfsd4_encode_rdattr_error()
-8e6fe3d6bdc5afe210bc13f37519ee0443a12315 NFSD: Add an nfsd4_encode_nfs_cookie4() helper
-be9a5257542711a773ad18fd85a5a72ecb3d74a9 NFSD: Clean up nfsd4_encode_entry4()
-4fb0fa7326123b2362c09efcfea37d33043abc3b NFSD: Clean up nfsd4_encode_readdir()
-3b401a649ce9c81ec3ec751cfe5a2ce0af2567b9 NFSD: Clean up nfsd4_encode_access()
-39b886399b7fc68025ab93865cacbd445bae6485 NFSD: Clean up nfsd4_do_encode_secinfo()
-dc40d113fbef922b2e3848ed2b7e00e6b1cb95d1 NFSD: Clean up nfsd4_encode_exchange_id()
-7ccd902fbdcb40716fac1b437bbb314e3504f073 NFSD: Clean up nfsd4_encode_test_stateid()
-eab3605cb0285f7ba3f382cba898d26164526eb6 NFSD: Clean up nfsd4_encode_copy()
-0c77a3627756d38003aa015657b618cb7ff673e0 NFSD: Clean up nfsd4_encode_copy_notify()
-99c32fba331d5284080e38edd99b0ac3d381e2af NFSD: Clean up nfsd4_encode_offset_status()
-31fc00f936dfba8b17469265bfad3b22b70f82fe NFSD: Clean up nfsd4_encode_seek()
+1aa8d29d795fa6dced39f05f8a462ae13a2ea514 svcrdma: Drop connection after an RDMA Read error
+38b630ab09c46d1c09db94f6ea4877efca0d7c1d svcrdma: Clean up release ordering in svc_rdma_write_done()
+408f6f8036bd8c3d31c290135810727006b5e8cf svcrdma: Add lockdep class keys for transport locks
+6203bec683472d1a4543b8b8e4092cc0a8324e0e svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
+f40a5f77829f5b62d4241f6e18634b80ea89184c svcrdma: Serialize acquisition of free recv_ctxt objects
+138293494b17c8d40de9fcd792e69adba9e0306b svcrdma: Pre-allocate svc_rdma_recv_ctxt objects
+906ff2ee469af20e6462d380cdd1d4c66528ff49 svcrdma: Switch Receive CQ to soft IRQ
+f4db7c2911a956d68e37d257bc6aa00c5b7f1f1d svcrdma: Fix tracepoint format
+5d563fca2a4687e162d1a9cfabd8bf962d249417 svcrdma: Update some svcrdma DMA-related tracepoints
+220d1d7683528add16ceae8ab196e20f9e36981d svcrdma: Clean up use of rdma->sc_pd->device
+3ae410ca3bac2b85fd6a2a7d0309e245aa8e2a40 svcrdma: Move Send CQ to SOFTIRQ context
+b4ce36102312a094a1b7487cbefb323307ffeb03 rpcrdma: Introduce a simple cid tracepoint class
+a8f4de752f9df9a315354537bdd338caaae0fea3 svcrdma: SQ error tracepoints should report completion IDs
+ec2e7d9a2c16f6b299b444c5bfbf659b7f451533 svcrdma: DMA error tracepoints should report completion IDs
+4db7730966d1ed8c2685da5464fdcfe64c19bbd8 svcrdma: Get the svcxprt_rdma pointer from the CQ context
+adbcb0802056573eea523acaddd3f383daafa854 svcrdma: Pass a pointer to the transport to svc_rdma_cc_release()
+a5a7d1d952843c75d11b111e57384660bec42b75 svcrdma: Pass transport to svc_rdma_post_chunk_ctxt()
+785687e0aad5c460ca201c8316b9c51d88d8197d svcrdma: Pass transport into read chunk I/O paths
+929b75de33b009e65384e5e6eff4e08d69deda81 svcrdma: Pass transport into write chunk I/O paths
+cfa49f4b6eeeb7f8553a0de9aa2d7ad961067409 svcrdma: Remove the svc_rdma_chunk_ctxt::cc_rdma field
+68b62d425c96c951abc03d8e41e932739e45973e svcrdma: Move struct svc_rdma_chunk_ctxt to svc_rdma.h
+c6829a81b9aad4db0b060d5e2968410584b4b4b0 svcrdma: Start moving fields out of struct svc_rdma_read_info
+944d32f5fa470ad3f9f239a1b95937aa1376444c svcrdma: Move svc_rdma_read_info::ri_pageno to struct svc_rdma_recv_ctxt
+d8f20f3d2a89c526b9fe31c297c80e195b341e33 svcrdma: Move read_info::ri_pageoff into struct svc_rdma_recv_ctxt
+cc10677d4be6860e30bf180f2f12fb3ec412b053 svcrdma: Update synopsis of svc_rdma_build_read_segment()
+6b3a9c591b704f20920cc0a21b865ec97034d24a svcrdma: Update synopsis of svc_rdma_build_read_chunk()
+8f82850c5e3ba3099a1d769645770dd5bd307634 svcrdma: Update synopsis of svc_rdma_read_chunk_range()
+139245384827e6762a17d9dca25831c2c62d8bf4 svcrdma: Update the synopsis of svc_rdma_read_data_item()
+f6bda1c053f7a78ac143afe012dfe34778466b45 svcrdma: Update synopsis of svc_rdma_copy_inline_range()
+24587da5b447d9f5e287e3189ef37cc6daf1a272 svcrdma: Update synopsis of svc_rdma_read_multiple_chunks()
+c59a9e1ea0072e7065322fa06a00187e043ed127 svcrdma: Update the synopsis of svc_rdma_read_call_chunk()
+1f82725b9114dbd817ca991bc7e90b2b1db38831 svcrdma: Update the synopsis of svc_rdma_read_special()
+cd3f4872af032422f868ca33d0d699633f091320 svcrdma: Remove struct svc_rdma_read_info
+aa1383b94fc733846af467f8be911664ed60433b svcrdma: Remove pointer addresses shown in dprintk()
+bf38bd2e95defd5030bcfab9971d952022c36462 svcrdma: Remove queue-shortening warnings
+7c27d1ef74c6ab1348f5e417621f90a810b392e8 svcrdma: Clean up comment in svc_rdma_accept()
+577019e1091af0536389afffe97a20d467f313af svcrdma: Reserve an extra WQE for ib_drain_rq()
+85be65270ce24e3fa1fbe6ac66332d3752d57fe0 svcrdma: Use all allocated Send Queue entries
+4ded47cc36bccf21563ee52f945a2d894b02f626 svcrdma: Increase the per-transport rw_ctx count
+67166603fcae01a2a318786af713593e3a9dce69 svcrdma: Add back svc_rdma_recv_ctxt::rc_pages
+22848e3cd977dd0efb74db57fd333235405d972a svcrdma: Add back svcxprt_rdma::sc_read_complete_q
+5e370238a784de3e2c0d0e3ec0fe6ea1ce95921f svcrdma: Copy construction of svc_rqst::rq_arg to rdma_read_complete()
+2dee7499526ced819711f108ead87a89cdf083dc svcrdma: Implement multi-stage Read completion again
 
---===============6369202763380678863==--
+--===============6275496506568352661==--
