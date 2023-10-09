@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3557419433335964686=="
+Content-Type: multipart/mixed; boundary="===============8320861366066519117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Oct 2023 18:35:36 -0000
-Message-Id: <169687653616.8590.16282495822744365142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Oct 2023 18:35:43 -0000
+Message-Id: <169687654362.8731.13337318009616133039@gitolite.kernel.org>
 
---===============3557419433335964686==
+--===============8320861366066519117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 1426b9ba7c453755d182ebf7e7f2367ba249dcf4
     new: cc660a4a8ea8d360706db9ca9ed08ac95c906ea5
     log: revlist-1426b9ba7c45-cc660a4a8ea8.txt
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 72151ad0cba8a07df90130ff62c979520d71f23b
     new: fee44f43b235b8290629bcf077dc6ca13d06c753
     log: |
@@ -31,32 +31,32 @@ changes:
          fee44f43b235b8290629bcf077dc6ca13d06c753 Convert Rockchip ASoC drivers to GPIO descriptors
          
 
---===============3557419433335964686==
+--===============8320861366066519117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1696876534 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1696876533-b4f5496384a82711caba6d02c0e94d3562459dc2
+pusher C3F436CA30F5D8EB 1696876541 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1696876540-ed3b5bf24d0ef3272f3c4138516c5cd39083d17a
 
-1426b9ba7c453755d182ebf7e7f2367ba249dcf4 cc660a4a8ea8d360706db9ca9ed08ac95c906ea5 refs/heads/for-6.6
-72151ad0cba8a07df90130ff62c979520d71f23b fee44f43b235b8290629bcf077dc6ca13d06c753 refs/heads/for-6.7
+1426b9ba7c453755d182ebf7e7f2367ba249dcf4 cc660a4a8ea8d360706db9ca9ed08ac95c906ea5 refs/heads/asoc-6.6
+72151ad0cba8a07df90130ff62c979520d71f23b fee44f43b235b8290629bcf077dc6ca13d06c753 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUkR/YACgkQJNaLcl1U
-h9DdFwf9Fpj7oIlROz1hzKnQMSvhnHqSc0FLexSPT/GTq+NpUqqXyvkaaiHjIXFr
-4alHAE/TeMXxueBWWJ+K+jvd64BmEWZd0UNdhzygNhbdfvdE0mieklbbKlV8CleC
-hel/NX6TVRurjps6Lkww8gFXGfiq7C6WBWtAiyVGft24gKQJ4ZDEnrs6+S9gGg1O
-b6xbc7NMjoi2rSqZXa6+0zQyccWFwwYbMaOmU+OHst1W3c9AeYNjRyY8AFciX18F
-lXHdt8W1PeSJIoMMTAY3Oh7eyA17hMiCXO7pzv0XbDzAkXSrAGNjyjVV3v14qBXZ
-T2FxD428EN5cRTqlLBbaEgLvpi3aOQ==
-=a+rJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUkR/0ACgkQJNaLcl1U
+h9A9+gf/cEoOQMiMGCd9x3ZhCqGm+bz8IG+y2w/Bwhs4eUu4gWjWP6/gp0Lyhvnk
+oSerzjwH75Ezpv5xHgiS3FAGvAFZaZ0gpQzJ8GPlghhz0Dcdbrqd0YhimVCCINo8
+OHKuqclBaVVYxyOUwizElHwA7d19e6jleCKucrE8Z8zSr4xSb1iTW46np3i2FVzC
+7rd7XF2hV2vVBtVzSqNXFxn8hj21PBh0qHLDtwAMLwd7IooeyJvNzRYISsuNlW7/
+uSzlboRX1nRZByakwNC0aczDdFwMaClQu4Hh3OI5cp2GD2M+uoRLDLYboyp9il3p
+FiwrSRvTlcgkapOKyXuGbWG56hdR3Q==
+=OSi7
 -----END PGP SIGNATURE-----
 
---===============3557419433335964686==
+--===============8320861366066519117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ aa6464edbd51af4a2f8db43df866a7642b244b5f ASoC: pxa: fix a memory leak in probe()
 e182212185bbda3440644f732f17a825fa4be456 ASoC: codecs: wcd938x: fix probe and bind error
 cc660a4a8ea8d360706db9ca9ed08ac95c906ea5 ASoC: codecs: fix widget name comparisons
 
---===============3557419433335964686==--
+--===============8320861366066519117==--
