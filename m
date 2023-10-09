@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Oct 2023 21:40:03 -0000
-Message-Id: <169688760353.13871.7350831881389917221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Mon, 09 Oct 2023 21:40:39 -0000
+Message-Id: <169688763904.14181.11763058121287487570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 0113412a6f392dfd59352dcfbda5ba29f5fdedb1
-    new: eac584bb27e6d7d48ed5f6f1e98ecbe6417e59c1
-    log: |
-         eac584bb27e6d7d48ed5f6f1e98ecbe6417e59c1 ASoC: DT matching and header cleanups
-         
+  - ref: refs/tags/media-rkisp1-next-20231010
+    old: 0000000000000000000000000000000000000000
+    new: c83c92c3117126f0e306f3ea5f2d4302da790b70
