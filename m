@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Oct 2023 12:57:23 -0000
-Message-Id: <169685624334.32748.11635402053513650633@gitolite.kernel.org>
+Date: Mon, 09 Oct 2023 12:57:31 -0000
+Message-Id: <169685625124.434.15753372187140408976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 09d74a0042bd13a2e9415d12c0d751215e85906f
-    new: 832ee8d6a27e8ad9ef09d9a3dffdb7a37642bcaf
+  - ref: refs/heads/sched/core
+    old: 7bc263840bc3377186cb06b003ac287bb2f18ce2
+    new: e03dc9fa0663bc303383170e961561462ff00c93
     log: |
+         5b77261c5510f1e6f4d359e97dd3e39ee7259c3d sched/topology: Remove the EM_MAX_COMPLEXITY limit
          e03dc9fa0663bc303383170e961561462ff00c93 sched/psi: Change update_triggers() to a 'void' function
-         832ee8d6a27e8ad9ef09d9a3dffdb7a37642bcaf Merge branch into tip/master: 'sched/core'
          
