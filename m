@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7919953933745400733=="
+Content-Type: multipart/mixed; boundary="===============3834268404338895705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Mon, 09 Oct 2023 10:46:42 -0000
-Message-Id: <169684840250.2186.11395484922146616429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 09 Oct 2023 10:49:05 -0000
+Message-Id: <169684854530.3153.4200960392535439700@gitolite.kernel.org>
 
---===============7919953933745400733==
+--===============3834268404338895705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-user: colyli
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/openEuler-23.09
-    old: e25a79ce4c5d96d7ecc63898445f704c2d0e04b4
-    new: 8f71173f1543ca68946da48a11718d2faf95cbf5
-    log: revlist-e25a79ce4c5d-8f71173f1543.txt
+  - ref: refs/heads/master
+    old: cefc68f44ceeae2465c944cc967682daf9b96fef
+    new: ab6e52bd0520b7830dc81ce2b6746d26baf508ed
+    log: |
+         ab6e52bd0520b7830dc81ce2b6746d26baf508ed 6.1-stable patches
+         
 
---===============7919953933745400733==
+--===============3834268404338895705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e25a79ce4c5d-8f71173f1543.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0478e83070aa160154adbef16f973651e53ae02e cpufreq: Add cpufreq driver for LoongArch
-c67d0bb43d93797527d97cc77a591a2679ad7e1c fbdev: add ls2k500sfb driver for ls2k500 bmc.
-b7d2e82a2b8fcf375b1d1e778f966b7f2904a967 ipmi: add ls2k500 bmc ipmi support.
-2a6ef7a464eeead621b5bbf457edd1005a4571f1 LoongArch: defconfig: enable CONFIG_FB_LS2K500=m.
-7393e1cee1f9c087aac737ac3a2de8d120d9dad8 rtc: Add rtc driver for the Loongson family chips
-2f45b96cbb451534b6fef05be5ac0ffa6289e64c LoongArch: kdump: Add memory reservation for old kernel
-ee8f29324d934dea43454d7067db1ba11cebe3ce LoongArch: kexec: Add compatibility with old interfaces
-ba9089c0171a7614d265fc6ec4a90462f3f07f94 LoongArch: Fix kdump failure on v40 interface specification
-f471fdc00fe2a21960e7fac3d0537191c654b047 LoongArch: kdump: Add high memory reservation
-61db08ce9c1109754cc03fa7c89de82ff0238d1d LoongArch: add kernel setvirtmap for runtime
-43fa04bbc867715ac8a195a9fb26a85f6f0ca76c LoongArch: Old BPI compatibility
-de656a463fe7a5909cd34893c522b7fc6cf4d911 LoongArch: Fix virtual machine startup error
-31dff159034434062d1dbac3aa34c8290fcf49dc LoongArch: Fixed EIOINTC structure members
-da7a5239360921765d6fa3c8a223645287b7b5a4 LoongArch: use arch specific phys_to_dma
-4a0d6a745a1af1cfc161d87a742b54dab1523edc gpio: loongson: Add 3A/3B/3C/7A gpio dirver support
-c55bc262f45e4f4e0dfcd6a395d56550c27af569 !2283  LoongArch: Add cpufreq and BMC
-1345549abc81d9ac7b15eb0e1746c398e73fe8bb !2284  LoongArch: add rtc driver and fix
-7f90674f7e8bd71c716b30594dadf3fbe37b4429 !2289  gpio: loongson: Add 3A/3B/3C/7A gpio dirver support
-8f71173f1543ca68946da48a11718d2faf95cbf5 !2285  LoongArch: add old BPI compatibility
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696848544 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1696848543-0d66a2f823c8bc106d910debee88c5e6f733170c
 
---===============7919953933745400733==--
+cefc68f44ceeae2465c944cc967682daf9b96fef ab6e52bd0520b7830dc81ce2b6746d26baf508ed refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUj2qAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dIQQAM+CUmzz9NOgbPOi1+TU
+JGIdY8aUB0ZA8Ml5TLY0DFYUCCUNcqPvPko1nkKueC74ZzAV2rJ2wPzkvySgKVok
+4fdR+GMrVvVscOHP0DPVhwkUAgIJgtQwxWmPNf9d4BcwuPbehkZvHtBne4mSfBeM
+nPxN3Y+O1COKMUKw0iYTeH8F+u0LkHsmosJSL/TPgeJ2Bosqqfg0uTciCt/WQwZD
+JZngATa5Je1+ceiubP0JdShqK9UAFOK7cZ+LErBhBRiyKxoOOLn6XUOEExHg0eNz
+McpXS+xshZUnG5F5S9TRU3xomK1+111MPVz9f0M3gxbe/DhhBwbiPMaCO/g+uAGg
+T9ayEsSnirqatyuO+GMve/7J18H8GoyiRN1RlSssIqYOqrCnR7DfQ6iI6uUGue8t
++MTmYzWIajeSvEuvsiQVTo1GE+u/QycdEvPoKRt0RjTWQoW0ghbv24qYa4PaQ3pJ
+uwXKGfZc1QZi1365qEDqytvrckKcXELqGG/+snyOuYkWoYevz5S5e8HFtM9aIxpJ
+gkrY8JcmpBWj3NaX0KLLAOOgDRsX2c2VC3Ryq0Zrzq3KkA70ZR+Ii07z/nnqYlwp
+FrBnsiiryaDTDJZLNoRp2mxr3IT47NVRT0cgZJc7aMWvTMNurM9ZoEivboibWxmm
+UHTK6G/u/A6svmzOgdCsXUQn
+=WL73
+-----END PGP SIGNATURE-----
+
+--===============3834268404338895705==--
