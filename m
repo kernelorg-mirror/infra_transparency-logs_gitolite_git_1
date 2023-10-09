@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 09 Oct 2023 16:42:51 -0000
-Message-Id: <169686977131.22904.11371788932156690132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 09 Oct 2023 16:43:12 -0000
+Message-Id: <169686979278.23101.7945141882297687023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: a1b75cc557ded8b00a1418c627804fe89b98f635
-    new: 17664e16123c67959da5023011afcd7c586c1b96
+  - ref: refs/heads/for-6.6-fixes
+    old: 3dbe253a34aee8cb3b1fdd7025408e404ff03917
+    new: 1ca0b605150501b7dc59f3016271da4eb3e96fce
     log: |
-         8a6b446d8a13673bfcf44fbd09d737ae4ccf0bfd spi: spi-geni-qcom: Rename the label unmap_if_dma
-         17664e16123c67959da5023011afcd7c586c1b96 Merge remote-tracking branch 'spi/for-6.7' into spi-next
+         1ca0b605150501b7dc59f3016271da4eb3e96fce cgroup: Remove duplicates in cgroup v1 tasks file
+         
+  - ref: refs/heads/for-next
+    old: dd1153f26574cb20ab81d16699d52eacbb1c32e4
+    new: 2f355801a96a8050a25e330375a33692a72f6ab7
+    log: |
+         1ca0b605150501b7dc59f3016271da4eb3e96fce cgroup: Remove duplicates in cgroup v1 tasks file
+         2f355801a96a8050a25e330375a33692a72f6ab7 Merge branch 'for-6.6-fixes' into for-next
          
