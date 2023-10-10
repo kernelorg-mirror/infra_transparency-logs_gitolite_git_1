@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 10 Oct 2023 12:00:01 -0000
-Message-Id: <169693920143.12805.1562232635268630590@gitolite.kernel.org>
+Date: Tue, 10 Oct 2023 12:00:04 -0000
+Message-Id: <169693920485.14490.16858627314661234949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: 2132df16f53b4f01ab25f5d404f36a22244ae342
-    new: b481f644d9174670b385c3a699617052cd2a79d3
+  - ref: refs/heads/fixes
+    old: b481f644d9174670b385c3a699617052cd2a79d3
+    new: a20c4350c6a12405b7f732b3ee6801ffe2cc45ce
     log: |
-         a154f5f643c6ecddd44847217a7a3845b4350003 scsi: target: core: Fix deadlock due to recursive locking
-         514f0c400bde6b62405467daaf2a0a86bcf7794b scsi: fnic: Fix sg_reset success path
-         b481f644d9174670b385c3a699617052cd2a79d3 scsi: zfcp: Fix a double put in zfcp_port_enqueue()
+         a20c4350c6a12405b7f732b3ee6801ffe2cc45ce scsi: ufs: core: Correct clear TM error log
          
