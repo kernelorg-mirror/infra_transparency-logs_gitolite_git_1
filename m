@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7883459643454789364=="
+Content-Type: multipart/mixed; boundary="===============6162920071157126601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 10 Oct 2023 16:12:25 -0000
-Message-Id: <169695434537.17555.11689105084195781773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Oct 2023 16:12:32 -0000
+Message-Id: <169695435241.17688.10652908452849989597@gitolite.kernel.org>
 
---===============7883459643454789364==
+--===============6162920071157126601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/regmap-6.6
     old: 7a795ac8d49e2433e1b97caf5e99129daf8e1b08
     new: c6df843348d6b71ea986266c12831cb60c2cf325
     log: |
          c6df843348d6b71ea986266c12831cb60c2cf325 regmap: fix NULL deref on lookup
          
 
---===============7883459643454789364==
+--===============6162920071157126601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1696954343 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1696954342-acadfc4adf535f18c826c552dce9cac0d869555f
+pusher C3F436CA30F5D8EB 1696954350 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1696954349-433da55cac50cfd4ec54f8f668117f740bd12102
 
-7a795ac8d49e2433e1b97caf5e99129daf8e1b08 c6df843348d6b71ea986266c12831cb60c2cf325 refs/heads/for-6.6
+7a795ac8d49e2433e1b97caf5e99129daf8e1b08 c6df843348d6b71ea986266c12831cb60c2cf325 refs/heads/regmap-6.6
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUld+gACgkQJNaLcl1U
-h9BVlQf/bwRhViO/J7R3M9kK0sgWFlVwpMO+duEIbZRo7smeBZfcAIHBwCFxNvN6
-QDLoc1RbNnMoGR5S3jDoY6rCHNYDFy4sSEhzpGMjSUJ8oOPyZa5G7TPbz+S0g9wu
-ZUQa5UH0d9whraUfA2V+lvCG5adnFz3drR2N9+TpsivENds+5YmOoTXqK/Avmktd
-NErbZ67Ed0cMd6whGLwU7UCg0o5H+e9GDO1Md7okwfqMM/SwwYvqsGTzUBRT6v8q
-WxvwYu0jxn2oHz+dEZ33OPqk8ksVDJJsFr90yTCc/8lBrlGxJSyVUhVWEHP2WA4I
-Xq3G31ZSlFoXgBcyVM5LYffsmWyLSA==
-=4bbn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUld+8ACgkQJNaLcl1U
+h9AEvgf/XopfKxgJfLHy8koTjpqGpZ1c117ueKokUFMsTr4HzAnGf/lgsQLNbzRe
+GcEgzz7hqComH2xopRYBRHmhRc4sdtk0E8yU8VJ4wVZHd+hpVK89nZwi8ZJYm8gz
+1OL/L6v0fL+4Iku+QB1+vZwhxF04oaZ3GrIOpjswf9aa7wqMwkzZeSv+Whontea0
+gYv5NqwsFM75DHNDNDb+kbPrIlfL/CKUOHIpSRLdFmlJUcAuFwcuDM/M8LswbYDf
+0DuCX1o5Rso1b254ZrLm1jzKcWYWREeeuNsk8gWQ1/D9fnvOhxkNo0eDgRkvbalN
+z4qJU/bbkMLVt2/oyZzX1bHu65/FgQ==
+=TCyx
 -----END PGP SIGNATURE-----
 
---===============7883459643454789364==--
+--===============6162920071157126601==--
