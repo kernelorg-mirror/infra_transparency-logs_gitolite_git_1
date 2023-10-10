@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 10 Oct 2023 16:49:26 -0000
-Message-Id: <169695656601.11931.13878916948058239524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 10 Oct 2023 17:00:28 -0000
+Message-Id: <169695722895.20599.8697385260888225396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: bb812e0069ce5de9af2a7910951c8c95632cebe3
-    new: c97d1b20d3835178bcd0e3a86c20ce4e36b6d80c
+  - ref: refs/heads/dev
+    old: 48cae256cc82aa3bb7a90136d06f390bc4e1d674
+    new: 260fdeec1d0ea77c22c959e5c3533bc4a30720a6
     log: |
-         909f4abd1097769d024c3a9c2e59c2fbe5d2d0c0 iommu: Add new iommu op to create domains owned by userspace
-         7975b722087fa23ff3ad1ff4998b8572a7e17e84 iommufd: Use the domain_alloc_user() op for domain allocation
-         89d63875d80ea127280c60dd4cd101af1d9b6557 iommufd: Flow user flags for domain allocation to domain_alloc_user()
-         4ff542163397073f86eda484318d61980ff1031d iommufd: Support allocating nested parent domain
-         408663619fcfc89c087df65b362c91bf0a0be617 iommufd/selftest: Add domain_alloc_user() support in iommu mock
-         c97d1b20d3835178bcd0e3a86c20ce4e36b6d80c iommu/vt-d: Add domain_alloc_user op
+         0155dd58211c870848e8bc0f8824befdb4696b16 x86/nmi: Fix out-of-order nesting checks
+         260fdeec1d0ea77c22c959e5c3533bc4a30720a6 locktorture: Increase Hamming distance between call_rcu_chain and rcu_call_chains
          
