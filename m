@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Tue, 10 Oct 2023 15:58:59 -0000
-Message-Id: <169695353935.5834.12766414636553831944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 10 Oct 2023 16:02:48 -0000
+Message-Id: <169695376852.8900.14486281663846587016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 389af786f92ecdff35883551d54bf4e507ffcccb
-    new: cbd6ed207e551ed5e8dee7c1a44cba5f46eaf78e
+  - ref: refs/heads/mgtime
+    old: d0c1f2e569adfbc6aaf4053d277eb6df8bf8a855
+    new: 25289dbaa0a244dd83bde99a2dda0094ec164dc3
     log: |
-         cbd6ed207e551ed5e8dee7c1a44cba5f46eaf78e drm/exynos: Call drm_atomic_helper_shutdown() at shutdown/unbind time
+         25289dbaa0a244dd83bde99a2dda0094ec164dc3 SQUASH: inode.c
          
