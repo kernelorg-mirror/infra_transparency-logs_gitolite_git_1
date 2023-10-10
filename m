@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1065977031937393287=="
+Content-Type: multipart/mixed; boundary="===============1460834157717283804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 10 Oct 2023 17:49:05 -0000
-Message-Id: <169696014529.22827.12774808699870099420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Oct 2023 17:49:11 -0000
+Message-Id: <169696015155.22919.7378901634061628996@gitolite.kernel.org>
 
---===============1065977031937393287==
+--===============1460834157717283804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/spi-6.7
     old: 8a6b446d8a13673bfcf44fbd09d737ae4ccf0bfd
     new: 8097dbd4b631b1f4cfe3def909f828b071d99ad7
     log: |
@@ -26,28 +26,28 @@ changes:
          8097dbd4b631b1f4cfe3def909f828b071d99ad7 spi: Add RZ/V2M CSI target support
          
 
---===============1065977031937393287==
+--===============1460834157717283804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1696960143 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1696960143-cf7abd7cfe2ef763881aae973a95b3c20922956f
+pusher C3F436CA30F5D8EB 1696960150 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1696960149-1f9327f0721145cc20724641f23875e0707a2e1d
 
-8a6b446d8a13673bfcf44fbd09d737ae4ccf0bfd 8097dbd4b631b1f4cfe3def909f828b071d99ad7 refs/heads/for-6.7
+8a6b446d8a13673bfcf44fbd09d737ae4ccf0bfd 8097dbd4b631b1f4cfe3def909f828b071d99ad7 refs/heads/spi-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUljo8ACgkQJNaLcl1U
-h9DC/Qf+On0FX5kg7UjeI+ylpsl9NFYFA3lkr36CDAttUza6+UkNEWc7J50N3dyU
-gkC1VcmR9r/BrFB5HJSOMgnk9Pp0+OQX+0tVq6FClv5RhBH5+PLFMI77QFLaDgq8
-0Uhv3aC4aJNqGLQ04EKxwzpPeHByMpAFAKUld4+ZacO0uHCv7x+FTPdKfPF7QRP2
-uCVW7AWPm9fkyoK9CfFb29pEPJNoH4JUmqAs/C56+uxde065sEMlw3gfoBHNAVgt
-QmHMsdNOdhk/2rIkaEL/q4Lm2VwFvUO824T4XEK19x2d21RjkIYU41R0ujjdmZi/
-94Hr6iiYBRjHn5C30QaCwm+5tSSRMQ==
-=X2mI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUljpYACgkQJNaLcl1U
+h9CewAf9GEVs4gxaRIoudcHcixN92xA61cJl1hwg3AxVtVhpX0YzOgFeZXIee3Qm
+JymLATcH0crLKKfmEIos/w1IiD9p0wvA0oNHKwnHDpXEmUMbytOBiEGc6szgtQPN
+qpuUth+MWf6aWZ5iamrcEiZOGVUjnKFKigSJ/ikB3+izBHdRLvzs8u7olY6sM0ke
+UFqD8rMnAayF9HzjT56RWhv+I5TylXFYKzZAlHdkRAKm6gePNGVDRFwj5+Cg2tEo
+X7r+/qVi9+Su0TYXH11ppBdGLkaXm5ohYWS7vWGYabztbfJLXjFaBFIRMk3wMTgt
+r6g6aQ0tId4dJG7VHsrKsrK6/20JsA==
+=CI1e
 -----END PGP SIGNATURE-----
 
---===============1065977031937393287==--
+--===============1460834157717283804==--
