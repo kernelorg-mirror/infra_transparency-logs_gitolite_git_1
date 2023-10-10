@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 10 Oct 2023 16:32:15 -0000
-Message-Id: <169695553524.32081.3864259371696156822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 10 Oct 2023 16:35:47 -0000
+Message-Id: <169695574796.2587.6703766534142411080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 17664e16123c67959da5023011afcd7c586c1b96
-    new: a6ceb7828ab77437421eb71b67235b2f03427f32
+  - ref: refs/heads/review-andy
+    old: 3013c7f7780de32b950762f3a8904ef0da44ed63
+    new: 55176feaa4d8f7d07005c6199d7843bc2991773d
     log: |
-         a6ceb7828ab77437421eb71b67235b2f03427f32 Merge remote-tracking branch 'spi/for-6.7' into spi-next
+         d3386552155c6e9128e49fff86d7acfe4b13f949 pinctrl: cherryview: Avoid duplicated I/O
+         d59b099c667f1fe2801a2f4b9a22a66b54c37c76 pinctrl: cherryview: Simplify code with cleanup helpers
+         55176feaa4d8f7d07005c6199d7843bc2991773d pinctrl: intel: cherryview: Convert to platform remove callback returning void
          
