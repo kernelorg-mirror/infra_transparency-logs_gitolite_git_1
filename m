@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Tue, 10 Oct 2023 14:36:47 -0000
-Message-Id: <169694860778.11880.6710134143766524256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 10 Oct 2023 14:41:10 -0000
+Message-Id: <169694887015.16350.16174246706082348099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/nf-next-23-10-10
-    old: 0000000000000000000000000000000000000000
-    new: d5f65e1515a4978d1e914ca6bc02bfce0a2e748b
+  - ref: refs/heads/mgtime
+    old: 241c3b558e5f6ffcf23ebaaf3f8f3f8b0e092802
+    new: d0c1f2e569adfbc6aaf4053d277eb6df8bf8a855
+    log: |
+         d0c1f2e569adfbc6aaf4053d277eb6df8bf8a855 xfs: switch to multigrain timestamps
+         
