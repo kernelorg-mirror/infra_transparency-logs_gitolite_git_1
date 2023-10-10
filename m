@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 10 Oct 2023 14:27:09 -0000
-Message-Id: <169694802987.4966.17483513192530772743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mmc/mmc-utils
+Date: Tue, 10 Oct 2023 14:32:08 -0000
+Message-Id: <169694832854.8433.6035022223269555444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
+repo: pub/scm/utils/mmc/mmc-utils
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 09b59829715bc3c929bb300e2bd5d01e37faa3d3
-    new: a2b8fa785358f699e9736718f430cddf596cd79e
+  - ref: refs/heads/master
+    old: 80271e9a6fd0db9cb3a85d024664da886e94315c
+    new: b5ca140312d279ad2f22068fd72a6230eea13436
     log: |
-         44ac5e91580b9c88212bd0336214ac204e6e9fe7 mmc: mmci: use peripheral flow control for STM32
-         6fff35f0335300af81c96326061f3cf3866ba6b8 mmc: core: Always reselect card type
-         ff369d7b98426abf7bccb0722253f5d4490f3c17 mmc: debugfs: Allow host caps to be modified
-         a30c6251859cf93700c2294b65706046bac29e55 mmc: sdhci-pci: Switch to use acpi_evaluate_dsm_typed()
-         34457e4e0c15ad5bcd8eb4e8a728e750bb020288 mmc: sdhci-pltfm: Drop unnecessary error messages in sdhci_pltfm_init()
-         4261ff59f4be26fb4a553c6e916852221fae4477 mmc: sdhci-pltfm: Make driver OF independent
-         4436673a4fe1e83520589f4f05235a510f82f637 dt-bindings: mmc: npcm,sdhci: Document NPCM SDHCI controller
-         0ebebb21c48408bfa96a6fb18aa1a5bb543e2312 mmc: sdhci-npcm: Add NPCM SDHCI driver
-         a2b8fa785358f699e9736718f430cddf596cd79e mmc: jz4740: Use device_get_match_data()
+         e82719f1d29c2a2f91234ab92765040342d8cda9 mmc-utils: lsmmc: Simplify prinitng manufacturer name
+         3b055a2129bf053bcb00f4bfc603d6045af14dba mmc-utils: lsmmc: Simplify interface processing functions
+         d1d8a05eeb4bc88178705aaf86e6e636c6038928 mmc-utils: lsmmc: Disintegrade print_mmc_csd
+         b5ca140312d279ad2f22068fd72a6230eea13436 mmc-utils: lsmmc: Fix emmc capacity calculation
          
