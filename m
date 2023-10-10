@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1991538297892885457=="
+Content-Type: multipart/mixed; boundary="===============8622587681857772806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
-Date: Tue, 10 Oct 2023 15:20:19 -0000
-Message-Id: <169695121939.11853.2845749674058543740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Oct 2023 15:31:58 -0000
+Message-Id: <169695191855.19222.10349603225489043982@gitolite.kernel.org>
 
---===============1991538297892885457==
+--===============8622587681857772806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs-next
-user: horms
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 48533eca606efcf63ef4080ded5618e0b17ee3d7
-    new: f0107b864f004bc6fa19bf6d5074b4a366f3e16a
-    log: revlist-48533eca606e-f0107b864f00.txt
+  - ref: refs/heads/master
+    old: cb3bd57fbe8d395e17032285c56f991ba8cc2df6
+    new: 8102b0c2a805555ff0d7c6ecc570fd27e72d512c
+    log: |
+         8102b0c2a805555ff0d7c6ecc570fd27e72d512c drop btrfs-reject-unknown-mount-options-early.patch from everywhere
+         
 
---===============1991538297892885457==
+--===============8622587681857772806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48533eca606e-f0107b864f00.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-19537e125cc7cf2da43a606f5bcebbe0c9aea4cc net: bcmgenet: Remove custom ndo_poll_controller()
-0aba524728f0d893829f6909c40608390a1912c1 bcm63xx_enet: replace deprecated strncpy with strscpy
-52cdbea1a54aba106e6c616c0500a12a965ecbbe liquidio: replace deprecated strncpy/strcpy with strscpy
-092b0be650325b3db490b48182ae23dba0b5755c net: liquidio: replace deprecated strncpy with strscpy_pad
-a16724289af0da1f922e41fd09f229f0beec10f9 liquidio: replace deprecated strncpy with strscpy
-c0423539559547d49cb62e76574599593829dcf8 cavium/liquidio: replace deprecated strncpy with strscpy
-e18f3dc2beaa5055e27334cd2d8b492bc3e9b3a4 tools: ynl-gen: lift type requirement for attribute subsets
-7049fd5df78cf0e7463d8e8bb41db60b6762df6c netlink: specs: remove redundant type keys from attributes in subsets
-a4cd2f311a9a51a727db0a5cc535bb223b0e8453 Merge branch 'tools-ynl-gen-lift-type-requirement-for-attribute-subsets'
-8cea95b0bd7930367f11e2abceda6e096dd18943 tools: ynl-gen: handle do ops with no input attrs
-95b9a87c6a6b708cccda1f9b7baf9920b80cdabf tcp: record last received ipv6 flowlabel
-939463016b7a869d8b407cfcda4d6545de399698 tcp: change data receiver flowlabel after one dup
-c41a38ef3bf78a86f94c3f67a19368a98c10ee2c Merge branch 'tcp-save-flowlabel-and-use-for-receiver-repathing'
-59fe651753fb897ebe0ac91c19cf503e7a551632 net: dsa: microchip: Fix uninitialized var in ksz9477_acl_move_entries()
-83b2d81b691ce0efdd4087c510d33087c2474da1 mlxsw: core_thermal: Fix -Wformat-truncation warning
-392ce2abb0cef182f026324b208d1856e58ecac8 mlxsw: spectrum_ethtool: Fix -Wformat-truncation warning
-000677f9d6ee750fe926c2f0487956e68e333e8f Merge branch 'mlxsw-fix-wformat-truncation-warnings'
-f0107b864f004bc6fa19bf6d5074b4a366f3e16a atm: fore200e: Drop unnecessary of_match_device()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1696951917 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1696951916-c977456b9e882b1c9f1f3fb4b6065dc43f48e0de
 
---===============1991538297892885457==--
+cb3bd57fbe8d395e17032285c56f991ba8cc2df6 8102b0c2a805555ff0d7c6ecc570fd27e72d512c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUlbm0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+irkP/12p4dwVYNjF74M4hka4
+OVqs+QsXKZnP/bT9TO4uq4K3Mf9JAoenoa2GWAM91/vYC13UM8g7AsK+ta844PMD
+cMI/w2bbiKc6f6oj94n0g2i0VOp8YYQhQ2+WBsbLbbueDSuNr7d4ASiH0aOWnPyQ
+HjrufIbG2dd+AKE7vQz6opKshn6a4hbUiABtdQOWCfkNjRGwoW10JTfZWa1aFN61
+vqDaj/2fMkkCrZzBttdtNC3FC3zSPB76BtKnF002COVCXSQ91KG7edZ07Aoi6UU9
+QWc92CYlgEfT7/hm3VzKjnnBHHAq1vhyHs6w5aE45NizUrppWSL7ItLAO5v+y8d2
+IEb3w7dtXCtqrFZkjCyvckCfioKF9G2GUJxh4WgMHgMJJIyl2ron5x8qymmIM+r7
+uG45XDF4o46Ax4cCBXPupkucWItLXoje3HbjmzV+bBjZiX/HKvlJKLqNByIwDihf
+d7wsgv+SNVysJoY+IgCPpn3Nqjb6+bEvbdt13G0mqPsOuKeD9hJnoe2GcRcjzjCs
+KUQCbIHwuK3Eq2Sb6M3VkRyPK/awLcH6LCgHkfRPeQU4CZ2yWwnBpkAW/haKLK2+
+YVsscat3psIKn/wVzxmJzYXVa0PXTSdFOIu88w1KPyOPUADGqM3scvXEFTQa2MmU
+n4/dj7HwkxuPAITYiF+o2rYx
+=zDDN
+-----END PGP SIGNATURE-----
+
+--===============8622587681857772806==--
