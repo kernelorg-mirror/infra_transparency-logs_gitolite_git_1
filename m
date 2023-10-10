@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6054632249563542725=="
+Content-Type: multipart/mixed; boundary="===============6592723615396428998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 10 Oct 2023 20:41:41 -0000
-Message-Id: <169697050115.3984.4543123578934025232@gitolite.kernel.org>
+Date: Tue, 10 Oct 2023 20:42:16 -0000
+Message-Id: <169697053608.4294.8918422728308497155@gitolite.kernel.org>
 
---===============6054632249563542725==
+--===============6592723615396428998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c4d49196ceec80e30e8d981410d73331b49b7850
-    new: da6192ca72d5ad913d109d43dc896290ad05d98f
-    log: revlist-c4d49196ceec-da6192ca72d5.txt
+  - ref: refs/heads/dev-queue
+    old: 13e5bef535438fbbfc61b47e4444bba768edb187
+    new: 3506a31c360ff8ec688293f859630fbd7e780a59
+    log: revlist-13e5bef53543-3506a31c360f.txt
 
---===============6054632249563542725==
+--===============6592723615396428998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4d49196ceec-da6192ca72d5.txt
+Content-Disposition: attachment; filename=revlist-13e5bef53543-3506a31c360f.txt
 
 aba0e909dc20eceb1de985474af459f82e7b0b82 devlink: Hold devlink lock on health reporter dump get
 e6864af61493113558c502b5cd0d754c19b93277 ravb: Fix up dma_free_coherent() call in ravb_remove()
@@ -42,5 +42,15 @@ fde2f2d7f23d39f2fc699ba6d91ac3f4a2e637ca net/mlx5e: macsec: use update_pn flag i
 7b5add9af567c44e12196107f0fe106e194034fd ixgbe: fix crash with empty VF macvlan list
 a72178cfe855c283224f393d94a1332b90d1483e net/smc: Fix dependency of SMC on ISM
 da6192ca72d5ad913d109d43dc896290ad05d98f net/mlx5e: Again mutually exclude RX-FCS and RX-port-timestamp
+928201dccd399962edcb12cc7e887a8057da68c8 KVM: SVM: Fix build error when using -Werror=unused-but-set-variable
+dc52dc5b67e8d612fc95572194ce96fc9debedbf i40e: fix livelocks in i40e_reset_subtask()
+fc4a88736515ae931937bd24540eeed5838da4f8 i40e: fix 32bit FW gtime wrapping issue
+477f00e1d5ac1faca12edda13903754204989c01 ice: fix over-shifted variable
+a40ea6d2261f8c8103473af095679bcaa226df92 igc: Fix ambiguity in the ethtool advertising
+5780147a5faacf77ec9f270cb3ebae8e7e373571 ice: Fix safe mode when DDP is missing
+a6fe56dcb8f7e1ee3fc6e8d6395b7338564bca3f igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+a481272ae30d7655c4e7589ce96e0f1db5944c25 ice: reset first in crash dump kernels
+ce13d615f8aa048ad2931d13d4183bdebf2852eb i40e: sync next_to_clean and next_to_process for programming status desc
+3506a31c360ff8ec688293f859630fbd7e780a59 i40e: prevent crash on probe if hw registers have invalid values
 
---===============6054632249563542725==--
+--===============6592723615396428998==--
