@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 10 Oct 2023 21:22:27 -0000
-Message-Id: <169697294768.1451.15518895366298214554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 10 Oct 2023 21:23:11 -0000
+Message-Id: <169697299175.1788.6442073327379919033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3506a31c360ff8ec688293f859630fbd7e780a59
-    new: f875e4431b614f455016bf2b036542a4efec3dd2
+  - ref: refs/heads/objtool-test
+    old: f9cb68f7b9dd4e3e2156ada28bab9e209da38aee
+    new: fabb052883c450e96119c535c0d8ab8f6f629a5f
     log: |
-         f875e4431b614f455016bf2b036542a4efec3dd2 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+         fabb052883c450e96119c535c0d8ab8f6f629a5f objtool: Fix return thunk patching in retpolines
          
