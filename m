@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Tue, 10 Oct 2023 18:01:32 -0000
-Message-Id: <169696089225.32045.2160138359556720622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Tue, 10 Oct 2023 18:14:00 -0000
+Message-Id: <169696164053.8584.3100068283595833161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/next
-    old: 9f895354cc3cf4fbff21c922a5721691ed40589d
-    new: 8bf914570650ec5858e18554d70d2838cef01de1
+  - ref: refs/heads/for-next/perf
+    old: 290a9c0e55f84503cccd960365e332b7092219d3
+    new: 53a810ad3c5cde674cac71e629e6d10bfc9d838c
     log: |
-         8bf914570650ec5858e18554d70d2838cef01de1 dmaengine: mmp_tdma: drop unused variable 'of_id'
+         53a810ad3c5cde674cac71e629e6d10bfc9d838c perf: arm_cspmu: ampere_cspmu: Add support for Ampere SoC PMU
          
