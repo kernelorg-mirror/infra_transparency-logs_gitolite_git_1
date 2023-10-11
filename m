@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7108120828829346045=="
+Content-Type: multipart/mixed; boundary="===============1393359644583639716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 11 Oct 2023 15:29:19 -0000
-Message-Id: <169703815902.29131.2838276593901983750@gitolite.kernel.org>
+Date: Wed, 11 Oct 2023 15:29:36 -0000
+Message-Id: <169703817659.29327.9185001286920675094@gitolite.kernel.org>
 
---===============7108120828829346045==
+--===============1393359644583639716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,38 @@ repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: ce331fd3638e41994f73d0cb69830530a17fbd0a
-    new: 87cd3d48191e533cd9c224f2da1d78b3513daf47
-    log: revlist-ce331fd3638e-87cd3d48191e.txt
+    old: 87cd3d48191e533cd9c224f2da1d78b3513daf47
+    new: ba909e8e3e616f81bf982dcd8f6787caf96348b4
+    log: revlist-87cd3d48191e-ba909e8e3e61.txt
 
---===============7108120828829346045==
+--===============1393359644583639716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce331fd3638e-87cd3d48191e.txt
+Content-Disposition: attachment; filename=revlist-87cd3d48191e-ba909e8e3e61.txt
 
-a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
-f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
-417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
-678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
-15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
-c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
-4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
-33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
-d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
-eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
-e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
-87cd3d48191e533cd9c224f2da1d78b3513daf47 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' into perf-tools-next
+59e1732ba0549cd992e24a50ab6e46f98db4c6a8 perf parse-events: Avoid erange from hex numbers
+08c36b2532133b1d2019f8e3d16dc20f9046aa5c perf symbols: Add 'intel_idle_ibrs' to the list of idle symbols
+7a8b52576473cc262d765bae3bfd838e1e79daf6 perf build: Add missing comment about NO_LIBTRACEEVENT=1
+6747a8bb6550ae23a500fe5c4461f9ea9ec1f829 perf parse-events: Fix for term values that are raw events
+ec4a290b9f7338b1b1e0bebf470a12660dfbf136 gen_compile_commands: Allow the line prefix to still be cmd_
+3c4d58a00dba40844dcadce03e4ebca7a8b45cd2 gen_compile_commands: Sort output compile commands by file name
+4a8ed9df1679fef1e24e96b9765b448a82b77e5c run-clang-tools: Add pass through checks and and header-filter arguments
+444f52f829db2b1e55608eaf80d1fb807787e44b perf bench uprobe: Fix potential use of memory after free
+84cc25adb6fa0dc2e77ff2b80d4b731516a87785 perf buildid-cache: Fix use of uninitialized value
+da169c2408d0ca95eddaa6fb960290fa56763ddb perf env: Remove unnecessary NULL tests
+f26745f497c21949cfae9954efe35c20802a3bf7 perf jitdump: Avoid memory leak
+299a86583eebe2463ac2fc86c2d52d950d284209 perf mem-events: Avoid uninitialized read
+aa323ba56e46c2fd1dd5bb30399c844e64df0d4b perf dlfilter: Be defensive against potential NULL dereference
+9867581daae6ea06408330b494242b688bbaf65d perf hists browser: Reorder variables to reduce padding
+400bff9c5c054d3a29622714ffea05a261338442 perf hists browser: Avoid potential NULL dereference
+cc002683417dda4a5caacf93293c0f6a3014f270 perf svghelper: Avoid memory leak
+341ec5c7118cfeea5b4696104dc21c5d6d41cc97 perf lock: Fix a memory leak on an error path
+7c5ccb7d49dc86f5af93e43a67372cf669228e98 perf parse-events: Fix unlikely memory leak when cloning terms
+a2aff716041793d92e37d256bdba6756a3004b29 tools api: Avoid potential double free
+27eb7305a94796a31b820d6c85354342929f7c01 perf trace-event-info: Avoid passing NULL value to closedir
+3c4f8b91c24240a48b76ff7e47f33299386150a9 perf header: Fix various error path memory leaks
+4d11723e3badc78507cb199862dc7389cd4ca5ee perf bpf_counter: Fix a few memory leaks
+ba909e8e3e616f81bf982dcd8f6787caf96348b4 perf cs-etm: Fix incorrect or missing decoder for raw trace
 
---===============7108120828829346045==--
+--===============1393359644583639716==--
