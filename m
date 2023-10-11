@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
-Date: Wed, 11 Oct 2023 14:08:29 -0000
-Message-Id: <169703330907.3576.11012090358165782546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 11 Oct 2023 14:09:15 -0000
+Message-Id: <169703335504.3907.8111891766789285914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinoko
-user: takaswie
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/main
-    old: b1dee8e77a4b6e2a8eb6727b569e8e8e1f85af57
-    new: 69864979aedf0def15a63fa7892be19a3d98bc18
+  - ref: refs/heads/rcu/next
+    old: 84500975af7e41bdcae26ac9bd8c52331f2b3324
+    new: a2522eecb8533b9ccc7ee7e2072620936b9a49c9
     log: |
-         68a5156525badb43d67c5cb44dbcfba4928258f7 meson: bump minimal version up to 0.54.0 for meson.override_dependency()
-         6a85d388ec84050ce352d86745c5aa4cd8606ca0 meson: bump minimal version up to 0.56.0 for meson.global_build_root()
-         69864979aedf0def15a63fa7892be19a3d98bc18 meson: use meson.project_build_root() to find built targets for test
+         4a8e65b0c348e42107c64381e692e282900be361 srcu: Fix callbacks acceleration mishandling
+         1bb2b7de033abd0deff9c9fcf939e7394f032eb4 srcu: Only accelerate on enqueue time
+         cefe8ce559b5ff301f59b44f97c5c313ec30c643 locktorture: Check the correct variable for allocation failure
+         a2522eecb8533b9ccc7ee7e2072620936b9a49c9 Merge branches 'rcu/torture', 'rcu/fixes', 'rcu/docs', 'rcu/refscale', 'rcu/tasks' and 'rcu/stall' into rcu/next
          
