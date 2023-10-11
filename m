@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Oct 2023 21:17:50 -0000
-Message-Id: <169705907087.26259.7499270222143224773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 11 Oct 2023 21:18:14 -0000
+Message-Id: <169705909490.26485.12357471921130765634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: b7c859eaf1a5f15826e24b3b94e70417aea8bff1
-    new: 5a5929f703a550812d950d58f1306eefb510fcbb
+    old: 04f40b747fe278bdddd564584525db265c0a17a7
+    new: afb47b13c600b0c5e01b4fe3f2e670e89faa6ec2
     log: |
-         80cc1d1d5ee35701daf11725ce06d8a240588973 sched/psi: Avoid updating PSI triggers and ->rtpoll_total when there are no state changes
-         3657680f38cd7df413d665f2b2f38e9a78130d8b sched/psi: Delete the 'update_total' function parameter from update_triggers()
-         5a5929f703a550812d950d58f1306eefb510fcbb Merge branch into tip/master: 'sched/core'
+         3a9c637010f8dc1ba3e8382abe01065761d4f5bb input: Fix .device_probe failing if SDP record is not found
+         25a471a83e02e1effb15d5a488b3f0085eaeb675 input.conf: Change default of ClassicBondedOnly
+         afb47b13c600b0c5e01b4fe3f2e670e89faa6ec2 input: Fix smatch warning
          
