@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 11 Oct 2023 23:17:40 -0000
-Message-Id: <169706626058.15512.10613655445622623065@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8923379016323629674=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 11 Oct 2023 23:38:09 -0000
+Message-Id: <169706748914.30212.16706366832138473120@gitolite.kernel.org>
+
+--===============8923379016323629674==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/arm64-2023-dpisa
-    old: 8b13cb599ef3c1395f156e34f6233550f2ce46a9
-    new: eddc36ce9507f392b553e84449736ba3c64c4ade
-    log: |
-         b8a97e3f284ec0a8da09df744566b5a54a30929a arm64/fpsimd: Support FEAT_FPMR
-         3b75f8bec83cefd41909579bed46e9b9c55f6d38 arm64/signal: Add FPMR signal handling
-         3051d594db36f2a3e67e23afd0f5517974e58c81 arm64/ptrace: Expose FPMR via ptrace
-         de8bc938c387d6fdcbe0c1089d16855c07179324 KVM: arm64: Add newly allocated ID registers to register descriptions
-         65724ae2cdd152aaea888d9b4332205f186270e7 KVM: arm64: Support FEAT_FPMR for guests
-         743c1ca4230b0ff2237009089429ffb0f611c00e arm64/hwcap: Define hwcaps for 2023 DPISA features
-         23c162149eab6951b128d7d68350aa963aa67d7e kselftest/arm64: Handle FPMR context in generic signal frame parser
-         40a99e45a8d60c7da5f2c32d43608987a86b4f63 kselftest/arm64: Add basic FPMR test
-         eddc36ce9507f392b553e84449736ba3c64c4ade kselftest/arm64: Add 2023 DPISA hwcap test coverage
-         
+  - ref: refs/heads/seen
+    old: 314ac8413411ad52e7c2500a2f3aaa730f5365e4
+    new: fcd7663eb098943251026eeb4a1ef540f8ce3819
+    log: revlist-314ac8413411-fcd7663eb098.txt
+
+--===============8923379016323629674==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-314ac8413411-fcd7663eb098.txt
+
+4a4a1ae99322dda5866e0f8d74719098bbc7f8df SQUASH???
+d9b6634589d5c59b49fd2fc41953469173a40ff5 stash: be careful what we store
+ab4ee99bdadb48d0212bf4d15144fcdc6166dc65 Merge branch 'jc/fail-stash-to-store-non-stash' into jch
+1d292704318da73958094607675fd334376a6975 Merge branch 'jc/fake-lstat' into seen
+5523879f6998928875059300bb953b83abb577c6 Merge branch 'jc/diff-cached-fsmonitor-fix' into seen
+d7a1b86a4f539dd963e4fa0f10b78419d197a248 Merge branch 'cc/git-replay' into seen
+ad40fbea7df4366c6c8e21d86d876d3b082a0d61 Merge branch 'jc/rerere-cleanup' into seen
+7621f93b0e387e0445a981d73b0b1caa04c48723 Merge branch 'la/trailer-cleanups' into seen
+8c8362bd63e92dc15911f8e63f073b969ceeaf09 Merge branch 'js/update-urls-in-doc-and-comment' into seen
+af18797f834683ff0e40a47b12ac2209e7264bae Merge branch 'eb/hash-transition' into seen
+98f342fb1ad3ffa86b92b2a17309c1d9a308d5bc Merge branch 'jc/attr-tree-config' into seen
+d9985573e64d2d9ab45d495a7de0a6e7216c79ce Merge branch 'js/doc-unit-tests' into seen
+f25bfad09fa3caa0e3ff7fca63e345ac4e1b5c1a Merge branch 'js/doc-unit-tests-with-cmake' into seen
+fcd7663eb098943251026eeb4a1ef540f8ce3819 Merge branch 'jc/doc-unit-tests-fixup' into seen
+
+--===============8923379016323629674==--
