@@ -1,58 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5056235289005838453=="
+Content-Type: multipart/mixed; boundary="===============5812408894081844275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 11 Oct 2023 15:14:26 -0000
-Message-Id: <169703726630.18891.1860209509362399541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 11 Oct 2023 15:21:58 -0000
+Message-Id: <169703771835.24769.15726164499262090883@gitolite.kernel.org>
 
---===============5056235289005838453==
+--===============5812408894081844275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: f291209eca5eba0b4704fa0832af57b12dbc1a02
-    new: f2ac54ebf85615a6d78f5eb213a8bbeeb17ebe5d
-    log: |
-         91d20ab9d9ca035527af503d00e1e30d6c375f2a wifi: cfg80211: use system_unbound_wq for wiphy work
-         02e0e426a2fb1446ebd7bc0eccfb48aedefb966b wifi: mac80211: fix error path key leak
-         b2f750c3a80b285cd60c9346f8c96bd0a2a66cde net: rfkill: gpio: prevent value glitch during probe
-         f2ac54ebf85615a6d78f5eb213a8bbeeb17ebe5d net: rfkill: reduce data->mtx scope in rfkill_fop_open
-         
+  - ref: refs/heads/perf-tools-next
+    old: d7c9ae8d5d1be0c4156d1e20e4369a77b711a4cc
+    new: 87cd3d48191e533cd9c224f2da1d78b3513daf47
+    log: revlist-d7c9ae8d5d1b-87cd3d48191e.txt
 
---===============5056235289005838453==
+--===============5812408894081844275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d7c9ae8d5d1b-87cd3d48191e.txt
 
-certificate version 0.1
-pusher 7BF9099A 1697037237 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1697037237-165099e51c1d8bf3079c81786a6f3270866dce3a
+a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
+f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
+417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
+678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
+15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
+c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
+4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
+33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
+d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
+eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
+e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
+87cd3d48191e533cd9c224f2da1d78b3513daf47 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' into perf-tools-next
 
-f291209eca5eba0b4704fa0832af57b12dbc1a02 f2ac54ebf85615a6d78f5eb213a8bbeeb17ebe5d refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmUmu7UACgkQ10qiO8sP
-aAAJjA/+OJfTGBwGNg604pQbJ7tGytpsKU7e69HYE+xAr+owS6oB04tZYhv4Z2Go
-QorpGSDODqdbUd1zDxUhJi+idc7vtN7kYaEX06w4yk/O3PMxrZaQ5xParRAWY6GX
-I2HE0gG7DLsmxndjZDuO2xvEhAvNv0LoOKaqUAZWmI45tiOTuZgKdcQ46ZpK9tfn
-wx0X3pzwqilYgxXRywNxtVGJTqAfiKUzI7DdOPF7vc8FOgcLwHgzncdyCbMLEbzv
-zDoT3ev5mkhHSDGNYrfy7gFL3rPqSc96Wju56ATZDtjeao/HiWOBqH9mHuT5xgj/
-HpPO44ix0j4XFjp7rhNWrQVCSDzb5oV5OoXV/C2hjbuqSEV1rgbyhh1xebFtFg2J
-6ZXp+uk96JptOUS6f56/ApkZXWuJWm8srtVLPsNsEJLP4BPxPlS5rN5cPKJnJyL9
-lmgI76EEmom/nJvYaPAdb98vJAoxf8Q37K6NLzXck6b8FpG3dNCXInnSmviNkLOs
-DajcfYJh/yQzq+H85oQCGp6Rew0h+v/K3rhckV7cQSPIRuuuLD8bUD2XdTG5rSG8
-uMDgtSFM9LEx4c1YnIcsnE/IOARsYRMhnaynOAgJCK51gmqrkOgQF2Bvhf4TQSWY
-6xDN4a1J/syOiXjzbLlKy4ARVIUHSbrba5NuNADGMY3W8BqNCO0=
-=Qp3U
------END PGP SIGNATURE-----
-
---===============5056235289005838453==--
+--===============5812408894081844275==--
