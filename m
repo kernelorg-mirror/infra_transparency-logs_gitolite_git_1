@@ -1,42 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============5812408894081844275=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 11 Oct 2023 15:21:58 -0000
-Message-Id: <169703771835.24769.15726164499262090883@gitolite.kernel.org>
-
---===============5812408894081844275==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 11 Oct 2023 15:23:37 -0000
+Message-Id: <169703781772.25406.13823779274589897745@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: d7c9ae8d5d1be0c4156d1e20e4369a77b711a4cc
-    new: 87cd3d48191e533cd9c224f2da1d78b3513daf47
-    log: revlist-d7c9ae8d5d1b-87cd3d48191e.txt
-
---===============5812408894081844275==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7c9ae8d5d1b-87cd3d48191e.txt
-
-a6e414a4cb5ab320747b913b0897d1159fa978eb perf tools: Update copy of libbpf's hashmap.c
-f7875966dc0c68cb7c02992ff9ac9e3f88fb5fca tools headers UAPI: Sync files changed by new fchmodat2 and map_shadow_stack syscalls with the kernel sources
-417ecb614fd870a9c898f5ce6fd3d338606aaf5d tools headers UAPI: Copy seccomp.h to be able to build 'perf bench' in older systems
-678ddf730a1b0b347ad6e5deb7fdea52654e5bdf perf bench sched-seccomp-notify: Use the tools copy of seccomp.h UAPI
-15ca35494ec58f50aa58f51437a22573431e8448 tools arch x86: Sync the msr-index.h copy with the kernel sources
-c2122b687c212a28d237fb672cc979247bd94449 tools headers UAPI: Update tools's copy of drm.h headers
-4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
-33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
-d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
-eaaebb01a7a6d7d422f80e0dacf9a07fb90f22dc perf pmu: Ensure all alias variables are initialized
-e47749f1796d1df39a7eaae95f2784aaa43df57d perf jevent: fix core dump on software events on s390
-87cd3d48191e533cd9c224f2da1d78b3513daf47 Merge tag 'perf-tools-fixes-for-v6.6-1-2023-09-25' into perf-tools-next
-
---===============5812408894081844275==--
+  - ref: refs/heads/master
+    old: f86e7283e79f6b98a91aab16e6defad86e6da2eb
+    new: dfb76edda888e4caf494d79c83623a05b261d752
+    log: |
+         600bea73ecc9f587c910d70de5829f7d689b4760 crypto: use SWAP from useful.h
+         b7180d4d2965f03470c100f76f1d02a0187b4a90 unit: add to test-dpp to expose ASN1 point conversion bug
+         2ba88f05e955f207c342ebca924e3ebddde18c78 dpp-util: fix incorrect ASN1 compressed public key encoding
+         06ad1ace008dc9f81d75f26c60b35e101b88e080 eap-pwd: fix usage of compressed points (after ELL is fixed)
+         dfb76edda888e4caf494d79c83623a05b261d752 sae: fix usage of compressed points (after ELL is fixed)
+         
