@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 10 Oct 2023 23:36:49 -0000
-Message-Id: <169698100905.1510.13105579810771714492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 11 Oct 2023 00:37:50 -0000
+Message-Id: <169698467045.13158.10052241006369321540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: ee27626c7a06b21a59cb46c192b7045fe9da5fb9
-    new: 04f40b747fe278bdddd564584525db265c0a17a7
+  - ref: refs/heads/for-next/execve
+    old: 553e41d1bc95a09e32b6beb0a2b1c20dc4ea9b19
+    new: 6f88724a1901ebcc039851aa2e001d11e33e841e
     log: |
-         4ea09cf6b9b1033628b2966004a9df5bf2347bf6 test-bass: Add unit tests for the SPE suite
-         04f40b747fe278bdddd564584525db265c0a17a7 unit/test-vcp: VOCS unit test case implementation
+         16cc9f5f41ffb110927472b50ec0b244f40e6a6b binfmt_misc: cleanup on filesystem umount
+         6f88724a1901ebcc039851aa2e001d11e33e841e binfmt_misc: enable sandboxed mounts
          
