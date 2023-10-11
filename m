@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 11 Oct 2023 03:09:13 -0000
-Message-Id: <169699375326.29832.10387195045036213087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Oct 2023 03:09:48 -0000
+Message-Id: <169699378880.30097.13414706240996516220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ad98426a88aa8b982b4785760bc56970b3f58281
-    new: 8f8abb863fa5a4cc18955c6a0e17af0ded3e4a76
+    old: b0e4a14f5ba125be14a557ff3ac890ad0aacfc26
+    new: e5f061d5e340fefc663cacfe8f42f149d55bdb53
     log: |
-         8f8abb863fa5a4cc18955c6a0e17af0ded3e4a76 net: usb: dm9601: fix uninitialized variable use in dm9601_mdio_read
+         e5f061d5e340fefc663cacfe8f42f149d55bdb53 net: dsa: realtek: rtl8365mb: replace deprecated strncpy with ethtool_sprintf
          
