@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Oct 2023 08:57:34 -0000
-Message-Id: <169701465427.22263.7847270362718123099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Oct 2023 09:06:30 -0000
+Message-Id: <169701519005.28624.18317782147692618674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: e3ede0293aa0e8792f01d21d7ab5b0f574000a49
-    new: ab37e612a2068e6dbbd68ff87e09ae936503f415
+  - ref: refs/heads/main
+    old: 9bae5b05502210f7fb5ac24874ec2e0747401b6b
+    new: 0c2d3ff8c4f350da8238b7d453694fe73e9720d6
     log: |
-         8c4ac53f1d8bcb3bd4b5c2f338eb068f505d6816 x86/microcode/amd: Use correct per CPU ucode_cpu_info
-         a983f3245ac2178cb697996e19d1fadee9648bfb x86/microcode/amd: Cache builtin microcode too
-         924acbaab3d99de9b141568a7bb2fc0bb553c116 x86/microcode/amd: Cache builtin/initrd microcode early
-         1c9faa6577b3230ba62a51dc504d841b5ef630de x86/microcode/amd: Use cached microcode for AP load
-         7edf8316660ee2966b8aed03a63d44496731f505 x86/microcode: Mop up early loading leftovers
-         ab37e612a2068e6dbbd68ff87e09ae936503f415 Merge x86/microcode into tip/master
+         a026809c261b7240a243ae1c2a7dccec3c316761 net: dsa: vsc73xx: add phylink capabilities
+         db2c6d5fc4bddd15a98cc7964cec0af7a51160c0 net: dsa: dsa_loop: add phylink capabilities
+         63b9f7a19ff154778cef85cf9a28f31c4a77e847 net: dsa: remove dsa_port_phylink_validate()
+         0c2d3ff8c4f350da8238b7d453694fe73e9720d6 Merge branch 'dsa-validate-remove'
          
