@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 11 Oct 2023 05:26:47 -0000
-Message-Id: <169700200729.32486.14790722189246132963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Wed, 11 Oct 2023 05:27:56 -0000
+Message-Id: <169700207610.501.3146227938013212987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: c9727271cb239dce91add464364f10fb2b376456
-    new: b7e209733ca8db679be5ccdd844d73067c344c1e
+  - ref: refs/heads/next
+    old: d423dcd4ac21041618ab83455c09440d76dbc099
+    new: e76716696ba0c5c41667a11caa092cd619a79c5b
     log: |
-         a7ef9dd30bc07b7886400a7fd017517e4e099ab3 cpufreq: dt-platdev: add am62p5 to blocklist
-         b7e209733ca8db679be5ccdd844d73067c344c1e cpufreq: ti-cpufreq: Add opp support for am62p5 SoCs
+         e76716696ba0c5c41667a11caa092cd619a79c5b selftests/nolibc: use qemu-system-ppc64 for ppc64le
          
