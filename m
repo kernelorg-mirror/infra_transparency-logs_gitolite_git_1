@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1702146416094882728=="
+Content-Type: multipart/mixed; boundary="===============3799948291188223774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 11 Oct 2023 05:21:07 -0000
-Message-Id: <169700166758.28767.10452311864983720010@gitolite.kernel.org>
+Date: Wed, 11 Oct 2023 05:21:49 -0000
+Message-Id: <169700170981.29096.1052683958265838311@gitolite.kernel.org>
 
---===============1702146416094882728==
+--===============3799948291188223774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.6-fixes
     old: 4e69f490d211ce4e11db60c05c0fcd0ac2f8e61e
     new: f809c3aae7b0e3927eb2fb04f1b524a54ad4f2ee
     log: revlist-4e69f490d211-f809c3aae7b0.txt
 
---===============1702146416094882728==
+--===============3799948291188223774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -324,4 +324,4 @@ f707e40d0b513fde7e1b1aebe625907f20c9df76 Merge tag 'sched-urgent-2023-10-08' of 
 cbeacafaac886c27cd654f1e9607dd928a159486 xfs: correct calculation for agend and blockcount
 f809c3aae7b0e3927eb2fb04f1b524a54ad4f2ee xfs: Remove duplicate include
 
---===============1702146416094882728==--
+--===============3799948291188223774==--
