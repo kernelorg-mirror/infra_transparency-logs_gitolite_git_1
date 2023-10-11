@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 11 Oct 2023 20:41:13 -0000
-Message-Id: <169705687329.32600.12869992695984437210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Wed, 11 Oct 2023 20:48:39 -0000
+Message-Id: <169705731906.4592.15864977996912294815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/docs/kernel/ksmap
+user: ukleinek
 changes:
-  - ref: refs/heads/review-andy
-    old: 844802c71cfab7a55d521e7300dcacc557636fff
-    new: 8d751da9f1d790f1d5e4b109eb0ad4a366d5efc8
+  - ref: refs/heads/master
+    old: fe00886b5d851b429524905461841290345fec75
+    new: d5304e5ce032a9e105fd913162a9e23294f5ea40
     log: |
-         e0ba7366a699817d435aa500b107e42c9adafcca pinctrl: cherryview: Convert to platform remove callback returning void
-         6fe13aa7c8696bae97b251b4c050cbb93d3065d3 pinctrl: cherryview: reduce scope of PIN_CONFIG_BIAS_HIGH_IMPEDANCE case
-         8d751da9f1d790f1d5e4b109eb0ad4a366d5efc8 pinctrl: intel: fetch community only when we need it
+         d5304e5ce032a9e105fd913162a9e23294f5ea40 users: Add Uwe Kleine-König
          
