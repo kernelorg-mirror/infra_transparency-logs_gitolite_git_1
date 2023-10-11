@@ -1,42 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0497622527688529989=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 11 Oct 2023 20:58:00 -0000
-Message-Id: <169705788073.11410.14434313953198252264@gitolite.kernel.org>
-
---===============0497622527688529989==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 11 Oct 2023 21:17:50 -0000
+Message-Id: <169705907087.26259.7499270222143224773@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1c8b86a3799f7e5be903c3f49fcdaee29fd385b5
-    new: 8182d7a3f1b8982c0136dca82a846ea375a4d6e9
-    log: revlist-1c8b86a3799f-8182d7a3f1b8.txt
-
---===============0497622527688529989==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c8b86a3799f-8182d7a3f1b8.txt
-
-9af867c05b5d9f54f190743a1c761d70038c83b3 HID: i2c-hid: fix handling of unpopulated devices
-dac501397b9d81e4782232c39f94f4307b137452 HID: logitech-hidpp: Fix kernel crash on receiver USB disconnect
-054c22bd784d6953ac85f545bed4a2a27b0e4ddb printk: flush consoles before checking progress
-b555aa66760f17df4a0a5e4b440816e390311a38 ata: pata_parport: fix pata_parport_devchk
-d2302427c12277929c9f390adeda19fbf403c0bb ata: pata_parport: implement set_devctl
-f343e578fef99a69b3322aca38b94a6d8ded2ce7 ata: pata_parport: add custom version of wait_after_reset
-0c1e81d0b5ebd5813536dd5fcf5966ad043f37dc ata: pata_parport: fit3: implement IDE command set registers
-626b13f015e080e434b1dee9a0c116ddbf4fb695 scsi: Do not rescan devices with a suspended queue
-9277abd2c17272ed8fc1b842d9efa45797435b77 Merge branch 'rework/misc-cleanups' into for-linus
-4524565e3a3821a40eea029d05846f7de6588857 Merge tag 'printk-for-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-bab19d1b21547046b0a38dde948086f6cbcaefaa Merge tag 'for-linus-2023101101' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-8182d7a3f1b8982c0136dca82a846ea375a4d6e9 Merge tag 'ata-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-
---===============0497622527688529989==--
+    old: b7c859eaf1a5f15826e24b3b94e70417aea8bff1
+    new: 5a5929f703a550812d950d58f1306eefb510fcbb
+    log: |
+         80cc1d1d5ee35701daf11725ce06d8a240588973 sched/psi: Avoid updating PSI triggers and ->rtpoll_total when there are no state changes
+         3657680f38cd7df413d665f2b2f38e9a78130d8b sched/psi: Delete the 'update_total' function parameter from update_triggers()
+         5a5929f703a550812d950d58f1306eefb510fcbb Merge branch into tip/master: 'sched/core'
+         
