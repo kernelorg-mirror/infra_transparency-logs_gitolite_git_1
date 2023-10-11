@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8004093405847975995=="
+Content-Type: multipart/mixed; boundary="===============1743339045808473603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Oct 2023 08:20:58 -0000
-Message-Id: <169701245848.29061.8803097858604347712@gitolite.kernel.org>
+Date: Wed, 11 Oct 2023 08:21:24 -0000
+Message-Id: <169701248427.29316.17863591852357887708@gitolite.kernel.org>
 
---===============8004093405847975995==
+--===============1743339045808473603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c194962e9046407f2bb2c6ebbf2d9daba2cf6a7f
-    new: 14f5ee0a4450152a166db8100eb8d28731148ca3
-    log: revlist-c194962e9046-14f5ee0a4450.txt
+    old: 14f5ee0a4450152a166db8100eb8d28731148ca3
+    new: e3ede0293aa0e8792f01d21d7ab5b0f574000a49
+    log: revlist-14f5ee0a4450-e3ede0293aa0.txt
 
---===============8004093405847975995==
+--===============1743339045808473603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c194962e9046-14f5ee0a4450.txt
+Content-Disposition: attachment; filename=revlist-14f5ee0a4450-e3ede0293aa0.txt
 
-381ddcd5875e496f2eae06bb65853271b7150fee ASoC: Intel: soc-acpi: Add entry for sof_es8336 in MTL match table.
-d1f67278d4b2de3bf544ea9bcd9f64d03584df87 ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in MTL match table
-b399f9706a1cbae42731cc420a46cfb9c3c6b10f ASoC: Intel: soc-acpi: fix Dell SKU 0B34
-fb0b8d299781be8d46b3612aa96cef28da0d93f4 ASoC: Intel: sof_sdw: add support for SKU 0B14
-69cf63b6560205a390a736b88d112374655adb28 ASoC: simple-card-utils: fixup simple_util_startup() error handling
-41bae58df411f9accf01ea660730649b2fab1dab ASoC: simple-card: fixup asoc_simple_probe() error handling
-95bfb16d66cc078aa93d06863354970f615565d1 ASoC: Intel: soc-acpi: Adding Es83x6 codec entry and
-d93eeca627db512a56145285dc94feac5b88a1d4 ALSA: hda/realtek - ALC287 merge RTK codec with CS CS35L41 AMP
-e52dca7216cfeae76a99908a2eea6e850d3f918f ASoC: soc-generic-dmaengine-pcm: Fix function name in comment
-f2a55d08d7e1a5746dad80fc5eda023eff2eeea5 x86/hyperv: Restrict get_vtl to only VTL platforms
-14058f72cf13e476bcc3b4e9922a8cb2e59783d2 x86/hyperv: Remove hv_vtl_early_init initcall
-203a521bd93c323ded93c5aa35069029d5c23611 x86/hyperv: Add common print prefix "Hyper-V" in hv_init
-cfc7461a60e324f75dc9d1beadc07890140ffd29 hyperv: reduce size of ms_hyperv_info
-5c8a033f5674ae62d5aa2ebbdb9980b89380c34f dt-bindings: ASoC: rockchip: Add compatible for RK3128 spdif
-197c53c8ecb34f2cd5922f4bdcffa8f701a134eb ASoC: fsl_sai: Don't disable bitclock for i.MX8MP
-2b21207afd06714986a3d22442ed4860ba4f9ced ASoC: fsl-asoc-card: use integer type for fll_id and pll_id
-7e1fe5d9e7eae67e218f878195d1d348d01f9af7 ASoC: SOF: amd: fix for firmware reload failure after playback
-e80f238d2bc0c0f27dc52ac824ca80b938a43ace ASoC: core: Print component name when printing log
-dd9f9cc1e6b9391140afa5cf27bb47c9e2a08d02 ASoC: core: Do not call link_exit() on uninitialized rtd objects
-9c1a3f432b62a2b34f2f58cda0dcf7229e83bf98 Merge tag 'asoc-fix-v6.6-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-b84b53149476b22cc3b8677b771fb4cf06d1d455 ASoC: hdmi-codec: Fix broken channel map reporting
-892fbdb203945d887ad2a109a3700b091a8e3b97 ASoC: rt5682: Fix regulator enable/disable sequence
-e930bea4124b8a4a47ba4092d99da30099b9242d ASoC: tlv320adc3xxx: BUG: Correct micbias setting
-1948fa64727685ac3f6584755212e2e738b6b051 ASoC: amd: yc: Fix non-functional mic on Lenovo 82YM
-1426b9ba7c453755d182ebf7e7f2367ba249dcf4 ASoC: dt-bindings: fsl,micfil: Document #sound-dai-cells
-152d0bcdf1efcb54a4fa20f694e9c7bbb6d06cbf dm crypt: Fix reqsize in crypt_iv_eboiv_gen
-5d542b850d40cb08a38ad4bb2a944dbf1b7b0683 ALSA: hda: cs35l41: Cleanup and fix double free in firmware request
-6a83d6f3bb3c329a73e3483651fb77b78bac1878 ALSA: usb-audio: Fix microphone sound on Opencomm2 Headset
-ccbd88be057a38531f835e8a04948ebf80cb0c5d ALSA: hda/realtek: Change model for Intel RVP board
-3a4c155108a89e21cce2c467a6013bdcb42a6452 Merge tag 'asoc-fix-v6.6-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-4a63e68a295187ae3c1cb3fa0c583c96a959714f ALSA: usb-audio: Fix microphone sound on Nexigo webcam.
-87797fad6cce28ec9be3c13f031776ff4f104cfc xen/events: replace evtchn_rwlock with RCU
-42999c90461293233de9bb6e6c7d8a2db7281c1e hv/hv_kvp_daemon:Support for keyfile based connection profile
-68d187ec14a86542f7828d1c394afaca79a3ad40 Merge tag 'sound-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-832b5d0bf94cab3ab1ca690fca3c3d931f5fa7cd Merge tag 'v6.6-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-b711538a40b794ccc83838fb66990a091c56c101 Merge tag 'hyperv-fixes-signed-20231009' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-87813e13df5ca4d899e2da0bc37d40f9a95788ee Merge tag 'irq-urgent-2023-10-10-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-01bbafc63b65689cb179ca537971286bc27f3b74 KEYS: trusted: Remove redundant static calls usage
-1c8b86a3799f7e5be903c3f49fcdaee29fd385b5 Merge tag 'xsa441-6.6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-14f5ee0a4450152a166db8100eb8d28731148ca3 Merge branch 'linus'
+290bd4ff2175b8f225ec07f093fa6ce0b3c03839 Merge branch into tip/master: 'perf/urgent'
+15a36fc7fcc1c93053bf802723c6b33ba2a2a2c8 Merge branch into tip/master: 'sched/urgent'
+44a0319bed13effb76c4c8c7b8cff574a8939327 Merge branch into tip/master: 'x86/urgent'
+c9701cfef42bcb1e858107cb4b4c3c05556594f6 Merge branch into tip/master: 'core/core'
+4e792d72acb66c65b40cee20e673c4229100943e Merge branch into tip/master: 'irq/core'
+d612f543b03319354b9d0c491482b53f48c5107c Merge branch into tip/master: 'locking/core'
+e68d20f3f7032d2d6aecfa83fd36f315644a6c11 Merge branch into tip/master: 'objtool/core'
+19379b3098a50f3ea48847e4f9c84f1d13149b69 Merge branch into tip/master: 'perf/core'
+d7f298872bf1deedb51a7e03bae1b9230d9d2a47 Merge branch into tip/master: 'sched/core'
+c4d38a836b172e7c45669293e2c550dc009ab8d9 Merge branch into tip/master: 'smp/core'
+1d33b08dd0a08f22a637b89a12cb0165376c6c30 Merge branch into tip/master: 'timers/core'
+b6665af3014a8aed79568f5a4e598a04083981aa Merge branch into tip/master: 'x86/apic'
+b322b008326f02f4b71402e4d36d3f6ae1d95b30 Merge branch into tip/master: 'x86/asm'
+ac0aefda9ceb89e3aee75b0c6261e03e5c33c41e Merge branch into tip/master: 'x86/boot'
+a68beeeeef3dd8c57f847ebd48f84f4032e78224 Merge branch into tip/master: 'x86/bugs'
+0b89508a3dd4976071a4e452e31f1495ebff543a Merge branch into tip/master: 'x86/cache'
+391f2727e4f2e50b9f8bb8870ce00792ca8ea3e7 Merge branch into tip/master: 'x86/cpu'
+96c4950f8a402308c0701d4154e3fcb830062088 Merge branch into tip/master: 'x86/entry'
+ee4d355452d316f76a75bea9cdea990e2282310e Merge branch into tip/master: 'x86/fpu'
+b4802a053c97c8dddb8a35029f3db22d6f6761d5 Merge branch into tip/master: 'x86/headers'
+931548e4fdcdb3e3d708ee354bc472bf05c83e66 Merge branch into tip/master: 'x86/microcode'
+a757d08e8eef935654176d69f15ee2edb18ad9b3 Merge branch into tip/master: 'x86/mm'
+5da133cd861db9b14257df4609d2ee75d7687373 Merge branch into tip/master: 'x86/percpu'
+fe4b38be3fd21f547927148b802342d01900d68d Merge branch into tip/master: 'x86/platform'
+e3ede0293aa0e8792f01d21d7ab5b0f574000a49 Merge branch into tip/master: 'x86/tdx'
 
---===============8004093405847975995==--
+--===============1743339045808473603==--
