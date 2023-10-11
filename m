@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4225030264438477899=="
+Content-Type: multipart/mixed; boundary="===============2309778462686573654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 11 Oct 2023 14:54:44 -0000
-Message-Id: <169703608411.3815.4561239448564773418@gitolite.kernel.org>
+Date: Wed, 11 Oct 2023 14:54:58 -0000
+Message-Id: <169703609831.3979.12724626819113459267@gitolite.kernel.org>
 
---===============4225030264438477899==
+--===============2309778462686573654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 57fd97ead0e87ca528736f1945a3ba3096de2f3e
+  - ref: refs/heads/togreg
+    old: 078ed35b287c65e8e62454832af5d37af818acde
     new: 73aa842baf877cc8c8da819f4ea927307dd8b6e4
-    log: revlist-57fd97ead0e8-73aa842baf87.txt
+    log: revlist-078ed35b287c-73aa842baf87.txt
 
---===============4225030264438477899==
+--===============2309778462686573654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57fd97ead0e8-73aa842baf87.txt
+Content-Disposition: attachment; filename=revlist-078ed35b287c-73aa842baf87.txt
 
 4d7c16d08d248952c116f2eb9b7b5abc43a19688 iio: accel: mxc4005: allow module autoloading via OF compatible
 fca63709310267d942fa4991e65636ab42d51ed3 Revert "dt-bindings: iio: magnetometer: asahi-kasei,ak8975: Drop deprecated enums"
@@ -49,4 +49,4 @@ a5101e91e94d4f12e402fb4e8b46caa0213ea03a staging: iio: resolver: ad2s1210: imple
 40efeec7600949c2f6319c11d8a7f294a1c5e590 staging: iio: resolver: ad2s1210: add label attribute support
 73aa842baf877cc8c8da819f4ea927307dd8b6e4 staging: iio: resolver: ad2s1210: remove fault attribute
 
---===============4225030264438477899==--
+--===============2309778462686573654==--
