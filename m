@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 11 Oct 2023 13:58:37 -0000
-Message-Id: <169703271704.27731.10210225287018630648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
+Date: Wed, 11 Oct 2023 14:08:29 -0000
+Message-Id: <169703330907.3576.11012090358165782546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/libs/ieee1394/libhinoko
+user: takaswie
 changes:
-  - ref: refs/heads/rcu/torture
-    old: 6795cf5f817fe1d27df831f7c10cca4a8aea00f9
-    new: cefe8ce559b5ff301f59b44f97c5c313ec30c643
+  - ref: refs/heads/main
+    old: b1dee8e77a4b6e2a8eb6727b569e8e8e1f85af57
+    new: 69864979aedf0def15a63fa7892be19a3d98bc18
     log: |
-         cefe8ce559b5ff301f59b44f97c5c313ec30c643 locktorture: Check the correct variable for allocation failure
+         68a5156525badb43d67c5cb44dbcfba4928258f7 meson: bump minimal version up to 0.54.0 for meson.override_dependency()
+         6a85d388ec84050ce352d86745c5aa4cd8606ca0 meson: bump minimal version up to 0.56.0 for meson.global_build_root()
+         69864979aedf0def15a63fa7892be19a3d98bc18 meson: use meson.project_build_root() to find built targets for test
          
