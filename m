@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4470741773943043910=="
+Content-Type: multipart/mixed; boundary="===============1419655131610355914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 12 Oct 2023 17:41:39 -0000
-Message-Id: <169713249911.29474.10471613823511561409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Oct 2023 17:41:45 -0000
+Message-Id: <169713250556.29610.200856787089909124@gitolite.kernel.org>
 
---===============4470741773943043910==
+--===============1419655131610355914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 59825951707eccf92782e109c04772d34fc07eb6
     new: 47c09498666056d131b0e507eb65ecf854b10085
     log: revlist-59825951707e-47c094986660.txt
 
---===============4470741773943043910==
+--===============1419655131610355914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1697132496 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1697132496-b5e5fe5d58d9fb9374bfc94f1c8ed11b581ff841
+pusher C3F436CA30F5D8EB 1697132503 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1697132503-e3510ae52942bbd7d3cec2cccca19a7346765ff0
 
-59825951707eccf92782e109c04772d34fc07eb6 47c09498666056d131b0e507eb65ecf854b10085 refs/heads/for-6.7
+59825951707eccf92782e109c04772d34fc07eb6 47c09498666056d131b0e507eb65ecf854b10085 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUoL9EACgkQJNaLcl1U
-h9Cbcwf/YDls3vxatOY27lPRcVReEr0SpGcl0EzxsxD28GaxanBms7+Huz8VjuBu
-8zo/6XkrnZq/SN31YTxRlV/ygMIY1YZhNkZuF3opdNNmzRIWotyhTK1KamuEBMx/
-vLy6sEm11/jtqVs1ri8XRYRaoFugKYVgEUm9fcm3ljc9POlxaH17Dn7ZzvI/XbIs
-BF8CSTLBCslIDch6X2WT1L/7gMKKqbjvjZfvmsAPqnUt9Y9Ww0Zjbz2uW1PZ+snI
-BRwTPXWJgyUZuRf1IU6T9fdllG8IoQbRUY9PwvXXaH4ZFTmcNO8C1TrJFhucePiC
-KVTUX1SXdawOCwlsTsmgLS9Ovh3qfw==
-=HBLt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUoL9cACgkQJNaLcl1U
+h9DkxwgAhf9zewG2E4xHEjmmVgUxZmtsqN9HwXeY9G6ymBE1kujoBpawkcoH16bY
+ESYUC/kPzpsjp084axJUAGbscHw4UwmkcqvA6DX2fUdFerlMM+zAnYztv4YRqVZK
+36e7f/MkGYSVcBvEV/xFbaLohZrHiRpTUZYWu5At4RGSUlBaKcK2ZPwgtJwmWmjz
+pVnMmYVfSy86jEKiVaunS6Bk7i5Bl/R8NXZFb9hNgGgk5pQiXmkCh+81o8lAWrS3
+UzugAn8gnO3m4i56NtP3HgD+CilcHc7BnWlklzO3SQyVk8eD2BDhcesycYffGm4m
+NpTbSo5SIc/xpTIO7h5TqUi56TEg1Q==
+=dp6X
 -----END PGP SIGNATURE-----
 
---===============4470741773943043910==
+--===============1419655131610355914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ cc7ea744970176134d48cc6e004ebe7c9a0bb3da ASoC: Intel: avs: rt286: Validate machi
 41cb1126bed152f7679417834ad7ea39f2252dfb ASoC: tegra: Fix -Wuninitialized in tegra210_amx_platform_probe()
 47c09498666056d131b0e507eb65ecf854b10085 Harden SSP boards and add TDM support
 
---===============4470741773943043910==--
+--===============1419655131610355914==--
