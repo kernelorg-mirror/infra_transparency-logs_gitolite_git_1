@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6547741530905180814=="
+Content-Type: multipart/mixed; boundary="===============4125115934816765517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 12 Oct 2023 16:52:36 -0000
-Message-Id: <169712955634.21441.4272958371284263956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 12 Oct 2023 17:08:18 -0000
+Message-Id: <169713049897.544.15619584885445494446@gitolite.kernel.org>
 
---===============6547741530905180814==
+--===============4125115934816765517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 59825951707eccf92782e109c04772d34fc07eb6
-    new: 47c09498666056d131b0e507eb65ecf854b10085
-    log: revlist-59825951707e-47c094986660.txt
+  - ref: refs/heads/master
+    old: 8536bd393df9ef9008327e5fab9617f9755e5949
+    new: 99115f4294bc0d110c36f64300829f5cf09bc75e
+    log: |
+         99115f4294bc0d110c36f64300829f5cf09bc75e 5.4-stable patches
+         
 
---===============6547741530905180814==
+--===============4125115934816765517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59825951707e-47c094986660.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-393648ce731b087f5a685044c9e41afb815421f7 ASoC: Intel: avs: Only create SSP%d snd_soc_dai_driver when requested
-7a6debe0478596ac892ecf3cc336aacf09a9e4d8 ASoC: Intel: avs: Introduce helper functions for SSP and TDM handling
-e6d50e474e45862096932edc31932fbbd5e8f1c7 ASoC: Intel: avs: Improve topology parsing of dynamic strings
-d3decc196afdce9456442e2bdc9033fd5d2d00b3 ASoC: Intel: avs: i2s_test: Validate machine board configuration
-b124d7cc6f3c08e5ae084e446e6ceff6c881c087 ASoC: Intel: avs: rt274: Validate machine board configuration
-2172c5b90d80aedc7cbe571e353ae45040e03a3b ASoC: Intel: avs: rt5682: Validate machine board configuration
-863e3f18d08bae9ffc70306e251f75bdee5e0674 ASoC: Intel: avs: max98357a: Validate machine board configuration
-060c0fd1afaec1d553fdd123ddd47368bd4b3a81 ASoC: Intel: avs: rt298: Validate machine board configuration
-fc332ea1176d72502e81a3e9d4ea3bce05e77398 ASoC: Intel: avs: da7219: Validate machine board configuration
-8d5fed3312ebaa83338cf42746b29a01b9d3d13e ASoC: Intel: avs: es8336: Validate machine board configuration
-a1ec836b17f7dea35f6b4b3a7c2ad4306da804c9 ASoC: Intel: avs: max98373: Validate machine board configuration
-ef91ae9e682c85e57861234db7d5ad9d071b889b ASoC: Intel: avs: max98927: Validate machine board configuration
-70c101917aa1efa52a89dae5d5deee2a0c74de07 ASoC: Intel: avs: nau8825: Validate machine board configuration
-cc7ea744970176134d48cc6e004ebe7c9a0bb3da ASoC: Intel: avs: rt286: Validate machine board configuration
-797611b5ce62f12a2c0812c0e4e3a2fb6ee9fb47 ASoC: Intel: avs: rt5663: Validate machine board configuration
-5e07eb3ab981c5752c0e5ac324fbd166a12003ee ASoC: Intel: avs: ssm4567: Validate machine board configuration
-41cb1126bed152f7679417834ad7ea39f2252dfb ASoC: tegra: Fix -Wuninitialized in tegra210_amx_platform_probe()
-47c09498666056d131b0e507eb65ecf854b10085 Harden SSP boards and add TDM support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697130498 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1697130496-752aa780b9e653af143694b307f55d00756a7afb
 
---===============6547741530905180814==--
+8536bd393df9ef9008327e5fab9617f9755e5949 99115f4294bc0d110c36f64300829f5cf09bc75e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUoKAIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9GEQANbO7EnYEcNt8Xh5hTbr
+8L7SkLDDw69j8Kg3jCtmE3Gvg48RlHVR/VFVZzWNk2JuVRbOz6IMDv4izpgzRtFo
+WiKFU2aIwzO0xDgW660a66XoKmQsbY7cctN4jzxjiRT4pkyHNYBMD9x9zkWFWIKm
+3Byoza55tSNbLfGSpx237HP6fcXZS5eqW3EvLWxCF3yztlFayEKLVYiF/Emd/BAS
+V5rLb2S3QV6pD/JJQ/ryhDNhd6WlxFDCq3b7oaMB8ocWIRCxmlW0DN/i5OB3UPiv
+EinsgYn3kvWqymIzJt6+xRHixC8zA0145anQFwj18YXajXNU51nZs2xNhKVSKh9K
+cAtfCY0N5+3JOnwk8C+35HbefTd4NrzWAXGY4PiwRDfRq12RV1LF0qD7Ns38ePFS
+G+liHAe9IHZucjUdDiQ9e6Ia1ZTHH7rfr6ddYr4zamXbLCk7bLT6qfhFZmbUzvuN
+s5eIUQj4ix44M6rgGxZ72K9y+eXNs+Qer8JlsDLQDNrUqcrtrOMSnt1EL9ARBA2d
+/N75ZcR1Rnp4VYfl7PD6qBXywJNqcqJejOfkPjm4bHGVLLdsXWDrJp9cDHgD18DH
+V/AVoz9j2RUsykzqRnyKmbPlqy2YOp/TJgtiLp0opQ4hxDsmBNDjSG7VXIHEevel
+T35rC14mWEkFi7EtkpmweSsj
+=tpBE
+-----END PGP SIGNATURE-----
+
+--===============4125115934816765517==--
