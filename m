@@ -1,56 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============6542563634786066163=="
+Content-Type: multipart/mixed; boundary="===============4470741773943043910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 12 Oct 2023 17:41:11 -0000
-Message-Id: <169713247158.29183.11913570169771872326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Oct 2023 17:41:39 -0000
+Message-Id: <169713249911.29474.10471613823511561409@gitolite.kernel.org>
 
---===============6542563634786066163==
+--===============4470741773943043910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ba5990958c1f90690d19d3ba86927e8a148d6e2a
-    new: c9460886904a7de3c02ebc82c4000d090ea62c42
-    log: |
-         c9460886904a7de3c02ebc82c4000d090ea62c42 6.5-stable patches
-         
+  - ref: refs/heads/for-6.7
+    old: 59825951707eccf92782e109c04772d34fc07eb6
+    new: 47c09498666056d131b0e507eb65ecf854b10085
+    log: revlist-59825951707e-47c094986660.txt
 
---===============6542563634786066163==
+--===============4470741773943043910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697132470 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697132469-2ca8cf0442142b0b231618bf6ae305d48c26768a
+pusher C3F436CA30F5D8EB 1697132496 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1697132496-b5e5fe5d58d9fb9374bfc94f1c8ed11b581ff841
 
-ba5990958c1f90690d19d3ba86927e8a148d6e2a c9460886904a7de3c02ebc82c4000d090ea62c42 refs/heads/master
+59825951707eccf92782e109c04772d34fc07eb6 47c09498666056d131b0e507eb65ecf854b10085 refs/heads/for-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUoL7YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AGIQAKaqLMP1tdHUIK3Fx3ca
-Bx85wKETF7m95uwFVVpXE0F8ocCEDcoqp5wPeo77Q4Tq4wTWPdRcqBSvFQ5j4Z0+
-uBx7/Zk9MuYA0Kq8/FTUkn5LZv18Kp+qJ0IwPYx8YXIKWE8A6H1KwO6XH48XrotZ
-R7p77x/MZG/xVGWfOJEr6ZnESwUyFQVF3dANCmmDrz6UsaQQOsBk9N2m04bvGo/D
-rE01gtKuM19r6I+vML0HeACDgPjyhQigMP9ocJZ88LTsBAQ66wPLjEugx2Wervdp
-1uXnT9S32UZc9W2Q8w79WTej9BA6yKrDD67Yr2C9/kftxv3+ZOOa0yjOzhvG6UFJ
-7pt1TxQpjFTZSj+B+wrSYmX1XO9YL/EGHs4+eq/bquFNUnhGe/HBliI7gVbh3OwF
-VtMvk8ecfENBfp5Zyckbkv6XwABD278nBG9BdOIvvWcQmBSzR4WttkBXjXDbbSZm
-MIjX8M8Ir4BzztfNi5wRfTJGXxI8YB7O160AvshVu1Lwwrsta9KJJmouYIzXwzvw
-fDefhpFghlDC9ToEFdu17kF7G19ZRGgZNbeoFew3gxinvf+kzYKYDzxzD6ep1ccj
-YrYx9okkC8ZBqzHBgi4A3NW26/3SMiTfRjDUNkF23jaFBjB8OXcpHZWINEo7r+6G
-hOrishoFwkbN+4I11PB6jtWD
-=Fk7c
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUoL9EACgkQJNaLcl1U
+h9Cbcwf/YDls3vxatOY27lPRcVReEr0SpGcl0EzxsxD28GaxanBms7+Huz8VjuBu
+8zo/6XkrnZq/SN31YTxRlV/ygMIY1YZhNkZuF3opdNNmzRIWotyhTK1KamuEBMx/
+vLy6sEm11/jtqVs1ri8XRYRaoFugKYVgEUm9fcm3ljc9POlxaH17Dn7ZzvI/XbIs
+BF8CSTLBCslIDch6X2WT1L/7gMKKqbjvjZfvmsAPqnUt9Y9Ww0Zjbz2uW1PZ+snI
+BRwTPXWJgyUZuRf1IU6T9fdllG8IoQbRUY9PwvXXaH4ZFTmcNO8C1TrJFhucePiC
+KVTUX1SXdawOCwlsTsmgLS9Ovh3qfw==
+=HBLt
 -----END PGP SIGNATURE-----
 
---===============6542563634786066163==--
+--===============4470741773943043910==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-59825951707e-47c094986660.txt
+
+393648ce731b087f5a685044c9e41afb815421f7 ASoC: Intel: avs: Only create SSP%d snd_soc_dai_driver when requested
+7a6debe0478596ac892ecf3cc336aacf09a9e4d8 ASoC: Intel: avs: Introduce helper functions for SSP and TDM handling
+e6d50e474e45862096932edc31932fbbd5e8f1c7 ASoC: Intel: avs: Improve topology parsing of dynamic strings
+d3decc196afdce9456442e2bdc9033fd5d2d00b3 ASoC: Intel: avs: i2s_test: Validate machine board configuration
+b124d7cc6f3c08e5ae084e446e6ceff6c881c087 ASoC: Intel: avs: rt274: Validate machine board configuration
+2172c5b90d80aedc7cbe571e353ae45040e03a3b ASoC: Intel: avs: rt5682: Validate machine board configuration
+863e3f18d08bae9ffc70306e251f75bdee5e0674 ASoC: Intel: avs: max98357a: Validate machine board configuration
+060c0fd1afaec1d553fdd123ddd47368bd4b3a81 ASoC: Intel: avs: rt298: Validate machine board configuration
+fc332ea1176d72502e81a3e9d4ea3bce05e77398 ASoC: Intel: avs: da7219: Validate machine board configuration
+8d5fed3312ebaa83338cf42746b29a01b9d3d13e ASoC: Intel: avs: es8336: Validate machine board configuration
+a1ec836b17f7dea35f6b4b3a7c2ad4306da804c9 ASoC: Intel: avs: max98373: Validate machine board configuration
+ef91ae9e682c85e57861234db7d5ad9d071b889b ASoC: Intel: avs: max98927: Validate machine board configuration
+70c101917aa1efa52a89dae5d5deee2a0c74de07 ASoC: Intel: avs: nau8825: Validate machine board configuration
+cc7ea744970176134d48cc6e004ebe7c9a0bb3da ASoC: Intel: avs: rt286: Validate machine board configuration
+797611b5ce62f12a2c0812c0e4e3a2fb6ee9fb47 ASoC: Intel: avs: rt5663: Validate machine board configuration
+5e07eb3ab981c5752c0e5ac324fbd166a12003ee ASoC: Intel: avs: ssm4567: Validate machine board configuration
+41cb1126bed152f7679417834ad7ea39f2252dfb ASoC: tegra: Fix -Wuninitialized in tegra210_amx_platform_probe()
+47c09498666056d131b0e507eb65ecf854b10085 Harden SSP boards and add TDM support
+
+--===============4470741773943043910==--
