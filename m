@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 12 Oct 2023 13:56:10 -0000
-Message-Id: <169711897073.22649.2782317313102145626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Thu, 12 Oct 2023 14:00:14 -0000
+Message-Id: <169711921424.25844.17572850919427441988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/for-next
-    old: 58473e8abbc68dad4a3c5f4fce6c6b32c85cbe28
-    new: 9a2834e91d3d1c7dc77aa3a5719a582ee5893205
+  - ref: refs/heads/ovl-fixes
+    old: f699a533d0a65d13da429124d716fa9d9388d51c
+    new: 4c4815fe16cf43158a571b7f51357a5edc2daa43
     log: |
-         9a2834e91d3d1c7dc77aa3a5719a582ee5893205 riscv/mm: Fix the comment for swap pte format
+         4c4815fe16cf43158a571b7f51357a5edc2daa43 ovl: fix regression in parsing of mount options with escaped comma
          
