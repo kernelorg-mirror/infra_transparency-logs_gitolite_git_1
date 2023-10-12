@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 12 Oct 2023 13:51:03 -0000
-Message-Id: <169711866378.19246.18025564672332883730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 12 Oct 2023 13:56:10 -0000
+Message-Id: <169711897073.22649.2782317313102145626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/pmdomain-v6.6-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: 7b82ee1ff9a4ec8e700871995701fc9dd70329a4
-  - ref: refs/tags/v6.6-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b9435475cc9bfb60f0327686d1183f498f3d51c1
-  - ref: refs/tags/v6.6-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
-  - ref: refs/tags/v6.6-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 657c707d1c69d838dfc6e35dd528f161503e46de
-  - ref: refs/tags/v6.6-rc5
-    old: 0000000000000000000000000000000000000000
-    new: e6ec05aacec40cf517511763a28ff627157d131d
+  - ref: refs/heads/for-next
+    old: 58473e8abbc68dad4a3c5f4fce6c6b32c85cbe28
+    new: 9a2834e91d3d1c7dc77aa3a5719a582ee5893205
+    log: |
+         9a2834e91d3d1c7dc77aa3a5719a582ee5893205 riscv/mm: Fix the comment for swap pte format
+         
