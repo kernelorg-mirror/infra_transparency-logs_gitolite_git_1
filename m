@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 12 Oct 2023 12:39:44 -0000
-Message-Id: <169711438412.29762.17976327373951746866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 12 Oct 2023 12:44:01 -0000
+Message-Id: <169711464138.579.3492329498038892125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+  - ref: refs/tags/v6.5/fs.ntfs
+    old: bb1578a6743d90d697f873842608640d0e659405
+    new: 0000000000000000000000000000000000000000
