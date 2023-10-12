@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 12 Oct 2023 00:24:07 -0000
-Message-Id: <169707024764.29607.3354294068690777313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 12 Oct 2023 00:25:43 -0000
+Message-Id: <169707034388.31797.9774856222382326044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a950a5921db450c74212327f69950ff03419483a
-    new: 8bcfc9ded21c1b8831636ea687db923feba0faf5
+    old: cb7fb0aa3cd80c6bf13abd1d4a75b0640c2e7eaf
+    new: fda9e465a9d92f59cae40d0c2a2450797db6ec66
     log: |
-         f990874b1c98fe8e57ee9385669f501822979258 ieee802154: ca8210: Fix a potential UAF in ca8210_probe
-         8bcfc9ded21c1b8831636ea687db923feba0faf5 Merge tag 'ieee802154-for-net-2023-10-10' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
+         473f8f2d1bfe1103f20140fdc80cad406b4d68c0 octeontx2-af: replace deprecated strncpy with strscpy
+         fda9e465a9d92f59cae40d0c2a2450797db6ec66 net: mvpp2: replace deprecated strncpy with strscpy
          
