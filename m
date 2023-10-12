@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1888687530805205603=="
+Content-Type: multipart/mixed; boundary="===============7257027120332974393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 12 Oct 2023 16:02:59 -0000
-Message-Id: <169712657901.16271.15330055721361078805@gitolite.kernel.org>
+Date: Thu, 12 Oct 2023 16:05:44 -0000
+Message-Id: <169712674470.18864.7333639272063660660@gitolite.kernel.org>
 
---===============1888687530805205603==
+--===============7257027120332974393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.super
-    old: bbbfcd86dff5f109249867e4488a5d940f77db40
-    new: 74882ca0ccbb2273a5f410a4b382ac03d90b6b6d
-    log: revlist-bbbfcd86dff5-74882ca0ccbb.txt
+  - ref: refs/heads/vfs.all
+    old: 91be123486d40888878ad35cce87414343af0083
+    new: be636e0fa5fdb395366fd73a078e959d2587c476
+    log: revlist-91be123486d4-be636e0fa5fd.txt
 
---===============1888687530805205603==
+--===============7257027120332974393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbbfcd86dff5-74882ca0ccbb.txt
+Content-Disposition: attachment; filename=revlist-91be123486d4-be636e0fa5fd.txt
 
 5873d380f4c0ff23ec7d0d1780107e46a4637c0e irqchip/qcom-pdc: Add support for v3.2 HW
 cf5716acbfc6190b3f97f4614affdf5991aed7b2 arm64: dts: qcom: sm8150: extend the size of the PDC resource
@@ -253,6 +253,9 @@ f3623740068e548b7c6fdb42171c118189d0e03f btrfs: sysfs: show temp_fsid feature
 a666ce9babf2e3ade3809163ccc81d5805bb503b btrfs: remove redundant initialization of variable dirty in btrfs_update_time()
 cc687c2ef43db15d5ad9a57d93c1b348726feb97 btrfs: remove redundant log root tree index assignment during log sync
 c6e8f898f56fae2cb5bc4396bec480f23cd8b066 btrfs: open code timespec64 in struct btrfs_inode
+a640d888953cd18e8542283653c20160b601d69d const_structs.checkpatch: add xattr_handler
+dfecaf3d4a2a18a5ffa0dadf5b3ab366f6763c3e fs: fix umask on NFS with CONFIG_FS_POSIX_ACL=n
+13f8510ba3215d2fb2ee7d1c64c0d51827ac28bd ovl: rely on SB_I_NOUMASK
 b8b01614b00bdb6cb6549afd8b0031b6f4012383 Merge branch 'for-next' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/kdave/linux into vfs.super
 637e0380421e57733393bc4da89b834b45e2a1c0 block: Provide bdev_open_* functions
 f04dccfc6ee72a923363466266fea4f008b40327 block: Use bdev_open_by_dev() in blkdev_open()
@@ -284,5 +287,11 @@ d30027f277444b2f3204bc6df245a5469f73eac1 nfs/blocklayout: Convert to use bdev_op
 a416cc4677f62b256009f845ea0ea753d9c2d145 xfs: Convert to bdev_open_by_path()
 b5408846d5ec5d6cf3a4510bab4f10f64bc20b5e bcache: Fixup error handling in register_cache()
 74882ca0ccbb2273a5f410a4b382ac03d90b6b6d jfs: fix log->bdev_handle null ptr deref in lbmStartIO
+04c7d3ec937ea1203f9126059bb2e01eedf0c4a9 Merge branch 'vfs.misc' into vfs.all
+9cd4765568eafa5fe1c03e185a3dc411f0899cb7 Merge branch 'vfs.autofs' into vfs.all
+18fa6d4d5ed5e6d219aeab9b92f602fa60020d95 Merge branch 'vfs.iov_iter' into vfs.all
+6769876d91058e3e4e4a3347152c0022fbe31fe6 Merge branch 'vfs.xattr' into vfs.all
+dc9214a77e7a21dd8896b1a9651d57663ae7766b Merge branch 'vfs.ctime' into vfs.all
+be636e0fa5fdb395366fd73a078e959d2587c476 Merge branch 'vfs.super' into vfs.all
 
---===============1888687530805205603==--
+--===============7257027120332974393==--
