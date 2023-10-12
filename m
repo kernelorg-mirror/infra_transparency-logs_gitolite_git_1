@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 12 Oct 2023 10:47:26 -0000
-Message-Id: <169710764668.13132.4204257498084716761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 12 Oct 2023 10:52:58 -0000
+Message-Id: <169710797890.16757.15902397434671892493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/spi-bcm2835-sentinel
+  - ref: refs/heads/renesas/dt
     old: 0000000000000000000000000000000000000000
-    new: bfdf276ade832071a99f7cafb90971085044d48f
+    new: d70be079c3cf34bd91e1c8f7b4bc760356c9150c
