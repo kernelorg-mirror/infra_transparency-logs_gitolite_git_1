@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 12 Oct 2023 19:35:33 -0000
-Message-Id: <169713933350.21539.9876228916083009918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 12 Oct 2023 19:52:29 -0000
+Message-Id: <169714034938.1184.2137929197227436526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: bbb24b6a681b12beccc4a6a68e44f40b3d8858b7
-    new: 8fa4c368ba691e6d92bc7a71279ed4ce5f1a6a1d
+  - ref: refs/heads/for-6.6-fixes
+    old: 7b42f401fc6571b6604441789d892d440829e33c
+    new: ca10d851b9ad0338c19e8e3089e24d565ebfffd7
     log: |
-         5473a1017dd76950e2373a683978433439e881d9 Bluetooth: ISO: Fix bcast listener cleanup
-         79fd960e01d75708ba61ec31996d724744accc59 Bluetooth: btusb: Add date->evt_skb is NULL check
-         5c765bbcb23320aabcc0a6fb8f85f0b0e9bc53b5 Bluetooth: Make handle of hci_conn be unique
-         8fa4c368ba691e6d92bc7a71279ed4ce5f1a6a1d Bluetooth: ISO: Copy BASE if service data matches EIR_BAA_SERVICE_UUID
+         ca10d851b9ad0338c19e8e3089e24d565ebfffd7 workqueue: Override implicit ordered attribute in workqueue_apply_unbound_cpumask()
+         
+  - ref: refs/heads/for-next
+    old: 9413336e48664df2bd328534ddfe23fc721f94c5
+    new: d363a9058e21ca9e4f2b6bb1e6e3c3427fec4a45
+    log: |
+         ca10d851b9ad0338c19e8e3089e24d565ebfffd7 workqueue: Override implicit ordered attribute in workqueue_apply_unbound_cpumask()
+         d363a9058e21ca9e4f2b6bb1e6e3c3427fec4a45 Merge branch 'for-6.6-fixes' into for-next
          
