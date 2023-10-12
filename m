@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1419655131610355914=="
+Content-Type: multipart/mixed; boundary="===============5327121936070632645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Oct 2023 17:41:45 -0000
-Message-Id: <169713250556.29610.200856787089909124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Oct 2023 17:42:21 -0000
+Message-Id: <169713254185.29895.18118459327832949367@gitolite.kernel.org>
 
---===============1419655131610355914==
+--===============5327121936070632645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 59825951707eccf92782e109c04772d34fc07eb6
-    new: 47c09498666056d131b0e507eb65ecf854b10085
-    log: revlist-59825951707e-47c094986660.txt
+  - ref: refs/heads/for-next
+    old: 7cd4a5a1531109287d8d9d34144020189201c031
+    new: ec31ae5b75335028e831fca006db5429fa3c221f
+    log: revlist-7cd4a5a15311-ec31ae5b7533.txt
 
---===============1419655131610355914==
+--===============5327121936070632645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1697132503 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1697132503-e3510ae52942bbd7d3cec2cccca19a7346765ff0
-
-59825951707eccf92782e109c04772d34fc07eb6 47c09498666056d131b0e507eb65ecf854b10085 refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUoL9cACgkQJNaLcl1U
-h9DkxwgAhf9zewG2E4xHEjmmVgUxZmtsqN9HwXeY9G6ymBE1kujoBpawkcoH16bY
-ESYUC/kPzpsjp084axJUAGbscHw4UwmkcqvA6DX2fUdFerlMM+zAnYztv4YRqVZK
-36e7f/MkGYSVcBvEV/xFbaLohZrHiRpTUZYWu5At4RGSUlBaKcK2ZPwgtJwmWmjz
-pVnMmYVfSy86jEKiVaunS6Bk7i5Bl/R8NXZFb9hNgGgk5pQiXmkCh+81o8lAWrS3
-UzugAn8gnO3m4i56NtP3HgD+CilcHc7BnWlklzO3SQyVk8eD2BDhcesycYffGm4m
-NpTbSo5SIc/xpTIO7h5TqUi56TEg1Q==
-=dp6X
------END PGP SIGNATURE-----
-
---===============1419655131610355914==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59825951707e-47c094986660.txt
+Content-Disposition: attachment; filename=revlist-7cd4a5a15311-ec31ae5b7533.txt
 
 393648ce731b087f5a685044c9e41afb815421f7 ASoC: Intel: avs: Only create SSP%d snd_soc_dai_driver when requested
 7a6debe0478596ac892ecf3cc336aacf09a9e4d8 ASoC: Intel: avs: Introduce helper functions for SSP and TDM handling
@@ -69,5 +44,6 @@ cc7ea744970176134d48cc6e004ebe7c9a0bb3da ASoC: Intel: avs: rt286: Validate machi
 5e07eb3ab981c5752c0e5ac324fbd166a12003ee ASoC: Intel: avs: ssm4567: Validate machine board configuration
 41cb1126bed152f7679417834ad7ea39f2252dfb ASoC: tegra: Fix -Wuninitialized in tegra210_amx_platform_probe()
 47c09498666056d131b0e507eb65ecf854b10085 Harden SSP boards and add TDM support
+ec31ae5b75335028e831fca006db5429fa3c221f Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
 
---===============1419655131610355914==--
+--===============5327121936070632645==--
