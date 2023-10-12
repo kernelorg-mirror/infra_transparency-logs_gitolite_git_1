@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 12 Oct 2023 17:34:19 -0000
-Message-Id: <169713205984.21670.2811981187177648400@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3881354629467632117=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 12 Oct 2023 17:38:09 -0000
+Message-Id: <169713228969.25966.605771294523851348@gitolite.kernel.org>
+
+--===============3881354629467632117==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6-fixes
-    old: bd9e7326b8d512ee724006d4ec06dfbf3096ae9e
-    new: 7b42f401fc6571b6604441789d892d440829e33c
+  - ref: refs/heads/master
+    old: dbc8b2702fdaed9faf68f67e0643f588f224ee05
+    new: ee062038eeceef2d6d65be787efb42fa42650cec
     log: |
-         7b42f401fc6571b6604441789d892d440829e33c workqueue: Use the kmem_cache_free() instead of kfree() to release pwq
+         ee062038eeceef2d6d65be787efb42fa42650cec 4.14-stable patches
          
-  - ref: refs/heads/for-next
-    old: 287e3637b92ef1768e6552b1fe24942d434b04ee
-    new: 9413336e48664df2bd328534ddfe23fc721f94c5
-    log: |
-         7b42f401fc6571b6604441789d892d440829e33c workqueue: Use the kmem_cache_free() instead of kfree() to release pwq
-         9413336e48664df2bd328534ddfe23fc721f94c5 Merge branch 'for-6.6-fixes' into for-next
-         
+
+--===============3881354629467632117==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697132288 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1697132287-e8eef58690b827affc2a657620c26b900140426a
+
+dbc8b2702fdaed9faf68f67e0643f588f224ee05 ee062038eeceef2d6d65be787efb42fa42650cec refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUoLwAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nzQP/jK/wE6BzdSMeif05iZJ
+IQ7XgjhGLityuqmAZbaUpEkpiMg2ezllHPrS+vsv5xsK4BisnJsG4YlCjm9N630i
+dHmoqmPfZOs+l8ScfdoZ+R/6TIKgXokGm3k+Jxp9Gw4TDMFspjBE3TcU+QFBuq/q
+fu7SOcTXJUg2ma495wx//LZo08EPq5kE6wLhm+OPOyeC97lELXWdh3Aw9a510xwT
+Uyw8Kdhsq401/4T7RdkKoOz+j1GWcKu+CVEwVWSIA5ZLFnIWKXwctuisDuYe5eaw
+tD1HEhWa6/sGyYWZ3Sc8RuwN9lkf7c53y3ALWZRBrE/Y63+g61BBMYmpLes2KNcQ
+QGjhC/dStUpoZ7JNo5isx+Iz7YbZLxSVwLuXe/ztQk8v3IeskKIsRFesP7n/4rgM
+4FztN+bv95Inj6GHa+Z/+IumkIKtJbuxuc7/Xm+PPOHeSL3c0GEcTYHowVd+XPgz
+uFxRbrop9G5Z7pw70BbsduzZveHSOTcij/+3DqlLsMGw6JweGEJ582GB+fZF1+nt
+H7MITSwwALxM9nOaQgEdexR923hI8VUZdNoiAZnKVihdovfnZ5wjuGOaHu7pub/2
+FN2KF6uKz8+DXm3HmGsjLGxCdKcgkI8rLcb4MX/LJ2ELjg5ehUmsUZgX2x7OEpes
+XUcIrBGwyodl8fn3W1eY+hf8
+=fNIX
+-----END PGP SIGNATURE-----
+
+--===============3881354629467632117==--
