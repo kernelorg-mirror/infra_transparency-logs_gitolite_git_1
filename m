@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 12 Oct 2023 16:16:12 -0000
-Message-Id: <169712737272.27346.9690342722097472829@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9218736671719185354=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
+Date: Thu, 12 Oct 2023 16:23:39 -0000
+Message-Id: <169712781935.31629.14144100789950644409@gitolite.kernel.org>
+
+--===============9218736671719185354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/gregkh/usbutils
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath-next
-    old: 13556aef0bdc0e98df7b6bf2e10d706c59dce6f4
-    new: 10c65f97b424fcee439463f933140df2a0022f98
+  - ref: refs/heads/master
+    old: 202ded1c6fd48304b2facf788eaab319295ca2af
+    new: db068dbef5935242bba6a2f9fef657c0a2e663dc
     log: |
-         a47111663491ff2829df0626493ce81b48dd880a wifi: ath11k: ath11k_debugfs_register(): fix format-truncation warning
-         534c2dd8099a9cc4bad8ea8b3c7fa1f730e10d5d wifi: ath11k: add parsing of phy bitmap for reg rules
-         29ea0d40910391e95c49917a180214a9f4cea9fa wifi: ath12k: add parsing of phy bitmap for reg rules
-         ae3ed72020de04dbdda5206757917117ff3a605f wifi: ath12k: configure RDDM size to MHI for device recovery
-         92448f8718baf8a8a940c210f04d0787a52e7507 wifi: ath12k: add ath12k_qmi_free_resource() for recovery
-         c42c2b8224c40f91f5f4984cc721d33ab10c7d43 wifi: ath12k: fix invalid m3 buffer address
-         480d230bef0ecd06e72ae3a84117142e38e77503 wifi: ath11k: Remove unused struct ath11k_htc_frame
-         10c65f97b424fcee439463f933140df2a0022f98 wifi: ath11k: Introduce and use ath11k_sta_to_arsta()
+         db068dbef5935242bba6a2f9fef657c0a2e663dc README.md: add source location
          
-  - ref: refs/heads/ath-qca
-    old: bdc02eb4c141be2ccb56078939612db5326e98ea
-    new: acbc21b2b1b18429244266f70a44b7043d391eae
-    log: |
-         a47111663491ff2829df0626493ce81b48dd880a wifi: ath11k: ath11k_debugfs_register(): fix format-truncation warning
-         534c2dd8099a9cc4bad8ea8b3c7fa1f730e10d5d wifi: ath11k: add parsing of phy bitmap for reg rules
-         29ea0d40910391e95c49917a180214a9f4cea9fa wifi: ath12k: add parsing of phy bitmap for reg rules
-         ae3ed72020de04dbdda5206757917117ff3a605f wifi: ath12k: configure RDDM size to MHI for device recovery
-         92448f8718baf8a8a940c210f04d0787a52e7507 wifi: ath12k: add ath12k_qmi_free_resource() for recovery
-         c42c2b8224c40f91f5f4984cc721d33ab10c7d43 wifi: ath12k: fix invalid m3 buffer address
-         480d230bef0ecd06e72ae3a84117142e38e77503 wifi: ath11k: Remove unused struct ath11k_htc_frame
-         10c65f97b424fcee439463f933140df2a0022f98 wifi: ath11k: Introduce and use ath11k_sta_to_arsta()
-         acbc21b2b1b18429244266f70a44b7043d391eae Merge branch 'ath-next' into ath-qca
-         
+
+--===============9218736671719185354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697127816 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
+nonce 1697127816-4574d3569c12e199a130e5e533405c9cee420308
+
+202ded1c6fd48304b2facf788eaab319295ca2af db068dbef5935242bba6a2f9fef657c0a2e663dc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUoHYgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HEkQAKOeQrMmJdefUrVePx+a
+TzP4HB9W5dI39JJ6d6C50Kljcx6rxU7/TfHBD7UxHWDWLfVMin1yQOkTrezj1fLz
+ZFNLR8T1cBkDJ0NcLm8kjUbWKuBYqkVO2CiWmSN+2eP1XNZ1yM9Dk/nXy1wRrS1/
+5zk6/ml0k3XPrSDPRzqdbiyuEyLJYORplCsCfSXk45Ig8BmcAwfLQ+yo2VeDB+cH
+CsExeG1ei4c3p0s5/7BEOHjAvkOOY96JIbQpyvvzKk6bT6pz89QMOamd0SvFj6as
+0+qKcqyO66XuTv8Ir/p7cOczS0Mw4KBv5Ghhs2buDRODvd9adBqhr9Ba4oeXMXZk
+Cwu9PYrm9TVLf75CfzlpDN6QsbwaUE/eQrAiYKMI/RuCChaekiDBI6482S0wxyq9
+Luj4WZqHpzwJrzx+TO8J2HGWbsbtVBmyTOjFBgyqd3qGWubsRnL7AARkHjyWVeb5
+w5+a7F7LzOiHpkds6zy1AVMJbuS6QYC6v03D43VRPeuoB1rfApUQZmJS38CWEpdr
+0sWS8b3DKR7NeyPH56pTF2rhJFmM1oZMbeh52tSWGeFj4StSlFKhFJGViQOdn7rJ
+AbY6C5j8T+bYRnNjdlj1JrpL0B+h/wiusrBvaSqU1ON7t1NLeHstk6nWl8WjFQ/Y
+VHhV2bZ7I40TQtajim2ABYT+
+=7SoZ
+-----END PGP SIGNATURE-----
+
+--===============9218736671719185354==--
