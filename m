@@ -1,45 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3608521113707389327=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Thu, 12 Oct 2023 11:59:28 -0000
-Message-Id: <169711196872.31408.8669731034175341687@gitolite.kernel.org>
-
---===============3608521113707389327==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 12 Oct 2023 12:05:16 -0000
+Message-Id: <169711231653.4321.7027371815876815360@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e17ccef351b424b11ddccc9d228d02a025f9639a
-    new: 91d9bdb83deffa675d0d2323433de0748effb581
-    log: revlist-e17ccef351b4-91d9bdb83def.txt
-
---===============3608521113707389327==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e17ccef351b4-91d9bdb83def.txt
-
-69b07d331612421f7e9b3723cc1afa527769f5c0 xfs_db: dump unlinked buckets
-4a9f92d023934ca6d436c8ca0e7a62702540a4ba xfs_db: create unlinked inodes
-e5b18d7d1d962e942ce3b0a9ccdb5872074e24df mkfs: enable large extent counts by default
-bcd5b1b766e62e7ad322cc814c142ebbc889101c mkfs: enable reverse mapping by default
-1e8897d53374026aa4fc76e7d70d73bac85fe668 mkfs: add a config file for 6.6 LTS kernels
-244199cd9ae1d136cec985885e4c336145e74a26 libxfs: make platform_set_blocksize optional with directio
-1bd1a58a723b5995effa6fdca643d16502864eba xfs_db: use directio for device access
-12838bda12e6693dee72118f9187bf64201aac02 libfrog: fix overly sleep workqueues
-03582d3f3b45e6a6de5dabc30d7ae42baeea3da8 libfrog: don't fail on XFS_FSOP_GEOM_FLAGS_NREXT64 in xfrog_bulkstat_single5
-7f5bbe286e02b0c7df72aba386b56af92b812dc3 libxfs: use XFS_IGET_CREATE when creating new files
-92c1851160c5142d4bd8f4d25c28322024fdf24b xfs_scrub: actually return errno from check_xattr_ns_names
-75325b82a66185ae9d0360193a271640e8c9a3ea xfs_repair: set aformat and anextents correctly when clearing the attr fork
-21226bb466c1053c0f9b2e600bbbee2f7a6960a2 libxfs: fix atomic64_t detection on x86 32-bit architectures
-e51b89e657af7843d8c7aea3df49fe1f0f1d4ac2 libfrog: drop build host crc32 selftest
-91d9bdb83deffa675d0d2323433de0748effb581 xfsprogs: Release v6.5.0
-
---===============3608521113707389327==--
+  - ref: refs/heads/filedwL67x
+    old: 0000000000000000000000000000000000000000
+    new: 41cb1126bed152f7679417834ad7ea39f2252dfb
+  - ref: refs/heads/v2_20231012_amadeuszx_slawinski_harden_ssp_boards_and_add_tdm_support
+    old: 0000000000000000000000000000000000000000
+    new: 5e07eb3ab981c5752c0e5ac324fbd166a12003ee
