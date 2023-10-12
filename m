@@ -1,56 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============9091995830606357847=="
+Content-Type: multipart/mixed; boundary="===============3714266028778455677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 12 Oct 2023 17:08:27 -0000
-Message-Id: <169713050776.678.15055462770705858913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 12 Oct 2023 17:09:45 -0000
+Message-Id: <169713058537.1354.13250839729371416494@gitolite.kernel.org>
 
---===============9091995830606357847==
+--===============3714266028778455677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 99115f4294bc0d110c36f64300829f5cf09bc75e
-    new: dbc8b2702fdaed9faf68f67e0643f588f224ee05
-    log: |
-         dbc8b2702fdaed9faf68f67e0643f588f224ee05 6.5-stable patches
-         
+    old: 1c8b86a3799f7e5be903c3f49fcdaee29fd385b5
+    new: 401644852d0b2a278811de38081be23f74b5bb04
+    log: revlist-1c8b86a3799f-401644852d0b.txt
 
---===============9091995830606357847==
+--===============3714266028778455677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697130506 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697130505-149ee16bebfac5b445c415477a1f8afa226c80ae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697130584 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1697130582-37900617952121051f5ecbb22fc38125030e88b7
 
-99115f4294bc0d110c36f64300829f5cf09bc75e dbc8b2702fdaed9faf68f67e0643f588f224ee05 refs/heads/master
+1c8b86a3799f7e5be903c3f49fcdaee29fd385b5 401644852d0b2a278811de38081be23f74b5bb04 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUoKAobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+08IP/3CVkTCsKwlcCXqW+iJy
-/pJwsgZt6XB8c+77azKAdxCm2rdGdSi9EZqZfrJYdXmIBAWNtw0wqnMdOdMh8peO
-SyGAQcklegraX92i9Ij66cyVAonvTouibZZnisXF/XvDVSCxBFu5UqsPNSohKE/B
-XAwFEFNdr0J2FMgcGQaAIy0NTgVtgO3FfzW+xpq2wPowWG/5sorI/oBGyn1MG21U
-WgdM4zKdsNaEXJU4+l71zQlh24EuQK6+vU0fkNnsdABmJnITtpCi++vCSDjI3jGI
-UgevCba9eDquedaEEqj0KefI3MPwoywllKfzpt/abXe9XAwjOnWxLYyCSNiUnCbn
-7eTFThNn4x2qVlE5Y4z3bbNVEv12zWaiBlPjs60CtcGE/PfpWo4mZLLHv2TrvV19
-JfUbAY6G47H5ssamAXtOd5WFf4nrTe1n90WtuJcgAMSZDz0E9ifxT4OTYt8KtnX7
-YqqoqFuNgDFcz4SNUs1nGUgDFXFz63cB+Faakn/4lWrV+xyI9fD5sW1PdKAB1T4u
-/5UjLDSm8jDHFnWJFwqvQtBm8KrzniiEx8gVKxeMOJcxjDkkailXDU+yq62iRzPa
-a8GG0ISq4lTUwN+R6fa+HfXg0SndVRZzFSdjuZPpUS3KD01KAZBXJ25JzypupKJo
-D9I5nHjTH008xq2r7L/sEDsL
-=1m43
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUoKFgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hpYQAJI95DH4sjPOVteDH9r8
+zedHG8iJ3PiqEWTPdvBKYV5XPgLME8J+O0AAMBXeUXO0DAhVXNGi7lVsROEkBiiS
+ntVHt+OAFxS6kZ57B2phHo4p4ldGeu4c0F1ciOA4t5mOYsi3gGy7Gb2+8NwvEpxZ
+kY1cMXqp7B+VoVpA4qRR+/bANmTJEVm8gnjzbKbS4vM66yePD6ccO7zWvZF5oTVM
+K202/6jSUNK1lbYh6f55lyz+0pbqOP6mtKWAI2AY1WOSHTsIHBlhgr1Bz/YgFYVu
+vX0/+mhMOhLgQ+BEEzVsnwJ8Fkg8DW7vQwLoCaYhr7obtkJ+0B5yNebzeYEd0lAP
+5IkAGDg8C/Q1fsic+qjyHKA0JETuoqjae1IYHlWCTF6LvCOds6Gf2OeHIGlEk/VF
+r/zf9SsCOBsiSn7hl4/jEkZgKU6NVmZLhFFDI2T8AMTzlT25j/QFj9jaaauDcSGv
+SyQ3l4kZewCAWuNpO6t95scbA+R92J3r68jL6j5AqlornKHqN4gkoKpOpPGlbXGr
+HZGgHnfJ0Vqhwbjorgj1CkuBi4CP0DAYAfy5wG/ImbfehxERG6aHWAoN7hqjXAKa
+sZFJwWxiFXd1FJVRASKyOvpPoyhsDPZS3HC8sR0yQXzrgwvE/dq+i2nOooTX8/E/
+Um64Eo/kWV9w+C73myYDuLBj
+=gbyR
 -----END PGP SIGNATURE-----
 
---===============9091995830606357847==--
+--===============3714266028778455677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1c8b86a3799f-401644852d0b.txt
+
+9af867c05b5d9f54f190743a1c761d70038c83b3 HID: i2c-hid: fix handling of unpopulated devices
+869b6ea1609f655a43251bf41757aa44e5350a8f quota: Fix slow quotaoff
+dac501397b9d81e4782232c39f94f4307b137452 HID: logitech-hidpp: Fix kernel crash on receiver USB disconnect
+054c22bd784d6953ac85f545bed4a2a27b0e4ddb printk: flush consoles before checking progress
+b555aa66760f17df4a0a5e4b440816e390311a38 ata: pata_parport: fix pata_parport_devchk
+d2302427c12277929c9f390adeda19fbf403c0bb ata: pata_parport: implement set_devctl
+f343e578fef99a69b3322aca38b94a6d8ded2ce7 ata: pata_parport: add custom version of wait_after_reset
+0c1e81d0b5ebd5813536dd5fcf5966ad043f37dc ata: pata_parport: fit3: implement IDE command set registers
+626b13f015e080e434b1dee9a0c116ddbf4fb695 scsi: Do not rescan devices with a suspended queue
+54f67decddeb47680f08c720c94b4d4f67181442 Revert "btrfs: reject unknown mount options early"
+75f5f60bf7ee075ed4a29637ce390898b4c36811 btrfs: add __counted_by for struct btrfs_delayed_item and use struct_size()
+9277abd2c17272ed8fc1b842d9efa45797435b77 Merge branch 'rework/misc-cleanups' into for-linus
+4524565e3a3821a40eea029d05846f7de6588857 Merge tag 'printk-for-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+bab19d1b21547046b0a38dde948086f6cbcaefaa Merge tag 'for-linus-2023101101' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+8182d7a3f1b8982c0136dca82a846ea375a4d6e9 Merge tag 'ata-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
+759d1b653f3c7c2249b7fe5f6b218f87a5842822 Merge tag 'for-6.6-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+401644852d0b2a278811de38081be23f74b5bb04 Merge tag 'fs_for_v6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+
+--===============3714266028778455677==--
