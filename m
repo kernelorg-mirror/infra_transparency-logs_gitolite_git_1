@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Oct 2023 21:29:17 -0000
-Message-Id: <169723255762.6797.3389665057610945616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 13 Oct 2023 21:40:04 -0000
+Message-Id: <169723320496.16625.4364746534180597336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 8702cf12e6ba91616a72d684e90357977972991b
-    new: dda5e1ee1e86c7ad15f1a62e68e173078f4799a0
+  - ref: refs/heads/master
+    old: 16b9f29dab1d105951da663474ec243942fda400
+    new: 50b94305b08a746c21a2c644ffb3cb56915d86ee
     log: |
-         dbb13378ba306484214b84304e232723a2aaf10a selftests: fib_tests: Disable RP filter in multipath list receive test
-         aa13e5241a8fa32b26d5a6b8b63d04c6357243f4 selftests: fib_tests: Count all trace point invocations
-         dda5e1ee1e86c7ad15f1a62e68e173078f4799a0 Merge branch 'selftests-fib_tests-fixes-for-multipath-list-receive-tests'
+         50b94305b08a746c21a2c644ffb3cb56915d86ee t/zbd: avoid test case 45 failure
          
