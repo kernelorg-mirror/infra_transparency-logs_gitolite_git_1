@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6296882077285896761=="
+Content-Type: multipart/mixed; boundary="===============1837447966805315424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 13 Oct 2023 09:27:57 -0000
-Message-Id: <169718927716.15421.4559785940341671091@gitolite.kernel.org>
+Date: Fri, 13 Oct 2023 09:29:27 -0000
+Message-Id: <169718936788.16020.6051867139284038750@gitolite.kernel.org>
 
---===============6296882077285896761==
+--===============1837447966805315424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/master
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: 6a7be48e9bd18d309ba25c223a27790ad1bf0fa3
-    log: revlist-0bb80ecc33a8-6a7be48e9bd1.txt
+    new: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
+    log: revlist-0bb80ecc33a8-8a749fd1a872.txt
 
---===============6296882077285896761==
+--===============1837447966805315424==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-6a7be48e9bd1.txt
+Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-8a749fd1a872.txt
 
 1527b076ae2cb6a9c590a02725ed39399fcad1cf spi: zynqmp-gqspi: fix clock imbalance on probe failure
 1f0bbf28940cf5edad90ab57b62aa8197bf5e836 nvmet-tcp: pass iov_len instead of sg->length to bvec_set_page()
@@ -964,6 +964,5 @@ ec8c298121e3616f8013d3cf1db9c7169c9b0b2d Merge tag 'x86-urgent-2023-10-01' of gi
 d2c5231581d636af8d5af888ee13048dfbb438c7 Merge tag 'mm-hotfixes-stable-2023-10-01-08-34' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e81a2dabc3f3faa0d96808708a8dc2025f2bdde3 Merge tag 'kbuild-fixes-v6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa Linux 6.6-rc4
-6a7be48e9bd18d309ba25c223a27790ad1bf0fa3 USB: serial: option: add Telit LE910C4-WWX 0x1035 composition
 
---===============6296882077285896761==--
+--===============1837447966805315424==--
