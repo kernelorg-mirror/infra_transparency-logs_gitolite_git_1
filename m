@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 13 Oct 2023 15:25:53 -0000
-Message-Id: <169721075371.1032.3885405523072801163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Fri, 13 Oct 2023 15:27:13 -0000
+Message-Id: <169721083377.1727.11610887508059924322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 71f6896d0576b653b54950d17ee963ad1695a71c
-    new: e2607c505e0c98dafa427babeb8d17792ebd9c53
+  - ref: refs/heads/for-next
+    old: de7a352aabb85016da267e99959701fdd7476cf0
+    new: 33f9b88122625de77d14824a3f7e4901b1f25ae5
     log: |
-         cc13994912c099a2b1727c14aa1f3c0f678781c6 thermal: core: Don't update trip points inside the hysteresis range
-         e2607c505e0c98dafa427babeb8d17792ebd9c53 Merge branch 'thermal-core' into bleeding-edge
+         4e807eb05dff41d500822f81744ec5f9c0591aa5 fpga: Use device_get_match_data()
+         a4407cc1a8170a1fa8b8b42e0f877e452613e5a9 fpga: altera-ps-spi: Use spi_get_device_match_data()
+         33f9b88122625de77d14824a3f7e4901b1f25ae5 fpga: versal: Add support for 44-bit DMA operations
          
