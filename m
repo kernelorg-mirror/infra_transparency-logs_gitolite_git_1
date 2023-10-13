@@ -1,59 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4815525955323376305=="
+Content-Type: multipart/mixed; boundary="===============7631806786829006258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Oct 2023 07:14:28 -0000
-Message-Id: <169718126840.14963.11473798684638895488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 13 Oct 2023 07:26:17 -0000
+Message-Id: <169718197769.23815.8937062919638597903@gitolite.kernel.org>
 
---===============4815525955323376305==
+--===============7631806786829006258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/usb-next
-    old: efa33cd89c8acc510ed0e4dbf98fc1cf3220b9dc
-    new: 1034cc423f1b4a7a9a56d310ca980fcd2753e11d
-    log: |
-         acd6199f195d6de814ac4090ce0864a613b1580e usb: Add support for Intel LJCA device
-         bfd3824c88081f9b2101d68376f14779ce26691f i2c: Add support for Intel LJCA USB I2C driver
-         caee8e38da67a8991a60f1f67e6820a0063278c4 spi: Add support for Intel LJCA USB SPI driver
-         1034cc423f1b4a7a9a56d310ca980fcd2753e11d gpio: update Intel LJCA USB GPIO driver
-         
+  - ref: refs/heads/gpio/devel
+    old: 78853aac42280ea9b48d7abc74b348463cf8588d
+    new: 680b7cc8f84c182171a5af5b29d8009b811c019f
+    log: revlist-78853aac4228-680b7cc8f84c.txt
 
---===============4815525955323376305==
+--===============7631806786829006258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-78853aac4228-680b7cc8f84c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697181267 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1697181267-dc97ac77d164f5facdfa41331f8e9d6675ea9e70
+ed8acfbdc69a011f765ef748cd9db5ae70ffd729 pinctrl: st: drop the wrapper around pinctrl_gpio_direction_input()
+3aed878928fb9f6ae508e118d847993201ef3c83 pinctrl: ingenic: drop the wrapper around pinctrl_gpio_direction_input()
+890bb01c9073a9d3f9102059272844c669950ec0 pinctrl: as3722: drop the wrapper around pinctrl_gpio_direction_input()
+062ebf2bc274b4929d429fd3052d1482e35711e1 pinctrl: cy8c95x0: drop the wrapper around pinctrl_gpio_direction_input()
+3c5a355e4cfb23e9c4e17de91a555c8b1d46e1d8 pinctrl: vt8500: drop the wrapper around pinctrl_gpio_direction_input()
+d1601716a3b4bb90cf0e420ec44149f8d284bc86 pinctrl: axp209: drop the wrapper around pinctrl_gpio_direction_input()
+7f7195682776a3a485c761ed57247e92195c43b5 pinctrl: rk805: drop the wrapper around pinctrl_gpio_direction_input()
+e592ea0c0993f447405b4c6e52bf94305fe0c5c9 pinctrl: mediatek: drop the wrappers around pinctrl_gpio_direction_input()
+89e3f3fe83276886fbb8204ff156e3f8daad3f15 pinctrl: cirrus: drop the wrapper around pinctrl_gpio_direction_input()
+6c69e2bff2a102d861f923c80788ff199444be02 pinctrl: ocelot: drop the wrapper around pinctrl_gpio_direction_input()
+b900db20b7605cfbf6317891e124bae6b0dd7add pinctrl: starfive: drop wrappers around pinctrl_gpio_request/free()
+515e33e69020142915289b41199d4455e57edd03 pinctrl: stm32: drop wrappers around pinctrl_gpio_free/input()
+f7c6508750b5c1ee086d8fbd9fb61793f17ca3df pinctrl: nuvoton: drop wrappers around pinctrl_gpio_request/free()
+22d27513a2b8f1e044c4a18186ed7b8b9f954b3c pinctrl: em: drop the wrapper around pinctrl_gpio_request()
+680b7cc8f84c182171a5af5b29d8009b811c019f pinctrl: tegra: drop the wrapper around pinctrl_gpio_request()
 
-efa33cd89c8acc510ed0e4dbf98fc1cf3220b9dc 1034cc423f1b4a7a9a56d310ca980fcd2753e11d refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUo7lMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J6MQAJMrn2rqeQF71bwfGzjk
-zkQpoK89C/O370IlCbIT7Y1CtRZruwmlffwqgSapoUbxMpkx6UESoqrfieJiMF8+
-O71Z7HZSz5FSv8quXfvpWg9ZCBPaqAlrk1eaCGC0y78DXkKkYpK8AE9TWLFe1RUw
-uJpFDalSaMQ8obF93C3ZnplWfhO69OMXUoDIT8Oy1paB+lkeIHzUMRq4jeUeKEdm
-OqnuZEWFh0gUHKgyut4ZAJKAjPgR8qYkhao+WXrkgvmrYqqxk6dm+Ynp7kg1nTT4
-Mvqacn1PNGWaF1Tb1ptgACtl3PfFFaA85NJKPSogi4Z5kdCphSa/HkObRBKglh5R
-tYCUvvrmfDGRMV8xY73Xsol0xcwQt71vxoS8OZtuxYxtvpsA62IBCLYz+4Z+jkVY
-atqynLzlQeJeVd7/xHtQ79pMQP9/4Q40iiiTM+6LQBVKrzu1WgXV3RSaV9KcxtTg
-NlH26owNmgMzAUzUi8zhtUExgEU6DQZIzTDQW4x/VVNoS/mnrZj/uQ44g7Q5W+QZ
-Gp26NhBWLBioYKOmJdMvD2YBMl6z2udV1GFRoSOdX5LazKH1BO5JPgACICXpWOOn
-VqHzcyfgIvIrontIWWgu76ABIpIO2m0nBabkmcrdcfVC4SqmT0VtOEN2oSPfmKM2
-QvP0b8hceP214pLYpygMEWu7
-=cmgQ
------END PGP SIGNATURE-----
-
---===============4815525955323376305==--
+--===============7631806786829006258==--
