@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Fri, 13 Oct 2023 04:34:19 -0000
-Message-Id: <169717165987.28296.15906043776019012384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 13 Oct 2023 04:34:20 -0000
+Message-Id: <169717166068.28365.14660535917108298259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/soc-for-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 0af9e89106c359e531791c3dc2422a16bd40d17f
+  - ref: refs/heads/master
+    old: bb6230004bcf973d99e9851bad77a9bcd6507b04
+    new: 4138c7d23336906fa2442e07b4ed595c7a28ed0e
+    log: |
+         4138c7d23336906fa2442e07b4ed595c7a28ed0e Fri Oct 13 04:33:07 AM UTC 2023
+         
