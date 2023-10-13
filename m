@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Oct 2023 10:21:28 -0000
-Message-Id: <169719248837.4531.10104561270026486349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 13 Oct 2023 10:22:18 -0000
+Message-Id: <169719253840.4897.4701685351319499764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e8c127b0576660da9195504fe8393fe9da3de9ce
-    new: d93f3f992780af4a21e6c1ab86946b7c5602f1b9
+    old: 6151ff9c75210c0f9d3d9ddcd3de6325de12c2a0
+    new: 895359b8c1e74e4b9190f9ac56b280cfd1edeea5
     log: |
-         d93f3f992780af4a21e6c1ab86946b7c5602f1b9 bonding: Return pointer to data after pull on skb
+         895359b8c1e74e4b9190f9ac56b280cfd1edeea5 net: stmmac: fix typo in comment
          
