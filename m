@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 13 Oct 2023 16:11:09 -0000
-Message-Id: <169721346973.2118.514134266323390709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
+Date: Fri, 13 Oct 2023 16:30:18 -0000
+Message-Id: <169721461896.15215.4404280484650321597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/aegl/linux
+user: aegl
 changes:
-  - ref: refs/heads/asoc-fix-dwc
+  - ref: refs/heads/resctrl2_patches_v6.6-rc5
     old: 0000000000000000000000000000000000000000
-    new: cb7d78bb3010488c96f0bfbe6c3f77ade72c4cb7
+    new: 5923ca9112dd53a998ef4b986edcf65ee0b9065d
