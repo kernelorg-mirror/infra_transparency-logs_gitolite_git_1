@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4840904884448014225=="
+Content-Type: multipart/mixed; boundary="===============2052041991240792287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 13 Oct 2023 21:15:04 -0000
-Message-Id: <169723170431.28386.14730146936507846499@gitolite.kernel.org>
+Date: Fri, 13 Oct 2023 21:15:14 -0000
+Message-Id: <169723171482.28541.13616155918627283274@gitolite.kernel.org>
 
---===============4840904884448014225==
+--===============2052041991240792287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 385346b17057236600055abd741ce0f89156d434
-    new: 68ff71bacbeeb966abc5327e772ee49f3f0b20f0
-    log: revlist-385346b17057-68ff71bacbee.txt
+  - ref: refs/heads/6.7/scsi-queue
+    old: 5ef104b749e8a9d47b0d93329e0445acff961972
+    new: b6f2e063017b92491976a40c32a0e4b3c13e7d2f
+    log: revlist-5ef104b749e8-b6f2e063017b.txt
 
---===============4840904884448014225==
+--===============2052041991240792287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1697231691 -0400
+pusher 75C5DE3D 1697231713 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1697231690-ae5b4d1ed0c4f725e97e7e6513b68c679a0d8fa7
+nonce 1697231713-1efce75e67a31789cd973c8c4f161e84a8b4ff19
 
-385346b17057236600055abd741ce0f89156d434 68ff71bacbeeb966abc5327e772ee49f3f0b20f0 refs/tags/mkp-scsi-queue
+5ef104b749e8a9d47b0d93329e0445acff961972 b6f2e063017b92491976a40c32a0e4b3c13e7d2f refs/heads/6.7/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUps0sACgkQ7ulgGnXF
-3j39yQ//efDoAkYNRbTjQS9qxm0ike28sEql6gtQNAFIko6zyejVcWGcEH0kLoBk
-mDdp9LVrTXQzw6lwi3a72QbwYoZUEPwfzIlLtR2D7gb3qZkWgtddw9JlsXyv5gM4
-rzfYcJSjOkcoJA+zuIPwcOxMRaNu20ofPX9WGENfuW8ohr6fptVBecW9qH50xixI
-SOUJFwOPpV9Yu1Zg7jdg62dzfrLw1goaRGIC3ftXJcl7nYLp5ACRYkY0ydv3F5zG
-OWKSvnVKTR0E7yMj2m5b+HCNfof4DUWNqVT5xlqVN6O7H6lMJR12KnROOg8mwbOs
-GdyffhBS6FZzL3lFqN5/RNJNuWBTniczNj+f2TWjmMY1ycTwd0pDyW3ojcgEsbCt
-UxDYEwJcvGyYZ8NRMP44bJyYErLjTCv3y+tXRmNKvRfLgBxxbVWlE4fkJdzYBBK6
-a5nPblmfoXOc78lcn+dmH9NcbSYcOjwOi32TGYzX7Bee50/GROWLh9pw5B9NsbnG
-V0u9W5Gl8vnDSQgrEw4yWzh6TL0p5SKKxwCIQ9zhZZttH4CcnQFlVNAPrMzGYWY3
-zo1BN4bGB55UBj8CcYegJBGBmpZ2golETVtPAGbEYHbjfMH94B3RDGvNtrKhcPZC
-UKPaMDyg1Uqh3WPMb5T4W57vbYQAun/pB6T3iN+NMFKzpUL4l3o=
-=N5wD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUps2EACgkQ7ulgGnXF
+3j22KQ//VmeGzsR5Q0GR7w+PlcXs57bAFjK1Y6rBWG1DN0UrFTvdXut6PRYOn0Ef
+qUaCIHiwOx3aZJ3kw+UpldRPhS5XOurlUME7DmfmLFHxPxX1YtgdiTEQ0oFBSl9b
+0PYtOFAL9STQDPJAgVe2cqnGPAJBCq26f0he/uBS0Wxj89DoXB0tZAcSZrwzWiiS
++TusTFBcNZTsISbn/xKTRfT3YFvm0R/FOCX+fh1vBqUgJTZHF+OfxUvHMMuKujTe
+kvJNc9gdXmo/ZVgagw2N6OA1DqQU6Rb6yEK+4N6ibf6Qic//qMiWlLBjSwq/qOPy
+VNLREvba0ZS2uWdggpMR1ntz1RjS4gkL/9ZjnGO4ciPZjV5N8Qkof0TzoM1iC+98
+yf+h8BIYkWirtsCWKSwc7zR/fENfBKt7Q8nMsK7lXsMgK2lfV8I7ICLCQWljUAwj
+Bo3266rACmWokBDfMBc5GME/Uj6TgRj6Wpssctx/BZXjjn0b6Vn8njX2f/QEOHCN
+dRZsz5g6sKUWQZ/omqZefRRWt7MwbKxeU5gLA5lTRSBgAtnWfqp+cGkjGbZrshoT
+/mi3/u2SGFOniCSC2QaGHzm6f7P8rH0AabUJ9RMSjm7odxBhZTEsUmJbKN7DpYpX
+1QJOBfbPRktrgk3hKBCfKw+G/uGane4JvFuH4nw5gOWIHDVUhCc=
+=AWq0
 -----END PGP SIGNATURE-----
 
---===============4840904884448014225==
+--===============2052041991240792287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-385346b17057-68ff71bacbee.txt
+Content-Disposition: attachment; filename=revlist-5ef104b749e8-b6f2e063017b.txt
 
 b39f2d10b86d0af353ea339e5815820026bca48f scsi: ibmvfc: Remove BUG_ON in the case of an empty event pool
 e1a4e0d3ce3b24421c25b7c335f0b7b948fd0c7f scsi: ibmvfc: Implement channel queue depth and event buffer accounting
@@ -75,4 +75,4 @@ e66413faa5b55800ad42a570aad674aed634c5e6 scsi: ufs: core: Remove dev cmd clock s
 fcf3fb7bd50c08e1bef8de0d36e62e53b58ceb8a scsi: ufs: ufs-pci: Switch to use acpi_evaluate_dsm_typed()
 b6f2e063017b92491976a40c32a0e4b3c13e7d2f scsi: ufs: qcom: Remove unnecessary check
 
---===============4840904884448014225==--
+--===============2052041991240792287==--
