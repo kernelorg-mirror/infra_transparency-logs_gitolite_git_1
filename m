@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Oct 2023 17:03:50 -0000
-Message-Id: <169721663022.6424.12805088635825630817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 13 Oct 2023 17:07:01 -0000
+Message-Id: <169721682136.9309.14415833633785303845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: d93f3f992780af4a21e6c1ab86946b7c5602f1b9
-    new: 8702cf12e6ba91616a72d684e90357977972991b
-    log: |
-         8702cf12e6ba91616a72d684e90357977972991b tcp: Fix listen() warning with v4-mapped-v6 address.
-         
+  - ref: refs/heads/fileYMZidR
+    old: 4e9a429ae80657bdc502d3f5078e2073656ec5fd
+    new: 0000000000000000000000000000000000000000
