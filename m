@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 13 Oct 2023 19:18:47 -0000
-Message-Id: <169722472717.7519.4468020826379706368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Fri, 13 Oct 2023 19:25:03 -0000
+Message-Id: <169722510386.12890.8717308187254978608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/for-linus
-    old: 4e9a429ae80657bdc502d3f5078e2073656ec5fd
-    new: 9c97790a07dc4f9bdc6e1701003dc9b86f749c71
+  - ref: refs/heads/sunxi/dt-for-6.7
+    old: ce63e97b674d03e5a87906fcbac19756f11f22c2
+    new: c3f7c14856ebbeb8e9e19439b9f5ec66f88744b9
     log: |
-         9c97790a07dc4f9bdc6e1701003dc9b86f749c71 ASoC: dwc: Fix non-DT instantiation
-         
-  - ref: refs/heads/for-next
-    old: 7f46d673fdb242a9f606a629719069613d452e58
-    new: e38ab5e537b0309fde482411feac04d98190725a
-    log: |
-         9c97790a07dc4f9bdc6e1701003dc9b86f749c71 ASoC: dwc: Fix non-DT instantiation
-         e38ab5e537b0309fde482411feac04d98190725a Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
+         61ebaa041f83677fa3ecd35e4c87e4332c16b4e9 ARM: dts: sun8i-r40: Add interconnect to video-codec
+         c3f7c14856ebbeb8e9e19439b9f5ec66f88744b9 riscv: dts: allwinner: convert isa detection to new properties
          
