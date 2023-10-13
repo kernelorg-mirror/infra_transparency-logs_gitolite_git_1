@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 13 Oct 2023 10:25:45 -0000
-Message-Id: <169719274566.8074.5598850562268953790@gitolite.kernel.org>
+Date: Fri, 13 Oct 2023 10:26:07 -0000
+Message-Id: <169719276786.8271.10404340097119373870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,12 +9,13 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: mingo
 changes:
-  - ref: refs/heads/irq/core
-    old: 6260ecd04594360ae2af104fb2641317728a66e4
-    new: f881feb180fd0563809b62faa3f7da234e81d42b
+  - ref: refs/heads/x86/merge
+    old: c35c9a1c32df244b02e95afa9bf8d39c45800447
+    new: 6cbec1e14805d3ef75a14dd5937dcb825c8bc317
     log: |
-         021a8ca2ba23c01487a98ad23b68ac062e14cf32 genirq/generic-chip: Fix the irq_chip name for /proc/interrupts
-         f881feb180fd0563809b62faa3f7da234e81d42b irqchip/renesas-rzg2l: Enhance driver to support interrupt affinity setting
+         c596723fca9128ce0d610fc21e592b965a9a68ee x86/apic, x86/hyperv: Use u32 in hv_snp_boot_ap() too
+         d31980e5b19c5bf281c428a917b9c693c5268896 Merge branch 'perf/core' into x86/merge, to ease integration testing
+         6cbec1e14805d3ef75a14dd5937dcb825c8bc317 Merge branch 'x86/core' into x86/merge, to ease integration testing
          
