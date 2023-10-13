@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 13 Oct 2023 19:35:55 -0000
-Message-Id: <169722575521.20254.9848024626953860236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Fri, 13 Oct 2023 19:36:03 -0000
+Message-Id: <169722576362.20389.7467353006422347240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/for-next
-    old: 236334aeec0f93217cf9235f2004e61a0a1a5985
-    new: 9c1292eca243821249fa99f40175b0660d9329e3
-    log: |
-         9c1292eca243821249fa99f40175b0660d9329e3 net/bpf: Avoid unused "sin_addr_len" warning when CONFIG_CGROUP_BPF is not set
-         
+  - ref: refs/tags/sunxi-dt-for-6.7-1
+    old: ecad13767088674bb079a1643333e5d9613f7436
+    new: 0000000000000000000000000000000000000000
