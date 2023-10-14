@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 14 Oct 2023 14:40:21 -0000
-Message-Id: <169729442109.15710.5197821658723804702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 14 Oct 2023 16:14:42 -0000
+Message-Id: <169730008221.16119.15098520343565048963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/kbuild
-    old: 2c55a71e723145063d28c817ac079211bafe2039
-    new: b0c0c365b36e19ff93739e49699eaeff05077b19
+  - ref: refs/heads/master
+    old: 727fb83765049981e342db4c5a8b51aca72201d8
+    new: 70f8c6f8f8800d970b10676cceae42bba51a4899
     log: |
-         50506a9a00e8c907e070882596586628f3a476ab modpost: fix tee MODULE_DEVICE_TABLE built on big-endian host
-         bac8d1fc5d540870274567408375a85eed5841ec modpost: fix ishtp MODULE_DEVICE_TABLE built on big-endian host
-         5de0c0008172a834483ccebaab47c66fd83ea6a1 modpost: define TO_NATIVE() using bswap_* functions
-         b44b501caa4f699d7588d3454cffc770e5556ec5 modpost: refactor check_sec_ref()
-         8c29d831547b148daecc8780dd489620d48c82e7 modpost: factor out the common boilerplate of section_rel(a)
-         4085e2c5b7f134ce973e8c4894b0e4056efbf542 csky: remove unused cmd_vdso_install
-         91148e59810acf47cb278d2725029d6a8cb8554d UML: remove unused cmd_vdso_install
-         b0c0c365b36e19ff93739e49699eaeff05077b19 docs: kbuild: add INSTALL_DTBS_PATH
+         6868b8505c807ad9397d78cc4e07cb1cb3582152 xfs: adjust the incore perag block_count when shrinking
+         442177be8c3b8edfc29e14837e59771181c590b3 xfs: process free extents to busy list in FIFO order
+         fa543e65abad671eb4c1ee56ec2c8932f40bdf6f Merge tag 'random-fixes-6.6_2023-10-11' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.6-fixesD
+         3c90c01e49342b166e5c90ec2c85b220be15a20e xfs: correct calculation for agend and blockcount
+         f93b9300301d30f275f9bd7165cbb53d5094bd8d xfs: Remove duplicate include
+         cbc06310c36f73a5f3b0c6f0d974d60cf66d816b xfs: reinstate the old i_version counter as STATX_CHANGE_COOKIE
+         70f8c6f8f8800d970b10676cceae42bba51a4899 Merge tag 'xfs-6.6-fixes-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
          
