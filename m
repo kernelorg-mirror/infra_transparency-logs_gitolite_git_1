@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0065932042688367333=="
+Content-Type: multipart/mixed; boundary="===============1589379380541568604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sat, 14 Oct 2023 17:40:19 -0000
-Message-Id: <169730521955.13980.11926932708320940681@gitolite.kernel.org>
+Date: Sat, 14 Oct 2023 17:42:20 -0000
+Message-Id: <169730534018.14799.484940645137677280@gitolite.kernel.org>
 
---===============0065932042688367333==
+--===============1589379380541568604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: b78b18fb8ee19f7a05f20c3abc865b3bfe182884
-    new: 70f8c6f8f8800d970b10676cceae42bba51a4899
-    log: revlist-b78b18fb8ee1-70f8c6f8f880.txt
+  - ref: refs/heads/opal-test
+    old: 7abffb7ad5910e9b2cd575e66d469f9c57d19f69
+    new: 9a0d34bd9b37cbca78b3b599c3272e8a27c14320
+    log: revlist-7abffb7ad591-9a0d34bd9b37.txt
 
---===============0065932042688367333==
+--===============1589379380541568604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b78b18fb8ee1-70f8c6f8f880.txt
+Content-Disposition: attachment; filename=revlist-7abffb7ad591-9a0d34bd9b37.txt
 
 e193b7955dfad68035b983a0011f4ef3590c85eb RDMA/srp: Do not call scsi_done() from srp_abort()
 53a3f777049771496f791504e7dc8ef017cba590 RDMA/siw: Fix connection failure handling
@@ -399,5 +399,14 @@ a65cd7ef5a864bdbbe037267c327786b7759d4c6 Input: xpad - add PXN V900 support
 5c15c60e7be615f05a45cd905093a54b11f461bc Input: powermate - fix use-after-free in powermate_config_complete
 727fb83765049981e342db4c5a8b51aca72201d8 Merge tag 'input-for-v6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 70f8c6f8f8800d970b10676cceae42bba51a4899 Merge tag 'xfs-6.6-fixes-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+758b1577922a6b883f58e078bddc5fd81f1bd518 block: Fix regression in sed-opal for a saved key.
+bd596a08409fa20de0f9907e8bc86f13be095c68 scsi: use ATA-12 pass-thru for OPAL as fallback
+819d8259c4439e8888ce07a78eac419d9fb15c4f usb-storage: remove UNUSUAL_VENDOR_INTF macro
+f9fe1711c2b0b2cfb74adbd710efa531db6abeda usb-storage,uas: make internal quirks flags 64bit
+64aea2c634045beac8a7555317bee65da90f0f0a usb-storage: use fflags index only in usb-storage driver
+78763fdeea9724d47e4af8def2adc973fc3dbcea usb-storage,uas: use host helper to generate driver info
+62ae782dec5d87cc7021023f74cc978ab4469df1 usb-storage,uas: do not convert device_info for 64-bit platforms
+d148acd196deecf8bddc8efcf16cccb38d4fe6f6 usb-storage,uas: enable security commands for USB-attached storage
+9a0d34bd9b37cbca78b3b599c3272e8a27c14320 usb-storage,uas: disable security commands (OPAL) for RT9210 chip family
 
---===============0065932042688367333==--
+--===============1589379380541568604==--
