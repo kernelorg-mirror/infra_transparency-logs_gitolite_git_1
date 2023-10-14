@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 14 Oct 2023 21:56:57 -0000
-Message-Id: <169732061746.1808.489138003333255856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 14 Oct 2023 21:59:16 -0000
+Message-Id: <169732075630.2752.3464002649086759812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: a0d480cd64fdd365705d2d06eb4caf6206a20c7b
-    new: b31fe84c31989bc6d3a2884bec5c538e06498423
-    log: |
-         b31fe84c31989bc6d3a2884bec5c538e06498423 string_copying.7: Clarify 'ustr' and 'zustr'
-         
+  - ref: refs/tags/sched-urgent-2023-10-14
+    old: 0000000000000000000000000000000000000000
+    new: 3c0b7a161e1b78b8d66b11037c54568608e29bb2
