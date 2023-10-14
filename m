@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 14 Oct 2023 19:38:00 -0000
-Message-Id: <169731228072.32291.18398047935090289813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Sat, 14 Oct 2023 19:45:25 -0000
+Message-Id: <169731272577.5756.9830530049266829626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/controller/hyperv
-    old: 0000000000000000000000000000000000000000
-    new: 45538f68b0520379299e0bc4621a4812ad330a6c
+  - ref: refs/heads/ovl-fixes
+    old: 32db510708507f6133f496ff385cbd841d8f9098
+    new: beae836e9c61ee039e367a94b14f7fea08f0ad4c
+    log: |
+         beae836e9c61ee039e367a94b14f7fea08f0ad4c ovl: temporarily disable appending lowedirs
+         
