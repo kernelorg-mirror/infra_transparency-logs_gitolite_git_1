@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7498277038830600641=="
+Content-Type: multipart/mixed; boundary="===============8976997076547544679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 15 Oct 2023 16:34:39 -0000
-Message-Id: <169738767996.6864.1697122288690422934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 15 Oct 2023 16:36:29 -0000
+Message-Id: <169738778934.11690.9656004360849996436@gitolite.kernel.org>
 
---===============7498277038830600641==
+--===============8976997076547544679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 83f51b145180a8dd64d7d16f4c1b399a8e875a98
-    new: df6c923320b9ba4d782319f3e58baa3422784fe8
+  - ref: refs/heads/master
+    old: 2120a191fb26d415c40a98aea44d3a0ad4895029
+    new: 2767f26ac331f84ab99b917dc3b28ea9b5c10fe6
     log: |
-         df6c923320b9ba4d782319f3e58baa3422784fe8 Notes added by 'git notes add'
+         d29eb29932760a47c93828d1e0c0ecc99e55e795 move 6.1 queue back
+         2767f26ac331f84ab99b917dc3b28ea9b5c10fe6 drop some 6.1 patches that are now applied
          
 
---===============7498277038830600641==
+--===============8976997076547544679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697387679 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1697387674-0b2e6709fba9263907846ad5e68f0e802326b8fd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697387787 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1697387771-2df5302a9d59f124e7cb41a825b7b7c672125099
 
-83f51b145180a8dd64d7d16f4c1b399a8e875a98 df6c923320b9ba4d782319f3e58baa3422784fe8 refs/notes/signatures/tar
+2120a191fb26d415c40a98aea44d3a0ad4895029 2767f26ac331f84ab99b917dc3b28ea9b5c10fe6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUsFJ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LtkQAI0GzCRZln+NibGNKCRS
-iW5oHqz+7jJpmpRrahKjFaQey39i2DrsSiXjk9tFl5PteQI48TAmKxoqlPGaDy+l
-FJP2ByZqWZwu4/k3WY8/1Gv1N9pPhJHszlKCFcp3uPUg7WCvNp0or9U10mFrEhiL
-Bgb3qzeWbyaflUqoPLZKvOEABRNQU7N12jziH0CPfSI7sI1HWMLk1Amm4T7WasN6
-CRydg7Ng6aul9kyZQJRe0kgsUFKnsgQGxGkXLu6/2xCVmd1GfFVcS5zl02wTQMd/
-weanZlYmhHe6alC21ec8yCRFxXsskrtgArhsTHpEQLuI2Fuu/esXrQoimq6h2G8b
-E5X/EP9msKP72A9STZhZF736yE3LBcXLbysOrbgwmz7Nt0EFizdBTZhusUwE4mH7
-7mceWn0ZWKhj9x4WYh1yzoK3Yk34S653HHyuJeUZmSbfH+KhmFvfYbfl5sWl7mI1
-o+2FS/N6BphLlghf8jqikTUfDXpAoUG9AkR8vnxLySwxWZ/HszhyVJF/pRh8ELS9
-763rJUpj1F5RGp8IiqMGvTWf8oSTCKOk2kEm2p88MldU28i7QfGwjh2MnPPie2eB
-jI00HL0wa7ANmC1gIuoH5OrZHVrbyPtTxuecKJsTsWMk8wIrDrNBTY7Zecr9Wdw8
-2u1ZLHVTFDQntb9ltsXGVRap
-=eVF+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUsFQsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GoYP+wfKXazkV8N132/Uzq+v
+fSNsWKv1XjdfYel9NByRJbJcd8bj3c1Aw45Jq8xaYxW1KKPtwPUDhdNDwLzcntiv
+a5kbGK5qiepgr9MCcPvg/fTtSh3ml9IZa8cjLQIDUQqOK4EgvErARYd7XmbYT/Jd
+qO2sv4+sJYpQf410IEeb6CQDNYvVBmDWKKVhYTK2Rtt3grW3VP7JloCY1TE3EpNf
++vT/5+KJf45oC08DcimkeH5TdbkSVhTsAYzOQ0exj3unGn/szhOSMv6LFnjGp72c
+/7r80/0oTd9N3LG/hax3IbjZOs1g0VaEHS7MP3ck1BvfvJ8qgnordhBUeM7t+dPz
+r3zK04/NuB54tY2dC68g1Vwq5urYnv7iPuiF+9ewDUbbZO4airZvhZnTjK1IqzlZ
+Z0kcMg4NUpBvzlQ61VPXdgv7b0iPtPfo5job2ESJ/HE5ZBdQ8yDblIFglXyCRjDW
+FvHUkkTJafWKalPb3mzb0RyFIaDdiMCNxrFbh+xnds+NjTi/w8LxtcUgWGXb4CTU
+FoPWJIzhveGLmzz02YsKSz9owPzXPRi4uTcC8y4TRR183p2RLq47ozoDLU2bFWmE
+pGjbUiZYOG4hu05PC0motSEeA+lbTRV15YetFrH5Dv8MRQB4so7BZpDP/Xwj2Oe4
+9W9QaM/Wh43XlqIXfGkjhazH
+=Yl4t
 -----END PGP SIGNATURE-----
 
---===============7498277038830600641==--
+--===============8976997076547544679==--
