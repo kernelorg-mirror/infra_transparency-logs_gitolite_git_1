@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 15 Oct 2023 13:29:39 -0000
-Message-Id: <169737657965.971.16875065177090601244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 15 Oct 2023 13:30:36 -0000
+Message-Id: <169737663676.3129.6692428687614540133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 2d1c882d4434a27a026b98b602f232c7919849c5
-    new: 2f3389c73832ad90b63208c0fc281ad080114c7a
+    old: 6e55b1cbf05dca4651692be6c59acb7b20186653
+    new: b22f21f7a541419d454c5b7c254a9bd02bdd5d58
     log: |
-         2f3389c73832ad90b63208c0fc281ad080114c7a qed: fix LL2 RX buffer allocation
+         b22f21f7a541419d454c5b7c254a9bd02bdd5d58 tg3: Improve PTP TX timestamping logic
          
