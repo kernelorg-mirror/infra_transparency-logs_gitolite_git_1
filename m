@@ -1,53 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4323209144858100625=="
+Content-Type: multipart/mixed; boundary="===============3926627029491456969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 15 Oct 2023 16:33:39 -0000
-Message-Id: <169738761921.6277.8633833495202475054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 15 Oct 2023 16:34:09 -0000
+Message-Id: <169738764999.6536.12465080185407355751@gitolite.kernel.org>
 
---===============4323209144858100625==
+--===============3926627029491456969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1.58
-    old: 0000000000000000000000000000000000000000
-    new: 55579d5d87c98d0e91172e6963ba37a697fcc56c
+  - ref: refs/heads/linux-6.1.y
+    old: 082280fe94a09462c727fb6e7b0c982efb36dede
+    new: adc4d740ad9ec780657327c69ab966fa4fdf0e8e
+    log: |
+         e8db8b55815d84447662d7a1bd3ce515b02179ef Revert "NFS: More fixes for nfs_direct_write_reschedule_io()"
+         506cf335d95a625f9baf5ae796a68d4e9429fbbd Revert "NFS: Use the correct commit info in nfs_join_page_group()"
+         ebf5841ac1ed18f521eb0cf570ef2626a2404cf4 Revert "NFS: More O_DIRECT accounting fixes for error paths"
+         b0cee281c433e5012134441d80e0a7b0a2cf950f Revert "NFS: Fix O_DIRECT locking issues"
+         ff74bdc83847f9e15d7573ac1f4ce1c1b56c2470 Revert "NFS: Fix error handling for O_DIRECT write scheduling"
+         38fd36728f40d7c83979d9b1443cffcf368790b0 lib/test_meminit: fix off-by-one error in test_pages()
+         adc4d740ad9ec780657327c69ab966fa4fdf0e8e Linux 6.1.58
+         
 
---===============4323209144858100625==
+--===============3926627029491456969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697387618 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697387610-feb7333991e85423df11cb31f81a4a91c7db171b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697387648 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1697387624-26dd59f22097d6b232e49b755379b982a4e7afdb
 
-0000000000000000000000000000000000000000 55579d5d87c98d0e91172e6963ba37a697fcc56c refs/tags/v6.1.58
+082280fe94a09462c727fb6e7b0c982efb36dede adc4d740ad9ec780657327c69ab966fa4fdf0e8e refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUsFGIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cZ4P/1XpBCZLq2k0JE427/I3
-W8iDUACFsUAIyZs+w42SN+lfxnGNr7cJS22ueWtSjCid3QB9vKTgXb2abYHqVKmG
-0ekLBasQh5kfLon46pt4b2g1UyI/+q2YwS01/Mt9W8gqMy3CKHq70iYffN7Mb1/j
-L+gBs5s2Kk1GLDnRLvL7yFVYBKHHXVbAneqsscy7OOkjOSUbipOh1pB8DV1dCj/s
-JHiMfesaqar1zGTfAEy552FDlwB50SOZ2f5F9tUrkesUPeMJ1c0MrCQ5b3yx3tH9
-iVwv+tSMy54hDwgxROckHx2CtZoTdVNZEFEUXALGWOfIY3LsXzpMb4mYs1flo//e
-0pEnVXHhJGQJ0qZRv/fuEta1ZI+IJ2UgizVJGn9aohqTCq3gWY7FL2BZPZSB+Pbt
-mgtPYZedjonCEecUuYJLqKQIn6I4XGjPEC47FsJNnn3tMWH27jm/BpRYL57Sii3U
-f38jm5MiAQHQVxEcuzrNz0+BQjyS2SateUQdhDtal/dXdmVVOcCqA4cAuXA9Pc7M
-kK6iguRbQJe4erTNuahPIPsPZlLv0o+qrsVybZdndV3wIbdksoiZZq4qmi6tBGoM
-p1fy3YPoaZoic4NdX7YQx8+a9spc2nRW+toTpxFlwVnOPTH5Rv1J/0jdJuViSGBp
-+wcon4YFGiKP9SFx2Aelazga
-=tkA6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUsFIAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IBQP/juSWe0P4jsHV3H2JHdd
+tc85nPqVe+8njhYGq0qcglSbImCXoN/RrWOnFQKgiYjyEzl/Zt2TB6czAZXt7JS9
+Q6f8sTQOW+xDCxnSC95lCp4wO7KX5NXQIPvwAAdW7Yr5ku5wgLLFy+dCp5lwYff1
+qrgEWURGST2/XVn6ALCGCpZ3Z4eqZE+qL/N/8v3rD/KzEm9BNK9VZcxBN3UbVv9F
+wW0XHy9ZLAf5f1gOgns/sMHlGp1Em7QP3wCLWC2eUt4zncrq1yveFSKGEhKasZmg
+8xNC3VwBwPU2JdH9kW/BcaphxkVC5JkxDB3neukIhjpg7k5NvNPcQoHiVeIQqn0u
+xDJZAsSPJ0L6hBJkoUzP/RZDyjEgPnRFgyYfQ+fFDSuBU89vxg6CLqShgKanb19Z
+k7Vo4F+9Mm/Kph6icYbll0uLTm61SH/P/vTWlRMOIlsIuLVCJlPBJ/Kxw7V8Mi7S
+IblcuoLIiUEZX/a1jrg2tFfh8R4s6mmKF2lTlFnESO3ESzUF/m+bMryNtknEtOjT
+ooDKu/n1QyOJ5dit4urMBDfpvCXvgXegQL1OKiyP8PHWyyLC5+jcfHPhbSnmlVFi
+KhXW3n8DFOu1yu5PMP+sGuw0Ki2bFwb/AIKPqtdsKqxeBoCXuBFROgKCc5z7vWuE
+Ozhst9HyIru1aB9HUDeBpDBQ
+=KUDw
 -----END PGP SIGNATURE-----
 
---===============4323209144858100625==--
+--===============3926627029491456969==--
