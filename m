@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4058298079829948220=="
+Content-Type: multipart/mixed; boundary="===============2967728764987213177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Oct 2023 07:45:43 -0000
-Message-Id: <169735594327.1826.14036911203736960793@gitolite.kernel.org>
+Date: Sun, 15 Oct 2023 07:46:11 -0000
+Message-Id: <169735597135.2047.7240757742648462634@gitolite.kernel.org>
 
---===============4058298079829948220==
+--===============2967728764987213177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5567211f3adc7acc1356dd0b99acb7cecd8294a2
-    new: a3a7c9629d48d10975d1148b9994ea0416d3d19a
-    log: revlist-5567211f3adc-a3a7c9629d48.txt
+    old: a3a7c9629d48d10975d1148b9994ea0416d3d19a
+    new: 541c0b0e9d0a449422ce8ea7316b273efcbd9f5e
+    log: revlist-a3a7c9629d48-541c0b0e9d0a.txt
 
---===============4058298079829948220==
+--===============2967728764987213177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5567211f3adc-a3a7c9629d48.txt
+Content-Disposition: attachment; filename=revlist-a3a7c9629d48-541c0b0e9d0a.txt
 
-e95f3f74465072c2545d8e65a3c3a96e37129cf8 smb: client: make laundromat a delayed worker
-81ba10959970d15c388bf29866b01b62f387e6a3 smb: client: prevent new fids from being removed by laundromat
-f43328357defc0dc9d28dbd06dc3361fd2b22e28 ksmbd: not allow to open file if delelete on close bit is set
-be0f89d4419dc5413a1cf06db3671c9949be0d52 ksmbd: fix wrong error response status by using set_smb2_rsp_status()
-414849040fcf11d45025b8ae26c9fd91da1465da ksmbd: fix Null pointer dereferences in ksmbd_update_fstate()
-1903e6d0578118e9aab1ee23f4a9de55737d1d05 ksmbd: fix potential double free on smb2_read_pipe() error path
-23931d935363846a9b39a890d4aead208cd46681 Merge tag 'perf-urgent-2023-10-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-42578c7bf6e5eb816b694133ba33f0ff67c68582 Merge tag 'sched-urgent-2023-10-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-dc9b2e683bcba017588b9aaad80f442ad004a48f Merge tag 'x86-urgent-2023-10-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bf2069d151b7bb5dfd7c7f834c016205a517c5ad Merge tag '6.6-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-9a3dad63edbe9a2ab2be1e7361a2133f519f855b Merge tag '6.6-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-a3a7c9629d48d10975d1148b9994ea0416d3d19a Merge branch 'linus'
+19219cc0076b82906863600afe62af68d3d4a291 Merge branch into tip/master: 'smp/urgent'
+217beea7d010209714e1d3e7f22db48fbf811eb2 Merge branch into tip/master: 'x86/merge'
+e06a92e3570f7ade8ba01c2012d2557ad2cc148f Merge branch into tip/master: 'core/core'
+87b961102e804ce0c01bb03bd4c9eb78bfe24836 Merge branch into tip/master: 'irq/core'
+e764444b225dea3e45410835d0e01ee3c9739c83 Merge branch into tip/master: 'locking/core'
+d3a3b8c3efbb532c867447b8c00a59489a08f8ef Merge branch into tip/master: 'objtool/core'
+962f51ab03af49e5548686ef8b6fbeac9d08ff6e Merge branch into tip/master: 'sched/core'
+ab2514903ae1acb11691a65a1297beaaa2d56feb Merge branch into tip/master: 'smp/core'
+a3cadec8b2b792b4be531553ead5044b2a8b9d5e Merge branch into tip/master: 'timers/core'
+4db71183b407bc2ace148385db367433f2931370 Merge branch into tip/master: 'x86/apic'
+791b24f02bf2230cec50f6c7a508f1d554f69464 Merge branch into tip/master: 'x86/asm'
+af89b96f4e2f5f480c78083dc3e6df88d1aa4f1d Merge branch into tip/master: 'x86/boot'
+63f98235b237e94f82b16d21292c013109c9ae66 Merge branch into tip/master: 'x86/bugs'
+1cfc2a394fdfa444405dc780f281871ad5d4ce13 Merge branch into tip/master: 'x86/cache'
+3732fafeaf21c4c329046f51f249c4e7f8d1c386 Merge branch into tip/master: 'x86/cpu'
+2db46eef892ffde4050cb80cd3c56d9aefa48b88 Merge branch into tip/master: 'x86/entry'
+f16f4574bf138c84b66296aa930a3e23d298e543 Merge branch into tip/master: 'x86/fpu'
+3245978c0dde38852e263327b1fd6edb6fa76f6f Merge branch into tip/master: 'x86/headers'
+7fd5f904e56c1826ab660c92ff493141020fe103 Merge branch into tip/master: 'x86/irq'
+45aa9d7b376d9127726c123cf574033f956f0d06 Merge branch into tip/master: 'x86/microcode'
+9804d566522f3190301284bff617db10973c27d9 Merge branch into tip/master: 'x86/mm'
+af03acef263b1e44862ba59233b3c206e38f1bbe Merge branch into tip/master: 'x86/percpu'
+d79b9521310eb80a3dd9251073ef7de07413e992 Merge branch into tip/master: 'x86/platform'
+541c0b0e9d0a449422ce8ea7316b273efcbd9f5e Merge branch into tip/master: 'x86/tdx'
 
---===============4058298079829948220==--
+--===============2967728764987213177==--
