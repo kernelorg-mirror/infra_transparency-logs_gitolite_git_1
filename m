@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4142488304328977049=="
+Content-Type: multipart/mixed; boundary="===============8863716690178617575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sun, 15 Oct 2023 08:12:03 -0000
-Message-Id: <169735752359.20461.6754901030945648587@gitolite.kernel.org>
+Date: Sun, 15 Oct 2023 08:13:38 -0000
+Message-Id: <169735761849.21093.6964884576244776165@gitolite.kernel.org>
 
---===============4142488304328977049==
+--===============8863716690178617575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 70f8c6f8f8800d970b10676cceae42bba51a4899
-    new: 9a3dad63edbe9a2ab2be1e7361a2133f519f855b
-    log: revlist-70f8c6f8f880-9a3dad63edbe.txt
+  - ref: refs/heads/opal-test
+    old: 9a0d34bd9b37cbca78b3b599c3272e8a27c14320
+    new: bea1ce32895171761193b4d3abccf964f8fec5c8
+    log: revlist-9a0d34bd9b37-bea1ce328951.txt
 
---===============4142488304328977049==
+--===============8863716690178617575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70f8c6f8f880-9a3dad63edbe.txt
+Content-Disposition: attachment; filename=revlist-9a0d34bd9b37-bea1ce328951.txt
 
 025d5ac978cc3b47874cc1c03ab096a78b49f278 x86/resctrl: Fix kernel-doc warnings
 e53899771a02f798d436655efbd9d4b46c0f9265 perf/x86/lbr: Filter vsyscall addresses
@@ -43,5 +43,14 @@ be0f89d4419dc5413a1cf06db3671c9949be0d52 ksmbd: fix wrong error response status 
 dc9b2e683bcba017588b9aaad80f442ad004a48f Merge tag 'x86-urgent-2023-10-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bf2069d151b7bb5dfd7c7f834c016205a517c5ad Merge tag '6.6-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 9a3dad63edbe9a2ab2be1e7361a2133f519f855b Merge tag '6.6-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+547077fcf1f0928370fdc36f637e3431d02674da block: Fix regression in sed-opal for a saved key.
+e0b93f1d1e9b7ee26952d9ff4426c1b54e94a5ca scsi: use ATA-12 pass-thru for OPAL as fallback
+3144f8a25e36ca5978980d8245921501df0f2ec2 usb-storage: remove UNUSUAL_VENDOR_INTF macro
+41ca79db9aa61fc1d17878599cd6072c5596e877 usb-storage,uas: make internal quirks flags 64bit
+645c1887708ecf6c1418d8fc972a80e170bd804a usb-storage: use fflags index only in usb-storage driver
+4189038e8a7d8543af8bd165d4ee63f441b17541 usb-storage,uas: use host helper to generate driver info
+e0875b6f819c906500895f0782e0975eefb1fefc usb-storage,uas: do not convert device_info for 64-bit platforms
+45f8bd710e835fca9fa25e6cca9c90fb1d3186a1 usb-storage,uas: enable security commands for USB-attached storage
+bea1ce32895171761193b4d3abccf964f8fec5c8 usb-storage,uas: disable security commands (OPAL) for RT9210 chip family
 
---===============4142488304328977049==--
+--===============8863716690178617575==--
