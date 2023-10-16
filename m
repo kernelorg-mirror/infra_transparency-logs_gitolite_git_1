@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2300818901617218698=="
+Content-Type: multipart/mixed; boundary="===============0454258724386745543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Oct 2023 06:39:01 -0000
-Message-Id: <169743834182.11222.12902328529473226678@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 06:39:09 -0000
+Message-Id: <169743834992.11330.3586628964996579923@gitolite.kernel.org>
 
---===============2300818901617218698==
+--===============0454258724386745543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
+  - ref: refs/heads/usb-linus
+    old: c9ca8de2eb15f9da24113e652980c61f95a47530
     new: 58720809f52779dc0f08e53e54b014209d13eebb
-    log: revlist-8a749fd1a872-58720809f527.txt
+    log: revlist-c9ca8de2eb15-58720809f527.txt
 
---===============2300818901617218698==
+--===============0454258724386745543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697438342 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697438350 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1697438339-2282c9ab5877ac4229f5dc4258e11d143c80a23a
+nonce 1697438345-2cd2e35aa5557db6aaf69541882467806d66f9ab
 
-8a749fd1a8720d4619c91c8b6e7528c0a355c0aa 58720809f52779dc0f08e53e54b014209d13eebb refs/heads/main
+c9ca8de2eb15f9da24113e652980c61f95a47530 58720809f52779dc0f08e53e54b014209d13eebb refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUs2oYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++4sP/AlSea/ILROK8xg6+k0f
-OaFUnxRwm40h3O9+iMi7xmb5UdjvMq4beTlmiiMjQqjM7eBn8S9IwSZ4xnrgQ7nD
-hvkX0SqFM5V5PGPNGysA2mdRyuVy/bCYSzDwg9VmLBCCeZypjzN7KfPJNptx6GU/
-tdqy/TSwvFvFPuhiN+4+5OI7vTCwPNQJxNJ5V7cRbeOdNGiDqWeHsz6fBm0qeG5p
-ozj5SPtNULHZT9PCo188IFalMKUHNvFUSyJ/vUq0rekkKXEzDmVWWFvirknCnoxt
-Exe45yP3fn9UZVMARIzsLkfIqSveUAz6kkMDx0lMcZOK9yuIyFcaKxRni25hQrmS
-f/4uRL8XwWBAbkX22khwaArKJ94Gcg9QP8sWIFXBQTa1yvgScWCH1RqL9TuADvy+
-pZjRpo5KMZJ1CuwDrbYZ8GWR/f6rI3u2EdvPa/rcP5vbXwrq5ovCRopX5c8fgecm
-st66AYBWmofdLPkETXakP6LFN31KIozjv0ZDASwF0Uf1dtSAwWVIXQQD/2j7IQ2/
-0LSxdX3pXPYFFxjHZEN2/aMRu6tcDkTBzrVlfTfq4/WnnOM/hmJzpfBPHRH2wA1V
-+UxD0kyq3Lan7HzgKYQtq9PjzD0DXifyGKlPHVbkX3N/3lSU2iTcYJ+aSAQPOxmq
-VzX7QIwnF8jKyvWa61mVcqYn
-=bVxP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUs2o4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u4QP/Rn5k/Q/dQzy9coyKLcI
+DjS+ypVtrvCavt0+/Oms5V62u2Fm3ec633jncaCDc2P/wKZVTrqg0srf11WxFSxv
+n2fr0ouvwWACGvyHLQinAT+mlx3EPTvD8NgUYAeJefedcnqG2Nean9zMfTyCZj2X
+ZquhfV1OUXsMWvHlWYsv/tF+WePwiiih44da5PS9TL+VnRkDKeEiT3wmuHYKXhoc
+L66dVeuvwy1Cux3vzjKAeoE+HPvtD4oC6l/xup/O4GhqEvKy5hwepn2RJVBqGzxE
+EZxcD7QzOBMqJNXPpt2boR2x3E15UUva2oT5LTfQaqwKtloayTqen6teFU3TFjvz
+U5u5G7ChcfbUtyBf/J9qSTycvEdzdK+XyGSvVQpaoke29/yHVijpDmLu7Z1Jw0bx
+m8IsQQMGI95jbXMXT7Zq2LQD7WJ5rHL73lBCvSSBnHPNiNOQ28ltGDNjMUR2DDaL
+ytWYfC+UoT4slCzTqGlQImdKGNHv0ugZmSxCNynO0c0XWOs1MHwls6/BIKi2duKg
+ENhhAhj0ls8WDlfyr109tXEQh9ehFJfZIQ9MRA3ar4EoiN1lZjDpy9cTWpxY3p/1
+sEDZfnif6m5aCrBEW0a9xQpXBn7NG6k+vGKT5SBcEGoASWsSVV4vrz2qRIno1GHq
+Q/6hff4Z6kT83LSQ4qhpMjIE
+=P221
 -----END PGP SIGNATURE-----
 
---===============2300818901617218698==
+--===============0454258724386745543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a749fd1a872-58720809f527.txt
+Content-Disposition: attachment; filename=revlist-c9ca8de2eb15-58720809f527.txt
 
 e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
 195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
@@ -99,10 +99,6 @@ cfa1f9db6d6088118ef311c0927c66072665b47e dt-bindings: interrupt-controller: rene
 301deca09b254965661d3e971f1a60ac2ce41f5f rtla/timerlat_aa: Fix previous IRQ delay for IRQs that happens after thread sample
 d1383077c225ceb87ac7a3b56b2c505193f77ed7 wifi: cfg80211: add missing kernel-doc for cqm_rssi_work
 6e48ebffc2db5419b3a51cfc509bde442252b356 wifi: mac80211: fix mesh id corruption on 32 bit systems
-582620d9f6b352552bc9a3316fe2b1c3acd8742d thunderbolt: Workaround an IOMMU fault on certain systems with Intel Maple Ridge
-a9fdf5f933a6f2b358fad0194b1287b67f6704b1 thunderbolt: Check that lane 1 is in CL0 before enabling lane bonding
-e19f714ea63f861d95d3d92d45d5fd5ca2e05c8c thunderbolt: Correct TMU mode initialization from hardware
-308092d080852f8997126e5b3507536162416f4a thunderbolt: Restart XDomain discovery handshake after failure
 bd2767ec3df2775bc336f441f9068a989ccb919d coresight: Fix run time warnings while reusing ETR buffer
 e28a0974d749e5105d77233c0a84d35c37da047e Input: xpad - add HyperX Clutch Gladiate Support
 6b5f0749ce48c13d7f53b27c39d00bba46e1fd1c RDMA/erdma: Fix error code in erdma_create_scatter_mtt()
@@ -259,27 +255,11 @@ f0575116507b981e6a810e78ce3c9040395b958b gpio: pxa: disable pinctrl calls for MM
 e0fe97efdb00f0f32b038a4836406a82886aec9c RDMA/cma: Initialize ib_sa_multicast structure to 0 when join
 5d164a022b99f29bfa04c725fba00cab97d6b640 Merge tag 'counter-fixes-for-6.6a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 fc5bf78b1ae0e30b91c3102b207866c8b9981099 Merge tag 'coresight-fixes-v6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
-57e50f4bad02823fb19609e7a2150d8d866db91b Merge tag 'thunderbolt-for-v6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-34f08eb0ba6e4869bbfb682bf3d7d0494ffd2f87 usb: cdnsp: Fixes issue with dequeuing not queued requests
 c99a7457e5bb873914a74307ba2df85f6799203b RDMA/mlx5: Remove not-used cache disable flag
-6658a62e1ddf726483cb2d8bf45ea3f9bd533074 usb: musb: Modify the "HWVers" register address
-33d7e37232155aadebe4145dcc592f00dabd7a2b usb: musb: Get the musb_qh poniter after musb_giveback
-427694cfaafa565a3db5c5ea71df6bc095dca92f usb: gadget: ncm: Handle decoding of multiple NTB's in unwrap call
-76750f1dcad3e1af2295cdf2f9434e06e3178ef3 usb: typec: qcom: Update the logic of regulator enable and disable
-f74a7afc224acd5e922c7a2e52244d891bbe44ee usb: hub: Guard against accesses to uninitialized BOS descriptors
-8bea147dfdf823eaa8d3baeccc7aeb041b41944b usb: dwc3: Soft reset phy on probe for host
-9f35d612da5592f1bf1cae44ec1e023df37bea12 usb: cdns3: Modify the return value of cdns_set_active () to void when CONFIG_PM_SLEEP is disabled
-3061b6491f491197a35e14e49f805d661b02acd4 usb: gadget: udc-xilinx: replace memcpy with memcpy_toio
 6bc6f7d9d7ac3cdbe9e8b0495538b4a0cc11f032 x86/sev: Use the GHCB protocol when available for SNP CPUID requests
 62d5e970d022ef4bde18948dd67247c3194384c1 x86/sev: Change npages to unsigned long in snp_accept_memory()
 b84b53149476b22cc3b8677b771fb4cf06d1d455 ASoC: hdmi-codec: Fix broken channel map reporting
 892fbdb203945d887ad2a109a3700b091a8e3b97 ASoC: rt5682: Fix regulator enable/disable sequence
-e59e38158c61162f2e8beb4620df21a1585117df usb: misc: onboard_hub: add support for Microchip USB2412 USB 2.0 hub
-a00e197daec52bcd955e118f5f57d706da5bfe50 usb: typec: ucsi: Clear EVENT_PENDING bit if ucsi_send_command fails
-41a43013d2366db5b88b42bbcd8e8f040b6ccf21 usb: xhci: xhci-ring: Use sysdev for mapping bounce buffer
-d7cdfc319b2bcf6899ab0a05eec0958bc802a9a1 xhci: track port suspend state correctly in unsuccessful resume cases
-15f3ef070933817fac2bcbdb9c85bff9e54e9f80 xhci: Clear EHB bit only at end of interrupt handler
-cf97c5e0f7dda2edc15ecd96775fe6c355823784 xhci: Preserve RsvdP bits in ERSTBA register correctly
 d9e8319a6e3538b430f692b5625a76ffa0758adc ovl: move freeing ovl_entry past rcu delay
 c54719c92aa3129f330cce81b88cf34f1627f756 ovl: fetch inode once in ovl_dentry_revalidate_common()
 a535116d80339dbfe50b9b81b2f808c69eefbbc3 ovl: make use of ->layers safe in rcu pathwalk
@@ -599,9 +579,6 @@ f454b18e07f518bcd0c05af17a2239138bff52de x86/cpu: Fix AMD erratum #1485 on Zen4-
 14690995c14109852c7ba6e316045c02e4254272 nfp: flower: avoid rmmod nfp crash issues
 a950a5921db450c74212327f69950ff03419483a net/smc: Fix pos miscalculation in statistics
 75f5f60bf7ee075ed4a29637ce390898b4c36811 btrfs: add __counted_by for struct btrfs_delayed_item and use struct_size()
-89434b069e460967624903b049e5cf5c9e6b99b9 usb: typec: altmodes/displayport: Signal hpd low when exiting mode
-dddb91cde52b4a57fa06a332b230fca3b11b885f usb: typec: ucsi: Fix missing link removal
-c9ca8de2eb15f9da24113e652980c61f95a47530 usb: typec: ucsi: Use GET_CAPABILITY attributes data to set power supply scope
 9277abd2c17272ed8fc1b842d9efa45797435b77 Merge branch 'rework/misc-cleanups' into for-linus
 c4dd854f740c21ae8dd9903fc67969c5497cb14b cpu-hotplug: Provide prototypes for arch CPU registration
 4800021c630210ea0b19434a1fb56ab16385f2b3 media: subdev: Don't report V4L2_SUBDEV_CAP_STREAMS when the streams API is disabled
@@ -696,4 +673,4 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
 
---===============2300818901617218698==--
+--===============0454258724386745543==--
