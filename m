@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6508893365175536337=="
+Content-Type: multipart/mixed; boundary="===============4626219316277345179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 16 Oct 2023 10:18:01 -0000
-Message-Id: <169745148179.30921.809095936249086449@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 10:18:43 -0000
+Message-Id: <169745152354.31253.16304557854685124464@gitolite.kernel.org>
 
---===============6508893365175536337==
+--===============4626219316277345179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
-  - ref: refs/heads/master
-    old: 06c2afb862f9da8dc5efa4b6076a0e48c3fbaaa5
+  - ref: refs/heads/mhi-next
+    old: 0724869ede9c169429bb622e2d28f97995a95656
     new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    log: revlist-06c2afb862f9-0bb80ecc33a8.txt
+    log: revlist-0724869ede9c-0bb80ecc33a8.txt
 
---===============6508893365175536337==
+--===============4626219316277345179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06c2afb862f9-0bb80ecc33a8.txt
+Content-Disposition: attachment; filename=revlist-0724869ede9c-0bb80ecc33a8.txt
 
 59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
 19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
@@ -1051,4 +1051,4 @@ e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of gi
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
 
---===============6508893365175536337==--
+--===============4626219316277345179==--
