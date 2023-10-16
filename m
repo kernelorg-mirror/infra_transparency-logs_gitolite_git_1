@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Mon, 16 Oct 2023 02:34:26 -0000
-Message-Id: <169742366688.26709.400920287810420891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 16 Oct 2023 02:50:20 -0000
+Message-Id: <169742462074.7759.3832576621440889310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 33f9b88122625de77d14824a3f7e4901b1f25ae5
-    new: d79eed22ba97c3031b2ef86f8b7ed0be2da5667d
+  - ref: refs/heads/master
+    old: bf32ad4b5cdaf3de38558ca151378f9836a2eb3f
+    new: cac26cee216abae27d556b9244b7d001a7f27ad1
     log: |
-         3b08f52c256189b7c0d5cf1a031fa464ec20393b fpga: altera-ps-spi: Use spi_get_device_match_data()
-         d79eed22ba97c3031b2ef86f8b7ed0be2da5667d fpga: versal: Add support for 44-bit DMA operations
+         beab3bf3cdebbe4c80f3442d790d537ecd0f1798 Fixes for 6.5
+         09bd6899407242d323b8a8e270ab6aed09676b89 Fixes for 6.1
+         c5e88a79bf067a90f5c0e7c70bfa61f69bf3b7e4 Fixes for 5.15
+         bd6043a0e0875c5e51d63c9b1f41d2966896a37b Fixes for 5.10
+         6634746458983c1237a1c20f0b68c553aeeb9bad Fixes for 5.4
+         cac26cee216abae27d556b9244b7d001a7f27ad1 Fixes for 4.19
          
