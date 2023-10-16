@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6411818448915579121=="
+Content-Type: multipart/mixed; boundary="===============4281491316019015864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 16 Oct 2023 15:32:54 -0000
-Message-Id: <169747037465.4838.2967580459327172924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 16 Oct 2023 15:33:08 -0000
+Message-Id: <169747038872.5001.5544355882375021343@gitolite.kernel.org>
 
---===============6411818448915579121==
+--===============4281491316019015864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: fbfe616ad40c06d68b83b657a94cd2e709dda37b
-    new: 85045a9e445ac2400af7c37e169f58dc6f400d4c
-    log: revlist-fbfe616ad40c-85045a9e445a.txt
+  - ref: refs/heads/for-next
+    old: e38ab5e537b0309fde482411feac04d98190725a
+    new: 11fd132cf06ca1789381560494dcadc0d6f91337
+    log: revlist-e38ab5e537b0-11fd132cf06c.txt
 
---===============6411818448915579121==
+--===============4281491316019015864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1697470372 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1697470371-683aa85d503634cdf8d0830fb0616a7fa53f1be9
-
-fbfe616ad40c06d68b83b657a94cd2e709dda37b 85045a9e445ac2400af7c37e169f58dc6f400d4c refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUtV6QACgkQJNaLcl1U
-h9DU5Af/c0bDXx491McUi0hfZlGH0WYHhTQQtsBtRym/U0AukoIoYDYWAeTQYXnc
-wf2SwZ2AcdbP2oECd6E2WGT/P4IYzuUoNtVAMzGzH9fhcuIVCWqrAK4I1tdXLpV3
-zHs5sytp/ZP9XLdXEqcVKQPUjSo3yOHbX8nT6CT6N2Rl5s7u2EsthCsHppO7NfrV
-SWKLSfhnlxf6iQ4Z6rTXuz6ZZLF0oYfSq/eIhRl58KM4DU/AQpevYUWQCEJBfdXb
-pCp4r62mIA8pbKewiyyyBVKd/1ezEj+TuDGmXTXpy6QObayup9yGis7hJA/Dms8Y
-WUm/q94KHwQ9RnrFcOmx+wDgVxXpAw==
-=zeWd
------END PGP SIGNATURE-----
-
---===============6411818448915579121==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbfe616ad40c-85045a9e445a.txt
+Content-Disposition: attachment; filename=revlist-e38ab5e537b0-11fd132cf06c.txt
 
 a5172ef251f03eb18bed9e3f9a5c093679f29e1b ASoC: Intel: sof_sdw: update HP Omen match
 43e354dada62c0425db900f327a6e11babefcf5c ASoC: Intel: soc-acpi-intel-rpl-match: add rt711-l0-rt1316-l12 support
@@ -84,5 +59,6 @@ cf77250a679556f39bc3247a68bd75ca399f59d6 ASoC: rt715-sdca: reorder the argument 
 2e1a4596dcecda57b32a3fe94059ae72f5f0cac1 ASoC: Intel: boards: updates for 6.7
 93a83b76b88f588b614cb14d8419b4a1de087b61 ASoC: codecs: rt715*: update misleading error log
 85045a9e445ac2400af7c37e169f58dc6f400d4c ASoC: SOF: misc updates for 6.7
+11fd132cf06ca1789381560494dcadc0d6f91337 Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
 
---===============6411818448915579121==--
+--===============4281491316019015864==--
