@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3403515918360523270=="
+Content-Type: multipart/mixed; boundary="===============2300818901617218698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 Oct 2023 06:37:56 -0000
-Message-Id: <169743827670.10746.1530662092815867571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 16 Oct 2023 06:39:01 -0000
+Message-Id: <169743834182.11222.12902328529473226678@gitolite.kernel.org>
 
---===============3403515918360523270==
+--===============2300818901617218698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: ffd1f150fffe8a708f6ccd15152791d0e8f812b6
+  - ref: refs/heads/main
+    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
     new: 58720809f52779dc0f08e53e54b014209d13eebb
-    log: revlist-ffd1f150fffe-58720809f527.txt
+    log: revlist-8a749fd1a872-58720809f527.txt
 
---===============3403515918360523270==
+--===============2300818901617218698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697438277 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1697438271-2981f85b63522c0bb28ca2b8a7bfab56eefa9150
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697438342 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1697438339-2282c9ab5877ac4229f5dc4258e11d143c80a23a
 
-ffd1f150fffe8a708f6ccd15152791d0e8f812b6 58720809f52779dc0f08e53e54b014209d13eebb refs/heads/char-misc-linus
+8a749fd1a8720d4619c91c8b6e7528c0a355c0aa 58720809f52779dc0f08e53e54b014209d13eebb refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUs2kUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FpoQAI+N3o2psWY0GiptG4h5
-LC7KL+nk5LnTaXPHkM1dh8eF7eqqPfKxiuQnKB+vzunX6UeYqHS9b6r0kL4R72a3
-9lvPM3PX25jJqJp8KDibtO/engDcTwzGZ8hWfcqvrqY2EFzKgp418+DrXD6zVEzJ
-tS7UEVl8HiuEoYd4YTgQs2QKBBcO7AenI6ZFgHwsQf6ermm+lvO2q0YcsvJ0/MnM
-ik8XYj7ByHVOEm/de6epM9RjO/0yO8uJmg9WCmBczHn6c1KActOnJR/Op2znkZx3
-+Hd3oKcT9u27810FNmmi1gEV6Z2NyAB4aZ3V2t4yFz/5VNwZrq+VwKk44mUbhzKp
-wHktyUZ/idMNPKSetRWiXeO/AAwwVhhEnUnTNelkBhwOt8La9PHs2mlMHLeWGXh8
-Isk+7a157EKU1n/fZ0IM7k/pcexeV4Z/BEJrBc0rtm+aD9ZA3iZi2iM+DW3bRiW9
-cLdAwXCrHgxy6mTc2CFmRSSqNa1/sPDnHC38zVnRlx9/TEBAvnNlTuHmnk6tceFw
-5YM0+nW2bphj54ACE0DuQIHNWRk3lJtnORBbjamKanT/CICQ0ATAuf1lmjhQPNFv
-N/TsRpqY9O0wmk24u61ez+aNBohKLwpujZyUem7RME9RNy3yXvCEdxOrRX1wrtrU
-wiRnABQh7OOYKLdtTTmGYlh+
-=GrAd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUs2oYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++4sP/AlSea/ILROK8xg6+k0f
+OaFUnxRwm40h3O9+iMi7xmb5UdjvMq4beTlmiiMjQqjM7eBn8S9IwSZ4xnrgQ7nD
+hvkX0SqFM5V5PGPNGysA2mdRyuVy/bCYSzDwg9VmLBCCeZypjzN7KfPJNptx6GU/
+tdqy/TSwvFvFPuhiN+4+5OI7vTCwPNQJxNJ5V7cRbeOdNGiDqWeHsz6fBm0qeG5p
+ozj5SPtNULHZT9PCo188IFalMKUHNvFUSyJ/vUq0rekkKXEzDmVWWFvirknCnoxt
+Exe45yP3fn9UZVMARIzsLkfIqSveUAz6kkMDx0lMcZOK9yuIyFcaKxRni25hQrmS
+f/4uRL8XwWBAbkX22khwaArKJ94Gcg9QP8sWIFXBQTa1yvgScWCH1RqL9TuADvy+
+pZjRpo5KMZJ1CuwDrbYZ8GWR/f6rI3u2EdvPa/rcP5vbXwrq5ovCRopX5c8fgecm
+st66AYBWmofdLPkETXakP6LFN31KIozjv0ZDASwF0Uf1dtSAwWVIXQQD/2j7IQ2/
+0LSxdX3pXPYFFxjHZEN2/aMRu6tcDkTBzrVlfTfq4/WnnOM/hmJzpfBPHRH2wA1V
++UxD0kyq3Lan7HzgKYQtq9PjzD0DXifyGKlPHVbkX3N/3lSU2iTcYJ+aSAQPOxmq
+VzX7QIwnF8jKyvWa61mVcqYn
+=bVxP
 -----END PGP SIGNATURE-----
 
---===============3403515918360523270==
+--===============2300818901617218698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffd1f150fffe-58720809f527.txt
+Content-Disposition: attachment; filename=revlist-8a749fd1a872-58720809f527.txt
 
 e1cd4004cde7c9b694bbdd8def0e02288ee58c74 HID: sony: Fix a potential memory leak in sony_probe()
 195273147e520844c1aae9fbf85cb6eb0bc0fdd7 wifi: mt76: fix lock dependency problem for wed_lock
@@ -68,6 +68,8 @@ af5ff4b789956e9ef43e0bb80429f24ec44b2063 MAINTAINERS: wifi: ath12k: add wiki lin
 eec679e4ac5f47507774956fb3479c206e761af7 wifi: mwifiex: Fix tlv_buf_left calculation
 c7847241de28c718285d0e1bd97d1061a4a806c8 wifi: mwifiex: Replace one-element array with flexible-array member in struct mwifiex_ie_types_rxba_sync
 d5a93b7d2877aae4ba7590ad6cb65f8d33079489 wifi: mwifiex: Sanity check tlv_len and tlv_bitmap_len
+3170256d7bc1ef81587caf4b83573eb1f5bb4fb6 counter: chrdev: fix getting array extensions
+df8fdd01c98b99d04915c04f3a5ce73f55456b7c counter: microchip-tcb-capture: Fix the use of internal GCLK logic
 017c73a34a661a861712f7cc1393a123e5b2208c ubi: Refuse attaching if mtd's erasesize is 0
 75a5221630fe5aa3fedba7a06be618db0f79ba1e erofs: fix memory leak of LZMA global compressed deduplication
 234249d88b091d006b82f8d570343aae5f383736 wifi: cfg80211/mac80211: hold link BSSes when assoc fails for MLO connection
@@ -83,6 +85,9 @@ e8fbe99e87877f0412655f40d7c45bf8471470ac wifi: iwlwifi: Ensure ack flag is prope
 8ba438ef3cacc4808a63ed0ce24d4f0942cfe55d wifi: iwlwifi: mvm: Fix a memory corruption issue
 37c20b2effe987b806c8de6d12978e4ffeff026f wifi: cfg80211: fix cqm_config access race
 55e95bfccf6db8d26a66c46e1de50d53c59a6774 of: dynamic: Fix potential memory leak in of_changeset_action()
+9a85653ed3b9a9b7b31d95a34b64b990c3d33ca1 iio: dac: ad3552r: Correct device IDs
+85dfb43bf69281adb1f345dfd9a39faf2e5a718d iio: pressure: bmp280: Fix NULL pointer exception
+287d998af24326b009ae0956820a3188501b34a0 iio: admv1013: add mixer_vgate corner cases
 87d315a34133edcb29c4cadbf196ec6c30dfd47b pinctrl: nuvoton: wpcm450: fix out of bounds write
 8406d6b5916663b4edc604b3effbf4935b61c2da pinctrl: starfive: jh7110: Fix failure to set irq after CONFIG_PM is enabled
 64061b67335e958e6328bcb5bb2b5490d57f3f59 pinctrl: starfive: jh7110: Add system pm ops to save and restore context
@@ -98,6 +103,7 @@ d1383077c225ceb87ac7a3b56b2c505193f77ed7 wifi: cfg80211: add missing kernel-doc 
 a9fdf5f933a6f2b358fad0194b1287b67f6704b1 thunderbolt: Check that lane 1 is in CL0 before enabling lane bonding
 e19f714ea63f861d95d3d92d45d5fd5ca2e05c8c thunderbolt: Correct TMU mode initialization from hardware
 308092d080852f8997126e5b3507536162416f4a thunderbolt: Restart XDomain discovery handshake after failure
+bd2767ec3df2775bc336f441f9068a989ccb919d coresight: Fix run time warnings while reusing ETR buffer
 e28a0974d749e5105d77233c0a84d35c37da047e Input: xpad - add HyperX Clutch Gladiate Support
 6b5f0749ce48c13d7f53b27c39d00bba46e1fd1c RDMA/erdma: Fix error code in erdma_create_scatter_mtt()
 2c3dfba4cf84ac4f306cc6653b37b6dd6859ae9d rfkill: sync before userspace visibility/changes
@@ -128,6 +134,7 @@ fb0b8d299781be8d46b3612aa96cef28da0d93f4 ASoC: Intel: sof_sdw: add support for S
 95bfb16d66cc078aa93d06863354970f615565d1 ASoC: Intel: soc-acpi: Adding Es83x6 codec entry and
 b724a6418f1f853bcb39c8923bf14a50c7bdbd07 bpf: Fix tr dereferencing
 b06fab003ae181c6690fe6d1f806636f816f4e50 riscv: kselftests: Fix mm build by removing testcases subdirectory
+e5028011885a85032aa3c1b7e3e493bcdacb4a0a coresight: tmc-etr: Disable warnings for allocation failures
 c7f5bd9f3aa04a5d0ced8c8f7835bead62380fa6 dt-bindings: mfd: Revert "dt-bindings: mfd: maxim,max77693: Add USB connector"
 81335f90e8a88b81932df011105c46e708744f44 bpf: unconditionally reset backtrack_state masks on global func exit
 7e37c851374eca2d1f6128de03195c9f7b4baaf2 regulator: mt6358: split ops for buck and linear range LDO regulators
@@ -250,6 +257,8 @@ f0575116507b981e6a810e78ce3c9040395b958b gpio: pxa: disable pinctrl calls for MM
 6bd01c4299d4428738ab18f59334ce8b8207a531 staging: media: tegra-video: fix infinite recursion regression
 8542f1712074f070ae90b64e6082d10d8e912e32 ovl: fix file reference leak when submitting aio
 e0fe97efdb00f0f32b038a4836406a82886aec9c RDMA/cma: Initialize ib_sa_multicast structure to 0 when join
+5d164a022b99f29bfa04c725fba00cab97d6b640 Merge tag 'counter-fixes-for-6.6a' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
+fc5bf78b1ae0e30b91c3102b207866c8b9981099 Merge tag 'coresight-fixes-v6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
 57e50f4bad02823fb19609e7a2150d8d866db91b Merge tag 'thunderbolt-for-v6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 34f08eb0ba6e4869bbfb682bf3d7d0494ffd2f87 usb: cdnsp: Fixes issue with dequeuing not queued requests
 c99a7457e5bb873914a74307ba2df85f6799203b RDMA/mlx5: Remove not-used cache disable flag
@@ -377,12 +386,16 @@ c69813471a1ec081a0b9bf0c6bd7e8afd818afce ksmbd: fix uaf in smb20_oplock_break_ac
 b206011bf05069797df1f4c5ce639398728978e2 drm/amd/display: apply edge-case DISPCLK WDIVIDER changes to master OTG pipes only
 33b235a6e6ebe0f05f3586a71e8d281d00f71e2e ksmbd: fix race condition between tree conn lookup and disconnect
 f9315f17bf778cb8079a29639419fcc8a41a3c84 gpio: aspeed: fix the GPIO number passed to pinctrl_gpio_set_config()
+0f28ada1fbf0054557cddcdb93ad17f767105208 mcb: remove is_added flag from mcb_device struct
 b83ce9cb4a465b8f9a3fa45561b721a9551f60e3 dma-buf: add dma_fence_timestamp helper
+39fef15b5f2db46619393f9fd20fdd26a2ff49ef Documentation: embargoed-hardware-issues.rst: Clarify prenotifaction
+53604854c6f00ce1db4393499125aff94e3d9bbd firmware_loader: Update contact emails for ABI docs
 1146bec0ca34375f963f79f5c4e6b49ed5386aaa media: mediatek: vcodec: Fix encoder access NULL pointer
 b2b000069a4c307b09548dc2243f31f3ca0eac9c net: mana: Fix TX CQE error handling
 7a54de92657455210d0ca71d4176b553952c871a net: mana: Fix the tso_bytes calculation
 a43e8e9ffa0d1de058964edf1a0622cbb7e27cfe net: mana: Fix oversized sge0 for GSO packets
 defe4b87d52d92bd07c188cc1a9b1817985b2290 Merge branch 'net-mana-fix-some-tx-processing-bugs'
+1aa3aaf8953c84bad398adf6c3cabc9d6685bf7d binder: fix memory leaks of spam and pending work
 1437e4547edf41689d7135faaca4222ef0081bc1 HID: multitouch: Add required quirk for Synaptics 0xcd7e device
 b07b6b27a50e3a740c9aa6260ee4bb3ab29515ab HID: nvidia-shield: Fix a missing led_classdev_unregister() in the probe error handling path
 aa80f391e97a3fa5ca6bd822047950aa0584f6bf HID: nvidia-shield: Fix some missing function calls() in the probe error handling path
@@ -399,6 +412,17 @@ e5ed101a602873d65d2d64edaba93e8c73ec1b0f mptcp: userspace pm allow creating id 0
 8eed6ee362b0099a3390f44b4b2f3be053bdbcee MAINTAINERS: update Matthieu's email address
 c29d984580212f8a5e75b65c99a745f29511f83a Merge branch 'mptcp-fixes-and-maintainer-email-update-for-v6-6'
 c38d23a54445f9a8aa6831fafc9af0496ba02f9e RDMA/core: Require admin capabilities to set system parameters
+c6fd91276d64039d068f5ceaf7ad335475bb0389 dt-bindings: iio: rohm,bu27010: add missing vdd-supply to example
+ea191d0fd361fb569b6c3d19e5410510aa6b6bac iio: irsd200: fix -Warray-bounds bug in irsd200_trigger_handler
+7771c8c80d62ad065637ef74ed2962983f6c5f6d iio: cros_ec: fix an use-after-free in cros_ec_sensors_push_data()
+850101b3598277794f92a9e363a60a66e0d42890 iio: adc: imx8qxp: Fix address for command buffer registers
+c9b9cfe7d342683f624a89c3b617be18aff879e8 iio: imu: bno055: Fix missing Kconfig dependencies
+901a293fd96fb9bab843ba4cc7be3094a5aa7c94 iio: pressure: dps310: Adjust Timeout Settings
+b120dd3a15582fb7a959cecb05e4d9814fcba386 iio: addac: Kconfig: update ad74413r selections
+7e87ab38eed09c9dec56da361d74158159ae84a3 iio: light: vcnl4000: Don't power on/off chip in config
+7e7dcab620cd6d34939f615cac63fc0ef7e81c72 iio: adc: ad7192: Correct reference voltage
+87b9a0e3ff31d857ed1d13637898c472964aab7d dt-bindings: iio: adc: adi,ad7292: Fix additionalProperties on channel nodes
+fd39d9668f2ce9f4b05ad55e8c8d80c098073e0b iio: pressure: ms5611: ms5611_prom_is_valid false negative bug
 10f20628c9b8e924b8046e63b36b2cea4d2c85e4 drm/msm/dpu: fail dpu_plane_atomic_check() based on mdp clk limits
 403688e0ca2ed614c1c2524cb874e69d93e29edd Merge tag 'ovl-fixes-6.6-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 bc622f16c18dd5ef72a8b598b1d9e77bbe0c11d3 Merge tag 'mfd-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
@@ -439,6 +463,7 @@ c881047071547f4442aae72a6a45140d373b5cb0 Merge patch series "arm64: dts: imx93: 
 dac501397b9d81e4782232c39f94f4307b137452 HID: logitech-hidpp: Fix kernel crash on receiver USB disconnect
 4940c1543b4381a4895072489b4de7b6145694f5 Merge tag 'drm-fixes-2023-10-06' of git://anongit.freedesktop.org/drm/drm
 1d47ae2784726e9645fa5508e1f1055159a9af64 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+ffd1f150fffe8a708f6ccd15152791d0e8f812b6 Merge tag 'iio-fixes-for-6.6a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 7de25c855b63453826ef678420831f98331d85fd Merge tag 'for-6.6-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 a5e0a4b11c4adbe6ab2c0aa6c8b1d59d0fccf56a Merge tag 'platform-drivers-x86-v6.6-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 af95dc6fdc25e616051d0234aad638e15c02ec8f Merge tag 'pci-v6.6-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
@@ -671,4 +696,4 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
 
---===============3403515918360523270==--
+--===============2300818901617218698==--
