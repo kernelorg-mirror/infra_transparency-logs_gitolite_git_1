@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 16 Oct 2023 19:08:08 -0000
-Message-Id: <169748328801.7277.13639764270473869113@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 19:23:44 -0000
+Message-Id: <169748422401.18040.4551924546705849574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
   - ref: refs/heads/next
-    old: 508934b5d15ab79fd5895cc2a6063bc9d95f6a55
-    new: 0996e6742399e56b547319c4b8061af79be071b2
+    old: 0996e6742399e56b547319c4b8061af79be071b2
+    new: 3664d91fa760aaba1f13462e05778896a14ac0ea
     log: |
-         27aabb2c4390561538ca76a5bd418d95037f28d5 selftests/amd-pstate: Fix broken paths to run workloads in amd-pstate-ut
-         0996e6742399e56b547319c4b8061af79be071b2 selftests/amd-pstate: Added option to provide perf binary path
+         197964fc3274f0fbf060d788b42fa299c4d813a6 selftests/x86/lam: Zero out buffer for readlink()
+         3664d91fa760aaba1f13462e05778896a14ac0ea selftests: futex: remove duplicate unneeded defines
          
