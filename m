@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 16 Oct 2023 21:19:46 -0000
-Message-Id: <169749118610.22706.7330869285927036608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 16 Oct 2023 21:20:52 -0000
+Message-Id: <169749125205.24741.14783620433791428116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/for-next
-    old: e638d3710f0e2483ce01fbc113da83ba3639489c
-    new: 1022e7e2f40574c74ed32c3811b03d26b0b81daf
-    log: |
-         0c37bffaaebe1733433b480d612282169632a31a fbdev: uvesafb: Remove uvesafb_exec() prototype from include/video/uvesafb.h
-         1022e7e2f40574c74ed32c3811b03d26b0b81daf fbdev: uvesafb: Call cn_del_callback() at the end of uvesafb_exit()
-         
+  - ref: refs/tags/v6.7-rockchip-dts64-1
+    old: 0000000000000000000000000000000000000000
+    new: cfef27daab87d93227faac8f83fbe2127e52c852
