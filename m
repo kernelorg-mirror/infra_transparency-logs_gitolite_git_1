@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3431938005264706746=="
+Content-Type: multipart/mixed; boundary="===============4910995445922298934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 16 Oct 2023 11:33:35 -0000
-Message-Id: <169745601511.20260.3716572831346483091@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 11:33:51 -0000
+Message-Id: <169745603172.20463.268019760919075284@gitolite.kernel.org>
 
---===============3431938005264706746==
+--===============4910995445922298934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 5ef104b749e8a9d47b0d93329e0445acff961972
-    new: b6f2e063017b92491976a40c32a0e4b3c13e7d2f
-    log: revlist-5ef104b749e8-b6f2e063017b.txt
+  - ref: refs/heads/for-next
+    old: e2187116a4dc2ac5f90dd2c85e5aea5f9ba7ca94
+    new: 01c57b7f492d00aa8847e332d5028117a11bd9fb
+    log: revlist-e2187116a4dc-01c57b7f492d.txt
 
---===============3431938005264706746==
+--===============4910995445922298934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ef104b749e8-b6f2e063017b.txt
+Content-Disposition: attachment; filename=revlist-e2187116a4dc-01c57b7f492d.txt
 
 b39f2d10b86d0af353ea339e5815820026bca48f scsi: ibmvfc: Remove BUG_ON in the case of an empty event pool
 e1a4e0d3ce3b24421c25b7c335f0b7b948fd0c7f scsi: ibmvfc: Implement channel queue depth and event buffer accounting
@@ -44,5 +44,6 @@ dc718994abff37652c613578687bb6f49a293fe4 Merge patch series "ibmvfc: fixes and g
 e66413faa5b55800ad42a570aad674aed634c5e6 scsi: ufs: core: Remove dev cmd clock scaling busy
 fcf3fb7bd50c08e1bef8de0d36e62e53b58ceb8a scsi: ufs: ufs-pci: Switch to use acpi_evaluate_dsm_typed()
 b6f2e063017b92491976a40c32a0e4b3c13e7d2f scsi: ufs: qcom: Remove unnecessary check
+01c57b7f492d00aa8847e332d5028117a11bd9fb Merge branch 'misc' into for-next
 
---===============3431938005264706746==--
+--===============4910995445922298934==--
