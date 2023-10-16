@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 16 Oct 2023 23:27:48 -0000
-Message-Id: <169749886845.18548.14829145157427521852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 16 Oct 2023 23:31:28 -0000
+Message-Id: <169749908860.21554.4512016851798948695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 39a4ac5820cbdc8c9f7ebaad70f1adcc59955cbb
-    new: 5fdcb5af706691ab62ddef6c08b97eb633c59e15
+  - ref: refs/heads/main
+    old: 4ddc1f1f7339e0a03bbf235a6670d497bbb22fb3
+    new: 1cfce8261d9cb21303899aa04de1abb25834d3d0
     log: |
-         457ca4a9ae3eae9835a5c011851c4eb88b49d322 prctl.2: Document PR_SET_MDWE and PR_GET_MDWE
-         75f9012fa188156534492b8b283698bf7c5ecebb smartpqi.4: ffix
-         5fdcb5af706691ab62ddef6c08b97eb633c59e15 smartpqi.4: Add host attributes
+         2242f22ae509f018af3e60787d8773a9481ec9f6 lan78xx: replace deprecated strncpy with strscpy
+         1cfce8261d9cb21303899aa04de1abb25834d3d0 net: usb: replace deprecated strncpy with strscpy
          
