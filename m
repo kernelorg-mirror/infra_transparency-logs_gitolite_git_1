@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2546487325939144352=="
+Content-Type: multipart/mixed; boundary="===============0714348934432182486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 16 Oct 2023 15:40:32 -0000
-Message-Id: <169747083287.12698.512512110142629932@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 15:40:43 -0000
+Message-Id: <169747084394.12847.3007024774003276514@gitolite.kernel.org>
 
---===============2546487325939144352==
+--===============0714348934432182486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: df8fdd01c98b99d04915c04f3a5ce73f55456b7c
     new: 58720809f52779dc0f08e53e54b014209d13eebb
     log: revlist-df8fdd01c98b-58720809f527.txt
 
---===============2546487325939144352==
+--===============0714348934432182486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
 
---===============2546487325939144352==--
+--===============0714348934432182486==--
