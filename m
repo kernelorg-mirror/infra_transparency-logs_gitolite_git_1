@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4990053116071546672=="
+Content-Type: multipart/mixed; boundary="===============6343514830986286020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 16 Oct 2023 08:37:31 -0000
-Message-Id: <169744545102.7389.3783742760406871981@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 08:37:33 -0000
+Message-Id: <169744545370.7462.5235557471898267543@gitolite.kernel.org>
 
---===============4990053116071546672==
+--===============6343514830986286020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,88 +16,90 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 1b540579cf668bd805cdcca5285f579dcf6e4312
-    new: b3c2ae79aa73e61b75d4fa6f3dae226b59b7bd41
-    log: revlist-1b540579cf66-b3c2ae79aa73.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 02f78c59a0ed312a41d5d76397ea812c7cb19cb2
+    new: a8161789be4b3c1f382b228bc928546869ed480d
+    log: revlist-02f78c59a0ed-a8161789be4b.txt
 
---===============4990053116071546672==
+--===============6343514830986286020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697445448 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697445450 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1697445429-30caac1b0f0c6b0b2cc3d13cbab1f49c9cfcec24
+nonce 1697445430-ea95852026c5311ec52b9a6121f3dd007324facf
 
-1b540579cf668bd805cdcca5285f579dcf6e4312 b3c2ae79aa73e61b75d4fa6f3dae226b59b7bd41 refs/heads/linux-4.19.y
+02f78c59a0ed312a41d5d76397ea812c7cb19cb2 a8161789be4b3c1f382b228bc928546869ed480d refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUs9kgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yXUP/i2+vLf4Ztfs92H/KA+6
-8XeWIy9Q2RQ9EleSwHiZrhniu6oh/P3seVKnys9CeKZc/T8jjrFCohVsaZcnrN68
-YdEpV/0o2EIm+3kDcg+IRiUcEHL8/2TRD9HmWRYzlVfueChMkik/d/vv/aWOGHoc
-s7AgpnWK8PD0VOE7BJX2t4X6pubXh1ds2hfvufcIJheApw0KCLy1y6QmYAMUvFDF
-kb5ImX4ca8AQaMKupdk3d2blJQVYlW+QAG9G1G03KbwwU+PAkd5zysAQxkzGaSZA
-WiVCcoqzW7gdcSheSjjodlG/tQXPCavPWicnonfZ9BSGb2FgomA2ZehzUXa7QNe7
-rsFxmEdAUK5kTwU+qMJaO91CThhr3M+dnfcMuZ8Yf3EOl+Jvs3SdFgCg6/IMNA1J
-bCTiKZlKBF9asINn7axRdlQorARGTbgN6JWvnRFTrpb7eowu9eoEe8XXoAElz06y
-UzkhDTWKW9VpBMUCiqhNcCupgRZcWMmabMOHye3FC6rhUnO8Cz593HPCFSU5kcDj
-60dV2fQX+pZNJX0lzQySEkyrLDdVGyEuy8Mjkstc2LHCWrqDZVxLRnF+iAfQQxL/
-lWxPpOdZxdSTCJgiunW7CaaXEw8nHO6/wtUj6XC7q8+4J3phBy0wLrGw937z1NdI
-Y9KKR2BXJSSM/3DMpYb9COMZ
-=csTk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUs9kobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TEYP/R4GqZVDHGKFreqNpNmO
+koQHADxj5eBsj8dBv7lMUOkXKqa51aZC85D8U6lPstR5cKL3xQ7zp5GFwobQUT9g
+veQnWjy9XXQLnS9qZDuNWIwxVke2bA30bHMHhRyEzSrrUuld69Z/mUq3kyCs+WFF
+xXeslX/jUNXEUZobgvnp1WC+PCCL1bsgZEp73gq9CkmKQiFwJbAn4ZvwNOhx/nFf
+XMeHfRE/xYHjNnFULmdRBwB+e7uvD/viVx4o/ju5HXt7RrIrbv4Bzwioqz13/3cT
+DgfRqVxsKz5o4fbn1fjmnNMAS1TA5jpB8VShIfHToxARNICbeYGKzILnVpNQYIqA
+FhtmCZLu6ppIGnOB3mZMuvD2ik36Vg7Kv5kXZXsY8wXDG4RwDxKzqmjPuvFsugsy
+soe9YLyl/rMwPBqd2t8Tp3Mo4tn3MaaHFkgWr1Hm5YNSTezccWAdcFqJldhqyZfF
+rskaP9ZrY5GCLd8eAhQDq9LTqnW+P6Vl/AEn9egceMOXUNXGuZrfQmdVhfieJ2z8
+68jk1XmwgG3ihZP7gDyg5vtcagTXyJydT8wXmiYpAh4nk3e8DfQmdIcY1CC+QCfT
+w8OSoYR7SdsuRaiUWm9zqlBZ+0+9O3DvwPHHatYAdzHcKR9USRTdIgtm5Y4YA+Pv
++4iOcU4h/BMUteOe+yfJRR2y
+=hpu4
 -----END PGP SIGNATURE-----
 
---===============4990053116071546672==
+--===============6343514830986286020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b540579cf66-b3c2ae79aa73.txt
+Content-Disposition: attachment; filename=revlist-02f78c59a0ed-a8161789be4b.txt
 
-0b7efe38aab0057fe03a17d1c8c73629ba811603 indirect call wrappers: helpers to speed-up indirect calls of builtin
-f1b0ac2256b53e4c5e83b685fe4484ff78118579 net: use indirect calls helpers at the socket layer
-2fd1e93ab22e5d81577878137357c9a704262c85 net: fix kernel-doc warnings for socket.c
-0a69aef9dcc319a546a5f9c5b0b921d7bdacbff2 net: prevent rewrite of msg_name in sock_sendmsg()
-7a885a5d2a4805cf167d5ede91a75b8a6f7b3bb0 RDMA/cxgb4: Check skb value for failure to allocate
-e75513c97b65b32ebd99d9c051c61a001203085d platform/x86: hp-wmi:: Mark driver struct with __refdata to prevent section mismatch warning
-c1bdc3ed7479adfd93bb5ef553b6d1522fcc90ea HID: logitech-hidpp: Fix kernel crash on receiver USB disconnect
-e05ed47a4f1a2dca5af64f029eb3f979dd3af14c quota: Fix slow quotaoff
-82c00168c830a517373653de8f7cf55ad5ca5d9e net: prevent address rewrite in kernel_bind()
-13aad74cca6d2f91de0e7ff4382a5e54abd6d59e drm: etvnaviv: fix bad backport leading to warning
-81421541fe1864ba50679e5705348f50b3ea3b46 drm/msm/dsi: skip the wait for video mode done if not applicable
-e16e6b3546bb5a5d6ae1f38ff5282d6be02d2133 ieee802154: ca8210: Fix a potential UAF in ca8210_probe
-b3e4df7c515b0259384baf56304c4823905ee789 eth: remove copies of the NAPI_POLL_WEIGHT define
-671201936fb9ab433e7b99431e5423119fa555c1 xen-netback: use default TX queue size for vifs
-2e9e0b6e115063541c966c5fd148e7f9da0272c7 drm/vmwgfx: fix typo of sizeof argument
-d07ecb5d2b288cd8089a8bbeb91391cdfcf820a9 ixgbe: fix crash with empty VF macvlan list
-04540b7fc61b1e9a2cfe0bfcfdc5610a580b06f5 net: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()
-96894d20ef32fe09011a045fbf7935534921db02 nfc: nci: assert requested protocol is valid
-18b7c7cffd25fdaf49ca1f23064a9a0d69419e87 workqueue: Override implicit ordered attribute in workqueue_apply_unbound_cpumask()
-fe1f0abcec1953f02249552da17f6cd5f201d344 perf inject: Fix GEN_ELF_TEXT_OFFSET for jit
-04054d326bf947299f6d53354423bf0bce8e558e sched,idle,rcu: Push rcu_idle deeper into the idle path
-784dae5bbb9453f6c466362b7ae0b4b463cee9d6 dmaengine: stm32-mdma: abort resume if no ongoing transfer
-2685e3d52b6168f10f6899fb4094af1ff7ecac99 usb: xhci: xhci-ring: Use sysdev for mapping bounce buffer
-761329ed477fed71a376798b6c0ef62e754c6dd0 net: usb: dm9601: fix uninitialized variable use in dm9601_mdio_read
-4783fef45bfe23d0f5fb2bc8cfbc947ed78d4501 usb: dwc3: Soft reset phy on probe for host
-a8c4f06c87ecba0fafc9d96e0ff8dfb1266d6e6e usb: musb: Get the musb_qh poniter after musb_giveback
-8da899c28b66f3a82c5b7db03ddf7be891ccd333 usb: musb: Modify the "HWVers" register address
-d47b31490cc7e202c2f909933e8f799d5977ea61 iio: pressure: bmp280: Fix NULL pointer exception
-9cbda6b32997b903c0933c8220ef8004bfedeeb4 iio: pressure: ms5611: ms5611_prom_is_valid false negative bug
-4e41100b5184eeef037e6995b31b45d9fe852370 mcb: remove is_added flag from mcb_device struct
-61a2892bd9984ad9d4e8f134fac50851a07e8b77 ceph: fix incorrect revoked caps assert in ceph_fill_file_size()
-66d9cac83fbd67db3c1fda070ca2056f3401fe66 Input: powermate - fix use-after-free in powermate_config_complete
-1ec646a6ce40b74edfb3139c7e5ea6450e1f4be0 Input: psmouse - fix fast_reconnect function for PS/2 mode
-a92c0ed3f4ff48ffc4f7a577b1360bebd5553b09 Input: xpad - add PXN V900 support
-30805e1929f90da875335901c1a6266fc1298781 cgroup: Remove duplicates in cgroup v1 tasks file
-ee6e10b530c1781cc2d6cc592766f8ffa8a4d05b pinctrl: avoid unsafe code pattern in find_pinctrl()
-3c483975868ab326835c3381383e22746ae52b61 x86/cpu: Fix AMD erratum #1485 on Zen4-based CPUs
-6b5bd719cfac9f748f87d50f4093fac498248fec usb: gadget: udc-xilinx: replace memcpy with memcpy_toio
-8aa902434a0d2a6994f768388d1e55ebafd3da00 usb: gadget: ncm: Handle decoding of multiple NTB's in unwrap call
-d4bc9907f76ebb4b75d9147a87faed27ea39e93e powerpc/64e: Fix wrong test in __ptep_test_and_clear_young()
-70114d3ef4e6976dc8f4ad1cce01173f21c047cd x86/alternatives: Disable KASAN in apply_alternatives()
-b3c2ae79aa73e61b75d4fa6f3dae226b59b7bd41 Linux 4.19.297-rc1
+0105b2112a97aaec94fa6280ee12d2c68a9c4c62 RDMA/cxgb4: Check skb value for failure to allocate
+a03b82023d7377b407fe49f3a88bab4cc8f11c7b platform/x86: hp-wmi:: Mark driver struct with __refdata to prevent section mismatch warning
+8265ab3b4351b0d6bb9bf279aa6a5f284cd164ac lib/test_meminit: fix off-by-one error in test_pages()
+772a4dc95918ce494aa24365f9a2a94e5259a479 pwm: hibvt: Explicitly set .polarity in .get_state()
+4ca3b8e53075279e2a2b4367a41549b820117707 HID: logitech-hidpp: Fix kernel crash on receiver USB disconnect
+9a14f9b6fae2409aeef24caca485beb867b58f45 quota: Fix slow quotaoff
+1b2cc04abadd8a32cdba9f2105eb78a20180c3fe net: prevent address rewrite in kernel_bind()
+7f5f97a2626ed277f77ca3108cf8216ce7210e03 drm: etvnaviv: fix bad backport leading to warning
+8cb4ee614d7f8b6d14e02048c572d2331507ba7c drm/msm/dsi: skip the wait for video mode done if not applicable
+73a544e346ebdeeff081b868146935703aadc885 ravb: Fix up dma_free_coherent() call in ravb_remove()
+3d12dd52ba982568b17c9a189da8c9862500897b ieee802154: ca8210: Fix a potential UAF in ca8210_probe
+9564fdbab7ff5d64d5670776d82b279a4d8b434d mlxsw: fix mlxsw_sp2_nve_vxlan_learning_set() return type
+5f3e8f2be3d6b44f1e15b459a3c236c432c29c4d eth: remove copies of the NAPI_POLL_WEIGHT define
+181eff38c02a0d6f1c57bb3b3306c39347e60136 xen-netback: use default TX queue size for vifs
+8e8d98b0d7fff5e34caabe570d19d5095ff6bda3 drm/vmwgfx: fix typo of sizeof argument
+cff3990725816844b54ad1d6b51b145586535be4 ixgbe: fix crash with empty VF macvlan list
+bb8c8d0305dcfc4eeb35cae67ec8623c85f2b50e net: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()
+578847e7f8dd865e48e2d5d1f67b7f0dfc651792 nfc: nci: assert requested protocol is valid
+4fcd2d47376c725e59dce5a5c57a50804c2e7f26 workqueue: Override implicit ordered attribute in workqueue_apply_unbound_cpumask()
+72b1a8bbc1080f173415474c495378376d370d8d perf inject: Fix GEN_ELF_TEXT_OFFSET for jit
+d8b8a28c2d181d8b051761729b955c862ab9d30a dmaengine: stm32-mdma: abort resume if no ongoing transfer
+1c2e73939362caa08d50dafc53a3f8499b7d7e39 usb: xhci: xhci-ring: Use sysdev for mapping bounce buffer
+7205b7e0af65049dc68d9e729254ac5339344101 net: usb: dm9601: fix uninitialized variable use in dm9601_mdio_read
+dcefdec283c88444c1e939be4fd087948c5bd5d2 usb: dwc3: Soft reset phy on probe for host
+dc41ea3f70d9cabf421d1b9133379efaee0d6985 usb: musb: Get the musb_qh poniter after musb_giveback
+0d24271c13a56d85ef9340902c4ba01085e9e595 usb: musb: Modify the "HWVers" register address
+e3a54f12881e1b0ba1ddd92d79ce0acce3b3c072 iio: pressure: bmp280: Fix NULL pointer exception
+b29752199c7b2c994ca7c6487c0c6923403213e2 iio: pressure: dps310: Adjust Timeout Settings
+5b60b8f62a6834e468746bb8fc0a7561db53dfd6 iio: pressure: ms5611: ms5611_prom_is_valid false negative bug
+c1c62f461c691e6fe8cf144eb548ead1f8e7f781 mcb: remove is_added flag from mcb_device struct
+af3a97b17c196732d4ccfc6f3b48615931043912 libceph: use kernel_connect()
+cee38c6dbfc2ab8f90781b335f9f5f143aa4b6d9 ceph: fix incorrect revoked caps assert in ceph_fill_file_size()
+fcead6eac00aa8c8407bd95175ed9140f45339a5 Input: powermate - fix use-after-free in powermate_config_complete
+b37c9bc571abbf4b8a44cbc624899ab1fae4f8b5 Input: psmouse - fix fast_reconnect function for PS/2 mode
+cdd5289bb3bd5ad0d2afd79923e23ee53098c82c Input: xpad - add PXN V900 support
+576bff06416b91d5ec749bf584507a75d9cf72bb cgroup: Remove duplicates in cgroup v1 tasks file
+a90dcb4bb61fe446c580d9da4105166fb1126fc9 pinctrl: avoid unsafe code pattern in find_pinctrl()
+30a6c6cd26743822ea4e36763c89f48266a1242a usb: gadget: udc-xilinx: replace memcpy with memcpy_toio
+2c6c8187a2e174559f9a2840d3830b9d6d5a0ce4 usb: gadget: ncm: Handle decoding of multiple NTB's in unwrap call
+74af780837146e93f6a284f90f5c2bd264abe337 x86/cpu: Fix AMD erratum #1485 on Zen4-based CPUs
+0559167f539c25b855ce00b4b75609ac303c9cb7 dmaengine: mediatek: Fix deadlock caused by synchronize_irq()
+3986360249acab423dad9ae236d66134445dcd4e powerpc/8xx: Fix pte_access_permitted() for PAGE_NONE
+25c9a0819fd6b16498cc1d6afd90d6db339188cf powerpc/64e: Fix wrong test in __ptep_test_and_clear_young()
+a8161789be4b3c1f382b228bc928546869ed480d Linux 5.4.259-rc1
 
---===============4990053116071546672==--
+--===============6343514830986286020==--
