@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 16 Oct 2023 20:59:56 -0000
-Message-Id: <169748999608.23515.2289701384933184898@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 21:00:41 -0000
+Message-Id: <169749004166.25480.1988278781189384024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/tegra/memory
+  - ref: refs/heads/aspeed/soc-driver
     old: 0000000000000000000000000000000000000000
-    new: f344675a34383ae26a8230f4b1cd99cbd0defebd
+    new: 0af9e89106c359e531791c3dc2422a16bd40d17f
