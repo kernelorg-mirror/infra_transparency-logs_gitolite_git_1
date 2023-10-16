@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 16 Oct 2023 14:18:54 -0000
-Message-Id: <169746593409.14880.3713373214257712253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 16 Oct 2023 14:23:19 -0000
+Message-Id: <169746619911.18094.18241057852137114557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/qcom/dt-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 725f593692ceedeab639b661298955b6f9ba8ec3
+  - ref: refs/tags/wireless-next-2023-10-16
+    old: 611694427412c4f07e32a36072322ae5aaa06977
+    new: 0000000000000000000000000000000000000000
