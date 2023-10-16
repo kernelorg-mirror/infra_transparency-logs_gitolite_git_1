@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Oct 2023 11:49:33 -0000
-Message-Id: <169745697362.569.687274147067822390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 16 Oct 2023 11:50:17 -0000
+Message-Id: <169745701798.2675.11072199806281244205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 75dad0686b27bade7404d1bf284981dc2d62d592
-    new: 31bc39bb73c193e4ade7ee738e8d1fc2fcb62d2a
+    old: 0e10fd4b7a6dd03cf6d1da293d5d50082917f0e0
+    new: 99c9991f4e5d77328187187d0c921a3b62bfa998
     log: |
-         dcc134510eefaec6dda4fe71ab824f0300ed9f9f alpha: Fix up new futex syscall numbers
-         dc6283009016acd5a8c6a6c073506d82bbc55529 x86/head/64: Mark 'startup_gdt[]' and 'startup_gdt_descr' as __initdata
-         7f6874eddd81cb2ed784642a7a4321671e158ffe x86/head/64: Add missing __head annotation to startup_64_load_idt()
-         0957b7337ebae34412ae52905f7bff0370d1687e Merge branch into tip/master: 'x86/boot'
-         7b3d8df549390e797f883efa16224fa0dfe35e55 sched/psi: Update poll => rtpoll in relevant comments
-         469ee637e00464ea1ea90653bf5d2ad159a82d91 Merge branch into tip/master: 'sched/core'
-         31bc39bb73c193e4ade7ee738e8d1fc2fcb62d2a Merge branch into tip/master: 'locking/core'
+         2d78928c9cf7bee08c3e2344e6e1755412855448 selftests/bpf: Improve percpu_alloc test robustness
+         08a7078feacf419305d86d36b974c48347f3abb0 selftests/bpf: Improve missed_kprobe_recursion test robustness
+         cde785142885e1fc62a9ae92e7aae90285ed3d79 selftests/bpf: Make align selftests more robust
+         72f8a1de4a7ecb23393a920dface58d5a96f42d8 bpf: Disambiguate SCALAR register state output in verifier logs
+         1a8a315f008a58f54fecb012b928aa6a494435b3 bpf: Ensure proper register state printing for cond jumps
+         99c9991f4e5d77328187187d0c921a3b62bfa998 Merge branch 'bpf-log-improvements'
          
