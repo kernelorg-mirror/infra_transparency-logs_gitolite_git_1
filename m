@@ -1,55 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============0823759099962097110=="
+Content-Type: multipart/mixed; boundary="===============1174113842091681661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Oct 2023 09:29:29 -0000
-Message-Id: <169744856942.12650.13610280739763103906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 16 Oct 2023 09:30:59 -0000
+Message-Id: <169744865963.14949.6816326134925834998@gitolite.kernel.org>
 
---===============0823759099962097110==
+--===============1174113842091681661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: 0f645adb70251d2c19402c6058433fb0675a3a45
-    new: bbde8a55f9ecf63964ecd8f3844acbe21f49bb0b
-    log: revlist-0f645adb7025-bbde8a55f9ec.txt
+    old: f588a0c22f314af9df350b7bafbe8ab5c19a3538
+    new: 7a67f9df12b668b1adc4c44e8f9bb6c419f55fca
+    log: revlist-f588a0c22f31-7a67f9df12b6.txt
 
---===============0823759099962097110==
+--===============1174113842091681661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f645adb7025-bbde8a55f9ec.txt
+Content-Disposition: attachment; filename=revlist-f588a0c22f31-7a67f9df12b6.txt
 
-366e167760163c81ef7abf1f487bf294e7e5b532 Merge branch 'perf/core' into x86/merge, to ease integration testing
-36b494fa66c03ddaf210f67b4d369be0ab856425 Merge branch 'x86/core' into x86/merge, to ease integration testing
-3c6d1a257f7ed3dcd450a79039dd201382eef65f Merge branch into tip/master: 'x86/merge'
-e12763b9b85a5faa000a5791a3d989a6e477cd42 Merge branch into tip/master: 'core/core'
-b6fc2fc39ce5f24037e17003a9c6534f9ddaae77 Merge branch into tip/master: 'irq/core'
-a2c1a8d0d31299ed8e0a21164c7c03058db92633 Merge branch into tip/master: 'locking/core'
-b39a12825d36c22124971a83d1d0698f01b7c61b Merge branch into tip/master: 'objtool/core'
-796604043273a923429ee2c60fd6be12ab151546 Merge branch into tip/master: 'sched/core'
-1458431680d3dade26f14c81f573143c5027f5f1 Merge branch into tip/master: 'smp/core'
-0c83db17d83f36581680aac361ccbec3a04bad27 Merge branch into tip/master: 'timers/core'
-26a1a26c5cdfdf52fb965e0208b6d0fc6ed69963 Merge branch into tip/master: 'x86/apic'
-5f6c84e075d83bb9800e5eaa4eba2e24cccbb6e2 Merge branch into tip/master: 'x86/asm'
-9f36a6d32eca3c2b3b60581d303b67ca2438a592 Merge branch into tip/master: 'x86/boot'
-8dd06f1565306e9a73fd80331a862c3cc7ff930b Merge branch into tip/master: 'x86/bugs'
-9a81dd6ef6f21b572f35bbf4d8a7a9711ff72357 Merge branch into tip/master: 'x86/cache'
-5119e3a59be88941d12da73fc900b0bd37ff5e1d Merge branch into tip/master: 'x86/cpu'
-1d8134f7c27e229a150db9a70b3ef52952d1eb0c Merge branch into tip/master: 'x86/entry'
-b0a8c22aaa3934f36888e7538f66c2f2043a6a43 Merge branch into tip/master: 'x86/fpu'
-14fcf3653412458b5ba9b24908d0797515480773 Merge branch into tip/master: 'x86/headers'
-2a92eb32b2060fc23b0a55193dbe80e0ec6493b1 Merge branch into tip/master: 'x86/irq'
-b34e9c98adb037206cc685bcbbc2b9f30d4b5ecf Merge branch into tip/master: 'x86/microcode'
-537a6c72c656e27068e88075dcc7de7b3629ae00 Merge branch into tip/master: 'x86/mm'
-a6217e95f42e1528982924637648fed4f1d11e4a Merge branch into tip/master: 'x86/percpu'
-ed8e4d1db04f9c3da51fa0f378d6f581c8f090ff Merge branch into tip/master: 'x86/platform'
-bbde8a55f9ecf63964ecd8f3844acbe21f49bb0b Merge branch into tip/master: 'x86/tdx'
+5fda182b4993b02667b4e32b90df786ed1941a51 arm64: dts: qcom: sm8150: extend the size of the PDC resource
+7ff057f59059f7d439fba42e6d70534b7051a30d dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Update description for '#interrupt-cells' property
+0999ba50efa30fd901b998132ff36ec4b86f5879 dt-bindings: ASoC: rockchip: Add compatible for RK3128 spdif
+d9c4a823b56989af8075ebdd426c2a519e4a0e49 dt-bindings: dmaengine: zynqmp_dma: add xlnx,bus-width required property
+24d334a84431f8ebda3e83bdf2fb4a833dec3685 ASoC: dt-bindings: fsl,micfil: Document #sound-dai-cells
+0bb75407a56f75df5ab37e1dcf777f832b9620c8 dt-bindings: iio: rohm,bu27010: add missing vdd-supply to example
+56cac4254c7dff5a3559f2d125c2daecbc4bb4b6 dt-bindings: iio: adc: adi,ad7292: Fix additionalProperties on channel nodes
+fb4878f6c2434a09faef0e9aa59def55252ce6fe arm64: dts: imx93: add the Flex-CAN stop mode by GPR
+4df9281f10eb93e04e3c3f9daa0882f54edd5257 Merge tag 'iio-fixes-for-6.6a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+f764ac1cfb72f9590c6a49aefa6beeddf9075c9d arm64: dts: mediatek: mt8195-demo: fix the memory size to 8GB
+7e56a1be6392942d7b0ac7674ffa900156d2d987 arm64: dts: mediatek: mt8195-demo: update and reorder reserved memory regions
+773bdfd8ae2f7a226dcce46bf1783c471d09de14 arm64: dts: mediatek: fix t-phy unit name
+d7a59c72894f12498970d6650ebb8246a535be42 arm64: dts: mediatek: mt8195: Set DSU PMU status to fail
+64cf7db3f9ae59c549f4e7c5f9f4db3c4d07f7e0 dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/G2UL SoC
+b492763c6e04adf2610f38d6bf17768f7f35cecb dt-bindings: interrupt-controller: renesas,irqc: Add r8a779f0 support
+e9846777a6108e1bc5eef963d1f768b5776c504e dt-bindings: interrupt-controller: arm,gic-v3: Add dma-noncoherent property
+ad6d8f0c3546f58af0e5684a3ca23971fd61f4ab Merge tag 'sound-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+75dff91a2793e5ba122a39f15b6743ee9f5c9aac Merge tag 'irq-urgent-2023-10-10-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+23df0dc9ccdf2ff77ea94194e9ecc7a11433c97b Merge tag 'linux-can-fixes-for-6.6-20231009' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+aa86e370f9905f7adf885d0acdebd96b7cf2cd39 Merge tag 'soc-fixes-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+77f2a9a615c78f9fdbd61dc377671b7c4b3c7c2a Merge tag 'net-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+f34fedace8ea8b0af3e2c8b58a78fc5d8f4218ad Merge tag 'dmaengine-fix-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+98641ddf2f7cc257a7c0975584ebf4feffdaf18c Merge tag 'char-misc-6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+7a67f9df12b668b1adc4c44e8f9bb6c419f55fca Merge tag 'v6.6-rc6-dts-raw'
 
---===============0823759099962097110==--
+--===============1174113842091681661==--
