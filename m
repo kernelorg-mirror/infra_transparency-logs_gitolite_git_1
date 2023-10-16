@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0215024710474418203=="
+Content-Type: multipart/mixed; boundary="===============1124069648585241658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 16 Oct 2023 11:57:51 -0000
-Message-Id: <169745747180.7553.977680183665876727@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 11:58:00 -0000
+Message-Id: <169745748071.7684.4780830406449133389@gitolite.kernel.org>
 
---===============0215024710474418203==
+--===============1124069648585241658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: 58720809f52779dc0f08e53e54b014209d13eebb
     log: revlist-0bb80ecc33a8-58720809f527.txt
 
---===============0215024710474418203==
+--===============1124069648585241658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
 
---===============0215024710474418203==--
+--===============1124069648585241658==--
