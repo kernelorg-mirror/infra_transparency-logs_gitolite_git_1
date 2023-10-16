@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 16 Oct 2023 08:59:32 -0000
-Message-Id: <169744677298.22425.17637389373425558754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 16 Oct 2023 08:59:45 -0000
+Message-Id: <169744678509.22578.10045871262026629253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
+  - ref: refs/heads/main
+    old: d8118b945f03dbfcda72c273fa9b0548f73c8ce9
+    new: dccce1d7c04051bc25d3abbe7716d0ae7af9c28a
+    log: |
+         dccce1d7c04051bc25d3abbe7716d0ae7af9c28a tsnep: Inline small fragments within TX descriptor
+         
