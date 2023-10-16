@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Oct 2023 09:40:32 -0000
-Message-Id: <169744923200.21691.14193894750358187771@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 09:43:39 -0000
+Message-Id: <169744941920.5636.2612141964949808715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,9 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: bbde8a55f9ecf63964ecd8f3844acbe21f49bb0b
-    new: 777279b02db3e9c0252414e192142f749541523c
+    old: 777279b02db3e9c0252414e192142f749541523c
+    new: f96376856874f71b2e26ec4907d73b1a35300220
     log: |
-         29060633411a02f6f2dd9d5245919385d69d81f0 selftests/x86/lam: Zero out buffer for readlink()
-         777279b02db3e9c0252414e192142f749541523c Merge branch into tip/master: 'x86/mm'
+         744940f1921c8feb90e3c4bcc1e153fdd6e10fe2 perf/x86/amd/uncore: Pass through error code for initialization failures, instead of -ENODEV
+         f96376856874f71b2e26ec4907d73b1a35300220 Merge branch into tip/master: 'perf/core'
          
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
