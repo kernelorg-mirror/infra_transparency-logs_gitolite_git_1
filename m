@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1973612150825944198=="
+Content-Type: multipart/mixed; boundary="===============1787103513864619094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 16 Oct 2023 05:58:24 -0000
-Message-Id: <169743590470.13493.11790652482775724876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Mon, 16 Oct 2023 06:27:11 -0000
+Message-Id: <169743763138.2087.16322963681258345522@gitolite.kernel.org>
 
---===============1973612150825944198==
+--===============1787103513864619094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/linux-next
-    old: 94f6f0550c625fab1f373bb86a6669b45e9748b3
-    new: 58720809f52779dc0f08e53e54b014209d13eebb
-    log: revlist-94f6f0550c62-58720809f527.txt
+  - ref: refs/heads/overlayfs-next
+    old: fbaf916f84f4728272482d2bfda98d5691618bd4
+    new: 0b41c33dd34b61d6318d553ed15004efa05e5f09
+    log: revlist-fbaf916f84f4-0b41c33dd34b.txt
 
---===============1973612150825944198==
+--===============1787103513864619094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94f6f0550c62-58720809f527.txt
+Content-Disposition: attachment; filename=revlist-fbaf916f84f4-0b41c33dd34b.txt
 
 3170256d7bc1ef81587caf4b83573eb1f5bb4fb6 counter: chrdev: fix getting array extensions
 df8fdd01c98b99d04915c04f3a5ce73f55456b7c counter: microchip-tcb-capture: Fix the use of internal GCLK logic
@@ -365,5 +365,21 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 5720c43d5216b5dbd9ab25595f7c61e55d36d4fc virtio_net: fix the missing of the dma cpu sync
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
+c8811bca5c4375cb89209b587c067b5aa53f0f62 Merge remote-tracking branch 'vfs/vfs.mount.write' into overlayfs-next
+5f11e13674efca3d07e18021f342a0f21b33c319 Merge remote-tracking branch 'vfs/vfs.xattr' into overlayfs-next
+881158b6e36d5a97aa9cbbb3518f470d9b04f9e1 ovl: use simpler function to convert iocb to rw flags
+f37f2a85d442db5bf68596e8fadf0a22f2c38a6d ovl: propagate IOCB_APPEND flag on writes to realfile
+4737cb1ded6cf3c462450780badcecd0c5d9f8f4 ovl: punt write aio completion to workqueue
+fd2a11eecb8db7026ac3a9bf06ad962f87d3c6a2 ovl: protect copying of realinode attributes to ovl inode
+2d41cfc89845fe171f049e597a2dacd477247736 ovl: add helper ovl_file_modified()
+d8d9363c152c31158f112e63aa869c564109ecf9 ovl: split ovl_want_write() into two helpers
+fa1a07612ce760ba99bd573974fdafc1abccce02 ovl: reorder ovl_want_write() after ovl_inode_lock()
+80ce87492bceacb51383c6aef9fb0938117dc4d9 ovl: do not open/llseek lower file with upper sb_writers held
+72675d6ab4f8c84632f92b8a25084d64313c8f49 ovl: do not encode lower fh with upper sb_writers held
+383c69d942cf5cebdea50f081b97149b466c2f4d ovl: Move xattr support to new xattrs.c file
+901b4eee3038d4aeab3edeb4956384f96a000f5b ovl: Add OVL_XATTR_TRUSTED/USER_PREFIX_LEN macros
+a3ba0ba4040c5dec310c22b384005f08600364db ovl: Support escaped overlay.* xattrs
+5c469d167941c400c3f2f5ba55dcf0ef498825aa ovl: Add an alternative type of whiteout
+0b41c33dd34b61d6318d553ed15004efa05e5f09 ovl: Add documentation on nesting of overlayfs mounts
 
---===============1973612150825944198==--
+--===============1787103513864619094==--
