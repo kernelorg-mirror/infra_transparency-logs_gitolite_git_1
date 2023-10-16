@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3751524553095389546=="
+Content-Type: multipart/mixed; boundary="===============2546487325939144352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 16 Oct 2023 15:40:22 -0000
-Message-Id: <169747082296.12563.306304132843056081@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 15:40:32 -0000
+Message-Id: <169747083287.12698.512512110142629932@gitolite.kernel.org>
 
---===============3751524553095389546==
+--===============2546487325939144352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: 631c15d5f14dd25b2dd0401627b716087ceca343
-    new: 7904cdf1397c9391178ce53a7ebfa099c6bc4a59
-    log: revlist-631c15d5f14d-7904cdf1397c.txt
+  - ref: refs/heads/counter-fixes
+    old: df8fdd01c98b99d04915c04f3a5ce73f55456b7c
+    new: 58720809f52779dc0f08e53e54b014209d13eebb
+    log: revlist-df8fdd01c98b-58720809f527.txt
 
---===============3751524553095389546==
+--===============2546487325939144352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-631c15d5f14d-7904cdf1397c.txt
+Content-Disposition: attachment; filename=revlist-df8fdd01c98b-58720809f527.txt
 
+ce9ecca0238b140b88f43859b211c9fdfd8e5b70 Linux 6.6-rc2
 4a73fca226925d5cae8ee032d37e9de637b25ed6 perf bpf-prologue: Remove unused file
 33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
 d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
@@ -1049,6 +1050,5 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 5720c43d5216b5dbd9ab25595f7c61e55d36d4fc virtio_net: fix the missing of the dma cpu sync
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
-7904cdf1397c9391178ce53a7ebfa099c6bc4a59 counter: chrdev: remove a typo in header file comment
 
---===============3751524553095389546==--
+--===============2546487325939144352==--
