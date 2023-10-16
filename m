@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7599461613387335087=="
+Content-Type: multipart/mixed; boundary="===============1696530297960602456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 16 Oct 2023 07:52:13 -0000
-Message-Id: <169744273370.3684.8772901165473677634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 16 Oct 2023 07:52:27 -0000
+Message-Id: <169744274708.3825.4534100492612458985@gitolite.kernel.org>
 
---===============7599461613387335087==
+--===============1696530297960602456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 58720809f52779dc0f08e53e54b014209d13eebb
     log: revlist-94f6f0550c62-58720809f527.txt
 
---===============7599461613387335087==
+--===============1696530297960602456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -366,4 +366,4 @@ a477e3a76be740a1be844635d572c83f4c10002c Merge tag 'char-misc-6.6-rc6' of git://
 fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on shutdown if possible"
 58720809f52779dc0f08e53e54b014209d13eebb Linux 6.6-rc6
 
---===============7599461613387335087==--
+--===============1696530297960602456==--
