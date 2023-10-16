@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5951560624439573551=="
+Content-Type: multipart/mixed; boundary="===============8640334545644776964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Oct 2023 10:11:58 -0000
-Message-Id: <169745111875.26967.17960801602966122337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 16 Oct 2023 10:15:25 -0000
+Message-Id: <169745132515.29875.4239971392751274125@gitolite.kernel.org>
 
---===============5951560624439573551==
+--===============8640334545644776964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/master
-    old: f96376856874f71b2e26ec4907d73b1a35300220
-    new: 8e8267a4684f571b43f9960247e3626e737f1d0d
-    log: revlist-f96376856874-8e8267a4684f.txt
+  - ref: refs/heads/arm64/cpucap/cleanup
+    old: 4c5fc7356317632f143f0974732e70d7a3248784
+    new: cd43d48f09d765d8ffb0ebf2ed1916269ab1d109
+    log: revlist-4c5fc7356317-cd43d48f09d7.txt
 
---===============5951560624439573551==
+--===============8640334545644776964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f96376856874-8e8267a4684f.txt
+Content-Disposition: attachment; filename=revlist-4c5fc7356317-cd43d48f09d7.txt
 
-b70948af6a84c14763a06b6c3003aeb4f2907215 Merge branch into tip/master: 'x86/merge'
-3fb1a119e06ae459c787c9af0fa642963e5658e4 Merge branch into tip/master: 'core/core'
-9d920e9aa1032181e5f59ad0005560d4b26d6999 Merge branch into tip/master: 'irq/core'
-7cec1605a5eebcfd81aa718c529bdb0d0d3c5ad7 Merge branch into tip/master: 'locking/core'
-426756cf0264e13779ed06b0771cca293b6585dc Merge branch into tip/master: 'objtool/core'
-b7567dc4c417a92027496c5e49d58b43bbd264fc Merge branch into tip/master: 'perf/core'
-2b1594585ad19014584ae9519f2aa419ebf8609b Merge branch into tip/master: 'sched/core'
-954f461e1025008ae0e3cdfcc3c1cba5fa2e1c1d Merge branch into tip/master: 'smp/core'
-4536683fdfc85912cb815e62b55b168c69b28fc9 Merge branch into tip/master: 'timers/core'
-9ec16e52365b1f171d660ba89cdf9a92f1b2e02c Merge branch into tip/master: 'x86/apic'
-8777f34a04a1431a8c896e71caec2a20b94ee184 Merge branch into tip/master: 'x86/asm'
-608d02b3c9567f4f4687612ca2efb02ec1f5e5ee Merge branch into tip/master: 'x86/boot'
-732f54558681894d729ba623f15d9086c3532d86 Merge branch into tip/master: 'x86/bugs'
-382579bb562f07811d24f31a74ea712fa74b577b Merge branch into tip/master: 'x86/cache'
-8a40278fa24fa6f555981701126ba9355b6d0883 Merge branch into tip/master: 'x86/cpu'
-68148a99ab42d1ff31e859e8f85930063cbd3db2 Merge branch into tip/master: 'x86/entry'
-7c0da247ed8fc519d594a1797191c3a3d50ddafa Merge branch into tip/master: 'x86/fpu'
-3b9fb48b195c21881a6a0f3fe079f4d413c5ddc2 Merge branch into tip/master: 'x86/headers'
-d6f5f04f82d2ac7914db3c36b0efeba42a884350 Merge branch into tip/master: 'x86/irq'
-53b589f156532efe801a96df6f34eede18dbe92c Merge branch into tip/master: 'x86/microcode'
-e71724b04c7cb4e9602b0acf10da727b96fb6e19 Merge branch into tip/master: 'x86/mm'
-4270c9f8a3c4054b6cc0437bc9fe39477f4db96f Merge branch into tip/master: 'x86/percpu'
-ae45060efd6c62db4f085cdd78cda6ed10e6dc14 Merge branch into tip/master: 'x86/platform'
-8e8267a4684f571b43f9960247e3626e737f1d0d Merge branch into tip/master: 'x86/tdx'
+c912b424cc588652f5e57a73befda10d9862a75e arm64: Use a positive cpucap for FP/SIMD
+be663d9b6632c3b7e1dd3202ad75260d5e6a291d arm64: Avoid cpus_have_const_cap() for ARM64_HAS_{ADDRESS,GENERIC}_AUTH
+144a067a0dc735b2c5b666175f528f6015081b0e arm64: Avoid cpus_have_const_cap() for ARM64_HAS_ARMv8_4_TTL
+3d9bb830a2db0dbd340f3d1d9ee151030e3576cc arm64: Avoid cpus_have_const_cap() for ARM64_HAS_BTI
+2acc50cc7be7373d63ed84921561dbe65ca442fa arm64: Avoid cpus_have_const_cap() for ARM64_HAS_CACHE_DIC
+197ef09bc4b26189bd41b1b5f070157c1baf9e65 arm64: Avoid cpus_have_const_cap() for ARM64_HAS_CNP
+345483fe00bcf7c8d028becf95711592eb0f6a9b arm64: Avoid cpus_have_const_cap() for ARM64_HAS_DIT
+7bb1fb61b17a88970aebf30fbbacf520f72e2423 arm64: Avoid cpus_have_const_cap() for ARM64_HAS_GIC_PRIO_MASKING
+c2a2f0d5f82b3955cad50e4aa61b9fab46338959 arm64: Avoid cpus_have_const_cap() for ARM64_HAS_PAN
+098b1bbd61a51802bebbc9301c41b1d89c0116ce arm64: Avoid cpus_have_const_cap() for ARM64_HAS_EPAN
+02990ec5beeb71c8c67a3a24cd815a751e31a7cc arm64: Avoid cpus_have_const_cap() for ARM64_HAS_RNG
+bcdbee395aa9aa024186ecaf69063303f652e6b0 arm64: Avoid cpus_have_const_cap() for ARM64_HAS_WFXT
+022133d673448085e89b7ae8538d1ba171ad5fda arm64: Avoid cpus_have_const_cap() for ARM64_HAS_TLB_RANGE
+d1f19b3f0512eadeff77a592c329e3d9237370d3 arm64: Avoid cpus_have_const_cap() for ARM64_MTE
+e8c0b4c59bd4fdfbd8ea7c6e28233ef73f908e87 arm64: Avoid cpus_have_const_cap() for ARM64_SSBS
+e68a994e6e1b6ed42292bcc3ed5d503a38629947 arm64: Avoid cpus_have_const_cap() for ARM64_SPECTRE_V2
+f4643c6fc5f7f5ddd339b9e679a6d544be3fc5f2 arm64: Avoid cpus_have_const_cap() for ARM64_{SVE,SME,SME2,FA64}
+947eee65aac7df105b49d8dc9e12a4c65aab84af arm64: Avoid cpus_have_const_cap() for ARM64_UNMAP_KERNEL_AT_EL0
+ba7b4003e5d9333a62a0cadc217c1cfdc24db71c arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_843419
+d8ce686706167d973273c7484d0d33cb64464d79 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_1542419
+3b2f7e8a6761fc97ea9cb05aaf62632e3d74aec9 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_1742098
+6eed8de353d338f0773e852b6c5d770dbedd9732 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_2645198
+472c9d2c62e2eab39bc71617cc577e1c437e4939 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_CAVIUM_23154
+9e0ff1cc283f70b01bf5691094bfae18f2e0e646 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_NVIDIA_CARMEL_CNP
+47d35a7a63a5f673c54756f79acf476344cdafc0 arm64: Avoid cpus_have_const_cap() for ARM64_WORKAROUND_REPEAT_TLBI
+cd43d48f09d765d8ffb0ebf2ed1916269ab1d109 arm64: Remove cpus_have_const_cap()
 
---===============5951560624439573551==--
+--===============8640334545644776964==--
