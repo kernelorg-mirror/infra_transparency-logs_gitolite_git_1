@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Oct 2023 09:22:16 -0000
-Message-Id: <169744813692.8218.4307275235193954764@gitolite.kernel.org>
+Date: Mon, 16 Oct 2023 09:25:48 -0000
+Message-Id: <169744834870.11047.11510277067670985064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 0267655da6b7793b98c4b537b34886f160dec0dc
-    new: 541c0b0e9d0a449422ce8ea7316b273efcbd9f5e
+  - ref: refs/heads/x86/merge
+    old: 4591bc660a72e21c3d43087c0a0e6f0e7b5bb6f8
+    new: 36b494fa66c03ddaf210f67b4d369be0ab856425
+    log: |
+         36b494fa66c03ddaf210f67b4d369be0ab856425 Merge branch 'x86/core' into x86/merge, to ease integration testing
+         
