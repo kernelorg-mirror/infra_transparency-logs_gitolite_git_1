@@ -1,70 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3818177923857314154=="
+Content-Type: multipart/mixed; boundary="===============7024842920968184986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 17 Oct 2023 14:50:04 -0000
-Message-Id: <169755420422.563.5996674100665343840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 17 Oct 2023 14:50:20 -0000
+Message-Id: <169755422070.826.16299359156604422722@gitolite.kernel.org>
 
---===============3818177923857314154==
+--===============7024842920968184986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-6.7/block
-    old: ac7eb8f9b49c786aace696bcca13a60953ea9b11
-    new: b4e1353f465147e38b2cd5086d0c20b77dfc61ec
-    log: revlist-ac7eb8f9b49c-b4e1353f4651.txt
-  - ref: refs/heads/for-next
-    old: e1fe97acca935f31f9aefed9799d962ae3cdc4c4
-    new: c7ac94dd969414861a5479e04ea502f2033fe1ba
-    log: |
-         d451fdd0fe8323bf970b735cf276d4e11ae8cdcc Merge branch 'for-6.7/io_uring' into for-6.7/block
-         56974c07f2c77d302fc311b0c6b95f45be76a3ae ublk: Limit dev_id/ub_number values
-         6eba24aeb5e2fc582dd83021795befc1adaede20 ublk: Make ublks_max configurable
-         8ed90e370f9b5442a2766b357b92e36bbf6ba82d ublk: don't get ublk device reference in ublk_abort_queue()
-         3421c7f68bba52281bbb38bc76c18dc03cb689e4 ublk: make sure io cmd handled in submitter task context
-         85248d670b71d9edda9459ee14fdc85c8e9632c0 ublk: move ublk_cancel_dev() out of ub->mutex
-         28dde8c062b640a26dc0bdbd341ace59ec96f7a3 ublk: rename mm_lock as lock
-         bd23f6c2c2d00518e2f27f2d25cef795de9bee56 ublk: quiesce request queue when aborting queue
-         216c8f5ef0f209a3797292c487bdaa6991ab4b92 ublk: replace monitor with cancelable uring_cmd
-         b4e1353f465147e38b2cd5086d0c20b77dfc61ec ublk: simplify aborting request
-         c7ac94dd969414861a5479e04ea502f2033fe1ba Merge branch 'for-6.7/block' into for-next
-         
+  - ref: refs/heads/master
+    old: 58720809f52779dc0f08e53e54b014209d13eebb
+    new: 213f891525c222e8ed145ce1ce7ae1f47921cb9c
+    log: revlist-58720809f527-213f891525c2.txt
 
---===============3818177923857314154==
+--===============7024842920968184986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac7eb8f9b49c-b4e1353f4651.txt
+Content-Disposition: attachment; filename=revlist-58720809f527-213f891525c2.txt
 
-a08d195b586a217d76b42062f88f375a3eedda4d io_uring/rw: split io_read() into a helper
-d2d778fbf9964e4e5b8d7420eba8ec5ce938e794 io_uring/rw: mark readv/writev as vectored in the opcode definition
-fc68fcda049108478ee4704d8a3ad3e05cc72fd0 io_uring/rw: add support for IORING_OP_READ_MULTISHOT
-9d900d4ea352069de8728f11fe4b20051d64cc20 exit: abstract out should_wake helper for child_wait_callback()
-06a101ca45b296fe951692620b0bc49abf90c368 exit: move core of do_wait() into helper
-eda7e9d409ce16960d5ed28bedf8a33b2667a93c exit: add kernel_waitid_prepare() helper
-2e521a2064bf8b26cf178c0f7644a70ed1a512fa exit: add internal include file with helpers
-f31ecf671ddc498f20219453395794ff2383e06b io_uring: add IORING_OP_WAITID support
-528ce6781726e022bc5dc84034360e6e8f1b89bd io_uring: retain top 8bits of uring_cmd flags for kernel internal use
-93b8cc60c37b9d17732b7a297e5dca29b50a990d io_uring: cancelable uring_cmd
-922a2c78f13611e2c08fc48f615c0cd367dcb6da io_uring/rsrc: cleanup io_pin_pages()
-ab69838e7c75b0edb699c1a8f42752b30333c46f io_uring/kbuf: Fix check of BID wrapping in provided buffers
-f74c746e476b9dad51448b9a9421aae72b60e25f io_uring/kbuf: Allow the full buffer id space for provided buffers
-b3a4dbc89d4021b3f90ff6a13537111a004f9d07 io_uring/kbuf: Use slab for struct io_buffer objects
-d451fdd0fe8323bf970b735cf276d4e11ae8cdcc Merge branch 'for-6.7/io_uring' into for-6.7/block
-56974c07f2c77d302fc311b0c6b95f45be76a3ae ublk: Limit dev_id/ub_number values
-6eba24aeb5e2fc582dd83021795befc1adaede20 ublk: Make ublks_max configurable
-8ed90e370f9b5442a2766b357b92e36bbf6ba82d ublk: don't get ublk device reference in ublk_abort_queue()
-3421c7f68bba52281bbb38bc76c18dc03cb689e4 ublk: make sure io cmd handled in submitter task context
-85248d670b71d9edda9459ee14fdc85c8e9632c0 ublk: move ublk_cancel_dev() out of ub->mutex
-28dde8c062b640a26dc0bdbd341ace59ec96f7a3 ublk: rename mm_lock as lock
-bd23f6c2c2d00518e2f27f2d25cef795de9bee56 ublk: quiesce request queue when aborting queue
-216c8f5ef0f209a3797292c487bdaa6991ab4b92 ublk: replace monitor with cancelable uring_cmd
-b4e1353f465147e38b2cd5086d0c20b77dfc61ec ublk: simplify aborting request
+f87ef5723536a6545ed9c43e18b13a9faceb3c80 KVM: s390: fix gisa destroy operation might lead to cpu stalls
+b29a2acd36dd7a33c63f260df738fb96baa3d4f8 KVM: x86/pmu: Truncate counter value to allowed width on write
+a16eb25b09c02a54c1c1b449d4b6cfa2cf3f013a KVM: x86: Mask LVTPC when handling a PMI
+73554b29bd70546c1a9efc9c160641ef1b849358 KVM: x86/pmu: Synthesize at most one PMI per VM-exit
+b15e7490a1efd4c0f54434c3a85ced1b6b536b7a KVM: selftests: Treat %llx like %lx when formatting guest printf
+332c4d90a09c2cdc59f88d6a6c58c1601403b891 KVM: selftests: Remove obsolete and incorrect test case metadata
+6313e096dbfaf1377ba8f5f8ccd720cc36c576c6 KVM: selftests: Zero-initialize entire test_result in memslot perf test
+4bcd9bc629a5d273442fee75a0cc56ea84be08ed Merge tag 'kvm-s390-master-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+18164f66e6c59fda15c198b371fa008431efdb22 x86/fpu: Allow caller to constrain xfeatures when copying to uabi buffer
+8647c52e9504c99752a39f1d44f6268f82c40a5c KVM: x86: Constrain guest-supported xfeatures only at KVM_GET_XSAVE{2}
+60d351f18f7a8acd08964ef1d5c948354a7907be KVM: selftests: Touch relevant XSAVE state in guest for state test
+77709820787355f45755fe454e26fca8584ecf40 KVM: selftests: Load XSAVE state into untouched vCPU during state test
+87e3ca055cdc6c63fb82b9bec7c370405d03f6ef KVM: selftests: Force load all supported XSAVE state in state test
+b65235f6e102354ccafda601eaa1c5bef5284d21 x86: KVM: SVM: always update the x2avic msr interception
+2dcf37abf9d3aab7f975002d29fc7c17272def38 x86: KVM: SVM: add support for Invalid IPI Vector interception
+3fdc6087df3be73a212a81ce5dd6516638568806 x86: KVM: SVM: refresh AVIC inhibition in svm_leave_nested()
+3e9346734661cc20bd77aeb43dbf4e5f46a2c16e KVM: SVM: Fix build error when using -Werror=unused-but-set-variable
+60197a4631b907b30343e25af702257d92f359cf KVM: arm64: pmu: Drop redundant check for non-NULL kvm_pmu_events
+e2145c99b53ec88105c69bbbb577265660d08c69 KVM: MIPS: fix -Wunused-but-set-variable warning
+0fd76865006dfdc3cdc6dade538ca2257a847364 KVM: arm64: Add nPIR{E0}_EL1 to HFG traps
+839d90357b7ce6b129045d28ac22bd3a247e2350 KVM: arm64: POR{E0}_EL1 do not need trap handlers
+9404673293b065cbb16b8915530147cac7e80b4d KVM: arm64: timers: Correctly handle TGE flip with CNTPOFF_EL2
+24422df3fb862b3b1a6791f72141e79724adc244 Merge tag 'kvmarm-fixes-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+88e4cd893f5f05de54a6e013a33c524d30fcad83 Merge tag 'kvm-x86-pmu-6.6-fixes' of https://github.com/kvm-x86/linux into HEAD
+2b3f2325e71f09098723727d665e2e8003d455dc Merge tag 'kvm-x86-selftests-6.6-fixes' of https://github.com/kvm-x86/linux into HEAD
+2a86ac30a6687e47436e547deadae3bf0fc28697 Documentation: probes: Add a new ret_ip callback parameter
+700b2b439766e8aab8a7174991198497345bd411 fprobe: Fix to ensure the number of active retprobes is not zero
+86d6a628a281a17b8341ece99997c1251bb41a41 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+213f891525c222e8ed145ce1ce7ae1f47921cb9c Merge tag 'probes-fixes-v6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============3818177923857314154==--
+--===============7024842920968184986==--
