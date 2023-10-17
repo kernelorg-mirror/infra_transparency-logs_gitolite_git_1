@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 17 Oct 2023 15:05:23 -0000
-Message-Id: <169755512366.11651.1712182026513917327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Tue, 17 Oct 2023 15:09:24 -0000
+Message-Id: <169755536428.14491.4489868972755098363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/master
-    old: 79f97d9b00485e7ad6f9344fbafeb57957890ccc
-    new: 181f9ac8722e7da6fee2f021503468c874339486
-    log: |
-         181f9ac8722e7da6fee2f021503468c874339486 genl: fix ‘attr_grp.next_len’ may be used uninitialized
-         
+  - ref: refs/tags/fpga-for-6.7-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 87eeacdb6e0878abfad3542782870ff6a11fd04a
