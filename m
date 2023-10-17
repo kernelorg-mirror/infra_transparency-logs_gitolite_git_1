@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 17 Oct 2023 12:18:49 -0000
-Message-Id: <169754512924.18705.1722954527293393635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 17 Oct 2023 12:23:27 -0000
+Message-Id: <169754540738.21983.638519995131103608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/renesas/net/upport_tsn_alpha_draft_experimental
+  - ref: refs/heads/testing/arm64-fnc-20231017
     old: 0000000000000000000000000000000000000000
-    new: b8edde3cedef1afe61406eac00fb2e0585be8ddd
+    new: 010a7226ea904d2a7adc947a45cd72bf3a7c3a0a
