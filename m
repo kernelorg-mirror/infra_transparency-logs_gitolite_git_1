@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Oct 2023 12:08:52 -0000
-Message-Id: <169754453219.11874.11766210090160614395@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 12:10:11 -0000
+Message-Id: <169754461190.13959.1080897983718765040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/cache
-    old: aaa5fa35743ab9f0726568611a85e3e15349b9bf
-    new: 4cee14bcb14881aae81d60f106a335c68553ac1f
+  - ref: refs/heads/master
+    old: fe0f4cf7ed202f07772c9e9b18bbf1826ab17bc0
+    new: d5827f6cdef39c314d6793fc3e03313791c05288
     log: |
          fe2a20ea0b0953189e57740debc7dcc789d1ea55 x86/resctrl: Add multiple tasks to the resctrl group at once
          6846dc1a31d1894a7acf52d8442fe73b34091022 x86/resctrl: Simplify rftype flag definitions
@@ -24,4 +24,5 @@ changes:
          ca8dad225e237493f19b1c5d4a8531f13a9b078f x86/resctrl: Display CLOSID for resource group
          918f211b5e4e709e91acf856967a850569c96b71 x86/resctrl: Add support for the files of MON groups only
          4cee14bcb14881aae81d60f106a335c68553ac1f x86/resctrl: Display RMID of resource group
+         d5827f6cdef39c314d6793fc3e03313791c05288 Merge x86/cache into tip/master
          
