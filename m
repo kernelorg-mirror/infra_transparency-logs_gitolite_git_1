@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 17 Oct 2023 11:54:01 -0000
-Message-Id: <169754364114.32070.14421429891592662156@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 11:54:47 -0000
+Message-Id: <169754368779.32414.1070393337076240554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-fix-ptrace-race
-    old: f705fd9d913304b7cdf1c82d3252546103ab7a07
-    new: f31f56e187427d803dc28bcc5bc0d549ee8dc2a4
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: 5bcaf19227c97d84ca46af37b59e63a4020f0253
+    new: 7510f78b747230006f8b8bbc1b4e54c2ede956aa
     log: |
-         c60aebe497cca68e2221f0081768fb8a1d879770 EDITME: cover title for arm64-fix-ptrace-race
-         f31f56e187427d803dc28bcc5bc0d549ee8dc2a4 arm64/ptrace: Ensure that SME is set up for target when writing SSVE state
+         788bbed63163aadbbbb05bfe1ee4aa0d1fc0e463 EDITME: cover title for arm64-sve-trap-mitigation
+         7510f78b747230006f8b8bbc1b4e54c2ede956aa arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
          
