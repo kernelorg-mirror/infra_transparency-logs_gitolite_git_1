@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 17 Oct 2023 20:35:16 -0000
-Message-Id: <169757491696.29193.13775985005570618127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 17 Oct 2023 20:39:00 -0000
+Message-Id: <169757514071.31913.10144029375565250522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: fafdaaf57cd305089adbb35791e1d12001a08a07
-    new: 248b1a0320b4eabfc7469818bfdfd6cbc6b44a03
-    log: |
-         248b1a0320b4eabfc7469818bfdfd6cbc6b44a03 parisc/power: Trivial whitespace cleanups and license update
-         
+  - ref: refs/heads/filePl9YGZ
+    old: 0000000000000000000000000000000000000000
+    new: 692225015c82d3eece55a07d16cd24c4dc63a6a5
+  - ref: refs/heads/fileZh2t4u
+    old: 0000000000000000000000000000000000000000
+    new: 8f7e17d847edf6bc02d0813b123b9d78ba504098
