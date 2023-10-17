@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 17 Oct 2023 20:20:56 -0000
-Message-Id: <169757405612.19299.13155678548305782514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 17 Oct 2023 20:26:56 -0000
+Message-Id: <169757441682.22988.7015743955033048426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: 3e5c40d0e8bf491107f0ce5563d6b9cb1cf44224
-    new: fafdaaf57cd305089adbb35791e1d12001a08a07
+  - ref: refs/heads/trace/for-next
+    old: f5d9e8e08f81c9e7c723de7abcce106808f0770c
+    new: 5ddd8baa4857709b4e5d84b376d735152851955b
     log: |
-         fafdaaf57cd305089adbb35791e1d12001a08a07 parisc/power: Add power soft-off when running on qemu
+         2819f23ac12ce93ff79ca7a54597df9a4a1f6331 eventfs: Use eventfs_remove_events_dir()
+         5ddd8baa4857709b4e5d84b376d735152851955b tracing: Make system_callback() function static
          
