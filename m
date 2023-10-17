@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Tue, 17 Oct 2023 10:05:14 -0000
-Message-Id: <169753711412.18434.13863012778551442449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Oct 2023 10:32:15 -0000
+Message-Id: <169753873598.4838.7908657900827770111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: 90a7371cb08d7e542fa4f283c881973bba09f23b
-    new: 845333e5f0f3ac6a24d26a8341271d921a0d5e86
+  - ref: refs/heads/main
+    old: a3c2dd96487f1dd734c9443a3472c8dafa689813
+    new: 1b2d3b45c1941453703d70f46b70ab8985303b5d
     log: |
-         845333e5f0f3ac6a24d26a8341271d921a0d5e86 Documentation: ABI: coresight-tpdm: Fix Bit[3] description indentation
+         1b2d3b45c1941453703d70f46b70ab8985303b5d net: gso_test: release each segment individually
          
