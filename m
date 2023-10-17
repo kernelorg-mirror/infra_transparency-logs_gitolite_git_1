@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5873922964259526735=="
+Content-Type: multipart/mixed; boundary="===============6209018718256987866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 17 Oct 2023 21:56:17 -0000
-Message-Id: <169757977767.23640.10130267690116351585@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 21:57:56 -0000
+Message-Id: <169757987608.24317.12930633947435173235@gitolite.kernel.org>
 
---===============5873922964259526735==
+--===============6209018718256987866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: e4078ebbddf69f5a82f164dc07d50321b7f641cf
-    new: 5e8a5e895a20c08acc49736c3ce0898be4c77c91
-    log: revlist-e4078ebbddf6-5e8a5e895a20.txt
-  - ref: refs/heads/soc/defconfig
-    old: 8d21670105fe14f37f447825ed511fd950dd3ad0
-    new: 40fa0489a29428bc8bfbfaec3085b92c009272e6
-    log: revlist-8d21670105fe-40fa0489a294.txt
+  - ref: refs/heads/for-next
+    old: cf57df3cc81b9db75f143753db4aac14aba6219c
+    new: 08e489759306a80cc2265d9334468bf5fc1cc7a2
+    log: revlist-cf57df3cc81b-08e489759306.txt
 
---===============5873922964259526735==
+--===============6209018718256987866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4078ebbddf6-5e8a5e895a20.txt
-
-84fa1865edbb3800f3344e2a5bc73c187adf42d0 arm64: dts: rockchip: use codec as clock master on px30-ringneck-haikou
-1e585cd0aad3d491938230318d6d479f09589fd8 arm64: dts: rockchip: set codec system-clock-fixed on px30-ringneck-haikou
-2e9cbc4167da3134412ce47e4cdadbfdea30bbff ARM: dts: rockchip: Fix i2c0 register address for RK3128
-7e3be9ea299927e6d65242c247eca0a21bc26a58 ARM: dts: rockchip: Add missing arm timer interrupt for RK3128
-b0b4e978784943c4ed8412dbb475178f8c51ba8e ARM: dts: rockchip: Add missing quirk for RK3128's dma engine
-2c68d26f072b449bd45427241612cb3f8f997f82 ARM: dts: rockchip: Fix timer clocks for RK3128
-3975e72b164dc8347a28dd0d5f11b346af534635 arm64: dts: rockchip: Add i2s0-2ch-bus-bclk-off pins to RK3399
-8cd79b729e746cb167f1563d015a93fc0a079899 arm64: dts: rockchip: Fix i2s0 pin conflict on ROCK Pi 4 boards
-759426c758c7053a941a4c06c7571461439fcff6 riscv: dts: thead: set dma-noncoherent to soc bus
-5e8a5e895a20c08acc49736c3ce0898be4c77c91 Merge tag 'v6.6-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-
---===============5873922964259526735==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d21670105fe-40fa0489a294.txt
+Content-Disposition: attachment; filename=revlist-cf57df3cc81b-08e489759306.txt
 
 89bf1107b7762631262e94fc7f73fa81d4ec0b6d arm64: defconfig: enable NB7VPQ904M driver as module
 7a9d9ee88cdb25d6241021317bcb3874d0fa7153 arm64: defconfig: enable Qualcomm SM8350 LPASS pinctrl
@@ -58,6 +37,12 @@ d2efde5cc970cd21de0f94cf03e059adc1e1311b ARM: shmobile: defconfig: Refresh for v
 0264be0ac4069530a6fd10dc22f40d3bae343b24 ARM: multi_v7_defconfig: make Exynos related PHYs modules
 de1f6a85398e6bff2e6dfa326531daf6358b64dc ARM: multi_v7_defconfig: add AHCI_DWC driver
 966e2ec6ef3fa786defe07ebca6795f284dde5b0 ARM: exynos_defconfig: replace SATA_AHCI_PLATFORM with AHCI_DWC driver
+84fa1865edbb3800f3344e2a5bc73c187adf42d0 arm64: dts: rockchip: use codec as clock master on px30-ringneck-haikou
+1e585cd0aad3d491938230318d6d479f09589fd8 arm64: dts: rockchip: set codec system-clock-fixed on px30-ringneck-haikou
+2e9cbc4167da3134412ce47e4cdadbfdea30bbff ARM: dts: rockchip: Fix i2c0 register address for RK3128
+7e3be9ea299927e6d65242c247eca0a21bc26a58 ARM: dts: rockchip: Add missing arm timer interrupt for RK3128
+b0b4e978784943c4ed8412dbb475178f8c51ba8e ARM: dts: rockchip: Add missing quirk for RK3128's dma engine
+2c68d26f072b449bd45427241612cb3f8f997f82 ARM: dts: rockchip: Fix timer clocks for RK3128
 c2a5b4597ab821a379cd84e385c9202ffed4c038 ARM: multi_v7_defconfig: add tm2-touchkey driver
 09cfdb5a97b53d117682211a4d32a39af2e819e4 arm64: defconfig: Enable RZ/G3S (R9A08G045) SoC
 669216528852c99d32be9e894120d25b48b71a52 ARM: multi_v7_defconfig: add drivers for S5C73M3 & S5K6A3 camera sensors
@@ -67,6 +52,15 @@ c2a5b4597ab821a379cd84e385c9202ffed4c038 ARM: multi_v7_defconfig: add tm2-touchk
 a0530d3b845b1ddc13b9555d35d974d09db58701 ARM: config: aspeed_g5: Enable SSIF BMC driver
 f1538805cf9da7a1be38c78690a0d3809e330acd ARM: config: aspeed: Remove FIRMWARE_MEMMAP
 a23bfeda86239d29f18a149a7e658cc3d4e5ef8a arm64: defconfig: add various drivers for Amlogic based boards
+3975e72b164dc8347a28dd0d5f11b346af534635 arm64: dts: rockchip: Add i2s0-2ch-bus-bclk-off pins to RK3399
+8cd79b729e746cb167f1563d015a93fc0a079899 arm64: dts: rockchip: Fix i2s0 pin conflict on ROCK Pi 4 boards
+f9a1dfc73152491417c5601cc8081d45b5661717 Merge branch 'arm/fixes' into for-next
+b761bb396efc06500dffaa866f29774d683a1430 Merge branch 'soc/dt' into for-next
+b8df379da06d143669a885a55c96d8f88903b91a Merge branch 'soc/drivers' into for-next
+c0131fcd8302ac70ba4eadbe8941ec1197c65bad Merge branch 'soc/defconfig' into for-next
+6b32cc7b387ae3396b438b3dfaca681e39467f69 Merge branch 'soc/arm' into for-next
+759426c758c7053a941a4c06c7571461439fcff6 riscv: dts: thead: set dma-noncoherent to soc bus
+5e8a5e895a20c08acc49736c3ce0898be4c77c91 Merge tag 'v6.6-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
 22bf97fc236b987f24c5800c9b185b172caa8f14 Merge tag 'renesas-arm-defconfig-for-v6.7-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/defconfig
 ec91108949dc06022b4b3fcac177313f088206dd Merge tag 'renesas-arm-defconfig-for-v6.7-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/defconfig
 9b9a5546b336bcd8086ac6e09a6975e29b4fdf2d Merge tag 'imx-defconfig-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into soc/defconfig
@@ -74,5 +68,8 @@ d9195144e7ff3126c4851efb774a049357aaea9a Merge tag 'qcom-arm64-defconfig-for-6.7
 8788f221b1780046e531426580d37e52223afd08 Merge tag 'aspeed-6.7-defconfig' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into soc/defconfig
 0c74ef26c50a53d26a92f512bdd26ab64da72d26 Merge tag 'samsung-defconfig-6.7' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/defconfig
 40fa0489a29428bc8bfbfaec3085b92c009272e6 Merge tag 'amlogic-defconfig-for-v6.7' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/defconfig
+02e15dc58a26a5ea671fe96c82fd5b67e7b388a5 Merge branch 'soc/defconfig' into for-next
+e9824be9567316736c808bb7722bbbb42c178a67 Merge branch 'arm/fixes' into for-next
+08e489759306a80cc2265d9334468bf5fc1cc7a2 soc: document merges
 
---===============5873922964259526735==--
+--===============6209018718256987866==--
