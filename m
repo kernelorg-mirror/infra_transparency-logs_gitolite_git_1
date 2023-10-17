@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 17 Oct 2023 08:39:57 -0000
-Message-Id: <169753199755.7174.4283403968041215275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Tue, 17 Oct 2023 08:41:06 -0000
+Message-Id: <169753206668.9231.13127180839279116150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/testing
-    old: 7a0207094f1b14b2a690594e9b3587dddff0be5d
-    new: efedce336d71e238fbbada0f54b2bff9bf0509e9
+  - ref: refs/heads/extcon-next
+    old: da886ba844791d11c9d1526fddf8607eb0198243
+    new: b3edc3463d64bc469162138a6bec6913fbeef931
     log: |
-         efedce336d71e238fbbada0f54b2bff9bf0509e9 Merge branch 'xfrm: policy: replace session decode with flow dissector'
+         b3edc3463d64bc469162138a6bec6913fbeef931 extcon: realtek: add the error handler for nvmem_cell_read
          
