@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 17 Oct 2023 20:45:33 -0000
-Message-Id: <169757553340.5166.6293306406097600656@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 20:48:53 -0000
+Message-Id: <169757573345.6394.18424898050000716272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/sched/ilb-no-needs-kick
-    old: 6ffc130c8b74b0f1d0b31aeca463f164891523ad
-    new: 57d779aaa27e59ff4ed4fcced2218859abe41b07
+    old: 57d779aaa27e59ff4ed4fcced2218859abe41b07
+    new: 853c45422bbab551e74f54b53cd23271986790b7
     log: |
-         f1ce99013bb325ab42d7f80f72edd96da8b415c5 sched/nohz: Update nohz.next_balance directly without IPIs
-         57d779aaa27e59ff4ed4fcced2218859abe41b07 sched/nohz: Update comments about NEWILB_KICK
+         853c45422bbab551e74f54b53cd23271986790b7 sched/nohz: Update comments about NEWILB_KICK
          
