@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-Date: Tue, 17 Oct 2023 05:01:52 -0000
-Message-Id: <169751891239.11111.17625120463216656074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/linux
+Date: Tue, 17 Oct 2023 05:10:01 -0000
+Message-Id: <169751940183.16963.14002659957859952985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-user: jarkko
+repo: pub/scm/fs/fscrypt/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/keystone
-    old: 46790fd4892f6d430347c07de7245681f5cc2b9a
-    new: e9e41179e84877ba3bd2dab9fd95832a09a13669
+  - ref: refs/heads/for-next
+    old: 3e7807d5a7d770c59837026e9967fe99ad043174
+    new: 15baf55481de700f8c4494cddb80ec4f4575548b
     log: |
-         e9e41179e84877ba3bd2dab9fd95832a09a13669 arch/riscv: Keystone
+         15baf55481de700f8c4494cddb80ec4f4575548b fscrypt: track master key presence separately from secret
          
