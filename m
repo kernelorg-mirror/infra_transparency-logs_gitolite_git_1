@@ -1,559 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============6392460745025146810=="
+Content-Type: multipart/mixed; boundary="===============2057592391850886079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Tue, 17 Oct 2023 15:41:56 -0000
-Message-Id: <169755731653.7437.9965490871582178237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 17 Oct 2023 15:50:04 -0000
+Message-Id: <169755780405.13579.3156576998100153116@gitolite.kernel.org>
 
---===============6392460745025146810==
+--===============2057592391850886079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/clean-up-realtime-units-6.7
-    old: efafd16f2dcbdcc920c698068146b25dd65387d7
-    new: 99930eab153685d86a56972c31c306860a884c7c
-    log: revlist-efafd16f2dcb-99930eab1536.txt
-  - ref: refs/heads/realtime-fixes-6.7
-    old: b9a1d7039b5baeebb3453e462e8ffeff26e87568
-    new: 9a734336838f12389209a139e6b2b7e02f8a21eb
+  - ref: refs/heads/for-6.7/block
+    old: b4e1353f465147e38b2cd5086d0c20b77dfc61ec
+    new: ec8cf230ceccfcc2bd29990c2902be168a92dee4
     log: |
-         9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-         ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-         4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-         9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
+         96ff37ceb203426b1bcebbae42399686110b0130 block:sed-opal: SED Opal keystore
+         5dd339722f5f612f349b068e8da6d6710fd0e460 block: sed-opal: keystore access for SED Opal keys
+         ec8cf230ceccfcc2bd29990c2902be168a92dee4 powerpc/pseries: PLPKS SED Opal keystore support
          
-  - ref: refs/heads/refactor-rt-unit-conversions-6.7
-    old: f538cf95a5b8ebe276eeeb2a8b1cfd64c1c3957b
-    new: ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b
-    log: revlist-f538cf95a5b8-ffe92e0d7c2e.txt
-  - ref: refs/heads/refactor-rtbitmap-macros-6.7
-    old: ac9c57723b70ce36ba0c8e17c51ffb25a80721d5
-    new: 749227b7bb8780a440df17d59f26c7547c169f2e
-    log: revlist-ac9c57723b70-749227b7bb87.txt
-  - ref: refs/heads/rtalloc-speedups-6.7
-    old: b671996956967d635bc24bb9b8db0c7dbda186c5
-    new: 160fc7cbdcf9caec9ab7f5dad021642135feb3e7
-    log: revlist-b67199695696-160fc7cbdcf9.txt
-  - ref: refs/heads/scrub-livelock-prevention-6.7
-    old: 6953ad8d0bae61d25119637e24ec0edabe13dc3e
-    new: af7d6ba3a20b9a882097446732bb0300867e9989
-    log: revlist-6953ad8d0bae-af7d6ba3a20b.txt
-  - ref: refs/heads/xfs-merge-6.7
-    old: 1937b0813e811339fadafc7a9656295439a045ec
-    new: eee9645e1bf5f060c24ab0f52b2fc55a3ff68ec6
-    log: revlist-1937b0813e81-eee9645e1bf5.txt
-  - ref: refs/tags/clean-up-realtime-units-6.7_2023-10-17
-    old: 2c97d65be73bd51cf9f77f2a0df64225dc89f577
-    new: db2ef19416c557ccd0a1098c54a3eb77d2b602b8
-    log: revlist-2c97d65be73b-db2ef19416c5.txt
-  - ref: refs/tags/realtime-fixes-6.7_2023-10-17
-    old: f3130a9f2d3fb207534d1f830b124edcddcdad62
-    new: c6aaef913624925a99605ff2c05868aaa0f5f92c
+  - ref: refs/heads/for-next
+    old: c7ac94dd969414861a5479e04ea502f2033fe1ba
+    new: 1e389639980af814a1d4f4fccb9e3ad575b76e14
     log: |
-         9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-         ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-         4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-         9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
+         96ff37ceb203426b1bcebbae42399686110b0130 block:sed-opal: SED Opal keystore
+         5dd339722f5f612f349b068e8da6d6710fd0e460 block: sed-opal: keystore access for SED Opal keys
+         ec8cf230ceccfcc2bd29990c2902be168a92dee4 powerpc/pseries: PLPKS SED Opal keystore support
+         1e389639980af814a1d4f4fccb9e3ad575b76e14 Merge branch 'for-6.7/block' into for-next
          
-  - ref: refs/tags/refactor-rt-unit-conversions-6.7_2023-10-17
-    old: 7136964b7b3e0d53a834e6c4d5f7eb0433fb63fe
-    new: 7f3e339bac75f9ce4436d68651748d1b9672d96b
-    log: revlist-7136964b7b3e-7f3e339bac75.txt
-  - ref: refs/tags/refactor-rtbitmap-macros-6.7_2023-10-17
-    old: 493e5b59a5e424ef22f651df547308e7c4f6999f
-    new: 2475a744a8f8c879b9e3a6b5d5a35132ad4d6ce6
-    log: revlist-493e5b59a5e4-2475a744a8f8.txt
-  - ref: refs/tags/rtalloc-speedups-6.7_2023-10-17
-    old: d9ffc0c603adcb06f6cb3ec1cced2bd3a7b375fb
-    new: 5d21117a8e9cf7599c55193a930ff824c012d75b
-    log: revlist-d9ffc0c603ad-5d21117a8e9c.txt
-  - ref: refs/tags/scrub-livelock-prevention-6.7_2023-10-17
-    old: 2200234ce42ea773efd37393264d36b7d6b87e63
-    new: d5117fffdd93fcfa3427c0e067482576f7fb9d4e
-    log: revlist-2200234ce42e-d5117fffdd93.txt
-  - ref: refs/tags/xfs-merge-6.7_2023-10-17
-    old: 836b961b7555af154dd3c73e802e7ecc84368997
-    new: e74829c44dadbe3792fbfe8d581e0bbbc29908e3
-    log: revlist-836b961b7555-e74829c44dad.txt
+  - ref: refs/heads/master
+    old: 58720809f52779dc0f08e53e54b014209d13eebb
+    new: 213f891525c222e8ed145ce1ce7ae1f47921cb9c
+    log: revlist-58720809f527-213f891525c2.txt
 
---===============6392460745025146810==
+--===============2057592391850886079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efafd16f2dcb-99930eab1536.txt
+Content-Disposition: attachment; filename=revlist-58720809f527-213f891525c2.txt
 
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
+f87ef5723536a6545ed9c43e18b13a9faceb3c80 KVM: s390: fix gisa destroy operation might lead to cpu stalls
+b29a2acd36dd7a33c63f260df738fb96baa3d4f8 KVM: x86/pmu: Truncate counter value to allowed width on write
+a16eb25b09c02a54c1c1b449d4b6cfa2cf3f013a KVM: x86: Mask LVTPC when handling a PMI
+73554b29bd70546c1a9efc9c160641ef1b849358 KVM: x86/pmu: Synthesize at most one PMI per VM-exit
+b15e7490a1efd4c0f54434c3a85ced1b6b536b7a KVM: selftests: Treat %llx like %lx when formatting guest printf
+332c4d90a09c2cdc59f88d6a6c58c1601403b891 KVM: selftests: Remove obsolete and incorrect test case metadata
+6313e096dbfaf1377ba8f5f8ccd720cc36c576c6 KVM: selftests: Zero-initialize entire test_result in memslot perf test
+4bcd9bc629a5d273442fee75a0cc56ea84be08ed Merge tag 'kvm-s390-master-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+18164f66e6c59fda15c198b371fa008431efdb22 x86/fpu: Allow caller to constrain xfeatures when copying to uabi buffer
+8647c52e9504c99752a39f1d44f6268f82c40a5c KVM: x86: Constrain guest-supported xfeatures only at KVM_GET_XSAVE{2}
+60d351f18f7a8acd08964ef1d5c948354a7907be KVM: selftests: Touch relevant XSAVE state in guest for state test
+77709820787355f45755fe454e26fca8584ecf40 KVM: selftests: Load XSAVE state into untouched vCPU during state test
+87e3ca055cdc6c63fb82b9bec7c370405d03f6ef KVM: selftests: Force load all supported XSAVE state in state test
+b65235f6e102354ccafda601eaa1c5bef5284d21 x86: KVM: SVM: always update the x2avic msr interception
+2dcf37abf9d3aab7f975002d29fc7c17272def38 x86: KVM: SVM: add support for Invalid IPI Vector interception
+3fdc6087df3be73a212a81ce5dd6516638568806 x86: KVM: SVM: refresh AVIC inhibition in svm_leave_nested()
+3e9346734661cc20bd77aeb43dbf4e5f46a2c16e KVM: SVM: Fix build error when using -Werror=unused-but-set-variable
+60197a4631b907b30343e25af702257d92f359cf KVM: arm64: pmu: Drop redundant check for non-NULL kvm_pmu_events
+e2145c99b53ec88105c69bbbb577265660d08c69 KVM: MIPS: fix -Wunused-but-set-variable warning
+0fd76865006dfdc3cdc6dade538ca2257a847364 KVM: arm64: Add nPIR{E0}_EL1 to HFG traps
+839d90357b7ce6b129045d28ac22bd3a247e2350 KVM: arm64: POR{E0}_EL1 do not need trap handlers
+9404673293b065cbb16b8915530147cac7e80b4d KVM: arm64: timers: Correctly handle TGE flip with CNTPOFF_EL2
+24422df3fb862b3b1a6791f72141e79724adc244 Merge tag 'kvmarm-fixes-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+88e4cd893f5f05de54a6e013a33c524d30fcad83 Merge tag 'kvm-x86-pmu-6.6-fixes' of https://github.com/kvm-x86/linux into HEAD
+2b3f2325e71f09098723727d665e2e8003d455dc Merge tag 'kvm-x86-selftests-6.6-fixes' of https://github.com/kvm-x86/linux into HEAD
+2a86ac30a6687e47436e547deadae3bf0fc28697 Documentation: probes: Add a new ret_ip callback parameter
+700b2b439766e8aab8a7174991198497345bd411 fprobe: Fix to ensure the number of active retprobes is not zero
+86d6a628a281a17b8341ece99997c1251bb41a41 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+213f891525c222e8ed145ce1ce7ae1f47921cb9c Merge tag 'probes-fixes-v6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f538cf95a5b8-ffe92e0d7c2e.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9c57723b70-749227b7bb87.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b67199695696-160fc7cbdcf9.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-29a42a480c7038076ef55a14fd961c77c2244cc6 xfs: consolidate realtime allocation arguments
-a614583de6260b07d87289baa40b588d8afd1401 xfs: cache last bitmap block in realtime allocator
-e8d82e4621e8dc25ba4f168021165954734b537c xfs: invert the realtime summary cache
-e6a56aa430010a49c9a6def9c7bd7d2304ff4f60 xfs: return maximum free size from xfs_rtany_summary()
-7dd2f1888cd452011843ed0068ad8fbdf31dcbe4 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
-8afe0f67a452cbb89d9cf6bbd06070facba5135e xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
-160fc7cbdcf9caec9ab7f5dad021642135feb3e7 xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6953ad8d0bae-af7d6ba3a20b.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-29a42a480c7038076ef55a14fd961c77c2244cc6 xfs: consolidate realtime allocation arguments
-a614583de6260b07d87289baa40b588d8afd1401 xfs: cache last bitmap block in realtime allocator
-e8d82e4621e8dc25ba4f168021165954734b537c xfs: invert the realtime summary cache
-e6a56aa430010a49c9a6def9c7bd7d2304ff4f60 xfs: return maximum free size from xfs_rtany_summary()
-7dd2f1888cd452011843ed0068ad8fbdf31dcbe4 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
-8afe0f67a452cbb89d9cf6bbd06070facba5135e xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
-160fc7cbdcf9caec9ab7f5dad021642135feb3e7 xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
-494c378c925181c1b22c21a792e1fc9575882c56 builddeb: rework packaging for MTR
-f15a2533f435024cea775f93551afcd3fd613b3f builddeb: extract debug information in parallel
-5c638779c3a39ba6eab58f3a5018b8f2cc264ec7 builddeb: decompress modules before splitting off debug info
-2bad295a17beb413d5b75f04e2b7ddcc7d0ad809 efi: sign kernels for secureboot
-b77589dc5b8cd36f14e77d56cd0c04e5ecb9351f mtr: Build script adjustments
-40b10e2a290a142d8d05c140f35c30e8ff175dbc add machine name to kconfig
-dedf04dc5a0626f1ef72668c4c945428059cea78 kconfig: allow setting default cpu mitigations
-d7b2ce0fa6a502aa917a776dba798678b521dc57 workqueue: omit "kworker/" from comm
-7635e23ea313d8fec79175a130ab230d99fe7238 vsprintf: disable pointer hashing
-00437e8f1407e388bbc492c53a8e144d8a776655 arm64: stupid hack to shut up OCI
-bd8eb035159b8ae579d0e2d8af0b4fdae55f1531 loop: use directio to the underlying fs when possible
-2830fa8346bab79b21619696ad5571ff6c8b2c72 fs: enable gcov for subsystems we develop
-5ae98786123bf094d32671f561362d74160288a5 fs: turn on more warnings for the filesystem code we modify most
-29622be06c6eb87f8d06c22b5ff16f4742d4ba49 STOP HERE
-5e7b796daff9f079c25c675eb08a6114bf599c2e overlayfs: maybe fix weird crash?
-7d58d2e3f602cbbad29ab30e1ab493a4ec725454 debug crashes on arm64
-eee9645e1bf5f060c24ab0f52b2fc55a3ff68ec6 mm, pmem, xfs: Introduce MF_MEM_PRE_REMOVE for unbind
-af7d6ba3a20b9a882097446732bb0300867e9989 xfs: make xchk_iget safer in the presence of corrupt inode btrees
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1937b0813e81-eee9645e1bf5.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-29a42a480c7038076ef55a14fd961c77c2244cc6 xfs: consolidate realtime allocation arguments
-a614583de6260b07d87289baa40b588d8afd1401 xfs: cache last bitmap block in realtime allocator
-e8d82e4621e8dc25ba4f168021165954734b537c xfs: invert the realtime summary cache
-e6a56aa430010a49c9a6def9c7bd7d2304ff4f60 xfs: return maximum free size from xfs_rtany_summary()
-7dd2f1888cd452011843ed0068ad8fbdf31dcbe4 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
-8afe0f67a452cbb89d9cf6bbd06070facba5135e xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
-160fc7cbdcf9caec9ab7f5dad021642135feb3e7 xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
-494c378c925181c1b22c21a792e1fc9575882c56 builddeb: rework packaging for MTR
-f15a2533f435024cea775f93551afcd3fd613b3f builddeb: extract debug information in parallel
-5c638779c3a39ba6eab58f3a5018b8f2cc264ec7 builddeb: decompress modules before splitting off debug info
-2bad295a17beb413d5b75f04e2b7ddcc7d0ad809 efi: sign kernels for secureboot
-b77589dc5b8cd36f14e77d56cd0c04e5ecb9351f mtr: Build script adjustments
-40b10e2a290a142d8d05c140f35c30e8ff175dbc add machine name to kconfig
-dedf04dc5a0626f1ef72668c4c945428059cea78 kconfig: allow setting default cpu mitigations
-d7b2ce0fa6a502aa917a776dba798678b521dc57 workqueue: omit "kworker/" from comm
-7635e23ea313d8fec79175a130ab230d99fe7238 vsprintf: disable pointer hashing
-00437e8f1407e388bbc492c53a8e144d8a776655 arm64: stupid hack to shut up OCI
-bd8eb035159b8ae579d0e2d8af0b4fdae55f1531 loop: use directio to the underlying fs when possible
-2830fa8346bab79b21619696ad5571ff6c8b2c72 fs: enable gcov for subsystems we develop
-5ae98786123bf094d32671f561362d74160288a5 fs: turn on more warnings for the filesystem code we modify most
-29622be06c6eb87f8d06c22b5ff16f4742d4ba49 STOP HERE
-5e7b796daff9f079c25c675eb08a6114bf599c2e overlayfs: maybe fix weird crash?
-7d58d2e3f602cbbad29ab30e1ab493a4ec725454 debug crashes on arm64
-eee9645e1bf5f060c24ab0f52b2fc55a3ff68ec6 mm, pmem, xfs: Introduce MF_MEM_PRE_REMOVE for unbind
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c97d65be73b-db2ef19416c5.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7136964b7b3e-7f3e339bac75.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-493e5b59a5e4-2475a744a8f8.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9ffc0c603ad-5d21117a8e9c.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-29a42a480c7038076ef55a14fd961c77c2244cc6 xfs: consolidate realtime allocation arguments
-a614583de6260b07d87289baa40b588d8afd1401 xfs: cache last bitmap block in realtime allocator
-e8d82e4621e8dc25ba4f168021165954734b537c xfs: invert the realtime summary cache
-e6a56aa430010a49c9a6def9c7bd7d2304ff4f60 xfs: return maximum free size from xfs_rtany_summary()
-7dd2f1888cd452011843ed0068ad8fbdf31dcbe4 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
-8afe0f67a452cbb89d9cf6bbd06070facba5135e xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
-160fc7cbdcf9caec9ab7f5dad021642135feb3e7 xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2200234ce42e-d5117fffdd93.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-29a42a480c7038076ef55a14fd961c77c2244cc6 xfs: consolidate realtime allocation arguments
-a614583de6260b07d87289baa40b588d8afd1401 xfs: cache last bitmap block in realtime allocator
-e8d82e4621e8dc25ba4f168021165954734b537c xfs: invert the realtime summary cache
-e6a56aa430010a49c9a6def9c7bd7d2304ff4f60 xfs: return maximum free size from xfs_rtany_summary()
-7dd2f1888cd452011843ed0068ad8fbdf31dcbe4 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
-8afe0f67a452cbb89d9cf6bbd06070facba5135e xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
-160fc7cbdcf9caec9ab7f5dad021642135feb3e7 xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
-494c378c925181c1b22c21a792e1fc9575882c56 builddeb: rework packaging for MTR
-f15a2533f435024cea775f93551afcd3fd613b3f builddeb: extract debug information in parallel
-5c638779c3a39ba6eab58f3a5018b8f2cc264ec7 builddeb: decompress modules before splitting off debug info
-2bad295a17beb413d5b75f04e2b7ddcc7d0ad809 efi: sign kernels for secureboot
-b77589dc5b8cd36f14e77d56cd0c04e5ecb9351f mtr: Build script adjustments
-40b10e2a290a142d8d05c140f35c30e8ff175dbc add machine name to kconfig
-dedf04dc5a0626f1ef72668c4c945428059cea78 kconfig: allow setting default cpu mitigations
-d7b2ce0fa6a502aa917a776dba798678b521dc57 workqueue: omit "kworker/" from comm
-7635e23ea313d8fec79175a130ab230d99fe7238 vsprintf: disable pointer hashing
-00437e8f1407e388bbc492c53a8e144d8a776655 arm64: stupid hack to shut up OCI
-bd8eb035159b8ae579d0e2d8af0b4fdae55f1531 loop: use directio to the underlying fs when possible
-2830fa8346bab79b21619696ad5571ff6c8b2c72 fs: enable gcov for subsystems we develop
-5ae98786123bf094d32671f561362d74160288a5 fs: turn on more warnings for the filesystem code we modify most
-29622be06c6eb87f8d06c22b5ff16f4742d4ba49 STOP HERE
-5e7b796daff9f079c25c675eb08a6114bf599c2e overlayfs: maybe fix weird crash?
-7d58d2e3f602cbbad29ab30e1ab493a4ec725454 debug crashes on arm64
-eee9645e1bf5f060c24ab0f52b2fc55a3ff68ec6 mm, pmem, xfs: Introduce MF_MEM_PRE_REMOVE for unbind
-af7d6ba3a20b9a882097446732bb0300867e9989 xfs: make xchk_iget safer in the presence of corrupt inode btrees
-
---===============6392460745025146810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-836b961b7555-e74829c44dad.txt
-
-9488062805943c2d63350d3ef9e4dc093799789a xfs: bump max fsgeom struct version
-ece36614635e94514b7bececc2ab48244e23b103 xfs: hoist freeing of rt data fork extent mappings
-4ba92ac8dc9dd4c0b4e3eeb08e2410d8037f6aaf xfs: prevent rt growfs when quota is enabled
-9a734336838f12389209a139e6b2b7e02f8a21eb xfs: rt stubs should return negative errnos when rt disabled
-d26648cb54e87c7363be7aaaa373c2a17a46526a xfs: fix units conversion error in xfs_bmap_del_extent_delay
-a88ef3ba7a8a5761f086f43b5c06df329e596b14 xfs: make sure maxlen is still congruent with prod when rounding down
-1182165f0f3b0966b2d6c39c6813fcfef2c5d251 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
-8662615a601dca17c291d29f2e14a8a2c489e1d8 xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
-a0737b0549a17d357dfe695b8109760e809d5ccc xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
-ba1b6ac33db963222e77472a4c4cacac6d69ef4e xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
-71a1dca11260398b8869cb7672b83172ddb61045 xfs: rename xfs_verify_rtext to xfs_verify_rtbext
-99930eab153685d86a56972c31c306860a884c7c xfs: convert rt extent numbers to xfs_rtxnum_t
-cc029cf533c11bfd680f13a2531054a823410b54 xfs: create a helper to convert rtextents to rtblocks
-f75888553e9dc63214c6eb4919246dcf3c6a5304 xfs: create a helper to compute leftovers of realtime extents
-8daeaf538e3c94a569dab79636bd898ef7078504 xfs: create a helper to convert extlen to rtextlen
-30aa19b1618b50e7f473e1c92b076439e849724f xfs: create helpers to convert rt block numbers to rt extent numbers
-dd4daee59437af942d17ec61aa2367b32a1b5e39 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-8867ed6e958516e797840039176ab25beda7c883 xfs: create rt extent rounding helpers for realtime extent blocks
-ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b xfs: use shifting and masking when converting rt extents, if possible
-3842937a31d62a8b239ea5cc2ffe361b945af18a xfs: convert the rtbitmap block and bit macros to static inline functions
-183ce8a769ddaa136234138b0c04b7ee52153f18 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
-ace30eaa97006198d9ad17f361a8f15c44c2cebe xfs: convert open-coded xfs_rtword_t pointer accesses to helper
-3bd867d5e0c39e7513a4c34239b44a01777c523b xfs: convert rt summary macros to helpers
-d7e03b4320490ada7233deec8213ae7b65706474 xfs: create helpers for rtbitmap block/wordcount computations
-d4f9a090940988bd61216f76445c3b6010c4c92b xfs: use accessor functions for bitmap words
-1cc2220fd1cad6958fad03f33b19a1bb3980f112 xfs: create helpers for rtsummary block/wordcount computations
-749227b7bb8780a440df17d59f26c7547c169f2e xfs: use accessor functions for summary info words
-29a42a480c7038076ef55a14fd961c77c2244cc6 xfs: consolidate realtime allocation arguments
-a614583de6260b07d87289baa40b588d8afd1401 xfs: cache last bitmap block in realtime allocator
-e8d82e4621e8dc25ba4f168021165954734b537c xfs: invert the realtime summary cache
-e6a56aa430010a49c9a6def9c7bd7d2304ff4f60 xfs: return maximum free size from xfs_rtany_summary()
-7dd2f1888cd452011843ed0068ad8fbdf31dcbe4 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
-8afe0f67a452cbb89d9cf6bbd06070facba5135e xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
-160fc7cbdcf9caec9ab7f5dad021642135feb3e7 xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
-494c378c925181c1b22c21a792e1fc9575882c56 builddeb: rework packaging for MTR
-f15a2533f435024cea775f93551afcd3fd613b3f builddeb: extract debug information in parallel
-5c638779c3a39ba6eab58f3a5018b8f2cc264ec7 builddeb: decompress modules before splitting off debug info
-2bad295a17beb413d5b75f04e2b7ddcc7d0ad809 efi: sign kernels for secureboot
-b77589dc5b8cd36f14e77d56cd0c04e5ecb9351f mtr: Build script adjustments
-40b10e2a290a142d8d05c140f35c30e8ff175dbc add machine name to kconfig
-dedf04dc5a0626f1ef72668c4c945428059cea78 kconfig: allow setting default cpu mitigations
-d7b2ce0fa6a502aa917a776dba798678b521dc57 workqueue: omit "kworker/" from comm
-7635e23ea313d8fec79175a130ab230d99fe7238 vsprintf: disable pointer hashing
-00437e8f1407e388bbc492c53a8e144d8a776655 arm64: stupid hack to shut up OCI
-bd8eb035159b8ae579d0e2d8af0b4fdae55f1531 loop: use directio to the underlying fs when possible
-2830fa8346bab79b21619696ad5571ff6c8b2c72 fs: enable gcov for subsystems we develop
-5ae98786123bf094d32671f561362d74160288a5 fs: turn on more warnings for the filesystem code we modify most
-29622be06c6eb87f8d06c22b5ff16f4742d4ba49 STOP HERE
-5e7b796daff9f079c25c675eb08a6114bf599c2e overlayfs: maybe fix weird crash?
-7d58d2e3f602cbbad29ab30e1ab493a4ec725454 debug crashes on arm64
-eee9645e1bf5f060c24ab0f52b2fc55a3ff68ec6 mm, pmem, xfs: Introduce MF_MEM_PRE_REMOVE for unbind
-
---===============6392460745025146810==--
+--===============2057592391850886079==--
