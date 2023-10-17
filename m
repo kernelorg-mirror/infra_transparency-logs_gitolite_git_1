@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Oct 2023 17:50:28 -0000
-Message-Id: <169756502809.6771.5998331901735488496@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1689262741917829082=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Tue, 17 Oct 2023 17:57:13 -0000
+Message-Id: <169756543340.10677.846124806288984001@gitolite.kernel.org>
+
+--===============1689262741917829082==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 84ab57184ff49ca6db685718901775dd2604112e
-    new: ca61b7372cdacb55519d681e1cd957ce5cd49e29
+    old: d6bb2082187edff22e4d146a5e174e00b92f78ac
+    new: 6b2c89700cabd7ff9b180beb7c81d75778eafafa
     log: |
-         28860182b7d88e5be76f332c34377288ad08e87a x86/retpoline: Make sure there are no unconverted return thunks due to KCSAN
-         ca61b7372cdacb55519d681e1cd957ce5cd49e29 Merge x86/bugs into tip/master
+         6b2c89700cabd7ff9b180beb7c81d75778eafafa pgpkeys: use full keyid to trust Linus' key
          
+
+--===============1689262741917829082==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1697565432 -0400
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1697565432-3fc498a2a64b02302d3369a347a757a095884e10
+
+d6bb2082187edff22e4d146a5e174e00b92f78ac 6b2c89700cabd7ff9b180beb7c81d75778eafafa refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZS7K+AAKCRC2xBzjVmSZ
+bBj4AQCIeR4GLgdDdCdtQbKeskuYK1o79fI0X566sxEfofnAVwD+KAhuHxspMyzv
+tCH8KM+ObGq0105kb+5aJTJP1i4xyQs=
+=msEI
+-----END PGP SIGNATURE-----
+
+--===============1689262741917829082==--
