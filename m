@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1301732789348987572=="
+Content-Type: multipart/mixed; boundary="===============1869120598044356577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 Oct 2023 18:18:08 -0000
-Message-Id: <169756668805.26015.5426164730526991215@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 18:18:35 -0000
+Message-Id: <169756671505.26249.6727672410929778702@gitolite.kernel.org>
 
---===============1301732789348987572==
+--===============1869120598044356577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e411a8e3bb2d12a59d5fb3590863cb6a16f27b7a
-    new: 7713ec844756a9883ba9a91381369256275de4fb
-    log: revlist-e411a8e3bb2d-7713ec844756.txt
+  - ref: refs/heads/dev-queue
+    old: 4c098ca691113a8af7d201b0786386e0746d8d24
+    new: bc23b69a3656427a39edbe446442ecf0ca179070
+    log: revlist-4c098ca69111-bc23b69a3656.txt
 
---===============1301732789348987572==
+--===============1869120598044356577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e411a8e3bb2d-7713ec844756.txt
+Content-Disposition: attachment; filename=revlist-4c098ca69111-bc23b69a3656.txt
 
 577c06af8188d1f6919ef7b62fc1b78fb1b86eb7 bpf: Disable zero-extension for BPF_MEMSX
 6cb66eca36f3c6b37447ca79c6d7fc6db339c23e selftests/bpf: Unmount the cgroup2 work directory
@@ -136,5 +136,59 @@ c8755b29b58ec65be17bcb8c40763d2dcb1f1db5 mctp i3c: MCTP I3C driver
 53c6b86cd084c777175b66012d33b519c81d7b0b Merge branch 'i3c-mctp-net-driver'
 df3bf90fef281c630ef06a3d03efb9fe56c8a0fb net: openvswitch: Use struct_size()
 7713ec844756a9883ba9a91381369256275de4fb net: openvswitch: Annotate struct mask_array with __counted_by
+b7186ebffad466b92be7d13f5cf79197dffe5c49 KVM: SVM: Fix build error when using -Werror=unused-but-set-variable
+7ada5b63573f92e16a54dae335a7ccb12cae85c9 i40e: fix livelocks in i40e_reset_subtask()
+f9045f74ca89d8fb34b5f07b4dd7e5e1efb36ec9 i40e: fix 32bit FW gtime wrapping issue
+3163231d6cd0c33e558afaad0a4f37961e5bf0ec i40e: add tracepoints for nvmupdate troubleshooting
+686cc440c385a9cd169b13d748ae88078edf6f5f ice: remove unused ice_flow_entry fields
+400cf33ebd5cc82a8d990d4e303a3187c874d779 ice: remove FW logging code
+6ca645ed1deb8c214dbef87e2f7152736a0f87f9 ice: configure FW logging
+3ab5fc3e9f398365983b335d69cd0812ac5922c0 ice: enable FW logging
+f767c65f27769c8f7d981942867a9945717b8695 ice: add ability to read FW log data and configure the number of log buffers
+b2bc9b3605264cbcc2dd606a01f816dcb88a9a82 ice: add documentation for FW logging
+f764e1afcc0ae6603b8293dd119cd34aef571419 ice: add drop rule matching on not active lport
+1c077311ee920da6d088bb263d91b7038235db7e ice: store VF's pci_dev ptr in ice_vf
+247fae103502ab21848c5092529dfbb9c8bfbb2f ice: make ice_get_pf_c827_idx static
+cb4ae134c62284815c6f26a34c1fa3a04fa3e4d2 ice: cleanup ice_find_netlist_node
+2dec560fa3480083efb242827e9f52db21434da4 igc: Simplify setting flags in the TX data descriptor
+c454964c6059751164d6bea44d34c363f764f0bc igc: Add support for PTP .getcyclesx64()
+b116945175daee14b98b85c2795c57dabb807f56 idpf: set scheduling mode for completion queue
+0dcc8e72ffbe61e8c14a4332f97f9d76cb27e40c ice: implement num_msix field per VF
+7394a59a4b3654443d34db2d7c8723c6d95144da ice: add bitmap to track VF MSI-X usage
+dfdcc457b87079baf93f27747d52d8d41e9b507f ice: set MSI-X vector count on VF
+fa023c0ce67175ac36088da132f40362e452b848 ice: manage VFs MSI-X using resource tracking
+4ff19d183d7b90077a28165b4cb53a0db526b018 ice: fix over-shifted variable
+4dc96fa58765468b20f037c84905856b9ce87850 igc: Fix ambiguity in the ethtool advertising
+89fd09d706e3329c8a2bf2ade27fdabd090bfb89 ice: Fix safe mode when DDP is missing
+a343ed95796c870b86cee10a032c0d49dd6bb7ee igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+02c3be6293e8b42274c69a683157a577839b3ef5 ice: reset first in crash dump kernels
+23014e03e5539845088d7b612b38f49bc0f7e496 intel: fix string truncation warnings
+d69976306a1c7f277f00f82206340ea776df73db intel: fix format warnings
+d11ecd850244e58e6910133a93ceab651b78eb1a i40e: sync next_to_clean and next_to_process for programming status desc
+7d23ad0c0af710ababc3eb758b8eb554e5dc3e22 i40e: prevent crash on probe if hw registers have invalid values
+0d5eadedda44012b462146caa71077d7ce84f8e8 idpf: cancel mailbox work in error path
+1c58cc31676fb8ce0f6a3b1475b53bba615d58ef igb: Fix an end of loop test
+f261ccc9af964d9c6113a21669cb7888fd3a5069 ixgbe: fix end of loop test in ixgbe_set_vf_macvlan()
+08397ca2e14e954c424d50106530e31bba9a2417 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+ec7fdfc6bbed80fd44bd21ddfb38fa3e17e8ea3a ice: Support 5 layer topology
+a4dfad1b54fcf66fb2b2f3eb51d563d723aa57d3 ice: Adjust the VSI/Aggregator layers
+c91a44bee999c2f1957816c0a172fa7303899520 ice: Enable switching default Tx scheduler topology
+7e4e6bd4401051dfd55b6e9b800138c587df30cf ice: Add tx_scheduling_layers devlink param
+8c33fcc003e04ba62c70f8933bfa2c1dd44c882e ice: Document tx_scheduling_layers parameter
+98ae96a64a47961bd4d55e9ceb29d3a2cb75f141 i40e: Change user notification of non-SFP module in i40e_get_module_info()
+5fa65f2ecfece8d9a63ff303ac47eb989142828d iavf: fix comments about old bit locks
+cbe4874e8637cda2c4ff0f4f58837e01d69a701f iavf: simplify mutex_trylock+sleep loops
+5b92f811c4da74cd5d588d6ecf8a41ad0376e619 iavf: in iavf_down, don't queue watchdog_task if comms failed
+d03ebf1243f6d056111ed1d965fad6af6183a972 iavf: in iavf_down, disable queues when removing the driver
+00dafd612eabbe8549820453513b48482065ec42 iavf: fix the waiting time for initial reset
+041e4ce54622ece2227ef14011ed2fb779430fa9 ice: Fix SRIOV LAG disable on non-compliant aggreagate
+46c4ff4c46fd70d86b4b7b18e298c751ea4fd724 e100: replace deprecated strncpy with strscpy
+a61ee40058e01bb757d85c9da6570a6a6997737c e1000: replace deprecated strncpy with strscpy
+b7a1726cb0105d4ec662e632bab6441e7fbb6c3f fm10k: replace deprecated strncpy with strscpy
+d015032bce97cbab562f0859ce64c3c7d982a717 i40e: use scnprintf over strncpy+strncat
+50d618a5103ad9b9d9de949306a4a161b7f84e71 igb: replace deprecated strncpy with strscpy
+5dce1c6018df84135335f93b296f95ce2bc8d56d igbvf: replace deprecated strncpy with strscpy
+a55f4cfb6ff3dd39e47684708376a9e6e22af9ed igc: replace deprecated strncpy with strscpy
+bc23b69a3656427a39edbe446442ecf0ca179070 ice: Re-enable timestamping correctly after reset
 
---===============1301732789348987572==--
+--===============1869120598044356577==--
