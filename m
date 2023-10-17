@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4098982835856023740=="
+Content-Type: multipart/mixed; boundary="===============7691190062910766647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 17 Oct 2023 23:40:04 -0000
-Message-Id: <169758600487.1995.8476423403015241835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 17 Oct 2023 23:40:16 -0000
+Message-Id: <169758601625.2156.2325840708155818679@gitolite.kernel.org>
 
---===============4098982835856023740==
+--===============7691190062910766647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 70227e1574e47a759422beec78675f1c19e56e25
-    new: 9a4bf1f0be01582806e85322d18bf5c9f21d0b40
+  - ref: refs/heads/for-6.7
+    old: 1096f9fa2be18a1340d1299b4c4329af211076e7
+    new: 8f7e17d847edf6bc02d0813b123b9d78ba504098
     log: |
-         9a4bf1f0be01582806e85322d18bf5c9f21d0b40 ASoC: tas2781: make const read-only array magic_number static
+         a8b4962fbd004d7d4fcbf01ce7dc27fcef406199 regulator: Drop unnecessary of_match_device() calls
+         46537a8676d6555141c4b98ec1bf5f3eea971128 regulator: da9121: Use i2c_get_match_data()
+         8f7e17d847edf6bc02d0813b123b9d78ba504098 regulator: Use device_get_match_data()
          
 
---===============4098982835856023740==
+--===============7691190062910766647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1697586003 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1697586002-bd0f59ebe4258699ade6f61e9803c6780ae00c69
+pusher C3F436CA30F5D8EB 1697586014 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1697586014-168471afd9e5cecbaf861828be2db572e49ceaab
 
-70227e1574e47a759422beec78675f1c19e56e25 9a4bf1f0be01582806e85322d18bf5c9f21d0b40 refs/heads/asoc-6.7
+1096f9fa2be18a1340d1299b4c4329af211076e7 8f7e17d847edf6bc02d0813b123b9d78ba504098 refs/heads/for-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUvG1MACgkQJNaLcl1U
-h9DWPQf+LrsGyaSoCIrE6Jrck6B4JBlgaeBsYqViWXxK2a+Fl3vydWok7NrAZ/Ao
-pxaYiAWjFHkirL423CZaZ+F8FODbQhjONMdn8uAtp+W5KOl9oE+hVlgK/IvDqe9b
-JAjFoJyKJd51mPiU+8+m/ps736zLdsmwCpZohQ/I+a3c40wG9736R6SRRi8z6Kti
-anSMbnZwG/K5JXF/ODJOewm//N2EHd546sGH49RVGGx3bERl2UnQ/uoCnVqVnbvd
-N0DfLE1PJ3KHSoLzR+ix7z1wELUhJyFt5o9c29buhj8alWE3pP08nAGLoPWtBdBh
-OWRg67II6CfrOEK31NzlHt2C/4SstA==
-=nYHu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUvG14ACgkQJNaLcl1U
+h9Byzgf/XpvtSEHwMquNHkJZqVv38sDqk87DOMbl7GR/ya0uQhRkhlUP5HudplRi
+EoovhTJUUfTsz/plvFahEu4y3eqJfT8A3RjewwiRtpNwivCposzpurQt4S9pgx93
+9YmlglKUYJYpBsT4him3y6TjhdEsjtgpoFDBZMGFTlTFHWcyhO/Ck4vSRY9oE/wE
+JJk7sCprzbM7XfFgbTL3Sq2QmGVIR9E8NUfu3nEeD6wsl+PIzG+IOR53yw/ayiCv
+TpDv+pXvBa6i3dYbgCWfyFjOt0tMq8cDncImMzxzQ6mNrlpG6qjvoGdURcm++wbG
+Ru/ne9rMNv5R5eNNx2UGMOEDR3R65A==
+=viAF
 -----END PGP SIGNATURE-----
 
---===============4098982835856023740==--
+--===============7691190062910766647==--
