@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3588218590940155235=="
+Content-Type: multipart/mixed; boundary="===============1086678257697691984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 17 Oct 2023 01:23:11 -0000
-Message-Id: <169750579153.12168.17081416889792539259@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 01:26:54 -0000
+Message-Id: <169750601423.15091.6609399195949226275@gitolite.kernel.org>
 
---===============3588218590940155235==
+--===============1086678257697691984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: mhiramat
 changes:
-  - ref: refs/heads/probes/fixes
-    old: de02f2ac5d8cfb311f44f2bf144cc20002f1fbbd
+  - ref: refs/heads/probes/core
+    old: a2439a4c90856b83657aec4600c19551aa9501ff
     new: 700b2b439766e8aab8a7174991198497345bd411
-    log: revlist-de02f2ac5d8c-700b2b439766.txt
+    log: revlist-a2439a4c9085-700b2b439766.txt
 
---===============3588218590940155235==
+--===============1086678257697691984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de02f2ac5d8c-700b2b439766.txt
+Content-Disposition: attachment; filename=revlist-a2439a4c9085-700b2b439766.txt
 
 33b725ce7b9887569749fbbcdafc4ab089a09741 perf trace: Avoid compile error wrt redefining bool
 d1bac78e26e513ce2cf1b47fcc667b33f51c6a36 perf jevents metric: Fix type of strcmp_cpuid_str
@@ -1051,4 +1051,4 @@ fbe1bf1e5ff1e3b298420d7a8434983ef8d72bd1 Revert "x86/smp: Put CPUs into INIT on 
 2a86ac30a6687e47436e547deadae3bf0fc28697 Documentation: probes: Add a new ret_ip callback parameter
 700b2b439766e8aab8a7174991198497345bd411 fprobe: Fix to ensure the number of active retprobes is not zero
 
---===============3588218590940155235==--
+--===============1086678257697691984==--
