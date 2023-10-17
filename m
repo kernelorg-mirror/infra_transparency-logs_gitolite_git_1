@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6180643167914871420=="
+Content-Type: multipart/mixed; boundary="===============2352282994654928523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 17 Oct 2023 12:49:52 -0000
-Message-Id: <169754699260.8206.7801243925949718145@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 12:51:46 -0000
+Message-Id: <169754710658.10542.15957546410301841015@gitolite.kernel.org>
 
---===============6180643167914871420==
+--===============2352282994654928523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 2d1c882d4434a27a026b98b602f232c7919849c5
-    new: 95535e37e8959f50e7aee365a5bdc9e5ed720443
-    log: revlist-2d1c882d4434-95535e37e895.txt
+  - ref: refs/heads/testing
+    old: 193559b6398f2923236ac9394cd392c1071d7dad
+    new: 4ebaa6918b9780b786081e6b65227e11ea676ffa
+    log: revlist-193559b6398f-4ebaa6918b97.txt
 
---===============6180643167914871420==
+--===============2352282994654928523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d1c882d4434-95535e37e895.txt
+Content-Disposition: attachment; filename=revlist-193559b6398f-4ebaa6918b97.txt
 
 92d4abd66f7080075793970fc8f241239e58a9e7 Bluetooth: vhci: Fix race when opening vhci device
 acab8ff29a2a226409cfe04e6d2e0896928c1b3a Bluetooth: ISO: Fix invalid context error
@@ -50,5 +50,8 @@ af846afad5ca1c1a24d320adf9e48255e97db84e selftests: openvswitch: Catch cases whe
 7937609cd387246aed994e81aa4fa951358fba41 nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
 2b10740ce74abaea31c2cad4ff8e180549c4544b Merge tag 'for-net-2023-10-13' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 95535e37e8959f50e7aee365a5bdc9e5ed720443 gve: Do not fully free QPL pages on prefill errors
+9a38437e6919934083ab6d289227db2f8aa0212a netfilter: nf_tables: audit log object reset once per table
+fdcfedf750552f77704b397ad420007601fab718 selftests: netfilter: Run nft_audit.sh in its own netns
+4ebaa6918b9780b786081e6b65227e11ea676ffa netfilter: nft_set_rbtree: .deactivate fails if element has expired
 
---===============6180643167914871420==--
+--===============2352282994654928523==--
