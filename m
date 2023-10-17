@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7623642224184547695=="
+Content-Type: multipart/mixed; boundary="===============4710866970260979600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 17 Oct 2023 01:12:21 -0000
-Message-Id: <169750514138.3196.8157410570447629978@gitolite.kernel.org>
+Date: Tue, 17 Oct 2023 01:12:25 -0000
+Message-Id: <169750514578.3429.12124889370472458723@gitolite.kernel.org>
 
---===============7623642224184547695==
+--===============4710866970260979600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 68ff71bacbeeb966abc5327e772ee49f3f0b20f0
-    new: 8b6f279a2cc813a7fd54779d0e1e142a8d37c02f
-    log: revlist-68ff71bacbee-8b6f279a2cc8.txt
+  - ref: refs/heads/6.7/scsi-queue
+    old: b6f2e063017b92491976a40c32a0e4b3c13e7d2f
+    new: af46076d6640a5404ed65e1160df810fed54e7ac
+    log: revlist-b6f2e063017b-af46076d6640.txt
 
---===============7623642224184547695==
+--===============4710866970260979600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1697505130 -0400
+pusher 75C5DE3D 1697505144 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1697505130-97c34f7ed3b2e3d39311505b75e6a1dd8a6a20de
+nonce 1697505144-aea146c13bc514aa05bb27fe87c2d268a1cb6663
 
-68ff71bacbeeb966abc5327e772ee49f3f0b20f0 8b6f279a2cc813a7fd54779d0e1e142a8d37c02f refs/tags/mkp-scsi-queue
+b6f2e063017b92491976a40c32a0e4b3c13e7d2f af46076d6640a5404ed65e1160df810fed54e7ac refs/heads/6.7/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUt32oACgkQ7ulgGnXF
-3j2S3Q//R5iK7UYQuo1YFGhfD5IeyiHPFhiB1d1z4t2Pelr0TdxEyTKPEiiRQw4Z
-HwKcGsBeq8b82T2mhQrQrrQW3xldaW2B5n/aIrZAYOu2DSIF9Pc0PUlggfEqBaJK
-Y8zDXdIScVcfOmVUKYJuR8i7RFDm0yDpDDl0jcw7AfljLUaYY6lnNmZUqdxU/TMP
-Ag8rx/8KmwshURGi7eBWmuF2G2+KOOZ++NCnXASzAK9h1QHUPKc6idNWxxB3phuW
-4ugjRBhmE4PqzFmZZvUagg/lyCkkggyMPMwOjp7HQoYwYha5vo7ULjjB3ovJJDcC
-E6zpLizjzd9rLXeZXMuWsby/JLb08Bat/bgkWyrEO1m4fXgZU1FxmjlP/dMs8Y6X
-DhORpdGNxf2oJLW5FXA/8nI0SA3k+Ycj8QYfuvZNeUQrwdLWV9zjL5nTwGmKe54E
-XmJfx8LIsLeBTSMKPDsLgnhJqfpLK7WeGSjhf6+TtoAegwFovlTdno8HZIh7tg7r
-Abx3Dlv5bcxOIKlhCFNvNK6tZTuGT7lZ+wIbatIlRUKd8aOULKSi093xy9VLTupr
-8/NWiXmYgqzodY+MyndkwwsoNJkczaMwdYz/0l+Z1JTmdphfzXKquklvhdbw55RZ
-QT2IR/QK3Re3vjLLBUjMIMe/oR8q5FtTkmMHnhm72q3Srik++WE=
-=Vy0V
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmUt33gACgkQ7ulgGnXF
+3j0TLxAAjNrGJEEYtG30IgXTsBhKGRSjzD0cpRLuNIBQ2aifRTUPRa2BCch88ivW
+CtTAfj/TrfskEvnmwP1+iwer9AtgRSBpstxcY4JbuOvKaLINrWLUAlE2Awn3oncb
+WChp11qqNKHDOdfQfHhYffguGFiUKuagXrnakJi0z2Xpgpk4hcePJlF0q9FYr/qf
+Yof9M79XsXiUugqCX4Ocu+Mrbt3XS4nOO++9Rs4R5A8EsqW7gCpphzR1AaCwjlyq
+ZOPdF00VDLwinykydstw21TELHyI5u3WWwJh4dOMQOuVetg6vNTBZtgoBWhFrA1M
+8Ufs9T5r5/nrOnFQhlQzX/qsnst1FiffNX0yiRELNazUzp3q1rG0r0IaajoCdumj
+OPxtkJ6Q7iDwdnMQxSfMFVyTzIz/NsgV+9Ye5MVz6CEpSq5u3z58Ki4ObFAeYsNT
+tPQgso2FTjaw9VXuAudOcLnz/lHgLSm2WIta4jLciGpdwiCaRIV56/nsXS+dfrvX
+u+SvhQPksLr0LZ4G9Y8mbKkfOrJi/UCvAvx+vSo1mVlJhCYC+urijnCE0p31ZYjD
+jBpQUgimsSwJYNcFzVz+6CRhpKyGhETnrJHe/46PsN2LESJ6fdNYQ5is3HGMLQh5
+x6df0cs6O45lo3UjH3Bmg1d9Cs9T8ZM6+E2udVcHUJw24TIXIF8=
+=Ywsx
 -----END PGP SIGNATURE-----
 
---===============7623642224184547695==
+--===============4710866970260979600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68ff71bacbee-8b6f279a2cc8.txt
+Content-Disposition: attachment; filename=revlist-b6f2e063017b-af46076d6640.txt
 
 1d969731b87f122108c50a64acfdbaa63486296e scsi: ufs: core: Only suspend clock scaling if scaling down
 6fd53da45bbc834b9cfdf707d2f7ebe666667943 scsi: ufs: core: Fix abnormal scale up after last cmd finish
@@ -115,4 +115,4 @@ a3c3c0a806f1bb7d89f139d8225092faad0cf04a scsi: lpfc: Validate ELS LS_ACC complet
 8a9a690b5ad50aba9456f4853dca18ff4974cb55 scsi: lpfc: Update lpfc version to 14.2.0.15
 af46076d6640a5404ed65e1160df810fed54e7ac Merge patch series "lpfc: Update lpfc to revision 14.2.0.15"
 
---===============7623642224184547695==--
+--===============4710866970260979600==--
