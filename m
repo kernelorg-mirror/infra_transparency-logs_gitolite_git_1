@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0592538127382521130=="
+Content-Type: multipart/mixed; boundary="===============8448951040145007730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 17 Oct 2023 13:44:16 -0000
-Message-Id: <169755025635.17035.9860977853239504054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 17 Oct 2023 13:44:34 -0000
+Message-Id: <169755027479.17223.7107243659741459875@gitolite.kernel.org>
 
---===============0592538127382521130==
+--===============8448951040145007730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 3e721e8c7b54217ab9849f431d5569f3e7145633
-    new: 5fe030e38974d6f8e078c23a503fd6ce23412667
+  - ref: refs/heads/usb-next
+    old: d0d27ef87e1ca974ed93ed4f7d3c123cbd392ba6
+    new: 5220d8b04a840fa09434072c866d032b163419e3
     log: |
-         97fe6d0ae79b98e0445a27fca9a1436490c3fea6 staging: wlan-ng: use netdev_dbg over pr_debug
-         5fe030e38974d6f8e078c23a503fd6ce23412667 staging: wlan-ng: remove function prism2sta_ev_txexc
+         17d6b82d2d6d467149874b883cdba844844b996d usb/usbip: fix wrong data added to platform device
+         59de2a56d127890cc610f3896d5fc31887c54ac2 usb: typec: Link enumerated USB devices with Type-C partner
+         11110783f5ea866318831a56353c6f1c3fc0d8ed usb: Inform the USB Type-C class about enumerated devices
+         5220d8b04a840fa09434072c866d032b163419e3 dt-bindings: usb: gpio-sbu-mux: Make 'mode-switch' not required
          
 
---===============0592538127382521130==
+--===============8448951040145007730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697550251 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1697550248-8ccb0cecb37ebed4c71f5913b871a70b44532c61
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697550274 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1697550271-a433ad28cf9a643eee56a9438f6836ec9d094dca
 
-3e721e8c7b54217ab9849f431d5569f3e7145633 5fe030e38974d6f8e078c23a503fd6ce23412667 refs/heads/staging-testing
+d0d27ef87e1ca974ed93ed4f7d3c123cbd392ba6 5220d8b04a840fa09434072c866d032b163419e3 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUuj6sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BPoP/R3SNYn3LBXgbU12EVZ/
-nAl2rs7ETVriw3GbQ+uELLYlapQn54DkKj0gwhJBJMz9JpZ6EgdaU7ijXQOytn/u
-tfxiaLHvBKuBfMOEUijjO/YQ8IXqwyQdKvgoqr7KGAHpGIzps+Q2I3r5UbfHHvBM
-Llqjd9RjzQLCVdhaQ6LdsZQcVYhNjYuiLhOxfpMfXXO5sSyb4kRPdVFQo5Q+8m4j
-V3+gVTuuE68N5JkN+I+pWMe/JQ88Z0sJCgRbNs4WxLdvcrsWDVcafXQ4JMyhTZ/0
-EyZgMU42O8bmpYtKPOOlinwSbaphnLeBnp/mgCyeR49nRUuKejC436YvjnOAtts3
-hZ58TJKkgHVYV/uRzxVS84ZWykSC798p2k1Si+EtxmPxj14QzMZT1WyULZ5Cialq
-gEtR8Xfi4WnFROR/GgiFNp8XnDlTajyHqFHUR/6zymeZAmvlhM6oaDMtA14nw4KU
-5OXBowsFzLV6PXESE5z+mxCPvh3K1bYV0R91NmcPFr5HSV1PAbfAZSn2K/BbcOfv
-+HKaNRHomYiRxKitEURwLhwzf6PioiHlx+L9Gzr3+hR8Np1+qFVgAr1tvHxi6UNN
-/PntzAtN3iuZP5syse/XoN1bvsB5ECxj8u2U7irjZX7oIo7DRA7cpd4z21kFm8tq
-yHJ2JbN59P/EnGigqvMdyln9
-=kvEP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUuj8IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VZgP/3VB5E4uOS9E83urI4xE
+VGYqfT26Y3dbW4wsQUH33yGi6AMzXku4pu44ip9mHLVo7nTl+JVcB3QEG3ryvkEa
+1c1sCJzEXt4RBpUDUJZhG2YC8mTXQ1ynkv8NFtwXwZr2mwkgQmFcNmVl0qXuB+9v
+1zqTxl8K6Q8/hZAC2IzwXSj/4SM8pjWNYuMCzZkvBuvxsgJ71knAZn96CPEujlMe
+T2uUD/5Wj/2pAalgDDP+F6hvt9kLS7jIO8BbZfKTp0HRqeJNfRhBsgDU7fBXIy7n
+XEn+CecPQnNkB86wh03PMCNK11mWw4huyV5ysD6GUnsLQwtQON0bae0SaAp42z5U
+GRY7pCJQEeuV3AUH2V9pd/gciFwBZieaaYtck5Mh1ivhW7jdqA5PmuPwznLoHh7w
+gE4dZhw1HHd9GBHzCUmbBKygktpuc4d6YwJaSDU4zZCUQ28WzXu2tYe0mwUd13un
+B538hOKkODzRc56czuEoaN5LsfwPyl2WzmGOIAdr8aizFAEyZhTTCQ5Jo+G3iKih
+I4QJVLpM33qIb6VdU66iZ7czrfPTUKaniEY9X8fFYKW3bsFOqju3yLhxEppXkdhI
+nEj7dybLgWk/5OmnfBH7S2hHTHjMyodMFhBDUQEiHeJgKLW1otjWToyCodWxEVBZ
+05Tc/EFPM5yup3Zx7NnG2AA3
+=KXBv
 -----END PGP SIGNATURE-----
 
---===============0592538127382521130==--
+--===============8448951040145007730==--
