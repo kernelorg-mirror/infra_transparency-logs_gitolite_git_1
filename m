@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 17 Oct 2023 15:21:10 -0000
-Message-Id: <169755607077.24035.12169065951638397363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 17 Oct 2023 15:24:41 -0000
+Message-Id: <169755628160.25375.9729088980274175856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: fe9751d4d8deb8d1213f02a46579c7af8ebbed0f
-    new: d0c10251794e86e873a044e511df101b5c04f993
+    old: 181f9ac8722e7da6fee2f021503468c874339486
+    new: eb139e23abf35ec8bf922fc640aa1292826225a3
     log: |
-         d0c10251794e86e873a044e511df101b5c04f993 dpp: rename auth_addr to peer_addr
+         eb139e23abf35ec8bf922fc640aa1292826225a3 genl: fix ‘attr_grp.next_len’ may be used uninitialized
          
