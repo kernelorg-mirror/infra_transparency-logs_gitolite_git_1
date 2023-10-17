@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vishal/linux
-Date: Tue, 17 Oct 2023 05:25:48 -0000
-Message-Id: <169752034888.29073.12578635679095566394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 17 Oct 2023 05:41:43 -0000
+Message-Id: <169752130365.8494.312879224320280328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vishal/linux
-user: vishal
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/vv/kmem_memmap
-    old: 1c0a7451037b7fc9432a76eb31d5d36cdceec327
-    new: f5df6ac59f4892cfe6652e6ea6ed4a215c876167
+  - ref: refs/heads/opp/linux-next
+    old: e15c3e1b76656a851a9c4c19db6afae62ea6d6cb
+    new: 5ea4911359a534ffe95e7158b4d1c7ccb2f73b17
     log: |
-         2758e014b9a6b0df5b5061361023a649163786a2 mm: use memmap_on_memory semantics for dax/kmem
-         50e3f24f523ec423b4342dcef6f87ebcb6cc86cf mm/memory_hotplug: replace an open-coded kmemdup() in add_memory_resource()
-         9ee1af799da9d50227164305de8427a973e6c9dc mm/memory_hotplug: split memmap_on_memory requests across memblocks
-         f5df6ac59f4892cfe6652e6ea6ed4a215c876167 dax/kmem: allow kmem to add memory with memmap_on_memory
+         c2bebf98045f05b3ff596e060c8777b5356e4826 OPP: Reorder code in _opp_set_required_opps_genpd()
+         48b5aaec596d9a2a22c97a1e2aa56103e0c72d38 OPP: Remove genpd_virt_dev_lock
+         5ea4911359a534ffe95e7158b4d1c7ccb2f73b17 OPP: No need to defer probe from _opp_attach_genpd()
          
