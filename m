@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5446840097421299550=="
+Content-Type: multipart/mixed; boundary="===============1245956264984019919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 18 Oct 2023 17:52:51 -0000
-Message-Id: <169765157191.32065.810927310627314644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 18 Oct 2023 17:53:01 -0000
+Message-Id: <169765158155.32206.751977728874795871@gitolite.kernel.org>
 
---===============5446840097421299550==
+--===============1245956264984019919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 333006c735ad099dbbea06c5c5640f6e532c88cf
 
---===============5446840097421299550==
+--===============1245956264984019919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -340,4 +340,4 @@ e8e4a470b677511f9d1ad4f3cef32adc1d9a60ca fbdev: core: syscopyarea: fix sloppy ty
 e1e80380f1c25aec736ce1a2e46fac9f9631b71a Merge tag 'regmap-fix-v6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 dd72f9c7e512da377074d47d990564959b772643 Merge tag 'spi-fix-v6-6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============5446840097421299550==--
+--===============1245956264984019919==--
