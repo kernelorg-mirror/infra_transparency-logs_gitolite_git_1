@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-Date: Wed, 18 Oct 2023 20:18:41 -0000
-Message-Id: <169766032115.22875.36731044149883614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 18 Oct 2023 20:23:19 -0000
+Message-Id: <169766059927.26173.1557171907728219984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-user: jarkko
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/keystone-5.19.y
-    old: 9ce8610bc5f741a6019b148ead55211ead01b011
-    new: f78dd1479eb3bbe77b8c6ea67f978edec69e532c
+  - ref: refs/heads/master
+    old: 4706a126c33030a07c785921630244e044fbce86
+    new: 8a589c6d138e0f9d63d3adc49b8f80fe059d8274
     log: |
-         f78dd1479eb3bbe77b8c6ea67f978edec69e532c arch/riscv: Keystone
+         8a589c6d138e0f9d63d3adc49b8f80fe059d8274 Bluetooth: hci_sync: Fix Opcode prints in bt_dev_dbg/err
          
