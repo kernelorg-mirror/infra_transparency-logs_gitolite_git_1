@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 Oct 2023 00:50:42 -0000
-Message-Id: <169759024254.20245.783108297004515246@gitolite.kernel.org>
+Date: Wed, 18 Oct 2023 00:54:53 -0000
+Message-Id: <169759049360.21788.4664172638302856465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 56a7bb12c78ffa1b02e154b1d779ed2a1555fa3c
-    new: 99e79b677b9a4542260c6244982d0b5d12354983
+    old: 99e79b677b9a4542260c6244982d0b5d12354983
+    new: 9fe1450f6d3ce67d963c195d3fb8510d9c673bdd
     log: |
-         cbf51acbc5d50341290c79c97bda8cf46f5c4f22 net: bridge: Set BR_FDB_ADDED_BY_USER early in fdb_add_entry
-         bdb4dfda3b41649c41cc2222857c9207fc47a950 net: bridge: Track and limit dynamically learned FDB entries
-         ddd1ad68826d8ff61a2e47733959570aa4d39a16 net: bridge: Add netlink knobs for number / max learned FDB entries
-         19297c3ab23c4b2fe4abd13a992b7d7d10b07258 net: bridge: Set strict_start_type for br_policy
-         6f84090333bbff3473235a13eb99c308a53e3725 selftests: forwarding: bridge_fdb_learning_limit: Add a new selftest
-         99e79b677b9a4542260c6244982d0b5d12354983 Merge branch 'bridge-add-a-limit-on-learned-fdb-entries'
+         73b24e7ce8f1f47e2b73c9b6724188898f4ca6fd eth: bnxt: fix backward compatibility with older devices
+         b6f9774719e5601b32f47021b40fee446b356490 net: phylink: provide mac_get_caps() method
+         2141297d4257f93ce214a2019d240cb602106973 net: fman: convert to .mac_get_caps()
+         da5f6b80ad6417f7cf50d273c1c0ecb885e511e8 net: phylink: remove .validate() method
+         743f6397623edc708eda76ecc20e70032166e573 net: phylink: remove a bunch of unused validation methods
+         9fe1450f6d3ce67d963c195d3fb8510d9c673bdd Merge branch 'net-remove-last-of-the-phylink-validate-methods-and-clean-up'
          
