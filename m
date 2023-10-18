@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 18 Oct 2023 14:23:09 -0000
-Message-Id: <169763898981.8077.12595613317430914689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 18 Oct 2023 14:32:37 -0000
+Message-Id: <169763955726.14602.8182285339670195189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/spi-fix-v6-6-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b012fc7589fe91fc824cd8fe86436abe7a55b484
+  - ref: refs/heads/master
+    old: 794d756c36c6effb1108c78989790d735fb587fa
+    new: f36c22c56d752e345a4f9df3697571baef5c1da6
+    log: |
+         f36c22c56d752e345a4f9df3697571baef5c1da6 test/no-mmap-inval: fix warning on 32-bit builds
+         
