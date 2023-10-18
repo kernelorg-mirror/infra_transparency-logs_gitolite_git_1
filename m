@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 18 Oct 2023 07:48:18 -0000
-Message-Id: <169761529823.31185.7500533515198754965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 18 Oct 2023 07:48:57 -0000
+Message-Id: <169761533798.31474.13867320410732023970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 8c85a102fc4e5c0c942c10677fa43f7a19baa92f
-    new: dc850faa28ee0ac18e5e192526cdfa1da0b9d951
-    log: |
-         dc850faa28ee0ac18e5e192526cdfa1da0b9d951 hte: tegra194: don't access struct gpio_chip
-         
+  - ref: refs/heads/v6.6-next/dts64.3
+    old: 0000000000000000000000000000000000000000
+    new: 3cf47f2a584067f0ad78a8123b0b02f1e1297e88
