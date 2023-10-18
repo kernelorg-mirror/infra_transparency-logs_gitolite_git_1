@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 18 Oct 2023 20:57:36 -0000
-Message-Id: <169766265696.18154.6523031951482478134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 18 Oct 2023 20:59:48 -0000
+Message-Id: <169766278839.19016.10436875114821943263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 06dc10eae55b5ceabfef287a7e5f16ceea204aa0
-    new: dd72f9c7e512da377074d47d990564959b772643
+  - ref: refs/heads/field-get
+    old: 53ec7db8109da3a163fa3d811d05564dddb464de
+    new: a1a3a781d0ba0b751ea5f56f08dec0c3dec0e90d
     log: |
-         2ec8b010979036c2fe79a64adb6ecc0bd11e91d1 spi: npcm-fiu: Fix UMA reads when dummy.nbytes == 0
-         c6df843348d6b71ea986266c12831cb60c2cf325 regmap: fix NULL deref on lookup
-         e1e80380f1c25aec736ce1a2e46fac9f9631b71a Merge tag 'regmap-fix-v6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-         dd72f9c7e512da377074d47d990564959b772643 Merge tag 'spi-fix-v6-6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         b8dc7078992e43714a3cacae2bb67041ba030218 PCI: Use FIELD_GET()
+         53c730f82b1a2fe9ecc55990b794139986bc907d PCI: Use FIELD_GET() in Sapphire RX 5600 XT Pulse quirk
+         523eeeeb1da10979003d46c5cdf0fda188b2ba5b PCI/ASPM: Use FIELD_GET()
+         7e45852874137b692c6672a48c51618544ab96c5 PCI/ATS: Show PASID Capability register width in bitmasks
+         f3aa54744311ea11706c375b05e120ff56e4c601 PCI/ATS: Use FIELD_GET()
+         294a6f5e2acbd43f0673f8c6a89312fc2618063e PCI/PME: Use FIELD_GET()
+         93b3044b8f123da46fc2ece9abb3852c2c8d16bb PCI/PTM: Use FIELD_GET()
+         a509915870cf56a8b94d86bec109d0e7ec129eb7 PCI/VC: Use FIELD_GET()
+         a1a3a781d0ba0b751ea5f56f08dec0c3dec0e90d PCI/portdrv: Use FIELD_GET()
          
