@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Wed, 18 Oct 2023 18:57:30 -0000
-Message-Id: <169765545025.27229.5861559323788066228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Wed, 18 Oct 2023 19:04:52 -0000
+Message-Id: <169765589226.31515.16155953139101282867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: db43fb5e8f2c04c409bdd06ac2c2828685038d69
-    new: 511dcd169f9daa0ab856c6a153e5020e1bca47c2
+  - ref: refs/heads/next
+    old: 2894db1209aa905411c56e328ae5134b0fb648cb
+    new: b6ec2df13857acd16f73e5e78f67855d6677b2d0
     log: |
-         ba06b2f5bdd764a2534e1194acaf7dc3cf696c02 lspci: Reorder PCIe DevCtl2 fields to match spec
-         3746111d5be2db9d78fde0c3af14dde50b89a2fa lspci: Decode PCIe DevCtl2 ID-Based Ordering Enables
-         a99d27a34603f3db3a44eab3e6e1c7da383e7051 lspci: Decode PCIe DevCtl2 Emergency Power Reduction Request
-         7d2b2d69d7ad8ef3dd687fe8ed07f5f92a06927d lspci: Decode PCIe DevCtl2 End-to-End TLP Prefix Blocking
-         011ca4bb4baad6e3e4334ac6609ba99e771dbf98 lspci: Decode PCIe LnkCtl Link Disable as 'LnkDisable'
-         aeb74fe2d17657152ba7a84b5eb58dafcdea9d53 lspci: Print PCIe Interrupt Message Numbers consistently
-         b2caca015cf993f2562db1883e1054209e566e28 lspci: Remove spurious colon (':') from PCIe PTM decoding
-         511dcd169f9daa0ab856c6a153e5020e1bca47c2 setpci: Fix man page typo
+         14db9362a9fafea34e4bd52514b3cac240e87f6e selftests/ftrace: add loongarch support for kprobe args char tests
+         cc372b2a0ed1ca0c387492569833b198671b13c7 selftests/ftrace: Add riscv support for kprobe arg tests
+         88ee7e12a9b2be4fd8edd35185808f322b74ea23 selftests/efivarfs: create-read: fix a resource leak
+         f06e6c1c07cb1da36a5e845ba4f9883e7af93dcc selftests:modify the incorrect print format
+         bc27e97788d7c5eb53a4efd36a6d7bba23c966aa selftests/clone3: Report descriptive test names
+         b6ec2df13857acd16f73e5e78f67855d6677b2d0 selftests/resctrl: Fix MBM test failure when MBA unavailable
          
