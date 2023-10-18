@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 18 Oct 2023 09:03:05 -0000
-Message-Id: <169761978556.20141.12206754566861884202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 18 Oct 2023 09:12:44 -0000
+Message-Id: <169762036408.28227.15135582769836572618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 58720809f52779dc0f08e53e54b014209d13eebb
-    new: fc363413ef8ea842ae7a99e3caf5465dafdd3a49
+  - ref: refs/heads/main
+    old: f6c7b42243565a4ed8bc9d6f681b6d0cae026abc
+    new: 1d30162f35c7a73fc2f8cdcdcdbd690bedb99d1a
     log: |
-         430232619791e7de95191f2cd8ebaa4c380d17d0 gpio: vf610: mask the gpio irq in system suspend and support wakeup
-         fc363413ef8ea842ae7a99e3caf5465dafdd3a49 gpio: vf610: set value before the direction to avoid a glitch
+         1d30162f35c7a73fc2f8cdcdcdbd690bedb99d1a net: pktgen: Fix interface flags printing
          
