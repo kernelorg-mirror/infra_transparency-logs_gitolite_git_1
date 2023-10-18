@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7950901804680982705=="
+Content-Type: multipart/mixed; boundary="===============6407725805815314396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 18 Oct 2023 11:02:08 -0000
-Message-Id: <169762692847.22547.12067352701988650753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
+Date: Wed, 18 Oct 2023 11:13:16 -0000
+Message-Id: <169762759636.31098.1924810836253484994@gitolite.kernel.org>
 
---===============7950901804680982705==
+--===============6407725805815314396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/horms/ipvs-next
+user: horms
 changes:
   - ref: refs/heads/main
     old: 35715ac13a7781c8e7a28436477e9f359d9fda91
     new: c4eee56e14fe001e1cff54f0b438a5e2d0dd7454
     log: revlist-35715ac13a77-c4eee56e14fe.txt
 
---===============7950901804680982705==
+--===============6407725805815314396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -393,4 +393,4 @@ a5b65cd2a317527155321da40dc8520d2a1f4812 qede: Refactor qede_forced_speed_maps_i
 37fb1c81d210a5185c1f5399a0801719bba7f7c9 Merge tag 'nf-next-23-10-18' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 c4eee56e14fe001e1cff54f0b438a5e2d0dd7454 net: skb_find_text: Ignore patterns extending past 'to'
 
---===============7950901804680982705==--
+--===============6407725805815314396==--
