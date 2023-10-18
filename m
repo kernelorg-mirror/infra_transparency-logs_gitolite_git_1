@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 18 Oct 2023 13:35:08 -0000
-Message-Id: <169763610890.5289.8188428057315862795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 18 Oct 2023 13:35:21 -0000
+Message-Id: <169763612168.5445.14317522587999311890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 0c5e911acaac00886603028b39ce604d68bad933
-    new: 57bbf57ae762cec0abd44ef56842578022e0179e
+  - ref: refs/heads/fixes
+    old: 235985d1763f7aba92c1c64e5f5aaec26c2c9b18
+    new: 0e51cb42438b8754d8f4cee4c802a8c5bb2cd5e0
     log: |
-         e39828d2c1c0781ccfcf742791daf88fdfa481ea x86/percpu: Use the correct asm operand modifier in percpu_stable_op()
-         57bbf57ae762cec0abd44ef56842578022e0179e Merge branch into tip/master: 'x86/percpu'
+         fe0e04cf66a12ffe6d1b43725ddaabd5599d024f platform/surface: platform_profile: Propagate error if profile registration fails
+         0e51cb42438b8754d8f4cee4c802a8c5bb2cd5e0 apple-gmux: Hard Code max brightness for MMIO gmux
          
