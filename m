@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2215654355844758272=="
+Content-Type: multipart/mixed; boundary="===============0539167880723264304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Oct 2023 21:17:56 -0000
-Message-Id: <169766387623.1333.18106927157455277634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 18 Oct 2023 21:23:58 -0000
+Message-Id: <169766423824.5199.15175371014676200586@gitolite.kernel.org>
 
---===============2215654355844758272==
+--===============0539167880723264304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: d247c2336a7fbb224c11e048bc089e95849f8934
-    new: 0e816a5868ef7cc195357c423ff42a9817f7f509
-    log: revlist-d247c2336a7f-0e816a5868ef.txt
+    old: 185606ef37c3bfb5acb03ec0cdc806122235a9d2
+    new: 585da7f1bd7456fa12a15670fe510362e9ac9a96
+    log: revlist-185606ef37c3-585da7f1bd74.txt
 
---===============2215654355844758272==
+--===============0539167880723264304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d247c2336a7f-0e816a5868ef.txt
+Content-Disposition: attachment; filename=revlist-185606ef37c3-585da7f1bd74.txt
 
-6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
-f7c4e3e5d4f6609b4725a97451948ca2e425379a xfrm: interface: use DEV_STATS_INC()
-3e4bc23926b83c3c67e5f61ae8571602754131a6 xfrm: fix a data-race in xfrm_gen_index()
-cc9b364bb1d58d3dae270c7a931a8cc717dc2b3b xfrm6: fix inet6_dev refcount underflow problem
-dad4e491e30b20f4dc615c9da65d2142d703b5c2 net: ipv6: fix return value check in esp_remove_trailer
-513f61e2193350c7a345da98559b80f61aec4fa6 net: ipv4: fix return value check in esp_remove_trailer
-de5724ca38fd5e442bae9c1fab31942b6544012d xfrm: fix a data-race in xfrm_lookup_with_ifid()
-1c2709cfff1dedbb9591e989e2f001484208d914 tcp: fix excessive TLP and RACK timeouts from HZ rounding
-cbfbfe3aee718dc4c3c837f5d2463170ee59d78c tun: prevent negative ifindex
-c53647a5df9e66dd9fedf240198e1fe50d88c286 net: usb: smsc95xx: Fix an error code in smsc95xx_reset()
-f6c7b42243565a4ed8bc9d6f681b6d0cae026abc Merge tag 'ipsec-2023-10-17' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-1d30162f35c7a73fc2f8cdcdcdbd690bedb99d1a net: pktgen: Fix interface flags printing
-1db34aa58d80988f5ee99d2fd9d8f7489c3b0681 Revert "net: wwan: iosm: enable runtime pm support for 7560"
-2915240eddba96b37de4c7e9a3d0ac6f9548454b neighbor: tracing: Move pin6 inside CONFIG_IPV6=y section
-2951bda69960c18377c6f3082cd4b403ce7ababc PCI: Extract ATS disabling to a helper function
-1f86932b64bd08f1f54dc7e6d2caac6cb35a6c0a PCI: Disable ATS for specific Intel IPU E2000 devices
-6357ada4341ceac3c21db2e0383c94966b86f19d KVM: SVM: Fix build error when using -Werror=unused-but-set-variable
-4eca5698e65e6d2ccbf9e028df68a47abadcd9bc i40e: fix livelocks in i40e_reset_subtask()
-1ebe377da03ec4c114d8caefe64ef9147cc54e72 i40e: fix 32bit FW gtime wrapping issue
-c4ccea490f376538cbe5e43895f65728f326cb64 igc: Fix ambiguity in the ethtool advertising
-d740fa23c7e816f46a03910214c6dd315b3bd975 igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
-8956c74f4227d613af040085c8a7d1fc29f62c99 i40e: sync next_to_clean and next_to_process for programming status desc
-0e816a5868ef7cc195357c423ff42a9817f7f509 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+816812869f9c0a966b400f24d7f841b9e996eb4f i40e: Change user notification of non-SFP module in i40e_get_module_info()
+e0550575d7898fe42b4d1d38b318b6cf6b38922e iavf: fix comments about old bit locks
+8f4e50ee3fba57f1140bc914db68bd4ae36b0436 iavf: simplify mutex_trylock+sleep loops
+9caffd68563741ed030eb7e3aa413fa2523e2ece iavf: in iavf_down, don't queue watchdog_task if comms failed
+b013cd9818e0f25bd1b4ed605f301708f93aa512 iavf: in iavf_down, disable queues when removing the driver
+29bbfb7fc0e07432314d0bf956189bf0efe761bb iavf: fix the waiting time for initial reset
+d45ec09b053a5f5b028c716a2bdeef2831e01f97 ice: Fix SRIOV LAG disable on non-compliant aggreagate
+c0405c7a263194b358be401acf927ed1da2b0564 e100: replace deprecated strncpy with strscpy
+33429b625dab896bd19643050626d11010384205 e1000: replace deprecated strncpy with strscpy
+5956d8fc89e748b540b56df31cce9d1d97791d74 fm10k: replace deprecated strncpy with strscpy
+46b9010d34310e5385408394e153efb83d9c57d2 i40e: use scnprintf over strncpy+strncat
+722c7925e0d62240a8af0082f9dd7911bbe8dd91 igb: replace deprecated strncpy with strscpy
+598c711fa6d4db80255263c2a90250593b7285f0 igbvf: replace deprecated strncpy with strscpy
+7b7aa87ec4713464c4041aaea4ca77881c4ccc92 igc: replace deprecated strncpy with strscpy
+b33e5ecce7891fa339ff8403567139457f9f9164 ice: Re-enable timestamping correctly after reset
+13fe9fb6ecbd299e0b41e780b13eebc5671c2d4c iavf: rely on netdev's own registered state
+0d504e34ed4dd6e0906780b102bb107d3c2191b3 iavf: use unregister_netdev
+c8ba4360d9750737ada1698d1d24d8dd919189f4 iavf: add a common function for undoing the interrupt scheme
+895ff16cc676b380dbd9e1ae39d45c773c5ec9bd iavf: delete the iavf client interface
+585da7f1bd7456fa12a15670fe510362e9ac9a96 ice: dpll: fix initial lock status of dpll
 
---===============2215654355844758272==--
+--===============0539167880723264304==--
