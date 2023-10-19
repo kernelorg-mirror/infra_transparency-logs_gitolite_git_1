@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4564007032082408965=="
+Content-Type: multipart/mixed; boundary="===============6447084372045992375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 19 Oct 2023 20:47:13 -0000
-Message-Id: <169774843396.17754.5984812811496640645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 19 Oct 2023 20:47:20 -0000
+Message-Id: <169774844051.17863.8853235013905550526@gitolite.kernel.org>
 
---===============4564007032082408965==
+--===============6447084372045992375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 64c3259b5f86963c5214e63cfadedaa2278ba0ed
     new: 45f1b12e0366a750d65e92307685964488a3b6f4
     log: revlist-64c3259b5f86-45f1b12e0366.txt
 
---===============4564007032082408965==
+--===============6447084372045992375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1697748432 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1697748431-3edab4bec20c08c00ecbda6a1d378dbc81a6f4b7
+pusher C3F436CA30F5D8EB 1697748438 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1697748438-d1dbab55762b1083d939709e22230384995a1330
 
-64c3259b5f86963c5214e63cfadedaa2278ba0ed 45f1b12e0366a750d65e92307685964488a3b6f4 refs/heads/for-6.7
+64c3259b5f86963c5214e63cfadedaa2278ba0ed 45f1b12e0366a750d65e92307685964488a3b6f4 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUxldAACgkQJNaLcl1U
-h9BNlAf/bfAQC1yqdrA8qRUFQaYKsIZ7dZOStb3+Yv0YlZapkkHu6xBUoJ4umcpw
-3/7+xa5oSrmGcUCV97WhxK7x0ILuWhIJertzfl1gPAkizYIPImGgyAAiAQQuiNKv
-Xda6f78WpTUe7/z/u8EhvjkFc6pXxBsIDpLtUUhh3xOphWBsfoZRJB3YPnhF/ftW
-tpgj0lPSl/iclnCHxdy5a1MjbQtE9PzHF1ta4NIVnJ5koG9C5uI47UTOT7YFiV8n
-QEw3kE6/kNB4JrkmoQqxrNWHPgE4nFGFLjXiGcjZdz7eJMyB6v7kEv4HaDOarP0D
-pzR46qbleVXGeRONOVwKZQteXpDS6w==
-=dyXh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUxldYACgkQJNaLcl1U
+h9Aflwf+OqiWaafj7fzQZLasvJ54fcnqzHkrUKv07cam5uIFolO5MwTPC1LnG1lW
+lLr2oe3CsH8Z8uCn2ECqr0GWo3EuSHM6bWGvgiT9+EAH46sskYXFJuxdrcV0swVM
+ss/58G58Xrxwlx3yEi0Kv5BR3RZaw1R8xsyuLStpRrXLVeEB2N97rV3lbEoskxGH
+klWKEePdCsy0kr4kfuh2ITAl8UBmHGRC7UKOuBG8H6/3dVklX01JMy3SwCPJ3WWi
+7K2nJOSTkPqyg9sHoHdI3H9Vhvz7cRRtmYOGjow5BVHEj8owxCqU573tdHAMI0VD
+v8ua+Nv06QYjBQkuaTJrMmdf6dCCfw==
+=IGIa
 -----END PGP SIGNATURE-----
 
---===============4564007032082408965==
+--===============6447084372045992375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ c51fc25db18fe49e357455da726dd0ca98a43534 ASoC: Intel: sof_rt5682: use common mod
 f6b415faf6796963a56117f851378afe0ac33699 ASoC: Intel: sof_ssp_amp: use common module for DMIC links
 45f1b12e0366a750d65e92307685964488a3b6f4 ASoC: Intel: more machine driver updates for 6.7
 
---===============4564007032082408965==--
+--===============6447084372045992375==--
