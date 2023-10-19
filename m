@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 19 Oct 2023 08:52:38 -0000
-Message-Id: <169770555872.24467.2356886768300170303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Oct 2023 09:03:09 -0000
+Message-Id: <169770618952.31439.6040365060416581252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: f9b434c82610bce8f4c22b2294e05fdb709e04b5
-    new: 0d926d8fbe187f4a337db29cca91d00120c803b3
+  - ref: refs/heads/main
+    old: 0916c65aba534421a5aca8cdf3b2fdc2da257da4
+    new: 65e4f4507e5cdcaae1f08bd5daaf5e07fa2a1c89
     log: |
-         3bd1c0c62bad8ea7f9cc6662e754f77ec8baa46e dt-bindings: soc: rockchip: grf: add rockchip,rk3588-pmugrf
-         0d926d8fbe187f4a337db29cca91d00120c803b3 Merge branch 'v6.7-armsoc/drivers' into for-next
-         
-  - ref: refs/heads/v6.7-armsoc/drivers
-    old: 20bd1191830478cfdc9be766a735923c5fbe5350
-    new: 3bd1c0c62bad8ea7f9cc6662e754f77ec8baa46e
-    log: |
-         3bd1c0c62bad8ea7f9cc6662e754f77ec8baa46e dt-bindings: soc: rockchip: grf: add rockchip,rk3588-pmugrf
+         1bf55630694e0a87be529801ad064daed36f25f3 rswitch: Use unsigned int for port related array index
+         35b78409e1c7fff0f209f0aed7297e9fca13351d rswitch: Add PM ops
+         65e4f4507e5cdcaae1f08bd5daaf5e07fa2a1c89 Merge branch 'rswitch-add-pm-ops'
          
