@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 19 Oct 2023 07:33:51 -0000
-Message-Id: <169770083147.31362.10543333018830976340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Thu, 19 Oct 2023 07:38:29 -0000
+Message-Id: <169770110976.3725.2320788740074892621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 9a13ee457a6e7a850ac1d145b0731b1d729b8f42
-    new: 1f36b190ad2dea68e3a7e84b7b2f24ce8c4063ea
+  - ref: refs/heads/master
+    old: 511dcd169f9daa0ab856c6a153e5020e1bca47c2
+    new: 548a6e3b9a3c5814db20acf5bcd3d894ce41b019
     log: |
-         d9997f7ffb137447aa2f820c26cb1e6f5890d978 tools/build: Fix -s detection code in tools/build/Makefile.build
-         b5c532e90478e134b66b067c2b0487526ac4161e tools/build: Fix -s detection code in tools/scripts/Makefile.include
-         1f36b190ad2dea68e3a7e84b7b2f24ce8c4063ea perf tools: Do not ignore the default vmlinux.h
+         548a6e3b9a3c5814db20acf5bcd3d894ce41b019 Subject: lspci: Display PASID required attribute in Page Status Register.
          
