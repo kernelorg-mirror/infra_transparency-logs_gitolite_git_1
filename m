@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 19 Oct 2023 23:40:18 -0000
-Message-Id: <169775881866.21265.1106738563260375193@gitolite.kernel.org>
+Date: Thu, 19 Oct 2023 23:44:49 -0000
+Message-Id: <169775908930.22879.8006863627874578358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: ce36273833096f1b7e828309d9b1caa37132092d
-    new: ce071e3255da11d191436e65bd68e4c147c37853
+  - ref: refs/heads/experimental
+    old: 4b22cab925efc9e40611d39a296450e6b9e3bade
+    new: 87899dbbf79ab68ca3968392af51dda0f539e152
     log: |
-         8ee07437322862dbe631f04e817d8c371fd28ec6 erofs-utils: Fix cross compile with autoconf
-         c0b5c3d2a85bc13c7b92a6de3be16c60c2308a0e erofs-utils: errno shouldn't set to a negative value in lib/tar.c
-         8cbc205185a18b9510f4c1fbd54957354f696321 erofs-utils: mkfs: fix corrupted directories with hardlinks
-         8300aaba8e8d6a755718313e7169534f021c8cf2 erofs-utils: fix reference leak in erofs_mkfs_build_tree_from_path()
-         ce071e3255da11d191436e65bd68e4c147c37853 erofs-utils: release 1.7.1
+         83d94dc619075e71ca4d0f42941cfc18d269a2af erofs-utils: release 1.7.1
+         672a4fb4ea99cb54d4099c3df8431a1edbdc5224 erofs-utils: lib: use xxh64() for faster filtering first for dedupe
+         7a5258a7fe17b6fff046771bbfb65ca6d4cd42e7 erofs-utils: lib: switch dedupe_{sub,}tree[] to a hash table
+         9bd1edece4bc1d92399b9125423d00665bd9091e erofs-utils: fuse: switch to FUSE 2/3 lowlevel APIs
+         87899dbbf79ab68ca3968392af51dda0f539e152 erofs-utils: lib: drop prefix_sha256 digests
          
