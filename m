@@ -1,30 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 19 Oct 2023 14:05:21 -0000
-Message-Id: <169772432125.7233.4233753860197524506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 19 Oct 2023 14:15:30 -0000
+Message-Id: <169772493087.15310.1559027796273102841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 0d926d8fbe187f4a337db29cca91d00120c803b3
-    new: 12f2670bec43aaa153fc2ec59fa85a038e170cee
+  - ref: refs/heads/master
+    old: 9ff8d2717fc8f63e5cb226ddbda20649eefa2728
+    new: e661451ce4e6050486504acb112a50c69acc7ed1
     log: |
-         f57ef11ec63c17201b27569fbfb58801c227137d arm64: dts: rockchip: Always enable DFI on rk3399
-         085be8875ca8a087e3cc102893f384894962c87e arm64: dts: rockchip: Add DFI to rk356x
-         5a6976b1040a2f99ab84eddbfa7cd072ac5d10fc arm64: dts: rockchip: Add DFI to rk3588s
-         12f2670bec43aaa153fc2ec59fa85a038e170cee Merge branch 'v6.7-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.7-armsoc/dts64
-    old: efa1d1c6c8e4f89eedef9035d1f74fe98861eb30
-    new: 5a6976b1040a2f99ab84eddbfa7cd072ac5d10fc
-    log: |
-         f57ef11ec63c17201b27569fbfb58801c227137d arm64: dts: rockchip: Always enable DFI on rk3399
-         085be8875ca8a087e3cc102893f384894962c87e arm64: dts: rockchip: Add DFI to rk356x
-         5a6976b1040a2f99ab84eddbfa7cd072ac5d10fc arm64: dts: rockchip: Add DFI to rk3588s
+         e661451ce4e6050486504acb112a50c69acc7ed1 bpf: Fold smp_mb__before_atomic() into atomic_set_release()
          
