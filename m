@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4137166531175075993=="
+Content-Type: multipart/mixed; boundary="===============7024106564502824555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 19 Oct 2023 09:10:59 -0000
-Message-Id: <169770665915.6508.493125784225166722@gitolite.kernel.org>
+Date: Thu, 19 Oct 2023 09:11:16 -0000
+Message-Id: <169770667624.6711.9570479186730810465@gitolite.kernel.org>
 
---===============4137166531175075993==
+--===============7024106564502824555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.all
-    old: bf41e4d8a2aef915dd960b2dd86ce136456c9633
-    new: 32032c62ab696df17fc0f63e6193adba006b53b3
-    log: revlist-bf41e4d8a2ae-32032c62ab69.txt
+  - ref: refs/heads/vfs.misc
+    old: 070d84710edaad0707d7cd73164d022dbd2f428a
+    new: 6654408a33e6297d8e1d2773409431d487399b95
+    log: revlist-070d84710eda-6654408a33e6.txt
 
---===============4137166531175075993==
+--===============7024106564502824555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf41e4d8a2ae-32032c62ab69.txt
+Content-Disposition: attachment; filename=revlist-070d84710eda-6654408a33e6.txt
 
 3e15dcf77b23b8e9b9b7f3c0d4def8fe9c12c534 fs: rename __mnt_{want,drop}_write*() helpers
 ddf9e2ff67a910acde1d000e76b7e31267599539 fs: export mnt_{get,put}_write_access() to modules
-3e4da8dffe1096f6571f77abbea38ade25f96b25 fs: Avoid grabbing sb->s_umount under bdev->bd_holder_lock
-b0df741ed69db16972a1a9b019c77b2932d93ae0 block: simplify bdev_del_partition()
 84d2b696236c63836011f04d13d3f09ed47fa560 init/mount: print pretty name of root device when panics
 5aa8fd9cea2ee0d42c5d92c5eacf0a14bbc4c293 fs: add a new SB_I_NOUMASK flag
 61105aab4edb59bf8177f005eb2923fe5c4deb3c pipe: reduce padding in struct pipe_inode_info
@@ -52,17 +50,5 @@ e4e8b47a34a432c3f65534d12d5c132b6639da71 fs: fix umask on NFS with CONFIG_FS_POS
 2bc5e5e8167f2114976f00755b9a0c7f17d6f105 ovl: rely on SB_I_NOUMASK
 e311ba29a552194ece6c1579fe434bdad550bfac chardev: Simplify usage of try_module_get()
 6654408a33e6297d8e1d2773409431d487399b95 writeback, cgroup: switch inodes with dirty timestamps to release dying cgwbs
-2ff3adfb95a3eac06f574f6a09331a2eb64cbb78 block: WARN_ON_ONCE() when we remove active partitions
-6d4367bc04fd918b976de54e531351d8d99c3016 block: move bdev_mark_dead out of disk_check_media_change
-7addcb22270370e1b199dea0fa417987351bc851 block: assert that we're not holding open_mutex over blk_report_disk_dead
-43ab05549df4def273faf9ba93a5b8a5bfdb5d0f fs: assert that open_mutex isn't held over holder ops
-1cf32de9cdca068921128fd10f2da714a50530ad porting: update locking requirements
-31a7bdc4973c735294ede175ddc61807470a266a Merge branch 'vfs.fixes' into vfs.all
-bf7d62027116e943630ad7e2b25725b9719fa083 Merge branch 'vfs.misc' into vfs.all
-f46db419c7be98129ee36ad87158326a8d789d97 Merge branch 'vfs.autofs' into vfs.all
-c240b345a9bfc1cb983af3bb8102b804a2ac9659 Merge branch 'vfs.iov_iter' into vfs.all
-c7d1ea83011d88c6015164d6476c8e9e8687bd23 Merge branch 'vfs.xattr' into vfs.all
-3d1cdb83dc30c36443e09bb73ae8f2c073d22ae8 Merge branch 'vfs.ctime' into vfs.all
-32032c62ab696df17fc0f63e6193adba006b53b3 Merge branch 'vfs.super' into vfs.all
 
---===============4137166531175075993==--
+--===============7024106564502824555==--
