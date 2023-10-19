@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 19 Oct 2023 01:25:19 -0000
-Message-Id: <169767871930.26018.151406885575430873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 19 Oct 2023 01:29:07 -0000
+Message-Id: <169767894777.27458.2732861350242700757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: c9d0f1bd8f06ec9b8db47115cf7a1f3b9d7cf265
-    new: cad962cea0d429b2b1b1800f688629108372ef33
+    old: 970cc4c54ffcc9afcb868120991bd9bd21a01555
+    new: 447c3345f88ee17999315a6a099162749317aa6b
     log: |
-         039d8ea91e06e59ecb1ca32add0344221ade49bb foo
-         ddac408e478808da5744277f9a88635dc50430dc foo
-         cad962cea0d429b2b1b1800f688629108372ef33 foo
+         447c3345f88ee17999315a6a099162749317aa6b Skipping AT+CUAD sending for QUECTEL_EC2X vendor
          
