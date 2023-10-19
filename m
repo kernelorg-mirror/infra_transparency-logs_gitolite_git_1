@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============1719399524102006273=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/patchwork/procmail
-Date: Thu, 19 Oct 2023 14:50:32 -0000
-Message-Id: <169772703280.8526.15037632250965808456@gitolite.kernel.org>
-
---===============1719399524102006273==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 19 Oct 2023 14:51:05 -0000
+Message-Id: <169772706570.8804.8754428397265008325@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/patchwork/procmail
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/master
-    old: 534b8325aa29eb6e76e7652e749ff73a56903645
-    new: 47f722e4cde10b9c0531f8c0791e9c9445b05a7a
+  - ref: refs/heads/fixes
+    old: 327899674eef18f96644be87aa5510b7523fe4f6
+    new: c1ae1c59c8c6e0b66a718308c623e0cb394dab6b
     log: |
-         47f722e4cde10b9c0531f8c0791e9c9445b05a7a Add rules to force alsa-devel as linux-sound
+         c1ae1c59c8c6e0b66a718308c623e0cb394dab6b s390/pci: fix iommu bitmap allocation
          
-
---===============1719399524102006273==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1697727032 -0400
-pushee gitolite.kernel.org:pub/scm/infra/patchwork/procmail
-nonce 1697727031-7d369b5a371eccfa270219daa93419222e64fcef
-
-534b8325aa29eb6e76e7652e749ff73a56903645 47f722e4cde10b9c0531f8c0791e9c9445b05a7a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZTFCOAAKCRC2xBzjVmSZ
-bIolAPwOyPK755LG+vc76is1D6th1NOy9ZaTeKv64oIYHD2gCAD/XVCccC5680q0
-rEMp4WafrCFe5f5EuBm8gdtA+yB2iAQ=
-=f5gk
------END PGP SIGNATURE-----
-
---===============1719399524102006273==--
