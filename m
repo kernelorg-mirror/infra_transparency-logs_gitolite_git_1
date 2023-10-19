@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Oct 2023 10:19:22 -0000
-Message-Id: <169771076291.3744.16110297389743407162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
+Date: Thu, 19 Oct 2023 10:23:54 -0000
+Message-Id: <169771103411.6995.7736972698751466372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 007c6c8e0b04e7be9d47a21e9bdf7ab55693655f
-    new: 0e57e6d9629ef234b9e9d57d7a439d068d916e33
+  - ref: refs/heads/keystone-5.19.y
+    old: 05623600fe5c37d74c6f31644210b0c6a62d02e0
+    new: 8721af1bc247fd2485e3ac9e1abf4b7a294ecc05
     log: |
-         32671e3799ca2e4590773fd0e63aaa4229e50c06 perf: Disallow mis-matched inherited group reads
-         0e57e6d9629ef234b9e9d57d7a439d068d916e33 Merge branch into tip/master: 'perf/urgent'
+         8721af1bc247fd2485e3ac9e1abf4b7a294ecc05 arch/riscv: Keystone
          
