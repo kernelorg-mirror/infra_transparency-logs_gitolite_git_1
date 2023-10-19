@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 19 Oct 2023 11:50:03 -0000
-Message-Id: <169771620383.6667.18255387898885968848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 19 Oct 2023 12:00:07 -0000
+Message-Id: <169771680749.13472.4233534975212895629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-6.7/block
-    old: 5bc8f147dc2fe7a2e01b162e72cfb510f5908475
-    new: 411957553bca681f6c6a64f419c352bb7d87c2a5
+  - ref: refs/heads/main
+    old: f893135f1b74ee2dc8e07f69c6b387b39ac2c30b
+    new: 29e9aa8686d56a6b307f6a8a1e3bd9a383060003
     log: |
-         411957553bca681f6c6a64f419c352bb7d87c2a5 block: ublk_drv: Remove unused function
-         
-  - ref: refs/heads/for-next
-    old: e3db512c4ab6dd343b9a5c3afdaadb368854fce3
-    new: 505be52cb37eda2fb4174625e2a38d3f1a47bd5e
-    log: |
-         411957553bca681f6c6a64f419c352bb7d87c2a5 block: ublk_drv: Remove unused function
-         505be52cb37eda2fb4174625e2a38d3f1a47bd5e Merge branch 'for-6.7/block' into for-next
+         4d6190714dc635b7c8b0fb384380c6fa66630711 Add a script for a robot to open up pull requests
+         ecaeef5dcb0540721e813f4508b51293f1be7cd9 Add support for sending emails while processing a PR/patch
+         29e9aa8686d56a6b307f6a8a1e3bd9a383060003 Merge branch 'mlimonci/robot' into 'main'
          
