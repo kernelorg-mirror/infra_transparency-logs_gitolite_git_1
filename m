@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 19 Oct 2023 19:28:05 -0000
-Message-Id: <169774368555.25123.6379590112546248983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 19 Oct 2023 19:37:49 -0000
+Message-Id: <169774426983.631.13123458923870311256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6f4f5517fb5ab0e7b7875c433a8d288dbbbe0d93
-    new: cc71b64f5c49b8dc74674ba2eae83ad94b1841bb
+  - ref: refs/heads/damon/next
+    old: 9b3c9eea5a2ca452547f53e40da4fc5b03ddad3e
+    new: 782fb3d94a3c29b3411d09a9a601750e132b731f
     log: |
-         a4529ad582d53fd00f4753bfd746874eb44d3a91 ice: Fix VF-VF filter rules in switchdev mode
-         00800a9c86980405d287012807cb08f2fc3b9765 i40e: xsk: remove count_mask
-         99e2ff118251c3626757dc0b42bf2c9848047a71 i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
-         cc71b64f5c49b8dc74674ba2eae83ad94b1841bb i40e: Fix I40E_FLAG_VF_VLAN_PRUNING value
+         26f96f091df77c2783020cac85944c929f281a15 ==== divide-by-zero fixes ====
+         1aaf0142ea2f59bc606d9544610ea39a1e4798cc mm/damon: implement a function for max nr_accesses safe calculation
+         3fd398329f0169372e10b4f287184f0200a90960 mm/damon/core: avoid divide-by-zero during monitoring results update
+         cb985b7e3c1c5a4ff5ca0dcce3d1f919ad320b56 mm/damon/ops-common: avoid divide-by-zero during region hotness calculation
+         cf0c04619afb18db3fd44236e10db5106ea0c097 mm/damon/lru_sort: avoid divide-by-zero in hot threshold calculation
+         ca415d8279dd37977f6d9a984ae94716dcce693c mm/damon/core: avoid divide-by-zero from pseudo-moving window length calculation
+         782fb3d94a3c29b3411d09a9a601750e132b731f mm/damon/core-test: test overflow-causing divide-by-zero
          
