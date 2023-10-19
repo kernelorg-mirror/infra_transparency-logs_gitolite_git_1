@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 19 Oct 2023 09:03:09 -0000
-Message-Id: <169770618952.31439.6040365060416581252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 19 Oct 2023 09:06:19 -0000
+Message-Id: <169770637913.1856.15492209202096573524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: 0916c65aba534421a5aca8cdf3b2fdc2da257da4
-    new: 65e4f4507e5cdcaae1f08bd5daaf5e07fa2a1c89
+  - ref: refs/heads/vfs.super
+    old: 9bc02cf3bf70974b4b1b88649deea7feb2880720
+    new: 1cf32de9cdca068921128fd10f2da714a50530ad
     log: |
-         1bf55630694e0a87be529801ad064daed36f25f3 rswitch: Use unsigned int for port related array index
-         35b78409e1c7fff0f209f0aed7297e9fca13351d rswitch: Add PM ops
-         65e4f4507e5cdcaae1f08bd5daaf5e07fa2a1c89 Merge branch 'rswitch-add-pm-ops'
+         3e4da8dffe1096f6571f77abbea38ade25f96b25 fs: Avoid grabbing sb->s_umount under bdev->bd_holder_lock
+         b0df741ed69db16972a1a9b019c77b2932d93ae0 block: simplify bdev_del_partition()
+         2ff3adfb95a3eac06f574f6a09331a2eb64cbb78 block: WARN_ON_ONCE() when we remove active partitions
+         6d4367bc04fd918b976de54e531351d8d99c3016 block: move bdev_mark_dead out of disk_check_media_change
+         7addcb22270370e1b199dea0fa417987351bc851 block: assert that we're not holding open_mutex over blk_report_disk_dead
+         43ab05549df4def273faf9ba93a5b8a5bfdb5d0f fs: assert that open_mutex isn't held over holder ops
+         1cf32de9cdca068921128fd10f2da714a50530ad porting: update locking requirements
          
