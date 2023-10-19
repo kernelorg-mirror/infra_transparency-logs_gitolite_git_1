@@ -1,31 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7644683769500296284=="
+Content-Type: multipart/mixed; boundary="===============4564007032082408965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 19 Oct 2023 20:05:08 -0000
-Message-Id: <169774590800.20448.15358856835744252536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 19 Oct 2023 20:47:13 -0000
+Message-Id: <169774843396.17754.5984812811496640645@gitolite.kernel.org>
 
---===============7644683769500296284==
+--===============4564007032082408965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 79a2ab154cd2c68bbcdd15b9d450275ec8534883
+  - ref: refs/heads/for-6.7
+    old: 64c3259b5f86963c5214e63cfadedaa2278ba0ed
     new: 45f1b12e0366a750d65e92307685964488a3b6f4
-    log: revlist-79a2ab154cd2-45f1b12e0366.txt
+    log: revlist-64c3259b5f86-45f1b12e0366.txt
 
---===============7644683769500296284==
+--===============4564007032082408965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79a2ab154cd2-45f1b12e0366.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1697748432 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1697748431-3edab4bec20c08c00ecbda6a1d378dbc81a6f4b7
+
+64c3259b5f86963c5214e63cfadedaa2278ba0ed 45f1b12e0366a750d65e92307685964488a3b6f4 refs/heads/for-6.7
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmUxldAACgkQJNaLcl1U
+h9BNlAf/bfAQC1yqdrA8qRUFQaYKsIZ7dZOStb3+Yv0YlZapkkHu6xBUoJ4umcpw
+3/7+xa5oSrmGcUCV97WhxK7x0ILuWhIJertzfl1gPAkizYIPImGgyAAiAQQuiNKv
+Xda6f78WpTUe7/z/u8EhvjkFc6pXxBsIDpLtUUhh3xOphWBsfoZRJB3YPnhF/ftW
+tpgj0lPSl/iclnCHxdy5a1MjbQtE9PzHF1ta4NIVnJ5koG9C5uI47UTOT7YFiV8n
+QEw3kE6/kNB4JrkmoQqxrNWHPgE4nFGFLjXiGcjZdz7eJMyB6v7kEv4HaDOarP0D
+pzR46qbleVXGeRONOVwKZQteXpDS6w==
+=dyXh
+-----END PGP SIGNATURE-----
+
+--===============4564007032082408965==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-64c3259b5f86-45f1b12e0366.txt
+
+8a79ff9e46beee03dfc2ce9cc80f7090f57d64cb ASoC: dt-bindings: mt8186-mt6366-rt1019-rt5682s: add RT5650 support
+d88c433831015a4ad4597885cef8f048808cd94d ASoC: mediatek: mt8186_mt6366_rt1019_rt5682s: add rt5650 support
+79a2ab154cd2c68bbcdd15b9d450275ec8534883 ASoC: mediatek: mt8186_mt6366_rt1019_rt5682s: add
 897d8e86bac76d26dcd08fbd0917d9bdb280a66f ASoC: tlv320aic31xx: switch to gpiod_set_value_cansleep
 28809aaeabdf2c01ffe597553146527d1fba3589 ASoC: intel: sof_sdw: Stop processing CODECs when enough are found
 a92ccd574390149d3d64488ec5fe1e9b80e5f74c ASoC: intel: sof_sdw_cs42l43: Some trivial formatting clean ups
@@ -39,4 +67,4 @@ c51fc25db18fe49e357455da726dd0ca98a43534 ASoC: Intel: sof_rt5682: use common mod
 f6b415faf6796963a56117f851378afe0ac33699 ASoC: Intel: sof_ssp_amp: use common module for DMIC links
 45f1b12e0366a750d65e92307685964488a3b6f4 ASoC: Intel: more machine driver updates for 6.7
 
---===============7644683769500296284==--
+--===============4564007032082408965==--
