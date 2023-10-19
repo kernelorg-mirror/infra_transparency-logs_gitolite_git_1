@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 19 Oct 2023 06:54:03 -0000
-Message-Id: <169769844330.2574.11492417447266415488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 19 Oct 2023 07:08:37 -0000
+Message-Id: <169769931748.13779.14591539606050192279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 465d6b42f1a3b855c06da1d4d3b09907d261af69
-    new: 07f06e0e5cd99555c861e874716d9e2627655fd5
+  - ref: refs/heads/master
+    old: 823251ec1bf3808cace33ac7f7c48e1901317cd6
+    new: aae622d784b3db3de09b758dfe49d5b0881dad6d
     log: |
-         9faef73ef4f6666b97e04d99734ac09251098185 RDMA/hns: Fix printing level of asynchronous events
-         c64e9710f9241e38a1c761ed1c1a30854784da66 RDMA/hns: Fix uninitialized ucmd in hns_roce_create_qp_common()
-         b5f9efff101b06fd06a5e280a2b00b1335f5f476 RDMA/hns: Fix signed-unsigned mixed comparisons
-         5e617c18b1f34ec57ad5dce44f09de603cf6bd6c RDMA/hns: Add check for SL
-         27c5fd271d8b8730fc0bb1b6cae953ad7808a874 RDMA/hns: The UD mode can only be configured with DCQCN
-         b4a797b894dc91a541ea230db6fa00cc74683bfd RDMA/hns: Fix unnecessary port_num transition in HW stats allocation
-         07f06e0e5cd99555c861e874716d9e2627655fd5 RDMA/hns: Fix init failure of RoCE VF and HIP08
+         2ec8b010979036c2fe79a64adb6ecc0bd11e91d1 spi: npcm-fiu: Fix UMA reads when dummy.nbytes == 0
+         c6df843348d6b71ea986266c12831cb60c2cf325 regmap: fix NULL deref on lookup
+         e1e80380f1c25aec736ce1a2e46fac9f9631b71a Merge tag 'regmap-fix-v6.6-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+         dd72f9c7e512da377074d47d990564959b772643 Merge tag 'spi-fix-v6-6-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         aae622d784b3db3de09b758dfe49d5b0881dad6d Merge branch 'linus'
          
