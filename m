@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 19 Oct 2023 15:39:22 -0000
-Message-Id: <169772996210.18434.13129968091383814781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 19 Oct 2023 15:45:52 -0000
+Message-Id: <169773035210.23950.10627312905908042087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/main
-    old: 582453de1b65e9eada669d9aea4aca88509e7658
-    new: 48cb4320487aa29139537adaca675e1ac6c44ec6
+  - ref: refs/heads/for-next/perf
+    old: 50b560783f7f71790bcf70e9e9855155fb0af8c1
+    new: 3b9a22d345ff89232227b2449a311bf3f910f5f2
     log: |
-         0aa1a1c08e11151b7aa83cf2d3517eb83685439f Update kernel headers
-         48cb4320487aa29139537adaca675e1ac6c44ec6 iplink: bridge: Add support for bridge FDB learning limits
-         
-  - ref: refs/heads/master
-    old: 582453de1b65e9eada669d9aea4aca88509e7658
-    new: 48cb4320487aa29139537adaca675e1ac6c44ec6
-    log: |
-         0aa1a1c08e11151b7aa83cf2d3517eb83685439f Update kernel headers
-         48cb4320487aa29139537adaca675e1ac6c44ec6 iplink: bridge: Add support for bridge FDB learning limits
+         58f8fc57b1d314b5402c374a8c454ac7c870574c drivers: perf: arm_pmuv3: Read PMMIR_EL1 unconditionally
+         3b9a22d345ff89232227b2449a311bf3f910f5f2 drivers: perf: arm_pmuv3: Drop some unused arguments from armv8_pmu_init()
          
