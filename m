@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1768077171868647707=="
+Content-Type: multipart/mixed; boundary="===============3357235937104953642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Oct 2023 17:39:29 -0000
-Message-Id: <169773716990.11123.2630983522395393994@gitolite.kernel.org>
+Date: Thu, 19 Oct 2023 17:39:49 -0000
+Message-Id: <169773718958.11287.5478500206292332162@gitolite.kernel.org>
 
---===============1768077171868647707==
+--===============3357235937104953642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 2915240eddba96b37de4c7e9a3d0ac6f9548454b
-    new: 524515020f2552759a7ef1c9d03e7dac9b1ff3c2
-    log: revlist-2915240eddba-524515020f25.txt
-  - ref: refs/tags/net-6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 93505925697845aac9e59e60c5eaef1132fcb8fa
+  - ref: refs/heads/dev-queue
+    old: 0e816a5868ef7cc195357c423ff42a9817f7f509
+    new: f8a519b36d49ec5927c2c5b4389bbf4ef53f8123
+    log: revlist-0e816a5868ef-f8a519b36d49.txt
 
---===============1768077171868647707==
+--===============3357235937104953642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2915240eddba-524515020f25.txt
+Content-Disposition: attachment; filename=revlist-0e816a5868ef-f8a519b36d49.txt
 
 91d20ab9d9ca035527af503d00e1e30d6c375f2a wifi: cfg80211: use system_unbound_wq for wiphy work
 02e0e426a2fb1446ebd7bc0eccfb48aedefb966b wifi: mac80211: fix error path key leak
@@ -61,5 +58,14 @@ b134a5805455d1886662a6516c965cdb9df9fbcc selftests: mptcp: join: correctly check
 2cfaa8b3b7aece3c7b13dd10db20dcea65875692 selftests: mptcp: join: no RST when rm subflow/addr
 1c1f14f92beca73555f9a23c3f37bae50d9ed323 Merge branch 'mptcp-fixes-for-v6-6'
 524515020f2552759a7ef1c9d03e7dac9b1ff3c2 Revert "ethtool: Fix mod state of verbose no_mask bitset"
+3aafd419c95983b0dbe52124acb54df1bbeb423a PCI: Extract ATS disabling to a helper function
+bbb054131f2399b7feb7a42ec084a3f6bd377452 PCI: Disable ATS for specific Intel IPU E2000 devices
+190a927e7ea4dac4f5f6d0ec16bd7cdb3949832f KVM: SVM: Fix build error when using -Werror=unused-but-set-variable
+bb48358b12052bd7187ffc03d9baa22254d105cd i40e: fix livelocks in i40e_reset_subtask()
+5ec26d9ae5ea4e1a1f299c79261a91b0a881d642 i40e: fix 32bit FW gtime wrapping issue
+46955fbc992d039fda37627e4f3542403f3b9b29 igc: Fix ambiguity in the ethtool advertising
+89a00bf55b4dd357d16442312eaa777ccb1816fa igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+59623a1548f6be4bc181d6594f7cf6f2e3c1b7e5 i40e: sync next_to_clean and next_to_process for programming status desc
+f8a519b36d49ec5927c2c5b4389bbf4ef53f8123 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
 
---===============1768077171868647707==--
+--===============3357235937104953642==--
