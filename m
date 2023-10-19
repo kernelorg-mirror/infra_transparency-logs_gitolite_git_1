@@ -1,59 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4522526110314495970=="
+Content-Type: multipart/mixed; boundary="===============2707156596285241120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 19 Oct 2023 13:24:58 -0000
-Message-Id: <169772189804.8978.14276051024059109093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Thu, 19 Oct 2023 13:45:58 -0000
+Message-Id: <169772315859.25487.4973201990160037496@gitolite.kernel.org>
 
---===============4522526110314495970==
+--===============2707156596285241120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master-pending
-    old: 40f3e2675e0ebf8243b3b4370e0617bbce38e11d
-    new: 90a50b01264345ddd50d6b5d4ff565f7eb8f8559
-    log: revlist-40f3e2675e0e-90a50b012643.txt
-  - ref: refs/heads/pending
-    old: c786c56c30aa8b623625793ff2c3d299609110bd
-    new: a94a1280b13f898eef6996a8d53baa1bc6d70b9b
-    log: |
-         96e0d3887f65eaac7745ff9da7c89f0c59bb347d wifi: ath11k: add firmware-2.bin support
-         dcff97c419b9fa04608d9e92d17a6e586e90d1e9 wifi: ath12k: add TAS capability for WCN7850
-         4109ee7402e9132a53db981c493f8dc80ff0a6b3 wifi: ath12k: add BIOS SAR capability for WCN7850
-         f2da8a7e3d726a26f56739dbb0bc994fe9bbd7a9 wifi: ath12k: add adjust configuration of CCA threshold value for WCN7850
-         fc3033cffe27cc308884a370026858d5d1e84e07 wifi: ath12k: add set band edge channel power for WCN7850
-         37b094105d43344fd0fb1dd08e8393a3f3f7089c wifi: ath10k: replace deprecated strncpy with strtomem_pad
-         eeeda672784146aeead1fa906b7a2d704be4165e wifi: ath10k: add support to allow broadcast action from RX
-         7620b543c3cff643f1efa128e71050918172e100 wifi: ath12k: drop NULL pointer check in ath12k_update_per_peer_tx_stats()
-         6f9d49005a1b3c45203c6a3cb8da48c30285cdab wifi: ath12k: rename the wmi_sc naming convention to wmi_ab
-         a94a1280b13f898eef6996a8d53baa1bc6d70b9b wifi: ath12k: rename the sc naming convention to ab
-         
-  - ref: refs/tags/ath-pending-202310191322
+  - ref: refs/heads/slab-remove-slab-v1r1
     old: 0000000000000000000000000000000000000000
-    new: 90a50b01264345ddd50d6b5d4ff565f7eb8f8559
+    new: 7adc6d2af54653f841d96e88cdf2c6d0b5c69b9a
 
---===============4522526110314495970==
+--===============2707156596285241120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40f3e2675e0e-90a50b012643.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-96e0d3887f65eaac7745ff9da7c89f0c59bb347d wifi: ath11k: add firmware-2.bin support
-dcff97c419b9fa04608d9e92d17a6e586e90d1e9 wifi: ath12k: add TAS capability for WCN7850
-4109ee7402e9132a53db981c493f8dc80ff0a6b3 wifi: ath12k: add BIOS SAR capability for WCN7850
-f2da8a7e3d726a26f56739dbb0bc994fe9bbd7a9 wifi: ath12k: add adjust configuration of CCA threshold value for WCN7850
-fc3033cffe27cc308884a370026858d5d1e84e07 wifi: ath12k: add set band edge channel power for WCN7850
-37b094105d43344fd0fb1dd08e8393a3f3f7089c wifi: ath10k: replace deprecated strncpy with strtomem_pad
-eeeda672784146aeead1fa906b7a2d704be4165e wifi: ath10k: add support to allow broadcast action from RX
-7620b543c3cff643f1efa128e71050918172e100 wifi: ath12k: drop NULL pointer check in ath12k_update_per_peer_tx_stats()
-6f9d49005a1b3c45203c6a3cb8da48c30285cdab wifi: ath12k: rename the wmi_sc naming convention to wmi_ab
-a94a1280b13f898eef6996a8d53baa1bc6d70b9b wifi: ath12k: rename the sc naming convention to ab
-90a50b01264345ddd50d6b5d4ff565f7eb8f8559 Merge branch 'pending' into master-pending
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1697723152 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1697723152-9dcb4b380f580c09b0b0f23f69a46dce5d76fdbb
 
---===============4522526110314495970==--
+0000000000000000000000000000000000000000 7adc6d2af54653f841d96e88cdf2c6d0b5c69b9a refs/heads/slab-remove-slab-v1r1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmUxMxAACgkQu+CwddJF
+iJovhAf/Zwqwf92/Rle0DVb6bAuhpZ9Gehf0BwPPvabc4fD/a+1vhgwfM8lIDPWm
+27PfBKQKtPV+vKnpYy0aBpDEzI5j5T68ijffwNFOJMRCkHTY76OXkKM4flqJ+KtL
+hefFT5OlYYCNmp1ldkcQk+4CsExZacXoEABQ7q9lLXvr0/w5vNUWrb3hmJB1F5/W
+PHteVWo3LJ8EHHl0n2m010avY8wJAqCINFzdvBr4i2k3pkZPlJpfnP9lmYp1/W1G
+oIicpgUs/spbQlu6rMbjQJj+qer5hCQxA+T/XhxQ71Myro33vEUZ4AO9G3wCpnR7
+zhj7tquWhy7LpIDaY3HX4tt7Cjmb7Q==
+=4a/0
+-----END PGP SIGNATURE-----
+
+--===============2707156596285241120==--
