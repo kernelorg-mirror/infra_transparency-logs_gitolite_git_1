@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 19 Oct 2023 10:07:27 -0000
-Message-Id: <169771004717.28523.14915212559640565918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 19 Oct 2023 10:19:22 -0000
+Message-Id: <169771076291.3744.16110297389743407162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/opp/required-opps
-    old: 9a1937ca6533b38213cce0b705a8dc43d44d96ed
-    new: 6de4fcb5bb943a131d0cdf0a858bd35af02a2f88
+  - ref: refs/heads/master
+    old: 007c6c8e0b04e7be9d47a21e9bdf7ab55693655f
+    new: 0e57e6d9629ef234b9e9d57d7a439d068d916e33
     log: |
-         35e0964e4876c4d77ed0d6d49678f7f6270f32e2 dt-bindings: opp: opp-v2-kryo-cpu: Document named opp-microvolt property
-         f709e9e273004be43efe3a2854a7e7b51a777f99 OPP: Use _set_opp_level() for single genpd case
-         6de4fcb5bb943a131d0cdf0a858bd35af02a2f88 OPP: Call dev_pm_opp_set_opp() for required OPPs
+         32671e3799ca2e4590773fd0e63aaa4229e50c06 perf: Disallow mis-matched inherited group reads
+         0e57e6d9629ef234b9e9d57d7a439d068d916e33 Merge branch into tip/master: 'perf/urgent'
          
