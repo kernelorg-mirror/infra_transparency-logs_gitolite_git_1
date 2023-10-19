@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 19 Oct 2023 14:23:44 -0000
-Message-Id: <169772542472.20273.8281447027780104165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 19 Oct 2023 14:30:48 -0000
+Message-Id: <169772584801.25955.16115432240992720546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/v6.7-tmp/dts64
-    old: 0000000000000000000000000000000000000000
-    new: 54ca4e2e3324018d6235eba0d83953a957dbd489
+  - ref: refs/heads/master
+    old: 0e133a13370389d3894891eafe54fec2c44ad735
+    new: 6bd5e167af2e9d1aa79e4a1a2598abcdc8fafd59
+    log: |
+         90704b4be0b0d6d0a7a9369d4b9aae6a579602c7 bpftool: Fix printing of pointer value
+         6bd5e167af2e9d1aa79e4a1a2598abcdc8fafd59 bpftool: Wrap struct_ops dump in an array
+         
