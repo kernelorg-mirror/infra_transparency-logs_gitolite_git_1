@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3177854722555262284=="
+Content-Type: multipart/mixed; boundary="===============6833267604040659003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 19 Oct 2023 21:19:54 -0000
-Message-Id: <169775039480.13966.9530741399708289741@gitolite.kernel.org>
+Date: Thu, 19 Oct 2023 21:19:57 -0000
+Message-Id: <169775039757.14036.2224894219619626229@gitolite.kernel.org>
 
---===============3177854722555262284==
+--===============6833267604040659003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,155 +15,122 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 782fb3d94a3c29b3411d09a9a601750e132b731f
-    new: 7b84b41c360c23460ff3a4329c001bd3e4c15827
-    log: revlist-782fb3d94a3c-7b84b41c360c.txt
+  - ref: refs/heads/master
+    old: 74e9347ebc5be452935fe4f3eddb150aa5a6f4fe
+    new: ce55c22ec8b223a90ff3e084d842f73cfba35588
+    log: revlist-74e9347ebc5b-ce55c22ec8b2.txt
 
---===============3177854722555262284==
+--===============6833267604040659003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-782fb3d94a3c-7b84b41c360c.txt
+Content-Disposition: attachment; filename=revlist-74e9347ebc5b-ce55c22ec8b2.txt
 
-ae51257a9bd10590c61cf8a13284107c984097b3 mm: keep memory type same on DEVMEM Page-Fault
-c5e5098dcec6a48d8ca9ec5700b80c6c20063a56 mm/shmem: fix race in shmem_undo_range w/THP
-0cbc058afd927d7f9c43b0b7b4afdf802f94da5e mm-shmem-fix-race-in-shmem_undo_range-w-thp-fix
-94c99da8238ed14a866a789565274546522e3cf0 mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
-4e560654b8c18422e38a297eb5d71562cc97e9f2 mm/sparsemem: fix race in accessing memory_section->usage
-b073080e5b10cfe683b13ebc677604b33bf6e6a0 x86/mm: drop 4MB restriction on minimal NUMA node size
-b303d64414d467b4ff7e89e63971f836cc68df83 mm/vmalloc: fix the unchecked dereference warning in vread_iter()
-da664f899304fc7e1e96c120e4926be38b9a2629 Merge branch 'mm-stable' into mm-unstable
-da2d7b9c922fbd747955d94d1159415c8257846c mm: optimization on page allocation when CMA enabled
-c1d5e656c65cecb7026eb2d383318473f997be90 mm: vmscan: try to reclaim swapcache pages if no swap space
-0a9b58a72b9963a913efe2b5af4c85db0e0bed30 mm-vmscan-try-to-reclaim-swapcache-pages-if-no-swap-space-v6
-0d583d0b8e9b95622f7025908f1d4a587dd4c907 mm: fix draining remote pageset
-b1aa27c91912864be6b8d2969fdadfce7a060317 memcg, oom: unmark under_oom after the oom killer is done
-42a1500d4b35db55261bc0b54292b631f24036a6 hugetlb: optimize update_and_free_pages_bulk to avoid lock cycles
-4177f614ee0ef3a0135556da97bfeac7b4bfbf46 hugetlb: restructure pool allocations
-456ac6a424a595acc99e5a9e2dc0aa7995d0ba32 hugetlb: perform vmemmap optimization on a list of pages
-a872cd99b07f51fa4a41081062486a0c0b350e85 hugetlb: perform vmemmap restoration on a list of pages
-e5b0d00c64c539b4a3d93e125ecea2527b08dd72 hugetlb: batch freeing of vmemmap pages
-c9de88e26d0a478ec6325bda0322d261f6fc7619 hugetlb: batch PMD split for bulk vmemmap dedup
-27173892e9f5117250cfb908b0b42eab6634a33e hugetlb: batch TLB flushes when freeing vmemmap
-4c58f992200511c2147a35d628ea15abd2ac85d0 hugetlb: batch TLB flushes when restoring vmemmap
-80de121142a633a21d30743370a6704e5e6f34fc hugetlb_vmemmap: use folio argument for hugetlb_vmemmap_* functions
-8eb2edb49d1503264f1314122be9af991d0af2ab NUMA: improve the efficiency of calculating pages loss
-91db1097a394e9cc36540f8d99c22cca899590bc mm: memcg: change flush_next_time to flush_last_time
-86c56e749604299904bbb224c8ba715d5f817a98 mm: memcg: move vmstats structs definition above flushing code
-fbb30a658c8bd39ac3c1e0c69ca4de54f2cbcf7c mm: memcg: make stats flushing threshold per-memcg
-2b04ee719bbc9ca6ee85f3897ebfe3035b3e6b50 mm: memcg: clear percpu stats_pending during stats flush
-4ae9c61d55f70af57fc0392ab1e3c6bdf1e83e1b mm: workingset: move the stats flush into workingset_test_recent()
-0dfa7fb5b4d845272bf89ded91a5b83a47f3c9e8 mm: memcg: restore subtree stats flushing
-58859fc85eb4b639b8eb4185f40e255e0bc05c00 buffer: make folio_create_empty_buffers() return a buffer_head
-dc05bd8c77a1f6dac131b7a9543e4ff77985199f mpage: convert map_buffer_to_folio() to folio_create_empty_buffers()
-94681303aad073a0735f8ec2adf7871924321691 ext4: convert to folio_create_empty_buffers
-8702d28af250d528ca36a27b40c06c24ade939ad buffer: add get_nth_bh()
-51d52ca1031b967792b4db570d92849186f8db8b gfs2: convert inode unstuffing to use a folio
-9e4c0ed781f077e194ed6de63d6a75b70b7b2516 gfs2: convert gfs2_getbuf() to folios
-047b79a6aae7fdb4a479d45926fc729c342d2f98 gfs2: convert gfs2_getjdatabuf to use a folio
-584f5527d564fe338cc6becc169393eb4630b5af gfs2: convert gfs2_write_buf_to_page() to use a folio
-b9de698c33d439e8e09e02b0e91d88ae78758877 nilfs2: convert nilfs_mdt_freeze_buffer to use a folio
-f741421488f4c6df3c1f00d5a6ddcfa9ca4e26fb nilfs2: convert nilfs_grab_buffer() to use a folio
-64d2b34f900fe9ef2494ff48b89cbf8e365eb284 nilfs2: convert nilfs_copy_page() to nilfs_copy_folio()
-685be207358cf8a57344f26bd308b0195fb66d81 nilfs2: convert nilfs_mdt_forget_block() to use a folio
-015cc4bfbdceec6f28997b403ec50ebbf6a8bbf8 nilfs2: convert nilfs_mdt_get_frozen_buffer to use a folio
-5f4add25e5dc4902a01111c0f44c5fe91a5c7e6b nilfs2: remove nilfs_page_get_nth_block
-3bb537466346c97b4055817eb0eb1dbfe9bbec25 nilfs2: convert nilfs_lookup_dirty_data_buffers to use folio_create_empty_buffers
-dacad7127af9872ef869361482027702580c7684 ntfs: convert ntfs_read_block() to use a folio
-5871efc04c03fd3911a27f7600626dfb85518772 ntfs: convert ntfs_writepage to use a folio
-8d278e4b16d725ce44a24b128fc9dcaf18d898bc ntfs: convert ntfs_prepare_pages_for_non_resident_write() to folios
-68295b5634aa01c528c38429d674cb6545be4644 ntfs3: convert ntfs_zero_range() to use a folio
-6ac19184e2d75aac8ca33742139a0eda0cb889b4 ocfs2: convert ocfs2_map_page_blocks to use a folio
-d1b081a304a8452346353be9af13663af6b2b220 reiserfs: convert writepage to use a folio
-ee029e5118dd18f58b6aaba1d7a96277d5667bc2 ufs: add ufs_get_locked_folio and ufs_put_locked_folio
-7ff7f2b8542da08668f8ea0447b28378984b4243 ufs: use ufs_get_locked_folio() in ufs_alloc_lastblock()
-d19ae1fba8aa7e735872628aaaac80ab30bd0e69 ufs: convert ufs_change_blocknr() to use folios
-a530f1dde487a062f8b0459681ad5ee82ee40351 ufs: remove ufs_get_locked_page()
-44c5c7c7a954664a587755a6202d4d32fd4b4160 buffer: remove folio_create_empty_buffers()
-84d016b16247d6af6a199a74c02abde82fdee52d mm: kmsan: panic on failure to allocate early boot metadata
-7067271c4023d3ca736e1490ede4e1ce7d4d3868 mm/oom_killer: simplify OOM killer info dump helper
-e650f31c515739dd8588fef38aab5c82a6dde1c7 mm, pcp: avoid to drain PCP when process exit
-3a45178a2810eafd7a8367a014d7315e011a2016 cacheinfo: calculate size of per-CPU data cache slice
-e380ddc5926305311e89dfaec10d31f980658883 mm, pcp: reduce lock contention for draining high-order pages
-75187018973fd33e0de10f5d867660eb3e98a9e0 mm: restrict the pcp batch scale factor to avoid too long latency
-af713763bd0f582fcc82a8e64dc9bbcd612700ba mm, page_alloc: scale the number of pages that are batch allocated
-573417ac39273f19a285a61ab8325bf3b07aa620 mm: add framework for PCP high auto-tuning
-e144385dd00ec7e2f0b0f9204ab5dd3df1e31d76 mm: tune PCP high automatically
-c85e6eea0d2ecafd36c17e001b3ae8b652a009f7 mm, pcp: decrease PCP high if free pages < high watermark
-f9262fe33f4309c6e71e83dd75bdcc9833e008e8 mm, pcp: reduce detecting time of consecutive high order page freeing
-fe4b0086cfeb26c9a24c7d5f65fe7ae8d4e29028 mm: kmem: optimize get_obj_cgroup_from_current()
-65121f5470433d98bb420ae30f2726e29c0e8936 mm: kmem: add direct objcg pointer to task_struct
-7709d795ce10ac983f69de9e88ee13f080cda9c4 mm-kmem-add-direct-objcg-pointer-to-task_struct-v4
-c92127f3f4827ec706de8738ae998d44cf2212a8 mm: kmem: make memcg keep a reference to the original objcg
-9eeb058e3095c3d7566bb0f45a9c5f53052a382e mm-kmem-make-memcg-keep-a-reference-to-the-original-objcg-fix
-3115dfaca333caaf625b58c484494dab3efa8cad mm: kmem: scoped objcg protection
-f14990ac97ac9e491e6f41bac11340d4d100ff55 percpu: scoped objcg protection
-12dfaa348e3b4752ef894b0bdb717b6b31550665 mm/swap: avoid a xa load for swapout path
-28accc596cdfa8a15f69083038f62731f122ed23 mm_types: add virtual and _last_cpupid into struct folio
-58218d6b3df5b0d57db07cb8e55e601cc35c55f3 mm: add folio_last_cpupid()
-939e3545c794ba8e75af4ed9d57aae4fd9807636 mm: memory: use folio_last_cpupid() in do_numa_page()
-40bac2915cce5d3fecb8cce05c89e644437e0e49 mm: huge_memory: use folio_last_cpupid() in do_huge_pmd_numa_page()
-0b04bffc4c585112666c81eb28a6c348bfb842da mm: huge_memory: use folio_last_cpupid() in __split_huge_page_tail()
-2f0146e74ee3d323e2e6abf83b2b0e1f7dde8237 mm: remove page_cpupid_last()
-89e96265619501d55f4f1db3bdf754bc87994609 mm: add folio_xchg_access_time()
-ccdbd86f9abdc269bd7424571a7db180b42239b6 sched/fair: use folio_xchg_access_time() in numa_hint_fault_latency()
-dff831f203c2b7ee80529abf17cc2b80a47ae33a mm: mprotect: use a folio in change_pte_range()
-88f66772cb05addf5f5bc17048863af7390f0e5b mm: huge_memory: use a folio in change_huge_pmd()
-9ca1edf4d742a848553800add11009a5b569e7fb mm: remove xchg_page_access_time()
-ac1323459e250b7c13901244028766f794304606 mm: add folio_xchg_last_cpupid()
-5ebb22eba8eb52cc1f8bf5c14ec748aa296e6e22 sched/fair: use folio_xchg_last_cpupid() in should_numa_migrate_memory()
-f4bb8e9fb3e9e4880efba5fe4f3ed7a4d0c4d633 mm: migrate: use folio_xchg_last_cpupid() in folio_migrate_flags()
-27f1568f1763d83f183bb3df19083046f80dc23d mm: huge_memory: use folio_xchg_last_cpupid() in __split_huge_page_tail()
-5ff7734990b6f35fe57a084e71fdfaa121ebe206 mm: make finish_mkwrite_fault() static
-ed2face8c3281b9bcb6d2d77a2ef7632df3c3d42 mm: convert wp_page_reuse() and finish_mkwrite_fault() to take a folio
-cf585d22f1c40da501336b808de05fbae02d26ac mm: use folio_xchg_last_cpupid() in wp_page_reuse()
-8e9c8150ea76f015ee9a0ea5fcbd09402613f234 mm: remove page_cpupid_xchg_last()
-44473a9c5d74ab00d3cab8c9f2aba95f345031fa bootmem: use kmemleak_free_part_phys in put_page_bootmem
-940ad18ea2b7217b7a36706661f0aa5107f3ab5b bootmem: use kmemleak_free_part_phys in free_bootmem_page
-5c7bd4892bf0f142e32e00a185a90bc515bd3a09 mm/kmemleak: fix print format of pointer in pr_debug()
-9ca4352efd827659cdfcd5cabda691d130f2a068 mm: kmemleak: split __create_object into two functions
-d87bdbd970b30858cdb656bdd04da743fa24ff59 mm-kmemleak-split-__create_object-into-two-functions-checkpatch-fixes
-22cc8e24580d3ffd619afa1b53a42eff9376f322 mm: kmemleak: use mem_pool_free() to free object
-709b3e86ab46e14bbdae4af86a081156902a3a44 mm: kmemleak: add __find_and_remove_object()
-aa8291129116c3b581ff436c90f5df62d14493b4 mm/kmemleak: fix partially freeing unknown object warning
-365ecea03f9a6c69fd664a3eb9d5b2e98d8c7bf4 mm/migrate: correct nr_failed in migrate_pages_sync()
-6b51104bd8ddc37df9d325575b65a82f617e572c mm/migrate: add nr_split to trace_mm_migrate_pages stats.
-644916ec7cc487a813a468c12da50156a1e8f207 mm-migrate-add-nr_split-to-trace_mm_migrate_pages-stats-fix
-045eb30f4fb778157b138a597776e655bdccaa74 mm: page_alloc: skip memoryless nodes entirely
-1d85576bbc4512ce1e2102348d0d432c60d9610c mm: memory_hotplug: drop memoryless node from fallback lists
-d108611f4a62c97480977b744119920539500d14 mm: cma: report correct node id
-99b96bde4a0edb1840cfc786aabd36c426f42ec8 === mark start of DAMON hack tree ===
-7afeacb3e2221e904b23142e7a3b28058ffbc85d Add -damon suffix to the version name
-f525dd632fddb847cbee6226deae85d65c3723c5 === temporal fixes ===
-ab1c989f9f1afc3d6cdfd041b52975b3e55d0f31 === patches written or reviewed by SJ but not merged in -mm ===
-7f0fb8ebe75a9f830bf64c4c7a0f525feaf7513a selftests/damon: Add executable permission to test scripts
-6dc28357534b42d72e3c488925e6cc2dad396f24 ==== divide-by-zero fixes ====
-a6398642fca6b039be465f4e82dc7c438d9df85e mm/damon: implement a function for max nr_accesses safe calculation
-32566eac6e77b0aed13c2837b342a216b514522f mm/damon/core: avoid divide-by-zero during monitoring results update
-79e7e2095ef0cdff29386d57ac93dc065df441d9 mm/damon/ops-common: avoid divide-by-zero during region hotness calculation
-49d3406a0b0852203980a00ba3f9019008022d7b mm/damon/lru_sort: avoid divide-by-zero in hot threshold calculation
-2386d5e60b7e985cbb9e1f6168166fc0d67e43f6 mm/damon/core: avoid divide-by-zero from pseudo-moving window length calculation
-40faf96b88760009aeea8e1c06fe55420fbd38df mm/damon/core-test: test overflow-causing divide-by-zero
-03e61bf4de23c8354f717fe6ec34b1c9ba30b333 ==== DAMOS tried regions apply interval sync ====
-a1922a8bfdc27e91fade6fa54376fd2112ad6a15 ==== DAMOS: adopt moving accesses bp ====
-cfdcf8a89bede0c01bf81274c0dddb027fe3fc9a === commits having no plan to post for now ===
-af4fb913721c0c306b5ee2f3773f1e2fb00e1daf tools/perf: Integrate DAMON in perf
-9a550bda2d87b1a027e491f4c4ae6e7a27283a43 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-b247894f531f79380da23fdc2195083311aedb54 selftests/damon: Test target_ids_write()'s pids leaks
-f47b57fdb01ad93927abe26c48a15937df68de3a selftests/damon: add auto-generated files in .gitignore
-c6faf982a687d4bed01875423daa1d9411cc8973 === commits aiming not to be posted ===
-b3adec9110288670ffe4580403aa9fa0d0959121 mm/damon: Add debug code
-8983e45bd5f4c5180af6c3cee09718be59326559 mm/damon/core: Add nr_accesses_bp debug code
-ccb6cd1696d70efa53319f0c24028a5a2b4297ee Docs/DAMON: Add more DAMON docs for external DAMON-only html documents
-c27a371e20cf1691c4bf46a98130162888a76ee7 Docs/admin-guide/mm/damon/guide: Fix duplicate target name warning
-b2ccc7a274f8e2a3271cf38e1b4c597adb9150d4 Docs/mm/damon/eval: reference all footnote
-e7263ec1f935e4c376db4fe5410a4767c8cfe49c mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-c3f96921b877ac6ce78f4c24b4f28fabd75e21e2 === hacks in progress ===
-3b2e2f13526d7f9c8864c49451319c049ea5b853 ==== misc ====
-4b886338f8468fec204d1c884304d23a7d482b15 mm/damon/sysfs: add __counted_by() annotation
-10affbe334c2ecdf4b0b60b3706bb32a6e7016c3 samples: add DAMON sample kernel modules
-fc2cd5950df1a6e4d3ab944439ec25bd5961c827 mm/damon/core: add todo for DAMOS interval validation
-7b84b41c360c23460ff3a4329c001bd3e4c15827 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
+6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
+f7c4e3e5d4f6609b4725a97451948ca2e425379a xfrm: interface: use DEV_STATS_INC()
+3e4bc23926b83c3c67e5f61ae8571602754131a6 xfrm: fix a data-race in xfrm_gen_index()
+cc9b364bb1d58d3dae270c7a931a8cc717dc2b3b xfrm6: fix inet6_dev refcount underflow problem
+dad4e491e30b20f4dc615c9da65d2142d703b5c2 net: ipv6: fix return value check in esp_remove_trailer
+513f61e2193350c7a345da98559b80f61aec4fa6 net: ipv4: fix return value check in esp_remove_trailer
+91d20ab9d9ca035527af503d00e1e30d6c375f2a wifi: cfg80211: use system_unbound_wq for wiphy work
+02e0e426a2fb1446ebd7bc0eccfb48aedefb966b wifi: mac80211: fix error path key leak
+b2f750c3a80b285cd60c9346f8c96bd0a2a66cde net: rfkill: gpio: prevent value glitch during probe
+f2ac54ebf85615a6d78f5eb213a8bbeeb17ebe5d net: rfkill: reduce data->mtx scope in rfkill_fop_open
+92d4abd66f7080075793970fc8f241239e58a9e7 Bluetooth: vhci: Fix race when opening vhci device
+acab8ff29a2a226409cfe04e6d2e0896928c1b3a Bluetooth: ISO: Fix invalid context error
+33155c4aae5260475def6f7438e4e35564f4f3ba Bluetooth: hci_event: Ignore NULL link key
+1ffc6f8cc33268731fcf9629fc4438f6db1191fc Bluetooth: Reject connection with the device which has same BD_ADDR
+a239110ee8e0b0aafa265f0d54f7a16744855e70 Bluetooth: hci_sync: always check if connection is alive before deleting
+c7f59461f5a78994613afc112cdd73688aef9076 Bluetooth: Fix a refcnt underflow problem for hci_conn
+ebd032fa881882fef2acb9da1bbde48d8233241d netfilter: nf_tables: do not remove elements if set backend implements .abort
+2e1d175410972285333193837a4250a74cd472e6 netfilter: nfnetlink_log: silence bogus compiler warning
+d51c42cdef5f961f63e39e172e4dfdcac54acd5e netfilter: nf_tables: Annotate struct nft_pipapo_match with __counted_by
+4c90bba60c26db7dc7df450f748e86440149786e netfilter: nf_tables: do not refresh timeout when resetting element
+52177bbf19e6e9398375a148d2e13ed492b40b80 nf_tables: fix NULL pointer dereference in nft_inner_init()
+505ce0630ad5d31185695f8a29dde8d29f28faa7 nf_tables: fix NULL pointer dereference in nft_expr_inner_parse()
+d351c1ea2de3e36e608fc355d8ae7d0cc80e6cd6 netfilter: nft_payload: fix wrong mac header matching
+8698cb92eeece1e326a4d6a051bcf143037c4d31 net/mlx5: Perform DMA operations in the right locations
+7624e58a8b3a251e3e5108b32f2183b34453db32 net/mlx5: E-switch, register event handler before arming the event
+7a3ce8074878a68a75ceacec93d9ae05906eec86 net/mlx5: Bridge, fix peer entry ageing in LAG mode
+92fd39634541eb0a11bf1bafbc8ba92d6ddb8dba net/mlx5: Handle fw tracer change ownership event based on MTRC
+be43b7489a3c4702799e50179da69c3df7d6899b net/mlx5e: RX, Fix page_pool allocation failure recovery for striding rq
+ef9369e9c30846f5e052a11ccc70e1f6b8dc557a net/mlx5e: RX, Fix page_pool allocation failure recovery for legacy rq
+aaab619ccd07a32e5b29aa7e59b20de1dcc7a29e net/mlx5e: XDP, Fix XDP_REDIRECT mpwqe page fragment leaks on shutdown
+c51c673462a266fb813cf189f8190798a12d3124 net/mlx5e: Take RTNL lock before triggering netdev notifiers
+06b4eac9c4beda520b8a4dbbb8e33dba9d1c8fba net/mlx5e: Don't offload internal port if filter device is out device
+80f1241484dd1b1d4eab1a0211d52ec2bd83e2f1 net/mlx5e: Fix VF representors reporting zero counters to "ip -s" command
+de5724ca38fd5e442bae9c1fab31942b6544012d xfrm: fix a data-race in xfrm_lookup_with_ifid()
+d93f3f992780af4a21e6c1ab86946b7c5602f1b9 bonding: Return pointer to data after pull on skb
+8702cf12e6ba91616a72d684e90357977972991b tcp: Fix listen() warning with v4-mapped-v6 address.
+dbb13378ba306484214b84304e232723a2aaf10a selftests: fib_tests: Disable RP filter in multipath list receive test
+aa13e5241a8fa32b26d5a6b8b63d04c6357243f4 selftests: fib_tests: Count all trace point invocations
+dda5e1ee1e86c7ad15f1a62e68e173078f4799a0 Merge branch 'selftests-fib_tests-fixes-for-multipath-list-receive-tests'
+61b40cefe51af005c72dbdcf975a3d166c6e6406 net: dsa: bcm_sf2: Fix possible memory leak in bcm_sf2_mdio_register()
+242e34500a32631f85c2b4eb6cb42a368a39e54f ice: fix over-shifted variable
+419ce133ab928ab5efd7b50b2ef36ddfd4eadbd2 tcp: allow again tcp_disconnect() when threads are waiting
+c68681ae46eaaa1640b52fe366d21a93b2185df5 net/smc: fix smc clc failed issue when netdevice not in init_net
+0f4d44f6ee048818abf80c69b6bc48927c178abe netlink: specs: devlink: fix reply command values
+a258c804aa8742763dce694b5e992d7ccf4294f2 docs: fix info about representor identification
+2c0d808f36cc6e0617f9dda055a6651c777a9d64 net: ti: icssg-prueth: Fix tx_total_bytes count
+f50ee3a00382fc7eed6e0e4c9872d3dbd1b3dbcd Merge tag 'nf-23-10-12' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+fc6f716a5069180c40a8c9b63631e97da34f64a3 i40e: prevent crash on probe if hw registers have invalid values
+0288c3e709e5fabd51e84715c5c798a02f43061a ice: reset first in crash dump kernels
+42066c4d5d344cdf8564556cdbe0aa36854fefa4 ice: Fix safe mode when DDP is missing
+aeae0ef0aaa7bbe19143439ddaba7617aa46ffa2 Merge branch 'intel-wired-lan-driver-updates-2023-10-11-i40e-ice'
+2d1c882d4434a27a026b98b602f232c7919849c5 Merge tag 'mlx5-fixes-2023-10-12' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+b541260615f601ae1b5d6d0cc54e790de706303b Bluetooth: hci_event: Fix using memcmp when comparing keys
+35d91d95a0cd61ebb90e0246dc917fd25e519b8c Bluetooth: hci_event: Fix coding style
+9ee252868787ab5a26012d69e335c7371f54563a Bluetooth: btrtl: Ignore error return for hci_devcd_register()
+18f547f3fc074500ab5d419cf482240324e73a7e Bluetooth: hci_sock: fix slab oob read in create_monitor_event
+9d1a3c74746428102d55371fbf74b484733937d9 Bluetooth: avoid memcmp() out of bounds warning
+cb3871b1cd135a6662b732fbc6b3db4afcdb4a64 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
+2f3389c73832ad90b63208c0fc281ad080114c7a qed: fix LL2 RX buffer allocation
+fc8b2a619469378717e7270d2a4e1ef93c585f7a net: more strict VIRTIO_NET_HDR_GSO_UDP_L4 validation
+92e37f20f20a23fec4626ae72eda50f127acb130 selftests: openvswitch: Add version check for pyroute2
+af846afad5ca1c1a24d320adf9e48255e97db84e selftests: openvswitch: Catch cases where the tests are killed
+76035fd12cb9046be00ffb9d4262b5b3277d5068 selftests: openvswitch: Skip drop testing on older kernels
+8eff0e062201e26739c74ac2355b7362622b7190 selftests: openvswitch: Fix the ct_tuple for v4
+883f0dc0e4f6b627c0e91098724851da2eabe697 Merge branch 'ovs-selftests'
+4abbd2e3c1db671fa1286390f1310aec78386f1d net/smc: return the right falback reason when prefix checks fail
+503930f8e113edc86f92b767efb4ea57bdffffb2 netlink: Correct offload_xstats size
+7937609cd387246aed994e81aa4fa951358fba41 nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
+2b10740ce74abaea31c2cad4ff8e180549c4544b Merge tag 'for-net-2023-10-13' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+95535e37e8959f50e7aee365a5bdc9e5ed720443 gve: Do not fully free QPL pages on prefill errors
+1c2709cfff1dedbb9591e989e2f001484208d914 tcp: fix excessive TLP and RACK timeouts from HZ rounding
+cbfbfe3aee718dc4c3c837f5d2463170ee59d78c tun: prevent negative ifindex
+c53647a5df9e66dd9fedf240198e1fe50d88c286 net: usb: smsc95xx: Fix an error code in smsc95xx_reset()
+f6c7b42243565a4ed8bc9d6f681b6d0cae026abc Merge tag 'ipsec-2023-10-17' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+1d30162f35c7a73fc2f8cdcdcdbd690bedb99d1a net: pktgen: Fix interface flags printing
+1db34aa58d80988f5ee99d2fd9d8f7489c3b0681 Revert "net: wwan: iosm: enable runtime pm support for 7560"
+2915240eddba96b37de4c7e9a3d0ac6f9548454b neighbor: tracing: Move pin6 inside CONFIG_IPV6=y section
+1baf0152f7707c6c7e4ea815dcc1f431c0e603f9 netfilter: nf_tables: audit log object reset once per table
+2e2d9c7d4d37d74873583d7b0c94eac8b6869486 selftests: netfilter: Run nft_audit.sh in its own netns
+d111692a59c1470ae530cbb39bcf0346c950ecc7 netfilter: nft_set_rbtree: .deactivate fails if element has expired
+f86fb94011aeb3b26337fc22204ca726aeb8bc24 netfilter: nf_tables: revert do not remove elements if set backend implements .abort
+a0ca6b9dfef0b3cc83aa8bb485ed61a018f84982 octeon_ep: update BQL sent bytes before ringing doorbell
+f921a4a5bffa8a0005b190fb9421a7fc1fd716b6 tcp: tsq: relax tcp_small_queue_check() when rtx queue contains a single skb
+1f9f2143f24e224a8582a5d54918c43b9121eccc net: mdio-mux: fix C45 access returning -EIO after API change
+a13b67c9a015c4e21601ef9aa4ec9c5d972df1b4 net/sched: sch_hfsc: upgrade 'rt' to 'sc' when it becomes a inner curve
+68b54aeff804acceb02f228ea2e28419272c1fb9 tcp_bpf: properly release resources on error paths
+195374d893681da43a39796e53b30ac4f20400c4 ipv4: fib: annotate races around nh->nh_saddr_genid and nh->nh_saddr
+6200e00e112ce2d17b066a20dd2476d9aecbefa6 net: phy: bcm7xxx: Add missing 16nm EPHY statistics
+88343fbe5a137e2ad19cf35887d2733b9cc5cb02 Merge tag 'wireless-2023-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+9b9ac46c6cb52a2f3f779732d6837ecab1ca78dc Merge tag 'nf-23-10-18' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+a602ee3176a81280b829c9f0cf259450f7982168 net: ethernet: ti: Fix mixed module-builtin object
+311cca40661f428b7aa114fb5af578cfdbe3e8b6 net: fix ifname in netlink ntf during netns move
+7663d522099ecc464512164e660bc771b2ff7b64 net: check for altname conflicts when changing netdev's netns
+1a83f4a7c156fa6bbd6b530e89fa3270bf3d9d1b net: avoid UAF on deleted altname
+8e15aee621618a3ee3abecaf1fd8c1428098b7ef net: move altnames together with the netdevice
+3920431d98a9ff26002b16802c153d3df5f55926 selftests: net: add very basic test for netdev names and namespaces
+f7d86df41f963985261bc7a252b44dacf833d3f1 Merge branch 'net-fix-bugs-in-device-netns-move-and-rename'
+389db4fd673e5b122393a69b2973dd294a125573 net: ti: icssg-prueth: Fix r30 CMDs bitmasks
+b134a5805455d1886662a6516c965cdb9df9fbcc selftests: mptcp: join: correctly check for no RST
+6db8a37dfc541e059851652cfd4f0bb13b8ff6af tcp: check mptcp-level constraints for backlog coalescing
+72377ab2d671befd6390a1d5677f5cca61235b65 mptcp: more conservative check for zero probes
+14c56686a64c65ba716ff48f1f4b19c85f4cb2a9 mptcp: avoid sending RST when closing the initial subflow
+2cfaa8b3b7aece3c7b13dd10db20dcea65875692 selftests: mptcp: join: no RST when rm subflow/addr
+1c1f14f92beca73555f9a23c3f37bae50d9ed323 Merge branch 'mptcp-fixes-for-v6-6'
+524515020f2552759a7ef1c9d03e7dac9b1ff3c2 Revert "ethtool: Fix mod state of verbose no_mask bitset"
+ce55c22ec8b223a90ff3e084d842f73cfba35588 Merge tag 'net-6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3177854722555262284==--
+--===============6833267604040659003==--
