@@ -1,44 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============6978512798285619851=="
+Content-Type: multipart/mixed; boundary="===============4966231281887382840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 19 Oct 2023 16:00:58 -0000
-Message-Id: <169773125844.1976.5666006658883393874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 19 Oct 2023 16:02:07 -0000
+Message-Id: <169773132769.2514.12647361767253401870@gitolite.kernel.org>
 
---===============6978512798285619851==
+--===============4966231281887382840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/vfs.all
-    old: 32032c62ab696df17fc0f63e6193adba006b53b3
-    new: 687818a0557817880df13c5c08c60a2facbbfea0
-    log: revlist-32032c62ab69-687818a05578.txt
+  - ref: refs/heads/bleeding-edge
+    old: f4df34d63286e249f531fc07e351c3cafef301ef
+    new: 9f213f6d197ab7df411fe7e2826f29fbf44a6c3a
+    log: revlist-f4df34d63286-9f213f6d197a.txt
+  - ref: refs/heads/linux-next
+    old: 701ff0817fdda8d4fc8de43d1a314958273b3b33
+    new: 10a07821099f90ca90922f7dd011a4b630e2c702
+    log: |
+         c7b59371fe56fd98255f87a3e9383c80cb92377e ACPI: AC: Rename ACPI device from device to adev
+         ef3de6b58a548ee562f78073a95dfd06f658a193 Merge branch 'acpi-ac' into linux-next
+         0c21a18d5d6c6a73d098fb9b4701572370942df9 ACPI: irq: Fix incorrect return value in acpi_register_gsi()
+         d5921c460e543228d100daf67dac7a03dfaaa40a ACPI: bus: Move acpi_arm_init() to the place of after acpi_ghes_init()
+         62d58598ade408ebc69aeae44d0e21185fd343c1 Merge branch 'acpi-bus-fix' into linux-next
+         10a07821099f90ca90922f7dd011a4b630e2c702 Merge branch 'acpi-irq' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 701ff0817fdda8d4fc8de43d1a314958273b3b33
+    new: 10a07821099f90ca90922f7dd011a4b630e2c702
+    log: |
+         c7b59371fe56fd98255f87a3e9383c80cb92377e ACPI: AC: Rename ACPI device from device to adev
+         ef3de6b58a548ee562f78073a95dfd06f658a193 Merge branch 'acpi-ac' into linux-next
+         0c21a18d5d6c6a73d098fb9b4701572370942df9 ACPI: irq: Fix incorrect return value in acpi_register_gsi()
+         d5921c460e543228d100daf67dac7a03dfaaa40a ACPI: bus: Move acpi_arm_init() to the place of after acpi_ghes_init()
+         62d58598ade408ebc69aeae44d0e21185fd343c1 Merge branch 'acpi-bus-fix' into linux-next
+         10a07821099f90ca90922f7dd011a4b630e2c702 Merge branch 'acpi-irq' into linux-next
+         
 
---===============6978512798285619851==
+--===============4966231281887382840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32032c62ab69-687818a05578.txt
+Content-Disposition: attachment; filename=revlist-f4df34d63286-9f213f6d197a.txt
 
-28f028cea96d28101a8658b2b9e49c84be875284 fs: Avoid grabbing sb->s_umount under bdev->bd_holder_lock
-8a300dd4535563137d2d088c5a1524e538dadc24 block: simplify bdev_del_partition()
-c8bc3398b0b2cc04bd1fff88923cf400df8b382d block: WARN_ON_ONCE() when we remove active partitions
-558fbd7f8c7340a7fc9707fa7512ee013a2d6a1b block: move bdev_mark_dead out of disk_check_media_change
-b55205a24d26077e647032d745d3d42918ea88da block: assert that we're not holding open_mutex over blk_report_disk_dead
-35851341db86f2258461744ee07e92364f5b7195 fs: assert that open_mutex isn't held over holder ops
-79ac81458fb58e1bac836450d6c68da1da9911d9 porting: update locking requirements
-02769e4db662960a447385390f1a50ebbc539b57 Merge branch 'vfs.fixes' into vfs.all
-16ab99ee7b643e828262120e43100f7e5a375096 Merge branch 'vfs.misc' into vfs.all
-d76f4625d9216f837acec2c1026a4ef76b256f77 Merge branch 'vfs.autofs' into vfs.all
-fd80f8f98b03ead32466afa34c825ebb375f826b Merge branch 'vfs.iov_iter' into vfs.all
-784c0d2bedd04fff035c2e8f36aec46eb4a7dd68 Merge branch 'vfs.xattr' into vfs.all
-327b409f517613353d9dca6f4940d2563d477b97 Merge branch 'vfs.ctime' into vfs.all
-687818a0557817880df13c5c08c60a2facbbfea0 Merge branch 'vfs.super' into vfs.all
+d8b877d60d77a5989061ebed7d6a84850f89d23b dt-bindings: thermal: mediatek: Add mt7988 lvts compatible
+be2cc09bd5b46f13629d4fcdeac7ad1b18bb1a0b dt-bindings: thermal: mediatek: Add LVTS thermal sensors for mt7988
+6725a29321e48b1dece66fc1ba7b458f0c1d6d77 thermal/drivers/mediatek/lvts_thermal: Make coeff configurable
+585e92e6a79f2de0e9356ee399891a5fa3c0fbbf thermal/drivers/mediatek/lvts_thermal: Add mt7988 support
+6644c6291eec478874c9c4591282746da893bca5 dt-bindings: thermal: nvidia,tegra124-soctherm: Add missing unevaluatedProperties on child node schemas
+f84f6e0f4588650e22543376d3333d65d578ff73 thermal/drivers/imx8mm_thermal: Fix function pointer declaration by adding identifier name
+ebd1dea94b2e9b60ca8630c7de7602bae08d401d dt-bindings: thermal: fsl,scu-thermal: Document imx8dl
+de84da588f35423c5c2e6a46f2bc8a07f8eaf793 tools/thermal: Remove unused 'mds' and 'nrhandler' variables
+2ffa39c83b39f555d9a61daec3ed1cc79c4ba7ef thermal/drivers/mediatek/lvts_thermal: Fix error check in lvts_debugfs_init()
+50ab53095326d4aa56a5a7e5f2ebc1568b4924a8 dt-bindings: thermal: tsens: Add sa8775p compatible
+98bcee251e608345c272fd89bccd948071fc0bf5 dt-bindings: imx-thermal: Add #thermal-sensor-cells property
+438a15b16f6140b521371468d2bf31f45ca96767 dt-bindings: net: microchip: Allow nvmem-cell usage
+e9cdce582390ade0429f76c2251d7bc65ec52f10 dt-bindings: timer: add imx7d compatible
+5368084c39369f31ef026565b676791b5b38e6a5 thermal/drivers/max77620: Remove duplicate error message
+5055fadfa7e16f2427d5b3c40b2bf563ddfdab22 thermal/drivers/mediatek: Fix probe for THERMAL_V2
+c7b59371fe56fd98255f87a3e9383c80cb92377e ACPI: AC: Rename ACPI device from device to adev
+d78e6626cc7604dd5f72090d7382e605ea96fdfc ACPI: resource: Do IRQ override on TongFang GMxXGxx
+ef3de6b58a548ee562f78073a95dfd06f658a193 Merge branch 'acpi-ac' into linux-next
+0c21a18d5d6c6a73d098fb9b4701572370942df9 ACPI: irq: Fix incorrect return value in acpi_register_gsi()
+d5921c460e543228d100daf67dac7a03dfaaa40a ACPI: bus: Move acpi_arm_init() to the place of after acpi_ghes_init()
+62d58598ade408ebc69aeae44d0e21185fd343c1 Merge branch 'acpi-bus-fix' into linux-next
+10a07821099f90ca90922f7dd011a4b630e2c702 Merge branch 'acpi-irq' into linux-next
+6e120aadbec20b448ba5b37d30115f074058170e Merge branch 'acpi-resource' into bleeding-edge
+0bb4937b58ab712f158588376dbac97f8e9df68e dt-bindings: thermal: mediatek: Add LVTS thermal controller definition for mt8192
+8137bb90600d70eda524854ce3047a5681988dd6 thermal/drivers/mediatek/lvts_thermal: Add suspend and resume
+288732242db4980e2edbb3a21729c9fba58c3726 thermal/drivers/mediatek/lvts_thermal: Add mt8192 support
+5437d14d94c8b0b3a960f616dfe02dc153806225 thermal/drivers/mediatek/lvts_thermal: Update calibration data documentation
+9618efe343ead954ca5c23856ae23d0a29e7d4b9 thermal/qcom/tsens: Drop ops_v0_1
+9f213f6d197ab7df411fe7e2826f29fbf44a6c3a Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
 
---===============6978512798285619851==--
+--===============4966231281887382840==--
