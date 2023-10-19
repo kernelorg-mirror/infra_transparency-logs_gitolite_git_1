@@ -1,81 +1,155 @@
-Content-Type: multipart/mixed; boundary="===============4966231281887382840=="
+Content-Type: multipart/mixed; boundary="===============1428890369078014703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 19 Oct 2023 16:02:07 -0000
-Message-Id: <169773132769.2514.12647361767253401870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Thu, 19 Oct 2023 16:02:30 -0000
+Message-Id: <169773135074.2756.4186343969879539953@gitolite.kernel.org>
 
---===============4966231281887382840==
+--===============1428890369078014703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f4df34d63286e249f531fc07e351c3cafef301ef
-    new: 9f213f6d197ab7df411fe7e2826f29fbf44a6c3a
-    log: revlist-f4df34d63286-9f213f6d197a.txt
-  - ref: refs/heads/linux-next
-    old: 701ff0817fdda8d4fc8de43d1a314958273b3b33
-    new: 10a07821099f90ca90922f7dd011a4b630e2c702
+  - ref: refs/heads/clean-up-realtime-units-6.7
+    old: 99930eab153685d86a56972c31c306860a884c7c
+    new: 2d5f216b77e33f9b503bd42998271da35d4b7055
+    log: revlist-99930eab1536-2d5f216b77e3.txt
+  - ref: refs/heads/realtime-fixes-6.7
+    old: 9a734336838f12389209a139e6b2b7e02f8a21eb
+    new: c2988eb5cff75c02bc57e02c323154aa08f55b78
     log: |
-         c7b59371fe56fd98255f87a3e9383c80cb92377e ACPI: AC: Rename ACPI device from device to adev
-         ef3de6b58a548ee562f78073a95dfd06f658a193 Merge branch 'acpi-ac' into linux-next
-         0c21a18d5d6c6a73d098fb9b4701572370942df9 ACPI: irq: Fix incorrect return value in acpi_register_gsi()
-         d5921c460e543228d100daf67dac7a03dfaaa40a ACPI: bus: Move acpi_arm_init() to the place of after acpi_ghes_init()
-         62d58598ade408ebc69aeae44d0e21185fd343c1 Merge branch 'acpi-bus-fix' into linux-next
-         10a07821099f90ca90922f7dd011a4b630e2c702 Merge branch 'acpi-irq' into linux-next
+         6c664484337b37fa0cf6e958f4019623e30d40f7 xfs: hoist freeing of rt data fork extent mappings
+         b73494fa9a304ab95b59f07845e8d7d36e4d23e0 xfs: prevent rt growfs when quota is enabled
+         c2988eb5cff75c02bc57e02c323154aa08f55b78 xfs: rt stubs should return negative errnos when rt disabled
          
-  - ref: refs/heads/testing
-    old: 701ff0817fdda8d4fc8de43d1a314958273b3b33
-    new: 10a07821099f90ca90922f7dd011a4b630e2c702
+  - ref: refs/heads/refactor-rt-unit-conversions-6.7
+    old: ffe92e0d7c2eb38e8084e481f0e1fc1efd7d447b
+    new: ef5a83b7e597038d1c734ddb4bc00638082c2bf1
+    log: revlist-ffe92e0d7c2e-ef5a83b7e597.txt
+  - ref: refs/heads/refactor-rtbitmap-accessors-6.7
+    old: bbfd98d868d78ca1a2e579e8a141932302fb8503
+    new: 663b8db7b0256b81152b2f786e45ecf12bdf265f
     log: |
-         c7b59371fe56fd98255f87a3e9383c80cb92377e ACPI: AC: Rename ACPI device from device to adev
-         ef3de6b58a548ee562f78073a95dfd06f658a193 Merge branch 'acpi-ac' into linux-next
-         0c21a18d5d6c6a73d098fb9b4701572370942df9 ACPI: irq: Fix incorrect return value in acpi_register_gsi()
-         d5921c460e543228d100daf67dac7a03dfaaa40a ACPI: bus: Move acpi_arm_init() to the place of after acpi_ghes_init()
-         62d58598ade408ebc69aeae44d0e21185fd343c1 Merge branch 'acpi-bus-fix' into linux-next
-         10a07821099f90ca90922f7dd011a4b630e2c702 Merge branch 'acpi-irq' into linux-next
+         097b4b7b64ef67a4703b89fd4064480b61557fd5 xfs: convert rt summary macros to helpers
+         d0448fe76ac1a9ccbce574577a4c82246d17eec4 xfs: create helpers for rtbitmap block/wordcount computations
+         312d61021b8947446aa9ec80b78b9230e8cb3691 xfs: create a helper to handle logging parts of rt bitmap/summary blocks
+         97e993830a1cdd86ad7d207308b9f55a00660edd xfs: use accessor functions for bitmap words
+         bd85af280de66a946022775a876edf0c553e3f35 xfs: create helpers for rtsummary block/wordcount computations
+         663b8db7b0256b81152b2f786e45ecf12bdf265f xfs: use accessor functions for summary info words
          
+  - ref: refs/heads/refactor-rtbitmap-macros-6.7
+    old: 749227b7bb8780a440df17d59f26c7547c169f2e
+    new: d0448fe76ac1a9ccbce574577a4c82246d17eec4
+    log: revlist-749227b7bb87-d0448fe76ac1.txt
+  - ref: refs/heads/rtalloc-speedups-6.7
+    old: daebd19481049988c1522a9dd3798b4948b9491d
+    new: e0f7422f54b092df7996f21da69824aea496490a
+    log: |
+         41f33d82cfd310e344fc9183f02cc9e0d2d27663 xfs: consolidate realtime allocation arguments
+         e94b53ff699c2674a9ec083342a5254866210ade xfs: cache last bitmap block in realtime allocator
+         5b1d0ae9753f0654ab56c1e06155b3abf2919d71 xfs: simplify xfs_rtbuf_get calling conventions
+         e2cf427c91494ea0d1173a911090c39665c5fdef xfs: simplify rt bitmap/summary block accessor functions
+         e23aaf450de733044a74bc95528f728478b61c2a xfs: invert the realtime summary cache
+         1b5d63963f9820b1c14883ee56b387586ff72aa0 xfs: return maximum free size from xfs_rtany_summary()
+         ec5857bf07639a03d32b8ecb346df634925f8bc2 xfs: limit maxlen based on available space in xfs_rtallocate_extent_near()
+         85fa2c774397b98f5dc65a4ed6ab17c1a15db158 xfs: don't try redundant allocations in xfs_rtallocate_extent_near()
+         e0f7422f54b092df7996f21da69824aea496490a xfs: don't look for end of extent further than necessary in xfs_rtallocate_extent_near()
+         
+  - ref: refs/tags/realtime-fixes-6.7_2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: 5806eb3273b603d8d517b457aaed73e32053b8c3
+  - ref: refs/tags/clean-up-realtime-units-6.7_2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: bdd7659952d552d9455eda16e88332a1fa3aeabe
+  - ref: refs/tags/refactor-rt-unit-conversions-6.7_2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: 7f7372b3ea9df45f9632e1c329656eae7540f344
+  - ref: refs/tags/refactor-rtbitmap-macros-6.7_2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: 5b01a7db2311fcf63a3c84d9434ae0ab3535b683
+  - ref: refs/tags/refactor-rtbitmap-accessors-6.7_2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: 5e8be9e0a77ac8051ed0b9a8de073e79d8a9a784
+  - ref: refs/tags/rtalloc-speedups-6.7_2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: 53acd26cfbe2320ac8b04af7a18c2bfa686367a8
 
---===============4966231281887382840==
+--===============1428890369078014703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4df34d63286-9f213f6d197a.txt
+Content-Disposition: attachment; filename=revlist-99930eab1536-2d5f216b77e3.txt
 
-d8b877d60d77a5989061ebed7d6a84850f89d23b dt-bindings: thermal: mediatek: Add mt7988 lvts compatible
-be2cc09bd5b46f13629d4fcdeac7ad1b18bb1a0b dt-bindings: thermal: mediatek: Add LVTS thermal sensors for mt7988
-6725a29321e48b1dece66fc1ba7b458f0c1d6d77 thermal/drivers/mediatek/lvts_thermal: Make coeff configurable
-585e92e6a79f2de0e9356ee399891a5fa3c0fbbf thermal/drivers/mediatek/lvts_thermal: Add mt7988 support
-6644c6291eec478874c9c4591282746da893bca5 dt-bindings: thermal: nvidia,tegra124-soctherm: Add missing unevaluatedProperties on child node schemas
-f84f6e0f4588650e22543376d3333d65d578ff73 thermal/drivers/imx8mm_thermal: Fix function pointer declaration by adding identifier name
-ebd1dea94b2e9b60ca8630c7de7602bae08d401d dt-bindings: thermal: fsl,scu-thermal: Document imx8dl
-de84da588f35423c5c2e6a46f2bc8a07f8eaf793 tools/thermal: Remove unused 'mds' and 'nrhandler' variables
-2ffa39c83b39f555d9a61daec3ed1cc79c4ba7ef thermal/drivers/mediatek/lvts_thermal: Fix error check in lvts_debugfs_init()
-50ab53095326d4aa56a5a7e5f2ebc1568b4924a8 dt-bindings: thermal: tsens: Add sa8775p compatible
-98bcee251e608345c272fd89bccd948071fc0bf5 dt-bindings: imx-thermal: Add #thermal-sensor-cells property
-438a15b16f6140b521371468d2bf31f45ca96767 dt-bindings: net: microchip: Allow nvmem-cell usage
-e9cdce582390ade0429f76c2251d7bc65ec52f10 dt-bindings: timer: add imx7d compatible
-5368084c39369f31ef026565b676791b5b38e6a5 thermal/drivers/max77620: Remove duplicate error message
-5055fadfa7e16f2427d5b3c40b2bf563ddfdab22 thermal/drivers/mediatek: Fix probe for THERMAL_V2
-c7b59371fe56fd98255f87a3e9383c80cb92377e ACPI: AC: Rename ACPI device from device to adev
-d78e6626cc7604dd5f72090d7382e605ea96fdfc ACPI: resource: Do IRQ override on TongFang GMxXGxx
-ef3de6b58a548ee562f78073a95dfd06f658a193 Merge branch 'acpi-ac' into linux-next
-0c21a18d5d6c6a73d098fb9b4701572370942df9 ACPI: irq: Fix incorrect return value in acpi_register_gsi()
-d5921c460e543228d100daf67dac7a03dfaaa40a ACPI: bus: Move acpi_arm_init() to the place of after acpi_ghes_init()
-62d58598ade408ebc69aeae44d0e21185fd343c1 Merge branch 'acpi-bus-fix' into linux-next
-10a07821099f90ca90922f7dd011a4b630e2c702 Merge branch 'acpi-irq' into linux-next
-6e120aadbec20b448ba5b37d30115f074058170e Merge branch 'acpi-resource' into bleeding-edge
-0bb4937b58ab712f158588376dbac97f8e9df68e dt-bindings: thermal: mediatek: Add LVTS thermal controller definition for mt8192
-8137bb90600d70eda524854ce3047a5681988dd6 thermal/drivers/mediatek/lvts_thermal: Add suspend and resume
-288732242db4980e2edbb3a21729c9fba58c3726 thermal/drivers/mediatek/lvts_thermal: Add mt8192 support
-5437d14d94c8b0b3a960f616dfe02dc153806225 thermal/drivers/mediatek/lvts_thermal: Update calibration data documentation
-9618efe343ead954ca5c23856ae23d0a29e7d4b9 thermal/qcom/tsens: Drop ops_v0_1
-9f213f6d197ab7df411fe7e2826f29fbf44a6c3a Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+6c664484337b37fa0cf6e958f4019623e30d40f7 xfs: hoist freeing of rt data fork extent mappings
+b73494fa9a304ab95b59f07845e8d7d36e4d23e0 xfs: prevent rt growfs when quota is enabled
+c2988eb5cff75c02bc57e02c323154aa08f55b78 xfs: rt stubs should return negative errnos when rt disabled
+ddd98076d5c075c8a6c49d9e6e8ee12844137f23 xfs: fix units conversion error in xfs_bmap_del_extent_delay
+f6a2dae2a1f52ea23f649c02615d073beba4cc35 xfs: make sure maxlen is still congruent with prod when rounding down
+13928113fc5b5e79c91796290a99ed991ac0efe2 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
+a684c538bc14410565e8939393089670fa1e19dd xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
+03f4de332e2e79db36ed2156fb2350480f142bec xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
+f29c3e745dc253bf9d9d06ddc36af1a534ba1dd0 xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
+3d2b6d034f0feb7741b313f978a2fe45e917e1be xfs: rename xfs_verify_rtext to xfs_verify_rtbext
+2d5f216b77e33f9b503bd42998271da35d4b7055 xfs: convert rt extent numbers to xfs_rtxnum_t
 
---===============4966231281887382840==--
+--===============1428890369078014703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ffe92e0d7c2e-ef5a83b7e597.txt
+
+6c664484337b37fa0cf6e958f4019623e30d40f7 xfs: hoist freeing of rt data fork extent mappings
+b73494fa9a304ab95b59f07845e8d7d36e4d23e0 xfs: prevent rt growfs when quota is enabled
+c2988eb5cff75c02bc57e02c323154aa08f55b78 xfs: rt stubs should return negative errnos when rt disabled
+ddd98076d5c075c8a6c49d9e6e8ee12844137f23 xfs: fix units conversion error in xfs_bmap_del_extent_delay
+f6a2dae2a1f52ea23f649c02615d073beba4cc35 xfs: make sure maxlen is still congruent with prod when rounding down
+13928113fc5b5e79c91796290a99ed991ac0efe2 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
+a684c538bc14410565e8939393089670fa1e19dd xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
+03f4de332e2e79db36ed2156fb2350480f142bec xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
+f29c3e745dc253bf9d9d06ddc36af1a534ba1dd0 xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
+3d2b6d034f0feb7741b313f978a2fe45e917e1be xfs: rename xfs_verify_rtext to xfs_verify_rtbext
+2d5f216b77e33f9b503bd42998271da35d4b7055 xfs: convert rt extent numbers to xfs_rtxnum_t
+fa5a387230861116c2434c20d29fc4b3fd077d24 xfs: create a helper to convert rtextents to rtblocks
+68db60bf01c131c09bbe35adf43bd957a4c124bc xfs: create a helper to compute leftovers of realtime extents
+2c2b981b737a519907429f62148bbd9e40e01132 xfs: create a helper to convert extlen to rtextlen
+5dc3a80d46a450481df7f7e9fe673ba3eb4514c3 xfs: create helpers to convert rt block numbers to rt extent numbers
+055641248f649b52620a5fe8774bea253690e057 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
+5f57f7309d9ab9d24d50c5707472b1ed8af4eabc xfs: create rt extent rounding helpers for realtime extent blocks
+ef5a83b7e597038d1c734ddb4bc00638082c2bf1 xfs: use shifting and masking when converting rt extents, if possible
+
+--===============1428890369078014703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-749227b7bb87-d0448fe76ac1.txt
+
+6c664484337b37fa0cf6e958f4019623e30d40f7 xfs: hoist freeing of rt data fork extent mappings
+b73494fa9a304ab95b59f07845e8d7d36e4d23e0 xfs: prevent rt growfs when quota is enabled
+c2988eb5cff75c02bc57e02c323154aa08f55b78 xfs: rt stubs should return negative errnos when rt disabled
+ddd98076d5c075c8a6c49d9e6e8ee12844137f23 xfs: fix units conversion error in xfs_bmap_del_extent_delay
+f6a2dae2a1f52ea23f649c02615d073beba4cc35 xfs: make sure maxlen is still congruent with prod when rounding down
+13928113fc5b5e79c91796290a99ed991ac0efe2 xfs: move the xfs_rtbitmap.c declarations to xfs_rtbitmap.h
+a684c538bc14410565e8939393089670fa1e19dd xfs: convert xfs_extlen_t to xfs_rtxlen_t in the rt allocator
+03f4de332e2e79db36ed2156fb2350480f142bec xfs: convert rt bitmap/summary block numbers to xfs_fileoff_t
+f29c3e745dc253bf9d9d06ddc36af1a534ba1dd0 xfs: convert rt bitmap extent lengths to xfs_rtbxlen_t
+3d2b6d034f0feb7741b313f978a2fe45e917e1be xfs: rename xfs_verify_rtext to xfs_verify_rtbext
+2d5f216b77e33f9b503bd42998271da35d4b7055 xfs: convert rt extent numbers to xfs_rtxnum_t
+fa5a387230861116c2434c20d29fc4b3fd077d24 xfs: create a helper to convert rtextents to rtblocks
+68db60bf01c131c09bbe35adf43bd957a4c124bc xfs: create a helper to compute leftovers of realtime extents
+2c2b981b737a519907429f62148bbd9e40e01132 xfs: create a helper to convert extlen to rtextlen
+5dc3a80d46a450481df7f7e9fe673ba3eb4514c3 xfs: create helpers to convert rt block numbers to rt extent numbers
+055641248f649b52620a5fe8774bea253690e057 xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
+5f57f7309d9ab9d24d50c5707472b1ed8af4eabc xfs: create rt extent rounding helpers for realtime extent blocks
+ef5a83b7e597038d1c734ddb4bc00638082c2bf1 xfs: use shifting and masking when converting rt extents, if possible
+90d98a6ada1da0f8797ff3f5adafd175dd8c0a81 xfs: convert the rtbitmap block and bit macros to static inline functions
+add3cddaea509071d01bf1d34df0d05db1a93a07 xfs: remove XFS_BLOCKWSIZE and XFS_BLOCKWMASK macros
+a9948626849c2c65dfd201b5e9d855e62937de61 xfs: convert open-coded xfs_rtword_t pointer accesses to helper
+097b4b7b64ef67a4703b89fd4064480b61557fd5 xfs: convert rt summary macros to helpers
+d0448fe76ac1a9ccbce574577a4c82246d17eec4 xfs: create helpers for rtbitmap block/wordcount computations
+
+--===============1428890369078014703==--
