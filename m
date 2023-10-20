@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Fri, 20 Oct 2023 13:30:29 -0000
-Message-Id: <169780862932.18138.1444436045729619570@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1722857241841687345=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/subspace/site
+Date: Fri, 20 Oct 2023 13:34:42 -0000
+Message-Id: <169780888235.19627.16917214199683409820@gitolite.kernel.org>
+
+--===============1722857241841687345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/infra/subspace/site
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending-4.19
-    old: 61be39621b1242a05ab0d6c466d7ebcbb18c1581
-    new: e887f7a55ac5a7e6f216de60432905f3e9e2d440
+  - ref: refs/heads/master
+    old: 55097b2d0d8a281c143e54cf13c636523f81a646
+    new: 226927ecb1631ca51ee0782d3756c484a14d7502
     log: |
-         d2fe40349fd2a902ef1cbf8fcab430ed7a4b56b0 net: usb: smsc95xx: Fix an error code in smsc95xx_reset()
-         c3bf05b7d2232d7b7fdcf6ac9439dec140c005a9 net: pktgen: Fix interface flags printing
-         9d267fcdd9f90b986be985c25c8696558ca02b2a netfilter: nft_set_rbtree: .deactivate fails if element has expired
-         e887f7a55ac5a7e6f216de60432905f3e9e2d440 net/sched: sch_hfsc: upgrade 'rt' to 'sc' when it becomes a inner curve
+         226927ecb1631ca51ee0782d3756c484a14d7502 Adjust page_width to 80 em
          
+
+--===============1722857241841687345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1697808881 -0400
+pushee gitolite.kernel.org:pub/scm/infra/subspace/site
+nonce 1697808881-d357044ee3d829e89da66aa2f2282a599f50d421
+
+55097b2d0d8a281c143e54cf13c636523f81a646 226927ecb1631ca51ee0782d3756c484a14d7502 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZTKB8QAKCRC2xBzjVmSZ
+bNX2AP9TXJIm8DKq3UZurs+7k3WBRsIrksbmImL9dF9baj4uqQD9E+v1pUwCt91m
+sFypxIGJmIUwmqBzEUd0owkMCD7Lrwo=
+=6kiq
+-----END PGP SIGNATURE-----
+
+--===============1722857241841687345==--
