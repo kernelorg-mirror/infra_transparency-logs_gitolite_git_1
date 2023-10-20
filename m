@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 20 Oct 2023 15:32:31 -0000
-Message-Id: <169781595111.7995.13294890295600825020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 20 Oct 2023 15:35:18 -0000
+Message-Id: <169781611840.10579.1477426206963554414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/tags/clk-imx-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 68a5ca3773e4bd0660ade1c1d02337c63cfda785
+  - ref: refs/heads/master
+    old: ccb29663ccefc230bae15b04be3c3caf7883e9bc
+    new: ef27f87dbe1c48970d3cc40e738e2f6c7a81da6f
+    log: |
+         ef27f87dbe1c48970d3cc40e738e2f6c7a81da6f station: reload settings in 'netconfig_after_roam' case
+         
