@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 Oct 2023 11:47:52 -0000
-Message-Id: <169780247256.9429.4019191564253825993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 20 Oct 2023 11:50:01 -0000
+Message-Id: <169780260123.10283.4943411934423838546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: b4a11b2033b7d3dfdd46592f7036a775b18cecd1
-    new: 20c6e05bd33deaa6fa890252d7ffc5ad54a0942c
+    old: 7db3111043885c146e795c199d39c3f9042d97c0
+    new: 665e7d83c5386f9abdc67b2e4b6e6d9579aadfcb
     log: |
-         20c6e05bd33deaa6fa890252d7ffc5ad54a0942c ethtool: untangle the linkmode and ethtool headers
+         665e7d83c5386f9abdc67b2e4b6e6d9579aadfcb i40e: Fix I40E_FLAG_VF_VLAN_PRUNING value
          
