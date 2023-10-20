@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 20 Oct 2023 15:53:15 -0000
-Message-Id: <169781719589.23267.8676237172638734331@gitolite.kernel.org>
+Date: Fri, 20 Oct 2023 15:54:03 -0000
+Message-Id: <169781724370.23656.13145128070842982743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/tags/perf-tools-fixes-for-v6.6-2-2023-10-20
-    old: 0000000000000000000000000000000000000000
-    new: b2c97d3d0d8cffa448f936d2b5849068045b58f6
+  - ref: refs/heads/tmp.perf-tools
+    old: 45d6f770cec48030bc67bf385ba45e11dbf56fd4
+    new: 4fa008a2db484024a5cb52676a1b1534dc82330c
+    log: |
+         4fa008a2db484024a5cb52676a1b1534dc82330c tools build: Fix llvm feature detection, still used by bpftool
+         
