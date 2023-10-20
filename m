@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-Date: Fri, 20 Oct 2023 02:47:03 -0000
-Message-Id: <169777002369.29913.11571012508358389434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 20 Oct 2023 02:52:46 -0000
+Message-Id: <169777036606.1247.8164488968294090920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-user: jarkko
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/keystone-5.19.y
-    old: 369bd97486d98a67f785578872fc2b8f17a4641d
-    new: 738ca2afd2c31bb19b188d0688a56bf7208decd2
-    log: |
-         738ca2afd2c31bb19b188d0688a56bf7208decd2 arch/riscv: Keystone
-         
+  - ref: refs/tags/mlx5-updates-2023-10-19
+    old: 0000000000000000000000000000000000000000
+    new: 30455a109352cd3fcdb52b9f7d0bfcf4fa7a6901
