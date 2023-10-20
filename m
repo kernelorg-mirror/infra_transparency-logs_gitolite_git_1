@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6756344650805167074=="
+Content-Type: multipart/mixed; boundary="===============1885175543339465015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 20 Oct 2023 17:57:16 -0000
-Message-Id: <169782463612.18271.16803402674036885263@gitolite.kernel.org>
+Date: Fri, 20 Oct 2023 17:57:36 -0000
+Message-Id: <169782465646.18456.10175139718902519393@gitolite.kernel.org>
 
---===============6756344650805167074==
+--===============1885175543339465015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 524515020f2552759a7ef1c9d03e7dac9b1ff3c2
-    new: 8c0b48e01daba5ca58f939a8425855d3f4f2ed14
-    log: revlist-524515020f25-8c0b48e01dab.txt
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
+  - ref: refs/heads/dev-queue
+    old: 454c2a29ddd03152dc50c76ebfd7fbb088d33553
+    new: be7e33aeb956df663e655255b73ac97434398909
+    log: revlist-454c2a29ddd0-be7e33aeb956.txt
 
---===============6756344650805167074==
+--===============1885175543339465015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-524515020f25-8c0b48e01dab.txt
+Content-Disposition: attachment; filename=revlist-454c2a29ddd0-be7e33aeb956.txt
 
 3170256d7bc1ef81587caf4b83573eb1f5bb4fb6 counter: chrdev: fix getting array extensions
 df8fdd01c98b99d04915c04f3a5ce73f55456b7c counter: microchip-tcb-capture: Fix the use of internal GCLK logic
@@ -296,5 +293,14 @@ f97eee484e71890131f9c563c5cc6d5a69e4308d r8169: fix the KCSAN reported data race
 665e7d83c5386f9abdc67b2e4b6e6d9579aadfcb i40e: Fix I40E_FLAG_VF_VLAN_PRUNING value
 fb71ba0ed8be9534493c80ba00142a64d9972a72 treewide: Spelling fix in comment
 8c0b48e01daba5ca58f939a8425855d3f4f2ed14 igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+4f70f0c33128ec472f0d227e6492ef176b3cb99c PCI: Extract ATS disabling to a helper function
+5da54a1bf7b6b0a5271cfd4e160dd418dfed8a34 PCI: Disable ATS for specific Intel IPU E2000 devices
+2d33009174ae67ed8daf6f8c3e6f3c8c8a7e8048 i40e: fix livelocks in i40e_reset_subtask()
+678e1509ad87747d8a9f7870d3bc1044ff0db893 i40e: fix 32bit FW gtime wrapping issue
+ca64308afa4a128e9f54183b4b5eb095d62e64df igc: Fix ambiguity in the ethtool advertising
+a27f08e84d59c557b22d7adbca4a2fd1726c3a09 i40e: sync next_to_clean and next_to_process for programming status desc
+48174cbe50f24add22f7fc5d9f0db9dc5a8b0523 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+4b11cc18407c2de6fe5c77c94eb687008b8d253d ice: Fix VF-VF filter rules in switchdev mode
+be7e33aeb956df663e655255b73ac97434398909 i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
 
---===============6756344650805167074==--
+--===============1885175543339465015==--
