@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0280951657226285183=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 20 Oct 2023 20:53:43 -0000
-Message-Id: <169783522379.14771.9444438660130379439@gitolite.kernel.org>
-
---===============0280951657226285183==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 20 Oct 2023 20:59:27 -0000
+Message-Id: <169783556738.21134.15027052558448797823@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 82b708d6176d93bdf882b57d8253e493e4ad0d58
-    new: 94b0ee7a9cad4151c4928e7901299e94ad99672e
+  - ref: refs/heads/trace/core
+    old: f5d9e8e08f81c9e7c723de7abcce106808f0770c
+    new: 845e31e1101fc8533be52aff42d8f1ff48636024
     log: |
-         94b0ee7a9cad4151c4928e7901299e94ad99672e 6.1-stable patches
+         2819f23ac12ce93ff79ca7a54597df9a4a1f6331 eventfs: Use eventfs_remove_events_dir()
+         5ddd8baa4857709b4e5d84b376d735152851955b tracing: Make system_callback() function static
+         b8a555dc31e5aa18d976de0bc228006e398a2e7d eventfs: Use ERR_CAST() in eventfs_create_events_dir()
+         7e8ad67c9b5c11e990c320ed7e7563f2301672a7 eventfs: Fix failure path in eventfs_create_events_dir()
+         5264a2f4bb3baf712e19f1f053caaa8d7d3afa2e tracing: Fix a NULL vs IS_ERR() bug in event_subsystem_dir()
+         64bf2f685c795e75dd855761c75a193ee5998731 tracefs/eventfs: Modify mismatched function name
+         d0ed46b60396cfa7e0056f55e1ce0b43c7db57b6 tracing: Move readpos from seq_buf to trace_seq
+         845e31e1101fc8533be52aff42d8f1ff48636024 seq_buf: fix a misleading comment
          
-
---===============0280951657226285183==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697835222 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697835221-c062e48af2df90e4d4d18921f1c4166cd02f06f1
-
-82b708d6176d93bdf882b57d8253e493e4ad0d58 94b0ee7a9cad4151c4928e7901299e94ad99672e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUy6NYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5xIP/ih20bLRON0Sk/cGtEsV
-KwKSndQbfcjIqIwyXmsBPmM4Qb1n2D9oQkdaGz1e3uYtyJO5PEDfnb91Xxkbl8UZ
-hGRZDnT2OaoG3+tD5hwyptorSAM8aq1CTJMumlPbUjhh4wB+8sVy3KEQS90nhmdP
-jQ1OY33t3sfTtrT7lL1C9Cf3RDScG0WUgIkKoh8jSBTJ14XK7bnm2S3nvJdBk96+
-dQw5ESp8WExHKMLSkBcszkYQeyk4aLTQUQSF7JN7/uX4hOiv3MCpHmumCfww8TFL
-LJV7F17sOKCt77nDu7dQhTsgq4rKm6hYAiU7oNWS8FeQp5EGok4qGJrrErppOzXQ
-ri/w4+K2nje9yhg2+38WIWdRrOjSZ8Ai0rPaSqY+kRphEkAUWkSnNboJBfN4bdHi
-fTOfoEzJIfnXIbQy75vGF1HTSRhR2js7u0usG0OCu49wS/z4Gef0DmJ2wwNYaQZ5
-HvPv2b5IpqDq6VOfghviYc6GR9cQT8IbkK6BQkc1DktAVcZyg554AL1jLwthPilN
-/LAUPrJSQfo0BKL4vOVs0O/owG1YqaQH5x/jDBMgzBweORLF3WDbsc/dQFeV7S1H
-jPlFn3hzn2cMOf8boLXtOt174QbuZ7eqTQTcb9AgKayiubpRbbLAF6mL+jNUkuDL
-ab9E3yQft3DpEATLu1siYgyL
-=B0zZ
------END PGP SIGNATURE-----
-
---===============0280951657226285183==--
