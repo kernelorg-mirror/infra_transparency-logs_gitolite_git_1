@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8936460405755264801=="
+Content-Type: multipart/mixed; boundary="===============0035641318019455555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 20 Oct 2023 19:02:53 -0000
-Message-Id: <169782857343.32043.12980913479732635535@gitolite.kernel.org>
+Date: Fri, 20 Oct 2023 19:03:04 -0000
+Message-Id: <169782858407.32183.17410696477956068545@gitolite.kernel.org>
 
---===============8936460405755264801==
+--===============0035641318019455555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,35 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: fb0c23ee7a48198fb320510ce3c9921fbed711b9
-    new: a911a5d0f84f7d3afefc33a1d5f00527f06c6614
+  - ref: refs/heads/stable-0.12.y
+    old: e0fd309d720a33686d300c27ee1f4a9432667723
+    new: cf5028b3a76b9dbc0a8e0158df65d0e25c89e2bf
     log: |
-         a911a5d0f84f7d3afefc33a1d5f00527f06c6614 Notes added by 'git notes add'
+         cf5028b3a76b9dbc0a8e0158df65d0e25c89e2bf Up release to 0.12.4
          
+  - ref: refs/tags/v0.12.4
+    old: 0000000000000000000000000000000000000000
+    new: e880490eb53de722b34841356d871bb8cdcd91eb
 
---===============8936460405755264801==
+--===============0035641318019455555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1697828572 -0400
+pusher B6C41CE35664996C! 1697828583 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1697828572-c282a7c862e89c3a9d8a924f2f19dbc3a7326eb3
+nonce 1697828583-ca41c9bf3c3dcaaedb7a3519bc1fe048d26fdafc
 
-fb0c23ee7a48198fb320510ce3c9921fbed711b9 a911a5d0f84f7d3afefc33a1d5f00527f06c6614 refs/notes/signatures/tar
+e0fd309d720a33686d300c27ee1f4a9432667723 cf5028b3a76b9dbc0a8e0158df65d0e25c89e2bf refs/heads/stable-0.12.y
+0000000000000000000000000000000000000000 e880490eb53de722b34841356d871bb8cdcd91eb refs/tags/v0.12.4
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZTLO3AAKCRC2xBzjVmSZ
-bDpWAP9zcAu6sXubCKbgpkydI66/Dd4FCpnnbty0zw4OqCjydAEA7C/YodwSnayU
-u4XooZKMQG2zLXDRG1a45gjZJ6AyhAA=
-=Xriy
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZTLO5wAKCRC2xBzjVmSZ
+bNGqAQDq6JAWUG2dI6Zah7qtusdD6ZQG7oW1PQz0NG5VOIoauQD/VnDzV5crgpCz
+0ejOg7hN0ZeoUcT8yX4LHmXR9/0SDwc=
+=LJvq
 -----END PGP SIGNATURE-----
 
---===============8936460405755264801==--
+--===============0035641318019455555==--
