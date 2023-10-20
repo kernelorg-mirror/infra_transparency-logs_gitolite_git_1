@@ -1,36 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 20 Oct 2023 16:51:03 -0000
-Message-Id: <169782066302.1653.5608832281267629342@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6132505728976277942=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 20 Oct 2023 16:52:16 -0000
+Message-Id: <169782073631.2163.13077560528977383271@gitolite.kernel.org>
+
+--===============6132505728976277942==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 9f213f6d197ab7df411fe7e2826f29fbf44a6c3a
-    new: 76b91e97ec16432fed5f13f9eff07349e5674385
+  - ref: refs/heads/master
+    old: 417f4f5d0d9b35d1396b07c3e5f9f111f0e8d442
+    new: 31cf0a87ef545058292e32d1b3232541426ddee8
     log: |
-         b5bdb60faaaff11bcfc9a90372158bc56e7ff544 ACPI: scan: Use the acpi_device_is_present() helper in more places
-         a1b138ca64c60d10549cc4641488e75bf9554902 Merge branch 'acpi-resource' into linux-next
-         22130b9ece42909d65741a9d11268ed90a2f6a31 Merge branch 'acpi-scan' into bleeding-edge
-         76b91e97ec16432fed5f13f9eff07349e5674385 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+         31cf0a87ef545058292e32d1b3232541426ddee8 4.14-stable patches
          
-  - ref: refs/heads/linux-next
-    old: 10a07821099f90ca90922f7dd011a4b630e2c702
-    new: a1b138ca64c60d10549cc4641488e75bf9554902
-    log: |
-         d78e6626cc7604dd5f72090d7382e605ea96fdfc ACPI: resource: Do IRQ override on TongFang GMxXGxx
-         a1b138ca64c60d10549cc4641488e75bf9554902 Merge branch 'acpi-resource' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 10a07821099f90ca90922f7dd011a4b630e2c702
-    new: a1b138ca64c60d10549cc4641488e75bf9554902
-    log: |
-         d78e6626cc7604dd5f72090d7382e605ea96fdfc ACPI: resource: Do IRQ override on TongFang GMxXGxx
-         a1b138ca64c60d10549cc4641488e75bf9554902 Merge branch 'acpi-resource' into linux-next
-         
+
+--===============6132505728976277942==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697820735 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1697820734-19dfc927e63c20c73269a6cb5e72f829fbf8ad3e
+
+417f4f5d0d9b35d1396b07c3e5f9f111f0e8d442 31cf0a87ef545058292e32d1b3232541426ddee8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUysD8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XHIQANK+7j1Jh4yUiOYHrB1Q
+sRKEK8/48S6M5wqb0HcBiELg45SlCf2UFgtu5TmLc/ckkUUV5W4OO9fb4DrrGbyU
+dEIkgPX0V3EzP4qgcquokM4Ty/rgq3ZIku5XeT/pYT1OOWuxd/0zR5Qp9DsSRKfv
+mHmtuto0OxyIVNJRW0Io12fw3Z7aSnk8Kp7w8OjZQqqdZDNE6U5oLfe+B1vp+nwQ
+gbacXzjL0eU18wd7UQIg8T+MpqSvYdDMCnxIAcEt5VkLNiJZzwyjRC6UUtS2aa1v
+2pbhAjJfjjz4m2VNPCkHo6QlrMaHDZpXdHwlT/o5ooT7zVoshPE7u386wETbGKIe
+HZ1HrTK66WxsS/FFgtdOtEYS8Jf0SXRlg7VL0cjMipBLVkCFTssURMYikvzT2d6U
+lxkgo7tGJ7ZB3yyt2UrDrTW1sL8y4jtn52ROsU88uVlF5Is3oS6R2z+2dY2IEUoB
+UtYATL+3L8+jqSdr86LW/3JLwvVTltSwIG2kp6pjTF167ghWOU1LUvxeqkxSfQfz
+hNDoTgTEjYM/+zRpiHSMwazRTucgsgqOsjt1TWsi7C8+UD5ZJSrce/kbTLEiEHma
+0XJhpRjp2Haj5o1Y+srIUA8cn2b5ZcIE8enCQPkHGh9ng4T0/ZXZKpBXseaWot4a
+oM8FWYfYK6jUd6pYjkcVJbBm
+=N/r2
+-----END PGP SIGNATURE-----
+
+--===============6132505728976277942==--
