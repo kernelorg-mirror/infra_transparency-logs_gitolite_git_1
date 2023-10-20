@@ -1,46 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1622414863992669070=="
+Content-Type: multipart/mixed; boundary="===============7143880097052965569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 20 Oct 2023 13:55:43 -0000
-Message-Id: <169781014306.3996.11088980011834254050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 20 Oct 2023 13:56:10 -0000
+Message-Id: <169781017073.4269.17132371138001374836@gitolite.kernel.org>
 
---===============1622414863992669070==
+--===============7143880097052965569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: a36e5741bdc55d3233af7c7cc89e0af8fd2b435d
-    new: c1ee616c818a008cfb995f289dba650b29c6a5a5
-    log: revlist-a36e5741bdc5-c1ee616c818a.txt
+  - ref: refs/heads/master
+    old: d83bf7be6c341d3e2e245f503df4d86f9cba7bfa
+    new: 3300447612b2adbc05cbb90e5d1cb288f19c40c6
+    log: revlist-d83bf7be6c34-3300447612b2.txt
 
---===============1622414863992669070==
-Content-Type: text/plain; charset="utf-8"
+--===============7143880097052965569==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a36e5741bdc5-c1ee616c818a.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d83bf7be6c34-3300447612b2.txt
 
-80cc1d1d5ee35701daf11725ce06d8a240588973 sched/psi: Avoid updating PSI triggers and ->rtpoll_total when there are no state changes
-3657680f38cd7df413d665f2b2f38e9a78130d8b sched/psi: Delete the 'update_total' function parameter from update_triggers()
-f577cd57bfaa889cf0718e30e92c08c7f78c9d85 sched/topology: Rename 'DIE' domain to 'PKG'
-0c2924079f5a83ed715630680e338b3685a0bf7d sched/psi: Bail out early from irq time accounting
-f0498d2a54e7966ce23cd7c7ff42c64fa0059b07 sched: Fix stop_one_cpu_nowait() vs hotplug
-1b8a955dd338dfbf39831d4687c25263e885a9cb sched: Make PELT acronym definition searchable
-7b3d8df549390e797f883efa16224fa0dfe35e55 sched/psi: Update poll => rtpoll in relevant comments
-1b7ef2d94ff4cb0b1186a224a97349864820c606 sched/fair: Remove duplicate #include
-fb064e5ae1657595c090ebbc5b15787a3ef603e9 sched/nohz: Update comments about NEWILB_KICK
-1c0482707c42960ec46b88aadd6bffca8685db11 sched/fair: Update ->next_balance correctly during newidle balance
-950f26dc82bce4139f762e365843b0338ca6cbfe sched/fair: Remove unused 'curr' argument from pick_next_entity()
-41bb673a68b0f0108ec14daeac0ce1f6bc8664d3 sched/core: Fix RQCF_ACT_SKIP leak
-fdef4f93c1edd7ff411e73c4b2ddd726ad7f926b sched: Add cpus_share_resources API
-f66a9ffd678149de54cae9234af7c14ec3ab2c3a sched/fair: Scan cluster before scanning LLC in wake-up path
-acab020456dd3ffbd0c6cd8b3f19c1dab7d81b91 sched/fair: Use candidate prev/recent_used CPU if scanning failed for cluster wakeup
-c1ee616c818a008cfb995f289dba650b29c6a5a5 sched/fair: Remove SIS_PROP
+4c456c9ad334a940e354da1002184bc19f4493ef sched/fair: Remove unused 'curr' argument from pick_next_entity()
+47d5b69c30ad189d863cf69230d36d753760c471 Merge branch into tip/master: 'perf/urgent'
+04256f72d2b50ae9ea7df1bcfc0055abebc4c1d7 Merge branch into tip/master: 'sched/urgent'
+d36e7cc3eb2dd00e7630f8dc464a3e6ecfe59c45 Merge branch into tip/master: 'x86/urgent'
+60c344f30411a9e2c21702e1c9edb11b4ddc1352 Merge branch into tip/master: 'x86/merge'
+6f6179ee4dbf09ab4db4e99e5a7c88d59e8c4636 Merge branch into tip/master: 'core/core'
+6083bd29d446e6a2e012c2598431740f2f3e8bc1 Merge branch into tip/master: 'irq/core'
+1b3abd42f061bbd7ded5ea3687a93ce5696fbd1e Merge branch into tip/master: 'locking/core'
+db3c2f468a4cb2602612147ecd5fd74ac4717673 Merge branch into tip/master: 'objtool/core'
+30708c417bd1808e78059e00016c8ed11be7ba9a Merge branch into tip/master: 'perf/core'
+b6f8c395e194f4ef08e6d12a9d33611c83ed5945 Merge branch into tip/master: 'ras/core'
+f3982f833fd90ccf08b20641bfe9c980e23544b9 Merge branch into tip/master: 'sched/core'
+4176fc5c535b139c9f1f1675cde30b6a25a33860 Merge branch into tip/master: 'smp/core'
+93e92ef8adfc192831b6045812fabda8bf392d61 Merge branch into tip/master: 'timers/core'
+d9ae711ed6c3abc9c735b4432a88e6a8187447bc Merge branch into tip/master: 'x86/apic'
+70465864c2ed8435c6cbbd43f28bb8f03b78ebbd Merge branch into tip/master: 'x86/asm'
+354988bebd19a9e3b23b63715baf0a86cabca785 Merge branch into tip/master: 'x86/boot'
+2ead715d68c5a75ab09affdb2914d9af9cde5270 Merge branch into tip/master: 'x86/bugs'
+90514d49fdf35dbd7c1f4e1655ec54e1946ec9af Merge branch into tip/master: 'x86/cache'
+1b7717ecf04b59cccd6e1bd8d21c58f08606382f Merge branch into tip/master: 'x86/cpu'
+7bc4ef3b40da4880802b8c6f47cd18541c79c49a Merge branch into tip/master: 'x86/entry'
+8bfe3412d792620167559bb4635e84c838b23e9c Merge branch into tip/master: 'x86/fpu'
+03a339353874d28e5bd368a88ac7e83451c0621a Merge branch into tip/master: 'x86/headers'
+3e182db466c93e13123dbe17e703030ba196ad61 Merge branch into tip/master: 'x86/irq'
+3704472ae5ee709abfd5257ee87778eb5c228bb3 Merge branch into tip/master: 'x86/microcode'
+b1b5f2275f1556c2bb28e27a3f80175be700d334 Merge branch into tip/master: 'x86/mm'
+337b1ba18e7bcc716f2322b6c1e839fa47f7f956 Merge branch into tip/master: 'x86/percpu'
+0e37e8cbffa80c3e9325df0d6d3e93118dff06f1 Merge branch into tip/master: 'x86/platform'
+3300447612b2adbc05cbb90e5d1cb288f19c40c6 Merge branch into tip/master: 'x86/tdx'
 
---===============1622414863992669070==--
+--===============7143880097052965569==--
