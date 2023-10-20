@@ -1,30 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 20 Oct 2023 16:50:03 -0000
-Message-Id: <169782060353.747.11346153737156874141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 20 Oct 2023 16:51:03 -0000
+Message-Id: <169782066302.1653.5608832281267629342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-6.7/block
-    old: 411957553bca681f6c6a64f419c352bb7d87c2a5
-    new: 0c696bb38f4cc0f0f90a8e06ae1eda21a9630cd0
+  - ref: refs/heads/bleeding-edge
+    old: 9f213f6d197ab7df411fe7e2826f29fbf44a6c3a
+    new: 76b91e97ec16432fed5f13f9eff07349e5674385
     log: |
-         1bbe254e4336c0944dd4fb6f0b8c9665b81de50f md-cluster: check for timeout while a new disk adding
-         78b7b13f07a3ca16c03aa8bf63f51d6780e8e9e1 md: cleanup pers->prepare_suspend()
-         0c696bb38f4cc0f0f90a8e06ae1eda21a9630cd0 Merge tag 'md-next-20231020' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.7/block
+         b5bdb60faaaff11bcfc9a90372158bc56e7ff544 ACPI: scan: Use the acpi_device_is_present() helper in more places
+         a1b138ca64c60d10549cc4641488e75bf9554902 Merge branch 'acpi-resource' into linux-next
+         22130b9ece42909d65741a9d11268ed90a2f6a31 Merge branch 'acpi-scan' into bleeding-edge
+         76b91e97ec16432fed5f13f9eff07349e5674385 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
          
-  - ref: refs/heads/for-next
-    old: e04e1c14ca40afb055087defccceb4e59894d3f8
-    new: 8aa6053114f3dedcf1acd34f4cbad7066d924258
+  - ref: refs/heads/linux-next
+    old: 10a07821099f90ca90922f7dd011a4b630e2c702
+    new: a1b138ca64c60d10549cc4641488e75bf9554902
     log: |
-         1bbe254e4336c0944dd4fb6f0b8c9665b81de50f md-cluster: check for timeout while a new disk adding
-         78b7b13f07a3ca16c03aa8bf63f51d6780e8e9e1 md: cleanup pers->prepare_suspend()
-         0c696bb38f4cc0f0f90a8e06ae1eda21a9630cd0 Merge tag 'md-next-20231020' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.7/block
-         8aa6053114f3dedcf1acd34f4cbad7066d924258 Merge branch 'for-6.7/block' into for-next
+         d78e6626cc7604dd5f72090d7382e605ea96fdfc ACPI: resource: Do IRQ override on TongFang GMxXGxx
+         a1b138ca64c60d10549cc4641488e75bf9554902 Merge branch 'acpi-resource' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 10a07821099f90ca90922f7dd011a4b630e2c702
+    new: a1b138ca64c60d10549cc4641488e75bf9554902
+    log: |
+         d78e6626cc7604dd5f72090d7382e605ea96fdfc ACPI: resource: Do IRQ override on TongFang GMxXGxx
+         a1b138ca64c60d10549cc4641488e75bf9554902 Merge branch 'acpi-resource' into linux-next
          
