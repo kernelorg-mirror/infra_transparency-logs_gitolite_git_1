@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-Date: Fri, 20 Oct 2023 01:31:20 -0000
-Message-Id: <169776548009.8054.16985119648385018471@gitolite.kernel.org>
+Date: Fri, 20 Oct 2023 01:44:33 -0000
+Message-Id: <169776627362.17199.6594815915214476848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
 user: jarkko
 changes:
   - ref: refs/heads/keystone-5.19.y
-    old: 333a638854326bc85f6cfb43713a1dee5fada25f
-    new: 84cad094f0ce085478eb70b6f5ce97db8bf6315a
+    old: 84cad094f0ce085478eb70b6f5ce97db8bf6315a
+    new: 0a527b771da0832debdf92df8a87e5987c0f07c3
     log: |
-         84cad094f0ce085478eb70b6f5ce97db8bf6315a arch/riscv: Keystone
+         0a527b771da0832debdf92df8a87e5987c0f07c3 arch/riscv: Keystone
          
