@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8609007974706820143=="
+Content-Type: multipart/mixed; boundary="===============8225166242701770063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 20 Oct 2023 07:51:13 -0000
-Message-Id: <169778827317.20741.11599593654051282746@gitolite.kernel.org>
+Date: Fri, 20 Oct 2023 07:51:30 -0000
+Message-Id: <169778829073.20949.3472525438191203054@gitolite.kernel.org>
 
---===============8609007974706820143==
+--===============8225166242701770063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 767f5b79e9c080a4701521faf3d9a4c848196e71
+  - ref: refs/heads/togreg
+    old: 89a1d2f064d2ae77a9cd6a8c7ac42b3c1647efa5
     new: 89e2233386a5670d15908628b63e611cb03b0d03
-    log: revlist-767f5b79e9c0-89e2233386a5.txt
+    log: revlist-89a1d2f064d2-89e2233386a5.txt
 
---===============8609007974706820143==
+--===============8225166242701770063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-767f5b79e9c0-89e2233386a5.txt
+Content-Disposition: attachment; filename=revlist-89a1d2f064d2-89e2233386a5.txt
 
 ffe3b7837a2bb421df84d0177481db9f52c93a71 HID: holtek: fix slab-out-of-bounds Write in holtek_kbd_input_event
 8ed99af4a266a3492d773b5d85c3f8e9f81254b6 selftests/user_events: Fix to unmount tracefs when test created mount
@@ -1051,4 +1051,4 @@ de135d707e0bba400f14737c3b9846e34f445c0f device property: Add fwnode_property_ma
 1fce47a2789bc38f452091f6cc5fe44d426438d6 iio: magnetometer: tmag5273: Switch to device_property_match_property_string()
 89e2233386a5670d15908628b63e611cb03b0d03 iio: proximity: sx9324: Switch to device_property_match_property_string()
 
---===============8609007974706820143==--
+--===============8225166242701770063==--
