@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1269321510778938510=="
+Content-Type: multipart/mixed; boundary="===============0445157585208562430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 21 Oct 2023 10:45:28 -0000
-Message-Id: <169788512851.11557.16573471311999737960@gitolite.kernel.org>
+Date: Sat, 21 Oct 2023 10:46:26 -0000
+Message-Id: <169788518620.12034.15491075044898788176@gitolite.kernel.org>
 
---===============1269321510778938510==
+--===============0445157585208562430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 6add6dd345cb754ce18ff992c7264cabf31e59f6
-    new: d181b34bd381b336558fc5d5100ee13063eb6bac
+    old: d181b34bd381b336558fc5d5100ee13063eb6bac
+    new: 70f13579c2f75d869fb989f458fc9937b43c3198
     log: |
-         35b62f6f582264ed681a7f159e9ffca08a0f5edd usb-storage: remove UNUSUAL_VENDOR_INTF macro
-         d181b34bd381b336558fc5d5100ee13063eb6bac usb-storage,uas: make internal quirks flags 64bit
+         4936eb7567c3e44065979e1036ba3c018dd6b9a1 dt-bindings: usb: vialab,vl817: remove reset-gpios from required list
+         2978cc1f285390c1bd4d9bfc665747adc6e4b19c usb: chipidea: add CI_HDRC_FORCE_VBUS_ACTIVE_ALWAYS flag
+         ceae398f15b32ebce8db73c15f2603c3b72eca32 dt-bindings: usb: ci-hdrc-usb2: add npcm750 and npcm845 compatible
+         70f13579c2f75d869fb989f458fc9937b43c3198 usb: chipidea: Add support for NPCM
          
 
---===============1269321510778938510==
+--===============0445157585208562430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697885126 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697885184 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1697885126-c455ceadc17d9585e9097aa150f77aaefaaac3e4
+nonce 1697885183-2d9ff1da853056e97a1dbb804b757355c0564d68
 
-6add6dd345cb754ce18ff992c7264cabf31e59f6 d181b34bd381b336558fc5d5100ee13063eb6bac refs/heads/usb-testing
+d181b34bd381b336558fc5d5100ee13063eb6bac 70f13579c2f75d869fb989f458fc9937b43c3198 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUzq8YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DeUP/0JtY2QLYXK5jeHzUwSX
-ioS1yvgDhin7QhR8oABQ0vAr33/ctc7acK7DMvqYtJW6lyD9nEWtcwyVvZSbi0dB
-zaj/IUltLe357wkbID1v07hamX2h6pmXAUvjf4SfXBP5RnBDlkPJhjB+soCYXi2Z
-0pqvcmL9xTScaSBmcQDBCPYz2wNiSHxPb74tIo+ebsf9Lhx970qQyZihmfDuV2q7
-zlhwxJR1ieq8DqnVvEIbtZJVlzcjIBl9CKPAtTyX2bapMwSWPVXt/7D6Iba6im7v
-e7+S9Ji0HPAfpouuR7dy2mItTZPO0ZRoj0crfmuJWsvQrRixJw6JblrYsjKFNix2
-HAtMn4otX+neD+gu4SZq5+oUeRud6isk+Whw7gwLYCiubqoER1YloRR5tYqNSyFv
-HP+O9pyu5wRQsgS217Z0q055BpzeuvT295fr9pe02TKC0bSwzmYVKfNI6mEG/GHk
-aVYAUtSmfLz6nLw/wvhdsZxaltkQAWte9+gLqycBH69X1THk8lg3AfX2aSoc9PGB
-m1sN/XY82hqv42AAS0REmB/OQhh8nTvEXasizC1ylq9Zt3mrfuJymSd+s8chfZye
-AZiy5UYA/nY3+4Xi+YRaU1LDLepIWCzsKvfTsYKZt0KPcnPTQ5ZAipTgaLPdPuVI
-YjSrS8v5tpvtMXQs6yaPz+k5
-=CmXJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUzrAAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h28P/iteyI//vaPAh3Id/F8n
+lIUJv8UdnwJJabjuFXGXyJGsxeLv3qkM4LDehhX7EHgwCDI0+efnOOtDXTNWaP60
+RlpqWRES6dGRy0g8y7zjW/0QredYJ2K3ITrMq7fCSs9Azga/RSvF2YHMG7CM6GGj
+u9zibH40ooett46SFpHWRUcqVRy7cUGlBIrFKYWmuQsF16lJiqe7yk0LnG2Yy6tc
+nfIZPUHHNFkciEnXqnvw4ru6ARYRV0czN9XnZzm0Wm2WbLPXfSbH43cDblhBvk0q
+W9hIKa7b5xF4x2CKMwivjI8tmDoCkaXUCKqDPoWDd7dtc77+FKW+j5sT7oiZ+Wsl
+DknZs+14r0dVv+oylmhw2EDLOTpQW7KrYHRA+aBc9qOBerI+igKbyrDhO2F5s/pE
+ZgNw0DLNdVMkmGnDL73qAdxK8J+ySHXWsCO85HYnG+ZwWkW9W5T+Iw+j/tacodST
+Td9Ipf4e9MtDxLP4qzIo02gjwsfUktLahV5BuDA/n7XNg7M6i/ljRlotjr8YXsRf
+3UfNqMo3CnE34ORWT+37L/qUeOPw3vjg9s0ucfYQob3ZpzdQuOElVWz6AmMxAp+y
+Yd0DB1hf3RE4rGmZ7VQU7liRgmldV4hPvKhvzgHjuQDENBignYlybLxqQVQV6x9x
+FEF7cLuEChpM8VAaPptGSNbj
+=WYNg
 -----END PGP SIGNATURE-----
 
---===============1269321510778938510==--
+--===============0445157585208562430==--
