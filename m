@@ -1,43 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1247173396468799273=="
+Content-Type: multipart/mixed; boundary="===============3939745903744455685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 21 Oct 2023 15:54:37 -0000
-Message-Id: <169790367723.2610.9340788300000736050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Sat, 21 Oct 2023 16:21:21 -0000
+Message-Id: <169790528111.22455.12485373614894979852@gitolite.kernel.org>
 
---===============1247173396468799273==
+--===============3939745903744455685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 9916a5e4f38f73adecbed2f043916c4d365f2903
-    new: f3bf41f7ffbda12baadd58261a81e6167196495f
-    log: revlist-9916a5e4f38f-f3bf41f7ffbd.txt
+    old: 266dcae34d8f44c3bbab00e227f8b14517682bb7
+    new: 1a07870ea25c235df27d480258b0d78dc2666874
+    log: revlist-266dcae34d8f-1a07870ea25c.txt
 
---===============1247173396468799273==
+--===============3939745903744455685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9916a5e4f38f-f3bf41f7ffbd.txt
+Content-Disposition: attachment; filename=revlist-266dcae34d8f-1a07870ea25c.txt
 
-323c7ec86446e8364cf338f40297194cc7a159fa arm64: defconfig: enable CONFIG_TYPEC_QCOM_PMIC
-f93b8a5705c6886a4c5ec6d142730927d891b6f7 arm64: defconfig: enable DisplayPort altmode support
-abaf59c470a7c9c59bda8da3517ec2ff0513f5a6 clk: qcom: cbf-msm8996: Convert to platform remove callback returning void
-76ca22bd3d95cfb5113206894abbc80de6ceb1fe clk: qcom: smd-rpm: Move CPUSS_GNoC clock to interconnect
-bff482ace43eebc5b4394cc9a7c7723f08413f80 clk: qcom: Replace of_device.h with explicit includes
-21134ec8af94981b3127a691df2d73540ba4d8aa clk: qcom: gpucc-sm8550: switch to clk_lucid_ole_pll_configure
-a2620539ae2529916a98585c6d7311c48fb67e9f clk: qcom: videocc-sm8550: switch to clk_lucid_ole_pll_configure
-6a15647d0adc686226045e8046369f34d6ab03ed clk: qcom: config IPQ_APSS_6018 should depend on QCOM_SMEM
-84da48921a97cee3dd1391659e93ee01d122b78b clk: qcom: clk-alpha-pll: introduce stromer plus ops
-267e29198436a8cb6770213471f72502c895096a clk: qcom: apss-ipq-pll: Use stromer plus ops for stromer plus pll
-5b7a4d3d2b33398330aef69e0ff5656273483587 clk: qcom: apss-ipq-pll: Fix 'l' value for ipq5332_pll_config
-00331227f42045314b3775957f2f7809fb3ac32f clk: qcom: apss-ipq6018: ipq5332: add safe source switch for a53pll
-f3bf41f7ffbda12baadd58261a81e6167196495f Merge branches 'arm64-defconfig-for-6.7', 'arm64-fixes-for-6.6', 'arm64-for-6.7', 'clk-for-6.7', 'drivers-for-6.7' and 'dts-for-6.7' into for-next
+b5f9e63278d6f32789478acf1ed41d21d92b36cf iommufd: Correct IOMMU_HWPT_ALLOC_NEST_PARENT description
+01d1a4c1ed46ca8b1d43aabf93e3fda0ee2fc174 vfio/iova_bitmap: Export more API symbols
+33f6339534287df2abe1724a4944e38a4fe966b7 vfio: Move iova_bitmap into iommufd
+80035084c9d522a63b5a4713d86d7b815ed44de7 iommufd/iova_bitmap: Move symbols to IOMMUFD namespace
+d1fdc85cbbb18be198d7f8fe0e3a53b2888fbb7b iommu: Add iommu_domain ops for dirty tracking
+7e5fd2b5534b59c626f77a7e9000a41f7e925270 iommufd: Add a flag to enforce dirty tracking on attach
+5a50c0ca1cd3ec8a3666a54c09a6eef57f9c876d iommufd: Add IOMMU_HWPT_SET_DIRTY_TRACKING
+12f16f9fecaef55e90c00e760bc488ac0fd64491 iommufd: Add IOMMU_HWPT_GET_DIRTY_BITMAP
+c9817839a7ab05a44be6fde007c1d565673411f9 iommufd: Add capabilities to IOMMU_GET_HW_INFO
+9151f76ffe2edbb8ea48de61fa31ba041a9bf047 iommufd: Add a flag to skip clearing of IOPTE dirty
+9a326f0599eeb2aff4a49f2606a169ac0cbd77c5 iommu/amd: Add domain_alloc_user based domain allocation
+d6e8b290649443ce8b363d7b1a6cbd1b1be84bae iommu/amd: Access/Dirty bit support in IOPTEs
+271134c3fcb722da33de46024665274d43594c0c iommu/intel: Access/Dirty bit support for SL domains
+050e608a76c5ad38b74fd6c71c6b4442c87c3f26 iommufd/selftest: Expand mock_domain with dev_flags
+b642076b436642ad8038ae79421e551c5668ef3d iommufd/selftest: Test IOMMU_HWPT_ALLOC_DIRTY_TRACKING
+dcc113e6e8928e99a26884a12fb5dac3c75b191d iommufd/selftest: Test IOMMU_HWPT_SET_DIRTY_TRACKING
+c9697a00d18f9368376450926e69116dc8bbb8a3 iommufd/selftest: Test IOMMU_HWPT_GET_DIRTY_BITMAP
+8a7295010c93cb6d3cbe5506ac79a6a42daf357f iommufd/selftest: Test out_capabilities in IOMMU_GET_HW_INFO
+1a07870ea25c235df27d480258b0d78dc2666874 iommufd/selftest: Test IOMMU_HWPT_GET_DIRTY_BITMAP_NO_CLEAR flag
 
---===============1247173396468799273==--
+--===============3939745903744455685==--
