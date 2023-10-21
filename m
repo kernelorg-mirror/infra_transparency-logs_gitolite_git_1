@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8218502473341907695=="
+Content-Type: multipart/mixed; boundary="===============9150979324970820995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 21 Oct 2023 15:36:48 -0000
-Message-Id: <169790260848.22540.11922723324094074477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 21 Oct 2023 15:38:55 -0000
+Message-Id: <169790273515.24678.3282424877799366041@gitolite.kernel.org>
 
---===============8218502473341907695==
+--===============9150979324970820995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a3fad2e92c76587fe262a1a4a122045b29885354
-    new: 3e4a7afde492c51c86da243ae41b22c002e1a5c9
+  - ref: refs/heads/master
+    old: af4b213c3ab515a28dc0fa06d2860d9e21c00956
+    new: dfe51a575ed5fe5d61e896db4c588880a9ecc72f
     log: |
-         7b695ef6696e248aad02b17ca3ba088db2d59c31 dt-bindings: iio: add missing reset-gpios constrain
-         8d6b3ea4d9eaca80982442b68a292ce50ce0a135 iio: adc: xilinx-xadc: Don't clobber preset voltage/temperature thresholds
-         e2bd8c28b9bd835077eb65715d416d667694a80d iio: adc: xilinx-xadc: Correct temperature offset/scale for UltraScale
-         865b080e3229102f160889328ce2e8e97aa65ea0 iio: exynos-adc: request second interupt only when touchscreen mode is used
-         bee448390e5166d019e9e037194d487ee94399d9 iio: afe: rescale: Accept only offset channels
-         3e4a7afde492c51c86da243ae41b22c002e1a5c9 Merge tag 'iio-fixes-for-6.6b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+         dfe51a575ed5fe5d61e896db4c588880a9ecc72f 6.1-stable patches
          
 
---===============8218502473341907695==
+--===============9150979324970820995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697902605 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1697902605-572f66db3152febeb4298a59b85d80e48184e42f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697902734 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1697902733-895a61103c5058cf423ca4e8d0b83b0c48e01774
 
-a3fad2e92c76587fe262a1a4a122045b29885354 3e4a7afde492c51c86da243ae41b22c002e1a5c9 refs/heads/char-misc-linus
+af4b213c3ab515a28dc0fa06d2860d9e21c00956 dfe51a575ed5fe5d61e896db4c588880a9ecc72f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUz8A0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dnIP/3oQn4c7LL3tQsANtnVu
-bc3feWCIZ6R7JHgs3UqShJh44zH7U3NYWp0RlJYyMHsbGFgJ8qGDwY0Ao0jac00Y
-JqODexKV0wWDAyinDs8CvJkcUS6PIpDr8U8hUtIvKKhvwCdsTeu1FelsHd7Scpkv
-WAlDPayP+xUPKxhmJue775AOY/tfpCpbDZ+wg3RPjFNK0Axs1Ndi11TGPinEPbvW
-zGPJ3s/HokqaSo2pFu0zstFSowrLTErl3tcHEXkbgqNNQ3j5UhLyr6GvMqijCtvo
-WJZOH9d5SSaMXsGQOy913b+111oYsZ5RBfSrv2myDiAyXyx4Igq6CYyIDwmW32zU
-kTayEJd86KLohpTCFKbPmNGrDeQkfZgyF9b5AJavkA9+F7BwuJTKUCx83zc2ZoFI
-Fx+UmAEEttzKLAgyx2GgNeYyX1WP0/7lwvgUlxQqKKI2/s7i37ZnjC21ZisJqTTZ
-PEW0lUHwR6KZDAwydp06Fyy3OIs/Vt6YugV9SDqI8kzLaRkj5v6w6cjifSFoBw5l
-Diz5Fg90kCwwtX2m5fb24cC2BJ4p/Mfa6fI0qPCkupynZVdqe7z7Rt+eQuwi9r98
-xo/F4W1DSX2pPStAeD4mGKgZ9FJZCaVUsK+Ni2+0Eb0kzNW6BOVN098pb/Qcx5Pc
-nhVa3GHWOHM/Xc01DXdoF8Ne
-=kjqt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUz8I4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WQYP/2nYaZ8cGx3aNEkH60ql
+2mjU3UjRpq46eokezri402QVI/7gbjVLkBN44mcueUP+1kaCISm789jac+0CkMnW
+Sbuq0FQO3vR8K9jQBaSckk8fa9Sd5233DzVYgvz+DgZ/+Lxwb02tKs8SE2Onvm27
+SCVItc05izc5xME113e7SLj3OKkzxIDB+fZIRXS9IdQRRa8YzToxvzvauWiJyIer
+4F1SgOrOXx5NETdDFfeljqVaAhFG/TxhpAWxUJAaNufNViBSJVtwVJFi4vPGIC6U
+H1aIa/L9NiF3/HxTqN2g96+UUJ7yS3IzyCBTRN+psR7u1676bN97E75Tzof4QZH5
+r6FXbVffHoNI5TQYOa0DhoNiX2QIxs4mdrqHd5wTHuILz6tdJ0/shV0+33Q/QLrP
+6nzXyXSsq+aXU/0bvGWJ3TXFTTiaQ851ary0vHrt7AAPEPUMoL63hG8aeOUFjMlN
+Mm+XRg8G1Q/EBTcSvXNVxuYo1WCZanG/70jo/p9XMQXS/nqHZw26v8wCk46EtcIY
+qCg7ZMY++GLU3iXmOKZa+vGwtq1O0ZzggWXeXEQm5Y0GeUC7UIFGJUatvz7VFOtM
+h7HB17h5cT9AaE9bhP+NfvFE6n8ytBBA7ayBGcwLrjI7Wouz7vAsxHUuoPXYPYMO
+0m+whALmWtRXxAXWbzowX45n
+=XPaV
 -----END PGP SIGNATURE-----
 
---===============8218502473341907695==--
+--===============9150979324970820995==--
