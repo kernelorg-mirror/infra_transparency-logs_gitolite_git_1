@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0712296939739340681=="
+Content-Type: multipart/mixed; boundary="===============4915101860064679087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 21 Oct 2023 16:28:18 -0000
-Message-Id: <169790569848.26475.287992178553572623@gitolite.kernel.org>
+Date: Sat, 21 Oct 2023 16:29:51 -0000
+Message-Id: <169790579182.27120.11387518082954897151@gitolite.kernel.org>
 
---===============0712296939739340681==
+--===============4915101860064679087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 0059bc9a29e02853dbbaa0f6d0635a687c8b9835
-    new: 838eb763c3e939a8de8d4c55a17ddcce737685c1
+    old: 838eb763c3e939a8de8d4c55a17ddcce737685c1
+    new: 0c01b20fb50ba63c03841aa83070dc59c3b1b02f
     log: |
-         22088bbb02259d813d797e2d6a4ba7ca6ff4b96c dt-bindings: serial: re-order entries to match coding convention
-         4bebd644971c2b5355af60f4828d464b3268e6cc serial/esp32_uart: use prescaler when available
-         838eb763c3e939a8de8d4c55a17ddcce737685c1 tty: whitespaces in descriptions corrected by replacing tabs with spaces
+         a6149f71d09d619724324fd3005f1221821cc917 tty: serial: samsung_tty: remove dead code
+         0c01b20fb50ba63c03841aa83070dc59c3b1b02f dt-bindings: serial: rs485: Add rs485-rts-active-high
          
 
---===============0712296939739340681==
+--===============4915101860064679087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697905693 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697905789 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1697905692-eea68a10feac20a4b4530717af34261a04029dfb
+nonce 1697905788-b0c988c1bc3f8bddc494a8e4493e12eaa62a8326
 
-0059bc9a29e02853dbbaa0f6d0635a687c8b9835 838eb763c3e939a8de8d4c55a17ddcce737685c1 refs/heads/tty-testing
+838eb763c3e939a8de8d4c55a17ddcce737685c1 0c01b20fb50ba63c03841aa83070dc59c3b1b02f refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUz/B0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Qm8QANGC2TyoaaRgCikz7Wp0
-pCj46hqvyYbe/YoiDR/mgb1/0Wrfw7zPTZpOKX/d+Bxs2hoBMzAIMSNzEpc6zF1q
-IeaTm4YVMhnvB0B9POpSJ4W5OL5fM0lSYr3kEcuAo4opLs/daTtm8T0kU2p1RPDd
-JvTsPOuqEzfcUPE/Cl8FAcFUPoaZ7UIHHs+IMP6epzPN/s9enq8nizrdEUPxGfPJ
-lWSlLL/MiApZ2QaUoV42j28W+nWMSEy/jqbCZbiU69ypnjwEKfCB5BRxC85ADcIm
-/FH0iCJwjbDRD3Fuw334oYHi6mymRT5BH+WBbzeBQnrhgWtT+kkT540o2y4JYiF2
-9zPNFJIHcQ8fjV+OmbGy861Sh4p0b3uSStETYlJU8AqCn+6rKCq2SHTHVoId3Ksq
-AuNCLIJJRX3L5AeHz4W7nI3KsU4MaMmq8VoVB4sW8Ik/O4PUxF267WgZ6O5y3lhy
-5MVJZCC5SDbEofxKpbxRhfSBigP7D1PZNlkDgv7qlGUUkOGeJomL/+gic6lQXBDp
-H+sFcV41Ne6twm0xvfFto6KpHAxj51utT5bgyvHov8y6qx4eaNHWdNzKllOprceR
-3XBDa2mB0Q5S9oymdw272/BeUVPYPvUhiR4vN6hJykoSV1MGhLdLcFOYb/UrMAfD
-utvUqfbDZZEW0nKhtwVyjmq1
-=wIa7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUz/H0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jv8QALEqSx8fV3koHIwCL3Qj
+nPhFlZU3oPKiM+UxvNDK67NngKJz888Ve0z5T/cg4QLe03myrox3AatP1lrsBxED
+4i9h1J8E6Q9Cr5ccMlPpRsvpuc6cTrcyzk+DIDd6hvyNAKwla0GVROd0irSxaF+3
+rJfQYfyM0aWIhJkPpiQGCnzN891Dc0+ynxVks0l1agGzKNU3adBKaAXaJzzuL+TB
+EK5Ekpd/qaZ6uTqfjbJB+y0J/lkQfwkBKlrcQwVKpwCLSPi3Pn3W+leSIDAM7ACp
+qDAmfilyNqelVkiciXwgLO3RjPCbaU0dkdBYURlNsukYcAq0sbiOn9aFbBcpq/zY
+jhC2xjQm0oxrEN0kYfI7t/tbmD5EFNvnn8w5b5kzwzg8OP8uOZUGi5+oR8PXLAH7
+qb/7Ax/Dr1ePR+j5bxWilfPJRie207VEPdLdwJWCPIOtlLW2hGKB1LqDip8vR+Ti
+9Jb0CmVotj03eFFdmocdffOrwWoN4x+hQrnWFtKmOfjjugQWfgO7nXAouQrskgFo
+7Xbq0xp5Vf262ADDiDNHYEfOqQa2n7Y0F7ZAQvKq4Kc0Q2jzN/m/zoYzN/d0AhGU
+9eyIpAHJqyQlc6J+UA91HUOGTDHzTYAvTvMqaXeWbGswEb+YwLb8h0cWLXpPO33L
+HPSDUH9N0B1XQiaglk7xQovV
+=8fF+
 -----END PGP SIGNATURE-----
 
---===============0712296939739340681==--
+--===============4915101860064679087==--
