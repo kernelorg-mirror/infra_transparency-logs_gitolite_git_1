@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Oct 2023 01:50:36 -0000
-Message-Id: <169785303615.3302.14557220567484509176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 Oct 2023 01:50:47 -0000
+Message-Id: <169785304752.3439.16454513205083115310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a1e4c334cbc9a80578c3784f8a3e7076bb19578d
-    new: 75e7d0b2d22370c83c6dcb0cedbd0cca74383b5e
+    old: e7684d29efdf37304c62bb337ea55b3428ca118e
+    new: 068d8b75c1aee153193522211ace6c13c21cd16b
     log: |
-         75e7d0b2d22370c83c6dcb0cedbd0cca74383b5e net: wwan: replace deprecated strncpy with strscpy
+         068d8b75c1aee153193522211ace6c13c21cd16b i40e: sync next_to_clean and next_to_process for programming status desc
          
