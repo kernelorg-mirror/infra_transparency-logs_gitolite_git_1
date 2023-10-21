@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5928370243281318464=="
+Content-Type: multipart/mixed; boundary="===============2050256693727388680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 21 Oct 2023 20:02:41 -0000
-Message-Id: <169791856128.16860.5597112157025535079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 21 Oct 2023 20:03:55 -0000
+Message-Id: <169791863519.17395.9091368228602493125@gitolite.kernel.org>
 
---===============5928370243281318464==
+--===============2050256693727388680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: b4f1afad9a01700241a6804fc3605f0fc03446b6
-    new: 33bbdfe4f061a321c4eeafb297eef84466cfd284
-    log: |
-         33bbdfe4f061a321c4eeafb297eef84466cfd284 5.10-stable patches
-         
+    old: 45d3291c5201fced351e62d714e2912400cc7f4d
+    new: d537ae43f8a107761fb5a85c3f0cfce5ca79bcb1
+    log: revlist-45d3291c5201-d537ae43f8a1.txt
 
---===============5928370243281318464==
+--===============2050256693727388680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-45d3291c5201-d537ae43f8a1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697918560 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697918559-46db63157bf48c20879264ad12394b3c04abc0c7
+17bfcd6a81535d7d580ddafb6e54806890aaca6c rust: error: fix the description for `ECHILD`
+2a7e0a52ec98566a863aba42ea35690c65e3da27 rust: error: Markdown style nit
+344b6c0a7514b044ed12b8ad3cdeecd262292f3e rust: fix bindgen build error with fstrict-flex-arrays
+430232619791e7de95191f2cd8ebaa4c380d17d0 gpio: vf610: mask the gpio irq in system suspend and support wakeup
+fc363413ef8ea842ae7a99e3caf5465dafdd3a49 gpio: vf610: set value before the direction to avoid a glitch
+bd9e54a42ce26026d67963c21b3fdfe8c7e68430 docs: rust: update Rust docs output path
+1db773da58df20772dcc037a47163ce472d39c4d kbuild: remove old Rust docs output path
+cfd96726e61136e68a168813cedc4084f626208b rust: docs: fix logo replacement
+479ac419206b5fe4ce4e40de61ac3210a36711aa gpiolib: acpi: Add missing memset(0) to acpi_get_gpiod_from_data()
+03027aa3a5c698b8fe1a0254284198cb1423481e Merge tag 'rust-fixes-6.6' of https://github.com/Rust-for-Linux/linux
+d537ae43f8a107761fb5a85c3f0cfce5ca79bcb1 Merge tag 'gpio-fixes-for-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
-b4f1afad9a01700241a6804fc3605f0fc03446b6 33bbdfe4f061a321c4eeafb297eef84466cfd284 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU0LmAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+opUP/jGnKgA+S4GQm6RvK+u3
-6z8NmXmNIbRCOSa9dDmKDqHLFQPbdjbIt2EqsCdTKLaS/UliXDPMknU8ZxOSNbjV
-XGnb8X2U7k52ysP8QzPfKhpUET9BTn2ZRfUwGSlpbp1HmsIKt+rha+Mn27btndfm
-RFKqVTFgPPIbsxA4QXtZpNfp4BWyRsAAF0+ocE+mYLRHp+S0WR+/mr1nvj3POSCM
-HyQdFeQlp9PQXOU7SKTyMm95b48T8fM2thrxITvnMi6bJBqcQynfXImRw26xnMGp
-ocaOuCHDktRwITg29CO0CmzoCTAaRfO1LccqIyR4uOAD5IVfO2EVj9ZZiNWbVtrq
-uwNHqIgb3ZUDQ4UfctIRglFRaglBdwjs4eNF6lmKDBy7ZLB/CM7gcJ3KLzPQSsyI
-daKEfBJMlI41p6YurBJws5o7cXly2ZCUf2PXiiYAPzspekFSVmlOvruENDSQnyRt
-hxaCh9lQ/DKHYyhQPigF/Ig7epzGw/CBotVuP0SjAcqa2bfsxeDYaJVUQLHK8IMH
-GC9VInQqh7k4MPCqz5fyR/G5AaDRDpJxJMRhGRVPugJTYG5R5ZS3bZ2otye/ElmW
-Hs9xhOvS0HPK43xK1wVzRM6IL5Q0NJZRiyth0XfcGBiwGbJhuE5oAvbJNYFSOwRN
-CVFTcTYdjXwA6Uzzf+HOS0lY
-=CsKM
------END PGP SIGNATURE-----
-
---===============5928370243281318464==--
+--===============2050256693727388680==--
