@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-Date: Sat, 21 Oct 2023 13:59:41 -0000
-Message-Id: <169789678119.17781.3214010899980393484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Sat, 21 Oct 2023 14:29:01 -0000
+Message-Id: <169789854193.6400.7893777770831860192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-riscv-keystone
-user: jarkko
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/keystone-5.19.y
-    old: 411c1c51e0600fc63562601fc9eb374810765032
-    new: 456a1cef426cd22f3690fb07e6b750c78d9ab724
-    log: |
-         456a1cef426cd22f3690fb07e6b750c78d9ab724 arch/riscv: Keystone
-         
+  - ref: refs/tags/v6.5.3
+    old: 0000000000000000000000000000000000000000
+    new: 49738afedae393851417d2eb1416982074c7a748
