@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============9150979324970820995=="
+Content-Type: multipart/mixed; boundary="===============4470069947791883708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 21 Oct 2023 15:38:55 -0000
-Message-Id: <169790273515.24678.3282424877799366041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 21 Oct 2023 15:54:35 -0000
+Message-Id: <169790367554.2542.15658506567694406095@gitolite.kernel.org>
 
---===============9150979324970820995==
+--===============4470069947791883708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: af4b213c3ab515a28dc0fa06d2860d9e21c00956
-    new: dfe51a575ed5fe5d61e896db4c588880a9ecc72f
+  - ref: refs/heads/arm64-defconfig-for-6.7
+    old: b46d856cb9b3bd2fef54cc8caec8595a232a23b6
+    new: f93b8a5705c6886a4c5ec6d142730927d891b6f7
     log: |
-         dfe51a575ed5fe5d61e896db4c588880a9ecc72f 6.1-stable patches
+         323c7ec86446e8364cf338f40297194cc7a159fa arm64: defconfig: enable CONFIG_TYPEC_QCOM_PMIC
+         f93b8a5705c6886a4c5ec6d142730927d891b6f7 arm64: defconfig: enable DisplayPort altmode support
          
+  - ref: refs/heads/clk-for-6.7
+    old: 7138c244fb293f24ce8ab782961022eff00a10c4
+    new: 00331227f42045314b3775957f2f7809fb3ac32f
+    log: revlist-7138c244fb29-00331227f420.txt
 
---===============9150979324970820995==
+--===============4470069947791883708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7138c244fb29-00331227f420.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697902734 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697902733-895a61103c5058cf423ca4e8d0b83b0c48e01774
+abaf59c470a7c9c59bda8da3517ec2ff0513f5a6 clk: qcom: cbf-msm8996: Convert to platform remove callback returning void
+76ca22bd3d95cfb5113206894abbc80de6ceb1fe clk: qcom: smd-rpm: Move CPUSS_GNoC clock to interconnect
+bff482ace43eebc5b4394cc9a7c7723f08413f80 clk: qcom: Replace of_device.h with explicit includes
+21134ec8af94981b3127a691df2d73540ba4d8aa clk: qcom: gpucc-sm8550: switch to clk_lucid_ole_pll_configure
+a2620539ae2529916a98585c6d7311c48fb67e9f clk: qcom: videocc-sm8550: switch to clk_lucid_ole_pll_configure
+6a15647d0adc686226045e8046369f34d6ab03ed clk: qcom: config IPQ_APSS_6018 should depend on QCOM_SMEM
+84da48921a97cee3dd1391659e93ee01d122b78b clk: qcom: clk-alpha-pll: introduce stromer plus ops
+267e29198436a8cb6770213471f72502c895096a clk: qcom: apss-ipq-pll: Use stromer plus ops for stromer plus pll
+5b7a4d3d2b33398330aef69e0ff5656273483587 clk: qcom: apss-ipq-pll: Fix 'l' value for ipq5332_pll_config
+00331227f42045314b3775957f2f7809fb3ac32f clk: qcom: apss-ipq6018: ipq5332: add safe source switch for a53pll
 
-af4b213c3ab515a28dc0fa06d2860d9e21c00956 dfe51a575ed5fe5d61e896db4c588880a9ecc72f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUz8I4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WQYP/2nYaZ8cGx3aNEkH60ql
-2mjU3UjRpq46eokezri402QVI/7gbjVLkBN44mcueUP+1kaCISm789jac+0CkMnW
-Sbuq0FQO3vR8K9jQBaSckk8fa9Sd5233DzVYgvz+DgZ/+Lxwb02tKs8SE2Onvm27
-SCVItc05izc5xME113e7SLj3OKkzxIDB+fZIRXS9IdQRRa8YzToxvzvauWiJyIer
-4F1SgOrOXx5NETdDFfeljqVaAhFG/TxhpAWxUJAaNufNViBSJVtwVJFi4vPGIC6U
-H1aIa/L9NiF3/HxTqN2g96+UUJ7yS3IzyCBTRN+psR7u1676bN97E75Tzof4QZH5
-r6FXbVffHoNI5TQYOa0DhoNiX2QIxs4mdrqHd5wTHuILz6tdJ0/shV0+33Q/QLrP
-6nzXyXSsq+aXU/0bvGWJ3TXFTTiaQ851ary0vHrt7AAPEPUMoL63hG8aeOUFjMlN
-Mm+XRg8G1Q/EBTcSvXNVxuYo1WCZanG/70jo/p9XMQXS/nqHZw26v8wCk46EtcIY
-qCg7ZMY++GLU3iXmOKZa+vGwtq1O0ZzggWXeXEQm5Y0GeUC7UIFGJUatvz7VFOtM
-h7HB17h5cT9AaE9bhP+NfvFE6n8ytBBA7ayBGcwLrjI7Wouz7vAsxHUuoPXYPYMO
-0m+whALmWtRXxAXWbzowX45n
-=XPaV
------END PGP SIGNATURE-----
-
---===============9150979324970820995==--
+--===============4470069947791883708==--
