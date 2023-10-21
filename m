@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2673392812360688175=="
+Content-Type: multipart/mixed; boundary="===============5255657209986901665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 21 Oct 2023 10:32:21 -0000
-Message-Id: <169788434178.32583.5741142928665012230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 21 Oct 2023 10:35:12 -0000
+Message-Id: <169788451298.2854.6913261730914284995@gitolite.kernel.org>
 
---===============2673392812360688175==
+--===============5255657209986901665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2382c1b044231fd49eaf9aa82bc7113fc55487b8
-    new: a3fad2e92c76587fe262a1a4a122045b29885354
-    log: |
-         a3fad2e92c76587fe262a1a4a122045b29885354 fpga: disable KUnit test suites when module support is enabled
-         
+  - ref: refs/tags/usb-6.6-rc7
+    old: 0000000000000000000000000000000000000000
+    new: c9082f94c098a5d74bd90dee3c12388c1d92cc2c
 
---===============2673392812360688175==
+--===============5255657209986901665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697884340 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1697884339-f0a002f1079519fcff42309d054897d41a32e3a3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697884511 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1697884511-31396de6ddae41d4d13ef4b2b771fe7013a1afb9
 
-2382c1b044231fd49eaf9aa82bc7113fc55487b8 a3fad2e92c76587fe262a1a4a122045b29885354 refs/heads/char-misc-linus
+0000000000000000000000000000000000000000 c9082f94c098a5d74bd90dee3c12388c1d92cc2c refs/tags/usb-6.6-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUzqLQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7QUP/11j3HQKIhI/PS4ShQTK
-YqyTw3rZfAIytLDCloBeVEE/Ew81mWaMf5Nc0WBLiwMtEivjiXQ6JKe8NefHZruL
-/bnaeDv6qifEj6Qw3l7zZMISlO55S1voCqHwDO1DNRgVubmlplcrcPJ2AX98yR7a
-vAf5mm8XnVHOEnA8wdPwvDt6qNA69YinT3mjR5cVe3fe//BgyCJu3qhiSAZQBhfl
-xca2jM9tHNO+buCnCKbVkOq37SFRZGyqeTywMNvHjWux8BuHTBnKCs0vn//m6/qI
-vKWA/JAsMci4DrjP9r5Ufd+6h6rJEvOPtaEFo2n/r/OSJzm6bP/V1RHco9kZ4+HT
-MjDQa0wZbkq40UEX8mKG26IB5J9H3CYb6TVFSSzejeFGdpeX0rMMWL+hiBPbEG/r
-7ibU9IqIVMUNJZT2FVan4eH62l73X2ezH9hvwfjCcsvQKpu5rz7pBzqnwv8V3Wpe
-/IUq/tXbxkhfzntjY9+65riMABCpBAFRqLXtUhFynZWrpa99npFsyzNdR+WynbyM
-JWVKoQHTJTxhpXdvmYrEyrm2XNZ4iyA+At3Wpp7r5OonkKIqF9qjeJdwda3fRoEd
-YJJsS2Mk8Isw0cxJNep9lSyYwOfQg778lj8gS7d6zW255q/ZM5cfntlYSzqEudu6
-bxrzHI7GWqpOiV4ixgxZTMiL
-=qkh+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUzqV8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xVoQAMrd/nkHDJeSbLF4Vj5c
+2FrJ0uDqtz5zLPIyv+FHIvSl368X1LfD5c7sJsUD4+yXxsBpJ4Lm551kfVzf5RXf
+vamD9vVThVcpf1cziZokRJsMhWXt1/lsOsavQrnRMUjlebzfoRDmZI+OTgnF4vKF
+J+hUJjnutLzBG2NlpLg0JBVTpAuceUZ5onaC4/ddi2CYmKMnE5wQxy+6a69Lg29x
+hq6UEaVVQha2PfMSm1DCsNqxIasKACBXEmMuATUqEIOZUnJJba/5V5883f29THSQ
+ygDFZr92gsI6KM1fmn9ITE7iW1XXeDL1pAq0l/rhUiQng3oP5A7g6F/Zd7uYaPqe
+wW+5OjJ1Bic4r+AUR/o62uG3ZG/loqw6mGmka3wYhKYgrbeIeEM6EZJeLPlk3Ush
+IvKrBseUXIbzzHbL9If9zonkQwLvC6m1ZGYNmsymzoZevXhe2H2bF/HvlotpHt38
+bDYCFQsZhI5ri7PA+CHsM2My0RhbnK5RFx3IA6zdl538WNrBbc58Vdbm/VpPuzmF
+ilyOlOZhvZZpSOO2qskWqcUQMFt0w0FM+oE6sNTv10NgAsEfGwcK97F8fKPCBxwZ
+Z+OzyPghzKwnQMfCZmtGH4TDjf5HxcurYKWyWNdelgiA+e22/2pw+cys4/snUkJB
+eO70GGW//9AOeEpE0PO7TnI9
+=lyhP
 -----END PGP SIGNATURE-----
 
---===============2673392812360688175==--
+--===============5255657209986901665==--
