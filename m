@@ -1,49 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3939745903744455685=="
+Content-Type: multipart/mixed; boundary="===============0712296939739340681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Sat, 21 Oct 2023 16:21:21 -0000
-Message-Id: <169790528111.22455.12485373614894979852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 21 Oct 2023 16:28:18 -0000
+Message-Id: <169790569848.26475.287992178553572623@gitolite.kernel.org>
 
---===============3939745903744455685==
+--===============0712296939739340681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 266dcae34d8f44c3bbab00e227f8b14517682bb7
-    new: 1a07870ea25c235df27d480258b0d78dc2666874
-    log: revlist-266dcae34d8f-1a07870ea25c.txt
+  - ref: refs/heads/tty-testing
+    old: 0059bc9a29e02853dbbaa0f6d0635a687c8b9835
+    new: 838eb763c3e939a8de8d4c55a17ddcce737685c1
+    log: |
+         22088bbb02259d813d797e2d6a4ba7ca6ff4b96c dt-bindings: serial: re-order entries to match coding convention
+         4bebd644971c2b5355af60f4828d464b3268e6cc serial/esp32_uart: use prescaler when available
+         838eb763c3e939a8de8d4c55a17ddcce737685c1 tty: whitespaces in descriptions corrected by replacing tabs with spaces
+         
 
---===============3939745903744455685==
+--===============0712296939739340681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-266dcae34d8f-1a07870ea25c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b5f9e63278d6f32789478acf1ed41d21d92b36cf iommufd: Correct IOMMU_HWPT_ALLOC_NEST_PARENT description
-01d1a4c1ed46ca8b1d43aabf93e3fda0ee2fc174 vfio/iova_bitmap: Export more API symbols
-33f6339534287df2abe1724a4944e38a4fe966b7 vfio: Move iova_bitmap into iommufd
-80035084c9d522a63b5a4713d86d7b815ed44de7 iommufd/iova_bitmap: Move symbols to IOMMUFD namespace
-d1fdc85cbbb18be198d7f8fe0e3a53b2888fbb7b iommu: Add iommu_domain ops for dirty tracking
-7e5fd2b5534b59c626f77a7e9000a41f7e925270 iommufd: Add a flag to enforce dirty tracking on attach
-5a50c0ca1cd3ec8a3666a54c09a6eef57f9c876d iommufd: Add IOMMU_HWPT_SET_DIRTY_TRACKING
-12f16f9fecaef55e90c00e760bc488ac0fd64491 iommufd: Add IOMMU_HWPT_GET_DIRTY_BITMAP
-c9817839a7ab05a44be6fde007c1d565673411f9 iommufd: Add capabilities to IOMMU_GET_HW_INFO
-9151f76ffe2edbb8ea48de61fa31ba041a9bf047 iommufd: Add a flag to skip clearing of IOPTE dirty
-9a326f0599eeb2aff4a49f2606a169ac0cbd77c5 iommu/amd: Add domain_alloc_user based domain allocation
-d6e8b290649443ce8b363d7b1a6cbd1b1be84bae iommu/amd: Access/Dirty bit support in IOPTEs
-271134c3fcb722da33de46024665274d43594c0c iommu/intel: Access/Dirty bit support for SL domains
-050e608a76c5ad38b74fd6c71c6b4442c87c3f26 iommufd/selftest: Expand mock_domain with dev_flags
-b642076b436642ad8038ae79421e551c5668ef3d iommufd/selftest: Test IOMMU_HWPT_ALLOC_DIRTY_TRACKING
-dcc113e6e8928e99a26884a12fb5dac3c75b191d iommufd/selftest: Test IOMMU_HWPT_SET_DIRTY_TRACKING
-c9697a00d18f9368376450926e69116dc8bbb8a3 iommufd/selftest: Test IOMMU_HWPT_GET_DIRTY_BITMAP
-8a7295010c93cb6d3cbe5506ac79a6a42daf357f iommufd/selftest: Test out_capabilities in IOMMU_GET_HW_INFO
-1a07870ea25c235df27d480258b0d78dc2666874 iommufd/selftest: Test IOMMU_HWPT_GET_DIRTY_BITMAP_NO_CLEAR flag
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697905693 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1697905692-eea68a10feac20a4b4530717af34261a04029dfb
 
---===============3939745903744455685==--
+0059bc9a29e02853dbbaa0f6d0635a687c8b9835 838eb763c3e939a8de8d4c55a17ddcce737685c1 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmUz/B0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Qm8QANGC2TyoaaRgCikz7Wp0
+pCj46hqvyYbe/YoiDR/mgb1/0Wrfw7zPTZpOKX/d+Bxs2hoBMzAIMSNzEpc6zF1q
+IeaTm4YVMhnvB0B9POpSJ4W5OL5fM0lSYr3kEcuAo4opLs/daTtm8T0kU2p1RPDd
+JvTsPOuqEzfcUPE/Cl8FAcFUPoaZ7UIHHs+IMP6epzPN/s9enq8nizrdEUPxGfPJ
+lWSlLL/MiApZ2QaUoV42j28W+nWMSEy/jqbCZbiU69ypnjwEKfCB5BRxC85ADcIm
+/FH0iCJwjbDRD3Fuw334oYHi6mymRT5BH+WBbzeBQnrhgWtT+kkT540o2y4JYiF2
+9zPNFJIHcQ8fjV+OmbGy861Sh4p0b3uSStETYlJU8AqCn+6rKCq2SHTHVoId3Ksq
+AuNCLIJJRX3L5AeHz4W7nI3KsU4MaMmq8VoVB4sW8Ik/O4PUxF267WgZ6O5y3lhy
+5MVJZCC5SDbEofxKpbxRhfSBigP7D1PZNlkDgv7qlGUUkOGeJomL/+gic6lQXBDp
+H+sFcV41Ne6twm0xvfFto6KpHAxj51utT5bgyvHov8y6qx4eaNHWdNzKllOprceR
+3XBDa2mB0Q5S9oymdw272/BeUVPYPvUhiR4vN6hJykoSV1MGhLdLcFOYb/UrMAfD
+utvUqfbDZZEW0nKhtwVyjmq1
+=wIa7
+-----END PGP SIGNATURE-----
+
+--===============0712296939739340681==--
