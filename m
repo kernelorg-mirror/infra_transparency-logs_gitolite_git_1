@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2825225700882251419=="
+Content-Type: multipart/mixed; boundary="===============8165416439753267227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 22 Oct 2023 19:53:47 -0000
-Message-Id: <169800442732.8748.16173874442186485502@gitolite.kernel.org>
+Date: Sun, 22 Oct 2023 19:55:52 -0000
+Message-Id: <169800455282.11087.2661901187369830831@gitolite.kernel.org>
 
---===============2825225700882251419==
+--===============8165416439753267227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: dfbddec89bfc3c959cb73ef18aaee314bb23ffa5
-    new: 6f3af9e5d87ea458465a637ac453fa5811d4de22
+    old: 6f3af9e5d87ea458465a637ac453fa5811d4de22
+    new: ebdb08dd8d822f7e5a9e27a21b17770db23e65bb
     log: |
-         6f3af9e5d87ea458465a637ac453fa5811d4de22 drop queue-6.1/net-devlink-move-netdev-notifier-block-to-dest-namespace-during-reload.patch
+         ebdb08dd8d822f7e5a9e27a21b17770db23e65bb drop some 8250_omap patches
          
 
---===============2825225700882251419==
+--===============8165416439753267227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698004422 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698004551 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1698004422-71d14a46ce013f1ff96e6639761d6b37caa52f57
+nonce 1698004551-d10d5034c88720e6f7acf1362f522f89c27e6272
 
-dfbddec89bfc3c959cb73ef18aaee314bb23ffa5 6f3af9e5d87ea458465a637ac453fa5811d4de22 refs/heads/master
+6f3af9e5d87ea458465a637ac453fa5811d4de22 ebdb08dd8d822f7e5a9e27a21b17770db23e65bb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU1fcYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T4gP/1aj2EeKtKkLR8RIdI9p
-oAOSwhKVcTSpAmbfXDVzPJcyN5cf1MJip3nFGlqgxRookEcwAXNN7jbe7T4BlOns
-Bz2NWfyULKwsA3soGY7QPF761rLWshzZlQYMrau9jmcnJGHcpwy/G/fVEzdJDtwy
-82rV8wYh6qLcJO44Gps10wBMnWfSDebxORJ2B/yD9Y3bVJPdpEAYA7QsBo2naTv9
-OLLBAXFVFXeD7tPvpM7A9GIjv0/6LGYVHXyItEgE4HK2qUT4NunU8lWfRlxU51F0
-MX70E4WW+jKGu+93MXfInXll45L49EOuq9GgP7i8CnPV6K8UNmjni9pgCY/vPFMW
-hKbcdSaWy+wkHg9x+hU5r73lvZboo4vEHnIwJspY9pkjK7I9iuc8/4jNN/duvOOb
-bKCZoB035T9Www1vPlGkFZ7T5tu0j/OeV7GZf1d1GzvdYNs6msWeMRQlN2idWfD/
-oUiI3FwhbysQJC/MQBCzTU5UZ4LqETfThUNvrYBaAMR9Tm7F9yS26D5kvd0wCIT9
-eGUPPn4z/j4KmFnxTg94q/rKOwedl5jwc8qaicaOqGcrx6LCubqPJ98YpWjnwqJ3
-lmcsBEHVUZo4SO/3MExtpHtZL3k/MjIHnSdoyXSn6XpuCEz2HS2spPP3Gqvo8Uhr
-neiXqbTYBCDNcFgQBYQMjp21
-=jLf6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU1fkcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xscP/3Oe1/FGnwQCb4wV6nOt
+BR3C7uHz9X+UbRohXYGA3+BJ+YaouVw0nu1MrYKKc9Si/TXUdOXAWkPn2IvODHN4
+jSotRMHAbQJ3Ahboy8/NowIffE63nIFdXIJa6WP/3ogcrYUit36qlV9eVdPnODQl
+qB/CS06ExsjEYImIHZlg3WetcQgSGeDXXRETWEO/u4glSr6gZx2OmqqM81YIc0K1
+Jd7LDIxJK05OuKIh2YAd+s7rwI4savngthBpvZxmg8qo94VNFX62WuMOQi9sJ7I6
+zD0tYT1f9B1CarvI/9vHaFP97GxBNXlI99yiIy7LQBVj1TaSiK799zy593NyVyZb
+9SVQGyz1FH2SI4GnMUh2c8DcNxZkd9tT0gAD9MQqKGaW3YFSD0TsDTlpS2Ts9vvR
+0Eg8kSOu/fuRW5iOfrA3vFNwthVobjETLaW36MSH+uXnt5Q9OaH5LSNATZn+y1+Y
+3uGzOMN3qwC+bmq8uH3KM3jMVCmXOyO6LRuiUa0dpvmqlVaNxZBFd4U+rinb+ObK
+0O5W8JHf/2LuuxPqJ/fCDfQ4rsSYaek5tUqTECdF0cR6CSG0iDBBbUr+qb2Fejxs
+Ur3oRFbnekl8qcI9RezyPm6OMKiFd6AjGARl3OJeBNX3bVnpqqpuqT/hrlgyGJVh
+UeW3l3vcBfTX46i1N8N+fW2d
+=HYpD
 -----END PGP SIGNATURE-----
 
---===============2825225700882251419==--
+--===============8165416439753267227==--
