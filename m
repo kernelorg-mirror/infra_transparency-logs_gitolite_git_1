@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4548443933807961632=="
+Content-Type: multipart/mixed; boundary="===============0247858321800355984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sun, 22 Oct 2023 15:45:44 -0000
-Message-Id: <169798954480.28417.5115976826296565308@gitolite.kernel.org>
+Date: Sun, 22 Oct 2023 15:45:46 -0000
+Message-Id: <169798954671.28485.9231253072491852630@gitolite.kernel.org>
 
---===============4548443933807961632==
+--===============0247858321800355984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.7
-    old: a1f42e08f0f04b72a6597f080db4bfbb3737910c
-    new: a21796c631734ea5cf62507e63a2479261880514
-    log: revlist-a1f42e08f0f0-a21796c63173.txt
-  - ref: refs/heads/clk-for-6.7
-    old: 00331227f42045314b3775957f2f7809fb3ac32f
-    new: e0e6373d653b7707bf042ecf1538884597c5d0da
-    log: |
-         3dcf7b59393812a5fbd83f8cd8d34b94afb4c4d1 clk: qcom: gcc-ipq6018: add QUP6 I2C clock
-         e641a070137dd959932c7c222e000d9d941167a2 clk: qcom: ipq8074: drop the CLK_SET_RATE_PARENT flag from PLL clocks
-         99cd4935cb972d0aafb16838bb2aeadbcaf196ce clk: qcom: ipq6018: drop the CLK_SET_RATE_PARENT flag from PLL clocks
-         01a5e4c6731ab6b4b74822661d296f8893fc1230 clk: qcom: ipq5018: drop the CLK_SET_RATE_PARENT flag from GPLL clocks
-         99a8f8764b70158a712992640a6be46a8fd79d15 clk: qcom: ipq9574: drop the CLK_SET_RATE_PARENT flag from GPLL clocks
-         5635ef0bd1052420bc659a00be6fd0c60cec5cb9 clk: qcom: ipq5332: drop the CLK_SET_RATE_PARENT flag from GPLL clocks
-         e0e6373d653b7707bf042ecf1538884597c5d0da clk: qcom: apss-ipq6018: add the GPLL0 clock also as clock provider
-         
-  - ref: refs/heads/dts-for-6.7
-    old: 2138c32af19740ab54bf5622890fe96ba3530b75
-    new: 836d083524888069cd358776a4e6c4ceec04962e
-    log: |
-         207f4ce365819ac68b634153d074252338d00ef6 ARM: dts: qcom: msm8974: replace incorrect indentation in interconnect
-         4960e06d386ecc5307bc2e66a77d5f06df1e2a6f ARM: dts: qcom: msm8974: sort nodes by reg
-         836d083524888069cd358776a4e6c4ceec04962e ARM: dts: qcom: msm8226: provide dsi phy clocks to mmcc
-         
+  - ref: refs/heads/for-next
+    old: f3bf41f7ffbda12baadd58261a81e6167196495f
+    new: 37e5d6e4c5b80f548cb764f8c8dfcde2a53a0b62
+    log: revlist-f3bf41f7ffbd-37e5d6e4c5b8.txt
 
---===============4548443933807961632==
+--===============0247858321800355984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1f42e08f0f0-a21796c63173.txt
+Content-Disposition: attachment; filename=revlist-f3bf41f7ffbd-37e5d6e4c5b8.txt
 
 00c86efb0f78319958b7bca3391c532016acf39c arm64: dts: qcom: sm8150: extend the size of the PDC resource
+3dcf7b59393812a5fbd83f8cd8d34b94afb4c4d1 clk: qcom: gcc-ipq6018: add QUP6 I2C clock
 032ff6a3b39addd54427844affaf21e1e80fabc2 arm64: dts: qcom: sdm670: add specific cpufreq compatible
 62073bc9f1ecc0d91fc260e7ae380cbadd33e9fc arm64: dts: qcom: ipq5332: populate the opp table based on the eFuse
 b36074357baf2794c825ea1c145de1d22b15380b arm64: dts: qcom: ipq9574: populate the opp table based on the eFuse
+e641a070137dd959932c7c222e000d9d941167a2 clk: qcom: ipq8074: drop the CLK_SET_RATE_PARENT flag from PLL clocks
+99cd4935cb972d0aafb16838bb2aeadbcaf196ce clk: qcom: ipq6018: drop the CLK_SET_RATE_PARENT flag from PLL clocks
+01a5e4c6731ab6b4b74822661d296f8893fc1230 clk: qcom: ipq5018: drop the CLK_SET_RATE_PARENT flag from GPLL clocks
+99a8f8764b70158a712992640a6be46a8fd79d15 clk: qcom: ipq9574: drop the CLK_SET_RATE_PARENT flag from GPLL clocks
+5635ef0bd1052420bc659a00be6fd0c60cec5cb9 clk: qcom: ipq5332: drop the CLK_SET_RATE_PARENT flag from GPLL clocks
+e0e6373d653b7707bf042ecf1538884597c5d0da clk: qcom: apss-ipq6018: add the GPLL0 clock also as clock provider
 80ebe63329909531afc87335f1d95c7bf8414438 arm64: dts: qcom: ipq8074: include the GPLL0 as clock provider for mailbox
 0133c7af3aa0420778d106cb90db708cfa45f2c6 arm64: dts: qcom: ipq6018: include the GPLL0 as clock provider for mailbox
 77c726a4f3b124903db5ced7d597976d5b80dcfb arm64: dts: qcom: ipq9574: include the GPLL0 as clock provider for mailbox
@@ -73,11 +60,15 @@ f276411d0f8286c7ff3e1bd6917ea7ee61152d24 arm64: dts: qcom: msm8916-samsung-a2015
 5d1cec28fd4d09e82e028903423829f59a033965 arm64: dts: qcom: msm8916-alcatel-idol347: Add sound and modem
 462cdffaa83df28d5fbd0c1771eaa85954114c77 arm64: dts: qcom: msm8916-asus-z00l: Add sound and modem
 1ab407193d38c775261d7beccd080e88f68c7243 arm64: dts: qcom: msm8916-longcheer-l8150: Add sound and modem
+207f4ce365819ac68b634153d074252338d00ef6 ARM: dts: qcom: msm8974: replace incorrect indentation in interconnect
+4960e06d386ecc5307bc2e66a77d5f06df1e2a6f ARM: dts: qcom: msm8974: sort nodes by reg
+836d083524888069cd358776a4e6c4ceec04962e ARM: dts: qcom: msm8226: provide dsi phy clocks to mmcc
 2821c34a996b4a0991d33bead5caa84267e2dccd arm64: dts: qcom: msm8916-longcheer-l8910: Add sound and modem
 4f6b5edbcfbaa1061c29e6259cc5653f44b673da arm64: dts: qcom: msm8916-samsung-gt5: Add sound and modem
 cf12268e1b632c6ac16185bd1230af6e1ca517fb arm64: dts: qcom: msm8916-samsung-j5: Add sound and modem
 dd5ab5d2ca722110c82459a571e367df7ee6d821 arm64: dts: qcom: msm8939-samsung-a7: Add sound and modem
 5017b8cdb7ebeb32d7f12a05b34d58662e137dbe arm64: dts: qcom: msm8916-longcheer-l8910: Enable RGB LED
 a21796c631734ea5cf62507e63a2479261880514 arm64: dts: qcom: msm8939-longcheer-l9100: Enable RGB LED
+37e5d6e4c5b80f548cb764f8c8dfcde2a53a0b62 Merge branches 'arm64-defconfig-for-6.7', 'arm64-fixes-for-6.6', 'arm64-for-6.7', 'clk-for-6.7', 'drivers-for-6.7' and 'dts-for-6.7' into for-next
 
---===============4548443933807961632==--
+--===============0247858321800355984==--
