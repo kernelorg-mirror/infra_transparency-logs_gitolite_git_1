@@ -1,60 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============1263944829469182345=="
+Content-Type: multipart/mixed; boundary="===============0226243231841258852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 22 Oct 2023 10:23:58 -0000
-Message-Id: <169797023846.25163.16578051988980258446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 22 Oct 2023 10:25:37 -0000
+Message-Id: <169797033785.27322.9139033528366077426@gitolite.kernel.org>
 
---===============1263944829469182345==
+--===============0226243231841258852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/staging-testing
-    old: e63771781beadbdef537f6de36f62c8e672a5b8f
-    new: 5d9f6f26ec6656b43bf90f12705dbe88ce77f8d5
-    log: |
-         25b8c77ecdd39eb8afb4e3be001f6f7baf12acda staging: vt6655: Rename variable byCWMaxMin
-         e59314b68cc7ab639bfe1bf658a619b4b8b3ce4e staging: vt6655: Rename variable bySlot
-         d988a485f5940e119d6de4f2b17ea0a1dfc7db4f staging: vt6655: Rename variable bySIFS
-         30af3e57580d93bab1929e3b7cbed9177a8a6cef staging: vt6655: Rename variable byDIFS
-         5d9f6f26ec6656b43bf90f12705dbe88ce77f8d5 staging: vt6655: Rename variable byEIFS
-         
+  - ref: refs/heads/master
+    old: 18cb1c2cda2282e994f4dae903340fa233e5787c
+    new: 07cc3847f44a2c138fc4dd973fa79efb4be3e69c
+    log: revlist-18cb1c2cda22-07cc3847f44a.txt
 
---===============1263944829469182345==
+--===============0226243231841258852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-18cb1c2cda22-07cc3847f44a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697970236 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1697970236-dc5e38eddbbe1de509c92fb2f2bce244ebfe2902
+ec4405ed92036f5bb487b5c2f9a28f9e36a3e3d5 thunderbolt: Call tb_switch_put() once DisplayPort bandwidth request is finished
+7ec4cd3c1a12dc08c60d5e376c2c05aae23f1e41 platform: mellanox: Fix a resource leak in an error handling path in probing flow
+a4fdebbe062c0da3284e79641c2d5e67150f0daf Merge tag 'platform-drivers-x86-mellanox-init-v6.6' into fixes
+4d73c6772ab771cbbe7e46a73e7c78ba490350fa platform/x86: intel-uncore-freq: Conditionally create attribute for read frequency
+6284e67aa6cb3af870ed11dfcfafd80fd927777b platform/x86: msi-ec: Fix the 3rd config
+51064b7acf665bfa2c929d7cafb7ad494b7d2783 platform/x86: wmi: Update MAINTAINERS entry
+17bfcd6a81535d7d580ddafb6e54806890aaca6c rust: error: fix the description for `ECHILD`
+2a7e0a52ec98566a863aba42ea35690c65e3da27 rust: error: Markdown style nit
+344b6c0a7514b044ed12b8ad3cdeecd262292f3e rust: fix bindgen build error with fstrict-flex-arrays
+6a7be48e9bd18d309ba25c223a27790ad1bf0fa3 USB: serial: option: add Telit LE910C4-WWX 0x1035 composition
+064f6e2ba9eb59b2c87b866e1e968e79ccedf9dd USB: serial: option: add entry for Sierra EM9191 with new firmware
+ff9e8f41513669e290f6e1904e1bc75950584491 powerpc/mm: Allow ARCH_FORCE_MAX_ORDER up to 12
+52480e1f1a259c93d749ba3961af0bffedfe7a7a USB: serial: option: add Fibocom to DELL custom modem FM101R-GL
+63e8b94ad1840f02462633abdb363397f56bc642 s390/cio: fix a memleak in css_alloc_subchannel
+327899674eef18f96644be87aa5510b7523fe4f6 s390/kasan: handle DCSS mapping in memory holes
+8b695369a6f2d00f62cd28f927b6d4a0a2163191 Merge tag 'thunderbolt-for-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+20045f0155ab79f8beb840022ea86bff46167f79 powerpc/64s/radix: Don't warn on copros in radix__tlb_flush()
+b11950356c4b416d2e87941f3aa7a8bf089db72b KEYS: asymmetric: Fix sign/verify on pkcs1pad without a hash
+430232619791e7de95191f2cd8ebaa4c380d17d0 gpio: vf610: mask the gpio irq in system suspend and support wakeup
+fc363413ef8ea842ae7a99e3caf5465dafdd3a49 gpio: vf610: set value before the direction to avoid a glitch
+f37cc2fc277b371fc491890afb7d8a26e36bb3a1 platform/x86: asus-wmi: Change ASUS_WMI_BRN_DOWN code from 0x20 to 0x2e
+a5b92be2482e5f9ef30be4e4cda12ed484381493 platform/x86: asus-wmi: Only map brightness codes when using asus-wmi backlight control
+235985d1763f7aba92c1c64e5f5aaec26c2c9b18 platform/x86: asus-wmi: Map 0x2a code, Ignore 0x2b and 0x2c events
+f9bc9bbe8afdf83412728f0b464979a72a3b9ec2 powerpc/qspinlock: Fix stale propagated yield_cpu
+fe0e04cf66a12ffe6d1b43725ddaabd5599d024f platform/surface: platform_profile: Propagate error if profile registration fails
+0e51cb42438b8754d8f4cee4c802a8c5bb2cd5e0 apple-gmux: Hard Code max brightness for MMIO gmux
+99c09c985e5973c8f0ad976ebae069548dd86f12 platform/mellanox: mlxbf-tmfifo: Fix a warning message
+c1ae1c59c8c6e0b66a718308c623e0cb394dab6b s390/pci: fix iommu bitmap allocation
+bd9e54a42ce26026d67963c21b3fdfe8c7e68430 docs: rust: update Rust docs output path
+1db773da58df20772dcc037a47163ce472d39c4d kbuild: remove old Rust docs output path
+cfd96726e61136e68a168813cedc4084f626208b rust: docs: fix logo replacement
+3ac974796e5d94509b85a403449132ea660127c2 iomap: fix short copy in iomap_write_iter()
+21a68b69f7c16f026bd2e51884520aaf594977cb Merge tag 'usb-serial-6.6-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+479ac419206b5fe4ce4e40de61ac3210a36711aa gpiolib: acpi: Add missing memset(0) to acpi_get_gpiod_from_data()
+b022f0c7e404887a7c5229788fc99eff9f9a80d5 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
+03b80ff8023adae6780e491f66e932df8165e3a0 selftests/ftrace: Add new test case which checks non unique symbol
+5722119f674d81eb88d51463ece8096855d94cc0 Merge tag 'iomap-6.6-fixes-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+f1de9aced809f1751bc97703bdf678c75da3fed3 Merge tag 'v6.6-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+bfd4704c82d9041cdd611d5c577f1e57ebf91537 Merge tag 'usb-6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+f51de61ce7cf27202fe1357b6c35a39a98ecd9cf Merge tag 'platform-drivers-x86-v6.6-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+4d7b04c0cda365f190c4a8f7fddc535b93aae9f9 Merge tag 's390-6.6-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+023cc836053539148ffd015d3938887ef19af1cd Merge tag 'probes-fixes-v6.6-rc6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+94be133fb2b8a36d79b362b3bafbdfd054a4da89 Merge tag 'perf-urgent-2023-10-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+45d3291c5201fced351e62d714e2912400cc7f4d Merge tag 'sched-urgent-2023-10-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+03027aa3a5c698b8fe1a0254284198cb1423481e Merge tag 'rust-fixes-6.6' of https://github.com/Rust-for-Linux/linux
+d537ae43f8a107761fb5a85c3f0cfce5ca79bcb1 Merge tag 'gpio-fixes-for-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+1acfd2bd3f0d9dc34ea1871a445c554220945d9f Merge tag 'powerpc-6.6-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+07cc3847f44a2c138fc4dd973fa79efb4be3e69c Merge branch 'linus'
 
-e63771781beadbdef537f6de36f62c8e672a5b8f 5d9f6f26ec6656b43bf90f12705dbe88ce77f8d5 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU0+DwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C/kQALUzK0qkJG9GH28vuWJh
-5Kk+Bw7zIW8vVhytd/IFzuma5FDqSAl3lEVhTsA1ty4zC0wovKingUUvtIF4xD42
-kXx0DIpx57OXnljBmwr+TiFWHzvVxFhWn2/ByIH++MqtKxeknLuLdmgX3w5paI23
-FrpcI2Gv9LRgGziw4Zvs2aSmWZjPyw4xz2xzzDqMU1XmMsr4QqBFiBqSK7rIwVXJ
-oHSyCIOVlgPSPYiMzZiObP42BD5RkdqO2piROiDoxphP7M7VKI7v6Di8ShMAC5l1
-2rsrEbeA7c9eDMcav2zEdYBY7RpNA9R3l0u7oCTJSjI/x9G5Ru3K9SsDpXHYEyoJ
-JqahedyUGoOp3V8hx3OquVubt0hDwxWcQDf1nYle54eegMvZEJs4tO+fT4PE1LVS
-ZfT76AJyW7K0CBuHajOrA9J8ARKM7Sk/Vsx+Wlbqo73XSs5rmgMwTaKALvKvMZFU
-L7WLwNMf0ZakI1E5MMV9k5kiugYD1oKY9KYCqivpAB1Fvy8LXoJmHoMpvTZ5lH/O
-88OF+HnQHvuiI0620U+AfEYBWa7u7ACrhPdN25Q2VIlmShe5Zpz2kyx0aP1bXAYU
-S+tFEQwkqJiVFVyryiShd2BMbZSuLhErq/wWG9KVL2ieR1KHA4Nohm7yWh00RkoD
-kH4ZJJYxX0C5LNPQvgfmcq+1
-=V/Yo
------END PGP SIGNATURE-----
-
---===============1263944829469182345==--
+--===============0226243231841258852==--
