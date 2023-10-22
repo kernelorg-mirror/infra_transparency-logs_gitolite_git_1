@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0226243231841258852=="
+Content-Type: multipart/mixed; boundary="===============6887807574698133437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 22 Oct 2023 10:25:37 -0000
-Message-Id: <169797033785.27322.9139033528366077426@gitolite.kernel.org>
+Date: Sun, 22 Oct 2023 10:27:11 -0000
+Message-Id: <169797043105.27923.18165466994550891542@gitolite.kernel.org>
 
---===============0226243231841258852==
+--===============6887807574698133437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 18cb1c2cda2282e994f4dae903340fa233e5787c
-    new: 07cc3847f44a2c138fc4dd973fa79efb4be3e69c
-    log: revlist-18cb1c2cda22-07cc3847f44a.txt
+    old: 07cc3847f44a2c138fc4dd973fa79efb4be3e69c
+    new: a040e853ea6665b6ab57cb4cb6d232c3824ab91c
+    log: revlist-07cc3847f44a-a040e853ea66.txt
 
---===============0226243231841258852==
+--===============6887807574698133437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18cb1c2cda22-07cc3847f44a.txt
+Content-Disposition: attachment; filename=revlist-07cc3847f44a-a040e853ea66.txt
 
-ec4405ed92036f5bb487b5c2f9a28f9e36a3e3d5 thunderbolt: Call tb_switch_put() once DisplayPort bandwidth request is finished
-7ec4cd3c1a12dc08c60d5e376c2c05aae23f1e41 platform: mellanox: Fix a resource leak in an error handling path in probing flow
-a4fdebbe062c0da3284e79641c2d5e67150f0daf Merge tag 'platform-drivers-x86-mellanox-init-v6.6' into fixes
-4d73c6772ab771cbbe7e46a73e7c78ba490350fa platform/x86: intel-uncore-freq: Conditionally create attribute for read frequency
-6284e67aa6cb3af870ed11dfcfafd80fd927777b platform/x86: msi-ec: Fix the 3rd config
-51064b7acf665bfa2c929d7cafb7ad494b7d2783 platform/x86: wmi: Update MAINTAINERS entry
-17bfcd6a81535d7d580ddafb6e54806890aaca6c rust: error: fix the description for `ECHILD`
-2a7e0a52ec98566a863aba42ea35690c65e3da27 rust: error: Markdown style nit
-344b6c0a7514b044ed12b8ad3cdeecd262292f3e rust: fix bindgen build error with fstrict-flex-arrays
-6a7be48e9bd18d309ba25c223a27790ad1bf0fa3 USB: serial: option: add Telit LE910C4-WWX 0x1035 composition
-064f6e2ba9eb59b2c87b866e1e968e79ccedf9dd USB: serial: option: add entry for Sierra EM9191 with new firmware
-ff9e8f41513669e290f6e1904e1bc75950584491 powerpc/mm: Allow ARCH_FORCE_MAX_ORDER up to 12
-52480e1f1a259c93d749ba3961af0bffedfe7a7a USB: serial: option: add Fibocom to DELL custom modem FM101R-GL
-63e8b94ad1840f02462633abdb363397f56bc642 s390/cio: fix a memleak in css_alloc_subchannel
-327899674eef18f96644be87aa5510b7523fe4f6 s390/kasan: handle DCSS mapping in memory holes
-8b695369a6f2d00f62cd28f927b6d4a0a2163191 Merge tag 'thunderbolt-for-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-20045f0155ab79f8beb840022ea86bff46167f79 powerpc/64s/radix: Don't warn on copros in radix__tlb_flush()
-b11950356c4b416d2e87941f3aa7a8bf089db72b KEYS: asymmetric: Fix sign/verify on pkcs1pad without a hash
-430232619791e7de95191f2cd8ebaa4c380d17d0 gpio: vf610: mask the gpio irq in system suspend and support wakeup
-fc363413ef8ea842ae7a99e3caf5465dafdd3a49 gpio: vf610: set value before the direction to avoid a glitch
-f37cc2fc277b371fc491890afb7d8a26e36bb3a1 platform/x86: asus-wmi: Change ASUS_WMI_BRN_DOWN code from 0x20 to 0x2e
-a5b92be2482e5f9ef30be4e4cda12ed484381493 platform/x86: asus-wmi: Only map brightness codes when using asus-wmi backlight control
-235985d1763f7aba92c1c64e5f5aaec26c2c9b18 platform/x86: asus-wmi: Map 0x2a code, Ignore 0x2b and 0x2c events
-f9bc9bbe8afdf83412728f0b464979a72a3b9ec2 powerpc/qspinlock: Fix stale propagated yield_cpu
-fe0e04cf66a12ffe6d1b43725ddaabd5599d024f platform/surface: platform_profile: Propagate error if profile registration fails
-0e51cb42438b8754d8f4cee4c802a8c5bb2cd5e0 apple-gmux: Hard Code max brightness for MMIO gmux
-99c09c985e5973c8f0ad976ebae069548dd86f12 platform/mellanox: mlxbf-tmfifo: Fix a warning message
-c1ae1c59c8c6e0b66a718308c623e0cb394dab6b s390/pci: fix iommu bitmap allocation
-bd9e54a42ce26026d67963c21b3fdfe8c7e68430 docs: rust: update Rust docs output path
-1db773da58df20772dcc037a47163ce472d39c4d kbuild: remove old Rust docs output path
-cfd96726e61136e68a168813cedc4084f626208b rust: docs: fix logo replacement
-3ac974796e5d94509b85a403449132ea660127c2 iomap: fix short copy in iomap_write_iter()
-21a68b69f7c16f026bd2e51884520aaf594977cb Merge tag 'usb-serial-6.6-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-479ac419206b5fe4ce4e40de61ac3210a36711aa gpiolib: acpi: Add missing memset(0) to acpi_get_gpiod_from_data()
-b022f0c7e404887a7c5229788fc99eff9f9a80d5 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
-03b80ff8023adae6780e491f66e932df8165e3a0 selftests/ftrace: Add new test case which checks non unique symbol
-5722119f674d81eb88d51463ece8096855d94cc0 Merge tag 'iomap-6.6-fixes-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-f1de9aced809f1751bc97703bdf678c75da3fed3 Merge tag 'v6.6-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-bfd4704c82d9041cdd611d5c577f1e57ebf91537 Merge tag 'usb-6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-f51de61ce7cf27202fe1357b6c35a39a98ecd9cf Merge tag 'platform-drivers-x86-v6.6-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-4d7b04c0cda365f190c4a8f7fddc535b93aae9f9 Merge tag 's390-6.6-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-023cc836053539148ffd015d3938887ef19af1cd Merge tag 'probes-fixes-v6.6-rc6.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-94be133fb2b8a36d79b362b3bafbdfd054a4da89 Merge tag 'perf-urgent-2023-10-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-45d3291c5201fced351e62d714e2912400cc7f4d Merge tag 'sched-urgent-2023-10-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-03027aa3a5c698b8fe1a0254284198cb1423481e Merge tag 'rust-fixes-6.6' of https://github.com/Rust-for-Linux/linux
-d537ae43f8a107761fb5a85c3f0cfce5ca79bcb1 Merge tag 'gpio-fixes-for-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-1acfd2bd3f0d9dc34ea1871a445c554220945d9f Merge tag 'powerpc-6.6-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-07cc3847f44a2c138fc4dd973fa79efb4be3e69c Merge branch 'linus'
+50c6e303aca230f741e87e3b17c48225d5ac1709 Merge branch into tip/master: 'x86/urgent'
+2e4fb22b8ba418eb0e5140b84a7392d68d21f386 Merge branch into tip/master: 'x86/merge'
+9bfaf21269ec37629617643293c64bf43efc3012 Merge branch into tip/master: 'core/core'
+5d1cda4bbcc8ed9c65dfe16fd844ebc743e48d67 Merge branch into tip/master: 'irq/core'
+c9bab118cb7f1e581bdd2fcbc6848a309eb5a9cd Merge branch into tip/master: 'locking/core'
+7b6670aaeb52f7e7a53a7a78946d6f18b0f63451 Merge branch into tip/master: 'objtool/core'
+8d27cefd08a7d7d3e4632cdb01c6ca72b1552a9c Merge branch into tip/master: 'perf/core'
+a59364290cc88e79148ad630f8d17e22c56c3282 Merge branch into tip/master: 'ras/core'
+3d142b3ead9ad1ccef3934cc5eca84ec4941104c Merge branch into tip/master: 'sched/core'
+230e0a5c2fed565b1a41ae4fd4ed7bca4626ae16 Merge branch into tip/master: 'smp/core'
+930cbf429589f371d3b34c4db79137ae6682df49 Merge branch into tip/master: 'timers/core'
+9f9a1b18830c3d83f8a9be1c69a02d73e35e43b8 Merge branch into tip/master: 'x86/apic'
+bdd357dc983c134b496ce8468f5404ecc485401e Merge branch into tip/master: 'x86/asm'
+ff2b6a593dd3e342bde54f84c0596261345fa151 Merge branch into tip/master: 'x86/boot'
+c8143f0e31c12f86f220d81c71a5aeed136469a8 Merge branch into tip/master: 'x86/bugs'
+46d4db205322afbe11510f0f9408df62dc52836c Merge branch into tip/master: 'x86/cache'
+edd14e8a5aaa0d743c7a2740bc0c03d745de8960 Merge branch into tip/master: 'x86/cpu'
+afa7bcec625dc2785ac737aa15815e2b64eb44a0 Merge branch into tip/master: 'x86/entry'
+cb84f04cf1199ce3ef73c64b3ee56f29ed69f50a Merge branch into tip/master: 'x86/fpu'
+815ad071e5c6709721d3cb2f480bdcc21f6c81d7 Merge branch into tip/master: 'x86/headers'
+91f0f3944b03348b890567fb1c26bc53f066cc9f Merge branch into tip/master: 'x86/irq'
+3ea898ec5777f575bfcf74267015e7a50231c09e Merge branch into tip/master: 'x86/microcode'
+26870bf05a3a893f22981a254c2f540aeabdda53 Merge branch into tip/master: 'x86/mm'
+d3fd3c69b7d8e68b5075f1aca45c9cb5cce85c2e Merge branch into tip/master: 'x86/percpu'
+8d85cfce8c29c6d53dd464219c0ff273b35ecd87 Merge branch into tip/master: 'x86/platform'
+a040e853ea6665b6ab57cb4cb6d232c3824ab91c Merge branch into tip/master: 'x86/tdx'
 
---===============0226243231841258852==--
+--===============6887807574698133437==--
