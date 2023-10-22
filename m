@@ -1,59 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============0821820025412407779=="
+Content-Type: multipart/mixed; boundary="===============5842041611496715558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 22 Oct 2023 13:46:23 -0000
-Message-Id: <169798238300.8978.118549665831996445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Sun, 22 Oct 2023 13:59:29 -0000
+Message-Id: <169798316950.16594.3768644252293004402@gitolite.kernel.org>
 
---===============0821820025412407779==
+--===============5842041611496715558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: d15e05ef79a1fad5361996423b3b4d6a727e61d7
-    new: dfbddec89bfc3c959cb73ef18aaee314bb23ffa5
-    log: |
-         2735129c11455124af79c686278a456780fd4c14 5.10-stable patches
-         043db663b29ed90c7232c5e456dae15f67ba8be0 5.15-stable patches
-         6cd55a95feeb4f4954cc23dbd8f426a2af762c39 6.1-stable patches
-         dfbddec89bfc3c959cb73ef18aaee314bb23ffa5 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
-         
+  - ref: refs/heads/topic/fgraph-multi
+    old: f89a72328944cb3136c9c44850970a9c8cc7021a
+    new: 7b4f1147ab12cc7de50a7a15d6a818b02a0e4fa2
+    log: revlist-f89a72328944-7b4f1147ab12.txt
 
---===============0821820025412407779==
+--===============5842041611496715558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f89a72328944-7b4f1147ab12.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1697982382 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1697982380-517688f589e7cdb2139b5fa8f1bf11b35efd9343
+2819f23ac12ce93ff79ca7a54597df9a4a1f6331 eventfs: Use eventfs_remove_events_dir()
+5ddd8baa4857709b4e5d84b376d735152851955b tracing: Make system_callback() function static
+1c20c65ea03293bcb08765d320ae32a27b56224b doc: Update /proc/cmdline documentation to include boot config
+2db949178eca1434942efbe8032c7e9ffec32876 fs/proc: Add boot loader arguments as comment to /proc/bootconfig
+fe632ccbe7eb9780b7477a30822f1cb83db25c6f doc: Add /proc/bootconfig to proc.rst
+a110d17240671f4417a2a676be48bda03fe64866 samples: kprobes: Fixes a typo
+f843249cb6a151bfe7b955dfb93ff29663c258fb tracing/eprobe: drop unneeded breaks
+b4edb8d2d4647a71a246d91fe34ff25c2c5f3481 lib: objpool added: ring-array based lockless MPMC
+92f90d3b0d5e384f218c8068138ed1b3afa025af lib: objpool test module added
+4bbd9345565933823f38a419df65661f12adbe5e kprobes: kretprobe scalability improvement
+f46e8939de80bf029787111bf488ee86355b111c kprobes: freelist.h removed
+e2049d8569d94446eb581f792178c1ac4eddb58b MAINTAINERS: objpool added
+b8a555dc31e5aa18d976de0bc228006e398a2e7d eventfs: Use ERR_CAST() in eventfs_create_events_dir()
+7e8ad67c9b5c11e990c320ed7e7563f2301672a7 eventfs: Fix failure path in eventfs_create_events_dir()
+5264a2f4bb3baf712e19f1f053caaa8d7d3afa2e tracing: Fix a NULL vs IS_ERR() bug in event_subsystem_dir()
+64bf2f685c795e75dd855761c75a193ee5998731 tracefs/eventfs: Modify mismatched function name
+d0ed46b60396cfa7e0056f55e1ce0b43c7db57b6 tracing: Move readpos from seq_buf to trace_seq
+845e31e1101fc8533be52aff42d8f1ff48636024 seq_buf: fix a misleading comment
+16c7108c208ee69be0674a3cea0b578ebf1b1688 Merge bootconfig/for-next
+4e6d16da50fab3630229013dfe30aed893370ed0 Merge probes/for-next
+122e4285fade476dd71eb60561af0cc2788342b4 function_graph: Convert ret_stack to a series of longs
+977297d0cd48911a157427c7f72a9cf1f21d5129 fgraph: Use BUILD_BUG_ON() to make sure we have structures divisible by long
+235c778d489b69addce14b2fd9da088bb6c21156 function_graph: Add an array structure that will allow multiple callbacks
+1a22e49d8158b95ca1c49f9c7522bdf7a3dfa53a function_graph: Allow multiple users to attach to function graph
+9be6c839c22097d9d2d9a922f6d4e128d0e7bb9e function_graph: Remove logic around ftrace_graph_entry and return
+36864ea521035c43f11f3012c090fd64a2984db1 ftrace/function_graph: Pass fgraph_ops to function graph callbacks
+e22bce9f13de9d835aca1a9c54873ce0563e3138 ftrace: Allow function_graph tracer to be enabled in instances
+57a7f488939e817f7032f689ce6d99d1292946d9 ftrace: Allow ftrace startup flags exist without dynamic ftrace
+a3fbd72c12d7d66f8c6d3fac9dc6d9959461ee63 function_graph: Have the instances use their own ftrace_ops for filtering
+eed6fe8e761c123f063de211aff7b517e10101ec function_graph: Add "task variables" per task for fgraph_ops
+29e53ba9b29e87e1fe9069155d3b0fd0f66cdb34 function_graph: Move set_graph_function tests to shadow stack global var
+afe45ae6c09e10877cb9dc0d0066d805ddfac701 function_graph: Move graph depth stored data to shadow stack global var
+9cb7bde4bcf921ddd5c621eb26a1698e5d612f46 function_graph: Move graph notrace bit to shadow stack global var
+7c6a472f4a8bec175723804f003a25bd73adc61e function_graph: Implement fgraph_reserve_data() and fgraph_retrieve_data()
+7b4f1147ab12cc7de50a7a15d6a818b02a0e4fa2 function_graph: Add selftest for passing local variables
 
-d15e05ef79a1fad5361996423b3b4d6a727e61d7 dfbddec89bfc3c959cb73ef18aaee314bb23ffa5 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU1J64bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wmYP/3KnTmpybPfEICNcUYxk
-INtC1uyNlPe9WJCZGmUyqwF+CO/+UOfgthoJ31kfLamdSUxuy4DuLbiBhGHbreNB
-Z9g2n30QXTIDNDA7QGjl+OtgMU6JueDitWNLlNbnzYn28y3iQMkeqRGWRxy6CM7v
-uSU22bDaGHMNlZTqshCwk7st9P/M7E/TbbXZfCZRwzV3sBNfSx2PwFwAywBq94aI
-2hoxzZ9frT7O7GSMPZDZ233RkhriJAXMhNrxS9DcnXvkkBBGP9+O/7IgLhthiRIb
-6JvRqKqMWNgShKh0YiYqr8rK8lbjFZ0SRFOpovne1A6fne5VjBC/6jkr6mLJTviW
-Cpx8K98NYtEfUJglW+LRtVVpU/h6Qk+nFbCZwotf2rNPwq7fXecGLHbjF6YqAM04
-Qc+0iTJ7Mpj72/+en41U8Y1LIbrEqAecDsFyAylvrax21jYFr7ytJwMZ6NDl2v+b
-lpgYeInrubqtbF3Ve2klWn/vUpXay57ekjgPKtxIrqU0WI18zHbMEs8MyBTUfnK3
-xOEGhhcpDmszKxxWMbYp+iIaZP9/szWaxlrDNs+olaNYfIMIIUHlmh0FhiObw40j
-4ke7HGx7sCfgXWCxNfHOC/gkq/gQPu/j4aJ9vafDeeFtbL/i9lMP123p4AAZRYfU
-sC25gO9MTihSeFhZ6DnRjETP
-=zFX5
------END PGP SIGNATURE-----
-
---===============0821820025412407779==--
+--===============5842041611496715558==--
