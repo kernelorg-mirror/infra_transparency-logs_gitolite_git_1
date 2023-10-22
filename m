@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Sun, 22 Oct 2023 22:49:16 -0000
-Message-Id: <169801495649.5287.851174154472492686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 22 Oct 2023 23:09:57 -0000
+Message-Id: <169801619717.19949.9742651609863055172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/dt/next
-    old: 47b8fb4aef95343668a20c217c5378ce9841e0fb
-    new: 07a37547bd1766f2d01e93a33ce055820f1ada99
+  - ref: refs/heads/master
+    old: 2291daa648e362d6d94703e27e1f8ef54e3138a7
+    new: 40415f47b92056010b7df22d449a47e2b2591573
     log: |
-         07a37547bd1766f2d01e93a33ce055820f1ada99 dt-bindings: arm: cpus: Add Qualcomm Kryo 465
-         
-  - ref: refs/heads/for-next
-    old: 47b8fb4aef95343668a20c217c5378ce9841e0fb
-    new: 07a37547bd1766f2d01e93a33ce055820f1ada99
-    log: |
-         07a37547bd1766f2d01e93a33ce055820f1ada99 dt-bindings: arm: cpus: Add Qualcomm Kryo 465
+         4de19dff28a55283591900b5943bffd72347b5dc Fixes for 6.5
+         d2a606f030dce109d6d36dea0c257f9060f5e093 Fixes for 6.1
+         62186d0722521c552bc5e5df6a2eb3f44e074789 Fixes for 5.15
+         3a0ed1a193ad8ada3ff2c731c5a6f721114e651b Fixes for 5.10
+         bc8fd9e02367748c00daf801e8459c945a85fe4c Fixes for 5.4
+         40415f47b92056010b7df22d449a47e2b2591573 Fixes for 4.19
          
