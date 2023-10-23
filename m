@@ -1,22 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 23 Oct 2023 19:40:01 -0000
-Message-Id: <169809000185.21192.1815159322652229538@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6020082777577279745=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 23 Oct 2023 20:08:45 -0000
+Message-Id: <169809172561.9179.5996160797627235647@gitolite.kernel.org>
+
+--===============6020082777577279745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 2cf7b3e8fb72ca931d5a0ff190cefb3a57dc610f
-    new: 6dc66a3096730db94a89b098da66887a390cc6af
-    log: |
-         a9580b9b36a88f8cc92ae52820a386f92c8d6065 rpmsg: core: Replace deprecated strncpy with strscpy
-         ec189da923fb06acb0ee38e2d0ee55239995e9d6 rpmsg: Replace deprecated strncpy with strscpy_pad
-         2a6e483ad047654a220c798080d0fc861ead2e07 rpmsg: virtio: Replace deprecated strncpy with strscpy/_pad
-         6dc66a3096730db94a89b098da66887a390cc6af Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
-         
+  - ref: refs/heads/master
+    old: 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1
+    new: e017769f4ce20dc0d3fa3220d4d359dcc4431274
+    log: revlist-05d3ef8bba77-e017769f4ce2.txt
+
+--===============6020082777577279745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-05d3ef8bba77-e017769f4ce2.txt
+
+e07744b43d3ad10b040f0ec464b6323ca96903d6 tools/virtio: Add dma sync api for virtio test
+d121df789b159e9a8ee770666f210975a81e8111 vdpa_sim_blk: Fix the potential leak of mgmt_dev
+fab7f259227b8f70aa6d54e1de1a1f5f4729041c virtio-mmio: fix memory leak of vm_dev
+f8a3db47d944a33eac1f37358db560e5aabbfbca vdpa/mlx5: Fix double release of debugfs entry
+07622bd415639e9709579f400afd19e7e9866e5e virtio_balloon: Fix endless deflation and inflation on arm64
+abb0dcf9938c93f765abf8cb45567cadef0af6b2 vdpa/mlx5: Fix firmware error on creation of 1k VQs
+ca50ec377c2e94b0a9f8735de2856cd0f13beab4 vhost: Allow null msg.size on VHOST_IOTLB_INVALIDATE
+fa2e6947aa8844f25f5bad0d8cd1a541d9bc83eb virtio-crypto: handle config changed by work queue
+061b39fdfe7fd98946e67637213bcbb10a318cca virtio_pci: fix the common cfg map size
+eb96e221937af3c7bb8a63208dbab813ca5d3d7e btrfs: fix unwritten extent buffer after snapshotting a new subvolume
+7c14564010fc1d0f16ca7d39b0ff948b43344209 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+e017769f4ce20dc0d3fa3220d4d359dcc4431274 Merge tag 'for-6.6-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+
+--===============6020082777577279745==--
