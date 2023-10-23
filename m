@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3780216636646039842=="
+Content-Type: multipart/mixed; boundary="===============8240127125207892994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Oct 2023 08:40:43 -0000
-Message-Id: <169805044349.14727.18037491174092499703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 Oct 2023 08:41:22 -0000
+Message-Id: <169805048200.15025.4155142502821425323@gitolite.kernel.org>
 
---===============3780216636646039842==
+--===============8240127125207892994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 35c1b273206346c4178928b1121675dc143e61d2
-    new: bdf24b4bdfa59b124f9d0ff837f8d35a908da3b8
-    log: revlist-35c1b2732063-bdf24b4bdfa5.txt
+  - ref: refs/heads/master
+    old: 2b1bc0093289e11803af69156cabbd6de89b4cf2
+    new: 68eb73269bc822c9b8829306a78288ef9f7f9b95
+    log: |
+         978b9497895ff7e4d1d8d237206a4b4cc58fae6f fix up a net 6.1 patch to not need the world of dependencies
+         68eb73269bc822c9b8829306a78288ef9f7f9b95 6.1-stable patches
+         
 
---===============3780216636646039842==
+--===============8240127125207892994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35c1b2732063-bdf24b4bdfa5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-225d9ddbacb102621af6d28ff7bf5a0b4ce249d8 chtls: fix tp->rcv_tstamp initialization
-73ed8e03388d16c12fc577e5c700b58a29045a15 tcp: fix cookie_init_timestamp() overflows
-99d679556d737a14391c68e562d94076c2983252 tcp: add tcp_time_stamp_ms() helper
-2a7c8d291ffeba69a47d8528987156f625cc05b0 tcp: introduce tcp_clock_ms()
-16cf6477741bdaa287d5e4531a1a503618a41a22 tcp: replace tcp_time_stamp_raw()
-d1a02ed66fe62aa2edd77bd54e270ebc33bd12ff tcp: rename tcp_skb_timestamp()
-003e07a1e48e9423647d2fef1c86b4caab3a94be tcp: move tcp_ns_to_ts() to net/ipv4/syncookies.c
-9d0c00f5ca05be9e89649c156f9d5b9421fc534e tcp: rename tcp_time_stamp() to tcp_time_stamp_ts()
-b04c3320885a88a94e4bbb2f9dbc4871c9bc336f tcp: add tcp_rtt_tsopt_us()
-3d44de9a10ea2b1658dfaed8ea6d3d7b6e0defbb tcp: add RTAX_FEATURE_TCP_USEC_TS
-af7721448a609d1912b57c825194ef6e17fc71a4 tcp: introduce TCP_PAWS_WRAP
-614e8316aa4cafba3e204cb8ee48bd12b92f3d93 tcp: add support for usec resolution in TCP TS values
-a77a0f5c7f23a8a4981a2a3ff47baa91ceaf1f53 tcp: add TCPI_OPT_USEC_TS
-bdf24b4bdfa59b124f9d0ff837f8d35a908da3b8 Merge branch 'tcp-ts-usec-resolution'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698050481 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1698050480-c0c26047fb328fef1f9d967711cda48eda94e508
 
---===============3780216636646039842==--
+2b1bc0093289e11803af69156cabbd6de89b4cf2 68eb73269bc822c9b8829306a78288ef9f7f9b95 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU2MbEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/poQANWLOoluSTxkQwFZrxmw
+ZbxgmVCmogx56+Fm5cAIx1oawgoMjQAIR329o9hzO9Jy/64jEKVYL1/Rj1EYBgIO
+sRdB5KTz65O+pbZbp5ubVD6Zk3HV//4WErc4fQQuRiipDfAsL3Y2yPyd5i9x3kPl
+fnaowqg8Zd1CvR8JRzahTH0WF1zLZpSlNbnfaQY/yoeTOPxs6y3j+6SQaRrFNR5k
+w5sZuaytQ0YOk7iSr2pZG9K0Gg911cKF/pboAYCK+atcn8w5jSq9lw0tuPIKRLjF
+VLC/EmeHe+JzpcWAeD2V0TKVdX/MAoN4qFFW1RQSqXeBZvKHTmCiSPj+6Os1NJXe
+ee95wn9S53WxagzSI+2pxF1vZVfaKRBmVAaTKjhJuHJhumljZX+6bG6W6mc9YZJE
+TU4dKPWoFylF9As+a55kIKweUZxDWVF67e4cK6r1F328rsWMPpK2gH+YQLa9tbdo
+uOE7fZOCuljZhxw9L2hAraGZpZh5pg7Fy34dBPAYjwISiIu3/c524mID7bK7OXFn
+eEy07zqfDIvSJRhiup6cmEf6/cXizoyWpSxpLE1jBL5l8YEpAoqv2sKf7hhnWQMi
+NcQETw7Q/4sJr9LmuesfX7uihQO/ILkFKSCoXYxhOlCDP0AiGQ9owoF6/F7s3mNM
+vEH0ywpMr7HTmbPLuSF48Raj
+=HAzp
+-----END PGP SIGNATURE-----
+
+--===============8240127125207892994==--
