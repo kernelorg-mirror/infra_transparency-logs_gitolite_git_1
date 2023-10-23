@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 23 Oct 2023 06:29:58 -0000
-Message-Id: <169804259839.12952.13961004116412184689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 23 Oct 2023 06:58:16 -0000
+Message-Id: <169804429644.955.16662366111479774326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/next
-    old: 03c866cab420e2e3381ca817be664e714107e39b
-    new: d688c8264b8ed25edbdafac46ea2b41b2e77416a
+  - ref: refs/heads/master
+    old: 7a67f9df12b668b1adc4c44e8f9bb6c419f55fca
+    new: b46ce00069a040be5ed3737995fd008356622b7f
     log: |
-         f5d5a0b5553aa1a4e165e6fc6c582db487768846 dt-bindings: phy: ralink-usb-phy: convert to dtschema
-         8e11a94e15a49221510dd4737a70c8dd56eb9678 phy: qcom-qmp-pcie: add endpoint support for sa8775p
-         d0ec7b9c3153c941f98226001d4019d9c03faf81 phy: Kconfig: Select GENERIC_PHY for GENERIC_PHY_MIPI_DPHY
-         d688c8264b8ed25edbdafac46ea2b41b2e77416a phy: Remove duplicated include in phy-ralink-usb.c
+         4a1d9adad47c11746d89a9c40c178e965660b02f dt-bindings: phy: qcom,ipq8074-qmp-pcie: fix warning regarding reg size
+         c65507fb449e86d551566feee9b0f3f12ab6b391 dt-bindings: mmc: sdhci-msm: correct minimum number of clocks
+         4106b83e30ce1bbc7995707db03b91e15d1b7bfc ASoC: dt-bindings: cirrus,cs42l43: Update values for bias sense
+         0d3ff6101e17143497542173aeee3811ed7f17e6 Merge tag 'sound-6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+         0c8b8b89d0fb76387c2835d69263c0e7b7bdd765 Merge tag 'mmc-v6.6-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+         135303a28f2850084b60545701390083876dbd71 Merge tag 'phy-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
+         b46ce00069a040be5ed3737995fd008356622b7f Merge tag 'v6.6-rc7-dts-raw'
          
