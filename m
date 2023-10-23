@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2998321991629769138=="
+Content-Type: multipart/mixed; boundary="===============0999655876257940482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 23 Oct 2023 19:25:39 -0000
-Message-Id: <169808913954.11200.3428326278186158264@gitolite.kernel.org>
+Date: Mon, 23 Oct 2023 19:26:06 -0000
+Message-Id: <169808916620.11469.9760048100353048776@gitolite.kernel.org>
 
---===============2998321991629769138==
+--===============0999655876257940482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/soc/drivers
-    old: 57e06f8c1f9470932255145c40f54fd7a818a72f
-    new: f1243fcea5a3f0a9cd15283fa4b512b2cdf14a08
-    log: |
-         20bd1191830478cfdc9be766a735923c5fbe5350 soc/rockchip: io-domain: Convert to platform remove callback returning void
-         f1243fcea5a3f0a9cd15283fa4b512b2cdf14a08 Merge tag 'v6.7-rockchip-drivers1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/drivers
-         
-  - ref: refs/heads/soc/dt
-    old: a8eddbe354b491608e614344c05cdcf019b34fd2
-    new: f0bb192440e6a86d17e078feed7a5779445c5ced
-    log: revlist-a8eddbe354b4-f0bb192440e6.txt
-  - ref: refs/heads/samsung/dt-2
-    old: 0000000000000000000000000000000000000000
-    new: 23e4a49943624dd83199989c852565a3ff760fa7
+  - ref: refs/heads/for-next
+    old: 4138246fc35b8113e4f24acbdaeac7c19da36b22
+    new: 7b78a3c9d50e5a0f0fe95352bec3a0f178440c9a
+    log: revlist-4138246fc35b-7b78a3c9d50e.txt
 
---===============2998321991629769138==
+--===============0999655876257940482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8eddbe354b4-f0bb192440e6.txt
+Content-Disposition: attachment; filename=revlist-4138246fc35b-7b78a3c9d50e.txt
 
 0878fd86f554ab98aa493996c7e0c72dff58437f ARM64: dts: marvell: cn9310: Use appropriate label for spi1 pins
+b1841d8e51d26e9c104cc89805b949f1aec449ae MAINTAINERS: uDPU: make myself maintainer of it
+1122a9c2ebe02435014a0f40dcc50f4333286f0f MAINTAINERS: uDPU: add remaining Methode boards
 fe8087770179c104d9edf5f191cd0de1dd3be93d arm64: dts: marvell: uDPU: rename the SFP GPIO properties
 660b8b2f394470fae2774daf7473ddc259373a5a arm64: dts: marvell: eDPU: add support for version with external switch
 0cd3f86ad558d3f585634e211c6fccbe786cbc28 dt-bindings: power: qcom,rpmpd: Add SM7150
+20bd1191830478cfdc9be766a735923c5fbe5350 soc/rockchip: io-domain: Convert to platform remove callback returning void
 7c3bc1952dd2b02983c06632b2d342823e9d6b96 arm64: dts: ti: verdin-am62: add iw416 based bluetooth
 87e437a0fb6cbecbabff293061793b32e3bcd3b1 arm64: dts: ti: k3-am625: Add boot phase tags marking
 944adefc7f88aec1adf5f76f593d483938bc5e4e arm64: dts: ti: k3-am625-beagleplay: Add boot phase tags marking
@@ -110,12 +103,18 @@ bdfae71e5237028d7b91d3d2f8b303922820e9bc arm64: dts: mediatek: mt6795: Add suppo
 72754e81f0c8426b8e3fa26785afed0e270064ce arm64: dts: mediatek: mt6795-xperia-m5: Add DSI Display and its vregs
 73a2a3193b928d82afc2eed8c1d84ad747142db1 arm64: dts: mediatek: cherry: Configure eDP and internal display
 4055758a80395cb6d40fa26361e39bcc6f924651 Merge remote-tracking branch 'ulfh/genpd_dt' into v6.6-next/dts64.3
+f1243fcea5a3f0a9cd15283fa4b512b2cdf14a08 Merge tag 'v6.7-rockchip-drivers1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/drivers
 79d01625c3c77d823e987610cf289fcfd6f31cad Merge tag 'v6.6-next-dts64.3' of https://git.kernel.org/pub/scm/linux/kernel/git/matthias.bgg/linux into soc/dt
 2707977650633176e87c3709d62790263d8a6388 Merge tag 'ti-k3-dt-for-v6.7' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
+291c0d3a98afb7b863485215c241a851be9e3435 Merge tag 'mvebu-fixes-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
+21f66740c7811365a75cb30ee1d938feb3040f58 Merge branch 'arm/fixes' into for-next
 23b336e9825d998dfc7035a8826cb9b26fb75b4d Merge tag 'mvebu-dt64-6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into soc/dt
 8d4f9145f52e9d1c5e6e86402ef8ca24cadb38f9 arm64: dts: Update cache properties for socionext
 0804f3bec9e9a3e9f3b5431ac9a11417041bc4c2 riscv: dts: thead: convert isa detection to new properties
 e035ddb68bb2827cff3aad1a6ff17ecc6e62f07e arm64: dts: socionext: add missing cache properties
 f0bb192440e6a86d17e078feed7a5779445c5ced Merge tag 'samsung-dt64-6.7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
+1bcdc7a18b13493c47ab9f5ca9ffafbc0b112253 Merge branch 'soc/dt' into for-next
+24994590d2a731d736e636e4bf1b6fbb5447d7df Merge branch 'soc/drivers' into for-next
+7b78a3c9d50e5a0f0fe95352bec3a0f178440c9a soc: document merges
 
---===============2998321991629769138==--
+--===============0999655876257940482==--
