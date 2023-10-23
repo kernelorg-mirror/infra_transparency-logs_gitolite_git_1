@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Oct 2023 17:18:12 -0000
-Message-Id: <169808149219.15236.5693097647039643677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 23 Oct 2023 17:19:18 -0000
+Message-Id: <169808155894.15748.5895236671603844828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 6e7ce2d71bb99096d811918341fde61e66bfff2c
-    new: d6e48462e88fe7efc78b455ecde5b0ca43ec50b7
+  - ref: refs/heads/p2pdma
+    old: 4a7ce8334965bf175344f49bb933e45fa4db02f5
+    new: 805b196fb3bceda87f785ac34824fff9246c800f
     log: |
-         b7c4f5730a9fa258c8e79f6387a03f3a95c681a2 tls: don't reset prot->aad_size and prot->tail_size for TLS_HW
-         c0119e62b2fe990a512a5ab8fb7c30e28fa619b8 tools: ynl-gen: change spacing around __attribute__
-         d6e48462e88fe7efc78b455ecde5b0ca43ec50b7 net: mdio: xgene: Fix unused xgene_mdio_of_match warning for !CONFIG_OF
+         805b196fb3bceda87f785ac34824fff9246c800f PCI/P2PDMA: Remove redundant goto
          
