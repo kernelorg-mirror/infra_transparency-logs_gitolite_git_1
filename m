@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 23 Oct 2023 14:03:51 -0000
-Message-Id: <169806983128.3070.14113832624288448682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 23 Oct 2023 14:12:39 -0000
+Message-Id: <169807035935.10571.3352947685083112117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/rcu/next
-    old: a2522eecb8533b9ccc7ee7e2072620936b9a49c9
-    new: d97ae6474ca0411bb8c2696e5764ec946dba43d0
+  - ref: refs/heads/master
+    old: cce97466d5ed9e278120b7a49c7933e939742ef1
+    new: ad3a0ad80f84321526a3e7dfe5baf5547732fb3d
     log: |
-         8a77f38bcd28d3c22ab7dd8eff3f299d43c00411 srcu: Only accelerate on enqueue time
-         d97ae6474ca0411bb8c2696e5764ec946dba43d0 Merge branches 'rcu/torture', 'rcu/fixes', 'rcu/docs', 'rcu/refscale', 'rcu/tasks' and 'rcu/stall' into rcu/next
+         0061def8e5bb6e855841b8df9208ccf9a1606bec ld.so.8: Clarify LD_PROFILE in secure-execution mode
+         ad3a0ad80f84321526a3e7dfe5baf5547732fb3d ioctl_userfaultfd.2: Add UFFD_FEATURE_WP_ASYNC
          
