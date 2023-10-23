@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ak/linux-misc
-Date: Mon, 23 Oct 2023 21:51:16 -0000
-Message-Id: <169809787608.18408.11239494480956802180@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2583300225252867534=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/subspace/site
+Date: Mon, 23 Oct 2023 22:01:07 -0000
+Message-Id: <169809846772.25037.16035907066056606567@gitolite.kernel.org>
+
+--===============2583300225252867534==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ak/linux-misc
-user: ak
+repo: pub/scm/infra/subspace/site
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/var-resolve-7
-    old: 029daaa06154b56389d2046025eae06e6b4cfd68
-    new: 69476ccb90111b2552ba68413aa9bbbcc931edca
+  - ref: refs/heads/master
+    old: 226927ecb1631ca51ee0782d3756c484a14d7502
+    new: f896edbd564b5703cde5c453acbf80d5b2aa9a5c
     log: |
-         69476ccb90111b2552ba68413aa9bbbcc931edca perf tools: Add missing dwarf registers
+         f896edbd564b5703cde5c453acbf80d5b2aa9a5c Initial rewrite to add the etiquette section
          
+
+--===============2583300225252867534==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1698098466 -0400
+pushee gitolite.kernel.org:pub/scm/infra/subspace/site
+nonce 1698098466-4932eb51b690727f7e27897037be02085b91a3f4
+
+226927ecb1631ca51ee0782d3756c484a14d7502 f896edbd564b5703cde5c453acbf80d5b2aa9a5c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZTbtIgAKCRC2xBzjVmSZ
+bN69AQCPxmijKBV0GndlsHxL34gJX/cdtA035nmt0rB/pwWdtAD/TyDP1+muvsk8
+53wkj6s8jKJl2RPpn++Bn79gDc+2XAc=
+=teXq
+-----END PGP SIGNATURE-----
+
+--===============2583300225252867534==--
