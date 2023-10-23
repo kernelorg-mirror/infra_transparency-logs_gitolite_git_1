@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7419492662492011449=="
+Content-Type: multipart/mixed; boundary="===============4640227913514976442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Oct 2023 18:36:46 -0000
-Message-Id: <169808620672.7349.16696445605857859207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Oct 2023 18:36:54 -0000
+Message-Id: <169808621445.7479.14839241985086260498@gitolite.kernel.org>
 
---===============7419492662492011449==
+--===============4640227913514976442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: e8ecffd9962fe051d53a0761921b26d653b3df6b
     new: 7dd692217b861a8292ff8ac2c9d4458538fd6b96
     log: |
          9e630efb5a4af56fdb15aa10405f5cfd3f5f5b83 ASoC: fsl: Fix PM disable depth imbalance in fsl_easrc_probe
          7dd692217b861a8292ff8ac2c9d4458538fd6b96 ASoC: SOF: sof-pci-dev: Fix community key quirk detection
          
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 45f1b12e0366a750d65e92307685964488a3b6f4
     new: 61f85372d293241f4139731c14cab9ac8e9436fb
     log: revlist-45f1b12e0366-61f85372d293.txt
 
---===============7419492662492011449==
+--===============4640227913514976442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1698086204 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1698086204-efcab1970e4ff1e817ed1be5fc02df5de5cbda03
+pusher C3F436CA30F5D8EB 1698086212 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1698086211-9d533f5b450b3b0e0c1193074fc13d9eafdedc05
 
-e8ecffd9962fe051d53a0761921b26d653b3df6b 7dd692217b861a8292ff8ac2c9d4458538fd6b96 refs/heads/for-6.6
-45f1b12e0366a750d65e92307685964488a3b6f4 61f85372d293241f4139731c14cab9ac8e9436fb refs/heads/for-6.7
+e8ecffd9962fe051d53a0761921b26d653b3df6b 7dd692217b861a8292ff8ac2c9d4458538fd6b96 refs/heads/asoc-6.6
+45f1b12e0366a750d65e92307685964488a3b6f4 61f85372d293241f4139731c14cab9ac8e9436fb refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU2vTwACgkQJNaLcl1U
-h9Bq6gf6AsoPz7ANt10gZq80wjf+O9HRNr76HUVVdW3KSjWRuZfQUNp7e5zNdCuw
-5Fr9jmrNlQmxfVLKATlJ0nTrRFpRrPCLklUIHsBZ0doulOwz+mwG/qZCaoc7aJPJ
-EFEMvYO+Micpg4YinzEeLrFCvNHkeOWDSevH9OaEevmcLSjDCOjAbcW4mxz38CpS
-yKJ7nefMMvJnd8WBkB48Qh3HJUW0bMQA5n6KZzDknd10JNaLJTvApa96blic6c5K
-XH148ggOBBwJObX5mqSis9QsVm5JUoHSOD5BsZlEMTS5RJosnjOaI1TBCkmrizNm
-uz2VMdDGduW7wF2Qb1Id8o8xd5l+yg==
-=7ER4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU2vUQACgkQJNaLcl1U
+h9CKxAf/dn3SUNv4Va4VVwYaYNUNsMaiUoKOTGqAYZa6TknJ+ISrTJa/8e0eOoid
+HmnDfLwp0cYbZJa69XBsT2Aj6JXjL29deqjZx+7bkpZIKfQquR2KpiujEFkWtNdw
+E2CRDUPMsX6OV2yfyvBFifvsSwkx7q5/R+tZ4PDPuLmNwgUV0UjTHaSnCeBUPdsC
+b+zCl8jhyGXwVFSzot4LvkhoNbyX+tLszLvT1s/YC5AfrP6FaZ9JVDtfVbiIpNDb
+lvy9sIpXsolvcW3mbHcss5ZTGJpbVwVnKugQTdzm/mTPWnd8vG6IN9rZWzMWaYHE
+XegW2uZxCE9jbDK2kfdLbCl/KVk5pg==
+=cTvo
 -----END PGP SIGNATURE-----
 
---===============7419492662492011449==
+--===============4640227913514976442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ bb98b592cfd387eccc9430d4cd5ebc1678775a88 ASoC: amd: Add acpi machine id for acp6
 145d7e5ae8f4e553478232fe3095379b60fa5496 ASoC: SOF: amd: add option to use sram for data bin loading
 61f85372d293241f4139731c14cab9ac8e9436fb ASoc: Another series to convert to struct
 
---===============7419492662492011449==--
+--===============4640227913514976442==--
