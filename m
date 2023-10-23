@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Oct 2023 12:56:11 -0000
-Message-Id: <169806577115.19828.11856662534472025508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 Oct 2023 12:56:58 -0000
+Message-Id: <169806581806.20174.3531214700156461337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: a5d5e190b30349c65b51eeef173c8ac8c38a6123
-    new: 6b7b1e57a824898309f59edc5c9bfc49561e8593
+    old: 369e607dcf842b609d25b93fd3c6dc914d8cdeca
+    new: 8e2d0f2b92b42892e4975585f8c15fb2d5f347ba
     log: |
-         1d11b153d23b5fd131d4ea125ff23c9e8ebc98ab x86/mce: Mark fatal MCE's page as poison to avoid panic in the kdump kernel
-         6b7b1e57a824898309f59edc5c9bfc49561e8593 Merge ras/core into tip/master
+         8e2d0f2b92b42892e4975585f8c15fb2d5f347ba Drop drm-panel-move-aux-b116xw03-out-of-panel-edp-back-to.patch
          
