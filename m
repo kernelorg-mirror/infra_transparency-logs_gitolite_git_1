@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2302516335036467226=="
+Content-Type: multipart/mixed; boundary="===============8994933392788725347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 23 Oct 2023 16:59:38 -0000
-Message-Id: <169808037850.406.14827456082628134082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 23 Oct 2023 16:59:49 -0000
+Message-Id: <169808038939.556.8079464719969731302@gitolite.kernel.org>
 
---===============2302516335036467226==
+--===============8994933392788725347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.7
-    old: 8f7e17d847edf6bc02d0813b123b9d78ba504098
-    new: ff5f76b820a95957df0420bba4c67b02978e6c52
+  - ref: refs/heads/for-6.7
+    old: 692225015c82d3eece55a07d16cd24c4dc63a6a5
+    new: 75223bbea840e125359fc63942b5f93462b474c6
     log: |
-         a0c543bdf4ba4f10d21fb2d44a9abc5715184966 regulator: max77503: Add ADI MAX77503 support
-         ff5f76b820a95957df0420bba4c67b02978e6c52 regulator: dt-bindings: Add ADI MAX77503 support
+         75223bbea840e125359fc63942b5f93462b474c6 spi: omap2-mcspi: Add FIFO support without DMA
          
 
---===============2302516335036467226==
+--===============8994933392788725347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1698080377 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1698080375-91062403ebb9fc7626111abe812cc1fff13ceeca
+pusher C3F436CA30F5D8EB 1698080387 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1698080387-f961bafdfb22db48f1a33a8bdc864cc8904b7d22
 
-8f7e17d847edf6bc02d0813b123b9d78ba504098 ff5f76b820a95957df0420bba4c67b02978e6c52 refs/heads/regulator-6.7
+692225015c82d3eece55a07d16cd24c4dc63a6a5 75223bbea840e125359fc63942b5f93462b474c6 refs/heads/for-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU2pnkACgkQJNaLcl1U
-h9DbcQf/ZZ4YLVUJDgcs8SlSRlj2Q709Tq3fSd92SeKPFUubyWYKn/Jm76Qr0IPZ
-tZDmPsrkwSi78/oWDvSnwe4SuL+opvp+y5Gsfcn6ebn5c8ZsgIshk/okF/d6AmDs
-oSI6c+T8E7l2wXvTUv4FCZcriHcl1jlmchyQB4ZJuNWLDRrhsFFmIMOB++W2aGNs
-weEDN9bhrW5job2x942OQjj9saE5Np2tIg6bgJCaDHqjYkxJ9gkDfVD88ss9IP95
-hGqgIZLvEAPsY93OzCu4nrf7mIizTHxiinyHtO9NAYvmo5dp2s7XsFtwk+FfXBFN
-mgl+A17y0Qi2T0u2kkh5buiOJukuaw==
-=bWZN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU2poQACgkQJNaLcl1U
+h9A8RAf8CIaYRERM9ZPalnmnFFYa/9Qu3o5EAiix6E12zJgsF8b4XUbE+WocF0LW
+cHFBw9v+f0hoDBRZsG/061+ew/Euk8acMqyns5FMf9rDZ48U207/ZGMrDeV1dFgi
+ARz7aCYvcFTYESGNgNlI7z/FWPhnJLS0ZzfJgVeDbydhvxEMSaYsNOnAZM5S6PGH
+VoVvFUjipjqE4rMLT0YHotcEPhdnHafsCRFPtAUBVOAYR9ulvIOszfXyOuYEPR73
+yKRB0hqmeyruRPR3M2oB1c8FcWFwxvLWYOylTM6BqML/b/Vq14zVc86RY2NyiuMw
+VqzeFosVepO6dpqex37aterAspif7g==
+=wGi9
 -----END PGP SIGNATURE-----
 
---===============2302516335036467226==--
+--===============8994933392788725347==--
