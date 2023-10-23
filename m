@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8133802892667338858=="
+Content-Type: multipart/mixed; boundary="===============8465035559292684256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 23 Oct 2023 21:17:15 -0000
-Message-Id: <169809583523.26196.17860850450733551846@gitolite.kernel.org>
+Date: Mon, 23 Oct 2023 21:17:35 -0000
+Message-Id: <169809585510.26392.18159270657999130320@gitolite.kernel.org>
 
---===============8133802892667338858==
+--===============8465035559292684256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 8c0b48e01daba5ca58f939a8425855d3f4f2ed14
-    new: 7798b59409c345d4a6034a4326bceb9f7e2e8b58
-    log: revlist-8c0b48e01dab-7798b59409c3.txt
+  - ref: refs/heads/dev-queue
+    old: be7e33aeb956df663e655255b73ac97434398909
+    new: bb7a4289fc8abdc9bcf75ba00e4cecd70fc9996b
+    log: revlist-be7e33aeb956-bb7a4289fc8a.txt
 
---===============8133802892667338858==
+--===============8465035559292684256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c0b48e01dab-7798b59409c3.txt
+Content-Disposition: attachment; filename=revlist-be7e33aeb956-bb7a4289fc8a.txt
 
 72bf4f1767f0386970dc04726dc5bc2e3991dc19 net: do not leave an empty skb in write queue
 a9beb7e81bcb876615e1fbb3c07f3f9dba69831f neighbour: fix various data-races
@@ -48,5 +48,12 @@ a40614fe885a46758105bfcc6761594af2c9155e Merge branch 'r8152-reg-garbage'
 d2a0fc372aca561556e765d0a9ec365c7c12f0ad tcp: fix wrong RTO timeout when received SACK reneging
 13454e6e0df2ff37853596d546438ac84ca6a413 isdn: mISDN: hfcsusb: Spelling fix in comment
 7798b59409c345d4a6034a4326bceb9f7e2e8b58 net/handshake: fix file ref count in handshake_nl_accept_doit()
+1bfd443dbc9206c5d0b9e86576829fa07bf9df6d PCI: Extract ATS disabling to a helper function
+6d51a4981198a86764972e9833fb63cb31a1df1f PCI: Disable ATS for specific Intel IPU E2000 devices
+8fc73ab001c2099936a51cae9ab7c363634b3d1e i40e: fix livelocks in i40e_reset_subtask()
+f860c00065985a9b5f69075b0b51a3f7a2cdd9a1 i40e: fix 32bit FW gtime wrapping issue
+f55afa2809013332367185464e85a64eba8331fa e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+9a342aa1144af4a550ee6e98175ece806b162713 ice: Fix VF-VF filter rules in switchdev mode
+bb7a4289fc8abdc9bcf75ba00e4cecd70fc9996b i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
 
---===============8133802892667338858==--
+--===============8465035559292684256==--
