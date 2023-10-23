@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 23 Oct 2023 08:38:21 -0000
-Message-Id: <169805030119.12132.4151646666140090880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 23 Oct 2023 08:39:59 -0000
+Message-Id: <169805039906.12813.4375435583384055422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
+  - ref: refs/heads/main
+    old: d2a0fc372aca561556e765d0a9ec365c7c12f0ad
+    new: 13454e6e0df2ff37853596d546438ac84ca6a413
+    log: |
+         13454e6e0df2ff37853596d546438ac84ca6a413 isdn: mISDN: hfcsusb: Spelling fix in comment
+         
