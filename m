@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7696686095678134197=="
+Content-Type: multipart/mixed; boundary="===============2874807949022807797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 24 Oct 2023 21:09:45 -0000
-Message-Id: <169818178543.11217.16356117413713698091@gitolite.kernel.org>
+Date: Tue, 24 Oct 2023 21:10:14 -0000
+Message-Id: <169818181489.13018.4691737042864519007@gitolite.kernel.org>
 
---===============7696686095678134197==
+--===============2874807949022807797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6d25d1dc76bf5943a5c1f4bb74d66d5eac58eb77
-    new: 37a38e439d4ed0e90d7359708ed9fca0216631b6
-    log: revlist-6d25d1dc76bf-37a38e439d4e.txt
+  - ref: refs/heads/dev-queue
+    old: a5891a8b6e8f6121b45574e2c56461a017d9d0ef
+    new: c7ee7435210df79c6f08ae8bf045933478b6a118
+    log: revlist-a5891a8b6e8f-c7ee7435210d.txt
 
---===============7696686095678134197==
+--===============2874807949022807797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d25d1dc76bf-37a38e439d4e.txt
+Content-Disposition: attachment; filename=revlist-a5891a8b6e8f-c7ee7435210d.txt
 
 52c121f4bf27592530f3fedf123b89ed79397af8 tools: ynl: add uns-admin-perm to genetlink legacy
 0c63ad3795269849782ca24a084952206986d3bf tools: ynl-gen: add support for exact-len validation
@@ -46,5 +46,71 @@ fcc017e3bc7ffff81d6d79678b3d5f6ce99b66ca Merge branch 'net-deduplicate-netdev-na
 87cd83714f30ef2f19f0390e98beb8d78e173f0f net: dsa: Rename IFLA_DSA_MASTER to IFLA_DSA_CONDUIT
 58ab91718cb5bc30e3d9c17eb5e0067fe2a33b6e Merge branch 'switch-dsa-to-inclusive-terminology'
 37a38e439d4ed0e90d7359708ed9fca0216631b6 selftests: net: change ifconfig with ip command
+9d3b5b893d93b296e9425ab3d440e0cb47e866f9 PCI: Extract ATS disabling to a helper function
+64f08680dc270d84549fe91bdd34d66952a46927 PCI: Disable ATS for specific Intel IPU E2000 devices
+80f9db5f4e4d7a97101a1a9645ab3a6ea8c6440e i40e: fix livelocks in i40e_reset_subtask()
+718ec46a35dbb1afb34c03c1be4ed4f9344f2926 i40e: fix 32bit FW gtime wrapping issue
+5c82b76b9aeb0b5065d931aa89c41d561119b7f5 i40e: add tracepoints for nvmupdate troubleshooting
+6039d06a68ecf77a75deb80ca1d357d1da368595 igc: Simplify setting flags in the TX data descriptor
+020d010decfdedacea61ae83ec800dfa71f1f07e igc: Add support for PTP .getcyclesx64()
+1312c1edf84928c8234e5fe0576868027f11c6d5 igc: Fix ambiguity in the ethtool advertising
+9e7ba4cfd0fa71cfab2819c3154c0c4e64b28842 igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+a49371dfa8f510212000a352f321f92bbefdf425 i40e: sync next_to_clean and next_to_process for programming status desc
+94fd217d99fb6d83db9ada2d32caa3efac20cd1d e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+956ef4019db5747139ccdff351323224a4a7bc42 i40e: Change user notification of non-SFP module in i40e_get_module_info()
+69bfff96f77f54d8c6e01018943047b9b2513f82 iavf: fix comments about old bit locks
+e74e8488492355fd9d970115da8916f0f74b64e9 iavf: simplify mutex_trylock+sleep loops
+3614ecbd566550bc5283e12b793cfe27c59319f0 iavf: in iavf_down, don't queue watchdog_task if comms failed
+ce17bf942aeb9440f401edf000ce6417dfbe5080 iavf: in iavf_down, disable queues when removing the driver
+1c7a86a39d61c84dec085f7b0d66b1473002cd37 iavf: fix the waiting time for initial reset
+1abf1ad28d5d3ec6a6aef7881d171af48463441c ice: Fix SRIOV LAG disable on non-compliant aggreagate
+0ae4a4f207d16c9ee5c88857bd2ff035ad833dde ice: Re-enable timestamping correctly after reset
+d0b6757bfd131127d4a15e593252d6f543f466f0 iavf: rely on netdev's own registered state
+88c68aa82a7015aadcabf6decb503311ce458a75 iavf: use unregister_netdev
+6e91ca4c6896f97ab35cbee414bd6815db5b32ba iavf: add a common function for undoing the interrupt scheme
+862f75071840b1aa18e8f38f496f51f061da370c iavf: delete the iavf client interface
+3d2cdf34d267516a161377ac4f1419fb903767a4 ice: dpll: fix initial lock status of dpll
+2b6c232ef9c52ed9b2180565800d0c14c292a68b ice: Add E830 device IDs, MAC type and registers
+12e2b69c705c15cc608c4d23ef96fc6644993f15 ice: Add 200G speed/phy type use
+9fe9163087196f7bbf4597e74ced9e4d37a62c5a ice: Add ice_get_link_status_datalen
+a9df7d824a8257524cb34a45d59ba1b6a45292c7 ice: Add support for E830 DDP package segment
+1d85e51676410dbb56ba6afd472643df92fa6639 ice: Remove redundant zeroing of the fields.
+313096ac5250ef940e82ad152ad6f420ce7b5788 ice: Hook up 4 E830 devices by adding their IDs
+2c7651aafe98d2b5e57d3739e5518a09cc6c500b ice: Fix VF-VF filter rules in switchdev mode
+9da44bfc12088b3f38981878cd08b85e4cad2ae8 i40e: xsk: remove count_mask
+a0a543ab295c01c8d0731a03fb5ba03a7f059e4b i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
+dce6b3edb37cb075826b78daadba47c81251d7a4 i40e: Fix I40E_FLAG_VF_VLAN_PRUNING value
+490637dd5abae90238910a1c32dbb77544307439 i40e: increase max descriptors for XL710
+4c6765c9385e0f76da59289bca73346951dd6aef i40e: Remove unused flags
+94c47098ec004c03c3e903a7dfe07ab39e7487c0 i40e: Remove _t suffix from enum type names
+6d33c1e967a58687e72c9b981cb54a4c87a6f3fd i40e: Use DECLARE_BITMAP for flags and hw_features fields in i40e_pf
+4e7f3e86b063a6d69ad2498982cc53cdc3b98084 i40e: Use DECLARE_BITMAP for flags field in i40e_hw
+2044e8412267d1864bed1be12ebdf0d0404bc1e7 i40e: Consolidate hardware capabilities
+51f20d66376399c86c69726f370272a59a06fefa i40e: Initialize hardware capabilities at single place
+6b2973bde28ea65a95c082b97fcdc922427d7672 ice: lag: in RCU, use atomic allocation
+ea3c3263c9d92b7c44272db92e10787da2903bcf i40e: add an error code check in i40e_vsi_setup
+a7b1e20ef589a0e3e4a0264e7fa85fc0a6b8306a i40e: Move i40e_is_aq_api_ver_ge helper
+fe1f459bed135b86c9481fb0d68de5ac36024fe1 i40e: Add other helpers to check version of running firmware and AQ API
+e0cdc2055458df1567a41d808a53bb8e2f6aac22 i40e: Use helpers to check running FW and AQ API versions
+96cda471250b0ae590cc9576f700f49666fa36db i40e: Do not call devlink_port_type_clear()
+ba31dd1b42929a1b450643b1675565f6aa693883 i40e: Fix devlink port unregistering
+26950e4329c6b73a04360ae637e2fa41dc8cfc13 ice: Fix VF Reset when interface in a failed over aggregate
+3df719c8ebf51f96d1ad09abbce5d5598478fac6 ice: read internal temperature sensor
+0423608e55d3e346316d6c94c956af62336c20ac ice: rename switchdev to eswitch
+561f35234249d5ce262e7acdf7dcb6ec58ac05da ice: remove redundant max_vsi_num variable
+ed049f960832f70b85341e36b6e861e53f0d2cf5 ice: remove unused control VSI parameter
+f6337e92f2c1a22ae9cfdb9ce5ea41f85f04746d ice: track q_id in representor
+849eb50cab01b030cfc583f70ac6240fe5c02913 ice: use repr instead of vf->repr
+6c30b60937ad413c56154b957f2cd17071b8973f ice: track port representors in xarray
+10d2f906781cdf259c3fe09a39df8b93375ccff7 ice: remove VF pointer reference in eswitch code
+0f8d0c86cf7a16e0d6bc0e7aff8d24e1bed55af4 ice: make representor code generic
+97b711c57b1d9eb9d1accba5223d425223860a15 ice: return pointer to representor
+15f04b1461448b65f7a3b107bb4a4630f99f9815 ice: allow changing SWITCHDEV_CTRL VSI queues
+b5e8d76e566bccaf35fbc14b23fe007fd267435d ice: set Tx topology every time new repr is added
+8e539729f9d4f773250e932546e5ecfdf17d0b3f ice: realloc VSI stats arrays
+50324902c6de39802b651728c9c9bc7edd13e4dd ice: add VF representors one by one
+92d4b39ab0edade8a89c9842fcd6b6dc7e8f7db0 ice: adjust switchdev rebuild path
+849d70fa1072e9a0bd4607ed794f4cf00de6bdec ice: reserve number of CP queues
+c7ee7435210df79c6f08ae8bf045933478b6a118 ice: change vfs.num_msix_per to vf->num_msix
 
---===============7696686095678134197==--
+--===============2874807949022807797==--
