@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9038282280347033641=="
+Content-Type: multipart/mixed; boundary="===============4921054387077779382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Oct 2023 18:52:19 -0000
-Message-Id: <169817353939.6039.2259083086057924869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 24 Oct 2023 18:52:26 -0000
+Message-Id: <169817354653.6146.14150645663173398838@gitolite.kernel.org>
 
---===============9038282280347033641==
+--===============4921054387077779382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 4fc4db7a68c2c04522880c4f89317f7874a4188f
     new: 109cb2160128211ca7b17bad79cb0441f1440bc9
     log: |
@@ -31,28 +31,28 @@ changes:
          109cb2160128211ca7b17bad79cb0441f1440bc9 ASoC: Intel: bytcr_wm5102: Add support for Lenovo Yoga Tab 3 Pro YT3-X90
          
 
---===============9038282280347033641==
+--===============4921054387077779382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1698173537 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1698173537-1db9da010ab7593916578a7c3c60738f5d5c1bd4
+pusher C3F436CA30F5D8EB 1698173544 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1698173544-59be40600f3bfe686906ebfb79e7aad9667f2d23
 
-4fc4db7a68c2c04522880c4f89317f7874a4188f 109cb2160128211ca7b17bad79cb0441f1440bc9 refs/heads/for-6.7
+4fc4db7a68c2c04522880c4f89317f7874a4188f 109cb2160128211ca7b17bad79cb0441f1440bc9 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU4EmEACgkQJNaLcl1U
-h9BfdQgAgUYS8t689RUJGbW/t4K/nOtqMjTtPDdb1AUJ0DTJyGHl5SeDrmdu8Vwy
-xdkdBolUzMtY6D/siJNc4qlB8SsKDgHdF3oUjj4O0HnpkaTxQXhC/9v80V6Z3KkO
-Lc81NygdwodcRJZMTDL7ZG4o24C5FFgw9oE+SVXHuzdZ5aGi3i9z/76RvTCBA9He
-esVEaN/DaWnt5ndzVsElEy787RCOAfl7iziAFEsLZUkQWDm67kQ6KcSO93nMLgvv
-9SdaAHHGaY7tqE61EJKVZJdaRA6hF7nU1y+evavkeuAlMsh61pRzBT9HHZgnB/ys
-nR4buGEuPRHqPof5bcZP4NtfqNiNeQ==
-=GMLP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU4EmgACgkQJNaLcl1U
+h9C6pQf+IIxShpXyqjFo1lC8s2zS7PtTPoRzApbOdJO41BpXPulkD4I4YJoUtJSy
++BHLOj8paBrQTC3UgEziBAHQcoNe2hFkFdpWfLMbO0kSUg9op7zsl1Jbpqrkys9C
+fxm/VdUcoA5uTX8L1l8W/59AsjayBOdwvhHhlEXLEbinUkNRKPnptGX3n1+KuQW8
+hFf18JEEYSC1v5JDg8uQc+pqIZC1XEGNALiGQTydW154NgnWBi3aWAn8ZSottl4d
++D2NL7ACSGyUU6pkYMPG4oGkkIUMyXmDWKFtwYQhLCKLfqQIBu4SV98E+wiM2iNz
+zewRDFHE5NkbjNzsNhYV6puDA3sP0Q==
+=03Lk
 -----END PGP SIGNATURE-----
 
---===============9038282280347033641==--
+--===============4921054387077779382==--
