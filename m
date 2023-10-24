@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1458284618731822125=="
+Content-Type: multipart/mixed; boundary="===============4102133360469958725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 24 Oct 2023 06:56:14 -0000
-Message-Id: <169813057485.23730.8643528254961212911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Oct 2023 07:36:46 -0000
+Message-Id: <169813300650.19414.3658804858952500199@gitolite.kernel.org>
 
---===============1458284618731822125==
+--===============4102133360469958725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/tty-next
-    old: 936323f8de4139c9f6ebc0d08e20f1fe200b78a8
-    new: b0eaf27f202813f28af77e33e80ec0f05a34df01
-    log: |
-         b0eaf27f202813f28af77e33e80ec0f05a34df01 vgacon: fix mips/sibyte build regression
-         
+  - ref: refs/heads/master
+    old: 6b7b1e57a824898309f59edc5c9bfc49561e8593
+    new: 17d6ebefefe844f314c731d55a9d9f5272f71261
+    log: revlist-6b7b1e57a824-17d6ebefefe8.txt
 
---===============1458284618731822125==
+--===============4102133360469958725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6b7b1e57a824-17d6ebefefe8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698130574 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1698130573-4086a90653d33f1f7f8afd7736009ba6557fd173
+d873a364ef2182af40110869f9c62813ce6f9386 tools/nolibc: i386: Fix a stack misalign bug on _start
+513bd2788e4994f6187d22b2fd0d25c3cfbeb87a MAINTAINERS: nolibc: update tree location
+921992229b1f06df6b649860e4a5f3def1489866 tools/nolibc: mark start_c as weak
+e07744b43d3ad10b040f0ec464b6323ca96903d6 tools/virtio: Add dma sync api for virtio test
+1aee9158bc978f91701c5992e395efbc6da2de3c nfsd: lock_rename() needs both directories to live on the same fs
+d121df789b159e9a8ee770666f210975a81e8111 vdpa_sim_blk: Fix the potential leak of mgmt_dev
+fab7f259227b8f70aa6d54e1de1a1f5f4729041c virtio-mmio: fix memory leak of vm_dev
+f8a3db47d944a33eac1f37358db560e5aabbfbca vdpa/mlx5: Fix double release of debugfs entry
+07622bd415639e9709579f400afd19e7e9866e5e virtio_balloon: Fix endless deflation and inflation on arm64
+abb0dcf9938c93f765abf8cb45567cadef0af6b2 vdpa/mlx5: Fix firmware error on creation of 1k VQs
+ca50ec377c2e94b0a9f8735de2856cd0f13beab4 vhost: Allow null msg.size on VHOST_IOTLB_INVALIDATE
+fa2e6947aa8844f25f5bad0d8cd1a541d9bc83eb virtio-crypto: handle config changed by work queue
+061b39fdfe7fd98946e67637213bcbb10a318cca virtio_pci: fix the common cfg map size
+eb96e221937af3c7bb8a63208dbab813ca5d3d7e btrfs: fix unwritten extent buffer after snapshotting a new subvolume
+7c14564010fc1d0f16ca7d39b0ff948b43344209 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+e017769f4ce20dc0d3fa3220d4d359dcc4431274 Merge tag 'for-6.6-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+84186fcb834ecc55604efaf383e17e6b5e9baa50 Merge tag 'urgent/nolibc.2023.10.16a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
+d88520ad73b79e71e3ddf08de335b8520ae41c5c Merge tag 'pull-nfsd-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+17d6ebefefe844f314c731d55a9d9f5272f71261 Merge branch 'linus'
 
-936323f8de4139c9f6ebc0d08e20f1fe200b78a8 b0eaf27f202813f28af77e33e80ec0f05a34df01 refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU3ao4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BvsQAMdYZH8d+l37s1W1CNwD
-7BQ8Mcpg3+IjrW1c+VNO4raLIzpkTzxh3i0mu3z7UznOIXyZtBHD8O/OoVrYHYFd
-0mR/y44K+ERcTFcxoKK5+mf8mJyNcE1SQGmJPUlTkhxtKtOs6yGbTnXjgVJXkWvq
-+ArO4K2FFGFpIRG/KpIOEWubecpm6C4vW/jD9sCvb3p2Q6hV6uQjBgHT4rK1/oNr
-Mrp0Rdyx5WkLAZkKDNi1R8ghcx0gJT4pYZbOufV6zMO4GRju5t2I9m2+BCdoUzMn
-uFNvpOIhiYVB0NITDn+RRZY81v0bTRoEJzG/ed1N7Vp/r4iB/qW/CGoC2dxbsy2n
-idp0vOpkiKrPg69tLpl//1JPy/cogZvTR7qKNuIbjl9VmosAPDEXRfsq4IeZIwIT
-9eCdzVfg983ZvtClyEjE7QNQiDRqiu6K7QoGQLeBUoIFP2oK/+mYvYlaP7d0MMqj
-rGaCdSRbHYgl6JDn34+Dkkn4Nh4mlWi8RUCl0YuKrJfJU/10BnZh2fyf753uD2u6
-lCO1hSIT45x+u6q8V8TqSYBoBQXgr1OkepIb1OSh2fHF8Vf3fJ6qcX8Qcdscjtgd
-U4OhYXBzxLhVX4eH8w9UNg2PJUTCyMRvzbqsqdIGwdDps5ci3l5kOgKcPtTkRwFL
-Z4LgfvVS9PFkUY9PlOA6K/mW
-=ERgb
------END PGP SIGNATURE-----
-
---===============1458284618731822125==--
+--===============4102133360469958725==--
