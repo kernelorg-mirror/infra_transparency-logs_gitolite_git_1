@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 24 Oct 2023 18:29:12 -0000
-Message-Id: <169817215297.20798.18370852602112220675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 24 Oct 2023 18:43:26 -0000
+Message-Id: <169817300639.31823.12216868412135438036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-kernelci
-    old: c41a7afa00be1a44c709cb60755982f0993cdddb
-    new: 850ffb9bb2bd424b5bae400005eb931fed3d9a29
+  - ref: refs/heads/master
+    old: e126cf204907bb98f8b60d23bcb3dfa46064b9a3
+    new: 00fdb61d56161f523e975b4c044030f4b40abb6d
     log: |
-         22e877699642285c47f5d7d83b2d59815c29ebe8 Revert "arm64: pgtable: No need for checking if PMD_SIZE is defined"
-         850ffb9bb2bd424b5bae400005eb931fed3d9a29 Merge branch 'for-next/core' into for-kernelci
+         a17455cdcd213b4210571d4ec2a066d9daf91b15 iso-tester: Add test for bcast receiver PA bind
+         00fdb61d56161f523e975b4c044030f4b40abb6d btio: Allow binding a bcast listener before accept
          
