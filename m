@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4102133360469958725=="
+Content-Type: multipart/mixed; boundary="===============4646396589133075167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Oct 2023 07:36:46 -0000
-Message-Id: <169813300650.19414.3658804858952500199@gitolite.kernel.org>
+Date: Tue, 24 Oct 2023 07:37:22 -0000
+Message-Id: <169813304200.20703.11270092720495481334@gitolite.kernel.org>
 
---===============4102133360469958725==
+--===============4646396589133075167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,34 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6b7b1e57a824898309f59edc5c9bfc49561e8593
-    new: 17d6ebefefe844f314c731d55a9d9f5272f71261
-    log: revlist-6b7b1e57a824-17d6ebefefe8.txt
+    old: 17d6ebefefe844f314c731d55a9d9f5272f71261
+    new: 9dc74c672fa7fd264e69841dc4f40ddbdc0e1af8
+    log: revlist-17d6ebefefe8-9dc74c672fa7.txt
 
---===============4102133360469958725==
+--===============4646396589133075167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b7b1e57a824-17d6ebefefe8.txt
+Content-Disposition: attachment; filename=revlist-17d6ebefefe8-9dc74c672fa7.txt
 
-d873a364ef2182af40110869f9c62813ce6f9386 tools/nolibc: i386: Fix a stack misalign bug on _start
-513bd2788e4994f6187d22b2fd0d25c3cfbeb87a MAINTAINERS: nolibc: update tree location
-921992229b1f06df6b649860e4a5f3def1489866 tools/nolibc: mark start_c as weak
-e07744b43d3ad10b040f0ec464b6323ca96903d6 tools/virtio: Add dma sync api for virtio test
-1aee9158bc978f91701c5992e395efbc6da2de3c nfsd: lock_rename() needs both directories to live on the same fs
-d121df789b159e9a8ee770666f210975a81e8111 vdpa_sim_blk: Fix the potential leak of mgmt_dev
-fab7f259227b8f70aa6d54e1de1a1f5f4729041c virtio-mmio: fix memory leak of vm_dev
-f8a3db47d944a33eac1f37358db560e5aabbfbca vdpa/mlx5: Fix double release of debugfs entry
-07622bd415639e9709579f400afd19e7e9866e5e virtio_balloon: Fix endless deflation and inflation on arm64
-abb0dcf9938c93f765abf8cb45567cadef0af6b2 vdpa/mlx5: Fix firmware error on creation of 1k VQs
-ca50ec377c2e94b0a9f8735de2856cd0f13beab4 vhost: Allow null msg.size on VHOST_IOTLB_INVALIDATE
-fa2e6947aa8844f25f5bad0d8cd1a541d9bc83eb virtio-crypto: handle config changed by work queue
-061b39fdfe7fd98946e67637213bcbb10a318cca virtio_pci: fix the common cfg map size
-eb96e221937af3c7bb8a63208dbab813ca5d3d7e btrfs: fix unwritten extent buffer after snapshotting a new subvolume
-7c14564010fc1d0f16ca7d39b0ff948b43344209 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-e017769f4ce20dc0d3fa3220d4d359dcc4431274 Merge tag 'for-6.6-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-84186fcb834ecc55604efaf383e17e6b5e9baa50 Merge tag 'urgent/nolibc.2023.10.16a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-d88520ad73b79e71e3ddf08de335b8520ae41c5c Merge tag 'pull-nfsd-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-17d6ebefefe844f314c731d55a9d9f5272f71261 Merge branch 'linus'
+5757236be762792b5d3afca0bb9d17a7072fdc30 Merge branch into tip/master: 'x86/urgent'
+f1e3f6577f924c56cb9826c86e34e26782237bc8 Merge branch into tip/master: 'x86/merge'
+2e15944b3f2b0af3074e0497e2e2e025d5e5aed8 Merge branch into tip/master: 'core/core'
+d5636c4d5e162632a53b87394c521f930af7641f Merge branch into tip/master: 'irq/core'
+26e0e7f49c641b5b8460188be2d713a3724e0bfe Merge branch into tip/master: 'locking/core'
+70e91e1f621cc424d776fb709b26eb5b78ea0554 Merge branch into tip/master: 'objtool/core'
+962ac2616f06b4fb7e57cbe9578dacb738f00bd1 Merge branch into tip/master: 'perf/core'
+a5c13a00a65c4738cb8c4b41fb7012f2a886a782 Merge branch into tip/master: 'ras/core'
+b9b827691e8b51640e7972579726b16bd6e88485 Merge branch into tip/master: 'sched/core'
+8662e052e52b164f83c2b090e1a7ed48196220f2 Merge branch into tip/master: 'smp/core'
+126b25eaa1bc5958268953ce3436ff4e82c93de0 Merge branch into tip/master: 'timers/core'
+206bc7193e2ea005392d6951fb32c79864cbaedf Merge branch into tip/master: 'x86/apic'
+9afc32a11fda6c1db0c4abbc19f3ee6050541086 Merge branch into tip/master: 'x86/asm'
+801efe33093e5bde19905e149ca53e9d916e4b8f Merge branch into tip/master: 'x86/bugs'
+71de195a5875e80dc0fe4e9893d3ebb9c1316a32 Merge branch into tip/master: 'x86/cache'
+5b71bd2818b6b1906c863904c6956c1ca7b98cbd Merge branch into tip/master: 'x86/cpu'
+08830652481a7847cda406d1e78d16190b61048e Merge branch into tip/master: 'x86/entry'
+f5e34dbce8a105a501ce304ef1e676abb9fd3f19 Merge branch into tip/master: 'x86/fpu'
+69d81fd1a587a8fc0873e28e68695a9311e7b7e7 Merge branch into tip/master: 'x86/headers'
+be641cc1a4472f6336ecea297c2890ed9d67f24c Merge branch into tip/master: 'x86/irq'
+4c978c64d9ffc884af1a6c5f2dd5a9b34b79cac2 Merge branch into tip/master: 'x86/microcode'
+5dcd04b2e11337b3cb5a5951ed2353206f4e2822 Merge branch into tip/master: 'x86/mm'
+9130abc23c0346ff953f0c4213140500aefa2d49 Merge branch into tip/master: 'x86/percpu'
+a7b704b5a88ad29ded973dbfb72fb54bae89e0ca Merge branch into tip/master: 'x86/platform'
+9dc74c672fa7fd264e69841dc4f40ddbdc0e1af8 Merge branch into tip/master: 'x86/tdx'
 
---===============4102133360469958725==--
+--===============4646396589133075167==--
