@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 24 Oct 2023 12:29:52 -0000
-Message-Id: <169815059269.19140.16775472080318147635@gitolite.kernel.org>
+Date: Tue, 24 Oct 2023 12:31:46 -0000
+Message-Id: <169815070602.21465.6756218201719147707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,13 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/b4/vfs-super-freeze
-    old: 0b71e70821a7925b70043889027988e0e0fa0534
-    new: be202098c1ce03eb5e2c49d037fd853e279a8fa0
+    old: be202098c1ce03eb5e2c49d037fd853e279a8fa0
+    new: e380dd81d3897b1e7f57dadcd1920be158567fb3
     log: |
-         e48ee72d15f154b5134db8f3c307f110c681ef00 fs: massage locking helpers
-         8c3292f225bcadeae8684df5ab1caead15e69f27 bdev: rename freeze and thaw helpers
-         82e9a157e704005f15716f21c7a0ff1fcfac9ff9 bdev: surface the error from sync_blockdev()
-         0a2a6ddc9cd31463f2393779bc39bc06987640f9 bdev: add freeze and thaw holder operations
-         3282604106ffc2250eb2f5330465af9246355890 bdev: implement freeze and thaw holder operations
-         5dd3c9f832710228c5bbcff6348363c13a8886ec fs: remove get_active_super()
-         d988fdee3bb47b13d47a4b3f73e15ab0a483860e super: remove bd_fsfreeze_sb
-         d12ed0a77f40c1620686f6adb28d24ad534932cb fs: remove unused helper
-         0a33ba9c2a52c03726ae9110b4b2dfb9b1df0044 porting: document block device freeze and thaw changes
-         be202098c1ce03eb5e2c49d037fd853e279a8fa0 blkdev: comment fs_holder_ops
+         2d57fb924d0af6cd6aaece10e39db2b5e5da3892 bdev: implement freeze and thaw holder operations
+         7bb119801de5e80e49b205371d45de6bd32796b7 fs: remove get_active_super()
+         70a08a1a078d79c1054f1275e233a4b479946386 super: remove bd_fsfreeze_sb
+         2b46ccc3ac9c0b1bcd551d710d3b9c2f58efc50b fs: remove unused helper
+         ec22b5e207afc1dfb45af95974289cec25973032 porting: document block device freeze and thaw changes
+         e380dd81d3897b1e7f57dadcd1920be158567fb3 blkdev: comment fs_holder_ops
          
