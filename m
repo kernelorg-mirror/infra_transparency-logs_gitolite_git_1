@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1557647004180228581=="
+Content-Type: multipart/mixed; boundary="===============1909273156426829871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 24 Oct 2023 06:42:57 -0000
-Message-Id: <169812977754.13990.6720909655817755279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 24 Oct 2023 06:43:08 -0000
+Message-Id: <169812978886.14181.9246167284719304998@gitolite.kernel.org>
 
---===============1557647004180228581==
+--===============1909273156426829871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: e8361b005d7c92997d12f2b85a9e4a525738bd9d
     new: f017d9a92a735ac1adc8875955621eda6ae1b3e6
     log: revlist-e8361b005d7c-f017d9a92a73.txt
-  - ref: refs/heads/stable
-    old: fe3cfe869d5e0453754cf2b4c75110276b5e8527
-    new: e017769f4ce20dc0d3fa3220d4d359dcc4431274
-    log: revlist-fe3cfe869d5e-e017769f4ce2.txt
-  - ref: refs/tags/next-20230724
-    old: 38c9ed48f75ec081329404264e24ab5b26a7484b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231024
     old: 0000000000000000000000000000000000000000
     new: e83c5b422a2ffb69e3189af93e4d8129f73f64e7
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
 
---===============1557647004180228581==
+--===============1909273156426829871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,24 +1057,4 @@ d25c0949cc3c8fcdd545a3153b9b531bc3d50e4a Merge branch 'for-next/kspp' of git://g
 55ef57e92f03819aa1283aef6a48149dfa2d6649 Revert "PCI: dwc: Use FIELD_GET/PREP()"
 f017d9a92a735ac1adc8875955621eda6ae1b3e6 Add linux-next specific files for 20231024
 
---===============1557647004180228581==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe3cfe869d5e-e017769f4ce2.txt
-
-e07744b43d3ad10b040f0ec464b6323ca96903d6 tools/virtio: Add dma sync api for virtio test
-d121df789b159e9a8ee770666f210975a81e8111 vdpa_sim_blk: Fix the potential leak of mgmt_dev
-fab7f259227b8f70aa6d54e1de1a1f5f4729041c virtio-mmio: fix memory leak of vm_dev
-f8a3db47d944a33eac1f37358db560e5aabbfbca vdpa/mlx5: Fix double release of debugfs entry
-07622bd415639e9709579f400afd19e7e9866e5e virtio_balloon: Fix endless deflation and inflation on arm64
-abb0dcf9938c93f765abf8cb45567cadef0af6b2 vdpa/mlx5: Fix firmware error on creation of 1k VQs
-ca50ec377c2e94b0a9f8735de2856cd0f13beab4 vhost: Allow null msg.size on VHOST_IOTLB_INVALIDATE
-fa2e6947aa8844f25f5bad0d8cd1a541d9bc83eb virtio-crypto: handle config changed by work queue
-061b39fdfe7fd98946e67637213bcbb10a318cca virtio_pci: fix the common cfg map size
-05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 Linux 6.6-rc7
-eb96e221937af3c7bb8a63208dbab813ca5d3d7e btrfs: fix unwritten extent buffer after snapshotting a new subvolume
-7c14564010fc1d0f16ca7d39b0ff948b43344209 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-e017769f4ce20dc0d3fa3220d4d359dcc4431274 Merge tag 'for-6.6-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============1557647004180228581==--
+--===============1909273156426829871==--
