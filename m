@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 24 Oct 2023 21:58:32 -0000
-Message-Id: <169818471230.13823.4138937851184958302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 24 Oct 2023 22:03:42 -0000
+Message-Id: <169818502282.17276.9499600344473544682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/field-get
-    old: e12e64f134734443e8fcedccc77a16b7673a9426
-    new: 8a0395578a9bb8937d1cc88c3f2e17e437467c2d
+  - ref: refs/heads/trace/core
+    old: 845e31e1101fc8533be52aff42d8f1ff48636024
+    new: 4042e714eb29ed1a5ff04af73a6c99c65e36f351
     log: |
-         d30fea25845ff65ea1fb255d7b615cd02b65095b PCI/ATS: Show PASID Capability register width in bitmasks
-         e0701bd0e6669e4c4b0d11254f5948ebf8d0b732 PCI/ATS: Use FIELD_GET()
-         ec302b118a59785511d6f90592a8be097d67341c PCI/PME: Use FIELD_GET()
-         83728ff4943b599dc89cebfbb3102275e8444c33 PCI/PTM: Use FIELD_GET()
-         cf17770598a2a2451739c724f4dfe4fb1b6cd5d3 PCI/VC: Use FIELD_GET()
-         8a0395578a9bb8937d1cc88c3f2e17e437467c2d PCI/portdrv: Use FIELD_GET()
+         545db7e21e64766e6b7cb987fbfd3e79419726ce tracing/histograms: Simplify last_cmd_set()
+         6858dc3eb5d8596ed438fe88e34bdabbc2a0e2ec powerpc: Remove initialisation of readpos
+         5b050d4d97fe8f07b8e9dc6bef46486c634e360c eventfs: Fix WARN_ON() in create_file_dentry()
+         4042e714eb29ed1a5ff04af73a6c99c65e36f351 eventfs: Fix typo in eventfs_inode union comment
          
