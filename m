@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 24 Oct 2023 19:10:38 -0000
-Message-Id: <169817463801.21254.2463761795568521298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Tue, 24 Oct 2023 19:15:27 -0000
+Message-Id: <169817492796.24878.10878729913795298456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/for-next
-    old: 7192afcc2eb83e3aa0fdec6aa6c336d492a32665
-    new: 60eb3005f640cde86779ad0d9d16b6aef28055df
+  - ref: refs/heads/kvm-arm64/pmu_pmcr_n
+    old: 909c0c7e0c265de14fff6cfe638ef1b6b285eabe
+    new: 33a2e20731be1463936c4854f1b92f19fcfcd29e
     log: |
-         7a198e0d48167db90e50777aab5a83a74e351f71 dt-bindings: regulator: dlg,da9210: Convert to json-schema
-         60eb3005f640cde86779ad0d9d16b6aef28055df Merge remote-tracking branch 'regulator/for-6.7' into regulator-next
+         539c908dab2cbe6ffea65633137f81cbf8dcce9c KVM: selftests: aarch64: vPMU register test for unimplemented counters
+         33a2e20731be1463936c4854f1b92f19fcfcd29e KVM: selftests: aarch64: vPMU test for validating user accesses
          
