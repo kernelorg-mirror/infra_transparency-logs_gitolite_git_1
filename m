@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============7629710096950337024=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Oct 2023 16:34:35 -0000
-Message-Id: <169816527542.2282.9042795721262019161@gitolite.kernel.org>
-
---===============7629710096950337024==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 24 Oct 2023 16:37:32 -0000
+Message-Id: <169816545205.6149.4502989884565551159@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,48 +12,9 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 056125a6d440f084f61e2d26121d18bab4dcd89f
-    new: 7cba268cd01aed79f7167e6412098340c8dd5826
-    log: revlist-056125a6d440-7cba268cd01a.txt
-
---===============7629710096950337024==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-056125a6d440-7cba268cd01a.txt
-
-dd5e3e3ca6ac011582a9f3f987493bf6741568c0 x86/microcode/intel: Simplify early loading
-2a1dada3d1cf8f80a27663653a371d99dbf5d540 x86/microcode/intel: Save the microcode only after a successful late-load
-f24f204405f9875bc539c6e88553fd5ac913c867 x86/microcode/intel: Switch to kvmalloc()
-3973718cff1e3a5d88ea78ec28ecca2afa60b30b x86/microcode/intel: Unify microcode apply() functions
-164aa1ca537238c46923ccacd8995b4265aee47b x86/microcode/intel: Rework intel_cpu_collect_info()
-11f96ac4c21e701650c7d8349b252973185ac6ce x86/microcode/intel: Reuse intel_cpu_collect_info()
-b7fcd995b261c9976e05f47554529c98a0f1cbb0 x86/microcode/intel: Rework intel_find_matching_signature()
-b48b26f992a3828b4ae274669f99ce68451d4904 x86/microcode: Remove pointless apply() invocation
-ecfd41089348fa4cc767dc588367e9fdf8cb6b9d x86/microcode/amd: Use correct per CPU ucode_cpu_info
-d419d28261e72e1c9ec418711b3da41df2265139 x86/microcode/amd: Cache builtin microcode too
-a7939f01672034a58ad3fdbce69bb6c665ce0024 x86/microcode/amd: Cache builtin/initrd microcode early
-5af05b8d51a8e3ff5905663655c0f46d1aaae44a x86/microcode/amd: Use cached microcode for AP load
-8529e8ab6c6fab8ebf06ead98e77d7646b42fc48 x86/microcode: Mop up early loading leftovers
-2e1997335ceb6fc819862804f51d4fe83593c138 x86/microcode: Get rid of the schedule work indirection
-ba48aa32388ac652256baa8d0a6092d350160da0 x86/microcode: Clean up mc_cpu_down_prep()
-634ac23ad609b3ddd9e0e478bd5afbf49d3a2556 x86/microcode: Handle "nosmt" correctly
-6f059e634dcd0d725854514c94c114bbdd83950d x86/microcode: Clarify the late load logic
-0772b9aa1a8f7322dce8588c231cff8b57298a53 x86/microcode: Sanitize __wait_for_cpus()
-4b753955e9151ad2f722137a7bcbafda756186b3 x86/microcode: Add per CPU result state
-ba3aeb97cb2c53025356f31c5a0a294385194115 x86/microcode: Add per CPU control field
-6067788f04b1020b316344fe34746f96d594a042 x86/microcode: Provide new control functions
-0bf871651211b58c7b19f40b746b646d5311e2ec x86/microcode: Replace the all-in-one rendevous handler
-7eb314a22800457396f541c655697dabd71e44a7 x86/microcode: Rendezvous and load in NMI
-1582c0f4a21303792f523fe2839dd8433ee630c0 x86/microcode: Protect against instrumentation
-9cab5fb776d4367e26950cf759211e948335288e x86/apic: Provide apic_force_nmi_on_cpu()
-8f849ff63bcbc77670da03cb8f2b78b06257f455 x86/microcode: Handle "offline" CPUs correctly
-9407bda845dd19756e276d4f3abc15a20777ba45 x86/microcode: Prepare for minimal revision check
-cf5ab01c87030a085e211a0a327535932ec6f719 x86/microcode/intel: Add a minimum required revision for late loading
-357e34057a7ff8a0e04e4ef77f17602dcca77702 Merge branch into tip/master: 'x86/microcode'
-e325fce6e412ff1a9ff42dd9c9ef45cd561efd56 Merge branch into tip/master: 'x86/mm'
-2a0403b7d5ef8be1d62c15daed26bdbaa931fa51 Merge branch into tip/master: 'x86/percpu'
-3edc55cbde6f6e0d51f28254360bb9669d43f202 Merge branch into tip/master: 'x86/platform'
-7cba268cd01aed79f7167e6412098340c8dd5826 Merge branch into tip/master: 'x86/tdx'
-
---===============7629710096950337024==--
+    old: 7cba268cd01aed79f7167e6412098340c8dd5826
+    new: f238ed2d4beabb57039a8d297aca57df76554b65
+    log: |
+         0548eb067ed664b93043e033295ca71e3e706245 x86/percpu: Return correct variable from current_top_of_stack()
+         f238ed2d4beabb57039a8d297aca57df76554b65 Merge branch into tip/master: 'x86/percpu'
+         
