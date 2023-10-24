@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Oct 2023 08:42:16 -0000
-Message-Id: <169813693616.2592.718724112792402369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Oct 2023 08:45:22 -0000
+Message-Id: <169813712216.5348.12161514582250216211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/main
-    old: f6e12277011d39a42e2c01fabb4222c09cb099fc
-    new: 66e6369e312d161708786123fb44ecd53ff32d82
+  - ref: refs/heads/objtool/core
+    old: 758a74306f1076b50cb9872af18cb900bafd9497
+    new: 60fd39af33d3f63c4c94bd06784ebdf0d883f5c9
     log: |
-         2def8ff3fdb66d10ebe3ec84787799ac0244eb23 sock: Code cleanup on __sk_mem_raise_allocated()
-         2e12072c67b5f65fc71a569985a1262531fbdc06 sock: Doc behaviors for pressure heurisitics
-         66e6369e312d161708786123fb44ecd53ff32d82 sock: Ignore memcg pressure heuristics when raising allocated
+         e959c279d391c10b35ce300fb4b0fe3b98e86bd2 objtool: Propagate early errors
+         f404a58dcf0c862b05602f641ce5fdd8b98fbc3a objtool: Remove max symbol name length limitation
+         180af1a5bdaf8d4964837a46a9fce8c3a7fd2d97 scripts/faddr2line: Don't filter out non-function symbols from readelf
+         86bf86e19d308a1dba41e5f1f7e8cc105a5efa49 scripts/faddr2line: Use LLVM addr2line and readelf if LLVM=1
+         60fd39af33d3f63c4c94bd06784ebdf0d883f5c9 scripts/faddr2line: Skip over mapping symbols in output from readelf
          
