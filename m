@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
-Date: Tue, 24 Oct 2023 20:06:56 -0000
-Message-Id: <169817801605.30588.3792264543041511990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 24 Oct 2023 20:08:06 -0000
+Message-Id: <169817808683.32282.2434572146873552673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/statmount-v4
-    old: 5562c08b885b01e2d1e316d17e5e0b3ab2ebe346
-    new: 3424bd1c5f21b1459887435c230653410b0ac8ca
+  - ref: refs/heads/main
+    old: fcc017e3bc7ffff81d6d79678b3d5f6ce99b66ca
+    new: 00e984cb986b31e9313745e51daceaa1e1eb7351
     log: |
-         3424bd1c5f21b1459887435c230653410b0ac8ca wire up syscalls for statmount/listmount
+         00e984cb986b31e9313745e51daceaa1e1eb7351 tsnep: Fix tsnep_request_irq() format-overflow warning
          
