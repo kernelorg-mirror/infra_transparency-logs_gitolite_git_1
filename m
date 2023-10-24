@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0397029019673505393=="
+Content-Type: multipart/mixed; boundary="===============2095111002645485464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Tue, 24 Oct 2023 03:56:23 -0000
-Message-Id: <169811978323.25358.8958455160524984141@gitolite.kernel.org>
+Date: Tue, 24 Oct 2023 03:56:31 -0000
+Message-Id: <169811979183.25498.17725115852343458797@gitolite.kernel.org>
 
---===============0397029019673505393==
+--===============2095111002645485464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,14 +16,7 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes-test
-    old: 0f6c4f0cf043e49aede52cdaf11748329e901942
-    new: 3a7cf8fdb114ea9f709a2e7f0494908bacf1b190
-    log: |
-         daa9ada2093ed23d52b4c1fe6e13cf78f55cc85f powerpc/mm: Fix boot crash with FLATMEM
-         3a7cf8fdb114ea9f709a2e7f0494908bacf1b190 powerpc/mm: Avoid calling arch_enter/leave_lazy_mmu() in set_ptes()
-         
-  - ref: refs/heads/next-test
+  - ref: refs/heads/next
     old: f2ec24ca5062399f5bc96a9c1f9e3e495fde9cbf
     new: 435f914b3c315bf51ac51e1ed4668025e0456e9a
     log: |
@@ -31,35 +24,34 @@ changes:
          435f914b3c315bf51ac51e1ed4668025e0456e9a powerpc/vmcore: Add MMU information to vmcoreinfo
          
 
---===============0397029019673505393==
+--===============2095111002645485464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1698119756 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1698119791 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1698119755-c39128bf426b7b3231b9238bd2035ec9be53b2d2
+nonce 1698119790-a4a3f73a2e36727ce79963fd82fd5cdc6cd4e6cf
 
-0f6c4f0cf043e49aede52cdaf11748329e901942 3a7cf8fdb114ea9f709a2e7f0494908bacf1b190 refs/heads/fixes-test
-f2ec24ca5062399f5bc96a9c1f9e3e495fde9cbf 435f914b3c315bf51ac51e1ed4668025e0456e9a refs/heads/next-test
+f2ec24ca5062399f5bc96a9c1f9e3e495fde9cbf 435f914b3c315bf51ac51e1ed4668025e0456e9a refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmU3QEwTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgA89EAChDRAr5pMavot34azB5j4SDLc3aVPG
-zsUWdGLCOoQAGb0i73B7IAw3TNVNbTn8zwxQA5IY5slEcjW6D2Epg6n6wX7pp7xZ
-xpV1FjPbSyMoOVD7PrcxSnAmsOnl7NE0qvsfdUCunZI+wA2VU+x29Z07GJTjFLkn
-A5lcL0CB8cYP+leg8v8mifGVdd5N0CyMW6hcl2iVWJ/XBBjQvuSZRuZUBu+k4D6G
-J/ZXBEX/+hGbqhmpgutc8Jl/2+lJEuUy6TVj/8QFUuS5zykWJGhlSImYZE3YesVq
-rF96iP2qo6WUxHYtsJ3VZX1+hfm8NDkxQYx+ht1yWcuYi//TvNg89qVnX9OJ4Y9y
-YGXY6cvoljp11oG/hbQ4OBarKr8jmhkdySwqU8ZFlYAkcywXlHHWwmlsQjtmnp3D
-RY+duIrb6HnRNVHMMzUUXol18o1bpWJ5YwfdXVtM+gmqvoHQUGZ4KGpDrs2wGGVb
-kGGx+IYhdn1HuGTwx/PvVcZoYPn2v41wvGQaAx81BEKPldguOwhf7CMaJ4ICqQ81
-Mor8w2x4KXkDCF24UkdLU8p135BwPSHTqj4wtiYvPp0gHj3HrjvQ8SA6ozM9AqGW
-78FLVezuiuTDy4g6S+ZNWA3fm91ZAaoq3pySav1Xpqc7HLpngSUQuT+x9diGcVfQ
-RoYOmD6tM+lqfw==
-=7Zk9
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmU3QG8THG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgJ6TEACLmtNy0x2dBhBp0YddMC9tQLH1KuSg
+whvBqf8OBSM5O+IFf1fkfK1Zk+bF83EeINttytKOWaJ4XwEE2b+X8HErNimHf3om
+T3Jh03x3Trfjh2gEQQnXUJoh7RQvPcu/uovA/NJAs5V/XhIRZzn2zRzWCXa0AySi
+PI++FE3UKfwaMEcm+GXpdSEK+pReS7cD5IjJWVpjalvUf/Fpb7Z/sTHNOqmQraIG
+OQvOAjoRxmKbKCPNAIw9rYmH8O9j/tB0YRgoL+eRsc7TfA+F1VB+zaEOAxgn4aGl
+QL1x9wel4pbNzrgWjS3X7NYpwVBVe8Y6aPNeQPYvxl/H/9D2Y+Tpnlud2eMHXMHx
+tA+TqtuDAfcwJlP1nbUDl/YAGs0JkF0kfCRNa4U5ppLBFuIopIA0d3MBdKdh4AbY
+NJfYVV7FnQHVbFdZd3pcGleD7zLD21RGUmZjvvHHvuA4cs+GZraqc83DFyhUzAzD
+qT5Zsr3T/MT3HPIleOfIYeUZDTcTEJwawL9gfyIcbFW1UZPCCQdnE8s1gev0Nbu2
+4hzXo0kc3L07hBQgiDct6Tib741jYPNouOLmrYdemATdCtOyYDU6lsqFc2N5bKNJ
+u9/DsknQsE6xXE9qH4zSJJsx/J236dPaWtQ2tdf29hcMqHrl6Huz/5FXuh81ag4d
+pGPnALDRuPfI9w==
+=KQI6
 -----END PGP SIGNATURE-----
 
---===============0397029019673505393==--
+--===============2095111002645485464==--
