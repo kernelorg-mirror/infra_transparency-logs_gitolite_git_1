@@ -1,81 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0570898975272933666=="
+Content-Type: multipart/mixed; boundary="===============6364165210389113844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 24 Oct 2023 09:46:01 -0000
-Message-Id: <169814076158.30907.14729663392482645808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 24 Oct 2023 09:46:42 -0000
+Message-Id: <169814080250.31195.4840685008584718811@gitolite.kernel.org>
 
---===============0570898975272933666==
+--===============6364165210389113844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 875be090928d19ff4ae7cbaadb54707abb3befdf
-    new: 5d9f6f26ec6656b43bf90f12705dbe88ce77f8d5
-    log: revlist-875be090928d-5d9f6f26ec66.txt
+  - ref: refs/heads/char-misc-next
+    old: 2399cde86e0f6bdbf26cadb83897f6d270921740
+    new: 421359cbdbdcaea93b83e1e6b61eb261b75b1998
+    log: |
+         16724d6ea40a2c9315f5a0d81005dfa4d7a6da24 nvmem: qfprom: Mark core clk as optional
+         2cc3b37f5b6df8189d55d0e812d9658ce256dfec nvmem: add explicit config option to read old syntax fixed OF cells
+         c5330723d5a0c77299a38a46e5611a584e887b87 dt-bindings: nvmem: move deprecated cells binding to its own file
+         716a8027efbb84291111764847d37cb0648ef69b dt-bindings: nvmem: u-boot,env: Add missing additionalProperties on child node schemas
+         0720219f4d34a88a9badb4de70cfad7585687d48 nvmem: Use device_get_match_data()
+         28cbfe09ff20964d293cd7af10d2ec0782cf86cb mcb: Use the actual bus passed to init and release functions
+         63ba2d07b4be72b94216d20561f43e1150b25d98 mcb: fix error handling for different scenarios when parsing
+         12280cc708f28357e7ad85bab2bcc3715e59a8f7 parport: Clean up resources correctly when parport_register_port() fails
+         421359cbdbdcaea93b83e1e6b61eb261b75b1998 parport: Drop even more unneeded NULL or 0 assignments
+         
 
---===============0570898975272933666==
+--===============6364165210389113844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698140761 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1698140760-1ebd3f412d2742492f89ba1a04b83320610aaa68
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698140802 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1698140800-6337d2d67a24e4cfe715506c35e926095f81cbf2
 
-875be090928d19ff4ae7cbaadb54707abb3befdf 5d9f6f26ec6656b43bf90f12705dbe88ce77f8d5 refs/heads/staging-next
+2399cde86e0f6bdbf26cadb83897f6d270921740 421359cbdbdcaea93b83e1e6b61eb261b75b1998 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU3klkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BJsP/1uUu8ZCYqY3jQ4PJFsg
-pyjM29ORyJT8HzjINH4/t264dxb9SGNCbensvzybSbyJg9F/6FsArEupxgjz8Rk2
-IB6RNcER2WiLBjl4vCHpU2jmikEUef7Wl3BpYpRztPMwHtHqxKLLFa4SifAA8VHA
-Z8/QT8IwI8lEIEZLOIBCskQpfnM3Xxzi0CuWcLsv/WlUPzODC/v+ShjSuHC7euUV
-+hW7Wx18UfKlwYaflKDw41vZC4FFwFXPxhCwday7TM1gCPHW8X+TGkzhXv0iGRz6
-HTljQFB7O/d76oeKU81MYKQeAp+MkMBZjU+XapYZWKvDPt4kUxKm+9eF4FXBvo5+
-swSLx2EE2/U+l7uIKWOw5JmwQ4ND7+vDKQln+PY5EaVedo9cr349EzkEuUEHZQC4
-NmY4OJ2XxyzxlIoYjr667kGtBshy9/L+bQsEBtSCL035tkPjjXyI0a5UOTtpp3iV
-gpr8LCJilVd76VoltWJYZfS/aKSaG+4TROmybhZQX0w+8U1f+g2mYIauPOzo588b
-KdTMkv3Ty4p5I8XgDWb1kVVaFIhqkEpXBLQXYbxp4BR9CDn4zTZxywerlJRVwmM5
-mQBXVlVAi+DBaWhdVFV8Ar72STbBEcnF+nCuOvtX+0KlbQgrXJkUcImtwyAdy+t1
-6gDf9DqIlDmgsbrlMt2mttYT
-=7/M3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU3koIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hygP/iIO24/RHkhvgB+jhfGR
+oR6sN2L2Mf1+rBzyAxQN+sO1tV896gFtk3JPrw3lWZi4xKo8Ebk6TOspVjX2oBio
+pj68HY8jgb9dznv1djn/tyhGVGyGz4MKXDaNix4TQaEqHoJIBpObjqPI+i3XaCyQ
+swxnS/+89wV59pTQvvVU0K+1Q+4DwOT1XG0Sle3Vd2zyziyVB0cGlQI6B42y3A+6
+FdA40xaYJyt5mfCOaun8vAhcByVli2vzOszfdSx6YXxW4cZW0SDsvpf/14ED8FlR
+glg8SB/e/O//kWgotyRPdwFWMsELIi3BbOniR4M3OkpwtRAwCKo68HtxjFimQla5
+U5owy4Q6tslIIAkwMkCC3DiYPFHRYI5Wh/4Kx2IbeOT9E3NbT5ZHKb+aoCCqPvnZ
+1IxVP7LVy3iDsJWfABQOA7nEOnSMYvxo7YnlE/upgptgroEotwgHCKxXbuYyBjZq
+vWQP5YfN4Kw0Py8wO3Z/8UhB7Ymb5n7HDtPY5iYsXl4csK09BAYsJGSx6TSUSMll
+DKFfd/5zaAgVaorACDQadiy9k+JmL/ZoolH/OA74r9eu9dvV/gGNYVgfJGa0tXAu
+I/TgvciBUplfB+ULIXBzqZv0/65iLmaAA7brwwYiXjd7/lUAgTYw9rSl9/b8lZ1F
+FAzRSS8aGSkEO9EfsNc5Q+RO
+=uMou
 -----END PGP SIGNATURE-----
 
---===============0570898975272933666==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-875be090928d-5d9f6f26ec66.txt
-
-75fd2810b08a4854af3928121a301e50376288d2 staging: vc04_services: vchiq_bus: Do not kfree device
-1fa05877588a02fdad995385eaafea4798022cd4 staging: vc04_services: Support module autoloading using MODULE_DEVICE_TABLE
-79ab0ca23abfc055f76a39839a89e03835bd06cc staging: vc04_services: bcm2835-audio: Drop MODULE_ALIAS
-017b9ef371e06f852e52b290e4e3c5b5fdf9ceba staging: vc04_services: bcm2835-camera: Drop MODULE_ALIAS
-cf4381ee0bdb3c6a15d4b3e62fc4055050939772 staging: vme_user: replace strcpy with strscpy
-6e933215c55518b03e0f279c7ae038e387ce4470 staging: gdm724x: Add blank line after declaration
-45e173c0372a7bdd0eb543076e3b4c79fab38555 staging: bcm2835-audio: remove function snd_bcm2835_new_ctl()
-3cad0b9d0bdd3092f0b1b620e2375d8cc94c82f6 staging: sm750fb: Remove unused return variable in program_mode_registers()
-218f1c140217cb782bd695ff0cd53a48a95ebaf6 staging: rtl8192e: renamed variable HTUpdateDefaultSetting
-3ad533b3fb9bd7ab0582497f67cf6b7b38bdb868 staging: vme_user: Replace printk() with dev_*()
-d964afa772e13628fafb1c77faa58341a1d8aa91 staging: vme_user: Use __func__ instead of function name
-08c7bee3b3863eab155222b177cecf8aeaaa1232 staging: vme_user: Remove printk() in find_bridge()
-c6054f43f782abcfc4ac887209c061a512bbab47 staging: vme_user: Remove NULL-checks
-3249888c1b8c9d9fdad9f818e7ac5d7646ff91a1 staging: vme_user: Use dev_err() in vme_check_window()
-e63771781beadbdef537f6de36f62c8e672a5b8f staging: rtl8192e: clean up comparisons to NULL
-25b8c77ecdd39eb8afb4e3be001f6f7baf12acda staging: vt6655: Rename variable byCWMaxMin
-e59314b68cc7ab639bfe1bf658a619b4b8b3ce4e staging: vt6655: Rename variable bySlot
-d988a485f5940e119d6de4f2b17ea0a1dfc7db4f staging: vt6655: Rename variable bySIFS
-30af3e57580d93bab1929e3b7cbed9177a8a6cef staging: vt6655: Rename variable byDIFS
-5d9f6f26ec6656b43bf90f12705dbe88ce77f8d5 staging: vt6655: Rename variable byEIFS
-
---===============0570898975272933666==--
+--===============6364165210389113844==--
