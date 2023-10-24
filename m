@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2232052549070904387=="
+Content-Type: multipart/mixed; boundary="===============5494643031152381684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Oct 2023 17:20:54 -0000
-Message-Id: <169816805454.5779.4249985041113917033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 24 Oct 2023 17:35:27 -0000
+Message-Id: <169816892715.15528.16029103494919948812@gitolite.kernel.org>
 
---===============2232052549070904387==
+--===============5494643031152381684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e4801232ae8213eafcaa7a4d3940e6a281d514a3
-    new: 9abe8e16fd683f4af63d157f0a699c12d1c4b309
-    log: revlist-e4801232ae82-9abe8e16fd68.txt
+  - ref: refs/heads/char-misc-linus
+    old: 3e4a7afde492c51c86da243ae41b22c002e1a5c9
+    new: 28926daf731f72d0537767fdbab2a3e06e31190a
+    log: |
+         1e55c5200dc7efeb84d4582a82d289329255fd82 fpga: m10bmc-sec: Change contact for secure update driver
+         28926daf731f72d0537767fdbab2a3e06e31190a fpga: Fix memory leak for fpga_region_test_class_find()
+         
 
---===============2232052549070904387==
+--===============5494643031152381684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4801232ae82-9abe8e16fd68.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b62570665d75c1809eeeb33e1c84ffb2ed2871c0 Merge branch into tip/master: 'perf/urgent'
-b92bb97debdf7424403880750e7e4ea75ea5edba Merge branch into tip/master: 'x86/urgent'
-b4caac893fac092cb300440fa88e32f64f50db5f Merge branch into tip/master: 'x86/merge'
-b8e17bea6d0c201ec7494161552be5da9816e431 Merge branch into tip/master: 'core/core'
-9e1486fd3cba8493423a4cb6b499f4ae1a211138 Merge branch into tip/master: 'irq/core'
-d5046854b4588ffda8598157921a1c1052c69b37 Merge branch into tip/master: 'locking/core'
-ef976a3ed3eda10eafa462952f6604757a8cb057 Merge branch into tip/master: 'objtool/core'
-7d3fc561a498ca021fed1d6515a5130260466980 Merge branch into tip/master: 'perf/core'
-c9787604a57be5584dc6038b0e15d9c98ca068ec Merge branch into tip/master: 'ras/core'
-a8a6af4d700e18c76f0bc05294d49844d3a603f7 Merge branch into tip/master: 'sched/core'
-f0b097b903c981f72035e23a12e284bdf0fb2a4f Merge branch into tip/master: 'smp/core'
-94650adea4affca16a615df0fed13ce930cfb281 Merge branch into tip/master: 'timers/core'
-dead274b34e42783f58bef97a8685648af5c395b Merge branch into tip/master: 'x86/apic'
-8719a708fccc27836fabca90e50169fc93c063b4 Merge branch into tip/master: 'x86/asm'
-c86ad91fad62bc782af594842fce79035ad9de95 Merge branch into tip/master: 'x86/bugs'
-b4b2d4c3ff08f1272637bf26cad57198efd83ce5 Merge branch into tip/master: 'x86/build'
-c492392543fbefb3e046997476905235c89779d5 Merge branch into tip/master: 'x86/cache'
-503f2c0169e4fdef33ab3a4d00604c9cd8a9699c Merge branch into tip/master: 'x86/cpu'
-72249352d8cdc921dd4c77365e8fca8706c8fcb7 Merge branch into tip/master: 'x86/entry'
-5d522c65e2b4b0c1bd7b516e9483dfe8cbb47369 Merge branch into tip/master: 'x86/fpu'
-235692418955167b7e7b6be5cd082313bc1fc91b Merge branch into tip/master: 'x86/headers'
-be8726fe2244429bb87131c6e5616cca661891c3 Merge branch into tip/master: 'x86/irq'
-9a5fc575b05ecf3be742b974d3f3cad2f077a114 Merge branch into tip/master: 'x86/microcode'
-d262500ceeec8a7ebf07984aad042249145499da Merge branch into tip/master: 'x86/mm'
-608aea07e87a74aa5878769cbbeb056fc5f8d939 Merge branch into tip/master: 'x86/percpu'
-2a9de282bb2d64408ee5144b26cdc3b58ec0df74 Merge branch into tip/master: 'x86/platform'
-9abe8e16fd683f4af63d157f0a699c12d1c4b309 Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698168925 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1698168924-0b3cc16d13fbe189c80cffd080caa641d832b774
 
---===============2232052549070904387==--
+3e4a7afde492c51c86da243ae41b22c002e1a5c9 28926daf731f72d0537767fdbab2a3e06e31190a refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU4AF0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s6wQALO7tw7dlgoS7fIQcZxG
+d2XD+gazjuQoW8b4Dz+Ix2s0jpKJDNhHLQY/jG0a0z9CMMiwSRbpVbw7RBiwTeRt
+kRlEoUPv5KZ5n1TR6Z1MZAmYHAz+Y3HaW8UENdvSzUAqQFqVXiV7oyYS4M8b/lx2
+WAa7KbZWEDerEYW79SVI1uF1nDSbBWeQYzFmuNkneVLud9FVd9UzpPM2uFQSmfU5
+cYfKeikaVWxrDLBqocl1bH/HA2UZDfOpkBU1mheenEzTby7Zn3nN2TEdnxqen9Qf
+y8MFvIZEEe5hlMMx8ANFyC22SNE0a4fzo5KFWByX5AP+JqMRKSKW3LN6DUWjNZ7i
+QelOurGad11BJOrsbFM3uuBedu1eVO/qUmqPrInQL0XgKu93P8W48Vb4gH/ie6Zv
+cRXqymrqi8MLGaQzYydFoD03L2GzrV5LQ0phQvf/Qsg7xu7SNbnzOQNmWFyubYSH
+7LgNntmuVNSifPnBKjU9hV7X3DwR7ouv6i0MJYn1/DeRmu+/lmPV6FsRDm0Ki4/N
+tFwRnSRA5ESuXqK/tRw6UG7AUgDM+ac2/kwK/dKz5LY/CnmA01X+6gHcUjzwkAhu
+7myvX6OZJGJuHX3yUQzQY1k0eJ1xCxkvz0dveLsW277CYSs2ckfUtca2j1Rp4HMv
+OO538gT3vNK21GnT5fSvpBN0
+=SKU0
+-----END PGP SIGNATURE-----
+
+--===============5494643031152381684==--
