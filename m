@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 24 Oct 2023 20:13:20 -0000
-Message-Id: <169817840034.3417.9125145519372293509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 24 Oct 2023 20:14:58 -0000
+Message-Id: <169817849833.4091.10112416904899442560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/work.csum
-    old: 5bc796e523f8dee405893827ee1c85a51d97a721
-    new: 7601eab18aa619442ca7ee6ca5cee4fcc4337897
+  - ref: refs/heads/bleeding-edge
+    old: 52a5e7c038e2603619e79cc182add1dd3bcd589d
+    new: 72d54941cd56ac3fedca6f7ae00a300b33ead29e
     log: |
-         9147ce34acd148e6b3a24d46af29cac114a59c63 get rid of asm/checksum.h includes outside of include/net/checksum.h and arch
-         b63d46890ce869843c5279c6174c5697939f3696 make net/checksum.h the sole user of asm/checksum.h
-         aea9813276c9224a97c39a915b92adfb8683d1f0 Fix the csum_and_copy_..._user() idiocy
-         f8960b4435dc818d2d6b31e91603a61431d44cb3 bits missing from csum_and_copy_{from,to}_user() unexporting.
-         740874188ff9ff42b6871860c0b6635f0019536d consolidate csum_tcpudp_magic(), take default variant into net/checksum.h
-         1d596c4b5ff777b0dca1304ebab9ca43eb89179e consolidate default ip_compute_csum()
-         e68eb715aaf8aa15d70866cc977302409831226e alpha: pull asm-generic/checksum.h
-         7e95b4392366cca019d27bee70d741017709c77f ia64: pull asm-generic/checksum.h
-         9841623f86519a550fc6f77e0783712e0d360e47 mips: pull include of asm-generic/checksum.h out of #if
-         7601eab18aa619442ca7ee6ca5cee4fcc4337897 nios2: pull asm-generic/checksum.h
+         ea167a7fc2426f7685c3735e104921c1a20a6d3f cpufreq: stats: Fix buffer overflow detection in trans_stats()
+         14d4fe33da6983c7e2686ca4707dee10ff2889c9 Merge branch 'pm-cpufreq' into bleeding-edge
+         a60ec4485f1c72dfece365cf95e6de82bdd74300 powercap: intel_rapl: Downgrade BIOS locked limits pr_warn() to pr_debug()
+         72d54941cd56ac3fedca6f7ae00a300b33ead29e Merge branch 'powercap' into bleeding-edge
          
