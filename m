@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8769162058923468618=="
+Content-Type: multipart/mixed; boundary="===============6160554989853056184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 24 Oct 2023 15:38:18 -0000
-Message-Id: <169816189849.27397.5390712930163374058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 24 Oct 2023 15:38:32 -0000
+Message-Id: <169816191209.27564.3884432138482470341@gitolite.kernel.org>
 
---===============8769162058923468618==
+--===============6160554989853056184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1
     log: revlist-58720809f527-05d3ef8bba77.txt
 
---===============8769162058923468618==
+--===============6160554989853056184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -383,4 +383,4 @@ d537ae43f8a107761fb5a85c3f0cfce5ca79bcb1 Merge tag 'gpio-fixes-for-v6.6-rc7' of 
 fe3cfe869d5e0453754cf2b4c75110276b5e8527 Merge tag 'phy-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 Linux 6.6-rc7
 
---===============8769162058923468618==--
+--===============6160554989853056184==--
