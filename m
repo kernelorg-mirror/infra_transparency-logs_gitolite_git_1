@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5862649498575462826=="
+Content-Type: multipart/mixed; boundary="===============6972504402442507623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Tue, 24 Oct 2023 20:40:25 -0000
-Message-Id: <169818002587.23784.15369277745938618626@gitolite.kernel.org>
+Date: Tue, 24 Oct 2023 20:41:35 -0000
+Message-Id: <169818009501.24261.1066667584966377126@gitolite.kernel.org>
 
---===============5862649498575462826==
+--===============6972504402442507623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 9a3dad63edbe9a2ab2be1e7361a2133f519f855b
-    new: 4f82870119a46b0d04d91ef4697ac4977a255a9d
-    log: revlist-9a3dad63edbe-4f82870119a4.txt
+  - ref: refs/heads/opal-test
+    old: bea1ce32895171761193b4d3abccf964f8fec5c8
+    new: bc53aead24c88acfba5036e2f82ce26a76f7b78f
+    log: revlist-bea1ce328951-bc53aead24c8.txt
 
---===============5862649498575462826==
+--===============6972504402442507623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a3dad63edbe-4f82870119a4.txt
+Content-Disposition: attachment; filename=revlist-bea1ce328951-bc53aead24c8.txt
 
 3170256d7bc1ef81587caf4b83573eb1f5bb4fb6 counter: chrdev: fix getting array extensions
 6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
@@ -493,5 +493,11 @@ e017769f4ce20dc0d3fa3220d4d359dcc4431274 Merge tag 'for-6.6-rc7-tag' of git://gi
 84186fcb834ecc55604efaf383e17e6b5e9baa50 Merge tag 'urgent/nolibc.2023.10.16a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 d88520ad73b79e71e3ddf08de335b8520ae41c5c Merge tag 'pull-nfsd-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 4f82870119a46b0d04d91ef4697ac4977a255a9d Merge tag 'mm-hotfixes-stable-2023-10-24-09-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+5e687a997d3ed39f0f616bbc399b3775d7446319 usb-storage: remove UNUSUAL_VENDOR_INTF macro
+9b201df470bf8f1a7c87267c7c5d0c3dec67a465 usb-storage,uas: make internal quirks flags 64bit
+45e14a7ca05546a9d6980f72f051e6d95900f8cd usb-storage,uas: use host helper to generate driver info
+38acaeed67ffc65b420edf89924a476bc19c0d14 WIP: scsi: use ATA-12 pass-thru for OPAL as fallback
+6c29d846b3954133b8898c8210d3de1aa24c6f8e WIP: usb-storage,uas: enable security commands for USB-attached storage
+bc53aead24c88acfba5036e2f82ce26a76f7b78f WIP: usb-storage,uas: disable security commands (OPAL) for RT9210 chip family
 
---===============5862649498575462826==--
+--===============6972504402442507623==--
