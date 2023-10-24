@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2414056018411459663=="
+Content-Type: multipart/mixed; boundary="===============2003723018377492359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Oct 2023 13:54:14 -0000
-Message-Id: <169815565493.15762.18082717181644075520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 24 Oct 2023 13:54:23 -0000
+Message-Id: <169815566311.15879.14432107878226185830@gitolite.kernel.org>
 
---===============2414056018411459663==
+--===============2003723018377492359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 61f85372d293241f4139731c14cab9ac8e9436fb
     new: 4fc4db7a68c2c04522880c4f89317f7874a4188f
     log: revlist-61f85372d293-4fc4db7a68c2.txt
 
---===============2414056018411459663==
+--===============2003723018377492359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1698155652 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1698155652-17946f2ff9477c4a394df1ada795b5e4f64f0fd3
+pusher C3F436CA30F5D8EB 1698155661 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1698155660-80c10819c06e1836ec35ecdd0716ef7ecefbad22
 
-61f85372d293241f4139731c14cab9ac8e9436fb 4fc4db7a68c2c04522880c4f89317f7874a4188f refs/heads/for-6.7
+61f85372d293241f4139731c14cab9ac8e9436fb 4fc4db7a68c2c04522880c4f89317f7874a4188f refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU3zIUACgkQJNaLcl1U
-h9CLJgf9FRDgFYh1jmt/x87qIwjNL9SwtFEtnmp39+M7gnUasZ0XBjbHHzcG5rTz
-8T4Yci0mNd2IIVCNaTpgkQXVsMaYaY49p19LUBchYrJaf/0J9JVcBr+56WT8FXOg
-S2zm9wdkVxFtpH1tBhqCSE7kn1HYJb47bIBAywgO+Ya69YyqExLAjxxhbQNrC2wx
-f1EiPAG7FQPs8YMEanLt/pewbn2dZ2gNbdi5QqG69aRQ8VKodx+E82Z9Cs/gM6dy
-l3ERp/acKP9rvNcRp86YApFvSJP2AO8NAnKZvLOFZbeLqXLj2VV+BXgMaUwOAKXI
-rha58F1oGO6QUxKi5PQGBvfWn6pFMw==
-=Hkgs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU3zI0ACgkQJNaLcl1U
+h9CwpAf/Ur+Rm9eZf1GixWF4xUG6sSKsnTKoluOH5jKJMvVlrNFuLxttNjx8nnOE
+DJvpKCaWTLUigsA19iqa0roDGyaimJ+Ky7fh1lMKsdox0Z8CjqdkljxSq2vM2C3D
+DXmAvekKuPLXc7lJz001dPceQ4kVa/yFWNP49ixStJ1v2wGXq4Gt7meKJ5EpZi71
+IrjCYubOrwOh9KHMWqTnyGs4n0KRXPOkixIJKwYJD94Pf4TDVbgxrQ98/UDUyxnq
+mAwQI2XnvkFIpECEPWJXL4VX2QfahM1UUQKGqVWVPkJwwMHRb6/XXpFEqKjLUD+f
+03n0wjHbq/Kb+ZKEszQLXU1x74lLHw==
+=w8LE
 -----END PGP SIGNATURE-----
 
---===============2414056018411459663==
+--===============2003723018377492359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ fe3cfe869d5e0453754cf2b4c75110276b5e8527 Merge tag 'phy-fixes-6.6' of git://git.
 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 Linux 6.6-rc7
 4fc4db7a68c2c04522880c4f89317f7874a4188f ASoC: Merge up v6.6-rc7
 
---===============2414056018411459663==--
+--===============2003723018377492359==--
