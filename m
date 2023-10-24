@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 24 Oct 2023 18:05:11 -0000
-Message-Id: <169817071175.4377.7825670180473719946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 24 Oct 2023 18:05:40 -0000
+Message-Id: <169817074076.4638.4053579889034105530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 266cf343b95df82efa7772c3746a7068a32b33b8
-    new: 3582312cc17dc2ea3ae5a974405c1401cb1cac41
+  - ref: refs/heads/master
+    old: 530886897c789cf77c9a0d4a7cc5549f0768b5f8
+    new: 0783375f2c56ca17719d5ec670e498dc661ea5c3
     log: |
-         3acfa500a72a4b94d07d28fa3651ae7d191fccf7 iommufd/selftest: Add nested domain allocation for mock domain
-         3582312cc17dc2ea3ae5a974405c1401cb1cac41 iommufd/selftest: Add coverage for IOMMU_HWPT_ALLOC with nested HWPTs
+         3fa702baa02c30e9d90b2a2de72f87296a60008a Bluetooth: Fix not notifying when connection encryption changes
+         0783375f2c56ca17719d5ec670e498dc661ea5c3 Bluetooth: ISO: Allow binding a PA sync socket
          
