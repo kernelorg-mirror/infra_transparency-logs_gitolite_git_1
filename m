@@ -1,97 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6672557362067907510=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 25 Oct 2023 10:18:29 -0000
-Message-Id: <169822910919.1036.3998761378378843363@gitolite.kernel.org>
-
---===============6672557362067907510==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 25 Oct 2023 10:21:44 -0000
+Message-Id: <169822930457.6628.1612667040533150722@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/v4.14.328
-    old: 0000000000000000000000000000000000000000
-    new: 1c59ca345ef7350205f75dbde4f5c26cce1908be
-  - ref: refs/tags/v4.19.297
-    old: 0000000000000000000000000000000000000000
-    new: ce4612348b5c382a939c1716c8db19d8adc14b5d
-  - ref: refs/tags/v5.10.199
-    old: 0000000000000000000000000000000000000000
-    new: 757d3e3eb1a2d0e600122fd087a17ea86e3c6cf5
-  - ref: refs/tags/v5.15.136
-    old: 0000000000000000000000000000000000000000
-    new: ad8a8b3945fc8eb7efe003c9e8dffade4cbed479
-  - ref: refs/tags/v5.15.137
-    old: 0000000000000000000000000000000000000000
-    new: 229d2f0152bb8d1fa15fa3e81d3866d04633c157
-  - ref: refs/tags/v5.4.259
-    old: 0000000000000000000000000000000000000000
-    new: 271da25bfff7f0c28d6ca23c1900ab1d9ac61b71
-  - ref: refs/tags/v6.1.59
-    old: 0000000000000000000000000000000000000000
-    new: d0ab475ef8d306cb9c12a479bd987abd291397ac
-  - ref: refs/tags/v6.1.60
-    old: 0000000000000000000000000000000000000000
-    new: fe060662d8f0f5ce985b06093cd7f815dbb969e4
-  - ref: refs/tags/v6.5.8
-    old: 0000000000000000000000000000000000000000
-    new: 385a3e037b613c2edcb0400befa68615d8b7f0f2
-  - ref: refs/tags/v6.5.9
-    old: 0000000000000000000000000000000000000000
-    new: f8162116af0ab9972bed7b120ed2fb6af69b7980
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
-
---===============6672557362067907510==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698229101 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1698229100-ff1d438f8105ad67b3bd4e0c017e533976641228
-
-0000000000000000000000000000000000000000 1c59ca345ef7350205f75dbde4f5c26cce1908be refs/tags/v4.14.328
-0000000000000000000000000000000000000000 ce4612348b5c382a939c1716c8db19d8adc14b5d refs/tags/v4.19.297
-0000000000000000000000000000000000000000 757d3e3eb1a2d0e600122fd087a17ea86e3c6cf5 refs/tags/v5.10.199
-0000000000000000000000000000000000000000 ad8a8b3945fc8eb7efe003c9e8dffade4cbed479 refs/tags/v5.15.136
-0000000000000000000000000000000000000000 229d2f0152bb8d1fa15fa3e81d3866d04633c157 refs/tags/v5.15.137
-0000000000000000000000000000000000000000 271da25bfff7f0c28d6ca23c1900ab1d9ac61b71 refs/tags/v5.4.259
-0000000000000000000000000000000000000000 d0ab475ef8d306cb9c12a479bd987abd291397ac refs/tags/v6.1.59
-0000000000000000000000000000000000000000 fe060662d8f0f5ce985b06093cd7f815dbb969e4 refs/tags/v6.1.60
-0000000000000000000000000000000000000000 385a3e037b613c2edcb0400befa68615d8b7f0f2 refs/tags/v6.5.8
-0000000000000000000000000000000000000000 f8162116af0ab9972bed7b120ed2fb6af69b7980 refs/tags/v6.5.9
-0000000000000000000000000000000000000000 333006c735ad099dbbea06c5c5640f6e532c88cf refs/tags/v6.6-rc6
-0000000000000000000000000000000000000000 8fd1310f742d0903addac53bb2eef7ca68eb21d2 refs/tags/v6.6-rc7
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU4620bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OScQANMCBwpOsxrmUKp2ZKoI
-dnXQtRWNY99yHxDFesX7+XxJA6sy/a2ultEa3m8C0illsZPTQP75ktYOc1ixuZ63
-uq2L90cFqqebnQ7rVFqauodoxrL5XWdS+tEwM1qw7XOfQdtDllRwQp22FIYRjFPc
-LwtljKGOpxh2c6jX2un/bJ+NpwdhzMrQ0o2ZL72aIzMT/+3EZuVfqG78RUF1gitH
-JW+3mWx2zI2odNWi1Nkl5POTdexOM7WPduTW/dG0XHRhF3/O4WjLfI9jWOvCbOgR
-fuD7cdjQXU03s16A3cSGkez78S5IVydLVSjNseJ/ve+07o8aOYBedw9H25SgiJ1t
-JuGKJlyHoi4i/yxav8XhuzPB0VkD0c9FcqZNnCzuHiNZdKoWxnRO7p5ZIijno8N8
-KCzC8oVm5iYiMwYsHB2+f0frXTC84KXMcCtQHnNv52ObSbBEmxcJZjafiel3jW5S
-87jZMb8b+sFPGRovyniKA3DGAmQ1+jiwXPIsNpTKICXe2SoQVGo2PSNXrzp1uijm
-57YkusYFxGDxFBggMZif5FG3K60hRBMFiUTmGlA1jiQOwnqqyY6jhthyf2AUwwfW
-WlYCCzXpJqlhwkIN0vpENQVL98dFVhkyImhURvBeiaNbWxZhao/Dcu6GRSPhVxw9
-fpWa9yNVpYWf74q+RfXPA6hv
-=/rNp
------END PGP SIGNATURE-----
-
---===============6672557362067907510==--
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 80a510cbf4ffc9d3df5cafb7c74ccead23b26ff4
+    new: 038ef0d990a0a5fbc2024084f51e8af7d9bc95a2
+    log: |
+         47e161a7873b0891f4e01a69a839f6161d816ea8 cpufreq: qcom-nvmem: add support for IPQ6018
+         7f6aa81d68376741ea216f4fe59e5509107116bc dt-bindings: cpufreq: qcom-cpufreq-nvmem: Document krait-cpu
+         a243a1ed7b4a410b588404592b2028e0cbed8d48 cpufreq: qcom-nvmem: drop pvs_ver for format a fuses
+         ff63282ed2271d242baaa2026cd8acb0c0b990ff cpufreq: qcom-nvmem: also accept operating-points-v2-krait-cpu
+         4a3754f73ef48518a98c3c3a5e0edb9b605740cf cpufreq: qcom-nvmem: add support for IPQ8064
+         9e3254ff645d805b52355ebff75ca21885f2c78a cpufreq: arm: Kconfig: Add i.MX7 to supported SoC for ARM_IMX_CPUFREQ_DT
+         038ef0d990a0a5fbc2024084f51e8af7d9bc95a2 dt-bindings: cpufreq: qcom-hw: document SM8650 CPUFREQ Hardware
+         
