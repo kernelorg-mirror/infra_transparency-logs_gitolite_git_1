@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9143261283942315421=="
+Content-Type: multipart/mixed; boundary="===============4075464325941867925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 25 Oct 2023 05:08:09 -0000
-Message-Id: <169821048935.3212.7177653065896320758@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 05:09:28 -0000
+Message-Id: <169821056841.3791.2807474555041196027@gitolite.kernel.org>
 
---===============9143261283942315421==
+--===============4075464325941867925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
+  - ref: refs/heads/fixes-test
+    old: 3a7cf8fdb114ea9f709a2e7f0494908bacf1b190
+    new: 47b8def9358c5eb888e78b24b7e5b7f2e2e97b8e
+    log: |
+         47b8def9358c5eb888e78b24b7e5b7f2e2e97b8e powerpc/mm: Avoid calling arch_enter/leave_lazy_mmu() in set_ptes
+         
 
---===============9143261283942315421==
+--===============4075464325941867925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1698210488 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1698210567 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1698210487-042c397eb384c86e3ae60ed68c08b70c6c362bbd
+nonce 1698210566-eb4df3c621cc7472dfb60005815a12913b779bd4
 
-0000000000000000000000000000000000000000 333006c735ad099dbbea06c5c5640f6e532c88cf refs/tags/v6.6-rc6
-0000000000000000000000000000000000000000 8fd1310f742d0903addac53bb2eef7ca68eb21d2 refs/tags/v6.6-rc7
+3a7cf8fdb114ea9f709a2e7f0494908bacf1b190 47b8def9358c5eb888e78b24b7e5b7f2e2e97b8e refs/heads/fixes-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmU4orgTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgFw5EACxxCKxPqTdr6FW4y9efuvf5zW66KYv
-iNscpks1aQHh2V80/OW6gambH1PARZsYM9EbRhLrlXRTmvYNnWlxmkv2U5F89MXY
-w46+jq+5TX7nlWOeH9DIEkQsW/yInknIBogyGQ4wjek8L+nItV/oLFVg5KXRah+u
-7QsdIwuRY9S109TeBBI0Srq8SHYv30WfXvl8yN+m2Kw98dikFfOHp7Awiwb/vKW8
-GNprP9JTJ8lnHHZxxYTyRgsn2/LJ8QRcyKrx1d/Y5RvDODEgCdPatkqcSQAiUKQ+
-Rtrf7/Gycum/M580ciXqGll5ZmHrf2DCP40DNmQbNjcgGwXuTNf5ec8Vn5jyNz0q
-BUgdVsLXkbW7NLECeeobziX6STOVaPLtjI3EKoD9Eh938i7gChB4QGVsm9xk3Lvf
-ran3HYwGatZfZmHcYbF2SAsAEEP1WNQpuT3aTJ91KUEJ6rKCjh0XWx2o7bpkL2iY
-8M1cgjDcIPY7DH27ibmzLb5aY0ibGGDzr9EWY9clYdnomSm25/3X3wx6+6tn6BXP
-7xyu7X/VKaOKYHnkCYZXy1SBtOCNUe+Vm0Avd3cXgsPscAdt8krIz92FjWKGVrkC
-OtEXuDOzcnfIQqIkOLbAKfxnw87U1w8Kfbs994taaC88IhNo7g9f0b8oubxwstny
-4qUeUW5TjpDzwA==
-=eABM
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmU4owcTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgIXjEAC0qUK0rUuSnvgvrELHq2o24qKWYLK7
+mPTCFtH6IkAIGtj31Fo/MsIFY7fXKOHtGky9fgtTT+A6coZ8VUgfklV/mQbtTDhQ
+7wNYOxZvvKqEH1Wm4exX9mrj8Me8tOEgEetKKstanoR5oJEL4/Wl51xasY8i31Hs
+m3zOyXo4ZWnDCM12k5xKZ1z2KT/f5283EqJ4w2nqPOBcbTYy4mG057zIAHUFcEgF
+LdDSBdXs3fniWwldFjjThFBC+sMG6nd4ynfuYpz7TY0Xq2upITxTvfSwgGw1NymX
+VFyoDNBlOiYDz/HCwFKs2JQ6xZxkQsZDErq+FfYWx7WhKGmKoiFLdYo83Vd60KOF
+bh5BxHPutziX8+2Non1Oj034wPLkxXFCn1CCQ5ozy6PGRXZfxLwW6QZzFgSNiCBY
++mGgiG8GspxlyeoJgW+Oqys+O9DxqwqxedhqqcgahhICcP14zUGwjdw8uNcujLY6
+2MbIl7cAJWS2hBJLCvZEc8V2rVUQ1KnjDf/0K6sQiFfPl+rv2pXY0/yJIaQHT8Kf
+6x/4x5VUOr+3ML7IurI9/AKZU6x92ACdY10Lm9zCpFhL5o+WvmT6P5u6vDkcU/nc
+OApyiEmfbJyDl/oqwAYVRleebpxniQpcYZSn4/3u8RzAxeRwPE/ivGQiqpggYk4T
+0oHby49Qbmyfhw==
+=4EYi
 -----END PGP SIGNATURE-----
 
---===============9143261283942315421==--
+--===============4075464325941867925==--
