@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7616623228378086303=="
+Content-Type: multipart/mixed; boundary="===============5173706011745798713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 25 Oct 2023 07:58:46 -0000
-Message-Id: <169822072632.27165.7064616215975514736@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 07:59:16 -0000
+Message-Id: <169822075689.27435.12626248820394385961@gitolite.kernel.org>
 
---===============7616623228378086303==
+--===============5173706011745798713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9abe8e16fd683f4af63d157f0a699c12d1c4b309
-    new: 764a85cb2adc87c3ce48bd7e05f41c1c9496a76a
-    log: revlist-9abe8e16fd68-764a85cb2adc.txt
+    old: 764a85cb2adc87c3ce48bd7e05f41c1c9496a76a
+    new: 6ebc9646fd8f053872a74d3475047dd491ddbf51
+    log: revlist-764a85cb2adc-6ebc9646fd8f.txt
 
---===============7616623228378086303==
+--===============5173706011745798713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abe8e16fd68-764a85cb2adc.txt
+Content-Disposition: attachment; filename=revlist-764a85cb2adc-6ebc9646fd8f.txt
 
-61e21cf2d2c3cc5e60e8d0a62a77e250fccda62c mm/page_alloc: correct start page when guard page debug is enabled
-51f625377561e5b167da2db5aafb7ee268f691c5 mm/mempolicy: fix set_mempolicy_home_node() previous VMA pointer
-e0f81ab1e4f42ffece6440dc78f583eb352b9a71 mm: fix vm_brk_flags() to not bail out while holding lock
-1419430c8abb5a00590169068590dd54d86590ba mmap: fix vma_iterator in error path of vma_merge()
-824135c46b00df7fb369ec7f1f8607427bbebeb0 mmap: fix error paths with dup_anon_vma()
-117b1bb0cbc7f5feab4fd251737869958987808c riscv: handle VM_FAULT_[HWPOISON|HWPOISON_LARGE] faults instead of panicking
-1de195dd0e05d9cba43dec16f83d4ee32af94dd2 riscv: fix set_huge_pte_at() for NAPOT mappings when a swap entry is set
-229e2253766c7cdfe024f1fe280020cc4711087c mm/migrate: fix do_pages_move for compat pointers
-969d63e1af3b3abe35a49b08218f3125131ac32f mm: zswap: fix pool refcount bug around shrink_worker()
-92fe9dcbe4e109a7ce6bab3e452210a35b0ab493 hugetlbfs: clear resv_map pointer if mmap fails
-bf4916922c60f43efaa329744b3eef539aa6a2b2 hugetlbfs: extend hugetlb_vma_lock to private VMAs
-2820b0f09be99f6406784b03a22dfc83e858449d hugetlbfs: close race between MADV_DONTNEED and page fault
-babddbfb7d7d70ae7f10fedd75a45d8ad75fdddf kasan: print the original fault addr when access invalid shadow
-17c17567fe510857b18fe01b7a88027600e76ac6 kasan: disable kasan_non_canonical_hook() for HW tags
-c5155d4ef4b2ac03cb5838b4060ab2ceb7dbda09 MAINTAINERS: Ondrej has moved
-76b7069bcc89dec33f03eb08abee165d0306b754 mm/damon/sysfs: check DAMOS regions update progress from before_terminate()
-002e39e9ece5589140236558a23c63ca4da45b68 mailmap: map Bartosz's old address to the current one
-d2313c77592661e5ba259cdae3a120fb391054ff mailmap: correct email aliasing for Oleksij Rempel
-e2de156b0d918b5ebe975577d25f9ef92379a756 selftests/mm: include mman header to access MREMAP_DONTUNMAP identifier
-099d7439ce03d0e7bc8f0c3d7878b562f3a48d3d maple_tree: add GFP_KERNEL to allocations in mas_expected_entries()
-4f82870119a46b0d04d91ef4697ac4977a255a9d Merge tag 'mm-hotfixes-stable-2023-10-24-09-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-764a85cb2adc87c3ce48bd7e05f41c1c9496a76a Merge branch 'linus'
+6fe1d042f4c7abbf5ed0c60e492be1188aa74cb2 Merge branch into tip/master: 'perf/urgent'
+32dfaeb447ea9545fc27764e14d1c5ef8019c077 Merge branch into tip/master: 'x86/urgent'
+92511690ca5d827f71585effa0a06e774556170b Merge branch into tip/master: 'x86/merge'
+c0d81f9fe2c14ffc3ebd06aa91d5989021e4ef07 Merge branch into tip/master: 'core/core'
+feb39d6d260d7d578cf96b4f9815c0ed8598c09f Merge branch into tip/master: 'irq/core'
+eb97298dfdc0eeed8410f4d1c463c3063cf7be19 Merge branch into tip/master: 'locking/core'
+dbeab4d928a3e74117528bcf5e0f8cf724c36279 Merge branch into tip/master: 'objtool/core'
+a942bbb72fa7e9faf5c9f3d229bdeb1624d74ddc Merge branch into tip/master: 'perf/core'
+606d73f2de3d6e797d6dd4added5ec836602f5e2 Merge branch into tip/master: 'ras/core'
+b81b8fe780817b0088a68bdd143fd2fc9e33b56e Merge branch into tip/master: 'sched/core'
+3b74f81a5e6850456e309293e08ac238e337070d Merge branch into tip/master: 'smp/core'
+1cbcc63a6ad07997a7c53eb209a9318546563ea9 Merge branch into tip/master: 'timers/core'
+3a04cf530f50821579a874ffe2bf65993d1172a7 Merge branch into tip/master: 'x86/apic'
+9a8d626d8b673ad799a7c83911c80a81053e2c82 Merge branch into tip/master: 'x86/asm'
+a6f6de4a6176de90884571e13cd0d5f9fc1d1e15 Merge branch into tip/master: 'x86/bugs'
+35045e4048b201c64e56b71ae14cbd96d0dbacaf Merge branch into tip/master: 'x86/build'
+8de57a265524043f188a8aae7dac2659a766c034 Merge branch into tip/master: 'x86/cache'
+3f5310496c88654479740890d9ffbb3ddb9cf9a8 Merge branch into tip/master: 'x86/cpu'
+aba4522cb11c12d94c99b57bef9dff741e7ca2f2 Merge branch into tip/master: 'x86/entry'
+6170e7efb7641b4ec2b3b0046fd44d50e5a423e3 Merge branch into tip/master: 'x86/fpu'
+2029910dc5363fa0d36c7a49110301da1b5790eb Merge branch into tip/master: 'x86/headers'
+17725986ea6608276f644a1296ee0b1bd4382afc Merge branch into tip/master: 'x86/irq'
+6e10ead5f2ee5fc861fdd54674abe9efbba0c4d3 Merge branch into tip/master: 'x86/microcode'
+b64c467dfcb6efa6dbd72ada18ab8bcf3896505d Merge branch into tip/master: 'x86/mm'
+915cb723387bcdf0a2896446b2198dbd71efc0b2 Merge branch into tip/master: 'x86/percpu'
+bb8ab2ad1daa80c6aed53497708f4fcc122b4751 Merge branch into tip/master: 'x86/platform'
+6ebc9646fd8f053872a74d3475047dd491ddbf51 Merge branch into tip/master: 'x86/tdx'
 
---===============7616623228378086303==--
+--===============5173706011745798713==--
