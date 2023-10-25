@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3923288068782655718=="
+Content-Type: multipart/mixed; boundary="===============6190644095940462717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Wed, 25 Oct 2023 14:50:58 -0000
-Message-Id: <169824545840.7010.11426703536391228002@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 14:51:08 -0000
+Message-Id: <169824546899.7121.10306572141414304955@gitolite.kernel.org>
 
---===============3923288068782655718==
+--===============6190644095940462717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
 user: glaubitz
 changes:
-  - ref: refs/heads/for-next
-    old: 246f80a0b17f8f582b2c0996db02998239057c65
-    new: 78a96c86a0ff2be546f2ecca210fde5dca30fb59
-    log: revlist-246f80a0b17f-78a96c86a0ff.txt
+  - ref: refs/heads/master
+    old: fdf0eaf11452d72945af31804e2a1048ee1b574c
+    new: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    log: revlist-fdf0eaf11452-0bb80ecc33a8.txt
 
---===============3923288068782655718==
+--===============6190644095940462717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-246f80a0b17f-78a96c86a0ff.txt
+Content-Disposition: attachment; filename=revlist-fdf0eaf11452-0bb80ecc33a8.txt
 
+59a881402cc89788652fa2c2ce7421d14f131c34 s390/uv: UV feature check utility
+19c654bf05ae33ad0a2a9c039d5fe7d411a8bb06 KVM: s390: Add UV feature negotiation
+899e2206f46aece42d8194c350bc1de71344dbc7 KVM: s390: pv: Allow AP-instructions for pv-guests
+02362c9a99b69aa956f015fa93025221b887684b Merge tag 'irqchip-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
 b94a62a663d3c863fac320a6bf60bf8bcf93d81d Merge branch 'for-next' into for-linus
 8a1f00b753ecfdb117dc1a07e68c46d80e7923ea ata: pata_falcon: fix IO base selection for Q40
 8847d42d7a025200bc6b7df37c007a7dd3071d11 ata: pata_falcon: add data_swab option to byte-swap disk data
@@ -1033,6 +1037,8 @@ fa9d4bf5b738a7fa852bbeabfd8889b127ca3193 Merge tag 'ntb-6.6' of https://github.c
 474197a4f7921a97aa1aabc6f759823a024ff25f Merge tag 'dma-mapping-6.6-2023-09-09' of git://git.infradead.org/users/hch/dma-mapping
 6b41fb277ed41a73608328431f2e76e68c3bca37 Merge tag 'driver-core-6.6-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 2a5a4326e58339a26cd1510259e7310b8c0980ff Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+fb60211f377b69acffead3147578f86d0092a7a5 sh: boards: Fix CEU buffer size passed to dma_declare_coherent_memory()
+246f80a0b17f8f582b2c0996db02998239057c65 sh: push-switch: Reorder cleanup operations to avoid use-after-free bug
 1b37a0a2d46f0c5fa5eee170ddeeb83342faa117 Merge tag 'riscv-for-linus-6.6-mw2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6b8bb5b8d9b35fb43f0dbf9fd91b7d35e6232e08 Merge tag 'sh-for-v6.6-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 f741bd7178c95abd7aeac5a9d933ee542f9a5509 iov_iter: Fix iov_iter_extract_pages() with zero-sized entries
@@ -1044,11 +1050,5 @@ e79dbf03d87b2d9978d76ddc1c06424b07b215ad Merge tag 'perf-urgent-2023-09-10' of g
 e56b2b6057996c5f48da518c79d6590f8bfaabf3 Merge tag 'x86-urgent-2023-09-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1548b060d6f32a00a2f7e2c11328205fb66fc4fa Merge tag 'topic/drm-ci-2023-08-31-1' of git://anongit.freedesktop.org/drm/drm
 0bb80ecc33a8fb5a682236443c1e740d5c917d1d Linux 6.6-rc1
-3ca64d0669b467e951d6020f154a7fd8810db35b sh: Remove stale microdev board
-6c329558c1c68c56d35e451b3e7950dbe11a8ee5 sh: Remove unused SH4-202 support
-8daaed76383aaae1d094d3d65d34890b2c6da24b sh: Remove superhyway bus support
-4c02add1d949890d5381789f0c374e72c193559d sh: machvec: Remove custom ioport_{un,}map()
-553f7ac78fbb41b2c93ab9b9d78e42274d27daa9 sh: bios: Revive earlyprintk support
-78a96c86a0ff2be546f2ecca210fde5dca30fb59 Documentation: kernel-parameters: Add earlyprintk=bios on SH
 
---===============3923288068782655718==--
+--===============6190644095940462717==--
