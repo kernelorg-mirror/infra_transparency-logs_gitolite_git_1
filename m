@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5317799974873739522=="
+Content-Type: multipart/mixed; boundary="===============7602854221789425543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 25 Oct 2023 09:11:07 -0000
-Message-Id: <169822506723.18860.7728581654231786951@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 09:11:12 -0000
+Message-Id: <169822507212.18940.8304945059904382672@gitolite.kernel.org>
 
---===============5317799974873739522==
+--===============7602854221789425543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 58720809f52779dc0f08e53e54b014209d13eebb
+  - ref: refs/heads/usb-linus
+    old: 21a68b69f7c16f026bd2e51884520aaf594977cb
     new: 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1
-    log: revlist-58720809f527-05d3ef8bba77.txt
+    log: revlist-21a68b69f7c1-05d3ef8bba77.txt
 
---===============5317799974873739522==
+--===============7602854221789425543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698225066 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698225071 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1698225066-05d26d87f56f70bb7b23ce01555e2e2e78c09748
+nonce 1698225070-b307bc40f7adfc4daf3c6bd0ecbce32aad90b3e5
 
-58720809f52779dc0f08e53e54b014209d13eebb 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 refs/heads/main
+21a68b69f7c16f026bd2e51884520aaf594977cb 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU426obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++MIP/3VW/KBXTzf+nN2eNf/v
-5/xQy4UoGa1zLOw1qmIPQJQqM0rIwEPL84xQXxAiOlkGoZZBrC6pp0Cpebb36pm0
-i2Ljy9IWqX4tGo37o0FvdkKsQNAWsxyUdwFQZuZh49qdTBq4tZMEy6NQEqIr6SLx
-U5IQX/LcKIwQaejkIWAtr0+hNVJ6Ru+17xnOPvs8v9dQUKU5/4kweUVXh6an/SuM
-ardS5fTX8/OwyARgz5tkspDKCm8K3RJefDsGJdxwRVe6lkyh9NRyn06H/bTStWLO
-JY/+XhLBKL9oweI58i2Ihv6l+c7Bfv2pqcPPgzNIZO7fbZcJKfVFbUaiOGWEB4rW
-J78cBIg+xEJPNdWDuY/VVUu74QVxmxUYhQXbF5rhFFMSL8Ta9yNBJ8nfpYTRsoBq
-furV6tuHv5AuwOgNqei80dkkMX7x04C8hLPKZxOfTYKi5EqN4KuzDFf7+KPoOEQL
-fdV4WqF5N0Yv6amCBZrNVNkn77Ub8Cxw1fRKLl6PSiL4yVOSbtuDPSTuiCzTt4FF
-osjIJtG/B590PzvdtrBdzX8OaPcqZ4/9McENvDHXFOBmgDR5ALouPn0C/1YPcCgp
-9xSDyA/yGB4XZQwzcTeOBLHBGRyh/BGvrbDyI7RbVNMbzvPoeYJHL7p6xnZM0Xgr
-l9in+yejpj9VDIIz3HAXEuev
-=tAwU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU4268bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LigQAJ9fevwei4mBn1h0P+T3
+jdAAr36KQo9EOb+cfHliqV8VCERbwJVn9fQZtj76F3dzPR7kHGIv3KMkIS6FWLds
+NO3FHJJqWwCOo/8a6ioNbL2O+NQRIDm9PXIWFn+suhz4FsQ2Pd4ofzd7o4/1s1if
+YQbajbcpH1VJVuhlMs4h+3C3ixRu4D35+8yQiiID1rkKVYaYNt+h3lGDDwbrs6ar
+aC2jhKVf66s51Mci4OEsTOM+GPSmYvHLvm6lHz1MA2+yZrk5lV6m15iY3+QT19+E
+IMSXlyzocmHv1qWW85Q3G8k3lqup3RaGAUWGIoEbTYpf20IlzScF+92jS6BwbQZw
+jXUYQwEnsUPR4e2hdvEJqcoL33aNPATMSVmu79sezOJ04zc2+LC3ZX9oe/UNFzbE
+XA7uYt0gPwGtxL95tggVQjiYZLBYk2H4y4qEu4Yy3rB7F8LiV04+j3Ov//7K/nqC
+WVZKc01eZ0UrpRTCfyCNVDDVQfQ5dRsTiy65UsHOwA1gVKVyIUQLn8itf+OVH+hv
+vZ7eUw2ic2mKevcybeKCv5aUPxfzS9kd+XNoUHt2QH+Z7ZXPQrig7INyzFHSJAXY
+uaKQLvSEIvFN20jma0nd9DRdN3PisUdqEov3QEF6EPuX6cMNNwaRsi/Xp9GsQsDy
+0Bn5dgwVjh/ZOnJF/c1TAlY8
+=q+oa
 -----END PGP SIGNATURE-----
 
---===============5317799974873739522==
+--===============7602854221789425543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58720809f527-05d3ef8bba77.txt
+Content-Disposition: attachment; filename=revlist-21a68b69f7c1-05d3ef8bba77.txt
 
 6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
 f7c4e3e5d4f6609b4725a97451948ca2e425379a xfrm: interface: use DEV_STATS_INC()
@@ -120,7 +120,6 @@ f38f547314b858b94d36aeb9a4401f0aade7d1af perf dlfilter: Add a test for object_co
 2ec8b010979036c2fe79a64adb6ecc0bd11e91d1 spi: npcm-fiu: Fix UMA reads when dummy.nbytes == 0
 b15e7490a1efd4c0f54434c3a85ced1b6b536b7a KVM: selftests: Treat %llx like %lx when formatting guest printf
 332c4d90a09c2cdc59f88d6a6c58c1601403b891 KVM: selftests: Remove obsolete and incorrect test case metadata
-ec4405ed92036f5bb487b5c2f9a28f9e36a3e3d5 thunderbolt: Call tb_switch_put() once DisplayPort bandwidth request is finished
 3820c4fdc247b6f0a4162733bdb8ddf8f2e8a1e4 nvme-rdma: do not try to stop unallocated queues
 6313e096dbfaf1377ba8f5f8ccd720cc36c576c6 KVM: selftests: Zero-initialize entire test_result in memslot perf test
 7ec4cd3c1a12dc08c60d5e376c2c05aae23f1e41 platform: mellanox: Fix a resource leak in an error handling path in probing flow
@@ -205,8 +204,6 @@ c51c673462a266fb813cf189f8190798a12d3124 net/mlx5e: Take RTNL lock before trigge
 2a7e0a52ec98566a863aba42ea35690c65e3da27 rust: error: Markdown style nit
 344b6c0a7514b044ed12b8ad3cdeecd262292f3e rust: fix bindgen build error with fstrict-flex-arrays
 de5724ca38fd5e442bae9c1fab31942b6544012d xfrm: fix a data-race in xfrm_lookup_with_ifid()
-6a7be48e9bd18d309ba25c223a27790ad1bf0fa3 USB: serial: option: add Telit LE910C4-WWX 0x1035 composition
-064f6e2ba9eb59b2c87b866e1e968e79ccedf9dd USB: serial: option: add entry for Sierra EM9191 with new firmware
 ff07186b4d774ac22a5345d30763045af4569416 x86/efistub: Don't try to print after ExitBootService()
 d93f3f992780af4a21e6c1ab86946b7c5602f1b9 bonding: Return pointer to data after pull on skb
 0d3ad1917996839a5042d18f04e41915cfa1b74a efi: fix memory leak in krealloc failure handling
@@ -250,7 +247,6 @@ af846afad5ca1c1a24d320adf9e48255e97db84e selftests: openvswitch: Catch cases whe
 76035fd12cb9046be00ffb9d4262b5b3277d5068 selftests: openvswitch: Skip drop testing on older kernels
 8eff0e062201e26739c74ac2355b7362622b7190 selftests: openvswitch: Fix the ct_tuple for v4
 883f0dc0e4f6b627c0e91098724851da2eabe697 Merge branch 'ovs-selftests'
-52480e1f1a259c93d749ba3961af0bffedfe7a7a USB: serial: option: add Fibocom to DELL custom modem FM101R-GL
 f6ca3fb6978f94d95ee79f95085fc22e71ca17cc mtd: rawnand: Ensure the nand chip supports cached reads
 63e8b94ad1840f02462633abdb363397f56bc642 s390/cio: fix a memleak in css_alloc_subchannel
 327899674eef18f96644be87aa5510b7523fe4f6 s390/kasan: handle DCSS mapping in memory holes
@@ -281,7 +277,6 @@ c8c0a03ec1be6b3f3ec1ce91685351235212db19 ALSA: hda/realtek - Fixed ASUS platform
 63e44bc52047f182601e7817da969a105aa1f721 x86/sev: Check for user-space IOIO pointing to kernel space
 95535e37e8959f50e7aee365a5bdc9e5ed720443 gve: Do not fully free QPL pages on prefill errors
 e8ecffd9962fe051d53a0761921b26d653b3df6b ASoC: da7219: Correct the process of setting up Gnd switch in AAD
-8b695369a6f2d00f62cd28f927b6d4a0a2163191 Merge tag 'thunderbolt-for-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 cf5a103c98a6fb9ee3164334cb5502df6360749b selftests/user_events: Fix abi_test for BE archs
 20045f0155ab79f8beb840022ea86bff46167f79 powerpc/64s/radix: Don't warn on copros in radix__tlb_flush()
 06dc10eae55b5ceabfef287a7e5f16ceea204aa0 Merge tag 'fbdev-for-6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
@@ -379,7 +374,6 @@ d844fd038fff524f1793ffc9edcc8f4709497e65 Merge tag 'amd-drm-fixes-6.6-2023-10-19
 d43c76c8208c1c5e83bcf79c3f08974b231188f3 Merge tag 'drm-misc-fixes-2023-10-19' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 280bd84f0743f95849dbaadb12e9c0e532398d8d Merge tag 'drm-intel-fixes-2023-10-19' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 8b35ce3f7a9699e7580527fe4510d77f2a35f02d Merge tag 'mediatek-drm-fixes-20231017' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
-21a68b69f7c16f026bd2e51884520aaf594977cb Merge tag 'usb-serial-6.6-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 479ac419206b5fe4ce4e40de61ac3210a36711aa gpiolib: acpi: Add missing memset(0) to acpi_get_gpiod_from_data()
 b022f0c7e404887a7c5229788fc99eff9f9a80d5 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
 03b80ff8023adae6780e491f66e932df8165e3a0 selftests/ftrace: Add new test case which checks non unique symbol
@@ -414,4 +408,4 @@ d537ae43f8a107761fb5a85c3f0cfce5ca79bcb1 Merge tag 'gpio-fixes-for-v6.6-rc7' of 
 fe3cfe869d5e0453754cf2b4c75110276b5e8527 Merge tag 'phy-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 Linux 6.6-rc7
 
---===============5317799974873739522==--
+--===============7602854221789425543==--
