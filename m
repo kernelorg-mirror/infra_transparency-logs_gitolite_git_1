@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4666870758967290372=="
+Content-Type: multipart/mixed; boundary="===============5152820257767488026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 25 Oct 2023 11:38:13 -0000
-Message-Id: <169823389307.29946.15231731447685144985@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 11:38:42 -0000
+Message-Id: <169823392237.30225.14149706173551405691@gitolite.kernel.org>
 
---===============4666870758967290372==
+--===============5152820257767488026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: af46076d6640a5404ed65e1160df810fed54e7ac
-    new: 2bbeb8d12404cf0603f513fc33269ef9abfbb396
-    log: revlist-af46076d6640-2bbeb8d12404.txt
+  - ref: refs/heads/for-next
+    old: e0b9142e933d650d7e9dba53a50b3286601c5149
+    new: e76fe87efdfbe43ba547dc18111cd2b93c99c669
+    log: revlist-e0b9142e933d-e76fe87efdfb.txt
 
---===============4666870758967290372==
+--===============5152820257767488026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af46076d6640-2bbeb8d12404.txt
+Content-Disposition: attachment; filename=revlist-e0b9142e933d-e76fe87efdfb.txt
 
 6e2d15f59b1cc6ed613b94e0969335a7868f04ca scsi: scsi_debug: Create scsi_debug directory in the debugfs filesystem
 a9996d722b1197b625acfa350dd2849e35ad6092 scsi: scsi_debug: Add interface to manage error injection for a single device
@@ -41,5 +41,6 @@ e820de1d115fa52c792c78937e11661bd9165465 scsi: ufs: dt-bindings: common: Add OPP
 930bd77ebe3dc23b18aa49e55e6a515d5663d67a scsi: ufs: core: Add OPP support for scaling clocks and regulators
 72208ebe181e38678dce753354233acf0cc5422b scsi: ufs: core: Add support for parsing OPP
 2bbeb8d12404cf0603f513fc33269ef9abfbb396 scsi: core: Handle depopulation and restoration in progress
+e76fe87efdfbe43ba547dc18111cd2b93c99c669 Merge branch 'misc' into for-next
 
---===============4666870758967290372==--
+--===============5152820257767488026==--
