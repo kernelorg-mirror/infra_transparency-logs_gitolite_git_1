@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2244810152096375738=="
+Content-Type: multipart/mixed; boundary="===============0253380700960070028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 25 Oct 2023 09:02:55 -0000
-Message-Id: <169822457559.11167.17919172675557782705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 25 Oct 2023 09:07:33 -0000
+Message-Id: <169822485350.15633.12796276096225437730@gitolite.kernel.org>
 
---===============2244810152096375738==
+--===============0253380700960070028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7e4488d2515d0dc00d1f8f340dbff6db199d49cc
-    new: 18dcbc6c60be6a465f14acb84c661190bd5af320
+  - ref: refs/heads/char-misc-testing
+    old: 421359cbdbdcaea93b83e1e6b61eb261b75b1998
+    new: f6c086ef8417b4c6941628ab043c4688e2fd17c2
     log: |
-         18dcbc6c60be6a465f14acb84c661190bd5af320 fix up queue-6.1/hid-input-map-battery-system-charging.patch
+         f6c086ef8417b4c6941628ab043c4688e2fd17c2 misc: phantom: make phantom_class constant
          
 
---===============2244810152096375738==
+--===============0253380700960070028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698224574 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1698224573-20398e16e77af3741f7cb524273b79e6eb4cd332
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698224852 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1698224851-17837bcacbe0f5e2f475b75837b0cdca1edd6e4d
 
-7e4488d2515d0dc00d1f8f340dbff6db199d49cc 18dcbc6c60be6a465f14acb84c661190bd5af320 refs/heads/master
+421359cbdbdcaea93b83e1e6b61eb261b75b1998 f6c086ef8417b4c6941628ab043c4688e2fd17c2 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU42b4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/KoP/RQno2g6ipyqWu5TDAQ+
-rXpJv4v7Y9fX8r1H1wtIF/GqnXls8lF4LqOo+6JVHntihKjIAora/4pSUCPoigpo
-iK5ZOykwlJhaKmjWq7iph7dWSBg0Ks25ZsyKBZ2kY49vMx8YcY7pFimyyy6WbRWX
-PKQhTkb3sOkUuSIaFe5y5WPW+zw8gyoVwOtWadsyyx2aFEC7KkVElutnwjs2PC+r
-yI0HVo1ZRBjuEzLEoy0+mxU2VNnvxIk4MCf1JD/Lc3UVYEu/Iwut9tRWbuKkuym0
-lH7QoBIHO/Tne7EKPmQugIife7jGonKJrX63h42yE0rxIED2tm2sxwKFG/Qr3C4q
-kS4CAvRuxOOHsxu7oZHKZQbfJqCHG51Dm7+lv1F95tQsbwrJQN8nFFYT/+N+3MVt
-ifWW/FigzycBKQBbTXZ+khYRAgWUSXFpGcs7a4x+8eTVs0F+l+wseo9lrB9Dafev
-yr+eQNWrfmne2m0txEwblN23AtqAt7uQgMDrq0eA6SGVQ0NTqKkEwBpdSn/WOTIM
-LvAbLAImSY6o/4DCuamrOmm6q7YGP2RXgrRsc+PKJX4McDUykOCFQkUsFMCfpKhk
-stiVT8bCboR64emZcDwUDStriHCjBV2/H0j1pM89EWD9QW0tSM8FgFNsm33ZDqRs
-HB8C4F1prlR3dNYzur/5FRFs
-=AT92
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU42tQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6GkP/j6L+8DZpycEjjjlJilT
+pnFhazS8xgPf7hbEXoQDHYdi9myQX9A7TEgyF0ylxh96lFW0TNiesmd0X4WXDpO3
+RqkNXPLLtO0JkexdyzZIYGDQ56NPzd0ssk8pTQNxnIo/LcZRFIcmuBI1gHoF6/NP
+AbyHFJX0UiuVZn8QZrWthHC1EKA1gDegTWcu9d2S2td3m3z9SnaUZcTLVtoE3BO+
+yfW2MjpJBxyiXGGoJdMlplAHs4WttJWfoSl7yzlKkD6assvLX2azYR9IjLiP72nm
+FpKGBKnvRWcxL2zUXRvRwbROkklYAuO5QVQTo3tcwBavq58T//JcD4HWc4UW90hO
+oUVcnSCUKT7YEZil8tNH+Q77sJ8nm5fdPottNsM27HklAzPnZOiN8Ai2zKF5LZkK
+JeIALKw+Frc5EuyWO9Ry7quEBSSXSAeGu6PiaK9QX9+/bkb6x9vZSQV88KCoBry1
+u/K54mS+WXqSMN9PMzE+KlXldWWkC1uA3WRFLPcz4HwlqYt0xAXDbZ1Q62a6AGts
+i0I+owVQ9QAE9eYKKPu43JA97WO96kPTCcc2PRV58Wc9ZG5D75BYohNyNI2bNrZx
+f/xEo6JP/tl/m7GC9nf0fKdsjYJb6+eG29ISNA4d1F04cTSla6xi3cBwhz11VQpz
+3gvjDd9PbBIMascAywJbYd7s
+=QGOr
 -----END PGP SIGNATURE-----
 
---===============2244810152096375738==--
+--===============0253380700960070028==--
