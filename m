@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1507931827350688545=="
+Content-Type: multipart/mixed; boundary="===============9143261283942315421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 25 Oct 2023 05:07:20 -0000
-Message-Id: <169821044096.2423.7471923473340181591@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 05:08:09 -0000
+Message-Id: <169821048935.3212.7177653065896320758@gitolite.kernel.org>
 
---===============1507931827350688545==
+--===============9143261283942315421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 435f914b3c315bf51ac51e1ed4668025e0456e9a
-    new: 36e826b568e412f61d68fedc02a67b4d8b7583cc
-    log: |
-         357673120af6bd2939b9c99dec58962fff65a110 Revert "powerpc: add `cur_cpu_spec` symbol to vmcoreinfo"
-         36e826b568e412f61d68fedc02a67b4d8b7583cc powerpc/vmcore: Add MMU information to vmcoreinfo
-         
+  - ref: refs/tags/v6.6-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
+  - ref: refs/tags/v6.6-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
 
---===============1507931827350688545==
+--===============9143261283942315421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1698210440 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1698210488 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1698210439-7f4911d0f7dd468bcec4ded89481494d764932f3
+nonce 1698210487-042c397eb384c86e3ae60ed68c08b70c6c362bbd
 
-435f914b3c315bf51ac51e1ed4668025e0456e9a 36e826b568e412f61d68fedc02a67b4d8b7583cc refs/heads/next
+0000000000000000000000000000000000000000 333006c735ad099dbbea06c5c5640f6e532c88cf refs/tags/v6.6-rc6
+0000000000000000000000000000000000000000 8fd1310f742d0903addac53bb2eef7ca68eb21d2 refs/tags/v6.6-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmU4oogTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgGPFEACP9hpU4FsS00ZYl2jBheJwrGr+YvyT
-E95z+gKFCr9szHUoK4yFEELLHN9fQOnND9bSaDJstwcruReoU3/YoPNboYOYuWCv
-JyZ6D8jw4HoWrm8B+VfXDP/+O0Mb+eNDWlyi+oiWtQ38aNrpNsD6sqe7pa8DDb0f
-dBiGQ/oB5eRWyAtgmXK1OaTcbXcYrzHMTtMQONCdFA6LrD2SxMuyZaGYsQ+IeX47
-jYav2B6BrFoCnhBFWZUnFZhlGxIcBOph9ZTKkBFPMNgkO8yvFqeHq1TkNjY3qBkO
-gsXQlJ716CsAwTTQwSZHFCPpgIwdtNuYgxa9pS6qdO2Tt6ArbcFNcseZY6aUf5sJ
-GpNPTdNH8QzgCGe064VYNRkC7Fxi6c1h31E81nK0VMP6aR0dLd6vGrC2u9d2pcmu
-DywYQTSuGp1mUSUP8KwKqeg9NMGidcoLg4+53AcWWVBCQunwLFXSSNcYd+CMWj9o
-jfdX8m35uzbL/Y1yqk0K64T4CSUzGPV+cYV+BHopZ1FgbK3huaqakEmfqZ96cz1D
-kH3d5NBIVTvhPcwXamsZbdE/qbm1MMknJEHsFvUyaqUH0X4p6+8mRFbZk+huIwfb
-e/qVqhutMj6QxIPZAcPJ66ENXxWViO+xiBbt9PuOlOn1QgQ5DocYiXKr7vghPoAP
-vHNAc7cuO6hFmA==
-=rLSK
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmU4orgTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgFw5EACxxCKxPqTdr6FW4y9efuvf5zW66KYv
+iNscpks1aQHh2V80/OW6gambH1PARZsYM9EbRhLrlXRTmvYNnWlxmkv2U5F89MXY
+w46+jq+5TX7nlWOeH9DIEkQsW/yInknIBogyGQ4wjek8L+nItV/oLFVg5KXRah+u
+7QsdIwuRY9S109TeBBI0Srq8SHYv30WfXvl8yN+m2Kw98dikFfOHp7Awiwb/vKW8
+GNprP9JTJ8lnHHZxxYTyRgsn2/LJ8QRcyKrx1d/Y5RvDODEgCdPatkqcSQAiUKQ+
+Rtrf7/Gycum/M580ciXqGll5ZmHrf2DCP40DNmQbNjcgGwXuTNf5ec8Vn5jyNz0q
+BUgdVsLXkbW7NLECeeobziX6STOVaPLtjI3EKoD9Eh938i7gChB4QGVsm9xk3Lvf
+ran3HYwGatZfZmHcYbF2SAsAEEP1WNQpuT3aTJ91KUEJ6rKCjh0XWx2o7bpkL2iY
+8M1cgjDcIPY7DH27ibmzLb5aY0ibGGDzr9EWY9clYdnomSm25/3X3wx6+6tn6BXP
+7xyu7X/VKaOKYHnkCYZXy1SBtOCNUe+Vm0Avd3cXgsPscAdt8krIz92FjWKGVrkC
+OtEXuDOzcnfIQqIkOLbAKfxnw87U1w8Kfbs994taaC88IhNo7g9f0b8oubxwstny
+4qUeUW5TjpDzwA==
+=eABM
 -----END PGP SIGNATURE-----
 
---===============1507931827350688545==--
+--===============9143261283942315421==--
