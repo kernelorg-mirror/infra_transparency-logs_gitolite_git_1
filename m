@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 25 Oct 2023 22:23:59 -0000
-Message-Id: <169827263946.8279.12282489106894176765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 25 Oct 2023 22:26:32 -0000
+Message-Id: <169827279282.10785.13018148477565811240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 56e144fe98260a0f8a17326993ceb576ef859ed5
-    new: 3779416eed25a843364b940decee452620a1de4b
-    log: |
-         3779416eed25a843364b940decee452620a1de4b perf vendor events intel: Fix broadwellde tma_info_system_dram_bw_use metric
-         
+  - ref: refs/heads/aer
+    old: 0000000000000000000000000000000000000000
+    new: 13cf36c648df0c7de6b74ca7163713d8fcae53e2
