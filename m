@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6224733035107660312=="
+Content-Type: multipart/mixed; boundary="===============2348652890333404639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 25 Oct 2023 02:53:59 -0000
-Message-Id: <169820243927.3186.16503743848281655770@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 02:54:03 -0000
+Message-Id: <169820244372.3269.3204582383481833457@gitolite.kernel.org>
 
---===============6224733035107660312==
+--===============2348652890333404639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8b6f279a2cc813a7fd54779d0e1e142a8d37c02f
-    new: 3155f10bf8149dd6550b4832237671bd52dcdffd
-    log: revlist-8b6f279a2cc8-3155f10bf814.txt
+  - ref: refs/heads/6.7/scsi-queue
+    old: af46076d6640a5404ed65e1160df810fed54e7ac
+    new: 2bbeb8d12404cf0603f513fc33269ef9abfbb396
+    log: revlist-af46076d6640-2bbeb8d12404.txt
 
---===============6224733035107660312==
+--===============2348652890333404639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1698202420 -0400
+pusher 75C5DE3D 1698202442 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1698202420-0fe6fcd9e211b20febe8e1d285dcd538892ee242
+nonce 1698202441-60b93880088be9fe72a579607d9d652fce3732eb
 
-8b6f279a2cc813a7fd54779d0e1e142a8d37c02f 3155f10bf8149dd6550b4832237671bd52dcdffd refs/tags/mkp-scsi-queue
+af46076d6640a5404ed65e1160df810fed54e7ac 2bbeb8d12404cf0603f513fc33269ef9abfbb396 refs/heads/6.7/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmU4gzQACgkQ7ulgGnXF
-3j1y8g//aMPFwfHJtkbHMjQX0tUjyAOhY1+Bl6JMVqC/PsO+fQDxZlCjtznMUFna
-Wov4jvlxGhBTAbmUYUjYjLLUwu149QwbcAepx0UTjuqZKeDNYfhSJiAOl/5QMoIY
-EtjwHexz1cOPE3dgrCHZcwqne+z/xuEKh1TK2JefkK2ptXc51YALofOj1El+/4vs
-SG6sHrhqjsBytKnb0Yp5yHpf5XdD4u7NZxI91DaXo/xGb2fC9x6A1XyC7rzYQO23
-ZpjBdTGtPryBrIEP6h0rD9TdX2u4cemZd75jcDF5glyD5TSor0ZQVnE2+fSYPIcw
-RgrlN7asKW4gQHiTA4SQsaOgnEcnl4HlfIVhfyLl31VBkHoRS8+s4EVjgs5dFsgJ
-X0SuWAajjRKm0Qui4wGTEc99zNjohrxNQT9ts2JMY1CZHIiNZ52Fr/C7s32IgCoM
-JX2pHqefzXGGINCdeeh+VPBw4SNPUBdfZ1Xw1I4ShojMbuQBUsFY4/m5SOb/8saT
-+WNBgHVTrC+VHzLetBdUAlLYrz6Zis+v2HJwe0Xagpn5TzwkyGoC8JB3BCU9vZaD
-rIPIUUd8EgGNs4rwTXlLcSqXD+nrWEzIqyxu3d8PuYPnKX9ht2LvA48LGgGROcbw
-CsUFeh61hm0KzI+aj9JEPsoL1Rya5ZqqnGkeXWz1a0eULt3E9PU=
-=ZePn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmU4g0oACgkQ7ulgGnXF
+3j2lzw/9H68JY+0zTEK8CLSGr8mPiVKqVkcJoqAHOmeax8egrBRFYddufkyHkODX
+7ji/wrCbn05zAVoCvSQRk1Ur/mE7SbUKBIQ4kHx98DWZ4nBGo2gIpd9ocJB+ENf8
+1jrhK/8aP3u03m92VWFiF6TsQ4EuzRFqp4PzC29tDRP3wdoY3hsjtuf8BnzuPzbp
+n+7kXxkWkH0xIUWk4YyKuvRPG7VliZ2OTD8mM/I1j8y/u4RfXHjMLnAoLFpb2gPY
+Lgjl9O5eG+6adDykIwkQAzWummSSGrbIPZ7nQ1Xh13wtwkIeXuYfBgvba6eKzci0
+Zlo9f3yeF+h6zntUmTtBnyMlCHGY7777smZV0F+UTMsXlH3qUahMyf5R/79BSPl5
+0o62MrzYreA6dOwq5X7QsHhIDTH+xGzMq1i9ORG+6jGL6wYNmayYXU3TBWNKrYIO
+c3wxrRNOG1kkbfMsH9euYbedEC5Gw/6fGHpHXW6NJmET7xabtKFb49PwSHfSGcxu
+CG1gNu47b25OpzNq1I0q2LPatE0EnKwR6kzZu6In8qsbVFFMOR5cbV06XKZ3u8v5
+J215OxoR03HpYIkvVm6kLP4nA0H/k+10LZuM5yEbfkv9yImKpLw/zukI4H2Mop/a
+RYfquA896yOb1ekIE1Ke7OVt2hx2FJHSH6OCjIWpQKzFIbzUp3U=
+=0V2b
 -----END PGP SIGNATURE-----
 
---===============6224733035107660312==
+--===============2348652890333404639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b6f279a2cc8-3155f10bf814.txt
+Content-Disposition: attachment; filename=revlist-af46076d6640-2bbeb8d12404.txt
 
 6e2d15f59b1cc6ed613b94e0969335a7868f04ca scsi: scsi_debug: Create scsi_debug directory in the debugfs filesystem
 a9996d722b1197b625acfa350dd2849e35ad6092 scsi: scsi_debug: Add interface to manage error injection for a single device
@@ -72,4 +72,4 @@ e820de1d115fa52c792c78937e11661bd9165465 scsi: ufs: dt-bindings: common: Add OPP
 72208ebe181e38678dce753354233acf0cc5422b scsi: ufs: core: Add support for parsing OPP
 2bbeb8d12404cf0603f513fc33269ef9abfbb396 scsi: core: Handle depopulation and restoration in progress
 
---===============6224733035107660312==--
+--===============2348652890333404639==--
