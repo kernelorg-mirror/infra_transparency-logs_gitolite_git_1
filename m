@@ -1,19 +1,75 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 25 Oct 2023 23:33:29 -0000
-Message-Id: <169827680976.26270.6705275204094900261@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4328018696396999661=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 25 Oct 2023 23:50:55 -0000
+Message-Id: <169827785599.7533.3890249597480447267@gitolite.kernel.org>
+
+--===============4328018696396999661==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/dm-6.7
-    old: 34991a7031c9a4d3b28f26c4f61499b8bccd162f
-    new: 3d5dfb7257e929ef8cc6de1c99f812c5d640d164
-    log: |
-         3d5dfb7257e929ef8cc6de1c99f812c5d640d164 dm: respect REQ_NOWAIT flag in normal bios issued to DM
-         
+  - ref: refs/heads/master
+    old: e3ac2a75130e0201fa24c94da8d29348f3387013
+    new: 115daaf32298cbdb8508811e7e02c10d7401c799
+    log: revlist-e3ac2a75130e-115daaf32298.txt
+
+--===============4328018696396999661==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e3ac2a75130e-115daaf32298.txt
+
+91963923ba775bc1d2f7dc510035cb8fa04515c4 foo
+a0606ccbea676f481a913ad2a443484eb30c95cc foo
+cc14cf73be05511be943031fca9ffbd5496478dc foo
+ed284116b75608e587494225d41aa7a1f9a78ebe foo
+d070075dfc696a3937093ccfbdf507b7b56f8867 foo
+ce0c632df89a90dfc8b3de024efa590999a8d583 foo
+07c5d7b8e66ec2c41708abf3ea43db7d1cc810bb foo
+02dd89f7341a631c21639b755e6a911367e5839f foo
+d680fc7de903e0dc1f546e182b881508ddbe5c96 foo
+71c83f215a79d1c875484e85272a042c5c76e139 foo
+16fc80aa20cf2c237d2e09f14f224689e6686562 foo
+45f3cb9d3e15691730f0962a4ddde87b7ed23251 foo
+7aaf84a977883f92ee5f40a6f51c0e587a17f6fb foo
+c8ca0e482943aa336d988a03b1065a1df9242cb8 foo
+ff8394b2f0f489e1a00e021ae5fe1a851580e097 foo
+8b2f23f0777465ceae99b354e185091b747b265f foo
+298faf17fdaf0b54b610d744aad3d9e39d73d4dc foo
+6aa4eca6c1d9f3a726a15cb5da366b2ec35f87db foo
+97f1587f9be54630297397200732194ac04f1dbe foo
+a26b9b561d624257582dd2e5b9768e7af66746c8 foo
+e4bccec9d1a0a480441718a7c9bb33ef22009502 foo
+75522c97a947842dd36ae288bc424b306d273de0 foo
+9362414c3db63b687f30a808f51b384fdceaa408 foo
+556bd42561573482e4720fd61508670ca4dae406 foo
+7c421001fe0dbd4db6977c7a175f3731009aafda foo
+f689af2aea56c9ffd42606f9dab3a706bfe28684 foo
+35bf4c5e5b2f88859107887de9edc964e302c66e foo
+36554d0dcef4344eed960f2622a1726242b68d6d foo
+cb0fabf05a09e2b7ddc58c1f503675ff6581e0bc foo
+0491faf960e5240caface20ff208e2ebfc2d9b4e foo
+1497bd33934da2f49b7743f4982e1c6fabc9649b foo
+4e7a051e35918edf4b1c39e267af83d49ac19d4b foo
+4927709cc3d61d1a801c94baedbf3494bfcd5e47 foo
+a5c221a6cfaab1eb02542f47e7346e5f5118076e foo
+95c3ccbe1aef7d0e1b41bbdf65e8642bf89e5f5b foo
+ee0a0511849e0fc5cd67872ec47d3d85102d620c foo
+805f8507c3cc3d943c66d9af814b9e91c99f0769 foo
+e373dd9563564a563e51250054bf75bd8859c184 foo
+68670ef33bcae1a611774279e5363065cf7925b2 foo
+81406edbd11f82ecac8e932704d80f15861303c1 foo
+c3f83004343a1df27f8774126e3defd84621b5fa foo
+8e5c45709037a123f13c87cc9e4a978675b3f799 foo
+4d13ee9f7def6f4aae0b066a21dfde526fb41793 foo
+765768f4ff4bea7b5d705fb9611d61f86de74c31 foo
+115daaf32298cbdb8508811e7e02c10d7401c799 foo
+
+--===============4328018696396999661==--
