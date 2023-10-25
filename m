@@ -1,19 +1,61 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 25 Oct 2023 21:04:23 -0000
-Message-Id: <169826786318.15127.994406883855391411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Wed, 25 Oct 2023 21:05:05 -0000
+Message-Id: <169826790527.17049.336758153824947218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/master
-    old: d64ad11790be4252041f1835f700d414e7c081c4
-    new: e3ac2a75130e0201fa24c94da8d29348f3387013
-    log: |
-         e3ac2a75130e0201fa24c94da8d29348f3387013 foo
-         
+  - ref: refs/tags/nf-next-23-10-25
+    old: 0000000000000000000000000000000000000000
+    new: f5b1314c12259da52d31eacccd1bd7dbdcde4c47
+  - ref: refs/tags/v6.4
+    old: 0000000000000000000000000000000000000000
+    new: f9b3a7530482fcc3fc4af4466b43424b583a0cdb
+  - ref: refs/tags/v6.5
+    old: 0000000000000000000000000000000000000000
+    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
+  - ref: refs/tags/v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5233ebc0b27249e13f09f2e06d5c2555a367991
+  - ref: refs/tags/v6.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 79e382d64083468c3b95bbf36dfe8a4feb4f18ff
+  - ref: refs/tags/v6.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a96619491e04ab83a55787ab86ed22adf3ea27dc
+  - ref: refs/tags/v6.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: e725214df0b61dcd1e0c4a9eaa25b408b444e4a8
+  - ref: refs/tags/v6.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
+  - ref: refs/tags/v6.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
+  - ref: refs/tags/v6.5-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
+  - ref: refs/tags/v6.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+  - ref: refs/tags/v6.6-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b9435475cc9bfb60f0327686d1183f498f3d51c1
+  - ref: refs/tags/v6.6-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
+  - ref: refs/tags/v6.6-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 657c707d1c69d838dfc6e35dd528f161503e46de
+  - ref: refs/tags/v6.6-rc5
+    old: 0000000000000000000000000000000000000000
+    new: e6ec05aacec40cf517511763a28ff627157d131d
+  - ref: refs/tags/v6.6-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
