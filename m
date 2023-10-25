@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0712534963751810903=="
+Content-Type: multipart/mixed; boundary="===============0346862932043992602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 25 Oct 2023 09:49:13 -0000
-Message-Id: <169822735389.2188.11532833204698464246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 25 Oct 2023 09:53:48 -0000
+Message-Id: <169822762883.5405.12956949971442611812@gitolite.kernel.org>
 
---===============0712534963751810903==
+--===============0346862932043992602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo
-    old: 942a4a61b64e182d756a1a5776aa500d3b3d862f
-    new: ac9bc85c49ffcfca8c1b117e1a9e94dd32680c68
+  - ref: refs/heads/master
+    old: bbfab90040726bc3339c9b04d07ae6907632bb8b
+    new: 58803c8d96f5fe5beab5f96d92d1d4fef5f75b61
     log: |
-         858bd78c9d324781217bb42a87766ca9194809ca platform/x86: asus-wmi: Do not report brightness up/down keys when also reported by acpi_video
-         02a258ac3ebf8a530d340ec24a694c13ac9d25c0 platform/x86/amd/hsmp: Fix iomem handling
-         4186a47dbfbce2f97b0c025a7eac32bb5130df05 platform/x86: wmi: Decouple probe deferring from wmi_block_list
-         7444f8347487df8d898fbc022249942806c80fc9 platform/x86: wmi: Fix refcounting of WMI devices in legacy functions
-         ed85891a276edaf7a867de0e9acd0837bc3008f2 platform/x86: wmi: Fix probe failure when failing to register WMI devices
-         eba9ac7abab91c8f6d351460239108bef5e7a0b6 platform/x86: wmi: Fix opening of char device
-         ac9bc85c49ffcfca8c1b117e1a9e94dd32680c68 platform/x86: wmi: Decouple WMI device removal from wmi_block_list
+         58803c8d96f5fe5beab5f96d92d1d4fef5f75b61 Linux 5.4.259
          
 
---===============0712534963751810903==
+--===============0346862932043992602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1698227348 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1698227351-801318314e059acef25f88e72376362efbbac8e6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698227628 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1698227627-9169d075ac0cf0ae97ce9ec168dcef4578f764b5
 
-942a4a61b64e182d756a1a5776aa500d3b3d862f ac9bc85c49ffcfca8c1b117e1a9e94dd32680c68 refs/heads/review-ilpo
+bbfab90040726bc3339c9b04d07ae6907632bb8b 58803c8d96f5fe5beab5f96d92d1d4fef5f75b61 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZTjkmAAKCRBZrE9hU+XO
-MfS9AQD3RAmij79rftpav6Lb471+pvqU6+8Q5wcnicA+p5DPIwD8C5SWs8+lWMia
-zPIqGXSc5OnqlcsTmLL0pwd5UeSBWg4=
-=s6Dw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU45awbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IswQANZbRk2tKPkZKQfO3MTv
+TxYDnHM05VLsTFBcTnjunHh2dkckjTv9Enlc0JN6K0JDLKfp6Poxm7k9DpBlJesl
+ytPlNWATe0JEaVDDjSBr08kQjoOW4BNd8Wg7T54cwzTcQqJFCM1+iBtglpVCY3mc
+ax+nBaPZdClyz5eZ1dCEVKXiHw7NtxivWlazRjzhanG05+4y8UcwFMXrVc9VJvaL
+mohudJrJaQ/OrXVFcP2scaAj8oQv5GYod0g0vn7Tzm7VW3azFwCBZhdSYHp838vc
+70Q97c7TS3jbaPbgiyl4c1BUNRsUSEeFRYHV1M3Op+iPTYYQBDeai+bYWcYTRL/K
+wf8HIWS5skRokk6VmgfDDoTgiKA6Au838aLaPrGvhQn7FuOEE8Pfm7KTqZ9nLTRn
+MH9Dxo08B25KEcBxTya0keaXJH1TG3IXJy1QhLzuIOuKqADr+e8MyrCBgz3PCv3h
+TE4u71xi9RiK8BxJGKJuH/BDpYMtgYOI1xtQmyJQn9J/CMr7sdodSb7F563mtTh/
+X1PRd6e0VaywgAKJsS/Y4lwskxh7RchYzPaspWiMTRHSy3+thAw7tD+GXk/sR6cd
+e2wpq2SR+CtX4xbpk/0kriN0iGIjvo4waez7V2EuFQwPUZlg2d9e+A7+samuKzh+
+OKO4OOrsmf0tQ4pcQilcAGQm
+=Z2rZ
 -----END PGP SIGNATURE-----
 
---===============0712534963751810903==--
+--===============0346862932043992602==--
