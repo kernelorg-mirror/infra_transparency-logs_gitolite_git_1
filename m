@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 25 Oct 2023 11:48:17 -0000
-Message-Id: <169823449727.4469.4234343200107160305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 25 Oct 2023 12:08:04 -0000
+Message-Id: <169823568496.18876.15598867319801971215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: c5545639d93d470d379b17390623304c16353e6e
-    new: 5a0bf78e134742d6766f408225ed435e788f0fc2
+  - ref: refs/heads/for-next
+    old: 415ed79af3c9ea88c8375a6fe327d02059991a26
+    new: 26ad55ecccd5bc18e421b83bbceff225d3605871
     log: |
-         a9be4b3ff9f3b2b173eb2f483558a0af238b953a Fixes for 6.1
-         81f256f9a3a6796d7d2f7bc2def85ad8c6eac2ee Fixes for 5.15
-         6ab24c55f6f5443842e981d8aaf3d07775cbb98a Fixes for 5.10
-         6007d4e3b11f308fa0a0c1accece52c8c6bb8ba3 Fixes for 5.4
-         281dddc78415711cd9d0d3ce8af596a601a09eed Fixes for 4.19
-         5a0bf78e134742d6766f408225ed435e788f0fc2 Fixes for 4.14
+         81118680a9cf6b24ea7943e0a7b2a98bf8d2b676 gfs2: Initialize metapaths outside of __gfs2_iomap_get
+         6810cfb7dacd670ef81bcea256ac34d3f28b174d gfs2: Get rid of gfs2_alloc_blocks generation parameter
+         48faa78a7210a559de832e9eef8c0b310953fdda gfs2: Minor gfs2_write_jdata_batch PAGE_SIZE cleanup
+         00696d4b4569447aeb3714aed041b784025fb917 gfs2: Convert stuffed_readpage to folios
+         628085f756f2501b0d00434d64fe1771744c1009 gfs2: Convert gfs2_internal_read to folios
+         47c248e46dfd8609d5d1c996297ec91d8f44f2b7 gfs2: Rename gfs2_lookup_{ simple => meta }
+         ac0c01f304141e4f6fed5042f21ad2cc0742ea0f gfs2: No longer use 'extern' in function declarations
+         26ad55ecccd5bc18e421b83bbceff225d3605871 gfs2: fs: derive f_fsid from s_uuid
          
