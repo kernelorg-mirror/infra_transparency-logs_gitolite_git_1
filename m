@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 25 Oct 2023 17:53:34 -0000
-Message-Id: <169825641417.7477.944722422729473684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 25 Oct 2023 18:00:24 -0000
+Message-Id: <169825682483.13121.6560444215497861275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 4f82870119a46b0d04d91ef4697ac4977a255a9d
-    new: 611da07b89fdd53f140d7b33013f255bf0ed8f34
+  - ref: refs/heads/next-integrity-testing
+    old: b302f360831cb81a9eb525a3e729da5eabe0d0e9
+    new: 97cc2bdbea99d23084d6b0d857efd3ab725d823e
     log: |
-         9b311b7313d6c104dd4a2d43ab54536dce07f960 ACPI: NFIT: Install Notify() handler before getting NFIT table
-         611da07b89fdd53f140d7b33013f255bf0ed8f34 Merge tag 'acpi-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         97cc2bdbea99d23084d6b0d857efd3ab725d823e ima: detect changes to the backing overlay file
          
