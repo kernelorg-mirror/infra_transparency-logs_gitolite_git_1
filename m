@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5402419686218057696=="
+Content-Type: multipart/mixed; boundary="===============5976879606259274776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 25 Oct 2023 09:09:35 -0000
-Message-Id: <169822497599.16535.14404238654076607913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 25 Oct 2023 09:10:49 -0000
+Message-Id: <169822504975.18606.1731748465573620363@gitolite.kernel.org>
 
---===============5402419686218057696==
+--===============5976879606259274776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: f6c086ef8417b4c6941628ab043c4688e2fd17c2
-    new: cf3c415d7d2c21288fc85d7ed5da9b9af36d0de9
-    log: |
-         d223192634ffac3182cc38fda3cca0a8814276ea cxl: make cxl_class constant
-         cf3c415d7d2c21288fc85d7ed5da9b9af36d0de9 ocxl: make ocxl_class constant
-         
+  - ref: refs/tags/usb-6.6-rc7
+    old: c9082f94c098a5d74bd90dee3c12388c1d92cc2c
+    new: 0000000000000000000000000000000000000000
 
---===============5402419686218057696==
+--===============5976879606259274776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698224974 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1698224973-713ac1c0ca304b804db5a573014b1b1881e8c9a1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698225049 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1698225049-9e2da60c6de1d48e7fa7155f97dd15d7289dfea8
 
-f6c086ef8417b4c6941628ab043c4688e2fd17c2 cf3c415d7d2c21288fc85d7ed5da9b9af36d0de9 refs/heads/char-misc-testing
+c9082f94c098a5d74bd90dee3c12388c1d92cc2c 0000000000000000000000000000000000000000 refs/tags/usb-6.6-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU4204bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++28QAI4BE5W3EEoN5G8tcBVm
-2TJV6wT3F6HRhY4FdWHaOxzBtFOYNdZw5I7cLmYqG7u0diiYpMTOJwBfCcmvpSDE
-nQAbxzHWzQ6PIOLljtIUsdLgSsE39CiKM0hQNuAuOYzkurNGtVWqBXsj4uIAbmBD
-EemAFMVnCthGXI+fM1QTpybqNpFO/X06jVKsUwu6RHC5JXWwQDLEE7ldmB2y4Rhk
-kqfJ31lQPLQvW4O5sR1VRFnhWc+HZ2YvNSywX1pmAhxXF/AViIOMh1Z22bM2VhVi
-idaDPyF0SvFE5cKXSeLcHbIGJSjeWfag+lJC9VhWt2hH6Xo9SHah6RBJmjiwwklE
-+iaRvVIQRNxUQKETnQuVzISN+3XsTOF4Ttkb2u93m5jmhg6ZJCVv5EAGs7d90xKk
-mR7swvQtfjnq8ksubThiprO2ySsE+I1j/EI8HaNZvK3Xa/X9BC5dvtb3xZrnJo41
-WNtDnAt3/+dzT2V9L84yCCM71bwirjcp/y67YH7FBtNzQ+e3TcXP/8HX9qTVbynE
-DsZN4rNiXsmH7JGRrO9hCPa4efonH5e0eecnmP8EI1I96AWpi9LTQPt4HN4Z5Yi+
-GzDfDT/fW0FVwTDIRmiX8FW72CZPyhq5LOcFP7neqfeZb0CLXqTUyJTsrr/+QWDn
-APAmZsPY/fc+dEE2xZeYrt+a
-=jpcC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU425kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u20P/j2nB4qezbVLT6MZXlGx
+Mh+s379gvI5OvVQGsO6rSSoxzUBaKANTJ8nZdKhvxGESnSJYoqnAqGdBtW2BWvmA
+0TLab4accsou8/CsRnhS5XmssfxwP7bgFsKT7u7qJ89H6qprGtkRwAU83Mp6W0Tb
+JmT8rdwUQbddGzO32DPcIbiy9pI/FO5uGbOyMaicUw7+so67sE30VsTUB2IEEVpq
+nRf8swb0dAZhwHVhs+QMFJ0ZPtt82abY/PQn8PCsZGFJXKt8qfDfpMmYxq/gpmMT
+8AkLJnCShamrBU20u4K91NoJZxCYC4adUbWACrMpW5LN34zmOGI76VQWKIvhgn62
+MfZbbc2zE3m+XcS2oGI0lQxZR+8IZx2wCkmZxbvdNkzEGita5TtC7dO3BqLZLqwZ
+D04stZnHjRE1gCImFQZsdHDWUEZvx19df4Ns35M65FeGWDtyID/sRA3dpMff3W9h
+9iG5j7iG86vcjLvz5SF5jFeBw2vN1Pyn1CqShgfHxpKA9yvPqJ/zdqhzeF2E16NG
+WPVzaRcqyXN4gH3Hlq4IKMgWcIsvo1bqA5x1Jdh+CYDFb05UXGL8uQPpo6OGuV9O
+/OKFn3Gn2N9YcUQoip1RN1AaV4VCntYNbuFJ42kIoQOin/XgC+AEYrx/wyAP559D
+HPg0MjINzhZ6e/eBgopx01VF
+=uzNx
 -----END PGP SIGNATURE-----
 
---===============5402419686218057696==--
+--===============5976879606259274776==--
