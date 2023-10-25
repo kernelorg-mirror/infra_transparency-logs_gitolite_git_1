@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 25 Oct 2023 19:28:36 -0000
-Message-Id: <169826211642.10765.6835067193031295722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 25 Oct 2023 19:40:06 -0000
+Message-Id: <169826280659.20735.11833632861905765030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 1d99b7e950352ee4e8f786e0d13ceb31c078e98a
-    new: 34991a7031c9a4d3b28f26c4f61499b8bccd162f
+  - ref: refs/heads/master
+    old: c11e22e92f3796f21eb15eb6ddc1614d9fa4f99d
+    new: ecc734c6b20f2d1729f0da45fb1490ca092f7e85
     log: |
-         ac4149ba7efd6bc327c1e15e812091984f3a16b2 dm cache metadata: replace deprecated strncpy with strscpy
-         e9d7bd2c8664aa43866c7985d9050a052516c07d dm crypt: replace open-coded kmemdup_nul
-         0ffb645ea821fbad4215b6a5681b823639c24660 dm ioctl: replace deprecated strncpy with strscpy_pad
-         18ac52332959aaf4bee54ee1b760959beeb13ae2 dm log userspace: replace deprecated strncpy with strscpy
-         34dbaa88cab121437d711bb7b9673c16eed4f922 dm: make __send_duplicate_bios return unsigned int
-         34991a7031c9a4d3b28f26c4f61499b8bccd162f dm: respect REQ_NOWAIT flag in bios issued to DM
+         ecc734c6b20f2d1729f0da45fb1490ca092f7e85 engines/io_uring_cmd: allocate enough ranges for async trims
          
