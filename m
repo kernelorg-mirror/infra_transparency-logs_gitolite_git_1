@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 25 Oct 2023 09:38:30 -0000
-Message-Id: <169822671051.13136.2765926590869337660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 25 Oct 2023 09:38:33 -0000
+Message-Id: <169822671365.13218.17254050135366391836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 7a1c2abf9a2be7d969b25e8d65567933335ca88e
-    new: d4b2d165714c0ce8777d5131f6e0aad617b7adc4
-    log: |
-         2f19c4b8395ccb6eb25ccafee883c8cfbe3fc193 IB/hfi1: Fix potential deadlock on &irq_src_lock and &dd->uctxt_lock
-         d4b2d165714c0ce8777d5131f6e0aad617b7adc4 RDMA/hfi1: Workaround truncation compilation error
-         
+  - ref: refs/tags/nf-23-10-04
+    old: 996df2704412eba1b689a51b5ab04e16b7f01631
+    new: 0000000000000000000000000000000000000000
