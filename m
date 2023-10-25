@@ -1,55 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2430901915874352553=="
+Content-Type: multipart/mixed; boundary="===============5003271367675969209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 25 Oct 2023 09:42:24 -0000
-Message-Id: <169822694495.30310.4337847886632270375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Wed, 25 Oct 2023 09:44:45 -0000
+Message-Id: <169822708544.31262.4254111538913425544@gitolite.kernel.org>
 
---===============2430901915874352553==
+--===============5003271367675969209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/master
-    old: c2f3f40ecc78ac298118d14a6ec037f854076afe
-    new: d8379563fe5c8a4adba12804abbe20e43a8e1cde
-    log: revlist-c2f3f40ecc78-d8379563fe5c.txt
+  - ref: refs/heads/main
+    old: 5e3704030b240ab6878c32abdc2e38b6bac9dfb8
+    new: 9cdee063476988102bbc5e0e9551e10c5ed00d3e
+    log: revlist-5e3704030b24-9cdee0634769.txt
 
---===============2430901915874352553==
+--===============5003271367675969209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2f3f40ecc78-d8379563fe5c.txt
+Content-Disposition: attachment; filename=revlist-5e3704030b24-9cdee0634769.txt
 
-cdd1ad7d7b1eae9fd55369099e74138faa14f0b3 mount: (tests) don't create /dev/nul
-200828792846da755d0cf8c08af487c7c745c559 umount: handle bindmounts during --recursive
-357e6a0efc62f2151ba24b4730cc35015559bd41 lib/strutils: add ul_next_string()
-f9ba5fa0ca612756887ce7c8c01ce6d43827241c lib/buffer: make buffer usable for non-string data
-6b7247411d9ddfcfeb0933b3ab44bf295c071f7b lib/mbsalign: calculate size of decoded string
-97448130fe342813ebd0453ed0280ac18d287629 libsmartcols: add table cursor
-e222a23f110e4859655fcb5b9f7e3ad5d7f03e01 libsmartcols: multi-line cells refactoring
-958d0b7fbc501d9b07b13265c92378dfd8dd9832 libsmartcols: always print vertical symbol
-c57e73eac9334d5196599511939e2b57e588ff54 libsmartcols: add scols_cell_refer_memory()
-9ab58a4301ee6920a291df47899eb8b2df217d64 libsmartcols: add support for zero separated wrap data
-2eab8ab48681cd2e52b08d116522207d6d2b28c3 lsblk: use zero to separate lines in multi-line cells
-c5310d4a3121dbcb2e137a0a2db20bca3c3e4ad5 libsmartcols: reset cell wrapping if all done
-e2e94816c8456557975edc1bfe8ab9e8701f34a1 libsmartcols: make calculation more robust
-b24cdac1e702db86aa17e722d0ed0219588a0d13 libsmartcols: add --{export,raw,json} to wrap sample
-a9c1e5e58d61faa601b9b50157cac9ece595c98d libsmartcols: improve cell data preparation for non-wrapping cases
-295bbcf676ee958727970174e421618b9d473398 findmnt: use zero to separate lines in multi-line cells
-fa4e6939838fbdf2f054451fccd85b93850d0b32 libsmartcols: add new functions to API docs
-301d02816f070ad4c66f7b8fb789d5d5e121ab9b libsmartcols: support \x?? for data by samples/fromfile.c
-d585a4159d5dac1889bccfc8d3b17e3795ef8de6 libsmartcols: add wrap-zero test
-24947d367e81a8a1ecfe17232230eae2b19616db libsmartcols: fix uninitialized local variable in sample
-38b8eac6eb9a372e0a2b9c8f2b4abb816c6f17ee Use fputs instead of fprintf if possible
-bad4c729483ab31bb1cadc541817c139f41fb8aa Make the ways of using output stream consistent in usage()
-765a39dad539e5c2891efede997dbe977256c9bd tests: fix memory leak in scols fromfile
-7b4c62b0d5a230febf8f3fc14f83925a2b3902f8 Merge branch 'umount/recursive-bind' of https://github.com/t-8ch/util-linux
-d8379563fe5c8a4adba12804abbe20e43a8e1cde Merge branch 'refine-the-choice-of-stream-related-functions-in-usage' of https://github.com/masatake/util-linux
+8079fc30f79799e59d9602e7e080d434936a482d netfilter: nft_set_rbtree: rename gc deactivate+erase function
+7d259f021aaa78904b6c836d975e8e00d83a182a netfilter: nft_set_rbtree: prefer sync gc to async worker
+8877393029e764036892d39614900987cbd21ca6 netfilter: nf_tables: Open-code audit log call in nf_tables_getrule()
+1578c32877191815f631af32ba5dfc1f1b20c1b4 netfilter: nf_tables: Introduce nf_tables_getrule_single()
+3cb03edb4de33fd04c4ea55f47397b96a8657c53 netfilter: nf_tables: Add locking for NFT_MSG_GETRULE_RESET requests
+ee6f05dcd6727669b6f49a8a6dafad94a40ee872 br_netfilter: use single forward hook for ip and arp
+643d1260366424412e8269caead410d333e3263f netfilter: conntrack: switch connlabels to atomic_t
+ff16111cc10c82ee065ffbd9fa8d6210394ff8c6 netfilter: nf_tables: Drop pointless memset in nf_tables_dump_obj
+4279cc60b354d2d2b970655a70a151cbfa1d958b netfilter: nf_tables: Unconditionally allocate nft_obj_filter
+ecf49cad807061d880bea27a5da8e0114ddc7690 netfilter: nf_tables: A better name for nft_obj_filter
+2eda95cfa2fc43bcb21a801dc1d16a0b7cc73860 netfilter: nf_tables: Carry s_idx in nft_obj_dump_ctx
+5a893b9cdf6fa5758f43d323a1d7fa6d1bf489ff netfilter: nf_tables: nft_obj_filter fits into cb->ctx
+a552339063d37b3b1133d9dfc31f851edafb27bb netfilter: nf_tables: Carry reset boolean in nft_obj_dump_ctx
+26cec9d4144eb23c45cd5c033d5c141f04d61a9c netfilter: nft_set_pipapo: no need to call pipapo_deactivate() from flush
+6509a2e410c3cb36c78a0a85c6102debe171337e netfilter: nf_tables: set backend .flush always succeeds
+9dad402b89e81a0516bad5e0ac009b7a0a80898f netfilter: nf_tables: expose opaque set element as struct nft_elem_priv
+0e1ea651c9717ddcd8e0648d8468477a31867b0a netfilter: nf_tables: shrink memory consumption of set elements
+078996fcd657e6e0c3a72b7d5806d04c32e74250 netfilter: nf_tables: set->ops->insert returns opaque set element in case of EEXIST
+9cdee063476988102bbc5e0e9551e10c5ed00d3e netfilter: nf_tables: Carry reset boolean in nft_set_dump_ctx
 
---===============2430901915874352553==--
+--===============5003271367675969209==--
