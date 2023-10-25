@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2300129417624945067=="
+Content-Type: multipart/mixed; boundary="===============7279485997271152593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 25 Oct 2023 13:50:04 -0000
-Message-Id: <169824180464.28130.17436068687320476070@gitolite.kernel.org>
+Date: Wed, 25 Oct 2023 13:50:10 -0000
+Message-Id: <169824181036.28236.13217319682716130118@gitolite.kernel.org>
 
---===============2300129417624945067==
+--===============7279485997271152593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 83380d3a22202f4c529553e5e1eb13f2f36cf192
-    new: 991a211aa99f468cd291a97b8dcb448ebc77f6c4
-    log: revlist-83380d3a2220-991a211aa99f.txt
+  - ref: refs/heads/for-next
+    old: f7554d9fb29e900dcca968f3637bce8b9f564031
+    new: 8445432611b484d16c23162237215ac088c879c8
+    log: revlist-f7554d9fb29e-8445432611b4.txt
 
---===============2300129417624945067==
+--===============7279485997271152593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83380d3a2220-991a211aa99f.txt
+Content-Disposition: attachment; filename=revlist-f7554d9fb29e-8445432611b4.txt
 
 1954da4a2b621a3328a63382cae7e5f5e2af502c s390/mm: add missing arch_set_page_dat() call to gmap allocations
 a13e8bdf0f788552aa37e1f9a6fe5fcca4095d2b s390/pai_crypto: use PERF_ATTACH_TASK define for per task detection
@@ -38,5 +38,6 @@ f48781d220ee6bb59816383237bf0abd1c65c493 s390/cio: export CMG value as decimal
 e78002aa9a5a9eaf18bc29ccaef7f405616fd68e s390/cio: fix virtual vs physical address confusion
 e37988bcd1fddb726cf08e4f04a1b8dc4a2f80aa s390/sclp: replace deprecated strncpy with strtomem
 991a211aa99f468cd291a97b8dcb448ebc77f6c4 s390/cio: replace deprecated strncpy with strscpy
+8445432611b484d16c23162237215ac088c879c8 Merge branch 'features' into for-next
 
---===============2300129417624945067==--
+--===============7279485997271152593==--
