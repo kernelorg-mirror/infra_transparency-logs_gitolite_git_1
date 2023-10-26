@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8501968200931385276=="
+Content-Type: multipart/mixed; boundary="===============2439933736828570887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 26 Oct 2023 22:40:18 -0000
-Message-Id: <169836001815.18075.7241044544418762838@gitolite.kernel.org>
+Date: Thu, 26 Oct 2023 22:40:20 -0000
+Message-Id: <169836002075.18163.14821880669302511812@gitolite.kernel.org>
 
---===============8501968200931385276==
+--===============2439933736828570887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,67 +15,98 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 81c9a2de784dcf1d76690650326c103cd2c0784a
-    new: 991b040a8b82d2e4567365f665ff2474d07df158
-    log: revlist-81c9a2de784d-991b040a8b82.txt
+  - ref: refs/heads/master
+    old: 611da07b89fdd53f140d7b33013f255bf0ed8f34
+    new: 3a568e3a961ba330091cd031647e4c303fa0badb
+    log: revlist-611da07b89fd-3a568e3a961b.txt
 
---===============8501968200931385276==
+--===============2439933736828570887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81c9a2de784d-991b040a8b82.txt
+Content-Disposition: attachment; filename=revlist-611da07b89fd-3a568e3a961b.txt
 
-acc41ea4bca09df838ad6ed7a9f39f653b5d8e35 mm/shmem: fix race in shmem_undo_range w/THP
-a03adf02ece06325052454d7f017c2e9f22b30c0 mm-shmem-fix-race-in-shmem_undo_range-w-thp-fix
-b1c132c8a51c63b4b8317380e76afc0519b1db2a mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
-28807d3eca2b1f3b603f0227a39cc2d370a819ea mm/sparsemem: fix race in accessing memory_section->usage
-a062b3d02dc7a50a5c78fe6e91140e32da4f9f36 kexec: fix KEXEC_FILE dependencies
-b3dd473991eb4c22efd0ab2aa0ad63178c1444a5 kexec: select CRYPTO from KEXEC_FILE instead of depending on it
-53234ef770e5204bc47710a8cad1fc1273d0947b kexec-fix-kexec_file-dependencies-fix
-47043ca3af1cc4319589d91dd4c552f23c96b5ee mm/damon/sysfs: remove requested targets when online-commit inputs
-0ca7d92576a49874182a0203419fd57e5bebd715 Merge branch 'mm-stable' into mm-unstable
-ba03b2e31c287e7403a7e883bdf47c507014a62a mm: optimization on page allocation when CMA enabled
-760e353ce0702549fcf94891dd0df7283c6666a6 mm: vmscan: try to reclaim swapcache pages if no swap space
-7e1ef7de619a59f94b125dd2991d53baba457201 mm-vmscan-try-to-reclaim-swapcache-pages-if-no-swap-space-v6
-c0e821b68f85b4e0cfe48eece793ac0733140c0a NUMA: improve the efficiency of calculating pages loss
-8efdead42b714875fe676dfaefa67adfb6f9ff46 mm: memcg: change flush_next_time to flush_last_time
-0994fdc3a032f6b36cc5d4e4013cd3793fc9fd98 mm: memcg: move vmstats structs definition above flushing code
-0d76dc4406f8dbd1d7041b688ef99837663c9523 mm: memcg: make stats flushing threshold per-memcg
-b6ed448befe7bb0d5a74f64917b9b3129106cb53 mm: memcg: clear percpu stats_pending during stats flush
-bc6c11cd4dfa89a345f91bbe0d3512b90a087213 mm: workingset: move the stats flush into workingset_test_recent()
-87a9d2ba33efc0b2ddfc569e40f18da28d15060a mm: memcg: restore subtree stats flushing
-d9accfdfc9a28896be29c658c0a63543a324b1a0 mm: zswap: fix the lack of page lru flag in zswap_writeback_entry
-25a29f14c57ec53634833643166d1adff72da6fe Documentation: ubsan: drop "the" from article title
-c4c0c1c76ac2271fc461eec60abcf9d5aacc3059 zswap: export compression failure stats
-5e51837fa427a1e6ef387edfc0931536eb19e557 mm/vmalloc: fix the unchecked dereference warning in vread_iter()
-57b7847f53ab2e711c8849e31079fdc4d70b92ee Documentation: maple_tree: fix word spelling error
-ee11ac738df3c0ff8752e1ac1c5e368cf7f1bbf0 selftests: add a sanity check for zswap
-2a7a77c32b2151212ae2d96f3daec09304ae593a === mark start of DAMON hack tree ===
-418968c261eb539fcfe8757d6c08e66576be2ae5 Add -damon suffix to the version name
-a5ded01940fa6466b3a6ff468b507ecbd09ce982 === temporal fixes ===
-0bccc26a7d832b05f33467f60215ce0b1715fbbc === patches written or reviewed by SJ but not merged in -mm ===
-57c34bfae056209ac0f47c8587900492052cf50d selftests/damon: Add executable permission to test scripts
-17327cfd194f070be9caf3f178056e217740181b ==== divide-by-zero fixes ====
-b5fb1362f09b6048efdd3d4d18d1c87b2c2b60a0 mm/damon/core-test: test overflow-causing divide-by-zero
-89bb3c4b3b2ddc211c9dc327c5c9a0838a7a4311 === commits having no plan to post for now ===
-847a672f912fbfc576799861be28db116ce2322c tools/perf: Integrate DAMON in perf
-52787dbfaff2101af39c83b9d87f496b043543df selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-113fa87fa26167fe15fcf4a218d00f8986257de5 selftests/damon: Test target_ids_write()'s pids leaks
-750a28f9881530f3293bfebd32aec56a41327978 selftests/damon: add auto-generated files in .gitignore
-1db8cdd3a5d2c591a65ea781c3b96fe628cbcd03 === commits aiming not to be posted ===
-710a3eb4aa5954f1ae6dcc1db1eb80823fc9460a mm/damon: Add debug code
-b1a90dfc8eba2d11dbbcf40ee82844f8bce09b20 mm/damon/core: Add nr_accesses_bp debug code
-3b633ef28eaca740e1096d4f39f2c4601dfa9b22 Docs/DAMON: Add more DAMON docs for external DAMON-only html documents
-737e96ec5377f23048cc9e070c496ad33a2b5eb1 Docs/admin-guide/mm/damon/guide: Fix duplicate target name warning
-07c917e52c48eb25e29a7da4db61a034e07c58f6 Docs/mm/damon/eval: reference all footnote
-e7d1369f7ea2a4485f90b96e4c8095dd240da1db mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-88e633cd1a5abcdbabacb90b1769193fabc22964 === hacks in progress ===
-8104a8e1472303330edb57651fd8de1b75233268 ==== misc ====
-12e8d3ed15c39e44a52cddd8d035f2b5bbffe9cb mm/damon/sysfs: add __counted_by() annotation
-7c86ecc6df843e592bcc1f1e71df33cba2299bdd samples: add DAMON sample kernel modules
-c33da08be4a05db5ce04fafca2a12196af937a0f mm/damon/core: add todo for DAMOS interval validation
-2d82d31ea409400f37f3bb07559d5897103ceca1 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-991b040a8b82d2e4567365f665ff2474d07df158 mm/damon: update email of the author
+f822899c28572a854f2c746da5ed707d752458ab arm64: dts: qcom: sa8775p: correct PMIC GPIO label in gpio-ranges
+2ca3e844e3f978c0dbc95072dbf379abfc4a27db arm64: dts: qcom: apq8096-db820c: fix missing clock populate
+725f593692ceedeab639b661298955b6f9ba8ec3 arm64: dts: qcom: msm8996-xiaomi: fix missing clock populate
+b1841d8e51d26e9c104cc89805b949f1aec449ae MAINTAINERS: uDPU: make myself maintainer of it
+1122a9c2ebe02435014a0f40dcc50f4333286f0f MAINTAINERS: uDPU: add remaining Methode boards
+84fa1865edbb3800f3344e2a5bc73c187adf42d0 arm64: dts: rockchip: use codec as clock master on px30-ringneck-haikou
+1e585cd0aad3d491938230318d6d479f09589fd8 arm64: dts: rockchip: set codec system-clock-fixed on px30-ringneck-haikou
+2e9cbc4167da3134412ce47e4cdadbfdea30bbff ARM: dts: rockchip: Fix i2c0 register address for RK3128
+7e3be9ea299927e6d65242c247eca0a21bc26a58 ARM: dts: rockchip: Add missing arm timer interrupt for RK3128
+b0b4e978784943c4ed8412dbb475178f8c51ba8e ARM: dts: rockchip: Add missing quirk for RK3128's dma engine
+2c68d26f072b449bd45427241612cb3f8f997f82 ARM: dts: rockchip: Fix timer clocks for RK3128
+46e61750cfafea17f92add0a89483db7db3b1bda ARM: omap2: fix a debug printk
+7eeca8ccd1066c68d6002dbbe26433f8c17c53eb ARM: OMAP: timer32K: fix all kernel-doc warnings
+1558b1a8dd388f5fcc3abc1e24de854a295044c3 firmware/imx-dsp: Fix use_after_free in imx_dsp_setup_channels()
+cf98fe6b579e55aa71b6197e34c112b51f0c2a66 riscv: dts: starfive: visionfive 2: correct spi's ss pin
+1531309aa2092a96c092fa662863ffa53da3ba93 soc: renesas: Make ARCH_R9A07G043 depend on required options
+5447da5d610b5701c1103cd4665b49da87fdf032 ARM: OMAP1: ams-delta: Fix MODEM initialization failure
+cc2d819dd7df94a72bde7b9b9331a6535084092d clk: ti: Fix missing omap4 mcbsp functional clock and aliases
+0b9a4a67c60d3e15b39a69d480a50ce7eeff9bc1 clk: ti: Fix missing omap5 mcbsp functional clock and aliases
+606c577f75573aceeff35176c24b0dfb0b11db01 Merge tag 'renesas-fixes-for-v6.6-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+36fb6a3ccf5f90ed589c9ee9b47bddaf032f4d3f Merge tag 'imx-fixes-6.6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+5e24617f6686e28e8db246db366abd1eb7953c92 Merge tag 'qcom-arm64-fixes-for-6.6' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+3975e72b164dc8347a28dd0d5f11b346af534635 arm64: dts: rockchip: Add i2s0-2ch-bus-bclk-off pins to RK3399
+8cd79b729e746cb167f1563d015a93fc0a079899 arm64: dts: rockchip: Fix i2s0 pin conflict on ROCK Pi 4 boards
+e4078ebbddf69f5a82f164dc07d50321b7f641cf Merge tag 'riscv-dt-for-v6.6-final' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+759426c758c7053a941a4c06c7571461439fcff6 riscv: dts: thead: set dma-noncoherent to soc bus
+5e8a5e895a20c08acc49736c3ce0898be4c77c91 Merge tag 'v6.6-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+eaf16b92b18cec5584392172ee4c89f5cf471397 Merge tag 'omap-fixes-audio-clock-and-modem-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
+913eda2b08cc49d31f382579e2be34c2709eb789 i40e: xsk: remove count_mask
+c1c0ce31b2420d5c173228a2132a492ede03d81f r8169: fix the KCSAN reported data-race in rtl_tx() while reading tp->cur_tx
+dcf75a0f6bc136de94e88178ae5f51b7f879abc9 r8169: fix the KCSAN reported data-race in rtl_tx while reading TxDescArray[entry].opts1
+f97eee484e71890131f9c563c5cc6d5a69e4308d r8169: fix the KCSAN reported data race in rtl_rx while reading desc->opts1
+7db3111043885c146e795c199d39c3f9042d97c0 iavf: initialize waitqueues before starting watchdog_task
+665e7d83c5386f9abdc67b2e4b6e6d9579aadfcb i40e: Fix I40E_FLAG_VF_VLAN_PRUNING value
+fb71ba0ed8be9534493c80ba00142a64d9972a72 treewide: Spelling fix in comment
+8c0b48e01daba5ca58f939a8425855d3f4f2ed14 igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+72bf4f1767f0386970dc04726dc5bc2e3991dc19 net: do not leave an empty skb in write queue
+a9beb7e81bcb876615e1fbb3c07f3f9dba69831f neighbour: fix various data-races
+e7684d29efdf37304c62bb337ea55b3428ca118e igc: Fix ambiguity in the ethtool advertising
+068d8b75c1aee153193522211ace6c13c21cd16b i40e: sync next_to_clean and next_to_process for programming status desc
+d2ca43f30611ac41bccfa8352c53f5432f0ecbb0 net: xgene: Fix unused xgene_enet_of_match warning for !CONFIG_OF
+95201f36f395df34321fcddbce12103e8bbe4970 net: stmmac: update MAC capabilities when tx queues are updated
+965f9b8c0c1b37fa2a0e3ef56e40d5666d4cbb5c net: ethernet: adi: adin1110: Fix uninitialized variable
+ca082f019d8fbb983f03080487946da714154bae net: ieee802154: adf7242: Fix some potential buffer overflow in adf7242_stats_show()
+9f771493da935299c6393ad3563b581255d01a37 net: chelsio: cxgb4: add an error code check in t4_load_phy_fw
+51a32e828109b4a209efde44505baa356b37a4ce net: usb: smsc95xx: Fix uninit-value access in smsc95xx_read_reg
+a5feba71ec9c14a54c3babdc732c5b6866d8ee43 r8152: Increase USB control msg timeout to 5000ms as per spec
+5dd17689526971c5ae12bc8398f34bd68cd0499e r8152: Run the unload routine if we have errors during probe
+bb8adff9123e492598162ac1baad01a53891aef6 r8152: Cancel hw_phy_work if we have an error in probe
+b8d35024d4059ca550cba11ac9ab23a6c238d929 r8152: Release firmware if we have an error in probe
+dc90ba37a8c37042407fa6970b9830890cfe6047 r8152: Check for unplug in rtl_phy_patch_request()
+bc65cc42af737a5a35f83842408ef2c6c79ba025 r8152: Check for unplug in r8153b_ups_en() / r8153c_ups_en()
+715f67f33af45ce2cc3a5b1ef133cc8c8e7787b0 r8152: Rename RTL8152_UNPLUG to RTL8152_INACCESSIBLE
+d9962b0d42029bcb40fe3c38bce06d1870fa4df4 r8152: Block future register access if register access fails
+a40614fe885a46758105bfcc6761594af2c9155e Merge branch 'r8152-reg-garbage'
+d2a0fc372aca561556e765d0a9ec365c7c12f0ad tcp: fix wrong RTO timeout when received SACK reneging
+13454e6e0df2ff37853596d546438ac84ca6a413 isdn: mISDN: hfcsusb: Spelling fix in comment
+3e3929ef889e650dd585dc0f4f7f18240688811a wifi: cfg80211: pass correct pointer to rdev_inform_bss()
+c434b2be2d80d236bb090fdb493d4bd5ed589238 wifi: cfg80211: fix assoc response warning on failed links
+91535613b6090fc968c601d11d4e2f16b333713c wifi: mac80211: don't drop all unprotected public action frames
+7798b59409c345d4a6034a4326bceb9f7e2e8b58 net/handshake: fix file ref count in handshake_nl_accept_doit()
+291c0d3a98afb7b863485215c241a851be9e3435 Merge tag 'mvebu-fixes-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
+d788c9338342a3146d115281922901c1e3e1cbff sfc: cleanup and reduce netlink error messages
+9644bc49705723bf7c69aa9bf542bb5161b91dba Fix NULL pointer dereference in cn_filter()
+adc8df12d91a2b8350b0cd4c7fec3e8546c9d1f8 gtp: uapi: fix GTPA_MAX
+4530e5b8e2dad63dcad2206232dd86e4b1489b6c gtp: fix fragmentation needed check with gso
+cd8892c07876da0c4b50e020048a32a28596a074 Merge branch 'gtp-tunnel-driver-fixes'
+00d67093e4f1874f713e5869dbcf34a00665dbb7 Merge tag 'wireless-2023-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+77a8c982ff0d4c3a14022c6fe9e3dbfb327552ec i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
+735795f68b37e9bb49f642407a0d49b1631ea1c7 netfilter: flowtable: GC pushes back packets to classic path
+a63b6622120cd03a304796dbccb80655b3a21798 net/sched: act_ct: additional checks for outdated flows
+197f9fba9663e765f8f3ae3b2375c6cc32b2e2b3 net: ipv4: fix typo in comments
+1711435e3e67e079d6a2bce54d96d1af21c7ef2c net: ipv6: fix typo in comments
+53b08c4985158430fd6d035fb49443bada535210 vsock/virtio: initialize the_virtio_vsock before using VQs
+5e5d8b94a4fa5fc4a4ea5c97393a29aa5bf3e4bb Merge tag 'nf-23-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+53798666648af3aa0dd512c2380576627237a800 iavf: in iavf_down, disable queues when removing the driver
+fd962781270e6452dd5b30c8aa0b3b0fbee06244 riscv: RISCV_NONSTANDARD_CACHE_OPS shouldn't depend on RISCV_DMA_NONCOHERENT
+381cae1698538ad2f90dd6ecd8ed155d194e072f riscv: only select DMA_DIRECT_REMAP from RISCV_ISA_ZICBOM and ERRATA_THEAD_PBMT
+9eab43facdadb7d00456c2657001ae2e5353c814 soc: renesas: ARCH_R9A07G043 depends on !RISCV_ISA_ZICBOM
+736a4aad8a9fdcf577ffa33b33df240c67557af8 Merge tag 'renesas-fixes-for-v6.6-tag3' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+c17cda15cc86e65e9725641daddcd7a63cc9ad01 Merge tag 'net-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+3a568e3a961ba330091cd031647e4c303fa0badb Merge tag 'soc-fixes-6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============8501968200931385276==--
+--===============2439933736828570887==--
