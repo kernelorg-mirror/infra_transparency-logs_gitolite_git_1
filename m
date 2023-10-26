@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 26 Oct 2023 17:09:55 -0000
-Message-Id: <169834019567.3329.10083958193813419707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 26 Oct 2023 17:21:34 -0000
+Message-Id: <169834089416.12368.3117460665477773054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dm-6.7
-    old: bb59301c1737ec73cfcf4ab7664d74af884f6269
-    new: 6a6357351c02e26ae944e447633e4cced9ead9d2
-    log: |
-         6a6357351c02e26ae944e447633e4cced9ead9d2 MAINTAINERS: add Mikulas Patocka as a DM maintainer
-         
+  - ref: refs/heads/filej6OdsR
+    old: 0ec7731655de196bc1e4af99e495b38778109d22
+    new: 0000000000000000000000000000000000000000
