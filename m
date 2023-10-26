@@ -1,99 +1,121 @@
-Content-Type: multipart/mixed; boundary="===============2897332820653715298=="
+Content-Type: multipart/mixed; boundary="===============6335801758594012389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 26 Oct 2023 22:05:40 -0000
-Message-Id: <169835794004.24400.12978169138577707799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Thu, 26 Oct 2023 22:24:44 -0000
+Message-Id: <169835908407.4893.17346948332879573255@gitolite.kernel.org>
 
---===============2897332820653715298==
+--===============6335801758594012389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
-user: sfr
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/pending-fixes
-    old: 3a723f8d3fd2319a58c39bc8d1d7aa764eeb87f5
-    new: 68c0e1797270c7a6e3cf334a026e82964e90d90e
-    log: revlist-3a723f8d3fd2-68c0e1797270.txt
+  - ref: refs/heads/main
+    old: 8b855f3797e6b1d207b7a2b8dae0e9913f907e5b
+    new: 2ceaa29dcd469d54bd69ef2e7efc89fde58e0561
+    log: revlist-8b855f3797e6-2ceaa29dcd46.txt
 
---===============2897332820653715298==
+--===============6335801758594012389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a723f8d3fd2-68c0e1797270.txt
+Content-Disposition: attachment; filename=revlist-8b855f3797e6-2ceaa29dcd46.txt
 
-b1841d8e51d26e9c104cc89805b949f1aec449ae MAINTAINERS: uDPU: make myself maintainer of it
-1122a9c2ebe02435014a0f40dcc50f4333286f0f MAINTAINERS: uDPU: add remaining Methode boards
-76fe8713dd0a1331d84d767e8e5d3f365d959e8a cxl/pci: Remove unnecessary device reference management in sanitize work
-e30a106558e7d1e06d1fcfd12466dc646673d03d cxl/pci: Cleanup 'sanitize' to always poll
-08b8a8c05423174e3ef4fb0bd514de20088cf5ac cxl/pci: Remove hardirq handler for cxl_request_irq()
-2627c995c15dc375f4b5a591d782a14b1c0e3e7d cxl/pci: Remove inconsistent usage of dev_err_probe()
-f29a824b0b6710328a78b018de3c2cfa9db65876 cxl/pci: Clarify devm host for memdev relative setup
-5f2da19714465739da2449253b13ac06cb353a26 cxl/pci: Fix sanitize notifier setup
-339818380868e34ff2c482db05031bf47a67d609 cxl/memdev: Fix sanitize vs decoder setup locking
-88d3917f82ed4215a2154432c26de1480a61b209 cxl/mem: Fix shutdown order
-501b3d9fb036d58e88da434bc6473cec5f75644c tools/testing/cxl: Make cxl_memdev_state available to other command emulation
-cf009d4ec38cb3acc09b4248674c67abe916ceb5 tools/testing/cxl: Add 'sanitize notifier' support
-291c0d3a98afb7b863485215c241a851be9e3435 Merge tag 'mvebu-fixes-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
-0718588c7aaa7a1510b4de972370535b61dddd0d cxl/region: Do not try to cleanup after cxl_region_setup_targets() fails
-bc00d9f3813a40bc2d854ae0edab14c6b43a3219 regulator: qcom-rpmh: Fix smps4 regulator for pm8550ve
-28da9dee3594423534f3ea1e1f61e6bb2d2fa651 Revert "hwmon: (sch56xx-common) Add DMI override table"
-d621a46d05107f4e510383d6a38f2160c62d28f7 Revert "hwmon: (sch56xx-common) Add automatic module loading on supported devices"
-53b08c4985158430fd6d035fb49443bada535210 vsock/virtio: initialize the_virtio_vsock before using VQs
-5e5d8b94a4fa5fc4a4ea5c97393a29aa5bf3e4bb Merge tag 'nf-23-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-53798666648af3aa0dd512c2380576627237a800 iavf: in iavf_down, disable queues when removing the driver
-852bd6f44e9eda8eb55b1a820415943dc2db9029 io_uring: kiocb_done() should *not* trust ->ki_pos if ->{read,write}_iter() failed
-bcdf926af448151cbebe77783d30aebfdb1e100a ceph_wait_on_conflict_unlink(): grab reference before dropping ->d_lock
-b132ac51d7a50c37683be56c96ff64f8c887930f accel/ivpu/37xx: Fix missing VPUIP interrupts
-fd962781270e6452dd5b30c8aa0b3b0fbee06244 riscv: RISCV_NONSTANDARD_CACHE_OPS shouldn't depend on RISCV_DMA_NONCOHERENT
-381cae1698538ad2f90dd6ecd8ed155d194e072f riscv: only select DMA_DIRECT_REMAP from RISCV_ISA_ZICBOM and ERRATA_THEAD_PBMT
-9eab43facdadb7d00456c2657001ae2e5353c814 soc: renesas: ARCH_R9A07G043 depends on !RISCV_ISA_ZICBOM
-cdcd6aef9db5797995d4153ea19fdf56d189f0e4 drm/vc4: tests: Fix UAF in the mock helpers
-168d97844a61db302dec76d44406e9d4d7106b8e ASoC: Intel: Skylake: Fix mem leak when parsing UUIDs fails
-374de39d38f97b0e58cfee88da590b2d056ccf7f pmdomain: imx: Make imx pgc power domain also set the fwnode
-736a4aad8a9fdcf577ffa33b33df240c67557af8 Merge tag 'renesas-fixes-for-v6.6-tag3' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
-1110581412c7a223439bb3ecdcdd9f4432e08231 cxl/region: Prepare the decoder match range helper for reuse
-9f3899fd1bb5cf809964e06d86f28fe8b7643a00 cxl/region: Calculate a target position in a region interleave
-d5220d491f94fa49521de7ae1dccb70c891c3061 cxl/region: Use cxl_calc_interleave_pos() for auto-discovery
-37570686b1a64d988566f638997a49f5e6d43470 cxl/region: Fix cxl_region_rwsem lock held when returning to user space
-0ec7731655de196bc1e4af99e495b38778109d22 regmap: Ensure range selector registers are updated after cache sync
-e5adb87f2021419add052220b0ceceec734bc3c2 cxl/region: Fix x1 root-decoder granularity calculations
-c17cda15cc86e65e9725641daddcd7a63cc9ad01 Merge tag 'net-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f2f39c016c0e8ee10f5c38f47f9101dc50796d71 tools/testing/cxl: Slow down the mock firmware transfer
-3a568e3a961ba330091cd031647e4c303fa0badb Merge tag 'soc-fixes-6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-101c9f637efa1655f55876644d4439e552267527 drm/syncobj: fix DRM_SYNCOBJ_WAIT_FLAGS_WAIT_AVAILABLE
-acc41ea4bca09df838ad6ed7a9f39f653b5d8e35 mm/shmem: fix race in shmem_undo_range w/THP
-a03adf02ece06325052454d7f017c2e9f22b30c0 mm-shmem-fix-race-in-shmem_undo_range-w-thp-fix
-b1c132c8a51c63b4b8317380e76afc0519b1db2a mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
-28807d3eca2b1f3b603f0227a39cc2d370a819ea mm/sparsemem: fix race in accessing memory_section->usage
-a062b3d02dc7a50a5c78fe6e91140e32da4f9f36 kexec: fix KEXEC_FILE dependencies
-b3dd473991eb4c22efd0ab2aa0ad63178c1444a5 kexec: select CRYPTO from KEXEC_FILE instead of depending on it
-53234ef770e5204bc47710a8cad1fc1273d0947b kexec-fix-kexec_file-dependencies-fix
-47043ca3af1cc4319589d91dd4c552f23c96b5ee mm/damon/sysfs: remove requested targets when online-commit inputs
-eb04b7a7ec077214ab82feedc5662ba08bf27c51 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-debba3bc67c0ed5d71549d9984cdee8e0df52655 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-5b560d16e5ce1eaa07645232b8311986069f7eb6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-c3582a1c25801e03320ec7272a310bc97340eed3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-3f48ccb48ed28ece6fa33327849857d07fac7df1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-1f7a9b0fb4c05f146d5f716462fa42f05367dbcd Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-a80eb32232867df19a39a0f6efabe41690308d75 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-7e9b9a6977dded65c49300dfe2eb6d485ebe2440 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-61e69e3bdaaf1bdbe24fe5fc677ce25dc3831228 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-02eb8b5ef6d6be86dface32576d8200a2250be53 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-513c52f9bfbfeaa13d019f0d7f3ef2cb310dc576 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-990cd0e8936995580dbbca04fe66eb9814584639 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-925a6e2e2fa111a907ee39869261a02aa197ba7e Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-058ec8782b2f48fd53cc15bb3016c3339a723161 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-7083ca3df5f8c6f9dffec929dc7e4148c3a48f2a Merge branch 'for-linus' of git://git.infradead.org/users/hch/dma-mapping.git
-44c2a1ab4e1a7c8aa7524c80018aabb801abca9b Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-75c160403b78e23f01f2ede62bdba1d19f713fdc Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga.git
-fe3650cc9a0de3850e3795ea44ae967ec7ffbd3a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
-d3c45d2ca623bd2f692ae2b90e1692f60fd153eb Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-16431a1581ad02918b5104ae215caa42dee409ed Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
-68c0e1797270c7a6e3cf334a026e82964e90d90e Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
+a6744df81a307cfee5b0271dae65f8fcdeb84fcf iwlwifi: add FWs for new GL and MA device types with multiple RF modules
+1c285c0aed680bfde1ba8bb02c517285c8f9260e amdgpu: update aldebaran firmware from 5.7 branch
+f9366fa109e15fe0a594a7c42d4b6d1b6bfbc333 amdgpu: update GC 11.0.3 firmware from 5.7 branch
+b21bd58026ce47249b122cadc325c58eab2ebf91 amdgpu: update PSP 13.0.10 firmware from 5.7 branch
+5a99cd5025f54680d05bea774172254a9f0a26e0 amdgpu: update SMU 13.0.10 firmware from 5.7 branch
+abe39de3bbd844d10423c41eff094beac97197ed amdgpu: update raven2 firmware from 5.7 branch
+7f027004240ad55e3c420ca704aef7f5fb059b93 amdgpu: update navi10 firmware from 5.7 branch
+c25d0ef6b93fc28eefeb113cfca5cadb49a5d5f1 amdgpu: update yellow carp firmware from 5.7 branch
+aa67101a7f61fbc43b2cb33187923898c8ffdc41 amdgpu: update GC 11.0.2 firmware from 5.7 branch
+22ca16eef8f2cac46cd5b1dc8e927d7b94dd2b47 amdgpu: update PSP 13.0.7 firmware from 5.7 branch
+a3b30e39da90fee4ad70af09d67b6daf485bb7f5 amdgpu: update SDMA 6.0.2 firmware from 5.7 branch
+971fe4bd921859a89d0df09ab53d77eaaa315372 amdgpu: update SMU 13.0.7 firmware from 5.7 branch
+fd688e3785cc299da6cea32050c11bb95297a13b amdgpu: update VCN 4.0.4 firmware from 5.7 branch
+17a48ca2995879b2b1ee2c483632a5206e10ce78 amdgpu: update navi12 firmware from 5.7 branch
+d850220b294fa7807bcf0df6d5aea94d0ec8f05f amdgpu: update renoir firmware from 5.7 branch
+fcf92700b61734adcbcc74dbc769d3802211f145 amdgpu: update navi14 firmware from 5.7 branch
+a34604d3563a41c03fdb0e80ecadf6b30a01ce75 amdgpu: update GC 11.0.1 firmware from 5.7 branch
+7b785ce1ca9c50b739ca2914f048a46d28310c95 amdgpu: update PSP 13.0.4 firmware from 5.7 branch
+ab618fa51b6d6d58064690071e7c83269e95508f amdgpu: update SDMA 6.0.1 firmware from 5.7 branch
+4ee8dc918da688d31cac9f049c473cf982f722f6 amdgpu: update GC 11.0.4 firmware from 5.7 branch
+c09f42194df86a21a70e0b4289cb37c1fcc48035 amdgpu: update PSP 13.0.11 firmware from 5.7 branch
+b828f43c1825dd0e2cedea4d8b7ab4d046b8260a amdgpu: update sienna cichlid firmware from 5.7 branch
+f8f3d52e3ebb6d69fe83b582f21f1051f9f1d723 amdgpu: update green sardine firmware from 5.7 branch
+7d8a4a06131602c35a5098a939933930d52cccf8 amdgpu: update vangogh firmware from 5.7 branch
+e6a3c06e4eae53c4bdfda58ae477dc24911281e9 amdgpu: update navy flounder firmware from 5.7 branch
+5e40e6c2e3a04b11c07acd662d23f9cda03cb5de amdgpu: update picasso firmware from 5.7 branch
+516371561d9a5ab52ed8197bde317a8228797893 amdgpu: update dimgrey cavefish firmware from 5.7 branch
+08e23f2c65e5af69110f5217f957edf48a47fb15 amdgpu: update vega10 firmware from 5.7 branch
+050fe57881a399bf42c17cbb5e68cf1dd67fb0fd amdgpu: update vega12 firmware from 5.7 branch
+ee81c65cf90c11a97d93007233070c6c9b71b27c amdgpu: update beige goby firmware from 5.7 branch
+0923446e1e5b698c61eebf31cb1d76d1f5f58939 amdgpu: update vega20 firmware from 5.7 branch
+c321aeee5f1d6a52e66da314133753ffa297d0bb amdgpu: update GC 11.0.0 firmware from 5.7 branch
+7baff8ddcae75d576c1baa22ad3e929cd4c8fb5e amdgpu: update PSP 13.0.0 firmware from 5.7 branch
+9973966a1c6191ef87d4b900d44831c5215b06f1 amdgpu: update SDMA 6.0.0 firmware from 5.7 branch
+af3d18b3be427091c72920224000d29768c8b107 amdgpu: update SMU 13.0.0 firmware from 5.7 branch
+b65ac01b46af9eb92056fc2897e04253c8f8db1c amdgpu: update VCN 4.0.0 firmware from 5.7 branch
+a92f8f2116abb712598c32de3102b0b2adccd0bf amdgpu: update GC 10.3.6 firmware from 5.7 branch
+fc627e9836c00b2adf9b224c3a29f9a3bb4a88a4 amdgpu: update PSP 13.0.5 firmware from 5.7 branch
+f5b7964e84bfcdc081bba4048eb2307e06f77898 amdgpu: update SDMA 5.2.6 firmware from 5.7 branch
+5837f76c1583db709be71a9f8dd1429bc8d2c903 amdgpu: update DCN 3.1.6 firmware from 5.7 branch
+35d98aafe1ca63cb512f8ccb51328aca62e9213b amdgpu: update GC 10.3.7 firmware from 5.7 branch
+8ba971092b5d09c754f1d5fc410893ca2498d198 amdgpu: update PSP 13.0.8 firmware from 5.7 branch
+75e5b6344eef0149f185e499e31d0667b60d8685 amdgpu: update SDMA 5.2.7 firmware from 5.7 branch
+95ec6f69a4e9c45031da01f76962939041f345c4 amdgpu: update raven firmware from 5.7 branch
+18b60f44e61c72eb5a5a36dc8e0381c77ba670b3 i915: Update MTL DMC to v2.17
+cef80743ca63491ff5a07976e45ef9be2fcc41f7 Add new Makefile target to build a deb and rpm package
+ce33c671b4d0f0f414ec0a2ab8b8d83a94b17fb4 Build debian and fedora images
+312b5d8adfae54f6cbbfe5b1c26699b497ffb710 Merge branch 'iwlwifi-fw-2023-09-27' into 'main'
+957828e17afc80e68b7a5f675347fd10cdbb7d0e linux-firmware: Update firmware file for Intel Bluetooth 9260
+717c1a5ddb996f0030e6aff8e0afdf5fddaac8e7 linux-firmware: Update firmware file for Intel Bluetooth 9560
+a3e18affc47f10bf2b8f0126bd650fc721ce4082 linux-firmware: Update firmware file for Intel Bluetooth AX210
+3fed6fb8713c583993ab2862d802e76f08b6a97b linux-firmware: Update firmware file for Intel Bluetooth AX211
+3ce0e06b5f8d2ac1bbeccc8f6b5a6c501e54b42b linux-firmware: Update firmware file for Intel Bluetooth AX211
+8c1e8c66ad58a5e0b9e5ee68e10cdeb112d73fbb linux-firmware: Update firmware file for Intel Bluetooth AX201
+bbf9419146d164dac9c03c3acd66445dfaf48fa3 linux-firmware: Update firmware file for Intel Bluetooth AX201
+ab0c0a78363252c9bd9e4a36e7258bb09f7df697 linux-firmware: Add firmware file for Intel Bluetooth AX211
+2316c3d085a01e63767284d3e4bd7cf33ec16d3d Merge branch 'intel-bt-20231004' into 'main'
+58b8d3f36a900b1a2d5b7c74f9a385ce95763bc2 Merge branch 'dmc-mtl_2.17' of git://anongit.freedesktop.org/drm/drm-firmware into dmc-mtl
+8e57de05f36dc07812f24ea7143df38e857ade64 Merge branch 'dmc-mtl' into 'main'
+5105ff4b9f43ba08d0a22260d670120e53c4b667 Merge branch 'mlimonci/upstream-packaging' into 'main'
+389575a8a1773b857bd7176cc42143471226f982 WHENCE: add symlink for BananaPi M64
+7727f7e3b3358713c7c91c64a835e80c331a6b8b Merge branch 'patch-1696561325' into 'main'
+92e24e048136d6ebf29bd9f3afaba0f24f8997cd iwlwifi: add a missing FW from core80-39 release
+44a9510c94ac0334931b6c89dd240ffe5bf1e5fa i915: Add GuC v70.13.1 for DG2, TGL, ADL-P and MTL
+1be48f85d40871ff96368031123bb8facd499461 Merge branch 'pr-24-1697222431' into 'main'
+4d6190714dc635b7c8b0fb384380c6fa66630711 Add a script for a robot to open up pull requests
+0da49b90ac1ddb2f985c5be7e97cfcbcb56a1764 linux-firmware: add Amlogic bluetooth firmware
+63e8aa40cfeae3389cc55d0f95dc1c978b51a3a0 Merge branch 'main' into 'main'
+a3bcbbf2e5d13b49197ecd39ae47715515bf38c2 amdgpu: update SMU 13.0.0 firmware
+8ff933de02ce02bf602345ed950e93e5c9901af6 Merge branch 'robot/pr-0-1697570762' into 'main'
+f893135f1b74ee2dc8e07f69c6b387b39ac2c30b Merge branch 'robot/pr-0-1697658135' into 'main'
+ecaeef5dcb0540721e813f4508b51293f1be7cd9 Add support for sending emails while processing a PR/patch
+29e9aa8686d56a6b307f6a8a1e3bd9a383060003 Merge branch 'mlimonci/robot' into 'main'
+06afd7f939c5b245b2af9e0fee13026f2aaf77fa linux-firmware: Update AMD cpu microcode
+1115cf5ca9a6c667551a4d677bfa33cea95216da Merge branch 'robot/patch-0-1697735493' into 'main'
+6ed754659e1540f0df58f0b4272f78f39f731a14 Fix the robot email script
+d983107a2dfa60d70df4101b69bfe7054db9704c Merge branch 'mlimonci/fix-email' into 'main'
+7bfa5f4d10c4921a87a1b4588e63aec3b8c2c60c Catch unicode decode errors
+3de241ed1108d72555136f4acf6a2874df0fe6fa rtl_nic: update firmware of RTL8156B
+39d553923355fdb0890a02ab8434c8bef4e1da36 Use `git am` instead of `b4 shazam`
+ad84593de285962871a5909e5bf5ef23170d4908 Merge branch 'robot/patch-23-1698074268' into 'main'
+5f560c1e0d357114cdeaab91e5ff0a9fb8be6221 Merge branch 'mlimonci/unicode' into 'main'
+4ee017565113f5326661886dd7b7786359c77a5e Merge branch 'mlimonci/use-am' into 'main'
+b22703ca8cf72033dd2c85ee61c71321a26facfe Disable deb and rpm CI other than at release
+80703e05c6fa1a627273d0eb8ac21ec0f6325cf9 Merge branch 'mlimonci/less-ci' into 'main'
+37761e2b861b89843652069cf5d90fd20ce6bb95 Intel Bluetooth: Update firmware file for Intel Bluetooth BE200
+dd6368d9f3f6a30e887c8bd3e33c0be2c4892ae7 Intel Bluetooth: Update firmware file for Intel Bluetooth Magnetor AX211
+fabc67bf6c5cd45efb433631575b7d0c1fc53f41 Intel Bluetooth: Update firmware file for Intel Bluetooth Magnetor AX201
+581a25e67c972a551a9b32e168b6e61f1077481d Intel Bluetooth: Update firmware file for Intel Bluetooth AX203
+bc0b7dfa1f2345195d67050427c15f0f6417c19e Intel Bluetooth: Update firmware file for Intel Bluetooth AX203
+2ceaa29dcd469d54bd69ef2e7efc89fde58e0561 Merge branch 'core80' into 'main'
 
---===============2897332820653715298==--
+--===============6335801758594012389==--
