@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 26 Oct 2023 16:12:55 -0000
-Message-Id: <169833677526.27568.7807010982977288093@gitolite.kernel.org>
+Date: Thu, 26 Oct 2023 16:29:23 -0000
+Message-Id: <169833776360.5684.13090935459920555868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
   - ref: refs/heads/misc
-    old: 43b0294abaceec20943c4ae222a0839b353a055f
-    new: c9501d268944d6c0475ecb3e740a084a7da9cbfe
+    old: c9501d268944d6c0475ecb3e740a084a7da9cbfe
+    new: 0fce6e5c87faec2c8bf28d2abc8cb595f4e244b6
     log: |
-         c9501d268944d6c0475ecb3e740a084a7da9cbfe PCI: endpoint: Fix double free in __pci_epc_create()
+         0fce6e5c87faec2c8bf28d2abc8cb595f4e244b6 PCI: Simplify pcie_capability_clear_and_set_word() to ..._clear_word()
          
