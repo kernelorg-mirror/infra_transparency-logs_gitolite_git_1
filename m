@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8747510535497439104=="
+Content-Type: multipart/mixed; boundary="===============2426345310130058066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Oct 2023 22:53:32 -0000
-Message-Id: <169836081242.26317.917823207083103007@gitolite.kernel.org>
+Date: Thu, 26 Oct 2023 22:53:51 -0000
+Message-Id: <169836083162.26514.7138010810712460787@gitolite.kernel.org>
 
---===============8747510535497439104==
+--===============2426345310130058066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 53b08c4985158430fd6d035fb49443bada535210
-    new: c17cda15cc86e65e9725641daddcd7a63cc9ad01
-    log: revlist-53b08c498515-c17cda15cc86.txt
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
+  - ref: refs/heads/dev-queue
+    old: 7abc0469cc3b59ebd3639a5240d71c038b24b2a2
+    new: f6a28f10df6f455bb57250ac39fb6301f2b0c5c9
+    log: revlist-7abc0469cc3b-f6a28f10df6f.txt
 
---===============8747510535497439104==
+--===============2426345310130058066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53b08c498515-c17cda15cc86.txt
+Content-Disposition: attachment; filename=revlist-7abc0469cc3b-f6a28f10df6f.txt
 
 3e01d5254698ea3d18e09d96b974c762328352cd mtd: rawnand: marvell: Ensure program page operations are successful
 6792b7fce610bcd1cf3e07af3607fe7e2c38c1d8 mtd: physmap-core: Restore map_rom fallback
@@ -249,5 +246,13 @@ a63b6622120cd03a304796dbccb80655b3a21798 net/sched: act_ct: additional checks fo
 5e5d8b94a4fa5fc4a4ea5c97393a29aa5bf3e4bb Merge tag 'nf-23-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 53798666648af3aa0dd512c2380576627237a800 iavf: in iavf_down, disable queues when removing the driver
 c17cda15cc86e65e9725641daddcd7a63cc9ad01 Merge tag 'net-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+37d9950d4b9e566b5dee398ab9f3ee3d760c385a PCI: Extract ATS disabling to a helper function
+2170d5b4b460d5b11857fd79ad183fec80799e39 PCI: Disable ATS for specific Intel IPU E2000 devices
+a688eb4612d89aaa2ebb2799c6eae129658d5413 i40e: fix livelocks in i40e_reset_subtask()
+7a9be8306415110c743e0ac2c4ffb0a88bb107b6 i40e: fix 32bit FW gtime wrapping issue
+01c762332015e860fb4850b779b20579eaa4db11 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+ac5bc7e88e2f824918c92f6d35fb8b5aed45e1d4 ice: Fix VF-VF filter rules in switchdev mode
+3330d2e7a213596185c9b05aee4977d41b64f5f6 ice: lag: in RCU, use atomic allocation
+f6a28f10df6f455bb57250ac39fb6301f2b0c5c9 ice: Fix VF-VF direction matching in drop rule in switchdev
 
---===============8747510535497439104==--
+--===============2426345310130058066==--
