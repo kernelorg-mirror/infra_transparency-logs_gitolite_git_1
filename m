@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4534350718677681563=="
+Content-Type: multipart/mixed; boundary="===============8231970524794338397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 26 Oct 2023 17:09:28 -0000
-Message-Id: <169834016860.3021.11193419022700884802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 26 Oct 2023 17:09:43 -0000
+Message-Id: <169834018368.3176.16081156063656383128@gitolite.kernel.org>
 
---===============4534350718677681563==
+--===============8231970524794338397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: b97f4dac40eecfc2fc9b818b427a8eda44cb7763
-    new: 60781d2d5899d6fc5fd173c1bcffaaec39643e17
-    log: revlist-b97f4dac40ee-60781d2d5899.txt
+  - ref: refs/heads/for-next
+    old: 269f94b4189ed8537ef7cc443a705bf455ce99fe
+    new: 00236a89602f7b67016bd1d9bc63079f2c0f0a8d
+    log: revlist-269f94b4189e-00236a89602f.txt
 
---===============4534350718677681563==
+--===============8231970524794338397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1698340166 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1698340165-90ef0d676ea18ba38005e66314c416cb7af11e4b
-
-b97f4dac40eecfc2fc9b818b427a8eda44cb7763 60781d2d5899d6fc5fd173c1bcffaaec39643e17 refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU6nUYACgkQJNaLcl1U
-h9A3iwf/ZuKmw5cz4nYrnWMv9Py2DvOyYbtKRdT5AjnasgRUiiwW4hVIXNogTk4S
-Bq2/NjDGpqQzZtgHMRaI3RmF0PrjkHOb3OwVVzNp/2IgcfRIR7BK+Cd8CldFh6/x
-0/ltq8jKLJrCZTk2Tfx8dyMAgN0FRK7h30/fGwZWstKBH0QCY5Bg82hiNIMdrVnl
-32dS88p4RQrz5lxC1HFJU4f+N4EXd9mSDMsBE8py7nuTL4z8gvVlnyTyKBUfYoFq
-tb0P3mDNBpbQf4T44ZQEEVZawRlWvEVOUknyWfBLStwj3B3jFsHd8HR7yWJE0Ws+
-02ASyfaVRZ/kn3wMpc0dSYp1g/wpcw==
-=6p9f
------END PGP SIGNATURE-----
-
---===============4534350718677681563==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b97f4dac40ee-60781d2d5899.txt
+Content-Disposition: attachment; filename=revlist-269f94b4189e-00236a89602f.txt
 
 debd9fa7bf17251c44a01ac1536d97566df45ca6 ASoC: dt-bindings: Add schema for "awinic,aw88399"
 725f3b967a507c515c5b14b4103840d22c217ef7 ASoC: codecs: Add code for bin parsing compatible with aw88399
@@ -81,5 +56,6 @@ f82eb06a40c86c9a82537e956de401d497203d3a ASoC: tegra: machine: Handle component 
 11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
 246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
 60781d2d5899d6fc5fd173c1bcffaaec39643e17 ASoC: Intel: bytcr_wm5102: add various quirks
+00236a89602f7b67016bd1d9bc63079f2c0f0a8d Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
 
---===============4534350718677681563==--
+--===============8231970524794338397==--
