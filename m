@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8579679725850676237=="
+Content-Type: multipart/mixed; boundary="===============3417761985064957765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 26 Oct 2023 15:11:37 -0000
-Message-Id: <169833309768.14351.10204518168910930429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 26 Oct 2023 15:11:53 -0000
+Message-Id: <169833311300.14523.14436985157355841064@gitolite.kernel.org>
 
---===============8579679725850676237==
+--===============3417761985064957765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 109cb2160128211ca7b17bad79cb0441f1440bc9
-    new: b97f4dac40eecfc2fc9b818b427a8eda44cb7763
-    log: revlist-109cb2160128-b97f4dac40ee.txt
+  - ref: refs/heads/for-next
+    old: 1f4f892e387928b994e411f0ea65452a2640693e
+    new: 269f94b4189ed8537ef7cc443a705bf455ce99fe
+    log: revlist-1f4f892e3879-269f94b4189e.txt
 
---===============8579679725850676237==
+--===============3417761985064957765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1698333095 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1698333094-910b4ae88e42cc80a5eef4393ba5dae2c7d05efb
-
-109cb2160128211ca7b17bad79cb0441f1440bc9 b97f4dac40eecfc2fc9b818b427a8eda44cb7763 refs/heads/asoc-6.7
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU6gacACgkQJNaLcl1U
-h9AWOQf/cZN1Y1XVzqZ0G9onEgfFuYD40FC2Wnmz75lcqaW1fnqA76nXrcQb+MrE
-A0rtCpWX3XVfg6afi/n8+r62d9pi7p4d7R8TScASziIXpl5MBdaOtrejeSUQhJXD
-CNCLvPUX2CY4pmer2Nsh9BU+ubwHScCn8Qn4HNgsLyTyBsSU27xVaYz9cmoItEOj
-ucRgdsAD25xvb2RHtgjhGR509SB81kg1zsz9pl9S4Ell5k3OeEsHDeesZwL7tQK2
-V1oFv6T4U+kx/cIbHsoCjy4gIyziwB67+x9BVTe9zCrtsPXY3wLozhFPuTu+xPeY
-dyJx9nb76j1ZC6xVBb0cwQt6CTjb0Q==
-=b1qH
------END PGP SIGNATURE-----
-
---===============8579679725850676237==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-109cb2160128-b97f4dac40ee.txt
+Content-Disposition: attachment; filename=revlist-1f4f892e3879-269f94b4189e.txt
 
 e29de7abdaf56f58141b01f74862b320191c9203 ASoC: qcom: q6apm-lpass-dais: pass max number of channels to Audioreach
 7618ab524935667699afed76fb83bc9bb38710ec ASoC: codecs: wcd938x: use defines for entries in snd_soc_dai_driver array
@@ -67,5 +42,6 @@ d4c2d5391d7efc29fdd59d54355526c9ace16bec ASoC: amd: acp: add Kconfig options for
 caa126f2b0c821811eedf2e2fd435b11844bf0f1 ASoC: amd: acp: change acp power on mask macro value
 e84db124cb2158b538820f31f641c28b86fb3ca3 ASoC: amd: acp: Add pci legacy driver support for acp7.0 platform
 b97f4dac40eecfc2fc9b818b427a8eda44cb7763 ASoC: amd: acp: add machine driver support for acp7.0
+269f94b4189ed8537ef7cc443a705bf455ce99fe Merge remote-tracking branch 'asoc/for-6.7' into asoc-next
 
---===============8579679725850676237==--
+--===============3417761985064957765==--
