@@ -1,50 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============8232513742365327615=="
+Content-Type: multipart/mixed; boundary="===============4369617430884309678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 26 Oct 2023 17:05:24 -0000
-Message-Id: <169833992454.32431.8128177040883413182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 26 Oct 2023 17:09:21 -0000
+Message-Id: <169834016107.2881.10800108818235232225@gitolite.kernel.org>
 
---===============8232513742365327615==
+--===============4369617430884309678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: c4a852635eddcf4130a93e687bc7b120b19fd1b7
-    new: 3779416eed25a843364b940decee452620a1de4b
-    log: revlist-c4a852635edd-3779416eed25.txt
+  - ref: refs/heads/for-6.7
+    old: b97f4dac40eecfc2fc9b818b427a8eda44cb7763
+    new: 60781d2d5899d6fc5fd173c1bcffaaec39643e17
+    log: revlist-b97f4dac40ee-60781d2d5899.txt
 
---===============8232513742365327615==
+--===============4369617430884309678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4a852635edd-3779416eed25.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cbf5f58461b25f3f3e19704e2e51ad002c11080c perf test: Skip CoreSight tests if cs_etm// event is not available
-79a3371bdf453bedb9d2c80df5adc201dddc11b5 perf bench sched pipe: Add -G/--cgroups option
-e093a222d7cba1eb6c36887e58ce8a4ff249f1c6 perf evsel: Rename evsel__increase_rlimit to rlimit__increase_nofile
-d99317f214ca3d381f7b17a75c41263885664e06 perf lock contention: Clear lock addr after use
-6a070573f290f99a6129ac3e13b9df521a1a65de perf lock contention: Check race in tstamp elem creation
-b5711042a1c8cc88ed40a5ebf612b36e83a4e2e4 perf lock contention: Use per-cpu array map for spinlocks
-a6e4a4a14a8eb6376278db0d3441a2ba124cc30c perf report: Fix hierarchy mode on pipe input
-b27778ed5d1d21cdb4fa83ff5185e7e438fd653f perf build: Address stray '\' before # that is warned about since grep 3.8
-7a8f349e9d14da1633e021c2fe87234b21ab181d perf rwsem: Add debug mode that uses a mutex
-ab8ce150781d326c6bfbe1e09f175ffde1186f80 perf machine: Avoid out of bounds LBR memory read
-75265320d290c5f5891f16967b94883676c46705 libperf rc_check: Make implicit enabling work for GCC
-78c32f4cb12f9430e29402118635dcf972b7d325 libperf rc_check: Add RC_CHK_EQUAL
-c1149037f65bcf0334886180ebe3d5efcf214912 perf hist: Add missing puts to hist__account_cycles
-7b2e444b76ceff71dad53fb8705780741421b570 perf threads: Remove unused dead thread list
-67a3ebf1c3588ee2ab994a4c96ef19179209c132 perf offcpu: Add missed btf_free
-d47d876d72624ee1ef31f2e491be4393d4eacaf0 perf callchain: Make display use of branch_type_stat const
-6ba29fbb0b3863fa50c809d098680a0f3e0bd625 perf callchain: Make brtype_stat in callchain_list optional
-dec07fe5d4fd29aed2faf17f56140cd402175d72 perf callchain: Minor layout changes to callchain_list
-56e144fe98260a0f8a17326993ceb576ef859ed5 perf mem_info: Add and use map_symbol__exit and addr_map_symbol__exit
-3779416eed25a843364b940decee452620a1de4b perf vendor events intel: Fix broadwellde tma_info_system_dram_bw_use metric
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1698340158 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1698340158-585f38a590cbb553e539a6618d8331d3c8dcd575
 
---===============8232513742365327615==--
+b97f4dac40eecfc2fc9b818b427a8eda44cb7763 60781d2d5899d6fc5fd173c1bcffaaec39643e17 refs/heads/for-6.7
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU6nT4ACgkQJNaLcl1U
+h9Do4Qf/TjCtzDyHiW1v64YSYg6cMIGf4epl36b6Ns1cY6t4LOPRyG0CMVdmjt0P
+vdJBkDNBz14E3QURYWDAtz0rQNDELIKLBQFGn9EweF9my9vQtOIE3i/C9fPmDspF
+qTsziy7FJ5vCwpqFem+9acKbRrIbwBCKBbqgB7e28HVWVuzZTiiYMZIYk2c4rvWE
+nEOiifYztrAulTyOF0EjdPaCQrFyiXuNMUhv58ULGivn3K5C1Riw//l4eHbJ88Qm
+lpLJYgDvEy0m+p2qEt13Im3rTsNuzHz6P+P8xkXWAxAjj+FKv6tJCYoo2WoIEPzp
+S+REgWGos9506p2Zo6Yzk7KKT+KT5Q==
+=ONrj
+-----END PGP SIGNATURE-----
+
+--===============4369617430884309678==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b97f4dac40ee-60781d2d5899.txt
+
+debd9fa7bf17251c44a01ac1536d97566df45ca6 ASoC: dt-bindings: Add schema for "awinic,aw88399"
+725f3b967a507c515c5b14b4103840d22c217ef7 ASoC: codecs: Add code for bin parsing compatible with aw88399
+8ade6cc7e26175529474690fdbc1965901ec2024 ASoC: codecs: Add aw88399 amplifier driver
+95504218c688d286fb6bfd5f4dd394b74c80832f ASoC: Intel: bytcr_wm5102: Add BYT_WM5102_SSP2 quirk
+bce4b014cc215afd1eca06977dbe91a1eb63551c ASoC: Intel: bytcr_wm5102: Add BYT_WM5102_MCLK_19_2MHZ quirk
+c556d202bef1b74dbfa0369bf221ccd83dfa7a59 ASoC: Intel: bytcr_wm5102: Add BYT_WM5102_OUT_MAP quirk
+8619fd0e9026c10841e162ec403f4223fe1f3846 ASoC: Intel: bytcr_wm5102: Add BYT_WM5102_IN_MAP quirk
+5443d186163c6ab0084a5b23c901e0f9ba792463 ASoC: dt-bindings: qcom,sm8250: Add sc7180-qdsp6-sndcard
+4531f512e3ef147f07d47bceb256c0af5ab130b7 ASoC: qcom: sc7180: Add support for qdsp6 baked sound
+ccd0c6c7097b52b01a2c5951cfe96714d4421cd2 ASoC: codecs: 88pm860x: Handle component name prefix
+7a0762587a814387e631c07ae81169a7c646f012 ASoC: codecs: adau1373: Handle component name prefix
+ecea1812b911fed5e675b2d37b29ad4265c067ce ASoC: codecs: adav80x: Handle component name prefix
+5efc1c903e2b43a267ad13696698fcc152ed873a ASoC: codecs: lpass-rx-macro: Handle component name prefix
+a1fa72a780f428ddc956cf5ed4b97e2be76ceba3 ASoC: codecs: max9867: Handle component name prefix
+b2056ce3cf61a39796041dc5c94d7255de7f9f0c ASoC: codecs: rt5682s: Handle component name prefix
+e2d38e1196f61735716f9c2dd89dff32c0655529 ASoC: codecs: rtq9128: Handle component name prefix
+7df1e6a3c608ab0c345b8898f9ee5d5ac19f2eb4 ASoC: codecs: wcd9335: Handle component name prefix
+e54db8826f48c9ca52f2abd108d6e030ff20cae5 ASoC: codecs: wm8962: Handle component name prefix
+e13b63c47578a27dbf8907974f0dcba0bb2efe58 ASoC: codecs: wm8994: Handle component name prefix
+343b62590d5b950c8bf7f78fef7c81103c5f982c ASoC: codecs: wm8995: Handle component name prefix
+e84c7f5db97474cb4becd863a93d4ea541dc4110 ASoC: mediatek: mt8183: Handle component name prefix
+0fe153a99fcc2edeae4e863b03c5a8f71376629e ASoC: mediatek: mt8186: Handle component name prefix
+d1ecaabe9f1a669354de7420261bd8737da4bf48 ASoC: mediatek: mt8188: Handle component name prefix
+86cfaf99e4d3c7b4707fb8cc9eb06d8db10c1414 ASoC: mediatek: mt8192: Handle component name prefix
+317dd0dbadd8bd4de2d69fa6a0611456f3e15b1a ASoC: samsung: speyside: Handle component name prefix
+f82eb06a40c86c9a82537e956de401d497203d3a ASoC: tegra: machine: Handle component name prefix
+926f192f005fe957ea1bfe4635af10219ba363a2 ASoC: codecs: Add aw88399 amplifier driver
+11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
+246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
+60781d2d5899d6fc5fd173c1bcffaaec39643e17 ASoC: Intel: bytcr_wm5102: add various quirks
+
+--===============4369617430884309678==--
