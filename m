@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
-Date: Thu, 26 Oct 2023 01:18:06 -0000
-Message-Id: <169828308619.10594.2473803145852785622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 26 Oct 2023 01:18:22 -0000
+Message-Id: <169828310287.10770.16050288033725453077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sboyd/spmi
-user: sboyd
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
+  - ref: refs/heads/hwmon-next
+    old: 8d2c2aa7be7a39ebc19d5e8c6a42fc14031ecfc2
+    new: 5421af83a43bdcb646564fec238253d11009ad3f
+    log: |
+         5421af83a43bdcb646564fec238253d11009ad3f drivers: hwmon: max31827: handle vref regulator
+         
