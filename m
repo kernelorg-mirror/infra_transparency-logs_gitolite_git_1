@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6335801758594012389=="
+Content-Type: multipart/mixed; boundary="===============5885025520493588403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Thu, 26 Oct 2023 22:24:44 -0000
-Message-Id: <169835908407.4893.17346948332879573255@gitolite.kernel.org>
+Date: Thu, 26 Oct 2023 22:25:00 -0000
+Message-Id: <169835910045.5081.7987928220117856323@gitolite.kernel.org>
 
---===============6335801758594012389==
+--===============5885025520493588403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/dev-queue
     old: 8b855f3797e6b1d207b7a2b8dae0e9913f907e5b
     new: 2ceaa29dcd469d54bd69ef2e7efc89fde58e0561
     log: revlist-8b855f3797e6-2ceaa29dcd46.txt
 
---===============6335801758594012389==
+--===============5885025520493588403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -118,4 +118,4 @@ fabc67bf6c5cd45efb433631575b7d0c1fc53f41 Intel Bluetooth: Update firmware file f
 bc0b7dfa1f2345195d67050427c15f0f6417c19e Intel Bluetooth: Update firmware file for Intel Bluetooth AX203
 2ceaa29dcd469d54bd69ef2e7efc89fde58e0561 Merge branch 'core80' into 'main'
 
---===============6335801758594012389==--
+--===============5885025520493588403==--
