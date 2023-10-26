@@ -1,50 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2551198450768634273=="
+Content-Type: multipart/mixed; boundary="===============8137921345448856369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 26 Oct 2023 11:04:15 -0000
-Message-Id: <169831825547.21570.11326814219453558827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 26 Oct 2023 11:19:08 -0000
+Message-Id: <169831914850.605.8834002026903812685@gitolite.kernel.org>
 
---===============2551198450768634273==
+--===============8137921345448856369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: 8767ea08e4210cc94489ca3df8d4e84aa16a8c8e
-    new: 8ea9b4090f952a1dc9f80003cf8e35a37394a6a1
-    log: revlist-8767ea08e421-8ea9b4090f95.txt
+  - ref: refs/heads/20231023_krzysztof_kozlowski_asoc_fix_widget_name_comparisons_consider_dai_name_prefix
+    old: 3e46a740aa3af44d25bfed441c6cd3044aee3161
+    new: f82eb06a40c86c9a82537e956de401d497203d3a
+    log: revlist-3e46a740aa3a-f82eb06a40c8.txt
 
---===============2551198450768634273==
+--===============8137921345448856369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8767ea08e421-8ea9b4090f95.txt
+Content-Disposition: attachment; filename=revlist-3e46a740aa3a-f82eb06a40c8.txt
 
-820f59ed9680cd145138c39fb2956a140a0e38f0 PCI: hotplug: Add Ampere Altra Attention Indicator extension driver
-627591d23ea2a52a3155a09bf21ae5db0e6b63a0 Merge branch 'pci/aspm'
-076ea1f12a5e3226dd9a8f03ece9fa88e2ec3136 Merge branch 'pci/ats'
-014a19b3491906c0f5471e2176502429e4a843c0 Merge branch 'pci/endpoint'
-aa4b2953b47f7b82eb8bbc6f6ec2913be301ab3a Merge branch 'pci/enumeration'
-1e8ab0e245d421771911a33516df4c34e4480637 Merge branch 'pci/hotplug'
-f8f59eb82d9085d9de1845c482f369e6c1657fad Merge branch 'pci/p2pdma'
-59c6c559c1e9929c947e2c4364e6366ed5265a2b Merge branch 'pci/pm'
-900fafe2278896c6a80dbc201ed19975702428ba Merge branch 'pci/reset'
-e9dfac50b4a83d34ca3d11e8c7338df8fa1db55c Merge branch 'pci/vga'
-9ff8f4b8bffea318f424468d0ad3184a79caf9c6 Merge branch 'pci/controller/aspm'
-e26022884f0b8a5885503d70322c5c42dea0aab9 Merge branch 'pci/controller/cadence'
-a31545dc2e35c4359bde230435d0ae4b48f1f787 Merge branch 'pci/controller/hyperv'
-7b9474b3d0c0d41ef2bfa354685480ac521ee1e0 Merge branch 'pci/controller/layerscape'
-a03cd0bda62bbddea42fa8f4b50654352a7b7261 Merge branch 'pci/controller/rcar'
-514de28c25df1e65d2c824483fc6245db32a86a9 Merge branch 'pci/controller/speed'
-47d9e1fa205a1b0a5e0c99953666edc08b117322 Merge branch 'pci/controller/vmd'
-304500bedbee8a74ba3dd20581abdb1f5f4cbde7 Merge branch 'pci/config-errs'
-323dcf62f9f508e1b29db3d53ad05f3d4d1a8dd1 Merge branch 'pci/field-get'
-8ea9b4090f952a1dc9f80003cf8e35a37394a6a1 Merge branch 'pci/misc'
+ccd0c6c7097b52b01a2c5951cfe96714d4421cd2 ASoC: codecs: 88pm860x: Handle component name prefix
+7a0762587a814387e631c07ae81169a7c646f012 ASoC: codecs: adau1373: Handle component name prefix
+ecea1812b911fed5e675b2d37b29ad4265c067ce ASoC: codecs: adav80x: Handle component name prefix
+5efc1c903e2b43a267ad13696698fcc152ed873a ASoC: codecs: lpass-rx-macro: Handle component name prefix
+a1fa72a780f428ddc956cf5ed4b97e2be76ceba3 ASoC: codecs: max9867: Handle component name prefix
+b2056ce3cf61a39796041dc5c94d7255de7f9f0c ASoC: codecs: rt5682s: Handle component name prefix
+e2d38e1196f61735716f9c2dd89dff32c0655529 ASoC: codecs: rtq9128: Handle component name prefix
+7df1e6a3c608ab0c345b8898f9ee5d5ac19f2eb4 ASoC: codecs: wcd9335: Handle component name prefix
+e54db8826f48c9ca52f2abd108d6e030ff20cae5 ASoC: codecs: wm8962: Handle component name prefix
+e13b63c47578a27dbf8907974f0dcba0bb2efe58 ASoC: codecs: wm8994: Handle component name prefix
+343b62590d5b950c8bf7f78fef7c81103c5f982c ASoC: codecs: wm8995: Handle component name prefix
+e84c7f5db97474cb4becd863a93d4ea541dc4110 ASoC: mediatek: mt8183: Handle component name prefix
+0fe153a99fcc2edeae4e863b03c5a8f71376629e ASoC: mediatek: mt8186: Handle component name prefix
+d1ecaabe9f1a669354de7420261bd8737da4bf48 ASoC: mediatek: mt8188: Handle component name prefix
+86cfaf99e4d3c7b4707fb8cc9eb06d8db10c1414 ASoC: mediatek: mt8192: Handle component name prefix
+317dd0dbadd8bd4de2d69fa6a0611456f3e15b1a ASoC: samsung: speyside: Handle component name prefix
+f82eb06a40c86c9a82537e956de401d497203d3a ASoC: tegra: machine: Handle component name prefix
 
---===============2551198450768634273==--
+--===============8137921345448856369==--
