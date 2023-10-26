@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 26 Oct 2023 17:59:56 -0000
-Message-Id: <169834319667.6430.4679367691774118873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 26 Oct 2023 18:07:07 -0000
+Message-Id: <169834362715.12347.1184910996454017537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 3779416eed25a843364b940decee452620a1de4b
-    new: 0b783d2e82d827af73c779e8e8f95d07e992b451
+  - ref: refs/heads/kdevops
+    old: d2b8ae0fa5068793e459e4d204191c8415de0778
+    new: 29a64f97e86cda95a8be85aae00261ae2e03da5c
     log: |
-         19a214bffdf7abb8d472895bb944d9c269ab1699 perf vendor events intel: Add broadwellde two metrics
-         4ece2a7e88e1624f52c56d44394e4af1a13b1137 perf vendor events intel: Add tigerlake two metrics
-         0b783d2e82d827af73c779e8e8f95d07e992b451 perf tests: test_arm_coresight: Simplify source iteration
+         5b89c1bc961f7974b3f3f64983d7ac0a2f77b012 EDITME: cover title for kdevops
+         29a64f97e86cda95a8be85aae00261ae2e03da5c nfsd: ensure the nfsd_serv pointer is cleared when svc is torn down
          
