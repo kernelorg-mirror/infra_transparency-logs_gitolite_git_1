@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Thu, 26 Oct 2023 15:42:31 -0000
-Message-Id: <169833495100.4448.12003330914566599221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 26 Oct 2023 15:50:33 -0000
+Message-Id: <169833543314.10472.6483300657807233940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/next-integrity
-    old: b302f360831cb81a9eb525a3e729da5eabe0d0e9
-    new: bc4532e9cd3b060878eccabd836e8128a7793e38
-    log: |
-         bc4532e9cd3b060878eccabd836e8128a7793e38 ima: detect changes to the backing overlay file
-         
+  - ref: refs/heads/for-next
+    old: 40b89d9556f72f76e6e541dcd0034c71814f2af4
+    new: f6b2345eebbdebf278edcc9b58ca59ece7f86cd0
