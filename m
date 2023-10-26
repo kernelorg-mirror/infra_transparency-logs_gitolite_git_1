@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 26 Oct 2023 14:30:20 -0000
-Message-Id: <169833062054.16194.13192657092563046256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 26 Oct 2023 14:31:58 -0000
+Message-Id: <169833071840.16854.8292424119794870473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/kdevops
-    old: 9512cea99bed23b5f2dd785e489d1a92e3288839
-    new: d2b8ae0fa5068793e459e4d204191c8415de0778
+  - ref: refs/heads/master
+    old: 0a502562c3e9d51e05a19a2f509ad9ab4b496091
+    new: 49b9eae18c3e8cb5876c40acc4cf46489e1f09f0
     log: |
-         d2b8ae0fa5068793e459e4d204191c8415de0778 nfsd: ensure the nfsd_serv pointer is cleared when svc is torn down
+         49b9eae18c3e8cb5876c40acc4cf46489e1f09f0 offchannel: handle out of order ACKs/events
          
