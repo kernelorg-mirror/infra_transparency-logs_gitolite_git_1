@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Thu, 26 Oct 2023 14:15:40 -0000
-Message-Id: <169832974017.4984.12121904337488741548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 26 Oct 2023 14:19:29 -0000
+Message-Id: <169832996959.6402.18316932867858313797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/extcon-next-for-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 8d0e735a729d63c36ec1cea734d4ac718b81ac34
+  - ref: refs/heads/master
+    old: 3de07b963ab81a402a5c5b31e8d2b70c3b08f6ef
+    new: ea41b880cc85f0a992571f66e4554a69f7806246
