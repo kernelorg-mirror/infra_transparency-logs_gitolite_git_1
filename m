@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 26 Oct 2023 13:30:21 -0000
-Message-Id: <169832702149.2676.14687216855176302316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 26 Oct 2023 13:32:36 -0000
+Message-Id: <169832715686.3533.7933888561583764957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/20231025_quic_sibis_regulator_qcom_rpmh_add_regulator_support_for_sc8380xp
-    old: ae61939cdf378ae3acc5716ccb43fef3cdace36e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: c421c12586b3f00fb96b5c9af15c9a051a9090b1
+    new: 37db10bc247d5d0b448babd7ff386f092246e732
+    log: |
+         870f09f1ba3014e2c157b14299c172b4bb716638 samples/bpf: Allow building with custom CFLAGS/LDFLAGS
+         f56bcfadf7d6d56b099726df4fc262b76486b0e0 samples/bpf: Fix passing LDFLAGS to libbpf
+         37db10bc247d5d0b448babd7ff386f092246e732 samples/bpf: Allow building with custom bpftool
+         
