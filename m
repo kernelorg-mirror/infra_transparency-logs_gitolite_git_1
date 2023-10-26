@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2769391525243813728=="
+Content-Type: multipart/mixed; boundary="===============8579679725850676237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Oct 2023 15:11:30 -0000
-Message-Id: <169833309078.14243.6610946693477911164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Oct 2023 15:11:37 -0000
+Message-Id: <169833309768.14351.10204518168910930429@gitolite.kernel.org>
 
---===============2769391525243813728==
+--===============8579679725850676237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 109cb2160128211ca7b17bad79cb0441f1440bc9
     new: b97f4dac40eecfc2fc9b818b427a8eda44cb7763
     log: revlist-109cb2160128-b97f4dac40ee.txt
 
---===============2769391525243813728==
+--===============8579679725850676237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1698333088 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1698333087-bfcf7f62d97498a45f2676c0c7afa2bd44ac84cc
+pusher C3F436CA30F5D8EB 1698333095 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1698333094-910b4ae88e42cc80a5eef4393ba5dae2c7d05efb
 
-109cb2160128211ca7b17bad79cb0441f1440bc9 b97f4dac40eecfc2fc9b818b427a8eda44cb7763 refs/heads/for-6.7
+109cb2160128211ca7b17bad79cb0441f1440bc9 b97f4dac40eecfc2fc9b818b427a8eda44cb7763 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU6gaAACgkQJNaLcl1U
-h9Axwwf+OiVAms6h+Q5Z54dKOST19YoUfY9o1xljBOUJYXOE+GZXFSQd5CXKeFKr
-+cRJ4y9rEwUF7oIkEpDohpiUEiSiiqGLJOonyl52W9VrRM+DWndmA+yjn3qvKcVw
-o+dNqWrC7tUWXmk9b5MWkqKTiEdm0cutuhNHifTzgTDxN/T9dr+CgOuaMzqcQPWW
-Em5Sy/ozmRHVVswBdJvZOR+N/36GrJRHOU0gdzT6J6x9TEIcyFpFkqZxtX7BuvMD
-ttONMwhkkDBhihW8dfKB6JtbamP6oIfjMv+urPlBC3Qvk6rCGCG7StWZm9gshJqQ
-dZDaZOANT7MVvfmWP1AZpdWhoZn8DA==
-=/ubE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU6gacACgkQJNaLcl1U
+h9AWOQf/cZN1Y1XVzqZ0G9onEgfFuYD40FC2Wnmz75lcqaW1fnqA76nXrcQb+MrE
+A0rtCpWX3XVfg6afi/n8+r62d9pi7p4d7R8TScASziIXpl5MBdaOtrejeSUQhJXD
+CNCLvPUX2CY4pmer2Nsh9BU+ubwHScCn8Qn4HNgsLyTyBsSU27xVaYz9cmoItEOj
+ucRgdsAD25xvb2RHtgjhGR509SB81kg1zsz9pl9S4Ell5k3OeEsHDeesZwL7tQK2
+V1oFv6T4U+kx/cIbHsoCjy4gIyziwB67+x9BVTe9zCrtsPXY3wLozhFPuTu+xPeY
+dyJx9nb76j1ZC6xVBb0cwQt6CTjb0Q==
+=b1qH
 -----END PGP SIGNATURE-----
 
---===============2769391525243813728==
+--===============8579679725850676237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ caa126f2b0c821811eedf2e2fd435b11844bf0f1 ASoC: amd: acp: change acp power on mas
 e84db124cb2158b538820f31f641c28b86fb3ca3 ASoC: amd: acp: Add pci legacy driver support for acp7.0 platform
 b97f4dac40eecfc2fc9b818b427a8eda44cb7763 ASoC: amd: acp: add machine driver support for acp7.0
 
---===============2769391525243813728==--
+--===============8579679725850676237==--
