@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0836783528822073084=="
+Content-Type: multipart/mixed; boundary="===============3125777919162338589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Thu, 26 Oct 2023 19:03:51 -0000
-Message-Id: <169834703139.20484.13143929423539508036@gitolite.kernel.org>
+Date: Thu, 26 Oct 2023 19:07:41 -0000
+Message-Id: <169834726138.24690.1146485834299329171@gitolite.kernel.org>
 
---===============0836783528822073084==
+--===============3125777919162338589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,27 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
   - ref: refs/heads/next
-    old: e9dd99210ceb4f7d790bffa1da3758eea45ec000
-    new: be2d753e37d723e75109605ed9cd9f213503ff6b
-    log: revlist-e9dd99210ceb-be2d753e37d7.txt
+    old: be2d753e37d723e75109605ed9cd9f213503ff6b
+    new: 51442e8d64bcb7ac92d0cde5dccda0cfa94630fa
+    log: revlist-be2d753e37d7-51442e8d64bc.txt
 
---===============0836783528822073084==
+--===============3125777919162338589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9dd99210ceb-be2d753e37d7.txt
+Content-Disposition: attachment; filename=revlist-be2d753e37d7-51442e8d64bc.txt
 
-37a45477f9f1533beee2d80afd505d94356d8c3c landlock: Make ruleset's access masks more generic
-761c88e8130b6668ce649bcb777fb15a60ee6768 landlock: Allow FS topology changes for domains without such rule type
-647be3db881299f32c33eee496b98e08c80a96b0 landlock: Refactor landlock_find_rule/insert_rule helpers
-cd1fec488b73a6c0e3c617b3681ddfa11766a32c landlock: Refactor merge/inherit_ruleset helpers
-69936e6d6b0c06104ad8f325caaf8b783f257b68 landlock: Move and rename layer helpers
-b2d5a152f4fd5543ca1032d3f57f3b1bb547a0be landlock: Refactor layer helpers
-b38ec32b2c0ea3920eb9bd942e831a4186361549 landlock: Refactor landlock_add_rule() syscall
-b9603414b2dc095156d7e3aed083ae61740b2ae2 landlock: Support network rules with TCP bind and connect
-a00ac66f8c5153fd3bcd59458afffcb25257681b selftests/landlock: Share enforce_ruleset() helper
-d83aa668ce0020ce3b1a614f8b47402f477cecb1 selftests/landlock: Add network tests
-4d87455fb492e1cae9b104ba331a48c787be4136 samples/landlock: Support TCP restrictions
-be2d753e37d723e75109605ed9cd9f213503ff6b landlock: Document network support
+13fc6455fa19b0859e1b9640bf09903bec8df4f4 landlock: Make ruleset's access masks more generic
+d7220364039f6beb76f311c05f74cad89da5fad5 landlock: Allow FS topology changes for domains without such rule type
+a4ac404b3032562ed6a34232b5266d0f446dd799 landlock: Refactor landlock_find_rule/insert_rule helpers
+6146b6141770206792d0e1155794cc48697c7985 landlock: Refactor merge/inherit_ruleset helpers
+0e7410112964168a65578002269ae3b80b207936 landlock: Move and rename layer helpers
+7a11275c378753fbdf00f2cfc80bc86a119ca67d landlock: Refactor layer helpers
+0e0fc7e8eb4a11bd9f89a9c74bc7c0e144c56203 landlock: Refactor landlock_add_rule() syscall
+fff69fb03dde1dfa348cfdb74b13287dabe42c25 landlock: Support network rules with TCP bind and connect
+1fa335209f6ad9d554655bb802c5b49b855d6237 selftests/landlock: Share enforce_ruleset() helper
+a549d055a22e4fc5559ef642b30721899fa07b75 selftests/landlock: Add network tests
+5e990dcef12eebf683d209bac5e14591308dc216 samples/landlock: Support TCP restrictions
+51442e8d64bcb7ac92d0cde5dccda0cfa94630fa landlock: Document network support
 
---===============0836783528822073084==--
+--===============3125777919162338589==--
