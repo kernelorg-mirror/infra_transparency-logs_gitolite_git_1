@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4093322040792398086=="
+Content-Type: multipart/mixed; boundary="===============6686050391106634493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 26 Oct 2023 04:20:55 -0000
-Message-Id: <169829405574.14205.15342900760043137749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 26 Oct 2023 04:21:05 -0000
+Message-Id: <169829406518.14365.3945396910656125902@gitolite.kernel.org>
 
---===============4093322040792398086==
+--===============6686050391106634493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: fe1998aa935b44ef873193c0772c43bce74f17dc
     new: 2ef7141596eed0b4b45ef18b3626f428a6b0a822
     log: revlist-fe1998aa935b-2ef7141596ee.txt
-  - ref: refs/heads/stable
-    old: 4f82870119a46b0d04d91ef4697ac4977a255a9d
-    new: 611da07b89fdd53f140d7b33013f255bf0ed8f34
-    log: |
-         9b311b7313d6c104dd4a2d43ab54536dce07f960 ACPI: NFIT: Install Notify() handler before getting NFIT table
-         611da07b89fdd53f140d7b33013f255bf0ed8f34 Merge tag 'acpi-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-         
-  - ref: refs/tags/next-20230726
-    old: c074ca98e0ba681ec268e6136d35bc82d3a3713b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231026
     old: 0000000000000000000000000000000000000000
     new: a6e8a343ee48e75c376352ddc1e731d06e2f65d0
 
---===============4093322040792398086==
+--===============6686050391106634493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -766,4 +756,4 @@ fb9028d665742c68a0d29216385584138c6f0df3 Merge branch 'bitmap-for-next' of https
 7d439c1bbc187c48eec6ef07db1fea242225cc27 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
 2ef7141596eed0b4b45ef18b3626f428a6b0a822 Add linux-next specific files for 20231026
 
---===============4093322040792398086==--
+--===============6686050391106634493==--
