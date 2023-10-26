@@ -1,21 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Thu, 26 Oct 2023 04:57:14 -0000
-Message-Id: <169829623463.7014.6625716743512194369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Thu, 26 Oct 2023 05:30:08 -0000
+Message-Id: <169829820880.30960.15990775416625775972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/dev-test
-    old: 104b6b83206a9919d4b10f310981cc99fbbc8ed1
-    new: d860afaebd1e04839047d247fa5d1cfcdeaeefb6
+  - ref: refs/heads/linux-next
+    old: ac7e98c73c056e93b4e209c2a94e2c748f4fd6ca
+    new: 276d5784878e21f0165974c58e47765ba211163c
     log: |
-         0f503e443ccb069ba0f76b20479f260f063711e9 f2fs-tools: do not reuse corrupted quota inodes
-         c9009e00d44dcaaab0cd25d3a15cdd673843f71f f2fs-tools: fix corrupted xattr entry
-         d860afaebd1e04839047d247fa5d1cfcdeaeefb6 f2fs-tools: ensure that unused xattr space is zeroized
+         90176c9830203f0cf705148884d448e2e012cb60 vhost-vdpa: clean iotlb map during reset for older userspace
+         020ecd2966d3789b6344cb036438e60719de40d7 vdpa/mlx5: implement .reset_map driver op
+         276d5784878e21f0165974c58e47765ba211163c vdpa_sim: implement .reset_map support
+         
+  - ref: refs/heads/test
+    old: ac7e98c73c056e93b4e209c2a94e2c748f4fd6ca
+    new: 276d5784878e21f0165974c58e47765ba211163c
+    log: |
+         90176c9830203f0cf705148884d448e2e012cb60 vhost-vdpa: clean iotlb map during reset for older userspace
+         020ecd2966d3789b6344cb036438e60719de40d7 vdpa/mlx5: implement .reset_map driver op
+         276d5784878e21f0165974c58e47765ba211163c vdpa_sim: implement .reset_map support
+         
+  - ref: refs/heads/vhost
+    old: ac7e98c73c056e93b4e209c2a94e2c748f4fd6ca
+    new: 276d5784878e21f0165974c58e47765ba211163c
+    log: |
+         90176c9830203f0cf705148884d448e2e012cb60 vhost-vdpa: clean iotlb map during reset for older userspace
+         020ecd2966d3789b6344cb036438e60719de40d7 vdpa/mlx5: implement .reset_map driver op
+         276d5784878e21f0165974c58e47765ba211163c vdpa_sim: implement .reset_map support
          
