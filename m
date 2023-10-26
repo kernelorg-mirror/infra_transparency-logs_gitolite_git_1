@@ -1,29 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 26 Oct 2023 08:39:49 -0000
-Message-Id: <169830958951.2608.4832669342564080920@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7471638514193147989=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 26 Oct 2023 08:41:41 -0000
+Message-Id: <169830970145.4869.10249819909277535945@gitolite.kernel.org>
+
+--===============7471638514193147989==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/b4/vfs-super-freeze
-    old: 2c1ddaa2440f456e8955ce55c8c7a1c443b2f8e0
-    new: e5be58ae53ba43c06632067d3ba07067aeb5c888
-    log: |
-         5976835d3c6424a49de8d5b321e3ad0db2c00870 fs: massage locking helpers
-         d3789f8ffa5097562a637e773096000bc33c9ffb bdev: rename freeze and thaw helpers
-         1a8f66969b0582f8fe32d6d3a724ce4c8e8f96b5 bdev: surface the error from sync_blockdev()
-         1b7bb17d402c86b6a68fe348d0c426bf53f6dc6a bdev: add freeze and thaw holder operations
-         ac7b3ae74f1eae9d85a9e179ecf7facc498e9bee bdev: implement freeze and thaw holder operations
-         cab9a88efd2424cb0fd453b6e240ef6e0c783ee6 fs: remove get_active_super()
-         7a3c964c2ef0f17acbd4955d79a7d0fc9748be7c super: remove bd_fsfreeze_sb
-         59af08e90b672b99de8b259aa54fbc67d8740600 fs: remove unused helper
-         3ea3ebcaf82bcd4075c61a6f1660e055299340e4 porting: document block device freeze and thaw changes
-         4b2676b6a9ceb81304d75ae81164a6539abd570a blkdev: comment fs_holder_ops
-         e5be58ae53ba43c06632067d3ba07067aeb5c888 Implement freeze and thaw as holder operations
-         
+  - ref: refs/heads/main
+    old: a63b6622120cd03a304796dbccb80655b3a21798
+    new: 53798666648af3aa0dd512c2380576627237a800
+    log: revlist-a63b6622120c-53798666648a.txt
+
+--===============7471638514193147989==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a63b6622120c-53798666648a.txt
+
+13454e6e0df2ff37853596d546438ac84ca6a413 isdn: mISDN: hfcsusb: Spelling fix in comment
+3e3929ef889e650dd585dc0f4f7f18240688811a wifi: cfg80211: pass correct pointer to rdev_inform_bss()
+c434b2be2d80d236bb090fdb493d4bd5ed589238 wifi: cfg80211: fix assoc response warning on failed links
+91535613b6090fc968c601d11d4e2f16b333713c wifi: mac80211: don't drop all unprotected public action frames
+7798b59409c345d4a6034a4326bceb9f7e2e8b58 net/handshake: fix file ref count in handshake_nl_accept_doit()
+d788c9338342a3146d115281922901c1e3e1cbff sfc: cleanup and reduce netlink error messages
+9644bc49705723bf7c69aa9bf542bb5161b91dba Fix NULL pointer dereference in cn_filter()
+adc8df12d91a2b8350b0cd4c7fec3e8546c9d1f8 gtp: uapi: fix GTPA_MAX
+4530e5b8e2dad63dcad2206232dd86e4b1489b6c gtp: fix fragmentation needed check with gso
+cd8892c07876da0c4b50e020048a32a28596a074 Merge branch 'gtp-tunnel-driver-fixes'
+00d67093e4f1874f713e5869dbcf34a00665dbb7 Merge tag 'wireless-2023-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+77a8c982ff0d4c3a14022c6fe9e3dbfb327552ec i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
+197f9fba9663e765f8f3ae3b2375c6cc32b2e2b3 net: ipv4: fix typo in comments
+1711435e3e67e079d6a2bce54d96d1af21c7ef2c net: ipv6: fix typo in comments
+53b08c4985158430fd6d035fb49443bada535210 vsock/virtio: initialize the_virtio_vsock before using VQs
+5e5d8b94a4fa5fc4a4ea5c97393a29aa5bf3e4bb Merge tag 'nf-23-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+53798666648af3aa0dd512c2380576627237a800 iavf: in iavf_down, disable queues when removing the driver
+
+--===============7471638514193147989==--
