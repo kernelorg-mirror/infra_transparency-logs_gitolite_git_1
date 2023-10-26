@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 26 Oct 2023 11:28:56 -0000
-Message-Id: <169831973636.7728.796354254345093902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 26 Oct 2023 11:29:10 -0000
+Message-Id: <169831975023.7887.16999593344409803831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/b4/vfs-super-freeze.v3
-    old: 0000000000000000000000000000000000000000
-    new: e5be58ae53ba43c06632067d3ba07067aeb5c888
+  - ref: refs/heads/regulator-6.6
+    old: 6e800968f6a715c0661716d2ec5e1f56ed9f9c08
+    new: bc00d9f3813a40bc2d854ae0edab14c6b43a3219
+    log: |
+         bc00d9f3813a40bc2d854ae0edab14c6b43a3219 regulator: qcom-rpmh: Fix smps4 regulator for pm8550ve
+         
