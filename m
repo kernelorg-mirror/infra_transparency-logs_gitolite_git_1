@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 26 Oct 2023 09:32:07 -0000
-Message-Id: <169831272760.8011.16798699991243384393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 26 Oct 2023 09:43:31 -0000
+Message-Id: <169831341147.30099.15786650029809357655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 083efcfd1c31dcc395341b4f5aa5d0ae072ae329
-    new: 4f0d5e708ef88b58c954581ca54161064beaaaf5
-    log: |
-         38d54ecfe293ed8bb26d05e6f0270a0aaa6656c6 x86/i8259: Skip probing when ACPI/MADT advertises PCAT compatibility
-         4f0d5e708ef88b58c954581ca54161064beaaaf5 x86/tsc: Defer marking TSC unstable to a worker
-         
+  - ref: refs/tags/net-6.6-rc8
+    old: 32812fcfd4f816ae168fbe1ee3e1931f9cdc28af
+    new: 0000000000000000000000000000000000000000
