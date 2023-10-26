@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6103161505383724339=="
+Content-Type: multipart/mixed; boundary="===============7593090532391560205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 26 Oct 2023 17:58:26 -0000
-Message-Id: <169834310633.5750.15124873556556807699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 26 Oct 2023 17:58:39 -0000
+Message-Id: <169834311907.5903.9990618993622917192@gitolite.kernel.org>
 
---===============6103161505383724339==
+--===============7593090532391560205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
 
---===============6103161505383724339==
+--===============7593090532391560205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,4 +384,4 @@ d88520ad73b79e71e3ddf08de335b8520ae41c5c Merge tag 'pull-nfsd-fix' of git://git.
 4f82870119a46b0d04d91ef4697ac4977a255a9d Merge tag 'mm-hotfixes-stable-2023-10-24-09-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 611da07b89fdd53f140d7b33013f255bf0ed8f34 Merge tag 'acpi-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============6103161505383724339==--
+--===============7593090532391560205==--
