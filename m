@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 26 Oct 2023 15:50:33 -0000
-Message-Id: <169833543314.10472.6483300657807233940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Oct 2023 15:50:38 -0000
+Message-Id: <169833543825.10558.17784990748236806220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 40b89d9556f72f76e6e541dcd0034c71814f2af4
-    new: f6b2345eebbdebf278edcc9b58ca59ece7f86cd0
+  - ref: refs/tags/sent/20231026-regmap-fix-selector-sync-ad1514fd15df-v1
+    old: 0000000000000000000000000000000000000000
+    new: bc3d448ce9032b61236f779d0d386952d35e24cc
