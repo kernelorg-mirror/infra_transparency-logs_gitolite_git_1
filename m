@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7322610583324263266=="
+Content-Type: multipart/mixed; boundary="===============8109681567873536945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 27 Oct 2023 09:36:02 -0000
-Message-Id: <169839936268.4265.1230452987601293350@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 09:38:50 -0000
+Message-Id: <169839953075.6655.4258186930096463456@gitolite.kernel.org>
 
---===============7322610583324263266==
+--===============8109681567873536945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 40ea89fb19fdb73472f63a4b00c728ebb55af1b5
-    new: 800dce42777cb720fbfb731a8efc36892a1d84ad
-    log: revlist-40ea89fb19fd-800dce42777c.txt
+    new: 5ab1a0474ce4ec5359f4514468371bcd9ccdcacd
+    log: revlist-40ea89fb19fd-5ab1a0474ce4.txt
 
---===============7322610583324263266==
+--===============8109681567873536945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698399360 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698399528 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1698399360-75ee212620861e223997be47d129b0161f851eec
+nonce 1698399528-809833ef09e8365bcef728881d8403d043fcd155
 
-40ea89fb19fdb73472f63a4b00c728ebb55af1b5 800dce42777cb720fbfb731a8efc36892a1d84ad refs/heads/char-misc-testing
+40ea89fb19fdb73472f63a4b00c728ebb55af1b5 5ab1a0474ce4ec5359f4514468371bcd9ccdcacd refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU7hIAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1PkP/3aK4lH3uoC4/el9GTL1
-a91GW/HlhC8oY3tdiWjtBYgzX5Q/aI9j8oMrZ2sgnS0Q/yHoP/e23UHEy/j6eakT
-dn5gk+Twn1ude2XWwxNobd6A2fCNrz+rpcQgyC+sBHLCq7Qsq9qFX/j6E1YB51ny
-I7VevrKrAKs9HJXSY+lPJX2UTSD425zNm2/Gus04KYCfOKfz7v48xxn/W1AIN8+w
-774aPPhBJGl0l6XXva85KLEzsqdTKkmf5mUda0qwEXXJXr2asMjexgbow8WBZxv9
-jXX0cyVGlIeay6BBu0SKoZIo1+BSepUkUM74AuwTzPds7Eue4rw/iiO6IUHTaGHs
-RAJTS+Ua7Mrhtb4akngtYFi2vh8RzpUFIu672bujSZ9qRKIaMVBHiWATxo3T//j+
-FeND3BDUE0C61mac63uv4AW9YNRGsKxy/64AeiD/DtsugIw86nYguYgRUa1axYbN
-pMpEnxDiotwr8W2B0EojsrtYMuk1+E/1T3FgDTeq3/aDIUiOAhNxzl8LETDNcgqH
-vMrEWxYh1+F5F43RCz0CxENeHKPbUsAwEaUl4haJwhwSe3QC3cY4RULRUt7v7f2M
-2d9NQPcyhB03nsXPQVIHYdtAhe4dhsmo8UhJsEyYXQW0tDnq0jjNvQ0OoEoWXNLU
-BtRzcSywRllTxLXXw1RLru0w
-=4Vcf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU7hSgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wOwP/Ag//D3rz652b035NQm+
+w8uaA4R5+u+kigaE3CDJ72HbGDAFFrskqiYsxrozCbFVpqqBF50tnJ8tl7YAaPHP
+mSKZzcoAoQMaYNs3lIg3N/1GIIXCJ5xyl0l6heol8xrsI9O1Xtdph8i8W+i7jHd+
+TI7tn7qw1bnNYvMg2nnXjbC4CnCJoo5PHeLQQJDi6ee0K+dUFtNEqxL4Fkx0h10H
++DwWkk8YNVO+yb376/zIbHhAHx5xQ45pwlrBGY14tCEUcIXmee9tj6Fuuw8dMNx+
+yjlNxp4SsqCmZnTGr/7VYHUvrTIvU36B7VuZq+UtkTrINET2vmQ1xVHtHHnF0piL
+rZ63rKvKjgZp9mtVuvLKjLPlqviv1ONCXKByR0P69C45GMq4WXbvRMUNbBYsCBfA
+h42QG5UnaO0oYZndalby3eXYwDEmAZaSmPfKpQ0SujhnQl9pNYkuNQK5VRXkqgtG
+LSKxoC33wDQ/+S9picGzSI9RW7JV3pURvb1F1zldEHDJFT7ihgGNCEoAx7NLL05K
+fyGKYu81XiKbxKTI9y/PL+IC7PbAOjPve/DNl/y4Xctp1xAF2OteT4o4fvrhs8Wc
+uOnscyZLdi+jaKIAd8JyG7GpBZkmI10U/shiHMDRb5dpM2AnUqFmzYK5kGVK2mrp
+xOyQWSo9uTxVzBAUhOdXmidb
+=1i8B
 -----END PGP SIGNATURE-----
 
---===============7322610583324263266==
+--===============8109681567873536945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40ea89fb19fd-800dce42777c.txt
+Content-Disposition: attachment; filename=revlist-40ea89fb19fd-5ab1a0474ce4.txt
 
+8a590d7371f02ba37d073bed9f988f529f95a03c extcon: add Realtek DHC RTD SoC Type-C driver
+a1e932cefac987b5e4a7ddde37c99e3d2e6fe73e dt-bindings: usb: Add Realtek DHC RTD SoC Type-C
+36d301f3da0a7a1fb626a3265aa677127efa9854 extcon: max77693: add device-tree compatible string
+da886ba844791d11c9d1526fddf8607eb0198243 extcon: max77843: add device-tree compatible string
 dd014803f260b337daaabcde259daf70d5b26b5e interconnect: qcom: icc-rpm: Add AB/IB calculations coefficients
 db8fc1002c53bc17a3ca6fad2c524de42b77c146 interconnect: qcom: icc-rpm: Separate out clock rate calulcations
 919791d82d3b878094e9edc39b0d9a4eafcc0860 interconnect: qcom: icc-rpm: Let nodes drive their own bus clock
@@ -97,8 +101,10 @@ e753741421965e5033c5bf6264fc8370ad01a400 interconnect: msm8974: Replace custom i
 6548ecdfc16327aafeaa1f1d97f63c79995a56cb interconnect: imx: Replace inclusion of kernel.h in the header
 4d8784d84e17529f0f0774d3a946fd07057cd9a4 dt-bindings: interconnect: qcom,rpmh: do not require reg on SDX65 MC virt
 9330bf741fdac78c398a866f979fd29fea435a88 Merge branch 'icc-misc' into icc-next
+b3edc3463d64bc469162138a6bec6913fbeef931 extcon: realtek: add the error handler for nvmem_cell_read
 c8fd5a37340f9dfb02f7c340d7b602bd2f7ec449 interconnect: qcom: Convert to platform remove callback returning void
 d4c720a19e9ac3a907a8bf9a11c5a3a4e3e50a34 Merge branch 'icc-platform-remove' into icc-next
 800dce42777cb720fbfb731a8efc36892a1d84ad Merge tag 'icc-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
+5ab1a0474ce4ec5359f4514468371bcd9ccdcacd Merge tag 'extcon-next-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 
---===============7322610583324263266==--
+--===============8109681567873536945==--
