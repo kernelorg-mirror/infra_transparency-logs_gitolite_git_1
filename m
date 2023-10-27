@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 27 Oct 2023 11:47:05 -0000
-Message-Id: <169840722537.11089.8144957017139525902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 27 Oct 2023 13:10:21 -0000
+Message-Id: <169841222121.6942.3334374472894029042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/kdevops
-    old: 88fdd0cfe1a9807436967d09090b662546bf52b6
-    new: 97753618299a20d3f671513b9e46172d863942a8
+  - ref: refs/heads/perf/core
+    old: 744940f1921c8feb90e3c4bcc1e153fdd6e10fe2
+    new: 33744916196b4ed7a50f6f47af7c3ad46b730ce6
     log: |
-         97753618299a20d3f671513b9e46172d863942a8 nfsd: ensure the nfsd_serv pointer is cleared when svc is torn down
+         571d91dcadfa3cef499010b4eddb9b58b0da4d24 perf: Add branch stack counters
+         85846b27072defc7ab3dcee7ff36563a040079dc perf/x86: Add PERF_X86_EVENT_NEEDS_BRANCH_STACK flag
+         1f2376cd03dd3b965d130ed46a7c92769d614ba1 perf: Add branch_sample_call_stack
+         318c4985911245508f7e0bab5265e208a38b5f18 perf/x86/intel: Reorganize attrs and is_visible
+         33744916196b4ed7a50f6f47af7c3ad46b730ce6 perf/x86/intel: Support branch counters logging
          
