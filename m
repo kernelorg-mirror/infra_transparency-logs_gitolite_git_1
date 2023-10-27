@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 27 Oct 2023 21:10:41 -0000
-Message-Id: <169844104146.28391.12461913694931980835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pateldipen1984/linux
+Date: Fri, 27 Oct 2023 21:18:47 -0000
+Message-Id: <169844152712.720.10561939983163503861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/pateldipen1984/linux
+user: pateldipen1984
 changes:
-  - ref: refs/heads/master
-    old: ec80910162e0a9a7f78310641aa4f13acc0c15da
-    new: bd7668bf449b8870835e6ce012e59670baeec2e1
+  - ref: refs/heads/for-next
+    old: 091ac92dc79e35ba208b022936dc9f13e0bbad7c
+    new: fc62d5e214df2dd64f5d675f01b609d86a422a2b
     log: |
-         15e32b2b22adbf00e76d9611ecd34be1c97a99e9 ideas/autotune_sim: Set normal error with variable
-         bef8ce644cd526455b3d7ad35f23b2e89d47cab1 ideas/autotune_sim: Ensure random range is normal
-         883cb8f9d87dd2702fe59a43ea1699390754a599 idea/autotune_sim: Ignore consecutive success
-         bd7668bf449b8870835e6ce012e59670baeec2e1 ideas/autotune_sim: Implement error options
+         b7c3ca3553d1de5e86c85636828e186d30cd0628 hte: tegra: Fix missing error code in tegra_hte_test_probe()
+         fc62d5e214df2dd64f5d675f01b609d86a422a2b hte: Use kasprintf() instead of fixed buffer formatting
          
