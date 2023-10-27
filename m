@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 27 Oct 2023 07:46:12 -0000
-Message-Id: <169839277255.23329.15702796128125272861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 27 Oct 2023 07:52:23 -0000
+Message-Id: <169839314319.27172.3154002797311427646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/experimental
-    old: 8a39c1cbfaf1c73b21c88edb34e2d4077f8315ac
-    new: e7bf849582cd65f9c9df17e93a85ac84728a3715
+  - ref: refs/heads/for-next
+    old: 776d67be377018ed9cf37b79da84a20259d1e66c
+    new: e2050101ad856e6fa3ac1a211ef0085ab3a96d5a
     log: |
-         5a335064d21d0c7bc5ae6522e74f1586cfedacc7 erofs-utils: lib: tidy up erofs_compress_destsize()
-         e7bf849582cd65f9c9df17e93a85ac84728a3715 erofs-utils: lib: drop prefix_sha256 digests
+         2ed20dec2a885dd8bea5af104b7bebc4ba5c9e72 HID: nvidia-shield: Fix a missing led_classdev_unregister() in the probe error handling path
+         ec2926f5f6221b550fbed6912dafd6ef72b29131 HID: nvidia-shield: Fix some missing function calls() in the probe error handling path
+         81701f7132f8cc589a67b6f4ecac2f759f140498 HID: nvidia-shield: Introduce thunderstrike_destroy()
+         e2050101ad856e6fa3ac1a211ef0085ab3a96d5a Merge branch 'for-6.7/nvidia-shield' into for-next
          
