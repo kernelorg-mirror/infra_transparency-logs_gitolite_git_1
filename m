@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 27 Oct 2023 17:17:14 -0000
-Message-Id: <169842703488.22578.7748908957974030011@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 17:20:14 -0000
+Message-Id: <169842721418.25249.17648175530705515172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: daveh
 changes:
-  - ref: refs/tags/x86_platform_for_6.7_rc1
-    old: 0000000000000000000000000000000000000000
-    new: fa850f37293b3ade9ac6e3824efd2ff494eea36e
+  - ref: refs/heads/x86/urgent
+    old: 4f0d5e708ef88b58c954581ca54161064beaaaf5
+    new: b99d70c0d1380f1368fd4a82271280c4fd28558b
+    log: |
+         b99d70c0d1380f1368fd4a82271280c4fd28558b x86/cpu: Add model number for Intel Arrow Lake mobile processor
+         
