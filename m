@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 27 Oct 2023 21:33:33 -0000
-Message-Id: <169844241393.10857.14683755013494682637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 27 Oct 2023 21:44:07 -0000
+Message-Id: <169844304766.18987.6374008228666486554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 0262a8a079896440fab98844124a951d85b63166
-    new: bdb7e1922052b1e7fcce63e2cfa195958ff97e05
+  - ref: refs/heads/for-next
+    old: 41d6433c387315957dded8150f140cc5e3040684
+    new: 7eb274440a58e9c6884e47dd05a4915b68bff67c
     log: |
-         9e630efb5a4af56fdb15aa10405f5cfd3f5f5b83 ASoC: fsl: Fix PM disable depth imbalance in fsl_easrc_probe
-         7dd692217b861a8292ff8ac2c9d4458538fd6b96 ASoC: SOF: sof-pci-dev: Fix community key quirk detection
-         168d97844a61db302dec76d44406e9d4d7106b8e ASoC: Intel: Skylake: Fix mem leak when parsing UUIDs fails
-         f0220575e65abe09c09cd17826a3cdea76e8d58f ASoC: soc-dai: add flag to mute and unmute stream during trigger
-         805ce81826c896dd3c351a32814b28557f9edf54 ASoC: codecs: wsa883x: make use of new mute_unmute_on_trigger flag
-         bdb7e1922052b1e7fcce63e2cfa195958ff97e05 ASoC: Merge up workaround for CODECs that play noise on stopped stream
+         be97d0db5f44c0674480cb79ac6f5b0529b84c76 riscv: VMAP_STACK overflow detection thread-safe
+         82982fdd5133fa7e0b2dfaf746d18d6f29922b82 riscv: Deduplicate IRQ stack switching
+         e609b4f4252a2ad2454736078693571b9fbff019 riscv: Move global pointer loading to a macro
+         d1584d791a297aa8ed93503382a682a6ecfc4218 riscv: Implement Shadow Call Stack
+         c40fef858d002fb027033c572ac8bdf8756a2c6b riscv: Use separate IRQ shadow call stacks
+         245561ba6d5de42bf73d501f910b181bc7fa5601 lkdtm: Fix CFI_BACKWARD on RISC-V
+         7eb274440a58e9c6884e47dd05a4915b68bff67c Merge patch series "riscv: SCS support"
          
