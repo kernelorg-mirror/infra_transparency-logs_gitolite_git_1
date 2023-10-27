@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 27 Oct 2023 14:26:21 -0000
-Message-Id: <169841678102.28378.16863158855940248245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kabel/linux
+Date: Fri, 27 Oct 2023 14:41:21 -0000
+Message-Id: <169841768181.7292.1395495207121839410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/kabel/linux
+user: kabel
 changes:
-  - ref: refs/heads/master
-    old: f307e19f2be033f0ef2de4fb0ce7945f9934b6b4
-    new: 32eaf45a90afbaec05d07204341e67e36b57ab89
+  - ref: refs/heads/turris-omnia-mcu-for-6.7
+    old: 502852dc60f48980862e74d34eade79f4f1c8c54
+    new: 233247d7d7ce92f084421842eee12ba3717fe92c
     log: |
-         1a9fca760d394c7d866eb45807c900ce184dc619 Bibliography update
-         f3ad0ca40f347cee1d1385c27ba1bbfd161d6da9 debugging: Add Coccinelle to list of static analyzers
-         99441c956f884fe20c98fdd029457fef4e9f526d debugging: Add Coccinelle as a static-analysis tool
-         32eaf45a90afbaec05d07204341e67e36b57ab89 count: Make perf.sh adapt to the number of CPUs
+         eb01f93be07ec055aa84bfc03f3d1671ea1dbb78 dt-bindings: arm: add cznic,turris-omnia-mcu binding
+         fa11d94e679b92c8612c23e3697a71b819511b3a platform: cznic: Add preliminary support for Turris Omnia MCU
+         83d4d70857d175753a2051626d7683362116cd9e platform: cznic: turris-omnia-mcu: Add support for MCU connected GPIOs
+         901a585e03737d352725a1888f86c9cdff1b584f platform: cznic: turris-omnia-mcu: Add support for poweroff and wakeup
+         f0fe30e6ddff0a72e6160ad020c1021f949ccf18 platform: cznic: turris-omnia-mcu: Add support for MCU watchdog
+         a7b81aa811a91a7bfddd9a3a7aba5343f4fa5797 ARM: dts: turris-omnia: Add MCU system-controller node
+         233247d7d7ce92f084421842eee12ba3717fe92c ARM: dts: turris-omnia: Add GPIO key node for front button
          
