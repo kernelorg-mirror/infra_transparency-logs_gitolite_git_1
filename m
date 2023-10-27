@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 27 Oct 2023 14:47:55 -0000
-Message-Id: <169841807549.11315.7219558141756490956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 27 Oct 2023 15:05:26 -0000
+Message-Id: <169841912636.23625.1540030262630270441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.6-6
-    old: 0000000000000000000000000000000000000000
-    new: 917ec4bf0b32d65d94cfe6256b054619357beed4
+  - ref: refs/heads/hwmon
+    old: d621a46d05107f4e510383d6a38f2160c62d28f7
+    new: 9da2901c47332b030ea4d2a2302bc7c0b83fc67c
+    log: |
+         9da2901c47332b030ea4d2a2302bc7c0b83fc67c hwmon: (pmbus/mp2975) Move PGOOD fix
+         
