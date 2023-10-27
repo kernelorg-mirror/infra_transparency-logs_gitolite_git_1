@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0087629448568310364=="
+Content-Type: multipart/mixed; boundary="===============7564704416453718211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 27 Oct 2023 11:02:10 -0000
-Message-Id: <169840453007.16690.11462498449335537961@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 11:02:24 -0000
+Message-Id: <169840454433.16844.8179282661226782981@gitolite.kernel.org>
 
---===============0087629448568310364==
+--===============7564704416453718211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: cc54d2e2c58a40a82dfd39afa95d3d27f3d6509d
     new: 6808918343a8b4b6970ba52ba2d1d511a0976748
     log: revlist-cc54d2e2c58a-6808918343a8.txt
 
---===============0087629448568310364==
+--===============7564704416453718211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ bc4c48e74312d0c96d02f7e7cf75b01f3ba19543 Merge branch 'mdb-get'
 61217d8f6360437329af1b16b8bbd9143167718d virtio_net: use u64_stats_t infra to avoid data-races
 6808918343a8b4b6970ba52ba2d1d511a0976748 net: bridge: fill in MODULE_DESCRIPTION()
 
---===============0087629448568310364==--
+--===============7564704416453718211==--
