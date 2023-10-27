@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3530530204025659087=="
+Content-Type: multipart/mixed; boundary="===============0812040390258533171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 27 Oct 2023 05:57:19 -0000
-Message-Id: <169838623950.8983.14885351350025876563@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 05:57:41 -0000
+Message-Id: <169838626157.9166.7640183903374140088@gitolite.kernel.org>
 
---===============3530530204025659087==
+--===============0812040390258533171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: ea41b880cc85f0a992571f66e4554a69f7806246
     new: cc54d2e2c58a40a82dfd39afa95d3d27f3d6509d
     log: revlist-ea41b880cc85-cc54d2e2c58a.txt
 
---===============3530530204025659087==
+--===============0812040390258533171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba20ecb1d1bb52173d8599c9c613c73adadd5225 ice: Hook up 4 E830 devices by adding t
 dbc0fd481cd05bc5000136245ba49501d568936e Merge branch 'intel-wired-lan-driver-updates-for-2023-10-25-ice'
 cc54d2e2c58a40a82dfd39afa95d3d27f3d6509d MAINTAINERS: Remove linuxwwan@intel.com mailing list
 
---===============3530530204025659087==--
+--===============0812040390258533171==--
