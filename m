@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 27 Oct 2023 23:00:45 -0000
-Message-Id: <169844764571.9901.5785387349548288628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 27 Oct 2023 23:39:47 -0000
+Message-Id: <169844998734.4899.4593886736963683145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 06497763c8f15d08c0e356e651a61f2930a8987c
-    new: f1c73396133cb3d913e2075298005644ee8dfade
+  - ref: refs/heads/damon/next
+    old: 991b040a8b82d2e4567365f665ff2474d07df158
+    new: 582f3391d5cdaa0307dfc2e1fa5566c9dd7ae489
     log: |
-         f1c73396133cb3d913e2075298005644ee8dfade net: pcs: xpcs: Add 2500BASE-X case in get state for XPCS drivers
+         62ea5e20e348efec15b0abbc00eac0fa53b0a98f mm/damon/core: Implement a simple feedback loop function
+         22ca7ebd323cceaa7ead2d28550f6bccd4016565 mm/damon/core-test: add a unit test for DAMON's feedback loop algorithm
+         582f3391d5cdaa0307dfc2e1fa5566c9dd7ae489 mm/damon/core: implement feedback loop based quota adjustment
          
