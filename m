@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3152554252415788498=="
+Content-Type: multipart/mixed; boundary="===============6602172123295080690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 27 Oct 2023 21:28:11 -0000
-Message-Id: <169844209198.7220.14998381211915377236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 27 Oct 2023 21:28:18 -0000
+Message-Id: <169844209887.7355.12898718110421489120@gitolite.kernel.org>
 
---===============3152554252415788498==
+--===============6602172123295080690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.6
+  - ref: refs/heads/asoc-6.6
     old: 168d97844a61db302dec76d44406e9d4d7106b8e
     new: 805ce81826c896dd3c351a32814b28557f9edf54
     log: |
          f0220575e65abe09c09cd17826a3cdea76e8d58f ASoC: soc-dai: add flag to mute and unmute stream during trigger
          805ce81826c896dd3c351a32814b28557f9edf54 ASoC: codecs: wsa883x: make use of new mute_unmute_on_trigger flag
          
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 60781d2d5899d6fc5fd173c1bcffaaec39643e17
     new: 0262a8a079896440fab98844124a951d85b63166
     log: |
@@ -36,29 +36,29 @@ changes:
          0262a8a079896440fab98844124a951d85b63166 ASoC: Intel: avs: Add support for rt5514 codec
          
 
---===============3152554252415788498==
+--===============6602172123295080690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1698442089 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1698442089-cc866390932fa638a6b68d4babc6813de6c0ead5
+pusher Mark Brown <broonie@kernel.org> 1698442096 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1698442096-ae2b921682d6592eeb2a1bcc56714e9a73dc0c5a
 
-168d97844a61db302dec76d44406e9d4d7106b8e 805ce81826c896dd3c351a32814b28557f9edf54 refs/heads/for-6.6
-60781d2d5899d6fc5fd173c1bcffaaec39643e17 0262a8a079896440fab98844124a951d85b63166 refs/heads/for-6.7
+168d97844a61db302dec76d44406e9d4d7106b8e 805ce81826c896dd3c351a32814b28557f9edf54 refs/heads/asoc-6.6
+60781d2d5899d6fc5fd173c1bcffaaec39643e17 0262a8a079896440fab98844124a951d85b63166 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU8K2kTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0NDKB/0TI1CXSeDOKD/EFaHMQ7+b3Horakhl
-K8w7HWi5EMuCpQxQv95DgI+fyU/IVgsgu/lV+vW4V8hKSV2fyobAl08PVPHRwQeV
-wkS0D8eRsBSQ1Jwqjevdp6bB8oKyqoEsOYVETkY8kjSzmfsLAIG7KZBKn45mv0vS
-tI1porFUMPSESsDxfT1isfIGpROjyv/0BPfu4xXwO2AqdH6itdCJr54vFvmv8q3T
-mAzkY+2KLDAenUpc/VzPzq9pDk1R0jQeXMg2UyFV1GCXERJESN2QiorMs8ZdiKh1
-knND8dJoHH3cqSdmOX87MTcxbX1qiQhi56FO3Ru1J60bL2P+c2DLpOs6
-=tyth
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmU8K3ATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0JI1CACCnUdkcq/n/bVIMoe+kK9I4BOYJnGy
+Io+0vNuRaebzQlWPL3BfgLyibrWs89Zl8IpvT8ew2gk2mUhnW6nshpUr2MH55MeA
+oF13zW3kEuQxmK8VBoRtATt0VKbsN0pu8rdDDJEaPi/s5mN4Yc4L0wi5xYCJktU0
+5b1wNgOV7eO9sPgLuVY8ShcE/NZa1Ei3YOUfT4oIUGQAbCsMy3+Kp7iZDslq3xDk
+xIwWdQXtFyGGjqfihvsGeK9SW9xiBzaC73WxpWvP9sinz9dMnKOP3vl8wvhbqhiI
+dLhVn10rm7QFLhQOIL6vwf+sdQBUCF0Y0q1Kdz6DcKgKtqz0iyhaSMs2
+=Gg40
 -----END PGP SIGNATURE-----
 
---===============3152554252415788498==--
+--===============6602172123295080690==--
