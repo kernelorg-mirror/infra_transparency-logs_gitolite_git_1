@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 27 Oct 2023 13:30:50 -0000
-Message-Id: <169841345060.20897.1247363992099191630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 27 Oct 2023 13:34:10 -0000
+Message-Id: <169841365095.22092.960492422321816066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/testing
-    old: 89e2233386a5670d15908628b63e611cb03b0d03
-    new: dbac579a6dbe4e87e43ae50f78678bd356cff08a
+  - ref: refs/heads/for-6.6/upstream-fixes
+    old: dac501397b9d81e4782232c39f94f4307b137452
+    new: 62cc9c3cb3ec1bf31cc116146185ed97b450836a
     log: |
-         17ab7fb5b4a5df68c5baa7e6cedf3da47d2c31df mailmap: Change email mapping from previous employers
-         1e5bb5d08055132d5eefb82fcd53f77afb5f3ab4 iio: pressure: fix some word spelling errors
-         dbac579a6dbe4e87e43ae50f78678bd356cff08a iio: bu27008: Add illuminance channel
+         62cc9c3cb3ec1bf31cc116146185ed97b450836a HID: Add quirk for Dell Pro Wireless Keyboard and Mouse KM5221W
+         
+  - ref: refs/heads/for-next
+    old: e2050101ad856e6fa3ac1a211ef0085ab3a96d5a
+    new: 55ec92989f9be9ee773d88fe3a81c185934e10d3
+    log: |
+         62cc9c3cb3ec1bf31cc116146185ed97b450836a HID: Add quirk for Dell Pro Wireless Keyboard and Mouse KM5221W
+         55ec92989f9be9ee773d88fe3a81c185934e10d3 Merge branch 'for-6.6/upstream-fixes' into for-next
          
