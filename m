@@ -1,47 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2560729096486725501=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 27 Oct 2023 14:24:36 -0000
-Message-Id: <169841667651.26135.656727884711214169@gitolite.kernel.org>
-
---===============2560729096486725501==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Fri, 27 Oct 2023 14:26:21 -0000
+Message-Id: <169841678102.28378.16863158855940248245@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/review-ilpo
-    old: ac9bc85c49ffcfca8c1b117e1a9e94dd32680c68
-    new: 94ace9eda88229c73698b8dd8d3c06dd0831319c
+  - ref: refs/heads/master
+    old: f307e19f2be033f0ef2de4fb0ce7945f9934b6b4
+    new: 32eaf45a90afbaec05d07204341e67e36b57ab89
     log: |
-         916646758aea81a143ce89103910f715ed923346 platform/x86: thinkpad_acpi: Add battery quirk for Thinkpad X120e
-         94ace9eda88229c73698b8dd8d3c06dd0831319c platform/x86: inspur-platform-profile: Add platform profile support
+         1a9fca760d394c7d866eb45807c900ce184dc619 Bibliography update
+         f3ad0ca40f347cee1d1385c27ba1bbfd161d6da9 debugging: Add Coccinelle to list of static analyzers
+         99441c956f884fe20c98fdd029457fef4e9f526d debugging: Add Coccinelle as a static-analysis tool
+         32eaf45a90afbaec05d07204341e67e36b57ab89 count: Make perf.sh adapt to the number of CPUs
          
-
---===============2560729096486725501==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1698416671 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1698416672-109a13aee68621c0f785e653809dd7d8641511aa
-
-ac9bc85c49ffcfca8c1b117e1a9e94dd32680c68 94ace9eda88229c73698b8dd8d3c06dd0831319c refs/heads/review-ilpo
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZTvIIgAKCRBZrE9hU+XO
-MbjEAP9nWJc4hKoEnxe/OkVahzsVrF+ANo8B4MslV3FR8VtTvwD+NG8FXHgGKF81
-X0QK6X0OOWJxQVx6yLziz94GcgxhiA8=
-=FJtm
------END PGP SIGNATURE-----
-
---===============2560729096486725501==--
