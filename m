@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8014881649770704375=="
+Content-Type: multipart/mixed; boundary="===============4884649301954360639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 27 Oct 2023 18:02:34 -0000
-Message-Id: <169842975485.21661.12547880916465413697@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 18:03:05 -0000
+Message-Id: <169842978565.21932.1127819625701726705@gitolite.kernel.org>
 
---===============8014881649770704375==
+--===============4884649301954360639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5af8d8ce643478d754ef72fc239466f6ad0e2562
-    new: 3a04927f8d4b7a4f008f04af41e31173002eb1ea
-    log: revlist-5af8d8ce6434-3a04927f8d4b.txt
+  - ref: refs/heads/dev-queue
+    old: e788ebe20806c68137fd7b951cb716720f95c845
+    new: 4400b501f1551fd5196ef97c08c1c282668e567c
+    log: revlist-e788ebe20806-4400b501f155.txt
 
---===============8014881649770704375==
+--===============4884649301954360639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5af8d8ce6434-3a04927f8d4b.txt
+Content-Disposition: attachment; filename=revlist-e788ebe20806-4400b501f155.txt
 
 258242dac92450dfbdcefca0005af1e9df30018f wifi: ath12k: remove redundant memset() in ath12k_hal_reo_qdesc_setup()
 e149353e6562f3e3246f75dfc4cca6a0cc5b4efc wifi: ath11k: call ath11k_mac_fils_discovery() without condition
@@ -305,5 +305,73 @@ e71aab6777a4f906149d0b5f12507fad5e164b3b selftests: mptcp: sockopt: drop mptcp_c
 629b35a225b0d49fbcff3b5c22e3b983c7c7b36f selftests: mptcp: display simult in extra_msg
 14da0d2570eb08e9ab9d2162ddb6f70127e4491c Merge branch 'mptcp-fixes-and-cleanup-for-v6-7'
 3a04927f8d4b7a4f008f04af41e31173002eb1ea af_unix: Remove module remnants.
+6d22d4f8545aee512aa2bff66131eea0a4c93e10 PCI: Extract ATS disabling to a helper function
+c0983a84915f016ae00c2e1afc07be0a31db490c PCI: Disable ATS for specific Intel IPU E2000 devices
+cc5977df44d7ee298c3df28505eb43be0fbfd913 i40e: fix livelocks in i40e_reset_subtask()
+be7324103c7884dd6007b0b5ceda4d8b08aca0e5 i40e: fix 32bit FW gtime wrapping issue
+a7ffad5d0eea35d916b5f44567deaf06afbb4382 i40e: add tracepoints for nvmupdate troubleshooting
+b45f46d96b7323208e4daa454e29a578376a1fbe igc: Simplify setting flags in the TX data descriptor
+3fd0cebacea2570f597bd2d1ee1f98c3a807ca62 igc: Add support for PTP .getcyclesx64()
+e217c7dac1e5cf83cf67a912bbba621443b8a1b9 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+6332373d6c214c3bc6b112eb00a37c1db099349e i40e: Change user notification of non-SFP module in i40e_get_module_info()
+3aca35d923ba3ae55f1f168c13bdc7247c80a82d iavf: fix comments about old bit locks
+84438b706d1f39bcc18a70a13fd2a3df698d9453 iavf: simplify mutex_trylock+sleep loops
+99de3b794dac0c8f20cd8036ab3955106e53c7fc iavf: in iavf_down, don't queue watchdog_task if comms failed
+4c1ae0c51cb2bcb0b21ddae0570550fb70f55742 iavf: fix the waiting time for initial reset
+32072a6d1f80bfb1ac3701358f9d6056055b3065 ice: Fix SRIOV LAG disable on non-compliant aggreagate
+3df1aa44fe6eac7fc070e0ea875e2c5c6c85a621 ice: Re-enable timestamping correctly after reset
+d74e9a033d72c4f7122f5cfbda71df6973445605 iavf: rely on netdev's own registered state
+232cd181087d84e5b242d8dfcc1c134d9754132b iavf: use unregister_netdev
+ff6837c19d9258a98d046adc4d730c486245f099 iavf: add a common function for undoing the interrupt scheme
+841b5d95fd9a4e080605ab48d50e54f8a6dd79ea iavf: delete the iavf client interface
+a63ddbf367b0640e9ebdcce8316748d41f769097 ice: dpll: fix initial lock status of dpll
+fd88838335777eb375583ad93ba72b17a3a015a0 ice: Fix VF-VF filter rules in switchdev mode
+6fc3fcf54db39dc922aad51f266f4fcd8b8f41c0 i40e: increase max descriptors for XL710
+f4e169648b10db8aaead4417987bb47e26e12e0f i40e: Remove unused flags
+1a62cdb388ed4e083cc3ad7f0d85874af635d346 i40e: Remove _t suffix from enum type names
+527926efdd15d2ddec406351657cebb860c470d2 i40e: Use DECLARE_BITMAP for flags and hw_features fields in i40e_pf
+c341e96566b13b9f82542ca7f65642fb17b3c1dc i40e: Use DECLARE_BITMAP for flags field in i40e_hw
+12b4f7caafb73cc398eee541a92e80e2d1619687 i40e: Consolidate hardware capabilities
+c2d817e275c72c368b46ceee35bf66bd1ca9b751 i40e: Initialize hardware capabilities at single place
+0da9cd9dae99986e7518852ec4da4f455c288b4a ice: lag: in RCU, use atomic allocation
+83713a33d2b8dcfd5799eb66f49fc83401876da8 i40e: add an error code check in i40e_vsi_setup
+9c432c27839e5c920dfadcec569be8ca6748af59 i40e: Move i40e_is_aq_api_ver_ge helper
+31984079e30ae5385ec237a92bd11a5c05ae97dc i40e: Add other helpers to check version of running firmware and AQ API
+5188c1c693722ffd39cfa80d17b7db88b076275d i40e: Use helpers to check running FW and AQ API versions
+f68e259ebe1a408a73c9db54e3fc85f21c15cfd0 i40e: Do not call devlink_port_type_clear()
+c27e69b3a86cd598cf8a1e082b162a7e4437bb24 i40e: Fix devlink port unregistering
+63c9082e13d79c8c1e3334a5cdd6f3341406c748 ice: Fix VF Reset when interface in a failed over aggregate
+5d93691b092ab6071785a293cd1366dc00a654f5 ice: read internal temperature sensor
+73f9b80defb39c7c2a0d78c6290095238b2f9114 ice: rename switchdev to eswitch
+3c7c5eb2abbb4287ab5fc017f85bbcd0fd802fdb ice: remove redundant max_vsi_num variable
+adc1f71f1080747b52eeb5a8d9146416025ba4d6 ice: remove unused control VSI parameter
+1acd77560aa98ff59d6d4128c1220b23cac20e65 ice: track q_id in representor
+dd217fc58624a84458bb472432edfb8ea50fc44b ice: use repr instead of vf->repr
+3f11cd585966385f1086002ed91e26f56bd4e1ce ice: track port representors in xarray
+92ecc42e0a1cd3bb13e79cfbe9f3a3eaad80942d ice: remove VF pointer reference in eswitch code
+99f0ac4f36e9b9609269513829b82c457ebc8aa2 ice: make representor code generic
+963f10927b375532ec14db8c64b5e582e1951ed3 ice: return pointer to representor
+22de4cc1c034b2897165311c113bb3ffd533d495 ice: allow changing SWITCHDEV_CTRL VSI queues
+17ab38feec7920d909583cf500e8bca15a6ddae8 ice: set Tx topology every time new repr is added
+a83c3a54f8f0bdc76baf5831ba293280e639de9a ice: realloc VSI stats arrays
+37ca1a05062297d716874db34745658193eb1a1e ice: add VF representors one by one
+7ed73b9de472a2e9d657730f4857325abef59ba7 ice: adjust switchdev rebuild path
+936f67a6783a71c732bf7bfa99ea3a609c0bb2cb ice: reserve number of CP queues
+1189013a8ec08998b9384cdc807e8f8beec66f64 ice: change vfs.num_msix_per to vf->num_msix
+c13accd1a0fe33ebfe14e3cd7df91787e64c3ae2 ice: Fix VF-VF direction matching in drop rule in switchdev
+d5ad59b5bf335465316e8f6ef4815ce39b796c69 i40e: Remove VF MAC types
+6138f0bb2232fcb2035ec00a3d38e5d39cde46d5 i40e: Move inline helpers to i40e_prototype.h
+48db041d5a1594741f4b66990b0b4a8def010ecd i40e: Delete unused i40e_mac_info fields
+ceb2ce760bd7006487a57b6a70e29a5f05ddc49f i40e: Delete unused and useless i40e_pf fields
+f3e7e84838ce3746af394987f49b60f225627b0c ice: introduce PTP state machine
+a646cfd85a2053c3eb4c96fb502789a367a18bcc ice: pass reset type to PTP reset functions
+1eddb4d4df26de25f18bc9341d78d76c76ad76b5 ice: rename verify_cached to has_ready_bitmap
+db308b9c0cee0ce454bee9116810c3bd2523e7fa ice: rename ice_ptp_configure_tx_tstamp
+7073c37d58418eba37da3401ac9b4d2b41708bce ice: rename ice_ptp_tx_cfg_intr
+5f44ad3f7c91f2390109087ccac8c6fd58002224 ice: factor out ice_ptp_rebuild_owner()
+4c242d71f914ce8e555768fe46f5b121e530bfde ice: remove ptp_tx ring parameter flag
+e0649489470cd6b0ed1f9611d5a6cc0a6a6a505e ice: modify tstamp_config only during TS mode set
+235360f74748c0b2625c79ccd08803fb3c22b200 ice: restore timestamp configuration after reset
+4400b501f1551fd5196ef97c08c1c282668e567c ice: stop destroying and reinitalizing Tx tracker during reset
 
---===============8014881649770704375==--
+--===============4884649301954360639==--
