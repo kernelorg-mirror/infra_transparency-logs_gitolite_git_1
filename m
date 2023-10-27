@@ -1,25 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 27 Oct 2023 13:52:01 -0000
-Message-Id: <169841472126.3908.11040799925873977172@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8673951082730202935=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 27 Oct 2023 14:14:44 -0000
+Message-Id: <169841608458.19271.5708909605718277623@gitolite.kernel.org>
+
+--===============8673951082730202935==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: dbac579a6dbe4e87e43ae50f78678bd356cff08a
-    new: ae0b82904037b6ba41554ff843bf741c3a635fbd
+  - ref: refs/heads/slab/for-linus
+    old: c15cdea517414e0b29a11e0a0e2443d127c9109b
+    new: 90f055df112162fd9e093c16be1c21f38c35b907
     log: |
-         995d25ad637cda70b3474336c2857033efb23cb6 MAINTAINERS: correct file entry IIO LIGHT SENSOR GAIN-TIME_SCALE HELPERS
-         06460a82478ee0d03f8753d103076406eda35eaf MAINTAINERS: correct file entry in BOSCH SENSORTEC BMI323 IMU IIO DRIVER
-         16c91b37ca2ed83edc3c1ef19e4032b20e216ff8 iio: pressure: bmp280: Use i2c_get_match_data()
-         22e7820e0596834dfd79bba859cb6af7547909ad iio: pressure: bmp280: Use spi_get_device_match_data()
-         38619258a2ac51a7aee3bffb3d6f2fc8ae90967f iio: pressure: bmp280: Rearrange vars in reverse xmas tree order
-         4a2b686a9e746c60702346d504a3172f65705e60 iio: pressure: bmp280: Allow multiple chips id per family of devices
-         ae0b82904037b6ba41554ff843bf741c3a635fbd iio: pressure: bmp280: Add support for BMP390
+         e519ce7a26b4c877d834e4234e8d24478448c0d3 mm/slub: add sanity check for slub_min/max_order cmdline setup
+         c7355d755698a01ff4187a0d2f6ad21ba233dc21 mm/slub: simplify the last resort slab order calculation
+         0fe2735d5e2e00601339aab3658e05f3707a1745 mm/slub: remove min_objects loop from calculate_order()
+         5886fc82b6e3166dd1ba876809888fc39028d626 mm/slub: attempt to find layouts up to 1/2 waste in calculate_order()
+         90f055df112162fd9e093c16be1c21f38c35b907 mm/slub: refactor calculate_order() and calc_slab_order()
          
+
+--===============8673951082730202935==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1698416080 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1698416080-3756f0b884f64cc6575913062d0fa41394105fe0
+
+c15cdea517414e0b29a11e0a0e2443d127c9109b 90f055df112162fd9e093c16be1c21f38c35b907 refs/heads/slab/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmU7xdAACgkQu+CwddJF
+iJokyAf/SWlZu4XF1LP6cnP2BbmSSrZfGdZ3RS939xBAcymIx6nyZfe5eMqL5eoG
+Vzp7GLBXE0uNpHlTs0e932JPzWSti0oMbLQ4xn8KlUj3JoSA55kVkGFon539lXg2
+qvdqh3RgW1X7ktme4jok0ioG2jaQSv8ghBnGlf1zET5uH1L5xCRrynTxXfEGAPGl
+7S3pZx5fvDRA4Z426Fyyw3lHpXnOmeY8EoKzP9nHizjJMqwIciKVJRteBhb3CiyP
+Np6VRMyuvY9C5TDP4jeRkzqQbRnrUK/RR8Pr1HHKdXvHzxVpzQxvEUW2jSBRE8LN
+jUK2oHQ0NQ331ZlZlVNaYbBeJR2SAg==
+=H5Ls
+-----END PGP SIGNATURE-----
+
+--===============8673951082730202935==--
