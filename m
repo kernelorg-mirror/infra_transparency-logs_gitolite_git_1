@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 27 Oct 2023 18:43:36 -0000
-Message-Id: <169843221655.19165.8372014694346295652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 27 Oct 2023 18:59:20 -0000
+Message-Id: <169843316079.29334.8486943982991093689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dm-6.7
-    old: 8388cba9d1eb5c54385ea624d2979983f356a596
-    new: c1fce71d29b2a48fd6788f9555561fda0f0c1863
+  - ref: refs/heads/kdevops
+    old: 8a29e8d7b1263abe4d378c76e27a9822b6ab252c
+    new: 4a8ae3fade19da9ea06ad754d46c24559799c21d
     log: |
-         b3d87b87017d50cab1ea49fc6810c74584e00027 dm crypt: don't allocate large compound pages
-         c1fce71d29b2a48fd6788f9555561fda0f0c1863 dm delay: for short delays, use kthread instead of timers and wq
+         4a8ae3fade19da9ea06ad754d46c24559799c21d nfsd: ensure the nfsd_serv pointer is cleared when svc is torn down
          
