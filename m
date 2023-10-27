@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 27 Oct 2023 20:07:26 -0000
-Message-Id: <169843724648.14877.6662013760146712018@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 20:07:33 -0000
+Message-Id: <169843725345.15006.16346031528163751674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20231027_amadeuszx_slawinski_asoc_intel_avs_add_support_for_rt5514_codec
-    old: d933333694a7e63b0893d23f65b104430a1d6cf6
+  - ref: refs/heads/fileK6L9Ov
+    old: 804bf07a1f726d4fe391d21b24a68ffc2381ba89
     new: 0000000000000000000000000000000000000000
