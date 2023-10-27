@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 27 Oct 2023 01:00:47 -0000
-Message-Id: <169836844716.23851.5746258091625383508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 27 Oct 2023 02:43:32 -0000
+Message-Id: <169837461240.1052.8916208547108247106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.6-fixes
-    old: 626b13f015e080e434b1dee9a0c116ddbf4fb695
-    new: 24eca2dce0f8d19db808c972b0281298d0bafe99
+  - ref: refs/heads/main
+    old: ea23fbd2a8f7dadfa9cd9b9d73f3b8a69eec0671
+    new: eb9df668381d350e462fdf840907388e0a9b80fe
     log: |
-         24eca2dce0f8d19db808c972b0281298d0bafe99 scsi: sd: Introduce manage_shutdown device flag
+         bc30bb88ff3153fba7693557d15733179adf7492 netlink: specs: support conditional operations
+         eb9df668381d350e462fdf840907388e0a9b80fe tools: ynl-gen: respect attr-cnt-name at the attr set level
          
