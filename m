@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 27 Oct 2023 22:57:15 -0000
-Message-Id: <169844743540.6970.18175646051299731077@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 23:00:45 -0000
+Message-Id: <169844764571.9901.5785387349548288628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f5247a6ed5b5bbaa609f97049de868974eb7a7c2
-    new: 06497763c8f15d08c0e356e651a61f2930a8987c
+    old: 06497763c8f15d08c0e356e651a61f2930a8987c
+    new: f1c73396133cb3d913e2075298005644ee8dfade
     log: |
-         06497763c8f15d08c0e356e651a61f2930a8987c net: bpf: Use sockopt_lock_sock() in ip_sock_set_tos()
+         f1c73396133cb3d913e2075298005644ee8dfade net: pcs: xpcs: Add 2500BASE-X case in get state for XPCS drivers
          
