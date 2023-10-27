@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 27 Oct 2023 18:59:20 -0000
-Message-Id: <169843316079.29334.8486943982991093689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Fri, 27 Oct 2023 19:03:00 -0000
+Message-Id: <169843338028.32361.18389433637334030253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/kdevops
-    old: 8a29e8d7b1263abe4d378c76e27a9822b6ab252c
-    new: 4a8ae3fade19da9ea06ad754d46c24559799c21d
+  - ref: refs/heads/main
+    old: 57f8f11fbab520b5cb239451c841f951a994328a
+    new: cf75a53807ae85cca05f08efc00c28b44beeff9a
     log: |
-         4a8ae3fade19da9ea06ad754d46c24559799c21d nfsd: ensure the nfsd_serv pointer is cleared when svc is torn down
+         cf75a53807ae85cca05f08efc00c28b44beeff9a rt-tests: Add missing SPDX licenses
          
