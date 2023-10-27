@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8765762562106885286=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 27 Oct 2023 13:41:47 -0000
-Message-Id: <169841410755.29472.17953528997034581257@gitolite.kernel.org>
-
---===============8765762562106885286==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Fri, 27 Oct 2023 13:52:01 -0000
+Message-Id: <169841472126.3908.11040799925873977172@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/slab-remove-slab-v1r2
-    old: 0000000000000000000000000000000000000000
-    new: 464cface98ada7b9ff0ec5d04412c5a2c71815b7
-
---===============8765762562106885286==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1698414099 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1698414098-a24859916a6a4718ddb3f04c6c4381ce90288ccc
-
-0000000000000000000000000000000000000000 464cface98ada7b9ff0ec5d04412c5a2c71815b7 refs/heads/slab-remove-slab-v1r2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmU7vhMACgkQu+CwddJF
-iJqKPAgAi/iN54JWADLXMykWL5U9Ij2bSXD9oY5fB1MHvKbuG8O73lC0rRFfdaxO
-RABDy8VbWubbEMnE/g4EcILsGzvMvi7H+icUhwJ7ie1ZU9Au4wjJJC8ZssJ+TKaA
-nnOHo/WUneUfQ5xAFaLM7ls7CYM8dlRL3zR6BdQumkK0Mpyk4TytDYOCEQv2RXtR
-h5Lode9zcvMFNlo3F6B+MPkh3/9M42dKyDLgOZu06HlzCtUoJWUd9h2pOO5nkkfU
-5fFm6f6bKaMkAqBJtSG70SVfIqTKkZDYNxCs62pVeFSMXz6wzHLtO3L62/iuKGD5
-ib+wdLbF/8DJ4CNSgC7N7FglEYj/+w==
-=9o0U
------END PGP SIGNATURE-----
-
---===============8765762562106885286==--
+  - ref: refs/heads/testing
+    old: dbac579a6dbe4e87e43ae50f78678bd356cff08a
+    new: ae0b82904037b6ba41554ff843bf741c3a635fbd
+    log: |
+         995d25ad637cda70b3474336c2857033efb23cb6 MAINTAINERS: correct file entry IIO LIGHT SENSOR GAIN-TIME_SCALE HELPERS
+         06460a82478ee0d03f8753d103076406eda35eaf MAINTAINERS: correct file entry in BOSCH SENSORTEC BMI323 IMU IIO DRIVER
+         16c91b37ca2ed83edc3c1ef19e4032b20e216ff8 iio: pressure: bmp280: Use i2c_get_match_data()
+         22e7820e0596834dfd79bba859cb6af7547909ad iio: pressure: bmp280: Use spi_get_device_match_data()
+         38619258a2ac51a7aee3bffb3d6f2fc8ae90967f iio: pressure: bmp280: Rearrange vars in reverse xmas tree order
+         4a2b686a9e746c60702346d504a3172f65705e60 iio: pressure: bmp280: Allow multiple chips id per family of devices
+         ae0b82904037b6ba41554ff843bf741c3a635fbd iio: pressure: bmp280: Add support for BMP390
+         
