@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1992985339471915372=="
+Content-Type: multipart/mixed; boundary="===============7520002844213434177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 27 Oct 2023 11:09:27 -0000
-Message-Id: <169840496774.22335.15449140215436986108@gitolite.kernel.org>
+Date: Fri, 27 Oct 2023 11:11:24 -0000
+Message-Id: <169840508463.24696.8488893095774888210@gitolite.kernel.org>
 
---===============1992985339471915372==
+--===============7520002844213434177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,56 +17,58 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: ae094de38e430e921437ffd56adb89b09ddeb65d
-    new: 75c1e5968f5c549c148c253ab331130aa3a74f33
-    log: revlist-ae094de38e43-75c1e5968f5c.txt
+    old: 75c1e5968f5c549c148c253ab331130aa3a74f33
+    new: 41196b0bbe8a1ce663b85aca2141800214c186f1
+    log: revlist-75c1e5968f5c-41196b0bbe8a.txt
 
---===============1992985339471915372==
+--===============7520002844213434177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698404965 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698405082 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1698404965-2ac9bbdee036132ad9e8eaf78d8acf6ca39a7067
+nonce 1698405082-c1dcea9f62d7c8e721f9834aee0c2b0e56d319c0
 
-ae094de38e430e921437ffd56adb89b09ddeb65d 75c1e5968f5c549c148c253ab331130aa3a74f33 refs/heads/staging-testing
+75c1e5968f5c549c148c253ab331130aa3a74f33 41196b0bbe8a1ce663b85aca2141800214c186f1 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU7mmUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lPQQALi0NDXNSOO12qxeOouc
-MmkswivpLsaemzxJtkbR9jaRohs8BCn9CSOj7+avvaijaf7UkpY684iVK9pLSo9+
-vDQex68O3wxa/e+si3nB3jfIk1ihCBVhNYPRyL9ORpz8+t4b4yInCM4Ymje1XfWF
-pt5nYVN9CpN2SIDLHdN8r2fumIQ1BnsimXoZMbdRJ5+uXOOz6eyp1vu5BG6SCZfN
-Ji7AzncbsrE7/jDk/YOxWXrI/QIzbUbWbSRfYKI/7iTpEgtYD4IUk0CdiAiSOOJE
-GAuoezeFOXqSwHB07phC9vLQ80c//IXI5KemBDaUCwgyEjNzu1IuNcLixdBMqWT3
-s/R6+MO7AlnBqN7B3iutJJWNT8VcDwczhEl7I2HJHj2r0LsohrcOuaWQGh26mKFO
-Hy53sF3JZKtIxPYO5E8EakTaPePGUQihQY1CXgoHU4todu9KOOdfP5o2VNNXvOtD
-dCyrcZwBHzB+hRztXYfXNxYbPKahPdfKMo56dgvXmMEgHqkjpwYeAjaoXvg83ZLp
-7Xo8YaqRVzfK6bx2a2qEoZN3wrlGu7R5TOKEA+yNZv3E1uUHK09y/B23PwurPfZ4
-Pr/babXS/JKX2DdrlXAItv3AeYlpOtHAbSYFVvd4oFwYGzaNWc37UgIng1nLBw43
-MgiyECoJVnIB2KclDupFhCAI
-=9mDr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU7mtobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6i4P/jGrFStrwFY8gKjm4tK4
+5CjyBDUCMmmK3cAQDBrDrNap8HhgVkxHbtPnBZor1MSn+VIApBhrXjAcRdp4tK89
+ylGQc26xvIp9SeU+RiM/6hxx+bDzvecBlo+DVt8mMwaUzLXvwxF7zolJxawsE1MH
+mZz+OPCQPeeNZyo+y7AR40FY5Cw8CEVUAMGnXitCY99ToQy5MRgqFWc/4004ncRf
+LDNSxmsp6az4a3eHc1vFNjnIaQZFKiVHYsPoXWmDgvypHV72AF1Aqcc2l1F6hLTT
+b5x+fgSdQf5xwRNAOK9eOoAcmdBgflUCBdm82u/QQ+AdS8+93xtjYH08CGZfYteh
+eG8joaruv1qDZl4skJcQt+e5ah47wH9ViqiA8SnWGyqqV+l5AzmIngixmg337Ndc
+9fg/xZg6qPr6ZcsDRwK8it6zppU9QsaiQ20Fkzs5CFeXkl0GPUbNxKWOWJ8DErTL
+y7ptrTOK2c4O64mQ3sGBmFOqLywRYVI6ZaLae6VxddU/lt6rvIU3NrbL1/mW2XS/
+Ksec5uZRAbOKPvBWJSyf/kwKk5et4ayDtVlW7scWjweHKfReL7iUflACH0qEOwTD
+2TKavBzWME/5izq5GscpXj8AkRk0dgdIfl5LNtMGgMbn53jnL7/7+CAPKS4YDH8i
+0Rgm1g5ZEQSHuY6cui8VF84b
+=EQPF
 -----END PGP SIGNATURE-----
 
---===============1992985339471915372==
+--===============7520002844213434177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae094de38e43-75c1e5968f5c.txt
+Content-Disposition: attachment; filename=revlist-75c1e5968f5c-41196b0bbe8a.txt
 
-4c0be6c26dcd263ede434fc83ae86e3d55cb7379 staging: rtl8192e: Remove HTIOTActIsDisableMCS14()
-7db86bafb531e626401f291bde5fbb276094cd30 staging: rtl8192e: Remove HTIOTActIsDisableMCS15()
-da8e981c735e56b1f5e81d177d484136fbb58708 staging: rtl8192e: Remove HTIOTActIsDisableMCSTwoSpatialStream()
-ac32633f231fd43691f9cc0970c8223ac916a1a9 staging: rtl8192e: Remove HTIOTActIsDisableEDCATurbo()
-510c8f18c1fa989f727186e8eb7b0746ede8c525 staging: rtl8192e: Remove loops with constant MAX_RX_QUEUE
-8e842c479ac8c8be54f79b1b01ac12d79139d438 staging: rtl8192e: Convert array rx_ring[] to variable rx_ring
-81c412cb8ca76fefced52f2188579e8226f45f00 staging: rtl8192e: Convert array rx_buf[][] to array rx_buf[]
-336023659882924cb5921438f1f52d5a741d4a24 staging: rtl8192e: Convert array rx_ring_dma[] to variable rx_ring_dma
-6d03b437c66a3bf073fdab103461931e91ada770 staging: rtl8192e: Convert array rx_idx[] to variable rx_idx
-60b46910c8c647c621cbf5fdc91f475e04f8c9f3 staging: rtl8192e: Remove unused constants starting with MAX_RX_QUEUE
-75c1e5968f5c549c148c253ab331130aa3a74f33 staging: rtl8192e: Fix line break issue at priv->rx_buf[priv->rx_idx]
+3d69b023a9f520366425b2403119bb1689969129 staging: vc04_services: use snprintf instead of sprintf
+0210a684cdb277714380553f8d8d8964b2f744fc staging: olpc_dcon: Remove I2C_CLASS_DDC support
+b83b7368258aeb5104c2ff7331326bfeefea9370 staging: fbtft: Convert to platform remove callback returning void
+6c149083e7b955f6340e6a5f2514d937b5968bbe staging: vt6655: Type encoding info dropped from array name "cwRXBCNTSFOff"
+8b46d9ff8af01a2c4df9bc8227dcd09628f64aa2 staging: vt6655: Type encoding info dropped from function name "s_vCalculateOFDMRParameter"
+eb88265fa551f04cb200357995aacc91537e3a6b staging: vt6655: Type encoding info dropped from variable name "pbyTxRate"
+cb1fe713eca14c92ac950d0ec1d1ea4353fcc8c5 staging: vt6655: Type encoding info dropped from variable name "pbyRsvTime"
+4922f5d1e54cecbd6d0acf57983ea62c3eb94c6c staging: vt6655: Type encoding info dropped from function name "CARDbSetPhyParameter"
+956ab42b8e4f2e0ead19a7dd68e14a83e71e6d19 staging: vt6655: Type encoding info dropped from variable name "byPacketType"
+1904b721541c7b03039eb9b21999a8b9de40b76f staging: vt6655: Type encoding info dropped from function name "CARDbyGetPktType"
+c97dbf1dcd7533282e1e5bacc0f88b494e671d44 staging: vt6655: Type encoding info dropped from function name "CARDvSetRSPINF"
+3b9325d8aa05222070f25ce73e7494a97f8c86f2 staging: vt6655: Type encoding info dropped from function name "CARDbUpdateTSF"
+41196b0bbe8a1ce663b85aca2141800214c186f1 staging: vt6655: Type encoding info dropped from variable name "byRxRate"
 
---===============1992985339471915372==--
+--===============7520002844213434177==--
