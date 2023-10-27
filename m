@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 27 Oct 2023 22:05:37 -0000
-Message-Id: <169844433732.2601.10488495152223230282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 27 Oct 2023 22:10:18 -0000
+Message-Id: <169844461810.7172.10944910400108687344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/mlx5-updates-2023-10-27
-    old: 0000000000000000000000000000000000000000
-    new: 432b312f454d90576347b5ebf78ed49f4e91d58d
+  - ref: refs/heads/main
+    old: d96e48a3d55db7ee62e607ad2d89eee1a8585028
+    new: 6479c975b20a7fe6ecacec3a60dc6f838ecee9d6
+    log: |
+         6479c975b20a7fe6ecacec3a60dc6f838ecee9d6 doc/netlink: Update schema to support cmd-cnt-name and cmd-max-name
+         
