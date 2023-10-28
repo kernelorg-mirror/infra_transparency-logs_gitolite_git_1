@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 28 Oct 2023 15:17:23 -0000
-Message-Id: <169850624326.11095.9254287865631883111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 28 Oct 2023 15:35:25 -0000
+Message-Id: <169850732593.23581.15935564969612291171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 3880461fb4cbdd85336b2f6d68ec90d085caad71
-    new: a4819449b4fd6d172dab491d22725269cf54a06a
+  - ref: refs/heads/fixes-togreg
+    old: bee448390e5166d019e9e037194d487ee94399d9
+    new: bce3ab29a6c0ce0071d06d99bd8dc943cd3d1e8e
     log: |
-         e9f7dd868988ba1031a47cec4690c21cb1ae58a2 Fixes for 6.5
-         a4819449b4fd6d172dab491d22725269cf54a06a Fixes for 6.1
+         51bcdcbb8ec2d67194ef1668f9981f68de1a86fd iio: kx022a: Fix acceleration value scaling
+         bce3ab29a6c0ce0071d06d99bd8dc943cd3d1e8e iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
          
