@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0937226227563435696=="
+Content-Type: multipart/mixed; boundary="===============3474073316731474275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
-Date: Sat, 28 Oct 2023 21:20:38 -0000
-Message-Id: <169852803821.3125.2072925105030539767@gitolite.kernel.org>
+Date: Sat, 28 Oct 2023 21:20:47 -0000
+Message-Id: <169852804754.3262.4780092995748279828@gitolite.kernel.org>
 
---===============0937226227563435696==
+--===============3474073316731474275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rw/ubifs
 user: rw
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 017c73a34a661a861712f7cc1393a123e5b2208c
     new: 75690493591fe283e4c92a3ba7c4420e9858abdb
     log: revlist-017c73a34a66-75690493591f.txt
 
---===============0937226227563435696==
+--===============3474073316731474275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d81efd66106c03771ffc8637855a6ec24caa6350 ubifs: fix possible dereference after f
 d07cec9c238ae8fc6c1a9f3f5d30a2f8ec6cdc71 ubi: block: Fix use-after-free in ubiblock_cleanup
 75690493591fe283e4c92a3ba7c4420e9858abdb ubifs: ubifs_link: Fix wrong name len calculating when UBIFS is encrypted
 
---===============0937226227563435696==--
+--===============3474073316731474275==--
