@@ -1,85 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============7268426168014128048=="
+Content-Type: multipart/mixed; boundary="===============4606028261181276421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 28 Oct 2023 05:45:40 -0000
-Message-Id: <169847194056.9914.9061566663414413454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 28 Oct 2023 05:46:06 -0000
+Message-Id: <169847196624.10185.17125934411150041839@gitolite.kernel.org>
 
---===============7268426168014128048==
+--===============4606028261181276421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: ae094de38e430e921437ffd56adb89b09ddeb65d
-    new: 41196b0bbe8a1ce663b85aca2141800214c186f1
-    log: revlist-ae094de38e43-41196b0bbe8a.txt
+  - ref: refs/heads/usb-next
+    old: 9b6db9a3a675fc2f33b587a9909dcef20c4b3794
+    new: c3a383d8d382e066038ab245c8d2b6d02f4bf8a2
+    log: |
+         4987daf86c152ff882d51572d154ad12e4ff3a4b usb: typec: tcpm: Fix NULL pointer dereference in tcpm_pd_svdm()
+         fad89aa14c35f469ea7d3bf49ee1d5840eea0375 dt-bindings: usb: fsa4480: Add data-lanes property to endpoint
+         cf07c55f992228465da7eb0e300351206de6171f usb: typec: fsa4480: Add support to swap SBU orientation
+         c3097719e438ab6d07b8b20b5575f985ab07b5a5 dt-bindings: usb: fsa4480: Add compatible for OCP96011
+         3d56e5aa6727f5055d1ad879342ad1a8acec2134 usb: gadget: aspeed_udc: Convert to platform remove callback returning void
+         2998874736bca1031ca84b0a3235a2cd09dfa426 usb:cdnsp: remove TRB_FLUSH_ENDPOINT command
+         e8033bde451eddfb9b1bbd6e2d848c1b5c277222 usb: raw-gadget: properly handle interrupted requests
+         1f97e3f429cff941b5f7adc9fcbb1b5138cd6125 usb: raw-gadget: don't disable device if usb_ep_queue fails
+         c3a383d8d382e066038ab245c8d2b6d02f4bf8a2 usb: raw-gadget: report suspend, resume, reset, and disconnect events
+         
 
---===============7268426168014128048==
+--===============4606028261181276421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698471939 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1698471939-4d8ab26977c05ef252ba75a8c301e4ed6e418dff
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698471964 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1698471965-f80758b6a7347033b31e437ea02969cd663b34f2
 
-ae094de38e430e921437ffd56adb89b09ddeb65d 41196b0bbe8a1ce663b85aca2141800214c186f1 refs/heads/staging-next
+9b6db9a3a675fc2f33b587a9909dcef20c4b3794 c3a383d8d382e066038ab245c8d2b6d02f4bf8a2 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU8oAMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lx4P/2W5RHxMEsNYtrh/MSqC
-6mm8AZix2ZqeYbXAXXph4nKC81sC783S/jpzQGDpJiSuDDMCG+rVUlmF/aygSxVK
-r/I+S2tEfLdbBS0VBDyALXsSUU0BVXQRnx/YaCQoHTIS8zpw2Eo9sYP2YvC7M90p
-BAbVJVEvYKsZ2eoLqUtVPXV0b0tsZNJgUYo0oot0m1qrD7gp1MfRs7rvcP+7Un6Z
-l7MxLCKoQpIRnPKbdot5UpO1fkhrUQTBTsU0t70KtOUnqkvE6Rec4B7p0I4ON/mf
-M/GMJZdAPCRrQxY97nGlETWzPwRFivBJ0itJ94leFMnn7+uhxZqOP1/H55B9Zdy+
-015nOE7lJUrszgk6fYgxueqDIW9xcVhRiYpjeLHhOYxa9Qrfd2OnDxSW239BvILz
-M1WBapfrFtbLNm/X/rZtA+sN38FDIQaxYdauK8kKeZAftm0XvIzRH16SLXYe6ODT
-LkXumgjTWQ0T6TjcK8tYCMw3xm548blKNO1Inn3DQNwGPNGMvsTDlNyIadqOjhQj
-9DPyc+7H0zhemQcmid2OJHIY09mJ4u1ykzyhRw03vIFt6DrYyOnPhYZmWLpuN+fW
-5jbd37DhdSdya4NOq8fE955o/c3W02TVKiyF3MMyikaIZmA0v6LSr02Uv9QZI5sV
-AcgIG7ozOTu8qI0Is4WN8/xG
-=lS+x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmU8oB0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/YwQAKQv8jMj0NGmrUpRMpKI
+2GfqctKw55OBguYZLxFjw8ixBMxoxIGs3xcTzgA034hxPnWTzb3KaPs0Lp+wUp85
+GVQMuO3WEsRg05Uo7EyEtFtIFsZYyQ4U4FPWKyKOg6Ewy6/EJZxvWN5LbrkIJrj9
+X3v6nVx7pZ1FHs/SntRsQS6z0FuasRocCKuBkoiJpm0MxA9eJjqYfnRFl/3gm+nD
+5PeJz8GQD53Ad1gOirttK/4ZGOQq7te6N7zkxe7EaSPyeip3eHcn0nhhiDSWRu30
+9wDfJfi1r6L0JeuD9dtYhgA/jEDnwrtNYB79CwcqtzxZoNAA7i6JaLXGeIc+OUru
+65FnV4nwfis20gWM99Ycnh3573F4NsEnFZr5O0Kuo7O5fMCyasbCCfCi9PucJYcG
+O2dcHoxzoY8GRepIhOqPEFJQgrwH0ly5VQc2OMPaZnP5xtfGVz4KA6lvSuVy7d1Z
+lDxFCeW2+Rv5tQX75vvxqkZbaRTfKd1KwWjm5h8fl0xu4RbM8coJgf/2jp+O0yZL
+CyyTGGOgUq1TyrZ3YrnydBgJVYQnNB34zHGN4QZ8xK/HCjyOJdSoYrVspIXnmpsE
+JY3oh1ml7KQbAVe559rfwV3PogzODHmikztbo4Pb6iBdQ0/icEz/uB/LGHZrh+c4
+mL/R2KzUNpEnbY1tj9EK+c+Y
+=icsj
 -----END PGP SIGNATURE-----
 
---===============7268426168014128048==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae094de38e43-41196b0bbe8a.txt
-
-4c0be6c26dcd263ede434fc83ae86e3d55cb7379 staging: rtl8192e: Remove HTIOTActIsDisableMCS14()
-7db86bafb531e626401f291bde5fbb276094cd30 staging: rtl8192e: Remove HTIOTActIsDisableMCS15()
-da8e981c735e56b1f5e81d177d484136fbb58708 staging: rtl8192e: Remove HTIOTActIsDisableMCSTwoSpatialStream()
-ac32633f231fd43691f9cc0970c8223ac916a1a9 staging: rtl8192e: Remove HTIOTActIsDisableEDCATurbo()
-510c8f18c1fa989f727186e8eb7b0746ede8c525 staging: rtl8192e: Remove loops with constant MAX_RX_QUEUE
-8e842c479ac8c8be54f79b1b01ac12d79139d438 staging: rtl8192e: Convert array rx_ring[] to variable rx_ring
-81c412cb8ca76fefced52f2188579e8226f45f00 staging: rtl8192e: Convert array rx_buf[][] to array rx_buf[]
-336023659882924cb5921438f1f52d5a741d4a24 staging: rtl8192e: Convert array rx_ring_dma[] to variable rx_ring_dma
-6d03b437c66a3bf073fdab103461931e91ada770 staging: rtl8192e: Convert array rx_idx[] to variable rx_idx
-60b46910c8c647c621cbf5fdc91f475e04f8c9f3 staging: rtl8192e: Remove unused constants starting with MAX_RX_QUEUE
-75c1e5968f5c549c148c253ab331130aa3a74f33 staging: rtl8192e: Fix line break issue at priv->rx_buf[priv->rx_idx]
-3d69b023a9f520366425b2403119bb1689969129 staging: vc04_services: use snprintf instead of sprintf
-0210a684cdb277714380553f8d8d8964b2f744fc staging: olpc_dcon: Remove I2C_CLASS_DDC support
-b83b7368258aeb5104c2ff7331326bfeefea9370 staging: fbtft: Convert to platform remove callback returning void
-6c149083e7b955f6340e6a5f2514d937b5968bbe staging: vt6655: Type encoding info dropped from array name "cwRXBCNTSFOff"
-8b46d9ff8af01a2c4df9bc8227dcd09628f64aa2 staging: vt6655: Type encoding info dropped from function name "s_vCalculateOFDMRParameter"
-eb88265fa551f04cb200357995aacc91537e3a6b staging: vt6655: Type encoding info dropped from variable name "pbyTxRate"
-cb1fe713eca14c92ac950d0ec1d1ea4353fcc8c5 staging: vt6655: Type encoding info dropped from variable name "pbyRsvTime"
-4922f5d1e54cecbd6d0acf57983ea62c3eb94c6c staging: vt6655: Type encoding info dropped from function name "CARDbSetPhyParameter"
-956ab42b8e4f2e0ead19a7dd68e14a83e71e6d19 staging: vt6655: Type encoding info dropped from variable name "byPacketType"
-1904b721541c7b03039eb9b21999a8b9de40b76f staging: vt6655: Type encoding info dropped from function name "CARDbyGetPktType"
-c97dbf1dcd7533282e1e5bacc0f88b494e671d44 staging: vt6655: Type encoding info dropped from function name "CARDvSetRSPINF"
-3b9325d8aa05222070f25ce73e7494a97f8c86f2 staging: vt6655: Type encoding info dropped from function name "CARDbUpdateTSF"
-41196b0bbe8a1ce663b85aca2141800214c186f1 staging: vt6655: Type encoding info dropped from variable name "byRxRate"
-
---===============7268426168014128048==--
+--===============4606028261181276421==--
