@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 28 Oct 2023 09:59:01 -0000
-Message-Id: <169848714163.10102.1401559499402171134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 28 Oct 2023 10:18:05 -0000
+Message-Id: <169848828582.24386.8017731674320006744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/probes-fixes-v6.6-rc7
+  - ref: refs/tags/perf-urgent-2023-10-28
     old: 0000000000000000000000000000000000000000
-    new: 454c20691731e6dd7e8b67f3ef6cbc3b666583e5
+    new: f4332ea2e00f60402789081a6d205cf3bf0d0564
