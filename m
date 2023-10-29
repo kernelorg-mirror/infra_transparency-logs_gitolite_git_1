@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 29 Oct 2023 13:43:34 -0000
-Message-Id: <169858701406.26890.11505880099127726039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/hinawa-rs
+Date: Sun, 29 Oct 2023 14:10:37 -0000
+Message-Id: <169858863700.14601.13476973426999862372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/libs/ieee1394/hinawa-rs
+user: takaswie
 changes:
-  - ref: refs/tags/v2023.10.29
-    old: 0000000000000000000000000000000000000000
-    new: 9b38a87ef17bd7c6720a3187c66bd88576fb5a3e
+  - ref: refs/heads/main
+    old: e8ef0c922ad0e00eb4f8b1d610face45938f5c29
+    new: c835f063fbe892cb555a593d971a7c88b85fe493
