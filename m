@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 29 Oct 2023 00:25:25 -0000
-Message-Id: <169853912540.3518.6659449880589496041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Sun, 29 Oct 2023 02:10:38 -0000
+Message-Id: <169854543816.13173.7334137178395302323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/tags/csd-lock.2023.10.23a
-    old: 0000000000000000000000000000000000000000
-    new: 08422498c1ca94749eecafc94eb1cd5c5c7df0cd
-  - ref: refs/tags/lkmm.2023.10.28a
-    old: 0000000000000000000000000000000000000000
-    new: aa9548edaa92d1b590e87ed6609ed0c6801c3525
-  - ref: refs/tags/nolibc.2023.10.23a
-    old: 0000000000000000000000000000000000000000
-    new: c602bac230c7fd3f3bfc576f8c23e0827e700edf
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
+  - ref: refs/heads/for-next
+    old: 466f70fb1b10fd139582646285e587fb38a9ff2c
+    new: 47ea0ddb1f5604ba3496baa19110aec6a3151f2e
+    log: |
+         47ea0ddb1f5604ba3496baa19110aec6a3151f2e platform/chrome: cros_ec_lpc: Separate host command and irq disable
+         
