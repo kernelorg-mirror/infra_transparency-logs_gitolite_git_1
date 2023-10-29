@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 29 Oct 2023 14:37:29 -0000
-Message-Id: <169859024994.571.13226559334336278000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sun, 29 Oct 2023 14:38:18 -0000
+Message-Id: <169859029822.1075.8977363416754823795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: caf7086a56bd118aff644cd3399aad3cfed03661
-    new: 495a89b2e5e98b3fb0ffb55db236b63f3c70854a
+  - ref: refs/heads/trace/core
+    old: ee3d5c9ef021b658eb68be5a31baa14caca5aafd
+    new: 70ec463d82c79596b89129714576bb6ae49b58c1
     log: |
-         60759ece628ea305d8717c81f8d1aeadb70b83c8 man/io_uring_setup.2: tidy up IORING_SETUP_NO_MMAP docs
-         495a89b2e5e98b3fb0ffb55db236b63f3c70854a Merge branch 'no_mmap_man' of https://github.com/wlukowicz/liburing
+         70ec463d82c79596b89129714576bb6ae49b58c1 eventfs: Test for ei->is_freed when accessing ei->dentry
          
