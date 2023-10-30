@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Mon, 30 Oct 2023 13:03:12 -0000
-Message-Id: <169867099242.10092.7664638416936980844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
+Date: Mon, 30 Oct 2023 13:04:53 -0000
+Message-Id: <169867109339.10758.2691456437670326760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/overlayfs/vfs
-user: amir73il
+repo: pub/scm/libs/ieee1394/libhinoko
+user: takaswie
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: 0b41c33dd34b61d6318d553ed15004efa05e5f09
-    new: 8c806e11ceb7b09bd3ce3b765144fc754b6199b7
+  - ref: refs/heads/main
+    old: 9874ed60fac7281a6843259d50072266a8e57135
+    new: c0dfd1d600328f555cecd98018cf86de1d35ff71
     log: |
-         260953bff225eb3efb785e4b3641a2a37d5fbaf0 ovl: remove unused code in lowerdir param parsing
-         5242e81bc1b930e4d0d3b6915bf06ccd1f5774a0 ovl: store and show the user provided lowerdir mount option
-         6121c94a2313c6aae00a2cb407f013f00cf03590 ovl: refactor layer parsing helpers
-         8c806e11ceb7b09bd3ce3b765144fc754b6199b7 ovl: add support for appending lowerdirs one by one
+         6bdf4fa0dcd770d8f56adab06fad5fb8786387c8 doc: use the word '1394 OHCI hardware' for consistency
+         d3acadca414573ff34fb89d56fbb553cae8d8ce0 doc: update desctiption about objects
+         bfbaf2b5b46fd21a4d46d9b308a11a2850cc6745 fw_iso_ctx: change prototype of FwIsoCtx.read_cycle_time()
+         f14f5662f57798a2c19ca3e6ec5c655dfd588353 change dependency on libhinawa to version 4.0
+         c0dfd1d600328f555cecd98018cf86de1d35ff71 bump release version to 1.0.0
          
+  - ref: refs/tags/v1.0.0
+    old: 0000000000000000000000000000000000000000
+    new: 7836cf8975b9a1cf31cc909ee7885617ff33eecd
