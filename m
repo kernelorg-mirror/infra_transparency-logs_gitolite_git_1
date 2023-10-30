@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sun, 29 Oct 2023 23:19:11 -0000
-Message-Id: <169862155158.13064.4049114679802877680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 30 Oct 2023 00:02:15 -0000
+Message-Id: <169862413585.11030.2728642329034841862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/trace/core
-    old: 70ec463d82c79596b89129714576bb6ae49b58c1
-    new: ae395d53794e7057c9a756e26865549a6b1a0840
+  - ref: refs/heads/wip-crypto
+    old: b12d5fb7249ae6842e0780a66c261796c06593b9
+    new: 656794a48aa8a5d6f411db4ec4279c7c6c80d3e9
     log: |
-         ae395d53794e7057c9a756e26865549a6b1a0840 eventfs: Save ownership and mode
+         656794a48aa8a5d6f411db4ec4279c7c6c80d3e9 dm-verity: hash blocks with shash import+finup when possible
          
