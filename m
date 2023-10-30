@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6037028359939322746=="
+Content-Type: multipart/mixed; boundary="===============6968179923467520845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 30 Oct 2023 17:25:19 -0000
-Message-Id: <169868671985.7518.13066950480041689324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 30 Oct 2023 17:25:24 -0000
+Message-Id: <169868672451.7631.12030344761757583066@gitolite.kernel.org>
 
---===============6037028359939322746==
+--===============6968179923467520845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 623d51ce8beb5f3809a1929e3953f378b898d558
-    new: 459d7488c0562c2c173b6da1420d866f007d130e
-    log: revlist-623d51ce8beb-459d7488c056.txt
+    old: 6fef7395bb190a20e1999855af190242022f0be8
+    new: 2a72d54d4f2843e438b411d33442cc98485c63bb
+    log: revlist-6fef7395bb19-2a72d54d4f28.txt
 
---===============6037028359939322746==
+--===============6968179923467520845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-623d51ce8beb-459d7488c056.txt
+Content-Disposition: attachment; filename=revlist-6fef7395bb19-2a72d54d4f28.txt
 
 06365a04fd32af25f90d8ccb4fecdda1f0e1ab78 Merge tag 'drm-intel-fixes-2023-09-28' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 a52d4f657568d6458e873f74a9602e022afe666f io_uring/fs: remove sqe->rw_flags checking from LINKAT
@@ -1049,6 +1049,6 @@ bd80d2ef59bb6436effa6b7f77746b1418cf0a15 Merge tag 'dma-mapping-6.6-2023-10-28' 
 e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
-459d7488c0562c2c173b6da1420d866f007d130e audit: add a Linux Audit specific README.md and SECURITY.md
+2a72d54d4f2843e438b411d33442cc98485c63bb selinux: add a SELinux specific README.md and SECURITY.md
 
---===============6037028359939322746==--
+--===============6968179923467520845==--
