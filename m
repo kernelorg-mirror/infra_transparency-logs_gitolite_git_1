@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3290576353209041938=="
+Content-Type: multipart/mixed; boundary="===============3516602470191536985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 30 Oct 2023 15:34:07 -0000
-Message-Id: <169868004764.22803.7613576768211167974@gitolite.kernel.org>
+Date: Mon, 30 Oct 2023 15:34:12 -0000
+Message-Id: <169868005213.22884.4703091082607286711@gitolite.kernel.org>
 
---===============3290576353209041938==
+--===============3516602470191536985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 3155f10bf8149dd6550b4832237671bd52dcdffd
-    new: 9a896387a61e9002a84caacd3353304e1ec2c8ce
-    log: revlist-3155f10bf814-9a896387a61e.txt
+  - ref: refs/heads/6.7/scsi-queue
+    old: 2bbeb8d12404cf0603f513fc33269ef9abfbb396
+    new: a75a16c62a2540f11eeae4f2b50e95deefb652ea
+    log: revlist-2bbeb8d12404-a75a16c62a25.txt
 
---===============3290576353209041938==
+--===============3516602470191536985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1698680035 -0400
+pusher 75C5DE3D 1698680050 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1698680034-ef7b2dd6bf14f23a805a22a62b13f1b3a6c2108a
+nonce 1698680050-01f1e799a359ce5e4c7768d992b408039c930892
 
-3155f10bf8149dd6550b4832237671bd52dcdffd 9a896387a61e9002a84caacd3353304e1ec2c8ce refs/tags/mkp-scsi-queue
+2bbeb8d12404cf0603f513fc33269ef9abfbb396 a75a16c62a2540f11eeae4f2b50e95deefb652ea refs/heads/6.7/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmU/zOMACgkQ7ulgGnXF
-3j3HrA/+JA7LCoHrYTjDZxik8eLI4W6pgjxw5iFyDCbSrbLnYkJsZVIew+OIQEse
-Sw3gUOt+DLW9DHzipPFaICoB3yOWWcdVG+u9f4IFHqn25zd2Us7BBiteGUGr8l7Y
-e2YuetZ33v0qTPjGKG2tDLj4IwwqYbGmeXw2WXMKFR4/K8t5/6+Iqu5HErBXmB65
-YsEVacd4N1k8uQnK+qjEzVrISBgu6yuyxxNpRvWd6Xi+bT3R2A10cR8XsbncCoYl
-QHvGlykwulpj5ShSTXRcb0Q7gbRO1JSwJndQGqzHwTty5pauTcrggMe+iEfTXu+K
-CgjrxqdGjHD/wEw+JTPbTim2Dw4Q78/HbGtAnM/G/e1SDi9HI6FNVCkE8GcbLQt+
-2ULD/5PmjxBPLMgEGHVDdvhe5h6xgz7+R+yVivHVh3D5vx1pH4NJPfCmaOadhTNr
-GHosNSllHsPJDLufvX94NylPk42+hKh80kDewUvWTsdZTBNrddZBEPiH6oZqSB12
-1VeRYjlUNRpgEuMERHtuxI15Mjo1NEkviOKPE5v/4Mj6KpBvK+L/vszZKTVvVQRh
-IGbPB45SHBdu/iRx3Psd0Neaf7dpy5Y2athD/cjDHI+FMD6JOcXkT6cYFEW2ZRzw
-B9O/ROo4S+yI8TBYHrG46pAPKyjPljuh9ozXZzTG9OhriSB6LtE=
-=mGHG
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmU/zPIACgkQ7ulgGnXF
+3j1lAA/9GTJxoUBmerzDtbrgvYNJ47cGp0g8GC7Mh85gOY5ELJMu4ypvXiiK/rbM
+Hakb3BqtwaV5Ov5ynHTTg8wYwTSIBskquBGvPmQ4Jazz6UAYY+Ramu1zByggYMWl
+uBC+532mQehToYeHIcX9RCbnaJrVhdaJPT3wiH0tXp0jkhgrzlpKnOUAipDIFVRN
+2J6AG4vjFQh5TzNGJa5CB+HJGsx1d1NSAnPRN9PgpiP961bJXsnU7htQN7IucN0S
+G1QGCmRRixTEF4ABt+Wht37Ezm4EkK+M3AL/K/6Q4omcWdzgShY8CW6beEmsGN1X
+i4J+x+KL56VDNdrZOLprJbd3Rgn1RKf5WvXsl6+/AnbqoTDgZd76oElZVuR2uW9j
+E1/4R+dHEs+VkqdOCwhpzI7uEUvR9iEJeAcwa7TwDIluoqs5n/E1wCM80zg77cUC
+qEuxTSYR6C8yutul45+bXe7Za9w2yVnsZtijz9imlwat+jFQjAP0RDMSOtroASol
+Ne76/zm/AXzG+TqRF4+vgH/nJfybJNoRLXh8+hrSOHlBAFIj+/ugeLV7pnbX9KWD
+74WXQbZS/Qb0rk3uK9YiJK0c/KJlVpD/vlJltEvr1OIqCfMStu+Kp5CIkD5EGBzm
+TU4SU3TOoH8+FT18DVRwUrEUKTpE+G4tJMwysPC10/sKClXszjw=
+=okIc
 -----END PGP SIGNATURE-----
 
---===============3290576353209041938==
+--===============3516602470191536985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3155f10bf814-9a896387a61e.txt
+Content-Disposition: attachment; filename=revlist-2bbeb8d12404-a75a16c62a25.txt
 
 9e1c911ecbbc92ebdae4aa69cf7691cf792ba32d scsi: pmcraid: Fix kernel-doc comment
 96f41cddbc7baf1a96a388693dcfac0051db070d scsi: target: core: Fix kernel-doc comment
@@ -70,4 +70,4 @@ a5181c8955145431e809158ad370258f77c3b77f scsi: ufs: core: Fix race between force
 6997283f64d968cf6bc8a68876930f67f48e1a6c scsi: ufs: core: Conversion to bool not necessary
 a75a16c62a2540f11eeae4f2b50e95deefb652ea scsi: ufs: core: Leave space for '\0' in utf8 desc string
 
---===============3290576353209041938==--
+--===============3516602470191536985==--
