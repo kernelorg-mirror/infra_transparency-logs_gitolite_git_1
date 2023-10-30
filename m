@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 30 Oct 2023 22:36:38 -0000
-Message-Id: <169870539886.3895.172188157343244978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 30 Oct 2023 22:37:36 -0000
+Message-Id: <169870545696.5574.14929351148291399911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: ccfc98a96ef65e29c8ff2333b4991bc1e3c74333
-    new: bebfe7dbb7690a347316aa8236f99741918db3ef
+  - ref: refs/heads/for-next
+    old: c2607453f7d3ce09c218b91496f0d170f542bd03
+    new: 779fb265bfec55da77a45cd41c2500059cca6fdd
     log: |
-         bebfe7dbb7690a347316aa8236f99741918db3ef foo
+         779fb265bfec55da77a45cd41c2500059cca6fdd fs/gfs2: Fix slab-use-after-free in gfs2_qd_dealloc
          
