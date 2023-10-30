@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 30 Oct 2023 11:57:37 -0000
-Message-Id: <169866705789.27828.13748830391381702744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Mon, 30 Oct 2023 12:01:31 -0000
+Message-Id: <169866729168.30906.1574122314585658126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/dev
-    old: d91e55433787f06231105c2beb897abdc3e3fdf9
-    new: a250325a551e525a11d8ba737707bf2e3444521e
+  - ref: refs/heads/misc-next
+    old: f5caa60c89f64cd446b9e45eead040461709006d
+    new: 86c522f5e01e438b4a9cc16a0bda87a207d744e6
     log: |
-         d76271feecc1ead0f3c6dad5b38139095c83ce69 exfat: add ioctls for accessing attributes
-         19bdf83c09332d0147ce5a8977699b12d486b968 exfat: support handle zero-size directory
-         a250325a551e525a11d8ba737707bf2e3444521e exfat: support create zero-size directory
+         86c522f5e01e438b4a9cc16a0bda87a207d744e6 btrfs: fix error pointer dereference after failure to allocate fs devices
          
