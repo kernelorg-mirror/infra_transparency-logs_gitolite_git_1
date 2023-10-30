@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4998800445595137657=="
+Content-Type: multipart/mixed; boundary="===============7971998834862725578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 30 Oct 2023 22:58:33 -0000
-Message-Id: <169870671307.19831.9884116704746287839@gitolite.kernel.org>
+Date: Mon, 30 Oct 2023 22:59:08 -0000
+Message-Id: <169870674874.20121.1320380823446417982@gitolite.kernel.org>
 
---===============4998800445595137657==
+--===============7971998834862725578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c17cda15cc86e65e9725641daddcd7a63cc9ad01
-    new: 55c900477f5b3897d9038446f72a281cae0efd86
-    log: revlist-c17cda15cc86-55c900477f5b.txt
+  - ref: refs/heads/dev-queue
+    old: f6a28f10df6f455bb57250ac39fb6301f2b0c5c9
+    new: 0dec093612932e39dda9d290e88f32cf73c68ea7
+    log: revlist-f6a28f10df6f-0dec09361293.txt
 
---===============4998800445595137657==
+--===============7971998834862725578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c17cda15cc86-55c900477f5b.txt
+Content-Disposition: attachment; filename=revlist-f6a28f10df6f-0dec09361293.txt
 
-97a79e502e25e27a65b0506c9fb210cb2d89b52e selftests/bpf: Add cross-build support for urandom_read et al
-72fae6319962fca2ecd8bb4f4e8dbdda7fe9af6f selftests/bpf: Enable lld usage for RISC-V
-e096ab9d9f45bea9fb8126c46f6151d81aa0836f selftests/bpf: Add uprobe_multi to gen_tar target
-3157b7ce14bbf468b0ca8613322a05c37b5ae25d Merge branch 'selftest/bpf, riscv: Improved cross-building support'
-2b464cc2fd57c5a0250ae2f31505ac8e26e9748c sctp: Spelling s/preceeding/preceding/g
-07cf7974a2236a66f989869c301aa0220f33905c Merge tag 'nf-next-23-09-28' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-3bbae5f1c651f55046fc2a889d144a148b25192e chelsio/l2t: Annotate struct l2t_data with __counted_by
-c3db467b08224bfc58e65f56b895d3d32615a8f7 cxgb4: Annotate struct clip_tbl with __counted_by
 157c56a4fedecb0f91a96a138a5cd8954d00541f cxgb4: Annotate struct cxgb4_tc_u32_table with __counted_by
 ceba9725fb4554c3cd07d055332272208b8a052f cxgb4: Annotate struct sched_table with __counted_by
 1508cb7e07520d34b5f45992bbd172dd5728cbc7 cxgb4: Annotate struct smt_data with __counted_by
@@ -1050,5 +1042,13 @@ f1c73396133cb3d913e2075298005644ee8dfade net: pcs: xpcs: Add 2500BASE-X case in 
 beb5eed32a73e13f29c4b640a53d004f3faf019e net: fill in MODULE_DESCRIPTION()s under net/core
 ce1afe280419911b29bc7228f28d4ae85d7e7a2b net: fill in MODULE_DESCRIPTION()s under net/802*
 55c900477f5b3897d9038446f72a281cae0efd86 net: fill in MODULE_DESCRIPTION()s under drivers/net/
+d61d3fb8767d64a2d9f9fbb31e5b8632d8b3b3b6 PCI: Extract ATS disabling to a helper function
+1e7ba0235aa0606006e543f62e591257290f35d7 PCI: Disable ATS for specific Intel IPU E2000 devices
+7fe203f5fa2fcfd9151926243ddf95a24830072c i40e: fix livelocks in i40e_reset_subtask()
+712816f91f05cce1d345aac3581bec187b7f10ed i40e: fix 32bit FW gtime wrapping issue
+bc4a6ba2bf2f0d2c8bcd3bc7b6cf1e6fb8898191 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+923211c1aaddc345010ae1eb6cc9f3990965b6e5 ice: Fix VF-VF filter rules in switchdev mode
+c84e71e7143c0df30da6e7f465d2ce85175e9b21 ice: lag: in RCU, use atomic allocation
+0dec093612932e39dda9d290e88f32cf73c68ea7 ice: Fix VF-VF direction matching in drop rule in switchdev
 
---===============4998800445595137657==--
+--===============7971998834862725578==--
