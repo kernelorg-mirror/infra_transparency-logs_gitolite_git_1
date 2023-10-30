@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 30 Oct 2023 06:57:43 -0000
-Message-Id: <169864906331.23022.3082985670299422435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 30 Oct 2023 07:01:57 -0000
+Message-Id: <169864931741.26190.13145395032525370237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/chrome-platform-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 47ea0ddb1f5604ba3496baa19110aec6a3151f2e
-  - ref: refs/tags/tag-chrome-platform-for-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 32db600b9b598d241e231c08453b1297d088216f
+  - ref: refs/heads/seen
+    old: d296003bfb800bc5aa3fa69f3f724b1e1473347c
+    new: d9f292f263faf5c83498cb658ec065b335e83dd3
+    log: |
+         a503d72060c08d61014a79d20169479f68150674 strbuf_commented_addf(): drop the comment_line_char parameter
+         5eda4b37133fa5092ecb56bbbba04dd964e4db82 strbuf_add_commented_lines(): drop the comment_line_char parameter
+         d9f292f263faf5c83498cb658ec065b335e83dd3 Merge branch 'jc/strbuf-comment-line-char' into seen
+         
