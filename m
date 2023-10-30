@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9189111115674838715=="
+Content-Type: multipart/mixed; boundary="===============3816302595227343019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 30 Oct 2023 10:35:45 -0000
-Message-Id: <169866214514.1792.6357852662935673598@gitolite.kernel.org>
+Date: Mon, 30 Oct 2023 10:38:01 -0000
+Message-Id: <169866228125.3984.13557873257938245678@gitolite.kernel.org>
 
---===============9189111115674838715==
+--===============3816302595227343019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 6c1b980a7e79e55e951b4b2c47eefebc75071209
-    new: ffc253263a1375a65fa6c9f62a893e9767fbebfa
-    log: revlist-6c1b980a7e79-ffc253263a13.txt
+  - ref: refs/heads/dev
+    old: b3a62a9886007ce5e2b69e2b14fe41c50c6843d6
+    new: d91e55433787f06231105c2beb897abdc3e3fdf9
+    log: revlist-b3a62a988600-d91e55433787.txt
 
---===============9189111115674838715==
+--===============3816302595227343019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c1b980a7e79-ffc253263a13.txt
+Content-Disposition: attachment; filename=revlist-b3a62a988600-d91e55433787.txt
 
-c6c2adcba50c2622ed25ba5d5e7f05f584711358 x86/sgx: Resolves SECS reclaim vs. page fault for EAUG race
-06365a04fd32af25f90d8ccb4fecdda1f0e1ab78 Merge tag 'drm-intel-fixes-2023-09-28' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-a52d4f657568d6458e873f74a9602e022afe666f io_uring/fs: remove sqe->rw_flags checking from LINKAT
 e80f238d2bc0c0f27dc52ac824ca80b938a43ace ASoC: core: Print component name when printing log
 dd9f9cc1e6b9391140afa5cf27bb47c9e2a08d02 ASoC: core: Do not call link_exit() on uninitialized rtd objects
 9b7177b1df64b8d7f85700027c324aadd6aded00 bpf: tcp_read_skb needs to pop skb regardless of seq
@@ -1050,5 +1047,8 @@ bd80d2ef59bb6436effa6b7f77746b1418cf0a15 Merge tag 'dma-mapping-6.6-2023-10-28' 
 e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
+fdead266fbdcaaaadcd7c98ba70bd96cb0e7c036 exfat: add ioctls for accessing attributes
+47d77dcdbe011d84b7e4a6551b7060cd71afb15f exfat: support handle zero-size directory
+d91e55433787f06231105c2beb897abdc3e3fdf9 exfat: support create zero-size directory
 
---===============9189111115674838715==--
+--===============3816302595227343019==--
