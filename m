@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 30 Oct 2023 16:45:07 -0000
-Message-Id: <169868430720.10874.5546993784738545912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 30 Oct 2023 16:46:14 -0000
+Message-Id: <169868437488.11410.1337710578827093192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-6.7-part2
+  - ref: refs/tags/hardening-v6.7-rc1
     old: 0000000000000000000000000000000000000000
-    new: 1d014d89f9ef64e037858f69eae8749d1d5528ad
+    new: 3b54d648cc38e59e1bdf2dc0165fbe6448c2b99b
