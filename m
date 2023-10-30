@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 30 Oct 2023 21:03:13 -0000
-Message-Id: <169869979337.1151.12743360062131760239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 30 Oct 2023 21:05:30 -0000
+Message-Id: <169869993023.3653.280233854790791290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/dm-6.7
-    old: ca49a2f637fd884cc4f1369ce9ef6711dae351f2
-    new: e398f5816627faa90e8d29b56143c70c2ac06ce4
-    log: |
-         abf7437a95d8607858aa1d766010b21cd639327b dm delay: for short delays, use kthread instead of timers and wq
-         ab3f3af0d6384347671a98195f1e148915e8502a dm error: Add support for zoned block devices
-         b2d3a271023493b0e2f03c311b200260e64b31a1 dm crypt: use crypto_shash_digest() in crypt_iv_tcw_whitening()
-         e398f5816627faa90e8d29b56143c70c2ac06ce4 dm integrity: use crypto_shash_digest() in sb_mac()
-         
+  - ref: refs/heads/stable-6.7
+    old: 0000000000000000000000000000000000000000
+    new: e508560672890b2873c89258b88fade1356392ce
