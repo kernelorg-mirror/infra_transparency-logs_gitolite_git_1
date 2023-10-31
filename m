@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 31 Oct 2023 09:47:10 -0000
-Message-Id: <169874563027.16671.17845088753203185672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 31 Oct 2023 09:51:13 -0000
+Message-Id: <169874587301.19712.11916780807621155868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/bootconfig/for-next
-    old: fe632ccbe7eb9780b7477a30822f1cb83db25c6f
-    new: acbc3ecb806e24eb9c0cafc29e0884490dda6169
-    log: |
-         717c7c894d4b885e879790f14afbe630802d77d7 fs/proc: Add boot loader arguments as comment to /proc/bootconfig
-         acbc3ecb806e24eb9c0cafc29e0884490dda6169 doc: Add /proc/bootconfig to proc.rst
-         
+  - ref: refs/heads/parisc-6.7-1
+    old: 0000000000000000000000000000000000000000
+    new: 8a32aa17c1cd48df1ddaa78e45abcb8c7a2220d6
