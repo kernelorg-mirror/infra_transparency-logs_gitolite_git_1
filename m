@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 31 Oct 2023 07:36:22 -0000
-Message-Id: <169873778277.5563.4022311657958933777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 31 Oct 2023 07:40:54 -0000
+Message-Id: <169873805487.10103.2043936644466664156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: f5deddce60b50b55bcafeebaab1408d203b0f204
-    new: c471fc3c9e79faf93e505b896b2ca2fd4cb3b09b
+  - ref: refs/heads/experimental
+    old: e7bf849582cd65f9c9df17e93a85ac84728a3715
+    new: 8646ae11bb7f84f7189a915d72eb397b93430c6f
     log: |
-         c471fc3c9e79faf93e505b896b2ca2fd4cb3b09b erofs: fix erofs_insert_workgroup() lockref usage
+         efa6c68ba8ed5a913ca4f7dd2e036e9d1c9fd29e erofs-utils: lib: tidy up erofs_compress_destsize()
+         8646ae11bb7f84f7189a915d72eb397b93430c6f erofs-utils: lib: drop prefix_sha256 digests
          
