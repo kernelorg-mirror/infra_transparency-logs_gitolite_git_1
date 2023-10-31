@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2066765081365797477=="
+Content-Type: multipart/mixed; boundary="===============6584026131313744512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 31 Oct 2023 22:18:16 -0000
-Message-Id: <169879069687.7899.4922495535762599541@gitolite.kernel.org>
+Date: Tue, 31 Oct 2023 22:18:23 -0000
+Message-Id: <169879070332.8005.17517317590852672964@gitolite.kernel.org>
 
---===============2066765081365797477==
+--===============6584026131313744512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f1c73396133cb3d913e2075298005644ee8dfade
     new: f2fbb908112311423b09cd0d2b4978f174b99585
     log: revlist-f1c73396133c-f2fbb9081123.txt
 
---===============2066765081365797477==
+--===============6584026131313744512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ce1afe280419911b29bc7228f28d4ae85d7e7a2b net: fill in MODULE_DESCRIPTION()s unde
 e0f9f0e0737f47f643a66c6db158af61818336bc Merge tag 'ipsec-next-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 f2fbb908112311423b09cd0d2b4978f174b99585 net: tcp: remove call to obsolete crypto_ahash_alignmask()
 
---===============2066765081365797477==--
+--===============6584026131313744512==--
