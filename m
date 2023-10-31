@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 31 Oct 2023 20:18:35 -0000
-Message-Id: <169878351534.18840.12811637271281340582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Tue, 31 Oct 2023 20:38:10 -0000
+Message-Id: <169878469073.741.9977796234977624000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/tags/net-next-6.7-v2
+  - ref: refs/tags/linux-cpupower-6.7-rc1
     old: 0000000000000000000000000000000000000000
-    new: 7651c2a2ecc2076cfdbb308e7a5be4066d2b01fa
+    new: bd755953e0592d66c2bdc867815d950c661a1ea7
