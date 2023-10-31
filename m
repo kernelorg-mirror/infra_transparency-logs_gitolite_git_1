@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 31 Oct 2023 18:20:19 -0000
-Message-Id: <169877641916.30886.10096553326494970253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 31 Oct 2023 18:22:49 -0000
+Message-Id: <169877656978.31909.10835397407864247342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/kdevops
-    old: 09e741211010baff73ae61c08cc1d14fb563500b
-    new: 23f6c099ec430684594da3b4f8a778446723a861
+  - ref: refs/heads/dm-6.7
+    old: 070bb43ab01e891db1b742d4ddd7291c7f8d7022
+    new: 0e875d50d24fb0e20712f814a68518d5d3661cd2
     log: |
-         d5d6791c006fd8e8b947fd28466ca1fe4ea78f3d nfs: add new tracepoint at nfs4 revalidate entry point
-         23f6c099ec430684594da3b4f8a778446723a861 nfs: indicate whether dentry is positive or negative in tracepoint
+         0e875d50d24fb0e20712f814a68518d5d3661cd2 dm crypt: account large pages in cc->n_allocated_pages
          
