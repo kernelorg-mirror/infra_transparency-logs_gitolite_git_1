@@ -1,31 +1,153 @@
-Content-Type: multipart/mixed; boundary="===============6866548670502980817=="
+Content-Type: multipart/mixed; boundary="===============4075758357088619804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 31 Oct 2023 15:15:05 -0000
-Message-Id: <169876530553.27817.11560544823788396972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 31 Oct 2023 15:18:53 -0000
+Message-Id: <169876553366.29203.9990643622761995576@gitolite.kernel.org>
 
---===============6866548670502980817==
+--===============4075758357088619804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/vfs.super
-    old: ac85cf49ed9324fcebec44f2f25fbdad0a48ad10
-    new: 1dafc8421afd1458e39209724261a291f871b32e
-    log: revlist-ac85cf49ed93-1dafc8421afd.txt
+  - ref: refs/heads/master
+    old: ffc253263a1375a65fa6c9f62a893e9767fbebfa
+    new: 8945118292ca2f6c285e654e566fd29b1ca62b4c
+    log: revlist-ffc253263a13-8945118292ca.txt
 
---===============6866548670502980817==
+--===============4075758357088619804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac85cf49ed93-1dafc8421afd.txt
+Content-Disposition: attachment; filename=revlist-ffc253263a13-8945118292ca.txt
 
+2ed6248ab3a58dbbe5819cbd0e60e4e3a5b72c47 bcachefs: Fix assertion in bch2_dev_list_add_dev()
+50b13beef09f445e1fb8fbf1e1f852df06baf05a bcachefs: Improve an error message
+23189da9eb6b34fc1ceb077edb32e308d0ad6760 bcachefs: Improve checksum error messages
+a3d7afa5c1b62140168982747fd15c1999d991f4 bcachefs: Always use percpu_ref_tryget_live() on c->writes
+1c6ff39445553f84f9a46c2c60a4768c7f4ef226 bcachefs: Fix refcount leak in bch2_do_invalidates()
+b5f73fd79f4c710024ef4385626aecbaee6fc3f1 bcachefs: Check for extents with too many ptrs
+7bb61e8c0e37fdf5684bc1fa1f6e0b5644cc7f75 bcachefs: Make IO in flight by copygc/rebalance configurable
+8f7f566f5774d36196bfa87bc097522fd497d4dc bcachefs: btree key cache pcpu freedlist
+30f0349d62429effd729ae9272c6fb57f47d1436 bcachefs: Split out dev_buckets_free()
+c501fef6deb1de13d45d22a3df32906adf17275b bcachefs: Pull out data_update.c
+54feff0a7ac5ae44b99e697f0fadf81471b33801 bcachefs: Improve "copygc requested to run" error message
+5a3c24714c8bd5e0d01d1547c0848147f2f79f69 bcachefs: Make verbose option settable at runtime
+2817d453819a10654ac72e5f4937d4653dea1648 bcachefs: Fix assertion in topology repair
+58aaa0836be3be279f17db9ba07f3a58da033a9f bcachefs: fix __dev_available().
+7a47d0993be95bf68e2e04653f40d311e3c25bed bcachefs: Always descend to leaf nodes it btree_gc
+962ad1a76669443126c6531352380f56d6e5d7d2 bcachefs: Don't BUG_ON() inode link count underflow
+38585367442f09606d7a529be3290f2fd4cbcf84 bcachefs: Bucket invalidate path improvements
+22add2ec6705cd66977717c49105e0910b2ef144 bcachefs: Use BTREE_INSERT_LAZY_RW in bch2_check_alloc_info()
+e34da43e33f8c0b42b74bf9aa86042d16884183b bcachefs: Improve bch2_check_alloc_info
+47ab0c5f6a1e6ac1e9387181585fb39393fec4ea bcachefs: Fix bch2_check_alloc_key()
+7f5c5d20f01483ba53233e3e2c54848e0b2d9ecd bcachefs: Redo data_update interface
+c91996c50a9ad6569cf9cb52e79c171f0d34814d bcachefs: data jobs, including rebalance wait for copygc.
+0337cc7eeed19e81e50414b5199bb65029ca0ed5 bcachefs: move.c refactoring
+4081ace307c15fb0c15bcc65fce2e3792c1979d9 bcachefs: Get ref on c->writes in move.c
+7c0732b88dfb87b5f32dcf5fdd7984d2acb992b9 bcachefs: Fix move path when move_stats == NULL
+e28307a10656d90a2d33fbf4dc64b881f81c68cf bcachefs: Silence unimportant tracepoints
+1534ebb706efe9765787c0899dfa5ec52331ba8f bcachefs: Put some repair messages behind opts->verbose
+80b3bf33d35e8f5bf4323be71777e9aab66c3a90 bcachefs: Silence some fsck errors when reconstructing alloc info
+e68914ca849fa51167e2136ad9f6b43c22956d3c bcachefs: Rename __bch2_trans_do() -> commit_do()
+416cc426c0d79c65d85de52d3548a32de06ab3e8 bcachefs: Fix snapshot deletion
+597dee1cd67d591cd5aeba184fdb69d0da0ceb78 bcachefs: Switch data_update path to snapshot_id_list
+e4085b70f21f0e4b578a50a9fd7e84f2a055010f bcachefs: fsck_inode_rm() shouldn't delete subvols
+4ab35c34d5ab258fdd7325315fe5d94699e51eb4 bcachefs: Fix subvol/snapshot deleting in recovery
+49124d8a7f3bc0f2bd33ba6cdfa2e9514a74b109 bcachefs: Improve snapshots_seen
+35f1a5034d81416ca820032452bed583f78f1f5e bcachefs: Improve fsck for subvols/snapshots
+c7a09cb1b13995da938f4e1df52adeba44515d7d bcachefs: When fsck finds redundant snapshot keys, trigger snapshots cleanup
+0d06b4eca687b3a6a07b62fd4ca83d635103c77f bcachefs: Fix repair for extent past end of inode
+a1783320d46e878ddf5d2bb3380c181d515a5ff3 bcachefs: for_each_btree_key2()
+43de721a33b214b253c07672c4c6ba7548f2d3e7 bcachefs: Unlock in bch2_trans_begin() if we've held locks more than 10us
+8bfe14e86a00a44eb7bfbeff1d7368e44c93bb7c bcachefs: lock time stats prep work.
+25055c690f9ab3d4fb72b8a07323bf952c2682dc bcachefs: bch2_time_stats_to_text now indents properly
+c807ca95a6e20bedbbb84287bc7087c2b2b775de bcachefs: added lock held time stats
+f501ad2b8108a7910adf494fcc5c59bbbfa886e8 bcachefs: bch2_mark_alloc(): Do wakeups after updating usage
+8ef983139940439b3c169ea90dbb8c21e5dcadd3 bcachefs: Improve bucket_alloc_fail tracepoint
+4910a9506cff4760d56e8a362619dee3319bee8b bcachefs: Convert bch2_do_discards_work() to for_each_btree_key2()
+ca91f40ff79f432772660b1d10e04cfc71214458 bcachefs: Convert bch2_dev_freespace_init() to for_each_btree_key_commit()
+1615505cdf2c681c72ca7ab742c9a3fd39fccfe3 bcachefs: Convert bch2_check_lrus() to for_each_btree_key_commit()
+1329c7ce5651df67e5986e08fd16545c36a029a2 bcachefs: Convert more quota code to for_each_btree_key2()
+eace11a730b36e7e8ee184675927ce7e658e7616 bcachefs: Convert more fsck code to for_each_btree_key2()
+326568f18cb57ed95a420361da9a64330e122cda bcachefs: Convert bch2_gc_done() for_each_btree_key2()
+dadecd02c49c7bb14c04445fc514c394e28c1ae3 bcachefs: bch2_trans_run()
+d04801a0f452f022fcb278b6428853460db75ab8 bcachefs: Convert bch2_do_invalidates_work() to for_each_btree_key2()
+8933315689bcb57a3b282bad262ac584e095a2f5 bcachefs: Convert bch2_dev_usrdata_drop() to for_each_btree_key2()
+6738dd19db5c96e574af79a3b7c1754fb2ecf2bd bcachefs: Convert subvol code to for_each_btree_key_commit()
+445d184af25abd70575539f7d7b2c8e25b8c49c8 bcachefs: Convert alloc code to for_each_btree_key_commit()
+e941ae7d3afc68127adef917a2b779dabe83fdfe bcachefs: Add a counter for btree_trans restarts
+0a5156334c721295928b4c5f42eabb9c625cd73e bcachefs: Convert erasure coding to for_each_btree_key_commit()
+175379db206a3a36a80585b00bb974a6ab6c43c0 bcachefs: ec_stripe_bkey_insert() -> for_each_btree_key_norestart()
+b962552eabd59f0026dcc21c14775b9d78336baf bcachefs: Fix should_invalidate_buckets()
+3ab25c1b4ef2a57b8bc55e786e90af63f7d06663 bcachefs: We can handle missing btree roots for all alloc btrees
+615f867c14b2d70efb02dafb8e668d984e74d0e3 bcachefs: Improved errcodes
+d4bf5eecd78a90d019b933929a14c91d6d41af62 bcachefs: Use bch2_err_str() in error messages
+90cecb921cfe95858a32995019f11c20b6339607 bcachefs: Prevent a btree iter overflow in alloc path
+0990efaeeab14de1e3e3bf2791808afebadd1cc4 bcachefs: btree_trans_too_many_iters() is now a transaction restart
+549d173c1bd9b58c2ad41217522462e012a6545f bcachefs: EINTR -> BCH_ERR_transaction_restart
+a0cb8d784f309d22323974e47b103bf01d0b62c0 bcachefs: Inject transaction restarts in debug mode
+1ed0a5d280ef7a1183b42b2fcc13d919925f1b6e bcachefs: Convert fsck errors to errcode.h
+4f84b7e30b3aa72ce5de032380799a1a5ba044fd bcachefs: for_each_btree_key_reverse()
+84ece59ad5c1cd972619cae5a5df8998cc5e779f bcachefs: Unit test updates
+d7228ecc483e1e104179a24a7e1e4568ae9235cb bcachefs: Convert debugfs code to for_each_btree_key2()
+7903e3d2d7e5266dde40c9db746fafb078f84f4f bcachefs: Fix check_i_sectors()
+db346e7120a6dec1534184ea2abf9d22edbb9b8a bcachefs: bch2_bucket_alloc_trans_early -> for_each_btree_key_norestart
+01eed77178049b85ec1850717fc81bcb24e19c70 bcachefs: Tighten up btree_path assertions
+91f1b9fdd2c02a7375e46bb2628870f3c6116072 bcachefs: Add an O_DIRECT option (for userspace)
+0763c552e7ef024ce6dbc9cbc828b8715dff251c bcachefs: fsck: Fix nested transaction handling
+4a7f7e9e4de665d94e1a7610bf5506265df414d3 bcachefs: Fix not punting to worqueue when promoting
+ae33e7a274abe6863bc4a1f4ea1e4c5f65b533f9 bcachefs: Add distinct error code for key_cache_upgrade
+86b74451931790eafa018021fe900faea3230189 bcachefs: Fix bch2_btree_trans_to_text()
+17047fbced563cf5abe5aa546f6a92af48900b69 bcachefs: Fix incorrectly freeing btree_path in alloc path
+49e401fa55ab128461f84a4eeb1f2d974f3281c1 bcachefs: Tracepoint improvements
+15f11c1aa8a98f3b6805d0b2a300a87ef0205d34 bcachefs: Improve an error message
+31301dd46975b2423fd38fc64bc58728d89dbcac bcachefs: Fix missing error handling in bch2_subvolume_delete()
+fd211bc71c9b4093ed39d4fc93294f9ff423febc bcachefs: Don't set should_be_locked on paths that aren't locked
+315c9ba6da5b480618a80dcb91a74a86e49366bb bcachefs: BTREE_ITER_NO_NODE -> BCH_ERR codes
+fa3ae3ca4e13d86fe5f97c275748b3820c873091 bcachefs: six_lock_counts() is now in six.c
+c7be3cb546e3bb2704008506bd6c50ad5ea02441 bcachefs: "Snapshot deletion did not run correctly" should be a fsck err
+9f96568c0ab983fbb0f6eefa36ad799a72bc9358 bcachefs: Tracepoint improvements
+6fae65c112d9fb0a9827bad094e5633fdf2bcbda bcachefs: Kill BTREE_ITER_CACHED_(NOFILL|NOCREATE)
+a300261ad19d69e080278ec4950d39caef3ffbf1 bcachefs: Fix duplicate paths left by bch2_path_put()
+7c812ab786c4a689989aabf9e865164eb4f8004d bcachefs: Fix btree_path->uptodate inconsistency
+11c1a62f3b872d2345c97e72700ed4d1b2511888 bcachefs: Switch bch2_btree_delete_range() to bch2_trans_run()
+4aba7d4569f70167edf183055e809a37cd73cdd1 bcachefs: Rename lock_held_stats -> btree_transaction_stats
+5c0bb66ae341c71e5f62c193ea4d7b0cf278a914 bcachefs: Track the maximum btree_paths ever allocated by each transaction
+ff7dc3651d5bdcc9d9fe4ace3da21f0f5c2bd778 bcachefs: Print last line in debugfs/btree_transaction_stats
+45b033fa1afd35a8eab0af003ffac9413548f476 bcachefs: Fix assertion in bch2_btree_key_cache_drop()
+c497df8b85a7be22373d3d2e57e067285ebcd731 bcachefs: Increment restart count in bch2_trans_begin()
+c59d66b51b11064f17d87d5b9695e0216b8ade99 bcachefs: Fix bch2_fs_check_snapshots()
+9375fbc20079ed0c8a10d8d387b2c173a3dc04d7 bcachefs: Debugfs cleanup
+efa8a7014d288b713781404367b54ef10aa2477f bcachefs: remove dead whiteout_u64s argument.
+15bc0948e73d9a858a6b69fc4eb34d176436044c bcachefs: Add an overflow check in set_bkey_val_u64s()
+bbf4288401519a7554201caf9b945c79f29753b3 bcachefs: Always rebuild aux search trees when node boundaries change
+223b560e02098502b4e1c87aa9767620852d1bfd bcachefs: btree_path_down() optimization
+f0d2e9f2e511c137b75f15d0d13abd0217239253 bcachefs: Add assertions for unexpected transaction restarts
+d0b50524f1d9b60318b92830546b45cd3325cfe2 bcachefs: bch2_bkey_packed_to_binary_text()
+8192f8a58626ca3903a20f942ce86a6beb959a71 bcachefs: Another should_be_locked fixup
+23dfb3a2f7757593249b745f2a17b56b756d2874 bcachefs: Fix bch2_btree_iter_peek_slot() error path
+efd0d03816dd0d5127217220f85f1f0e621974d1 bcachefs: Minor transaction restart handling fix
+42590b53fef427f96fc50da4974923564e9033cd bcachefs: bch2_btree_delete_range_trans() now returns -BCH_ERR_transaction_restart_nested
+12043cf1511420ecf38f4925a0089c1ae1aa058b bcachefs: fsck: Another transaction restart handling fix
+02afcb8c26b14ae317754d8c79339f41b3dfeaae bcachefs: Fix adding a device with a label
+cd5afabea1acd2bc351ec08d59511302b397f150 bcachefs: btree_locking.c
+8e5696698d140f599586426fb9a897abb0eaa576 bcachefs: Reorganize btree_locking.[ch]
+d4263e563879f6dda86052881fbbc9e21e6e07f5 bcachefs: Better use of locking helpers
+2e27f6567b2662a2f7440a651e007ebc77cdcc7a bcachefs: Kill nodes_intent_locked
+e3738c6909d69e980d8b56d33df2e438a2c1c798 six locks: Improve six_lock_count
+616928c30f594775953ca75eb7ccc312a8abeb73 bcachefs: Track maximum transaction memory
+14599cce443323ce23b4b266068b7018e42bd30c bcachefs: Switch btree locking code to struct btree_bkey_cached_common
+c240c3a94427346f27a7ff48f02cbe03f2c2ebd6 bcachefs: Print lock counts in debugs btree_transactions
+131dcd5af7e2f1b13c2c0baf3095d7e449eb9859 bcachefs: Track held write locks
+06a53943222be722e5f85782721e4701bcd424e8 bcachefs: Correctly initialize bkey_cached->lock
+b1cdc398ae36689300b4108ce9c90c58cac1ba34 bcachefs: Make more btree_paths available
+5f1dd9a633dd0aa8429742cdba08d9566f49177b bcachefs: Improve btree_node_relock_fail tracepoint
 ce56bf7fc23b6c2cf6edfbdfba1805c1842641ca bcachefs: Improve trans_restart_journal_preres_get tracepoint
 8a9c1b1cb0edacdf4ac9c378c4ec4fc376fc8bac bcachefs: Improve bch2_btree_node_relock()
 d97e6aaed60a9c2c727cce2979ca311fe232163f bcachefs: Fix bch2_btree_update_start() to return -BCH_ERR_journal_reclaim_would_deadlock
@@ -834,113 +956,28 @@ be47e0ba4fc92bd065ac0b7ad345913eea1bc6fc bcachefs: KEY_TYPE_error now counts tow
 37fad9497f5d37d89ed06faa64d580d1451be664 bcachefs: snapshot_create_lock
 795413c5488536476dacff9e565e53a51d7798d8 bcachefs: Fix drop_alloc_keys()
 7413ab70cbc15bd8f35a78569ec5a778fb9a3e1e bcachefs: Refactor memcpy into direct assignment
-05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 Linux 6.6-rc7
-13454e6e0df2ff37853596d546438ac84ca6a413 isdn: mISDN: hfcsusb: Spelling fix in comment
 4e5b65a22ba0cabe58f895cd797cb10a763d6994 Merge tag 'v6.6-rc7' into sched/core, to pick up fixes
-3e3929ef889e650dd585dc0f4f7f18240688811a wifi: cfg80211: pass correct pointer to rdev_inform_bss()
-c434b2be2d80d236bb090fdb493d4bd5ed589238 wifi: cfg80211: fix assoc response warning on failed links
-91535613b6090fc968c601d11d4e2f16b333713c wifi: mac80211: don't drop all unprotected public action frames
-daa9ada2093ed23d52b4c1fe6e13cf78f55cc85f powerpc/mm: Fix boot crash with FLATMEM
-4984fc578a911f3146965f4086d0a219a9806002 drm/amdkfd: reserve a fence slot while locking the BO
-d97ae6474ca0411bb8c2696e5764ec946dba43d0 Merge branches 'rcu/torture', 'rcu/fixes', 'rcu/docs', 'rcu/refscale', 'rcu/tasks' and 'rcu/stall' into rcu/next
-6a5c032c4b7e4262488703086ab280406dc51298 x86: Enable IBT in Rust if enabled in C
-eb96e221937af3c7bb8a63208dbab813ca5d3d7e btrfs: fix unwritten extent buffer after snapshotting a new subvolume
 180af1a5bdaf8d4964837a46a9fce8c3a7fd2d97 scripts/faddr2line: Don't filter out non-function symbols from readelf
 86bf86e19d308a1dba41e5f1f7e8cc105a5efa49 scripts/faddr2line: Use LLVM addr2line and readelf if LLVM=1
 60fd39af33d3f63c4c94bd06784ebdf0d883f5c9 scripts/faddr2line: Skip over mapping symbols in output from readelf
-7798b59409c345d4a6034a4326bceb9f7e2e8b58 net/handshake: fix file ref count in handshake_nl_accept_doit()
 6f15b178cd6315c997981f76c6ebed7ad39144c5 EDAC/versal: Add a Xilinx Versal memory controller driver
-7c14564010fc1d0f16ca7d39b0ff948b43344209 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-e017769f4ce20dc0d3fa3220d4d359dcc4431274 Merge tag 'for-6.6-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-291c0d3a98afb7b863485215c241a851be9e3435 Merge tag 'mvebu-fixes-6.6-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
-d788c9338342a3146d115281922901c1e3e1cbff sfc: cleanup and reduce netlink error messages
-31de287345f41bbfaec36a5c8cbdba035cf76442 KEYS: trusted: Rollback init_trusted() consistently
-c745cd1718b7825d69315fe7127e2e289e617598 KEYS: trusted: tee: Refactor register SHM usage
-3edc22655647378dea01900f7b04e017ff96bda9 integrity: powerpc: Do not select CA_MACHINE_KEYRING
-03acb9ccec3f8cbcc0ed93c188b7a119ef30ef64 keys: Remove unused extern declarations
-84186fcb834ecc55604efaf383e17e6b5e9baa50 Merge tag 'urgent/nolibc.2023.10.16a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-d88520ad73b79e71e3ddf08de335b8520ae41c5c Merge tag 'pull-nfsd-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 5ebde09d91707a4a9bec1e3d213e3c12ffde348f sched/core: Fix RQCF_ACT_SKIP leak
 b95303e0aeaf446b65169dd4142cacdaeb7d4c8b sched: Add cpus_share_resources API
 8881e1639f1f899b64e9bccf6cc14d51c1d3c822 sched/fair: Scan cluster before scanning LLC in wake-up path
 22165f61d0c4092adf40f967c899e5d8b8a0d703 sched/fair: Use candidate prev/recent_used CPU if scanning failed for cluster wakeup
 984ffb6a4366752c949f7b39640aecdce222607f sched/fair: Remove SIS_PROP
 c04d905f6c7c41f137de7e4a9279e5c938eb19ef vfs: Convert BUG_ON to WARN_ON_ONCE in open_last_lookups
-9644bc49705723bf7c69aa9bf542bb5161b91dba Fix NULL pointer dereference in cn_filter()
 d3c50061765d4b5616dc97f5804fc18122598a9b autofs: fix add autofs_parse_fd()
-adc8df12d91a2b8350b0cd4c7fec3e8546c9d1f8 gtp: uapi: fix GTPA_MAX
-4530e5b8e2dad63dcad2206232dd86e4b1489b6c gtp: fix fragmentation needed check with gso
-cd8892c07876da0c4b50e020048a32a28596a074 Merge branch 'gtp-tunnel-driver-fixes'
-a71ef31485bb51b846e8db8b3a35e432cc15afb5 perf/core: Fix potential NULL deref
-cba94bbcff08d209710dd7bdc139caad675a6f8d drm/i915/perf: Determine context valid in OA reports
 70c8dc9104275037a39ab0b2a4ed6eaacac39e32 x86/defconfig: Enable CONFIG_DEBUG_ENTRY=y
-1e55c5200dc7efeb84d4582a82d289329255fd82 fpga: m10bmc-sec: Change contact for secure update driver
-28926daf731f72d0537767fdbab2a3e06e31190a fpga: Fix memory leak for fpga_region_test_class_find()
-4f82870119a46b0d04d91ef4697ac4977a255a9d Merge tag 'mm-hotfixes-stable-2023-10-24-09-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-00d67093e4f1874f713e5869dbcf34a00665dbb7 Merge tag 'wireless-2023-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-bf5abc17bc434f27e20d3702b1992d9b5e4a7239 virtio_console: Annotate struct port_buffer with __counted_by
-15fcedd43a0810a5482ef759a18ab852d012cead kexec: Annotate struct crash_mem with __counted_by
-fed2ef7abaebe5e0207cd52ae52721ea3da3b5ba reset: Annotate struct reset_control_array with __counted_by
-9cca73d7b4bfec75b2fcef751015f31691afa792 hwmon: (acpi_power_meter) replace open-coded kmemdup_nul
-77a8c982ff0d4c3a14022c6fe9e3dbfb327552ec i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
-3857af38e57a80b15b994e19d1f4301cac796481 docs: rust: add "The Rust experiment" section
-47b8def9358c5eb888e78b24b7e5b7f2e2e97b8e powerpc/mm: Avoid calling arch_enter/leave_lazy_mmu() in set_ptes
-735795f68b37e9bb49f642407a0d49b1631ea1c7 netfilter: flowtable: GC pushes back packets to classic path
-a63b6622120cd03a304796dbccb80655b3a21798 net/sched: act_ct: additional checks for outdated flows
-197f9fba9663e765f8f3ae3b2375c6cc32b2e2b3 net: ipv4: fix typo in comments
-1711435e3e67e079d6a2bce54d96d1af21c7ef2c net: ipv6: fix typo in comments
-4e6c38c38723a954b85aa9ee62603bb4a37acbb4 drm/logicvc: Kconfig: select REGMAP and REGMAP_MMIO
-78cc55e0b64c820673a796635daf82c7eadfe152 drm/i915/mcr: Hold GT forcewake during steering operations
-4cbed7702eb775cca22fff6827a549092cb59f61 drm/i915/pmu: Check if pmu is closed before stopping event
-7644b1a1c9a7ae8ab99175989bfc8676055edb46 io_uring/fdinfo: lock SQ thread while retrieving thread cpu/pid
-64ffd2f1d00c6235dabe9704bbb0d9ce3e28147f drm/amd: Disable ASPM for VI w/ all Intel systems
-838b35bb6a89c36da07ca39520ec071d9250334d io_uring/rw: disable IOCB_DIO_CALLER_COMP
-d5090484b021794271280ab64d20253883b7f6fd swiotlb: do not try to allocate a TLB bigger than MAX_ORDER pages
 a0b0bad10587ae2948a7c36ca4ffc206007fbcf3 genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
-611da07b89fdd53f140d7b33013f255bf0ed8f34 Merge tag 'acpi-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-f199bf5bf84c19a4f488a39d7d694ab10787de35 irqchip/gic-v3-its: Don't override quirk settings with default values
 61d4fb0b349ec1b33119913c3b0bd109de30142c file, i915: fix file reference for mmap_singleton()
-53b08c4985158430fd6d035fb49443bada535210 vsock/virtio: initialize the_virtio_vsock before using VQs
-5e5d8b94a4fa5fc4a4ea5c97393a29aa5bf3e4bb Merge tag 'nf-23-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-53798666648af3aa0dd512c2380576627237a800 iavf: in iavf_down, disable queues when removing the driver
-47846d51348dd62e5231a83be040981b17c955fa audit: don't take task_lock() in audit_exe_compare() code path
-b132ac51d7a50c37683be56c96ff64f8c887930f accel/ivpu/37xx: Fix missing VPUIP interrupts
-fd962781270e6452dd5b30c8aa0b3b0fbee06244 riscv: RISCV_NONSTANDARD_CACHE_OPS shouldn't depend on RISCV_DMA_NONCOHERENT
-381cae1698538ad2f90dd6ecd8ed155d194e072f riscv: only select DMA_DIRECT_REMAP from RISCV_ISA_ZICBOM and ERRATA_THEAD_PBMT
-9eab43facdadb7d00456c2657001ae2e5353c814 soc: renesas: ARCH_R9A07G043 depends on !RISCV_ISA_ZICBOM
 b56ebe7c896dc78b5865ec2c4b1dae3c93537517 x86/apic/msi: Fix misconfigured non-maskable MSI quirk
-736a4aad8a9fdcf577ffa33b33df240c67557af8 Merge tag 'renesas-fixes-for-v6.6-tag3' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
-c17cda15cc86e65e9725641daddcd7a63cc9ad01 Merge tag 'net-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-3a568e3a961ba330091cd031647e4c303fa0badb Merge tag 'soc-fixes-6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 b827ac419721a106ae2fccaa40576b0594edad92 exportfs: Change bcachefs fid_type enum to avoid conflicts
-24eca2dce0f8d19db808c972b0281298d0bafe99 scsi: sd: Introduce manage_shutdown device flag
-6366ffa6edd832de870aaef184d5949a2e09c0c2 Merge tag 'drm-misc-fixes-2023-10-26' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-5679dd241bbf36492d8fcddb99af48b22a5f99ec Merge tag 'drm-intel-fixes-2023-10-26' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-44117828ed5c129a8146585e81262c0025daa50f Merge tag 'amd-drm-fixes-6.6-2023-10-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-750b95887e567848ac2c851dae47922cac6db946 Merge tag 'drm-fixes-2023-10-27' of git://anongit.freedesktop.org/drm/drm
-6e6c6d6bc6c96c2477ddfea24a121eb5ee12b7a3 iommu: Avoid unnecessary cache invalidations
 5e7afb2eb7b2a7c81e9f608cbdf74a07606fd1b5 genirq/generic_chip: Make irq_remove_generic_chip() irqdomain aware
 08d4c174828d868d314d2475fbcaa1393f0bbba9 irqchip/ls-scfg-msi: Use device_get_match_data()
 f99b926f6543faeadba1b4524d8dc9c102489135 irqchip/sifive-plic: Fix syscore registration for multi-socket systems
 c73801ae4f22b390228ebf471d55668e824198b6 futex: Don't include process MM in futex key on no-MMU
-e0f831836cead677fb07d54bd6bf499df35640c2 tracing/kprobes: Fix the description of variable length arguments
-3bde7ec13c971445faade32172cb0b4370b841d9 platform/x86: Add s2idle quirk for more Lenovo laptops
-09a4a03c073bab5b375b71769f708d6932b370f7 Merge tag 'powerpc-6.6-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-888cf78c29e223fd808682f477c18cf8f61ad995 Merge tag 'iommu-fix-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-b99d70c0d1380f1368fd4a82271280c4fd28558b x86/cpu: Add model number for Intel Arrow Lake mobile processor
 f4febfdbb45ad2322a508d3d650b3af7c8286cb2 Merge tag 'timers-v6.7-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
-128b0c9781c9f2651bea163cb85e52a6c7be0f9e x86/i8259: Skip probing when ACPI/MADT advertises PCAT compatibility
-bd94d86f490b70c58b3fc5739328a53ad4b18d86 x86/tsc: Defer marking TSC unstable to a worker
-a78a67f3019c687d06dee8cebfb7b7cee7bf0216 Merge tag 'platform-drivers-x86-v6.6-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-832328c9f8aa4b41423f29a53ba7080eb7214976 Merge tag 'ata-6.6-final' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-2dc4e0f45593abc53d58d0073b3b314f864c522b Merge tag 'block-6.6-2023-10-27' of git://git.kernel.dk/linux
-1f36cd05e0081f2c75769a551d584c4ffb2a5660 sparc32: fix a braino in fault handling in csum_and_copy_..._user()
-56567a20b22bdbf85c3e55eee3bf2bd23fa2f108 Merge tag 'io_uring-6.6-2023-10-27' of git://git.kernel.dk/linux
-1939316bf988f3e49a07d9c4dd6f660bf4daa53d io_uring: kiocb_done() should *not* trust ->ki_pos if ->{read,write}_iter() failed
-dc32464a5fe4946fe1a4d8f8e29961dc411933c5 ceph_wait_on_conflict_unlink(): grab reference before dropping ->d_lock
-926fe783c8a64b33997fec405cf1af3e61aed441 tracing/kprobes: Fix symbol counting logic by looking at modules as well
-d1b0949f23a343d3153d5c681fb1866538534227 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-67d4c87945b2d9678347eaa4567d62dd56dc9713 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 e719b4d156749f02eafed31a3c515f2aa9dcc72a block: Provide bdev_open_* functions
 841dd789b8625eb9288aaa2be9f10872e6622033 block: Use bdev_open_by_dev() in blkdev_open()
 acb083b55597872dcaebe9e0352da7fdf1684def block: Use bdev_open_by_dev() in disk_scan_partitions() and blkdev_bszset()
@@ -978,14 +1015,6 @@ c30b9787a48118d2ed0283b6c8f2abee873a1d19 block: simplify bdev_del_partition()
 f61033390bc34cd22ad4b4c12619a1e7a8a75600 block: assert that we're not holding open_mutex over blk_report_disk_dead
 3b224e1df650df22541724c4bd5f1622b40d4ba4 fs: assert that open_mutex isn't held over holder ops
 5aa9130acb98bacacc8bd9f1489a9269430d0eb8 porting: update locking requirements
-8907bfd2b11ab0d09f2c408f82bff09e55d53a9a Merge tag 'i2c-for-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-db5cda7fd46881f88eee52f3960b7856ddf051fb Merge tag 'char-misc-6.6-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-bd80d2ef59bb6436effa6b7f77746b1418cf0a15 Merge tag 'dma-mapping-6.6-2023-10-28' of git://git.infradead.org/users/hch/dma-mapping
-51a7691038c334db81b736faa6b4cc4778e751fc Merge tag 'probes-fixes-v6.6-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-4714de03329810b9ac57762b6bfdb73b123fedd5 Merge tag 'perf-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
 d4e175f2c460fd54011117d835aa017d2d4a8c08 Merge tag 'vfs-6.7.super' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 0d63d8b2294b228147bf58def506dde35e57daef Merge tag 'vfs-6.7.autofs' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 3b3f874cc1d074bdcffc224d683925fd11808fe7 Merge tag 'vfs-6.7.misc' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
@@ -1020,35 +1049,6 @@ c891e98ab32d55b25d87e380d919c279a8b228e0 Merge tag 'smp-core-2023-10-29-v2' of g
 63a3f11975997e0851b108b49d7b5f4e84a18d08 Merge tag 'timers-core-2023-10-29-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 943af0e73a370b0c856340fd873c140e42822ec7 Merge tag 'x86-apic-2023-10-29-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb55307e6716b1a02f7db05e27d60e8ca2289c03 Merge tag 'x86-core-2023-10-29-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c9049984f0e470af865c497c7f785fe895e5da9c Merge tag 'nolibc.2023.10.23a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-6750f0de53b7d64a4deffa62944ea431a153ec48 Merge tag 'lkmm.2023.10.28a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-9a0f53e0cfc2ef262c05b8e4ab89e7f2accaf96c Merge tag 'csd-lock.2023.10.23a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-2656821f1f202d58224551b71eff41aafd1edf8b Merge tag 'rcu-next-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
-fdce8bd38037a4a2b2961ca4abffaab195690b30 Merge tag 'slab-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-befaa609f4c784f505c02ea3ff036adf4f4aa814 Merge tag 'hardening-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-5e37269945b4d6117770666a40081848558f9501 Merge tag 'pstore-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-d82c0a37d431ada0d1dae9a2665fcfe17b0f9e14 Merge tag 'execve-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-b9ff774548cd91b45003b3b0d41f15cd52b25509 Merge tag 'tpmdd-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-b9886c976668cae1614b46922b56f14b467da7be Merge tag 'audit-pr-20231030' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-f5fc9e4a117d4c118c95abb37e9d34d52b748c99 Merge tag 'selinux-pr-20231030' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-2b93c2c3c02f4243d4c773b880fc86e2788f013d Merge tag 'lsm-pr-20231030' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-455cdcb45f8fa9e7c70273e7bec0537ff02d5247 Merge tag 'rust-6.7' of https://github.com/Rust-for-Linux/linux
-639409a4ac8e1578ce34715338c6a4ddf9941294 Merge tag 'wq-for-6.7-rust-bindings' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-866b8870b6e6f478e9a1c51e732c9ba26dddbe91 Merge tag 'wq-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-5a6a09e97199d6600d31383055f9d43fbbcbe86f Merge tag 'cgroup-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-9ef6b40f3f175c7b9723cfff5596f76f85a6178d fs: massage locking helpers
-e891ffbd8ee7b916ca9ff20b9979865ef8305eb8 bdev: rename freeze and thaw helpers
-e744c2cb692ca82b8ee10cd4f99713d8979b32d8 bdev: surface the error from sync_blockdev()
-0a15a34a35bb409b7de9e358c07c8143cfab977b bdev: add freeze and thaw holder operations
-bfac4176f2c496e2fa663a9212c40cea8d04bca2 bdev: implement freeze and thaw holder operations
-2e6c3e8fe8b5bfafec4ec6288180d35f3006b0bf fs: remove get_active_super()
-f7ff357e9fa168fce551e5595377ce2614621b7e super: remove bd_fsfreeze_sb
-cf4e2132454b10bff8c6ca3fef1a26932df38667 fs: remove unused helper
-f0b7c8c833c5c1571b7d1cc8f1145dc62a2f0bb8 porting: document block device freeze and thaw changes
-77ed85313d531b8466be8f273b09e2070b8062f3 blkdev: comment fs_holder_ops
-82dd69a45135297bf3c8a8211e4327a16d8bb085 fs: simplify setup_bdev_super() calls
-5a25ec106e729fbd3b16132d8c6d950fea10c1d8 xfs: simplify device handling
-c6dfd9f7382468f3ab6e9d161009e17a192841e6 ext4: simplify device handling
-1dafc8421afd1458e39209724261a291f871b32e fs: streamline thaw_super_locked
+8945118292ca2f6c285e654e566fd29b1ca62b4c odebuf and lockdep splat with bcachefs
 
---===============6866548670502980817==--
+--===============4075758357088619804==--
