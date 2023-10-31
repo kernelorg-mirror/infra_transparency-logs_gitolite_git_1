@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 31 Oct 2023 18:17:49 -0000
-Message-Id: <169877626979.28351.5406766956191359535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 31 Oct 2023 18:20:19 -0000
+Message-Id: <169877641916.30886.10096553326494970253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dev
-    old: 70a6c62730855f0eff4213e46dd79f178d1c708f
-    new: a1ef9b4cff53c509f412c354c715449d7f2e159b
+  - ref: refs/heads/kdevops
+    old: 09e741211010baff73ae61c08cc1d14fb563500b
+    new: 23f6c099ec430684594da3b4f8a778446723a861
     log: |
-         a1ef9b4cff53c509f412c354c715449d7f2e159b refscale: Optimize process_durations()
+         d5d6791c006fd8e8b947fd28466ca1fe4ea78f3d nfs: add new tracepoint at nfs4 revalidate entry point
+         23f6c099ec430684594da3b4f8a778446723a861 nfs: indicate whether dentry is positive or negative in tracepoint
          
-  - ref: refs/tags/v6.6
-    old: 0000000000000000000000000000000000000000
-    new: 5260836abb7056beed3f3f0d0e4262c11f36f0d0
