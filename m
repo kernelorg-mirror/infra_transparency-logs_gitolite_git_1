@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 31 Oct 2023 15:30:05 -0000
-Message-Id: <169876620517.5709.17752645327982613676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 31 Oct 2023 15:36:25 -0000
+Message-Id: <169876658548.9496.10319014962586943583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 7a725c78547f7337dddb6fd391f80914f671e583
-    new: 95f4d3f054464e997ae1067dc7f4f8ec3f896ccc
+  - ref: refs/heads/tmp.perf-tools-next
+    old: fed3a1be6433e15833068c701bfde7b422d8b988
+    new: 9f6cea7dfd3a0b4ee6149bdcf2c39404e42df70a
     log: |
-         a4614bffd786fe06a824f11f2d8602641b3d0e98 crct10: use isa-l for crc if available
-         95f4d3f054464e997ae1067dc7f4f8ec3f896ccc Merge branch 'pi-perf' of https://github.com/ankit-sam/fio
+         1715b6359c1ae37f24d6774f0bcd73b6bf839eaa perf beauty socket/prctl_option: Cope with extended regexp complaint by grep
+         e8d6d6fd6da3a29333955ecd47ac128fa82bd628 perf tests make: Remove the last egrep call, use 'grep -E' instead
+         9f6cea7dfd3a0b4ee6149bdcf2c39404e42df70a perf build: Warn about missing libelf before warning about missing libbpf
          
