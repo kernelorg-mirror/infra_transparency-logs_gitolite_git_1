@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 31 Oct 2023 15:24:10 -0000
-Message-Id: <169876585081.32704.1906491396797140549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 31 Oct 2023 15:30:05 -0000
+Message-Id: <169876620517.5709.17752645327982613676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 19573c302d7acde5444d76968e5b726067e8c9ba
-    new: 2ce2f8d2d2db410d0daaf5a6411ebeb78d647247
+  - ref: refs/heads/master
+    old: 7a725c78547f7337dddb6fd391f80914f671e583
+    new: 95f4d3f054464e997ae1067dc7f4f8ec3f896ccc
     log: |
-         f894fee4a22127b3e0be13f8001be762e631ed44 Revert "riscv: kexec: Align the kexeced kernel entry"
-         51722855e255983c2e95633451cea1c89e9e9a5f Revert "riscv: Remove duplicate objcopy flag"
-         2ce2f8d2d2db410d0daaf5a6411ebeb78d647247 Revert "riscv: Kconfig: Add select ARM_AMBA to SOC_STARFIVE"
+         a4614bffd786fe06a824f11f2d8602641b3d0e98 crct10: use isa-l for crc if available
+         95f4d3f054464e997ae1067dc7f4f8ec3f896ccc Merge branch 'pi-perf' of https://github.com/ankit-sam/fio
          
