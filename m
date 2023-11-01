@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Wed, 01 Nov 2023 00:00:35 -0000
-Message-Id: <169879683550.17051.5781646118558737507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 01 Nov 2023 00:00:41 -0000
+Message-Id: <169879684151.17130.13629911472479484609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/tags/test.1698796827.x86_tdx_for_6.7
+  - ref: refs/heads/testing/Wstringop-overflow-next20231031
     old: 0000000000000000000000000000000000000000
-    new: 38c6d587c10a29fb0da87e954d21de640a4b8384
+    new: 2c1e49a5a3c092e77a840f974168802c87c96193
