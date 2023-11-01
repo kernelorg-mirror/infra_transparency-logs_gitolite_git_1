@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 01 Nov 2023 16:56:16 -0000
-Message-Id: <169885777641.21417.1412983613072475182@gitolite.kernel.org>
+Date: Wed, 01 Nov 2023 17:01:41 -0000
+Message-Id: <169885810161.25052.13670678437219379555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
   - ref: refs/heads/kdevops
-    old: 274978f173276c5720a3cd8d0b6047d2c0d3a684
-    new: dc483c851ff9a3505069cb326221dc0242d44015
+    old: dc483c851ff9a3505069cb326221dc0242d44015
+    new: de630176bdf885eed442902afe94eb60d8f5f826
