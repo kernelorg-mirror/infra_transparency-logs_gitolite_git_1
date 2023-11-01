@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 01 Nov 2023 02:20:35 -0000
-Message-Id: <169880523581.26338.14829760821820320812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Wed, 01 Nov 2023 02:22:35 -0000
+Message-Id: <169880535541.27147.7999929098771726373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/for-next
-    old: 4bc075bff7aef9c3ff03783a9d3f8862b5cf4f26
-    new: db38228c03d649465d6a1d7beb3a6604979763aa
+  - ref: refs/heads/dev
+    old: c388da1dad59dc24801b61bc63539cab6cd83e23
+    new: 91562895f8030cb9a0470b1db49de79346a69f91
     log: |
-         e8620de3f26b3ee84bedb1bf1ffbc5eed457ff71 riscv: errata: fix T-Head dcache.cva encoding
-         c1c99e5f1b136130f48dd964fc1b2663530b41fa riscv: errata: prefix T-Head mnemonics with th.
-         1a3876d34469397f3ca47cb54d4835541598c8f1 Merge patch "riscv: errata: improve T-Head CMO"
-         17abcfe7f0ae61eb01140a84e63b189220e185b7 Merge patch series "riscv: SCS support"
-         db38228c03d649465d6a1d7beb3a6604979763aa riscv: configs: defconfig: Enable configs required for RZ/Five SoC
+         ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
+         91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
          
