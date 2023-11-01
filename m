@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 01 Nov 2023 12:04:18 -0000
-Message-Id: <169884025869.1799.13055127525523133672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
+Date: Wed, 01 Nov 2023 12:13:28 -0000
+Message-Id: <169884080882.9447.12668196070403771553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/libs/ieee1394/libhinoko
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: d8379563fe5c8a4adba12804abbe20e43a8e1cde
-    new: 87f0a503c92242feeea2afcfcdcce3c446f5f52c
+  - ref: refs/heads/topic/debian
+    old: 7dcf72f2e9a281e99541b15b84a33954af35ce36
+    new: ecae260d3ef237f810a40037d74764284018c380
     log: |
-         87f0a503c92242feeea2afcfcdcce3c446f5f52c setterm: avoid restoring flags from uninitialized memory
+         ecae260d3ef237f810a40037d74764284018c380 debian: debian packaging for v1.0.0
          
