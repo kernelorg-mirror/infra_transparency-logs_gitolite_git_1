@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 01 Nov 2023 14:52:23 -0000
-Message-Id: <169885034335.26619.1633978957599522113@gitolite.kernel.org>
+Date: Wed, 01 Nov 2023 15:02:13 -0000
+Message-Id: <169885093324.856.12007096075794982552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
   - ref: refs/heads/kdevops
-    old: ffc253263a1375a65fa6c9f62a893e9767fbebfa
-    new: 256c59951db9fd1a1457e3133ab4bd82ab8ce41a
+    old: 256c59951db9fd1a1457e3133ab4bd82ab8ce41a
+    new: f27b530dd7df994c0a70b0591f8bffb511dd183c
     log: |
-         256c59951db9fd1a1457e3133ab4bd82ab8ce41a nfsd: fix change_info in NFSv4 RENAME replies
+         f27b530dd7df994c0a70b0591f8bffb511dd183c nfsd: fix change_info in NFSv4 RENAME replies
          
