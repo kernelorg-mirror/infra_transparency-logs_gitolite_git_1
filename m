@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0404844625691656304=="
+Content-Type: multipart/mixed; boundary="===============8299731307035026098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 01 Nov 2023 18:18:35 -0000
-Message-Id: <169886271556.16002.604514856598273693@gitolite.kernel.org>
+Date: Wed, 01 Nov 2023 18:18:44 -0000
+Message-Id: <169886272433.16154.12170324483956638502@gitolite.kernel.org>
 
---===============0404844625691656304==
+--===============8299731307035026098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo
-    old: d8d00bd5558e65451b766530f8f59d8f749f12a5
-    new: 8f8e6de7cd86a50270b43bcff93079c7a0625a8f
-    log: revlist-d8d00bd5558e-8f8e6de7cd86.txt
+  - ref: refs/heads/dm-vdo-wip
+    old: 2d3c0cb72ac915cdf9af9075c54eebc7d1a18cc6
+    new: d4e7d305aaa9738d9606f986ad8f2f01edbb14b3
+    log: revlist-2d3c0cb72ac9-d4e7d305aaa9.txt
 
---===============0404844625691656304==
+--===============8299731307035026098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8d00bd5558e-8f8e6de7cd86.txt
+Content-Disposition: attachment; filename=revlist-2d3c0cb72ac9-d4e7d305aaa9.txt
 
 3da5d2de92387a8322965c7fb1365f7cae690e5a MAINTAINERS: update the dm-devel mailing list
 f1445032173d4a49eb8b4a0808db499966897d9a dm: shortcut the calls to linear_map and stripe_map
@@ -81,5 +81,39 @@ f282107545b74ff6c5832c6d57436c40853fc65e dm vdo: add debugging support
 d2d17d4d805fcbf57f40a14e3e57cafb70576b10 dm vdo: add the top-level DM target
 5a6d19abe1dc27648b64418df24ea0acef0f38d6 dm vdo: enable configuration and building of dm-vdo
 8f8e6de7cd86a50270b43bcff93079c7a0625a8f dm vdo: add MAINTAINERS file entry
+640cd906ee1ac0a6efd34924a1face4e0a1ccf68 dm vdo: add "funnel-" filename prefix to funnel-queue based sources
+27cd74b1adb3cbe3bc2b0d220ce2f809a8c0f182 dm vdo wait-queue: fix style nits and missing braces
+110eabeebb30a586c194d56f5a879c0854956d55 dm vdo hash-map: share code between int_map and pointer_map
+9691353334943a9f243f3eafaadb7fd7089bc64a dm vdo hash-map: eliminate indirect function calls for ptr_key
+4a060d7fb524db4c7f20865e35c518cffddfcf15 dm vdo hash-map: remove unused 'initial_load' arg from vdo_hash_map_create
+9311573bf83dcf1ec50beef5a89006fbe2ccf09b dm vdo hash-map: call vdo_hash_map_create instead of vdo_make_int_map
+7aa1b628e84080297c666dec8aebb0fb2f6b0665 dm vdo hash-map: call vdo_hash_map_free instead of vdo_free_int_map
+dc3cd2f62ef0c670ee2a1639a4c22411bedbc265 dm vdo hash-map: call vdo_hash_map_get instead of vdo_int_map_get
+c771b5fa1b442d59b7b875be6edbe80d54cbc56b dm vdo hash-map: call vdo_hash_map_put instead of vdo_int_map_put
+75952e316073d3bbb65e5deab166a2cca6008905 dm vdo hash-map: call vdo_hash_map_remove instead of vdo_int_map_remove
+7105d09952a9506b98a2ba19b33e916adf5591d9 dm vdo: remove int-map.h since all callers have been converted
+b1e7111532f62de2e8768853de05dc0ab9317ee0 dm vdo: use BUILD_BUG_ON instead of STATIC_ASSERT
+d60309f3ef9e2c42a6e35df1ab600b6b37d40514 dm vdo memory-alloc: remove UDS_ALLOCATE_NOWAIT macro
+5bdfb1ee7cc14c44b7d4013ea054f8d2b6ac66b7 dm vdo memory-alloc: rename UDS_FORGET to uds_forget
+c2246a80dfd0fcb24a4c6ef561835b723d4da5c3 dm vdo memory-alloc: rename UDS_FREE to uds_free
+7056144b4d6c6f3624a9418a216b554defe476b9 dm vdo memory-alloc: rename UDS_ALLOCATE to uds_allocate
+1cec51229cf70698765ea2c5c47cb2dfa7db4322 dm vdo memory-alloc: rename UDS_ALLOCATE_EXTENDED to uds_allocate_extended
+e8b8b9da5b385af7d01e88b230a22ac402b27b9f dm vdo memory-alloc: rename uds_free_memory to uds_free
+ef0bc72214c12ae1ba09e15e4f3a7f1b5a293dc8 dm vdo memory-alloc: cleanup flow of memory-alloc.h and style nits
+bb9d3151ee944af7fbb7423cb1eb6983f36fccb1 dm vdo memory-alloc: mark branch unlikely() in uds_allocate_memory()
+7c23204a63285eead4813e0370683b0122feca1c dm vdo io-submitter: remove get_bio_sector
+e46bffae7f4f2275b3f9c67829d21e52565c21ea dm vdo io-submitter: remove needless casts and excess newlines
+74722c60c8f69b36b07c929694ceaf875ba89ba8 dm vdo io-submitter: rename to vdo_submit_metadata_vio
+7d0f3589c1bc6dfbdd011e5f97d216eb82d6073b dm vdo io-submitter: rename to vdo_submit_flush_vio
+48b904a1a713f3aaaadeb336c7470f05d1e569df dm vdo io-submitter: rename to vdo_submit_data_vio
+c8168204fc11ae090213833ad575229de4e6a68c dm vdo io-submitter: rename to submit_vio and submit_data_vio
+b9c9db7107893cd8e5522b6dad816626edc4533c dm vdo: cleanup excess newlines and style nits in vdo.[ch]
+f7a20cd7a183fa1fe4ed466680dd34cc6fd7c74d dm vdo: cleanup excess newlines and style nits in block-map.[ch]
+1145375e90f7e96725590261af2da02912eee88e dm vdo wait-queue: add proper namespace to interface
+d23457c02a971d6b42b2f68592acf8a7ba6419b7 dm vdo wait-queue: remove unused debug function vdo_waitq_get_next_waiter
+bd43a08b6e5fb93b641e84a092b8d0aebe51d5f0 dm vdo slab-depot: fix whitespace nits and missing braces
+2741853da5905251ec7c550424590fecf983acd6 dm vdo wait-queue: optimize vdo_waitq_dequeue_matching_waiters
+5d16d8c0337c82c2aaa1151f51697a1b13bd8fb2 dm vdo block-map: optimize enter_zone_read_only_mode
+d4e7d305aaa9738d9606f986ad8f2f01edbb14b3 dm vdo wait-queue: rename to vdo_waitq_dequeue_waiter
 
---===============0404844625691656304==--
+--===============8299731307035026098==--
