@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1867220363469704066=="
+Content-Type: multipart/mixed; boundary="===============8643166633778012494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Wed, 01 Nov 2023 01:41:23 -0000
-Message-Id: <169880288313.30408.121581676437108444@gitolite.kernel.org>
+Date: Wed, 01 Nov 2023 01:41:39 -0000
+Message-Id: <169880289956.30602.4231267465112702732@gitolite.kernel.org>
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-101
-    old: e63d7ec3ebff65f5bea3e6759a4caa7791604e79
-    new: 89d93e9d9f32df4b2d7f4ff3bff645f0c7acad35
-    log: revlist-e63d7ec3ebff-89d93e9d9f32.txt
-  - ref: refs/heads/for-greg/4.19-101
-    old: 9542c89d3800843be2806c3369ad3cb024a8813e
-    new: 3fd240a933d2cef4535b877c1198ff1e0a54e2e6
-    log: revlist-9542c89d3800-3fd240a933d2.txt
-  - ref: refs/heads/for-greg/5.10-101
-    old: 38755ab11da5ea1135aae0ff382a7cfccce99477
-    new: 8196724321004a78d4b1403b6967bc771116b1e9
-    log: revlist-38755ab11da5-819672432100.txt
-  - ref: refs/heads/for-greg/5.15-101
-    old: aa94d040aa56e90e3cf41d2fed9130467f7caf41
-    new: 9de5a33271c245dee97699f568ef9e7147e65934
-    log: revlist-aa94d040aa56-9de5a33271c2.txt
-  - ref: refs/heads/for-greg/5.4-101
-    old: 13e159944740f6cf38ef9a23a2cd0cf2b871ec82
-    new: f10b23f8130a5504edebe35a7b2ac9329b7df269
-    log: revlist-13e159944740-f10b23f8130a.txt
-  - ref: refs/heads/for-greg/6.1-101
-    old: 49a0ecea927204f0c6a314b770423babb43c93dd
-    new: 6957857f7b334de484b47d3f8d6b5ad0662b4eaa
-    log: revlist-49a0ecea9272-6957857f7b33.txt
-  - ref: refs/heads/for-greg/6.5-101
-    old: d7a27855b142a4c85efc302c06b29689fb2a3866
-    new: 98597edafccf08ad89f88e395968f52b14826b9c
-    log: revlist-d7a27855b142-98597edafccf.txt
-  - ref: refs/heads/for-greg/6.6-101
+  - ref: refs/heads/for-greg/4.14-201
+    old: 6089b07f35ed2b190f8e246f03868c541c48f633
+    new: b6f0964581683735158b21f2cc620a1ebb3d0d61
+    log: revlist-6089b07f35ed-b6f096458168.txt
+  - ref: refs/heads/for-greg/4.19-201
+    old: d202e0287c8c288124d648e8363b355e1a04c500
+    new: e631742ae86f8a56fc2c572caf4504434687dce1
+    log: revlist-d202e0287c8c-e631742ae86f.txt
+  - ref: refs/heads/for-greg/5.10-201
+    old: 1951d87d775e68bc27b4357a89500e1bc4a755c8
+    new: e729949a50509527969b64faf6cbb29e47fe2953
+    log: revlist-1951d87d775e-e729949a5050.txt
+  - ref: refs/heads/for-greg/5.15-201
+    old: 35528029162b3c0e2ab7e7f57fbba931f8cb1fd3
+    new: 38b799cdebbd03e1a6870242bf5aae09da25026a
+    log: revlist-35528029162b-38b799cdebbd.txt
+  - ref: refs/heads/for-greg/5.4-201
+    old: 6b2cd9dab2ba6989b426371bc5c912aa04383983
+    new: 14d447247e84e9b7be31dcfe0ecd3c74dae305fd
+    log: revlist-6b2cd9dab2ba-14d447247e84.txt
+  - ref: refs/heads/for-greg/6.1-201
+    old: 4ef5f38b8fc45bd2cd12ab5abd123eaed943fb8f
+    new: e7673c7fecc80f7650170dda09005b3f65ccc437
+    log: revlist-4ef5f38b8fc4-e7673c7fecc8.txt
+  - ref: refs/heads/for-greg/6.5-201
+    old: 6e0a88a102c0bf49e41400c44fb44eac1e771083
+    new: 51d053207df9cc731c7f6595d5e5eff408353f33
+    log: revlist-6e0a88a102c0-51d053207df9.txt
+  - ref: refs/heads/for-greg/6.6-201
     old: 0000000000000000000000000000000000000000
-    new: 73b2a9f36e453bc0c6fa006cf2a8d0e77359ca56
+    new: 9dfa581b087026f2a65ec6cf446e529b601ae7d8
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e63d7ec3ebff-89d93e9d9f32.txt
+Content-Disposition: attachment; filename=revlist-6089b07f35ed-b6f096458168.txt
 
 2e2b26813a52ad660b2809c45a9adbeae975c180 ARM: pxa: remove use of symbol_get()
 ac1b855bf75ad3bd6bf05f18d17b98894fa111c0 mmc: au1xmmc: force non-modular build and remove symbol_get usage
@@ -363,12 +363,16 @@ d66259c0dcaf1403697add138be0933e2ed8067b gpio: vf610: set value before the direc
 c3830fca233beab7f7928024c288a4ad5e32b00b Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 be91967244bec4a0f1ca0f4a207764c554bfabc2 Bluetooth: hci_event: Fix using memcmp when comparing keys
 89d93e9d9f32df4b2d7f4ff3bff645f0c7acad35 Linux 4.14.328
+7df397c1e0a1849ad95d8e1b05750b086466c609 clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+32119f2cd152146fb96c8f48f5ecaccf1a096094 binfmt_misc: cleanup on filesystem umount
+9eb03a44a641878613cb9e85201d457403227b54 clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+b6f0964581683735158b21f2cc620a1ebb3d0d61 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9542c89d3800-3fd240a933d2.txt
+Content-Disposition: attachment; filename=revlist-d202e0287c8c-e631742ae86f.txt
 
 15f12d6bfd9684ce2055df408cb3ece5c32bb54b erofs: ensure that the post-EOF tails are all zeroed
 aabcb86b9e834a1de1cf3d41a74fbb1a09b6b2f2 ARM: pxa: remove use of symbol_get()
@@ -835,13 +839,17 @@ a714491fa92d2068358dd603cc50bf2062517bd8 perf: Disallow mis-matched inherited gr
 942cab53cc51b20dfb9f51172e10fb6fe1d3b19f Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 0939d7817d5c0dc3900527a54d1cdec2e9f8fe78 xfrm6: fix inet6_dev refcount underflow problem
 4a82dfcb8b4d07331d1db05a36f7d87013787e9e Linux 4.19.297
-3fd240a933d2cef4535b877c1198ff1e0a54e2e6 genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
+ec9bf91ddecc607af1b1db448afe82208986f03e perf/core: Bail out early if the request AUX area is out of bound
+49ce223833bc4045e3d19db6d20b498183976e8a clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+bc1a86b825269f633225db6ab44cb94c10271895 binfmt_misc: cleanup on filesystem umount
+fabf001f3ae3c90e96e1ab9ec050c71467091510 clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+e631742ae86f8a56fc2c572caf4504434687dce1 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38755ab11da5-819672432100.txt
+Content-Disposition: attachment; filename=revlist-1951d87d775e-e729949a5050.txt
 
 8c599aa78ce56f23c509cf9dae14558f050af59b erofs: ensure that the post-EOF tails are all zeroed
 c1112a2b54ce099eddb11dc0a9a583bc5f8dc454 ARM: pxa: remove use of symbol_get()
@@ -1756,16 +1764,23 @@ b423509bc99c7c7a7e31d0daa858bca9c45e5f54 Bluetooth: hci_sock: fix slab oob read 
 5d5680755bcef70b484602f16de40fcb324cb784 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 657a3ca8236c45a3b5358985c807991e0697dabf xfrm6: fix inet6_dev refcount underflow problem
 cb49f0e441ce7db63ef67ccfa9d9562c22f5d6c3 Linux 5.10.199
-1bd775d5578a15879cb500a6a6a197aea1b6bd07 x86/boot: Fix incorrect startup_gdt_descr.size
-9b9511c18debfd81b8353695e4ddf6df9e038c7f pstore/platform: Add check for kstrdup
-8196724321004a78d4b1403b6967bc771116b1e9 genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
+e6f6d70f2efbfa2012e757802c0e7e7ec55c13e2 perf/core: Bail out early if the request AUX area is out of bound
+2206a7fd1cbbaa334209efc780f9bf7bbf32ee3c clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+5cb5fedaef7fe53243df59ec0692df3f6fa4b943 binfmt_misc: cleanup on filesystem umount
+5c86c0de48b0395c209dbd9689b2d733fae5a5a6 clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+e729949a50509527969b64faf6cbb29e47fe2953 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aa94d040aa56-9de5a33271c2.txt
+Content-Disposition: attachment; filename=revlist-35528029162b-38b799cdebbd.txt
 
+2ff9ac0cf25f3fad9a466e2528c06812b8ab8c89 wifi: mt76: testmode: add nla_policy for MT76_TM_ATTR_TX_LENGTH
+890843254f387d598caef64efe33c819634ebee5 spi: tegra20-sflash: fix to check return value of platform_get_irq() in tegra_sflash_probe()
+5c75a43795899d1770d16ac295a9199cb5a049d3 can: gs_usb: gs_usb_receive_bulk_callback(): count RX overflow errors also in case of OOM
+a20b96cf6925533c5182b495653a7c51bce58e59 wifi: mt76: mt7915: fix power-limits while chan_switch
+7c54b6fc39eb1aac51cf2945f8a25e2a47fdca02 wifi: mwifiex: Fix OOB and integer underflow when rx packets
 43423b3e04674c3960e98d78aafa5ffe86580b63 wifi: mwifiex: fix error recovery in PCIE buffer descriptor management
 e3c4a6b073e4663a981c0685d3f0a89d9d1c6b4f selftests/bpf: fix static assert compilation issue for test_cls_*.c
 56cb7bbefcaf963bdb26bd145e2405c5d56f2101 crypto: stm32 - Properly handle pm_runtime_get failing
@@ -2779,23 +2794,18 @@ a6df96ee0b453373e2b786d636628c00449f834f Bluetooth: hci_sock: fix slab oob read 
 5a9d05a4f1c3f2fdd6719c26e8da68f98a8d8450 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 dff33880d40ac6e8115822e1602dbbac9e1e1f28 xfrm6: fix inet6_dev refcount underflow problem
 12952a23a5da6459aaaaa3ae4bc8ce8fef952ef5 Linux 5.15.137
-f8a99f8263ed145a163f8a4e907251c2d446606c x86: Share definition of __is_canonical_address()
-592513ae57ecca52a099a0808e62c61cf41ccd07 x86/sev-es: Allow copy_from_kernel_nofault() in earlier boot
-00535580b4f52d1cabbff6bbb3fce81ca0da4b95 x86/boot: Fix incorrect startup_gdt_descr.size
-faabe1041ff915bc44f41836673f2cd30663b92a cpu/hotplug: Mark arch_disable_smp_support() and bringup_nonboot_cpus() __init
-a1d3f73212bcd65f41495866d89268bffe3bd593 cpu/hotplug: Rework sparse_irq locking in bringup_cpu()
-ea49d92649c2f50ef0e9eac4376c25930796c387 cpu/hotplug: Add CPU state tracking and synchronization
-26b5b66ee47425655c3a144887f1397caac01fe9 cpu/hotplug: Provide a split up CPUHP_BRINGUP mechanism
-e829e309dd2a2304ba03ed61fe3a9c00a49f13ec cpu/SMT: Create topology_smt_thread_allowed()
-43a39c1ed543d2fccb867f78453b33368aec1a69 cpu/SMT: Make SMT control more robust against enumeration failures
-07d656c31071ba0c8c9601685279c4c4c9d751ad pstore/platform: Add check for kstrdup
-9de5a33271c245dee97699f568ef9e7147e65934 genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
+a9484186ffb6abc8db8070555b5499d91ff210c7 perf/core: Bail out early if the request AUX area is out of bound
+bfbb13a8c8b5f510db853cb72aa27aca2649c836 clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+b03d9dd89c34e37246dcd511b34ebf84d8c7048f binfmt_misc: cleanup on filesystem umount
+4894d2948ef747da67f3282c20cb566b41381d7a clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+9515c8a71960e4e3b73d88ef4c3630ea7353155c workqueue: Provide one lock class key per work_on_cpu() callsite
+38b799cdebbd03e1a6870242bf5aae09da25026a x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13e159944740-f10b23f8130a.txt
+Content-Disposition: attachment; filename=revlist-6b2cd9dab2ba-14d447247e84.txt
 
 e83f5d13cb73c175db42161a7c41028bdf02127e erofs: ensure that the post-EOF tails are all zeroed
 7a67c5d93292b41a37e38f8fd728e0c7046d08d3 ARM: pxa: remove use of symbol_get()
@@ -3409,17 +3419,18 @@ a0f0e43128f3512ecb0a6aaf266712839c49401d phy: mapphone-mdm6600: Fix pinctrl_pm h
 b849a38e187d2fdbe58ee4623694bdff59c392a8 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 c01ac092d97ca8db8aeed8ec538afb0a55cbb009 xfrm6: fix inet6_dev refcount underflow problem
 86ea40e6ad22d9d7daa54b9e8167ad1e4a8a48ee Linux 5.4.259
-f10b23f8130a5504edebe35a7b2ac9329b7df269 genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
+d1111b1c2ffb655337bd7b5d117ce86ee8fc241d perf/core: Bail out early if the request AUX area is out of bound
+1637409260bcbfdc77079848d18dad10f53c3d96 clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+2b653cad563cdd6b2ee321b3ac444b7851c9d98a binfmt_misc: cleanup on filesystem umount
+552c5d806084bac7b5ce3bc0c8d2f0773a82ea5f clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+14d447247e84e9b7be31dcfe0ecd3c74dae305fd x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-49a0ecea9272-6957857f7b33.txt
+Content-Disposition: attachment; filename=revlist-4ef5f38b8fc4-e7673c7fecc8.txt
 
-2b7510bb92c1fc19292801778e971cbb46e2499f drm/i915/gvt: Put the page reference obtained by KVM's gfn_to_pfn()
-bd9bd085c6816885dedcd690de22d088975e6df2 drm/i915/gvt: Drop unused helper intel_vgpu_reset_gtt()
-f1175881ddd91db46648c28eec05628e30e14c65 net: use sk_forward_alloc_get() in sk_get_meminfo()
 787c5829681b14903ae507853994860caed00718 net: annotate data-races around sk->sk_forward_alloc
 b7d25ac3627a0ed3569cc5cb15305e172ca58385 mptcp: annotate data-races around msk->rmem_fwd_alloc
 0b2ee66411fe09584501140e6fa3578bc5063900 ipv4: ignore dst hint for multipath routes
@@ -4433,21 +4444,29 @@ c04f416730ac5086187d7df1c878d971ed2d1431 Bluetooth: hci_sock: Correctly bounds c
 0e0123e0e53dd7628f57188a175d956680dbb7f5 selftests: mptcp: join: correctly check for no RST
 7f5bb254be8dca8432e558ad76e4cc657cd73e9b selftests: mptcp: join: no RST when rm subflow/addr
 32c9cdbe383c153af23cfa1df0a352b97ab3df7a Linux 6.1.60
-c1f8c12e165166d7e26dc9ff5163800f8e8b27b7 x86/numa: Introduce numa_fill_memblks()
-897036b11d7eaf6ffe4a32e9f1dec9d9ea8079fa ACPI/NUMA: Apply SRAT proximity domain to entire CFMWS window
-aea3b78e3c8908e313a8a98fdc38e6fb5d680fdb x86/sev-es: Allow copy_from_kernel_nofault() in earlier boot
-89d5dca1d43ed616707c8c03adca34c8facbc815 x86/boot: Fix incorrect startup_gdt_descr.size
-66d907dfe9fa91a198afc11e8f53039c86a2a87d drivers/clocksource/timer-ti-dm: Don't call clk_get_rate() in stop function
-8fed68c13e561d7b3b3f5137788d284f99ea9bad pstore/platform: Add check for kstrdup
-31d5e6b5db91d228210579e61c4ea867bd0365ab string: Adjust strtomem() logic to allow for smaller sources
-6957857f7b334de484b47d3f8d6b5ad0662b4eaa genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
+d8726f6406c959405d250da8b4cf377091672415 perf/core: Bail out early if the request AUX area is out of bound
+f2b6ae648178d3391b0ecdafa920f4c63f792c98 rcu: Dump memory object info if callback function is invalid
+2d6586ba808d9e09c3f2913eb19b5c475e60964d srcu: Fix srcu_struct node grpmask overflow on 64-bit systems
+c7c2110afcaa1f26d0054067ad95c9d156b6bcd0 selftests/lkdtm: Disable CONFIG_UBSAN_TRAP in test config
+814af83499e8735b8b6c3e09c4f63c6b6fcac376 clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+9f6f78fa44b6310319519b06d72a466e667bbaa1 binfmt_misc: cleanup on filesystem umount
+8dffefa06e29709f13d886b3c2ec4d9851293361 clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+ee91ba76a1e9de77fda4dfbb4a7b919ef82c8bd4 smp,csd: Throw an error if a CSD lock is stuck for too long
+4f0c36a4e5e46c3bacca099a6b5a5f0a8c59d6fb cpu/hotplug: Don't offline the last non-isolated CPU
+a27bd147df2a08a673245b1790df966c0f53a6bb workqueue: Provide one lock class key per work_on_cpu() callsite
+e7673c7fecc80f7650170dda09005b3f65ccc437 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==
+--===============8643166633778012494==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d7a27855b142-98597edafccf.txt
+Content-Disposition: attachment; filename=revlist-6e0a88a102c0-51d053207df9.txt
 
+72af676551efe820e309a6c7681c2c4372f37376 media: dvb-usb-v2: gl861: Fix null-ptr-deref in gl861_i2c_master_xfer
+0fa0585aeb1d2a0b04a31ac31fa48ae029ff0eda scsi: lpfc: Abort outstanding ELS cmds when mailbox timeout error is detected
+1a6bf53fffe0b7ebe2a0f402b44f14f90cffd164 media: tuners: qt1010: replace BUG_ON with a regular error
+dfd46f731899918ee9870a519a8b809ee1088420 media: pci: cx23885: replace BUG with error return
+d3f372ec95b89776f72d5c9a475424e27734c223 usb: cdns3: Put the cdns set active part outside the spin lock
 2651ac962c9e0acbd4443af4b12a18000f67930d usb: typec: intel_pmc_mux: Add new ACPI ID for Lunar Lake IOM device
 7c04508e1e800923c3e12474a940d47340a71cff usb: gadget: fsl_qe_udc: validate endpoint index for ch9 udc
 eccefc9f93f35c00c397cd734eac786e53b63eac tools: iio: iio_generic_buffer: Fix some integer type and calculation
@@ -5454,23 +5473,18 @@ b583bfcc5a36dbd1db1984dbfcfd23ba64d23604 efi/unaccepted: Fix soft lockups caused
 85577dd61990f105564432d944cd50ed7819d8e9 mptcp: avoid sending RST when closing the initial subflow
 f879295c92b106ec953a5dab0f9ec0fae7b4da1c selftests: mptcp: join: correctly check for no RST
 d0e42510ae8347e27d416356291b7546fb7681f5 Linux 6.5.9
-a38cacb5bac27187bab9e7be918d10af52eaafbb x86/numa: Introduce numa_fill_memblks()
-cf14b79bc1bd66e9f33ecc7babf0f361b0d683a7 ACPI/NUMA: Apply SRAT proximity domain to entire CFMWS window
-640baf38ed3f01e61994592a4b2f565541d8b848 x86/sev-es: Allow copy_from_kernel_nofault() in earlier boot
-fb2152a52a60a76fcf1e0993af58a5e2710d5e3c x86/boot: Fix incorrect startup_gdt_descr.size
-5074599bc6a37a257309387f84807a9de9273575 cpu/hotplug: Remove dependancy against cpu_primary_thread_mask
-233fe391a10e50654361591b5bf0e0ca1a08424c cpu/SMT: Create topology_smt_thread_allowed()
-c4c398e0c8eba8240f7cb64aee12f84342725687 cpu/SMT: Make SMT control more robust against enumeration failures
-6351e9a1ca2372f72100e6458365f0f110329c55 x86/apic: Fake primary thread mask for XEN/PV
-b3fb4bfb74823fe4435aaf88789c4ef071101ebc srcu: Fix callbacks acceleration mishandling
-0409f01fc7ae9014b11457ac2756bceaf5bfedd0 drivers/clocksource/timer-ti-dm: Don't call clk_get_rate() in stop function
-6d2ccb9c0936a14775dbbf5c6cba5a89b741dadd x86/nmi: Fix out-of-order NMI nesting checks & false positive warning
-38d40d4c732490160b0da8699803969b9424d3d6 pstore/platform: Add check for kstrdup
-86d93f287cce2301a240757c52b2079e02584ebc perf: Optimize perf_cgroup_switch()
-e466ce922024b781e5443f74d87c201bba51abb1 selftests/x86/lam: Zero out buffer for readlink()
-f319d0fc39382382832b4c93c73f9f5bc90dff62 PCI/MSI: Provide stubs for IMS functions
-f912468a73a96fba450f27b86aea318a017ea3aa string: Adjust strtomem() logic to allow for smaller sources
-b75edaddf9d4d9819b80a25fbda162f3db78bdf2 genirq/matrix: Exclude managed interrupts in irq_matrix_allocated()
-98597edafccf08ad89f88e395968f52b14826b9c irqchip/sifive-plic: Fix syscore registration for multi-socket systems
+feaeb7dba46abff552cda813c276f099a23d95a9 perf/core: Bail out early if the request AUX area is out of bound
+4d7de90cc7d05129b460c01f4aa76f953cb87652 rcu: Dump memory object info if callback function is invalid
+41e5294ba42cce4daf40ec3540560cca6ebda320 srcu: Fix srcu_struct node grpmask overflow on 64-bit systems
+89b49111a2fd5586760d12d1a56a2de4172291cf selftests/lkdtm: Disable CONFIG_UBSAN_TRAP in test config
+eba009f0daa73ab5a0f995c4e646ee027f37e958 binfmt_elf: Support segments with 0 filesz and misaligned starts
+c9c35e71fad8a9c8a18d10a0e28ce8bb82d3718d clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+c88c57c3b2e6900065cfe3fcc7ee55f04668ca6a binfmt_misc: cleanup on filesystem umount
+9264eeef207b4aad4585252edd9362f239c08871 clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+d22165c7a1fd49ec5f2de1cfeeeefc541d485b84 srcu: Only accelerate on enqueue time
+7bff403627811b12c44469c1357770bb5156459d smp,csd: Throw an error if a CSD lock is stuck for too long
+4db5e5fb103c077fda120cc06b97f287bc97f539 cpu/hotplug: Don't offline the last non-isolated CPU
+0238810e91d663766bc4e7ef38302c7257a55a88 workqueue: Provide one lock class key per work_on_cpu() callsite
+51d053207df9cc731c7f6595d5e5eff408353f33 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
 
---===============1867220363469704066==--
+--===============8643166633778012494==--
