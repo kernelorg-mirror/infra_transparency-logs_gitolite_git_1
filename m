@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Wed, 01 Nov 2023 10:08:30 -0000
-Message-Id: <169883331066.16775.12426175112593804556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 01 Nov 2023 10:13:05 -0000
+Message-Id: <169883358584.19979.17653123926420575889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/habanalabs-next-6.8
-    old: 631808095a82e6b6f8410a95f8b12b8d0d38b161
-    new: f6c5599fcf609eeede0755759a024ed6e71c80b4
+  - ref: refs/heads/vfs.mount
+    old: 45d901d367fb2273f4d656e79e94089902193e25
+    new: 5d54f0d240ccce6ef09ce5d8bd7713efc1a76013
     log: |
-         3c017aea72e0a7ec4bab948481976fa5020eee3a accel/habanalabs: add pcie reset prepare/done hooks
-         f6c5599fcf609eeede0755759a024ed6e71c80b4 accel/habanalabs: update device boot error check
+         828556c0174255b0f43e91faa30699910b75cb1a add unique mount ID
+         7fcdd0b498e848d1a9b209441ab90706cc99abca mounts: keep list of mounts in an rbtree
+         5af7c37abb7391a901e19a380fa57154dfb128de namespace: extract show_path() helper
+         3a10123945f48169e3eedd80acd94330a54c0569 add statmount(2) syscall
+         b80bac5a8c9ff098e238e72891872a9de5e4ba9b add listmount(2) syscall
+         5d54f0d240ccce6ef09ce5d8bd7713efc1a76013 wire up syscalls for statmount/listmount
          
