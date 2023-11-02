@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3376882840173764222=="
+Content-Type: multipart/mixed; boundary="===============7156678286697001686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 02 Nov 2023 05:23:22 -0000
-Message-Id: <169890260227.16254.12583048939472514714@gitolite.kernel.org>
+Date: Thu, 02 Nov 2023 05:23:29 -0000
+Message-Id: <169890260916.16385.12445572254573098633@gitolite.kernel.org>
 
---===============3376882840173764222==
+--===============7156678286697001686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f2fbb908112311423b09cd0d2b4978f174b99585
     new: ff269e2cd5adce4ae14f883fc9c8803bc43ee1e9
     log: revlist-f2fbb9081123-ff269e2cd5ad.txt
 
---===============3376882840173764222==
+--===============7156678286697001686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a39ba9b429a4671913e79da9d6a20476f10796b1 Merge tag 'soc-defconfig-6.7' of git://
 05bf73aa27ba89474763cea7b9cd2626eda61e01 Merge tag 'probes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ff269e2cd5adce4ae14f883fc9c8803bc43ee1e9 Merge tag 'net-next-6.7-followup' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============3376882840173764222==--
+--===============7156678286697001686==--
