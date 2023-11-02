@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1952104046972321447=="
+Content-Type: multipart/mixed; boundary="===============6136021450450116315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 02 Nov 2023 04:42:51 -0000
-Message-Id: <169890017108.19511.17701830514293539280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Thu, 02 Nov 2023 04:45:34 -0000
+Message-Id: <169890033449.22113.6854814317693480312@gitolite.kernel.org>
 
---===============1952104046972321447==
+--===============6136021450450116315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: 05ca9d00d28725b1ecdf483f3c62e8c910874e46
-    new: e1742fa172d553ecc8e9077a713315404be36c13
-    log: revlist-05ca9d00d287-e1742fa172d5.txt
+  - ref: refs/heads/fixup-trace-v6.7
+    old: d5cce860e12462394fc01dd490f57eaf4d587c6e
+    new: 83eb4af876afcdd657ffc5a76a773ce75c86af3c
+    log: revlist-d5cce860e124-83eb4af876af.txt
 
---===============1952104046972321447==
+--===============6136021450450116315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05ca9d00d287-e1742fa172d5.txt
+Content-Disposition: attachment; filename=revlist-d5cce860e124-83eb4af876af.txt
 
-717c7c894d4b885e879790f14afbe630802d77d7 fs/proc: Add boot loader arguments as comment to /proc/bootconfig
-acbc3ecb806e24eb9c0cafc29e0884490dda6169 doc: Add /proc/bootconfig to proc.rst
 bb32500fb9b78215e4ef6ee8b4345c5f5d7eafb4 tracing: Have trace_event_file have ref counters
 77bc4d4921bd3497678ba8e7f4e480de35692f05 eventfs: Remove extra dget() in eventfs_create_events_dir()
 4f7969bcd6d33042d62e249b41b5578161e4c868 tracing: Have the user copy of synthetic event address use correct context
@@ -42,7 +40,6 @@ db3a397209b00d2e4e0a068608e5c546fc064b82 eventfs: Have a free_ei() that just fre
 407c6726ca71b33330d2d6345d9ea7ebc02575e9 eventfs: Use simple_recursive_removal() to clean up dentries
 685b38c7650a0f461f56761cf61936b453d5bb24 seq_buf: Export seq_buf_putc()
 70a9affa930c7aeba27893c7d402ef1294f43aa2 seq_buf: Export seq_buf_puts()
-54f00425bbfc0782584f89b7e94443511af89bf5 Merge bootconfig/for-next
-e1742fa172d553ecc8e9077a713315404be36c13 Merge probes/for-next
+83eb4af876afcdd657ffc5a76a773ce75c86af3c Merge branch 'trace/ftrace/core' into HEAD
 
---===============1952104046972321447==--
+--===============6136021450450116315==--
