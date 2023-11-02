@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2182226902742819852=="
+Content-Type: multipart/mixed; boundary="===============3868497910573526001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 02 Nov 2023 17:59:27 -0000
-Message-Id: <169894796791.32530.15133809436618609898@gitolite.kernel.org>
+Date: Thu, 02 Nov 2023 17:59:40 -0000
+Message-Id: <169894798083.32689.6531727123698408590@gitolite.kernel.org>
 
---===============2182226902742819852==
+--===============3868497910573526001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,87 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 89d93e9d9f32df4b2d7f4ff3bff645f0c7acad35
-    new: eab4064759fc1947010dfbccea1bb2941272d398
-    log: revlist-89d93e9d9f32-eab4064759fc.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 4a82dfcb8b4d07331d1db05a36f7d87013787e9e
+    new: 46e03d3c6192741f041d7d46136bc90245ed7220
+    log: revlist-4a82dfcb8b4d-46e03d3c6192.txt
 
---===============2182226902742819852==
+--===============3868497910573526001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698947964 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1698947976 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1698947964-5b569e1d81d5d575d31bbc3eafc016f544c7762b
+nonce 1698947976-ebacf2036a2c93a6bc2657135112f342d4e7e268
 
-89d93e9d9f32df4b2d7f4ff3bff645f0c7acad35 eab4064759fc1947010dfbccea1bb2941272d398 refs/heads/linux-4.14.y
+4a82dfcb8b4d07331d1db05a36f7d87013787e9e 46e03d3c6192741f041d7d46136bc90245ed7220 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVD43wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MuYQAJC0U8Jzx7e4c5hV02iw
-h4Ry34GjLjIlHPEo/7ZmmdNcWrUOgte95qhjQMoUvb1hcYlV9G8plvn/aGtKieL8
-6UAsEBZ/7M3ypQvc9HsmEd9vi1Rqs2m6iIoFqjjw8OCWiX7GPby667IlpSusSWSF
-eUperBkfH8mx+kwXz+90OyFDN7E7Rtu8vYIL5GwCme5iK4kzInP4YaGu0TcEv+3t
-lTR4L7IaZYPamt8tUEdc90ZALtbXBqniq6i8MmOA4ZUvz3t3cOA7tJt5/kVpJmYq
-BZ6F9Nrt0mnDrf/NsRjHHSi4mBgwMm6Fk2QMvApTh9ru0bQVQT1TjwQR/rcNYN64
-nxa0JSjDO4rmLKjgy9MJeLjmotobdWwxo4DHRgO8mFWPfnrheDbH0Ah4ekoTIIG2
-Ydkx+jOBN3NoBqldbzbKQUVbb26AhZXlb7iWVGXQY/Eoac9wA1UAGdTy213XXxdN
-6EZe9lFvQIPXwHlVRzUUD4izAY7ZfufY2iHPBqJI8mZIkjw3g9P+hYgfU7+VpRe8
-bs3kDL3Ccdw4QSoh21NBeGFepaJPd/J8pwJZlN+n5jfxCkLFeY6NIgfRVFHgGOFZ
-zSbyn/hcSva+Xc9apxAJrTR4sE6Hx0QIYGkQS/kJslMn5lN/k2cG4ePG9lRPRl1+
-sqrMinzHSgdElFX+ShPD+MR5
-=pVt2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVD44kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jz8P/1I6OwEKh5xIwG9vhjey
+v9PbCoXjOsLYxcnJPIU47iDglFdmz53Zu+VivC2bb5TdTVgMUaPhiDNfJPioa6O1
+ltuk/nN0NRV8SBogPMBaLUMpvGd0PRl8ZgpNuvINhJUa4LREceJy/j232L+wdAcM
+H/2qouoa6PpfhEubo9i2/7FofdlohnlsOxefjjKCLoX50nDY3Bp+IuuPrRlfFozD
+k7ndXdM9pl8UCH0Tvvc0r6QPdS1KtynE3YwvERjfwM0hjcqBizi4NDQdtznogJwV
+gPcikY2JmAn/w6UFSr79TkijHmJUtjLjNqVOG3Fi3sjtrbLMHUNkwMOvrkF7HEgM
+bFmwOpK+Fp/kl36Lap1WLKJ6s73ruYwduhoKvMu8cpVn0nfzKGP1T+z/89ipKOvP
+arQNaaeX8Dz5YmweF8L3Tlt7hN9bS3U5q+hMOPpwnuS9NWGgZ+MTQfME8eBC3+5Q
+XlhC4KJweepNidJ5hxXHz5kMiaPXHLvnY+i41/iDVtqyDBL7M+Y4gKse0jJP//ko
+QpmgzQqYLkHiA50C990y2XMBRMw9pM9mfpgG8KP4yG3tgscQHPoj67SbcbvJ0D3P
+a6uvRJtcjEH9ka7TD2bxytEMLvbywUNfvFAdNwgu9V2KKK7Eac15CBUMjFfg6Sm2
+R4by6z4cK2Fw6iGFIzO7hFvn
+=zEHZ
 -----END PGP SIGNATURE-----
 
---===============2182226902742819852==
+--===============3868497910573526001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89d93e9d9f32-eab4064759fc.txt
+Content-Disposition: attachment; filename=revlist-4a82dfcb8b4d-46e03d3c6192.txt
 
-08349dfa780e3d671796e70d13ba4982a5e2e3ee mcb: Return actual parsed size when reading chameleon table
-893d062b2999f78b482ebcbb23e23763efdcdb29 mcb-lpc: Reallocate memory region to avoid memory overlapping
-c6cd78701b4d571562bda7afcea511cc82023ea6 virtio_balloon: Fix endless deflation and inflation on arm64
-7e1a444b603f843be7a97bca793f9b386fea6342 treewide: Spelling fix in comment
-9d93b4d0460bbbd5a81a2fe98059fb8ef51fc04c igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
-055bd41d2cf4354648c6e15ce99fe6e30a477dd3 r8152: Increase USB control msg timeout to 5000ms as per spec
-2fb3731fa1c80dfd604bbfefad228ba7af0132c9 tcp: fix wrong RTO timeout when received SACK reneging
-d25a1f13265565c05ea9e32c16f1206adf889caf gtp: uapi: fix GTPA_MAX
-84dc576b49b80fc18ec8961559e8e10b981d422c i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
-91fb89b8176563028b33934cf41ca59733a5a512 i2c: muxes: i2c-mux-pinctrl: Use of_get_i2c_adapter_by_node()
-55a6d9a242b459c4ff98103c3af3a9902164c158 i2c: muxes: i2c-mux-gpmux: Use of_get_i2c_adapter_by_node()
-d88b8a5e2b4028210a7d95ba020ed414f324ccb8 i2c: muxes: i2c-demux-pinctrl: Use of_get_i2c_adapter_by_node()
-952bc7a4af3792b0b904d37f770a8f711da51e72 perf/core: Fix potential NULL deref
-eb151009a3d402a8c281e32a7254db99a23a9488 NFS: Don't call generic_error_remove_page() while holding locks
-63b5fa848f0925a58a6c4f14267b308b5a47ad6e ARM: 8933/1: replace Sun/Solaris style flag on section directive
-9a646b36e36aa48235992da20753c03c5f598848 drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
-ac7889bf1d6246fba9dda62d7b27d01b51cc62f5 kobject: Fix slab-out-of-bounds in fill_kobj_path()
-6327aaaff338c6e68f65594092445f4c37ae2cf8 f2fs: fix to do sanity check on inode type during garbage collection
-912dccc39a489954e94c09fd4f3401bbe4d161b0 nfsd: lock_rename() needs both directories to live on the same fs
-a151270996dcdca26b5f88bf16a6457eb4b0801f x86/i8259: Skip probing when ACPI/MADT advertises PCAT compatibility
-69d33288a42fc0fc69382c7a3ef403b2bf4851fe x86/mm: Simplify RESERVE_BRK()
-65f2fb8426a74c1ec44587253e54b12db31f14e7 x86/mm: Fix RESERVE_BRK() for older binutils
-63824fcff2fd042b4a24c01991e834c3be50db15 driver: platform: Add helper for safer setting of driver_override
-24e7a9bd61af184ed11f9ba77f11ccbf426c6b31 rpmsg: Fix kfree() of static memory on setting driver_override
-65c777e56e75683c954d42fbd59e20aad2bc5bc3 rpmsg: Fix calling device_lock() on non-initialized device
-7e9c654179f6210f8c34f7cdb14cf08bf2515727 rpmsg: glink: Release driver_override
-9ac7ed72208785e19a34bac17826f66bd4b76fde rpmsg: Fix possible refcount leak in rpmsg_register_device_override()
-2d040c1ebec8ed483c58651bd025fe90944fa52b x86: Fix .brk attribute in linker script
-eab4064759fc1947010dfbccea1bb2941272d398 Linux 4.14.329-rc1
+10e559c7f8e7f8c0bc30b7a9eafc59725201ec92 mmc: sdio: Don't re-initialize powered-on removable SDIO cards at resume
+9607eb21839f7be0e231abcdf842ccf38336bcb8 mmc: core: sdio: hold retuning if sdio in 1-bit mode
+a0c97a4600fecabf8dc9ffdfdf8a581721722b55 selftests/ftrace: Add new test case which checks non unique symbol
+bd4e6765ec39d5bf04ffbc4f97e3784d827ab376 mcb: Return actual parsed size when reading chameleon table
+08dca8182d5c29dc8bb324910e5e288e5503bbcd mcb-lpc: Reallocate memory region to avoid memory overlapping
+ec352ae63639f38b3edb74a93bd28b34065fad99 virtio_balloon: Fix endless deflation and inflation on arm64
+344aa12c1e5063217c4ccc3d815d0ae5b52c6a98 virtio-mmio: fix memory leak of vm_dev
+e608c24a24f296ac0191a0490c697c30959d8d2c r8169: rename r8169.c to r8169_main.c
+b6e3cce70ddd79e5c06e92737a692b01d8a9e40d r8169: fix the KCSAN reported data-race in rtl_tx while reading TxDescArray[entry].opts1
+aa9cf245850340a40755189e85ca10604b0a0d7f r8169: fix the KCSAN reported data race in rtl_rx while reading desc->opts1
+550f7609648f3809691850cf7e9cea53def4afe6 treewide: Spelling fix in comment
+97067480f8006648c147be86bd5614bb7f9044b0 igb: Fix potential memory leak in igb_add_ethtool_nfc_entry
+8c97735d1b5a0cdc75ab15fcf6c4f70af4a5c0f3 gtp: fix fragmentation needed check with gso
+2dc1b95e0e8c33b86261e6599b5fbf38d49198aa i40e: Fix wrong check for I40E_TXR_FLAGS_WB_ON_ITR
+ee48fe741ee35c7ad6e149c6603176bdcc51a966 i2c: muxes: i2c-mux-pinctrl: Use of_get_i2c_adapter_by_node()
+dda94ba545331fee8b52668f89a872ed1d0bba83 i2c: muxes: i2c-mux-gpmux: Use of_get_i2c_adapter_by_node()
+f6146d697e737d41bc783cba6ea4b5d119368734 i2c: muxes: i2c-demux-pinctrl: Use of_get_i2c_adapter_by_node()
+97ee79d8f3592c1cb92891f521702e2a36fa7936 i2c: stm32f7: Fix PEC handling in case of SMBUS transfers
+b432493e2c9631c389daa0ae0ecf3fd19da6ffe1 nvmem: imx: correct nregs for i.MX6SLL
+4001120c88ea918d7b60ff54fc046896974aa79b nvmem: imx: correct nregs for i.MX6UL
+b836db1ffa8b86e196341778347cca27bb4e6f80 perf/core: Fix potential NULL deref
+4b3da0d7ece32d32dba55bc9312eb8e34bb1a121 iio: exynos-adc: request second interupt only when touchscreen mode is used
+8cf129bd08b1396bd528059b2f8d6b7af942d753 x86/i8259: Skip probing when ACPI/MADT advertises PCAT compatibility
+d227136f80221d64feddad47aa447587b0f7bb2b NFS: Don't call generic_error_remove_page() while holding locks
+758cd9c5ae2383023ca05090411b496297dc836d ARM: 8933/1: replace Sun/Solaris style flag on section directive
+925dfd3c84dca4b97917c56ffead32e4a2d54fd3 drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
+de83bf1f59eeff4d3d2e5ce463e5b5ee1fe0cfcf arm64: fix a concurrency issue in emulation_proc_handler()
+d490956c63fff78aff6441a4bef86c69e6fbdd99 kobject: Fix slab-out-of-bounds in fill_kobj_path()
+917e6c6ff930ba8f00ffcda5ceb2c24f62c0a1ad smbdirect: missing rc checks while waiting for rdma events
+8928021d3dd020eebc93dd971006b67a4cdb6570 f2fs: fix to do sanity check on inode type during garbage collection
+90bb576d8668e438a6340078489e0017c2832491 nfsd: lock_rename() needs both directories to live on the same fs
+a70252b274519d9d62335c995cc8299add47f65a x86/mm: Simplify RESERVE_BRK()
+30aa3427922dbf6cf9cdc2d805af74162a3bac43 x86/mm: Fix RESERVE_BRK() for older binutils
+532f06b42dc3759ccc2b329511b983768268b7f3 driver: platform: Add helper for safer setting of driver_override
+8383368a5958d61de9b2f1b02dce1cf1d48a1874 rpmsg: Constify local variable in field store macro
+ecd4cef9a868c2078e4dd6f2986d2c21d27e8411 rpmsg: Fix kfree() of static memory on setting driver_override
+1e7308f7ae8cb0cc342d465ec20e38d19648171d rpmsg: Fix calling device_lock() on non-initialized device
+71e13de8d37e6131667854837e325146e2caa471 rpmsg: glink: Release driver_override
+97ed522cf9c3ef87aae4c0c7fa95bd9f35c356fe rpmsg: Fix possible refcount leak in rpmsg_register_device_override()
+a5c6afec6b82e1c021f955066bfa18b4e04284a9 x86: Fix .brk attribute in linker script
+46e03d3c6192741f041d7d46136bc90245ed7220 Linux 4.19.298-rc1
 
---===============2182226902742819852==--
+--===============3868497910573526001==--
