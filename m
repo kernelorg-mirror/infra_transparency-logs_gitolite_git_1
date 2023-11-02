@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 02 Nov 2023 16:21:34 -0000
-Message-Id: <169894209437.27824.2434791476822624094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 02 Nov 2023 16:27:45 -0000
+Message-Id: <169894246560.31618.15144480228152066776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/nic_upstream
-    old: f6c5599fcf609eeede0755759a024ed6e71c80b4
-    new: 36339d2dbf94af1ead4785577ff0a5d8b1bfb5b8
+  - ref: refs/heads/vfs.all
+    old: ed22786c6878b6f4a9ab861b1c533b79864387ff
+    new: c1279eea49893214ffbbb5da09ac7d77dd5f544d
     log: |
-         b5d04e39e3cefe3351368974bc77740293d12887 update firmware files in include
-         36339d2dbf94af1ead4785577ff0a5d8b1bfb5b8 add text file with ascii diagram of aux_bus connectivity
+         c6a4738de282fc95752e1f1c5573ab7b4020b55e nilfs2: simplify device handling
+         a0d10138fbeb5e3068f6f6ded413cb5ed07ead96 Merge branch 'vfs.misc' into vfs.all
+         7e1eadf50262f34a906be8bf8e22a716fe74ff21 Merge branch 'vfs.super' into vfs.all
+         c1279eea49893214ffbbb5da09ac7d77dd5f544d Merge branch 'vfs.f_fsid' into vfs.all
          
