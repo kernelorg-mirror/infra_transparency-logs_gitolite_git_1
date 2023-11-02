@@ -1,69 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0064748692461299077=="
+Content-Type: multipart/mixed; boundary="===============2092353413418904774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 02 Nov 2023 20:12:46 -0000
-Message-Id: <169895596694.32070.18198064270089225822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 02 Nov 2023 20:14:16 -0000
+Message-Id: <169895605639.32703.18074132979593867286@gitolite.kernel.org>
 
---===============0064748692461299077==
+--===============2092353413418904774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: b4c0ed1fdf543f7e2797a251852cb51165ef8608
-    new: f6d66121ce53c941b01a68b20aebcd7de243df37
-    log: revlist-b4c0ed1fdf54-f6d66121ce53.txt
+  - ref: refs/heads/for-next
+    old: ec8c6c732e46416e905f5f4a7a46cd648ea20b24
+    new: a22f86fe0e6755cce5738320809367aa38f6057d
+    log: revlist-ec8c6c732e46-a22f86fe0e67.txt
 
---===============0064748692461299077==
+--===============2092353413418904774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4c0ed1fdf54-f6d66121ce53.txt
+Content-Disposition: attachment; filename=revlist-ec8c6c732e46-a22f86fe0e67.txt
 
-eeb00ae2ac2b1317772e6137c604cf1bbe90f114 arm64/gcs: Provide support for GCS in userspace
-328b7d99a7e6114989c183671a9b0d319f07b563 arm64/mm: Restructure arch_validate_flags() for extensibility
-ed031eea04fe2c1999dac1fafeff2bd0c609d016 prctl: arch-agnostic prctl for shadow stack
-7c69e301daf49c0ae92956c19d67b25f330de339 mman: Add map_shadow_stack() flags
-bf67d6eeef2303ae8b07790c2101a7badad36fbb arm64: Document boot requirements for Guarded Control Stacks
-d0218cc48e072a64b11eba6e5a2beae93cec1ee1 arm64/gcs: Document the ABI for Guarded Control Stacks
-b8a634627c254e3904258de5c9324bc4549ab4f2 arm64/sysreg: Add new system registers for GCS
-42caf9f9161015d87cf71c3b99f3cdb65b87bea4 arm64/sysreg: Add definitions for architected GCS caps
-98867d31a9beb2245e2807917a20185cfb37641e arm64/gcs: Add manual encodings of GCS instructions
-500c56aab8a6c8369b1ee450bc9cbfee987d0971 arm64/gcs: Provide put_user_gcs()
-78af7e69820eeab348e369045f2cf0476cf56bfb arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-4cde33c18762d6c25ebf9a4ef8c733fa2556f789 arm64/mm: Allocate PIE slots for EL0 guarded control stack
-5c805f23eec662fc2903478a4fe075d48d250a0d mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-9e20250bb0bf8e10effb7da18dcb46a04548c6c7 arm64/mm: Map pages for guarded control stack
-2be5f9460993c27b74b88903fc954596f0dcdd4e KVM: arm64: Manage GCS registers for guests
-efc7f54ca113564c7126a9b5dba62bf47086c36b arm64/gcs: Allow GCS usage at EL0 and EL1
-46d823be77eafa7efe12068319b8a2aa15dad4d2 arm64/idreg: Add overrride for GCS
-627356dc59a98c7dbcfa100e840b87006be868ce arm64/hwcap: Add hwcap for GCS
-dd9eaad787eb173b99f7bd2c5e14e59d9728060f arm64/traps: Handle GCS exceptions
-8690d55f0bc739f509c10458d62d2272a09e8b79 arm64/mm: Handle GCS data aborts
-a6e4da128236bf28adeda0cd04d9a58cecbc23b5 arm64/gcs: Context switch GCS state for EL0
-de0dde19fe1d5283ece5ff3099976d42b1e6edf2 arm64/gcs: Allocate a new GCS for threads with GCS enabled
-7f4469de63ee664f3fb5aba26c9589909670d146 arm64/gcs: Implement shadow stack prctl() interface
-cd243da9747b2024b7da56c61655140e63a8acfd arm64/mm: Implement map_shadow_stack()
-dfcc50776ddd4f65a0f0ed9279dd465993976019 arm64/signal: Set up and restore the GCS context for signal handlers
-79cd8fe4701eec103ee46ad81dbce52b6b20307f arm64/signal: Expose GCS state in signal frames
-4b802ef6e56a6fe66b3dc5e4733ce40cd48387fd arm64/ptrace: Expose GCS via ptrace and core files
-0bf364937eae2e2ab2bad5e89242062073effe5a arm64: Add Kconfig for Guarded Control Stack (GCS)
-4760548abc2b9a78904287b98fef09b9e6f09b97 kselftest/arm64: Verify the GCS hwcap
-26e25384d8f4d3fa27d9eab066d12af48c279c4d kselftest/arm64: Add GCS as a detected feature in the signal tests
-e50b4d8b4fcf9b8e14a0e6bf8c0b216b97916741 kselftest/arm64: Add framework support for GCS to signal handling tests
-9f4dab7e7141d8fcbd2433c55aeb6c113a2e1e26 kselftest/arm64: Allow signals tests to specify an expected si_code
-24a298cdc5347cf103e342b3f6b0be430defc6e4 kselftest/arm64: Always run signals tests with GCS enabled
-1698b6c95d8f4c01952ad63d01fe8f792abbee06 kselftest/arm64: Add very basic GCS test program
-de427eff23d8dabfb1daa6b9c9d453d76ab55ca4 kselftest/arm64: Add a GCS test program built with the system libc
-df3f6c8849c72585006c08c3dc17ae6061e2e0e1 kselftest/arm64: Add test coverage for GCS mode locking
-aaabb7758dcd36040ca1c5d12f0bf48a04f9cd40 selftests/arm64: Add GCS signal tests
-42acf29aa3a8ca284e8d00c38c8f1da1c36b39ce kselftest/arm64: Add a GCS stress test
-f6d66121ce53c941b01a68b20aebcd7de243df37 kselftest/arm64: Enable GCS for the FP stress tests
+be97d0db5f44c0674480cb79ac6f5b0529b84c76 riscv: VMAP_STACK overflow detection thread-safe
+82982fdd5133fa7e0b2dfaf746d18d6f29922b82 riscv: Deduplicate IRQ stack switching
+e609b4f4252a2ad2454736078693571b9fbff019 riscv: Move global pointer loading to a macro
+d1584d791a297aa8ed93503382a682a6ecfc4218 riscv: Implement Shadow Call Stack
+c40fef858d002fb027033c572ac8bdf8756a2c6b riscv: Use separate IRQ shadow call stacks
+245561ba6d5de42bf73d501f910b181bc7fa5601 lkdtm: Fix CFI_BACKWARD on RISC-V
+71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
+a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
+5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
+60c46877e9cd4f7fd13fa844258f60cca4eb3e34 clocksource: timer-riscv: Increase rating of clock_event_device for Sstc
+10128f8b1663a8bce27df051c750d116bb8cd737 RISC-V: Provide pgtable_l5_enabled on rv32
+e59e5e2754bf983fc58ad18f99b5eec01f1a0745 riscv: correct pt_level name via pgtable_l5/4_enabled
+8f501be87e45112eff74d0569dcfaab6bce39ef5 RISC-V: clarify the QEMU workaround in ISA parser
+92235d3d8365d24f6cc6701b545e764ef144806a riscv/mm: Fix the comment for swap pte format
+dd16ac404a685cce07e67261a94c6225d90ea7ba riscv: Using TOOLCHAIN_HAS_ZIHINTPAUSE marco replace zihintpause
+559fe94a449cba5b50a7cffea60474b385598c00 riscv: mm: Update the comment of CONFIG_PAGE_OFFSET
+87615e95f6f9ccd36d4a3905a2d87f91967ea9d2 riscv: put interrupt entries into .irqentry.text
+b8c2f6617fd734e6cf265b3b38383f16e47d2037 Merge patch series "RISC-V: ACPI improvements"
+e8620de3f26b3ee84bedb1bf1ffbc5eed457ff71 riscv: errata: fix T-Head dcache.cva encoding
+c1c99e5f1b136130f48dd964fc1b2663530b41fa riscv: errata: prefix T-Head mnemonics with th.
+1a3876d34469397f3ca47cb54d4835541598c8f1 Merge patch "riscv: errata: improve T-Head CMO"
+17abcfe7f0ae61eb01140a84e63b189220e185b7 Merge patch series "riscv: SCS support"
+db38228c03d649465d6a1d7beb3a6604979763aa riscv: configs: defconfig: Enable configs required for RZ/Five SoC
+899376e85ae5632e88f89c5b6b7b1d8c77294482 RISC-V: hwprobe: Fix vDSO SIGSEGV
+f19c3b4239f5bfb69aacbaf75d4277c095e7aa7d riscv: remove unused functions in traps_misaligned.c
+7c83232161f609bbc452a1255f823f41afc411dd riscv: add support for misaligned trap handling in S-mode
+89c12fecdc4d46c1f08a81dab5d305304cc626eb riscv: report perf event for misaligned fault
+7c586a555a48a952f64d883d2f20402fb61d9164 riscv: add floating point insn support to misaligned access emulation
+bc38f61313d316d74c16ce7287d6dba2f42502c9 riscv: add support for sysctl unaligned_enabled control
+90b11b470b2e88ff583e04be109e6441cb69f54d riscv: annotate check_unaligned_access_boot_cpu() with __init
+71c54b3d169db5569655cbd2a3616bc701fd5eec riscv: report misaligned accesses emulation to hwprobe
+9f23a5d2f6b01c2ab91d791109731a0d87ec2239 riscv: add support for PR_SET_UNALIGN and PR_GET_UNALIGN
+0c37376609da25bf57e89acfa0e6f8c43beb2f3e RISC-V: Probe misaligned access speed in parallel
+a22f86fe0e6755cce5738320809367aa38f6057d Merge patch series "Add support to handle misaligned accesses in S-mode"
 
---===============0064748692461299077==--
+--===============2092353413418904774==--
