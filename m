@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 03 Nov 2023 16:58:56 -0000
-Message-Id: <169903073642.2197.2163729231162564400@gitolite.kernel.org>
+Date: Fri, 03 Nov 2023 17:01:55 -0000
+Message-Id: <169903091513.4971.17689985200748910312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/b4/vfs-multi-device-freeze
-    old: e109385079be1b43e054f1418ad63ec40a4b7979
-    new: 0dfb646e0c06797eabb50ea5858b77e0b4aa2c58
+    old: 0dfb646e0c06797eabb50ea5858b77e0b4aa2c58
+    new: 36b37b3767a85a911e35a8b24e76b241b0d56230
     log: |
-         2d4335b36b408067ee16f1d584c720f0edfd5bdc fs: remove dead check
-         56c78aebc40d7c3819af4bcfeb3b80a89e42d0fd fs: handle freezing from multiple devices
-         0dfb646e0c06797eabb50ea5858b77e0b4aa2c58 To: Dave Chinner <dchinner@redhat.com> To: Christoph Hellwig <hch@lst.de> To: Jan Kara <jack@suse.cz> To: Darrick J. Wong <djwong@kernel.org> Cc: linux-fsdevel@vger.kernel.org
+         76ae79f39c04866d51fda0f7c8694aea522497a0 fs: handle freezing from multiple devices
+         36b37b3767a85a911e35a8b24e76b241b0d56230 To: Dave Chinner <dchinner@redhat.com> To: Christoph Hellwig <hch@lst.de> To: Jan Kara <jack@suse.cz> To: Darrick J. Wong <djwong@kernel.org> Cc: linux-fsdevel@vger.kernel.org
          
