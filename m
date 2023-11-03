@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 03 Nov 2023 22:53:30 -0000
-Message-Id: <169905201095.29247.14837863251338803498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Fri, 03 Nov 2023 23:41:24 -0000
+Message-Id: <169905488418.31763.8559123666786099346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/tags/efi-next-for-v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 2854affba43dd33bcd9e3bc5ba12a6f9eceef1f6
+  - ref: refs/heads/i3c/next
+    old: 8911eae9c8a947e5c1cc4fcce40473f1f5e475cd
+    new: b53e9758a31c683fc8615df930262192ed5f034b
+    log: |
+         b53e9758a31c683fc8615df930262192ed5f034b i3c: master: mipi-i3c-hci: Fix a kernel panic for accessing DAT_data.
+         
