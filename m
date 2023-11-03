@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 03 Nov 2023 17:40:49 -0000
-Message-Id: <169903324925.2190.1634784313191377273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 03 Nov 2023 18:30:07 -0000
+Message-Id: <169903620702.3972.5437967909174604067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dev-queue
-    old: 75eabdb41c25d36bd15661df81033a4e3086c4c9
-    new: 3740264edb0e1ded57cd0ec30e639b41d82df502
+  - ref: refs/heads/main
+    old: 185e84b8a524c4f68c430301b077f38c9bc5aa3e
+    new: 19342f15a224963e61cd35a2bf5b3d292487eefa
     log: |
-         d8426c08ea9d2fdc11bbf5a9c3283c4667e98417 ice: dpll: fix check for dpll input priority range
-         3740264edb0e1ded57cd0ec30e639b41d82df502 ice: dpll: fix output pin capabilities
+         724c77e5b0765d4725e8822288c1bf3b0f5b5502 qca: add bluetooth firmware for WCN3988
+         19342f15a224963e61cd35a2bf5b3d292487eefa Merge branch 'apbtfw' into 'main'
          
