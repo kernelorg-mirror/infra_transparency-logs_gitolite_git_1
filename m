@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 03 Nov 2023 14:42:41 -0000
-Message-Id: <169902256169.2033.12727525240630036822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 03 Nov 2023 14:47:01 -0000
+Message-Id: <169902282150.5272.13057830567701580084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/acpi
-    old: f4cb34a75e4a4aee09ff832ea2147cf8322a6a7f
-    new: 4b27d5c420335dad7aea1aa6e799fe1d05c63b7e
+  - ref: refs/heads/kdevops
+    old: cc44031b0c5fb917d4892c281e48eba63dbb5fa5
+    new: 15b6870d33df2dacf1463f240809f53966c6b3ad
     log: |
-         4b27d5c420335dad7aea1aa6e799fe1d05c63b7e ACPI: thermal: Fix acpi_thermal_unregister_thermal_zone() cleanup
+         15b6870d33df2dacf1463f240809f53966c6b3ad SQUASH: nfs4_unhash_stid
          
-  - ref: refs/tags/acpi-6.7-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: 9c1cf01de9f75c58a6f60b56c9f9ea8fd7b12dbf
