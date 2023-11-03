@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6771855650266205545=="
+Content-Type: multipart/mixed; boundary="===============0571094074777433409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Fri, 03 Nov 2023 19:34:29 -0000
-Message-Id: <169904006969.16636.12955841432304638850@gitolite.kernel.org>
+Date: Fri, 03 Nov 2023 19:37:26 -0000
+Message-Id: <169904024618.20446.3954843958289730522@gitolite.kernel.org>
 
---===============6771855650266205545==
+--===============0571094074777433409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 56567a20b22bdbf85c3e55eee3bf2bd23fa2f108
-    new: 8f6f76a6a29f36d2f3e4510d0bde5046672f6924
-    log: revlist-56567a20b22b-8f6f76a6a29f.txt
+  - ref: refs/heads/opal-test
+    old: 13ef045a369daf97586e315888ab87ff53f8531f
+    new: 6c5f27462ce89488c748a3a456b9656058396c9d
+    log: revlist-13ef045a369d-6c5f27462ce8.txt
 
---===============6771855650266205545==
+--===============0571094074777433409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56567a20b22b-8f6f76a6a29f.txt
+Content-Disposition: attachment; filename=revlist-13ef045a369d-6c5f27462ce8.txt
 
-dbf85c21e4aff90912b5d7755d2b25611f9191e9 mm/khugepaged: convert is_refcount_suitable() to use folios
-b455f39d228935f88eebcd1f7c1a6981093c6a3b mm/khugepaged: convert alloc_charge_hpage() to use folios
-98b32d296d95d7aa0516c36b72406277412268cd mm/khugepaged: convert collapse_pte_mapped_thp() to use folios
-be16dd764a69752a31096d1a6b2ad775b728b1bd mm: fix multiple typos in multiple files
-76f26535d1446373d4735a252ea4247c39d64ba6 mm: page_alloc: check the order of compound page even when the order is zero
-e5b16c862884a62c09ab60cbfc6c7b544670bf9e mm: hugetlb_vmemmap: fix reference to nonexistent file
 eebb3dabbb5cc590afe32880b5d3726d0fbf88db mm: migrate: record the mlocked page status to remove unnecessary lru drain
 1cbf0a58847b30507611f92ad69964ef37264d14 ext4: add __GFP_NOWARN to GFP_NOWAIT in readahead
 b1454b463c217e5bc553acc44b2389d9257c9708 mm: mlock: avoid folio_within_range() on KSM pages
@@ -1050,5 +1044,11 @@ c9cacf7db3e4802fd38cf7a7cbee4db2528bd256 Merge tag 'for-linus' of git://git.arml
 bc3012f4e3a9765de81f454cb8f9bb16aafc6ff5 Merge tag 'v6.7-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 ecae0bd5173b1014f95a14a8dfbe40ec10367dcf Merge tag 'mm-stable-2023-11-01-14-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 8f6f76a6a29f36d2f3e4510d0bde5046672f6924 Merge tag 'mm-nonmm-stable-2023-11-02-14-08' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+dd5b03e24cfa8a580fcebb5dd0649c59cf3d5669 usb-storage: remove UNUSUAL_VENDOR_INTF macro
+dc39a954169d3b59091e6337a2d0433b2dadf579 usb-storage,uas: make internal quirks flags 64bit
+739034f7a933dcd8689721e5996b05d78ae6f256 usb-storage,uas: use host helper to generate driver info
+af0b6eff0b2154f70ad67f05fe668a3ef3b5f044 WIP: scsi: use ATA-12 pass-thru for OPAL as fallback
+64524fffaeef61d2a30a29a7e6fbebb5d7c65f01 WIP: usb-storage,uas: enable security commands for USB-attached storage
+6c5f27462ce89488c748a3a456b9656058396c9d WIP: usb-storage,uas: disable security commands (OPAL) for RT9210 chip family
 
---===============6771855650266205545==--
+--===============0571094074777433409==--
