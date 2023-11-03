@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3058786763811371155=="
+Content-Type: multipart/mixed; boundary="===============6407803324010038690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 03 Nov 2023 11:14:36 -0000
-Message-Id: <169901007627.14352.8993924249945402749@gitolite.kernel.org>
+Date: Fri, 03 Nov 2023 11:15:18 -0000
+Message-Id: <169901011878.16276.10132730926187817414@gitolite.kernel.org>
 
---===============3058786763811371155==
+--===============6407803324010038690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 57925e16c9f7d18012bcf45bfa658f92c087981a
-    new: 421b605edb1ce611dee06cf6fd9a1c1f2fd85ad0
-    log: revlist-57925e16c9f7-421b605edb1c.txt
+  - ref: refs/heads/next
+    old: 5428a40a308f220dbbffda66cb01b212f88e9a06
+    new: 775d447cf0a7d47ee4d952ea36dedf0df6e8f82c
+    log: revlist-5428a40a308f-775d447cf0a7.txt
 
---===============3058786763811371155==
+--===============6407803324010038690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57925e16c9f7-421b605edb1c.txt
+Content-Disposition: attachment; filename=revlist-5428a40a308f-775d447cf0a7.txt
 
 ddc1a5cbc05dc62743a2f409b96faa5cf95ba064 mempolicy: alloc_pages_mpol() for NUMA policy without vma
 72e315f7a750281b4410ac30d8930f735459e72d mempolicy: mmap_lock is not needed while migrating folios
@@ -317,8 +317,6 @@ e8bba9e83c88ea951dafd3319c97c55a52b3637d selftests: bridge_mdb: Use MDB get inst
 bc4c48e74312d0c96d02f7e7cf75b01f3ba19543 Merge branch 'mdb-get'
 c73801ae4f22b390228ebf471d55668e824198b6 futex: Don't include process MM in futex key on no-MMU
 61217d8f6360437329af1b16b8bbd9143167718d virtio_net: use u64_stats_t infra to avoid data-races
-5eb8323803a8cc6dc260a29b350b90ebdafa0da7 dt-bindings: mmc: sdhci-msm: document the SM8650 SDHCI Controller
-5428a40a308f220dbbffda66cb01b212f88e9a06 mmc: Merge branch fixes into next
 7ddc21e317b360c3444de3023bcc83b85fabae2f padata: Fix refcnt handling in padata_free_shell()
 04a93202ed7c3b451bf22d3ff4bcd379df27f299 certs: Break circular dependency when selftest is modular
 f5fb88e5301ba7b8cb85063d6b6b3bd378907e25 crypto: rsa - Add module alias for pkcs1pad
@@ -1046,9 +1044,11 @@ c9cacf7db3e4802fd38cf7a7cbee4db2528bd256 Merge tag 'for-linus' of git://git.arml
 bc3012f4e3a9765de81f454cb8f9bb16aafc6ff5 Merge tag 'v6.7-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 ecae0bd5173b1014f95a14a8dfbe40ec10367dcf Merge tag 'mm-stable-2023-11-01-14-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 8f6f76a6a29f36d2f3e4510d0bde5046672f6924 Merge tag 'mm-nonmm-stable-2023-11-02-14-08' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+e33580ea182ebf79194d29f1ce990cabaae72d3f mmc: meson-mx-sdhc: Fix initialization frozen issue
 71956d0cb56c1e5f9feeb4819db87a076418e930 mmc: sdhci_am654: fix start loop index for TAP value parsing
 ed9009ad300c0f15a3ecfe9613547b1962bde02c mmc: Add quirk MMC_QUIRK_BROKEN_CACHE_FLUSH for Micron eMMC Q2J54A
 b44f9da81783fda72632ef9b0d05ea3f3ca447a5 mmc: vub300: fix an error code
 421b605edb1ce611dee06cf6fd9a1c1f2fd85ad0 Revert "mmc: core: Capture correct oemid-bits for eMMC cards"
+775d447cf0a7d47ee4d952ea36dedf0df6e8f82c Merge branch 'fixes' into next
 
---===============3058786763811371155==--
+--===============6407803324010038690==--
