@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6976821800291038382=="
+Content-Type: multipart/mixed; boundary="===============6800907008903522408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 03 Nov 2023 02:10:19 -0000
-Message-Id: <169897741998.2463.17680356910145692679@gitolite.kernel.org>
+Date: Fri, 03 Nov 2023 02:35:44 -0000
+Message-Id: <169897894486.19169.2994908835245343791@gitolite.kernel.org>
 
---===============6976821800291038382==
+--===============6800907008903522408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,227 +16,299 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 43468456c95b9e13c0592de51a9a530caa525c1f
-    new: 6803bd7956ca8fc43069c2e42016f17f3c2fbf30
-    log: revlist-43468456c95b-6803bd7956ca.txt
+    old: 6803bd7956ca8fc43069c2e42016f17f3c2fbf30
+    new: bc3012f4e3a9765de81f454cb8f9bb16aafc6ff5
+    log: revlist-6803bd7956ca-bc3012f4e3a9.txt
 
---===============6976821800291038382==
-Content-Type: text/plain; charset="utf-8"
+--===============6800907008903522408==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-43468456c95b-6803bd7956ca.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6803bd7956ca-bc3012f4e3a9.txt
 
-7b424ffcd45821600312ed4c794c21f7805e79d4 KVM: arm64: Don't use kerneldoc comment for arm64_check_features()
-ef150908b6bd80a54126dbec324bd63a24a5628a KVM: arm64: Add generic check for system-supported vCPU features
-9116db11feb521d9eaa850d3a6a8b713f59c6971 KVM: arm64: Hoist PMUv3 check into KVM_ARM_VCPU_INIT ioctl handler
-be9c0c018389e0722a97ac5cd3152afff1111e37 KVM: arm64: Hoist SVE check into KVM_ARM_VCPU_INIT ioctl handler
-baa28a53ddbe2d27377b9a4aeff5eb8b706c8d38 KVM: arm64: Hoist PAuth checks into KVM_ARM_VCPU_INIT ioctl
-12405b09926f0270f7033ed5293241180ea57343 KVM: arm64: Prevent NV feature flag on systems w/o nested virt
-d99fb82fd35e816b3656141e5dd940dfd00d09fd KVM: arm64: Hoist NV+SVE check into KVM_ARM_VCPU_INIT ioctl handler
-3d4b2a4cddd783bc5a75585a7cb6189a8a551b22 KVM: arm64: Remove unused return value from kvm_reset_vcpu()
-1de10b7d13a971f9ab90c5ed300b76d6e0c0db38 KVM: arm64: Get rid of vCPU-scoped feature bitmap
-ec1c3b9ff16082f880b304be40992568f4eee6a7 arm64: tlbflush: Rename MAX_TLBI_OPS
-909b583f81b5bb5a398d4580543f59b908a86ccc KVM: arm64: Avoid soft lockups due to I-cache maintenance
-9dbb029b9c44a84968317d462eaa5a748317d8fb KVM: x86: Remove redundant vcpu->arch.cr0 assignments
-4346db6e6e7a63c25a2f6dd93f4613d6a17dbd4e KVM: x86: Force TLB flush on userspace changes to special registers
-57f33f1a8756c980acb335852e802e656be8aec0 KVM: Correct kvm_vcpu_event(s) typo in KVM API documentation
-b207cfbc8c1d04a32d19919a0df9920e909f82a5 KVM: Documentation: Add the missing description for guest_mode in kvm_mmu_page_role
-fdaca560b6c4c011d76d24e8a16cb43eae63b25f KVM: Documentation: Update the field name gfns and its description in kvm_mmu_page
-b40a2455e9ebdf32417e979f043c2830dd3fb3bb KVM: Documentation: Add the missing description for ptep in kvm_mmu_page
-6a713928ae1cb8aaa008b6ffb709fd9293614c89 KVM: Documentation: Add the missing description for tdp_mmu_root_count into kvm_mmu_page
-c3204c406b6d4223022af26699bd3a5b71ba5fd8 KVM: Documentation: Add the missing description for mmu_valid_gen into kvm_mmu_page
-78b5605d44e65cb2e07181fcbcde8c76ad5b07b1 KVM: Documentation: Add the missing description for tdp_mmu_page into kvm_mmu_page
-b35babd3abea081de0611ce0d5b85281c18c52c7 KVM: x86/pmu: Add documentation for fixed ctr on PMU filter
-f10a570b093e60c6bd3f210ae909f014f421352a KVM: x86: Add CONFIG_KVM_MAX_NR_VCPUS to allow up to 4096 vCPUs
-bc3d7c5570a03ab45bde4bae83697c80900fb714 KVM: SVM: Update SEV-ES shutdown intercepts with more metadata
-9cfec6d097c607e36199cf0cfbb8cf5acbd8e9b2 KVM: x86: Fix lapic timer interrupt lost after loading a snapshot.
-629d3698f6958ee6f8131ea324af794f973b12ac KVM: x86: Clear bit12 of ICR after APIC-write VM-exit
-c04bf723ccd639250fa680a0fb4e1ac15bb84c3b KVM: arm64: Do not transfer page refcount for THP adjustment
-9a0a75d3ccee20149587ab740a2dee31ba401ada KVM: arm64: vgic: Make kvm_vgic_inject_irq() take a vcpu pointer
-d455d366c451e68781122c693e2e357c673ee807 KVM: arm64: vgic-its: Treat the collection target address as a vcpu_id
-f3f60a56539108dacfd87b6514398b3970daec54 KVM: arm64: vgic-v3: Refactor GICv3 SGI generation
-4e7728c81a54b17bd33be402ac140bc11bb0c4f4 KVM: arm64: vgic-v2: Use cpuid from userspace as vcpu_id
-ac0fe56d46c0d534dddcf97d132c222722b9b7a5 KVM: arm64: vgic: Use vcpu_idx for the debug information
-5f4bd815ec718992c09de1f39479ae90dcbb7df3 KVM: arm64: Use vcpu_idx for invalidation tracking
-0a2acd38d23b8865b3a5a8c851001350df76fc09 KVM: arm64: Simplify kvm_vcpu_get_mpidr_aff()
-5544750efd51143fee9e9184d69518c0c05426a1 KVM: arm64: Build MPIDR to vcpu index cache at runtime
-54a8006d0b49044d0cb682119686a45de906fe3c KVM: arm64: Fast-track kvm_mpidr_to_vcpu() when mpidr_data is available
-b5daffb120bb60f974ae1a5589160b05c98e00e5 KVM: arm64: vgic-v3: Optimize affinity-based SGI injection
-f9940416f193d148dd7ad7498ce4f40c83d12e7a KVM: arm64: Clarify the ordering requirements for vcpu/RD creation
-b37e6b680e3a4fad40d8c7b92cfe9b2806c6248e LoongArch: KVM: Add kvm related header files
-2bd6ac68726131da32ace9717aa63ff68cf6605c LoongArch: KVM: Implement kvm module related interface
-0d0df3c99d4fbc6561b0addb094e52f19f3c7baa LoongArch: KVM: Implement kvm hardware enable, disable interface
-482795cb62aa63bbba3a1265fa5b5601be9d13df LoongArch: KVM: Implement VM related functions
-dfe3dc07fa68f2be1bf8af98656e674e9636d965 LoongArch: KVM: Add vcpu related header files
-2fc3bd86db4b6f6992d4b459879a17b2ae6b2b3d LoongArch: KVM: Implement basic vcpu interfaces
-f6deff355b5c7072a05232f0861cfdfe372c6bfd LoongArch: KVM: Implement basic vcpu ioctl interfaces
-84be4212dcda361b52fc5a071044e5fa237a58d7 LoongArch: KVM: Implement fpu operations for vcpu
-f45ad5b8aa9335bc6b30331b739e778f2f730b35 LoongArch: KVM: Implement vcpu interrupt operations
-1f4c39b9892e12385e075efa9cb3f014b700204d LoongArch: KVM: Implement vcpu load and vcpu put operations
-93a9a197b680dd6b98afb629d2bfb3bd51a83d84 LoongArch: KVM: Implement misc vcpu related interfaces
-a5857b9ff6e06cac4adc8d671a74b7739a88623e LoongArch: KVM: Implement vcpu timer operations
-d7f4ed4b22908077bd219dd172b27b51927aff6d LoongArch: KVM: Implement virtual machine tlb operations
-752e2cd7b4fb412f3e008493e0195e357bab9773 LoongArch: KVM: Implement kvm mmu operations
-da50f5a693ff55ef367a4c5c9145f0bfea3e476d LoongArch: KVM: Implement handle csr exception
-81efe043a35113ec1352f6eb2b954d02aac368db LoongArch: KVM: Implement handle iocsr exception
-f41c8bdbbdbe73343d4842e580c6ab9db9d84171 LoongArch: KVM: Implement handle idle exception
-13c82f5e6e5088a2998036714239cf00e48f5c10 LoongArch: KVM: Implement handle gspr exception
-d5b65882d57c91e5fec8c4c0b0a0a88f343b4525 LoongArch: KVM: Implement handle mmio exception
-37cdfc6dbf04169310a24f3a79b554c363260562 LoongArch: KVM: Implement handle fpu exception
-71f4fb845874c3c54527e2e5afd687493db9d4d4 LoongArch: KVM: Implement kvm exception vectors
-39fdf4be72f2b81238acbd4da48c75c135a6f1e0 LoongArch: KVM: Implement vcpu world switch
-c1fc48aad14dbe7654f5986afb906332b528d54b LoongArch: KVM: Enable kvm config and add the makefile
-6f0257a03212d4f66954ce14402adb5c68fed075 LoongArch: KVM: Supplement kvm document about LoongArch-specific part
-2c10cda4b777be4be9d9e69e4f70c818dbb15e21 LoongArch: KVM: Add maintainers for LoongArch KVM
-3f9cd0ca848413fd368278310d2cdd6c2bef48b2 KVM: arm64: Allow userspace to get the writable masks for feature ID registers
-6656cda0f3b269cb87cfb5773d3369e6d96e83db KVM: arm64: Document KVM_ARM_GET_REG_WRITABLE_MASKS
-8b6958d6ace19d56b44ca0f961f4fa480d4b48fc KVM: arm64: Use guest ID register values for the sake of emulation
-5a23e5c7cb0d5b2b38c33417579cd628be7d14c5 KVM: arm64: Advertise selected DebugVer in DBGDIDR.Version
-a9bc4a1c1e0c206838bc2d0c8621ca6df9704a2f KVM: arm64: Reject attempts to set invalid debug arch version
-9f9917bc71b08335819ea667d1e392424fb76450 KVM: arm64: Bump up the default KVM sanitised debug version to v8p8
-56d77aa8bdf527f3b767fa27a3f135769151c92d KVM: arm64: Allow userspace to change ID_AA64ISAR{0-2}_EL1
-d5a32b60dc184cc7309f83648a368b94d91c797f KVM: arm64: Allow userspace to change ID_AA64MMFR{0-2}_EL1
-8cfd5be88ebe3d71be1a2c52fc72a355bb924b49 KVM: arm64: Allow userspace to change ID_AA64PFR0_EL1
-f89fbb350dd76d6b5f080954309b9dec5ad220ac KVM: arm64: Allow userspace to change ID_AA64ZFR0_EL1
-dafa493dd01d5992f1cb70b08d1741c3ab99e04a KVM: arm64: Document vCPU feature selection UAPIs
-ee11ab6bb04e1093d3cc5f5bea9779799ce1d2c7 KVM: X86: Reduce size of kvm_vcpu_arch structure when CONFIG_KVM_XEN=n
-77c9b9dea4fb3e51e0d850db7f21cb1156d987bd KVM: x86/xen: Use fast path for Xen timer delivery
-aeb904f6b9f1de588cf3130dc8a2c458b236704e KVM: x86: Refactor can_emulate_instruction() return to be more expressive
-00682995409696866fe43984c74c8688bdf8f0a5 KVM: SVM: Treat all "skip" emulation for SEV guests as outright failures
-6f0f23ef76be11bc6ace10df5e807f3542da8772 KVM: x86: Add IBPB_BRTYPE support
-e47d86083c66525b89c7fc66cdd64d5937725563 KVM: x86: Add SBPB support
-409f2e92a27a210fc768c5569851b4a419e6a232 KVM: x86/xen: ignore the VCPU_SSHOTTMR_future flag
-bb17fb31f00ebd8df478a9533c6b77d6eebe6464 KVM: arm64: Add a predicate for testing if SMCCC filter is configured
-d34b76489ea0c6168d230d4f9ad065422ba5f6d6 KVM: arm64: Only insert reserved ranges when SMCCC filter is used
-4202bcac5e65de2d7193b7e27984b810ba33aada KVM: arm64: Use mtree_empty() to determine if SMCCC filter configured
-414f28a94222fe372a5b2378415895b9c4dc540f ARM: 9319/1: sa1111: fix sa1111_probe kernel-doc warnings
-b0150014878c32197cfa66e3e2f79e57f66babc0 ARM: 9320/1: fix stack depot IRQ stack filter
-c0e824661f443b8cab3897006c1bbc69fd0e7bc4 ARM: 9321/1: memset: cast the constant byte to unsigned char
-3562257b34165bc9553fefbd48a85dc9337c14bb ARM: 9322/1: Explicitly include correct DT includes
-399da29ff5eb3f675c71423bec4cf2208f218576 ARM: 9323/1: mm: Fix ARCH_LOW_ADDRESS_LIMIT when CONFIG_ZONE_DMA
-24d3ba0a7b44c1617c27f5045eecc4f34752ab03 ARM: 9324/1: fix get_user() broken with veneer
-c7368ddba2ffcc5d200122c5bb122c3825ecb976 ARM: 9326/1: make <linux/uaccess.h> self-contained for ARM
-5d6d6a7d7e66a98bb3432478d226c68c219aaba3 KVM: x86: Refine calculation of guest wall clock to use a single TSC read
-598a790fc20f06e5582c939a4c5864ff1105c477 KVM: x86: Allow HWCR.McStatusWrEn to be cleared once set
-8b0e00fba93449ecdda2c641e90c9b1f25f46669 KVM: x86: Virtualize HWCR.TscFreqSel[bit 24]
-591455325a79dbe3be429006f8156f727b2a52dd KVM: selftests: Test behavior of HWCR, a.k.a. MSR_K7_HWCR
-2de451a329cf662beeba71f63c7f83ee24ca6642 KVM: arm64: Add handler for MOPS exceptions
-e0bb80c62cfd0c289c841d35e412e633299530e3 KVM: arm64: Expose MOPS instructions to guests
-1affe455d66de4e1743514afdeb99cb598a25aa2 KVM: x86/mmu: Add helpers to return if KVM honors guest MTRRs
-7a18c7c2b69a2e47e95e2a381f9b01b9aae36747 KVM: x86/mmu: Zap SPTEs when CR0.CD is toggled iff guest MTRRs are honored
-9a3768191d95a9cc9a74f67ae971764def45acb4 KVM: x86/mmu: Zap SPTEs on MTRR update iff guest MTRRs are honored
-bf328e22e47242695445a33da6887ba2ef9aec19 KVM: x86: Don't sync user-written TSC against startup values
-362ff6dca5416e20646badf09394b9a8bfc000db KVM: x86/mmu: Zap KVM TDP when noncoherent DMA assignment starts/stops
-c9f65a3f2d92e0de336177d0151dabaf3ed004e5 KVM: VMX: drop IPAT in memtype when CD=1 for KVM_X86_QUIRK_CD_NW_CLEARED
-9dbaf381008dfa2fad6225633004f7adb1bac252 RISC-V: Detect Smstateen extension
-a4f5f39849f39f62f5d4e88cbb600f95f927003d dt-bindings: riscv: Add smstateen entry
-662a601aa355c6917ed2bc1c4e316a4c0ee206ed RISC-V: Detect Zicond from ISA string
-00c6f39c8247b0a5ddca4586d43aec1af7cbccb6 dt-bindings: riscv: Add Zicond extension entry
-fe0bab701e3b71a1d2db123c05b4f5c33098cc96 RISC-V: KVM: Add kvm_vcpu_config
-d21b5d342fc12eb0a0f812864aa58aa9bb2c0599 RISC-V: KVM: Enable Smstateen accesses
-db3c01c7a3081c6a6a50570e48bdbea509ba30e4 RISCV: KVM: Add senvcfg context save/restore
-81f0f314fec92a69d6c4951b9d9db21d37419669 RISCV: KVM: Add sstateen0 context save/restore
-c04913f2b54ee86be34d1a1e9df7b7876b12b8c0 RISCV: KVM: Add sstateen0 to ONE_REG
-26c7d6d8a5a2ce9705e89d10683f3d41ed68de5c MAINTAINERS: RISC-V: KVM: Add another kselftests path
-6a53a5fbc8f494e69922e13491f7077ce010ec28 KVM: selftests: Add array order helpers to riscv get-reg-list
-df68f4d8cb496ea31fa42cf2620366571c05376b RISC-V: KVM: Allow Zicond extension for Guest/VM
-4d554e0226e6568c7b0b75418e7a24fefedbcefb KVM: riscv: selftests: Add senvcfg register to get-reg-list test
-e1a8db0c9a0e7125c8e142c9eed7041ea37031d3 KVM: riscv: selftests: Add smstateen registers to get-reg-list test
-2b3f2b78ec93bdb1cfd8574158719d54263d50d6 KVM: riscv: selftests: Add condops extensions to get-reg-list test
-62d0c458f828949dd01bfe41daf3bed73ab9e288 KVM: riscv: selftests: get-reg-list print_reg should never fail
-c3235e2dd6956448a562d6b1112205eeebc8ab43 KVM: s390: add stat counter for shadow gmap events
-70fea30195168fd84e7076720c984f0ac1af5b09 KVM: s390: add tracepoint in gmap notifier
-26951ec8623e915823985e86d2c428213f110659 KVM: x86: Use octal for file permission
-3d30bfcbdc268b41a7d9253a9cb3082281223b19 KVM: x86/mmu: Stop kicking vCPUs to sync the dirty log when PML is disabled
-5a989bbead4cc9cd67c3911226ad857d293643d8 KVM: x86: Update the variable naming in kvm_x86_ops.sched_in()
-d6800af51c76b6dae20e6023bbdc9b3da3ab5121 KVM: x86: hyper-v: Don't auto-enable stimer on write from user-space
-2081a8450ef803e2e1136a80975eebc8682879b5 KVM: x86: remove always-false condition in kvmclock_sync_fn
-329369caeccb1a0cb0dc5f864d6a671ed8190c11 x86: KVM: Add feature flag for CPUID.80000021H:EAX[bit 1]
-1de9992f9de0a92b6e11133aba0e2be833c11084 KVM: x86/mmu: Remove unnecessary ‘NULL’ values from sptep
-02e85f74668e1aa0062708b58d8aef020054e56c tools: arm64: Add a Makefile for generating sysreg-defs.h
-e2bdd172e6652c2f5554d125a5048bc9f9b0dfa3 perf build: Generate arm64's sysreg-defs.h and add to include path
-9697d84cc3b6d9bff4b1fbffc10a4bb1398af9ba KVM: selftests: Generate sysreg-defs.h and add to include path
-0359c946b13153bd57fac65f4f3600ba5673e3de tools headers arm64: Update sysreg.h with kernel sources
-54a9ea73527d55ab746d5425e10f3fa748e00e70 KVM: arm64: selftests: Test for setting ID register from usersapce
-122ae01c5159eb1584e07907aec89e2470622baa KVM: x86: remove the unused assigned_dev_head from kvm_arch
-2770d4722036d6bd24bcb78e9cd7f6e572077d03 KVM: x86: Ignore MSR_AMD64_TW_CFG access
-dadf7886993c69c6838107573e250a3b3fda25e3 RISC-V: Add defines for SBI debug console extension
-b88e87a0a1ec0aa10861d84f8321743902583443 RISC-V: KVM: Change the SBI specification version to v2.0
-56d8a385b60556019ecb45d6098830c9ef6a13e0 RISC-V: KVM: Allow some SBI extensions to be disabled by default
-c667ad229d13c41590882a35a8c159387b4e149b RISC-V: KVM: Forward SBI DBCN extension to user-space
-d9c00f44e5de542340cce1d09e2c990e16c0ed3a KVM: riscv: selftests: Add SBI DBCN extension to get-reg-list test
-38ce26bf26666779565c2770e7ef36c02e0212d7 KVM: arm64: Don't zero VTTBR in __tlb_switch_to_host()
-4288ff7ba195f49138eec0d9c4ff8c049714e918 KVM: arm64: Restore the stage-2 context in VHE's __tlb_switch_to_host()
-5eba523e1e5e83d2c1a282c3c488d98b990333c2 KVM: arm64: Reload stage-2 for VMID change on VHE
-27cde4c0fe28eab228d1fc9d84c68a109219887d KVM: arm64: Rename helpers for VHE vCPU load/put
-934bf871f0113e1e57cfa262dcbc9aad5fa0a252 KVM: arm64: Load the stage-2 MMU context in kvm_vcpu_load_vhe()
-0100f67c46c04628ff4ce81d1f2f04924b83b14e m68knommu: improve config ROM setting defaults
-7bc3db03e3dd344c3dc93c1dfe684d53d2a5ffbf m68knommu: fix compilation for ColdFire/Cleopatra boards
-b6880019ff3ed72b0813b6bcb5c23afdf8b8e75c m68k: coldfire: add and use "vectors.h"
-863dafa74eceaa7dc45c781566efc5395085f178 m68k: coldfire: ensure gpio prototypes visible
-7c2aa8d195cd34ec47ac26994adac43bfd5037b8 m68k: coldfire: make mcf_maskimr() static
-3b4497668f721513eb7287f6bb0c4d651759c7c4 m68k: coldfire: fix warnings in uboot argument processing
-0a49a430e6dee8aa036df81898d17ce8abc397fa m68k: coldfire: remove unused variable in MMU code
-19f144f43f4cf5d56409a8908125405e5cf6c3e0 m68k: 68000: fix warnings in 68000 interrupt handling
-2508b608f4028c6fe0d63698f64a9bfc3eb6b780 m68k: 68000: fix warning in timer code
-fe49fd940e22592988552e3bcd03f5a64facdecf KVM: arm64: Move VTCR_EL2 into struct s2_mmu
-1616ca6f3c10723c1b60ae44724212fae88f502d KVM: arm64: PMU: Introduce helpers to set the guest's PMU
-bc512d6a9b92390760f0e8c895501c5016539929 KVM: arm64: Make PMEVTYPER<n>_EL0.NSH RES0 if EL2 isn't advertised
-ae8d3522e5b7208d238c893a00957864536983dc KVM: arm64: Add PMU event filter bits required if EL3 is implemented
-427733579744ef22ee6d0da9907560d79d937458 KVM: arm64: Select default PMU in KVM_ARM_VCPU_INIT handler
-57fc267f1b5caa56dfb46f60e20e673cbc4cc4a8 KVM: arm64: PMU: Add a helper to read a vCPU's PMCR_EL0
-4d20debf9ca160720a0b01ba4f2dc3d62296c4d1 KVM: arm64: PMU: Set PMCR_EL0.N for vCPU based on the associated PMU
-a45f41d754e0b37de4b7dc1fb3c6b7a1285882fc KVM: arm64: Add {get,set}_user for PM{C,I}NTEN{SET,CLR}, PMOVS{SET,CLR}
-27131b199f9fdc0e15baa0ff9d1695b54a96e39c KVM: arm64: Sanitize PM{C,I}NTEN{SET,CLR}, PMOVS{SET,CLR} before first run
-ea9ca904d24ff15ded92fd76c16462c47bcae2f8 KVM: arm64: PMU: Allow userspace to limit PMCR_EL0.N for the guest
-9f4b3273dfbe0ecb628b65fe9a80aae17caba20f tools: Import arm_pmuv3.h
-8d0aebe1ca2bd6f86ee2b4de30c8a4aafcf2908b KVM: selftests: aarch64: Introduce vpmu_counter_access test
-ada1ae68262deea2685ccd38136ea2db233dfc4c KVM: selftests: aarch64: vPMU register test for implemented counters
-e1cc87206348f36fb78e417b5813f78f672a4aef KVM: selftests: aarch64: vPMU register test for unimplemented counters
-62708be351fe7b06be6f6fd30e95c94095bf21d3 KVM: selftests: aarch64: vPMU test for validating user accesses
-d5cb781b77416a9ed4129960712932dbcf8a9f30 arm64: Add missing _EL12 encodings
-41f6c9344713e6b895a77f2bdd596cf56d4cc197 arm64: Add missing _EL2 encodings
-04cf5465055442c15c37bbedb1febe2d8f3a47be KVM: arm64: Refine _EL2 system register list that require trap reinjection
-c7d11a61c7f7de75e4e269485644ea8c5a4e0bf6 KVM: arm64: Do not let a L1 hypervisor access the *32_EL2 sysregs
-3f7915ccc90261c201664b5fdce139db09480a36 KVM: arm64: Handle AArch32 SPSR_{irq,abt,und,fiq} as RAZ/WI
-3ca64d0669b467e951d6020f154a7fd8810db35b sh: Remove stale microdev board
-6c329558c1c68c56d35e451b3e7950dbe11a8ee5 sh: Remove unused SH4-202 support
-8daaed76383aaae1d094d3d65d34890b2c6da24b sh: Remove superhyway bus support
-4c02add1d949890d5381789f0c374e72c193559d sh: machvec: Remove custom ioport_{un,}map()
-553f7ac78fbb41b2c93ab9b9d78e42274d27daa9 sh: bios: Revive earlyprintk support
-78a96c86a0ff2be546f2ecca210fde5dca30fb59 Documentation: kernel-parameters: Add earlyprintk=bios on SH
-fad505b2cb838fb52cb72fa22830824c80330f2f KVM: x86: Service NMI requests after PMI requests in VM-Enter path
-be097997a273259f1723baac5463cf19d8564efa KVM: arm64: Always invalidate TLB for stage-2 permission faults
-beaf35b480875d05d7c751d50951a659ce6dff94 KVM: arm64: selftest: Add the missing .guest_prepare()
-06899aa5dd3d76e888b28d7e8d7304c0a7ec6262 KVM: arm64: selftest: Perform ISB before reading PAR_EL1
-d11974dc5f208ae1c0fe62a9bcb47c0cdcd7b081 KVM: arm64: Add tracepoint for MMIO accesses where ISV==0
-054056bf98922767a7df93876ef09f20948b8693 Merge branch kvm-arm64/misc into kvmarm/next
-d47dcb67fcf619df971f2c6df6ce1a81426917b6 Merge branch kvm-arm64/feature-flag-refactor into kvmarm/next
-7ff7dfe946ab696a3335a98bdc30210f2b567825 Merge branch kvm-arm64/pmevtyper-filter into kvmarm/next
-25a35c1a3d8fd4b10805f05b109a76c9b8b0200c Merge branch kvm-arm64/smccc-filter-cleanups into kvmarm/next
-51e607961463f45646449a24574163838556d3ea Merge branch kvm-arm64/nv-trap-fixes into kvmarm/next
-df26b77915be7813a0ca06ddd06f04fb4e13e471 Merge branch kvm-arm64/stage2-vhe-load into kvmarm/next
-54b44ad26c4296f341a26456ef121d2fd2ac0c59 Merge branch kvm-arm64/sgi-injection into kvmarm/next
-fbb075c11663a6fb7beb4ef386e069e06594e229 tools headers arm64: Fix references to top srcdir in Makefile
-70c7b704ca7251b09dd4ce22a31b5bea8c797d24 KVM: selftests: Avoid using forced target for generating arm64 headers
-a87a36436cb0cc6e576731f6a4409841e46d3ed1 Merge branch kvm-arm64/writable-id-regs into kvmarm/next
-53ce49ea75602b51a1feb3844d535ced42b2d8c2 Merge branch kvm-arm64/mops into kvmarm/next
-123f42f0ad6815014f54d0cc6eb9039c46ee2907 Merge branch kvm-arm64/pmu_pmcr_n into kvmarm/next
-ef12ea629e69d12c8713218014bf569a788f17ae Merge tag 'loongarch-kvm-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson into HEAD
-957eedc70350ad1b31aa76c4ed826372a46006fa Merge tag 'kvm-riscv-6.7-1' of https://github.com/kvm-riscv/linux into HEAD
-140139c5bd9f0f95706a6138fc41bfa59792695e Merge tag 'kvm-s390-next-6.7-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-f23364676018db8432f91c6247a30529195aff60 Merge tag 'kvm-x86-apic-6.7' of https://github.com/kvm-x86/linux into HEAD
-fadaf574a7fabe27016f734bd02a3bd27d0fcc10 Merge tag 'kvm-x86-docs-6.7' of https://github.com/kvm-x86/linux into HEAD
-f292dc8aad10f8e3be2cfaa4714b92464f42c710 Merge tag 'kvm-x86-misc-6.7' of https://github.com/kvm-x86/linux into HEAD
-f0f59d069e0a33bd43afe664e16b4a86cf9d079c Merge tag 'kvm-x86-mmu-6.7' of https://github.com/kvm-x86/linux into HEAD
-e122d7a1008769af080b9dbd78fce54d3cd77f6f Merge tag 'kvm-x86-xen-6.7' of https://github.com/kvm-x86/linux into HEAD
-d5cde2e0b317bb179a39204b4a7820ac8b9011cc Merge tag 'kvm-x86-pmu-6.7' of https://github.com/kvm-x86/linux into HEAD
-be47941980d56238455eb54401c7b3de4ac5e269 Merge tag 'kvm-x86-svm-6.7' of https://github.com/kvm-x86/linux into HEAD
-45b890f7689eb0aba454fc5831d2d79763781677 Merge tag 'kvmarm-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-63f1ee206170ad2363aa25fd99bd5ae529c690ae locking/atomic: sh: Use generic_cmpxchg_local for arch_cmpxchg_local()
-8c04bddc27d60df8ca5cb5bea40374c3ca1d75fc Merge tag 'm68knommu-for-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
-c9cacf7db3e4802fd38cf7a7cbee4db2528bd256 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-5be9911406ada8fe6187db7ce402f7ff4c21ebdf Merge tag 'sh-for-v6.7-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
-6803bd7956ca8fc43069c2e42016f17f3c2fbf30 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+75b2d50d0d7ffae34eefa5a31d8c6ae84496dfd0 hwrng: bcm2835 - removed call to platform_set_drvdata()
+9d2c1a985b1dda6fbb5c256862b8e80b92cf51e6 hwrng: hisi - removed unneeded call to platform_set_drvdata()
+d90dde8c550f6fcf8856b3c88226d774b038bf89 wireguard: do not include crypto/algapi.h
+b8f836cbe12bccf2beeadd638e1696f4acaa39c3 hwrng: ks-sa - access private data via struct hwrng
+2db18098d5ad99306b48146e77c51584fcfe5991 hwrng: ks-sa - remove dev from struct ks_sa_rng
+337be41e07a6a32029d14306d71f764f0f80e318 hwrng: ks-sa - use dev_err_probe
+6007d34fce334bf4c8da70d3bc4ebcdf37172ed3 hwrng: nomadik - add MODULE_DESCRIPTION
+d44f588eb12a0e338a6629ee92fd6e53182b99ad hwrng: st - add MODULE_DESCRIPTION
+0a596b0682a7ce37e26c36629816f105c6459d06 KEYS: Include linux/errno.h in linux/verification.h
+c7e2c4b37e6d54db92a7e74f7e4c015be33601a3 hwrng: mpfs - removed unneeded call to platform_set_drvdata()
+4ff6244696eed0f08398ca500758c85d4b935094 hwrng: xgene - removed unneeded call to platform_set_drvdata()
+3cf755995e49df0cfac9377970c4c507b4a18ca4 hwrng: xiphera - removed unnneded platform_set_drvdata()
+7ba98583448b7a0dbfa8121c7be642651e0abd61 Documentation: ABI: debugfs-driver-qat: fix fw_counters path
+53f7f779f45cbe1771bc4ae05f0320e204a18611 crypto: ccp - Get a free page to use while fetching initial nonce
+7f71c3e033824e1da237916a1885e3c0699f86b2 crypto: ccp - Fix ioctl unit tests
+70f242c1933e9e881c13c31640bb6d56e8b7e738 crypto: ccp - Fix DBC sample application error handling
+2ad01eb5fad24627ab4e196dc54a220753b2238b crypto: ccp - Fix sample application signature passing
+7b3c2348d314a18f6ed84bab67023ae5d1ec6b1e crypto: ccp - Fix some unfused tests
+65029eec5ceba7d847f27171cdddb046bdc3a069 crypto: qat - Use list_for_each_entry() helper
+6b36dafedd53276a8fb7d7a12ee549560e48b8ee crypto: vmx - Improved AES/XTS performance of 6-way unrolling for ppc
+8f4f68e788c3a7a696546291258bfa5fdb215523 crypto: pcrypt - Fix hungtask for PADATA_RESET
+c977950146720abff14e46d8c53f5638b06a9182 crypto: hisilicon/hpre - Fix a erroneous check after snprintf()
+b58a36008bfa1aadf55f516bcbfae40c779eb54b hwrng: bcm2835 - Fix hwrng throughput regression
+949a0c8dd3c257730ef7205be759e4bc6cf49cea crypto: ccp - Move direct access to some PSP registers out of TEE
+6e17375c47a325f79e1f80028344bd4b0bdd985b crypto: ccp - Add support for extended PSP mailbox commands
+2ac85e22e1473775020ef6850c993bcb43957741 crypto: ccp - Add a communication path abstraction for DBC
+3d5845e18066990ede565ffe2975e6d89786da50 crypto: ccp - Add a macro to check capabilities register
+0470bb1b71ac1f05055b10bdc791953209a7976b crypto: ccp - Add support for DBC over PSP mailbox
+453b3d0278d73e355bedce47147663070004e807 hwrng: octeon - Fix warnings on 32-bit platforms
+464bd8ec2f06707f3773676a1bd2c64832a3c805 hwrng: geode - fix accessing registers
+82d1c16c8f8228f0632602d89551b1123fb4a768 fscrypt: Do not include crypto/algapi.h
+8622bd190ad5245c2966b965158d90a7c53d96c3 ubifs: Do not include crypto/algapi.h
+2defbea39d23badc06c09401429254c24e4729b4 Bluetooth: Do not include crypto/algapi.h
+c66218ccf03bcf1986d5b52c3f6726c8b41e59e5 ah: Do not include crypto/algapi.h
+bd5af65465c1f9659351ec50bcf167d4966e76d0 mptcp: Do not include crypto/algapi.h
+7b5fad7cffc8e660e4361127a965d545cdfc4fc7 SUNRPC: Do not include crypto/algapi.h
+aa7c98b1243773ea4a1a107d3a6b7df51ece180f evm: Do not include crypto/algapi.h
+fb3bc06ad85e5b1f1d8616607beca4649c9d75f4 KEYS: encrypted: Do not include crypto/algapi.h
+dda5b055e4b4d77c53debe559d74a59a9e32d4de chelsio: Do not include crypto/algapi.h
+b6c6044b4ba561e3ca2d8a2a815f3091ee7ff33c hwrng: imx-rngc - reasonable timeout for selftest
+50fb6d5c58e4a2cefbd88f52f7197f589ae1bb7c hwrng: imx-rngc - reasonable timeout for initial seed
+0da05a040d563d4dc5058449be37814bb5177024 crypto: cavium/nitrox - refactor deprecated strncpy
+3102bbcdcd3c945ef0bcea498d3a0c6384536d6c crypto: qat - refactor deprecated strncpy
+17f7b9835a8a2ad5a2d835bc7cce87209468a5c3 crypto: api - Remove unnecessary NULL initialisation
+02968703e846b1b9c7934dc8d6a6dde55dc54001 crypto: aesni - Fix double word in comments
+534562e59f354495c2644de6540d56713dde9e52 crypto: aead - Add crypto_has_aead
+a1383e2ab102c4e0d25304c07c66232c23ee0d9b ipsec: Stop using crypto_has_alg
+b64d143b752932ef483d0ed8d00958f1832dd6bc crypto: hash - Hide CRYPTO_ALG_TYPE_AHASH_MASK
+31865c4c4db2b742fec6ccbff80483fa3e7ab9b9 crypto: skcipher - Add lskcipher
+8aee5d4ebd113319f6882b2cd0475d270fdc0d41 crypto: lskcipher - Add compatibility wrapper around ECB
+3dfe8786b11a4a3f9ced2eb89c6c5d73eba84700 crypto: testmgr - Add support for lskcipher algorithms
+32a8dc4afcfb098ef4e8b465c90db17d22d90107 crypto: ecb - Convert from skcipher to lskcipher
+705b52fef3c73655701d9c8868e744f1fa03e942 crypto: cbc - Convert from skcipher to lskcipher
+aa3f80500382ca864b7cfcff4e5ca2fa6a0e977d crypto: hisilicon/zip - support deflate algorithm
+1a9e6f59caeea35d157f91b452ae75f251d8255b crypto: hisilicon/zip - remove zlib and gzip
+c9ca9756f376f51f985130a0e599d956065d4c44 crypto: qat - fix state machines cleanup paths
+c362a58e8da7828cf1501e1af9d43cd6c9641c5b crypto: qat - do not shadow error code
+9c20cb8b1847dedddec3d5163079290542bf00bf crypto: qat - ignore subsequent state up commands
+9b2f33a1bfcda90b857431a764c9c8f9a412bbe5 crypto: qat - fix unregistration of crypto algorithms
+11af152f784d9eca54e193140891ac52de36e9a9 crypto: qat - fix unregistration of compression algorithms
+71713766380712c8ab2d604605e7b0b20f977801 crypto: qat - consolidate services structure
+37b14f2dfa791fd485dbc536f8d1ffe8c6990290 crypto: qat - enable dc chaining service
+ce2cb2e1b8a27d929a0eaa042049912b0756efe0 crypto: hisilicon/sec - fix for sgl unmmap problem
+1c43c0f1f84aa59dfc98ce66f0a67b2922aa7f9d crypto: x86/sha - load modules based on CPU features
+c6e2b6078a38dd98b04d13bc72ff620cae02e957 dt-bindings: crypto: ice: document the sa8775p inline crypto engine
+29b49013176ba066a41fc417e17f85dfdf3336c0 ipsec: Select CRYPTO_AEAD
+0d2d67b48646b3b7d5f830525e3779a0f9efa424 dt-bindings: rng: introduce new compatible for STM32MP13x
+18d9a8262bd4e481fac99c60a0bc2effd04fdea9 hwrng: stm32 - use devm_platform_get_and_ioremap_resource() API
+6b85a7e141cbcea6dca677827544c39403b4c39a hwrng: stm32 - implement STM32MP13x support
+8f1c5227eccb4e1c47b30bbe4a63b87535d12674 hwrng: stm32 - implement error concealment
+b17bc6eb7c2b089f4425b5b656184385acac77fe hwrng: stm32 - rework error handling in stm32_rng_read()
+28d13f3fdbe52192e3a961ed489b542b111a098e hwrng: stm32 - restrain RNG noise source clock
+a1b03e7ade409125712313c04a97242e18aae88e hwrng: stm32 - support RNG configuration locking mechanism
+ff4e46104f2e105c95ea84bda6350cea471d285d hwrng: stm32 - rework power management sequences
+7b8c6aee0d5b864e70c0da82583f9862e374eaf3 crypto: caam/qi2 - fix Chacha20 + Poly1305 self test failure
+04597c8dd6c4b55e946fec50dc3b14a5d9d54501 crypto: jitter - add RCT/APT support for different OSRs
+59bcfd788552504606e3eb774ae68052379396b6 crypto: jitter - Allow configuration of memory size
+0baa8fab334a4d7017235b72fa8a547433572109 crypto: jitter - Allow configuration of oversampling rate
+a8d3cdcc092fb2f2882acb6c20473a1be0ef4484 crypto: caam/jr - fix Chacha20 + Poly1305 self test failure
+4e4e2ed22d505c5bacf65c6a39bfb6d120d24785 crypto: qat - increase size of buffers
+141f12be09ac693e2384a7999f6782c7750c30a5 crypto: qat - Annotate struct adf_fw_counters with __counted_by
+0eb85cb3c8a78a5df09d8f91a246d5d068160b74 crypto: keembay - Don't pass errors to the caller in .remove()
+5ec12f1c7bac891c3268dd6e441a3755ca2b46e0 crypto: engine - Make crypto_engine_exit() return void
+137e6c52ac4ac2fb11cbd479d006eda410bfe707 dt-bindings: crypto: fsl-imx-sahara: Shorten the title
+dcd7a8961c99aab619f1efdf2c2f94f0e0ecbc34 dt-bindings: crypto: fsl-imx-sahara: Document the clocks
+200a98797b8f6414dc7a852e8bb650ce726b8a15 dt-bindings: crypto: fsl-imx-sahara: Fix the number of irqs
+a1e452026e6d7d16253b29b9d19d3c99a5066726 X.509: Add missing IMPLICIT annotations to AKID ASN.1 module
+62496a2dead7a1e483d6b3660a2145dad1f34225 crypto: x86/aesni - Refactor the common address alignment code
+d148736ff17de5db1fd0e9b03e9e77615162f613 crypto: x86/aesni - Correct the data type in struct aesni_xts_ctx
+e12a68b3c6ac2cecb365b57c639df71e3564d68b crypto: x86/aesni - Perform address alignment early for XTS mode
+5831fc1fd4a578232fea708b82de0c666ed17153 crypto: hisilicon/qm - fix PF queue parameter issue
+ff3ddca9ca153d8a0ba0ed9325b15bdca92df769 crypto: hisilicon/qm - fix the type value of aeq
+b42ab1c61a77832040ad42ebf9adf237360e49f7 crypto: hisilicon/qm - check function qp num before alg register
+a5de196d6d7df5b1ed1c4c87ee57429e2d74dafb hwrng: meson - add support for S4
+3c3507d2b1b0752f916cf0a7f641480eaf2a37b2 dt-bindings: rng: meson: add meson-rng-s4 compatible
+595729b6f5711e0ab311d6ead78a92bce3bb828b crypto: akcipher - fix kernel-doc typos
+18e2ef172cec1680a6736cc7f6e1b92c93b3daa0 crypto: sig - fix kernel-doc typo
+8468516f9f93a41dc65158b6428a1a1039c68f20 crypto: pkcs7 - remove md4 md5 x.509 support
+e9dd20e0e5f62d01d9404db2cf9824d1faebcf71 crypto: qat - Remove zlib-deflate
+62a465c25e99b9a98259a6b7f5bb759f5296d501 crypto: deflate - Remove zlib-deflate
+30febae71c6182e0762dc7744737012b4f8e6a6d crypto: testmgr - Remove zlib-deflate
+4999999ed7e099fcc2476c8b3a245c4c2c9026c0 crypto: qat - add namespace to driver
+845346841b77af84c88f1b709c63c14a58a64dc4 crypto: skcipher - Add dependency on ecb
+9a91792db10126fa291e22680d6cf5683d845a15 crypto: arc4 - Convert from skcipher to lskcipher
+ab6223dc3e1b0a842d663abbed400c43ebee07fc crypto: skcipher - Add crypto_spawn_skcipher_alg_common
+4822ed7e8524cd59c39e5ad27ae944f528164a0f crypto: essiv - Handle lskcipher spawns
+7d6899a5ec66d702923ef1ab1433747e69087ba7 crypto: cryptd - Only access common skcipher fields on spawn
+3c45b5780400185de9e53e9432591c140ca59b4c crypto: adiantum - Only access common skcipher fields on spawn
+cae3304330b52091e132544b307d59cc873649ad crypto: authenc - Only access common skcipher fields on spawn
+24a285cea82961824d9709025dea69dbc84e01a0 crypto: authencesn - Only access common skcipher fields on spawn
+60fa9a39aeddff38704faa82c7c44a29123887e3 crypto: ccm - Only access common skcipher fields on spawn
+c9e4b76ff4a706afc30a7c10c89cc075df487485 crypto: chacha20poly1305 - Only access common skcipher fields on spawn
+36b6fbefc06cbfe7b5f17c32445ecaf082c24449 crypto: ctr - Only access common skcipher fields on spawn
+7202e65b1eeeb54e0ec634c63d102b8cf670ea3b crypto: cts - Only access common skcipher fields on spawn
+712c22aa59672b7f5abdb81d8c585040e9e071f9 crypto: gcm - Only access common skcipher fields on spawn
+c4c6bb6e7905993126b8d00c641fa9037a198a9a crypto: hctr2 - Only access common skcipher fields on spawn
+1ec0a8aba573a6918e65dd99a3e19af1025d1408 crypto: lrw - Only access common skcipher fields on spawn
+bf028cfe8a505b5330be7df628ac19ffad48f932 crypto: xts - Only access common skcipher fields on spawn
+2c98594373c01739c2a2b3f056b8f2f850c26dc7 crypto: skcipher - Remove obsolete skcipher_alg helpers
+63b299a18694b89d6c814e0d86230d09542bed4c dt-bindings: crypto: qcom,prng: document that RNG on SM8450 is a TRNG
+a4d7e9ec21a22c7e9c0270202ab317bad596fd52 dt-bindings: crypto: qcom,prng: document SM8550
+f29cd5bb64c258f29b4c49452532481f50eb43ca crypto: qcom-rng - Add hw_random interface support
+756762decc604a5ac5c041f23dd447c5e691f459 crypto: qat - refactor included headers
+e079231676e05d6c88fba4585db1ac399a790b63 crypto: qat - add pm_status debugfs file
+d807f0240c713bdd7c81a7e212f2feb0b5cd6725 crypto: qat - add cnv_errors debugfs file
+4dc44aec28c8ecc6744d02c8d7d68bf0a8d59891 crypto: aspeed-hace - Use device_get_match_data()
+30bf5bd05ecebb531689b87d5ba4fd02b991403b hwrng: n2 - Use device_get_match_data()
+8405ec8e3c02df8b3720874c3e2169fef4553868 crypto: jitter - reuse allocated entropy collector
+5b90073defd1a52aa8120403d79f6e0fc10c87ee crypto: hisilicon/qm - alloc buffer to set and get xqc
+9da274660289b516ee6b6ec5d42402138f336daf crypto: virtio - handle config changed by work queue
+bb40d32689d73c46de39a0529d551f523f21dc9b crypto: xts - use 'spawn' for underlying single-block cipher
+313a4074d78fc9b90c93c9298e9f90d86a144231 crypto: shash - optimize the default digest and finup
+2e02c25ac93463d52bd7c1010cd647c944f179e1 crypto: shash - fold shash_digest_unaligned() into crypto_shash_digest()
+1efcbf0eff1022f6a44f8c04691caa5f90606bac crypto: arm64/sha2-ce - implement ->digest for sha256
+fdcac2ddc759752cb4886138d89a8c06bf5086a7 crypto: x86/sha256 - implement ->digest for sha256
+01aed663e6c421aeafc9c330bda630976b50a764 crypto: qat - fix double free during reset
+dadf5e56c967a095213f664135784bf770eb96ab crypto: adiantum - add fast path for single-page messages
+5f929b4e6906cc245ddfa9b94cf6666af5062900 crypto: arm/nhpoly1305 - implement ->digest
+ddefde7b2af85b1f689c44a5ffdf1198767c9c2a crypto: arm64/nhpoly1305 - implement ->digest
+796b06f5c9d68ce46ed91573f256de34e00ec8c5 crypto: x86/nhpoly1305 - implement ->digest
+1f9f3a5218b1e8d8dadb81ceb43a30125804203c crypto: arm64/sha1-ce - clean up backwards function names
+ba30d31121fe6fad34b0e7018f848b5d11b359dd crypto: arm64/sha2-ce - clean up backwards function names
+5f720a3df346548db69fe3bc0bef44a16eda4513 crypto: arm64/sha512-ce - clean up backwards function names
+455951b5e172bbb0eb1d54d4fd9c1cfef732e210 crypto: arm64/sha256 - clean up backwards function names
+1be7505933a5eb68f92700d8faba4633733f17d7 crypto: arm64/sha512 - clean up backwards function names
+c35b581e5197cced51047beeab0d3ccbfe948764 crypto: ccp - Dump SEV command buffer registers on SEV command error
+16ab7cb5825fc3425c16ad2c6e53d827f382d7c6 crypto: pkcs7 - remove sha1 support
+c1d760a47163bec1ecd5c82638c8c234fcbd549e crypto: mscode_parser - remove sha224 authenticode support
+fc3225fd6f1e6ac07a8463e7751ecfa228880c71 module: Do not offer sha224 for built-in module signing
+d4f5bfe20da9fa54024a73a9c60aea45e572d786 certs: Limit MODULE_SIG_KEY_TYPE_ECDSA to SHA384 or SHA512
+87d6621c07d230d9168a021f2760062f2262e8b9 crypto: lskcipher - Return EINVAL when ecb_name fails sanity checks
+ca06ef976ea1cdae363dda508cc9c6502fd0dcd7 crypto: hifn_795x - Silence gcc format-truncation false positive warnings
+5acab6eb592387191c1bb745ba9b815e1e076db5 crypto: hisilicon/qm - fix EQ/AEQ interrupt issue
+7ec0a09d4e84396b8c3c799b0add4399f5fdb7a6 crypto: skcipher - fix weak key check for lskciphers
+a2786e8bdd0242d7f00abf452a572de7464d177b crypto: qcom-rng - Add missing dependency on hw_random
+7ddc21e317b360c3444de3023bcc83b85fabae2f padata: Fix refcnt handling in padata_free_shell()
+04a93202ed7c3b451bf22d3ff4bcd379df27f299 certs: Break circular dependency when selftest is modular
+f5fb88e5301ba7b8cb85063d6b6b3bd378907e25 crypto: rsa - Add module alias for pkcs1pad
+a411f6debeb33e2ec8f5825f0c41497317c0504e dt-bindings: crypto: qcom,prng: document SA8775P and SC7280
+08debaa5cb31da50725a8cb2f06d3f617a9caa98 crypto: shash - eliminate indirect call for default import and export
+9924003807a9738b3f5295174b6c623f5a85eb97 crypto: sparc/crc32c - stop using the shash alignmask
+0174275a08e1ed72b3a4ddee462ee3d75c13cc65 crypto: stm32 - remove unnecessary alignmask
+71e8c241b22618484137255f39fcb67efa5ef962 crypto: xilinx/zynqmp-sha - remove unnecessary alignmask
+9cf52f7b083d11a1c404c76baf601e71bfc3fb6b crypto: mips/crc32 - remove redundant setting of alignmask to 0
+d72c46f7985a22ceb39a69a3bfe05606ec891504 crypto: loongarch/crc32 - remove redundant setting of alignmask to 0
+21415bfe8b5543c41b64b19674e5fcc2c942623e crypto: cbcmac - remove unnecessary alignment logic
+f9dc9f2e4072de356614d95940c9d7f448a4e334 crypto: cmac - remove unnecessary alignment logic
+25c74a39e0f637a44982c3820a583755aedc9811 crypto: hmac - remove unnecessary alignment logic
+1fb90689bc7ced529152fec406faddd0bcbf99f1 crypto: vmac - don't set alignmask
+a2b1118052c41ca92cbc2366e77b2f0ff3b054ba crypto: xcbc - remove unnecessary alignment logic
+345bfa3c10ced43281877ce68ae7b3bf360afc76 crypto: shash - remove support for nonzero alignmask
+69dde0a1fa9a45faf2d863cfc0deb1e82ba5c7a9 libceph: stop checking crypto_shash_alignmask
+eed577b9a9220dc9f3968b54d055a3884d219897 crypto: drbg - stop checking crypto_shash_alignmask
+2125c11efd83a5aeb9bf04bcbc83b49e8d7e2afb crypto: testmgr - stop checking crypto_shash_alignmask
+321dfe9777a88cdafe676bb03bab07af26c6cfd8 crypto: adiantum - stop using alignmask of shash_alg
+f6f1514cf72e5d9c2b7c2bc53c43f482b6183d29 crypto: hctr2 - stop using alignmask of shash_alg
+3dca18fcfebf33f2a73876f9314f7621c2e2fb0b crypto: shash - remove crypto_shash_alignmask
+cf27d9475f37fb69b5bc293e6e6d6c1d03cf7cc6 crypto: jitter - use permanent health test storage
+4f5e6c9921112a8eebbaca344d36054418ac6e3a crypto: sun4i-ss - Convert to platform remove callback returning void
+57e5d4de0713fbc10b4b7f821413a2475cadf04a crypto: sun8i-ce - Convert to platform remove callback returning void
+a345d0a956673191f2263565570b1f11ac951f0f crypto: sun8i-ss - Convert to platform remove callback returning void
+49f49d64348985d893eb919f48f77311ba2678fe crypto: amcc/crypto4xx - Convert to platform remove callback returning void
+015e07aa043d50985787f51f230f486851fd2401 crypto: amlogic-gxl-core - Convert to platform remove callback returning void
+8819da7e685008de2c1926c067a388b1ecaeb8aa crypto: aspeed-acry - Convert to platform remove callback returning void
+7866701cd27403a57b046caa4773862574b92f0b crypto: aspeed-hace - Convert to platform remove callback returning void
+5d966381bf7a2cdb4ce5830d06035cf94de9264d crypto: atmel-aes - Convert to platform remove callback returning void
+413f850d022db401a99d85886d42f965e447253f crypto: atmel-sha - Convert to platform remove callback returning void
+5cc3e7bca8854c09429989317457e421de017a5a crypto: atmel-tdes - Convert to platform remove callback returning void
+a63e2236dd46503b8617255b9da88ef2f102e523 crypto: axis/artpec6 - Convert to platform remove callback returning void
+580399bbc43bce232b46251e175e600407b08f5b crypto: bcm/cipher - Convert to platform remove callback returning void
+304a2efe9d55875c6805f3c2957bc39ceebbc5c0 crypto: caam/jr - Convert to platform remove callback returning void
+11575ef99fe1f8d2c7a77f5f3fbe6c54134f613d crypto: ccp/sp - Convert to platform remove callback returning void
+e7edfb41718a40b8a95785f376d41d876cc360a8 crypto: ccree/cc - Convert to platform remove callback returning void
+b0d49b30ef64ac879b491080bf80ef7bcb293ef6 crypto: exynos-rng - Convert to platform remove callback returning void
+aa2f8e9a3f74f6e808da5a91c716679cc797a3ef crypto: gemini/sl3516-ce - Convert to platform remove callback returning void
+31ce0b0676ef22baf8719f4dffd73fb33bae0d10 crypto: hisilicon/sec - Convert to platform remove callback returning void
+151356ceb974b93106159f0368b6ab1f1699031a crypto: hisilicon/trng - Convert to platform remove callback returning void
+5c5d9715c693b6be52a609892e1d3a6415defabe crypto: img-hash - Convert to platform remove callback returning void
+4f7f841f0922863aede9588b767fda080d924f79 crypto: inside-secure/safexcel - Convert to platform remove callback returning void
+2fd7c206317beb185ac6dcb0aa420862da29c370 crypto: intel/ixp4xx-crypto - Convert to platform remove callback returning void
+98272bf6388dff93dde26e782d5485793d9790f5 crypto: intel/keembay-ocs-aes - Convert to platform remove callback returning void
+b6b73a24fbdb1cb6753635b0b36eb61f1a3799ec crypto: intel/keembay-ocs-ecc - Convert to platform remove callback returning void
+b28e9179dc5fd28db2205c35fedf733f705fde33 crypto: intel/keembay-ocs-hcu - Convert to platform remove callback returning void
+e79de44e9d7b4b319990508c3c8a585a7c709bf2 crypto: marvell/cesa - Convert to platform remove callback returning void
+fdfe6c3248748b0ba21e9f4b94d4abc75deedfae crypto: mxs-dcp - Convert to platform remove callback returning void
+a0061b93c6e38024ba002f6a678401b9a66b3876 crypto: n2_core - Convert to platform remove callback returning void
+e0dffa0ea94269d660f521ac74018b8f7ed4be37 crypto: omap-aes - Convert to platform remove callback returning void
+edfb5a04a103d77794f4ee68bb822c9c8207ad80 crypto: omap-des - Convert to platform remove callback returning void
+cf5334f09972941fc1513e73ae852be972577ae7 crypto: omap-sham - Convert to platform remove callback returning void
+a37049f3532b97b597b2f4a228a5b5cc4ab29c9d crypto: qce - Convert to platform remove callback returning void
+37548f1dd35de924bb9a1b1dafdb4d4bffd42ddd crypto: qcom-rng - Convert to platform remove callback returning void
+0a5cb2615e042012c4985fcf909c8aefef0a3444 crypto: rockchip/rk3288 - Convert to platform remove callback returning void
+09f8f67ff1c6e13db1d47e0d027e80d51e231875 crypto: s5p-sss - Convert to platform remove callback returning void
+b1010711c029cb3b21e1f8407b91434158327446 crypto: sa2ul - Convert to platform remove callback returning void
+a48c68aa298ccee2512c8bd2081350d465e95bc3 crypto: sahara - Convert to platform remove callback returning void
+afa39e6e2b8569ec280fd3e91d519537ef747d9a crypto: stm32/crc32 - Convert to platform remove callback returning void
+88b01c8abfc40b473665343ec2b8a353ad9444a4 crypto: stm32/cryp - Convert to platform remove callback returning void
+ce52705e6d1fbb00e43195063ba79c6be7873c95 crypto: talitos - Convert to platform remove callback returning void
+02f393c1dcadfc10d07f916ef314e9947a871609 crypto: xilinx/zynqmp-aes-gcm - Convert to platform remove callback returning void
+bc456c7e24a2f3645117621926178c7ed20040e7 crypto: xilinx/zynqmp-sha - Convert to platform remove callback returning void
+33fc506d2ac514be1072499a263c3bff8c7c95a0 crypto: hisilicon/qm - prevent soft lockup in receive loop
+93b2f7de7db598b0fe429948c739c212f8316330 crypto: qat - add infrastructure for error reporting
+df8c184b77a9c6d52e6c7627bbcb902cdc4d2171 crypto: qat - add reporting of correctable errors for QAT GEN4
+4926e89d19b0631d8f5f5f292c4caf0f0de08f4f crypto: qat - add reporting of errors from ERRSOU1 for QAT GEN4
+895f7d532c843f49e0b6dc8341bb911b26da4731 crypto: qat - add handling of errors from ERRSOU2 for QAT GEN4
+b67bf7babe36c6c15623ec22ed13ec9069a6cf37 crypto: qat - add handling of compression related errors for QAT GEN4
+86df79c3a40a0085555aaa475b4b16c8728ef952 crypto: qat - add adf_get_aram_base() helper function
+22289dc95833c6584aea1f4e8ab9f4f1641bb076 crypto: qat - add handling of errors from ERRSOU3 for QAT GEN4
+532d7f6bc458042571752168bcb5e1fdc576b8c4 crypto: qat - add error counters
+99b1c9826e481c3ebe6e7d905b7a0edf853639fd crypto: qat - count QAT GEN4 errors
+2990d2edac6061c6f0f646a46e40957244be2268 crypto: qat - refactor fw config related functions
+f7df2329eec1729a606bba8ed1566a1b3c248bad crypto: qat - use masks for AE groups
+a238487f7965d102794ed9f8aff0b667cd2ae886 crypto: qat - fix ring to service map for QAT GEN4
+8e6857f76dafba874593107f9e5c20030c5956ed crypto: qat - move admin api
+e8eed5f7366f1f5decb694168bd06fb59ef6b12c units: Add BYTES_PER_*BIT
+02e7f67c47269135f41650ac1b693034e3e8f507 crypto: qat - add bits.h to icp_qat_hw.h
+c7fd53796dbd09c3ef55032925bc7f8f238f9405 crypto: qat - add retrieval of fw capabilities
+d9fb8408376e70a903d06ac86e42e0d0f44a5785 crypto: qat - add rate limiting feature to qat_4xxx
+db74e16258198094701f18ab4da3410c44ffdb2e crypto: qat - add rate limiting sysfs interface
+dbc8876dd873a6ac5e3191b419d2de5ca613165f crypto: qat - add rp2svc sysfs attribute
+71fed09b49c168435fc28d57870007495475d946 crypto: qat - add num_rps sysfs attribute
+03c76e8e7a8d0d465838b8eaffcc07bdcc364f4d crypto: qat - move adf_cfg_services
+203b01001c4d741205b9c329acddc5193ed56fbd crypto: qat - fix deadlock in backlog processing
+45b40f9cf10d9ad33828f00e952e9942adf1e114 MAINTAINERS: update AMD CRYPTOGRAPHIC COPROCESSOR (CCP) DRIVER - SEV SUPPORT
+201c0da4d0298cfcd06a4548f94b90e3817b2e1b treewide: Add SPDX identifier to IETF ASN.1 modules
+acd7799574e57f1e494a5b85741eee78d1e93aca crypto: shash - remove crypto_shash_ctx_aligned()
+977755579d3f7f6ad6b719b0f50c924c89ea8c1e crypto: sun4i-ss - remove unnecessary alignmask for ahashes
+12e06ca3b98326e6320b74c18d344db294f2e5ae crypto: sun8i-ce - remove unnecessary alignmask for ahashes
+028a14470e0f937f037d2193d836148af8dc2d5c crypto: sun8i-ss - remove unnecessary alignmask for ahashes
+a5e12d04e5226cd7afecd020a4f66d7ac73fd90e crypto: atmel - remove unnecessary alignmask for ahashes
+a06f7a8a8397ca05cee3805a5850fbb84e585fb0 crypto: artpec6 - stop setting alignmask for ahashes
+d39caf81248703164dee256611dc801102653830 crypto: mxs-dcp - remove unnecessary alignmask for ahashes
+13d13bba26a0930a4c9527bf2e589d79074b45e5 crypto: s5p-sss - remove unnecessary alignmask for ahashes
+492444c3ed8fee48dda3ade814b5592374897c29 crypto: talitos - remove unnecessary alignmask for ahashes
+f35a4e237f4ecfac0cbf51fc840fe70955431fa9 crypto: omap-sham - stop setting alignmask for ahashes
+2d91a839f5da3836e3b3f27452fe38a84fc403c6 crypto: rockchip - remove unnecessary alignmask for ahashes
+8c87553e2db672254d858991c42964030ad7da45 crypto: starfive - remove unnecessary alignmask for ahashes
+54eea8e29026c6cceeb52151f46e3b994de5513a crypto: stm32 - remove unnecessary alignmask for ahashes
+c626910f3f1bbce6ad18bc613d895d2a089ed95e crypto: ahash - remove support for nonzero alignmask
+58e4bb5f16e7b643f7ee5d30cd355cefb44b2da9 crypto: authenc - stop using alignmask of ahash
+03be4e45074e2a9cb5e06bf527141716262574e6 crypto: authencesn - stop using alignmask of ahash
+93f367a9a41ab539e905b1ea91254868e4cf8faa crypto: testmgr - stop checking crypto_ahash_alignmask
+e77f5dd701381cef35b9ea8b6dea6e62c8a7f9f3 net: ipv4: stop checking crypto_ahash_alignmask
+0a6bfaa0e695facb072f2fedfb55df37c4483b50 net: ipv6: stop checking crypto_ahash_alignmask
+36cfc05715a7ca0c989a355f173cbe6ec469c1f9 crypto: ccm - stop using alignmask of ahash
+381a796a187a3c1ab477e7d1e5ea0c6aea1e9404 crypto: chacha20poly1305 - stop using alignmask of ahash
+33fe2fb763a84152a297e97b144bbda19fde67e4 crypto: gcm - stop using alignmask of ahash
+0f8660c82b79af595b056f6b9f4f227edeb88574 crypto: ahash - remove crypto_ahash_alignmask
+c2435e81a6930fed5aeb0aecc219b467a3045f5d crypto: ahash - remove struct ahash_request_priv
+4d707a47517674434a7adb3a11ca9e1c9d4a1adf crypto: ahash - improve file comment
+9416210fb0b4b63ee7b812856ab6f989cfa7acbe crypto: chelsio - stop using crypto_ahash::init
+9826d1d6ed5f86cb3d61610b3b1fe31e96a40418 crypto: talitos - stop using crypto_ahash::init
+ecf889b70b6c0a174965a902a381f967bfd06914 crypto: hash - move "ahash wrapping shash" functions to ahash.c
+85b84327b3f0df32be19e01257fb375972be115c crypto: ahash - check for shash type instead of not ahash type
+2f1f34c1bf7b309b296bc04321a09e6b5dba0673 crypto: ahash - optimize performance when wrapping shash
+2ee7c1bcf3d1c91ede9d914c52fa2f56c449b75a x509: Add OIDs for FIPS 202 SHA-3 hash and signatures
+4b057654ebc3e071e2a95ea2edfd15b5682cedba crypto: FIPS 202 SHA-3 register in hash info for IMA
+ee62afb9d02dd279a7b73245614f13f8fe777a6d crypto: rsa-pkcs1pad - Add FIPS 202 SHA-3 support
+fdb4f66c9545f29742be5a8d325798e6016c3c4e crypto: asymmetric_keys - allow FIPS 202 SHA-3 signatures
+446b1e0b7b39e2bf2187c58ba2a1cc60fb01de8b module: enable automatic module signing with FIPS 202 SHA-3
+f2b88bab69c86d4dab2bfd25a0e741d7df411f7a Documentation/module-signing.txt: bring up to date
+b030c45844cfe0d4c89202cd6c9f4697b3a25a6a crypto: testmgr - move pkcs1pad(rsa,sha3-*) to correct place
+a312e07a65fb598ed239b940434392721385c722 crypto: adiantum - flush destination page before unmapping
+bc3012f4e3a9765de81f454cb8f9bb16aafc6ff5 Merge tag 'v6.7-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============6976821800291038382==--
+--===============6800907008903522408==--
