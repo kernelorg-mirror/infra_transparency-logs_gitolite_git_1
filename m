@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 03 Nov 2023 09:14:08 -0000
-Message-Id: <169900284865.12512.3655142708080760922@gitolite.kernel.org>
+Date: Fri, 03 Nov 2023 09:15:55 -0000
+Message-Id: <169900295521.14809.10089077080791385014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e8ae8ad479e2d037daa33756e5e72850a7bd37a9
-    new: db456d90a4c1b43b6251fa4348c8adc59b583274
+    old: db456d90a4c1b43b6251fa4348c8adc59b583274
+    new: 63e201916b27260218e528a2f8758be47f99bbf4
     log: |
-         db456d90a4c1b43b6251fa4348c8adc59b583274 net: stmmac: xgmac: Enable support for multiple Flexible PPS outputs
+         63e201916b27260218e528a2f8758be47f99bbf4 selftests: pmtu.sh: fix result checking
          
