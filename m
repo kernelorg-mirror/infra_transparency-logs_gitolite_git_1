@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7515116677662635762=="
+Content-Type: multipart/mixed; boundary="===============8500812755766432903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Nov 2023 08:53:24 -0000
-Message-Id: <169908800404.2551.4026365602500664797@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:54:50 -0000
+Message-Id: <169908809098.3151.1532420701062959151@gitolite.kernel.org>
 
---===============7515116677662635762==
+--===============8500812755766432903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,53 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 1d4dd1e6ac6b57603ccf92dcd3ffae5d6d5dbaf4
-    new: 88503f3201dbe515e58238bff78dd8bee3f731b3
-    log: revlist-1d4dd1e6ac6b-88503f3201db.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 5a2358ecc687bd291b14ae2ff1b326b57927c7ef
+    new: 447e92735758c923913ee53b75c6b92ef756985b
+    log: revlist-5a2358ecc687-447e92735758.txt
 
---===============7515116677662635762==
+--===============8500812755766432903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087999 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699088085 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699087997-75f04d9bb5087a14a5d9c51fcbc0d70f5f340196
+nonce 1699088083-7c0c416591b4cc119657d5431963d2fa5989b88d
 
-1d4dd1e6ac6b57603ccf92dcd3ffae5d6d5dbaf4 88503f3201dbe515e58238bff78dd8bee3f731b3 refs/heads/bus_cleanup
+5a2358ecc687bd291b14ae2ff1b326b57927c7ef 447e92735758c923913ee53b75c6b92ef756985b refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBn8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SncP/RdgpYkKP650dj0Ffz0L
-xRoZnJlocbhLPp8gwcl+OCJNxXWGIllCpHSntAcKV+x2la82dv8It4FVlLqZKgCh
-3qdnYJn66l4DRdMdKlq2MyTz0rBJkkI0MN8arSgW76oD89A+QbeRRhAcTMwv+5lS
-LTdXOj5uFwKCXRF8FlcnfMeof5eeRIpeHdj7ZYR+GB626y2wZw+Cc67mAr98f0pq
-JjB+FofRWuo30StSHr4L85V88gG+tujzJCGPjb8DvvXOpP28+n4+QsWrhoYokbkM
-mvnYfP8zRXVLjbymgp4zOiaMzmfsqav7M1MS+S2AHd6ZxiJbp4xH/iQR4wVAm17a
-87Q/+f0rUgqUzbCzdXguZKF7uULVeyH9WP3eTfRdBJJPZYSCVG9fpLEtMBy7tlXh
-a/sQEP9r1yuMgaxXPFgVNyPzj8kW7h9+srSz5V/xhNSqag79B9FHkR+EQy77Tw3k
-6ykDQXfIKsWIv+pVAFsIICYS6mkLHNE28R9VqRjYvJYnpHOSQR1oF0KEvKye+/i+
-UxEMIzkvcFuNs3Snkyw5pJLJk5xmgAs49ViPErGRTullBH6/qNEBDM+8XUwBdcqS
-RHUOMnOjweAHGzRGVisen04iMV5GYCQuA7VpywxVqG4N4pnUxMfwQAmkisGYCjUk
-Vdzo86HGXcr5WjQp6tmiHAlf
-=1AZ9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBtUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z5cP/jd/vNXslxNBFvHsThzI
+iGsIvbsAq3gIUUkXhpTg8LlckUlBNURv8lVeZdRm0AyGC+nVh/cTavFSYkhbCgOM
+Uo62xujlxThMEygmounxtRqXxkXBQX+K04Dxfk+KHUtVjHmKQNdS7MzeuuVEKadc
+rv4iMZ/KswjWuaE4St3VG/knwv381veBZb95bk+u6VlLXFEMDndc9U5YcfLcIqLj
+sPY6WcusKgAewktGwP4gK4bme64eB4vWPqFPaEJZXqkvBhARJDZrSXUWVOum0S0O
+BCEPSJR6TWlkDHGQ+MaCivcTkrm3WFubIjFMRROTyR6lwoKI5BCMpwjP73grRlM4
+DzCEhCmpSHkqWzFeMmqxFks/vfRV/tcpjUhvyOpzi0gDZ2w/vmiemRiR+7iIu5CL
+BKwyPw4FFZnWDHk1+5TCVnp+P0+d5doUG+VxbOiyPzBIcsI84qSEpV2g6biyX9cg
+3bIRamWqHNKX0pN7XJnlM8qbZ1MxuERSsnPXQHNr2uHggC1zndn84pSKzlysBHk3
+QBl7F8HHaBcZYgyntCE96DlTVjBYt9pu7TJgOo8RSwZ1ZG719HzjAUkWXbLvu/00
+4cYyvFBj9//Nv7DNYtry0QK6R3TYt9+uzajytl/mKH03a4Hjd5Fv5I64BfOHjE5S
+3XasVYXk7PwUhx/AcfmypBRF
+=4nQl
 -----END PGP SIGNATURE-----
 
---===============7515116677662635762==
+--===============8500812755766432903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d4dd1e6ac6b-88503f3201db.txt
+Content-Disposition: attachment; filename=revlist-5a2358ecc687-447e92735758.txt
 
-11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
-246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
-60781d2d5899d6fc5fd173c1bcffaaec39643e17 ASoC: Intel: bytcr_wm5102: add various quirks
-56e449603f0ac580700621a356d35d5716a62ce5 drm/sched: Convert the GPU scheduler to variable number of run-queues
-1519018ccb421349db5426b97f836f79e6e9f4c7 Merge branches 'for-next/sve-remove-pseudo-regs', 'for-next/backtrace-ipi', 'for-next/kselftest', 'for-next/misc' and 'for-next/cpufeat-display-cores', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-2a3f8ce3bb2fca943e6b3225f796ce06c29621fd Merge branch 'for-next/feat_sve_b16b16' into for-next/core
 023113fe66b4866b0d211b705e8bd287728f2e98 Merge branch 'for-next/feat_lrcpc3' into for-next/core
 2baca17e6a54b70e3b6d1b50f98ab71f770e4b95 Merge branch 'for-next/feat_lse128' into for-next/core
 14dcf78a6c042dd9421b11485b394c6273568bca Merge branch 'for-next/cpus_have_const_cap' into for-next/core
@@ -1080,6 +1074,12 @@ d934aef6bb9ec1b42dfe1f5c1f945fa0d2d0752c Merge tag 'dmaengine-6.7-rc1' of git://
 bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-88503f3201dbe515e58238bff78dd8bee3f731b3 FIXME: driver core: platform: make platform_bus_type constant
+1d2252bcec7e145daf14a2ffb1f90a391202e550 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+9bcac98f44b8ff8a9b8f3926d6be2f41bbfd5bdb soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+d153ba3d817b6ba8ec482eaedd57e2f41ec44dc6 soundwire: sysfs: have the driver core handle the creation of the device groups
+12210e1922126505e5ea09f823153d22bb2eeab2 soundwire: sysfs: remove sdw_slave_sysfs_init()
+be9513834e188896af4383a834290fb7b5eab65d soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+bd0388a53cc216e4d4b367b37565e87c3147d25d driver core: remove devm_device_add_groups()
+447e92735758c923913ee53b75c6b92ef756985b sysfs: do not create empty directories if no attributes are present
 
---===============7515116677662635762==--
+--===============8500812755766432903==--
