@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5210103618328726766=="
+Content-Type: multipart/mixed; boundary="===============1302417582967664763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 04 Nov 2023 08:42:56 -0000
-Message-Id: <169908737689.26850.7451838750026574105@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:43:04 -0000
+Message-Id: <169908738497.26976.16189775727631765289@gitolite.kernel.org>
 
---===============5210103618328726766==
+--===============1302417582967664763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,77 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/staging-next
+    old: a4000df5300fdbe10d84e3b70e2d6a98686310a9
     new: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    log: revlist-0bb80ecc33a8-90b0c2b2edd1.txt
+    log: revlist-a4000df5300f-90b0c2b2edd1.txt
 
---===============5210103618328726766==
+--===============1302417582967664763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087377 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087385 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1699087375-ebef9ec2c86f3e1f595486908625a0a8bb468e8a
+nonce 1699087381-f15c14332f7aeb80955bc3346b0659fed5d6bff4
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/staging-linus
+a4000df5300fdbe10d84e3b70e2d6a98686310a9 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBBEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+578P/0aSVRHnUwK/Ivksbny8
-G+53Frhhxk7DnsQtO3shxuf1I4LRfvDmLh/Uv2IW8KM0pO1u5khcmrwsUzksfbFd
-+ykWhag0w7HofVKx0UrHvQj9IEm8QtA5TfM9w7k5UPbsjN5X1/Ak0EKJkafmN/1j
-zDOaV1bKIO4L2AM72rNiDxujrOLv2KVkqvywD6MvMJBibJQxoAmHnftOxcYD04+N
-mr1jaSmXUPtYbsggV8cFGaUPdY0x89SLJPPRcq+Sg7kveEBjG9Bohr3G2g2GH6//
-y0ckh8lDzvXFSKnqyzS8+5OTTMiYsfrDK2SsUSIIY4PgGzpKtYHR2m3+RBly/23L
-O85q8CD9x3ZINd8SLzFtYITm5hER1Ea10aW+bNHweKzDcpgpwlBYkm7svGuy8vs8
-9L98C3Pnan7XLSXl6caY+j/Kn+GJjFXWzK158OC4e/tgt60Wc3ZRLG46rnzWpJL2
-i/tK8pZPsv65kxoCCbdWFO59O4NmoNRNMPTcJVAwkBapObi7oBg1uwX/s2HTijR4
-lTLBa8s5qkYYH3IwPSg59jbdPklokR5qBYb2rDKZBNbBk26jYU1f98ynv/6LLN/I
-xONoMh8DfpkBwq2YkjcC5XQ8OkL3VmFvT5qyRZts1yX/2apm1WZCT9CCE0xoy+yT
-hsveOZgTs5NAqc83h5DfRI4M
-=rGpU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i24P/jEu0UB1V4BzJFDId7EE
+u9HGUP+DyO7YoquSF3/6ctCGg677T2SnLINN+8uHbfIUCXwvcjoE0cqe/9VnHOAc
+9rFiceuLkWNqK1+JHCPm9d1bKjNwYNGed2EYY1rmwFccEcyX8iR3r2721oh48JVR
+FXicSwdIhF3yEircNWrcjaxvnbEntk830W/2pyvob5a3UbFSoqoKIkK1JbZuPw4y
+dFEtfeH5Wd0jTg2bShmO7DcFjZCRO6PxdaTCyKMNNFl3cSmP95RtqDm9MOxky0jW
+Co2vg56H2G8S28NsStWfK1jUBM7ox7dimjaD9nAwzqldAbfmRrQX8pVWx++5mT7f
+si4o0zzuZHSi56ks5szeniOLnKrgCsYGl8zLHhnF7qpVmDaTl75RdAV5aNmJwjA7
+hg5r+jEfXjhpnfFkwZZQBWiBn9E7t85CEoH7mycFBfYCQ7aIjfsacA3O5Rp/eKJ/
+1hB2Wt2UxCUaL+9MnTe8XSmYszomhes8sZViEh3wR9DHQBIcJqiu0yqL/AXUtOZf
+cB4zEtbDKC1Ux9LAQMCcnbO+k/OBg7+Pey1w03UTgwywYCn1rI7QlovBTTjaCUlB
+ql/w3e73nIWyARen8+HTUmm69JzUyYqYcnu4Evk7xmxb3WGAAQqLGF5l+RqT4Jns
+H5BvnkzerZtkNSOtL22/tlH5
+=W87c
 -----END PGP SIGNATURE-----
 
---===============5210103618328726766==
+--===============1302417582967664763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-90b0c2b2edd1.txt
+Content-Disposition: attachment; filename=revlist-a4000df5300f-90b0c2b2edd1.txt
 
+82b6661c9c35e60946dee536545b4848f25eafab iommufd: Add data structure for Intel VT-d stage-1 domain allocation
+04f261ac2356ee8962fbd67e38a35e86cbe3c5d8 iommu/vt-d: Extend dmar_domain to support nested domain
+79ae1eccd3f7fb010064c0f6242da8f8944c21fd iommu/vt-d: Add helper for nested domain allocation
+111bf85c68f6edb2d06c6705faab9d1649348bdb iommu/vt-d: Add helper to setup pasid nested translation
+d86724d4dc45ba2ed80eebb704e12bb71c35d901 iommu/vt-d: Make domain attach helpers to be extern
+9838f2bb6b6be1e648b9377fc97ee7b18d9f2fbf iommu/vt-d: Set the nested domain to a device
+b41e38e225398191aaa0f1115d6234f57ffd0741 iommu/vt-d: Add nested domain allocation
+03476e687eb07b94f7cdb07cd3c7c4304b6c58b3 iommu/vt-d: Disallow read-only mappings to nest parent domain
+d4d56c079ddd19293b11de1f2309add0b8972af2 dt-bindings: power: qcom,rpmpd: document the SM8650 RPMh Power Domains
+7eb31ec5e1cdb4705450e4d728407767cae2b919 dt-bindings: power: qcom,rpmhpd: Add GMXC PD index
+c638b9516abd60aebccdbded5041a3e9d1c519f3 dt-bindings: power: rpmpd: Add SC8380XP support
+11cc498cf875c1242006f5b8028800c11673b8d5 pmdomain: Merge branch genpd_dt into next
+9c82c9005cb0ca14ed8885bab27d81894ba184d9 pmdomain: qcom: rpmhpd: Add SM8650 RPMh Power Domains
+2050c9bc4f7bbdd7d1dc0b6bf7749ec4f7b6f407 pmdomain: qcom: rpmhpd: Add SC8380XP power domains
+4ae1cd7d4be2d1388bcfcd8371eb001a4cec88e2 dt-bindings: PCI: xilinx-xdma: Add schemas for Xilinx XDMA PCIe Root Port Bridge
+8d786149d78c7784144c7179e25134b6530b714b PCI: xilinx-xdma: Add Xilinx XDMA Root Port driver
+736a4aad8a9fdcf577ffa33b33df240c67557af8 Merge tag 'renesas-fixes-for-v6.6-tag3' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+a9838799e2fa9fedd77867942e661b657d5591a0 arm: debug: reuse the config DEBUG_OMAP2UART{1,2} for OMAP{3,4,5}
+56185e0249525e2fff70cf19baf223c3aba5af40 Merge tag 'qcom-arm64-defconfig-for-6.7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
+3ddba96b0d7e714dee4db5aed4f7d413be43b4ba MAINTAINERS: drm/ci: add entries for xfail files
+146a15b873353f8ac28dc281c139ff611a3c4848 arm64: Restrict CPU_BIG_ENDIAN to GNU as or LLVM IAS 15.x or newer
+0ec7731655de196bc1e4af99e495b38778109d22 regmap: Ensure range selector registers are updated after cache sync
+f01b371b0794f43586d4f0b7dd0d9226c25553e5 ALSA: hda: cs35l41: Use reset label to get GPIO for HP Zbook Fury 17 G9
+a7423e9019a9a595919da44104725eef8a518652 ALSA: hda: cs35l41: Assert reset before system suspend
+fff393db71c1d53a13f9eb2f8da77c1f5e4e30bc ALSA: hda: cs35l41: Assert Reset prior to de-asserting in probe and system resume
+881b7bce0c250386680b49b637455d31238a4b30 ALSA: hda: cs35l41: Run boot process during resume callbacks
+2ee06ff5d7cf5f68bab2bf65a946bb2ffe9982dd ALSA: hda: cs35l41: Force a software reset after hardware reset
+33790d1f039114a829433b89fc55a0d781d38d62 ALSA: hda: cs35l41: Do not unload firmware before reset in system suspend
+a51d8ba03a4fc92940d5e349f0325f36e85a89cb ALSA: hda: cs35l41: Check CSPL state after loading firmware
+76c121821a3128eb9d0183a525cf334beb9ccc47 ASoC: cs35l41: Detect CSPL errors when sending CSPL commands
 926f192f005fe957ea1bfe4635af10219ba363a2 ASoC: codecs: Add aw88399 amplifier driver
 11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
 246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
@@ -376,30 +406,6 @@ c3a383d8d382e066038ab245c8d2b6d02f4bf8a2 usb: raw-gadget: report suspend, resume
 aef0f5a1841e76fe13621edc7123076b38d458b0 serdev: Make use of device_set_node()
 ddab72ea7e5be7d1ae0433fa3d399e05837008d1 serdev: Simplify devm_serdev_device_open() function
 64ebf8797249e792af2143eb9e4bd404d10a022e serdev: Replace custom code with device_match_acpi_handle()
-4c0be6c26dcd263ede434fc83ae86e3d55cb7379 staging: rtl8192e: Remove HTIOTActIsDisableMCS14()
-7db86bafb531e626401f291bde5fbb276094cd30 staging: rtl8192e: Remove HTIOTActIsDisableMCS15()
-da8e981c735e56b1f5e81d177d484136fbb58708 staging: rtl8192e: Remove HTIOTActIsDisableMCSTwoSpatialStream()
-ac32633f231fd43691f9cc0970c8223ac916a1a9 staging: rtl8192e: Remove HTIOTActIsDisableEDCATurbo()
-510c8f18c1fa989f727186e8eb7b0746ede8c525 staging: rtl8192e: Remove loops with constant MAX_RX_QUEUE
-8e842c479ac8c8be54f79b1b01ac12d79139d438 staging: rtl8192e: Convert array rx_ring[] to variable rx_ring
-81c412cb8ca76fefced52f2188579e8226f45f00 staging: rtl8192e: Convert array rx_buf[][] to array rx_buf[]
-336023659882924cb5921438f1f52d5a741d4a24 staging: rtl8192e: Convert array rx_ring_dma[] to variable rx_ring_dma
-6d03b437c66a3bf073fdab103461931e91ada770 staging: rtl8192e: Convert array rx_idx[] to variable rx_idx
-60b46910c8c647c621cbf5fdc91f475e04f8c9f3 staging: rtl8192e: Remove unused constants starting with MAX_RX_QUEUE
-75c1e5968f5c549c148c253ab331130aa3a74f33 staging: rtl8192e: Fix line break issue at priv->rx_buf[priv->rx_idx]
-3d69b023a9f520366425b2403119bb1689969129 staging: vc04_services: use snprintf instead of sprintf
-0210a684cdb277714380553f8d8d8964b2f744fc staging: olpc_dcon: Remove I2C_CLASS_DDC support
-b83b7368258aeb5104c2ff7331326bfeefea9370 staging: fbtft: Convert to platform remove callback returning void
-6c149083e7b955f6340e6a5f2514d937b5968bbe staging: vt6655: Type encoding info dropped from array name "cwRXBCNTSFOff"
-8b46d9ff8af01a2c4df9bc8227dcd09628f64aa2 staging: vt6655: Type encoding info dropped from function name "s_vCalculateOFDMRParameter"
-eb88265fa551f04cb200357995aacc91537e3a6b staging: vt6655: Type encoding info dropped from variable name "pbyTxRate"
-cb1fe713eca14c92ac950d0ec1d1ea4353fcc8c5 staging: vt6655: Type encoding info dropped from variable name "pbyRsvTime"
-4922f5d1e54cecbd6d0acf57983ea62c3eb94c6c staging: vt6655: Type encoding info dropped from function name "CARDbSetPhyParameter"
-956ab42b8e4f2e0ead19a7dd68e14a83e71e6d19 staging: vt6655: Type encoding info dropped from variable name "byPacketType"
-1904b721541c7b03039eb9b21999a8b9de40b76f staging: vt6655: Type encoding info dropped from function name "CARDbyGetPktType"
-c97dbf1dcd7533282e1e5bacc0f88b494e671d44 staging: vt6655: Type encoding info dropped from function name "CARDvSetRSPINF"
-3b9325d8aa05222070f25ce73e7494a97f8c86f2 staging: vt6655: Type encoding info dropped from function name "CARDbUpdateTSF"
-41196b0bbe8a1ce663b85aca2141800214c186f1 staging: vt6655: Type encoding info dropped from variable name "byRxRate"
 79614953e815b8c3b063fe68efa3cf508260ac0d firmware: xilinx: Move EXPORT_SYMBOL_GPL next to zynqmp_pm_feature definition
 8293703a492ae97c86af27c75b76e6239ec86483 misc: pci_endpoint_test: Add deviceID for J721S2 PCIe EP device support
 61e54dea807d202d5bfd563d926b163b43b7fecd MAINTAINERS: coresight: Add missing Coresight files
@@ -667,12 +673,6 @@ ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
 e56a5e3dfd149573e6134b7eb373d56bc81bd0de dt-bindings: hwmon: npcm: Add npcm845 compatible string
 ceaa22402e44e09ab34840a3a83888f93785c772 hwmon: (aquacomputer_d5next) Add support for Aquacomputer High Flow USB and MPS Flow
 0f564130e5c76f1e5cf0008924f6a6cd138929d9 hwmon: (aquacomputer_d5next) Check if temp sensors of legacy devices are connected
-c312b8b3c1279d3b3d9f71f027d945898173fded Revert "staging: octeon: remove typedef in structs cvmx_pip_port_status_t and cvmx_pko_port_status_t"
-06bab96a6e5b730dd68f6dfcc3c5152e439876ad Revert "staging: octeon: remove typedef in enum cvmx_pko_status_t"
-4de20132b029c0fd894faf1fcb7c523243dc1cc1 Revert "staging: octeon: remove typedef in struct cvmx_pko_lock_t"
-d8fecfe8f41edf6762256f9a888e9f906181a641 Revert "staging: octeon: remove typedef in enum cvmx_pow_wait_t"
-3db9eb6dee8aacf27903bc84c3a68d05d1d49519 Revert "staging: octeon: remove typedef in enum cvmx_helper_interface_mode_t"
-a4000df5300fdbe10d84e3b70e2d6a98686310a9 Revert "staging: octeon: remove typedef in enum cvmx_spi_mode_t"
 6bbebcc11a69aef269eb2a33212f76992a4cfb1a regmap: Merge up fix for window/paging issue
 3e0569ff812675e896cbdcbbaec10c99b544b947 regulator: Merge up pending fix
 1b2e883e1af895b62808b044ac96b77e7c9017b1 spi: Merge up fix
@@ -1082,4 +1082,4 @@ bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.ke
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============5210103618328726766==--
+--===============1302417582967664763==--
