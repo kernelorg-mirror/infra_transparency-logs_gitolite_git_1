@@ -1,75 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2821753002589564341=="
+Content-Type: multipart/mixed; boundary="===============4214595384226599876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 04 Nov 2023 21:15:53 -0000
-Message-Id: <169913255363.27756.10333370257968214672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 04 Nov 2023 21:55:59 -0000
+Message-Id: <169913495976.22968.7799866395963323343@gitolite.kernel.org>
 
---===============2821753002589564341==
+--===============4214595384226599876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: f4e42a515cd78c8c9cac2be14222834be5f8df2b
-    new: 78eef455c9538cbc145d7c658367f7662aeba39a
-    log: revlist-f4e42a515cd7-78eef455c953.txt
+  - ref: refs/heads/next
+    old: 8da4dce4a6be59282f1685fd2152749b1cdea26a
+    new: 9a426c7f34bfc1f65ddefe8afe26ef61d16d6f7f
+    log: revlist-8da4dce4a6be-9a426c7f34bf.txt
 
---===============2821753002589564341==
+--===============4214595384226599876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4e42a515cd7-78eef455c953.txt
+Content-Disposition: attachment; filename=revlist-8da4dce4a6be-9a426c7f34bf.txt
 
-577e52314c8fadef4a88d221c6ed1ce0638239e2 test/read-mshot: add multishot read test case
-56f1f844080ff06dbb0ed455bcdddc880e6ac355 Add io_uring_prep_read_multishot() helper
-1f36331391d22f6f91b8bfecfa417d1eeb6880dd test/read-mshot: return T_EXIT_SKIPPED if read mshot isn't supported
-67732afed210f73b0965532040893f7004d2d463 test/read-mshot: add test case for an invalid file type
-dff5c2e545304e95e945eda5067a6822f0c76974 Add io_uring_prep_read_multishot man page
-2d117e3dfb86bb225d84cadc75deacc6cd79a1c3 test/read-mshot: add test cases for overflow handling
-18ee9627c6822e21a63c4a7c6babea720634e943 Add waitid test case
-aded3de52d93b87c4d985a0c7b5d46db1637605d test/waitid: add explicit cancel test
-f875a05bf74584655befa808d6e97844a0780125 test/waitid: drop rusage
-e7e9bd39cb2b7a74cde448b119ee4da59ce4ab59 test/waitid: shorten wait times
-0c83643fac63cc62a0bcf5eaaf131ab95582febe liburing.h: add `io_uring_prep_waitid`
-49f4f3848a3fcd37b5f2b2f727bcfe0eeac69da6 man: add man page for `IORING_OP_WAITID`
-061ee2fdfee4e8497c47bd25d6092f351835d403 test/waitid: skip if argument is given
-194fb20e4d1d367fc2eeea22d436f6c17d31bdd5 test/waitid: change the sleep helper to take usecs
-ea4e46022a409587b8f5f671aab3cbd823c5bd10 test/waitid: add test case for racy wakeup and cancelations
-ceb4ff6f3d670cea6b665b0347d6a10544ccb73f waitid: add io_uring flags parameter
-af3c74ea5c728938a445a7b4b259359ddbda11d8 Add futex helpers
-6d4a0439f345b5154c8714f895ee3945193b49e3 Add basic futex test case
-0cdb8153b2a62cbc51fa750839bfc81de1f564b9 test/futex: skip if argument is given
-c4843ac1377604e251c69a850e55451402aef962 test/futex: exercise io-wq driven cancel and wait as well
-726696e194f98bac7c3c3e42b388eab4d059b8fd test/futex: test ordering and wakeups
-0792f175b15c5db531adb88588a5178824dbb769 test/futex: break early if there's no futex support
-06c08422bbe96f07b9f802a217940cf8c479781f liburing.h: update futex prep helpers for new sqe layout
-90adc1ca915e5f6ca369556a9006c8df69b15755 Add 'flags' to futex prep helpers
-0bfb7b2d3b2560404cda642832267d630a85e665 Update for new prep_futex_waitv() prototype
-6f5f9c374938dffece1f0291cd111064e3ea8e94 test/futex: test additions and flag changes
-a960b2d63e5282dddf72d4978fd82195c6a5f57f Update sqe layout and prep helpers
-e58e411434b279a234bc13d46b3f7f5f97add3d8 Add futex related man pages
-bfb09c4e85271a4f3f9ddfcc3a687075daee6a17 futex man: add note on using linked timeouts
-1fe4d6ae3246d06e8136c359388b1373c4e8ac37 Merge branch 'read-mshot' into next
-49dd17267a398f806502ce602aea0d97276a1599 Merge branch 'waitid' into next
-d3dcd87d3c9975a87249ddace250cc7b31353842 Merge branch 'futex' into next
-74c1191cbfa2b552b3ceaa63386d871c2d5d2136 setup: add IORING_SETUP_NO_SQARRAY support
-3401b06c5e8291a2ad946bb181ab347f18a4c8c3 setup: default to IORING_SETUP_NO_SQARRAY
-b9cbcd50327bb13ace1e35e002528ba820b1f33a Add setup.h include
-2ea144f9c82e73d9148c4f1549e39b19bd4d7c16 io_uring: uapi: Sync the {g,s}etsockopt fields
-3797db16928a00fe2caa5719d6bde357493ab653 liburing.h: Populate SQE for {s,g} etsockopt
-122e329e57f6789901d77befdf367e1f18d2d611 tests/socket-getsetsock-cmd: New test for {g,s}etsockopt
-d5a92483ec5c20660bd9d7831b557e6de3de9cf3 man/io_uring_prep_cmd: Fix argument name
-277005e2b75dcffd2f9100c62ebd0deb3627f735 man/io_uring_prep_cmd: Add the new sockopt commands
-21deac55f7c30d2ccda3bc7e69f7a2e9f6e5ed28 test/socket-getsetsock-cmd: make send_data() static
-4cb70b7ebd7056790cc6a48c768209641ca02a50 io_uring_prep_cmd_sock: cast pointer to untptr_t first
-23b43f44f882e48a725ad87f8f22722c40743dec test/socket-getsetsock-cmd: return T_EXIT_SKIP if argument passed
-c63a65e4dbaac96fa7148859990b8d8773e2c741 Merge branch 'next'
-78eef455c9538cbc145d7c658367f7662aeba39a liburing.spec: move to minor 6
+0bae6bd4ad71501dd602399675c1a53688ac15f5 damo_show: Remove unused module import
+68c752b9ef173086a1734534e2fedb37ea2a1c7c TODO: Update
+f1776bcd099ed0a22ed7ae58c57a8d6ed238d405 _damon/update_read_kdamonds(): Let user specify what to update
+e7801514dfeb0f81ed5181d1e39d846c5a671954 damo_status: Don't update DAMOS regions if not needed
+1d45866bf7dbfc393ccb08e93aa05989b1bf4ae3 damo_status: Remove unused functions
+0719403dfa68e9efb55a26276bc5273ead1754dd damo_status: Support kdamonds summary status print
+943c7467a5834ee5ba335614054aa7d480a82e1c damo_status: Rename update_pr_kdamonds_summary() to pr_kdamonds_summary()
+3d9090b0109fce1cc153cc0227c978cb8ecf69d4 damo_status/pr_kdamonds_summary: Print index if multiple kdamonds exist
+54a4fd60ec79436e257a26b79f216853c87fb3d3 damo_status/update_pr_schemes_stats(): Update format
+4916f6433313bb7fb45f658611dcfbb36fb8ee29 damo_status: Add an option for damos statistics printing
+95ef2a3549f06b5e0d53dcbb2cd27174987fcfd9 damo_status/update_pr_schemes_stats(): Update format
+fd955f805b4b6b557ad6ccbd9d0ecee7e9c6bb86 damo_status/update_pr_schemes_stats: Update json format
+ed70ce0b960c70bf3a28b9679b57801ec753efb0 damo_status/update_pr_schemes_stats(): Update format to be more machine-friendly
+72025b325b96e667b59f0a7dfbc191d7c1520351 damo_status/update_pr_schemes_stats(): Remove unnecessary loop
+1aec1a8f75e4e10e7fdafb8d6df05f111eae6f38 damo_status: Support filtering stat by names
+11a2b2d3725f3514295622fa25a99acfc5fdad42 damo_status/update_pr_schemes_stats(): Print value only if single
+cfb99856c0be214071faf5b325639cb86a39123b tests/schemes/test: Use --damos_stats instead of --damos_stat
+a905107f6eac6af33badf5f53161b68570621d6e damo_status: Remove --damos_stat and --damos_stat_field options
+9a426c7f34bfc1f65ddefe8afe26ef61d16d6f7f release_note: Update
 
---===============2821753002589564341==--
+--===============4214595384226599876==--
