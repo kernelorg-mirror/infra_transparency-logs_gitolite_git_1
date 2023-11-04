@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Fri, 03 Nov 2023 23:45:25 -0000
-Message-Id: <169905512590.2509.8881359693153226135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 04 Nov 2023 00:27:12 -0000
+Message-Id: <169905763282.30719.6138002076317924033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/i3c/next
-    old: b53e9758a31c683fc8615df930262192ed5f034b
-    new: 9fd00df05e81a2e1080ce6e9abc35533dca99d74
+  - ref: refs/heads/master
+    old: ad39d13cf64774a4d16eeb2875db450a4ec4ae98
+    new: 6eb0b500f643a90e309a077398d6d1a64dae9998
     log: |
-         9fd00df05e81a2e1080ce6e9abc35533dca99d74 i3c: master: handle IBIs in order they came
+         6eb0b500f643a90e309a077398d6d1a64dae9998 ideas/acma: Fix typos and grammar errors
          
