@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1302417582967664763=="
+Content-Type: multipart/mixed; boundary="===============8923579560536780788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 04 Nov 2023 08:43:04 -0000
-Message-Id: <169908738497.26976.16189775727631765289@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:43:12 -0000
+Message-Id: <169908739285.27077.13611829726647853563@gitolite.kernel.org>
 
---===============1302417582967664763==
+--===============8923579560536780788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: a4000df5300fdbe10d84e3b70e2d6a98686310a9
     new: 90b0c2b2edd1adff742c621e246562fbefa11b70
     log: revlist-a4000df5300f-90b0c2b2edd1.txt
 
---===============1302417582967664763==
+--===============8923579560536780788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087385 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087393 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1699087381-f15c14332f7aeb80955bc3346b0659fed5d6bff4
+nonce 1699087389-32c0adb0706048eadd26185cf02241c845b1ad19
 
-a4000df5300fdbe10d84e3b70e2d6a98686310a9 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/staging-next
+a4000df5300fdbe10d84e3b70e2d6a98686310a9 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBBkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i24P/jEu0UB1V4BzJFDId7EE
-u9HGUP+DyO7YoquSF3/6ctCGg677T2SnLINN+8uHbfIUCXwvcjoE0cqe/9VnHOAc
-9rFiceuLkWNqK1+JHCPm9d1bKjNwYNGed2EYY1rmwFccEcyX8iR3r2721oh48JVR
-FXicSwdIhF3yEircNWrcjaxvnbEntk830W/2pyvob5a3UbFSoqoKIkK1JbZuPw4y
-dFEtfeH5Wd0jTg2bShmO7DcFjZCRO6PxdaTCyKMNNFl3cSmP95RtqDm9MOxky0jW
-Co2vg56H2G8S28NsStWfK1jUBM7ox7dimjaD9nAwzqldAbfmRrQX8pVWx++5mT7f
-si4o0zzuZHSi56ks5szeniOLnKrgCsYGl8zLHhnF7qpVmDaTl75RdAV5aNmJwjA7
-hg5r+jEfXjhpnfFkwZZQBWiBn9E7t85CEoH7mycFBfYCQ7aIjfsacA3O5Rp/eKJ/
-1hB2Wt2UxCUaL+9MnTe8XSmYszomhes8sZViEh3wR9DHQBIcJqiu0yqL/AXUtOZf
-cB4zEtbDKC1Ux9LAQMCcnbO+k/OBg7+Pey1w03UTgwywYCn1rI7QlovBTTjaCUlB
-ql/w3e73nIWyARen8+HTUmm69JzUyYqYcnu4Evk7xmxb3WGAAQqLGF5l+RqT4Jns
-H5BvnkzerZtkNSOtL22/tlH5
-=W87c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBCEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J8sP/RJhPOBqHpfHPa3ygrVt
+TpL9xj/Ho+zk6YF2U7BvyKpeQQSbtRjaQhO+A/5HKzl/Oo/k4FrFswPcd44UROsu
+kq8jBmQ2bD2i9WWeHRdhvRJNohWfeJAU1i1tk6n/A53HId0xw9U2fLeh/aw+/0kR
+vyGbYXxSfOJDIKKSwhzGuFtPMju3YEycEMcg1FfDMDVYHtJ52WwFozRo1DQ80GuN
+LyDZqHBlsYOVN6BPJ37NwVNvHtyE2YGse5XnaMg4aYQ30XqYKOOGk26sN1WiZkeX
+E5MZ2AmnybNeGJKjMrLNF90HFNw894fEe68x4INu6vUBvn+QdYz+vvMpx5q3V+vZ
+1DNkFsfTW81mhsLxhucL6DkwcIs3+ATZpYTFBJjhzx3q/lDHM1fBG+JRXDi+aWyc
+Qa52/uzhCO5ED6AADDoc7W3ZAt2OMDUkCOPSl8+IhkbNS20vzQGgIRdm4Os77+t9
+pNnw8x0O31VGbryBqaLQtmlqC6xE1HUEO/mZVDDZWvEO5kfM1cQAzuZBPc6EPMP6
+GSplb+I+/0oHnZMZi9wBb/WLLXiumsoXkFChDnmonWGiv4gGoUnV5CWDfW6PXrBm
+Ez8UEt7FP3RSjN8k4aX5CCThoRlcpubtROhWuppgtgMPMN5JZfj/CLePWAfngd2E
+57fMQLqdIdzbl9NZuQ25AXil
+=zURi
 -----END PGP SIGNATURE-----
 
---===============1302417582967664763==
+--===============8923579560536780788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.ke
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============1302417582967664763==--
+--===============8923579560536780788==--
