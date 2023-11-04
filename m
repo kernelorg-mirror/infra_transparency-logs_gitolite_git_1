@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6440976108197214209=="
+Content-Type: multipart/mixed; boundary="===============7908598215152684268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 04 Nov 2023 08:39:18 -0000
-Message-Id: <169908715846.23494.15898256554797018733@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:39:26 -0000
+Message-Id: <169908716648.23594.17095894280074782351@gitolite.kernel.org>
 
---===============6440976108197214209==
+--===============7908598215152684268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,59 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1
+  - ref: refs/heads/usb-next
+    old: c70793fb7632a153862ee9060e6d48131469a29c
     new: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    log: revlist-05d3ef8bba77-90b0c2b2edd1.txt
+    log: revlist-c70793fb7632-90b0c2b2edd1.txt
 
---===============6440976108197214209==
+--===============7908598215152684268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087158 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087166 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1699087156-a53ba974e41ce67e8120f42baef9e82a5b27f5f2
+nonce 1699087162-90557d32edda9724e918549a44117c8d8cc7b78e
 
-05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/usb-linus
+c70793fb7632a153862ee9060e6d48131469a29c 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGAzYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lVwP/3oBgT0DWQBCoWzFKJ6S
-D4Haod0z0XRnc5gvo5qd/TY4DR491IFs5FpkfRJ3viMqh1c8gYGAlGz0fKY8sa0s
-xHXaqwGvjhe62rphwimRAcLVnsX5Jvb8kN7uCyQ2bshnWFgSt2hskgQKpVC6pyZ9
-o2PPzAR+GJQCE7fJUtcK7CGyN/lpyki0c9v6JdG4jBWjumo2am9ffxgRIvirgq0s
-xMvUqLSB4o+/Fptr6o2OLMET4qC8Hg9MsFGsOPtWoESEFd+Yi++jl0s2goSE6nIj
-rTddI7fOjMhSyKFkRdT02ueMnsxqtuvR8oFytw3xzagBUSciTwJSEC1K+is8a1O4
-gQqR1yB46eRg7n6A5hvuvdAIVrmSHNOh+VuzYr6Q3BvZf4LM/CgkLT0EkZOEj/vd
-DBWvT/SNupdzuCIrw+z6zv/gVlpzLBAz+M2n5crb05StnIkvZ4RTpHUaoBCJal0S
-ynVL2XBn92o1sBc4XtPR6n9z6kCiuCKTFtdXVNN/98mhwrWfaLWpq5JyattEERwE
-C+5BzbwpvQr9nj9hSnczVF6CBCTfWpTS/jSm2+41mbvarnAU/r8K23lQ62WVGWIt
-7A7Qc3zeop+eVvn9zTCqdENgM2DO8s8AuoKRSnwoUwubIYom8WMrxy7XhTMTpQA+
-YyRecJyu59raBy66wQybHDIH
-=BVQ8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGAz4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dqUP/05Hqrrq2wMLbj+ZlLe+
+39k2fdbNYrvwf8rH7ZIkGV9QzFedOWC2kUO1Eu2iAxM0QwFFAZtw12ikvwcDLOt5
+5Cf+HGcQjzIi7GrcHvJDW12ti4SC2t6B4ZtOM/0x1Y7VULyDSw3yNIic05LWw8bW
+Dbo3Pig4MsjHjzAcz1d0zlLGpEyUH1bX7IAQa9DalSK6tN5gGvB6qG52SbgKvz7J
+kEZE2wdMZFTKKpGfhAWruXiLm2Mi1w0ttGtoujUwc3rbVpMEb1sjz9HmehQC0cBa
+rpfTNyH4Q5PTJXNILxmotKvr9Y8JB3RlwWEtD2QqzMBu+E6gTcCjuoDBWOAjEMgf
+Z1deAzrZoambkRpjrIy0QVs9JgXqw3pr4QM29G9LD4tqEMyYfCuPgknH8IxHwdn3
+dsEE65Mz5GXNLvVgpSvcgbnagST6i6mhojFhSmF19or1RBAZXSF484e1APL8KtjJ
+4MvDVU9KLrpHcmjvvTcoaCOiWHLxWbL/gjRMGuyKgpxYzIZvef/JtIU92VGkq2xB
+Yej7pRHqo0tDkqe4iqOX9BaYDT2pbbOMvEP9X0RszZWIPkC7G58XUDSIZx+HPU/w
+vpDXmyXFLEB2X2sE2mX6RY5tZbjvxK2FDWpAvgcAKnQLdu9Efuk6h9n83HXL3tXG
+Caxk2Fc/JyVgTD36u+xDSnU7
+=RgSX
 -----END PGP SIGNATURE-----
 
---===============6440976108197214209==
+--===============7908598215152684268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05d3ef8bba77-90b0c2b2edd1.txt
+Content-Disposition: attachment; filename=revlist-c70793fb7632-90b0c2b2edd1.txt
 
+56185e0249525e2fff70cf19baf223c3aba5af40 Merge tag 'qcom-arm64-defconfig-for-6.7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
+3ddba96b0d7e714dee4db5aed4f7d413be43b4ba MAINTAINERS: drm/ci: add entries for xfail files
+146a15b873353f8ac28dc281c139ff611a3c4848 arm64: Restrict CPU_BIG_ENDIAN to GNU as or LLVM IAS 15.x or newer
+0ec7731655de196bc1e4af99e495b38778109d22 regmap: Ensure range selector registers are updated after cache sync
+f01b371b0794f43586d4f0b7dd0d9226c25553e5 ALSA: hda: cs35l41: Use reset label to get GPIO for HP Zbook Fury 17 G9
+a7423e9019a9a595919da44104725eef8a518652 ALSA: hda: cs35l41: Assert reset before system suspend
+fff393db71c1d53a13f9eb2f8da77c1f5e4e30bc ALSA: hda: cs35l41: Assert Reset prior to de-asserting in probe and system resume
+881b7bce0c250386680b49b637455d31238a4b30 ALSA: hda: cs35l41: Run boot process during resume callbacks
+2ee06ff5d7cf5f68bab2bf65a946bb2ffe9982dd ALSA: hda: cs35l41: Force a software reset after hardware reset
+33790d1f039114a829433b89fc55a0d781d38d62 ALSA: hda: cs35l41: Do not unload firmware before reset in system suspend
+a51d8ba03a4fc92940d5e349f0325f36e85a89cb ALSA: hda: cs35l41: Check CSPL state after loading firmware
+76c121821a3128eb9d0183a525cf334beb9ccc47 ASoC: cs35l41: Detect CSPL errors when sending CSPL commands
 926f192f005fe957ea1bfe4635af10219ba363a2 ASoC: codecs: Add aw88399 amplifier driver
 11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
 246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
@@ -215,7 +227,6 @@ faadfaba5e018ca0f9595f17115ff48416b7b85e net/tcp: Add TCP_AO_REPAIR
 7fe0e38bb669aff739c95846b59b63925570d7ef Documentation/tcp: Add TCP-AO documentation
 eff8313be8b0e9e5d9bd03b7bfc3b915339deab0 Merge branch 'tcp-ao'
 5ab1a0474ce4ec5359f4514468371bcd9ccdcacd Merge tag 'extcon-next-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
-9b6db9a3a675fc2f33b587a9909dcef20c4b3794 Merge tag 'thunderbolt-for-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 b9109b5b77f0cb437fe9fd5575e29e944c0b2580 bridge: mcast: Dump MDB entries even when snooping is disabled
 1b6d993509c13d180b2a9fbfe0ebc48e344348df bridge: mcast: Account for missing attributes
 62ef9cba98a2e401b1e8b5dedcc56b735031e744 bridge: mcast: Factor out a helper for PG entry size calculation
@@ -364,15 +375,6 @@ fdb4f66c9545f29742be5a8d325798e6016c3c4e crypto: asymmetric_keys - allow FIPS 20
 f2b88bab69c86d4dab2bfd25a0e741d7df411f7a Documentation/module-signing.txt: bring up to date
 6808918343a8b4b6970ba52ba2d1d511a0976748 net: bridge: fill in MODULE_DESCRIPTION()
 a5901f27dcf13203e5b342b7e9439314a775bf32 ALSA: scarlett2: Add missing check with firmware version control
-4987daf86c152ff882d51572d154ad12e4ff3a4b usb: typec: tcpm: Fix NULL pointer dereference in tcpm_pd_svdm()
-fad89aa14c35f469ea7d3bf49ee1d5840eea0375 dt-bindings: usb: fsa4480: Add data-lanes property to endpoint
-cf07c55f992228465da7eb0e300351206de6171f usb: typec: fsa4480: Add support to swap SBU orientation
-c3097719e438ab6d07b8b20b5575f985ab07b5a5 dt-bindings: usb: fsa4480: Add compatible for OCP96011
-3d56e5aa6727f5055d1ad879342ad1a8acec2134 usb: gadget: aspeed_udc: Convert to platform remove callback returning void
-2998874736bca1031ca84b0a3235a2cd09dfa426 usb:cdnsp: remove TRB_FLUSH_ENDPOINT command
-e8033bde451eddfb9b1bbd6e2d848c1b5c277222 usb: raw-gadget: properly handle interrupted requests
-1f97e3f429cff941b5f7adc9fcbb1b5138cd6125 usb: raw-gadget: don't disable device if usb_ep_queue fails
-c3a383d8d382e066038ab245c8d2b6d02f4bf8a2 usb: raw-gadget: report suspend, resume, reset, and disconnect events
 aef0f5a1841e76fe13621edc7123076b38d458b0 serdev: Make use of device_set_node()
 ddab72ea7e5be7d1ae0433fa3d399e05837008d1 serdev: Simplify devm_serdev_device_open() function
 64ebf8797249e792af2143eb9e4bd404d10a022e serdev: Replace custom code with device_match_acpi_handle()
@@ -565,8 +567,6 @@ f9418b524d14f20c57444f5609f5603b45fffa09 perf vendor events intel: Update knight
 b6292081615bda443842d34108adcdfe20822695 perf vendor events intel: Update westmereex events to v4
 c44c31185923637e672c10e60142e1e1106d1600 perf vendor events intel: Update bonnell version number to v5
 c43c64f8a1c68da370bf8d458ba52e24183a5264 perf vendor events intel: Update tsx_cycles_per_elision metrics
-0e3139e6543b241b3e65956a55c712333bef48ac usb: storage: set 1.50 as the lower bcdDevice for older "Super Top" compatibility
-c70793fb7632a153862ee9060e6d48131469a29c usb: gadget: uvc: Add missing initialization of ssp config descriptor
 1fff1f799038a99cd1f2ae3999661ad9d506bb8c net: fill in MODULE_DESCRIPTION()s in kuba@'s modules
 beb5eed32a73e13f29c4b640a53d004f3faf019e net: fill in MODULE_DESCRIPTION()s under net/core
 ce1afe280419911b29bc7228f28d4ae85d7e7a2b net: fill in MODULE_DESCRIPTION()s under net/802*
@@ -1082,4 +1082,4 @@ bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.ke
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============6440976108197214209==--
+--===============7908598215152684268==--
