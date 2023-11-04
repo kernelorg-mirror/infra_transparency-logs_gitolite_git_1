@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9020852934184674879=="
+Content-Type: multipart/mixed; boundary="===============7937789211785042549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Nov 2023 08:49:47 -0000
-Message-Id: <169908778795.31837.18360906615673773288@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:52:19 -0000
+Message-Id: <169908793924.2086.18238034632166567853@gitolite.kernel.org>
 
---===============9020852934184674879==
+--===============7937789211785042549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: effd7c70eaa0440688b60b9d419243695ede3c45
-    new: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    log: revlist-effd7c70eaa0-90b0c2b2edd1.txt
+  - ref: refs/heads/class_cleanup
+    old: 92654020eaea949f35266e796dc4a6bc9af6d6a7
+    new: b78132381fad225ac71e44dc1d40d020ebf92e7b
+    log: revlist-92654020eaea-b78132381fad.txt
 
---===============9020852934184674879==
+--===============7937789211785042549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087787 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087934 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699087784-31170bd17b1fa759d0e9d87b35cbdfa408610ec3
+nonce 1699087932-5ce8e8441d5cbc0c79e8405478c30f44181eba35
 
-effd7c70eaa0440688b60b9d419243695ede3c45 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/driver-core-testing
+92654020eaea949f35266e796dc4a6bc9af6d6a7 b78132381fad225ac71e44dc1d40d020ebf92e7b refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBasbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w1wP/jQ0mstiqles3Xeb3zC/
-f2YP6CxPX2YzJldF4GxmfPioCtb6CLRUzTmNFsV1SpmuTkswFDek6N8+cCMrxJLK
-jeOOC7m5CcVf6WJBZ9SY+se4GgefN314l08jX2GcI0rAJk6+Oa3REAM45/8IT9hN
-1tcVP3WyRrOyVdsTOv3WCdVh04mDk8cRS77Z06JWoS+CrzJ2KkFgyr7PscbAR9Dj
-4u4ocku/DXCBVua53FyrmQXrVItypPqG2msls4xK33sGX3Jqte0weGlhyxGKrlN7
-aujxnn0t68JgM9yPBOPVQuJqodjMi6ybW0mun0sDp/mhqhpBPFeI8TimrLdW375W
-itEqOtKSnpxH1Ljlwh3U0trUf9nPR5bY6gTjTTAZqZENSZ15gZoiwPty7HiUvk5e
-80F83LgJEP4lNJzzPpBm3AJQHA0daGsMlXH5GLT5s3lEFPaxuKaGjTtsFiePLI8/
-5porFi3R90Xj/Hfk+ve0Epekc6Bz90TzKU2x309MTgBSEReGDT/kag2B0eyHq+VD
-pLPzFSCeFDtM6YhIcXG+byVLK16EqaXsTLeGI+J5q+jqLLFL2co09EtueLB2HR1R
-J4T8PdYbAzm/Q12c/wMdGIO7lnDLb+TLBTNV3WoL3433i+I/Ruq0XCf0+zAeNw9T
-nNt704VrXHgcfnWXMIiDu9NI
-=xqFi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBj4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JXsP/jkT2Rj9DcxfpS6u6rsu
+BMvj3IX19UJyvJ4qApsX7/s+UGualSdbvjGjiO55EAqgDNabSwXW1jeFUFWJrznW
+uMuaNqdTtq5CiZVqWUy1IQUAEozFf7IYR9Q/hnEkfae6C4dK4SriTH46JuILlsKq
+PHyUdDcH+sjX3pv6Ax8RrbuTe9acCLm8jpwVArkGUoLfQBfBzqixh5r1HfM/1grF
+UQE7w+4kCd8tKx2QgUxFxkVtdUYl7PP+OHUjLUg6lTphKq0cscUnmlOd5p/EQXtW
+nuESZuLA6rNnXS+/XoYVh0KSfsvtK6tJtbx0O8whJzVNfPhOoJgmiSpn4yYejoLn
+d/QvuOcY8INo73bGlHUMpeGG8DQJ1xsMzdQnMceps+C/BpBoWuzTzR6bfor4ziWM
+t/2EvXkJ2cqASCZRJ1Mlyt1/3eTSvBqqSKkNJD/LrLPIEB8yiguahjzG2Fo1K23p
+HxYDF5rc8xg5P+ioMKu1NKe/NGd5MqCKzYYDmBRSXGKn7X/ZLIRyn33CK++AOz/T
+M1cYWs5sxU2uCyov1cu3LsRNNph46lJIQe26eVG0of9M4Gt1JpukCVrc9rmn2/La
+90CHce0ILW55thRiHa+Fl3m5/fPkbYg6pzhxLtpi5xsP/8wy3ZPq5H1Cxug0MEng
+jpTT5mmyFLGWySl0wh4Nto0Z
+=wb9h
 -----END PGP SIGNATURE-----
 
---===============9020852934184674879==
+--===============7937789211785042549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-effd7c70eaa0-90b0c2b2edd1.txt
+Content-Disposition: attachment; filename=revlist-92654020eaea-b78132381fad.txt
 
-a51d8ba03a4fc92940d5e349f0325f36e85a89cb ALSA: hda: cs35l41: Check CSPL state after loading firmware
-76c121821a3128eb9d0183a525cf334beb9ccc47 ASoC: cs35l41: Detect CSPL errors when sending CSPL commands
-926f192f005fe957ea1bfe4635af10219ba363a2 ASoC: codecs: Add aw88399 amplifier driver
-11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
-246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
-60781d2d5899d6fc5fd173c1bcffaaec39643e17 ASoC: Intel: bytcr_wm5102: add various quirks
-56e449603f0ac580700621a356d35d5716a62ce5 drm/sched: Convert the GPU scheduler to variable number of run-queues
-1519018ccb421349db5426b97f836f79e6e9f4c7 Merge branches 'for-next/sve-remove-pseudo-regs', 'for-next/backtrace-ipi', 'for-next/kselftest', 'for-next/misc' and 'for-next/cpufeat-display-cores', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-2a3f8ce3bb2fca943e6b3225f796ce06c29621fd Merge branch 'for-next/feat_sve_b16b16' into for-next/core
-023113fe66b4866b0d211b705e8bd287728f2e98 Merge branch 'for-next/feat_lrcpc3' into for-next/core
-2baca17e6a54b70e3b6d1b50f98ab71f770e4b95 Merge branch 'for-next/feat_lse128' into for-next/core
-14dcf78a6c042dd9421b11485b394c6273568bca Merge branch 'for-next/cpus_have_const_cap' into for-next/core
-c9501d268944d6c0475ecb3e740a084a7da9cbfe PCI: endpoint: Fix double free in __pci_epc_create()
-0fce6e5c87faec2c8bf28d2abc8cb595f4e244b6 PCI: Simplify pcie_capability_clear_and_set_word() to ..._clear_word()
-19a214bffdf7abb8d472895bb944d9c269ab1699 perf vendor events intel: Add broadwellde two metrics
-4ece2a7e88e1624f52c56d44394e4af1a13b1137 perf vendor events intel: Add tigerlake two metrics
-c1081a7b16abc80af7048672dcae1d3b57b6f257 doc: blk-ioprio: Bring the doc in line with the implementation
-07d87ceaecdde1835866d6acd0e1c1e08500ec82 speakup: Document USB support
 55ed837d7cf11a9c506f83da79d39f9ada597740 Documentation: driver-api: pps: Update PPS generator documentation
 c17cda15cc86e65e9725641daddcd7a63cc9ad01 Merge tag 'net-6.6-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e7abea958b7f0d65baafb20af60bdf2073fb2b28 docs: backporting: address feedback
@@ -419,6 +401,8 @@ ce558a391d80b9f47a462107977e8e81fe2f2962 cdx: Register cdx bus as a device on cd
 e3cfd49cb9491ac1cc233a4b9e098688b4ab281d cdx: add support for bus enable and disable
 0174f5810401ae6390bfe15354346b5ea660d40c cdx: add sysfs for bus reset
 fa10f413091a43f801f82b3cf484f15d6fc9266f cdx: add sysfs for subsystem, class and revision
+87ffa98eeee8d62a56afdad80ea697e7a6e5c354 firmware_loader: Refactor kill_pending_fw_fallback_reqs()
+effd7c70eaa0440688b60b9d419243695ede3c45 firmware_loader: Abort all upcoming firmware load request once reboot triggered
 916646758aea81a143ce89103910f715ed923346 platform/x86: thinkpad_acpi: Add battery quirk for Thinkpad X120e
 94ace9eda88229c73698b8dd8d3c06dd0831319c platform/x86: inspur-platform-profile: Add platform profile support
 e0f831836cead677fb07d54bd6bf499df35640c2 tracing/kprobes: Fix the description of variable length arguments
@@ -1081,5 +1065,21 @@ d934aef6bb9ec1b42dfe1f5c1f945fa0d2d0752c Merge tag 'dmaengine-6.7-rc1' of git://
 bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+bee708bc3c972f990ff1275c23e1784c3cd221ee coda: psdev: make coda_psdev_class a static const structure
+4ccb1f7d4d55e86b7efce8d7b2b9eef364937542 cuse: make cuse_class a static const structure
+fc31d36e4a7ee19aec28cee04434ac987d948c00 pstore: pmsg: make pmsg_class a static const structure
+7c80b42e43df36caa774e1e0f79b2645e4a393a2 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+e1475b12fdcc4be9b8794d181961acbf9fb920d6 PM: wakeup: make wakeup_class a static const structure
+639e4d9cece447d1a5cd7beb8f7e146495cd7517 PM / devfreq: make all 'class' structures const
+9d51d1e6e2c733a9d871c6a6990dc7c7844c4642 dca: make dca_class a static const structure
+e3b50cdd20bf36e8d26633a5df9a55c5fc072b44 gnss: make gnss_class a static const structure
+6a855711f189c13a17b5a78e9bc4a716238a6cdf extcon: make extcon_class a static const structure
+711046a8924bff67655acaa14f3dbac40543c4e8 i2c: dev: make i2c_dev_class a static const structure
+cd2191ab603bbb9b08ba122166326caa9f25fffe misc: c2port: core: make c2port_class a static const structure
+bb75996123254f9adc741d863d03077bbc4f7e88 vduse: make vduse_class constant
+61053c2f4db0fccb65afba063a9adf3a460cdd4f nvdimm: make nd_class constant
+4e98f6c469c9d3aaec8b204e29d6a151cc61da20 PCI: endpoint: make pci_epc_class constant
+58334a1acb6b0f3362ce50ccb091b4ee2f7c27f1 PCI: switchtec: make switchtec_class constant
+b78132381fad225ac71e44dc1d40d020ebf92e7b crypto: qat: make adf_ctl_class constant
 
---===============9020852934184674879==--
+--===============7937789211785042549==--
