@@ -1,66 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6799425434071910233=="
+Content-Type: multipart/mixed; boundary="===============1843648324123008646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 04 Nov 2023 08:48:38 -0000
-Message-Id: <169908771873.31113.12384172275762156814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 04 Nov 2023 08:49:23 -0000
+Message-Id: <169908776381.31476.5891220264613849629@gitolite.kernel.org>
 
---===============6799425434071910233==
+--===============1843648324123008646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 64ebf8797249e792af2143eb9e4bd404d10a022e
+  - ref: refs/heads/main
+    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
     new: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    log: revlist-64ebf8797249-90b0c2b2edd1.txt
+    log: revlist-8a749fd1a872-90b0c2b2edd1.txt
 
---===============6799425434071910233==
+--===============1843648324123008646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087717 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1699087714-1002830097f61e2209389d0cc9981ee2872968a4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087747 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1699087745-f86994e335ceda0724da67a3004d437be5a85fce
 
-64ebf8797249e792af2143eb9e4bd404d10a022e 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/tty-next
+8a749fd1a8720d4619c91c8b6e7528c0a355c0aa 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBWUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oeEP/Ar8kBcBUuCHYUn9gEXm
-DFF8MtosJZzio85K70N+KMyxeGbUymnWoDCw6uVdbQ3927qiDUFlsH6sznJ8D7GO
-dAKRg3PrBa8FF8E69YEk5IIwOMg7d6zJ2iTuleIGYTB3aBm5XO6gtWQvTxjiuPNV
-AIypBi0bNOyu4qAKvaVCkmQuSUB3pZ/SBxCZdPgRg1TKdWbOSx09W3kDZgApJ0+s
-dxYSeWekjlbmGklD/Cl0kpr+WbCFqeIInExgBwQbM491EsFjg3x4aYQhiQi1m47I
-rkV2hN8zflD7NyrOJv3gnen2X8PzHnFs6gt+dHZ2JszPkPM7xhZtgm/r9liWLB5b
-C27tCV3VxQsfeD0JNwwuc5rCTtJUOsCfUlMEhmh/GfcL4sQJ6X83EdpnwlaEMHvM
-9BqmEps5TN2hQZx2g0KP2vFkyU5atJfURPhZKyJ6dCGf4b/0TkklhHwjUTsYkUUX
-2Z8FaPHymcjeTL1WnZr/v5rZY2+tTawcRzut8OqjSn6n1Tr3uzbT37V9eMBNmbRe
-+HzdN4k8yGQC7KsUeJdm4ftMNOHN2TKDSYKgX18h8SL4Sxj3ly66Mjc4SO5kxcFE
-ELAOpSDDImcgdej88LnUytsImpmj36CvQhU8DjjkTy3NgF9D3XaQkmstl5KFScLA
-sZUj87dlUJCJOnYdXEeBIku+
-=tpPV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBYMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RcgQAKYMWpKh/AXgg4+IBich
+ZGoRLkN2F7R+rJ34kbj96MkHOEkoupl2jKdTt5+nnTpy5tGhEQQV5u7I2BMZ+8f3
+rdLe+3nm5Ln5VfTxrCA7RFq3ALzt56DiQ11ujoo5XI5R1V9hPVTwB7OmRJciwm6n
+TIPZsE6YbT04SoqGVAIYJ+K/Ed4Rjh2Sjsy2JMJVt1XD16jxJN46BUwemcIFXgaZ
+Ck1xnk5k61uOKMTehNH/j3+qtq9yLV/XPQTaQZg0v2EwElRTTtfdXm5iADykSocu
+GysaqYPpZVHzBtNqJAY2to+qJcZBc4eHXzHZnP/5AdQGE1V9rDJhPwz6E9uTpSuf
+EMQhJ0FL6/rsSrAynO0hiz2FwhkJiolIWl9J9+hHgzuxBP5zYYg81mUumwtbCjY0
+2ymvt6aFTRW9D1Vce/a0bqtrCSu8ijRqX9x/a+viB+dk0TrBL0/AztabDt2btmkr
+F7fEnrVsLdCigvpunE4WLa93Tl6BMNlXOIpJ5Or+HezYYLox6BTlBW0YxKTzryif
+9Vr1/RDNvLsF0JpoqjiHBHxgCaOeofvdBOvW4ZoufhLmhNAwvfKnqY1QE/czICMN
+OtNSByWvpwJptzCAT1mWdR/ECN0rif0Lim5+A3/l9x5ShUSR1Ves7uf6vdelJz3i
+fd/EF9F+4ZSoGOMB5ybhYWFw
+=OgEO
 -----END PGP SIGNATURE-----
 
---===============6799425434071910233==
+--===============1843648324123008646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64ebf8797249-90b0c2b2edd1.txt
+Content-Disposition: attachment; filename=revlist-8a749fd1a872-90b0c2b2edd1.txt
 
-2ee06ff5d7cf5f68bab2bf65a946bb2ffe9982dd ALSA: hda: cs35l41: Force a software reset after hardware reset
-33790d1f039114a829433b89fc55a0d781d38d62 ALSA: hda: cs35l41: Do not unload firmware before reset in system suspend
-a51d8ba03a4fc92940d5e349f0325f36e85a89cb ALSA: hda: cs35l41: Check CSPL state after loading firmware
-76c121821a3128eb9d0183a525cf334beb9ccc47 ASoC: cs35l41: Detect CSPL errors when sending CSPL commands
 926f192f005fe957ea1bfe4635af10219ba363a2 ASoC: codecs: Add aw88399 amplifier driver
 11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
 246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
@@ -182,6 +178,7 @@ cc54d2e2c58a40a82dfd39afa95d3d27f3d6509d MAINTAINERS: Remove linuxwwan@intel.com
 6e6c6d6bc6c96c2477ddfea24a121eb5ee12b7a3 iommu: Avoid unnecessary cache invalidations
 5e7afb2eb7b2a7c81e9f608cbdf74a07606fd1b5 genirq/generic_chip: Make irq_remove_generic_chip() irqdomain aware
 08d4c174828d868d314d2475fbcaa1393f0bbba9 irqchip/ls-scfg-msi: Use device_get_match_data()
+e6b3d55b67d00c084a2b98c594330411fb4ebeac tty: n_gsm: add copyright Siemens Mobility GmbH
 f99b926f6543faeadba1b4524d8dc9c102489135 irqchip/sifive-plic: Fix syscore registration for multi-socket systems
 eefed7662ff223f70ba8b1af07f1a096a5ece588 xfrm: policy: fix layer 4 flowi decoding
 b131329b9bfbd1b4c0c5e088cb0c6ec03a12930f pmdomain: amlogic: Fix mask for the second NNA mem PD domain
@@ -376,6 +373,9 @@ c3097719e438ab6d07b8b20b5575f985ab07b5a5 dt-bindings: usb: fsa4480: Add compatib
 e8033bde451eddfb9b1bbd6e2d848c1b5c277222 usb: raw-gadget: properly handle interrupted requests
 1f97e3f429cff941b5f7adc9fcbb1b5138cd6125 usb: raw-gadget: don't disable device if usb_ep_queue fails
 c3a383d8d382e066038ab245c8d2b6d02f4bf8a2 usb: raw-gadget: report suspend, resume, reset, and disconnect events
+aef0f5a1841e76fe13621edc7123076b38d458b0 serdev: Make use of device_set_node()
+ddab72ea7e5be7d1ae0433fa3d399e05837008d1 serdev: Simplify devm_serdev_device_open() function
+64ebf8797249e792af2143eb9e4bd404d10a022e serdev: Replace custom code with device_match_acpi_handle()
 4c0be6c26dcd263ede434fc83ae86e3d55cb7379 staging: rtl8192e: Remove HTIOTActIsDisableMCS14()
 7db86bafb531e626401f291bde5fbb276094cd30 staging: rtl8192e: Remove HTIOTActIsDisableMCS15()
 da8e981c735e56b1f5e81d177d484136fbb58708 staging: rtl8192e: Remove HTIOTActIsDisableMCSTwoSpatialStream()
@@ -1082,4 +1082,4 @@ bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.ke
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============6799425434071910233==--
+--===============1843648324123008646==--
