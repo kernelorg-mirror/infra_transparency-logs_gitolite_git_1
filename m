@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2346899819680499874=="
+Content-Type: multipart/mixed; boundary="===============4248724128729811611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sat, 04 Nov 2023 07:55:28 -0000
-Message-Id: <169908452833.24749.13709715395385751771@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 07:57:13 -0000
+Message-Id: <169908463308.25408.13168376545794151449@gitolite.kernel.org>
 
---===============2346899819680499874==
+--===============4248724128729811611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 8f6f76a6a29f36d2f3e4510d0bde5046672f6924
-    new: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    log: revlist-8f6f76a6a29f-90b0c2b2edd1.txt
+  - ref: refs/heads/opal-test
+    old: 6c5f27462ce89488c748a3a456b9656058396c9d
+    new: 786d7e7643097344488f1037a3cd028f57907838
+    log: revlist-6c5f27462ce8-786d7e764309.txt
 
---===============2346899819680499874==
+--===============4248724128729811611==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f6f76a6a29f-90b0c2b2edd1.txt
+Content-Disposition: attachment; filename=revlist-6c5f27462ce8-786d7e764309.txt
 
-70a0d499db058b517bf60ec2e954a9a6bb688daa serial: 8250_dw: Use devm_clk_get_optional_enabled()
-c5c8a6e93ef6effe00c7022587ddea6a5d8fc1eb dt-bindings: serial: mxs: Fix compatible list
-500d179674c674c0fe143d9673d17bc4ee8a88f2 dt-bindings: serial: imx: Document wakeup-source property
-f34907ecca71177a438bc1f1012e945326f707c3 mxser: Annotate struct mxser_board with __counted_by
 29bff582b74ed0bdb7e6986482ad9e6799ea4d2f serial: core: fix kernel-doc for uart_port_unlock_irqrestore()
 95e8e7eebab58ec8f6c978242a6d143ba238a69e vt: Replace strlcpy with strscpy
 6c756af23b3333f14876a80b85028430b243f280 serial: exar: Revert "serial: exar: Add support for Sealevel 7xxxC serial cards"
@@ -1050,5 +1046,9 @@ d934aef6bb9ec1b42dfe1f5c1f945fa0d2d0752c Merge tag 'dmaengine-6.7-rc1' of git://
 bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+ecce595cef117e3e8a9c77c6a25ecb4c4bf55996 usb-storage,uas: use host helper to generate driver info
+3cd9edfca806f2407ca2c33c14f12c57df09bf93 WIP: scsi: use ATA-12 pass-thru for OPAL as fallback
+5c4709a90a8b28e74a6033067d4358ec4a13aabd WIP: usb-storage,uas: enable security commands for USB-attached storage
+786d7e7643097344488f1037a3cd028f57907838 WIP: usb-storage,uas: disable security commands (OPAL) for RT9210 chip family
 
---===============2346899819680499874==--
+--===============4248724128729811611==--
