@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8878986010373115334=="
+Content-Type: multipart/mixed; boundary="===============2992408566346336087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Nov 2023 08:49:29 -0000
-Message-Id: <169908776969.31600.7473831875475175113@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:49:37 -0000
+Message-Id: <169908777786.31696.16174346585499289199@gitolite.kernel.org>
 
---===============8878986010373115334==
+--===============2992408566346336087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
+  - ref: refs/heads/driver-core-next
+    old: effd7c70eaa0440688b60b9d419243695ede3c45
     new: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    log: revlist-8a749fd1a872-90b0c2b2edd1.txt
+    log: revlist-effd7c70eaa0-90b0c2b2edd1.txt
 
---===============8878986010373115334==
+--===============2992408566346336087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087768 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087777 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699087767-509f35f51dae10af94e817803f08123e3c512155
+nonce 1699087774-0c67cb230353d59a477a586416b395d1b37a7d09
 
-8a749fd1a8720d4619c91c8b6e7528c0a355c0aa 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/driver-core-linus
+effd7c70eaa0440688b60b9d419243695ede3c45 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBZgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MqIP/A7d4AyRT4IzWPzhjuMU
-8ZGzxScPHyN0Azck1ZtGa/p7M/Noc/AuXo3Sa4bmwx0uamXPiOUYfx5fzEhwzr5u
-r3YlIUoxEtrsNZ1k81zIcIj1MdviviC4BioSZimMhWvFO2mW6CTHltbk1J0zInUT
-7idaEKDZsmNSWFJZiwW2YQqu2jsVCZCOOqB6PpODz6qEngKK0UAU99WS/rQ0nL8f
-C8/o+y9B2hU2MOIb19HunYq5xfo2M/fjeRBohitbwYIxYKla5ePV+NQkPqsIIkVo
-Phe0d5ZBDoiM7S3/KMxu+ibS9pEd8A8gUunz4kaQ57D2fKQMyf7h8wBLhI1mUSk1
-9knrP/9a1i8KgHqzJAdYVCwWs3gZCrq7ozcFlOd4HKdLmg8W8o7Yzdvd06xVtkuj
-T9xFuVhtPmVX0/wKHlDAV71sy1ZKs/sIaUmVupFEp6kSH4aUZg5BGImuDcZTnt86
-JQudo/8lvEf1AwFBfPort1QJf1pvl/uYsyL5YmwfR2DlfaHXfkF1HWJUTZCyFjCN
-U9Jxmx/J9cEtl4Oo2LE4gmbq5853gpM2fWtigJQrorePkTu4PqjlxsBesczJWz7Y
-HEyN03G+f+vCZGlIhVVVbWqYnjd0uCGzryTs/SjqEl91lAJM6dh1m7NPMSmy+MSX
-BxN0r2JZXzBgYNB3EN9Vf7II
-=jetv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBaEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K4kQAJBMFyW8YON0XFFFpqqi
+4n/qAqhDIhdOT3R7WlCIPLG+y/uBqM/cwDlVAnfcckafYnLfdA1ZLwGWKaFZ5QDl
+aLxmYf/sehu3N/dOdcnIFgCu+9ZY1+7MY4M26AkQ6SS7rdUnVOa7brhSvkcLS67+
+c/jyUXtA1Feyq9t1dzIYF8qOGvZYGtuPP6xaz39TGl+e09Rfq8aX3yiguANcBZOa
+g14uUERcoH0xmq7DsVy9II8dGGIvOEvn851v11tYSXMzd3joeNdlSGKXnSnCPC1n
+uNUsQNWEiyoyCKRQk4qoDFgj/3zLgE7Itq6VOwHV5JCn7R6p9w8UNtHMxkIIVJ2K
+1PxXM5N+XHhSX/sAhdSDgEJ7uw+2k1xk+2crmGdOw0dgDwpQ/28ztvpSu6GYg/zm
+y7zYkJbSRm9G9dQqfBqSkoqnUMgYOb5MWar/gZ2eMlLM5O27xpUCIZp6lvbVXwcz
++06zokCQi0n0mAOgs5FuWt71r4rH546/xjJxSrHxWR8BpSa3mGfGwg09onwV0FH9
+4O/NTE6ZeykOThF73d0Na/IXfcChyRrSg/MIJ7Wri0qtTzjdFYUTRSpGj7weL2QA
+fRda0O6VlkXOn+qZUg1wDX0EfETi/5uAFUnn/tukj5ueshjL4iXZ38ktTWx0itBN
+LAutdzT02S6zpbMShNda8Qp6
+=emAs
 -----END PGP SIGNATURE-----
 
---===============8878986010373115334==
+--===============2992408566346336087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a749fd1a872-90b0c2b2edd1.txt
+Content-Disposition: attachment; filename=revlist-effd7c70eaa0-90b0c2b2edd1.txt
 
+a51d8ba03a4fc92940d5e349f0325f36e85a89cb ALSA: hda: cs35l41: Check CSPL state after loading firmware
+76c121821a3128eb9d0183a525cf334beb9ccc47 ASoC: cs35l41: Detect CSPL errors when sending CSPL commands
 926f192f005fe957ea1bfe4635af10219ba363a2 ASoC: codecs: Add aw88399 amplifier driver
 11817547b7a2cfad46e17e772a9002dc3e60f747 ASoC: fix widget name comparisons (consider DAI name
 246f388ec12b2e6659fd002a1049f5a34203d423 sc7180: Add qdsp based soundcard
@@ -417,8 +419,6 @@ ce558a391d80b9f47a462107977e8e81fe2f2962 cdx: Register cdx bus as a device on cd
 e3cfd49cb9491ac1cc233a4b9e098688b4ab281d cdx: add support for bus enable and disable
 0174f5810401ae6390bfe15354346b5ea660d40c cdx: add sysfs for bus reset
 fa10f413091a43f801f82b3cf484f15d6fc9266f cdx: add sysfs for subsystem, class and revision
-87ffa98eeee8d62a56afdad80ea697e7a6e5c354 firmware_loader: Refactor kill_pending_fw_fallback_reqs()
-effd7c70eaa0440688b60b9d419243695ede3c45 firmware_loader: Abort all upcoming firmware load request once reboot triggered
 916646758aea81a143ce89103910f715ed923346 platform/x86: thinkpad_acpi: Add battery quirk for Thinkpad X120e
 94ace9eda88229c73698b8dd8d3c06dd0831319c platform/x86: inspur-platform-profile: Add platform profile support
 e0f831836cead677fb07d54bd6bf499df35640c2 tracing/kprobes: Fix the description of variable length arguments
@@ -1082,4 +1082,4 @@ bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.ke
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============8878986010373115334==--
+--===============2992408566346336087==--
