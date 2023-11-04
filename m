@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0392020177979413488=="
+Content-Type: multipart/mixed; boundary="===============0770245022029002871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 04 Nov 2023 08:48:26 -0000
-Message-Id: <169908770610.30895.11703352820815568933@gitolite.kernel.org>
+Date: Sat, 04 Nov 2023 08:48:30 -0000
+Message-Id: <169908771069.31008.6814243884919733127@gitolite.kernel.org>
 
---===============0392020177979413488==
+--===============0770245022029002871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/tty-linus
     old: 58720809f52779dc0f08e53e54b014209d13eebb
     new: 90b0c2b2edd1adff742c621e246562fbefa11b70
     log: revlist-58720809f527-90b0c2b2edd1.txt
 
---===============0392020177979413488==
+--===============0770245022029002871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087705 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699087709 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1699087704-2f31831557e354aa04582b2a592350c7526b175f
+nonce 1699087708-bc08f1c5ecfa5cfdea73030fb9402e4841fe23a9
 
-58720809f52779dc0f08e53e54b014209d13eebb 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/main
+58720809f52779dc0f08e53e54b014209d13eebb 90b0c2b2edd1adff742c621e246562fbefa11b70 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBVkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+znAP+wZnLveBVvK7pjn4BKWO
-vk1NOSgPvpBz709gLzYjbPNNOeeUZmF+LNVbe5GF7yLaZb4/MgqSO/qFCakGXSJD
-Y9+WeCzmw81pP+WeUkttMKSto2B8mGrzQypYya2JHQVyJkRcLMk1fXUXJu/Hpm05
-dtZitCt4PhNnvQVJd9z5uTedAAGwmiuVt1niCX5hZKsVlC0zLQ/dA4dRp8bWMO78
-m3EdFudE2gzb+WqzkF2YXRMJ2gKowMJuv2+vjV8YUDY3gzKavEhX/JrXBi8aFqCY
-iM3gi6ppZgXfd2PkSyIjiKShcZYOYkMCQKA0OA/L6VoNHy6R6KakN0h0Q6o007sZ
-yt02O3B4NJWDBSbdAO/4eAxWWi3xgF1tKuxOOME3XU8/WiSEZcwHbZRJoqkOe3tF
-OX8PtgBdJ+G12V92rRIYj8Pk2XRhHF0NUXegJrgmh37HNQzMWrStjg6sXaOJ/m+Q
-dToU+wDzvLaW/tfnRJVmaXT87qGEoiYxuMO48dFrOpp2pSB7VIds7XehF5T0VQs8
-92+KtgkIxM4oiwO8Pu4dRYhPXCIgwzLExtv+6m3DIMphWKp0dnGgHxcNd6iktMAh
-8MHcP8+0x8E/k4ckMODK9p4igq9Q5n/+6lw1Z5T1908KYkLjYKeVTClttilDqGpb
-5OW+dxnUU/Lw9TfzJWW3+Xzn
-=66ZN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVGBV0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+plgQAKHVmQzcNyYjh7aeiN80
+WmUC9m+o6nHx1LQDz8GCzm4lfs7Dq1hmJw1vekm7WJkV9aEZe0plFbt4MxeezNN3
+lTzTUycZj6YGAmK79FE8Bzg6eYl6L2qfOOZakyGmyW4PZWWFbdiyoslhQxCHQgVE
+/ZijUnvO7j5NDpYTQtJKIyn7GunRG5rkUSOZf4NLHGNex8tJDsf4ThjL5dxHS7xn
+C4yi14BYMtS/WtEMJAQJr+SefPD7wzh+FzsuoIChGyk99yWJ5qzCU5pHHxCwAsIe
+tM6gmxPJsuNz7hwvlL2DchEIGquP5+TuPKth7Bd8KfGm0LDNYFOML3Wa8pDKINs+
+BjwDpclkBt8vxQb+LvJu4ujIZoiscI85374AhlmMuMtzKHSvRoPjjGpek0yfwnec
+A+8EdXgFKyL8xbKmSVQ3U5u61kyMuwNj2h3URa6XXo83sSXsBaZojaA5suurOTVA
+2N1GOTvTzydAevGvlq0L/ZiJvbghOcL/xB7byXl5CoX1GmLXJTjJ0QaUGe6bvKg9
+MjITpQ4UqGAkRCRssYsInCN3F0t1kxE0MrBF1XHKnkdYU5mJpE+g7fVJgeGOSkIa
+KEMbFWJHziEWNeWaOVrAmmyyYp0GCk4HmGpTy66WPH6k9JqXDKkZK3Pe+gMUDgaP
+Z9szhEL3ImzwkdI24a7GNEwY
+=9C3O
 -----END PGP SIGNATURE-----
 
---===============0392020177979413488==
+--===============0770245022029002871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ bfafa2c19d706ab1db0b581f9d3886469fab8627 Merge tag 'phy-for-6.7' of git://git.ke
 be47c8e326c2375200473e442f3481c386a955c4 Merge tag 'soundwire-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 90b0c2b2edd1adff742c621e246562fbefa11b70 Merge tag 'pinctrl-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============0392020177979413488==--
+--===============0770245022029002871==--
