@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sat, 04 Nov 2023 10:32:50 -0000
-Message-Id: <169909397035.24635.4153790009482811472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Sat, 04 Nov 2023 10:38:32 -0000
+Message-Id: <169909431215.29508.12158133937995653624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mbroz/linux
-user: mbroz
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/opal-test
-    old: 786d7e7643097344488f1037a3cd028f57907838
-    new: d5039bfc389adb43b23bb580abf48ce8985048e7
-    log: |
-         1d08e19ee2bf735865a257ca76412be1b9709c5a usb-storage,uas: use host helper to generate driver info
-         6252ed40413c4c7c455c7ee1b131ad9e1d4bcca8 WIP: scsi: use ATA-12 pass-thru for OPAL as fallback
-         28f036a9c14cdb240746d48345fe85e54718748d WIP: usb-storage,uas: enable security commands for USB-attached storage
-         d5039bfc389adb43b23bb580abf48ce8985048e7 WIP: usb-storage,uas: disable security commands (OPAL) for RT9210 chip family
-         
+  - ref: refs/heads/mtd/next
+    old: ff6abbe856342d4a7d5c28a0f7e33838f9f0a873
+    new: 565fe150624ee77dc63a735cc1b3bff5101f38a3
