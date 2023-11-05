@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6895344567628888427=="
+Content-Type: multipart/mixed; boundary="===============5454432639059591660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 05 Nov 2023 12:13:22 -0000
-Message-Id: <169918640218.12911.16450863204876815648@gitolite.kernel.org>
+Date: Sun, 05 Nov 2023 12:23:25 -0000
+Message-Id: <169918700599.19566.11530110011122766774@gitolite.kernel.org>
 
---===============6895344567628888427==
+--===============5454432639059591660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/main
-    old: 2dde18cd1d8fac735875f2e4987f11817cc0bc2c
+  - ref: refs/heads/for-linus
+    old: 3c70de9b580998e5d644f4e80a9944c30aa1197b
     new: ffc253263a1375a65fa6c9f62a893e9767fbebfa
-    log: revlist-2dde18cd1d8f-ffc253263a13.txt
+    log: revlist-3c70de9b5809-ffc253263a13.txt
 
---===============6895344567628888427==
+--===============5454432639059591660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dde18cd1d8f-ffc253263a13.txt
+Content-Disposition: attachment; filename=revlist-3c70de9b5809-ffc253263a13.txt
 
 c6c2adcba50c2622ed25ba5d5e7f05f584711358 x86/sgx: Resolves SECS reclaim vs. page fault for EAUG race
 06365a04fd32af25f90d8ccb4fecdda1f0e1ab78 Merge tag 'drm-intel-fixes-2023-09-28' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
@@ -1051,4 +1051,4 @@ e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of gi
 2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
 
---===============6895344567628888427==--
+--===============5454432639059591660==--
