@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 05 Nov 2023 13:44:45 -0000
-Message-Id: <169919188546.12365.1132362100007950091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sun, 05 Nov 2023 13:45:26 -0000
+Message-Id: <169919192695.14289.16916661697025624474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.8-WIP
+  - ref: refs/tags/i2c-for-6.7-rc1
     old: 0000000000000000000000000000000000000000
-    new: cdf8c686cd65ac13c9bf96e647600c35a8343bc7
+    new: 85c19505eb219d2c0d681854a848e6de1d33b281
