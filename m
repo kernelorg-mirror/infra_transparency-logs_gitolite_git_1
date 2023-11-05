@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1319532758826457786=="
+Content-Type: multipart/mixed; boundary="===============0038889129667451146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 05 Nov 2023 21:37:55 -0000
-Message-Id: <169922027540.25777.15286272508117058543@gitolite.kernel.org>
+Date: Sun, 05 Nov 2023 21:38:11 -0000
+Message-Id: <169922029138.25953.3380607103074297441@gitolite.kernel.org>
 
---===============1319532758826457786==
+--===============0038889129667451146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 991a211aa99f468cd291a97b8dcb448ebc77f6c4
+  - ref: refs/heads/for-next
+    old: 8445432611b484d16c23162237215ac088c879c8
     new: 02e790ee3077c0571794d0ab8f71413edbe129cc
-    log: revlist-991a211aa99f-02e790ee3077.txt
+    log: revlist-8445432611b4-02e790ee3077.txt
 
---===============1319532758826457786==
+--===============0038889129667451146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-991a211aa99f-02e790ee3077.txt
+Content-Disposition: attachment; filename=revlist-8445432611b4-02e790ee3077.txt
 
 1887de00867d7a700babefc9647ccb9e0d11ee56 drm/ci: uprev mesa version: fix container build & crosvm
 2b126e065ea0cea6cac2aa6c9b9d3ec014a006c9 drm/ci: fix DEBIAN_ARCH and get amdgpu probing
@@ -1051,4 +1051,4 @@ d08d4e7cd6bffe333f09853005aa549a8d57614b s390/mm: use full 4KB page for 2KB PTE
 0031f1c7cf2632a068a80261071b9b1f2d32d836 s390/mm: use compound page order to distinguish page tables
 02e790ee3077c0571794d0ab8f71413edbe129cc s390/mm: make pte_free_tlb() similar to pXd_free_tlb()
 
---===============1319532758826457786==--
+--===============0038889129667451146==--
