@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sun, 05 Nov 2023 17:05:03 -0000
-Message-Id: <169920390355.25331.17681703457633436764@gitolite.kernel.org>
+Date: Sun, 05 Nov 2023 17:06:01 -0000
+Message-Id: <169920396170.26054.9263955498321575833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: ce4f78f1b53d3327fbd32764aa333bf05fb68818
-    new: 07863871dfb162965b21bb8c2e4861bdb0019da3
+    old: 07863871dfb162965b21bb8c2e4861bdb0019da3
+    new: c20d36cc2a2073d4cdcda92bd7a1bb9b3b3b7c79
     log: |
-         07863871dfb162965b21bb8c2e4861bdb0019da3 riscv: defconfig : add CONFIG_MMC_DW for starfive
+         c20d36cc2a2073d4cdcda92bd7a1bb9b3b3b7c79 riscv: don't probe unaligned access speed if already done
          
