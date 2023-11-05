@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7546693349916147199=="
+Content-Type: multipart/mixed; boundary="===============7756359353057225787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sun, 05 Nov 2023 09:15:36 -0000
-Message-Id: <169917573674.32115.15964191310049252697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 05 Nov 2023 09:15:48 -0000
+Message-Id: <169917574861.4155.9898101089050578341@gitolite.kernel.org>
 
---===============7546693349916147199==
+--===============7756359353057225787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
+  - ref: refs/heads/main
     old: 90b0c2b2edd1adff742c621e246562fbefa11b70
     new: 1c41041124bd14dd6610da256a3da4e5b74ce6b1
     log: revlist-90b0c2b2edd1-1c41041124bd.txt
 
---===============7546693349916147199==
+--===============7756359353057225787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699175735 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1699175735-d33959cb516b222b986380f6174ea6742ee557cd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699175742 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1699175742-c512819b1b5fb21b865487cf318c2433d9442a77
 
-90b0c2b2edd1adff742c621e246562fbefa11b70 1c41041124bd14dd6610da256a3da4e5b74ce6b1 refs/heads/spdx-linus
+90b0c2b2edd1adff742c621e246562fbefa11b70 1c41041124bd14dd6610da256a3da4e5b74ce6b1 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVHXTgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B1wP/3avRHqsZPAp8Kjv5DYg
-+qziQRhNcpVVHXxDY0VN6Tgx9vgSosiKbQ6jVXkbEmxbKlj2oFwmafljQXTRIWjv
-HnqKliibPSH8kvGjSIU7CSR0FRryEVpNvHDXIaPklYvji2S0JlBidKngfkAnkyaV
-Rr08A8LAanLCDlGejCvj/5v/w9/w8Hkx+qmI26pJ3sJB9aISGlwb7PQ0OWYStLbv
-MhMYVgMe5sLnbfhEuTC/+3kGogMB/AMdbVkX7mWGZ26RHL8mOu28nShzkMLWN3lM
-6sXdTWBpUlLGqQpUN6RLhT+y1ZfTA8sCqKegX06f7NiEZtw8Kbk8xZwssjaNyFbT
-40AqzjFKyAv/kIu2bHnbcCFip/BT+d/4yzwygSsFUIQoiOLV91VmNWEaL/Ss7zKR
-AqVgmZgzHh7s8U7kRuNpjuN+ID0ZcAwn1MvB+dzV8MZ3Yw3nVD6ejJKks3dVupVo
-tGtCua7AeoqEovohdAueW1vV/rzGST3tuWmJUoXIIwpjElQ1YWiJArtaJqLcTnCr
-RRlUT63GnHN3rM8BOPkWDPYy3IfmN2tcg3+D2tn+1RSFeR6SOpyG5c3PlmjEyEbZ
-WQ8rUD0+1V1WPBRTSFRhD4cXpbgccHMYbaSiQyBzrEdaFC0Jg78sFUempTQJbxi8
-8wkqfoe3389w2uf1FNgSutpy
-=qeay
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVHXT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KCgP/AkU8490uUYSOGJl/KF1
+LD9vCn+3clSBXzIiEg1R2QqfOsAG7il+c9Kzz0D971jV9iQEmVnrMWk6JfZX1hX7
+AY2bXNJgHYL0WcGXdJgfgDGhz8VM/Q4eUQO3J+unlFQNpXfjNdqK6x8gjISET3+H
+YL0kHmRj4P9chOj1mx2fw20GIawBp5eSqpX4HYX4ApMVKK7goq3XHeAVibZxGYO0
+otdiDBIu+KcxfiNQA6rQKIBz21mw4fBZz3iw3cpMUvY4hbRHi3fv2rdzEl/M+Eal
+r8LuS+s1yyXTCk5n9eYvyhvhHCDo5HLZGEH0myARk7qvOTPfHrJF0TVj4tUfqJpm
+xgqjKs+SWcKQKIK1cMex0pgHlhZDWm2tMURwfan5JIVsL7ClYQRr3qD3TfcpKcXc
+jH4HOx9mRVHOpf4a6nPy+n/1bHm8+DfnKq/Qe/+NOZM99ykjetJgyzNAgWel/z0Q
+8nYKW40V13YtynaKqBxkFTmmWkkggxDeslNio6evdQzWQVmh2/x800+SBvdF1rE9
+eO60NebFeRyLx/MfhekWapdclmr2VsvzAxVzUtqp96bX6r46nLPuIYvHPcYaAa+K
+NsY2GnyJCBxO9YkHHb9ctLTS2byEEU/ngdoM+lHt0FKAn0uz6fuAnCiSQvlwxo7f
+V42UHZLozbjuJgx310t5frQs
+=UWkO
 -----END PGP SIGNATURE-----
 
---===============7546693349916147199==
+--===============7756359353057225787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -416,4 +416,4 @@ b1dfbda8636b54cde21f9f5d352fd25c4deff584 Merge tag 'mtd/for-6.7' of git://git.ke
 b8cc56d0414e2330d9fe05342843512b1ad8cdb7 Merge tag 'cxl-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 1c41041124bd14dd6610da256a3da4e5b74ce6b1 Merge tag 'i3c/for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 
---===============7546693349916147199==--
+--===============7756359353057225787==--
