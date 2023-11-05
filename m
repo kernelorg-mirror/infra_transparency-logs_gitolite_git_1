@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5454432639059591660=="
+Content-Type: multipart/mixed; boundary="===============4477452737967579471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 05 Nov 2023 12:23:25 -0000
-Message-Id: <169918700599.19566.11530110011122766774@gitolite.kernel.org>
+Date: Sun, 05 Nov 2023 12:24:02 -0000
+Message-Id: <169918704294.19870.14200805054964182474@gitolite.kernel.org>
 
---===============5454432639059591660==
+--===============4477452737967579471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/for-linus
-    old: 3c70de9b580998e5d644f4e80a9944c30aa1197b
-    new: ffc253263a1375a65fa6c9f62a893e9767fbebfa
-    log: revlist-3c70de9b5809-ffc253263a13.txt
+  - ref: refs/heads/for-next
+    old: a464d2f75fa16689b2d0307248740d83828d9b0c
+    new: c12d7aa7ffa4c61443241fbc1ee405acf4aa17de
+    log: revlist-a464d2f75fa1-c12d7aa7ffa4.txt
 
---===============5454432639059591660==
+--===============4477452737967579471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c70de9b5809-ffc253263a13.txt
+Content-Disposition: attachment; filename=revlist-a464d2f75fa1-c12d7aa7ffa4.txt
 
-c6c2adcba50c2622ed25ba5d5e7f05f584711358 x86/sgx: Resolves SECS reclaim vs. page fault for EAUG race
 06365a04fd32af25f90d8ccb4fecdda1f0e1ab78 Merge tag 'drm-intel-fixes-2023-09-28' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 a52d4f657568d6458e873f74a9602e022afe666f io_uring/fs: remove sqe->rw_flags checking from LINKAT
 e80f238d2bc0c0f27dc52ac824ca80b938a43ace ASoC: core: Print component name when printing log
@@ -1050,5 +1049,6 @@ bd80d2ef59bb6436effa6b7f77746b1418cf0a15 Merge tag 'dma-mapping-6.6-2023-10-28' 
 e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
+c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with __counted_by
 
---===============5454432639059591660==--
+--===============4477452737967579471==--
