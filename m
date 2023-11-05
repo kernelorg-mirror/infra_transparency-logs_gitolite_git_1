@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5167202351599878189=="
+Content-Type: multipart/mixed; boundary="===============9157224592115323468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 05 Nov 2023 07:54:13 -0000
-Message-Id: <169917085322.5750.5113274501461899876@gitolite.kernel.org>
+Date: Sun, 05 Nov 2023 08:15:33 -0000
+Message-Id: <169917213340.22431.12437145017666291554@gitolite.kernel.org>
 
---===============5167202351599878189==
+--===============9157224592115323468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
-    new: 1c41041124bd14dd6610da256a3da4e5b74ce6b1
-    log: revlist-8a749fd1a872-1c41041124bd.txt
+    new: 04714e55eb7210f1a9e7872c81e33b789bdce863
+    log: revlist-8a749fd1a872-04714e55eb72.txt
 
---===============5167202351599878189==
+--===============9157224592115323468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a749fd1a872-1c41041124bd.txt
+Content-Disposition: attachment; filename=revlist-8a749fd1a872-04714e55eb72.txt
 
-64382c71a5575741933dfdb0cf7162c6e9b8854e net/tcp: Add TCP-AO SNE support
-2717b5adea9e2558798c30eb0e93c01722edbb0a net/tcp: Add tcp_hash_fail() ratelimited logs
 953af8e3acb68d2db11937cec3bc5da31de5c12e net/tcp: Ignore specific ICMPs for TCP-AO connections
 7753c2f0a857bfa6501e67deee03988dd0bcaae7 net/tcp: Add option for TCP-AO to (not) hash header
 ef84703a911f4ee52ca585e8308b7084093941f4 net/tcp: Add TCP-AO getsockopt()s
@@ -1050,5 +1048,7 @@ b1dfbda8636b54cde21f9f5d352fd25c4deff584 Merge tag 'mtd/for-6.7' of git://git.ke
 5e2cb28dd7e182dfa641550dfa225913509ad45d Merge tag 'tsm-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/djbw/linux
 b8cc56d0414e2330d9fe05342843512b1ad8cdb7 Merge tag 'cxl-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 1c41041124bd14dd6610da256a3da4e5b74ce6b1 Merge tag 'i3c/for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+284594186d563433b6b5baddefdcdf4eae0da473 modpost: fix section mismatch message for RELA
+04714e55eb7210f1a9e7872c81e33b789bdce863 kconfig: avoid an infinite loop in oldconfig/syncconfig
 
---===============5167202351599878189==--
+--===============9157224592115323468==--
