@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 06 Nov 2023 22:21:10 -0000
-Message-Id: <169930927012.24610.5498054397594956807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 06 Nov 2023 22:44:10 -0000
+Message-Id: <169931065088.7920.640739957731836271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: f43a9ed0f80c18ca8a033883d726bfa78fa5c7d6
-    new: b8584be144ff391354190f89c4db4467ba0f9e53
-    log: |
-         b8584be144ff391354190f89c4db4467ba0f9e53 bcmp.3: wfix
-         
+  - ref: refs/heads/test
+    old: f6d088b4efe9636b0c5144e8ef36d785214e62cd
+    new: 0000000000000000000000000000000000000000
