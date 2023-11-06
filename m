@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 06 Nov 2023 16:50:31 -0000
-Message-Id: <169928943179.15659.12866872788789430969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
+Date: Mon, 06 Nov 2023 17:07:55 -0000
+Message-Id: <169929047569.27676.10263164908650479815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/danielt/linux
+user: danielt
 changes:
-  - ref: refs/heads/master
-    old: d9c312b09546d72d58defc67bea436cf88ebcfc9
-    new: 2158727e73637dcb156ed31aedb0e618f54de58b
+  - ref: refs/heads/kgdb/for-next
+    old: dd712d3d45807db9fcae28a522deee85c1f2fde6
+    new: de7a6a7ef0b4bbc10741790e1243a220dd30b147
     log: |
-         2158727e73637dcb156ed31aedb0e618f54de58b Mon Nov  6 04:39:53 PM UTC 2023
+         de7a6a7ef0b4bbc10741790e1243a220dd30b147 kdb: Corrects comment for kdballocenv
          
