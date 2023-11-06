@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
-Date: Mon, 06 Nov 2023 17:27:36 -0000
-Message-Id: <169929165688.9017.16672774525595494867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 06 Nov 2023 17:39:41 -0000
+Message-Id: <169929238148.17664.5275505651819185813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/danielt/linux
-user: danielt
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/kgdb-6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d40482db01d97985d47b5ace94bf0d5999fdcc26
+  - ref: refs/heads/for-next
+    old: 9ba91d1356db3ad4df7c79d5284bc1427d51c03b
+    new: 57a4542cb7c9baa1509c3366b57a08d75b212ead
+    log: |
+         57a4542cb7c9baa1509c3366b57a08d75b212ead riscv: boot: Fix creation of loader.bin
+         
