@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
-Date: Mon, 06 Nov 2023 17:07:55 -0000
-Message-Id: <169929047569.27676.10263164908650479815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Mon, 06 Nov 2023 17:11:56 -0000
+Message-Id: <169929071633.30670.1838186661272393760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/danielt/linux
-user: danielt
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/kgdb/for-next
-    old: dd712d3d45807db9fcae28a522deee85c1f2fde6
-    new: de7a6a7ef0b4bbc10741790e1243a220dd30b147
+  - ref: refs/heads/main
+    old: 892a33ac1bd68d870b0451305ceee4565d5936f7
+    new: 77138a2f947763de872edb41507a93a292139812
     log: |
-         de7a6a7ef0b4bbc10741790e1243a220dd30b147 kdb: Corrects comment for kdballocenv
+         34d5458cfb1cc8474248ca61da426b47f4c806de Update kernel headers
+         77138a2f947763de872edb41507a93a292139812 bridge: mdb: Add get support
+         
+  - ref: refs/heads/master
+    old: 892a33ac1bd68d870b0451305ceee4565d5936f7
+    new: 77138a2f947763de872edb41507a93a292139812
+    log: |
+         34d5458cfb1cc8474248ca61da426b47f4c806de Update kernel headers
+         77138a2f947763de872edb41507a93a292139812 bridge: mdb: Add get support
          
