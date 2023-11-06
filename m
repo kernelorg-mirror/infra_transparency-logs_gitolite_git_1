@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1569135194085930812=="
+Content-Type: multipart/mixed; boundary="===============5972419989635387520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 06 Nov 2023 06:13:00 -0000
-Message-Id: <169925118098.22768.18130201376992200705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 06 Nov 2023 06:13:20 -0000
+Message-Id: <169925120035.22972.7289556865705109619@gitolite.kernel.org>
 
---===============1569135194085930812==
+--===============5972419989635387520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 90b0c2b2edd1adff742c621e246562fbefa11b70
-    new: d2f51b3516dade79269ff45eae2a7668ae711b25
-    log: revlist-90b0c2b2edd1-d2f51b3516da.txt
+  - ref: refs/heads/class_cleanup
+    old: b78132381fad225ac71e44dc1d40d020ebf92e7b
+    new: a8287f754ed44cf2e8040439b1a8e3b6e24f3588
+    log: revlist-b78132381fad-a8287f754ed4.txt
 
---===============1569135194085930812==
+--===============5972419989635387520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699251180 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1699251179-5638be9cfc36c935691d9d2dc4d8bdf06fc288fe
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699251195 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1699251193-fdd23ef5f1edfd467d9b5682b8112480e6a9c6e3
 
-90b0c2b2edd1adff742c621e246562fbefa11b70 d2f51b3516dade79269ff45eae2a7668ae711b25 refs/heads/tty-testing
+b78132381fad225ac71e44dc1d40d020ebf92e7b a8287f754ed44cf2e8040439b1a8e3b6e24f3588 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVIg+wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zt4QAKpE5yAvmEBnPTng1vjj
-s35tw2Si4rdlLBijbE6Zg4lgwb3Juh9SN6vcIV5cJ0DOgjsIROmbiAh7K7BaUpZI
-CEDU/oPYhUZttgFHfYi6gG8a7DdeYrmQh08jS4Cl/vVqebha2AkxaUuFuaWCsjWD
-5coqtFnqszdQ1s69T4PzFJTiKc2rdHi14FtZ3r40qOm8KwlGmRmthIAKLD+ZY1Di
-Iol2GVnYaL9wo+hyHYeo40ud59Qb511qKVzj0ttF/zQSkKfUVEPGJsrAkVGm2DAy
-2s+aWyyQNOa+UJf/F/0Blx+Zjx5NRfQvHcqWHRAjd09mg0QZZQSv6/TreMPctUDb
-AYY9ciNJbCXmJZvnuR66vF2DnK6eVZ0Zk7eOBCjHqOa6Kc0Jvy68/kudDbpy5jSb
-lT1CmUKOcpM2YpgtucI0uz1W+t9lJSZB7TV9+X8scjnMMC5p4nGzUyGvsFxdesUI
-bcZcthBbsRHxbKkTYnaLqgeT9i1mnAXY7bW0CZVmHJpbUIlAoRJVZe5ABdh4ew73
-w0ihIG0x5gxwbHkI0LTO6WWUfNh5Dk/e4Xv2QcZ154YMfzyRPVgBIEE5SMY5RWMT
-VzJ0XNzMuGTSMvuZTsdPfI2fED8PkM653cxFR//d4OoK+ozCG8ng5+uMPV78dW/f
-8+g9Svalhu5FJccVJKlNj60S
-=DrFY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVIg/sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9FoP/RKyY3f9SNT2ONTJGooJ
+qEYI9nq5WC/A0fKAJu0UqPRAQrbDyZuDmt91ywch1L3mBVa8XOF/qlPXVZbUe/gw
+9CNvoYPKKKkomEsTmbFzfJNGiGJkOcGxYMjBBYQMdFHE3hMQ6ecFQqozmicQKg1S
+UTS9Oph0gKYhyaC45vLGA/Gyn51C/Hm7LL2RzV8qeUTzoGrurj3nuskyYzIahJVM
+8glPuY4pYeNgOukF/8wMx09VXK3F9q98CYdiWYyGSbC0DPPM8CntFJEa+pVNe2dY
+ylxHLsg4snqiLkt26zBSr0HHWinfO39j0sfxpAAktHnKFxgaq0ZmcGl09usO2klW
+P0vVqW6zrGyEdNcD074F4zQU2EQ1oPdApQs7U9LndyqlBMlG/j+U8/MK8vHSxokW
++VoGKsQsR7KeVYM1n7zLvTZs2C/9SEazwm7lXqSMPBnnmzWml9qbj0c9Biza9uK6
+Z2Q+Ls+FcfNVK3vT3H/HTQiwOlHhyB3aom1LNp7wdMz8uGxxldcNBVTytYvfF3I2
++hXcwFNrxM6tpkgBsWteZexDj6X7f/4VCklHwp+5OFVty9D2Br9cIWsTTL4j5qih
+mK7ux4LqSiQkaykZSymNunX3IqUI8jeKT7jd7sNRO3cXNj+k9F6cUSFa6oHwmE8e
+mCzI3hQkZ+oZnKuUgpEkLlSF
+=m2oG
 -----END PGP SIGNATURE-----
 
---===============1569135194085930812==
+--===============5972419989635387520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90b0c2b2edd1-d2f51b3516da.txt
+Content-Disposition: attachment; filename=revlist-b78132381fad-a8287f754ed4.txt
 
 4cdc5dbbc1df36c4d7c93c7c15dde88e997922c2 eeprom: at24: Drop at24_get_chip_data()
 0a1166c27d4e53186e6bf9147ea6db9cd1d65847 mtd: rawnand: tegra: add missing check for platform_get_irq()
@@ -566,5 +566,19 @@ c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with 
 77fa2fbe87fc605c4bfa87dff87be9bfded0e9a3 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 7b2c9e41e73fbe50f519072009b1e624ea230163 Merge tag 'mailbox-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 d2f51b3516dade79269ff45eae2a7668ae711b25 Merge tag 'rtc-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+ccaa4751baa08b661d9ec058dd1be5968556c0bb coda: psdev: make coda_psdev_class a static const structure
+abd5c7820dc28a9e0a5e72879ca5bb44b910f9b0 cuse: make cuse_class a static const structure
+d7e588fbf4beb3271a662fe1339bf70efe579f30 pstore: pmsg: make pmsg_class a static const structure
+5025bea1796cc7a963a85d56afe7d167a896a152 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+94ae1837a1e201d374a7e8df0c4f058bd1e59d91 PM: wakeup: make wakeup_class a static const structure
+bd14898c123a66b191785bd06193ac8912a13e75 PM / devfreq: make all 'class' structures const
+ff1cd3e315793f9f073369aeeb4fa99ef8b79d1f dca: make dca_class a static const structure
+2a9e63eee5e3599c9ad8c3d654b1c3ca78a90e88 gnss: make gnss_class a static const structure
+ec3317a7a19e7c0c8b78e7306c005405f30d872b extcon: make extcon_class a static const structure
+458590b3c5917bb0fd4baa903d1689c048b78545 misc: c2port: core: make c2port_class a static const structure
+9867880d03d874ee895d1381e2ed023126ea4b84 nvdimm: make nd_class constant
+f30c78a2a56a4d822794cc8f6e5029d5bad1637c PCI: endpoint: make pci_epc_class constant
+0dd4193cb43ff0eb999e70dbcf4681447b543b3e PCI: switchtec: make switchtec_class constant
+a8287f754ed44cf2e8040439b1a8e3b6e24f3588 crypto: qat: make adf_ctl_class constant
 
---===============1569135194085930812==--
+--===============5972419989635387520==--
