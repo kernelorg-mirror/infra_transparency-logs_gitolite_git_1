@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4216176468900583727=="
+Content-Type: multipart/mixed; boundary="===============8314902955440155692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 06 Nov 2023 08:55:07 -0000
-Message-Id: <169926090752.11399.1631638416354513875@gitolite.kernel.org>
+Date: Mon, 06 Nov 2023 08:55:31 -0000
+Message-Id: <169926093147.11625.18080910491482897217@gitolite.kernel.org>
 
---===============4216176468900583727==
+--===============8314902955440155692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 88503f3201dbe515e58238bff78dd8bee3f731b3
-    new: 3b2d8eaa12943f463de12f8b6457c7b515161ab2
-    log: revlist-88503f3201db-3b2d8eaa1294.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 447e92735758c923913ee53b75c6b92ef756985b
+    new: 900ab3cf5fb44b9a5e272d0e947fee74dc894ca5
+    log: revlist-447e92735758-900ab3cf5fb4.txt
 
---===============4216176468900583727==
+--===============8314902955440155692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699260904 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699260927 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699260903-4716cd1cb8f9223b86f6c5dd9c99fdbf6b8f2f87
+nonce 1699260926-e7275be51bb2d2ac457f6cae182d966af9af7ab4
 
-88503f3201dbe515e58238bff78dd8bee3f731b3 3b2d8eaa12943f463de12f8b6457c7b515161ab2 refs/heads/bus_cleanup
+447e92735758c923913ee53b75c6b92ef756985b 900ab3cf5fb44b9a5e272d0e947fee74dc894ca5 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVIqegbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+soYQALFoxRJ35Nd+iOOczJ3j
-AYYdoKgqQ51YTn4pDPDr6Ajt7vRAXcRdW1JCMMDpGKXPgASs7i+dIl1yo6Q3UouA
-7AIhUhWg9O04o1etQLf8TPQFmTzhnI3NPYJRJUFbcAvdUuIrsJjodTrsmEImLTNg
-stTOosDU++bg9jdtijF6cM5fXRz0/eGgDSI3B+6Zm0EqcFEX3MoCD8Fr+QBwPwsd
-qUne/RpsQTOabxVlzh2qhrDuLI/jWniJdQyXFUFG+clCIrT+Rza3t7AvlQT+hP+T
-g5KilcHcbzewIq1pEev+GzLFWm8NbN4uBt/3c8USOkVS/TdCJ/Il2TEcyko/3DSn
-YH9kQhNjN18Rc7RXbSbn5m326zX+Xu4uJEaJlc13m44XHqOp8sbrkDThQ2FOA5tN
-tIQXtJ00AXeex89qfz7bGB4WQO7DhcxIUvO4S5wMzlR65EZ/z8Od1suO9BYVE5mk
-VxNyd4mkjrBjwoH8zXlFaF+voNzTx4HzeYmXOIorVMsj8E0Ap+jZm2tR6Kht2o/W
-2SOcy4YIhdUQ0/awK2FU6ChcUJWDxGDRQxtcqVuppv/ph0cZOUvLYUBkHtuY9LAs
-Xqsn8Bf+k4QiHTpuWnqRXZHYB41sYALpztSHu0xjlucbrmK32LB+oUK+ojI0x9xB
-d0fJYuLKIsgOe91qArsn6l/R
-=up9s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVIqf8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QZQQAJLVaBWwVDS1pg0mgRAY
+Igu9JV+oG1LfkOqkt1wNbzY0EZi/5qGbdLcHU85RejE5ZfdE4a8dih3yrhBIXDcY
+i6ejSLQa3riYQc+t9WrpnCdOpRf/zoFrAnMIaezrZy9Fp0GHcBbyFmyc9N1KOqmb
+HlaHbNzpwxlfBP6IxCzNk+KmzPW2NL3M0Kmyc+NISKayotO5juVdxSh+NJgBM0jI
+OvfabUbEYqobixiNDncWXHXGtbDGUlxnl7k1wQu5qH43i+Uc+lmJ9L3BrolqOyCI
+nWYt/yDGWiUizonquKbPfu8o/r3ipx3seLlUZiF8cum+OkhxU73Dw9T7Yx3b4JY1
+i5Z+Noj695OTedc9w4KUnXPh3u5I/r4/tG0kg5ez9kdaOx81IOi+t50vTDMJJ19c
+l2LrLqu1DHfWgWERG1eA3gLETegY4U/XoT1th7DEibQZIw8ElX+RGqUuL7pTW868
+hEoqmVdeyuav9Dzixdz+HE32AeEeQxzFJBw21YZv2SYZqkrj7q03c6St50g7KpRn
+ZX0cTzGu7kwYG8/E+KKLdjtH5An6BvN03NObfjjn6XlZ/cmHOQfbYSOe+2ywwZ58
+IbwlsJqApqFugQya8IGIQB77+5t3l64QGO5kalHYDJelUHR5LQcca7PvghQNyOyy
+wGDBGeRnfy4lXgeFDwQbwYGh
+=RgDx
 -----END PGP SIGNATURE-----
 
---===============4216176468900583727==
+--===============8314902955440155692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88503f3201db-3b2d8eaa1294.txt
+Content-Disposition: attachment; filename=revlist-447e92735758-900ab3cf5fb4.txt
 
 4cdc5dbbc1df36c4d7c93c7c15dde88e997922c2 eeprom: at24: Drop at24_get_chip_data()
 0a1166c27d4e53186e6bf9147ea6db9cd1d65847 mtd: rawnand: tegra: add missing check for platform_get_irq()
@@ -566,6 +566,12 @@ c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with 
 77fa2fbe87fc605c4bfa87dff87be9bfded0e9a3 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 7b2c9e41e73fbe50f519072009b1e624ea230163 Merge tag 'mailbox-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 d2f51b3516dade79269ff45eae2a7668ae711b25 Merge tag 'rtc-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-3b2d8eaa12943f463de12f8b6457c7b515161ab2 FIXME: driver core: platform: make platform_bus_type constant
+53f0fe231764733d93950bb625b08cb8c091b85a soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+c745e151eae874dcfe7c49383dc648a27a667928 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+6715073f61680cc37b4bf9d9f38a5f94c72d18df soundwire: sysfs: have the driver core handle the creation of the device groups
+d864c6419b8372518536fb12eb415cc746da9a01 soundwire: sysfs: remove sdw_slave_sysfs_init()
+8b3850431ff1b1cc8d3900652a13778a1d543aef soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+f8e580c532b30a9ce7699349a7f2001c10de308c driver core: remove devm_device_add_groups()
+900ab3cf5fb44b9a5e272d0e947fee74dc894ca5 sysfs: do not create empty directories if no attributes are present
 
---===============4216176468900583727==--
+--===============8314902955440155692==--
