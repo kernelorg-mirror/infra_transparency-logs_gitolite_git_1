@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6895777008943285702=="
+Content-Type: multipart/mixed; boundary="===============5885596434281057526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 06 Nov 2023 13:02:33 -0000
-Message-Id: <169927575319.12960.6673218443352406986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 06 Nov 2023 13:02:43 -0000
+Message-Id: <169927576331.13111.13392321774181971606@gitolite.kernel.org>
 
---===============6895777008943285702==
+--===============5885596434281057526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: 004fc58edea6f00db9ad07b40b882e8d976f7a54
-    new: 4bdcbc31ad2112385ad525b28972c45015e6ad70
+  - ref: refs/heads/for-6.7
+    old: 75223bbea840e125359fc63942b5f93462b474c6
+    new: c2ded280a4b1b7bd93e53670528504be08d24967
     log: |
-         15be353d55f9e12e34f9a819f51eb41fdef5eda8 ASoC: hdmi-codec: register hpd callback on component probe
-         4bdcbc31ad2112385ad525b28972c45015e6ad70 ASoC: dapm: fix clock get name
+         c2ded280a4b1b7bd93e53670528504be08d24967 spi: spi-zynq-qspi: add spi-mem to driver kconfig dependencies
          
 
---===============6895777008943285702==
+--===============5885596434281057526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1699275751 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1699275750-4563c8f614cbf8fe658ab35344534e050d820502
+pusher Mark Brown <broonie@kernel.org> 1699275761 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1699275761-a48df857c5132f5cedca2a9a2dff00feb326b7a9
 
-004fc58edea6f00db9ad07b40b882e8d976f7a54 4bdcbc31ad2112385ad525b28972c45015e6ad70 refs/heads/asoc-6.7
+75223bbea840e125359fc63942b5f93462b474c6 c2ded280a4b1b7bd93e53670528504be08d24967 refs/heads/for-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVI4+cTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0AI9B/9P1DQdvz2mvsgZZRxB6Xz6FUW71RDf
-AASsDpWsBH4APx6m8tzBF+caBg4lOJeLpL377pn6QkXC3vyJl2oOenj/Efk60Bre
-8+pfdySgYNotaQHFBbFawq3LQTPekeBHdmT4zCLMrHd+xLEIKTEDAA26OvH8rAmF
-uh13ZAYlN0c13xAe/XCfPzhRqyiDrKxa0BcRl/jw3rVcHO/ZvK8L1kV4Xp95fAeL
-r+eTeypK7FSukLFEO6O/82CmtS9POb5KroxPVhBN4HQgqWIlZcWjR/4iNJGKMrm1
-oKL+pf0mF8qJ3QNusdMS5i/TxKhDpJbT5ZQW7SLy8d8VsEakn26A7sbm
-=IAwJ
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVI4/ETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0FmVB/9ACZIXT4rTkl3G9kTDwaT6jOaiGTyl
+ZcxnqvxwGEvNGb8XgNRuNCRVcp5CoQxZ18hNJAW+Gy1cKNeDH055stN5XpL7pvy/
+DoXrKFgN1HnQZujEaRCigX6L689CPtu3fG8Lf9tCG9/yDf4Jt2bJk+JSvGOGgmAS
+N30vU8CKcJqzgOon/b/p7+C10JMKqhWPYRFK2WJ1aTMq9bTD9eEE2bZOHjZVwydg
+FGxYUAQt3oD2zlZN4pk7y4XHpSmyT2pN0SfNSm9gGMZ4mVqMrZiYsr4Dqu9T7vi+
+hdbGR36+amr8cSjPaRTwAgyKe1xAuEro5XYt1vJalR4hdyRKKaVN0+0v
+=9dOv
 -----END PGP SIGNATURE-----
 
---===============6895777008943285702==--
+--===============5885596434281057526==--
