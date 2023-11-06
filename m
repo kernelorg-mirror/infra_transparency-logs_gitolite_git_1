@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5584800250463514121=="
+Content-Type: multipart/mixed; boundary="===============6795072375346581441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 06 Nov 2023 05:44:51 -0000
-Message-Id: <169924949107.724.2644904683114937483@gitolite.kernel.org>
+Date: Mon, 06 Nov 2023 05:44:54 -0000
+Message-Id: <169924949496.813.8372712362151168383@gitolite.kernel.org>
 
---===============5584800250463514121==
+--===============6795072375346581441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: 1c41041124bd14dd6610da256a3da4e5b74ce6b1
     new: d2f51b3516dade79269ff45eae2a7668ae711b25
     log: revlist-1c41041124bd-d2f51b3516da.txt
 
---===============5584800250463514121==
+--===============6795072375346581441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699249490 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699249493 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1699249489-e756d1dc704fdba84190eedf53523b4fd75c9eef
+nonce 1699249493-5b4a57d7ba7a5d75c737122981fe2264c63f559f
 
-1c41041124bd14dd6610da256a3da4e5b74ce6b1 d2f51b3516dade79269ff45eae2a7668ae711b25 refs/heads/char-misc-linus
+1c41041124bd14dd6610da256a3da4e5b74ce6b1 d2f51b3516dade79269ff45eae2a7668ae711b25 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVIfVIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TjAP/3l3RmRB1GWr2Ju87mWn
-PJu13LHpdmVPW+/0Dj79bx2m4VZhv/Dw5peDO1/PLAp8YBx+NaM7AAyU+otUxP4H
-ClVIA6SPI+2KgmlKHHmD2p0m4AMkhREZa0XqkK1iSRaIdlh8XQQwiPN54t9m/4Ex
-Oirf9swwtVDGqdDcp4C/kRc2Nefob4XeSwLMB2mdU9BCWO2soEeS5lTp75PN4B1H
-ULDvunKyTXQ8JoK8goWPzhohjXv91+QOp3UuQt5v9IAlKcwii/ruZNkrYgBwux/E
-rHT/hDJQOXVIa/oOQsJbmVd3gsk8BwA9928QJFizPkp9TUVf6HerdEF31U/4A4Kz
-GpV2425Za4Twq4vrZ1rca9woTBVhvpUzH/D8X5WiQQYH4p0rC4/9lH9Z+tnpSKA9
-QOuXzOoCJl/1/FVGJDGcGTdmKaJmAyOO2bQSSBkpvi+J9a4y6JyQ7PDcR+0z7MaU
-oykiPIPZUUFlV+uYCiwohsZmux4ZV0ITQ/VQjU2uttF2tWxcw9Dnbg0EyGRz4QXD
-tvq3v9IR//g+mVJn4dmWLzmcWTIQgOpLY1KHmcbn9kEInPcg8sWuBQaedOYGKKRY
-l0EK0veOkYPk7resxTii0bd24OquO42CtRxyV3n3ntdM5nKwvOGht0oDYzV7SlLq
-lYFjc9i5Fmhcu8jQFj7fYhMo
-=f4Iw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVIfVYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nXwQAJ5r9SeWEPk0f5SyKTi8
+sI9bx0vyofNkbyzSOTRWS1ew0nhLXAINKAOpsQbs1QHWJ+uTTRTxeff6QwdU7b1O
+tBtJDjllj/vFRsGtUb6rDIuJz6MCCc00i+XkoEy5YZ+zPnIPIGY3WSjtOII/76xr
+6eCTt0o1NzNO4pExdkyO9QKfn5lXMrdSGRTZ8Sy6d66VytyEU/etLV6EThgkYSoN
+HntGWaD9ijt4bqiAwC04PwHeoSa4nNe5afChgRbkdo1YjnRJr+yIzQxfgZu/5Bs+
+jeL/BWMZ/aut3waabOb35srWLE1CM5HWtLGTrIDjgGxcy1Kd4izjOVwT3I1r2Qbr
+PVsf/zdRRG7/brxZuAOn1s8CvMOaPMH3cjee4CIk9Gf/ecYcH1V0+I6I5YWMZqiG
+0xLmU23EPaZ4OZf79ODqYAOM6ukqHt9ecq2Bt2T1IeCgwI6vXffYZJK16aRbE17y
+o5hnfQQx0MnD+RRDSdKvOKnpIsGQklieM47z8zTZ9FjxDGHIU8f202XTZmk4NeZw
+TDdGaBhsMWtBAll3DNHOcqFuP1MdbNur1fll5NqTZatPHPmLuXnxezOJ6P3+yUED
+LtrykT5QRhlb9Oi2NfpwWloSQT/BKI81cxOwpFiKIc9OfLT5h18c/bOS0GlXwohT
+5WtWZQpAbSDXYEjvacX/xyfr
+=Ehhs
 -----END PGP SIGNATURE-----
 
---===============5584800250463514121==
+--===============6795072375346581441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -209,4 +209,4 @@ c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with 
 7b2c9e41e73fbe50f519072009b1e624ea230163 Merge tag 'mailbox-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 d2f51b3516dade79269ff45eae2a7668ae711b25 Merge tag 'rtc-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 
---===============5584800250463514121==--
+--===============6795072375346581441==--
