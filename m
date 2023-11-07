@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 07 Nov 2023 16:14:56 -0000
-Message-Id: <169937369647.3882.1938763104959778720@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 16:16:01 -0000
+Message-Id: <169937376157.5976.7219492549580662748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 9d057e91dc9fa6887a0e15a8242917ba539580cf
-    new: 1fa01a685f264933b36d244be825a3ab90c9677b
+  - ref: refs/heads/dev
+    old: d07c0997792e55c0e7f76cc5f71c66986ee39600
+    new: f97311883337eb7e0ded55e60995e6599eba73e5
     log: |
-         583769528861c506c52524148d1c3ffd7f532354 erofs-utils: mkfs,fsck,dump: support `--offset` option
-         1fa01a685f264933b36d244be825a3ab90c9677b erofs-utils: lib: drop prefix_sha256 digests
+         f528b82ffbcb15484a7195c1a1d08ece0ff67350 erofs-utils: have each non-fuse command take -h, --help, -V, and --version
+         197e3294bcdf93f37d12989cd830a33c055b1a53 erofs-utils: improve the usage and version text of non-fuse commands
+         f97311883337eb7e0ded55e60995e6599eba73e5 erofs-utils: fsck: Add -a, -A, and -y flags
          
