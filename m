@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5949504065990164963=="
+Content-Type: multipart/mixed; boundary="===============1452452753100375693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Tue, 07 Nov 2023 07:23:43 -0000
-Message-Id: <169934182338.29985.17685739487655865890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vishal/linux
+Date: Tue, 07 Nov 2023 07:24:15 -0000
+Message-Id: <169934185535.30238.17386241740682968322@gitolite.kernel.org>
 
---===============5949504065990164963==
+--===============1452452753100375693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/vishal/linux
+user: vishal
 changes:
-  - ref: refs/heads/for-next
-    old: de7760f804e6534e5cb164549564766a77487fc4
-    new: be3ca57cfb777ad820c6659d52e60bbdd36bf5ff
-    log: revlist-de7760f804e6-be3ca57cfb77.txt
+  - ref: refs/heads/vv/kmem_memmap
+    old: aa44612aa9aacab54b5bac9472a9ae0f22f6db6f
+    new: 8420dc37d700bfafdf0a6bc3e2bad1cdf9c9754d
+    log: revlist-aa44612aa9aa-8420dc37d700.txt
 
---===============5949504065990164963==
+--===============1452452753100375693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de7760f804e6-be3ca57cfb77.txt
+Content-Disposition: attachment; filename=revlist-aa44612aa9aa-8420dc37d700.txt
 
-aa2f8e9a3f74f6e808da5a91c716679cc797a3ef crypto: gemini/sl3516-ce - Convert to platform remove callback returning void
-31ce0b0676ef22baf8719f4dffd73fb33bae0d10 crypto: hisilicon/sec - Convert to platform remove callback returning void
-151356ceb974b93106159f0368b6ab1f1699031a crypto: hisilicon/trng - Convert to platform remove callback returning void
 5c5d9715c693b6be52a609892e1d3a6415defabe crypto: img-hash - Convert to platform remove callback returning void
 4f7f841f0922863aede9588b767fda080d924f79 crypto: inside-secure/safexcel - Convert to platform remove callback returning void
 2fd7c206317beb185ac6dcb0aa420862da29c370 crypto: intel/ixp4xx-crypto - Convert to platform remove callback returning void
@@ -1049,6 +1046,9 @@ c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with 
 77fa2fbe87fc605c4bfa87dff87be9bfded0e9a3 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 7b2c9e41e73fbe50f519072009b1e624ea230163 Merge tag 'mailbox-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 d2f51b3516dade79269ff45eae2a7668ae711b25 Merge tag 'rtc-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-be3ca57cfb777ad820c6659d52e60bbdd36bf5ff Merge tag 'media/v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+09885c4d02fb68c2109a77223acedc71e4f2f6d0 mm: use memmap_on_memory semantics for dax/kmem
+418834747ed7f433537c2084967dc6155c8172da mm/memory_hotplug: replace an open-coded kmemdup() in add_memory_resource()
+a7a02feec5babaeb150eb15a072d811c9532d795 mm/memory_hotplug: split memmap_on_memory requests across memblocks
+8420dc37d700bfafdf0a6bc3e2bad1cdf9c9754d dax/kmem: allow kmem to add memory with memmap_on_memory
 
---===============5949504065990164963==--
+--===============1452452753100375693==--
