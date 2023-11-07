@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 07 Nov 2023 23:13:57 -0000
-Message-Id: <169939883745.15327.6183817123071161555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 07 Nov 2023 23:31:13 -0000
+Message-Id: <169939987321.27700.7200239091086312822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/for-next
-    old: 28ea54bade76e2d47cb8cdb96e427cfb90d3eea7
-    new: 55e0bf49a0d0387d682d696e41cada071f516075
+  - ref: refs/heads/master
+    old: d84b139f53e8fa8048f16814c6b2a53d7bc15c3d
+    new: 8e1b802503bb630eafc3e97b2daf755368ec96e1
     log: |
-         d3d2cf1acab1857ae1982d431be9d96dc0e0775c RISC-V: Show accurate per-hart isa in /proc/cpuinfo
-         6eb7a6445b76a2fced91ebcf93d7a9073258c8cf RISC-V: Remove __init on unaligned_emulation_finish()
-         55e0bf49a0d0387d682d696e41cada071f516075 RISC-V: Probe misaligned access speed in parallel
+         0de4f50de25af79c2a46db55d70cdbd8f985c6d1 bpf: Let verifier consider {task,cgroup} is trusted in bpf_iter_reg
+         3c5864ba9cf912ff9809f315d28f296f21563cce selftests/bpf: get trusted cgrp from bpf_iter__cgroup directly
+         8e1b802503bb630eafc3e97b2daf755368ec96e1 Merge branch 'Let BPF verifier consider {task,cgroup} is trusted in bpf_iter_reg'
          
