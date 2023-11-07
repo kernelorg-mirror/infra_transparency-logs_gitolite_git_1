@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Tue, 07 Nov 2023 15:16:16 -0000
-Message-Id: <169937017669.25965.16269968220324792782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Tue, 07 Nov 2023 15:19:46 -0000
+Message-Id: <169937038650.27271.2074926683719314540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
-  - ref: refs/heads/ch/git-2-43
-    old: 0000000000000000000000000000000000000000
-    new: e26eaf508a34816c0793e3a94d0904152c558d9f
+  - ref: refs/heads/master
+    old: df56689a1ab5b51d023bd147b85f37d81a1dd266
+    new: 0641df8a30b187d55131c1e2713134063b42bd63
+    log: |
+         0641df8a30b187d55131c1e2713134063b42bd63 Move online check settings initialization to service init.
+         
