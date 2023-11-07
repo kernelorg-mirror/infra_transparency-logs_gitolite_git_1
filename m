@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Tue, 07 Nov 2023 16:03:45 -0000
-Message-Id: <169937302585.27478.5139972574723726656@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 16:04:36 -0000
+Message-Id: <169937307601.27839.16021782820838417765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 8ad0dc3508d960d19d1640373a8c8603bff9eec3
-    new: 6fe9752af1fe1ed124b06707ed228003f5d84c7d
+    old: 6fe9752af1fe1ed124b06707ed228003f5d84c7d
+    new: 7379b6455f94ec8f965336e1008bb3ec5d29f03f
     log: |
-         6fe9752af1fe1ed124b06707ed228003f5d84c7d service: Leverage 'is_connected'.
+         7379b6455f94ec8f965336e1008bb3ec5d29f03f service: Introduce and leverage 'is_online'.
          
