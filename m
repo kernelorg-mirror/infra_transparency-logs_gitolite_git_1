@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5127314004626857640=="
+Content-Type: multipart/mixed; boundary="===============8344055168418885181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 07 Nov 2023 11:34:03 -0000
-Message-Id: <169935684350.26365.15058040362661391566@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 11:34:07 -0000
+Message-Id: <169935684721.26459.4312170945203254924@gitolite.kernel.org>
 
---===============5127314004626857640==
+--===============8344055168418885181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: d2f51b3516dade79269ff45eae2a7668ae711b25
     new: be3ca57cfb777ad820c6659d52e60bbdd36bf5ff
     log: revlist-d2f51b3516da-be3ca57cfb77.txt
 
---===============5127314004626857640==
+--===============8344055168418885181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699356842 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699356846 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1699356842-12263ee32f5f528a30d699241948b0566beff060
+nonce 1699356846-e33276433f1f002b1d01e2f144e5e594ebbc4565
 
-d2f51b3516dade79269ff45eae2a7668ae711b25 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff refs/heads/char-misc-linus
+d2f51b3516dade79269ff45eae2a7668ae711b25 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVKIKobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F+0P/2/kN8/RMliYjDjvWY3S
-oFFvq3YMnWTvIn4GwaNsRA2QP9rf31LsUtLsCTaClqdYiXEjvTB/x56j+XmpxKkj
-BrzHltlbapiFnlS7oILKSX2MwSg3J0JG6j7yi0GvkyY1plop77o9IIXcFq3xNpZk
-tiQoYyMt05ZEGdbwoxzGiDWcBYsfB1lSIvJ0T1bndfaaRkh4Hmgx9f3Vc1SSKngI
-nAOjwmjG072W2XRj+mnvVJHrXAR1xZFqGO2K9b+k9tAic7njux71h9MGzo0aACre
-kLBFoRs91QJqFa4xfz3s+X3YyX621afytW7fOYf4w7Koj0EctEiJhv/SOQStEm99
-a2/lAV+r7HN6q6GkAxxXdUdqkVHC6/DRERKL5zl1p65vFU/fYCIheJJYbrwj47cn
-qPdcnCTsEnbcO6M269r52VliIYbPN3xMNRVLprWxSYHAc83RQmQ0BldpnYTveai/
-MhkjVzFRgiwwFSb03v+6BQTcmXOGJc4Y2zDuIuFk48n2Xpo6RpVI0j5OhMDJ3WzG
-tciz/FYe96qlP6jKD9WBAyy6wRFyxkaAF/xEP+K3KmOxXNvRbiigGcy0Mjq9a7fZ
-NlMWvgUqQYMSrdXlq3gt4Qe/mpPt8uLOIo3BpEcrDLiFl5jesUAXmu6+I/f4zHGX
-YOaDF9uz9XnjXP2/cSQDnvcd
-=VD1y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVKIK4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y88QAIEs5Nlh9VQA5ngCLWA3
+/uiv9089haD17xEoAMsXA/sIrMATRGP8OxOmvG6lLsutgYu9hu7EsXx+FfCHTC+q
+dsbGTNWcrdNKUwJHvpezoaGmhIQaKzChy/6iUTNyysg5XA5t9Op3GAH+v1fw6Mat
+rbPFFsVVWvEwZUX9k6Kc8b41pJkS6uS1HgjEVTFmGAOQHFKGOEJlsLq6wejYXDVF
+2PgweO0olcCNrZ7nm5F2ECE4YusRmTaHuxJjeRIXij4wXm292gMte07fu4NKJg80
+gCQbcOcFwiF+T5z+DAnErLm/IIoc4cYtpD6jN+HHtwoiAGNX4RzjIz+L+UZPMgp8
+CE2uaKWECMdkDD24rKOxTlLeonot0ZDoljfETRGGtUpXvcVBvwMdVzxiwYrQ+XDz
+WX9jQzko7evyUj5oTNwcF8ewc7meB7x8++IYg2wLXopoF3OZippxXAW3FBim1v44
+U3pxPuCDvarmHtWwpf3yJBx6aPKG2MX11Gd/0MX6KhufNuWd+FtyPWvdo/B+2PZV
+LaPXX48IWuLkbDskWvCXEUtAyr3jCefmwGvfOBOJHpvvP3KT2Jdi3glC36SFsnPI
+QbvwHOZhP/FpNLZtiBohijtouX7TEAvFqOcwLOSnuM35RyFWp643M2K39mF9f98C
+xAtS8hPoSqXWhx7E6Qo9cKPO
+=ueKa
 -----END PGP SIGNATURE-----
 
---===============5127314004626857640==
+--===============8344055168418885181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -436,4 +436,4 @@ b18e36dfd6c935da60a971310374f3dfec3c82e1 media: venus: hfi: fix the check to han
 3e238417254bfdcc23fe207780b59cbb08656762 media: nuvoton: VIDEO_NPCM_VCD_ECE should depend on ARCH_NPCM
 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff Merge tag 'media/v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============5127314004626857640==--
+--===============8344055168418885181==--
