@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1623955114322117684=="
+Content-Type: multipart/mixed; boundary="===============1327464925353625911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 07 Nov 2023 00:34:14 -0000
-Message-Id: <169931725487.21217.11322878401669175533@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 00:47:58 -0000
+Message-Id: <169931807833.32025.3936609600437481147@gitolite.kernel.org>
 
---===============1623955114322117684==
+--===============1327464925353625911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: d0d362ffa33da4acdcf7aee2116ceef8c8fef658
-    new: aa54d846f3613fa9651786308c6f438e8705aff1
-    log: revlist-d0d362ffa33d-aa54d846f361.txt
+  - ref: refs/heads/100GbE
+    old: 67f6317dfa609846a227a706532439a22828c24b
+    new: 68c51db3a16d258e730dd1c04a1de2f7ab038ddf
+    log: revlist-67f6317dfa60-68c51db3a16d.txt
 
---===============1623955114322117684==
+--===============1327464925353625911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0d362ffa33d-aa54d846f361.txt
+Content-Disposition: attachment; filename=revlist-67f6317dfa60-68c51db3a16d.txt
 
-cbb56fbaafd95e7e8d7e95d3753477a9069e795f wifi: mac80211: fix header kernel-doc typos
-8c90b8b4e8eb671929dc684b96e059cd862c067f wifi: nl80211: fix doc typos
 440a561c438a6c476d785823a08648d8aab3d733 wifi: iwlwifi: Extract common prph mac/phy regions data dump logic
 66125c42fd59b452e3db13ee796d1e85275f6b13 wifi: iwlwifi: add support for new ini region types
 65008777b9dcd2002414ddb2c2158293a6e2fd6f wifi: iwlwifi: yoyo: swap cdb and jacket bits values
@@ -1048,7 +1046,9 @@ d93f9528573e1d419b69ca5ff4130201d05f6b90 nfsd: regenerate user space parsers aft
 c5bf605ba4f9d6fbbb120595ab95002f4716edcb net/smc: allow cdc msg send rather than drop it with NULL sndbuf_desc
 aa96fbd6d78d9770323b21e2c92bd38821be8852 net/smc: put sk reference if close work was canceled
 c1ed833e0b3b7b9edc82b97b73b2a8a10ceab241 Merge branch 'smc-fixes'
-e96fe283c6f45dd888536ccb7b0464569533f791 i40e: Do not call devlink_port_type_clear()
-aa54d846f3613fa9651786308c6f438e8705aff1 i40e: Fix devlink port unregistering
+3e39da4fa16c9c09207d98b8a86a6f6436b531c9 ice: Fix SRIOV LAG disable on non-compliant aggregate
+e1db8c2a01d7e12bd566106fbeefa3c5cccd2003 ice: lag: in RCU, use atomic allocation
+8b3c8c55ccbc02920b0ae6601c66df24f0d833bd ice: Fix VF-VF filter rules in switchdev mode
+68c51db3a16d258e730dd1c04a1de2f7ab038ddf ice: Fix VF-VF direction matching in drop rule in switchdev
 
---===============1623955114322117684==--
+--===============1327464925353625911==--
