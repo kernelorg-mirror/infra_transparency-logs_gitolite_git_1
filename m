@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Tue, 07 Nov 2023 15:31:55 -0000
-Message-Id: <169937111516.4801.16021590345889113737@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 15:34:39 -0000
+Message-Id: <169937127923.5834.2479440702811870155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: fe1bbd45a7260c77f04c46440579a76be954e1a2
-    new: 49d53688ae8f0ef15d22823df286decfa726c18e
+    old: 49d53688ae8f0ef15d22823df286decfa726c18e
+    new: 731df0c837b803342283f5012b79e456334f38fb
     log: |
-         49d53688ae8f0ef15d22823df286decfa726c18e Address -Werror=implicit-fallthrough compilation errors.
+         3ce7d36c6644d07c5fab738bf21a78101c29c052 resolver: FIX path to resolv.conf config option
+         731df0c837b803342283f5012b79e456334f38fb Leverage 'connman_service_get_identifier' in DBG calls.
          
