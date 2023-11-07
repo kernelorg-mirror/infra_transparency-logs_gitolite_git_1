@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Tue, 07 Nov 2023 15:13:06 -0000
-Message-Id: <169936998666.23132.7358056986232672873@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 15:15:33 -0000
+Message-Id: <169937013398.25640.6928023064677821060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: cb56843a788f72cb220a3fea30ec86dbb25d15fd
-    new: f4e6ac18d684498303cf26201b1c9dc76e9645ac
+    old: f4e6ac18d684498303cf26201b1c9dc76e9645ac
+    new: df56689a1ab5b51d023bd147b85f37d81a1dd266
     log: |
-         f4e6ac18d684498303cf26201b1c9dc76e9645ac Const-qualify 'connman_{network,provider}_get_index'.
+         7a995114584e87bfc44c09d26f4237bf0b05c7b2 Rename 'start_wispr_when_connected'.
+         df56689a1ab5b51d023bd147b85f37d81a1dd266 Add documentation for 'start_wispr_if_connected'.
          
