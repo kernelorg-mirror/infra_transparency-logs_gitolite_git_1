@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7202931832045410075=="
+Content-Type: multipart/mixed; boundary="===============5949504065990164963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Tue, 07 Nov 2023 07:19:24 -0000
-Message-Id: <169934156460.26837.17090206773647449338@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 07:23:43 -0000
+Message-Id: <169934182338.29985.17685739487655865890@gitolite.kernel.org>
 
---===============7202931832045410075==
+--===============5949504065990164963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 0e945134b680040b8613e962f586d91b6d40292d
+  - ref: refs/heads/for-next
+    old: de7760f804e6534e5cb164549564766a77487fc4
     new: be3ca57cfb777ad820c6659d52e60bbdd36bf5ff
-    log: revlist-0e945134b680-be3ca57cfb77.txt
+    log: revlist-de7760f804e6-be3ca57cfb77.txt
 
---===============7202931832045410075==
+--===============5949504065990164963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e945134b680-be3ca57cfb77.txt
+Content-Disposition: attachment; filename=revlist-de7760f804e6-be3ca57cfb77.txt
 
 aa2f8e9a3f74f6e808da5a91c716679cc797a3ef crypto: gemini/sl3516-ce - Convert to platform remove callback returning void
 31ce0b0676ef22baf8719f4dffd73fb33bae0d10 crypto: hisilicon/sec - Convert to platform remove callback returning void
@@ -1051,4 +1051,4 @@ c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with 
 d2f51b3516dade79269ff45eae2a7668ae711b25 Merge tag 'rtc-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff Merge tag 'media/v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============7202931832045410075==--
+--===============5949504065990164963==--
