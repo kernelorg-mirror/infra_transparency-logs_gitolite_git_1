@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2501984459142118640=="
+Content-Type: multipart/mixed; boundary="===============4032441263440029238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Tue, 07 Nov 2023 11:55:27 -0000
-Message-Id: <169935812750.11031.17011125421689396895@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 11:55:53 -0000
+Message-Id: <169935815369.11309.16766522699414101917@gitolite.kernel.org>
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-206
-    old: d6c4816748dd21e69b7dd79faf282a57d0378680
-    new: 73992d8aec218c101b7ede9c1e46d361c2ac5c3f
-    log: revlist-d6c4816748dd-73992d8aec21.txt
-  - ref: refs/heads/for-greg/4.19-206
-    old: dd5638bc06a6bf3f5ca1a134960911dc49484386
-    new: 990ad4a3cd6de41e2d9b26416a99e67606dd5d1d
-    log: revlist-dd5638bc06a6-990ad4a3cd6d.txt
-  - ref: refs/heads/for-greg/5.10-206
-    old: e98e1cd33b8ceda4e957905713401961054d2bbb
-    new: 7f4745f7f5cc71d950f8bcc7896fae21630df4fc
-    log: revlist-e98e1cd33b8c-7f4745f7f5cc.txt
-  - ref: refs/heads/for-greg/5.15-206
-    old: 97f98d8e200f0f19715d3a010659a08c31345f5e
-    new: 204f92d342e66e366e4ea3518217dc031cfe572a
-    log: revlist-97f98d8e200f-204f92d342e6.txt
-  - ref: refs/heads/for-greg/5.4-206
-    old: 0c2544add9fc25c0e54a2167d6a2cfd2e696cf58
-    new: a18750779574cb347ed6384047653a32879d63b5
-    log: revlist-0c2544add9fc-a18750779574.txt
-  - ref: refs/heads/for-greg/6.1-206
-    old: 626c19bea2ce7b09dd52ac69d63224551e67aea7
-    new: 7c2737f916c4d8f19c380250a5fce06dd9c8899b
-    log: revlist-626c19bea2ce-7c2737f916c4.txt
-  - ref: refs/heads/for-greg/6.5-206
-    old: 931c0084650e2f9181cc633650e1a3b475ada866
-    new: 6b5fc0f1b3c1e954a49115df1cc138bda0fcf9e7
-    log: revlist-931c0084650e-6b5fc0f1b3c1.txt
-  - ref: refs/heads/for-greg/6.6-206
+  - ref: refs/heads/for-greg/4.14-106
+    old: 0c83375ffe046ad1f02b95831f85a294b0ec36f2
+    new: 89d93e9d9f32df4b2d7f4ff3bff645f0c7acad35
+    log: revlist-0c83375ffe04-89d93e9d9f32.txt
+  - ref: refs/heads/for-greg/4.19-106
+    old: 5eedcdd3caf85153e449c240bf64cff1032c15a2
+    new: 4a82dfcb8b4d07331d1db05a36f7d87013787e9e
+    log: revlist-5eedcdd3caf8-4a82dfcb8b4d.txt
+  - ref: refs/heads/for-greg/5.10-106
+    old: 2c3518bcb6325789ff1589d69f835ea166df5985
+    new: f04c6e69c6928de67ade05f5f09e6de9406f5196
+    log: revlist-2c3518bcb632-f04c6e69c692.txt
+  - ref: refs/heads/for-greg/5.15-106
+    old: eb05010ff9627ca6203b500fe333a88084e3c523
+    new: 27e39749dbd483331b67ccdd26f0b1e5326978db
+    log: revlist-eb05010ff962-27e39749dbd4.txt
+  - ref: refs/heads/for-greg/5.4-106
+    old: 1122915ae688192d4d64643bc768c9bf9077b8c2
+    new: 467a398b2753bbb3b25d18d320113b69e42417ed
+    log: revlist-1122915ae688-467a398b2753.txt
+  - ref: refs/heads/for-greg/6.1-106
+    old: e96073badae31da43f6c9c9377274c7f6d856110
+    new: 41cb9c7affe132c71957d914c69a3cd292da1a90
+    log: revlist-e96073badae3-41cb9c7affe1.txt
+  - ref: refs/heads/for-greg/6.5-106
+    old: e77a60b4e2855f2415ea05cf82c59a2b7773f5ec
+    new: d2421df18f8758cbfaccb27caeef08a42f790ed0
+    log: revlist-e77a60b4e285-d2421df18f87.txt
+  - ref: refs/heads/for-greg/6.6-106
     old: 0000000000000000000000000000000000000000
-    new: 02be0cd2292b46437c9e4e6957858bcc3ccf8f71
+    new: e9e86fcf74e282f5cb76f3a97f8ab9bc15e3c8ac
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6c4816748dd-73992d8aec21.txt
+Content-Disposition: attachment; filename=revlist-0c83375ffe04-89d93e9d9f32.txt
 
 2e2b26813a52ad660b2809c45a9adbeae975c180 ARM: pxa: remove use of symbol_get()
 ac1b855bf75ad3bd6bf05f18d17b98894fa111c0 mmc: au1xmmc: force non-modular build and remove symbol_get usage
@@ -363,13 +363,12 @@ d66259c0dcaf1403697add138be0933e2ed8067b gpio: vf610: set value before the direc
 c3830fca233beab7f7928024c288a4ad5e32b00b Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 be91967244bec4a0f1ca0f4a207764c554bfabc2 Bluetooth: hci_event: Fix using memcmp when comparing keys
 89d93e9d9f32df4b2d7f4ff3bff645f0c7acad35 Linux 4.14.328
-73992d8aec218c101b7ede9c1e46d361c2ac5c3f i2c: sun6i-p2wi: Prevent potential division by zero
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd5638bc06a6-990ad4a3cd6d.txt
+Content-Disposition: attachment; filename=revlist-5eedcdd3caf8-4a82dfcb8b4d.txt
 
 15f12d6bfd9684ce2055df408cb3ece5c32bb54b erofs: ensure that the post-EOF tails are all zeroed
 aabcb86b9e834a1de1cf3d41a74fbb1a09b6b2f2 ARM: pxa: remove use of symbol_get()
@@ -836,13 +835,12 @@ a714491fa92d2068358dd603cc50bf2062517bd8 perf: Disallow mis-matched inherited gr
 942cab53cc51b20dfb9f51172e10fb6fe1d3b19f Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 0939d7817d5c0dc3900527a54d1cdec2e9f8fe78 xfrm6: fix inet6_dev refcount underflow problem
 4a82dfcb8b4d07331d1db05a36f7d87013787e9e Linux 4.19.297
-990ad4a3cd6de41e2d9b26416a99e67606dd5d1d i2c: sun6i-p2wi: Prevent potential division by zero
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e98e1cd33b8c-7f4745f7f5cc.txt
+Content-Disposition: attachment; filename=revlist-2c3518bcb632-f04c6e69c692.txt
 
 8c599aa78ce56f23c509cf9dae14558f050af59b erofs: ensure that the post-EOF tails are all zeroed
 c1112a2b54ce099eddb11dc0a9a583bc5f8dc454 ARM: pxa: remove use of symbol_get()
@@ -1757,18 +1755,15 @@ b423509bc99c7c7a7e31d0daa858bca9c45e5f54 Bluetooth: hci_sock: fix slab oob read 
 5d5680755bcef70b484602f16de40fcb324cb784 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 657a3ca8236c45a3b5358985c807991e0697dabf xfrm6: fix inet6_dev refcount underflow problem
 cb49f0e441ce7db63ef67ccfa9d9562c22f5d6c3 Linux 5.10.199
-7f4745f7f5cc71d950f8bcc7896fae21630df4fc i2c: sun6i-p2wi: Prevent potential division by zero
+8abf187b80b82366fe599c426efeaa574c87b310 i3c: Fix potential refcount leak in i3c_master_register_new_i3c_devs
+f04c6e69c6928de67ade05f5f09e6de9406f5196 rtc: pcf85363: fix wrong mask/val parameters in regmap_update_bits call
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-97f98d8e200f-204f92d342e6.txt
+Content-Disposition: attachment; filename=revlist-eb05010ff962-27e39749dbd4.txt
 
-7dcbc0bb0e5cc1823923744befce59ac353135e6 bpf: reject unhashed sockets in bpf_sk_assign
-802008e8c73a5e2e2e6cc3e2d4bf52de0f3eb4ff ipv6: Add reasons for skb drops to __udp6_lib_rcv
-2ff9ac0cf25f3fad9a466e2528c06812b8ab8c89 wifi: mt76: testmode: add nla_policy for MT76_TM_ATTR_TX_LENGTH
-890843254f387d598caef64efe33c819634ebee5 spi: tegra20-sflash: fix to check return value of platform_get_irq() in tegra_sflash_probe()
 5c75a43795899d1770d16ac295a9199cb5a049d3 can: gs_usb: gs_usb_receive_bulk_callback(): count RX overflow errors also in case of OOM
 a20b96cf6925533c5182b495653a7c51bce58e59 wifi: mt76: mt7915: fix power-limits while chan_switch
 7c54b6fc39eb1aac51cf2945f8a25e2a47fdca02 wifi: mwifiex: Fix OOB and integer underflow when rx packets
@@ -2785,16 +2780,20 @@ a6df96ee0b453373e2b786d636628c00449f834f Bluetooth: hci_sock: fix slab oob read 
 5a9d05a4f1c3f2fdd6719c26e8da68f98a8d8450 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 dff33880d40ac6e8115822e1602dbbac9e1e1f28 xfrm6: fix inet6_dev refcount underflow problem
 12952a23a5da6459aaaaa3ae4bc8ce8fef952ef5 Linux 5.15.137
-7729ca79232d8e9bc7cfe64fc2b59d67fca927b5 i3c: mipi-i3c-hci: Fix out of bounds access in hci_dma_irq_handler
-eb956a97decca5ff28acfdf4c2ce67678e28d9b4 i2c: sun6i-p2wi: Prevent potential division by zero
-01a0d612231a23e3bfba813fdc2cb2237e2b0a8e virtio-blk: fix implicit overflow on virtio_max_dma_size
-204f92d342e66e366e4ea3518217dc031cfe572a i3c: master: mipi-i3c-hci: Fix a kernel panic for accessing DAT_data.
+19a38c7cb0b7031a711e320d282e66e03eda467b i3c: Fix potential refcount leak in i3c_master_register_new_i3c_devs
+21337845206ce15092ca3c8e20786f21d23efadd cxl/pci: Make 'struct cxl_mem' device type generic
+91a2eaa2c27261ea99c5617af6635d5152efcbf8 cxl/pci: Clean up cxl_mem_get_partition_info()
+9dc4d26fa64e956165d0efd57bf163253f8cb6a2 cxl/mbox: Introduce the mbox_send operation
+8e50d02c6b2ed6974e44fffd0c7d4d780085b19b cxl/pci: Drop idr.h
+8192d1be7d6118380e4ab3411e6a5ac4d46b87b8 cxl/mbox: Move mailbox and other non-PCI specific infrastructure to the core
+f99500b3faea822751bf8e5bc4f543611af2bfc4 cxl/mem: Fix shutdown order
+27e39749dbd483331b67ccdd26f0b1e5326978db rtc: pcf85363: fix wrong mask/val parameters in regmap_update_bits call
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c2544add9fc-a18750779574.txt
+Content-Disposition: attachment; filename=revlist-1122915ae688-467a398b2753.txt
 
 e83f5d13cb73c175db42161a7c41028bdf02127e erofs: ensure that the post-EOF tails are all zeroed
 7a67c5d93292b41a37e38f8fd728e0c7046d08d3 ARM: pxa: remove use of symbol_get()
@@ -3408,13 +3407,14 @@ a0f0e43128f3512ecb0a6aaf266712839c49401d phy: mapphone-mdm6600: Fix pinctrl_pm h
 b849a38e187d2fdbe58ee4623694bdff59c392a8 Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
 c01ac092d97ca8db8aeed8ec538afb0a55cbb009 xfrm6: fix inet6_dev refcount underflow problem
 86ea40e6ad22d9d7daa54b9e8167ad1e4a8a48ee Linux 5.4.259
-a18750779574cb347ed6384047653a32879d63b5 i2c: sun6i-p2wi: Prevent potential division by zero
+131404c7dc9466410f032840fe1d011853420248 i3c: Fix potential refcount leak in i3c_master_register_new_i3c_devs
+467a398b2753bbb3b25d18d320113b69e42417ed rtc: pcf85363: fix wrong mask/val parameters in regmap_update_bits call
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-626c19bea2ce-7c2737f916c4.txt
+Content-Disposition: attachment; filename=revlist-e96073badae3-41cb9c7affe1.txt
 
 f4618f1316294abf5088d3a32f38a6ba19ce08f9 perf tools: Handle old data in PERF_RECORD_ATTR
 c29bfda64b44bc20b99a2d86fc7db9c1e4cb8931 perf hists browser: Fix the number of entries for 'e' key
@@ -4434,31 +4434,19 @@ fcefddf3a151b2c416b20120c06bb1ba9ad676fb ext4: fix BUG in ext4_mb_new_inode_pa()
 2afa9f7eb15c6936e8795fd450d7ba5a4b799bdc ext4: avoid overlapping preallocations due to overflow
 5926b0886d0cb94a90a42712b2608d1c25ff6e84 objtool/x86: add missing embedded_insn check
 4a61839152cc3e9e00ac059d73a28d148d622b30 Linux 6.1.61
-fcb3dc942bf48c50c5b516e00280c4a4b84f9d85 i3c: mipi-i3c-hci: Fix out of bounds access in hci_dma_irq_handler
-bc1fc336c0734aa3a0121132284ecabedb611c64 i2c: fix memleak in i2c_new_client_device()
-e1293117dd624c8dc001f6e511cb6f591423bbf1 i2c: sun6i-p2wi: Prevent potential division by zero
-d5b1da2b1e704eddf6e29af18231b760d94dc95c virtio-blk: fix implicit overflow on virtio_max_dma_size
-4b6f14353e27cdb3646319adbd74e2b7b757438e vhost-vdpa: clean iotlb map during reset for older userspace
-7c2737f916c4d8f19c380250a5fce06dd9c8899b i3c: master: mipi-i3c-hci: Fix a kernel panic for accessing DAT_data.
+bd4cb817fdd84f6e4ab5abbd872f3ccff40c7650 i3c: Fix potential refcount leak in i3c_master_register_new_i3c_devs
+af35e8d233150895a838a27489c321bfa5bf1019 cxl/mem: Fix shutdown order
+4339ae1f8a1533dbc0079fa94273e854129a8e54 crypto: ccp - Name -1 return value as SEV_RET_NO_FW_CALL
+7a21c75672225c3b7d559fe17cbfbb3e1a309cfe x86/sev: Change snp_guest_issue_request()'s fw_err argument
+b6f51fff621ef6b70764fa9c6533fe80bbea6628 virt: sevguest: Fix passing a stack buffer as a scatterlist target
+41cb9c7affe132c71957d914c69a3cd292da1a90 rtc: pcf85363: fix wrong mask/val parameters in regmap_update_bits call
 
---===============2501984459142118640==
+--===============4032441263440029238==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-931c0084650e-6b5fc0f1b3c1.txt
+Content-Disposition: attachment; filename=revlist-e77a60b4e285-d2421df18f87.txt
 
-8d11e1e0aa21adf1443043710ce548e57f098757 NFS: Fix O_DIRECT locking issues
-0449e8f4ceffeb83ead1add788056f47f0240f06 NFS: More O_DIRECT accounting fixes for error paths
-ad986ce7ef8ad782ccf9adaf709a4af03aaf87eb NFS: Use the correct commit info in nfs_join_page_group()
-8d847b5c51c1a3367949c5d9e85a083e04f3513e NFS: More fixes for nfs_direct_write_reschedule_io()
-5110e5473f83ff953bfd2c428f3f62a57ca6ff66 NFS/pNFS: Report EINVAL errors from connect() to the server
-7b5955944a948f161a457fff78e502e1cea21407 SUNRPC: Mark the cred for revalidation if the server rejects it
-0317d19e26e3560fff44e2bb0c5a0ca5d215dfe5 NFSv4.1: use EXCHGID4_FLAG_USE_PNFS_DS for DS server
-d1db10f1918d19a00fe5257082a0f3d6ab9f3699 NFSv4.1: fix pnfs MDS=DS session trunking
-4945a4af14954daeebe1e485919b42312127204b media: v4l: Use correct dependency for camera sensor drivers
-6f54da8aaee78dc4d2d834bd65558de01c7be537 media: via: Use correct dependency for camera sensor drivers
-b839de5296cc14be21c1e51753acdbadca5ffc98 gfs2: Fix another freeze/thaw hang
-d9f5537479d4ec97ea92ff24e81a517d5772581a netfs: Only call folio_start_fscache() one time for each folio
 e6dbd0bb6946e31d647a9460f56800bc96f21173 btrfs: improve error message after failure to add delayed dir index item
 d10fd53393cc5de4b9cf1a4b8f9984f0a037aa51 btrfs: remove BUG() after failure to insert delayed dir index item
 6f41e50bf16a87e27b359192e555e5d7cb462c31 ext4: replace the traditional ternary conditional operator with with max()/min()
@@ -5464,12 +5452,24 @@ a5c9f62896253d8d83bb674c7eaadc18ff23780c platform/x86: Add s2idle quirk for more
 cdb4daffc2d428f2ea5ffa7fb388e82792eeb518 mm/damon/sysfs: check DAMOS regions update progress from before_terminate()
 062c1ba88b4f083732c447b748bbe5877d2e1adc accel/ivpu/37xx: Fix missing VPUIP interrupts
 43a868577dfcd9be6930453dc5ec557ab2e9ad89 Linux 6.5.10
-452bfd19811b9cefe4d256af0a2d62a45d959cab i3c: mipi-i3c-hci: Fix out of bounds access in hci_dma_irq_handler
-36337ba1ad659ef858b55c6a8b77418c99447d37 i2c: i801: Add support for Intel Birch Stream SoC
-d71afdd17cfa941e32ef2e7552fb853f80219d67 i2c: fix memleak in i2c_new_client_device()
-433913acfbe5412cfd2bf1e7293fe680fa038964 i2c: sun6i-p2wi: Prevent potential division by zero
-ee8385833bf307849d2b9ea8f3cf53af74260a13 virtio-blk: fix implicit overflow on virtio_max_dma_size
-207861fe8521166795b922f5881afedcdecff29b vhost-vdpa: clean iotlb map during reset for older userspace
-6b5fc0f1b3c1e954a49115df1cc138bda0fcf9e7 i3c: master: mipi-i3c-hci: Fix a kernel panic for accessing DAT_data.
+4c1534a9214a638ba2b81badf031d7b02441ff67 i3c: Fix potential refcount leak in i3c_master_register_new_i3c_devs
+c0b11dde5a040c82b5536fe0fa2a075fb34d137f rtc: brcmstb-waketimer: support level alarm_irq
+f22169b9d54fcd32a47afe07e6b5314f8aa897c2 cxl/pci: Remove unnecessary device reference management in sanitize work
+d59243c7ae65e1dd92998d436d733d36d1f7eaf8 cxl/pci: Cleanup 'sanitize' to always poll
+ccbf5937c87ee65e94070fde210c169861cf2405 cxl/pci: Remove inconsistent usage of dev_err_probe()
+dafacb8f0dd6b6baaa05a4291b1004e96b993ee7 cxl/pci: Clarify devm host for memdev relative setup
+436b4ad5de8cd5de352b7a11d08afd5fa7722572 cxl/pci: Fix sanitize notifier setup
+182c46c0c7993fd503907b0d21a53b9fcf5c8716 cxl/memdev: Fix sanitize vs decoder setup locking
+96fc24ff5edc526574679de076ecd041236d2b63 cxl/mem: Fix shutdown order
+4b0e94c40771f2d72d58d8120c370e36a56a4bf7 virt: sevguest: Fix passing a stack buffer as a scatterlist target
+b263b6c478a05e5685316a329ab4d4f3b6a2de11 rtc: pcf85363: Allow to wake up system without IRQ
+9262c245cb84607a0aebae9f7ba3aedf94e510f3 rtc: pcf85363: fix wrong mask/val parameters in regmap_update_bits call
+5fb19cc269c6beab8259e0459b12c516e82126de cxl/region: Prepare the decoder match range helper for reuse
+c440acd47829d3fccbbff98042a205c38998b182 cxl/region: Calculate a target position in a region interleave
+0c472b3892f02409f29260a5dea64621c3cb2cb0 cxl/region: Use cxl_calc_interleave_pos() for auto-discovery
+ceec0a7fc0383622a3964f946b8a22e7d77927f6 cxl/region: Fix cxl_region_rwsem lock held when returning to user space
+3fbd55a6f7b3c9bc1efc0e65b981fdef7f69b311 cxl/core/regs: Rename @dev to @host in struct cxl_register_map
+6b03d53ef6a0d2c3bdda5bef4fe96672a71876dd cxl/port: Fix @host confusion in cxl_dport_setup_regs()
+d2421df18f8758cbfaccb27caeef08a42f790ed0 cxl/hdm: Remove broken error path
 
---===============2501984459142118640==--
+--===============4032441263440029238==--
