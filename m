@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3540857015965745362=="
+Content-Type: multipart/mixed; boundary="===============6884131586899056705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 07 Nov 2023 15:26:11 -0000
-Message-Id: <169937077185.735.6175550582683167520@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 15:26:15 -0000
+Message-Id: <169937077549.850.12160592375300072383@gitolite.kernel.org>
 
---===============3540857015965745362==
+--===============6884131586899056705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.mount
-    old: 9b8879c4124d7313b6ca2301d44be30e71c6dd2e
-    new: b408a362c66c35279f322b13fd75946444a17ddd
-    log: revlist-9b8879c4124d-b408a362c66c.txt
+  - ref: refs/heads/vfs.all
+    old: c1279eea49893214ffbbb5da09ac7d77dd5f544d
+    new: bb04c104612f4914d51e4f842fc77cd432ba580b
+    log: revlist-c1279eea4989-bb04c104612f.txt
 
---===============3540857015965745362==
+--===============6884131586899056705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b8879c4124d-b408a362c66c.txt
+Content-Disposition: attachment; filename=revlist-c1279eea4989-bb04c104612f.txt
 
-24407a01e57c07aa919279ce85495ad38680cc39 ice: Add 200G speed/phy type use
-2777d24ec6d1c0b1bbebb5142465b29c116094e6 ice: Add ice_get_link_status_datalen
-3cbdb0343022a2ca672cd8913e745cede24b365c ice: Add support for E830 DDP package segment
-f8ab08c0b769e69a8f6773ab6ffcb44a8d5e57a2 ice: Remove redundant zeroing of the fields.
-ba20ecb1d1bb52173d8599c9c613c73adadd5225 ice: Hook up 4 E830 devices by adding their IDs
-dbc0fd481cd05bc5000136245ba49501d568936e Merge branch 'intel-wired-lan-driver-updates-for-2023-10-25-ice'
-39763480dd19fae66c0051a5f42d1ee4dfdc18cb 9p/net: xen: fix false positive printf format overflow warning
-e02be6390d6fddae6b4b9053caea9fc5ca011f32 9p/fs: add MODULE_DESCIPTION
-ce07087964208eee2ca2f9ee4a98f8b5d9027fe6 9p/net: fix possible memory leak in p9_check_errors()
-cc54d2e2c58a40a82dfd39afa95d3d27f3d6509d MAINTAINERS: Remove linuxwwan@intel.com mailing list
-40ea89fb19fdb73472f63a4b00c728ebb55af1b5 uacce: make uacce_class constant
-e6b3d55b67d00c084a2b98c594330411fb4ebeac tty: n_gsm: add copyright Siemens Mobility GmbH
-eefed7662ff223f70ba8b1af07f1a096a5ece588 xfrm: policy: fix layer 4 flowi decoding
-b131329b9bfbd1b4c0c5e088cb0c6ec03a12930f pmdomain: amlogic: Fix mask for the second NNA mem PD domain
-9e0cceadb7a5099c637e787191a9adbf9ec424cd pmdomain: Merge branch fixes into next
-efc3d7d20361cc59325a9f0525e079333b4459c0 ALSA: scarlett2: Rename scarlett_gen2 to scarlett2
-f3c42a2da45f87d84bd046e83d1e964d7c41dbb5 ALSA: scarlett2: Rename Gen 3 config sets
-701949cc01283675054636f741f505f2627454b7 ALSA: scarlett2: Add support for reading firmware version
-2190b9aea4eb92ccf3176e35c17c959e40f1a81b ALSA: scarlett2: Allow passing any output to line_out_remap()
-3473185f31df29ac572be94fdb87ad8267108bec ALSA: scarlett2: Remap Level Meter values
-fe981e67568c41de6caae25d70b5f203b94452cc ALSA: virtio: use ack callback
-800dce42777cb720fbfb731a8efc36892a1d84ad Merge tag 'icc-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-8c73b26315aadb82218360d0a9a05e515f6e4118 net/tcp: Prepare tcp_md5sig_pool for TCP-AO
-c845f5f3590ef4669fe5464f8a42be6442cd174b net/tcp: Add TCP-AO config and structures
 4954f17ddefc51d218625dcdfaf422a253dad3fa net/tcp: Introduce TCP_AO setsockopt()s
 0aadc73995d08f6b0dc061c14a564ffa46f5914e net/tcp: Prevent TCP-MD5 with TCP-AO being set
 7c2ffaf21bd67f73d21560995ce17eaf5fc1d37f net/tcp: Calculate TCP-AO traffic keys
@@ -681,11 +657,25 @@ f0f59d069e0a33bd43afe664e16b4a86cf9d079c Merge tag 'kvm-x86-mmu-6.7' of https://
 e122d7a1008769af080b9dbd78fce54d3cd77f6f Merge tag 'kvm-x86-xen-6.7' of https://github.com/kvm-x86/linux into HEAD
 d5cde2e0b317bb179a39204b4a7820ac8b9011cc Merge tag 'kvm-x86-pmu-6.7' of https://github.com/kvm-x86/linux into HEAD
 be47941980d56238455eb54401c7b3de4ac5e269 Merge tag 'kvm-x86-svm-6.7' of https://github.com/kvm-x86/linux into HEAD
+010a9ef080b924dbc6df059f4b6acbd770dc2ba2 fs: massage locking helpers
 70bbeb29fab09d6ea6cfe64109db60a97d84d739 dm delay: for short delays, use kthread instead of timers and wq
 a951104333bd25bb6e5d0f5bee9cbf155b66fac1 dm error: Add support for zoned block devices
 6d0ee3b68092ef556703d7827ead3d1b7d275399 dm crypt: use crypto_shash_digest() in crypt_iv_tcw_whitening()
 070bb43ab01e891db1b742d4ddd7291c7f8d7022 dm integrity: use crypto_shash_digest() in sb_mac()
 89ed67ef126c4160349c1b96fdb775ea6170ac90 Merge tag 'net-next-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+39dbcf77d7f4d159aac5cc63bbddd11a4309aed2 bdev: rename freeze and thaw helpers
+112412315ce7b4d0651dd6f7f5a1a2c6a6fe62d1 bdev: surface the error from sync_blockdev()
+f0ed1cc2de6579597bccf78f73ae03ab9b5bf344 bdev: add freeze and thaw holder operations
+288d8706abfc6a8d216cee36b9ae59214e5d12ef bdev: implement freeze and thaw holder operations
+94c7c97e8aba93c17eca610e195564927ae3e171 fs: remove get_active_super()
+c4f5558fbdb1dee8eb20b013dbfee8cb9f450161 super: remove bd_fsfreeze_sb
+fc3c5d4c6af45c0d59409e3334ef977b6850cc92 fs: remove unused helper
+1c09136441bfddeeee61d5917991cb86297f4503 porting: document block device freeze and thaw changes
+53d9147b2d6c6de7bddefce2656134141cc83c57 blkdev: comment fs_holder_ops
+65c0f9b19b9091c96c88566dfbb614a08d2ad0b1 fs: simplify setup_bdev_super() calls
+b86cf097997f65dfc068796a1062400b0a8401bc xfs: simplify device handling
+59b2053e35a48f9b492b923b55cfbb264039543c ext4: simplify device handling
+cc9183e0a3e76cf3423c2f791feec7bf574185ea fs: streamline thaw_super_locked
 4b27d5c420335dad7aea1aa6e799fe1d05c63b7e ACPI: thermal: Fix acpi_thermal_unregister_thermal_zone() cleanup
 72bc63f5e23a38b65ff2a201bdc11401d4223fa9 smb3: fix creating FIFOs when mounting with "sfu" mount option
 dc6e08b1a2ae262c23e14f5c259b4ca63a554e4f ALSA: hda: cs35l41: Fix missing error code in cs35l41_smart_amp()
@@ -953,6 +943,7 @@ db3a397209b00d2e4e0a068608e5c546fc064b82 eventfs: Have a free_ei() that just fre
 426ee5196d1821d70192923e70c0f8347faade47 Merge tag 'sysctl-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 21e80f3841c01aeaf32d7aee7bbc87b3db1aa0c6 Merge tag 'modules-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 63f1ee206170ad2363aa25fd99bd5ae529c690ae locking/atomic: sh: Use generic_cmpxchg_local for arch_cmpxchg_local()
+e8ccc6f5ff414fdfef3a627e7d92488ee86e6d32 nilfs2: simplify device handling
 adb982ad4b9d691f707061fbe90eff80d391a0ef Merge branch 'for-6.7' into for-linus
 86098bcddeb10ae7975d701c3440d912bd2ebe12 Merge branch 'rework/misc-cleanups' into for-linus
 2966bd3698451a2172a57e7e97eebb4adbfc48a2 Merge branch 'rework/nbcon-base' into for-linus
@@ -1043,12 +1034,21 @@ c12d7aa7ffa4c61443241fbc1ee405acf4aa17de firewire: Annotate struct fw_node with 
 77fa2fbe87fc605c4bfa87dff87be9bfded0e9a3 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 7b2c9e41e73fbe50f519072009b1e624ea230163 Merge tag 'mailbox-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 d2f51b3516dade79269ff45eae2a7668ae711b25 Merge tag 'rtc-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+9745915cc5e03b6c0cc2e3d302ce0617adba8342 fs: remove dead check
+03630940f6225d64cab8478e524b5613b6da81fa fs: handle freezing from multiple devices
+8e897399352cb58ca0744d9677e4ce65d28aaca7 bcachefs: Convert to bdev_open_by_path()
+1dc2789bf2d99480a53aa31e11e6035a211c96c7 block: Remove blkdev_get_by_*() functions
+708e8ecda49ead6ac5e4c7b75b5a3562667c70b4 block: Add config option to not allow writing to mounted devices
+b6b2f4843264e06da61fd8f88087f8a4c0ec7d3d btrfs: Do not restrict writes to btrfs devices
+48ce483465bbea787d356b6152e3efaaf83429e0 fs: Block writes to mounted block devices
+dae1e956882c55a643b7a83397b5a5035de77872 xfs: Block writes to log device
+a8a97da123939339a0543284422d7530d02c3f58 ext4: Block writes to journal device
 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff Merge tag 'media/v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-47463362083060d3b7b3577edbfd60eb3d327aad add unique mount ID
-0f1d49ec51b1146621edfb8e11135cda24538bb5 mounts: keep list of mounts in an rbtree
-56e28938f7166bfb2e0c59a49dc8b33bc6f25201 namespace: extract show_path() helper
-eb0c15a2e39282717d03591c5e4596a8df17e0e9 add statmount(2) syscall
-87c8643b2454485934a7f51271cc7969433191d0 add listmount(2) syscall
-b408a362c66c35279f322b13fd75946444a17ddd wire up syscalls for statmount/listmount
+64bc7eee421fafc5d491d65bff74f46430fe61af iomap: rename iomap entry
+f9d190fb4572c459fced8e226abfd977c669e407 vfs: remove a redundant might_sleep in wait_on_inode
+4ad714df58e646d4b2a454a7dface8ff903911c4 MAINTAINERS: create an entry for exportfs
+495950c44a32c1ea6e9e30b296968b5b5a805feb Merge branch 'vfs.misc' into vfs.all
+ea887daf23fbe0c35f38b460e3f304b09fb5f32a Merge branch 'vfs.super' into vfs.all
+bb04c104612f4914d51e4f842fc77cd432ba580b Merge branch 'vfs.f_fsid' into vfs.all
 
---===============3540857015965745362==--
+--===============6884131586899056705==--
