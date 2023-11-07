@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Tue, 07 Nov 2023 15:59:38 -0000
-Message-Id: <169937277839.24156.13425492271215868474@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 16:00:48 -0000
+Message-Id: <169937284806.26274.13973078812546274223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 1ea2e228d6cdc2f470acce72198d095379510c29
-    new: 8e816531ca6d0e15b47bae40b967ae30cf19e4bc
+    old: 8e816531ca6d0e15b47bae40b967ae30cf19e4bc
+    new: 8ad0dc3508d960d19d1640373a8c8603bff9eec3
     log: |
-         8e816531ca6d0e15b47bae40b967ae30cf19e4bc Add a callback parameter to '__connman_wispr_start'.
+         8ad0dc3508d960d19d1640373a8c8603bff9eec3 Expand DBG content in WISPr 'wispr_portal_request_portal'.
          
