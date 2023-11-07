@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1117909992620611821=="
+Content-Type: multipart/mixed; boundary="===============5879488521787835878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 07 Nov 2023 11:34:21 -0000
-Message-Id: <169935686115.26817.8685046524695246105@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 11:34:24 -0000
+Message-Id: <169935686478.26890.1191314702522906886@gitolite.kernel.org>
 
---===============1117909992620611821==
+--===============5879488521787835878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: d2f51b3516dade79269ff45eae2a7668ae711b25
     new: be3ca57cfb777ad820c6659d52e60bbdd36bf5ff
     log: revlist-d2f51b3516da-be3ca57cfb77.txt
 
---===============1117909992620611821==
+--===============5879488521787835878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699356860 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699356864 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1699356859-de706d3815261028bdbc0151a88528ecabed588f
+nonce 1699356863-5f42c7ef05194e2b1042b10afe9270bc8c9483d4
 
-d2f51b3516dade79269ff45eae2a7668ae711b25 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff refs/heads/staging-next
+d2f51b3516dade79269ff45eae2a7668ae711b25 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVKILwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VjsP/iNIWaROY9B27T00+/xx
-4wajIjRABJdWo6sKNzjaFB5pQLfyiv4TNwTwg79SGcRBOEgh6jksuYtBY/BLfZCz
-wy71s0mymG/Vr5Zg4JLDJM5jAqlzzeXK3Np18rJNxxn753V/PkFlTQaLM5gJW3Mp
-k41O5n0lVl2iNFkcksq+tNLREuuxv9RsA0ezm9R1ybVQoYCC9dfJUT2CfRo7Yhp4
-PP+OevhKA5+bOEosHq2DlbN6DO7M/fLR3TJLzVmcQlQpplDWTHiqCdHJKJfq62Ze
-ycJ8aF1Q5M/mX887P2BIhNxS6ho4oGMTC8rLCAUOJCUa3Hh+d+0ZoLLT4ve2l3nQ
-JNukWyw/Ele+eLsE1/6NiYLet/QzogZY9LnHeZhy+v7yNZI0o48sxfRLLYX93b5E
-OZetXV7GLGik9FEa/RE/d71X6iSsgb2FONDz+zNLQImSzyxO6+30ePP1jQMLoLR0
-sktKE9OfnuCDx0VL8GKJWKC+2xjAGH4isv+UBQ1ed+lH8wk3XhJW89y9Hy50ZCTn
-X7ii/0uuIuGgt8NH+kqaJjF5/sW/pkZfYDH4ouJb3y86MvebeomkuiZsRdAfWnBe
-JKvunAvalmcrhHzaAoHomWsukIlIQZWFJvdBY9MZtqTrxImLQf8Q2YS8G+q7FFFr
-EfHvVNFbNeE5gYNAIjh2PFYC
-=0syv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVKIMAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GWkQAI9Y5ve2luSQjt19Fg4E
+pkfl3GCmenwdZyFyPaMtwoAkktqnpznvGhz/hh6b7zyXgRdHsgAIBRRefBEdsec5
+CsMhABAClCORjD3EwVdc2S2B2QPDOEKbxqsW5iXv+9OqMn4dyfH61iT3ioUzkGDS
+gdsaf4vKXW1ZuZ2LgvsjfcJldN0QzGB4vF2tGxSQL5rVnetMMfkj1QMcXPUbWxsl
+ZIeTwTl/s24dyBdjbAIm+XfFEwk/nPhJoGK+ZQIPexsTdBVhW7D183RK81ImRsC7
+QTDwQi9ZprUIvG3FujRdC4swfRbc2YEqbQx5oKkor/kyneIN6FI6LDC50WcZzdWY
+rVi1qDKInkcYkHyQZzpdw0Lm7TNz59jTYJQzFjW3xPA7gP4ak7Xmj9+to4e5F2hU
+ERGqOXMLkb5puRw6UxrsmiKWeA1+CqxvfIQmnw4SmGurMMfPCN9Lq6vQItP4Yj4m
+uLwBiwqiLo+YtRy+o3fjfbFbtXhikLPqBMg+XI4j8hvZ1v/G8+Ga6pzU73P3Dhko
+R8zzug6YAVdIQbp5j6y4nxyam4T63/k31prNr746GfVhOABgv0s0PVti8L/FDO08
+O5upY0YYkgC0E9nT5kxZuQk8DRHcrWeljdNm7Fa8Lw4nBuCtMSdWFhFkt1r31vH+
+HhlnSxDTYMQ8myhD4niMig62
+=Gnip
 -----END PGP SIGNATURE-----
 
---===============1117909992620611821==
+--===============5879488521787835878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -436,4 +436,4 @@ b18e36dfd6c935da60a971310374f3dfec3c82e1 media: venus: hfi: fix the check to han
 3e238417254bfdcc23fe207780b59cbb08656762 media: nuvoton: VIDEO_NPCM_VCD_ECE should depend on ARCH_NPCM
 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff Merge tag 'media/v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============1117909992620611821==--
+--===============5879488521787835878==--
