@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2195135562874254488=="
+Content-Type: multipart/mixed; boundary="===============1117909992620611821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 07 Nov 2023 11:34:17 -0000
-Message-Id: <169935685747.26722.16971098056446204922@gitolite.kernel.org>
+Date: Tue, 07 Nov 2023 11:34:21 -0000
+Message-Id: <169935686115.26817.8685046524695246105@gitolite.kernel.org>
 
---===============2195135562874254488==
+--===============1117909992620611821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: d2f51b3516dade79269ff45eae2a7668ae711b25
     new: be3ca57cfb777ad820c6659d52e60bbdd36bf5ff
     log: revlist-d2f51b3516da-be3ca57cfb77.txt
 
---===============2195135562874254488==
+--===============1117909992620611821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699356856 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699356860 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1699356856-8dbf462899d37e2fddc95143e5c5bac3ebef6609
+nonce 1699356859-de706d3815261028bdbc0151a88528ecabed588f
 
-d2f51b3516dade79269ff45eae2a7668ae711b25 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff refs/heads/staging-linus
+d2f51b3516dade79269ff45eae2a7668ae711b25 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVKILgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EKQP/1ftgYmJFsEozYBk+klm
-rg15lpKI7CualxyFuVoNghBiYwpRbpNGtiYMN1eq0siWdndvm7gv3o4ExBX+9CQB
-5et2JLqfsro7wH4iqjhBGeFiBBxPHNYPqJDuRw6Kl8V+7+My1ODN7I+MoCiZcZ6Y
-j4Dbvbqzsblo4xMpMbl1g4QkpRxFpb1uOkOKHR/yGjE/UY8KCtS5SJDgA7GnASHK
-sLcFTJKXAMWXVwzLOYuCYm6/J4EwY4dqa1rxjEN6vD7wcaE9aVrV6i9c6ed+4DjD
-AP3b9xh1E2YZhTnpE6JQyUdpqXNgF4iYn+LrVYKyB9CSPjo14NtJ3J+VefSfPB+w
-2ckRAKZQbEZ7uJaSAAd5cI2XPcX8IGTG+VgunJJk0fetnrf3WBXE6A7mBtrKdSUq
-C+UyFzlg/YeJUn791yx5pT3M7OcHTsqnjhxGpi4IcR/EZmvAXHW9Qlj31BgmrEhg
-Izzy4rMn6H57DvH2ICE254oeiS+vhZeM2FdJ/LKVYZxAocADRxM0kKxBlvsOtzxY
-4HqwdjUkRDEYPUaY0Xy8YJYVEBY7/AkFIcp+R95N0KUhCD35ASeuwFOZpq4aigVZ
-6e9oi/RByQmsEOexDF56V6MwyfXO5IjCj3dFbfp+72x8JdyilSLl3FZ30W/IgX16
-V/snMpiT6wPiFb5FTGf4AycL
-=CtzO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVKILwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VjsP/iNIWaROY9B27T00+/xx
+4wajIjRABJdWo6sKNzjaFB5pQLfyiv4TNwTwg79SGcRBOEgh6jksuYtBY/BLfZCz
+wy71s0mymG/Vr5Zg4JLDJM5jAqlzzeXK3Np18rJNxxn753V/PkFlTQaLM5gJW3Mp
+k41O5n0lVl2iNFkcksq+tNLREuuxv9RsA0ezm9R1ybVQoYCC9dfJUT2CfRo7Yhp4
+PP+OevhKA5+bOEosHq2DlbN6DO7M/fLR3TJLzVmcQlQpplDWTHiqCdHJKJfq62Ze
+ycJ8aF1Q5M/mX887P2BIhNxS6ho4oGMTC8rLCAUOJCUa3Hh+d+0ZoLLT4ve2l3nQ
+JNukWyw/Ele+eLsE1/6NiYLet/QzogZY9LnHeZhy+v7yNZI0o48sxfRLLYX93b5E
+OZetXV7GLGik9FEa/RE/d71X6iSsgb2FONDz+zNLQImSzyxO6+30ePP1jQMLoLR0
+sktKE9OfnuCDx0VL8GKJWKC+2xjAGH4isv+UBQ1ed+lH8wk3XhJW89y9Hy50ZCTn
+X7ii/0uuIuGgt8NH+kqaJjF5/sW/pkZfYDH4ouJb3y86MvebeomkuiZsRdAfWnBe
+JKvunAvalmcrhHzaAoHomWsukIlIQZWFJvdBY9MZtqTrxImLQf8Q2YS8G+q7FFFr
+EfHvVNFbNeE5gYNAIjh2PFYC
+=0syv
 -----END PGP SIGNATURE-----
 
---===============2195135562874254488==
+--===============1117909992620611821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -436,4 +436,4 @@ b18e36dfd6c935da60a971310374f3dfec3c82e1 media: venus: hfi: fix the check to han
 3e238417254bfdcc23fe207780b59cbb08656762 media: nuvoton: VIDEO_NPCM_VCD_ECE should depend on ARCH_NPCM
 be3ca57cfb777ad820c6659d52e60bbdd36bf5ff Merge tag 'media/v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 
---===============2195135562874254488==--
+--===============1117909992620611821==--
