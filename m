@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Nov 2023 03:02:08 -0000
-Message-Id: <169941252839.21347.17137632480591802025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 08 Nov 2023 03:13:27 -0000
+Message-Id: <169941320761.29984.12517718747028162612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/main
-    old: 02d5fdbf4f2b8c406f7a4c98fa52aa181a11d733
-    new: f968c56417f00be4cb62eadeed042a1e3c80dc53
+  - ref: refs/heads/master
+    old: 20f13184f2ed0e58af4562f6fb3b88af9b1885ac
+    new: c574c80e27f4f2893b52dd29da5d00373088822f
     log: |
-         8999ce4cfc87e61b4143ec2e7b93d8e92e11fa7f r8169: respect userspace disabling IFF_MULTICAST
-         34c4effacfc329aeca5635a69fd9e0f6c90b4101 virtio/vsock: Fix uninit-value in virtio_transport_recv_pkt()
-         f968c56417f00be4cb62eadeed042a1e3c80dc53 net: enetc: shorten enetc_setup_xdp_prog() error message to fit NETLINK_MAX_FMTMSG_LEN
+         c574c80e27f4f2893b52dd29da5d00373088822f tree-wide: correct the spelling Ghz -> GHz
          
