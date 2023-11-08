@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 08 Nov 2023 00:01:30 -0000
-Message-Id: <169940169073.16889.262185867141916166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 08 Nov 2023 00:32:53 -0000
+Message-Id: <169940357302.6019.13232530248381580926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-6.7-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 99bce5182d8fe90e5c57e9d99f831baaa94f90cb
+  - ref: refs/heads/master
+    old: f51a23d2d121dfeb0741b7d2dede108362d44875
+    new: 9ce5a7a0c8bfef30fb6e9afb65c2c3aec67faaa2
+    log: |
+         9ce5a7a0c8bfef30fb6e9afb65c2c3aec67faaa2 libbpf: Fix potential uninitialized tail padding with LIBBPF_OPTS_RESET
+         
