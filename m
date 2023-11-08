@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Wed, 08 Nov 2023 13:04:56 -0000
-Message-Id: <169944869650.18031.3104599042913413807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Wed, 08 Nov 2023 13:08:47 -0000
+Message-Id: <169944892775.22301.4541340000776146105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/pwm/for-6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 0ac573080cbd323cb960822028a74c3621e5f3d9
+  - ref: refs/heads/master
+    old: 8c8547bfddd58b66c1ed254072bd0cfab2f671b6
+    new: 7552e5d9ed983ab8afcfce33ac507653d54d075b
+    log: |
+         7552e5d9ed983ab8afcfce33ac507653d54d075b bindings: rust: expose v2.1 features as flag
+         
