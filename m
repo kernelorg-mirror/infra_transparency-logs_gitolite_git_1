@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5858799615745779300=="
+Content-Type: multipart/mixed; boundary="===============1151385125318392331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 08 Nov 2023 09:23:22 -0000
-Message-Id: <169943540287.2316.4996825133526943470@gitolite.kernel.org>
+Date: Wed, 08 Nov 2023 09:23:45 -0000
+Message-Id: <169943542554.2525.8167518076705865924@gitolite.kernel.org>
 
---===============5858799615745779300==
+--===============1151385125318392331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.fixes
-    old: 03adc61edad49e1bbecfb53f7ea5d78f398fe368
-    new: 2a89865225280835c5f42df02e912b1dccb4df11
-    log: revlist-03adc61edad4-2a8986522528.txt
+  - ref: refs/heads/vfs.misc
+    old: 61d4fb0b349ec1b33119913c3b0bd109de30142c
+    new: 49595e1c89734fff61fdeb29dcb9f13046ff6fb4
+    log: revlist-61d4fb0b349e-49595e1c8973.txt
 
---===============5858799615745779300==
+--===============1151385125318392331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03adc61edad4-2a8986522528.txt
+Content-Disposition: attachment; filename=revlist-61d4fb0b349e-49595e1c8973.txt
 
 3b454b6390c32d5a6a31ee67f510095b138264d1 net: dsa: microchip: ksz9477: Add Wake on Magic Packet support
 78c21fca0b391792cb105e4a505bcba88ea737e1 net: dsa: microchip: Refactor comment for ksz_switch_macaddr_get() function
@@ -1049,6 +1049,6 @@ b8dd631fcabe2656c8d3751ad4836131d51fb63b Merge tag 'rproc-v6.7' of git://git.ker
 eaec7c9892bd565ffc7dcd32515b157011ca2323 Merge tag 'regmap-fix-v6.7-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 25b6377007ebe1c3ede773fd6979f613386db000 Merge tag 'drm-next-2023-11-07' of git://anongit.freedesktop.org/drm/drm
 305230142ae0637213bf6e04f6d9f10bbcb74af8 Merge tag 'pm-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-2a89865225280835c5f42df02e912b1dccb4df11 fs: Pass AT_GETATTR_NOSEC flag to getattr interface function
+49595e1c89734fff61fdeb29dcb9f13046ff6fb4 vfs: remove a redundant might_sleep in wait_on_inode
 
---===============5858799615745779300==--
+--===============1151385125318392331==--
