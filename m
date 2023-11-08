@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 08 Nov 2023 19:53:25 -0000
-Message-Id: <169947320501.12071.3189305308854499800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 08 Nov 2023 20:17:35 -0000
+Message-Id: <169947465561.29566.435170467754272782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/master
-    old: 355ffd6f0c7401271224639767f59f559acfee6b
-    new: 449068826e6d803c9ebeb35babbde1c8df725676
-    log: |
-         449068826e6d803c9ebeb35babbde1c8df725676 foo
-         
+  - ref: refs/tags/s390-6.7-2
+    old: 0000000000000000000000000000000000000000
+    new: b99b4d6de5d2deab3b46d4c0d353abc4aefade50
