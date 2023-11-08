@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 08 Nov 2023 21:53:33 -0000
-Message-Id: <169948041393.1085.4220412228474415847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 08 Nov 2023 21:54:59 -0000
+Message-Id: <169948049970.1776.13462929081625286139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 89550a63dd13cd5674d9fec2244100444a6ad853
-    new: a804384f3935dc7ad26530774cb1f0c4e18863c2
+    old: 3363476fe6994406fe31f2c8eae77eae2e094793
+    new: 4fe07109809436f928b2f3e7dc8575f6c04f4c69
     log: |
-         1edc7d01dd841df38f2eb733dafec105bdda1ed7 ice: Restore fix disabling RX VLAN filtering
-         a804384f3935dc7ad26530774cb1f0c4e18863c2 ice: fix DDP package download for packages without signature segment
+         0a22e9eb3bebed1cff848cf01a0b523b39e000ae ice: Restore fix disabling RX VLAN filtering
+         4fe07109809436f928b2f3e7dc8575f6c04f4c69 ice: fix DDP package download for packages without signature segment
          
