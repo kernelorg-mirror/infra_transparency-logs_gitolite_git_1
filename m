@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 08 Nov 2023 23:49:42 -0000
-Message-Id: <169948738234.21061.783750100046406850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 08 Nov 2023 23:54:56 -0000
+Message-Id: <169948769643.24649.1885101321741005142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: eac8889f29106f9eb98a1e74be69b22379868361
-    new: 95ab106f7959310af750ea0f5f0d0e97d94d11af
+  - ref: refs/heads/for-next/hardening
+    old: 1ee60356c2dca938362528404af95b8ef3e49b6a
+    new: b98cf399839e595e6949350ecba917ed7c9b1f7a
     log: |
-         95ab106f7959310af750ea0f5f0d0e97d94d11af foo
+         b98cf399839e595e6949350ecba917ed7c9b1f7a Fixed typo (args -> argc) in plugin description
          
