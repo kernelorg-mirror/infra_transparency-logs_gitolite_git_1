@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 08 Nov 2023 15:43:02 -0000
-Message-Id: <169945818275.14388.1525577103121871216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 08 Nov 2023 15:44:47 -0000
+Message-Id: <169945828738.15071.6774019341963471764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/tags/nf-23-11-08
-    old: 0000000000000000000000000000000000000000
-    new: 7c9f6585a7a5121f43362d707a2ef9e37d860f0b
-  - ref: refs/tags/v6.6
-    old: 0000000000000000000000000000000000000000
-    new: 5260836abb7056beed3f3f0d0e4262c11f36f0d0
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
+  - ref: refs/heads/for-next/core
+    old: 403edfa436286b21f5ffe6856ae5b36396e8966c
+    new: 4bb49009e07175266e8c5ffbd5d4c4b241c97f19
+    log: |
+         1d816ba168ea1999afe8cd2ccbe66b0e762bf455 arm64: Move MediaTek GIC quirk handling from irqchip to core
+         4bb49009e07175266e8c5ffbd5d4c4b241c97f19 Revert "arm64: smp: avoid NMI IPIs with broken MediaTek FW"
+         
