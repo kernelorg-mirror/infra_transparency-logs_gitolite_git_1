@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 08 Nov 2023 22:31:14 -0000
-Message-Id: <169948267444.30052.2328133306911086287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 08 Nov 2023 22:42:14 -0000
+Message-Id: <169948333493.6130.4689434789734522191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/sframe
-    old: b17988ff42f499cc1b3f7557079ee027b7af1f69
-    new: c8df320a6ccfe9df8146c2cad9e17133ce0724c6
+  - ref: refs/heads/for-next/pstore
+    old: a19d48f7c5d57c0f0405a7d4334d1d38fe9d3c1c
+    new: 1d49dee6b691d47acd5c299c89d9e32acea1d20d
     log: |
-         435ab81f1f5f58850c6f2905eec882824889a7c9 perf/x86: Add HAVE_PERF_CALLCHAIN_DEFERRED
-         04353c67a878d18880be6bd2611e5e340dd1b263 unwind: Introduce generic user space unwinding interfaces
-         4d0e6ca71120f5c3e70efd2b0159f450ff6f63a9 unwind/x86: Add HAVE_USER_UNWIND
-         9b30262acb65cb63126654db4d9a15efa05b7f68 perf/x86: Use user_unwind interface
-         bd3a93861713efb2b0a6a31c510ca71fadcd30b3 unwind: Introduce sframe user space unwinding
-         c8df320a6ccfe9df8146c2cad9e17133ce0724c6 unwind/x86/64: Add HAVE_USER_UNWIND_SFRAME
+         1d49dee6b691d47acd5c299c89d9e32acea1d20d pstore/ram: Fix crash when setting number of cpus to an odd number
          
