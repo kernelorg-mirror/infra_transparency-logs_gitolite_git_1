@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 08 Nov 2023 21:50:17 -0000
-Message-Id: <169948021716.32219.7909584088172233607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 08 Nov 2023 21:53:33 -0000
+Message-Id: <169948041393.1085.4220412228474415847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/sframe
-    old: 9557fea90838bf5f86ca1cadb7f50153bf341381
-    new: 54f031c1a2d772bd8a60f923d03a4274df145bcd
+  - ref: refs/heads/dev-queue
+    old: 89550a63dd13cd5674d9fec2244100444a6ad853
+    new: a804384f3935dc7ad26530774cb1f0c4e18863c2
     log: |
-         3a81df1ffa22a12b9a22e294617b90e4cfa73c3e perf: Introduce deferred user callchains
-         b21351e3d6d949709252829087ce84b33d578377 perf/x86: Add HAVE_PERF_CALLCHAIN_DEFERRED for x86_64
-         039f7e42608fa4ed61814ec7420b5359fc6bd821 unwind: Introduce generic user space unwinding interfaces
-         68e44eea5fd6efebde949a9f3be50b3e4c3c0682 unwind/x86: Add HAVE_USER_UNWIND for x86_64
-         6d681aaf12548cd74cd721b7c81e3789e1559077 perf/x86: Use user_unwind interface
-         54f031c1a2d772bd8a60f923d03a4274df145bcd unwind: Introduce sframe user space unwinding
+         1edc7d01dd841df38f2eb733dafec105bdda1ed7 ice: Restore fix disabling RX VLAN filtering
+         a804384f3935dc7ad26530774cb1f0c4e18863c2 ice: fix DDP package download for packages without signature segment
          
