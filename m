@@ -1,58 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============8633159076662964490=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 08 Nov 2023 21:44:26 -0000
-Message-Id: <169947986677.26580.8997512462383513480@gitolite.kernel.org>
-
---===============8633159076662964490==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
+Date: Wed, 08 Nov 2023 21:48:50 -0000
+Message-Id: <169948013042.29903.12624042675761615969@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
+user: djwong
 changes:
-  - ref: refs/heads/dev-queue
-    old: d11b03c8125172cbf606819610e4840f4a024008
-    new: 3363476fe6994406fe31f2c8eae77eae2e094793
-    log: revlist-d11b03c81251-3363476fe699.txt
-
---===============8633159076662964490==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d11b03c81251-3363476fe699.txt
-
-dbc9e341e3655f03a1eeeda8f0fa7931f54fac58 s390/qeth: Fix typo 'weed' in comment
-c542b39b607dc0619e3b1b36e289600a555c4774 tg3: Fix the TX ring stall
-7425627b2b2cd671d5bf6541ce50f7cba8a76ad6 tcp: Fix -Wc23-extensions in tcp_options_write()
-3a5cc90a4d1756072619fe511d07621bdef7f120 vsock/virtio: remove socket from connected/bound list on shutdown
-bfada5a7672fea5465d81bba3d05fca6024a244e test/vsock fix: add missing check on socket creation
-84d5fb9741316ca53f0f7c23b82f30e0bb33c38e test/vsock: refactor vsock_accept
-d80f63f690257b04b4fe3731b90dbf34a9ebb93f test/vsock: add dobule bind connect test
-97b94329126823d58550f4699d91e2536d4b6e91 Merge branch 'vsock-fixes'
-02d5fdbf4f2b8c406f7a4c98fa52aa181a11d733 net: phylink: initialize carrier state at creation
-8999ce4cfc87e61b4143ec2e7b93d8e92e11fa7f r8169: respect userspace disabling IFF_MULTICAST
-34c4effacfc329aeca5635a69fd9e0f6c90b4101 virtio/vsock: Fix uninit-value in virtio_transport_recv_pkt()
-f968c56417f00be4cb62eadeed042a1e3c80dc53 net: enetc: shorten enetc_setup_xdp_prog() error message to fit NETLINK_MAX_FMTMSG_LEN
-caf3100810f4150677f4e1057aa0a29f8a2c3743 drivers/net/ppp: use standard array-copy-function
-90d8d5122112b4fd2e0652ce7141ec8409501026 drm/amd/display: Increase frame warning limit with KASAN or KCSAN in dml2
-cab490789fc5ec5fac5ae1d7731e554dd699b2da PCI: Extract ATS disabling to a helper function
-575fce769120bd8ce4d7fa16c8bfc5b1aa6d397a PCI: Disable ATS for specific Intel IPU E2000 devices
-46e41717f21736b4091d0674bb963b1784e77836 i40e: fix livelocks in i40e_reset_subtask()
-bc50362d638c56b9815d8e4968947e0eac0165d8 i40e: fix 32bit FW gtime wrapping issue
-70252beb88eda72ea1b854037b40ab714e252ce4 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-4a6c07c5bb3c231817598972385683c7bbbd4bbc ice: Fix VF-VF filter rules in switchdev mode
-3de2e5c81750d2169c7a71f24fb83d8f9339368d ice: lag: in RCU, use atomic allocation
-1c1618cd89a7fa8623c524d53a1637fa1a945beb ice: Fix VF-VF direction matching in drop rule in switchdev
-cee6d855be51ea1d436a139bc01937001a0677a6 ice: dpll: fix check for dpll input priority range
-3ca9f03b125f5a3678b60a836e61c3bb61ed7e00 ice: dpll: fix output pin capabilities
-d11a4c6a9a8a6771975fb587c0bc1eb2212db698 ice: remove ptp_tx ring parameter flag
-8e03f083932fb2b73e924b81d0faa6fc52dc3eea ice: unify logic for programming PFINT_TSYN_MSK
-2f6eaa11a45cf58c6744b9fa55e81bf49b7df32a ice: restore timestamp configuration after device reset
-3363476fe6994406fe31f2c8eae77eae2e094793 i40e: Fix adding unsupported cloud filters
-
---===============8633159076662964490==--
+  - ref: refs/heads/private-fiexchange
+    old: 62b19ba60c862e600f9ec4dbac342d616d32162c
+    new: 3f7f4024d44957b774eec3b48f48c7b9495d2b34
+  - ref: refs/tags/defrag-freespace_2023-11-08
+    old: 17b894e2cff3f1265be3b8b5447c016a44e7adba
+    new: b8c3a74d1c499d6981d503df263c9088daffdc7f
+  - ref: refs/tags/djwong-wtf_2023-11-08
+    old: 66ced23b23a9f17523f19d531f78e43b4ef3e6ca
+    new: e615176d630928678f8b2a2beae6ba63f325be6e
+  - ref: refs/tags/fix-iunlink-list_2023-11-08
+    old: 8403e91580eee709915b21ad93a7220fd52e4e5d
+    new: bd43ecd00f264a62953640c3c8be60fcd6e1733a
+  - ref: refs/tags/fuzz-baseline_2023-11-08
+    old: 4bc3f6c96bc2fd1f2b26985ebb5d84cfbd6c0347
+    new: 6ef4b64dd7fa57c4861046d34cc45b55351b19c3
+  - ref: refs/tags/fuzz-dquots_2023-11-08
+    old: 0198eb2b0ca6c1aef5387cd66313aa5af9459909
+    new: 366acf5c473d313c7ed02a1ae56bfabc1b82af12
+  - ref: refs/tags/metadir_2023-11-08
+    old: 14daac803d9f97537750f1a4d4746c7b5db8cd9f
+    new: fe8705fcd0e5ff17a6e23c62833bcf0850def05f
+  - ref: refs/tags/mkfs-scale-geo-on-ssds_2023-11-08
+    old: 6af0016c24930271a6a451c25941dcc3d1d10f43
+    new: 3fd65750ce924d9f3218a129db032fb98783a733
+  - ref: refs/tags/pptrs_2023-11-08
+    old: 980755a451a626f3848ca3b25ac55fa525d8591f
+    new: 55aea91c05e319225a220778f7a44491207cea08
+  - ref: refs/tags/private-fiexchange_2023-11-08
+    old: ba6ee5909c4293b005468cb2e5812c7ab0212a56
+    new: 890d593a378b8f8500e4f5427ecf889e423debaf
+  - ref: refs/tags/realtime-discard_2023-11-08
+    old: 34edfed1fb581939685e55911a4ee73d7e9598e5
+    new: f45e59a8c2006d5678c87bc6cd7f8b66eb80b114
+  - ref: refs/tags/realtime-quotas_2023-11-08
+    old: 6c2a7e4ce26f1196e7b5182da9dc850a260a1b30
+    new: ecb3b29cc288114744eb6e62a9665cdf786a310a
+  - ref: refs/tags/realtime-reflink-baseline_2023-11-08
+    old: db8f48fbc7f274d339e5f7ad11925ee88bb20b29
+    new: e45b3c8a5d4e2dba9abf82f312d7f53a3964cd70
+  - ref: refs/tags/realtime-reflink-extsize_2023-11-08
+    old: 815b489bce537009bccc15b37fe370863ad4c480
+    new: 4b896b535f385bf5de85a2e15d22ac3221c58b24
+  - ref: refs/tags/realtime-reflink_2023-11-08
+    old: 7c015d7a1ddb2e3ab2da6e1f9ba22f4b320e0c59
+    new: 9943c150c0c4016ad0196040570c62c51c16ad19
+  - ref: refs/tags/realtime-rmap-baseline_2023-11-08
+    old: c4111fca2ac7f15c688af36415dd1d6382879053
+    new: 2bbc9eea7fef8359705b878a56dc487398f1cbef
+  - ref: refs/tags/realtime-rmap_2023-11-08
+    old: 179127001d82ed3a979150161b24d6e61cf3debc
+    new: 7dec3214d322a16fd7f7b70dd38835a001ec3568
+  - ref: refs/tags/report-refcounts_2023-11-08
+    old: 84b43c32340943e8aa8ffcc4bf91260af91acfe1
+    new: 836a298effbc178fe74b870bc1618d97758a66fe
+  - ref: refs/tags/scrub-detect-deceptive-extensions_2023-11-08
+    old: 8771a0ea7ab75ca56cca45f2dc463980c0128c3f
+    new: 319f6b0423ccaaf428e92c15cf3a7450c517dfa7
+  - ref: refs/tags/scrub-directory-tree_2023-11-08
+    old: c5d64065250266467ca00fa45ed7baae8c24c7e5
+    new: 16052eb620fb1664f87075778c5332b22f582219
+  - ref: refs/tags/scrub-fstrim-minlen-freesp-histogram_2023-11-08
+    old: b158321994daf4490c23cb587b9f3842ed12dff0
+    new: 334412e93bbef5713bbe6bad223b5b1e82ea8561
+  - ref: refs/tags/scrub-improvements_2023-11-08
+    old: f220cf33069fc56b1132bf882e0a6b852585c8df
+    new: 9c90bdfae484289180c61a6233178eb92dd015c1
+  - ref: refs/tags/test-swapfile-io_2023-11-08
+    old: 6b10468834c360a1ebcaa9451ed2e8701b05bb90
+    new: 3f3a3aaac1582255c973403603c2361eff5e9737
+  - ref: refs/tags/upgrade-older-features_2023-11-08
+    old: 0a122b3bd3c51d1fe4778622d7973c1affbc1eac
+    new: 940e00fb5b10218938f95c07c615ffe056ef8db2
+  - ref: refs/tags/vectorized-scrub_2023-11-08
+    old: 4e41444a5cd2b39ec1ffadcc635d5850fc9e2260
+    new: caa96737ae4d7e75e5e5448198e34fe432201313
+  - ref: refs/tags/xfs-merge-6.7_2023-11-08
+    old: d2616d3787e2dc7549f3d60df74e02585666eb8e
+    new: 4ae3a02669e7fc5a78a88f42cc04a7b3e17096ed
+  - ref: refs/heads/fiexchange-written
+    old: 0000000000000000000000000000000000000000
+    new: 62b19ba60c862e600f9ec4dbac342d616d32162c
+  - ref: refs/tags/fiexchange-written_2023-11-08
+    old: 0000000000000000000000000000000000000000
+    new: ce2684f2d228c37d5f3f8a27925b021e3407a06d
