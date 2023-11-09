@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2870780440831767108=="
+Content-Type: multipart/mixed; boundary="===============1351743333148744882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 09 Nov 2023 09:51:13 -0000
-Message-Id: <169952347355.26637.15641970544087368445@gitolite.kernel.org>
+Date: Thu, 09 Nov 2023 09:51:16 -0000
+Message-Id: <169952347665.26741.9305466786673333824@gitolite.kernel.org>
 
---===============2870780440831767108==
+--===============1351743333148744882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: d2f51b3516dade79269ff45eae2a7668ae711b25
     new: 6bc986ab839c844e78a2333a02e55f02c9e57935
     log: revlist-d2f51b3516da-6bc986ab839c.txt
 
---===============2870780440831767108==
+--===============1351743333148744882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699523472 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699523475 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699523472-11db26e543021d61c09b02692b264887f78f3be0
+nonce 1699523475-10f950f0feef62ddc1474321bb6a86d750247b87
 
-d2f51b3516dade79269ff45eae2a7668ae711b25 6bc986ab839c844e78a2333a02e55f02c9e57935 refs/heads/driver-core-linus
+d2f51b3516dade79269ff45eae2a7668ae711b25 6bc986ab839c844e78a2333a02e55f02c9e57935 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVMq5AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+csAQAJKT2ZaH2eXENDQi9CGH
-aeDtfM84YHkbTeGWk0HocMFFnLhI4LQW+a1+hsArgeXhGea0KU2prdVEUWZZ05G6
-bfqPn2ACCzXfpDSa4O9qEwI1zYoy6zkTc/TkupzowkinvZhb1QMPZrnxeuRJQZ0z
-ia7PJjHGGnRNJj8+wnyqmTUhwQVIWQv7WZi/1aHusFAgr+LlFMXvecSgq83DMFk0
-Isp0wsdR+rfJzJrFXP7gOeHVcfSsE0gcuSuzAnmX82+V4YkgylXD9uHotc5BYzNc
-Ms3qfF7kSgK1N4lvZIqLK6Ex8Yee+AxIHAxfUem+oWptugfqgh8NCkV6IdjCBt2C
-BHdsftzynYJhpNLDyjwUpuqjUQszS6vtn9pQ9WzHLk7oJzg+bDta2jEfCFN+npZo
-GBhRMqJQXmrVXbAYpwwHdPHLsIZRpvXVjZhCOPBXKwkgI+Yv5iI809AhOMkSZPtv
-9ljX1iKuDPzr2gEdsQQWHV+fXcGVW5eQIPTp2g35VnqpP+iWtn9DaDxgsZm8LyVI
-zI4zpzi8zS70t2FwNomv5BtjhEiXwdGfU4TnU0zIn+bJAE6pReCWNrrTDlG6Hy2L
-4JoQhoAh9hcujii3DaXTEstwmRXcqATj5pgU1Qio5k4AIP9L01wUNIrBrU5NivfI
-wszjdQo4k2spp9bqacpNNWu/
-=hr5Z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVMq5MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YGkP/A5Mo/3BO7TGYIhM6+7b
+572dgV0YQ05HB6LOmYpLU94+39yzm8rsy7QkJf2kn3LmN0QOI1RVEDb3I/6AF9z7
+BrU7Kh7tKMID2E6Knb2SKVWginRGpf6cyJ1/Ol0s5lG5PYo8LtSyZMJhVdsvFWy5
+bYkZNkTib6C7rVPR5cv0PrTC7DA9f3Ay9KM1IEm0uDapN9hpepnDyQTlaZ0H4TNu
+ZyCni3Pp3mYwGRyznBZ6VOwxKP3Rkc8xQQa+U7Ui3oV5UTZ9FWU2Ls5mml7ofJiJ
+r5sRMsHy7didXN3mSvy0tTb654EvwYk+9yqsCnfu9lW26Stuo7wkTvEHttADt82r
+1JdJHrVs6HDK1yzeChn6XH0EZP2hk09/c2CgC29nqokuV1fdskehV8rfOnsVcuff
+oirSE/cHwj1eTQxcMJlSUOHK20EBIOlPcD2c+03HMmSE4aX3c6Zbb0RjRdxlC6nC
+mxN7Ue45eYsm51gx79v8ncf2o1GIeJyNSPIpd28CHNw+65jR2YOpiGLTVi2UM60g
+28PdOw4wFNLxSevhYarCDSGY1e8b0lWihRSst0KfXD4JGZ9kamjG6vZ77EjF9fe0
+O+h6u5WsII+Ann1r/29Y+UjDO3Yd7pp/+KVaVktfbMYnstw2+7pFHwf/deGi9rpy
+VIZEb93fZIOORGZ0lMUfBSZE
+=Y/ty
 -----END PGP SIGNATURE-----
 
---===============2870780440831767108==
+--===============1351743333148744882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -901,4 +901,4 @@ c1ef4df14ed1feb9b0f08508390a196a1bc530ce Merge tag 'kgdb-6.7-rc1' of git://git.k
 67c0afb6424fee94238d9a32b97c407d0c97155e Merge tag 'exfat-for-6.7-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bc986ab839c844e78a2333a02e55f02c9e57935 Merge tag 'nfs-for-6.7-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============2870780440831767108==--
+--===============1351743333148744882==--
