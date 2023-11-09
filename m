@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Thu, 09 Nov 2023 23:49:32 -0000
-Message-Id: <169957377277.21070.8160519166124725295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 09 Nov 2023 23:54:28 -0000
+Message-Id: <169957406833.24485.7446140625986511324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/tags/lsm-pr-20231109
-    old: 0000000000000000000000000000000000000000
-    new: 46ecda718e2a169d9df298a2c3e6ff3d25a62d63
+  - ref: refs/heads/v6.7/ffa_integ_test
+    old: 0dfce5abe57576c4804fc626172b0cd80a320c1c
+    new: 0000000000000000000000000000000000000000
