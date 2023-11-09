@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 09 Nov 2023 18:10:13 -0000
-Message-Id: <169955341326.2446.827570769977764483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 09 Nov 2023 18:11:10 -0000
+Message-Id: <169955347037.2843.2528190169723188725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b4e59c17bed4ab14a50e03e2a577578fc54fc403
-    new: 0ca98fca84b33ca250798d6625cf3b1b607d4877
+  - ref: refs/heads/dev-queue
+    old: a804384f3935dc7ad26530774cb1f0c4e18863c2
+    new: 90c4fba6434d6a91c009f2604664052dc37c952c
     log: |
-         dae6c6b3b79f6fe23b1be5f2b6d58e5d1151a092 veristat: add ability to sort by stat's absolute value
-         0ca98fca84b33ca250798d6625cf3b1b607d4877 veristat: add ability to filter top N results
+         d1b54efbb85e7af4da9a1131cf0a9cc474f874e8 ice: Fix VF Reset paths when interface in a failed over aggregate
+         90c4fba6434d6a91c009f2604664052dc37c952c iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
          
