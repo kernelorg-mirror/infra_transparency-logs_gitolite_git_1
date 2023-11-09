@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 09 Nov 2023 20:17:08 -0000
-Message-Id: <169956102894.28341.18125988307277950847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 09 Nov 2023 20:29:02 -0000
+Message-Id: <169956174264.3308.17386177660410720041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 7552e5d9ed983ab8afcfce33ac507653d54d075b
-    new: 3a0f6a0dd3c0fa3a4df8e2106309c25368923d64
-    log: |
-         d588a6a5928a1f8c530e2ee23363ec35e075bdd8 bindings: python: standalone build tooling for tests
-         3a0f6a0dd3c0fa3a4df8e2106309c25368923d64 bindings: python: gpiod v2.1.2
-         
+  - ref: refs/heads/for-next
+    old: a4377f60c8541c4070c91fff7be9e41615adde94
+    new: 0000000000000000000000000000000000000000
