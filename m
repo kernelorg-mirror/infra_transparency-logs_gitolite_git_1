@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 09 Nov 2023 17:27:18 -0000
-Message-Id: <169955083878.2595.3289074918016902457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 09 Nov 2023 17:40:04 -0000
+Message-Id: <169955160478.13053.15557664937749974112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 5f70481cbd506c3dfe141ce30a4cd7481bdf621a
-    new: 5f95851ecf3b2e4fe2b1c402a896c6af98fc0b3e
+  - ref: refs/heads/for-next/core
+    old: 4bb49009e07175266e8c5ffbd5d4c4b241c97f19
+    new: f86128050d2d854035bfa461aadf36e6951b2bac
     log: |
-         5f95851ecf3b2e4fe2b1c402a896c6af98fc0b3e wispr: Avoid 'connman_proxy_lookup' call for UNKNOWN proxy method.
+         f86128050d2d854035bfa461aadf36e6951b2bac arm64/syscall: Remove duplicate declaration
          
