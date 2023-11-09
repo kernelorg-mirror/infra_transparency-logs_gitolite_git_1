@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 09 Nov 2023 13:33:44 -0000
-Message-Id: <169953682444.27734.13459811066125293697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 09 Nov 2023 13:49:31 -0000
+Message-Id: <169953777104.6901.16313616022416739525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 31255e072b2e91f97645d792d25b2db744186dd1
-    new: ec9aedb2aa1ab7ac420c00b31f5edc5be15ec167
-    log: |
-         ec9aedb2aa1ab7ac420c00b31f5edc5be15ec167 x86/acpi: Ignore invalid x2APIC entries
-         
+  - ref: refs/heads/v6.7/ffa_integ_test
+    old: 0000000000000000000000000000000000000000
+    new: 0dfce5abe57576c4804fc626172b0cd80a320c1c
