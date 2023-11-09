@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6678013679932742007=="
+Content-Type: multipart/mixed; boundary="===============3500070752081772676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 09 Nov 2023 09:53:46 -0000
-Message-Id: <169952362646.28197.9538349998484214673@gitolite.kernel.org>
+Date: Thu, 09 Nov 2023 09:53:55 -0000
+Message-Id: <169952363538.28313.478645914581710596@gitolite.kernel.org>
 
---===============6678013679932742007==
+--===============3500070752081772676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: d2f51b3516dade79269ff45eae2a7668ae711b25
     new: 6bc986ab839c844e78a2333a02e55f02c9e57935
     log: revlist-d2f51b3516da-6bc986ab839c.txt
 
---===============6678013679932742007==
+--===============3500070752081772676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699523624 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699523633 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1699523624-45fefce18275b2b6ab9867d27982ba03984325c5
+nonce 1699523633-e5c55450dd28b4a7d29847b79a4699b62822f1f5
 
-d2f51b3516dade79269ff45eae2a7668ae711b25 6bc986ab839c844e78a2333a02e55f02c9e57935 refs/heads/tty-next
+d2f51b3516dade79269ff45eae2a7668ae711b25 6bc986ab839c844e78a2333a02e55f02c9e57935 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVMrCgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OrkQAKUIZ7ifuOTs6F1pu8/K
-0HHhcrO+lQP/H72gQRNvyfgYVNi5gEzI3RAZKH2oHuLDKdSjHlIr6TDPmxwyUYw/
-X9DgXqS+FjqxcuGrjnORw539OXcoCzgYpPc2nK9v1pFv9y9KKTw0E7IXEk5oHdCh
-hgpHgsl34J8x6QwrxtO6rhR9NMkdrxyFH/9B2BX2wDcwqs5FY7sbkdJP6+YRsOke
-V7HHM+gqILfbU6KdICzgTIUHPh2DDfiBZzjJzqPgj4EKB/fdv/bS3z6NSpT3JBPi
-oxTlPKd2j0bBnW4yGG6izlSzzvmBVkbjAbEpc1rOouaodAJNCLMDNGbMnhXjw9Dg
-ot9r69WMZpHdP2QHohmEL/7JGzD1ASQuHWrxC7bnrt1/ngl4Y5YglvprfLEYsueR
-Yz8L6CeyVxIFUtN8vx5atlPYyFTmCktW0MF6IDcWTEH9OmG/zvO5OA2eYb5MR+t5
-XuADMoS27kwyh/TIkUhSK4WhQU4IAFdAzH25Rtp5TczIW9GZqQSDST1N/3aZUTm0
-ZtTQwW+zhphink9jcTUs52+g4MBtF7X2xI13frb+v4sOrZiP0cpaOTkZLQ9NK9gu
-OxZI5b+7Z27kJekUd7uuWSozxULLILcH0i3YTU9qAETFKURsCbpdAZ8PXL/3Br2J
-v1/VEWiX4fYurm0UyEEdXPM9
-=Lg8q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVMrDEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VzwQAJSt1ZxcDz7WWiwwAZ7z
+gJzanteljUbRIVJIiw7KtnRuUWUZRHvEzrGosqLHJjAIEYDlavWYxEwV5yoQ5UDY
+FpvOWGvrBUTgU4MmeehIhQuSiRJwp2quZ9r4FzNx0D7HmzLXavRXvykWFMwdoKp5
+he+ae2a6AB1RMmSNris0djr5gyw3kpaU3Pb8zebMI4fCbUq05QsLLVWLrye1Hpid
+L5ogoCNQuaz2NDgh46Q2jRu9BNPv8cwcJHwhKToyZ7vfQmsxTtjKHgYGnwDWmRbs
+tLgFmE7JhgD7llcaLL2nFl4B4FGPHI94fOnJxxGURcjlmlqd8SwsqWtYNNNkzQeS
+rfXE3X1q5d0OAHlEksNt9RLZlx9tap4B7uOPNly0y+rAwi+/O+zqneQZiTsJUgyh
+HJAFtBkz1hXmVgjZKoQaHVwC83gfJc2fTcaQEtBWYKe+/8DbQRK/Vt0JqiGHgc8D
+OQi571KjJ1GNCzLSBU8XWuVJKyTSYtBr7PDL1sHbNGNE4NGNinrSZUfh/uy/ITXI
+225bZKNkBlMMqFr95wlvxiUY072X8a0lHJHBxDwx5rp1ziS/kajJfss+G7HCQsIh
+432Ijtn1nyPHy1SglJCJ94XpZwU8ThuL4REjEckcA7yY4R9OeG6E0m0mFAPZD9n5
+tMtz7NJ99TJN092uh8veqES/
+=M0jm
 -----END PGP SIGNATURE-----
 
---===============6678013679932742007==
+--===============3500070752081772676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -901,4 +901,4 @@ c1ef4df14ed1feb9b0f08508390a196a1bc530ce Merge tag 'kgdb-6.7-rc1' of git://git.k
 67c0afb6424fee94238d9a32b97c407d0c97155e Merge tag 'exfat-for-6.7-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bc986ab839c844e78a2333a02e55f02c9e57935 Merge tag 'nfs-for-6.7-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============6678013679932742007==--
+--===============3500070752081772676==--
