@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3503940037940511722=="
+Content-Type: multipart/mixed; boundary="===============6576452058406708721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 09 Nov 2023 04:58:58 -0000
-Message-Id: <169950593806.23687.4865735885244907858@gitolite.kernel.org>
+Date: Thu, 09 Nov 2023 05:02:19 -0000
+Message-Id: <169950613967.7250.18303383462086126192@gitolite.kernel.org>
 
---===============3503940037940511722==
+--===============6576452058406708721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 3b01feff09495bfdcf43283997a6ea6c6bf6c649
-    new: 923c12c3034a722a05be4d57d05334cb7bc3c27e
-    log: revlist-3b01feff0949-923c12c3034a.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 9d8a98baf1746169e44d49ee6955a14ae35cc993
+    new: dfd9dc42c1b5ac6ff9a77d6ab0dc2d2c2d64e6e0
+    log: revlist-9d8a98baf174-dfd9dc42c1b5.txt
 
---===============3503940037940511722==
+--===============6576452058406708721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b01feff0949-923c12c3034a.txt
+Content-Disposition: attachment; filename=revlist-9d8a98baf174-dfd9dc42c1b5.txt
 
 5c4d972ca6796a709859d4b4234029a9d853b26f Revert "neighbour: Remove unused inline function neigh_key_eq16()"
 ec8ea0ed1d20a521084d8547ca4a81dd7c581568 Revert "IB/hfi1: Fix possible panic during hotplug remove"
@@ -121,5 +121,7 @@ b44deb95fd376eb2b7536743e8ac596a4372453c ixgbe: fix crash with empty VF macvlan 
 110faf32c2fad1a6a86a8b774db9a312a4bfdeed Revert "usb: gadget: f_ncm: Add OS descriptor support"
 76faf3ee584ccc20b59f7e2a8194e7e3740080c8 Revert "pinctrl: amd: Use amd_pinconf_set() for all config options"
 923c12c3034a722a05be4d57d05334cb7bc3c27e Update localversion-st, tree is up-to-date with 4.14.328
+866b46f5a4d77329cde6ab6f12de02e7aa9184ad Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+dfd9dc42c1b5ac6ff9a77d6ab0dc2d2c2d64e6e0 CIP: Bump version suffix to -cip81 after merge from cip/linux-4.4.y-st tree
 
---===============3503940037940511722==--
+--===============6576452058406708721==--
