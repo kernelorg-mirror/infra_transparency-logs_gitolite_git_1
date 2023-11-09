@@ -1,41 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============9038286755321680515=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 09 Nov 2023 14:46:40 -0000
-Message-Id: <169954120088.16542.14099475554090731860@gitolite.kernel.org>
-
---===============9038286755321680515==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Thu, 09 Nov 2023 14:49:35 -0000
+Message-Id: <169954137508.17664.9170994960314840637@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: c6e316ac05532febb0c966fa9b55f5258ed037be
-    new: 68444b93ed6c622f77745ea25f8db05cd0afb1b6
-    log: revlist-c6e316ac0553-68444b93ed6c.txt
-
---===============9038286755321680515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6e316ac0553-68444b93ed6c.txt
-
-b06fab003ae181c6690fe6d1f806636f816f4e50 riscv: kselftests: Fix mm build by removing testcases subdirectory
-9f564b92cf6d0ecb398f9348600a7d8a7f8ea804 riscv: Only consider swbp/ss handlers for correct privileged mode
-5abb5c3cd4b38ec32c38a852c83ea04255cecf25 riscv: errata: andes: Makefile: Fix randconfig build issue
-14a270bfab7ab1c4b605c01eeca5557447ad5a2b riscv: signal: fix sigaltstack frame size checking
-505b02957e74f0c5c4655647ccb04bdc945d18f6 riscv: Remove duplicate objcopy flag
-1d6cd2146c2b58bc91266db1d5d6a5f9632e14c0 riscv: kdump: fix crashkernel reserving problem on RISC-V
-07a27665754bf649b5de8e55c655e4d6837406be RISC-V: Fix wrong use of CONFIG_HAVE_SOFTIRQ_ON_OWN_STACK
-a87e7d3e8832271ecb7d5eaaabc5b49fe25a469b riscv: Fix ftrace syscall handling which are now prefixed with __riscv_
-3fec323339a4a9801a54e8b282eb571965b67b23 drivers: perf: Fix panic in riscv SBI mmap support
-61e3d993c8bd3e80f8f1363ed5e04f88ab531b72 drivers: perf: Do not broadcast to other cpus when starting a counter
-68444b93ed6c622f77745ea25f8db05cd0afb1b6 Merge patch "drivers: perf: Do not broadcast to other cpus when starting a counter"
-
---===============9038286755321680515==--
+  - ref: refs/heads/master
+    old: 45e0ca286116bc5fd75ce03aa989b931894ceafc
+    new: 7b3be6230a9b1e4f48d356c57298e4f60158cc5a
+    log: |
+         a042331c4b5d1f626d4b6ce499b383b9baad04bc rtnl: Fixup rtnetlink includes
+         7b3be6230a9b1e4f48d356c57298e4f60158cc5a examples: Fix compilation on old systems
+         
