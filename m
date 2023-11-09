@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3236975391372634078=="
+Content-Type: multipart/mixed; boundary="===============6799213541989134640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 09 Nov 2023 02:53:56 -0000
-Message-Id: <169949843670.30941.7398473986627426503@gitolite.kernel.org>
+Date: Thu, 09 Nov 2023 02:54:09 -0000
+Message-Id: <169949844969.31104.12935887660053626840@gitolite.kernel.org>
 
---===============3236975391372634078==
+--===============6799213541989134640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 4e6b271bcd1ab71fc053ffaf3548837e3d18b41b
-    new: 35149d49de8fb1d2d2545629ba0537b3b0071486
+  - ref: refs/heads/6.7/scsi-staging
+    old: a75a16c62a2540f11eeae4f2b50e95deefb652ea
+    new: e439e4a62a8ea3c39d65c546de3af7d1c594077c
     log: |
          19597cad64d608aa8ac2f8aef50a50187a565223 scsi: qla2xxx: Fix system crash due to bad pointer access
          defde5a50d91c74e1ce71a7f0bce7fb1ae311d84 scsi: ufs: core: Expand MCQ queue slot to DeviceQueueDepth + 1
@@ -29,33 +29,33 @@ changes:
          e439e4a62a8ea3c39d65c546de3af7d1c594077c scsi: ufs: qcom-ufs: dt-bindings: Document the SM8650 UFS Controller
          
 
---===============3236975391372634078==
+--===============6799213541989134640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1699498421 -0500
+pusher 75C5DE3D 1699498439 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1699498421-7e14a48bb826c8b61a3ea6ac69afebc8fa3f5f1d
+nonce 1699498439-fd19789a8930ee2b081f3b91d71d490f375ee112
 
-4e6b271bcd1ab71fc053ffaf3548837e3d18b41b 35149d49de8fb1d2d2545629ba0537b3b0071486 refs/tags/mkp-scsi-staging
+a75a16c62a2540f11eeae4f2b50e95deefb652ea e439e4a62a8ea3c39d65c546de3af7d1c594077c refs/heads/6.7/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVMSbUACgkQ7ulgGnXF
-3j06fw/+MVJZBChhParp5YesAeo/5HNCNJt5/dUXrWzbOSYSue+hocpYd+6lASiQ
-rsX7GJitUAMpAHIbhfVIE5M15IlTuev2VG4nWr2qA/QWlxrXFiGViwLlxL8rdUSx
-Xrdo5L5ZoXWzMBksapiOh/bI0LsdH4ToBMjBirIqh20IS8Vy5BPWjBEldxWptwt8
-ikYV3iI2U13fo4+cgGKJU+plB20ffG7W9NdOw2ZsMhnhS+fuPKIp0Xet91X3y9gp
-JBIGhVzpuMzM7oPMshSaYjK4XszDG81N/w0Qdol+D5WNcTROQUdjedF9Akru2GDk
-8FuQUbNpn5lYNT6xq9/BaZdFsZ0oSutg7oZpVHDUcIx1FuvPTe2G8mA1cCHj4Ux8
-KGwfKTW3DEOUSuR2PI8NGpRnlPB05xsMXTdE4zuhkch+iHJH7sWUrJBXXcTBrQE2
-qT4Br67crgt8kDrOedGK9YQHi6Vah2Uki4ROz2ezfgL4ve3jKuPomgwQJKWz3iRR
-ZjsA9+ByWGFSpL7TeoDn1c9caSrgmi6JN5Xn2wGujtdW56Re6wVpaKeObteCl33B
-W/Z43ad4XRrUA7uWM+OB6+gborI3VbWAbhuBUXRgBDhGIca6nnUUHOOaIyFpUbDG
-d9kRwzWTjlzyaaleBcDywmAtQBaZE8piseTv5HyeWGMiOueNrl4=
-=a60L
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVMSccACgkQ7ulgGnXF
+3j0vsA/+NM9dp2Hnyba4yNLGGpQfYGdWhdCYYcTMS7dUxx8TnId/EpbTWjX9d4py
+hJ/JHe+Two4U8ebhtpzWz2M1Gm+/XZt+0Bm8Ev9169G/34+ljwXNMcH6nm/SEjHK
+98mm/GUtkkuzrGjb9G4eZaB667AdyB/8pj0P5y3KxHb3CAXPmAlxCNOTynV7JDfm
+JBOEZn7MITOYE8eNg9ftELUTUDDFy1ds+y2+4fpCRA+MAwasizBKmi3qGAcy0ngH
+XlvLZNoqUiJBnayrdYIozZ/ZBm2umgHbrwltN+dSfGLcXDI5Uma00qLWBsZbKswr
+dHvzezpFLh31h3OTukvPx9++KuhVOocpv+baaY8gOPVcNJ6SUG2gnsbRe7lCRlmc
+YCwYGXM7HTWsfm/y2nz6lwiOOEdqciRQ5loOj5OK3nt24YLeNYPuaJt0fWp8n2dT
+xywcRfW3Ws8YR5aOodTX1STQHBHrn31xf4bl4L2KYHSGX142U6jH2lJJGyf5wjkX
+Wai5UYsuIIkK+y57Uo0o5yRuyli1dFqUhveN5UCVVTrrZV1Tqx2DP7TOnPW3h1hJ
+et4Bd+wI1ubFtcENh4Fjm3rx9YzBeiz6oMu3nGbmJdlqfoHcWaAeDosd5tn0ncB5
+0CSiqWpBDkRMUfNIeWNNXqSb3Il+RJ/VrPE3xSnOx5/nNRgtNxw=
+=k0U4
 -----END PGP SIGNATURE-----
 
---===============3236975391372634078==--
+--===============6799213541989134640==--
