@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 09 Nov 2023 05:05:06 -0000
-Message-Id: <169950630615.11599.2079954054414866168@gitolite.kernel.org>
+Date: Thu, 09 Nov 2023 05:05:27 -0000
+Message-Id: <169950632773.23145.14144098676518135011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/tags/v4.4-st46
-    old: 0000000000000000000000000000000000000000
-    new: 923c12c3034a722a05be4d57d05334cb7bc3c27e
+  - ref: refs/notes/signatures/tar
+    old: 164087f6ce7bcf0500fbd609b956348b0801cf61
+    new: 51f2eb3028a1f100dea7eadf7d41b2f9c3016027
+    log: |
+         51f2eb3028a1f100dea7eadf7d41b2f9c3016027 Notes added by 'git notes add'
+         
