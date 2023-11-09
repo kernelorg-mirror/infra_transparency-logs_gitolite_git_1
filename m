@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 09 Nov 2023 18:09:43 -0000
-Message-Id: <169955338399.486.4662027975145260918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 09 Nov 2023 18:10:13 -0000
+Message-Id: <169955341326.2446.827570769977764483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev-queue
-    old: a60510a64aae8111ec74f2e1cf4fcb74d171c492
-    new: 60cbbf6578e6ef3806f72b3ecec389ad2701d1ff
+  - ref: refs/heads/master
+    old: b4e59c17bed4ab14a50e03e2a577578fc54fc403
+    new: 0ca98fca84b33ca250798d6625cf3b1b607d4877
     log: |
-         e10e355c952a6560b9dad48a1009f2e2ade9bc48 ice: Fix VF Reset paths when interface in a failed over aggregate
-         60cbbf6578e6ef3806f72b3ecec389ad2701d1ff iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+         dae6c6b3b79f6fe23b1be5f2b6d58e5d1151a092 veristat: add ability to sort by stat's absolute value
+         0ca98fca84b33ca250798d6625cf3b1b607d4877 veristat: add ability to filter top N results
          
