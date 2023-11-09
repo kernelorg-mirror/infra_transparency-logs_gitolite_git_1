@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 09 Nov 2023 23:26:40 -0000
-Message-Id: <169957240005.4975.16162508627974409748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 09 Nov 2023 23:35:33 -0000
+Message-Id: <169957293327.11462.14800670674965806177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 8bc9e6515183935fa0cccaf67455c439afe4982b
-    new: 13644aabb75071bc53e753057209360c41e041a2
+    old: e98ef3f4ab08433c319aa1d54776c776ceca0ed0
+    new: a0685296f0d96ac9c561f969a23757bee08473d7
     log: |
-         13644aabb75071bc53e753057209360c41e041a2 RISC-V: Provide the frequency of mtime via hwprobe
+         a0685296f0d96ac9c561f969a23757bee08473d7 Thu Nov  9 11:32:13 PM UTC 2023
          
