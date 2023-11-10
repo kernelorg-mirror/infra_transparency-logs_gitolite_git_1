@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 10 Nov 2023 14:26:00 -0000
-Message-Id: <169962636094.10685.9765450151521682064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 10 Nov 2023 15:18:03 -0000
+Message-Id: <169962948393.15351.6152734558173143406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/linux-next
-    old: ebbf7f07007803c3095de2e632f3e1e3d5794712
-    new: b6879aba1278e1b8faa7daf561fd32ae53ad3fdd
+  - ref: refs/heads/for-next
+    old: 8e8e46a6036f5e0eefdbf6e0ed43b3581d488aa7
+    new: a406b8b424fa01f244c1aab02ba186258448c36b
     log: |
-         b6879aba1278e1b8faa7daf561fd32ae53ad3fdd acpi/processor: sanitize _OSC/_PDC capabilities for Xen dom0
+         a406b8b424fa01f244c1aab02ba186258448c36b parisc: Prevent booting 64-bit kernels on PA1.x machines
          
