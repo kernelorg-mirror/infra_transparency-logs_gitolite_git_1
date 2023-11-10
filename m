@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 10 Nov 2023 04:50:57 -0000
-Message-Id: <169959185752.32590.16139085845108263936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 10 Nov 2023 05:04:59 -0000
+Message-Id: <169959269920.9647.5632839456604478994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 72ec20dc241a5e8b51e6fc0c6444dcd4d0550804
-    new: 55d3ffa2a0adf7f381a51cb808f72f51caa7e463
+    old: 555e7f39e2ecf0fb9a72eafdf7824e7340229ff3
+    new: f44ea5b1ef0ea3ef80c9e3025d889b84bbefb1c3
     log: |
-         55d3ffa2a0adf7f381a51cb808f72f51caa7e463 perfbook-lt: Set PDF metadata from LaTeX title and author
+         f44ea5b1ef0ea3ef80c9e3025d889b84bbefb1c3 Fri Nov 10 05:01:51 AM UTC 2023
          
