@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 10 Nov 2023 13:42:12 -0000
-Message-Id: <169962373228.11524.1605832201439723102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 10 Nov 2023 13:56:21 -0000
+Message-Id: <169962458128.21396.16765141057600649549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: c06547d02094e7eb81389e9485a45d91cc21914c
-    new: a91d351b6ddcecabf379d4669121ea23887d57a5
+  - ref: refs/heads/for-6.7
+    old: 4f646616d11c3ec3f5a5cb2cd683cfc0fa9a5018
+    new: bef4a48f4ef798c4feddf045d49e53c8a97d5e37
     log: |
-         a91d351b6ddcecabf379d4669121ea23887d57a5 perf report: Add s390 raw data interpretation for PAI counters
+         bef4a48f4ef798c4feddf045d49e53c8a97d5e37 spi: Fix null dereference on suspend
          
