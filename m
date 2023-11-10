@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 10 Nov 2023 11:10:06 -0000
-Message-Id: <169961460632.31523.13931479582190721603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 10 Nov 2023 11:33:14 -0000
+Message-Id: <169961599444.13938.16628224045344018479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: 18f039428c7df183b09c69ebf10ffd4e521035d2
-    new: 719639853d88071dfdfd8d9971eca9c283ff314c
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 6512b6aa237db36d881a81cc312db39668e61853
+    new: dd678532f913c1a742f1a2add6adacfb7ae2b166
     log: |
-         719639853d88071dfdfd8d9971eca9c283ff314c tty: Fix uninit-value access in ppp_sync_receive()
+         a399ee6773d6a0203f9bd764f8bd9d978878cef1 tools: Disable __packed attribute compiler warning due to -Werror=attributes
+         dd678532f913c1a742f1a2add6adacfb7ae2b166 perf header: Additional note on AMD IBS for max_precise pmu cap
          
