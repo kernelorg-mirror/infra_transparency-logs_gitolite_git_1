@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 10 Nov 2023 12:23:58 -0000
-Message-Id: <169961903845.18668.16274474978286690687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 10 Nov 2023 13:41:20 -0000
+Message-Id: <169962368008.11110.16060301926063016687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/tags/mmc-v6.7-2
-    old: 0000000000000000000000000000000000000000
-    new: a38e00698f9794f3386d5a47e59453e7c02ee3a1
+  - ref: refs/heads/tmp.perf-tools-next
+    old: c06547d02094e7eb81389e9485a45d91cc21914c
+    new: a91d351b6ddcecabf379d4669121ea23887d57a5
+    log: |
+         a91d351b6ddcecabf379d4669121ea23887d57a5 perf report: Add s390 raw data interpretation for PAI counters
+         
