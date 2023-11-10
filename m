@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4001479842128222123=="
+Content-Type: multipart/mixed; boundary="===============4758663387225609900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 10 Nov 2023 12:06:37 -0000
-Message-Id: <169961799742.5817.14723527072741757287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 10 Nov 2023 12:06:47 -0000
+Message-Id: <169961800705.5960.9581084009127413679@gitolite.kernel.org>
 
---===============4001479842128222123==
+--===============4758663387225609900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/master
-    old: 13644aabb75071bc53e753057209360c41e041a2
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: 89cdf9d556016a54ff6ddd62324aa5ec790c05cc
-    log: revlist-13644aabb750-89cdf9d55601.txt
+    log: revlist-0bb80ecc33a8-89cdf9d55601.txt
 
---===============4001479842128222123==
+--===============4758663387225609900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13644aabb750-89cdf9d55601.txt
+Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-89cdf9d55601.txt
 
-e365a36eaca029520e5cae555849934fde398c82 Merge branch 'pci/controller/layerscape'
 eecffeb045738b0214219c3ad44cd0502836efdf Merge branch 'pci/controller/qcom-ep'
 db20113d702e4f44d614676a967d0f74013fd25b Merge branch 'pci/controller/rcar'
 d97ab9e5330dc14cc3692167f26bf664fce4c75a Merge branch 'pci/controller/speed'
@@ -83,6 +82,7 @@ d9387eda56a49b2cf4487b3c4f12500190e6bb88 i2c: mux: demux-pinctrl: Convert to use
 0161ee9dd38aafad6260ccb47bdc3e1b975eddbf Documentation: i2c: add fault code for not supporting 10 bit addresses
 ca562a9cf7178859a9767e72eaa7286f1c79bd3e i2c: qcom-geni: add ACPI device id for sc8180x
 10e806d39d304f837ed2921f36499f17a774a220 i2c: s3c2410: make i2c_s3c_irq_nextbyte() void
+ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
 2b9ea4262ae9114b0b86ac893b4d6175d8520001 hwmon: Add driver for ltc2991
 e56a5e3dfd149573e6134b7eb373d56bc81bd0de dt-bindings: hwmon: npcm: Add npcm845 compatible string
 ceaa22402e44e09ab34840a3a83888f93785c772 hwmon: (aquacomputer_d5next) Add support for Aquacomputer High Flow USB and MPS Flow
@@ -1051,4 +1051,4 @@ a12deb44f9734dc25970c266249b272e44d3d1b5 Merge tag 'input-for-v6.7-rc0' of git:/
 3b220413438184b352b297e7cf593fa56999b5b3 Merge tag 'v6.7-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 89cdf9d556016a54ff6ddd62324aa5ec790c05cc Merge tag 'net-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4001479842128222123==--
+--===============4758663387225609900==--
