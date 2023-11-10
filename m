@@ -1,131 +1,112 @@
-Content-Type: multipart/mixed; boundary="===============4070946100165854420=="
+Content-Type: multipart/mixed; boundary="===============6441795367730455375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 10 Nov 2023 01:28:43 -0000
-Message-Id: <169957972352.1224.17948597404757641853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 10 Nov 2023 01:56:14 -0000
+Message-Id: <169958137495.22155.9449480418445393183@gitolite.kernel.org>
 
---===============4070946100165854420==
+--===============6441795367730455375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: a12deb44f9734dc25970c266249b272e44d3d1b5
-    new: 89cdf9d556016a54ff6ddd62324aa5ec790c05cc
-    log: revlist-a12deb44f973-89cdf9d55601.txt
+  - ref: refs/heads/next
+    old: bcd1edfa6a19000b3bc04690bd9c0d0c692dd5b3
+    new: ea7ed67945e9fc4640d5b317252f20ac7dc47bbd
+    log: revlist-bcd1edfa6a19-ea7ed67945e9.txt
+  - ref: refs/heads/seen
+    old: 3dfaf9c7574ad7d7b835febd431c0df7b4d6b0de
+    new: ca867b19692f24df46aa67214719399cf0980446
+    log: revlist-3dfaf9c7574a-ca867b19692f.txt
 
---===============4070946100165854420==
+--===============6441795367730455375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a12deb44f973-89cdf9d55601.txt
+Content-Disposition: attachment; filename=revlist-bcd1edfa6a19-ea7ed67945e9.txt
 
-49b02a19c23a6541026ae8d36fee85ce8af11b60 net: sched: Fill in MODULE_DESCRIPTION for act_gate
-a9c92771fa23b263ac747fc5a12e0e233aed23d5 net: sched: Fill in missing MODULE_DESCRIPTION for classifiers
-f96118c5d86f03d81bc24c7941f133ae5dd56a7b net: sched: Fill in missing MODULE_DESCRIPTION for qdiscs
-aca080970e4eb371bb2520ef4f67a8286f66f336 Merge branch 'net-sched-fill-in-missing-module_descriptions-for-net-sched'
-dd9d75fcf0f427ddcde4bde736908684ee05c353 net: phy: fill in missing MODULE_DESCRIPTION()s
-031fba65fc202abf1f193e321be7a2c274fd88ba net: mdio: fill in missing MODULE_DESCRIPTION()s
-5ed8499b64c664c39bf8cd712a0f3f959b075267 Merge branch 'add-missing-module_descriptions'
-05f0431bb90f2ee3657e7fc2678f11a1f9b778b7 netlink: specs: devlink: add forgotten port function caps enum values
-2b7ac0c87d985c92e519995853c52b9649ea4b07 tools: ynl-gen: don't touch the output file if content is the same
-d280783c3ad9ae31c01c1b3bdd2e8353a223599b net: xscale: Drop unused PHY number
-7b3ba18703a63f6fd487183b9262b08e5632da1b llc: verify mac len before reading mac header
-876f8ab52363f649bcc74072157dfd7adfbabc0d hsr: Prevent use after free in prp_create_tagged_frame()
-19b3f72a41a8751e26bffc093bb7e1cef29ad579 tipc: Change nla_policy for bearer-related names to NLA_NUL_STRING
-74da77921333171766031ea213b11f1e650814f9 net/tcp_sigpool: Fix some off by one bugs
-05670f81d1287c40ec861186e4c4e3401013e7fb bpf: fix compilation error without CGROUPS
-61e4a86600029e6e8d468d1fad6b6c749bebed19 rxrpc: Fix two connection reaping bugs
-811c363645b33e6e22658634329e95f383dfc705 bpf: Fix check_stack_write_fixed_off() to correctly spill imm
-85eb035e6cfd615071256592e1dbe72c1d99c24b selftests/bpf: Add test for immediate spilled to stack
-b479d38ba959a8e3ffc4d9f760a9f2e4b9027e66 Merge branch 'bpf-fix-incorrect-immediate-spill'
-cd60f410ddc0cd663045d15936155421b6f708fd selftests/bpf: fix test_bpffs
-391145ba2accc48b596f3d438af1a6255b62a555 bpf: Add __bpf_kfunc_{start,end}_defs macros
-15fb6f2b6c4c3c129adc2412ae12ec15e60a6adb bpf: Add __bpf_hook_{start,end} macros
-fd381ce60a2d79cc967506208085336d3d268ae0 bpf: Check map->usercnt after timer->timer is assigned
-9af3775962afa8b5cd0cc30c1e454405a650c1f3 selftests/bpf: fix test_maps' use of bpf_map_create_opts
-3091b667498b0a212e760e1033e5f9b8c33a948f bpf: Relax allowlist for css_task iter
-f49843afde6771ef6ed5d021eacafacfc98a58bf selftests/bpf: Add tests for css_task iter combining with cgroup iter
-d8234d47c4aa494d789b85562fa90e837b4575f9 selftests/bpf: Add test for using css_task iter in sleepable progs
-698b8c5e3b5505ac00102caf9e4843b71192b586 Merge branch 'relax-allowlist-for-open-coded-css_task-iter'
-291d044fd51f8484066300ee42afecf8c8db7b3a bpf: Fix precision tracking for BPF_ALU | BPF_TO_BE | BPF_END
-3c41971550f58f2e006c58aa71e8c23ad312110f selftests/bpf: precision tracking test for BPF_NEG and BPF_END
-94e88b8a3e50d3e60c3ba6a5c316729587595210 Merge branch 'bpf-fix-precision-tracking-for-bpf_alu-bpf_to_be-bpf_end'
-1726483b79a72e0150734d5367e4a0238bf8fcff inet: shrink struct flowi_common
-96b9a68d1a6e4f889d453874c9e359aa720b520f octeontx2-pf: Fix error codes
-7aeeb2cb7a2570bb69a87ad14018b03e06ce5be5 octeontx2-pf: Fix holes in error code
-5a22fbcc10f3f7d94c5d88afbbffa240a3677057 net: dsa: lan9303: consequently nested-lock physical MDIO
-f55d8e60f10909dbc5524e261041e1d28d7d20d8 net: ethtool: Fix documentation of ethtool_sprintf()
-8ffbd1669ed1d58939d6e878dffaa2f60bf961a4 net: page_pool: add missing free_percpu when page_pool_init fail
-a1602d749097386ec9e8e411a16a9c37ff6cd5fc net/smc: fix documentation of buffer sizes
-fa2df45af13091f76b89adb84a28f13818d5d631 dccp: Call security_inet_conn_request() after setting IPv4 addresses.
-23be1e0e2a83a8543214d2599a31d9a2185a796b dccp/tcp: Call security_inet_conn_request() after setting IPv6 addresses.
-ff2c051fdc70081addbffbb09da1ade704eeaa08 Merge branch 'dccp-tcp-relocate-security_inet_conn_request'
-efa5f1311c4998e9e6317c52bc5ee93b3a0f36df net: r8169: Disable multicast filter for RTL8168H and RTL8107E
-d84b139f53e8fa8048f16814c6b2a53d7bc15c3d selftests/bpf: Fix broken build where char is unsigned
-e8ae8ad479e2d037daa33756e5e72850a7bd37a9 Fix termination state for idr_for_each_entry_ul()
-db456d90a4c1b43b6251fa4348c8adc59b583274 net: stmmac: xgmac: Enable support for multiple Flexible PPS outputs
-63e201916b27260218e528a2f8758be47f99bbf4 selftests: pmtu.sh: fix result checking
-cdbab6236605dc11780779d9af689aea7d58cab1 tcp: fix fastopen code vs usec TS
-153a58c6d8976f289b52e6652932c1cb28a2eacd net: ethernet: ti: am65-cpsw: rx_pause/tx_pause controls wrong direction
-02f0717e9835dbdeee26084e42086fbd32e64eb8 net/tcp: fix possible out-of-bounds reads in tcp_hash_fail()
-016b9332a3346e97a6cacffea0f9dc10e1235a75 netlink: fill in missing MODULE_DESCRIPTION()
-40cb2fdfed342e7e578d551a073687789f698d89 net, sched: Fix SKB_NOT_DROPPED_YET splat under debug config
-3423ca23e08bf285a324237abe88e7e7d9becfe6 octeontx2-pf: Free pending and dropped SQEs
-0a8e987dcc13244b5a5bc90cb1b184f813104d87 tcp: Fix SYN option room calculation for TCP-AO.
-d93f9528573e1d419b69ca5ff4130201d05f6b90 nfsd: regenerate user space parsers after ynl-gen changes
-5211c9729484c923f8d2e06bd29f9322cc42bb8f net/smc: fix dangling sock under state SMC_APPFINCLOSEWAIT
-c5bf605ba4f9d6fbbb120595ab95002f4716edcb net/smc: allow cdc msg send rather than drop it with NULL sndbuf_desc
-aa96fbd6d78d9770323b21e2c92bd38821be8852 net/smc: put sk reference if close work was canceled
-c1ed833e0b3b7b9edc82b97b73b2a8a10ceab241 Merge branch 'smc-fixes'
-e96fe283c6f45dd888536ccb7b0464569533f791 i40e: Do not call devlink_port_type_clear()
-aa54d846f3613fa9651786308c6f438e8705aff1 i40e: Fix devlink port unregistering
-3e39da4fa16c9c09207d98b8a86a6f6436b531c9 ice: Fix SRIOV LAG disable on non-compliant aggregate
-e1db8c2a01d7e12bd566106fbeefa3c5cccd2003 ice: lag: in RCU, use atomic allocation
-8b3c8c55ccbc02920b0ae6601c66df24f0d833bd ice: Fix VF-VF filter rules in switchdev mode
-68c51db3a16d258e730dd1c04a1de2f7ab038ddf ice: Fix VF-VF direction matching in drop rule in switchdev
-9fc3bc7643341dc5be7d269f3d3dbe441d8d7ac3 tg3: power down device only on SYSTEM_POWER_OFF
-115c0f4d58574524ed7fbbcce1b0a86aa5249db1 idpf: fix potential use-after-free in idpf_tso()
-e7ed6473c2c8c4e45dd861bfa06e96189b11d8db crypto: jitterentropy - Hide esoteric Kconfig options under FIPS and EXPERT
-9aedd10fe38418319bd8ed55dc68a40ec04aaa05 crypto: ahash - Set using_shash for cloned ahash wrapper over shash
-dbc9e341e3655f03a1eeeda8f0fa7931f54fac58 s390/qeth: Fix typo 'weed' in comment
-c542b39b607dc0619e3b1b36e289600a555c4774 tg3: Fix the TX ring stall
-7425627b2b2cd671d5bf6541ce50f7cba8a76ad6 tcp: Fix -Wc23-extensions in tcp_options_write()
-3a5cc90a4d1756072619fe511d07621bdef7f120 vsock/virtio: remove socket from connected/bound list on shutdown
-bfada5a7672fea5465d81bba3d05fca6024a244e test/vsock fix: add missing check on socket creation
-84d5fb9741316ca53f0f7c23b82f30e0bb33c38e test/vsock: refactor vsock_accept
-d80f63f690257b04b4fe3731b90dbf34a9ebb93f test/vsock: add dobule bind connect test
-97b94329126823d58550f4699d91e2536d4b6e91 Merge branch 'vsock-fixes'
-02d5fdbf4f2b8c406f7a4c98fa52aa181a11d733 net: phylink: initialize carrier state at creation
-0de4f50de25af79c2a46db55d70cdbd8f985c6d1 bpf: Let verifier consider {task,cgroup} is trusted in bpf_iter_reg
-3c5864ba9cf912ff9809f315d28f296f21563cce selftests/bpf: get trusted cgrp from bpf_iter__cgroup directly
-8e1b802503bb630eafc3e97b2daf755368ec96e1 Merge branch 'Let BPF verifier consider {task,cgroup} is trusted in bpf_iter_reg'
-8999ce4cfc87e61b4143ec2e7b93d8e92e11fa7f r8169: respect userspace disabling IFF_MULTICAST
-34c4effacfc329aeca5635a69fd9e0f6c90b4101 virtio/vsock: Fix uninit-value in virtio_transport_recv_pkt()
-f968c56417f00be4cb62eadeed042a1e3c80dc53 net: enetc: shorten enetc_setup_xdp_prog() error message to fit NETLINK_MAX_FMTMSG_LEN
-caf3100810f4150677f4e1057aa0a29f8a2c3743 drivers/net/ppp: use standard array-copy-function
-94090b23f3f71c150359a2e0716855a4037ad45a netfilter: add missing module descriptions
-93995bf4af2c5a99e2a87f0cd5ce547d31eb7630 netfilter: nf_tables: remove catchall element in GC sync path
-17cd01e4d1e37e2c8051bbc0ca1ecca4cb001198 ipvs: add missing module descriptions
-7b308feb4fd2d1c06919445c65c8fbf8e9fd1781 netfilter: xt_recent: fix (increase) ipv6 literal buffer length
-80abbe8a8263106fe45a4f293b92b5c74cc9cc8a netfilter: nat: fix ipv6 nat redirect with mapped and scoped addresses
-9bc64bd0cd765f696fcd40fc98909b1f7c73b2ba net/sched: act_ct: Always fill offloading tuple iifidx
-942b8b38de3fd38de1476b2abca562e729caa03d Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-0613736e8ab91e7f338d4021a8b57b124dc49bd4 Merge tag 'nf-23-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-31356547e3316829f15a98ecf9a2096cf3e228d2 net: kcm: fill in MODULE_DESCRIPTION()
-09699f193555c0630b7d0fe52c90ba2c7eac639e Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-f1a3b283f852c613fae004f87bbbacc8cef5a061 net_sched: sch_fq: better validate TCA_FQ_WEIGHTS and TCA_FQ_PRIOMAP
-9b818a340c0024f8b8f36a5f8e8b4eea3afa9a77 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-b714ca2ccf6a90733f6ceb14abb6ce914f8832c3 ptp: ptp_read should not release queue
-1bea2c3e6df8caf45d18384abfb707f47e9ff993 ptp: fix corrupted list in ptp_open
-83b9dda8afa4e968d9cce253f390b01c0612a2a5 net: ti: icss-iep: fix setting counter value
-3b220413438184b352b297e7cf593fa56999b5b3 Merge tag 'v6.7-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-89cdf9d556016a54ff6ddd62324aa5ec790c05cc Merge tag 'net-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a4761b605c527f12a9647d94a30ca04ccdea36ec ci: reorder definitions for grouping functions
+a7d499cb9361e4c4d6c8b5f841e95fc8cd97584d ci: make grouping setup more generic
+412847ced432c558bc4c3ab40dc2ea22ffe7fb8f ci: group installation of Docker dependencies
+e624f206bc07201562619e2a9788e2b3762409fc ci: split out logic to set up failed test artifacts
+9f17bef9a6ead213ea62d399baa4c67e1e89398b ci: unify setup of some environment variables
+dd02c3b68c67f8e9a5daca3b52a562318738fa47 ci: squelch warnings when testing with unusable Git repo
+0d3911ad73514850a79af478d62a94c754892d12 ci: install test dependencies for linux-musl
+0e3b67e2aa25edb7e1a5c999c87b52a7b3a7649a ci: add support for GitLab CI
+581790eeee560c791eeaa9be3dd9173d3686acc6 unit tests: add a project plan document
+e137fe3b2913898ebc9fac0cef8bfe402686d9b1 unit tests: add TAP unit test framework
+d8f416bbb87c2218ee5e43ec44ab8574a93fe423 ci: run unit tests in CI
+a15d4465a9918911e0953e89276d563fdc8cceef cmake: also build unit tests
+0df903d402959e052b6fa927dfe447d92b81eaef unit-tests: do not mistake `.pdb` files for being executable
+a2c5e294dbb095023e6c0d53b302c4363021f1b2 unit-tests: do show relative file paths
+ca76cca3a6e85311b1518d4e585b28b8177570bc artifacts-tar: when including `.dll` files, don't forget the unit-tests
+5bd7fb49afbe315c08102fea3536823068fad46d cmake: fix typo in variable name
+2f2729f3a4626838fce294a0cec4e525c5f4be39 cmake: use test names instead of full paths
+694e89baeb824a173b655507b7b62174d2d15688 cmake: handle also unit tests
+7d00ffd06b854753d2c18da5c8ddd93c226bb22a Merge branch 'js/doc-unit-tests' into next
+b4503c9c8cb1bb45b6b5981b28312fd540bb9c42 Merge branch 'js/doc-unit-tests-with-cmake' into next
+ea7ed67945e9fc4640d5b317252f20ac7dc47bbd Merge branch 'ps/ci-gitlab' into next
 
---===============4070946100165854420==--
+--===============6441795367730455375==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3dfaf9c7574a-ca867b19692f.txt
+
+7dcbf77df180abac7a5d54df4df63224f0d9fda2 t/lib-httpd: dynamically detect httpd and modules path
+1ce253847b77ed2a1dd034dc7eeb338453f2d229 t/lib-httpd: stop using legacy crypt(3) for authentication
+30f0720cb11d471b519b7ee546dfda07c347c2a6 t9164: fix inability to find basename(1) in Subversion hooks
+581790eeee560c791eeaa9be3dd9173d3686acc6 unit tests: add a project plan document
+e137fe3b2913898ebc9fac0cef8bfe402686d9b1 unit tests: add TAP unit test framework
+d8f416bbb87c2218ee5e43ec44ab8574a93fe423 ci: run unit tests in CI
+a15d4465a9918911e0953e89276d563fdc8cceef cmake: also build unit tests
+0df903d402959e052b6fa927dfe447d92b81eaef unit-tests: do not mistake `.pdb` files for being executable
+a2c5e294dbb095023e6c0d53b302c4363021f1b2 unit-tests: do show relative file paths
+ca76cca3a6e85311b1518d4e585b28b8177570bc artifacts-tar: when including `.dll` files, don't forget the unit-tests
+5bd7fb49afbe315c08102fea3536823068fad46d cmake: fix typo in variable name
+2f2729f3a4626838fce294a0cec4e525c5f4be39 cmake: use test names instead of full paths
+694e89baeb824a173b655507b7b62174d2d15688 cmake: handle also unit tests
+cfc5b3723266e22c7a2461ca17f1c014123ed806 Merge branch 'js/doc-unit-tests' into jch
+7202ee7e756ee77435fd22be994231b850e56ef0 Merge branch 'js/doc-unit-tests-with-cmake' into jch
+ecfdd2e8b34830f3cc0b796d2d42d1a5997b49d5 Merge branch 'ps/ci-gitlab' into jch
+5d8c3ddcfe708ed0e4c4d38d84f5be4c2a7e53a4 ### match next
+506b6ee00c3936fcfdca0ea5eebea091b419610c Merge branch 'jk/chunk-bounds-more' into jch
+50126f4e4caced7d70d91320be2c11e927c1abb3 Merge branch 'tb/merge-tree-write-pack' into jch
+289af11bf301f153745381b354bdcf773df4776f Merge branch 'jw/git-add-attr-pathspec' into jch
+797d22c13bb90b32f59f49575dd40e9857e19f67 Merge branch 'la/trailer-cleanups' into jch
+a4fc754514500e32fb587663b6a34b20707080f0 Merge branch 'ps/ref-tests-update' into jch
+fcf845411497ce23197e748b11489f0a11e57695 Merge branch 'cc/git-replay' into jch
+acf79e2c0da291b3d2e4d0d0db48e39244e6a211 Merge branch 'tk/cherry-pick-sequence-requires-clean-worktree' into jch
+2d6f53ba0edeab8e4a0cb663e52c098cfb80fc95 Merge branch 'rj/status-bisect-while-rebase' into jch
+4b72b2a6afe5cd70e147e133bfa435146667c7bc Merge branch 'tb/path-filter-fix' into jch
+f448de24c13f1e76718c9c72567e22bb93b4d602 Merge branch 'pw/rebase-sigint' into jch
+96d8a2ab7a23c4cb5ea9ea8f0db523972b83d668 Merge branch 'js/config-parse' into jch
+34d76f38d0c6557d0b6efb51f606b1e2ff71e85a Merge branch 'jx/sideband-chomp-newline-fix' into jch
+ed365013b8f78150874461bba96526f941c7028b Merge branch 'jx/remote-archive-over-smart-http' into jch
+915f727650274d12e97746e5e30ab1094ec1c2a1 Merge branch 'kh/t7900-cleanup' into jch
+8349436ae49d121aafcad06c30119c7ef549b16c Merge branch 'js/bugreport-in-the-same-minute' into jch
+0c9847e9a3a42a18184f06f6075c018b6ebec1e9 Merge branch 'jx/fetch-atomic-error-message-fix' into jch
+8c9543888bc5be313d99f1c097404a07684c6509 Merge branch 'vd/for-each-ref-unsorted-optimization' into jch
+0f9f38dd00987910a1a31b3506cc90f51fa5993d Merge branch 'ps/httpd-tests-on-nixos' into jch
+1143771307f7225e5b35ed68b79d00aeab83cf56 Merge branch 'ak/color-decorate-symbols' into seen
+4f2986215c22d70573d2453dda8e827d2a4aca20 Merge branch 'jc/fake-lstat' into seen
+63f56f35273930567a262f899d35c29ec6ecf725 Merge branch 'jc/diff-cached-fsmonitor-fix' into seen
+1ff8b1b3d12eb2db6a9bf39e73a0f7ebcf0f50b3 Merge branch 'jc/rerere-cleanup' into seen
+e3da369e1359a9706a52a35a5c01304f5f2325a7 Merge branch 'js/update-urls-in-doc-and-comment' into seen
+6f075b9ab52733d169a6b9083ecd18089f586d3e Merge branch 'eb/hash-transition' into seen
+81c1d48e3e25c1fd68a30ce07884c870207b272e Merge branch 'jk/chunk-bounds-more' into HEAD
+641a54ccc6f97c7f16e8c536b641b451d77dab11 chunk-format: introduce `pair_chunk_expect()` helper
+c1c449c2a6dfd9f042b75dde7c4fb202a3e71e30 commit-graph: read `OIDL` chunk with `pair_chunk_expect()`
+926ef63cff357fa3b226f546c7ffe57c21d5d240 commit-graph: read `CDAT` chunk with `pair_chunk_expect()`
+79a0810a1e306860651d550ce862989f62771afb commit-graph: read `GDAT` chunk with `pair_chunk_expect()`
+17e0f9a0ed8dbaf60db5362f8c4b74ce9b74ab1e commit-graph: read `BIDX` chunk with `pair_chunk_expect()`
+2bc75dafd0dfba0ae4ff4c0aa829d0d0ede6be1d midx: read `OIDL` chunk with `pair_chunk_expect()`
+e400a8baaf1bf2ded5c5ef393420b4daa2468ce4 midx: read `OOFF` chunk with `pair_chunk_expect()`
+ca867b19692f24df46aa67214719399cf0980446 Merge branch 'tb/pair-chunk-expect' into seen
+
+--===============6441795367730455375==--
