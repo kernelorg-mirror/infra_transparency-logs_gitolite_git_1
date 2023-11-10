@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 10 Nov 2023 15:45:58 -0000
-Message-Id: <169963115857.4039.1349967830192100572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+Date: Fri, 10 Nov 2023 15:55:20 -0000
+Message-Id: <169963172058.10566.7291688849277394335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+user: jkacur
 changes:
-  - ref: refs/tags/riscv-for-linus-6.7-mw2
-    old: 0000000000000000000000000000000000000000
-    new: d8e94ffee3e86614b54b0d56da3d478e53cf2a72
+  - ref: refs/heads/main
+    old: b5b6fa4405f7cb6be5012c3b364c383c254e3ee3
+    new: 59ecd1ba018141a02ffe59c16a9346991dfd0d48
+    log: |
+         59ecd1ba018141a02ffe59c16a9346991dfd0d48 python-linux-procfs: Remove specfiles and update version
+         
