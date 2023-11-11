@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Sat, 11 Nov 2023 10:21:35 -0000
-Message-Id: <169969809598.15024.1311959156730396658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 11 Nov 2023 12:21:46 -0000
+Message-Id: <169970530623.3552.10328999450010224337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: c5f341ce71c4fc1a674fbb1b6e47913104a7ab59
-    new: 26aa2c1ce03d898b4fd4a78ef0be7ce7504796a3
+  - ref: refs/heads/tmp.perf-tools-next
+    old: a91d351b6ddcecabf379d4669121ea23887d57a5
+    new: 6a79b1de354a770b9d049e48d8240be6b57d5975
     log: |
-         c080962181bf0c2fc0121e2a8c4679148c93a837 wispr: Add DBG statement to 'free_connman_wispr_portal_context'.
-         66fe8e9fe0f31845079d80639778d10d265de24c wispr: Document 'wispr_portal_hash'.
-         c603ab38a2b702fb257fae8fbd31355dd5d9e6ba wispr: Add documentation about reference counting.
-         26aa2c1ce03d898b4fd4a78ef0be7ce7504796a3 wispr: Address unbalanced reference counting with proxy handling.
+         9733f59e3bcf1263772075ebfe6206dc46f67b26 perf report: Add s390 raw data interpretation for PAI counters
+         6a79b1de354a770b9d049e48d8240be6b57d5975 perf vendor events riscv: Add StarFive Dubhe-80 JSON file
          
