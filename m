@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Sat, 11 Nov 2023 10:09:06 -0000
-Message-Id: <169969734602.5618.18203391988432784867@gitolite.kernel.org>
+Date: Sat, 11 Nov 2023 10:12:00 -0000
+Message-Id: <169969752050.8275.2135031832227780089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,10 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 5f95851ecf3b2e4fe2b1c402a896c6af98fc0b3e
-    new: 367fb3184c5ff7e9b0ed4fb68974feb6dda4ab57
+    old: 367fb3184c5ff7e9b0ed4fb68974feb6dda4ab57
+    new: 62db9b47422b4ab7619829e8256494e952f84fb9
     log: |
-         367fb3184c5ff7e9b0ed4fb68974feb6dda4ab57 iptables: Address unit test regression.
+         e382b30177eb93edbcbdc6001f6f77fa33462ca6 gweb: Add HTTP status code mnemonics.
+         ef0c026885c8a09181cb4a18bcc69fdb93ff99de gweb: Leverage GWebStatusCode mnemonics.
+         62db9b47422b4ab7619829e8256494e952f84fb9 wispr: Leverage GWebStatusCode mnemonics.
          
