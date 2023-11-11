@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5717604085390563126=="
+Content-Type: multipart/mixed; boundary="===============0553388619241408873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sat, 11 Nov 2023 23:35:46 -0000
-Message-Id: <169974574669.6909.8093545423392467090@gitolite.kernel.org>
+Date: Sat, 11 Nov 2023 23:35:56 -0000
+Message-Id: <169974575690.7014.7635004970243680457@gitolite.kernel.org>
 
---===============5717604085390563126==
+--===============0553388619241408873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 changes:
-  - ref: refs/heads/mtk/v6.6/pumpkin/backports
-    old: eef5453d892b19767a44d8a683fe6a3d0992bfdb
-    new: 3150af47ce4d263d553b172ccf4ee1e3b7558110
-    log: revlist-eef5453d892b-3150af47ce4d.txt
+  - ref: refs/heads/mtk/v6.6/base
+    old: 58720809f52779dc0f08e53e54b014209d13eebb
+    new: ffc253263a1375a65fa6c9f62a893e9767fbebfa
+    log: revlist-58720809f527-ffc253263a13.txt
 
---===============5717604085390563126==
+--===============0553388619241408873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eef5453d892b-3150af47ce4d.txt
+Content-Disposition: attachment; filename=revlist-58720809f527-ffc253263a13.txt
 
 6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
 f7c4e3e5d4f6609b4725a97451948ca2e425379a xfrm: interface: use DEV_STATS_INC()
@@ -578,26 +578,5 @@ bd80d2ef59bb6436effa6b7f77746b1418cf0a15 Merge tag 'dma-mapping-6.6-2023-10-28' 
 e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
-99b310d7c1060470c241204984d83e6f5e50661e dt-bindings: power: Add MT8365 power domains
-2736f547777893cded9e924e213cfacdc664392e pmdomain: mediatek: Move bools to a flags field
-876195f5519ace3e34961469a9462687bc7e1865 pmdomain: mediatek: Split bus_prot_mask
-e74efeaf4fc93cba370e7c8ade6d92dd43e82910 pmdomain: mediatek: Create bus protection operation functions
-59f2552f0ebb6d8f6e73029d7bc678b62846d84d pmdomain: mediatek: Unify configuration for infracfg and smi
-c4ed1ad71fb35cc81d3d765b0f87cbdcad488a6f pmdomain: mediatek: Add support for WAY_EN operations
-db9d5179fd0f88488e3f69b82d032c88834d09ba pmdomain: mediatek: Add support for MTK_SCPD_STRICT_BUS_PROTECTION cap
-59ab94b48e652b6fbcb5e4b0e8f15a8987eab569 pmdomain: mediatek: Add support for MT8365
-d02183fe16d9db7db4beed223803c3082c220af4 dt-bindings: phy: add mediatek MIPI CD-PHY module v0.5
-bfff131685c01aa34868007d4eefaed84a28fda2 phy: mtk-mipi-csi: add driver for CSI phy
-02f9dcc6bda25bde07028efb97a89073d54c2542 dt-bindings: media: add mediatek ISP3.0 sensor interface
-6e4fde4631b0b4cd5ac2d072f3c17591e413fee2 media: platform: mediatek: isp_30: add mediatek ISP3.0 sensor interface
-8f6762ee11e629fb6f9660a6bdf7e3b5ecae2fbd dt-bindings: media: add mediatek ISP3.0 camsv
-4e6096558d942b4af5eceb09aa118634474cd949 media: platform: mediatek: isp_30: add mediatek ISP3.0 camsv
-ad02a7a833f0bf228c8b14368039c0c4ea91f917 arm64: dts: mediatek: add mmsys support for mt8365 SoC
-93b8ef62546b2d9e7855c6e283548e68cbe58031 arm64: dts: mediatek: add camsys support for mt8365 SoC
-0810a685d50159ed2a39935551d2ffde285b173c arm64: dts: mediatek: add apu support for mt8365 SoC
-1e859ebe8babe4aebecfd907f930b93302d432f5 arm64: dts: mediatek: add power domain support for mt8365 SoC
-7d941697318b23e3f762e368efb157702bfda80b arm64: dts: mediatek: add smi support for mt8365 SoC
-345c3d1a380fb9648d313ca4f65f2955d48067d6 arm64: dts: mediatek: add larb support for mt8365 SoC
-3150af47ce4d263d553b172ccf4ee1e3b7558110 arm64: dts: mediatek: add iommu support for mt8365 SoC
 
---===============5717604085390563126==--
+--===============0553388619241408873==--
