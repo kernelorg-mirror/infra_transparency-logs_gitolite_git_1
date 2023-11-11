@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7314108690333604823=="
+Content-Type: multipart/mixed; boundary="===============5491855077331860216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 11 Nov 2023 12:50:31 -0000
-Message-Id: <169970703189.25598.13331449782031087463@gitolite.kernel.org>
+Date: Sat, 11 Nov 2023 12:50:42 -0000
+Message-Id: <169970704282.25718.914964825273402131@gitolite.kernel.org>
 
---===============7314108690333604823==
+--===============5491855077331860216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/usb-next
     old: 6bc986ab839c844e78a2333a02e55f02c9e57935
     new: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
     log: revlist-6bc986ab839c-3ca112b71f35.txt
 
---===============7314108690333604823==
+--===============5491855077331860216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699707022 -0500
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699707041 -0500
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1699707022-65b0800b1664a71d232b6324a25ea144e95ffbe2
+nonce 1699707041-fbd34a711bf6ef9cb7d50188c1fe09643ad36a5f
 
-6bc986ab839c844e78a2333a02e55f02c9e57935 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 refs/heads/main
+6bc986ab839c844e78a2333a02e55f02c9e57935 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVPeI4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+etwQAJmQ2Sn6OHnlpB4+N7/X
-llIA0C6a/lzu9xGitEJkpAnUZxLbzp8JQj5bdXfKEh/PiDpXQmzhKpk+wcoOXzmJ
-pRJpDYIxUjstys3n/EeTV24TPVzUduXKOxjE+skZtBLdr378BdztBX+Bgx5YAwst
-BG7xUdpLayrfnpweln50tReifydkAU7d1I7tu9XWFUNazL7VR4MAv1HWTE19JpL2
-RZGSp6I9GxoC93NbrcE1eA/jWpvsWgQYTsNMRNFvC/EDzN/DTOcgx8d8Ta1Hj5pq
-iKNqvgnLoIepfu517ERELzfJ08vuiFcWrbl8ICJun0Eze9CZsj6javhyz4TtDxk7
-l7gVE3C9tl9tMvuIDp45et+nRov5SwR2dgOjfEmrA1qD+NNCSm2tffi21w1Cl006
-BjivmRlwEoS4wlPS3YcI47DYqm+wn7APycZ2qlHzK/uQnqOp0WjSfeZkvvFckdPY
-9tIrpLPOweeD6NVRUkFjwFjBsN3+rI0nD0wuj8wyOYaXQ7kHxooB6S+QjJL6jron
-cve86Z9BBpHshPsVfor/8Vx7a0UcJ5u676VsriFTjg8dCvmtaYhVJiwExbc1tIcP
-eH+46mEHAh72m/e5CdfRTzsPRR6TDQnt2BSKGI5sTfNH5RfletJDQKkXF6TuCTsy
-Y6+w+hZ9a0Ar+4fUEs1jejLb
-=eSnR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVPeKEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TE4QAJTJv/uopgZh4OsYCocn
+bjXYjJPFNx0SrlZXDZV1ABIM4+7I4JX8VraPovEYQHHtImLfP08UpkeKv3dDBOVu
+RgcI1+pWFgwC1GrQiylhN5wEFOIGVxWKfsf8s5sXDzBjoMVR/sxOMKjJM5+ULu+6
+6Sb8hniUrHYZf3FeVWH4hwJ0FYCH5D+myqVmDOu+NbdawxRYBuX7xwJ4OlqY7qcd
+R4rbFQyroOHX/io4capiJf90rhRUfnTojDEfqNdsHDr+avV+C4an6hjv/3xnnLWU
+1H9tFfmdkdPXM+spvoc8VGMNtMIJzMf3XwMjLxpbhOmLNtifoZKQm2qWAtvBJC0O
+HyECb4P5xP1OioDjrNONOzbdYGnaeDOOq73t6dqlJfjzsZUFpp+82iBaRdG9jPIL
+KLzTvZzYI7SB5qn/+6eMPW2v724sOoNUf+mgIQafq+SgiwarOj90nIGRy5DMcYYM
+q+kXJFtONxdPpFs0DqdsFs0NF1nKCqO+XZJRUXLFBuHaI834ZN5GTnA0P8X/1bU4
+WqhtHbrTGrFGHMQZwhVS/vCKF01gUP4uMuqknz1us+MNX21/z8wfKa38PDFGyhS7
+INnRrEbu5HqGVjHYQ2ndXWn9O0n95D6TCity1BjBrhqc+Y/ErvvpiW1dns6Cmt0X
+n3pIjN7s88ct7l95rj+ComEC
+=s0TD
 -----END PGP SIGNATURE-----
 
---===============7314108690333604823==
+--===============5491855077331860216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -723,4 +723,4 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 18553507f60f4f51f071644621a58836eb59e28c Merge tag 'fbdev-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 Merge tag 'probes-fixes-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============7314108690333604823==--
+--===============5491855077331860216==--
