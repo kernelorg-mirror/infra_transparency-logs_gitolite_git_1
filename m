@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 11 Nov 2023 08:41:11 -0000
-Message-Id: <169969207102.26093.4057233346863927211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Sat, 11 Nov 2023 10:09:06 -0000
+Message-Id: <169969734602.5618.18203391988432784867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 25448a9ea9e3ad1bc83be87c218367289672865b
-    new: 8cc7549bd8c82a741b9f514f24bc2e0a710b5342
+    old: 5f95851ecf3b2e4fe2b1c402a896c6af98fc0b3e
+    new: 367fb3184c5ff7e9b0ed4fb68974feb6dda4ab57
     log: |
-         ec9aedb2aa1ab7ac420c00b31f5edc5be15ec167 x86/acpi: Ignore invalid x2APIC entries
-         8cc7549bd8c82a741b9f514f24bc2e0a710b5342 Merge branch into tip/master: 'x86/urgent'
+         367fb3184c5ff7e9b0ed4fb68974feb6dda4ab57 iptables: Address unit test regression.
          
