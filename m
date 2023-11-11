@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Sat, 11 Nov 2023 18:15:51 -0000
-Message-Id: <169972655196.3588.13946474446254343480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 11 Nov 2023 18:45:28 -0000
+Message-Id: <169972832828.24671.2225336367963595045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 26aa2c1ce03d898b4fd4a78ef0be7ce7504796a3
-    new: 546075706a9ecd15a0317656fc4d3c464e89285a
+  - ref: refs/heads/nfsd-fixes
+    old: af4257d6ee0b5cd82b9585bfa143fda5ac4267c3
+    new: 05493c522dd39bd265db97c6916144562c9f0825
     log: |
-         9a83b16b5beab6a371ad19ff2d5f2865c33b35c4 gweb: Rename 'parse_url'.
-         35b9bec4248fd821770a20421c448b64e140c6c7 gweb: Refactor 'parse_request_and_proxy_urls'.
-         546075706a9ecd15a0317656fc4d3c464e89285a gweb: Add documentation to URL parsing functions.
+         16051dd094505033238c6e4c4ddda82676bf30fd NFSD: Update nfsd_cache_append() to use xdr_stream
+         8974e9daa63ae1ba274386f824525490c00544c5 NFSD: Fix "start of NFS reply" pointer passed to nfsd_cache_update()
+         05493c522dd39bd265db97c6916144562c9f0825 NFSD: Fix checksum mismatches in the duplicate reply cache
          
