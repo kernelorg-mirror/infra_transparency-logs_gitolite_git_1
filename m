@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 11 Nov 2023 18:45:28 -0000
-Message-Id: <169972832828.24671.2225336367963595045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 11 Nov 2023 18:50:37 -0000
+Message-Id: <169972863737.28124.7780489650372021019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: af4257d6ee0b5cd82b9585bfa143fda5ac4267c3
-    new: 05493c522dd39bd265db97c6916144562c9f0825
+  - ref: refs/heads/master
+    old: ca77220a8fc5d25cf0f040f9ac9529a0cc12ed16
+    new: 7f35db79960be15204cf979bf81e601926fa3458
     log: |
-         16051dd094505033238c6e4c4ddda82676bf30fd NFSD: Update nfsd_cache_append() to use xdr_stream
-         8974e9daa63ae1ba274386f824525490c00544c5 NFSD: Fix "start of NFS reply" pointer passed to nfsd_cache_update()
-         05493c522dd39bd265db97c6916144562c9f0825 NFSD: Fix checksum mismatches in the duplicate reply cache
+         5df1866bffeea1f63fb51fe99c77ae227916df92 stpncpy.3, string_copying.7: Clarify that st[rp]ncpy() do NOT produce a string
+         7f35db79960be15204cf979bf81e601926fa3458 stpncpy.3, string.3, string_copying.7: Clarify that st[rp]ncpy() pad with null bytes
          
