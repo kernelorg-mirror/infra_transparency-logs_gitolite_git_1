@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6547973329340523423=="
+Content-Type: multipart/mixed; boundary="===============3649514058663445972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 11 Nov 2023 23:07:22 -0000
-Message-Id: <169974404283.18527.9162320474115224351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 11 Nov 2023 23:07:37 -0000
+Message-Id: <169974405780.18946.12467120038846402806@gitolite.kernel.org>
 
---===============6547973329340523423==
+--===============3649514058663445972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
     log: revlist-3fec323339a4-3ca112b71f35.txt
 
---===============6547973329340523423==
+--===============3649514058663445972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 18553507f60f4f51f071644621a58836eb59e28c Merge tag 'fbdev-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 Merge tag 'probes-fixes-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============6547973329340523423==--
+--===============3649514058663445972==--
