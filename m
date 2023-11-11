@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5528402065998450687=="
+Content-Type: multipart/mixed; boundary="===============5717604085390563126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sat, 11 Nov 2023 23:35:17 -0000
-Message-Id: <169974571761.6648.14912782965801626318@gitolite.kernel.org>
+Date: Sat, 11 Nov 2023 23:35:46 -0000
+Message-Id: <169974574669.6909.8093545423392467090@gitolite.kernel.org>
 
---===============5528402065998450687==
+--===============5717604085390563126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 changes:
-  - ref: refs/heads/mtk/v6.6/merge
-    old: bcc5948b72b1c6e3bdc24fd2a45067e56de117ef
-    new: fb61f85b1af02c8e36f06bb2edb3d7e42eee03dd
-    log: revlist-bcc5948b72b1-fb61f85b1af0.txt
-  - ref: refs/heads/mtk/v6.6/pumpkin/camera
-    old: 56d5f2f48982a62d6cf72b1e8dbf60442370ca82
-    new: 052201d16085b2ba7afed78b876005964a149e91
-    log: |
-         8d2e7aa087473039a50b9b614520ee3f030b25ce arm64: dts: mediatek: mt8365-pumpkin: Add commented out boot-mode to overlays
-         052201d16085b2ba7afed78b876005964a149e91 DNI: arm64: dts: mediatek: m8365-pumpkin: Add overlay for hardcoded eth
-         
+  - ref: refs/heads/mtk/v6.6/pumpkin/backports
+    old: eef5453d892b19767a44d8a683fe6a3d0992bfdb
+    new: 3150af47ce4d263d553b172ccf4ee1e3b7558110
+    log: revlist-eef5453d892b-3150af47ce4d.txt
 
---===============5528402065998450687==
+--===============5717604085390563126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcc5948b72b1-fb61f85b1af0.txt
+Content-Disposition: attachment; filename=revlist-eef5453d892b-3150af47ce4d.txt
 
 6d41d4fe28724db16ca1016df0713a07e0cc7448 net: xfrm: skip policies marked as dead while reinserting policies
 f7c4e3e5d4f6609b4725a97451948ca2e425379a xfrm: interface: use DEV_STATS_INC()
@@ -334,8 +327,6 @@ d2929762cc3f85528b0ca12f6f63c2a714f24778 sched/eevdf: Fix heap corruption more
 430232619791e7de95191f2cd8ebaa4c380d17d0 gpio: vf610: mask the gpio irq in system suspend and support wakeup
 fc363413ef8ea842ae7a99e3caf5465dafdd3a49 gpio: vf610: set value before the direction to avoid a glitch
 1d30162f35c7a73fc2f8cdcdcdbd690bedb99d1a net: pktgen: Fix interface flags printing
-99b6d9685c33ee38f9fea00e3ea9191da93133c9 media: MAINTAINERS: Fix path for J721E CSI2RX bindings
-48016737a9af47328dd321df4dd3479ed5e2041d media: platform: cadence: select MIPI_DPHY dependency
 f37cc2fc277b371fc491890afb7d8a26e36bb3a1 platform/x86: asus-wmi: Change ASUS_WMI_BRN_DOWN code from 0x20 to 0x2e
 a5b92be2482e5f9ef30be4e4cda12ed484381493 platform/x86: asus-wmi: Only map brightness codes when using asus-wmi backlight control
 235985d1763f7aba92c1c64e5f5aaec26c2c9b18 platform/x86: asus-wmi: Map 0x2a code, Ignore 0x2b and 0x2c events
@@ -508,12 +499,6 @@ d2a0fc372aca561556e765d0a9ec365c7c12f0ad tcp: fix wrong RTO timeout when receive
 fe3cfe869d5e0453754cf2b4c75110276b5e8527 Merge tag 'phy-fixes-6.6' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1 Linux 6.6-rc7
 13454e6e0df2ff37853596d546438ac84ca6a413 isdn: mISDN: hfcsusb: Spelling fix in comment
-5e538fce33589da6d7cb2de1445b84d3a8a692f7 media: venus: hfi: add checks to perform sanity on queue pointers
-b18e36dfd6c935da60a971310374f3dfec3c82e1 media: venus: hfi: fix the check to handle session buffer requirement
-8d0b89398b7ebc52103e055bf36b60b045f5258f media: venus: hfi: add checks to handle capabilities from firmware
-0768a9dd809ef52440b5df7dce5a1c1c7e97abbd media: venus: hfi_parser: Add check to keep the number of codecs within range
-4c99885d592ea53f9d4872595858e3f14eaf0823 media: venus: hfi_cmds: Replace one-element array with flex-array member and use __counted_by
-19e67e01eb1e84f3529770d084b93f16a4894c42 media: venus: Fix firmware path for resources
 3e3929ef889e650dd585dc0f4f7f18240688811a wifi: cfg80211: pass correct pointer to rdev_inform_bss()
 c434b2be2d80d236bb090fdb493d4bd5ed589238 wifi: cfg80211: fix assoc response warning on failed links
 91535613b6090fc968c601d11d4e2f16b333713c wifi: mac80211: don't drop all unprotected public action frames
@@ -568,7 +553,6 @@ c17cda15cc86e65e9725641daddcd7a63cc9ad01 Merge tag 'net-6.6-rc8' of git://git.ke
 44117828ed5c129a8146585e81262c0025daa50f Merge tag 'amd-drm-fixes-6.6-2023-10-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 750b95887e567848ac2c851dae47922cac6db946 Merge tag 'drm-fixes-2023-10-27' of git://anongit.freedesktop.org/drm/drm
 6e6c6d6bc6c96c2477ddfea24a121eb5ee12b7a3 iommu: Avoid unnecessary cache invalidations
-3e238417254bfdcc23fe207780b59cbb08656762 media: nuvoton: VIDEO_NPCM_VCD_ECE should depend on ARCH_NPCM
 e0f831836cead677fb07d54bd6bf499df35640c2 tracing/kprobes: Fix the description of variable length arguments
 3bde7ec13c971445faade32172cb0b4370b841d9 platform/x86: Add s2idle quirk for more Lenovo laptops
 09a4a03c073bab5b375b71769f708d6932b370f7 Merge tag 'powerpc-6.6-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -615,26 +599,5 @@ ad02a7a833f0bf228c8b14368039c0c4ea91f917 arm64: dts: mediatek: add mmsys support
 7d941697318b23e3f762e368efb157702bfda80b arm64: dts: mediatek: add smi support for mt8365 SoC
 345c3d1a380fb9648d313ca4f65f2955d48067d6 arm64: dts: mediatek: add larb support for mt8365 SoC
 3150af47ce4d263d553b172ccf4ee1e3b7558110 arm64: dts: mediatek: add iommu support for mt8365 SoC
-3b75164a5ff2841ad5e0b1d595a0a084c35528b0 dt-bindings: vendor-prefixes: Add prefix for OLogic, Inc.
-727b9d76f88e76ba008328d075fa36402d7d5a24 dt-bindings: arm64: dts: mediatek: Add ologic,pumpkin-i350 board
-27f79e3d986f2586220e445ad0efa417a9ed91b3 arm64: dts: mediatek: Add device tree for MT8365-based Pumpkin i350
-7a3930dd15446d033acf16f5326d6487609b9aa3 media: platform: mtk-isp: Properly store buffer CPU address
-cc375dcb706f6ebe05f1ed002485e3726b029ff5 media: platform: mtk-isp: Don't call runtime PM with spinlock held
-71761d66a4a200e4c4e10a2a9a50cd11c9e4e765 media: platform: mtk-isp: isp_30: Fix IRQ locking
-93dbe7cb333c51ab26c2232061d586e060a397b9 media: mediatek: isp_30: Use upstream notifiers API
-1b115c66f160626e26ee4c231a89bd71970bb4d2 media: platform: mtk-isp: Use sizeof() instead of V4L2_SUBDEV_NAME_SIZE
-18960909faf41f40e406e9f7c81cfe02c48ac858 media: mediatek: isp_30: Fix media entity initialization
-badebcfe98489b78de99b6a15f5db2db9bd549b7 media: mediatek: isp_30: Initialize correct pad for camsv video device
-e2b10664cc8bf613bfca6d6554cb9a69f5989ed3 media: mediatek: isp_30: camsv: Fix runtime PM
-4d49d36b8860df34cf5844671bddcf3881e266ab arm64: dts: mediatek: mt8365: Add support for camera
-e95db8bf54796f5424b6a639163d85459adfb0d1 arm64: dts: mediatek: mt8365-pumpkin: Add overlays for thp7312 cameras
-02ec23e8bebd6e5044fa9a12efc05f779c58958a device property: Add fwnode_name_eq()
-c5991e2fba12af9c3633513ac9d708b28adbe2fb dt-bindings: media: Add bindings for THine THP7312 ISP
-1e451b434e932e17f61741161bfff687573abe9c media: uapi: Add controls for the THP7312 ISP
-de37c193f0b178865c730097ca443d43b808834d media: i2c: Add driver for THine THP7312
-8d2e7aa087473039a50b9b614520ee3f030b25ce arm64: dts: mediatek: mt8365-pumpkin: Add commented out boot-mode to overlays
-052201d16085b2ba7afed78b876005964a149e91 DNI: arm64: dts: mediatek: m8365-pumpkin: Add overlay for hardcoded eth
-20dba5567323218b3b48931d2bcd83e757ed16b8 Merge branch 'mtk/v6.6/pumpkin/camera' into mtk/v6.6/merge
-fb61f85b1af02c8e36f06bb2edb3d7e42eee03dd Merge branch 'mtk/v6.6/thp7312/v6' into mtk/v6.6/merge
 
---===============5528402065998450687==--
+--===============5717604085390563126==--
