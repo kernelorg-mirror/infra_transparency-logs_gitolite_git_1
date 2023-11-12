@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 12 Nov 2023 02:47:51 -0000
-Message-Id: <169975727113.14789.11527711029987025675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 12 Nov 2023 02:53:03 -0000
+Message-Id: <169975758371.18235.8737380055522329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/fixes
-    old: 04714e55eb7210f1a9e7872c81e33b789bdce863
-    new: 1c41041124bd14dd6610da256a3da4e5b74ce6b1
+  - ref: refs/heads/damon/next
+    old: 9158a1ca83898119c67e68b6bdaa9c9ae6103272
+    new: 7a25f595919ba24f826e47a7b3579122761fb9fd
+    log: |
+         7a25f595919ba24f826e47a7b3579122761fb9fd mm/damon/core: copy nr_accesses when splitting region
+         
