@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 12 Nov 2023 02:40:32 -0000
-Message-Id: <169975683259.10504.1414630238693696505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 12 Nov 2023 02:47:51 -0000
+Message-Id: <169975727113.14789.11527711029987025675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: e9474429e7a84ccf811c9a07cd68d3a587cfebfb
-    new: 37adace064bb9aa2ad1eca5f36e8c9044e1bf291
-    log: |
-         37adace064bb9aa2ad1eca5f36e8c9044e1bf291 Sun Nov 12 02:39:01 AM UTC 2023
-         
+  - ref: refs/heads/fixes
+    old: 04714e55eb7210f1a9e7872c81e33b789bdce863
+    new: 1c41041124bd14dd6610da256a3da4e5b74ce6b1
