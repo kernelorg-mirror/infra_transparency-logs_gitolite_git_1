@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3454579276872618225=="
+Content-Type: multipart/mixed; boundary="===============5050298581112092807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Sun, 12 Nov 2023 03:08:49 -0000
-Message-Id: <169975852930.29799.15062276659030723523@gitolite.kernel.org>
+Date: Sun, 12 Nov 2023 03:08:50 -0000
+Message-Id: <169975853072.29881.17755504320592706777@gitolite.kernel.org>
 
---===============3454579276872618225==
+--===============5050298581112092807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main-5.15.y
+  - ref: refs/heads/main
     old: 0c5e59ab3e2053bd6c0f9666d040fe599cccb945
     new: 98fa22f9fff105842c6faded7c4f6c86d6683db8
     log: revlist-0c5e59ab3e20-98fa22f9fff1.txt
 
---===============3454579276872618225==
+--===============5050298581112092807==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a75ea1d6ec9ef194a456139406304dae913de076 bpf: disable retpoline if unprivileged 
 d2f3ce7f42140d4830379ae2131148251b1654d6 mm: bpf: trace_bpf_prefault writable raw tracepoint
 98fa22f9fff105842c6faded7c4f6c86d6683db8 Merge remote-tracking branch 'gitlab/main-5.15.y' into main-5.15.y
 
---===============3454579276872618225==--
+--===============5050298581112092807==--
