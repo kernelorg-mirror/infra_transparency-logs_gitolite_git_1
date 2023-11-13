@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6632127716271845717=="
+Content-Type: multipart/mixed; boundary="===============7582794386173567223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 13 Nov 2023 15:55:50 -0000
-Message-Id: <169989095022.3218.12619991933462831180@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 15:55:56 -0000
+Message-Id: <169989095676.3316.10069723937290732635@gitolite.kernel.org>
 
---===============6632127716271845717==
+--===============7582794386173567223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-andy
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============6632127716271845717==
+--===============7582794386173567223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============6632127716271845717==--
+--===============7582794386173567223==--
