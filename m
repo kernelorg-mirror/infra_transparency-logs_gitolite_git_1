@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1815221282673808135=="
+Content-Type: multipart/mixed; boundary="===============1391352963396679049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 13 Nov 2023 07:15:15 -0000
-Message-Id: <169985971555.24856.7683833290655771887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Mon, 13 Nov 2023 07:29:00 -0000
+Message-Id: <169986054053.32726.9512266432612807764@gitolite.kernel.org>
 
---===============1815221282673808135==
+--===============1391352963396679049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/linux-next
-    old: b6879aba1278e1b8faa7daf561fd32ae53ad3fdd
-    new: 50e865a56876bd7a74a79c1778025631150f104a
-    log: revlist-b6879aba1278-50e865a56876.txt
+  - ref: refs/heads/usb-next
+    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-8a749fd1a872-b85ea95d0864.txt
 
---===============1815221282673808135==
+--===============1391352963396679049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6879aba1278-50e865a56876.txt
+Content-Disposition: attachment; filename=revlist-8a749fd1a872-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
+e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
+a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
 853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
 69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
@@ -1047,8 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-e64e7c74b99ec9e439abca75f522f4b98f220bd1 xen/events: avoid using info_for_irq() in xen_send_IPI_one()
-bfa993b355d33a438a746523e7129391c8664e8a acpi/processor: sanitize _OSC/_PDC capabilities for Xen dom0
-50e865a56876bd7a74a79c1778025631150f104a xen/shbuf: eliminate 17 kernel-doc warnings
 
---===============1815221282673808135==--
+--===============1391352963396679049==--
