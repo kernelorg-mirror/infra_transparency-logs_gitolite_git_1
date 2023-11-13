@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1279748698249578836=="
+Content-Type: multipart/mixed; boundary="===============3593898454480171803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 13 Nov 2023 02:44:47 -0000
-Message-Id: <169984348762.21730.17237419169708898531@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 02:55:52 -0000
+Message-Id: <169984415267.30328.14795911299341077082@gitolite.kernel.org>
 
---===============1279748698249578836==
+--===============3593898454480171803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-firmware-kernelci
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: ecea08916418a94f99f89c543303877cb6e08a11
-    log: revlist-0bb80ecc33a8-ecea08916418.txt
-  - ref: refs/heads/for-firmware-next
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/for-kernelci
+    old: 47ea0ddb1f5604ba3496baa19110aec6a3151f2e
+    new: 49e380795414039f7b3bd44c121104f31738dcf1
+    log: revlist-47ea0ddb1f56-49e380795414.txt
+  - ref: refs/heads/for-next
+    old: 47ea0ddb1f5604ba3496baa19110aec6a3151f2e
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-0bb80ecc33a8-b85ea95d0864.txt
+    log: revlist-47ea0ddb1f56-b85ea95d0864.txt
 
---===============1279748698249578836==
+--===============3593898454480171803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-ecea08916418.txt
+Content-Disposition: attachment; filename=revlist-47ea0ddb1f56-49e380795414.txt
 
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
@@ -1053,13 +1053,13 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-ecea08916418a94f99f89c543303877cb6e08a11 firmware: coreboot: framebuffer: Avoid invalid zero physical address
+49e380795414039f7b3bd44c121104f31738dcf1 platform/chrome: sensorhub: Fix typos
 
---===============1279748698249578836==
+--===============3593898454480171803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-47ea0ddb1f56-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -2086,4 +2086,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============1279748698249578836==--
+--===============3593898454480171803==--
