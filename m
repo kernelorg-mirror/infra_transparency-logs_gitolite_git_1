@@ -1,46 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6463444296920525215=="
+Content-Type: multipart/mixed; boundary="===============1669857563710266416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Mon, 13 Nov 2023 21:04:43 -0000
-Message-Id: <169990948384.2026.4358407336782875908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 13 Nov 2023 21:07:22 -0000
+Message-Id: <169990964208.5409.18119947934865924544@gitolite.kernel.org>
 
---===============6463444296920525215==
+--===============1669857563710266416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next
-    old: 5684e138483c46fe28ee2a2a50c54cb200c04c4e
-    new: 09fcdf8635dbf90d360ea0198c593be76e2faa67
-    log: revlist-5684e138483c-09fcdf8635db.txt
+  - ref: refs/tags/mlx5-fixes-2023-11-13
+    old: 350307e2731aac767142a1692cdf690125088223
+    new: 6ef989fe48f819c1f2e8eac5c75762561dff80bc
+    log: revlist-350307e2731a-6ef989fe48f8.txt
 
---===============6463444296920525215==
+--===============1669857563710266416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5684e138483c-09fcdf8635db.txt
+Content-Disposition: attachment; filename=revlist-350307e2731a-6ef989fe48f8.txt
 
-89b212d4afef64331b08c44e661a703d2be0970b selftests/nolibc: don't hang on config input
-a0fa60e42bbe7531aa4a32116a7cb7ea50e066f9 tools/nolibc: Use linux/wait.h rather than duplicating it
-c5a25b86f5775e645f4c22b439f836c05f3a71c4 selftests/nolibc: use EFI -bios for LoongArch qemu
-438d49cfe21187f0a45f4ba97b8ad6a84c1f0357 selftests/nolibc: anchor paths in $(srcdir) if possible
-526bbbced25d468ecc8f85ce7371499f1008c99a selftests/nolibc: support out-of-tree builds
-fab85cb75dbf963a768c212cdb82d903c51172d5 selftests/nolibc: add script to run testsuite
-a599bb22c6fbd98196cf6a6c28548819a0e9ff5d tools/nolibc: error out on unsupported architecture
-912b6570f7db1803cbeb4363c142d35bcf230809 tools/nolibc: move MIPS ABI validation into arch-mips.h
-b9dfb96573c8728ed1b5630d272197ee47dece9a selftests/nolibc: use XARCH for MIPS
-61374f654fab51f80e931b17d62cbd678fc0e0ae selftests/nolibc: explicitly specify ABI for MIPS
-c91e61d1aeb49e4cd9cc127df6d62bcf7360e1e7 selftests/nolibc: extraconfig support
-05d261d8a07b5475d8b0def9e0b6df5281c294ee selftests/nolibc: add configuration for mipso32be
-a1c971ee0f6f1fd1398e69cac7f4f12de11a1ba1 selftests/nolibc: fix testcase status alignment
-3eda296c24fde45bbb8df5838a7b5f2473dd52a3 selftests/nolibc: introduce QEMU_ARCH_USER
-d7c7d0b4a75c299785f643d13f671500fab84447 selftests/nolibc: run-tests.sh: enable testing via qemu-user
-09fcdf8635dbf90d360ea0198c593be76e2faa67 tools/nolibc: mips: add support for PIC
+47e9a20115778d882c6a7179bb869539fcabe09e Revert "net/mlx5: DR, Supporting inline WQE when possible"
+18093dcad1b4625d6ec7145eb8364fdad1a288b0 net/mlx5: Free used cpus mask when an IRQ is released
+846179ea60f31630778d3b48a35308cce2d99f07 net/mlx5: DR, Allow old devices to use multi destination FTE
+37ec1fe39265501ca368bf16c23165952dc11610 net/mlx5: Decouple PHC .adjtime and .adjphase implementations
+ce44633528649ebd62539f6b07a2bc9a4815bf2d net/mlx5e: fix double free of encap_header
+10d768ce6b7df04375f2112ca1d4a6518a106120 net/mlx5e: fix double free of encap_header in update funcs
+0567abd954ea8c84e6006d2ef62078a174a135a8 net/mlx5e: Fix pedit endianness
+d1e62c3770405c93f1c2f0353b65590aff54b94e net/mlx5e: TC, Don't offload post action rule if not supported
+477f4a573817ee619f455bbeec214e4f0b92317a net/mlx5e: Don't modify the peer sent-to-vport rules for IPSec offload
+9dd1d677f4f377af00664fcfea3f982f9ecb00bc net/mlx5e: Avoid referencing skb after free-ing in drop path of mlx5e_sq_xmit_wqe
+5b8fb8667ffb745445ce55539dc9e896a83afecf net/mlx5e: Track xmit submission to PTP WQ after populating metadata map
+2a4744e1b710aa45e0e39dc1bc789ab52de5cef7 net/mlx5e: Update doorbell for port timestamping CQ before the software counter
+919ed02dd018a6a9cbc53684018ec748c30c2cda net/mlx5: Fix a NULL vs IS_ERR() check
+58dc3ab3ab7f597d40b1c26aabb96f56d34f0208 net/mlx5: Increase size of irq name buffer
+aed9f009061733c4ae81a5a3134802f1605050e0 net/mlx5e: Reduce the size of icosq_str
+fa8c50c21d9b244b52969f477d7afe2324e75797 net/mlx5e: Check return value of snprintf writing to fw_version buffer
+30dca69fd65acc858b144debcd25e52ffed8db50 net/mlx5e: Check return value of snprintf writing to fw_version buffer for representors
 
---===============6463444296920525215==--
+--===============1669857563710266416==--
