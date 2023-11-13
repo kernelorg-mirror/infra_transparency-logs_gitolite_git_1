@@ -1,85 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5307869543494285403=="
+Content-Type: multipart/mixed; boundary="===============6631467619118925253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 13 Nov 2023 14:28:18 -0000
-Message-Id: <169988569845.858.14482966868556655585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 13 Nov 2023 14:28:47 -0000
+Message-Id: <169988572762.1133.2451393396312880872@gitolite.kernel.org>
 
---===============5307869543494285403==
+--===============6631467619118925253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/for-linus
-    old: 27beb3ca347fa29fef5c23b351120239b8cf0612
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-27beb3ca347f-b85ea95d0864.txt
-  - ref: refs/heads/main
-    old: 27beb3ca347fa29fef5c23b351120239b8cf0612
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-27beb3ca347f-b85ea95d0864.txt
-  - ref: refs/heads/next
-    old: 27beb3ca347fa29fef5c23b351120239b8cf0612
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-27beb3ca347f-b85ea95d0864.txt
+  - ref: refs/heads/master
+    old: 3522c00702507808b855287efbaf1039a84ad296
+    new: 37fbc2ba027337fe89c7b039c74d3d28883453c8
+    log: revlist-3522c0070250-37fbc2ba0273.txt
 
---===============5307869543494285403==
+--===============6631467619118925253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27beb3ca347f-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-3522c0070250-37fbc2ba0273.txt
 
-830531e94712973af2eee1c0b731de8426aa5b70 drm/nouveau/gsp/r535: add interrupt handling
-5bf0257136a223d0e887441799527b320fc8313f drm/nouveau/mmu/r535: initial support
-9e99444490238d210a421cef3598432c5da2e086 drm/nouveau/disp/r535: initial support
-2a77d015b538866d6fbc90681e8da2dc7c5ff90b drm/nouveau/fifo/r535: initial support
-b5ce219ab368bbb430f9f59a3e0b8f05bc7354ae drm/nouveau/ce/r535: initial support
-361c3cd8ae1277e601ab6e547cc62368dc5499a7 drm/nouveau/gr/r535: initial support
-142cd60243cac1dfa18d3714ed4dd0cdc3786180 drm/nouveau/nvdec/r535: initial support
-08ab88f5a033c67625272eda99de4d245809e0f6 drm/nouveau/nvenc/r535: initial support
-ca9686340aba42e8316202c428ef76a304bed75a drm/nouveau/nvjpg/r535: initial support
-015185cc670e8cb3325990dd41b1ddb502dd3a36 drm/nouveau/ofa/r535: initial support
-b76827a3a930fe8737ca64854e17c113687e94a9 nouveau: fix r535 build on 32-bit arm.
-7e6bd6409b66f57741dd69e0ee20f4ed4434b67c nouveau/disp: fix post-gsp build on 32-bit arm.
-c468b5dd759ede754b23cbc9c50b048a781d4217 Merge branch 'for-next' into for-linus
-2dc15ff73b6a7b47db0e848498cb5b0479e781c6 Merge tag 'asoc-v6.7-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-162e3480246ef69386d4647d2320d86741bf08a2 Merge tag 'v6.6' into rdma.git for-next
-ef12ea629e69d12c8713218014bf569a788f17ae Merge tag 'loongarch-kvm-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson into HEAD
-a53e215f90079f617360439b1b6284820731e34c RDMA/mlx5: Fix mkey cache WQ flush
-957eedc70350ad1b31aa76c4ed826372a46006fa Merge tag 'kvm-riscv-6.7-1' of https://github.com/kvm-riscv/linux into HEAD
-140139c5bd9f0f95706a6138fc41bfa59792695e Merge tag 'kvm-s390-next-6.7-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-f23364676018db8432f91c6247a30529195aff60 Merge tag 'kvm-x86-apic-6.7' of https://github.com/kvm-x86/linux into HEAD
-fadaf574a7fabe27016f734bd02a3bd27d0fcc10 Merge tag 'kvm-x86-docs-6.7' of https://github.com/kvm-x86/linux into HEAD
-f292dc8aad10f8e3be2cfaa4714b92464f42c710 Merge tag 'kvm-x86-misc-6.7' of https://github.com/kvm-x86/linux into HEAD
-2ef422f063b74adcc4a4a9004b0a87bb55e0a836 IB/mlx5: Fix init stage error handling to avoid double free of same QP and UAF
-f0f59d069e0a33bd43afe664e16b4a86cf9d079c Merge tag 'kvm-x86-mmu-6.7' of https://github.com/kvm-x86/linux into HEAD
-e122d7a1008769af080b9dbd78fce54d3cd77f6f Merge tag 'kvm-x86-xen-6.7' of https://github.com/kvm-x86/linux into HEAD
-d5cde2e0b317bb179a39204b4a7820ac8b9011cc Merge tag 'kvm-x86-pmu-6.7' of https://github.com/kvm-x86/linux into HEAD
-be47941980d56238455eb54401c7b3de4ac5e269 Merge tag 'kvm-x86-svm-6.7' of https://github.com/kvm-x86/linux into HEAD
-ed2232d49187cebc007ecf4e6374069b11ab3219 ASoC: amd: acp: fix for i2s mode register field update
-0dd092bf1091a114f22136e5776aec21e6e4af2a bcachefs: Fix lock ordering with snapshot_create_lock
-b0b5bbf99fc269e10d01c2a9873de5a042bdc7f5 bcachefs: Don't run bch2_delete_dead_snapshots() unnecessarily
-88dfe193bd2abd08926c1a0d48b770bb68ac8ccb bcachefs: bch2_btree_id_str()
-50a38ca1baace3dc66027ad41393917b05318b14 bcachefs: Fix btree_node_type enum
-a1d97d8417d3c2f2477847541303621c32652976 bcachefs: Fix shrinker names
-253ba178c8d9065748fa56b39343e6a5a55b0023 bcachefs: Fix ca->oldest_gen allocation
-e38356d65ed085a2c0ba056fa9048ad8845da1d0 bcachefs: Kill dead code extent_save()
-d0261559c434abbd7254c9c97c68f5e024daabf4 bcachefs: Delete duplicate time stats initialization
-bbe682c76789d679cb75effd7792d41b09efea00 bcachefs: Ensure devices are always correctly initialized
-8480905765c3729025331720d23735ce085ef070 bcachefs: Improve io option handling in data move path
-523f33efbf406f2eb0f071123d17fbbd9e40d692 bcachefs: All triggers are BTREE_TRIGGER_WANTS_OLD_AND_NEW
-bf0d9e89de2e62fe9967ebb77b68d58d3812e4db bcachefs: Split apart bch2_target_to_text(), bch2_target_to_text_sb()
-37707bb183b4746f27b0beaf0c3273fd7c79dc66 bcachefs: Split out disk_groups_types.h
-e677179b35b7ecbe3cefe33011b69d45171e5e9f bcachefs: bch2_disk_path_to_text() no longer takes sb_lock
-2d39081291470750cc605c917531d7cd85aebf94 bcachefs: Ensure we don't exceed encoded_extent_max
-9db2f86060a8e54e80f99e3c3366832ce6a67d76 bcachefs: Check for too-large encoded extents
-48f866e90f520855b6d941eebe46d75dbfbb9a81 bcachefs: Fix bch2_prt_bitflags()
-ef435abd6a99206d9bb93462a1b0508e0d876adb bcachefs: trivial extents.c refactoring
 6ddedca2180b095aacca0f628e0d03a32477f68f bcachefs: Guard against unknown compression options
 a0bfe3b065cabc669933063cb5a9066b104be406 bcachefs: move.c exports, refactoring
 633169035a7ccdfe3a9eba0202dc2135baa07c72 bcachefs: moving_context now owns a btree_trans
@@ -119,6 +65,8 @@ f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-
 eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
 e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
 1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
+ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
+91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
 71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
 a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
 5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
@@ -297,6 +245,8 @@ bc38f61313d316d74c16ce7287d6dba2f42502c9 riscv: add support for sysctl unaligned
 9f23a5d2f6b01c2ab91d791109731a0d87ec2239 riscv: add support for PR_SET_UNALIGN and PR_GET_UNALIGN
 4d75fc6ceba4d154f8a9b0905c669bac6ac570c2 iomap: rotate maintainers
 5c81f752c95313e0d7e7ab148b61c7152d1a824c ASoC: codecs: Modify some error codes
+8001f49394e353f035306a45bcf504f06fca6355 proc: sysctl: prevent aliased sysctls from getting passed to init
+8b793bcda61f6c3ed4f5b2ded7530ef6749580cb watchdog: move softlockup_panic back to early_param
 a9b8d90f87263f985fa14250fc8caf7bfcde8803 NFSv4: fairly test all delegations on a SEQ4_ revocation
 9fb2047d23d5087e124e7bc7a0abdc3f0d7f5d7e Documentation: ubsan: drop "the" from article title
 cb61dad80fdc6a8f01b101e823a9335cd6d61071 zswap: export compression failure stats
@@ -325,6 +275,13 @@ fbbc2af38463add04af0117671b006866052e43b mailmap: update email address for Claud
 4aa8f278b94e1885a9b42c1c765c4edddfdc42f1 .mailmap: add address mapping for Tomeu Vizoso
 16501630bdeb107141a0139ddc33f92ab5582c6f scripts/gdb: fix usage of MOD_TEXT not defined when CONFIG_MODULES=n
 6620999f0d41e4fd6f047727936a964c3399d249 scripts/gdb/vmalloc: disable on no-MMU
+2c7ccb3c362bc86aeb3e52d6fbf15f7f480ca961 module: Clarify documentation of module_param_call()
+62eedac264159690b4fed78aeec4d3623ce253b7 MAINTAINERS: add include/linux/module*.h to modules
+3737df782c740b944912ed93420c57344b1cf864 module/decompress: use vmalloc() for gzip decompression workspace
+60da3640b07ce03706a8c77a3740ebad8b9af063 module: Make is_mapping_symbol() return bool
+04311b9b306388288f72cf6ebde659274b06ffd6 module: Make is_valid_name() return bool
+fd06da776130ec2611c30272a0868f6a54cdf9d2 module: Fix comment typo
+ea0b0bcef4917a2640ecc100c768b8e785784834 module: Annotate struct module_notes_attrs with __counted_by
 984a4afdc87a1fc226fd657b1cd8255c13d3fc1a regmap: prevent noinc writes from clobbering cache
 85d68222ddc5f4522e456d97d201166acb50f716 rcu: Break rcu_node_0 --> &rq->__lock order
 2be4686d866ad5896f2bb94d82fe892197aea9c7 rcu: Introduce rcu_cpu_online()
@@ -343,6 +300,10 @@ be9e782df3cb557715630a61dc79d9f966737859 bcachefs: Don't downgrade locks on tran
 df94cb2e57b2cc539f325003e7abb76d3060d55b bcachefs: Fix an integer overflow
 dc7a15fb90bf658be8289c9540c11f50993d10ff bcachefs: Skip deleted members in member_to_text()
 2ba446f82142d0d42fc5ea7bea7af581d33a7939 Merge tag 'shmob-drm-atomic-dt-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into drm-next
+463f46e114f74465cf8d01b124e7b74ad1ce2afd Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+5eda8f25377f3d6de697eaa1d9801b9781d09dbc Merge tag 'linux_kselftest-kunit-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+7dc0e9c7dda66bd91eeada00d90033e3eb647fc3 Merge tag 'linux_kselftest-next-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+babe393974de0351c0e6cca50f5f84edaf8d7fa1 Merge tag 'docs-6.7' of git://git.lwn.net/linux
 bb32500fb9b78215e4ef6ee8b4345c5f5d7eafb4 tracing: Have trace_event_file have ref counters
 77bc4d4921bd3497678ba8e7f4e480de35692f05 eventfs: Remove extra dget() in eventfs_create_events_dir()
 4f7969bcd6d33042d62e249b41b5578161e4c868 tracing: Have the user copy of synthetic event address use correct context
@@ -392,6 +353,8 @@ d8234d47c4aa494d789b85562fa90e837b4575f9 selftests/bpf: Add test for using css_t
 291d044fd51f8484066300ee42afecf8c8db7b3a bpf: Fix precision tracking for BPF_ALU | BPF_TO_BE | BPF_END
 3c41971550f58f2e006c58aa71e8c23ad312110f selftests/bpf: precision tracking test for BPF_NEG and BPF_END
 94e88b8a3e50d3e60c3ba6a5c316729587595210 Merge branch 'bpf-fix-precision-tracking-for-bpf_alu-bpf_to_be-bpf_end'
+426ee5196d1821d70192923e70c0f8347faade47 Merge tag 'sysctl-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
+21e80f3841c01aeaf32d7aee7bbc87b3db1aa0c6 Merge tag 'modules-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 1726483b79a72e0150734d5367e4a0238bf8fcff inet: shrink struct flowi_common
 63f1ee206170ad2363aa25fd99bd5ae529c690ae locking/atomic: sh: Use generic_cmpxchg_local for arch_cmpxchg_local()
 96b9a68d1a6e4f889d453874c9e359aa720b520f octeontx2-pf: Fix error codes
@@ -413,6 +376,16 @@ c3326a61cdbf3ce1273d9198b6cbf90965d7e029 cifs: reconnect helper should set recon
 6e5e64c9477d58e73cb1a0e83eacad1f8df247cf cifs: do not reset chan_max if multichannel is not supported at mount
 d9a6d78096056a3cb5c5f07a730ab92f2f9ac4e6 cifs: force interface update before a fresh session setup
 d84b139f53e8fa8048f16814c6b2a53d7bc15c3d selftests/bpf: Fix broken build where char is unsigned
+ca219be012786654d5c802ee892433aaa0016d10 Merge tag 'integrity-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+17fc8084aa8f9d5235f252fc3978db657dd77e92 module/decompress: use kvmalloc() consistently
+91a683cdf602a593ea1f7783346a605e0cd470df Merge tag 'dlm-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
+57aff997450420b8a7da6a72f45c3677ac1c2f86 Merge tag 'ext4_for_linus-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+87a201b43bbe14ddf8dc2d73fa15741b7403afc3 Merge tag 'erofs-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+dc737f11c218969d01799dd8eb478582b67aaa24 Merge tag 'exfat-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
+e9806ff8a0f9e6eb193326383a7b88bf30ad0533 Merge tag 'jfs-6.7' of https://github.com/kleikamp/linux-shaggy
+5efad0a7658cea6dfd22d4e75d247692e48dde10 Merge tag 'fs_for_v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+71fb7b320b2820903210acd60427e09b1962cfd3 Merge tag 'fsnotify_for_v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+4652b8e4f3ffa48c706ec334f048c217a7d9750d Merge tag '6.7-rc-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 703df114f9b70b4b672d71bdf751497cf7643b75 gfs2: Two quota=account mode fixes
 f7e4c610cb9afcb94d45c6252c312b95038d52bc gfs2: Clean up gfs2_alloc_parms initializers
 1f7b0a84c86eca74155dc292cd2f965d6bb79884 gfs2: Clean up quota.c:print_message
@@ -424,6 +397,7 @@ f7e4c610cb9afcb94d45c6252c312b95038d52bc gfs2: Clean up gfs2_alloc_parms initial
 e1c05b3bf80f829ced464bdca90f1dfa96e8d251 RISC-V: hwprobe: Fix vDSO SIGSEGV
 b3741ac86c8e648709506102f7ab51905d50df43 cxl/pci: Change CXL AER support check to use native AER
 4b92894064b3df472b2cf5741c7f080e16dcd1ec lib/fw_table: Remove acpi_parse_entries_array() export
+27beb3ca347fa29fef5c23b351120239b8cf0612 Merge tag 'pci-v6.7-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 4ea4ed22b57846facd9cb4af5f67cb7bd2792cf3 Merge tag 'for-linus-2023110101' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 edd8e84ae9514e93368f56c3715b11af52df6c3b Merge tag 'sound-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 27bc0782ef8ec26ed94b9fa16c75c11fdb3cd78b Merge tag 'mfd-next-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
@@ -916,6 +890,21 @@ d46392bbf5c6ce594669f00b8177f0b34e983f90 Merge tag 'riscv-for-linus-6.7-rc1' of 
 c1ef4df14ed1feb9b0f08508390a196a1bc530ce Merge tag 'kgdb-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
 447cec034b7896f4b19dbfe3ce6c366ce7c7602a Merge tag 'memblock-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 90450a06162e6c71ab813ea22a83196fe7cff4bc Merge tag 'rcu-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
+7a934b5cc3f452df6f9a4903450fc103dee98ee8 wifi: mt76: mt7921: fix 6GHz disabled by the missing default CLC config
+40018a8fa9aa63ca5b26e803502138158fb0ff96 wifi: plfxlc: check for allocation failure in plfxlc_usb_wreq_async()
+4859b08f197b11b35932fdb4f584b89ff5243ad9 wifi: wilc1000: cleanup struct wilc_conn_info
+a2fbf9e1e8acf89de8132d1df255e1ee0b8320fe wifi: wilc1000: simplify wilc_scan()
+07fabde630a6ce6d0ec791415d3dc3ade858f8c5 wifi: rtw89: pci: add PCI generation information to pci_info for each chip
+bfdcfee3659c6289f391d6eced54b18b244a21ea wifi: rtw89: pci: use gen_def pointer to configure mac_{pre,post}_init and clear PCI ring index
+2daafe9a0cb6c93379ae2099610ac4069f1e286d wifi: rtw89: pci: implement PCI mac_pre_init for WiFi 7 chips
+e24ae0f07625d51934e9367e155510c71b088a2b wifi: rtw89: pci: add LTR v2 for WiFi 7 chip
+5cb0d6b878c375f25f1a74b4d1258561f176ea8b wifi: rtw89: pci: implement PCI mac_post_init for WiFi 7 chips
+ca76817f4c4bbf8f98268772f4eeea8382a34bcd wifi: rtw89: coex: use struct assignment to replace memcpy() to append TDMA content
+ed4f0c195e8fba06fa5c1072ade7feaadb91c03d wifi: rtw88: simplify __rtw_tx_work()
+53ee0b3b99edc6a47096bffef15695f5a895386f wifi: rtw88: fix RX filter in FIF_ALLMULTI flag
+b1275cdd7456ef811747dfb4f3c46310ddd300cd wifi: rt2x00: introduce DMA busy check watchdog for rt2800
+570beb6285fd355904b22625da20809f477096c5 wifi: rt2x00: disable RTS threshold for rt2800 by default
+a11d965a218f0cd95b13fe44d0bcd8a20ce134a8 wifi: rt2x00: restart beacon queue when hardware reset
 866d648059d5faf53f1cd960b43fe8365ad93ea7 lsm: fix default return value for vm_enough_memory
 b36995b8609a5a8fe5cf259a1ee768fcaed919f8 lsm: fix default return value for inode_getsecctx
 1995a536702921f000acda2bed645f1fe0e7ee5b Merge tag 's390-6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -1058,5 +1047,8 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+4e821892a47b26ad903b6e702c55ac4c43cc08c2 Merge remote-tracking branch 'wireless/main'
+06977157f58a0bdfbef5b777ae94581ca723324b Merge remote-tracking branch 'wireless-next/main'
+37fbc2ba027337fe89c7b039c74d3d28883453c8 Add localversion to identify builds from this tree
 
---===============5307869543494285403==--
+--===============6631467619118925253==--
