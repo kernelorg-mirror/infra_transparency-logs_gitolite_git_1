@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 13 Nov 2023 15:08:07 -0000
-Message-Id: <169988808793.32223.10510445970049564684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 13 Nov 2023 15:14:31 -0000
+Message-Id: <169988847189.4096.9010139069229890774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next-maybe2
+  - ref: refs/tags/for-6.7-rc1-tag
     old: 0000000000000000000000000000000000000000
-    new: 339b41ec357c24c02ed4aed6267dbfd443ee1e8e
+    new: 54baaff0b63a0192441b027ccdbbdaac01453ad3
