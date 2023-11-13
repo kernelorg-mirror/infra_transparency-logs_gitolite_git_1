@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0541701500876636462=="
+Content-Type: multipart/mixed; boundary="===============8272443374603712403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Mon, 13 Nov 2023 07:04:27 -0000
-Message-Id: <169985906780.14624.16116408411269101286@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 07:04:52 -0000
+Message-Id: <169985909268.14861.4837220242476633887@gitolite.kernel.org>
 
---===============0541701500876636462==
+--===============8272443374603712403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/next
-    old: ba335752620565c25c3028fff9496bb8ef373602
-    new: 5684e138483c46fe28ee2a2a50c54cb200c04c4e
-    log: revlist-ba3357526205-5684e138483c.txt
+  - ref: refs/heads/fixes
+    old: 921992229b1f06df6b649860e4a5f3def1489866
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-921992229b1f-b85ea95d0864.txt
 
---===============0541701500876636462==
+--===============8272443374603712403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba3357526205-5684e138483c.txt
+Content-Disposition: attachment; filename=revlist-921992229b1f-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
+e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
+a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
+853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
+69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
+d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
+5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
+9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
+7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
+2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
+20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
 f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
 7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
 54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
@@ -1038,17 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-b76595b2e8ec5d63b50b0d11e9994c390e9f4df9 tools/nolibc: Use linux/wait.h rather than duplicating it
-307536269c3140bc9b55093dd25d6780e6781c38 selftests/nolibc: use EFI -bios for LoongArch qemu
-21bf337a8a209b5a640b5bc16a641de7db57bee4 selftests/nolibc: anchor paths in $(srcdir) if possible
-7c117d10b437a607be8fd55bff935810c8aa617d selftests/nolibc: support out-of-tree builds
-181cef50279c257207ee1e88c450d1c99119c7dc selftests/nolibc: add script to run testsuite
-4abdf900c66b75dae0373ebc57cf23267822a88b tools/nolibc: error out on unsupported architecture
-57899e613446953b3de39e3c703e9b13fe31ebc4 tools/nolibc: move MIPS ABI validation into arch-mips.h
-567fbfe154eb26c51e1420a39300846822629683 selftests/nolibc: use XARCH for MIPS
-d304c9c918057cd2f3d42ba184305055e9a6a296 selftests/nolibc: explicitly specify ABI for MIPS
-872b5767f6e32ba6db13f74242fa99e3120c5b9f selftests/nolibc: extraconfig support
-1c86204a5b5f1e84bb80fbe8055fca383a518763 selftests/nolibc: add configuration for mipso32be
-5684e138483c46fe28ee2a2a50c54cb200c04c4e selftests/nolibc: fix testcase status alignment
 
---===============0541701500876636462==--
+--===============8272443374603712403==--
