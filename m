@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7515429064508991623=="
+Content-Type: multipart/mixed; boundary="===============2793137808977814777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 13 Nov 2023 20:36:46 -0000
-Message-Id: <169990780616.15021.1960704634845004026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 13 Nov 2023 20:38:43 -0000
+Message-Id: <169990792355.17151.12161964906587431815@gitolite.kernel.org>
 
---===============7515429064508991623==
+--===============2793137808977814777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/ti-k3-next
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-0bb80ecc33a8-b85ea95d0864.txt
+  - ref: refs/heads/kvm-arm64-sme
+    old: bac7c003581ddd5eca169ca04541f4fee1529ca0
+    new: 8a76f0a3874718ecb420e3c8915c591d751b5d6c
+    log: revlist-bac7c003581d-8a76f0a38747.txt
 
---===============7515429064508991623==
+--===============2793137808977814777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-bac7c003581d-8a76f0a38747.txt
 
-5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
-e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
-a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
-5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
-853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
-69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
-d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
-5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
-9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
-7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
-2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
-20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
-f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
-7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
-54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
-93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
-eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
-e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
-1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
-ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
-91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
-4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d4b671d4c66cd57ccebeae659d9b18e28a4fc9e8 Merge tag 'acpi-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ad1871ad8d9b3d252390ade8e2bcab7b773173ad Merge tag 'pm-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
-a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
 5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
 60c46877e9cd4f7fd13fa844258f60cca4eb3e34 clocksource: timer-riscv: Increase rating of clock_event_device for Sstc
 10128f8b1663a8bce27df051c750d116bb8cd737 RISC-V: Provide pgtable_l5_enabled on rv32
@@ -1050,5 +1024,31 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+159c46765787d672ae53974ef9ac2167e0fd6ac6 KVM: arm64: Implement support for SME in non-protected guests
+58de920cf0096b4cbc3d214c62c49777c926a982 arm64/fpsimd: Make SVE<->FPSIMD rewriting available to KVM
+852dd6990811709699193ba01d97d399ca97d68c KVM: arm64: Only default to enabling SVE when present
+2668d3231488682e714e115cbed7ddb759573d91 KVM: arm64: Move SVE state access macros after feature test macros
+9bb8a9986fdfd7c9f440067bc547485e82633016 KVM: arm64: Store vector lengths in an array
+ce65a5f37d0f6fe9db7aae82609e6562530b820e KVM: arm64: Document the KVM ABI for SME
+6bd09166a624ce337ec1c9661d2510e842f54731 KVM: arm64: Make FFR restore optional in __sve_restore_state()
+f8000447c4e0ed663568dd1666dc5bdc39268387 KVM: arm64: Handle attempts to exit the guest due to a SME exception
+a060cb38d667e669c6171213bbae5b78d151a0b3 KVM: arm64: Define guest flags for SME
+002089863122296e54484c81d66b0ea77386eca9 KVM: arm64: Rename SVE finalization constants to be more general
+461dc42b73176e26876017510115e6c59b0e2556 KVM: arm64: Basic SME system register descriptions
+083d4078644849ada1ad99be22d86ed2cfede026 KVM: arm64: Add support for TPIDR2_EL0
+6bc1356fa53b0bedb3144fd3c087c88c52ab987c KVM: arm64: Make SMPRI_EL1 RES0 for SME guests
+219ed851ef679b294cc6ce6968141671b7261140 KVM: arm64: Make SVCR a normal system register
+1683f28588b321bf628827b45efef81013718cff KVM: arm64: Context switch SME state for guest
+59fb265721f20fb07ba49c282c31641bc4cc7029 KVM: arm64: Handle SME exceptions from guests
+e6d3fc68af04ca080579b33a10bdb2917036419d KVM: arm64: Implement SME vector length configuration
+5ae98f96b631c233191474d9c7c40b49c0823192 KVM: arm64: Rename sve_state_reg_region
+a05eec59bfec442417877ad9e509d88d229e537c KVM: arm64: Support userspace access to streaming mode SVE registers
+1bf3b6cd1a9f7cba942ef0be140d34a57ecbda13 KVM: arm64: Expose ZA to userspace
+cff189d94aabe27e349451d6512b5ff850d6ccdc KVM: arm64: Provide userspace access to ZT0
+4663017b6c303f0451d3cd9b776ea00522209a41 KVM: arm64: Manage base traps for SME
+5c193236894fdc86f576d1051efb89875536112d KVM: arm64: Support SME version configuration via ID registers
+a05d5013f1666fc326a8a4eb21f148570c0abc93 KVM: arm64: Enable SME2 and FA64 based on ID register values at first run
+f8e3cbd7fbd2bba4ea63fbb66085bf9faba2b8b0 KVM: arm64: Support userspace access to streaming SVE registers
+8a76f0a3874718ecb420e3c8915c591d751b5d6c KVM: arm64: Provide userspace ABI for enabling SME
 
---===============7515429064508991623==--
+--===============2793137808977814777==--
