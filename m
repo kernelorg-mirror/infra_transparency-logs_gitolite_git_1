@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0823172860198795736=="
+Content-Type: multipart/mixed; boundary="===============6512691979021766487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 13 Nov 2023 01:49:05 -0000
-Message-Id: <169984014543.12894.5214290633477418597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 13 Nov 2023 01:50:26 -0000
+Message-Id: <169984022694.14989.16563224352881798057@gitolite.kernel.org>
 
---===============0823172860198795736==
+--===============6512691979021766487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
+  - ref: refs/heads/extcon-next
+    old: b3edc3463d64bc469162138a6bec6913fbeef931
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-8a749fd1a872-b85ea95d0864.txt
+    log: revlist-b3edc3463d64-b85ea95d0864.txt
 
---===============0823172860198795736==
+--===============6512691979021766487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a749fd1a872-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-b3edc3463d64-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============0823172860198795736==--
+--===============6512691979021766487==--
