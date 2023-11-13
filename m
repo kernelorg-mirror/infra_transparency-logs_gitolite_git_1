@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7611763880992913170=="
+Content-Type: multipart/mixed; boundary="===============5859391463894314230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 13 Nov 2023 20:16:22 -0000
-Message-Id: <169990658295.869.4706258810476893736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 13 Nov 2023 20:17:03 -0000
+Message-Id: <169990662340.1243.18209304990264585917@gitolite.kernel.org>
 
---===============7611763880992913170==
+--===============5859391463894314230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 03d1179639b1515dce087335c1fb5c962908683b
 
---===============7611763880992913170==
+--===============5859391463894314230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1699906581 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1699906580-5d25f7e116d920bdabeaa305452697791399770e
+pusher krzk@kernel.org 1699906621 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1699906621-234581b73a12a5b12b1b858b45ecbe2422b90e4b
 
 ffc253263a1375a65fa6c9f62a893e9767fbebfa b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/master
 0000000000000000000000000000000000000000 03d1179639b1515dce087335c1fb5c962908683b refs/tags/v6.7-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVShBUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14/8D/9NaS1q51vrLegF09r3MbL3qldw2YiZBr+8
-vc7amFdUhg5ISpW/YFmVtS8fSVK6zQQF4+Rku6YwYTRW9+d5j2EDkPKe5u7u/OtM
-tBb6jwy/7lGAjCzFQKimmCU2i1ctgjfVFpGCqvgzZV8Ynbhu3ZquHMpX3i+auNg6
-OEK2tFifm+ss6YZmF5uVRHqIlFVv6MlPJk61yov9lAZrXPlQX1SqS5q0eqcMcVMI
-PVVVcazDJpB1FJokM944ph2UCn6KPhul+u9sts/yKzBmqhkz4jCZDF1zhN7wlGqw
-K6Op7kn7bWFjV5m1HCJUFEJREOtU2piD2Na7WBgpEvqprQLJDSCsadch/+nbRiPh
-U7s8E4kMxRsZ0QgXQy4bJjRuVJt1a61VPGFjk4vCaw+WdEpf/H1bfBU5gF5+BVen
-URAjoDfbObSInFjfufOuP8asS5R506Xp1pb6hpPhEpUQKj06NBIlSwK9bcOcMnZg
-+8kfsLfdqo1oLeBJy7PSS+O2xT5FlgSzFiaDxBLqtiFs37LgzoZ4EfqNC634aA02
-uWK0iuy1IdXMlGBBTnPiUmI3mkwTrwfSukCkH6tE6vG8OdmudKw7mkNJLDDYq+Ga
-wje7kuGYp+EJz7s23Ud5BCW1YFZUUl/e7/Ilj0Vu40mKkPm5J7O5hr7OCKFnIHyZ
-+UHCSBhCjg==
-=dwhR
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVShD0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17TrEACS9F5doxQO212dZn9zD850KnusfIPP7w6H
+uADU/VrEVbR15Sv8XcuYlxa18RrFaUp6co5mUihQ6YwsQiKZOchiOUOBXCaB76Wz
+nS91aOgvYlF+Xt4JEHB0xJ40ao40hs7LMaKWfYCSJRYRPMys2Mr/1lzIa1jZdIaf
+qPDjihvR1rN6udqd3h/xupstX+B0gOidBUS+QelAb1+qqaGsMeBGKDAKzMQgDeC6
+TniDmXkQ7dXHDgWWipODeE+csBhh/JxHCBVXcMdtXme0d+aGKK9+SvW38rpbCvcL
+rgq+Vhc93XZCJP6Ri7NIAjOQT05q4Wovbf1IsJvTuQV3fhqbkXp6aEw4FZj4/bDE
+/nS4PL0K49VVXHHlZe3QTPPH0gZvFGZAo01TH2t4/kvOPLmRMWqv+MuXv0UMSVav
+snQodfeOkBDPcrFCywkUWuygH6hTNDkdWUzwFN4yIj0+Yk0kF0LHFl5doAZ9m6NE
+oh9oLnrtczZUjmVnERYtsH3h+qcEvvrw7wg2cVceAnQznvx6cFZZIg8UcYFslQkF
+YRXpo5wnmfc7qYtpOCn7riX7WpFMHMCBdYYhD1yfRnWiv11kX9fYsGnbBviWaBYG
+U0AeVuT5MUBLHiN+PXBjz44GKRGAQuX/pffZqEvH7YqP3uaBGhd+JySpRp9gTTAo
+kmfiHXJ9Gw==
+=7ujY
 -----END PGP SIGNATURE-----
 
---===============7611763880992913170==
+--===============5859391463894314230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1086,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============7611763880992913170==--
+--===============5859391463894314230==--
