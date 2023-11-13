@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2112144839798242687=="
+Content-Type: multipart/mixed; boundary="===============8466907253751872664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 13 Nov 2023 03:36:41 -0000
-Message-Id: <169984660158.26736.13865273553907461951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 13 Nov 2023 03:40:39 -0000
+Message-Id: <169984683948.31082.16259642990994638468@gitolite.kernel.org>
 
---===============2112144839798242687==
+--===============8466907253751872664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/next
-    old: 47846d51348dd62e5231a83be040981b17c955fa
-    new: 022732e3d846e197539712e51ecada90ded0572a
-    log: revlist-47846d51348d-022732e3d846.txt
+  - ref: refs/heads/dev
+    old: 19c1c9916dbf9b05157a0c4970f61f952c0cb86a
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-19c1c9916dbf-b85ea95d0864.txt
 
---===============2112144839798242687==
+--===============8466907253751872664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47846d51348d-022732e3d846.txt
+Content-Disposition: attachment; filename=revlist-19c1c9916dbf-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1049,6 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-022732e3d846e197539712e51ecada90ded0572a audit: Send netlink ACK before setting connection in auditd_set
 
---===============2112144839798242687==--
+--===============8466907253751872664==--
