@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0200552400176151789=="
+Content-Type: multipart/mixed; boundary="===============0672146619543982655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 13 Nov 2023 02:03:35 -0000
-Message-Id: <169984101539.23900.5663218778007276293@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 02:03:41 -0000
+Message-Id: <169984102142.23980.18189102095114691062@gitolite.kernel.org>
 
---===============0200552400176151789==
+--===============0672146619543982655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-3ca112b71f35-b85ea95d0864.txt
 
---===============0200552400176151789==
+--===============0672146619543982655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699841014 -0500
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699841020 -0500
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699841013-0393bd633085fd9e8e320d296dc200bbc8fee2ce
+nonce 1699841019-1327553483cf45f05760d1deebca819bca0e0b70
 
-3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/driver-core-linus
+3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVRg/YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OQMP/3KW4iAc2DQZynhc8ctF
-QL0Bi7Wy4GbcclPaXMxrSqWja/+NeOZuOygLlyI54VjM7IxWzhbrjqDPF4ykHhHW
-iYTWqQj3NiLT8zgT7NHH/yQEj04CuFiOie71pXJpKmDeE8Pyr6sH6P/xXZ0t97MO
-rxQnw8OJkr+I07CNWwcUai5u1CKVK9XDDwES6P3ZAFu4rLnX06U32eQg67B3ikHd
-CEdNYU3aAYAigCUJ2APhMrMynJ9EprXkIHlUB7GDMMGy9RADIRZ2XEabASALOM3E
-FwwIKU+oecTkBwtV3qZuqp5eDnHa4xq4gjEmdtsdpG486pCCFEfv3im2kn+53TAJ
-OLbYENju1C99yLLWq44psZzWCY5Ijaz8NqV0ATe1tRY/5ESVSPzWxboQwhyg5sQz
-pn5uBtIV1S2UjfdFtWYBOAcgmTIeY1jm1/JQTmqBD1r+w3vQ5Bg4a6ua8UbT1Yz7
-Kx2n1II4MZ4mLgHB88QdZOplRBl8bVACtKy9DvSgxLAGPd//ldD4dVhlmK5eDoJK
-rZ29SuTPJ3y7x/5l7heEbwdPGy0ss7hHVA+xk+f8NKu85HwzXRql9CVfsp9wCNM9
-G0N3ssgj8ae+emCMfto3routwhhEH9Hmykc0Up4KZOUSAOwh37LJvDOhO5sCKLZ3
-Wu3A5hHO3gpOGZ7MXtX5ssch
-=2UTw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVRg/wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YxQP/2KdQpHunXOA1Bg7iEQZ
+9Swa4NSRy2ryoeXxATLnYGcHxbtCBgJ8KdOgDp/+zPBuUafuFHD6CMbqvzfLF/VD
+56WAu8PCnIfbG655OPamU/esq9ff+9mgC4R5ejXzoPYBSqzLbB5B56oE9/GoI3E2
+bZx5JlhyCtlzw+vKNiDKkn0cAzaF0iwU36GR7yBEET5dffZjoGNPkJNzBiiAApMr
+5LY7DQqlaGCglQe9lbcblyYc6MRABiVg0StSR+rFfOUD5KZ3xUSNgeVr6MdCVJxG
+UizgqnRoUNznb9x4uUIY7ZSVT2xE593ws3x3IFXDgg+7RSzHMnwrWqTofAMAynP4
+q78lfylCzWuCPVvu5vzTv2S1uyuueMa7p5FX4WDNXpx6dcc+FSLXJMnHrgJBZI9m
+fX+w/xfPdkFXcAQ3tr+qxAkCquztbC6HcBiY6mHya9GMDBGFX8J80VpWsyhJwS+G
+jlc7jsOMc+QfhdOsO4WjzJf2Al2CU2VBzwptaX1396E6Hyd7YjixWZmofCbLDrRr
+2J+WNNwx8zk7tXm/15kbzVYXDIUZHbjCLeTwpWJW/3SlomusF2EjA3LfqEYEnH+f
+6Fvyh0CePvef5Hcvq5tVoS+G89No1ALeAp/xWq8cuU3uMr5YKc9xvh8z9WHUZ9Lq
+fHC/bA5UIWnNlOYIBwxWyXf/
+=MQML
 -----END PGP SIGNATURE-----
 
---===============0200552400176151789==
+--===============0672146619543982655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============0200552400176151789==--
+--===============0672146619543982655==--
