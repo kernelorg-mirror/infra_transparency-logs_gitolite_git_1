@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1239877750899095310=="
+Content-Type: multipart/mixed; boundary="===============4142795184794606043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 13 Nov 2023 17:23:56 -0000
-Message-Id: <169989623633.2718.9349882184795877981@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 17:24:34 -0000
+Message-Id: <169989627446.3032.2491978523621583962@gitolite.kernel.org>
 
---===============1239877750899095310==
+--===============4142795184794606043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 83b9dda8afa4e968d9cce253f390b01c0612a2a5
-    new: c0a2a1b0d631fc460d830f52d06211838874d655
-    log: revlist-83b9dda8afa4-c0a2a1b0d631.txt
+  - ref: refs/heads/dev-queue
+    old: 60cbbf6578e6ef3806f72b3ecec389ad2701d1ff
+    new: dcc42e92f04507beb6dbdad7b7064dac50e34e72
+    log: revlist-60cbbf6578e6-dcc42e92f045.txt
 
---===============1239877750899095310==
+--===============4142795184794606043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83b9dda8afa4-c0a2a1b0d631.txt
+Content-Disposition: attachment; filename=revlist-60cbbf6578e6-dcc42e92f045.txt
 
-71fed09b49c168435fc28d57870007495475d946 crypto: qat - add num_rps sysfs attribute
-03c76e8e7a8d0d465838b8eaffcc07bdcc364f4d crypto: qat - move adf_cfg_services
-203b01001c4d741205b9c329acddc5193ed56fbd crypto: qat - fix deadlock in backlog processing
-45b40f9cf10d9ad33828f00e952e9942adf1e114 MAINTAINERS: update AMD CRYPTOGRAPHIC COPROCESSOR (CCP) DRIVER - SEV SUPPORT
-201c0da4d0298cfcd06a4548f94b90e3817b2e1b treewide: Add SPDX identifier to IETF ASN.1 modules
-acd7799574e57f1e494a5b85741eee78d1e93aca crypto: shash - remove crypto_shash_ctx_aligned()
-977755579d3f7f6ad6b719b0f50c924c89ea8c1e crypto: sun4i-ss - remove unnecessary alignmask for ahashes
-12e06ca3b98326e6320b74c18d344db294f2e5ae crypto: sun8i-ce - remove unnecessary alignmask for ahashes
-028a14470e0f937f037d2193d836148af8dc2d5c crypto: sun8i-ss - remove unnecessary alignmask for ahashes
-a5e12d04e5226cd7afecd020a4f66d7ac73fd90e crypto: atmel - remove unnecessary alignmask for ahashes
-a06f7a8a8397ca05cee3805a5850fbb84e585fb0 crypto: artpec6 - stop setting alignmask for ahashes
-d39caf81248703164dee256611dc801102653830 crypto: mxs-dcp - remove unnecessary alignmask for ahashes
-13d13bba26a0930a4c9527bf2e589d79074b45e5 crypto: s5p-sss - remove unnecessary alignmask for ahashes
 492444c3ed8fee48dda3ade814b5592374897c29 crypto: talitos - remove unnecessary alignmask for ahashes
 f35a4e237f4ecfac0cbf51fc840fe70955431fa9 crypto: omap-sham - stop setting alignmask for ahashes
 2d91a839f5da3836e3b3f27452fe38a84fc403c6 crypto: rockchip - remove unnecessary alignmask for ahashes
@@ -1050,5 +1037,18 @@ e6daf129ccb79d3781129f623f82bc676f2cb02c net: gso_test: support CONFIG_MAX_SKB_F
 fb317eb23b5ee4c37b0656a9a52a3db58d9dd072 tipc: Fix kernel-infoleak due to uninitialized TLV value
 ca8add922f9c7f6e2e3c71039da8e0dcc64b87ed net: mvneta: fix calls to page_pool_get_stats
 c0a2a1b0d631fc460d830f52d06211838874d655 ppp: limit MRU to 64K
+a84d564484f17524baa08dc9225417e78840e339 i40e: fix livelocks in i40e_reset_subtask()
+c8058623260220fc878532f86f991aa7c096b734 i40e: fix 32bit FW gtime wrapping issue
+13852b292ba406bb57846dc32bf6f9322c589d31 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+8f569d800d2340206f1449c2332e0cc254e290be ice: dpll: fix check for dpll input priority range
+ec9e1d0ada523c3f5f7ff589fc98afb50d46a11d ice: dpll: fix output pin capabilities
+e7ab3852a4fec13366de85ff2b68701889335822 ice: remove ptp_tx ring parameter flag
+4e6e893c4f30ddd0251220d59705e0e0e5eda4b6 ice: unify logic for programming PFINT_TSYN_MSK
+eab7427eb814ac08a9bbd87206ed11deeb388b23 ice: restore timestamp configuration after device reset
+4eeb401c7015c3ec7ad83961efa680bba1923645 i40e: Fix adding unsupported cloud filters
+d0565cefcc8e5c27940ac1e989772be70566b76f ice: Restore fix disabling RX VLAN filtering
+04c324d19cb6a08153e729eb22c88ceaad9d3a79 ice: fix DDP package download for packages without signature segment
+6a2d450661bb9a2bf3e4c944f0d033f07f5377c1 ice: Fix VF Reset paths when interface in a failed over aggregate
+dcc42e92f04507beb6dbdad7b7064dac50e34e72 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
 
---===============1239877750899095310==--
+--===============4142795184794606043==--
