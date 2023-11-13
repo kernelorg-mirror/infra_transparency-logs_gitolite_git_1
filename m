@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5970911455005653704=="
+Content-Type: multipart/mixed; boundary="===============4987106124627342250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 13 Nov 2023 13:33:11 -0000
-Message-Id: <169988239175.23672.7852628823949709250@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 13:34:10 -0000
+Message-Id: <169988245006.24083.801434302663552573@gitolite.kernel.org>
 
---===============5970911455005653704==
+--===============4987106124627342250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: ffc253263a1375a65fa6c9f62a893e9767fbebfa
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-ffc253263a13-b85ea95d0864.txt
+  - ref: refs/heads/nfsd-next
+    old: 3fd2ca5be07f6a43211591a45b43df9e7b6eba00
+    new: 77ba5b340b7c02795833408b6e67f66b5bfe9292
+    log: revlist-3fd2ca5be07f-77ba5b340b7c.txt
 
---===============5970911455005653704==
+--===============4987106124627342250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffc253263a13-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-3fd2ca5be07f-77ba5b340b7c.txt
 
-5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
-e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
-a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
 853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
 69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
@@ -1050,5 +1047,8 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+7647255885df2babfb35f83717a8f49d437e99cd nfsd: new Kconfig option for legacy client tracking
+f9013da9181ce9efdceb43a480689538ee574be9 NFSD: use read_seqbegin() rather than read_seqbegin_or_lock()
+77ba5b340b7c02795833408b6e67f66b5bfe9292 NFSD: Make the file_delayed_close workqueue UNBOUND
 
---===============5970911455005653704==--
+--===============4987106124627342250==--
