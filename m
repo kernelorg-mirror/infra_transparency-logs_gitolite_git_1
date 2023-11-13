@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6800158546968897610=="
+Content-Type: multipart/mixed; boundary="===============5880899396968889755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 13 Nov 2023 02:04:16 -0000
-Message-Id: <169984105671.24776.5141585153175962040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 13 Nov 2023 02:04:21 -0000
+Message-Id: <169984106159.24888.10015766360606571899@gitolite.kernel.org>
 
---===============6800158546968897610==
+--===============5880899396968889755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/staging-linus
     old: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-3ca112b71f35-b85ea95d0864.txt
 
---===============6800158546968897610==
+--===============5880899396968889755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699841056 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1699841055-4ea20eb22d39fd73fc6cc617d0bb0d8c6ca345f9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699841060 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1699841060-0dd1cf6ed93a7cee7c0609c75915479040c02270
 
-3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/tty-testing
+3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVRhCAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tAwP/297/9uvlbznEC+h5OIQ
-UQG6pgpeCXSl8x1lxynhlEnXJyJKTeuOtAnL9nYIE7Bia59UFQikVgS4i2t5zFnN
-zVYLR2i+wMbM6WCXDQDeYa8x+RViQyTsnfvpYjr1nKxK8TAZ+lFmdd6q4sJu9eyx
-7mgfLIL1QZqxN0/FD682xpt7sN9dAi2gU9p5JZ+QdqnB5v9eSAttkJ2sBT8YrFa+
-5PrGoI47MIbJzXJT7tnv/mJbMMQALEe9nxXyDETH2SZSzn3CJ3PK/KyALziccfoQ
-qzR43J1pu3YVIMZQojYWiQSSpv/KdfCdeXcwOFjuAP8reIZfTVoUC/L082K08mYZ
-MwCdZs+wUqifsMYNpNq2am9mkyTUTiGDZYTeD3AylLef1VPjoZzf946d7jZoFmiv
-3udQ9t+tyINMpkDH0mAzAmkHctF31ijdf9KXpiUO7XLBb1yrtlxlXvv/NEQBRUlM
-+iPSY0fnX8bngvdq9hMfzew1mBeccHJDp20/lDwtjlNTJrNjsLG2Io35ztHVQnKS
-5yYbsjDY5Ei0a2cOaHoAXMl+rLabo9JuaNY7rfl/n3M5f4xEGgSwch6lC4mOsOcR
-F16fvpiIswlU7+8RLygiOW/Pi7tNZVDCZ5Fe7k5v/MFmbmhyJ+8JXCs11vrHr3lB
-ShpdeFJu8ReEEE9x5KK8fp/6
-=f5wY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVRhCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KNwP/1+2IB6UyjKA+lHZQHEM
+41nYL9kyGsEHXoXgD6IvWgC+nHRs8k/JIZNES4ewk7ih5ElAR3hyvBM303AGcJjG
+LbBS0MpxUSQflS7ud4uQ3xsQwnZmnmtZsP45PA7m+pHWGGNzLI1kHs9tiGlaQHEE
+Mjp+ggyDFUSJiidZwr1s2mayoGshevuAPmtp9p654Ld6aWdD5W5ZqJ1+b+hvWKNh
+gYidHGdEKczGMElk13sx9aLWVM2RGa9oaRd2coZ/uTqdxa6aP4tiEvwWkvKQT2Vb
+j9ZPAyN5G3oVbcMSZSeK/6f3BoNVYPzjqke9AS0qKQ2HRFYkmxeXWKnqh8S2zNen
+tv0/TikWIiqeqY8LcPi+r5s/+pQcub/lwKzmtFOQaeRoSLpDeGCIRBF3lk0kk8wq
+GQ9gjUiAlPDik2jjGqfFbI5kc1QX1Y8THR4/0jZAWmoXhnpDik5fhvpEx0u6vUvJ
+AoAXPn4P7RSsF/4jM9AHHUCLaJb4BiqXCeh0H4xxuoP1bKGb6+cTN6s2zL8SSY1Q
+oaGFABGPdR8PKlohnGDCV9g3NsKuWbbMVtkTcBbMNmldKlPIQ3Ib2llyYOLiph+q
+8LereIQ5ZAApDQorpbvnwprY28W82twGJiwQ+o9VRE7i0zJvjd4xVHOIhQvX7T2d
+miak1cLVthznp0XwZb/U6Wk/
+=DbkD
 -----END PGP SIGNATURE-----
 
---===============6800158546968897610==
+--===============5880899396968889755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============6800158546968897610==--
+--===============5880899396968889755==--
