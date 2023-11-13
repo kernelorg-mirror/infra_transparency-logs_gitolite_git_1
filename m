@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Mon, 13 Nov 2023 13:06:35 -0000
-Message-Id: <169988079566.4747.959626842066722779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 13 Nov 2023 13:28:37 -0000
+Message-Id: <169988211743.20285.846585295304549472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/patchset/meminfo/v2.1
-    old: 8dade3a353290abfbfd3c38279c29c3c4ecd7356
-    new: cc6200454eb83b4e846d90f08e6db172946d5301
+  - ref: refs/heads/rdma-next
+    old: c559cb7113158c02d75401ac162652072ef1b5f0
+    new: b3da6c0fe7acee2f06e2c8ef08affd048832dca4
     log: |
-         cc6200454eb83b4e846d90f08e6db172946d5301 proc: Implement /proc/self/meminfo
+         44dde4302d3c124d936f3b9d3d4d7be0532d57ea net/mlx5: E-Switch, expose eswitch manager vport
+         ae6cd72e1795fa1d531c162a57440f23107f30e7 RDMA/mlx5: Expose register c0 for RDMA device
+         b3da6c0fe7acee2f06e2c8ef08affd048832dca4 RDMA/usnic: Silence uninitialized symbol smatch warnings
          
