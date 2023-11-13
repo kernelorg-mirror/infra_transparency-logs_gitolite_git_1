@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 13 Nov 2023 15:56:46 -0000
-Message-Id: <169989100655.3871.16248334442179629774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 13 Nov 2023 16:00:55 -0000
+Message-Id: <169989125530.7028.5970840873422618934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
   - ref: refs/heads/for-next
-    old: e2a909a0e347a6a1bb82b91a243ab57f24ae80e3
-    new: 8d859dc44163102336550ca74d82d7362bcacf53
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: fb77e8a8591512449c6736fd718c33a8afab8b95
     log: |
-         8d859dc44163102336550ca74d82d7362bcacf53 gfs2: Fix inode_go_instantiate description
+         fc84abc4a9b25da0559622c41045212175d6732f gpio: tangier: use EXPORT_NS_GPL_SIMPLE_DEV_PM_OPS() helper
+         49d478b41268bb2419e44d876bf66bacc55135f5 gpio: elkhartlake: reuse pm_ops from Intel Tangier driver
+         c4a79ae280a632786d6f9c7856ef27ebaa585ea7 gpio: tangier: unexport suspend/resume handles
+         fb77e8a8591512449c6736fd718c33a8afab8b95 Merge patch series "Use the standard _PM_OPS() export macro in Intel Tangier GPIO driver"
          
