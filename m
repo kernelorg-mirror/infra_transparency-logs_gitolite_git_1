@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3318988052378030533=="
+Content-Type: multipart/mixed; boundary="===============1111773073848198821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Nov 2023 15:19:51 -0000
-Message-Id: <169988879111.8007.2030742307885471885@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 15:20:51 -0000
+Message-Id: <169988885155.10026.17630575862590018697@gitolite.kernel.org>
 
---===============3318988052378030533==
+--===============1111773073848198821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-fp-init
-    old: 4b54d8e76330bfb240ac662b4710f7ea7645e5aa
-    new: 02ea1f86a4d2bfe4dbbfc64bcec361dc0c87f507
-    log: revlist-4b54d8e76330-02ea1f86a4d2.txt
+  - ref: refs/heads/nolibc-waitpid-flags
+    old: 1bcb39408c8003442398d293e40ce32c19c34924
+    new: dc9aa4c5878fa716653e17572cfd9ca31f0e7788
+    log: revlist-1bcb39408c80-dc9aa4c5878f.txt
 
---===============3318988052378030533==
+--===============1111773073848198821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b54d8e76330-02ea1f86a4d2.txt
+Content-Disposition: attachment; filename=revlist-1bcb39408c80-dc9aa4c5878f.txt
 
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1048,7 +1048,7 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-4150fd9aa8338b3ad420be186748bb9570c0860c EDITME: cover title for kvm-arm64-fp-init
-02ea1f86a4d2bfe4dbbfc64bcec361dc0c87f507 KVM: arm64: Only default to enabling SVE when present
+6414432a6b24a06f8e21b29f757cb56140616bf0 EDITME: cover title for nolibc-waitpid-flags
+dc9aa4c5878fa716653e17572cfd9ca31f0e7788 tools/nolibc: Use linux/wait.h rather than duplicating it
 
---===============3318988052378030533==--
+--===============1111773073848198821==--
