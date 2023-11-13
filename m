@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7298581006492572030=="
+Content-Type: multipart/mixed; boundary="===============3318988052378030533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Nov 2023 15:18:56 -0000
-Message-Id: <169988873616.7579.5617994029527200188@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 15:19:51 -0000
+Message-Id: <169988879111.8007.2030742307885471885@gitolite.kernel.org>
 
---===============7298581006492572030==
+--===============3318988052378030533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/iio-maple
-    old: aa0d955184ab2fbcfa0d3b8030cd3e68b810a641
-    new: 36bf42cb598c525549e04d142be6d10cf454c523
-    log: revlist-aa0d955184ab-36bf42cb598c.txt
+  - ref: refs/heads/kvm-arm64-fp-init
+    old: 4b54d8e76330bfb240ac662b4710f7ea7645e5aa
+    new: 02ea1f86a4d2bfe4dbbfc64bcec361dc0c87f507
+    log: revlist-4b54d8e76330-02ea1f86a4d2.txt
 
---===============7298581006492572030==
+--===============3318988052378030533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa0d955184ab-36bf42cb598c.txt
+Content-Disposition: attachment; filename=revlist-4b54d8e76330-02ea1f86a4d2.txt
 
+a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
 853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
 69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
 d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
@@ -1046,9 +1048,7 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-8af9d070f5dc43153198ab5c5bc28a2012c20195 iio: Use maple tree register cache for single register I/O devices
-202fe2c1e8fc91a03a7166df909f1d3844f88f45 iio: apds9960: Use maple tree register cache
-05fa9832f28d6beadd1b019b9a20c0a78d3b6501 iio: max44000: Use maple tree register cache
-36bf42cb598c525549e04d142be6d10cf454c523 iio: mlx90632: Use maple tree register cache
+4150fd9aa8338b3ad420be186748bb9570c0860c EDITME: cover title for kvm-arm64-fp-init
+02ea1f86a4d2bfe4dbbfc64bcec361dc0c87f507 KVM: arm64: Only default to enabling SVE when present
 
---===============7298581006492572030==--
+--===============3318988052378030533==--
