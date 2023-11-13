@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 13 Nov 2023 18:27:11 -0000
-Message-Id: <169990003185.17826.11787079443392397758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 13 Nov 2023 18:41:36 -0000
+Message-Id: <169990089640.28978.5010122566060048414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 00fdb61d56161f523e975b4c044030f4b40abb6d
-    new: 303925b28110469ad002ac19ce0eb9c84d6aceb2
+    old: 71a4272a16489b70db76375ba1fe62ef75eb6f9f
+    new: 4b47af14e273e2f7f48e0f2e4b6d8214019d243f
     log: |
-         303925b28110469ad002ac19ce0eb9c84d6aceb2 shared/shell: Fix --init-script commandline option
+         4b47af14e273e2f7f48e0f2e4b6d8214019d243f Mon Nov 13 06:40:09 PM UTC 2023
          
