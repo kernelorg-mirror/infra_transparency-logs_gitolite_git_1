@@ -1,36 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============3296960982287555475=="
+Content-Type: multipart/mixed; boundary="===============3384503324100379994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 13 Nov 2023 14:04:56 -0000
-Message-Id: <169988429624.14732.11026903608251378407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 13 Nov 2023 14:05:04 -0000
+Message-Id: <169988430451.16401.12727493183771676217@gitolite.kernel.org>
 
---===============3296960982287555475==
+--===============3384503324100379994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: f33804f1597d750eee723170af93dac35e84b8fc
+    old: bc00d9f3813a40bc2d854ae0edab14c6b43a3219
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-f33804f1597d-b85ea95d0864.txt
+    log: revlist-bc00d9f3813a-b85ea95d0864.txt
   - ref: refs/heads/for-next
-    old: f33804f1597d750eee723170af93dac35e84b8fc
-    new: d958d97848a6604d024221920d300d07869715a2
-    log: revlist-f33804f1597d-d958d97848a6.txt
+    old: 8af4b4efdac959c02e2a82b4e2fbb8f2c0b57c1e
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-8af4b4efdac9-b85ea95d0864.txt
 
---===============3296960982287555475==
+--===============3384503324100379994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f33804f1597d-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-bc00d9f3813a-b85ea95d0864.txt
 
-d1d4c0b7b65b7fab2bc6f97af9e823b1c42ccdb0 drm/amdgpu: check RAS supported first in ras_reset_error_count
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
@@ -285,6 +284,7 @@ fd06da776130ec2611c30272a0868f6a54cdf9d2 module: Fix comment typo
 ea0b0bcef4917a2640ecc100c768b8e785784834 module: Annotate struct module_notes_attrs with __counted_by
 979ff1e5af8a46f75a69ffa86209f8650547f42f Merge tag 'm68k-for-v6.7-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 f00593e09968ed6dfcd10aebb13f470fbe3343b4 Merge tag 'parisc-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+984a4afdc87a1fc226fd657b1cd8255c13d3fc1a regmap: prevent noinc writes from clobbering cache
 8999ad99f4cb19638d9ecb8017831f9a0ab8dc3d Merge tag 'x86_tdx_for_6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85d68222ddc5f4522e456d97d201166acb50f716 rcu: Break rcu_node_0 --> &rq->__lock order
 ca995ce438cc641c47d4b8e4abeb1878a3d07c5f Merge tag 'for-linus-6.7-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -1055,12 +1055,13 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============3296960982287555475==
+--===============3384503324100379994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f33804f1597d-d958d97848a6.txt
+Content-Disposition: attachment; filename=revlist-8af4b4efdac9-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1314,6 +1315,7 @@ fd06da776130ec2611c30272a0868f6a54cdf9d2 module: Fix comment typo
 ea0b0bcef4917a2640ecc100c768b8e785784834 module: Annotate struct module_notes_attrs with __counted_by
 979ff1e5af8a46f75a69ffa86209f8650547f42f Merge tag 'm68k-for-v6.7-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 f00593e09968ed6dfcd10aebb13f470fbe3343b4 Merge tag 'parisc-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+984a4afdc87a1fc226fd657b1cd8255c13d3fc1a regmap: prevent noinc writes from clobbering cache
 8999ad99f4cb19638d9ecb8017831f9a0ab8dc3d Merge tag 'x86_tdx_for_6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85d68222ddc5f4522e456d97d201166acb50f716 rcu: Break rcu_node_0 --> &rq->__lock order
 ca995ce438cc641c47d4b8e4abeb1878a3d07c5f Merge tag 'for-linus-6.7-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -2083,7 +2085,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-02e3564a344064aca49f147e8a4eecbe5d3459fc regmap: ram: support noinc semantics
-d958d97848a6604d024221920d300d07869715a2 regmap: kunit: add noinc write test
 
---===============3296960982287555475==--
+--===============3384503324100379994==--
