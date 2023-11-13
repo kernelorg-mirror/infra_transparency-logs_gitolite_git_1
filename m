@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 13 Nov 2023 09:45:35 -0000
-Message-Id: <169986873598.17261.17184979086114730044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 13 Nov 2023 09:45:44 -0000
+Message-Id: <169986874466.17396.2081181509246381374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
   - ref: refs/tags/v6.7-rc1
