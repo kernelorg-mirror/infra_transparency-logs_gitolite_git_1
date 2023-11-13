@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6483936772125675536=="
+Content-Type: multipart/mixed; boundary="===============2973489378456482347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 13 Nov 2023 07:29:33 -0000
-Message-Id: <169986057355.716.2314136085586990841@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 07:29:43 -0000
+Message-Id: <169986058334.874.15139437036941512674@gitolite.kernel.org>
 
---===============6483936772125675536==
+--===============2973489378456482347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: 58720809f52779dc0f08e53e54b014209d13eebb
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-58720809f527-b85ea95d0864.txt
 
---===============6483936772125675536==
+--===============2973489378456482347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============6483936772125675536==--
+--===============2973489378456482347==--
