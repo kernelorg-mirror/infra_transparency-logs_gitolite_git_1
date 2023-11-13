@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Nov 2023 14:08:48 -0000
-Message-Id: <169988452848.19365.9666647520268742485@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 14:08:55 -0000
+Message-Id: <169988453585.19468.12815703427145868166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20231102_amadeuszx_slawinski_asoc_intel_avs_properly_identify_boards
-    old: ca5abf5d2e1c3860382e0e33599e969cb9c9b42b
+  - ref: refs/heads/20231109_daniel_baluta_asoc_sof_add_support_for_micfil_pdm_interface
+    old: 89ef42088b3ba884a007ad10bd89ce8a81b9dedd
     new: 0000000000000000000000000000000000000000
