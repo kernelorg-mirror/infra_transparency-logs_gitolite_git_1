@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3584080093854827833=="
+Content-Type: multipart/mixed; boundary="===============8564381946054187963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 13 Nov 2023 08:17:34 -0000
-Message-Id: <169986345471.4248.10691315368813745338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Nov 2023 08:28:17 -0000
+Message-Id: <169986409726.11140.4684609761796837321@gitolite.kernel.org>
 
---===============3584080093854827833==
+--===============8564381946054187963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-rc
-    old: 94f6f0550c625fab1f373bb86a6669b45e9748b3
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-94f6f0550c62-b85ea95d0864.txt
+  - ref: refs/heads/x86/cleanups
+    old: 70f8c6f8f8800d970b10676cceae42bba51a4899
+    new: f7a25cf1d4707da39b80df96a3be8a8abd07c35b
+    log: revlist-70f8c6f8f880-f7a25cf1d470.txt
 
---===============3584080093854827833==
+--===============8564381946054187963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94f6f0550c62-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-70f8c6f8f880-f7a25cf1d470.txt
 
-5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1050,5 +1049,6 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+f7a25cf1d4707da39b80df96a3be8a8abd07c35b x86/setup: Make relocated_ramdisk a local variable of relocate_initrd()
 
---===============3584080093854827833==--
+--===============8564381946054187963==--
