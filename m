@@ -1,90 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============1476186861097970194=="
+Content-Type: multipart/mixed; boundary="===============9187869842466788296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Mon, 13 Nov 2023 22:08:46 -0000
-Message-Id: <169991332661.17684.15118788673087008754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 13 Nov 2023 22:11:02 -0000
+Message-Id: <169991346240.20124.9079627718195195384@gitolite.kernel.org>
 
---===============1476186861097970194==
+--===============9187869842466788296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
-user: sfr
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/pending-fixes
-    old: f5a0c920323037a7494a7f6b81fe697d315b87a4
-    new: 3e62c237866283141aed0ba96610eebbbf2c2833
-    log: revlist-f5a0c9203230-3e62c2378662.txt
+  - ref: refs/heads/arm64-gcs
+    old: e2d58d4397c539f606f16d07c65da380696573a4
+    new: 4c5336abc6134d716cae989f42e45f9c29fec57c
+    log: revlist-e2d58d4397c5-4c5336abc613.txt
 
---===============1476186861097970194==
+--===============9187869842466788296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5a0c9203230-3e62c2378662.txt
+Content-Disposition: attachment; filename=revlist-e2d58d4397c5-4c5336abc613.txt
 
-7e8037b099c0bbe8f2109dc452dbcab8d400fc53 x86/hyperv: Fix the detection of E820_TYPE_PRAM in a Gen2 VM
-b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-41087f71cde0d300d140bf32d9c668534c8f1488 erofs: simplify erofs_read_inode()
-472a2ff63efb30234cbf6b2cdaf8117f21b4f8bc net: hns3: fix add VLAN fail issue
-ac92c0a9a0603fb448e60f38e63302e4eebb8035 net: hns3: add barrier in vf mailbox reply process
-75b247b57d8b71bcb679e4cb37d0db104848806c net: hns3: fix incorrect capability bit display for copper port
-53aba458f23846112c0d44239580ff59bc5c36c3 net: hns3: fix out-of-bounds access may occur when coalesce info is read via debugfs
-dbd2f3b20c6ae425665b6975d766e3653d453e73 net: hns3: fix variable may not initialized problem in hns3_init_mac_addr()
-65e98bb56fa3ce2edb400930c05238c9b380500e net: hns3: fix VF reset fail issue
-dff655e82faffc287d4a72a59f66fa120bf904e4 net: hns3: fix VF wrong speed and duplex issue
-5d64075cd80069a67a275482f70a4793a6b0a072 Merge branch 'hns3-fixes'
-6979a51ecaec4dfb7c768eb2a77b77df73a74c8e MAINTAINERS: add entry for TI ICSSG Ethernet driver
-438cbcdf105d84449fceb39a2d0e16d0ec20708f net: mdio: fix typo in header
-e6daf129ccb79d3781129f623f82bc676f2cb02c net: gso_test: support CONFIG_MAX_SKB_FRAGS up to 45
-fb317eb23b5ee4c37b0656a9a52a3db58d9dd072 tipc: Fix kernel-infoleak due to uninitialized TLV value
-ca8add922f9c7f6e2e3c71039da8e0dcc64b87ed net: mvneta: fix calls to page_pool_get_stats
-7c1b1906229db88c487e21e1ecb622db64a1830d mtd: spinand: gigadevice: Fix the get ecc status issue
-c0a2a1b0d631fc460d830f52d06211838874d655 ppp: limit MRU to 64K
-0c6498a59fbbcbf3d0a58c282dd6f0bca0eed92a ASoC: amd: yc: Add HP 255 G10 into quirk table
-58c09cad1754c56cb000ef07477e8781e3fad4d3 drm/ci: make github dependabot happy again
-9bacdd8996c77c42ca004440be610692275ff9d0 Merge tag 'for-6.7-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-635e7f7ab11b7b98ee97e31240ebcbf6f109191a mm/damon/sysfs: eliminate potential uninitialized variable warning
-810f5763d9b609620a19e302df0e1583ce66d752 selftests: mm: skip whole test instead of failure
-faebd61269a8cf2b2bdbb6c9b30f2961251262e3 selftests: mm: fix some build warnings
-96341a03730aebdd560b3e0e77ac94325d5c579b selftests/mm: restore number of hugepages
-a5d66bb406f7aacb34f770d455d6c157f8589a56 selftests/mm: add hugetlb_fault_after_madv to .gitignore
-a4a85d1d43adeb2d7b8a4de877c1fb1ab914a9d3 mm: fix for negative counter: nr_file_hugepages
-88d0f46f51d32f11ce7629c5a71b7645cb036fe8 mm-fix-for-negative-counter-nr_file_hugepages-fix
-64d2d6ead9024bccdf9a5a3e2aa2167d90874997 mm-fix-for-negative-counter-nr_file_hugepages-v3
-fed19000eaf208e399d82ac9a4388dfb10956bcc mm/damon/sysfs: check error from damon_sysfs_update_target()
-a137a4bd8b73d762847830ff944ee6466f893c4e mm/damon/sysfs-schemes: handle tried regions sysfs directory allocation failure
-41af999cec96d4d1e28eebfdd6c705079e9e8342 mm/damon/sysfs-schemes: handle tried region directory allocation failure
-6e18c2f550c8a9c1be03c93045f44e06e21757e7 mm: kmem: drop __GFP_NOFAIL when allocating objcg vectors
-2f51d6aa67a51de129d22577ef9bbb4452956f46 mm/damon/core.c: avoid unintentional filtering out of schemes
-a2de6ad92745911d90441796f863d58616046eda parisc: fix mmap_base calculation when stack grows upwards
-c3e9ee9c3fa5d56b98713ed888b5e16a159d41ca mm/shmem: fix race in shmem_undo_range w/THP
-2a7021f588521359483f49dcf3241846ad690f43 mm-shmem-fix-race-in-shmem_undo_range-w-thp-fix
-9f2aa20adcaf2bf5a6deed87e0820c75d6379ab7 mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
-e16792138c792092dad9b47eba96157a3b253114 mm/sparsemem: fix race in accessing memory_section->usage
-134002f6a59f0db146cfe984666a2f858c7df428 mm/sparsemem: fix race in accessing memory_section->usage
-525ce876f0e8e0f796c45964a38184a24be7f374 kexec: fix KEXEC_FILE dependencies
-e5a79a970f8e1c784b5506671eff21770dba3f38 kexec: select CRYPTO from KEXEC_FILE instead of depending on it
-d5cb258cc3855c6354f4c92f1e8b57a867c25633 kexec-fix-kexec_file-dependencies-fix
-7bb1b0ce497a3e342613e5362c4f76e92f6786c1 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-85e5689672fa8e01db95e6c7051b98476a4fca40 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-9841bdd1bc54abfa70919c4357027c615aa8fea0 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-65380fb51ee9fb89a3a7c201c1396fd21052f32f Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-691b1d5c9d05ed84b324234b8cfd690f93b86b38 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-2ccc949cd63d852d1c9f297d569ab59504165b01 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-b5877e5f911ef1ff3bbf31e73b013f0c39bbf0b6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-6550dd0f0f866cbc54e6b82eaae2293e1372650b Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-5250f04fb77ac35d9ca210af561c259f3c6235ea Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-3286b0d0702ea631b95192c7e8e5d819807c9dd8 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-9446e19cbbb46b7dff4fd7c6b788d2525c9c36c8 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-14685233c0fbea19dda8fad0f3b5932328140d9b Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-1236ae88814916c8d4194acc128ee4f46546a40d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga.git
-0d2e39602099dc9f063173b87553b229444cca3e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-a80c696adc5f85a3e12049e73bbb702ebdbe5f43 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-6990aab29cf23ee9df4b6f4cdbe9a60216335e94 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-3e62c237866283141aed0ba96610eebbbf2c2833 Merge branch 'ovl-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
+559b7d0aacbb67b2417e5f1bf266ef3700999e65 kselftest/clone3: Test shadow stack support
+478c1c4d70e0be8014d1fd5324e96ac18a734e4b tools/nolibc: Use linux/wait.h rather than duplicating it
+05913501db30c11a71b13afc8aa57fdd64f9fca7 arm64/gcs: Provide support for GCS in userspace
+11e6a6a000aa06a86e146d251678dbd2d7927014 arm64/mm: Restructure arch_validate_flags() for extensibility
+b4fb973fccb005bc9f53647f41c8b527334cf053 prctl: arch-agnostic prctl for shadow stack
+b0d4954162edf1248e6f1b37bbc0f09a1bbd34a5 mman: Add map_shadow_stack() flags
+99ac6f585c1166f9945024c663a7462a3f52dca3 arm64: Document boot requirements for Guarded Control Stacks
+0b26c1385d924b55967dce590048770c80dfe6bc arm64/gcs: Document the ABI for Guarded Control Stacks
+9c19fdd57cbc426944529f37a9355f6e36a7f5e2 arm64/sysreg: Add new system registers for GCS
+a4bf4b0159ffde4f79f9c0687afb5873563c5ae2 arm64/sysreg: Add definitions for architected GCS caps
+277c2d73f28a385bf13c4ec80778a8b37b21f9b6 arm64/gcs: Add manual encodings of GCS instructions
+2a7e2fef50bfca67aa103612fab8a375ff4c23ee arm64/gcs: Provide put_user_gcs()
+a25cf166d3cbce82e656b5dd4c19b52c4f0fa20a arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
+f17fd144a0b73ca97fd2f7c95813ded93ea4d424 arm64/mm: Allocate PIE slots for EL0 guarded control stack
+0379ce5057dcf46e3eeaeeac2baef105bd467868 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
+70ff430d80054b35966b1d01b13263fae00d5ac4 arm64/mm: Map pages for guarded control stack
+e5f9aea16a36f291b049d79c1ed5bea8f4d99148 KVM: arm64: Manage GCS registers for guests
+a8088daa7c8e1c948ea2eadd06d963444c32ab5a arm64/gcs: Allow GCS usage at EL0 and EL1
+8de4aa0c66794313d96b7d06d95206183f6786ee arm64/idreg: Add overrride for GCS
+65795c8c550830680064d9a4deddbdadeb933b74 arm64/hwcap: Add hwcap for GCS
+557cbcf6206ee741d50272a376b16895100abc90 arm64/traps: Handle GCS exceptions
+c3b5ef82375930cc4d8bcd506679d49bfeeb9449 arm64/mm: Handle GCS data aborts
+0b7df4347caa73fe17e0f961f1c7e618246984ca arm64/gcs: Context switch GCS state for EL0
+1d06a5c21c83c230eed651dea76cdba70bfb0a88 arm64/gcs: Allocate a new GCS for threads with GCS enabled
+a98b142b92baff6ced9f4397fb80d6726dbb8b54 arm64/gcs: Implement shadow stack prctl() interface
+1f0ca15a7c1cac084a65036d71c859502e8504f8 arm64/mm: Implement map_shadow_stack()
+b445b7289d42f2cefc7a1831bb1f2608805fd3b6 arm64/signal: Set up and restore the GCS context for signal handlers
+3cb3f5271298685f8a906cf6b161735a5325ede8 arm64/signal: Expose GCS state in signal frames
+0cc0f92aaa900298bad0356dc8b960d2421f0182 arm64/ptrace: Expose GCS via ptrace and core files
+b112400a8aa90e5b26cd9d475b1de5eff3147638 arm64: Add Kconfig for Guarded Control Stack (GCS)
+c2bfb84e2a10634531f180e80c4e7c8730d3a753 kselftest/arm64: Verify the GCS hwcap
+18c710254492f0e75ce239285121d073cec00e9c kselftest/arm64: Add GCS as a detected feature in the signal tests
+afb301a6ed5f99901e5f55813bd51de6e5856730 kselftest/arm64: Add framework support for GCS to signal handling tests
+198a9944027b0302284b2f3ae559d3f292d0b087 kselftest/arm64: Allow signals tests to specify an expected si_code
+48c2967bff92698dab15621b195774dbfaa79fe0 kselftest/arm64: Always run signals tests with GCS enabled
+1b7b77579bed9168626f0a482aa798ed6ae50ab6 kselftest/arm64: Add very basic GCS test program
+4697b5a95f366defce45c539ae52b24b32bfab21 kselftest/arm64: Add a GCS test program built with the system libc
+70ee316f64f82ec4e75a66116db52a278524e7ea kselftest/arm64: Add test coverage for GCS mode locking
+c19e2d8e165d42868b847be1b0aec5d9b4ba57ac selftests/arm64: Add GCS signal tests
+e977105123a80a223714c414d322fbf31210d0b5 kselftest/arm64: Add a GCS stress test
+4c5336abc6134d716cae989f42e45f9c29fec57c kselftest/arm64: Enable GCS for the FP stress tests
 
---===============1476186861097970194==--
+--===============9187869842466788296==--
