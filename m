@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2426316406016208776=="
+Content-Type: multipart/mixed; boundary="===============7822362414773594763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 13 Nov 2023 14:15:56 -0000
-Message-Id: <169988495635.25554.17733378550001489653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 13 Nov 2023 14:25:23 -0000
+Message-Id: <169988552351.32101.4014296541410043815@gitolite.kernel.org>
 
---===============2426316406016208776==
+--===============7822362414773594763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/fixes
-    old: 3048102d9d68008e948decbd730f0748dd7bdc31
-    new: 41087f71cde0d300d140bf32d9c668534c8f1488
-    log: revlist-3048102d9d68-41087f71cde0.txt
+  - ref: refs/heads/master
+    old: 69dac8e431af26173ca0a1ebc87054e01c585bcc
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-69dac8e431af-b85ea95d0864.txt
 
---===============2426316406016208776==
+--===============7822362414773594763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3048102d9d68-41087f71cde0.txt
+Content-Disposition: attachment; filename=revlist-69dac8e431af-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1049,6 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-41087f71cde0d300d140bf32d9c668534c8f1488 erofs: simplify erofs_read_inode()
 
---===============2426316406016208776==--
+--===============7822362414773594763==--
