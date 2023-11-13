@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3126002496127763473=="
+Content-Type: multipart/mixed; boundary="===============2506849015657201909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 13 Nov 2023 01:47:30 -0000
-Message-Id: <169984005070.11921.10417629807726666844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 13 Nov 2023 01:47:47 -0000
+Message-Id: <169984006712.12098.7794719093315598555@gitolite.kernel.org>
 
---===============3126002496127763473==
+--===============2506849015657201909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-8a749fd1a872-b85ea95d0864.txt
 
---===============3126002496127763473==
+--===============2506849015657201909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============3126002496127763473==--
+--===============2506849015657201909==--
