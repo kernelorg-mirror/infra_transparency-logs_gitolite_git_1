@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 13 Nov 2023 18:24:05 -0000
-Message-Id: <169989984582.15119.15293988609981485887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 13 Nov 2023 18:27:11 -0000
+Message-Id: <169990003185.17826.11787079443392397758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 3eb34329a677df6d84621f03c8c1597fe9e92f03
-    new: 946fda94e257e1aef7df19889b86ba54c0dd6a63
+    old: 00fdb61d56161f523e975b4c044030f4b40abb6d
+    new: 303925b28110469ad002ac19ce0eb9c84d6aceb2
     log: |
-         946fda94e257e1aef7df19889b86ba54c0dd6a63 foo
+         303925b28110469ad002ac19ce0eb9c84d6aceb2 shared/shell: Fix --init-script commandline option
          
