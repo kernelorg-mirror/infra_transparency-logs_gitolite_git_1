@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2435183239273918019=="
+Content-Type: multipart/mixed; boundary="===============6483936772125675536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 13 Nov 2023 07:29:21 -0000
-Message-Id: <169986056140.551.11390679550829810400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Mon, 13 Nov 2023 07:29:33 -0000
+Message-Id: <169986057355.716.2314136085586990841@gitolite.kernel.org>
 
---===============2435183239273918019==
+--===============6483936772125675536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 52480e1f1a259c93d749ba3961af0bffedfe7a7a
+  - ref: refs/heads/master
+    old: 58720809f52779dc0f08e53e54b014209d13eebb
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-52480e1f1a25-b85ea95d0864.txt
+    log: revlist-58720809f527-b85ea95d0864.txt
 
---===============2435183239273918019==
+--===============6483936772125675536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52480e1f1a25-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-58720809f527-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============2435183239273918019==--
+--===============6483936772125675536==--
