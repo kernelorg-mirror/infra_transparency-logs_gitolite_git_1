@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2890845583445078547=="
+Content-Type: multipart/mixed; boundary="===============2270880870030385053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 13 Nov 2023 16:12:28 -0000
-Message-Id: <169989194843.15921.6991815654885836793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 13 Nov 2023 16:14:31 -0000
+Message-Id: <169989207194.16728.15361632084494409119@gitolite.kernel.org>
 
---===============2890845583445078547==
+--===============2270880870030385053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.8
+  - ref: refs/heads/for-next
     old: 601cc04c9d73ed728b29eaddb29ae13b48b03ce7
     new: 8aa49ba73384e5c2587ece090fe98d439261c388
     log: revlist-601cc04c9d73-8aa49ba73384.txt
 
---===============2890845583445078547==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1699891946 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1699891946-741d19f2126173de5e58bd85d5cfeb1a54205796
-
-601cc04c9d73ed728b29eaddb29ae13b48b03ce7 8aa49ba73384e5c2587ece090fe98d439261c388 refs/heads/asoc-6.8
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVSSuoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0G6XB/9o8DppZXVdesBRGXFXf8L4aFnRH0Od
-C2yzk0t7Fa3EpE2MBBHXT/b5VPY6C7ueZgQJtW+H7yEdhX9txi2xVjbH32dg23Ye
-J0iwlD6mR0067lVjI/jn2QRozC9qJMzyXkpEQ6dH/K1B+r6cPFr3NaVfy/A7/YyQ
-utPTrIqvITByoZrVPol0VPK/Lau6UHDBcO7Neh5EjO6skRz0ZKdzS6swWlJIc9J2
-es7rzbGqT2uUkOwd9bIpqXbxSn8Xy8miJnG5z5ZpEVKNnWB+irEHzTkh6yuygH57
-LpA9BJbmdL3jN67dVYRNW+2Awi+UpPGcGgA8UZs/NMuqu4vwoEplAzWE
-=7tWU
------END PGP SIGNATURE-----
-
---===============2890845583445078547==
+--===============2270880870030385053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +55,4 @@ a08ee9d00e3120e2e77a3fc093ba29070a3979be ASoC: SOF: mediatek: remove unused vari
 696e2d9bf35b6e5304ab734fe47a82fb1c330e71 ASoC: Intel: avs: Properly identify boards
 8aa49ba73384e5c2587ece090fe98d439261c388 ASoC: SOF: Add support for MICFIL PDM interface
 
---===============2890845583445078547==--
+--===============2270880870030385053==--
