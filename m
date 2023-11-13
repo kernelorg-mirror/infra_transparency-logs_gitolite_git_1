@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5295349279117434678=="
+Content-Type: multipart/mixed; boundary="===============5622365846363865618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 13 Nov 2023 05:29:44 -0000
-Message-Id: <169985338403.11652.10275341656206275580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 13 Nov 2023 05:29:59 -0000
+Message-Id: <169985339946.11815.6071989884059038523@gitolite.kernel.org>
 
---===============5295349279117434678==
+--===============5622365846363865618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-ffc253263a13-b85ea95d0864.txt
 
---===============5295349279117434678==
+--===============5622365846363865618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============5295349279117434678==--
+--===============5622365846363865618==--
