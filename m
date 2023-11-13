@@ -1,55 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1111773073848198821=="
+Content-Type: multipart/mixed; boundary="===============4998386216587057703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Nov 2023 15:20:51 -0000
-Message-Id: <169988885155.10026.17630575862590018697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 13 Nov 2023 15:42:53 -0000
+Message-Id: <169989017393.25403.9529829753669370638@gitolite.kernel.org>
 
---===============1111773073848198821==
+--===============4998386216587057703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/nolibc-waitpid-flags
-    old: 1bcb39408c8003442398d293e40ce32c19c34924
-    new: dc9aa4c5878fa716653e17572cfd9ca31f0e7788
-    log: revlist-1bcb39408c80-dc9aa4c5878f.txt
+  - ref: refs/heads/master
+    old: f24dee89bb8a7ef33c28e31632b1f3dd4e196413
+    new: 9a36440d929d134c56030a8492405708a143f580
+    log: revlist-f24dee89bb8a-9a36440d929d.txt
+  - ref: refs/tags/ath-202311131540
+    old: 0000000000000000000000000000000000000000
+    new: 9a36440d929d134c56030a8492405708a143f580
 
---===============1111773073848198821==
+--===============4998386216587057703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bcb39408c80-dc9aa4c5878f.txt
+Content-Disposition: attachment; filename=revlist-f24dee89bb8a-9a36440d929d.txt
 
-a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
-5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
-853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
-69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
-d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
-5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
-9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
-7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
-2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
-20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
-f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
-7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
-54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
-93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
-eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
-e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
-1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
-ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
-91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
-4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d4b671d4c66cd57ccebeae659d9b18e28a4fc9e8 Merge tag 'acpi-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ad1871ad8d9b3d252390ade8e2bcab7b773173ad Merge tag 'pm-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
-a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
 5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
 60c46877e9cd4f7fd13fa844258f60cca4eb3e34 clocksource: timer-riscv: Increase rating of clock_event_device for Sstc
 10128f8b1663a8bce27df051c750d116bb8cd737 RISC-V: Provide pgtable_l5_enabled on rv32
@@ -906,6 +885,21 @@ d46392bbf5c6ce594669f00b8177f0b34e983f90 Merge tag 'riscv-for-linus-6.7-rc1' of 
 c1ef4df14ed1feb9b0f08508390a196a1bc530ce Merge tag 'kgdb-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
 447cec034b7896f4b19dbfe3ce6c366ce7c7602a Merge tag 'memblock-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 90450a06162e6c71ab813ea22a83196fe7cff4bc Merge tag 'rcu-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
+7a934b5cc3f452df6f9a4903450fc103dee98ee8 wifi: mt76: mt7921: fix 6GHz disabled by the missing default CLC config
+40018a8fa9aa63ca5b26e803502138158fb0ff96 wifi: plfxlc: check for allocation failure in plfxlc_usb_wreq_async()
+4859b08f197b11b35932fdb4f584b89ff5243ad9 wifi: wilc1000: cleanup struct wilc_conn_info
+a2fbf9e1e8acf89de8132d1df255e1ee0b8320fe wifi: wilc1000: simplify wilc_scan()
+07fabde630a6ce6d0ec791415d3dc3ade858f8c5 wifi: rtw89: pci: add PCI generation information to pci_info for each chip
+bfdcfee3659c6289f391d6eced54b18b244a21ea wifi: rtw89: pci: use gen_def pointer to configure mac_{pre,post}_init and clear PCI ring index
+2daafe9a0cb6c93379ae2099610ac4069f1e286d wifi: rtw89: pci: implement PCI mac_pre_init for WiFi 7 chips
+e24ae0f07625d51934e9367e155510c71b088a2b wifi: rtw89: pci: add LTR v2 for WiFi 7 chip
+5cb0d6b878c375f25f1a74b4d1258561f176ea8b wifi: rtw89: pci: implement PCI mac_post_init for WiFi 7 chips
+ca76817f4c4bbf8f98268772f4eeea8382a34bcd wifi: rtw89: coex: use struct assignment to replace memcpy() to append TDMA content
+ed4f0c195e8fba06fa5c1072ade7feaadb91c03d wifi: rtw88: simplify __rtw_tx_work()
+53ee0b3b99edc6a47096bffef15695f5a895386f wifi: rtw88: fix RX filter in FIF_ALLMULTI flag
+b1275cdd7456ef811747dfb4f3c46310ddd300cd wifi: rt2x00: introduce DMA busy check watchdog for rt2800
+570beb6285fd355904b22625da20809f477096c5 wifi: rt2x00: disable RTS threshold for rt2800 by default
+a11d965a218f0cd95b13fe44d0bcd8a20ce134a8 wifi: rt2x00: restart beacon queue when hardware reset
 866d648059d5faf53f1cd960b43fe8365ad93ea7 lsm: fix default return value for vm_enough_memory
 b36995b8609a5a8fe5cf259a1ee768fcaed919f8 lsm: fix default return value for inode_getsecctx
 1995a536702921f000acda2bed645f1fe0e7ee5b Merge tag 's390-6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -932,6 +926,8 @@ c6e316ac05532febb0c966fa9b55f5258ed037be drivers: perf: Check find_first_bit() r
 68444b93ed6c622f77745ea25f8db05cd0afb1b6 Merge patch "drivers: perf: Do not broadcast to other cpus when starting a counter"
 c7a60651953359f98dbf24b43e1bf561e1573ed4 ALSA: info: Fix potential deadlock at disconnection
 6ae90e906aed727759b88eb2b000fcdc8fcd94a3 ALSA: hda: ASUS UM5302LA: Added quirks for cs35L41/10431A83 on i2c bus
+52ee2312211792395879f56bdfec3fcfd77ad058 bus: mhi: host: Add a separate timeout parameter for waiting ready
+49cffb63533e21add677e93e5f6ed9379f8860a2 bus: mhi: host: pci_generic: Add SDX75 based modem support
 43960dc2328e554c4c61b22c47e77e8b1c48d854 smb3: minor RDMA cleanup
 1bc081b67a79b6e75fae686e98048cea1038ae31 smb3: more minor cleanups for session handling routines
 0c51cc6f2cb0108e7d49805f6e089cd85caab279 cifs: handle cases where a channel is closed
@@ -941,6 +937,7 @@ fa1d0508bdd4a68c5e40f85f635712af8c12f180 cifs: account for primary channel in th
 19a4b9d6c372cab6a3b2c9a061a236136fe95274 cifs: reconnect work should have reference on server struct
 f72d96507640835726d4f5ba26c1c11acbe1bc97 smb3: minor cleanup of session handling code
 5923d6686a100c2b4cabd4c2ca9d5a12579c7614 smb3: fix caching of ctime on setxattr
+83c5dcf78ab992181c7d8bd5e94a0fdbde4c0efe bus: mhi: host: Add alignment check for event ring read pointer
 bce36aa682da7ca996d4a02636ebfb6b5f2c3f83 OSS: dmasound/paula: Convert to platform remove callback returning void
 f86128050d2d854035bfa461aadf36e6951b2bac arm64/syscall: Remove duplicate declaration
 e72c4333d2f2e7f2200f71a88c0480fd2a769a64 riscv: Rearrange hwcap.h and cpufeature.h
@@ -1048,7 +1045,13 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-6414432a6b24a06f8e21b29f757cb56140616bf0 EDITME: cover title for nolibc-waitpid-flags
-dc9aa4c5878fa716653e17572cfd9ca31f0e7788 tools/nolibc: Use linux/wait.h rather than duplicating it
+4e821892a47b26ad903b6e702c55ac4c43cc08c2 Merge remote-tracking branch 'wireless/main'
+06977157f58a0bdfbef5b777ae94581ca723324b Merge remote-tracking branch 'wireless-next/main'
+37fbc2ba027337fe89c7b039c74d3d28883453c8 Add localversion to identify builds from this tree
+2a3ec40b98b46c339adb57313d3b933ee5e7a8e8 wifi: ath11k: Defer on rproc_get failure
+8f157593689fcffc2d9b18af9472fce764188b43 wifi: ath11k: Remove unneeded semicolon
+42f7c030d960d86ceb38ece59a56aa5bf952f49e Merge branch 'ath-next'
+a8f024edc0d8248a2cfcd948cba9582a8b1f57ef Merge remote-tracking branch 'mhi/mhi-next'
+9a36440d929d134c56030a8492405708a143f580 Add localversion-wireless-testing-ath
 
---===============1111773073848198821==--
+--===============4998386216587057703==--
