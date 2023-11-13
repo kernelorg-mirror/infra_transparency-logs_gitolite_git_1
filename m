@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7761863843675836638=="
+Content-Type: multipart/mixed; boundary="===============5907640162776756915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Nov 2023 16:06:11 -0000
-Message-Id: <169989157160.10597.11452957623100170975@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 16:07:16 -0000
+Message-Id: <169989163657.11397.16309287860623677823@gitolite.kernel.org>
 
---===============7761863843675836638==
+--===============5907640162776756915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: f6d66121ce53c941b01a68b20aebcd7de243df37
-    new: 6c926ac4aed8cf61fcc16a6c74df18a0f48650c9
-    log: revlist-f6d66121ce53-6c926ac4aed8.txt
+  - ref: refs/heads/clone3-shadow-stack
+    old: 09688225b04d44c79f36f1d41b59cec9d91a513d
+    new: 80c259ef43922d22cb564127a75e1cf700602eeb
+    log: revlist-09688225b04d-80c259ef4392.txt
 
---===============7761863843675836638==
+--===============5907640162776756915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6d66121ce53-6c926ac4aed8.txt
+Content-Disposition: attachment; filename=revlist-09688225b04d-80c259ef4392.txt
 
+d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
+5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
+9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
+7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
+2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
+20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
+f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
+7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
+54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
+93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
+eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
+e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
+1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
+ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
+91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
+4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d4b671d4c66cd57ccebeae659d9b18e28a4fc9e8 Merge tag 'acpi-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+ad1871ad8d9b3d252390ade8e2bcab7b773173ad Merge tag 'pm-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
+a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
+5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
+60c46877e9cd4f7fd13fa844258f60cca4eb3e34 clocksource: timer-riscv: Increase rating of clock_event_device for Sstc
+10128f8b1663a8bce27df051c750d116bb8cd737 RISC-V: Provide pgtable_l5_enabled on rv32
+e59e5e2754bf983fc58ad18f99b5eec01f1a0745 riscv: correct pt_level name via pgtable_l5/4_enabled
+8f501be87e45112eff74d0569dcfaab6bce39ef5 RISC-V: clarify the QEMU workaround in ISA parser
+92235d3d8365d24f6cc6701b545e764ef144806a riscv/mm: Fix the comment for swap pte format
+dd16ac404a685cce07e67261a94c6225d90ea7ba riscv: Using TOOLCHAIN_HAS_ZIHINTPAUSE marco replace zihintpause
+559fe94a449cba5b50a7cffea60474b385598c00 riscv: mm: Update the comment of CONFIG_PAGE_OFFSET
+87615e95f6f9ccd36d4a3905a2d87f91967ea9d2 riscv: put interrupt entries into .irqentry.text
+b8c2f6617fd734e6cf265b3b38383f16e47d2037 Merge patch series "RISC-V: ACPI improvements"
+a6bdc082ad1c91d389a6ba0c7a1945818f732114 Merge 'bpf-next 2023-10-16' into loongarch-next
+b05ddad00903b24931cb4b45516f1bc1b5c288f2 Merge tag 'gpio-updates-for-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+5cbff4b2d9e2a59f4096af8b8f967e2b30f025f2 Merge tag 'regmap-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+9d6c80f8054f75326939b947185ec47ba3755d42 Merge tag 'regulator-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+34aac0a33de21ec6e03b689342c0933a4989fbc2 Merge tag 'spi-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+f9a7eda4d73d44dc1d17d05cdc9aeb9fc5660740 Merge tag 'hwmon-for-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+3475b91ff258b998b891964e8c263cff48384c01 Merge tag 'tag-chrome-platform-for-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+59fff63cc2b75dcfe08f9eeb4b2187d73e53843d Merge tag 'platform-drivers-x86-v6.7-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+c52894359395ea0a562b3ed556848ed66fbfff86 Merge tag 'for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pateldipen1984/linux
+fe4ae2fab00b4751265580c5865fdf23b62d80b3 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 f9ae180416e04bcee4d3cd216a6264a50f9299e6 Merge tag 'for-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 8bc9e6515183935fa0cccaf67455c439afe4982b Merge tag 'devicetree-for-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 b030c45844cfe0d4c89202cd6c9f4697b3a25a6a crypto: testmgr - move pkcs1pad(rsa,sha3-*) to correct place
@@ -1010,45 +1050,5 @@ e724d8b2c50bda4ceb11397d07fd7ebc7d9405b0 fork: Add shadow stack support to clone
 8b58f4c5655e14848d1c34c6658400e21e660da6 selftests/clone3: Factor more of main loop into test_clone3()
 0b53a3c20e3642ce357119d842119b8fd5135e48 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
 80c259ef43922d22cb564127a75e1cf700602eeb kselftest/clone3: Test shadow stack support
-d1d7e6d10df5cfac68be5ee561652fab737d3690 tools/nolibc: Use linux/wait.h rather than duplicating it
-5123c0619cca65888c856679f470b72b105902d2 arm64/gcs: Provide support for GCS in userspace
-a0c50fffbb777d4c438590c94f9b00ed3e60191e arm64/mm: Restructure arch_validate_flags() for extensibility
-1e832d62a90bfe6beac3098f6dc63d0d84fc2c2a prctl: arch-agnostic prctl for shadow stack
-90a6bfe597b94cce0257369c32ee27994799e5a0 mman: Add map_shadow_stack() flags
-b59a807f8c99d846ab2b2eed7a1147121c14369e arm64: Document boot requirements for Guarded Control Stacks
-dafdc48977011f1da8f23a52096efdacb6904a6c arm64/gcs: Document the ABI for Guarded Control Stacks
-c0c6f91ed7e5321fb5a0d999b24cf60bb6903e24 arm64/sysreg: Add new system registers for GCS
-a558023c249b0eb290219762d67ac9cbb16042c7 arm64/sysreg: Add definitions for architected GCS caps
-c016dcde48b268d066f913feebfa455d303ae16d arm64/gcs: Add manual encodings of GCS instructions
-8158b369cb91e2ed5969774b5ef5a99961490128 arm64/gcs: Provide put_user_gcs()
-e69b21a96457109b98bceb1316e78bf48534a37e arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-97673d0d0da3e1751d48ca41b624579d8f9b16fd arm64/mm: Allocate PIE slots for EL0 guarded control stack
-a195bb006f1135e73153962803df78c847338f91 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-37667c328a6dbe7db38f3d0f9d3fbc794f72a418 arm64/mm: Map pages for guarded control stack
-1b826b89d08fc5fa7d1f9e28d87bc64086644a0c KVM: arm64: Manage GCS registers for guests
-7e73660a42f98504b4305d1be12256f7716756d8 arm64/gcs: Allow GCS usage at EL0 and EL1
-29ec2323c219526695d725ae4888f88efe4d6fef arm64/idreg: Add overrride for GCS
-ec851c1fc01490f7827a6fd08220d408e6030481 arm64/hwcap: Add hwcap for GCS
-bcaa4c34e42cc351693559a34e87e790e32bda27 arm64/traps: Handle GCS exceptions
-c85b7172958ae978dc269185f27c546b720e2f09 arm64/mm: Handle GCS data aborts
-d15e9336169472afef35db78806ef2400e297551 arm64/gcs: Context switch GCS state for EL0
-ffc42daa3f2a04f9048b04f33c0d235dcdddb8c2 arm64/gcs: Allocate a new GCS for threads with GCS enabled
-dbfd111fff0768320d1e8983c09ef77a2cca7bff arm64/gcs: Implement shadow stack prctl() interface
-5632108277a1dea58822d5eeb8ca4b12ba6a6148 arm64/mm: Implement map_shadow_stack()
-a3929b9854fe595b0a177d0ea8f42c6f8d4e1eb1 arm64/signal: Set up and restore the GCS context for signal handlers
-ac3e27886ec83673e89198cee958087c38c4d2cf arm64/signal: Expose GCS state in signal frames
-5d80c80c203aff6ba5a1491af75e12171da7a081 arm64/ptrace: Expose GCS via ptrace and core files
-9ee4955df304c5e1922be7a918232a208b05d3a5 arm64: Add Kconfig for Guarded Control Stack (GCS)
-fe943e8b2801a7fbb222418f2810a121070f17a1 kselftest/arm64: Verify the GCS hwcap
-a53ef3394d921f1515276ed9567b1a4328bacbf5 kselftest/arm64: Add GCS as a detected feature in the signal tests
-e2755fba0ce15a4a17249add93ba136e2bafdbf6 kselftest/arm64: Add framework support for GCS to signal handling tests
-94037c9282338ed7c3bc04ce2b00d8e47b7cd28e kselftest/arm64: Allow signals tests to specify an expected si_code
-58187f80e8c5f986e968d16954a00ff71c07e7ff kselftest/arm64: Always run signals tests with GCS enabled
-27392129bc2a1176117b01928a807bfac57ece7a kselftest/arm64: Add very basic GCS test program
-c5370925760b0026b60d7d68a1fe551e777d61d8 kselftest/arm64: Add a GCS test program built with the system libc
-1215c48068badff59e9b979f7a250198c4831424 kselftest/arm64: Add test coverage for GCS mode locking
-97c5455548441d51e7f46ba747cb3aa29d4679ba selftests/arm64: Add GCS signal tests
-21bc9b4bc2ac39b9b6a9625c59e993f8278bad65 kselftest/arm64: Add a GCS stress test
-6c926ac4aed8cf61fcc16a6c74df18a0f48650c9 kselftest/arm64: Enable GCS for the FP stress tests
 
---===============7761863843675836638==--
+--===============5907640162776756915==--
