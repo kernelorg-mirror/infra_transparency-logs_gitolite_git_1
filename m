@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6367836861096374600=="
+Content-Type: multipart/mixed; boundary="===============2112144839798242687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 13 Nov 2023 03:34:29 -0000
-Message-Id: <169984646989.24368.18133373977257334122@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 03:36:41 -0000
+Message-Id: <169984660158.26736.13865273553907461951@gitolite.kernel.org>
 
---===============6367836861096374600==
+--===============2112144839798242687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
-  - ref: refs/heads/dev
+  - ref: refs/heads/next
     old: 47846d51348dd62e5231a83be040981b17c955fa
     new: 022732e3d846e197539712e51ecada90ded0572a
     log: revlist-47846d51348d-022732e3d846.txt
 
---===============6367836861096374600==
+--===============2112144839798242687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands grou
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 022732e3d846e197539712e51ecada90ded0572a audit: Send netlink ACK before setting connection in auditd_set
 
---===============6367836861096374600==--
+--===============2112144839798242687==--
