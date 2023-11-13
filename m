@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8466907253751872664=="
+Content-Type: multipart/mixed; boundary="===============7425201738532401518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 13 Nov 2023 03:40:39 -0000
-Message-Id: <169984683948.31082.16259642990994638468@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 03:40:55 -0000
+Message-Id: <169984685594.31252.17025355182206409762@gitolite.kernel.org>
 
---===============8466907253751872664==
+--===============7425201738532401518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/dev
-    old: 19c1c9916dbf9b05157a0c4970f61f952c0cb86a
+  - ref: refs/heads/next
+    old: f5bbdeda34c635ca8e893b481dc7865f378ea3f7
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-19c1c9916dbf-b85ea95d0864.txt
+    log: revlist-f5bbdeda34c6-b85ea95d0864.txt
 
---===============8466907253751872664==
+--===============7425201738532401518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c1c9916dbf-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-f5bbdeda34c6-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============8466907253751872664==--
+--===============7425201738532401518==--
