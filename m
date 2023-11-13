@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4551856225648287278=="
+Content-Type: multipart/mixed; boundary="===============7494356664222749048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 13 Nov 2023 12:03:46 -0000
-Message-Id: <169987702602.22654.6011030147420334327@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 12:03:54 -0000
+Message-Id: <169987703453.22761.8103091131332625649@gitolite.kernel.org>
 
---===============4551856225648287278==
+--===============7494356664222749048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 8d751da9f1d790f1d5e4b109eb0ad4a366d5efc8
     new: a35c62ba7ae5f96f6e2683beed3f9c7ee37548cf
     log: revlist-8d751da9f1d7-a35c62ba7ae5.txt
 
---===============4551856225648287278==
+--===============7494356664222749048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ee4c71f5771dc232001e055c818d2f2ea7ebf911 pinctrl: tigerlake: Switch to use Intel
 6217728b38580bd3a4c6db6f65359f93c52f5901 pinctrl: intel: Move default strength assignment to a switch-case
 a35c62ba7ae5f96f6e2683beed3f9c7ee37548cf pinctrl: intel: Refactor intel_pinctrl_get_soc_data()
 
---===============4551856225648287278==--
+--===============7494356664222749048==--
