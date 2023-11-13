@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4856202198610553258=="
+Content-Type: multipart/mixed; boundary="===============2355187484823999316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 13 Nov 2023 04:00:04 -0000
-Message-Id: <169984800401.12237.6814602934568989049@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 04:00:17 -0000
+Message-Id: <169984801729.12764.2628390723603301754@gitolite.kernel.org>
 
---===============4856202198610553258==
+--===============2355187484823999316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
-  - ref: refs/heads/dev
+  - ref: refs/heads/next
     old: e508560672890b2873c89258b88fade1356392ce
     new: 00eb7bd699ccd60d3e5c0ef2ca89467461c39178
     log: revlist-e50856067289-00eb7bd699cc.txt
 
---===============4856202198610553258==
+--===============2355187484823999316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d7cf3412a9f6c547e5ee443fa7644e08898aa3e2 lsm: consolidate buffer size handling i
 b1a867eeb8ab5e097178728b01cc504c6806acca lsm: mark the lsm_id variables are marked as static
 00eb7bd699ccd60d3e5c0ef2ca89467461c39178 mailmap: update/replace my old email addresses
 
---===============4856202198610553258==--
+--===============2355187484823999316==--
