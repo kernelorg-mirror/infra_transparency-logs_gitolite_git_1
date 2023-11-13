@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1391352963396679049=="
+Content-Type: multipart/mixed; boundary="===============7572528858365555439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 13 Nov 2023 07:29:00 -0000
-Message-Id: <169986054053.32726.9512266432612807764@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 07:29:10 -0000
+Message-Id: <169986055087.393.12764099640674537381@gitolite.kernel.org>
 
---===============1391352963396679049==
+--===============7572528858365555439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 8a749fd1a8720d4619c91c8b6e7528c0a355c0aa
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-8a749fd1a872-b85ea95d0864.txt
 
---===============1391352963396679049==
+--===============7572528858365555439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============1391352963396679049==--
+--===============7572528858365555439==--
