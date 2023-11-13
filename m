@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1952218455812196703=="
+Content-Type: multipart/mixed; boundary="===============1129150315091651191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 13 Nov 2023 10:26:36 -0000
-Message-Id: <169987119610.13589.11827405551395867362@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 10:27:06 -0000
+Message-Id: <169987122643.13831.3587348872788567119@gitolite.kernel.org>
 
---===============1952218455812196703==
+--===============1129150315091651191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: ec4405ed92036f5bb487b5c2f9a28f9e36a3e3d5
+  - ref: refs/heads/next
+    old: a558892b3456d44f2a89d238f5d650f0574fa3b2
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-ec4405ed9203-b85ea95d0864.txt
+    log: revlist-a558892b3456-b85ea95d0864.txt
 
---===============1952218455812196703==
+--===============1129150315091651191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec4405ed9203-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-a558892b3456-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============1952218455812196703==--
+--===============1129150315091651191==--
