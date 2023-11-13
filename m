@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2973489378456482347=="
+Content-Type: multipart/mixed; boundary="===============8277541692005237308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 13 Nov 2023 07:29:43 -0000
-Message-Id: <169986058334.874.15139437036941512674@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 07:29:50 -0000
+Message-Id: <169986059086.978.15346792825637818991@gitolite.kernel.org>
 
---===============2973489378456482347==
+--===============8277541692005237308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
-    old: 58720809f52779dc0f08e53e54b014209d13eebb
+  - ref: refs/heads/gnss-next
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-58720809f527-b85ea95d0864.txt
+    log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============2973489378456482347==
+--===============8277541692005237308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58720809f527-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============2973489378456482347==--
+--===============8277541692005237308==--
