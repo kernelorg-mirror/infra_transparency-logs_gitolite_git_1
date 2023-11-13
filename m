@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6613275654883389282=="
+Content-Type: multipart/mixed; boundary="===============7112779054138647510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 13 Nov 2023 15:48:12 -0000
-Message-Id: <169989049263.29112.7546593090588827553@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 15:48:55 -0000
+Message-Id: <169989053588.29449.3910434436502910647@gitolite.kernel.org>
 
---===============6613275654883389282==
+--===============7112779054138647510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo
-    old: 94ace9eda88229c73698b8dd8d3c06dd0831319c
+  - ref: refs/heads/fixes
+    old: 3bde7ec13c971445faade32172cb0b4370b841d9
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-94ace9eda882-b85ea95d0864.txt
+    log: revlist-3bde7ec13c97-b85ea95d0864.txt
 
---===============6613275654883389282==
+--===============7112779054138647510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1699890484 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1699890531 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1699890483-bf8640002a3264defaea506d30a4ab151b20a886
+nonce 1699890531-f94be3d66df60d8301306d9fcf76d0c40cf45f3c
 
-94ace9eda88229c73698b8dd8d3c06dd0831319c b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/review-ilpo
+3bde7ec13c971445faade32172cb0b4370b841d9 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZVJFNQAKCRBZrE9hU+XO
-MS6uAPsFl7S8TGQ9Jmy2IBL1bdFmp65VKTtV4nGJJ3SNB5Vv1QD/RYXXNLFo/Ouk
-X39Y1gcwXOdY3/yfGe/I9Qni/rCE8go=
-=ffCI
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZVJFYgAKCRBZrE9hU+XO
+MZsLAQC7m3uJpS6ywRF/sWCI7Bfqx074yLoIzgTmvPMZT2OBJAEAhTfQDs5t5N2b
+524T5SCJ211y/wsIRPNAGflvbWOJ4AE=
+=Xoq0
 -----END PGP SIGNATURE-----
 
---===============6613275654883389282==
+--===============7112779054138647510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94ace9eda882-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-3bde7ec13c97-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1072,4 +1072,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============6613275654883389282==--
+--===============7112779054138647510==--
