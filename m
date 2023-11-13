@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0069774465441726786=="
+Content-Type: multipart/mixed; boundary="===============2880095137303789868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 13 Nov 2023 10:45:39 -0000
-Message-Id: <169987233910.28111.6634406796462045850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Mon, 13 Nov 2023 10:45:59 -0000
+Message-Id: <169987235980.28323.6884995064433789951@gitolite.kernel.org>
 
---===============0069774465441726786==
+--===============2880095137303789868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============0069774465441726786==
+--===============2880095137303789868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============0069774465441726786==--
+--===============2880095137303789868==--
