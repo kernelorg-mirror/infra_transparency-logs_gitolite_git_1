@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3723879765187113145=="
+Content-Type: multipart/mixed; boundary="===============6449334253100744496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 13 Nov 2023 11:55:22 -0000
-Message-Id: <169987652298.17726.4832509763821802560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 13 Nov 2023 11:55:28 -0000
+Message-Id: <169987652869.17852.17589956775869241313@gitolite.kernel.org>
 
---===============3723879765187113145==
+--===============6449334253100744496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-6.7
-    old: 804bf07a1f726d4fe391d21b24a68ffc2381ba89
+    old: bef4a48f4ef798c4feddf045d49e53c8a97d5e37
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-804bf07a1f72-b85ea95d0864.txt
+    log: revlist-bef4a48f4ef7-b85ea95d0864.txt
 
---===============3723879765187113145==
+--===============6449334253100744496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-804bf07a1f72-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-bef4a48f4ef7-b85ea95d0864.txt
 
+45b890f7689eb0aba454fc5831d2d79763781677 Merge tag 'kvmarm-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+d1d4c0b7b65b7fab2bc6f97af9e823b1c42ccdb0 drm/amdgpu: check RAS supported first in ras_reset_error_count
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
@@ -715,7 +717,6 @@ aa96fbd6d78d9770323b21e2c92bd38821be8852 net/smc: put sk reference if close work
 c1ed833e0b3b7b9edc82b97b73b2a8a10ceab241 Merge branch 'smc-fixes'
 15be353d55f9e12e34f9a819f51eb41fdef5eda8 ASoC: hdmi-codec: register hpd callback on component probe
 4bdcbc31ad2112385ad525b28972c45015e6ad70 ASoC: dapm: fix clock get name
-c2ded280a4b1b7bd93e53670528504be08d24967 spi: spi-zynq-qspi: add spi-mem to driver kconfig dependencies
 0ad755fb88bdb7452f976d97847a47dbf7496763 drm/i915/mtl: Apply notify_guc to all GTs
 0cb89cd42fd22bbdec0b046c48f35775f5b88bdb drm/i915: Bump GLK CDCLK frequency when driving multiple pipes
 1a8e9bad6ef563c28ab0f8619628d5511be55431 drm/i915: Fix potential spectre vulnerability
@@ -1012,7 +1013,6 @@ b2a866975f6cd5859c746f1da39c8f5736c8def2 Documentation: tracing: Add a note abou
 3afe73372966d4d8b40922d7229c8ecb1c2ca287 lib: test_objpool: make global variables static
 abc28463c81853e4fdf8d009f71b2a3ce62a6f40 kprobes: unify kprobes_exceptions_nofify() prototypes
 ce51e6153f7781bcde0f8bb4c81d6fd85ee422e6 tracing: fprobe-event: Fix to check tracepoint event and return
-bef4a48f4ef798c4feddf045d49e53c8a97d5e37 spi: Fix null dereference on suspend
 a406b8b424fa01f244c1aab02ba186258448c36b parisc: Prevent booting 64-bit kernels on PA1.x machines
 784e0e20b4c97c270b2892f677d3fad658e2c1d5 Missing field not being returned in ioctl CIFS_IOC_GET_MNT_INFO
 705fc522fe9d58848c253ee0948567060f36e2a7 cifs: handle when server starts supporting multichannel
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============3723879765187113145==--
+--===============6449334253100744496==--
