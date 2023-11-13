@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8424868502337580255=="
+Content-Type: multipart/mixed; boundary="===============4856202198610553258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 13 Nov 2023 03:59:19 -0000
-Message-Id: <169984795915.10647.12882597704385687313@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 04:00:04 -0000
+Message-Id: <169984800401.12237.6814602934568989049@gitolite.kernel.org>
 
---===============8424868502337580255==
+--===============4856202198610553258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-6.7
+  - ref: refs/heads/dev
     old: e508560672890b2873c89258b88fade1356392ce
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-e50856067289-b85ea95d0864.txt
+    new: 00eb7bd699ccd60d3e5c0ef2ca89467461c39178
+    log: revlist-e50856067289-00eb7bd699cc.txt
 
---===============8424868502337580255==
+--===============4856202198610553258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e50856067289-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-e50856067289-00eb7bd699cc.txt
 
-5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
-e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
-a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
-5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
-853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
-69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
-d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
-5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
-9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
-7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
-2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
-20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
-f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
-7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
-54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
-93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
-eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
-e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
-1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
-ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
 91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
 4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d4b671d4c66cd57ccebeae659d9b18e28a4fc9e8 Merge tag 'acpi-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1050,5 +1030,25 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+f3b8788cde61b02f1e6c202f8fac4360e6adbafc LSM: Identify modules by more than name
+9285c5ad9d00abfe0f4e2ce4039c8127e7a09738 LSM: Maintain a table of LSM attribute data
+267c068e5f8b81b68cc4247c94dbba90a21a634e proc: Use lsmids instead of lsm names for attrs
+a04a1198088a1378d0389c250cc684f649bcc91e LSM: syscalls for current process attributes
+ad4aff9ec25f400608283c10d634cc4eeda83a02 LSM: Create lsm_list_modules system call
+5f42375904b08890f2e8e7cd955c5bf0c2c0d05a LSM: wireup Linux Security Module syscalls
+e1ca7129db2c3b3c4d261702905a752e6b2710b4 LSM: Helpers for attribute names and filling lsm_ctx
+38b323e5881608b5a229526d9a567df6182255ef Smack: implement setselfattr and getselfattr hooks
+223981db9bafb80f558162c148f261e2ff043dbe AppArmor: Add selfattr hooks
+762c934317e6f4b576eb4aa75e5facf4968a4a8f SELinux: Add selfattr hooks
+d3d929a8b0cd6deb7d70d1d8d805bccee3fbf11f LSM: selftests for Linux Security Module syscalls
+edd71f8e266c7ba15eedfec338864e53ddde1c25 lsm: drop LSM_ID_IMA
+aab30be071f7048c9c23c61e6eddd55bba328398 lsm: don't yet account for IMA in LSM_CONFIG_COUNT calculation
+dc46db78b9747f8114030982ee5c2faf2faaeddd lsm: cleanup the size counters in security_getselfattr()
+fdcf699b60712ecd6e41d9fc09137279257a4bf8 lsm: correct error codes in security_getselfattr()
+d7cf3412a9f6c547e5ee443fa7644e08898aa3e2 lsm: consolidate buffer size handling into lsm_fill_user_ctx()
+41793202292fd2acf99fdc09eff8323cc27c80eb lsm: align based on pointer length in lsm_fill_user_ctx()
+9ba8802c8b66fbde2ee32ab4c44cd418f9444486 lsm: convert security_setselfattr() to use memdup_user()
+b1a867eeb8ab5e097178728b01cc504c6806acca lsm: mark the lsm_id variables are marked as static
+00eb7bd699ccd60d3e5c0ef2ca89467461c39178 mailmap: update/replace my old email addresses
 
---===============8424868502337580255==--
+--===============4856202198610553258==--
