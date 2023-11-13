@@ -1,31 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3604460199260963648=="
+Content-Type: multipart/mixed; boundary="===============6668200618427436487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
-Date: Mon, 13 Nov 2023 23:01:32 -0000
-Message-Id: <169991649257.23338.5600925951418739024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 13 Nov 2023 23:01:34 -0000
+Message-Id: <169991649480.23407.13801075415029791188@gitolite.kernel.org>
 
---===============3604460199260963648==
+--===============6668200618427436487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-misc
-user: sre
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/uti260b
-    old: f8adda7866df7ef9cf4a60be018e0cf3ae531594
-    new: c7c89303911ada7c2765aa21f95c2d83778eac68
-    log: revlist-f8adda7866df-c7c89303911a.txt
+  - ref: refs/heads/nolibc
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============3604460199260963648==
+--===============6668200618427436487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8adda7866df-c7c89303911a.txt
+Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
+e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
+a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
+853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
+69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
+d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
+5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
+9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
+7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
+2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
+20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
+f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
+7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
+54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
+93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
+eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
+e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
+1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
+ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
+91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
+4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d4b671d4c66cd57ccebeae659d9b18e28a4fc9e8 Merge tag 'acpi-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+ad1871ad8d9b3d252390ade8e2bcab7b773173ad Merge tag 'pm-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
+a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
+5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
 60c46877e9cd4f7fd13fa844258f60cca4eb3e34 clocksource: timer-riscv: Increase rating of clock_event_device for Sstc
 10128f8b1663a8bce27df051c750d116bb8cd737 RISC-V: Provide pgtable_l5_enabled on rv32
 e59e5e2754bf983fc58ad18f99b5eec01f1a0745 riscv: correct pt_level name via pgtable_l5/4_enabled
@@ -1023,32 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-34a82a670681b86877f68ccd77129b2f3ab16b3f dt-bindings: vendor-prefixes: add GalaxyCore
-620b0e9f913a94603c7e82b8890177dbe9242bfa media: dt-bindings: gc0308: add binding
-7787729fb0c9ed4d8be5429135d5c9cbda69432b media: MAINTAINERS: Add GalaxyCore in camera sensor section
-d86f9fc52fc15426643de602d24e4b68590a4cd3 media: v4l: async: Fix duplicated list deletion
-17cbfd38711122890aa6d398d9598af57a532968 media: v4l: async: Drop useless list move operation
-d66a72615d63f6aa2b8daee0b45a9d3afa2e3bc9 media: i2c: gc0308: new driver
-485c97e20df89897634b31397fcfa1416bd672ed dt-bindings: vendor-prefixes: add UNI-T
-1e7ba2d7a41df092cc64bb5631fe5f11a31b5163 dt-bindings: arm: add UNI-T UTi260b
-352a0bf450a06580a70abc48af77e490f843c23b ARM: dts: imx6ull-uti260b: Add board
-8a941ddb244562cbf74198f6a4754c7c5972e33e dt-bindings: power: imx-gpc: add imx6ul
-6867be5135c75a4a20501318e089b435a1495a6b dt-bindings: media: fsl-pxp: convert to YAML
-43009515195e6a4d7de3b9aec0f48834e8adef00 dt-bindings: pinctrl: fsl,imx6ul-pinctrl: convert to YAML
-a5060178b28c4de81d9c271d660526f460ca4a31 dt-bindings: phy: mxs-usb-phy: convert to YAML
-001291fe0be41b3a2f483de3f1d2cde8ef7bb458 dt-bindings: usb: imx-usbmisc: convert to YAML
-e494b5bd3586c8e527dad8a5e75d534312251a07 dt-bindings: bus: imx-weim: convert to YAML
-4fd70dd8ff94b7c55ec21417930151c614bf2be9 dt-bindings: usb: chipidea,usb2: convert to YAML
-9cc7b481b0c4acdd62d586553b5fb1d4d9508c7e dt-bindings: dma: fsl,imx-sdma: convert to YAML
-619348e2e2ea45e4484f3e6e809da70bc1236c94 dt-bindings: dma: fsl,imx-dma: convert to YAML
-1dbd81ed08bdb8b04b411df8b0c3fa82b2b47234 dt-bindings: sound: fsl,imx-asrc: convert to YAML
-ac71cd35df41222b775999c8c3c3aa0b1a8e4165 dt-bindings: input: touchscreen: fsl,imx6ul-tsc convert to YAML
-57179dfbe02fc7e4af5b89d0131b3f9defdb927c dt-bindings: soc: imx: fsl,imx-anatop: add binding
-3a36c022c97aefa5dc9efb4dc7581a82d027f15a dt-bindings: soc: imx: fsl,imx-iomuxc-gpr: add binding
-4318881c08acedfbcea3d990d1c3c9a338f37272 dt-bindings: lcdif: Do not require power-domains for i.MX6ULL
-1d8aee343dc45d899bc88364682da7de5ae46f10 ARM: dts: imx6ull: fix pinctrl node name
-24f7d850cff91e91dcbc846c8e796f0fc79517cc ARM: dts: imx6ul: Remove fsl,anatop from usbotg1
-4f84f30c1c51269454e8b41dab149976720e1419 ARM: dts: imx: fix dma-controller node names
-c7c89303911ada7c2765aa21f95c2d83778eac68 [NOTFORUPSTREAM] Kernel config for uti260b thermal camera
 
---===============3604460199260963648==--
+--===============6668200618427436487==--
