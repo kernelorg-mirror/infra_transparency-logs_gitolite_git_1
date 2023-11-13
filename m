@@ -1,53 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============9184390596085903911=="
+Content-Type: multipart/mixed; boundary="===============5031823566324259022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 13 Nov 2023 11:35:54 -0000
-Message-Id: <169987535488.32228.7518800137067933764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 13 Nov 2023 11:38:03 -0000
+Message-Id: <169987548378.2081.14105779895281480080@gitolite.kernel.org>
 
---===============9184390596085903911==
+--===============5031823566324259022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/v6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03d1179639b1515dce087335c1fb5c962908683b
+  - ref: refs/heads/master
+    old: 7f35db79960be15204cf979bf81e601926fa3458
+    new: f51cbcca1c0e12e94590bd9723e3e446ac50c33a
+    log: revlist-7f35db79960b-f51cbcca1c0e.txt
 
---===============9184390596085903911==
+--===============5031823566324259022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7f35db79960b-f51cbcca1c0e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699875354 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1699875353-7043f214afd9bb898561c48ab72c9b4d7661a193
+50e3c15fc453d9df4cfb56c889e9f21caced2918 README: Files: Remove .mailmap
+df333724b954c2da1c629bcd486750b6eab2bb9d README: Update links
+c4eed0a0374ae69dd785f6f35c62256705cfadfc hostname.7: ffix
+7f652f51d9526899a243cd875653b39b7ff49654 man*/: Improve timestamp documentation
+2886d73c7b087ac4948707f955e14cc92a1473fe string_copying.7: wfix
+fae1442289cd03b02de23572893d4eec7c303fe2 string_copying.7: RETURN VALUE: ffix
+889738a87ae8fdd73c336b77dc8bc0de9fb123ae string_copying.7: DESCRIPTION::Functions: ustpcpy() and ustr2stp() are not provided by any libc
+eef9d18d7ae6083acb290f896e5dcbb8369e82cb string_copying.7: wfix
+9d903611174b1cae9a3cfcaf0660ade0149203e6 string_copying.7: BUGS: *cat(3) functions aren't always bad
+6b2406b9ed0d600dae7ee9a0c2dbf7bb9361ae51 string_copying.7: BUGS: Document strl{cpy,cat}(3)'s performance problems
+b878a4cf5a687f7e719c42eb8e0c22bd6de98aa0 string_copying.7: Add strtcpy(3)
+3037233f4f4fdc2c24c56278be4fc25ccb5eaedb string_copying.7: Use 'dsize' and 'ssize' for 'dst size' and 'src size'
+06930220d3459a5eba0cd5ef12de009f4cd184dd stpecpy.3, ustpcpy.3, ustr2stp.3, zustr2stp.3, zustr2ustp.3: Remove link pages that don't correspond to a libc function
+36686c0154a7894e8fa6b6b88dff2d6e57f03bc6 string_copying.7: Recommend failing instead of truncating
+c67f69f50c7e20800113e73b946ff7b2b51f1733 stpecpyx.3: Remove link page
+6be4cc77bb91dd25c48952b647ff49d52c16ab7a string.3: tfix
+1873da38de4be3d36bb67d011b907f6f774eef82 string.3: strncpy(): Reword so as to not imply the result has some null padding.
+f51cbcca1c0e12e94590bd9723e3e446ac50c33a string.3: strncpy(): Talk about bytes, not characters
 
-0000000000000000000000000000000000000000 03d1179639b1515dce087335c1fb5c962908683b refs/tags/v6.7-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVSChobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nJYQAM3xF8iZaYyNbF7xV696
-XDbhnaDV2DiOSSsBrehvoI88PttElZA1odqIF25WKuydfDTCG2tn+QH2/vxkGOfM
-PKj3dqoeN94ha1bq+DGeFzbpNhbL/BulIGC+YNdp1u3DR4l/3038d6Od/fhVri+D
-1G8a5tyvH9/btI3xeMm1MjfQXo0CW523dtsiE7nQapdiTrjX4y6Mh5gjle0cpG+q
-pzQdEant7qkaXVBVLl1cTTi//11uIc4OXgpJZDAi5luAXaEnRQqosCff1ofxvMU8
-kHI42MWsNKuyq8Nhi3ZgpREZbxeo3mvfbGFAy2fMjRhGh6Gw8p6c1gx9mtskiklP
-RUCjwx7ocy6row1053XkjeMEIG114kd5CyA7gDk/eOCDCLm3UVCdqTd1B/2EKwzX
-d9glodtD+miEP3iuD6v5GitMfiPEO+MqIIFsL4d4f0vRfwLWgN0esUo40q9JGpck
-YBiF1O0ulLmnw/zzqHW1uXVZYJE6+HFLe0Lhq7xYVP+RWy5hFBwHqBIznBNsvEMd
-+ShcmaJtO4FEnahByVMVCs87895fCBCsPa7LNaoAUh4SgOrqLZQgqpkl0jrMJw8h
-/hWCIplFpjd0Y36OZ+E4LkIaYYwB0arTmjCuTN5XTIfjQNNaiXaET2vCQ6IHjbEA
-3rAlSNlZGHfhcmWxqTlPZWBA
-=ogtu
------END PGP SIGNATURE-----
-
---===============9184390596085903911==--
+--===============5031823566324259022==--
