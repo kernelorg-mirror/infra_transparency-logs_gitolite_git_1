@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1421255373354354933=="
+Content-Type: multipart/mixed; boundary="===============3102930145912650895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 13 Nov 2023 02:03:47 -0000
-Message-Id: <169984102729.24110.10813598701465404774@gitolite.kernel.org>
+Date: Mon, 13 Nov 2023 02:03:53 -0000
+Message-Id: <169984103307.24214.12288623021701718250@gitolite.kernel.org>
 
---===============1421255373354354933==
+--===============3102930145912650895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,90 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-3ca112b71f35-b85ea95d0864.txt
+  - ref: refs/tags/v6.7-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03d1179639b1515dce087335c1fb5c962908683b
 
---===============1421255373354354933==
+--===============3102930145912650895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699841026 -0500
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1699841032 -0500
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1699841025-ed5fc38622e1dde12144fb6bb8a73d1b02db99aa
+nonce 1699841031-77881ae632dd335689652df0f7c6ceaf81064f8d
 
-3ca112b71f35dd5d99fc4571a56b5fc6f0c15814 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/driver-core-testing
+0000000000000000000000000000000000000000 03d1179639b1515dce087335c1fb5c962908683b refs/tags/v6.7-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVRhAIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bZ8QALkegqOiDeXjXJUqUQ2o
-gmAy9CL+5jF9jWpMON8tsoZnW0LeMDLl/79Ys0Rwr3hAsRo3m9Apci0KLVa8kCCs
-LbG2QApaZzmSpgzdFW/xFMmBu0OXz025dR4CCQJr0Eyd5F4A1khictG7J9sJXgrj
-CITxCUWBbHOgrHyQEwhUudB6Ga5NWSNk3kTsAyG7jbAu8pCB40+J0nxBtZdyEOis
-ugwkgJonWKnB3/1ynjBye+DVCx0G7QMdabU0UMY7FIMxopwwSOQoFHjFu16zVSOy
-dwZHPfuw2UNfT/qW8BAGBgfAJmml4QUTBdBjiFQ/ZDIgUNeRzVvAm6v6y/+kjC7z
-cxUR6L4QiOD0C5Bk+1XKsV0c5Td6zoc0chMhUu5vaWM69o4eR9llNbrsDh7N6A4w
-weZYgMao4OtsYE6HdqrGuqa9hgVG4LGAWtjZkhRfTgKMQ94df2ud4Xrkw5PKztVv
-CwL240hLs+jg9TNble+DVgM+sQixG9L4hdTRXwwkOr83VvWrInUAeRxQQsBquJzV
-drvk3OgIaTzm2bv94snP8iToCS2+UBSox8ikhEC8KJ0q1uItII+xA3/Cb8gv2+9h
-c/yalYDLO+tRgdfVxxpNFht/X11mA1m/6UhbVJauX8TbecJ86CZ5Ysbw5XF3jgeL
-GYqH6sB0bUEij9Qrxyaqx5Dx
-=p8EJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVRhAgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GoYP/jU3XYv2r+YHgumzRYKB
+Whb3ooBGFFqqy0sJEkuMKdrOV+FDwdaKCxpknOQyY5vpspI13wMW/wuF/ER7NHbJ
+5JEjzou1/H1hdHFIeEjXUm0b4Hgksm5RDQh6R5Ik1WvUKkb1m+U2plTzgRkmZIeb
+hwg6HNPo/DGzMFeY3PVLHr/n4QkV1c2WaQm4Fkxl0lE3DOL6sfHOuHEYRPFwkJd6
+OQHpr9bFux2slbKkNOtYmNI3kdSRwmJ269tdwwOD3sZmtS/dhrVyPIzz858lck3W
+zf+/df7pMZQGw5SWWs9vk6Ml0z7wVfOpkxHHa/FVS5CaBYjfa5hLHdWgf8UOpIds
+oUTYMrq64B+QIYZEBXWulfqnp0Dmbc+ZAdjhOn33eVSDwxIJT7DA/DdEfQOO5EOU
+JQzh6MZVORoxE2B6yUUTlE2mVGo3x3QqnyeG0bJFfVJ0SwkSVQEFXRoCu4fCd8rj
+AG8wwI1StqJYOm8vadK72kHXruEJKWSABVlJSfSiy1X0nMkrhK4uXtof6SiYSr8M
+vJKD/PaeVmwrlXuwSdPkWmew6LCSN34upP5GLdNTYjd6xAnqGTgYXdVbNPk01IMZ
+ivOHRv4ANA7p3p7ssCkQGvO2b6LEcv6Ixvdy08rfDMGnFRvnN4sa/1+++u2LRJ29
+20vljOgdb+2NAw0EbNrzx6OM
+=vSmR
 -----END PGP SIGNATURE-----
 
---===============1421255373354354933==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ca112b71f35-b85ea95d0864.txt
-
-a6bdc082ad1c91d389a6ba0c7a1945818f732114 Merge 'bpf-next 2023-10-16' into loongarch-next
-322948c3198cf80e7c10d953ddad24ebd85757cd powerpc/machdep: Remove trailing whitespaces
-1f92a844c35e483c00bab8a7b7d39c555ee799d8 powerpc: Remove file parameter from phys_mem_access_prot()
-deebe5f607d7f72f83c41163191ad0c1c4356385 powerpc/fb: Call internal __phys_mem_access_prot() in fbdev code
-65083333d3d16b282674aeef5cce5c72226c05e0 powerpc/pseries/rtas-work-area: Fix rtas_work_area_reserve_arena() kernel-doc
-644b6025bcaff59737270d812c70302f5a8d4a8f powerpc/rtas: Fix ppc_rtas_rmo_buf_show() kernel-doc
-166b0110d1ee53290bd11618df6e3991c117495a parisc/pgtable: Do not drop upper 5 address bits of physical address
-80c7889de7a8246e44a9632a2b7d15b41ab3fe41 LoongArch: Support PREEMPT_DYNAMIC with static keys
-21eb2bfe2748b238f06983e4308cb30611371605 LoongArch: Disable module from accessing external data directly
-71945968d8b128c955204baa33ec03bdd91bdc26 LoongArch: Mark __percpu functions as always inline
-affef66b65889a0ea0060e13e5f7fe569897d787 LoongArch: Relax memory ordering for atomic operations
-a2ccf46333d7b2cf9658f0d82ac74097c1542fae LoongArch/smp: Call rcutree_report_cpu_starting() earlier
-add28024405ed600afaa02749989d4fd119f9057 LoongArch: Add more instruction opcodes and emit_* helpers
-7111afe8fb5f15e11b8eff90d7aed1c58e3b1167 LoongArch: BPF: Support sign-extension load instructions
-f48012f161508c743e1b39c3521a2b285d19c6aa LoongArch: BPF: Support sign-extension mov instructions
-4ebf9216e7dff0b38e350007da3b03afb15c816b LoongArch: BPF: Support unconditional bswap instructions
-9ddd2b8d1a8b566195c196fe4249d04cd75cc73c LoongArch: BPF: Support 32-bit offset jmp instructions
-2425c9e002d2a1fdca34261b2fa6713eafef2163 LoongArch: BPF: Support signed div instructions
-7b6b13d32965ad7f1eb889d1a7058868a88eb29f LoongArch: BPF: Support signed mod instructions
-1d375d65466e5c8d7a9406826d80d475a22e8c6d selftests/bpf: Enable cpu v4 tests for LoongArch
-37de5a80e932f828c34abeaae63170d73930dca3 cifs: Fix encryption of cleared, but unset rq_iter data buffers
-43960dc2328e554c4c61b22c47e77e8b1c48d854 smb3: minor RDMA cleanup
-1bc081b67a79b6e75fae686e98048cea1038ae31 smb3: more minor cleanups for session handling routines
-0c51cc6f2cb0108e7d49805f6e089cd85caab279 cifs: handle cases where a channel is closed
-a6d8fb54a515f0546ffdb7870102b1238917e567 cifs: distribute channels across interfaces based on speed
-fa1d0508bdd4a68c5e40f85f635712af8c12f180 cifs: account for primary channel in the interface list
-9599d59eb8fc0c0fd9480c4f22901533d08965ee cifs: do not pass cifs_sb when trying to add channels
-19a4b9d6c372cab6a3b2c9a061a236136fe95274 cifs: reconnect work should have reference on server struct
-f72d96507640835726d4f5ba26c1c11acbe1bc97 smb3: minor cleanup of session handling code
-5923d6686a100c2b4cabd4c2ca9d5a12579c7614 smb3: fix caching of ctime on setxattr
-5e2fd17f434d2fed78efb123e2fc6711e4f598f1 smb: client: fix mount when dns_resolver key is not available
-8e8e46a6036f5e0eefdbf6e0ed43b3581d488aa7 parport: gsc: mark init function static
-de4eceab578ead12a71e5b5588a57e142bbe8ceb smb3: allow dumping session and tcon id to improve stats analysis and debugging
-a406b8b424fa01f244c1aab02ba186258448c36b parisc: Prevent booting 64-bit kernels on PA1.x machines
-784e0e20b4c97c270b2892f677d3fad658e2c1d5 Missing field not being returned in ioctl CIFS_IOC_GET_MNT_INFO
-705fc522fe9d58848c253ee0948567060f36e2a7 cifs: handle when server starts supporting multichannel
-ee1d21794e55ab76505745d24101331552182002 cifs: handle when server stops supporting multichannel
-fd2bd7c0539e28f267a84da8d68f9378511b50a7 cifs: update internal module version number for cifs.ko
-1b907d0507354b74a4f2c286380cd6059af79248 Merge tag '6.7-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
-5dd2020f335a7a60c154375a168791a2b87f35b5 Merge tag 'powerpc-6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-4eeee6636af819454d7c43702e77ec7857a63000 Merge tag 'loongarch-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
-b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-
---===============1421255373354354933==--
+--===============3102930145912650895==--
