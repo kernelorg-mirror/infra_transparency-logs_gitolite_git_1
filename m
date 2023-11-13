@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 13 Nov 2023 00:51:58 -0000
-Message-Id: <169983671874.31164.4412922571435561583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 13 Nov 2023 01:12:32 -0000
+Message-Id: <169983795260.19528.12007426294678435890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 1c8cf87bf2fded2a8648aacace9b482c8f308b3e
-    new: 8f0cd531ee18c70f4655112c49f3c3e329636e7f
+  - ref: refs/heads/master
+    old: c1ab261c77f2f28cb92d61a17ce4d219ab9397c6
+    new: 71a4272a16489b70db76375ba1fe62ef75eb6f9f
+    log: |
+         71a4272a16489b70db76375ba1fe62ef75eb6f9f Mon Nov 13 01:11:18 AM UTC 2023
+         
