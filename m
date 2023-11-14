@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Nov 2023 04:53:25 -0000
-Message-Id: <169993760512.14921.5818221210217406048@gitolite.kernel.org>
+Date: Tue, 14 Nov 2023 04:57:48 -0000
+Message-Id: <169993786861.18070.8880560580575148846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c0a2a1b0d631fc460d830f52d06211838874d655
-    new: 73bde5a3294853947252cd9092a3517c7cb0cd2d
+    old: 73bde5a3294853947252cd9092a3517c7cb0cd2d
+    new: 3cffa2ddc4d3fcf70cde361236f5a614f81a09b2
     log: |
-         4b3812d90b2c93723adf4b6ce99240d301f7d5f9 Revert "ptp: Fixes a null pointer dereference in ptp_ioctl"
-         73bde5a3294853947252cd9092a3517c7cb0cd2d ptp: annotate data-race around q->head and q->tail
+         3cffa2ddc4d3fcf70cde361236f5a614f81a09b2 bonding: stop the device in bond_setup_by_slave()
          
