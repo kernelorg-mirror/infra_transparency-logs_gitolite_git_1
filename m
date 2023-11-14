@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7094523646822990122=="
+Content-Type: multipart/mixed; boundary="===============5744858217047907823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 14 Nov 2023 21:30:22 -0000
-Message-Id: <169999742240.1453.12804117565280124759@gitolite.kernel.org>
+Date: Tue, 14 Nov 2023 21:30:51 -0000
+Message-Id: <169999745180.1732.11311303071509406577@gitolite.kernel.org>
 
---===============7094523646822990122==
+--===============5744858217047907823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/alternatives
-    old: 2bd4aa9325821551648cf9738d6aa3a49317d7e5
-    new: 189dbf70cb026fb2211ae472f94d9ea4ae425304
-    log: revlist-2bd4aa932582-189dbf70cb02.txt
+  - ref: refs/heads/sched/urgent
+    old: d2929762cc3f85528b0ca12f6f63c2a714f24778
+    new: 6d7e4782bcf549221b4ccfffec2cf4d1a473f1a3
+    log: revlist-d2929762cc3f-6d7e4782bcf5.txt
 
---===============7094523646822990122==
+--===============5744858217047907823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bd4aa932582-189dbf70cb02.txt
+Content-Disposition: attachment; filename=revlist-d2929762cc3f-6d7e4782bcf5.txt
 
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
+853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
 69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
 d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
 5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
@@ -1045,10 +1047,8 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-325d363360c5fbff3f2dee9d6721db7db91c10fb x86/paravirt: move some functions and defines to alternative
-9705032f1a6e521bf3e5597c004605d6ee3a9bce x86/alternative: add indirect call patching
-ce3b95a6fb7ec882e511dbef4f637b93b302189a x86/paravirt: introduce ALT_NOT_XEN
-b92ae54638494ef25981fb01f1dde9cb4330c587 x86/paravirt: switch mixed paravirt/alternative calls to alternative_2
-189dbf70cb026fb2211ae472f94d9ea4ae425304 x86/paravirt: remove no longer needed paravirt patching code
+eab03c23c2a162085b13200d7942fc5a00b5ccc8 sched/eevdf: Fix vruntime adjustment on reweight
+8b39d20eceeda6c4eb23df1497f9ed2fffdc8f69 sched: psi: fix unprivileged polling against cgroups
+6d7e4782bcf549221b4ccfffec2cf4d1a473f1a3 sched/fair: Fix the decision for load balance
 
---===============7094523646822990122==--
+--===============5744858217047907823==--
