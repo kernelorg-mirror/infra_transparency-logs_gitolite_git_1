@@ -1,28 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1161186094870311005=="
+Content-Type: multipart/mixed; boundary="===============6373238360209638988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 14 Nov 2023 03:18:29 -0000
-Message-Id: <169993190915.11667.836172166730240501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 14 Nov 2023 03:18:40 -0000
+Message-Id: <169993192033.11808.9009775853539066246@gitolite.kernel.org>
 
---===============1161186094870311005==
+--===============6373238360209638988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: d173336e238b0f7f5b7eddfa641d7c25c24bb86a
     new: 5ba73bec5e7b0494da7fdca3e003d8b97fa932cd
     log: revlist-d173336e238b-5ba73bec5e7b.txt
-  - ref: refs/heads/stable
-    old: e257da5715365b853439243f89cf5d8a9d382355
-    new: 9bacdd8996c77c42ca004440be610692275ff9d0
-    log: revlist-e257da571536-9bacdd8996c7.txt
   - ref: refs/tags/next-20231114
     old: 0000000000000000000000000000000000000000
     new: 98817af0b845407c5b82f62ba30050e2366f8f31
@@ -30,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 03d1179639b1515dce087335c1fb5c962908683b
 
---===============1161186094870311005==
+--===============6373238360209638988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -811,24 +807,4 @@ d039e3be59e5f0d263e650b53873d446736c43c1 Merge branch 'for-next' of git://git.ke
 92e302d7e4242d6fbde484566ef1c53c7653813d Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git
 5ba73bec5e7b0494da7fdca3e003d8b97fa932cd Add linux-next specific files for 20231114
 
---===============1161186094870311005==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e257da571536-9bacdd8996c7.txt
-
-dec96fc2dcb59723e041416b8dc53e011b4bfc2e btrfs: use u64 for buffer sizes in the tree search ioctls
-b8212814d1e8428a082234223105e4071b844fab btrfs: directly return 0 on no error code in btrfs_insert_raid_extent()
-dfcb03ae8a341600d72fbf3c79429f306764d653 btrfs: zoned: drop no longer valid write pointer check
-776a838f1fa95670c1c1cf7109a898090b473fa3 btrfs: zoned: wait for data BG to be finished on direct IO allocation
-d8ba2a91fc3cd0347823435971f58f473cbba7aa btrfs: get correct owning_root when dropping snapshot
-47e2b06b7b5cb356a987ba3429550c3a89ea89d6 btrfs: make found_logical_ret parameter mandatory for function queue_scrub_stripe()
-cd63ffbd23edc176f09cac5c9287db732d7cbb73 btrfs: fix error pointer dereference after failure to allocate fs devices
-6c8e69e4a702b072206f166111c003d704de15d9 btrfs: fix race between accounting qgroup extents and removing a qgroup
-609d99379736aa6c5b0658654084198aa808035a btrfs: fix qgroup record leaks when using simple quotas
-d3933152442b7f94419e9ea71835d71b620baf0e btrfs: make OWNER_REF_KEY type value smallest among inline refs
-b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-58c09cad1754c56cb000ef07477e8781e3fad4d3 drm/ci: make github dependabot happy again
-9bacdd8996c77c42ca004440be610692275ff9d0 Merge tag 'for-6.7-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============1161186094870311005==--
+--===============6373238360209638988==--
