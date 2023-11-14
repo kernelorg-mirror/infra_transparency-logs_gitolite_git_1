@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 14 Nov 2023 14:41:08 -0000
-Message-Id: <169997286898.30040.6343544107582523459@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1257161680150528903=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 14 Nov 2023 14:49:27 -0000
+Message-Id: <169997336743.2246.15221669527454628539@gitolite.kernel.org>
+
+--===============1257161680150528903==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: 559b7d0aacbb67b2417e5f1bf266ef3700999e65
-    new: 9bdb290499e678a6f78f4d8650474121bb544088
+  - ref: refs/heads/master
+    old: 6fc975a6d265387b2f035649a660140df5ee8855
+    new: 4697dffeb5b2263603cc41b7d15d0dd3b85652b3
     log: |
-         977c2beac2ec1773a91fdd121454117d82d402e4 fork: Support shadow stacks in clone3()
-         6769950b96e84351386d562bca288cc81d49bed7 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-         020411747d146e44f42c77ae7f88e096f8a1fa14 fork: Add shadow stack support to clone3()
-         1098664b39c3f41366b31ac5250fcf7ceeba0b85 selftests/clone3: Factor more of main loop into test_clone3()
-         0dc2e4faa0271efb486bca8f89def970c2b7a925 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-         9bdb290499e678a6f78f4d8650474121bb544088 kselftest/clone3: Test shadow stack support
+         4697dffeb5b2263603cc41b7d15d0dd3b85652b3 Update 5AD24211C060D1C8 (Stephen Rothwell)
          
+
+--===============1257161680150528903==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1699973366 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1699973366-f9451eb5e04890977a2a91dc5a20a408a2dc2ce6
+
+6fc975a6d265387b2f035649a660140df5ee8855 4697dffeb5b2263603cc41b7d15d0dd3b85652b3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZVOI9gAKCRC2xBzjVmSZ
+bCl2AQCum9GHSwpgpFaHpJ42DOrgkzockOKSSBis3JnHXlUiNwEA2+W6dVyPK8nH
+E5i/3D0G1pKtECSYe/uUjQ+CsVU+zAw=
+=0Fke
+-----END PGP SIGNATURE-----
+
+--===============1257161680150528903==--
