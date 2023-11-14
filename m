@@ -1,43 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============1944546733734512533=="
+Content-Type: multipart/mixed; boundary="===============7399575290350646863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Tue, 14 Nov 2023 07:14:39 -0000
-Message-Id: <169994607953.19067.16912288426335617613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 14 Nov 2023 07:16:19 -0000
+Message-Id: <169994617907.21341.13684830017173094870@gitolite.kernel.org>
 
---===============1944546733734512533==
+--===============7399575290350646863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 58720809f52779dc0f08e53e54b014209d13eebb
+    old: 05d3ef8bba77c1b5f98d941d8b2d4aeab8118ef1
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-58720809f527-b85ea95d0864.txt
+    log: revlist-05d3ef8bba77-b85ea95d0864.txt
   - ref: refs/heads/next
-    old: 4ea2b6d3128ea4d502c4015df0dc16b7d1070954
+    old: d688c8264b8ed25edbdafac46ea2b41b2e77416a
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-4ea2b6d3128e-b85ea95d0864.txt
+    log: revlist-d688c8264b8e-b85ea95d0864.txt
   - ref: refs/tags/v6.7-rc1
     old: 0000000000000000000000000000000000000000
     new: 03d1179639b1515dce087335c1fb5c962908683b
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
   - ref: refs/tags/v6.6
     old: 0000000000000000000000000000000000000000
     new: 5260836abb7056beed3f3f0d0e4262c11f36f0d0
 
---===============1944546733734512533==
+--===============7399575290350646863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58720809f527-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-05d3ef8bba77-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1064,11 +1061,11 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============1944546733734512533==
+--===============7399575290350646863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ea2b6d3128e-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-d688c8264b8e-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -2095,4 +2092,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============1944546733734512533==--
+--===============7399575290350646863==--
