@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5744858217047907823=="
+Content-Type: multipart/mixed; boundary="===============7523691546960344210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 14 Nov 2023 21:30:51 -0000
-Message-Id: <169999745180.1732.11311303071509406577@gitolite.kernel.org>
+Date: Tue, 14 Nov 2023 21:31:21 -0000
+Message-Id: <169999748102.2023.2266341656505185277@gitolite.kernel.org>
 
---===============5744858217047907823==
+--===============7523691546960344210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: d2929762cc3f85528b0ca12f6f63c2a714f24778
-    new: 6d7e4782bcf549221b4ccfffec2cf4d1a473f1a3
-    log: revlist-d2929762cc3f-6d7e4782bcf5.txt
+  - ref: refs/heads/sched/core
+    old: 984ffb6a4366752c949f7b39640aecdce222607f
+    new: 4f67d0cfc7000d74c17de30aafd7479cf246fe13
+    log: revlist-984ffb6a4366-4f67d0cfc700.txt
 
---===============5744858217047907823==
+--===============7523691546960344210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2929762cc3f-6d7e4782bcf5.txt
+Content-Disposition: attachment; filename=revlist-984ffb6a4366-4f67d0cfc700.txt
 
-5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
-853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
-69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
-d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
-5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
-9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
-7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
-2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
-20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
-f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
 7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
 54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
 93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
@@ -1050,5 +1040,15 @@ b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 eab03c23c2a162085b13200d7942fc5a00b5ccc8 sched/eevdf: Fix vruntime adjustment on reweight
 8b39d20eceeda6c4eb23df1497f9ed2fffdc8f69 sched: psi: fix unprivileged polling against cgroups
 6d7e4782bcf549221b4ccfffec2cf4d1a473f1a3 sched/fair: Fix the decision for load balance
+7eb9f647330749b84e5deab6a21827f0edb7dddb sched: Use WRITE_ONCE() for p->on_rq
+c5d7ba7e638465c019ddc2cafadfdf62d11d7183 sched/numa: Fix mm numa_scan_seq based unconditional scan
+f2a20da43fa4269a43c5db2f36295568a9502f4f sched: Unify runtime accounting across classes
+c0ffb9869bbe8f63d11f8ae44f23d0076bf58f21 sched: Remove vruntime from trace_sched_stat_runtime()
+5bd17da09073083fa6f240ed28ef466e0c70f97d sched: Unify more update_curr*()
+e38805b60c640ddb3465e8a78fad2aab6b2f910a sched/deadline: Collect sched_dl_entity initialization
+0c6d23039c0a7c7ea89f29c01fa68046a54c8a22 sched/deadline: Move bandwidth accounting into {en,de}queue_dl_entity
+e5e8005c28991b08e21d54e15cde7933cfc1047d sched/deadline: Introduce deadline servers
+167af2af1de52b40eda5cd8bc26bbe5bb50340ce sched/cpuidle: Comment about timers requirements VS idle handler
+4f67d0cfc7000d74c17de30aafd7479cf246fe13 sched/timers: Explain why idle task schedules out on remote timer enqueue
 
---===============5744858217047907823==--
+--===============7523691546960344210==--
