@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0859250581060732603=="
+Content-Type: multipart/mixed; boundary="===============1009894820336810981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 14 Nov 2023 15:14:36 -0000
-Message-Id: <169997487691.21214.17976672013713736568@gitolite.kernel.org>
+Date: Tue, 14 Nov 2023 15:14:40 -0000
+Message-Id: <169997488092.21291.5193718047982860238@gitolite.kernel.org>
 
---===============0859250581060732603==
+--===============1009894820336810981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/drivers
-    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+  - ref: refs/heads/next/dt
+    old: 4a48fa417abc5b86da393c93ab63a9160076a248
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-0bb80ecc33a8-b85ea95d0864.txt
+    log: revlist-4a48fa417abc-b85ea95d0864.txt
 
---===============0859250581060732603==
+--===============1009894820336810981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1699974875 +0100
+pusher krzk@kernel.org 1699974879 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1699974875-21ddfe78bad18bbcf869a18e0eb0a0ede1c97ace
+nonce 1699974879-72bb6a7202d318ae8b8437d17472e33eb726ac1a
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/next/drivers
+4a48fa417abc5b86da393c93ab63a9160076a248 b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVTjtsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1z6MD/9wYzSv8ijeiUn2mo/vBL2MENa0QjmkuUcV
-xHn17sRBE9dod7BsaCeN7A7KQFpUFduzgDYS7FqI4JMFz5Ua8vtYrvFhHj7w/zeL
-KymS4HTYWIw3o8yNuvqqNuaOQ4lE2a5T7WaJLCyxdk/KB4z45siTIX912Ug8YSrq
-uJSDSrjQ5EKqXh6dXZUJJe29NJ/0t0DPMGhrAAaBhwRVLnaEHoNSlzJwadR6OHTA
-i71cSEmyTSVtwVhFVqdcKIlvVbxJzBdhElu8x/8r3LD7Dza0ek0vOfjt57WtyyYU
-xzEE2XoZeS6g3v34QiW7BZeeNU4wmmdH8ynW1EmfXTLt6iE9LLaDhimCTsJPlHGq
-w2M463J56ImOruTYUQ/jmLUTLbHqxWqBFYpr5gzUJhjPE0Ud+nviBT54FQvc5aBk
-aqovLH3zRF1rtd2OEbHibRoBdLrxYqovhHhvVsDn2UgZ/LvRmu2kvshgSegu1usB
-hV0rrvj0PNrneDUIdi3SeuErD1209D8zE7Oy8zk6b2rprPBPmZwnXUSHDPnTR27d
-pNKWNeHA/XD8tp01UP5ei7+Sfu7auw8lyG8ufFfPEIcKXl/VJWow30K6Z9ufch8p
-JuAcUxYcqaz9gLwlLXdXMkqN+qO3K93IL1E9dNkSq7ccjWH4je5T/MTpowZ2MEq6
-NdbwoDCUFA==
-=idRp
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVTjt8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD183uEACLFDjDjT3EyZ5AOuO5I/Zx9mq7r3q56Vh7
+YgfQsCiRw6ywKb/93LlzW/NWBXIz/nyJw2J7SEPMquywlJ1EmRuBWMsTwMI89APj
+JEGTVHHuICDRBdVMzbU1b4mkBOPNlQQ1iuTusL0kQWr318550DJjBfdM9te4jULQ
+eSBaqnMlcD/lZT+ZB8UFO9LdJWFKmXQbM8USQgTqdEr9MVbLtBt8KFQmOnYUJ12h
+4ekCd4oA7DWJREYGsiWH9r/ErHLfs/PSlyKwOMopQzuzaktAQePMH2M+V2rp5II5
+hf6moH2pepeDykKTe6VlDSX7n7bS30LmTCRYy9UBy1D0zrJf9ohM+prM1W5hmKl7
+OMmhQRaxX8f3ySBkd8xgQ8p8hDw2riP6KRoj5koZC6hcbI0LtOj6O98WBY/GJBw/
+IOeggpdduHLAE1IHhIcTZLNDhFW+JE7qG8m6aK/G3+pfQDxVyW0FSoparabH2lk7
+ymzq4pst6dbvZJ3zYhto9auUrfreY60wQ1EEqyEbQ0tQjrLnTRb6RzNhCwBM5qWK
+n/HeuybrqZmyulWsV+rACF51pvuXQECRcZWYeHSCft3S89S3XQz40lSTDC7gjHfH
+7pjjGfoM0DGSyb5/AkeLjOXwudhb8329V/boM86PqroGNAKN04Gjc11+3u6waQLU
+1h2WBHZ8iw==
+=Vj6x
 -----END PGP SIGNATURE-----
 
---===============0859250581060732603==
+--===============1009894820336810981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-4a48fa417abc-b85ea95d0864.txt
 
 5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
@@ -1082,4 +1082,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============0859250581060732603==--
+--===============1009894820336810981==--
