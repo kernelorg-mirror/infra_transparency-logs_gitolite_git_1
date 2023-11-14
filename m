@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0197299389740307903=="
+Content-Type: multipart/mixed; boundary="===============0762129712729678890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 14 Nov 2023 15:19:33 -0000
-Message-Id: <169997517330.26380.10000200616765010618@gitolite.kernel.org>
+Date: Tue, 14 Nov 2023 15:19:47 -0000
+Message-Id: <169997518798.26545.13221075022732837944@gitolite.kernel.org>
 
---===============0197299389740307903==
+--===============0762129712729678890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
+  - ref: refs/heads/for-next
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 2a8ff4d56ef6cb4a7b2b4025ea4366178e4e8eaf
     log: revlist-b85ea95d0864-2a8ff4d56ef6.txt
-  - ref: refs/heads/for-v6.8/samsung-bindings-compatibles
-    old: 0000000000000000000000000000000000000000
-    new: 0b549b3f74e39f7b0e787f8ffdfd2cf67c0fdc4b
 
---===============0197299389740307903==
+--===============0762129712729678890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1699975171 +0100
+pusher krzk@kernel.org 1699975186 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1699975171-f9d1fc7d1a9a5a1d5366f401e84292a6a277a81a
+nonce 1699975186-f2be9da6fb572bb76981f895c83b7f4dab1c14be
 
-b85ea95d086471afb4ad062012a4d73cd328fa86 2a8ff4d56ef6cb4a7b2b4025ea4366178e4e8eaf refs/heads/next/dt64
-0000000000000000000000000000000000000000 0b549b3f74e39f7b0e787f8ffdfd2cf67c0fdc4b refs/heads/for-v6.8/samsung-bindings-compatibles
+b85ea95d086471afb4ad062012a4d73cd328fa86 2a8ff4d56ef6cb4a7b2b4025ea4366178e4e8eaf refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVTkAMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18hoD/wIa2F7wdaPPvXbrcAGGnvmjUfY4w/1pQlX
-WB5Zf1BITMQ33UPYxYdEwsEwrMEvRi09JY9zlH0B+K/8/1zAp7ewA6m+5gxcOrwf
-BODOe813pH8RNj9qyvbQLPAm66oZp6fZKmaZeOelg54DmCVHrI6HXf2Xvp+qcK0a
-ORJT8XWbUXZAcotiWa8Y4dF135BcXmmomorxjZKDDOYsl5uMjcCuBIPl4FD57PZr
-yK80FxopiuCQGH9VMhive3G9fCN86/gGESf5YUUgMmewZH+eS08Auif+dYyQ68YO
-nigD3TW9DLhyuwYIt+kheEeRf8iQfNP7jM2B5BE/dfWrHC4y4AkFyNvTUDlbDwgs
-ZjY2crohf5wYDpp2/pGojoLuBFVbD5fChFU3TXkkKy35kZZ63967Iy+fft9ycsx0
-AP55yCkWYV3nx+Fh2z/e90tanX4TYnBCM9JvO81AHhpqhCaeNvuEp5FQ8kW4sGNC
-JkBOECDeMDqhl+mC3KNTHEEK46wyrDTLvb0KbLpHx71dva4c57sbWEoapRVY6ReK
-ohYmhxZ0LexSOvb5WdAHYlJ0fWtyJBm8Ey3ic8bpuAQi2VI+kvNfW8yxUY8kFvz0
-tSOAuuupR9oQZvkRk36CJOD2isagf9PoQzWiJlomtoLbE8sEXjoqepSHiqBMXBbc
-0gZ6bMHo4Q==
-=UBOp
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVTkBIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+lZD/9960pYiZzFeyllqQyy3PRQ3WbebiuPt2qL
+8hoRB1CutFL+xkxlG1VkJLafG/DMq1ey568JLG0m4dPqP/qzCALySIKSlCyCFNsV
+aWYTala3U4Uvlo4VYs79nGlXEUUvKLTqnfy6GAdSng70jAlmxosezmP2Y5SBBSa3
+cbfFo7ja8JBs1VE88ub6F5fVJMBgOezvwjgm8MdpB4taKLbvCyZqIFcZnynpjkYw
+d/qmAXV1SGeBLyEZkV0LnYVv71OdURUPm2EgT8ES17WXstUvbrvaxR7zNJj2l/YF
+S3+z9b1XyGnzD/esiFRBAdj3hosybaAP34CwJWgePs66OqFWcI+bb0sPU0i24bVM
+juqLTdUY9xbHSXOh7heoms3L/y3LIoAAk5/r6lv4/7wmj5jtsUrMe087ViucH0WI
+ziM8GP0jZQXD3sG97XdMZuzk9oMveFZtQih1hTXiN5vf/4XFwvaYvsQo2cQxV1DN
+HDOfgI0zfcTqO42SPRrOOphhHUh7+ZLMnJzUHlY+PiCuh/uj64FP+1moe+irXrse
+CiMK0+kWMLAuyA3VCJCfZxO61snvpVpF4vMeCnliaU85V/mPL3fTfbD6r3v3fgAQ
+zV2FOmteIr0qfGP+/7R1CDzJCbSDG9YiJ9RXqk5BaIYw3QPWapa24AbHuddzvjZW
+U/09mO3mrA==
+=r4wa
 -----END PGP SIGNATURE-----
 
---===============0197299389740307903==
+--===============0762129712729678890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +75,4 @@ a1c0d44441d35063b79f38120105b5f92ca40445 arm64: dts: exynos7: add specific compa
 bd3623def8a93cea94a8689514e557fd4522dd53 arm64: dts: exynos850: add specific compatibles to several blocks
 2a8ff4d56ef6cb4a7b2b4025ea4366178e4e8eaf arm64: dts: exynosautov9: add specific compatibles to several blocks
 
---===============0197299389740307903==--
+--===============0762129712729678890==--
