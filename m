@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 14 Nov 2023 17:08:49 -0000
-Message-Id: <169998172973.7396.5206289306003990641@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2928333077298633574=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/docsko/korg
+Date: Tue, 14 Nov 2023 17:08:54 -0000
+Message-Id: <169998173490.7497.13655925484775913424@gitolite.kernel.org>
+
+--===============2928333077298633574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/docs/docsko/korg
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/todo
-    old: 2057d509978fa2caeb15ef14b61c12e7bfe3c1f1
-    new: c3a10c1c70dcc38a814b74eae3897401f4d0fb19
+  - ref: refs/heads/master
+    old: 6b2c89700cabd7ff9b180beb7c81d75778eafafa
+    new: 23983525e3219f69b640b2d3b9e3950dc494c95b
     log: |
-         c3a10c1c70dcc38a814b74eae3897401f4d0fb19 What's cooking (2023/11 #06)
+         23983525e3219f69b640b2d3b9e3950dc494c95b Remove "export-clean" from export options
          
+
+--===============2928333077298633574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1699981733 -0500
+pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
+nonce 1699981733-19d9f909cc277f8309908ec9f4cd5ca3167341b1
+
+6b2c89700cabd7ff9b180beb7c81d75778eafafa 23983525e3219f69b640b2d3b9e3950dc494c95b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZVOppQAKCRC2xBzjVmSZ
+bNGmAP4rKOKDTSYs5WxjF6FJFBOKKSONd3dn+OQSObMAGkT7/AEAtQ7rSuExeLud
+w9SqE6Cty8iTV3+/zzFXvmDEEgGdvgU=
+=qGxJ
+-----END PGP SIGNATURE-----
+
+--===============2928333077298633574==--
