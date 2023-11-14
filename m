@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7172334890607710102=="
+Content-Type: multipart/mixed; boundary="===============6689099294105418090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Tue, 14 Nov 2023 10:10:42 -0000
-Message-Id: <169995664257.30737.13467716742760463298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Tue, 14 Nov 2023 10:10:51 -0000
+Message-Id: <169995665163.30886.4056048048466283632@gitolite.kernel.org>
 
---===============7172334890607710102==
+--===============6689099294105418090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============7172334890607710102==
+--===============6689099294105418090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============7172334890607710102==--
+--===============6689099294105418090==--
