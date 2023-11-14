@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9120161029269362531=="
+Content-Type: multipart/mixed; boundary="===============3172904103886101923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Tue, 14 Nov 2023 15:15:03 -0000
-Message-Id: <169997490346.23537.13851580438873889576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Tue, 14 Nov 2023 15:15:04 -0000
+Message-Id: <169997490420.24194.7096899857362580212@gitolite.kernel.org>
 
---===============9120161029269362531==
+--===============3172904103886101923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt-bindings
+  - ref: refs/heads/w1-next
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============9120161029269362531==
+--===============3172904103886101923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1699974901 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1699974901-ac2c8b2d38bce41a89f6f325d49a31ad20ec5726
+pusher krzk@kernel.org 1699974902 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1699974902-224aecaa2e7664dbc8e8a0d02aad98317614ae00
 
-0bb80ecc33a8fb5a682236443c1e740d5c917d1d b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/next/dt-bindings
+0bb80ecc33a8fb5a682236443c1e740d5c917d1d b85ea95d086471afb4ad062012a4d73cd328fa86 refs/heads/w1-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVTjvUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10NBD/9Ho1ANJF5VqQadNYjZL0QKoMEr/j7yv5Vc
-40YkkeP6WNFEXmPvE3tnv8DMuZETCmBNKM00QsmLscxIwFRqNLHmIn6eb23h/blF
-VgwNRbjslcNhAb0znRy7A5UvLqVL052MSXMz9YSz1Me6ycduJOwujSyZWakOg+Nl
-eo3kS+B25MF0OixvUkzztDSlzQXIKzGqOeC3a2+Jo9dmFS3sBijoCHqH+FNO7DYU
-y3rh7aBIcz4f0n463uC+d3YuhnAqmB6pVGrXr7OcvYRkJ92yPCKpjARPHUUIFAvG
-CAvsO8i7k3nhOCM1+aOrzKEcGs3nI9ShjkLya+/qKc6QVZZJChsRri5zmY1XMCKC
-ik2E2fUfVQ/E2CZVG+aWrfckrNmfTC7vUFLqkan9OO/pXWX8moOX+4duPZH9EZny
-PBQ99adBNnegj6qjt8bah5192hgMknGmTjwJwblY4f/XZ7BkryDd1DHlfGNNFiv+
-TIuMk7VYtBVbxC+U/tcOI5lJfLsmXLdk2CGeZgzzhWjuv64uG5RcXvX6SwvWk0Gy
-WSS9E1aIi4N5P2wZpTQOEVm+Ea5/PVTaXb8SJ9pRwRwgIykr+6cY3kkC0RBTBBTk
-XwkRCPws+IyM1N8zn3Nn4LzQPLKOmz6njhTK8UsqkUF6Q+wwTUsobkL4hULX4rXV
-IJp36YeVyw==
-=/swc
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVTjvYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17YYD/9fqNrVHGb+3EUevhcEKIvOFgHiEsaAb+p/
+XcecYiLsv45lW+9hnkHN4kYiTubJdM6GKCEgBP9/rhykvRSkrMITYwIEs2JVq2tP
+2pA0hWnasREgNtnu6/+2r6sov026AHBPwF9y74HBnM9g+UmasOpXkRorwSWfERC0
+S0B3r/59IlUahyyeqcohf0JerqstPZcwiYI0vfVhPYG00zRWA+8g9Morcb7SN6oU
+IBpeBmUYiJViqc8djPiJB/b8Naf4J5Y1oq6Uv2dQwreDeDmRyAcLjiKNBSIODI4w
+POB/WzyXdWuhnGgUYG1A6iHt1SWyj4rtYzQfZtabCx5L+hwas9XQSR1XJY/Xe2//
+9Z19W4CeEop1SFWtCpBVsLvIqrCZV+lUpko7c44YJ8KykQ5uHe7TVxF7FesvxR8N
+WPP9EsC/JkhTnwQtpRb83rCG4QVJMCiMQzuo3/2t2Yj+qgj47K+IBsRxk2QucoaT
+j6z3qIWwQLvGZ5e8+bgqqp9PrdJPThuVPyqhq79FiEEyQcAKu8lqkiMPsp3Zt7P4
+v8fa37cj050MhRFVBYjtAMovO/6m154TYE7663Hg/6RF2iwsgUhetc3qpUNAbBKo
+39T/+xmnv/Cxu0p32z2rAWwXJvsyw5ZNAhtjNSCAV2n58J2h2qw7qDA5y2Z5CZuu
+rs+X/O1tDw==
+=iEp/
 -----END PGP SIGNATURE-----
 
---===============9120161029269362531==
+--===============3172904103886101923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============9120161029269362531==--
+--===============3172904103886101923==--
