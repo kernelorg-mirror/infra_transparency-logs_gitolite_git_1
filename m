@@ -1,42 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2899618578340088768=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Tue, 14 Nov 2023 18:21:27 -0000
-Message-Id: <169998608762.27928.6132961293960485627@gitolite.kernel.org>
-
---===============2899618578340088768==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 14 Nov 2023 18:34:19 -0000
+Message-Id: <169998685922.3236.10153264895746335397@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/linux
-user: tnguy
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/ice_live_migration
-    old: 16a60f8a919fa7f55ceb021e0d1bbda80afe914e
-    new: 5fb288386a51dabaaa62d8f9beafa6165568bdff
-    log: revlist-16a60f8a919f-5fb288386a51.txt
-
---===============2899618578340088768==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16a60f8a919f-5fb288386a51.txt
-
-9937e2e20a8e35c0b79e59f988f0a6a04a278b74 ice: Add function to get RX queue context
-e30dae3c788a2fe4b9b7ccb6f33a93444de1393e ice: Add function to get and set TX queue context
-be01b5cdc963be86339196efa691f6042bea8f49 ice: Introduce VF state ICE_VF_STATE_REPLAYING_VC for migration
-c2dd2498e21bbc8f9ac8b0564e37857a7fef818c ice: Add fundamental migration init and exit function
-c674e40d7225cc4ba8c25dc2e5673277a63325b6 ice: Log virtual channel messages in PF
-ddf8701fde86b7469d112078f5575d69a5c0786e ice: Add device state save/load function for migration
-2fa4d8bf25827ddad6f070f3416a9656ed4a752a ice: Fix VSI id in virtual channel message for migration
-78b9eb7f1aead2775e913e2ac7f8242e74214b58 ice: Save and load RX Queue head
-a8463766bac4c224b1a556c5e3b0f007bb853d38 ice: Save and load TX Queue head
-454a2cdca598c174c48a65cda5b6d0bfec81b0b3 ice: Add device suspend function for migration
-02893205bd8da27378de118b917c79702fd930c8 ice: Save and load mmio registers
-5fb288386a51dabaaa62d8f9beafa6165568bdff vfio/ice: Implement vfio_pci driver for E800 devices
-
---===============2899618578340088768==--
+  - ref: refs/heads/master
+    old: 7ef40617a049f083b3b5d318bcecbc60c4673c13
+    new: 4b353ae99ab66390561730974d0c4fecc4f38d6a
+    log: |
+         0d65d6862a050dd0bbdc1984bf549086ce9d75c4 client: Add bluetoothctl-admin.1 man page
+         6c446bdd32a89afe2c5580f56940c31d826d9eb4 client: Add bluetoothctl-advertise.1 man page
+         face899cd83cbee9df42e72c8d6debea2c02bfaa client: Add bluetoothctl-endpoint.1 man page
+         fa5fb919a97ee62d271eeec4fc93ce7a880f9239 client: Add bluetoothctl-gatt.1 man page
+         3797cedadb931d6e75a8636bab07163bcd122dd3 client: Add bluetoothctl-player.1 man page
+         c0678a4ddcc6befd697cbc6ae1c48036c63b9bca client: Add bluetoothctl-scan.1 man page
+         4b353ae99ab66390561730974d0c4fecc4f38d6a client: Add bluetoothctl-transport.1 man page
+         
