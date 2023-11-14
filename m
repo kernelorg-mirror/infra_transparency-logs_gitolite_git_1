@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 14 Nov 2023 00:15:09 -0000
-Message-Id: <169992090982.16570.6989211639590940726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 14 Nov 2023 02:47:02 -0000
+Message-Id: <169993002265.21551.7049651519340717812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/notes/signatures/tar
-    old: c46b1a29dbac7e722f85f25b5a04bfa69f3e567d
-    new: 27616bbc7432f4253c6c4510bedb1e0afc8930da
+  - ref: refs/heads/master
+    old: 100888fb6d8a185866b1520031ee7e3182b173de
+    new: 727a92d62fd6a382b4c5972008e45667e707b0e4
     log: |
-         27616bbc7432f4253c6c4510bedb1e0afc8930da Notes added by 'git notes add'
+         727a92d62fd6a382b4c5972008e45667e707b0e4 selftests/bpf: Add assert for user stacks in test_task_stack
          
