@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8154714057519311817=="
+Content-Type: multipart/mixed; boundary="===============2536909056489741955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Tue, 14 Nov 2023 07:26:41 -0000
-Message-Id: <169994680157.28019.9580103254415758114@gitolite.kernel.org>
+Date: Tue, 14 Nov 2023 07:26:50 -0000
+Message-Id: <169994681088.28170.990809434742641414@gitolite.kernel.org>
 
---===============8154714057519311817==
+--===============2536909056489741955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/overlayfs/vfs
 user: amir73il
 changes:
-  - ref: refs/heads/ovl-fixes
-    old: ad43f2d71b43b72f7b591ce47f6f661ff0209ed1
-    new: 37f32f52643869131ec01bb69bdf9f404f6109fb
-    log: revlist-ad43f2d71b43-37f32f526438.txt
+  - ref: refs/heads/overlayfs-next
+    old: 17e92ad4d10f6906a1a54a5259af4494f2eec6a0
+    new: faf50fcba906f11054cfe328944536c3b8f88c23
+    log: revlist-17e92ad4d10f-faf50fcba906.txt
 
---===============8154714057519311817==
+--===============2536909056489741955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad43f2d71b43-37f32f526438.txt
+Content-Disposition: attachment; filename=revlist-17e92ad4d10f-faf50fcba906.txt
 
-6cc3ecfded342cb56a8ebf5de3541b2d9cc41017 Input: stmfts - use device core to create driver-specific device attributes
 97f2bedb620c17c41fee2a7758dddbfcbaa0812b Input: tsc2004/5 - use device core to create driver-specific device attributes
 305dd76455038f3b2338bd0560387cf829c7567c Input: wdt87xx_i2c - use device core to create driver-specific device attributes
 99f998733dac8b84b96981bf170d39ec721d5b97 remoteproc: stm32: Clean up redundant dev_err_probe()
@@ -1050,5 +1049,6 @@ e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands grou
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 b28060db7172e6d8912d88b369123eb89e0d36b4 ovl: fix misformatted comment
 37f32f52643869131ec01bb69bdf9f404f6109fb ovl: fix memory leak in ovl_parse_param()
+faf50fcba906f11054cfe328944536c3b8f88c23 ovl: stop using d_alloc_anon()/d_instantiate_anon()
 
---===============8154714057519311817==--
+--===============2536909056489741955==--
