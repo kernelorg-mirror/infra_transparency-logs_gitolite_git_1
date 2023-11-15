@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2441092898768650813=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Nov 2023 19:49:08 -0000
-Message-Id: <170007774852.21947.5352930888092495453@gitolite.kernel.org>
-
---===============2441092898768650813==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
+Date: Wed, 15 Nov 2023 19:51:02 -0000
+Message-Id: <170007786255.24300.7227043367569123545@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
+user: ggreenman
 changes:
-  - ref: refs/heads/master
-    old: 589a7e31b426f01787ad8159c792470377d69c51
-    new: 2a41ce8c9bf0b54d0ffaf7c24bb472d1082e21f1
+  - ref: refs/heads/for-upstream
+    old: a07fd0b96b5adfb6614f11ca0bdb5a7f5b40410e
+    new: 19ea9c9af35eed7c212e77cf8f366d180e7c7792
     log: |
-         2a41ce8c9bf0b54d0ffaf7c24bb472d1082e21f1 drop some unneeded cxl patches and fix up the one needed patch instead.
+         124b66396ac7a6dce724d04ac7b3bcef1db1d551 Merge branch 'robot/pr-0-1700068965' into 'main'
+         19ea9c9af35eed7c212e77cf8f366d180e7c7792 iwlwifi: fix for the new FWs from core83-55 release
          
-
---===============2441092898768650813==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700077746 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1700077747-dbf4a2ec7229a2004de67123f5ed0797a35657e9
-
-589a7e31b426f01787ad8159c792470377d69c51 2a41ce8c9bf0b54d0ffaf7c24bb472d1082e21f1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVVILIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kwQP/0v1mvKe1wFlKaweaGmP
-FSWGfSW5lvjTqendfp6QrQtcDkIaHQwZiQRqLL7CXE2QVuVAnEoXyh3TA+WTDtp7
-Li/BA1vacFVI10+tLlZDSfUT1M2H+DHgzJy0jlEqo9rtfe3F+F6kHyC5zeztnp9l
-whz5+EmbrMr5aVH/MunTEvgSRGthZQgBtkNUrTXLuBm+u3NSwpVtf5qUDQsAyGB5
-KDxGskqUUebW7BfpoBBia1VM7xA64Y/bvjsGQjGSpczsYGNia5GoP/bYqQe+fMvk
-a5Eqa5Oe7tLWprtQhKvbG7/dlmYu8accU2D2J7IYe5ngc/3ujJ3mB8DpG5mfcbH9
-sK6poMQCxvLfgFxKjxcAM4nwcMHTaEhhA+tG4FENX3DBYdF/0Pp6CZhOcDoWNW9+
-sQigsigjBFva45IfTARn8rumaj/mcUhO1L10LJOhDLR4SPlJ/3gUzQiabGOEZrZ+
-qMqLxUvSV9eqWohnJhowmh53J4pddGn/phs50Wfj7hE9/zU6EqGim9ZZBANirC+V
-ikoClcLjGIL7+LNJFKyA2zqFCfSbj90t2G6jwnSKZqBGgJWzOpX7dbxhPPn/naH+
-ctMtMMRnOWVh4K+dMM3BG7Ga1EN1DjDP1+kzO9qRzJB/I8hT4JB8HitSpiIvUlh/
-DM85ibZD2ZG/Uba+KVESmjFW
-=RvAr
------END PGP SIGNATURE-----
-
---===============2441092898768650813==--
+  - ref: refs/tags/iwlwifi-fw-2023-11-15-fixed
+    old: 0000000000000000000000000000000000000000
+    new: d53cde00f1dceb5e9f91bfa48be8a1d69163b3f8
