@@ -1,29 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Wed, 15 Nov 2023 18:58:43 -0000
-Message-Id: <170007472382.10635.7661706280441205803@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2606110777737075720=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 15 Nov 2023 19:01:48 -0000
+Message-Id: <170007490871.15434.2494445490055541157@gitolite.kernel.org>
+
+--===============2606110777737075720==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 09fcdf8635dbf90d360ea0198c593be76e2faa67
-    new: d38d5366cb1c51f687b4720277adee97074b22e9
+  - ref: refs/heads/master
+    old: 51add81ade73154144dcaecfd1ca244346055625
+    new: 87c1cb1fd8697d9d4415f262ad334aa7b8ae3e28
     log: |
-         b623ddf277c774c3bfec05067c49cb402adc285a selftests/nolibc: add script to run testsuite
-         97d993677992624800561e0d95759e6262d4bb9b tools/nolibc: error out on unsupported architecture
-         a986a87af2b7504c031e16245f1754abe60669bc tools/nolibc: move MIPS ABI validation into arch-mips.h
-         ad1e3f7d1e4acd159f8956487ce88a7d787ad54e selftests/nolibc: use XARCH for MIPS
-         a8f3fb80d465f77123ab52c554dbd6f2c06923e4 selftests/nolibc: explicitly specify ABI for MIPS
-         ec7376db4002809461af8a57d2ecd085b9ff5250 selftests/nolibc: extraconfig support
-         3f28828e346653b64edb95a394c6b35e893dde0d selftests/nolibc: add configuration for mipso32be
-         1e91cfc09cece99939a7c00b8d0939dd2c8b9579 selftests/nolibc: fix testcase status alignment
-         6d257bda496082fe15735805603bf1683c9b065d selftests/nolibc: introduce QEMU_ARCH_USER
-         ff0ab1c83f50ba745032ec1958218ad34dfda3fb selftests/nolibc: run-tests.sh: enable testing via qemu-user
-         d38d5366cb1c51f687b4720277adee97074b22e9 tools/nolibc: mips: add support for PIC
+         2419026bb6e5165eec9fd00aa96272045e293679 4.14-stable patches
+         87c1cb1fd8697d9d4415f262ad334aa7b8ae3e28 4.19-stable patches
          
+
+--===============2606110777737075720==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700074907 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1700074907-ee0025655cedf4a443148186751a17201f941afc
+
+51add81ade73154144dcaecfd1ca244346055625 87c1cb1fd8697d9d4415f262ad334aa7b8ae3e28 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVVFZsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6zAP/iJKAaExJoJ9tUMkRRKJ
+N6VTpMvMHXA+z1IUPoMXbjEgKYPbmDVwMWFm8tSHg0ajt1A+EN30zA+TznjVblD2
+cJYBIZhxj0A6WqhU+hhwg5ysMOAjW3YPnyq8nMsvyuLKvWeGL1QBgV2YtrhUGvXW
+rLlWdKs3sRXWisHRAASNDZKqAAP2DyxCSisTlbqUlZtW33ANFWEcNfY97SHYFgfK
+DFyfSXlujGXj55VHl6Jvynrkp1bwdZmRKhU9JqirT4KUngAaj/J0+2k9l/A9uUnV
+kUXddpbMYjQLFqqg0N4zSnwKKOmUC6Zz0iivAbIfyRlqBJP63ROK7DHcao0wrcIC
+TvDPidLCWh4YQteP6T02T90hW+lzMdrFLMtmVlsPqEU5CBKDDtlXfbXuaZWJdUvW
++POdlgiDWYslkdbwU64TSgNJLcMX3M1mlIR+iA6OWM+pf6atAuoXPtgNfh6OqY7D
+0LalKwzunygtUZy8DKa2NK0C5x0XSWQq6uV20d6X2zLvTVTBCCiveZEZoeIetnhY
+3iU0bIjtRpeFUr2IhF8TgJUgrCJ2EAWAuoMioPXCyoCEOQqx2XjixtY1dgUi71YJ
+mCYy9pEXefQg6XgjoMPOs99YsnYOyS+6MPqI9/QzvapX8ZWICAp+Bf7knN+l5j4U
+DemrLjoN5Kajc4XUHGBUm5XR
+=Qrry
+-----END PGP SIGNATURE-----
+
+--===============2606110777737075720==--
