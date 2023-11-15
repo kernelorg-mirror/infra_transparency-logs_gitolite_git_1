@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 15 Nov 2023 08:35:42 -0000
-Message-Id: <170003734277.32176.13491509343288802519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Wed, 15 Nov 2023 08:38:43 -0000
+Message-Id: <170003752385.2368.2693141400090928751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/for-next
-    old: 713f040cd22285fcc506f40a0d259566e6758c3c
-    new: b944aa9d86d5f782bfe5e51336434c960304839c
+  - ref: refs/heads/pending
+    old: 9399aa667ab026a819f8a00c31d9f56bb028e191
+    new: 42f827e72214946a1cb3d6cad9af4eba8a9e73e1
     log: |
-         d02ef87db9d6137fc2a98231b92f24ead4f7966d ALSA: hda: cs35l56: Enable low-power hibernation mode on i2c
-         b944aa9d86d5f782bfe5e51336434c960304839c ALSA: hda/realtek: Enable Mute LED on HP 255 G10
+         42f827e72214946a1cb3d6cad9af4eba8a9e73e1 test/daxctl-devices.sh: increase the namespace size to 4GiB
          
