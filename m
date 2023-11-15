@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6874856384168651100=="
+Content-Type: multipart/mixed; boundary="===============8881425765527936529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 15 Nov 2023 20:22:47 -0000
-Message-Id: <170007976743.14591.16477527976616814072@gitolite.kernel.org>
+Date: Wed, 15 Nov 2023 20:22:53 -0000
+Message-Id: <170007977361.14702.15252523259580781576@gitolite.kernel.org>
 
---===============6874856384168651100==
+--===============8881425765527936529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 81427a62a22148cdc85db38a6fbe487d0d2044b6
     new: 9cea90c01f4bddfb4cea12a9c23eef6414714503
     log: revlist-81427a62a221-9cea90c01f4b.txt
 
---===============6874856384168651100==
+--===============8881425765527936529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a5c57f81eb2b5d6de4f46e47fd85be50d179bfd8 veristat: add ability to set BPF_F_TEST
 882e3d873c2d8a2aebbc6c192aa1a2990b9d5b27 selftests/bpf: add iter test requiring range x range logic
 9cea90c01f4bddfb4cea12a9c23eef6414714503 Merge branch 'bpf-register-bounds-range-vs-range-support'
 
---===============6874856384168651100==--
+--===============8881425765527936529==--
