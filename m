@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6753875109950430282=="
+Content-Type: multipart/mixed; boundary="===============1399670615755079409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 15 Nov 2023 16:28:13 -0000
-Message-Id: <170006569339.30956.14265917372948599059@gitolite.kernel.org>
+Date: Wed, 15 Nov 2023 16:28:47 -0000
+Message-Id: <170006572772.31252.5943146251992751907@gitolite.kernel.org>
 
---===============6753875109950430282==
+--===============1399670615755079409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4b7b492615cf3017190f55444f7016812b66611d
-    new: 674e318089468ece99aef4796eaef7add57f36b2
-    log: revlist-4b7b492615cf-674e31808946.txt
+  - ref: refs/heads/dev-queue
+    old: 6a7b51a7cdb8175026e9bc142e788d03d2f563b8
+    new: 6f721ccfdb0d90821b35b5be7750d459a51f2e29
+    log: revlist-6a7b51a7cdb8-6f721ccfdb0d.txt
 
---===============6753875109950430282==
+--===============1399670615755079409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b7b492615cf-674e31808946.txt
+Content-Disposition: attachment; filename=revlist-6a7b51a7cdb8-6f721ccfdb0d.txt
 
 7a1aba89ac54ccf6cad23a91a34c0ab24b1d7997 ice: dpll: fix initial lock status of dpll
 4a4027f25dc3f39c2aafb3bf8926125c5378c9dc ice: dpll: fix check for dpll input priority range
@@ -48,5 +48,17 @@ a133eae83a1fd614751b1a34752716bad5f6409e Merge branch 'mptcp-misc-fixes-for-v6-7
 9e2e7efbbbff69d8340abb56d375dd79d1f5770f Revert ncsi: Propagate carrier gain/loss events to the NCSI controller
 efc0c8363bc6dab2cd540acc886e6097deee8bb9 dt-bindings: net: ethernet-controller: Fix formatting error
 674e318089468ece99aef4796eaef7add57f36b2 net: Fix undefined behavior in netdev name allocation
+b88a139d1b167203fbab9fab12607a49d5f24ea8 i40e: fix livelocks in i40e_reset_subtask()
+d9df07bd21e93586fc561ce22b72e346ee813594 i40e: fix 32bit FW gtime wrapping issue
+7a7814b6750d5c5af8170e20d28e7524afeff651 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+d385b2809ba84c614e2b8c6e50a83af8e8c0abaf ice: remove ptp_tx ring parameter flag
+13eef4f028cb74e56dc4b9f453102b6d068c3b7f ice: unify logic for programming PFINT_TSYN_MSK
+053113624294d9fecc91d07625ab402826f7c978 ice: restore timestamp configuration after device reset
+9b8952e97acee980c04cda86adda06aaa7c68dc8 i40e: Fix adding unsupported cloud filters
+7df91fb96403eeb63daea2612cb9206e764f636c ice: Restore fix disabling RX VLAN filtering
+534cd2327907335e3db5fc12b95f14642974866a ice: Fix VF Reset paths when interface in a failed over aggregate
+929516b5a6f8d98966347b1a71a0a1c46501faf4 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+fc95db1e28cb24f37bacfb69f193c5f6cd3d4ea2 i40e: Fix waiting for queues of all VSIs to be disabled
+6f721ccfdb0d90821b35b5be7750d459a51f2e29 i40e: Fix unexpected MFS warning message
 
---===============6753875109950430282==--
+--===============1399670615755079409==--
