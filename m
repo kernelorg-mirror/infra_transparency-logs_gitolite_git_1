@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6925085052958394953=="
+Content-Type: multipart/mixed; boundary="===============6874856384168651100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Nov 2023 20:08:51 -0000
-Message-Id: <170007893147.4882.600979864019605090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 15 Nov 2023 20:22:47 -0000
+Message-Id: <170007976743.14591.16477527976616814072@gitolite.kernel.org>
 
---===============6925085052958394953==
+--===============6874856384168651100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: b390bc7f379791dd0005a5e793880ee505937504
-    new: 7fc937567b27ba365f063a395b982687603d7d9d
-    log: |
-         7fc937567b27ba365f063a395b982687603d7d9d 6.5-stable patches
-         
+    old: 81427a62a22148cdc85db38a6fbe487d0d2044b6
+    new: 9cea90c01f4bddfb4cea12a9c23eef6414714503
+    log: revlist-81427a62a221-9cea90c01f4b.txt
 
---===============6925085052958394953==
+--===============6874856384168651100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-81427a62a221-9cea90c01f4b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700078929 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1700078930-c3c365df5837be39d678c1fc5a4b6c736cf220ba
+67420501e8681ae18f9f0ea0a69cd2f432100e70 bpf: generalize reg_set_min_max() to handle non-const register comparisons
+96381879a370425a30b810906946f64c0726450e bpf: generalize is_scalar_branch_taken() logic
+be41a203bb9e0159099e189e510388fe61962eb8 bpf: enhance BPF_JEQ/BPF_JNE is_branch_taken logic
+5f99f312bd3bedb3b266b0d26376a8c500cdc97f bpf: add register bounds sanity checks and sanitization
+3cf98cf594ea923b8b1e0385b580d3d8aae68c06 bpf: remove redundant s{32,64} -> u{32,64} deduction logic
+cf5fe3c71c5a34ac0108afc550407c672d0a032d bpf: make __reg{32,64}_deduce_bounds logic more robust
+8863238993e23ccc6d5a9d4ff9f1c043f88f692e selftests/bpf: BPF register range bounds tester
+774f94c5e74d86d554c4fd1e97c517a1a7ee7fe0 selftests/bpf: adjust OP_EQ/OP_NE handling to use subranges for branch taken
+2b0d204e368b306d4db894749947ed591b667ec5 selftests/bpf: add range x range test to reg_bounds
+dab16659c50e8c9c7c5d9584beacec28c769dcca selftests/bpf: add randomized reg_bounds tests
+8c5677f8b31e92b57be7d5d0fbb1ac66eedf4f91 selftests/bpf: set BPF_F_TEST_SANITY_SCRIPT by default
+a5c57f81eb2b5d6de4f46e47fd85be50d179bfd8 veristat: add ability to set BPF_F_TEST_SANITY_STRICT flag with -r flag
+882e3d873c2d8a2aebbc6c192aa1a2990b9d5b27 selftests/bpf: add iter test requiring range x range logic
+9cea90c01f4bddfb4cea12a9c23eef6414714503 Merge branch 'bpf-register-bounds-range-vs-range-support'
 
-b390bc7f379791dd0005a5e793880ee505937504 7fc937567b27ba365f063a395b982687603d7d9d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVVJVEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++tsP/jVv9q7k/sBQqHTudJYi
-Ts5vWKk0R500vm3rlUmyDf32djDpiqJbF3rtJNN7Y4Mt3EL3aMmBI2VctO8d2h7D
-lrTZ+Rjmse0yqtcvD6Il1mNUa7oDig7jE0s6EMNoNsRb7qz6ZIiCJhYlXVKYNWQh
-NtuBJWZ0zoC8pei9BRxxG2RlecIyHuASHEAy9HuHRZcjKcqmwlN0DYqp0Rw86nbN
-NTd1YzblC6DdAeHv2fDns+CBpQVNrky6oDW1rCUwsjx5+tb9hI14LDLOq2pGnnTx
-EsvzUT1k7+Gj1SUc6M1OEnFe/gTJ4jxWIcUSPx4v7rq31G9TvXJPLA+YNH0cJs66
-raeBM4ZEcY0Oz62Tr4Q2/0cKwVtpbNUeLrcYbk6sJ+RERP9zTLeGml07lKXIw5Cv
-3xdQyrB5wpwB6BHn0GZYd6cXwPl1ZoZ3glIHgr15/B0ZW0dOT6YXudwpGjFxacYc
-X6dRm5V1fjl7jFZyswOEzI2rduEiqFTgd+I9DY45OTMt7iu2RXKUnEPmZkG/AmVN
-1l2zR3mK3HUsrjM4trJ+ZBmwO6w8WQTvkYYG0AjizE3jYFir597t8RnqXzgX1fId
-B3q5tY6MAcj5kStsUiLtUxRhn5blduHL7kAJGNBJITE1jpha0Qe9MyBHVmvwsBwy
-iznlr+Lx+cI+8+fKj0wZ5qQk
-=Hrm8
------END PGP SIGNATURE-----
-
---===============6925085052958394953==--
+--===============6874856384168651100==--
