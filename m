@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3433967348875157122=="
+Content-Type: multipart/mixed; boundary="===============2412271325690757198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Nov 2023 11:52:48 -0000
-Message-Id: <170004916857.25190.17688143321959601737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Wed, 15 Nov 2023 11:55:58 -0000
+Message-Id: <170004935840.27934.15955103606584727687@gitolite.kernel.org>
 
---===============3433967348875157122==
+--===============2412271325690757198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: faa749a612b5dbec90aad8c68ba363ce48a49f03
-    new: 6244aad14050164890719cfe3005ff3c2765aa21
+  - ref: refs/heads/pinctrl-next
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: b833eb26b628df899f110ebc17d0767e2544c406
     log: |
-         980824baf670fa18a4ff56a64071b15abcd6e995 5.10-stable patches
-         955ecd1e7b509f3d1941ca4f1009cad01743f99b 5.15-stable patches
-         d62a63c7d7bb7f2658417ad3b866bd39d6d54925 6.1-stable patches
-         ea313d828be362964308c61f6c11f2736d33d2f7 6.5-stable patches
-         6244aad14050164890719cfe3005ff3c2765aa21 6.6-stable patches
+         b833eb26b628df899f110ebc17d0767e2544c406 dt-bindings: pinctrl: samsung: add specific compatibles for existing SoC
          
 
---===============3433967348875157122==
+--===============2412271325690757198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700049167 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1700049167-042413249b49259afcabe908b7c43424a6d2e441
+pusher krzk@kernel.org 1700049357 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1700049354-ca9f1b19d9a18165c14874b9a1143576d75f516d
 
-faa749a612b5dbec90aad8c68ba363ce48a49f03 6244aad14050164890719cfe3005ff3c2765aa21 refs/heads/master
+b85ea95d086471afb4ad062012a4d73cd328fa86 b833eb26b628df899f110ebc17d0767e2544c406 refs/heads/pinctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVUsQ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XJgQANZhzw1PIIxO9zYXxgmL
-0B7ArvXVnSdWTo24vVKWgj1wiMSSp7tIEx772oR76LO16jA2NpcRi0dB1psqNnG3
-ojLp9+7lbU+u/idHjEN9g6WncB0TfStckluAbDyvG09t4BoZAFaYqv27mcLbs6kz
-j/HOxLBoz0pN8tbX9QCRmemrX4tijxjCDLBgchxnJOJDKfPdLqWcUIkMROBkOrxs
-xFHIiX0AzHDihhkTmkiGCq0mMrAoNfwNXyMdfKc05zStAZ1SF9IUIuwIhoCrtiba
-imUm4I22mALppO1JBGcVrnHKb+jsV3mGLOHt7eTwpJuW/slvjX7uCBQndTQHwOps
-2H/5PqPmigSfH3bPbsBwaS+2ABYdBSvxMi4nc09Br7Hbi8mTXNC6Qr380kOQ/7Ce
-lGKIx0rbCd2CFgHWaobVpO1djEpohTfuuCKGsYZ04ssIgylUHrkBn+F0lguDodqP
-CJKqHfD9KPTutcJaEIJLKHpmT1Zc4PtgWXxQgQQR/k5R8RBdrKQKwk7VooH9+NhD
-RTIjQ2OFbWK3XJS92h1xXrNXYUoGETa5eDnoWvkJy0j3Jxr5Vw18b3V3R/d4MK6c
-6XlPZkE8lq//mIjaFia4RJr6cyog0C7F9YSm8CDBXOyLBCs/yMJ1YG91DN3KCdA7
-eqvNZv0bqWsGR8T/cGuYh9bx
-=q5XY
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVUsc0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zEED/4gI+5X42obvCNMlL2HbL96eOGKRLTZkXJs
+qrffbmgBllDn37XzAlHiamoVXbIyzMNitodjqXvqvCsuxMuL0Ez16fmDxDybGCyd
+6Z1pEYpnipPF8ENKYQBBnJBjZ6+FXyigrbpHoLUNbYifIBnVztO600DkduJYo9ZE
+W/sT/yZr3UFJx3N5GKJIoBCsfvJKcsa3SCTshqMa91pP4QxNvqzSN+J29EMVjsPL
+LEgqB0QPcdnL1rCI0ax9JqZ6nevMoBVgZlvq3S5tD+Z8uGO0yT3hHLjRU23v/OOl
+5trlD/A86OEr5RwMQpcI+NU9Kp3S7ZGUB4yypnHzxhOQ/RmCJV+81BwEA6bXNh9O
+WLCjbHOWYtYwJKiQxsDOB/W+wHNtlHRoGegEUBvGIvvVZOmih+pnv1/ki5x8P8nT
+NPt1GsuJJxuyRHBuHOExjaAkt7DFSLkA3N1/t13+ILMwmhLgpr2iRFzCaXAWa8/7
+zUc15BvjBWaGBpc1rmxaGKYAM8XnulnS7tj8WeoeQWJIMn0I4CFXDrzMVxl8GcOT
+TZeqLNcMe1hTYJVvqz+eVdIplOn1K4Db8p2osIUwPfB+Ax6lczESvLUyoYiUef/D
+D0tmhxkb6CmBV32BUc+6Ugr296oilVSy31X/P/OP9reFf3SPjAtaSkhclDx59HY5
+zBowB+Cj1g==
+=3+W8
 -----END PGP SIGNATURE-----
 
---===============3433967348875157122==--
+--===============2412271325690757198==--
