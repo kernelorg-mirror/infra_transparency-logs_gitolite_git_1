@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0022906109144262435=="
+Content-Type: multipart/mixed; boundary="===============6291367470322908259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Nov 2023 09:17:48 -0000
-Message-Id: <170003986874.30111.3547473803385052670@gitolite.kernel.org>
+Date: Wed, 15 Nov 2023 09:20:16 -0000
+Message-Id: <170004001692.32613.12606031327523670011@gitolite.kernel.org>
 
---===============0022906109144262435==
+--===============6291367470322908259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: c73801ae4f22b390228ebf471d55668e824198b6
-    new: 2d25a889601d2fbc87ec79b30ea315820f874b78
-    log: revlist-c73801ae4f22-2d25a889601d.txt
+  - ref: refs/heads/perf/core
+    old: 33744916196b4ed7a50f6f47af7c3ad46b730ce6
+    new: 652ffc2104ec1f69dd4a46313888c33527145ccf
+    log: revlist-33744916196b-652ffc2104ec.txt
 
---===============0022906109144262435==
+--===============6291367470322908259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c73801ae4f22-2d25a889601d.txt
+Content-Disposition: attachment; filename=revlist-33744916196b-652ffc2104ec.txt
 
-a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
 853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
 69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
@@ -1048,7 +1047,8 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-e4ab322fbaaaf84b23d6cb0e3317a7f68baf36dc cleanup: Add conditional guard support
-2d25a889601d2fbc87ec79b30ea315820f874b78 ptrace: Convert ptrace_attach() to use lock guards
+889c58b3155ff4c8e8671c95daef63d6fabbb6b1 perf/core: Fix cpuctx refcounting
+5d2d4a9f603a47403395408f64b1261ca61f6d50 Merge branch 'tip/perf/urgent'
+652ffc2104ec1f69dd4a46313888c33527145ccf perf/core: Fix narrow startup race when creating the perf nr_addr_filters sysfs file
 
---===============0022906109144262435==--
+--===============6291367470322908259==--
