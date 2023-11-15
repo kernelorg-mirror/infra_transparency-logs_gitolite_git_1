@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 15 Nov 2023 14:33:05 -0000
-Message-Id: <170005878587.12081.6351319346469153650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 15 Nov 2023 14:36:28 -0000
+Message-Id: <170005898811.14925.11831400206361871963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/rdma-rc
-    old: efb9cbf66440482ceaa90493d648226ab7ec2ebf
-    new: bd6da690c27d75cae432c09162d054b34fa2156f
-    log: |
-         ba12ab66aa83a2340a51ad6e74b284269745138c RDMA/irdma: Do not modify to SQD on error
-         bd6da690c27d75cae432c09162d054b34fa2156f RDMA/irdma: Add wait for suspend on SQD
-         
+  - ref: refs/tags/sound-6.7-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 313acaea9274d48cfd2e934b9222a7ca1953e813
