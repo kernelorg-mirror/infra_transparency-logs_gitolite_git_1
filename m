@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1233396922379298070=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Nov 2023 12:05:22 -0000
-Message-Id: <170004992292.2959.5186560046185595876@gitolite.kernel.org>
-
---===============1233396922379298070==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 15 Nov 2023 12:15:42 -0000
+Message-Id: <170005054213.11042.2594699590764970882@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 6244aad14050164890719cfe3005ff3c2765aa21
-    new: 3d4db84d9e5b9cd77d0fcaa94a6de04991519786
+  - ref: refs/heads/origin-master
+    old: 9bacdd8996c77c42ca004440be610692275ff9d0
+    new: c42d9eeef8e5ba9292eda36fd8e3c11f35ee065c
     log: |
-         3d4db84d9e5b9cd77d0fcaa94a6de04991519786 drop tracing-have-trace_event_file-have-ref-counters.patch
+         65120498aaf8d7320647a8b6d6de7db42e74ea52 stackleak: add declarations for global functions
+         1ee60356c2dca938362528404af95b8ef3e49b6a gcc-plugins: randstruct: Only warn about true flexible arrays
+         2e6ef8aaba6b709ce91164401fa1c12668510360 Remove myself as maintainer of GFS2
+         782ce431613cf08c3a00dca42ad925c3b1108d09 gcc-plugins: latent_entropy: Fix typo (args -> argc) in plugin description
+         77618db346455129424fadbbaec596a09feaf3bb zstd: Fix array-index-out-of-bounds UBSAN warning
+         86d11b0e20c09e0a91cd2aa57b115000274e2ac5 Merge tag 'zstd-linus-v6.7-rc2' of https://github.com/terrelln/linux
+         c42d9eeef8e5ba9292eda36fd8e3c11f35ee065c Merge tag 'hardening-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
          
-
---===============1233396922379298070==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700049922 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1700049921-af74142b7e075afce24380b049a6e51fe3241934
-
-6244aad14050164890719cfe3005ff3c2765aa21 3d4db84d9e5b9cd77d0fcaa94a6de04991519786 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVUtAIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kVAQALdGTcpqK8tNDchxH3E6
-akbhwkQ97UhQdngkALP6d4Y58FhYAMX4BzVLa5Oc/kELy3CMiVeOTU8GsTBfNfJ0
-p/ikIVlmd4B7Hwr5DTCQs+WrExNXJ03onFZCG65lyBpw1sHj1r78UU9ZdmlLg8Oa
-zhC4jCLZctJGdC8E78L29HrPAA1aFHnEd7JvoVOlJQbzjNVvg4hPKd2JTBkFfBta
-t7SlC8bDR8LJ/fI9+WaKHe8ROXHDM2QvE2ptzfbv6Q1nKtzLNIYuwA148wPlUcMk
-l9XfEWc7l3SFXnrifTEwXi4Hy17/8nLVUp6kyZ0skQNg9pnzevL1CYTjTnYPLr53
-wjKKC2wolVFr05++f1F4w3Hoc5rVUw/IWZCiVCyz1fmkQk1L7zcpdt7Nwnk6lHK+
-aMJmY9yoxNnXUInPm6nXuc9roarvJMJUQBrutZL9zEQzlchpBDRD02SN8Trp8iqv
-AxAmL5/EUqQz/yX28FqhBIUZPeS426tsNpZwc7COrrVYXQScokHkmLD0fQBGmj7K
-vN3E9cw7i33EsPWaTa7tBnHBbywlt0mSbfSGcLf3d2KKV8+8AAqHxiSRxc9dj49R
-3of9AQ2gOqAJ8Uv4k8pYdjHHatIeS8buXNn8XihBrHA1NXv7EdEPYZAekWa7zm+i
-E3h1AlYhziqefejEP5WHVU64
-=F31V
------END PGP SIGNATURE-----
-
---===============1233396922379298070==--
