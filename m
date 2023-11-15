@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3863636878933049017=="
+Content-Type: multipart/mixed; boundary="===============3014140893097197113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 15 Nov 2023 17:58:35 -0000
-Message-Id: <170007111584.400.15136467034541785941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 15 Nov 2023 17:58:52 -0000
+Message-Id: <170007113238.590.10926766904923026894@gitolite.kernel.org>
 
---===============3863636878933049017==
+--===============3014140893097197113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: acbf6de674ef7b1b5870b25e7b3c695bf84273d0
     log: revlist-6512b6aa237d-acbf6de674ef.txt
 
---===============3863636878933049017==
+--===============3014140893097197113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ c06547d02094e7eb81389e9485a45d91cc21914c perf probe: Convert to check dwarf_getc
 b539deafbadb2fc6ba79307a797196454b14f501 perf report: Add s390 raw data interpretation for PAI counters
 acbf6de674ef7b1b5870b25e7b3c695bf84273d0 perf vendor events riscv: Add StarFive Dubhe-80 JSON file
 
---===============3863636878933049017==--
+--===============3014140893097197113==--
