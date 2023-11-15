@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 15 Nov 2023 04:16:39 -0000
-Message-Id: <170002179935.11242.12017371769411214872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 15 Nov 2023 04:39:12 -0000
+Message-Id: <170002315205.26741.1992939028105697228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 278a370c1766060d2144d6cf0b06c101e1043b6d
-    new: a133eae83a1fd614751b1a34752716bad5f6409e
+  - ref: refs/heads/master
+    old: 9bacdd8996c77c42ca004440be610692275ff9d0
+    new: 86d11b0e20c09e0a91cd2aa57b115000274e2ac5
     log: |
-         9fce92f050f448a0d1ddd9083ef967d9930f1e52 mptcp: deal with large GSO size
-         d109a7767273d1706b541c22b83a0323823dfde4 mptcp: fix possible NULL pointer dereference on close
-         8df220b29282e8b450ea57be62e1eccd4996837c mptcp: add validity check for sending RM_ADDR
-         7679d34f97b7a09fd565f5729f79fd61b7c55329 mptcp: fix setsockopt(IP_TOS) subflow locking
-         7cefbe5e1dacc7236caa77e9d072423f21422fe2 selftests: mptcp: fix fastclose with csum failure
-         a133eae83a1fd614751b1a34752716bad5f6409e Merge branch 'mptcp-misc-fixes-for-v6-7'
+         2e6ef8aaba6b709ce91164401fa1c12668510360 Remove myself as maintainer of GFS2
+         77618db346455129424fadbbaec596a09feaf3bb zstd: Fix array-index-out-of-bounds UBSAN warning
+         86d11b0e20c09e0a91cd2aa57b115000274e2ac5 Merge tag 'zstd-linus-v6.7-rc2' of https://github.com/terrelln/linux
          
