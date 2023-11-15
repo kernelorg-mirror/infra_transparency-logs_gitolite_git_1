@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8698255836924788146=="
+Content-Type: multipart/mixed; boundary="===============2894502414955786087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 15 Nov 2023 12:55:58 -0000
-Message-Id: <170005295824.7632.11597303736099318948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 15 Nov 2023 13:06:14 -0000
+Message-Id: <170005357492.14408.3389458965754130517@gitolite.kernel.org>
 
---===============8698255836924788146==
+--===============2894502414955786087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/arm64-test-ptrace-regs
-    old: ff9efd3fbca9ac290a15ab140616a6289267be0d
-    new: 361593266e1d21d040e153d4488aac3328b4a184
-    log: revlist-ff9efd3fbca9-361593266e1d.txt
+  - ref: refs/heads/habanalabs-next
+    old: 631808095a82e6b6f8410a95f8b12b8d0d38b161
+    new: 533f7ad27371dd96053622709cc1c2cad3715183
+    log: revlist-631808095a82-533f7ad27371.txt
 
---===============8698255836924788146==
+--===============2894502414955786087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff9efd3fbca9-361593266e1d.txt
+Content-Disposition: attachment; filename=revlist-631808095a82-533f7ad27371.txt
 
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1048,7 +1048,7 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-5662ddd15939d4e476db6bec4a758087f15bb51e EDITME: cover title for arm64-test-ptrace-regs
-361593266e1d21d040e153d4488aac3328b4a184 kselftest/arm64: Test that ptrace takes effect in the target process
+9241917606e9b79a195d056264c1a84f837d0be2 accel/habanalabs: add pcie reset prepare/done hooks
+533f7ad27371dd96053622709cc1c2cad3715183 accel/habanalabs: update device boot error check
 
---===============8698255836924788146==--
+--===============2894502414955786087==--
