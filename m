@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 15 Nov 2023 09:59:57 -0000
-Message-Id: <170004239736.8106.15411907765055181991@gitolite.kernel.org>
+Date: Wed, 15 Nov 2023 10:01:07 -0000
+Message-Id: <170004246774.10289.15285427860553005424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: a133eae83a1fd614751b1a34752716bad5f6409e
-    new: 9e2e7efbbbff69d8340abb56d375dd79d1f5770f
+    old: 9e2e7efbbbff69d8340abb56d375dd79d1f5770f
+    new: efc0c8363bc6dab2cd540acc886e6097deee8bb9
     log: |
-         9e2e7efbbbff69d8340abb56d375dd79d1f5770f Revert ncsi: Propagate carrier gain/loss events to the NCSI controller
+         efc0c8363bc6dab2cd540acc886e6097deee8bb9 dt-bindings: net: ethernet-controller: Fix formatting error
          
