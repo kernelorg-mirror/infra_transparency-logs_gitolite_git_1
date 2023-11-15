@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Wed, 15 Nov 2023 08:38:43 -0000
-Message-Id: <170003752385.2368.2693141400090928751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 15 Nov 2023 08:53:31 -0000
+Message-Id: <170003841184.12211.5026706210532884344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/pending
-    old: 9399aa667ab026a819f8a00c31d9f56bb028e191
-    new: 42f827e72214946a1cb3d6cad9af4eba8a9e73e1
+  - ref: refs/heads/linux-next
+    old: 3bdb0ac350fe5e6301562143e4573971dd01ae0b
+    new: cee96422e863f0b0e9d3d0c2d617271ef2255858
     log: |
-         42f827e72214946a1cb3d6cad9af4eba8a9e73e1 test/daxctl-devices.sh: increase the namespace size to 4GiB
+         5dd9ad32d7758b1a76742f394acf0eb3ac8a636a xen/events: drop xen_allocate_irqs_dynamic()
+         3fcdaf3d7634338c3f5cbfa7451eb0b6b0024844 xen/events: modify internal [un]bind interfaces
+         cee96422e863f0b0e9d3d0c2d617271ef2255858 xen/events: remove some info_for_irq() calls in pirq handling
          
