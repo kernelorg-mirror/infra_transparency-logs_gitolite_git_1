@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5592237545718267722=="
+Content-Type: multipart/mixed; boundary="===============8546439234169620300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 15 Nov 2023 15:50:03 -0000
-Message-Id: <170006340305.2966.13114510055081124701@gitolite.kernel.org>
+Date: Wed, 15 Nov 2023 15:50:40 -0000
+Message-Id: <170006344093.4335.16730457969881826776@gitolite.kernel.org>
 
---===============5592237545718267722==
+--===============8546439234169620300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 33dabe920f1ac62f7d4eb189a1b0beef57f451a9
-    new: 3f00051234f02d0d9d1f63b9a334d0fd4c65b6ca
-    log: revlist-33dabe920f1a-3f00051234f0.txt
+  - ref: refs/heads/fixes
+    old: 015c9cbcf0ad709079117d27c2094a46e0eadcdb
+    new: 1de1b77982e1a1df9707cb11f9b1789e6b8919d4
+    log: revlist-015c9cbcf0ad-1de1b77982e1.txt
 
---===============5592237545718267722==
+--===============8546439234169620300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33dabe920f1a-3f00051234f0.txt
+Content-Disposition: attachment; filename=revlist-015c9cbcf0ad-1de1b77982e1.txt
 
+6777877eb7a3290cf0a8a6b621e46f72f9d94b6b PCI/AER: Refactor cper_print_aer() for use by CXL driver module
+bf6c9fa846e2a0f7db2a2eabd52ad4f8d4335bcb cxl/pci: Update CXL error logging to use RAS register address
+6c5f3aacb2963d49a11d4f8accb1188db6a6404b cxl/pci: Map RCH downstream AER registers for logging protocol errors
+6ac07883dbb5f60f7bc56a13b7a84a382aa9c1ab cxl/pci: Add RCH downstream port error logging
+d1a9def33d7043df7445114cb89c0aa65818ae91 cxl/pci: Disable root port interrupts in RCH mode
+0a867568bb0d203ca3d28634a611a1367d7c892d PCI/AER: Forward RCH downstream port-detected errors to the CXL.mem dev handler
+b7e9392d5d46a67fb5b66dbb2c257dd0d48eec70 PCI/AER: Unmask RCEC internal errors to enable RCH downstream port error handling
+d3970f006f084e5aab5091a865203899259e4d70 cxl/core/regs: Rename phys_addr in cxl_map_component_regs()
 e8db0701605bccbeb8d7907ecd2e50f346a725bd cxl/core/regs: Rework cxl_map_pmu_regs() to use map->dev for devm
 458ba8189cb4380aa6a6cc4d52ab067f80a64829 cxl: Add cxl_decoders_committed() helper
 05e37b2138a6deb1f23daf1282dc86b29968a1ab cxl: Add decoders_committed sysfs attribute to cxl_port
@@ -1036,19 +1044,11 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-f844206828984cac0999b1b74b7d97f851b45962 mmc: meson-mx-sdhc: Fix initialization frozen issue
-5e8c71fd88cfa5580bbae4fdce962323153c09de mmc: core: Remove packed command leftovers
 174925d340aac55296318e43fd96c0e1d196e105 mmc: block: Do not lose cache flush during CQE error recovery
 b578d5d18e929aa7c007a98cce32657145dde219 mmc: cqhci: Increase recovery halt timeout
 c616696a902987352426fdaeec1b0b3240949e6b mmc: block: Be sure to wait while busy in CQE error recovery
 8155d1fa3a747baad5caff5f8303321d68ddd48c mmc: block: Retry commands in CQE error recovery
 35597bdb04ec27ef3b1cea007dc69f8ff5df75a5 mmc: cqhci: Warn of halt or task clear failure
 1de1b77982e1a1df9707cb11f9b1789e6b8919d4 mmc: cqhci: Fix task clearing in CQE error recovery
-536f93bf59031271f90ea70b91fb986904a8eb50 mmc: mmci: stm32: add SDIO in-band interrupt mode
-af076680db846ed54b00b9a763473d1043446993 dt-bindings: mmc: sdhci-of-dwcmhsc: Add T-Head TH1520 support
-49f23745b064cdb6270402403ef58125d78ba183 mmc: sdhci: add __sdhci_execute_tuning() to header
-aff35fbc7830510ef7cbcf8e32a041a55de3dc51 mmc: sdhci-of-dwcmshc: Add support for T-Head TH1520
-94824d6a4e2f73aab96b8fe574afdf57524b4e12 dt-bindings: mmc: arasan,sdci: Add gate property for Xilinx platforms
-3f00051234f02d0d9d1f63b9a334d0fd4c65b6ca mmc: Merge branch fixes into next
 
---===============5592237545718267722==--
+--===============8546439234169620300==--
