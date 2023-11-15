@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3980010812772926886=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Nov 2023 03:19:38 -0000
-Message-Id: <170001837855.32633.4013354452687339690@gitolite.kernel.org>
+Date: Wed, 15 Nov 2023 03:20:20 -0000
+Message-Id: <170001842023.2208.17153561340552667927@gitolite.kernel.org>
+
+--===============3980010812772926886==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,13 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/perf/core
-    old: 744940f1921c8feb90e3c4bcc1e153fdd6e10fe2
-    new: 33744916196b4ed7a50f6f47af7c3ad46b730ce6
-    log: |
-         571d91dcadfa3cef499010b4eddb9b58b0da4d24 perf: Add branch stack counters
-         85846b27072defc7ab3dcee7ff36563a040079dc perf/x86: Add PERF_X86_EVENT_NEEDS_BRANCH_STACK flag
-         1f2376cd03dd3b965d130ed46a7c92769d614ba1 perf: Add branch_sample_call_stack
-         318c4985911245508f7e0bab5265e208a38b5f18 perf/x86/intel: Reorganize attrs and is_visible
-         33744916196b4ed7a50f6f47af7c3ad46b730ce6 perf/x86/intel: Support branch counters logging
-         
+  - ref: refs/heads/master
+    old: 240bd971ef47e350bde39be58f76f1dc1208428b
+    new: 382b07eaa60998296e2381ab50dbf32d93a05f38
+    log: revlist-240bd971ef47-382b07eaa609.txt
+
+--===============3980010812772926886==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-240bd971ef47-382b07eaa609.txt
+
+c9bd1568d5462f4108417518ce1af7b924acfb6f futex: Fix hardcoded flags
+889c58b3155ff4c8e8671c95daef63d6fabbb6b1 perf/core: Fix cpuctx refcounting
+87c4c8f3346243f11787c91e8f60c9dc38775589 Merge branch into tip/master: 'irq/urgent'
+05a4a18557d4d32f800019915362b70c315259fe Merge branch into tip/master: 'locking/urgent'
+49a76354ad0b1a80d7a5f4633fc23de9f7ae751a Merge branch into tip/master: 'perf/urgent'
+88b0df7d6df428513c4b396db14496262e62502b Merge branch into tip/master: 'sched/urgent'
+60a99d4110b90136bcef7e56edf0f2de66cdc3ab Merge branch into tip/master: 'timers/urgent'
+a8d4fb83c851e6374245fce9d98a7185d7eb9784 Merge branch into tip/master: 'x86/urgent'
+3d708ca29d8623daeab5e1de51b98f3af40da2f3 Merge branch into tip/master: 'perf/core'
+7cf17c7249ecb5ff9ab3ff1adec855f34ea05371 Merge branch into tip/master: 'ras/core'
+ffc5992bdeabcedf17fff7848cedf2284c63607f Merge branch into tip/master: 'x86/cleanups'
+7fdf2efed2e2ce2ba48a84b16cb9262a5f2d29fa Merge branch into tip/master: 'x86/cpu'
+117fe448f7225b5fa611c955c44e3982edd10f8a Merge branch into tip/master: 'x86/paravirt'
+382b07eaa60998296e2381ab50dbf32d93a05f38 Merge branch into tip/master: 'x86/percpu'
+
+--===============3980010812772926886==--
