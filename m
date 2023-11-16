@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1582377943644967527=="
+Content-Type: multipart/mixed; boundary="===============3594321323166610753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 16 Nov 2023 16:40:26 -0000
-Message-Id: <170015282660.2147.17052805099829589543@gitolite.kernel.org>
+Date: Thu, 16 Nov 2023 16:40:48 -0000
+Message-Id: <170015284848.2409.15111978179567804375@gitolite.kernel.org>
 
---===============1582377943644967527==
+--===============3594321323166610753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: a20c4350c6a12405b7f732b3ee6801ffe2cc45ce
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-a20c4350c6a1-b85ea95d0864.txt
+  - ref: refs/heads/for-next
+    old: 88eed215d01642015c91cc6f3392d5de00266f7c
+    new: 2a0508d9d08f0c3e354044d4f48466ee0d225041
+    log: revlist-88eed215d016-2a0508d9d08f.txt
 
---===============1582377943644967527==
+--===============3594321323166610753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a20c4350c6a1-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-88eed215d016-2a0508d9d08f.txt
 
-5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
-e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
-a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
-5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
-853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
-69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
-d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
-5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
 9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
 7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
 2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
@@ -921,9 +913,16 @@ b36995b8609a5a8fe5cf259a1ee768fcaed919f8 lsm: fix default return value for inode
 31356547e3316829f15a98ecf9a2096cf3e228d2 net: kcm: fill in MODULE_DESCRIPTION()
 09699f193555c0630b7d0fe52c90ba2c7eac639e Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 f1a3b283f852c613fae004f87bbbacc8cef5a061 net_sched: sch_fq: better validate TCA_FQ_WEIGHTS and TCA_FQ_PRIOMAP
+19597cad64d608aa8ac2f8aef50a50187a565223 scsi: qla2xxx: Fix system crash due to bad pointer access
+defde5a50d91c74e1ce71a7f0bce7fb1ae311d84 scsi: ufs: core: Expand MCQ queue slot to DeviceQueueDepth + 1
+27900d7119c464b43cd9eac69c85884d17bae240 scsi: ufs: core: Fix racing issue between ufshcd_mcq_abort() and ISR
+860c3d03bbc3f17aef8600662c488f27fd093142 scsi: scsi_debug: Fix some bugs in sdebug_error_write()
+037fbd3fcfbd99145f9310d93f6637012807cfd0 scsi: scsi_debug: Delete some bogus error checking
 9b818a340c0024f8b8f36a5f8e8b4eea3afa9a77 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+3b83486399a6a9feb9c681b74c21a227d48d7020 scsi: sd: Fix sshdr use in sd_suspend_common()
 b714ca2ccf6a90733f6ceb14abb6ce914f8832c3 ptp: ptp_read should not release queue
 1bea2c3e6df8caf45d18384abfb707f47e9ff993 ptp: fix corrupted list in ptp_open
+e439e4a62a8ea3c39d65c546de3af7d1c594077c scsi: ufs: qcom-ufs: dt-bindings: Document the SM8650 UFS Controller
 c4676f8dc1e12e68d6511f9ed89707fdad4c962c RISC-V: Don't fail in riscv_of_parent_hartid() for disabled HARTs
 c5e4ce9db635fef5ebffdfba1e7d80710474b176 of: property: Add fw_devlink support for msi-parent
 f9a619eb603b6c8062e910cd994acc4b3ce032ba Merge patch series "Linux RISC-V AIA Preparatory Series"
@@ -1050,5 +1049,6 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+2a0508d9d08f0c3e354044d4f48466ee0d225041 Merge branch '6.7/scsi-staging' into 6.7/scsi-fixes
 
---===============1582377943644967527==--
+--===============3594321323166610753==--
