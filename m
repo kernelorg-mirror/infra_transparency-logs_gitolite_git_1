@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0949274871919874053=="
+Content-Type: multipart/mixed; boundary="===============1259107926140117823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 16 Nov 2023 21:44:11 -0000
-Message-Id: <170017105199.25931.4886239760258742951@gitolite.kernel.org>
+Date: Thu, 16 Nov 2023 21:45:03 -0000
+Message-Id: <170017110391.27770.7454440664082412695@gitolite.kernel.org>
 
---===============0949274871919874053==
+--===============1259107926140117823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: cf98fe6b579e55aa71b6197e34c112b51f0c2a66
-    new: e80ed63affc9a9b4aacb44180ecd7ed601839599
-    log: revlist-cf98fe6b579e-e80ed63affc9.txt
+  - ref: refs/heads/riscv-dt-for-next
+    old: b99df62818919b84e970eea5aec60b0dbc57da18
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-b99df6281891-b85ea95d0864.txt
 
---===============0949274871919874053==
+--===============1259107926140117823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf98fe6b579e-e80ed63affc9.txt
+Content-Disposition: attachment; filename=revlist-b99df6281891-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1049,6 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-e80ed63affc9a9b4aacb44180ecd7ed601839599 riscv: dts: sophgo: remove address-cells from intc node
 
---===============0949274871919874053==--
+--===============1259107926140117823==--
