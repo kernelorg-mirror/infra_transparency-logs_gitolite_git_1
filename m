@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 16 Nov 2023 04:38:14 -0000
-Message-Id: <170010949473.19810.15502499780047518605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Thu, 16 Nov 2023 04:40:02 -0000
+Message-Id: <170010960273.21805.11214667418229431975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/testing/Wstringop-overflow-next20231116
-    old: f31817cbcf48d191faee7cebfb59197d2048cd64
-    new: f51b145606be2bd8e3912282a553d10832cf049e
+  - ref: refs/heads/dev
+    old: 022732e3d846e197539712e51ecada90ded0572a
+    new: 4e8714b76613e6284b263274d6dddcfac24be262
     log: |
-         f51b145606be2bd8e3912282a553d10832cf049e Makefile: Enable -Wstringop-overflow globally
+         4e8714b76613e6284b263274d6dddcfac24be262 MAINTAINERS: update the audit entry
          
