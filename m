@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6029860117285605624=="
+Content-Type: multipart/mixed; boundary="===============5668962272102666938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 16 Nov 2023 09:49:09 -0000
-Message-Id: <170012814928.27689.12395136734057703066@gitolite.kernel.org>
+Date: Thu, 16 Nov 2023 09:49:46 -0000
+Message-Id: <170012818604.28000.3619655909120791673@gitolite.kernel.org>
 
---===============6029860117285605624==
+--===============5668962272102666938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,54 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 097c06394c835be0cf21e23f9bd13ff771601b63
-    new: 2a0508d9d08f0c3e354044d4f48466ee0d225041
-    log: revlist-097c06394c83-2a0508d9d08f.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 9a896387a61e9002a84caacd3353304e1ec2c8ce
+    new: 57e582951af21faaabaff029d408859e69b1d459
+    log: revlist-9a896387a61e-57e582951af2.txt
 
---===============6029860117285605624==
+--===============5668962272102666938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1700128138 -0500
+pusher 75C5DE3D 1700128166 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1700128137-f6b9ca8be8cbe73c414d00905e797704152706cd
+nonce 1700128166-1ded550c7d51a1052ceb013b092776ad97e704c7
 
-097c06394c835be0cf21e23f9bd13ff771601b63 2a0508d9d08f0c3e354044d4f48466ee0d225041 refs/heads/fixes
+9a896387a61e9002a84caacd3353304e1ec2c8ce 57e582951af21faaabaff029d408859e69b1d459 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVV5Y0ACgkQ7ulgGnXF
-3j3y9Q//fizpMQpe8Wiuz94FcLh38Ze9p8TLTpAfhzaS1AdfteA6uYmmFbRLWUeN
-ogAacsqEI3+Wb+bOsh0r5PgMPB+Vv2hWrHEM7t+Hujikzz8dv5PWjbqEy6e3ugRk
-AA51MuXtn6/Lh7JMQhc9gPs/BQylHwFy+3jX6leWdGoYdio60GZvyuksfEigK3PH
-BKuFHBwdomDeZu5kSt6Ll9DVig9U2+4aOdEkjQrEc8QxyG/22mJRqt2i1Mm5M0XI
-jTMdRFbfpD1q1gL7xhXgB88USD4OLDn92/wFBV3rsIJVoGL90gsmuDJ0jxawA46g
-fR0yw88kIQ9QjtumiuRt+cNZdr59qsTDIuvp/I/MgHxad9FzInePO0nvz1l+dOrt
-we6r34E3HQM2bCXo0axA8C/w+N1P/Vml29TErzMNgkCXVAnKyrrspxGDN3vmq2vr
-DNKAEh/g6CxN55GHcYxW3fRIvMRSFsiY1Qch4QrJmy2vl75Nv60OJR68ZP0ZYo2j
-5Hn+IBZDTbzfmIKZzCgYKAUtX0rvgiTABZLmIUq2MfFJr4AToiluIcNYUwLSmrUh
-p9nd8sd17qJaNDtQzphAtY6RgylxLJIgyFCE3BjQb26uXKBsXhpM8OlvEFFozAMa
-E56GnUkPFjz1k1D2TC0VkLRLblSPJm1BiwDvOkEecgxh/M7GoAU=
-=WeW9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVV5agACgkQ7ulgGnXF
+3j0yARAArREp/l6jYM6Fw4gmAU9xY1ggwPHaIdlhIoL77u3tY+iCTO/4oDyLwYHR
+aRwDvYaT6t+mKuCWDyAxgeAVyy5mEhQVR+6ykPq0Nud0ffOxCHMw5pZnpQWfjAlX
+H6esnIOkcOwTeg0tcOCztjtjlNya0RN1397L/N7ol5MEHYiknv7VwsNJ+nmQK19z
+FfrFLtPgrgODcZkKYzYA519lkiCEiMJfdUyJz5MuURmajBUBan9iDZj3uedlQYCD
+gTOa8pB8T7w6NphLBSgnslv5ZyK0c2Vw7r0g/KySKrsr3VsUzmsyvGQpiQabZI1o
+wukO7Hyd4krx6ew54MOvSD9TkbSxft1C34Pv+5GW0TosnLGZEaDxVFnl3zaTyvK/
+N5xZFLtfruTFiMYpBNcg+pgoYaHd63mH7AI4Fz6CdK1HaU1NR57WOce3Bc4mygMI
+Gs60plWhWzOerFKXsTXgT+CyJqx4K58mb0LnFEL36Y0l/fquxaOLUW7hjMJ47PbS
+voeD1ZLTzDjlf81MZpkAMpMN4HahNs4zPNT9qCB8bbQIOCTstt9Q7LWrjhDlccQv
+CPUPT6lFnoTAxCZg3kgMxO/ojpr5DyjDCgH02RR5jWi3JkJG6E8Mek4+DJ6j9E9R
+uMrXmByoI22wC2pfLzumNSMQhCPdWSbwTd57+c6ucCpFqfocOEw=
+=C986
 -----END PGP SIGNATURE-----
 
---===============6029860117285605624==
+--===============5668962272102666938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-097c06394c83-2a0508d9d08f.txt
+Content-Disposition: attachment; filename=revlist-9a896387a61e-57e582951af2.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
+e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
+a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
+853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
+69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
+d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
+5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
 9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
 7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
 2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
@@ -943,16 +951,9 @@ b36995b8609a5a8fe5cf259a1ee768fcaed919f8 lsm: fix default return value for inode
 31356547e3316829f15a98ecf9a2096cf3e228d2 net: kcm: fill in MODULE_DESCRIPTION()
 09699f193555c0630b7d0fe52c90ba2c7eac639e Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 f1a3b283f852c613fae004f87bbbacc8cef5a061 net_sched: sch_fq: better validate TCA_FQ_WEIGHTS and TCA_FQ_PRIOMAP
-19597cad64d608aa8ac2f8aef50a50187a565223 scsi: qla2xxx: Fix system crash due to bad pointer access
-defde5a50d91c74e1ce71a7f0bce7fb1ae311d84 scsi: ufs: core: Expand MCQ queue slot to DeviceQueueDepth + 1
-27900d7119c464b43cd9eac69c85884d17bae240 scsi: ufs: core: Fix racing issue between ufshcd_mcq_abort() and ISR
-860c3d03bbc3f17aef8600662c488f27fd093142 scsi: scsi_debug: Fix some bugs in sdebug_error_write()
-037fbd3fcfbd99145f9310d93f6637012807cfd0 scsi: scsi_debug: Delete some bogus error checking
 9b818a340c0024f8b8f36a5f8e8b4eea3afa9a77 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-3b83486399a6a9feb9c681b74c21a227d48d7020 scsi: sd: Fix sshdr use in sd_suspend_common()
 b714ca2ccf6a90733f6ceb14abb6ce914f8832c3 ptp: ptp_read should not release queue
 1bea2c3e6df8caf45d18384abfb707f47e9ff993 ptp: fix corrupted list in ptp_open
-e439e4a62a8ea3c39d65c546de3af7d1c594077c scsi: ufs: qcom-ufs: dt-bindings: Document the SM8650 UFS Controller
 c4676f8dc1e12e68d6511f9ed89707fdad4c962c RISC-V: Don't fail in riscv_of_parent_hartid() for disabled HARTs
 c5e4ce9db635fef5ebffdfba1e7d80710474b176 of: property: Add fw_devlink support for msi-parent
 f9a619eb603b6c8062e910cd994acc4b3ce032ba Merge patch series "Linux RISC-V AIA Preparatory Series"
@@ -1079,6 +1080,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-2a0508d9d08f0c3e354044d4f48466ee0d225041 Merge branch '6.7/scsi-staging' into 6.7/scsi-fixes
 
---===============6029860117285605624==--
+--===============5668962272102666938==--
