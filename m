@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6427187264709678496=="
+Content-Type: multipart/mixed; boundary="===============4281473550939277878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 16 Nov 2023 02:14:12 -0000
-Message-Id: <170010085239.12923.9842695077883925679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 16 Nov 2023 02:14:22 -0000
+Message-Id: <170010086224.13105.8824366653687242806@gitolite.kernel.org>
 
---===============6427187264709678496==
+--===============4281473550939277878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: bc962b35b139dd52319e6fc0f4bab00593bf38c9
     new: f31817cbcf48d191faee7cebfb59197d2048cd64
     log: revlist-bc962b35b139-f31817cbcf48.txt
-  - ref: refs/heads/stable
-    old: 9bacdd8996c77c42ca004440be610692275ff9d0
-    new: c42d9eeef8e5ba9292eda36fd8e3c11f35ee065c
-    log: |
-         65120498aaf8d7320647a8b6d6de7db42e74ea52 stackleak: add declarations for global functions
-         1ee60356c2dca938362528404af95b8ef3e49b6a gcc-plugins: randstruct: Only warn about true flexible arrays
-         2e6ef8aaba6b709ce91164401fa1c12668510360 Remove myself as maintainer of GFS2
-         782ce431613cf08c3a00dca42ad925c3b1108d09 gcc-plugins: latent_entropy: Fix typo (args -> argc) in plugin description
-         77618db346455129424fadbbaec596a09feaf3bb zstd: Fix array-index-out-of-bounds UBSAN warning
-         86d11b0e20c09e0a91cd2aa57b115000274e2ac5 Merge tag 'zstd-linus-v6.7-rc2' of https://github.com/terrelln/linux
-         c42d9eeef8e5ba9292eda36fd8e3c11f35ee065c Merge tag 'hardening-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-         
-  - ref: refs/tags/next-20230816
-    old: 5679e1f6c884904cb33014e186ef4cd4eb078723
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231116
     old: 0000000000000000000000000000000000000000
     new: 76ff1655738bb8fb922b62bc0dd11ec0dca8246b
 
---===============6427187264709678496==
+--===============4281473550939277878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -546,4 +531,4 @@ f0ffa67d4ac54577836a463b094ee17b6f3fb1de Merge branch 'mhi-next' of git://git.ke
 e7f63d8e54efadfc66428c0ee208e1a77e5d71fa Merge branch 'slab/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab.git
 f31817cbcf48d191faee7cebfb59197d2048cd64 Add linux-next specific files for 20231116
 
---===============6427187264709678496==--
+--===============4281473550939277878==--
