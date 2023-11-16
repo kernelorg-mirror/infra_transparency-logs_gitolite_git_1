@@ -1,66 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1810077184720037504=="
+Content-Type: multipart/mixed; boundary="===============2369252547775260622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 16 Nov 2023 19:47:29 -0000
-Message-Id: <170016404991.7285.13969547778721214117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Thu, 16 Nov 2023 19:47:57 -0000
+Message-Id: <170016407769.7504.8663375480028389200@gitolite.kernel.org>
 
---===============1810077184720037504==
+--===============2369252547775260622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 48c89bcb93823fd78b99193d47d61d1403855932
-    new: 505d8d66267f31835c86cdf6cf80b075b6d9bd95
+  - ref: refs/heads/pinctrl-next
+    old: 4f2ffb1c3ffec70fc2c84accb1bf18831cbfce39
+    new: e4e2fbe7d7d70ce52adeca7ef933488ebfe78f03
     log: |
-         d1d53909bb5fbc9bf618ab78515fdbd5d6b691c6 clk: samsung: Fix kernel-doc comments
-         5583e92be5c45448e6ea461e1780d46c17d14963 clk: samsung: Improve kernel-doc comments
-         505d8d66267f31835c86cdf6cf80b075b6d9bd95 Merge branch 'next/clk' into for-next
-         
-  - ref: refs/heads/next/clk
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 5583e92be5c45448e6ea461e1780d46c17d14963
-    log: |
-         d1d53909bb5fbc9bf618ab78515fdbd5d6b691c6 clk: samsung: Fix kernel-doc comments
-         5583e92be5c45448e6ea461e1780d46c17d14963 clk: samsung: Improve kernel-doc comments
+         e4e2fbe7d7d70ce52adeca7ef933488ebfe78f03 MAINTAINERS: Remove snawrocki's git tree
          
 
---===============1810077184720037504==
+--===============2369252547775260622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1700164047 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1700164048-dc2016ad9b936bcd3c1e0c8ed6ad755c4e22a3a4
+pusher krzk@kernel.org 1700164075 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1700164076-a883d47cfa722abc28e6bbf0066eb1e3c69845b5
 
-48c89bcb93823fd78b99193d47d61d1403855932 505d8d66267f31835c86cdf6cf80b075b6d9bd95 refs/heads/for-next
-b85ea95d086471afb4ad062012a4d73cd328fa86 5583e92be5c45448e6ea461e1780d46c17d14963 refs/heads/next/clk
+4f2ffb1c3ffec70fc2c84accb1bf18831cbfce39 e4e2fbe7d7d70ce52adeca7ef933488ebfe78f03 refs/heads/pinctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVWcc8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10ncD/487PEYE39/ZzJVokD6DYWlpQvnNofYSTBI
-Ahv5scyr/oDDm3vZgbW/MoaAY0w32lRN4JxZ1lbcLS5AP9yTnXS5EkDXzdZHjJQc
-Q+Ti9UPOAIGUWtQ/vxUfhbC8DHXspvBZY0CQqLjmjtOd6wuzyXSnl4cFJ6C+Fjsb
-3UDWyeGylyhzojBrhrPIanW38DJmWlIErWmMQ3ikc6wl5u10ZCo/awM3STyhh2jl
-9Q/m8f0yM9Mhl2O9NhUHxPDogWm3ilc2SU8JAKXmLPcFx7SazUY1bGSrTI6aGL1j
-gdX5wyl2RXXClLKZVAMJumWn8kDQhBFi6iY71seLFZYquLspCLKczw6GBo6eux+s
-RR2nVOxbTRUXWyH0iu/n1sOq9S7iE1jy2PFE3g4+YtaM6RP1FKBmjyHtfISm1Wde
-ApRnkw0/5fHdsJf82UuxlPvjqd1WC4CMTEVka8WTOkF+em1sF5xHwPbaILi1cTgP
-D5JhA2slgvAk8AFlFm/wnSmAKND0Wyis/PxtqRMqI9oASDmncgRi85WHr6bBEZpL
-HwHjxnIu0V9QoWcFRgSkAgWoPPaO03ClO34ZNYZShBzqFL+vVAhZ6zhpiQ8uJqCp
-EKv8PncabTjW2nhK1mCQADE4dmxyTyiUn5cl/lUXpmBeSz0kb0zma5NOkAE2tNLl
-PcrBZ7j2JQ==
-=TL8C
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVWcesQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14nZD/wJhFvruvW5AV8S1Go0cRiZwuhRdIsPMwo6
+hYCZ7vv82owwGuEs6gEYwwGqdvPapwqNElg2z/liCrYlVQlKyIgxlbcVyl9IpqI1
+w+Mm97pcLgqrJBh21jBKXby5UJgSCdUX3qvSzKQdslwlcxnO4Uhkvj47ycI6CmC2
+8Eh++2PTyAuO8Zk2eygn2WuclcHoMkcrfz5PUB8kJZLg1/wDkTLzEiiWL5oc61tK
+Sm467yy/ffrG8PYjdzbv3gD4/cTtCKXTqR3iQKQUvz/cFPWLDEQWn0yqjSTGFN6k
+82LD2BS3HL4Cyfcnde4ovOJ5N18hE4urCZHx1qld6+WMoCd3vY41jRkPkF3qaWJf
+b58LVXVorB9B3+XW0YISQuNn+VZ6c6stXIkGTb7FoxWOG7nJt0UOlTi6S1bP4v8/
+Ap+c1GGPR5YXTSaDK73dBctAY/PwRW05C24xmrw/PI2JxxvZKe50v7Fixx92HGuu
+Do55E/xhaFMTUgePRzaxOK2eZNWvbnSdxL2tOoTGjRfT3/BV1Oz7JRdz8Xyz69vn
+WKlCr0kvcwDO4fsMMj49Fd/8n1wk5XXoGx3Ie+YaNaSFyP6YEQ84pM8iiw2emEF1
+QEJreefxwUCMXA0EH/FZMk2ruyYMm6nruCFdD8LyqBsgz97VjLGNxyZjU2XFFW5A
+sKUt9AKLWg==
+=LKDD
 -----END PGP SIGNATURE-----
 
---===============1810077184720037504==--
+--===============2369252547775260622==--
