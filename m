@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3454311246223136950=="
+Content-Type: multipart/mixed; boundary="===============8721183428489162065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 16 Nov 2023 19:33:19 -0000
-Message-Id: <170016319947.28230.6689411472806614472@gitolite.kernel.org>
+Date: Thu, 16 Nov 2023 19:34:00 -0000
+Message-Id: <170016324018.28578.15720290216794494812@gitolite.kernel.org>
 
---===============3454311246223136950==
+--===============8721183428489162065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: f9e90d76a6f8adfb57a753ce262ae2f17fd851b7
+  - ref: refs/heads/togreg
+    old: 89e2233386a5670d15908628b63e611cb03b0d03
     new: 6543f376ec8aa90a6c1ed44b765f4f0d6c3eb1db
-    log: revlist-f9e90d76a6f8-6543f376ec8a.txt
+    log: revlist-89e2233386a5-6543f376ec8a.txt
 
---===============3454311246223136950==
+--===============8721183428489162065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9e90d76a6f8-6543f376ec8a.txt
+Content-Disposition: attachment; filename=revlist-89e2233386a5-6543f376ec8a.txt
 
 92235d3d8365d24f6cc6701b545e764ef144806a riscv/mm: Fix the comment for swap pte format
 dd16ac404a685cce07e67261a94c6225d90ea7ba riscv: Using TOOLCHAIN_HAS_ZIHINTPAUSE marco replace zihintpause
@@ -1051,4 +1051,4 @@ e4cfeca8f8cb36e13a8764fc7605bb2f338be10b dt-bindings: adis16460: Add 'spi-cs-ina
 2718f15403fbbff4c4116824e02537e39342986a iio: sanity check available_scan_masks array
 6543f376ec8aa90a6c1ed44b765f4f0d6c3eb1db iio: buffer: document known issue
 
---===============3454311246223136950==--
+--===============8721183428489162065==--
