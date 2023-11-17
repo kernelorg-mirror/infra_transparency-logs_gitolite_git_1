@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4654992334858187942=="
+Content-Type: multipart/mixed; boundary="===============3760585595748577876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 17 Nov 2023 18:47:49 -0000
-Message-Id: <170024686921.12310.8672614508231569245@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 18:47:58 -0000
+Message-Id: <170024687824.12466.13024104743761923828@gitolite.kernel.org>
 
---===============4654992334858187942==
+--===============3760585595748577876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.7
+  - ref: refs/heads/for-next
     old: 9793c269da6cd339757de6ba5b2c8681b54c99af
     new: 0174dcdbec6af734567daae0d622d2674bf9a715
     log: revlist-9793c269da6c-0174dcdbec6a.txt
 
---===============4654992334858187942==
+--===============3760585595748577876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f83da7280effcfdb214fcab984eb269d45af9ae2 dm-delay: fix bugs introduced by kthrea
 97a89f56b2e7f5e524d3303c8928b8b899fbb5cd dm-bufio: fix no-sleep mode
 0174dcdbec6af734567daae0d622d2674bf9a715 dm-verity: don't use blocking calls from tasklets
 
---===============4654992334858187942==--
+--===============3760585595748577876==--
