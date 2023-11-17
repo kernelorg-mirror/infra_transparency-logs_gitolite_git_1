@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 17 Nov 2023 02:45:57 -0000
-Message-Id: <170018915754.22834.12167339176572461457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
+Date: Fri, 17 Nov 2023 02:47:19 -0000
+Message-Id: <170018923978.23412.18176114684875021103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/dborkman/pw
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: d580d265e9abb8c4e1e891051c7b03f3eac86055
-    new: 380b50ae3a04222334a3779b3787eba844b1177f
+  - ref: refs/heads/master
+    old: 3059ca5715aae40bd83433e0645cd100cf0321b2
+    new: 4624214ab93829b9aa8d6cbac3de66488c22d324
     log: |
-         380b50ae3a04222334a3779b3787eba844b1177f net: phy: broadcom: Wire suspend/resume for BCM54612E
+         4624214ab93829b9aa8d6cbac3de66488c22d324 pw-apply: Emit a warning when applying too fresh patches
          
