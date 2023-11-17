@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 17 Nov 2023 15:54:38 -0000
-Message-Id: <170023647877.16257.8506402403591817070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 17 Nov 2023 16:14:40 -0000
+Message-Id: <170023768046.30804.9086256765274174419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 7c945ea98af68c6720ea32b055eb50fc39afeb7f
-    new: b8eaae484f79b37c602d112e131475013ab14519
+  - ref: refs/heads/master
+    old: 0783375f2c56ca17719d5ec670e498dc661ea5c3
+    new: d5742377e3ac807f1879bb6d8571c8787622a37d
     log: |
-         b8eaae484f79b37c602d112e131475013ab14519 parisc/power: Fix power soft-off when running on qemu
+         498de6c85fe0496f12bb7d714fcc40a5634bbfef Bluetooth: ISO: Reassociate a socket with an active BIS
+         0be46f8900b032f37cc77420f54775ff42ca4f14 Bluetooth: Fix deadlock in vhci_send_frame
+         d5742377e3ac807f1879bb6d8571c8787622a37d Bluetooth: qca: Set both WIDEBAND_SPEECH and LE_STATES quirks for QCA2066
          
