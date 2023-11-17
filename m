@@ -1,24 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 17 Nov 2023 23:20:49 -0000
-Message-Id: <170026324908.14257.17302157167531517091@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5261234682016367928=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 17 Nov 2023 23:30:34 -0000
+Message-Id: <170026383428.20824.18335094461100645847@gitolite.kernel.org>
+
+--===============5261234682016367928==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: 7d562ac331ddc4f798e6185a858bc98c22ee7d1b
-    new: 36c4d9a6bf657789d13e933a289520b35ff8530b
-    log: |
-         e7f289a59e76a5890a57bc27b198f69f175f75d9 ASoC: cs43130: Fix the position of const qualifier
-         aa7e8e5e4011571022dc06e4d7a2f108feb53d1a ASoC: cs43130: Fix incorrect frame delay configuration
-         552206add94dd7977bad32c37eba16e23756a0f9 ASoC: cs43130: Store device in private struct and use it more consistently
-         ce7944b73e7729dc702b6741cff2b26886bb723c ASoC: cs43130: Add handling of ACPI
-         9158221bf2aa5f7bfb916452c079b2fe63ca76e8 ASoC: cs43130: Add switch to control normal and alt hp inputs
-         36c4d9a6bf657789d13e933a289520b35ff8530b ASoC: cs43130: Fixes and improvements
-         
+  - ref: refs/heads/kdevops
+    old: 5db8a66edc9201cf202a9a3a9f8c62d6247995ad
+    new: 59119280b27517466283f5af16ac639ef557b043
+    log: revlist-5db8a66edc92-59119280b275.txt
+
+--===============5261234682016367928==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5db8a66edc92-59119280b275.txt
+
+a08a4bb07953548ba0d00ec2175a94cf87024425 Merge remote-tracking branch 'mrchuck/nfsd-fixes' into kdevops
+b9c6d8b42dd2b0bead80eded72386fdd37c7e835 Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
+ad15d56e9963681bdeeae0c34f3d4f4323e1b8b5 nfsd: hold ->cl_lock for hash_delegation_locked()
+3e723b03a8ccfee774be5f7fdc87baf68f5dd158 nfsd: avoid race after unhash_delegation_locked()
+13c5f569b010f26ebf79eba55f33fa536aa708d6 nfsd: split sc_status out of sc_type
+c50cfc4d769b7d2b6e6808bb6068ab7422e80bb5 nfsd: prepare for supporting admin-revocation of state
+5bec32e1b5e27d75cd13205735f64233b2fae974 nfsd: allow admin-revoked state to appear in /proc/fs/nfsd/clients/*/states
+cc50621d37c3f2cf1f68ef76f025c9266e1f8184 nfsd: allow admin-revoked NFSv4.0 state to be freed.
+6de6f77ce9707213795fdc77a3efcb9ac2d5e044 nfsd: allow lock state ids to be revoked and then freed
+80207578b21814477089af9cddac9cbfde32ad61 nfsd: allow open state ids to be revoked and then freed
+59119280b27517466283f5af16ac639ef557b043 nfsd: allow delegation state ids to be revoked and then freed
+
+--===============5261234682016367928==--
