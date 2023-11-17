@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2474103197810919792=="
+Content-Type: multipart/mixed; boundary="===============2746703505333042977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 17 Nov 2023 06:46:01 -0000
-Message-Id: <170020356103.32342.14434764560060949537@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 06:46:34 -0000
+Message-Id: <170020359433.32599.1201922626140049819@gitolite.kernel.org>
 
---===============2474103197810919792==
+--===============2746703505333042977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: de5724ca38fd5e442bae9c1fab31942b6544012d
     new: 76df934c6d5f5c93ba7a0112b1818620ddc10b19
     log: revlist-de5724ca38fd-76df934c6d5f.txt
 
---===============2474103197810919792==
+--===============2746703505333042977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d565fa4300d9ebd5ba3bbd259ce841f8dab609d6 s390/ism: ism driver implies smc protoc
 3c15504a97a1bcabec5459e604dcc20c7313c8ea Merge branch 'rxrpc-ack-fixes'
 76df934c6d5f5c93ba7a0112b1818620ddc10b19 MAINTAINERS: Add netdev subsystem profile link
 
---===============2474103197810919792==--
+--===============2746703505333042977==--
