@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7080790222763746478=="
+Content-Type: multipart/mixed; boundary="===============7593477476477559860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Fri, 17 Nov 2023 08:43:11 -0000
-Message-Id: <170021059175.17572.14256298179277342165@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 08:43:50 -0000
+Message-Id: <170021063012.17892.6832771515313868584@gitolite.kernel.org>
 
---===============7080790222763746478==
+--===============7593477476477559860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fpga/linux-fpga
 user: yilunxu
 changes:
-  - ref: refs/heads/for-next
-    old: d79eed22ba97c3031b2ef86f8b7ed0be2da5667d
-    new: 5496fb8eedd637e1e9d87655f86dc816afd5ad68
-    log: revlist-d79eed22ba97-5496fb8eedd6.txt
+  - ref: refs/heads/fixes
+    old: 03d4bf9ff34abbb24f4fbc674f2dcd057ebff309
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-03d4bf9ff34a-b85ea95d0864.txt
 
---===============7080790222763746478==
+--===============7593477476477559860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d79eed22ba97-5496fb8eedd6.txt
+Content-Disposition: attachment; filename=revlist-03d4bf9ff34a-b85ea95d0864.txt
 
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
 e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
@@ -1049,6 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-5496fb8eedd637e1e9d87655f86dc816afd5ad68 drivers/fpga: use standard array-copy function
 
---===============7080790222763746478==--
+--===============7593477476477559860==--
