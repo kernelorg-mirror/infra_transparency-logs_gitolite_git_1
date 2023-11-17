@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 17 Nov 2023 15:27:24 -0000
-Message-Id: <170023484453.28852.12379156531386431889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 17 Nov 2023 15:30:06 -0000
+Message-Id: <170023500661.31528.6014309859262751709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: bc01a86981b8306e5127aa1d04d3fd85a4c13b2c
-    new: d17cad1a1de465a0e4dc13a6186c572c7e76070e
+  - ref: refs/heads/main
+    old: 6723a8d9092325d00a125a1b3ca058644f74d314
+    new: f81145a07a9959486f56e68260a4265ed2a4c666
     log: |
-         d17cad1a1de465a0e4dc13a6186c572c7e76070e Fri Nov 17 03:25:57 PM UTC 2023
+         451090149cecfae5e674d24944579a564afefe8a i915: Update MTL DMC to v2.19
+         f81145a07a9959486f56e68260a4265ed2a4c666 Merge branch 'robot/pr-0-1700234575' into 'main'
          
