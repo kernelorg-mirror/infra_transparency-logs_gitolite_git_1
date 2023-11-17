@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============9107014050603600109=="
+Content-Type: multipart/mixed; boundary="===============1551592231993664264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Fri, 17 Nov 2023 06:49:54 -0000
-Message-Id: <170020379482.1587.14907051551816845262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 17 Nov 2023 07:08:20 -0000
+Message-Id: <170020490017.15571.15727263934056152278@gitolite.kernel.org>
 
---===============9107014050603600109==
+--===============1551592231993664264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/ps3-queue-v6.7
-    old: ca9039524fbe291f48f700fd79551ae45581e6f4
-    new: 97f14d0b42788a36710d43b320c285211aee7b5d
-    log: revlist-ca9039524fbe-97f14d0b4278.txt
+  - ref: refs/heads/kbuild
+    old: 5f56cb030e4bcf14be2233332d5cd83fff62a376
+    new: 57edab3d39ec893a33744a61beb7fed1d99c98e9
+    log: revlist-5f56cb030e4b-57edab3d39ec.txt
 
---===============9107014050603600109==
+--===============1551592231993664264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca9039524fbe-97f14d0b4278.txt
+Content-Disposition: attachment; filename=revlist-5f56cb030e4b-57edab3d39ec.txt
 
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
+853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
+69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
+d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
+5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
+9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
+7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
+2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
+20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
+f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
 7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
 54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
 93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
@@ -213,8 +223,6 @@ a26f2e4e68ee3130e5d5acb4f58807041aaea905 vdpa: introduce .compat_reset operation
 bc91df5c70ac720eca18bd1f4a288f2582713d3e vhost-vdpa: clean iotlb map during reset for older userspace
 2eacf4b5e3ebe771f0fca0c8913c5a10a1953b72 vdpa/mlx5: implement .reset_map driver op
 86f6c224c97911b4392cb7b402e6a4ed323a449e vdpa_sim: implement .reset_map support
-1bfaa37fd3486e66131de9cb87747c84b4c89a05 kbuild: dummy-tools: pretend we understand -fpatchable-function-entry
-5f56cb030e4bcf14be2233332d5cd83fff62a376 kbuild: support 'userldlibs' syntax
 72fcce70faf06dd7442bf0b41b71f071d7fa29a4 vsprintf: uninline simple_strntoull(), reorder arguments
 f19c3b4239f5bfb69aacbaf75d4277c095e7aa7d riscv: remove unused functions in traps_misaligned.c
 7c83232161f609bbc452a1255f823f41afc411dd riscv: add support for misaligned trap handling in S-mode
@@ -1037,18 +1045,10 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-eea27e78fe8bf9167bb0f08f9e5c55fbd5f981c8 net/ps3_gelic_net: Add gelic_descr structures
-cf7756433071f68aaf7e19e9f4afa4a62d4e75be net/ps3_gelic_net: Use napi routines for RX SKB
-bc949513d36a0a93f1fa08e1cc8513d2feb999ee hvc_console: Allow backends to set I/O buffer size
-b5799658a86e5351cb9ba2edfd04d5f10c7f5c95 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-6ccec178e4f209c5f8ea9383b6ebd5eb65a45fbe ps3-debugging: Setup DABR register
-a782f622ff0403c7e61ced032418595969264931 local: Add ps3_nfs_defconfig
-d7ba1848b98cd29d0ec6a0b7f209f37ed84f91ba local: ps3_nfs_defconfig: Cut down version
-8bb4a47c957e31abd3c664f67a584a9ef61776b2 local: Refresh ps3_nfs_defconfig
-762224654df8c6906ee00879aa88d01603883d69 local: Add ps3_petitboot_defconfig
-c61baa5e6a9377d37b573405ef2b90d35dd7477e local: Add ps3_petitboot_nfs_defconfig
-2570c0dafe0e18c63ac56303ba24b27825ef12dc local: ps3_petitboot_nfs_defconfig: ip=dhcp
-45b94e370b7ccfaaaa2faf6efeead604221a1b65 ps3_defconfig: Cut down version
-97f14d0b42788a36710d43b320c285211aee7b5d Refresh ps3_defconfig for v6.6
+1c4a7587d1bbee0fd53b63af60e4244a62775f57 modpost: fix section mismatch message for RELA
+9e0be3f50c0e8517d0238b62409c20bcb8cd8785 linux/export: clean up the IA-64 KSYM_FUNC macro
+76020731d4ee897411ce4a73916ed805ea15d946 kbuild: Move the single quotes for image name
+ae1eff0349f2e908fc083630e8441ea6dc434dc0 kconfig: fix memory leak from range properties
+57edab3d39ec893a33744a61beb7fed1d99c98e9 kconfig: do not clear SYMBOL_DEF_USER when the value is out of range
 
---===============9107014050603600109==--
+--===============1551592231993664264==--
