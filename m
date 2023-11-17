@@ -1,44 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4097808507662661598=="
+Content-Type: multipart/mixed; boundary="===============2734961533704494425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 17 Nov 2023 14:28:35 -0000
-Message-Id: <170023131582.18156.12024599214759253155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 17 Nov 2023 14:38:06 -0000
+Message-Id: <170023188661.26011.10846139352593769977@gitolite.kernel.org>
 
---===============4097808507662661598==
+--===============2734961533704494425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 7475e51b87969e01a6812eac713a1c8310372e8a
-    new: 6bc40e44f1ddef16a787f3501b97f1fff909177c
-    log: revlist-7475e51b8796-6bc40e44f1dd.txt
+  - ref: refs/heads/svcrdma-next
+    old: 727957ce8f958498baeeca33b6654fc06498b4a6
+    new: 3999ca51d2fe9479cd30a4a669af3fe9f2fce747
+    log: revlist-727957ce8f95-3999ca51d2fe.txt
 
---===============4097808507662661598==
+--===============2734961533704494425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7475e51b8796-6bc40e44f1dd.txt
+Content-Disposition: attachment; filename=revlist-727957ce8f95-3999ca51d2fe.txt
 
-4b21a669ca21ed8f24ef4530b2918be5730114de ALSA: hda/realtek - Add Dell ALC295 to pin fall back table
-8384c0baf223e1c3bc7b1c711d80a4c6106d210e ALSA: hda/realtek: Enable Mute LED on HP 255 G8
-713f040cd22285fcc506f40a0d259566e6758c3c ALSA: hda/realtek - Enable internal speaker of ASUS K6500ZC
-d02ef87db9d6137fc2a98231b92f24ead4f7966d ALSA: hda: cs35l56: Enable low-power hibernation mode on i2c
-b28060db7172e6d8912d88b369123eb89e0d36b4 ovl: fix misformatted comment
-37f32f52643869131ec01bb69bdf9f404f6109fb ovl: fix memory leak in ovl_parse_param()
-b944aa9d86d5f782bfe5e51336434c960304839c ALSA: hda/realtek: Enable Mute LED on HP 255 G10
-969d90ec212bae4b45bf9d21d7daa30aa6cf055e audit: don't WARN_ON_ONCE(!current->mm) in audit_exe_compare()
-9e88b493157a9901fa498f23cc3c9ab82b43ce83 ALSA: hda: i915: Alays handle -EPROBE_DEFER
-61cbc08fdb04fd445458b0f4cba7e6929afdfaef ALSA: hda/realtek: Add quirks for ASUS 2024 Zenbooks
-5d639b60971f003d3a9b2b31f8ec73b0718b5d57 ALSA: hda/realtek: Add quirks for HP Laptops
-bf786e2a78d4d3cfc87469c3b31ade257df14fa0 Merge tag 'audit-pr-20231116' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-eb9a643c1739b732b90714131962bee76d279600 Merge tag 'sound-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-6bc40e44f1ddef16a787f3501b97f1fff909177c Merge tag 'ovl-fixes-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
+8d9c84bcaf90e640abd084d7f8c1c7417cbe9c60 svcrdma: Eliminate allocation of recv_ctxt objects in backchannel
+659579212260dbef268b8b70b3c7c3a95835d287 svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
+fcf4021e5bad64f566915ce6f96630c821494378 svcrdma: Pre-allocate svc_rdma_recv_ctxt objects
+7ac1a1f5e338999bfe6377a3f2174559ae37e68f svcrdma: Switch Receive CQ to soft IRQ
+e50280853592b6defa66932bc3cedadde1b160db svcrdma: Clean up use of rdma->sc_pd->device
+db6b2057a00e087c5b1668aead94c4b1b71324ec svcrdma: Move the svcxprt_rdma::sc_pd field
+9299416fd2310751e9170eada9d013b55bf617f2 svcrdma: Add a utility workqueue to svcrdma
+f34b5a120cd8b3241cf2f02c41170e2f6f0f70e9 svcrdma: Add an async version of svc_rdma_send_ctxt_put()
+df59dfca6201a07b81d423ee73afde0965e92f28 svcrdma: Add an async version of svc_rdma_write_info_free()
+1de3f7bc2d3242f5ac31b956e007e884ad679707 svcrdma: Move Send CQ to SOFTIRQ context
+a367e24043af941e18884515a63b41b048fcaa9a svcrdma: Clean up locking
+3ede12a334f0f07205ed46c1b87401a459ca5e7d svcrdma: Add lockdep class keys for transport locks
+7ebdd07aad67af9a5382db7ac878494640698dc1 rpcrdma: Introduce a simple cid tracepoint class
+307fb1e449e2204871bf9f7fab53e3302fc1d1e6 svcrdma: SQ error tracepoints should report completion IDs
+3772d3f2717956c42c3c6d7ae2d4e0518e03dc70 svcrdma: DMA error tracepoints should report completion IDs
+36be53d203c2c30778999158bbe263dcb01dd7a0 svcrdma: Update some svcrdma DMA-related tracepoints
+db48d14bc2998bb0f2f34c394e4175421867d8db svcrdma: Reduce size of struct svc_rdma_rw_ctxt
+3999ca51d2fe9479cd30a4a669af3fe9f2fce747 svcrdma: Acquire the svcxprt_rdma pointer from the CQ context
 
---===============4097808507662661598==--
+--===============2734961533704494425==--
