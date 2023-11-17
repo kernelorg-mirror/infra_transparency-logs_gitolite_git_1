@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 17 Nov 2023 14:02:09 -0000
-Message-Id: <170022972900.31593.3765653793250938692@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 14:11:23 -0000
+Message-Id: <170023028379.6960.16953308724982434094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,5 @@ repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
   - ref: refs/heads/kdevops
-    old: de1a0685c72cb25c5e6e43331d20e411496d89fb
-    new: 83f6754d320a801b42a6e5bcd756cce4f577bee6
-    log: |
-         83f6754d320a801b42a6e5bcd756cce4f577bee6 Merge remote-tracking branch 'mrchuck/nfsd-fixes' into kdevops
-         
+    old: 83f6754d320a801b42a6e5bcd756cce4f577bee6
+    new: 7475e51b87969e01a6812eac713a1c8310372e8a
