@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2797810277243497917=="
+Content-Type: multipart/mixed; boundary="===============8848595527552902068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 17 Nov 2023 10:00:37 -0000
-Message-Id: <170021523773.22424.15344941025891884648@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 10:01:05 -0000
+Message-Id: <170021526560.22690.8514777307587612197@gitolite.kernel.org>
 
---===============2797810277243497917==
+--===============8848595527552902068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/alternatives
-    old: 2bd4aa9325821551648cf9738d6aa3a49317d7e5
-    new: 272952d522f2cbaaf422f6fd2c72bf6aee448495
-    log: revlist-2bd4aa932582-272952d522f2.txt
+  - ref: refs/heads/sched/eevdf
+    old: d07f09a1f99cabbc86bc5c97d962eb8a466106b5
+    new: dc8b266721e111aab83b5aac748442e9631cfd87
+    log: revlist-d07f09a1f99c-dc8b266721e1.txt
 
---===============2797810277243497917==
+--===============8848595527552902068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bd4aa932582-272952d522f2.txt
+Content-Disposition: attachment; filename=revlist-d07f09a1f99c-dc8b266721e1.txt
 
-69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
-d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
-5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
-9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
-7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
-2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
-20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
-f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
-7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
-54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
-93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
-eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
-e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
-1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
-ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
-91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
-4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d4b671d4c66cd57ccebeae659d9b18e28a4fc9e8 Merge tag 'acpi-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ad1871ad8d9b3d252390ade8e2bcab7b773173ad Merge tag 'pm-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-71e11d066c1db20f85240d248cd8c3c6ae8bd7d7 Merge patch series "riscv: kexec: cleanup and fixups"
 a9429d5f99bc25885ba5d4c2c58a25467f5d741b Merge patch series "RISC-V: Enable cbo.zero in usermode"
 5d98446f03c622cb917e15a5561601587c64aab2 clocksource: timer-riscv: Don't enable/disable timer interrupt
 60c46877e9cd4f7fd13fa844258f60cca4eb3e34 clocksource: timer-riscv: Increase rating of clock_event_device for Sstc
@@ -1045,10 +1025,30 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-8fbc208f9ec95299f5eb8a18d1d8770f04c44a6a x86/paravirt: move some functions and defines to alternative
-52688184f6e69c92294b816bb637f167087e50b3 x86/alternative: add indirect call patching
-fdb3e0127694ae829cfe151f62fd38c8d3e31f55 x86/paravirt: introduce ALT_NOT_XEN
-2ec906ef2bb0f6c46bc1a9e03bb4baf800c9c7d1 x86/paravirt: switch mixed paravirt/alternative calls to alternative_2
-272952d522f2cbaaf422f6fd2c72bf6aee448495 x86/paravirt: remove no longer needed paravirt patching code
+eab03c23c2a162085b13200d7942fc5a00b5ccc8 sched/eevdf: Fix vruntime adjustment on reweight
+8b39d20eceeda6c4eb23df1497f9ed2fffdc8f69 sched: psi: fix unprivileged polling against cgroups
+6d7e4782bcf549221b4ccfffec2cf4d1a473f1a3 sched/fair: Fix the decision for load balance
+d6111cf45c5787282b2e20d77bdb6b28881d516a sched: Use WRITE_ONCE() for p->on_rq
+84db47ca7146d7bd00eb5cf2b93989a971c84650 sched/numa: Fix mm numa_scan_seq based unconditional scan
+2227a957e1d5b1941be4e4207879ec74f4bb37f8 sched/eevdf: Sort the rbtree by virtual deadline
+ee4373dc902c0a403dd084b254ce70a78f95466f sched/eevdf: O(1) fastpath for task selection
+5d69eca542ee17c618f9a55da52191d5e28b435f sched: Unify runtime accounting across classes
+5fe6ec8f6ab549b6422e41551abb51802bd48bc7 sched: Remove vruntime from trace_sched_stat_runtime()
+c708a4dc5ab547edc3d6537233ca9e79ea30ce47 sched: Unify more update_curr*()
+9e07d45c5210f5dd6701c00d55791983db7320fa sched/deadline: Collect sched_dl_entity initialization
+2f7a0f58948d8231236e2facecc500f1930fb996 sched/deadline: Move bandwidth accounting into {en,de}queue_dl_entity
+63ba8422f876e32ee564ea95da9a7313b13ff0a1 sched/deadline: Introduce deadline servers
+dd5403869a40595eb953f12e8cd2bb57bb88bb67 sched/cpuidle: Comment about timers requirements VS idle handler
+194600008d5c43b5a4ba98c4b81633397e34ffad sched/timers: Explain why idle task schedules out on remote timer enqueue
+b334b57f6da0505daf1bd712ed01788ed20c0e97 sched/schedutil: Rework performance estimation
+51c75211c66bfb64915e2465784e92969fbcdf23 sched/schedutil: Rework iowait boost
+9cc2a5222b88edf916910fa95734583745abfad0 x86: Add a comment about the "magic" behind shadow sti before mwait
+ada87d23b7349ca1f469d314677ed9d66712e1a7 x86: Fix CPUIDLE_FLAG_IRQ_ENABLE leaking timer reprogram
+91861e6d4b3b1865a758139f49bbd90d1d2241ea sched/eevdf: Add feature comments
+5ffa63c32893529f8a87915b879f0d01905cf3cd sched/eevdf: Remove min_vruntime_copy
+09619d2e8de0738d5ac8b8120fa31ad7fa650181 sched/eevdf: Use sched_attr::sched_runtime to set request/slice suggestion
+e9b21f306d284c8bda038b9deec9d90382d6e322 sched/eevdf: Allow shorter slices to wakeup-preempt
+e26fac89c449fb764508d2e2d4261d496b44211a sched/eevdf: Revenge of the Sith^WSleeper
+dc8b266721e111aab83b5aac748442e9631cfd87 sched/eevdf: Delay dequeue
 
---===============2797810277243497917==--
+--===============8848595527552902068==--
