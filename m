@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 17 Nov 2023 00:12:32 -0000
-Message-Id: <170017995280.5009.8941830437928694174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 17 Nov 2023 00:19:52 -0000
+Message-Id: <170018039213.9208.17700414210256783611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 3fc6350fc8470d42f5e700ecd1c3d90f9dd9fd2d
-    new: 54a1dc08e1737552e6764f38837b19fae9548fb0
+  - ref: refs/heads/main
+    old: 7fbd5fc2b35a8f559a6b380dfa9bcd964a758186
+    new: 0c3bd086d12d185650d095a906662593ec607bd0
     log: |
-         54a1dc08e1737552e6764f38837b19fae9548fb0 spi: dt-bindings: renesas,rspi: Document RZ/Five SoC
+         0c3bd086d12d185650d095a906662593ec607bd0 rxrpc: Fix some minor issues with bundle tracing
          
