@@ -1,32 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 17 Nov 2023 16:42:21 -0000
-Message-Id: <170023934192.19335.15206972762096652652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 17 Nov 2023 16:51:34 -0000
+Message-Id: <170023989492.25781.16050155648829619232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-linus
-    old: 37e6fd0cebf0b9f71afb38fd95b10408799d1f0b
-    new: f8ba14b780273fd290ddf7ee0d7d7decb44cc365
+  - ref: refs/heads/master
+    old: cac10b52fcb3e89b1a2797e207874ea1e6adf884
+    new: 5e1f19fca7c693535f1b32210075519f3b40d6d3
     log: |
-         d5c65be34df73fa01ed05611aafb73b440d89e29 ASoC: Intel: Skylake: Fix mem leak in few functions
-         c1501f2597dd08601acd42256a4b0a0fc36bf302 ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
-         31e721fbd194d5723722eaa21df1d14cee7e12b5 ASoC: SOF: topology: Fix mem leak in sof_dai_load()
-         f8ba14b780273fd290ddf7ee0d7d7decb44cc365 ASoC: Intel: Skylake: mem leak in skl register function
-         
-  - ref: refs/heads/for-next
-    old: 76d13459c5f775a35bff1fb702d9f9a1ce14645e
-    new: 5cd8f4f4c1d0370176462e96bf6a0cbf2820c276
-    log: |
-         d5c65be34df73fa01ed05611aafb73b440d89e29 ASoC: Intel: Skylake: Fix mem leak in few functions
-         c1501f2597dd08601acd42256a4b0a0fc36bf302 ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
-         31e721fbd194d5723722eaa21df1d14cee7e12b5 ASoC: SOF: topology: Fix mem leak in sof_dai_load()
-         f8ba14b780273fd290ddf7ee0d7d7decb44cc365 ASoC: Intel: Skylake: mem leak in skl register function
-         5cd8f4f4c1d0370176462e96bf6a0cbf2820c276 Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
+         5e0a97b197dff34f9fe5b37d8bdfade685e7ea81 dpp: fail early if multicast frame registration is unsupported
+         5e1f19fca7c693535f1b32210075519f3b40d6d3 doc: document additional NotSupported shared code return
          
