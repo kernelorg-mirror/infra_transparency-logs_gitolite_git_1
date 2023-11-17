@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 17 Nov 2023 02:12:35 -0000
-Message-Id: <170018715553.31272.12253424000991842092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 17 Nov 2023 02:27:41 -0000
+Message-Id: <170018806167.8768.15420181530137664600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: c94c73da81d72b94d6eee45a2973f17df92fd198
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+  - ref: refs/heads/main
+    old: 7c93d177d913a3a43bcb8f8edd4e2f78074a18a3
+    new: d580d265e9abb8c4e1e891051c7b03f3eac86055
+    log: |
+         d580d265e9abb8c4e1e891051c7b03f3eac86055 tipc: Remove redundant call to TLV_SPACE()
+         
