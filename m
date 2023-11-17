@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 17 Nov 2023 20:13:18 -0000
-Message-Id: <170025199833.9416.11073042665326157721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 17 Nov 2023 20:13:34 -0000
+Message-Id: <170025201473.9578.13770244538513283787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: bcb4e281d06705389d5839d1f7650d594396ded4
-    new: bf51c52a1f3c238d72c64e14d5e7702d3a245b82
+  - ref: refs/heads/master
+    old: 5e1f19fca7c693535f1b32210075519f3b40d6d3
+    new: aaaa3d18006c44f3298ccaa33991b7ecdb5df3b3
     log: |
-         bc1b5acb40201a0746d68a7d7cfc141899937f4f nfsd: fix file memleak on client_opens_release
-         49cecd8628a9855cd993792a0377559ea32d5e7c NFSD: Update nfsd_cache_append() to use xdr_stream
-         1caf5f61dd8430ae5a0b4538afe4953ce7517cbb NFSD: Fix "start of NFS reply" pointer passed to nfsd_cache_update()
-         bf51c52a1f3c238d72c64e14d5e7702d3a245b82 NFSD: Fix checksum mismatches in the duplicate reply cache
+         aaaa3d18006c44f3298ccaa33991b7ecdb5df3b3 dbus: add SharedCodeAgent interface to iwd-dbus.conf
          
