@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2083466609900666275=="
+Content-Type: multipart/mixed; boundary="===============1530436633673924536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 17 Nov 2023 06:45:04 -0000
-Message-Id: <170020350418.31857.17385407770054909211@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 06:45:27 -0000
+Message-Id: <170020352777.32044.12861040022827110727@gitolite.kernel.org>
 
---===============2083466609900666275==
+--===============1530436633673924536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: eefed7662ff223f70ba8b1af07f1a096a5ece588
     new: 18de1e517ed37ebaf33e771e46faf052e966e163
     log: revlist-eefed7662ff2-18de1e517ed3.txt
 
---===============2083466609900666275==
+--===============1530436633673924536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d580d265e9abb8c4e1e891051c7b03f3eac86055 tipc: Remove redundant call to TLV_SPAC
 380b50ae3a04222334a3779b3787eba844b1177f net: phy: broadcom: Wire suspend/resume for BCM54612E
 18de1e517ed37ebaf33e771e46faf052e966e163 gve: add gve_features_check()
 
---===============2083466609900666275==--
+--===============1530436633673924536==--
