@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3928802255659853891=="
+Content-Type: multipart/mixed; boundary="===============8557880444999879959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 17 Nov 2023 17:30:35 -0000
-Message-Id: <170024223560.22140.15617711580304624672@gitolite.kernel.org>
+Date: Fri, 17 Nov 2023 17:30:49 -0000
+Message-Id: <170024224951.22288.12068296486845062635@gitolite.kernel.org>
 
---===============3928802255659853891==
+--===============8557880444999879959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 9bacdd8996c77c42ca004440be610692275ff9d0
     new: 6bc40e44f1ddef16a787f3501b97f1fff909177c
     log: revlist-9bacdd8996c7-6bc40e44f1dd.txt
 
---===============3928802255659853891==
+--===============8557880444999879959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -154,4 +154,4 @@ bf786e2a78d4d3cfc87469c3b31ade257df14fa0 Merge tag 'audit-pr-20231116' of git://
 eb9a643c1739b732b90714131962bee76d279600 Merge tag 'sound-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 6bc40e44f1ddef16a787f3501b97f1fff909177c Merge tag 'ovl-fixes-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 
---===============3928802255659853891==--
+--===============8557880444999879959==--
