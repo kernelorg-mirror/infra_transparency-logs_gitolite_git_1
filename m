@@ -1,31 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1945474847297085804=="
+Content-Type: multipart/mixed; boundary="===============6689391937138142842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sat, 18 Nov 2023 00:53:12 -0000
-Message-Id: <170026879268.14157.4494069041662379138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Sat, 18 Nov 2023 01:14:40 -0000
+Message-Id: <170027008049.29559.13969219599484136191@gitolite.kernel.org>
 
---===============1945474847297085804==
+--===============6689391937138142842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/kdevops
-    old: ffc253263a1375a65fa6c9f62a893e9767fbebfa
-    new: 59119280b27517466283f5af16ac639ef557b043
-    log: revlist-ffc253263a13-59119280b275.txt
+  - ref: refs/heads/md-fixes
+    old: 2fd7b0f6d5ad655b1d947d3acdd82f687c31465e
+    new: 8b49b1c766878976fcc62a7a6c561dbbcb64c5cb
+    log: revlist-2fd7b0f6d5ad-8b49b1c76687.txt
 
---===============1945474847297085804==
+--===============6689391937138142842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffc253263a13-59119280b275.txt
+Content-Disposition: attachment; filename=revlist-2fd7b0f6d5ad-8b49b1c76687.txt
 
+69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
+d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
+5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
+9ae587f850a6702428273fcf4a2a9b392349b2a3 drm/amdgpu: Fix the vram base start address
+7f3e6b840fa8b0889d776639310a5dc672c1e9e1 drm/amd/pm: Fix error of MACO flag setting code
+2bfb0ca3dd0c40b929ecedf1fc941c139945d055 drm/amdgpu: remove unused macro HW_REV
+20cd569d7ee8fce24e8753f0f43af6c420557b1f Merge branch 'for-6.7/config_pm' into for-linus
+f5883ef15644bdaf5f0850b9c0469e00d40bfb4f Merge branch 'for-6.7/cp2112' into for-linus
+7601fef449c7994c18cda47cbf470cb189e00fbd Merge branch 'for-6.7/lenovo' into for-linus
+54021f902b374793ebcf90de2720a57b3bcaf9e3 Merge branch 'for-6.7/logitech' into for-linus
+93cfa25b1795ec5f47fdba2241acc2d4957be597 Merge branch 'for-6.7/nintendo' into for-linus
+eacaa65efaa70b292c174629a672916c60981059 Merge branch 'for-6.7/nvidia-shield' into for-linus
+e12f065db4729f46bbc73afba91a1f4322fb5df3 Merge branch 'for-6.7/selftests' into for-linus
+1372e73a18139d4f74731cc900085a6bf3c59daf Merge branch 'for-6.7/uclogic' into for-linus
 ce56d21355cd6f6937aca32f1f44ca749d1e4808 ext4: fix racy may inline data check in dio write
 91562895f8030cb9a0470b1db49de79346a69f91 ext4: properly sync file size update after O_SYNC direct IO
 4ac4677fdb76f644e09a6331bab65919b85f617d Merge tag 'thermal-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1031,24 +1045,10 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-7647255885df2babfb35f83717a8f49d437e99cd nfsd: new Kconfig option for legacy client tracking
-f9013da9181ce9efdceb43a480689538ee574be9 NFSD: use read_seqbegin() rather than read_seqbegin_or_lock()
-77ba5b340b7c02795833408b6e67f66b5bfe9292 NFSD: Make the file_delayed_close workqueue UNBOUND
-8fc662065577c605e8e6c6e16c1e890e4b490e4b NFSD: Remove nfsd_drc_gc() tracepoint
-bc1b5acb40201a0746d68a7d7cfc141899937f4f nfsd: fix file memleak on client_opens_release
-49cecd8628a9855cd993792a0377559ea32d5e7c NFSD: Update nfsd_cache_append() to use xdr_stream
-1caf5f61dd8430ae5a0b4538afe4953ce7517cbb NFSD: Fix "start of NFS reply" pointer passed to nfsd_cache_update()
-bf51c52a1f3c238d72c64e14d5e7702d3a245b82 NFSD: Fix checksum mismatches in the duplicate reply cache
-a08a4bb07953548ba0d00ec2175a94cf87024425 Merge remote-tracking branch 'mrchuck/nfsd-fixes' into kdevops
-b9c6d8b42dd2b0bead80eded72386fdd37c7e835 Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
-ad15d56e9963681bdeeae0c34f3d4f4323e1b8b5 nfsd: hold ->cl_lock for hash_delegation_locked()
-3e723b03a8ccfee774be5f7fdc87baf68f5dd158 nfsd: avoid race after unhash_delegation_locked()
-13c5f569b010f26ebf79eba55f33fa536aa708d6 nfsd: split sc_status out of sc_type
-c50cfc4d769b7d2b6e6808bb6068ab7422e80bb5 nfsd: prepare for supporting admin-revocation of state
-5bec32e1b5e27d75cd13205735f64233b2fae974 nfsd: allow admin-revoked state to appear in /proc/fs/nfsd/clients/*/states
-cc50621d37c3f2cf1f68ef76f025c9266e1f8184 nfsd: allow admin-revoked NFSv4.0 state to be freed.
-6de6f77ce9707213795fdc77a3efcb9ac2d5e044 nfsd: allow lock state ids to be revoked and then freed
-80207578b21814477089af9cddac9cbfde32ad61 nfsd: allow open state ids to be revoked and then freed
-59119280b27517466283f5af16ac639ef557b043 nfsd: allow delegation state ids to be revoked and then freed
+b0077e269f6c152e807fdac90b58caf012cdbaab blk-mq: make sure active queue usage is held for bio_integrity_prep()
+27b13e209ddca5979847a1b57890e0372c1edcee blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
+35a99d6557cacbc177314735342f77a2dda41872 blk-cgroup: avoid to warn !rcu_read_lock_held() in blkg_lookup()
+e63a57303599b17290cd8bc48e6f20b24289a8bc blk-cgroup: bypass blkcg_deactivate_policy after destroying
+8b49b1c766878976fcc62a7a6c561dbbcb64c5cb md: fix bi_status reporting in md_end_clone_io
 
---===============1945474847297085804==--
+--===============6689391937138142842==--
