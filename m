@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6245994137354367442=="
+Content-Type: multipart/mixed; boundary="===============2553339875456648638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 18 Nov 2023 00:32:24 -0000
-Message-Id: <170026754423.31496.16158501320260188083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 18 Nov 2023 00:32:30 -0000
+Message-Id: <170026755086.31627.11133136898090269034@gitolite.kernel.org>
 
---===============6245994137354367442==
+--===============2553339875456648638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: f8ba14b780273fd290ddf7ee0d7d7decb44cc365
     new: 3bdaf698a7973156209c00d33b548882784aefe8
     log: |
@@ -24,7 +24,7 @@ changes:
          aa7e8e5e4011571022dc06e4d7a2f108feb53d1a ASoC: cs43130: Fix incorrect frame delay configuration
          3bdaf698a7973156209c00d33b548882784aefe8 ASoC: Fixes for cs43130
          
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: 7d562ac331ddc4f798e6185a858bc98c22ee7d1b
     new: 36c4d9a6bf657789d13e933a289520b35ff8530b
     log: |
@@ -36,29 +36,29 @@ changes:
          36c4d9a6bf657789d13e933a289520b35ff8530b ASoC: cs43130: Fixes and improvements
          
 
---===============6245994137354367442==
+--===============2553339875456648638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1700267543 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1700267542-1a0d161101a74be2bdd13b29fffa5c35ba8316cf
+pusher Mark Brown <broonie@kernel.org> 1700267549 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1700267548-594c98a5cbc9258ac22ff4507e02cbf0344bef51
 
-f8ba14b780273fd290ddf7ee0d7d7decb44cc365 3bdaf698a7973156209c00d33b548882784aefe8 refs/heads/for-6.7
-7d562ac331ddc4f798e6185a858bc98c22ee7d1b 36c4d9a6bf657789d13e933a289520b35ff8530b refs/heads/for-6.8
+f8ba14b780273fd290ddf7ee0d7d7decb44cc365 3bdaf698a7973156209c00d33b548882784aefe8 refs/heads/asoc-6.7
+7d562ac331ddc4f798e6185a858bc98c22ee7d1b 36c4d9a6bf657789d13e933a289520b35ff8530b refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVYBhcTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0OFDB/97fWGlqnLacI0H+bXx8cvLb3C98HEN
-kBHlEgPRSEBmwyNRx+FgdcYmIkonzjs03yG+PX0Hp1JqQy37xwcyoZ3znHlacmE9
-SbIE7rG6G7/gMTB28eiHzrvoEKEJDpqLn5YQcxw9rggKWfYdaEPDpuqmmyxRDz1M
-FJa+rtRgdrpfTpusZZ5zQMnrlwjYL1hQ1pQuIr7S+BqVfXV5WdInoJrWUSQV3Nxi
-PAeVlr2Ee1sSnKDVmhlAjfESCiFVgjEc3soU9XIrKZgTOd0Eo0Svw+46rroQd4Yg
-zQxFAnz49rZUGW9q4icX/inBf1ctcYN03N2xkuMXiRNbMTDRvKlV/DNf
-=EYC/
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVYBh0THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BBeB/0UtrmCzHBFMSAoR5VC7qjn+KfnOE4b
+Bp5No1OR2zYvz6W0uwEAg7v7mWGkH06L+7a9fVsY1tr2xxJQhbqa4vT8UMITwLm7
+/JXmPeWW6Y1Kb0lrhXrTPACC4QIusKqMdwHieVFWFkmy62Ue7JRIN2IVXQoY+qKX
+B6498Jhz3qAWD4+9x20PIm4SEGoeCVA5XcbkuA5OK6R6VgK4JV6/2TRGSXwrEYmD
+nzaUaFAx4h0pQaO/XaJ5MSJ2xguXGZWdJexxW0/LPznrzRmPgSGqNEupP7ye5A/L
+TjP2e1twgtq7ACpGdqgXCu2iEzzB6ANoTh+VVxYvlegCZwBkOJKYwbHc
+=3rou
 -----END PGP SIGNATURE-----
 
---===============6245994137354367442==--
+--===============2553339875456648638==--
