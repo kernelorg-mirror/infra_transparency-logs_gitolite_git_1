@@ -1,27 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 18 Nov 2023 19:49:21 -0000
-Message-Id: <170033696107.26360.13281956445241771904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 18 Nov 2023 20:08:18 -0000
+Message-Id: <170033809860.8297.16723252363936708085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: ff8867af01daa7ea770bebf5f91199b7434b74e5
-    new: 16b3129e14bf2e7505512568b11c437c840a0c19
+  - ref: refs/heads/next
+    old: 7a28704b3acda0a9028309641af800c3501d390d
+    new: aea35271278aa574e6c2bdf19327732619d59066
     log: |
-         db840d389bad60ce6f3aadc1079da13e7e993a16 bpf: move verbose_linfo() into kernel/bpf/log.c
-         42feb6620accded89cad5f455665e21281813d79 bpf: move verifier state printing code to kernel/bpf/log.c
-         009f5465be3636e9ce795cfbd5d3109d8978774d bpf: extract register state printing
-         67d43dfbb42d6575304daea67733c88fbf536a1c bpf: print spilled register state in stack slot
-         0c95c9fdb696f35c7864785ba84cb9a50152daff bpf: emit map name in register state if applicable and available
-         1db747d75b1dbe17bf4283ed87bd3b7a92010f34 bpf: omit default off=0 and imm=0 in register state log
-         0f8dbdbc641b45a5fa31d497f9fc83ffe1174fa3 bpf: smarter verifier log number printing logic
-         46862ee854b4f5a315d63b677ca3af14a89aefeb bpf: emit frameno for PTR_TO_STACK regs if it differs from current one
-         16b3129e14bf2e7505512568b11c437c840a0c19 Merge branch 'bpf-verifier-log-improvements'
+         fdb7bcf1055b31ab4d48bacb5246b4c69bc96a2d _damo_fmt_str: Implement text_to_bp()
+         b047574beb2bbfe59c81c07032fbcde8b1d1fe90 tests/unit/test_fmt_str: Test text_to_bp()
+         b2c4dfc4324de1d4bb16d65b23fea91f9c266500 _damo_fmt_str: Implement format_bp()
+         d4f01afeeb2363e9f5bff6473eb02bd957c5233f tests/unit/test_fmt_str: Test format_bp()
+         354597d57c2e6c3693905cd62c888c1d076a715e _damon: Update features comment for DAMOS apply interval
+         f7b89480f51d852c4631dfab2177ac4b5c4539c9 _damon/features: Add schemes_quota_goals
+         cd4560e003f6d0808b19a11139dc89883a58a061 _damon_sysfs: Update features for quota goals
+         191c10dd2f4ea408f665cd42eb24d8942754d9b6 _damon: Implement class for DamosQuotaGoal
+         8f0204810fe7e33eadb3467529431bbc9c98c53b _damon_sysfs: Support quota goals writing
+         dbc1818e8c1a499110e55e7a57552503517e822d _damon_sysfs: Support reading quota goals
+         aea35271278aa574e6c2bdf19327732619d59066 _damon_args: Implement DAMOS quota goals argument
          
