@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4606576244388412241=="
+Content-Type: multipart/mixed; boundary="===============7109389973384390215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 18 Nov 2023 13:59:33 -0000
-Message-Id: <170031597322.2868.9547987679545790949@gitolite.kernel.org>
+Date: Sat, 18 Nov 2023 14:00:07 -0000
+Message-Id: <170031600702.4798.16311432463334458047@gitolite.kernel.org>
 
---===============4606576244388412241==
+--===============7109389973384390215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.super
-    old: 5a1468171c0ceaf118266ec50ad32ce7375f6bc7
-    new: afde134b5bd02a5c719336ca1d0d3cb7e4def70e
-    log: revlist-5a1468171c0c-afde134b5bd0.txt
+  - ref: refs/heads/vfs.misc
+    old: 97966f21d3d4bf64ffb41c67ffd01bc7fff8b2a9
+    new: 6cacf0fb011e1a671cf7446ca2861c26c0d56396
+    log: revlist-97966f21d3d4-6cacf0fb011e.txt
 
---===============4606576244388412241==
+--===============7109389973384390215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a1468171c0c-afde134b5bd0.txt
+Content-Disposition: attachment; filename=revlist-97966f21d3d4-6cacf0fb011e.txt
 
 34069d12e239ae8f36dd96c378e4622fb1c42a76 Merge tag 'v6.5' into next
 99faa48a5de31b360de22a7134291a110171d3f0 Input: cros_ec_keyb - use device core to create driver-specific device attributes
@@ -864,29 +864,9 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-f0cd988016f679f489f0ca8498c300eaff370b28 fs: massage locking helpers
-982c3b3058433f20aba9fb032599cee5dfc17328 bdev: rename freeze and thaw helpers
-fbcb8f39e96d59f4ed48cbdfaa65211fa867985c bdev: surface the error from sync_blockdev()
-a30561a9be69d446d8d542a4f9735fe5ca9573df bdev: add freeze and thaw holder operations
-49ef8832fb1a9e0da0020eb17480fd286433bc13 bdev: implement freeze and thaw holder operations
-434f8d8299f2a0c97578f77ab23a70cd0ae56544 fs: remove get_active_super()
-90f95dc415de23267b888f8238c4a19fa0f66b89 super: remove bd_fsfreeze_sb
-97cbed04e71da698d324c585f79f981b032a1bd5 fs: remove unused helper
-01bc8e9ae23a4257e12c87f5caa0f21034e7b40b porting: document block device freeze and thaw changes
-e419cf3ebaee694a826ddcfb350f1b1ebaf1e599 blkdev: comment fs_holder_ops
-761c47a973441cf2a3602d2a9d0407eb0ec6ce1c fs: simplify setup_bdev_super() calls
-653bee386c0875016cb36ed50f00bb0d8a7fcc7f xfs: simplify device handling
-218de67764e5c4682892427dd78b382e1709674c ext4: simplify device handling
-24c372d58223b83d0be5230c1a0e9370b60fb0ea fs: streamline thaw_super_locked
-5a8e94c0158f43341334e69a74b6dfa317ba3d2e nilfs2: simplify device handling
-efa5d065b4a0790061921194019c321ad335b8db fs: remove dead check
-7366f8b6fc6aa21c4199cb5d337b023df69745b0 fs: handle freezing from multiple devices
-1bfdc94b28cf1c89b5b3fb062b1defe51fdba163 bcachefs: Convert to bdev_open_by_path()
-cd34758c5238ae6976b10fe15bba7031b409c969 block: Remove blkdev_get_by_*() functions
-ed5cc702d311c14b653323d76062b0294effa66e block: Add config option to not allow writing to mounted devices
-ead622674df5a3ae575b964090bee65f6b7f805f btrfs: Do not restrict writes to btrfs devices
-6f861765464f43a71462d52026fbddfc858239a5 fs: Block writes to mounted block devices
-3584c8f48a70c1f74c7b7bab59cf22bb66224649 xfs: Block writes to log device
-afde134b5bd02a5c719336ca1d0d3cb7e4def70e ext4: Block writes to journal device
+aec0597412f1e00e53d096aba8a68eb870954222 vfs: remove a redundant might_sleep in wait_on_inode
+8388811114cef813aac0106807a68fbc59ea06f7 fs : Fix warning using plain integer as NULL
+2abc12559f1f267db87acc689ea7a6a924e7168a fs: Clarify "non-RCY" in access_override_creds() comment
+6cacf0fb011e1a671cf7446ca2861c26c0d56396 userns: eliminate many kernel-doc warnings
 
---===============4606576244388412241==--
+--===============7109389973384390215==--
