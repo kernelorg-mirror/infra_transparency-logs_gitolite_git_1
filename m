@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0097211364087742701=="
+Content-Type: multipart/mixed; boundary="===============3652528281395580333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 18 Nov 2023 15:54:23 -0000
-Message-Id: <170032286352.19923.7647549160860669125@gitolite.kernel.org>
+Date: Sat, 18 Nov 2023 15:54:26 -0000
+Message-Id: <170032286616.19996.6122959021043715505@gitolite.kernel.org>
 
---===============0097211364087742701==
+--===============3652528281395580333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip-fixes
+  - ref: refs/heads/microchip-defconfig
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
     log: revlist-0bb80ecc33a8-b85ea95d0864.txt
 
---===============0097211364087742701==
+--===============3652528281395580333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============0097211364087742701==--
+--===============3652528281395580333==--
