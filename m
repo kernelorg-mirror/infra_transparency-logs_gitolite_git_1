@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1232542460841828980=="
+Content-Type: multipart/mixed; boundary="===============0317862758400692412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 18 Nov 2023 22:50:01 -0000
-Message-Id: <170034780176.25585.2531403113158791150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 18 Nov 2023 23:07:15 -0000
+Message-Id: <170034883581.5905.13673772872766460140@gitolite.kernel.org>
 
---===============1232542460841828980==
+--===============0317862758400692412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/tmp
-    old: 798daa9b69b07aeb32ef1dc1c49c3f2c6b242b8d
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-798daa9b69b0-b85ea95d0864.txt
+  - ref: refs/heads/for-next
+    old: 1aee9158bc978f91701c5992e395efbc6da2de3c
+    new: bbe6a7c899e7f265c5a6d01a178336a405e98ed6
+    log: revlist-1aee9158bc97-bbe6a7c899e7.txt
 
---===============1232542460841828980==
+--===============0317862758400692412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-798daa9b69b0-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-1aee9158bc97-bbe6a7c899e7.txt
 
-5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
-e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
 a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
 5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
 853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
@@ -1050,5 +1048,7 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+74d016ecc1a7974664e98d1afbf649cd4e0e0423 new helper: user_path_locked_at()
+bbe6a7c899e7f265c5a6d01a178336a405e98ed6 bch2_ioctl_subvolume_destroy(): fix locking
 
---===============1232542460841828980==--
+--===============0317862758400692412==--
