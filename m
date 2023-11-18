@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7912861677395291341=="
+Content-Type: multipart/mixed; boundary="===============8285377231158254888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 18 Nov 2023 13:50:19 -0000
-Message-Id: <170031541967.29821.10853122874790551333@gitolite.kernel.org>
+Date: Sat, 18 Nov 2023 13:51:41 -0000
+Message-Id: <170031550109.30360.12348277182523946861@gitolite.kernel.org>
 
---===============7912861677395291341==
+--===============8285377231158254888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 1c02f0355add61ce5049893afdd549bbcb59a365
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-1c02f0355add-b85ea95d0864.txt
+  - ref: refs/heads/vfs.super
+    old: 5a1468171c0ceaf118266ec50ad32ce7375f6bc7
+    new: d382869846bcb5ff018f848eac7fb26704dceb6f
+    log: revlist-5a1468171c0c-d382869846bc.txt
 
---===============7912861677395291341==
+--===============8285377231158254888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c02f0355add-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-5a1468171c0c-d382869846bc.txt
 
 34069d12e239ae8f36dd96c378e4622fb1c42a76 Merge tag 'v6.5' into next
 99faa48a5de31b360de22a7134291a110171d3f0 Input: cros_ec_keyb - use device core to create driver-specific device attributes
@@ -864,5 +864,22 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
+b4a5ffce7a2c0a36ae868a82ffea595a9b58db94 fs: massage locking helpers
+cdbf2673df9dae4fafa7de735aed3435ee9cabf9 bdev: rename freeze and thaw helpers
+434488b15bf08a3ae336a126867593536c31e25c bdev: surface the error from sync_blockdev()
+e619b58d525243e3ee97b62fb8725e83ea086c0d bdev: add freeze and thaw holder operations
+d86bb28792a65deb9475445668f1f7d6c0d559ff bdev: implement freeze and thaw holder operations
+50d8d907068a37c1d3e5c19c2df2f8c8a2166ffb fs: remove get_active_super()
+1202a0ab58af1ca9393a0b316c75d29224297f62 super: remove bd_fsfreeze_sb
+37350f16a30b505d507b2f3044f262ee4c7575ae fs: remove unused helper
+f32005f4d58451f856162a4965661424a052ecc9 porting: document block device freeze and thaw changes
+5a3b1d4d310d684f31fe3aca1e91dad7c4d393d3 blkdev: comment fs_holder_ops
+40e0c540a4e7bd67ea86cb87d07f4b0f22e55b1d fs: simplify setup_bdev_super() calls
+7214b470c0bececf93dcdb1d2f5febf51ba8f6eb xfs: simplify device handling
+4ca43dfb72503dbe22e71911c872b5ede9d31cb0 ext4: simplify device handling
+f5eeec9ae1e5e9d946fe2fd4116b549b04310f20 fs: streamline thaw_super_locked
+87ef0fed61b5ba18530af5ba50e82609088a2094 nilfs2: simplify device handling
+1e09d95d7725375bf3ff49c281d7687219c51cc4 fs: remove dead check
+d382869846bcb5ff018f848eac7fb26704dceb6f fs: handle freezing from multiple devices
 
---===============7912861677395291341==--
+--===============8285377231158254888==--
