@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6018849771679962200=="
+Content-Type: multipart/mixed; boundary="===============1399503899590910296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Sun, 19 Nov 2023 15:03:58 -0000
-Message-Id: <170040623817.18855.10023688640087598104@gitolite.kernel.org>
+Date: Sun, 19 Nov 2023 15:05:18 -0000
+Message-Id: <170040631800.20909.14359258284934210989@gitolite.kernel.org>
 
---===============6018849771679962200==
+--===============1399503899590910296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: a12deb44f9734dc25970c266249b272e44d3d1b5
-    new: 037266a5f7239ead1530266f7d7af153d2a867fa
-    log: revlist-a12deb44f973-037266a5f723.txt
-  - ref: refs/heads/for-6.7-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 15517a8cb60779e6d0a88983793574f4d7eb866b
+  - ref: refs/heads/for-next
+    old: e76d28bdf9ba5388b8c4835a5199dc427b603188
+    new: cbbddc05a7cdecf0d87ea2797bdd9a5038f31f95
+    log: revlist-e76d28bdf9ba-cbbddc05a7cd.txt
 
---===============6018849771679962200==
+--===============1399503899590910296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a12deb44f973-037266a5f723.txt
+Content-Disposition: attachment; filename=revlist-e76d28bdf9ba-cbbddc05a7cd.txt
 
 4d1827485acecac0016eaaec199e97697afdaa84 tools/power/turbostat: Fix failure with new uncore sysfs
 137f01b3529d292a68d22e9681e2f903c768f790 tools/power/turbostat: Fix a knl bug
@@ -818,5 +815,7 @@ bb28378af3921ea50f316d025acd1f7290873b51 Merge tag 'nfsd-6.7-1' of git://git.ker
 b8f1fa2419c19c81bc386a6b350879ba54a573e1 Merge tag 'xfs-6.7-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 2254005ef1474d59b706f2ea574d8552071631b1 Merge tag 'parisc-for-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 037266a5f7239ead1530266f7d7af153d2a867fa Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+15517a8cb60779e6d0a88983793574f4d7eb866b cgroup_freezer: cgroup_freezing: Check if not frozen
+cbbddc05a7cdecf0d87ea2797bdd9a5038f31f95 Merge branch 'for-6.7-fixes' into for-next
 
---===============6018849771679962200==--
+--===============1399503899590910296==--
