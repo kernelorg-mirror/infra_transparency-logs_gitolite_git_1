@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sat, 18 Nov 2023 23:58:38 -0000
-Message-Id: <170035191851.9784.160644820827263379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 19 Nov 2023 00:36:13 -0000
+Message-Id: <170035417318.4194.13513376105537332030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 54a1dc08e1737552e6764f38837b19fae9548fb0
-    new: 18a813a1f94abbab14248071ca551e491bbc2abe
+  - ref: refs/heads/master
+    old: fda5db8f977e5ebf3be4b3c29bbeb3355bac1671
+    new: e2d7c2f47873381d3897e5fe2ea78837314d1fa6
     log: |
-         18a813a1f94abbab14248071ca551e491bbc2abe spi: intel: make mem_ops comparison unique to opcode match
+         e2d7c2f47873381d3897e5fe2ea78837314d1fa6 Sun Nov 19 12:34:48 AM UTC 2023
          
