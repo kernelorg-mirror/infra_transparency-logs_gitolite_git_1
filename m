@@ -1,19 +1,61 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 20 Nov 2023 22:45:33 -0000
-Message-Id: <170052033354.21118.16349067168565058487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 20 Nov 2023 22:46:00 -0000
+Message-Id: <170052036027.21384.1571944670696228741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 6cacf0fb011e1a671cf7446ca2861c26c0d56396
-    new: 136aef2de55ce49d6e607f2a70801f8218c4497e
-    log: |
-         136aef2de55ce49d6e607f2a70801f8218c4497e fs: namei: Fix spelling mistake "Retuns" to "Returns"
-         
+  - ref: refs/tags/drm-fixes-2023-09-15
+    old: 0000000000000000000000000000000000000000
+    new: 70388a28a5cfe0d6d64b47181c1abe1461d643b3
+  - ref: refs/tags/drm-fixes-2023-09-22
+    old: 0000000000000000000000000000000000000000
+    new: 7ddb277845f426d50cda03929e6d1a5fa0215885
+  - ref: refs/tags/drm-fixes-2023-09-22-2
+    old: 0000000000000000000000000000000000000000
+    new: ae84881265b8bcbd6db5507669414c2a5b5e8384
+  - ref: refs/tags/drm-fixes-2023-09-29
+    old: 0000000000000000000000000000000000000000
+    new: 74e1e7e5a9cdf410056f26794dac18a140192a0d
+  - ref: refs/tags/drm-fixes-2023-10-06
+    old: 0000000000000000000000000000000000000000
+    new: 2302234740a26a441cdc6f64d5747e733da550e6
+  - ref: refs/tags/drm-fixes-2023-10-13
+    old: 0000000000000000000000000000000000000000
+    new: 045530b0ab0d247c003675a2944ac7cae4b323a4
+  - ref: refs/tags/drm-fixes-2023-10-20
+    old: 0000000000000000000000000000000000000000
+    new: 417d389084afcaf1650b72c2d50cd7d3f463a0a8
+  - ref: refs/tags/drm-fixes-2023-10-27
+    old: 0000000000000000000000000000000000000000
+    new: 5209fb629317adfc59f86747302fa2d3ce7032b9
+  - ref: refs/tags/drm-fixes-2023-11-17
+    old: 0000000000000000000000000000000000000000
+    new: ba1ffbe473ea413023c9a4c5d265fd2201f08dd1
+  - ref: refs/tags/drm-next-2023-09-08
+    old: 0000000000000000000000000000000000000000
+    new: 9a329f1f3b7db73bc01c29fc7fe5c9928dddfa02
+  - ref: refs/tags/drm-next-2023-10-31-1
+    old: 0000000000000000000000000000000000000000
+    new: 2a64b4b3add809914c8dff3110ca8ed9010b6723
+  - ref: refs/tags/drm-next-2023-11-07
+    old: 0000000000000000000000000000000000000000
+    new: e2af44d37d0aaf637922cfcc286d67553b87c83f
+  - ref: refs/tags/drm-next-2023-11-10
+    old: 0000000000000000000000000000000000000000
+    new: 1f1edf0cd8b4ca5560f84bcb2abd42c108552372
+  - ref: refs/tags/exynos-drm-fixes-for-v6.7-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 117d4cb7f699f9324193b680e9fbb2cf5dab50b8
+  - ref: refs/tags/topic/nvidia-gsp-2023-11-03
+    old: 0000000000000000000000000000000000000000
+    new: 05206fb314c6a2d0c0c674fe2f3734369b979d88
+  - ref: refs/tags/topic/vmemdup-user-array-2023-10-24-1
+    old: 0000000000000000000000000000000000000000
+    new: 00357412308ee0d83baff0f590e16b736a87795a
