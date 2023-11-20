@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 20 Nov 2023 21:54:11 -0000
-Message-Id: <170051725166.13881.14387446238533466522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 20 Nov 2023 22:00:37 -0000
+Message-Id: <170051763790.19322.7295945847790697498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/enumeration
-    old: 0000000000000000000000000000000000000000
-    new: d9dcdb4531fe39ce48919ef8c2c9369ee49f3ad2
+  - ref: refs/heads/for-next
+    old: 12e68cce4c5c07a570e2abbde549556fe05c24b0
+    new: 0000000000000000000000000000000000000000
