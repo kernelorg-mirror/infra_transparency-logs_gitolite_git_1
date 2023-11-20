@@ -1,65 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============3763107537125254367=="
+Content-Type: multipart/mixed; boundary="===============4790939263871474253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 20 Nov 2023 17:50:04 -0000
-Message-Id: <170050260423.31883.17181972959492871140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Mon, 20 Nov 2023 18:17:30 -0000
+Message-Id: <170050425044.18603.1212607619259952592@gitolite.kernel.org>
 
---===============3763107537125254367==
+--===============4790939263871474253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/block-6.7
-    old: e63a57303599b17290cd8bc48e6f20b24289a8bc
-    new: 53f2bca2609237f910531f2c1a7779b16ce7952d
-    log: revlist-e63a57303599-53f2bca26092.txt
-  - ref: refs/heads/for-next
-    old: 8aa6053114f3dedcf1acd34f4cbad7066d924258
-    new: 12ce51070932c87e3a28ab2e9782863a4456669a
-    log: revlist-8aa6053114f3-12ce51070932.txt
-  - ref: refs/heads/io_uring-6.7
-    old: a0d45c3f596be53c1bd8822a1984532d14fdcea9
-    new: 8479063f1fbee201a8739130e816cc331b675838
-    log: |
-         8479063f1fbee201a8739130e816cc331b675838 io_uring/fs: consider link->flags when getting path for LINKAT
-         
+  - ref: refs/heads/master
+    old: ffc253263a1375a65fa6c9f62a893e9767fbebfa
+    new: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+    log: revlist-ffc253263a13-98b1cc82c4af.txt
+  - ref: refs/tags/v6.7-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
+  - ref: refs/heads/dquot-recovery-checking-6.7
+    old: 0000000000000000000000000000000000000000
+    new: 3983d1afdfa56548b847c8ca53e66dce866e5cbb
+  - ref: refs/tags/dquot-recovery-checking-6.7_2023-11-20
+    old: 0000000000000000000000000000000000000000
+    new: 6daeb28c794d39e2f6ce2ba006b403e6112f36ff
 
---===============3763107537125254367==
+--===============4790939263871474253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e63a57303599-53f2bca26092.txt
+Content-Disposition: attachment; filename=revlist-ffc253263a13-98b1cc82c4af.txt
 
-45b478951b2ba5aea70b2850c49c1aa83aedd0d2 md: fix bi_status reporting in md_end_clone_io
-baf8fb7e0e5ec54ea0839f0c534f2cdcd79bea9c bcache: avoid oversize memory allocation by small stripe_size
-777967e7e9f6f5f3e153abffb562bffaf4430d26 bcache: check return value from btree_node_alloc_replacement()
-be93825f0e6428c2d3f03a6e4d447dc48d33d7ff bcache: remove redundant assignment to variable cur_idx
-2c7f497ac274a14330208b18f6f734000868ebf9 bcache: prevent potential division by zero error
-7cc47e64d3d69786a2711a4767e26b26ba63d7ed bcache: fixup init dirty data errors
-e34820f984512b433ee1fc291417e60c47d56727 bcache: fixup lock c->root error
-2faac25d7958c4761bb8cec54adb79f806783ad6 bcache: fixup multi-threaded bch_sectors_dirty_init() wake-up race
-f72f4312d4388376fc8a1f6cf37cb21a0d41758b bcache: replace a mistaken IS_ERR() by IS_ERR_OR_NULL() in btree_gc_coalesce()
-31f5b956a197d4ec25c8a07cb3a2ab69d0c0b82f bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
-3eba5e0b2422aec3c9e79822029599961fdcab97 bcache: avoid NULL checking to c->root in run_cache_set()
-8a554c6234731d63014391331127480755d6cac4 Merge tag 'md-fixes-20231120' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.7
-1b59860540a4018e8071dc18d4893ec389506b7d nbd: fold nbd config initialization into nbd_alloc_config()
-3123ac77923341774ca3ad1196ad20bb0732bf70 nbd: factor out a helper to get nbd_config without holding 'config_lock'
-c2da049f419417808466c529999170f5c3ef7d3d nbd: fix null-ptr-dereference while accessing 'nbd->config'
-c96b8175522a2c52e297ee0a49827a668f95e1e8 block: Remove blk_set_runtime_active()
-53f2bca2609237f910531f2c1a7779b16ce7952d block/null_blk: Fix double blk_mq_start_request() warning
-
---===============3763107537125254367==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8aa6053114f3-12ce51070932.txt
-
+5394fe9494011de19baff276ce02a2f00eef568a bcachefs: Fix snapshot skiplists
+94119eeb02d114aa1f78dcfaabdca50b9b626790 bcachefs: Add IO error counts to bch_member
+f5d26fa31ed2e260589f0bc8af010bb742f1231e bcachefs: bch_sb_field_errors
+b65db750e2bb9252321fd54c284edd73c1595a09 bcachefs: Enumerate fsck errors
+85103d15ca3fe3b987f912873cb4f91b6f557c6c bcachefs: Fix error path in bch2_replicas_gc_end()
+2e7acdfbcad8b60eeef29d3beb3eb9a7085e3768 bcachefs: Fix deleted inodes btree in snapshot deletion
+be9e782df3cb557715630a61dc79d9f966737859 bcachefs: Don't downgrade locks on transaction restart
+df94cb2e57b2cc539f325003e7abb76d3060d55b bcachefs: Fix an integer overflow
+dc7a15fb90bf658be8289c9540c11f50993d10ff bcachefs: Skip deleted members in member_to_text()
+1e0c505e13162a2abe7c984309cfe2ae976b428d Merge tag 'asm-generic-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+2ba446f82142d0d42fc5ea7bea7af581d33a7939 Merge tag 'shmob-drm-atomic-dt-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into drm-next
+1b10d2c8c6219bfc86d8c7d53a4f97a0a706d1ba Merge tag 'bootconfig-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+05bf73aa27ba89474763cea7b9cd2626eda61e01 Merge tag 'probes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ff269e2cd5adce4ae14f883fc9c8803bc43ee1e9 Merge tag 'net-next-6.7-followup' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+463f46e114f74465cf8d01b124e7b74ad1ce2afd Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+5eda8f25377f3d6de697eaa1d9801b9781d09dbc Merge tag 'linux_kselftest-kunit-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+7dc0e9c7dda66bd91eeada00d90033e3eb647fc3 Merge tag 'linux_kselftest-next-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+babe393974de0351c0e6cca50f5f84edaf8d7fa1 Merge tag 'docs-6.7' of git://git.lwn.net/linux
+bb32500fb9b78215e4ef6ee8b4345c5f5d7eafb4 tracing: Have trace_event_file have ref counters
+77bc4d4921bd3497678ba8e7f4e480de35692f05 eventfs: Remove extra dget() in eventfs_create_events_dir()
+4f7969bcd6d33042d62e249b41b5578161e4c868 tracing: Have the user copy of synthetic event address use correct context
+9037caa09ed345b35325200f0e4acf5a94ae0a65 eventfs: Fix kerneldoc of eventfs_remove_rec()
+f2f496370afcbc5227d7002da28c74b91fed12ff eventfs: Remove "is_freed" union with rcu head
+db3a397209b00d2e4e0a068608e5c546fc064b82 eventfs: Have a free_ei() that just frees the eventfs_inode
+77a06c33a22d13f3a6e31f06f6ee6bca666e6898 eventfs: Test for ei->is_freed when accessing ei->dentry
+28e12c09f5aa081b2d13d1340e3610070b6c624d eventfs: Save ownership and mode
+44365329f8219fc379097c2c9a75ff53f123764f eventfs: Hold eventfs_mutex when calling callback functions
 020010fbfa202aa528a52743eba4ab0da3400a4e eventfs: Delete eventfs_inode when the last dentry is freed
 62d65cac119d08d39f751b4e3e2063ed996edc05 eventfs: Remove special processing of dput() of events directory
 407c6726ca71b33330d2d6345d9ea7ebc02575e9 eventfs: Use simple_recursive_removal() to clean up dentries
@@ -1023,9 +1025,6 @@ e8c2d3e25b844ad8f7c8b269a7cfd65285329264 drm/amdgpu/gmc9: disable AGP aperture
 bf786e2a78d4d3cfc87469c3b31ade257df14fa0 Merge tag 'audit-pr-20231116' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 eb9a643c1739b732b90714131962bee76d279600 Merge tag 'sound-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 6bc40e44f1ddef16a787f3501b97f1fff909177c Merge tag 'ovl-fixes-6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
-27b13e209ddca5979847a1b57890e0372c1edcee blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
-35a99d6557cacbc177314735342f77a2dda41872 blk-cgroup: avoid to warn !rcu_read_lock_held() in blkg_lookup()
-e63a57303599b17290cd8bc48e6f20b24289a8bc blk-cgroup: bypass blkcg_deactivate_policy after destroying
 6fc45b6ed921dc00dfb264dc08c7d67ee63d2656 dm-delay: fix a race between delay_presuspend and delay_bio
 38cfff568169ff9f99784948f79f62ca1af5a187 dm-delay: fix bugs introduced by kthread mode
 ccadc8a21ef13eb80006ecff6a7466810e4f0dd6 dm-delay: avoid duplicate logic
@@ -1060,29 +1059,5 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 46a29dd1462198e67bf939c32a2faf4e9bf9ac63 Merge tag 'irq_urgent_for_v6.7_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
-45b478951b2ba5aea70b2850c49c1aa83aedd0d2 md: fix bi_status reporting in md_end_clone_io
-8479063f1fbee201a8739130e816cc331b675838 io_uring/fs: consider link->flags when getting path for LINKAT
-baf8fb7e0e5ec54ea0839f0c534f2cdcd79bea9c bcache: avoid oversize memory allocation by small stripe_size
-777967e7e9f6f5f3e153abffb562bffaf4430d26 bcache: check return value from btree_node_alloc_replacement()
-be93825f0e6428c2d3f03a6e4d447dc48d33d7ff bcache: remove redundant assignment to variable cur_idx
-2c7f497ac274a14330208b18f6f734000868ebf9 bcache: prevent potential division by zero error
-7cc47e64d3d69786a2711a4767e26b26ba63d7ed bcache: fixup init dirty data errors
-e34820f984512b433ee1fc291417e60c47d56727 bcache: fixup lock c->root error
-2faac25d7958c4761bb8cec54adb79f806783ad6 bcache: fixup multi-threaded bch_sectors_dirty_init() wake-up race
-f72f4312d4388376fc8a1f6cf37cb21a0d41758b bcache: replace a mistaken IS_ERR() by IS_ERR_OR_NULL() in btree_gc_coalesce()
-31f5b956a197d4ec25c8a07cb3a2ab69d0c0b82f bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
-3eba5e0b2422aec3c9e79822029599961fdcab97 bcache: avoid NULL checking to c->root in run_cache_set()
-6ecbe55e7e9aea0d92763381be29530703ced2f1 Merge branch 'io_uring-6.7' into for-next
-cdd8094ee7ace1cba0aab2f0d4b7438a8ad02bde Merge branch 'block-6.7' into for-next
-8a554c6234731d63014391331127480755d6cac4 Merge tag 'md-fixes-20231120' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.7
-d91eef8d00bba220f6897285beb94e03c7b40019 Merge branch 'block-6.7' into for-next
-1b59860540a4018e8071dc18d4893ec389506b7d nbd: fold nbd config initialization into nbd_alloc_config()
-3123ac77923341774ca3ad1196ad20bb0732bf70 nbd: factor out a helper to get nbd_config without holding 'config_lock'
-c2da049f419417808466c529999170f5c3ef7d3d nbd: fix null-ptr-dereference while accessing 'nbd->config'
-ce6480975ce78bf9b82529af52eeeca1c5c8b343 Merge branch 'block-6.7' into for-next
-c96b8175522a2c52e297ee0a49827a668f95e1e8 block: Remove blk_set_runtime_active()
-e519ed3fca77c4a2d54008ccf7aed289c0c826e9 Merge branch 'block-6.7' into for-next
-53f2bca2609237f910531f2c1a7779b16ce7952d block/null_blk: Fix double blk_mq_start_request() warning
-12ce51070932c87e3a28ab2e9782863a4456669a Merge branch 'block-6.7' into for-next
 
---===============3763107537125254367==--
+--===============4790939263871474253==--
