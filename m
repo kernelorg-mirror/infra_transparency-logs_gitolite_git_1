@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2953518352781902482=="
+Content-Type: multipart/mixed; boundary="===============8318206554541197774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 20 Nov 2023 18:24:30 -0000
-Message-Id: <170050467007.22931.7353401469200191158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 20 Nov 2023 18:25:20 -0000
+Message-Id: <170050472098.24842.12713272302537924876@gitolite.kernel.org>
 
---===============2953518352781902482==
+--===============8318206554541197774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.8
+  - ref: refs/heads/for-next
     old: d3bb2cb0f1769cb3424f3102ebcde51d18065424
     new: 4c3ff31a85e39d7e216e86934b694b6846433435
     log: revlist-d3bb2cb0f176-4c3ff31a85e3.txt
 
---===============2953518352781902482==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1700504665 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1700504663-41310cb5b35770ffae3cfe5badb8c0cd725e3401
-
-d3bb2cb0f1769cb3424f3102ebcde51d18065424 4c3ff31a85e39d7e216e86934b694b6846433435 refs/heads/spi-6.8
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVbpFkACgkQJNaLcl1U
-h9C1mQf+MLQnKBVQZDZGIxrI9jU7efz7uiXquob+GO8mVu1bAigNCbDaoNrdRS+a
-RQv11bOILeb1HTJO319am/Gka+b+zVymCGlt7nbYEPUQKqfjMHPsX3jFTk3+5X2q
-AFG/wFnPUE65zlX1boN+kM/95Dx5NyldJ8U/RDM2JV1j7tZdTRAPb2I6TPhmOSUt
-yclWb0wh663n1zlC4WooZ6w2ei4P8ir1W/EIWQWdGdBXr/5tbb4/Ta0ZoWVvxNEs
-x1/vkw2/xGU2W9T9uzBYKvGG2Jpc8rPDzDjBPX5hS1OcqXqiBRInCAmmoiP8mE/q
-6Vuqkhh7be1dE8uu0OBTwl2OvNfRYA==
-=wiWQ
------END PGP SIGNATURE-----
-
---===============2953518352781902482==
+--===============8318206554541197774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -434,4 +409,4 @@ e6d5eb85e84aeace5e231b951ece86b20df9f63a spi: axi-spi-engine: check for valid cl
 d861b417e1893a46c63cef2cb46d3587da1e5b15 spi: axi-spi-engine: add support for any word size
 4c3ff31a85e39d7e216e86934b694b6846433435 spi: axi-spi-engine improvements
 
---===============2953518352781902482==--
+--===============8318206554541197774==--
