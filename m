@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3120921985576583866=="
+Content-Type: multipart/mixed; boundary="===============6553486091240466080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 20 Nov 2023 19:06:15 -0000
-Message-Id: <170050717590.21528.2662937096820733820@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 19:06:47 -0000
+Message-Id: <170050720711.21814.2505838927566615580@gitolite.kernel.org>
 
---===============3120921985576583866==
+--===============6553486091240466080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: ff26a17f040ae560f49dde4b207e7c5b8dec68ef
-    new: 9fcc0d9a59bbecec35a83ea4fe42af186efa61e4
-    log: revlist-ff26a17f040a-9fcc0d9a59bb.txt
+  - ref: refs/heads/clone3-shadow-stack
+    old: 9bdb290499e678a6f78f4d8650474121bb544088
+    new: 44eab4acde76af26d6f0baa1d70f1ada36cbb980
+    log: revlist-9bdb290499e6-44eab4acde76.txt
 
---===============3120921985576583866==
+--===============6553486091240466080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff26a17f040a-9fcc0d9a59bb.txt
+Content-Disposition: attachment; filename=revlist-9bdb290499e6-44eab4acde76.txt
 
 4d1827485acecac0016eaaec199e97697afdaa84 tools/power/turbostat: Fix failure with new uncore sysfs
 137f01b3529d292a68d22e9681e2f903c768f790 tools/power/turbostat: Fix a knl bug
@@ -399,46 +399,5 @@ c5b14a5c5ebb72805e75320fd9601c2f06a6b841 fork: Support shadow stacks in clone3()
 d4db88f9e0670cc3725ae37f4d852de962565862 selftests/clone3: Factor more of main loop into test_clone3()
 2c5df7212193aeb04ebe54010051d6f3b64ba675 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
 44eab4acde76af26d6f0baa1d70f1ada36cbb980 kselftest/clone3: Test shadow stack support
-e3d4ddd979ec2c8bd4cf0cd7e045322c0ad9ca6a tools/nolibc: Use linux/wait.h rather than duplicating it
-34b0997b86f38db5e846cadd034ec6111b9ba088 arm64/gcs: Provide support for GCS in userspace
-e573f74c78592e5a80c3fbbb9e2e506e8878a520 arm64/mm: Restructure arch_validate_flags() for extensibility
-7da04b80887c63c25a3f2164682e46dafe868504 prctl: arch-agnostic prctl for shadow stack
-93a88ff0d983069d793931879a8c42e4f7c91eb5 mman: Add map_shadow_stack() flags
-b9e3537ffd002a9cf74df1417b7fa2ca6fb2bd26 arm64: Document boot requirements for Guarded Control Stacks
-1ef61edd442ae8b5ace4467bff99354ee7d4e335 arm64/gcs: Document the ABI for Guarded Control Stacks
-1b9a2aeac92447eab9bbe98a5c84ac6322830fbb arm64/sysreg: Add new system registers for GCS
-1210489b5ca60d41a9d0c78ec7e265014de61146 arm64/sysreg: Add definitions for architected GCS caps
-17b14c255ab5c46c6353b7074181725a70c811df arm64/gcs: Add manual encodings of GCS instructions
-42ef4a83d55a702544a93863ef1a04867e889bc4 arm64/gcs: Provide put_user_gcs()
-309f7efeb57fcd80b660031529faa68e79190e3c arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-5b6222e2be445962ff7f24c76e8b2602c4ad2dd6 arm64/mm: Allocate PIE slots for EL0 guarded control stack
-9c27da91334429c752c29d3b817952ef001b7f61 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-c95ed5721dfbc5aac9b79e1930f21c2f7d1aa7e4 arm64/mm: Map pages for guarded control stack
-c3454492ad9fc75d72763f911a7c8834308694be KVM: arm64: Manage GCS registers for guests
-53733815c3a96d72a92229354138645d75c3adfb arm64/gcs: Allow GCS usage at EL0 and EL1
-89bf9afe382d6a6d853a0859ceaaf68c13563d8e arm64/idreg: Add overrride for GCS
-8eb460b3f2138d5aa4577b588a0fc0ce2758a746 arm64/hwcap: Add hwcap for GCS
-189ddfb8f68da5db901a2fd329aefecb0dbdfcd4 arm64/traps: Handle GCS exceptions
-686d786269e4c555c4651042bc00df383e75bac8 arm64/mm: Handle GCS data aborts
-5329bf511359d3546d16f6f0f5cc5235a503fed2 arm64/gcs: Context switch GCS state for EL0
-f1a7175e5f4fbe98dd4894b7d8d32af2edb15c69 arm64/gcs: Allocate a new GCS for threads with GCS enabled
-bcfc9a45b1510432a03976411771a3ca38eae91a arm64/gcs: Implement shadow stack prctl() interface
-a719bd4e563e81c45f223a23f3c5de0afbd90c2c arm64/mm: Implement map_shadow_stack()
-850862ec16d5ce6ee8ef715eaa8860e7bfaf0588 arm64/signal: Set up and restore the GCS context for signal handlers
-737f386adce9cbafaa20fbb93f1cc175dcfe2166 arm64/signal: Expose GCS state in signal frames
-dbba9be87f83e955e2eab609c1a30702c8b1cde2 arm64/ptrace: Expose GCS via ptrace and core files
-007196a19c9b641e2abc3453b5c4a2dc0ef0ddb7 arm64: Add Kconfig for Guarded Control Stack (GCS)
-9701e2210d218b9003d03594b037640c8321d65b kselftest/arm64: Verify the GCS hwcap
-e98d18136f9266313afb493dbf603069496bbc94 kselftest/arm64: Add GCS as a detected feature in the signal tests
-fdf2e9c804cbc9c8e4815dcdcf53e5ca6964f156 kselftest/arm64: Add framework support for GCS to signal handling tests
-d891f618abb7e37fdc1c4cbb2e76dfbb9bb28d62 kselftest/arm64: Allow signals tests to specify an expected si_code
-d95d846ef0276f200a3df8f8ebecd6a6357c40de kselftest/arm64: Always run signals tests with GCS enabled
-b318b55ea3d8fe58b31186bc61f0ad5047fcee67 kselftest/arm64: Add very basic GCS test program
-9d8e4775b6ccf1683c7426aebb7fbc8de559ac64 kselftest/arm64: Add a GCS test program built with the system libc
-d344de84cf80cb12ca06c7ca1ec3f83240c6d17d kselftest/arm64: Add test coverage for GCS mode locking
-6c644675fc97bfc745d9685517a00c74105867d4 selftests/arm64: Add GCS signal tests
-3ecc059d25e17bd4c39d00b016a6a83dcb3adee7 kselftest/arm64: Add a GCS stress test
-76eb00b37866b129d6728b404790cc6e0ad869af kselftest/arm64: Enable GCS for the FP stress tests
-9fcc0d9a59bbecec35a83ea4fe42af186efa61e4 kselftest/clone3: Enable GCS in the clone3 selftests
 
---===============3120921985576583866==--
+--===============6553486091240466080==--
