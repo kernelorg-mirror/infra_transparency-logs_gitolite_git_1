@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1619178097320111430=="
+Content-Type: multipart/mixed; boundary="===============8197503018267944971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 20 Nov 2023 06:21:21 -0000
-Message-Id: <170046128165.6187.3716144482914158181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Mon, 20 Nov 2023 06:21:24 -0000
+Message-Id: <170046128424.6281.6464291771780312576@gitolite.kernel.org>
 
---===============1619178097320111430==
+--===============8197503018267944971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/tty-linus
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 98b1cc82c4affc16f5598d4fa14b1858671b2263
     log: revlist-b85ea95d0864-98b1cc82c4af.txt
 
---===============1619178097320111430==
+--===============8197503018267944971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700461281 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1700461280-b73709aaa8a261f0356b12447297fb72c505337c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700461283 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1700461283-aaab1cb1066f9b58bf1e8a6455fd7806e390843b
 
-b85ea95d086471afb4ad062012a4d73cd328fa86 98b1cc82c4affc16f5598d4fa14b1858671b2263 refs/heads/staging-next
+b85ea95d086471afb4ad062012a4d73cd328fa86 98b1cc82c4affc16f5598d4fa14b1858671b2263 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVa+uEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+og0P/0CL3jzbiPKrEd8TKXe3
-9q0NOFDzW5a2LZdf17B1pXtZkSK63bbFMrfq3Bxho6zc236HxwlfCzYzIrUzw4Sn
-aVd7KLubHWXKWXVLtExYMAs5AgHQP+ua8bP1PIsL9KF/IrMzUanlnRZD1Kiehu1p
-PKxX4X/Zi67cUZBNedH14FFNNq/4EsJcUthtuxYPGA9wi8/kjZSRStH/fG2zNsdN
-xhN7OseKvk1A22jAzGLh/lRd2XBgwPOHWXjwvBuAtwWzYhkWU2VfFqyr/vD77zjZ
-LH4+NcCp8qJQT1nDliEFwvuG3ay4qFdia+rF4cutU3+uphZ36H/rW2FYM+dihAzt
-wQxRdNJXPf97c1XEz++l8g9ts0riYRN9c4PNaS6d5gAgdOb5w9uEen8O375ERdVd
-3MLXwRiM1anW4VA0UjevJnRIAVitT2LScdgKna6+GmlfnkddGKDpyInZw8mmvK5v
-y9OUmojGBGw/Qz6iIqS28Ah+yzf/tfRSoe7ga7LJVTpdbfYHnxWg9WsTkCoXIWcy
-CuCwm3ROXWIQosLm14s4VXB5XY2oE3uE/UnkV2oQrU+Ib2De93BbAJOhVwH7IL2Z
-WElpVr2EXaw6MuHBP2n4zY/Fh+PEwcmZOmEF7HIurnb821UD/Vy60JOHVobqeE4r
-h/9RohjKj708eZrJ9jPS+2DC
-=kUN3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVa+uMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a2oQALrxh7stIONQsq9/ZTsi
+/4RN8VqQhx5GT0YbLr03OsW8hr/svL6KV5cEv+U2G4mkh0XmUhmH7YXymSKEJKYB
+qxfGAOILE3+uw12X25kzCnvPPvOLu20cOgeKliYWFiSv///2jNt0k5sErcIFILxp
+K7yv4EOsr3fp6ivcnCBmlxinoKrco50L8w+vCguonacbWzjIgE/XX16d9Fv0pkLt
+DSQnKp8PN8GA7LqgWaZ435iE0NyJ2T7MhUZDCR4iyElMPTh53ENwfeXu2u5JjXwb
+zf6Ad4Vp/JVydaH6Ykv5zVrVu4gaMFbT8X7nsh90sD+neGJuU+PEcOJOURGlFFXR
+sGTCsqWV1AP4iInzFOi/31MH0PlmhZ3N2x1uTfsIq4DYvgTWYyLhlm6LFeBWAl+R
+46bzZhwFXJ0m3tJtE7QNrzzVMwuR5L5jdibtIR9/bpl/U/V9C0cOkHU8TqzN8EgU
+JF2xlHqY2t/P/P6xbcglz+keVi1r6gwYJxcNt2TSpu7Oz+vlN42r2e/BK5Vb/efn
+Ym7z/AbVD2MHRD5R/hLjr3K16e1F7X+Cs5wS245ucEE6kGg/VVP9zTHxAb1n10Xr
+KeJ1Ovm2lO0f1CP+dm8J7wTboyCeImge644DNQUoedd0bBm+fJ6W20UD48ji21JM
+QB4XxLAAMPHUo/PIhXeAbtnZ
+=bCRP
 -----END PGP SIGNATURE-----
 
---===============1619178097320111430==
+--===============8197503018267944971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -425,4 +425,4 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
 
---===============1619178097320111430==--
+--===============8197503018267944971==--
