@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4064823522560822930=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 20 Nov 2023 18:32:18 -0000
-Message-Id: <170050513830.29227.11679760155857571843@gitolite.kernel.org>
-
---===============4064823522560822930==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 20 Nov 2023 18:35:21 -0000
+Message-Id: <170050532190.31988.7638005324109543914@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/slab-remove-slab-v2r1
-    old: 0000000000000000000000000000000000000000
-    new: a46a7ddd8da599229cd0dfa1d5af68ec311c40ce
-
---===============4064823522560822930==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1700505132 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1700505132-bfc7234d9d540d2fa50316e3d947cc3f509c5f07
-
-0000000000000000000000000000000000000000 a46a7ddd8da599229cd0dfa1d5af68ec311c40ce refs/heads/slab-remove-slab-v2r1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVbpiwACgkQu+CwddJF
-iJqlYAf/VRSqyLrzXSy4glxnzvEOE8al5XVGObZgvLvVUhi7vrW2qVZ6qLSM8XrQ
-ZNexNqPSLB3AEHVBOrFqV7m58aKKT4I+KD+3WhMtv3B34yA4dbFncDzns9TiY6kJ
-YLSHcJwS6GO4RmfEnq8y3lFstwZQvd+v/D0PPQOkyOScGw2VPA+WtCPBAbGkNeaA
-WYlDxlDjMmjufEQrtTSPCjkRIQeVEJL+4MbfSA8C1ymXjGIiGDdmcB4V+osxnGHF
-Tgda1VpC7ynnJeuD2H8etmReUjVN+biZCB7SEO5xmnXDr2w0VwpHjPOh6lb3Kz0w
-FpQ6GsOA1AvHVagBFhgtLna1eQ0wEQ==
-=V2ND
------END PGP SIGNATURE-----
-
---===============4064823522560822930==--
+  - ref: refs/heads/master
+    old: 76df934c6d5f5c93ba7a0112b1818620ddc10b19
+    new: fcb905d831336ee0a67dd953837a904173cf7390
+    log: |
+         79e0c5be8c73a674c92bd4ba77b75f4f8c91d32e net, vrf: Move dstats structure to core
+         34d21de99cea9cb17967874313e5b0262527833c net: Move {l,t,d}stats allocation to core and convert veth & vrf
+         ae1658272c6491a31ac968e39882fc569f312ac3 netkit: Add tstats per-CPU traffic counters
+         6f2684bf2b4460c84d0d34612a939f78b96b03fc veth: Use tstats per-CPU traffic counters
+         024ee930cb3c9ae49e4266aee89cfde0ebb407e1 bpf: Fix dev's rx stats for bpf_redirect_peer traffic
+         2c225425704078282e152ba692649237f78b3d7a bpf, netkit: Add indirect call wrapper for fetching peer dev
+         eee82da79f036bb49ff80d3088b9530e3c2e57eb selftests/bpf: De-veth-ize the tc_redirect test case
+         adfeae2d243d9e5b83d094af481d189156b11779 selftests/bpf: Add netkit to tc_redirect selftest
+         fcb905d831336ee0a67dd953837a904173cf7390 Merge branch 'bpf_redirect_peer fixes'
+         
