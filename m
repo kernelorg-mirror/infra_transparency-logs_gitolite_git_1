@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2282684727464475111=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 20 Nov 2023 10:09:15 -0000
-Message-Id: <170047495548.31750.416421186662463150@gitolite.kernel.org>
-
---===============2282684727464475111==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Mon, 20 Nov 2023 10:20:42 -0000
+Message-Id: <170047564202.10018.2359550458722824217@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/notes/signatures/tar
-    old: b271dcbd587d6d5ad80ce1f17bc4a18036d10cbd
-    new: c0106e272b6cb60c2dbce0e1f9b3d92dc89f5e35
+  - ref: refs/heads/master
+    old: 41e354fb5f32f78d7519124a5746c0e4c1ceca68
+    new: 6d8764841123fb283fd3b199860d8b7efa84551f
     log: |
-         c0106e272b6cb60c2dbce0e1f9b3d92dc89f5e35 Notes added by 'git notes add'
+         cf2bb80b1948f3e73458a99e3680800fb63cf08c wifi: iwlwifi: fw: increase fw_version string size
+         680afd32d7f730279fb943c40d51c8e22a598f62 [BUGFIX] wifi: iwlwifi: mvm: send TX path flush in rfkill
+         5a44a926b211be0f83cb71b968c663d37ae577b7 wifi: iwlwifi: mvm: d3: avoid intermediate/early mutex unlock
+         ebd9d87471f3e9fcbeebb8bf542ce3adcd225f29 wifi: mac80211: update some locking documentation
+         10ed99df158d099688f190f93fc1c72d17b7a1f9 [BUGFIX] wifi: mac80211: fix BA session teardown race
+         b8601a101b57b2df75c98ba06ff8422a278c1e2b [BUGFIX] wifi: iwlwifi: mvm: Do not warn if valid link pair was not found
+         6d8764841123fb283fd3b199860d8b7efa84551f [BUGFIX] wifi: mac80211: export kunit symbols into kunit namespace
          
-
---===============2282684727464475111==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700474954 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1700474953-d7e9bb65119ece6e4820d0363f9ece4815e4c52b
-
-b271dcbd587d6d5ad80ce1f17bc4a18036d10cbd c0106e272b6cb60c2dbce0e1f9b3d92dc89f5e35 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVbMEobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hLYQAL/HSqwvShT8CHwGKWRJ
-27puzIgVfz1hUrQ+HVtVrKgeoxd3jAkoWMkQQEaGd3JHWnjnLc2PBX9/waCmx2Lk
-v539f7uDLoG1P+FI5ss8hv4GpRSad7xrHnGH7xTls3/98vukBqk/kq3n1uqigPnj
-NVnISBUdf+bpCxXO7hRhXdQlDGrt2uY95OIjoNBBClnjNhyXMAmgi8l8Rq+p4nFs
-ohluAQArSPPc6v3Nrsp7k6UReb6iBTUgenANiPbqhP0GZxYDBqaGXbtdIuW5SBZP
-8fyvX7m4hwDSI6fAWCff31sIEaRJoN+Kq8yf48P1RrjEX0sWFC3DHUacPBYJtrQM
-A0TKJCxMpVHG6STlsc1jBHjd1xUecGtLuSVZXozdz+lVTkcQES03shbHFrf1E4VR
-lPlchoPzSo2veWFiDRAw6qivKCIrcn1aW03+Cqdan4sYj3zNwn6Q76iE+A0d5zmQ
-G9m/orv2zwGP5psSxUKQ8vtay6P2TfvXImtnBfIyoq6mVpCNZXmpAtsWfja700Pv
-dFJ2v1aFE8Pz7F8oBaI1X4r/FL7X582n6xEPbQLMPmC63SUdoewtPy05L4fH0JRD
-Ki3dCnAuBRjiCy+2ROfiPeRTxBp8p9hwgLxJiQiAupIRCm5n4ZfH6duHpXdmqAXj
-XSBrtanZYpKM8vLMzwhBUBUS
-=8YFO
------END PGP SIGNATURE-----
-
---===============2282684727464475111==--
