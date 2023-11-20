@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3276529499720287218=="
+Content-Type: multipart/mixed; boundary="===============0895600834229058457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 20 Nov 2023 16:33:23 -0000
-Message-Id: <170049800323.4595.9519310956933854735@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 16:33:29 -0000
+Message-Id: <170049800978.4726.11488687241756933443@gitolite.kernel.org>
 
---===============3276529499720287218==
+--===============0895600834229058457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5d261f78c7149b1a2b678e7b03144533215811a0
-    new: 706a9a7df4b72ba5ef1f3178aeb2eb341e1a3efe
-    log: revlist-5d261f78c714-706a9a7df4b7.txt
+  - ref: refs/heads/m68k-queue
+    old: 5ba7b307d74d09dcee853c14b06e8c7ae7728f70
+    new: 729d1984b6b2d592b377efe194635885cb50a33e
+    log: revlist-5ba7b307d74d-729d1984b6b2.txt
 
---===============3276529499720287218==
+--===============0895600834229058457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d261f78c714-706a9a7df4b7.txt
+Content-Disposition: attachment; filename=revlist-5ba7b307d74d-729d1984b6b2.txt
 
 4d1827485acecac0016eaaec199e97697afdaa84 tools/power/turbostat: Fix failure with new uncore sysfs
 137f01b3529d292a68d22e9681e2f903c768f790 tools/power/turbostat: Fix a knl bug
@@ -393,6 +393,8 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 46a29dd1462198e67bf939c32a2faf4e9bf9ac63 Merge tag 'irq_urgent_for_v6.7_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
-706a9a7df4b72ba5ef1f3178aeb2eb341e1a3efe Merge tag 'v6.7-rc2'
+0af6ff86a48837e0adbe7911e35a31a2bf51ed0f m68k: atari: usb: Add ISP1160 USB host controller support
+ae2df67a25000fb2d6f2334b308df99d8f819c34 m68k: atari: Update Kconfig.bus help text
+729d1984b6b2d592b377efe194635885cb50a33e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3276529499720287218==--
+--===============0895600834229058457==--
