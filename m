@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Mon, 20 Nov 2023 12:49:18 -0000
-Message-Id: <170048455814.29268.11067863543274183668@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 12:49:20 -0000
+Message-Id: <170048456057.29365.10441093558056508336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wireless/wireless-testing
 user: bcopeland
 changes:
-  - ref: refs/tags/wt-2023-11-20
+  - ref: refs/tags/v6.7-rc2
     old: 0000000000000000000000000000000000000000
-    new: b98f63071815a44cf7741265ffab4c7981be43c6
+    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
