@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1425229500552372668=="
+Content-Type: multipart/mixed; boundary="===============3142872102840915414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 20 Nov 2023 08:13:39 -0000
-Message-Id: <170046801915.21437.12414817797410827585@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 08:14:16 -0000
+Message-Id: <170046805686.21764.3560858714056016965@gitolite.kernel.org>
 
---===============1425229500552372668==
+--===============3142872102840915414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 694208817a6218f9443700cc96a123be76b33e01
     new: 13b5db3da90630ecdc2419a34c99d60a584e2676
     log: revlist-694208817a62-13b5db3da906.txt
 
---===============1425229500552372668==
+--===============3142872102840915414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a782c637d7e8d51e4aef4c7f35c935d44f3ce0d1 LoongArch: Implement constant timer shu
 556c71de61779b02899b71c88837e9e0ae8d78c8 Docs/LoongArch: Update links in LoongArch introduction.rst
 13b5db3da90630ecdc2419a34c99d60a584e2676 Docs/zh_CN/LoongArch: Update links in LoongArch introduction.rst
 
---===============1425229500552372668==--
+--===============3142872102840915414==--
