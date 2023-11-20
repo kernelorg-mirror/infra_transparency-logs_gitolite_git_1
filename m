@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5476533644685085435=="
+Content-Type: multipart/mixed; boundary="===============3476253363525548095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 20 Nov 2023 14:58:50 -0000
-Message-Id: <170049233065.28687.3885567638139971087@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 14:59:40 -0000
+Message-Id: <170049238054.29051.599563696971791451@gitolite.kernel.org>
 
---===============5476533644685085435==
+--===============3476253363525548095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 98b1cc82c4affc16f5598d4fa14b1858671b2263
-    log: revlist-b85ea95d0864-98b1cc82c4af.txt
+  - ref: refs/heads/nfsd-next
+    old: 8fc662065577c605e8e6c6e16c1e890e4b490e4b
+    new: 45e38a1de7ce7efe5f62f68efd15185811427a13
+    log: revlist-8fc662065577-45e38a1de7ce.txt
 
---===============5476533644685085435==
+--===============3476253363525548095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-98b1cc82c4af.txt
+Content-Disposition: attachment; filename=revlist-8fc662065577-45e38a1de7ce.txt
 
 4d1827485acecac0016eaaec199e97697afdaa84 tools/power/turbostat: Fix failure with new uncore sysfs
 137f01b3529d292a68d22e9681e2f903c768f790 tools/power/turbostat: Fix a knl bug
@@ -393,5 +393,9 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 46a29dd1462198e67bf939c32a2faf4e9bf9ac63 Merge tag 'irq_urgent_for_v6.7_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
+3e21abaae21f49a0832143756d92bb1ee44b1870 nfsd: new Kconfig option for legacy client tracking
+1000054963fa230f9b249c03992fc2e153fe400b NFSD: use read_seqbegin() rather than read_seqbegin_or_lock()
+0b3956db4d7d48166a14459c8ccfdde60dc19f17 NFSD: Make the file_delayed_close workqueue UNBOUND
+45e38a1de7ce7efe5f62f68efd15185811427a13 NFSD: Remove nfsd_drc_gc() tracepoint
 
---===============5476533644685085435==--
+--===============3476253363525548095==--
