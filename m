@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0934442782160027124=="
+Content-Type: multipart/mixed; boundary="===============1414374832226899835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 20 Nov 2023 22:35:01 -0000
-Message-Id: <170051970122.10878.13608106577496588551@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 22:35:49 -0000
+Message-Id: <170051974930.12796.18253291869513143133@gitolite.kernel.org>
 
---===============0934442782160027124==
+--===============1414374832226899835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-misc
+  - ref: refs/heads/edac-for-next
     old: 1b09892962048a66ab46bf489c2b1264c1ae99ee
     new: 0c7c7ba0c7215de44410e9c4acce28d762dd907a
     log: revlist-1b0989296204-0c7c7ba0c721.txt
 
---===============0934442782160027124==
+--===============1414374832226899835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f30e2fac7da30f7f8bb683f3a3ad7db5dc4cffc4 EDAC/synopsys: Convert to platform remo
 ec886cf8813bbfd4dd3f7aba3f660edd5f0a69d8 EDAC/zynqmp: Convert to platform remove callback returning void
 0c7c7ba0c7215de44410e9c4acce28d762dd907a EDAC/fsl_ddr: Convert to platform remove callback returning void
 
---===============0934442782160027124==--
+--===============1414374832226899835==--
