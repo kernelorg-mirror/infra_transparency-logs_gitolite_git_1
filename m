@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8077318860762169637=="
+Content-Type: multipart/mixed; boundary="===============8005529335753113644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 20 Nov 2023 21:47:12 -0000
-Message-Id: <170051683256.9646.3904886346392581231@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 21:47:43 -0000
+Message-Id: <170051686309.9904.11551171569115347984@gitolite.kernel.org>
 
---===============8077318860762169637==
+--===============8005529335753113644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/for-next
-    old: 6dc66a3096730db94a89b098da66887a390cc6af
-    new: cae0e61beb7acb1c54a17e5418978f096d66def6
-    log: revlist-6dc66a309673-cae0e61beb7a.txt
+  - ref: refs/heads/rpmsg-next
+    old: 2a6e483ad047654a220c798080d0fc861ead2e07
+    new: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+    log: revlist-2a6e483ad047-98b1cc82c4af.txt
 
---===============8077318860762169637==
+--===============8005529335753113644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dc66a309673-cae0e61beb7a.txt
+Content-Disposition: attachment; filename=revlist-2a6e483ad047-98b1cc82c4af.txt
 
+5394fe9494011de19baff276ce02a2f00eef568a bcachefs: Fix snapshot skiplists
+94119eeb02d114aa1f78dcfaabdca50b9b626790 bcachefs: Add IO error counts to bch_member
 f5d26fa31ed2e260589f0bc8af010bb742f1231e bcachefs: bch_sb_field_errors
 b65db750e2bb9252321fd54c284edd73c1595a09 bcachefs: Enumerate fsck errors
 85103d15ca3fe3b987f912873cb4f91b6f557c6c bcachefs: Fix error path in bch2_replicas_gc_end()
@@ -1048,7 +1050,5 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 46a29dd1462198e67bf939c32a2faf4e9bf9ac63 Merge tag 'irq_urgent_for_v6.7_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
-fb49b6f65a699b3463f5b2f16815340bbd3dabeb remoteproc: imx_dsp_rproc: Add mandatory find_loaded_rsc_table op
-cae0e61beb7acb1c54a17e5418978f096d66def6 arm64: dts: imx8mp: Add reserve-memory nodes for DSP
 
---===============8077318860762169637==--
+--===============8005529335753113644==--
