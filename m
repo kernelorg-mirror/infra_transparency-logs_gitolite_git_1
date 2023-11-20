@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6562923416904783445=="
+Content-Type: multipart/mixed; boundary="===============4799332125948062431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 20 Nov 2023 19:17:58 -0000
-Message-Id: <170050787835.30767.16841957348800383485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 20 Nov 2023 19:18:04 -0000
+Message-Id: <170050788456.30858.15571566142193826901@gitolite.kernel.org>
 
---===============6562923416904783445==
+--===============4799332125948062431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: cac15dc25f416972f8dd0b6a8d74daa79dc3a998
     new: 009eab8baa4d46c2b20d0c2c1cbdba61c81829e4
     log: |
@@ -24,28 +24,28 @@ changes:
          009eab8baa4d46c2b20d0c2c1cbdba61c81829e4 ASoC: cs43130: Allow driver to work without IRQ connection
          
 
---===============6562923416904783445==
+--===============4799332125948062431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1700507876 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1700507876-e6f632925918420cca0a4dc9e85b426b345f7abf
+pusher C3F436CA30F5D8EB 1700507883 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1700507882-51618ac17360fd4fc00aeb9accaffcbe4b03cfdf
 
-cac15dc25f416972f8dd0b6a8d74daa79dc3a998 009eab8baa4d46c2b20d0c2c1cbdba61c81829e4 refs/heads/for-6.8
+cac15dc25f416972f8dd0b6a8d74daa79dc3a998 009eab8baa4d46c2b20d0c2c1cbdba61c81829e4 refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVbsOQACgkQJNaLcl1U
-h9AkBQf/Z0RwFRn9/YGqHqj8yfYzRyH1hLnu2fBNX87iP7XcygSJ4a+TCvGOiTNE
-7j8p6XICrXiVMl4zgSo98mAhTkKETqaDshuAt9xRpNyzk7qUafCyT56kjLjfoVv5
-g1hgWZcnwB869Nc0SnjcVRFWQUtwLS8qGXwU/C2KCsXC4GUeREQAvA9EVkndvptx
-1h/kiODGBLbP0ag3ph1j+TwhhNIpYWXeJxaYTHV9CrhKO206gtB0QNFYOKdvK0Ww
-jMEuD69ARNgxMpQN/g3J3cDF9MjGY7aTT2FFpExXil7P47tUrI0kJxiTnXfKyrZV
-bHJKASv8mxwNPpvuq2GAZSwZaBWv1w==
-=Ez9L
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVbsOsACgkQJNaLcl1U
+h9DeAAf9HzzkZfXpwT5eLrmmVB2sZe6Ssi+I9JgeqBH4FbRk5o47AHMgGUDbWQur
+5NNGnUI7jX1KThhJSnmcwjnigM770YkXI40qs3RNG74YlKHNG4twvLUxmdMRzSKu
+nchGlQssOJLAfIT8z9AIjSYM8Fi9DMmjG7aieWDoDf40MHkHhPn1JnT1/CSXzuF4
++P6E14Y29QYNiBghDQGkOdvQsUFsR3nIojYh9ATTG4tW80MVQcV0n2yCZSJKLRD+
+Ehh1VzTkOk7kE4V39G/TzCpAmzS5xDS+95t++lnytty62N5KpY0AoxHJ4cfLlPw1
+hhMLeVdMtRja7Vy6/rLemVivtvlahg==
+=DA8Z
 -----END PGP SIGNATURE-----
 
---===============6562923416904783445==--
+--===============4799332125948062431==--
