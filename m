@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5091840702705967368=="
+Content-Type: multipart/mixed; boundary="===============7985044056266920111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 20 Nov 2023 12:52:20 -0000
-Message-Id: <170048474042.32127.8913006054627922249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Mon, 20 Nov 2023 13:02:11 -0000
+Message-Id: <170048533172.6519.13515204119266834424@gitolite.kernel.org>
 
---===============5091840702705967368==
+--===============7985044056266920111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.8-nv2-only
-    old: a5e65f19e36bf2518a3a155baea22a100a59606c
-    new: 759d2e18f8954f4c76eb1772f38301df6ed8fa5d
-    log: revlist-a5e65f19e36b-759d2e18f895.txt
+  - ref: refs/heads/b4/viommu-deferred-flush
+    old: 3485c1596d66c885ae925be3b99fee70c5612f63
+    new: 4872babd14cbf9ed9e93daca1008e77ede57cfa8
+    log: revlist-3485c1596d66-4872babd14cb.txt
 
---===============5091840702705967368==
+--===============7985044056266920111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5e65f19e36b-759d2e18f895.txt
+Content-Disposition: attachment; filename=revlist-3485c1596d66-4872babd14cb.txt
 
 4d1827485acecac0016eaaec199e97697afdaa84 tools/power/turbostat: Fix failure with new uncore sysfs
 137f01b3529d292a68d22e9681e2f903c768f790 tools/power/turbostat: Fix a knl bug
@@ -393,68 +393,7 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 46a29dd1462198e67bf939c32a2faf4e9bf9ac63 Merge tag 'irq_urgent_for_v6.7_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
-d1bd12ce4267a490b432217d81aac73b1c9bafba Merge branch 'kvm-arm64/asahi-base-6.7' into kvm-arm64/nv-6.8-nv2-only
-07aa92b0114ea879977aa232b680df7144ca504c arm64: Add macro to compose a sysreg field value
-62218c6d6f5121ad1683ff8d0b6bb59d45cc6f92 arm64: cpufeatures: Correctly handle signed values
-76214e3a577f48edfeea68aca5c86e85ce85eede arm64: cpufeature: Correctly display signed override values
-3db142255ae1d803e34dd445398903cc348a1f83 arm64: sysreg: Add layout for ID_AA64MMFR4_EL1
-0b7e420e81bc06b604fcae393712ec30ed00f242 arm64: cpufeature: Add ID_AA64MMFR4_EL1 handling
-fceac20f62bbc7e0981f61103b07be22290d59f2 arm64: cpufeature: Detect E2H0 not being implemented
-e10adca8ea78bf33dacbe10cd1f6b359cfcdb4f6 arm64: cpufeature: Detect HCR_EL2.NV1 being RES0
-fc5d927efd9bf862cb7376b7f1ba5d1f08c4f3c2 arm64: Treat HCR_EL2.E2H as RES1 when ID_AA64MMFR4_EL1.E2H0 is negative
-3e99ea640bd507848f79a8afcf91568a1cb4580a arm64: Add override for ID_AA64MMFR4_EL1.E2H0
-3506b75185f223e990a547667f5894c003fca63d arm64: Add MIDR-based override infrastructure
-f4b277248ad8d9882c73fed188498063645932e6 arm64: Add MIDR-based overrides for ID_AA64MMFR4_EL1.E2H0
-b98bf438967a214281f071b282fece7043e3d8f9 KVM: arm64: Expose ID_AA64MMFR4_EL1 to guests
-2213964d807ef99bf7dc49d53aacf3bda6b1f0cd KVM: arm64: Force guest's HCR_EL2.E2H RES1 when NV1 is not implemented
-4c4719f42e8f6616279edc171d4c77cd7d6d15b7 Merge branch 'arm64/e2h0' into kvm-arm64/nv-6.8-nv2-only
-05f8126eff48f8833c39f3dfbd7124047fc9af98 arm64: cpufeatures: Restrict NV support to FEAT_NV2
-6b6ccafab04e46c4a3e3e6e78463c531a239f7cf KVM: arm64: nv: Hoist vcpu_has_nv() into is_hyp_ctxt()
-ad15f44180ab2ef7d5f808ec2eadfb14c70ab458 KVM: arm64: nv: Compute NV view of idregs as a one-off
-688d7167b55fa73f5452f19629e9b27bf4809717 KVM: arm64: nv: Drop EL12 register traps that are redirected to VNCR
-23d558a1116ac4fca6cf640724b941cb2eaac52b KVM: arm64: nv: Add non-VHE-EL2->EL1 translation helpers
-cf5518468f5add69e9f1057731183353fc9db808 KVM: arm64: nv: Add include containing the VNCR_EL2 offsets
-2b5e4430cf85d1cc0880e47d7351b72dc801c25c KVM: arm64: Introduce a bad_trap() primitive for unexpected trap handling
-8264725bf831dbd73966d1b5f8cc734eda291b26 KVM: arm64: nv: Add EL2_REG_VNCR()/EL2_REG_REDIR() sysreg helpers
-9953cb9b72519f83a938f30015c3333d94501e92 KVM: arm64: nv: Map VNCR-capable registers to a separate page
-8a7757d61c3a99a9d1a9ec82b79ec4f6878093e8 KVM: arm64: nv: Handle virtual EL2 registers in vcpu_read/write_sys_reg()
-dc6084c1be0de9ff3a5df44f22209591412006dd KVM: arm64: nv: Handle HCR_EL2.E2H specially
-0776fc923ebba836a3527b1c441ae3740c5d080c KVM: arm64: nv: Handle CNTHCTL_EL2 specially
-ae53ce2d22e4134083c3c413eeadf3cc677626fa KVM: arm64: nv: Save/Restore vEL2 sysregs
-7bbfc17059f80b94cfd6cff10e859864148832c2 KVM: arm64: nv: Respect virtual HCR_EL2.TWX setting
-2145785b0413d371a4b5c1a9c1154af1574c8c65 KVM: arm64: nv: Respect virtual CPTR_EL2.{TFP,FPEN} settings
-c712da8354ca148f8991522e30fe4fad04920e6d KVM: arm64: nv: Configure HCR_EL2 for FEAT_NV2
-1c8650d408eb73ed3d087b2048bbe244c37dfd96 KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
-961c00d73dd0126ac3178d5183a5e87b6dd2d1cc KVM: arm64: nv: Implement nested Stage-2 page table walk logic
-228ab5fa77fcbf1a646512830eeec18a8da0ce80 KVM: arm64: nv: Handle shadow stage 2 page faults
-13536e0e06a3b0711b840932046121bf27c9769a KVM: arm64: nv: Restrict S2 RD/WR permissions to match the guest's
-7aa2eeb0043fde55e0715fa6979ec1be3491aa56 KVM: arm64: nv: Unmap/flush shadow stage 2 page tables
-51782182d3fb615181bba399ee74da31d4f14238 KVM: arm64: nv: Set a handler for the system instruction traps
-720f083d74cd676abc4c424349c4e1c74c3df2cf KVM: arm64: nv: Trap and emulate AT instructions from virtual EL2
-0f5de117a75e831d8d4c7020c0d4e4947060d6d8 KVM: arm64: nv: Trap and emulate TLBI instructions from virtual EL2
-c1bc03b5db8878451633210b74c94d972e6ce800 KVM: arm64: nv: Hide RAS from nested guests
-58ab661e7f01f76cc3020e8c46677398e26dc416 KVM: arm64: nv: Add handling of EL2-specific timer registers
-9f3a5adaf6f96cd2a0bd6356a3180ccce586b691 KVM: arm64: nv: Sync nested timer state with FEAT_NV2
-b3d6ffe082af42438105001fe1fef6667016436b KVM: arm64: nv: Publish emulated timer interrupt state in the in-memory state
-4b1217b55dd309576736ff7f066c25ef0e9f113e KVM: arm64: nv: Load timer before the GIC
-38c058df60cdb0ec71927ced95f6aa21df40fcfd KVM: arm64: nv: Nested GICv3 Support
-ecff39d5efb75e050f382775fce6eedaaba41871 KVM: arm64: nv: Don't block in WFI from nested state
-f8feac7167d15e10b18abb246e75133257bbd469 KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
-166fdb5df179991f13d0381d97565e5d00fbea43 KVM: arm64: nv: Fold GICv3 host trapping requirements into guest setup
-f03a95a182045e2c1e8c448dc9e6087566376dad KVM: arm64: nv: Deal with broken VGIC on maintenance interrupt delivery
-ba159cf062d4c2deb083e627a73e70056af57472 KVM: arm64: nv: Add handling of FEAT_TTL TLB invalidation
-cfe58b3c3a98bd0beda1cc8d6532fe2ed384eae4 KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
-44f7939e6e67862e0bbb975ab1074ebab064ddde KVM: arm64: nv: Tag shadow S2 entries with nested level
-f5388f36fdd2b852887d6df380c37f36f0424a73 KVM: arm64: nv: Allocate VNCR page when required
-286ac8a84cc051d5a80d8e660d866dffba4630ed KVM: arm64: nv: Fast-track 'InHost' exception returns
-5b27b82d43f153c883588039477284c7884b0afc KVM: arm64: nv: Fast-track EL1 TLBIs for VHE guests
-0f5138f6dfc03abb8a64ff875ccc9f55301db153 KVM: arm64: nv: Use FEAT_ECV to trap access to EL0 timers
-135677555ba03a23320662c84d5b50217b93256c KVM: arm64: nv: Accelerate EL0 timer read accesses when FEAT_ECV is on
-dd410d06b30312ba5741505dc3acb2af31f1fa94 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
-aa043b15db0f3e7529d319d0aa116c0e0d5138db KVM: arm64: nv: Add nested GICv3 tracepoints
-81a2fe933b098f7eea24a5faacad4da2ed302aa6 mailmap: Update address for Jintack Lim
-1ec0bb1e06e0bb1edb99eed1d5219fefebaa2a9d KVM: arm64: Opportunistically track HCR_EL2.E2H being flipped
-41f83ab672f79944e12e0b22a92a924c4e7e54da KVM: arm64: nv: Add sanitising to VNCR-backed sysregs
-759d2e18f8954f4c76eb1772f38301df6ed8fa5d [HACK] disable EOI MI
+7eb1e15e284a8980c84d16ee6cce2726fa3a2ce1 iommu/virtio: Make use of ops->iotlb_sync_map
+4872babd14cbf9ed9e93daca1008e77ede57cfa8 iommu/virtio: Add ops->flush_iotlb_all and enable deferred flush
 
---===============5091840702705967368==--
+--===============7985044056266920111==--
