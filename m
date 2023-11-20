@@ -1,61 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 20 Nov 2023 22:46:00 -0000
-Message-Id: <170052036027.21384.1571944670696228741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 20 Nov 2023 22:46:14 -0000
+Message-Id: <170052037495.21562.12002664301012043865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/drm-fixes-2023-09-15
-    old: 0000000000000000000000000000000000000000
-    new: 70388a28a5cfe0d6d64b47181c1abe1461d643b3
-  - ref: refs/tags/drm-fixes-2023-09-22
-    old: 0000000000000000000000000000000000000000
-    new: 7ddb277845f426d50cda03929e6d1a5fa0215885
-  - ref: refs/tags/drm-fixes-2023-09-22-2
-    old: 0000000000000000000000000000000000000000
-    new: ae84881265b8bcbd6db5507669414c2a5b5e8384
-  - ref: refs/tags/drm-fixes-2023-09-29
-    old: 0000000000000000000000000000000000000000
-    new: 74e1e7e5a9cdf410056f26794dac18a140192a0d
-  - ref: refs/tags/drm-fixes-2023-10-06
-    old: 0000000000000000000000000000000000000000
-    new: 2302234740a26a441cdc6f64d5747e733da550e6
-  - ref: refs/tags/drm-fixes-2023-10-13
-    old: 0000000000000000000000000000000000000000
-    new: 045530b0ab0d247c003675a2944ac7cae4b323a4
-  - ref: refs/tags/drm-fixes-2023-10-20
-    old: 0000000000000000000000000000000000000000
-    new: 417d389084afcaf1650b72c2d50cd7d3f463a0a8
-  - ref: refs/tags/drm-fixes-2023-10-27
-    old: 0000000000000000000000000000000000000000
-    new: 5209fb629317adfc59f86747302fa2d3ce7032b9
-  - ref: refs/tags/drm-fixes-2023-11-17
-    old: 0000000000000000000000000000000000000000
-    new: ba1ffbe473ea413023c9a4c5d265fd2201f08dd1
-  - ref: refs/tags/drm-next-2023-09-08
-    old: 0000000000000000000000000000000000000000
-    new: 9a329f1f3b7db73bc01c29fc7fe5c9928dddfa02
-  - ref: refs/tags/drm-next-2023-10-31-1
-    old: 0000000000000000000000000000000000000000
-    new: 2a64b4b3add809914c8dff3110ca8ed9010b6723
-  - ref: refs/tags/drm-next-2023-11-07
-    old: 0000000000000000000000000000000000000000
-    new: e2af44d37d0aaf637922cfcc286d67553b87c83f
-  - ref: refs/tags/drm-next-2023-11-10
-    old: 0000000000000000000000000000000000000000
-    new: 1f1edf0cd8b4ca5560f84bcb2abd42c108552372
-  - ref: refs/tags/exynos-drm-fixes-for-v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 117d4cb7f699f9324193b680e9fbb2cf5dab50b8
-  - ref: refs/tags/topic/nvidia-gsp-2023-11-03
-    old: 0000000000000000000000000000000000000000
-    new: 05206fb314c6a2d0c0c674fe2f3734369b979d88
-  - ref: refs/tags/topic/vmemdup-user-array-2023-10-24-1
-    old: 0000000000000000000000000000000000000000
-    new: 00357412308ee0d83baff0f590e16b736a87795a
+  - ref: refs/heads/vfs.fixes
+    old: 60fc2887c158179760c4bf6b9de5c01df50e8f19
+    new: 796432efab1e372d404e7a71cc6891a53f105051
+    log: |
+         8a924db2d7b5eb69ba08b1a0af46e9f1359a9bdf fs: Pass AT_GETATTR_NOSEC flag to getattr interface function
+         fe2c34bab6d46469ad3095955dc37e984dc24e38 iov_iter: fix copy_page_to_iter_nofault()
+         66917f85db6002ed09cd24186258892fcfca64b6 autofs: add: new_inode check in autofs_fill_super()
+         762321dab9a72760bf9aec48362f932717c9424d filemap: add a per-mapping stable writes flag
+         1898efcdbed32bb1c67269c985a50bab0dbc9493 block: update the stable_writes flag in bdev_add
+         c421df0b19430417a04f68919fc3d1943d20ac04 xfs: clean up FS_XFLAG_REALTIME handling in xfs_ioctl_setattr_xflags
+         9c04138414c00ae61421f36ada002712c4bac94a xfs: respect the stable writes flag on the RT device
+         796432efab1e372d404e7a71cc6891a53f105051 libfs: getdents() should return 0 after reaching EOD
+         
