@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 20 Nov 2023 14:31:10 -0000
-Message-Id: <170049067063.8198.3886486988731850233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 20 Nov 2023 14:35:13 -0000
+Message-Id: <170049091316.11272.6407568562330411295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/perf/core
-    old: 652ffc2104ec1f69dd4a46313888c33527145ccf
-    new: bbb968696d0f3442ab823598def3b756cf4735c6
+  - ref: refs/heads/v6.7-tmp/dts64
+    old: 908c2312f82dcd844f3ce2ffcb95742ff9e74069
+    new: 638bf6d4be05bbdac9486007fbb2578b180f191a
     log: |
-         243218ca93037631f0224fdbefea045912cb761a perf/x86/intel/cstate: Cleanup duplicate attr_groups
-         c3dd1995620cdcd65cf4944c4164b0dbc16e557c x86/smp: Export symbol cpu_clustergroup_mask()
-         3877d55a0db2688c2e4ab8a319614a0c81f8e2d2 perf/x86/intel/cstate: Add Sierra Forest support
-         bbb968696d0f3442ab823598def3b756cf4735c6 perf/x86/intel/cstate: Add Grand Ridge support
+         6be89e2fa002795167d180e982c5e5dc737ab0b0 dt-bindings: display: mediatek: ethdr: Add compatible for MT8188
+         874ca5469c8dd8cd97f8f113fe74d351235dfbae dt-bindings: display: mediatek: mdp-rdma: Add compatible for MT8188
+         ffad2263931271ebb85cf553953527756d20a49e dt-bindings: display: mediatek: merge: Add compatible for MT8188
+         9b7c47f04c8d7a220975b19e56a737d29a29ed17 dt-bindings: display: mediatek: padding: Add MT8188
+         9da51fe2cf38c3d54a272da8b90f2197c54d1794 dt-bindings: arm: mediatek: Add compatible for MT8188
+         638bf6d4be05bbdac9486007fbb2578b180f191a dt-bindings: reset: mt8188: Add VDOSYS reset control bits
          
