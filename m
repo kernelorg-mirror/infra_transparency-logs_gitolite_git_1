@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8591318021190888934=="
+Content-Type: multipart/mixed; boundary="===============2570553616681764573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 20 Nov 2023 09:07:45 -0000
-Message-Id: <170047126524.28373.11045688413088602598@gitolite.kernel.org>
+Date: Mon, 20 Nov 2023 09:08:26 -0000
+Message-Id: <170047130651.28761.13018640245602157790@gitolite.kernel.org>
 
---===============8591318021190888934==
+--===============2570553616681764573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-misc
-    old: bf5c04ddd378dbd62d41d9c5bd18cca03bee2946
+  - ref: refs/heads/edac-for-next
+    old: 6f15b178cd6315c997981f76c6ebed7ad39144c5
     new: 1b09892962048a66ab46bf489c2b1264c1ae99ee
-    log: revlist-bf5c04ddd378-1b0989296204.txt
+    log: revlist-6f15b178cd63-1b0989296204.txt
 
---===============8591318021190888934==
+--===============2570553616681764573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf5c04ddd378-1b0989296204.txt
+Content-Disposition: attachment; filename=revlist-6f15b178cd63-1b0989296204.txt
 
 94119eeb02d114aa1f78dcfaabdca50b9b626790 bcachefs: Add IO error counts to bch_member
 f5d26fa31ed2e260589f0bc8af010bb742f1231e bcachefs: bch_sb_field_errors
@@ -1051,4 +1051,4 @@ eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
 1b09892962048a66ab46bf489c2b1264c1ae99ee EDAC/altera: Use device_get_match_data()
 
---===============8591318021190888934==--
+--===============2570553616681764573==--
