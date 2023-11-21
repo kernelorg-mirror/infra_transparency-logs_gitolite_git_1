@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 21 Nov 2023 14:56:44 -0000
-Message-Id: <170057860401.29727.5576375934613846411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 21 Nov 2023 15:27:15 -0000
+Message-Id: <170058043566.19391.12706599371618683846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/v2.1.x
-    old: 0000000000000000000000000000000000000000
-    new: 055d401f88a6c0bb8f2ccd3773154baac991075b
+  - ref: refs/heads/for-next/kspp
+    old: 167820dd258df90362619c429e9962e8844fc344
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
