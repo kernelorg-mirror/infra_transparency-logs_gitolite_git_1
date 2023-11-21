@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6651207147117121053=="
+Content-Type: multipart/mixed; boundary="===============4103174526641693666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 21 Nov 2023 13:11:23 -0000
-Message-Id: <170057228326.16981.15104193210038576146@gitolite.kernel.org>
+Date: Tue, 21 Nov 2023 13:11:31 -0000
+Message-Id: <170057229177.17117.1977710175952121797@gitolite.kernel.org>
 
---===============6651207147117121053==
+--===============4103174526641693666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 98b1cc82c4affc16f5598d4fa14b1858671b2263
     log: revlist-b85ea95d0864-98b1cc82c4af.txt
 
---===============6651207147117121053==
+--===============4103174526641693666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -394,4 +394,4 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
 
---===============6651207147117121053==--
+--===============4103174526641693666==--
