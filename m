@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 21 Nov 2023 13:41:36 -0000
-Message-Id: <170057409647.8342.13958097192393501368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Tue, 21 Nov 2023 13:53:56 -0000
+Message-Id: <170057483625.15819.973022118823320399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/for-6.7/upstream-fixes
-    old: c55092187d9ad7b2f8f5a8645286fa03997d442f
-    new: 5b4ffb176d7979ac66b349addf3f7de433335e00
+  - ref: refs/heads/patchset/meminfo/v2.1
+    old: cc6200454eb83b4e846d90f08e6db172946d5301
+    new: eda0351ce92287a050e7f3521142d042b399b971
     log: |
-         5b4ffb176d7979ac66b349addf3f7de433335e00 Revert "HID: logitech-dj: Add support for a new lightspeed receiver iteration"
-         
-  - ref: refs/heads/for-next
-    old: c608d16a691ff1fdc3dfc5df58a751deb4050cbc
-    new: dbef8373cf6b6b27715dd34597312e6401c152b5
-    log: |
-         5b4ffb176d7979ac66b349addf3f7de433335e00 Revert "HID: logitech-dj: Add support for a new lightspeed receiver iteration"
-         dbef8373cf6b6b27715dd34597312e6401c152b5 Merge branch 'for-6.7/upstream-fixes' into for-next
+         eda0351ce92287a050e7f3521142d042b399b971 proc: Implement /proc/self/meminfo
          
