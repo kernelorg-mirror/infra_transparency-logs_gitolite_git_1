@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 21 Nov 2023 17:55:09 -0000
-Message-Id: <170058930920.29738.3867451223264288455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 21 Nov 2023 17:59:06 -0000
+Message-Id: <170058954676.31253.1130148590314989017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/tpm_buf-v4
-    old: cad4fca6ef9943082918c8233f7c70e3a94e8e7c
-    new: 845563c05c2d38484dd80e1e43e425fb86f89943
+  - ref: refs/heads/x86/apic
+    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+    new: 5a7d6d26af7714718b673e40bdc97f9f207e265a
     log: |
-         2c0b93141149063d5ba34bab66f0700dc24f6980 tpm: Store the length of the tpm_buf data separately.
-         b7fcf030115e2f22a7d624299da5625e02590570 tpm: Introduce tpm_buf_init_sized() and tpm_buf_reset_sized()
-         8851cb8f3bda86383b823d949078da0951f4b395 tpm: Add tpm_buf_read_{u8,u16,u32}
-         845563c05c2d38484dd80e1e43e425fb86f89943 KEYS: trusted: tpm2: Use struct tpm_buf for sized buffers
+         07e8f88568f558fb0f9529f49b3ab120cbe750fe x86/apic: Drop apic::delivery_mode
+         855da7cdf974f3902397e5bf9423c7442bdfd75f x86/apic: Drop enum apic_delivery_modes
+         5a7d6d26af7714718b673e40bdc97f9f207e265a x86/apic: Drop struct local_apic
          
