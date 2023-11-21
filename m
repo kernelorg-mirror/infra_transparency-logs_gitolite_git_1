@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 21 Nov 2023 09:24:28 -0000
-Message-Id: <170055866844.32364.12646404648242436001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Nov 2023 09:34:51 -0000
+Message-Id: <170055929168.6933.16797950565392743224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/tpm_buf-v4
-    old: 5a3c443ea90334bb079e9336a46cf115fe5e9f6b
-    new: 8c63dc0d3860eff692e9ff57b05eddaa5a17a8f3
+  - ref: refs/heads/main
+    old: 31c54867fdea452023cc5faba939a6afec1b9d7e
+    new: 0807dc76f3bf500f9a22465eedd2290da7357efb
     log: |
-         8c63dc0d3860eff692e9ff57b05eddaa5a17a8f3 fixup
+         0807dc76f3bf500f9a22465eedd2290da7357efb octeon_ep: support Octeon CN10K devices
          
