@@ -1,148 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 21 Nov 2023 13:38:42 -0000
-Message-Id: <170057392206.5628.7199756832744401064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 21 Nov 2023 13:41:36 -0000
+Message-Id: <170057409647.8342.13958097192393501368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/tags/sent/arm-build-bug-v1
-    old: 0000000000000000000000000000000000000000
-    new: 7456bcef45dc3b67f223040a3d5d77ebce9e35cc
-  - ref: refs/tags/sent/fix-rtl8366rb-v1
-    old: 0000000000000000000000000000000000000000
-    new: 36fb3bf5b9bf2b4aeb34be8e04db0dea8a184535
-  - ref: refs/tags/sent/fix-rtl8366rb-v2
-    old: 0000000000000000000000000000000000000000
-    new: 27803b333632e2273e86c263e9af161db3c27e62
-  - ref: refs/tags/sent/fix-rtl8366rb-v3
-    old: 0000000000000000000000000000000000000000
-    new: 0abc839bf90fa52f4b4daf83b51792dce5d21fee
-  - ref: refs/tags/sent/gemini-largeframe-fix-v1
-    old: 0000000000000000000000000000000000000000
-    new: 784e173c67dba61b877c915c523c14e31dd620e7
-  - ref: refs/tags/sent/gemini-largeframe-fix-v2
-    old: 0000000000000000000000000000000000000000
-    new: dfb8002004dfc074f3c0319e62348fb9842b2f7f
-  - ref: refs/tags/sent/gemini-largeframe-fix-v3
-    old: 0000000000000000000000000000000000000000
-    new: 17bddc83827f79ad1e637a23ffd291bf646dc7cf
-  - ref: refs/tags/sent/gemini-largeframe-fix-v4
-    old: 0000000000000000000000000000000000000000
-    new: 25ba207126590a6f17abdd32dde0b23367fd5ae6
-  - ref: refs/tags/sent/iio-rescale-only-offset-v1
-    old: 0000000000000000000000000000000000000000
-    new: 6c7d26b42cd753a92fe2ca10f2bed8cf31cc0053
-  - ref: refs/tags/sent/iio-rescale-only-offset-v2
-    old: 0000000000000000000000000000000000000000
-    new: fe2e9fc7fba933b07ee896c46c542fd4b6a39279
-  - ref: refs/tags/sent/iio-spacex-lsm6ds0-v1
-    old: 0000000000000000000000000000000000000000
-    new: 30bbc3bd9fc74bd7879f204d30ae05e02772339e
-  - ref: refs/tags/sent/iio-spacex-lsm6ds0-v2
-    old: 0000000000000000000000000000000000000000
-    new: b29ed0233b72b4d413e9c0cab514ba352884ff9e
-  - ref: refs/tags/sent/ixp4xx-eth-id-v1
-    old: 0000000000000000000000000000000000000000
-    new: f8f152ce103efd52e6c8439d010987f57ebff731
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v2
-    old: 0000000000000000000000000000000000000000
-    new: a770fb121df82b01b26c2b066e0d084add886010
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v3
-    old: 0000000000000000000000000000000000000000
-    new: 85264c7e47c0797ab60272dc33c51b8869a4ed25
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v4
-    old: 0000000000000000000000000000000000000000
-    new: d8d433dd989c8dbd8530475fd7ce1ed716f0028f
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v5
-    old: 0000000000000000000000000000000000000000
-    new: a49ede02b97b4ff5ab33d5a39872156548607ec2
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v6
-    old: 0000000000000000000000000000000000000000
-    new: d382e7e196fb6ba613235bd6ae1029e3261c7ece
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v7
-    old: 0000000000000000000000000000000000000000
-    new: 6a4a2ddd26fd8f7ec5fa2a1db83a7dbb69559991
-  - ref: refs/tags/sent/mv88e6xxx-bindings-v8
-    old: 0000000000000000000000000000000000000000
-    new: 51f6e67656d138598c6c26ec7e38cb27afaa8053
-  - ref: refs/tags/sent/versatile-dts-v6-6-v1
-    old: 0000000000000000000000000000000000000000
-    new: 51135b6a9f66a2631d6c1b5c3c7381f687cc0c8e
-  - ref: refs/tags/sent/versatile-dts-v6-7-v1
-    old: 0000000000000000000000000000000000000000
-    new: 5e8a5398186888c1cf0ada36fb7144d486a985e2
-  - ref: refs/tags/sent/virt-to-pfn-fix-ppc-v1
-    old: 0000000000000000000000000000000000000000
-    new: 7a8e566386d4d008c990109fd064a7a1cdb0a73b
-  - ref: refs/tags/sent/virt-to-phy-arch-tree-v1
-    old: 0000000000000000000000000000000000000000
-    new: ed6f87d6ccdbc3ed7fd85b7d9bc090bc024b02b0
-  - ref: refs/tags/sent/virt-to-phys-arc-v1
-    old: 0000000000000000000000000000000000000000
-    new: 7ae95c7d91919e69e3ee6b4699e5106ad53107cf
-  - ref: refs/tags/sent/virt-to-phys-csky-v3
-    old: 0000000000000000000000000000000000000000
-    new: bbfae74e4df61fe8f42984f7c775e5c3b2a3af63
-  - ref: refs/tags/sent/virt-to-phys-hexagon-v2
-    old: 0000000000000000000000000000000000000000
-    new: d5ecece68fb941c8fd3a6ac11e576cb2e0c54d74
-  - ref: refs/tags/sent/virt-to-phys-hexagon-v3
-    old: 0000000000000000000000000000000000000000
-    new: a3e5443f193aaaba04b75df879261611a74326b5
-  - ref: refs/tags/sent/virt-to-phys-openrisc-v2
-    old: 0000000000000000000000000000000000000000
-    new: b5711e7457f29c377b502467f35ae3a04f23833d
-  - ref: refs/tags/sent/virt-to-phys-s390-v1
-    old: 0000000000000000000000000000000000000000
-    new: 7390177071c9c9cd6b547a2b6e3dfd644ac5903a
-  - ref: refs/tags/sent/virt-to-phys-s390-v2
-    old: 0000000000000000000000000000000000000000
-    new: 3303914697f201e2a639acb1f04c2f52f9992e7b
-  - ref: refs/tags/sent/virt-to-phys-x86-xen-v1
-    old: 0000000000000000000000000000000000000000
-    new: 9c1d576cd6ab74edb43b5f316f67ec8013386ad3
-  - ref: refs/tags/v6.5
-    old: 0000000000000000000000000000000000000000
-    new: 52e12027d50affbf60c6c9c64db8017391b0c22e
-  - ref: refs/tags/v6.5-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a2d347d8f5a92014f809bd13e0639ef7a13e8dba
-  - ref: refs/tags/v6.5-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e42df5dc5f39a088f3611d9f09619f53dd6d3a5d
-  - ref: refs/tags/v6.5-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 73a6c7d018fee97e1ba2eff68b795fe08a9ddd76
-  - ref: refs/tags/v6.6
-    old: 0000000000000000000000000000000000000000
-    new: 5260836abb7056beed3f3f0d0e4262c11f36f0d0
-  - ref: refs/tags/v6.6-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5c850e5ef01aae373c022d83be4bafcff54373e5
-  - ref: refs/tags/v6.6-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b9435475cc9bfb60f0327686d1183f498f3d51c1
-  - ref: refs/tags/v6.6-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
-  - ref: refs/tags/v6.6-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 657c707d1c69d838dfc6e35dd528f161503e46de
-  - ref: refs/tags/v6.6-rc5
-    old: 0000000000000000000000000000000000000000
-    new: e6ec05aacec40cf517511763a28ff627157d131d
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
-  - ref: refs/tags/v6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03d1179639b1515dce087335c1fb5c962908683b
+  - ref: refs/heads/for-6.7/upstream-fixes
+    old: c55092187d9ad7b2f8f5a8645286fa03997d442f
+    new: 5b4ffb176d7979ac66b349addf3f7de433335e00
+    log: |
+         5b4ffb176d7979ac66b349addf3f7de433335e00 Revert "HID: logitech-dj: Add support for a new lightspeed receiver iteration"
+         
+  - ref: refs/heads/for-next
+    old: c608d16a691ff1fdc3dfc5df58a751deb4050cbc
+    new: dbef8373cf6b6b27715dd34597312e6401c152b5
+    log: |
+         5b4ffb176d7979ac66b349addf3f7de433335e00 Revert "HID: logitech-dj: Add support for a new lightspeed receiver iteration"
+         dbef8373cf6b6b27715dd34597312e6401c152b5 Merge branch 'for-6.7/upstream-fixes' into for-next
+         
