@@ -1,43 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5086566580381209458=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 21 Nov 2023 08:58:03 -0000
-Message-Id: <170055708327.13034.4009380013912763129@gitolite.kernel.org>
-
---===============5086566580381209458==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 21 Nov 2023 09:05:12 -0000
+Message-Id: <170055751265.18794.13723263362280284667@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.7-2
-    old: 0000000000000000000000000000000000000000
-    new: ab5b3850f6c16cea510f7e63d34d70f24d3678d1
-
---===============5086566580381209458==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1700557080 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1700557080-3b150a3a9ba3eed8dbcd1c254dcaaf7af79de4d9
-
-0000000000000000000000000000000000000000 ab5b3850f6c16cea510f7e63d34d70f24d3678d1 refs/tags/platform-drivers-x86-v6.7-2
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZVxxEAAKCRBZrE9hU+XO
-MUROAP90uP5dhHEk/9F0lJ8BsR9940VZQ/3Elz808aXiECbh4AEAngb91VPx6IER
-4STP0pJDX4rgNyJs8U8U8vUf+o4/6gI=
-=pBFF
------END PGP SIGNATURE-----
-
---===============5086566580381209458==--
+  - ref: refs/heads/tpm_buf-v4
+    old: 013a4cfea2a0ef7473fb2993e243bec353f6adce
+    new: c63b190eb584b35c79917d7facb82fc2bb12d751
+    log: |
+         d277b5fd04055dcaf6706cc832632646bb5b1742 tpm: Support TPM2 sized buffers (TPM2B)
+         a1e0570546051b62052f5a34e51ea990b4e6bec0 tpm: Add tpm_buf_read_{u8,u16,u32}
+         c63b190eb584b35c79917d7facb82fc2bb12d751 KEYS: trusted: tpm2: Use struct tpm_buf for sized buffers
+         
