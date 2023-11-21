@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 21 Nov 2023 19:09:40 -0000
-Message-Id: <170059378045.18248.6938530933603537093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 21 Nov 2023 19:13:29 -0000
+Message-Id: <170059400941.21519.16144523752026145971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/tpm_buf-v4
-    old: 969dbdf9f28b0df53afa6ab377a34f5af2751e29
-    new: 747819af920337f7f96374a4ea2821f950d74532
+  - ref: refs/heads/master
+    old: 57b97ecb40caeb116c22451bbdaaa9a1d12c0b43
+    new: 3cbbf9192abdc9183eb215b5e8b06c778e5c2214
     log: |
-         3265a6802c41dee0eec039bb01b99177e94ac177 tpm: Store the length of the tpm_buf data separately.
-         36bf649dafe15367fa70b331c0325875593ae249 tpm: Introduce tpm_buf_init_sized() and tpm_buf_reset_sized()
-         e11a9426417ff5a0208e323512dd5e91f2ffbb40 tpm: Add tpm_buf_read_{u8,u16,u32}
-         747819af920337f7f96374a4ea2821f950d74532 KEYS: trusted: tpm2: Use struct tpm_buf for sized buffers
+         b0e2a0395312f4e53504ae84eeb5902e5518d1d7 selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in bpf_tcp_ca
+         3ec1114a97457398077e45b231d502d1cc30439d selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in bind_perm
+         f125d09b99fc0ee43f865810390f10b8f23a2c98 selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in bpf_obj_id
+         3ece0e85f679c23d2a5128993846c58a2f5f890e selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in vmlinux
+         3cbbf9192abdc9183eb215b5e8b06c778e5c2214 Merge branch 'selftests-bpf-update-multiple-prog_tests-to-use-assert_-macros'
          
