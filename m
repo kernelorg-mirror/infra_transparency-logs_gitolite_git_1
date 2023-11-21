@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 21 Nov 2023 08:50:30 -0000
-Message-Id: <170055663099.8760.16233866990827613909@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5086566580381209458=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 21 Nov 2023 08:58:03 -0000
+Message-Id: <170055708327.13034.4009380013912763129@gitolite.kernel.org>
+
+--===============5086566580381209458==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.7/upstream-fixes
-    old: a5e913c25b6b2b6ae02acef6d9400645ac03dfdf
-    new: c55092187d9ad7b2f8f5a8645286fa03997d442f
-    log: |
-         c55092187d9ad7b2f8f5a8645286fa03997d442f HID: add ALWAYS_POLL quirk for Apple kb
-         
-  - ref: refs/heads/for-next
-    old: 760471a23dd29487d223a6b0855ae632307def51
-    new: c608d16a691ff1fdc3dfc5df58a751deb4050cbc
-    log: |
-         c55092187d9ad7b2f8f5a8645286fa03997d442f HID: add ALWAYS_POLL quirk for Apple kb
-         c608d16a691ff1fdc3dfc5df58a751deb4050cbc Merge branch 'for-6.7/upstream-fixes' into for-next
-         
+  - ref: refs/tags/platform-drivers-x86-v6.7-2
+    old: 0000000000000000000000000000000000000000
+    new: ab5b3850f6c16cea510f7e63d34d70f24d3678d1
+
+--===============5086566580381209458==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1700557080 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1700557080-3b150a3a9ba3eed8dbcd1c254dcaaf7af79de4d9
+
+0000000000000000000000000000000000000000 ab5b3850f6c16cea510f7e63d34d70f24d3678d1 refs/tags/platform-drivers-x86-v6.7-2
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZVxxEAAKCRBZrE9hU+XO
+MUROAP90uP5dhHEk/9F0lJ8BsR9940VZQ/3Elz808aXiECbh4AEAngb91VPx6IER
+4STP0pJDX4rgNyJs8U8U8vUf+o4/6gI=
+=pBFF
+-----END PGP SIGNATURE-----
+
+--===============5086566580381209458==--
