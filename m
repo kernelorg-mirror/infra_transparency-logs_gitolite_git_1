@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 21 Nov 2023 17:02:20 -0000
-Message-Id: <170058614026.22703.14123715486033583073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 21 Nov 2023 17:02:50 -0000
+Message-Id: <170058617070.22967.12916046194209298577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 03d1f43c85a611578dd25d27dc22f2c74ce7ed0a
-    new: 97917a0c7bca7a4b55b369ab750e66b187232c0b
+  - ref: refs/heads/b4/vfs-mnt_idmap
+    old: eeff87cd1621167d6ea5a8861501323c3078450f
+    new: 8ea38037a06d3e4ed7f8e236e76b08b1ffc1f6dd
     log: |
-         27c69d7da1084af0b8b3a20ef9ff01e9eda5270c ASoC: dt-bindings: sound-card-common: List sound widgets ignoring system suspend
-         5d9f746ca64c3ebfba3b650dbc4b0de705c83f3b ASoC: imx-rpmsg: Force codec power on in low power audio mode
-         97917a0c7bca7a4b55b369ab750e66b187232c0b Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
+         3ca5ae6e13c5aa7b1eab5729639830f206e97249 mnt_idmapping: decouple from namespaces
+         39c16c6c5c4ac4be8d54549b488c03fe06ac6d59 mnt_idmapping: remove check_fsmapping()
+         e5795f11b50e87a13f10ca3db40c7538e41f61d3 mnt_idmapping: remove nop check
+         8ea38037a06d3e4ed7f8e236e76b08b1ffc1f6dd mnt_idmapping: decouple from namespaces
          
