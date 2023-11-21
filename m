@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Tue, 21 Nov 2023 13:53:56 -0000
-Message-Id: <170057483625.15819.973022118823320399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 21 Nov 2023 14:04:19 -0000
+Message-Id: <170057545961.22589.1361255612164507051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/patchset/meminfo/v2.1
-    old: cc6200454eb83b4e846d90f08e6db172946d5301
-    new: eda0351ce92287a050e7f3521142d042b399b971
+  - ref: refs/heads/master
+    old: 86860fb65f701720001b848bdf2a637f7e4c255b
+    new: 292330f860229f9311a395a71b893f3d657eae9a
     log: |
-         eda0351ce92287a050e7f3521142d042b399b971 proc: Implement /proc/self/meminfo
+         292330f860229f9311a395a71b893f3d657eae9a bindings: rust: libgpiod-sys: new release
          
