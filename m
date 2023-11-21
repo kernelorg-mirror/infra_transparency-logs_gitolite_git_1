@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 21 Nov 2023 12:18:55 -0000
-Message-Id: <170056913551.10064.6918918960415200989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 21 Nov 2023 12:19:16 -0000
+Message-Id: <170056915640.10290.13109363103552242913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/vfs.mount
-    old: 2d192e5fc82158ba7b3a1e70b5c5ab50c7eed67a
-    new: 8c3728d049da083d24dcd5e0200be3e9b42b1060
+  - ref: refs/heads/main
+    old: c0e2926266af3b5acf28df0a8fc6e4d90effe0bb
+    new: 54d4434da824460a190d547404530eff12a7907d
     log: |
-         96d82d224a24d7af4dff7f15765e751821f6fe93 {list,stat}mount: flatten error handling
-         506fff3c7bdd93b01c14bcc787bd7c824a1e1ac6 listmount: use overflow helpers
-         88494cbb2edbca77a285c118921ee7e100e7c348 listmount: guard against speculation
-         7f9fb17605d2732a0fc654489fd4808c002a1b1b listmount: massage unreachable mount handling
-         9fd60892556436ac8f035c22306833fd1a8d0bcf statmount: simplify numeric option retrieval
-         8c3728d049da083d24dcd5e0200be3e9b42b1060 statmount: simplify string option retrieval
+         d30fb712e52964f2cf9a9c14cf67078394044837 hv_netvsc: fix race of netvsc and VF register_netdevice
+         85520856466ed6bc3b1ccb013cddac70ceb437db hv_netvsc: Fix race of register_netdevice_notifier and VF register
+         c807d6cd089d2f4951baa838081ec5ae3e2360f8 hv_netvsc: Mark VF as slave before exposing it to user-mode
+         54d4434da824460a190d547404530eff12a7907d Merge branch 'hv_netvsc-fix-race-of-netvsc-vf-register-and-slave-bit'
          
