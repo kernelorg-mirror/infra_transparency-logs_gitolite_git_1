@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 21 Nov 2023 12:44:59 -0000
-Message-Id: <170057069984.28803.12817861341089366292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 21 Nov 2023 12:51:58 -0000
+Message-Id: <170057111838.2281.8574855779314972666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/master
-    old: 2eb90844772ed6c869ddb3b0ea26e66bc19d94e5
-    new: ec228f77ffdd85c188f7083c4d3e20c535fa8a56
+  - ref: refs/heads/spi-nor/next
+    old: 075ede8d20f8f201900756af55c58994c6660659
+    new: 4137f324cb29a689e8519d8f7f52d3443bac934b
     log: |
-         e8df9d9f4209c04161321d8c12640ae560f65939 perf/x86/intel: Correct incorrect 'or' operation for PMU capabilities
-         ec228f77ffdd85c188f7083c4d3e20c535fa8a56 Merge branch into tip/master: 'perf/urgent'
+         4137f324cb29a689e8519d8f7f52d3443bac934b MAINTAINERS: spi-nor: add myself as maintainer
          
-  - ref: refs/tags/v6.7-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
