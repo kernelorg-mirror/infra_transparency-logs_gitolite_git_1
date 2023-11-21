@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7560134377803323440=="
+Content-Type: multipart/mixed; boundary="===============2003337862580613744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 21 Nov 2023 03:30:24 -0000
-Message-Id: <170053742436.5295.12721472451385343087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 21 Nov 2023 03:30:32 -0000
+Message-Id: <170053743253.5477.4904313493327716403@gitolite.kernel.org>
 
---===============7560134377803323440==
+--===============2003337862580613744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 5a82d69d48c82e89aef44483d2a129f869f3506a
     new: 07b677953b9dca02928be323e2db853511305fa9
     log: revlist-5a82d69d48c8-07b677953b9d.txt
-  - ref: refs/tags/next-20230821
-    old: cf1a2af916c1e34519cd2cce4436ce6a3de57308
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231121
     old: 0000000000000000000000000000000000000000
     new: 624e82f9899e0a3b90ccb293496bfa4f460f177b
 
---===============7560134377803323440==
+--===============2003337862580613744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -569,4 +566,4 @@ f1ff75c86ed9414980d7a84d9418bc01946ab410 Revert "ACPI: property: Dig "rotation" 
 772afc4b392ebb60442f0e5a6906ca9880700b7e Revert "ACPI: scan: Extract MIPI DisCo for Imaging data into swnodes"
 07b677953b9dca02928be323e2db853511305fa9 Add linux-next specific files for 20231121
 
---===============7560134377803323440==--
+--===============2003337862580613744==--
