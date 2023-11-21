@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 21 Nov 2023 13:36:05 -0000
-Message-Id: <170057376558.2633.1144711055735128694@gitolite.kernel.org>
+Date: Tue, 21 Nov 2023 13:36:11 -0000
+Message-Id: <170057377128.2711.18248399155676909458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-integrator
 user: linusw
 changes:
-  - ref: refs/heads/b4/virt-to-phys-powerpc
-    old: 62390b7105ee9f1756a171c84d1b2e63fb63d582
+  - ref: refs/heads/b4/virt-to-phys-s390
+    old: 0a2e1728f65e2dc20b6fe6ce3762175e6c7500b1
     new: 0000000000000000000000000000000000000000
