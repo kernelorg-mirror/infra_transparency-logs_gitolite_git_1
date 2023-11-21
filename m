@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6442057213884866575=="
+Content-Type: multipart/mixed; boundary="===============8129248351177021747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 20 Nov 2023 23:58:48 -0000
-Message-Id: <170052472806.8293.2308333327347281409@gitolite.kernel.org>
+Date: Tue, 21 Nov 2023 00:00:17 -0000
+Message-Id: <170052481754.10596.7570629468403141157@gitolite.kernel.org>
 
---===============6442057213884866575==
+--===============8129248351177021747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,63 +15,93 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 9fcc0d9a59bbecec35a83ea4fe42af186efa61e4
-    new: 45cd9e469f7469bb5318da3a996be1272360e142
-    log: revlist-9fcc0d9a59bb-45cd9e469f74.txt
+  - ref: refs/heads/next-pending-fixes
+    old: 64e6d94bfb47ed0732ad06aedf8ec6af5dd2ab84
+    new: 4c027f821c886be146b5d4e915fae40f0f7a0695
+    log: revlist-64e6d94bfb47-4c027f821c88.txt
 
---===============6442057213884866575==
+--===============8129248351177021747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fcc0d9a59bb-45cd9e469f74.txt
+Content-Disposition: attachment; filename=revlist-64e6d94bfb47-4c027f821c88.txt
 
-3ecd1bdd46c3109d71f99f3517f3cac2fcfcffa1 fork: Support shadow stacks in clone3()
-991212ac889d7e52fbf9be3ba08be489242fa3eb mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-290e044450bce9ee6f1ddcf2e4aa4b6ec135e473 fork: Add shadow stack support to clone3()
-c367035c7c98106cc5e98482ed05ea0a59bacc73 selftests/clone3: Factor more of main loop into test_clone3()
-59984641982621ae30c8b8076f17022643d4ec02 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-d258fafd976a560832c8193aceac1209aa362600 kselftest/clone3: Test shadow stack support
-83c3a2206f0994d2307c22869f78650af860e714 tools/nolibc: Use linux/wait.h rather than duplicating it
-6b7d8974817ff7e9622ceb9ac00b2226f42605af arm64/gcs: Provide support for GCS in userspace
-bc0fad19d6ab1391c6edbe49de946163f41346a4 arm64/mm: Restructure arch_validate_flags() for extensibility
-448e11ffd9973c5bbef0e7af33dea556c23ddcda prctl: arch-agnostic prctl for shadow stack
-35f183e7fd569585bcfe1b4b7eadd550f5c1e594 mman: Add map_shadow_stack() flags
-32a91365b8da1e6c26c4819c77a535db4b8f9463 arm64: Document boot requirements for Guarded Control Stacks
-79cb900849c5d2f594c12a37d20546a0fc1db90c arm64/gcs: Document the ABI for Guarded Control Stacks
-a4bec13a81bb52920ef4c3a2756fe3812c8b6000 arm64/sysreg: Add new system registers for GCS
-66f4fe63b60aa0472fd25af559cf40f0a32feed8 arm64/sysreg: Add definitions for architected GCS caps
-54dcf01d9143f4495d37fbba91cfbe3b5d078aca arm64/gcs: Add manual encodings of GCS instructions
-1653deba9650ee48a31024370d46f3000bc8b65d arm64/gcs: Provide put_user_gcs()
-2b7c09ca6f1fbc80e51b205182c6ec32b2e2651a arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-8c8df48b932fe5ee972d4186bc2e6502890b0bc8 arm64/mm: Allocate PIE slots for EL0 guarded control stack
-7600ad8516c63ca63517c897e75413ba0aa907ba mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-f97c9323ac98f755c4dc84f0445dbdade7c486a3 arm64/mm: Map pages for guarded control stack
-51e29f249cdfa2d639c5788830b2dc1347f2884b KVM: arm64: Manage GCS registers for guests
-be35f38aa4a35bff605637e3fd15ed5a3c2ec0e6 arm64/gcs: Allow GCS usage at EL0 and EL1
-005bc578a9071cc4388cdfc97a41bc2fa63abb49 arm64/idreg: Add overrride for GCS
-ca0bde3e85256d95e0130cd3e4b9bed650e7a68f arm64/hwcap: Add hwcap for GCS
-8ffff74eea82ab9585a635deec88b409208cccf4 arm64/traps: Handle GCS exceptions
-58647165c8ba02e0d199ee80fef1edcc68d47db7 arm64/mm: Handle GCS data aborts
-a979c7e67625f5c6dd6861fa90eb3e0c8c84210e arm64/gcs: Context switch GCS state for EL0
-de5338f9dea2ce04d2d7cab743fac64afa334cd1 arm64/gcs: Allocate a new GCS for threads with GCS enabled
-54576a7de7a4c1987790ca6c78a994a19e20fa68 arm64/gcs: Implement shadow stack prctl() interface
-9c9c41256006dda753582a2d7d260212658a760a arm64/mm: Implement map_shadow_stack()
-7f3194b3a5570514ec4b61705398a68e923810ee arm64/signal: Set up and restore the GCS context for signal handlers
-6bd30b3f5d13bf3f0836dbe91ff6aabb2d09de8e arm64/signal: Expose GCS state in signal frames
-ec92217e915a5f0f9f6625a47745fe90181908ec arm64/ptrace: Expose GCS via ptrace and core files
-5ad6d5ddacd216641fb7c8128dbfb563f7840cf2 arm64: Add Kconfig for Guarded Control Stack (GCS)
-72e5e9bbff5183a0bf9001dbcb0cadc404787cea kselftest/arm64: Verify the GCS hwcap
-a5f402f9e99c6d84ee366c4f1df69282cc0048f6 kselftest/arm64: Add GCS as a detected feature in the signal tests
-c8b19d3534829088e9416401941f21d27f4efe0c kselftest/arm64: Add framework support for GCS to signal handling tests
-5c729328d92bebc0641988728b1b97b2878b5162 kselftest/arm64: Allow signals tests to specify an expected si_code
-8f53bd5c518c2fbb11334ee59af9954d36ed9893 kselftest/arm64: Always run signals tests with GCS enabled
-ce3d6d10d1928a2998516d916b053a12beaf3876 kselftest/arm64: Add very basic GCS test program
-0a07eaa20fad34fb5ac1b9fc178f29337f795756 kselftest/arm64: Add a GCS test program built with the system libc
-d6a48c9e9f800dab4b3ecacaff61631f0c7cd539 kselftest/arm64: Add test coverage for GCS mode locking
-64f47f4646bf2050baa259863d6c1aa8b6da251e selftests/arm64: Add GCS signal tests
-33d8ef69d4c3ec8bf2409d42952424a7a4594ba2 kselftest/arm64: Add a GCS stress test
-0cf5a1dc394bee4c1e8ff3dcad3c491b498b261e kselftest/arm64: Enable GCS for the FP stress tests
-45cd9e469f7469bb5318da3a996be1272360e142 kselftest/clone3: Enable GCS in the clone3 selftests
+7a3c36eef9a5d13b16aa954da54224c9c6bed339 platform/x86: ideapad-laptop: Set max_brightness before using it
+c5dbf04160005e07e8ca7232a7faa77ab1547ae0 platform/x86: hp-bioscfg: Simplify return check in hp_add_other_attributes()
+5736aa9537c9b8927dec32d3d47c8c31fe560f62 platform/x86: hp-bioscfg: move mutex_lock() down in hp_add_other_attributes()
+f40f939917b2b4cbf18450096c0ce1c58ed59fae platform/x86: hp-bioscfg: Fix error handling in hp_add_other_attributes()
+92c47597db7d8fb500a4b04ebd457ec7360279cc platform/x86: hp-bioscfg: Remove unused obj in hp_add_other_attributes()
+c6ea14d557343cd3af6c6be2f5a78c98bdb281bb platform/x86/amd/pmc: adjust getting DRAM size behavior
+b6f09b16558f31d93cdcda3cab90a2d309a7c823 MAINTAINERS: Add Chengchang Tang as Hisilicon RoCE maintainer
+018903e1cec3421a6198589fabd30682eb277904 drm/i915/dp_mst: Fix race between connector registration and setup
+0561794b6b642b84b879bf97061c4b4fa692839e drm/i915: do not clean GT table on error path
+7c9caa299335df94ad1c58f70a22f16a540eab60 ALSA: hda - Fix speaker and headset mic pin config for CHUWI CoreBook XPro
+37f67abe08557a79c3aabf684a49c6b99dbc259a ALSA: hda: cs35l41: Remove unnecessary boolean state variable firmware_running
+d04ce4113cb4e5c2deddcb161db42a25917f285f ALSA: cs35l41: Fix for old systems which do not support command
+14e8442e0789598514f3c9de014950de9feda7a4 ASoC: fsl_sai: Fix no frame sync clock issue on i.MX8MP
+bb0a05acd6121ff0e810b44fdc24dbdfaa46b642 drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
+79e0c5be8c73a674c92bd4ba77b75f4f8c91d32e net, vrf: Move dstats structure to core
+34d21de99cea9cb17967874313e5b0262527833c net: Move {l,t,d}stats allocation to core and convert veth & vrf
+ae1658272c6491a31ac968e39882fc569f312ac3 netkit: Add tstats per-CPU traffic counters
+6f2684bf2b4460c84d0d34612a939f78b96b03fc veth: Use tstats per-CPU traffic counters
+024ee930cb3c9ae49e4266aee89cfde0ebb407e1 bpf: Fix dev's rx stats for bpf_redirect_peer traffic
+2c225425704078282e152ba692649237f78b3d7a bpf, netkit: Add indirect call wrapper for fetching peer dev
+eee82da79f036bb49ff80d3088b9530e3c2e57eb selftests/bpf: De-veth-ize the tc_redirect test case
+adfeae2d243d9e5b83d094af481d189156b11779 selftests/bpf: Add netkit to tc_redirect selftest
+fcb905d831336ee0a67dd953837a904173cf7390 Merge branch 'bpf_redirect_peer fixes'
+7274dbc79ba96464db99a7c49126fdcaf5500ece MAINTAINERS: add Andrew Morton for lib/*
+87a02c05c926805386e8e0bba87e419c0a0ff374 hugetlb: fix null-ptr-deref in hugetlb_vma_lock_write
+d51072d1538a1e7f970f9e973754f57988b82831 mm/memory.c:zap_pte_range() print bad swap entry
+091995970e9502d2248460c8969de115cee79aed Revert "mm/kmemleak: move the initialisation of object to __link_object"
+f6f6ec7a47c56b458055d798a1daee318253446d mm/kmemleak: move set_track_prepare() outside raw_spinlocks
+d293b264087efb764fcaa536d120cdaef465f1ad mm: kmem: properly initialize local objcg variable in current_obj_cgroup()
+50b4b961a5fd87de415ad96a3efc7ec5400af180 mm-kmem-properly-initialize-local-objcg-variable-in-current_obj_cgroup-fix
+670d61c0d5808664d3d594c67dd6e1bb8480dfbd mm/pagemap: fix ioctl(PAGEMAP_SCAN) on vma check
+37e5ec1be340b160ab3140250acaa26b1d7cce0c mm/pagemap: fix wr-protect even if PM_SCAN_WP_MATCHING not set
+cf076d923ab0ced31ce1f11af64cf271a3523200 mm/selftests: fix pagemap_ioctl memory map test
+b2e4a8d1e4f0377b482ae39db788b575d200436b squashfs: squashfs_read_data need to check if the length is 0
+aeb6fbd1899a77398b1567b7af4701f9384628ef mm: fix oops when filemap_map_pmd() without prealloc_pte
+17f54db42f2de39f1609e8c6f0d25772004440f3 .mailmap: add a new address mapping for Chester Lin
+6115377a453d434541646de7c47b3ea0d7eeb5b2 mm/memory_hotplug: add missing mem_hotplug_lock
+c8c7acad5dcc0c5305a3f3de7fe0ef3ef6841520 mm/memory_hotplug: fix error handling in add_memory_resource()
+6f357c04e6a47db03cf7e0e9a7d530b9eceab771 checkstack: fix printed address
+d33d57e7429536bec59723be00181ea66f2556e9 lib/group_cpus.c: avoid acquiring cpu hotplug lock in group_cpus_evenly
+ac29673150d410cb551f6d7d0dd030aa0d465058 mm/damon/core: copy nr_accesses when splitting region
+31a459f04109bf0b4d67d9cb2a0e94f0abbead94 mm/shmem: fix race in shmem_undo_range w/THP
+468d63f9049db9eb408cc569ee003b087d74a269 mm-shmem-fix-race-in-shmem_undo_range-w-thp-fix
+82b228f4cc32efa1baa352f28124c23d2b6999a6 mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
+cd350cfc3c74e0a65a09c82e7276cbee8935dbbc mm/sparsemem: fix race in accessing memory_section->usage
+780ba1c902b53855ce8c51306c1500c4a67d622e mm/sparsemem: fix race in accessing memory_section->usage
+c35175a2b82fe28285e68922a772658c7517348a kexec: fix KEXEC_FILE dependencies
+6f87e2864bad2c8e2e2ddd5864f1bba18c0ca3e3 kexec: select CRYPTO from KEXEC_FILE instead of depending on it
+25996b6ebbb739057c96c2b798190d40a6f9e868 kexec-fix-kexec_file-dependencies-fix
+e6653ff1e2f29f4742f1d12c2d1f981a4e17be16 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+3bf00a40e9c0dd14372a8de0a339155375b514f6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
+94c6fb9b13e3d1a356c464b85dfb4d1273525263 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+ccfe3d145ea646da5bcaf1be3acd4b72205fc389 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
+832b9c4a39db39eec6180b99dfe965b1b9ce69e3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+e2871b9603afd62923d764a21ae46e13516e8a50 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+402fd2540f978ff25ac62b5f80f04c7e38bbe708 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+430643bda981da57a19b33cafd4ccb6b9d41f898 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+978fe605de36b19d37a686867147a282dedd3c78 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+0fe47d5b325c11ae4533dcc51bd47d6e6e8811b7 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
+fe0e98693635d7f712dc2f9238cb615571744a52 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+6f1ba7a90716d86233f2711737913c29a7e1b21d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
+5a8107fb3a94f4ed9b3bda52538ed7322ef9a001 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
+8d287ca394a3c1be6611891f0fb2136a48ca972a Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
+c97e04e03e9835afaf4b6a662b145c0ae0c95877 Merge branch 'fixes' of https://git.linuxtv.org/media_stage.git
+003ccd2c38bb61ab26d4712ebb21a1c7a79dee73 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
+c523557482357c5c797ee24423472ecc9bd7ba5e Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+71304893b11fcbcb9b2d2bc0e007fa0c688adbbc Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+1f3447d210aafda4ac19bf4431ffe7c23edef8a2 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+c7c445d1824290a7b580a7acc833b72326aa7e6c Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
+b8fd7922364ee5b61b2d343228cc08f0a7f90886 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
+a5816967a36c2518c96a921d330a073554c4cb8a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
+17c4c070a80ef9882f1bb997d38ce97367fb1fe6 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
+f964a3705103c035ca851d5b4054989630008dba Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
+e8a4ff2656bc8f9221d21b583b5fd5af7fc8d3a0 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+4d2fec6edf42080f5a9c8d2e61e2188e0f2d8378 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+9a41e5c5bd316ac7b205c4413cb5bcc9634ef5b6 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
+4c027f821c886be146b5d4e915fae40f0f7a0695 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
 
---===============6442057213884866575==--
+--===============8129248351177021747==--
