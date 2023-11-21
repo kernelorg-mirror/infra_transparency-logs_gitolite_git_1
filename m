@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 21 Nov 2023 16:58:05 -0000
-Message-Id: <170058588528.18976.16276124929671161935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 21 Nov 2023 16:59:53 -0000
+Message-Id: <170058599350.19697.5650567165919770719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/b4/vfs-mnt_idmap
-    old: 1b6b49eaff556483d349d5ea1154ad7aacf82785
-    new: eeff87cd1621167d6ea5a8861501323c3078450f
+  - ref: refs/heads/main
+    old: 938dbead34cd139c50c5d51cc58e18ef2f1c3d2c
+    new: 9c6dc13106f2dd2d6819d66618b25a6f41f0ee6a
     log: |
-         eeff87cd1621167d6ea5a8861501323c3078450f mnt_idmapping: decouple from namespaces
+         c0e2926266af3b5acf28df0a8fc6e4d90effe0bb ipv4: Correct/silence an endian warning in __ip_do_redirect
+         d30fb712e52964f2cf9a9c14cf67078394044837 hv_netvsc: fix race of netvsc and VF register_netdevice
+         85520856466ed6bc3b1ccb013cddac70ceb437db hv_netvsc: Fix race of register_netdevice_notifier and VF register
+         c807d6cd089d2f4951baa838081ec5ae3e2360f8 hv_netvsc: Mark VF as slave before exposing it to user-mode
+         54d4434da824460a190d547404530eff12a7907d Merge branch 'hv_netvsc-fix-race-of-netvsc-vf-register-and-slave-bit'
+         9c6dc13106f2dd2d6819d66618b25a6f41f0ee6a MAINTAINERS: Add indirect_call_wrapper.h to NETWORKING [GENERAL]
          
