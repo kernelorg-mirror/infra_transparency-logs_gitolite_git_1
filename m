@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6831893190754740595=="
+Content-Type: multipart/mixed; boundary="===============5980223252420397982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 21 Nov 2023 09:09:24 -0000
-Message-Id: <170055776498.21890.13956606398841148592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 21 Nov 2023 09:10:34 -0000
+Message-Id: <170055783413.23951.12434600841390312596@gitolite.kernel.org>
 
---===============6831893190754740595==
+--===============5980223252420397982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/tpm_buf-v4
-    old: c63b190eb584b35c79917d7facb82fc2bb12d751
-    new: 5a3c443ea90334bb079e9336a46cf115fe5e9f6b
-    log: revlist-c63b190eb584-5a3c443ea903.txt
+  - ref: refs/heads/mem-ctrl-next
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: 0d6c918011ce4764ed277de4726a468b7ffe5fed
+    log: |
+         fe3b082a6eb8b1526ed7397c849d6b2a6baeb6a1 memory: tegra: Add SID override programming for MC clients
+         0d6c918011ce4764ed277de4726a468b7ffe5fed memory: tegra: Skip SID programming if SID registers aren't set
+         
 
---===============6831893190754740595==
+--===============5980223252420397982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c63b190eb584-5a3c443ea903.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-af246cb7106c46ed00002339d0404d82ea778c56 scsi: qla2xxx: Fix system crash due to bad pointer access
-1c180b6639ff6eca86117ec76ca862a39cea0760 scsi: ufs: core: Expand MCQ queue slot to DeviceQueueDepth + 1
-5fa4a5dc67691d43782938277004ef0f03b960df scsi: ufs: core: Fix racing issue between ufshcd_mcq_abort() and ISR
-74b503f395e54662fc7de30983aeb7561f54c08e scsi: scsi_debug: Fix some bugs in sdebug_error_write()
-07ec5c5334cabd068dbbb641eba3479f6185cec4 scsi: scsi_debug: Delete some bogus error checking
-079bf20099efa91f142904b1a861ad0f5faf39bd scsi: sd: Fix sshdr use in sd_suspend_common()
-7c26993634bcd7df458acdea324bbfea74f8fa47 scsi: ufs: qcom-ufs: dt-bindings: Document the SM8650 UFS Controller
-4e783837933875d0c27ea455907c5cd12e304f70 tpm: Remove unused tpm_buf_tag()
-da20980e9622ecf7c18b3e35b19d576215eda89c tpm: Move buffer handling from static inlines to real functions
-9269de4516bf48ca062fe87de50af320848708fc tpm: Store TPM buffer length
-374560e6b67ce389e321c2a50b9a88b1153a8033 tpm: Detach tpm_buf_reset() from tpm_buf_init()
-ddc867c8f57ed7ee0146f9fd9e2639adfb1104e1 tpm: Create TPM2 sized buffers (TPM2B)
-acb081e53e92bccb3f22c9331dbb75c1a4ee1997 tpm: Add tpm_buf_read_{u8,u16,u32}
-5a3c443ea90334bb079e9336a46cf115fe5e9f6b KEYS: trusted: tpm2: Use struct tpm_buf for sized buffers
+certificate version 0.1
+pusher krzk@kernel.org 1700557832 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1700557832-f29adcc13c9f1cf16ef01ec88bf3c3e99645629e
 
---===============6831893190754740595==--
+b85ea95d086471afb4ad062012a4d73cd328fa86 0d6c918011ce4764ed277de4726a468b7ffe5fed refs/heads/mem-ctrl-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVcdAgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18q4D/9zfux39NbuKsAo/Jx/gUSzGQzoDpSlYyAs
+You7eXTbtjESXl1YyQxAiDjWyyfFJOFNHdp6kmFKXn4sDJ3iZH9FY9uBup3s4EUX
+j3kpIc+YdSxlzHSn0Zjqw00Z+j/tMfrS9lF5dvVyxBFebfjkLOjmeSduz+iCzL5i
+Ycz32eirN+MV6ZfRfL393YbWDz275wwwOR7D/IkGSDDRS1DaLg1uMi9BPkUglViC
+z269o16RB3o3csPQnwesNOECD9sttKB4Q1hM/Nhqze2SDBXZCjmI9YDfxN0CB+l2
+fRv4Wb3/Ny0rF3fAEI8jV2O77Ld165RSB/NfWrPTUbrz5HkSr6PGaa4hBg1Er247
+Zdb/NsGQA1NpHWZPnVuE1/iYF4OUStMA8ND8sJWhxyUkiDMDgBVEPZChED+SPmQ6
+NuH/Ymafy3EQ8HcvxQQ4Aebm7ugImP1EMqj463AM+s9JamlGT0ewEtBXlcUAjROi
+B4Gs9dXZIVtDkPZEz60VksyozNO2KTQmRlBNgUapBo426MoKtnEkam+RnUgTn6Yp
+mA3DdJgRzIVGzumMWFqJlUrT3tgSIkXwxkYUR9QC9nQZNvufpftpwSHfPO4JLquj
+7LL+t1PQJQInALfxnPO9IWPxqTjYdbgATuXjLgaM/fzvXZXFDdRo4s1ah+o+0ZLb
+4U/S8XFoqw==
+=X1k+
+-----END PGP SIGNATURE-----
+
+--===============5980223252420397982==--
