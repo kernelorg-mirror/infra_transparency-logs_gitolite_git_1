@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 21 Nov 2023 14:46:32 -0000
-Message-Id: <170057799204.22347.11829169546626778195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 21 Nov 2023 14:47:56 -0000
+Message-Id: <170057807653.22963.4194008858687098880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
   - ref: refs/heads/master
-    old: e8b8168485dacb737c058cb97e126d80a408e030
-    new: bd96d319702cc7f22d50a84d17e7157749f0b43e
+    old: 292330f860229f9311a395a71b893f3d657eae9a
+    new: 9f5e653fb55e0f33f9a13fb6b877e8fd36a4e214
     log: |
-         ee8fec257dce88d3fb8a95fe35a352cfcdc1f41a README: Versions: Document PDF books in <https://www.alejandro-colomar.es/share/dist/man-pages/>
-         bd96d319702cc7f22d50a84d17e7157749f0b43e scripts/LinuxManBook/: Split the pipeline for building the Linux Man Book
+         9f5e653fb55e0f33f9a13fb6b877e8fd36a4e214 bindings: rust: libgpiod-sys: new release
          
