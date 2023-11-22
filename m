@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 22 Nov 2023 21:53:37 -0000
-Message-Id: <170069001795.3617.7796272136027721660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 22 Nov 2023 21:53:58 -0000
+Message-Id: <170069003813.3855.8050009904172292004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 94f4018bc9f3e124bdaa630cf1d8f5d5e095adbe
+  - ref: refs/heads/master
+    old: c83226960872510fc3ff0351843fc1ec0e07a066
+    new: bdb4a32928f14f773cba164c360dbe647c864a30
     log: |
-         971f128bb2d9314203d365b7f163a5c35167bb6b soc: sifive: shunt ccache driver to drivers/cache
-         3d70b9853b44d3f034acaf5e3be7d5228daddef4 dt-bindings: cache: sifive,ccache0: Add StarFive JH7100 compatible
-         0d5701dc9cd653ae757cc06e39b3a39272863395 soc: sifive: ccache: Add StarFive JH7100 support
-         94f4018bc9f3e124bdaa630cf1d8f5d5e095adbe Merge branch 'riscv-cache-for-next' into riscv-soc-for-next
+         fd3e483a638cec113c8409858c8ea62cc83642c2 Fixes for 6.6
+         c3ae82ed488b7fcfee531a667fb76b15068bfaa7 Fixes for 6.5
+         9355e1267aedc3edc6af1546a262ded31e36723a Fixes for 6.1
+         bdb4a32928f14f773cba164c360dbe647c864a30 Fixes for 5.15
          
