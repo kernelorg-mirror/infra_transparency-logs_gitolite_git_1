@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Wed, 22 Nov 2023 22:14:51 -0000
-Message-Id: <170069129156.19294.16004334945688601243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 22 Nov 2023 22:16:25 -0000
+Message-Id: <170069138583.21488.6235192489191864273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/bpf/uprobe_link_info_9
-    old: 0000000000000000000000000000000000000000
-    new: 73ce1e11d1679e196e9a0a3ecfc72425b3f31803
+  - ref: refs/heads/master
+    old: 131fda2b26f0b91de45a029b003277872e2f18e4
+    new: ad1214ccdfe1e77b25eef44d4f7dae1dce4af9b2
+    log: |
+         ad1214ccdfe1e77b25eef44d4f7dae1dce4af9b2 foo
+         
