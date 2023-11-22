@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 22 Nov 2023 02:37:14 -0000
-Message-Id: <170062063430.22482.11759187264345704945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 22 Nov 2023 03:48:10 -0000
+Message-Id: <170062489041.8501.14132082415453160735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/tags/for-netdev
-    old: 6e5518c2163d33ff8bf89809ef251be6be81b743
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hyperv-fixes
+    old: 7e8037b099c0bbe8f2109dc452dbcab8d400fc53
+    new: 18286883e779fb79b413a7462968ee3f6768f19c
+    log: |
+         18286883e779fb79b413a7462968ee3f6768f19c x86/hyperv: Use atomic_try_cmpxchg() to micro-optimize hv_nmi_unknown()
+         
