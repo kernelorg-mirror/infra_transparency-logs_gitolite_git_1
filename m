@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4815733625771080597=="
+Content-Type: multipart/mixed; boundary="===============2955884741402315153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 22 Nov 2023 08:33:54 -0000
-Message-Id: <170064203418.16310.3101564862201136949@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 08:34:43 -0000
+Message-Id: <170064208363.16702.17466587647198482783@gitolite.kernel.org>
 
---===============4815733625771080597==
+--===============2955884741402315153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 92fddfbe99ffc16cb2990eab74ea0da6238ba7cd
-    new: 98510cf66e9b103a2c7174ac001cdc932a51fb63
-    log: revlist-92fddfbe99ff-98510cf66e9b.txt
+    old: 98510cf66e9b103a2c7174ac001cdc932a51fb63
+    new: 6ccf283af0e43dcf3af14bab9f8587edbf089836
+    log: revlist-98510cf66e9b-6ccf283af0e4.txt
 
---===============4815733625771080597==
+--===============2955884741402315153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92fddfbe99ff-98510cf66e9b.txt
+Content-Disposition: attachment; filename=revlist-98510cf66e9b-6ccf283af0e4.txt
 
-9fadd4509966e375952f31ae954ab5eae76f90fe MAINTAINERS: Remove stale entry for SBL platform driver
-7a3c36eef9a5d13b16aa954da54224c9c6bed339 platform/x86: ideapad-laptop: Set max_brightness before using it
-c5dbf04160005e07e8ca7232a7faa77ab1547ae0 platform/x86: hp-bioscfg: Simplify return check in hp_add_other_attributes()
-5736aa9537c9b8927dec32d3d47c8c31fe560f62 platform/x86: hp-bioscfg: move mutex_lock() down in hp_add_other_attributes()
-f40f939917b2b4cbf18450096c0ce1c58ed59fae platform/x86: hp-bioscfg: Fix error handling in hp_add_other_attributes()
-92c47597db7d8fb500a4b04ebd457ec7360279cc platform/x86: hp-bioscfg: Remove unused obj in hp_add_other_attributes()
-c6ea14d557343cd3af6c6be2f5a78c98bdb281bb platform/x86/amd/pmc: adjust getting DRAM size behavior
-914fa861e3d7803c9bbafc229652c2a69edb8b60 erofs: simplify erofs_read_inode()
-8bd90b6ae7856dd5000b75691d905b39b9ea5d6b erofs: fix NULL dereference of dif->bdev_handle in fscache mode
-62b241efff99fc4d88a86f1c67c7516e31f432a3 MAINTAINERS: erofs: add EROFS webpage
-8d9ce3e53bbd2d6241213e9a4deb310499c929ff MAINTAINERS: Drop Mark Gross as maintainer for x86 platform drivers
-a6584711e64d9d12ab79a450ec3628fd35e4f476 platform/x86: intel_telemetry: Fix kernel doc descriptions
-6b65522316489ff0b2be65d00fbcecbc781017c9 Merge tag 'erofs-for-6.7-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-c2d5304e6c648ebcf653bace7e51e0e6742e46c8 Merge tag 'platform-drivers-x86-v6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-98510cf66e9b103a2c7174ac001cdc932a51fb63 Merge branch 'linus'
+85d23a2b6f2c0d63f5b3eb969c627c15e64c24ce Merge branch into tip/master: 'perf/urgent'
+68b69fe38df848c06adc1c19e67fb63558e7484a Merge branch into tip/master: 'x86/urgent'
+64ef559929f9ad47c860110feabf85f9359c4fa4 Merge branch into tip/master: 'locking/core'
+2d3e6bd496063268cab54caf2264d0d45d3ed866 Merge branch into tip/master: 'objtool/core'
+675c89271aedf051dce0fa477d4c22a44a0c46b5 Merge branch into tip/master: 'perf/core'
+c26006ba495af5e47d15e73b1e524bc1ba748d7d Merge branch into tip/master: 'ras/core'
+a0fe4f0f24329e1622ed4c1dd5b33b4158c13914 Merge branch into tip/master: 'sched/core'
+44d986e87fe667cb8b63d0867c807fc33cc550af Merge branch into tip/master: 'x86/apic'
+234049638bef2bead7fe626aa31d1c42a8d9a1e9 Merge branch into tip/master: 'x86/cleanups'
+ad11c2ec01ced3c3e4bb04b8871958ab4d8660b2 Merge branch into tip/master: 'x86/cpu'
+113db50b412d7115a5014620d588a2f277359581 Merge branch into tip/master: 'x86/entry'
+a55673752135254b98bc217ecfdc1db76bcffad1 Merge branch into tip/master: 'x86/misc'
+71c74dddf6018bd32018d7104ce39f5c56c3d7cb Merge branch into tip/master: 'x86/paravirt'
+6ccf283af0e43dcf3af14bab9f8587edbf089836 Merge branch into tip/master: 'x86/percpu'
 
---===============4815733625771080597==--
+--===============2955884741402315153==--
