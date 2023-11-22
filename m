@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3645799748869948736=="
+Content-Type: multipart/mixed; boundary="===============8673967912038749978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 22 Nov 2023 02:35:24 -0000
-Message-Id: <170062052483.21232.10395697231203787824@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 02:35:31 -0000
+Message-Id: <170062053130.21364.12133195451467779828@gitolite.kernel.org>
 
---===============3645799748869948736==
+--===============8673967912038749978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 3cbbf9192abdc9183eb215b5e8b06c778e5c2214
     new: 53475287dad9b314ef477fc9a27b48b6999da053
     log: revlist-3cbbf9192abd-53475287dad9.txt
 
---===============3645799748869948736==
+--===============8673967912038749978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -702,4 +702,4 @@ f94471f3ce74a5fbe2dc5d9687748d9127174eca bnxt_en: Modify the NAPI logic for the 
 340bf2dbb11b4d2d44055fa5851d75fd335e3d45 Merge branch 'bnxt_en-prepare-to-support-new-p7-chips'
 53475287dad9b314ef477fc9a27b48b6999da053 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============3645799748869948736==--
+--===============8673967912038749978==--
