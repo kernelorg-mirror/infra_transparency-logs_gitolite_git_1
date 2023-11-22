@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5809600645281533734=="
+Content-Type: multipart/mixed; boundary="===============1831715699427646137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Wed, 22 Nov 2023 17:14:23 -0000
-Message-Id: <170067326391.23032.2858280350937504891@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 17:14:54 -0000
+Message-Id: <170067329414.23305.14789832977349006443@gitolite.kernel.org>
 
---===============5809600645281533734==
+--===============1831715699427646137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b72eeb603950f39f320c8113e56d69cbcfe2cb44
-    new: 9552083a783e5e48b90de674d4e3bf23bb855ab0
-    log: revlist-b72eeb603950-9552083a783e.txt
+  - ref: refs/heads/dev-queue
+    old: beb9f721d7b619607dc33127c39c6051f23b7969
+    new: c71fdbc575b79eff31db4ea243f98d5f648f7f0f
+    log: revlist-beb9f721d7b6-c71fdbc575b7.txt
 
---===============5809600645281533734==
+--===============1831715699427646137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b72eeb603950-9552083a783e.txt
+Content-Disposition: attachment; filename=revlist-beb9f721d7b6-c71fdbc575b7.txt
 
 978dff67939252711df73b805a85210f276625cf linux-firmware: Add firmware for Cirrus CS35L41 on 2024 ASUS Zenbook Laptops
 4f498d09a4a6a905f231a52f33886f8a5d22d5de linux-firmware: Add firmware for Cirrus CS35L41 on HP G11 Laptops
@@ -45,5 +45,8 @@ ba1aa06f37477a702ebabf14b5753378460c9343 Intel Bluetooth: Update firmware file f
 a41fa7c5008809ae360ce0808e378b37b1d6c0f4 mediatek: Sync shared memory structure changes
 c3ce13b3ffc0634026633b4bf692d63260d3be78 Merge branch 'main' into 'main'
 9552083a783e5e48b90de674d4e3bf23bb855ab0 Merge branch 'robot/pr-0-1700470117' into 'main'
+e63cf030cd731f610e2bab0c9c2d9b4b6cbe44f5 ice: update ice DDP package to 1.3.35.0
+6234a34fa3f454f452a54b002d42bbcf51c13215 ice: update ice DDP comms package to 1.3.45.0
+c71fdbc575b79eff31db4ea243f98d5f648f7f0f ice: update ice DDP wireless_edge package to 1.3.13.0
 
---===============5809600645281533734==--
+--===============1831715699427646137==--
