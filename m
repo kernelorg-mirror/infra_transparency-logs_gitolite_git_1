@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8041810428903350409=="
+Content-Type: multipart/mixed; boundary="===============6695395574033419195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 22 Nov 2023 14:17:22 -0000
-Message-Id: <170066264295.21962.17656567121669410535@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 14:17:27 -0000
+Message-Id: <170066264796.22040.1876037684855605982@gitolite.kernel.org>
 
---===============8041810428903350409==
+--===============6695395574033419195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: 02e790ee3077c0571794d0ab8f71413edbe129cc
-    new: 65f8780e2d70257200547b5a7654974aa7c37ce1
-    log: revlist-02e790ee3077-65f8780e2d70.txt
+  - ref: refs/heads/master
+    old: e392ea4d4d00880bf94550151b1ace4f88a4b17a
+    new: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+    log: revlist-e392ea4d4d00-98b1cc82c4af.txt
 
---===============8041810428903350409==
+--===============6695395574033419195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02e790ee3077-65f8780e2d70.txt
+Content-Disposition: attachment; filename=revlist-e392ea4d4d00-98b1cc82c4af.txt
 
-10128f8b1663a8bce27df051c750d116bb8cd737 RISC-V: Provide pgtable_l5_enabled on rv32
-e59e5e2754bf983fc58ad18f99b5eec01f1a0745 riscv: correct pt_level name via pgtable_l5/4_enabled
-8f501be87e45112eff74d0569dcfaab6bce39ef5 RISC-V: clarify the QEMU workaround in ISA parser
-92235d3d8365d24f6cc6701b545e764ef144806a riscv/mm: Fix the comment for swap pte format
-dd16ac404a685cce07e67261a94c6225d90ea7ba riscv: Using TOOLCHAIN_HAS_ZIHINTPAUSE marco replace zihintpause
-559fe94a449cba5b50a7cffea60474b385598c00 riscv: mm: Update the comment of CONFIG_PAGE_OFFSET
-87615e95f6f9ccd36d4a3905a2d87f91967ea9d2 riscv: put interrupt entries into .irqentry.text
-b8c2f6617fd734e6cf265b3b38383f16e47d2037 Merge patch series "RISC-V: ACPI improvements"
-a6bdc082ad1c91d389a6ba0c7a1945818f732114 Merge 'bpf-next 2023-10-16' into loongarch-next
-71d47b31e9ab579a00698cf9c059fa3adc312882 Merge branch 'mlx5-vhost' of https://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux.git
-c9e920ffa752b9047d65041cd70495409c768dd7 ASoC: codecs: Modify the maximum value of calib
-baf46c3c763809fbeabcff5ec6e2ff3081f755f2 ASoC: codecs: Modify the wrong judgment of re value
-b729598c1747576bb9a4c997190be3f7c2915726 ASoC: codecs: Modify macro value error
-ab5201e20c181563774631258f737caeefed2364 ASoC: da7219: Improve system suspend and resume handling
 a72cac6067fdfde280ece0ec5c055659a8de6508 vdpa: introduce dedicated descriptor group for virtqueue
 7db0d6027e69f47431800b510192436563ba415b vhost-vdpa: introduce descriptor group backend feature
 c8068d9bae0c78e8880451b94668253449b2d71d vhost-vdpa: uAPI to get dedicated descriptor group id
@@ -404,6 +390,22 @@ c7046ed0cf9bb33599aa7e72e7b67bba4be42d64 bcachefs: Improve stripe checksum error
 3d05e493e461c4469a9b73e00e59ea16e1d8a416 Merge tag 'i2c-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1cfb751165ef685b80635218beff38d6afbce4e2 Merge tag 'firewire-updates-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 77fa2fbe87fc605c4bfa87dff87be9bfded0e9a3 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+0547e0bd9b95da18747009c2091846fcb5691a6f s390/mm: add missing conversion to use ptdescs
+01c89ab7f81b76de00daccf6a856a00eb63a17d7 s390/ap: rework to use irq info from ap queue status
+c40284b3642554d6cf519525872f2f5784933d8d s390/ap: re-enable interrupt for AP queues
+e14aec23025eeb1f2159ba34dbc1458467c4c347 s390/ap: fix AP bus crash on early config change callback invocation
+504b73d00a55a68c0d1bb0e7c12e56e5f908e906 s390/perf: implement perf_callchain_user()
+aa44433ac4ee2ae59b4b11e01eddb6241ae24ef5 s390: add USER_STACKTRACE support
+cfaef6516e9ac64e36967bd74d173b67fef6eee4 s390/zcrypt: don't report online if card or queue is in check-stop state
+5cf1a563a3284dc5c9f4ee8917ad2ebd51ff3def s390/ap: fix vanishing crypto cards in SE environment
+92b519f3bc1c90e098bb3f12d8e739fc56c2d444 s390/cmma: cleanup inline assemblies
+468a3bc2b7b955a7cf97d47c6022bf1ae4a538a3 s390/cmma: move parsing of cmma kernel parameter to early boot code
+a3e89e20fe00209779eb3e419621070b9158acdb s390/cmma: move set_page_stable() and friends to header file
+65d37f163add1c6ead3a63788acb2f9590159f94 s390/cmma: move arch_set_page_dat() to header file
+a51324c430db3fcf3e7d77c265491322c251a396 s390/cmma: rework no-dat handling
+d08d4e7cd6bffe333f09853005aa549a8d57614b s390/mm: use full 4KB page for 2KB PTE
+0031f1c7cf2632a068a80261071b9b1f2d32d836 s390/mm: use compound page order to distinguish page tables
+02e790ee3077c0571794d0ab8f71413edbe129cc s390/mm: make pte_free_tlb() similar to pXd_free_tlb()
 b701f9e726f0a30a94ea6af596b74c1f07b95b6b riscv: provide riscv-specific is_trap_insn()
 8cb22bec142624d21bc85ff96b7bad10b6220e6a riscv: kprobes: allow writing to x0
 b8a03a634129b61a7ec69ece4460297ffbd790dc riscv: add userland instruction dump to RISC-V splats
@@ -1048,7 +1050,5 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 46a29dd1462198e67bf939c32a2faf4e9bf9ac63 Merge tag 'irq_urgent_for_v6.7_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
-d12292fdea21f9f4ae5865fd41b730c5e32d45a9 s390/sysinfo: add variable capacity information
-65f8780e2d70257200547b5a7654974aa7c37ce1 s390/boot: always align vmalloc area on segment boundary
 
---===============8041810428903350409==--
+--===============6695395574033419195==--
