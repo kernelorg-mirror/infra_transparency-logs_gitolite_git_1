@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7590655029287335726=="
+Content-Type: multipart/mixed; boundary="===============5800630167538423332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 22 Nov 2023 14:37:27 -0000
-Message-Id: <170066384746.5429.7676484674374404385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Wed, 22 Nov 2023 14:37:41 -0000
+Message-Id: <170066386104.5607.9386758792336419434@gitolite.kernel.org>
 
---===============7590655029287335726==
+--===============5800630167538423332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
 
---===============7590655029287335726==
+--===============5800630167538423332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -397,4 +397,4 @@ cd557bc0a2d0f36c41b6040c27f31da5c5b76f49 Merge tag 'x86_urgent_for_v6.7_rc2' of 
 eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 98b1cc82c4affc16f5598d4fa14b1858671b2263 Linux 6.7-rc2
 
---===============7590655029287335726==--
+--===============5800630167538423332==--
