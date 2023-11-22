@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7884039499460794108=="
+Content-Type: multipart/mixed; boundary="===============5986357860664685980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 22 Nov 2023 17:01:03 -0000
-Message-Id: <170067246302.13626.6709364544549483290@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 17:01:38 -0000
+Message-Id: <170067249850.13900.4293319596571435506@gitolite.kernel.org>
 
---===============7884039499460794108==
+--===============5986357860664685980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 335662889f5a5f4d5668ed6c8b5fd58913d91d15
-    new: 750011e239a50873251c16207b0fe78eabf8577e
-    log: revlist-335662889f5a-750011e239a5.txt
+  - ref: refs/heads/dev-queue
+    old: 913c10f434188871e274b931e8a10e6f2131ce40
+    new: 61846f8c145c01d9db8d0b477c0cae814c533d47
+    log: revlist-913c10f43418-61846f8c145c.txt
 
---===============7884039499460794108==
+--===============5986357860664685980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-335662889f5a-750011e239a5.txt
+Content-Disposition: attachment; filename=revlist-913c10f43418-61846f8c145c.txt
 
 96a2b48e5e1df6698f504969f0f51dc34e52ff3d cgroup: Remove unnecessary list_empty()
 d23b5c577715892c87533b13923306acc6243f93 cgroup: Make operations on the cgroup root_list RCU safe
@@ -158,5 +158,28 @@ f94471f3ce74a5fbe2dc5d9687748d9127174eca bnxt_en: Modify the NAPI logic for the 
 53475287dad9b314ef477fc9a27b48b6999da053 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 36b20fcdd9663ced36d3aef96f0eff8eb79de4b8 net: hsr: Add support for MC filtering at the slave device
 750011e239a50873251c16207b0fe78eabf8577e net: stmmac: Add support for HW-accelerated VLAN stripping
+dc53105f60e42b58a751bd5e16164276f479bde6 ice: remove ptp_tx ring parameter flag
+7726f50b4d85f9e753b13b5a8ae78652c81d2808 ice: unify logic for programming PFINT_TSYN_MSK
+39c4900f2644d98fca6142da88b36a8658fbbccd ice: restore timestamp configuration after device reset
+eee5a703e64a43970cc00f2ae1b1eea02f05c401 i40e: fix livelocks in i40e_reset_subtask()
+5d2f1ff497b6455a7b92fd26faf6aa27fd7ba9ea i40e: fix 32bit FW gtime wrapping issue
+d9c697e9aa16085b15be5927fcaf7831c27f65c4 i40e: add tracepoints for nvmupdate troubleshooting
+2e776e90365b70329f3d9503c817a25f5000f914 ice: Re-enable timestamping correctly after reset
+119496c1cad929acb5c8aed33f69cef9d455b1a7 ice: read internal temperature sensor
+39ac3ca59d97974884d816f1756aced01eed0374 ice: change vfs.num_msix_per to vf->num_msix
+8d9a8ab97250b1f1a9e2972fad28dfae8bd99761 i40e: Delete unused and useless i40e_pf fields
+00fe50f36fc27b326adff70980e8bf0097b67780 i40e: Remove AQ register definitions for VF types
+ec7655c9fe0c0eb1afba5ac510f06633bec52ee6 i40e: Remove queue tracking fields from i40e_adminq_ring
+b8decf9fa8997c778c51839155fc35eed098e55b iavf: Remove queue tracking fields from iavf_adminq_ring
+45e98ee80b01be8ba4f8d4c701c560663db4666b i40e: Fix adding unsupported cloud filters
+ce06bb590e1654bddafdb0d75f65a05e9bcd4904 ice: Reset VF on Tx MDD event
+761524c1d7587d223d6cfecbb6236851c89f7805 ice: periodically kick Tx timestamp interrupt
+cb43b33ee3a54a939b496da8362ad0f85fbd7a11 ice: Restore fix disabling RX VLAN filtering
+351065d4e37b0b998a2a69ef5e9f3bfa1c659555 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+e1a5f2faf18b867ff6c91ba6fbcf38e0f59a0dc5 i40e: Fix waiting for queues of all VSIs to be disabled
+b3122173dfac6111ea524bf51eab43a5db20b538 i40e: Fix unexpected MFS warning message
+b61cc9bab9072d26dc3f2c9d8e50639464be8c59 iavf: use iavf_schedule_aq_request() helper
+0ece111076d10a7cb8f1082153ed548905c2ae73 ice: add CGU info to devlink info callback
+61846f8c145c01d9db8d0b477c0cae814c533d47 ice: Fix VF Reset paths when interface in a failed over aggregate
 
---===============7884039499460794108==--
+--===============5986357860664685980==--
