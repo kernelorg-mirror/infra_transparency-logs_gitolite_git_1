@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 22 Nov 2023 15:06:21 -0000
-Message-Id: <170066558195.25862.6012704682250200292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 22 Nov 2023 15:26:56 -0000
+Message-Id: <170066681601.8563.6481502899634244780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 6a26310273c323380da21eb23fcfd50e31140913
-    new: bc4fbf022c68967cb49b2b820b465cf90de974b8
+    old: 9cf69afc926e009156eeb15314643a97148fdcb2
+    new: aeae96f6ff55cfc95b2957957cf08f5fc9feb8f0
     log: |
-         bc4fbf022c68967cb49b2b820b465cf90de974b8 netdevsim: Don't accept device bound programs
+         8f060d724e962867ed6b57a8408f3a42fc3661bd scripts/LinuxManBook/build_linux_man_book.sh: Explicitly preprocess before calling groff(1)
+         aeae96f6ff55cfc95b2957957cf08f5fc9feb8f0 scripts/LinuxManBook/build_linux_man_book.sh: Simplify groff(1) call
          
