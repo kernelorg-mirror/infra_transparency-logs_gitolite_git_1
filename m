@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 22 Nov 2023 15:26:56 -0000
-Message-Id: <170066681601.8563.6481502899634244780@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7463044809588439651=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/subspace/site
+Date: Wed, 22 Nov 2023 15:31:14 -0000
+Message-Id: <170066707427.11839.15686267586590378908@gitolite.kernel.org>
+
+--===============7463044809588439651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/infra/subspace/site
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9cf69afc926e009156eeb15314643a97148fdcb2
-    new: aeae96f6ff55cfc95b2957957cf08f5fc9feb8f0
+    old: e1fa0fb80dec8b558386ac5fe399ae7efb6a03de
+    new: cf1512bcdf8e11c7f5b6e74ae2435e716a73824e
     log: |
-         8f060d724e962867ed6b57a8408f3a42fc3661bd scripts/LinuxManBook/build_linux_man_book.sh: Explicitly preprocess before calling groff(1)
-         aeae96f6ff55cfc95b2957957cf08f5fc9feb8f0 scripts/LinuxManBook/build_linux_man_book.sh: Simplify groff(1) call
+         cf1512bcdf8e11c7f5b6e74ae2435e716a73824e Fix warnings and add a note on gmail
          
+
+--===============7463044809588439651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1700667073 -0500
+pushee gitolite.kernel.org:pub/scm/infra/subspace/site
+nonce 1700667073-2176af2b60cbb42475b6a4285a9ba15b22c8568f
+
+e1fa0fb80dec8b558386ac5fe399ae7efb6a03de cf1512bcdf8e11c7f5b6e74ae2435e716a73824e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZV4ewQAKCRC2xBzjVmSZ
+bMdOAQCAKUoi5pYqX5TaG0igBt5q5gqSDe0bL6OX7cKywMzqwAD7B2h6woqu8QQm
+2SA8jVwGHbLj91k6c/IpfDu0K30wiQ0=
+=ZylM
+-----END PGP SIGNATURE-----
+
+--===============7463044809588439651==--
