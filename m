@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 22 Nov 2023 14:48:05 -0000
-Message-Id: <170066448538.12946.64432540933490226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 22 Nov 2023 14:52:43 -0000
+Message-Id: <170066476354.16249.9732955696578493930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 4d5d33478b937f762d5995af8ed9d1ab9d0f0d6c
-    new: 9cf69afc926e009156eeb15314643a97148fdcb2
+  - ref: refs/heads/nfsd-next
+    old: 21bc7f605adb9625e9db69fdca07c2bedb6bf6a3
+    new: 434ef1e05e3a266de15d71513fa60d370b222289
     log: |
-         3c378b9e716e03ca77268e0e08e28ba136fb2eb0 CONTRIBUTING: Please sign your emails with PGP
-         64dd51b3c41e95842b8367ae40823c8780465e62 scripts/LinuxManBook/build_linux_man_book.sh: Use pipes instead of temporary files
-         9cf69afc926e009156eeb15314643a97148fdcb2 scripts/LinuxManBook/build_linux_man_book.sh: Allow running from any working directory
+         14db801013d888c3ad6a755832a9274e842e81f4 SUNRPC: Add a server-side API for retrieving an RPC's pseudoflavor
+         1ee0e57d2e4ee3a0bbb289d6313dfa31e26762ff NFSD: Replace RQ_SPLICE_OK in nfsd_read()
+         3f9f63ee4119b343d47019ffe83b76bae987ef7c NFSD: Modify NFSv4 to use nfsd_read_splice_ok()
+         434ef1e05e3a266de15d71513fa60d370b222289 SUNRPC: Remove RQ_SPLICE_OK
          
