@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3644525223579742030=="
+Content-Type: multipart/mixed; boundary="===============4842805874832700426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 22 Nov 2023 17:56:20 -0000
-Message-Id: <170067578078.22879.11529446058696885660@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 17:56:51 -0000
+Message-Id: <170067581192.23139.4870099128251604462@gitolite.kernel.org>
 
---===============3644525223579742030==
+--===============4842805874832700426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.7-fixes
     old: 7930d9e103700cde15833638855b750715c12091
     new: bf823ead59881595145899a092760e750eeabf66
     log: revlist-7930d9e10370-bf823ead5988.txt
 
---===============3644525223579742030==
+--===============4842805874832700426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -387,4 +387,4 @@ eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://
 3dd1a3e3b0b37e4a593c4785f21e00ee5dc4c4ca xfs: clean up dqblk extraction
 bf823ead59881595145899a092760e750eeabf66 xfs: dquot recovery does not validate the recovered dquot
 
---===============3644525223579742030==--
+--===============4842805874832700426==--
