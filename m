@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6823710232011784556=="
+Content-Type: multipart/mixed; boundary="===============2597640360485095058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Wed, 22 Nov 2023 16:06:13 -0000
-Message-Id: <170066917388.4483.3467699027510154532@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 16:06:18 -0000
+Message-Id: <170066917833.4567.1938022489823822915@gitolite.kernel.org>
 
---===============6823710232011784556==
+--===============2597640360485095058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: 06dc10eae55b5ceabfef287a7e5f16ceea204aa0
-    new: c2d5304e6c648ebcf653bace7e51e0e6742e46c8
-    log: revlist-06dc10eae55b-c2d5304e6c64.txt
-  - ref: refs/heads/for-6.7-fixes
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: d5ce8f4ed90bf34b9b2c5459665cee6ee79fe101
     new: c49f8859b6a3346ea1d63555bfdf0e6910e39fab
+    log: revlist-d5ce8f4ed90b-c49f8859b6a3.txt
 
---===============6823710232011784556==
+--===============2597640360485095058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06dc10eae55b-c2d5304e6c64.txt
+Content-Disposition: attachment; filename=revlist-d5ce8f4ed90b-c49f8859b6a3.txt
 
-463f46e114f74465cf8d01b124e7b74ad1ce2afd Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 5eda8f25377f3d6de697eaa1d9801b9781d09dbc Merge tag 'linux_kselftest-kunit-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 7dc0e9c7dda66bd91eeada00d90033e3eb647fc3 Merge tag 'linux_kselftest-next-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 babe393974de0351c0e6cca50f5f84edaf8d7fa1 Merge tag 'docs-6.7' of git://git.lwn.net/linux
@@ -1053,5 +1049,6 @@ eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://
 a6584711e64d9d12ab79a450ec3628fd35e4f476 platform/x86: intel_telemetry: Fix kernel doc descriptions
 6b65522316489ff0b2be65d00fbcecbc781017c9 Merge tag 'erofs-for-6.7-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 c2d5304e6c648ebcf653bace7e51e0e6742e46c8 Merge tag 'platform-drivers-x86-v6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+c49f8859b6a3346ea1d63555bfdf0e6910e39fab workqueue: Make sure that wq_unbound_cpumask is never empty
 
---===============6823710232011784556==--
+--===============2597640360485095058==--
