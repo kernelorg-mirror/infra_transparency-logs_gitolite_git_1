@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1549890975634890502=="
+Content-Type: multipart/mixed; boundary="===============8883220261189629926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 22 Nov 2023 14:43:21 -0000
-Message-Id: <170066420106.9553.15002368397290620410@gitolite.kernel.org>
+Date: Wed, 22 Nov 2023 14:44:00 -0000
+Message-Id: <170066424055.9888.14791768657742289607@gitolite.kernel.org>
 
---===============1549890975634890502==
+--===============8883220261189629926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.8/partial-freezing
+  - ref: refs/heads/slab/for-next
     old: dd374e220ba492f95344a638b1efe5b2744fdd73
     new: b3d0cfe1e878081d13cb5ce494fc11e5d2a17b7c
     log: |
@@ -31,28 +31,28 @@ changes:
          b3d0cfe1e878081d13cb5ce494fc11e5d2a17b7c slub: Update frozen slabs documentations in the source
          
 
---===============1549890975634890502==
+--===============8883220261189629926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1700664197 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1700664236 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1700664196-c1380424bdac6c9cd11ea1355e66478996a3b921
+nonce 1700664235-1c92214e91bece44dbb9588a8407c6e857cd7e05
 
-dd374e220ba492f95344a638b1efe5b2744fdd73 b3d0cfe1e878081d13cb5ce494fc11e5d2a17b7c refs/heads/slab/for-6.8/partial-freezing
+dd374e220ba492f95344a638b1efe5b2744fdd73 b3d0cfe1e878081d13cb5ce494fc11e5d2a17b7c refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVeE4UACgkQu+CwddJF
-iJpKDwgAh4sXhsP6mBZRwwDF/wyIYiSExKRet24so79/rej3TmaiwVvhssdth87V
-rWZLoy2wEQ5mJnTLTMJb8OVKfE8tool35Vwpumen7t5+XvgiGB4mjBZ5f6aDhVYB
-lfEBC7cPRE87MS5y7UK6tY869xrD2NmHd9c5AFFhOAdr6vbVVdgfPs6ssXryRywB
-J/nQJjinf/N9JM0ERfY6tPcM/lnpaKLReDMsks3WMSQrvhSj25Ok1hsVS8PgIaP0
-O79JYP+leMwmVC6h0ekAfLWljGzwAqPHuPuUIv4HABTxye7WzBXbdnPMSGhWQLgF
-yfZuTTbIQOCNJhnVas945Lgpx78eQQ==
-=uEcF
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVeE6wACgkQu+CwddJF
+iJpY1wf/b75el+0B4gSz3G9btEDA5zbtshomUI6SZxg2/aQygEwJlvJ5Xzaj5s+h
+H/KUBOD9pQ0GcWATNJOX7MMgiFrnZk5Bm+hGR9KuvaKxNkMmmz/zsVWogw28VIJD
+SM4k+BkmFg+CtTJvNfGVceiZvc72XdDlaWRKy3WqSOXXznv2r1DHPnXiSHXFSoYY
+iT6qOBNl9WeKm7ZTxb/mZPtq3j2SL5RZQ9ZxlEwJ7q/kRDlkVkAaKP2CErWw0TX0
+iGycqn47kNiIkJ9vu0kpkLpy64y+Qe4y/gfCr27mJ1rbqiOkxj2qYg6aeFlGt2/q
+Z52FENCQKCukCpPsjQOZaFbQIPgKyA==
+=sg7H
 -----END PGP SIGNATURE-----
 
---===============1549890975634890502==--
+--===============8883220261189629926==--
