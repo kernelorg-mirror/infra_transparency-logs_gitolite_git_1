@@ -1,185 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5986357860664685980=="
+Content-Type: multipart/mixed; boundary="===============5809600645281533734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 22 Nov 2023 17:01:38 -0000
-Message-Id: <170067249850.13900.4293319596571435506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Wed, 22 Nov 2023 17:14:23 -0000
+Message-Id: <170067326391.23032.2858280350937504891@gitolite.kernel.org>
 
---===============5986357860664685980==
+--===============5809600645281533734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 913c10f434188871e274b931e8a10e6f2131ce40
-    new: 61846f8c145c01d9db8d0b477c0cae814c533d47
-    log: revlist-913c10f43418-61846f8c145c.txt
+  - ref: refs/heads/main
+    old: b72eeb603950f39f320c8113e56d69cbcfe2cb44
+    new: 9552083a783e5e48b90de674d4e3bf23bb855ab0
+    log: revlist-b72eeb603950-9552083a783e.txt
 
---===============5986357860664685980==
+--===============5809600645281533734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-913c10f43418-61846f8c145c.txt
+Content-Disposition: attachment; filename=revlist-b72eeb603950-9552083a783e.txt
 
-96a2b48e5e1df6698f504969f0f51dc34e52ff3d cgroup: Remove unnecessary list_empty()
-d23b5c577715892c87533b13923306acc6243f93 cgroup: Make operations on the cgroup root_list RCU safe
-9067d90006df089b9a1da0d74f0cad232a5d726a cgroup: Eliminate the need for cgroup_mutex in proc_cgroup_show()
-0008454e8fd30ed0017a9a35b8dd708f168931b8 cgroup: Add annotation for holding namespace_sem in current_cgns_cgroup_from_root()
-aecd408b7e50742868b3305c24325a89024e2a30 cgroup: Add a new helper for cgroup1 hierarchy
-2b62aa59d02ed281fa4fc218df3ca91b773e1e62 selftests/bpf: fix RELEASE=1 build for tc_opts
-fac85c291e141a67fce46bdce01f9ee33aafabfe selftests/bpf: Convert CHECK macros to ASSERT_* macros in bpf_iter
-f4c7e887324f5776eef6e6e47a90e0ac8058a7a8 selftests/bpf: satisfy compiler by having explicit return in btf test
-bf4a64b9323f181df8aba32d66cb37b9fa5df959 selftests/bpf: Add malloc failure checks in bpf_iter
-93f7378734b595fb61e89b802002fb7e3a1267d2 bpf: derive smin/smax from umin/max bounds
-d540517990a9d105bf0312760665964916ac044f bpf: derive smin32/smax32 from umin32/umax32 bounds
-c1efab6468fd5ef541d47d81dbb62cca27f8db3b bpf: derive subreg bounds from full bounds when upper 32 bits are constant
-6593f2e6741f03b49bffc9d55ddd4c1c47853c39 bpf: add special smin32/smax32 derivation from 64-bit bounds
-c51d5ad6543cc36334ef1fcd762d0df767a0bf7e bpf: improve deduction of 64-bit bounds from 32-bit bounds
-d7f00873817129e62f8c70891cb13c8eafe9feef bpf: try harder to deduce register bounds from different numeric domains
-9e314f5d8682e1fe6ac214fb34580a238b6fd3c4 bpf: drop knowledge-losing __reg_combine_{32,64}_into_{64,32} logic
-c2a3ab094683ddc154879a1364fc7cb0228f96a6 bpf: rename is_branch_taken reg arguments to prepare for the second one
-c31534267c180f7ed00288d239a501b554885300 bpf: generalize is_branch_taken() to work with two registers
-c697289efe4ef38bc5c62f119cb74433f784b826 bpf: move is_branch_taken() down
-b74c2a842bba941945279027083fcee1e9aaa73f bpf: generalize is_branch_taken to handle all conditional jumps in one place
-4d345887d2e5a1915600cb5d37b16c4088c6ee1c bpf: unify 32-bit and 64-bit is_branch_taken logic
-d79924ca579c647d5dc55f605899c98f7ea04d0f selftests/bpf: Use value with enough-size when updating per-cpu map
-811476e9cc578cb6c776627ac069dc45a8431791 bpf: prepare reg_set_min_max for second set of registers
-b9b79553163788d3fc42e25c2662c0a46dc9a3c5 selftests/bpf: Export map_update_retriable()
-4621202adc5bc0d1006af37fe8b9aca131387d3c bpf: generalize reg_set_min_max() to handle two sets of two registers
-2f553b032cad4993969cab356b3b0e306fcd1cd1 selftsets/bpf: Retry map update for non-preallocated per-cpu map
-cd9c127069c040d6b022f1ff32fed4b52b9a4017 Merge branch 'bpf-register-bounds-logic-and-testing-improvements'
-e3499962d836af085a621f005978fee20fc87276 Merge branch 'selftests/bpf: Fixes for map_percpu_stats test'
-b0cf0dcde8cae24571b1f382e81328229e475604 selftests/bpf: Consolidate VIRTIO/9P configs in config.vm file
-74523c06ae20b83c5508a98af62393ac34913362 bpf: Add __bpf_dynptr_data* for in kernel use
-a46afaa03f6db8c65492302ffdafcb2e769e5667 bpftool: Fix prog object type in manpage
-0b51940729150e807fc4b7767164e6bb6cf4f7dd bpf: Factor out helper check_reg_const_str()
-f2d2c7e1b7c9e8847478769d6e1f8a76b5e91952 selftests/bpf: Disable CONFIG_DEBUG_INFO_REDUCED in config.aarch64
-045edee19d591e59ed53772bf6dfc9b1ed9577eb bpf: Introduce KF_ARG_PTR_TO_CONST_STR
-9b75dbeb36fcd9fc7ed51d370310d0518a387769 bpf, lpm: Fix check prefixlen before walking trie
-b0d1c7294671af02369d7a4feaa5a9bb472372c6 Merge branch 'bpf: __bpf_dynptr_data* and __str annotation'
-1500a5d9f49cb66906d3ea1c9158df25cc41dd40 bpf: Add KF_RCU flag to bpf_refcount_acquire_impl
-f460e7bdb027d1da93f0c5090b239889cd46a33d selftests/bpf: Add test passing MAYBE_NULL reg to bpf_refcount_acquire
-649924b76ab151a96bdd22a97a993fb0421f134c bpf: Use bpf_mem_free_rcu when bpf_obj_dropping non-refcounted nodes
-7f7c43693c1b46652cfafb7af67ba31726d6ec4e libbpf: Fix potential uninitialized tail padding with LIBBPF_OPTS_RESET
-790ce3cfefb1b768dccd4eee324ddef0f0ce3db4 bpf: Move GRAPH_{ROOT,NODE}_MASK macros into btf_field_type enum
-5d4a7aaca1ebcc7c864caec13203662a061c4f4f veristat: add ability to sort by stat's absolute value
-1b12171533a9bb23cf6fba7262b479028b65e1e8 bpf: Mark direct ld of stashed bpf_{rb,list}_node as non-owning ref
-27007fae704eb12547b9b5c7b1005e11640d4f19 veristat: add ability to filter top N results
-e9ed8df7187cfdce1075d0ee591544ac15d072f1 selftests/bpf: Test bpf_refcount_acquire of node obtained via direct ld
-82ce364c6087e31ff9837380a4641a856284064c bpf: replace register_is_const() with is_reg_const()
-3f6d04d742d9fbd492a79e28e7cfe4e2a97c66e5 Merge branch 'allow-bpf_refcount_acquire-of-mapval-obtained-via-direct-ld'
-155addf0814a92d08fce26a11b27e3315cdba977 bpf: Use named fields for certain bpf uapi structs
-689b097a06bafb461ec162fc3b3ecc9765cea67b compiler-gcc: Suppress -Wmissing-prototypes warning for all supported GCC
-92411764e3106f38ac815d2fb1ae011e7bbe2abc Merge branch 'for-6.8-bpf' of https://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup into bpf-next
-b8e3a87a627b575896e448021e5c2f8a3bc19931 bpf: Add crosstask check to __bpf_get_stack
-100888fb6d8a185866b1520031ee7e3182b173de selftests/bpf: Fix pyperf180 compilation failure with clang18
-727a92d62fd6a382b4c5972008e45667e707b0e4 selftests/bpf: Add assert for user stacks in test_task_stack
-fe977716b40cb98cf9c91a66454adf3dc2f8c59a bpf: Add a new kfunc for cgroup1 hierarchy
-4849775587844e44d215289c425bcd70f315efe7 selftests/bpf: Fix issues in setup_classid_environment()
-f744d35ecf46f111bf9b54bfdbc89a28ee8b928a selftests/bpf: Add parallel support for classid
-c1dcc050aa648bb3b831030d547c3fcc1c68140c selftests/bpf: Add a new cgroup helper get_classid_cgroup_id()
-bf47300b186facc8ae66a0e2aa89073565f82bb3 selftests/bpf: Add a new cgroup helper get_cgroup_hierarchy_id()
-360769233cc9c921e90ae387d167ea3cd3cbb04c selftests/bpf: Add selftests for cgroup1 hierarchy
-81427a62a22148cdc85db38a6fbe487d0d2044b6 Merge branch 'bpf-add-support-for-cgroup1-bpf-part'
-67420501e8681ae18f9f0ea0a69cd2f432100e70 bpf: generalize reg_set_min_max() to handle non-const register comparisons
-96381879a370425a30b810906946f64c0726450e bpf: generalize is_scalar_branch_taken() logic
-be41a203bb9e0159099e189e510388fe61962eb8 bpf: enhance BPF_JEQ/BPF_JNE is_branch_taken logic
-5f99f312bd3bedb3b266b0d26376a8c500cdc97f bpf: add register bounds sanity checks and sanitization
-3cf98cf594ea923b8b1e0385b580d3d8aae68c06 bpf: remove redundant s{32,64} -> u{32,64} deduction logic
-cf5fe3c71c5a34ac0108afc550407c672d0a032d bpf: make __reg{32,64}_deduce_bounds logic more robust
-8863238993e23ccc6d5a9d4ff9f1c043f88f692e selftests/bpf: BPF register range bounds tester
-774f94c5e74d86d554c4fd1e97c517a1a7ee7fe0 selftests/bpf: adjust OP_EQ/OP_NE handling to use subranges for branch taken
-2b0d204e368b306d4db894749947ed591b667ec5 selftests/bpf: add range x range test to reg_bounds
-dab16659c50e8c9c7c5d9584beacec28c769dcca selftests/bpf: add randomized reg_bounds tests
-8c5677f8b31e92b57be7d5d0fbb1ac66eedf4f91 selftests/bpf: set BPF_F_TEST_SANITY_SCRIPT by default
-a5c57f81eb2b5d6de4f46e47fd85be50d179bfd8 veristat: add ability to set BPF_F_TEST_SANITY_STRICT flag with -r flag
-882e3d873c2d8a2aebbc6c192aa1a2990b9d5b27 selftests/bpf: add iter test requiring range x range logic
-9cea90c01f4bddfb4cea12a9c23eef6414714503 Merge branch 'bpf-register-bounds-range-vs-range-support'
-5fa201f37c2ef58a0f821e656d794af89b3a1738 bpf: Remove test for MOVSX32 with offset=32
-ff8867af01daa7ea770bebf5f91199b7434b74e5 bpf: rename BPF_F_TEST_SANITY_STRICT to BPF_F_TEST_REG_INVARIANTS
-db840d389bad60ce6f3aadc1079da13e7e993a16 bpf: move verbose_linfo() into kernel/bpf/log.c
-42feb6620accded89cad5f455665e21281813d79 bpf: move verifier state printing code to kernel/bpf/log.c
-009f5465be3636e9ce795cfbd5d3109d8978774d bpf: extract register state printing
-67d43dfbb42d6575304daea67733c88fbf536a1c bpf: print spilled register state in stack slot
-0c95c9fdb696f35c7864785ba84cb9a50152daff bpf: emit map name in register state if applicable and available
-1db747d75b1dbe17bf4283ed87bd3b7a92010f34 bpf: omit default off=0 and imm=0 in register state log
-0f8dbdbc641b45a5fa31d497f9fc83ffe1174fa3 bpf: smarter verifier log number printing logic
-46862ee854b4f5a315d63b677ca3af14a89aefeb bpf: emit frameno for PTR_TO_STACK regs if it differs from current one
-16b3129e14bf2e7505512568b11c437c840a0c19 Merge branch 'bpf-verifier-log-improvements'
-2d1618054f25e11c44d189dbff4a60342a4cfb4b bpf: task_group_seq_get_next: use __next_thread() rather than next_thread()
-5a34f9dabd9aa567e2d37e1aa27a67f80acfaa1c bpf: bpf_iter_task_next: use __next_thread() rather than next_thread()
-ac8148d957f50434411a0c15a2e4f352b5bb4ff2 bpf: bpf_iter_task_next: use next_task(kit->task) rather than next_task(kit->pos)
-3e124aa6cb5e74308f5997f63ebd3e5badb5c4e7 Merge branch 'bpf-kernel-bpf-task_iter-c-don-t-abuse-next_thread'
-57b97ecb40caeb116c22451bbdaaa9a1d12c0b43 selftests/bpf: reduce verboseness of reg_bounds selftest logs
-b0e2a0395312f4e53504ae84eeb5902e5518d1d7 selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in bpf_tcp_ca
-3ec1114a97457398077e45b231d502d1cc30439d selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in bind_perm
-f125d09b99fc0ee43f865810390f10b8f23a2c98 selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in bpf_obj_id
-3ece0e85f679c23d2a5128993846c58a2f5f890e selftests/bpf: Replaces the usage of CHECK calls for ASSERTs in vmlinux
-3cbbf9192abdc9183eb215b5e8b06c778e5c2214 Merge branch 'selftests-bpf-update-multiple-prog_tests-to-use-assert_-macros'
-d2689b6a86b9d23574bd4b654bf770b6034e2c7e net: usb: ax88179_178a: avoid two consecutive device resets
-dd891b5b106fa7346d75b3ee3448fa0071422f3d net: do not send a MOVE event when netdev changes netns
-8405d6626289160fcd21b0f0c827144556be52be mlxsw: cmd: Add cmd_mbox.query_fw.cff_support
-50ee67789b823ffb052f3be20349c05c30bee2e6 mlxsw: cmd: Add MLXSW_CMD_MBOX_CONFIG_PROFILE_FLOOD_MODE_CFF
-2d19da9277199ec69b555ca32042be2a7cd493c6 mlxsw: resources: Add max_cap_nve_flood_prf
-e1e4ce6c6d54ff206e55bd8c89c00bfee891458c mlxsw: reg: Add Switch FID Flooding Profiles Register
-7eb902954b624ee338303ad735235429e036b31b mlxsw: reg: Mark SFGC & some SFMR fields as reserved in CFF mode
-642d6a2033d85797e0f8807d0e48bb007d5e73ca mlxsw: reg: Drop unnecessary writes from mlxsw_reg_sfmr_pack()
-446bc1e9dec63b419751b8bdecba06fee631672e mlxsw: reg: Extract flood-mode specific part of mlxsw_reg_sfmr_pack()
-6b10371c386c381651e2ea42ae11be6c35004b55 mlxsw: reg: Add to SFMR register the fields related to CFF flood mode
-09591595686750b68c6d40c5349e737d78f6da47 mlxsw: core, pci: Add plumbing related to CFF mode
-9aad19a363f68470ac5af677cda7120393e94a06 mlxsw: pci: Permit enabling CFF mode
-b51c876c2297f8b32ca579712e3ab1490114d1ee mlxsw: spectrum_fid: Drop unnecessary conditions
-2b7bccd1f167aa056206cc2551514b35c9fd30ab mlxsw: spectrum_fid: Extract SFMR packing into a helper
-27851dfaa3d608ae13557a2684a0bd5e2aa5bff1 mlxsw: spectrum_router: Add a helper to get subport number from a RIF
-f7ebb4023765e728a984c628fb6b929db2a3f76b mlxsw: spectrum_router: Call RIF setup before obtaining FID
-3a17ea77da31ef0b5ab04111583bfcd38f56fcba Merge branch 'mlxsw-preparations-for-support-of-cff-flood-mode'
-5027ec19f1049a07df5b0a37b1f462514cf2724b net: page_pool: split the page_pool_params into fast and slow
-2da0cac1e9494f34c5a3438e5c4c7e662e1b7445 net: page_pool: avoid touching slow on the fastpath
-46e208e70a848a828b35d1e4052313f3b34516d6 Merge branch 'net-page_pool-add-netlink-based-introspection-part1'
-aa8460bacf49e06d5024bb26c591b5fda91ca6c1 bnxt_en: The caller of bnxt_alloc_ctx_mem() should always free bp->ctx
-e50dc4c2206e3eeed10c799db37bb51bc545f28a bnxt_en: Free bp->ctx inside bnxt_free_ctx_mem()
-76087d997a849618935c46a23fa16363be89da68 bnxt_en: Restructure context memory data structures
-035c57615982897da32bdbf311cd025001468f90 bnxt_en: Add page info to struct bnxt_ctx_mem_type
-2ad67aea11f256c7ad7bdc66c0521d7ff71dd8da bnxt_en: Use the pg_info field in bnxt_ctx_mem_type struct
-b098dc5a3357e5791dd397716737cd8bdfd9a8f5 bnxt_en: Add bnxt_setup_ctxm_pg_tbls() helper function
-6a4d0774f02d61f8c75ffe2e38a8553410fe52e9 bnxt_en: Add support for new backing store query firmware API
-236e237f8ffe77c704cee1e63beb9578922bcc5c bnxt_en: Add support for HWRM_FUNC_BACKING_STORE_CFG_V2 firmware calls
-b9e0c47ee2ec588fa0d0527e62c0405b15ecdb25 bnxt_en: Add db_ring_mask and related macro to bnxt_db_info struct.
-6d1add95536bafe585c500ad8114af7ed4225a0f bnxt_en: Modify TX ring indexing logic.
-c09d22674b9420abaaaf946bab471c63369c6509 bnxt_en: Modify RX ring indexing logic.
-f94471f3ce74a5fbe2dc5d9687748d9127174eca bnxt_en: Modify the NAPI logic for the new P7 chips
-1c7fd6ee2fe4ec6b808d10c8757fb1c76efa4a52 bnxt_en: Rename some macros for the P5 chips
-340bf2dbb11b4d2d44055fa5851d75fd335e3d45 Merge branch 'bnxt_en-prepare-to-support-new-p7-chips'
-53475287dad9b314ef477fc9a27b48b6999da053 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
-36b20fcdd9663ced36d3aef96f0eff8eb79de4b8 net: hsr: Add support for MC filtering at the slave device
-750011e239a50873251c16207b0fe78eabf8577e net: stmmac: Add support for HW-accelerated VLAN stripping
-dc53105f60e42b58a751bd5e16164276f479bde6 ice: remove ptp_tx ring parameter flag
-7726f50b4d85f9e753b13b5a8ae78652c81d2808 ice: unify logic for programming PFINT_TSYN_MSK
-39c4900f2644d98fca6142da88b36a8658fbbccd ice: restore timestamp configuration after device reset
-eee5a703e64a43970cc00f2ae1b1eea02f05c401 i40e: fix livelocks in i40e_reset_subtask()
-5d2f1ff497b6455a7b92fd26faf6aa27fd7ba9ea i40e: fix 32bit FW gtime wrapping issue
-d9c697e9aa16085b15be5927fcaf7831c27f65c4 i40e: add tracepoints for nvmupdate troubleshooting
-2e776e90365b70329f3d9503c817a25f5000f914 ice: Re-enable timestamping correctly after reset
-119496c1cad929acb5c8aed33f69cef9d455b1a7 ice: read internal temperature sensor
-39ac3ca59d97974884d816f1756aced01eed0374 ice: change vfs.num_msix_per to vf->num_msix
-8d9a8ab97250b1f1a9e2972fad28dfae8bd99761 i40e: Delete unused and useless i40e_pf fields
-00fe50f36fc27b326adff70980e8bf0097b67780 i40e: Remove AQ register definitions for VF types
-ec7655c9fe0c0eb1afba5ac510f06633bec52ee6 i40e: Remove queue tracking fields from i40e_adminq_ring
-b8decf9fa8997c778c51839155fc35eed098e55b iavf: Remove queue tracking fields from iavf_adminq_ring
-45e98ee80b01be8ba4f8d4c701c560663db4666b i40e: Fix adding unsupported cloud filters
-ce06bb590e1654bddafdb0d75f65a05e9bcd4904 ice: Reset VF on Tx MDD event
-761524c1d7587d223d6cfecbb6236851c89f7805 ice: periodically kick Tx timestamp interrupt
-cb43b33ee3a54a939b496da8362ad0f85fbd7a11 ice: Restore fix disabling RX VLAN filtering
-351065d4e37b0b998a2a69ef5e9f3bfa1c659555 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
-e1a5f2faf18b867ff6c91ba6fbcf38e0f59a0dc5 i40e: Fix waiting for queues of all VSIs to be disabled
-b3122173dfac6111ea524bf51eab43a5db20b538 i40e: Fix unexpected MFS warning message
-b61cc9bab9072d26dc3f2c9d8e50639464be8c59 iavf: use iavf_schedule_aq_request() helper
-0ece111076d10a7cb8f1082153ed548905c2ae73 ice: add CGU info to devlink info callback
-61846f8c145c01d9db8d0b477c0cae814c533d47 ice: Fix VF Reset paths when interface in a failed over aggregate
+978dff67939252711df73b805a85210f276625cf linux-firmware: Add firmware for Cirrus CS35L41 on 2024 ASUS Zenbook Laptops
+4f498d09a4a6a905f231a52f33886f8a5d22d5de linux-firmware: Add firmware for Cirrus CS35L41 on HP G11 Laptops
+4fc5801ee0e7d41d945a8a6c06e0542ec9fa47e0 iwlwifi: update cc/Qu/QuZ firmwares for core83-55 release
+a07fd0b96b5adfb6614f11ca0bdb5a7f5b40410e iwlwifi: add new FWs from core83-55 release
+124b66396ac7a6dce724d04ac7b3bcef1db1d551 Merge branch 'robot/pr-0-1700068965' into 'main'
+9009038b176d3e0caea6f1c4df21ffd953daf81a Enable deb and rpm builds on tags
+f27dec616e29e44cd90645926c1459639d112c3d iwlwifi: fix for the new FWs from core83-55 release
+58ec43257cffef033c3210d92d3dd57ac431f262 Merge branch 'mlimonci/release-packages' into 'main'
+8228c2222fcf5791fe5643252e4d248839c199e9 Try both utf-8 and windows-1252 for decoding email
+b486a13baedf889a011b695ba1f65e0a9f86e416 Merge branch 'robot/pr-17-1700153404' into 'main'
+6723a8d9092325d00a125a1b3ca058644f74d314 Merge branch 'robot/pr-5-1700153542' into 'main'
+bfd5f0b9d5998a5c15e68579265a83753fc71634 Make email replies more resilient
+451090149cecfae5e674d24944579a564afefe8a i915: Update MTL DMC to v2.19
+f81145a07a9959486f56e68260a4265ed2a4c666 Merge branch 'robot/pr-0-1700234575' into 'main'
+7124ce30ba82266e3972e99aacebeda712131d6f Merge branch 'mlimonci/encoding' into 'main'
+ba1aa06f37477a702ebabf14b5753378460c9343 Intel Bluetooth: Update firmware file for Intel Bluetooth BE200
+a41fa7c5008809ae360ce0808e378b37b1d6c0f4 mediatek: Sync shared memory structure changes
+c3ce13b3ffc0634026633b4bf692d63260d3be78 Merge branch 'main' into 'main'
+9552083a783e5e48b90de674d4e3bf23bb855ab0 Merge branch 'robot/pr-0-1700470117' into 'main'
 
---===============5986357860664685980==--
+--===============5809600645281533734==--
