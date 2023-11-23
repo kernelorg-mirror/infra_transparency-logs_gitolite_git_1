@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Nov 2023 09:17:56 -0000
-Message-Id: <170073107648.14883.10078798308027778548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 23 Nov 2023 09:46:35 -0000
+Message-Id: <170073279583.17129.4661296061295058586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 6a26310273c323380da21eb23fcfd50e31140913
-    new: 99360d9620f09fb8bc15548d855011bbb198c680
+  - ref: refs/heads/master
+    old: cde2b067e3b2d1e4b401ad3895d10e91802dabd4
+    new: 3a64c1ff53787193bd3d84377d677ca5f9e9b47d
     log: |
-         99360d9620f09fb8bc15548d855011bbb198c680 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
+         6175b407756b22e7fdc771181b7d832ebdedef5c x86/mce/inject: Clear test status value
+         3a64c1ff53787193bd3d84377d677ca5f9e9b47d Merge branch into tip/master: 'ras/core'
          
