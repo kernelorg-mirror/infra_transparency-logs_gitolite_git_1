@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 23 Nov 2023 05:43:03 -0000
-Message-Id: <170071818314.23678.10636574175802629047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 23 Nov 2023 05:57:04 -0000
+Message-Id: <170071902423.975.13905517357815005157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/experimental
-    old: 7f59b67ae7f0e2f4c214b44b1d9486b23cc547ee
-    new: 838af31bf926eb38a3aa4dc2d53768a69e52d6ea
+  - ref: refs/heads/opp/linux-next
+    old: 41907aa4ae37a3f9ce092927e20afb649fc6fb19
+    new: ac3c2707c99f7b98c7b88f7d94eeb5d01651e7b6
     log: |
-         b3c575c049ed8332790aee3c5c8c90afb4cf30a7 erofs-utils: lib: fix up compact indexes for block size < 4096
-         3f6a5353a382a982457aef64279879ce81ba3a1f erofs-utils: mkfs: support compact indexes for smaller block sizes
-         838af31bf926eb38a3aa4dc2d53768a69e52d6ea erofs-utils: lib: drop prefix_sha256 digests
+         5e04c29cd98cf309cd9810dcb13e7789b4a17ada OPP: Use _set_opp_level() for single genpd case
+         57ba55c5568ac4131429124661b37581b6cd6b7a OPP: Call dev_pm_opp_set_opp() for required OPPs
+         ac3c2707c99f7b98c7b88f7d94eeb5d01651e7b6 OPP: Don't set OPP recursively for a parent genpd
          
