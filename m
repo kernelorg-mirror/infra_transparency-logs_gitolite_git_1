@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 23 Nov 2023 11:21:47 -0000
-Message-Id: <170073850724.22376.14948364610263043092@gitolite.kernel.org>
+Date: Thu, 23 Nov 2023 11:23:23 -0000
+Message-Id: <170073860361.23002.13829048645075776712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 864e48f34e8c440f1bb89ab268a25ad74d94e912
-    new: abc7f81e0e0cc22750da831331aa611e8cc3a450
+    old: abc7f81e0e0cc22750da831331aa611e8cc3a450
+    new: 69883877d468f4d576fd5eb56c71916cd55f0f42
     log: |
-         abc7f81e0e0cc22750da831331aa611e8cc3a450 service: Leverage 'connman_service_set_proxy_method'.
+         69883877d468f4d576fd5eb56c71916cd55f0f42 service: Const-qualify 'connman_service_get_interface'.
          
