@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Nov 2023 10:36:44 -0000
-Message-Id: <170073580465.20838.16928397752245992256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 23 Nov 2023 10:37:00 -0000
+Message-Id: <170073582031.21191.929082952838452257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-linus
-    old: c33fd110424dfcb544cf55a1b312f43fe1918235
-    new: cdba4301adda7c60a2064bf808e48fccd352aaa9
+  - ref: refs/heads/master
+    old: 61c40f484563881420e1606a27663aee930cbe53
+    new: 3ffae02846b1031f8632987b41ea86b9be82ca29
     log: |
-         cdba4301adda7c60a2064bf808e48fccd352aaa9 ASoC: rt5650: add mutex to avoid the jack detection failure
-         
-  - ref: refs/heads/for-next
-    old: f03f298f5120656277ef8ced5230a7c191f84516
-    new: 54acef938be50d28bb482eaead6b3885ec11dd26
-    log: |
-         b1cea462a79316bd619173f1ded8b28202b5ce3a ASoC: fsl: mpc8610_hpcd: Remove unused driver
-         cdba4301adda7c60a2064bf808e48fccd352aaa9 ASoC: rt5650: add mutex to avoid the jack detection failure
-         54acef938be50d28bb482eaead6b3885ec11dd26 Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
+         2a472ae894033b22b4beaa17c1c6e363c4ee3c9b treewide: explicitly mark unused arguments
+         816109f6ffb99d3a7aee1ff6c3467803dcd7939c lsfd: avoid undefined behavior
+         65ca5080159444e25b13e092678bf84164f9de6e irqtop: fix numeric sorting
+         bf40dc09c0e2cd8bf8eed1d503c372326f810bb7 Merge branch 'undefined' of https://github.com/t-8ch/util-linux
+         007b88b602a701147591449fa33ba954a16e8040 Merge branch 'unused' of https://github.com/t-8ch/util-linux
+         3ffae02846b1031f8632987b41ea86b9be82ca29 Merge branch 'irqtop-fix-sort' of https://github.com/nbuwe/util-linux
          
