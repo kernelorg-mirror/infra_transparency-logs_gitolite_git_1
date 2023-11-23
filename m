@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Thu, 23 Nov 2023 07:21:39 -0000
-Message-Id: <170072409920.29276.14114508191138569704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 23 Nov 2023 07:32:48 -0000
+Message-Id: <170072476887.4035.18235979236731570740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/cpufreq/arm/linux-next
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 21f4c443731fdb064c0dd31a743aafd0b075156c
+    new: 2e4e0984c7d696cc74cf2fd7e7f62997f0e9ebe6
     log: |
-         5c68b66d4d7eff8cdb6f508f8537faa30c5faa6d soundwire: qcom: drop unneeded qcom_swrm_stream_alloc_ports() cleanup
-         5bdc61ef45007908df9d8587111c7a5a552bdd46 soundwire: qcom: move sconfig in qcom_swrm_stream_alloc_ports() out of critical section
-         21f4c443731fdb064c0dd31a743aafd0b075156c soundwire: stream: constify sdw_port_config when adding devices
+         2e4e0984c7d696cc74cf2fd7e7f62997f0e9ebe6 cpufreq: imx6q: Don't disable 792 Mhz OPP unnecessarily
          
